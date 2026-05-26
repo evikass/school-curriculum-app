@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffebee"/>
+      <stop offset="100%" stop-color="#ffcdd2"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <!-- Constitution book (large, center) -->
+  <g transform="translate(130,40)">
+    <!-- Book cover -->
+    <rect x="0" y="0" width="240" height="180" rx="5" fill="#b71c1c" stroke="#880e4f" stroke-width="2"/>
+    <!-- Spine effect -->
+    <rect x="0" y="0" width="12" height="180" rx="2" fill="#880e4f"/>
+    <!-- Inner cover -->
+    <rect x="16" y="8" width="216" height="164" rx="3" fill="#c62828"/>
+    <!-- Decorative border -->
+    <rect x="25" y="18" width="198" height="144" rx="2" fill="none" stroke="#ffd600" stroke-width="1.5"/>
+    <rect x="30" y="23" width="188" height="134" rx="2" fill="none" stroke="#ffd600" stroke-width="0.5"/>
+    <!-- Title -->
+    <text x="125" y="50" font-size="14" fill="#ffd600" text-anchor="middle" font-weight="bold">КОНСТИТУЦИЯ</text>
+    <text x="125" y="70" font-size="10" fill="#fff" text-anchor="middle">Российской Федерации</text>
+    <!-- Decorative line -->
+    <line x1="50" y1="78" x2="200" y2="78" stroke="#ffd600" stroke-width="1"/>
+    <!-- Double-headed eagle (simplified) -->
+    <g transform="translate(125,110)">
+      <!-- Shield -->
+      <path d="M-15,-15 L15,-15 L15,10 Q0,20 -15,10 Z" fill="#ffd600" stroke="#f57f17" stroke-width="1"/>
+      <!-- Rider -->
+      <circle cx="0" cy="-5" r="4" fill="#c62828"/>
+      <line x1="0" y1="-1" x2="0" y2="8" stroke="#c62828" stroke-width="1.5"/>
+      <!-- Wings -->
+      <path d="M-15,-10 Q-25,-20 -15,-15" fill="#ffd600"/>
+      <path d="M15,-10 Q25,-20 15,-15" fill="#ffd600"/>
+      <!-- Heads -->
+      <circle cx="-10" cy="-20" r="3" fill="#ffd600" stroke="#f57f17" stroke-width="0.5"/>
+      <circle cx="10" cy="-20" r="3" fill="#ffd600" stroke="#f57f17" stroke-width="0.5"/>
+    </g>
+    <!-- Year -->
+    <text x="125" y="148" font-size="8" fill="#ffd600" text-anchor="middle">12 декабря 1993 г.</text>
+    <!-- Articles hint -->
+    <text x="125" y="160" font-size="6" fill="#ffcdd2" text-anchor="middle">с изменениями от 2020 г.</text>
+  </g>
+  <!-- Key articles (right side) -->
+  <g transform="translate(390,60)">
+    <rect x="-55" y="-15" width="110" height="30" rx="4" fill="#1a237e" opacity="0.85"/>
+    <text x="0" y="-1" font-size="6" fill="#fff" text-anchor="middle">Статья 1</text>
+    <text x="0" y="9" font-size="5" fill="#bbdefb" text-anchor="middle">Демократическое государство</text>
+  </g>
+  <g transform="translate(390,100)">
+    <rect x="-55" y="-15" width="110" height="30" rx="4" fill="#c62828" opacity="0.85"/>
+    <text x="0" y="-1" font-size="6" fill="#fff" text-anchor="middle">Статья 2</text>
+    <text x="0" y="9" font-size="5" fill="#ffcdd2" text-anchor="middle">Высшая ценность — человек</text>
+  </g>
+  <g transform="translate(390,140)">
+    <rect x="-55" y="-15" width="110" height="30" rx="4" fill="#2e7d32" opacity="0.85"/>
+    <text x="0" y="-1" font-size="6" fill="#fff" text-anchor="middle">Статья 3</text>
+    <text x="0" y="9" font-size="5" fill="#c8e6c9" text-anchor="middle">Носитель суверенитета — народ</text>
+  </g>
+  <g transform="translate(390,180)">
+    <rect x="-55" y="-15" width="110" height="30" rx="4" fill="#ff6f00" opacity="0.85"/>
+    <text x="0" y="-1" font-size="6" fill="#fff" text-anchor="middle">Статья 10</text>
+    <text x="0" y="9" font-size="5" fill="#fff3e0" text-anchor="middle">Разделение властей</text>
+  </g>
+  <!-- Structure of Constitution -->
+  <rect x="30" y="240" width="440" height="75" rx="6" fill="#fff" opacity="0.8" stroke="#c62828"/>
+  <text x="250" y="258" font-size="8" fill="#c62828" text-anchor="middle" font-weight="bold">Структура Конституции РФ</text>
+  <g transform="translate(100,275)">
+    <rect x="-55" y="-8" width="110" height="16" rx="3" fill="#1a237e" opacity="0.7"/>
+    <text x="0" y="3" font-size="6" fill="#fff" text-anchor="middle">I. Основы строя</text>
+  </g>
+  <g transform="translate(250,275)">
+    <rect x="-55" y="-8" width="110" height="16" rx="3" fill="#c62828" opacity="0.7"/>
+    <text x="0" y="3" font-size="6" fill="#fff" text-anchor="middle">II. Права и свободы</text>
+  </g>
+  <g transform="translate(400,275)">
+    <rect x="-55" y="-8" width="110" height="16" rx="3" fill="#2e7d32" opacity="0.7"/>
+    <text x="0" y="3" font-size="6" fill="#fff" text-anchor="middle">III. Федеративное</text>
+  </g>
+  <g transform="translate(175,298)">
+    <rect x="-55" y="-8" width="110" height="16" rx="3" fill="#ff6f00" opacity="0.7"/>
+    <text x="0" y="3" font-size="6" fill="#fff" text-anchor="middle">IV. Президент</text>
+  </g>
+  <g transform="translate(325,298)">
+    <rect x="-55" y="-8" width="110" height="16" rx="3" fill="#7b1fa2" opacity="0.7"/>
+    <text x="0" y="3" font-size="6" fill="#fff" text-anchor="middle">V-IX. Власти</text>
+  </g>
+  <text x="250" y="340" font-size="9" fill="#333" opacity="0.5" text-anchor="middle">Конституция — основной закон</text>
+</svg>

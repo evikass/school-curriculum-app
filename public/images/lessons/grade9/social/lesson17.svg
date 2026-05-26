@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#2D3748"/>
+  <!-- Multiple party flags -->
+  <g opacity="0.5">
+    <line x1="60" y1="80" x2="60" y2="200" stroke="#E2E8F0" stroke-width="2"/>
+    <rect x="62" y="85" width="40" height="25" fill="#E53E3E" rx="2"/>
+    <line x1="150" y1="70" x2="150" y2="200" stroke="#E2E8F0" stroke-width="2"/>
+    <rect x="152" y="75" width="40" height="25" fill="#3182CE" rx="2"/>
+    <line x1="240" y1="90" x2="240" y2="200" stroke="#E2E8F0" stroke-width="2"/>
+    <rect x="242" y="95" width="40" height="25" fill="#38A169" rx="2"/>
+    <line x1="330" y1="75" x2="330" y2="200" stroke="#E2E8F0" stroke-width="2"/>
+    <rect x="332" y="80" width="40" height="25" fill="#D69E2E" rx="2"/>
+    <line x1="420" y1="85" x2="420" y2="200" stroke="#E2E8F0" stroke-width="2"/>
+    <rect x="422" y="90" width="40" height="25" fill="#9F7AEA" rx="2"/>
+  </g>
+  <!-- Ballot box -->
+  <rect x="190" y="230" width="120" height="60" rx="5" fill="#4A5568" opacity="0.5"/>
+  <rect x="210" y="220" width="80" height="15" rx="3" fill="#4A5568" opacity="0.5"/>
+  <text x="250" y="270" text-anchor="middle" font-size="10" fill="#E2E8F0" opacity="0.4">ВЫБОРЫ</text>
+  <text x="250" y="310" text-anchor="middle" font-size="16" fill="#E2E8F0" font-weight="bold" opacity="0.6">Политические партии</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#E2E8F0" opacity="0.5">Политические партии</text>
+</svg>

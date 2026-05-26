@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg12" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f46e5"/>
+      <stop offset="100%" style="stop-color:#1e1b4b"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg12)" rx="12"/>
+  <!-- Government building -->
+  <rect x="170" y="40" width="160" height="100" rx="4" fill="#3730a3" stroke="#a5b4fc" stroke-width="2"/>
+  <rect x="170" y="30" width="160" height="15" rx="3" fill="#4f46e5"/>
+  <!-- Dome -->
+  <ellipse cx="250" cy="35" rx="40" ry="20" fill="#6366f1" stroke="#a5b4fc" stroke-width="1.5"/>
+  <line x1="250" y1="15" x2="250" y2="5" stroke="#fbbf24" stroke-width="2"/>
+  <polygon points="250,2 246,8 254,8" fill="#fbbf24"/>
+  <text x="250" y="85" font-family="sans-serif" font-size="11" fill="#e0e7ff" text-anchor="middle" font-weight="bold">ГОСУДАРСТВО</text>
+  <text x="250" y="102" font-family="sans-serif" font-size="8" fill="#c7d2fe" text-anchor="middle">в экономике</text>
+  <!-- Functions on left -->
+  <rect x="15" y="30" width="140" height="155" rx="6" fill="#312e81" stroke="#818cf8" stroke-width="1"/>
+  <text x="85" y="50" font-family="sans-serif" font-size="9" fill="#a5b4fc" text-anchor="middle" font-weight="bold">5 функций</text>
+  <rect x="25" y="58" width="120" height="18" rx="3" fill="#4338ca"/>
+  <text x="85" y="71" font-family="sans-serif" font-size="7" fill="#c7d2fe" text-anchor="middle">1. Правовая база</text>
+  <rect x="25" y="82" width="120" height="18" rx="3" fill="#4338ca"/>
+  <text x="85" y="95" font-family="sans-serif" font-size="7" fill="#c7d2fe" text-anchor="middle">2. Стабилизация</text>
+  <rect x="25" y="106" width="120" height="18" rx="3" fill="#4338ca"/>
+  <text x="85" y="119" font-family="sans-serif" font-size="7" fill="#c7d2fe" text-anchor="middle">3. Перераспределение</text>
+  <rect x="25" y="130" width="120" height="18" rx="3" fill="#4338ca"/>
+  <text x="85" y="143" font-family="sans-serif" font-size="7" fill="#c7d2fe" text-anchor="middle">4. Обществ. блага</text>
+  <rect x="25" y="154" width="120" height="18" rx="3" fill="#4338ca"/>
+  <text x="85" y="167" font-family="sans-serif" font-size="7" fill="#c7d2fe" text-anchor="middle">5. Внешние эффекты</text>
+  <!-- Methods on right -->
+  <rect x="345" y="30" width="140" height="155" rx="6" fill="#312e81" stroke="#fbbf24" stroke-width="1"/>
+  <text x="415" y="50" font-family="sans-serif" font-size="9" fill="#fbbf24" text-anchor="middle" font-weight="bold">Методы</text>
+  <rect x="355" y="58" width="120" height="45" rx="4" fill="#4338ca" stroke="#ef4444" stroke-width="1"/>
+  <text x="415" y="75" font-family="sans-serif" font-size="8" fill="#fca5a5" text-anchor="middle" font-weight="bold">Прямые</text>
+  <text x="415" y="90" font-family="sans-serif" font-size="7" fill="#c7d2fe" text-anchor="middle">Лицензирование</text>
+  <text x="415" y="100" font-family="sans-serif" font-size="7" fill="#c7d2fe" text-anchor="middle">Стандарты, запреты</text>
+  <rect x="355" y="112" width="120" height="55" rx="4" fill="#4338ca" stroke="#10b981" stroke-width="1"/>
+  <text x="415" y="130" font-family="sans-serif" font-size="8" fill="#6ee7b7" text-anchor="middle" font-weight="bold">Косвенные</text>
+  <text x="415" y="145" font-family="sans-serif" font-size="7" fill="#c7d2fe" text-anchor="middle">Налоги, субсидии</text>
+  <text x="415" y="155" font-family="sans-serif" font-size="7" fill="#c7d2fe" text-anchor="middle">Ключевая ставка</text>
+  <!-- Budget -->
+  <rect x="50" y="200" width="200" height="110" rx="6" fill="#312e81" stroke="#818cf8" stroke-width="1"/>
+  <text x="150" y="220" font-family="sans-serif" font-size="10" fill="#a5b4fc" text-anchor="middle" font-weight="bold">Бюджет</text>
+  <rect x="60" y="230" width="85" height="35" rx="4" fill="#10b981" opacity="0.3"/>
+  <text x="102" y="248" font-family="sans-serif" font-size="8" fill="#6ee7b7" text-anchor="middle">Доходы</text>
+  <text x="102" y="260" font-family="sans-serif" font-size="7" fill="#86efac" text-anchor="middle">НДС, НДФЛ</text>
+  <rect x="155" y="230" width="85" height="35" rx="4" fill="#ef4444" opacity="0.3"/>
+  <text x="197" y="248" font-family="sans-serif" font-size="8" fill="#fca5a5" text-anchor="middle">Расходы</text>
+  <text x="197" y="260" font-family="sans-serif" font-size="7" fill="#fecaca" text-anchor="middle">Соц., оборона</text>
+  <rect x="85" y="275" width="130" height="22" rx="4" fill="#4338ca"/>
+  <text x="150" y="290" font-family="sans-serif" font-size="8" fill="#fbbf24" text-anchor="middle">Дефицит / Профицит</text>
+  <!-- Taxes -->
+  <rect x="270" y="200" width="210" height="110" rx="6" fill="#312e81" stroke="#fbbf24" stroke-width="1"/>
+  <text x="375" y="220" font-family="sans-serif" font-size="10" fill="#fbbf24" text-anchor="middle" font-weight="bold">Налоги</text>
+  <rect x="280" y="230" width="60" height="22" rx="3" fill="#4338ca"/>
+  <text x="310" y="244" font-family="sans-serif" font-size="7" fill="#c7d2fe" text-anchor="middle">Федеральн.</text>
+  <rect x="348" y="230" width="60" height="22" rx="3" fill="#4338ca"/>
+  <text x="378" y="244" font-family="sans-serif" font-size="7" fill="#c7d2fe" text-anchor="middle">Региональн.</text>
+  <rect x="416" y="230" width="54" height="22" rx="3" fill="#4338ca"/>
+  <text x="443" y="244" font-family="sans-serif" font-size="7" fill="#c7d2fe" text-anchor="middle">Местные</text>
+  <text x="375" y="272" font-family="sans-serif" font-size="7" fill="#fde68a" text-anchor="middle">НДФЛ 13% | НДС 20%</text>
+  <text x="375" y="290" font-family="sans-serif" font-size="7" fill="#818cf8" text-anchor="middle">Фискальная + Регулирующая</text>
+  <text x="250" y="340" font-family="sans-serif" font-size="9" fill="white" text-anchor="middle" opacity="0.5">Государство в экономике</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg11" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#90CAF9;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#E3F2FD;stop-opacity:0.1"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="#1a1a2e"/>
+  <rect width="500" height="350" fill="url(#bg11)"/>
+  <!-- Mountains -->
+  <polygon points="0,250 120,80 240,250" fill="#546E7A" opacity="0.3"/>
+  <polygon points="150,250 300,60 450,250" fill="#455A64" opacity="0.25"/>
+  <polygon points="100,80 120,50 140,80" fill="#B0BEC5" opacity="0.4"/>
+  <polygon points="280,60 300,30 320,60" fill="#B0BEC5" opacity="0.4"/>
+  <!-- Snow ground -->
+  <path d="M0,250 Q100,240 200,250 Q300,260 400,250 Q450,245 500,250 L500,350 L0,350Z" fill="#90CAF9" opacity="0.1"/>
+  <!-- Skier -->
+  <g transform="translate(180,150)">
+    <circle cx="25" cy="8" r="9" fill="#90CAF9"/>
+    <line x1="25" y1="17" x2="25" y2="55" stroke="#90CAF9" stroke-width="3" stroke-linecap="round"/>
+    <line x1="25" y1="28" x2="10" y2="15" stroke="#90CAF9" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="25" y1="28" x2="42" y2="18" stroke="#90CAF9" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="25" y1="55" x2="8" y2="78" stroke="#90CAF9" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="25" y1="55" x2="42" y2="78" stroke="#90CAF9" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Skis -->
+    <line x1="-5" y1="78" x2="55" y2="78" stroke="#64B5F6" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="82" x2="50" y2="82" stroke="#64B5F6" stroke-width="3" stroke-linecap="round"/>
+    <!-- Poles -->
+    <line x1="10" y1="15" x2="0" y2="78" stroke="#B0BEC5" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="42" y1="18" x2="48" y2="78" stroke="#B0BEC5" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <!-- Pine trees -->
+  <g transform="translate(350,170)">
+    <rect x="12" y="40" width="6" height="20" fill="#5D4037" opacity="0.4"/>
+    <polygon points="15,0 -5,25 35,25" fill="#2E7D32" opacity="0.4"/>
+    <polygon points="15,10 -2,30 32,30" fill="#388E3C" opacity="0.35"/>
+    <polygon points="15,20 0,40 30,40" fill="#43A047" opacity="0.3"/>
+  </g>
+  <g transform="translate(400,190)">
+    <rect x="10" y="35" width="5" height="18" fill="#5D4037" opacity="0.4"/>
+    <polygon points="12,0 -4,22 28,22" fill="#2E7D32" opacity="0.35"/>
+    <polygon points="12,10 -2,28 26,28" fill="#388E3C" opacity="0.3"/>
+  </g>
+  <!-- Snowflakes -->
+  <text x="80" y="100" font-size="14" fill="#B0BEC5" opacity="0.4">❄</text>
+  <text x="320" y="120" font-size="10" fill="#B0BEC5" opacity="0.3">❄</text>
+  <text x="450" y="80" font-size="12" fill="#B0BEC5" opacity="0.35">❄</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#aaa" opacity="0.5" font-family="sans-serif">Лыжная подготовка</text>
+</svg>

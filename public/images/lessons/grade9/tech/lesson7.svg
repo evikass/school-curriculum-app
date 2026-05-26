@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1b2a"/>
+      <stop offset="100%" style="stop-color:#1a237e"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg7)"/>
+  <!-- PCB board -->
+  <rect x="30" y="30" width="250" height="200" fill="#1b5e20" rx="5" stroke="#2e7d32" stroke-width="2"/>
+  <!-- Copper traces -->
+  <g stroke="#4caf50" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M50,80 L120,80 L120,120 L180,120"/>
+    <path d="M50,150 L100,150 L100,100 L180,100"/>
+    <path d="M180,120 L220,120 L220,180"/>
+    <path d="M180,100 L200,100 L200,60"/>
+    <path d="M220,180 L250,180"/>
+  </g>
+  <!-- Resistor component -->
+  <g transform="translate(100,70)">
+    <rect x="0" y="0" width="30" height="12" fill="#8d6e63" rx="3"/>
+    <rect x="4" y="1" width="5" height="10" fill="#ff9800"/><rect x="10" y="1" width="5" height="10" fill="#4caf50"/>
+    <rect x="16" y="1" width="5" height="10" fill="#f44336"/><rect x="22" y="1" width="4" height="10" fill="#ffc107"/>
+    <line x1="-5" y1="6" x2="0" y2="6" stroke="#78909c" stroke-width="1.5"/>
+    <line x1="30" y1="6" x2="35" y2="6" stroke="#78909c" stroke-width="1.5"/>
+  </g>
+  <!-- Capacitor component -->
+  <g transform="translate(170,110)">
+    <line x1="-5" y1="0" x2="5" y2="0" stroke="#78909c" stroke-width="1.5"/>
+    <line x1="5" y1="-12" x2="5" y2="12" stroke="#4fc3f7" stroke-width="3"/>
+    <line x1="12" y1="-12" x2="12" y2="12" stroke="#4fc3f7" stroke-width="3"/>
+    <line x1="12" y1="0" x2="22" y2="0" stroke="#78909c" stroke-width="1.5"/>
+  </g>
+  <!-- LED -->
+  <g transform="translate(215,50)">
+    <polygon points="0,12 12,0 12,24" fill="#f44336" opacity="0.7"/>
+    <line x1="12" y1="0" x2="12" y2="24" stroke="#f44336" stroke-width="2"/>
+    <line x1="12" y1="12" x2="22" y2="12" stroke="#78909c" stroke-width="1.5"/>
+    <line x1="-8" y1="12" x2="0" y2="12" stroke="#78909c" stroke-width="1.5"/>
+    <!-- Light rays -->
+    <line x1="2" y1="-3" x2="8" y2="-8" stroke="#ff9800" stroke-width="1" opacity="0.5"/>
+    <line x1="8" y1="-5" x2="14" y2="-10" stroke="#ff9800" stroke-width="1" opacity="0.5"/>
+  </g>
+  <!-- Transistor -->
+  <g transform="translate(50,135)">
+    <circle cx="12" cy="10" r="14" fill="none" stroke="#78909c" stroke-width="1.5"/>
+    <line x1="0" y1="10" x2="-8" y2="10" stroke="#78909c" stroke-width="1.5"/>
+    <line x1="12" y1="-4" x2="12" y2="-12" stroke="#78909c" stroke-width="1.5"/>
+    <line x1="12" y1="24" x2="12" y2="32" stroke="#78909c" stroke-width="1.5"/>
+    <line x1="12" y1="5" x2="24" y2="0" stroke="#78909c" stroke-width="1.5"/>
+    <line x1="12" y1="15" x2="24" y2="20" stroke="#78909c" stroke-width="1.5"/>
+  </g>
+  <!-- Component labels -->
+  <g fill="#4caf50" font-size="8">
+    <text x="115" y="62">R1</text>
+    <text x="178" y="108">C1</text>
+    <text x="225" y="48">LED</text>
+    <text x="30" y="132">VT1</text>
+  </g>
+  <!-- Component legend on right -->
+  <rect x="300" y="30" width="180" height="200" fill="#0d1b3a" rx="5" stroke="#1a237e" stroke-width="1"/>
+  <text x="390" y="55" fill="#4fc3f7" font-size="11" text-anchor="middle" font-weight="bold">Компоненты</text>
+  <!-- Resistor legend -->
+  <rect x="315" y="70" width="25" height="10" fill="#8d6e63" rx="3"/>
+  <text x="350" y="79" fill="#78909c" font-size="9">Резистор — R (Ом)</text>
+  <!-- Capacitor legend -->
+  <line x1="318" y1="95" x2="325" y2="95" stroke="#4fc3f7" stroke-width="3"/>
+  <line x1="329" y1="95" x2="336" y2="95" stroke="#4fc3f7" stroke-width="3"/>
+  <text x="350" y="99" fill="#78909c" font-size="9">Конденсатор — C (Ф)</text>
+  <!-- Diode legend -->
+  <polygon points="318,115 330,108 330,122" fill="#f44336" opacity="0.6"/>
+  <line x1="330" y1="108" x2="330" y2="122" stroke="#f44336" stroke-width="2"/>
+  <text x="350" y="119" fill="#78909c" font-size="9">Диод — VD</text>
+  <!-- Transistor legend -->
+  <circle cx="325" cy="140" r="8" fill="none" stroke="#78909c" stroke-width="1"/>
+  <text x="350" y="144" fill="#78909c" font-size="9">Транзистор — VT</text>
+  <!-- IC legend -->
+  <rect x="315" y="158" width="25" height="18" fill="#37474f" rx="2"/>
+  <g fill="#78909c">
+    <rect x="312" y="162" width="4" height="3"/><rect x="312" y="168" width="4" height="3"/>
+    <rect x="339" y="162" width="4" height="3"/><rect x="339" y="168" width="4" height="3"/>
+  </g>
+  <text x="350" y="172" fill="#78909c" font-size="9">Микросхема</text>
+  <!-- Solder points -->
+  <g fill="#ffc107" opacity="0.6">
+    <circle cx="120" cy="80" r="2.5"/><circle cx="50" cy="150" r="2.5"/>
+    <circle cx="180" cy="100" r="2.5"/><circle cx="180" cy="120" r="2.5"/>
+    <circle cx="220" cy="120" r="2.5"/><circle cx="200" cy="60" r="2.5"/>
+  </g>
+  <!-- Radio wave symbol -->
+  <g transform="translate(390,250)">
+    <circle cx="0" cy="0" r="5" fill="#4fc3f7"/>
+    <path d="M10,-15 A20,20 0 0,1 10,15" fill="none" stroke="#4fc3f7" stroke-width="1.5" opacity="0.7"/>
+    <path d="M18,-25 A30,30 0 0,1 18,25" fill="none" stroke="#4fc3f7" stroke-width="1.5" opacity="0.5"/>
+    <path d="M26,-35 A40,40 0 0,1 26,35" fill="none" stroke="#4fc3f7" stroke-width="1.5" opacity="0.3"/>
+  </g>
+  <text x="390" y="300" fill="#4fc3f7" font-size="8" text-anchor="middle">Радиоволны</text>
+  <text x="250" y="345" fill="#aaa" font-size="9" text-anchor="middle" opacity="0.5">Радиоэлектроника</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#1a1a2e"/><stop offset="100%" style="stop-color:#2c1810"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <text x="250" y="22" text-anchor="middle" fill="#d4a574" font-size="13" font-weight="bold">Н.В. Гоголь «Мёртвые души» (1842)</text>
+  <!-- Gallery of landowners - staircase of degradation -->
+  <rect x="15" y="40" width="88" height="65" rx="5" fill="#4fc3f7" opacity="0.6"/>
+  <text x="59" y="62" text-anchor="middle" fill="white" font-size="9" font-weight="bold">Манилов</text>
+  <text x="59" y="78" text-anchor="middle" fill="white" font-size="8">Мечтатель</text>
+  <text x="59" y="93" text-anchor="middle" fill="white" font-size="8">Бездеятельность</text>
+  <rect x="108" y="50" width="88" height="65" rx="5" fill="#27ae60" opacity="0.6"/>
+  <text x="152" y="72" text-anchor="middle" fill="white" font-size="9" font-weight="bold">Коробочка</text>
+  <text x="152" y="88" text-anchor="middle" fill="white" font-size="8">Накопительство</text>
+  <text x="152" y="103" text-anchor="middle" fill="white" font-size="8">Ограниченность</text>
+  <rect x="201" y="60" width="88" height="65" rx="5" fill="#f39c12" opacity="0.6"/>
+  <text x="245" y="82" text-anchor="middle" fill="white" font-size="9" font-weight="bold">Ноздрёв</text>
+  <text x="245" y="98" text-anchor="middle" fill="white" font-size="8">Враньё</text>
+  <text x="245" y="113" text-anchor="middle" fill="white" font-size="8">Азарт</text>
+  <rect x="294" y="70" width="88" height="65" rx="5" fill="#e74c3c" opacity="0.6"/>
+  <text x="338" y="92" text-anchor="middle" fill="white" font-size="9" font-weight="bold">Собакевич</text>
+  <text x="338" y="108" text-anchor="middle" fill="white" font-size="8">Кулак</text>
+  <text x="338" y="123" text-anchor="middle" fill="white" font-size="8">Хватка</text>
+  <rect x="387" y="80" width="98" height="65" rx="5" fill="#c0392b" opacity="0.8"/>
+  <text x="436" y="102" text-anchor="middle" fill="white" font-size="9" font-weight="bold">Плюшкин</text>
+  <text x="436" y="118" text-anchor="middle" fill="white" font-size="8">Скупость</text>
+  <text x="436" y="133" text-anchor="middle" fill="white" font-size="8">«Прореха»</text>
+  <!-- Arrow showing degradation -->
+  <line x1="15" y1="115" x2="485" y2="155" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="250" y="170" text-anchor="middle" fill="#e74c3c" font-size="9">→ Деградация личности →</text>
+  <!-- Chichikov -->
+  <rect x="120" y="185" width="260" height="45" rx="6" fill="#1a1a2e" stroke="#d4a574" stroke-width="1.5"/>
+  <text x="250" y="205" text-anchor="middle" fill="#d4a574" font-size="11" font-weight="bold">Чичиков — аферист и приспособленец</text>
+  <text x="250" y="222" text-anchor="middle" fill="white" font-size="9">Скупает «мёртвые души» для залога в опекунском совете</text>
+  <!-- Dante parallel -->
+  <rect x="30" y="245" width="440" height="65" rx="6" fill="#2c1810" stroke="#d4a574" stroke-width="1"/>
+  <text x="250" y="268" text-anchor="middle" fill="#d4a574" font-size="11" font-weight="bold">Замысел: три тома по аналогии с Данте</text>
+  <text x="130" y="290" text-anchor="middle" fill="#e74c3c" font-size="10">Ад (I том)</text>
+  <text x="250" y="290" text-anchor="middle" fill="#f39c12" font-size="10">Чистилище</text>
+  <text x="370" y="290" text-anchor="middle" fill="#27ae60" font-size="10">Рай</text>
+  <text x="250" y="305" text-anchor="middle" fill="white" font-size="8">Завершён только первый том</text>
+  <text x="250" y="345" text-anchor="middle" fill="white" font-size="9" opacity="0.5">Гоголь «Мёртвые души»</text>
+</svg>

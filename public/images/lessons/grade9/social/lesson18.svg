@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><linearGradient id="g18" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#44337A"/><stop offset="100%" stop-color="#322659"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#g18)"/>
+  <!-- Scales of justice -->
+  <g transform="translate(250,100)" opacity="0.5">
+    <line x1="0" y1="-20" x2="0" y2="30" stroke="#F6E05E" stroke-width="3"/>
+    <line x1="-60" y1="0" x2="60" y2="0" stroke="#F6E05E" stroke-width="2"/>
+    <path d="M-60 0 Q-55 20 -40 20 Q-25 20 -60 0" fill="#63B3ED" opacity="0.4"/>
+    <path d="M60 0 Q55 20 40 20 Q25 20 60 0" fill="#FC8181" opacity="0.4"/>
+    <circle cx="0" cy="-22" r="5" fill="#F6E05E" opacity="0.5"/>
+  </g>
+  <!-- Book of law -->
+  <g transform="translate(140,180)" opacity="0.4">
+    <rect x="0" y="0" width="60" height="80" rx="3" fill="#8B7355"/>
+    <rect x="3" y="3" width="54" height="74" rx="2" fill="#F6E05E" opacity="0.2"/>
+    <line x1="30" y1="3" x2="30" y2="77" stroke="#8B7355" stroke-width="1"/>
+  </g>
+  <!-- Gavel -->
+  <g transform="translate(350,200)" opacity="0.4">
+    <rect x="-5" y="-25" width="10" height="20" rx="3" fill="#8B7355"/>
+    <line x1="0" y1="-5" x2="0" y2="30" stroke="#8B7355" stroke-width="4"/>
+  </g>
+  <text x="250" y="310" text-anchor="middle" font-size="22" fill="#E2E8F0" font-weight="bold" opacity="0.6">Право</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#E2E8F0" opacity="0.5">Право</text>
+</svg>

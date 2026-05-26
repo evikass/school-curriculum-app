@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#4A5568"/>
+  <!-- Three columns -->
+  <rect x="30" y="60" width="140" height="210" rx="8" fill="#38A169" opacity="0.3"/>
+  <rect x="180" y="60" width="140" height="210" rx="8" fill="#D69E2E" opacity="0.3"/>
+  <rect x="330" y="60" width="140" height="210" rx="8" fill="#C53030" opacity="0.3"/>
+  <!-- Democracy -->
+  <g transform="translate(100,100)" opacity="0.6">
+    <circle cx="0" cy="0" r="8" fill="#FFF" opacity="0.5"/><circle cx="15" cy="5" r="6" fill="#FFF" opacity="0.5"/>
+    <circle cx="-15" cy="5" r="6" fill="#FFF" opacity="0.5"/><circle cx="8" cy="15" r="5" fill="#FFF" opacity="0.5"/>
+    <circle cx="-8" cy="15" r="5" fill="#FFF" opacity="0.5"/>
+  </g>
+  <text x="100" y="150" text-anchor="middle" font-size="12" fill="#C6F6D5" opacity="0.7">Демократия</text>
+  <text x="100" y="170" text-anchor="middle" font-size="8" fill="#C6F6D5" opacity="0.5">Свободы</text>
+  <text x="100" y="185" text-anchor="middle" font-size="8" fill="#C6F6D5" opacity="0.5">Выборы</text>
+  <text x="100" y="200" text-anchor="middle" font-size="8" fill="#C6F6D5" opacity="0.5">Многопартийн.</text>
+  <!-- Authoritarianism -->
+  <g transform="translate(250,100)" opacity="0.6">
+    <rect x="-15" y="-15" width="30" height="30" rx="3" fill="#FFF" opacity="0.4"/>
+    <circle cx="0" cy="0" r="8" fill="#D69E2E" opacity="0.5"/>
+  </g>
+  <text x="250" y="150" text-anchor="middle" font-size="12" fill="#FEEBC8" opacity="0.7">Авторитаризм</text>
+  <text x="250" y="170" text-anchor="middle" font-size="8" fill="#FEEBC8" opacity="0.5">Огранич. свобод</text>
+  <text x="250" y="185" text-anchor="middle" font-size="8" fill="#FEEBC8" opacity="0.5">Экон. свобода</text>
+  <text x="250" y="200" text-anchor="middle" font-size="8" fill="#FEEBC8" opacity="0.5">Однопартийн.</text>
+  <!-- Totalitarian -->
+  <g transform="translate(400,100)" opacity="0.6">
+    <rect x="-18" y="-18" width="36" height="36" rx="2" fill="#FFF" opacity="0.3"/>
+    <line x1="-18" y1="-18" x2="18" y2="18" stroke="#FFF" stroke-width="1" opacity="0.5"/>
+    <line x1="18" y1="-18" x2="-18" y2="18" stroke="#FFF" stroke-width="1" opacity="0.5"/>
+  </g>
+  <text x="400" y="150" text-anchor="middle" font-size="12" fill="#FED7D7" opacity="0.7">Тоталитаризм</text>
+  <text x="400" y="170" text-anchor="middle" font-size="8" fill="#FED7D7" opacity="0.5">Полный контроль</text>
+  <text x="400" y="185" text-anchor="middle" font-size="8" fill="#FED7D7" opacity="0.5">Цензура</text>
+  <text x="400" y="200" text-anchor="middle" font-size="8" fill="#FED7D7" opacity="0.5">Культ личности</text>
+  <text x="250" y="310" text-anchor="middle" font-size="16" fill="#E2E8F0" font-weight="bold" opacity="0.6">Политические режимы</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#E2E8F0" opacity="0.5">Политические режимы</text>
+</svg>

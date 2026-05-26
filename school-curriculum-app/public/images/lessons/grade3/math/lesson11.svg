@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="math11" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#B2EBF2;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#80DEEA;stop-opacity:0.4"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#math11)"/>
+  <rect width="500" height="350" fill="#FFFDE7" opacity="0.3"/>
+  
+  <!-- Sun -->
+  <circle cx="420" cy="50" r="28" fill="#FFD54F" opacity="0.7">
+    <animate attributeName="r" values="26;30;26" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#00838F" text-anchor="middle">📝 Задачи на деление</text>
+  <rect x="80" y="42" width="340" height="2" rx="1" fill="#00BCD4" opacity="0.5"/>
+  
+  <!-- Ground -->
+  <ellipse cx="250" cy="320" rx="260" ry="45" fill="#80DEEA" opacity="0.5"/>
+  
+  <!-- Two types -->
+  <g transform="translate(30, 70)" font-family="Arial, sans-serif">
+    <!-- Equal parts -->
+    <g>
+      <rect x="0" y="0" width="200" height="100" fill="#E0F7FA" rx="8" stroke="#00BCD4"/>
+      <text x="100" y="22" font-size="12" font-weight="bold" fill="#006064" text-anchor="middle">Деление на равные части</text>
+      <text x="100" y="40" font-size="10" fill="#00838F" text-anchor="middle">«Разделили поровну»</text>
+      <text x="100" y="60" font-size="10" fill="#0097A7" text-anchor="middle">36 яблок ÷ 4 детей = 9</text>
+      <text x="100" y="78" font-size="9" fill="#00ACC1" text-anchor="middle">Каждому по 9 яблок</text>
+      <text x="100" y="95" font-size="8" fill="#26C6DA" text-anchor="middle">(делим на количество групп)</text>
+    </g>
+    
+    <!-- By content -->
+    <g transform="translate(220, 0)">
+      <rect x="0" y="0" width="200" height="100" fill="#B2EBF2" rx="8" stroke="#00BCD4"/>
+      <text x="100" y="22" font-size="12" font-weight="bold" fill="#006064" text-anchor="middle">Деление по содержанию</text>
+      <text x="100" y="40" font-size="10" fill="#00838F" text-anchor="middle">«По сколько-то каждому»</text>
+      <text x="100" y="60" font-size="10" fill="#0097A7" text-anchor="middle">24 конфеты по 6 каждому = 4</text>
+      <text x="100" y="78" font-size="9" fill="#00ACC1" text-anchor="middle">4 ребёнка получат конфеты</text>
+      <text x="100" y="95" font-size="8" fill="#26C6DA" text-anchor="middle">(узнаём количество групп)</text>
+    </g>
+  </g>
+  
+  <!-- Examples -->
+  <g transform="translate(50, 190)" font-family="Arial, sans-serif" font-size="11">
+    <rect x="0" y="0" width="400" height="50" fill="#FFF8E1" rx="5" stroke="#FFC107"/>
+    <text x="200" y="18" font-weight="bold" fill="#E65100" text-anchor="middle">Примеры</text>
+    <text x="200" y="35" fill="#F57C00" text-anchor="middle">42 тетради ÷ 6 учеников = 7 тетрадей каждому</text>
+    <text x="200" y="48" fill="#FF9800" text-anchor="middle">48 марок по 6 на страницу = 8 страниц</text>
+  </g>
+  
+  <!-- Tip -->
+  <g transform="translate(150, 260)">
+    <rect x="0" y="0" width="200" height="40" fill="#C8E6C9" rx="5" stroke="#4CAF50"/>
+    <text x="100" y="18" font-family="Arial, sans-serif" font-size="10" fill="#2E7D32" text-anchor="middle">💡 Всегда проверяй ответ</text>
+    <text x="100" y="32" font-family="Arial, sans-serif" font-size="9" fill="#388E3C" text-anchor="middle">обратным действием (умножением)!</text>
+  </g>
+  
+  <!-- Flowers -->
+  <circle cx="25" cy="310" r="5" fill="#E91E63"/>
+  <circle cx="475" cy="310" r="5" fill="#E91E63"/>
+  
+  <!-- Sparkles -->
+  <circle cx="130" cy="130" r="2" fill="#FFD54F">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="370" cy="130" r="2" fill="#FFD54F">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite" begin="0.3s"/>
+  </circle>
+</svg>

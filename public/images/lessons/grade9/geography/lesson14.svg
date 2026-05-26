@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <radialGradient id="earth14" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#81D4FA"/>
+      <stop offset="100%" stop-color="#0288D1"/>
+    </radialGradient>
+  </defs>
+  <rect width="500" height="350" fill="#ECEFF1"/>
+  <!-- Earth in center -->
+  <circle cx="250" cy="140" r="80" fill="url(#earth14)"/>
+  <!-- Simplified continents on earth -->
+  <path d="M210,90 Q230,80 250,85 Q260,90 255,105 Q248,115 235,112 Q220,108 210,90" fill="#66BB6A" opacity="0.6"/>
+  <path d="M265,95 Q280,88 295,95 Q305,105 298,120 Q288,130 275,125 Q265,115 265,95" fill="#66BB6A" opacity="0.6"/>
+  <path d="M225,125 Q240,118 255,125 Q265,135 260,155 Q250,170 238,168 Q225,162 220,145 Q218,135 225,125" fill="#66BB6A" opacity="0.6"/>
+  <path d="M280,135 Q295,128 310,135 Q320,148 315,165 Q305,178 290,175 Q278,168 278,150 Q278,140 280,135" fill="#66BB6A" opacity="0.6"/>
+  <!-- Problem icons around earth -->
+  <!-- 1. Climate change / warming -->
+  <g transform="translate(80,55)">
+    <rect x="-30" y="-22" width="60" height="58" rx="5" fill="white" opacity="0.85" stroke="#F44336" stroke-width="1.5"/>
+    <!-- Thermometer -->
+    <rect x="-5" y="-15" width="10" height="28" rx="5" fill="none" stroke="#F44336" stroke-width="1.5"/>
+    <circle cx="0" cy="16" r="7" fill="#F44336" opacity="0.6"/>
+    <rect x="-2" y="-5" width="4" height="18" fill="#F44336" opacity="0.5"/>
+    <!-- Heat waves -->
+    <path d="M8,-10 Q12,-14 8,-18" stroke="#FF9800" stroke-width="1" fill="none"/>
+    <path d="M8,-5 Q12,-9 8,-13" stroke="#FF9800" stroke-width="1" fill="none"/>
+    <text x="0" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#C62828" font-weight="bold">Изменение</text>
+    <text x="0" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#C62828" font-weight="bold">климата</text>
+  </g>
+  <!-- 2. Pollution -->
+  <g transform="translate(420,55)">
+    <rect x="-30" y="-22" width="60" height="58" rx="5" fill="white" opacity="0.85" stroke="#795548" stroke-width="1.5"/>
+    <!-- Factory with smoke -->
+    <rect x="-12" y="2" width="24" height="15" fill="#795548" opacity="0.6"/>
+    <rect x="-5" y="-10" width="5" height="12" fill="#795548" opacity="0.6"/>
+    <rect x="5" y="-5" width="5" height="7" fill="#795548" opacity="0.6"/>
+    <circle cx="-3" cy="-14" r="4" fill="#9E9E9E" opacity="0.4"/>
+    <circle cx="7" cy="-10" r="3" fill="#9E9E9E" opacity="0.3"/>
+    <text x="0" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#4E342E" font-weight="bold">Загрязнение</text>
+    <text x="0" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#4E342E" font-weight="bold">среды</text>
+  </g>
+  <!-- 3. Overpopulation -->
+  <g transform="translate(80,230)">
+    <rect x="-30" y="-22" width="60" height="58" rx="5" fill="white" opacity="0.85" stroke="#FF9800" stroke-width="1.5"/>
+    <!-- People crowd -->
+    <circle cx="-10" cy="-8" r="5" fill="#FF9800" opacity="0.6"/>
+    <circle cx="0" cy="-10" r="5" fill="#FF9800" opacity="0.6"/>
+    <circle cx="10" cy="-8" r="5" fill="#FF9800" opacity="0.6"/>
+    <circle cx="-5" cy="2" r="5" fill="#FF9800" opacity="0.6"/>
+    <circle cx="5" cy="2" r="5" fill="#FF9800" opacity="0.6"/>
+    <text x="0" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#E65100" font-weight="bold">Демографич.</text>
+    <text x="0" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#E65100" font-weight="bold">проблемы</text>
+  </g>
+  <!-- 4. War/Conflict -->
+  <g transform="translate(420,230)">
+    <rect x="-30" y="-22" width="60" height="58" rx="5" fill="white" opacity="0.85" stroke="#C62828" stroke-width="1.5"/>
+    <!-- Explosion -->
+    <polygon points="0,-15 5,-5 15,-8 8,2 12,12 0,6 -12,12 -8,2 -15,-8 -5,-5" fill="#F44336" opacity="0.5"/>
+    <circle cx="0" cy="0" r="6" fill="#FF9800" opacity="0.6"/>
+    <text x="0" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#C62828" font-weight="bold">Вооружённые</text>
+    <text x="0" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#C62828" font-weight="bold">конфликты</text>
+  </g>
+  <!-- 5. Resource depletion -->
+  <g transform="translate(250,280)">
+    <rect x="-30" y="-18" width="60" height="48" rx="5" fill="white" opacity="0.85" stroke="#2E7D32" stroke-width="1.5"/>
+    <!-- Oil barrel -->
+    <ellipse cx="0" cy="-2" rx="10" ry="5" fill="#795548" opacity="0.4"/>
+    <rect x="-10" y="-2" width="20" height="15" fill="#795548" opacity="0.3"/>
+    <ellipse cx="0" cy="13" rx="10" ry="5" fill="#795548" opacity="0.4"/>
+    <!-- Down arrow -->
+    <line x1="15" y1="-8" x2="15" y2="10" stroke="#C62828" stroke-width="2"/>
+    <polygon points="15,12 11,6 19,6" fill="#C62828"/>
+    <text x="0" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" font-weight="bold">Истощение ресурсов</text>
+  </g>
+  <!-- Connection lines from earth to problems -->
+  <line x1="180" y1="85" x2="112" y2="65" stroke="#F44336" stroke-width="1" stroke-dasharray="3,2" opacity="0.5"/>
+  <line x1="320" y1="85" x2="388" y2="65" stroke="#795548" stroke-width="1" stroke-dasharray="3,2" opacity="0.5"/>
+  <line x1="190" y1="180" x2="112" y2="225" stroke="#FF9800" stroke-width="1" stroke-dasharray="3,2" opacity="0.5"/>
+  <line x1="310" y1="180" x2="388" y2="225" stroke="#C62828" stroke-width="1" stroke-dasharray="3,2" opacity="0.5"/>
+  <line x1="250" y1="220" x2="250" y2="258" stroke="#2E7D32" stroke-width="1" stroke-dasharray="3,2" opacity="0.5"/>
+  <!-- Title -->
+  <text x="250" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#333" font-weight="bold">Глобальные проблемы человечества</text>
+  <text x="250" y="345" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#666" opacity="0.5">Глобальные проблемы человечества</text>
+</svg>

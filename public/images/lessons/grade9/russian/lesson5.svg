@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg5)"/>
+  <!-- Central hub - обстоятельственные -->
+  <circle cx="250" cy="90" r="45" fill="#e94560" opacity="0.9"/>
+  <text x="250" y="82" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Обстоятель-</text>
+  <text x="250" y="97" text-anchor="middle" fill="white" font-size="10" font-weight="bold">ственные</text>
+  <!-- 8 branches -->
+  <line x1="215" y1="75" x2="80" y2="40" stroke="#4fc3f7" stroke-width="1.5"/>
+  <rect x="15" y="22" width="90" height="30" rx="6" fill="#0f3460" opacity="0.9"/>
+  <text x="60" y="42" text-anchor="middle" fill="white" font-size="9">Места где?</text>
+  <line x1="220" y1="55" x2="140" y2="22" stroke="#4fc3f7" stroke-width="1.5"/>
+  <rect x="100" y="5" width="90" height="30" rx="6" fill="#0f3460" opacity="0.9"/>
+  <text x="145" y="25" text-anchor="middle" fill="white" font-size="9">Времени когда?</text>
+  <line x1="285" y1="55" x2="360" y2="22" stroke="#4fc3f7" stroke-width="1.5"/>
+  <rect x="310" y="5" width="90" height="30" rx="6" fill="#0f3460" opacity="0.9"/>
+  <text x="355" y="25" text-anchor="middle" fill="white" font-size="9">Причины почему?</text>
+  <line x1="285" y1="75" x2="420" y2="40" stroke="#4fc3f7" stroke-width="1.5"/>
+  <rect x="395" y="22" width="90" height="30" rx="6" fill="#0f3460" opacity="0.9"/>
+  <text x="440" y="42" text-anchor="middle" fill="white" font-size="9">Условия если?</text>
+  <line x1="215" y1="105" x2="80" y2="140" stroke="#4fc3f7" stroke-width="1.5"/>
+  <rect x="15" y="125" width="90" height="30" rx="6" fill="#0f3460" opacity="0.9"/>
+  <text x="60" y="145" text-anchor="middle" fill="white" font-size="9">Цели зачем?</text>
+  <line x1="220" y1="125" x2="140" y2="158" stroke="#4fc3f7" stroke-width="1.5"/>
+  <rect x="100" y="145" width="90" height="30" rx="6" fill="#533483" opacity="0.9"/>
+  <text x="145" y="165" text-anchor="middle" fill="white" font-size="9">Уступки хотя?</text>
+  <line x1="285" y1="125" x2="360" y2="158" stroke="#4fc3f7" stroke-width="1.5"/>
+  <rect x="310" y="145" width="90" height="30" rx="6" fill="#0f3460" opacity="0.9"/>
+  <text x="355" y="165" text-anchor="middle" fill="white" font-size="8">Обр.действия как?</text>
+  <line x1="285" y1="105" x2="420" y2="140" stroke="#4fc3f7" stroke-width="1.5"/>
+  <rect x="395" y="125" width="90" height="30" rx="6" fill="#0f3460" opacity="0.9"/>
+  <text x="440" y="142" text-anchor="middle" fill="white" font-size="8">Сравнения</text>
+  <text x="440" y="153" text-anchor="middle" fill="white" font-size="8">как? словно?</text>
+  <!-- Example sentences -->
+  <rect x="20" y="195" width="225" height="55" rx="6" fill="#16213e" stroke="#e94560" stroke-width="1"/>
+  <text x="132" y="215" text-anchor="middle" fill="#e94560" font-size="9" font-weight="bold">Причина:</text>
+  <text x="132" y="232" text-anchor="middle" fill="white" font-size="9" font-style="italic">Я не пришёл, потому что заболел.</text>
+  <rect x="255" y="195" width="225" height="55" rx="6" fill="#16213e" stroke="#4fc3f7" stroke-width="1"/>
+  <text x="367" y="215" text-anchor="middle" fill="#4fc3f7" font-size="9" font-weight="bold">Условие:</text>
+  <text x="367" y="232" text-anchor="middle" fill="white" font-size="9" font-style="italic">Если будешь стараться, всё получится.</text>
+  <rect x="20" y="260" width="225" height="55" rx="6" fill="#16213e" stroke="#533483" stroke-width="1"/>
+  <text x="132" y="280" text-anchor="middle" fill="#533483" font-size="9" font-weight="bold">Уступка:</text>
+  <text x="132" y="297" text-anchor="middle" fill="white" font-size="9" font-style="italic">Хотя было холодно, мы гуляли.</text>
+  <rect x="255" y="260" width="225" height="55" rx="6" fill="#16213e" stroke="#e94560" stroke-width="1"/>
+  <text x="367" y="280" text-anchor="middle" fill="#e94560" font-size="9" font-weight="bold">Сравнение:</text>
+  <text x="367" y="297" text-anchor="middle" fill="white" font-size="9" font-style="italic">Он бежал, как бежит ветер.</text>
+  <text x="250" y="345" text-anchor="middle" fill="white" font-size="9" opacity="0.5">Виды придаточных обстоятельственных</text>
+</svg>

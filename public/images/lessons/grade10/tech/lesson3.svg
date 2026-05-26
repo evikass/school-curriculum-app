@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+      text { font-family: 'Inter', 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" rx="12" ry="12" fill="#ECEFF1" stroke="#37474F" stroke-width="2.5"/>
+
+  <!-- Header bar -->
+  <rect x="1" y="1" width="498" height="48" rx="12" ry="12" fill="#37474F"/>
+  <rect x="1" y="25" width="498" height="24" fill="#37474F"/>
+  <text x="250" y="20" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="600">Мехатроника</text>
+  <text x="250" y="40" text-anchor="middle" fill="#B0BEC5" font-size="10" font-weight="400">Технология — Урок 3</text>
+
+  <!-- Central Venn-like diagram: Mechatronics = Mechanical + Electronics + Software -->
+  <rect x="30" y="60" width="440" height="145" rx="6" fill="#FFFFFF" stroke="#546E7A" stroke-width="1.5"/>
+  <text x="250" y="78" text-anchor="middle" fill="#37474F" font-size="11" font-weight="600">Мехатроника = Механика + Электроника + ПО</text>
+
+  <!-- Three overlapping circles conceptually -->
+  <circle cx="160" cy="135" r="42" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5" opacity="0.7"/>
+  <text x="145" y="128" text-anchor="middle" fill="#1565C0" font-size="9" font-weight="600">Механика</text>
+  <text x="145" y="142" text-anchor="middle" fill="#1565C0" font-size="7">Шестерни</text>
+  <text x="145" y="153" text-anchor="middle" fill="#1565C0" font-size="7">Рычаги</text>
+
+  <circle cx="250" cy="135" r="42" fill="#E0F2F1" stroke="#00897B" stroke-width="1.5" opacity="0.7"/>
+  <text x="250" y="125" text-anchor="middle" fill="#00897B" font-size="9" font-weight="700">Мехатроника</text>
+  <text x="250" y="140" text-anchor="middle" fill="#00897B" font-size="7">Интеграция</text>
+  <text x="250" y="152" text-anchor="middle" fill="#00897B" font-size="7">систем</text>
+
+  <circle cx="340" cy="135" r="42" fill="#FFF3E0" stroke="#E65100" stroke-width="1.5" opacity="0.7"/>
+  <text x="355" y="128" text-anchor="middle" fill="#E65100" font-size="9" font-weight="600">Электроника</text>
+  <text x="355" y="142" text-anchor="middle" fill="#E65100" font-size="7">Микросхемы</text>
+  <text x="355" y="153" text-anchor="middle" fill="#E65100" font-size="7">Датчики</text>
+
+  <!-- Software label -->
+  <rect x="210" y="168" width="80" height="22" rx="4" fill="#ECEFF1" stroke="#546E7A" stroke-width="1"/>
+  <text x="250" y="183" text-anchor="middle" fill="#546E7A" font-size="8" font-weight="600">+ ПО</text>
+
+  <!-- Bottom: Key components -->
+  <rect x="30" y="217" width="210" height="95" rx="6" fill="#FFFFFF" stroke="#546E7A" stroke-width="1.5"/>
+  <text x="135" y="235" text-anchor="middle" fill="#37474F" font-size="11" font-weight="600">Основные компоненты</text>
+
+  <rect x="42" y="244" width="92" height="24" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+  <text x="88" y="260" text-anchor="middle" fill="#1565C0" font-size="8" font-weight="500">Микроконтроллер</text>
+
+  <rect x="142" y="244" width="86" height="24" rx="4" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
+  <text x="185" y="260" text-anchor="middle" fill="#E65100" font-size="8" font-weight="500">Актюаторы</text>
+
+  <rect x="42" y="276" width="92" height="24" rx="4" fill="#E0F2F1" stroke="#00897B" stroke-width="1"/>
+  <text x="88" y="292" text-anchor="middle" fill="#00897B" font-size="8" font-weight="500">ШИМ-контроль</text>
+
+  <rect x="142" y="276" width="86" height="24" rx="4" fill="#ECEFF1" stroke="#546E7A" stroke-width="1"/>
+  <text x="185" y="292" text-anchor="middle" fill="#546E7A" font-size="8" font-weight="500">АЦП / ЦАП</text>
+
+  <!-- Right bottom: Applications -->
+  <rect x="260" y="217" width="210" height="95" rx="6" fill="#FFFFFF" stroke="#546E7A" stroke-width="1.5"/>
+  <text x="365" y="235" text-anchor="middle" fill="#37474F" font-size="11" font-weight="600">Применение мехатроники</text>
+
+  <text x="275" y="254" fill="#00897B" font-size="8">▸</text>
+  <text x="288" y="254" fill="#546E7A" font-size="8">Промышленные роботы</text>
+  <text x="275" y="268" fill="#00897B" font-size="8">▸</text>
+  <text x="288" y="268" fill="#546E7A" font-size="8">CNC-станки</text>
+  <text x="275" y="282" fill="#00897B" font-size="8">▸</text>
+  <text x="288" y="282" fill="#546E7A" font-size="8">Автомобильные системы</text>
+  <text x="275" y="296" fill="#00897B" font-size="8">▸</text>
+  <text x="288" y="296" fill="#546E7A" font-size="8">Медицинское оборудование</text>
+
+  <!-- Footer -->
+  <rect x="1" y="322" width="498" height="27" rx="0" ry="0" fill="#37474F"/>
+  <rect x="1" y="322" width="498" height="27" rx="0" ry="0" fill="#37474F" opacity="0.9"/>
+  <text x="250" y="340" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="500">Технология · 10 класс</text>
+</svg>

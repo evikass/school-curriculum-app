@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#E3F2FD"/><stop offset="100%" stop-color="#FFF"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#1565C0"/><stop offset="100%" stop-color="#1976D2"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+  <text x="250" y="28" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1565C0" text-anchor="middle">Электрическое поле</text>
+  <text x="250" y="44" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Физика 10 класс — Урок 45</text>
+  <line x1="30" y1="52" x2="470" y2="52" stroke="#1565C0" stroke-width="1.5" opacity="0.25"/>
+  <clipPath id="ill"><rect x="15" y="56" width="470" height="238" rx="6"/></clipPath>
+  <g clip-path="url(#ill)"><rect x="15" y="56" width="470" height="238" fill="#E3F2FD" opacity="0.4"/>
+
+    <!-- Electric field of point charge -->
+    <rect x="25" y="62" width="225" height="150" rx="5" fill="white" stroke="#E53935" stroke-width="1.2"/>
+    <text x="137" y="78" font-family="Arial,sans-serif" font-size="9" fill="#E53935" font-weight="bold" text-anchor="middle">Поле точечного заряда</text>
+
+    <!-- Central positive charge -->
+    <circle cx="137" cy="140" r="12" fill="#E53935" opacity="0.8"/>
+    <text x="137" y="145" font-family="Arial,sans-serif" font-size="14" fill="white" text-anchor="middle">+</text>
+
+    <!-- Field lines radiating outward -->
+    <line x1="149" y1="135" x2="182.23076923076923" y2="121.15384615384616" stroke="#E53935" stroke-width="1.5"/>
+<polygon points="185,120 180.3846153846154,124.52307692307693 178.53846153846152,120.09230769230768" fill="#E53935"/>
+    <line x1="143" y1="152" x2="163.3358994113243" y2="182.50384911698646" stroke="#E53935" stroke-width="1.5"/>
+<polygon points="165,185 159.67487811623778,181.3389787049135 163.66871952905944,178.6764177630324" fill="#E53935"/>
+    <line x1="137" y1="128" x2="137.0" y2="98.0" stroke="#E53935" stroke-width="1.5"/>
+<polygon points="137,95 139.4,101.0 134.6,101.0" fill="#E53935"/>
+    <line x1="125" y1="135" x2="92.75743509005417" y2="121.1817578957375" stroke="#E53935" stroke-width="1.5"/>
+<polygon points="90,120 96.46027649669836,120.15756771943167 94.56946386351834,124.56946386351835" fill="#E53935"/>
+    <line x1="131" y1="152" x2="111.61062647657948" y2="182.46901553680368" stroke="#E53935" stroke-width="1.5"/>
+<polygon points="110,185 111.1964653826019,178.6495298923438 115.246040523716,181.22653225487093" fill="#E53935"/>
+    <line x1="149" y1="145" x2="192.0684709082316" y2="154.36271106700687" stroke="#E53935" stroke-width="1.5"/>
+<polygon points="195,155 188.6271106700687,156.07064540742846 189.6467729628577,151.38019886059902" fill="#E53935"/>
+    <line x1="125" y1="145" x2="82.84604989415155" y2="159.05131670194947" stroke="#E53935" stroke-width="1.5"/>
+<polygon points="80,160 84.93315314986268,155.82579348857774 86.45104642674349,160.3794733192202" fill="#E53935"/>
+
+    <!-- Test charge at a point -->
+    <circle cx="185" cy="120" r="5" fill="#1565C0" opacity="0.8"/>
+    <text x="185" y="124" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">q0</text>
+    <!-- Force on test charge -->
+    <line x1="190" y1="118" x2="217.24733312407022" y2="106.1928223129029" stroke="#2E7D32" stroke-width="1.5"/>
+<polygon points="220,105 215.44892409846275,109.58777812654961 213.54040839781814,105.18351112506198" fill="#2E7D32"/>
+    <text x="220" y="100" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32">F</text>
+
+    <text x="137" y="205" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Линии выходят из +, входят в -</text>
+
+    <!-- Field strength -->
+    <rect x="260" y="62" width="215" height="80" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.2"/>
+    <text x="367" y="78" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" font-weight="bold" text-anchor="middle">Напряжённость E</text>
+    <line x1="270" y1="83" x2="465" y2="83" stroke="#2E7D32" stroke-width="0.5" opacity="0.3"/>
+    <text x="367" y="100" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle" font-weight="bold">E = F/q0</text>
+    <text x="367" y="115" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle">E = k*q/r*r</text>
+    <text x="367" y="130" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">[E] = В/м = Н/Кл | Вектор!</text>
+
+    <!-- Principle of superposition -->
+    <rect x="260" y="150" width="215" height="62" rx="5" fill="white" stroke="#F57C00" stroke-width="1.2"/>
+    <text x="367" y="166" font-family="Arial,sans-serif" font-size="9" fill="#F57C00" font-weight="bold" text-anchor="middle">Принцип суперпозиции</text>
+    <text x="367" y="182" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle">E = E1 + E2 + E3 + ...</text>
+    <text x="367" y="198" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Векторная сумма полей</text>
+
+    <!-- Dipole field -->
+    <rect x="25" y="225" width="225" height="45" rx="5" fill="white" stroke="#7B1FA2" stroke-width="1.2"/>
+    <text x="137" y="241" font-family="Arial,sans-serif" font-size="9" fill="#7B1FA2" font-weight="bold" text-anchor="middle">Поле диполя</text>
+    <!-- + and - charges -->
+    <circle cx="95" cy="255" r="6" fill="#E53935"/>
+    <text x="95" y="259" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">+</text>
+    <circle cx="180" cy="255" r="6" fill="#1565C0"/>
+    <text x="180" y="259" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">-</text>
+    <!-- Field lines from + to - -->
+    <path d="M 101 252 Q 137 235 174 252" fill="none" stroke="#E53935" stroke-width="1"/>
+    <path d="M 101 258 Q 137 275 174 258" fill="none" stroke="#E53935" stroke-width="1"/>
+
+    <rect x="260" y="225" width="215" height="45" rx="5" fill="white" stroke="#1565C0" stroke-width="1.2"/>
+    <text x="367" y="241" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" font-weight="bold" text-anchor="middle">Однородное поле</text>
+    <!-- Parallel lines -->
+    <line x1="285" y1="250" x2="445" y2="250" stroke="#E53935" stroke-width="1.5"/>
+    <polygon points="445,250 438,246 438,254" fill="#E53935"/>
+    <line x1="285" y1="260" x2="445" y2="260" stroke="#E53935" stroke-width="1.5"/>
+    <polygon points="445,260 438,256 438,264" fill="#E53935"/>
+    <text x="367" y="270" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">E = const (между пластинами)</text>
+    </g><rect x="12" y="298" width="476" height="42" rx="5" fill="url(#panel)"/>
+  <text x="250" y="316" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Электростатика</text>
+  <text x="250" y="332" font-family="Arial,sans-serif" font-size="10" text-anchor="middle" fill="white" opacity="0.8">Урок 45</text></svg>

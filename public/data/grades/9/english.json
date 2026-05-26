@@ -1,0 +1,1559 @@
+{
+  "lessons": {
+    "title": "Английский язык",
+    "icon": "Languages",
+    "color": "text-pink-400",
+    "topics": [
+      "Tenses Review",
+      "Grammar Structures",
+      "Language in Use",
+      "Skills"
+    ],
+    "detailedTopics": [
+      {
+        "topic": "Tenses Review",
+        "lessons": [
+          {
+            "title": "Present Tenses Review",
+            "image": "/images/lessons/grade9/english/lesson1.svg",
+            "description": "\n## Present Tenses: Comprehensive Review\n\nEnglish has four present tenses: Present Simple, Present Continuous, Present Perfect, and Present Perfect Continuous. Each serves a distinct purpose in communicating about present time, habits, ongoing actions, and life experiences.\n\n### Present Simple\n\nUsed for habits, general truths, and permanent situations. Form: subject + V1 (V-s/V-es for he/she/it). Signal words: always, usually, often, sometimes, never, every day.\n\n- She works in a hospital. (habit/regular action)\n- Water boils at 100°C. (general truth)\n- He lives in London. (permanent situation)\n\n### Present Continuous\n\nUsed for actions happening now, temporary situations, and fixed future arrangements. Form: subject + am/is/are + V-ing. Signal words: now, at the moment, currently, this week.\n\n- I am studying English right now. (happening now)\n- She is staying with friends this week. (temporary)\n- We are meeting tomorrow at 3 pm. (fixed arrangement)\n\n### Present Perfect\n\nUsed for life experiences, recent actions with present results, and actions that started in the past and continue. Form: subject + have/has + V3 (past participle). Signal words: ever, never, already, yet, just, since, for.\n\n- I have visited Paris three times. (life experience)\n- She has just finished her homework. (recent action)\n- They have lived here since 2010. (continues to present)\n\n### Present Perfect Continuous\n\nUsed for actions that started in the past and are still continuing, emphasising the duration. Form: subject + have/has been + V-ing. Signal words: for, since, all day, how long.\n\n- I have been waiting for two hours. (emphasis on duration)\n- She has been learning English since childhood.\n",
+            "tasks": [
+              "Complete the sentences with the correct present tense: a) She ___ (work) in a bank. b) They ___ (study) right now. c) I ___ (never/be) to Japan. d) He ___ (wait) for an hour.",
+              "Write four sentences about yourself — one in each present tense.",
+              "Explain the difference between 'I have read this book' and 'I have been reading this book'."
+            ],
+            "facts": [
+              "English has four present tenses: Present Simple, Present Continuous, Present Perfect, Present Perfect Continuous",
+              "Present Simple is used for habits and general truths, NOT for actions happening right now",
+              "Present Perfect connects the past to the present — the result matters now",
+              "Present Perfect Continuous emphasises the duration of an action, not the result"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Which tense is used for habits and general truths?",
+                  "options": [
+                    "Present Continuous",
+                    "Present Perfect",
+                    "Present Simple",
+                    "Present Perfect Continuous"
+                  ],
+                  "correct": "Present Simple"
+                },
+                {
+                  "question": "Choose the correct form: 'She ___ English right now.'",
+                  "options": [
+                    "studies",
+                    "is studying",
+                    "has studied",
+                    "has been studying"
+                  ],
+                  "correct": "is studying"
+                },
+                {
+                  "question": "Which signal word is typical for Present Perfect?",
+                  "options": [
+                    "usually",
+                    "now",
+                    "already",
+                    "this week"
+                  ],
+                  "correct": "already"
+                },
+                {
+                  "question": "Present Perfect Continuous emphasises:",
+                  "options": [
+                    "The result",
+                    "The duration of an action",
+                    "A habit",
+                    "A general truth"
+                  ],
+                  "correct": "The duration of an action"
+                },
+                {
+                  "question": "'Water boils at 100°C' is an example of:",
+                  "options": [
+                    "Present Continuous",
+                    "Present Perfect",
+                    "Present Simple",
+                    "Present Perfect Continuous"
+                  ],
+                  "correct": "Present Simple"
+                }
+              ],
+              "find": [
+                {
+                  "text": "The tense used for 'I have visited Paris three times'",
+                  "answer": "Present Perfect"
+                },
+                {
+                  "text": "The tense used for 'She works in a hospital'",
+                  "answer": "Present Simple"
+                },
+                {
+                  "text": "The tense used for 'I have been waiting for two hours'",
+                  "answer": "Present Perfect Continuous"
+                },
+                {
+                  "text": "The tense used for 'They are studying right now'",
+                  "answer": "Present Continuous"
+                },
+                {
+                  "text": "Signal words: always, usually, never, every day",
+                  "answer": "Present Simple"
+                }
+              ],
+              "match": [
+                {
+                  "term": "Present Simple",
+                  "definition": "Habits, general truths, permanent situations"
+                },
+                {
+                  "term": "Present Continuous",
+                  "definition": "Actions happening now, temporary situations"
+                },
+                {
+                  "term": "Present Perfect",
+                  "definition": "Life experiences, recent actions with present results"
+                },
+                {
+                  "term": "Present Perfect Continuous",
+                  "definition": "Actions emphasising duration from past to present"
+                },
+                {
+                  "term": "Signal words: since, for",
+                  "definition": "Used with Present Perfect and Present Perfect Continuous"
+                }
+              ]
+            },
+            "examples": [
+              "Present Simple: The sun rises in the east — a general truth that never changes",
+              "Present Continuous: She is reading a book at the moment — action happening right now",
+              "Present Perfect: I have already done my homework — completed action with present result",
+              "Present Perfect Continuous: He has been working here for 10 years — emphasis on duration"
+            ],
+            "keyPoints": [
+              "Present Simple: habits, truths, permanent situations — She works here",
+              "Present Continuous: now, temporary, fixed arrangements — She is working now",
+              "Present Perfect: experiences, recent results — She has worked here since 2010",
+              "Present Perfect Continuous: duration emphasis — She has been working all day",
+              "Key signal words: always/usually (Simple), now/at the moment (Continuous), already/ever/never (Perfect), for/since (Perfect Continuous)"
+            ]
+          },
+          {
+            "title": "Past Tenses Review",
+            "image": "/images/lessons/grade9/english/lesson2.svg",
+            "description": "\n## Past Tenses: Comprehensive Review\n\nEnglish has four past tenses: Past Simple, Past Continuous, Past Perfect, and Past Perfect Continuous. These tenses allow us to describe completed actions, ongoing past actions, and sequences of events.\n\n### Past Simple\n\nUsed for completed actions in the past at a specific time. Form: subject + V2 (regular: -ed) / irregular. Signal words: yesterday, last week, ago, in 2015.\n\n- She visited her grandmother last weekend.\n- I didn't see the movie.\n- Did they finish the project?\n\n### Past Continuous\n\nUsed for actions in progress at a specific time in the past or background actions interrupted by another. Form: subject + was/were + V-ing. Signal words: while, when, at 5 pm yesterday.\n\n- I was reading when the phone rang. (interrupted action)\n- While she was cooking, he was watching TV. (parallel actions)\n- At 8 pm, we were having dinner. (action in progress)\n\n### Past Perfect\n\nUsed for actions that happened before another past action — 'the past before the past'. Form: subject + had + V3. Signal words: by the time, before, after, already.\n\n- She had left before I arrived. (she left first, then I arrived)\n- By the time we got to the station, the train had departed.\n\n### Past Perfect Continuous\n\nUsed for actions that were in progress before another past action, emphasising duration. Form: subject + had been + V-ing. Signal words: for, since, before.\n\n- He had been working for 3 hours before he took a break.\n- She was tired because she had been running.\n",
+            "tasks": [
+              "Complete: a) She ___ (go) to school yesterday. b) They ___ (watch) TV when I arrived. c) I ___ (eat) before she came. d) He ___ (study) for hours before the exam.",
+              "Write a short story using all four past tenses.",
+              "Explain the difference: 'She was reading' vs 'She had been reading'."
+            ],
+            "facts": [
+              "Past Simple describes completed actions at a specific past time",
+              "Past Continuous describes actions in progress in the past — often interrupted by another action",
+              "Past Perfect is 'the past before the past' — shows which of two past actions happened first",
+              "Past Perfect Continuous emphasises how long something had been happening before another past event"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Which tense is used for 'the past before the past'?",
+                  "options": [
+                    "Past Simple",
+                    "Past Continuous",
+                    "Past Perfect",
+                    "Past Perfect Continuous"
+                  ],
+                  "correct": "Past Perfect"
+                },
+                {
+                  "question": "Choose the correct form: 'I ___ when the phone rang.'",
+                  "options": [
+                    "slept",
+                    "was sleeping",
+                    "had slept",
+                    "had been sleeping"
+                  ],
+                  "correct": "was sleeping"
+                },
+                {
+                  "question": "What signal word is typical for Past Simple?",
+                  "options": [
+                    "while",
+                    "by the time",
+                    "yesterday",
+                    "before"
+                  ],
+                  "correct": "yesterday"
+                },
+                {
+                  "question": "'She had left before I arrived' uses:",
+                  "options": [
+                    "Past Simple",
+                    "Past Continuous",
+                    "Past Perfect",
+                    "Past Perfect Continuous"
+                  ],
+                  "correct": "Past Perfect"
+                },
+                {
+                  "question": "Past Perfect Continuous emphasises:",
+                  "options": [
+                    "A completed action",
+                    "The duration before another past event",
+                    "A habit",
+                    "An interruption"
+                  ],
+                  "correct": "The duration before another past event"
+                }
+              ],
+              "find": [
+                {
+                  "text": "The tense in 'She visited London last year'",
+                  "answer": "Past Simple"
+                },
+                {
+                  "text": "The tense in 'I was reading when she called'",
+                  "answer": "Past Continuous"
+                },
+                {
+                  "text": "The tense in 'He had finished before we arrived'",
+                  "answer": "Past Perfect"
+                },
+                {
+                  "text": "The tense emphasising duration before a past event",
+                  "answer": "Past Perfect Continuous"
+                },
+                {
+                  "text": "Signal words: yesterday, last week, ago",
+                  "answer": "Past Simple"
+                }
+              ],
+              "match": [
+                {
+                  "term": "Past Simple",
+                  "definition": "Completed past actions at a specific time"
+                },
+                {
+                  "term": "Past Continuous",
+                  "definition": "Actions in progress in the past"
+                },
+                {
+                  "term": "Past Perfect",
+                  "definition": "Action completed before another past action"
+                },
+                {
+                  "term": "Past Perfect Continuous",
+                  "definition": "Duration of an action before another past event"
+                },
+                {
+                  "term": "While + Past Continuous",
+                  "definition": "Two parallel past actions or an interrupted action"
+                }
+              ]
+            },
+            "examples": [
+              "Past Simple: Shakespeare wrote Hamlet in 1600 — a completed historical fact",
+              "Past Continuous: I was walking home when it started raining — interrupted action",
+              "Past Perfect: She had already eaten when I invited her to dinner — action before another past event",
+              "Past Perfect Continuous: He had been training for months before the marathon — emphasis on duration"
+            ],
+            "keyPoints": [
+              "Past Simple: completed past actions — She visited yesterday",
+              "Past Continuous: past actions in progress — She was reading when I called",
+              "Past Perfect: 'past before the past' — She had left before I arrived",
+              "Past Perfect Continuous: duration before past event — He had been studying for hours",
+              "Key signal words: yesterday/ago (Simple), while/when (Continuous), by the time/before (Perfect)"
+            ]
+          },
+          {
+            "title": "Future Forms",
+            "image": "/images/lessons/grade9/english/lesson3.svg",
+            "description": "\n## Future Forms: Will, Going to, Present Continuous, Present Simple\n\nEnglish has several ways to express the future, each with a different nuance. Understanding which form to use is essential for accurate communication.\n\n### Will + infinitive\n\nUsed for spontaneous decisions, predictions based on opinion, promises, and offers. Signal words: probably, I think, I hope.\n\n- I'll help you with that bag. (spontaneous offer)\n- I think it will rain tomorrow. (prediction based on opinion)\n- I promise I'll call you. (promise)\n\n### Be going to + infinitive\n\nUsed for plans and intentions, and predictions based on present evidence. Signal words: plan, intend.\n\n- She is going to study medicine. (intention)\n- Look at those clouds! It's going to rain. (prediction based on evidence)\n\n### Present Continuous for future\n\nUsed for fixed arrangements and appointments — things already organised with other people.\n\n- We are meeting John at 5 pm. (arrangement)\n- I'm flying to Paris tomorrow. (booked ticket)\n\n### Present Simple for future\n\nUsed for scheduled events like timetables and programmes.\n\n- The train leaves at 9 am. (timetable)\n- The film starts at 7:30. (schedule)\n\n### Future Continuous and Perfect\n\nFuture Continuous: will be + V-ing — action in progress at a future time. 'This time tomorrow, I'll be lying on the beach.'\nFuture Perfect: will have + V3 — action completed before a future time. 'By next year, she will have graduated.'\n",
+            "tasks": [
+              "Choose the correct future form: a) 'I ___ help you!' (spontaneous decision) b) 'She ___ study law next year.' (plan) c) 'The bus ___ at 8 am.' (timetable).",
+              "Write sentences using all four future forms about your plans for next weekend.",
+              "Explain the difference: 'It will rain' vs 'It's going to rain'."
+            ],
+            "facts": [
+              "Will is used for spontaneous decisions and predictions based on opinion",
+              "Be going to is used for plans/intentions and predictions based on present evidence",
+              "Present Continuous for future indicates fixed arrangements already organised",
+              "Present Simple for future is used for timetables and scheduled events"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Which form is used for spontaneous decisions?",
+                  "options": [
+                    "Be going to",
+                    "Will",
+                    "Present Continuous",
+                    "Present Simple"
+                  ],
+                  "correct": "Will"
+                },
+                {
+                  "question": "'Look at those clouds! It ___ rain.' Choose the correct form:",
+                  "options": [
+                    "will",
+                    "is going to",
+                    "is raining",
+                    "rains"
+                  ],
+                  "correct": "is going to"
+                },
+                {
+                  "question": "Which form is used for timetables?",
+                  "options": [
+                    "Will",
+                    "Be going to",
+                    "Present Continuous",
+                    "Present Simple"
+                  ],
+                  "correct": "Present Simple"
+                },
+                {
+                  "question": "'We are meeting at 5 pm' is:",
+                  "options": [
+                    "A habit",
+                    "A fixed arrangement",
+                    "A timetable",
+                    "A prediction"
+                  ],
+                  "correct": "A fixed arrangement"
+                },
+                {
+                  "question": "'I promise I ___ call you.' Choose correctly:",
+                  "options": [
+                    "am going to",
+                    "will",
+                    "am calling",
+                    "call"
+                  ],
+                  "correct": "will"
+                }
+              ],
+              "find": [
+                {
+                  "text": "Future form for spontaneous decisions and promises",
+                  "answer": "Will"
+                },
+                {
+                  "text": "Future form for plans and intentions",
+                  "answer": "Be going to"
+                },
+                {
+                  "text": "Future form for fixed arrangements with other people",
+                  "answer": "Present Continuous"
+                },
+                {
+                  "text": "Future form for timetables and schedules",
+                  "answer": "Present Simple"
+                },
+                {
+                  "text": "Future form for predictions based on present evidence (dark clouds)",
+                  "answer": "Be going to"
+                }
+              ],
+              "match": [
+                {
+                  "term": "Will",
+                  "definition": "Spontaneous decisions, promises, opinion predictions"
+                },
+                {
+                  "term": "Be going to",
+                  "definition": "Plans, intentions, evidence-based predictions"
+                },
+                {
+                  "term": "Present Continuous",
+                  "definition": "Fixed arrangements and appointments"
+                },
+                {
+                  "term": "Present Simple",
+                  "definition": "Timetables and scheduled events"
+                },
+                {
+                  "term": "Future Perfect",
+                  "definition": "Action completed before a future time"
+                }
+              ]
+            },
+            "examples": [
+              "Will: 'I'll answer the phone!' — a spontaneous reaction without prior planning",
+              "Be going to: 'I'm going to learn Spanish next year' — a planned intention",
+              "Present Continuous: 'I'm meeting the dentist at 3 pm' — an appointment already booked",
+              "Present Simple: 'The flight departs at 10:15' — an airline timetable, not a personal plan"
+            ],
+            "keyPoints": [
+              "Will: spontaneous decisions, promises, opinion-based predictions",
+              "Be going to: plans/intentions and evidence-based predictions",
+              "Present Continuous: fixed arrangements already organised with others",
+              "Present Simple: timetables and schedules (trains, flights, events)",
+              "Future Perfect: will have + V3 — completed before a future point"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Grammar Structures",
+        "lessons": [
+          {
+            "title": "Modal Verbs Review",
+            "image": "/images/lessons/grade9/english/lesson4.svg",
+            "description": "\n## Modal Verbs: Comprehensive Review\n\nModal verbs express ability, permission, obligation, advice, possibility, and deduction. They are followed by the bare infinitive (without 'to'), except for 'ought to' and 'have to'.\n\n### Can / Could / Be able to\n\n- Can: present ability, informal permission — 'I can swim.'\n- Could: past ability, polite request — 'Could you help me?'\n- Be able to: ability in any tense — 'I will be able to come tomorrow.'\n\n### Must / Have to / Should\n\n- Must: strong obligation (speaker's opinion), deduction — 'You must wear a seatbelt.' / 'She must be tired.'\n- Have to: external obligation — 'I have to wear a uniform at work.'\n- Should / Ought to: advice, recommendation — 'You should see a doctor.'\n\n### May / Might\n\n- May: formal permission, possibility — 'May I come in?'\n- Might: less certain possibility — 'It might rain later.'\n\n### Mustn't / Don't have to\n\n- Mustn't: prohibition — 'You mustn't smoke here.'\n- Don't have to: lack of necessity — 'You don't have to come if you don't want to.'\n\n### Modal verbs for deduction\n\n- Must + infinitive: certainty — 'She must be at home.' (I'm sure)\n- Might/May/Could + infinitive: possibility — 'She might be at home.' (possible)\n- Can't + infinitive: impossibility — 'She can't be at home.' (I'm sure she isn't)\n",
+            "tasks": [
+              "Complete: a) You ___ smoke here. It's prohibited. b) You ___ come if you don't want to. c) She ___ be rich — she has three houses!",
+              "Rewrite using modal verbs: a) It's necessary to study. b) I advise you to rest. c) It's possible she's late.",
+              "Explain the difference: 'mustn't' vs 'don't have to'."
+            ],
+            "facts": [
+              "Modal verbs are followed by bare infinitive (without 'to'), except 'ought to' and 'have to'",
+              "Mustn't means prohibition (запрет), don't have to means lack of necessity (не обязательно)",
+              "Must for deduction expresses certainty, might/may express possibility",
+              "Can refers to present ability, could to past ability or polite requests"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Which modal verb expresses prohibition?",
+                  "options": [
+                    "Don't have to",
+                    "Shouldn't",
+                    "Mustn't",
+                    "Needn't"
+                  ],
+                  "correct": "Mustn't"
+                },
+                {
+                  "question": "'You don't have to come' means:",
+                  "options": [
+                    "It's prohibited",
+                    "It's not necessary",
+                    "It's obligatory",
+                    "It's advisable"
+                  ],
+                  "correct": "It's not necessary"
+                },
+                {
+                  "question": "Which modal expresses certainty in deduction?",
+                  "options": [
+                    "Might",
+                    "Could",
+                    "Must",
+                    "May"
+                  ],
+                  "correct": "Must"
+                },
+                {
+                  "question": "'Could you help me?' is:",
+                  "options": [
+                    "Past ability",
+                    "A polite request",
+                    "Permission",
+                    "Prohibition"
+                  ],
+                  "correct": "A polite request"
+                },
+                {
+                  "question": "Which modal gives advice?",
+                  "options": [
+                    "Must",
+                    "Can",
+                    "Should",
+                    "May"
+                  ],
+                  "correct": "Should"
+                }
+              ],
+              "find": [
+                {
+                  "text": "Modal verb meaning 'it is prohibited'",
+                  "answer": "Mustn't"
+                },
+                {
+                  "text": "Modal verb meaning 'it is not necessary'",
+                  "answer": "Don't have to"
+                },
+                {
+                  "text": "Modal verb for certainty in deduction",
+                  "answer": "Must"
+                },
+                {
+                  "text": "Modal verb for polite requests",
+                  "answer": "Could"
+                },
+                {
+                  "text": "Modal verb for advice and recommendations",
+                  "answer": "Should"
+                }
+              ],
+              "match": [
+                {
+                  "term": "Must",
+                  "definition": "Strong obligation or certainty"
+                },
+                {
+                  "term": "Should",
+                  "definition": "Advice and recommendations"
+                },
+                {
+                  "term": "Mustn't",
+                  "definition": "Prohibition — it's forbidden"
+                },
+                {
+                  "term": "Don't have to",
+                  "definition": "Lack of necessity — it's not required"
+                },
+                {
+                  "term": "Might/May",
+                  "definition": "Possibility — perhaps, maybe"
+                }
+              ]
+            },
+            "examples": [
+              "Must: 'You must wear a helmet when riding a bike' — strong obligation for safety",
+              "Should: 'You should drink more water' — advice for health",
+              "Mustn't: 'You mustn't park here' — it's prohibited, you'll get a fine",
+              "Don't have to: 'You don't have to wear a tie' — it's optional, not required"
+            ],
+            "keyPoints": [
+              "Modal verbs: can, could, may, might, must, should, have to, ought to",
+              "Mustn't = prohibition (запрет); don't have to = not necessary (не обязательно)",
+              "Must for deduction = certainty; might/may = possibility; can't = impossibility",
+              "Should/ought to = advice; must = strong obligation; have to = external obligation",
+              "Modal verbs are followed by bare infinitive (no 'to'), except ought to and have to"
+            ]
+          },
+          {
+            "title": "Passive Voice",
+            "image": "/images/lessons/grade9/english/lesson5.svg",
+            "description": "\n## Passive Voice: Formation and Usage\n\nThe passive voice is used when the focus is on the action or the receiver of the action, not on who performs it. Form: subject + be + past participle (V3).\n\n### Formation\n\n| Tense | Active | Passive |\n|-------|--------|----------|\n| Present Simple | writes | is written |\n| Past Simple | wrote | was written |\n| Present Continuous | is writing | is being written |\n| Present Perfect | has written | has been written |\n| Future Simple | will write | will be written |\n\n### When to use Passive Voice\n\n1. When the doer is unknown — 'The painting was stolen.' (We don't know who stole it)\n2. When the doer is obvious — 'The criminal was arrested.' (Obviously by the police)\n3. When the action is more important than the doer — 'The bridge was built in 1890.'\n4. In formal and scientific writing — 'The experiment was conducted.'\n\n### Passive with by and with\n\n- By + agent (who did it): 'The novel was written by Tolstoy.'\n- With + instrument: 'The window was broken with a stone.'\n\n### Impersonal Passive\n\n'It is said that...' / 'He is believed to be...' — used in news and formal English.\n- It is reported that the president will visit Moscow.\n- She is known to be an excellent doctor.\n",
+            "tasks": [
+              "Transform to passive: a) Shakespeare wrote Hamlet. b) They are building a new school. c) Someone has stolen my bike!",
+              "Write three sentences in passive voice about a famous invention.",
+              "Explain when passive voice is preferable to active voice."
+            ],
+            "facts": [
+              "Passive Voice form: subject + be (in correct tense) + past participle (V3)",
+              "Passive is used when the doer is unknown, obvious, or less important than the action",
+              "'By' introduces the agent (who did it), 'with' introduces the instrument",
+              "Impersonal passive: 'It is said that...' / 'He is believed to...' — common in news and formal English"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "What is the passive form of 'writes'?",
+                  "options": [
+                    "is writing",
+                    "is written",
+                    "was written",
+                    "has written"
+                  ],
+                  "correct": "is written"
+                },
+                {
+                  "question": "When do we use passive voice?",
+                  "options": [
+                    "When the doer is important",
+                    "When the action or receiver is the focus",
+                    "In casual conversation only",
+                    "When we want to be informal"
+                  ],
+                  "correct": "When the action or receiver is the focus"
+                },
+                {
+                  "question": "'The window was broken ___ a stone.' Fill in:",
+                  "options": [
+                    "by",
+                    "with",
+                    "from",
+                    "of"
+                  ],
+                  "correct": "with"
+                },
+                {
+                  "question": "'Hamlet was written by Shakespeare' — 'by Shakespeare' is:",
+                  "options": [
+                    "The instrument",
+                    "The agent",
+                    "The subject",
+                    "The object"
+                  ],
+                  "correct": "The agent"
+                },
+                {
+                  "question": "What is the passive of 'They have finished the project'?",
+                  "options": [
+                    "The project is finished",
+                    "The project was finished",
+                    "The project has been finished",
+                    "The project had been finished"
+                  ],
+                  "correct": "The project has been finished"
+                }
+              ],
+              "find": [
+                {
+                  "text": "The structure: subject + be + past participle",
+                  "answer": "Passive Voice"
+                },
+                {
+                  "text": "Preposition used to indicate who performed the action",
+                  "answer": "By"
+                },
+                {
+                  "text": "Preposition used to indicate the instrument used",
+                  "answer": "With"
+                },
+                {
+                  "text": "'It is said that...' or 'He is believed to...' is called",
+                  "answer": "Impersonal passive"
+                },
+                {
+                  "text": "The form 'is being written' is passive in which tense?",
+                  "answer": "Present Continuous"
+                }
+              ],
+              "match": [
+                {
+                  "term": "Present Simple Passive",
+                  "definition": "is/are + V3"
+                },
+                {
+                  "term": "Past Simple Passive",
+                  "definition": "was/were + V3"
+                },
+                {
+                  "term": "Present Perfect Passive",
+                  "definition": "has/have been + V3"
+                },
+                {
+                  "term": "Future Simple Passive",
+                  "definition": "will be + V3"
+                },
+                {
+                  "term": "Impersonal Passive",
+                  "definition": "It is said/reported/believed that..."
+                }
+              ]
+            },
+            "examples": [
+              "Active: 'Alexander Bell invented the telephone' → Passive: 'The telephone was invented by Alexander Bell'",
+              "Unknown doer: 'My car was stolen last night' — I don't know who stole it",
+              "Formal English: 'The research was conducted in 2023' — science focuses on the action, not who did it",
+              "Instrument: 'The letter was written with a pen' — pen is the tool used"
+            ],
+            "keyPoints": [
+              "Passive form: subject + be + past participle (V3) in the correct tense",
+              "Use passive when the doer is unknown, obvious, or less important than the action",
+              "'By' + agent (who did it), 'with' + instrument (what was used)",
+              "Impersonal passive: 'It is said that...' — common in news and academic writing",
+              "All tenses can be passive: is written, was written, has been written, will be written"
+            ]
+          },
+          {
+            "title": "Reported Speech",
+            "image": "/images/lessons/grade9/english/lesson6.svg",
+            "description": "\n## Reported Speech: Rules and Transformations\n\nReported speech (indirect speech) is used to report what someone said without quoting their exact words. When converting direct speech to reported speech, tenses typically shift back one step.\n\n### Tense Changes\n\n| Direct Speech | Reported Speech |\n|---------------|-----------------|\n| Present Simple | Past Simple |\n| Present Continuous | Past Continuous |\n| Present Perfect | Past Perfect |\n| Past Simple | Past Perfect |\n| Will | Would |\n| Can | Could |\n\n### Other Changes\n\n- Pronouns change to match the perspective\n- Time expressions: now → then, today → that day, tomorrow → the next day, yesterday → the day before, here → there\n- This → that, these → those\n\n### Reporting Verbs\n\n- Said (no personal object): 'She said she was tired.'\n- Told + person: 'She told me she was tired.'\n- Asked (questions): 'He asked where I lived.'\n- Ordered/Advised/Warned: 'She advised me to study harder.'\n\n### Questions in Reported Speech\n\nYes/No questions: use if/whether — 'She asked if I was coming.'\nWh-questions: keep the question word — 'He asked where I lived.' (subject + verb order, no auxiliary 'do')\n\n### Commands and Requests\n\nInfinitive with to: 'She told me to close the door.' / 'He asked me not to be late.'\n",
+            "tasks": [
+              "Convert to reported speech: a) 'I am tired,' she said. b) 'I will come tomorrow,' he told me. c) 'Do you like coffee?' she asked.",
+              "Rewrite using reported speech: 'Don't open the window!' the teacher said.",
+              "List all the changes when converting direct to reported speech (tenses, pronouns, time words)."
+            ],
+            "facts": [
+              "In reported speech, tenses typically shift back one step (Present Simple → Past Simple)",
+              "Time and place words change: now → then, tomorrow → the next day, here → there",
+              "Questions use if/whether (yes/no) or keep the wh-word (wh-questions)",
+              "Commands use infinitive with 'to': 'She told me to wait.'"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "'I am happy' in reported speech becomes:",
+                  "options": [
+                    "She said she is happy",
+                    "She said she was happy",
+                    "She said she has been happy",
+                    "She said she will be happy"
+                  ],
+                  "correct": "She said she was happy"
+                },
+                {
+                  "question": "'Will' changes to what in reported speech?",
+                  "options": [
+                    "Shall",
+                    "Can",
+                    "Would",
+                    "Should"
+                  ],
+                  "correct": "Would"
+                },
+                {
+                  "question": "'Tomorrow' changes to what in reported speech?",
+                  "options": [
+                    "Today",
+                    "The next day",
+                    "Yesterday",
+                    "Now"
+                  ],
+                  "correct": "The next day"
+                },
+                {
+                  "question": "How do we report 'Are you coming?'",
+                  "options": [
+                    "She asked am I coming",
+                    "She asked if I was coming",
+                    "She asked was I coming",
+                    "She asked I was coming"
+                  ],
+                  "correct": "She asked if I was coming"
+                },
+                {
+                  "question": "'Close the door!' in reported speech:",
+                  "options": [
+                    "She told me close the door",
+                    "She told me to close the door",
+                    "She told me closing the door",
+                    "She told me closed the door"
+                  ],
+                  "correct": "She told me to close the door"
+                }
+              ],
+              "find": [
+                {
+                  "text": "The tense shift: Present Simple becomes Past Simple in reported speech",
+                  "answer": "Backshift"
+                },
+                {
+                  "text": "Word used for yes/no questions in reported speech",
+                  "answer": "If/whether"
+                },
+                {
+                  "text": "'Tomorrow' in reported speech becomes this",
+                  "answer": "The next day"
+                },
+                {
+                  "text": "The structure for reported commands (verb form)",
+                  "answer": "Infinitive with to"
+                },
+                {
+                  "text": "'Will' becomes this in reported speech",
+                  "answer": "Would"
+                }
+              ],
+              "match": [
+                {
+                  "term": "Present Simple → Past Simple",
+                  "definition": "Tense backshift for present tenses"
+                },
+                {
+                  "term": "Will → Would",
+                  "definition": "Modal backshift in reported speech"
+                },
+                {
+                  "term": "If/whether",
+                  "definition": "Used for reported yes/no questions"
+                },
+                {
+                  "term": "Told + object + to-infinitive",
+                  "definition": "Structure for reported commands"
+                },
+                {
+                  "term": "Now → then, here → there",
+                  "definition": "Time and place word changes"
+                }
+              ]
+            },
+            "examples": [
+              "Direct: 'I love music' → Reported: She said she loved music (Present Simple → Past Simple)",
+              "Direct: 'I will help you' → Reported: He told me he would help me (will → would)",
+              "Direct: 'Where do you live?' → Reported: She asked where I lived (word order change)",
+              "Direct: 'Don't be late!' → Reported: The teacher told us not to be late (negative infinitive)"
+            ],
+            "keyPoints": [
+              "Tenses shift back one step: Present → Past, Past → Past Perfect, will → would",
+              "Pronouns, time words, and place words change in reported speech",
+              "Yes/No questions use if/whether; wh-questions keep the question word",
+              "Commands use: told/asked + object + (not) to + infinitive",
+              "Reporting verbs: said (no object), told + person, asked, advised, warned"
+            ]
+          },
+          {
+            "title": "Conditionals",
+            "image": "/images/lessons/grade9/english/lesson7.svg",
+            "description": "\n## Conditionals: Zero, First, Second, Third, Mixed\n\nConditionals express situations where one thing depends on another. Each conditional type has a specific structure and meaning.\n\n### Zero Conditional (general truths)\n\nIf + Present Simple, Present Simple\n- If you heat water to 100°C, it boils. (always true)\n- If it rains, the ground gets wet.\n\n### First Conditional (real future possibilities)\n\nIf + Present Simple, will + infinitive\n- If I study hard, I will pass the exam. (possible future)\n- If she calls, I will answer.\n\n### Second Conditional (unreal present/future)\n\nIf + Past Simple, would + infinitive\n- If I had a million dollars, I would travel the world. (unreal — I don't have it)\n- If I were you, I would accept the offer. (advice)\n\n### Third Conditional (unreal past)\n\nIf + Past Perfect, would have + V3\n- If I had studied harder, I would have passed the exam. (too late now)\n- If she had known, she would have come.\n\n### Mixed Conditional\n\nIf + Past Perfect, would + infinitive (past condition, present result)\n- If I had taken that job, I would live in Moscow now.\n\nIf + Past Simple, would have + V3 (present condition, past result)\n- If she weren't so shy, she would have spoken at the meeting.\n",
+            "tasks": [
+              "Complete: a) If I ___ (know) her number, I would call her. b) If it rains, we ___ (stay) home. c) If I ___ (study) harder, I would have passed.",
+              "Write one sentence for each conditional type (0, 1, 2, 3).",
+              "Explain the difference between Second and Third Conditionals."
+            ],
+            "facts": [
+              "Zero Conditional describes general truths and scientific facts",
+              "First Conditional describes real possible future situations",
+              "Second Conditional describes unreal or imaginary present/future situations",
+              "Third Conditional describes unreal past situations — it's too late to change"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Which conditional expresses general truths?",
+                  "options": [
+                    "First",
+                    "Second",
+                    "Third",
+                    "Zero"
+                  ],
+                  "correct": "Zero"
+                },
+                {
+                  "question": "Second Conditional uses:",
+                  "options": [
+                    "If + Present, will",
+                    "If + Past, would",
+                    "If + Past Perfect, would have",
+                    "If + Present, Present"
+                  ],
+                  "correct": "If + Past, would"
+                },
+                {
+                  "question": "'If I had studied, I would have passed' is:",
+                  "options": [
+                    "Zero Conditional",
+                    "First Conditional",
+                    "Second Conditional",
+                    "Third Conditional"
+                  ],
+                  "correct": "Third Conditional"
+                },
+                {
+                  "question": "First Conditional expresses:",
+                  "options": [
+                    "Unreal past",
+                    "General truths",
+                    "Real possible future",
+                    "Unreal present"
+                  ],
+                  "correct": "Real possible future"
+                },
+                {
+                  "question": "'If I were you, I would...' gives:",
+                  "options": [
+                    "A fact",
+                    "A prediction",
+                    "Advice",
+                    "A regret"
+                  ],
+                  "correct": "Advice"
+                }
+              ],
+              "find": [
+                {
+                  "text": "Conditional type for 'If you heat ice, it melts'",
+                  "answer": "Zero Conditional"
+                },
+                {
+                  "text": "Conditional type for 'If I had a million dollars, I would travel'",
+                  "answer": "Second Conditional"
+                },
+                {
+                  "text": "Conditional type for 'If I had known, I would have helped'",
+                  "answer": "Third Conditional"
+                },
+                {
+                  "text": "Conditional type for real future possibilities",
+                  "answer": "First Conditional"
+                },
+                {
+                  "text": "Structure: If + Past Simple, would + infinitive",
+                  "answer": "Second Conditional"
+                }
+              ],
+              "match": [
+                {
+                  "term": "Zero Conditional",
+                  "definition": "If + Present Simple, Present Simple — general truths"
+                },
+                {
+                  "term": "First Conditional",
+                  "definition": "If + Present Simple, will + infinitive — real possibilities"
+                },
+                {
+                  "term": "Second Conditional",
+                  "definition": "If + Past Simple, would + infinitive — unreal present/future"
+                },
+                {
+                  "term": "Third Conditional",
+                  "definition": "If + Past Perfect, would have + V3 — unreal past"
+                },
+                {
+                  "term": "Mixed Conditional",
+                  "definition": "Combines different time references in if and result clauses"
+                }
+              ]
+            },
+            "examples": [
+              "Zero: 'If you mix red and blue, you get purple' — a scientific fact",
+              "First: 'If it rains tomorrow, we will cancel the picnic' — a real possibility",
+              "Second: 'If I won the lottery, I would buy an island' — unreal imagination",
+              "Third: 'If I had left earlier, I would have caught the train' — regret about the past"
+            ],
+            "keyPoints": [
+              "Zero Conditional: If + Present, Present — general truths and facts",
+              "First Conditional: If + Present, will + infinitive — real future possibilities",
+              "Second Conditional: If + Past, would + infinitive — unreal present/future",
+              "Third Conditional: If + Past Perfect, would have + V3 — unreal past (regrets)",
+              "Mixed Conditional combines different time references in condition and result"
+            ]
+          },
+          {
+            "title": "Relative Clauses",
+            "image": "/images/lessons/grade9/english/lesson8.svg",
+            "description": "\n## Relative Clauses: Defining and Non-Defining\n\nRelative clauses give additional information about a noun. They are introduced by relative pronouns: who, which, that, whose, where, when.\n\n### Relative Pronouns\n\n- **Who** — for people: 'The man who called you is my uncle.'\n- **Which** — for things: 'The book which I bought is interesting.'\n- **That** — for people and things (informal): 'The girl that won the prize is my sister.'\n- **Whose** — for possession: 'The student whose essay was best got an A.'\n- **Where** — for places: 'The café where we met is now closed.'\n- **When** — for time: 'I remember the day when we first met.'\n\n### Defining Relative Clauses\n\nEssential information — cannot be removed without changing the meaning. No commas.\n- 'The woman who lives next door is a doctor.' (identifies which woman)\n- 'That' can replace 'who' or 'which': 'The book that I read was great.'\n\n### Non-Defining Relative Clauses\n\nExtra information — can be removed. Separated by commas. 'That' cannot be used.\n- 'My mother, who is a teacher, loves reading.' (extra info about my mother)\n- 'London, which is the capital of the UK, is a large city.'\n\n### Omitting Relative Pronouns\n\nThe relative pronoun can be omitted when it is the object of the relative clause.\n- 'The book (which) I bought is great.' (which = object, can be omitted)\n- 'The man who called you is here.' (who = subject, cannot be omitted)\n",
+            "tasks": [
+              "Combine: a) The girl is my sister. She won the race. b) The book is great. I bought it yesterday.",
+              "Add commas where needed: 'My brother who lives in Paris is visiting us.' (two meanings?)",
+              "Explain when you can omit the relative pronoun. Give examples."
+            ],
+            "facts": [
+              "Defining relative clauses are essential — no commas; non-defining are extra information — with commas",
+              "Who = people, which = things, that = people/things (defining only), whose = possession",
+              "In non-defining clauses, 'that' cannot be used — only who/which",
+              "Relative pronouns can be omitted when they are the object of the relative clause"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Which relative pronoun is used for possession?",
+                  "options": [
+                    "Who",
+                    "Which",
+                    "Whose",
+                    "Where"
+                  ],
+                  "correct": "Whose"
+                },
+                {
+                  "question": "Non-defining relative clauses are separated by:",
+                  "options": [
+                    "Full stops",
+                    "Commas",
+                    "Semicolons",
+                    "Dashes"
+                  ],
+                  "correct": "Commas"
+                },
+                {
+                  "question": "'That' can be used in:",
+                  "options": [
+                    "Non-defining clauses only",
+                    "Defining clauses only",
+                    "Both types",
+                    "Neither type"
+                  ],
+                  "correct": "Defining clauses only"
+                },
+                {
+                  "question": "When can we omit the relative pronoun?",
+                  "options": [
+                    "When it's the subject",
+                    "When it's the object",
+                    "Always",
+                    "Never"
+                  ],
+                  "correct": "When it's the object"
+                },
+                {
+                  "question": "Which relative pronoun is for places?",
+                  "options": [
+                    "When",
+                    "Who",
+                    "Which",
+                    "Where"
+                  ],
+                  "correct": "Where"
+                }
+              ],
+              "find": [
+                {
+                  "text": "Relative clause type that is essential and has no commas",
+                  "answer": "Defining"
+                },
+                {
+                  "text": "Relative clause type with extra information and commas",
+                  "answer": "Non-defining"
+                },
+                {
+                  "text": "Relative pronoun that cannot be used in non-defining clauses",
+                  "answer": "That"
+                },
+                {
+                  "text": "Relative pronoun for possession",
+                  "answer": "Whose"
+                },
+                {
+                  "text": "When the pronoun is the object, it can be this",
+                  "answer": "Omitted"
+                }
+              ],
+              "match": [
+                {
+                  "term": "Who",
+                  "definition": "Relative pronoun for people"
+                },
+                {
+                  "term": "Which",
+                  "definition": "Relative pronoun for things"
+                },
+                {
+                  "term": "Whose",
+                  "definition": "Relative pronoun for possession"
+                },
+                {
+                  "term": "Defining clause",
+                  "definition": "Essential information, no commas"
+                },
+                {
+                  "term": "Non-defining clause",
+                  "definition": "Extra information, commas needed"
+                }
+              ]
+            },
+            "examples": [
+              "Defining: 'The student who sits next to me is very smart' — identifies which student",
+              "Non-defining: 'My father, who is 50, loves hiking' — extra info, can be removed",
+              "Omission: 'The movie (that) we watched was exciting' — 'that' is object, can be omitted",
+              "Whose: 'The writer whose book I read is visiting our school' — shows possession"
+            ],
+            "keyPoints": [
+              "Who = people, which = things, whose = possession, where = places, when = time",
+              "Defining clauses: essential info, no commas, 'that' can replace who/which",
+              "Non-defining clauses: extra info, commas needed, 'that' cannot be used",
+              "Relative pronouns can be omitted when they are the object of the clause",
+              "Defining: 'The man who called you...' Non-defining: 'My brother, who lives in Paris,...'"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Language in Use",
+        "lessons": [
+          {
+            "title": "Articles",
+            "image": "/images/lessons/grade9/english/lesson9.svg",
+            "description": "\n## Articles: A, An, The, and Zero Article\n\nEnglish articles are small words that cause big problems! Understanding when to use 'a/an', 'the', or no article (zero article) is essential for grammatical accuracy.\n\n### Indefinite Articles: A / An\n\nUsed for singular countable nouns mentioned for the first time or in a general sense.\n- 'A' before consonant sounds: a book, a university (starts with /j/ sound)\n- 'An' before vowel sounds: an apple, an hour (silent h)\n- I saw a cat. (first mention, unspecified cat)\n- She is a doctor. (profession)\n\n### Definite Article: The\n\nUsed when the noun is specific, known, or previously mentioned.\n- The cat I saw was black. (specific cat)\n- The sun, the moon, the Earth (unique objects)\n- The United States, the Alps (countries with plural names, mountain ranges)\n- The piano, the guitar (musical instruments)\n- The rich, the poor (adjective + group of people)\n\n### Zero Article (No Article)\n\nUsed with uncountable and plural nouns in general sense, proper names, meals, sports.\n- I love music. (general, not specific)\n- She speaks French. (languages)\n- We have lunch at noon. (meals)\n- He plays football. (sports)\n- I live in Russia. (most country names)\n\n### Special Cases\n\n- In bed, at school, in hospital, at work, by car/bus/train (fixed expressions — no article)\n- Go to school vs go to the school (purpose vs place)\n- A most interesting book ('most' = very) vs the most interesting (superlative)\n",
+            "tasks": [
+              "Insert a/an/the where necessary: a) She is ___ engineer. b) I saw ___ interesting movie. c) ___ sun rises in ___ east.",
+              "Explain the difference: 'in hospital' vs 'in the hospital'; 'go to school' vs 'go to the school'.",
+              "Write five sentences using zero article correctly."
+            ],
+            "facts": [
+              "'A/an' is used for first mention or general reference; 'the' for specific or previously mentioned nouns",
+              "'An' is used before vowel sounds, not vowel letters: an hour, a university",
+              "Zero article with general uncountable/plural nouns: 'I love music', 'Dogs are loyal'",
+              "No article in fixed expressions: in bed, at school, by car, go to prison"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Which article goes before 'university'?",
+                  "options": [
+                    "An",
+                    "A",
+                    "The",
+                    "No article"
+                  ],
+                  "correct": "A"
+                },
+                {
+                  "question": "'I love ___ music' (general sense). Choose:",
+                  "options": [
+                    "A",
+                    "An",
+                    "The",
+                    "No article"
+                  ],
+                  "correct": "No article"
+                },
+                {
+                  "question": "When do we use 'the' with countries?",
+                  "options": [
+                    "Always",
+                    "With all country names",
+                    "With plural or special names (the USA, the Netherlands)",
+                    "Never"
+                  ],
+                  "correct": "With plural or special names (the USA, the Netherlands)"
+                },
+                {
+                  "question": "'She plays ___ piano.' Fill in:",
+                  "options": [
+                    "A",
+                    "An",
+                    "The",
+                    "No article"
+                  ],
+                  "correct": "The"
+                },
+                {
+                  "question": "Which article before 'hour'?",
+                  "options": [
+                    "A",
+                    "An",
+                    "The",
+                    "No article"
+                  ],
+                  "correct": "An"
+                }
+              ],
+              "find": [
+                {
+                  "text": "Article used for first mention or unspecified singular countable nouns",
+                  "answer": "A/An"
+                },
+                {
+                  "text": "Article used for specific or previously mentioned nouns",
+                  "answer": "The"
+                },
+                {
+                  "text": "No article used with general uncountable/plural nouns",
+                  "answer": "Zero article"
+                },
+                {
+                  "text": "'An' is used before this type of sound, not letter",
+                  "answer": "Vowel sound"
+                },
+                {
+                  "text": "Musical instruments typically take this article",
+                  "answer": "The"
+                }
+              ],
+              "match": [
+                {
+                  "term": "A/An",
+                  "definition": "Indefinite article — first mention, general"
+                },
+                {
+                  "term": "The",
+                  "definition": "Definite article — specific, known, unique"
+                },
+                {
+                  "term": "Zero article",
+                  "definition": "No article — general uncountable, plural, proper names"
+                },
+                {
+                  "term": "An + vowel sound",
+                  "definition": "An hour, an apple, an MP3 player"
+                },
+                {
+                  "term": "A + consonant sound",
+                  "definition": "A university, a European, a one-way street"
+                }
+              ]
+            },
+            "examples": [
+              "A/an: 'I bought a new phone' — first mention, not specified which one",
+              "The: 'The phone I bought yesterday is amazing' — specific, previously mentioned",
+              "Zero article: 'Smartphones are everywhere' — general statement about all smartphones",
+              "Special: 'She is at school' (studying) vs 'She is at the school' (visiting the building)"
+            ],
+            "keyPoints": [
+              "A/an: first mention, professions, singular countable — 'She is a teacher'",
+              "The: specific/known nouns, unique objects, superlatives, instruments — 'the sun'",
+              "Zero article: general uncountable/plural, proper names, meals, sports, fixed expressions",
+              "'An' before vowel sounds (not letters): an hour, a university",
+              "Special cases: in bed/at school (purpose) vs in the bed/at the school (place)"
+            ]
+          },
+          {
+            "title": "Word Formation",
+            "image": "/images/lessons/grade9/english/lesson10.svg",
+            "description": "\n## Word Formation: Prefixes and Suffixes\n\nWord formation is the process of creating new words using prefixes (added before the root) and suffixes (added after the root). Understanding word formation helps expand vocabulary significantly.\n\n### Common Prefixes\n\n| Prefix | Meaning | Example |\n|--------|---------|----------|\n| un- | not | unhappy, unusual |\n| in-/im-/il-/ir- | not | invisible, impossible, illegal, irregular |\n| dis- | opposite | disagree, disappear |\n| re- | again | rewrite, return |\n| pre- | before | preview, prehistoric |\n| mis- | wrong | misunderstand, mistake |\n| over- | too much | overwork, overcrowded |\n| under- | too little | underestimate, underpaid |\n\n### Noun Suffixes\n\n| Suffix | Example | Root |\n|--------|---------|-------|\n| -tion/-sion | education, decision | educate, decide |\n| -ment | development, achievement | develop, achieve |\n| -ness | happiness, kindness | happy, kind |\n| -ity/-ty | ability, safety | able, safe |\n| -er/-or | teacher, actor | teach, act |\n| -ance/-ence | importance, difference | important, differ |\n\n### Adjective Suffixes\n\n| Suffix | Example | Root |\n|--------|---------|-------|\n| -ful | beautiful, helpful | beauty, help |\n| -less | hopeless, careless | hope, care |\n| -ous | dangerous, famous | danger, fame |\n| -ive | creative, active | create, act |\n| -able/-ible | comfortable, possible | comfort, access |\n| -al/-ial | national, official | nation, office |\n\n### Adverb Suffix\n\n- -ly: quickly, happily, carefully (added to adjectives)\n- Exceptions: hard → hard (not hardly), fast → fast\n\n### Verb Suffixes\n\n- -ise/-ize: organise, realise\n- -en: widen, shorten\n- -fy: simplify, classify\n",
+            "tasks": [
+              "Form nouns from: educate, develop, happy, able, teach. Add correct suffixes.",
+              "Add the correct prefix: ___happy, ___possible, ___understand, ___write, ___paid.",
+              "Explain how -ful and -less change the meaning: hope → hopeful vs hopeless."
+            ],
+            "facts": [
+              "Prefixes change the meaning of a word (un- = not, re- = again), suffixes change the word class",
+              "Noun suffixes: -tion, -ment, -ness, -ity, -er/-or, -ance/-ence",
+              "Adjective suffixes: -ful (having), -less (without), -ous (full of), -ive, -able",
+              "Most adverbs are formed by adding -ly to adjectives, but fast and hard are exceptions"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "What does the prefix 're-' mean?",
+                  "options": [
+                    "Not",
+                    "Before",
+                    "Again",
+                    "Wrong"
+                  ],
+                  "correct": "Again"
+                },
+                {
+                  "question": "Which suffix forms a noun from 'happy'?",
+                  "options": [
+                    "-ful",
+                    "-ness",
+                    "-ly",
+                    "-ous"
+                  ],
+                  "correct": "-ness"
+                },
+                {
+                  "question": "'Hopeless' contains the suffix:",
+                  "options": [
+                    "-ful",
+                    "-less",
+                    "-ness",
+                    "-ous"
+                  ],
+                  "correct": "-less"
+                },
+                {
+                  "question": "What is the noun form of 'educate'?",
+                  "options": [
+                    "Educative",
+                    "Educational",
+                    "Education",
+                    "Educator"
+                  ],
+                  "correct": "Education"
+                },
+                {
+                  "question": "Which adverb is an exception (no -ly)?",
+                  "options": [
+                    "Quickly",
+                    "Slowly",
+                    "Fastly",
+                    "Fast"
+                  ],
+                  "correct": "Fast"
+                }
+              ],
+              "find": [
+                {
+                  "text": "Prefix meaning 'not' or 'opposite' (un-, dis-, in-)",
+                  "answer": "Negative prefix"
+                },
+                {
+                  "text": "Suffix that forms nouns meaning 'state of being' (-ness, -ity)",
+                  "answer": "Noun suffix"
+                },
+                {
+                  "text": "Suffix meaning 'without' (careless, hopeless)",
+                  "answer": "-less"
+                },
+                {
+                  "text": "Suffix meaning 'full of' (beautiful, dangerous)",
+                  "answer": "-ful/-ous"
+                },
+                {
+                  "text": "Adverb-forming suffix added to most adjectives",
+                  "answer": "-ly"
+                }
+              ],
+              "match": [
+                {
+                  "term": "un-/dis-/in-",
+                  "definition": "Negative prefixes meaning 'not'"
+                },
+                {
+                  "term": "re-",
+                  "definition": "Prefix meaning 'again'"
+                },
+                {
+                  "term": "-tion/-ment",
+                  "definition": "Noun suffixes for processes and results"
+                },
+                {
+                  "term": "-ful/-less",
+                  "definition": "Adjective suffixes: having vs without"
+                },
+                {
+                  "term": "-ly",
+                  "definition": "Adverb suffix added to adjectives"
+                }
+              ]
+            },
+            "examples": [
+              "Prefix un-: happy → unhappy — the opposite of happy",
+              "Noun suffix -tion: educate → education — the process of educating",
+              "Adjective suffix -ful: beauty → beautiful — having beauty",
+              "Adjective suffix -less: care → careless — without care"
+            ],
+            "keyPoints": [
+              "Prefixes change meaning (un- = not, re- = again, mis- = wrong)",
+              "Suffixes change word class: -tion/-ment → nouns, -ful/-less → adjectives, -ly → adverbs",
+              "Noun suffixes: -tion, -ment, -ness, -ity, -er/-or, -ance/-ence",
+              "Adjective suffixes: -ful (having), -less (without), -ous (full of), -able (can be done)",
+              "Adverb suffix -ly: quick → quickly; exceptions: fast → fast, hard → hard"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "Skills",
+        "lessons": [
+          {
+            "title": "Essay Writing",
+            "image": "/images/lessons/grade9/english/lesson11.svg",
+            "description": "\n## Essay Writing: Structure and Techniques\n\nAn essay is a formal piece of writing that presents and develops an argument on a specific topic. Mastering essay writing is essential for academic success and exams.\n\n### Essay Structure\n\n**Introduction** — introduces the topic and states your thesis (main argument).\n- Hook: an interesting opening sentence\n- Background: context for the topic\n- Thesis statement: your main argument in one sentence\n\n**Body Paragraphs** (2-3) — develop your arguments with evidence.\n- Topic sentence: the main idea of the paragraph\n- Supporting evidence: examples, facts, statistics\n- Explanation: how the evidence supports your argument\n- Linking sentence: connects to the next paragraph\n\n**Conclusion** — summarises and gives a final thought.\n- Restate thesis (in different words)\n- Summarise main points\n- Final thought or recommendation\n\n### Linking Words\n\nAddition: furthermore, moreover, in addition, also.\nContrast: however, nevertheless, on the other hand, although.\nCause/Effect: therefore, consequently, as a result, because.\nConclusion: in conclusion, to sum up, overall.\n\n### Types of Essays\n\n- Opinion essay: express your opinion with reasons\n- For and against essay: present both sides of an argument\n- Problem-solution essay: identify a problem and propose solutions\n\n### Tips for Better Essays\n\n1. Plan before you write — make an outline\n2. Use formal language — no contractions or slang\n3. Vary your vocabulary and sentence structures\n4. Check grammar, spelling, and punctuation\n5. Stay on topic — every paragraph must support the thesis\n",
+            "tasks": [
+              "Write an introduction paragraph for an opinion essay on 'Should students have homework?'",
+              "Rewrite this sentence more formally: 'Kids shouldn't have to do loads of homework coz it's boring.'",
+              "List five linking words for: addition, contrast, cause/effect, conclusion."
+            ],
+            "facts": [
+              "A standard essay has three parts: introduction, body paragraphs, and conclusion",
+              "The thesis statement in the introduction tells the reader your main argument",
+              "Linking words (however, moreover, therefore) connect ideas and improve coherence",
+              "Formal essays avoid contractions (don't → do not) and slang expressions"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "What does a thesis statement do?",
+                  "options": [
+                    "Summarises the conclusion",
+                    "States the main argument of the essay",
+                    "Lists all evidence",
+                    "Asks a question"
+                  ],
+                  "correct": "States the main argument of the essay"
+                },
+                {
+                  "question": "Which linking word shows contrast?",
+                  "options": [
+                    "Moreover",
+                    "Therefore",
+                    "However",
+                    "Furthermore"
+                  ],
+                  "correct": "However"
+                },
+                {
+                  "question": "How many body paragraphs should an essay typically have?",
+                  "options": [
+                    "1",
+                    "2-3",
+                    "5-6",
+                    "10"
+                  ],
+                  "correct": "2-3"
+                },
+                {
+                  "question": "In formal essays, contractions are:",
+                  "options": [
+                    "Encouraged",
+                    "Acceptable",
+                    "Avoided",
+                    "Required"
+                  ],
+                  "correct": "Avoided"
+                },
+                {
+                  "question": "What should a conclusion do?",
+                  "options": [
+                    "Introduce new arguments",
+                    "Restate thesis and summarise",
+                    "Ask questions",
+                    "Tell a joke"
+                  ],
+                  "correct": "Restate thesis and summarise"
+                }
+              ],
+              "find": [
+                {
+                  "text": "The sentence that states the main argument in an essay",
+                  "answer": "Thesis statement"
+                },
+                {
+                  "text": "Words that connect ideas: however, moreover, therefore",
+                  "answer": "Linking words"
+                },
+                {
+                  "text": "Essay type presenting both sides of an argument",
+                  "answer": "For and against essay"
+                },
+                {
+                  "text": "The paragraph that introduces the topic and thesis",
+                  "answer": "Introduction"
+                },
+                {
+                  "text": "In formal writing, 'don't' should become this",
+                  "answer": "Do not"
+                }
+              ],
+              "match": [
+                {
+                  "term": "Introduction",
+                  "definition": "Introduces topic and thesis statement"
+                },
+                {
+                  "term": "Body paragraph",
+                  "definition": "Develops arguments with evidence"
+                },
+                {
+                  "term": "Conclusion",
+                  "definition": "Restates thesis and gives final thought"
+                },
+                {
+                  "term": "Thesis statement",
+                  "definition": "The main argument in one sentence"
+                },
+                {
+                  "term": "Linking words",
+                  "definition": "Connect ideas: however, moreover, therefore"
+                }
+              ]
+            },
+            "examples": [
+              "Introduction hook: 'Imagine a world where students never had homework — would they learn more or less?'",
+              "Linking word contrast: 'Some people believe homework is useful. However, others argue it causes stress.'",
+              "Formal rewrite: 'Children should not be required to complete excessive homework as it can be demotivating.'",
+              "Thesis statement: 'Although homework has some benefits, it should be limited to avoid student burnout.'"
+            ],
+            "keyPoints": [
+              "Essay structure: introduction (hook + thesis), body paragraphs (evidence), conclusion (summary)",
+              "Thesis statement: your main argument, stated in the introduction",
+              "Linking words connect ideas: moreover (addition), however (contrast), therefore (result)",
+              "Use formal language: avoid contractions, slang, and informal expressions",
+              "Essay types: opinion, for-and-against, problem-solution"
+            ]
+          },
+          {
+            "title": "Reading Comprehension",
+            "image": "/images/lessons/grade9/english/lesson12.svg",
+            "description": "\n## Reading Comprehension: Strategies and Skills\n\nReading comprehension is the ability to understand, interpret, and analyse written texts. It is a critical skill for academic success and everyday communication.\n\n### Reading Strategies\n\n**Skimming** — quickly reading for the main idea (gist). Read headings, first/last sentences.\n**Scanning** — searching for specific information (names, dates, numbers).\n**Intensive reading** — careful, detailed reading for full understanding.\n**Extensive reading** — reading longer texts for pleasure and general understanding.\n\n### Understanding Text Structure\n\n- **Narrative**: tells a story (characters, plot, setting)\n- **Descriptive**: describes a person, place, or thing\n- **Expository**: explains or informs (facts, processes)\n- **Argumentative**: presents and supports an opinion\n\n### Comprehension Skills\n\n1. **Identifying main idea**: What is the text mostly about?\n2. **Finding details**: Locate specific information in the text\n3. **Making inferences**: Read between the lines — what is implied?\n4. **Understanding vocabulary in context**: Guess meaning from surrounding words\n5. **Identifying author's purpose**: Why was this written? (inform, persuade, entertain)\n\n### Common Question Types\n\n- Multiple choice: choose the best answer\n- True/False/Not stated: determine if information is confirmed\n- Matching headings to paragraphs\n- Short answer questions\n- Completing summaries or tables\n\n### Tips for Better Comprehension\n\n1. Read the questions before the text to know what to look for\n2. Underline key information as you read\n3. Pay attention to linking words (however, therefore, although)\n4. Don't panic at unknown words — use context clues\n5. Check your answers against the text\n",
+            "tasks": [
+              "Read a short text and identify: a) the main idea, b) the author's purpose, c) one inference you can make.",
+              "Practise skimming: read a newspaper article in 30 seconds and summarise the main point.",
+              "Explain the difference between skimming and scanning. When would you use each?"
+            ],
+            "facts": [
+              "Skimming reads for the main idea; scanning searches for specific information",
+              "Making inferences means understanding what is implied but not directly stated",
+              "Author's purpose is usually to inform, persuade, or entertain",
+              "Vocabulary in context means guessing word meaning from surrounding text"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "What reading strategy is used to find a specific date in a text?",
+                  "options": [
+                    "Skimming",
+                    "Scanning",
+                    "Intensive reading",
+                    "Extensive reading"
+                  ],
+                  "correct": "Scanning"
+                },
+                {
+                  "question": "What does 'making inferences' mean?",
+                  "options": [
+                    "Finding exact words",
+                    "Reading between the lines",
+                    "Memorising the text",
+                    "Copying the text"
+                  ],
+                  "correct": "Reading between the lines"
+                },
+                {
+                  "question": "Which text type tells a story?",
+                  "options": [
+                    "Expository",
+                    "Argumentative",
+                    "Narrative",
+                    "Descriptive"
+                  ],
+                  "correct": "Narrative"
+                },
+                {
+                  "question": "What is the author's purpose in a news report?",
+                  "options": [
+                    "Entertain",
+                    "Persuade",
+                    "Inform",
+                    "Describe"
+                  ],
+                  "correct": "Inform"
+                },
+                {
+                  "question": "Skimming is used to:",
+                  "options": [
+                    "Find specific details",
+                    "Get the main idea quickly",
+                    "Understand every word",
+                    "Translate the text"
+                  ],
+                  "correct": "Get the main idea quickly"
+                }
+              ],
+              "find": [
+                {
+                  "text": "Quick reading strategy to get the main idea",
+                  "answer": "Skimming"
+                },
+                {
+                  "text": "Reading strategy to find specific information like names and dates",
+                  "answer": "Scanning"
+                },
+                {
+                  "text": "Understanding what is implied but not directly stated",
+                  "answer": "Inference"
+                },
+                {
+                  "text": "The reason an author writes: to inform, persuade, or entertain",
+                  "answer": "Author's purpose"
+                },
+                {
+                  "text": "Guessing the meaning of an unknown word from the surrounding text",
+                  "answer": "Vocabulary in context"
+                }
+              ],
+              "match": [
+                {
+                  "term": "Skimming",
+                  "definition": "Quick reading for the main idea"
+                },
+                {
+                  "term": "Scanning",
+                  "definition": "Searching for specific information"
+                },
+                {
+                  "term": "Inference",
+                  "definition": "Understanding what is implied, not stated"
+                },
+                {
+                  "term": "Narrative text",
+                  "definition": "Tells a story with characters and plot"
+                },
+                {
+                  "term": "Expository text",
+                  "definition": "Explains or informs with facts"
+                }
+              ]
+            },
+            "examples": [
+              "Skimming: reading only the headlines and first sentences of a newspaper article to grasp the topic",
+              "Scanning: looking quickly through a phone book for a specific name",
+              "Inference: 'She wiped her eyes and sniffled' → she is probably sad (not stated directly)",
+              "Vocabulary in context: 'The arid desert had no rain for years' → arid probably means dry"
+            ],
+            "keyPoints": [
+              "Skimming = main idea quickly; scanning = specific information; intensive = detailed understanding",
+              "Text types: narrative (story), descriptive (describes), expository (explains), argumentative (opinion)",
+              "Key skills: main idea, details, inferences, vocabulary in context, author's purpose",
+              "Author's purpose: inform, persuade, entertain — determine why the text was written",
+              "Strategy: read questions first, underline key info, use context for unknown words"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

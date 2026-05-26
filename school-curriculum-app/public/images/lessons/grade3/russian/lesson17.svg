@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="sky17" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E1BEE7;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#F3E5F5;stop-opacity:0.4"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#sky17)"/>
+  <rect width="500" height="350" fill="#FFFDE7" opacity="0.3"/>
+  
+  <!-- Sun -->
+  <circle cx="420" cy="50" r="28" fill="#FFD54F" opacity="0.7">
+    <animate attributeName="r" values="26;30;26" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#6A1B9A" text-anchor="middle">👥 Изменение глаголов по числам</text>
+  <rect x="80" y="42" width="340" height="2" rx="1" fill="#9C27B0" opacity="0.5"/>
+  
+  <!-- Ground -->
+  <ellipse cx="250" cy="320" rx="260" ry="45" fill="#CE93D8" opacity="0.4"/>
+  
+  <!-- Two columns -->
+  <g transform="translate(30, 80)" font-family="Arial, sans-serif">
+    <!-- Singular -->
+    <rect x="0" y="0" width="200" height="130" fill="#E1BEE7" rx="10" stroke="#8E24AA"/>
+    <text x="100" y="25" font-size="14" font-weight="bold" fill="#4A148C" text-anchor="middle">Единственное число</text>
+    <text x="100" y="45" font-size="11" fill="#6A1B9A" text-anchor="middle">Один предмет</text>
+    <text x="100" y="70" font-size="11" fill="#7B1FA2" text-anchor="middle">я читаю</text>
+    <text x="100" y="90" font-size="11" fill="#7B1FA2" text-anchor="middle">ты читаешь</text>
+    <text x="100" y="110" font-size="11" fill="#7B1FA2" text-anchor="middle">он читает</text>
+    
+    <!-- Plural -->
+    <rect x="220" y="0" width="200" height="130" fill="#B3E5FC" rx="10" stroke="#0288D1"/>
+    <text x="320" y="25" font-size="14" font-weight="bold" fill="#01579B" text-anchor="middle">Множественное число</text>
+    <text x="320" y="45" font-size="11" fill="#0277BD" text-anchor="middle">Несколько предметов</text>
+    <text x="320" y="70" font-size="11" fill="#039BE5" text-anchor="middle">мы читаем</text>
+    <text x="320" y="90" font-size="11" fill="#039BE5" text-anchor="middle">вы читаете</text>
+    <text x="320" y="110" font-size="11" fill="#039BE5" text-anchor="middle">они читают</text>
+  </g>
+  
+  <!-- Endings table -->
+  <g transform="translate(50, 230)" font-family="Arial, sans-serif" font-size="10">
+    <text x="200" y="0" font-size="12" font-weight="bold" fill="#6A1B9A" text-anchor="middle">Окончания глаголов</text>
+    
+    <rect x="0" y="10" width="90" height="25" fill="#E1BEE7" rx="3"/>
+    <text x="45" y="27" fill="#4A148C" text-anchor="middle">1-е лицо</text>
+    
+    <rect x="100" y="10" width="90" height="25" fill="#F3E5F5" rx="3"/>
+    <text x="145" y="27" fill="#4A148C" text-anchor="middle">2-е лицо</text>
+    
+    <rect x="200" y="10" width="90" height="25" fill="#E1BEE7" rx="3"/>
+    <text x="245" y="27" fill="#4A148C" text-anchor="middle">3-е лицо</text>
+  </g>
+  
+  <!-- Examples -->
+  <g transform="translate(50, 285)" font-family="Arial, sans-serif" font-size="11">
+    <rect x="0" y="0" width="140" height="25" fill="#E1BEE7" rx="5"/>
+    <text x="70" y="18" fill="#4A148C" text-anchor="middle">Мальчик читает</text>
+    
+    <rect x="160" y="0" width="140" height="25" fill="#B3E5FC" rx="5"/>
+    <text x="230" y="18" fill="#01579B" text-anchor="middle">Дети читают</text>
+    
+    <rect x="320" y="0" width="110" height="25" fill="#C8E6C9" rx="5"/>
+    <text x="375" y="18" fill="#1B5E20" text-anchor="middle">Число = подлежащее</text>
+  </g>
+  
+  <!-- Flowers -->
+  <circle cx="25" cy="310" r="5" fill="#E91E63"/>
+  <circle cx="475" cy="310" r="5" fill="#E91E63"/>
+  
+  <!-- Sparkles -->
+  <circle cx="130" cy="150" r="2" fill="#FFD54F">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="370" cy="150" r="2" fill="#FFD54F">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite" begin="0.3s"/>
+  </circle>
+</svg>

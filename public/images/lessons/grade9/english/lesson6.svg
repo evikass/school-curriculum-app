@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="ebg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#3b0764"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#ebg6)" rx="12"/>
+  <!-- Speech bubble (direct) -->
+  <rect x="20" y="20" width="220" height="80" rx="12" fill="#6d28d9" stroke="#c4b5fd" stroke-width="2"/>
+  <polygon points="80,100 100,100 90,115" fill="#6d28d9"/>
+  <text x="130" y="42" font-family="sans-serif" font-size="9" fill="#e9d5ff" text-anchor="middle" font-weight="bold">DIRECT SPEECH</text>
+  <text x="130" y="60" font-family="sans-serif" font-size="9" fill="#fbbf24" text-anchor="middle">"I am tired," she said.</text>
+  <text x="130" y="78" font-family="sans-serif" font-size="9" fill="#fbbf24" text-anchor="middle">"Will you come?" he asked.</text>
+  <text x="130" y="93" font-family="sans-serif" font-size="7" fill="#d8b4fe" text-anchor="middle">Exact words quoted</text>
+  <!-- Transformation arrow -->
+  <path d="M250,55 L270,55 L270,45 L290,60 L270,75 L270,65 L250,65 Z" fill="#fbbf24"/>
+  <!-- Speech bubble (reported) -->
+  <rect x="300" y="20" width="180" height="80" rx="12" fill="#5b21b6" stroke="#a78bfa" stroke-width="2"/>
+  <polygon points="380,100 400,100 390,115" fill="#5b21b6"/>
+  <text x="390" y="42" font-family="sans-serif" font-size="9" fill="#e9d5ff" text-anchor="middle" font-weight="bold">REPORTED SPEECH</text>
+  <text x="390" y="60" font-family="sans-serif" font-size="9" fill="#fde68a" text-anchor="middle">She said she was tired.</text>
+  <text x="390" y="78" font-family="sans-serif" font-size="9" fill="#fde68a" text-anchor="middle">He asked if I would come.</text>
+  <text x="390" y="93" font-family="sans-serif" font-size="7" fill="#d8b4fe" text-anchor="middle">Meaning retold</text>
+  <!-- Tense shift table -->
+  <rect x="20" y="125" width="460" height="125" rx="8" fill="#4c1d95" stroke="#a78bfa" stroke-width="1"/>
+  <text x="250" y="145" font-family="sans-serif" font-size="10" fill="#c4b5fd" text-anchor="middle" font-weight="bold">Tense Backshift</text>
+  <line x1="30" y1="152" x2="470" y2="152" stroke="#6d28d9" stroke-width="1"/>
+  <!-- Direct column -->
+  <text x="150" y="168" font-family="sans-serif" font-size="8" fill="#fbbf24" text-anchor="middle" font-weight="bold">Direct</text>
+  <!-- Arrow -->
+  <text x="250" y="168" font-family="sans-serif" font-size="10" fill="#a78bfa" text-anchor="middle">→</text>
+  <!-- Reported column -->
+  <text x="370" y="168" font-family="sans-serif" font-size="8" fill="#fde68a" text-anchor="middle" font-weight="bold">Reported</text>
+  <text x="150" y="185" font-family="sans-serif" font-size="8" fill="#e9d5ff" text-anchor="middle">Present Simple</text>
+  <text x="370" y="185" font-family="sans-serif" font-size="8" fill="#e9d5ff" text-anchor="middle">Past Simple</text>
+  <text x="150" y="200" font-family="sans-serif" font-size="8" fill="#e9d5ff" text-anchor="middle">Present Continuous</text>
+  <text x="370" y="200" font-family="sans-serif" font-size="8" fill="#e9d5ff" text-anchor="middle">Past Continuous</text>
+  <text x="150" y="215" font-family="sans-serif" font-size="8" fill="#e9d5ff" text-anchor="middle">Present Perfect</text>
+  <text x="370" y="215" font-family="sans-serif" font-size="8" fill="#e9d5ff" text-anchor="middle">Past Perfect</text>
+  <text x="150" y="230" font-family="sans-serif" font-size="8" fill="#e9d5ff" text-anchor="middle">will</text>
+  <text x="370" y="230" font-family="sans-serif" font-size="8" fill="#e9d5ff" text-anchor="middle">would</text>
+  <text x="150" y="245" font-family="sans-serif" font-size="8" fill="#e9d5ff" text-anchor="middle">can</text>
+  <text x="370" y="245" font-family="sans-serif" font-size="8" fill="#e9d5ff" text-anchor="middle">could</text>
+  <!-- Other changes -->
+  <rect x="20" y="260" width="220" height="60" rx="6" fill="#5b21b6" stroke="#a78bfa" stroke-width="1"/>
+  <text x="130" y="280" font-family="sans-serif" font-size="9" fill="#c4b5fd" text-anchor="middle" font-weight="bold">Time &amp; Place Changes</text>
+  <text x="130" y="296" font-family="sans-serif" font-size="7" fill="#d8b4fe" text-anchor="middle">now → then | today → that day</text>
+  <text x="130" y="310" font-family="sans-serif" font-size="7" fill="#d8b4fe" text-anchor="middle">tomorrow → the next day | here → there</text>
+  <!-- Questions & Commands -->
+  <rect x="260" y="260" width="220" height="60" rx="6" fill="#5b21b6" stroke="#fbbf24" stroke-width="1"/>
+  <text x="370" y="280" font-family="sans-serif" font-size="9" fill="#fbbf24" text-anchor="middle" font-weight="bold">Questions &amp; Commands</text>
+  <text x="370" y="296" font-family="sans-serif" font-size="7" fill="#fde68a" text-anchor="middle">Yes/No → if/whether</text>
+  <text x="370" y="310" font-family="sans-serif" font-size="7" fill="#fde68a" text-anchor="middle">Commands → to + infinitive</text>
+  <text x="250" y="340" font-family="sans-serif" font-size="9" fill="white" text-anchor="middle" opacity="0.5">Reported Speech</text>
+</svg>

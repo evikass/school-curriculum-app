@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#1E2840"/>
+<circle cx="250" cy="130" r="45" fill="none" stroke="#7EB8DA" stroke-width="2"/>
+<circle cx="250" cy="115" r="12" fill="#7EB8DA"/>
+<path d="M238,127 Q250,138 262,127" fill="#7EB8DA"/>
+<ellipse cx="250" cy="180" rx="20" ry="30" fill="#5A8AAA"/>
+<path d="M225,165 Q210,145 200,160" stroke="#7EB8DA" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<path d="M275,165 Q290,145 300,160" stroke="#7EB8DA" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<ellipse cx="200" cy="160" rx="5" ry="8" fill="#5A8AAA"/>
+<ellipse cx="300" cy="160" rx="5" ry="8" fill="#5A8AAA"/>
+<line x1="250" y1="210" x2="250" y2="270" stroke="#5A8AAA" stroke-width="2.5"/>
+<line x1="250" y1="230" x2="225" y2="260" stroke="#5A8AAA" stroke-width="2"/>
+<line x1="250" y1="230" x2="275" y2="260" stroke="#5A8AAA" stroke-width="2"/>
+<rect x="140" y="80" width="90" height="55" fill="#1a2a40" rx="8" stroke="#5A8AAA" stroke-width="0.8"/>
+<text x="185" y="98" font-family="Arial" font-size="7" fill="#88BBDD" text-anchor="middle">Биологическое</text>
+<circle cx="160" cy="112" r="6" fill="#FF6B6B" opacity="0.7"/>
+<circle cx="175" cy="108" r="5" fill="#4ECDC4" opacity="0.7"/>
+<circle cx="190" cy="112" r="5" fill="#FFE66D" opacity="0.7"/>
+<circle cx="205" cy="110" r="4" fill="#95E1D3" opacity="0.7"/>
+<rect x="270" y="80" width="90" height="55" fill="#1a2a40" rx="8" stroke="#5A8AAA" stroke-width="0.8"/>
+<text x="315" y="98" font-family="Arial" font-size="7" fill="#88BBDD" text-anchor="middle">Социальное</text>
+<text x="315" y="112" font-family="Arial" font-size="6" fill="#7EB8DA">общение</text>
+<text x="315" y="122" font-family="Arial" font-size="6" fill="#7EB8DA">культура</text>
+<text x="315" y="132" font-family="Arial" font-size="6" fill="#7EB8DA">деятельность</text>
+<path d="M230,135 Q210,140 200,120" stroke="#5A8AAA" stroke-width="0.8" fill="none" stroke-dasharray="3,2"/>
+<path d="M270,135 Q290,140 300,120" stroke="#5A8AAA" stroke-width="0.8" fill="none" stroke-dasharray="3,2"/>
+<ellipse cx="250" cy="285" rx="50" ry="15" fill="#2a3a50" stroke="#5A8AAA" stroke-width="0.5" opacity="0.5"/>
+<text x="250" y="310" font-family="Arial" font-size="10" fill="#7EB8DA" text-anchor="middle" opacity="0.7">Человек = Биосоциальное существо</text>
+<text x="250" y="342" font-family="Arial" font-size="9" fill="#7EB8DA" text-anchor="middle" opacity="0.5">Что такое человек</text>
+</svg>

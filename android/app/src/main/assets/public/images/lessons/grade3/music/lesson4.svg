@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bge77ba4fd" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFEBEE;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#FFCDD2;stop-opacity:0.3"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bge77ba4fd)"/>
+  <rect width="500" height="350" fill="#FFEBEE" opacity="0.15"/>
+  
+  <!-- Title -->
+  <text x="250" y="38" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#C62828" text-anchor="middle">Михаил Иванович Глинка</text>
+  <rect x="80" y="46" width="340" height="2.5" rx="1" fill="#C62828" opacity="0.4"/>
+  
+  <!-- Scene -->
+  <rect x="120" y="230" width="20" height="55" fill="#FFF" stroke="#333" stroke-width="1" rx="1"/><rect x="142" y="230" width="20" height="55" fill="#FFF" stroke="#333" stroke-width="1" rx="1"/><rect x="164" y="230" width="20" height="55" fill="#FFF" stroke="#333" stroke-width="1" rx="1"/><rect x="186" y="230" width="20" height="55" fill="#FFF" stroke="#333" stroke-width="1" rx="1"/><rect x="208" y="230" width="20" height="55" fill="#FFF" stroke="#333" stroke-width="1" rx="1"/><rect x="230" y="230" width="20" height="55" fill="#FFF" stroke="#333" stroke-width="1" rx="1"/><rect x="252" y="230" width="20" height="55" fill="#FFF" stroke="#333" stroke-width="1" rx="1"/><rect x="274" y="230" width="20" height="55" fill="#FFF" stroke="#333" stroke-width="1" rx="1"/><rect x="296" y="230" width="20" height="55" fill="#FFF" stroke="#333" stroke-width="1" rx="1"/><rect x="318" y="230" width="20" height="55" fill="#FFF" stroke="#333" stroke-width="1" rx="1"/><rect x="340" y="230" width="20" height="55" fill="#FFF" stroke="#333" stroke-width="1" rx="1"/><rect x="362" y="230" width="20" height="55" fill="#FFF" stroke="#333" stroke-width="1" rx="1"/><rect x="137" y="230" width="14" height="35" fill="#333" rx="1"/><rect x="159" y="230" width="14" height="35" fill="#333" rx="1"/><rect x="203" y="230" width="14" height="35" fill="#333" rx="1"/><rect x="225" y="230" width="14" height="35" fill="#333" rx="1"/><rect x="247" y="230" width="14" height="35" fill="#333" rx="1"/><rect x="291" y="230" width="14" height="35" fill="#333" rx="1"/><rect x="313" y="230" width="14" height="35" fill="#333" rx="1"/><rect x="357" y="230" width="14" height="35" fill="#333" rx="1"/>
+<ellipse cx="210" cy="150" rx="7" ry="5" fill="#C62828" transform="rotate(-15,210,150)">
+<animate attributeName="cy" values="150;145;150" dur="2.0s" repeatCount="indefinite"/></ellipse>
+<line x1="216" y1="150" x2="216" y2="125" stroke="#C62828" stroke-width="2"/>
+<path d="M216,125 Q228,130 216,135" fill="#C62828"/>
+<ellipse cx="280" cy="130" rx="7" ry="5" fill="#C62828" transform="rotate(-15,280,130)">
+<animate attributeName="cy" values="130;125;130" dur="2.5s" repeatCount="indefinite"/></ellipse>
+<line x1="286" y1="130" x2="286" y2="105" stroke="#C62828" stroke-width="2"/>
+<path d="M286,105 Q298,110 286,115" fill="#C62828"/>
+<ellipse cx="250" cy="180" rx="7" ry="5" fill="#C62828" transform="rotate(-15,250,180)">
+<animate attributeName="cy" values="180;175;180" dur="3.0s" repeatCount="indefinite"/></ellipse>
+<line x1="256" y1="180" x2="256" y2="155" stroke="#C62828" stroke-width="2"/>
+<path d="M256,155 Q268,160 256,165" fill="#C62828"/>
+<text x="250" y="215" font-family="serif" font-size="18" fill="#C62828" text-anchor="middle" opacity="0.5">♪ ♫ ♩</text>
+  
+  <!-- Caption -->
+  <text x="250" y="335" font-family="Arial, sans-serif" font-size="14" fill="#B71C1C" text-anchor="middle" font-style="italic">Музыка</text>
+  
+  <ellipse cx="250" cy="310" rx="220" ry="15" fill="#C62828" opacity="0.06"/>
+</svg>

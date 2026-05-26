@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0891b2"/>
+      <stop offset="100%" style="stop-color:#164e63"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg7)" rx="12"/>
+  <!-- Market structure spectrum -->
+  <rect x="30" y="30" width="440" height="25" rx="12" fill="#155e75"/>
+  <rect x="30" y="30" width="110" height="25" rx="12" fill="#0e7490"/>
+  <rect x="140" y="30" width="110" height="25" fill="#0891b2"/>
+  <rect x="250" y="30" width="110" height="25" fill="#06b6d4"/>
+  <rect x="360" y="30" width="110" height="25" rx="12" fill="#22d3ee"/>
+  <text x="85" y="47" font-family="sans-serif" font-size="8" fill="white" text-anchor="middle">Соверш.конк.</text>
+  <text x="195" y="47" font-family="sans-serif" font-size="8" fill="white" text-anchor="middle">Монопол.конк.</text>
+  <text x="305" y="47" font-family="sans-serif" font-size="8" fill="white" text-anchor="middle">Олигополия</text>
+  <text x="415" y="47" font-family="sans-serif" font-size="8" fill="#164e63" text-anchor="middle">Монополия</text>
+  <!-- Competition arrows -->
+  <text x="250" y="20" font-family="sans-serif" font-size="8" fill="#67e8f9" text-anchor="middle">← Больше конкуренция | Меньше конкуренция →</text>
+  <!-- Detail cards -->
+  <rect x="20" y="70" width="110" height="120" rx="6" fill="#155e75" stroke="#22d3ee" stroke-width="1"/>
+  <text x="75" y="88" font-family="sans-serif" font-size="8" fill="#67e8f9" text-anchor="middle" font-weight="bold">Совершенная</text>
+  <text x="75" y="105" font-family="sans-serif" font-size="7" fill="#a5f3fc" text-anchor="middle">Много продавцов</text>
+  <text x="75" y="118" font-family="sans-serif" font-size="7" fill="#a5f3fc" text-anchor="middle">Однородный товар</text>
+  <text x="75" y="131" font-family="sans-serif" font-size="7" fill="#a5f3fc" text-anchor="middle">Нет барьеров</text>
+  <text x="75" y="148" font-family="sans-serif" font-size="7" fill="#fbbf24" text-anchor="middle">Сельхозрынки</text>
+  <text x="75" y="170" font-family="sans-serif" font-size="7" fill="#a5f3fc" text-anchor="middle">P = рыночная</text>
+
+  <rect x="140" y="70" width="110" height="120" rx="6" fill="#155e75" stroke="#22d3ee" stroke-width="1"/>
+  <text x="195" y="88" font-family="sans-serif" font-size="8" fill="#67e8f9" text-anchor="middle" font-weight="bold">Монопол.конк.</text>
+  <text x="195" y="105" font-family="sans-serif" font-size="7" fill="#a5f3fc" text-anchor="middle">Много продавцов</text>
+  <text x="195" y="118" font-family="sans-serif" font-size="7" fill="#a5f3fc" text-anchor="middle">Дифференц. товар</text>
+  <text x="195" y="131" font-family="sans-serif" font-size="7" fill="#a5f3fc" text-anchor="middle">Низкие барьеры</text>
+  <text x="195" y="148" font-family="sans-serif" font-size="7" fill="#fbbf24" text-anchor="middle">Рестораны, одежда</text>
+
+  <rect x="260" y="70" width="110" height="120" rx="6" fill="#155e75" stroke="#22d3ee" stroke-width="1"/>
+  <text x="315" y="88" font-family="sans-serif" font-size="8" fill="#67e8f9" text-anchor="middle" font-weight="bold">Олигополия</text>
+  <text x="315" y="105" font-family="sans-serif" font-size="7" fill="#a5f3fc" text-anchor="middle">Несколько фирм</text>
+  <text x="315" y="118" font-family="sans-serif" font-size="7" fill="#a5f3fc" text-anchor="middle">Высокие барьеры</text>
+  <text x="315" y="131" font-family="sans-serif" font-size="7" fill="#a5f3fc" text-anchor="middle">Значит. контроль</text>
+  <text x="315" y="148" font-family="sans-serif" font-size="7" fill="#fbbf24" text-anchor="middle">МТС, Билайн</text>
+
+  <rect x="380" y="70" width="110" height="120" rx="6" fill="#155e75" stroke="#fbbf24" stroke-width="1.5"/>
+  <text x="435" y="88" font-family="sans-serif" font-size="8" fill="#fbbf24" text-anchor="middle" font-weight="bold">Монополия</text>
+  <text x="435" y="105" font-family="sans-serif" font-size="7" fill="#a5f3fc" text-anchor="middle">1 продавец</text>
+  <text x="435" y="118" font-family="sans-serif" font-size="7" fill="#a5f3fc" text-anchor="middle">Очень выс. барьеры</text>
+  <text x="435" y="131" font-family="sans-serif" font-size="7" fill="#a5f3fc" text-anchor="middle">Полный контроль P</text>
+  <text x="435" y="148" font-family="sans-serif" font-size="7" fill="#fbbf24" text-anchor="middle">РЖД, водоканал</text>
+  <!-- Competition types -->
+  <rect x="40" y="210" width="200" height="55" rx="6" fill="#164e63" stroke="#22d3ee" stroke-width="1"/>
+  <text x="140" y="230" font-family="sans-serif" font-size="9" fill="#67e8f9" text-anchor="middle" font-weight="bold">Ценовая конкуренция</text>
+  <text x="140" y="248" font-family="sans-serif" font-size="8" fill="#a5f3fc" text-anchor="middle">Снижение цен, скидки, распродажи</text>
+  <rect x="260" y="210" width="200" height="55" rx="6" fill="#164e63" stroke="#fbbf24" stroke-width="1"/>
+  <text x="360" y="230" font-family="sans-serif" font-size="9" fill="#fbbf24" text-anchor="middle" font-weight="bold">Неценовая конкуренция</text>
+  <text x="360" y="248" font-family="sans-serif" font-size="8" fill="#fde68a" text-anchor="middle">Качество, бренд, сервис, реклама</text>
+  <!-- FAS shield -->
+  <rect x="160" y="280" width="180" height="45" rx="8" fill="#155e75" stroke="#ef4444" stroke-width="2"/>
+  <text x="250" y="300" font-family="sans-serif" font-size="10" fill="#fca5a5" text-anchor="middle" font-weight="bold">ФАС России</text>
+  <text x="250" y="315" font-family="sans-serif" font-size="8" fill="#fecaca" text-anchor="middle">Антимонопольная служба</text>
+  <text x="250" y="340" font-family="sans-serif" font-size="9" fill="white" text-anchor="middle" opacity="0.5">Конкуренция</text>
+</svg>

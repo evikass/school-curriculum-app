@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg10" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFEBEE"/>
+      <stop offset="100%" stop-color="#FFCDD2"/>
+    </linearGradient>
+    <linearGradient id="trophyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFD54F"/>
+      <stop offset="100%" stop-color="#FF8F00"/>
+    </linearGradient>
+    <linearGradient id="robot1Grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#42A5F5"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+    <linearGradient id="robot2Grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#66BB6A"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
+    </linearGradient>
+    <linearGradient id="robot3Grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EF5350"/>
+      <stop offset="100%" stop-color="#C62828"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg10)"/>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#C62828" text-anchor="middle">🏆 Робототехнические соревнования</text>
+  <rect x="80" y="42" width="340" height="2" rx="1" fill="#E53935" opacity="0.5"/>
+  
+  <!-- Trophy -->
+  <g transform="translate(210, 50)">
+    <!-- Cup -->
+    <path d="M20,0 L60,0 L55,40 Q40,55 40,55 Q40,55 25,40 L20,0 Z" fill="url(#trophyGrad)">
+      <animate attributeName="fill" values="#FFD54F;#FFECB3;#FFD54F" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <!-- Handles -->
+    <path d="M20,10 Q0,10 0,25 Q0,40 20,35" fill="none" stroke="#FFB300" stroke-width="4"/>
+    <path d="M60,10 Q80,10 80,25 Q80,40 60,35" fill="none" stroke="#FFB300" stroke-width="4"/>
+    <!-- Base -->
+    <rect x="30" y="55" width="20" height="15" fill="#FF8F00"/>
+    <rect x="20" y="70" width="40" height="8" fill="#FFB300" rx="2"/>
+    <!-- Star -->
+    <polygon points="40,15 43,25 53,25 45,32 48,42 40,35 32,42 35,32 27,25 37,25" fill="#FFECB3">
+      <animate attributeName="opacity" values="1;0.5;1" dur="1s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+  
+  <!-- Race Track -->
+  <g transform="translate(20, 150)">
+    <!-- Track -->
+    <rect x="0" y="0" width="460" height="60" fill="#B0BEC5" rx="10"/>
+    <rect x="0" y="0" width="460" height="5" fill="#78909C"/>
+    <rect x="0" y="55" width="460" height="5" fill="#78909C"/>
+    <!-- Lane markers -->
+    <line x1="0" y1="20" x2="460" y2="20" stroke="#CFD8DC" stroke-width="2" stroke-dasharray="20 10"/>
+    <line x1="0" y1="40" x2="460" y2="40" stroke="#CFD8DC" stroke-width="2" stroke-dasharray="20 10"/>
+    
+    <!-- Robot 1 (Blue) -->
+    <g transform="translate(50, 5)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0,0;350,0" dur="6s" repeatCount="indefinite"/>
+        <rect x="0" y="5" width="40" height="20" fill="url(#robot1Grad)" rx="5"/>
+        <circle cx="10" cy="15" r="6" fill="#1E88E5"/>
+        <circle cx="30" cy="15" r="6" fill="#1E88E5"/>
+        <circle cx="20" cy="10" r="3" fill="#BBDEFB">
+          <animate attributeName="fill" values="#BBDEFB;#E3F2FD;#BBDEFB" dur="0.5s" repeatCount="indefinite"/>
+        </circle>
+        <text x="20" y="18" font-size="6" fill="white" text-anchor="middle" font-family="Arial">1</text>
+      </g>
+    </g>
+    
+    <!-- Robot 2 (Green) -->
+    <g transform="translate(50, 25)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0,0;360,0" dur="5.5s" repeatCount="indefinite"/>
+        <rect x="0" y="5" width="40" height="20" fill="url(#robot2Grad)" rx="5"/>
+        <circle cx="10" cy="15" r="6" fill="#43A047"/>
+        <circle cx="30" cy="15" r="6" fill="#43A047"/>
+        <circle cx="20" cy="10" r="3" fill="#C8E6C9">
+          <animate attributeName="fill" values="#C8E6C9;#E8F5E9;#C8E6C9" dur="0.5s" repeatCount="indefinite"/>
+        </circle>
+        <text x="20" y="18" font-size="6" fill="white" text-anchor="middle" font-family="Arial">2</text>
+      </g>
+    </g>
+    
+    <!-- Robot 3 (Red) -->
+    <g transform="translate(50, 45)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0,0;340,0" dur="6.5s" repeatCount="indefinite"/>
+        <rect x="0" y="5" width="40" height="20" fill="url(#robot3Grad)" rx="5"/>
+        <circle cx="10" cy="15" r="6" fill="#E53935"/>
+        <circle cx="30" cy="15" r="6" fill="#E53935"/>
+        <circle cx="20" cy="10" r="3" fill="#FFCDD2">
+          <animate attributeName="fill" values="#FFCDD2;#FFEBEE;#FFCDD2" dur="0.5s" repeatCount="indefinite"/>
+        </circle>
+        <text x="20" y="18" font-size="6" fill="white" text-anchor="middle" font-family="Arial">3</text>
+      </g>
+    </g>
+    
+    <!-- Finish Line -->
+    <rect x="430" y="0" width="10" height="60" fill="#37474F"/>
+    <rect x="432" y="0" width="3" height="60" fill="white"/>
+    <rect x="436" y="0" width="3" height="60" fill="#37474F"/>
+  </g>
+  
+  <!-- Competition Types -->
+  <g transform="translate(20, 230)">
+    <!-- Sumo -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="100" height="60" fill="#ECEFF1" rx="8" stroke="#607D8B"/>
+      <text x="50" y="15" font-size="10" font-weight="bold" fill="#455A64" text-anchor="middle" font-family="Arial">Сумо</text>
+      <circle cx="50" cy="40" r="15" fill="#455A64"/>
+      <circle cx="40" cy="35" r="8" fill="#78909C"/>
+      <circle cx="60" cy="45" r="8" fill="#90A4AE"/>
+    </g>
+    
+    <!-- Line Follower -->
+    <g transform="translate(115, 0)">
+      <rect x="0" y="0" width="100" height="60" fill="#ECEFF1" rx="8" stroke="#607D8B"/>
+      <text x="50" y="15" font-size="10" font-weight="bold" fill="#455A64" text-anchor="middle" font-family="Arial">Следование линии</text>
+      <path d="M20,45 Q35,30 50,45 Q65,60 80,45" fill="none" stroke="#37474F" stroke-width="4"/>
+      <circle cx="30" cy="40" r="6" fill="#42A5F5">
+        <animate attributeName="cx" values="25;35;50;65;75;65;50;35;25" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="42;35;42;50;42;35;42;50;42" dur="4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    
+    <!-- Maze -->
+    <g transform="translate(230, 0)">
+      <rect x="0" y="0" width="100" height="60" fill="#ECEFF1" rx="8" stroke="#607D8B"/>
+      <text x="50" y="15" font-size="10" font-weight="bold" fill="#455A64" text-anchor="middle" font-family="Arial">Лабиринт</text>
+      <rect x="20" y="22" width="60" height="35" fill="none" stroke="#78909C" stroke-width="2"/>
+      <line x1="35" y1="22" x2="35" y2="45" stroke="#78909C" stroke-width="2"/>
+      <line x1="50" y1="35" x2="50" y2="57" stroke="#78909C" stroke-width="2"/>
+      <line x1="65" y1="22" x2="65" y2="45" stroke="#78909C" stroke-width="2"/>
+      <circle cx="25" cy="30" r="4" fill="#66BB6A">
+        <animate attributeName="fill" values="#66BB6A;#81C784;#66BB6A" dur="1s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    
+    <!-- Soccer -->
+    <g transform="translate(345, 0)">
+      <rect x="0" y="0" width="100" height="60" fill="#ECEFF1" rx="8" stroke="#607D8B"/>
+      <text x="50" y="15" font-size="10" font-weight="bold" fill="#455A64" text-anchor="middle" font-family="Arial">Футбол</text>
+      <rect x="20" y="22" width="60" height="35" fill="#81C784" rx="3"/>
+      <line x1="50" y1="22" x2="50" y2="57" stroke="white" stroke-width="2"/>
+      <circle cx="50" cy="40" r="5" fill="white">
+        <animate attributeName="cx" values="40;60;40" dur="2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+  
+  <!-- Info Box -->
+  <g transform="translate(30, 305)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="440" height="35" fill="#FFEBEE" rx="8" stroke="#E53935"/>
+    <text x="220" y="15" font-size="11" font-weight="bold" fill="#C62828" text-anchor="middle">Соревнования учат работать в команде!</text>
+    <text x="220" y="28" font-size="9" fill="#E53935" text-anchor="middle">Проектируй → Собирай → Программируй → Побеждай!</text>
+  </g>
+</svg>

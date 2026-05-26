@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#ECEFF1"/>
+<!-- Desk/table -->
+<rect x="80" y="220" width="300" height="10" rx="2" fill="#8D6E63"/>
+<rect x="100" y="230" width="10" height="60" fill="#795548"/>
+<rect x="360" y="230" width="10" height="60" fill="#795548"/>
+<!-- Prince figure (seated) -->
+<circle cx="230" cy="140" r="20" fill="#FFCCBC"/>
+<!-- Crown -->
+<polygon points="213,125 220,108 228,120 236,105 244,120 252,108 258,125" fill="#FFD54F" stroke="#F9A825" stroke-width="1"/>
+<!-- Body -->
+<rect x="210" y="160" width="40" height="55" rx="5" fill="#1565C0"/>
+<!-- Cape -->
+<path d="M210 165 L195 220 L260 220 L250 165" fill="#0D47A1" opacity="0.5"/>
+<!-- Arms writing -->
+<line x1="250" y1="175" x2="280" y2="210" stroke="#FFCCBC" stroke-width="4" stroke-linecap="round"/>
+<!-- Hand holding quill -->
+<circle cx="282" cy="212" r="4" fill="#FFCCBC"/>
+<line x1="282" y1="212" x2="310" y2="195" stroke="#5D4037" stroke-width="1.5"/>
+<!-- Paper on desk -->
+<rect x="270" y="205" width="80" height="12" rx="1" fill="#FFF8E1" stroke="#BCAAA4" stroke-width="0.5"/>
+<line x1="275" y1="210" x2="340" y2="210" stroke="#BDBDBD" stroke-width="0.5"/>
+<!-- Book on desk -->
+<rect x="120" y="205" width="50" height="14" rx="2" fill="#C62828" stroke="#8D6E63" stroke-width="0.5"/>
+<line x1="145" y1="206" x2="145" y2="219" stroke="#8D6E63" stroke-width="0.5"/>
+<!-- Inkwell -->
+<ellipse cx="260" cy="215" rx="8" ry="4" fill="#37474F"/>
+<!-- Title -->
+<rect x="340" y="60" width="145" height="65" rx="6" fill="#CFD8DC" opacity="0.7" stroke="#546E7A" stroke-width="1"/>
+<text x="412" y="82" font-family="sans-serif" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">Поучение</text>
+<text x="412" y="100" font-family="serif" font-size="11" fill="#37474F" text-anchor="middle">Владимира</text>
+<text x="412" y="115" font-family="serif" font-size="11" fill="#37474F" text-anchor="middle">Мономаха</text>
+<!-- Cross symbol -->
+<line x1="412" y1="125" x2="412" y2="150" stroke="#546E7A" stroke-width="2.5"/>
+<line x1="400" y1="135" x2="424" y2="135" stroke="#546E7A" stroke-width="2.5"/>
+<text x="250" y="345" font-family="sans-serif" font-size="9" fill="#37474F" opacity="0.5" text-anchor="middle">«Поучение Владимира Мономаха»</text>
+</svg>

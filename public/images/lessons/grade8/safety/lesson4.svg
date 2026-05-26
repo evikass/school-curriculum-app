@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg4s" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffebee"/>
+      <stop offset="100%" stop-color="#ffcdd2"/>
+    </linearGradient>
+    <linearGradient id="smoke4s" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#424242" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#9e9e9e" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg4s)"/>
+  
+  <!-- Building corridor/hallway -->
+  <rect x="0" y="0" width="500" height="350" fill="#f5f5f5"/>
+  <!-- Corridor walls -->
+  <rect x="0" y="0" width="40" height="350" fill="#e0e0e0"/>
+  <rect x="460" y="0" width="40" height="350" fill="#e0e0e0"/>
+  <!-- Ceiling -->
+  <rect x="0" y="0" width="500" height="30" fill="#bdbdbd"/>
+  <!-- Floor -->
+  <rect x="0" y="290" width="500" height="60" fill="#8d6e63"/>
+  
+  <!-- Smoke layer (upper area) -->
+  <rect x="40" y="30" width="420" height="120" fill="url(#smoke4s)"/>
+  
+  <!-- Evacuation plan (on wall, left) -->
+  <g transform="translate(85,80)">
+    <rect x="-35" y="-45" width="70" height="90" rx="2" fill="#fff" stroke="#4caf50" stroke-width="2"/>
+    <rect x="-33" y="-43" width="66" height="15" rx="1" fill="#4caf50"/>
+    <text x="0" y="-33" text-anchor="middle" font-size="7" fill="#fff" font-weight="bold" font-family="Arial">ПЛАН ЭВАКУАЦИИ</text>
+    <!-- Floor plan -->
+    <rect x="-25" y="-24" width="50" height="35" fill="#e8f5e9" stroke="#4caf50" stroke-width="1"/>
+    <!-- Room outlines -->
+    <rect x="-22" y="-21" width="15" height="12" fill="none" stroke="#388e3c" stroke-width="0.8"/>
+    <rect x="-4" y="-21" width="20" height="12" fill="none" stroke="#388e3c" stroke-width="0.8"/>
+    <rect x="-22" y="-6" width="15" height="12" fill="none" stroke="#388e3c" stroke-width="0.8"/>
+    <rect x="-4" y="-6" width="20" height="12" fill="none" stroke="#388e3c" stroke-width="0.8"/>
+    <!-- Escape route (red arrow) -->
+    <path d="M5,-10 L15,-10 L15,5 L25,5" stroke="#f44336" stroke-width="2" fill="none"/>
+    <polygon points="25,5 20,2 20,8" fill="#f44336"/>
+    <!-- You are here -->
+    <circle cx="5" cy="-10" r="2" fill="#f44336"/>
+    <!-- Exit marker -->
+    <rect x="22" y="0" width="8" height="10" fill="#4caf50"/>
+    <text x="26" y="8" text-anchor="middle" font-size="4" fill="#fff" font-weight="bold" font-family="Arial">ВЫХОД</text>
+    <text x="0" y="22" text-anchor="middle" font-size="6" fill="#333" font-family="Arial">Этаж 2</text>
+  </g>
+  
+  <!-- Person crawling under smoke -->
+  <g transform="translate(250,220)">
+    <!-- Smoke above -->
+    <ellipse cx="0" cy="-30" rx="60" ry="20" fill="#9e9e9e" opacity="0.3"/>
+    <!-- Crawling body -->
+    <circle cx="30" cy="-8" r="9" fill="#ffb57c"/>
+    <path d="M21,-8 Q30,-16 39,-8" fill="#333"/>
+    <!-- Body horizontal -->
+    <path d="M30,-17 L-5,-15" stroke="#1e88e5" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <!-- Arms forward -->
+    <path d="M25,-15 Q35,-10 42,-5" stroke="#ffb57c" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M20,-14 Q28,-8 35,-3" stroke="#ffb57c" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <!-- Knees -->
+    <path d="M-5,-15 L-10,-5" stroke="#ffb57c" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M0,-15 L5,-5" stroke="#ffb57c" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Arrow showing low position -->
+    <path d="M-30,-40 L-30,-10 L-20,-10" stroke="#4caf50" stroke-width="1.5" fill="none"/>
+    <text x="-40" y="-22" font-size="6" fill="#2e7d32" font-family="Arial" transform="rotate(-90,-40,-22)">НИЗКО</text>
+  </g>
+  
+  <!-- Exit sign (right, on wall) -->
+  <g transform="translate(440,60)">
+    <rect x="-25" y="-15" width="50" height="30" rx="3" fill="#4caf50"/>
+    <text x="0" y="-3" text-anchor="middle" font-size="10" fill="#fff" font-weight="bold" font-family="Arial">ВЫХОД</text>
+    <!-- Running person icon -->
+    <g transform="translate(0,8)">
+      <circle cx="-5" cy="-5" r="2.5" fill="#fff"/>
+      <path d="M-5,-2 L-7,4 L-10,8 M-7,4 L-3,8 M-5,-1 Q-2,-3 0,-1 M-5,-1 Q-8,1 -10,0" stroke="#fff" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+    </g>
+    <!-- Arrow pointing right -->
+    <polygon points="22,0 15,-5 15,5" fill="#fff"/>
+  </g>
+  
+  <!-- Emergency number 112 (bottom) -->
+  <g transform="translate(400,270)">
+    <rect x="-45" y="-25" width="90" height="50" rx="8" fill="#e53935"/>
+    <rect x="-43" y="-23" width="86" height="46" rx="6" fill="none" stroke="#fff" stroke-width="1.5"/>
+    <text x="0" y="5" text-anchor="middle" font-size="24" fill="#fff" font-weight="bold" font-family="Arial">112</text>
+    <text x="0" y="17" text-anchor="middle" font-size="6" fill="#ffcdd2" font-family="Arial">ЭКСТРЕННЫЙ ВЫЗОВ</text>
+  </g>
+  
+  <!-- Fire alarm on wall -->
+  <g transform="translate(170,55)">
+    <rect x="-12" y="-10" width="24" height="20" rx="3" fill="#e53935" stroke="#c62828" stroke-width="1"/>
+    <circle cx="0" cy="0" r="5" fill="#fff" opacity="0.3"/>
+  </g>
+  
+  <!-- Fire door -->
+  <g transform="translate(440,180)">
+    <rect x="-25" y="-60" width="50" height="100" rx="2" fill="#8d6e63" stroke="#6d4c41" stroke-width="2"/>
+    <!-- Fire door label -->
+    <rect x="-20" y="-50" width="40" height="15" rx="2" fill="#4caf50"/>
+    <text x="0" y="-40" text-anchor="middle" font-size="6" fill="#fff" font-family="Arial">ЗАПАСНОЙ</text>
+    <!-- Push bar -->
+    <rect x="-18" y="10" width="36" height="5" rx="2" fill="#78909c"/>
+  </g>
+  
+  <!-- Wet towel over mouth indicator -->
+  <g transform="translate(310,195)">
+    <path d="M-8,0 Q0,-5 8,0" stroke="#42a5f5" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <text x="0" y="15" text-anchor="middle" font-size="6" fill="#1565c0" font-family="Arial">Влажная ткань</text>
+  </g>
+  
+  <text x="250" y="342" text-anchor="middle" font-size="9" opacity="0.5" fill="#333" font-family="Arial, sans-serif">Действия при пожаре</text>
+</svg>

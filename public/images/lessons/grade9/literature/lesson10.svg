@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#1a1a2e"/><stop offset="100%" style="stop-color:#0f3460"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <text x="250" y="22" text-anchor="middle" fill="#e74c3c" font-size="12" font-weight="bold">М.А. Булгаков «Мастер и Маргарита»</text>
+  <!-- Two timelines -->
+  <rect x="20" y="35" width="225" height="30" rx="5" fill="#4fc3f7" opacity="0.7"/>
+  <text x="132" y="55" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Москва 1930-х</text>
+  <rect x="255" y="35" width="225" height="30" rx="5" fill="#d4a574" opacity="0.7"/>
+  <text x="367" y="55" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Ершалаим I в. н.э.</text>
+  <!-- Three storylines -->
+  <rect x="15" y="75" width="155" height="60" rx="6" fill="#e74c3c" opacity="0.7"/>
+  <text x="92" y="98" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Воланд и свита</text>
+  <text x="92" y="118" text-anchor="middle" fill="white" font-size="9">Справедливый суд</text>
+  <rect x="175" y="75" width="155" height="60" rx="6" fill="#9b59b6" opacity="0.7"/>
+  <text x="252" y="98" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Мастер и Маргарита</text>
+  <text x="252" y="118" text-anchor="middle" fill="white" font-size="9">Любовь сильнее смерти</text>
+  <rect x="335" y="75" width="150" height="60" rx="6" fill="#d4a574" opacity="0.7"/>
+  <text x="410" y="98" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Пилат и Иешуа</text>
+  <text x="410" y="118" text-anchor="middle" fill="white" font-size="9">Трусость и добро</text>
+  <!-- Characters -->
+  <rect x="15" y="145" width="90" height="65" rx="5" fill="#1a1a2e" stroke="#e74c3c" stroke-width="1"/>
+  <text x="60" y="167" text-anchor="middle" fill="#e74c3c" font-size="9" font-weight="bold">Воланд</text>
+  <text x="60" y="183" text-anchor="middle" fill="white" font-size="8">«Часть той</text>
+  <text x="60" y="197" text-anchor="middle" fill="white" font-size="8">силы...»</text>
+  <rect x="115" y="145" width="90" height="65" rx="5" fill="#1a1a2e" stroke="#9b59b6" stroke-width="1"/>
+  <text x="160" y="167" text-anchor="middle" fill="#9b59b6" font-size="9" font-weight="bold">Мастер</text>
+  <text x="160" y="183" text-anchor="middle" fill="white" font-size="8">Талантливый</text>
+  <text x="160" y="197" text-anchor="middle" fill="white" font-size="8">писатель</text>
+  <rect x="215" y="145" width="90" height="65" rx="5" fill="#1a1a2e" stroke="#f1c40f" stroke-width="1"/>
+  <text x="260" y="167" text-anchor="middle" fill="#f1c40f" font-size="9" font-weight="bold">Маргарита</text>
+  <text x="260" y="183" text-anchor="middle" fill="white" font-size="8">Жертвенность</text>
+  <text x="260" y="197" text-anchor="middle" fill="white" font-size="8">ради любви</text>
+  <rect x="315" y="145" width="85" height="65" rx="5" fill="#1a1a2e" stroke="#d4a574" stroke-width="1"/>
+  <text x="357" y="167" text-anchor="middle" fill="#d4a574" font-size="9" font-weight="bold">Пилат</text>
+  <text x="357" y="183" text-anchor="middle" fill="white" font-size="8">Трусость =</text>
+  <text x="357" y="197" text-anchor="middle" fill="white" font-size="8">вечный мук</text>
+  <rect x="410" y="145" width="75" height="65" rx="5" fill="#1a1a2e" stroke="#27ae60" stroke-width="1"/>
+  <text x="447" y="167" text-anchor="middle" fill="#27ae60" font-size="9" font-weight="bold">Иешуа</text>
+  <text x="447" y="183" text-anchor="middle" fill="white" font-size="8">Добро и</text>
+  <text x="447" y="197" text-anchor="middle" fill="white" font-size="8">истина</text>
+  <!-- Key ideas -->
+  <rect x="20" y="225" width="460" height="85" rx="6" fill="#0f3460" stroke="#e74c3c" stroke-width="1"/>
+  <text x="250" y="248" text-anchor="middle" fill="#e74c3c" font-size="11" font-weight="bold">Главные идеи</text>
+  <text x="250" y="268" text-anchor="middle" fill="white" font-size="10">Добро и зло неразделимы</text>
+  <text x="250" y="286" text-anchor="middle" fill="#f1c40f" font-size="10" font-style="italic">«Рукописи не горят»</text>
+  <text x="250" y="303" text-anchor="middle" fill="white" font-size="10">Любовь сильнее смерти • Наказание за трусость</text>
+  <text x="250" y="345" text-anchor="middle" fill="white" font-size="9" opacity="0.5">Булгаков «Мастер и Маргарита»</text>
+</svg>

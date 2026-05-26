@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><linearGradient id="g27" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#E53E3E"/><stop offset="100%" stop-color="#9B2C2C"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#g27)"/>
+  <!-- Heart -->
+  <g transform="translate(250,120)" opacity="0.4">
+    <path d="M0 25 Q-40 -5 -25 -25 Q-10 -40 0 -20 Q10 -40 25 -25 Q40 -5 0 25" fill="#FED7D7"/>
+  </g>
+  <!-- Ring -->
+  <g transform="translate(250,200)" opacity="0.3">
+    <circle cx="-15" cy="0" r="12" fill="none" stroke="#F6E05E" stroke-width="2"/>
+    <circle cx="15" cy="0" r="12" fill="none" stroke="#F6E05E" stroke-width="2"/>
+  </g>
+  <!-- Family -->
+  <g opacity="0.4" font-size="9" fill="#FED7D7">
+    <text x="80" y="100">Брак в ЗАГСе</text><text x="80" y="115">Возраст 18+</text>
+    <text x="80" y="130">Совместн. имущ.</text><text x="80" y="145">Алименты</text>
+    <text x="350" y="100">СК РФ</text><text x="350" y="115">Моногамия</text>
+    <text x="350" y="130">Развод</text><text x="350" y="145">Дети</text>
+  </g>
+  <text x="250" y="300" text-anchor="middle" font-size="18" fill="#FED7D7" font-weight="bold" opacity="0.6">Семейное право</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#FED7D7" opacity="0.5">Семейное право</text>
+</svg>

@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#C62828" text-anchor="middle">Международное сотрудничество</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Экология - Урок 12</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Center: Globe with hands -->
+  <rect x="130" y="90" width="240" height="205" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.5" opacity="0.9"/>
+  <text x="250" y="106" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#2E7D32" text-anchor="middle">ЗАЩИТИМ ПЛАНЕТУ ВМЕСТЕ</text>
+  
+  <!-- Globe -->
+  <circle cx="250" cy="195" r="55" fill="#E3F2FD" stroke="#1565C0" stroke-width="2"/>
+  <!-- Globe grid lines -->
+  <ellipse cx="250" cy="195" rx="55" ry="20" fill="none" stroke="#1565C0" stroke-width="0.5" opacity="0.3"/>
+  <ellipse cx="250" cy="195" rx="20" ry="55" fill="none" stroke="#1565C0" stroke-width="0.5" opacity="0.3"/>
+  <line x1="195" y1="195" x2="305" y2="195" stroke="#1565C0" stroke-width="0.5" opacity="0.3"/>
+  <line x1="250" y1="140" x2="250" y2="250" stroke="#1565C0" stroke-width="0.5" opacity="0.3"/>
+  
+  <!-- Continents (simplified) -->
+  <!-- Europe/Africa -->
+  <path d="M235,160 Q240,155 248,158 Q250,165 248,175 Q252,185 248,195 Q245,210 250,220 Q248,228 242,225 Q238,215 240,200 Q235,190 238,178 Q232,168 235,160 Z" fill="#A5D6A7" opacity="0.7"/>
+  <!-- Americas -->
+  <path d="M215,155 Q220,148 225,152 Q222,162 225,170 Q222,180 218,190 Q215,200 210,210 Q212,220 208,225 Q205,218 208,205 Q212,195 215,185 Q218,175 215,165 Q212,158 215,155 Z" fill="#81C784" opacity="0.6"/>
+  <!-- Asia -->
+  <path d="M260,155 Q270,150 280,155 Q285,162 282,172 Q278,180 282,188 Q278,195 270,190 Q265,185 268,178 Q262,170 260,162 Z" fill="#66BB6A" opacity="0.6"/>
+  <!-- Australia -->
+  <ellipse cx="290" cy="215" rx="12" ry="8" fill="#A5D6A7" opacity="0.5"/>
+  
+  <!-- Hands holding globe -->
+  <!-- Left hand (skin tone 1) -->
+  <g transform="translate(178,210)">
+    <ellipse cx="0" cy="0" rx="15" ry="10" fill="#FFCC80" stroke="#E8A960" stroke-width="1" transform="rotate(-30)"/>
+    <!-- Fingers wrapping -->
+    <ellipse cx="10" cy="-8" rx="5" ry="4" fill="#FFCC80" stroke="#E8A960" stroke-width="0.5" transform="rotate(-15)"/>
+    <ellipse cx="14" cy="-2" rx="5" ry="4" fill="#FFCC80" stroke="#E8A960" stroke-width="0.5"/>
+    <ellipse cx="13" cy="5" rx="5" ry="4" fill="#FFCC80" stroke="#E8A960" stroke-width="0.5" transform="rotate(10)"/>
+  </g>
+  
+  <!-- Right hand (skin tone 2) -->
+  <g transform="translate(322,210)">
+    <ellipse cx="0" cy="0" rx="15" ry="10" fill="#D7A87E" stroke="#C49A6E" stroke-width="1" transform="rotate(30)"/>
+    <ellipse cx="-10" cy="-8" rx="5" ry="4" fill="#D7A87E" stroke="#C49A6E" stroke-width="0.5" transform="rotate(15)"/>
+    <ellipse cx="-14" cy="-2" rx="5" ry="4" fill="#D7A87E" stroke="#C49A6E" stroke-width="0.5"/>
+    <ellipse cx="-13" cy="5" rx="5" ry="4" fill="#D7A87E" stroke="#C49A6E" stroke-width="0.5" transform="rotate(-10)"/>
+  </g>
+  
+  <!-- Plant growing from globe -->
+  <rect x="247" y="135" width="4" height="12" fill="#43A047"/>
+  <circle cx="249" cy="130" r="8" fill="#2E7D32"/>
+  <path d="M249,143 Q255,138 258,142" stroke="#43A047" stroke-width="1.5" fill="none"/>
+  <path d="M249,143 Q243,138 240,142" stroke="#66BB6A" stroke-width="1.5" fill="none"/>
+
+  <!-- Left panel: Flags -->
+  <rect x="30" y="90" width="95" height="205" rx="5" fill="white" stroke="#1565C0" stroke-width="1.5" opacity="0.9"/>
+  <text x="77" y="106" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1565C0" text-anchor="middle">СТРАНЫ-ПАРТНЁРЫ</text>
+  
+  <!-- Simplified flag representations -->
+  <!-- Flag 1: Russia-style (white, blue, red) -->
+  <rect x="45" y="115" width="25" height="5" fill="white" stroke="#BDBDBD" stroke-width="0.3"/>
+  <rect x="45" y="120" width="25" height="5" fill="#1565C0"/>
+  <rect x="45" y="125" width="25" height="5" fill="#E53935"/>
+  <line x1="44" y1="115" x2="44" y2="130" stroke="#757575" stroke-width="1.5"/>
+  
+  <!-- Flag 2: Green-white (Brazil-ish) -->
+  <rect x="78" y="115" width="25" height="5" fill="#2E7D32"/>
+  <rect x="78" y="120" width="25" height="5" fill="#F9A825"/>
+  <rect x="78" y="125" width="25" height="5" fill="#2E7D32"/>
+  <line x1="77" y1="115" x2="77" y2="130" stroke="#757575" stroke-width="1.5"/>
+  
+  <!-- Flag 3: Blue-yellow (EU-ish) -->
+  <rect x="45" y="142" width="25" height="5" fill="#1565C0"/>
+  <rect x="45" y="147" width="25" height="5" fill="#F9A825"/>
+  <rect x="45" y="152" width="25" height="5" fill="#1565C0"/>
+  <line x1="44" y1="142" x2="44" y2="157" stroke="#757575" stroke-width="1.5"/>
+  
+  <!-- Flag 4: Red-green (various) -->
+  <rect x="78" y="142" width="25" height="5" fill="#E53935"/>
+  <rect x="78" y="147" width="25" height="10" fill="#F9A825"/>
+  <line x1="77" y1="142" x2="77" y2="157" stroke="#757575" stroke-width="1.5"/>
+  
+  <!-- Flag 5: Black-red-gold (Germany-ish) -->
+  <rect x="45" y="168" width="25" height="5" fill="#212121"/>
+  <rect x="45" y="173" width="25" height="5" fill="#C62828"/>
+  <rect x="45" y="178" width="25" height="5" fill="#F9A825"/>
+  <line x1="44" y1="168" x2="44" y2="183" stroke="#757575" stroke-width="1.5"/>
+  
+  <!-- Flag 6: Red-white (various) -->
+  <rect x="78" y="168" width="25" height="5" fill="#E53935"/>
+  <rect x="78" y="173" width="25" height="5" fill="white" stroke="#BDBDBD" stroke-width="0.3"/>
+  <rect x="78" y="178" width="25" height="5" fill="#E53935"/>
+  <line x1="77" y1="168" x2="77" y2="183" stroke="#757575" stroke-width="1.5"/>
+  
+  <!-- Handshake below flags -->
+  <g transform="translate(77,210)">
+    <!-- Left arm -->
+    <rect x="-22" y="-2" width="18" height="6" rx="2" fill="#FFCC80" stroke="#E8A960" stroke-width="0.5"/>
+    <!-- Right arm -->
+    <rect x="4" y="-2" width="18" height="6" rx="2" fill="#D7A87E" stroke="#C49A6E" stroke-width="0.5"/>
+    <!-- Clasped hands -->
+    <ellipse cx="-2" cy="1" rx="6" ry="4" fill="#FFCC80" stroke="#E8A960" stroke-width="0.5"/>
+    <ellipse cx="2" cy="1" rx="6" ry="4" fill="#D7A87E" stroke="#C49A6E" stroke-width="0.5"/>
+  </g>
+  <text x="77" y="232" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">СОТРУДНИЧЕСТВО</text>
+
+  <!-- People planting trees together -->
+  <g transform="translate(50,258)">
+    <!-- Person 1 -->
+    <circle cx="0" cy="-8" r="5" fill="#FFCC80"/>
+    <rect x="-4" y="-2" width="10" height="14" fill="#1565C0"/>
+    <line x1="-2" y1="12" x2="-3" y2="22" stroke="#5D4037" stroke-width="2"/>
+    <line x1="4" y1="12" x2="5" y2="22" stroke="#5D4037" stroke-width="2"/>
+    <!-- Tree -->
+    <rect x="16" y="0" width="4" height="22" fill="#795548"/>
+    <circle cx="18" cy="-5" r="10" fill="#43A047"/>
+  </g>
+  <g transform="translate(95,260)">
+    <!-- Person 2 -->
+    <circle cx="0" cy="-8" r="5" fill="#D7A87E"/>
+    <rect x="-4" y="-2" width="10" height="14" fill="#E53935"/>
+    <line x1="-2" y1="12" x2="-3" y2="22" stroke="#5D4037" stroke-width="2"/>
+    <line x1="4" y1="12" x2="5" y2="22" stroke="#5D4037" stroke-width="2"/>
+  </g>
+
+  <!-- Right panel: UN emblem / Agreement -->
+  <rect x="380" y="90" width="90" height="100" rx="5" fill="white" stroke="#1565C0" stroke-width="1.5" opacity="0.9"/>
+  <text x="425" y="106" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1565C0" text-anchor="middle">ООН - ЭКОЛОГИЯ</text>
+  
+  <!-- UN-style emblem -->
+  <g transform="translate(425,145)">
+    <circle cx="0" cy="0" r="22" fill="none" stroke="#1565C0" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="18" fill="#E3F2FD" stroke="#1565C0" stroke-width="0.5"/>
+    <!-- Simplified globe grid -->
+    <ellipse cx="0" cy="0" rx="15" ry="5" fill="none" stroke="#1565C0" stroke-width="0.3"/>
+    <ellipse cx="0" cy="0" rx="5" ry="15" fill="none" stroke="#1565C0" stroke-width="0.3"/>
+    <line x1="-15" y1="0" x2="15" y2="0" stroke="#1565C0" stroke-width="0.3"/>
+    <!-- Olive branches (simplified) -->
+    <path d="M-8,15 Q-12,10 -8,8" stroke="#43A047" stroke-width="1" fill="none"/>
+    <path d="M-5,16 Q-9,12 -5,10" stroke="#43A047" stroke-width="1" fill="none"/>
+    <path d="M-2,17 Q-5,14 -2,12" stroke="#43A047" stroke-width="1" fill="none"/>
+    <path d="M8,15 Q12,10 8,8" stroke="#43A047" stroke-width="1" fill="none"/>
+    <path d="M5,16 Q9,12 5,10" stroke="#43A047" stroke-width="1" fill="none"/>
+    <path d="M2,17 Q5,14 2,12" stroke="#43A047" stroke-width="1" fill="none"/>
+  </g>
+
+  <!-- Right bottom: Agreement document -->
+  <rect x="380" y="198" width="90" height="97" rx="5" fill="white" stroke="#C62828" stroke-width="1.5" opacity="0.9"/>
+  <text x="425" y="213" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#C62828" text-anchor="middle">СОГЛАШЕНИЕ</text>
+  
+  <!-- Document -->
+  <rect x="395" y="220" width="55" height="40" rx="2" fill="white" stroke="#757575" stroke-width="1"/>
+  <path d="M440,220 L450,230 L450,260 L395,260 L395,220 Z" fill="white" stroke="#757575" stroke-width="1"/>
+  <path d="M440,220 L440,230 L450,230" fill="#E0E0E0" stroke="#757575" stroke-width="0.5"/>
+  <!-- Text lines -->
+  <line x1="400" y1="235" x2="435" y2="235" stroke="#BDBDBD" stroke-width="0.5"/>
+  <line x1="400" y1="240" x2="430" y2="240" stroke="#BDBDBD" stroke-width="0.5"/>
+  <line x1="400" y1="245" x2="432" y2="245" stroke="#BDBDBD" stroke-width="0.5"/>
+  <line x1="400" y1="250" x2="425" y2="250" stroke="#BDBDBD" stroke-width="0.5"/>
+  
+  <!-- Red seal -->
+  <circle cx="425" cy="268" r="10" fill="#E53935" opacity="0.7"/>
+  <circle cx="425" cy="268" r="7" fill="none" stroke="white" stroke-width="0.5"/>
+  <text x="425" y="271" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle" font-weight="bold">ECO</text>
+  
+  <!-- Signature line -->
+  <line x1="400" y1="285" x2="440" y2="285" stroke="#5D4037" stroke-width="0.5"/>
+  <text x="420" y="292" font-family="Arial,sans-serif" font-size="5" fill="#757575" text-anchor="middle">подпись</text>
+
+  <!-- Airplane connecting continents (below globe) -->
+  <g transform="translate(250,268)">
+    <!-- Airplane body -->
+    <ellipse cx="0" cy="0" rx="12" ry="3" fill="#757575" stroke="#5D4037" stroke-width="0.5"/>
+    <!-- Wings -->
+    <polygon points="-3,-3 -8,-10 2,-10 -3,-3" fill="#90A4AE" stroke="#757575" stroke-width="0.5"/>
+    <polygon points="-3,3 -8,10 2,10 -3,3" fill="#90A4AE" stroke="#757575" stroke-width="0.5"/>
+    <!-- Tail -->
+    <polygon points="12,-2 18,-7 18,-2 12,-2" fill="#90A4AE" stroke="#757575" stroke-width="0.5"/>
+    <!-- Trail -->
+    <path d="M-12,0 Q-20,2 -30,0" stroke="#B3E5FC" stroke-width="1" fill="none" opacity="0.5"/>
+    <path d="M-15,1 Q-25,4 -35,2" stroke="#B3E5FC" stroke-width="0.8" fill="none" opacity="0.3"/>
+  </g>
+
+  <!-- Bottom bar -->
+  <rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Международное сотрудничество</text>
+</svg>

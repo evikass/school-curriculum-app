@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bgT3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d1810"/>
+      <stop offset="100%" stop-color="#4a2c20"/>
+    </linearGradient>
+    <linearGradient id="woodGrain" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d4a574"/>
+      <stop offset="30%" stop-color="#c4935a"/>
+      <stop offset="60%" stop-color="#b8834a"/>
+      <stop offset="100%" stop-color="#a87040"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bgT3)"/>
+  <!-- Tree cross-section -->
+  <g transform="translate(120, 120)">
+    <circle cx="0" cy="0" r="90" fill="#8B6914" stroke="#6d5010" stroke-width="3"/>
+    <!-- Bark -->
+    <circle cx="0" cy="0" r="90" fill="none" stroke="#5c4010" stroke-width="8"/>
+    <!-- Growth rings -->
+    <circle cx="0" cy="0" r="75" fill="none" stroke="#a07830" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="65" fill="none" stroke="#b08840" stroke-width="1"/>
+    <circle cx="0" cy="0" r="55" fill="none" stroke="#a07830" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="45" fill="none" stroke="#b08840" stroke-width="1"/>
+    <circle cx="0" cy="0" r="35" fill="none" stroke="#a07830" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#b08840" stroke-width="1"/>
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#a07830" stroke-width="1"/>
+    <!-- Heartwood center -->
+    <circle cx="0" cy="0" r="8" fill="#8B6914"/>
+    <!-- Labels -->
+    <line x1="8" y1="-8" x2="40" y2="-40" stroke="#ffd93d" stroke-width="0.8"/>
+    <text x="42" y="-40" fill="#ffd93d" font-size="8" font-family="sans-serif">Сердцевина</text>
+    <line x1="25" y1="-25" x2="70" y2="-65" stroke="#ffd93d" stroke-width="0.8"/>
+    <text x="55" y="-72" fill="#ffd93d" font-size="8" font-family="sans-serif">Годичные кольца</text>
+    <line x1="75" y1="-20" x2="100" y2="-30" stroke="#ffd93d" stroke-width="0.8"/>
+    <text x="102" y="-28" fill="#ffd93d" font-size="8" font-family="sans-serif">Камбий</text>
+    <line x1="80" y1="30" x2="105" y2="40" stroke="#ffd93d" stroke-width="0.8"/>
+    <text x="107" y="43" fill="#ffd93d" font-size="8" font-family="sans-serif">Кора</text>
+    <!-- Radial line -->
+    <line x1="0" y1="0" x2="0" y2="-82" stroke="#ffd93d" stroke-width="0.5" stroke-dasharray="3,2"/>
+  </g>
+  <!-- Wood plank sample -->
+  <g transform="translate(290, 30)">
+    <rect x="0" y="0" width="190" height="60" rx="4" fill="url(#woodGrain)"/>
+    <!-- Wood grain lines -->
+    <path d="M0,10 Q50,8 100,12 Q150,15 190,10" fill="none" stroke="#a07040" stroke-width="0.8" opacity="0.5"/>
+    <path d="M0,20 Q50,18 100,22 Q150,25 190,20" fill="none" stroke="#a07040" stroke-width="0.8" opacity="0.5"/>
+    <path d="M0,30 Q50,28 100,32 Q150,35 190,30" fill="none" stroke="#a07040" stroke-width="0.8" opacity="0.5"/>
+    <path d="M0,40 Q50,38 100,42 Q150,45 190,40" fill="none" stroke="#a07040" stroke-width="0.8" opacity="0.5"/>
+    <path d="M0,50 Q50,48 100,52 Q150,55 190,50" fill="none" stroke="#a07040" stroke-width="0.8" opacity="0.5"/>
+    <text x="95" y="75" fill="#d4a574" font-size="9" font-family="sans-serif" text-anchor="middle">Текстура древесины</text>
+  </g>
+  <!-- Wood types -->
+  <g transform="translate(290, 110)">
+    <!-- Softwood -->
+    <rect x="0" y="0" width="190" height="75" rx="6" fill="#1a2a1a" stroke="#2a4a2a" stroke-width="1"/>
+    <text x="95" y="18" fill="#7ee787" font-size="10" font-family="sans-serif" text-anchor="middle" font-weight="bold">Хвойные породы</text>
+    <!-- Pine -->
+    <rect x="10" y="26" width="35" height="18" rx="3" fill="#d4a574" opacity="0.7"/>
+    <text x="27" y="39" fill="white" font-size="7" font-family="sans-serif" text-anchor="middle">Сосна</text>
+    <!-- Spruce -->
+    <rect x="50" y="26" width="35" height="18" rx="3" fill="#c9a060" opacity="0.7"/>
+    <text x="67" y="39" fill="white" font-size="7" font-family="sans-serif" text-anchor="middle">Ель</text>
+    <!-- Larch -->
+    <rect x="90" y="26" width="35" height="18" rx="3" fill="#b8864a" opacity="0.7"/>
+    <text x="107" y="39" fill="white" font-size="7" font-family="sans-serif" text-anchor="middle">Лиственница</text>
+    <text x="95" y="60" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">Мягкая, смолистая, дешёвая</text>
+    <text x="95" y="72" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">ρ ≈ 400-600 кг/м³</text>
+  </g>
+  <g transform="translate(290, 200)">
+    <!-- Hardwood -->
+    <rect x="0" y="0" width="190" height="75" rx="6" fill="#2a1a1a" stroke="#4a2a2a" stroke-width="1"/>
+    <text x="95" y="18" fill="#e17055" font-size="10" font-family="sans-serif" text-anchor="middle" font-weight="bold">Лиственные породы</text>
+    <!-- Oak -->
+    <rect x="10" y="26" width="35" height="18" rx="3" fill="#8B6914" opacity="0.8"/>
+    <text x="27" y="39" fill="white" font-size="7" font-family="sans-serif" text-anchor="middle">Дуб</text>
+    <!-- Birch -->
+    <rect x="50" y="26" width="35" height="18" rx="3" fill="#e8d4b0" opacity="0.8"/>
+    <text x="67" y="39" fill="#333" font-size="7" font-family="sans-serif" text-anchor="middle">Берёза</text>
+    <!-- Beech -->
+    <rect x="90" y="26" width="35" height="18" rx="3" fill="#c4935a" opacity="0.8"/>
+    <text x="107" y="39" fill="white" font-size="7" font-family="sans-serif" text-anchor="middle">Бук</text>
+    <text x="95" y="60" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">Твёрдая, прочная, дорогая</text>
+    <text x="95" y="72" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">ρ ≈ 600-900 кг/м³</text>
+  </g>
+  <!-- Properties -->
+  <g transform="translate(290, 290)">
+    <rect width="190" height="40" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="0.5"/>
+    <text x="95" y="15" fill="#ffd93d" font-size="8" font-family="sans-serif" text-anchor="middle">Свойства: плотность, влажность, твёрдость,</text>
+    <text x="95" y="30" fill="#ffd93d" font-size="8" font-family="sans-serif" text-anchor="middle">прочность, цвет, текстура</text>
+  </g>
+  <text x="250" y="340" fill="#aaa" font-size="9" opacity="0.5" font-family="sans-serif" text-anchor="middle">Свойства и породы древесины</text>
+</svg>

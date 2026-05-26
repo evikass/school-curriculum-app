@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Предупреждение заболеваний сердца и сосудов</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 8 класс — Урок 19</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- Healthy vs Atherosclerotic Artery -->
+<g transform="translate(10,55)">
+  <text x="120" y="0" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle" font-weight="bold">ЗДОРОВАЯ АРТЕРИЯ vs АТЕРОСКЛЕРОЗ</text>
+
+  <!-- Healthy Artery Cross-section -->
+  <g transform="translate(60,45)">
+    <circle cx="0" cy="0" r="30" fill="#FFCDD2" stroke="#C62828" stroke-width="5"/>
+    <circle cx="0" cy="0" r="23" fill="#EF9A9A"/>
+    <circle cx="0" cy="0" r="18" fill="#FFCDD2"/>
+    <!-- Blood flowing freely -->
+    <ellipse cx="-5" cy="0" rx="4" ry="3" fill="#E53935" opacity="0.6"/>
+    <ellipse cx="5" cy="-5" rx="3" ry="2.5" fill="#E53935" opacity="0.6"/>
+    <ellipse cx="3" cy="5" rx="3.5" ry="2" fill="#E53935" opacity="0.6"/>
+    <text x="0" y="45" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle" font-weight="bold">Здоровая</text>
+    <text x="0" y="53" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Широкий просвет</text>
+    <text x="0" y="61" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Эластичная стенка</text>
+  </g>
+
+  <!-- Arrow between -->
+  <text x="120" y="45" font-family="Arial,sans-serif" font-size="14" fill="#C62828">→</text>
+
+  <!-- Atherosclerotic Artery Cross-section -->
+  <g transform="translate(185,45)">
+    <circle cx="0" cy="0" r="30" fill="#FFCDD2" stroke="#C62828" stroke-width="5"/>
+    <!-- Plaque buildup (yellow cholesterol deposits) -->
+    <path d="M-22,-18 Q-15,-28 0,-25 Q10,-22 18,-15 Q25,-5 22,8 Q18,20 10,25 Q0,28 -12,22 Q-25,15 -28,0" fill="#FFF9C4" stroke="#F9A825" stroke-width="1.5"/>
+    <!-- Plaque interior -->
+    <path d="M-18,-12 Q-10,-20 5,-18 Q12,-14 15,-6 Q16,5 10,15 Q2,20 -8,16 Q-18,10 -20,-2" fill="#FFE082" stroke="#FBC02D" stroke-width="0.8"/>
+    <!-- Narrowed lumen -->
+    <circle cx="0" cy="0" r="8" fill="#EF9A9A"/>
+    <!-- Restricted blood flow -->
+    <ellipse cx="-2" cy="0" rx="2" ry="2" fill="#E53935" opacity="0.6"/>
+    <ellipse cx="3" cy="0" rx="1.5" ry="1.5" fill="#E53935" opacity="0.6"/>
+    <text x="0" y="45" font-family="Arial,sans-serif" font-size="6" fill="#C62828" text-anchor="middle" font-weight="bold">Атеросклероз</text>
+    <text x="0" y="53" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Холестериновая бляшка</text>
+    <text x="0" y="61" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Суженый просвет</text>
+    <!-- Label plaque -->
+    <line x1="20" y1="-15" x2="38" y2="-25" stroke="#F9A825" stroke-width="0.8"/>
+    <text x="40" y="-24" font-family="Arial,sans-serif" font-size="5" fill="#F57F17" font-weight="bold">Бляшка</text>
+  </g>
+</g>
+
+<!-- Risk Factors -->
+<g transform="translate(260,55)">
+  <text x="110" y="0" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" font-weight="bold">ФАКТОРЫ РИСКА</text>
+
+  <!-- Smoking -->
+  <g transform="translate(0,12)">
+    <rect x="0" y="0" width="100" height="20" fill="#FFCDD2" stroke="#C62828" stroke-width="0.8" rx="3"/>
+    <text x="8" y="10" font-family="Arial,sans-serif" font-size="10" fill="#C62828">🚬</text>
+    <text x="28" y="8" font-family="Arial,sans-serif" font-size="5.5" fill="#C62828" font-weight="bold">Курение</text>
+    <text x="28" y="16" font-family="Arial,sans-serif" font-size="4.5" fill="#555">Спазм сосудов, канцерогены</text>
+  </g>
+
+  <!-- Hypertension -->
+  <g transform="translate(110,12)">
+    <rect x="0" y="0" width="100" height="20" fill="#FFCDD2" stroke="#C62828" stroke-width="0.8" rx="3"/>
+    <text x="8" y="12" font-family="Arial,sans-serif" font-size="8" fill="#C62828" font-weight="bold">↑</text>
+    <text x="28" y="8" font-family="Arial,sans-serif" font-size="5.5" fill="#C62828" font-weight="bold">Гипертония</text>
+    <text x="28" y="16" font-family="Arial,sans-serif" font-size="4.5" fill="#555">Повышенное давление</text>
+  </g>
+
+  <!-- Obesity -->
+  <g transform="translate(0,38)">
+    <rect x="0" y="0" width="100" height="20" fill="#FFCDD2" stroke="#C62828" stroke-width="0.8" rx="3"/>
+    <text x="8" y="12" font-family="Arial,sans-serif" font-size="8" fill="#C62828" font-weight="bold">⚖</text>
+    <text x="28" y="8" font-family="Arial,sans-serif" font-size="5.5" fill="#C62828" font-weight="bold">Ожирение</text>
+    <text x="28" y="16" font-family="Arial,sans-serif" font-size="4.5" fill="#555">Избыток холестерина</text>
+  </g>
+
+  <!-- Stress -->
+  <g transform="translate(110,38)">
+    <rect x="0" y="0" width="100" height="20" fill="#FFCDD2" stroke="#C62828" stroke-width="0.8" rx="3"/>
+    <text x="8" y="12" font-family="Arial,sans-serif" font-size="8" fill="#C62828" font-weight="bold">⚡</text>
+    <text x="28" y="8" font-family="Arial,sans-serif" font-size="5.5" fill="#C62828" font-weight="bold">Стресс</text>
+    <text x="28" y="16" font-family="Arial,sans-serif" font-size="4.5" fill="#555">Адреналин, спазм сосудов</text>
+  </g>
+
+  <!-- Sedentary lifestyle -->
+  <g transform="translate(0,64)">
+    <rect x="0" y="0" width="210" height="20" fill="#FFCDD2" stroke="#C62828" stroke-width="0.8" rx="3"/>
+    <text x="8" y="12" font-family="Arial,sans-serif" font-size="8" fill="#C62828" font-weight="bold">💺</text>
+    <text x="28" y="8" font-family="Arial,sans-serif" font-size="5.5" fill="#C62828" font-weight="bold">Малоподвижный образ жизни</text>
+    <text x="28" y="16" font-family="Arial,sans-serif" font-size="4.5" fill="#555">Слабое сердце, застой крови</text>
+  </g>
+</g>
+
+<!-- Prevention Measures -->
+<g transform="translate(15,180)">
+  <text x="235" y="0" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">ПРОФИЛАКТИКА ЗАБОЛЕВАНИЙ СЕРДЦА И СОСУДОВ</text>
+
+  <!-- Exercise -->
+  <g transform="translate(0,10)">
+    <rect x="0" y="0" width="150" height="28" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1" rx="5"/>
+    <text x="10" y="12" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32">🏃</text>
+    <text x="30" y="12" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" font-weight="bold">Физическая активность</text>
+    <text x="30" y="22" font-family="Arial,sans-serif" font-size="5" fill="#333">30 мин ежедневно, кардио-нагрузки</text>
+  </g>
+
+  <!-- Diet -->
+  <g transform="translate(160,10)">
+    <rect x="0" y="0" width="150" height="28" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1" rx="5"/>
+    <text x="10" y="12" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32">🥗</text>
+    <text x="30" y="12" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" font-weight="bold">Здоровое питание</text>
+    <text x="30" y="22" font-family="Arial,sans-serif" font-size="5" fill="#333">Овощи, рыба, меньше жиров и соли</text>
+  </g>
+
+  <!-- Stress management -->
+  <g transform="translate(320,10)">
+    <rect x="0" y="0" width="150" height="28" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1" rx="5"/>
+    <text x="10" y="12" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32">🧘</text>
+    <text x="30" y="12" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" font-weight="bold">Управление стрессом</text>
+    <text x="30" y="22" font-family="Arial,sans-serif" font-size="5" fill="#333">Сон 7–8 ч, расслабление, отдых</text>
+  </g>
+
+  <!-- Additional measures -->
+  <g transform="translate(0,45)">
+    <rect x="0" y="0" width="150" height="28" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1" rx="5"/>
+    <text x="10" y="12" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32">🚭</text>
+    <text x="30" y="12" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" font-weight="bold">Отказ от курения</text>
+    <text x="30" y="22" font-family="Arial,sans-serif" font-size="5" fill="#333">Снижение риска в 2 раза</text>
+  </g>
+
+  <g transform="translate(160,45)">
+    <rect x="0" y="0" width="150" height="28" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1" rx="5"/>
+    <text x="10" y="12" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32">👨‍⚕️</text>
+    <text x="30" y="12" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" font-weight="bold">Регулярные осмотры</text>
+    <text x="30" y="22" font-family="Arial,sans-serif" font-size="5" fill="#333">Контроль давления и холестерина</text>
+  </g>
+
+  <g transform="translate(320,45)">
+    <rect x="0" y="0" width="150" height="28" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1" rx="5"/>
+    <text x="10" y="12" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32">⚖️</text>
+    <text x="30" y="12" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" font-weight="bold">Контроль веса</text>
+    <text x="30" y="22" font-family="Arial,sans-serif" font-size="5" fill="#333">ИМТ 18,5–24,9 — норма</text>
+  </g>
+</g>
+
+<!-- Warning Signs Panel -->
+<rect x="15" y="275" width="225" height="40" fill="#FFCDD2" fill-opacity="0.8" stroke="#C62828" stroke-width="1" rx="5"/>
+<text x="127" y="288" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" font-weight="bold">⚠ ПРИЗНАКИ ИНФАРКТА</text>
+<text x="22" y="298" font-family="Arial,sans-serif" font-size="5" fill="#B71C1C">• Резкая боль в груди, отдаёт в левую руку</text>
+<text x="22" y="306" font-family="Arial,sans-serif" font-size="5" fill="#B71C1C">• Одышка, холодный пот, страх смерти</text>
+
+<rect x="260" y="275" width="225" height="40" fill="#C5CAE9" fill-opacity="0.8" stroke="#283593" stroke-width="1" rx="5"/>
+<text x="372" y="288" font-family="Arial,sans-serif" font-size="7" fill="#283593" text-anchor="middle" font-weight="bold">⚠ ПРИЗНАКИ ИНСУЛЬТА</text>
+<text x="267" y="298" font-family="Arial,sans-serif" font-size="5" fill="#1A237E">• Асимметрия лица, слабость в руке</text>
+<text x="267" y="306" font-family="Arial,sans-serif" font-size="5" fill="#1A237E">• Нарушение речи, внезапная головная боль</text>
+
+<!-- Footer -->
+<rect x="3" y="325" width="494" height="22" fill="#2E7D32" rx="0"/>
+<text x="250" y="340" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle" font-weight="bold">Атеросклероз • Факторы риска • Профилактика • Инфаркт • Инсульт</text>
+</svg>

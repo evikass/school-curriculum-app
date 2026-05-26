@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#E3F2FD"/>
+<rect x="15" y="15" width="235" height="310" rx="6" fill="#FFF" stroke="#1565C0" stroke-width="1.5"/>
+<text x="132" y="35" font-size="9" fill="#0D47A1" text-anchor="middle" font-weight="bold">Круговорот воды</text>
+<rect x="30" y="220" width="205" height="80" rx="3" fill="#90CAF9" stroke="#1565C0" stroke-width="1"/>
+<text x="132" y="250" font-size="8" fill="#0D47A1" text-anchor="middle">океан / озеро</text>
+<path d="M50,220 Q50,180 70,150 Q90,120 80,90" fill="none" stroke="#42A5F5" stroke-width="2"/>
+<path d="M100,220 Q100,170 120,140 Q140,110 130,80" fill="none" stroke="#42A5F5" stroke-width="2"/>
+<path d="M160,220 Q160,160 180,120 Q200,80 190,50" fill="none" stroke="#42A5F5" stroke-width="2"/>
+<path d="M200,220 Q200,170 215,130 Q230,90 225,55" fill="none" stroke="#42A5F5" stroke-width="2"/>
+<text x="85" y="85" font-size="7" fill="#1565C0">испарение</text>
+<ellipse cx="120" cy="55" rx="60" ry="18" fill="#BBDEFB" stroke="#64B5F6" stroke-width="1" opacity="0.7"/>
+<ellipse cx="170" cy="48" rx="50" ry="15" fill="#E3F2FD" stroke="#90CAF9" stroke-width="1" opacity="0.6"/>
+<text x="140" y="58" font-size="7" fill="#0D47A1">облака</text>
+<line x1="90" y1="70" x2="60" y2="180" stroke="#1976D2" stroke-width="1.5" stroke-dasharray="3,2"/>
+<line x1="150" y1="70" x2="120" y2="180" stroke="#1976D2" stroke-width="1.5" stroke-dasharray="3,2"/>
+<text x="70" y="130" font-size="7" fill="#1976D2">осадки</text>
+<path d="M60,220 Q60,250 40,270 Q30,285 35,300" fill="none" stroke="#5D4037" stroke-width="2"/>
+<text x="25" y="310" font-size="6" fill="#5D4037">ручьи</text>
+<line x1="60" y1="300" x2="100" y2="300" stroke="#42A5F5" stroke-width="1.5"/>
+<polygon points="100,297 108,300 100,303" fill="#42A5F5"/>
+<text x="132" y="315" font-size="6" fill="#0D47A1" text-anchor="middle">→ обратно в океан</text>
+<rect x="260" y="15" width="230" height="310" rx="6" fill="#FFF" stroke="#4CAF50" stroke-width="1.5"/>
+<text x="375" y="35" font-size="9" fill="#2E7D32" text-anchor="middle" font-weight="bold">Круговорот углерода</text>
+<rect x="290" y="200" width="170" height="90" rx="3" fill="#8D6E63" stroke="#5D4037" stroke-width="1" opacity="0.3"/>
+<path d="M340,200 Q340,160 330,120 Q325,90 340,60" fill="none" stroke="#4CAF50" stroke-width="2"/>
+<text x="355" y="90" font-size="7" fill="#2E7D32">фотосинтез</text>
+<text x="355" y="102" font-size="6" fill="#388E3C">CO₂ → C₆H₁₂O₆</text>
+<ellipse cx="340" cy="50" rx="35" ry="15" fill="#81C784" stroke="#2E7D32" stroke-width="1.5"/>
+<text x="340" y="54" font-size="7" fill="#1B5E20" text-anchor="middle">растения</text>
+<path d="M380,55 Q420,70 430,120" fill="none" stroke="#FF8F00" stroke-width="2"/>
+<text x="440" y="85" font-size="6" fill="#E65100">поедание</text>
+<circle cx="430" cy="140" r="20" fill="#FFCC80" stroke="#E65100" stroke-width="1.5"/>
+<text x="430" y="143" font-size="7" fill="#BF360C" text-anchor="middle">животн.</text>
+<path d="M430,160 Q440,200 430,240" fill="none" stroke="#795548" stroke-width="2"/>
+<text x="455" y="200" font-size="6" fill="#5D4037">дыхание</text>
+<text x="455" y="212" font-size="6" fill="#5D4037">CO₂</text>
+<ellipse cx="375" cy="260" rx="30" ry="12" fill="#A1887F" stroke="#6D4C41" stroke-width="1"/>
+<text x="375" y="264" font-size="6" fill="#4E342E" text-anchor="middle">разложение</text>
+<path d="M340,275 Q330,290 320,290 Q310,285 305,270" fill="none" stroke="#795548" stroke-width="1.5"/>
+<text x="295" y="275" font-size="6" fill="#5D4037">CO₂</text>
+<text x="375" y="310" font-size="7" fill="#2E7D32" text-anchor="middle">уголь, нефть, газ</text>
+<text x="375" y="322" font-size="6" fill="#795548" text-anchor="middle">сгорание → CO₂</text>
+<text x="250" y="345" font-size="9" fill="#666" text-anchor="middle" opacity="0.5">Круговорот воды и углерода</text>
+</svg>

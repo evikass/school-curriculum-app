@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <radialGradient id="globe" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#4fc3f7"/>
+      <stop offset="100%" stop-color="#0277bd"/>
+    </radialGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a237e"/>
+      <stop offset="100%" stop-color="#283593"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <!-- Globe -->
+  <circle cx="250" cy="155" r="120" fill="url(#globe)" stroke="#01579b" stroke-width="2"/>
+  <!-- Latitude lines -->
+  <ellipse cx="250" cy="155" rx="120" ry="20" fill="none" stroke="#0288d1" stroke-width="0.7" opacity="0.5"/>
+  <ellipse cx="250" cy="155" rx="120" ry="50" fill="none" stroke="#0288d1" stroke-width="0.7" opacity="0.5"/>
+  <ellipse cx="250" cy="155" rx="120" ry="85" fill="none" stroke="#0288d1" stroke-width="0.7" opacity="0.5"/>
+  <!-- Longitude lines -->
+  <ellipse cx="250" cy="155" rx="30" ry="120" fill="none" stroke="#0288d1" stroke-width="0.7" opacity="0.5"/>
+  <ellipse cx="250" cy="155" rx="70" ry="120" fill="none" stroke="#0288d1" stroke-width="0.7" opacity="0.5"/>
+  <line x1="250" y1="35" x2="250" y2="275" stroke="#0288d1" stroke-width="0.7" opacity="0.5"/>
+  <!-- Russia shape (simplified) -->
+  <path d="M155,100 L165,88 L185,82 L210,78 L240,80 L270,75 L300,78 L320,85 L340,80 L360,88 L365,100 L355,110 L340,115 L330,125 L315,130 L300,128 L285,135 L270,140 L260,148 L250,155 L240,160 L225,158 L210,155 L195,150 L180,148 L170,140 L160,130 L155,118 Z" fill="#e53935" stroke="#b71c1c" stroke-width="1.5" opacity="0.9"/>
+  <!-- Kamchatka extension -->
+  <path d="M360,88 L370,82 L378,88 L375,100 L365,105 L360,100 Z" fill="#e53935" stroke="#b71c1c" stroke-width="1.5" opacity="0.9"/>
+  <!-- Label on Russia -->
+  <text x="255" y="125" font-size="11" fill="#fff" text-anchor="middle" font-weight="bold">РОССИЯ</text>
+  <!-- Star for Moscow -->
+  <polygon points="220,130 222,126 226,124 222,122 220,118 218,122 214,124 218,126" fill="#ffd600"/>
+  <text x="220" y="142" font-size="7" fill="#fff" text-anchor="middle">Москва</text>
+  <!-- Surrounding countries hints -->
+  <path d="M150,100 L140,95 L135,105 L145,115 L155,118" fill="#66bb6a" opacity="0.6"/>
+  <path d="M155,148 L145,155 L140,165 L150,170 L160,165 L170,160" fill="#66bb6a" opacity="0.6"/>
+  <path d="M340,115 L350,118 L355,128 L345,135 L335,130" fill="#ffa726" opacity="0.6"/>
+  <!-- Ocean labels -->
+  <text x="100" y="80" font-size="7" fill="#4fc3f7" opacity="0.8">Атлантика</text>
+  <text x="380" y="100" font-size="7" fill="#4fc3f7" opacity="0.8">Тихий</text>
+  <text x="380" y="110" font-size="7" fill="#4fc3f7" opacity="0.8">океан</text>
+  <text x="250" y="260" font-size="7" fill="#4fc3f7" opacity="0.8">Северный Ледовитый океан</text>
+  <!-- Title -->
+  <text x="250" y="340" font-size="9" fill="#fff" opacity="0.5" text-anchor="middle">Россия на карте мира</text>
+</svg>

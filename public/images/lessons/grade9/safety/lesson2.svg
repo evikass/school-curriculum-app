@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bgs2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#795548;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#A1887F;stop-opacity:0.06"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="#1a1a2e"/>
+  <rect width="500" height="350" fill="url(#bgs2)"/>
+  <!-- Pie chart showing health factors -->
+  <g transform="translate(60,60)">
+    <circle cx="80" cy="80" r="75" fill="none" stroke="#555" stroke-width="1" opacity="0.2"/>
+    <!-- 50% slice - lifestyle (largest) -->
+    <path d="M80,80 L80,5 A75,75 0 1,1 15,45Z" fill="#4CAF50" opacity="0.35"/>
+    <!-- 25% slice - genetics -->
+    <path d="M80,80 L15,45 A75,75 0 0,1 80,5Z" fill="#2196F3" opacity="0.35"/>
+    <!-- Labels -->
+    <text x="95" y="100" font-size="10" fill="#81C784" opacity="0.7" font-family="sans-serif">50%</text>
+    <text x="30" y="30" font-size="9" fill="#64B5F6" opacity="0.7" font-family="sans-serif">25%</text>
+  </g>
+  <!-- DNA helix (genetics) -->
+  <g transform="translate(280,40)">
+    <path d="M0,20 Q30,0 60,20 Q90,40 120,20 Q150,0 180,20" fill="none" stroke="#2196F3" stroke-width="2" opacity="0.4"/>
+    <path d="M0,40 Q30,60 60,40 Q90,20 120,40 Q150,60 180,40" fill="none" stroke="#64B5F6" stroke-width="2" opacity="0.4"/>
+    <line x1="15" y1="25" x2="15" y2="35" stroke="#90CAF9" stroke-width="1.5" opacity="0.3"/>
+    <line x1="45" y1="15" x2="45" y2="45" stroke="#90CAF9" stroke-width="1.5" opacity="0.3"/>
+    <line x1="75" y1="25" x2="75" y2="35" stroke="#90CAF9" stroke-width="1.5" opacity="0.3"/>
+    <line x1="105" y1="15" x2="105" y2="45" stroke="#90CAF9" stroke-width="1.5" opacity="0.3"/>
+    <line x1="135" y1="25" x2="135" y2="35" stroke="#90CAF9" stroke-width="1.5" opacity="0.3"/>
+    <line x1="165" y1="15" x2="165" y2="45" stroke="#90CAF9" stroke-width="1.5" opacity="0.3"/>
+  </g>
+  <!-- Arrow up (health) -->
+  <g transform="translate(300,150)">
+    <polygon points="50,0 80,40 65,40 65,100 35,100 35,40 20,40" fill="#4CAF50" opacity="0.3"/>
+  </g>
+  <!-- Cigarette with X -->
+  <g transform="translate(380,170)">
+    <rect x="0" y="10" width="50" height="10" fill="#795548" opacity="0.4" rx="2"/>
+    <rect x="50" y="10" width="15" height="10" fill="#FFC107" opacity="0.3" rx="1"/>
+    <path d="M62,6 Q65,2 68,6" fill="none" stroke="#999" stroke-width="1" opacity="0.3"/>
+    <path d="M60,4 Q63,0 66,4" fill="none" stroke="#999" stroke-width="1" opacity="0.25"/>
+    <line x1="-5" y1="0" x2="70" y2="30" stroke="#F44336" stroke-width="3" opacity="0.5"/>
+  </g>
+  <!-- Shield (protection) -->
+  <g transform="translate(400,230)">
+    <path d="M25,0 L50,8 L50,28 C50,42 25,50 25,50 C25,50 0,42 0,28 L0,8Z" fill="none" stroke="#4CAF50" stroke-width="2" opacity="0.4"/>
+    <path d="M15,25 L22,32 L38,16" fill="none" stroke="#4CAF50" stroke-width="2.5" opacity="0.5"/>
+  </g>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#aaa" opacity="0.5" font-family="sans-serif">Факторы здоровья</text>
+</svg>

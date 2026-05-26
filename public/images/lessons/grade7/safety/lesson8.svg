@@ -1,0 +1,64 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="350" fill="#0d1218"/>
+  <!-- Fracture with splint -->
+  <rect x="30" y="30" width="220" height="150" rx="6" fill="#1a1a2a" stroke="#42a5f5" stroke-width="1.5"/>
+  <text x="50" y="50" font-size="10" fill="#42a5f5" font-weight="bold">Перелом — шина</text>
+  <!-- Arm with fracture -->
+  <rect x="60" y="70" width="150" height="30" rx="15" fill="#ffcc80" stroke="#e0a050" stroke-width="1"/>
+  <!-- Fracture point (bump) -->
+  <circle cx="140" cy="82" r="8" fill="#e53935" opacity="0.4"/>
+  <!-- Splint (two sticks alongside arm) -->
+  <rect x="90" y="62" width="80" height="6" rx="2" fill="#8d6e63" stroke="#6d4c41" stroke-width="1"/>
+  <rect x="90" y="102" width="80" height="6" rx="2" fill="#8d6e63" stroke="#6d4c41" stroke-width="1"/>
+  <!-- Bandage over splint -->
+  <rect x="85" y="65" width="90" height="40" rx="4" fill="#eceff1" opacity="0.3" stroke="#cfd8dc" stroke-width="0.5"/>
+  <line x1="100" y1="65" x2="100" y2="105" stroke="#b0bec5" stroke-width="0.5" opacity="0.3"/>
+  <line x1="120" y1="65" x2="120" y2="105" stroke="#b0bec5" stroke-width="0.5" opacity="0.3"/>
+  <line x1="140" y1="65" x2="140" y2="105" stroke="#b0bec5" stroke-width="0.5" opacity="0.3"/>
+  <line x1="160" y1="65" x2="160" y2="105" stroke="#b0bec5" stroke-width="0.5" opacity="0.3"/>
+  <!-- Sling -->
+  <path d="M80,85 L50,60 L50,120 L80,85" fill="#42a5f5" opacity="0.15" stroke="#42a5f5" stroke-width="1"/>
+  <text x="60" y="125" font-size="7" fill="#90caf9">Шина + косынка</text>
+  <text x="60" y="140" font-size="7" fill="#b0bec5">Обездвижь конечность!</text>
+  <!-- Burn cooling -->
+  <rect x="270" y="30" width="210" height="150" rx="6" fill="#1a2a1a" stroke="#ff5722" stroke-width="1.5"/>
+  <text x="290" y="50" font-size="10" fill="#ff5722" font-weight="bold">Ожог — охлаждение</text>
+  <!-- Hand/arm under water -->
+  <rect x="310" y="70" width="120" height="60" rx="10" fill="#1565c0" opacity="0.3" stroke="#42a5f5" stroke-width="1.5"/>
+  <!-- Water level -->
+  <path d="M310,80 Q340,75 370,80 Q400,85 430,80" fill="none" stroke="#42a5f5" stroke-width="1" opacity="0.5"/>
+  <!-- Arm under water -->
+  <rect x="330" y="85" width="80" height="25" rx="12" fill="#ffcc80" stroke="#e0a050" stroke-width="1"/>
+  <!-- Burn mark on arm -->
+  <ellipse cx="370" cy="95" rx="10" ry="8" fill="#e53935" opacity="0.5"/>
+  <!-- Water tap -->
+  <rect x="350" y="55" width="20" height="15" rx="3" fill="#546e7a"/>
+  <path d="M360,70 L360,80" stroke="#42a5f5" stroke-width="2"/>
+  <!-- Water drops -->
+  <circle cx="358" cy="82" r="2" fill="#42a5f5" opacity="0.5"/>
+  <circle cx="362" cy="86" r="1.5" fill="#42a5f5" opacity="0.4"/>
+  <text x="295" y="145" font-size="7" fill="#a5d6a7">Прохладная вода 10-15 мин</text>
+  <text x="295" y="158" font-size="7" fill="#ef9a9a">НЕ лей лёд! НЕ мажь маслом!</text>
+  <!-- DO NOT pop blisters -->
+  <rect x="30" y="200" width="220" height="110" rx="6" fill="#1a1210" stroke="#ef5350" stroke-width="1.5"/>
+  <text x="45" y="220" font-size="10" fill="#ef5350" font-weight="bold">❌ НЕ прокалывай пузыри!</text>
+  <!-- Blister illustration -->
+  <rect x="60" y="235" width="80" height="30" rx="15" fill="#ffcc80" stroke="#e0a050" stroke-width="1"/>
+  <!-- Blister -->
+  <ellipse cx="100" cy="248" rx="15" ry="10" fill="#fff8e1" stroke="#ffe0b2" stroke-width="1" opacity="0.8"/>
+  <ellipse cx="100" cy="246" rx="10" ry="6" fill="#eceff1" opacity="0.5"/>
+  <!-- Red X over blister -->
+  <line x1="88" y1="238" x2="112" y2="258" stroke="#ef5350" stroke-width="2.5"/>
+  <line x1="112" y1="238" x2="88" y2="258" stroke="#ef5350" stroke-width="2.5"/>
+  <text x="50" y="280" font-size="7" fill="#ffcdd2">Пузырь защищает рану</text>
+  <text x="50" y="295" font-size="7" fill="#ffcdd2">от инфекции!</text>
+  <!-- Steps summary -->
+  <rect x="270" y="200" width="210" height="110" rx="6" fill="#1a1a2a" stroke="#546e7a" stroke-width="1"/>
+  <text x="285" y="220" font-size="9" fill="#66bb6a" font-weight="bold">Первая помощь:</text>
+  <text x="285" y="238" font-size="8" fill="#c8e6c9">🔵 Перелом: шина, обездвижить</text>
+  <text x="285" y="255" font-size="8" fill="#c8e6c9">🔴 Ожог: охладить водой</text>
+  <text x="285" y="272" font-size="8" fill="#ef5350">❌ НЕ прокалывать пузыри</text>
+  <text x="285" y="289" font-size="8" fill="#ef5350">❌ НЕ мазать маслом/кремом</text>
+  <text x="285" y="306" font-size="8" fill="#ff9800">📞 Вызови 103!</text>
+  <text x="140" y="340" font-size="9" fill="#fff" opacity="0.5">Первая помощь при переломах и ожогах</text>
+</svg>

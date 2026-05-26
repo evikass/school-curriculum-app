@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E0F7FA"/>
+      <stop offset="100%" stop-color="#B2EBF2"/>
+    </linearGradient>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#E0F7FA"/>
+    </linearGradient>
+    <linearGradient id="groundGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#81C784"/>
+      <stop offset="100%" stop-color="#4CAF50"/>
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#42A5F5"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+    <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF9C4"/>
+      <stop offset="60%" stop-color="#FDD835"/>
+      <stop offset="100%" stop-color="#F9A825"/>
+    </radialGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="3" stdDeviation="5" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="500" height="220" fill="url(#skyGrad)"/>
+  <circle cx="430" cy="50" r="35" fill="url(#sunGrad)" filter="url(#glow)"/>
+  <path d="M80,40 Q90,25 100,40 Q110,25 120,40" fill="white" opacity="0.7"/>
+  <path d="M200,55 Q212,38 224,55 Q236,38 248,55" fill="white" opacity="0.6"/>
+  <path d="M340,30 Q348,20 356,30 Q364,20 372,30" fill="white" opacity="0.5"/><path d="M0,270 Q125,255 250,270 Q375,280 500,270 L500,350 L0,350 Z" fill="url(#groundGrad)"/>
+  <path d="M0,275 Q125,260 250,275 Q375,285 500,275" fill="#66BB6A" opacity="0.3"/>
+  <g transform="translate(40,35)" filter="url(#softShadow)">
+    <rect width="420" height="230" rx="12" fill="white" opacity="0.94"/>
+    <rect width="420" height="28" rx="12" fill="#00838F" opacity="0.9"/>
+    <rect y="20" width="420" height="8" fill="#00838F" opacity="0.9"/>
+    <text x="210" y="19" font-family="Arial" font-size="12" fill="white" text-anchor="middle" font-weight="bold">РОССИЯ НА КАРТЕ</text>
+    <g transform="translate(15,38)">
+      <rect width="220" height="180" rx="6" fill="#E0F7FA" opacity="0.3" stroke="#00838F" stroke-width="1.5"/>
+      <path d="M30,30 L80,20 L140,25 L180,40 L190,70 L170,100 L140,130 L100,145 L60,140 L25,120 L15,90 L20,55 Z" fill="#00838F" opacity="0.12" stroke="#00838F" stroke-width="1.5"/>
+      <path d="M45,50 Q60,45 75,55 Q85,48 100,55" fill="none" stroke="#1565C0" stroke-width="1" opacity="0.5"/>
+      <circle cx="85" cy="80" r="5" fill="#D32F2F" opacity="0.7"/>
+      <text x="85" y="73" font-family="Arial" font-size="7" fill="#006064" text-anchor="middle" font-weight="bold">Москва</text>
+      <circle cx="130" cy="50" r="3" fill="#FF9800" opacity="0.7"/>
+      <text x="145" y="53" font-family="Arial" font-size="6" fill="#555">Екатеринбург</text>
+      <circle cx="55" cy="95" r="3" fill="#2E7D32" opacity="0.7"/>
+      <text x="68" y="98" font-family="Arial" font-size="6" fill="#555">С-Петербург</text>
+      <text x="110" y="170" font-family="Arial" font-size="8" fill="#00838F" text-anchor="middle">Самая большая страна</text>
+    </g>
+    <g transform="translate(250,38)">
+      <rect width="155" height="180" rx="6" fill="white" stroke="#00838F" stroke-width="1"/>
+      <rect width="155" height="22" rx="6" fill="#00838F" opacity="0.85"/>
+      <rect y="16" width="155" height="6" fill="#00838F" opacity="0.85"/>
+      <text x="77" y="16" font-family="Arial" font-size="9" fill="white" text-anchor="middle" font-weight="bold">ФАКТЫ</text>
+      <text x="77" y="42" font-family="Arial" font-size="8" fill="#006064" font-weight="bold">17 100 000 км²</text>
+      <text x="77" y="56" font-family="Arial" font-size="7" fill="#555">Площадь России</text>
+      <text x="77" y="76" font-family="Arial" font-size="8" fill="#006064" font-weight="bold">146 млн чел.</text>
+      <text x="77" y="90" font-family="Arial" font-size="7" fill="#555">Население</text>
+      <text x="77" y="110" font-family="Arial" font-size="8" fill="#006064" font-weight="bold">11 часовых поясов</text>
+      <text x="77" y="124" font-family="Arial" font-size="7" fill="#555">От Калининграда</text>
+      <text x="77" y="136" font-family="Arial" font-size="7" fill="#555">до Камчатки</text>
+      <text x="77" y="158" font-family="Arial" font-size="8" fill="#00838F" font-weight="bold">Соседи: 18 стран</text>
+      <text x="77" y="172" font-family="Arial" font-size="7" fill="#555">Больше всех в мире!</text>
+    </g>
+  </g>
+  <rect x="0" y="318" width="500" height="32" rx="0" fill="#00838F" opacity="0.9"/>
+  <text x="250" y="339" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Россия на карте</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#ECEFF1"/>
+<rect x="20" y="30" width="210" height="290" fill="#FAFAFA" stroke="#90A4AE" stroke-width="1"/>
+<text x="125" y="55" font-size="10" fill="#37474F" text-anchor="middle" font-weight="bold">Без лыж</text>
+<ellipse cx="125" cy="240" rx="18" ry="25" fill="#78909C"/>
+<circle cx="125" cy="200" r="15" fill="#90A4AE" stroke="#546E7A" stroke-width="1"/>
+<line x1="125" y1="215" x2="125" y2="240" stroke="#546E7A" stroke-width="2"/>
+<line x1="125" y1="225" x2="105" y2="235" stroke="#546E7A" stroke-width="2"/>
+<line x1="125" y1="225" x2="145" y2="235" stroke="#546E7A" stroke-width="2"/>
+<line x1="125" y1="265" x2="115" y2="290" stroke="#546E7A" stroke-width="2"/>
+<line x1="125" y1="265" x2="135" y2="290" stroke="#546E7A" stroke-width="2"/>
+<rect x="107" y="290" width="36" height="5" fill="#546E7A" rx="1"/>
+<line x1="125" y1="295" x2="125" y2="310" stroke="#D32F2F" stroke-width="3"/>
+<polygon points="125,316 120,308 130,308" fill="#D32F2F"/>
+<text x="90" y="308" font-size="9" fill="#C62828">F</text>
+<text x="150" y="308" font-size="8" fill="#546E7A">S₁</text>
+<text x="125" y="75" font-size="9" fill="#C62828" text-anchor="middle">P большое</text>
+<rect x="270" y="30" width="210" height="290" fill="#FAFAFA" stroke="#90A4AE" stroke-width="1"/>
+<text x="375" y="55" font-size="10" fill="#37474F" text-anchor="middle" font-weight="bold">На лыжах</text>
+<ellipse cx="375" cy="240" rx="18" ry="25" fill="#78909C"/>
+<circle cx="375" cy="200" r="15" fill="#90A4AE" stroke="#546E7A" stroke-width="1"/>
+<line x1="375" y1="215" x2="375" y2="240" stroke="#546E7A" stroke-width="2"/>
+<line x1="375" y1="225" x2="355" y2="235" stroke="#546E7A" stroke-width="2"/>
+<line x1="375" y1="225" x2="395" y2="235" stroke="#546E7A" stroke-width="2"/>
+<line x1="375" y1="265" x2="345" y2="290" stroke="#546E7A" stroke-width="2"/>
+<line x1="375" y1="265" x2="405" y2="290" stroke="#546E7A" stroke-width="2"/>
+<rect x="310" y="290" width="130" height="8" fill="#5D4037" rx="2" stroke="#3E2723" stroke-width="1"/>
+<line x1="375" y1="298" x2="375" y2="310" stroke="#4CAF50" stroke-width="3"/>
+<polygon points="375,316 370,308 380,308" fill="#4CAF50"/>
+<text x="340" y="308" font-size="9" fill="#2E7D32">F</text>
+<text x="420" y="308" font-size="8" fill="#5D4037">S₂»S₁</text>
+<text x="375" y="75" font-size="9" fill="#2E7D32" text-anchor="middle">P маленькое</text>
+<text x="250" y="160" font-size="18" fill="#0D47A1" text-anchor="middle" font-style="italic" font-weight="bold">P = F/S</text>
+<text x="250" y="182" font-size="10" fill="#1565C0" text-anchor="middle">[P] = Па (Паскаль)</text>
+<text x="250" y="345" font-size="9" fill="#666" text-anchor="middle" opacity="0.5">Давление и его единицы</text>
+</svg>

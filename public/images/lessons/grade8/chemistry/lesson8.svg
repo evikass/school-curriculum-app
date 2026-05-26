@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0e17"/>
+      <stop offset="100%" stop-color="#1a1832"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <text x="30" y="35" fill="#ff8906" font-size="14" font-weight="bold">Окислительно-восстановительные реакции</text>
+  <!-- Electron transfer diagram -->
+  <!-- Zn + 2HCl → ZnCl₂ + H₂ -->
+  <text x="30" y="65" fill="#e53170" font-size="13" font-weight="bold">Пример: Zn + 2HCl → ZnCl₂ + H₂</text>
+  <!-- Zn atom -->
+  <circle cx="80" cy="120" r="22" fill="#ff8906" fill-opacity="0.15" stroke="#ff8906" stroke-width="2"/>
+  <text x="70" y="125" fill="#ff8906" font-size="14" font-weight="bold">Zn</text>
+  <!-- Electron arrow going right -->
+  <path d="M105,115 L145,115" stroke="#fffffe" stroke-width="1.5" fill="none"/>
+  <polygon points="145,115 138,111 138,119" fill="#fffffe"/>
+  <text x="115" y="108" fill="#fffffe" font-size="10">2e⁻</text>
+  <!-- Zn²⁺ ion -->
+  <circle cx="180" cy="120" r="22" fill="#ff8906" fill-opacity="0.1" stroke="#ff8906" stroke-width="1.5"/>
+  <text x="164" y="125" fill="#ff8906" font-size="12" font-weight="bold">Zn²⁺</text>
+  <!-- H⁺ ions -->
+  <circle cx="280" cy="110" r="14" fill="#4cc9f0" fill-opacity="0.15" stroke="#4cc9f0" stroke-width="1.5"/>
+  <text x="272" y="114" fill="#4cc9f0" font-size="10">H⁺</text>
+  <circle cx="280" cy="140" r="14" fill="#4cc9f0" fill-opacity="0.15" stroke="#4cc9f0" stroke-width="1.5"/>
+  <text x="272" y="144" fill="#4cc9f0" font-size="10">H⁺</text>
+  <!-- H₂ molecule -->
+  <circle cx="380" cy="120" r="22" fill="#4cc9f0" fill-opacity="0.1" stroke="#4cc9f0" stroke-width="1.5"/>
+  <text x="368" y="125" fill="#4cc9f0" font-size="12" font-weight="bold">H₂</text>
+  <!-- Arrow from H⁺ to H₂ -->
+  <path d="M300,120 L350,120" stroke="#fffffe" stroke-width="1.5" fill="none"/>
+  <polygon points="350,120 343,116 343,124" fill="#fffffe"/>
+  <!-- Oxidation states -->
+  <text x="30" y="180" fill="#e53170" font-size="13" font-weight="bold">Степени окисления:</text>
+  <!-- Before -->
+  <text x="30" y="200" fill="#fffffe" font-size="12" font-family="serif">Zn⁰ + 2H⁺Cl⁻ → Zn⁺²Cl₂⁻ + H₂⁰</text>
+  <!-- Oxidation and reduction labels -->
+  <!-- Oxidation (Zn⁰ → Zn²⁺) -->
+  <rect x="30" y="215" width="220" height="40" rx="5" fill="#ff8906" fill-opacity="0.08" stroke="#ff8906" stroke-width="1"/>
+  <text x="40" y="232" fill="#ff8906" font-size="11" font-weight="bold">Окисление:</text>
+  <text x="40" y="248" fill="#fffffe" font-size="11">Zn⁰ → Zn²⁺ + 2e⁻ (отдал e⁻)</text>
+  <!-- Reduction (H⁺ → H⁰) -->
+  <rect x="260" y="215" width="220" height="40" rx="5" fill="#4cc9f0" fill-opacity="0.08" stroke="#4cc9f0" stroke-width="1"/>
+  <text x="270" y="232" fill="#4cc9f0" font-size="11" font-weight="bold">Восстановление:</text>
+  <text x="270" y="248" fill="#fffffe" font-size="11">2H⁺ + 2e⁻ → H₂⁰ (получил e⁻)</text>
+  <!-- Key definitions -->
+  <text x="30" y="280" fill="#e53170" font-size="12" font-weight="bold">Окислитель</text>
+  <text x="120" y="280" fill="#fffffe" font-size="11">— принимает электроны (восстанавливается)</text>
+  <text x="30" y="300" fill="#ff8906" font-size="12" font-weight="bold">Восстановитель</text>
+  <text x="150" y="300" fill="#fffffe" font-size="11">— отдаёт электроны (окисляется)</text>
+  <!-- Mnemonic -->
+  <rect x="30" y="310" width="440" height="22" rx="4" fill="none" stroke="#7f5af0" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="40" y="325" fill="#7f5af0" font-size="10">Запомни: Окислитель → принимает e⁻ → восстанавливается (противоположно!)</text>
+  <text x="250" y="340" fill="#fff" font-size="9" opacity="0.5" text-anchor="middle">Окислительно-восстановительные реакции</text>
+</svg>

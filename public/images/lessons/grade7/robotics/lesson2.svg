@@ -1,0 +1,69 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="350" fill="#0d1520"/>
+  <!-- Industrial robot -->
+  <rect x="20" y="40" width="105" height="120" rx="6" fill="#162232" stroke="#42a5f5" stroke-width="1.5"/>
+  <text x="30" y="58" font-size="9" fill="#42a5f5">Промышленный</text>
+  <rect x="50" y="70" width="12" height="60" rx="3" fill="#42a5f5" opacity="0.5"/>
+  <rect x="58" y="80" width="40" height="10" rx="3" fill="#42a5f5" opacity="0.4"/>
+  <rect x="90" y="75" width="8" height="30" rx="2" fill="#42a5f5" opacity="0.3"/>
+  <rect x="45" y="130" width="60" height="20" rx="4" fill="#1a2a3a" stroke="#42a5f5" stroke-width="1"/>
+  <!-- Humanoid -->
+  <rect x="140" y="40" width="105" height="120" rx="6" fill="#221622" stroke="#ab47bc" stroke-width="1.5"/>
+  <text x="155" y="58" font-size="9" fill="#ab47bc">Гуманоид</text>
+  <!-- Head -->
+  <rect x="178" y="68" width="20" height="18" rx="5" fill="#ab47bc" opacity="0.4"/>
+  <circle cx="184" cy="76" r="2" fill="#e1bee7"/>
+  <circle cx="192" cy="76" r="2" fill="#e1bee7"/>
+  <!-- Body -->
+  <rect x="174" y="90" width="28" height="30" rx="4" fill="#ab47bc" opacity="0.3"/>
+  <!-- Arms -->
+  <rect x="164" y="92" width="8" height="25" rx="3" fill="#ab47bc" opacity="0.25"/>
+  <rect x="204" y="92" width="8" height="25" rx="3" fill="#ab47bc" opacity="0.25"/>
+  <!-- Legs -->
+  <rect x="176" y="122" width="10" height="25" rx="3" fill="#ab47bc" opacity="0.25"/>
+  <rect x="190" y="122" width="10" height="25" rx="3" fill="#ab47bc" opacity="0.25"/>
+  <!-- Drone -->
+  <rect x="270" y="40" width="105" height="120" rx="6" fill="#222216" stroke="#fdd835" stroke-width="1.5"/>
+  <text x="295" y="58" font-size="9" fill="#fdd835">Дрон</text>
+  <!-- Drone body -->
+  <ellipse cx="322" cy="95" rx="20" ry="8" fill="#fdd835" opacity="0.3"/>
+  <!-- Propellers -->
+  <line x1="292" y1="85" x2="352" y2="85" stroke="#fdd835" stroke-width="1.5" opacity="0.5"/>
+  <ellipse cx="292" cy="83" rx="14" ry="3" fill="#fdd835" opacity="0.2"/>
+  <ellipse cx="352" cy="83" rx="14" ry="3" fill="#fdd835" opacity="0.2"/>
+  <!-- Landing gear -->
+  <line x1="310" y1="103" x2="305" y2="115" stroke="#fdd835" stroke-width="1" opacity="0.4"/>
+  <line x1="334" y1="103" x2="339" y2="115" stroke="#fdd835" stroke-width="1" opacity="0.4"/>
+  <!-- Camera -->
+  <circle cx="322" cy="98" r="4" fill="#fdd835" opacity="0.5"/>
+  <!-- Underwater robot -->
+  <rect x="390" y="40" width="95" height="120" rx="6" fill="#162232" stroke="#26c6da" stroke-width="1.5"/>
+  <text x="395" y="58" font-size="9" fill="#26c6da">Подводный</text>
+  <!-- Submarine body -->
+  <ellipse cx="437" cy="95" rx="25" ry="14" fill="#26c6da" opacity="0.25"/>
+  <!-- Conning tower -->
+  <rect x="430" y="78" width="14" height="12" rx="3" fill="#26c6da" opacity="0.3"/>
+  <!-- Propeller -->
+  <circle cx="465" cy="95" r="6" fill="none" stroke="#26c6da" stroke-width="1" opacity="0.5"/>
+  <line x1="465" y1="89" x2="465" y2="101" stroke="#26c6da" stroke-width="1" opacity="0.4"/>
+  <!-- Bubbles -->
+  <circle cx="460" cy="110" r="3" fill="#26c6da" opacity="0.15"/>
+  <circle cx="455" cy="118" r="2" fill="#26c6da" opacity="0.12"/>
+  <circle cx="465" cy="122" r="2.5" fill="#26c6da" opacity="0.1"/>
+  <!-- Eye/lens -->
+  <circle cx="420" cy="92" r="4" fill="#26c6da" opacity="0.4"/>
+  <!-- Water waves at bottom -->
+  <path d="M390,140 Q400,135 410,140 Q420,145 430,140 Q440,135 450,140" fill="none" stroke="#26c6da" stroke-width="1" opacity="0.3"/>
+  <!-- Comparison section -->
+  <rect x="40" y="185" width="420" height="130" rx="8" fill="#141e2a" stroke="#37474f" stroke-width="1"/>
+  <text x="55" y="205" font-size="10" fill="#90a4ae">Сравнение типов роботов:</text>
+  <circle cx="70" cy="228" r="6" fill="#42a5f5" opacity="0.5"/>
+  <text x="82" y="232" font-size="9" fill="#b0bec5">Завод — точность, повторяемость</text>
+  <circle cx="70" cy="252" r="6" fill="#ab47bc" opacity="0.5"/>
+  <text x="82" y="256" font-size="9" fill="#b0bec5">Гуманоид — взаимодействие с людьми</text>
+  <circle cx="70" cy="276" r="6" fill="#fdd835" opacity="0.5"/>
+  <text x="82" y="280" font-size="9" fill="#b0bec5">Дрон — наблюдение, доставка</text>
+  <circle cx="70" cy="300" r="6" fill="#26c6da" opacity="0.5"/>
+  <text x="82" y="304" font-size="9" fill="#b0bec5">Подводный — исследование глубин</text>
+  <text x="200" y="340" font-size="9" fill="#fff" opacity="0.5">Виды роботов</text>
+</svg>

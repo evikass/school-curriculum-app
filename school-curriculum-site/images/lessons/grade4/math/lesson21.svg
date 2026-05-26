@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      text { font-family: 'Arial', 'Helvetica', sans-serif; }
+    </style>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="#F5E6C8" />
+  <!-- Top decorative line -->
+  <rect x="0" y="0" width="500" height="4" fill="#C41E3A" />
+  <!-- Bottom decorative line -->
+  <rect x="0" y="316" width="500" height="4" fill="#C41E3A" />
+  <!-- Bottom panel -->
+  <rect x="0" y="316" width="500" height="34" fill="#1a1a1a" />
+  <!-- Title -->
+  <text x="250" y="45" text-anchor="middle" fill="#1a1a1a" font-size="24" font-weight="bold">Единицы длины</text>
+  <!-- Subtitle -->
+  <text x="250" y="70" text-anchor="middle" fill="#1a1a1a" font-size="12">Миллиметр, сантиметр, дециметр, метр, километр</text>
+  <!-- Separator -->
+  <line x1="50" y1="80" x2="450" y2="80" stroke="#C41E3A" stroke-width="2" />
+  <!-- Large ruler -->
+  <rect x="40" y="140" width="420" height="60" fill="white" opacity="0.7" rx="3" stroke="#1a1a1a" stroke-width="2" />
+  <!-- Ruler markings -->
+  <line x1="70" y1="140" x2="70" y2="170" stroke="#1a1a1a" stroke-width="2" />
+  <line x1="140" y1="140" x2="140" y2="170" stroke="#1a1a1a" stroke-width="2" />
+  <line x1="210" y1="140" x2="210" y2="170" stroke="#1a1a1a" stroke-width="2" />
+  <line x1="280" y1="140" x2="280" y2="170" stroke="#1a1a1a" stroke-width="2" />
+  <line x1="350" y1="140" x2="350" y2="170" stroke="#1a1a1a" stroke-width="2" />
+  <!-- Small marks -->
+  <line x1="105" y1="150" x2="105" y2="165" stroke="#1a1a1a" stroke-width="1" />
+  <line x1="175" y1="150" x2="175" y2="165" stroke="#1a1a1a" stroke-width="1" />
+  <line x1="245" y1="150" x2="245" y2="165" stroke="#1a1a1a" stroke-width="1" />
+  <line x1="315" y1="150" x2="315" y2="165" stroke="#1a1a1a" stroke-width="1" />
+  <line x1="385" y1="150" x2="385" y2="165" stroke="#1a1a1a" stroke-width="1" />
+  
+  <!-- Unit labels on ruler -->
+  <text x="70" y="190" text-anchor="middle" fill="#1a1a1a" font-size="9">0</text>
+  <text x="140" y="190" text-anchor="middle" fill="#1a1a1a" font-size="9">1</text>
+  <text x="210" y="190" text-anchor="middle" fill="#1a1a1a" font-size="9">2</text>
+  <text x="280" y="190" text-anchor="middle" fill="#1a1a1a" font-size="9">3</text>
+  <text x="350" y="190" text-anchor="middle" fill="#1a1a1a" font-size="9">4</text>
+  
+  <!-- Distance arrow -->
+  <line x1="70" y1="125" x2="350" y2="125" stroke="#C41E3A" stroke-width="2" />
+  <polygon points="70,125 80,120 80,130" fill="#C41E3A" />
+  <polygon points="350,125 340,120 340,130" fill="#C41E3A" />
+  <text x="210" y="118" text-anchor="middle" fill="#C41E3A" font-size="14" font-weight="bold">4 см = 40 мм</text>
+  
+  <!-- Conversion table -->
+  <rect x="50" y="210" width="400" height="95" fill="white" opacity="0.4" rx="6" stroke="#2B4C7E" stroke-width="1" />
+  <text x="250" y="232" text-anchor="middle" fill="#2B4C7E" font-size="13" font-weight="bold">Единицы длины</text>
+  
+  <!-- Chain of units -->
+  <rect x="60" y="242" width="55" height="22" fill="#C41E3A" opacity="0.2" rx="3" />
+  <text x="87" y="258" text-anchor="middle" fill="#1a1a1a" font-size="10">1 км</text>
+  <text x="125" y="258" text-anchor="middle" fill="#1a1a1a" font-size="12">=</text>
+  <rect x="135" y="242" width="55" height="22" fill="#2B4C7E" opacity="0.2" rx="3" />
+  <text x="162" y="258" text-anchor="middle" fill="#1a1a1a" font-size="10">1000 м</text>
+  <text x="200" y="258" text-anchor="middle" fill="#1a1a1a" font-size="12">=</text>
+  <rect x="210" y="242" width="55" height="22" fill="#D4A843" opacity="0.3" rx="3" />
+  <text x="237" y="258" text-anchor="middle" fill="#1a1a1a" font-size="10">10 дм</text>
+  <text x="275" y="258" text-anchor="middle" fill="#1a1a1a" font-size="12">=</text>
+  <rect x="285" y="242" width="55" height="22" fill="#C41E3A" opacity="0.15" rx="3" />
+  <text x="312" y="258" text-anchor="middle" fill="#1a1a1a" font-size="10">100 см</text>
+  <text x="350" y="258" text-anchor="middle" fill="#1a1a1a" font-size="12">=</text>
+  <rect x="360" y="242" width="75" height="22" fill="#2B4C7E" opacity="0.15" rx="3" />
+  <text x="397" y="258" text-anchor="middle" fill="#1a1a1a" font-size="10">1000 мм</text>
+  
+  <text x="250" y="295" text-anchor="middle" fill="#1a1a1a" font-size="10">1 км = 1000 м, 1 м = 10 дм = 100 см</text>
+  <!-- Bottom panel text -->
+  <text x="250" y="335" text-anchor="middle" fill="#F5E6C8" font-size="13" font-weight="bold">Математика</text>
+</svg>

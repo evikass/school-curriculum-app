@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#F1F8E9"/>
+<text x="250" y="22" font-size="10" fill="#2E7D32" text-anchor="middle" font-weight="bold">Пищевая цепь</text>
+<path d="M50,80 Q60,60 80,55 Q100,50 110,65 Q120,80 105,95 Q90,105 70,100 Q50,95 50,80 Z" fill="#81C784" stroke="#2E7D32" stroke-width="2"/>
+<text x="80" y="85" font-size="8" fill="#1B5E20" text-anchor="middle">трава</text>
+<line x1="120" y1="75" x2="165" y2="75" stroke="#4CAF50" stroke-width="2.5"/>
+<polygon points="165,72 175,75 165,78" fill="#4CAF50"/>
+<text x="145" y="68" font-size="7" fill="#2E7D32">ест</text>
+<ellipse cx="210" cy="75" rx="25" ry="18" fill="#FFCC80" stroke="#E65100" stroke-width="2"/>
+<circle cx="202" cy="70" r="2" fill="#5D4037"/><circle cx="218" cy="70" r="2" fill="#5D4037"/>
+<ellipse cx="210" cy="78" rx="5" ry="3" fill="#FF8A65"/>
+<text x="210" y="105" font-size="8" fill="#E65100" text-anchor="middle">заяц</text>
+<line x1="235" y1="75" x2="280" y2="75" stroke="#FF8F00" stroke-width="2.5"/>
+<polygon points="280,72 290,75 280,78" fill="#FF8F00"/>
+<text x="260" y="68" font-size="7" fill="#E65100">ест</text>
+<ellipse cx="330" cy="75" rx="30" ry="20" fill="#FF8A65" stroke="#D84315" stroke-width="2"/>
+<path d="M310,60 Q330,50 350,60" fill="none" stroke="#BF360C" stroke-width="1.5"/>
+<circle cx="318" cy="68" r="2" fill="#5D4037"/><circle cx="342" cy="68" r="2" fill="#5D4037"/>
+<path d="M325,80 Q330,85 335,80" fill="none" stroke="#5D4037" stroke-width="1"/>
+<text x="330" y="105" font-size="8" fill="#BF360C" text-anchor="middle">лиса</text>
+<line x1="360" y1="75" x2="400" y2="75" stroke="#D32F2F" stroke-width="2.5"/>
+<polygon points="400,72 410,75 400,78" fill="#D32F2F"/>
+<path d="M420,55 L445,55 L445,95 L420,95 Z" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+<path d="M432,55 L432,45 Q435,40 438,45 L438,55" fill="#5D4037" stroke="#3E2723" stroke-width="1"/>
+<text x="432" y="115" font-size="8" fill="#4E342E" text-anchor="middle">орёл</text>
+<text x="250" y="130" font-size="9" fill="#2E7D32" text-anchor="middle">трава → заяц → лиса → орёл</text>
+<rect x="30" y="145" width="440" height="185" rx="6" fill="#FFF" stroke="#4CAF50" stroke-width="1.5"/>
+<text x="250" y="168" font-size="10" fill="#2E7D32" text-anchor="middle" font-weight="bold">Пищевая сеть</text>
+<circle cx="100" cy="220" r="20" fill="#81C784" stroke="#2E7D32" stroke-width="1.5"/>
+<text x="100" y="223" font-size="7" fill="#1B5E20" text-anchor="middle">трава</text>
+<circle cx="100" cy="280" r="15" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1"/>
+<text x="100" y="283" font-size="6" fill="#2E7D32" text-anchor="middle">куст</text>
+<circle cx="220" cy="200" r="18" fill="#FFCC80" stroke="#E65100" stroke-width="1.5"/>
+<text x="220" y="203" font-size="7" fill="#BF360C" text-anchor="middle">мышь</text>
+<circle cx="220" cy="260" r="18" fill="#FFCC80" stroke="#E65100" stroke-width="1.5"/>
+<text x="220" y="263" font-size="7" fill="#BF360C" text-anchor="middle">заяц</text>
+<circle cx="340" cy="230" r="22" fill="#FF8A65" stroke="#D84315" stroke-width="1.5"/>
+<text x="340" y="233" font-size="7" fill="#FFF" text-anchor="middle">лиса</text>
+<circle cx="440" cy="200" r="18" fill="#795548" stroke="#4E342E" stroke-width="1.5"/>
+<text x="440" y="203" font-size="7" fill="#FFF" text-anchor="middle">орёл</text>
+<line x1="118" y1="215" x2="205" y2="200" stroke="#4CAF50" stroke-width="1.5"/>
+<line x1="115" y1="220" x2="205" y2="255" stroke="#4CAF50" stroke-width="1.5"/>
+<line x1="112" y1="275" x2="205" y2="265" stroke="#4CAF50" stroke-width="1"/>
+<line x1="237" y1="200" x2="320" y2="225" stroke="#FF8F00" stroke-width="1.5"/>
+<line x1="237" y1="255" x2="320" y2="235" stroke="#FF8F00" stroke-width="1.5"/>
+<line x1="360" y1="225" x2="425" y2="205" stroke="#D32F2F" stroke-width="1.5"/>
+<line x1="237" y1="195" x2="425" y2="198" stroke="#D32F2F" stroke-width="1"/>
+<text x="250" y="345" font-size="9" fill="#666" text-anchor="middle" opacity="0.5">Пищевые цепи и сети</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#ECEFF1"/>
+<!-- Road with crossroads -->
+<path d="M250 0 L250 350" stroke="#8D6E63" stroke-width="30" opacity="0.2"/>
+<path d="M0 200 L500 200" stroke="#8D6E63" stroke-width="30" opacity="0.2"/>
+<!-- Center crossroads -->
+<circle cx="250" cy="200" r="25" fill="#BCAAA4" opacity="0.3"/>
+<!-- Signpost -->
+<line x1="250" y1="130" x2="250" y2="200" stroke="#5D4037" stroke-width="4"/>
+<!-- Sign arms -->
+<rect x="255" y="135" width="80" height="16" rx="2" fill="#795548"/>
+<text x="295" y="147" font-family="sans-serif" font-size="9" fill="white" text-anchor="middle">ФРОНТ</text>
+<rect x="165" y="150" width="80" height="16" rx="2" fill="#795548"/>
+<text x="205" y="162" font-family="sans-serif" font-size="9" fill="white" text-anchor="middle">ДОМ</text>
+<rect x="255" y="165" width="80" height="16" rx="2" fill="#795548"/>
+<text x="295" y="177" font-family="sans-serif" font-size="9" fill="white" text-anchor="middle">ПЛЕН</text>
+<!-- Soldier silhouette (small, at crossroads) -->
+<circle cx="250" cy="220" r="8" fill="#37474F"/>
+<rect x="245" y="228" width="10" height="20" rx="2" fill="#37474F"/>
+<!-- Soldier cap -->
+<rect x="244" y="213" width="12" height="4" rx="1" fill="#37474F"/>
+<!-- Rifle on back -->
+<line x1="244" y1="230" x2="238" y2="215" stroke="#37474F" stroke-width="2"/>
+<!-- Footprints on road -->
+<ellipse cx="230" cy="250" rx="4" ry="6" fill="#8D6E63" opacity="0.3" transform="rotate(-10,230,250)"/>
+<ellipse cx="220" cy="270" rx="4" ry="6" fill="#8D6E63" opacity="0.25" transform="rotate(-10,220,270)"/>
+<ellipse cx="210" cy="290" rx="4" ry="6" fill="#8D6E63" opacity="0.2" transform="rotate(-10,210,290)"/>
+<!-- Title -->
+<rect x="50" y="40" width="200" height="55" rx="6" fill="white" opacity="0.85" stroke="#546E7A" stroke-width="1"/>
+<text x="150" y="60" font-family="sans-serif" font-size="11" fill="#37474F" text-anchor="middle" font-weight="bold">М.А. Шолохов</text>
+<text x="150" y="82" font-family="serif" font-size="14" fill="#455A64" text-anchor="middle">«Судьба человека»</text>
+<!-- War-torn landscape -->
+<!-- Broken tree -->
+<line x1="400" y1="300" x2="400" y2="250" stroke="#5D4037" stroke-width="3"/>
+<line x1="400" y1="255" x2="415" y2="240" stroke="#5D4037" stroke-width="2"/>
+<!-- Ruined building hint -->
+<rect x="60" y="280" width="40" height="50" rx="2" fill="#BDBDBD" opacity="0.3"/>
+<rect x="75" y="270" width="25" height="10" fill="#BDBDBD" opacity="0.2"/>
+<text x="250" y="345" font-family="sans-serif" font-size="9" fill="#37474F" opacity="0.5" text-anchor="middle">М.А. Шолохов. «Судьба человека»</text>
+</svg>

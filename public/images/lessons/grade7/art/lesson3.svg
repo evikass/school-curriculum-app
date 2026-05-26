@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#F0EBE0"/>
+<rect x="30" y="30" width="200" height="280" fill="#8B6914" rx="4" stroke="#6B4914" stroke-width="3"/>
+<rect x="42" y="42" width="176" height="256" fill="#F5E6C8" rx="2"/>
+<ellipse cx="130" cy="130" rx="45" ry="55" fill="#FFDBAC"/>
+<ellipse cx="130" cy="120" rx="40" ry="35" fill="#4a3a2a"/>
+<ellipse cx="115" cy="140" rx="5" ry="4" fill="#2a1a0a"/>
+<ellipse cx="145" cy="140" rx="5" ry="4" fill="#2a1a0a"/>
+<path d="M120,155 Q130,162 140,155" stroke="#C47050" stroke-width="1.5" fill="none"/>
+<path d="M105,130 Q100,125 108,128" stroke="#4a3a2a" stroke-width="1" fill="none"/>
+<path d="M155,130 Q160,125 152,128" stroke="#4a3a2a" stroke-width="1" fill="none"/>
+<ellipse cx="100" cy="135" rx="10" ry="5" fill="#FFB6A0" opacity="0.3"/>
+<ellipse cx="160" cy="135" rx="10" ry="5" fill="#FFB6A0" opacity="0.3"/>
+<rect x="110" y="180" width="40" height="50" fill="#1565C0" rx="3"/>
+<line x1="95" y1="195" x2="110" y2="190" stroke="#FFDBAC" stroke-width="3"/>
+<line x1="165" y1="195" x2="150" y2="190" stroke="#FFDBAC" stroke-width="3"/>
+<text x="130" y="270" font-family="Arial" font-size="9" fill="#5D4037" text-anchor="middle" font-style="italic">Портрет</text>
+<rect x="270" y="30" width="200" height="280" fill="#8B6914" rx="4" stroke="#6B4914" stroke-width="3"/>
+<rect x="282" y="42" width="176" height="256" fill="#E8F0E8" rx="2"/>
+<rect x="282" y="200" width="176" height="98" fill="#5D8A3C"/>
+<path d="M282,200 Q340,180 400,200 Q430,210 458,200" fill="#5D8A3C"/>
+<polygon points="320,200 340,100 360,200" fill="#3E7A2C"/>
+<polygon points="380,200 400,120 420,200" fill="#4E8A3C"/>
+<rect x="337" y="140" width="6" height="60" fill="#5C3310"/>
+<rect x="397" y="150" width="6" height="50" fill="#5C3310"/>
+<ellipse cx="370" cy="80" rx="30" ry="15" fill="white" opacity="0.7"/>
+<ellipse cx="380" cy="78" rx="25" ry="12" fill="white" opacity="0.5"/>
+<circle cx="340" cy="155" r="12" fill="#FFD700" opacity="0.4"/>
+<path d="M282,230 Q330,220 370,235 Q420,220 458,230" fill="#4488BB" opacity="0.5"/>
+<path d="M282,245 Q350,235 420,250 Q440,240 458,245" fill="#3377AA" opacity="0.4"/>
+<text x="370" y="270" font-family="Arial" font-size="9" fill="#5D4037" text-anchor="middle" font-style="italic">Пейзаж</text>
+<text x="250" y="342" font-family="Arial" font-size="9" fill="#666" text-anchor="middle" opacity="0.5">Портрет и пейзаж</text>
+</svg>

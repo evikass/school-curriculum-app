@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <radialGradient id="glow6" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#ffd93d" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#ffd93d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="500" height="350" fill="#1a1a2e"/>
+  <circle cx="250" cy="160" r="120" fill="url(#glow6)"/>
+  <!-- Mona Lisa frame -->
+  <rect x="60" y="60" width="130" height="170" rx="3" fill="#5c3d2e" opacity="0.7"/>
+  <rect x="68" y="68" width="114" height="154" fill="#2a2a3e"/>
+  <!-- Mona Lisa silhouette -->
+  <ellipse cx="125" cy="110" rx="22" ry="28" fill="#d4a843" opacity="0.3"/>
+  <path d="M103 140 Q125 125 147 140 L142 175 L108 175 Z" fill="#4d7355" opacity="0.3"/>
+  <!-- Sfumato effect - soft circles -->
+  <circle cx="115" cy="105" r="5" fill="#d4a843" opacity="0.08"/>
+  <circle cx="135" cy="105" r="5" fill="#d4a843" opacity="0.08"/>
+  <!-- Enigmatic smile line -->
+  <path d="M115 118 Q125 125 135 118" fill="none" stroke="#d4a843" stroke-width="1" opacity="0.3"/>
+  <!-- David sculpture -->
+  <rect x="280" y="40" width="80" height="190" rx="3" fill="#e8dcc8" opacity="0.15"/>
+  <ellipse cx="320" cy="85" rx="18" ry="22" fill="#e8dcc8" opacity="0.4"/>
+  <path d="M305 105 Q320 98 335 105 L330 170 L310 170 Z" fill="#e8dcc8" opacity="0.3"/>
+  <!-- David's face details -->
+  <circle cx="313" cy="82" r="2" fill="#1a1a2e" opacity="0.3"/>
+  <circle cx="327" cy="82" r="2" fill="#1a1a2e" opacity="0.3"/>
+  <path d="M315 92 Q320 95 325 92" fill="none" stroke="#c4b8a4" stroke-width="0.8" opacity="0.4"/>
+  <!-- Sistine Chapel ceiling -->
+  <path d="M150 280 Q250 250 350 280" fill="none" stroke="#4d96ff" stroke-width="1" opacity="0.3"/>
+  <!-- Two hands reaching (Creation of Adam) -->
+  <path d="M200 290 Q210 280 220 285" fill="none" stroke="#e8dcc8" stroke-width="2" opacity="0.5"/>
+  <circle cx="223" cy="285" r="2" fill="#e8dcc8" opacity="0.5"/>
+  <path d="M280 290 Q270 280 260 285" fill="none" stroke="#e8dcc8" stroke-width="2" opacity="0.5"/>
+  <circle cx="257" cy="285" r="2" fill="#e8dcc8" opacity="0.5"/>
+  <!-- Spark between hands -->
+  <circle cx="240" cy="282" r="3" fill="#ffd93d" opacity="0.5"/>
+  <line x1="237" y1="278" x2="243" y2="286" stroke="#ffd93d" stroke-width="0.8" opacity="0.4"/>
+  <line x1="243" y1="278" x2="237" y2="286" stroke="#ffd93d" stroke-width="0.8" opacity="0.4"/>
+  <!-- Palette with Renaissance colors -->
+  <ellipse cx="430" cy="260" rx="35" ry="25" fill="#4a3728" opacity="0.7"/>
+  <circle cx="418" cy="250" r="5" fill="#ffd93d"/>
+  <circle cx="432" cy="245" r="5" fill="#4d7355"/>
+  <circle cx="445" cy="252" r="5" fill="#c44d3e"/>
+  <circle cx="438" cy="268" r="4" fill="#4d96ff"/>
+  <!-- Brush -->
+  <line x1="430" y1="235" x2="420" y2="200" stroke="#8b7355" stroke-width="2" opacity="0.6"/>
+  <!-- Title labels -->
+  <text x="125" y="245" font-size="7" fill="#d4a843" opacity="0.5" text-anchor="middle" font-family="sans-serif">Леонардо</text>
+  <text x="320" y="245" font-size="7" fill="#e8dcc8" opacity="0.5" text-anchor="middle" font-family="sans-serif">Микеланджело</text>
+  <text x="250" y="340" font-size="9" fill="#ffffff" opacity="0.5" text-anchor="middle" font-family="sans-serif">Искусство Возрождения</text>
+</svg>

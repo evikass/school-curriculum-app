@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="100%" stop-color="#BBDEFB"/>
+    </linearGradient>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#E0F7FA"/>
+    </linearGradient>
+    <linearGradient id="groundGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#81C784"/>
+      <stop offset="100%" stop-color="#4CAF50"/>
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#42A5F5"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+    <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF9C4"/>
+      <stop offset="60%" stop-color="#FDD835"/>
+      <stop offset="100%" stop-color="#F9A825"/>
+    </radialGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="3" stdDeviation="5" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  <g transform="translate(40,30)" filter="url(#softShadow)">
+    <rect width="420" height="285" rx="12" fill="white" opacity="0.94"/>
+    <rect width="420" height="32" rx="12" fill="#1565C0" opacity="0.9"/>
+    <rect y="24" width="420" height="8" fill="#1565C0" opacity="0.9"/>
+    <text x="210" y="22" font-family="Arial" font-size="13" fill="white" text-anchor="middle" font-weight="bold">ВЫЧИТАНИЕ МНОГОЗНАЧНЫХ ЧИСЕЛ</text>
+    <g transform="translate(30,50)">
+      <rect width="360" height="130" rx="8" fill="#E3F2FD" opacity="0.3" stroke="#1565C0" stroke-width="1"/>
+      <text x="200" y="25" font-family="monospace" font-size="18" fill="#0D47A1" text-anchor="end" font-weight="bold">  45 302</text>
+      <text x="200" y="50" font-family="monospace" font-size="18" fill="#0D47A1" text-anchor="end" font-weight="bold">− 18 657</text>
+      <line x1="80" y1="58" x2="210" y2="58" stroke="#1565C0" stroke-width="2.5"/>
+      <text x="200" y="82" font-family="monospace" font-size="18" fill="#FDD835" text-anchor="end" font-weight="bold">  26 645</text>
+      <text x="290" y="25" font-family="Arial" font-size="8" fill="#777">2−7: занимаем 1 дес.</text>
+      <text x="290" y="45" font-family="Arial" font-size="8" fill="#777">12−7=5 единиц</text>
+      <text x="290" y="65" font-family="Arial" font-size="8" fill="#777">9−5=4 десятка</text>
+      <text x="290" y="85" font-family="Arial" font-size="8" fill="#777">2−6: занимаем 1 тыс.</text>
+      <text x="290" y="105" font-family="Arial" font-size="8" fill="#777">12−6=6 сотен</text>
+      <text x="290" y="125" font-family="Arial" font-size="8" fill="#777">4−1−1=2 тыс.</text>
+    </g>
+    <g transform="translate(30,195)">
+      <rect width="160" height="70" rx="6" fill="#FFEBEE" stroke="#D32F2F" stroke-width="1"/>
+      <text x="80" y="20" font-family="Arial" font-size="9" fill="#D32F2F" text-anchor="middle" font-weight="bold">ЗАЁМ</text>
+      <text x="80" y="38" font-family="Arial" font-size="8" fill="#555" text-anchor="middle">Если не хватает,</text>
+      <text x="80" y="52" font-family="Arial" font-size="8" fill="#555" text-anchor="middle">занимаем из старшего</text>
+    </g>
+    <g transform="translate(210,195)">
+      <rect width="170" height="70" rx="6" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+      <text x="85" y="20" font-family="Arial" font-size="9" fill="#1565C0" text-anchor="middle" font-weight="bold">ПРОВЕРКА</text>
+      <text x="85" y="38" font-family="Arial" font-size="8" fill="#555" text-anchor="middle">26 645 + 18 657</text>
+      <text x="85" y="52" font-family="Arial" font-size="8" fill="#555" text-anchor="middle">= 45 302 ✓</text>
+    </g>
+  </g>
+  <rect x="0" y="318" width="500" height="32" rx="0" fill="#1565C0" opacity="0.9"/>
+  <text x="250" y="339" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Вычитание многозначных чисел</text>
+</svg>

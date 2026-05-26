@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Зелёные технологии</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Экология - Урок 8</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Left: Polluting building (gray) -->
+  <rect x="30" y="90" width="145" height="205" rx="5" fill="white" stroke="#757575" stroke-width="1.5" opacity="0.9"/>
+  <text x="102" y="106" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#C62828" text-anchor="middle">ГРЯЗНОЕ ПРОИЗВОДСТВО</text>
+  
+  <!-- Ground -->
+  <rect x="35" y="272" width="135" height="18" fill="#8D6E63"/>
+  
+  <!-- Polluting factory -->
+  <rect x="50" y="190" width="80" height="82" fill="#78909C" stroke="#546E7A" stroke-width="1.5"/>
+  <!-- Chimneys -->
+  <rect x="55" y="155" width="12" height="40" fill="#90A4AE" stroke="#546E7A" stroke-width="1"/>
+  <rect x="80" y="148" width="12" height="47" fill="#90A4AE" stroke="#546E7A" stroke-width="1"/>
+  <rect x="105" y="160" width="10" height="35" fill="#90A4AE" stroke="#546E7A" stroke-width="1"/>
+  
+  <!-- Dark smoke -->
+  <ellipse cx="61" cy="148" rx="10" ry="7" fill="#616161" opacity="0.7"/>
+  <ellipse cx="55" cy="138" rx="13" ry="8" fill="#757575" opacity="0.5"/>
+  <ellipse cx="86" cy="142" rx="12" ry="8" fill="#616161" opacity="0.6"/>
+  <ellipse cx="80" cy="130" rx="15" ry="9" fill="#757575" opacity="0.5"/>
+  <ellipse cx="110" cy="153" rx="9" ry="6" fill="#757575" opacity="0.5"/>
+  
+  <!-- Waste pipe -->
+  <rect x="130" y="240" width="25" height="5" fill="#757575"/>
+  <path d="M155,242 Q160,245 158,250" stroke="#8D6E63" stroke-width="3" fill="none" opacity="0.7"/>
+  
+  <!-- Windows dark -->
+  <rect x="60" y="205" width="10" height="10" fill="#546E7A"/>
+  <rect x="75" y="205" width="10" height="10" fill="#546E7A"/>
+  <rect x="90" y="205" width="10" height="10" fill="#546E7A"/>
+  <rect x="105" y="205" width="10" height="10" fill="#546E7A"/>
+  <rect x="60" y="230" width="10" height="10" fill="#546E7A"/>
+  <rect x="75" y="230" width="10" height="10" fill="#546E7A"/>
+  <rect x="90" y="230" width="10" height="10" fill="#546E7A"/>
+  <rect x="105" y="230" width="10" height="10" fill="#546E7A"/>
+  
+  <!-- X mark -->
+  <line x1="80" y1="120" x2="100" y2="130" stroke="#C62828" stroke-width="3"/>
+  <line x1="100" y1="120" x2="80" y2="130" stroke="#C62828" stroke-width="3"/>
+
+  <!-- Center: Green building -->
+  <rect x="185" y="90" width="130" height="205" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.5" opacity="0.9"/>
+  <text x="250" y="106" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#2E7D32" text-anchor="middle">ЗЕЛЁНОЕ ЗДАНИЕ</text>
+  
+  <!-- Green ground -->
+  <rect x="190" y="272" width="120" height="18" fill="#A5D6A7"/>
+  
+  <!-- Green building -->
+  <rect x="210" y="180" width="80" height="92" fill="#E8F5E9" stroke="#43A047" stroke-width="1.5"/>
+  <!-- Roof -->
+  <polygon points="205,180 250,150 295,180" fill="#C8E6C9" stroke="#43A047" stroke-width="1"/>
+  
+  <!-- Solar panels on roof -->
+  <rect x="225" y="155" width="22" height="12" rx="1" fill="#1565C0" stroke="#0D47A1" stroke-width="0.5"/>
+  <rect x="250" y="160" width="22" height="10" rx="1" fill="#1565C0" stroke="#0D47A1" stroke-width="0.5"/>
+  <line x1="236" y1="155" x2="236" y2="167" stroke="#0D47A1" stroke-width="0.3"/>
+  <line x1="261" y1="160" x2="261" y2="170" stroke="#0D47A1" stroke-width="0.3"/>
+  
+  <!-- Green plants on roof -->
+  <circle cx="215" cy="155" r="6" fill="#66BB6A"/>
+  <circle cx="220" cy="152" r="5" fill="#43A047"/>
+  <rect cx="215" cy="158" x="213" y="158" width="4" height="6" fill="#795548"/>
+  <circle cx="285" cy="158" r="5" fill="#81C784"/>
+  <rect x="283" y="160" width="4" height="5" fill="#795548"/>
+  
+  <!-- Windows with light -->
+  <rect x="220" y="195" width="14" height="14" fill="#B3E5FC" stroke="#43A047" stroke-width="0.5"/>
+  <rect x="240" y="195" width="14" height="14" fill="#B3E5FC" stroke="#43A047" stroke-width="0.5"/>
+  <rect x="260" y="195" width="14" height="14" fill="#B3E5FC" stroke="#43A047" stroke-width="0.5"/>
+  <rect x="220" y="220" width="14" height="14" fill="#B3E5FC" stroke="#43A047" stroke-width="0.5"/>
+  <rect x="240" y="220" width="14" height="14" fill="#B3E5FC" stroke="#43A047" stroke-width="0.5"/>
+  <rect x="260" y="220" width="14" height="14" fill="#B3E5FC" stroke="#43A047" stroke-width="0.5"/>
+  
+  <!-- Door -->
+  <rect x="242" y="248" width="16" height="24" rx="2" fill="#8D6E63" stroke="#5D4037" stroke-width="0.5"/>
+  
+  <!-- Vertical garden (green wall) -->
+  <rect x="210" y="190" width="5" height="60" fill="#66BB6A" opacity="0.7"/>
+  <circle cx="212" cy="198" r="3" fill="#43A047"/>
+  <circle cx="212" cy="208" r="3" fill="#66BB6A"/>
+  <circle cx="212" cy="218" r="3" fill="#43A047"/>
+  <circle cx="212" cy="228" r="3" fill="#81C784"/>
+  <circle cx="212" cy="238" r="3" fill="#43A047"/>
+  
+  <!-- Trees next to building -->
+  <rect x="197" y="250" width="5" height="22" fill="#795548"/>
+  <circle cx="200" cy="242" r="12" fill="#43A047"/>
+  <circle cx="193" cy="248" r="8" fill="#66BB6A"/>
+  
+  <!-- Checkmark -->
+  <circle cx="280" cy="142" r="10" fill="#2E7D32"/>
+  <path d="M275,142 L279,147 L286,136" stroke="white" stroke-width="2.5" fill="none"/>
+
+  <!-- Right panel: Transport -->
+  <rect x="325" y="90" width="145" height="130" rx="5" fill="white" stroke="#1565C0" stroke-width="1.5" opacity="0.9"/>
+  <text x="397" y="106" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1565C0" text-anchor="middle">ЭКОТРАНСПОРТ</text>
+  
+  <!-- Electric car -->
+  <rect x="340" y="145" width="45" height="20" rx="5" fill="#E8F5E9" stroke="#43A047" stroke-width="1.5"/>
+  <rect x="348" y="135" width="28" height="12" rx="3" fill="#C8E6C9" stroke="#43A047" stroke-width="0.5"/>
+  <circle cx="352" cy="167" r="5" fill="#2E7D32" stroke="#1B5E20" stroke-width="1"/>
+  <circle cx="373" cy="167" r="5" fill="#2E7D32" stroke="#1B5E20" stroke-width="1"/>
+  <!-- Lightning bolt (electric) -->
+  <polygon points="410,140 414,150 418,150 413,158 420,158 408,172 412,160 408,160" fill="#F9A825"/>
+  
+  <!-- Bicycle -->
+  <g transform="translate(365,192)">
+    <!-- Wheels -->
+    <circle cx="-15" cy="0" r="10" fill="none" stroke="#2E7D32" stroke-width="1.5"/>
+    <circle cx="15" cy="0" r="10" fill="none" stroke="#2E7D32" stroke-width="1.5"/>
+    <!-- Frame -->
+    <line x1="-15" y1="0" x2="0" y2="-12" stroke="#2E7D32" stroke-width="1.5"/>
+    <line x1="0" y1="-12" x2="15" y2="0" stroke="#2E7D32" stroke-width="1.5"/>
+    <line x1="0" y1="-12" x2="5" y2="-12" stroke="#2E7D32" stroke-width="1.5"/>
+    <line x1="5" y1="-12" x2="15" y2="0" stroke="#2E7D32" stroke-width="1"/>
+    <!-- Handlebar -->
+    <line x1="5" y1="-12" x2="2" y2="-18" stroke="#2E7D32" stroke-width="1.5"/>
+    <line x1="-1" y1="-18" x2="5" y2="-18" stroke="#2E7D32" stroke-width="1.5"/>
+    <!-- Seat -->
+    <line x1="0" y1="-12" x2="0" y2="-18" stroke="#2E7D32" stroke-width="1"/>
+    <line x1="-3" y1="-18" x2="3" y2="-18" stroke="#2E7D32" stroke-width="1.5"/>
+    <!-- Pedals -->
+    <line x1="0" y1="0" x2="-8" y2="5" stroke="#757575" stroke-width="1"/>
+    <line x1="0" y1="0" x2="8" y2="-5" stroke="#757575" stroke-width="1"/>
+  </g>
+  
+  <text x="410" y="180" font-family="Arial,sans-serif" font-size="7" fill="#43A047" font-weight="bold">ЭЛЕКТРО</text>
+  <text x="410" y="200" font-family="Arial,sans-serif" font-size="7" fill="#43A047" font-weight="bold">ВЕЛОСИПЕД</text>
+
+  <!-- Right bottom: Wind turbines background -->
+  <rect x="325" y="228" width="145" height="67" rx="5" fill="white" stroke="#43A047" stroke-width="1.5" opacity="0.9"/>
+  <text x="397" y="243" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#43A047" text-anchor="middle">ВОЗОБНОВЛЯЕМАЯ ЭНЕРГИЯ</text>
+  
+  <!-- Small wind turbines -->
+  <!-- Turbine 1 -->
+  <rect x="355" y="252" width="3" height="35" fill="#757575"/>
+  <circle cx="356" cy="252" r="3" fill="#90CAF9" stroke="#1565C0" stroke-width="0.5"/>
+  <line x1="356" y1="252" x2="356" y2="238" stroke="#B3E5FC" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="356" y1="252" x2="367" y2="258" stroke="#B3E5FC" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="356" y1="252" x2="345" y2="258" stroke="#B3E5FC" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Turbine 2 (bigger, behind) -->
+  <rect x="390" y="245" width="4" height="42" fill="#757575"/>
+  <circle cx="392" cy="245" r="4" fill="#90CAF9" stroke="#1565C0" stroke-width="0.5"/>
+  <line x1="392" y1="245" x2="392" y2="228" stroke="#B3E5FC" stroke-width="3" stroke-linecap="round"/>
+  <line x1="392" y1="245" x2="406" y2="252" stroke="#B3E5FC" stroke-width="3" stroke-linecap="round"/>
+  <line x1="392" y1="245" x2="378" y2="252" stroke="#B3E5FC" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Turbine 3 (smaller, far) -->
+  <rect x="430" y="258" width="2" height="28" fill="#757575"/>
+  <circle cx="431" cy="258" r="2.5" fill="#90CAF9" stroke="#1565C0" stroke-width="0.5"/>
+  <line x1="431" y1="258" x2="431" y2="248" stroke="#B3E5FC" stroke-width="2" stroke-linecap="round"/>
+  <line x1="431" y1="258" x2="439" y2="262" stroke="#B3E5FC" stroke-width="2" stroke-linecap="round"/>
+  <line x1="431" y1="258" x2="423" y2="262" stroke="#B3E5FC" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Green hills -->
+  <path d="M325,287 Q350,270 375,287 Q400,272 425,287 Q445,278 470,287" fill="#A5D6A7" opacity="0.5"/>
+  
+  <!-- Sun -->
+  <circle cx="455" cy="240" r="8" fill="#F9A825" opacity="0.6"/>
+  <line x1="455" y1="229" x2="455" y2="231" stroke="#F9A825" stroke-width="1.5"/>
+  <line x1="466" y1="240" x2="464" y2="240" stroke="#F9A825" stroke-width="1.5"/>
+
+  <!-- Bottom bar -->
+  <rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Зелёные технологии</text>
+</svg>

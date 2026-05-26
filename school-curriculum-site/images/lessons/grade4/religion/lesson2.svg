@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Background -->
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <!-- Top red accent bar -->
+  <rect width="500" height="8" fill="#C41E3A"/>
+  <!-- Thin gold line under accent -->
+  <rect y="8" width="500" height="2" fill="#D4A843"/>
+  <!-- Title -->
+  <text x="250" y="45" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Православие в России</text>
+  <!-- Subtitle -->
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#D4A843">Религии мира</text>
+  <!-- Illustration area -->
+  <rect x="195" y="180" width="110" height="90" fill="#d4a76a" stroke="#1a1a1a" stroke-width="1.5"/><rect x="195" y="180" width="110" height="10" fill="#C41E3A" stroke="#1a1a1a" stroke-width="1"/><rect x="220" y="195" width="18" height="30" rx="9" fill="#87CEEB" stroke="#1a1a1a" stroke-width="1"/><rect x="262" y="195" width="18" height="30" rx="9" fill="#87CEEB" stroke="#1a1a1a" stroke-width="1"/><rect x="235" y="240" width="30" height="30" fill="#8B4513" stroke="#1a1a1a" stroke-width="1.5"/><rect x="233" y="238" width="34" height="5" rx="1" fill="#D4A843"/><!-- Dome --><path d="M225,180 Q250,120 275,180" fill="#2B4C7E" stroke="#1a1a1a" stroke-width="1.5"/><path d="M240,148 Q250,120 260,148" fill="#D4A843" stroke="#1a1a1a" stroke-width="1"/><line x1="250" y1="110" x2="250" y2="140" stroke="#D4A843" stroke-width="3"/><line x1="240" y1="120" x2="260" y2="120" stroke="#D4A843" stroke-width="3"/><line x1="245" y1="128" x2="255" y2="128" stroke="#D4A843" stroke-width="2"/><text x="250" y="295" text-anchor="middle" font-size="11" fill="#1a1a1a" font-weight="bold" font-family="Arial">988 - Крещение Руси</text>
+  <!-- Bottom dark bar -->
+  <rect y="315" width="500" height="35" fill="#1a1a1a"/>
+  <!-- Gold line above bottom bar -->
+  <rect y="313" width="500" height="2" fill="#D4A843"/>
+  <!-- Subject name -->
+  <text x="250" y="337" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#F5E6C8">Основы духовной культуры</text>
+</svg>

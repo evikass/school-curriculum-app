@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs><linearGradient id="gГого" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#F3E5F5;stop-opacity:0.5"/><stop offset="100%" style="stop-color:#E1BEE7;stop-opacity:0.25"/>
+  </linearGradient></defs>
+  <rect width="800" height="500" fill="url(#gГого)" rx="12"/>
+  <rect x="4" y="4" width="792" height="492" rx="10" fill="none" stroke="#7B1FA2" stroke-width="2.5" opacity="0.3"/>
+  <text x="400" y="50" font-family="Georgia,serif" font-size="32" font-weight="bold" fill="#7B1FA2" text-anchor="middle">Гоголь - Заколдованное место</text>
+  <line x1="80" y1="64" x2="720" y2="64" stroke="#7B1FA2" stroke-width="2" opacity="0.35"/>
+  
+  <!-- Night sky -->
+  <rect x="50" y="80" width="700" height="160" fill="#1A237E" opacity="0.12" rx="8"/>
+  <!-- Moon -->
+  <circle cx="660" cy="120" r="35" fill="#FFF9C4" stroke="#F9A825" stroke-width="2"/>
+  <circle cx="673" cy="113" r="28" fill="#1A237E" opacity="0.15"/>
+  <!-- Stars big -->
+  <circle cx="100" cy="100" r="4" fill="#FFF" opacity="0.7"/>
+  <circle cx="200" cy="90" r="3" fill="#FFF" opacity="0.5"/>
+  <circle cx="300" cy="110" r="4" fill="#FFF" opacity="0.6"/>
+  <circle cx="450" cy="95" r="3" fill="#FFF" opacity="0.5"/>
+  <circle cx="550" cy="105" r="4" fill="#FFF" opacity="0.7"/>
+  <!-- Fire glow -->
+  <circle cx="400" cy="200" r="50" fill="#FF6F00" opacity="0.12"/>
+  <circle cx="400" cy="200" r="30" fill="#FF8F00" opacity="0.18"/>
+  <circle cx="400" cy="200" r="14" fill="#FFD54F" opacity="0.35"/>
+  <!-- Trees -->
+  <line x1="120" y1="280" x2="120" y2="150" stroke="#4E342E" stroke-width="5"/>
+  <line x1="120" y1="190" x2="90" y2="155" stroke="#4E342E" stroke-width="3"/>
+  <line x1="120" y1="220" x2="150" y2="180" stroke="#4E342E" stroke-width="3"/>
+  <line x1="680" y1="280" x2="680" y2="150" stroke="#4E342E" stroke-width="5"/>
+  <line x1="680" y1="190" x2="650" y2="155" stroke="#4E342E" stroke-width="3"/>
+  <line x1="680" y1="220" x2="710" y2="180" stroke="#4E342E" stroke-width="3"/>
+  <!-- Characters -->
+  <circle cx="340" cy="240" r="14" fill="#FFCC80" stroke="#E65100" stroke-width="2"/>
+  <circle cx="400" cy="240" r="14" fill="#FFCC80" stroke="#E65100" stroke-width="2"/>
+  <circle cx="460" cy="240" r="14" fill="#FFCC80" stroke="#E65100" stroke-width="2"/>
+  <!-- Text -->
+  <text x="400" y="330" font-family="Georgia,serif" font-size="22" fill="#7B1FA2" text-anchor="middle" font-weight="bold">Н.В. Гоголь</text>
+  <text x="400" y="360" font-family="Georgia,serif" font-size="18" fill="#7B1FA2" text-anchor="middle">Заколдованное место</text>
+  <text x="400" y="390" font-family="Georgia,serif" font-size="16" fill="#7B1FA2" text-anchor="middle" opacity="0.7">Вечера на хуторе близ Диканьки</text>
+  <text x="400" y="420" font-family="Georgia,serif" font-size="15" fill="#7B1FA2" text-anchor="middle" opacity="0.5">Украинские ночи, мистика и народные предания</text>
+
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><linearGradient id="g5" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#9F7AEA"/><stop offset="100%" stop-color="#6B46C1"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#g5)"/>
+  <!-- 5 pillars (institutes) -->
+  <g opacity="0.6">
+    <rect x="40" y="100" width="70" height="150" rx="5" fill="#E53E3E"/><text x="75" y="180" text-anchor="middle" font-size="9" fill="#FFF">Семья</text>
+    <rect x="125" y="80" width="70" height="170" rx="5" fill="#3182CE"/><text x="160" y="170" text-anchor="middle" font-size="9" fill="#FFF">Госуд.</text>
+    <rect x="210" y="60" width="70" height="190" rx="5" fill="#38A169"/><text x="245" y="160" text-anchor="middle" font-size="9" fill="#FFF">Религия</text>
+    <rect x="295" y="80" width="70" height="170" rx="5" fill="#D69E2E"/><text x="330" y="170" text-anchor="middle" font-size="9" fill="#FFF">Образ.</text>
+    <rect x="380" y="100" width="70" height="150" rx="5" fill="#9F7AEA"/><text x="415" y="180" text-anchor="middle" font-size="9" fill="#FFF">Пр-во</text>
+  </g>
+  <!-- Roof connecting them -->
+  <path d="M35 95 L250 40 L465 95" fill="none" stroke="#E2E8F0" stroke-width="3" opacity="0.3"/>
+  <text x="250" y="300" text-anchor="middle" font-size="18" fill="#E2E8F0" font-weight="bold" opacity="0.6">Социальные институты</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#E2E8F0" opacity="0.5">Социальные институты</text>
+</svg>

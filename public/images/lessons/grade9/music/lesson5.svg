@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#0a0a1a"/>
+  <!-- Grand piano silhouette -->
+  <path d="M60 200 Q60 170 100 160 Q160 145 200 160 Q220 170 220 200 L60 200 Z" fill="#1a1a2e" stroke="#ffd93d" stroke-width="1.5" opacity="0.6"/>
+  <rect x="60" y="200" width="160" height="8" fill="#1a1a2e" stroke="#ffd93d" stroke-width="1" opacity="0.5"/>
+  <!-- Piano keys -->
+  <g opacity="0.5">
+    <rect x="70" y="200" width="10" height="8" fill="#ffffff" opacity="0.4"/>
+    <rect x="82" y="200" width="10" height="8" fill="#ffffff" opacity="0.4"/>
+    <rect x="94" y="200" width="10" height="8" fill="#ffffff" opacity="0.4"/>
+    <rect x="106" y="200" width="10" height="8" fill="#ffffff" opacity="0.4"/>
+    <rect x="118" y="200" width="10" height="8" fill="#ffffff" opacity="0.4"/>
+    <rect x="130" y="200" width="10" height="8" fill="#ffffff" opacity="0.4"/>
+    <rect x="142" y="200" width="10" height="8" fill="#ffffff" opacity="0.4"/>
+    <rect x="154" y="200" width="10" height="8" fill="#ffffff" opacity="0.4"/>
+    <rect x="166" y="200" width="10" height="8" fill="#ffffff" opacity="0.4"/>
+    <rect x="178" y="200" width="10" height="8" fill="#ffffff" opacity="0.4"/>
+    <!-- Black keys -->
+    <rect x="78" y="200" width="7" height="5" fill="#000000" opacity="0.5"/>
+    <rect x="90" y="200" width="7" height="5" fill="#000000" opacity="0.5"/>
+    <rect x="114" y="200" width="7" height="5" fill="#000000" opacity="0.5"/>
+    <rect x="126" y="200" width="7" height="5" fill="#000000" opacity="0.5"/>
+    <rect x="138" y="200" width="7" height="5" fill="#000000" opacity="0.5"/>
+  </g>
+  <!-- Piano lid (open) -->
+  <line x1="60" y1="160" x2="40" y2="90" stroke="#ffd93d" stroke-width="1.5" opacity="0.5"/>
+  <line x1="220" y1="160" x2="200" y2="90" stroke="#ffd93d" stroke-width="1.5" opacity="0.5"/>
+  <line x1="40" y1="90" x2="200" y2="90" stroke="#ffd93d" stroke-width="1.5" opacity="0.4"/>
+  <!-- Composer silhouettes -->
+  <!-- Beethoven -->
+  <circle cx="310" cy="90" r="15" fill="#e8dcc8" opacity="0.25"/>
+  <path d="M295 105 Q310 100 325 105 L320 160 L300 160 Z" fill="#4d96ff" opacity="0.15"/>
+  <text x="310" y="175" font-size="7" fill="#4d96ff" opacity="0.5" text-anchor="middle" font-family="sans-serif">Бетховен</text>
+  <!-- Mozart -->
+  <circle cx="380" cy="90" r="15" fill="#e8dcc8" opacity="0.25"/>
+  <path d="M365 105 Q380 100 395 105 L390 160 L370 160 Z" fill="#ff6b6b" opacity="0.15"/>
+  <!-- Mozart wig -->
+  <path d="M367 82 Q380 65 393 82" fill="none" stroke="#e8dcc8" stroke-width="2" opacity="0.2"/>
+  <text x="380" y="175" font-size="7" fill="#ff6b6b" opacity="0.5" text-anchor="middle" font-family="sans-serif">Моцарт</text>
+  <!-- Bach -->
+  <circle cx="450" cy="90" r="15" fill="#e8dcc8" opacity="0.25"/>
+  <path d="M435 105 Q450 100 465 105 L460 160 L440 160 Z" fill="#ffd93d" opacity="0.15"/>
+  <text x="450" y="175" font-size="7" fill="#ffd93d" opacity="0.5" text-anchor="middle" font-family="sans-serif">Бах</text>
+  <!-- Musical staff with notes flowing -->
+  <g opacity="0.3">
+    <line x1="50" y1="240" x2="450" y2="240" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="50" y1="250" x2="450" y2="250" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="50" y1="260" x2="450" y2="260" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="50" y1="270" x2="450" y2="270" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="50" y1="280" x2="450" y2="280" stroke="#ffffff" stroke-width="0.5"/>
+  </g>
+  <!-- Flowing notes -->
+  <ellipse cx="100" cy="260" rx="8" ry="6" fill="#00d2ff" opacity="0.4" transform="rotate(-15,100,260)"/>
+  <line x1="107" y1="258" x2="107" y2="230" stroke="#00d2ff" stroke-width="1.5" opacity="0.4"/>
+  <ellipse cx="170" cy="270" rx="8" ry="6" fill="#00d2ff" opacity="0.4" transform="rotate(-15,170,270)"/>
+  <line x1="177" y1="268" x2="177" y2="240" stroke="#00d2ff" stroke-width="1.5" opacity="0.4"/>
+  <ellipse cx="240" cy="250" rx="8" ry="6" fill="#00d2ff" opacity="0.4" transform="rotate(-15,240,250)"/>
+  <line x1="247" y1="248" x2="247" y2="220" stroke="#00d2ff" stroke-width="1.5" opacity="0.4"/>
+  <ellipse cx="310" cy="265" rx="8" ry="6" fill="#00d2ff" opacity="0.4" transform="rotate(-15,310,265)"/>
+  <line x1="317" y1="263" x2="317" y2="235" stroke="#00d2ff" stroke-width="1.5" opacity="0.4"/>
+  <ellipse cx="380" cy="255" rx="8" ry="6" fill="#00d2ff" opacity="0.4" transform="rotate(-15,380,255)"/>
+  <line x1="387" y1="253" x2="387" y2="225" stroke="#00d2ff" stroke-width="1.5" opacity="0.4"/>
+  <text x="250" y="340" font-size="9" fill="#ffffff" opacity="0.5" text-anchor="middle" font-family="sans-serif">Классическая музыка</text>
+</svg>

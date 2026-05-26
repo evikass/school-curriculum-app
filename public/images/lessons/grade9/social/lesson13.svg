@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#1A202C"/>
+  <!-- Power fist -->
+  <g transform="translate(250,130)" fill="#E2E8F0" opacity="0.3">
+    <rect x="-15" y="-30" width="30" height="40" rx="5"/>
+    <rect x="-20" y="-10" width="8" height="15" rx="3"/>
+    <rect x="-8" y="-12" width="8" height="15" rx="3"/>
+    <rect x="4" y="-10" width="8" height="15" rx="3"/>
+    <rect x="16" y="-5" width="8" height="12" rx="3"/>
+    <rect x="-12" y="10" width="24" height="25" rx="5"/>
+  </g>
+  <!-- Lightning bolts (power) -->
+  <g fill="#F6E05E" opacity="0.4">
+    <polygon points="180,60 195,100 185,100 200,140 175,105 185,105 170,70"/>
+    <polygon points="310,50 325,90 315,90 330,130 305,95 315,95 300,60"/>
+  </g>
+  <!-- Power types -->
+  <g opacity="0.5">
+    <rect x="40" y="200" width="100" height="28" rx="5" fill="#C53030"/><text x="90" y="219" text-anchor="middle" font-size="9" fill="#FFF">Политическая</text>
+    <rect x="160" y="200" width="100" height="28" rx="5" fill="#D69E2E"/><text x="210" y="219" text-anchor="middle" font-size="9" fill="#FFF">Экономическая</text>
+    <rect x="280" y="200" width="100" height="28" rx="5" fill="#9F7AEA"/><text x="330" y="219" text-anchor="middle" font-size="9" fill="#FFF">Духовная</text>
+    <rect x="400" y="200" width="80" height="28" rx="5" fill="#38A169"/><text x="440" y="219" text-anchor="middle" font-size="9" fill="#FFF">Семейная</text>
+  </g>
+  <text x="250" y="290" text-anchor="middle" font-size="18" fill="#E2E8F0" font-weight="bold" opacity="0.6">Политика и власть</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#E2E8F0" opacity="0.5">Политика и власть</text>
+</svg>

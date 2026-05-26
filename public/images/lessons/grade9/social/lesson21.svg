@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#1A365D"/>
+  <!-- Passport -->
+  <g transform="translate(250,150)" opacity="0.4">
+    <rect x="-50" y="-65" width="100" height="130" rx="5" fill="#C53030"/>
+    <rect x="-40" y="-55" width="80" height="110" rx="3" fill="#E2E8F0" opacity="0.2"/>
+    <text x="0" y="-30" text-anchor="middle" font-size="10" fill="#F6E05E">РФ</text>
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#F6E05E" stroke-width="1" opacity="0.5"/>
+    <line x1="-30" y1="30" x2="30" y2="30" stroke="#E2E8F0" stroke-width="1" opacity="0.3"/>
+    <line x1="-30" y1="38" x2="30" y2="38" stroke="#E2E8F0" stroke-width="1" opacity="0.3"/>
+  </g>
+  <!-- Connection lines -->
+  <g stroke="#63B3ED" stroke-width="1" opacity="0.3">
+    <line x1="100" y1="80" x2="200" y2="120"/><line x1="400" y1="80" x2="300" y2="120"/>
+    <line x1="100" y1="250" x2="200" y2="200"/><line x1="400" y1="250" x2="300" y2="200"/>
+  </g>
+  <g opacity="0.4" font-size="8" fill="#E2E8F0">
+    <text x="80" y="75">Филиация</text><text x="380" y="75">Натурализация</text>
+    <text x="80" y="260">Апатрид</text><text x="380" y="260">Бипатрид</text>
+  </g>
+  <text x="250" y="310" text-anchor="middle" font-size="22" fill="#E2E8F0" font-weight="bold" opacity="0.6">Гражданство</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#E2E8F0" opacity="0.5">Гражданство</text>
+</svg>

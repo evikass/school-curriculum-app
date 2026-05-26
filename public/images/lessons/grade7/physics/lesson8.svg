@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#FFFDE7"/>
+<rect x="40" y="80" width="420" height="8" fill="#8D6E63" rx="2"/>
+<rect x="80" y="55" width="60" height="28" rx="3" fill="#8D6E63" stroke="#5D4037" stroke-width="1.5"/>
+<text x="110" y="74" font-size="9" fill="#FFF" text-anchor="middle">ящик</text>
+<line x1="140" y1="68" x2="220" y2="68" stroke="#D32F2F" stroke-width="3"/>
+<polygon points="220,64 232,68 220,72" fill="#D32F2F"/>
+<text x="185" y="58" font-size="12" fill="#C62828" font-weight="bold">F</text>
+<line x1="80" y1="100" x2="280" y2="100" stroke="#4CAF50" stroke-width="2"/>
+<text x="180" y="118" font-size="10" fill="#2E7D32" text-anchor="middle">s — перемещение</text>
+<line x1="80" y1="95" x2="80" y2="108" stroke="#4CAF50" stroke-width="1.5"/>
+<line x1="280" y1="95" x2="280" y2="108" stroke="#4CAF50" stroke-width="1.5"/>
+<text x="250" y="160" font-size="22" fill="#0D47A1" text-anchor="middle" font-style="italic" font-weight="bold">A = F · s</text>
+<text x="250" y="185" font-size="12" fill="#1565C0" text-anchor="middle">[A] = Дж (Джоуль)</text>
+<rect x="50" y="210" width="140" height="110" rx="6" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1.5"/>
+<line x1="70" y1="280" x2="70" y2="250" stroke="#4CAF50" stroke-width="2"/>
+<rect x="60" y="245" width="30" height="20" fill="#81C784" stroke="#388E3C" stroke-width="1"/>
+<line x1="90" y1="255" x2="145" y2="255" stroke="#4CAF50" stroke-width="2"/>
+<polygon points="145,252 155,255 145,258" fill="#4CAF50"/>
+<text x="120" y="245" font-size="8" fill="#2E7D32">F↑, s↑</text>
+<text x="120" y="300" font-size="9" fill="#2E7D32" text-anchor="middle">A > 0 (сила помогает)</text>
+<rect x="210" y="210" width="140" height="110" rx="6" fill="#FFF3E0" stroke="#FF9800" stroke-width="1.5"/>
+<line x1="230" y1="260" x2="230" y2="280" stroke="#FF9800" stroke-width="2"/>
+<rect x="220" y="250" width="30" height="20" fill="#FFB74D" stroke="#E65100" stroke-width="1"/>
+<line x1="250" y1="260" x2="305" y2="260" stroke="#FF9800" stroke-width="2"/>
+<polygon points="305,257 315,260 305,263" fill="#FF9800"/>
+<text x="280" y="248" font-size="8" fill="#E65100">F⊥s</text>
+<text x="280" y="300" font-size="9" fill="#E65100" text-anchor="middle">A = 0 (сила ⊥ путь)</text>
+<rect x="370" y="210" width="110" height="110" rx="6" fill="#FFEBEE" stroke="#F44336" stroke-width="1.5"/>
+<rect x="390" y="245" width="30" height="20" fill="#EF9A9A" stroke="#C62828" stroke-width="1"/>
+<line x1="420" y1="255" x2="440" y2="255" stroke="#F44336" stroke-width="2"/>
+<line x1="440" y1="255" x2="420" y2="270" stroke="#F44336" stroke-width="2"/>
+<polygon points="420,270 415,262 425,262" fill="#F44336"/>
+<text x="425" y="300" font-size="9" fill="#C62828" text-anchor="middle">A < 0</text>
+<text x="250" y="345" font-size="9" fill="#666" text-anchor="middle" opacity="0.5">Механическая работа</text>
+</svg>

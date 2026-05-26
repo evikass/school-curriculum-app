@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#FBE9E7"/>
+<rect x="150" y="80" width="200" height="170" fill="#ECEFF1" stroke="#78909C" stroke-width="2"/>
+<rect x="155" y="85" width="190" height="40" fill="#B0BEC5" stroke="#78909C" stroke-width="1"/>
+<path d="M170,85 L170,65 L200,65 L200,85" fill="#90A4AE" stroke="#607D8B" stroke-width="1.5"/>
+<path d="M300,85 L300,65 L330,65 L330,85" fill="#90A4AE" stroke="#607D8B" stroke-width="1.5"/>
+<rect x="200" y="55" width="100" height="35" fill="#78909C" stroke="#546E7A" stroke-width="2"/>
+<rect x="220" y="45" width="60" height="15" fill="#607D8B" stroke="#455A64" stroke-width="1.5"/>
+<path d="M250,45 L250,25" stroke="#455A64" stroke-width="2"/>
+<path d="M240,25 L260,25 L250,15 Z" fill="#FFD700" stroke="#F9A825" stroke-width="1"/>
+<rect x="170" y="130" width="30" height="50" fill="#CFD8DC" stroke="#78909C" stroke-width="1"/>
+<rect x="300" y="130" width="30" height="50" fill="#CFD8DC" stroke="#78909C" stroke-width="1"/>
+<path d="M200,125 L280,125 L290,130 L190,130 Z" fill="#90A4AE" stroke="#607D8B" stroke-width="1"/>
+<text x="250" y="200" font-size="9" fill="#37474F" text-anchor="middle">Московский Кремль</text>
+<text x="250" y="215" font-size="7" fill="#546E7A" text-anchor="middle">Иван III, 1485–1495</text>
+<rect x="250" y="140" width="30" height="40" fill="#CFD8DC" stroke="#78909C" stroke-width="1"/>
+<circle cx="60" cy="120" r="30" fill="#FFCDD2" stroke="#C62828" stroke-width="2"/>
+<rect x="40" y="100" width="40" height="30" rx="3" fill="#EF9A9A"/>
+<text x="60" y="120" font-size="8" fill="#B71C1C" text-anchor="middle">Иван III</text>
+<line x1="45" y1="108" x2="75" y2="108" stroke="#FFD700" stroke-width="2"/>
+<circle cx="60" cy="108" r="3" fill="#FFD700"/>
+<rect x="30" y="165" width="60" height="50" rx="3" fill="#FFEBEE" stroke="#C62828" stroke-width="1"/>
+<text x="60" y="182" font-size="7" fill="#C62828" text-anchor="middle">1480 г.</text>
+<text x="60" y="195" font-size="7" fill="#C62828" text-anchor="middle">Стояние</text>
+<text x="60" y="208" font-size="7" fill="#C62828" text-anchor="middle">на Угре</text>
+<path d="M390,90 L430,90 L440,130 L440,200 L380,200 L380,130 Z" fill="#FF8F00" stroke="#E65100" stroke-width="2"/>
+<circle cx="410" cy="140" r="10" fill="#FFF8E1" stroke="#E65100" stroke-width="1.5"/>
+<text x="410" y="143" font-size="6" fill="#E65100" text-anchor="middle"> paypal</text>
+<line x1="410" y1="200" x2="410" y2="230" stroke="#5D4037" stroke-width="2"/>
+<path d="M395,230 L425,230 L430,260 L390,260 Z" fill="#795548" stroke="#4E342E" stroke-width="1.5"/>
+<text x="410" y="250" font-size="6" fill="#FFF" text-anchor="middle">орда</text>
+<path d="M435,240 L460,240" stroke="#D32F2F" stroke-width="2"/>
+<text x="468" y="240" font-size="7" fill="#C62828">✗</text>
+<text x="410" y="275" font-size="6" fill="#E65100" text-anchor="middle">конец ига</text>
+<text x="250" y="310" font-size="8" fill="#37474F" text-anchor="middle">Иван III — «Государь всея Руси»</text>
+<text x="250" y="325" font-size="7" fill="#546E7A" text-anchor="middle">Символ государства: двуглавый орёл</text>
+<text x="250" y="345" font-size="9" fill="#666" text-anchor="middle" opacity="0.5">Иван III и освобождение Руси</text>
+</svg>

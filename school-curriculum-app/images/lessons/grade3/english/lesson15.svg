@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="grad15" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF3E0"/>
+      <stop offset="100%" style="stop-color:#FFE0B2"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#grad15)"/>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#E65100" text-anchor="middle">🔢 Numbers 1-100</text>
+  <rect x="100" y="45" width="300" height="2" rx="1" fill="#FF9800" opacity="0.6"/>
+  
+  <!-- Numbers 1-10 -->
+  <g font-family="Arial, sans-serif" font-size="11" font-weight="bold">
+    <rect x="15" y="60" width="45" height="40" fill="#EF5350" rx="6">
+      <animate attributeName="opacity" values="1;0.85;1" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <text x="37" y="85" fill="white" text-anchor="middle">1</text>
+    <text x="37" y="98" fill="white" text-anchor="middle" font-size="8">one</text>
+    
+    <rect x="65" y="60" width="45" height="40" fill="#FF7043" rx="6">
+      <animate attributeName="opacity" values="1;0.85;1" dur="3.3s" repeatCount="indefinite"/>
+    </rect>
+    <text x="87" y="85" fill="white" text-anchor="middle">2</text>
+    <text x="87" y="98" fill="white" text-anchor="middle" font-size="8">two</text>
+    
+    <rect x="115" y="60" width="45" height="40" fill="#FFA726" rx="6">
+      <animate attributeName="opacity" values="1;0.85;1" dur="3.6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="137" y="85" fill="white" text-anchor="middle">3</text>
+    <text x="137" y="98" fill="white" text-anchor="middle" font-size="7">three</text>
+    
+    <rect x="165" y="60" width="45" height="40" fill="#FFCA28" rx="6">
+      <animate attributeName="opacity" values="1;0.85;1" dur="3.9s" repeatCount="indefinite"/>
+    </rect>
+    <text x="187" y="85" fill="white" text-anchor="middle">4</text>
+    <text x="187" y="98" fill="white" text-anchor="middle" font-size="7">four</text>
+    
+    <rect x="215" y="60" width="45" height="40" fill="#9CCC65" rx="6">
+      <animate attributeName="opacity" values="1;0.85;1" dur="4.2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="237" y="85" fill="white" text-anchor="middle">5</text>
+    <text x="237" y="98" fill="white" text-anchor="middle" font-size="7">five</text>
+    
+    <rect x="265" y="60" width="45" height="40" fill="#66BB6A" rx="6">
+      <animate attributeName="opacity" values="1;0.85;1" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="287" y="85" fill="white" text-anchor="middle">6</text>
+    <text x="287" y="98" fill="white" text-anchor="middle" font-size="7">six</text>
+    
+    <rect x="315" y="60" width="45" height="40" fill="#26C6DA" rx="6">
+      <animate attributeName="opacity" values="1;0.85;1" dur="4.8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="337" y="85" fill="white" text-anchor="middle">7</text>
+    <text x="337" y="98" fill="white" text-anchor="middle" font-size="7">seven</text>
+    
+    <rect x="365" y="60" width="45" height="40" fill="#42A5F5" rx="6">
+      <animate attributeName="opacity" values="1;0.85;1" dur="5.1s" repeatCount="indefinite"/>
+    </rect>
+    <text x="387" y="85" fill="white" text-anchor="middle">8</text>
+    <text x="387" y="98" fill="white" text-anchor="middle" font-size="7">eight</text>
+    
+    <rect x="415" y="60" width="45" height="40" fill="#7E57C2" rx="6">
+      <animate attributeName="opacity" values="1;0.85;1" dur="5.4s" repeatCount="indefinite"/>
+    </rect>
+    <text x="437" y="85" fill="white" text-anchor="middle">9</text>
+    <text x="437" y="98" fill="white" text-anchor="middle" font-size="7">nine</text>
+    
+    <rect x="465" y="60" width="25" height="40" fill="#AB47BC" rx="6">
+      <animate attributeName="opacity" values="1;0.85;1" dur="5.7s" repeatCount="indefinite"/>
+    </rect>
+    <text x="477" y="85" fill="white" text-anchor="middle">10</text>
+    <text x="477" y="98" fill="white" text-anchor="middle" font-size="6">ten</text>
+  </g>
+  
+  <!-- Numbers 11-20 -->
+  <g font-family="Arial, sans-serif" font-size="10" font-weight="bold">
+    <rect x="15" y="115" width="46" height="35" fill="#EC407A" rx="5">
+      <animate attributeName="opacity" values="1;0.85;1" dur="3.2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="38" y="135" fill="white" text-anchor="middle">11</text>
+    <text x="38" y="146" fill="white" text-anchor="middle" font-size="7">eleven</text>
+    
+    <rect x="66" y="115" width="46" height="35" fill="#EF5350" rx="5">
+      <animate attributeName="opacity" values="1;0.85;1" dur="3.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="89" y="135" fill="white" text-anchor="middle">12</text>
+    <text x="89" y="146" fill="white" text-anchor="middle" font-size="6">twelve</text>
+    
+    <rect x="117" y="115" width="46" height="35" fill="#FF7043" rx="5">
+      <animate attributeName="opacity" values="1;0.85;1" dur="3.8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="140" y="135" fill="white" text-anchor="middle">13</text>
+    <text x="140" y="146" fill="white" text-anchor="middle" font-size="6">thirteen</text>
+    
+    <rect x="168" y="115" width="46" height="35" fill="#FFA726" rx="5">
+      <animate attributeName="opacity" values="1;0.85;1" dur="4.1s" repeatCount="indefinite"/>
+    </rect>
+    <text x="191" y="135" fill="white" text-anchor="middle">14</text>
+    <text x="191" y="146" fill="white" text-anchor="middle" font-size="5">fourteen</text>
+    
+    <rect x="219" y="115" width="46" height="35" fill="#66BB6A" rx="5">
+      <animate attributeName="opacity" values="1;0.85;1" dur="4.4s" repeatCount="indefinite"/>
+    </rect>
+    <text x="242" y="135" fill="white" text-anchor="middle">15</text>
+    <text x="242" y="146" fill="white" text-anchor="middle" font-size="5">fifteen</text>
+    
+    <rect x="270" y="115" width="46" height="35" fill="#26C6DA" rx="5">
+      <animate attributeName="opacity" values="1;0.85;1" dur="4.7s" repeatCount="indefinite"/>
+    </rect>
+    <text x="293" y="135" fill="white" text-anchor="middle">16</text>
+    <text x="293" y="146" fill="white" text-anchor="middle" font-size="5">sixteen</text>
+    
+    <rect x="321" y="115" width="46" height="35" fill="#42A5F5" rx="5">
+      <animate attributeName="opacity" values="1;0.85;1" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="344" y="135" fill="white" text-anchor="middle">17</text>
+    <text x="344" y="146" fill="white" text-anchor="middle" font-size="5">seventeen</text>
+    
+    <rect x="372" y="115" width="46" height="35" fill="#7E57C2" rx="5">
+      <animate attributeName="opacity" values="1;0.85;1" dur="5.3s" repeatCount="indefinite"/>
+    </rect>
+    <text x="395" y="135" fill="white" text-anchor="middle">18</text>
+    <text x="395" y="146" fill="white" text-anchor="middle" font-size="5">eighteen</text>
+    
+    <rect x="423" y="115" width="46" height="35" fill="#AB47BC" rx="5">
+      <animate attributeName="opacity" values="1;0.85;1" dur="5.6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="446" y="135" fill="white" text-anchor="middle">19</text>
+    <text x="446" y="146" fill="white" text-anchor="middle" font-size="5">nineteen</text>
+    
+    <rect x="474" y="115" width="16" height="35" fill="#EC407A" rx="5">
+      <animate attributeName="opacity" values="1;0.85;1" dur="5.9s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  
+  <!-- Tens: 20, 30, 40... 100 -->
+  <g font-family="Arial, sans-serif" font-size="10" font-weight="bold">
+    <rect x="15" y="165" width="70" height="40" fill="#FF8A65" rx="6">
+      <animate attributeName="opacity" values="1;0.85;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <text x="50" y="187" fill="white" text-anchor="middle">20</text>
+    <text x="50" y="200" fill="white" text-anchor="middle" font-size="8">twenty</text>
+    
+    <rect x="95" y="165" width="70" height="40" fill="#FFB74D" rx="6">
+      <animate attributeName="opacity" values="1;0.85;1" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="130" y="187" fill="white" text-anchor="middle">30</text>
+    <text x="130" y="200" fill="white" text-anchor="middle" font-size="8">thirty</text>
+    
+    <rect x="175" y="165" width="70" height="40" fill="#AED581" rx="6">
+      <animate attributeName="opacity" values="1;0.85;1" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="210" y="187" fill="white" text-anchor="middle">40</text>
+    <text x="210" y="200" fill="white" text-anchor="middle" font-size="7">forty</text>
+    
+    <rect x="255" y="165" width="70" height="40" fill="#4DB6AC" rx="6">
+      <animate attributeName="opacity" values="1;0.85;1" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="290" y="187" fill="white" text-anchor="middle">50</text>
+    <text x="290" y="200" fill="white" text-anchor="middle" font-size="7">fifty</text>
+    
+    <rect x="335" y="165" width="70" height="40" fill="#4FC3F7" rx="6">
+      <animate attributeName="opacity" values="1;0.85;1" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="370" y="187" fill="white" text-anchor="middle">60</text>
+    <text x="370" y="200" fill="white" text-anchor="middle" font-size="6">sixty</text>
+    
+    <rect x="415" y="165" width="75" height="40" fill="#7986CB" rx="6">
+      <animate attributeName="opacity" values="1;0.85;1" dur="6.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="452" y="187" fill="white" text-anchor="middle">70</text>
+    <text x="452" y="200" fill="white" text-anchor="middle" font-size="6">seventy</text>
+  </g>
+  
+  <g font-family="Arial, sans-serif" font-size="10" font-weight="bold">
+    <rect x="15" y="220" width="70" height="40" fill="#9575CD" rx="6">
+      <animate attributeName="opacity" values="1;0.85;1" dur="4.2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="50" y="242" fill="white" text-anchor="middle">80</text>
+    <text x="50" y="255" fill="white" text-anchor="middle" font-size="6">eighty</text>
+    
+    <rect x="95" y="220" width="70" height="40" fill="#F06292" rx="6">
+      <animate attributeName="opacity" values="1;0.85;1" dur="4.7s" repeatCount="indefinite"/>
+    </rect>
+    <text x="130" y="242" fill="white" text-anchor="middle">90</text>
+    <text x="130" y="255" fill="white" text-anchor="middle" font-size="6">ninety</text>
+    
+    <rect x="175" y="220" width="100" height="40" fill="#FFD54F" rx="8">
+      <animate attributeName="opacity" values="1;0.85;1" dur="5.2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="225" y="242" fill="#5D4037" text-anchor="middle">100</text>
+    <text x="225" y="255" fill="#5D4037" text-anchor="middle" font-size="9">one hundred</text>
+  </g>
+  
+  <!-- Stars decoration -->
+  <g fill="#FFD54F">
+    <polygon points="350,240 353,250 363,250 355,257 358,267 350,261 342,267 345,257 337,250 347,250">
+      <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="390,235 392,242 400,242 394,247 396,255 390,250 384,255 386,247 380,242 388,242">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="430,245 432,252 440,252 434,257 436,265 430,260 424,265 426,257 420,252 428,252">
+      <animate attributeName="opacity" values="1;0.5;1" dur="3s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="470,240 472,247 480,247 474,252 476,260 470,255 464,260 466,252 460,247 468,247">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="3.5s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+  
+  <!-- Lesson number -->
+  <circle cx="470" cy="320" r="20" fill="#FF9800" opacity="0.9"/>
+  <text x="470" y="326" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">15</text>
+</svg>

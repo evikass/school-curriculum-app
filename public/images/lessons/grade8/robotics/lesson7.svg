@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bgR7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#162447"/>
+    </linearGradient>
+    <marker id="arrowR7" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ffd93d"/>
+    </marker>
+  </defs>
+  <rect width="500" height="350" fill="url(#bgR7)"/>
+  <!-- Process flow - 4 stages -->
+  <!-- Stage 1: Design -->
+  <g transform="translate(25, 40)">
+    <rect width="100" height="120" rx="10" fill="#6c5ce7" opacity="0.15" stroke="#6c5ce7" stroke-width="1.5"/>
+    <circle cx="50" cy="30" r="20" fill="#6c5ce7" opacity="0.3"/>
+    <text x="50" y="36" fill="white" font-size="20" text-anchor="middle">✏️</text>
+    <!-- Pencil icon -->
+    <rect x="40" y="22" width="4" height="18" rx="1" fill="#ffd93d" transform="rotate(-30,42,31)"/>
+    <text x="50" y="68" fill="#6c5ce7" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="bold">Проектирование</text>
+    <text x="50" y="84" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">Идея и чертёж</text>
+    <text x="50" y="96" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">Выбор деталей</text>
+    <text x="50" y="108" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">Схема сборки</text>
+    <circle cx="50" cy="8" r="12" fill="#6c5ce7"/>
+    <text x="50" y="12" fill="white" font-size="10" font-family="sans-serif" text-anchor="middle" font-weight="bold">1</text>
+  </g>
+  <!-- Arrow 1→2 -->
+  <line x1="130" y1="100" x2="145" y2="100" stroke="#ffd93d" stroke-width="2" marker-end="url(#arrowR7)"/>
+  <!-- Stage 2: Build -->
+  <g transform="translate(150, 40)">
+    <rect width="100" height="120" rx="10" fill="#00b894" opacity="0.15" stroke="#00b894" stroke-width="1.5"/>
+    <circle cx="50" cy="30" r="20" fill="#00b894" opacity="0.3"/>
+    <!-- Wrench icon -->
+    <path d="M40,20 L55,35 M42,22 L48,16 M55,35 L60,30" fill="none" stroke="#ffd93d" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="50" y="68" fill="#00b894" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="bold">Сборка</text>
+    <text x="50" y="84" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">Монтаж деталей</text>
+    <text x="50" y="96" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">Пайка плат</text>
+    <text x="50" y="108" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">Подключение</text>
+    <circle cx="50" cy="8" r="12" fill="#00b894"/>
+    <text x="50" y="12" fill="white" font-size="10" font-family="sans-serif" text-anchor="middle" font-weight="bold">2</text>
+  </g>
+  <!-- Arrow 2→3 -->
+  <line x1="255" y1="100" x2="270" y2="100" stroke="#ffd93d" stroke-width="2" marker-end="url(#arrowR7)"/>
+  <!-- Stage 3: Program -->
+  <g transform="translate(275, 40)">
+    <rect width="100" height="120" rx="10" fill="#e17055" opacity="0.15" stroke="#e17055" stroke-width="1.5"/>
+    <circle cx="50" cy="30" r="20" fill="#e17055" opacity="0.3"/>
+    <!-- Code brackets -->
+    <text x="50" y="36" fill="#ffd93d" font-size="18" font-family="monospace" text-anchor="middle">&lt;/&gt;</text>
+    <text x="50" y="68" fill="#e17055" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="bold">Программирование</text>
+    <text x="50" y="84" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">Написание кода</text>
+    <text x="50" y="96" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">Загрузка в МК</text>
+    <text x="50" y="108" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">Настройка логики</text>
+    <circle cx="50" cy="8" r="12" fill="#e17055"/>
+    <text x="50" y="12" fill="white" font-size="10" font-family="sans-serif" text-anchor="middle" font-weight="bold">3</text>
+  </g>
+  <!-- Arrow 3→4 -->
+  <line x1="380" y1="100" x2="395" y2="100" stroke="#ffd93d" stroke-width="2" marker-end="url(#arrowR7)"/>
+  <!-- Stage 4: Test -->
+  <g transform="translate(400, 40)">
+    <rect width="85" height="120" rx="10" fill="#fdcb6e" opacity="0.15" stroke="#fdcb6e" stroke-width="1.5"/>
+    <circle cx="42" cy="30" r="20" fill="#fdcb6e" opacity="0.3"/>
+    <!-- Checkmark -->
+    <path d="M30,30 L38,38 L55,20" fill="none" stroke="#00b894" stroke-width="3" stroke-linecap="round"/>
+    <text x="42" y="68" fill="#fdcb6e" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="bold">Тестирование</text>
+    <text x="42" y="84" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">Проверка</text>
+    <text x="42" y="96" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">Отладка</text>
+    <text x="42" y="108" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">Доработка</text>
+    <circle cx="42" cy="8" r="12" fill="#fdcb6e"/>
+    <text x="42" y="12" fill="#333" font-size="10" font-family="sans-serif" text-anchor="middle" font-weight="bold">4</text>
+  </g>
+  <!-- Feedback loop arrow -->
+  <path d="M440,165 Q440,185 250,190 Q60,185 60,165" fill="none" stroke="#ff5f56" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.5"/>
+  <text x="250" y="200" fill="#ff5f56" font-size="8" font-family="sans-serif" text-anchor="middle" opacity="0.6">Итерация: возврат при ошибках</text>
+  <!-- Timeline / Gantt -->
+  <rect x="15" y="215" width="470" height="110" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <text x="250" y="235" fill="#e0e0e0" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="bold">Примерный план работ</text>
+  <!-- Time axis -->
+  <line x1="30" y1="255" x2="470" y2="255" stroke="#30363d" stroke-width="1"/>
+  <text x="30" y="268" fill="#8b949e" font-size="7" font-family="monospace">1 нед</text>
+  <text x="140" y="268" fill="#8b949e" font-size="7" font-family="monospace">2 нед</text>
+  <text x="250" y="268" fill="#8b949e" font-size="7" font-family="monospace">3 нед</text>
+  <text x="360" y="268" fill="#8b949e" font-size="7" font-family="monospace">4 нед</text>
+  <!-- Gantt bars -->
+  <rect x="30" y="275" width="80" height="12" rx="3" fill="#6c5ce7" opacity="0.7"/>
+  <text x="120" y="285" fill="#6c5ce7" font-size="8" font-family="sans-serif">Проект</text>
+  <rect x="60" y="291" width="120" height="12" rx="3" fill="#00b894" opacity="0.7"/>
+  <text x="185" y="301" fill="#00b894" font-size="8" font-family="sans-serif">Сборка</text>
+  <rect x="140" y="307" width="180" height="12" rx="3" fill="#e17055" opacity="0.7"/>
+  <text x="325" y="317" fill="#e17055" font-size="8" font-family="sans-serif">Программирование</text>
+  <rect x="280" y="290" width="120" height="12" rx="3" fill="#fdcb6e" opacity="0.7"/>
+  <text x="405" y="300" fill="#fdcb6e" font-size="8" font-family="sans-serif">Тест</text>
+  <text x="250" y="340" fill="#aaa" font-size="9" opacity="0.5" font-family="sans-serif" text-anchor="middle">Процесс создания робота</text>
+</svg>

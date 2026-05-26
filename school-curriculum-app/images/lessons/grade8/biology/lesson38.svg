@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+    <linearGradient id="frontalGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EF9A9A"/>
+      <stop offset="100%" stop-color="#E53935"/>
+    </linearGradient>
+    <linearGradient id="parietalGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#90CAF9"/>
+      <stop offset="100%" stop-color="#1E88E5"/>
+    </linearGradient>
+    <linearGradient id="temporalGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#A5D6A7"/>
+      <stop offset="100%" stop-color="#43A047"/>
+    </linearGradient>
+    <linearGradient id="occipitalGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#CE93D8"/>
+      <stop offset="100%" stop-color="#8E24AA"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="350" rx="12" fill="url(#bg)" stroke="#2E7D32" stroke-width="2"/>
+
+  <!-- Title -->
+  <text x="250" y="22" text-anchor="middle" font-size="14" font-weight="bold" fill="#1B5E20" font-family="Arial">Большие полушария головного мозга</text>
+  <text x="250" y="35" text-anchor="middle" font-size="9" fill="#666" font-family="Arial">Биология 8 класс — Урок 38</text>
+  <line x1="15" y1="42" x2="485" y2="42" stroke="#2E7D32" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- ===== TOP VIEW OF BRAIN (center) ===== -->
+  <!-- Left hemisphere outline -->
+  <path d="M130,85 Q100,85 80,110 Q65,135 65,160 Q65,195 85,215 Q105,230 135,232 L200,235 Q210,235 215,225 L218,160 L215,95 Q210,85 200,85 Z" fill="#F8BBD0" stroke="#C62828" stroke-width="1.2"/>
+
+  <!-- Right hemisphere outline -->
+  <path d="M282,85 Q285,85 290,95 L293,160 L290,225 Q285,235 280,235 L340,232 Q370,230 390,215 Q410,195 410,160 Q410,135 395,110 Q380,85 350,85 Z" fill="#F8BBD0" stroke="#C62828" stroke-width="1.2"/>
+
+  <!-- Central fissure (Роландова борозда) -->
+  <line x1="218" y1="90" x2="215" y2="225" stroke="#880E4F" stroke-width="1.5"/>
+  <line x1="282" y1="90" x2="285" y2="225" stroke="#880E4F" stroke-width="1.5"/>
+
+  <!-- Longitudinal fissure -->
+  <line x1="250" y1="85" x2="250" y2="235" stroke="#880E4F" stroke-width="1.8"/>
+
+  <!-- LEFT HEMISPHERE LOBES -->
+  <!-- Frontal lobe (left) -->
+  <path d="M130,88 Q105,88 90,108 Q78,130 78,152 L78,155 L212,155 L212,92 Q208,88 200,88 Z" fill="url(#frontalGrad)" fill-opacity="0.5" stroke="#C62828" stroke-width="0.6"/>
+  <text x="145" y="125" text-anchor="middle" font-size="7" font-weight="bold" fill="#B71C1C" font-family="Arial">Лобная</text>
+  <text x="145" y="134" text-anchor="middle" font-size="7" font-weight="bold" fill="#B71C1C" font-family="Arial">доля</text>
+
+  <!-- Parietal lobe (left) -->
+  <path d="M212,92 L215,155 L78,155 L78,168 Q78,200 95,215 Q110,228 135,230 L200,232 L212,228 Z" fill="url(#parietalGrad)" fill-opacity="0.5" stroke="#1565C0" stroke-width="0.6"/>
+  <text x="145" y="188" text-anchor="middle" font-size="7" font-weight="bold" fill="#0D47A1" font-family="Arial">Теменная</text>
+  <text x="145" y="197" text-anchor="middle" font-size="7" font-weight="bold" fill="#0D47A1" font-family="Arial">доля</text>
+
+  <!-- Temporal lobe (left) -->
+  <path d="M95,218 Q110,230 135,232 L200,232 L200,238 L135,240 Q105,240 90,228 Z" fill="url(#temporalGrad)" fill-opacity="0.5" stroke="#2E7D32" stroke-width="0.6"/>
+  <text x="148" y="234" text-anchor="middle" font-size="5.5" font-weight="bold" fill="#1B5E20" font-family="Arial">Височная доля</text>
+
+  <!-- RIGHT HEMISPHERE LOBES -->
+  <!-- Frontal lobe (right) -->
+  <path d="M350,88 Q375,88 390,108 Q402,130 402,152 L402,155 L288,155 L288,92 Q292,88 300,88 Z" fill="url(#frontalGrad)" fill-opacity="0.5" stroke="#C62828" stroke-width="0.6"/>
+  <text x="345" y="125" text-anchor="middle" font-size="7" font-weight="bold" fill="#B71C1C" font-family="Arial">Лобная</text>
+  <text x="345" y="134" text-anchor="middle" font-size="7" font-weight="bold" fill="#B71C1C" font-family="Arial">доля</text>
+
+  <!-- Parietal lobe (right) -->
+  <path d="M288,92 L285,155 L402,155 L402,168 Q402,200 385,215 Q370,228 345,230 L300,232 L288,228 Z" fill="url(#parietalGrad)" fill-opacity="0.5" stroke="#1565C0" stroke-width="0.6"/>
+  <text x="345" y="188" text-anchor="middle" font-size="7" font-weight="bold" fill="#0D47A1" font-family="Arial">Теменная</text>
+  <text x="345" y="197" text-anchor="middle" font-size="7" font-weight="bold" fill="#0D47A1" font-family="Arial">доля</text>
+
+  <!-- Temporal lobe (right) -->
+  <path d="M385,218 Q370,230 345,232 L300,232 L300,238 L345,240 Q375,240 390,228 Z" fill="url(#temporalGrad)" fill-opacity="0.5" stroke="#2E7D32" stroke-width="0.6"/>
+  <text x="342" y="234" text-anchor="middle" font-size="5.5" font-weight="bold" fill="#1B5E20" font-family="Arial">Височная доля</text>
+
+  <!-- Occipital lobe (both, at back) -->
+  <path d="M200,232 L200,245 L185,248 L170,245 L165,232 Z" fill="url(#occipitalGrad)" fill-opacity="0.5" stroke="#6A1B9A" stroke-width="0.6"/>
+  <path d="M300,232 L300,245 L315,248 L330,245 L335,232 Z" fill="url(#occipitalGrad)" fill-opacity="0.5" stroke="#6A1B9A" stroke-width="0.6"/>
+  <text x="182" y="243" text-anchor="middle" font-size="4.5" font-weight="bold" fill="#4A148C" font-family="Arial">Затыл.</text>
+  <text x="318" y="243" text-anchor="middle" font-size="4.5" font-weight="bold" fill="#4A148C" font-family="Arial">Затыл.</text>
+
+  <!-- Broca's area (left frontal) -->
+  <ellipse cx="120" cy="140" rx="18" ry="10" fill="#FFCDD2" stroke="#C62828" stroke-width="0.8" stroke-dasharray="2,1"/>
+  <text x="120" y="143" text-anchor="middle" font-size="5" font-weight="bold" fill="#B71C1C" font-family="Arial">Зона</text>
+  <text x="120" y="149" text-anchor="middle" font-size="5" font-weight="bold" fill="#B71C1C" font-family="Arial">Брока</text>
+
+  <!-- Wernicke's area (left temporal/parietal) -->
+  <ellipse cx="120" cy="205" rx="18" ry="10" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.8" stroke-dasharray="2,1"/>
+  <text x="120" y="208" text-anchor="middle" font-size="5" font-weight="bold" fill="#1B5E20" font-family="Arial">Зона</text>
+  <text x="120" y="214" text-anchor="middle" font-size="5" font-weight="bold" fill="#1B5E20" font-family="Arial">Вернике</text>
+
+  <!-- Hemisphere labels -->
+  <text x="155" y="78" text-anchor="middle" font-size="6" fill="#880E4F" font-family="Arial">Левое полушарие</text>
+  <text x="345" y="78" text-anchor="middle" font-size="6" fill="#880E4F" font-family="Arial">Правое полушарие</text>
+
+  <!-- Fissure labels -->
+  <text x="250" y="260" text-anchor="middle" font-size="5.5" fill="#880E4F" font-family="Arial">Продольная щель</text>
+  <text x="75" y="163" font-size="5" fill="#880E4F" font-family="Arial" transform="rotate(-90,75,163)">Центральная борозда</text>
+
+  <!-- ===== LOBE FUNCTIONS (bottom-left) ===== -->
+  <rect x="15" y="268" width="235" height="52" rx="5" fill="white" fill-opacity="0.7" stroke="#2E7D32" stroke-width="0.8"/>
+
+  <!-- Frontal -->
+  <rect x="20" y="273" width="10" height="10" rx="2" fill="#E53935"/>
+  <text x="34" y="281" font-size="6" font-weight="bold" fill="#B71C1C" font-family="Arial">Лобная: мышление, речь, планирование, воля</text>
+
+  <!-- Parietal -->
+  <rect x="20" y="286" width="10" height="10" rx="2" fill="#1E88E5"/>
+  <text x="34" y="294" font-size="6" font-weight="bold" fill="#0D47A1" font-family="Arial">Теменная: ощущения, пространство, ориентация</text>
+
+  <!-- Temporal -->
+  <rect x="20" y="299" width="10" height="10" rx="2" fill="#43A047"/>
+  <text x="34" y="307" font-size="6" font-weight="bold" fill="#1B5E20" font-family="Arial">Височная: слух, память, распознавание речи</text>
+
+  <!-- Occipital -->
+  <rect x="20" y="312" width="10" height="10" rx="2" fill="#8E24AA"/>
+  <text x="34" y="320" font-size="6" font-weight="bold" fill="#4A148C" font-family="Arial">Затылочная: зрение, обработка изображений</text>
+
+  <!-- ===== CORTICAL AREAS (right side panel) ===== -->
+  <rect x="260" y="268" width="225" height="52" rx="5" fill="white" fill-opacity="0.7" stroke="#2E7D32" stroke-width="0.8"/>
+  <text x="372" y="278" text-anchor="middle" font-size="7" font-weight="bold" fill="#1B5E20" font-family="Arial">Зоны коры больших полушарий</text>
+
+  <!-- Motor cortex -->
+  <rect x="268" y="284" width="68" height="30" rx="3" fill="#FFCDD2" stroke="#E53935" stroke-width="0.6"/>
+  <text x="302" y="295" text-anchor="middle" font-size="6" font-weight="bold" fill="#C62828" font-family="Arial">Моторная</text>
+  <text x="302" y="303" text-anchor="middle" font-size="5" fill="#333" font-family="Arial">Управление</text>
+  <text x="302" y="310" text-anchor="middle" font-size="5" fill="#333" font-family="Arial">движениями</text>
+
+  <!-- Sensory cortex -->
+  <rect x="341" y="284" width="68" height="30" rx="3" fill="#BBDEFB" stroke="#1E88E5" stroke-width="0.6"/>
+  <text x="375" y="295" text-anchor="middle" font-size="6" font-weight="bold" fill="#0D47A1" font-family="Arial">Сенсорная</text>
+  <text x="375" y="303" text-anchor="middle" font-size="5" fill="#333" font-family="Arial">Обработка</text>
+  <text x="375" y="310" text-anchor="middle" font-size="5" fill="#333" font-family="Arial">ощущений</text>
+
+  <!-- Associative cortex -->
+  <rect x="414" y="284" width="68" height="30" rx="3" fill="#C8E6C9" stroke="#43A047" stroke-width="0.6"/>
+  <text x="448" y="295" text-anchor="middle" font-size="6" font-weight="bold" fill="#1B5E20" font-family="Arial">Ассоциативная</text>
+  <text x="448" y="303" text-anchor="middle" font-size="5" fill="#333" font-family="Arial">Мышление,</text>
+  <text x="448" y="310" text-anchor="middle" font-size="5" fill="#333" font-family="Arial">память, речь</text>
+
+  <!-- Homunculus mini strip on motor cortex area -->
+  <rect x="130" y="240" width="120" height="22" rx="3" fill="white" fill-opacity="0.8" stroke="#880E4F" stroke-width="0.5"/>
+  <text x="190" y="250" text-anchor="middle" font-size="5.5" font-weight="bold" fill="#880E4F" font-family="Arial">Гомункулюс Пенфилда</text>
+  <!-- Mini body parts on strip -->
+  <text x="145" y="259" font-size="5" fill="#C62828" font-family="Arial">Нога</text>
+  <text x="170" y="259" font-size="5" fill="#C62828" font-family="Arial">Тело</text>
+  <text x="195" y="259" font-size="5" fill="#C62828" font-family="Arial">Рука</text>
+  <text x="222" y="259" font-size="5" fill="#C62828" font-family="Arial">Лицо</text>
+  <!-- Arrow showing proportion -->
+  <line x1="143" y1="261" x2="237" y2="261" stroke="#C62828" stroke-width="0.8"/>
+  <polygon points="237,259 237,263 242,261" fill="#C62828"/>
+  <text x="240" y="258" font-size="4" fill="#C62828" font-family="Arial">↑размер</text>
+
+  <!-- Speech areas note -->
+  <rect x="15" y="253" width="112" height="12" rx="2" fill="white" fill-opacity="0.7" stroke="#880E4F" stroke-width="0.4"/>
+  <text x="71" y="262" text-anchor="middle" font-size="5" font-weight="bold" fill="#880E4F" font-family="Arial">Зона Брока — моторная речь</text>
+
+  <!-- Footer bar -->
+  <rect x="2" y="325" width="496" height="23" rx="0 0 12 12" fill="#2E7D32"/>
+  <text x="250" y="340" text-anchor="middle" font-size="8" fill="white" font-family="Arial">Кора больших полушарий — высший отдел ЦНС, обеспечивает сознательную деятельность</text>
+</svg>

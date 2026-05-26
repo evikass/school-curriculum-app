@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFEBEE"/>
+      <stop offset="100%" stop-color="#FFCDD2"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="12"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#B71C1C">Охрана природы</text>
+  <line x1="100" y1="40" x2="400" y2="40" stroke="#E53935" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Red Book -->
+  <g transform="translate(15,50)">
+    <rect x="0" y="0" width="155" height="150" rx="6" fill="white" fill-opacity="0.7" stroke="#C62828" stroke-width="1.2"/>
+    <text x="77" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#B71C1C">Красная книга</text>
+
+    <!-- Book shape -->
+    <rect x="25" y="28" width="105" height="75" rx="3" fill="#F44336" stroke="#B71C1C" stroke-width="1.5"/>
+    <text x="77" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="white">КРАСНАЯ</text>
+    <text x="77" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="white">КНИГА</text>
+    <!-- Silhouette of animal -->
+    <ellipse cx="77" cy="80" rx="12" ry="8" fill="#FFCDD2"/>
+    <ellipse cx="68" cy="76" rx="3" ry="5" fill="#FFCDD2"/>
+
+    <!-- Categories -->
+    <rect x="15" y="110" width="12" height="8" rx="1" fill="#212121"/>
+    <text x="32" y="118" font-family="Arial,sans-serif" font-size="7" fill="#424242">Исчезающие</text>
+
+    <rect x="15" y="122" width="12" height="8" rx="1" fill="#F44336"/>
+    <text x="32" y="130" font-family="Arial,sans-serif" font-size="7" fill="#C62828">Редкие</text>
+
+    <rect x="15" y="134" width="12" height="8" rx="1" fill="#FF9800"/>
+    <text x="32" y="142" font-family="Arial,sans-serif" font-size="7" fill="#E65100">Сокращающиеся</text>
+
+    <rect x="100" y="110" width="12" height="8" rx="1" fill="#FFEB3B"/>
+    <text x="116" y="118" font-family="Arial,sans-serif" font-size="6.5" fill="#F57F17">Неизученные</text>
+
+    <rect x="100" y="122" width="12" height="8" rx="1" fill="#4CAF50"/>
+    <text x="116" y="130" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32">Восстановл.</text>
+  </g>
+
+  <!-- Reserves map of Russia -->
+  <g transform="translate(180,50)">
+    <rect x="0" y="0" width="155" height="150" rx="6" fill="white" fill-opacity="0.7" stroke="#C62828" stroke-width="1.2"/>
+    <text x="77" y="16" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#B71C1C">Заповедники России</text>
+
+    <!-- Simplified Russia outline -->
+    <path d="M25,50 Q40,40 60,42 Q80,38 100,40 Q120,42 140,38 L145,55 Q140,70 130,80 Q120,90 100,95 Q80,100 60,98 Q40,95 30,85 Q20,75 25,50 Z" fill="#FFEBEE" stroke="#C62828" stroke-width="1" opacity="0.5"/>
+
+    <!-- Reserve dots -->
+    <circle cx="55" cy="55" r="3" fill="#4CAF50" stroke="#1B5E20" stroke-width="0.8"/>
+    <text x="62" y="55" font-family="Arial,sans-serif" font-size="6" fill="#B71C1C">Кандалакшский</text>
+
+    <circle cx="80" cy="50" r="3" fill="#4CAF50" stroke="#1B5E20" stroke-width="0.8"/>
+    <text x="87" y="50" font-family="Arial,sans-serif" font-size="6" fill="#B71C1C">Окский</text>
+
+    <circle cx="110" cy="55" r="3" fill="#4CAF50" stroke="#1B5E20" stroke-width="0.8"/>
+    <text x="117" y="55" font-family="Arial,sans-serif" font-size="6" fill="#B71C1C">Байкальский</text>
+
+    <circle cx="50" cy="70" r="3" fill="#4CAF50" stroke="#1B5E20" stroke-width="0.8"/>
+    <text x="57" y="70" font-family="Arial,sans-serif" font-size="6" fill="#B71C1C">Кавказский</text>
+
+    <circle cx="120" cy="70" r="3" fill="#4CAF50" stroke="#1B5E20" stroke-width="0.8"/>
+    <text x="127" y="70" font-family="Arial,sans-serif" font-size="6" fill="#B71C1C">Сихотэ-Алинь</text>
+
+    <circle cx="100" cy="80" r="3" fill="#4CAF50" stroke="#1B5E20" stroke-width="0.8"/>
+    <text x="107" y="80" font-family="Arial,sans-serif" font-size="6" fill="#B71C1C">Алтайский</text>
+
+    <!-- Legend -->
+    <circle cx="20" cy="108" r="3" fill="#4CAF50" stroke="#1B5E20" stroke-width="0.8"/>
+    <text x="28" y="111" font-family="Arial,sans-serif" font-size="7" fill="#B71C1C">Заповедник (строгая охрана)</text>
+    <circle cx="20" cy="122" r="3" fill="#FF9800" stroke="#E65100" stroke-width="0.8"/>
+    <text x="28" y="125" font-family="Arial,sans-serif" font-size="7" fill="#B71C1C">Национальный парк</text>
+    <circle cx="20" cy="136" r="3" fill="#42A5F5" stroke="#1565C0" stroke-width="0.8"/>
+    <text x="28" y="139" font-family="Arial,sans-serif" font-size="7" fill="#B71C1C">Заказник (частичная охрана)</text>
+  </g>
+
+  <!-- Pollution icons -->
+  <g transform="translate(345,50)">
+    <rect x="0" y="0" width="145" height="150" rx="6" fill="white" fill-opacity="0.7" stroke="#C62828" stroke-width="1.2"/>
+    <text x="72" y="16" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#B71C1C">Загрязнение</text>
+
+    <!-- Air pollution -->
+    <g transform="translate(10,25)">
+      <rect x="0" y="5" width="18" height="25" rx="2" fill="#78909C" stroke="#37474F" stroke-width="0.8"/>
+      <ellipse cx="9" cy="5" rx="8" ry="4" fill="#90A4AE"/>
+      <!-- Smoke -->
+      <path d="M5,5 Q3,0 6,-3 Q9,-6 7,-10" fill="none" stroke="#9E9E9E" stroke-width="1.5" opacity="0.7"/>
+      <path d="M13,5 Q15,0 12,-3 Q9,-6 11,-10" fill="none" stroke="#9E9E9E" stroke-width="1.2" opacity="0.5"/>
+      <text x="28" y="15" font-family="Arial,sans-serif" font-size="7" fill="#B71C1C">Атмосферное</text>
+      <text x="28" y="24" font-family="Arial,sans-serif" font-size="6.5" fill="#E53935">CO₂, SO₂, NOₓ</text>
+    </g>
+
+    <!-- Water pollution -->
+    <g transform="translate(10,62)">
+      <path d="M0,10 Q5,7 10,10 Q15,13 20,10" fill="none" stroke="#42A5F5" stroke-width="1.5"/>
+      <path d="M0,16 Q5,13 10,16 Q15,19 20,16" fill="none" stroke="#42A5F5" stroke-width="1.2"/>
+      <!-- Oil drop -->
+      <ellipse cx="10" cy="6" rx="4" ry="3" fill="#37474F" opacity="0.6"/>
+      <text x="28" y="15" font-family="Arial,sans-serif" font-size="7" fill="#B71C1C">Водное</text>
+      <text x="28" y="24" font-family="Arial,sans-serif" font-size="6.5" fill="#E53935">Нефть, тяжёлые</text>
+      <text x="28" y="32" font-family="Arial,sans-serif" font-size="6.5" fill="#E53935">металлы</text>
+    </g>
+
+    <!-- Soil pollution -->
+    <g transform="translate(10,100)">
+      <rect x="0" y="5" width="20" height="12" rx="2" fill="#8D6E63" stroke="#5D4037" stroke-width="0.8"/>
+      <!-- Hazard symbol -->
+      <polygon points="10,7 7,13 13,13" fill="none" stroke="#F44336" stroke-width="1"/>
+      <text x="10" y="12" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#F44336">!</text>
+      <text x="28" y="12" font-family="Arial,sans-serif" font-size="7" fill="#B71C1C">Почвенное</text>
+      <text x="28" y="21" font-family="Arial,sans-serif" font-size="6.5" fill="#E53935">Пестициды,</text>
+      <text x="28" y="29" font-family="Arial,sans-serif" font-size="6.5" fill="#E53935">радиоактивные</text>
+    </g>
+  </g>
+
+  <!-- Conservation measures -->
+  <g transform="translate(15,210)">
+    <rect x="0" y="0" width="470" height="125" rx="6" fill="white" fill-opacity="0.5" stroke="#C62828" stroke-width="1"/>
+    <text x="235" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#B71C1C">Меры охраны природы</text>
+
+    <!-- Measure cards -->
+    <g transform="translate(8,28)">
+      <rect x="0" y="0" width="108" height="50" rx="4" fill="#FFEBEE" stroke="#EF9A9A" stroke-width="0.8"/>
+      <!-- Shield icon -->
+      <path d="M15,8 L15,22 Q15,28 22,30 Q29,28 29,22 L29,8 Z" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.8"/>
+      <text x="22" y="21" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="white" font-weight="bold">✓</text>
+      <text x="54" y="14" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#B71C1C">Заповедники</text>
+      <text x="54" y="24" font-family="Arial,sans-serif" font-size="6.5" fill="#C62828">Полная охрана</text>
+      <text x="54" y="34" font-family="Arial,sans-serif" font-size="6.5" fill="#C62828">природы</text>
+    </g>
+
+    <g transform="translate(125,28)">
+      <rect x="0" y="0" width="108" height="50" rx="4" fill="#FFEBEE" stroke="#EF9A9A" stroke-width="0.8"/>
+      <path d="M15,8 L15,22 Q15,28 22,30 Q29,28 29,22 L29,8 Z" fill="#FF9800" stroke="#E65100" stroke-width="0.8"/>
+      <text x="22" y="21" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="white" font-weight="bold">✓</text>
+      <text x="54" y="14" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#B71C1C">Национальные</text>
+      <text x="54" y="24" font-family="Arial,sans-serif" font-size="6.5" fill="#C62828">парки — туризм</text>
+      <text x="54" y="34" font-family="Arial,sans-serif" font-size="6.5" fill="#C62828">+ охрана</text>
+    </g>
+
+    <g transform="translate(242,28)">
+      <rect x="0" y="0" width="108" height="50" rx="4" fill="#FFEBEE" stroke="#EF9A9A" stroke-width="0.8"/>
+      <path d="M15,8 L15,22 Q15,28 22,30 Q29,28 29,22 L29,8 Z" fill="#42A5F5" stroke="#1565C0" stroke-width="0.8"/>
+      <text x="22" y="21" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="white" font-weight="bold">✓</text>
+      <text x="54" y="14" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#B71C1C">Заказники</text>
+      <text x="54" y="24" font-family="Arial,sans-serif" font-size="6.5" fill="#C62828">Частичная</text>
+      <text x="54" y="34" font-family="Arial,sans-serif" font-size="6.5" fill="#C62828">охрана</text>
+    </g>
+
+    <g transform="translate(359,28)">
+      <rect x="0" y="0" width="108" height="50" rx="4" fill="#FFEBEE" stroke="#EF9A9A" stroke-width="0.8"/>
+      <path d="M15,8 L15,22 Q15,28 22,30 Q29,28 29,22 L29,8 Z" fill="#AB47BC" stroke="#6A1B9A" stroke-width="0.8"/>
+      <text x="22" y="21" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="white" font-weight="bold">✓</text>
+      <text x="54" y="14" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#B71C1C">Красная книга</text>
+      <text x="54" y="24" font-family="Arial,sans-serif" font-size="6.5" fill="#C62828">Учёт редких</text>
+      <text x="54" y="34" font-family="Arial,sans-serif" font-size="6.5" fill="#C62828">видов</text>
+    </g>
+
+    <!-- Key laws -->
+    <rect x="0" y="82" width="460" height="35" rx="4" fill="#FFCDD2" stroke="#EF9A9A" stroke-width="0.8"/>
+    <text x="230" y="96" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#B71C1C">Закон РФ «Об охране окружающей среды» (2002)</text>
+    <text x="230" y="108" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#C62828">Рациональное природопользование • Мониторинг • Экологическая экспертиза • ООПТ</text>
+  </g>
+
+  <text x="480" y="340" text-anchor="end" font-family="Arial,sans-serif" font-size="9" fill="#C62828" opacity="0.6">Урок 40</text>
+</svg>

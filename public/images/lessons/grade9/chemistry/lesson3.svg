@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#0f0f1a"/>
+  <!-- Covalent nonpolar: H-H -->
+  <circle cx="100" cy="80" r="20" fill="#22d3ee" fill-opacity="0.2" stroke="#22d3ee" stroke-width="2"/>
+  <circle cx="140" cy="80" r="20" fill="#22d3ee" fill-opacity="0.2" stroke="#22d3ee" stroke-width="2"/>
+  <!-- Shared electrons -->
+  <circle cx="120" cy="75" r="3" fill="#f59e0b"/>
+  <circle cx="120" cy="85" r="3" fill="#f59e0b"/>
+  <text x="100" y="85" fill="#22d3ee" font-size="11" font-family="serif" text-anchor="middle">H</text>
+  <text x="140" y="85" fill="#22d3ee" font-size="11" font-family="serif" text-anchor="middle">H</text>
+  <text x="120" y="40" fill="#22d3ee" font-size="9" font-family="serif" text-anchor="middle">Ковалентная неполярная</text>
+  <!-- Covalent polar: H-Cl -->
+  <circle cx="100" cy="160" r="20" fill="#22d3ee" fill-opacity="0.15" stroke="#22d3ee" stroke-width="2"/>
+  <circle cx="150" cy="160" r="25" fill="#ec4899" fill-opacity="0.25" stroke="#ec4899" stroke-width="2"/>
+  <circle cx="125" cy="155" r="3" fill="#f59e0b"/>
+  <circle cx="125" cy="165" r="3" fill="#f59e0b"/>
+  <text x="100" y="165" fill="#22d3ee" font-size="11" font-family="serif" text-anchor="middle">H</text>
+  <text x="150" y="165" fill="#ec4899" font-size="11" font-family="serif" text-anchor="middle">Cl</text>
+  <!-- Partial charges -->
+  <text x="80" y="155" fill="#22c55e" font-size="10" font-family="serif">δ⁺</text>
+  <text x="170" y="155" fill="#ef4444" font-size="10" font-family="serif">δ⁻</text>
+  <text x="125" y="200" fill="#ec4899" font-size="9" font-family="serif" text-anchor="middle">Ковалентная полярная</text>
+  <!-- Ionic: Na-Cl -->
+  <circle cx="280" cy="80" r="20" fill="#ef4444" fill-opacity="0.3" stroke="#ef4444" stroke-width="2"/>
+  <circle cx="340" cy="80" r="25" fill="#3b82f6" fill-opacity="0.3" stroke="#3b82f6" stroke-width="2"/>
+  <text x="280" y="75" fill="#ffffff" font-size="10" font-family="serif" text-anchor="middle">Na⁺</text>
+  <text x="340" y="85" fill="#ffffff" font-size="10" font-family="serif" text-anchor="middle">Cl⁻</text>
+  <!-- Electron transfer arrow -->
+  <line x1="295" y1="65" x2="325" y2="65" stroke="#f59e0b" stroke-width="1.5"/>
+  <polygon points="325,62 332,65 325,68" fill="#f59e0b"/>
+  <text x="310" y="55" fill="#f59e0b" font-size="8" font-family="serif">e⁻</text>
+  <text x="310" y="40" fill="#ef4444" font-size="9" font-family="serif" text-anchor="middle">Ионная</text>
+  <!-- Metallic -->
+  <g>
+    <circle cx="310" cy="160" r="12" fill="#6366f1" fill-opacity="0.4" stroke="#6366f1" stroke-width="1.5"/>
+    <circle cx="340" cy="180" r="12" fill="#6366f1" fill-opacity="0.4" stroke="#6366f1" stroke-width="1.5"/>
+    <circle cx="370" cy="160" r="12" fill="#6366f1" fill-opacity="0.4" stroke="#6366f1" stroke-width="1.5"/>
+    <circle cx="400" cy="180" r="12" fill="#6366f1" fill-opacity="0.4" stroke="#6366f1" stroke-width="1.5"/>
+    <!-- Free electrons -->
+    <circle cx="325" cy="150" r="2" fill="#f59e0b"/><circle cx="355" cy="175" r="2" fill="#f59e0b"/>
+    <circle cx="385" cy="150" r="2" fill="#f59e0b"/><circle cx="310" cy="180" r="2" fill="#f59e0b"/>
+    <circle cx="370" cy="190" r="2" fill="#f59e0b"/>
+  </g>
+  <text x="360" y="140" fill="#6366f1" font-size="9" font-family="serif" text-anchor="middle">Металлическая</text>
+  <text x="360" y="210" fill="#f59e0b" font-size="8" font-family="serif" text-anchor="middle">свободные e⁻</text>
+  <!-- Legend -->
+  <rect x="30" y="250" width="440" height="80" rx="6" fill="#1a1a2e" stroke="#6366f1" stroke-width="1"/>
+  <text x="250" y="270" fill="#6366f1" font-size="10" font-family="sans-serif" text-anchor="middle">Типы химической связи:</text>
+  <text x="60" y="290" fill="#22d3ee" font-size="9" font-family="sans-serif">Неполярная: H₂, O₂</text>
+  <text x="60" y="305" fill="#ec4899" font-size="9" font-family="sans-serif">Полярная: HCl, H₂O</text>
+  <text x="60" y="320" fill="#ef4444" font-size="9" font-family="sans-serif">Ионная: NaCl, CaO</text>
+  <text x="280" y="290" fill="#6366f1" font-size="9" font-family="sans-serif">Металлическая: Fe, Cu</text>
+  <text x="280" y="305" fill="#22c55e" font-size="9" font-family="sans-serif">Водородная: H₂O, ДНК</text>
+  <text x="250" y="345" fill="#ffffff" font-size="9" opacity="0.5" text-anchor="middle" font-family="sans-serif">Химическая связь</text>
+</svg>

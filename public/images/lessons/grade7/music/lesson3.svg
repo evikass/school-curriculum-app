@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#1a1a2a"/>
+<ellipse cx="250" cy="130" rx="50" ry="60" fill="#3a2a4a" stroke="#8a6aaa" stroke-width="1.5"/>
+<circle cx="250" cy="85" r="25" fill="#4a3a5a" stroke="#8a6aaa" stroke-width="1"/>
+<circle cx="240" cy="80" r="3" fill="#9a7aba"/>
+<circle cx="260" cy="80" r="3" fill="#9a7aba"/>
+<path d="M242,92 Q250,98 258,92" stroke="#9a7aba" stroke-width="1" fill="none"/>
+<rect x="237" y="110" width="26" height="40" fill="#2a1a3a" rx="2"/>
+<line x1="237" y1="130" x2="263" y2="130" stroke="#5a4a6a" stroke-width="0.5"/>
+<path d="M250,150 L250,200" stroke="#4a3a5a" stroke-width="2"/>
+<line x1="250" y1="165" x2="230" y2="195" stroke="#4a3a5a" stroke-width="1.5"/>
+<line x1="250" y1="165" x2="270" y2="195" stroke="#4a3a5a" stroke-width="1.5"/>
+<text x="250" y="220" font-family="Arial" font-size="8" fill="#AA88CC" text-anchor="middle">М.И. Глинка</text>
+<text x="250" y="232" font-family="Arial" font-size="6" fill="#8866AA" text-anchor="middle">1804—1857</text>
+<rect x="50" y="50" width="120" height="160" fill="#2a1a3a" rx="4" stroke="#6a4a8a" stroke-width="0.8"/>
+<text x="110" y="72" font-family="Arial" font-size="8" fill="#9a7aba" text-anchor="middle" font-weight="bold">Руслан и Людмила</text>
+<rect x="65" y="82" width="90" height="80" fill="#1a0a2a" rx="2"/>
+<polygon points="110,90 90,140 130,140" fill="#6a4a8a" opacity="0.5"/>
+<circle cx="110" cy="120" r="10" fill="#8a6aaa" opacity="0.4"/>
+<path d="M75,170 Q110,160 145,170" stroke="#6a4a8a" stroke-width="1" fill="none" opacity="0.5"/>
+<text x="110" y="185" font-family="Arial" font-size="6" fill="#7a5a9a" text-anchor="middle">Опера</text>
+<rect x="330" y="50" width="120" height="160" fill="#2a1a3a" rx="4" stroke="#6a4a8a" stroke-width="0.8"/>
+<text x="390" y="72" font-family="Arial" font-size="8" fill="#9a7aba" text-anchor="middle" font-weight="bold">Иван Сусанин</text>
+<rect x="345" y="82" width="90" height="80" fill="#1a0a2a" rx="2"/>
+<path d="M365,150 L375,110 L385,140 L395,105 L405,145 L415,115" stroke="#8a6aaa" stroke-width="1.5" fill="none" opacity="0.5"/>
+<polygon points="375,100 380,95 385,100" fill="#6a4a8a" opacity="0.5"/>
+<text x="390" y="185" font-family="Arial" font-size="6" fill="#7a5a9a" text-anchor="middle">Опера</text>
+<rect x="100" y="250" width="300" height="50" fill="#1a1a2a" rx="4" stroke="#5a3a7a" stroke-width="0.5"/>
+<text x="250" y="272" font-family="Arial" font-size="8" fill="#9a7aba" text-anchor="middle">Основоположник русской классической музыки</text>
+<text x="250" y="288" font-family="Arial" font-size="7" fill="#7a5a9a" text-anchor="middle">Создатель национальной оперы и романса</text>
+<text x="250" y="342" font-family="Arial" font-size="9" fill="#AA88CC" text-anchor="middle" opacity="0.5">М.И. Глинка — основоположник русской классики</text>
+</svg>

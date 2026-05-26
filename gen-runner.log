@@ -1,0 +1,9 @@
+Tue May 12 15:11:39 UTC 2026
+Tue May 12 15:11:39 UTC 2026 - Trying lesson 1
+Lesson 1: Урок 1: Моя семья
+Failed to make API request: Error: API request failed with status 429: {"error":"Too many requests, please try again later"}
+    at ZAI.createChatCompletion (file:///home/z/school-curriculum-app/node_modules/z-ai-web-dev-sdk/dist/index.js:100:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async main (file:///home/z/school-curriculum-app/gen-lesson.mjs:32:20)
+ERR: API request failed with status 429: {"error":"Too many requests, please try again later"}
+Tue May 12 15:11:39 UTC 2026 - Lesson 1 FAILED

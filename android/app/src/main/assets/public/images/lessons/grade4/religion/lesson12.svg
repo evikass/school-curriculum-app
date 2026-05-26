@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Background -->
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <!-- Top red accent bar -->
+  <rect width="500" height="8" fill="#C41E3A"/>
+  <!-- Thin gold line under accent -->
+  <rect y="8" width="500" height="2" fill="#D4A843"/>
+  <!-- Title -->
+  <text x="250" y="45" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Семья и традиции</text>
+  <!-- Subtitle -->
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#D4A843">Нравственные ценности</text>
+  <!-- Illustration area -->
+  <rect x="170" y="170" width="160" height="100" rx="3" fill="#DEB887" stroke="#1a1a1a" stroke-width="2"/><polygon points="250,105 170,170 330,170" fill="#8B4513" stroke="#1a1a1a" stroke-width="2"/><rect x="225" y="210" width="50" height="60" fill="#8B6914" stroke="#1a1a1a" stroke-width="1.5"/><circle cx="250" cy="225" r="5" fill="#D4A843"/><rect x="185" y="190" width="25" height="25" rx="2" fill="#87CEEB" stroke="#1a1a1a" stroke-width="1"/><rect x="290" y="190" width="25" height="25" rx="2" fill="#87CEEB" stroke="#1a1a1a" stroke-width="1"/><!-- Family silhouettes --><circle cx="140" cy="155" r="10" fill="#1a1a1a"/><rect x="134" y="165" width="12" height="25" rx="3" fill="#1a1a1a"/><circle cx="170" cy="160" r="8" fill="#1a1a1a"/><rect x="165" y="168" width="10" height="20" rx="2" fill="#1a1a1a"/><circle cx="330" cy="160" r="8" fill="#1a1a1a"/><rect x="325" y="168" width="10" height="20" rx="2" fill="#1a1a1a"/><circle cx="360" cy="155" r="10" fill="#1a1a1a"/><rect x="354" y="165" width="12" height="25" rx="3" fill="#1a1a1a"/><text x="250" y="300" text-anchor="middle" font-size="11" fill="#1a1a1a" font-weight="bold" font-family="Arial">Семья - главная ценность</text>
+  <!-- Bottom dark bar -->
+  <rect y="315" width="500" height="35" fill="#1a1a1a"/>
+  <!-- Gold line above bottom bar -->
+  <rect y="313" width="500" height="2" fill="#D4A843"/>
+  <!-- Subject name -->
+  <text x="250" y="337" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#F5E6C8">Основы духовной культуры</text>
+</svg>

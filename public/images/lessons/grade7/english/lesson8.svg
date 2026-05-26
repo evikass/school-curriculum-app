@@ -1,0 +1,44 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="350" fill="#0d1520"/>
+  <!-- Shield with lock -->
+  <path d="M120,40 L200,25 L280,40 L280,130 Q280,180 200,210 Q120,180 120,130 Z" fill="#1a2a3a" stroke="#4fc3f7" stroke-width="2.5"/>
+  <path d="M130,48 L200,35 L270,48 L270,125 Q270,170 200,198 Q130,170 130,125 Z" fill="#0d1926" stroke="#29b6f6" stroke-width="1"/>
+  <!-- Lock icon -->
+  <rect x="178" y="105" width="44" height="35" rx="4" fill="#4fc3f7" opacity="0.5"/>
+  <path d="M186,105 L186,90 Q186,72 200,72 Q214,72 214,90 L214,105" fill="none" stroke="#4fc3f7" stroke-width="3"/>
+  <!-- Keyhole -->
+  <circle cx="200" cy="118" r="6" fill="#0d1926"/>
+  <rect x="197" y="118" width="6" height="10" fill="#0d1926"/>
+  <text x="165" y="165" font-size="8" fill="#4fc3f7" opacity="0.7">Secure</text>
+  <!-- Password field -->
+  <rect x="50" y="240" width="200" height="30" rx="6" fill="#1a2332" stroke="#546e7a" stroke-width="1.5"/>
+  <text x="60" y="260" font-family="monospace" font-size="12" fill="#4fc3f7">••••••••</text>
+  <text x="60" y="237" font-size="7" fill="#78909c">Password</text>
+  <!-- Warning sign -->
+  <polygon points="360,50 400,120 320,120" fill="none" stroke="#ff9800" stroke-width="2.5"/>
+  <text x="350" y="108" font-size="24" fill="#ff9800">!</text>
+  <text x="325" y="140" font-size="8" fill="#ff9800">Stay Alert!</text>
+  <!-- Warning items -->
+  <rect x="310" y="155" width="160" height="110" rx="6" fill="#1a1210" stroke="#ff9800" stroke-width="1"/>
+  <text x="325" y="175" font-size="9" fill="#ff9800" font-weight="bold">⚠ Online Dangers:</text>
+  <text x="325" y="192" font-size="7" fill="#ffcc80">🎣 Phishing emails</text>
+  <text x="325" y="206" font-size="7" fill="#ffcc80">🔓 Weak passwords</text>
+  <text x="325" y="220" font-size="7" fill="#ffcc80">👤 Stranger danger</text>
+  <text x="325" y="234" font-size="7" fill="#ffcc80">📱 Sharing personal info</text>
+  <text x="325" y="248" font-size="7" fill="#ffcc80">🦠 Malware &amp; viruses</text>
+  <!-- Secure connection padlock in browser -->
+  <rect x="50" y="155" width="200" height="60" rx="6" fill="#1a2332" stroke="#4caf50" stroke-width="1.5"/>
+  <!-- Browser bar -->
+  <rect x="55" y="160" width="190" height="16" rx="3" fill="#263238"/>
+  <circle cx="66" cy="168" r="3" fill="#4caf50"/>
+  <text x="74" y="172" font-size="7" fill="#4caf50">https://</text>
+  <text x="105" y="172" font-size="7" fill="#81c784">safe-site.com</text>
+  <!-- Secure connection text -->
+  <text x="60" y="192" font-size="7" fill="#81c784">🔒 Connection is secure</text>
+  <text x="60" y="204" font-size="7" fill="#66bb6a" opacity="0.6">Certificate valid ✓</text>
+  <!-- Safety tips -->
+  <rect x="30" y="285" width="440" height="40" rx="6" fill="#1a2332" stroke="#4fc3f7" stroke-width="1"/>
+  <text x="45" y="303" font-size="8" fill="#4fc3f7" font-weight="bold">Internet Safety Rules:</text>
+  <text x="45" y="318" font-size="7" fill="#81d4fa">Use strong passwords • Never share personal info • Think before you click • Tell an adult if worried</text>
+  <text x="200" y="340" font-size="9" fill="#fff" opacity="0.5">Internet Safety</text>
+</svg>

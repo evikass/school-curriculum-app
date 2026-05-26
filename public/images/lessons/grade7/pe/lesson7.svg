@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#E3F2FD"/>
+<rect x="0" y="180" width="500" height="170" fill="#E8E8F0"/>
+<circle cx="400" cy="50" r="25" fill="#FFF9C4" opacity="0.7"/>
+<path d="M0,180 Q50,175 100,180 Q150,178 200,182 Q250,176 300,180 Q350,178 400,182 Q450,176 500,180" stroke="#B0BEC5" stroke-width="0.5" fill="none"/>
+<path d="M0,200 Q50,195 100,200 Q150,198 200,202 Q250,196 300,200 Q350,198 400,202 Q450,196 500,200" stroke="#B0BEC5" stroke-width="0.3" fill="none"/>
+<circle cx="180" cy="130" r="10" fill="#42A5F5"/>
+<line x1="180" y1="140" x2="180" y2="185" stroke="#42A5F5" stroke-width="2.5"/>
+<line x1="180" y1="155" x2="158" y2="175" stroke="#42A5F5" stroke-width="2"/>
+<line x1="180" y1="155" x2="202" y2="170" stroke="#42A5F5" stroke-width="2"/>
+<line x1="180" y1="185" x2="165" y2="215" stroke="#42A5F5" stroke-width="2.5"/>
+<line x1="180" y1="185" x2="198" y2="212" stroke="#42A5F5" stroke-width="2.5"/>
+<line x1="158" y1="175" x2="148" y2="195" stroke="#5D4037" stroke-width="1.5"/>
+<line x1="202" y1="170" x2="212" y2="190" stroke="#5D4037" stroke-width="1.5"/>
+<circle cx="148" cy="198" r="2" fill="#5D4037"/>
+<circle cx="212" cy="193" r="2" fill="#5D4037"/>
+<path d="M165,215 L160,235" stroke="#42A5F5" stroke-width="1.5"/>
+<path d="M198,212 L205,232" stroke="#42A5F5" stroke-width="1.5"/>
+<line x1="140" y1="235" x2="220" y2="232" stroke="#90CAF9" stroke-width="0.5" opacity="0.4"/>
+<path d="M130,240 Q150,238 170,242 Q190,236 210,240 Q230,238 250,242 Q270,236 290,240 Q310,238 330,242 Q350,236 370,240 Q390,238 410,242 Q430,236 450,240 Q470,238 490,242" stroke="#90CAF9" stroke-width="1.5" fill="none" opacity="0.4"/>
+<rect x="300" y="60" width="160" height="90" fill="#E8F0F8" rx="6" stroke="#64B5F6" stroke-width="0.8"/>
+<text x="380" y="80" font-family="Arial" font-size="8" fill="#1565C0" text-anchor="middle" font-weight="bold">Лыжные ходы</text>
+<rect x="315" y="90" width="55" height="18" fill="#BBDEFB" rx="3"/>
+<text x="342" y="103" font-family="Arial" font-size="7" fill="#1565C0" text-anchor="middle">Поперем.</text>
+<rect x="380" y="90" width="65" height="18" fill="#BBDEFB" rx="3"/>
+<text x="412" y="103" font-family="Arial" font-size="7" fill="#1565C0" text-anchor="middle">Одноврем.</text>
+<text x="380" y="125" font-family="Arial" font-size="7" fill="#42A5F5" text-anchor="middle">Классический • Коньковый</text>
+<text x="380" y="140" font-family="Arial" font-size="7" fill="#42A5F5" text-anchor="middle">Попеременный двухшажный</text>
+<path d="M50,100 Q55,90 60,100 Q65,85 70,100" stroke="#64B5F6" stroke-width="1" fill="none" opacity="0.3"/>
+<path d="M50,115 Q55,105 60,115 Q65,100 70,115" stroke="#90CAF9" stroke-width="0.8" fill="none" opacity="0.25"/>
+<text x="250" y="342" font-family="Arial" font-size="9" fill="#1565C0" text-anchor="middle" opacity="0.5">Лыжные ходы</text>
+</svg>

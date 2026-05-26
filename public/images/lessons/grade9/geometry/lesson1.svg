@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#0f0f1a"/>
+  <defs>
+    <marker id="arr1" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0,10 3.5,0 7" fill="#22d3ee"/>
+    </marker>
+    <marker id="arr2" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0,10 3.5,0 7" fill="#f59e0b"/>
+    </marker>
+    <marker id="arr3" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0,10 3.5,0 7" fill="#ec4899"/>
+    </marker>
+  </defs>
+  <!-- Vector AB -->
+  <line x1="60" y1="200" x2="200" y2="80" stroke="#22d3ee" stroke-width="3" marker-end="url(#arr1)"/>
+  <circle cx="60" cy="200" r="4" fill="#22d3ee"/>
+  <text x="45" y="215" fill="#22d3ee" font-size="12" font-family="serif">A</text>
+  <text x="205" y="75" fill="#22d3ee" font-size="12" font-family="serif">B</text>
+  <text x="110" y="130" fill="#22d3ee" font-size="12" font-family="serif">a⃗</text>
+  <!-- Collinear vectors -->
+  <line x1="280" y1="100" x2="420" y2="100" stroke="#f59e0b" stroke-width="2.5" marker-end="url(#arr2)"/>
+  <line x1="280" y1="130" x2="420" y2="130" stroke="#f59e0b" stroke-width="2.5" marker-end="url(#arr2)"/>
+  <text x="440" y="105" fill="#f59e0b" font-size="10" font-family="serif">b⃗</text>
+  <text x="440" y="135" fill="#f59e0b" font-size="10" font-family="serif">c⃗</text>
+  <text x="350" y="85" fill="#9ca3af" font-size="10" font-family="serif">Коллинеарные</text>
+  <!-- Opposite vectors -->
+  <line x1="60" y1="290" x2="180" y2="290" stroke="#ec4899" stroke-width="2.5" marker-end="url(#arr3)"/>
+  <line x1="180" y1="310" x2="60" y2="310" stroke="#ec4899" stroke-width="2.5" marker-end="url(#arr3)"/>
+  <text x="120" y="285" fill="#ec4899" font-size="10" font-family="serif">d⃗</text>
+  <text x="120" y="330" fill="#ec4899" font-size="10" font-family="serif">−d⃗</text>
+  <!-- Zero vector -->
+  <circle cx="300" cy="300" r="5" fill="#6366f1"/>
+  <text x="310" y="305" fill="#6366f1" font-size="11" font-family="serif">0⃗</text>
+  <!-- Labels -->
+  <text x="250" y="40" fill="#ffffff" font-size="14" font-family="serif" text-anchor="middle">Понятие вектора</text>
+  <text x="250" y="60" fill="#9ca3af" font-size="11" font-family="serif" text-anchor="middle">|a⃗| — модуль (длина) вектора</text>
+  <text x="250" y="345" fill="#ffffff" font-size="9" opacity="0.5" text-anchor="middle" font-family="sans-serif">Векторы</text>
+</svg>

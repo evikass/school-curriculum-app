@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes sway { 0%, 100% { transform: rotate(-3deg); } 50% { transform: rotate(3deg); } }
+      @keyframes dance { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(10px); } }
+      @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); } }
+      @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+      .sway { animation: sway 2s ease-in-out infinite; transform-origin: bottom center; }
+      .dance { animation: dance 1.5s ease-in-out infinite; }
+      .pulse { animation: pulse 1.8s ease-in-out infinite; }
+      .float { animation: float 2s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="500" height="350" fill="#FCE4EC"/>
+  
+  <!-- 标题 -->
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#C2185B">🎵 Урок 3: Народные песни 🪆</text>
+  
+  <!-- 俄罗斯套娃 -->
+  <g class="sway">
+    <ellipse cx="80" cy="250" rx="35" ry="50" fill="#E53935"/>
+    <ellipse cx="80" cy="200" r="25" fill="#FFECB3"/>
+    <circle cx="72" cy="195" r="4" fill="#5D4037"/>
+    <circle cx="88" cy="195" r="4" fill="#5D4037"/>
+    <ellipse cx="80" cy="210" rx="8" ry="4" fill="#E91E63"/>
+    <path d="M60 180 Q80 165 100 180" stroke="#FFD54F" stroke-width="8" fill="none"/>
+    <ellipse cx="80" cy="230" rx="25" ry="15" fill="#FFD54F"/>
+  </g>
+  
+  <g class="sway" style="animation-delay: 0.5s">
+    <ellipse cx="150" cy="260" rx="28" ry="40" fill="#1976D2"/>
+    <ellipse cx="150" cy="220" r="20" fill="#FFECB3"/>
+    <circle cx="143" cy="216" r="3" fill="#5D4037"/>
+    <circle cx="157" cy="216" r="3" fill="#5D4037"/>
+    <ellipse cx="150" cy="228" rx="6" ry="3" fill="#E91E63"/>
+    <ellipse cx="150" cy="245" rx="20" ry="12" fill="#FFD54F"/>
+  </g>
+  
+  <!-- 穿民族服装的人 -->
+  <g class="dance">
+    <ellipse cx="280" cy="200" rx="40" ry="55" fill="#E91E63"/>
+    <ellipse cx="280" cy="230" rx="50" ry="20" fill="#AD1457"/>
+    <circle cx="280" cy="140" r="25" fill="#FFCC80"/>
+    <circle cx="272" cy="135" r="4" fill="#5D4037"/>
+    <circle cx="288" cy="135" r="4" fill="#5D4037"/>
+    <path d="M270 150 Q280 160 290 150" stroke="#5D4037" stroke-width="2" fill="none"/>
+    <path d="M255 115 Q280 100 305 115" stroke="#5D4037" stroke-width="3" fill="none"/>
+    <ellipse cx="280" cy="105" rx="15" ry="8" fill="#E91E63"/>
+  </g>
+  
+  <!-- 手风琴 -->
+  <g class="pulse">
+    <rect x="340" y="180" width="60" height="80" rx="5" fill="#795548"/>
+    <rect x="350" y="190" width="40" height="60" fill="#A1887F"/>
+    <line x1="355" y1="200" x2="385" y2="200" stroke="#5D4037" stroke-width="2"/>
+    <line x1="355" y1="210" x2="385" y2="210" stroke="#5D4037" stroke-width="2"/>
+    <line x1="355" y1="220" x2="385" y2="220" stroke="#5D4037" stroke-width="2"/>
+    <line x1="355" y1="230" x2="385" y2="230" stroke="#5D4037" stroke-width="2"/>
+    <line x1="355" y1="240" x2="385" y2="240" stroke="#5D4037" stroke-width="2"/>
+  </g>
+  
+  <!-- 音符 -->
+  <g class="float">
+    <ellipse cx="420" cy="100" rx="10" ry="7" fill="#C2185B"/>
+    <rect x="428" y="60" width="3" height="40" fill="#C2185B"/>
+  </g>
+  <g class="float" style="animation-delay: 0.3s">
+    <ellipse cx="450" cy="120" rx="10" ry="7" fill="#E91E63"/>
+    <rect x="458" y="80" width="3" height="40" fill="#E91E63"/>
+  </g>
+  
+  <!-- 装饰花纹 -->
+  <path d="M50 280 Q100 260 150 280 Q200 300 250 280 Q300 260 350 280 Q400 300 450 280" stroke="#C2185B" stroke-width="3" fill="none"/>
+  
+  <!-- 歌曲示例 -->
+  <rect x="50" y="295" width="400" height="25" rx="5" fill="#F8BBD9"/>
+  <text x="250" y="313" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#C2185B">"Во поле берёза стояла" 🌳 "Калинка" 🍒</text>
+  
+  <!-- 教学提示 -->
+  <rect x="50" y="325" width="400" height="20" rx="5" fill="#FCE4EC"/>
+  <text x="250" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#C2185B">🪆 Народные песни — душа народа!</text>
+</svg>

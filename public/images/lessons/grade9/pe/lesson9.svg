@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg9" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFC107;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#FFD54F;stop-opacity:0.06"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="#1a1a2e"/>
+  <rect width="500" height="350" fill="url(#bg9)"/>
+  <!-- Court -->
+  <rect x="30" y="60" width="440" height="220" fill="none" stroke="#FFC107" stroke-width="2" opacity="0.3"/>
+  <line x1="250" y1="60" x2="250" y2="280" stroke="#FFC107" stroke-width="1" opacity="0.25" stroke-dasharray="5,5"/>
+  <!-- Net -->
+  <rect x="245" y="40" width="10" height="150" fill="#FFD54F" opacity="0.15"/>
+  <line x1="250" y1="40" x2="250" y2="190" stroke="#FFD54F" stroke-width="3" opacity="0.6"/>
+  <line x1="240" y1="50" x2="260" y2="50" stroke="#FFD54F" stroke-width="1" opacity="0.3"/>
+  <line x1="240" y1="70" x2="260" y2="70" stroke="#FFD54F" stroke-width="1" opacity="0.3"/>
+  <line x1="240" y1="90" x2="260" y2="90" stroke="#FFD54F" stroke-width="1" opacity="0.3"/>
+  <line x1="240" y1="110" x2="260" y2="110" stroke="#FFD54F" stroke-width="1" opacity="0.3"/>
+  <line x1="240" y1="130" x2="260" y2="130" stroke="#FFD54F" stroke-width="1" opacity="0.3"/>
+  <line x1="240" y1="150" x2="260" y2="150" stroke="#FFD54F" stroke-width="1" opacity="0.3"/>
+  <line x1="240" y1="170" x2="260" y2="170" stroke="#FFD54F" stroke-width="1" opacity="0.3"/>
+  <!-- Net posts -->
+  <rect x="244" y="40" width="4" height="155" fill="#FFC107" opacity="0.5"/>
+  <rect x="254" y="40" width="4" height="155" fill="#FFC107" opacity="0.5"/>
+  <!-- Volleyball -->
+  <circle cx="250" cy="25" r="16" fill="none" stroke="#FFD54F" stroke-width="2"/>
+  <path d="M237,18 Q250,25 263,18" fill="none" stroke="#FFD54F" stroke-width="1.2"/>
+  <path d="M237,32 Q250,25 263,32" fill="none" stroke="#FFD54F" stroke-width="1.2"/>
+  <!-- Players (dots) -->
+  <circle cx="100" cy="130" r="6" fill="#FFC107" opacity="0.6"/>
+  <circle cx="140" cy="170" r="6" fill="#FFC107" opacity="0.6"/>
+  <circle cx="180" cy="120" r="6" fill="#FFC107" opacity="0.6"/>
+  <circle cx="160" cy="200" r="6" fill="#FFC107" opacity="0.6"/>
+  <circle cx="120" cy="220" r="6" fill="#FFC107" opacity="0.6"/>
+  <circle cx="180" cy="240" r="6" fill="#FFC107" opacity="0.5"/>
+  <circle cx="350" cy="130" r="6" fill="#FFD54F" opacity="0.6"/>
+  <circle cx="370" cy="170" r="6" fill="#FFD54F" opacity="0.6"/>
+  <circle cx="330" cy="120" r="6" fill="#FFD54F" opacity="0.6"/>
+  <circle cx="340" cy="200" r="6" fill="#FFD54F" opacity="0.6"/>
+  <circle cx="380" cy="220" r="6" fill="#FFD54F" opacity="0.6"/>
+  <circle cx="320" cy="240" r="6" fill="#FFD54F" opacity="0.5"/>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#aaa" opacity="0.5" font-family="sans-serif">Волейбол</text>
+</svg>

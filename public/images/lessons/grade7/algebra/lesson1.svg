@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#F8F4FF"/>
+<!-- Numerical expressions with operations -->
+<text x="80" y="80" font-family="serif" font-size="42" fill="#4A148C" font-weight="bold">(</text>
+<text x="96" y="80" font-family="monospace" font-size="28" fill="#6A1B9A">3</text>
+<text x="120" y="80" font-family="monospace" font-size="28" fill="#E65100">+</text>
+<text x="145" y="80" font-family="monospace" font-size="28" fill="#6A1B9A">5</text>
+<text x="163" y="80" font-family="serif" font-size="42" fill="#4A148C" font-weight="bold">)</text>
+<text x="188" y="80" font-family="monospace" font-size="28" fill="#E65100">×</text>
+<text x="215" y="80" font-family="monospace" font-size="28" fill="#6A1B9A">2</text>
+<text x="243" y="80" font-family="monospace" font-size="28" fill="#E65100">=</text>
+<text x="278" y="80" font-family="monospace" font-size="28" fill="#1B5E20">16</text>
+<!-- Step arrows -->
+<path d="M90 92 L90 120 L200 120" stroke="#7B1FA2" stroke-width="1.5" fill="none" stroke-dasharray="4,3"/>
+<text x="205" y="125" font-family="sans-serif" font-size="11" fill="#7B1FA2">сначала скобки: 3+5=8</text>
+<path d="M220 92 L220 140 L340 140" stroke="#7B1FA2" stroke-width="1.5" fill="none" stroke-dasharray="4,3"/>
+<text x="345" y="145" font-family="sans-serif" font-size="11" fill="#7B1FA2">затем × : 8×2=16</text>
+<!-- Second expression -->
+<rect x="40" y="170" width="420" height="60" rx="10" fill="#EDE7F6" opacity="0.7"/>
+<text x="60" y="210" font-family="monospace" font-size="24" fill="#4A148C">24 ÷ (6 − 2) + 7 =</text>
+<text x="330" y="210" font-family="monospace" font-size="24" fill="#1B5E20">13</text>
+<!-- Operation order reminder -->
+<circle cx="80" cy="290" r="22" fill="#7B1FA2"/>
+<text x="80" y="296" font-family="sans-serif" font-size="14" fill="white" text-anchor="middle">1</text>
+<text x="110" y="296" font-family="sans-serif" font-size="13" fill="#4A148C">Скобки</text>
+<circle cx="190" cy="290" r="22" fill="#9C27B0"/>
+<text x="190" y="296" font-family="sans-serif" font-size="14" fill="white" text-anchor="middle">2</text>
+<text x="220" y="296" font-family="sans-serif" font-size="13" fill="#4A148C">Умн./Дел.</text>
+<circle cx="320" cy="290" r="22" fill="#BA68C8"/>
+<text x="320" y="296" font-family="sans-serif" font-size="14" fill="white" text-anchor="middle">3</text>
+<text x="350" y="296" font-family="sans-serif" font-size="13" fill="#4A148C">Слож./Выч.</text>
+<!-- Decorative math symbols -->
+<text x="420" y="50" font-family="serif" font-size="60" fill="#EDE7F6" opacity="0.5">∑</text>
+<text x="440" y="300" font-family="serif" font-size="50" fill="#EDE7F6" opacity="0.5">∞</text>
+<text x="250" y="345" font-family="sans-serif" font-size="9" fill="#4A148C" opacity="0.5" text-anchor="middle">Числовые выражения</text>
+</svg>

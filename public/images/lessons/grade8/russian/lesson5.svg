@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="introBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F3E5F5"/>
+      <stop offset="100%" stop-color="#E1BEE7"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#introBg)"/>
+  <text x="250" y="28" font-family="Georgia" font-size="14" fill="#6A1B9A" text-anchor="middle" font-weight="bold">Вводные слова и предложения</text>
+  <!-- Main sentence -->
+  <rect x="20" y="45" width="460" height="40" rx="8" fill="#FFF" opacity="0.8"/>
+  <text x="250" y="71" font-family="Georgia" font-size="14" fill="#333" text-anchor="middle">
+    К счастью,
+    <tspan fill="#6A1B9A" font-weight="bold">погода была отличной</tspan>.
+  </text>
+  <!-- "К счастью" highlighted separately -->
+  <g transform="translate(110,110)">
+    <rect x="-40" y="-15" width="80" height="28" rx="12" fill="#6A1B9A" opacity="0.2" stroke="#6A1B9A" stroke-width="2" stroke-dasharray="4,2"/>
+    <text x="0" y="4" font-family="Georgia" font-size="11" fill="#6A1B9A" text-anchor="middle" font-style="italic">К счастью</text>
+    <text x="0" y="28" font-family="Arial" font-size="8" fill="#999" text-anchor="middle">вводное слово</text>
+  </g>
+  <!-- Arrow showing it's separate -->
+  <path d="M160,108 Q200,95 230,95" stroke="#6A1B9A" stroke-width="1.5" fill="none" stroke-dasharray="3,2"/>
+  <!-- Categories of introductory words -->
+  <!-- Category 1: Уверенность -->
+  <rect x="20" y="155" width="145" height="80" rx="8" fill="#FFF" stroke="#2E7D32" stroke-width="1.5"/>
+  <text x="92" y="173" font-family="Georgia" font-size="10" fill="#2E7D32" text-anchor="middle" font-weight="bold">Уверенность</text>
+  <g font-family="Arial" font-size="9" fill="#555" text-anchor="middle">
+    <text x="92" y="190">конечно</text><text x="92" y="203">несомненно</text>
+    <text x="92" y="216">безусловно</text>
+  </g>
+  <!-- Category 2: Неуверенность -->
+  <rect x="180" y="155" width="145" height="80" rx="8" fill="#FFF" stroke="#FF6F00" stroke-width="1.5"/>
+  <text x="252" y="173" font-family="Georgia" font-size="10" fill="#FF6F00" text-anchor="middle" font-weight="bold">Неуверенность</text>
+  <g font-family="Arial" font-size="9" fill="#555" text-anchor="middle">
+    <text x="252" y="190">кажется</text><text x="252" y="203">вероятно</text>
+    <text x="252" y="216">может быть</text>
+  </g>
+  <!-- Category 3: Чувства -->
+  <rect x="340" y="155" width="145" height="80" rx="8" fill="#FFF" stroke="#D32F2F" stroke-width="1.5"/>
+  <text x="412" y="173" font-family="Georgia" font-size="10" fill="#D32F2F" text-anchor="middle" font-weight="bold">Чувства</text>
+  <g font-family="Arial" font-size="9" fill="#555" text-anchor="middle">
+    <text x="412" y="190">к счастью</text><text x="412" y="203">к сожалению</text>
+    <text x="412" y="216">к удивлению</text>
+  </g>
+  <!-- Category 4: Порядок мыслей -->
+  <rect x="20" y="245" width="145" height="60" rx="8" fill="#FFF" stroke="#1565C0" stroke-width="1.5"/>
+  <text x="92" y="265" font-family="Georgia" font-size="10" fill="#1565C0" text-anchor="middle" font-weight="bold">Порядок мыслей</text>
+  <g font-family="Arial" font-size="9" fill="#555" text-anchor="middle">
+    <text x="92" y="282">во-первых, итак,</text><text x="92" y="295">наконец, значит</text>
+  </g>
+  <!-- Category 5: Источник -->
+  <rect x="180" y="245" width="145" height="60" rx="8" fill="#FFF" stroke="#795548" stroke-width="1.5"/>
+  <text x="252" y="265" font-family="Georgia" font-size="10" fill="#795548" text-anchor="middle" font-weight="bold">Источник речи</text>
+  <g font-family="Arial" font-size="9" fill="#555" text-anchor="middle">
+    <text x="252" y="282">по словам,</text><text x="252" y="295">по мнению</text>
+  </g>
+  <!-- Category 6: Способ -->
+  <rect x="340" y="245" width="145" height="60" rx="8" fill="#FFF" stroke="#00695C" stroke-width="1.5"/>
+  <text x="412" y="265" font-family="Georgia" font-size="10" fill="#00695C" text-anchor="middle" font-weight="bold">Способ выражения</text>
+  <g font-family="Arial" font-size="9" fill="#555" text-anchor="middle">
+    <text x="412" y="282">иными словами,</text><text x="412" y="295">скажем, например</text>
+  </g>
+  <text x="250" y="345" font-family="Arial" font-size="9" fill="#000" opacity="0.5" text-anchor="middle">Вводные слова и предложения</text>
+</svg>

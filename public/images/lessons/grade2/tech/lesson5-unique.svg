@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#F1F8E9" rx="12"/>
+<text x="250" y="28" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#33691E">Поделки из шишек</text>
+<ellipse cx="250" cy="310" rx="200" ry="18" fill="#A5D6A7" opacity="0.5"/>
+<ellipse cx="180" cy="190" rx="50" ry="38" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+<path d="M-28,175 Q-18,165 -8,175" stroke="#5D4037" stroke-width="1.5" fill="none" transform="translate(180,190)"/>
+<path d="M-12,170 Q0,160 12,170" stroke="#5D4037" stroke-width="1.5" fill="none" transform="translate(180,190)"/>
+<path d="M5,175 Q15,165 25,175" stroke="#5D4037" stroke-width="1.5" fill="none" transform="translate(180,190)"/>
+<path d="M-22,190 Q-12,180 0,190" stroke="#5D4037" stroke-width="1.5" fill="none" transform="translate(180,190)"/>
+<path d="M-5,185 Q5,175 15,185" stroke="#5D4037" stroke-width="1.5" fill="none" transform="translate(180,190)"/>
+<path d="M8,190 Q18,180 28,190" stroke="#5D4037" stroke-width="1.5" fill="none" transform="translate(180,190)"/>
+<line x1="140" y1="180" x2="125" y2="165" stroke="#4E342E" stroke-width="2" stroke-linecap="round"/>
+<line x1="148" y1="172" x2="138" y2="155" stroke="#4E342E" stroke-width="2" stroke-linecap="round"/>
+<line x1="158" y1="168" x2="150" y2="150" stroke="#4E342E" stroke-width="2" stroke-linecap="round"/>
+<line x1="170" y1="166" x2="166" y2="148" stroke="#4E342E" stroke-width="2" stroke-linecap="round"/>
+<line x1="183" y1="165" x2="183" y2="147" stroke="#4E342E" stroke-width="2" stroke-linecap="round"/>
+<line x1="195" y1="166" x2="200" y2="148" stroke="#4E342E" stroke-width="2" stroke-linecap="round"/>
+<line x1="207" y1="172" x2="216" y2="155" stroke="#4E342E" stroke-width="2" stroke-linecap="round"/>
+<line x1="215" y1="180" x2="228" y2="165" stroke="#4E342E" stroke-width="2" stroke-linecap="round"/>
+<ellipse cx="130" cy="195" rx="20" ry="16" fill="#FFCC80" stroke="#E65100" stroke-width="1.5"/>
+<circle cx="125" cy="192" r="2.5" fill="#1B5E20"/>
+<circle cx="118" cy="195" r="3.5" fill="#4E342E"/>
+<path d="M126,198 Q130,202 134,198" stroke="#5D4037" stroke-width="1.2" fill="none"/>
+<ellipse cx="165" cy="225" rx="7" ry="4" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+<ellipse cx="200" cy="225" rx="7" ry="4" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+<g transform="translate(380,218)">
+<ellipse cx="0" cy="12" rx="10" ry="14" fill="#8D6E63" stroke="#5D4037" stroke-width="1.5"/>
+<rect x="-12" y="-2" width="24" height="8" fill="#795548" stroke="#4E342E" stroke-width="1.5" rx="3"/>
+<line x1="0" y1="-2" x2="0" y2="-10" stroke="#4E342E" stroke-width="2" stroke-linecap="round"/>
+</g>
+<g transform="translate(60,195) rotate(-20)">
+<path d="M0,0 Q12,-25 0,-50 Q-12,-25 0,0Z" fill="#FF8F00" stroke="#E65100" stroke-width="1.5"/>
+<line x1="0" y1="0" x2="0" y2="-50" stroke="#E65100" stroke-width="1"/>
+</g>
+<g transform="translate(420,140) rotate(15)">
+<path d="M0,0 Q10,-20 0,-42 Q-10,-20 0,0Z" fill="#F44336" stroke="#C62828" stroke-width="1.5"/>
+<line x1="0" y1="0" x2="0" y2="-42" stroke="#C62828" stroke-width="1"/>
+</g>
+<g transform="translate(80,270)">
+<ellipse cx="0" cy="0" rx="12" ry="18" fill="#8D6E63" stroke="#5D4037" stroke-width="1.5"/>
+</g>
+<text x="250" y="340" text-anchor="middle" font-size="11" fill="#33691E" font-family="sans-serif">Шишки — отличный материал для поделок</text>
+</svg>

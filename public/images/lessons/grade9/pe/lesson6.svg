@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2196F3;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#64B5F6;stop-opacity:0.06"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="#1a1a2e"/>
+  <rect width="500" height="350" fill="url(#bg6)"/>
+  <!-- Soccer ball -->
+  <circle cx="80" cy="80" r="30" fill="none" stroke="#64B5F6" stroke-width="2"/>
+  <path d="M80,50 L95,62 L90,80 L70,80 L65,62Z" fill="#2196F3" opacity="0.3"/>
+  <path d="M55,72 L65,62" fill="none" stroke="#64B5F6" stroke-width="1"/>
+  <path d="M105,72 L95,62" fill="none" stroke="#64B5F6" stroke-width="1"/>
+  <!-- Basketball -->
+  <circle cx="200" cy="80" r="28" fill="#E65100" opacity="0.3" stroke="#FF8A65" stroke-width="2"/>
+  <path d="M172,80 L228,80" fill="none" stroke="#FF8A65" stroke-width="1.5"/>
+  <path d="M200,52 L200,108" fill="none" stroke="#FF8A65" stroke-width="1.5"/>
+  <path d="M178,58 Q200,80 222,58" fill="none" stroke="#FF8A65" stroke-width="1"/>
+  <!-- Volleyball -->
+  <circle cx="320" cy="80" r="26" fill="none" stroke="#FFD54F" stroke-width="2"/>
+  <path d="M296,65 Q320,80 344,65" fill="none" stroke="#FFD54F" stroke-width="1.5"/>
+  <path d="M296,95 Q320,80 344,95" fill="none" stroke="#FFD54F" stroke-width="1.5"/>
+  <path d="M305,58 Q320,80 305,102" fill="none" stroke="#FFD54F" stroke-width="1"/>
+  <!-- Court lines -->
+  <rect x="50" y="160" width="180" height="120" fill="none" stroke="#64B5F6" stroke-width="1.5" opacity="0.4" rx="3"/>
+  <line x1="140" y1="160" x2="140" y2="280" stroke="#64B5F6" stroke-width="1" opacity="0.3"/>
+  <circle cx="140" cy="220" r="25" fill="none" stroke="#64B5F6" stroke-width="1" opacity="0.3"/>
+  <!-- Net -->
+  <g transform="translate(290,155)">
+    <rect x="0" y="0" width="160" height="4" fill="#FFD54F" opacity="0.6"/>
+    <rect x="0" y="0" width="4" height="70" fill="#FFD54F" opacity="0.4"/>
+    <rect x="156" y="0" width="4" height="70" fill="#FFD54F" opacity="0.4"/>
+    <line x1="4" y1="20" x2="156" y2="20" stroke="#FFD54F" stroke-width="0.5" opacity="0.2"/>
+    <line x1="4" y1="40" x2="156" y2="40" stroke="#FFD54F" stroke-width="0.5" opacity="0.2"/>
+  </g>
+  <!-- Medals -->
+  <circle cx="420" cy="260" r="15" fill="#FFD54F" opacity="0.6"/>
+  <circle cx="450" cy="275" r="13" fill="#C0C0C0" opacity="0.5"/>
+  <circle cx="395" cy="275" r="13" fill="#CD7F32" opacity="0.5"/>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#aaa" opacity="0.5" font-family="sans-serif">Спортивные игры</text>
+</svg>

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1565C0"/>
+      <stop offset="100%" stop-color="#1976D2"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+  <text x="250" y="28" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1565C0" text-anchor="middle">Третий закон Ньютона</text>
+  <text x="250" y="44" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Физика 10 класс — Урок 13</text>
+  <line x1="30" y1="52" x2="470" y2="52" stroke="#1565C0" stroke-width="1.5" opacity="0.25"/>
+  <clipPath id="ill"><rect x="15" y="56" width="470" height="238" rx="6"/></clipPath>
+  <g clip-path="url(#ill)">
+    <rect x="15" y="56" width="470" height="238" fill="#E3F2FD" opacity="0.4"/>
+
+    <!-- Two interacting bodies -->
+    <rect x="25" y="62" width="450" height="130" rx="5" fill="white" stroke="#1565C0" stroke-width="1.2"/>
+    <text x="250" y="78" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" font-weight="bold" text-anchor="middle">Третий закон Ньютона: F1 = -F2</text>
+
+    <!-- Body 1 -->
+    <rect x="120" y="105" width="55" height="40" rx="5" fill="#E53935" opacity="0.8"/>
+    <text x="147" y="130" font-family="Arial,sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="bold">m1</text>
+
+    <!-- Body 2 -->
+    <rect x="320" y="105" width="55" height="40" rx="5" fill="#1565C0" opacity="0.8"/>
+    <text x="347" y="130" font-family="Arial,sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="bold">m2</text>
+
+    <!-- F12: force on body 1 from body 2 (leftward) -->
+    <line x1="175" y1="118" x2="124.0" y2="118.0" stroke="#E53935" stroke-width="2.5"/>
+    <polygon points="120,118 128.0,114.8 128.0,121.2" fill="#E53935"/>
+    <text x="145" y="112" font-family="Arial,sans-serif" font-size="9" fill="#E53935" font-weight="bold">F12</text>
+
+    <!-- F21: force on body 2 from body 1 (rightward) -->
+    <line x1="320" y1="132" x2="371.0" y2="132.0" stroke="#1565C0" stroke-width="2.5"/>
+    <polygon points="375,132 367.0,135.2 367.0,128.8" fill="#1565C0"/>
+    <text x="350" y="150" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" font-weight="bold">F21</text>
+
+    <!-- Equal signs -->
+    <text x="250" y="125" font-family="Arial,sans-serif" font-size="14" fill="#333" text-anchor="middle" font-weight="bold">|F12| = |F21|</text>
+    <text x="250" y="145" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Противоположные направления</text>
+    <text x="250" y="160" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Приложены к РАЗНЫМ телам!</text>
+
+    <!-- Examples -->
+    <rect x="25" y="205" width="145" height="70" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.2"/>
+    <text x="97" y="221" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" font-weight="bold" text-anchor="middle">Человек и пол</text>
+    <!-- Stick figure pushing down, floor pushing up -->
+    <line x1="90" y1="232" x2="90" y2="255" stroke="#333" stroke-width="2"/>
+    <circle cx="90" cy="228" r="6" fill="#FFCC80"/>
+    <line x1="80" y1="240" x2="100" y2="240" stroke="#333" stroke-width="1.5"/>
+    <!-- Floor -->
+    <line x1="60" y1="258" x2="130" y2="258" stroke="#795548" stroke-width="2"/>
+    <!-- Normal force up -->
+    <line x1="90" y1="258" x2="90.0" y2="245.5" stroke="#2E7D32" stroke-width="1.5"/>
+    <polygon points="90,243 92.0,248.0 88.0,248.0" fill="#2E7D32"/>
+    <!-- Weight down -->
+    <line x1="90" y1="255" x2="90.0" y2="265.5" stroke="#E53935" stroke-width="1.5"/>
+    <polygon points="90,268 88.0,263.0 92.0,263.0" fill="#E53935"/>
+
+    <rect x="180" y="205" width="145" height="70" rx="5" fill="white" stroke="#F57C00" stroke-width="1.2"/>
+    <text x="252" y="221" font-family="Arial,sans-serif" font-size="8" fill="#F57C00" font-weight="bold" text-anchor="middle">Лодка и вода</text>
+    <!-- Boat -->
+    <path d="M 220 245 L 235 255 L 270 255 L 285 245 Z" fill="#795548" opacity="0.7"/>
+    <!-- Oar pushing water back -->
+    <line x1="250" y1="245" x2="232.42535625036334" y2="249.39366093740918" stroke="#1565C0" stroke-width="1.5"/>
+    <polygon points="230,250 234.365641250654,246.84703687452767 235.33578375079935,250.727606875109" fill="#1565C0"/>
+    <!-- Boat moving forward -->
+    <line x1="265" y1="240" x2="282.5" y2="240.0" stroke="#F57C00" stroke-width="1.5"/>
+    <polygon points="285,240 280.0,242.0 280.0,238.0" fill="#F57C00"/>
+    <!-- Water surface -->
+    <path d="M 210 258 Q 230 255 252 258 Q 275 261 295 258" fill="none" stroke="#42A5F5" stroke-width="1"/>
+
+    <rect x="335" y="205" width="140" height="70" rx="5" fill="white" stroke="#7B1FA2" stroke-width="1.2"/>
+    <text x="405" y="221" font-family="Arial,sans-serif" font-size="8" fill="#7B1FA2" font-weight="bold" text-anchor="middle">Ракета</text>
+    <!-- Rocket body -->
+    <rect x="395" y="228" width="16" height="30" rx="3" fill="#E53935" opacity="0.8"/>
+    <polygon points="403,225 395,228 411,228" fill="#E53935"/>
+    <!-- Exhaust -->
+    <line x1="403" y1="260" x2="403.0" y2="267.5" stroke="#F57C00" stroke-width="1.5"/>
+    <polygon points="403,270 401.0,265.0 405.0,265.0" fill="#F57C00"/>
+    <!-- Thrust up -->
+    <line x1="403" y1="228" x2="403.0" y2="217.5" stroke="#2E7D32" stroke-width="1.5"/>
+    <polygon points="403,215 405.0,220.0 401.0,220.0" fill="#2E7D32"/>
+    <!-- Flames -->
+    <ellipse cx="398" cy="265" rx="4" ry="6" fill="#F57C00" opacity="0.6"/>
+    <ellipse cx="408" cy="265" rx="4" ry="6" fill="#F57C00" opacity="0.6"/>
+    
+  </g>
+  <rect x="12" y="298" width="476" height="42" rx="5" fill="url(#panel)"/>
+  <text x="250" y="316" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Динамика</text>
+  <text x="250" y="332" font-family="Arial,sans-serif" font-size="10" text-anchor="middle" fill="white" opacity="0.8">Урок 13</text>
+</svg>

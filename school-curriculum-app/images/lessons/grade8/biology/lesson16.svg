@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+<linearGradient id="redGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#EF5350"/><stop offset="100%" stop-color="#C62828"/></linearGradient>
+<linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#42A5F5"/><stop offset="100%" stop-color="#1565C0"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Кроветворение. Группы крови. Переливание крови</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 8 класс — Урок 16</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- ABO Blood Group System - 4 erythrocytes with antigens -->
+<g transform="translate(0,0)">
+  <!-- Group I (O) -->
+  <g transform="translate(70,110)">
+    <ellipse cx="0" cy="0" rx="22" ry="14" fill="#FFCDD2" stroke="#C62828" stroke-width="1.5"/>
+    <text x="0" y="3" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" font-weight="bold">I(O)</text>
+    <text x="0" y="25" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Нет антигенов</text>
+    <text x="0" y="34" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Антитела: α, β</text>
+    <!-- No surface markers -->
+  </g>
+
+  <!-- Group II (A) -->
+  <g transform="translate(175,110)">
+    <ellipse cx="0" cy="0" rx="22" ry="14" fill="#FFCDD2" stroke="#C62828" stroke-width="1.5"/>
+    <!-- A antigens as triangles on surface -->
+    <polygon points="-15,-10 -12,-6 -18,-6" fill="#E53935"/>
+    <polygon points="-5,-12 -2,-8 -8,-8" fill="#E53935"/>
+    <polygon points="8,-11 11,-7 5,-7" fill="#E53935"/>
+    <polygon points="16,-8 19,-4 13,-4" fill="#E53935"/>
+    <text x="0" y="3" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" font-weight="bold">II(A)</text>
+    <text x="0" y="25" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Антиген А</text>
+    <text x="0" y="34" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Антитела: β</text>
+  </g>
+
+  <!-- Group III (B) -->
+  <g transform="translate(280,110)">
+    <ellipse cx="0" cy="0" rx="22" ry="14" fill="#FFCDD2" stroke="#C62828" stroke-width="1.5"/>
+    <!-- B antigens as squares on surface -->
+    <rect x="-17" y="-11" width="4" height="4" fill="#1565C0" rx="0.5"/>
+    <rect x="-7" y="-13" width="4" height="4" fill="#1565C0" rx="0.5"/>
+    <rect x="5" y="-12" width="4" height="4" fill="#1565C0" rx="0.5"/>
+    <rect x="14" y="-9" width="4" height="4" fill="#1565C0" rx="0.5"/>
+    <text x="0" y="3" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" font-weight="bold">III(B)</text>
+    <text x="0" y="25" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Антиген В</text>
+    <text x="0" y="34" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Антитела: α</text>
+  </g>
+
+  <!-- Group IV (AB) -->
+  <g transform="translate(385,110)">
+    <ellipse cx="0" cy="0" rx="22" ry="14" fill="#FFCDD2" stroke="#C62828" stroke-width="1.5"/>
+    <!-- A and B antigens -->
+    <polygon points="-15,-10 -12,-6 -18,-6" fill="#E53935"/>
+    <rect x="-6" y="-13" width="4" height="4" fill="#1565C0" rx="0.5"/>
+    <polygon points="6,-11 9,-7 3,-7" fill="#E53935"/>
+    <rect x="14" y="-9" width="4" height="4" fill="#1565C0" rx="0.5"/>
+    <text x="0" y="3" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" font-weight="bold">IV(AB)</text>
+    <text x="0" y="25" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Антигены А+В</text>
+    <text x="0" y="34" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Нет антител</text>
+  </g>
+</g>
+
+<!-- Compatibility Chart -->
+<g transform="translate(30,155)">
+  <text x="105" y="0" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle" font-weight="bold">Совместимость групп крови (эритроцитов)</text>
+
+  <!-- Grid header -->
+  <text x="25" y="14" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle" font-weight="bold">Реципиент ↓</text>
+  <text x="70" y="14" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle" font-weight="bold">I(O)</text>
+  <text x="115" y="14" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle" font-weight="bold">II(A)</text>
+  <text x="160" y="14" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle" font-weight="bold">III(B)</text>
+  <text x="205" y="14" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle" font-weight="bold">IV(AB)</text>
+
+  <!-- Row I(O) -->
+  <text x="25" y="28" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle" font-weight="bold">I(O)</text>
+  <rect x="55" y="19" width="28" height="12" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.5" rx="2"/><text x="69" y="28" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">+</text>
+  <rect x="100" y="19" width="28" height="12" fill="#FFCDD2" stroke="#C62828" stroke-width="0.5" rx="2"/><text x="114" y="28" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" font-weight="bold">−</text>
+  <rect x="145" y="19" width="28" height="12" fill="#FFCDD2" stroke="#C62828" stroke-width="0.5" rx="2"/><text x="159" y="28" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" font-weight="bold">−</text>
+  <rect x="190" y="19" width="28" height="12" fill="#FFCDD2" stroke="#C62828" stroke-width="0.5" rx="2"/><text x="204" y="28" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" font-weight="bold">−</text>
+
+  <!-- Row II(A) -->
+  <text x="25" y="42" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle" font-weight="bold">II(A)</text>
+  <rect x="55" y="33" width="28" height="12" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.5" rx="2"/><text x="69" y="42" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">+</text>
+  <rect x="100" y="33" width="28" height="12" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.5" rx="2"/><text x="114" y="42" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">+</text>
+  <rect x="145" y="33" width="28" height="12" fill="#FFCDD2" stroke="#C62828" stroke-width="0.5" rx="2"/><text x="159" y="42" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" font-weight="bold">−</text>
+  <rect x="190" y="33" width="28" height="12" fill="#FFCDD2" stroke="#C62828" stroke-width="0.5" rx="2"/><text x="204" y="42" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" font-weight="bold">−</text>
+
+  <!-- Row III(B) -->
+  <text x="25" y="56" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle" font-weight="bold">III(B)</text>
+  <rect x="55" y="47" width="28" height="12" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.5" rx="2"/><text x="69" y="56" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">+</text>
+  <rect x="100" y="47" width="28" height="12" fill="#FFCDD2" stroke="#C62828" stroke-width="0.5" rx="2"/><text x="114" y="56" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" font-weight="bold">−</text>
+  <rect x="145" y="47" width="28" height="12" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.5" rx="2"/><text x="159" y="56" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">+</text>
+  <rect x="190" y="47" width="28" height="12" fill="#FFCDD2" stroke="#C62828" stroke-width="0.5" rx="2"/><text x="204" y="56" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" font-weight="bold">−</text>
+
+  <!-- Row IV(AB) -->
+  <text x="25" y="70" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle" font-weight="bold">IV(AB)</text>
+  <rect x="55" y="61" width="28" height="12" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.5" rx="2"/><text x="69" y="70" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">+</text>
+  <rect x="100" y="61" width="28" height="12" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.5" rx="2"/><text x="114" y="70" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">+</text>
+  <rect x="145" y="61" width="28" height="12" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.5" rx="2"/><text x="159" y="70" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">+</text>
+  <rect x="190" y="61" width="28" height="12" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.5" rx="2"/><text x="204" y="70" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">+</text>
+
+  <text x="105" y="83" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">+ совместимо   − несовместимо</text>
+</g>
+
+<!-- Rh Factor diagram -->
+<g transform="translate(290,155)">
+  <text x="90" y="0" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle" font-weight="bold">Резус-фактор (Rh)</text>
+
+  <!-- Rh+ erythrocyte -->
+  <g transform="translate(35,25)">
+    <ellipse cx="0" cy="0" rx="28" ry="18" fill="#FFCDD2" stroke="#C62828" stroke-width="1.5"/>
+    <!-- D antigen markers (spikes) -->
+    <line x1="-20" y1="-12" x2="-24" y2="-18" stroke="#E53935" stroke-width="1.5"/>
+    <circle cx="-24" cy="-19" r="2.5" fill="#E53935"/>
+    <line x1="-5" y1="-15" x2="-5" y2="-21" stroke="#E53935" stroke-width="1.5"/>
+    <circle cx="-5" cy="-22" r="2.5" fill="#E53935"/>
+    <line x1="10" y1="-14" x2="13" y2="-20" stroke="#E53935" stroke-width="1.5"/>
+    <circle cx="13" cy="-21" r="2.5" fill="#E53935"/>
+    <line x1="22" y1="-8" x2="27" y2="-12" stroke="#E53935" stroke-width="1.5"/>
+    <circle cx="28" cy="-13" r="2.5" fill="#E53935"/>
+    <text x="0" y="4" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" font-weight="bold">Rh+</text>
+    <text x="0" y="30" font-family="Arial,sans-serif" font-size="5.5" fill="#555" text-anchor="middle">D-антиген</text>
+    <text x="0" y="38" font-family="Arial,sans-serif" font-size="5.5" fill="#555" text-anchor="middle">присутствует</text>
+  </g>
+
+  <!-- Rh- erythrocyte -->
+  <g transform="translate(140,25)">
+    <ellipse cx="0" cy="0" rx="28" ry="18" fill="#FFCDD2" stroke="#C62828" stroke-width="1.5"/>
+    <text x="0" y="4" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" font-weight="bold">Rh−</text>
+    <text x="0" y="30" font-family="Arial,sans-serif" font-size="5.5" fill="#555" text-anchor="middle">D-антиген</text>
+    <text x="0" y="38" font-family="Arial,sans-serif" font-size="5.5" fill="#555" text-anchor="middle">отсутствует</text>
+  </g>
+
+  <!-- Compatibility note -->
+  <text x="90" y="75" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">Rh− нельзя переливать Rh+ кровь!</text>
+  <text x="90" y="83" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Rh+ может получать Rh− кровь</text>
+</g>
+
+<!-- Side Panel: Кроветворение -->
+<rect x="15" y="260" width="225" height="55" fill="#fff" fill-opacity="0.7" stroke="#2E7D32" stroke-width="1" rx="5"/>
+<text x="127" y="273" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle" font-weight="bold">КРОВЕТВОРЕНИЕ</text>
+<text x="22" y="284" font-family="Arial,sans-serif" font-size="5.5" fill="#333">• Красный костный мозг — образование всех клеток крови</text>
+<text x="22" y="293" font-family="Arial,sans-serif" font-size="5.5" fill="#333">• Стволовая клетка → эритроциты, лейкоциты, тромбоциты</text>
+<text x="22" y="302" font-family="Arial,sans-serif" font-size="5.5" fill="#333">• Эритроциты живут ~120 дней, обновляются постоянно</text>
+<text x="22" y="311" font-family="Arial,sans-serif" font-size="5.5" fill="#333">• Лейкоциты — от нескольких часов до нескольких лет</text>
+
+<!-- Bottom Panel: Rules -->
+<rect x="260" y="260" width="225" height="55" fill="#fff" fill-opacity="0.7" stroke="#2E7D32" stroke-width="1" rx="5"/>
+<text x="372" y="273" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle" font-weight="bold">ПРАВИЛА ПЕРЕЛИВАНИЯ КРОВИ</text>
+<text x="267" y="284" font-family="Arial,sans-serif" font-size="5.5" fill="#333">• Определить группу крови и Rh-фактор донора и реципиента</text>
+<text x="267" y="293" font-family="Arial,sans-serif" font-size="5.5" fill="#333">• Пробная биологическая проба (3 фазы по 15 мл)</text>
+<text x="267" y="302" font-family="Arial,sans-serif" font-size="5.5" fill="#333">• I(O) — универсальный донор, IV(AB) — универс. реципиент</text>
+<text x="267" y="311" font-family="Arial,sans-serif" font-size="5.5" fill="#333">• Совпадение по Rh обязательно! Rh− → только Rh−</text>
+
+<!-- Footer -->
+<rect x="3" y="325" width="494" height="22" fill="#2E7D32" rx="0"/>
+<rect x="3" y="325" width="494" height="22" fill="#2E7D32" rx="0 0 8 8"/>
+<text x="250" y="340" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle" font-weight="bold">Группы крови • Резус-фактор • Кроветворение • Переливание</text>
+</svg>

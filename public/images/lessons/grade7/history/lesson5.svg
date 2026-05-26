@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#424242"/>
+<rect x="30" y="30" width="200" height="250" rx="4" fill="#37474F" stroke="#546E7A" stroke-width="2"/>
+<path d="M80,80 L180,80 L190,130 L70,130 Z" fill="#8D6E63" stroke="#5D4037" stroke-width="2"/>
+<path d="M100,80 L100,50 Q130,30 160,50 L160,80" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+<line x1="130" y1="30" x2="130" y2="20" stroke="#FFD700" stroke-width="2"/>
+<circle cx="130" cy="17" r="5" fill="#FFD700" stroke="#F9A825" stroke-width="1"/>
+<line x1="80" y1="130" x2="80" y2="250" stroke="#5D4037" stroke-width="3"/>
+<line x1="180" y1="130" x2="180" y2="250" stroke="#5D4037" stroke-width="3"/>
+<path d="M75,250 L185,250" stroke="#5D4037" stroke-width="2"/>
+<path d="M80,250 Q70,270 60,270" fill="none" stroke="#5D4037" stroke-width="2"/>
+<path d="M180,250 Q190,270 200,270" fill="none" stroke="#5D4037" stroke-width="2"/>
+<text x="130" y="165" font-size="10" fill="#FFAB91" text-anchor="middle" font-weight="bold">ТРЕСНУВШИЙ</text>
+<text x="130" y="182" font-size="10" fill="#FFAB91" text-anchor="middle" font-weight="bold">ТРОН</text>
+<line x1="90" y1="100" x2="110" y2="110" stroke="#EF5350" stroke-width="2"/>
+<line x1="150" y1="95" x2="170" y2="115" stroke="#EF5350" stroke-width="2"/>
+<line x1="100" y1="90" x2="120" y2="95" stroke="#EF5350" stroke-width="1.5"/>
+<rect x="260" y="30" width="220" height="140" rx="6" fill="#FFF" stroke="#EF5350" stroke-width="2"/>
+<text x="370" y="50" font-size="9" fill="#C62828" text-anchor="middle" font-weight="bold">Причины Смуты</text>
+<text x="280" y="70" font-size="8" fill="#D32F2F">✦ Пресечение династии</text>
+<text x="280" y="85" font-size="8" fill="#D32F2F">✦ Экономический кризис</text>
+<text x="280" y="100" font-size="8" fill="#D32F2F">✦ Борьба боярских групп</text>
+<text x="280" y="115" font-size="8" fill="#D32F2F">✦ Голод 1601–1603</text>
+<text x="280" y="130" font-size="8" fill="#D32F2F">✦ Крестьянские волнения</text>
+<text x="280" y="145" font-size="8" fill="#D32F2F">✦ Интервенция Польши и Швеции</text>
+<text x="280" y="160" font-size="8" fill="#D32F2F">✦ Лжедмитрий I</text>
+<rect x="260" y="185" width="220" height="100" rx="6" fill="#FFF8E1" stroke="#FF8F00" stroke-width="1.5"/>
+<text x="370" y="205" font-size="8" fill="#E65100" text-anchor="middle" font-weight="bold">Народ в Смуту</text>
+<ellipse cx="290" cy="235" rx="12" ry="8" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+<circle cx="290" cy="225" r="5" fill="#FFE0B2" stroke="#E65100" stroke-width="0.5"/>
+<line x1="290" y1="243" x2="290" y2="260" stroke="#E65100" stroke-width="1.5"/>
+<text x="310" y="245" font-size="7" fill="#BF360C">голод</text>
+<ellipse cx="370" cy="235" rx="12" ry="8" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+<circle cx="370" cy="225" r="5" fill="#FFE0B2" stroke="#E65100" stroke-width="0.5"/>
+<line x1="370" y1="243" x2="370" y2="260" stroke="#E65100" stroke-width="1.5"/>
+<text x="390" y="245" font-size="7" fill="#BF360C">разбой</text>
+<ellipse cx="440" cy="235" rx="12" ry="8" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+<circle cx="440" cy="225" r="5" fill="#FFE0B2" stroke="#E65100" stroke-width="0.5"/>
+<line x1="440" y1="243" x2="440" y2="260" stroke="#E65100" stroke-width="1.5"/>
+<text x="456" y="245" font-size="7" fill="#BF360C">война</text>
+<text x="250" y="310" font-size="8" fill="#EF9A9A" text-anchor="middle">1598–1613 — Смутное время</text>
+<text x="250" y="345" font-size="9" fill="#9E9E9E" text-anchor="middle" opacity="0.5">Причины и начало Смуты</text>
+</svg>

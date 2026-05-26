@@ -1,0 +1,5 @@
+[2026-05-12T15:01:11.798Z] Starting generation script
+[2026-05-12T15:01:11.803Z] SDK initialized
+[2026-05-12T15:01:11.803Z] Processing lesson 1/12: Урок 1: Моя семья
+[2026-05-12T15:01:11.862Z]   Attempt 1 failed: API request failed with status 429: {"error":"Too many requests, please try agai
+[2026-05-12T15:01:11.862Z]   Waiting 15s...

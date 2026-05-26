@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <style>@keyframes brush{0%,100%{transform:rotate(0deg)}50%{transform:rotate(-8deg)}}.br{animation:brush 3s ease-in-out infinite;transform-origin:320px 200px}</style>
+  <rect width="500" height="350" fill="#FFF8E7"/>
+  <text x="250" y="24" text-anchor="middle" font-size="16" font-family="sans-serif" fill="#5D4037" font-weight="bold">Что такое живопись?</text>
+  <!-- Easel legs -->
+  <line x1="160" y1="300" x2="200" y2="90" stroke="#8D6E63" stroke-width="6" stroke-linecap="round"/>
+  <line x1="310" y1="300" x2="270" y2="90" stroke="#8D6E63" stroke-width="6" stroke-linecap="round"/>
+  <line x1="235" y1="310" x2="235" y2="85" stroke="#8D6E63" stroke-width="5" stroke-linecap="round"/>
+  <!-- Canvas -->
+  <rect x="170" y="60" width="130" height="160" rx="2" fill="#FFF" stroke="#A1887F" stroke-width="3"/>
+  <!-- Painting on canvas: mountains -->
+  <polygon points="170,220 210,130 250,180 290,120 300,220" fill="#7CB342"/>
+  <polygon points="190,220 230,150 270,220" fill="#558B2F"/>
+  <!-- Sun on canvas -->
+  <circle cx="260" cy="95" r="14" fill="#FFD54F"/>
+  <line x1="260" y1="74" x2="260" y2="68" stroke="#FFD54F" stroke-width="2"/>
+  <line x1="274" y1="81" x2="279" y2="76" stroke="#FFD54F" stroke-width="2"/>
+  <line x1="278" y1="95" x2="284" y2="95" stroke="#FFD54F" stroke-width="2"/>
+  <!-- Sky on canvas -->
+  <rect x="171" y="61" width="128" height="30" fill="#81D4FA" rx="1"/>
+  <circle cx="260" cy="95" r="14" fill="#FFD54F"/>
+  <!-- Palette -->
+  <ellipse cx="390" cy="230" rx="48" ry="32" fill="#F5DEB3" stroke="#C9A96E" stroke-width="2"/>
+  <circle cx="375" cy="218" r="5" fill="#E53935"/>
+  <circle cx="390" cy="212" r="5" fill="#1E88E5"/>
+  <circle cx="405" cy="218" r="5" fill="#FDD835"/>
+  <circle cx="370" cy="232" r="5" fill="#43A047"/>
+  <circle cx="400" cy="240" r="4" fill="#FF8F00"/>
+  <circle cx="385" cy="248" r="4" fill="#8E24AA"/>
+  <ellipse cx="408" cy="225" rx="8" ry="7" fill="#FFF8E7"/>
+  <!-- Paintbrush -->
+  <g class="br">
+    <line x1="340" y1="140" x2="320" y2="220" stroke="#A1887F" stroke-width="4" stroke-linecap="round"/>
+    <rect x="316" y="218" width="9" height="22" rx="2" fill="#C0C0C0"/>
+    <path d="M317,240 Q320,258 324,240" fill="#E53935"/>
+  </g>
+  <!-- Second brush -->
+  <line x1="365" y1="150" x2="350" y2="240" stroke="#8D6E63" stroke-width="3.5" stroke-linecap="round"/>
+  <rect x="347" y="238" width="7" height="18" rx="2" fill="#C0C0C0"/>
+  <path d="M348,256 Q350,270 353,256" fill="#1E88E5"/>
+  <!-- Paint drops -->
+  <circle cx="155" cy="280" r="4" fill="#E53935" opacity="0.7"/>
+  <circle cx="170" cy="290" r="3" fill="#1E88E5" opacity="0.7"/>
+  <circle cx="145" cy="295" r="3" fill="#FDD835" opacity="0.7"/>
+</svg>

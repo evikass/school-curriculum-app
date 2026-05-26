@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Приматы и значение млекопитающих</text>
+<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 7 класс — Урок 30</text>
+<line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+
+<g transform="translate(130,170)">
+<ellipse cx="0" cy="8" rx="15" ry="12" fill="#D7CCC8" stroke="#5D4037" stroke-width="1.5"/>
+<circle cx="-5" cy="-8" r="10" fill="#EFEBE9" stroke="#5D4037" stroke-width="1.5"/>
+<circle cx="-8" cy="-10" r="2.5" fill="white" stroke="#333" stroke-width="0.8"/><circle cx="-8" cy="-10" r="1.2" fill="#333"/>
+<circle cx="-2" cy="-10" r="2.5" fill="white" stroke="#333" stroke-width="0.8"/><circle cx="-2" cy="-10" r="1.2" fill="#333"/>
+<path d="M-10,-7 Q-5,-5 0,-7" stroke="#5D4037" stroke-width="1" fill="none"/>
+<ellipse cx="-15" cy="-5" rx="4" ry="6" fill="#BCAAA4" stroke="#5D4037" stroke-width="0.8"/>
+<path d="M-10,15 L-12,25" stroke="#5D4037" stroke-width="1.5" fill="none"/>
+<path d="M0,15 L2,25" stroke="#5D4037" stroke-width="1.5" fill="none"/>
+<path d="M12,5 L18,0" stroke="#5D4037" stroke-width="1.5" fill="none"/>
+<text x="0" y="38" font-family="Arial,sans-serif" font-size="7" fill="#5D4037" text-anchor="middle" font-weight="bold">Обезьяна</text>
+</g>
+<g transform="translate(350,140)">
+<text x="0" y="0" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle" font-weight="bold">Значение млекопитающих</text>
+<rect x="-70" y="10" width="140" height="18" rx="3" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.8"/>
+<text x="0" y="23" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">Пища: мясо, молоко, яйца</text>
+<rect x="-70" y="32" width="140" height="18" rx="3" fill="#FFECB3" stroke="#FF8F00" stroke-width="0.8"/>
+<text x="0" y="45" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle">Шкуры, кожа, шерсть</text>
+<rect x="-70" y="54" width="140" height="18" rx="3" fill="#BBDEFB" stroke="#1565C0" stroke-width="0.8"/>
+<text x="0" y="67" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">Транспорт: лошади, верблюды</text>
+<rect x="-70" y="76" width="140" height="18" rx="3" fill="#F8BBD0" stroke="#C2185B" stroke-width="0.8"/>
+<text x="0" y="89" font-family="Arial,sans-serif" font-size="6" fill="#C2185B" text-anchor="middle">Опыление, распространение</text>
+<rect x="-70" y="98" width="140" height="18" rx="3" fill="#FFCDD2" stroke="#C62828" stroke-width="0.8"/>
+<text x="0" y="111" font-family="Arial,sans-serif" font-size="6" fill="#C62828" text-anchor="middle">Вред: грызуны, хищники</text>
+</g>
+<rect x="30" y="290" width="440" height="22" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
+<text x="250" y="304" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Приматы: обезьяны, полуобезьяны, человек | Обхватывающие руки | Бинокулярное зрение | Большой мозг</text>
+
+<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 7 класс</text>
+</svg>

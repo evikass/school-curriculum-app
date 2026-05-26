@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#F1F8E9"/>
+<!-- Two parallel lines -->
+<line x1="20" y1="80" x2="480" y2="80" stroke="#33691E" stroke-width="2.5"/>
+<line x1="20" y1="250" x2="480" y2="250" stroke="#33691E" stroke-width="2.5"/>
+<text x="480" y="75" font-family="sans-serif" font-size="12" fill="#33691E">a</text>
+<text x="480" y="245" font-family="sans-serif" font-size="12" fill="#33691E">b</text>
+<!-- Parallel marks -->
+<line x1="420" y1="73" x2="435" y2="73" stroke="#33691E" stroke-width="1.5"/>
+<line x1="420" y1="87" x2="435" y2="87" stroke="#33691E" stroke-width="1.5"/>
+<line x1="420" y1="243" x2="435" y2="243" stroke="#33691E" stroke-width="1.5"/>
+<line x1="420" y1="257" x2="435" y2="257" stroke="#33691E" stroke-width="1.5"/>
+<!-- Transversal -->
+<line x1="130" y1="20" x2="350" y2="310" stroke="#BF360C" stroke-width="2"/>
+<text x="355" y="310" font-family="sans-serif" font-size="11" fill="#BF360C">c</text>
+<!-- Intersection points -->
+<circle cx="200" cy="80" r="4" fill="#BF360C"/>
+<circle cx="270" cy="250" r="4" fill="#BF360C"/>
+<!-- Alternate interior angles (equal) -->
+<path d="M212 92 A20 20 0 0 0 188 92" stroke="#D32F2F" stroke-width="2.5" fill="#FFCDD2" opacity="0.5"/>
+<text x="195" y="110" font-family="sans-serif" font-size="11" fill="#D32F2F">α</text>
+<path d="M260 238 A20 20 0 0 0 282 240" stroke="#D32F2F" stroke-width="2.5" fill="#FFCDD2" opacity="0.5"/>
+<text x="275" y="235" font-family="sans-serif" font-size="11" fill="#D32F2F">α</text>
+<!-- Corresponding angles (equal) -->
+<path d="M185 68 A20 20 0 0 0 212 68" stroke="#1565C0" stroke-width="2.5" fill="#BBDEFB" opacity="0.5"/>
+<text x="192" y="60" font-family="sans-serif" font-size="11" fill="#1565C0">β</text>
+<path d="M257 238 A20 20 0 0 0 282 240" stroke="#1565C0" stroke-width="2.5" fill="#BBDEFB" opacity="0.3"/>
+<!-- Actually corresponding would be top-left and bottom-left -->
+<path d="M195 68 A18 18 0 0 1 212 68" stroke="#1565C0" stroke-width="2" fill="#BBDEFB" opacity="0.4"/>
+<!-- Let me show it more clearly -->
+<!-- Properties text -->
+<rect x="30" y="290" width="440" height="42" rx="6" fill="#DCEDC8" opacity="0.7"/>
+<text x="50" y="308" font-family="sans-serif" font-size="11" fill="#33691E">Накрест лежащие: ∠α = ∠α</text>
+<text x="260" y="308" font-family="sans-serif" font-size="11" fill="#33691E">Соответственные: ∠β = ∠β</text>
+<text x="50" y="325" font-family="sans-serif" font-size="11" fill="#33691E">Односторонние: ∠α + ∠γ = 180°</text>
+<text x="250" y="345" font-family="sans-serif" font-size="9" fill="#33691E" opacity="0.5" text-anchor="middle">Свойства параллельных прямых</text>
+</svg>

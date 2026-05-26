@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5A4A3A"/>
+      <stop offset="100%" stop-color="#3A2A1A"/>
+    </linearGradient>
+    <radialGradient id="spotlight" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#FFE4B5" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#FFE4B5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="frameGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#DAA520"/>
+      <stop offset="50%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+  </defs>
+  <!-- Background - gallery wall -->
+  <rect width="500" height="350" fill="url(#wallGrad)"/>
+  <rect width="500" height="350" fill="url(#spotlight)"/>
+  
+  <!-- Large ornate frame -->
+  <rect x="120" y="30" width="260" height="240" rx="5" fill="url(#frameGold)" stroke="#8B6914" stroke-width="3"/>
+  <rect x="128" y="38" width="244" height="224" rx="3" fill="#8B6914"/>
+  <rect x="132" y="42" width="236" height="216" rx="2" fill="#2A1F14"/>
+  <!-- Inner painting -->
+  <rect x="140" y="50" width="220" height="200" fill="#F5E6D0"/>
+  
+  <!-- Portrait in frame -->
+  <!-- Face -->
+  <ellipse cx="250" cy="110" rx="38" ry="45" fill="#DEB887"/>
+  <!-- Hair -->
+  <path d="M212 95 Q215 60 250 55 Q285 60 288 95" fill="#4A3020"/>
+  <path d="M212 95 Q208 105 210 120" fill="#4A3020"/>
+  <path d="M288 95 Q292 105 290 120" fill="#4A3020"/>
+  <!-- Eyes -->
+  <ellipse cx="237" cy="100" rx="7" ry="4.5" fill="#FFF"/>
+  <ellipse cx="263" cy="100" rx="7" ry="4.5" fill="#FFF"/>
+  <circle cx="238" cy="100" r="3" fill="#4A6A3A"/>
+  <circle cx="264" cy="100" r="3" fill="#4A6A3A"/>
+  <circle cx="239" cy="99" r="1" fill="#111"/>
+  <circle cx="265" cy="99" r="1" fill="#111"/>
+  <!-- Eyebrows -->
+  <path d="M228 92 Q237 88 246 92" fill="none" stroke="#4A3020" stroke-width="1.5"/>
+  <path d="M254 92 Q263 88 272 92" fill="none" stroke="#4A3020" stroke-width="1.5"/>
+  <!-- Nose -->
+  <path d="M250 104 L247 118 Q250 121 253 118" fill="none" stroke="#B8876B" stroke-width="1.2"/>
+  <!-- Mouth -->
+  <path d="M240 128 Q250 133 260 128" fill="#C07060" stroke="#A06050" stroke-width="0.5"/>
+  <!-- Neck -->
+  <rect x="240" y="152" width="20" height="15" fill="#DEB887"/>
+  <!-- Collar/clothing -->
+  <path d="M215 170 Q230 162 250 168 Q270 162 285 170 L290 250 L210 250 Z" fill="#2A4A6A"/>
+  <!-- White collar -->
+  <path d="M232 167 L250 175 L268 167" fill="#F0F0F0" stroke="#DDD" stroke-width="0.5"/>
+  
+  <!-- Frame corner ornaments -->
+  <g fill="#FFD700">
+    <circle cx="125" cy="35" r="6"/>
+    <circle cx="375" cy="35" r="6"/>
+    <circle cx="125" cy="265" r="6"/>
+    <circle cx="375" cy="265" r="6"/>
+  </g>
+  <!-- Decorative patterns on frame -->
+  <g stroke="#B8860B" stroke-width="0.8" fill="none">
+    <path d="M130 37 Q250 28 370 37"/>
+    <path d="M130 263 Q250 272 370 263"/>
+    <path d="M122 42 Q117 150 122 258"/>
+    <path d="M378 42 Q383 150 378 258"/>
+  </g>
+  
+  <!-- Easel -->
+  <line x1="160" y1="275" x2="130" y2="340" stroke="#6B4E12" stroke-width="4"/>
+  <line x1="340" y1="275" x2="370" y2="340" stroke="#6B4E12" stroke-width="4"/>
+  <line x1="250" y1="275" x2="250" y2="340" stroke="#6B4E12" stroke-width="3"/>
+  <!-- Easel cross bar -->
+  <line x1="145" y1="310" x2="355" y2="310" stroke="#6B4E12" stroke-width="2.5"/>
+  <!-- Easel ledge -->
+  <line x1="140" y1="278" x2="360" y2="278" stroke="#6B4E12" stroke-width="3"/>
+  
+  <!-- Palette on the floor -->
+  <ellipse cx="420" cy="310" rx="30" ry="18" fill="#D2B48C" stroke="#8B6914" stroke-width="1" transform="rotate(-15 420 310)"/>
+  <circle cx="412" cy="305" r="3" fill="#E84040"/>
+  <circle cx="420" cy="300" r="3" fill="#4080E0"/>
+  <circle cx="428" cy="305" r="3" fill="#E8C040"/>
+  <circle cx="415" cy="315" r="3" fill="#40C040"/>
+  <circle cx="425" cy="313" r="3" fill="#C040C0"/>
+  <!-- Thumb hole -->
+  <ellipse cx="430" cy="318" rx="5" ry="4" fill="#3A2A1A"/>
+  
+  <!-- Brushes -->
+  <line x1="400" y1="290" x2="385" y2="335" stroke="#8B6914" stroke-width="2"/>
+  <ellipse cx="400" cy="289" rx="3" ry="4" fill="#E84040"/>
+  <line x1="445" y1="295" x2="460" y2="340" stroke="#8B6914" stroke-width="2"/>
+  <ellipse cx="445" cy="294" rx="3" ry="4" fill="#4080E0"/>
+
+  <text x="250" y="345" text-anchor="middle" font-size="9" opacity="0.5" font-family="sans-serif" fill="#AAA">Портрет как жанр</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#2c1810"/><stop offset="100%" style="stop-color:#1a1a2e"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <rect x="50" y="30" width="400" height="50" rx="5" fill="#8e44ad" opacity="0.8"/>
+  <text x="250" y="62" text-anchor="middle" fill="white" font-size="16" font-weight="bold">«Слово о полку Игореве»</text>
+  <text x="250" y="100" text-anchor="middle" fill="#d4a574" font-size="11">XII век — поход князя Игоря на половцев</text>
+  <!-- Scroll/manuscript -->
+  <rect x="80" y="115" width="340" height="120" rx="5" fill="#d4a574" opacity="0.2" stroke="#d4a574" stroke-width="1"/>
+  <rect x="100" y="125" width="300" height="100" rx="3" fill="#2c1810" opacity="0.6"/>
+  <text x="250" y="148" text-anchor="middle" fill="#d4a574" font-size="10" font-style="italic">Вступление → Поход → Поражение</text>
+  <text x="250" y="168" text-anchor="middle" fill="#d4a574" font-size="10" font-style="italic">Плач Ярославны → Побег</text>
+  <text x="250" y="192" text-anchor="middle" fill="#e74c3c" font-size="11">⚡ Затмение — дурное предзнаменование</text>
+  <text x="250" y="212" text-anchor="middle" fill="#9b59b6" font-size="11">«Золотое слово» Святослава</text>
+  <!-- Characters -->
+  <rect x="30" y="250" width="140" height="55" rx="6" fill="#8e44ad" opacity="0.7"/>
+  <text x="100" y="272" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Игорь</text>
+  <text x="100" y="290" text-anchor="middle" fill="white" font-size="9">Храбрый, но безрассудный</text>
+  <rect x="180" y="250" width="140" height="55" rx="6" fill="#9b59b6" opacity="0.7"/>
+  <text x="250" y="272" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Ярославна</text>
+  <text x="250" y="290" text-anchor="middle" fill="white" font-size="9">Верность и преданность</text>
+  <rect x="330" y="250" width="140" height="55" rx="6" fill="#6c3483" opacity="0.7"/>
+  <text x="400" y="272" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Святослав</text>
+  <text x="400" y="290" text-anchor="middle" fill="white" font-size="9">Мудрый, призывает к единству</text>
+  <text x="250" y="345" text-anchor="middle" fill="white" font-size="9" opacity="0.5">«Слово о полку Игореве»</text>
+</svg>

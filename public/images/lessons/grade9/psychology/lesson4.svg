@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="pbg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a0a2e"/>
+      <stop offset="100%" style="stop-color:#2d1b4e"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#pbg4)"/>
+  <!-- Memory model: funnel from sensory to long-term -->
+  <!-- Sensory memory - wide top -->
+  <polygon points="100,50 400,50 350,110 150,110" fill="#4fc3f7" opacity="0.15" stroke="#4fc3f7" stroke-width="1.5"/>
+  <text x="250" y="75" fill="#4fc3f7" font-size="10" text-anchor="middle">Сенсорная</text>
+  <text x="250" y="90" fill="#78909c" font-size="7" text-anchor="middle">0,1–0,5 сек</text>
+  <text x="250" y="103" fill="#78909c" font-size="7" text-anchor="middle">Весь поток</text>
+  <!-- Arrow -->
+  <polygon points="240,112 260,112 250,125" fill="#4fc3f7" opacity="0.5"/>
+  <!-- Short-term - medium -->
+  <polygon points="150,128 350,128 320,195 180,195" fill="#ff9800" opacity="0.15" stroke="#ff9800" stroke-width="1.5"/>
+  <text x="250" y="155" fill="#ff9800" font-size="10" text-anchor="middle">Кратковременная</text>
+  <text x="250" y="170" fill="#78909c" font-size="7" text-anchor="middle">15–30 сек</text>
+  <text x="250" y="183" fill="#78909c" font-size="7" text-anchor="middle">7±2 элемента</text>
+  <!-- Arrow -->
+  <polygon points="240,197 260,197 250,210" fill="#ff9800" opacity="0.5"/>
+  <!-- Long-term - large bottom -->
+  <rect x="120" y="215" width="260" height="70" fill="#4caf50" opacity="0.15" rx="5" stroke="#4caf50" stroke-width="1.5"/>
+  <text x="250" y="240" fill="#4caf50" font-size="10" text-anchor="middle">Долговременная</text>
+  <text x="250" y="255" fill="#78909c" font-size="7" text-anchor="middle">Минуты – годы</text>
+  <text x="250" y="268" fill="#78909c" font-size="7" text-anchor="middle">Безграничный объём</text>
+  <!-- Forgetting curve (Ebbinghaus) -->
+  <g transform="translate(30,50)">
+    <rect x="0" y="0" width="60" height="80" fill="none" stroke="#e040fb" stroke-width="0.5" opacity="0.3"/>
+    <path d="M5,10 Q15,12 20,25 Q30,45 40,55 Q50,62 55,65" fill="none" stroke="#e040fb" stroke-width="2"/>
+    <text x="30" y="95" fill="#e040fb" font-size="6" text-anchor="middle">Кривая Эббингауза</text>
+    <text x="5" y="8" fill="#78909c" font-size="5">100%</text>
+    <text x="5" y="70" fill="#78909c" font-size="5">20%</text>
+  </g>
+  <!-- Memory types by modality -->
+  <g transform="translate(410,50)">
+    <text x="35" y="0" fill="#b388ff" font-size="8" text-anchor="middle">Виды памяти</text>
+    <rect x="0" y="10" width="70" height="16" fill="#4fc3f7" opacity="0.15" rx="3" stroke="#4fc3f7" stroke-width="0.5"/>
+    <text x="35" y="22" fill="#4fc3f7" font-size="7" text-anchor="middle">Двигательная</text>
+    <rect x="0" y="32" width="70" height="16" fill="#ff9800" opacity="0.15" rx="3" stroke="#ff9800" stroke-width="0.5"/>
+    <text x="35" y="44" fill="#ff9800" font-size="7" text-anchor="middle">Эмоциональная</text>
+    <rect x="0" y="54" width="70" height="16" fill="#4caf50" opacity="0.15" rx="3" stroke="#4caf50" stroke-width="0.5"/>
+    <text x="35" y="66" fill="#4caf50" font-size="7" text-anchor="middle">Образная</text>
+    <rect x="0" y="76" width="70" height="16" fill="#e040fb" opacity="0.15" rx="3" stroke="#e040fb" stroke-width="0.5"/>
+    <text x="35" y="88" fill="#e040fb" font-size="7" text-anchor="middle">Словесно-лог.</text>
+  </g>
+  <!-- Mnemotechnics -->
+  <g transform="translate(30,170)">
+    <text x="45" y="0" fill="#ffc107" font-size="8" text-anchor="middle">Мнемотехника</text>
+    <path d="M10,20 L30,10 L30,20 L50,10 L50,20 L70,10 L70,20 L80,25" fill="none" stroke="#ffc107" stroke-width="1.5" opacity="0.5"/>
+    <circle cx="30" cy="10" r="3" fill="#ffc107" opacity="0.5"/>
+    <circle cx="50" cy="10" r="3" fill="#ffc107" opacity="0.5"/>
+    <circle cx="70" cy="10" r="3" fill="#ffc107" opacity="0.5"/>
+  </g>
+  <text x="250" y="345" fill="#aaa" font-size="9" text-anchor="middle" opacity="0.5">Память</text>
+</svg>

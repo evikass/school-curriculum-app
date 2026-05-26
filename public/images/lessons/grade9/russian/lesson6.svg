@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg6)"/>
+  <!-- Two boxes with NO connector - БСП -->
+  <rect x="30" y="30" width="200" height="60" rx="10" fill="#0f3460" opacity="0.9"/>
+  <text x="130" y="55" text-anchor="middle" fill="white" font-size="12" font-weight="bold">Часть 1</text>
+  <text x="130" y="75" text-anchor="middle" fill="white" font-size="10">Без союза!</text>
+  <!-- Big X for no conjunction -->
+  <text x="250" y="72" text-anchor="middle" fill="#e94560" font-size="28" font-weight="bold">✕</text>
+  <rect x="270" y="30" width="200" height="60" rx="10" fill="#0f3460" opacity="0.9"/>
+  <text x="370" y="55" text-anchor="middle" fill="white" font-size="12" font-weight="bold">Часть 2</text>
+  <text x="370" y="75" text-anchor="middle" fill="white" font-size="10">Только интонация</text>
+  <!-- Four punctuation marks -->
+  <rect x="20" y="110" width="110" height="90" rx="8" fill="#e94560" opacity="0.85"/>
+  <text x="75" y="135" text-anchor="middle" fill="white" font-size="30" font-weight="bold">,</text>
+  <text x="75" y="158" text-anchor="middle" fill="white" font-size="10">Запятая</text>
+  <text x="75" y="175" text-anchor="middle" fill="white" font-size="9">Перечисление</text>
+  <text x="75" y="190" text-anchor="middle" fill="white" font-size="9">событий</text>
+  <rect x="140" y="110" width="110" height="90" rx="8" fill="#533483" opacity="0.85"/>
+  <text x="195" y="138" text-anchor="middle" fill="white" font-size="28" font-weight="bold">;</text>
+  <text x="195" y="158" text-anchor="middle" fill="white" font-size="10">Точка с запятой</text>
+  <text x="195" y="175" text-anchor="middle" fill="white" font-size="9">Распространён-</text>
+  <text x="195" y="190" text-anchor="middle" fill="white" font-size="9">ные части</text>
+  <rect x="260" y="110" width="110" height="90" rx="8" fill="#0f3460" opacity="0.9"/>
+  <text x="315" y="135" text-anchor="middle" fill="white" font-size="30" font-weight="bold">:</text>
+  <text x="315" y="158" text-anchor="middle" fill="white" font-size="10">Двоеточие</text>
+  <text x="315" y="175" text-anchor="middle" fill="white" font-size="9">Пояснение</text>
+  <text x="315" y="190" text-anchor="middle" fill="white" font-size="9">Причина</text>
+  <rect x="380" y="110" width="110" height="90" rx="8" fill="#e94560" opacity="0.85"/>
+  <text x="435" y="135" text-anchor="middle" fill="white" font-size="30" font-weight="bold">—</text>
+  <text x="435" y="158" text-anchor="middle" fill="white" font-size="10">Тире</text>
+  <text x="435" y="175" text-anchor="middle" fill="white" font-size="9">Следствие</text>
+  <text x="435" y="190" text-anchor="middle" fill="white" font-size="9">Противопоставл.</text>
+  <!-- Examples -->
+  <rect x="20" y="220" width="230" height="50" rx="6" fill="#16213e" stroke="#0f3460" stroke-width="1.5"/>
+  <text x="135" y="240" text-anchor="middle" fill="#4fc3f7" font-size="9">: причина → потому что</text>
+  <text x="135" y="258" text-anchor="middle" fill="white" font-size="9" font-style="italic">Не пришёл: заболел.</text>
+  <rect x="260" y="220" width="230" height="50" rx="6" fill="#16213e" stroke="#e94560" stroke-width="1.5"/>
+  <text x="375" y="240" text-anchor="middle" fill="#e94560" font-size="9">— следствие → поэтому</text>
+  <text x="375" y="258" text-anchor="middle" fill="white" font-size="9" font-style="italic">Поспешишь — насмешишь.</text>
+  <rect x="30" y="285" width="440" height="40" rx="6" fill="#0f3460" opacity="0.7"/>
+  <text x="250" y="310" text-anchor="middle" fill="white" font-size="10">БСП = части без союзов, связь только через интонацию и знаки</text>
+  <text x="250" y="345" text-anchor="middle" fill="white" font-size="9" opacity="0.5">Бессоюзное сложное предложение</text>
+</svg>

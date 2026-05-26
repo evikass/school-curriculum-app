@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bgT1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <marker id="arrowT1" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#ffd93d"/>
+    </marker>
+  </defs>
+  <rect width="500" height="350" fill="url(#bgT1)"/>
+  <!-- Design cycle - circular diagram -->
+  <!-- Stage 1: Problem -->
+  <g transform="translate(250, 155)">
+    <!-- Central circle -->
+    <circle cx="0" cy="0" r="120" fill="none" stroke="#30363d" stroke-width="1" stroke-dasharray="5,5" opacity="0.3"/>
+    <!-- Stage nodes around the circle -->
+    <!-- 1. Проблема (top) -->
+    <g transform="translate(0, -120)">
+      <circle cx="0" cy="0" r="30" fill="#6c5ce7" stroke="#8b7be8" stroke-width="1.5"/>
+      <text x="0" y="-5" fill="white" font-size="8" font-family="sans-serif" text-anchor="middle">Проблема</text>
+      <text x="0" y="8" fill="#ddd" font-size="7" font-family="sans-serif" text-anchor="middle">Анализ</text>
+      <circle cx="0" cy="-22" r="10" fill="#4a3fa0"/>
+      <text x="0" y="-18" fill="white" font-size="10" font-family="sans-serif" text-anchor="middle" font-weight="bold">1</text>
+    </g>
+    <!-- 2. Идея (right-top) -->
+    <g transform="translate(104, -60)">
+      <circle cx="0" cy="0" r="30" fill="#00b894" stroke="#00d2a0" stroke-width="1.5"/>
+      <text x="0" y="-5" fill="white" font-size="8" font-family="sans-serif" text-anchor="middle">Идея</text>
+      <text x="0" y="8" fill="#ddd" font-size="7" font-family="sans-serif" text-anchor="middle">Концепция</text>
+      <circle cx="0" cy="-22" r="10" fill="#00856b"/>
+      <text x="0" y="-18" fill="white" font-size="10" font-family="sans-serif" text-anchor="middle" font-weight="bold">2</text>
+    </g>
+    <!-- 3. Проектирование (right-bottom) -->
+    <g transform="translate(104, 60)">
+      <circle cx="0" cy="0" r="30" fill="#e17055" stroke="#ff8a65" stroke-width="1.5"/>
+      <text x="0" y="-5" fill="white" font-size="8" font-family="sans-serif" text-anchor="middle">Проект</text>
+      <text x="0" y="8" fill="#ddd" font-size="7" font-family="sans-serif" text-anchor="middle">Разработка</text>
+      <circle cx="0" cy="-22" r="10" fill="#b5452f"/>
+      <text x="0" y="-18" fill="white" font-size="10" font-family="sans-serif" text-anchor="middle" font-weight="bold">3</text>
+    </g>
+    <!-- 4. Прототип (bottom) -->
+    <g transform="translate(0, 120)">
+      <circle cx="0" cy="0" r="30" fill="#fdcb6e" stroke="#ffe082" stroke-width="1.5"/>
+      <text x="0" y="-5" fill="#333" font-size="8" font-family="sans-serif" text-anchor="middle">Прототип</text>
+      <text x="0" y="8" fill="#555" font-size="7" font-family="sans-serif" text-anchor="middle">Макет</text>
+      <circle cx="0" cy="-22" r="10" fill="#d4a017"/>
+      <text x="0" y="-18" fill="#333" font-size="10" font-family="sans-serif" text-anchor="middle" font-weight="bold">4</text>
+    </g>
+    <!-- 5. Тестирование (left-bottom) -->
+    <g transform="translate(-104, 60)">
+      <circle cx="0" cy="0" r="30" fill="#00b4d8" stroke="#48cae4" stroke-width="1.5"/>
+      <text x="0" y="-5" fill="white" font-size="8" font-family="sans-serif" text-anchor="middle">Тест</text>
+      <text x="0" y="8" fill="#ddd" font-size="7" font-family="sans-serif" text-anchor="middle">Проверка</text>
+      <circle cx="0" cy="-22" r="10" fill="#0096b7"/>
+      <text x="0" y="-18" fill="white" font-size="10" font-family="sans-serif" text-anchor="middle" font-weight="bold">5</text>
+    </g>
+    <!-- 6. Результат (left-top) -->
+    <g transform="translate(-104, -60)">
+      <circle cx="0" cy="0" r="30" fill="#27c93f" stroke="#66ff77" stroke-width="1.5"/>
+      <text x="0" y="-5" fill="white" font-size="8" font-family="sans-serif" text-anchor="middle">Результат</text>
+      <text x="0" y="8" fill="#ddd" font-size="7" font-family="sans-serif" text-anchor="middle">Презентация</text>
+      <circle cx="0" cy="-22" r="10" fill="#1a9e2e"/>
+      <text x="0" y="-18" fill="white" font-size="10" font-family="sans-serif" text-anchor="middle" font-weight="bold">6</text>
+    </g>
+    <!-- Circular arrows -->
+    <path d="M-20,-115 A120,120 0 0,1 80,-85" fill="none" stroke="#ffd93d" stroke-width="1.5" marker-end="url(#arrowT1)"/>
+    <path d="M115,-42 A120,120 0 0,1 115,42" fill="none" stroke="#ffd93d" stroke-width="1.5" marker-end="url(#arrowT1)"/>
+    <path d="M80,85 A120,120 0 0,1 -20,115" fill="none" stroke="#ffd93d" stroke-width="1.5" marker-end="url(#arrowT1)"/>
+    <path d="M20,115 A120,120 0 0,1 -80,85" fill="none" stroke="#ffd93d" stroke-width="1.5" marker-end="url(#arrowT1)"/>
+    <path d="M-115,42 A120,120 0 0,1 -115,-42" fill="none" stroke="#ffd93d" stroke-width="1.5" marker-end="url(#arrowT1)"/>
+    <path d="M-80,-85 A120,120 0 0,1 -20,-115" fill="none" stroke="#ffd93d" stroke-width="1.5" marker-end="url(#arrowT1)"/>
+  </g>
+  <text x="250" y="340" fill="#aaa" font-size="9" opacity="0.5" font-family="sans-serif" text-anchor="middle">Основы проектной деятельности</text>
+</svg>

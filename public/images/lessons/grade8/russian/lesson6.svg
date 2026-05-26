@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="appealBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#appealBg)"/>
+  <text x="250" y="28" font-family="Georgia" font-size="14" fill="#1B5E20" text-anchor="middle" font-weight="bold">Обращения и междометия</text>
+  <!-- Large speech bubble -->
+  <path d="M60,50 Q60,40 70,40 L320,40 Q330,40 330,50 L330,120 Q330,130 320,130 L180,130 L160,160 L170,130 L70,130 Q60,130 60,120Z" fill="#FFF" stroke="#1B5E20" stroke-width="2"/>
+  <text x="195" y="75" font-family="Georgia" font-size="16" fill="#1B5E20" text-anchor="middle">
+    <tspan font-style="italic" fill="#D32F2F">Мария</tspan>,
+  </text>
+  <text x="195" y="100" font-family="Georgia" font-size="16" fill="#333" text-anchor="middle">
+    передай мне книгу!
+  </text>
+  <!-- Arrow pointing to "Мария" -->
+  <rect x="340" y="55" width="130" height="35" rx="8" fill="#D32F2F" opacity="0.1" stroke="#D32F2F" stroke-width="1.5"/>
+  <text x="405" y="70" font-family="Georgia" font-size="11" fill="#D32F2F" text-anchor="middle" font-weight="bold">ОБРАЩЕНИЕ</text>
+  <text x="405" y="83" font-family="Arial" font-size="9" fill="#999" text-anchor="middle">имя в звательном падеже</text>
+  <line x1="340" y1="72" x2="240" y2="72" stroke="#D32F2F" stroke-width="1" stroke-dasharray="3,2"/>
+  <!-- Interjection bubble -->
+  <path d="M70,180 Q70,170 80,170 L250,170 Q260,170 260,180 L260,230 Q260,240 250,240 L155,240 L140,260 L148,240 L80,240 Q70,240 70,230Z" fill="#FFF9C4" stroke="#F9A825" stroke-width="2"/>
+  <text x="165" y="210" font-family="Georgia" font-size="20" fill="#F57F17" text-anchor="middle" font-weight="bold">Ой!</text>
+  <rect x="280" y="195" width="150" height="30" rx="8" fill="#F9A825" opacity="0.15" stroke="#F9A825" stroke-width="1.5"/>
+  <text x="355" y="215" font-family="Georgia" font-size="11" fill="#F57F17" text-anchor="middle" font-weight="bold">МЕЖДОМЕТИЕ</text>
+  <!-- Punctuation rules -->
+  <rect x="20" y="270" width="460" height="55" rx="10" fill="#FFF" opacity="0.8"/>
+  <text x="250" y="290" font-family="Arial" font-size="10" fill="#333" text-anchor="middle">
+    <tspan fill="#D32F2F" font-weight="bold">Обращение</tspan> выделяется запятыми: <tspan font-style="italic">Друзья, идём!</tspan>
+  </text>
+  <text x="250" y="308" font-family="Arial" font-size="10" fill="#333" text-anchor="middle">
+    <tspan fill="#F57F17" font-weight="bold">Междометие</tspan> отделяется запятой или !: <tspan font-style="italic">Увы! Всё потеряно.</tspan>
+  </text>
+  <!-- Small examples -->
+  <g font-family="Georgia" font-size="10" fill="#555">
+    <text x="50" y="345" font-style="italic">— Привет, ребята!</text>
+    <text x="200" y="345" font-style="italic">— Ах, как красиво!</text>
+    <text x="340" y="345" font-style="italic">— Эй, подожди!</text>
+  </g>
+  <text x="250" y="345" font-family="Arial" font-size="9" fill="#000" opacity="0.5" text-anchor="middle">Обращения и междометия</text>
+</svg>

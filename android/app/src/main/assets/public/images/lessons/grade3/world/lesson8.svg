@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg8" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F5E9"/>
+      <stop offset="100%" style="stop-color:#C8E6C9"/>
+    </linearGradient>
+    <linearGradient id="lung8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EF9A9A"/>
+      <stop offset="100%" style="stop-color:#E57373"/>
+    </linearGradient>
+    <linearGradient id="air8" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#81D4FA"/>
+      <stop offset="100%" style="stop-color:#4FC3F7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg8)"/>
+
+  <!-- Floating air bubbles -->
+  <g opacity="0.3">
+    <circle cx="30" cy="50" r="8" fill="url(#air8)">
+      <animate attributeName="cy" values="50;30;50" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="470" cy="80" r="6" fill="url(#air8)">
+      <animate attributeName="cy" values="80;60;80" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="450" cy="150" r="5" fill="url(#air8)">
+      <animate attributeName="cy" values="150;130;150" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Title -->
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2E7D32" text-anchor="middle">🫁 Дыхательная система</text>
+  <rect x="80" y="38" width="340" height="2" rx="1" fill="#4CAF50" opacity="0.5"/>
+
+  <!-- Head -->
+  <ellipse cx="250" cy="80" rx="28" ry="32" fill="#FFCCBC" stroke="#E64A19" stroke-width="2"/>
+  
+  <!-- Nose -->
+  <path d="M245,75 L250,85 L255,75" stroke="#D84315" stroke-width="2" fill="none"/>
+  
+  <!-- Mouth -->
+  <ellipse cx="250" cy="95" rx="8" ry="4" fill="#E57373"/>
+  
+  <!-- Air flow through nose -->
+  <g>
+    <ellipse cx="247" cy="85" rx="2" ry="3" fill="#81D4FA" opacity="0.7">
+      <animate attributeName="opacity" values="0.7;0;0.7" dur="2s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="253" cy="85" rx="2" ry="3" fill="#81D4FA" opacity="0.7">
+      <animate attributeName="opacity" values="0.7;0;0.7" dur="2s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- Neck -->
+  <rect x="238" y="110" width="24" height="25" fill="#FFCCBC"/>
+  
+  <!-- Trachea -->
+  <rect x="243" y="135" width="14" height="60" rx="5" fill="#FFAB91" stroke="#E64A19" stroke-width="1.5">
+    <animate attributeName="height" values="60;62;60" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Trachea rings -->
+  <g stroke="#E64A19" stroke-width="1" opacity="0.5">
+    <line x1="243" y1="145" x2="257" y2="145"/>
+    <line x1="243" y1="155" x2="257" y2="155"/>
+    <line x1="243" y1="165" x2="257" y2="165"/>
+    <line x1="243" y1="175" x2="257" y2="175"/>
+    <line x1="243" y1="185" x2="257" y2="185"/>
+  </g>
+
+  <!-- Bronchi -->
+  <path d="M243,195 Q230,200 220,220" stroke="#FFAB91" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M257,195 Q270,200 280,220" stroke="#FFAB91" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+  <!-- Left Lung -->
+  <g>
+    <path d="M130,200 Q100,230 110,280 Q130,320 180,320 Q220,320 230,280 Q240,230 220,200 Q200,180 160,180 Q130,180 130,200" 
+          fill="url(#lung8)" stroke="#C62828" stroke-width="2">
+      <animate attributeName="d" 
+               values="M130,200 Q100,230 110,280 Q130,320 180,320 Q220,320 230,280 Q240,230 220,200 Q200,180 160,180 Q130,180 130,200;
+                       M130,195 Q95,225 105,275 Q125,315 180,315 Q225,315 235,275 Q245,225 225,195 Q205,175 160,175 Q130,175 130,195;
+                       M130,200 Q100,230 110,280 Q130,320 180,320 Q220,320 230,280 Q240,230 220,200 Q200,180 160,180 Q130,180 130,200"
+               dur="4s" repeatCount="indefinite"/>
+    </path>
+    <!-- Lung details -->
+    <path d="M160,200 Q170,260 165,300" stroke="#EF5350" stroke-width="1" fill="none" opacity="0.5"/>
+    <path d="M140,220 Q145,260 140,290" stroke="#EF5350" stroke-width="1" fill="none" opacity="0.5"/>
+    <path d="M180,220 Q175,260 180,290" stroke="#EF5350" stroke-width="1" fill="none" opacity="0.5"/>
+  </g>
+
+  <!-- Right Lung -->
+  <g>
+    <path d="M370,200 Q400,230 390,280 Q370,320 320,320 Q280,320 270,280 Q260,230 280,200 Q300,180 340,180 Q370,180 370,200" 
+          fill="url(#lung8)" stroke="#C62828" stroke-width="2">
+      <animate attributeName="d" 
+               values="M370,200 Q400,230 390,280 Q370,320 320,320 Q280,320 270,280 Q260,230 280,200 Q300,180 340,180 Q370,180 370,200;
+                       M370,195 Q405,225 395,275 Q375,315 320,315 Q275,315 265,275 Q255,225 275,195 Q295,175 340,175 Q370,175 370,195;
+                       M370,200 Q400,230 390,280 Q370,320 320,320 Q280,320 270,280 Q260,230 280,200 Q300,180 340,180 Q370,180 370,200"
+               dur="4s" repeatCount="indefinite"/>
+    </path>
+    <!-- Lung details -->
+    <path d="M340,200 Q330,260 335,300" stroke="#EF5350" stroke-width="1" fill="none" opacity="0.5"/>
+    <path d="M360,220 Q355,260 360,290" stroke="#EF5350" stroke-width="1" fill="none" opacity="0.5"/>
+    <path d="M320,220 Q325,260 320,290" stroke="#EF5350" stroke-width="1" fill="none" opacity="0.5"/>
+  </g>
+
+  <!-- Air flow animation -->
+  <g>
+    <circle cx="250" cy="150" r="3" fill="#4FC3F7">
+      <animate attributeName="cy" values="150;180;210;180;150" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.5;0;0.5;1" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="250" cy="155" r="3" fill="#4FC3F7">
+      <animate attributeName="cy" values="155;185;215;185;155" dur="4s" repeatCount="indefinite" begin="0.5s"/>
+      <animate attributeName="opacity" values="1;0.5;0;0.5;1" dur="4s" repeatCount="indefinite" begin="0.5s"/>
+    </circle>
+  </g>
+
+  <!-- Labels -->
+  <g font-family="Arial, sans-serif" font-size="10">
+    <!-- Nose label -->
+    <line x1="280" y1="80" x2="330" y2="65" stroke="#2E7D32" stroke-width="1"/>
+    <text x="335" y="68" fill="#2E7D32" font-weight="bold">Нос</text>
+
+    <!-- Trachea label -->
+    <line x1="260" y1="160" x2="330" y2="150" stroke="#2E7D32" stroke-width="1"/>
+    <text x="335" y="153" fill="#2E7D32" font-weight="bold">Трахея</text>
+
+    <!-- Bronchi label -->
+    <line x1="280" y1="200" x2="350" y2="185" stroke="#2E7D32" stroke-width="1"/>
+    <text x="355" y="188" fill="#2E7D32" font-weight="bold">Бронхи</text>
+
+    <!-- Lungs label -->
+    <line x1="250" y1="270" x2="250" y2="300" stroke="#2E7D32" stroke-width="1"/>
+    <text x="250" y="315" fill="#C62828" text-anchor="middle" font-weight="bold">Лёгкие</text>
+  </g>
+
+  <!-- Info box -->
+  <g transform="translate(15, 180)">
+    <rect x="0" y="0" width="90" height="90" rx="8" fill="#FFFFFF" opacity="0.9" stroke="#4CAF50"/>
+    <text x="45" y="18" font-family="Arial, sans-serif" font-size="10" fill="#2E7D32" text-anchor="middle" font-weight="bold">Дыхание:</text>
+    <text x="45" y="38" font-family="Arial, sans-serif" font-size="9" fill="#388E3C" text-anchor="middle">Вдох ➡️</text>
+    <text x="45" y="55" font-family="Arial, sans-serif" font-size="9" fill="#388E3C" text-anchor="middle">Кислород</text>
+    <text x="45" y="72" font-family="Arial, sans-serif" font-size="9" fill="#388E3C" text-anchor="middle">Выдох ⬅️</text>
+    <text x="45" y="88" font-family="Arial, sans-serif" font-size="9" fill="#388E3C" text-anchor="middle">Углекислый газ</text>
+  </g>
+
+  <!-- Trees illustration -->
+  <g transform="translate(400, 220)">
+    <rect x="0" y="0" width="90" height="80" rx="8" fill="#FFFFFF" opacity="0.9" stroke="#4CAF50"/>
+    <text x="45" y="18" font-family="Arial, sans-serif" font-size="10" fill="#2E7D32" text-anchor="middle" font-weight="bold">🌳 Деревья</text>
+    <text x="45" y="38" font-family="Arial, sans-serif" font-size="9" fill="#388E3C" text-anchor="middle">выделяют</text>
+    <text x="45" y="55" font-family="Arial, sans-serif" font-size="9" fill="#388E3C" text-anchor="middle">кислород</text>
+    <text x="45" y="72" font-family="Arial, sans-serif" font-size="8" fill="#4CAF50" text-anchor="middle">для дыхания</text>
+  </g>
+
+  <!-- Bottom message -->
+  <text x="250" y="345" font-family="Arial, sans-serif" font-size="10" fill="#2E7D32" text-anchor="middle">
+    Дыши свежим воздухом! 🌬️
+  </text>
+</svg>

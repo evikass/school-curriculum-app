@@ -1,0 +1,73 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="350" fill="#0d1117"/>
+  <!-- AND Gate -->
+  <rect x="30" y="30" width="140" height="130" rx="6" fill="#161b22" stroke="#58a6ff" stroke-width="1.5"/>
+  <text x="65" y="50" font-size="14" fill="#58a6ff" font-weight="bold">AND</text>
+  <!-- AND gate shape -->
+  <path d="M60,70 L60,120 L100,120 A30,25 0 0,0 100,70 Z" fill="none" stroke="#58a6ff" stroke-width="2"/>
+  <text x="72" y="100" font-size="10" fill="#58a6ff">&amp;</text>
+  <!-- AND inputs -->
+  <line x1="40" y1="82" x2="60" y2="82" stroke="#4caf50" stroke-width="2"/>
+  <text x="32" y="86" font-size="9" fill="#4caf50">1</text>
+  <line x1="40" y1="108" x2="60" y2="108" stroke="#4caf50" stroke-width="2"/>
+  <text x="32" y="112" font-size="9" fill="#4caf50">1</text>
+  <!-- AND output -->
+  <line x1="130" y1="95" x2="150" y2="95" stroke="#ff9800" stroke-width="2"/>
+  <text x="152" y="99" font-size="9" fill="#ff9800">1</text>
+  <!-- Truth table for AND -->
+  <text x="50" y="138" font-size="8" fill="#8b949e">1 AND 1 = 1</text>
+  <text x="50" y="150" font-size="8" fill="#8b949e">1 AND 0 = 0</text>
+  <!-- OR Gate -->
+  <rect x="180" y="30" width="140" height="130" rx="6" fill="#161b22" stroke="#f97583" stroke-width="1.5"/>
+  <text x="225" y="50" font-size="14" fill="#f97583" font-weight="bold">OR</text>
+  <!-- OR gate shape -->
+  <path d="M210,70 Q220,95 210,120 Q240,120 260,95 Q240,70 210,70 Z" fill="none" stroke="#f97583" stroke-width="2"/>
+  <text x="232" y="100" font-size="10" fill="#f97583">≥1</text>
+  <!-- OR inputs -->
+  <line x1="195" y1="82" x2="215" y2="82" stroke="#4caf50" stroke-width="2"/>
+  <text x="187" y="86" font-size="9" fill="#4caf50">0</text>
+  <line x1="195" y1="108" x2="215" y2="108" stroke="#4caf50" stroke-width="2"/>
+  <text x="187" y="112" font-size="9" fill="#4caf50">1</text>
+  <!-- OR output -->
+  <line x1="260" y1="95" x2="280" y2="95" stroke="#ff9800" stroke-width="2"/>
+  <text x="282" y="99" font-size="9" fill="#ff9800">1</text>
+  <text x="200" y="138" font-size="8" fill="#8b949e">0 OR 1 = 1</text>
+  <text x="200" y="150" font-size="8" fill="#8b949e">0 OR 0 = 0</text>
+  <!-- NOT Gate -->
+  <rect x="330" y="30" width="140" height="130" rx="6" fill="#161b22" stroke="#d2a8ff" stroke-width="1.5"/>
+  <text x="375" y="50" font-size="14" fill="#d2a8ff" font-weight="bold">NOT</text>
+  <!-- NOT gate shape - triangle with circle -->
+  <polygon points="350,75 350,120 400,97" fill="none" stroke="#d2a8ff" stroke-width="2"/>
+  <circle cx="406" cy="97" r="6" fill="none" stroke="#d2a8ff" stroke-width="2"/>
+  <text x="370" y="102" font-size="9" fill="#d2a8ff">1</text>
+  <!-- NOT input -->
+  <line x1="335" y1="97" x2="350" y2="97" stroke="#4caf50" stroke-width="2"/>
+  <text x="327" y="101" font-size="9" fill="#4caf50">1</text>
+  <!-- NOT output -->
+  <line x1="412" y1="97" x2="435" y2="97" stroke="#ff9800" stroke-width="2"/>
+  <text x="437" y="101" font-size="9" fill="#ff9800">0</text>
+  <text x="350" y="138" font-size="8" fill="#8b949e">NOT 1 = 0</text>
+  <text x="350" y="150" font-size="8" fill="#8b949e">NOT 0 = 1</text>
+  <!-- Python code -->
+  <rect x="50" y="185" width="400" height="120" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="70" y="210" font-family="monospace" font-size="11" fill="#e0e0e0">a = </text>
+  <text x="100" y="210" font-family="monospace" font-size="11" fill="#79c0ff">True</text>
+  <text x="70" y="230" font-family="monospace" font-size="11" fill="#e0e0e0">b = </text>
+  <text x="100" y="230" font-family="monospace" font-size="11" fill="#79c0ff">False</text>
+  <text x="70" y="255" font-family="monospace" font-size="11" fill="#58a6ff">print</text>
+  <text x="105" y="255" font-family="monospace" font-size="11" fill="#e0e0e0">(a </text>
+  <text x="125" y="255" font-family="monospace" font-size="11" fill="#f97583">and</text>
+  <text x="155" y="255" font-family="monospace" font-size="11" fill="#e0e0e0"> b)  </text>
+  <text x="185" y="255" font-family="monospace" font-size="11" fill="#8b949e"># False</text>
+  <text x="70" y="275" font-family="monospace" font-size="11" fill="#58a6ff">print</text>
+  <text x="105" y="275" font-family="monospace" font-size="11" fill="#e0e0e0">(a </text>
+  <text x="125" y="275" font-family="monospace" font-size="11" fill="#f97583">or</text>
+  <text x="145" y="275" font-family="monospace" font-size="11" fill="#e0e0e0"> b)   </text>
+  <text x="185" y="275" font-family="monospace" font-size="11" fill="#8b949e"># True</text>
+  <text x="70" y="295" font-family="monospace" font-size="11" fill="#58a6ff">print</text>
+  <text x="105" y="295" font-family="monospace" font-size="11" fill="#e0e0e0">(</text>
+  <text x="110" y="295" font-family="monospace" font-size="11" fill="#f97583">not</text>
+  <text x="140" y="295" font-family="monospace" font-size="11" fill="#e0e0e0"> a)   </text>
+  <text x="185" y="295" font-family="monospace" font-size="11" fill="#8b949e"># False</text>
+  <text x="200" y="340" font-size="9" fill="#fff" opacity="0.5">Логические операторы</text>
+</svg>

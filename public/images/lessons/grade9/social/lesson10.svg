@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><linearGradient id="g10" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#38A169"/><stop offset="100%" stop-color="#276749"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#g10)"/>
+  <!-- Group circles -->
+  <circle cx="150" cy="100" r="50" fill="#F6AD55" opacity="0.25"/><circle cx="350" cy="100" r="50" fill="#63B3ED" opacity="0.25"/>
+  <circle cx="250" cy="200" r="50" fill="#FC8181" opacity="0.25"/><circle cx="100" cy="230" r="35" fill="#9F7AEA" opacity="0.25"/>
+  <circle cx="400" cy="230" r="35" fill="#F6E05E" opacity="0.2"/>
+  <!-- People dots in groups -->
+  <g fill="#FFF" opacity="0.5">
+    <circle cx="135" cy="85" r="4"/><circle cx="155" cy="95" r="4"/><circle cx="145" cy="110" r="4"/><circle cx="160" cy="115" r="4"/>
+    <circle cx="335" cy="85" r="4"/><circle cx="355" cy="95" r="4"/><circle cx="365" cy="110" r="4"/><circle cx="340" cy="115" r="4"/>
+    <circle cx="235" cy="185" r="4"/><circle cx="255" cy="195" r="4"/><circle cx="245" cy="210" r="4"/><circle cx="260" cy="205" r="4"/>
+  </g>
+  <text x="150" y="160" text-anchor="middle" font-size="9" fill="#F6AD55" opacity="0.7">Демографич.</text>
+  <text x="350" y="160" text-anchor="middle" font-size="9" fill="#63B3ED" opacity="0.7">Профессион.</text>
+  <text x="250" y="260" text-anchor="middle" font-size="9" fill="#FC8181" opacity="0.7">Этнические</text>
+  <text x="250" y="310" text-anchor="middle" font-size="18" fill="#E2E8F0" font-weight="bold" opacity="0.6">Социальные группы</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#E2E8F0" opacity="0.5">Социальные группы</text>
+</svg>

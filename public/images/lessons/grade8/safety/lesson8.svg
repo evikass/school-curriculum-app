@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="water8s" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4fc3f7"/>
+      <stop offset="50%" stop-color="#0288d1"/>
+      <stop offset="100%" stop-color="#01579b"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="#e1f5fe"/>
+  
+  <!-- Water body -->
+  <rect x="0" y="120" width="500" height="230" fill="url(#water8s)"/>
+  
+  <!-- Shore/bank -->
+  <path d="M0,120 Q60,115 120,120 Q180,125 240,118 Q300,112 360,120 Q420,128 500,120 L500,130 L0,130 Z" fill="#8d6e63"/>
+  <rect x="0" y="110" width="500" height="12" fill="#a1887f" opacity="0.5"/>
+  
+  <!-- Waves -->
+  <g stroke="#81d4fa" stroke-width="1.5" fill="none" opacity="0.4">
+    <path d="M0,160 Q40,155 80,160 Q120,165 160,160 Q200,155 240,160"/>
+    <path d="M260,155 Q300,150 340,155 Q380,160 420,155 Q460,150 500,155"/>
+    <path d="M0,200 Q50,195 100,200 Q150,205 200,200"/>
+    <path d="M300,200 Q350,195 400,200 Q450,205 500,200"/>
+  </g>
+  
+  <!-- Drowning person -->
+  <g transform="translate(300,155)">
+    <!-- Head above water -->
+    <circle cx="0" cy="-8" r="10" fill="#ffb57c"/>
+    <path d="M-10,-8 Q0,-16 10,-8" fill="#333"/>
+    <!-- Mouth open, distressed -->
+    <ellipse cx="5" cy="-2" rx="3" ry="2" fill="#c62828" opacity="0.5"/>
+    <!-- Eyes -->
+    <circle cx="-3" cy="-5" r="1.5" fill="#333"/>
+    <circle cx="5" cy="-5" r="1.5" fill="#333"/>
+    <!-- Hand waving -->
+    <path d="M8,0 Q18,-15 15,-25" stroke="#ffb57c" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M-8,0 Q-15,-10 -10,-20" stroke="#ffb57c" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Splashing -->
+    <g fill="#b3e5fc" opacity="0.7">
+      <circle cx="20" cy="-12" r="2"/>
+      <circle cx="25" cy="-8" r="1.5"/>
+      <circle cx="-18" cy="-5" r="2"/>
+      <circle cx="-20" cy="0" r="1.5"/>
+      <circle cx="22" cy="0" r="1.5"/>
+    </g>
+    <!-- Water line around person -->
+    <path d="M-15,0 Q-8,5 0,0 Q8,5 15,0" stroke="#81d4fa" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Rescuer on shore (throwing life ring) -->
+  <g transform="translate(100,95)">
+    <!-- Person on bank -->
+    <circle cx="0" cy="-25" r="10" fill="#ffb57c"/>
+    <path d="M-10,-25 Q0,-33 10,-25" fill="#333"/>
+    <!-- Body -->
+    <path d="M0,-15 L0,10" stroke="#1e88e5" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <!-- Legs -->
+    <path d="M0,10 L-8,30" stroke="#ffb57c" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+    <path d="M0,10 L8,28" stroke="#ffb57c" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+    <!-- Throwing arm -->
+    <path d="M0,-8 Q20,-20 30,-25" stroke="#ffb57c" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Other arm -->
+    <path d="M0,-8 Q-15,-5 -18,5" stroke="#ffb57c" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Life ring in flight -->
+  <g transform="translate(200,80)">
+    <circle r="18" fill="none" stroke="#e53935" stroke-width="5"/>
+    <circle r="18" fill="none" stroke="#fff" stroke-width="2.5" stroke-dasharray="9,9"/>
+    <!-- Rope attached -->
+    <path d="M-15,12 Q-30,20 -50,25 Q-70,28 -90,25" stroke="#8d6e63" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Trajectory line for ring -->
+  <path d="M130,70 Q180,50 200,80 Q230,110 280,140" stroke="#e53935" stroke-width="1.5" fill="none" stroke-dasharray="5,4" opacity="0.5"/>
+  
+  <!-- Second rescuer with reaching pole -->
+  <g transform="translate(150,100)">
+    <!-- Person kneeling -->
+    <circle cx="25" cy="-15" r="8" fill="#ffb57c"/>
+    <path d="M17,-15 Q25,-22 33,-15" fill="#4a2800"/>
+    <!-- Body kneeling -->
+    <path d="M25,-7 L22,8" stroke="#4caf50" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- Arm extending pole -->
+    <path d="M22,0 Q30,-5 35,-2" stroke="#ffb57c" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <!-- Pole -->
+    <line x1="35" y1="-2" x2="180" y2="55" stroke="#8d6e63" stroke-width="3"/>
+    <circle cx="180" cy="55" r="3" fill="#8d6e63"/>
+  </g>
+  
+  <!-- Safety rules text boxes -->
+  <g transform="translate(400,80)">
+    <rect x="-65" y="-30" width="130" height="95" rx="5" fill="white" opacity="0.85" stroke="#0288d1" stroke-width="1"/>
+    <text x="0" y="-18" text-anchor="middle" font-size="7" fill="#01579b" font-weight="bold" font-family="Arial">ПРАВИЛА:</text>
+    <text x="-55" y="-5" font-size="6" fill="#333" font-family="Arial">1. Не входи в воду!</text>
+    <text x="-55" y="6" font-size="6" fill="#333" font-family="Arial">2. Брось спасательный</text>
+    <text x="-50" y="14" font-size="6" fill="#333" font-family="Arial">круг или верёвку</text>
+    <text x="-55" y="25" font-size="6" fill="#333" font-family="Arial">3. Протяни шест/ветку</text>
+    <text x="-55" y="36" font-size="6" fill="#333" font-family="Arial">4. Вызови помощь 112</text>
+    <text x="-55" y="47" font-size="6" fill="#e53935" font-weight="bold" font-family="Arial">5. Не плыви к нему!</text>
+  </g>
+  
+  <!-- Warning cross -->
+  <g transform="translate(350,200)">
+    <circle r="15" fill="#e53935" opacity="0.15"/>
+    <line x1="-8" y1="-8" x2="8" y2="8" stroke="#e53935" stroke-width="3"/>
+    <line x1="8" y1="-8" x2="-8" y2="8" stroke="#e53935" stroke-width="3"/>
+  </g>
+  
+  <text x="250" y="342" text-anchor="middle" font-size="9" opacity="0.5" fill="#01579b" font-family="Arial, sans-serif">Помощь утопающему</text>
+</svg>

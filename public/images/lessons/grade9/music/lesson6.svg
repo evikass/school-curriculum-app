@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#0a0a1a"/>
+  <!-- Stage/platform -->
+  <rect x="50" y="230" width="400" height="10" fill="#2a2a3e" opacity="0.6"/>
+  <rect x="60" y="240" width="380" height="5" fill="#1a1a2e" opacity="0.4"/>
+  <!-- Conductor podium -->
+  <rect x="240" y="215" width="20" height="15" fill="#4a3728" opacity="0.5"/>
+  <!-- Conductor silhouette -->
+  <circle cx="250" cy="195" r="12" fill="#e8dcc8" opacity="0.3"/>
+  <path d="M238 207 Q250 202 262 207 L258 240 L242 240 Z" fill="#1a1a2e" opacity="0.4"/>
+  <!-- Baton -->
+  <line x1="260" y1="200" x2="280" y2="175" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
+  <!-- String section (left) -->
+  <g opacity="0.4">
+    <!-- Violins -->
+    <ellipse cx="100" cy="195" rx="10" ry="7" fill="#c49535" opacity="0.5"/>
+    <line x1="109" y1="193" x2="109" y2="170" stroke="#8b5e3c" stroke-width="1" opacity="0.5"/>
+    <ellipse cx="130" cy="200" rx="10" ry="7" fill="#c49535" opacity="0.5"/>
+    <line x1="139" y1="198" x2="139" y2="175" stroke="#8b5e3c" stroke-width="1" opacity="0.5"/>
+    <ellipse cx="160" cy="195" rx="10" ry="7" fill="#c49535" opacity="0.5"/>
+    <line x1="169" y1="193" x2="169" y2="170" stroke="#8b5e3c" stroke-width="1" opacity="0.5"/>
+    <!-- Cello -->
+    <ellipse cx="100" cy="215" rx="14" ry="10" fill="#c49535" opacity="0.4"/>
+    <line x1="113" y1="210" x2="113" y2="180" stroke="#8b5e3c" stroke-width="1.5" opacity="0.4"/>
+  </g>
+  <!-- Woodwinds section (center-left) -->
+  <g opacity="0.4">
+    <!-- Flute -->
+    <rect x="195" y="195" width="35" height="5" rx="2" fill="#c0c0c0" opacity="0.5"/>
+    <!-- Clarinet -->
+    <rect x="195" y="210" width="30" height="6" rx="2" fill="#1a1a2e" stroke="#c49535" stroke-width="0.5" opacity="0.5"/>
+  </g>
+  <!-- Brass section (center-right) -->
+  <g opacity="0.4">
+    <!-- Trumpet -->
+    <rect x="285" y="195" width="30" height="5" rx="1" fill="#ffd93d" opacity="0.5"/>
+    <circle cx="315" cy="197" r="7" fill="none" stroke="#ffd93d" stroke-width="1" opacity="0.5"/>
+    <!-- French horn -->
+    <circle cx="305" cy="218" r="12" fill="none" stroke="#ffd93d" stroke-width="1.5" opacity="0.4"/>
+    <rect x="290" y="216" width="15" height="5" fill="#ffd93d" opacity="0.3"/>
+  </g>
+  <!-- Percussion section (right) -->
+  <g opacity="0.4">
+    <!-- Timpani -->
+    <ellipse cx="400" cy="210" rx="20" ry="8" fill="#c44d3e" opacity="0.4"/>
+    <path d="M380 210 Q400 190 420 210" fill="#c44d3e" opacity="0.25"/>
+    <ellipse cx="430" cy="215" rx="15" ry="6" fill="#c44d3e" opacity="0.35"/>
+    <path d="M415 215 Q430 198 445 215" fill="#c44d3e" opacity="0.2"/>
+    <!-- Cymbals -->
+    <ellipse cx="380" cy="185" rx="12" ry="3" fill="#ffd93d" opacity="0.3" transform="rotate(-20,380,185)"/>
+    <ellipse cx="390" cy="183" rx="12" ry="3" fill="#ffd93d" opacity="0.3" transform="rotate(20,390,183)"/>
+  </g>
+  <!-- Section labels -->
+  <text x="130" y="270" font-size="7" fill="#c49535" opacity="0.4" text-anchor="middle" font-family="sans-serif">Струнные</text>
+  <text x="210" y="270" font-size="7" fill="#c0c0c0" opacity="0.4" text-anchor="middle" font-family="sans-serif">Деревянные</text>
+  <text x="300" y="270" font-size="7" fill="#ffd93d" opacity="0.4" text-anchor="middle" font-family="sans-serif">Медные</text>
+  <text x="410" y="270" font-size="7" fill="#c44d3e" opacity="0.4" text-anchor="middle" font-family="sans-serif">Ударные</text>
+  <!-- Musical staff fragment -->
+  <g opacity="0.2">
+    <line x1="100" y1="300" x2="400" y2="300" stroke="#fff" stroke-width="0.5"/>
+    <line x1="100" y1="308" x2="400" y2="308" stroke="#fff" stroke-width="0.5"/>
+    <line x1="100" y1="316" x2="400" y2="316" stroke="#fff" stroke-width="0.5"/>
+    <line x1="100" y1="324" x2="400" y2="324" stroke="#fff" stroke-width="0.5"/>
+    <line x1="100" y1="332" x2="400" y2="332" stroke="#fff" stroke-width="0.5"/>
+  </g>
+  <text x="250" y="340" font-size="9" fill="#ffffff" opacity="0.5" text-anchor="middle" font-family="sans-serif">Симфонический оркестр</text>
+</svg>

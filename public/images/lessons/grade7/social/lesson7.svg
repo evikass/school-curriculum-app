@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#1a1a2e"/>
+<circle cx="120" cy="100" r="16" fill="#EF5350"/>
+<line x1="120" y1="116" x2="120" y2="155" stroke="#EF5350" stroke-width="2.5"/>
+<line x1="105" y1="130" x2="135" y2="130" stroke="#EF5350" stroke-width="2"/>
+<line x1="120" y1="155" x2="105" y2="180" stroke="#EF5350" stroke-width="2"/>
+<line x1="120" y1="155" x2="135" y2="180" stroke="#EF5350" stroke-width="2"/>
+<circle cx="200" cy="100" r="16" fill="#EF5350"/>
+<line x1="200" y1="116" x2="200" y2="155" stroke="#EF5350" stroke-width="2.5"/>
+<line x1="185" y1="130" x2="215" y2="130" stroke="#EF5350" stroke-width="2"/>
+<line x1="200" y1="155" x2="185" y2="180" stroke="#EF5350" stroke-width="2"/>
+<line x1="200" y1="155" x2="215" y2="180" stroke="#EF5350" stroke-width="2"/>
+<line x1="138" y1="92" x2="182" y2="92" stroke="#FF5252" stroke-width="3"/>
+<text x="160" y="82" font-family="Arial" font-size="14" fill="#FF5252" text-anchor="middle">⚡</text>
+<text x="160" y="200" font-family="Arial" font-size="8" fill="#FF8A80" text-anchor="middle">Конфликт</text>
+<path d="M230,140 L270,140" stroke="#FFD700" stroke-width="2"/>
+<polygon points="265,135 275,140 265,145" fill="#FFD700"/>
+<circle cx="320" cy="100" r="16" fill="#4CAF50"/>
+<line x1="320" y1="116" x2="320" y2="155" stroke="#4CAF50" stroke-width="2.5"/>
+<line x1="305" y1="130" x2="335" y2="130" stroke="#4CAF50" stroke-width="2"/>
+<line x1="320" y1="155" x2="305" y2="180" stroke="#4CAF50" stroke-width="2"/>
+<line x1="320" y1="155" x2="335" y2="180" stroke="#4CAF50" stroke-width="2"/>
+<circle cx="400" cy="100" r="16" fill="#4CAF50"/>
+<line x1="400" y1="116" x2="400" y2="155" stroke="#4CAF50" stroke-width="2.5"/>
+<line x1="385" y1="130" x2="415" y2="130" stroke="#4CAF50" stroke-width="2"/>
+<line x1="400" y1="155" x2="385" y2="180" stroke="#4CAF50" stroke-width="2"/>
+<line x1="400" y1="155" x2="415" y2="180" stroke="#4CAF50" stroke-width="2"/>
+<path d="M338,95 Q360,80 382,95" stroke="#4CAF50" stroke-width="2" fill="none"/>
+<text x="360" y="82" font-family="Arial" font-size="14" fill="#4CAF50" text-anchor="middle">🤝</text>
+<text x="360" y="200" font-family="Arial" font-size="8" fill="#A5D6A7" text-anchor="middle">Решение</text>
+<rect x="60" y="230" width="380" height="80" fill="#0a1a2e" rx="6" stroke="#3a5a7a" stroke-width="0.8"/>
+<text x="250" y="250" font-family="Arial" font-size="9" fill="#88AACC" text-anchor="middle" font-weight="bold">Этапы разрешения конфликта</text>
+<circle cx="115" cy="275" r="12" fill="#EF5350" opacity="0.7"/>
+<text x="115" y="278" font-family="Arial" font-size="7" fill="white" text-anchor="middle">1</text>
+<text x="115" y="296" font-family="Arial" font-size="6" fill="#FF8A80" text-anchor="middle">Причина</text>
+<circle cx="195" cy="275" r="12" fill="#FF9800" opacity="0.7"/>
+<text x="195" y="278" font-family="Arial" font-size="7" fill="white" text-anchor="middle">2</text>
+<text x="195" y="296" font-family="Arial" font-size="6" fill="#FFB74D" text-anchor="middle">Диалог</text>
+<circle cx="275" cy="275" r="12" fill="#2196F3" opacity="0.7"/>
+<text x="275" y="278" font-family="Arial" font-size="7" fill="white" text-anchor="middle">3</text>
+<text x="275" y="296" font-family="Arial" font-size="6" fill="#90CAF9" text-anchor="middle">Компромисс</text>
+<circle cx="355" cy="275" r="12" fill="#4CAF50" opacity="0.7"/>
+<text x="355" y="278" font-family="Arial" font-size="7" fill="white" text-anchor="middle">4</text>
+<text x="355" y="296" font-family="Arial" font-size="6" fill="#A5D6A7" text-anchor="middle">Мир</text>
+<line x1="127" y1="275" x2="183" y2="275" stroke="#5a7a9a" stroke-width="1" stroke-dasharray="3,2"/>
+<line x1="207" y1="275" x2="263" y2="275" stroke="#5a7a9a" stroke-width="1" stroke-dasharray="3,2"/>
+<line x1="287" y1="275" x2="343" y2="275" stroke="#5a7a9a" stroke-width="1" stroke-dasharray="3,2"/>
+<text x="250" y="342" font-family="Arial" font-size="9" fill="#88AACC" text-anchor="middle" opacity="0.5">Конфликты и их решение</text>
+</svg>

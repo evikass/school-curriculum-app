@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="sky4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#D1C4E9;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#EDE7F6;stop-opacity:0.3"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#sky4)"/>
+  <rect width="500" height="350" fill="#FCE4EC" opacity="0.3"/>
+  
+  <!-- Sun -->
+  <circle cx="420" cy="50" r="28" fill="#FFD54F" opacity="0.7">
+    <animate attributeName="r" values="26;30;26" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#6A1B9A" text-anchor="middle">🔚 Окончание</text>
+  <rect x="100" y="42" width="300" height="2" rx="1" fill="#AB47BC" opacity="0.5"/>
+  
+  <!-- Ground -->
+  <ellipse cx="250" cy="320" rx="260" ry="45" fill="#CE93D8" opacity="0.4"/>
+  
+  <!-- Word form changes -->
+  <g transform="translate(50, 100)">
+    <!-- Word forms -->
+    <rect x="0" y="0" width="70" height="35" fill="#9C27B0" rx="5"/>
+    <text x="35" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFF" text-anchor="middle">лес</text>
+    <text x="35" y="55" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle">(нулевое)</text>
+    
+    <rect x="85" y="0" width="70" height="35" fill="#9C27B0" rx="5"/>
+    <text x="120" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFF" text-anchor="middle">лес<b>а</b></text>
+    <text x="120" y="55" font-family="Arial, sans-serif" font-size="10" fill="#E91E63" text-anchor="middle">-а</text>
+    
+    <rect x="170" y="0" width="70" height="35" fill="#9C27B0" rx="5"/>
+    <text x="205" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFF" text-anchor="middle">лес<b>у</b></text>
+    <text x="205" y="55" font-family="Arial, sans-serif" font-size="10" fill="#E91E63" text-anchor="middle">-у</text>
+    
+    <rect x="255" y="0" width="80" height="35" fill="#9C27B0" rx="5"/>
+    <text x="295" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFF" text-anchor="middle">лес<b>ом</b></text>
+    <text x="295" y="55" font-family="Arial, sans-serif" font-size="10" fill="#E91E63" text-anchor="middle">-ом</text>
+    
+    <rect x="350" y="0" width="80" height="35" fill="#9C27B0" rx="5"/>
+    <text x="390" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFF" text-anchor="middle">о лес<b>е</b></text>
+    <text x="390" y="55" font-family="Arial, sans-serif" font-size="10" fill="#E91E63" text-anchor="middle">-е</text>
+  </g>
+  
+  <!-- Highlight arrow -->
+  <g>
+    <path d="M300,130 L350,130 L350,90 L360,100 M350,90 L340,100" stroke="#E91E63" stroke-width="2" fill="none"/>
+    <text x="385" y="115" font-family="Arial, sans-serif" font-size="12" fill="#E91E63" text-anchor="middle">Меняется!</text>
+  </g>
+  
+  <!-- Zero ending explanation -->
+  <g transform="translate(100, 170)">
+    <rect x="0" y="0" width="300" height="60" fill="#F3E5F5" rx="8" stroke="#9C27B0"/>
+    <text x="150" y="25" font-family="Arial, sans-serif" font-size="13" fill="#6A1B9A" text-anchor="middle" font-weight="bold">Нулевое окончание</text>
+    <text x="150" y="45" font-family="Arial, sans-serif" font-size="12" fill="#6A1B9A" text-anchor="middle">лес, дом, стол — окончание есть, но не видно!</text>
+  </g>
+  
+  <!-- Role of ending -->
+  <g transform="translate(80, 250)">
+    <rect x="0" y="0" width="150" height="40" fill="#E1BEE7" rx="5"/>
+    <text x="75" y="25" font-family="Arial, sans-serif" font-size="12" fill="#6A1B9A" text-anchor="middle">Связывает слова</text>
+    
+    <rect x="170" y="0" width="150" height="40" fill="#E1BEE7" rx="5"/>
+    <text x="245" y="25" font-family="Arial, sans-serif" font-size="12" fill="#6A1B9A" text-anchor="middle">Изменяется по падежам</text>
+  </g>
+  
+  <!-- Flowers -->
+  <circle cx="25" cy="310" r="5" fill="#E91E63"/>
+  <circle cx="475" cy="310" r="5" fill="#E91E63"/>
+  
+  <!-- Sparkles -->
+  <circle cx="150" cy="150" r="2" fill="#AB47BC">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="350" cy="160" r="2" fill="#AB47BC">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite" begin="0.4s"/>
+  </circle>
+</svg>

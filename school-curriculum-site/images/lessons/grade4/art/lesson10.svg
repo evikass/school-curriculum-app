@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <rect width="500" height="8" fill="#C41E3A"/>
+  <rect y="8" width="500" height="2" fill="#D4A843"/>
+  <text x="250" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Композиция</text>
+  <text x="250" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#D4A843">Правила построения картины</text>
+  <line x1="50" y1="82" x2="450" y2="82" stroke="#D4A843" stroke-width="0.5"/>
+  
+  <!-- canvas area -->
+  <rect x="100" y="100" width="300" height="180" fill="#FFFFFF" opacity="0.5" stroke="#1a1a1a" stroke-width="1.5"/>
+  <!-- rule of thirds grid -->
+  <line x1="200" y1="100" x2="200" y2="280" stroke="#C41E3A" stroke-width="0.8" stroke-dasharray="4,3" opacity="0.5"/>
+  <line x1="300" y1="100" x2="300" y2="280" stroke="#C41E3A" stroke-width="0.8" stroke-dasharray="4,3" opacity="0.5"/>
+  <line x1="100" y1="160" x2="400" y2="160" stroke="#C41E3A" stroke-width="0.8" stroke-dasharray="4,3" opacity="0.5"/>
+  <line x1="100" y1="220" x2="400" y2="220" stroke="#C41E3A" stroke-width="0.8" stroke-dasharray="4,3" opacity="0.5"/>
+  <!-- intersection points (golden points) -->
+  <circle cx="200" cy="160" r="5" fill="#C41E3A" opacity="0.4"/>
+  <circle cx="300" cy="160" r="5" fill="#C41E3A" opacity="0.4"/>
+  <circle cx="200" cy="220" r="5" fill="#C41E3A" opacity="0.4"/>
+  <circle cx="300" cy="220" r="5" fill="#C41E3A" opacity="0.4"/>
+  <!-- sample composition elements -->
+  <!-- large circle at intersection -->
+  <circle cx="200" cy="160" r="25" fill="#D4A843" opacity="0.25" stroke="#D4A843" stroke-width="1"/>
+  <!-- triangle composition -->
+  <polygon points="300,135 280,200 320,200" fill="#2B4C7E" opacity="0.2" stroke="#2B4C7E" stroke-width="1"/>
+  <!-- small rectangle -->
+  <rect x="310" cy="210" width="35" height="25" fill="#C41E3A" opacity="0.15" stroke="#C41E3A" stroke-width="1"/>
+  <!-- diagonal line showing dynamic composition -->
+  <line x1="120" y1="260" x2="380" y2="120" stroke="#D4A843" stroke-width="1" stroke-dasharray="6,3" opacity="0.3"/>
+  <!-- label -->
+  <text x="250" y="295" text-anchor="middle" font-family="Arial" font-size="9" fill="#1a1a1a" opacity="0.6">Правило третей</text>
+  <rect y="310" width="500" height="40" fill="#1a1a1a"/>
+  <rect y="308" width="500" height="2" fill="#C41E3A"/>
+  <text x="250" y="335" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#D4A843">Изобразительное искусство</text>
+</svg>

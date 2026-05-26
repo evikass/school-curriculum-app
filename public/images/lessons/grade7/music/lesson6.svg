@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="moonlight" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0a0a2a"/><stop offset="100%" stop-color="#1a1a3a"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#moonlight)"/>
+<circle cx="400" cy="60" r="35" fill="#FFF8E1" opacity="0.8"/>
+<circle cx="410" cy="55" r="30" fill="#0a0a2a"/>
+<circle cx="100" cy="40" r="2" fill="white" opacity="0.6"/>
+<circle cx="200" cy="25" r="1.5" fill="white" opacity="0.5"/>
+<circle cx="300" cy="35" r="2" fill="white" opacity="0.7"/>
+<circle cx="50" cy="55" r="1.5" fill="white" opacity="0.5"/>
+<circle cx="350" cy="20" r="1" fill="white" opacity="0.4"/>
+<circle cx="450" cy="30" r="1.5" fill="white" opacity="0.6"/>
+<path d="M0,200 Q50,170 100,190 Q150,160 200,180 Q250,150 300,175 Q350,155 400,170 Q450,150 500,180 L500,350 L0,350 Z" fill="#0a1a0a" opacity="0.8"/>
+<path d="M0,220 Q60,200 120,215 Q180,190 240,210 Q300,195 360,215 Q420,195 500,210 L500,350 L0,350 Z" fill="#0a2a0a" opacity="0.6"/>
+<ellipse cx="250" cy="150" rx="60" ry="20" fill="#2a1a3a" stroke="#8a5aaa" stroke-width="1"/>
+<path d="M220,140 Q225,120 230,140" stroke="#8a5aaa" stroke-width="1.5" fill="none"/>
+<path d="M240,135 Q245,115 250,135" stroke="#8a5aaa" stroke-width="1.5" fill="none"/>
+<path d="M260,140 Q265,118 270,140" stroke="#8a5aaa" stroke-width="1.5" fill="none"/>
+<path d="M280,142 Q285,125 290,142" stroke="#8a5aaa" stroke-width="1.5" fill="none"/>
+<rect x="215" y="150" width="70" height="5" fill="#1a0a2a"/>
+<circle cx="150" cy="250" r="25" fill="#2a1a3a" stroke="#8a5aaa" stroke-width="1"/>
+<circle cx="150" cy="240" r="9" fill="#5a3a6a"/>
+<rect x="145" y="249" width="10" height="15" fill="#4a2a5a" rx="2"/>
+<line x1="150" y1="264" x2="150" y2="285" stroke="#5a3a6a" stroke-width="1.5"/>
+<line x1="150" y1="272" x2="138" y2="282" stroke="#5a3a6a" stroke-width="1"/>
+<line x1="150" y1="272" x2="162" y2="282" stroke="#5a3a6a" stroke-width="1"/>
+<path d="M160,248 Q175,240 178,250" stroke="#8a5aaa" stroke-width="1" fill="none"/>
+<text x="150" y="300" font-family="Arial" font-size="7" fill="#9a7aba" text-anchor="middle">Шопен</text>
+<rect x="320" y="230" width="80" height="60" fill="#2a1a3a" rx="3" stroke="#6a4a8a" stroke-width="0.8"/>
+<rect x="330" y="240" width="60" height="35" fill="#1a0a2a" rx="2"/>
+<line x1="338" y1="240" x2="338" y2="275" stroke="#5a4a6a" stroke-width="0.5"/>
+<line x1="348" y1="240" x2="348" y2="275" stroke="#5a4a6a" stroke-width="0.5"/>
+<line x1="358" y1="240" x2="358" y2="275" stroke="#5a4a6a" stroke-width="0.5"/>
+<line x1="368" y1="240" x2="368" y2="275" stroke="#5a4a6a" stroke-width="0.5"/>
+<line x1="378" y1="240" x2="378" y2="275" stroke="#5a4a6a" stroke-width="0.5"/>
+<rect x="335" y="248" width="8" height="4" fill="#4a3a5a" rx="1"/>
+<rect x="335" y="258" width="8" height="4" fill="#4a3a5a" rx="1"/>
+<rect x="355" y="252" width="8" height="4" fill="#4a3a5a" rx="1"/>
+<rect x="355" y="262" width="8" height="4" fill="#4a3a5a" rx="1"/>
+<text x="360" y="305" font-family="Arial" font-size="7" fill="#9a7aba" text-anchor="middle">Фортепиано</text>
+<path d="M50,100 Q55,80 60,100" stroke="#4a6aaa" stroke-width="1" fill="none" opacity="0.4"/>
+<path d="M440,120 Q445,100 450,120" stroke="#4a6aaa" stroke-width="1" fill="none" opacity="0.4"/>
+<text x="250" y="325" font-family="Arial" font-size="8" fill="#7a6a9a" text-anchor="middle">Эмоции • Страсть • Индивидуальность</text>
+<text x="250" y="342" font-family="Arial" font-size="9" fill="#9a7aba" text-anchor="middle" opacity="0.5">Романтизм в музыке</text>
+</svg>

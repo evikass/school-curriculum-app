@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#E0F2F1"/>
+<circle cx="250" cy="160" r="130" fill="none" stroke="#00897B" stroke-width="2.5"/>
+<circle cx="250" cy="160" r="100" fill="none" stroke="#4DB6AC" stroke-width="1.5" stroke-dasharray="5,3"/>
+<circle cx="250" cy="160" r="60" fill="#E0F2F1" stroke="#80CBC4" stroke-width="1"/>
+<path d="M200,90 Q250,70 300,90 Q320,100 310,130 Q300,150 270,140 Q240,130 220,140 Q200,150 190,130 Q180,100 200,90 Z" fill="#81C784" stroke="#2E7D32" stroke-width="1.5"/>
+<text x="250" y="115" font-size="8" fill="#1B5E20" text-anchor="middle">Продуценты</text>
+<text x="250" y="126" font-size="6" fill="#2E7D32" text-anchor="middle">(производители)</text>
+<circle cx="190" cy="200" r="22" fill="#FF8A65" stroke="#E64A19" stroke-width="1.5"/>
+<text x="190" y="198" font-size="7" fill="#FFF" text-anchor="middle">Консументы</text>
+<text x="190" y="209" font-size="6" fill="#FFF" text-anchor="middle">I порядка</text>
+<circle cx="310" cy="200" r="22" fill="#EF5350" stroke="#C62828" stroke-width="1.5"/>
+<text x="310" y="198" font-size="7" fill="#FFF" text-anchor="middle">Консументы</text>
+<text x="310" y="209" font-size="6" fill="#FFF" text-anchor="middle">II порядка</text>
+<ellipse cx="250" cy="265" rx="30" ry="15" fill="#8D6E63" stroke="#5D4037" stroke-width="1.5"/>
+<text x="250" y="268" font-size="7" fill="#FFF" text-anchor="middle">Редуценты</text>
+<line x1="250" y1="135" x2="195" y2="180" stroke="#4CAF50" stroke-width="1.5"/>
+<polygon points="195,177 188,183 198,185" fill="#4CAF50"/>
+<line x1="210" y1="200" x2="290" y2="200" stroke="#FF8F00" stroke-width="1.5"/>
+<polygon points="290,197 298,200 290,203" fill="#FF8F00"/>
+<line x1="190" y1="222" x2="230" y2="252" stroke="#795548" stroke-width="1.5"/>
+<polygon points="230,249 235,257 226,255" fill="#795548"/>
+<line x1="310" y1="222" x2="270" y2="252" stroke="#795548" stroke-width="1.5"/>
+<polygon points="270,249 265,257 274,255" fill="#795548"/>
+<line x1="250" y1="278" x2="250" y2="100" stroke="#5D4037" stroke-width="1" stroke-dasharray="4,3" opacity="0.5"/>
+<polygon points="247,100 250,90 253,100" fill="#5D4037" opacity="0.5"/>
+<text x="265" y="285" font-size="6" fill="#5D4037">возврат веществ</text>
+<rect x="400" y="60" width="85" height="190" rx="4" fill="#FFF" stroke="#00897B" stroke-width="1"/>
+<text x="442" y="80" font-size="7" fill="#00695C" text-anchor="middle" font-weight="bold">Компоненты</text>
+<text x="410" y="100" font-size="7" fill="#2E7D32">🌿 Продуценты</text>
+<text x="415" y="112" font-size="6" fill="#4CAF50">растения</text>
+<text x="410" y="130" font-size="7" fill="#E65100">🐰 Консументы-1</text>
+<text x="415" y="142" font-size="6" fill="#FF8F00">травоядные</text>
+<text x="410" y="160" font-size="7" fill="#C62828">🦊 Консументы-2</text>
+<text x="415" y="172" font-size="6" fill="#D32F2F">хищники</text>
+<text x="410" y="190" font-size="7" fill="#5D4037">🍄 Редуценты</text>
+<text x="415" y="202" font-size="6" fill="#795548">бактерии, грибы</text>
+<text x="442" y="230" font-size="7" fill="#00897B" text-anchor="middle">+ неживая</text>
+<text x="442" y="242" font-size="7" fill="#00897B" text-anchor="middle">природа</text>
+<text x="250" y="345" font-size="9" fill="#666" text-anchor="middle" opacity="0.5">Понятие экосистемы</text>
+</svg>

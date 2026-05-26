@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg7" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF3E0"/>
+      <stop offset="100%" style="stop-color:#FFE0B2"/>
+    </linearGradient>
+    <linearGradient id="organ7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFAB91"/>
+      <stop offset="100%" style="stop-color:#FF8A65"/>
+    </linearGradient>
+    <linearGradient id="stomach7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EF9A9A"/>
+      <stop offset="100%" style="stop-color:#E57373"/>
+    </linearGradient>
+    <linearGradient id="intestine7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F48FB1"/>
+      <stop offset="100%" style="stop-color:#EC407A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg7)"/>
+
+  <!-- Title -->
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#E65100" text-anchor="middle">🍽️ Пищеварительная система</text>
+  <rect x="80" y="38" width="340" height="2" rx="1" fill="#FF9800" opacity="0.5"/>
+
+  <!-- Body outline -->
+  <ellipse cx="250" cy="100" rx="25" ry="28" fill="#FFCCBC" stroke="#E64A19" stroke-width="2"/>
+  <rect x="238" y="125" width="24" height="15" fill="#FFCCBC"/>
+  <path d="M180,140 L320,140 L340,300 L160,300 Z" fill="#FFCCBC" stroke="#E64A19" stroke-width="2" opacity="0.3"/>
+
+  <!-- Digestive system organs -->
+  <g transform="translate(250, 150)">
+    <!-- Mouth/Esophagus -->
+    <rect x="-8" y="-50" width="16" height="60" rx="5" fill="url(#organ7)" stroke="#E64A19" stroke-width="1.5">
+      <animate attributeName="height" values="60;62;60" dur="2s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Stomach -->
+    <ellipse cx="20" cy="30" rx="45" ry="35" fill="url(#stomach7)" stroke="#C62828" stroke-width="2">
+      <animate attributeName="rx" values="45;48;45" dur="3s" repeatCount="indefinite"/>
+    </ellipse>
+    <text x="20" y="35" font-family="Arial, sans-serif" font-size="10" fill="#B71C1C" text-anchor="middle" font-weight="bold">Желудок</text>
+
+    <!-- Stomach contents animation -->
+    <ellipse cx="20" cy="35" rx="25" ry="15" fill="#FFCC80" opacity="0.5">
+      <animate attributeName="ry" values="15;18;15" dur="1.5s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- Small intestine -->
+    <path d="M-10,60 Q-40,70 -30,90 Q-20,110 10,100 Q40,90 30,110 Q20,130 -10,120 Q-40,110 -30,140" 
+          stroke="url(#intestine7)" stroke-width="12" fill="none" stroke-linecap="round">
+      <animate attributeName="stroke-width" values="12;13;12" dur="2s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Large intestine -->
+    <path d="M-30,140 L-50,140 L-50,80 L50,80 L50,140 L30,140" 
+          stroke="#CE93D8" stroke-width="15" fill="none" stroke-linecap="round">
+      <animate attributeName="stroke-width" values="15;16;15" dur="2.5s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Small label -->
+    <text x="-10" y="95" font-family="Arial, sans-serif" font-size="7" fill="#AD1457">Тонкая</text>
+    <text x="-10" y="103" font-family="Arial, sans-serif" font-size="7" fill="#AD1457">кишка</text>
+  </g>
+
+  <!-- Organ labels -->
+  <g font-family="Arial, sans-serif" font-size="10">
+    <!-- Mouth -->
+    <line x1="250" y1="72" x2="310" y2="55" stroke="#E65100" stroke-width="1"/>
+    <circle cx="310" cy="55" r="2" fill="#E65100"/>
+    <text x="315" y="58" fill="#E65100" font-weight="bold">Рот</text>
+
+    <!-- Esophagus -->
+    <line x1="260" y1="110" x2="330" y2="100" stroke="#E65100" stroke-width="1"/>
+    <circle cx="330" cy="100" r="2" fill="#E65100"/>
+    <text x="335" y="103" fill="#E65100" font-weight="bold">Пищевод</text>
+
+    <!-- Large intestine -->
+    <line x1="200" y1="250" x2="140" y2="250" stroke="#7B1FA2" stroke-width="1"/>
+    <circle cx="200" cy="250" r="2" fill="#7B1FA2"/>
+    <text x="70" y="253" fill="#7B1FA2" font-weight="bold">Толстая кишка</text>
+  </g>
+
+  <!-- Food journey -->
+  <g transform="translate(20, 60)">
+    <rect x="0" y="0" width="100" height="80" rx="8" fill="#FFFFFF" opacity="0.9" stroke="#FF9800"/>
+    <text x="50" y="18" font-family="Arial, sans-serif" font-size="10" fill="#E65100" text-anchor="middle" font-weight="bold">Путь пищи:</text>
+    <text x="50" y="35" font-family="Arial, sans-serif" font-size="9" fill="#F57C00" text-anchor="middle">1. Рот 👄</text>
+    <text x="50" y="50" font-family="Arial, sans-serif" font-size="9" fill="#F57C00" text-anchor="middle">2. Пищевод</text>
+    <text x="50" y="65" font-family="Arial, sans-serif" font-size="9" fill="#F57C00" text-anchor="middle">3. Желудок</text>
+    <text x="50" y="80" font-family="Arial, sans-serif" font-size="9" fill="#F57C00" text-anchor="middle">4. Кишечник</text>
+  </g>
+
+  <!-- Healthy food -->
+  <g transform="translate(380, 60)">
+    <rect x="0" y="0" width="100" height="80" rx="8" fill="#FFFFFF" opacity="0.9" stroke="#4CAF50"/>
+    <text x="50" y="18" font-family="Arial, sans-serif" font-size="10" fill="#2E7D32" text-anchor="middle" font-weight="bold">Полезная еда:</text>
+    
+    <!-- Apple -->
+    <circle cx="25" cy="45" r="12" fill="#E53935"/>
+    <path d="M25,33 Q30,28 28,25" stroke="#4CAF50" stroke-width="2" fill="none"/>
+    
+    <!-- Carrot -->
+    <path d="M50,55 L60,35 L70,55 Z" fill="#FF9800"/>
+    <path d="M55,35 Q60,30 65,35" stroke="#4CAF50" stroke-width="2" fill="none"/>
+    
+    <!-- Bread -->
+    <ellipse cx="85" cy="50" rx="10" ry="8" fill="#D7CCC8"/>
+    
+    <!-- Milk -->
+    <rect x="15" y="60" width="15" height="20" rx="2" fill="#FAFAFA" stroke="#BDBDBD"/>
+    <rect x="70" y="60" width="15" height="20" rx="2" fill="#FFF9C4" stroke="#FBC02D"/>
+  </g>
+
+  <!-- Bottom info -->
+  <g font-family="Arial, sans-serif">
+    <rect x="100" y="300" width="300" height="40" rx="8" fill="#FFFFFF" opacity="0.8" stroke="#FF9800"/>
+    <text x="250" y="320" font-size="10" fill="#E65100" text-anchor="middle" font-weight="bold">⚠️ Важно:</text>
+    <text x="250" y="335" font-size="9" fill="#F57C00" text-anchor="middle">Тщательно пережёвывай пищу и ешь вовремя!</text>
+  </g>
+</svg>

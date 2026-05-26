@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="ebg7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e11d48"/>
+      <stop offset="100%" style="stop-color:#881337"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#ebg7)" rx="12"/>
+  <!-- Four conditional boxes -->
+  <rect x="15" y="20" width="235" height="70" rx="8" fill="#9f1239" stroke="#fda4af" stroke-width="1.5"/>
+  <text x="132" y="40" font-family="sans-serif" font-size="10" fill="#fda4af" text-anchor="middle" font-weight="bold">Zero Conditional</text>
+  <text x="132" y="55" font-family="sans-serif" font-size="8" fill="#fecdd3" text-anchor="middle">If + Present Simple, Present Simple</text>
+  <text x="132" y="70" font-family="sans-serif" font-size="7" fill="#fda4af" text-anchor="middle">If you heat water, it boils. (truth)</text>
+  <text x="132" y="83" font-family="sans-serif" font-size="6" fill="#fda4af" text-anchor="middle">🔬 FACT</text>
+
+  <rect x="260" y="20" width="225" height="70" rx="8" fill="#9f1239" stroke="#fbbf24" stroke-width="1.5"/>
+  <text x="372" y="40" font-family="sans-serif" font-size="10" fill="#fbbf24" text-anchor="middle" font-weight="bold">First Conditional</text>
+  <text x="372" y="55" font-family="sans-serif" font-size="8" fill="#fde68a" text-anchor="middle">If + Present Simple, will + V</text>
+  <text x="372" y="70" font-family="sans-serif" font-size="7" fill="#fbbf24" text-anchor="middle">If I study, I will pass. (possible)</text>
+  <text x="372" y="83" font-family="sans-serif" font-size="6" fill="#fbbf24" text-anchor="middle">🎯 REAL</text>
+
+  <rect x="15" y="100" width="235" height="70" rx="8" fill="#881337" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="132" y="120" font-family="sans-serif" font-size="10" fill="#c4b5fd" text-anchor="middle" font-weight="bold">Second Conditional</text>
+  <text x="132" y="135" font-family="sans-serif" font-size="8" fill="#ddd6fe" text-anchor="middle">If + Past Simple, would + V</text>
+  <text x="132" y="150" font-family="sans-serif" font-size="7" fill="#c4b5fd" text-anchor="middle">If I had $1M, I would travel. (unreal)</text>
+  <text x="132" y="163" font-family="sans-serif" font-size="6" fill="#c4b5fd" text-anchor="middle">💭 UNREAL PRESENT</text>
+
+  <rect x="260" y="100" width="225" height="70" rx="8" fill="#881337" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="372" y="120" font-family="sans-serif" font-size="10" fill="#93c5fd" text-anchor="middle" font-weight="bold">Third Conditional</text>
+  <text x="372" y="135" font-family="sans-serif" font-size="8" fill="#bfdbfe" text-anchor="middle">If + Past Perfect, would have + V3</text>
+  <text x="372" y="150" font-family="sans-serif" font-size="7" fill="#93c5fd" text-anchor="middle">If I had studied, I would have passed.</text>
+  <text x="372" y="163" font-family="sans-serif" font-size="6" fill="#93c5fd" text-anchor="middle">😔 UNREAL PAST</text>
+  <!-- Probability scale -->
+  <rect x="30" y="185" width="440" height="40" rx="6" fill="#881337" stroke="#fda4af" stroke-width="1"/>
+  <text x="250" y="200" font-family="sans-serif" font-size="8" fill="#fda4af" text-anchor="middle" font-weight="bold">Reality Scale</text>
+  <!-- Gradient bar -->
+  <rect x="50" y="208" width="400" height="10" rx="5" fill="#4c1d95"/>
+  <rect x="50" y="208" width="100" height="10" rx="5" fill="#10b981"/>
+  <rect x="150" y="208" width="100" height="10" fill="#fbbf24"/>
+  <rect x="250" y="208" width="100" height="10" fill="#a78bfa"/>
+  <rect x="350" y="208" width="100" height="10" rx="5" fill="#60a5fa"/>
+  <text x="100" y="230" font-family="sans-serif" font-size="7" fill="#6ee7b7" text-anchor="middle">Zero (100%)</text>
+  <text x="200" y="230" font-family="sans-serif" font-size="7" fill="#fde68a" text-anchor="middle">1st (possible)</text>
+  <text x="300" y="230" font-family="sans-serif" font-size="7" fill="#c4b5fd" text-anchor="middle">2nd (unlikely)</text>
+  <text x="400" y="230" font-family="sans-serif" font-size="7" fill="#93c5fd" text-anchor="middle">3rd (impossible)</text>
+  <!-- Mixed Conditional -->
+  <rect x="60" y="245" width="380" height="45" rx="6" fill="#881337" stroke="#f472b6" stroke-width="1.5"/>
+  <text x="250" y="265" font-family="sans-serif" font-size="9" fill="#f9a8d4" text-anchor="middle" font-weight="bold">Mixed Conditional</text>
+  <text x="250" y="280" font-family="sans-serif" font-size="7" fill="#fbcfe8" text-anchor="middle">If + Past Perfect, would + V (past condition, present result)</text>
+  <!-- Key tip -->
+  <rect x="100" y="300" width="300" height="25" rx="4" fill="#9f1239" stroke="#fbbf24" stroke-width="1"/>
+  <text x="250" y="316" font-family="sans-serif" font-size="8" fill="#fde68a" text-anchor="middle" font-weight="bold">Tip: "If I were you..." = advice (2nd Conditional)</text>
+  <text x="250" y="340" font-family="sans-serif" font-size="9" fill="white" text-anchor="middle" opacity="0.5">Conditionals</text>
+</svg>

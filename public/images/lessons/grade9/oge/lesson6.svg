@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EDE7F6"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7E57C2"/>
+      <stop offset="100%" stop-color="#4527A0"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#7E57C2" stroke-width="3"/>
+  <!-- Header bar -->
+  <rect x="8" y="8" width="484" height="52" rx="6" fill="url(#hdr)" opacity="0.9"/>
+  <text x="250" y="34" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Работа с ошибками</text>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="10" fill="rgba(255,255,255,0.8)" text-anchor="middle">Подготовка к ОГЭ — Урок 6</text>
+  <!-- Decorative elements -->
+  <circle cx="460" cy="25" r="12" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="440" cy="18" r="6" fill="rgba(255,255,255,0.1)"/>
+  <!-- Content area -->
+
+  <rect x="25" y="75" width="145" height="70" rx="5" fill="white" stroke="#7E57C2" stroke-width="1"/>
+  <rect x="25" y="75" width="145" height="20" rx="5" fill="#7E57C2" opacity="0.85"/>
+  <rect x="25" y="93" width="145" height="2" fill="#7E57C2" opacity="0.85"/>
+  <text x="97" y="89" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">Дневник</text>
+  <text x="35" y="113" font-family="Arial,sans-serif" font-size="7.5" fill="#333">Дневник ошибок снижает</text>
+  <text x="35" y="125" font-family="Arial,sans-serif" font-size="7.5" fill="#333">их число на экзамене</text>
+  <text x="35" y="137" font-family="Arial,sans-serif" font-size="7.5" fill="#333">в 3 раза</text>
+  <rect x="180" y="75" width="145" height="70" rx="5" fill="white" stroke="#5C6BC0" stroke-width="1"/>
+  <rect x="180" y="75" width="145" height="20" rx="5" fill="#5C6BC0" opacity="0.85"/>
+  <rect x="180" y="93" width="145" height="2" fill="#5C6BC0" opacity="0.85"/>
+  <text x="252" y="89" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">Типы ошибок</text>
+  <text x="190" y="113" font-family="Arial,sans-serif" font-size="7.5" fill="#333">3 типа ошибок:</text>
+  <text x="190" y="125" font-family="Arial,sans-serif" font-size="7.5" fill="#333">невнимательность 40%</text>
+  <text x="190" y="137" font-family="Arial,sans-serif" font-size="7.5" fill="#333">незнание 35%, непонимание 25%</text>
+  <rect x="335" y="75" width="145" height="70" rx="5" fill="white" stroke="#42A5F5" stroke-width="1"/>
+  <rect x="335" y="75" width="145" height="20" rx="5" fill="#42A5F5" opacity="0.85"/>
+  <rect x="335" y="93" width="145" height="2" fill="#42A5F5" opacity="0.85"/>
+  <text x="407" y="89" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">Практика</text>
+  <text x="345" y="113" font-family="Arial,sans-serif" font-size="7.5" fill="#333">По каждой ошибке</text>
+  <text x="345" y="125" font-family="Arial,sans-serif" font-size="7.5" fill="#333">решите 3-5 аналогичных</text>
+  <text x="345" y="137" font-family="Arial,sans-serif" font-size="7.5" fill="#333">заданий из банка ФИПИ</text>
+  <rect x="25" y="155" width="145" height="70" rx="5" fill="white" stroke="#26A69A" stroke-width="1"/>
+  <rect x="25" y="155" width="145" height="20" rx="5" fill="#26A69A" opacity="0.85"/>
+  <rect x="25" y="173" width="145" height="2" fill="#26A69A" opacity="0.85"/>
+  <text x="97" y="169" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">Интервалы</text>
+  <text x="35" y="193" font-family="Arial,sans-serif" font-size="7.5" fill="#333">Интервальное повторение</text>
+  <text x="35" y="205" font-family="Arial,sans-serif" font-size="7.5" fill="#333">повышает запоминание</text>
+  <text x="35" y="217" font-family="Arial,sans-serif" font-size="7.5" fill="#333">на 200%</text>
+  <rect x="180" y="155" width="145" height="70" rx="5" fill="white" stroke="#66BB6A" stroke-width="1"/>
+  <rect x="180" y="155" width="145" height="20" rx="5" fill="#66BB6A" opacity="0.85"/>
+  <rect x="180" y="173" width="145" height="2" fill="#66BB6A" opacity="0.85"/>
+  <text x="252" y="169" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">Структура</text>
+  <text x="190" y="193" font-family="Arial,sans-serif" font-size="7.5" fill="#333">Структура дневника:</text>
+  <text x="190" y="205" font-family="Arial,sans-serif" font-size="7.5" fill="#333">дата, предмет, задание</text>
+  <text x="190" y="217" font-family="Arial,sans-serif" font-size="7.5" fill="#333">ошибка, причина, исправление</text>
+  <rect x="335" y="155" width="145" height="70" rx="5" fill="white" stroke="#FFA726" stroke-width="1"/>
+  <rect x="335" y="155" width="145" height="20" rx="5" fill="#FFA726" opacity="0.85"/>
+  <rect x="335" y="173" width="145" height="2" fill="#FFA726" opacity="0.85"/>
+  <text x="407" y="169" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">Регулярность</text>
+  <text x="345" y="193" font-family="Arial,sans-serif" font-size="7.5" fill="#333">Анализ после каждого</text>
+  <text x="345" y="205" font-family="Arial,sans-serif" font-size="7.5" fill="#333">пробного тестирования —</text>
+  <text x="345" y="217" font-family="Arial,sans-serif" font-size="7.5" fill="#333">ключ к прогрессу</text>
+</svg>

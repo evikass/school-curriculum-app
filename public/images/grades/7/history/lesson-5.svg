@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect x="0" y="0" width="800" height="72" rx="0" fill="#EF4444" />
+  <rect x="0" y="72" width="800" height="4" rx="0" fill="#B91C1C" />
+  <text x="400" y="36" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="sans-serif">Причины и начало Смуты</text>
+  <text x="400" y="58" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="normal" font-family="sans-serif">Династический кризис и Лжедмитрии</text>
+  <rect x="0" y="570" width="800" height="30" rx="0" fill="#FFF1F2" />
+  <line x1="0" y1="570" x2="800" y2="570" stroke="#FCA5A5" stroke-width="1" />
+  <text x="400" y="590" text-anchor="middle" fill="#9CA3AF" font-size="10" font-weight="normal" font-family="sans-serif">7 класс — История России — Урок 5</text>
+  <rect x="0" y="76" width="800" height="494" rx="0" fill="#FFF1F2" opacity="0.4" />
+  <text x="400" y="100" text-anchor="middle" fill="#B91C1C" font-size="15" font-weight="bold" font-family="sans-serif">Причины Смутного времени</text>
+  <rect x="20" y="140" width="220" height="80" rx="6" fill="#FFFFFF" stroke="#EF4444" stroke-width="1" />
+  <rect x="20" y="140" width="220" height="26" rx="6" fill="#EF4444" />
+  <rect x="20" y="160" width="220" height="6" rx="0" fill="#EF4444" />
+  <text x="130" y="156" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="sans-serif">Династический</text>
+  <text x="130" y="170" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="normal" font-family="sans-serif">кризис</text>
+  <text x="130" y="190" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">Прекращение</text>
+  <text x="130" y="203" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">династии Рюриковичей</text>
+  <rect x="290" y="140" width="220" height="80" rx="6" fill="#FFFFFF" stroke="#EF4444" stroke-width="1" />
+  <rect x="290" y="140" width="220" height="26" rx="6" fill="#EF4444" />
+  <rect x="290" y="160" width="220" height="6" rx="0" fill="#EF4444" />
+  <text x="400" y="156" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="sans-serif">Экономический</text>
+  <text x="400" y="170" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="normal" font-family="sans-serif">кризис</text>
+  <text x="400" y="190" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">Разорение от</text>
+  <text x="400" y="203" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">опричнины и войн</text>
+  <rect x="560" y="140" width="220" height="80" rx="6" fill="#FFFFFF" stroke="#EF4444" stroke-width="1" />
+  <rect x="560" y="140" width="220" height="26" rx="6" fill="#EF4444" />
+  <rect x="560" y="160" width="220" height="6" rx="0" fill="#EF4444" />
+  <text x="670" y="156" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="sans-serif">Социальный</text>
+  <text x="670" y="170" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="normal" font-family="sans-serif">кризис</text>
+  <text x="670" y="190" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">Усиление крепостничества</text>
+  <text x="670" y="203" text-anchor="middle" fill="#4B5563" font-size="10" font-weight="normal" font-family="sans-serif">и побеги крестьян</text>
+  <text x="400" y="240" text-anchor="middle" fill="#EF4444" font-size="24" font-weight="normal" font-family="sans-serif">▼</text>
+  <rect x="280" y="255" width="240" height="36" rx="6" fill="#B91C1C" />
+  <text x="400" y="278" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold" font-family="sans-serif">Смутное время (1598–1613)</text>
+  <text x="400" y="315" text-anchor="middle" fill="#B91C1C" font-size="13" font-weight="bold" font-family="sans-serif">Лжедмитрии — самозванцы на русском престоле</text>
+  <rect x="20" y="330" width="220" height="120" rx="6" fill="#FFFFFF" stroke="#B91C1C" stroke-width="1" />
+  <rect x="20" y="330" width="220" height="22" rx="6" fill="#B91C1C" />
+  <rect x="20" y="348" width="220" height="4" rx="0" fill="#B91C1C" />
+  <text x="130" y="345" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="sans-serif">Лжедмитрий I</text>
+  <rect x="90" y="358" width="80" height="16" rx="3" fill="#FECDD3" />
+  <text x="130" y="370" text-anchor="middle" fill="#B91C1C" font-size="9" font-weight="bold" font-family="sans-serif">1605–1606</text>
+  <text x="130" y="396" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Выдавал себя за царевича Дмитрия</text>
+  <text x="130" y="410" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Поддержан Польшей и папой римским</text>
+  <text x="130" y="424" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Убит в мае 1606 г. в Москве</text>
+  <rect x="290" y="330" width="220" height="120" rx="6" fill="#FFFFFF" stroke="#B91C1C" stroke-width="1" />
+  <rect x="290" y="330" width="220" height="22" rx="6" fill="#B91C1C" />
+  <rect x="290" y="348" width="220" height="4" rx="0" fill="#B91C1C" />
+  <text x="400" y="345" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="sans-serif">Лжедмитрий II</text>
+  <rect x="360" y="358" width="80" height="16" rx="3" fill="#FECDD3" />
+  <text x="400" y="370" text-anchor="middle" fill="#B91C1C" font-size="9" font-weight="bold" font-family="sans-serif">1607–1610</text>
+  <text x="400" y="396" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">«Тушинский вор» — лагерь в Тушино</text>
+  <text x="400" y="410" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Имел свой двор и бояр</text>
+  <text x="400" y="424" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Убит в 1610 г. собственным охранником</text>
+  <rect x="560" y="330" width="220" height="120" rx="6" fill="#FFFFFF" stroke="#B91C1C" stroke-width="1" />
+  <rect x="560" y="330" width="220" height="22" rx="6" fill="#B91C1C" />
+  <rect x="560" y="348" width="220" height="4" rx="0" fill="#B91C1C" />
+  <text x="670" y="345" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="sans-serif">Лжедмитрий III</text>
+  <rect x="630" y="358" width="80" height="16" rx="3" fill="#FECDD3" />
+  <text x="670" y="370" text-anchor="middle" fill="#B91C1C" font-size="9" font-weight="bold" font-family="sans-serif">1611–1612</text>
+  <text x="670" y="396" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">«Псковский вор» — в Пскове</text>
+  <text x="670" y="410" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Наименее удачливый самозванец</text>
+  <text x="670" y="424" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Выдан властям и казнён</text>
+  <text x="400" y="475" text-anchor="middle" fill="#B91C1C" font-size="13" font-weight="bold" font-family="sans-serif">Ключевые события начала Смуты</text>
+  <line x1="60" y1="479" x2="740" y2="479" stroke="#FCA5A5" stroke-width="1" />
+  <line x1="70" y1="515" x2="690" y2="515" stroke="#EF4444" stroke-width="2" />
+  <circle cx="130" cy="515" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="130" y="501" text-anchor="middle" fill="#B91C1C" font-size="10" font-weight="bold" font-family="sans-serif">1598</text>
+  <text x="130" y="533" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Смерть Фёдора</text>
+  <text x="130" y="545" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Иоанновича</text>
+  <circle cx="290" cy="515" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="290" y="501" text-anchor="middle" fill="#B91C1C" font-size="10" font-weight="bold" font-family="sans-serif">1598</text>
+  <text x="290" y="533" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Борис Годунов</text>
+  <text x="290" y="545" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">на троне</text>
+  <circle cx="450" cy="515" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="450" y="501" text-anchor="middle" fill="#B91C1C" font-size="10" font-weight="bold" font-family="sans-serif">1605</text>
+  <text x="450" y="533" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Смерть</text>
+  <text x="450" y="545" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Б. Годунова</text>
+  <circle cx="610" cy="515" r="6" fill="#EF4444" stroke="#FFFFFF" stroke-width="2" />
+  <text x="610" y="501" text-anchor="middle" fill="#B91C1C" font-size="10" font-weight="bold" font-family="sans-serif">1606</text>
+  <text x="610" y="533" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Восстание</text>
+  <text x="610" y="545" text-anchor="middle" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">И. Болотникова</text>
+</svg>

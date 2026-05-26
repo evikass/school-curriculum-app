@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF7ED;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFEDD5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#EA580C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C2410C;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#00000033" />
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="0" />
+  <rect x="0" y="0" width="800" height="80" fill="url(#headerGrad)" />
+  <g transform="translate(20, 15)">
+    <polygon points="25,5 5,45 45,45" fill="#FBBF24" stroke="#1C1917" stroke-width="2" />
+    <text x="25" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#1C1917">!</text>
+  </g>
+  <rect x="70" y="18" width="36" height="36" rx="6" fill="#FFFFFF" opacity="0.9" />
+  <text x="88" y="44" text-anchor="middle" font-size="18" font-weight="bold" fill="#EA580C">1</text>
+  <text x="120" y="42" font-size="22" font-weight="bold" fill="#FFFFFF">Правила дорожного движения для велосипедистов</text>
+  <text x="120" y="64" font-size="13" fill="#FED7AA">Безопасное управление велосипедом на дороге</text>
+  <rect x="710" y="22" width="70" height="30" rx="15" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.5)" stroke-width="1" />
+  <text x="745" y="43" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">ОБЖ</text>
+  <rect x="710" y="52" width="70" height="22" rx="11" fill="rgba(255,255,255,0.15)" />
+  <text x="745" y="67" text-anchor="middle" font-size="11" fill="#FED7AA">7 класс</text>
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#EA580C" stroke-width="3" />
+  <rect x="20" y="98" width="4" height="18" rx="2" fill="#EA580C" />
+  <text x="30" y="112" font-size="14" font-weight="bold" fill="#EA580C">Основные правила</text>
+  <rect x="20" y="120" width="250" height="180" rx="10" fill="#FFFFFF" stroke="#EA580C" stroke-width="2" filter="url(#shadow)" />
+  <rect x="20" y="120" width="250" height="6" rx="3" fill="#EA580C" />
+  <circle cx="44" cy="144" r="14" fill="#EA580C" />
+  <text x="44" y="150" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">📋</text>
+  <text x="66" y="148" font-size="14" font-weight="bold" fill="#1C1917">Правила езды</text>
+  <circle cx="40" cy="166" r="3" fill="#EA580C" />
+  <text x="50" y="170" font-size="12" fill="#1C1917">Велосипед — транспортное средство</text>
+  <circle cx="40" cy="186" r="3" fill="#EA580C" />
+  <text x="50" y="190" font-size="12" fill="#1C1917">Управление с 14 лет на дороге</text>
+  <circle cx="40" cy="206" r="3" fill="#EA580C" />
+  <text x="50" y="210" font-size="12" fill="#1C1917">Двигаться по правому краю проезжей части</text>
+  <circle cx="40" cy="226" r="3" fill="#EA580C" />
+  <text x="50" y="230" font-size="12" fill="#1C1917">Запрещено ездить по тротуарам</text>
+  <circle cx="40" cy="246" r="3" fill="#EA580C" />
+  <text x="50" y="250" font-size="12" fill="#1C1917">Использовать световозвращатели</text>
+  <circle cx="40" cy="266" r="3" fill="#EA580C" />
+  <text x="50" y="270" font-size="12" fill="#1C1917">Шлем обязателен для безопасности</text>
+  <rect x="285" y="98" width="4" height="18" rx="2" fill="#EA580C" />
+  <text x="295" y="112" font-size="14" font-weight="bold" fill="#EA580C">Ручные сигналы</text>
+  <rect x="285" y="120" width="230" height="52" rx="8" fill="#FFFFFF" stroke="#EA580C" stroke-width="1.5" />
+  <circle cx="300" cy="146" r="8" fill="#EA580C" />
+  <text x="316" y="140" font-size="12" font-weight="bold" fill="#1C1917">Поворот направо</text>
+  <text x="316" y="158" font-size="10" fill="#78716C">Левая рука вытянута</text>
+  <rect x="285" y="180" width="230" height="52" rx="8" fill="#FFFFFF" stroke="#EA580C" stroke-width="1.5" />
+  <circle cx="300" cy="206" r="8" fill="#EA580C" />
+  <text x="316" y="200" font-size="12" font-weight="bold" fill="#1C1917">Поворот налево</text>
+  <text x="316" y="218" font-size="10" fill="#78716C">Левая рука вытянута</text>
+  <rect x="285" y="240" width="230" height="52" rx="8" fill="#FFFFFF" stroke="#EA580C" stroke-width="1.5" />
+  <circle cx="300" cy="266" r="8" fill="#EA580C" />
+  <text x="316" y="260" font-size="12" font-weight="bold" fill="#1C1917">Остановка</text>
+  <text x="316" y="278" font-size="10" fill="#78716C">Левая рука поднята</text>
+  <rect x="530" y="98" width="4" height="18" rx="2" fill="#DC2626" />
+  <text x="540" y="112" font-size="14" font-weight="bold" fill="#DC2626">Знаки для велосипедистов</text>
+  <rect x="530" y="120" width="250" height="50" rx="8" fill="#FFFFFF" stroke="#16A34A" stroke-width="1.5" />
+  <circle cx="555" cy="145" r="14" fill="#16A34A" />
+  <text x="555" y="150" text-anchor="middle" font-size="12" fill="#FFFFFF">🚲</text>
+  <text x="578" y="150" font-size="11" fill="#1C1917">Велосипедная дорожка</text>
+  <rect x="530" y="178" width="250" height="50" rx="8" fill="#FFFFFF" stroke="#DC2626" stroke-width="1.5" />
+  <circle cx="555" cy="203" r="14" fill="#DC2626" />
+  <text x="555" y="208" text-anchor="middle" font-size="12" fill="#FFFFFF">⛔</text>
+  <text x="578" y="208" font-size="11" fill="#1C1917">Движение велосипедов запрещено</text>
+  <rect x="530" y="236" width="250" height="50" rx="8" fill="#FFFFFF" stroke="#FBBF24" stroke-width="1.5" />
+  <circle cx="555" cy="261" r="14" fill="#FBBF24" />
+  <text x="555" y="266" text-anchor="middle" font-size="12" fill="#FFFFFF">⚠</text>
+  <text x="578" y="266" font-size="11" fill="#1C1917">Осторожно: велосипедисты</text>
+  <rect x="20" y="330" width="4" height="18" rx="2" fill="#16A34A" />
+  <text x="30" y="344" font-size="14" font-weight="bold" fill="#16A34A">Экипировка велосипедиста</text>
+  <circle cx="34" cy="362" r="14" fill="#16A34A" />
+  <text x="34" y="367" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">1</text>
+  <text x="56" y="367" font-size="12" fill="#1C1917">Шлем — защита головы при падении</text>
+  <circle cx="34" cy="390" r="14" fill="#16A34A" />
+  <text x="34" y="395" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">2</text>
+  <text x="56" y="395" font-size="12" fill="#1C1917">Световозвращатели — видимость в темноте</text>
+  <circle cx="34" cy="418" r="14" fill="#16A34A" />
+  <text x="34" y="423" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">3</text>
+  <text x="56" y="423" font-size="12" fill="#1C1917">Звонок — предупреждение пешеходов</text>
+  <circle cx="414" cy="362" r="14" fill="#16A34A" />
+  <text x="414" y="367" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">4</text>
+  <text x="436" y="367" font-size="12" fill="#1C1917">Зеркало заднего вида — контроль обстановки</text>
+  <circle cx="414" cy="390" r="14" fill="#16A34A" />
+  <text x="414" y="395" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">5</text>
+  <text x="436" y="395" font-size="12" fill="#1C1917">Свет фары и габаритные огни</text>
+  <circle cx="414" cy="418" r="14" fill="#16A34A" />
+  <text x="414" y="423" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">6</text>
+  <text x="436" y="423" font-size="12" fill="#1C1917">Аптечка и инструменты</text>
+  <rect x="20" y="470" width="760" height="70" rx="10" fill="#FEF2F2" stroke="#DC2626" stroke-width="2" />
+  <g>
+    <polygon points="50,485 30,519 70,519" fill="#FBBF24" stroke="#1C1917" stroke-width="2" />
+    <text x="50" y="510" text-anchor="middle" font-size="18" font-weight="bold" fill="#1C1917">!</text>
+  </g>
+  <text x="80" y="498" font-size="13" font-weight="bold" fill="#DC2626">Важно помнить!</text>
+  <text x="80" y="518" font-size="11" fill="#1C1917">Нарушение ПДД на велосипеде влечёт административную ответственность.</text>
+  <text x="80" y="534" font-size="11" fill="#1C1917">Перевозка детей до 7 лет — только на специальном сиденье с подножками.</text>
+  <rect x="0" y="570" width="800" height="30" fill="#1C1917" />
+  <text x="400" y="590" text-anchor="middle" font-size="11" fill="#D6D3D1">Основы безопасности жизнедеятельности | 7 класс</text>
+</svg>

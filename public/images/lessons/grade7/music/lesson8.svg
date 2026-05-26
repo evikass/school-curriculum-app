@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#0a0014"/>
+<rect x="30" y="60" width="200" height="100" fill="#1a0030" rx="4" stroke="#6a2aaa" stroke-width="1"/>
+<circle cx="80" cy="110" r="25" fill="#2a0050" stroke="#8a3acc" stroke-width="1.5"/>
+<circle cx="80" cy="110" r="18" fill="#1a0040"/>
+<circle cx="80" cy="110" r="3" fill="#8a3acc"/>
+<circle cx="155" cy="100" r="20" fill="#2a0050" stroke="#8a3acc" stroke-width="1"/>
+<circle cx="155" cy="100" r="13" fill="#1a0040"/>
+<circle cx="155" cy="100" r="2.5" fill="#8a3acc"/>
+<circle cx="195" cy="125" r="15" fill="#2a0050" stroke="#8a3acc" stroke-width="0.8"/>
+<circle cx="195" cy="125" r="9" fill="#1a0040"/>
+<circle cx="195" cy="125" r="2" fill="#8a3acc"/>
+<rect x="60" y="145" width="150" height="8" fill="#1a0030" rx="2"/>
+<rect x="65" y="143" width="15" height="12" fill="#8a3acc" rx="1" opacity="0.6"/>
+<rect x="85" y="143" width="15" height="12" fill="#6a2aaa" rx="1" opacity="0.6"/>
+<rect x="105" y="143" width="15" height="12" fill="#8a3acc" rx="1" opacity="0.6"/>
+<rect x="125" y="143" width="15" height="12" fill="#6a2aaa" rx="1" opacity="0.6"/>
+<rect x="145" y="143" width="15" height="12" fill="#8a3acc" rx="1" opacity="0.6"/>
+<text x="130" y="175" font-family="Arial" font-size="8" fill="#AA5AEE" text-anchor="middle">DJ-пульт</text>
+<rect x="270" y="60" width="200" height="100" fill="#0a0020" rx="4" stroke="#4a2a8a" stroke-width="1"/>
+<rect x="285" y="75" width="170" height="65" fill="#1a0030" rx="2"/>
+<rect x="295" y="85" width="40" height="20" fill="#2a0050" rx="2" stroke="#6a2aaa" stroke-width="0.5"/>
+<rect x="345" y="85" width="40" height="20" fill="#2a0050" rx="2" stroke="#6a2aaa" stroke-width="0.5"/>
+<rect x="395" y="85" width="40" height="20" fill="#2a0050" rx="2" stroke="#6a2aaa" stroke-width="0.5"/>
+<rect x="295" y="115" width="30" height="15" fill="#3a0060" rx="1"/>
+<rect x="335" y="115" width="30" height="15" fill="#3a0060" rx="1"/>
+<rect x="375" y="115" width="30" height="15" fill="#3a0060" rx="1"/>
+<rect x="415" y="115" width="30" height="15" fill="#3a0060" rx="1"/>
+<text x="370" y="145" font-family="Arial" font-size="5" fill="#8a3acc" text-anchor="middle">OSC FILTER ENV</text>
+<text x="370" y="175" font-family="Arial" font-size="8" fill="#AA5AEE" text-anchor="middle">Синтезатор</text>
+<path d="M50,210 Q60,200 70,210 Q80,195 90,210 Q100,200 110,210" stroke="#8a3acc" stroke-width="1.5" fill="none" opacity="0.5"/>
+<path d="M50,220 Q65,210 80,220 Q95,205 110,220" stroke="#6a2aaa" stroke-width="1" fill="none" opacity="0.4"/>
+<path d="M130,210 Q140,200 150,210 Q160,195 170,210 Q180,200 190,210 Q200,195 210,210 Q220,200 230,210 Q240,195 250,210 Q260,200 270,210 Q280,195 290,210 Q300,200 310,210 Q320,195 330,210 Q340,200 350,210 Q360,195 370,210 Q380,200 390,210 Q400,195 410,210 Q420,200 430,210 Q440,195 450,210" stroke="#AA5AEE" stroke-width="0.8" fill="none" opacity="0.3"/>
+<ellipse cx="370" cy="260" rx="40" ry="35" fill="#1a0030" stroke="#6a2aaa" stroke-width="1"/>
+<ellipse cx="370" cy="255" rx="35" ry="28" fill="#2a0050" opacity="0.5"/>
+<path d="M345" y1="260" Q355,240 370,260 Q385,240 395,260" stroke="#8a3acc" stroke-width="1" fill="none" opacity="0.6"/>
+<text x="370" y="300" font-family="Arial" font-size="7" fill="#AA5AEE" text-anchor="middle">Наушники</text>
+<text x="250" y="330" font-family="Arial" font-size="8" fill="#8a5acc" text-anchor="middle">Электронная • Поп • Техно • Хаус • Дабстеп</text>
+<text x="250" y="342" font-family="Arial" font-size="9" fill="#AA5AEE" text-anchor="middle" opacity="0.5">Электронная и популярная музыка</text>
+</svg>

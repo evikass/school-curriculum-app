@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E3F2FD"/><stop offset="100%" stop-color="#BBDEFB"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#0D47A1" text-anchor="middle">Вода — основа жизни</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 10 класс — Урок 4</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#1565C0" stroke-width="1" opacity="0.3"/>
+
+<!-- Water molecule structure -->
+<g transform="translate(120,170)">
+  <!-- Oxygen atom -->
+  <circle cx="0" cy="0" r="22" fill="#F44336" opacity="0.7" stroke="#B71C1C" stroke-width="1.5"/>
+  <text x="0" y="5" font-family="Arial,sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">O</text>
+  <!-- Hydrogen atoms -->
+  <circle cx="-30" cy="-25" r="14" fill="#E0E0E0" stroke="#9E9E9E" stroke-width="1.2"/>
+  <text x="-30" y="-20" font-family="Arial,sans-serif" font-size="11" fill="#333" text-anchor="middle" font-weight="bold">H</text>
+  <circle cx="30" cy="-25" r="14" fill="#E0E0E0" stroke="#9E9E9E" stroke-width="1.2"/>
+  <text x="30" y="-20" font-family="Arial,sans-serif" font-size="11" fill="#333" text-anchor="middle" font-weight="bold">H</text>
+  <!-- Bonds -->
+  <line x1="-15" y1="-10" x2="-22" y2="-17" stroke="#666" stroke-width="2.5"/>
+  <line x1="15" y1="-10" x2="22" y2="-17" stroke="#666" stroke-width="2.5"/>
+  <!-- Partial charges -->
+  <text x="0" y="32" font-family="Arial,sans-serif" font-size="10" fill="#C62828" text-anchor="middle" font-weight="bold">d-</text>
+  <text x="-30" y="-40" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle" font-weight="bold">d+</text>
+  <text x="30" y="-40" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle" font-weight="bold">d+</text>
+  <!-- Angle -->
+  <path d="M-12,-15 Q0,-22 12,-15" fill="none" stroke="#FF9800" stroke-width="1" stroke-dasharray="2,1"/>
+  <text x="0" y="-28" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">104.5°</text>
+
+  <!-- Hydrogen bonds to neighboring molecules -->
+  <line x1="30" y1="-28" x2="55" y2="-35" stroke="#1565C0" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <text x="48" y="-38" font-family="Arial,sans-serif" font-size="5" fill="#1565C0">H-связь</text>
+  <line x1="-30" y1="-28" x2="-55" y2="-35" stroke="#1565C0" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <text x="-48" y="-38" font-family="Arial,sans-serif" font-size="5" fill="#1565C0">H-связь</text>
+
+  <text x="0" y="52" font-family="Arial,sans-serif" font-size="8" fill="#0D47A1" text-anchor="middle" font-weight="bold">Молекула H2O</text>
+  <text x="0" y="62" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">Полярная, угол 104.5°</text>
+</g>
+
+<!-- Properties panel -->
+<g transform="translate(260,60)">
+  <rect x="0" y="0" width="220" height="195" rx="6" fill="white" opacity="0.92" stroke="#1565C0" stroke-width="1"/>
+  <rect x="0" y="0" width="220" height="20" rx="6" fill="#1565C0" opacity="0.85"/>
+  <rect x="0" y="14" width="220" height="6" fill="#1565C0" opacity="0.85"/>
+  <text x="110" y="14" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">СВОЙСТВА ВОДЫ</text>
+
+  <!-- Property 1: High heat capacity -->
+  <g transform="translate(10,30)">
+    <circle cx="8" cy="6" r="7" fill="#F44336" opacity="0.2" stroke="#F44336" stroke-width="0.8"/>
+    <text x="8" y="9" font-family="Arial,sans-serif" font-size="7" fill="#F44336" text-anchor="middle" font-weight="bold">1</text>
+    <text x="22" y="5" font-family="Arial,sans-serif" font-size="7" fill="#0D47A1" font-weight="bold">Высокая теплоёмкость</text>
+    <text x="22" y="14" font-family="Arial,sans-serif" font-size="6" fill="#555">Стабильная t° организма</text>
+  </g>
+
+  <!-- Property 2: Universal solvent -->
+  <g transform="translate(10,55)">
+    <circle cx="8" cy="6" r="7" fill="#2196F3" opacity="0.2" stroke="#2196F3" stroke-width="0.8"/>
+    <text x="8" y="9" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle" font-weight="bold">2</text>
+    <text x="22" y="5" font-family="Arial,sans-serif" font-size="7" fill="#0D47A1" font-weight="bold">Универсальный растворитель</text>
+    <text x="22" y="14" font-family="Arial,sans-serif" font-size="6" fill="#555">Среда для хим. реакций</text>
+  </g>
+
+  <!-- Property 3: High surface tension -->
+  <g transform="translate(10,80)">
+    <circle cx="8" cy="6" r="7" fill="#4CAF50" opacity="0.2" stroke="#4CAF50" stroke-width="0.8"/>
+    <text x="8" y="9" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">3</text>
+    <text x="22" y="5" font-family="Arial,sans-serif" font-size="7" fill="#0D47A1" font-weight="bold">Высокое поверхн. натяжение</text>
+    <text x="22" y="14" font-family="Arial,sans-serif" font-size="6" fill="#555">Капиллярность, восход. ток</text>
+  </g>
+
+  <!-- Property 4: Density anomaly -->
+  <g transform="translate(10,105)">
+    <circle cx="8" cy="6" r="7" fill="#FF9800" opacity="0.2" stroke="#FF9800" stroke-width="0.8"/>
+    <text x="8" y="9" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle" font-weight="bold">4</text>
+    <text x="22" y="5" font-family="Arial,sans-serif" font-size="7" fill="#0D47A1" font-weight="bold">Аномалия плотности</text>
+    <text x="22" y="14" font-family="Arial,sans-serif" font-size="6" fill="#555">Лёд легче воды (жизнь зимой)</text>
+  </g>
+
+  <!-- Property 5: High boiling point -->
+  <g transform="translate(10,130)">
+    <circle cx="8" cy="6" r="7" fill="#9C27B0" opacity="0.2" stroke="#9C27B0" stroke-width="0.8"/>
+    <text x="8" y="9" font-family="Arial,sans-serif" font-size="7" fill="#7B1FA2" text-anchor="middle" font-weight="bold">5</text>
+    <text x="22" y="5" font-family="Arial,sans-serif" font-size="7" fill="#0D47A1" font-weight="bold">Высокая t° кипения</text>
+    <text x="22" y="14" font-family="Arial,sans-serif" font-size="6" fill="#555">Вода жидкая при t° жизни</text>
+  </g>
+
+  <!-- Property 6: Transparency -->
+  <g transform="translate(10,155)">
+    <circle cx="8" cy="6" r="7" fill="#00BCD4" opacity="0.2" stroke="#00838F" stroke-width="0.8"/>
+    <text x="8" y="9" font-family="Arial,sans-serif" font-size="7" fill="#00838F" text-anchor="middle" font-weight="bold">6</text>
+    <text x="22" y="5" font-family="Arial,sans-serif" font-size="7" fill="#0D47A1" font-weight="bold">Прозрачность</text>
+    <text x="22" y="14" font-family="Arial,sans-serif" font-size="6" fill="#555">Фотосинтез в воде</text>
+  </g>
+
+  <!-- Property 7: Hydrolysis -->
+  <g transform="translate(10,180)">
+    <circle cx="8" cy="6" r="7" fill="#795548" opacity="0.2" stroke="#4E342E" stroke-width="0.8"/>
+    <text x="8" y="9" font-family="Arial,sans-serif" font-size="7" fill="#4E342E" text-anchor="middle" font-weight="bold">7</text>
+    <text x="22" y="5" font-family="Arial,sans-serif" font-size="7" fill="#0D47A1" font-weight="bold">Участие в гидролизе</text>
+    <text x="22" y="14" font-family="Arial,sans-serif" font-size="6" fill="#555">Расщепление полимеров</text>
+  </g>
+</g>
+
+<!-- Hydrophilic vs Hydrophobic -->
+<g transform="translate(30,275)">
+  <rect x="0" y="0" width="215" height="55" rx="5" fill="white" opacity="0.9" stroke="#4CAF50" stroke-width="1"/>
+  <text x="107" y="14" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle" font-weight="bold">Гидрофильные вещества</text>
+  <text x="107" y="25" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Хорошо растворяются в воде</text>
+  <text x="107" y="36" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">Соли, сахара, аминокислоты</text>
+  <circle cx="20" cy="30" r="6" fill="#2196F3" opacity="0.4"/>
+  <circle cx="35" cy="35" r="4" fill="#2196F3" opacity="0.3"/>
+  <circle cx="190" cy="28" r="5" fill="#2196F3" opacity="0.4"/>
+  <circle cx="200" cy="40" r="3" fill="#2196F3" opacity="0.3"/>
+</g>
+
+<g transform="translate(255,275)">
+  <rect x="0" y="0" width="215" height="55" rx="5" fill="white" opacity="0.9" stroke="#FF9800" stroke-width="1"/>
+  <text x="107" y="14" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle" font-weight="bold">Гидрофобные вещества</text>
+  <text x="107" y="25" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Не растворяются в воде</text>
+  <text x="107" y="36" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle">Жиры, масла, воска</text>
+  <!-- Oil droplet -->
+  <ellipse cx="25" cy="35" rx="8" ry="6" fill="#FF9800" opacity="0.4" stroke="#E65100" stroke-width="0.5"/>
+  <ellipse cx="185" cy="30" rx="7" ry="5" fill="#FF9800" opacity="0.4" stroke="#E65100" stroke-width="0.5"/>
+</g>
+
+<rect x="10" y="334" width="480" height="12" rx="4" fill="#1565C0" opacity="0.85"/>
+<text x="250" y="344" font-family="Arial,sans-serif" font-size="9" text-anchor="middle" fill="white" font-weight="bold">Вода составляет 70–95% массы клетки — без воды жизнь невозможна</text>
+</svg>

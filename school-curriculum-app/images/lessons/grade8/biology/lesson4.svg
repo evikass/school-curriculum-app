@@ -1,0 +1,223 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+  <linearGradient id="timeGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#8D6E63"/><stop offset="100%" stop-color="#2E7D32"/></linearGradient>
+  <linearGradient id="skullGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#D7CCC8"/><stop offset="100%" stop-color="#A1887F"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+
+<!-- Title -->
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Стадии эволюции человека</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 8 класс — Урок 4</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- Timeline arrow -->
+<line x1="30" y1="150" x2="470" y2="150" stroke="url(#timeGrad)" stroke-width="3" stroke-linecap="round"/>
+<polygon points="472,150 464,145 464,155" fill="#2E7D32"/>
+<text x="480" y="153" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32">наше</text>
+<text x="480" y="160" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32">время</text>
+
+<!-- Timeline date markers -->
+<text x="250" y="166" font-family="Arial,sans-serif" font-size="5" fill="#795548" text-anchor="middle">млн лет назад →</text>
+
+<!-- Stage 1: Австралопитек -->
+<g transform="translate(55,60)">
+  <!-- Skull - small brain, large jaw -->
+  <path d="M-14,8 Q-16,-6 -8,-14 Q0,-20 8,-14 Q16,-6 14,8 Q12,14 6,16 L-6,16 Q-12,14 -14,8Z" fill="url(#skullGrad)" stroke="#5D4037" stroke-width="1"/>
+  <!-- Small cranium -->
+  <ellipse cx="0" cy="-8" rx="9" ry="8" fill="#BCAAA4" opacity="0.4"/>
+  <!-- Eye sockets -->
+  <ellipse cx="-5" cy="-2" rx="3" ry="2.5" fill="#8D6E63" opacity="0.3" stroke="#5D4037" stroke-width="0.4"/>
+  <ellipse cx="5" cy="-2" rx="3" ry="2.5" fill="#8D6E63" opacity="0.3" stroke="#5D4037" stroke-width="0.4"/>
+  <!-- Large jaw -->
+  <path d="M-10,10 Q0,18 10,10" fill="#BCAAA4" stroke="#5D4037" stroke-width="0.6"/>
+  <!-- Brain volume label -->
+  <text x="0" y="28" font-family="Arial,sans-serif" font-size="5" fill="#5D4037" text-anchor="middle">≈450 см³</text>
+
+  <!-- Name -->
+  <text x="0" y="42" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle" font-weight="bold">Австралопитек</text>
+  <text x="0" y="52" font-family="Arial,sans-serif" font-size="5.5" fill="#795548" text-anchor="middle">Australopithecus</text>
+
+  <!-- Date -->
+  <text x="0" y="94" font-family="Arial,sans-serif" font-size="6" fill="#795548" text-anchor="middle" font-weight="bold">4–2 млн</text>
+
+  <!-- Tool icon - no tools / simple sticks -->
+  <g transform="translate(0,110)">
+    <line x1="-5" y1="-4" x2="5" y2="4" stroke="#8D6E63" stroke-width="2"/>
+    <text x="0" y="12" font-family="Arial,sans-serif" font-size="4.5" fill="#666" text-anchor="middle">Палки, камни</text>
+  </g>
+
+  <!-- Dot on timeline -->
+  <circle cx="0" cy="90" r="4" fill="#8D6E63" stroke="#5D4037" stroke-width="1"/>
+</g>
+
+<!-- Stage 2: Человек умелый -->
+<g transform="translate(150,60)">
+  <!-- Skull - slightly larger brain -->
+  <path d="M-13,8 Q-16,-8 -8,-16 Q0,-22 8,-16 Q16,-8 13,8 Q11,14 5,16 L-5,16 Q-11,14 -13,8Z" fill="url(#skullGrad)" stroke="#5D4037" stroke-width="1"/>
+  <ellipse cx="0" cy="-10" rx="10" ry="9" fill="#BCAAA4" opacity="0.4"/>
+  <ellipse cx="-5" cy="-3" rx="3" ry="2.5" fill="#8D6E63" opacity="0.3" stroke="#5D4037" stroke-width="0.4"/>
+  <ellipse cx="5" cy="-3" rx="3" ry="2.5" fill="#8D6E63" opacity="0.3" stroke="#5D4037" stroke-width="0.4"/>
+  <path d="M-9,10 Q0,16 9,10" fill="#BCAAA4" stroke="#5D4037" stroke-width="0.6"/>
+  <text x="0" y="28" font-family="Arial,sans-serif" font-size="5" fill="#5D4037" text-anchor="middle">≈650 см³</text>
+
+  <text x="0" y="42" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle" font-weight="bold">Человек умелый</text>
+  <text x="0" y="52" font-family="Arial,sans-serif" font-size="5.5" fill="#795548" text-anchor="middle">Homo habilis</text>
+
+  <text x="0" y="94" font-family="Arial,sans-serif" font-size="6" fill="#795548" text-anchor="middle" font-weight="bold">2.4–1.5 млн</text>
+
+  <!-- Tool icon - crude stone tool (Oldowan) -->
+  <g transform="translate(0,110)">
+    <polygon points="-6,-4 4,-6 7,2 -2,5" fill="#8D6E63" stroke="#5D4037" stroke-width="0.8"/>
+    <line x1="-6" y1="-4" x2="7" y2="2" stroke="#5D4037" stroke-width="0.4" stroke-dasharray="1,1"/>
+    <text x="0" y="12" font-family="Arial,sans-serif" font-size="4.5" fill="#666" text-anchor="middle">Олдованская</text>
+    <text x="0" y="18" font-family="Arial,sans-serif" font-size="4.5" fill="#666" text-anchor="middle">культура</text>
+  </g>
+
+  <circle cx="0" cy="90" r="4" fill="#8D6E63" stroke="#5D4037" stroke-width="1"/>
+</g>
+
+<!-- Stage 3: Питекантроп -->
+<g transform="translate(245,60)">
+  <!-- Skull - larger brain, brow ridges -->
+  <path d="M-14,8 Q-18,-10 -9,-18 Q0,-24 9,-18 Q18,-10 14,8 Q12,14 5,16 L-5,16 Q-12,14 -14,8Z" fill="url(#skullGrad)" stroke="#5D4037" stroke-width="1"/>
+  <ellipse cx="0" cy="-12" rx="11" ry="10" fill="#BCAAA4" opacity="0.4"/>
+  <!-- Brow ridges -->
+  <line x1="-10" y1="-6" x2="10" y2="-6" stroke="#5D4037" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="-5" cy="-2" rx="3.5" ry="3" fill="#8D6E63" opacity="0.3" stroke="#5D4037" stroke-width="0.4"/>
+  <ellipse cx="5" cy="-2" rx="3.5" ry="3" fill="#8D6E63" opacity="0.3" stroke="#5D4037" stroke-width="0.4"/>
+  <path d="M-9,10 Q0,16 9,10" fill="#BCAAA4" stroke="#5D4037" stroke-width="0.6"/>
+  <text x="0" y="28" font-family="Arial,sans-serif" font-size="5" fill="#5D4037" text-anchor="middle">≈900 см³</text>
+
+  <text x="0" y="42" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle" font-weight="bold">Питекантроп</text>
+  <text x="0" y="52" font-family="Arial,sans-serif" font-size="5.5" fill="#795548" text-anchor="middle">Homo erectus</text>
+
+  <text x="0" y="94" font-family="Arial,sans-serif" font-size="6" fill="#795548" text-anchor="middle" font-weight="bold">1.9–0.2 млн</text>
+
+  <!-- Tool icon - Acheulean hand axe -->
+  <g transform="translate(0,110)">
+    <path d="M-2,-8 Q8,-4 6,4 Q2,8 -4,4 Q-8,-2 -2,-8Z" fill="#8D6E63" stroke="#5D4037" stroke-width="0.8"/>
+    <line x1="-2" y1="-8" x2="2" y2="6" stroke="#5D4037" stroke-width="0.3" stroke-dasharray="1,1"/>
+    <text x="0" y="12" font-family="Arial,sans-serif" font-size="4.5" fill="#666" text-anchor="middle">Ашельская</text>
+    <text x="0" y="18" font-family="Arial,sans-serif" font-size="4.5" fill="#666" text-anchor="middle">культура</text>
+  </g>
+
+  <circle cx="0" cy="90" r="4" fill="#795548" stroke="#5D4037" stroke-width="1"/>
+</g>
+
+<!-- Stage 4: Неандерталец -->
+<g transform="translate(340,60)">
+  <!-- Skull - large brain, prominent brow ridges, receding chin -->
+  <path d="M-14,8 Q-18,-10 -10,-20 Q0,-26 10,-20 Q18,-10 14,8 Q12,14 4,16 L-4,16 Q-12,14 -14,8Z" fill="url(#skullGrad)" stroke="#5D4037" stroke-width="1"/>
+  <ellipse cx="0" cy="-14" rx="12" ry="11" fill="#BCAAA4" opacity="0.4"/>
+  <!-- Heavy brow ridges -->
+  <line x1="-11" y1="-7" x2="11" y2="-7" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="-5" cy="-2" rx="3.5" ry="3" fill="#8D6E63" opacity="0.3" stroke="#5D4037" stroke-width="0.4"/>
+  <ellipse cx="5" cy="-2" rx="3.5" ry="3" fill="#8D6E63" opacity="0.3" stroke="#5D4037" stroke-width="0.4"/>
+  <!-- Protruding midface -->
+  <path d="M-6,5 L0,9 L6,5" fill="#BCAAA4" stroke="#5D4037" stroke-width="0.5"/>
+  <path d="M-8,10 Q0,16 8,10" fill="#BCAAA4" stroke="#5D4037" stroke-width="0.6"/>
+  <text x="0" y="28" font-family="Arial,sans-serif" font-size="5" fill="#5D4037" text-anchor="middle">≈1500 см³</text>
+
+  <text x="0" y="42" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle" font-weight="bold">Неандерталец</text>
+  <text x="0" y="52" font-family="Arial,sans-serif" font-size="5.5" fill="#795548" text-anchor="middle">Homo neanderthalensis</text>
+
+  <text x="0" y="94" font-family="Arial,sans-serif" font-size="6" fill="#795548" text-anchor="middle" font-weight="bold">350–30 тыс.</text>
+
+  <!-- Tool icon - Mousterian spear point -->
+  <g transform="translate(0,110)">
+    <polygon points="0,-8 4,-2 3,6 0,8 -3,6 -4,-2" fill="#8D6E63" stroke="#5D4037" stroke-width="0.8"/>
+    <line x1="0" y1="-8" x2="0" y2="8" stroke="#5D4037" stroke-width="0.3" stroke-dasharray="1,1"/>
+    <text x="0" y="12" font-family="Arial,sans-serif" font-size="4.5" fill="#666" text-anchor="middle">Мустьерская</text>
+    <text x="0" y="18" font-family="Arial,sans-serif" font-size="4.5" fill="#666" text-anchor="middle">культура</text>
+  </g>
+
+  <circle cx="0" cy="90" r="4" fill="#6D4C41" stroke="#5D4037" stroke-width="1"/>
+</g>
+
+<!-- Stage 5: Кроманьонец -->
+<g transform="translate(435,60)">
+  <!-- Skull - modern, high forehead, chin -->
+  <path d="M-13,8 Q-16,-12 -8,-20 Q0,-26 8,-20 Q16,-12 13,8 Q11,14 4,16 L-4,16 Q-11,14 -13,8Z" fill="url(#skullGrad)" stroke="#5D4037" stroke-width="1"/>
+  <ellipse cx="0" cy="-14" rx="12" ry="12" fill="#BCAAA4" opacity="0.3"/>
+  <!-- High forehead - no heavy brow ridges -->
+  <line x1="-8" y1="-8" x2="8" y2="-8" stroke="#5D4037" stroke-width="1" stroke-linecap="round"/>
+  <ellipse cx="-4" cy="-3" rx="3" ry="2.5" fill="#8D6E63" opacity="0.3" stroke="#5D4037" stroke-width="0.4"/>
+  <ellipse cx="4" cy="-3" rx="3" ry="2.5" fill="#8D6E63" opacity="0.3" stroke="#5D4037" stroke-width="0.4"/>
+  <!-- Chin -->
+  <path d="M-4,14 L0,18 L4,14" fill="#BCAAA4" stroke="#5D4037" stroke-width="0.6"/>
+  <text x="0" y="28" font-family="Arial,sans-serif" font-size="5" fill="#5D4037" text-anchor="middle">≈1400 см³</text>
+
+  <text x="0" y="42" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle" font-weight="bold">Кроманьонец</text>
+  <text x="0" y="52" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32" text-anchor="middle">Homo sapiens</text>
+
+  <text x="0" y="94" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle" font-weight="bold">40 тыс. — н.в.</text>
+
+  <!-- Tool icon - advanced tools / art -->
+  <g transform="translate(0,110)">
+    <!-- Cave painting icon -->
+    <rect x="-7" y="-6" width="14" height="10" rx="1" fill="#FFCC80" stroke="#E65100" stroke-width="0.6"/>
+    <!-- Simple animal painting inside -->
+    <path d="M-4,-2 Q-2,-4 0,-2 Q2,-4 4,-2" fill="none" stroke="#E65100" stroke-width="0.6"/>
+    <text x="0" y="12" font-family="Arial,sans-serif" font-size="4.5" fill="#666" text-anchor="middle">Искусство,</text>
+    <text x="0" y="18" font-family="Arial,sans-serif" font-size="4.5" fill="#666" text-anchor="middle">земледелие</text>
+  </g>
+
+  <circle cx="0" cy="90" r="4" fill="#2E7D32" stroke="#1B5E20" stroke-width="1"/>
+</g>
+
+<!-- Connecting arrows on timeline between stages -->
+<path d="M65,150 L140,150" fill="none" stroke="#8D6E63" stroke-width="1.5" opacity="0.5"/>
+<path d="M160,150 L235,150" fill="none" stroke="#795548" stroke-width="1.5" opacity="0.5"/>
+<path d="M255,150 L330,150" fill="none" stroke="#6D4C41" stroke-width="1.5" opacity="0.5"/>
+<path d="M350,150 L425,150" fill="none" stroke="#4E342E" stroke-width="1.5" opacity="0.5"/>
+
+<!-- Bottom info panel -->
+<g transform="translate(20,240)">
+  <rect x="0" y="0" width="460" height="82" rx="5" fill="white" opacity="0.9" stroke="#2E7D32" stroke-width="1"/>
+  <text x="230" y="14" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle" font-weight="bold">Главные тенденции эволюции гоминид</text>
+  <line x1="10" y1="19" x2="450" y2="19" stroke="#2E7D32" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Trend arrows with descriptions -->
+  <g transform="translate(15,28)">
+    <polygon points="0,0 8,-4 8,4" fill="#2E7D32"/>
+    <text x="14" y="4" font-family="Arial,sans-serif" font-size="6" fill="#333" font-weight="bold">Увеличение объёма мозга</text>
+    <text x="14" y="13" font-family="Arial,sans-serif" font-size="5.5" fill="#555">от 450 до 1400–1500 см³</text>
+  </g>
+
+  <g transform="translate(170,28)">
+    <polygon points="0,0 8,-4 8,4" fill="#2E7D32"/>
+    <text x="14" y="4" font-family="Arial,sans-serif" font-size="6" fill="#333" font-weight="bold">Развитие прямохождения</text>
+    <text x="14" y="13" font-family="Arial,sans-serif" font-size="5.5" fill="#555">освобождение рук для труда</text>
+  </g>
+
+  <g transform="translate(325,28)">
+    <polygon points="0,0 8,-4 8,4" fill="#2E7D32"/>
+    <text x="14" y="4" font-family="Arial,sans-serif" font-size="6" fill="#333" font-weight="bold">Усложнение орудий</text>
+    <text x="14" y="13" font-family="Arial,sans-serif" font-size="5.5" fill="#555">камни → рубила → копья → искусство</text>
+  </g>
+
+  <g transform="translate(15,52)">
+    <polygon points="0,0 8,-4 8,4" fill="#2E7D32"/>
+    <text x="14" y="4" font-family="Arial,sans-serif" font-size="6" fill="#333" font-weight="bold">Формирование речи</text>
+    <text x="14" y="13" font-family="Arial,sans-serif" font-size="5.5" fill="#555">развитие гортани и речевых центров мозга</text>
+  </g>
+
+  <g transform="translate(170,52)">
+    <polygon points="0,0 8,-4 8,4" fill="#2E7D32"/>
+    <text x="14" y="4" font-family="Arial,sans-serif" font-size="6" fill="#333" font-weight="bold">Социальное развитие</text>
+    <text x="14" y="13" font-family="Arial,sans-serif" font-size="5.5" fill="#555">стадо → родовая община → племя</text>
+  </g>
+
+  <g transform="translate(325,52)">
+    <polygon points="0,0 8,-4 8,4" fill="#2E7D32"/>
+    <text x="14" y="4" font-family="Arial,sans-serif" font-size="6" fill="#333" font-weight="bold">Уменьшение челюстей</text>
+    <text x="14" y="13" font-family="Arial,sans-serif" font-size="5.5" fill="#555">переход на термически обработанную пищу</text>
+  </g>
+</g>
+
+<!-- Footer bar -->
+<rect x="0" y="330" width="500" height="20" rx="0" fill="#2E7D32"/>
+<text x="250" y="344" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle" font-weight="bold">От австралопитека до современного человека — путь эволюции</text>
+</svg>

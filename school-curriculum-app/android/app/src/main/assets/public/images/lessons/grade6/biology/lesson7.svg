@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+  <text x="250" y="30" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#2E7D32" text-anchor="middle">Роль бактерий в природе и жизни человека</text>
+  <text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 6 класс - Урок 7</text>
+  <line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+  
+  <!-- Split: Positive/Negative -->
+  <!-- Positive side -->
+  <rect x="20" y="60" width="225" height="245" rx="8" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1.5"/>
+  <text x="132" y="82" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle" font-weight="bold">Положительная роль</text>
+  <!-- Nitrogen fixation -->
+  <g transform="translate(70,120)">
+    <circle cx="0" cy="0" r="22" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1.5"/>
+    <text x="0" y="-3" font-family="Arial,sans-serif" font-size="12" fill="#2E7D32" text-anchor="middle" font-weight="bold">N</text>
+    <text x="0" y="10" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">2</text>
+    <path d="M0 22 L0 32" stroke="#4CAF50" stroke-width="1.5"/><path d="M0 32 L-3 28 M0 32 L3 28" stroke="#4CAF50" stroke-width="1"/>
+    <text x="0" y="45" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Азотфиксация</text>
+  </g>
+  <!-- Decomposition -->
+  <g transform="translate(185,120)">
+    <path d="M-15 8 L-10 -5 L0 -8 L10 -5 L15 8" stroke="#795548" stroke-width="2" fill="none"/>
+    <circle cx="0" cy="-15" r="4" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+    <circle cx="-10" cy="-12" r="3" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+    <text x="0" y="28" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Разложение</text>
+    <text x="0" y="38" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">органики</text>
+  </g>
+  <!-- Fermentation -->
+  <g transform="translate(70,210)">
+    <rect x="-18" y="-12" width="36" height="24" fill="#FFF9C4" stroke="#F9A825" stroke-width="1.5" rx="4"/>
+    <text x="0" y="3" font-family="Arial,sans-serif" font-size="10" fill="#F57F17" text-anchor="middle">kefir</text>
+    <text x="0" y="28" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Кисломолочные</text>
+  </g>
+  <!-- Medicine -->
+  <g transform="translate(185,210)">
+    <rect x="-15" y="-15" width="30" height="30" fill="white" stroke="#E53935" stroke-width="1.5" rx="3"/>
+    <line x1="0" y1="-15" x2="0" y2="15" stroke="#E53935" stroke-width="1.5"/>
+    <line x1="-15" y1="0" x2="15" y2="0" stroke="#E53935" stroke-width="1.5"/>
+    <text x="0" y="30" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Антибиотики</text>
+  </g>
+  <!-- Negative side -->
+  <rect x="255" y="60" width="225" height="245" rx="8" fill="#FFEBEE" stroke="#E53935" stroke-width="1.5"/>
+  <text x="367" y="82" font-family="Arial,sans-serif" font-size="11" fill="#C62828" text-anchor="middle" font-weight="bold">Отрицательная роль</text>
+  <!-- Diseases -->
+  <g transform="translate(310,120)">
+    <circle cx="0" cy="0" r="22" fill="#FFCDD2" stroke="#E53935" stroke-width="1.5"/>
+    <path d="M-8 -8 L8 8 M8 -8 L-8 8" stroke="#E53935" stroke-width="2.5"/>
+    <text x="0" y="35" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Инфекции</text>
+    <text x="0" y="45" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">холера, туберкулёз</text>
+  </g>
+  <!-- Food spoilage -->
+  <g transform="translate(420,120)">
+    <rect x="-18" y="-12" width="36" height="24" fill="#FFF3E0" stroke="#FF9800" stroke-width="1.5" rx="3"/>
+    <circle cx="-5" cy="-3" r="5" fill="#8BC34A" opacity="0.6"/>
+    <circle cx="8" cy="3" r="4" fill="#8BC34A" opacity="0.5"/>
+    <circle cx="3" cy="8" r="3" fill="#8BC34A" opacity="0.4"/>
+    <text x="0" y="28" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Порча продуктов</text>
+  </g>
+  <!-- Bioweapons -->
+  <g transform="translate(310,210)">
+    <path d="M-12 -12 L12 -12 L12 12 L-12 12 Z" fill="#FFCDD2" stroke="#E53935" stroke-width="1"/>
+    <text x="0" y="3" font-family="Arial,sans-serif" font-size="14" fill="#E53935" text-anchor="middle" font-weight="bold">!</text>
+    <text x="0" y="28" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Опасные</text>
+    <text x="0" y="38" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">заболевания</text>
+  </g>
+  <!-- Decay -->
+  <g transform="translate(420,210)">
+    <rect x="-18" y="-12" width="36" height="24" fill="#FFCDD2" stroke="#E53935" stroke-width="1" rx="3"/>
+    <path d="M-8 0 L-3 -8 L3 0 L8 -8" stroke="#E53935" stroke-width="1.5" fill="none"/>
+    <text x="0" y="28" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Гниение</text>
+  </g>
+
+  <rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+  <text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 6 класс</text>
+</svg>

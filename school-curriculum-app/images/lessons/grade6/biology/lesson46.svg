@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+<linearGradient id="petalG" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FF8A65"/><stop offset="100%" stop-color="#E64A19"/></linearGradient>
+<linearGradient id="antherG" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFD54F"/><stop offset="100%" stop-color="#F9A825"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Размножение цветковых растений. Опыление</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 6 класс — Урок 46</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- SECTION 1: Pollination diagram - anther to stigma -->
+<text x="130" y="66" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#2E7D32" text-anchor="middle">Опыление: пыльник → рыльце</text>
+
+<!-- Flower 1 (pollen source) -->
+<!-- Petals -->
+<ellipse cx="70" cy="100" rx="12" ry="22" fill="url(#petalG)" stroke="#E64A19" stroke-width="0.5" transform="rotate(-30,70,100)"/>
+<ellipse cx="70" cy="100" rx="12" ry="22" fill="url(#petalG)" stroke="#E64A19" stroke-width="0.5" transform="rotate(30,70,100)"/>
+<ellipse cx="70" cy="100" rx="12" ry="22" fill="url(#petalG)" stroke="#E64A19" stroke-width="0.5" transform="rotate(90,70,100)"/>
+<ellipse cx="70" cy="100" rx="12" ry="22" fill="url(#petalG)" stroke="#E64A19" stroke-width="0.5" transform="rotate(150,70,100)"/>
+<ellipse cx="70" cy="100" rx="12" ry="22" fill="url(#petalG)" stroke="#E64A19" stroke-width="0.5" transform="rotate(-90,70,100)"/>
+<!-- Center -->
+<circle cx="70" cy="100" r="8" fill="#FFD54F" stroke="#F9A825" stroke-width="0.5"/>
+<!-- Anthers with pollen -->
+<ellipse cx="58" cy="88" rx="4" ry="6" fill="url(#antherG)" stroke="#F57F17" stroke-width="0.5"/>
+<ellipse cx="82" cy="88" rx="4" ry="6" fill="url(#antherG)" stroke="#F57F17" stroke-width="0.5"/>
+<ellipse cx="58" cy="112" rx="4" ry="6" fill="url(#antherG)" stroke="#F57F17" stroke-width="0.5"/>
+<ellipse cx="82" cy="112" rx="4" ry="6" fill="url(#antherG)" stroke="#F57F17" stroke-width="0.5"/>
+<!-- Filaments -->
+<line x1="58" y1="94" x2="62" y2="100" stroke="#66BB6A" stroke-width="0.5"/>
+<line x1="82" y1="94" x2="78" y2="100" stroke="#66BB6A" stroke-width="0.5"/>
+<line x1="58" y1="106" x2="62" y2="100" stroke="#66BB6A" stroke-width="0.5"/>
+<line x1="82" y1="106" x2="78" y2="100" stroke="#66BB6A" stroke-width="0.5"/>
+<!-- Pollen grains falling -->
+<circle cx="50" cy="95" r="1.5" fill="#FFD54F" stroke="#F9A825" stroke-width="0.3"/>
+<circle cx="90" cy="95" r="1.5" fill="#FFD54F" stroke="#F9A825" stroke-width="0.3"/>
+<circle cx="55" cy="105" r="1.2" fill="#FFD54F" stroke="#F9A825" stroke-width="0.3"/>
+<circle cx="85" cy="105" r="1.2" fill="#FFD54F" stroke="#F9A825" stroke-width="0.3"/>
+<text x="70" y="130" font-family="Arial,sans-serif" font-size="5" fill="#E64A19" text-anchor="middle">пыльник</text>
+
+<!-- Arrow pollen transfer -->
+<path d="M100,100 L155,100" stroke="#F9A825" stroke-width="1.5" fill="none"/>
+<polygon points="155,98 160,100 155,102" fill="#F9A825"/>
+<!-- Pollen grains on arrow -->
+<circle cx="115" cy="98" r="1.5" fill="#FFD54F" stroke="#F9A825" stroke-width="0.3"/>
+<circle cx="130" cy="99" r="1.5" fill="#FFD54F" stroke="#F9A825" stroke-width="0.3"/>
+<circle cx="145" cy="98" r="1.2" fill="#FFD54F" stroke="#F9A825" stroke-width="0.3"/>
+<text x="130" y="93" font-family="Arial,sans-serif" font-size="6" fill="#F57F17" text-anchor="middle">пыльца</text>
+
+<!-- Flower 2 (stigma recipient) -->
+<ellipse cx="195" cy="100" rx="12" ry="22" fill="#CE93D8" stroke="#8E24AA" stroke-width="0.5" transform="rotate(-30,195,100)"/>
+<ellipse cx="195" cy="100" rx="12" ry="22" fill="#CE93D8" stroke="#8E24AA" stroke-width="0.5" transform="rotate(30,195,100)"/>
+<ellipse cx="195" cy="100" rx="12" ry="22" fill="#CE93D8" stroke="#8E24AA" stroke-width="0.5" transform="rotate(90,195,100)"/>
+<ellipse cx="195" cy="100" rx="12" ry="22" fill="#CE93D8" stroke="#8E24AA" stroke-width="0.5" transform="rotate(150,195,100)"/>
+<ellipse cx="195" cy="100" rx="12" ry="22" fill="#CE93D8" stroke="#8E24AA" stroke-width="0.5" transform="rotate(-90,195,100)"/>
+<!-- Stigma -->
+<ellipse cx="195" cy="90" rx="8" ry="4" fill="#BA68C8" stroke="#7B1FA2" stroke-width="0.5"/>
+<!-- Pollen grains on stigma -->
+<circle cx="192" cy="89" r="1.5" fill="#FFD54F" stroke="#F9A825" stroke-width="0.3"/>
+<circle cx="198" cy="89" r="1.5" fill="#FFD54F" stroke="#F9A825" stroke-width="0.3"/>
+<circle cx="195" cy="87" r="1.2" fill="#FFD54F" stroke="#F9A825" stroke-width="0.3"/>
+<!-- Style -->
+<line x1="195" y1="94" x2="195" y2="108" stroke="#66BB6A" stroke-width="1"/>
+<!-- Ovary -->
+<ellipse cx="195" cy="112" rx="6" ry="5" fill="#A5D6A7" stroke="#388E3C" stroke-width="0.5"/>
+<text x="195" y="130" font-family="Arial,sans-serif" font-size="5" fill="#7B1FA2" text-anchor="middle">рыльце пестика</text>
+
+<!-- SECTION 2: Wind vs Insect pollination -->
+<text x="370" y="66" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#2E7D32" text-anchor="middle">Анемофилия vs Энтомофилия</text>
+
+<!-- Wind pollination (left) -->
+<rect x="260" y="72" width="110" height="70" rx="3" fill="#E3F2FD" opacity="0.3" stroke="#1565C0" stroke-width="0.5"/>
+<text x="315" y="82" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#0D47A1" text-anchor="middle">Ветроопыляемые</text>
+<!-- Grass flower (small, no petals) -->
+<rect x="300" y="95" width="4" height="20" rx="1" fill="#8D6E63" stroke="#5D4037" stroke-width="0.3"/>
+<!-- Hanging anthers -->
+<ellipse cx="295" cy="96" rx="3" ry="5" fill="#FFD54F" stroke="#F9A825" stroke-width="0.4"/>
+<line x1="295" y1="101" x2="302" y2="100" stroke="#66BB6A" stroke-width="0.4"/>
+<ellipse cx="325" cy="94" rx="3" ry="5" fill="#FFD54F" stroke="#F9A825" stroke-width="0.4"/>
+<line x1="325" y1="99" x2="302" y2="100" stroke="#66BB6A" stroke-width="0.4"/>
+<!-- Feathery stigma -->
+<path d="M310,95 Q312,88 314,95" stroke="#A5D6A7" stroke-width="0.4" fill="none"/>
+<path d="M312,95 Q314,88 316,95" stroke="#A5D6A7" stroke-width="0.4" fill="none"/>
+<path d="M308,95 Q310,90 312,95" stroke="#A5D6A7" stroke-width="0.4" fill="none"/>
+<!-- Wind arrows -->
+<path d="M280,92 L290,92" stroke="#42A5F5" stroke-width="0.6" fill="none" stroke-dasharray="2,1"/>
+<path d="M280,98 L290,98" stroke="#42A5F5" stroke-width="0.6" fill="none" stroke-dasharray="2,1"/>
+<path d="M280,104 L290,104" stroke="#42A5F5" stroke-width="0.6" fill="none" stroke-dasharray="2,1"/>
+<!-- Pollen in wind -->
+<circle cx="330" cy="90" r="1" fill="#FFD54F" opacity="0.7"/>
+<circle cx="340" cy="95" r="1" fill="#FFD54F" opacity="0.6"/>
+<circle cx="335" cy="100" r="1" fill="#FFD54F" opacity="0.5"/>
+<text x="315" y="122" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">рожь, кукуруза, берёза</text>
+<text x="315" y="130" font-family="Arial,sans-serif" font-size="4.5" fill="#0D47A1" text-anchor="middle">мелкая пыльца, нет лепестков</text>
+<text x="315" y="137" font-family="Arial,sans-serif" font-size="4.5" fill="#0D47A1" text-anchor="middle">много пыльцы, перистые рыльца</text>
+
+<!-- Insect pollination (right) -->
+<rect x="380" y="72" width="110" height="70" rx="3" fill="#FFF3E0" opacity="0.3" stroke="#FF9800" stroke-width="0.5"/>
+<text x="435" y="82" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#E65100" text-anchor="middle">Насекомоопыляемые</text>
+<!-- Large colorful flower -->
+<ellipse cx="435" cy="108" rx="10" ry="16" fill="#FF8A65" stroke="#E64A19" stroke-width="0.5" transform="rotate(-20,435,108)"/>
+<ellipse cx="435" cy="108" rx="10" ry="16" fill="#FF8A65" stroke="#E64A19" stroke-width="0.5" transform="rotate(20,435,108)"/>
+<ellipse cx="435" cy="108" rx="10" ry="16" fill="#FF8A65" stroke="#E64A19" stroke-width="0.5" transform="rotate(60,435,108)"/>
+<ellipse cx="435" cy="108" rx="10" ry="16" fill="#FF8A65" stroke="#E64A19" stroke-width="0.5" transform="rotate(100,435,108)"/>
+<ellipse cx="435" cy="108" rx="10" ry="16" fill="#FF8A65" stroke="#E64A19" stroke-width="0.5" transform="rotate(140,435,108)"/>
+<!-- Center with nectar -->
+<circle cx="435" cy="108" r="6" fill="#FFD54F" stroke="#F9A825" stroke-width="0.5"/>
+<!-- Bee -->
+<ellipse cx="418" cy="93" rx="6" ry="4" fill="#FFD54F" stroke="#F9A825" stroke-width="0.5"/>
+<line x1="416" y1="90" x2="414" y2="86" stroke="#4CAF50" stroke-width="0.5"/>
+<line x1="420" y1="90" x2="422" y2="86" stroke="#4CAF50" stroke-width="0.5"/>
+<rect x="415" y="91" width="2" height="3" fill="#333"/>
+<rect x="419" y="91" width="2" height="3" fill="#333"/>
+<text x="435" y="130" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">яблоня, клевер, роза</text>
+<text x="435" y="137" font-family="Arial,sans-serif" font-size="4.5" fill="#E65100" text-anchor="middle">крупные цветы, нектар, запах</text>
+
+<!-- SECTION 3: Self vs Cross pollination -->
+<text x="250" y="155" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#2E7D32" text-anchor="middle">Самоопыление vs Перекрёстное опыление</text>
+
+<!-- Self-pollination -->
+<rect x="15" y="160" width="230" height="52" rx="3" fill="#FFF9C4" opacity="0.3" stroke="#F9A825" stroke-width="0.5"/>
+<text x="130" y="172" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#F57F17" text-anchor="middle">Самоопыление</text>
+<!-- Flower with curved arrow -->
+<circle cx="60" cy="195" r="15" fill="#CE93D8" opacity="0.3" stroke="#8E24AA" stroke-width="0.5"/>
+<circle cx="60" cy="195" r="6" fill="#BA68C8" stroke="#7B1FA2" stroke-width="0.5"/>
+<!-- Curved arrow inside flower -->
+<path d="M55,190 Q50,195 55,200 Q60,203 65,200" stroke="#F9A825" stroke-width="0.8" fill="none"/>
+<polygon points="65,198 68,200 65,202" fill="#F9A825"/>
+<text x="120" y="188" font-family="Arial,sans-serif" font-size="5.5" fill="#666">пыльца с тычинок</text>
+<text x="120" y="196" font-family="Arial,sans-serif" font-size="5.5" fill="#666">на рыльце того же</text>
+<text x="120" y="204" font-family="Arial,sans-serif" font-size="5.5" fill="#666">цветка (пшеница, горох)</text>
+
+<!-- Cross-pollination -->
+<rect x="255" y="160" width="230" height="52" rx="3" fill="#C8E6C9" opacity="0.3" stroke="#4CAF50" stroke-width="0.5"/>
+<text x="370" y="172" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#2E7D32" text-anchor="middle">Перекрёстное опыление</text>
+<!-- Two flowers with arrow between -->
+<circle cx="295" cy="195" r="12" fill="#FF8A65" opacity="0.3" stroke="#E64A19" stroke-width="0.5"/>
+<circle cx="295" cy="195" r="4" fill="#FFD54F" stroke="#F9A825" stroke-width="0.3"/>
+<circle cx="445" cy="195" r="12" fill="#CE93D8" opacity="0.3" stroke="#8E24AA" stroke-width="0.5"/>
+<circle cx="445" cy="195" r="4" fill="#BA68C8" stroke="#7B1FA2" stroke-width="0.3"/>
+<!-- Arrow -->
+<path d="M310,195 L430,195" stroke="#2E7D32" stroke-width="1" fill="none"/>
+<polygon points="430,193 435,195 430,197" fill="#2E7D32"/>
+<!-- Pollen grains on arrow -->
+<circle cx="350" cy="193" r="1.5" fill="#FFD54F" stroke="#F9A825" stroke-width="0.2"/>
+<circle cx="370" cy="193" r="1.2" fill="#FFD54F" stroke="#F9A825" stroke-width="0.2"/>
+<circle cx="390" cy="193" r="1.5" fill="#FFD54F" stroke="#F9A825" stroke-width="0.2"/>
+<circle cx="410" cy="193" r="1" fill="#FFD54F" stroke="#F9A825" stroke-width="0.2"/>
+<text x="370" y="204" font-family="Arial,sans-serif" font-size="5.5" fill="#666">пыльца с одного цветка</text>
+<text x="370" y="212" font-family="Arial,sans-serif" font-size="5.5" fill="#666">на рыльце другого (яблоня)</text>
+
+<!-- SECTION 4: Comparison table -->
+<text x="250" y="225" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">Сравнение анемофильных и энтомофильных растений</text>
+
+<!-- Table -->
+<rect x="15" y="230" width="470" height="72" rx="3" fill="#FFF" opacity="0.3" stroke="#2E7D32" stroke-width="0.5"/>
+<!-- Header -->
+<rect x="15" y="230" width="470" height="12" rx="3" fill="#2E7D32" opacity="0.15"/>
+<text x="110" y="239" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#1B5E20" text-anchor="middle">Признак</text>
+<text x="270" y="239" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#0D47A1" text-anchor="middle">Ветроопыляемые</text>
+<text x="415" y="239" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#E65100" text-anchor="middle">Насекомоопыляемые</text>
+<line x1="185" y1="230" x2="185" y2="302" stroke="#2E7D32" stroke-width="0.3"/>
+<line x1="355" y1="230" x2="355" y2="302" stroke="#2E7D32" stroke-width="0.3"/>
+
+<!-- Rows -->
+<text x="110" y="250" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">Цветки</text>
+<text x="270" y="250" font-family="Arial,sans-serif" font-size="5.5" fill="#0D47A1" text-anchor="middle">мелкие, невзрачные</text>
+<text x="415" y="250" font-family="Arial,sans-serif" font-size="5.5" fill="#E65100" text-anchor="middle">крупные, яркие</text>
+
+<text x="110" y="259" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">Лепестки</text>
+<text x="270" y="259" font-family="Arial,sans-serif" font-size="5.5" fill="#0D47A1" text-anchor="middle">отсутствуют/редуцир.</text>
+<text x="415" y="259" font-family="Arial,sans-serif" font-size="5.5" fill="#E65100" text-anchor="middle">крупные, яркие</text>
+
+<text x="110" y="268" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">Нектар/запах</text>
+<text x="270" y="268" font-family="Arial,sans-serif" font-size="5.5" fill="#0D47A1" text-anchor="middle">нет</text>
+<text x="415" y="268" font-family="Arial,sans-serif" font-size="5.5" fill="#E65100" text-anchor="middle">есть нектар и аромат</text>
+
+<text x="110" y="277" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">Пыльца</text>
+<text x="270" y="277" font-family="Arial,sans-serif" font-size="5.5" fill="#0D47A1" text-anchor="middle">много, лёгкая, сухая</text>
+<text x="415" y="277" font-family="Arial,sans-serif" font-size="5.5" fill="#E65100" text-anchor="middle">мало, клейкая, крупная</text>
+
+<text x="110" y="286" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">Рыльце</text>
+<text x="270" y="286" font-family="Arial,sans-serif" font-size="5.5" fill="#0D47A1" text-anchor="middle">перистое, крупное</text>
+<text x="415" y="286" font-family="Arial,sans-serif" font-size="5.5" fill="#E65100" text-anchor="middle">обычное, липкое</text>
+
+<text x="110" y="295" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">Тычинки</text>
+<text x="270" y="295" font-family="Arial,sans-serif" font-size="5.5" fill="#0D47A1" text-anchor="middle">длинные, свисают</text>
+<text x="415" y="295" font-family="Arial,sans-serif" font-size="5.5" fill="#E65100" text-anchor="middle">внутри цветка</text>
+
+<!-- Summary -->
+<rect x="15" y="310" width="470" height="30" rx="3" fill="#FFF" opacity="0.3" stroke="#2E7D32" stroke-width="0.5"/>
+<text x="250" y="322" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle">Опыление — перенос пыльцы с тычинок на рыльце пестика. Искусственное опыление используют в селекции.</text>
+<text x="250" y="334" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">Защита от самоопыления: дихогамия (гетеростилия), самонесовместимость. Агенты: ветер, насекомые, птицы, вода</text>
+</svg>

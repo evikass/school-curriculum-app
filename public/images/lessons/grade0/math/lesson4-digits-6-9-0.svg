@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <style>
+      @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+      @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+      .digit { animation: bounce 2s ease-in-out infinite; }
+      .zero { animation: spin 10s linear infinite; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="#f3e8ff"/>
+  
+  <!-- Title -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#7c3aed">Цифры 6-9 и 0 🔢</text>
+  
+  <!-- Digit 6 -->
+  <g class="digit">
+    <rect x="20" y="50" width="80" height="100" fill="#dbeafe" rx="10" stroke="#3b82f6" stroke-width="2"/>
+    <text x="60" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="50" font-weight="bold" fill="#1d4ed8">6</text>
+  </g>
+  <text x="60" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">шесть</text>
+  
+  <!-- Digit 7 -->
+  <g class="digit" style="animation-delay: 0.1s">
+    <rect x="110" y="50" width="80" height="100" fill="#fce7f3" rx="10" stroke="#ec4899" stroke-width="2"/>
+    <text x="150" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="50" font-weight="bold" fill="#be185d">7</text>
+  </g>
+  <text x="150" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">семь</text>
+  
+  <!-- Digit 8 -->
+  <g class="digit" style="animation-delay: 0.2s">
+    <rect x="200" y="50" width="80" height="100" fill="#dcfce7" rx="10" stroke="#22c55e" stroke-width="2"/>
+    <text x="240" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="50" font-weight="bold" fill="#15803d">8</text>
+  </g>
+  <text x="240" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">восемь</text>
+  
+  <!-- Digit 9 -->
+  <g class="digit" style="animation-delay: 0.3s">
+    <rect x="290" y="50" width="80" height="100" fill="#fef3c7" rx="10" stroke="#f59e0b" stroke-width="2"/>
+    <text x="330" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="50" font-weight="bold" fill="#d97706">9</text>
+  </g>
+  <text x="330" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">девять</text>
+  
+  <!-- Digit 0 -->
+  <g class="digit zero" style="animation-delay: 0.4s; transform-origin: 420px 100px">
+    <rect x="380" y="50" width="80" height="100" fill="#f3f4f6" rx="10" stroke="#6b7280" stroke-width="2"/>
+    <text x="420" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="50" font-weight="bold" fill="#374151">0</text>
+  </g>
+  <text x="420" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">ноль</text>
+  
+  <!-- Zero explanation -->
+  <rect x="50" y="190" width="400" height="60" fill="#f9fafb" rx="10" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="250" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#374151">0 — это "ничего", "ни одного" 🎈</text>
+  <text x="250" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Если шариков нет — их ноль!</text>
+  
+  <!-- Visual examples -->
+  <rect x="30" y="265" width="130" height="70" fill="#dbeafe" rx="10"/>
+  <text x="95" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="24">🦶🦶🦶🦶🦶🦶</text>
+  <text x="95" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1d4ed8">6 лап у насекомого</text>
+  
+  <rect x="170" y="265" width="130" height="70" fill="#fef3c7" rx="10"/>
+  <text x="235" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="24">🌈🌈🌈🌈🌈🌈🌈</text>
+  <text x="235" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#d97706">7 цветов радуги</text>
+  
+  <rect x="310" y="265" width="160" height="70" fill="#f3f4f6" rx="10"/>
+  <text x="390" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="24">❌</text>
+  <text x="390" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">0 предметов = пусто</text>
+</svg>

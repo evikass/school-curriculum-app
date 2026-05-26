@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bgs4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F44336;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#EF9A9A;stop-opacity:0.06"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="#1a1a2e"/>
+  <rect width="500" height="350" fill="url(#bgs4)"/>
+  <!-- Cigarette with prohibition -->
+  <g transform="translate(40,50)">
+    <rect x="0" y="12" width="60" height="12" fill="#795548" opacity="0.4" rx="2"/>
+    <rect x="60" y="12" width="18" height="12" fill="#FFC107" opacity="0.3" rx="1"/>
+    <circle cx="40" cy="18" r="30" fill="none" stroke="#F44336" stroke-width="3" opacity="0.5"/>
+    <line x1="18" y1="-5" x2="62" y2="40" stroke="#F44336" stroke-width="3" opacity="0.5"/>
+  </g>
+  <!-- Bottle with prohibition -->
+  <g transform="translate(180,50)">
+    <rect x="10" y="20" width="25" height="40" fill="#FF9800" opacity="0.3" rx="3"/>
+    <rect x="15" y="10" width="15" height="12" fill="#FF9800" opacity="0.25" rx="2"/>
+    <circle cx="22" cy="40" r="30" fill="none" stroke="#F44336" stroke-width="3" opacity="0.5"/>
+    <line x1="0" y1="18" x2="44" y2="62" stroke="#F44336" stroke-width="3" opacity="0.5"/>
+  </g>
+  <!-- Syringe with prohibition -->
+  <g transform="translate(340,40)">
+    <rect x="8" y="5" width="10" height="45" fill="#B0BEC5" opacity="0.4" rx="2"/>
+    <line x1="13" y1="50" x2="13" y2="65" stroke="#B0BEC5" stroke-width="2" opacity="0.4"/>
+    <rect x="5" y="0" width="16" height="8" fill="#B0BEC5" opacity="0.3" rx="1"/>
+    <circle cx="13" cy="35" r="30" fill="none" stroke="#F44336" stroke-width="3" opacity="0.5"/>
+    <line x1="-8" y1="12" x2="34" y2="58" stroke="#F44336" stroke-width="3" opacity="0.5"/>
+  </g>
+  <!-- Lungs affected -->
+  <g transform="translate(100,170)">
+    <path d="M50,10 Q30,10 20,30 Q10,50 20,70 Q30,80 40,70 L50,55Z" fill="#F44336" opacity="0.2"/>
+    <path d="M50,10 Q70,10 80,30 Q90,50 80,70 Q70,80 60,70 L50,55Z" fill="#F44336" opacity="0.2"/>
+    <line x1="50" y1="5" x2="50" y2="55" stroke="#EF9A9A" stroke-width="2" opacity="0.4"/>
+    <!-- Spots -->
+    <circle cx="35" cy="45" r="4" fill="#F44336" opacity="0.3"/>
+    <circle cx="65" cy="40" r="3" fill="#F44336" opacity="0.3"/>
+    <circle cx="30" cy="55" r="3" fill="#F44336" opacity="0.25"/>
+  </g>
+  <!-- Healthy vs damaged brain -->
+  <g transform="translate(280,170)">
+    <path d="M25,45 Q5,40 5,20 Q5,0 25,0 Q40,0 45,15 Q50,0 65,0 Q85,0 85,20 Q85,40 65,45Z" fill="#F44336" opacity="0.15" stroke="#EF9A9A" stroke-width="1.5" opacity="0.3"/>
+    <path d="M25,45 Q20,50 25,55" fill="none" stroke="#EF9A9A" stroke-width="1.5" opacity="0.3"/>
+    <path d="M65,45 Q70,50 65,55" fill="none" stroke="#EF9A9A" stroke-width="1.5" opacity="0.3"/>
+    <!-- X marks for damage -->
+    <line x1="30" y1="15" x2="38" y2="23" stroke="#F44336" stroke-width="1.5" opacity="0.4"/>
+    <line x1="38" y1="15" x2="30" y2="23" stroke="#F44336" stroke-width="1.5" opacity="0.4"/>
+  </g>
+  <!-- Strong "NO" figure -->
+  <g transform="translate(400,200)">
+    <circle cx="25" cy="10" r="10" fill="#4CAF50" opacity="0.5"/>
+    <line x1="25" y1="20" x2="25" y2="55" stroke="#4CAF50" stroke-width="3" opacity="0.5"/>
+    <line x1="25" y1="30" x2="5" y2="18" stroke="#4CAF50" stroke-width="2.5" opacity="0.5" stroke-linecap="round"/>
+    <line x1="25" y1="30" x2="45" y2="18" stroke="#4CAF50" stroke-width="2.5" opacity="0.5" stroke-linecap="round"/>
+    <line x1="25" y1="55" x2="12" y2="75" stroke="#4CAF50" stroke-width="2.5" opacity="0.5" stroke-linecap="round"/>
+    <line x1="25" y1="55" x2="38" y2="75" stroke="#4CAF50" stroke-width="2.5" opacity="0.5" stroke-linecap="round"/>
+  </g>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#aaa" opacity="0.5" font-family="sans-serif">Вредные привычки и их профилактика</text>
+</svg>

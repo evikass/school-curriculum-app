@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg10" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#be123c"/>
+      <stop offset="100%" style="stop-color:#881337"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg10)" rx="12"/>
+  <!-- Rising price chart -->
+  <line x1="60" y1="280" x2="450" y2="280" stroke="#fda4af" stroke-width="1.5"/>
+  <line x1="60" y1="280" x2="60" y2="30" stroke="#fda4af" stroke-width="1.5"/>
+  <!-- Price bars rising -->
+  <rect x="80" y="230" width="35" height="50" rx="2" fill="#fb7185"/>
+  <rect x="130" y="210" width="35" height="70" rx="2" fill="#f43f5e"/>
+  <rect x="180" y="180" width="35" height="100" rx="2" fill="#e11d48"/>
+  <rect x="230" y="150" width="35" height="130" rx="2" fill="#be123c"/>
+  <rect x="280" y="110" width="35" height="170" rx="2" fill="#9f1239"/>
+  <rect x="330" y="70" width="35" height="210" rx="2" fill="#881337"/>
+  <!-- Upward arrow -->
+  <path d="M390,240 L420,60 L450,240" fill="none" stroke="#fbbf24" stroke-width="3"/>
+  <polygon points="420,50 410,65 430,65" fill="#fbbf24"/>
+  <text x="440" y="170" font-family="sans-serif" font-size="10" fill="#fbbf24" font-weight="bold">ЦЕНЫ ↑</text>
+  <!-- Inflation types -->
+  <rect x="30" y="30" width="200" height="120" rx="8" fill="#881337" stroke="#fda4af" stroke-width="1"/>
+  <text x="130" y="50" font-family="sans-serif" font-size="10" fill="#fda4af" text-anchor="middle" font-weight="bold">Виды инфляции</text>
+  <rect x="40" y="58" width="55" height="20" rx="4" fill="#10b981"/>
+  <text x="67" y="72" font-family="sans-serif" font-size="7" fill="white" text-anchor="middle">Ползучая &lt;5%</text>
+  <rect x="105" y="58" width="60" height="20" rx="4" fill="#f59e0b"/>
+  <text x="135" y="72" font-family="sans-serif" font-size="7" fill="white" text-anchor="middle">Галопир. 5-50%</text>
+  <rect x="175" y="58" width="45" height="20" rx="4" fill="#ef4444"/>
+  <text x="197" y="72" font-family="sans-serif" font-size="7" fill="white" text-anchor="middle">Гипер &gt;50%</text>
+  <!-- Causes -->
+  <text x="130" y="100" font-family="sans-serif" font-size="8" fill="#fda4af" text-anchor="middle">Причины:</text>
+  <text x="130" y="115" font-family="sans-serif" font-size="7" fill="#fecdd3" text-anchor="middle">Эмиссия денег | Рост спроса</text>
+  <text x="130" y="130" font-family="sans-serif" font-size="7" fill="#fecdd3" text-anchor="middle">Рост издержек | Монополии</text>
+  <text x="130" y="143" font-family="sans-serif" font-size="7" fill="#fecdd3" text-anchor="middle">Инфляционные ожидания</text>
+  <!-- Consequences -->
+  <rect x="270" y="30" width="210" height="80" rx="6" fill="#881337" stroke="#fda4af" stroke-width="1"/>
+  <text x="375" y="50" font-family="sans-serif" font-size="9" fill="#fda4af" text-anchor="middle" font-weight="bold">Последствия</text>
+  <text x="375" y="67" font-family="sans-serif" font-size="7" fill="#fca5a5" text-anchor="middle">− Обесценивание сбережений</text>
+  <text x="375" y="80" font-family="sans-serif" font-size="7" fill="#fca5a5" text-anchor="middle">− Снижение реальных доходов</text>
+  <text x="375" y="93" font-family="sans-serif" font-size="7" fill="#6ee7b7" text-anchor="middle">+ Стимулирование производства</text>
+  <!-- Fighting methods -->
+  <rect x="60" y="290" width="380" height="40" rx="6" fill="#881337" stroke="#fbbf24" stroke-width="1.5"/>
+  <text x="250" y="308" font-family="sans-serif" font-size="9" fill="#fbbf24" text-anchor="middle" font-weight="bold">Борьба: ↑ ключевая ставка | ↓ денежная масса | ↓ госрасходы</text>
+  <text x="250" y="323" font-family="sans-serif" font-size="7" fill="#fde68a" text-anchor="middle">ЦБ РФ таргетирует инфляцию ~4% в год</text>
+  <text x="250" y="340" font-family="sans-serif" font-size="9" fill="white" text-anchor="middle" opacity="0.5">Инфляция</text>
+</svg>

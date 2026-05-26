@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" font-family="Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg23" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="100%" stop-color="#BBDEFB"/>
+    </linearGradient>
+    <marker id="arrow23" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1565C0"/>
+    </marker>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg23)" rx="12"/>
+  <rect x="4" y="4" width="492" height="342" fill="none" stroke="#1976D2" stroke-width="2" rx="10"/>
+
+  <!-- Title -->
+  <text x="250" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#0D47A1">Организм — единое целое</text>
+  <line x1="40" y1="42" x2="460" y2="42" stroke="#1976D2" stroke-width="1.5"/>
+
+  <!-- Central body outline -->
+  <ellipse cx="250" cy="175" rx="55" ry="75" fill="#BBDEFB" stroke="#1565C0" stroke-width="2"/>
+  <text x="250" y="170" text-anchor="middle" font-size="13" font-weight="bold" fill="#0D47A1">ОРГАНИЗМ</text>
+  <text x="250" y="188" text-anchor="middle" font-size="10" fill="#1565C0">целостная</text>
+  <text x="250" y="200" text-anchor="middle" font-size="10" fill="#1565C0">система</text>
+
+  <!-- Homeostasis badge -->
+  <rect x="200" y="260" width="100" height="26" rx="13" fill="#1565C0"/>
+  <text x="250" y="278" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">Гомеостаз</text>
+
+  <!-- Organ systems around the body -->
+  <!-- Left top: Nervous system -->
+  <rect x="20" y="60" width="115" height="55" rx="8" fill="#ffffff" fill-opacity="0.7" stroke="#7B1FA2" stroke-width="1.2"/>
+  <text x="78" y="80" text-anchor="middle" font-size="11" font-weight="bold" fill="#4A148C">Нервная</text>
+  <text x="78" y="94" text-anchor="middle" font-size="9" fill="#6A1B9A">система</text>
+  <text x="78" y="107" text-anchor="middle" font-size="8" fill="#7B1FA2">⚡ нервные сигналы</text>
+
+  <!-- Right top: Endocrine system -->
+  <rect x="365" y="60" width="115" height="55" rx="8" fill="#ffffff" fill-opacity="0.7" stroke="#00695C" stroke-width="1.2"/>
+  <text x="423" y="80" text-anchor="middle" font-size="11" font-weight="bold" fill="#004D40">Эндокринная</text>
+  <text x="423" y="94" text-anchor="middle" font-size="9" fill="#00695C">система</text>
+  <text x="423" y="107" text-anchor="middle" font-size="8" fill="#00695C">🩸 гормоны</text>
+
+  <!-- Left middle: Circulatory -->
+  <rect x="20" y="145" width="115" height="50" rx="8" fill="#ffffff" fill-opacity="0.7" stroke="#C62828" stroke-width="1.2"/>
+  <text x="78" y="164" text-anchor="middle" font-size="11" font-weight="bold" fill="#B71C1C">Кровеносная</text>
+  <text x="78" y="180" text-anchor="middle" font-size="9" fill="#C62828">транспорт веществ</text>
+
+  <!-- Right middle: Digestive -->
+  <rect x="365" y="145" width="115" height="50" rx="8" fill="#ffffff" fill-opacity="0.7" stroke="#E65100" stroke-width="1.2"/>
+  <text x="423" y="164" text-anchor="middle" font-size="11" font-weight="bold" fill="#BF360C">Пищеварительная</text>
+  <text x="423" y="180" text-anchor="middle" font-size="9" fill="#E65100">питательные вещества</text>
+
+  <!-- Left bottom: Respiratory -->
+  <rect x="20" y="225" width="115" height="50" rx="8" fill="#ffffff" fill-opacity="0.7" stroke="#0277BD" stroke-width="1.2"/>
+  <text x="78" y="244" text-anchor="middle" font-size="11" font-weight="bold" fill="#01579B">Дыхательная</text>
+  <text x="78" y="260" text-anchor="middle" font-size="9" fill="#0277BD">O₂ ↔ CO₂</text>
+
+  <!-- Right bottom: Excretory -->
+  <rect x="365" y="225" width="115" height="50" rx="8" fill="#ffffff" fill-opacity="0.7" stroke="#F9A825" stroke-width="1.2"/>
+  <text x="423" y="244" text-anchor="middle" font-size="11" font-weight="bold" fill="#F57F17">Выделительная</text>
+  <text x="423" y="260" text-anchor="middle" font-size="9" fill="#F9A825">удаление отходов</text>
+
+  <!-- Arrows connecting to central body -->
+  <line x1="135" y1="87" x2="198" y2="145" stroke="#1565C0" stroke-width="1.5" marker-end="url(#arrow23)"/>
+  <line x1="365" y1="87" x2="302" y2="145" stroke="#1565C0" stroke-width="1.5" marker-end="url(#arrow23)"/>
+  <line x1="135" y1="170" x2="195" y2="175" stroke="#1565C0" stroke-width="1.5" marker-end="url(#arrow23)"/>
+  <line x1="365" y1="170" x2="305" y2="175" stroke="#1565C0" stroke-width="1.5" marker-end="url(#arrow23)"/>
+  <line x1="135" y1="250" x2="198" y2="210" stroke="#1565C0" stroke-width="1.5" marker-end="url(#arrow23)"/>
+  <line x1="365" y1="250" x2="302" y2="210" stroke="#1565C0" stroke-width="1.5" marker-end="url(#arrow23)"/>
+
+  <!-- Bidirectional regulation arrows between nervous and endocrine -->
+  <line x1="135" y1="80" x2="365" y2="80" stroke="#7B1FA2" stroke-width="1.2" stroke-dasharray="4,3" marker-end="url(#arrow23)"/>
+  <text x="250" y="73" text-anchor="middle" font-size="9" fill="#4A148C" font-style="italic">нейро-гуморальная регуляция</text>
+
+  <!-- Homeostasis description -->
+  <rect x="140" y="295" width="220" height="42" rx="6" fill="#ffffff" fill-opacity="0.7" stroke="#1565C0" stroke-width="1"/>
+  <text x="250" y="312" text-anchor="middle" font-size="10" fill="#0D47A1">Гомеостаз — постоянство внутренней</text>
+  <text x="250" y="328" text-anchor="middle" font-size="10" fill="#0D47A1">среды (t°, pH, концентрация веществ)</text>
+</svg>

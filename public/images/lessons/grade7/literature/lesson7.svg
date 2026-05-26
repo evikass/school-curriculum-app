@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#FFF8E1"/>
+<!-- Steppe background -->
+<path d="M0 200 Q100 180 200 190 Q300 175 400 185 Q450 180 500 190 L500 350 L0 350Z" fill="#C8E6C9"/>
+<path d="M0 230 Q125 215 250 225 Q375 210 500 225 L500 350 L0 350Z" fill="#A5D6A7"/>
+<!-- Grass tufts -->
+<line x1="50" y1="200" x2="45" y2="185" stroke="#66BB6A" stroke-width="1.5"/>
+<line x1="50" y1="200" x2="55" y2="183" stroke="#66BB6A" stroke-width="1.5"/>
+<line x1="150" y1="190" x2="148" y2="175" stroke="#66BB6A" stroke-width="1.5"/>
+<line x1="350" y1="188" x2="348" y2="173" stroke="#66BB6A" stroke-width="1.5"/>
+<line x1="450" y1="192" x2="453" y2="177" stroke="#66BB6A" stroke-width="1.5"/>
+<!-- Cossack figure -->
+<circle cx="250" cy="115" r="18" fill="#FFCCBC"/>
+<!-- Cossack hair/chub -->
+<path d="M235 108 Q250 90 265 108" fill="#4E342E"/>
+<!-- Long mustache -->
+<path d="M240 120 Q225 118 218 125" stroke="#4E342E" stroke-width="2" fill="none"/>
+<path d="M260 120 Q275 118 282 125" stroke="#4E342E" stroke-width="2" fill="none"/>
+<!-- Cossack body -->
+<rect x="230" y="132" width="40" height="55" rx="3" fill="#C62828"/>
+<!-- Wide belt -->
+<rect x="228" y="168" width="44" height="6" fill="#FFD54F"/>
+<!-- Wide trousers -->
+<rect x="230" y="185" width="16" height="40" rx="2" fill="#1565C0"/>
+<rect x="254" y="185" width="16" height="40" rx="2" fill="#1565C0"/>
+<!-- Boots -->
+<ellipse cx="238" cy="228" rx="12" ry="5" fill="#3E2723"/>
+<ellipse cx="262" cy="228" rx="12" ry="5" fill="#3E2723"/>
+<!-- Sword in hand -->
+<line x1="270" y1="145" x2="320" y2="100" stroke="#BDBDBD" stroke-width="2.5"/>
+<line x1="316" y1="104" x2="324" y2="96" stroke="#BDBDBD" stroke-width="2"/>
+<!-- Sword hilt -->
+<line x1="270" y1="145" x2="262" y2="150" stroke="#FFD54F" stroke-width="3"/>
+<!-- Other arm -->
+<line x1="230" y1="145" x2="215" y2="170" stroke="#FFCCBC" stroke-width="4"/>
+<!-- Horse in background -->
+<ellipse cx="140" cy="210" rx="35" ry="14" fill="#8D6E63" opacity="0.5"/>
+<path d="M115 200 Q110 180 118 170" stroke="#8D6E63" stroke-width="4" fill="none" opacity="0.5"/>
+<!-- Sunset -->
+<circle cx="420" cy="60" r="30" fill="#FF8F00" opacity="0.3"/>
+<circle cx="420" cy="60" r="20" fill="#FFB300" opacity="0.3"/>
+<!-- Title -->
+<rect x="290" y="250" width="185" height="60" rx="6" fill="white" opacity="0.85" stroke="#8D6E63" stroke-width="1"/>
+<text x="382" y="272" font-family="sans-serif" font-size="11" fill="#4E342E" text-anchor="middle" font-weight="bold">Н.В. Гоголь</text>
+<text x="382" y="295" font-family="serif" font-size="14" fill="#5D4037" text-anchor="middle">«Тарас Бульба»</text>
+<text x="250" y="345" font-family="sans-serif" font-size="9" fill="#5D4037" opacity="0.5" text-anchor="middle">Н.В. Гоголь. «Тарас Бульба»</text>
+</svg>

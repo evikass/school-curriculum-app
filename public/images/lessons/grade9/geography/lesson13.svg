@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#E8EAF6"/>
+  <!-- CIS map (simplified - former USSR area) -->
+  <g transform="translate(30,30)">
+    <!-- Russia (large) -->
+    <path d="M50,60 Q100,40 180,35 Q260,30 340,40 Q380,48 400,60 Q410,75 395,90 Q370,105 340,110 Q300,115 260,108 Q220,102 180,108 Q140,115 100,108 Q70,100 55,85 Q45,72 50,60" fill="#C5CAE9" stroke="#3F51B5" stroke-width="2"/>
+    <!-- Ukraine -->
+    <path d="M120,110 Q140,100 170,105 Q185,110 180,125 Q170,135 150,138 Q130,135 118,125 Q112,118 120,110" fill="#BBDEFB" stroke="#1565C0" stroke-width="1.5"/>
+    <!-- Belarus -->
+    <path d="M120,95 Q135,88 150,92 Q158,98 152,108 Q142,112 130,108 Q118,105 120,95" fill="#BBDEFB" stroke="#1565C0" stroke-width="1.5"/>
+    <!-- Kazakhstan -->
+    <path d="M200,100 Q240,88 280,95 Q310,100 315,115 Q310,128 280,132 Q250,135 220,128 Q200,120 200,100" fill="#FFE0B2" stroke="#E65100" stroke-width="1.5"/>
+    <!-- Central Asia -->
+    <path d="M220,130 Q240,125 260,130 Q275,138 268,150 Q255,158 240,155 Q225,148 220,138 Q218,133 220,130" fill="#FFE0B2" stroke="#E65100" stroke-width="1"/>
+    <!-- Caucasus -->
+    <path d="M160,130 Q172,122 185,128 Q192,135 185,142 Q175,148 165,142 Q158,138 160,130" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1"/>
+    <!-- Moldova -->
+    <ellipse cx="140" cy="140" rx="8" ry="5" fill="#BBDEFB" stroke="#1565C0" stroke-width="1"/>
+  </g>
+  <!-- Country labels -->
+  <!-- Russia -->
+  <text x="230" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#1A237E" font-weight="bold">РОССИЯ</text>
+  <!-- Ukraine -->
+  <g transform="translate(178,142)">
+    <circle r="3" fill="#1565C0"/>
+    <line x1="3" y1="2" x2="18" y2="8" stroke="#333" stroke-width="0.6"/>
+    <text x="20" y="11" font-family="Arial,sans-serif" font-size="7" fill="#0D47A1">Украина</text>
+  </g>
+  <!-- Belarus -->
+  <g transform="translate(165,118)">
+    <circle r="3" fill="#1565C0"/>
+    <line x1="-3" y1="-2" x2="-18" y2="-8" stroke="#333" stroke-width="0.6"/>
+    <text x="-35" y="-5" font-family="Arial,sans-serif" font-size="7" fill="#0D47A1">Беларусь</text>
+  </g>
+  <!-- Kazakhstan -->
+  <g transform="translate(275,128)">
+    <circle r="3" fill="#E65100"/>
+    <line x1="3" y1="2" x2="18" y2="8" stroke="#333" stroke-width="0.6"/>
+    <text x="20" y="11" font-family="Arial,sans-serif" font-size="7" fill="#BF360C">Казахстан</text>
+  </g>
+  <!-- Organizations -->
+  <rect x="20" y="195" width="460" height="130" rx="6" fill="white" opacity="0.85"/>
+  <!-- CIS -->
+  <rect x="30" y="205" width="140" height="52" rx="5" fill="#E8EAF6" stroke="#3F51B5" stroke-width="1.5"/>
+  <text x="100" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#1A237E" font-weight="bold">СНГ</text>
+  <text x="100" y="234" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#666">Содружество Независимых</text>
+  <text x="100" y="244" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#666">Государств (1991)</text>
+  <text x="100" y="254" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#3F51B5">9 стран-участниц</text>
+  <!-- EAEU -->
+  <rect x="180" y="205" width="140" height="52" rx="5" fill="#FFF3E0" stroke="#FF9800" stroke-width="1.5"/>
+  <text x="250" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#E65100" font-weight="bold">ЕАЭС</text>
+  <text x="250" y="234" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#666">Евразийский экономич.</text>
+  <text x="250" y="244" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#666">союз (2015)</text>
+  <text x="250" y="254" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#FF9800">5 стран, общий рынок</text>
+  <!-- CSTO -->
+  <rect x="330" y="205" width="140" height="52" rx="5" fill="#FFEBEE" stroke="#F44336" stroke-width="1.5"/>
+  <text x="400" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#C62828" font-weight="bold">ОДКБ</text>
+  <text x="400" y="234" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#666">Организация Договора</text>
+  <text x="400" y="244" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#666">коллективной безопасности</text>
+  <text x="400" y="254" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#F44336">Военный союз</text>
+  <!-- Country list -->
+  <text x="250" y="275" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#333" font-weight="bold">Страны СНГ</text>
+  <text x="45" y="290" font-family="Arial,sans-serif" font-size="7" fill="#666">Россия, Украина, Беларусь, Казахстан,</text>
+  <text x="45" y="302" font-family="Arial,sans-serif" font-size="7" fill="#666">Армения, Азербайджан, Молдова,</text>
+  <text x="45" y="314" font-family="Arial,sans-serif" font-size="7" fill="#666">Кыргызстан, Таджикистан, Узбекистан,</text>
+  <text x="45" y="326" font-family="Arial,sans-serif" font-size="7" fill="#666">Туркменистан (ассоциированный)</text>
+  <text x="250" y="345" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#666" opacity="0.5">Страны СНГ</text>
+</svg>

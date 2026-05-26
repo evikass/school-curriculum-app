@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+  <text x="250" y="30" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#2E7D32" text-anchor="middle">Общая характеристика грибов</text>
+  <text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 6 класс - Урок 8</text>
+  <line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+  
+  <!-- Mushroom structure + hyphae -->
+  <g transform="translate(140,185)">
+    <!-- Cap -->
+    <path d="M-45 0 Q-50 -30 -25 -40 Q0 -48 25 -40 Q50 -30 45 0 Z" fill="#8D6E63" stroke="#5D4037" stroke-width="2"/>
+    <!-- Spots -->
+    <circle cx="-15" cy="-18" r="5" fill="#A1887F" opacity="0.5"/>
+    <circle cx="12" cy="-24" r="4" fill="#A1887F" opacity="0.4"/>
+    <circle cx="0" cy="-10" r="3.5" fill="#A1887F" opacity="0.4"/>
+    <!-- Gills -->
+    <path d="M-38 2 Q-30 10 -15 14" stroke="#BCAAA4" stroke-width="0.8" fill="none"/>
+    <path d="M-28 2 Q-20 10 -5 14" stroke="#BCAAA4" stroke-width="0.8" fill="none"/>
+    <path d="M-15 2 Q-8 10 5 14" stroke="#BCAAA4" stroke-width="0.8" fill="none"/>
+    <path d="M0 2 Q8 10 15 14" stroke="#BCAAA4" stroke-width="0.8" fill="none"/>
+    <path d="M15 2 Q22 10 28 12" stroke="#BCAAA4" stroke-width="0.8" fill="none"/>
+    <path d="M28 2 Q32 10 38 12" stroke="#BCAAA4" stroke-width="0.8" fill="none"/>
+    <!-- Stipe -->
+    <rect x="-8" y="14" width="16" height="55" fill="#D7CCC8" stroke="#BCAAA4" stroke-width="1.5" rx="5"/>
+    <!-- Volva -->
+    <path d="M-15 65 Q-20 72 -12 75 Q0 78 12 75 Q20 72 15 65" fill="#EFEBE9" stroke="#BCAAA4" stroke-width="1"/>
+    <!-- Ring -->
+    <ellipse cx="0" cy="30" rx="13" ry="4" fill="#FFECB3" stroke="#D7CCC8" stroke-width="1"/>
+    <!-- Mycelium -->
+    <path d="M-8 69 Q-20 82 -30 85" stroke="#BCAAA4" stroke-width="2" fill="none"/>
+    <path d="M8 69 Q20 82 30 85" stroke="#BCAAA4" stroke-width="2" fill="none"/>
+    <path d="M0 69 Q-8 85 -15 90" stroke="#BCAAA4" stroke-width="1.5" fill="none"/>
+    <path d="M0 69 Q8 85 15 90" stroke="#BCAAA4" stroke-width="1.5" fill="none"/>
+  </g>
+  <!-- Labels -->
+  <line x1="185" y1="155" x2="280" y2="85" stroke="#333" stroke-width="0.7"/>
+  <text x="285" y="88" font-family="Arial,sans-serif" font-size="9" fill="#333" font-weight="bold">Шляпка</text>
+  <line x1="148" y1="195" x2="280" y2="120" stroke="#333" stroke-width="0.7"/>
+  <text x="285" y="123" font-family="Arial,sans-serif" font-size="9" fill="#333" font-weight="bold">Пластинки</text>
+  <line x1="148" y1="215" x2="280" y2="155" stroke="#333" stroke-width="0.7"/>
+  <text x="285" y="158" font-family="Arial,sans-serif" font-size="9" fill="#333" font-weight="bold">Кольцо</text>
+  <line x1="148" y1="235" x2="280" y2="190" stroke="#333" stroke-width="0.7"/>
+  <text x="285" y="193" font-family="Arial,sans-serif" font-size="9" fill="#333" font-weight="bold">Ножка</text>
+  <line x1="125" y1="265" x2="280" y2="225" stroke="#333" stroke-width="0.7"/>
+  <text x="285" y="228" font-family="Arial,sans-serif" font-size="9" fill="#333" font-weight="bold">Грибница (мицелий)</text>
+  <line x1="140" y1="260" x2="280" y2="260" stroke="#333" stroke-width="0.7"/>
+  <text x="285" y="263" font-family="Arial,sans-serif" font-size="9" fill="#333" font-weight="bold">Вольва</text>
+  <!-- Hyphae detail -->
+  <g transform="translate(400,130)">
+    <path d="M-25 0 Q-15 -10 -5 0 Q5 10 15 0" stroke="#BCAAA4" stroke-width="4" fill="none"/>
+    <path d="M-25 0 Q-15 -10 -5 0 Q5 10 15 0" stroke="#D7CCC8" stroke-width="2" fill="none"/>
+    <line x1="-5" y1="-5" x2="-5" y2="5" stroke="#A1887F" stroke-width="1"/>
+    <text x="-5" y="22" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Гифы с перегородками</text>
+  </g>
+  <!-- Characteristics -->
+  <rect x="290" y="280" width="185" height="35" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
+  <text x="382" y="295" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle" font-weight="bold">Грибы - гетеротрофы, хитин в стенке</text>
+  <text x="382" y="308" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Запасное вещество - гликоген</text>
+
+  <rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+  <text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 6 класс</text>
+</svg>

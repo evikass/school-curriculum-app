@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#FFF8E1"/>
+<circle cx="120" cy="80" r="40" fill="#FFF176" stroke="#FF8F00" stroke-width="2"/>
+<line x1="120" y1="35" x2="120" y2="20" stroke="#FF8F00" stroke-width="2"/>
+<line x1="155" y1="45" x2="168" y2="32" stroke="#FF8F00" stroke-width="2"/>
+<line x1="85" y1="45" x2="72" y2="32" stroke="#FF8F00" stroke-width="2"/>
+<line x1="160" y1="80" x2="175" y2="80" stroke="#FF8F00" stroke-width="2"/>
+<line x1="80" y1="80" x2="65" y2="80" stroke="#FF8F00" stroke-width="2"/>
+<text x="120" y="135" font-size="9" fill="#E65100" text-anchor="middle" font-weight="bold">Абиотические</text>
+<rect x="40" y="145" width="160" height="100" rx="4" fill="#FFF" stroke="#FF8F00" stroke-width="1"/>
+<text x="120" y="163" font-size="8" fill="#FF8F00">☀ Свет</text>
+<text x="120" y="178" font-size="8" fill="#FF8F00">🌡 Температура</text>
+<text x="120" y="193" font-size="8" fill="#FF8F00">💧 Влага</text>
+<text x="120" y="208" font-size="8" fill="#FF8F00">🌬 Ветер</text>
+<text x="120" y="223" font-size="8" fill="#FF8F00">🏔 Рельеф</text>
+<text x="120" y="238" font-size="7" fill="#FFB74D">факторы неживой природы</text>
+<rect x="220" y="40" width="260" height="140" rx="6" fill="#FFF" stroke="#4CAF50" stroke-width="1.5"/>
+<text x="350" y="60" font-size="9" fill="#2E7D32" text-anchor="middle" font-weight="bold">Биотические</text>
+<path d="M240,80 Q255,75 270,85 Q280,90 290,80" fill="#81C784" stroke="#388E3C" stroke-width="1.5"/>
+<path d="M300,90 Q310,80 325,85" fill="none" stroke="#388E3C" stroke-width="1.5"/>
+<circle cx="260" cy="110" r="8" fill="#A1887F" stroke="#6D4C41" stroke-width="1"/>
+<circle cx="340" cy="100" r="10" fill="#FF8A65" stroke="#E64A19" stroke-width="1"/>
+<text x="260" y="130" font-size="6" fill="#5D4037">мышь</text>
+<text x="340" y="120" font-size="6" fill="#BF360C">лиса</text>
+<line x1="268" y1="108" x2="330" y2="100" stroke="#D32F2F" stroke-width="1.5"/>
+<polygon points="330,97 338,100 330,103" fill="#D32F2F"/>
+<text x="350" y="145" font-size="7" fill="#388E3C">взаимодействия живых</text>
+<text x="350" y="158" font-size="7" fill="#388E3C">организмов:</text>
+<text x="350" y="173" font-size="7" fill="#4CAF50">хищник—жертва, конкуренция</text>
+<rect x="220" y="195" width="260" height="120" rx="6" fill="#FFF" stroke="#795548" stroke-width="1.5"/>
+<text x="350" y="215" font-size="9" fill="#4E342E" text-anchor="middle" font-weight="bold">Антропогенные</text>
+<rect x="240" y="225" width="40" height="50" fill="#9E9E9E" stroke="#616161" stroke-width="1.5"/>
+<rect x="245" y="230" width="10" height="8" fill="#BDBDBD"/>
+<rect x="260" y="230" width="10" height="8" fill="#BDBDBD"/>
+<rect x="250" y="275" width="20" height="15" fill="#616161"/>
+<circle cx="300" cy="240" r="8" fill="#BDBDBD" opacity="0.6"/>
+<circle cx="310" cy="235" r="6" fill="#BDBDBD" opacity="0.4"/>
+<text x="350" y="248" font-size="7" fill="#795548">завод → загрязнение</text>
+<line x1="360" y1="260" x2="455" y2="260" stroke="#795548" stroke-width="2"/>
+<path d="M360,260 L370,250 L380,260 L390,250 L400,260 L410,250 L420,260 L430,250 L440,260 L450,250 L455,260" fill="none" stroke="#795548" stroke-width="1.5"/>
+<text x="405" y="275" font-size="7" fill="#795548">вырубка леса</text>
+<text x="350" y="300" font-size="7" fill="#8D6E63">деятельность человека</text>
+<text x="250" y="345" font-size="9" fill="#666" text-anchor="middle" opacity="0.5">Классификация экологических факторов</text>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10002b"/>
+      <stop offset="100%" stop-color="#1a0533"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <text x="30" y="30" fill="#e94560" font-size="14" font-weight="bold">Кислоты, основания, соли</text>
+  <!-- pH scale -->
+  <rect x="30" y="45" width="440" height="25" rx="4" fill="none" stroke="#a8d8ea" stroke-width="1"/>
+  <!-- pH colors from red (acid) to blue (base) -->
+  <rect x="30" y="45" width="50" height="25" rx="4" fill="#e94560" opacity="0.6"/>
+  <rect x="80" y="45" width="50" height="25" fill="#f77f00" opacity="0.5"/>
+  <rect x="130" y="45" width="50" height="25" fill="#ffd166" opacity="0.4"/>
+  <rect x="180" y="45" width="50" height="25" fill="#a8d8ea" opacity="0.3"/>
+  <rect x="230" y="45" width="50" height="25" fill="#4cc9f0" opacity="0.4"/>
+  <rect x="280" y="45" width="50" height="25" fill="#457b9d" opacity="0.5"/>
+  <rect x="330" y="45" width="50" height="25" fill="#2a9d8f" opacity="0.5"/>
+  <rect x="380" y="45" width="50" height="25" fill="#264653" opacity="0.6"/>
+  <rect x="430" y="45" width="40" height="25" fill="#1d3557" opacity="0.7"/>
+  <!-- pH numbers -->
+  <text x="42" y="82" fill="#e94560" font-size="8">0</text>
+  <text x="95" y="82" fill="#f77f00" font-size="8">2</text>
+  <text x="145" y="82" fill="#ffd166" font-size="8">4</text>
+  <text x="195" y="82" fill="#a8d8ea" font-size="8">6</text>
+  <text x="248" y="82" fill="#4cc9f0" font-size="8">7</text>
+  <text x="295" y="82" fill="#457b9d" font-size="8">8</text>
+  <text x="345" y="82" fill="#2a9d8f" font-size="8">10</text>
+  <text x="395" y="82" fill="#264653" font-size="8">12</text>
+  <text x="440" y="82" fill="#1d3557" font-size="8">14</text>
+  <!-- Labels -->
+  <text x="60" y="96" fill="#e94560" font-size="9">Кислота</text>
+  <text x="225" y="96" fill="#a8d8ea" font-size="9">Нейтр.</text>
+  <text x="380" y="96" fill="#2a9d8f" font-size="9">Основание</text>
+  <!-- Acid panel -->
+  <rect x="20" y="110" width="150" height="110" rx="6" fill="none" stroke="#e94560" stroke-width="1.5"/>
+  <text x="30" y="128" fill="#e94560" font-size="12" font-weight="bold">Кислоты</text>
+  <!-- HCl molecule -->
+  <circle cx="55" cy="155" r="12" fill="#e94560" fill-opacity="0.15" stroke="#e94560" stroke-width="1"/>
+  <text x="49" y="159" fill="#e94560" font-size="9">H</text>
+  <line x1="67" y1="155" x2="80" y2="155" stroke="#a8d8ea" stroke-width="2"/>
+  <circle cx="90" cy="155" r="14" fill="#4cc9f0" fill-opacity="0.15" stroke="#4cc9f0" stroke-width="1"/>
+  <text x="82" y="159" fill="#4cc9f0" font-size="9">Cl</text>
+  <text x="30" y="185" fill="#7f8c8d" font-size="9">HCl, H₂SO₄, HNO₃</text>
+  <text x="30" y="200" fill="#7f8c8d" font-size="9">H⁺ + кислотный остаток</text>
+  <text x="30" y="212" fill="#e94560" font-size="9">pH &lt; 7</text>
+  <!-- Base panel -->
+  <rect x="180" y="110" width="150" height="110" rx="6" fill="none" stroke="#2a9d8f" stroke-width="1.5"/>
+  <text x="190" y="128" fill="#2a9d8f" font-size="12" font-weight="bold">Основания</text>
+  <!-- NaOH -->
+  <circle cx="215" cy="155" r="12" fill="#ffd166" fill-opacity="0.15" stroke="#ffd166" stroke-width="1"/>
+  <text x="207" y="159" fill="#ffd166" font-size="9">Na</text>
+  <line x1="227" y1="155" x2="240" y2="155" stroke="#a8d8ea" stroke-width="2"/>
+  <circle cx="250" cy="155" r="14" fill="#e94560" fill-opacity="0.15" stroke="#e94560" stroke-width="1"/>
+  <text x="246" y="159" fill="#e94560" font-size="9">OH</text>
+  <text x="190" y="185" fill="#7f8c8d" font-size="9">NaOH, Ca(OH)₂, KOH</text>
+  <text x="190" y="200" fill="#7f8c8d" font-size="9">Металл + OH⁻</text>
+  <text x="190" y="212" fill="#2a9d8f" font-size="9">pH &gt; 7</text>
+  <!-- Salt panel -->
+  <rect x="340" y="110" width="150" height="110" rx="6" fill="none" stroke="#ffd166" stroke-width="1.5"/>
+  <text x="350" y="128" fill="#ffd166" font-size="12" font-weight="bold">Соли</text>
+  <!-- NaCl crystal lattice -->
+  <rect x="370" y="142" width="12" height="12" fill="#ffd166" opacity="0.4"/>
+  <rect x="385" y="142" width="12" height="12" fill="#4cc9f0" opacity="0.3"/>
+  <rect x="400" y="142" width="12" height="12" fill="#ffd166" opacity="0.4"/>
+  <rect x="370" y="157" width="12" height="12" fill="#4cc9f0" opacity="0.3"/>
+  <rect x="385" y="157" width="12" height="12" fill="#ffd166" opacity="0.4"/>
+  <rect x="400" y="157" width="12" height="12" fill="#4cc9f0" opacity="0.3"/>
+  <rect x="370" y="172" width="12" height="12" fill="#ffd166" opacity="0.4"/>
+  <rect x="385" y="172" width="12" height="12" fill="#4cc9f0" opacity="0.3"/>
+  <rect x="400" y="172" width="12" height="12" fill="#ffd166" opacity="0.4"/>
+  <text x="350" y="200" fill="#7f8c8d" font-size="9">NaCl, CaCO₃, KNO₃</text>
+  <text x="350" y="212" fill="#ffd166" font-size="9">pH ≈ 7 (нейтр.)</text>
+  <!-- Neutralization -->
+  <text x="30" y="245" fill="#a8d8ea" font-size="13" font-weight="bold">Реакция нейтрализации:</text>
+  <text x="30" y="268" fill="#ffd166" font-size="14" font-family="serif">Кислота + Основание → Соль + Вода</text>
+  <text x="30" y="290" fill="#7f8c8d" font-size="11">HCl + NaOH → NaCl + H₂O</text>
+  <!-- Indicator colors -->
+  <text x="280" y="245" fill="#c77dff" font-size="12" font-weight="bold">Индикаторы:</text>
+  <text x="280" y="265" fill="#e94560" font-size="10">Лакмус: красный ← фиолетовый → синий</text>
+  <text x="280" y="282" fill="#ffd166" font-size="10">Фенолфталеин: бесцв. ← бесцв. → малиновый</text>
+  <text x="280" y="299" fill="#2a9d8f" font-size="10">Метилоранж: красный ← оранж. → жёлтый</text>
+  <text x="30" y="320" fill="#7f8c8d" font-size="10">Кислый/щёлочной/нейтральный — по наличию H⁺ или OH⁻ в растворе</text>
+  <text x="250" y="340" fill="#fff" font-size="9" opacity="0.5" text-anchor="middle">Кислоты, основания, соли</text>
+</svg>

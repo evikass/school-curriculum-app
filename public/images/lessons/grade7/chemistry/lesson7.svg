@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#E0F7FA"/>
+<text x="250" y="25" font-size="11" fill="#006064" text-anchor="middle" font-weight="bold">Уравнение химической реакции</text>
+<text x="250" y="50" font-size="18" fill="#00838F" text-anchor="middle" font-weight="bold" font-style="italic">2H₂ + O₂ → 2H₂O</text>
+<line x1="30" y1="60" x2="470" y2="60" stroke="#B2EBF2" stroke-width="1"/>
+<text x="250" y="80" font-size="10" fill="#006064" text-anchor="middle" font-weight="bold">Подсчёт атомов (закон сохранения массы)</text>
+<rect x="30" y="95" width="200" height="110" rx="6" fill="#FFF" stroke="#00ACC1" stroke-width="1.5"/>
+<text x="130" y="115" font-size="10" fill="#006064" text-anchor="middle" font-weight="bold">До реакции</text>
+<rect x="40" y="125" width="85" height="30" fill="#E0F7FA" stroke="#00ACC1" stroke-width="1" rx="3"/>
+<text x="82" y="144" font-size="10" fill="#00838F" text-anchor="middle">H: 2×2=4</text>
+<rect x="135" y="125" width="85" height="30" fill="#E0F7FA" stroke="#00ACC1" stroke-width="1" rx="3"/>
+<text x="177" y="144" font-size="10" fill="#00838F" text-anchor="middle">O: 1×2=2</text>
+<text x="130" y="175" font-size="10" fill="#006064" text-anchor="middle">H=4  O=2</text>
+<rect x="270" y="95" width="200" height="110" rx="6" fill="#FFF" stroke="#00ACC1" stroke-width="1.5"/>
+<text x="370" y="115" font-size="10" fill="#006064" text-anchor="middle" font-weight="bold">После реакции</text>
+<rect x="280" y="125" width="85" height="30" fill="#E0F7FA" stroke="#00ACC1" stroke-width="1" rx="3"/>
+<text x="322" y="144" font-size="10" fill="#00838F" text-anchor="middle">H: 2×2=4</text>
+<rect x="375" y="125" width="85" height="30" fill="#E0F7FA" stroke="#00ACC1" stroke-width="1" rx="3"/>
+<text x="417" y="144" font-size="10" fill="#00838F" text-anchor="middle">O: 2×1=2</text>
+<text x="370" y="175" font-size="10" fill="#006064" text-anchor="middle">H=4  O=2</text>
+<text x="250" y="185" font-size="9" fill="#00838F" text-anchor="middle">✓ Атомы сохраняются!</text>
+<rect x="50" y="220" width="400" height="100" rx="8" fill="#FFF" stroke="#00838F" stroke-width="1.5"/>
+<text x="250" y="242" font-size="10" fill="#006064" text-anchor="middle" font-weight="bold">Алгоритм расстановки коэффициентов</text>
+<text x="80" y="262" font-size="9" fill="#00838F">1. Записать схему реакции</text>
+<text x="80" y="278" font-size="9" fill="#00838F">2. Подсчитать атомы слева и справа</text>
+<text x="80" y="294" font-size="9" fill="#00838F">3. Подобрать коэффициенты</text>
+<text x="80" y="310" font-size="9" fill="#00838F">4. Проверить: атомов каждого вида поровну</text>
+<text x="250" y="345" font-size="9" fill="#666" text-anchor="middle" opacity="0.5">Уравнения химических реакций</text>
+</svg>

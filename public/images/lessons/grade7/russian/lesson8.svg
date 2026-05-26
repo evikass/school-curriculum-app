@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#EFEBE9"/>
+<!-- О/Е at end -->
+<rect x="30" y="30" width="210" height="100" rx="8" fill="#FFCCBC" opacity="0.4" stroke="#BF360C" stroke-width="1.5"/>
+<text x="135" y="55" font-family="sans-serif" font-size="13" fill="#BF360C" text-anchor="middle" font-weight="bold">О / Е на конце</text>
+<text x="50" y="78" font-family="sans-serif" font-size="11" fill="#D84315">О — после твёрдых:</text>
+<text x="60" y="95" font-family="serif" font-size="13" fill="#BF360C">хорошо, весело, давно</text>
+<text x="50" y="118" font-family="sans-serif" font-size="11" fill="#D84315">Е — после мягких:</text>
+<text x="60" y="122" font-family="serif" font-size="11" fill="#BF360C"> </text>
+<!-- Second box for Е -->
+<rect x="260" y="30" width="210" height="100" rx="8" fill="#C8E6C9" opacity="0.4" stroke="#2E7D32" stroke-width="1.5"/>
+<text x="365" y="55" font-family="sans-serif" font-size="13" fill="#2E7D32" text-anchor="middle" font-weight="bold">Е на конце</text>
+<text x="280" y="78" font-family="sans-serif" font-size="11" fill="#1B5E20">После шипящих под удар.:</text>
+<text x="290" y="95" font-family="serif" font-size="13" fill="#2E7D32">свеже, горяче</text>
+<text x="280" y="118" font-family="sans-serif" font-size="11" fill="#1B5E20">Без ударения — О:</text>
+<text x="290" y="120" font-family="serif" font-size="11" fill="#2E7D32"> </text>
+<!-- Hyphenated forms -->
+<rect x="30" y="150" width="440" height="100" rx="8" fill="#E1BEE7" opacity="0.3" stroke="#7B1FA2" stroke-width="1.5"/>
+<text x="250" y="175" font-family="sans-serif" font-size="13" fill="#7B1FA2" text-anchor="middle" font-weight="bold">Через дефис</text>
+<text x="50" y="198" font-family="monospace" font-size="12" fill="#6A1B9A">по-русски</text>
+<text x="170" y="198" font-family="sans-serif" font-size="10" fill="#7B1FA2">по- + -ски/-цки/-ому</text>
+<text x="50" y="218" font-family="monospace" font-size="12" fill="#6A1B9A">во-первых</text>
+<text x="170" y="218" font-family="sans-serif" font-size="10" fill="#7B1FA2">во- + -ых/-их</text>
+<text x="50" y="238" font-family="monospace" font-size="12" fill="#6A1B9A">кое-где</text>
+<text x="170" y="238" font-family="sans-serif" font-size="10" fill="#7B1FA2">кое- / -то / -либо / -нибудь</text>
+<!-- NOT hyphenated -->
+<rect x="30" y="265" width="440" height="55" rx="8" fill="#FFF9C4" stroke="#F9A825" stroke-width="1"/>
+<text x="250" y="288" font-family="sans-serif" font-size="12" fill="#E65100" text-anchor="middle" font-weight="bold">Слитно (НЕ через дефис)</text>
+<text x="80" y="308" font-family="serif" font-size="12" fill="#F57F17">впереди, вправо, сначала, надолго</text>
+<text x="250" y="345" font-family="sans-serif" font-size="9" fill="#7B1FA2" opacity="0.5" text-anchor="middle">Правописание наречий</text>
+</svg>

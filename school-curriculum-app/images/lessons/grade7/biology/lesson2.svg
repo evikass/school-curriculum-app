@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F5E9"/>
+      <stop offset="100%" style="stop-color:#C8E6C9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="350" rx="12" ry="12" fill="url(#bg)" stroke="#2E7D32" stroke-width="2.5"/>
+
+  <!-- Title -->
+  <text x="250" y="22" text-anchor="middle" font-size="14" font-weight="bold" fill="#1B5E20" font-family="Arial, sans-serif">Значение биологических знаний</text>
+  <text x="250" y="35" text-anchor="middle" font-size="9" fill="#666" font-family="Arial, sans-serif">Биология 7 класс — Урок 2</text>
+  <line x1="15" y1="41" x2="485" y2="41" stroke="#2E7D32" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- ============ FOUR APPLICATION AREAS ============ -->
+  <text x="250" y="56" text-anchor="middle" font-size="8" font-weight="bold" fill="#1B5E20" font-family="Arial, sans-serif">Области применения биологических знаний</text>
+
+  <!-- Медицина -->
+  <rect x="18" y="63" width="110" height="62" rx="6" fill="white" stroke="#C62828" stroke-width="1" opacity="0.92"/>
+  <circle cx="73" cy="82" r="12" fill="#FFCDD2" stroke="#C62828" stroke-width="1"/>
+  <!-- Medical cross icon -->
+  <rect x="69" y="74" width="8" height="16" rx="1" fill="#C62828"/>
+  <rect x="65" y="78" width="16" height="8" rx="1" fill="#C62828"/>
+  <text x="73" y="104" text-anchor="middle" font-size="7" font-weight="bold" fill="#C62828" font-family="Arial, sans-serif">Медицина</text>
+  <text x="73" y="114" text-anchor="middle" font-size="5.5" fill="#333" font-family="Arial, sans-serif">Лечение болезней,</text>
+  <text x="73" y="122" text-anchor="middle" font-size="5.5" fill="#333" font-family="Arial, sans-serif">вакцины, препараты</text>
+
+  <!-- Сельское хозяйство -->
+  <rect x="138" y="63" width="110" height="62" rx="6" fill="white" stroke="#F57F17" stroke-width="1" opacity="0.92"/>
+  <circle cx="193" cy="82" r="12" fill="#FFF9C4" stroke="#F57F17" stroke-width="1"/>
+  <!-- Wheat icon -->
+  <line x1="193" y1="88" x2="193" y2="72" stroke="#F57F17" stroke-width="1.5"/>
+  <ellipse cx="189" cy="75" rx="3" ry="5" fill="#FDD835" stroke="#F57F17" stroke-width="0.5"/>
+  <ellipse cx="197" cy="75" rx="3" ry="5" fill="#FDD835" stroke="#F57F17" stroke-width="0.5"/>
+  <ellipse cx="193" cy="72" rx="3" ry="4" fill="#FFEE58" stroke="#F57F17" stroke-width="0.5"/>
+  <text x="193" y="104" text-anchor="middle" font-size="7" font-weight="bold" fill="#F57F17" font-family="Arial, sans-serif">Сельское хозяйство</text>
+  <text x="193" y="114" text-anchor="middle" font-size="5.5" fill="#333" font-family="Arial, sans-serif">Селекция, урожай,</text>
+  <text x="193" y="122" text-anchor="middle" font-size="5.5" fill="#333" font-family="Arial, sans-serif">защита растений</text>
+
+  <!-- Экология -->
+  <rect x="258" y="63" width="110" height="62" rx="6" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.92"/>
+  <circle cx="313" cy="82" r="12" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1"/>
+  <!-- Globe icon -->
+  <circle cx="313" cy="82" r="8" fill="#81C784" stroke="#2E7D32" stroke-width="0.8"/>
+  <ellipse cx="313" cy="82" rx="4" ry="8" fill="none" stroke="#2E7D32" stroke-width="0.6"/>
+  <line x1="305" y1="82" x2="321" y2="82" stroke="#2E7D32" stroke-width="0.6"/>
+  <text x="313" y="104" text-anchor="middle" font-size="7" font-weight="bold" fill="#2E7D32" font-family="Arial, sans-serif">Экология</text>
+  <text x="313" y="114" text-anchor="middle" font-size="5.5" fill="#333" font-family="Arial, sans-serif">Охрана природы,</text>
+  <text x="313" y="122" text-anchor="middle" font-size="5.5" fill="#333" font-family="Arial, sans-serif">биоразнообразие</text>
+
+  <!-- Биотехнология -->
+  <rect x="378" y="63" width="110" height="62" rx="6" fill="white" stroke="#6A1B9A" stroke-width="1" opacity="0.92"/>
+  <circle cx="433" cy="82" r="12" fill="#E1BEE7" stroke="#6A1B9A" stroke-width="1"/>
+  <!-- DNA helix icon -->
+  <path d="M426,74 Q430,78 426,82 Q430,86 426,90" stroke="#6A1B9A" stroke-width="1.2" fill="none"/>
+  <path d="M440,74 Q436,78 440,82 Q436,86 440,90" stroke="#6A1B9A" stroke-width="1.2" fill="none"/>
+  <line x1="428" y1="76" x2="438" y2="76" stroke="#AB47BC" stroke-width="0.6"/>
+  <line x1="427" y1="80" x2="439" y2="80" stroke="#AB47BC" stroke-width="0.6"/>
+  <line x1="428" y1="84" x2="438" y2="84" stroke="#AB47BC" stroke-width="0.6"/>
+  <line x1="427" y1="88" x2="439" y2="88" stroke="#AB47BC" stroke-width="0.6"/>
+  <text x="433" y="104" text-anchor="middle" font-size="7" font-weight="bold" fill="#6A1B9A" font-family="Arial, sans-serif">Биотехнология</text>
+  <text x="433" y="114" text-anchor="middle" font-size="5.5" fill="#333" font-family="Arial, sans-serif">Генная инженерия,</text>
+  <text x="433" y="122" text-anchor="middle" font-size="5.5" fill="#333" font-family="Arial, sans-serif">клонирование, ГМО</text>
+
+  <!-- ============ INTERCONNECTED CIRCLE DIAGRAM (CENTER) ============ -->
+  <text x="175" y="142" text-anchor="middle" font-size="8" font-weight="bold" fill="#1B5E20" font-family="Arial, sans-serif">Взаимосвязь областей биологии</text>
+
+  <!-- Central circle -->
+  <circle cx="175" cy="205" r="28" fill="#2E7D32" stroke="#1B5E20" stroke-width="1.5" opacity="0.9"/>
+  <text x="175" y="202" text-anchor="middle" font-size="6" font-weight="bold" fill="white" font-family="Arial, sans-serif">БИО</text>
+  <text x="175" y="211" text-anchor="middle" font-size="6" font-weight="bold" fill="white" font-family="Arial, sans-serif">ЛОГИЯ</text>
+
+  <!-- Surrounding circles -->
+  <circle cx="130" cy="170" r="20" fill="#FFCDD2" stroke="#C62828" stroke-width="1"/>
+  <text x="130" y="172" text-anchor="middle" font-size="5.5" font-weight="bold" fill="#C62828" font-family="Arial, sans-serif">Мед.</text>
+
+  <circle cx="220" cy="170" r="20" fill="#FFF9C4" stroke="#F57F17" stroke-width="1"/>
+  <text x="220" y="172" text-anchor="middle" font-size="5.5" font-weight="bold" fill="#F57F17" font-family="Arial, sans-serif">С/х</text>
+
+  <circle cx="130" cy="240" r="20" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1"/>
+  <text x="130" y="242" text-anchor="middle" font-size="5.5" font-weight="bold" fill="#2E7D32" font-family="Arial, sans-serif">Экол.</text>
+
+  <circle cx="220" cy="240" r="20" fill="#E1BEE7" stroke="#6A1B9A" stroke-width="1"/>
+  <text x="220" y="237" text-anchor="middle" font-size="5" font-weight="bold" fill="#6A1B9A" font-family="Arial, sans-serif">Био-</text>
+  <text x="220" y="245" text-anchor="middle" font-size="5" font-weight="bold" fill="#6A1B9A" font-family="Arial, sans-serif">тех.</text>
+
+  <!-- Connecting lines between circles and center -->
+  <line x1="148" y1="180" x2="152" y2="186" stroke="#888" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <line x1="202" y1="180" x2="198" y2="186" stroke="#888" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <line x1="148" y1="230" x2="152" y2="224" stroke="#888" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <line x1="202" y1="230" x2="198" y2="224" stroke="#888" stroke-width="0.8" stroke-dasharray="3,2"/>
+
+  <!-- Cross connections -->
+  <line x1="148" y1="174" x2="202" y2="174" stroke="#ccc" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <line x1="148" y1="236" x2="202" y2="236" stroke="#ccc" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <line x1="136" y1="188" x2="136" y2="222" stroke="#ccc" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <line x1="214" y1="188" x2="214" y2="222" stroke="#ccc" stroke-width="0.5" stroke-dasharray="2,2"/>
+
+  <!-- ============ RESEARCH METHODS (RIGHT SIDE) ============ -->
+  <rect x="280" y="138" width="205" height="132" rx="6" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.92"/>
+  <text x="382" y="153" text-anchor="middle" font-size="7.5" font-weight="bold" fill="#1B5E20" font-family="Arial, sans-serif">Методы биологических исследований</text>
+  <line x1="290" y1="158" x2="475" y2="158" stroke="#2E7D32" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Наблюдение -->
+  <rect x="290" y="164" width="185" height="28" rx="4" fill="#E8F5E9" stroke="#66BB6A" stroke-width="0.6"/>
+  <circle cx="306" cy="178" r="8" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.8"/>
+  <!-- Eye icon -->
+  <ellipse cx="306" cy="178" rx="5" ry="3.5" fill="white" stroke="#2E7D32" stroke-width="0.6"/>
+  <circle cx="306" cy="178" r="2" fill="#1B5E20"/>
+  <text x="320" y="176" font-size="7" font-weight="bold" fill="#1B5E20" font-family="Arial, sans-serif">Наблюдение</text>
+  <text x="320" y="186" font-size="5.5" fill="#555" font-family="Arial, sans-serif">Целенаправленное восприятие объектов</text>
+
+  <!-- Эксперимент -->
+  <rect x="290" y="197" width="185" height="28" rx="4" fill="#E3F2FD" stroke="#64B5F6" stroke-width="0.6"/>
+  <circle cx="306" cy="211" r="8" fill="#90CAF9" stroke="#1565C0" stroke-width="0.8"/>
+  <!-- Flask icon -->
+  <path d="M303,205 L303,209 L300,215 L312,215 L309,209 L309,205 Z" fill="white" stroke="#1565C0" stroke-width="0.6"/>
+  <line x1="302" y1="205" x2="310" y2="205" stroke="#1565C0" stroke-width="0.8"/>
+  <text x="320" y="209" font-size="7" font-weight="bold" fill="#1565C0" font-family="Arial, sans-serif">Эксперимент</text>
+  <text x="320" y="219" font-size="5.5" fill="#555" font-family="Arial, sans-serif">Опыт в контролируемых условиях</text>
+
+  <!-- Сравнение -->
+  <rect x="290" y="230" width="185" height="28" rx="4" fill="#FFF3E0" stroke="#FFB74D" stroke-width="0.6"/>
+  <circle cx="306" cy="244" r="8" fill="#FFCC80" stroke="#E65100" stroke-width="0.8"/>
+  <!-- Comparison icon -->
+  <rect x="300" y="240" width="5" height="8" rx="1" fill="white" stroke="#E65100" stroke-width="0.5"/>
+  <rect x="307" y="240" width="5" height="8" rx="1" fill="white" stroke="#E65100" stroke-width="0.5"/>
+  <line x1="305" y1="241" x2="307" y2="241" stroke="#E65100" stroke-width="0.5"/>
+  <line x1="305" y1="244" x2="307" y2="244" stroke="#E65100" stroke-width="0.5"/>
+  <line x1="305" y1="247" x2="307" y2="247" stroke="#E65100" stroke-width="0.5"/>
+  <text x="320" y="242" font-size="7" font-weight="bold" fill="#E65100" font-family="Arial, sans-serif">Сравнение</text>
+  <text x="320" y="252" font-size="5.5" fill="#555" font-family="Arial, sans-serif">Сопоставление признаков организмов</text>
+
+  <!-- Additional methods -->
+  <text x="290" y="267" font-size="5.5" fill="#666" font-family="Arial, sans-serif">&#x2022; Описание — фиксация результатов</text>
+  <text x="290" y="276" font-size="5.5" fill="#666" font-family="Arial, sans-serif">&#x2022; Моделирование — создание аналогов</text>
+  <text x="400" y="267" font-size="5.5" fill="#666" font-family="Arial, sans-serif">&#x2022; Измерение — колич. данные</text>
+  <text x="400" y="276" font-size="5.5" fill="#666" font-family="Arial, sans-serif">&#x2022; Анализ — обработка инф.</text>
+
+  <!-- ============ BOTTOM PANEL ============ -->
+  <rect x="15" y="283" width="470" height="32" rx="5" fill="white" stroke="#66BB6A" stroke-width="0.7" opacity="0.85"/>
+  <text x="250" y="295" text-anchor="middle" font-size="6.5" font-weight="bold" fill="#1B5E20" font-family="Arial, sans-serif">Ключевая идея:</text>
+  <text x="250" y="307" text-anchor="middle" font-size="6" fill="#333" font-family="Arial, sans-serif">Биологические знания — основа для развития медицины, сельского хозяйства, экологии и биотехнологии</text>
+
+  <!-- Footer -->
+  <rect x="0" y="325" width="500" height="25" rx="0" fill="#2E7D32"/>
+  <rect x="0" y="325" width="500" height="12" rx="0" fill="#2E7D32"/>
+  <rect x="0" y="337" width="500" height="13" rx="0 0 12 12" fill="#2E7D32"/>
+  <text x="250" y="342" text-anchor="middle" font-size="8" font-weight="bold" fill="white" font-family="Arial, sans-serif">Урок 2: Значение биологических знаний</text>
+</svg>

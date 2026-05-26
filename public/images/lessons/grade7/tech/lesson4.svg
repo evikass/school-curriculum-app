@@ -1,0 +1,75 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="350" fill="#141210"/>
+  <!-- Vise -->
+  <rect x="220" y="120" width="120" height="70" rx="3" fill="#37474f" stroke="#546e7a" stroke-width="1.5"/>
+  <rect x="225" y="125" width="30" height="60" rx="2" fill="#455a64"/>
+  <rect x="305" y="125" width="30" height="60" rx="2" fill="#455a64"/>
+  <!-- Metal piece in vise -->
+  <rect x="255" y="135" width="50" height="40" rx="1" fill="#90a4ae" stroke="#b0bec5" stroke-width="0.5"/>
+  <!-- Metal shine -->
+  <line x1="260" y1="140" x2="260" y2="170" stroke="#eceff1" stroke-width="1" opacity="0.3"/>
+  <line x1="275" y1="140" x2="275" y2="170" stroke="#eceff1" stroke-width="0.5" opacity="0.2"/>
+  <!-- Vise handle -->
+  <rect x="340" y="148" width="80" height="8" rx="4" fill="#546e7a" stroke="#607d8b" stroke-width="1"/>
+  <circle cx="340" cy="152" r="6" fill="#455a64" stroke="#607d8b" stroke-width="1"/>
+  <text x="240" y="210" font-size="9" fill="#78909c">Тиски</text>
+  <!-- Hacksaw -->
+  <rect x="40" y="30" width="12" height="55" rx="3" fill="#5d4037" stroke="#4e342e" stroke-width="1"/>
+  <!-- Hacksaw frame -->
+  <path d="M52,40 L180,40 L180,50 L170,50 L170,65 L52,65 Z" fill="none" stroke="#78909c" stroke-width="2.5"/>
+  <!-- Blade -->
+  <line x1="52" y1="62" x2="170" y2="62" stroke="#b0bec5" stroke-width="1"/>
+  <!-- Blade teeth -->
+  <line x1="60" y1="62" x2="62" y2="66" stroke="#b0bec5" stroke-width="0.5"/>
+  <line x1="70" y1="62" x2="72" y2="66" stroke="#b0bec5" stroke-width="0.5"/>
+  <line x1="80" y1="62" x2="82" y2="66" stroke="#b0bec5" stroke-width="0.5"/>
+  <line x1="90" y1="62" x2="92" y2="66" stroke="#b0bec5" stroke-width="0.5"/>
+  <line x1="100" y1="62" x2="102" y2="66" stroke="#b0bec5" stroke-width="0.5"/>
+  <line x1="110" y1="62" x2="112" y2="66" stroke="#b0bec5" stroke-width="0.5"/>
+  <line x1="120" y1="62" x2="122" y2="66" stroke="#b0bec5" stroke-width="0.5"/>
+  <line x1="130" y1="62" x2="132" y2="66" stroke="#b0bec5" stroke-width="0.5"/>
+  <line x1="140" y1="62" x2="142" y2="66" stroke="#b0bec5" stroke-width="0.5"/>
+  <line x1="150" y1="62" x2="152" y2="66" stroke="#b0bec5" stroke-width="0.5"/>
+  <line x1="160" y1="62" x2="162" y2="66" stroke="#b0bec5" stroke-width="0.5"/>
+  <text x="80" y="25" font-size="10" fill="#b0bec5">Ножовка по металлу</text>
+  <!-- File -->
+  <rect x="40" y="230" width="140" height="10" rx="2" fill="#b0bec5" stroke="#78909c" stroke-width="1"/>
+  <!-- File handle -->
+  <rect x="35" y="226" width="15" height="18" rx="4" fill="#5d4037" stroke="#4e342e" stroke-width="1"/>
+  <!-- File teeth pattern -->
+  <line x1="60" y1="230" x2="60" y2="240" stroke="#78909c" stroke-width="0.5" opacity="0.5"/>
+  <line x1="65" y1="230" x2="65" y2="240" stroke="#78909c" stroke-width="0.5" opacity="0.5"/>
+  <line x1="70" y1="230" x2="70" y2="240" stroke="#78909c" stroke-width="0.5" opacity="0.5"/>
+  <line x1="75" y1="230" x2="75" y2="240" stroke="#78909c" stroke-width="0.5" opacity="0.5"/>
+  <line x1="80" y1="230" x2="80" y2="240" stroke="#78909c" stroke-width="0.5" opacity="0.5"/>
+  <line x1="85" y1="230" x2="85" y2="240" stroke="#78909c" stroke-width="0.5" opacity="0.5"/>
+  <line x1="90" y1="230" x2="90" y2="240" stroke="#78909c" stroke-width="0.5" opacity="0.5"/>
+  <line x1="95" y1="230" x2="95" y2="240" stroke="#78909c" stroke-width="0.5" opacity="0.5"/>
+  <line x1="100" y1="230" x2="100" y2="240" stroke="#78909c" stroke-width="0.5" opacity="0.5"/>
+  <line x1="105" y1="230" x2="105" y2="240" stroke="#78909c" stroke-width="0.5" opacity="0.5"/>
+  <line x1="110" y1="230" x2="110" y2="240" stroke="#78909c" stroke-width="0.5" opacity="0.5"/>
+  <line x1="115" y1="230" x2="115" y2="240" stroke="#78909c" stroke-width="0.5" opacity="0.5"/>
+  <line x1="120" y1="230" x2="120" y2="240" stroke="#78909c" stroke-width="0.5" opacity="0.5"/>
+  <line x1="125" y1="230" x2="125" y2="240" stroke="#78909c" stroke-width="0.5" opacity="0.5"/>
+  <line x1="130" y1="230" x2="130" y2="240" stroke="#78909c" stroke-width="0.5" opacity="0.5"/>
+  <line x1="135" y1="230" x2="135" y2="240" stroke="#78909c" stroke-width="0.5" opacity="0.5"/>
+  <line x1="140" y1="230" x2="140" y2="240" stroke="#78909c" stroke-width="0.5" opacity="0.5"/>
+  <line x1="145" y1="230" x2="145" y2="240" stroke="#78909c" stroke-width="0.5" opacity="0.5"/>
+  <line x1="150" y1="230" x2="150" y2="240" stroke="#78909c" stroke-width="0.5" opacity="0.5"/>
+  <line x1="155" y1="230" x2="155" y2="240" stroke="#78909c" stroke-width="0.5" opacity="0.5"/>
+  <line x1="160" y1="230" x2="160" y2="240" stroke="#78909c" stroke-width="0.5" opacity="0.5"/>
+  <line x1="165" y1="230" x2="165" y2="240" stroke="#78909c" stroke-width="0.5" opacity="0.5"/>
+  <line x1="170" y1="230" x2="170" y2="240" stroke="#78909c" stroke-width="0.5" opacity="0.5"/>
+  <text x="80" y="222" font-size="10" fill="#b0bec5">Напильник</text>
+  <!-- Metal filings -->
+  <circle cx="175" cy="245" r="1" fill="#90a4ae" opacity="0.5"/>
+  <circle cx="180" cy="248" r="0.8" fill="#90a4ae" opacity="0.4"/>
+  <circle cx="172" cy="250" r="1.2" fill="#90a4ae" opacity="0.3"/>
+  <!-- Safety -->
+  <rect x="240" y="230" width="220" height="70" rx="6" fill="#1a1210" stroke="#ef5350" stroke-width="1"/>
+  <text x="255" y="250" font-size="9" fill="#ef5350">⚠ Работай в перчатках</text>
+  <text x="255" y="265" font-size="9" fill="#ef5350">⚠ Опилки счищай щёткой</text>
+  <text x="255" y="280" font-size="9" fill="#ef5350">⚠ Не проверяй остроту пальцем</text>
+  <text x="290" y="292" font-size="9" fill="#ffcdd2" opacity="0.6">Стружка металла опасна!</text>
+  <text x="200" y="340" font-size="9" fill="#fff" opacity="0.5">Ручная обработка металла</text>
+</svg>

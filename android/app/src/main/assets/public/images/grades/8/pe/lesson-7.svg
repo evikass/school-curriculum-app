@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600"><rect width="800" height="600" fill="#F0FDF4" rx="12"/>
+  <rect x="0" y="0" width="800" height="60" fill="#22C55E" rx="0"/>
+  <text x="400" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">Плавание: способы и техника</text>
+  <rect x="20" y="78" width="380" height="240" fill="#BFDBFE" stroke="#1E293B" stroke-width="2" rx="6"/>
+  <text x="210" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#475569">Бассейн: 50 м, 8 дорожек</text><line x1="25" y1="95" x2="395" y2="95" stroke="#FFFFFF" stroke-width="1.5"/><line x1="25" y1="123" x2="395" y2="123" stroke="#FFFFFF" stroke-width="1.5"/><line x1="25" y1="151" x2="395" y2="151" stroke="#FFFFFF" stroke-width="1.5"/><line x1="25" y1="179" x2="395" y2="179" stroke="#FFFFFF" stroke-width="1.5"/><line x1="25" y1="207" x2="395" y2="207" stroke="#FFFFFF" stroke-width="1.5"/><line x1="25" y1="235" x2="395" y2="235" stroke="#FFFFFF" stroke-width="1.5"/><line x1="25" y1="263" x2="395" y2="263" stroke="#FFFFFF" stroke-width="1.5"/><line x1="25" y1="291" x2="395" y2="291" stroke="#FFFFFF" stroke-width="1.5"/><circle cx="80" cy="88.0" r="7.2" fill="none" stroke="#1E293B" stroke-width="1.8"/>
+<line x1="80" y1="95.2" x2="84.5" y2="122.2" stroke="#1E293B" stroke-width="1.8"/>
+<line x1="81.8" y1="106.0" x2="99.8" y2="100.6" stroke="#1E293B" stroke-width="1.8"/>
+<line x1="81.8" y1="106.0" x2="65.6" y2="102.4" stroke="#1E293B" stroke-width="1.8"/>
+<line x1="84.5" y1="122.2" x2="96.2" y2="118.6" stroke="#1E293B" stroke-width="1.8"/>
+<line x1="84.5" y1="122.2" x2="69.2" y2="127.6" stroke="#1E293B" stroke-width="1.8"/><circle cx="80" cy="144.0" r="7.2" fill="none" stroke="#1E293B" stroke-width="1.8"/>
+<line x1="80" y1="151.2" x2="84.5" y2="178.2" stroke="#1E293B" stroke-width="1.8"/>
+<line x1="81.8" y1="162.0" x2="99.8" y2="156.6" stroke="#1E293B" stroke-width="1.8"/>
+<line x1="81.8" y1="162.0" x2="65.6" y2="158.4" stroke="#1E293B" stroke-width="1.8"/>
+<line x1="84.5" y1="178.2" x2="96.2" y2="174.6" stroke="#1E293B" stroke-width="1.8"/>
+<line x1="84.5" y1="178.2" x2="69.2" y2="183.6" stroke="#1E293B" stroke-width="1.8"/><circle cx="80" cy="200.0" r="7.2" fill="none" stroke="#1E293B" stroke-width="1.8"/>
+<line x1="80" y1="207.2" x2="84.5" y2="234.2" stroke="#1E293B" stroke-width="1.8"/>
+<line x1="81.8" y1="218.0" x2="99.8" y2="212.6" stroke="#1E293B" stroke-width="1.8"/>
+<line x1="81.8" y1="218.0" x2="65.6" y2="214.4" stroke="#1E293B" stroke-width="1.8"/>
+<line x1="84.5" y1="234.2" x2="96.2" y2="230.6" stroke="#1E293B" stroke-width="1.8"/>
+<line x1="84.5" y1="234.2" x2="69.2" y2="239.6" stroke="#1E293B" stroke-width="1.8"/><circle cx="80" cy="256.0" r="7.2" fill="none" stroke="#1E293B" stroke-width="1.8"/>
+<line x1="80" y1="263.2" x2="84.5" y2="290.2" stroke="#1E293B" stroke-width="1.8"/>
+<line x1="81.8" y1="274.0" x2="99.8" y2="268.6" stroke="#1E293B" stroke-width="1.8"/>
+<line x1="81.8" y1="274.0" x2="65.6" y2="270.4" stroke="#1E293B" stroke-width="1.8"/>
+<line x1="84.5" y1="290.2" x2="96.2" y2="286.6" stroke="#1E293B" stroke-width="1.8"/>
+<line x1="84.5" y1="290.2" x2="69.2" y2="295.6" stroke="#1E293B" stroke-width="1.8"/><text x="210" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#16A34A" font-weight="bold">Кроль на груди (вольный стиль)</text><text x="210" y="174" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#DC2626" font-weight="bold">Брасс</text><text x="210" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#16A34A" font-weight="bold">Баттерфляй</text><text x="210" y="286" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#DC2626" font-weight="bold">Кроль на спине</text><rect x="420" y="78" width="360" height="95" fill="#FFFFFF" stroke="#22C55E" stroke-width="2" rx="8"/>
+<rect x="420" y="78" width="360" height="28" fill="#22C55E" rx="8"/>
+<rect x="420" y="98" width="360" height="8" fill="#22C55E"/>
+<text x="600" y="97" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Кроль (вольный стиль)</text>
+<text x="432" y="122" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Самый быстрый способ плавания</text>
+<text x="432" y="140" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Попеременная работа рук и ног</text>
+<text x="432" y="158" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Ноги — непрерывный удар вверх-вниз</text>
+<text x="432" y="176" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Дыхание — поворот головы в сторону</text><rect x="420" y="183" width="360" height="75" fill="#FFFFFF" stroke="#EF4444" stroke-width="2" rx="8"/>
+<rect x="420" y="183" width="360" height="28" fill="#EF4444" rx="8"/>
+<rect x="420" y="203" width="360" height="8" fill="#EF4444"/>
+<text x="600" y="202" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Брасс</text>
+<text x="432" y="227" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Одновременная работа рук и ног</text>
+<text x="432" y="245" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• «Лягушачьи» движения ногами</text>
+<text x="432" y="263" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Дыхание — подъём головы над водой</text><rect x="420" y="268" width="360" height="60" fill="#FFFFFF" stroke="#22C55E" stroke-width="2" rx="8"/>
+<rect x="420" y="268" width="360" height="28" fill="#22C55E" rx="8"/>
+<rect x="420" y="288" width="360" height="8" fill="#22C55E"/>
+<text x="600" y="287" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Баттерфляй (дельфин)</text>
+<text x="432" y="312" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Самый сложный и энергозатратный стиль</text>
+<text x="432" y="330" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Одновременный гребок обеими руками</text>
+  <rect x="20" y="340" width="760" height="36" fill="#16A34A" rx="8"/>
+  <text x="400" y="364" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">Техника безопасности и советы</text><rect x="20" y="390" width="250" height="150" fill="#FFFFFF" stroke="#22C55E" stroke-width="2" rx="8"/>
+<rect x="20" y="390" width="250" height="28" fill="#22C55E" rx="8"/>
+<rect x="20" y="410" width="250" height="8" fill="#22C55E"/>
+<text x="145" y="409" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Правила безопасности</text>
+<text x="32" y="434" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Разминка перед заплывом</text>
+<text x="32" y="452" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Не плавать на полный желудок</text>
+<text x="32" y="470" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Соблюдать дистанцию между</text>
+<text x="32" y="488" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">  пловцами на дорожках</text>
+<text x="32" y="506" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Не прыгать на мелководье</text>
+<text x="32" y="524" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Использовать шапочку и очки</text>
+<text x="32" y="542" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Не заплывать за буйки</text><rect x="285" y="390" width="250" height="150" fill="#FFFFFF" stroke="#EF4444" stroke-width="2" rx="8"/>
+<rect x="285" y="390" width="250" height="28" fill="#EF4444" rx="8"/>
+<rect x="285" y="410" width="250" height="8" fill="#EF4444"/>
+<text x="410" y="409" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Олимпийские дистанции</text>
+<text x="297" y="434" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• 50 м вольный стиль (спринт)</text>
+<text x="297" y="452" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• 100 м — все стили</text>
+<text x="297" y="470" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• 200 м — все стили</text>
+<text x="297" y="488" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• 400 м вольный стиль</text>
+<text x="297" y="506" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• 1500 м вольный стиль</text>
+<text x="297" y="524" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Эстафеты 4х100, 4х200</text>
+<text x="297" y="542" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Комплексное плавание</text><rect x="550" y="390" width="230" height="150" fill="#FFFFFF" stroke="#22C55E" stroke-width="2" rx="8"/>
+<rect x="550" y="390" width="230" height="28" fill="#22C55E" rx="8"/>
+<rect x="550" y="410" width="230" height="8" fill="#22C55E"/>
+<text x="665" y="409" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Знаменитые пловцы</text>
+<text x="562" y="434" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• М. Фелпс — 23 олимп. золота</text>
+<text x="562" y="452" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• К. Ледецки — королева的水</text>
+<text x="562" y="470" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• А. Попов — легенда спринта</text>
+<text x="562" y="488" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Л. Клебер — брасс</text>
+<text x="562" y="506" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Ю. Прилуцкий — Россия</text>
+<text x="562" y="524" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Рекорд 100м кр: 46,86 с</text>
+<text x="562" y="542" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Рекорд 200м батт: 1:50,3</text>
+  <rect x="0" y="568" width="800" height="32" fill="#16A34A"/>
+  <text x="400" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">8 класс | Физкультура/ОБЖ | Урок 7</text></svg>

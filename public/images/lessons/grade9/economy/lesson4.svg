@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#4c1d95"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg4)" rx="12"/>
+  <!-- Four system columns -->
+  <rect x="25" y="30" width="105" height="260" rx="8" fill="#6d28d9" stroke="#a78bfa" stroke-width="1.5"/>
+  <rect x="140" y="30" width="105" height="260" rx="8" fill="#5b21b6" stroke="#a78bfa" stroke-width="1.5"/>
+  <rect x="255" y="30" width="105" height="260" rx="8" fill="#4c1d95" stroke="#a78bfa" stroke-width="1.5"/>
+  <rect x="370" y="30" width="105" height="260" rx="8" fill="#3b0764" stroke="#c4b5fd" stroke-width="1.5"/>
+  <!-- Traditional -->
+  <text x="77" y="55" font-family="sans-serif" font-size="9" fill="#e9d5ff" text-anchor="middle" font-weight="bold">Традиционная</text>
+  <circle cx="77" cy="95" r="22" fill="#7c3aed"/>
+  <text x="77" y="100" font-family="sans-serif" font-size="18" text-anchor="middle">🏕</text>
+  <text x="77" y="135" font-family="sans-serif" font-size="7" fill="#d8b4fe" text-anchor="middle">Обычаи</text>
+  <text x="77" y="150" font-family="sans-serif" font-size="7" fill="#d8b4fe" text-anchor="middle">Традиции</text>
+  <text x="77" y="175" font-family="sans-serif" font-size="7" fill="#86efac" text-anchor="middle">+ Стабильность</text>
+  <text x="77" y="192" font-family="sans-serif" font-size="7" fill="#fca5a5" text-anchor="middle">− Низкий рост</text>
+  <!-- Command -->
+  <text x="192" y="55" font-family="sans-serif" font-size="9" fill="#e9d5ff" text-anchor="middle" font-weight="bold">Командная</text>
+  <circle cx="192" cy="95" r="22" fill="#6d28d9"/>
+  <text x="192" y="100" font-family="sans-serif" font-size="18" text-anchor="middle">🏛</text>
+  <text x="192" y="135" font-family="sans-serif" font-size="7" fill="#d8b4fe" text-anchor="middle">Госплан</text>
+  <text x="192" y="150" font-family="sans-serif" font-size="7" fill="#d8b4fe" text-anchor="middle">Централизация</text>
+  <text x="192" y="175" font-family="sans-serif" font-size="7" fill="#86efac" text-anchor="middle">+ Равенство</text>
+  <text x="192" y="192" font-family="sans-serif" font-size="7" fill="#fca5a5" text-anchor="middle">− Неэффективность</text>
+  <!-- Market -->
+  <text x="307" y="55" font-family="sans-serif" font-size="9" fill="#e9d5ff" text-anchor="middle" font-weight="bold">Рыночная</text>
+  <circle cx="307" cy="95" r="22" fill="#5b21b6"/>
+  <text x="307" y="100" font-family="sans-serif" font-size="18" text-anchor="middle">🏪</text>
+  <text x="307" y="135" font-family="sans-serif" font-size="7" fill="#d8b4fe" text-anchor="middle">Конкуренция</text>
+  <text x="307" y="150" font-family="sans-serif" font-size="7" fill="#d8b4fe" text-anchor="middle">Свобода цен</text>
+  <text x="307" y="175" font-family="sans-serif" font-size="7" fill="#86efac" text-anchor="middle">+ Инновации</text>
+  <text x="307" y="192" font-family="sans-serif" font-size="7" fill="#fca5a5" text-anchor="middle">− Неравенство</text>
+  <!-- Mixed -->
+  <text x="422" y="55" font-family="sans-serif" font-size="9" fill="#e9d5ff" text-anchor="middle" font-weight="bold">Смешанная</text>
+  <circle cx="422" cy="95" r="22" fill="#4c1d95"/>
+  <text x="422" y="100" font-family="sans-serif" font-size="18" text-anchor="middle">⚖</text>
+  <text x="422" y="135" font-family="sans-serif" font-size="7" fill="#d8b4fe" text-anchor="middle">Рынок + Гос.</text>
+  <text x="422" y="150" font-family="sans-serif" font-size="7" fill="#d8b4fe" text-anchor="middle">Регулирование</text>
+  <text x="422" y="175" font-family="sans-serif" font-size="7" fill="#86efac" text-anchor="middle">+ Баланс</text>
+  <text x="422" y="192" font-family="sans-serif" font-size="7" fill="#fca5a5" text-anchor="middle">− Сложность</text>
+  <!-- Three questions at bottom -->
+  <rect x="100" y="220" width="300" height="55" rx="8" fill="#7c3aed" stroke="#c4b5fd" stroke-width="1"/>
+  <text x="250" y="240" font-family="sans-serif" font-size="10" fill="#e9d5ff" text-anchor="middle" font-weight="bold">3 главных вопроса экономики:</text>
+  <text x="160" y="260" font-family="sans-serif" font-size="9" fill="#fbbf24">Что?</text>
+  <text x="250" y="260" font-family="sans-serif" font-size="9" fill="#fbbf24">Как?</text>
+  <text x="340" y="260" font-family="sans-serif" font-size="9" fill="#fbbf24">Для кого?</text>
+  <!-- Evolution arrows -->
+  <line x1="130" y1="210" x2="148" y2="210" stroke="#a78bfa" stroke-width="1.5" marker-end="url(#arrP)"/>
+  <line x1="245" y1="210" x2="263" y2="210" stroke="#a78bfa" stroke-width="1.5"/>
+  <line x1="360" y1="210" x2="378" y2="210" stroke="#a78bfa" stroke-width="1.5"/>
+  <polygon points="378,207 384,210 378,213" fill="#a78bfa"/>
+  <text x="250" y="340" font-family="sans-serif" font-size="9" fill="white" text-anchor="middle" opacity="0.5">Типы экономических систем</text>
+</svg>

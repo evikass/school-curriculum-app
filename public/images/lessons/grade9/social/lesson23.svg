@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#1A202C"/>
+  <!-- Broken law symbol -->
+  <g transform="translate(250,130)" opacity="0.4">
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#E2E8F0" stroke-width="3"/>
+    <line x1="-35" y1="-35" x2="35" y2="35" stroke="#E53E3E" stroke-width="4"/>
+  </g>
+  <!-- Crime vs Offense -->
+  <g opacity="0.5">
+    <rect x="40" y="210" width="180" height="50" rx="8" fill="#C53030"/><text x="130" y="240" text-anchor="middle" font-size="12" fill="#FFF">Преступление</text>
+    <rect x="280" y="210" width="180" height="50" rx="8" fill="#D69E2E"/><text x="370" y="240" text-anchor="middle" font-size="12" fill="#FFF">Проступок</text>
+  </g>
+  <!-- Arrow -->
+  <g stroke="#E2E8F0" stroke-width="2" opacity="0.3">
+    <line x1="200" y1="140" x2="130" y2="210"/><line x1="300" y1="140" x2="370" y2="210"/>
+  </g>
+  <text x="250" y="300" text-anchor="middle" font-size="18" fill="#E2E8F0" font-weight="bold" opacity="0.6">Правонарушения</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#E2E8F0" opacity="0.5">Правонарушения</text>
+</svg>

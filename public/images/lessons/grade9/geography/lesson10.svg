@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#FFF3E0"/>
+  <!-- Asia map (simplified) -->
+  <g transform="translate(20,15)">
+    <!-- Main Asia landmass -->
+    <path d="M100,40 Q150,20 220,25 Q290,30 340,50 Q370,60 380,80 Q385,100 370,120 Q350,140 320,145 Q290,148 260,140 Q230,135 210,150 Q195,165 180,175 Q160,180 140,170 Q120,155 110,135 Q100,115 95,90 Q90,65 100,40" fill="#FFE0B2" stroke="#E65100" stroke-width="1.5"/>
+    <!-- India subcontinent -->
+    <path d="M200,150 Q215,140 230,150 Q240,165 235,185 Q225,200 215,210 Q205,215 195,205 Q185,190 190,170 Q195,158 200,150" fill="#FFE0B2" stroke="#E65100" stroke-width="1.5"/>
+    <!-- Southeast Asia peninsula -->
+    <path d="M260,145 Q275,140 285,155 Q290,170 280,185 Q270,195 260,190 Q250,180 255,165 Q258,155 260,145" fill="#FFE0B2" stroke="#E65100" stroke-width="1.5"/>
+    <!-- Japan -->
+    <path d="M360,80 Q365,70 370,75 Q375,85 372,95 Q368,105 362,100 Q358,90 360,80" fill="#FFCC80" stroke="#E65100" stroke-width="1.5"/>
+    <!-- Korean Peninsula -->
+    <path d="M335,85 Q340,75 345,82 Q348,92 342,98 Q337,100 335,92 Q334,88 335,85" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+    <!-- Arabian Peninsula -->
+    <path d="M100,145 Q115,135 130,140 Q140,150 135,170 Q125,185 110,185 Q95,180 90,165 Q88,155 100,145" fill="#FFE0B2" stroke="#E65100" stroke-width="1.5"/>
+    <!-- Indonesia -->
+    <ellipse cx="280" cy="210" rx="30" ry="6" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+  </g>
+  <!-- Country markers -->
+  <!-- China -->
+  <g transform="translate(250,80)">
+    <circle r="6" fill="#F44336" stroke="#B71C1C" stroke-width="1.5"/>
+    <line x1="6" y1="-4" x2="30" y2="-18" stroke="#333" stroke-width="0.8"/>
+    <text x="32" y="-15" font-family="Arial,sans-serif" font-size="8" fill="#B71C1C" font-weight="bold">Китай</text>
+    <text x="32" y="-6" font-family="Arial,sans-serif" font-size="6" fill="#666">1,4 млрд, 9,6 млн км²</text>
+  </g>
+  <!-- India -->
+  <g transform="translate(230,185)">
+    <circle r="6" fill="#FF9800" stroke="#E65100" stroke-width="1.5"/>
+    <line x1="6" y1="4" x2="30" y2="12" stroke="#333" stroke-width="0.8"/>
+    <text x="32" y="15" font-family="Arial,sans-serif" font-size="8" fill="#E65100" font-weight="bold">Индия</text>
+    <text x="32" y="24" font-family="Arial,sans-serif" font-size="6" fill="#666">1,4 млрд, IT-лидер</text>
+  </g>
+  <!-- Japan -->
+  <g transform="translate(380,92)">
+    <circle r="6" fill="#1565C0" stroke="#0D47A1" stroke-width="1.5"/>
+    <line x1="6" y1="-3" x2="22" y2="-8" stroke="#333" stroke-width="0.8"/>
+    <text x="24" y="-5" font-family="Arial,sans-serif" font-size="8" fill="#0D47A1" font-weight="bold">Япония</text>
+    <text x="24" y="4" font-family="Arial,sans-serif" font-size="6" fill="#666">Технологии, авто</text>
+  </g>
+  <!-- Saudi Arabia -->
+  <g transform="translate(118,170)">
+    <circle r="6" fill="#2E7D32" stroke="#1B5E20" stroke-width="1.5"/>
+    <line x1="-6" y1="4" x2="-25" y2="15" stroke="#333" stroke-width="0.8"/>
+    <text x="-52" y="18" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" font-weight="bold">Сауд. Аравия</text>
+  </g>
+  <!-- Info box -->
+  <rect x="290" y="155" width="190" height="85" rx="5" fill="white" opacity="0.85"/>
+  <text x="385" y="172" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#333" font-weight="bold">Азия</text>
+  <text x="300" y="186" font-family="Arial,sans-serif" font-size="7" fill="#666">• Площадь: 43,4 млн км²</text>
+  <text x="300" y="198" font-family="Arial,sans-serif" font-size="7" fill="#666">• Население: ~4,7 млрд</text>
+  <text x="300" y="210" font-family="Arial,sans-serif" font-size="7" fill="#666">• Самый большой материк</text>
+  <text x="300" y="222" font-family="Arial,sans-serif" font-size="7" fill="#666">• Разнообразие культур</text>
+  <text x="300" y="234" font-family="Arial,sans-serif" font-size="7" fill="#666">• Быстрый экономич. рост</text>
+  <!-- Subregions -->
+  <rect x="10" y="260" width="480" height="65" rx="5" fill="white" opacity="0.7"/>
+  <text x="250" y="278" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#333" font-weight="bold">Субрегионы Азии</text>
+  <rect x="20" y="285" width="85" height="30" rx="3" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+  <text x="62" y="303" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#0D47A1">Восточная: Китай, Япония</text>
+  <rect x="115" y="285" width="85" height="30" rx="3" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
+  <text x="157" y="303" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#E65100">Южная: Индия, Пакистан</text>
+  <rect x="210" y="285" width="85" height="30" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
+  <text x="252" y="303" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20">Юго-Восточная: Вьетнам</text>
+  <rect x="305" y="285" width="85" height="30" rx="3" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="1"/>
+  <text x="347" y="303" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#6A1B9A">Юго-Западная: Иран</text>
+  <rect x="400" y="285" width="80" height="30" rx="3" fill="#FFEBEE" stroke="#C62828" stroke-width="1"/>
+  <text x="440" y="303" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#C62828">Центральная: Казахстан</text>
+  <text x="250" y="345" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#666" opacity="0.5">Страны Азии</text>
+</svg>

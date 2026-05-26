@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="engl1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E3F2FD;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#BBDEFB;stop-opacity:0.4"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#engl1)"/>
+  <rect width="500" height="350" fill="#FFF8E1" opacity="0.4"/>
+  
+  <!-- Sun -->
+  <circle cx="420" cy="50" r="28" fill="#FFD54F" opacity="0.7">
+    <animate attributeName="r" values="26;30;26" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1565C0" text-anchor="middle">🐱 Animals</text>
+  <rect x="80" y="42" width="340" height="2" rx="1" fill="#2196F3" opacity="0.5"/>
+  
+  <!-- Ground -->
+  <ellipse cx="250" cy="320" rx="260" ry="45" fill="#90CAF9" opacity="0.5"/>
+  
+  <!-- Animals grid -->
+  <g transform="translate(30, 70)" font-family="Arial, sans-serif">
+    <!-- Cat -->
+    <rect x="0" y="0" width="100" height="80" fill="#FFECB3" rx="8"/>
+    <ellipse cx="50" cy="40" rx="25" ry="20" fill="#FF7043"/>
+    <polygon points="30,25 35,10 45,25" fill="#FF7043"/>
+    <polygon points="55,25 65,10 70,25" fill="#FF7043"/>
+    <circle cx="40" cy="35" r="3" fill="#333"/>
+    <circle cx="55" cy="35" r="3" fill="#333"/>
+    <text x="50" y="70" font-size="11" fill="#E65100" text-anchor="middle">cat</text>
+    
+    <!-- Dog -->
+    <rect x="115" y="0" width="100" height="80" fill="#C8E6C9" rx="8"/>
+    <ellipse cx="165" cy="40" rx="25" ry="18" fill="#8D6E63"/>
+    <ellipse cx="150" cy="28" rx="12" ry="15" fill="#8D6E63"/>
+    <ellipse cx="180" cy="28" rx="12" ry="15" fill="#8D6E63"/>
+    <circle cx="160" cy="35" r="3" fill="#333"/>
+    <circle cx="175" cy="35" r="3" fill="#333"/>
+    <text x="165" y="70" font-size="11" fill="#2E7D32" text-anchor="middle">dog</text>
+    
+    <!-- Bird -->
+    <rect x="230" y="0" width="100" height="80" fill="#BBDEFB" rx="8"/>
+    <ellipse cx="280" cy="40" rx="20" ry="15" fill="#42A5F5"/>
+    <circle cx="270" cy="32" r="8" fill="#42A5F5"/>
+    <polygon points="262,32 250,35 262,38" fill="#FF9800"/>
+    <circle cx="268" cy="30" r="2" fill="#333"/>
+    <text x="280" y="70" font-size="11" fill="#0D47A1" text-anchor="middle">bird</text>
+    
+    <!-- Fish -->
+    <rect x="345" y="0" width="100" height="80" fill="#B2DFDB" rx="8"/>
+    <ellipse cx="395" cy="40" rx="25" ry="15" fill="#26A69A"/>
+    <polygon points="420,40 440,25 440,55" fill="#26A69A"/>
+    <circle cx="375" cy="35" r="3" fill="#333"/>
+    <text x="395" y="70" font-size="11" fill="#00695C" text-anchor="middle">fish</text>
+  </g>
+  
+  <!-- More animals -->
+  <g transform="translate(80, 170)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="80" height="50" fill="#F8BBD9" rx="5"/>
+    <circle cx="40" cy="20" r="15" fill="#E91E63"/>
+    <text x="40" y="42" font-size="10" fill="#880E4F" text-anchor="middle">rabbit</text>
+    
+    <rect x="90" y="0" width="80" height="50" fill="#FFCCBC" rx="5"/>
+    <ellipse cx="130" cy="22" rx="20" ry="12" fill="#795548"/>
+    <circle cx="120" cy="15" r="8" fill="#795548"/>
+    <text x="130" y="42" font-size="10" fill="#BF360C" text-anchor="middle">bear</text>
+    
+    <rect x="180" y="0" width="80" height="50" fill="#FFE0B2" rx="5"/>
+    <ellipse cx="220" cy="22" rx="25" ry="15" fill="#FF9800"/>
+    <circle cx="200" cy="15" r="10" fill="#FF9800"/>
+    <text x="220" y="42" font-size="10" fill="#E65100" text-anchor="middle">fox</text>
+    
+    <rect x="270" y="0" width="80" height="50" fill="#CFD8DC" rx="5"/>
+    <ellipse cx="310" cy="22" rx="20" ry="12" fill="#607D8B"/>
+    <circle cx="300" cy="15" r="8" fill="#607D8B"/>
+    <text x="310" y="42" font-size="10" fill="#37474F" text-anchor="middle">wolf</text>
+  </g>
+  
+  <!-- Phrase -->
+  <g transform="translate(100, 250)">
+    <rect x="0" y="0" width="300" height="55" fill="#FFF8E1" rx="8" stroke="#FFC107"/>
+    <text x="150" y="20" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#E65100" text-anchor="middle">I like animals!</text>
+    <text x="150" y="38" font-family="Arial, sans-serif" font-size="10" fill="#F57C00" text-anchor="middle">My favourite animal is...</text>
+    <text x="150" y="52" font-family="Arial, sans-serif" font-size="9" fill="#FF9800" text-anchor="middle">cats / dogs / birds</text>
+  </g>
+  
+  <!-- Flowers -->
+  <circle cx="25" cy="310" r="5" fill="#E91E63"/>
+  <circle cx="475" cy="310" r="5" fill="#E91E63"/>
+</svg>

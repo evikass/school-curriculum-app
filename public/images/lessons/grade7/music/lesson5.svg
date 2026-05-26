@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#1a1a28"/>
+<polygon points="250,20 160,60 340,60" fill="#3a3a4a" stroke="#8a8aaa" stroke-width="1"/>
+<rect x="160" y="60" width="180" height="120" fill="#2a2a3a" stroke="#8a8aaa" stroke-width="0.8"/>
+<rect x="180" y="70" width="40" height="60" fill="#3a3a4a" rx="2"/>
+<rect x="230" y="70" width="40" height="60" fill="#3a3a4a" rx="2"/>
+<rect x="280" y="70" width="40" height="60" fill="#3a3a4a" rx="2"/>
+<line x1="170" y1="140" x2="330" y2="140" stroke="#5a5a6a" stroke-width="1"/>
+<rect x="170" y="150" width="20" height="25" fill="#4a4a5a" rx="1"/>
+<rect x="200" y="150" width="20" height="25" fill="#4a4a5a" rx="1"/>
+<rect x="230" y="150" width="20" height="25" fill="#4a4a5a" rx="1"/>
+<rect x="260" y="150" width="20" height="25" fill="#4a4a5a" rx="1"/>
+<rect x="290" y="150" width="20" height="25" fill="#4a4a5a" rx="1"/>
+<rect x="320" y="150" width="20" height="25" fill="#4a4a5a" rx="1"/>
+<circle cx="90" cy="220" r="40" fill="#2a2a3a" stroke="#9a7aba" stroke-width="1"/>
+<circle cx="90" cy="205" r="14" fill="#4a3a5a"/>
+<rect x="83" y="219" width="14" height="22" fill="#3a2a4a" rx="2"/>
+<text x="90" y="262" font-family="Arial" font-size="7" fill="#9a7aba" text-anchor="middle">Моцарт</text>
+<text x="90" y="274" font-family="Arial" font-size="6" fill="#7a5a9a" text-anchor="middle">1756—1791</text>
+<circle cx="250" cy="220" r="40" fill="#2a2a3a" stroke="#8aaa7a" stroke-width="1"/>
+<circle cx="250" cy="205" r="14" fill="#3a4a3a"/>
+<rect x="243" y="219" width="14" height="22" fill="#2a3a2a" rx="2"/>
+<text x="250" y="262" font-family="Arial" font-size="7" fill="#8aaa7a" text-anchor="middle">Гайдн</text>
+<text x="250" y="274" font-family="Arial" font-size="6" fill="#6a8a5a" text-anchor="middle">1732—1809</text>
+<circle cx="410" cy="220" r="40" fill="#2a2a3a" stroke="#aa8a7a" stroke-width="1"/>
+<circle cx="410" cy="205" r="14" fill="#4a3a3a"/>
+<rect x="403" y="219" width="14" height="22" fill="#3a2a2a" rx="2"/>
+<text x="410" y="262" font-family="Arial" font-size="7" fill="#aa8a7a" text-anchor="middle">Бетховен</text>
+<text x="410" y="274" font-family="Arial" font-size="6" fill="#8a6a5a" text-anchor="middle">1770—1827</text>
+<line x1="130" y1="220" x2="210" y2="220" stroke="#6a6a8a" stroke-width="0.5" stroke-dasharray="3,3"/>
+<line x1="290" y1="220" x2="370" y2="220" stroke="#6a6a8a" stroke-width="0.5" stroke-dasharray="3,3"/>
+<text x="250" y="310" font-family="Arial" font-size="8" fill="#8a8aaa" text-anchor="middle">Венская классическая школа — основа мировой музыки</text>
+<text x="250" y="342" font-family="Arial" font-size="9" fill="#8a8aaa" text-anchor="middle" opacity="0.5">Венская классическая школа</text>
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+<polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+<polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+<polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+<polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+<circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+<circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+<circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+<circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+<circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+<circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+<text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Циклы в программировании</text>
+<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Информатика - Урок 4</text>
+<line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+<rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+<rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5"/>
+  <text x="135" y="110" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" text-anchor="middle" font-weight="bold">Циклы в программировании</text>
+  <!-- Computer -->
+  <rect x="55" y="125" width="120" height="75" rx="5" fill="#333"/>
+  <rect x="60" y="130" width="110" height="65" rx="2" fill="#E3F2FD"/>
+  <!-- Code on screen -->
+  <text x="70" y="145" font-family="monospace" font-size="7" fill="#4CAF50">&gt; print("Hello")</text>
+  <text x="70" y="158" font-family="monospace" font-size="7" fill="#1565C0">x = 5 + 3</text>
+  <text x="70" y="171" font-family="monospace" font-size="7" fill="#FF9800">if x &gt; 7:</text>
+  <text x="78" y="184" font-family="monospace" font-size="7" fill="#C62828">  print(x)</text>
+  <!-- Keyboard -->
+  <rect x="45" y="205" width="140" height="30" rx="4" fill="#E0E0E0" stroke="#999" stroke-width="1"/>
+  <rect x="50" y="208" width="8" height="8" rx="1" fill="#BDBDBD"/>
+  <rect x="60" y="208" width="8" height="8" rx="1" fill="#BDBDBD"/>
+  <rect x="70" y="208" width="8" height="8" rx="1" fill="#BDBDBD"/>
+  <rect x="80" y="208" width="8" height="8" rx="1" fill="#BDBDBD"/>
+  <rect x="90" y="208" width="8" height="8" rx="1" fill="#BDBDBD"/>
+  <rect x="100" y="208" width="8" height="8" rx="1" fill="#BDBDBD"/>
+  <rect x="110" y="208" width="8" height="8" rx="1" fill="#BDBDBD"/>
+  <rect x="120" y="208" width="8" height="8" rx="1" fill="#BDBDBD"/>
+  <rect x="130" y="208" width="8" height="8" rx="1" fill="#BDBDBD"/>
+  <rect x="140" y="208" width="8" height="8" rx="1" fill="#BDBDBD"/>
+  <rect x="150" y="208" width="8" height="8" rx="1" fill="#BDBDBD"/>
+  <rect x="160" y="208" width="8" height="8" rx="1" fill="#BDBDBD"/>
+  <rect x="170" y="208" width="8" height="8" rx="1" fill="#BDBDBD"/>
+  <!-- Stand -->
+  <rect x="95" y="240" width="40" height="5" rx="1" fill="#BDBDBD"/>
+  <rect x="110" y="245" width="10" height="15" fill="#999"/>
+  <rect x="90" y="260" width="50" height="5" rx="2" fill="#999"/>
+  <text x="135" y="280" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">программирование</text>
+
+  <rect x="260" y="90" width="215" height="200" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
+  <text x="367" y="115" font-family="Arial,sans-serif" font-size="12" fill="#2E7D32" text-anchor="middle" font-weight="bold">Алгоритмы</text>
+  <!-- Flowchart -->
+  <rect x="330" y="128" width="75" height="25" rx="3" fill="#BBDEFB" stroke="#1565C0" stroke-width="1.5"/>
+  <text x="367" y="145" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">Начало</text>
+  <line x1="367" y1="153" x2="367" y2="163" stroke="#333" stroke-width="1.5"/>
+  <polygon points="365,163 367,168 369,163" fill="#333"/>
+  <rect x="310" y="168" width="115" height="25" rx="3" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1.5"/>
+  <text x="367" y="185" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Ввод данных</text>
+  <line x1="367" y1="193" x2="367" y2="203" stroke="#333" stroke-width="1.5"/>
+  <polygon points="365,203 367,208 369,203" fill="#333"/>
+  <polygon points="367,208 400,220 367,232 334,220" fill="none" stroke="#FF9800" stroke-width="1.5"/>
+  <text x="367" y="222" font-family="Arial,sans-serif" font-size="7" fill="#FF9800" text-anchor="middle">условие?</text>
+  <line x1="367" y1="232" x2="367" y2="242" stroke="#333" stroke-width="1.5"/>
+  <polygon points="365,242 367,247 369,242" fill="#333"/>
+  <rect x="310" y="247" width="115" height="25" rx="3" fill="#FFEBEE" stroke="#C62828" stroke-width="1.5"/>
+  <text x="367" y="264" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle">Вывод</text>
+  <text x="367" y="285" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">блок-схема</text>
+<rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Информатика</text>
+</svg>

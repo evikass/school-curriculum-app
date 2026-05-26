@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#E8EAF6"/>
+<rect x="40" y="20" width="180" height="200" fill="#FFF" stroke="#3F51B5" stroke-width="1.5" rx="4"/>
+<text x="130" y="42" font-size="9" fill="#283593" text-anchor="middle" font-weight="bold">Подъёмный кран</text>
+<line x1="80" y1="55" x2="80" y2="180" stroke="#546E7A" stroke-width="4"/>
+<line x1="80" y1="55" x2="170" y2="55" stroke="#546E7A" stroke-width="3"/>
+<line x1="170" y1="55" x2="170" y2="85" stroke="#78909C" stroke-width="2"/>
+<line x1="60" y1="180" x2="100" y2="180" stroke="#546E7A" stroke-width="5"/>
+<line x1="80" y1="55" x2="60" y2="75" stroke="#78909C" stroke-width="1.5"/>
+<line x1="80" y1="55" x2="100" y2="75" stroke="#78909C" stroke-width="1.5"/>
+<rect x="150" y="85" width="40" height="35" fill="#FF8A65" stroke="#E64A19" stroke-width="1.5" rx="2"/>
+<text x="170" y="107" font-size="9" fill="#FFF" text-anchor="middle">m</text>
+<line x1="170" y1="120" x2="170" y2="140" stroke="#D32F2F" stroke-width="2"/>
+<polygon points="170,145 166,137 174,137" fill="#D32F2F"/>
+<text x="185" y="140" font-size="8" fill="#C62828">mg</text>
+<text x="130" y="175" font-size="8" fill="#283593" text-anchor="middle">быстро → N больше</text>
+<text x="220" y="95" font-size="18" fill="#1A237E" font-style="italic" font-weight="bold">N = A/t</text>
+<text x="220" y="120" font-size="11" fill="#3F51B5">[N] = Вт (Ватт)</text>
+<rect x="260" y="140" width="220" height="90" rx="6" fill="#FFF" stroke="#7986CB" stroke-width="1.5"/>
+<text x="370" y="160" font-size="9" fill="#283593" text-anchor="middle" font-weight="bold">Сравнение мощности</text>
+<rect x="280" y="175" width="80" height="40" fill="#C5CAE9" stroke="#3F51B5" stroke-width="1" rx="3"/>
+<text x="320" y="192" font-size="8" fill="#1A237E" text-anchor="middle">1 кран</text>
+<text x="320" y="205" font-size="8" fill="#1A237E" text-anchor="middle">A за 1 ч</text>
+<rect x="380" y="175" width="80" height="40" fill="#E8EAF6" stroke="#7986CB" stroke-width="1" rx="3"/>
+<text x="420" y="192" font-size="8" fill="#283593" text-anchor="middle">5 человек</text>
+<text x="420" y="205" font-size="8" fill="#283593" text-anchor="middle">A за 5 ч</text>
+<text x="320" y="228" font-size="8" fill="#1A237E" text-anchor="middle">N₁»N₂</text>
+<text x="420" y="228" font-size="8" fill="#283593" text-anchor="middle">та же A</text>
+<rect x="40" y="240" width="420" height="70" rx="6" fill="#FFF8E1" stroke="#FF8F00" stroke-width="1"/>
+<text x="250" y="262" font-size="10" fill="#E65100" text-anchor="middle" font-weight="bold">Единицы мощности</text>
+<text x="130" y="282" font-size="9" fill="#FF8F00" text-anchor="middle">1 Вт = 1 Дж/с</text>
+<text x="250" y="282" font-size="9" fill="#FF8F00" text-anchor="middle">1 кВт = 1000 Вт</text>
+<text x="370" y="282" font-size="9" fill="#FF8F00" text-anchor="middle">1 л.с. ≈ 736 Вт</text>
+<text x="250" y="300" font-size="8" fill="#BF360C" text-anchor="middle">л.с. — лошадиная сила (историческая единица)</text>
+<text x="250" y="345" font-size="9" fill="#666" text-anchor="middle" opacity="0.5">Мощность</text>
+</svg>

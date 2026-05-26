@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#fef2f2"/>
+  <text x="250" y="30" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#dc2626">Поделки из природного материала 🌿</text>
+  <rect x="30" y="50" width="130" height="130" fill="#fef3c7" rx="15"/>
+  <text x="95" y="100" text-anchor="middle" font-family="Arial" font-size="40">🌲</text>
+  <text x="95" y="140" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#b45309">Шишки</text>
+  <text x="95" y="165" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Ёжик, сова</text>
+  <rect x="180" y="50" width="130" height="130" fill="#dcfce7" rx="15"/>
+  <text x="245" y="100" text-anchor="middle" font-family="Arial" font-size="40">🌰</text>
+  <text x="245" y="140" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#15803d">Жёлуди</text>
+  <text x="245" y="165" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Человечек</text>
+  <rect x="330" y="50" width="130" height="130" fill="#fce7f3" rx="15"/>
+  <text x="395" y="100" text-anchor="middle" font-family="Arial" font-size="40">🍁</text>
+  <text x="395" y="140" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#be185d">Листья</text>
+  <text x="395" y="165" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Аппликации</text>
+  <rect x="20" y="200" width="460" height="130" fill="#dbeafe" rx="10"/>
+  <text x="250" y="225" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#1d4ed8">Инструменты для поделок 🧰</text>
+  <text x="80" y="260" text-anchor="middle" font-family="Arial" font-size="30">✂️</text>
+  <text x="80" y="295" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Ножницы</text>
+  <text x="170" y="260" text-anchor="middle" font-family="Arial" font-size="30">🧴</text>
+  <text x="170" y="295" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Клей</text>
+  <text x="260" y="260" text-anchor="middle" font-family="Arial" font-size="30">🖌️</text>
+  <text x="260" y="295" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Кисточка</text>
+  <text x="350" y="260" text-anchor="middle" font-family="Arial" font-size="30">📏</text>
+  <text x="350" y="295" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Линейка</text>
+  <text x="440" y="260" text-anchor="middle" font-family="Arial" font-size="30">✏️</text>
+  <text x="440" y="295" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Карандаш</text>
+</svg>

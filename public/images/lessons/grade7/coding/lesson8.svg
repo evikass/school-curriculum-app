@@ -1,0 +1,50 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="350" fill="#121218"/>
+  <!-- Spinning wheel -->
+  <circle cx="200" cy="160" r="90" fill="none" stroke="#546e7a" stroke-width="4"/>
+  <!-- Wheel spokes -->
+  <line x1="200" y1="70" x2="200" y2="250" stroke="#455a64" stroke-width="1.5" opacity="0.4"/>
+  <line x1="110" y1="160" x2="290" y2="160" stroke="#455a64" stroke-width="1.5" opacity="0.4"/>
+  <line x1="136" y1="96" x2="264" y2="224" stroke="#455a64" stroke-width="1.5" opacity="0.4"/>
+  <line x1="264" y1="96" x2="136" y2="224" stroke="#455a64" stroke-width="1.5" opacity="0.4"/>
+  <!-- Center hub -->
+  <circle cx="200" cy="160" r="15" fill="#263238" stroke="#78909c" stroke-width="2"/>
+  <circle cx="200" cy="160" r="5" fill="#78909c"/>
+  <!-- Spinning motion arcs -->
+  <path d="M240,80 A90,90 0 0,1 275,120" fill="none" stroke="#ff7043" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="275,120 268,108 278,112" fill="#ff7043"/>
+  <path d="M275,200 A90,90 0 0,1 230,245" fill="none" stroke="#ff7043" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <!-- Condition check box at top -->
+  <rect x="160" y="45" width="80" height="28" rx="14" fill="#1a237e" stroke="#7c4dff" stroke-width="1.5"/>
+  <text x="175" y="64" font-size="10" fill="#b388ff">условие?</text>
+  <!-- Check arrow pointing to condition -->
+  <path d="M200,70 L200,58" stroke="#7c4dff" stroke-width="1.5" marker-end="url(#arrow2)"/>
+  <!-- Yes/No labels -->
+  <text x="290" y="110" font-size="10" fill="#66bb6a">Да →</text>
+  <text x="260" y="250" font-size="10" fill="#ef5350">Нет → стоп</text>
+  <!-- Code panel on right -->
+  <rect x="320" y="40" width="160" height="200" rx="6" fill="#1a1a2a" stroke="#7c4dff" stroke-width="1"/>
+  <text x="335" y="65" font-family="monospace" font-size="10" fill="#7c4dff">while</text>
+  <text x="375" y="65" font-family="monospace" font-size="10" fill="#e0e0e0"> n &gt; 0:</text>
+  <text x="345" y="85" font-family="monospace" font-size="10" fill="#e0e0e0">    print(n)</text>
+  <text x="345" y="105" font-family="monospace" font-size="10" fill="#e0e0e0">    n = n - 1</text>
+  <text x="335" y="135" font-family="monospace" font-size="9" fill="#546e7a"># Важно!</text>
+  <text x="335" y="152" font-family="monospace" font-size="9" fill="#ef5350"># Условие должно</text>
+  <text x="335" y="167" font-family="monospace" font-size="9" fill="#ef5350"># стать False,</text>
+  <text x="335" y="182" font-family="monospace" font-size="9" fill="#ef5350"># иначе — бесконечный</text>
+  <text x="335" y="197" font-family="monospace" font-size="9" fill="#ef5350"># цикл!</text>
+  <text x="335" y="225" font-size="9" fill="#7c4dff">⚡ Проверка перед</text>
+  <text x="335" y="237" font-size="9" fill="#7c4dff">каждым вращением</text>
+  <!-- Bottom flow diagram -->
+  <rect x="80" y="280" width="60" height="24" rx="12" fill="#1a237e" stroke="#7c4dff" stroke-width="1"/>
+  <text x="90" y="296" font-size="8" fill="#b388ff">Проверка</text>
+  <path d="M140,292 L160,292" stroke="#7c4dff" stroke-width="1.5"/>
+  <polygon points="160,292 155,288 155,296" fill="#7c4dff"/>
+  <polygon points="195,292 205,282 215,292 205,302" fill="#ff7043" stroke="#fff" stroke-width="0.5"/>
+  <text x="198" y="296" font-size="7" fill="#fff">?</text>
+  <path d="M215,292 L235,292" stroke="#66bb6a" stroke-width="1.5"/>
+  <rect x="235" y="280" width="60" height="24" rx="4" fill="#2e7d32" stroke="#66bb6a" stroke-width="1"/>
+  <text x="242" y="296" font-size="8" fill="#c8e6c9">Тело цикла</text>
+  <path d="M295,292 L320,292 L320,270 L140,270 L140,280" stroke="#7c4dff" stroke-width="1" stroke-dasharray="4,3" opacity="0.5"/>
+  <text x="200" y="340" font-size="9" fill="#fff" opacity="0.5">Цикл while</text>
+</svg>

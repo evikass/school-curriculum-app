@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="ebg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#16a34a"/>
+      <stop offset="100%" style="stop-color:#14532d"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#ebg5)" rx="12"/>
+  <!-- Active vs Passive arrow transformation -->
+  <rect x="30" y="25" width="190" height="55" rx="8" fill="#15803d" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="125" y="47" font-family="sans-serif" font-size="10" fill="#4ade80" text-anchor="middle" font-weight="bold">ACTIVE</text>
+  <text x="125" y="63" font-family="sans-serif" font-size="8" fill="#bbf7d0" text-anchor="middle">Shakespeare wrote Hamlet.</text>
+  <!-- Big arrow -->
+  <path d="M230,52 L260,52 L260,42 L280,55 L260,68 L260,58 L230,58 Z" fill="#fbbf24"/>
+  <rect x="290" y="25" width="180" height="55" rx="8" fill="#166534" stroke="#fbbf24" stroke-width="1.5"/>
+  <text x="380" y="47" font-family="sans-serif" font-size="10" fill="#fbbf24" text-anchor="middle" font-weight="bold">PASSIVE</text>
+  <text x="380" y="63" font-family="sans-serif" font-size="8" fill="#fde68a" text-anchor="middle">Hamlet was written by Shakespeare.</text>
+  <!-- Formula -->
+  <rect x="100" y="95" width="300" height="35" rx="6" fill="#14532d" stroke="#4ade80" stroke-width="2"/>
+  <text x="250" y="118" font-family="sans-serif" font-size="12" fill="#4ade80" text-anchor="middle" font-weight="bold">Subject + be + V3 (past participle)</text>
+  <!-- Tense table -->
+  <rect x="20" y="145" width="230" height="165" rx="6" fill="#166534" stroke="#4ade80" stroke-width="1"/>
+  <text x="135" y="165" font-family="sans-serif" font-size="9" fill="#4ade80" text-anchor="middle" font-weight="bold">Passive by Tense</text>
+  <rect x="30" y="175" width="210" height="18" rx="3" fill="#15803d"/>
+  <text x="135" y="188" font-family="sans-serif" font-size="7" fill="#bbf7d0" text-anchor="middle">Present Simple: is/are + V3</text>
+  <rect x="30" y="198" width="210" height="18" rx="3" fill="#15803d"/>
+  <text x="135" y="211" font-family="sans-serif" font-size="7" fill="#bbf7d0" text-anchor="middle">Past Simple: was/were + V3</text>
+  <rect x="30" y="221" width="210" height="18" rx="3" fill="#15803d"/>
+  <text x="135" y="234" font-family="sans-serif" font-size="7" fill="#bbf7d0" text-anchor="middle">Pres. Continuous: is being + V3</text>
+  <rect x="30" y="244" width="210" height="18" rx="3" fill="#15803d"/>
+  <text x="135" y="257" font-family="sans-serif" font-size="7" fill="#bbf7d0" text-anchor="middle">Present Perfect: has been + V3</text>
+  <rect x="30" y="267" width="210" height="18" rx="3" fill="#15803d"/>
+  <text x="135" y="280" font-family="sans-serif" font-size="7" fill="#bbf7d0" text-anchor="middle">Future Simple: will be + V3</text>
+  <!-- By vs With -->
+  <rect x="270" y="145" width="210" height="80" rx="6" fill="#166534" stroke="#fbbf24" stroke-width="1"/>
+  <text x="375" y="165" font-family="sans-serif" font-size="9" fill="#fbbf24" text-anchor="middle" font-weight="bold">BY vs WITH</text>
+  <text x="375" y="183" font-family="sans-serif" font-size="8" fill="#fde68a" text-anchor="middle">by = agent (who did it)</text>
+  <text x="375" y="198" font-family="sans-serif" font-size="7" fill="#fef3c7" text-anchor="middle">"Written by Tolstoy"</text>
+  <text x="375" y="215" font-family="sans-serif" font-size="8" fill="#fde68a" text-anchor="middle">with = instrument</text>
+  <text x="375" y="228" font-family="sans-serif" font-size="7" fill="#fef3c7" text-anchor="middle">"Broken with a stone"</text>
+  <!-- When to use -->
+  <rect x="270" y="235" width="210" height="75" rx="6" fill="#166534" stroke="#4ade80" stroke-width="1"/>
+  <text x="375" y="255" font-family="sans-serif" font-size="9" fill="#4ade80" text-anchor="middle" font-weight="bold">When to use</text>
+  <text x="375" y="272" font-family="sans-serif" font-size="7" fill="#bbf7d0" text-anchor="middle">Doer is unknown</text>
+  <text x="375" y="285" font-family="sans-serif" font-size="7" fill="#bbf7d0" text-anchor="middle">Doer is obvious</text>
+  <text x="375" y="298" font-family="sans-serif" font-size="7" fill="#bbf7d0" text-anchor="middle">Action is more important</text>
+  <text x="250" y="340" font-family="sans-serif" font-size="9" fill="white" text-anchor="middle" opacity="0.5">Passive Voice</text>
+</svg>

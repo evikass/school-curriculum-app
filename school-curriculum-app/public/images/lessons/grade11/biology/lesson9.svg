@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+  <defs>
+    <linearGradient id="bg9" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFEBEE"/>
+      <stop offset="100%" stop-color="#FFCDD2"/>
+    </linearGradient>
+    <linearGradient id="panel9a" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#FFF8F8"/>
+    </linearGradient>
+    <filter id="shadow9" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="1" dy="1" stdDeviation="1.5" flood-color="#00000015"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg9)" rx="8"/>
+  <rect x="2" y="2" width="496" height="346" fill="none" stroke="#E57373" stroke-width="2" rx="7"/>
+
+  <!-- Title -->
+  <rect x="110" y="8" width="280" height="28" rx="14" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="27" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Борьба за существование</text>
+
+  <!-- Section 1: Внутривидовая (Left) -->
+  <rect x="10" y="44" width="156" height="296" rx="8" fill="url(#panel9a)" stroke="#E53935" stroke-width="1.2" filter="url(#shadow9)"/>
+  <rect x="10" y="44" width="156" height="26" rx="8" fill="#C62828"/>
+  <rect x="10" y="58" width="156" height="12" fill="#C62828"/>
+  <text x="88" y="62" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Внутривидовая</text>
+
+  <!-- Crossed swords icon -->
+  <line x1="68" y1="78" x2="100" y2="100" stroke="#B71C1C" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="100" y1="78" x2="68" y2="100" stroke="#B71C1C" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Sword handles -->
+  <line x1="64" y1="74" x2="68" y2="78" stroke="#8D6E63" stroke-width="3" stroke-linecap="round"/>
+  <line x1="104" y1="74" x2="100" y2="78" stroke="#8D6E63" stroke-width="3" stroke-linecap="round"/>
+  <!-- Sparks -->
+  <circle cx="84" cy="89" r="2" fill="#FFD600"/>
+  <circle cx="80" cy="85" r="1.5" fill="#FFAB00"/>
+  <circle cx="88" cy="93" r="1.5" fill="#FFAB00"/>
+
+  <!-- Two wolves competing -->
+  <!-- Wolf 1 -->
+  <ellipse cx="52" cy="128" rx="18" ry="12" fill="#78909C"/>
+  <circle cx="38" cy="122" r="8" fill="#90A4AE"/>
+  <polygon points="33,116 30,108 36,114" fill="#78909C"/>
+  <polygon points="40,116 42,108 44,114" fill="#78909C"/>
+  <circle cx="35" cy="120" r="1.5" fill="#263238"/>
+  <ellipse cx="33" cy="125" rx="2" ry="1.5" fill="#263238"/>
+  <!-- Wolf 1 leg -->
+  <line x1="48" y1="140" x2="46" y2="152" stroke="#78909C" stroke-width="3"/>
+  <line x1="56" y1="140" x2="58" y2="152" stroke="#78909C" stroke-width="3"/>
+
+  <!-- Wolf 2 -->
+  <ellipse cx="126" cy="128" rx="18" ry="12" fill="#78909C"/>
+  <circle cx="140" cy="122" r="8" fill="#90A4AE"/>
+  <polygon points="144,116 146,108 148,114" fill="#78909C"/>
+  <polygon points="136,116 132,108 138,114" fill="#78909C"/>
+  <circle cx="143" cy="120" r="1.5" fill="#263238"/>
+  <ellipse cx="145" cy="125" rx="2" ry="1.5" fill="#263238"/>
+  <!-- Wolf 2 leg -->
+  <line x1="122" y1="140" x2="120" y2="152" stroke="#78909C" stroke-width="3"/>
+  <line x1="130" y1="140" x2="132" y2="152" stroke="#78909C" stroke-width="3"/>
+
+  <!-- Confrontation arrows -->
+  <path d="M72,125 L85,125" stroke="#D32F2F" stroke-width="1.5" marker-end="url(#arrowRed)"/>
+  <path d="M106,125 L93,125" stroke="#D32F2F" stroke-width="1.5"/>
+  <polygon points="88,123 84,125 88,127" fill="#D32F2F"/>
+  <polygon points="90,123 94,125 90,127" fill="#D32F2F"/>
+
+  <!-- Examples -->
+  <line x1="18" y1="160" x2="158" y2="160" stroke="#FFCDD2" stroke-width="0.8"/>
+  <text x="88" y="174" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle" font-weight="bold">Примеры:</text>
+
+  <rect x="18" y="180" width="140" height="30" rx="4" fill="#FFEBEE"/>
+  <text x="88" y="193" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Борьба за пищу,</text>
+  <text x="88" y="203" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">территорию, партнёра</text>
+
+  <rect x="18" y="216" width="140" height="30" rx="4" fill="#FFEBEE"/>
+  <text x="88" y="229" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Конкуренция за свет</text>
+  <text x="88" y="239" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">у растений</text>
+
+  <!-- Key point -->
+  <line x1="18" y1="254" x2="158" y2="254" stroke="#FFCDD2" stroke-width="0.8"/>
+  <text x="88" y="268" font-family="Arial,sans-serif" font-size="7.5" fill="#B71C1C" text-anchor="middle" font-weight="bold">Самая острая форма!</text>
+
+  <!-- Intensity indicator -->
+  <rect x="30" y="278" width="116" height="10" rx="5" fill="#FFCDD2"/>
+  <rect x="30" y="278" width="110" height="10" rx="5" fill="#E53935"/>
+  <text x="88" y="298" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Интенсивность: высокая</text>
+
+  <!-- Result -->
+  <text x="88" y="316" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">→ Совершенствование вида</text>
+  <text x="88" y="328" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">→ Элиминация слабых</text>
+
+  <!-- Section 2: Межвидовая (Center) -->
+  <rect x="172" y="44" width="156" height="296" rx="8" fill="url(#panel9a)" stroke="#E53935" stroke-width="1.2" filter="url(#shadow9)"/>
+  <rect x="172" y="44" width="156" height="26" rx="8" fill="#D84315"/>
+  <rect x="172" y="58" width="156" height="12" fill="#D84315"/>
+  <text x="250" y="62" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Межвидовая</text>
+
+  <!-- Predator-prey illustration -->
+  <!-- Fox silhouette -->
+  <ellipse cx="220" cy="108" rx="20" ry="10" fill="#E65100"/>
+  <!-- Fox head -->
+  <circle cx="202" cy="102" r="8" fill="#EF6C00"/>
+  <!-- Fox ears -->
+  <polygon points="197,96 194,86 201,94" fill="#E65100"/>
+  <polygon points="205,95 207,85 209,94" fill="#E65100"/>
+  <!-- Fox eye -->
+  <circle cx="199" cy="101" r="1.2" fill="#263238"/>
+  <!-- Fox nose -->
+  <circle cx="195" cy="104" r="1" fill="#263238"/>
+  <!-- Fox tail -->
+  <path d="M240,108 Q250,100 248,92 Q246,96 242,104" fill="#EF6C00"/>
+  <path d="M248,92 Q247,94 246,96" fill="white" stroke="none"/>
+  <!-- Fox legs -->
+  <line x1="212" y1="118" x2="210" y2="130" stroke="#E65100" stroke-width="2.5"/>
+  <line x1="222" y1="118" x2="224" y2="130" stroke="#E65100" stroke-width="2.5"/>
+
+  <!-- Rabbit silhouette -->
+  <ellipse cx="290" cy="112" rx="14" ry="9" fill="#BCAAA4"/>
+  <!-- Rabbit head -->
+  <circle cx="302" cy="106" r="6" fill="#D7CCC8"/>
+  <!-- Rabbit ears -->
+  <ellipse cx="300" cy="94" rx="2.5" ry="7" fill="#D7CCC8"/>
+  <ellipse cx="306" cy="94" rx="2.5" ry="7" fill="#D7CCC8"/>
+  <ellipse cx="300" cy="94" rx="1.2" ry="5" fill="#FFCDD2"/>
+  <ellipse cx="306" cy="94" rx="1.2" ry="5" fill="#FFCDD2"/>
+  <!-- Rabbit eye -->
+  <circle cx="304" cy="105" r="1" fill="#263238"/>
+  <!-- Rabbit tail -->
+  <circle cx="276" cy="110" r="3" fill="white"/>
+  <!-- Rabbit legs -->
+  <line x1="285" y1="121" x2="283" y2="132" stroke="#BCAAA4" stroke-width="2"/>
+  <line x1="293" y1="121" x2="295" y2="132" stroke="#BCAAA4" stroke-width="2"/>
+
+  <!-- Chase arrow -->
+  <path d="M240,105 L262,105" stroke="#D32F2F" stroke-width="1.8" stroke-dasharray="3,2"/>
+  <polygon points="262,102 268,105 262,108" fill="#D32F2F"/>
+
+  <!-- Examples -->
+  <line x1="180" y1="148" x2="320" y2="148" stroke="#FFCDD2" stroke-width="0.8"/>
+  <text x="250" y="162" font-family="Arial,sans-serif" font-size="8" fill="#D84315" text-anchor="middle" font-weight="bold">Примеры:</text>
+
+  <rect x="180" y="168" width="140" height="24" rx="4" fill="#FFEBEE"/>
+  <text x="250" y="180" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Хищник — жертва</text>
+  <text x="250" y="189" font-family="Arial,sans-serif" font-size="7" fill="#999" text-anchor="middle">(лиса → заяц)</text>
+
+  <rect x="180" y="198" width="140" height="24" rx="4" fill="#FFEBEE"/>
+  <text x="250" y="210" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Паразит — хозяин</text>
+  <text x="250" y="219" font-family="Arial,sans-serif" font-size="7" fill="#999" text-anchor="middle">(гриб-трутовик → дерево)</text>
+
+  <rect x="180" y="228" width="140" height="24" rx="4" fill="#FFEBEE"/>
+  <text x="250" y="240" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Конкуренция за ресурсы</text>
+  <text x="250" y="249" font-family="Arial,sans-serif" font-size="7" fill="#999" text-anchor="middle">(разные виды растений)</text>
+
+  <!-- Intensity indicator -->
+  <line x1="180" y1="260" x2="320" y2="260" stroke="#FFCDD2" stroke-width="0.8"/>
+  <rect x="195" y="270" width="110" height="10" rx="5" fill="#FFCDD2"/>
+  <rect x="195" y="270" width="75" height="10" rx="5" fill="#FF7043"/>
+  <text x="250" y="292" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Интенсивность: средняя</text>
+
+  <!-- Result -->
+  <text x="250" y="312" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">→ Взаимное приспособление</text>
+  <text x="250" y="324" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">→ Коэволюция видов</text>
+
+  <!-- Section 3: С неблагоприятными условиями (Right) -->
+  <rect x="334" y="44" width="156" height="296" rx="8" fill="url(#panel9a)" stroke="#E53935" stroke-width="1.2" filter="url(#shadow9)"/>
+  <rect x="334" y="44" width="156" height="26" rx="8" fill="#BF360C"/>
+  <rect x="334" y="58" width="156" height="12" fill="#BF360C"/>
+  <text x="412" y="56" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">С неблагоприятными</text>
+  <text x="412" y="67" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">условиями</text>
+
+  <!-- Temperature icon -->
+  <rect x="400" y="78" width="6" height="22" rx="3" fill="none" stroke="#B71C1C" stroke-width="1.5"/>
+  <circle cx="403" cy="104" r="5" fill="#B71C1C" fill-opacity="0.3" stroke="#B71C1C" stroke-width="1"/>
+  <rect x="401" y="82" width="4" height="16" fill="#E53935"/>
+  <!-- Snowflake icons -->
+  <text x="385" y="82" font-family="Arial,sans-serif" font-size="10" fill="#42A5F5">❄</text>
+  <text x="420" y="90" font-family="Arial,sans-serif" font-size="8" fill="#42A5F5">❄</text>
+
+  <!-- Plant in harsh conditions -->
+  <!-- Ground/sand -->
+  <path d="M345,165 Q370,160 395,165 Q420,160 445,165 Q460,163 480,165 L480,175 L345,175 Z" fill="#D7CCC8"/>
+  <path d="M345,170 Q380,168 412,170 Q445,168 480,170 L480,180 L345,180 Z" fill="#BCAAA4"/>
+
+  <!-- Plant stem -->
+  <path d="M412,168 Q412,145 410,130 Q408,118 412,108" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+  <!-- Leaves (small, tough) -->
+  <ellipse cx="404" cy="120" rx="8" ry="4" fill="#388E3C" transform="rotate(-30,404,120)"/>
+  <ellipse cx="420" cy="114" rx="8" ry="4" fill="#388E3C" transform="rotate(25,420,114)"/>
+  <ellipse cx="406" cy="108" rx="7" ry="3.5" fill="#43A047" transform="rotate(-20,406,108)"/>
+  <!-- Flower -->
+  <circle cx="412" cy="103" r="4" fill="#FF8F00"/>
+  <circle cx="412" cy="103" r="2" fill="#F57F17"/>
+
+  <!-- Snow/dryness indicators -->
+  <circle cx="355" cy="158" r="1" fill="#BDBDBD"/>
+  <circle cx="375" cy="155" r="1.2" fill="#BDBDBD"/>
+  <circle cx="440" cy="157" r="1" fill="#BDBDBD"/>
+  <circle cx="460" cy="160" r="1.3" fill="#BDBDBD"/>
+
+  <!-- Examples -->
+  <line x1="342" y1="188" x2="482" y2="188" stroke="#FFCDD2" stroke-width="0.8"/>
+  <text x="412" y="202" font-family="Arial,sans-serif" font-size="8" fill="#BF360C" text-anchor="middle" font-weight="bold">Примеры:</text>
+
+  <rect x="342" y="208" width="140" height="24" rx="4" fill="#FFEBEE"/>
+  <text x="412" y="220" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Засуха, мороз, жара</text>
+  <text x="412" y="229" font-family="Arial,sans-serif" font-size="7" fill="#999" text-anchor="middle">(растения пустыни)</text>
+
+  <rect x="342" y="238" width="140" height="24" rx="4" fill="#FFEBEE"/>
+  <text x="412" y="250" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Затопление, засоление</text>
+  <text x="412" y="259" font-family="Arial,sans-serif" font-size="7" fill="#999" text-anchor="middle">(галофиты)</text>
+
+  <!-- Intensity indicator -->
+  <line x1="342" y1="270" x2="482" y2="270" stroke="#FFCDD2" stroke-width="0.8"/>
+  <rect x="357" y="280" width="110" height="10" rx="5" fill="#FFCDD2"/>
+  <rect x="357" y="280" width="40" height="10" rx="5" fill="#FFAB91"/>
+  <text x="412" y="302" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Интенсивность: зависит от среды</text>
+
+  <!-- Result -->
+  <text x="412" y="320" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">→ Адаптация или гибель</text>
+  <text x="412" y="332" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">→ Расширение ареала</text>
+</svg>

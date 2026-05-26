@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+    <linearGradient id="wheelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#37474F"/>
+      <stop offset="100%" stop-color="#263238"/>
+    </linearGradient>
+    <linearGradient id="rimGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#78909C"/>
+      <stop offset="100%" stop-color="#546E7A"/>
+    </linearGradient>
+    <linearGradient id="carGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#42A5F5"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg5)"/>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2E7D32" text-anchor="middle">🛞 Колёса и оси</text>
+  <rect x="80" y="42" width="340" height="2" rx="1" fill="#4CAF50" opacity="0.5"/>
+  
+  <!-- Road -->
+  <rect x="0" y="240" width="500" height="60" fill="#5D4037"/>
+  <rect x="0" y="240" width="500" height="5" fill="#8D6E63"/>
+  <line x1="0" y1="270" x2="500" y2="270" stroke="#FFF59D" stroke-width="4" stroke-dasharray="30 20"/>
+  
+  <!-- Car Body -->
+  <g transform="translate(100, 165)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0;280,0" dur="8s" repeatCount="indefinite"/>
+      
+      <!-- Car body -->
+      <rect x="0" y="30" width="120" height="40" fill="url(#carGrad)" rx="10"/>
+      <rect x="15" y="5" width="80" height="30" fill="#64B5F6" rx="8"/>
+      <rect x="20" y="10" width="30" height="20" fill="#81D4FA" rx="3"/>
+      <rect x="60" y="10" width="30" height="20" fill="#81D4FA" rx="3"/>
+      
+      <!-- Left Wheel -->
+      <g transform="translate(25, 70)">
+        <circle cx="0" cy="0" r="22" fill="url(#wheelGrad)">
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="1s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="0" cy="0" r="15" fill="url(#rimGrad)"/>
+        <circle cx="0" cy="0" r="5" fill="#37474F"/>
+        <line x1="-12" y1="0" x2="12" y2="0" stroke="#455A64" stroke-width="3"/>
+        <line x1="0" y1="-12" x2="0" y2="12" stroke="#455A64" stroke-width="3"/>
+      </g>
+      
+      <!-- Right Wheel -->
+      <g transform="translate(95, 70)">
+        <circle cx="0" cy="0" r="22" fill="url(#wheelGrad)">
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="1s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="0" cy="0" r="15" fill="url(#rimGrad)"/>
+        <circle cx="0" cy="0" r="5" fill="#37474F"/>
+        <line x1="-12" y1="0" x2="12" y2="0" stroke="#455A64" stroke-width="3"/>
+        <line x1="0" y1="-12" x2="0" y2="12" stroke="#455A64" stroke-width="3"/>
+      </g>
+      
+      <!-- Axle visualization -->
+      <line x1="25" y1="70" x2="95" y2="70" stroke="#FFC107" stroke-width="4" stroke-dasharray="5 3">
+        <animate attributeName="stroke-opacity" values="1;0.5;1" dur="1s" repeatCount="indefinite"/>
+      </line>
+    </g>
+  </g>
+  
+  <!-- Wheel Types -->
+  <g transform="translate(40, 80)">
+    <text x="60" y="0" font-size="11" font-weight="bold" fill="#1B5E20" text-anchor="middle" font-family="Arial">Типы колёс</text>
+    
+    <!-- Small wheel -->
+    <g transform="translate(0, 30)">
+      <circle cx="0" cy="0" r="15" fill="#455A64">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="0" r="8" fill="#78909C"/>
+      <circle cx="0" cy="0" r="3" fill="#37474F"/>
+      <text x="0" y="30" font-size="8" fill="#2E7D32" text-anchor="middle" font-family="Arial">Маленькое</text>
+    </g>
+    
+    <!-- Medium wheel -->
+    <g transform="translate(60, 30)">
+      <circle cx="0" cy="0" r="20" fill="#455A64">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="0" r="12" fill="#78909C"/>
+      <circle cx="0" cy="0" r="4" fill="#37474F"/>
+      <text x="0" y="35" font-size="8" fill="#2E7D32" text-anchor="middle" font-family="Arial">Среднее</text>
+    </g>
+    
+    <!-- Large wheel -->
+    <g transform="translate(120, 30)">
+      <circle cx="0" cy="0" r="25" fill="#455A64">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="1s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="0" r="16" fill="#78909C"/>
+      <circle cx="0" cy="0" r="5" fill="#37474F"/>
+      <text x="0" y="40" font-size="8" fill="#2E7D32" text-anchor="middle" font-family="Arial">Большое</text>
+    </g>
+  </g>
+  
+  <!-- Axle demonstration -->
+  <g transform="translate(300, 60)">
+    <text x="80" y="0" font-size="11" font-weight="bold" fill="#1B5E20" text-anchor="middle" font-family="Arial">Ось соединяет колёса</text>
+    
+    <g transform="translate(80, 50)">
+      <!-- Axle -->
+      <rect x="-60" y="-4" width="120" height="8" fill="#FFC107" rx="4">
+        <animate attributeName="fill" values="#FFC107;#FFD54F;#FFC107" dur="2s" repeatCount="indefinite"/>
+      </rect>
+      
+      <!-- Left wheel -->
+      <g transform="translate(-50, 0)">
+        <circle cx="0" cy="0" r="20" fill="#37474F">
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="0" cy="0" r="12" fill="#546E7A"/>
+      </g>
+      
+      <!-- Right wheel -->
+      <g transform="translate(50, 0)">
+        <circle cx="0" cy="0" r="20" fill="#37474F">
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="0" cy="0" r="12" fill="#546E7A"/>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Info Box -->
+  <g transform="translate(30, 300)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="440" height="40" fill="#E8F5E9" rx="8" stroke="#4CAF50"/>
+    <text x="220" y="17" font-size="11" font-weight="bold" fill="#1B5E20" text-anchor="middle">Ось передаёт вращение от мотора к колёсам</text>
+    <text x="220" y="32" font-size="10" fill="#2E7D32" text-anchor="middle">🔄 Колёса крутятся вместе с осью — робот едет!</text>
+  </g>
+</svg>

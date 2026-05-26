@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Классификация организмов</text>
+<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 9 класс — Урок 2</text>
+<line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+
+<g transform="translate(250,180)">
+<rect x="-80" y="-90" width="160" height="22" rx="5" fill="#1B5E20" stroke="#2E7D32" stroke-width="1.5"/>
+<text x="0" y="-75" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle" font-weight="bold">Царство</text>
+<line x1="-40" y1="-68" x2="-40" y2="-55" stroke="#2E7D32" stroke-width="1"/>
+<line x1="40" y1="-68" x2="40" y2="-55" stroke="#2E7D32" stroke-width="1"/>
+<rect x="-70" y="-55" width="60" height="20" rx="4" fill="#388E3C" stroke="#2E7D32" stroke-width="1"/>
+<text x="-40" y="-41" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Тип/Отдел</text>
+<rect x="10" y="-55" width="60" height="20" rx="4" fill="#388E3C" stroke="#2E7D32" stroke-width="1"/>
+<text x="40" y="-41" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Тип/Отдел</text>
+<line x1="-40" y1="-35" x2="-40" y2="-22" stroke="#2E7D32" stroke-width="1"/>
+<rect x="-65" y="-22" width="50" height="18" rx="4" fill="#4CAF50" stroke="#2E7D32" stroke-width="1"/>
+<text x="-40" y="-9" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle">Класс</text>
+<line x1="-40" y1="-4" x2="-40" y2="8" stroke="#2E7D32" stroke-width="1"/>
+<rect x="-60" y="8" width="40" height="16" rx="4" fill="#66BB6A" stroke="#2E7D32" stroke-width="1"/>
+<text x="-40" y="19" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">Отряд</text>
+<line x1="-40" y1="24" x2="-40" y2="36" stroke="#2E7D32" stroke-width="1"/>
+<rect x="-55" y="36" width="30" height="14" rx="3" fill="#81C784" stroke="#2E7D32" stroke-width="1"/>
+<text x="-40" y="46" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">Семейство</text>
+<line x1="-40" y1="50" x2="-40" y2="60" stroke="#2E7D32" stroke-width="1"/>
+<rect x="-50" y="60" width="20" height="12" rx="3" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1"/>
+<text x="-40" y="69" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">Род</text>
+<line x1="-40" y1="72" x2="-40" y2="82" stroke="#2E7D32" stroke-width="1"/>
+<circle cx="-40" cy="88" r="5" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1"/>
+<text x="-40" y="91" font-family="Arial,sans-serif" font-size="4" fill="#2E7D32" text-anchor="middle">Вид</text>
+</g>
+<g transform="translate(420,130)">
+<text x="0" y="-25" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">5 царств</text>
+<rect x="-40" y="-18" width="80" height="14" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.8"/>
+<text x="0" y="-8" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">Бактерии</text>
+<rect x="-40" y="-2" width="80" height="14" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.8"/>
+<text x="0" y="8" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">Протисты</text>
+<rect x="-40" y="14" width="80" height="14" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.8"/>
+<text x="0" y="24" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">Грибы</text>
+<rect x="-40" y="30" width="80" height="14" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.8"/>
+<text x="0" y="40" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">Растения</text>
+<rect x="-40" y="46" width="80" height="14" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.8"/>
+<text x="0" y="56" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">Животные</text>
+</g>
+<rect x="30" y="280" width="440" height="30" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
+<text x="250" y="294" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Иерархия: Царство-Тип-Класс-Отряд-Семейство-Род-Вид</text>
+<text x="250" y="305" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Карл Линней: бинарная номенклатура (род + вид) | Вид — основная единица</text>
+
+<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 9 класс</text>
+</svg>

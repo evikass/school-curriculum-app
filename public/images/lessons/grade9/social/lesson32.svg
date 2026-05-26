@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#1A365D"/>
+  <!-- Globe -->
+  <circle cx="250" cy="130" r="70" fill="none" stroke="#63B3ED" stroke-width="2" opacity="0.4"/>
+  <ellipse cx="250" cy="130" rx="70" ry="25" fill="none" stroke="#63B3ED" stroke-width="1" opacity="0.3"/>
+  <ellipse cx="250" cy="130" rx="25" ry="70" fill="none" stroke="#63B3ED" stroke-width="1" opacity="0.3"/>
+  <!-- Continents hint -->
+  <path d="M210 100 Q220 90 230 95 Q240 85 235 100 Q245 95 240 110" fill="#38A169" opacity="0.3"/>
+  <path d="M270 95 Q280 85 290 90 Q285 100 295 105" fill="#38A169" opacity="0.3"/>
+  <!-- Handshake -->
+  <g transform="translate(250,220)" opacity="0.4">
+    <path d="M-30 0 Q-15 -10 0 0 Q15 -10 30 0" fill="none" stroke="#E2E8F0" stroke-width="3"/>
+    <line x1="-30" y1="0" x2="-50" y2="15" stroke="#E2E8F0" stroke-width="3" stroke-linecap="round"/>
+    <line x1="30" y1="0" x2="50" y2="15" stroke="#E2E8F0" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <!-- UN -->
+  <g transform="translate(80,80)" opacity="0.3">
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#F6E05E" stroke-width="1.5"/>
+    <path d="M-8 5 L0 -10 L8 5 Q0 10 -8 5" fill="none" stroke="#F6E05E" stroke-width="1"/>
+  </g>
+  <text x="80" y="110" font-size="9" fill="#F6E05E" opacity="0.4">ООН</text>
+  <text x="250" y="290" text-anchor="middle" font-size="16" fill="#E2E8F0" font-weight="bold" opacity="0.6">Международное право</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#E2E8F0" opacity="0.5">Международное право</text>
+</svg>

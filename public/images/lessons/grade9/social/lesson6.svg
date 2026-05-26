@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><linearGradient id="g6" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2C7A7B"/><stop offset="100%" stop-color="#234E52"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#g6)"/>
+  <!-- Circular flow -->
+  <circle cx="250" cy="150" r="80" fill="none" stroke="#E2E8F0" stroke-width="2" opacity="0.3" stroke-dasharray="10,5"/>
+  <!-- Production -->
+  <g transform="translate(250,70)">
+    <rect x="-35" y="-15" width="70" height="30" rx="5" fill="#E53E3E" opacity="0.5"/><text x="0" y="5" text-anchor="middle" font-size="9" fill="#FFF">Производство</text>
+  </g>
+  <!-- Distribution -->
+  <g transform="translate(350,150)">
+    <rect x="-35" y="-15" width="70" height="30" rx="5" fill="#3182CE" opacity="0.5"/><text x="0" y="5" text-anchor="middle" font-size="9" fill="#FFF">Распределение</text>
+  </g>
+  <!-- Exchange -->
+  <g transform="translate(250,230)">
+    <rect x="-35" y="-15" width="70" height="30" rx="5" fill="#38A169" opacity="0.5"/><text x="0" y="5" text-anchor="middle" font-size="9" fill="#FFF">Обмен</text>
+  </g>
+  <!-- Consumption -->
+  <g transform="translate(150,150)">
+    <rect x="-35" y="-15" width="70" height="30" rx="5" fill="#D69E2E" opacity="0.5"/><text x="0" y="5" text-anchor="middle" font-size="9" fill="#FFF">Потребление</text>
+  </g>
+  <!-- Arrows -->
+  <g stroke="#E2E8F0" stroke-width="2" opacity="0.4" fill="#E2E8F0">
+    <polygon points="280,85 290,90 280,95" /><polygon points="335,120 340,130 330,128" />
+    <polygon points="280,215 290,210 280,205" /><polygon points="165,178 160,168 170,170" />
+  </g>
+  <text x="250" y="300" text-anchor="middle" font-size="18" fill="#E2E8F0" font-weight="bold" opacity="0.6">Экономика как система</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#E2E8F0" opacity="0.5">Экономика как система</text>
+</svg>

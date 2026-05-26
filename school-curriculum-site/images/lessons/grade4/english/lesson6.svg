@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Background -->
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <!-- Top red accent bar -->
+  <rect width="500" height="6" fill="#C41E3A"/>
+  <!-- Gold line under red bar -->
+  <rect y="6" width="500" height="2" fill="#D4A843" opacity="0.6"/>
+
+  <!-- Title -->
+  <text x="250" y="45" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Урок 6:  Числа</text>
+  <!-- Subtitle -->
+  <text x="250" y="70" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#2B4C7E" text-anchor="middle">Numbers</text>
+
+  
+  <!-- Number blocks 1-10 -->
+  <rect x="40" y="100" width="38" height="38" rx="4" fill="#C41E3A"/>
+  <text x="59" y="125" font-family="Arial" font-size="20" fill="#FFFFFF" text-anchor="middle" font-weight="bold">1</text>
+  <rect x="84" y="100" width="38" height="38" rx="4" fill="#2B4C7E"/>
+  <text x="103" y="125" font-family="Arial" font-size="20" fill="#FFFFFF" text-anchor="middle" font-weight="bold">2</text>
+  <rect x="128" y="100" width="38" height="38" rx="4" fill="#D4A843"/>
+  <text x="147" y="125" font-family="Arial" font-size="20" fill="#FFFFFF" text-anchor="middle" font-weight="bold">3</text>
+  <rect x="172" y="100" width="38" height="38" rx="4" fill="#C41E3A"/>
+  <text x="191" y="125" font-family="Arial" font-size="20" fill="#FFFFFF" text-anchor="middle" font-weight="bold">4</text>
+  <rect x="216" y="100" width="38" height="38" rx="4" fill="#2B4C7E"/>
+  <text x="235" y="125" font-family="Arial" font-size="20" fill="#FFFFFF" text-anchor="middle" font-weight="bold">5</text>
+  <rect x="260" y="100" width="38" height="38" rx="4" fill="#D4A843"/>
+  <text x="279" y="125" font-family="Arial" font-size="20" fill="#FFFFFF" text-anchor="middle" font-weight="bold">6</text>
+  <rect x="304" y="100" width="38" height="38" rx="4" fill="#C41E3A"/>
+  <text x="323" y="125" font-family="Arial" font-size="20" fill="#FFFFFF" text-anchor="middle" font-weight="bold">7</text>
+  <rect x="348" y="100" width="38" height="38" rx="4" fill="#2B4C7E"/>
+  <text x="367" y="125" font-family="Arial" font-size="20" fill="#FFFFFF" text-anchor="middle" font-weight="bold">8</text>
+  <rect x="392" y="100" width="38" height="38" rx="4" fill="#D4A843"/>
+  <text x="411" y="125" font-family="Arial" font-size="20" fill="#FFFFFF" text-anchor="middle" font-weight="bold">9</text>
+  <rect x="436" y="100" width="38" height="38" rx="4" fill="#C41E3A"/>
+  <text x="455" y="125" font-family="Arial" font-size="20" fill="#FFFFFF" text-anchor="middle" font-weight="bold">10</text>
+  <!-- Number words row -->
+  <text x="59" y="160" font-family="Arial" font-size="8" fill="#1a1a1a" text-anchor="middle">one</text>
+  <text x="103" y="160" font-family="Arial" font-size="8" fill="#1a1a1a" text-anchor="middle">two</text>
+  <text x="147" y="160" font-family="Arial" font-size="8" fill="#1a1a1a" text-anchor="middle">three</text>
+  <text x="191" y="160" font-family="Arial" font-size="8" fill="#1a1a1a" text-anchor="middle">four</text>
+  <text x="235" y="160" font-family="Arial" font-size="8" fill="#1a1a1a" text-anchor="middle">five</text>
+  <text x="279" y="160" font-family="Arial" font-size="8" fill="#1a1a1a" text-anchor="middle">six</text>
+  <text x="323" y="160" font-family="Arial" font-size="8" fill="#1a1a1a" text-anchor="middle">seven</text>
+  <text x="367" y="160" font-family="Arial" font-size="8" fill="#1a1a1a" text-anchor="middle">eight</text>
+  <text x="411" y="160" font-family="Arial" font-size="8" fill="#1a1a1a" text-anchor="middle">nine</text>
+  <text x="455" y="160" font-family="Arial" font-size="8" fill="#1a1a1a" text-anchor="middle">ten</text>
+  <!-- Teens row -->
+  <text x="80" y="200" font-family="Arial" font-size="12" fill="#C41E3A" text-anchor="middle" font-weight="bold">11 eleven</text>
+  <text x="185" y="200" font-family="Arial" font-size="12" fill="#2B4C7E" text-anchor="middle" font-weight="bold">12 twelve</text>
+  <text x="295" y="200" font-family="Arial" font-size="12" fill="#D4A843" text-anchor="middle" font-weight="bold">13 thirteen</text>
+  <text x="415" y="200" font-family="Arial" font-size="12" fill="#C41E3A" text-anchor="middle" font-weight="bold">14 fourteen</text>
+  <text x="80" y="225" font-family="Arial" font-size="12" fill="#2B4C7E" text-anchor="middle" font-weight="bold">15 fifteen</text>
+  <text x="185" y="225" font-family="Arial" font-size="12" fill="#D4A843" text-anchor="middle" font-weight="bold">16 sixteen</text>
+  <text x="295" y="225" font-family="Arial" font-size="12" fill="#C41E3A" text-anchor="middle" font-weight="bold">17 seventeen</text>
+  <text x="415" y="225" font-family="Arial" font-size="12" fill="#2B4C7E" text-anchor="middle" font-weight="bold">18 eighteen</text>
+  <!-- 20 and 100 -->
+  <rect x="150" y="255" width="200" height="40" rx="6" fill="#C41E3A" opacity="0.1" stroke="#C41E3A" stroke-width="1.5"/>
+  <text x="250" y="280" font-family="Arial" font-size="18" fill="#C41E3A" text-anchor="middle" font-weight="bold">20 twenty    100 one hundred</text>
+
+  <!-- Bottom dark bar -->
+  <rect y="318" width="500" height="32" fill="#1a1a1a"/>
+  <rect y="318" width="500" height="2" fill="#D4A843" opacity="0.5"/>
+  <text x="250" y="339" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#F5E6C8" text-anchor="middle" letter-spacing="1">Иностранный язык — 4 класс</text>
+</svg>

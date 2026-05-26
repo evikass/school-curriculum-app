@@ -1,0 +1,3174 @@
+{
+  "lessons": {
+    "title": "Иностранный язык",
+    "icon": "Languages",
+    "color": "text-pink-400",
+    "topics": [
+      "Daily Life",
+      "Travel and Tourism",
+      "Environment",
+      "Technology"
+    ],
+    "detailedTopics": [
+      {
+        "topic": "Daily Life",
+        "lessons": [
+          {
+            "title": "Daily Routines and Habits",
+            "image": "/images/lessons/grade7/english/lesson1.svg",
+            "description": "**Daily Routines** — повседневные дела и привычки.\n\n**Present Simple for Routines:**\n- I usually wake up at 7 o'clock.\n- She always has breakfast at 8 am.\n- We often go to school by bus.\n\n**Frequency Adverbs:**\n- Always — всегда (100%)\n- Usually — обычно (80%)\n- Often — часто (60%)\n- Sometimes — иногда (40%)\n- Rarely — редко (20%)\n- Never — никогда (0%)\n\n**Position in sentence:**\n- Before the main verb: I always eat breakfast.\n- After 'to be': She is never late.\n\n**Daily Activities:**\n- Wake up — просыпаться\n- Get up — вставать\n- Have breakfast — завтракать\n- Go to school — идти в школу\n- Have lunch — обедать\n- Do homework — делать домашнюю работу\n- Have dinner — ужинать\n- Go to bed — ложиться спать\n\n**Time Expressions:**\n- In the morning — утром\n- In the afternoon — днём\n- In the evening — вечером\n- At night — ночью\n- At noon — в полдень",
+            "tasks": [
+              "Translate: Я обычно просыпаюсь в 7 часов",
+              "Put the adverb: She (often) is late for school",
+              "Make a sentence: always / I / breakfast / have",
+              "Write 5 daily activities"
+            ],
+            "examples": [
+              "Present Simple: I usually wake up at 7 o'clock 🕐",
+              "Наречия частотности: always (100%) → usually → often → sometimes → rarely → never (0%)",
+              "Пример 3: практическое применение знаний по теме «Daily Routines and Habits»",
+              "Пример 4: практическое применение знаний по теме «Daily Routines and Habits»"
+            ],
+            "keyPoints": [
+              "Present Simple for routines: I wake up at 7 AM every day",
+              "Present Continuous for actions happening now: I am reading now",
+              "Adverbs of frequency: always, usually, often, sometimes, never",
+              "Умение применять полученные знания на практике и объяснять изучаемые явления"
+            ],
+            "facts": [
+              "В английском языке наречия частотности (always, usually, often, sometimes, rarely, never) стоят перед основным глаголом, но после глагола to be: 'She is always happy', но 'She always smiles'",
+              "Английская идиома 'an early bird' означает человека, который рано встаёт и продуктивно работает по утрам, а 'a night owl' — сову, предпочитающую вечернее время",
+              "В Великобритании типичный день часто включает 'tea time' — традиционное чаепитие около 5 часов вечера, что отражает важную часть британской культуры и ежедневного распорядка"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Choose the correct position of the adverb: She ___ late for school.",
+                  "options": [
+                    "is never",
+                    "never is",
+                    "does never",
+                    "never does"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "question": "Which adverb of frequency means 0%?",
+                  "options": [
+                    "Rarely",
+                    "Sometimes",
+                    "Never",
+                    "Seldom"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "question": "Complete: I usually ___ breakfast at 7 AM.",
+                  "options": [
+                    "has",
+                    "have",
+                    "having",
+                    "had"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Which time expression is correct? 'I wake up ___ the morning.'",
+                  "options": [
+                    "on",
+                    "at",
+                    "in",
+                    "by"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "question": "Choose the correct sentence:",
+                  "options": [
+                    "She always brushes her teeth.",
+                    "She brushes always her teeth.",
+                    "Always she brushes her teeth.",
+                    "She brushes her always teeth."
+                  ],
+                  "correct": 0
+                }
+              ],
+              "find": [
+                {
+                  "question": "Find the activities that are part of a daily routine:",
+                  "options": [
+                    "Wake up",
+                    "Go scuba diving",
+                    "Have breakfast",
+                    "Climb a mountain",
+                    "Do homework"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    4
+                  ]
+                },
+                {
+                  "question": "Find the correct statements about adverbs of frequency:",
+                  "options": [
+                    "They go before the main verb",
+                    "They go after the main verb",
+                    "They go after the verb 'to be'",
+                    "They are always at the end of the sentence",
+                    "'Always' means 100% of the time"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    4
+                  ]
+                },
+                {
+                  "question": "Find the time expressions used with daily routines:",
+                  "options": [
+                    "In the morning",
+                    "At the weekend",
+                    "In the afternoon",
+                    "Next century",
+                    "At night"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    4
+                  ]
+                },
+                {
+                  "question": "Find the sentences that use Present Simple correctly for routines:",
+                  "options": [
+                    "She gets up at 7 AM every day",
+                    "She is getting up at 7 AM every day",
+                    "We always walk to school",
+                    "We are always walking to school",
+                    "He never eats junk food"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    4
+                  ]
+                },
+                {
+                  "question": "Find the words related to daily routines:",
+                  "options": [
+                    "Alarm clock",
+                    "Dentist appointment",
+                    "Commuter",
+                    "Volcano",
+                    "Schedule"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    4
+                  ]
+                }
+              ],
+              "match": [
+                {
+                  "question": "Match the daily activity with its meaning:",
+                  "pairs": [
+                    [
+                      "Wake up",
+                      "Stop sleeping"
+                    ],
+                    [
+                      "Get up",
+                      "Leave the bed and stand"
+                    ],
+                    [
+                      "Have breakfast",
+                      "Eat the first meal of the day"
+                    ],
+                    [
+                      "Go to bed",
+                      "Get into bed to sleep"
+                    ],
+                    [
+                      "Do homework",
+                      "Complete school assignments"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the adverb of frequency with its percentage:",
+                  "pairs": [
+                    [
+                      "Always",
+                      "100%"
+                    ],
+                    [
+                      "Usually",
+                      "80%"
+                    ],
+                    [
+                      "Sometimes",
+                      "40%"
+                    ],
+                    [
+                      "Rarely",
+                      "20%"
+                    ],
+                    [
+                      "Never",
+                      "0%"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the time expression with the correct preposition:",
+                  "pairs": [
+                    [
+                      "___ the morning",
+                      "In"
+                    ],
+                    [
+                      "___ noon",
+                      "At"
+                    ],
+                    [
+                      "___ the evening",
+                      "In"
+                    ],
+                    [
+                      "___ night",
+                      "At"
+                    ],
+                    [
+                      "___ Monday",
+                      "On"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the sentence with the correct adverb position:",
+                  "pairs": [
+                    [
+                      "She is ___ late",
+                      "after 'to be'"
+                    ],
+                    [
+                      "I ___ eat breakfast",
+                      "before main verb"
+                    ],
+                    [
+                      "They can ___ come",
+                      "between can and verb"
+                    ],
+                    [
+                      "He has ___ been there",
+                      "after first auxiliary"
+                    ],
+                    [
+                      "We are ___ happy",
+                      "after 'to be'"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the Russian phrase with the English equivalent:",
+                  "pairs": [
+                    [
+                      "Просыпаться",
+                      "Wake up"
+                    ],
+                    [
+                      "Завтракать",
+                      "Have breakfast"
+                    ],
+                    [
+                      "Ложиться спать",
+                      "Go to bed"
+                    ],
+                    [
+                      "Делать домашнюю работу",
+                      "Do homework"
+                    ],
+                    [
+                      "Обедать",
+                      "Have lunch"
+                    ]
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "title": "Household Chores",
+            "image": "/images/lessons/grade7/english/lesson2.svg",
+            "description": "**Household Chores** — домашние обязанности.\n\n**Common Chores:**\n- Do the washing-up — мыть посуду\n- Do the laundry — стирать бельё\n- Do the ironing — гладить\n- Do the cleaning — убираться\n- Make the bed — заправлять постель\n- Take out the rubbish — выносить мусор\n- Vacuum the carpet — пылесосить ковёр\n- Water the plants — поливать растения\n- Walk the dog — гулять с собакой\n\n**Modal Verbs for Obligation:**\n\n**Have to / Has to:**\n- I have to clean my room.\n- She has to wash the dishes.\n- Do you have to cook dinner?\n\n**Must:**\n- You must help your parents.\n- I must do my homework.\n\n**Should:**\n- You should help your mother.\n- Children should make their beds.\n\n**Questions:**\n- What chores do you do?\n- Who has to do the washing-up?\n- How often do you clean your room?\n\n**Making Requests:**\n- Can you help me, please?\n- Could you take out the rubbish?\n- Would you mind doing the dishes?",
+            "tasks": [
+              "Translate: Мне нужно помыть посуду",
+              "Make a question: you / have to / do / chores / what?",
+              "Write 5 household chores",
+              "Use 'should': help / parents / you / your"
+            ],
+            "examples": [
+              "I have to do the washing-up — мне нужно помыть посуду 🧽",
+              "Should: You should help your parents — тебе следует помочь родителям",
+              "Пример 3: практическое применение знаний по теме «Household Chores»",
+              "Пример 4: практическое применение знаний по теме «Household Chores»"
+            ],
+            "keyPoints": [
+              "Household chores vocabulary: do the dishes, vacuum the floor, do the laundry",
+              "Make vs do: make breakfast (создать), do homework (выполнить)",
+              "Have to / must for obligations: I have to clean my room",
+              "Умение применять полученные знания на практике и объяснять изучаемые явления"
+            ],
+            "facts": [
+              "В английском языке глаголы 'make' и 'do' часто путают: 'make' используется для создания чего-то нового (make the bed, make dinner), а 'do' — для выполнения действия или задачи (do the dishes, do the laundry)",
+              "В британских семьях дети обычно выполняют домашние обязанности с раннего возраста — этот обычай называется 'chores rota' (график обязанностей), где каждый член семьи отвечает за определённые задачи по дням недели",
+              "Модальный глагол 'must' выражает сильную обязанность или внутреннюю необходимость, а 'have to' — внешнюю обязанность, вызванную обстоятельствами: 'I must study' (я сам хочу) vs 'I have to study' (учитель задал)"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Choose the correct verb: She has to ___ the washing-up after dinner.",
+                  "options": [
+                    "make",
+                    "do",
+                    "take",
+                    "have"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Which sentence uses 'have to' correctly?",
+                  "options": [
+                    "She have to clean her room.",
+                    "She has to clean her room.",
+                    "She haves to clean her room.",
+                    "She having to clean her room."
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Complete: You ___ take out the rubbish. It smells bad!",
+                  "options": [
+                    "should",
+                    "shouldn't",
+                    "can't",
+                    "won't"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "question": "Which phrase means 'weть посуду'?",
+                  "options": [
+                    "Do the laundry",
+                    "Do the washing-up",
+                    "Do the ironing",
+                    "Do the cleaning"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Choose the correct sentence with 'should':",
+                  "options": [
+                    "You should to help your parents.",
+                    "You should helping your parents.",
+                    "You should help your parents.",
+                    "You should helped your parents."
+                  ],
+                  "correct": 2
+                }
+              ],
+              "find": [
+                {
+                  "question": "Find the household chores from the list:",
+                  "options": [
+                    "Do the washing-up",
+                    "Go jogging",
+                    "Make the bed",
+                    "Play football",
+                    "Take out the rubbish"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    4
+                  ]
+                },
+                {
+                  "question": "Find the sentences that use modal verbs correctly for obligation:",
+                  "options": [
+                    "I have to do the laundry",
+                    "I must to do the laundry",
+                    "She should make her bed",
+                    "She shoulds make her bed",
+                    "We must help at home"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    4
+                  ]
+                },
+                {
+                  "question": "Find the chores that use the verb 'do':",
+                  "options": [
+                    "Do the ironing",
+                    "Make the bed",
+                    "Do the cleaning",
+                    "Make dinner",
+                    "Do the washing-up"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    4
+                  ]
+                },
+                {
+                  "question": "Find the polite ways to ask someone to do a chore:",
+                  "options": [
+                    "Can you help me, please?",
+                    "Do the dishes now!",
+                    "Could you take out the rubbish?",
+                    "Would you mind doing the ironing?",
+                    "Vacuum the floor immediately!"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    3
+                  ]
+                },
+                {
+                  "question": "Find the correct statements about 'make' vs 'do':",
+                  "options": [
+                    "'Make' is used for creating something new",
+                    "'Do' is used for creating something new",
+                    "'Do' is used for performing an activity",
+                    "We say 'make the bed'",
+                    "We say 'do the bed'"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    3
+                  ]
+                }
+              ],
+              "match": [
+                {
+                  "question": "Match the chore with its definition:",
+                  "pairs": [
+                    [
+                      "Do the washing-up",
+                      "Clean plates and cups with water"
+                    ],
+                    [
+                      "Do the laundry",
+                      "Wash clothes in a machine"
+                    ],
+                    [
+                      "Make the bed",
+                      "Arrange sheets and blankets neatly"
+                    ],
+                    [
+                      "Vacuum the carpet",
+                      "Clean the floor with a vacuum cleaner"
+                    ],
+                    [
+                      "Take out the rubbish",
+                      "Carry garbage bags outside"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the modal verb with its use:",
+                  "pairs": [
+                    [
+                      "Must",
+                      "Strong obligation or personal necessity"
+                    ],
+                    [
+                      "Have to",
+                      "External obligation from rules or circumstances"
+                    ],
+                    [
+                      "Should",
+                      "Advice or recommendation"
+                    ],
+                    [
+                      "Could",
+                      "Polite request"
+                    ],
+                    [
+                      "Don't have to",
+                      "No obligation (it's not necessary)"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the chore with the correct verb (make or do):",
+                  "pairs": [
+                    [
+                      "___ the bed",
+                      "Make"
+                    ],
+                    [
+                      "___ the dishes",
+                      "Do"
+                    ],
+                    [
+                      "___ dinner",
+                      "Make"
+                    ],
+                    [
+                      "___ the ironing",
+                      "Do"
+                    ],
+                    [
+                      "___ a cup of tea",
+                      "Make"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the request with the correct response:",
+                  "pairs": [
+                    [
+                      "Can you help me?",
+                      "Of course, what do you need?"
+                    ],
+                    [
+                      "Could you do the washing-up?",
+                      "Sure, no problem."
+                    ],
+                    [
+                      "Would you mind making dinner?",
+                      "I'm sorry, I'm busy right now."
+                    ],
+                    [
+                      "Do I have to clean my room?",
+                      "Yes, your room is very messy."
+                    ],
+                    [
+                      "Should I water the plants?",
+                      "Yes, they look very dry."
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the Russian phrase with the English chore:",
+                  "pairs": [
+                    [
+                      "Мыть посуду",
+                      "Do the washing-up"
+                    ],
+                    [
+                      "Заправлять постель",
+                      "Make the bed"
+                    ],
+                    [
+                      "Пылесосить ковёр",
+                      "Vacuum the carpet"
+                    ],
+                    [
+                      "Выносить мусор",
+                      "Take out the rubbish"
+                    ],
+                    [
+                      "Гладить бельё",
+                      "Do the ironing"
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "topic": "Travel and Tourism",
+        "lessons": [
+          {
+            "title": "Planning a Trip",
+            "image": "/images/lessons/grade7/english/lesson3.svg",
+            "description": "**Travel Vocabulary:**\n- Journey — путешествие\n- Trip — поездка\n- Tour — тур, экскурсия\n- Voyage — морское путешествие\n- Excursion — экскурсия\n\n**Transport:**\n- By plane — самолётом\n- By train — поездом\n- By bus — автобусом\n- By car — на машине\n- By ship — кораблём\n- On foot — пешком\n\n**At the Airport:**\n- Check-in — регистрация\n- Boarding pass — посадочный талон\n- Gate — выход на посадку\n- Departure — отправление\n- Arrival — прибытие\n- Luggage / baggage — багаж\n- Delay — задержка\n\n**Booking a Hotel:**\n- Book a room — забронировать номер\n- Single room — одноместный номер\n- Double room — двухместный номер\n- Check in — заселиться\n- Check out — выселиться\n\n**Future Tenses for Plans:**\n\n**Going to:**\n- I'm going to visit Paris.\n- We're going to stay at a hotel.\n\n**Present Continuous:**\n- I'm flying to London tomorrow.\n- She's leaving next week.",
+            "tasks": [
+              "Translate: Я собираюсь посетить Лондон",
+              "Write 5 types of transport",
+              "Make a sentence: going to / I / visit / Paris",
+              "What's the difference: journey / trip / voyage?"
+            ],
+            "examples": [
+              "I'm going to visit London next summer — планирую посетить Лондон ✈️",
+              "by plane — самолётом, by train — поездом, on foot — пешком",
+              "Пример 3: практическое применение знаний по теме «Planning a Trip»",
+              "Пример 4: практическое применение знаний по теме «Planning a Trip»"
+            ],
+            "keyPoints": [
+              "Travel vocabulary: book a hotel, pack luggage, check in, boarding pass",
+              "Future with going to: I'm going to visit Paris next summer",
+              "Conditional: If I have time, I will go to the museum",
+              "Умение применять полученные знания на практике и объяснять изучаемые явления"
+            ],
+            "facts": [
+              "В английском языке слова 'journey', 'trip', 'tour' и 'voyage' имеют разные значения: 'journey' — долгое путешествие по суше, 'trip' — короткая поездка, 'tour' — путешествие с остановками, 'voyage' — морское путешествие",
+              "Конструкция 'going to' используется для планов и намерений, а Present Continuous — для заранее запланированных договорённостей: 'I'm going to visit Paris' (план) vs 'I'm flying to London tomorrow' (билет уже куплен)",
+              "В аэропортах англоязычных стран 'check-in' закрывается обычно за 30-45 минут до вылета, а 'boarding pass' — это посадочный талон, без которого невозможно пройти на борт самолёта"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Which word means a long journey by sea?",
+                  "options": [
+                    "Trip",
+                    "Tour",
+                    "Voyage",
+                    "Excursion"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "question": "Choose the correct form: 'I ___ visit my grandmother next weekend.'",
+                  "options": [
+                    "am going to",
+                    "am go to",
+                    "will going to",
+                    "going to"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "question": "What is a 'boarding pass'?",
+                  "options": [
+                    "A hotel receipt",
+                    "A ticket allowing you to board a plane",
+                    "A passport stamp",
+                    "A travel guide"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Complete: 'We're going to ___ a hotel room for our trip.'",
+                  "options": [
+                    "book",
+                    "buy",
+                    "take",
+                    "make"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "question": "Which preposition is correct? 'We're travelling ___ plane.'",
+                  "options": [
+                    "in",
+                    "on",
+                    "by",
+                    "with"
+                  ],
+                  "correct": 2
+                }
+              ],
+              "find": [
+                {
+                  "question": "Find the words related to air travel:",
+                  "options": [
+                    "Boarding pass",
+                    "Gate",
+                    "Platform",
+                    "Check-in",
+                    "Helmet"
+                  ],
+                  "correct": [
+                    0,
+                    1,
+                    3
+                  ]
+                },
+                {
+                  "question": "Find the correct sentences using 'going to' for future plans:",
+                  "options": [
+                    "I'm going to visit Paris next summer",
+                    "I will going to visit Paris next summer",
+                    "She's going to book a hotel",
+                    "She going to book a hotel",
+                    "They're going to travel by train"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    4
+                  ]
+                },
+                {
+                  "question": "Find the types of transport:",
+                  "options": [
+                    "By plane",
+                    "By reservation",
+                    "By train",
+                    "By foot",
+                    "By car"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    4
+                  ]
+                },
+                {
+                  "question": "Find the hotel-related vocabulary:",
+                  "options": [
+                    "Single room",
+                    "Boarding pass",
+                    "Double room",
+                    "Check in",
+                    "Departure gate"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    3
+                  ]
+                },
+                {
+                  "question": "Find the correct travel collocations:",
+                  "options": [
+                    "Book a room",
+                    "Do a room",
+                    "Pack luggage",
+                    "Make luggage",
+                    "Catch a flight"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    4
+                  ]
+                }
+              ],
+              "match": [
+                {
+                  "question": "Match the travel word with its definition:",
+                  "pairs": [
+                    [
+                      "Journey",
+                      "Travelling from one place to another by land"
+                    ],
+                    [
+                      "Voyage",
+                      "A long journey by sea"
+                    ],
+                    [
+                      "Excursion",
+                      "A short trip for pleasure"
+                    ],
+                    [
+                      "Tour",
+                      "A journey with visits to several places"
+                    ],
+                    [
+                      "Trip",
+                      "A short journey to a place and back"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the airport word with its meaning:",
+                  "pairs": [
+                    [
+                      "Check-in",
+                      "The place where you show your ticket and leave luggage"
+                    ],
+                    [
+                      "Boarding pass",
+                      "A card that lets you get on the plane"
+                    ],
+                    [
+                      "Gate",
+                      "The door where you board the plane"
+                    ],
+                    [
+                      "Departure",
+                      "The act of leaving"
+                    ],
+                    [
+                      "Arrival",
+                      "The act of reaching a destination"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the transport with the correct preposition:",
+                  "pairs": [
+                    [
+                      "___ plane",
+                      "By"
+                    ],
+                    [
+                      "___ foot",
+                      "On"
+                    ],
+                    [
+                      "___ car",
+                      "By"
+                    ],
+                    [
+                      "___ the train",
+                      "On"
+                    ],
+                    [
+                      "___ a taxi",
+                      "In"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the hotel term with its definition:",
+                  "pairs": [
+                    [
+                      "Single room",
+                      "A room for one person"
+                    ],
+                    [
+                      "Double room",
+                      "A room for two people with one big bed"
+                    ],
+                    [
+                      "Check in",
+                      "Arrive and register at a hotel"
+                    ],
+                    [
+                      "Check out",
+                      "Leave a hotel after your stay"
+                    ],
+                    [
+                      "Book a room",
+                      "Reserve a room in advance"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the future form with its use:",
+                  "pairs": [
+                    [
+                      "Going to",
+                      "Plans and intentions"
+                    ],
+                    [
+                      "Present Continuous",
+                      "Fixed arrangements (already booked)"
+                    ],
+                    [
+                      "Will",
+                      "Sudden decisions and predictions"
+                    ],
+                    [
+                      "Shall",
+                      "Offers and suggestions (mostly British)"
+                    ],
+                    [
+                      "Future Continuous",
+                      "Actions in progress at a future time"
+                    ]
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "title": "Sightseeing and Activities",
+            "image": "/images/lessons/grade7/english/lesson4.svg",
+            "description": "**Places to Visit:**\n- Museum — музей\n- Gallery — галерея\n- Cathedral — собор\n- Castle — замок\n- Palace — дворец\n- Monument — памятник\n- Fountain — фонтан\n- Square — площадь\n- Bridge — мост\n\n**Useful Phrases:**\n- What's there to see?\n- How do I get to...?\n- Is it far from here?\n- Can you show me on the map?\n- How much is the entrance fee?\n- What time does it open/close?\n\n**Describing Places:**\n- Beautiful — красивый\n- Magnificent — величественный\n- Ancient — древний\n- Modern — современный\n- Crowded — переполненный\n- Peaceful — спокойный\n- Touristy — туристический\n\n**Past Simple for Travel Stories:**\n- I visited the Louvre last year.\n- We saw many interesting places.\n- Did you go to the Eiffel Tower?\n- We didn't have enough time.\n\n**Writing a Postcard:**\nDear [Name],\nI'm writing from [city].\nYesterday I visited [place].\nIt was [adjective].\nTomorrow I'm going to [plan].\nSee you soon!\nLove,\n[Your name]",
+            "tasks": [
+              "Translate: Как добраться до музея?",
+              "Write 5 adjectives to describe places",
+              "Tell about your last trip (5 sentences)",
+              "Write a postcard from London"
+            ],
+            "examples": [
+              "Past Simple: I visited the Louvre last year — прошлым летом я посетил Лувр 🏛️",
+              "How do I get to the museum? — как добраться до музея?",
+              "Пример 3: практическое применение знаний по теме «Sightseeing and Activities»",
+              "Пример 4: практическое применение знаний по теме «Sightseeing and Activities»"
+            ],
+            "keyPoints": [
+              "Sightseeing vocabulary: monument, museum, gallery, cathedral, square",
+              "Would like to for polite requests and offers: I'd like to see the Eiffel Tower",
+              "Directions: turn left/right, go straight, opposite, next to",
+              "Умение применять полученные знания на практике и объяснять изучаемые явления"
+            ],
+            "facts": [
+              "В английском языке для описания впечатлений от путешествий используются Past Simple (I visited the museum) и Past Continuous (I was walking through the old town when it started raining), чтобы создать живую картину прошлого",
+              "Британские туристы часто отправляют открытки (postcards) из путешествий — это культурная традиция, в которой используются стандартные фразы: 'Greetings from...', 'Wish you were here', 'See you soon'",
+              "Фраза 'How do I get to...?' — самый распространённый способ спросить дорогу в англоязычных странах, а ответ обычно включает императив: 'Turn left', 'Go straight on', 'Take the second turning'"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Choose the correct Past Simple form: 'We ___ the Eiffel Tower last summer.'",
+                  "options": [
+                    "visit",
+                    "visited",
+                    "visiting",
+                    "have visited"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Which word means 'древний, старинный'?",
+                  "options": [
+                    "Modern",
+                    "Ancient",
+                    "Crowded",
+                    "Peaceful"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Complete the question: '___ it far from here?'",
+                  "options": [
+                    "Does",
+                    "Is",
+                    "Are",
+                    "Do"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Choose the correct question to ask for directions:",
+                  "options": [
+                    "Where is the museum going?",
+                    "How do I get to the museum?",
+                    "What does the museum do?",
+                    "Which museum is getting there?"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Which adjective describes a place with too many tourists?",
+                  "options": [
+                    "Peaceful",
+                    "Magnificent",
+                    "Touristy",
+                    "Ancient"
+                  ],
+                  "correct": 2
+                }
+              ],
+              "find": [
+                {
+                  "question": "Find the places you can visit as a tourist:",
+                  "options": [
+                    "Museum",
+                    "Supermarket",
+                    "Cathedral",
+                    "Castle",
+                    "Parking lot"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    3
+                  ]
+                },
+                {
+                  "question": "Find the correct Past Simple forms:",
+                  "options": [
+                    "Visited — visit",
+                    "Saw — see",
+                    "Went — go",
+                    "Taked — take",
+                    "Was — be"
+                  ],
+                  "correct": [
+                    1,
+                    2,
+                    4
+                  ]
+                },
+                {
+                  "question": "Find the phrases useful for sightseeing:",
+                  "options": [
+                    "How do I get to the museum?",
+                    "What time does it open?",
+                    "How much is a kilo of apples?",
+                    "Can you show me on the map?",
+                    "Is it far from here?"
+                  ],
+                  "correct": [
+                    0,
+                    1,
+                    3,
+                    4
+                  ]
+                },
+                {
+                  "question": "Find the adjectives that describe tourist places:",
+                  "options": [
+                    "Magnificent",
+                    "Delicious",
+                    "Ancient",
+                    "Crowded",
+                    "Boring"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    3
+                  ]
+                },
+                {
+                  "question": "Find the sentences that correctly describe a past trip:",
+                  "options": [
+                    "I visited the Louvre last year",
+                    "I have visit the Louvre last year",
+                    "We saw many interesting places",
+                    "We did saw many interesting places",
+                    "The cathedral was beautiful"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    4
+                  ]
+                }
+              ],
+              "match": [
+                {
+                  "question": "Match the place with its description:",
+                  "pairs": [
+                    [
+                      "Museum",
+                      "A building where historical objects are kept and displayed"
+                    ],
+                    [
+                      "Cathedral",
+                      "A large and important church"
+                    ],
+                    [
+                      "Castle",
+                      "A large fortified building from medieval times"
+                    ],
+                    [
+                      "Gallery",
+                      "A room or building for displaying art"
+                    ],
+                    [
+                      "Monument",
+                      "A structure built to remember a person or event"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the irregular verb with its Past Simple form:",
+                  "pairs": [
+                    [
+                      "Go",
+                      "Went"
+                    ],
+                    [
+                      "See",
+                      "Saw"
+                    ],
+                    [
+                      "Buy",
+                      "Bought"
+                    ],
+                    [
+                      "Take",
+                      "Took"
+                    ],
+                    [
+                      "Have",
+                      "Had"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the direction phrase with its meaning:",
+                  "pairs": [
+                    [
+                      "Turn left",
+                      "Change direction to the left"
+                    ],
+                    [
+                      "Go straight on",
+                      "Continue in the same direction"
+                    ],
+                    [
+                      "Take the second turning",
+                      "Choose the second road on the side indicated"
+                    ],
+                    [
+                      "It's on your right",
+                      "The place is to your right side"
+                    ],
+                    [
+                      "Go past the bank",
+                      "Walk beyond the bank without stopping"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the adjective with its opposite:",
+                  "pairs": [
+                    [
+                      "Ancient",
+                      "Modern"
+                    ],
+                    [
+                      "Crowded",
+                      "Peaceful"
+                    ],
+                    [
+                      "Beautiful",
+                      "Ugly"
+                    ],
+                    [
+                      "Expensive",
+                      "Cheap"
+                    ],
+                    [
+                      "Interesting",
+                      "Boring"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the postcard phrase with its purpose:",
+                  "pairs": [
+                    [
+                      "Dear Anna",
+                      "Greeting the reader"
+                    ],
+                    [
+                      "I'm writing from Paris",
+                      "Saying where you are"
+                    ],
+                    [
+                      "Wish you were here",
+                      "Expressing that you miss the person"
+                    ],
+                    [
+                      "See you soon",
+                      "Closing the postcard"
+                    ],
+                    [
+                      "Love, Maria",
+                      "Signing off the postcard"
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "topic": "Environment",
+        "lessons": [
+          {
+            "title": "Environmental Problems",
+            "image": "/images/lessons/grade7/english/lesson5.svg",
+            "description": "**Environmental Issues:**\n- Pollution — загрязнение\n- Air pollution — загрязнение воздуха\n- Water pollution — загрязнение воды\n- Global warming — глобальное потепление\n- Climate change — изменение климата\n- Deforestation — вырубка лесов\n- Endangered species — исчезающие виды\n- Waste — отходы\n- Plastic — пластик\n\n**Causes:**\n- Cars produce exhaust fumes.\n- Factories pollute the air.\n- People cut down forests.\n- We use too much plastic.\n\n**Consequences:**\n- Animals lose their habitats.\n- The ice caps are melting.\n- Sea levels are rising.\n- Weather is becoming extreme.\n\n**Modal Verbs for Environment:**\n\n**Should:**\n- We should recycle more.\n- People should use public transport.\n\n**Must:**\n- We must protect nature.\n- Governments must take action.\n\n**First Conditional:**\n- If we don't act, the climate will change.\n- If people recycle, there will be less waste.\n\n**Vocabulary for Solutions:**\n- Recycle — перерабатывать\n- Reuse — использовать повторно\n- Reduce — уменьшать\n- Save energy — экономить энергию\n- Use public transport — пользоваться общественным транспортом\n- Plant trees — сажать деревья",
+            "tasks": [
+              "Translate: Мы должны защищать природу",
+              "Write 5 environmental problems",
+              "Make a sentence with First Conditional",
+              "What should people do to help?"
+            ],
+            "examples": [
+              "We must protect nature — мы должны защищать природу 🌍",
+              "First Conditional: If we recycle, there will be less waste",
+              "Пример 3: практическое применение знаний по теме «Environmental Problems»",
+              "Пример 4: практическое применение знаний по теме «Environmental Problems»"
+            ],
+            "keyPoints": [
+              "Environmental vocabulary: pollution, recycling, global warming, endangered species",
+              "Should / shouldn't for advice: We should recycle paper and plastic",
+              "Passive voice: The air is polluted by factories",
+              "Умение применять полученные знания на практике и объяснять изучаемые явления"
+            ],
+            "facts": [
+              "В английском языке для описания экологических проблем широко используется Passive Voice (страдательный залог): 'The forests are being destroyed', 'Rivers are polluted by factories' — это подчёркивает результат действия, а не кто его совершает",
+              "Английские экологические термины 'global warming' и 'climate change' часто используются как синонимы, но 'global warming' относится конкретно к повышению температуры, а 'climate change' — к более широким изменениям климата",
+              "Слово 'pollution' произошло от латинского 'polluere' (осквернять), и в современном английском различают виды загрязнения: air pollution, water pollution, soil pollution, noise pollution"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Choose the correct Passive Voice form: 'The river ___ by the factory.'",
+                  "options": [
+                    "pollutes",
+                    "is polluted",
+                    "is polluting",
+                    "polluted"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "What does 'deforestation' mean?",
+                  "options": [
+                    "Planting new trees",
+                    "Cutting down and removing forests",
+                    "Protecting wildlife",
+                    "Recycling paper"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Complete: 'If we don't reduce pollution, the climate ___ warmer.'",
+                  "options": [
+                    "gets",
+                    "will get",
+                    "got",
+                    "getting"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Which word means 'мусор, отходы'?",
+                  "options": [
+                    "Waste",
+                    "Forest",
+                    "Species",
+                    "Climate"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "question": "Choose the correct sentence about environmental problems:",
+                  "options": [
+                    "Air pollution are causing health problems.",
+                    "Air pollution is causing health problems.",
+                    "Air pollution causing health problems.",
+                    "Air pollution cause health problems."
+                  ],
+                  "correct": 1
+                }
+              ],
+              "find": [
+                {
+                  "question": "Find the environmental problems from the list:",
+                  "options": [
+                    "Air pollution",
+                    "Deforestation",
+                    "Birthday party",
+                    "Global warming",
+                    "Traffic jam"
+                  ],
+                  "correct": [
+                    0,
+                    1,
+                    3
+                  ]
+                },
+                {
+                  "question": "Find the sentences in Passive Voice:",
+                  "options": [
+                    "The forests are being destroyed",
+                    "Factories pollute rivers",
+                    "Rivers are polluted by waste",
+                    "People cut down trees",
+                    "Many species are endangered by hunting"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    4
+                  ]
+                },
+                {
+                  "question": "Find the causes of environmental problems:",
+                  "options": [
+                    "Factory emissions",
+                    "Solar energy",
+                    "Car exhaust fumes",
+                    "Wind power",
+                    "Cutting down forests"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    4
+                  ]
+                },
+                {
+                  "question": "Find the words related to environmental protection:",
+                  "options": [
+                    "Recycling",
+                    "Conservation",
+                    "Deforestation",
+                    "Renewable energy",
+                    "Pollution"
+                  ],
+                  "correct": [
+                    0,
+                    1,
+                    3
+                  ]
+                },
+                {
+                  "question": "Find the correct 'if-clause' sentences about the environment:",
+                  "options": [
+                    "If we recycle, we will reduce waste",
+                    "If we will recycle, we reduce waste",
+                    "If temperatures rise, ice caps will melt",
+                    "If temperatures will rise, ice caps melt",
+                    "If people don't change, the situation will get worse"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    4
+                  ]
+                }
+              ],
+              "match": [
+                {
+                  "question": "Match the environmental problem with its definition:",
+                  "pairs": [
+                    [
+                      "Air pollution",
+                      "Harmful substances in the atmosphere"
+                    ],
+                    [
+                      "Deforestation",
+                      "Clearing forests on a large scale"
+                    ],
+                    [
+                      "Global warming",
+                      "Long-term increase in Earth's temperature"
+                    ],
+                    [
+                      "Endangered species",
+                      "Animals at risk of disappearing forever"
+                    ],
+                    [
+                      "Water pollution",
+                      "Contamination of rivers, lakes and oceans"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the cause with the environmental effect:",
+                  "pairs": [
+                    [
+                      "Burning fossil fuels",
+                      "Air pollution and global warming"
+                    ],
+                    [
+                      "Cutting down forests",
+                      "Loss of animal habitats"
+                    ],
+                    [
+                      "Throwing waste in rivers",
+                      "Water pollution"
+                    ],
+                    [
+                      "Using too many chemicals",
+                      "Soil contamination"
+                    ],
+                    [
+                      "Making loud noises in cities",
+                      "Noise pollution"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the Active sentence with its Passive form:",
+                  "pairs": [
+                    [
+                      "Factories pollute the air",
+                      "The air is polluted by factories"
+                    ],
+                    [
+                      "People destroy forests",
+                      "Forests are destroyed by people"
+                    ],
+                    [
+                      "Waste contaminates rivers",
+                      "Rivers are contaminated by waste"
+                    ],
+                    [
+                      "Hunters kill rare animals",
+                      "Rare animals are killed by hunters"
+                    ],
+                    [
+                      "Cars produce exhaust fumes",
+                      "Exhaust fumes are produced by cars"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the word with its meaning:",
+                  "pairs": [
+                    [
+                      "Emission",
+                      "Substances released into the air"
+                    ],
+                    [
+                      "Habitat",
+                      "The natural home of an animal or plant"
+                    ],
+                    [
+                      "Extinct",
+                      "No longer existing in the world"
+                    ],
+                    [
+                      "Renewable",
+                      "Able to be replaced naturally"
+                    ],
+                    [
+                      "Conservation",
+                      "Protection of natural resources"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the Russian word with the English equivalent:",
+                  "pairs": [
+                    [
+                      "Загрязнение",
+                      "Pollution"
+                    ],
+                    [
+                      "Вымирание",
+                      "Extinction"
+                    ],
+                    [
+                      "Окружающая среда",
+                      "Environment"
+                    ],
+                    [
+                      "Переработка",
+                      "Recycling"
+                    ],
+                    [
+                      "Глобальное потепление",
+                      "Global warming"
+                    ]
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "title": "Protecting Nature",
+            "image": "/images/lessons/grade7/english/lesson6.svg",
+            "description": "**Protecting Nature** — защита и охрана окружающей среды.\n\n**Key Vocabulary (Ключевая лексика):**\n- Protect — защищать\n- Conservation — охрана природы\n- Recycling — переработка (мусора)\n- Reuse — использовать повторно\n- Reduce — уменьшать (потребление)\n- Renewable energy — возобновляемая энергия\n- Solar power — солнечная энергия\n- Wind power — энергия ветра\n- Organic — органический\n- Ecosystem — экосистема\n- Biodiversity — биоразнообразие\n- Sustainable — устойчивый, экологичный\n\n**The 3 Rs — Три принципи переработки:**\n\n1. **Reduce** — уменьшай потребление\n   - Buy only what you need\n   - Don't waste water and electricity\n   - Choose products with less packaging\n\n2. **Reuse** — используй повторно\n   - Use a reusable water bottle\n   - Give old clothes to charity\n   - Use both sides of paper\n\n3. **Recycle** — перерабатывай\n   - Sort your rubbish (paper, plastic, glass, metal)\n   - Put recycling in the correct bin\n   - Buy products made from recycled materials\n\n**Modal Verbs for Suggestions and Obligation:**\n\n**Should (следует) — совет:**\n- You should recycle your plastic bottles.\n- We should turn off the lights when we leave.\n- People shouldn't use too much plastic.\n\n**Must (должен) — обязательство:**\n- We must protect endangered animals.\n- Everyone must sort their rubbish.\n- You mustn't drop litter in the park.\n\n**Have to (нуждаться, вынужден) — необходимость:**\n- We have to reduce our carbon footprint.\n- People have to use public transport more.\n- She has to bring her own shopping bag.\n\n**Reading: Recycling and Conservation:**\n\nRecycling is one of the easiest ways to help the environment. When we recycle, old materials are turned into new products instead of being thrown away. In many countries, people sort their rubbish into different categories: paper, plastic, glass and metal. \n\nConservation means protecting natural resources and wildlife. National parks and nature reserves are created to preserve ecosystems. Everyone can help by saving water, using less energy, planting trees and respecting nature.\n\n**Useful Phrases:**\n- We should / must / have to protect nature.\n- Don't waste water / electricity.\n- Sort your rubbish and recycle.\n- Plant trees and flowers.\n- Use public transport or ride a bike.",
+            "tasks": [
+              "What are the 3 Rs? Explain each one in English.",
+              "Make 3 sentences using 'should', 'must' and 'have to' about protecting nature.",
+              "Translate: Мы должны сортировать мусор и перерабатывать пластик.",
+              "Why is conservation important? Write 3 reasons."
+            ],
+            "examples": [
+              "You should use a reusable water bottle instead of buying plastic ones — совет",
+              "We must protect endangered animals — обязательство, долг",
+              "People have to sort their rubbish into paper, plastic, glass and metal — необходимость",
+              "Пример 4: практическое применение знаний по теме «Protecting Nature»"
+            ],
+            "keyPoints": [
+              "The 3 Rs: Reduce (уменьшай), Reuse (используй повторно), Recycle (перерабатывай)",
+              "Should = совет; Must = сильное обязательство; Have to = вынужденная необходимость",
+              "Recycling turns old materials into new products; conservation protects nature and wildlife",
+              "Key vocabulary: protect, conservation, renewable energy, ecosystem, biodiversity"
+            ],
+            "facts": [
+              "В английском языке условные предложения первого типа (First Conditional) используются для реальных возможных ситуаций: 'If we protect nature, animals will survive', а второго типа (Second Conditional) — для гипотетических: 'If I were the president, I would ban plastic'",
+              "Английская организация National Trust управляет более чем 250 тысячами гектаров природных территорий в Великобритании, что отражает высокую культруную значимость охраны природы в англоязычном мире",
+              "Модальные глаголы 'should' и 'ought to' используются для экологических советов и рекомендаций: 'You should recycle plastic', 'We ought to use less water' — они передают мягкую обязанность, в отличие от 'must'"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Choose the correct First Conditional form: 'If we protect nature, animals ___.'",
+                  "options": [
+                    "survive",
+                    "will survive",
+                    "would survive",
+                    "surviving"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Which sentence gives environmental advice using 'should'?",
+                  "options": [
+                    "You should to recycle plastic bottles.",
+                    "You should recycle plastic bottles.",
+                    "You should recycling plastic bottles.",
+                    "You should recycled plastic bottles."
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "What does 'to recycle' mean?",
+                  "options": [
+                    "To throw away in the bin",
+                    "To process used materials to make new products",
+                    "To buy new products",
+                    "To burn old materials"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Complete the Second Conditional: 'If I ___ the president, I would ban plastic bags.'",
+                  "options": [
+                    "am",
+                    "was",
+                    "were",
+                    "be"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "question": "Which word means 'возобновляемый'?",
+                  "options": [
+                    "Recyclable",
+                    "Renewable",
+                    "Sustainable",
+                    "Organic"
+                  ],
+                  "correct": 1
+                }
+              ],
+              "find": [
+                {
+                  "question": "Find the actions that help protect nature:",
+                  "options": [
+                    "Recycle paper and plastic",
+                    "Leave lights on all day",
+                    "Plant trees",
+                    "Use public transport",
+                    "Throw rubbish in the river"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    3
+                  ]
+                },
+                {
+                  "question": "Find the correct First Conditional sentences:",
+                  "options": [
+                    "If we plant trees, the air will be cleaner",
+                    "If we will plant trees, the air is cleaner",
+                    "If people recycle more, there will be less waste",
+                    "If people will recycle more, there is less waste",
+                    "If we use solar energy, we will reduce pollution"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    4
+                  ]
+                },
+                {
+                  "question": "Find the renewable energy sources:",
+                  "options": [
+                    "Solar power",
+                    "Coal",
+                    "Wind energy",
+                    "Oil",
+                    "Hydropower"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    4
+                  ]
+                },
+                {
+                  "question": "Find the words related to nature conservation:",
+                  "options": [
+                    "Wildlife reserve",
+                    "Shopping centre",
+                    "Endangered species",
+                    "Nature reserve",
+                    "Parking lot"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    3
+                  ]
+                },
+                {
+                  "question": "Find the sentences with correct use of 'should' for environmental advice:",
+                  "options": [
+                    "We should save water at home",
+                    "We should to save water at home",
+                    "People shouldn't drop litter in parks",
+                    "People not should drop litter in parks",
+                    "You should use reusable bags"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    4
+                  ]
+                }
+              ],
+              "match": [
+                {
+                  "question": "Match the eco-action with its benefit:",
+                  "pairs": [
+                    [
+                      "Recycle paper",
+                      "Save trees and forests"
+                    ],
+                    [
+                      "Turn off lights",
+                      "Save electricity and energy"
+                    ],
+                    [
+                      "Use public transport",
+                      "Reduce air pollution from cars"
+                    ],
+                    [
+                      "Plant trees",
+                      "Produce oxygen and absorb CO2"
+                    ],
+                    [
+                      "Use reusable bags",
+                      "Reduce plastic waste"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the conditional type with its structure:",
+                  "pairs": [
+                    [
+                      "First Conditional",
+                      "If + Present Simple, will + verb"
+                    ],
+                    [
+                      "Second Conditional",
+                      "If + Past Simple, would + verb"
+                    ],
+                    [
+                      "Imperative for advice",
+                      "Verb without subject (e.g., Save water)"
+                    ],
+                    [
+                      "Should for advice",
+                      "Should + base verb (e.g., You should recycle)"
+                    ],
+                    [
+                      "Must for strong obligation",
+                      "Must + base verb (e.g., We must protect nature)"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the environmental word with its meaning:",
+                  "pairs": [
+                    [
+                      "Conservation",
+                      "Careful use and protection of nature"
+                    ],
+                    [
+                      "Eco-friendly",
+                      "Not harmful to the environment"
+                    ],
+                    [
+                      "Sustainable",
+                      "Able to continue over a long period without damage"
+                    ],
+                    [
+                      "Biodegradable",
+                      "Able to decay naturally without causing pollution"
+                    ],
+                    [
+                      "Carbon footprint",
+                      "The amount of CO2 produced by a person or activity"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the problem with the solution:",
+                  "pairs": [
+                    [
+                      "Too much plastic waste",
+                      "Use reusable bags and bottles"
+                    ],
+                    [
+                      "High energy consumption",
+                      "Turn off electrical devices when not in use"
+                    ],
+                    [
+                      "Air pollution from cars",
+                      "Walk, cycle, or use public transport"
+                    ],
+                    [
+                      "Deforestation",
+                      "Plant new trees and recycle paper"
+                    ],
+                    [
+                      "Water waste",
+                      "Take shorter showers and fix leaks"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the Russian phrase with the English equivalent:",
+                  "pairs": [
+                    [
+                      "Охрана природы",
+                      "Nature conservation"
+                    ],
+                    [
+                      "Возобновляемая энергия",
+                      "Renewable energy"
+                    ],
+                    [
+                      "Под угрозой вымирания",
+                      "Endangered"
+                    ],
+                    [
+                      "Перерабатывать",
+                      "Recycle"
+                    ],
+                    [
+                      "Экологически чистый",
+                      "Eco-friendly"
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "topic": "Technology",
+        "lessons": [
+          {
+            "title": "Digital World",
+            "image": "/images/lessons/grade7/english/lesson7.svg",
+            "description": "**Technology Vocabulary:**\n- Computer — компьютер\n- Laptop — ноутбук\n- Smartphone — смартфон\n- Tablet — планшет\n- Internet — интернет\n- Website — веб-сайт\n- App — приложение\n- Social media — социальные сети\n- Email — электронная почта\n\n**Digital Activities:**\n- Go online — выходить в интернет\n- Browse the web — просматривать веб-страницы\n- Download files — скачивать файлы\n- Upload photos — загружать фото\n- Send messages — отправлять сообщения\n- Make video calls — делать видеозвонки\n- Play online games — играть в онлайн-игры\n\n**Present Perfect for Experience:**\n- I have bought a new smartphone.\n- Have you ever used this app?\n- She has never played this game.\n- We have downloaded many songs.\n\n**Internet Safety:**\n- Keep your password safe.\n- Don't share personal information.\n- Be careful with strangers online.\n- Ask parents for help.\n\n**Advantages and Disadvantages:**\n\n**Pros:**\n- Easy communication\n- Access to information\n- Entertainment\n- Online shopping\n\n**Cons:**\n- Addiction to gadgets\n- Less physical activity\n- Cyberbullying\n- Fake information",
+            "tasks": [
+              "Translate: Я никогда не играл в эту игру",
+              "Write 5 digital devices",
+              "Present Perfect: you / ever / use / this app?",
+              "Write about pros and cons of the Internet"
+            ],
+            "examples": [
+              "Present Perfect: I have bought a new smartphone — я купил новый телефон 📱",
+              "Internet safety: don't share personal information online",
+              "Пример 3: практическое применение знаний по теме «Digital World»",
+              "Пример 4: практическое применение знаний по теме «Digital World»"
+            ],
+            "keyPoints": [
+              "Digital vocabulary: social media, download, upload, password, account",
+              "Present Perfect for experiences: I have already sent the email",
+              "Online safety: never share your password with strangers",
+              "Умение применять полученные знания на практике и объяснять изучаемые явления"
+            ],
+            "facts": [
+              "В английском языке Present Perfect часто используется для описания опыта с технологиями: 'I have downloaded a new app', 'She has created a website' — это подчёркивает результат, важный в настоящем, а не время действия",
+              "Английские слова 'gadget', 'device' и 'appliance' имеют разный смысл: 'gadget' — небольшое технологическое новшество, 'device' — любое электронное устройство, 'appliance' — бытовая техника (холодильник, стиральная машина)",
+              "Слова 'download' (загружать с интернета) и 'upload' (загружать в интернет) образованы от направления передачи данных относительно пользователя: 'down' — к вам, 'up' — от вас"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Choose the correct Present Perfect form: 'I ___ a new app on my phone.'",
+                  "options": [
+                    "have downloaded",
+                    "has downloaded",
+                    "downloaded have",
+                    "downloading"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "question": "Which word means 'электронное устройство'?",
+                  "options": [
+                    "Gadget",
+                    "Device",
+                    "Appliance",
+                    "Furniture"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Complete: 'She ___ never ___ a virus on her computer.'",
+                  "options": [
+                    "has ... had",
+                    "have ... had",
+                    "has ... have",
+                    "have ... has"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "question": "What does 'to download' mean?",
+                  "options": [
+                    "To send a file to the internet",
+                    "To copy a file from the internet to your device",
+                    "To delete a file from your device",
+                    "To print a document"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Which comparative form is correct? 'A smartphone is ___ than a basic phone.'",
+                  "options": [
+                    "more useful",
+                    "usefuller",
+                    "most useful",
+                    "usefuler"
+                  ],
+                  "correct": 0
+                }
+              ],
+              "find": [
+                {
+                  "question": "Find the digital devices from the list:",
+                  "options": [
+                    "Smartphone",
+                    "Telescope",
+                    "Laptop",
+                    "Tablet",
+                    "Bicycle"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    3
+                  ]
+                },
+                {
+                  "question": "Find the correct Present Perfect sentences:",
+                  "options": [
+                    "I have bought a new laptop",
+                    "I has bought a new laptop",
+                    "She has created a website",
+                    "She have created a website",
+                    "We have updated the software"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    4
+                  ]
+                },
+                {
+                  "question": "Find the words related to digital technology:",
+                  "options": [
+                    "Software",
+                    "Gardening",
+                    "Hardware",
+                    "Browser",
+                    "Knitting"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    3
+                  ]
+                },
+                {
+                  "question": "Find the correct comparative and superlative forms:",
+                  "options": [
+                    "Faster — the fastest",
+                    "More fast — the most fast",
+                    "More expensive — the most expensive",
+                    "Expensiver — the expensivest",
+                    "Easier — the easiest"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    4
+                  ]
+                },
+                {
+                  "question": "Find the actions you can do with digital devices:",
+                  "options": [
+                    "Download an app",
+                    "Upload a photo",
+                    "Plant a tree",
+                    "Update software",
+                    "Cook dinner"
+                  ],
+                  "correct": [
+                    0,
+                    1,
+                    3
+                  ]
+                }
+              ],
+              "match": [
+                {
+                  "question": "Match the digital word with its definition:",
+                  "pairs": [
+                    [
+                      "Software",
+                      "Programs and applications that run on a computer"
+                    ],
+                    [
+                      "Hardware",
+                      "Physical parts of a computer or device"
+                    ],
+                    [
+                      "Browser",
+                      "A program for viewing websites"
+                    ],
+                    [
+                      "App",
+                      "A program designed for a specific purpose on a device"
+                    ],
+                    [
+                      "Cloud storage",
+                      "Saving files on remote servers via the internet"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the verb with the correct digital action:",
+                  "pairs": [
+                    [
+                      "Download",
+                      "Save a file from the internet to your device"
+                    ],
+                    [
+                      "Upload",
+                      "Send a file from your device to the internet"
+                    ],
+                    [
+                      "Install",
+                      "Set up a program on your device"
+                    ],
+                    [
+                      "Update",
+                      "Make a program the newest version"
+                    ],
+                    [
+                      "Delete",
+                      "Remove a file or program from your device"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the device with its description:",
+                  "pairs": [
+                    [
+                      "Smartphone",
+                      "A mobile phone with internet and apps"
+                    ],
+                    [
+                      "Laptop",
+                      "A portable computer you can carry"
+                    ],
+                    [
+                      "Tablet",
+                      "A touchscreen device between phone and laptop"
+                    ],
+                    [
+                      "E-reader",
+                      "A device for reading digital books"
+                    ],
+                    [
+                      "Smartwatch",
+                      "A watch that connects to your phone"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the adjective with its comparative and superlative:",
+                  "pairs": [
+                    [
+                      "Fast",
+                      "Faster — the fastest"
+                    ],
+                    [
+                      "Expensive",
+                      "More expensive — the most expensive"
+                    ],
+                    [
+                      "Easy",
+                      "Easier — the easiest"
+                    ],
+                    [
+                      "Good",
+                      "Better — the best"
+                    ],
+                    [
+                      "Bad",
+                      "Worse — the worst"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the Russian word with the English equivalent:",
+                  "pairs": [
+                    [
+                      "Загружать (из интернета)",
+                      "Download"
+                    ],
+                    [
+                      "Загружать (в интернет)",
+                      "Upload"
+                    ],
+                    [
+                      "Обновлять",
+                      "Update"
+                    ],
+                    [
+                      "Устанавливать",
+                      "Install"
+                    ],
+                    [
+                      "Удалять",
+                      "Delete"
+                    ]
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "title": "Internet Safety",
+            "image": "/images/lessons/grade7/english/lesson8.svg",
+            "description": "**Internet Safety** — безопасность в интернете (безопасное поведение онлайн).\n\n**Key Vocabulary (Ключевая лексика):**\n- Privacy — конфиденциальность, приватность\n- Personal data — личные данные\n- Password — пароль\n- Username — имя пользователя\n- Cyberbullying — кибербуллинг (травля в интернете)\n- Phishing — фишинг (мошенничество для кражи данных)\n- Malware — вредоносная программа\n- Block — блокировать\n- Report — пожаловаться\n- Stranger — незнакомец\n- Online predator — онлайн-хищник\n- Screen time — время перед экраном\n- Digital footprint — цифровой след\n\n**First Conditional — Первое условное:**\n\n**Structure (Структура):** If + Present Simple, will + infinitive\n\n**Examples:**\n- If you share your password, someone will steal your account.\n- If you click on a strange link, you will get a virus.\n- If you don't tell your parents, the problem will get worse.\n- If you see cyberbullying, you should report it.\n\n**Advice Phrases — Фразы для совета:**\n\n**If you..., you should... — Если ты..., тебе следует...:**\n- If you feel unsafe online, you should tell an adult.\n- If someone sends you a bad message, you should block them.\n- If you get a strange email, you shouldn't open it.\n\n**Other advice structures:**\n- You'd better (тебе лучше) + infinitive: You'd better change your password.\n- It's important to (важно) + infinitive: It's important to protect your privacy.\n- Never (никогда) + imperative: Never share your address online.\n- Always (всегда) + imperative: Always log out of your account.\n\n**Online Privacy Rules:**\n\n1. **Keep your password secret** — никому не давай свой пароль\n2. **Don't share personal information** — не делись адресом, телефоном, названием школы\n3. **Use strong passwords** — используй сложные пароли (буквы + цифры + символы)\n4. **Don't post photos with location** — не выкладывай фото с геолокацией\n5. **Check privacy settings** — проверяй настройки приватности\n\n**What is Cyberbullying?**\n- Cyberbullying — when someone uses the internet to hurt, threaten or embarrass another person\n- Types: mean messages, spreading rumours, posting embarrassing photos, exclusion from groups\n- **What to do if you are cyberbullied:**\n  1. Don't respond to the bully\n  2. Save the evidence (screenshots)\n  3. Block the person\n  4. Tell a parent or teacher\n  5. Report the account\n\n**Safe Internet Rules for Teens:**\n- Think before you post — everything online leaves a digital footprint\n- Be kind online — treat others with respect\n- Don't meet online friends in person without telling parents\n- Limit screen time — 2 hours a day maximum\n- Ask parents before downloading apps or making purchases",
+            "tasks": [
+              "What is cyberbullying and what should you do if it happens to you?",
+              "Complete the First Conditional: If you (click) on a strange link, you (get) a virus.",
+              "Give 3 advice phrases using 'If you..., you should...' about internet safety.",
+              "Translate: Если ты чувствуешь себя небезопасно онлайн, тебе следует рассказать взрослому."
+            ],
+            "examples": [
+              "First Conditional: If you share your password, someone will steal your account — условие + результат",
+              "Advice: If you see cyberbullying, you should report it and block the person",
+              "Privacy rule: Never share your address, phone number or school name online — защита личных данных",
+              "Пример 4: практическое применение знаний по теме «Internet Safety»"
+            ],
+            "keyPoints": [
+              "First Conditional: If + Present Simple, will + infinitive — условие в будущем",
+              "Advice phrases: If you..., you should...; You'd better...; Never...; Always...",
+              "Cyberbullying — травля в интернете: не отвечай, сохрани доказательства, блокируй, расскажи взрослым",
+              "Online privacy: keep passwords secret, don't share personal data, use strong passwords",
+              "Digital footprint — цифровой след: всё, что ты публикуешь онлайн, остаётся навсегда"
+            ],
+            "facts": [
+              "Английская аббревиатура 'PIN' (Personal Identification Number) — пример тавтологии, так как 'N' уже означает 'Number', а 'URL' (Uniform Resource Locator) — один из самых распространённых интернет-терминов, который нужно знать для безопасности в сети",
+              "В англоязычных школах правила интернет-безопасности формулируются с помощью модальных глаголов: 'You mustn't share personal information online', 'You should use strong passwords', 'You shouldn't click on suspicious links'",
+              "Фразовые глаголы широко используются в интернет-терминологии: 'log in' (войти в систему), 'log out' (выйти), 'sign up' (зарегистрироваться), 'set up' (настроить), 'turn on/off' (включить/выключить)"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Which phrase means 'зарегистрироваться на сайте'?",
+                  "options": [
+                    "Log in",
+                    "Sign up",
+                    "Log out",
+                    "Turn off"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Choose the correct sentence with 'mustn't':",
+                  "options": [
+                    "You mustn't share your password with anyone.",
+                    "You mustn't to share your password with anyone.",
+                    "You don't must share your password with anyone.",
+                    "You mustn't sharing your password with anyone."
+                  ],
+                  "correct": 0
+                },
+                {
+                  "question": "What is 'phishing'?",
+                  "options": [
+                    "A type of online game",
+                    "A way to trick people into giving personal information",
+                    "A method to speed up internet",
+                    "A type of computer virus"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Complete: 'If you ___ a suspicious email, you ___ click on any links.'",
+                  "options": [
+                    "receive / shouldn't",
+                    "receive / should",
+                    "received / shouldn't",
+                    "receiving / shouldn't"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "question": "Which is the strongest password?",
+                  "options": [
+                    "password123",
+                    "MyDogMax",
+                    "K9$mP2!xL7",
+                    "12345678"
+                  ],
+                  "correct": 2
+                }
+              ],
+              "find": [
+                {
+                  "question": "Find the internet safety rules you should follow:",
+                  "options": [
+                    "Use strong passwords",
+                    "Share your password with friends",
+                    "Keep personal information private",
+                    "Click on all links in emails",
+                    "Log out when you finish"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    4
+                  ]
+                },
+                {
+                  "question": "Find the phrasal verbs related to internet use:",
+                  "options": [
+                    "Log in",
+                    "Give up",
+                    "Sign up",
+                    "Set up",
+                    "Wake up"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    3
+                  ]
+                },
+                {
+                  "question": "Find the things you must NOT do online:",
+                  "options": [
+                    "Share your home address publicly",
+                    "Use different passwords for different accounts",
+                    "Reply to suspicious messages",
+                    "Meet online friends alone in person",
+                    "Install antivirus software"
+                  ],
+                  "correct": [
+                    0,
+                    2,
+                    3
+                  ]
+                },
+                {
+                  "question": "Find the correct uses of modal verbs for internet safety:",
+                  "options": [
+                    "You mustn't share personal data",
+                    "You should create strong passwords",
+                    "You must sharing personal data",
+                    "You shouldn't click on unknown links",
+                    "You should to tell your parents about problems"
+                  ],
+                  "correct": [
+                    0,
+                    1,
+                    3
+                  ]
+                },
+                {
+                  "question": "Find the online dangers:",
+                  "options": [
+                    "Cyberbullying",
+                    "Phishing",
+                    "Cloud storage",
+                    "Identity theft",
+                    "Software update"
+                  ],
+                  "correct": [
+                    0,
+                    1,
+                    3
+                  ]
+                }
+              ],
+              "match": [
+                {
+                  "question": "Match the phrasal verb with its meaning:",
+                  "pairs": [
+                    [
+                      "Log in",
+                      "Enter your username and password to access an account"
+                    ],
+                    [
+                      "Log out",
+                      "Exit your account on a website or app"
+                    ],
+                    [
+                      "Sign up",
+                      "Create a new account on a website"
+                    ],
+                    [
+                      "Set up",
+                      "Configure or prepare a device or account"
+                    ],
+                    [
+                      "Turn on",
+                      "Start a device so it is ready to use"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the online danger with its description:",
+                  "pairs": [
+                    [
+                      "Phishing",
+                      "Fake emails or websites that trick you into sharing personal data"
+                    ],
+                    [
+                      "Cyberbullying",
+                      "Using the internet to hurt, threaten, or embarrass someone"
+                    ],
+                    [
+                      "Identity theft",
+                      "Stealing someone's personal information to pretend to be them"
+                    ],
+                    [
+                      "Malware",
+                      "Harmful software that can damage your computer"
+                    ],
+                    [
+                      "Scam",
+                      "A dishonest plan for making money by tricking people"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the safety rule with the reason:",
+                  "pairs": [
+                    [
+                      "Use strong passwords",
+                      "To protect your accounts from hackers"
+                    ],
+                    [
+                      "Don't share personal info",
+                      "To prevent identity theft"
+                    ],
+                    [
+                      "Tell a parent about problems",
+                      "To get help from someone you trust"
+                    ],
+                    [
+                      "Think before you post",
+                      "Because online posts can be seen by many people"
+                    ],
+                    [
+                      "Don't open unknown attachments",
+                      "They may contain viruses or malware"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the modal verb with the strength of obligation:",
+                  "pairs": [
+                    [
+                      "Mustn't",
+                      "Strong prohibition — it is very important NOT to do this"
+                    ],
+                    [
+                      "Should",
+                      "Advice — it is a good idea to do this"
+                    ],
+                    [
+                      "Shouldn't",
+                      "Advice — it is not a good idea to do this"
+                    ],
+                    [
+                      "Have to",
+                      "Obligation — it is necessary to do this"
+                    ],
+                    [
+                      "Don't have to",
+                      "No obligation — it is not necessary (but you can)"
+                    ]
+                  ]
+                },
+                {
+                  "question": "Match the Russian phrase with the English equivalent:",
+                  "pairs": [
+                    [
+                      "Войти в аккаунт",
+                      "Log in"
+                    ],
+                    [
+                      "Зарегистрироваться",
+                      "Sign up"
+                    ],
+                    [
+                      "Выйти из аккаунта",
+                      "Log out"
+                    ],
+                    [
+                      "Кибермошенничество",
+                      "Phishing"
+                    ],
+                    [
+                      "Личный данные",
+                      "Personal information"
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "games": [
+    {
+      "title": "Daily Life",
+      "image": "/images/lessons/grade7/english/lesson19.svg",
+      "subject": "Иностранный язык",
+      "icon": "Languages",
+      "color": "text-pink-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "What time do you ___ get up?",
+          "options": [
+            "usually",
+            "ever",
+            "never",
+            "always",
+            "Другой ответ"
+          ],
+          "correctAnswer": "usually",
+          "hint": "Frequency adverb"
+        },
+        {
+          "type": "quiz",
+          "question": "She ___ has breakfast at 8 am.",
+          "options": [
+            "have to",
+            "has to",
+            "must to",
+            "should to",
+            "Другой ответ"
+          ],
+          "correctAnswer": "has to",
+          "hint": "Obligation for he/she/it"
+        },
+        {
+          "type": "find",
+          "question": "Select household chores:",
+          "options": [
+            "Do homework",
+            "Do the washing-up",
+            "Watch TV",
+            "Make the bed",
+            "Play games"
+          ],
+          "correctAnswer": [
+            "Do the washing-up",
+            "Make the bed"
+          ],
+          "hint": "Work around the house"
+        },
+        {
+          "type": "quiz",
+          "question": "I'm ___ visit Paris next summer.",
+          "options": [
+            "will",
+            "going to",
+            "will be",
+            "would",
+            "Другой ответ"
+          ],
+          "correctAnswer": "going to",
+          "hint": "Plans for future"
+        },
+        {
+          "type": "quiz",
+          "question": "What's the Russian for 'frequency adverb'?",
+          "options": [
+            "Глагол",
+            "Наречие частотности",
+            "Прилагательное",
+            "Существительное",
+            "Другой ответ"
+          ],
+          "correctAnswer": "Наречие частотности",
+          "hint": "Always, often, never"
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "Excellent! You know daily routines! 🌟"
+      }
+    },
+    {
+      "title": "Travel and Environment",
+      "image": "/images/lessons/grade7/english/lesson20.svg",
+      "subject": "Иностранный язык",
+      "icon": "Languages",
+      "color": "text-pink-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "What's the Russian for 'boarding pass'?",
+          "options": [
+            "Билет",
+            "Посадочный талон",
+            "Багаж",
+            "Регистрация",
+            "Другой ответ"
+          ],
+          "correctAnswer": "Посадочный талон",
+          "hint": "At the airport"
+        },
+        {
+          "type": "quiz",
+          "question": "We ___ protect nature.",
+          "options": [
+            "should",
+            "must",
+            "have",
+            "need",
+            "Другой ответ"
+          ],
+          "correctAnswer": "must",
+          "hint": "Strong obligation"
+        },
+        {
+          "type": "find",
+          "question": "Select environmental problems:",
+          "options": [
+            "Pollution",
+            "Journey",
+            "Global warming",
+            "Deforestation",
+            "Hotel"
+          ],
+          "correctAnswer": [
+            "Pollution",
+            "Global warming",
+            "Deforestation"
+          ],
+          "hint": "Issues with nature"
+        },
+        {
+          "type": "quiz",
+          "question": "Have you ever ___ this app?",
+          "options": [
+            "use",
+            "used",
+            "using",
+            "uses",
+            "Другой ответ"
+          ],
+          "correctAnswer": "used",
+          "hint": "Present Perfect"
+        },
+        {
+          "type": "quiz",
+          "question": "What's the Past Simple of 'go'?",
+          "options": [
+            "goed",
+            "went",
+            "gone",
+            "going",
+            "Другой ответ"
+          ],
+          "correctAnswer": "went",
+          "hint": "Irregular verb"
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "Great job! You're an English pro! 🎉"
+      }
+    },
+    {
+      "title": "Travel and Tourism",
+      "image": "/images/lessons/grade7/english/lesson21.svg",
+      "subject": "Иностранный язык",
+      "icon": "Languages",
+      "color": "text-pink-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "What's the Russian for 'boarding pass'?",
+          "options": [
+            "Билет",
+            "Посадочный талон",
+            "Загранпаспорт",
+            "Регистрация",
+            "Другой ответ"
+          ],
+          "correctAnswer": "Посадочный талон",
+          "hint": "You need it to board the plane"
+        },
+        {
+          "type": "quiz",
+          "question": "I'm going ___ visit London next summer.",
+          "options": [
+            "for",
+            "to",
+            "at",
+            "on",
+            "Другой ответ"
+          ],
+          "correctAnswer": "to",
+          "hint": "Going to + infinitive"
+        },
+        {
+          "type": "quiz",
+          "question": "Which word means 'самолётом'?",
+          "options": [
+            "By train",
+            "By plane",
+            "By bus",
+            "On foot",
+            "Другой ответ"
+          ],
+          "correctAnswer": "By plane",
+          "hint": "A type of air transport"
+        },
+        {
+          "type": "find",
+          "question": "Select places to visit:",
+          "options": [
+            "Museum",
+            "Cathedral",
+            "Homework",
+            "Palace",
+            "Monument"
+          ],
+          "correctAnswer": [
+            "Museum",
+            "Cathedral",
+            "Palace",
+            "Monument"
+          ],
+          "hint": "Tourist attractions and landmarks"
+        },
+        {
+          "type": "quiz",
+          "question": "How do you ask for directions to a museum?",
+          "options": [
+            "What is a museum?",
+            "How do I get to the museum?",
+            "Where is the museum from?",
+            "Do you like museums?",
+            "Другой ответ"
+          ],
+          "correctAnswer": "How do I get to the museum?",
+          "hint": "Useful phrase for tourists"
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "Amazing! You're ready to travel! ✈️"
+      }
+    },
+    {
+      "title": "Technology",
+      "image": "/images/lessons/grade7/english/lesson22.svg",
+      "subject": "Иностранный язык",
+      "icon": "Languages",
+      "color": "text-pink-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "What's the Russian for 'social media'?",
+          "options": [
+            "Электронная почта",
+            "Социальные сети",
+            "Веб-сайт",
+            "Блог",
+            "Другой ответ"
+          ],
+          "correctAnswer": "Социальные сети",
+          "hint": "VK, Instagram, TikTok..."
+        },
+        {
+          "type": "quiz",
+          "question": "I have ___ bought a new smartphone.",
+          "options": [
+            "yet",
+            "just",
+            "ever",
+            "never",
+            "Другой ответ"
+          ],
+          "correctAnswer": "just",
+          "hint": "Present Perfect with 'already/just'"
+        },
+        {
+          "type": "quiz",
+          "question": "What does 'download' mean in Russian?",
+          "options": [
+            "Загружать онлайн",
+            "Скачивать файлы",
+            "Удалять данные",
+            "Отправлять письмо",
+            "Другой ответ"
+          ],
+          "correctAnswer": "Скачивать файлы",
+          "hint": "Getting files from the internet"
+        },
+        {
+          "type": "quiz",
+          "question": "Which is an important internet safety rule?",
+          "options": [
+            "Share your password with friends",
+            "Post personal information publicly",
+            "Don't share personal information",
+            "Accept all friend requests",
+            "Другой ответ"
+          ],
+          "correctAnswer": "Don't share personal information",
+          "hint": "Stay safe online"
+        },
+        {
+          "type": "quiz",
+          "question": "Have you ever ___ this app?",
+          "options": [
+            "use",
+            "uses",
+            "using",
+            "used",
+            "Другой ответ"
+          ],
+          "correctAnswer": "used",
+          "hint": "Present Perfect: have/has + Past Participle"
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "Great! You're a digital native! 💻"
+      }
+    },
+    {
+      "title": "Daily Routines and Habits",
+      "image": "/images/lessons/grade7/english/lesson23.svg",
+      "subject": "Иностранный язык",
+      "icon": "Languages",
+      "color": "text-pink-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "Which tense do we use for daily routines?",
+          "options": [
+            "Present Continuous",
+            "Present Simple",
+            "Past Simple",
+            "Future Simple",
+            "Другой ответ"
+          ],
+          "keyPoints": [
+            "Present Simple for routines: I wake up at 7 AM every day",
+            "Present Continuous for actions happening now: I am reading now",
+            "Adverbs of frequency: always, usually, often, sometimes, never"
+          ],
+          "examples": [
+            "I have to do the washing-up — мне нужно помыть посуду 🧽",
+            "Should: You should help your parents — тебе следует помочь родителям"
+          ],
+          "correctAnswer": "Present Simple",
+          "hint": "I wake up at 7 AM every day"
+        },
+        {
+          "type": "quiz",
+          "question": "What does 'usually' mean in Russian?",
+          "options": [
+            "Никогда",
+            "Обычно",
+            "Иногда",
+            "Всегда",
+            "Другой ответ"
+          ],
+          "correctAnswer": "Обычно",
+          "hint": "Frequency adverb — 80%"
+        },
+        {
+          "type": "quiz",
+          "question": "Where do you place frequency adverbs with 'to be'?",
+          "options": [
+            "After 'to be'",
+            "Before 'to be'",
+            "At the beginning",
+            "At the end",
+            "Before the subject"
+          ],
+          "correctAnswer": "After 'to be'",
+          "hint": "She is never late"
+        },
+        {
+          "type": "quiz",
+          "question": "What does 'go to bed' mean?",
+          "options": [
+            "Идти в школу",
+            "Ложиться спать",
+            "Делать уборку",
+            "Идти гулять",
+            "Другой ответ"
+          ],
+          "correctAnswer": "Ложиться спать",
+          "hint": "Daily activity before sleeping"
+        },
+        {
+          "type": "quiz",
+          "question": "Which phrase means 'вечером'?",
+          "options": [
+            "In the morning",
+            "In the afternoon",
+            "In the evening",
+            "At night",
+            "Другой ответ"
+          ],
+          "correctAnswer": "In the evening",
+          "hint": "Time of day"
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "Great! You know daily routines! 🕐"
+      }
+    },
+    {
+      "title": "Household Chores",
+      "image": "/images/lessons/grade7/english/lesson24.svg",
+      "subject": "Иностранный язык",
+      "icon": "Languages",
+      "color": "text-pink-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "What does 'do the washing-up' mean?",
+          "options": [
+            "Стирать бельё",
+            "Мыть посуду",
+            "Убираться",
+            "Гладить",
+            "Другой ответ"
+          ],
+          "keyPoints": [
+            "Household chores vocabulary: do the dishes, vacuum the floor, do the laundry",
+            "Make vs do: make breakfast (создать), do homework (выполнить)",
+            "Have to / must for obligations: I have to clean my room"
+          ],
+          "examples": [
+            "I'm going to visit London next summer — планирую посетить Лондон ✈️",
+            "by plane — самолётом, by train — поездом, on foot — пешком"
+          ],
+          "correctAnswer": "Мыть посуду",
+          "hint": "Work with dishes"
+        },
+        {
+          "type": "quiz",
+          "question": "Which modal verb expresses strong obligation?",
+          "options": [
+            "Should",
+            "Must",
+            "Can",
+            "May",
+            "Другой ответ"
+          ],
+          "correctAnswer": "Must",
+          "hint": "You must help your parents"
+        },
+        {
+          "type": "quiz",
+          "question": "What does 'make the bed' mean?",
+          "options": [
+            "Построить кровать",
+            "Заправлять постель",
+            "Купить кровать",
+            "Убрать комнату",
+            "Другой ответ"
+          ],
+          "correctAnswer": "Заправлять постель",
+          "hint": "Morning household task"
+        },
+        {
+          "type": "quiz",
+          "question": "What's the difference between 'make' and 'do'?",
+          "options": [
+            "They are the same",
+            "Make = create, Do = perform/complete",
+            "Make = clean, Do = build",
+            "Make = destroy, Do = fix",
+            "Другой ответ"
+          ],
+          "correctAnswer": "Make = create, Do = perform/complete",
+          "hint": "Make breakfast vs do homework"
+        },
+        {
+          "type": "quiz",
+          "question": "How do you ask: «Какие домашние дела ты делаешь?»",
+          "options": [
+            "What chores do you do?",
+            "When do you clean?",
+            "Where is your room?",
+            "Why do you work?",
+            "Другой ответ"
+          ],
+          "correctAnswer": "What chores do you do?",
+          "hint": "Question about household tasks"
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "Great! You know household chores! 🧹"
+      }
+    },
+    {
+      "title": "Planning a Trip",
+      "image": "/images/lessons/grade7/english/lesson25.svg",
+      "subject": "Иностранный язык",
+      "icon": "Languages",
+      "color": "text-pink-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "What does 'boarding pass' mean in Russian?",
+          "options": [
+            "Билет",
+            "Посадочный талон",
+            "Загранпаспорт",
+            "Регистрация",
+            "Другой ответ"
+          ],
+          "keyPoints": [
+            "Travel vocabulary: book a hotel, pack luggage, check in, boarding pass",
+            "Future with going to: I'm going to visit Paris next summer",
+            "Conditional: If I have time, I will go to the museum"
+          ],
+          "examples": [
+            "Past Simple: I visited the Louvre last year — прошлым летом я посетил Лувр 🏛️",
+            "How do I get to the museum? — как добраться до музея?"
+          ],
+          "correctAnswer": "Посадочный талон",
+          "hint": "Document needed to board a plane"
+        },
+        {
+          "type": "quiz",
+          "question": "Which phrase means 'I'm going to visit London'?",
+          "options": [
+            "I will visit London",
+            "I'm going to visit London",
+            "I visit London",
+            "I visited London",
+            "Другой ответ"
+          ],
+          "correctAnswer": "I'm going to visit London",
+          "hint": "Going to + infinitive for plans"
+        },
+        {
+          "type": "quiz",
+          "question": "What does 'by plane' mean?",
+          "options": [
+            "На поезде",
+            "Самолётом",
+            "На машине",
+            "Пешком",
+            "Другой ответ"
+          ],
+          "correctAnswer": "Самолётом",
+          "hint": "Type of air transport"
+        },
+        {
+          "type": "quiz",
+          "question": "What does 'check in' mean at a hotel?",
+          "options": [
+            "Выселиться",
+            "Заселиться",
+            "Забронировать",
+            "Оплатить",
+            "Другой ответ"
+          ],
+          "correctAnswer": "Заселиться",
+          "hint": "Arrival procedure"
+        },
+        {
+          "type": "quiz",
+          "question": "What's the difference between 'journey' and 'voyage'?",
+          "options": [
+            "They are the same",
+            "Journey = general trip, Voyage = sea journey",
+            "Journey = sea, Voyage = land",
+            "Journey = short, Voyage = long walk",
+            "Другой ответ"
+          ],
+          "correctAnswer": "Journey = general trip, Voyage = sea journey",
+          "hint": "Voyage is specifically by ship"
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "Great! You can plan a trip! ✈️"
+      }
+    },
+    {
+      "title": "Sightseeing and Activities",
+      "image": "/images/lessons/grade7/english/lesson26.svg",
+      "subject": "Иностранный язык",
+      "icon": "Languages",
+      "color": "text-pink-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "What does 'monument' mean in Russian?",
+          "options": [
+            "Музей",
+            "Памятник",
+            "Площадь",
+            "Фонтан",
+            "Другой ответ"
+          ],
+          "keyPoints": [
+            "Sightseeing vocabulary: monument, museum, gallery, cathedral, square",
+            "Would like to for polite requests and offers: I'd like to see the Eiffel Tower",
+            "Directions: turn left/right, go straight, opposite, next to"
+          ],
+          "examples": [
+            "We must protect nature — мы должны защищать природу 🌍",
+            "First Conditional: If we recycle, there will be less waste"
+          ],
+          "correctAnswer": "Памятник",
+          "hint": "A structure commemorating a person or event"
+        },
+        {
+          "type": "quiz",
+          "question": "Which tense is used for travel stories?",
+          "options": [
+            "Present Simple",
+            "Present Continuous",
+            "Past Simple",
+            "Future Simple",
+            "Другой ответ"
+          ],
+          "correctAnswer": "Past Simple",
+          "hint": "I visited the Louvre last year"
+        },
+        {
+          "type": "quiz",
+          "question": "How do you ask for directions to a museum?",
+          "options": [
+            "What is a museum?",
+            "How do I get to the museum?",
+            "Where is the museum from?",
+            "Do you like museums?",
+            "Другой ответ"
+          ],
+          "correctAnswer": "How do I get to the museum?",
+          "hint": "Useful phrase for tourists"
+        },
+        {
+          "type": "quiz",
+          "question": "What does 'ancient' mean?",
+          "options": [
+            "Современный",
+            "Древний",
+            "Красивый",
+            "Переполненный",
+            "Другой ответ"
+          ],
+          "correctAnswer": "Древний",
+          "hint": "Adjective describing old places"
+        },
+        {
+          "type": "quiz",
+          "question": "What is the Past Simple of 'see'?",
+          "options": [
+            "Seed",
+            "Saw",
+            "Seen",
+            "Seeing",
+            "Другой ответ"
+          ],
+          "correctAnswer": "Saw",
+          "hint": "Irregular verb"
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "Great! You're a sightseeing expert! 🏛️"
+      }
+    },
+    {
+      "title": "Environmental Problems",
+      "image": "/images/lessons/grade7/english/lesson27.svg",
+      "subject": "Иностранный язык",
+      "icon": "Languages",
+      "color": "text-pink-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "What does 'global warming' mean in Russian?",
+          "options": [
+            "Глобальное потепление",
+            "Глобальное заморозка",
+            "Загрязнение воды",
+            "Вырубка лесов",
+            "Другой ответ"
+          ],
+          "keyPoints": [
+            "Environmental vocabulary: pollution, recycling, global warming, endangered species",
+            "Should / shouldn't for advice: We should recycle paper and plastic",
+            "Passive voice: The air is polluted by factories"
+          ],
+          "examples": [
+            "Present Perfect: I have bought a new smartphone — я купил новый телефон 📱",
+            "Internet safety: don't share personal information online"
+          ],
+          "correctAnswer": "Глобальное потепление",
+          "hint": "Rising temperatures on Earth"
+        },
+        {
+          "type": "quiz",
+          "question": "Which modal verb gives advice?",
+          "options": [
+            "Must",
+            "Should",
+            "Can",
+            "Will",
+            "Другой ответ"
+          ],
+          "correctAnswer": "Should",
+          "hint": "We should recycle more"
+        },
+        {
+          "type": "quiz",
+          "question": "What does 'deforestation' mean?",
+          "options": [
+            "Посадка деревьев",
+            "Вырубка лесов",
+            "Загрязнение воздуха",
+            "Рекультивация",
+            "Другой ответ"
+          ],
+          "correctAnswer": "Вырубка лесов",
+          "hint": "Cutting down forests"
+        },
+        {
+          "type": "quiz",
+          "question": "Complete: If people recycle, there ___ less waste.",
+          "options": [
+            "is",
+            "will be",
+            "was",
+            "are",
+            "Другой ответ"
+          ],
+          "correctAnswer": "will be",
+          "hint": "First Conditional: If + present, will + infinitive"
+        },
+        {
+          "type": "quiz",
+          "question": "What does 'endangered species' mean?",
+          "options": [
+            "Опасные животные",
+            "Исчезающие виды",
+            "Домашние питомцы",
+            "Водные организмы",
+            "Другой ответ"
+          ],
+          "correctAnswer": "Исчезающие виды",
+          "hint": "Animals at risk of extinction"
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "Great! You care about the environment! 🌍"
+      }
+    },
+    {
+      "title": "Digital World",
+      "image": "/images/lessons/grade7/english/lesson28.svg",
+      "subject": "Иностранный язык",
+      "icon": "Languages",
+      "color": "text-pink-400",
+      "tasks": [
+        {
+          "type": "quiz",
+          "question": "What does 'social media' mean in Russian?",
+          "options": [
+            "Электронная почта",
+            "Социальные сети",
+            "Веб-сайт",
+            "Блог",
+            "Другой ответ"
+          ],
+          "keyPoints": [
+            "Digital vocabulary: social media, download, upload, password, account",
+            "Present Perfect for experiences: I have already sent the email",
+            "Online safety: never share your password with strangers"
+          ],
+          "examples": [
+            "Сосна — хвойная мягкая порода, дуб — лиственная твёрдая 🪵",
+            "Пороки древесины: сучки, трещины, гниль, завиток, смоляной кармашек",
+            "Текстура — уникальный рисунок на срезе древесины"
+          ],
+          "correctAnswer": "Социальные сети",
+          "hint": "VK, Instagram, TikTok..."
+        },
+        {
+          "type": "quiz",
+          "question": "Which tense is used for experiences?",
+          "options": [
+            "Past Simple",
+            "Present Simple",
+            "Present Perfect",
+            "Future Simple",
+            "Другой ответ"
+          ],
+          "correctAnswer": "Present Perfect",
+          "hint": "I have already bought a new smartphone"
+        },
+        {
+          "type": "quiz",
+          "question": "What does 'download' mean?",
+          "options": [
+            "Загружать онлайн",
+            "Скачивать файлы",
+            "Удалять данные",
+            "Отправлять письмо",
+            "Другой ответ"
+          ],
+          "correctAnswer": "Скачивать файлы",
+          "hint": "Getting files from the internet"
+        },
+        {
+          "type": "quiz",
+          "question": "Which is an important internet safety rule?",
+          "options": [
+            "Share your password with friends",
+            "Post personal information publicly",
+            "Don't share personal information",
+            "Accept all friend requests",
+            "Другой ответ"
+          ],
+          "correctAnswer": "Don't share personal information",
+          "hint": "Stay safe online"
+        },
+        {
+          "type": "quiz",
+          "question": "What does 'cyberbullying' mean?",
+          "options": [
+            "Онлайн-игры",
+            "Кибербуллинг — травля в интернете",
+            "Компьютерные вирусы",
+            "Социальные сети",
+            "Другой ответ"
+          ],
+          "correctAnswer": "Кибербуллинг — травля в интернете",
+          "hint": "Disadvantage of technology"
+        }
+      ],
+      "reward": {
+        "stars": 3,
+        "message": "Great! You're a digital citizen! 📱"
+      }
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#F3E5F5"/><stop offset="100%" stop-color="#E1BEE7"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#7B1FA2" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#4A148C" text-anchor="middle">Липиды и их функции</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 10 класс — Урок 7</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#7B1FA2" stroke-width="1" opacity="0.3"/>
+
+<!-- Triglyceride structure -->
+<g transform="translate(120,145)">
+  <rect x="-85" y="-65" width="170" height="145" rx="6" fill="white" opacity="0.9" stroke="#7B1FA2" stroke-width="1"/>
+  <text x="0" y="-48" font-family="Arial,sans-serif" font-size="9" fill="#4A148C" text-anchor="middle" font-weight="bold">ТРИГЛИЦЕРИД</text>
+  <line x1="-70" y1="-42" x2="70" y2="-42" stroke="#7B1FA2" stroke-width="0.5"/>
+
+  <!-- Glycerol backbone -->
+  <rect x="-20" y="-30" width="40" height="35" rx="3" fill="#CE93D8" opacity="0.4" stroke="#7B1FA2" stroke-width="1"/>
+  <text x="0" y="-15" font-family="Arial,sans-serif" font-size="6" fill="#4A148C" text-anchor="middle">Глицерин</text>
+  <text x="0" y="0" font-family="Arial,sans-serif" font-size="7" fill="#4A148C" text-anchor="middle" font-weight="bold">C3H8O3</text>
+
+  <!-- Fatty acid chains -->
+  <g transform="translate(-20,10)">
+    <line x1="0" y1="0" x2="0" y2="10" stroke="#7B1FA2" stroke-width="1.5"/>
+    <!-- Zigzag chain 1 - saturated -->
+    <path d="M0,10 L8,16 L0,22 L8,28 L0,34 L8,40 L0,46 L8,52" fill="none" stroke="#E65100" stroke-width="1.5"/>
+    <text x="18" y="32" font-family="Arial,sans-serif" font-size="5" fill="#E65100">Насыщ.</text>
+  </g>
+  <g transform="translate(0,10)">
+    <line x1="0" y1="0" x2="0" y2="10" stroke="#7B1FA2" stroke-width="1.5"/>
+    <!-- Zigzag chain 2 - with double bond (unsaturated) -->
+    <path d="M0,10 L8,16 L0,22 L8,28 L0,34" fill="none" stroke="#1565C0" stroke-width="1.5"/>
+    <line x1="-2" y1="22" x2="10" y2="22" stroke="#C62828" stroke-width="1.5"/>
+    <path d="M0,34 L8,40 L0,46 L8,52" fill="none" stroke="#1565C0" stroke-width="1.5"/>
+    <text x="18" y="32" font-family="Arial,sans-serif" font-size="5" fill="#1565C0">Ненасыщ.</text>
+  </g>
+  <g transform="translate(20,10)">
+    <line x1="0" y1="0" x2="0" y2="10" stroke="#7B1FA2" stroke-width="1.5"/>
+    <!-- Zigzag chain 3 - saturated -->
+    <path d="M0,10 L8,16 L0,22 L8,28 L0,34 L8,40 L0,46 L8,52" fill="none" stroke="#E65100" stroke-width="1.5"/>
+  </g>
+
+  <text x="0" y="70" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">Жиры = глицерин + 3 жирные кислоты</text>
+</g>
+
+<!-- Phospholipid bilayer - cell membrane -->
+<g transform="translate(370,145)">
+  <rect x="-85" y="-65" width="170" height="145" rx="6" fill="white" opacity="0.9" stroke="#7B1FA2" stroke-width="1"/>
+  <text x="0" y="-48" font-family="Arial,sans-serif" font-size="9" fill="#4A148C" text-anchor="middle" font-weight="bold">ФОСФОЛИПИДЫ</text>
+  <line x1="-70" y1="-42" x2="70" y2="-42" stroke="#7B1FA2" stroke-width="0.5"/>
+
+  <!-- Outer layer heads -->
+  <circle cx="-50" cy="-25" r="7" fill="#9C27B0" opacity="0.6" stroke="#7B1FA2" stroke-width="0.8"/>
+  <text x="-50" y="-22" font-family="Arial,sans-serif" font-size="4" fill="white" text-anchor="middle">P</text>
+  <circle cx="-30" cy="-25" r="7" fill="#9C27B0" opacity="0.6" stroke="#7B1FA2" stroke-width="0.8"/>
+  <text x="-30" y="-22" font-family="Arial,sans-serif" font-size="4" fill="white" text-anchor="middle">P</text>
+  <circle cx="-10" cy="-25" r="7" fill="#9C27B0" opacity="0.6" stroke="#7B1FA2" stroke-width="0.8"/>
+  <text x="-10" y="-22" font-family="Arial,sans-serif" font-size="4" fill="white" text-anchor="middle">P</text>
+  <circle cx="10" cy="-25" r="7" fill="#9C27B0" opacity="0.6" stroke="#7B1FA2" stroke-width="0.8"/>
+  <text x="10" y="-22" font-family="Arial,sans-serif" font-size="4" fill="white" text-anchor="middle">P</text>
+  <circle cx="30" cy="-25" r="7" fill="#9C27B0" opacity="0.6" stroke="#7B1FA2" stroke-width="0.8"/>
+  <text x="30" y="-22" font-family="Arial,sans-serif" font-size="4" fill="white" text-anchor="middle">P</text>
+  <circle cx="50" cy="-25" r="7" fill="#9C27B0" opacity="0.6" stroke="#7B1FA2" stroke-width="0.8"/>
+  <text x="50" y="-22" font-family="Arial,sans-serif" font-size="4" fill="white" text-anchor="middle">P</text>
+
+  <!-- Outer tails -->
+  <line x1="-50" y1="-18" x2="-50" y2="5" stroke="#FF9800" stroke-width="1"/>
+  <line x1="-30" y1="-18" x2="-30" y2="5" stroke="#FF9800" stroke-width="1"/>
+  <line x1="-10" y1="-18" x2="-10" y2="5" stroke="#FF9800" stroke-width="1"/>
+  <line x1="10" y1="-18" x2="10" y2="5" stroke="#FF9800" stroke-width="1"/>
+  <line x1="30" y1="-18" x2="30" y2="5" stroke="#FF9800" stroke-width="1"/>
+  <line x1="50" y1="-18" x2="50" y2="5" stroke="#FF9800" stroke-width="1"/>
+
+  <!-- Inner tails -->
+  <line x1="-50" y1="15" x2="-50" y2="38" stroke="#FF9800" stroke-width="1"/>
+  <line x1="-30" y1="15" x2="-30" y2="38" stroke="#FF9800" stroke-width="1"/>
+  <line x1="-10" y1="15" x2="-10" y2="38" stroke="#FF9800" stroke-width="1"/>
+  <line x1="10" y1="15" x2="10" y2="38" stroke="#FF9800" stroke-width="1"/>
+  <line x1="30" y1="15" x2="30" y2="38" stroke="#FF9800" stroke-width="1"/>
+  <line x1="50" y1="15" x2="50" y2="38" stroke="#FF9800" stroke-width="1"/>
+
+  <!-- Inner layer heads -->
+  <circle cx="-50" cy="45" r="7" fill="#9C27B0" opacity="0.6" stroke="#7B1FA2" stroke-width="0.8"/>
+  <text x="-50" y="48" font-family="Arial,sans-serif" font-size="4" fill="white" text-anchor="middle">P</text>
+  <circle cx="-30" cy="45" r="7" fill="#9C27B0" opacity="0.6" stroke="#7B1FA2" stroke-width="0.8"/>
+  <text x="-30" y="48" font-family="Arial,sans-serif" font-size="4" fill="white" text-anchor="middle">P</text>
+  <circle cx="-10" cy="45" r="7" fill="#9C27B0" opacity="0.6" stroke="#7B1FA2" stroke-width="0.8"/>
+  <text x="-10" y="48" font-family="Arial,sans-serif" font-size="4" fill="white" text-anchor="middle">P</text>
+  <circle cx="10" cy="45" r="7" fill="#9C27B0" opacity="0.6" stroke="#7B1FA2" stroke-width="0.8"/>
+  <text x="10" y="48" font-family="Arial,sans-serif" font-size="4" fill="white" text-anchor="middle">P</text>
+  <circle cx="30" cy="45" r="7" fill="#9C27B0" opacity="0.6" stroke="#7B1FA2" stroke-width="0.8"/>
+  <text x="30" y="48" font-family="Arial,sans-serif" font-size="4" fill="white" text-anchor="middle">P</text>
+  <circle cx="50" cy="45" r="7" fill="#9C27B0" opacity="0.6" stroke="#7B1FA2" stroke-width="0.8"/>
+  <text x="50" y="48" font-family="Arial,sans-serif" font-size="4" fill="white" text-anchor="middle">P</text>
+
+  <!-- Labels -->
+  <text x="-70" y="-20" font-family="Arial,sans-serif" font-size="5" fill="#9C27B0">Гидрофильные</text>
+  <text x="-70" y="-14" font-family="Arial,sans-serif" font-size="5" fill="#9C27B0">головки</text>
+  <text x="-70" y="10" font-family="Arial,sans-serif" font-size="5" fill="#E65100">Гидрофобные</text>
+  <text x="-70" y="16" font-family="Arial,sans-serif" font-size="5" fill="#E65100">хвосты</text>
+
+  <!-- Protein in membrane -->
+  <rect x="-5" y="-18" width="10" height="58" rx="3" fill="#4CAF50" opacity="0.4" stroke="#2E7D32" stroke-width="0.8"/>
+  <text x="0" y="10" font-family="Arial,sans-serif" font-size="4" fill="#2E7D32" text-anchor="middle">белок</text>
+
+  <text x="0" y="68" font-family="Arial,sans-serif" font-size="6" fill="#4A148C" text-anchor="middle">Фосфолипидный бислой мембраны</text>
+</g>
+
+<!-- Functions at bottom -->
+<g transform="translate(30,260)">
+  <rect x="0" y="0" width="440" height="55" rx="5" fill="white" opacity="0.9" stroke="#7B1FA2" stroke-width="1"/>
+  <text x="220" y="14" font-family="Arial,sans-serif" font-size="9" fill="#4A148C" text-anchor="middle" font-weight="bold">Функции липидов</text>
+
+  <g transform="translate(45,30)">
+    <rect x="-30" y="-8" width="60" height="16" rx="3" fill="#F44336" opacity="0.15" stroke="#F44336" stroke-width="0.8"/>
+    <text x="0" y="-1" font-family="Arial,sans-serif" font-size="6" fill="#C62828" text-anchor="middle" font-weight="bold">Энергетическая</text>
+    <text x="0" y="7" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">38,9 кДж/г</text>
+  </g>
+  <g transform="translate(135,30)">
+    <rect x="-30" y="-8" width="60" height="16" rx="3" fill="#2196F3" opacity="0.15" stroke="#2196F3" stroke-width="0.8"/>
+    <text x="0" y="-1" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle" font-weight="bold">Запасающая</text>
+    <text x="0" y="7" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Жировые депо</text>
+  </g>
+  <g transform="translate(225,30)">
+    <rect x="-35" y="-8" width="70" height="16" rx="3" fill="#4CAF50" opacity="0.15" stroke="#4CAF50" stroke-width="0.8"/>
+    <text x="0" y="-1" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle" font-weight="bold">Структурная</text>
+    <text x="0" y="7" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Мембраны</text>
+  </g>
+  <g transform="translate(320,30)">
+    <rect x="-30" y="-8" width="60" height="16" rx="3" fill="#FF9800" opacity="0.15" stroke="#FF9800" stroke-width="0.8"/>
+    <text x="0" y="-1" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle" font-weight="bold">Теплоизоляция</text>
+    <text x="0" y="7" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Подкожный жир</text>
+  </g>
+  <g transform="translate(400,30)">
+    <rect x="-30" y="-8" width="60" height="16" rx="3" fill="#9C27B0" opacity="0.15" stroke="#9C27B0" stroke-width="0.8"/>
+    <text x="0" y="-1" font-family="Arial,sans-serif" font-size="6" fill="#7B1FA2" text-anchor="middle" font-weight="bold">Регуляторная</text>
+    <text x="0" y="7" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Гормоны, витамины</text>
+  </g>
+</g>
+
+<rect x="10" y="324" width="480" height="20" rx="4" fill="#7B1FA2" opacity="0.85"/>
+<text x="250" y="336" font-family="Arial,sans-serif" font-size="8" text-anchor="middle" fill="white" font-weight="bold">Липиды нерастворимы в воде (гидрофобны), но растворимы в органических растворителях</text>
+<text x="250" y="344" font-family="Arial,sans-serif" font-size="6" fill="#E1BEE7" text-anchor="middle">Воска — защита от испарения | Холестерин — предшественник стероидных гормонов</text>
+</svg>

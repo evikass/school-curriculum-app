@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg12" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg12)"/>
+  <!-- Kanban board -->
+  <rect x="10" y="10" width="480" height="320" rx="10" fill="#1c2333" stroke="#30363d" stroke-width="1.5"/>
+  <!-- Board title -->
+  <rect x="10" y="10" width="480" height="35" rx="10" fill="#2d333b"/>
+  <text x="250" y="33" fill="#e0e0e0" font-size="14" font-family="sans-serif" text-anchor="middle" font-weight="bold">📋 Итоговый проект — Доска задач</text>
+  <!-- Column 1: План -->
+  <rect x="20" y="55" width="110" height="265" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <rect x="20" y="55" width="110" height="24" rx="6" fill="#6c5ce7"/>
+  <text x="75" y="72" fill="white" font-size="11" font-family="sans-serif" text-anchor="middle">📌 План</text>
+  <!-- Cards -->
+  <rect x="26" y="86" width="98" height="40" rx="4" fill="#2d333b" stroke="#444c56" stroke-width="0.5"/>
+  <text x="75" y="103" fill="#c9d1d9" font-size="9" font-family="sans-serif" text-anchor="middle">Выбор темы</text>
+  <text x="75" y="118" fill="#6c5ce7" font-size="8" font-family="sans-serif" text-anchor="middle">приоритет: high</text>
+  <rect x="26" y="132" width="98" height="40" rx="4" fill="#2d333b" stroke="#444c56" stroke-width="0.5"/>
+  <text x="75" y="149" fill="#c9d1d9" font-size="9" font-family="sans-serif" text-anchor="middle">Алгоритм</text>
+  <text x="75" y="164" fill="#fdcb6e" font-size="8" font-family="sans-serif" text-anchor="middle">приоритет: med</text>
+  <rect x="26" y="178" width="98" height="40" rx="4" fill="#2d333b" stroke="#444c56" stroke-width="0.5"/>
+  <text x="75" y="195" fill="#c9d1d9" font-size="9" font-family="sans-serif" text-anchor="middle">Структура кода</text>
+  <text x="75" y="210" fill="#fdcb6e" font-size="8" font-family="sans-serif" text-anchor="middle">приоритет: med</text>
+  <!-- Column 2: Код -->
+  <rect x="140" y="55" width="110" height="265" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <rect x="140" y="55" width="110" height="24" rx="6" fill="#00b894"/>
+  <text x="195" y="72" fill="white" font-size="11" font-family="sans-serif" text-anchor="middle">💻 Код</text>
+  <rect x="146" y="86" width="98" height="40" rx="4" fill="#2d333b" stroke="#444c56" stroke-width="0.5"/>
+  <text x="195" y="103" fill="#c9d1d9" font-size="9" font-family="sans-serif" text-anchor="middle">Ввод данных</text>
+  <circle cx="155" cy="98" r="4" fill="#27c93f"/>
+  <rect x="146" y="132" width="98" height="40" rx="4" fill="#2d333b" stroke="#444c56" stroke-width="0.5"/>
+  <text x="195" y="149" fill="#c9d1d9" font-size="9" font-family="sans-serif" text-anchor="middle">Обработка</text>
+  <circle cx="155" cy="144" r="4" fill="#ffbd2e"/>
+  <rect x="146" y="178" width="98" height="40" rx="4" fill="#2d333b" stroke="#444c56" stroke-width="0.5"/>
+  <text x="195" y="195" fill="#c9d1d9" font-size="9" font-family="sans-serif" text-anchor="middle">Вывод результ.</text>
+  <circle cx="155" cy="190" r="4" fill="#ff5f56"/>
+  <!-- Column 3: Тест -->
+  <rect x="260" y="55" width="110" height="265" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <rect x="260" y="55" width="110" height="24" rx="6" fill="#fdcb6e"/>
+  <text x="315" y="72" fill="#333" font-size="11" font-family="sans-serif" text-anchor="middle">🧪 Тест</text>
+  <rect x="266" y="86" width="98" height="40" rx="4" fill="#2d333b" stroke="#444c56" stroke-width="0.5"/>
+  <text x="315" y="103" fill="#c9d1d9" font-size="9" font-family="sans-serif" text-anchor="middle">Тестовые данные</text>
+  <circle cx="275" cy="98" r="4" fill="#27c93f"/>
+  <rect x="266" y="132" width="98" height="40" rx="4" fill="#2d333b" stroke="#444c56" stroke-width="0.5"/>
+  <text x="315" y="149" fill="#c9d1d9" font-size="9" font-family="sans-serif" text-anchor="middle">Отладка</text>
+  <circle cx="275" cy="144" r="4" fill="#ffbd2e"/>
+  <rect x="266" y="178" width="98" height="40" rx="4" fill="#2d333b" stroke="#444c56" stroke-width="0.5"/>
+  <text x="315" y="195" fill="#c9d1d9" font-size="9" font-family="sans-serif" text-anchor="middle">Проверка</text>
+  <circle cx="275" cy="190" r="4" fill="#ff5f56"/>
+  <!-- Column 4: Готово -->
+  <rect x="380" y="55" width="110" height="265" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <rect x="380" y="55" width="110" height="24" rx="6" fill="#27c93f"/>
+  <text x="435" y="72" fill="white" font-size="11" font-family="sans-serif" text-anchor="middle">✅ Готово</text>
+  <rect x="386" y="86" width="98" height="40" rx="4" fill="#2d333b" stroke="#27c93f" stroke-width="0.5"/>
+  <text x="435" y="103" fill="#7ee787" font-size="9" font-family="sans-serif" text-anchor="middle">Идея одобрена</text>
+  <rect x="386" y="132" width="98" height="40" rx="4" fill="#2d333b" stroke="#27c93f" stroke-width="0.5"/>
+  <text x="435" y="149" fill="#7ee787" font-size="9" font-family="sans-serif" text-anchor="middle">Репозиторий</text>
+  <!-- Progress bar -->
+  <rect x="26" y="260" width="458" height="8" rx="4" fill="#21262d"/>
+  <rect x="26" y="260" width="230" height="8" rx="4" fill="#6c5ce7"/>
+  <text x="250" y="285" fill="#8b949e" font-size="9" font-family="sans-serif" text-anchor="middle">Прогресс: 50%</text>
+  <!-- Legend -->
+  <circle cx="30" cy="305" r="4" fill="#27c93f"/>
+  <text x="40" y="308" fill="#8b949e" font-size="8">Готово</text>
+  <circle cx="85" cy="305" r="4" fill="#ffbd2e"/>
+  <text x="95" y="308" fill="#8b949e" font-size="8">В работе</text>
+  <circle cx="150" cy="305" r="4" fill="#ff5f56"/>
+  <text x="160" y="308" fill="#8b949e" font-size="8">Не начато</text>
+  <text x="250" y="340" fill="#aaa" font-size="9" opacity="0.5" font-family="sans-serif" text-anchor="middle">Итоговый проект</text>
+</svg>

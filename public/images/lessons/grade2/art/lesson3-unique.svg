@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <style>@keyframes glow{0%,100%{opacity:0.85}50%{opacity:1}}.fl{animation:glow 3s ease-in-out infinite}</style>
+  <rect width="500" height="350" fill="#FFF3E0"/>
+  <text x="250" y="24" text-anchor="middle" font-size="16" font-family="sans-serif" fill="#4E342E" font-weight="bold">Натюрморт</text>
+  <!-- Wall -->
+  <rect x="0" y="30" width="500" height="150" fill="#EFEBE9"/>
+  <!-- Table -->
+  <rect x="30" y="180" width="440" height="14" rx="3" fill="#8D6E63"/>
+  <rect x="50" y="194" width="20" height="130" fill="#795548"/>
+  <rect x="430" y="194" width="20" height="130" fill="#795548"/>
+  <!-- Tablecloth -->
+  <path d="M40,180 L40,200 Q90,210 140,200 L140,180" fill="#E8EAF6" stroke="#BDBDBD" stroke-width="1"/>
+  <path d="M360,180 L360,200 Q410,210 460,200 L460,180" fill="#E8EAF6" stroke="#BDBDBD" stroke-width="1"/>
+  <!-- Vase -->
+  <path d="M200,180 Q195,155 190,140 Q188,125 195,115 L225,115 Q232,125 230,140 Q225,155 220,180Z" fill="#7E57C2" stroke="#5E35B1" stroke-width="1.5"/>
+  <ellipse cx="210" cy="115" rx="17" ry="5" fill="#9575CD"/>
+  <ellipse cx="210" cy="180" rx="12" ry="4" fill="#5E35B1"/>
+  <!-- Vase pattern -->
+  <path d="M198,145 Q210,140 222,145" fill="none" stroke="#E1BEE7" stroke-width="1.5"/>
+  <path d="M196,155 Q210,150 224,155" fill="none" stroke="#E1BEE7" stroke-width="1.5"/>
+  <!-- Flowers from vase -->
+  <g class="fl">
+    <line x1="210" y1="115" x2="195" y2="70" stroke="#4CAF50" stroke-width="2"/>
+    <circle cx="195" cy="62" r="10" fill="#FF5252"/>
+    <circle cx="195" cy="62" r="4" fill="#FFEB3B"/>
+    <line x1="210" y1="115" x2="220" y2="55" stroke="#4CAF50" stroke-width="2"/>
+    <circle cx="220" cy="47" r="10" fill="#FF80AB"/>
+    <circle cx="220" cy="47" r="4" fill="#FFF176"/>
+    <line x1="210" y1="115" x2="205" y2="48" stroke="#4CAF50" stroke-width="2"/>
+    <circle cx="205" cy="40" r="11" fill="#CE93D8"/>
+    <circle cx="205" cy="40" r="4" fill="#FFF9C4"/>
+    <line x1="210" y1="115" x2="235" y2="68" stroke="#4CAF50" stroke-width="2"/>
+    <circle cx="235" cy="60" r="9" fill="#FFAB40"/>
+    <circle cx="235" cy="60" r="3.5" fill="#FFD54F"/>
+  </g>
+  <!-- Leaves -->
+  <ellipse cx="190" cy="90" rx="8" ry="4" fill="#66BB6A" transform="rotate(-30,190,90)"/>
+  <ellipse cx="232" cy="85" rx="8" ry="4" fill="#66BB6A" transform="rotate(25,232,85)"/>
+  <!-- Fruit bowl -->
+  <path d="M310,180 Q310,155 330,150 L370,150 Q390,155 390,180Z" fill="#FFE0B2" stroke="#D7CCC8" stroke-width="1.5"/>
+  <ellipse cx="350" cy="150" rx="32" ry="8" fill="#FFECB3" stroke="#D7CCC8" stroke-width="1"/>
+  <!-- Apples in bowl -->
+  <circle cx="340" cy="140" r="13" fill="#E53935"/>
+  <path d="M340,128 Q342,122 344,128" fill="#4CAF50" stroke="none"/>
+  <circle cx="358" cy="138" r="12" fill="#43A047"/>
+  <path d="M358,127 Q360,121 362,127" fill="#388E3C" stroke="none"/>
+  <!-- Orange -->
+  <circle cx="348" cy="130" r="11" fill="#FF9800"/>
+  <circle cx="348" cy="125" r="1.5" fill="#4CAF50"/>
+  <!-- Cup -->
+  <path d="M80,180 L85,140 L115,140 L120,180Z" fill="#BBDEFB" stroke="#90CAF9" stroke-width="1.5"/>
+  <ellipse cx="100" cy="140" rx="17" ry="5" fill="#E3F2FD" stroke="#90CAF9" stroke-width="1"/>
+  <path d="M115,148 Q130,148 130,160 Q130,170 115,168" fill="none" stroke="#90CAF9" stroke-width="2.5"/>
+  <!-- Saucer -->
+  <ellipse cx="100" cy="182" rx="25" ry="6" fill="#BBDEFB" stroke="#90CAF9" stroke-width="1"/>
+  <!-- Steam -->
+  <path d="M92,135 Q88,125 92,115" fill="none" stroke="#B0BEC5" stroke-width="1.5" opacity="0.5"/>
+  <path d="M100,133 Q96,120 100,110" fill="none" stroke="#B0BEC5" stroke-width="1.5" opacity="0.5"/>
+  <path d="M108,135 Q104,125 108,115" fill="none" stroke="#B0BEC5" stroke-width="1.5" opacity="0.5"/>
+</svg>

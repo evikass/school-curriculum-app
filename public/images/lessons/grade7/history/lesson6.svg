@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#FBE9E7"/>
+<rect x="200" y="60" width="100" height="150" fill="#ECEFF1" stroke="#78909C" stroke-width="2"/>
+<rect x="190" y="55" width="120" height="15" fill="#B0BEC5" stroke="#78909C" stroke-width="1.5"/>
+<path d="M210,55 L210,40 L230,40 L230,55" fill="#90A4AE" stroke="#607D8B" stroke-width="1"/>
+<path d="M270,55 L270,40 L290,40 L290,55" fill="#90A4AE" stroke="#607D8B" stroke-width="1"/>
+<rect x="230" y="30" width="40" height="15" fill="#78909C" stroke="#546E7A" stroke-width="1.5"/>
+<path d="M250,30 L250,20" stroke="#546E7A" stroke-width="2"/>
+<circle cx="250" cy="17" r="4" fill="#FFD700"/>
+<rect x="215" y="80" width="25" height="35" fill="#CFD8DC" stroke="#78909C" stroke-width="1"/>
+<rect x="260" y="80" width="25" height="35" fill="#CFD8DC" stroke="#78909C" stroke-width="1"/>
+<path d="M215,75 L285,75 L290,80 L210,80 Z" fill="#90A4AE" stroke="#607D8B" stroke-width="1"/>
+<text x="250" y="135" font-size="7" fill="#37474F" text-anchor="middle">Кремль</text>
+<circle cx="80" cy="140" r="30" fill="#FFCC80" stroke="#E65100" stroke-width="2"/>
+<circle cx="80" cy="120" r="15" fill="#FFE0B2" stroke="#E65100" stroke-width="1.5"/>
+<text x="80" y="160" font-size="7" fill="#BF360C" text-anchor="middle">Минин</text>
+<line x1="80" y1="170" x2="80" y2="210" stroke="#E65100" stroke-width="2"/>
+<rect x="60" y="210" width="40" height="60" rx="3" fill="#FF8F00" stroke="#E65100" stroke-width="1.5"/>
+<line x1="70" y1="230" x2="90" y2="230" stroke="#FFD700" stroke-width="1"/>
+<circle cx="420" cy="140" r="30" fill="#FF8A65" stroke="#D84315" stroke-width="2"/>
+<circle cx="420" cy="120" r="15" fill="#FFAB91" stroke="#D84315" stroke-width="1.5"/>
+<text x="420" y="160" font-size="7" fill="#BF360C" text-anchor="middle">Пожарский</text>
+<line x1="420" y1="170" x2="420" y2="210" stroke="#D84315" stroke-width="2"/>
+<rect x="400" y="210" width="40" height="60" rx="3" fill="#E65100" stroke="#BF360C" stroke-width="1.5"/>
+<path d="M440,220 L460,210" stroke="#D84315" stroke-width="2"/>
+<text x="250" y="235" font-size="10" fill="#C62828" text-anchor="middle" font-weight="bold">1612 г.</text>
+<text x="250" y="255" font-size="8" fill="#D32F2F" text-anchor="middle">Освобождение Москвы</text>
+<path d="M110,135 L200,120" stroke="#FF8F00" stroke-width="2.5"/>
+<polygon points="200,117 210,120 200,123" fill="#FF8F00"/>
+<path d="M390,135 L300,120" stroke="#E65100" stroke-width="2.5"/>
+<polygon points="300,117 290,120 300,123" fill="#E65100"/>
+<rect x="140" y="270" width="220" height="45" rx="6" fill="#FFF" stroke="#D32F2F" stroke-width="1.5"/>
+<text x="250" y="288" font-size="8" fill="#C62828" text-anchor="middle" font-weight="bold">Народное ополчение</text>
+<text x="250" y="305" font-size="7" fill="#D32F2F" text-anchor="middle">Нижний Новгород → Москва</text>
+<text x="250" y="345" font-size="9" fill="#666" text-anchor="middle" opacity="0.5">Освобождение Москвы</text>
+</svg>

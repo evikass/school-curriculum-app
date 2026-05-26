@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+<defs><linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#334155"/>
+  <stop offset="100%" stop-color="#475569"/>
+</linearGradient></defs>
+<rect x="0" y="0" width="800" height="70" rx="0" fill="url(#headerGrad)" opacity="1.0"/>
+<text x="400" y="35" font-size="22" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Виды юридической ответственности</text>
+<text x="400" y="55" font-size="12" fill="#93c5fd" text-anchor="middle" font-weight="normal" font-family="sans-serif">Уголовная, административная, гражданская, дисциплинарная</text>
+<rect x="15" y="15" width="90" height="28" rx="14" fill="#3b82f6" opacity="1.0"/>
+<text x="60" y="34" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">8 класс</text>
+<rect x="700" y="15" width="85" height="28" rx="14" fill="#8b5cf6" opacity="1.0"/>
+<text x="743" y="34" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Право</text>
+<rect x="0" y="565" width="800" height="35" rx="0" fill="#334155" opacity="1.0"/>
+<text x="400" y="586" font-size="11" fill="#64748b" text-anchor="middle" font-weight="normal" font-family="sans-serif">Право · 8 класс · Образовательный курс</text>
+<rect x="0" y="70" width="800" height="495" rx="0" fill="#f8fafc" opacity="1.0"/>
+<circle cx="400" cy="140" r="45" fill="#3b82f6" opacity="1.0"/>
+<text x="400" y="137" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Юридическая</text>
+<text x="400" y="152" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">ответственность</text>
+<line x1="400" y1="140" x2="220" y2="240" stroke="#ef4444" stroke-width="2"/>
+<rect x="130" y="240" width="185" height="155" rx="8" fill="#ffffff" opacity="1.0" stroke="#ef4444" stroke-width="1.5"/>
+<rect x="130" y="240" width="185" height="30" rx="8" fill="#ef4444" opacity="1.0"/>
+<rect x="130" y="260" width="185" height="10" rx="0" fill="#ef4444" opacity="1.0"/>
+<text x="222" y="258" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Уголовная</text>
+<circle cx="142" cy="279" r="2" fill="#ef4444" opacity="1.0"/>
+<text x="150" y="282" font-size="8" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">За преступления (УК РФ)</text>
+<circle cx="142" cy="297" r="2" fill="#ef4444" opacity="1.0"/>
+<text x="150" y="300" font-size="8" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Лишение свободы</text>
+<circle cx="142" cy="315" r="2" fill="#ef4444" opacity="1.0"/>
+<text x="150" y="318" font-size="8" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Штраф, исправ. работы</text>
+<circle cx="142" cy="333" r="2" fill="#ef4444" opacity="1.0"/>
+<text x="150" y="336" font-size="8" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Лишение права занимать</text>
+<text x="150" y="347" font-size="8" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">должности</text>
+<circle cx="142" cy="361" r="2" fill="#ef4444" opacity="1.0"/>
+<text x="150" y="364" font-size="8" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Самый строгий вид</text>
+<line x1="400" y1="140" x2="430" y2="240" stroke="#f59e0b" stroke-width="2"/>
+<rect x="340" y="240" width="185" height="155" rx="8" fill="#ffffff" opacity="1.0" stroke="#f59e0b" stroke-width="1.5"/>
+<rect x="340" y="240" width="185" height="30" rx="8" fill="#f59e0b" opacity="1.0"/>
+<rect x="340" y="260" width="185" height="10" rx="0" fill="#f59e0b" opacity="1.0"/>
+<text x="432" y="258" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Административная</text>
+<circle cx="352" cy="279" r="2" fill="#f59e0b" opacity="1.0"/>
+<text x="360" y="282" font-size="8" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">За правонарушения (КоАП РФ)</text>
+<circle cx="352" cy="297" r="2" fill="#f59e0b" opacity="1.0"/>
+<text x="360" y="300" font-size="8" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Предупреждение</text>
+<circle cx="352" cy="315" r="2" fill="#f59e0b" opacity="1.0"/>
+<text x="360" y="318" font-size="8" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Административный штраф</text>
+<circle cx="352" cy="333" r="2" fill="#f59e0b" opacity="1.0"/>
+<text x="360" y="336" font-size="8" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Конфискация орудия</text>
+<circle cx="352" cy="351" r="2" fill="#f59e0b" opacity="1.0"/>
+<text x="360" y="354" font-size="8" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Административный арест</text>
+<text x="360" y="365" font-size="8" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">до 15 суток</text>
+<line x1="400" y1="140" x2="640" y2="240" stroke="#3b82f6" stroke-width="2"/>
+<rect x="550" y="240" width="185" height="155" rx="8" fill="#ffffff" opacity="1.0" stroke="#3b82f6" stroke-width="1.5"/>
+<rect x="550" y="240" width="185" height="30" rx="8" fill="#3b82f6" opacity="1.0"/>
+<rect x="550" y="260" width="185" height="10" rx="0" fill="#3b82f6" opacity="1.0"/>
+<text x="642" y="251" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Гражданско-</text>
+<text x="642" y="264" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">правовая</text>
+<circle cx="562" cy="279" r="2" fill="#3b82f6" opacity="1.0"/>
+<text x="570" y="282" font-size="8" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">За деликты (ГК РФ)</text>
+<circle cx="562" cy="297" r="2" fill="#3b82f6" opacity="1.0"/>
+<text x="570" y="300" font-size="8" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Возмещение убытков</text>
+<circle cx="562" cy="315" r="2" fill="#3b82f6" opacity="1.0"/>
+<text x="570" y="318" font-size="8" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Компенсация мор. вреда</text>
+<circle cx="562" cy="333" r="2" fill="#3b82f6" opacity="1.0"/>
+<text x="570" y="336" font-size="8" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Возврат имущества</text>
+<circle cx="562" cy="351" r="2" fill="#3b82f6" opacity="1.0"/>
+<text x="570" y="354" font-size="8" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Восстановление положения</text>
+<line x1="400" y1="140" x2="290" y2="410" stroke="#8b5cf6" stroke-width="2"/>
+<rect x="200" y="410" width="185" height="155" rx="8" fill="#ffffff" opacity="1.0" stroke="#8b5cf6" stroke-width="1.5"/>
+<rect x="200" y="410" width="185" height="30" rx="8" fill="#8b5cf6" opacity="1.0"/>
+<rect x="200" y="430" width="185" height="10" rx="0" fill="#8b5cf6" opacity="1.0"/>
+<text x="292" y="428" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Дисциплинарная</text>
+<circle cx="212" cy="449" r="2" fill="#8b5cf6" opacity="1.0"/>
+<text x="220" y="452" font-size="8" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">За дисциплин. проступки (ТК РФ)</text>
+<circle cx="212" cy="467" r="2" fill="#8b5cf6" opacity="1.0"/>
+<text x="220" y="470" font-size="8" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Замечание</text>
+<circle cx="212" cy="485" r="2" fill="#8b5cf6" opacity="1.0"/>
+<text x="220" y="488" font-size="8" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Выговор</text>
+<circle cx="212" cy="503" r="2" fill="#8b5cf6" opacity="1.0"/>
+<text x="220" y="506" font-size="8" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Строгий выговор</text>
+<circle cx="212" cy="521" r="2" fill="#8b5cf6" opacity="1.0"/>
+<text x="220" y="524" font-size="8" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Увольнение</text>
+<line x1="400" y1="140" x2="590" y2="410" stroke="#475569" stroke-width="2"/>
+<rect x="500" y="410" width="185" height="155" rx="8" fill="#ffffff" opacity="1.0" stroke="#475569" stroke-width="1.5"/>
+<rect x="500" y="410" width="185" height="30" rx="8" fill="#475569" opacity="1.0"/>
+<rect x="500" y="430" width="185" height="10" rx="0" fill="#475569" opacity="1.0"/>
+<text x="592" y="428" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="sans-serif">Материальная</text>
+<circle cx="512" cy="449" r="2" fill="#475569" opacity="1.0"/>
+<text x="520" y="452" font-size="8" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">За имуществ. ущерб (ТК РФ)</text>
+<circle cx="512" cy="467" r="2" fill="#475569" opacity="1.0"/>
+<text x="520" y="470" font-size="8" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Полная материальная</text>
+<circle cx="512" cy="485" r="2" fill="#475569" opacity="1.0"/>
+<text x="520" y="488" font-size="8" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Ограниченная материальная</text>
+<circle cx="512" cy="503" r="2" fill="#475569" opacity="1.0"/>
+<text x="520" y="506" font-size="8" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">Возмещение в пределах</text>
+<text x="520" y="517" font-size="8" fill="#1e293b" text-anchor="start" font-weight="normal" font-family="sans-serif">среднего заработка</text>
+</svg>

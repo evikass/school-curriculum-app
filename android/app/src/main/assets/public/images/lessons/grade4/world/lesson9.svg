@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Red top accent bar -->
+  <rect x="0" y="0" width="500" height="8" fill="#C41E3A"/>
+  <!-- Gold accent line -->
+  <rect x="0" y="8" width="500" height="2" fill="#D4A843"/>
+  <!-- Cream background -->
+  <rect x="0" y="10" width="500" height="325" fill="#F5E6C8"/>
+  <!-- Title -->
+  <text x="250" y="45" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Строение тела человека</text>
+  <!-- Subtitle -->
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#555">Организм — единая живая система</text>
+  <!-- Decorative line under title -->
+  <line x1="150" y1="78" x2="350" y2="78" stroke="#C41E3A" stroke-width="1.5" opacity="0.6"/>
+  <!-- Bottom dark bar -->
+  <rect x="0" y="318" width="500" height="32" fill="#1a1a1a"/>
+  <!-- Gold accent on bottom bar -->
+  <rect x="0" y="316" width="500" height="2" fill="#D4A843"/>
+  <!-- Bottom text -->
+  <text x="250" y="335" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#F5E6C8">Окружающий мир — 4 класс</text>
+  <!-- Human figure silhouette (Bauhaus geometric) -->
+  <!-- Head -->
+  <circle cx="250" cy="115" r="25" fill="#E8D0B8" stroke="#C0A080" stroke-width="1"/>
+  <!-- Eyes -->
+  <circle cx="241" cy="112" r="3" fill="#1a1a1a"/>
+  <circle cx="259" cy="112" r="3" fill="#1a1a1a"/>
+  <!-- Smile -->
+  <path d="M243,122 Q250,128 257,122" stroke="#C0A080" stroke-width="1" fill="none"/>
+  <!-- Neck -->
+  <rect x="242" y="138" width="16" height="12" fill="#E8D0B8"/>
+  <!-- Torso -->
+  <rect x="210" y="148" width="80" height="70" rx="8" fill="#D0B898" stroke="#B09878" stroke-width="1"/>
+  <!-- Arms -->
+  <rect x="170" y="152" width="42" height="14" rx="7" fill="#D0B898" stroke="#B09878" stroke-width="0.5"/>
+  <rect x="288" y="152" width="42" height="14" rx="7" fill="#D0B898" stroke="#B09878" stroke-width="0.5"/>
+  <!-- Forearms -->
+  <rect x="158" y="164" width="14" height="45" rx="7" fill="#D0B898" stroke="#B09878" stroke-width="0.5"/>
+  <rect x="328" y="164" width="14" height="45" rx="7" fill="#D0B898" stroke="#B09878" stroke-width="0.5"/>
+  <!-- Legs -->
+  <rect x="220" y="216" width="25" height="65" rx="6" fill="#D0B898" stroke="#B09878" stroke-width="0.5"/>
+  <rect x="255" y="216" width="25" height="65" rx="6" fill="#D0B898" stroke="#B09878" stroke-width="0.5"/>
+  <!-- Feet -->
+  <rect x="215" y="278" width="35" height="12" rx="4" fill="#B09878"/>
+  <rect x="250" y="278" width="35" height="12" rx="4" fill="#B09878"/>
+  <!-- Brain in head -->
+  <ellipse cx="250" cy="108" rx="12" ry="10" fill="#E8A0B0" opacity="0.4" stroke="#C08090" stroke-width="0.5"/>
+  <!-- Heart -->
+  <path d="M243,168 Q240,162 246,162 Q250,162 250,168 Q250,162 254,162 Q260,162 257,168 Q250,178 243,168Z" fill="#C41E3A" opacity="0.7"/>
+  <!-- Lungs -->
+  <ellipse cx="235" cy="180" rx="10" ry="16" fill="#E8B0B0" opacity="0.4" stroke="#C09090" stroke-width="0.5"/>
+  <ellipse cx="265" cy="180" rx="10" ry="16" fill="#E8B0B0" opacity="0.4" stroke="#C09090" stroke-width="0.5"/>
+  <!-- Stomach -->
+  <ellipse cx="250" cy="200" rx="12" ry="10" fill="#E8D0A0" opacity="0.5"/>
+  <!-- Labels with lines -->
+  <line x1="262" y1="108" x2="330" y2="95" stroke="#C41E3A" stroke-width="0.5" opacity="0.5"/>
+  <text x="332" y="98" font-family="Arial" font-size="7" fill="#C41E3A">Мозг</text>
+  <line x1="260" y1="170" x2="340" y2="155" stroke="#C41E3A" stroke-width="0.5" opacity="0.5"/>
+  <text x="342" y="158" font-family="Arial" font-size="7" fill="#C41E3A">Сердце</text>
+  <line x1="275" y1="180" x2="350" y2="180" stroke="#C09090" stroke-width="0.5" opacity="0.5"/>
+  <text x="352" y="183" font-family="Arial" font-size="7" fill="#C09090">Лёгкие</text>
+  <!-- Skeleton hint -->
+  <text x="80" y="130" font-family="Arial" font-size="8" fill="#888">206 костей</text>
+  <text x="80" y="145" font-family="Arial" font-size="8" fill="#888">37 трлн клеток</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="350" fill="#0d1926"/>
+  <!-- Robot arm in factory -->
+  <rect x="20" y="200" width="120" height="120" fill="#1a3050" stroke="#4fc3f7" stroke-width="1" opacity="0.5"/>
+  <rect x="35" y="220" width="90" height="60" fill="#0d2137" stroke="#4fc3f7" stroke-width="1.5"/>
+  <!-- Robot arm segments -->
+  <rect x="70" y="120" width="20" height="100" rx="4" fill="#4fc3f7" opacity="0.6" stroke="#81d4fa" stroke-width="1"/>
+  <rect x="80" y="80" width="80" height="18" rx="4" fill="#4fc3f7" opacity="0.5" stroke="#81d4fa" stroke-width="1" transform="rotate(-20,80,90)"/>
+  <!-- Gripper -->
+  <line x1="155" y1="72" x2="170" y2="60" stroke="#81d4fa" stroke-width="3" stroke-linecap="round"/>
+  <line x1="155" y1="72" x2="170" y2="84" stroke="#81d4fa" stroke-width="3" stroke-linecap="round"/>
+  <!-- Conveyor belt -->
+  <rect x="140" y="280" width="140" height="12" rx="6" fill="#263238" stroke="#546e7a" stroke-width="1"/>
+  <rect x="150" y="268" width="25" height="12" fill="#37474f"/>
+  <rect x="190" y="268" width="25" height="12" fill="#37474f"/>
+  <rect x="230" y="268" width="25" height="12" fill="#37474f"/>
+  <!-- Rover -->
+  <rect x="300" y="180" width="80" height="50" rx="8" fill="#1a3050" stroke="#ff8a65" stroke-width="1.5"/>
+  <circle cx="315" cy="240" r="12" fill="#263238" stroke="#ff8a65" stroke-width="1.5"/>
+  <circle cx="365" cy="240" r="12" fill="#263238" stroke="#ff8a65" stroke-width="1.5"/>
+  <!-- Antenna -->
+  <line x1="340" y1="180" x2="340" y2="155" stroke="#ff8a65" stroke-width="1.5"/>
+  <circle cx="340" cy="152" r="4" fill="#ff8a65"/>
+  <!-- Camera/sensor -->
+  <circle cx="378" cy="198" r="8" fill="#0d2137" stroke="#ff8a65" stroke-width="1"/>
+  <circle cx="378" cy="198" r="3" fill="#ff8a65" opacity="0.7"/>
+  <!-- Rover label -->
+  <text x="310" y="215" font-size="8" fill="#ff8a65" opacity="0.6">ROVER</text>
+  <!-- Terrain -->
+  <path d="M290,250 Q310,240 330,250 Q350,260 370,250 Q390,240 420,250 L420,290 L290,290 Z" fill="#1a2332" stroke="#546e7a" stroke-width="0.5"/>
+  <!-- Human and robot handshake -->
+  <!-- Human hand (left) -->
+  <path d="M360,60 Q370,50 380,55 L395,55 Q400,58 398,65 L398,75 Q395,78 390,75 L380,72" fill="#ffcc80" stroke="#e0a050" stroke-width="1"/>
+  <!-- Robot hand (right) -->
+  <rect x="398" y="52" width="40" height="25" rx="4" fill="#4fc3f7" opacity="0.6" stroke="#81d4fa" stroke-width="1"/>
+  <rect x="436" y="48" width="8" height="8" rx="2" fill="#81d4fa"/>
+  <rect x="436" y="58" width="8" height="8" rx="2" fill="#81d4fa"/>
+  <rect x="436" y="68" width="8" height="8" rx="2" fill="#81d4fa"/>
+  <!-- Connection sparkles -->
+  <circle cx="395" cy="55" r="3" fill="#ffeb3b" opacity="0.6"/>
+  <circle cx="400" cy="50" r="2" fill="#ffeb3b" opacity="0.4"/>
+  <text x="340" y="95" font-size="10" fill="#81d4fa" opacity="0.7">Человек + Робот</text>
+  <!-- Title labels -->
+  <text x="45" y="320" font-size="9" fill="#4fc3f7" opacity="0.5">Манипулятор</text>
+  <text x="295" y="280" font-size="9" fill="#ff8a65" opacity="0.5">Марсоход</text>
+  <text x="200" y="340" font-size="9" fill="#fff" opacity="0.5">Что такое робототехника</text>
+</svg>

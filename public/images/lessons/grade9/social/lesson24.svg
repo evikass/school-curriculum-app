@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#44337A"/>
+  <!-- Gavel -->
+  <g transform="translate(250,110)" opacity="0.5">
+    <rect x="-25" y="-10" width="50" height="20" rx="5" fill="#8B7355"/>
+    <line x1="0" y1="10" x2="0" y2="50" stroke="#8B7355" stroke-width="6"/>
+    <rect x="-30" y="50" width="60" height="8" rx="2" fill="#8B7355"/>
+  </g>
+  <!-- 4 types -->
+  <g opacity="0.5">
+    <rect x="30" y="190" width="100" height="30" rx="5" fill="#C53030"/><text x="80" y="210" text-anchor="middle" font-size="9" fill="#FFF">Уголовная</text>
+    <rect x="145" y="190" width="100" height="30" rx="5" fill="#D69E2E"/><text x="195" y="210" text-anchor="middle" font-size="9" fill="#FFF">Администр.</text>
+    <rect x="260" y="190" width="100" height="30" rx="5" fill="#3182CE"/><text x="310" y="210" text-anchor="middle" font-size="9" fill="#FFF">Гражданская</text>
+    <rect x="375" y="190" width="100" height="30" rx="5" fill="#38A169"/><text x="425" y="210" text-anchor="middle" font-size="9" fill="#FFF">Дисциплин.</text>
+  </g>
+  <!-- Severity arrow -->
+  <g opacity="0.4">
+    <line x1="80" y1="240" x2="425" y2="240" stroke="#E2E8F0" stroke-width="2"/>
+    <polygon points="425,235 440,240 425,245" fill="#E2E8F0"/>
+    <text x="250" y="260" text-anchor="middle" font-size="8" fill="#E2E8F0">Строгость →</text>
+  </g>
+  <text x="250" y="310" text-anchor="middle" font-size="14" fill="#E2E8F0" font-weight="bold" opacity="0.6">Юридическая ответственность</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#E2E8F0" opacity="0.5">Юридическая ответственность</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#0f3460"/><stop offset="100%" style="stop-color:#1a1a2e"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <text x="250" y="25" text-anchor="middle" fill="#f1c40f" font-size="14" font-weight="bold">А.С. Пушкин (1799–1837)</text>
+  <text x="250" y="42" text-anchor="middle" fill="white" font-size="10">«Солнце русской поэзии»</text>
+  <!-- Eugene Onegin structure -->
+  <rect x="30" y="55" width="440" height="45" rx="6" fill="#0f3460" stroke="#f1c40f" stroke-width="1.5"/>
+  <text x="250" y="82" text-anchor="middle" fill="#f1c40f" font-size="12" font-weight="bold">«Евгений Онегин» — энциклопедия русской жизни</text>
+  <!-- Two characters -->
+  <rect x="30" y="110" width="210" height="80" rx="8" fill="#2c3e50" opacity="0.8" stroke="#e74c3c" stroke-width="1"/>
+  <text x="135" y="135" text-anchor="middle" fill="#e74c3c" font-size="12" font-weight="bold">Онегин</text>
+  <text x="135" y="155" text-anchor="middle" fill="white" font-size="9">«Лишний человек»</text>
+  <text x="135" y="170" text-anchor="middle" fill="white" font-size="9">Разочарованный аристократ</text>
+  <text x="135" y="183" text-anchor="middle" fill="white" font-size="9">Не нашёл применения силам</text>
+  <rect x="260" y="110" width="210" height="80" rx="8" fill="#2c3e50" opacity="0.8" stroke="#9b59b6" stroke-width="1"/>
+  <text x="365" y="135" text-anchor="middle" fill="#9b59b6" font-size="12" font-weight="bold">Татьяна</text>
+  <text x="365" y="155" text-anchor="middle" fill="white" font-size="9">«Милый идеал» Пушкина</text>
+  <text x="365" y="170" text-anchor="middle" fill="white" font-size="9">«Русская душою»</text>
+  <text x="365" y="183" text-anchor="middle" fill="white" font-size="9">Верная долгу</text>
+  <!-- Lyric themes -->
+  <rect x="30" y="205" width="90" height="50" rx="5" fill="#8e44ad" opacity="0.7"/>
+  <text x="75" y="228" text-anchor="middle" fill="white" font-size="9">Свобода</text>
+  <text x="75" y="245" text-anchor="middle" fill="white" font-size="8">«К Чаадаеву»</text>
+  <rect x="125" y="205" width="90" height="50" rx="5" fill="#e74c3c" opacity="0.7"/>
+  <text x="170" y="228" text-anchor="middle" fill="white" font-size="9">Любовь</text>
+  <text x="170" y="245" text-anchor="middle" fill="white" font-size="8">«Я вас любил»</text>
+  <rect x="220" y="205" width="90" height="50" rx="5" fill="#f1c40f" opacity="0.6"/>
+  <text x="265" y="228" text-anchor="middle" fill="white" font-size="9">Дружба</text>
+  <text x="265" y="245" text-anchor="middle" fill="white" font-size="8">«19 октября»</text>
+  <rect x="315" y="205" width="90" height="50" rx="5" fill="#27ae60" opacity="0.7"/>
+  <text x="360" y="228" text-anchor="middle" fill="white" font-size="9">Философия</text>
+  <text x="360" y="245" text-anchor="middle" fill="white" font-size="8">«Пророк»</text>
+  <rect x="410" y="205" width="70" height="50" rx="5" fill="#4fc3f7" opacity="0.7"/>
+  <text x="445" y="228" text-anchor="middle" fill="white" font-size="9">Природа</text>
+  <text x="445" y="245" text-anchor="middle" fill="white" font-size="8">«Осень»</text>
+  <!-- Quote -->
+  <rect x="30" y="270" width="440" height="45" rx="6" fill="#0f3460" stroke="#f1c40f" stroke-width="1"/>
+  <text x="250" y="290" text-anchor="middle" fill="#f1c40f" font-size="10" font-style="italic">«Я вас любил: любовь ещё, быть может…»</text>
+  <text x="250" y="307" text-anchor="middle" fill="white" font-size="9">Шедевр любовной лирики</text>
+  <text x="250" y="345" text-anchor="middle" fill="white" font-size="9" opacity="0.5">А.С. Пушкин</text>
+</svg>

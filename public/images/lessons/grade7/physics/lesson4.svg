@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#FAFAFA"/>
+<rect x="40" y="40" width="200" height="270" fill="#F5F5F5" stroke="#9E9E9E" stroke-width="1"/>
+<rect x="130" y="60" width="4" height="60" fill="#78909C"/>
+<line x1="80" y1="60" x2="185" y2="60" stroke="#546E7A" stroke-width="3"/>
+<path d="M132,120 Q132,160 132,180" fill="none" stroke="#E53935" stroke-width="4"/>
+<ellipse cx="132" cy="185" rx="25" ry="12" fill="#FF5252" opacity="0.3"/>
+<path d="M132,120 Q120,140 115,165" fill="none" stroke="#42A5F5" stroke-width="3" stroke-dasharray="6,3"/>
+<path d="M132,120 Q145,140 150,165" fill="none" stroke="#42A5F5" stroke-width="3" stroke-dasharray="6,3"/>
+<line x1="90" y1="185" x2="175" y2="185" stroke="#E53935" stroke-width="2"/>
+<polygon points="175,182 185,185 175,188" fill="#E53935"/>
+<text x="155" y="200" font-size="10" fill="#C62828">F</text>
+<text x="167" y="196" font-size="7" fill="#C62828">упр</text>
+<text x="130" y="225" font-size="10" fill="#1565C0" text-anchor="middle" font-style="italic">F = kΔx</text>
+<text x="130" y="240" font-size="8" fill="#42A5F5" text-anchor="middle">закон Гука</text>
+<rect x="290" y="40" width="190" height="270" fill="#FFF8E1" stroke="#FF8F00" stroke-width="1"/>
+<rect x="330" y="140" width="70" height="50" rx="3" fill="#8D6E63" stroke="#5D4037" stroke-width="1.5"/>
+<text x="365" y="170" font-size="9" fill="#FFF" text-anchor="middle">брусок</text>
+<line x1="310" y1="195" x2="440" y2="195" stroke="#5D4037" stroke-width="2"/>
+<line x1="400" y1="140" x2="460" y2="140" stroke="#FF8F00" stroke-width="2.5"/>
+<polygon points="460,137 472,140 460,143" fill="#FF8F00"/>
+<text x="440" y="133" font-size="10" fill="#E65100">F</text>
+<line x1="330" y1="195" x2="400" y2="195" stroke="#F44336" stroke-width="2.5" stroke-dasharray="4,3"/>
+<polygon points="330,192 320,195 330,198" fill="#F44336"/>
+<text x="355" y="212" font-size="10" fill="#C62828">F</text>
+<text x="366" y="208" font-size="7" fill="#C62828">тр</text>
+<text x="365" y="245" font-size="9" fill="#5D4037" text-anchor="middle">F</text>
+<text x="375" y="241" font-size="6" fill="#5D4037">тр</text>
+<text x="395" y="245" font-size="9" fill="#5D4037">= μN</text>
+<text x="365" y="270" font-size="8" fill="#8D6E63" text-anchor="middle">μ — коэфф. трения</text>
+<text x="250" y="345" font-size="9" fill="#666" text-anchor="middle" opacity="0.5">Сила упругости и сила трения</text>
+</svg>

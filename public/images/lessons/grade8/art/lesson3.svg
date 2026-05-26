@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="panelBg1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF5E6"/>
+      <stop offset="100%" stop-color="#F0E0C8"/>
+    </linearGradient>
+    <linearGradient id="panelBg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8F0E8"/>
+      <stop offset="100%" stop-color="#C8DCC8"/>
+    </linearGradient>
+    <linearGradient id="panelBg3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0E8F0"/>
+      <stop offset="100%" stop-color="#D8C8D8"/>
+    </linearGradient>
+    <linearGradient id="panelBg4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8E8F0"/>
+      <stop offset="100%" stop-color="#C8C8D8"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="#F5F0EA"/>
+  <!-- Dividing lines -->
+  <line x1="250" y1="15" x2="250" y2="325" stroke="#B8A888" stroke-width="2"/>
+  <line x1="15" y1="170" x2="485" y2="170" stroke="#B8A888" stroke-width="2"/>
+  
+  <!-- Panel 1: Portrait (top-left) -->
+  <rect x="15" y="15" width="235" height="155" rx="5" fill="url(#panelBg1)" stroke="#C8A868" stroke-width="1.5"/>
+  <!-- Portrait frame -->
+  <rect x="75" y="30" width="120" height="125" rx="3" fill="#8B6914" stroke="#6B4E12" stroke-width="2"/>
+  <rect x="80" y="35" width="110" height="115" rx="2" fill="#FAEBD7"/>
+  <!-- Face in portrait -->
+  <ellipse cx="135" cy="75" rx="25" ry="30" fill="#DEB887"/>
+  <ellipse cx="127" cy="68" rx="4" ry="3" fill="#333"/>
+  <ellipse cx="143" cy="68" rx="4" ry="3" fill="#333"/>
+  <path d="M130 82 Q135 86 140 82" fill="none" stroke="#A0705A" stroke-width="1"/>
+  <path d="M120 55 Q125 48 135 46 Q145 48 150 55" fill="#5A3A20"/>
+  <!-- Shoulders -->
+  <path d="M110 105 Q135 95 160 105 L160 140 L110 140 Z" fill="#4A6A8A"/>
+  <text x="132" y="158" text-anchor="middle" font-size="8" fill="#6B4E12" font-family="sans-serif">Портрет</text>
+
+  <!-- Panel 2: Landscape (top-right) -->
+  <rect x="255" y="15" width="230" height="155" rx="5" fill="url(#panelBg2)" stroke="#68A868" stroke-width="1.5"/>
+  <!-- Landscape scene -->
+  <!-- Sky -->
+  <rect x="270" y="30" width="200" height="70" fill="#87CEEB"/>
+  <!-- Sun -->
+  <circle cx="430" cy="55" r="15" fill="#FFD700"/>
+  <!-- Mountains -->
+  <path d="M270 90 L310 50 L350 85 L390 45 L430 75 L470 55 L470 100 L270 100 Z" fill="#6B8E5A"/>
+  <!-- Lake -->
+  <ellipse cx="370" cy="115" rx="80" ry="15" fill="#5B9BD5"/>
+  <!-- Trees -->
+  <polygon points="285,95 290,60 295,95" fill="#2E5A1E"/>
+  <polygon points="300,95 306,55 312,95" fill="#3A6B2A"/>
+  <polygon points="440,95 446,55 452,95" fill="#2E5A1E"/>
+  <!-- Foreground -->
+  <path d="M270 120 Q370 110 470 120 L470 140 L270 140 Z" fill="#7AAA5A"/>
+  <text x="370" y="158" text-anchor="middle" font-size="8" fill="#3A5A2A" font-family="sans-serif">Пейзаж</text>
+
+  <!-- Panel 3: Still life (bottom-left) -->
+  <rect x="15" y="175" width="235" height="150" rx="5" fill="url(#panelBg3)" stroke="#A868A8" stroke-width="1.5"/>
+  <!-- Table -->
+  <rect x="30" y="270" width="205" height="8" rx="2" fill="#8B6914"/>
+  <!-- Vase -->
+  <path d="M115 270 Q100 240 105 210 Q110 195 130 190 Q150 195 155 210 Q160 240 145 270 Z" fill="#4A7A9A" stroke="#3A6080" stroke-width="1"/>
+  <ellipse cx="130" cy="190" rx="25" ry="6" fill="#5A8AAA"/>
+  <!-- Flowers from vase -->
+  <line x1="125" y1="190" x2="115" y2="155" stroke="#3A8A3A" stroke-width="1.5"/>
+  <line x1="130" y1="190" x2="130" y2="145" stroke="#3A8A3A" stroke-width="1.5"/>
+  <line x1="135" y1="190" x2="145" y2="150" stroke="#3A8A3A" stroke-width="1.5"/>
+  <circle cx="115" cy="152" r="7" fill="#E84060"/>
+  <circle cx="130" cy="142" r="7" fill="#E8C040"/>
+  <circle cx="145" cy="147" r="7" fill="#D040D0"/>
+  <circle cx="115" cy="152" r="3" fill="#FFD700"/>
+  <circle cx="130" cy="142" r="3" fill="#8B4513"/>
+  <circle cx="145" cy="147" r="3" fill="#FFD700"/>
+  <!-- Fruit -->
+  <circle cx="80" cy="265" r="12" fill="#E84040"/>
+  <circle cx="95" cy="260" r="10" fill="#FFB030"/>
+  <circle cx="170" cy="263" r="11" fill="#80C040"/>
+  <ellipse cx="185" cy="258" rx="8" ry="10" fill="#9040C0"/>
+  <!-- Shadow under fruit -->
+  <ellipse cx="85" cy="275" rx="15" ry="3" fill="#000" opacity="0.1"/>
+  <text x="132" y="313" text-anchor="middle" font-size="8" fill="#7A3A7A" font-family="sans-serif">Натюрморт</text>
+
+  <!-- Panel 4: Historical (bottom-right) -->
+  <rect x="255" y="175" width="230" height="150" rx="5" fill="url(#panelBg4)" stroke="#6868A8" stroke-width="1.5"/>
+  <!-- Historical battle scene -->
+  <!-- Sky with clouds of smoke -->
+  <rect x="270" y="190" width="200" height="65" fill="#C8B8A8"/>
+  <!-- Battle scene background -->
+  <path d="M270 240 L310 210 L350 235 L390 205 L430 225 L470 215 L470 250 L270 250 Z" fill="#8B7355" opacity="0.5"/>
+  <!-- Warriors on horseback -->
+  <!-- Horse 1 -->
+  <path d="M300 240 L310 225 L325 230 L330 240 L325 242 L320 238 L305 242 Z" fill="#6A4A2A"/>
+  <line x1="310" y1="225" x2="308" y2="215" stroke="#6A4A2A" stroke-width="2"/>
+  <line x1="325" y1="230" x2="328" y2="220" stroke="#6A4A2A" stroke-width="2"/>
+  <!-- Rider 1 -->
+  <circle cx="315" cy="218" r="5" fill="#DEB887"/>
+  <path d="M310 222 L315 228 L320 222" fill="#8B0000"/>
+  <!-- Sword -->
+  <line x1="320" y1="220" x2="340" y2="210" stroke="#C0C0C0" stroke-width="1.5"/>
+  <!-- Horse 2 -->
+  <path d="M380 240 L390 228 L405 232 L410 240 L405 242 L400 238 L385 242 Z" fill="#5A3A1A"/>
+  <!-- Rider 2 -->
+  <circle cx="395" cy="220" r="5" fill="#DEB887"/>
+  <path d="M390 224 L395 230 L400 224" fill="#2A2A6A"/>
+  <!-- Flag -->
+  <line x1="340" y1="200" x2="340" y2="240" stroke="#8B6914" stroke-width="2"/>
+  <polygon points="340,200 365,207 340,214" fill="#CC0000"/>
+  <!-- Ground -->
+  <path d="M270 248 L470 248 L470 265 L270 265 Z" fill="#8B7355"/>
+  <text x="370" y="313" text-anchor="middle" font-size="8" fill="#3A3A6A" font-family="sans-serif">Исторический</text>
+
+  <text x="250" y="340" text-anchor="middle" font-size="9" opacity="0.5" font-family="sans-serif">Жанры изобразительного искусства</text>
+</svg>

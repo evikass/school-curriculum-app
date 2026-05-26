@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="floor11" x1="0" y1="280" x2="0" y2="320">
+      <stop offset="0%" stop-color="#2a2a3e"/>
+      <stop offset="100%" stop-color="#1a1a2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="#1a1a2e"/>
+  <!-- Museum interior - back wall -->
+  <rect x="40" y="30" width="420" height="250" fill="#2a2a3e" opacity="0.5"/>
+  <!-- Floor -->
+  <rect x="40" y="280" width="420" height="40" fill="url(#floor11)" opacity="0.6"/>
+  <!-- Floor pattern -->
+  <line x1="40" y1="290" x2="460" y2="290" stroke="#3a3a5c" stroke-width="0.5" opacity="0.3"/>
+  <line x1="40" y1="300" x2="460" y2="300" stroke="#3a3a5c" stroke-width="0.5" opacity="0.3"/>
+  <line x1="40" y1="310" x2="460" y2="310" stroke="#3a3a5c" stroke-width="0.5" opacity="0.3"/>
+  <!-- Frame 1 - classic painting -->
+  <rect x="70" y="60" width="80" height="100" rx="2" fill="#5c3d2e" opacity="0.7"/>
+  <rect x="76" y="66" width="68" height="88" fill="#1a1a2e"/>
+  <ellipse cx="110" cy="95" rx="15" ry="18" fill="#d4a843" opacity="0.3"/>
+  <path d="M95 115 Q110 105 125 115 L122 145 L98 145 Z" fill="#4d7355" opacity="0.3"/>
+  <!-- Frame 2 - abstract -->
+  <rect x="180" y="55" width="90" height="110" rx="2" fill="#5c3d2e" opacity="0.7"/>
+  <rect x="186" y="61" width="78" height="98" fill="#0f0f1a"/>
+  <circle cx="215" cy="95" r="18" fill="#ff6b6b" opacity="0.3"/>
+  <circle cx="240" cy="110" r="12" fill="#4d96ff" opacity="0.3"/>
+  <rect x="200" y="120" width="30" height="20" fill="#ffd93d" opacity="0.2"/>
+  <!-- Frame 3 - landscape -->
+  <rect x="300" y="60" width="80" height="100" rx="2" fill="#5c3d2e" opacity="0.7"/>
+  <rect x="306" y="66" width="68" height="88" fill="#0a1a2e"/>
+  <path d="M310 130 L335 90 L355 110 L370 80 L375 130 Z" fill="#6bcb77" opacity="0.25"/>
+  <circle cx="360" cy="78" r="8" fill="#ffd93d" opacity="0.3"/>
+  <!-- Sculpture on pedestal -->
+  <rect x="400" y="200" width="40" height="80" fill="#d4c5b0" opacity="0.3"/>
+  <ellipse cx="420" cy="195" rx="15" ry="18" fill="#e8dcc8" opacity="0.4"/>
+  <path d="M410 210 Q420 200 430 210 L428 235 L412 235 Z" fill="#e8dcc8" opacity="0.3"/>
+  <!-- Bench -->
+  <rect x="150" y="250" width="120" height="5" rx="2" fill="#4a3728" opacity="0.5"/>
+  <rect x="160" y="255" width="5" height="25" fill="#4a3728" opacity="0.4"/>
+  <rect x="255" y="255" width="5" height="25" fill="#4a3728" opacity="0.4"/>
+  <!-- Visitor silhouettes -->
+  <circle cx="100" cy="245" r="8" fill="#3a3a5c" opacity="0.5"/>
+  <path d="M92 253 Q100 248 108 253 L106 275 L94 275 Z" fill="#3a3a5c" opacity="0.5"/>
+  <circle cx="230" cy="240" r="7" fill="#3a3a5c" opacity="0.4"/>
+  <path d="M223 247 Q230 243 237 247 L235 270 L225 270 Z" fill="#3a3a5c" opacity="0.4"/>
+  <!-- Museum label plates -->
+  <rect x="85" y="168" width="50" height="8" rx="1" fill="#e8dcc8" opacity="0.3"/>
+  <rect x="200" y="172" width="50" height="8" rx="1" fill="#e8dcc8" opacity="0.3"/>
+  <rect x="315" y="168" width="50" height="8" rx="1" fill="#e8dcc8" opacity="0.3"/>
+  <!-- Ropes/cordons -->
+  <line x1="60" y1="185" x2="160" y2="185" stroke="#ffd93d" stroke-width="1" opacity="0.3"/>
+  <circle cx="60" cy="185" r="3" fill="#ffd93d" opacity="0.3"/>
+  <circle cx="160" cy="185" r="3" fill="#ffd93d" opacity="0.3"/>
+  <text x="250" y="340" font-size="9" fill="#ffffff" opacity="0.5" text-anchor="middle" font-family="sans-serif">Музеи и галереи мира</text>
+</svg>

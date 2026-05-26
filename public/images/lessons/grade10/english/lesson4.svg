@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8EAF6"/>
+      <stop offset="100%" stop-color="#C5CAE9"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#283593"/>
+      <stop offset="100%" stop-color="#3949AB"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#283593" stroke-width="2.5"/>
+  <text x="250" y="42" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#283593" text-anchor="middle">Урок 4: Reported Speech</text>
+  <text x="250" y="62" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Английский язык — Урок 4</text>
+  <line x1="30" y1="72" x2="470" y2="72" stroke="#283593" stroke-width="2" opacity="0.25"/>
+  <clipPath id="ill"><rect x="15" y="78" width="470" height="220" rx="6"/></clipPath>
+  <g clip-path="url(#ill)">
+    <rect x="15" y="78" width="470" height="220" fill="#E8EAF6" opacity="0.5"/>
+    <line x1="30" y1="90" x2="180" y2="260" stroke="#C62828" stroke-width="3" opacity="0.3"/>
+<line x1="180" y1="90" x2="30" y2="260" stroke="#C62828" stroke-width="3" opacity="0.3"/>
+<line x1="105" y1="90" x2="105" y2="260" stroke="#283593" stroke-width="5" opacity="0.2"/>
+<line x1="30" y1="175" x2="180" y2="175" stroke="#283593" stroke-width="5" opacity="0.2"/>
+<rect x="365" y="224" width="101" height="35" rx="10" fill="white" stroke="#3949AB" stroke-width="1.5"/>
+<polygon points="380,259 390,269 400,259" fill="white" stroke="#3949AB" stroke-width="1"/>
+<text x="415" y="245" font-family="Arial" font-size="10" fill="#3949AB" text-anchor="middle">Excuse me?</text>
+<rect x="236" y="194" width="105" height="50" rx="10" fill="white" stroke="#3F51B5" stroke-width="1.5"/>
+<polygon points="251,244 261,254 271,244" fill="white" stroke="#3F51B5" stroke-width="1"/>
+<text x="288" y="223" font-family="Arial" font-size="10" fill="#3F51B5" text-anchor="middle">Good morning!</text>
+<rect x="241" y="225" width="116" height="53" rx="10" fill="white" stroke="#283593" stroke-width="1.5"/>
+<polygon points="256,278 266,288 276,278" fill="white" stroke="#283593" stroke-width="1"/>
+<text x="299" y="255" font-family="Arial" font-size="10" fill="#283593" text-anchor="middle">Good morning!</text>
+<rect x="127" y="257" width="55" height="20" rx="3" fill="#FF8F00" opacity="0.3"/>
+<text x="154" y="271" font-family="Arial" font-size="8" fill="#E65100" text-anchor="middle">adj</text>
+<rect x="398" y="264" width="55" height="20" rx="3" fill="#FF8F00" opacity="0.3"/>
+<text x="425" y="278" font-family="Arial" font-size="8" fill="#E65100" text-anchor="middle">verb</text>
+  </g>
+  <rect x="12" y="305" width="476" height="35" rx="5" fill="url(#panel)"/>
+  <text x="250" y="328" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Английский язык · 10 класс</text>
+</svg>

@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="wallStill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D4C4A8"/>
+      <stop offset="100%" stop-color="#B8A888"/>
+    </linearGradient>
+    <linearGradient id="tableGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8B6E4E"/>
+      <stop offset="100%" stop-color="#6B4E2E"/>
+    </linearGradient>
+    <linearGradient id="vaseGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2A5A7A"/>
+      <stop offset="40%" stop-color="#4A8AAA"/>
+      <stop offset="100%" stop-color="#2A5A7A"/>
+    </linearGradient>
+    <radialGradient id="appleGrad" cx="35%" cy="35%">
+      <stop offset="0%" stop-color="#FF6B6B"/>
+      <stop offset="100%" stop-color="#CC2222"/>
+    </radialGradient>
+    <radialGradient id="orangeGrad" cx="35%" cy="35%">
+      <stop offset="0%" stop-color="#FFB347"/>
+      <stop offset="100%" stop-color="#E08020"/>
+    </radialGradient>
+    <radialGradient id="grapeGrad" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#9B59B6"/>
+      <stop offset="100%" stop-color="#6B2A8A"/>
+    </radialGradient>
+  </defs>
+  <!-- Wall background -->
+  <rect width="500" height="350" fill="url(#wallStill)"/>
+  
+  <!-- Light from upper left -->
+  <path d="M0 0 L200 0 L100 350 L0 350 Z" fill="#FFF8DC" opacity="0.15"/>
+  
+  <!-- Table top -->
+  <path d="M30 230 L470 230 L470 240 L30 240 Z" fill="url(#tableGrad)"/>
+  <!-- Table front -->
+  <rect x="30" y="240" width="440" height="80" fill="#6B4E2E"/>
+  <!-- Table edge highlight -->
+  <line x1="30" y1="240" x2="470" y2="240" stroke="#9B7E5E" stroke-width="1"/>
+  
+  <!-- Table cloth drape -->
+  <path d="M30 240 L30 320 Q80 315 130 320 Q180 315 230 320 Q280 315 330 320 Q380 315 430 320 Q460 318 470 320 L470 240 Z" fill="#C8B8A0" opacity="0.3"/>
+  
+  <!-- Cloth -->
+  <rect x="80" y="215" width="340" height="25" rx="2" fill="#E8DCC8" stroke="#D0C0A0" stroke-width="0.5"/>
+  
+  <!-- Vase -->
+  <path d="M210 215 Q195 185 200 155 Q205 135 225 128 Q245 122 260 128 Q280 135 285 155 Q290 185 275 215 Z" fill="url(#vaseGrad)" stroke="#1A4A6A" stroke-width="1"/>
+  <!-- Vase highlight -->
+  <path d="M220 145 Q225 135 235 132 Q240 135 238 145" fill="#6AACCA" opacity="0.5"/>
+  <!-- Vase rim -->
+  <ellipse cx="243" cy="128" rx="22" ry="6" fill="#3A7A9A" stroke="#1A4A6A" stroke-width="0.5"/>
+  <!-- Vase decorative pattern -->
+  <path d="M210 180 Q243 175 275 180" fill="none" stroke="#6AACCA" stroke-width="0.8"/>
+  <path d="M208 190 Q243 185 278 190" fill="none" stroke="#6AACCA" stroke-width="0.5"/>
+  
+  <!-- Flowers -->
+  <!-- Stems -->
+  <path d="M235 128 Q230 100 220 80" stroke="#3A8A3A" stroke-width="2" fill="none"/>
+  <path d="M240 128 Q240 95 245 70" stroke="#3A8A3A" stroke-width="2" fill="none"/>
+  <path d="M250 128 Q255 100 265 78" stroke="#3A8A3A" stroke-width="2" fill="none"/>
+  <path d="M230 128 Q225 105 215 85" stroke="#3A8A3A" stroke-width="1.5" fill="none"/>
+  <path d="M255 128 Q265 105 275 88" stroke="#3A8A3A" stroke-width="1.5" fill="none"/>
+  <!-- Leaves -->
+  <path d="M228 105 Q220 100 215 108 Q220 105 228 105" fill="#3A8A3A"/>
+  <path d="M252 98 Q260 92 265 100 Q258 97 252 98" fill="#3A8A3A"/>
+  <!-- Flower heads -->
+  <circle cx="220" cy="78" r="10" fill="#E84060"/>
+  <circle cx="245" cy="68" r="10" fill="#F0C040"/>
+  <circle cx="265" cy="76" r="10" fill="#D060A0"/>
+  <circle cx="215" cy="83" r="8" fill="#F08080"/>
+  <circle cx="275" cy="86" r="8" fill="#FFA0C0"/>
+  <!-- Flower centers -->
+  <circle cx="220" cy="78" r="4" fill="#FFD700"/>
+  <circle cx="245" cy="68" r="4" fill="#8B4513"/>
+  <circle cx="265" cy="76" r="4" fill="#FFD700"/>
+  <circle cx="215" cy="83" r="3" fill="#FFD700"/>
+  <circle cx="275" cy="86" r="3" fill="#FFD700"/>
+  <!-- Petal details -->
+  <g opacity="0.3" fill="#FFF">
+    <ellipse cx="215" cy="73" rx="3" ry="2"/>
+    <ellipse cx="240" cy="63" rx="3" ry="2"/>
+    <ellipse cx="260" cy="71" rx="3" ry="2"/>
+  </g>
+  
+  <!-- Apple -->
+  <circle cx="120" cy="205" r="18" fill="url(#appleGrad)"/>
+  <path d="M120 188 Q123 184 126 188" stroke="#5A3A1A" stroke-width="1" fill="none"/>
+  <ellipse cx="115" cy="198" rx="4" ry="6" fill="#FF8B8B" opacity="0.4"/>
+  
+  <!-- Orange -->
+  <circle cx="155" cy="208" r="15" fill="url(#orangeGrad)"/>
+  <ellipse cx="150" cy="202" rx="3" ry="5" fill="#FFCC66" opacity="0.3"/>
+  
+  <!-- Grapes cluster -->
+  <circle cx="340" cy="195" r="7" fill="url(#grapeGrad)"/>
+  <circle cx="352" cy="198" r="7" fill="url(#grapeGrad)"/>
+  <circle cx="340" cy="207" r="7" fill="url(#grapeGrad)"/>
+  <circle cx="352" cy="210" r="7" fill="url(#grapeGrad)"/>
+  <circle cx="346" cy="200" r="7" fill="#8B4AAB"/>
+  <circle cx="346" cy="218" r="7" fill="url(#grapeGrad)"/>
+  <!-- Grape stem -->
+  <path d="M346 188 Q348 180 345 172" stroke="#5A3A1A" stroke-width="1.5" fill="none"/>
+  <path d="M345 178 Q350 175 355 178" stroke="#3A8A3A" stroke-width="1" fill="none"/>
+  
+  <!-- Lemon -->
+  <ellipse cx="380" cy="208" rx="12" ry="9" fill="#F0E040"/>
+  <ellipse cx="375" cy="205" rx="3" ry="4" fill="#F8F080" opacity="0.4"/>
+  
+  <!-- Wine glass -->
+  <path d="M410 130 Q410 165 395 185 L430 185 Q415 165 415 130 Z" fill="#E8E8F0" stroke="#C0C0D0" stroke-width="0.5" opacity="0.7"/>
+  <ellipse cx="412" cy="130" rx="15" ry="4" fill="#E8E8F0" stroke="#C0C0D0" stroke-width="0.5" opacity="0.7"/>
+  <ellipse cx="412" cy="130" rx="13" ry="3" fill="#8B0000" opacity="0.5"/>
+  <line x1="412" y1="185" x2="412" y2="210" stroke="#C0C0D0" stroke-width="1"/>
+  <ellipse cx="412" cy="212" rx="10" ry="3" fill="#E8E8F0" stroke="#C0C0D0" stroke-width="0.5" opacity="0.7"/>
+  
+  <!-- Shadows on table -->
+  <ellipse cx="120" cy="222" rx="20" ry="4" fill="#000" opacity="0.08"/>
+  <ellipse cx="155" cy="222" rx="16" ry="3" fill="#000" opacity="0.08"/>
+  <ellipse cx="345" cy="225" rx="25" ry="4" fill="#000" opacity="0.08"/>
+  <ellipse cx="243" cy="218" rx="30" ry="5" fill="#000" opacity="0.08"/>
+  
+  <text x="250" y="340" text-anchor="middle" font-size="9" opacity="0.5" font-family="sans-serif">Натюрморт</text>
+</svg>

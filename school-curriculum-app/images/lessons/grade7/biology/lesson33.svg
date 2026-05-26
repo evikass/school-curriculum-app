@@ -1,0 +1,277 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+<linearGradient id="petalG" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#E91E63"/><stop offset="100%" stop-color="#F48FB1"/></linearGradient>
+<linearGradient id="sepalG" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#2E7D32"/><stop offset="100%" stop-color="#66BB6A"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="26" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#2E7D32" text-anchor="middle">Цветок. Соцветия</text>
+<text x="250" y="40" font-family="Arial,sans-serif" font-size="9" fill="#888" text-anchor="middle">Биология 7 класс — Урок 33</text>
+<line x1="30" y1="46" x2="470" y2="46" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+
+<!-- ====== FLOWER ANATOMY (left half, large) ====== -->
+<text x="120" y="62" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Строение цветка</text>
+
+<g transform="translate(30,68)">
+  <!-- Pedicel - цветоножка -->
+  <line x1="90" y1="165" x2="90" y2="195" stroke="#388E3C" stroke-width="3"/>
+  <text x="60" y="190" font-family="Arial,sans-serif" font-size="6" fill="#333">Цветоножка</text>
+
+  <!-- Receptacle - цветоложе -->
+  <ellipse cx="90" cy="162" rx="18" ry="6" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1"/>
+  <text x="115" y="168" font-family="Arial,sans-serif" font-size="6" fill="#333">Цветоложе</text>
+
+  <!-- Sepals - чашелистики -->
+  <path d="M75,155 Q60,145 55,130 Q60,135 70,140Z" fill="url(#sepalG)" stroke="#1B5E20" stroke-width="0.8"/>
+  <path d="M80,158 Q70,140 72,120 Q78,130 82,145Z" fill="url(#sepalG)" stroke="#1B5E20" stroke-width="0.8"/>
+  <path d="M100,158 Q110,140 108,120 Q102,130 98,145Z" fill="url(#sepalG)" stroke="#1B5E20" stroke-width="0.8"/>
+  <path d="M105,155 Q120,145 125,130 Q120,135 110,140Z" fill="url(#sepalG)" stroke="#1B5E20" stroke-width="0.8"/>
+  <text x="130" y="138" font-family="Arial,sans-serif" font-size="6" fill="#333">Чашелистики</text>
+
+  <!-- Petals - лепестки -->
+  <path d="M85,148 Q60,115 55,85 Q65,95 78,120Z" fill="url(#petalG)" stroke="#C2185B" stroke-width="0.8" opacity="0.9"/>
+  <path d="M78,145 Q45,120 40,90 Q55,100 72,118Z" fill="url(#petalG)" stroke="#C2185B" stroke-width="0.8" opacity="0.85"/>
+  <path d="M95,148 Q120,115 125,85 Q115,95 102,120Z" fill="url(#petalG)" stroke="#C2185B" stroke-width="0.8" opacity="0.9"/>
+  <path d="M102,145 Q135,120 140,90 Q125,100 108,118Z" fill="url(#petalG)" stroke="#C2185B" stroke-width="0.8" opacity="0.85"/>
+  <path d="M88,145 Q75,105 80,72 Q88,88 90,115Z" fill="url(#petalG)" stroke="#C2185B" stroke-width="0.8" opacity="0.88"/>
+  <path d="M92,145 Q105,105 100,72 Q92,88 90,115Z" fill="url(#petalG)" stroke="#C2185B" stroke-width="0.8" opacity="0.88"/>
+  <text x="140" y="95" font-family="Arial,sans-serif" font-size="6" fill="#333">Лепестки</text>
+
+  <!-- Stamens - тычинки -->
+  <!-- Stamen 1 -->
+  <line x1="75" y1="140" x2="68" y2="100" stroke="#FFB300" stroke-width="1"/>
+  <ellipse cx="66" cy="96" rx="5" ry="7" fill="#FFD54F" stroke="#F9A825" stroke-width="0.8"/>
+  <!-- Stamen 2 -->
+  <line x1="80" y1="140" x2="78" y2="98" stroke="#FFB300" stroke-width="1"/>
+  <ellipse cx="77" cy="94" rx="5" ry="7" fill="#FFD54F" stroke="#F9A825" stroke-width="0.8"/>
+  <!-- Stamen 3 -->
+  <line x1="100" y1="140" x2="102" y2="98" stroke="#FFB300" stroke-width="1"/>
+  <ellipse cx="103" cy="94" rx="5" ry="7" fill="#FFD54F" stroke="#F9A825" stroke-width="0.8"/>
+  <!-- Stamen 4 -->
+  <line x1="105" y1="140" x2="112" y2="100" stroke="#FFB300" stroke-width="1"/>
+  <ellipse cx="114" cy="96" rx="5" ry="7" fill="#FFD54F" stroke="#F9A825" stroke-width="0.8"/>
+  <!-- Stamen labels -->
+  <line x1="68" y1="96" x2="40" y2="85" stroke="#555" stroke-width="0.4"/>
+  <text x="8" y="82" font-family="Arial,sans-serif" font-size="5.5" fill="#333">Пыльник</text>
+  <line x1="75" y1="120" x2="40" y2="105" stroke="#555" stroke-width="0.4"/>
+  <text x="8" y="108" font-family="Arial,sans-serif" font-size="5.5" fill="#333">Нить тычинки</text>
+
+  <!-- Pistil - пестик -->
+  <!-- Stigma - рыльце -->
+  <path d="M87,65 Q90,55 93,65" fill="#9C27B0" stroke="#6A1B9A" stroke-width="1"/>
+  <path d="M85,65 Q90,50 95,65" fill="none" stroke="#6A1B9A" stroke-width="1.2"/>
+  <!-- Style - столбик -->
+  <line x1="90" y1="65" x2="90" y2="140" stroke="#9C27B0" stroke-width="1.5"/>
+  <!-- Ovary - завязь -->
+  <ellipse cx="90" cy="150" rx="10" ry="8" fill="#CE93D8" stroke="#6A1B9A" stroke-width="1"/>
+  <!-- Ovules inside ovary -->
+  <circle cx="87" cy="150" r="2" fill="#E1BEE7" stroke="#6A1B9A" stroke-width="0.5"/>
+  <circle cx="93" cy="150" r="2" fill="#E1BEE7" stroke="#6A1B9A" stroke-width="0.5"/>
+  <!-- Pistil labels -->
+  <line x1="92" y1="55" x2="130" y2="50" stroke="#555" stroke-width="0.4"/>
+  <text x="132" y="50" font-family="Arial,sans-serif" font-size="5.5" fill="#333">Рыльце</text>
+  <line x1="92" y1="100" x2="130" y2="100" stroke="#555" stroke-width="0.4"/>
+  <text x="132" y="100" font-family="Arial,sans-serif" font-size="5.5" fill="#333">Столбик</text>
+  <line x1="100" y1="150" x2="130" y2="150" stroke="#555" stroke-width="0.4"/>
+  <text x="132" y="148" font-family="Arial,sans-serif" font-size="5.5" fill="#333">Завязь</text>
+  <text x="132" y="156" font-family="Arial,sans-serif" font-size="5" fill="#555">(семязачатки)</text>
+
+  <!-- Combined label for stamen -->
+  <line x1="118" y1="96" x2="132" y2="78" stroke="#555" stroke-width="0.4"/>
+  <text x="132" y="72" font-family="Arial,sans-serif" font-size="6" fill="#333">Тычинка</text>
+  <text x="132" y="79" font-family="Arial,sans-serif" font-size="5" fill="#555">(♂ мужской)</text>
+
+  <!-- Combined label for pistil -->
+  <text x="132" y="118" font-family="Arial,sans-serif" font-size="6" fill="#333">Пестик</text>
+  <text x="132" y="125" font-family="Arial,sans-serif" font-size="5" fill="#555">(♀ женский)</text>
+</g>
+
+<!-- ====== SIMPLE INFLORESCENCES (right half, top) ====== -->
+<text x="370" y="62" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Простые соцветия</text>
+
+<!-- Кисть (Raceme) -->
+<g transform="translate(255,68)">
+  <text x="20" y="0" font-family="Arial,sans-serif" font-size="6.5" fill="#1B5E20" text-anchor="middle">Кисть</text>
+  <line x1="20" y1="5" x2="20" y2="55" stroke="#388E3C" stroke-width="1.5"/>
+  <circle cx="20" cy="12" r="4" fill="#F48FB1" stroke="#C2185B" stroke-width="0.5"/>
+  <circle cx="20" cy="22" r="4" fill="#F48FB1" stroke="#C2185B" stroke-width="0.5"/>
+  <circle cx="20" cy="32" r="4" fill="#F48FB1" stroke="#C2185B" stroke-width="0.5"/>
+  <circle cx="20" cy="42" r="4" fill="#F48FB1" stroke="#C2185B" stroke-width="0.5"/>
+  <!-- Pedicels -->
+  <line x1="20" y1="12" x2="30" y2="10" stroke="#66BB6A" stroke-width="0.5"/>
+  <line x1="20" y1="22" x2="30" y2="20" stroke="#66BB6A" stroke-width="0.5"/>
+  <line x1="20" y1="32" x2="30" y2="30" stroke="#66BB6A" stroke-width="0.5"/>
+  <line x1="20" y1="42" x2="30" y2="40" stroke="#66BB6A" stroke-width="0.5"/>
+  <text x="20" y="65" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Черёмуха</text>
+</g>
+
+<!-- Зонтик (Umbel) -->
+<g transform="translate(310,68)">
+  <text x="25" y="0" font-family="Arial,sans-serif" font-size="6.5" fill="#1B5E20" text-anchor="middle">Зонтик</text>
+  <line x1="25" y1="55" x2="25" y2="20" stroke="#388E3C" stroke-width="1.5"/>
+  <!-- Rays from one point -->
+  <line x1="25" y1="20" x2="8" y2="8" stroke="#66BB6A" stroke-width="0.8"/>
+  <line x1="25" y1="20" x2="18" y2="5" stroke="#66BB6A" stroke-width="0.8"/>
+  <line x1="25" y1="20" x2="32" y2="5" stroke="#66BB6A" stroke-width="0.8"/>
+  <line x1="25" y1="20" x2="42" y2="8" stroke="#66BB6A" stroke-width="0.8"/>
+  <circle cx="8" cy="7" r="3.5" fill="#F48FB1" stroke="#C2185B" stroke-width="0.5"/>
+  <circle cx="18" cy="4" r="3.5" fill="#F48FB1" stroke="#C2185B" stroke-width="0.5"/>
+  <circle cx="32" cy="4" r="3.5" fill="#F48FB1" stroke="#C2185B" stroke-width="0.5"/>
+  <circle cx="42" cy="7" r="3.5" fill="#F48FB1" stroke="#C2185B" stroke-width="0.5"/>
+  <text x="25" y="65" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Вишня</text>
+</g>
+
+<!-- Головка (Head/Capitulum) -->
+<g transform="translate(365,68)">
+  <text x="25" y="0" font-family="Arial,sans-serif" font-size="6.5" fill="#1B5E20" text-anchor="middle">Головка</text>
+  <line x1="25" y1="55" x2="25" y2="22" stroke="#388E3C" stroke-width="1.5"/>
+  <!-- Compact round cluster -->
+  <circle cx="25" cy="18" r="12" fill="#81C784" stroke="#2E7D32" stroke-width="0.8"/>
+  <circle cx="20" cy="14" r="3" fill="#F48FB1" stroke="#C2185B" stroke-width="0.4"/>
+  <circle cx="30" cy="14" r="3" fill="#F48FB1" stroke="#C2185B" stroke-width="0.4"/>
+  <circle cx="25" cy="10" r="3" fill="#F48FB1" stroke="#C2185B" stroke-width="0.4"/>
+  <circle cx="18" cy="22" r="3" fill="#F48FB1" stroke="#C2185B" stroke-width="0.4"/>
+  <circle cx="32" cy="22" r="3" fill="#F48FB1" stroke="#C2185B" stroke-width="0.4"/>
+  <circle cx="25" cy="25" r="3" fill="#F48FB1" stroke="#C2185B" stroke-width="0.4"/>
+  <text x="25" y="65" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Клевер</text>
+</g>
+
+<!-- Колос (Spike) -->
+<g transform="translate(420,68)">
+  <text x="15" y="0" font-family="Arial,sans-serif" font-size="6.5" fill="#1B5E20" text-anchor="middle">Колос</text>
+  <line x1="15" y1="5" x2="15" y2="55" stroke="#388E3C" stroke-width="1.5"/>
+  <!-- Sessile flowers attached to axis -->
+  <ellipse cx="15" cy="10" rx="5" ry="3" fill="#F48FB1" stroke="#C2185B" stroke-width="0.4"/>
+  <ellipse cx="15" cy="18" rx="5" ry="3" fill="#F48FB1" stroke="#C2185B" stroke-width="0.4"/>
+  <ellipse cx="15" cy="26" rx="5" ry="3" fill="#F48FB1" stroke="#C2185B" stroke-width="0.4"/>
+  <ellipse cx="15" cy="34" rx="5" ry="3" fill="#F48FB1" stroke="#C2185B" stroke-width="0.4"/>
+  <ellipse cx="15" cy="42" rx="5" ry="3" fill="#F48FB1" stroke="#C2185B" stroke-width="0.4"/>
+  <text x="15" y="65" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Пшеница</text>
+</g>
+
+<!-- Початок (Spadix) -->
+<g transform="translate(460,68)">
+  <text x="15" y="0" font-family="Arial,sans-serif" font-size="6.5" fill="#1B5E20" text-anchor="middle">Початок</text>
+  <line x1="15" y1="5" x2="15" y2="55" stroke="#388E3C" stroke-width="2"/>
+  <!-- Thick axis with embedded flowers -->
+  <rect x="11" y="8" width="8" height="42" rx="3" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5"/>
+  <circle cx="15" cy="14" r="2" fill="#FFD54F" stroke="#F9A825" stroke-width="0.3"/>
+  <circle cx="15" cy="22" r="2" fill="#FFD54F" stroke="#F9A825" stroke-width="0.3"/>
+  <circle cx="15" cy="30" r="2" fill="#FFD54F" stroke="#F9A825" stroke-width="0.3"/>
+  <circle cx="15" cy="38" r="2" fill="#FFD54F" stroke="#F9A825" stroke-width="0.3"/>
+  <circle cx="15" cy="44" r="2" fill="#FFD54F" stroke="#F9A825" stroke-width="0.3"/>
+  <text x="15" y="65" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Кукуруза</text>
+</g>
+
+<!-- Корзинка (Capitulum/Asteraceae head) - second row of infloscences -->
+<text x="370" y="145" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Корзинка и сложные соцветия</text>
+
+<!-- Корзинка -->
+<g transform="translate(255,152)">
+  <text x="25" y="0" font-family="Arial,sans-serif" font-size="6.5" fill="#1B5E20" text-anchor="middle">Корзинка</text>
+  <line x1="25" y1="60" x2="25" y2="42" stroke="#388E3C" stroke-width="1.5"/>
+  <!-- Flat receptacle with many flowers -->
+  <ellipse cx="25" cy="30" rx="22" ry="15" fill="#FFF9C4" stroke="#2E7D32" stroke-width="0.8"/>
+  <!-- Central disc florets -->
+  <circle cx="25" cy="28" r="2" fill="#FFD54F" stroke="#F9A825" stroke-width="0.3"/>
+  <circle cx="21" cy="26" r="2" fill="#FFD54F" stroke="#F9A825" stroke-width="0.3"/>
+  <circle cx="29" cy="26" r="2" fill="#FFD54F" stroke="#F9A825" stroke-width="0.3"/>
+  <circle cx="25" cy="32" r="2" fill="#FFD54F" stroke="#F9A825" stroke-width="0.3"/>
+  <!-- Ray florets (outer petals) -->
+  <path d="M8,25 Q3,18 5,15 Q8,20 12,24" fill="#F48FB1" stroke="#C2185B" stroke-width="0.3"/>
+  <path d="M42,25 Q47,18 45,15 Q42,20 38,24" fill="#F48FB1" stroke="#C2185B" stroke-width="0.3"/>
+  <path d="M15,18 Q10,10 13,7 Q15,13 18,17" fill="#F48FB1" stroke="#C2185B" stroke-width="0.3"/>
+  <path d="M35,18 Q40,10 37,7 Q35,13 32,17" fill="#F48FB1" stroke="#C2185B" stroke-width="0.3"/>
+  <path d="M25,16 Q25,8 25,5 Q25,8 25,16" fill="#F48FB1" stroke="#C2185B" stroke-width="0.3"/>
+  <path d="M12,35 Q5,38 3,42 Q8,38 15,36" fill="#F48FB1" stroke="#C2185B" stroke-width="0.3"/>
+  <path d="M38,35 Q45,38 47,42 Q42,38 35,36" fill="#F48FB1" stroke="#C2185B" stroke-width="0.3"/>
+  <text x="25" y="72" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Подсолнечник</text>
+</g>
+
+<!-- Сложный колос (Compound spike) -->
+<g transform="translate(320,152)">
+  <text x="25" y="0" font-family="Arial,sans-serif" font-size="6.5" fill="#1B5E20" text-anchor="middle">Сложный колос</text>
+  <line x1="25" y1="5" x2="25" y2="58" stroke="#388E3C" stroke-width="2"/>
+  <!-- Spikelets on alternation sides -->
+  <ellipse cx="18" cy="12" rx="7" ry="4" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.5"/>
+  <ellipse cx="32" cy="22" rx="7" ry="4" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.5"/>
+  <ellipse cx="18" cy="32" rx="7" ry="4" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.5"/>
+  <ellipse cx="32" cy="42" rx="7" ry="4" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.5"/>
+  <ellipse cx="18" cy="52" rx="7" ry="4" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.5"/>
+  <text x="25" y="72" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Пшеница, рожь</text>
+</g>
+
+<!-- Сложный зонтик (Compound umbel) -->
+<g transform="translate(385,152)">
+  <text x="30" y="0" font-family="Arial,sans-serif" font-size="6.5" fill="#1B5E20" text-anchor="middle">Сложный зонтик</text>
+  <line x1="30" y1="58" x2="30" y2="22" stroke="#388E3C" stroke-width="1.5"/>
+  <!-- Primary rays -->
+  <line x1="30" y1="22" x2="10" y2="12" stroke="#66BB6A" stroke-width="0.8"/>
+  <line x1="30" y1="22" x2="22" y2="8" stroke="#66BB6A" stroke-width="0.8"/>
+  <line x1="30" y1="22" x2="38" y2="8" stroke="#66BB6A" stroke-width="0.8"/>
+  <line x1="30" y1="22" x2="50" y2="12" stroke="#66BB6A" stroke-width="0.8"/>
+  <!-- Secondary rays (small umbels) -->
+  <line x1="10" y1="12" x2="5" y2="6" stroke="#A5D6A7" stroke-width="0.5"/>
+  <line x1="10" y1="12" x2="13" y2="5" stroke="#A5D6A7" stroke-width="0.5"/>
+  <line x1="10" y1="12" x2="8" y2="4" stroke="#A5D6A7" stroke-width="0.5"/>
+  <circle cx="5" cy="5" r="2" fill="#F48FB1" stroke="#C2185B" stroke-width="0.3"/>
+  <circle cx="13" cy="4" r="2" fill="#F48FB1" stroke="#C2185B" stroke-width="0.3"/>
+  <circle cx="8" cy="3" r="2" fill="#F48FB1" stroke="#C2185B" stroke-width="0.3"/>
+
+  <line x1="22" y1="8" x2="18" y2="3" stroke="#A5D6A7" stroke-width="0.5"/>
+  <line x1="22" y1="8" x2="24" y2="2" stroke="#A5D6A7" stroke-width="0.5"/>
+  <circle cx="18" cy="2" r="2" fill="#F48FB1" stroke="#C2185B" stroke-width="0.3"/>
+  <circle cx="24" cy="1" r="2" fill="#F48FB1" stroke="#C2185B" stroke-width="0.3"/>
+
+  <line x1="38" y1="8" x2="36" y2="3" stroke="#A5D6A7" stroke-width="0.5"/>
+  <line x1="38" y1="8" x2="42" y2="2" stroke="#A5D6A7" stroke-width="0.5"/>
+  <circle cx="36" cy="2" r="2" fill="#F48FB1" stroke="#C2185B" stroke-width="0.3"/>
+  <circle cx="42" cy="1" r="2" fill="#F48FB1" stroke="#C2185B" stroke-width="0.3"/>
+
+  <line x1="50" y1="12" x2="47" y2="6" stroke="#A5D6A7" stroke-width="0.5"/>
+  <line x1="50" y1="12" x2="55" y2="5" stroke="#A5D6A7" stroke-width="0.5"/>
+  <line x1="50" y1="12" x2="52" y2="4" stroke="#A5D6A7" stroke-width="0.5"/>
+  <circle cx="47" cy="5" r="2" fill="#F48FB1" stroke="#C2185B" stroke-width="0.3"/>
+  <circle cx="55" cy="4" r="2" fill="#F48FB1" stroke="#C2185B" stroke-width="0.3"/>
+  <circle cx="52" cy="3" r="2" fill="#F48FB1" stroke="#C2185B" stroke-width="0.3"/>
+  <text x="30" y="72" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Морковь, укроп</text>
+</g>
+
+<!-- Метёлка (Panicle) -->
+<g transform="translate(445,152)">
+  <text x="22" y="0" font-family="Arial,sans-serif" font-size="6.5" fill="#1B5E20" text-anchor="middle">Метёлка</text>
+  <line x1="22" y1="58" x2="22" y2="15" stroke="#388E3C" stroke-width="1.5"/>
+  <!-- Branching branches -->
+  <line x1="22" y1="15" x2="10" y2="8" stroke="#66BB6A" stroke-width="0.6"/>
+  <line x1="22" y1="15" x2="34" y2="8" stroke="#66BB6A" stroke-width="0.6"/>
+  <line x1="22" y1="25" x2="8" y2="18" stroke="#66BB6A" stroke-width="0.6"/>
+  <line x1="22" y1="25" x2="36" y2="18" stroke="#66BB6A" stroke-width="0.6"/>
+  <line x1="22" y1="35" x2="10" y2="28" stroke="#66BB6A" stroke-width="0.6"/>
+  <line x1="22" y1="35" x2="34" y2="28" stroke="#66BB6A" stroke-width="0.6"/>
+  <line x1="22" y1="45" x2="12" y2="38" stroke="#66BB6A" stroke-width="0.6"/>
+  <line x1="22" y1="45" x2="32" y2="38" stroke="#66BB6A" stroke-width="0.6"/>
+  <!-- Tiny flowers at tips -->
+  <circle cx="10" cy="7" r="2" fill="#F48FB1" stroke="#C2185B" stroke-width="0.3"/>
+  <circle cx="34" cy="7" r="2" fill="#F48FB1" stroke="#C2185B" stroke-width="0.3"/>
+  <circle cx="8" cy="17" r="2" fill="#F48FB1" stroke="#C2185B" stroke-width="0.3"/>
+  <circle cx="36" cy="17" r="2" fill="#F48FB1" stroke="#C2185B" stroke-width="0.3"/>
+  <circle cx="10" cy="27" r="2" fill="#F48FB1" stroke="#C2185B" stroke-width="0.3"/>
+  <circle cx="34" cy="27" r="2" fill="#F48FB1" stroke="#C2185B" stroke-width="0.3"/>
+  <circle cx="12" cy="37" r="2" fill="#F48FB1" stroke="#C2185B" stroke-width="0.3"/>
+  <circle cx="32" cy="37" r="2" fill="#F48FB1" stroke="#C2185B" stroke-width="0.3"/>
+  <text x="22" y="72" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Овёс, сирень</text>
+</g>
+
+<!-- Bottom summary bar -->
+<g transform="translate(15,275)">
+  <rect x="0" y="0" width="470" height="42" rx="4" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.5" opacity="0.7"/>
+  <text x="235" y="12" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1B5E20" text-anchor="middle">Значение соцветий</text>
+  <text x="235" y="23" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Соцветия привлекают опылителей • Повышают эффективность опыления</text>
+  <text x="235" y="33" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Цветок = генеративный орган покрытосеменных: тычинки (пыльца) + пестик (семязачатки)</text>
+</g>
+
+<!-- Decorative elements -->
+<path d="M470,325 Q475,315 485,318 Q490,322 483,328 Q476,332 470,325Z" fill="#66BB6A" opacity="0.4"/>
+<path d="M15,325 Q10,315 5,318 Q0,322 7,328 Q14,332 15,325Z" fill="#66BB6A" opacity="0.4"/>
+</svg>

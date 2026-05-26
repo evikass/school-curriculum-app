@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#F1F8E9"/>
+<circle cx="140" cy="140" r="60" fill="#FFF9C4" stroke="#F9A825" stroke-width="2"/>
+<circle cx="140" cy="140" r="40" fill="#FFF176"/>
+<circle cx="140" cy="140" r="18" fill="#FFD54F"/>
+<path d="M155,110 Q170,105 168,120" fill="none" stroke="#F9A825" stroke-width="2"/>
+<path d="M125,170 Q110,175 112,160" fill="none" stroke="#F9A825" stroke-width="2"/>
+<ellipse cx="140" cy="85" rx="8" ry="4" fill="#5D4037"/>
+<rect x="137" y="88" width="6" height="25" fill="#5D4037"/>
+<text x="140" y="80" font-size="8" fill="#5D4037" text-anchor="middle">Д.И.</text>
+<text x="140" y="215" font-size="10" fill="#33691E" text-anchor="middle" font-weight="bold">Менделеев</text>
+<text x="140" y="230" font-size="8" fill="#558B2F" text-anchor="middle">1869 г.</text>
+<rect x="240" y="30" width="240" height="260" fill="#FFF" stroke="#689F38" stroke-width="1.5" rx="4"/>
+<text x="360" y="50" font-size="9" fill="#33691E" text-anchor="middle" font-weight="bold">Фрагмент таблицы</text>
+<rect x="255" y="60" width="45" height="40" fill="#C8E6C9" stroke="#388E3C" stroke-width="1" rx="2"/>
+<text x="277" y="75" font-size="7" fill="#388E3C" text-anchor="middle">1</text>
+<text x="277" y="92" font-size="14" fill="#1B5E20" text-anchor="middle" font-weight="bold">H</text>
+<rect x="410" y="60" width="55" height="40" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1" rx="2"/>
+<text x="437" y="75" font-size="7" fill="#2E7D32" text-anchor="middle">2</text>
+<text x="437" y="92" font-size="14" fill="#1B5E20" text-anchor="middle" font-weight="bold">He</text>
+<rect x="255" y="110" width="45" height="40" fill="#DCEDC8" stroke="#689F38" stroke-width="1" rx="2"/>
+<text x="277" y="125" font-size="7" fill="#689F38" text-anchor="middle">3</text>
+<text x="277" y="142" font-size="14" fill="#33691E" text-anchor="middle" font-weight="bold">Li</text>
+<rect x="310" y="110" width="45" height="40" fill="#DCEDC8" stroke="#689F38" stroke-width="1" rx="2"/>
+<text x="332" y="125" font-size="7" fill="#689F38" text-anchor="middle">4</text>
+<text x="332" y="142" font-size="14" fill="#33691E" text-anchor="middle" font-weight="bold">Be</text>
+<rect x="410" y="110" width="55" height="40" fill="#DCEDC8" stroke="#689F38" stroke-width="1" rx="2"/>
+<text x="437" y="125" font-size="7" fill="#689F38" text-anchor="middle">11</text>
+<text x="437" y="142" font-size="14" fill="#33691E" text-anchor="middle" font-weight="bold">Na</text>
+<line x1="255" y1="165" x2="465" y2="165" stroke="#AED581" stroke-width="1" stroke-dasharray="4,2"/>
+<text x="360" y="180" font-size="8" fill="#558B2F" text-anchor="middle">↕ свойства повторяются</text>
+<rect x="255" y="195" width="45" height="40" fill="#C8E6C9" stroke="#388E3C" stroke-width="1" rx="2"/>
+<text x="277" y="210" font-size="7" fill="#388E3C" text-anchor="middle">11</text>
+<text x="277" y="227" font-size="14" fill="#1B5E20" text-anchor="middle" font-weight="bold">Na</text>
+<rect x="310" y="195" width="45" height="40" fill="#C8E6C9" stroke="#388E3C" stroke-width="1" rx="2"/>
+<text x="332" y="210" font-size="7" fill="#388E3C" text-anchor="middle">12</text>
+<text x="332" y="227" font-size="14" fill="#1B5E20" text-anchor="middle" font-weight="bold">Mg</text>
+<path d="M275,250 Q275,270 310,270 Q345,270 345,250" fill="none" stroke="#F9A825" stroke-width="1.5"/>
+<text x="310" y="285" font-size="8" fill="#F57F17" text-anchor="middle">период</text>
+<text x="250" y="345" font-size="9" fill="#666" text-anchor="middle" opacity="0.5">Периодический закон Д.И. Менделеева</text>
+</svg>

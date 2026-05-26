@@ -1,0 +1,44 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="350" fill="#1a1410"/>
+  <!-- Wood plank with grain -->
+  <rect x="50" y="40" width="200" height="120" rx="4" fill="#5d4037" stroke="#8d6e63" stroke-width="1.5"/>
+  <!-- Wood grain lines -->
+  <path d="M55,55 Q150,50 245,58" fill="none" stroke="#795548" stroke-width="1" opacity="0.6"/>
+  <path d="M55,70 Q150,65 245,72" fill="none" stroke="#795548" stroke-width="1" opacity="0.5"/>
+  <path d="M55,85 Q100,82 150,88 Q200,94 245,86" fill="none" stroke="#795548" stroke-width="1.2" opacity="0.6"/>
+  <path d="M55,100 Q150,95 245,102" fill="none" stroke="#795548" stroke-width="1" opacity="0.5"/>
+  <path d="M55,115 Q120,112 180,118 Q220,122 245,116" fill="none" stroke="#795548" stroke-width="0.8" opacity="0.4"/>
+  <path d="M55,130 Q150,128 245,132" fill="none" stroke="#795548" stroke-width="1" opacity="0.5"/>
+  <!-- Knot defect -->
+  <ellipse cx="160" cy="85" rx="14" ry="10" fill="#4e342e" stroke="#3e2723" stroke-width="1.5"/>
+  <ellipse cx="160" cy="85" rx="8" ry="6" fill="#3e2723"/>
+  <path d="M145,80 Q160,75 175,80" fill="none" stroke="#4e342e" stroke-width="0.8"/>
+  <path d="M148,90 Q160,95 172,90" fill="none" stroke="#4e342e" stroke-width="0.8"/>
+  <text x="138" y="155" font-size="8" fill="#bcaaa4">Сучок (порок)</text>
+  <!-- Crack defect -->
+  <rect x="290" y="40" width="180" height="120" rx="4" fill="#5d4037" stroke="#8d6e63" stroke-width="1.5"/>
+  <path d="M300,50 Q150,50 460,58" fill="none" stroke="#795548" stroke-width="1" opacity="0.5"/>
+  <path d="M300,70 Q400,66 460,72" fill="none" stroke="#795548" stroke-width="1" opacity="0.4"/>
+  <path d="M300,90 Q380,86 460,92" fill="none" stroke="#795548" stroke-width="1" opacity="0.5"/>
+  <path d="M300,110 Q400,106 460,112" fill="none" stroke="#795548" stroke-width="1" opacity="0.4"/>
+  <!-- Crack -->
+  <path d="M350,45 L355,55 L348,65 L356,80 L350,95 L358,110 L352,125 L348,140 L350,155" fill="none" stroke="#1a0e08" stroke-width="2.5"/>
+  <path d="M350,45 L355,55 L348,65 L356,80 L350,95 L358,110 L352,125 L348,140 L350,155" fill="none" stroke="#3e2723" stroke-width="1.5"/>
+  <text x="330" y="172" font-size="8" fill="#bcaaa4">Трещина (порок)</text>
+  <!-- Properties section -->
+  <rect x="30" y="190" width="440" height="120" rx="8" fill="#1a1610" stroke="#6d4c41" stroke-width="1"/>
+  <text x="50" y="215" font-size="12" fill="#bcaaa4" font-weight="bold">Свойства древесины:</text>
+  <!-- Hardness -->
+  <rect x="50" y="228" width="12" height="12" rx="2" fill="#8d6e63"/>
+  <text x="70" y="239" font-size="9" fill="#d7ccc8">Твёрдость — сопротивление вдавливанию</text>
+  <!-- Density -->
+  <rect x="50" y="248" width="12" height="12" rx="2" fill="#a1887f"/>
+  <text x="70" y="259" font-size="9" fill="#d7ccc8">Плотность — масса на единицу объёма</text>
+  <!-- Moisture -->
+  <rect x="50" y="268" width="12" height="12" rx="2" fill="#6d4c41"/>
+  <text x="70" y="279" font-size="9" fill="#d7ccc8">Влажность — содержание воды в древесине</text>
+  <!-- Durability -->
+  <rect x="50" y="288" width="12" height="12" rx="2" fill="#5d4037"/>
+  <text x="70" y="299" font-size="9" fill="#d7ccc8">Прочность — способность выдерживать нагрузки</text>
+  <text x="200" y="340" font-size="9" fill="#fff" opacity="0.5">Свойства и пороки древесины</text>
+</svg>

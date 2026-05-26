@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="100%" stop-color="#FEF3C7" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#92400E" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FFF7ED" />
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#92400E" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#B45309" />
+    </marker>
+    <marker id="arrowAmber" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F59E0B" />
+    </marker>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="8"/>
+  <rect x="0" y="0" width="800" height="4" fill="#B45309" rx="2"/>
+
+  <!-- Header -->
+  <rect x="20" y="15" width="760" height="60" rx="8" fill="url(#headerGrad)" filter="url(#shadow)"/>
+  <text x="40" y="50" font-size="14" fill="#FCD34D" font-weight="bold">Урок 4</text>
+  <text x="130" y="50" font-size="20" fill="#FFFFFF" font-weight="bold">Приготовление блюд из яиц и теста</text>
+    <text x="780" y="55" font-size="13" fill="#F59E0B" text-anchor="end" font-style="italic">Рецепты, техники, правила гигиены</text>
+
+  <!-- Egg cross-section -->
+  <ellipse cx="120" cy="195" rx="45" ry="60" fill="#FFF8DC" stroke="#92400E" stroke-width="2" filter="url(#shadow)"/>
+  <!-- Yolk -->
+  <ellipse cx="120" cy="185" rx="20" ry="20" fill="#FCD34D" stroke="#D97706" stroke-width="1"/>
+  <!-- White layers -->
+  <ellipse cx="120" cy="185" rx="32" ry="42" fill="none" stroke="#E5C8A0" stroke-width="0.5" stroke-dasharray="3,2"/>
+  <!-- Shell texture -->
+  <ellipse cx="120" cy="195" rx="45" ry="60" fill="none" stroke="#C4A882" stroke-width="0.5"/>
+
+  <!-- Egg labels -->
+  <line x1="140" y1="165" x2="185" y2="145" stroke="#78350F" stroke-width="1"/>
+  <text x="190" y="148" font-size="10" fill="#78350F" font-weight="bold">Скорлупа</text>
+  <line x1="135" y1="185" x2="185" y2="185" stroke="#78350F" stroke-width="1"/>
+  <text x="190" y="188" font-size="10" fill="#78350F" font-weight="bold">Желток</text>
+  <line x1="140" y1="210" x2="185" y2="225" stroke="#78350F" stroke-width="1"/>
+  <text x="190" y="228" font-size="10" fill="#78350F" font-weight="bold">Белок</text>
+
+  <!-- Egg dishes -->
+    <rect x="345" y="90" width="435" height="110" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="345" y="90" width="435" height="26" rx="6" fill="#F59E0B"/>
+  <rect x="345" y="110" width="435" height="6" fill="#F59E0B"/>
+  <text x="562" y="108" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Блюда из яиц</text>
+  <text x="357" y="130" font-size="12" fill="#78350F">&#8226; Яйца всмятку — варка 2-3 минуты</text>
+  <text x="357" y="150" font-size="12" fill="#78350F">&#8226; Яйца вкрутую — варка 8-10 минут</text>
+  <text x="357" y="170" font-size="12" fill="#78350F">&#8226; Яичница-глазунья — жарка на сковороде</text>
+  <text x="357" y="190" font-size="12" fill="#78350F">&#8226; Омлет — взбитые яйца с молоком, жарка</text>
+
+  <!-- Dough types -->
+    <rect x="345" y="215" width="210" height="115" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="345" y="215" width="210" height="26" rx="6" fill="#B45309"/>
+  <rect x="345" y="235" width="210" height="6" fill="#B45309"/>
+  <text x="450" y="233" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Виды теста</text>
+  <text x="357" y="255" font-size="12" fill="#78350F">&#8226; Пресное — мука, вода, соль</text>
+  <text x="357" y="275" font-size="12" fill="#78350F">&#8226; Дрожжевое — мука, дрожжи, вода</text>
+  <text x="357" y="295" font-size="12" fill="#78350F">&#8226; Слоёное — мука, масло, вода</text>
+  <text x="357" y="315" font-size="12" fill="#78350F">&#8226; Бисквитное — мука, яйца, сахар</text>
+
+  <!-- Cooking steps for dough -->
+    <rect x="570" y="215" width="210" height="115" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="570" y="215" width="210" height="26" rx="6" fill="#B45309"/>
+  <rect x="570" y="235" width="210" height="6" fill="#B45309"/>
+  <text x="675" y="233" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Приготовление теста</text>
+  <text x="582" y="255" font-size="12" fill="#78350F">&#8226; 1. Просеять муку горкой</text>
+  <text x="582" y="275" font-size="12" fill="#78350F">&#8226; 2. Добавить ингредиенты</text>
+  <text x="582" y="295" font-size="12" fill="#78350F">&#8226; 3. Замесить тесто</text>
+  <text x="582" y="315" font-size="12" fill="#78350F">&#8226; 4. Дать расстояться</text>
+
+  <!-- Dough preparation process (visual flow) -->
+  <rect x="25" y="285" width="130" height="28" rx="5" fill="#92400E" filter="url(#shadow)"/>
+  <text x="90" y="304" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Просеивание</text>
+  <line x1="155" y1="299" x2="170" y2="299" stroke="#B45309" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="170" y="285" width="130" height="28" rx="5" fill="#B45309" filter="url(#shadow)"/>
+  <text x="235" y="304" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Замешивание</text>
+  <line x1="300" y1="299" x2="315" y2="299" stroke="#B45309" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="315" y="285" width="130" height="28" rx="5" fill="#F59E0B" filter="url(#shadow)"/>
+  <text x="380" y="304" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Расстойка</text>
+  <line x1="445" y1="299" x2="460" y2="299" stroke="#B45309" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="460" y="285" width="130" height="28" rx="5" fill="#D97706" filter="url(#shadow)"/>
+  <text x="525" y="304" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Формовка</text>
+  <line x1="590" y1="299" x2="605" y2="299" stroke="#B45309" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="605" y="285" width="170" height="28" rx="5" fill="#059669" filter="url(#shadow)"/>
+  <text x="690" y="304" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Выпекание/Варка</text>
+
+  <!-- Recipes -->
+    <rect x="25" y="330" width="375" height="115" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="25" y="330" width="375" height="26" rx="6" fill="#B45309"/>
+  <rect x="25" y="350" width="375" height="6" fill="#B45309"/>
+  <text x="212" y="348" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Рецепт: Омлет натуральный</text>
+  <text x="37" y="370" font-size="12" fill="#78350F">&#8226; Ингредиенты: 2 яйца, 50 мл молока, соль, масло</text>
+  <text x="37" y="390" font-size="12" fill="#78350F">&#8226; 1. Разбить яйца в миску</text>
+  <text x="37" y="410" font-size="12" fill="#78350F">&#8226; 2. Добавить молоко и соль</text>
+  <text x="37" y="430" font-size="12" fill="#78350F">&#8226; 3. Взбить вилкой до однородности</text>
+
+    <rect x="415" y="330" width="365" height="115" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="415" y="330" width="365" height="26" rx="6" fill="#B45309"/>
+  <rect x="415" y="350" width="365" height="6" fill="#B45309"/>
+  <text x="597" y="348" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Рецепт: Блины на молоке</text>
+  <text x="427" y="370" font-size="12" fill="#78350F">&#8226; Ингредиенты: 2 яйца, 500 мл молока, 200 г муки</text>
+  <text x="427" y="390" font-size="12" fill="#78350F">&#8226; 1. Взбить яйца с сахаром и солью</text>
+  <text x="427" y="410" font-size="12" fill="#78350F">&#8226; 2. Добавить молоко и муку, размешать</text>
+  <text x="427" y="430" font-size="12" fill="#78350F">&#8226; 3. Добавить масло в тесто</text>
+
+  <!-- Hygiene rules -->
+    <rect x="25" y="460" width="375" height="115" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="25" y="460" width="375" height="26" rx="6" fill="#059669"/>
+  <rect x="25" y="480" width="375" height="6" fill="#059669"/>
+  <text x="212" y="478" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Правила гигиены на кухне</text>
+  <text x="37" y="500" font-size="12" fill="#78350F">&#8226; Мой руки перед приготовлением пищи!</text>
+  <text x="37" y="520" font-size="12" fill="#78350F">&#8226; Используй чистую посуду и разделочные доски</text>
+  <text x="37" y="540" font-size="12" fill="#78350F">&#8226; Яйца перед варкой мойте тёплой водой</text>
+  <text x="37" y="560" font-size="12" fill="#78350F">&#8226; Мясные и овощные доски — раздельно!</text>
+
+    <rect x="415" y="460" width="365" height="115" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="415" y="460" width="365" height="26" rx="6" fill="#DC2626"/>
+  <rect x="415" y="480" width="365" height="6" fill="#DC2626"/>
+  <text x="597" y="478" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Техника безопасности</text>
+  <text x="427" y="500" font-size="12" fill="#78350F">&#8226; Осторожно обращайся с острыми предметами</text>
+  <text x="427" y="520" font-size="12" fill="#78350F">&#8226; Горячую посуду бери прихваткой</text>
+  <text x="427" y="540" font-size="12" fill="#78350F">&#8226; Не лей воду в раскалённое масло!</text>
+  <text x="427" y="560" font-size="12" fill="#78350F">&#8226; Следи за огнём и включёнными конфорками</text>
+
+  <!-- Bottom highlight -->
+  
+  <!-- Bottom decorative line -->
+  <rect x="25" y="590" width="750" height="3" rx="1" fill="#B45309" opacity="0.3"/>
+</svg>

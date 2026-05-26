@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+    <linearGradient id="shortMemGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFECB3"/>
+      <stop offset="100%" stop-color="#FFD54F"/>
+    </linearGradient>
+    <linearGradient id="longMemGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C8E6C9"/>
+      <stop offset="100%" stop-color="#66BB6A"/>
+    </linearGradient>
+    <linearGradient id="curveGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E53935"/>
+      <stop offset="100%" stop-color="#43A047"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="350" rx="12" fill="url(#bg)" stroke="#2E7D32" stroke-width="2"/>
+
+  <!-- Title -->
+  <text x="250" y="22" text-anchor="middle" font-size="14" font-weight="bold" fill="#1B5E20" font-family="Arial">Закономерности работы головного мозга. Память и обучение</text>
+  <text x="250" y="35" text-anchor="middle" font-size="9" fill="#666" font-family="Arial">Биология 8 класс — Урок 46</text>
+  <line x1="15" y1="42" x2="485" y2="42" stroke="#2E7D32" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- ===== MEMORY TYPES DIAGRAM (top area) ===== -->
+  <rect x="15" y="48" width="300" height="120" rx="5" fill="white" fill-opacity="0.7" stroke="#2E7D32" stroke-width="0.8"/>
+  <text x="165" y="60" text-anchor="middle" font-size="8" font-weight="bold" fill="#1B5E20" font-family="Arial">Виды памяти</text>
+  
+  <!-- Short-term memory box -->
+  <rect x="22" y="66" width="130" height="60" rx="5" fill="url(#shortMemGrad)" fill-opacity="0.7" stroke="#F57F17" stroke-width="1"/>
+  <text x="87" y="78" text-anchor="middle" font-size="7" font-weight="bold" fill="#E65100" font-family="Arial">Кратковременная</text>
+  <text x="87" y="88" text-anchor="middle" font-size="6" fill="#BF360C" font-family="Arial">20–30 секунд</text>
+  <text x="87" y="98" text-anchor="middle" font-size="6" fill="#BF360C" font-family="Arial">7 ± 2 элемента</text>
+  <text x="87" y="108" text-anchor="middle" font-size="5.5" fill="#555" font-family="Arial">Непосредственное</text>
+  <text x="87" y="116" text-anchor="middle" font-size="5.5" fill="#555" font-family="Arial">запечатление</text>
+  <text x="87" y="124" text-anchor="middle" font-size="5.5" fill="#555" font-family="Arial">(рабочая память)</text>
+  
+  <!-- Arrow: КП → ДП -->
+  <path d="M 155 96 L 175 96" fill="none" stroke="#2E7D32" stroke-width="1.5"/>
+  <polygon points="175,93 181,96 175,99" fill="#2E7D32"/>
+  <text x="168" y="90" text-anchor="middle" font-size="5" fill="#2E7D32" font-family="Arial">повторение</text>
+  <text x="168" y="108" text-anchor="middle" font-size="5" fill="#2E7D32" font-family="Arial">эмоции</text>
+  
+  <!-- Long-term memory box -->
+  <rect x="185" y="66" width="122" height="60" rx="5" fill="url(#longMemGrad)" fill-opacity="0.7" stroke="#2E7D32" stroke-width="1"/>
+  <text x="246" y="78" text-anchor="middle" font-size="7" font-weight="bold" fill="#1B5E20" font-family="Arial">Долговременная</text>
+  <text x="246" y="88" text-anchor="middle" font-size="6" fill="#2E7D32" font-family="Arial">Часы, годы</text>
+  <text x="246" y="98" text-anchor="middle" font-size="6" fill="#2E7D32" font-family="Arial">Неограниченный объём</text>
+  <text x="246" y="108" text-anchor="middle" font-size="5.5" fill="#555" font-family="Arial">Консолидация</text>
+  <text x="246" y="116" text-anchor="middle" font-size="5.5" fill="#555" font-family="Arial">(перевод из КП в ДП</text>
+  <text x="246" y="124" text-anchor="middle" font-size="5.5" fill="#555" font-family="Arial">через гиппокамп)</text>
+  
+  <!-- Memory type details below -->
+  <rect x="22" y="130" width="285" height="33" rx="3" fill="white" fill-opacity="0.6" stroke="#2E7D32" stroke-width="0.4"/>
+  
+  <!-- Types row -->
+  <rect x="26" y="133" width="65" height="26" rx="3" fill="#E3F2FD" stroke="#1565C0" stroke-width="0.5"/>
+  <text x="58" y="143" text-anchor="middle" font-size="5.5" font-weight="bold" fill="#0D47A1" font-family="Arial">Двигательная</text>
+  <text x="58" y="151" text-anchor="middle" font-size="4.5" fill="#1565C0" font-family="Arial">навыки, привычки</text>
+  
+  <rect x="95" y="133" width="65" height="26" rx="3" fill="#FCE4EC" stroke="#AD1457" stroke-width="0.5"/>
+  <text x="127" y="143" text-anchor="middle" font-size="5.5" font-weight="bold" fill="#880E4F" font-family="Arial">Эмоциональная</text>
+  <text x="127" y="151" text-anchor="middle" font-size="4.5" fill="#AD1457" font-family="Arial">чувства, переживания</text>
+  
+  <rect x="164" y="133" width="65" height="26" rx="3" fill="#FFF3E0" stroke="#E65100" stroke-width="0.5"/>
+  <text x="196" y="143" text-anchor="middle" font-size="5.5" font-weight="bold" fill="#BF360C" font-family="Arial">Образная</text>
+  <text x="196" y="151" text-anchor="middle" font-size="4.5" fill="#E65100" font-family="Arial">зрительные образы</text>
+  
+  <rect x="233" y="133" width="70" height="26" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.5"/>
+  <text x="268" y="143" text-anchor="middle" font-size="5.5" font-weight="bold" fill="#1B5E20" font-family="Arial">Словесно-</text>
+  <text x="268" y="151" text-anchor="middle" font-size="5.5" font-weight="bold" fill="#1B5E20" font-family="Arial">логическая</text>
+  
+  <!-- ===== EBBINGHAUS FORGETTING CURVE (right side) ===== -->
+  <rect x="320" y="48" width="165" height="120" rx="5" fill="white" fill-opacity="0.7" stroke="#E53935" stroke-width="0.8"/>
+  <text x="402" y="60" text-anchor="middle" font-size="7" font-weight="bold" fill="#C62828" font-family="Arial">Кривая забывания Эббингауза</text>
+  
+  <!-- Axes -->
+  <line x1="340" y1="155" x2="340" y2="68" stroke="#333" stroke-width="0.8"/>
+  <line x1="340" y1="155" x2="475" y2="155" stroke="#333" stroke-width="0.8"/>
+  <polygon points="340,68 338,73 342,73" fill="#333"/>
+  <polygon points="475,155 470,153 470,157" fill="#333"/>
+  
+  <!-- Axis labels -->
+  <text x="335" y="72" text-anchor="end" font-size="5" fill="#333" font-family="Arial">100%</text>
+  <text x="335" y="158" text-anchor="end" font-size="5" fill="#333" font-family="Arial">0%</text>
+  <text x="475" y="163" text-anchor="middle" font-size="5" fill="#333" font-family="Arial">Время</text>
+  <text x="330" y="112" text-anchor="middle" font-size="4.5" fill="#333" font-family="Arial" transform="rotate(-90,330,112)">Запоминание</text>
+  
+  <!-- Ebbinghaus curve - exponential decay -->
+  <path d="M 340 72 Q 355 75 365 90 Q 375 105 385 115 Q 395 125 410 133 Q 425 138 445 142 Q 460 145 475 146" fill="none" stroke="#E53935" stroke-width="1.5"/>
+  
+  <!-- Without repetition curve -->
+  <text x="370" y="85" font-size="5" fill="#E53935" font-family="Arial">Без повторения</text>
+  
+  <!-- With spaced repetition - stepped recovery -->
+  <path d="M 340 72 L 365 72 L 365 90 L 375 72 L 375 95 L 392 72 L 392 100 L 410 72 L 410 105 L 430 72 L 430 108 L 455 72 L 455 110 L 475 72" fill="none" stroke="#43A047" stroke-width="1.2" stroke-dasharray="3,1"/>
+  <text x="440" y="85" font-size="5" fill="#43A047" font-family="Arial">С повторением</text>
+  
+  <!-- Key data points -->
+  <circle cx="365" cy="90" r="1.5" fill="#E53935"/>
+  <text x="368" y="105" font-size="4" fill="#E53935" font-family="Arial">1ч: 44%</text>
+  <circle cx="395" cy="125" r="1.5" fill="#E53935"/>
+  <text x="398" y="133" font-size="4" fill="#E53935" font-family="Arial">1д: 33%</text>
+  <circle cx="445" cy="142" r="1.5" fill="#E53935"/>
+  <text x="448" y="150" font-size="4" fill="#E53935" font-family="Arial">6д: 25%</text>
+
+  <!-- ===== BRAIN & MEMORY (center) ===== -->
+  <rect x="15" y="172" width="200" height="90" rx="5" fill="white" fill-opacity="0.7" stroke="#1565C0" stroke-width="0.8"/>
+  <text x="115" y="184" text-anchor="middle" font-size="7" font-weight="bold" fill="#0D47A1" font-family="Arial">Мозг и память</text>
+  
+  <!-- Simplified brain outline -->
+  <path d="M 55 205 Q 40 195 45 215 Q 48 230 60 235 Q 75 240 90 235 Q 100 230 105 220 Q 112 230 120 232 Q 130 235 138 228 Q 145 220 142 210 Q 148 205 145 195 Q 140 185 128 185 Q 120 180 110 182 Q 100 178 88 180 Q 75 178 65 183 Q 55 185 55 205 Z" fill="#FFCCBC" stroke="#D84315" stroke-width="1"/>
+  
+  <!-- Brain regions -->
+  <ellipse cx="75" cy="210" rx="12" ry="8" fill="#EF9A9A" stroke="#C62828" stroke-width="0.5"/>
+  <text x="75" y="212" text-anchor="middle" font-size="4" fill="#C62828" font-family="Arial">Гиппо-</text>
+  <text x="75" y="217" text-anchor="middle" font-size="4" fill="#C62828" font-family="Arial">камп</text>
+  
+  <ellipse cx="120" cy="200" rx="15" ry="6" fill="#FFCDD2" stroke="#E57373" stroke-width="0.5"/>
+  <text x="120" y="202" text-anchor="middle" font-size="4" fill="#C62828" font-family="Arial">Лобная доля</text>
+  
+  <ellipse cx="95" cy="225" rx="12" ry="5" fill="#FFE0B2" stroke="#FFB74D" stroke-width="0.5"/>
+  <text x="95" y="227" text-anchor="middle" font-size="4" fill="#E65100" font-family="Arial">Височная доля</text>
+  
+  <!-- Brain labels -->
+  <text x="115" y="248" text-anchor="middle" font-size="5.5" fill="#0D47A1" font-family="Arial">Гиппокамп — консолидация памяти</text>
+  <text x="115" y="256" text-anchor="middle" font-size="5.5" fill="#0D47A1" font-family="Arial">Лобная доля — рабочая память</text>
+  
+  <!-- Key facts -->
+  <rect x="22" y="238" width="186" height="20" rx="3" fill="#E3F2FD" fill-opacity="0.5" stroke="#1565C0" stroke-width="0.4"/>
+  <text x="115" y="248" text-anchor="middle" font-size="5" fill="#0D47A1" font-family="Arial">Синаптическая пластичность — основа памяти</text>
+  <text x="115" y="255" text-anchor="middle" font-size="5" fill="#0D47A1" font-family="Arial">Нейромедиаторы: глутамат, ацетилхолин</text>
+
+  <!-- ===== LEARNING RULES (center-right) ===== -->
+  <rect x="220" y="172" width="265" height="90" rx="5" fill="white" fill-opacity="0.7" stroke="#2E7D32" stroke-width="0.8"/>
+  <text x="352" y="184" text-anchor="middle" font-size="7" font-weight="bold" fill="#1B5E20" font-family="Arial">Правила эффективного обучения</text>
+  
+  <!-- Rule 1: Spaced repetition -->
+  <rect x="227" y="190" width="120" height="32" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.5"/>
+  <text x="287" y="200" text-anchor="middle" font-size="6" font-weight="bold" fill="#1B5E20" font-family="Arial">Интервальное повторение</text>
+  <text x="287" y="208" text-anchor="middle" font-size="5" fill="#555" font-family="Arial">1ч → 1день → 3дня → 1нед</text>
+  <text x="287" y="216" text-anchor="middle" font-size="5" fill="#555" font-family="Arial">→ 1мес → ...</text>
+  
+  <!-- Rule 2: Active perception -->
+  <rect x="355" y="190" width="122" height="32" rx="3" fill="#FFF3E0" stroke="#E65100" stroke-width="0.5"/>
+  <text x="416" y="200" text-anchor="middle" font-size="6" font-weight="bold" fill="#BF360C" font-family="Arial">Активное восприятие</text>
+  <text x="416" y="208" text-anchor="middle" font-size="5" fill="#555" font-family="Arial">Конспектирование,</text>
+  <text x="416" y="216" text-anchor="middle" font-size="5" fill="#555" font-family="Arial">вопросы, обсуждение</text>
+  
+  <!-- Rule 3: Sleep -->
+  <rect x="227" y="226" width="120" height="32" rx="3" fill="#E8EAF6" stroke="#3949AB" stroke-width="0.5"/>
+  <text x="287" y="236" text-anchor="middle" font-size="6" font-weight="bold" fill="#1A237E" font-family="Arial">Сон после обучения</text>
+  <text x="287" y="244" text-anchor="middle" font-size="5" fill="#555" font-family="Arial">Консолидация памяти</text>
+  <text x="287" y="252" text-anchor="middle" font-size="5" fill="#555" font-family="Arial">происходит во сне (REM-фаза)</text>
+  
+  <!-- Rule 4: Emotions -->
+  <rect x="355" y="226" width="122" height="32" rx="3" fill="#FCE4EC" stroke="#AD1457" stroke-width="0.5"/>
+  <text x="416" y="236" text-anchor="middle" font-size="6" font-weight="bold" fill="#880E4F" font-family="Arial">Эмоциональная окраска</text>
+  <text x="416" y="244" text-anchor="middle" font-size="5" fill="#555" font-family="Arial">Эмоции усиливают</text>
+  <text x="416" y="252" text-anchor="middle" font-size="5" fill="#555" font-family="Arial">запоминание (аминдалина)</text>
+
+  <!-- ===== BOTTOM INFO BAR ===== -->
+  <rect x="15" y="267" width="470" height="66" rx="5" fill="white" fill-opacity="0.8" stroke="#2E7D32" stroke-width="0.8"/>
+  
+  <!-- Learning principles -->
+  <text x="250" y="279" text-anchor="middle" font-size="7" font-weight="bold" fill="#1B5E20" font-family="Arial">Закономерности обучения и памяти</text>
+  <line x1="25" y1="282" x2="475" y2="282" stroke="#2E7D32" stroke-width="0.3"/>
+  
+  <!-- Left column -->
+  <text x="25" y="292" font-size="5.5" fill="#333" font-family="Arial">• Закон Йоста: при равном числе повторений</text>
+  <text x="32" y="300" font-size="5.5" fill="#333" font-family="Arial">распределённое заучивание эффективнее массового</text>
+  
+  <text x="25" y="310" font-size="5.5" fill="#333" font-family="Arial">• Эффект края: лучше запоминаются начало</text>
+  <text x="32" y="318" font-size="5.5" fill="#333" font-family="Arial">и конец списка (первичность и новизна)</text>
+  
+  <!-- Right column -->
+  <text x="265" y="292" font-size="5.5" fill="#333" font-family="Arial">• Эффект интерференции: новая информация</text>
+  <text x="272" y="300" font-size="5.5" fill="#333" font-family="Arial">может мешать вспоминанию старой (и наоборот)</text>
+  
+  <text x="265" y="310" font-size="5.5" fill="#333" font-family="Arial">• Эффект Зейгарник: прерванные действия</text>
+  <text x="272" y="318" font-size="5.5" fill="#333" font-family="Arial">запоминаются лучше завершённых</text>
+  
+  <!-- Bottom key insight -->
+  <rect x="25" y="323" width="445" height="8" rx="2" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.3"/>
+  <text x="250" y="330" text-anchor="middle" font-size="5" font-weight="bold" fill="#1B5E20" font-family="Arial">Ключ: повторение + эмоции + сон + активность = прочная долговременная память</text>
+
+  <!-- Footer bar -->
+  <rect x="0" y="338" width="500" height="12" rx="0" fill="#2E7D32"/>
+  <text x="250" y="347" text-anchor="middle" font-size="7" fill="white" font-family="Arial">Память — свойство нервной системы сохранять и воспроизводить информацию о действительности</text>
+</svg>

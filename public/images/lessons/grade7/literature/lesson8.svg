@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#FFFDE7"/>
+<!-- Dusty road -->
+<path d="M250 350 Q230 280 200 220 Q170 160 150 100 Q140 60 130 20" stroke="#BCAAA4" stroke-width="40" fill="none" stroke-linecap="round" opacity="0.3"/>
+<path d="M250 350 Q230 280 200 220 Q170 160 150 100 Q140 60 130 20" stroke="#D7CCC8" stroke-width="20" fill="none" stroke-linecap="round" opacity="0.3"/>
+<!-- Yushka - thin man walking -->
+<circle cx="210" cy="140" r="10" fill="#FFCCBC"/>
+<!-- Thin body -->
+<line x1="210" y1="150" x2="210" y2="210" stroke="#795548" stroke-width="4"/>
+<!-- Old coat -->
+<path d="M198 155 L195 210 L225 210 L222 155" fill="#9E9E9E" opacity="0.6"/>
+<!-- Legs walking -->
+<line x1="210" y1="210" x2="200" y2="250" stroke="#795548" stroke-width="3"/>
+<line x1="210" y1="210" x2="220" y2="250" stroke="#795548" stroke-width="3"/>
+<!-- Arms -->
+<line x1="210" y1="165" x2="190" y2="190" stroke="#FFCCBC" stroke-width="3"/>
+<line x1="210" y1="165" x2="230" y2="185" stroke="#FFCCBC" stroke-width="3"/>
+<!-- Kind eyes (simple) -->
+<circle cx="207" cy="138" r="1.5" fill="#4E342E"/>
+<circle cx="213" cy="138" r="1.5" fill="#4E342E"/>
+<!-- Gentle smile -->
+<path d="M206 143 Q210 146 214 143" stroke="#795548" stroke-width="0.8" fill="none"/>
+<!-- Dust behind him -->
+<ellipse cx="235" cy="240" rx="15" ry="8" fill="#D7CCC8" opacity="0.3"/>
+<ellipse cx="240" cy="220" rx="10" ry="6" fill="#D7CCC8" opacity="0.2"/>
+<!-- Small flowers by the road -->
+<circle cx="250" cy="260" r="3" fill="#E91E63" opacity="0.5"/>
+<circle cx="260" cy="255" r="2.5" fill="#9C27B0" opacity="0.4"/>
+<circle cx="180" cy="230" r="2.5" fill="#FF9800" opacity="0.4"/>
+<!-- Sun (dim, dusty) -->
+<circle cx="400" cy="50" r="25" fill="#FFF9C4" opacity="0.5"/>
+<circle cx="400" cy="50" r="18" fill="#FFECB3" opacity="0.4"/>
+<!-- Title -->
+<rect x="280" y="120" width="190" height="55" rx="6" fill="white" opacity="0.8" stroke="#9E9E9E" stroke-width="1"/>
+<text x="375" y="142" font-family="sans-serif" font-size="11" fill="#616161" text-anchor="middle" font-weight="bold">А.П. Платонов</text>
+<text x="375" y="165" font-family="serif" font-size="16" fill="#424242" text-anchor="middle">«Юшка»</text>
+<text x="250" y="345" font-family="sans-serif" font-size="9" fill="#616161" opacity="0.5" text-anchor="middle">А.П. Платонов. «Юшка»</text>
+</svg>

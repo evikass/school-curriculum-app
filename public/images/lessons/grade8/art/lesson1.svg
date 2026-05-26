@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#B0E0E6"/>
+    </linearGradient>
+    <linearGradient id="stone1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F5F0E8"/>
+      <stop offset="100%" stop-color="#E8DFD0"/>
+    </linearGradient>
+    <radialGradient id="dome1" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#DAA520"/>
+    </radialGradient>
+    <pattern id="carving" width="12" height="12" patternUnits="userSpaceOnUse">
+      <path d="M0 6 L6 0 L12 6 L6 12 Z" fill="none" stroke="#C8B88A" stroke-width="0.5"/>
+      <circle cx="6" cy="6" r="1.5" fill="#C8B88A" opacity="0.6"/>
+    </pattern>
+  </defs>
+  <!-- Sky background -->
+  <rect width="500" height="350" fill="url(#sky1)"/>
+  <!-- Ground -->
+  <ellipse cx="250" cy="320" rx="280" ry="40" fill="#8B9B6B"/>
+  <!-- Green hill -->
+  <path d="M0 290 Q100 260 200 280 Q300 250 400 270 Q450 275 500 290 L500 350 L0 350 Z" fill="#7A8F5A"/>
+  <!-- Church base/foundation -->
+  <rect x="185" y="220" width="130" height="70" fill="url(#stone1)" stroke="#C8B88A" stroke-width="1"/>
+  <!-- Stone texture on base -->
+  <rect x="185" y="220" width="130" height="70" fill="url(#carving)" opacity="0.4"/>
+  <!-- Church body -->
+  <rect x="195" y="140" width="110" height="80" fill="url(#stone1)" stroke="#C8B88A" stroke-width="1"/>
+  <rect x="195" y="140" width="110" height="80" fill="url(#carving)" opacity="0.3"/>
+  <!-- Main dome -->
+  <ellipse cx="250" cy="140" rx="45" ry="35" fill="url(#dome1)"/>
+  <!-- Dome base ring -->
+  <rect x="208" y="135" width="84" height="10" fill="#DAA520" rx="2"/>
+  <!-- Cross on dome -->
+  <line x1="250" y1="95" x2="250" y2="115" stroke="#DAA520" stroke-width="3"/>
+  <line x1="242" y1="102" x2="258" y2="102" stroke="#DAA520" stroke-width="3"/>
+  <line x1="244" y1="108" x2="256" y2="108" stroke="#DAA520" stroke-width="2"/>
+  <!-- Left small dome -->
+  <rect x="160" y="195" width="40" height="30" fill="url(#stone1)" stroke="#C8B88A" stroke-width="1"/>
+  <ellipse cx="180" cy="195" rx="20" ry="16" fill="url(#dome1)"/>
+  <line x1="180" y1="172" x2="180" y2="182" stroke="#DAA520" stroke-width="2"/>
+  <line x1="175" y1="176" x2="185" y2="176" stroke="#DAA520" stroke-width="2"/>
+  <!-- Right small dome -->
+  <rect x="300" y="195" width="40" height="30" fill="url(#stone1)" stroke="#C8B88A" stroke-width="1"/>
+  <ellipse cx="320" cy="195" rx="20" ry="16" fill="url(#dome1)"/>
+  <line x1="320" y1="172" x2="320" y2="182" stroke="#DAA520" stroke-width="2"/>
+  <line x1="315" y1="176" x2="325" y2="176" stroke="#DAA520" stroke-width="2"/>
+  <!-- Door arch -->
+  <path d="M230 290 L230 250 Q250 235 270 250 L270 290 Z" fill="#4A3520"/>
+  <path d="M233 290 L233 253 Q250 240 267 253 L267 290 Z" fill="#5C4030"/>
+  <!-- Windows -->
+  <path d="M210 180 L210 160 Q215 155 220 160 L220 180 Z" fill="#5C7A94" stroke="#C8B88A" stroke-width="0.5"/>
+  <path d="M280 180 L280 160 Q285 155 290 160 L290 180 Z" fill="#5C7A94" stroke="#C8B88A" stroke-width="0.5"/>
+  <!-- Carving patterns on facade -->
+  <path d="M200 150 L300 150" stroke="#B8A878" stroke-width="1.5"/>
+  <path d="M195 215 L325 215" stroke="#B8A878" stroke-width="1.5"/>
+  <!-- Decorative arch band -->
+  <path d="M200 152 Q215 158 230 152 Q245 158 260 152 Q275 158 290 152 Q300 158 305 152" stroke="#C8A858" stroke-width="1" fill="none"/>
+  <!-- Carved patterns - arcading -->
+  <g opacity="0.6">
+    <path d="M205 160 Q210 165 215 160" stroke="#A09060" stroke-width="0.8" fill="none"/>
+    <path d="M220 160 Q225 165 230 160" stroke="#A09060" stroke-width="0.8" fill="none"/>
+    <path d="M250 160 Q255 165 260 160" stroke="#A09060" stroke-width="0.8" fill="none"/>
+    <path d="M270 160 Q275 165 280 160" stroke="#A09060" stroke-width="0.8" fill="none"/>
+    <path d="M285 160 Q290 165 295 160" stroke="#A09060" stroke-width="0.8" fill="none"/>
+  </g>
+  <!-- Trees -->
+  <path d="M80 260 Q85 220 70 190 Q90 210 95 250 Z" fill="#5A7A4A"/>
+  <path d="M90 265 Q95 230 80 200 Q100 220 105 255 Z" fill="#4A6A3A"/>
+  <path d="M410 255 Q415 215 400 185 Q420 205 425 250 Z" fill="#5A7A4A"/>
+  <path d="M420 260 Q425 225 410 195 Q430 215 435 255 Z" fill="#4A6A3A"/>
+  <!-- Birds -->
+  <path d="M120 80 Q125 75 130 80 Q125 78 120 80" fill="#333"/>
+  <path d="M350 60 Q355 55 360 60 Q355 58 350 60" fill="#333"/>
+  <path d="M150 100 Q155 95 160 100 Q155 98 150 100" fill="#333"/>
+  <text x="250" y="340" text-anchor="middle" font-size="9" opacity="0.5" font-family="sans-serif">Искусство Древней Руси</text>
+</svg>

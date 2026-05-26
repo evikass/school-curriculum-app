@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#EFEBE9"/>
+<rect x="170" y="50" width="70" height="100" rx="3" fill="#8D6E63" stroke="#4E342E" stroke-width="2.5"/>
+<path d="M170,50 Q205,40 240,50" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+<rect x="175" y="55" width="60" height="8" fill="#A1887F" stroke="#6D4C41" stroke-width="0.5"/>
+<rect x="175" y="68" width="60" height="6" fill="#D7CCC8"/>
+<rect x="175" y="78" width="60" height="6" fill="#D7CCC8"/>
+<rect x="175" y="88" width="60" height="6" fill="#D7CCC8"/>
+<rect x="175" y="98" width="60" height="6" fill="#D7CCC8"/>
+<rect x="175" y="108" width="60" height="6" fill="#D7CCC8"/>
+<rect x="175" y="118" width="60" height="6" fill="#D7CCC8"/>
+<rect x="175" y="128" width="60" height="6" fill="#D7CCC8"/>
+<rect x="175" y="138" width="60" height="6" fill="#D7CCC8"/>
+<text x="205" y="168" font-size="9" fill="#4E342E" text-anchor="middle" font-weight="bold">Соборное</text>
+<text x="205" y="182" font-size="9" fill="#4E342E" text-anchor="middle" font-weight="bold">уложение</text>
+<text x="205" y="196" font-size="8" fill="#795548" text-anchor="middle">1649 г.</text>
+<circle cx="370" cy="100" r="30" fill="#FFCC80" stroke="#E65100" stroke-width="2"/>
+<circle cx="370" cy="80" r="15" fill="#FFE0B2" stroke="#E65100" stroke-width="1.5"/>
+<line x1="355" y1="75" x2="385" y2="75" stroke="#FFD700" stroke-width="2"/>
+<path d="M370,75 L370,68" stroke="#FFD700" stroke-width="2"/>
+<circle cx="370" cy="66" r="3" fill="#FFD700"/>
+<line x1="370" y1="130" x2="370" y2="165" stroke="#E65100" stroke-width="2"/>
+<rect x="350" y="165" width="40" height="60" rx="3" fill="#FF8F00" stroke="#E65100" stroke-width="1.5"/>
+<text x="370" y="240" font-size="7" fill="#BF360C" text-anchor="middle">Алексей</text>
+<text x="370" y="252" font-size="7" fill="#BF360C" text-anchor="middle">Михайлович</text>
+<path d="M340" y1="160" x2="250" y2="150" stroke="#795548" stroke-width="1.5" stroke-dasharray="3,2"/>
+<rect x="30" y="210" width="440" height="110" rx="6" fill="#FFF" stroke="#795548" stroke-width="1.5"/>
+<text x="250" y="232" font-size="9" fill="#4E342E" text-anchor="middle" font-weight="bold">Главные положения</text>
+<text x="50" y="252" font-size="8" fill="#5D4037">✦ Окончательное закрепощение крестьян</text>
+<text x="50" y="268" font-size="8" fill="#5D4037">✦ Сыск беглых — бессрочный</text>
+<text x="50" y="284" font-size="8" fill="#5D4037">✦ Защита личности и имущества дворян</text>
+<text x="50" y="300" font-size="8" fill="#5D4037">✦ Ограничение церковного землевладения</text>
+<text x="250" y="316" font-size="7" fill="#8D6E63" text-anchor="middle">Первый печатный свод законов Русского государства</text>
+<text x="250" y="345" font-size="9" fill="#666" text-anchor="middle" opacity="0.5">Соборное уложение 1649 года</text>
+</svg>

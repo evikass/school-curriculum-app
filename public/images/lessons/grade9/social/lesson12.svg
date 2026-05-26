@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><linearGradient id="g12" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#DD6B20"/><stop offset="100%" stop-color="#9C4221"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#g12)"/>
+  <!-- Theater masks -->
+  <g transform="translate(120,110)" opacity="0.5">
+    <ellipse cx="0" cy="0" rx="30" ry="35" fill="#F6E05E" opacity="0.4"/>
+    <circle cx="-10" cy="-5" r="5" fill="#9C4221"/><circle cx="10" cy="-5" r="5" fill="#9C4221"/>
+    <path d="M-12 12 Q0 22 12 12" fill="none" stroke="#9C4221" stroke-width="2"/>
+  </g>
+  <g transform="translate(380,110)" opacity="0.5">
+    <ellipse cx="0" cy="0" rx="30" ry="35" fill="#63B3ED" opacity="0.4"/>
+    <circle cx="-10" cy="-5" r="5" fill="#2B6CB0"/><circle cx="10" cy="-5" r="5" fill="#2B6CB0"/>
+    <path d="M-12 15 Q0 8 12 15" fill="none" stroke="#2B6CB0" stroke-width="2"/>
+  </g>
+  <!-- Role labels -->
+  <g opacity="0.5">
+    <rect x="50" y="200" width="80" height="25" rx="5" fill="#E53E3E"/><text x="90" y="217" text-anchor="middle" font-size="9" fill="#FFF">Ученик</text>
+    <rect x="150" y="200" width="80" height="25" rx="5" fill="#3182CE"/><text x="190" y="217" text-anchor="middle" font-size="9" fill="#FFF">Сын/дочь</text>
+    <rect x="250" y="200" width="80" height="25" rx="5" fill="#38A169"/><text x="290" y="217" text-anchor="middle" font-size="9" fill="#FFF">Друг</text>
+    <rect x="350" y="200" width="80" height="25" rx="5" fill="#D69E2E"/><text x="390" y="217" text-anchor="middle" font-size="9" fill="#FFF">Спортсмен</text>
+  </g>
+  <!-- Conflict arrow -->
+  <g stroke="#F6E05E" stroke-width="2" opacity="0.4" fill="#F6E05E">
+    <line x1="90" y1="230" x2="90" y2="250"/>
+    <line x1="190" y1="230" x2="190" y2="250"/>
+    <text x="140" y="265" text-anchor="middle" font-size="8" fill="#F6E05E" opacity="0.5">Ролевой конфликт</text>
+  </g>
+  <text x="250" y="310" text-anchor="middle" font-size="18" fill="#FEEBC8" font-weight="bold" opacity="0.6">Социальная роль</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#FEEBC8" opacity="0.5">Социальная роль</text>
+</svg>

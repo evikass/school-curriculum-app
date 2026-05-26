@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="100%" stop-color="#FEF3C7" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#92400E" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FFF7ED" />
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#92400E" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#B45309" />
+    </marker>
+    <marker id="arrowAmber" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F59E0B" />
+    </marker>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="8"/>
+  <rect x="0" y="0" width="800" height="4" fill="#B45309" rx="2"/>
+
+  <!-- Header -->
+  <rect x="20" y="15" width="760" height="60" rx="8" fill="url(#headerGrad)" filter="url(#shadow)"/>
+  <text x="40" y="50" font-size="14" fill="#FCD34D" font-weight="bold">Урок 2</text>
+  <text x="130" y="50" font-size="20" fill="#FFFFFF" font-weight="bold">Графическая документация</text>
+    <text x="780" y="55" font-size="13" fill="#F59E0B" text-anchor="end" font-style="italic">Чертежи, эскизы, спецификации</text>
+
+  <!-- Drawing frame illustration -->
+  <rect x="30" y="90" width="320" height="280" fill="#FFFFFF" stroke="#B45309" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="35" y="95" width="310" height="270" fill="none" stroke="#92400E" stroke-width="1"/>
+  <rect x="235" y="305" width="110" height="55" fill="#FEF3C7" stroke="#92400E" stroke-width="1"/>
+  <text x="290" y="325" font-size="9" fill="#78350F" text-anchor="middle">Чертёж детали</text>
+  <text x="290" y="340" font-size="8" fill="#6B7280" text-anchor="middle">Масштаб 1:1</text>
+  <text x="290" y="352" font-size="8" fill="#6B7280" text-anchor="middle">Материал: дерево</text>
+  
+  <!-- Simple technical drawing inside frame -->
+  <!-- Top view (rectangle with hole) -->
+  <rect x="80" y="115" width="120" height="80" fill="none" stroke="#78350F" stroke-width="1.5"/>
+  <circle cx="140" cy="155" r="15" fill="none" stroke="#78350F" stroke-width="1"/>
+  <text x="140" y="125" font-size="9" fill="#2563EB" text-anchor="middle">Вид сверху</text>
+  
+  <!-- Front view -->
+  <rect x="80" y="215" width="120" height="60" fill="none" stroke="#78350F" stroke-width="1.5"/>
+  <line x1="80" y1="215" x2="80" y2="275" stroke="#78350F" stroke-width="1.5"/>
+  <text x="140" y="235" font-size="9" fill="#2563EB" text-anchor="middle">Вид спереди</text>
+  
+  <!-- Dimension lines -->
+  <line x1="80" y1="290" x2="200" y2="290" stroke="#DC2626" stroke-width="0.7"/>
+  <line x1="80" y1="286" x2="80" y2="294" stroke="#DC2626" stroke-width="0.7"/>
+  <line x1="200" y1="286" x2="200" y2="294" stroke="#DC2626" stroke-width="0.7"/>
+  <text x="140" y="302" font-size="8" fill="#DC2626" text-anchor="middle">120</text>
+  
+  <!-- Right side: Types of documentation -->
+    <rect x="375" y="90" width="400" height="140" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="375" y="90" width="400" height="26" rx="6" fill="#B45309"/>
+  <rect x="375" y="110" width="400" height="6" fill="#B45309"/>
+  <text x="575" y="108" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Виды графической документации</text>
+  <text x="387" y="130" font-size="12" fill="#78350F">• Эскиз — от руки, с соблюдением пропорций</text>
+  <text x="387" y="150" font-size="12" fill="#78350F">• Чертёж — по правилам ЕСКД, точные размеры</text>
+  <text x="387" y="170" font-size="12" fill="#78350F">• Технический рисунок — наглядное изображение</text>
+  <text x="387" y="190" font-size="12" fill="#78350F">• Схема — условное изображение структуры</text>
+  <text x="387" y="210" font-size="12" fill="#78350F">• Спецификация — перечень деталей и материалов</text>
+  
+    <rect x="375" y="245" width="400" height="125" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="375" y="245" width="400" height="26" rx="6" fill="#B45309"/>
+  <rect x="375" y="265" width="400" height="6" fill="#B45309"/>
+  <text x="575" y="263" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Правила оформления чертежа</text>
+  <text x="387" y="285" font-size="12" fill="#78350F">• Формат листа: А4 (210×297), А3 (297×420)</text>
+  <text x="387" y="305" font-size="12" fill="#78350F">• Масштаб: 1:1, 1:2 (уменьшение), 2:1 (увеличение)</text>
+  <text x="387" y="325" font-size="12" fill="#78350F">• Линии: основная s=0.5-1.4мм, штриховая, тонкая</text>
+  <text x="387" y="345" font-size="12" fill="#78350F">• Шрифт: чертёжный по ГОСТ 2.304-81</text>
+  
+  <!-- Line types legend -->
+    <rect x="30" y="390" width="745" height="90" rx="6" fill="url(#boxGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="30" y="390" width="745" height="26" rx="6" fill="#B45309"/>
+  <rect x="30" y="410" width="745" height="6" fill="#B45309"/>
+  <text x="402" y="408" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Типы линий на чертеже</text>
+  <text x="42" y="430" font-size="12" fill="#78350F">• ━━━━━━━━ Сплошная основная — видимый контур</text>
+  <text x="42" y="450" font-size="12" fill="#78350F">• ┈┈┈┈┈┈┈┈┈ Сплошная тонкая — размерные и выносные линии</text>
+  <text x="42" y="470" font-size="12" fill="#78350F">• - - - - - - Штриховая — невидимый контур</text>
+  
+    <rect x="30" y="495" width="745" height="45" rx="6" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2" stroke-dasharray="6,3" filter="url(#shadow)"/>
+  <text x="42" y="515" font-size="12" fill="#78350F" font-weight="bold">📐 Стандарты ЕСКД — Единая система конструкторской документации</text>
+  <text x="42" y="533" font-size="12" fill="#78350F" font-weight="bold">Все чертежи выполняются по ГОСТ для взаимопонимания специалистов</text>
+  
+  <!-- Decorative compass -->
+  <line x1="720" y1="505" x2="740" y2="530" stroke="#F59E0B" stroke-width="1.5" opacity="0.4"/>
+  <line x1="720" y1="505" x2="700" y2="530" stroke="#F59E0B" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="720" cy="502" r="4" fill="#F59E0B" opacity="0.4"/>
+  </svg>

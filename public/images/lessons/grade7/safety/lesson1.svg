@@ -1,0 +1,64 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="350" fill="#0d1520"/>
+  <!-- Road -->
+  <rect x="100" y="200" width="350" height="80" fill="#37474f"/>
+  <line x1="130" y1="240" x2="420" y2="240" stroke="#fff" stroke-width="2" stroke-dasharray="15,10" opacity="0.5"/>
+  <!-- Road edges -->
+  <line x1="100" y1="200" x2="450" y2="200" stroke="#fdd835" stroke-width="2"/>
+  <line x1="100" y1="280" x2="450" y2="280" stroke="#fdd835" stroke-width="2"/>
+  <!-- Bicycle -->
+  <!-- Back wheel -->
+  <circle cx="220" cy="255" r="20" fill="none" stroke="#4fc3f7" stroke-width="2"/>
+  <circle cx="220" cy="255" r="3" fill="#4fc3f7"/>
+  <!-- Front wheel -->
+  <circle cx="290" cy="255" r="20" fill="none" stroke="#4fc3f7" stroke-width="2"/>
+  <circle cx="290" cy="255" r="3" fill="#4fc3f7"/>
+  <!-- Frame -->
+  <line x1="220" y1="255" x2="260" y2="230" stroke="#4fc3f7" stroke-width="2.5"/>
+  <line x1="260" y1="230" x2="290" y2="255" stroke="#4fc3f7" stroke-width="2.5"/>
+  <line x1="260" y1="230" x2="255" y2="255" stroke="#4fc3f7" stroke-width="2"/>
+  <!-- Handlebars -->
+  <line x1="260" y1="230" x2="275" y2="225" stroke="#4fc3f7" stroke-width="2"/>
+  <!-- Seat -->
+  <line x1="240" y1="232" x2="250" y2="232" stroke="#4fc3f7" stroke-width="3"/>
+  <!-- Rider -->
+  <circle cx="245" cy="218" r="10" fill="#e0e0e0" opacity="0.7"/>
+  <line x1="245" y1="228" x2="245" y2="248" stroke="#e0e0e0" stroke-width="2" opacity="0.6"/>
+  <!-- Helmet -->
+  <path d="M235,214 Q245,204 255,214" fill="#ff9800" stroke="#e65100" stroke-width="1"/>
+  <!-- Traffic signs -->
+  <!-- Stop sign -->
+  <rect x="50" y="180" width="4" height="50" fill="#78909c"/>
+  <polygon points="52,170 60,162 70,162 78,170 78,180 70,188 60,188 52,180" fill="#e53935" stroke="#fff" stroke-width="1"/>
+  <text x="57" y="178" font-size="6" fill="#fff">STOP</text>
+  <!-- Bike path sign -->
+  <rect x="420" y="180" width="4" height="50" fill="#78909c"/>
+  <rect x="410" y="160" width="28" height="22" rx="2" fill="#42a5f5"/>
+  <circle cx="424" cy="170" r="5" fill="none" stroke="#fff" stroke-width="1"/>
+  <text x="419" y="172" font-size="4" fill="#fff">🚲</text>
+  <!-- Hand signal (left turn) -->
+  <rect x="30" y="60" width="150" height="80" rx="6" fill="#1a2332" stroke="#4fc3f7" stroke-width="1.5"/>
+  <text x="40" y="80" font-size="9" fill="#4fc3f7">Сигналы руками:</text>
+  <!-- Left turn signal -->
+  <circle cx="60" cy="105" r="6" fill="#e0e0e0" opacity="0.5"/>
+  <line x1="60" y1="111" x2="60" y2="125" stroke="#e0e0e0" stroke-width="1.5" opacity="0.5"/>
+  <line x1="60" y1="116" x2="42" y2="110" stroke="#ff9800" stroke-width="2.5"/>
+  <text x="45" y="135" font-size="7" fill="#ff9800">← Поворот</text>
+  <!-- Stop signal -->
+  <circle cx="130" cy="105" r="6" fill="#e0e0e0" opacity="0.5"/>
+  <line x1="130" y1="111" x2="130" y2="125" stroke="#e0e0e0" stroke-width="1.5" opacity="0.5"/>
+  <line x1="130" y1="116" x2="148" y2="108" stroke="#e53935" stroke-width="2.5"/>
+  <rect x="146" y="104" width="8" height="8" rx="1" fill="#e53935" opacity="0.7"/>
+  <text x="118" y="135" font-size="7" fill="#e53935">Стоп →</text>
+  <!-- Rules section -->
+  <rect x="220" y="30" width="250" height="140" rx="6" fill="#1a2332" stroke="#37474f" stroke-width="1"/>
+  <text x="235" y="50" font-size="10" fill="#ff9800" font-weight="bold">Правила для велосипедистов:</text>
+  <text x="235" y="68" font-size="8" fill="#b0bec5">🚲 Езди по велосипедной дорожке</text>
+  <text x="235" y="83" font-size="8" fill="#b0bec5">🪖 Обязательно надевай шлем</text>
+  <text x="235" y="98" font-size="8" fill="#b0bec5">🚦 Соблюдай сигналы светофора</text>
+  <text x="235" y="113" font-size="8" fill="#b0bec5">👈 Показывай повороты рукой</text>
+  <text x="235" y="128" font-size="8" fill="#b0bec5">🔦 В тёмное время — фонарик</text>
+  <text x="235" y="143" font-size="8" fill="#b0bec5">📱 Не пользуйся телефоном!</text>
+  <text x="235" y="158" font-size="8" fill="#e53935">⚠ До 14 лет — только по тротуару</text>
+  <text x="100" y="340" font-size="9" fill="#fff" opacity="0.5">Правила дорожного движения для велосипедистов</text>
+</svg>

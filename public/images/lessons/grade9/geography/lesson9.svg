@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#E8EAF6"/>
+  <!-- Europe map (simplified) -->
+  <g transform="translate(50,20)">
+    <!-- Scandinavia -->
+    <path d="M80,20 Q90,10 100,20 Q105,40 95,60 Q85,70 80,55 Q75,35 80,20" fill="#C5CAE9" stroke="#3F51B5" stroke-width="1.5"/>
+    <!-- British Isles -->
+    <ellipse cx="55" cy="80" rx="12" ry="20" fill="#C5CAE9" stroke="#3F51B5" stroke-width="1.5"/>
+    <ellipse cx="42" cy="75" rx="6" ry="10" fill="#C5CAE9" stroke="#3F51B5" stroke-width="1"/>
+    <!-- Western Europe -->
+    <path d="M95,80 Q110,70 130,75 Q140,80 138,95 Q135,110 125,115 Q115,118 105,110 Q95,100 95,80" fill="#C5CAE9" stroke="#3F51B5" stroke-width="1.5"/>
+    <!-- Iberian Peninsula -->
+    <path d="M80,120 Q95,110 110,118 Q120,125 115,145 Q108,158 95,155 Q80,150 75,135 Q73,125 80,120" fill="#C5CAE9" stroke="#3F51B5" stroke-width="1.5"/>
+    <!-- Italy -->
+    <path d="M140,105 Q150,95 155,105 Q158,120 152,140 Q148,155 142,148 Q138,135 140,105" fill="#C5CAE9" stroke="#3F51B5" stroke-width="1.5"/>
+    <!-- Balkans -->
+    <path d="M155,95 Q170,85 185,90 Q195,95 190,110 Q185,125 175,130 Q165,128 158,118 Q155,105 155,95" fill="#C5CAE9" stroke="#3F51B5" stroke-width="1.5"/>
+    <!-- Eastern Europe -->
+    <path d="M155,50 Q180,40 210,45 Q230,55 235,75 Q235,100 225,115 Q210,125 190,120 Q170,115 160,95 Q155,70 155,50" fill="#C5CAE9" stroke="#3F51B5" stroke-width="1.5"/>
+    <!-- Greece -->
+    <path d="M170,135 Q180,130 185,140 Q188,150 180,155 Q172,155 168,148 Q165,140 170,135" fill="#C5CAE9" stroke="#3F51B5" stroke-width="1.5"/>
+  </g>
+  <!-- Country markers -->
+  <!-- Germany -->
+  <g transform="translate(175,110)">
+    <circle r="5" fill="#FFD54F" stroke="#F57F17" stroke-width="1.5"/>
+    <line x1="5" y1="-3" x2="30" y2="-15" stroke="#333" stroke-width="0.8"/>
+    <text x="32" y="-12" font-family="Arial,sans-serif" font-size="7" fill="#333" font-weight="bold">Германия</text>
+  </g>
+  <!-- France -->
+  <g transform="translate(145,140)">
+    <circle r="5" fill="#42A5F5" stroke="#1565C0" stroke-width="1.5"/>
+    <line x1="-5" y1="3" x2="-25" y2="15" stroke="#333" stroke-width="0.8"/>
+    <text x="-52" y="18" font-family="Arial,sans-serif" font-size="7" fill="#333" font-weight="bold">Франция</text>
+  </g>
+  <!-- UK -->
+  <g transform="translate(108,95)">
+    <circle r="5" fill="#EF5350" stroke="#C62828" stroke-width="1.5"/>
+    <line x1="-5" y1="-3" x2="-20" y2="-10" stroke="#333" stroke-width="0.8"/>
+    <text x="-38" y="-7" font-family="Arial,sans-serif" font-size="7" fill="#333" font-weight="bold">Великобритания</text>
+  </g>
+  <!-- Italy -->
+  <g transform="translate(195,155)">
+    <circle r="5" fill="#66BB6A" stroke="#2E7D32" stroke-width="1.5"/>
+    <line x1="5" y1="3" x2="25" y2="10" stroke="#333" stroke-width="0.8"/>
+    <text x="27" y="13" font-family="Arial,sans-serif" font-size="7" fill="#333" font-weight="bold">Италия</text>
+  </g>
+  <!-- Spain -->
+  <g transform="translate(148,170)">
+    <circle r="5" fill="#FF9800" stroke="#E65100" stroke-width="1.5"/>
+    <line x1="-5" y1="3" x2="-20" y2="15" stroke="#333" stroke-width="0.8"/>
+    <text x="-30" y="22" font-family="Arial,sans-serif" font-size="7" fill="#333" font-weight="bold">Испания</text>
+  </g>
+  <!-- Poland -->
+  <g transform="translate(210,95)">
+    <circle r="5" fill="#E91E63" stroke="#880E4F" stroke-width="1.5"/>
+    <line x1="5" y1="-3" x2="25" y2="-12" stroke="#333" stroke-width="0.8"/>
+    <text x="27" y="-9" font-family="Arial,sans-serif" font-size="7" fill="#333" font-weight="bold">Польша</text>
+  </g>
+  <!-- Scandinavia -->
+  <g transform="translate(155,55)">
+    <circle r="5" fill="#26A69A" stroke="#00695C" stroke-width="1.5"/>
+    <line x1="-5" y1="-3" x2="-25" y2="-10" stroke="#333" stroke-width="0.8"/>
+    <text x="-48" y="-7" font-family="Arial,sans-serif" font-size="7" fill="#333">Скандинавия</text>
+  </g>
+  <!-- EU highlight -->
+  <ellipse cx="170" cy="130" rx="60" ry="50" fill="none" stroke="#FFD54F" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="170" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#F57F17" font-weight="bold">ЕС — 27 стран</text>
+  <!-- Info boxes -->
+  <rect x="280" y="30" width="200" height="70" rx="5" fill="white" opacity="0.85"/>
+  <text x="380" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#333" font-weight="bold">Характеристика</text>
+  <text x="290" y="62" font-family="Arial,sans-serif" font-size="7" fill="#666">• Площадь: ~10 млн км²</text>
+  <text x="290" y="74" font-family="Arial,sans-serif" font-size="7" fill="#666">• Население: ~750 млн</text>
+  <text x="290" y="86" font-family="Arial,sans-serif" font-size="7" fill="#666">• Высокий уровень развития</text>
+  <text x="290" y="94" font-family="Arial,sans-serif" font-size="7" fill="#666">• Валюта: евро (20 стран)</text>
+  <rect x="280" y="110" width="200" height="70" rx="5" fill="white" opacity="0.85"/>
+  <text x="380" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#333" font-weight="bold">Отрасли специализации</text>
+  <text x="290" y="142" font-family="Arial,sans-serif" font-size="7" fill="#666">• Машиностроение, авто</text>
+  <text x="290" y="154" font-family="Arial,sans-serif" font-size="7" fill="#666">• Химия, фармацевтика</text>
+  <text x="290" y="166" font-family="Arial,sans-serif" font-size="7" fill="#666">• Туризм, финансы</text>
+  <text x="290" y="178" font-family="Arial,sans-serif" font-size="7" fill="#666">• Электроника, IT</text>
+  <!-- Nature icons -->
+  <rect x="280" y="190" width="200" height="55" rx="5" fill="white" opacity="0.85"/>
+  <text x="380" y="208" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#333" font-weight="bold">Природа</text>
+  <!-- Mountain -->
+  <polygon points="300,235 315,215 330,235" fill="#78909C" opacity="0.5"/>
+  <polygon points="310,235 325,218 340,235" fill="#90A4AE" opacity="0.5"/>
+  <text x="355" y="225" font-family="Arial,sans-serif" font-size="7" fill="#666">Альпы, Карпаты</text>
+  <!-- Sea -->
+  <path d="M300,238 Q310,234 320,238 Q330,242 340,238" stroke="#42A5F5" stroke-width="1.5" fill="none"/>
+  <text x="355" y="238" font-family="Arial,sans-serif" font-size="7" fill="#666">Средиземное м.</text>
+  <text x="250" y="345" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#666" opacity="0.5">Страны Европы</text>
+</svg>

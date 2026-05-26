@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#78350F"/>
+    <stop offset="100%" style="stop-color:#B45309"/>
+  </linearGradient>
+  <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#D97706"/>
+    <stop offset="100%" style="stop-color:#F59E0B"/>
+  </linearGradient>
+  <linearGradient id="pyramidGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+    <stop offset="0%" style="stop-color:#92400E"/>
+    <stop offset="50%" style="stop-color:#F59E0B"/>
+    <stop offset="100%" style="stop-color:#FBBF24"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="800" height="600" fill="url(#bg)"/>
+<rect x="0" y="0" width="800" height="70" fill="url(#bg)" rx="8"/>
+<circle cx="40" cy="35" r="22" fill="#D97706" stroke="#F59E0B" stroke-width="2"/>
+<text x="40" y="42" fill="#FFFFFF" font-size="18" text-anchor="middle" font-family="sans-serif" font-weight="bold">8</text>
+<text x="72" y="32" fill="#FFFFFF" font-size="22" text-anchor="start" font-family="sans-serif" font-weight="bold">Что такое политика</text>
+<text x="72" y="52" fill="#FCD34D" font-size="13" text-anchor="start" font-family="sans-serif" font-weight="normal">Власть, государство, политическая система</text>
+<rect x="0" y="68" width="800" height="2" fill="#F59E0B" rx="8"/>
+<rect x="20" y="80" width="370" height="220" fill="#1C1917" rx="8" stroke="#D97706" stroke-width="1"/>
+<text x="35" y="102" fill="#F59E0B" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Что такое политика?</text>
+<rect x="35" y="120" width="340" height="55" fill="#292524" rx="6" stroke="#FBBF24" stroke-width="1"/>
+<text x="45" y="140" fill="#FBBF24" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Политика — сфера деятельности,</text>
+<text x="45" y="158" fill="#FBBF24" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">связанная с отношениями между людьми</text>
+<rect x="35" y="185" width="340" height="28" fill="#292524" rx="4" stroke="#F87171" stroke-width="1"/>
+<text x="45" y="203" fill="#F87171" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Власть</text>
+<text x="120" y="203" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">Способность навязывать волю</text>
+<rect x="35" y="219" width="340" height="28" fill="#292524" rx="4" stroke="#60A5FA" stroke-width="1"/>
+<text x="45" y="237" fill="#60A5FA" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Государство</text>
+<text x="120" y="237" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">Организация управления обществом</text>
+<rect x="35" y="253" width="340" height="28" fill="#292524" rx="4" stroke="#FB923C" stroke-width="1"/>
+<text x="45" y="271" fill="#FB923C" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Политики</text>
+<text x="120" y="271" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">Люди, занимающиеся политикой</text>
+<rect x="400" y="80" width="380" height="220" fill="#1C1917" rx="8" stroke="#D97706" stroke-width="1"/>
+<text x="415" y="102" fill="#F59E0B" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Политическая система</text>
+<circle cx="590" cy="190" r="40" fill="#92400E" stroke="#F59E0B" stroke-width="2"/>
+<text x="590" y="194" fill="#FFFFFF" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="bold">Власть</text>
+<circle cx="480" cy="130" r="28" fill="#292524" stroke="#4ADE80" stroke-width="1.5"/>
+<text x="480" y="134" fill="#4ADE80" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="bold">Партии</text>
+<line x1="506.33686718743155" y1="144.3655639204172" x2="553.1283859375959" y2="169.88821051141593" stroke="#4ADE80" stroke-width="1"/>
+<polygon points="553.1283859375959,169.88821051141593,544.1898128315586,169.5689757576289,548.0206298770031,162.54581117431383" fill="#4ADE80"/>
+<circle cx="700" cy="130" r="28" fill="#292524" stroke="#F87171" stroke-width="1.5"/>
+<text x="700" y="134" fill="#F87171" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="bold">Государство</text>
+<line x1="673.6631328125685" y1="144.3655639204172" x2="626.8716140624041" y2="169.88821051141593" stroke="#F87171" stroke-width="1"/>
+<polygon points="626.8716140624041,169.88821051141593,631.9793701229969,162.54581117431383,635.8101871684414,169.5689757576289" fill="#F87171"/>
+<circle cx="480" cy="250" r="28" fill="#292524" stroke="#FB923C" stroke-width="1.5"/>
+<text x="480" y="254" fill="#FB923C" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="bold">Выборы</text>
+<line x1="506.33686718743155" y1="235.6344360795828" x2="553.1283859375959" y2="210.11178948858407" stroke="#FB923C" stroke-width="1"/>
+<polygon points="553.1283859375959,210.11178948858407,548.0206298770031,217.45418882568617,544.1898128315586,210.4310242423711" fill="#FB923C"/>
+<circle cx="700" cy="250" r="28" fill="#292524" stroke="#60A5FA" stroke-width="1.5"/>
+<text x="700" y="254" fill="#60A5FA" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="bold">Право</text>
+<line x1="673.6631328125685" y1="235.6344360795828" x2="626.8716140624041" y2="210.11178948858407" stroke="#60A5FA" stroke-width="1"/>
+<polygon points="626.8716140624041,210.11178948858407,635.8101871684414,210.4310242423711,631.9793701229969,217.45418882568617" fill="#60A5FA"/>
+<rect x="20" y="310" width="760" height="260" fill="#1C1917" rx="8" stroke="#D97706" stroke-width="1"/>
+<text x="35" y="332" fill="#F59E0B" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Функции государства</text>
+<text x="35" y="356" fill="#FFFFFF" font-size="12" text-anchor="start" font-family="sans-serif" font-weight="bold">Внутренние:</text>
+<rect x="35" y="368" width="350" height="22" fill="#292524" rx="4"/>
+<text x="45" y="383" fill="#F87171" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="bold">• Политическая</text>
+<text x="175" y="383" fill="#FEF3C7" font-size="9" text-anchor="start" font-family="sans-serif" font-weight="normal">Управление обществом</text>
+<rect x="35" y="394" width="350" height="22" fill="#292524" rx="4"/>
+<text x="45" y="409" fill="#FB923C" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="bold">• Экономическая</text>
+<text x="175" y="409" fill="#FEF3C7" font-size="9" text-anchor="start" font-family="sans-serif" font-weight="normal">Регулирование экономики</text>
+<rect x="35" y="420" width="350" height="22" fill="#292524" rx="4"/>
+<text x="45" y="435" fill="#60A5FA" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="bold">• Социальная</text>
+<text x="175" y="435" fill="#FEF3C7" font-size="9" text-anchor="start" font-family="sans-serif" font-weight="normal">Поддержка населения</text>
+<rect x="35" y="446" width="350" height="22" fill="#292524" rx="4"/>
+<text x="45" y="461" fill="#C084FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="bold">• Культурная</text>
+<text x="175" y="461" fill="#FEF3C7" font-size="9" text-anchor="start" font-family="sans-serif" font-weight="normal">Развитие образования и культуры</text>
+<rect x="35" y="472" width="350" height="22" fill="#292524" rx="4"/>
+<text x="45" y="487" fill="#4ADE80" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="bold">• Правоохранительная</text>
+<text x="175" y="487" fill="#FEF3C7" font-size="9" text-anchor="start" font-family="sans-serif" font-weight="normal">Защита прав и свобод</text>
+<text x="405" y="356" fill="#FFFFFF" font-size="12" text-anchor="start" font-family="sans-serif" font-weight="bold">Внешние:</text>
+<rect x="405" y="368" width="350" height="22" fill="#292524" rx="4"/>
+<text x="415" y="383" fill="#F87171" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="bold">• Оборона</text>
+<text x="540" y="383" fill="#FEF3C7" font-size="9" text-anchor="start" font-family="sans-serif" font-weight="normal">Защита от внешних угроз</text>
+<rect x="405" y="394" width="350" height="22" fill="#292524" rx="4"/>
+<text x="415" y="409" fill="#60A5FA" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="bold">• Дипломатия</text>
+<text x="540" y="409" fill="#FEF3C7" font-size="9" text-anchor="start" font-family="sans-serif" font-weight="normal">Международные отношения</text>
+<rect x="405" y="420" width="350" height="22" fill="#292524" rx="4"/>
+<text x="415" y="435" fill="#4ADE80" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="bold">• Сотрудничество</text>
+<text x="540" y="435" fill="#FEF3C7" font-size="9" text-anchor="start" font-family="sans-serif" font-weight="normal">Экономические и культурные связи</text>
+<rect x="35" y="510" width="730" height="50" fill="#292524" rx="6" stroke="#FBBF24" stroke-width="1"/>
+<text x="45" y="530" fill="#FBBF24" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Признаки государства:</text>
+<rect x="215" y="522" width="86" height="20" fill="#FB923C" rx="10"/>
+<text x="258.0" y="536" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Территория</text>
+<rect x="305" y="522" width="79" height="20" fill="#60A5FA" rx="10"/>
+<text x="344.5" y="536" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Население</text>
+<rect x="395" y="522" width="58" height="20" fill="#F87171" rx="10"/>
+<text x="424.0" y="536" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Власть</text>
+<rect x="470" y="522" width="58" height="20" fill="#4ADE80" rx="10"/>
+<text x="499.0" y="536" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Законы</text>
+<rect x="545" y="522" width="58" height="20" fill="#C084FC" rx="10"/>
+<text x="574.0" y="536" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Налоги</text>
+<rect x="620" y="522" width="93" height="20" fill="#FBBF24" rx="10"/>
+<text x="666.5" y="536" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Суверенитет</text>
+<rect x="0" y="570" width="800" height="30" fill="url(#bg)" rx="8"/>
+<text x="400.0" y="590" fill="#FCD34D" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="normal">Обществознание · 7 класс</text>
+</svg>

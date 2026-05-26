@@ -1,0 +1,68 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="350" fill="#121218"/>
+  <!-- Metal shine gradient -->
+  <defs>
+    <linearGradient id="metalShine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#90a4ae"/>
+      <stop offset="30%" stop-color="#eceff1"/>
+      <stop offset="50%" stop-color="#cfd8dc"/>
+      <stop offset="70%" stop-color="#b0bec5"/>
+      <stop offset="100%" stop-color="#78909c"/>
+    </linearGradient>
+  </defs>
+  <!-- Metal bar with shine -->
+  <rect x="40" y="40" width="200" height="40" rx="3" fill="url(#metalShine)" stroke="#546e7a" stroke-width="1"/>
+  <text x="70" y="65" font-size="10" fill="#37474f">Сталь — сплав Fe + C</text>
+  <!-- Melting furnace -->
+  <rect x="280" y="30" width="160" height="100" rx="8" fill="#1a1a1a" stroke="#546e7a" stroke-width="1.5"/>
+  <!-- Furnace body -->
+  <rect x="295" y="45" width="100" height="70" rx="4" fill="#2a1a1a" stroke="#ff5722" stroke-width="1.5"/>
+  <!-- Fire inside -->
+  <ellipse cx="345" cy="90" rx="30" ry="15" fill="#ff5722" opacity="0.4"/>
+  <ellipse cx="345" cy="85" rx="20" ry="10" fill="#ff9800" opacity="0.5"/>
+  <ellipse cx="345" cy="80" rx="10" ry="6" fill="#ffeb3b" opacity="0.6"/>
+  <!-- Smoke -->
+  <circle cx="330" cy="40" r="6" fill="#546e7a" opacity="0.2"/>
+  <circle cx="340" cy="32" r="8" fill="#546e7a" opacity="0.15"/>
+  <circle cx="355" cy="25" r="10" fill="#546e7a" opacity="0.1"/>
+  <!-- Temperature -->
+  <text x="305" y="75" font-size="9" fill="#ff9800">~1500°C</text>
+  <text x="290" y="130" font-size="8" fill="#78909c">Плавильная печь</text>
+  <!-- Metal objects -->
+  <!-- Copper wire -->
+  <path d="M40,120 Q60,110 80,120 Q100,130 120,120 Q140,110 160,120" fill="none" stroke="#e65100" stroke-width="4" stroke-linecap="round"/>
+  <text x="55" y="145" font-size="8" fill="#ff8a65">Медь (Cu)</text>
+  <!-- Aluminum can -->
+  <rect x="180" y="110" width="30" height="45" rx="4" fill="#eceff1" stroke="#b0bec5" stroke-width="1"/>
+  <ellipse cx="195" cy="113" rx="15" ry="4" fill="#cfd8dc"/>
+  <text x="172" y="168" font-size="8" fill="#b0bec5">Алюминий</text>
+  <!-- Gold ring -->
+  <ellipse cx="260" cy="130" rx="18" ry="14" fill="none" stroke="#ffc107" stroke-width="4"/>
+  <ellipse cx="260" cy="130" rx="10" ry="7" fill="#1a1a1a"/>
+  <text x="240" y="155" font-size="8" fill="#ffc107">Золото (Au)</text>
+  <!-- Iron nail -->
+  <rect x="310" y="110" width="4" height="50" fill="#78909c"/>
+  <circle cx="312" cy="108" r="6" fill="#90a4ae" stroke="#607d8b" stroke-width="1"/>
+  <text x="298" y="175" font-size="8" fill="#90a4ae">Железо (Fe)</text>
+  <!-- Properties table -->
+  <rect x="30" y="195" width="440" height="120" rx="6" fill="#1a1a2a" stroke="#546e7a" stroke-width="1"/>
+  <text x="50" y="218" font-size="11" fill="#b0bec5" font-weight="bold">Свойства металлов и сплавов:</text>
+  <!-- Table headers -->
+  <text x="50" y="240" font-size="9" fill="#78909c" font-weight="bold">Свойство</text>
+  <text x="170" y="240" font-size="9" fill="#78909c" font-weight="bold">Металл</text>
+  <text x="300" y="240" font-size="9" fill="#78909c" font-weight="bold">Сплав</text>
+  <line x1="50" y1="244" x2="450" y2="244" stroke="#37474f" stroke-width="1"/>
+  <text x="50" y="260" font-size="8" fill="#cfd8dc">Пластичность</text>
+  <text x="170" y="260" font-size="8" fill="#cfd8dc">++++</text>
+  <text x="300" y="260" font-size="8" fill="#cfd8dc">++</text>
+  <text x="50" y="276" font-size="8" fill="#cfd8dc">Твёрдость</text>
+  <text x="170" y="276" font-size="8" fill="#cfd8dc">++</text>
+  <text x="300" y="276" font-size="8" fill="#cfd8dc">++++</text>
+  <text x="50" y="292" font-size="8" fill="#cfd8dc">Теплопроводность</text>
+  <text x="170" y="292" font-size="8" fill="#cfd8dc">++++</text>
+  <text x="300" y="292" font-size="8" fill="#cfd8dc">+++</text>
+  <text x="50" y="308" font-size="8" fill="#cfd8dc">Коррозионная стойк.</text>
+  <text x="170" y="308" font-size="8" fill="#cfd8dc">+  (Fe) / ++++ (Au)</text>
+  <text x="300" y="308" font-size="8" fill="#cfd8dc">+++ (нерж. сталь)</text>
+  <text x="200" y="340" font-size="9" fill="#fff" opacity="0.5">Свойства металлов и сплавов</text>
+</svg>

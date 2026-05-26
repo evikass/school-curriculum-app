@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#E0F7FA"/>
+  <!-- Americas map (simplified) -->
+  <g transform="translate(30,10)">
+    <!-- North America -->
+    <path d="M60,40 Q90,20 130,25 Q160,30 175,50 Q185,70 180,90 Q170,110 155,120 Q140,128 125,125 Q110,120 100,130 Q90,145 85,160 Q80,170 75,160 Q68,140 60,120 Q50,100 45,80 Q42,60 60,40" fill="#B3E5FC" stroke="#0277BD" stroke-width="1.5"/>
+    <!-- Central America -->
+    <path d="M100,130 Q110,125 120,128 Q130,135 125,148 Q118,158 108,155 Q98,150 95,140 Q95,133 100,130" fill="#B3E5FC" stroke="#0277BD" stroke-width="1"/>
+    <!-- South America -->
+    <path d="M110,160 Q125,150 140,155 Q155,162 160,180 Q162,200 158,225 Q152,248 140,265 Q128,278 115,275 Q105,268 100,248 Q95,225 98,200 Q100,175 110,160" fill="#B3E5FC" stroke="#0277BD" stroke-width="1.5"/>
+    <!-- Greenland -->
+    <ellipse cx="150" cy="15" rx="25" ry="15" fill="#E0F7FA" stroke="#0277BD" stroke-width="1"/>
+  </g>
+  <!-- Country markers -->
+  <!-- USA -->
+  <g transform="translate(115,75)">
+    <circle r="6" fill="#F44336" stroke="#B71C1C" stroke-width="1.5"/>
+    <line x1="6" y1="-4" x2="30" y2="-18" stroke="#333" stroke-width="0.8"/>
+    <text x="32" y="-15" font-family="Arial,sans-serif" font-size="8" fill="#B71C1C" font-weight="bold">США</text>
+    <text x="32" y="-6" font-family="Arial,sans-serif" font-size="6" fill="#666">9,8 млн км², 335 млн</text>
+  </g>
+  <!-- Canada -->
+  <g transform="translate(100,45)">
+    <circle r="6" fill="#FF9800" stroke="#E65100" stroke-width="1.5"/>
+    <line x1="-6" y1="-3" x2="-28" y2="-12" stroke="#333" stroke-width="0.8"/>
+    <text x="-52" y="-9" font-family="Arial,sans-serif" font-size="8" fill="#E65100" font-weight="bold">Канада</text>
+  </g>
+  <!-- Mexico -->
+  <g transform="translate(105,120)">
+    <circle r="5" fill="#4CAF50" stroke="#1B5E20" stroke-width="1.5"/>
+    <line x1="-5" y1="4" x2="-25" y2="15" stroke="#333" stroke-width="0.8"/>
+    <text x="-42" y="18" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" font-weight="bold">Мексика</text>
+  </g>
+  <!-- Brazil -->
+  <g transform="translate(175,195)">
+    <circle r="6" fill="#4CAF50" stroke="#1B5E20" stroke-width="1.5"/>
+    <line x1="6" y1="3" x2="30" y2="12" stroke="#333" stroke-width="0.8"/>
+    <text x="32" y="15" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" font-weight="bold">Бразилия</text>
+    <text x="32" y="24" font-family="Arial,sans-serif" font-size="6" fill="#666">Крупнейшая в ЛА</text>
+  </g>
+  <!-- Argentina -->
+  <g transform="translate(155,260)">
+    <circle r="5" fill="#42A5F5" stroke="#1565C0" stroke-width="1.5"/>
+    <line x1="5" y1="3" x2="25" y2="12" stroke="#333" stroke-width="0.8"/>
+    <text x="27" y="15" font-family="Arial,sans-serif" font-size="7" fill="#0D47A1" font-weight="bold">Аргентина</text>
+  </g>
+  <!-- Cuba -->
+  <g transform="translate(130,135)">
+    <circle r="4" fill="#9C27B0" stroke="#6A1B9A" stroke-width="1"/>
+    <line x1="4" y1="-3" x2="18" y2="-8" stroke="#333" stroke-width="0.8"/>
+    <text x="20" y="-5" font-family="Arial,sans-serif" font-size="6" fill="#6A1B9A">Куба</text>
+  </g>
+  <!-- Info box: North America -->
+  <rect x="290" y="25" width="190" height="85" rx="5" fill="white" opacity="0.85"/>
+  <text x="385" y="43" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#333" font-weight="bold">Северная Америка</text>
+  <text x="300" y="57" font-family="Arial,sans-serif" font-size="7" fill="#666">• США, Канада, Мексика</text>
+  <text x="300" y="69" font-family="Arial,sans-serif" font-size="7" fill="#666">• Высокий уровень развития</text>
+  <text x="300" y="81" font-family="Arial,sans-serif" font-size="7" fill="#666">• НАФТА → ТМШ (USMCA)</text>
+  <text x="300" y="93" font-family="Arial,sans-serif" font-size="7" fill="#666">• Крупнейшая экономика</text>
+  <text x="300" y="105" font-family="Arial,sans-serif" font-size="7" fill="#666">• IT, финансы, технологии</text>
+  <!-- Info box: Latin America -->
+  <rect x="290" y="120" width="190" height="85" rx="5" fill="white" opacity="0.85"/>
+  <text x="385" y="138" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#333" font-weight="bold">Латинская Америка</text>
+  <text x="300" y="152" font-family="Arial,sans-serif" font-size="7" fill="#666">• Бразилия, Аргентина, Чили</text>
+  <text x="300" y="164" font-family="Arial,sans-serif" font-size="7" fill="#666">• Развивающиеся страны</text>
+  <text x="300" y="176" font-family="Arial,sans-serif" font-size="7" fill="#666">• Кофе, какао, бананы</text>
+  <text x="300" y="188" font-family="Arial,sans-serif" font-size="7" fill="#666">• Нефть, руды, лес</text>
+  <text x="300" y="200" font-family="Arial,sans-serif" font-size="7" fill="#666">• Высокая урбанизация (80%)</text>
+  <!-- Amazon rainforest indicator -->
+  <rect x="290" y="215" width="190" height="40" rx="4" fill="#E8F5E9" opacity="0.8"/>
+  <text x="385" y="232" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" font-weight="bold">🌳 Амазония</text>
+  <text x="385" y="244" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">«Лёгкие планеты» — 20% мирового леса</text>
+  <text x="250" y="345" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#666" opacity="0.5">Страны Америки</text>
+</svg>

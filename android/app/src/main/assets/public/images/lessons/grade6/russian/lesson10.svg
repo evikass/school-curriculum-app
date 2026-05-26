@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <text x="250" y="38" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#C62828" text-anchor="middle">Правописание падежных</text>
+  <text x="250" y="56" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#C62828" text-anchor="middle">окончаний</text>
+  <text x="250" y="70" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Русский язык - Урок 10</text>
+  <line x1="30" y1="76" x2="470" y2="76" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="73" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="73" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Card 1: Гласные в окончаниях -->
+  <rect x="25" y="84" width="220" height="105" rx="6" fill="white" stroke="#C62828" stroke-width="1.5" opacity="0.9"/>
+  <text x="135" y="98" font-family="Arial,sans-serif" font-size="8" fill="#C62828" font-weight="bold" text-anchor="middle">ГЛАСНЫЕ В ОКОНЧАНИЯХ</text>
+  <!-- Ending comparison -->
+  <rect x="35" y="108" width="100" height="34" rx="5" fill="#FFEBEE" stroke="#C62828" stroke-width="1"/>
+  <text x="85" y="122" font-family="Arial,sans-serif" font-size="10" fill="#C62828" text-anchor="middle" font-weight="bold">-е / -и</text>
+  <text x="85" y="136" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">1-е, 2-е склонение</text>
+  <!-- Example words -->
+  <text x="45" y="155" font-family="Arial,sans-serif" font-size="7" fill="#555">о земл</text>
+  <rect x="80" y="147" width="10" height="10" rx="2" fill="#FFCDD2" stroke="#C62828" stroke-width="0.8"/>
+  <text x="85" y="156" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" font-weight="bold">е</text>
+  <text x="95" y="155" font-family="Arial,sans-serif" font-size="7" fill="#555">- 2 скл. (Тв.п.)</text>
+  <text x="45" y="170" font-family="Arial,sans-serif" font-size="7" fill="#555">о площади</text>
+  <rect x="105" y="162" width="10" height="10" rx="2" fill="#BBDEFB" stroke="#1565C0" stroke-width="0.8"/>
+  <text x="110" y="171" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle" font-weight="bold">и</text>
+  <text x="120" y="170" font-family="Arial,sans-serif" font-size="7" fill="#555">- 3 скл.</text>
+  <!-- Arrow showing rule -->
+  <line x1="145" y1="110" x2="145" y2="140" stroke="#F9A825" stroke-width="1" stroke-dasharray="2,1"/>
+  <rect x="155" y="108" width="80" height="60" rx="4" fill="#FFF8E1" stroke="#F9A825" stroke-width="0.8"/>
+  <text x="195" y="120" font-family="Arial,sans-serif" font-size="6" fill="#F57F17" text-anchor="middle" font-weight="bold">ПРАВИЛО:</text>
+  <text x="195" y="131" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Если после шипящей</text>
+  <text x="195" y="140" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">в окончании -е</text>
+  <text x="195" y="149" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">а не -и (кроме 3 скл.)</text>
+  <text x="195" y="160" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">но: о мыши, о вещи</text>
+
+  <!-- Card 2: О-Ё после шипящих -->
+  <rect x="257" y="84" width="217" height="105" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5" opacity="0.9"/>
+  <text x="365" y="98" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" font-weight="bold" text-anchor="middle">О-Ё ПОСЛЕ ШИПЯЩИХ</text>
+  <!-- Under stress = ё -->
+  <rect x="267" y="108" width="95" height="35" rx="4" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.8"/>
+  <text x="314" y="120" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">Под ударением = Ё</text>
+  <text x="314" y="130" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">дождёвый</text>
+  <text x="314" y="140" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">камышёвый</text>
+  <!-- No stress = о -->
+  <rect x="370" y="108" width="95" height="35" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="0.8"/>
+  <text x="417" y="120" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle" font-weight="bold">Без ударения = О</text>
+  <text x="417" y="130" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">плюшевый</text>
+  <text x="417" y="140" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">грошовый</text>
+  <!-- Visual: accent mark -->
+  <line x1="355" y1="124" x2="358" y2="118" stroke="#2E7D32" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="365" y="128" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">удар.</text>
+  <!-- Rule box -->
+  <rect x="267" y="150" width="198" height="30" rx="4" fill="#FFF3E0" stroke="#F9A825" stroke-width="0.8"/>
+  <text x="366" y="162" font-family="Arial,sans-serif" font-size="6" fill="#F57F17" text-anchor="middle">Исключения: шов, шомпол, брюшко,</text>
+  <text x="366" y="174" font-family="Arial,sans-serif" font-size="6" fill="#F57F17" text-anchor="middle">чопорный, крыжовник - пишем О</text>
+
+  <!-- Card 3: Правописание -Е и -И в падежах -->
+  <rect x="25" y="197" width="300" height="103" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5" opacity="0.9"/>
+  <text x="175" y="211" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" font-weight="bold" text-anchor="middle">-Е ИЛИ -И В ПАДЕЖНЫХ ОКОНЧАНИЯХ</text>
+  <!-- Decision flowchart -->
+  <!-- Start -->
+  <rect x="35" y="220" width="80" height="18" rx="9" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
+  <text x="75" y="233" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">Окончание?</text>
+  <!-- Arrow -->
+  <line x1="115" y1="229" x2="130" y2="229" stroke="#2E7D32" stroke-width="1"/>
+  <polygon points="130,226 136,229 130,232" fill="#2E7D32"/>
+  <!-- Decision diamond -->
+  <polygon points="165,219 195,229 165,239 135,229" fill="#FFF8E1" stroke="#F9A825" stroke-width="1"/>
+  <text x="165" y="233" font-family="Arial,sans-serif" font-size="6" fill="#F57F17" text-anchor="middle">1,2 скл?</text>
+  <!-- Yes arrow -->
+  <line x1="195" y1="229" x2="215" y2="229" stroke="#2E7D32" stroke-width="1"/>
+  <text x="205" y="225" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32">да</text>
+  <polygon points="215,226 221,229 215,232" fill="#2E7D32"/>
+  <rect x="222" y="220" width="40" height="18" rx="4" fill="#FFEBEE" stroke="#C62828" stroke-width="1"/>
+  <text x="242" y="233" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle" font-weight="bold">-Е</text>
+  <!-- No arrow -->
+  <line x1="165" y1="239" x2="165" y2="252" stroke="#2E7D32" stroke-width="1"/>
+  <text x="170" y="248" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32">нет</text>
+  <polygon points="162,252 165,258 168,252" fill="#2E7D32"/>
+  <rect x="145" y="258" width="40" height="18" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+  <text x="165" y="271" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle" font-weight="bold">-И</text>
+  <!-- Examples for -Е -->
+  <text x="275" y="228" font-family="Arial,sans-serif" font-size="6" fill="#555">о стол-е</text>
+  <text x="275" y="237" font-family="Arial,sans-serif" font-size="6" fill="#555">к дорог-е</text>
+  <!-- Examples for -И -->
+  <text x="195" y="282" font-family="Arial,sans-serif" font-size="6" fill="#555">о ноч-и</text>
+  <!-- Exception note -->
+  <rect x="262" y="248" width="55" height="40" rx="4" fill="#FFF3E0" stroke="#F9A825" stroke-width="0.6" stroke-dasharray="2,1"/>
+  <text x="289" y="259" font-family="Arial,sans-serif" font-size="5" fill="#F57F17" text-anchor="middle">Н-р скл.:</text>
+  <text x="289" y="268" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">о</text>
+  <text x="296" y="268" font-family="Arial,sans-serif" font-size="5" fill="#C62828">времени</text>
+  <text x="289" y="278" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">по</text>
+  <text x="298" y="278" font-family="Arial,sans-serif" font-size="5" fill="#C62828">пути</text>
+
+  <!-- Card 4: Н и НН в суффиксах -->
+  <rect x="337" y="197" width="137" height="103" rx="6" fill="white" stroke="#F9A825" stroke-width="1.5" opacity="0.9"/>
+  <text x="405" y="211" font-family="Arial,sans-serif" font-size="8" fill="#F57F17" font-weight="bold" text-anchor="middle">ПРАВИЛА-ПОДСКАЗКИ</text>
+  <!-- Rule 1 -->
+  <rect x="347" y="220" width="117" height="20" rx="4" fill="#FFEBEE" stroke="#C62828" stroke-width="0.8"/>
+  <text x="405" y="233" font-family="Arial,sans-serif" font-size="6" fill="#C62828" text-anchor="middle">Род., Дат., Пред.п. = -И</text>
+  <!-- Rule 2 -->
+  <rect x="347" y="245" width="117" height="20" rx="4" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.8"/>
+  <text x="405" y="258" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">Тв.п. 1 скл. = -ОЙ/-ЕЙ</text>
+  <!-- Rule 3 -->
+  <rect x="347" y="270" width="117" height="20" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="0.8"/>
+  <text x="405" y="283" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">Тв.п. 2 скл. = -ОМ/-ЕМ</text>
+  <!-- Hint pencil icon -->
+  <line x1="350" y1="222" x2="344" y2="232" stroke="#F9A825" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="343,230 342,234 346,232" fill="#F9A825"/>
+
+  <!-- Bottom bar -->
+  <rect x="15" y="308" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Правописание падежных окончаний</text>
+</svg>

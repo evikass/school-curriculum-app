@@ -1,0 +1,61 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="350" fill="#0d1520"/>
+  <!-- Big Ben -->
+  <rect x="40" y="50" width="50" height="180" fill="#546e7a" stroke="#78909c" stroke-width="1.5"/>
+  <rect x="45" y="30" width="40" height="25" rx="2" fill="#607d8b" stroke="#78909c" stroke-width="1"/>
+  <polygon points="45,30 65,15 85,30" fill="#78909c"/>
+  <!-- Clock face -->
+  <circle cx="65" cy="80" r="18" fill="#eceff1" stroke="#546e7a" stroke-width="1.5"/>
+  <line x1="65" y1="64" x2="65" y2="68" stroke="#37474f" stroke-width="1.5"/>
+  <line x1="65" y1="92" x2="65" y2="96" stroke="#37474f" stroke-width="1.5"/>
+  <line x1="49" y1="80" x2="53" y2="80" stroke="#37474f" stroke-width="1.5"/>
+  <line x1="77" y1="80" x2="81" y2="80" stroke="#37474f" stroke-width="1.5"/>
+  <line x1="65" y1="80" x2="65" y2="70" stroke="#37474f" stroke-width="1.5"/>
+  <line x1="65" y1="80" x2="75" y2="83" stroke="#37474f" stroke-width="1"/>
+  <text x="45" y="245" font-size="9" fill="#90a4ae">Big Ben</text>
+  <!-- Eiffel Tower -->
+  <path d="M150,230 L170,80 L180,80 L200,230 Z" fill="none" stroke="#78909c" stroke-width="2"/>
+  <line x1="155" y1="180" x2="195" y2="180" stroke="#78909c" stroke-width="1.5"/>
+  <line x1="160" y1="140" x2="190" y2="140" stroke="#78909c" stroke-width="1"/>
+  <path d="M165,100 L175,60 L185,100" fill="none" stroke="#78909c" stroke-width="1.5"/>
+  <!-- Platform at top -->
+  <rect x="173" y="60" width="4" height="8" fill="#78909c"/>
+  <text x="155" y="245" font-size="9" fill="#90a4ae">Eiffel Tower</text>
+  <!-- Camera with tourist -->
+  <!-- Tourist figure -->
+  <circle cx="310" cy="80" r="16" fill="#e0e0e0" opacity="0.8"/>
+  <!-- Hat -->
+  <rect x="296" y="62" width="28" height="8" rx="2" fill="#8d6e63"/>
+  <rect x="300" y="56" width="20" height="8" rx="3" fill="#6d4c41"/>
+  <!-- Body -->
+  <rect x="296" y="98" width="28" height="50" rx="6" fill="#42a5f5" opacity="0.7"/>
+  <!-- Backpack -->
+  <rect x="324" y="100" width="20" height="35" rx="4" fill="#ff9800" opacity="0.7"/>
+  <rect x="327" y="103" width="14" height="10" rx="2" fill="#e65100" opacity="0.5"/>
+  <!-- Legs -->
+  <rect x="298" y="148" width="10" height="30" rx="3" fill="#5d4037"/>
+  <rect x="312" y="148" width="10" height="30" rx="3" fill="#5d4037"/>
+  <!-- Camera in hand -->
+  <rect x="278" y="108" width="22" height="16" rx="3" fill="#37474f" stroke="#546e7a" stroke-width="1"/>
+  <circle cx="289" cy="116" r="5" fill="#263238" stroke="#78909c" stroke-width="0.8"/>
+  <text x="280" y="200" font-size="9" fill="#e0e0e0">Tourist</text>
+  <!-- Sightseeing activities -->
+  <rect x="380" y="50" width="100" height="175" rx="6" fill="#1a2332" stroke="#4fc3f7" stroke-width="1"/>
+  <text x="392" y="70" font-size="9" fill="#4fc3f7" font-weight="bold">Activities:</text>
+  <text x="392" y="88" font-size="7" fill="#81d4fa">📸 Take photos</text>
+  <text x="392" y="103" font-size="7" fill="#81d4fa">🏛 Visit museums</text>
+  <text x="392" y="118" font-size="7" fill="#81d4fa">🗺 Go sightseeing</text>
+  <text x="392" y="133" font-size="7" fill="#81d4fa">🍕 Try local food</text>
+  <text x="392" y="148" font-size="7" fill="#81d4fa">🛍 Buy souvenirs</text>
+  <text x="392" y="163" font-size="7" fill="#81d4fa">🚶 Take a walk</text>
+  <text x="392" y="178" font-size="7" fill="#81d4fa">🎭 Watch a show</text>
+  <text x="392" y="193" font-size="7" fill="#81d4fa">🌉 See landmarks</text>
+  <text x="392" y="216" font-size="7" fill="#4fc3f7" font-style="italic">"Shall we go</text>
+  <text x="392" y="226" font-size="7" fill="#4fc3f7" font-style="italic">sightseeing?"</text>
+  <!-- Phrase bar -->
+  <rect x="30" y="260" width="440" height="60" rx="6" fill="#1a2332" stroke="#78909c" stroke-width="1"/>
+  <text x="50" y="280" font-size="9" fill="#b0bec5" font-weight="bold">Sightseeing Phrases:</text>
+  <text x="50" y="298" font-size="8" fill="#90a4ae">"What is this building?" • "It was built in..." • "How do I get to...?"</text>
+  <text x="50" y="313" font-size="8" fill="#90a4ae">"Let's take a selfie!" • "The view is amazing!" • "I've never seen anything like it."</text>
+  <text x="200" y="340" font-size="9" fill="#fff" opacity="0.5">Sightseeing and Activities</text>
+</svg>

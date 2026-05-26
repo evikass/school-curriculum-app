@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <radialGradient id="popDense" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#F44336"/>
+      <stop offset="100%" stop-color="#FFEBEE" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="500" height="350" fill="#FFF3E0"/>
+  <!-- Simplified world outline -->
+  <rect x="30" y="30" width="440" height="200" rx="5" fill="#E3F2FD" stroke="#90CAF9" stroke-width="1"/>
+  <!-- Continent shapes (simplified) -->
+  <path d="M60,55 Q85,45 110,52 Q125,58 128,75 Q125,95 110,105 Q90,112 72,102 Q55,90 58,70 Z" fill="#C8E6C9" opacity="0.5"/>
+  <path d="M108,130 Q118,122 128,128 Q135,140 132,160 Q128,178 118,190 Q108,195 98,185 Q90,170 92,152 Q95,138 108,130" fill="#C8E6C9" opacity="0.5"/>
+  <path d="M210,50 Q230,42 245,48 Q252,55 248,68 Q242,78 232,82 Q220,84 212,76 Q205,68 210,50" fill="#C8E6C9" opacity="0.5"/>
+  <path d="M215,95 Q235,88 252,94 Q265,102 268,125 Q270,150 262,175 Q252,195 238,200 Q225,202 218,188 Q210,168 208,140 Q206,115 215,95" fill="#C8E6C9" opacity="0.5"/>
+  <path d="M250,38 Q280,28 320,34 Q355,40 378,55 Q390,70 385,90 Q375,105 350,108 Q320,110 295,100 Q268,88 255,72 Q248,58 250,38" fill="#C8E6C9" opacity="0.5"/>
+  <path d="M310,110 Q322,105 332,112 Q338,128 330,142 Q322,150 314,142 Q308,128 310,110" fill="#C8E6C9" opacity="0.5"/>
+  <path d="M375,178 Q392,172 405,180 Q415,192 408,208 Q398,218 385,215 Q372,210 368,198 Q365,188 375,178" fill="#C8E6C9" opacity="0.5"/>
+  <!-- Population density hotspots -->
+  <!-- South Asia -->
+  <circle cx="318" cy="105" r="25" fill="url(#popDense)" opacity="0.7"/>
+  <!-- East Asia -->
+  <circle cx="365" cy="72" r="22" fill="url(#popDense)" opacity="0.6"/>
+  <!-- Europe -->
+  <circle cx="225" cy="60" r="18" fill="url(#popDense)" opacity="0.5"/>
+  <!-- SE Asia -->
+  <circle cx="348" cy="130" r="15" fill="url(#popDense)" opacity="0.4"/>
+  <!-- Population dots -->
+  <circle cx="318" cy="100" r="3" fill="#C62828" opacity="0.8"/>
+  <circle cx="322" cy="108" r="2" fill="#C62828" opacity="0.6"/>
+  <circle cx="314" cy="106" r="2.5" fill="#C62828" opacity="0.7"/>
+  <circle cx="360" cy="68" r="3" fill="#C62828" opacity="0.8"/>
+  <circle cx="368" cy="75" r="2" fill="#C62828" opacity="0.6"/>
+  <!-- Country labels -->
+  <text x="318" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#B71C1C" font-weight="bold">Индия</text>
+  <text x="370" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#B71C1C" font-weight="bold">Китай</text>
+  <!-- 8 billion -->
+  <g transform="translate(430,50)">
+    <circle r="22" fill="#F44336" opacity="0.9"/>
+    <text x="0" y="-3" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="white" font-weight="bold">8</text>
+    <text x="0" y="10" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="white">млрд</text>
+  </g>
+  <!-- Hemisphere indicator -->
+  <text x="250" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#0D47A1">90% населения — Северное полушарие</text>
+  <!-- Demographic transition graph -->
+  <rect x="30" y="240" width="220" height="90" rx="5" fill="white" opacity="0.85"/>
+  <text x="140" y="258" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#333" font-weight="bold">Демографический переход</text>
+  <!-- Axes -->
+  <line x1="55" y1="320" x2="230" y2="320" stroke="#333" stroke-width="1"/>
+  <line x1="55" y1="268" x2="55" y2="320" stroke="#333" stroke-width="1"/>
+  <text x="45" y="295" font-family="Arial,sans-serif" font-size="6" fill="#666" transform="rotate(-90,45,295)">Уровень</text>
+  <!-- Birth rate curve -->
+  <path d="M55,275 Q90,270 120,272 Q160,275 190,285 Q210,295 230,305" stroke="#F44336" stroke-width="2" fill="none"/>
+  <!-- Death rate curve -->
+  <path d="M55,280 Q90,282 120,290 Q150,298 190,305 Q210,308 230,310" stroke="#1565C0" stroke-width="2" fill="none"/>
+  <!-- Labels -->
+  <text x="232" y="303" font-family="Arial,sans-serif" font-size="6" fill="#C62828">Рожд.</text>
+  <text x="232" y="314" font-family="Arial,sans-serif" font-size="6" fill="#0D47A1">Смертн.</text>
+  <!-- Natural growth area -->
+  <path d="M120,272 Q160,275 190,285 Q170,285 150,298 Q130,295 120,290 Z" fill="#FF9800" opacity="0.2"/>
+  <text x="150" y="288" font-family="Arial,sans-serif" font-size="6" fill="#E65100">ЕП</text>
+  <!-- Two types of reproduction -->
+  <rect x="270" y="240" width="210" height="90" rx="5" fill="white" opacity="0.85"/>
+  <text x="375" y="258" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#333" font-weight="bold">Типы воспроизводства</text>
+  <!-- Type 1 -->
+  <rect x="280" y="265" width="90" height="55" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+  <text x="325" y="280" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#0D47A1" font-weight="bold">I тип</text>
+  <text x="325" y="292" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#666">Низкая рожд.</text>
+  <text x="325" y="302" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#666">Низкая смертн.</text>
+  <text x="325" y="315" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#1565C0">Европа, США</text>
+  <!-- Type 2 -->
+  <rect x="380" y="265" width="90" height="55" rx="4" fill="#FFEBEE" stroke="#C62828" stroke-width="1"/>
+  <text x="425" y="280" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#C62828" font-weight="bold">II тип</text>
+  <text x="425" y="292" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#666">Высокая рожд.</text>
+  <text x="425" y="302" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#666">Высокая смертн.</text>
+  <text x="425" y="315" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#C62828">Африка, Азия</text>
+  <text x="250" y="345" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#666" opacity="0.5">География населения мира</text>
+</svg>

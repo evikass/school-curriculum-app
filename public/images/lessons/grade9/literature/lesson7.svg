@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#1a1a2e"/><stop offset="100%" style="stop-color:#0f3460"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <text x="250" y="22" text-anchor="middle" fill="#4fc3f7" font-size="13" font-weight="bold">М.Ю. Лермонтов «Герой нашего времени»</text>
+  <!-- Pechorin portrait frame -->
+  <rect x="170" y="35" width="160" height="60" rx="8" fill="#0f3460" stroke="#4fc3f7" stroke-width="2"/>
+  <text x="250" y="58" text-anchor="middle" fill="#4fc3f7" font-size="12" font-weight="bold">Печорин</text>
+  <text x="250" y="78" text-anchor="middle" fill="white" font-size="9">«Лишний человек» — портрет поколения</text>
+  <!-- Non-chronological order -->
+  <rect x="20" y="105" width="90" height="45" rx="5" fill="#e74c3c" opacity="0.7"/>
+  <text x="65" y="125" text-anchor="middle" fill="white" font-size="9" font-weight="bold">1. Бэла</text>
+  <text x="65" y="142" text-anchor="middle" fill="white" font-size="8">Внешний облик</text>
+  <rect x="120" y="105" width="90" height="45" rx="5" fill="#f39c12" opacity="0.7"/>
+  <text x="165" y="125" text-anchor="middle" fill="white" font-size="9" font-weight="bold">2. Макс.М.</text>
+  <text x="165" y="142" text-anchor="middle" fill="white" font-size="8">Характер</text>
+  <rect x="220" y="105" width="80" height="45" rx="5" fill="#27ae60" opacity="0.7"/>
+  <text x="260" y="125" text-anchor="middle" fill="white" font-size="9" font-weight="bold">3. Тамань</text>
+  <text x="260" y="142" text-anchor="middle" fill="white" font-size="8">Авантюра</text>
+  <rect x="310" y="105" width="90" height="45" rx="5" fill="#4fc3f7" opacity="0.7"/>
+  <text x="355" y="125" text-anchor="middle" fill="white" font-size="9" font-weight="bold">4. Кн.Мери</text>
+  <text x="355" y="142" text-anchor="middle" fill="white" font-size="8">Дневник</text>
+  <rect x="410" y="105" width="75" height="45" rx="5" fill="#9b59b6" opacity="0.7"/>
+  <text x="447" y="125" text-anchor="middle" fill="white" font-size="9" font-weight="bold">5. Фаталист</text>
+  <text x="447" y="142" text-anchor="middle" fill="white" font-size="8">Философия</text>
+  <text x="250" y="170" text-anchor="middle" fill="#4fc3f7" font-size="9">↓ Раскрытие характера от внешнего к внутреннему ↓</text>
+  <!-- Women -->
+  <rect x="20" y="185" width="150" height="55" rx="6" fill="#1a1a2e" stroke="#e74c3c" stroke-width="1"/>
+  <text x="95" y="208" text-anchor="middle" fill="#e74c3c" font-size="10" font-weight="bold">Бэла</text>
+  <text x="95" y="225" text-anchor="middle" fill="white" font-size="9">Горская княжна, гибнет</text>
+  <rect x="180" y="185" width="150" height="55" rx="6" fill="#1a1a2e" stroke="#f39c12" stroke-width="1"/>
+  <text x="255" y="208" text-anchor="middle" fill="#f39c12" font-size="10" font-weight="bold">Княжна Мери</text>
+  <text x="255" y="225" text-anchor="middle" fill="white" font-size="9">Аристократка, отвергнута</text>
+  <rect x="340" y="185" width="140" height="55" rx="6" fill="#1a1a2e" stroke="#9b59b6" stroke-width="1"/>
+  <text x="410" y="208" text-anchor="middle" fill="#9b59b6" font-size="10" font-weight="bold">Вера</text>
+  <text x="410" y="225" text-anchor="middle" fill="white" font-size="9">Давняя любовь</text>
+  <!-- Quote -->
+  <rect x="20" y="255" width="460" height="55" rx="6" fill="#0f3460" stroke="#4fc3f7" stroke-width="1"/>
+  <text x="250" y="275" text-anchor="middle" fill="#4fc3f7" font-size="10" font-style="italic">«У него неистощимая жажда жизни,</text>
+  <text x="250" y="293" text-anchor="middle" fill="#4fc3f7" font-size="10" font-style="italic">но он не знает, что делать с этой жизнью»</text>
+  <text x="250" y="345" text-anchor="middle" fill="white" font-size="9" opacity="0.5">Лермонтов «Герой нашего времени»</text>
+</svg>

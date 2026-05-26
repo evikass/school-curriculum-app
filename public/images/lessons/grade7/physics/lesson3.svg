@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#1A237E" opacity="0.05"/>
+<defs><radialGradient id="earth" cx="50%" cy="40%"><stop offset="0%" stop-color="#4FC3F7"/><stop offset="60%" stop-color="#1565C0"/><stop offset="100%" stop-color="#0D47A1"/></radialGradient></defs>
+<circle cx="250" cy="200" r="100" fill="url(#earth)"/>
+<ellipse cx="220" cy="170" rx="25" ry="18" fill="#2E7D32" opacity="0.6"/>
+<ellipse cx="280" cy="190" rx="20" ry="15" fill="#2E7D32" opacity="0.5"/>
+<ellipse cx="240" cy="220" rx="15" ry="10" fill="#2E7D32" opacity="0.4"/>
+<circle cx="250" cy="200" r="102" fill="none" stroke="#42A5F5" stroke-width="1" stroke-dasharray="3,5" opacity="0.5"/>
+<rect x="220" y="60" width="60" height="40" rx="4" fill="#FF8A65" stroke="#E64A19" stroke-width="1.5"/>
+<line x1="250" y1="100" x2="250" y2="135" stroke="#FF5722" stroke-width="3"/>
+<polygon points="250,140 243,128 257,128" fill="#FF5722"/>
+<text x="265" y="125" font-size="12" fill="#D32F2F" font-weight="bold">F</text>
+<text x="279" y="120" font-size="8" fill="#D32F2F">тяж</text>
+<rect x="360" y="80" width="110" height="180" rx="6" fill="#ECEFF1" stroke="#78909C" stroke-width="1.5"/>
+<line x1="360" y1="80" x2="470" y2="80" stroke="#78909C" stroke-width="2"/>
+<rect x="390" y="100" width="50" height="8" rx="2" fill="#78909C"/>
+<rect x="390" y="120" width="50" height="8" rx="2" fill="#78909C"/>
+<rect x="390" y="140" width="50" height="8" rx="2" fill="#78909C"/>
+<rect x="390" y="160" width="50" height="8" rx="2" fill="#78909C"/>
+<rect x="390" y="180" width="50" height="8" rx="2" fill="#78909C"/>
+<rect x="395" y="195" width="40" height="40" rx="3" fill="#FF8A65" stroke="#E64A19" stroke-width="1"/>
+<text x="415" y="220" font-size="9" fill="#E64A19" text-anchor="middle">m</text>
+<line x1="415" y1="240" x2="415" y2="260" stroke="#D32F2F" stroke-width="2.5"/>
+<polygon points="415,265 410,255 420,255" fill="#D32F2F"/>
+<text x="430" y="260" font-size="10" fill="#D32F2F">P</text>
+<text x="140" y="320" font-size="14" fill="#0D47A1" font-style="italic">F = mg</text>
+<text x="230" y="320" font-size="10" fill="#1565C0">g ≈ 9,8 м/с²</text>
+<text x="250" y="345" font-size="9" fill="#666" text-anchor="middle" opacity="0.5">Сила тяжести и вес тела</text>
+</svg>

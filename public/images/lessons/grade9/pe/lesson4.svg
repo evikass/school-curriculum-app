@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9C27B0;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#CE93D8;stop-opacity:0.06"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="#1a1a2e"/>
+  <rect width="500" height="350" fill="url(#bg4)"/>
+  <!-- Balance beam -->
+  <rect x="50" y="180" width="180" height="6" fill="#CE93D8" rx="2"/>
+  <rect x="60" y="186" width="8" height="30" fill="#9C27B0" opacity="0.5"/>
+  <rect x="212" y="186" width="8" height="30" fill="#9C27B0" opacity="0.5"/>
+  <!-- Figure on beam -->
+  <g transform="translate(130,110)">
+    <circle cx="15" cy="10" r="9" fill="#CE93D8"/>
+    <line x1="15" y1="19" x2="15" y2="50" stroke="#CE93D8" stroke-width="3" stroke-linecap="round"/>
+    <line x1="15" y1="28" x2="0" y2="42" stroke="#CE93D8" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="15" y1="28" x2="30" y2="42" stroke="#CE93D8" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="15" y1="50" x2="0" y2="70" stroke="#CE93D8" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="15" y1="50" x2="30" y2="70" stroke="#CE93D8" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <!-- Ribbon (rhythmic gymnastics) -->
+  <path d="M300,80 Q320,50 350,80 Q380,110 400,70 Q420,30 440,60 Q460,90 470,50" fill="none" stroke="#CE93D8" stroke-width="3" opacity="0.8"/>
+  <circle cx="300" cy="80" r="6" fill="#9C27B0"/>
+  <!-- Parallel bars -->
+  <rect x="280" y="160" width="8" height="80" fill="#7B1FA2" opacity="0.4"/>
+  <rect x="370" y="160" width="8" height="80" fill="#7B1FA2" opacity="0.4"/>
+  <rect x="275" y="155" width="110" height="6" fill="#CE93D8" rx="2"/>
+  <rect x="275" y="175" width="110" height="6" fill="#CE93D8" rx="2"/>
+  <!-- Mats -->
+  <rect x="80" y="260" width="120" height="15" fill="#9C27B0" opacity="0.3" rx="3"/>
+  <rect x="300" y="260" width="120" height="15" fill="#9C27B0" opacity="0.3" rx="3"/>
+  <!-- Star -->
+  <polygon points="250,50 255,65 270,65 258,75 262,90 250,80 238,90 242,75 230,65 245,65" fill="#CE93D8" opacity="0.5"/>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#aaa" opacity="0.5" font-family="sans-serif">Гимнастика</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#E0F7FA"/>
+<rect x="15" y="15" width="235" height="310" rx="6" fill="#FFF" stroke="#00838F" stroke-width="1.5"/>
+<text x="132" y="35" font-size="9" fill="#006064" text-anchor="middle" font-weight="bold">Круговорот кислорода</text>
+<ellipse cx="100" cy="100" rx="50" ry="30" fill="#81C784" stroke="#2E7D32" stroke-width="2"/>
+<text x="100" y="103" font-size="8" fill="#1B5E20" text-anchor="middle">растения</text>
+<text x="100" y="150" font-size="7" fill="#2E7D32" text-anchor="middle">фотосинтез</text>
+<path d="M100,135 L100,120" stroke="#4CAF50" stroke-width="1.5"/>
+<text x="100" y="170" font-size="8" fill="#00838F" text-anchor="middle">CO₂ + H₂O</text>
+<path d="M80,180 Q60,190 55,210" fill="none" stroke="#00ACC1" stroke-width="2"/>
+<polygon points="55,213 52,205 58,207" fill="#00ACC1"/>
+<text x="30" y="215" font-size="8" fill="#00838F">O₂ ↑</text>
+<circle cx="100" cy="240" r="25" fill="#FFCC80" stroke="#E65100" stroke-width="1.5"/>
+<text x="100" y="237" font-size="7" fill="#BF360C" text-anchor="middle">животные</text>
+<text x="100" y="247" font-size="7" fill="#BF360C" text-anchor="middle">+ человек</text>
+<path d="M75,240 Q55,240 50,225" fill="none" stroke="#E64A19" stroke-width="1.5"/>
+<text x="30" y="240" font-size="7" fill="#E65100">O₂ ↓</text>
+<text x="100" y="285" font-size="7" fill="#00838F" text-anchor="middle">дыхание</text>
+<path d="M130,250 Q150,260 160,240 Q165,220 150,200 Q140,180 120,170" fill="none" stroke="#D32F2F" stroke-width="1.5"/>
+<text x="170" y="230" font-size="7" fill="#C62828">CO₂</text>
+<text x="132" y="310" font-size="7" fill="#00695C" text-anchor="middle">O₂ — 21% атмосферы</text>
+<rect x="260" y="15" width="230" height="310" rx="6" fill="#FFF" stroke="#795548" stroke-width="1.5"/>
+<text x="375" y="35" font-size="9" fill="#4E342E" text-anchor="middle" font-weight="bold">Круговорот азота</text>
+<rect x="290" y="50" width="170" height="40" rx="3" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+<text x="375" y="70" font-size="9" fill="#0D47A1" text-anchor="middle" font-weight="bold">N₂ (атмосфера)</text>
+<text x="375" y="82" font-size="7" fill="#1565C0" text-anchor="middle">78% воздуха</text>
+<path d="M375,90 L375,110" stroke="#795548" stroke-width="2"/>
+<polygon points="375,113 372,107 378,107" fill="#795548"/>
+<text x="410" y="105" font-size="7" fill="#5D4037">азотофиксация</text>
+<ellipse cx="340" cy="135" rx="20" ry="12" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1.5"/>
+<circle cx="360" cy="130" r="5" fill="#81C784" stroke="#388E3C" stroke-width="1"/>
+<text x="375" y="138" font-size="7" fill="#2E7D32">клубеньковые</text>
+<text x="375" y="148" font-size="7" fill="#2E7D32">бактерии</text>
+<path d="M340,147 L340,170" stroke="#4CAF50" stroke-width="2"/>
+<polygon points="340,173 337,167 343,167" fill="#4CAF50"/>
+<rect x="305" y="175" width="70" height="30" rx="3" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1"/>
+<text x="340" y="194" font-size="8" fill="#2E7D32" text-anchor="middle">NH₃ / NO₃⁻</text>
+<text x="340" y="225" font-size="7" fill="#388E3C" text-anchor="middle">усвоение растениями</text>
+<path d="M340,230 L340,245" stroke="#4CAF50" stroke-width="1.5"/>
+<rect x="310" y="245" width="60" height="25" rx="3" fill="#81C784" stroke="#2E7D32" stroke-width="1"/>
+<text x="340" y="262" font-size="7" fill="#1B5E20" text-anchor="middle">белки</text>
+<path d="M370,258 Q400,260 410,250" fill="none" stroke="#FF8F00" stroke-width="1.5"/>
+<rect x="390" y="235" width="50" height="25" rx="3" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+<text x="415" y="252" font-size="7" fill="#BF360C" text-anchor="middle">животн.</text>
+<path d="M415,260 Q415,280 400,290" fill="none" stroke="#795548" stroke-width="1.5"/>
+<ellipse cx="380" cy="300" rx="25" ry="10" fill="#A1887F" stroke="#6D4C41" stroke-width="1"/>
+<text x="380" y="303" font-size="6" fill="#4E342E" text-anchor="middle">денитрификация</text>
+<path d="M355,295 Q340,280 350,265 Q355,255 340,240" fill="none" stroke="#795548" stroke-width="1.5"/>
+<text x="310" y="290" font-size="6" fill="#5D4037">N₂ ↑</text>
+<text x="250" y="345" font-size="9" fill="#666" text-anchor="middle" opacity="0.5">Круговорот кислорода и азота</text>
+</svg>

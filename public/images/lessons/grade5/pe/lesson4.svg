@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF3E0"/>
+      <stop offset="100%" stop-color="#FFE0B2"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#E65100" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#E65100" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#BF360C" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#BF360C" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#FF9800" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#FFB74D" opacity="0.08"/>
+  <circle cx="70" cy="15" r="4" fill="#BF360C" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#E65100" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F57C00" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#BF360C" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#E65100" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F57C00" opacity="0.1"/>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#E65100" text-anchor="middle">Развитие физических качеств</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физкультура - Урок 4</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#E65100" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#E65100" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#FF9800" opacity="0.12" rx="1"/>
+  <rect x="20" y="88" width="220" height="200" rx="6" fill="white" stroke="#E65100" stroke-width="1.5" opacity="0.95"/>
+  <rect x="20" y="88" width="220" height="24" rx="6" fill="#E65100" opacity="0.9"/>
+  <rect x="20" y="104" width="220" height="8" fill="#E65100" opacity="0.9"/>
+  <text x="130" y="105" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">УПРАЖНЕНИЕ</text>
+  <circle cx="130" cy="140" r="12" fill="#E65100" opacity="0.2"/>
+  <line x1="130" y1="152" x2="130" y2="190" stroke="#E65100" stroke-width="3" opacity="0.3"/>
+  <line x1="130" y1="165" x2="105" y2="150" stroke="#E65100" stroke-width="2.5" opacity="0.3"/>
+  <line x1="130" y1="165" x2="155" y2="150" stroke="#E65100" stroke-width="2.5" opacity="0.3"/>
+  <line x1="130" y1="190" x2="110" y2="220" stroke="#E65100" stroke-width="2.5" opacity="0.3"/>
+  <line x1="130" y1="190" x2="150" y2="220" stroke="#E65100" stroke-width="2.5" opacity="0.3"/>
+  <rect x="260" y="88" width="220" height="95" rx="6" fill="white" stroke="#BF360C" stroke-width="1.5" opacity="0.95"/>
+  <rect x="260" y="88" width="220" height="24" rx="6" fill="#BF360C" opacity="0.9"/>
+  <rect x="260" y="104" width="220" height="8" fill="#BF360C" opacity="0.9"/>
+  <text x="370" y="105" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">ЗДОРОВЬЕ</text>
+  <rect x="270" y="118" width="8" height="8" rx="1" fill="#E65100" opacity="0.3"/>
+  <text x="284" y="126" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="start">Режим дня</text>
+  <rect x="270" y="136" width="8" height="8" rx="1" fill="#BF360C" opacity="0.3"/>
+  <text x="284" y="144" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="start">Питание</text>
+  <rect x="270" y="154" width="8" height="8" rx="1" fill="#F57C00" opacity="0.3"/>
+  <text x="284" y="162" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="start">Закаливание</text>
+  <rect x="270" y="172" width="8" height="8" rx="1" fill="#FF9800" opacity="0.3"/>
+  <text x="284" y="180" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="start">Активность</text>
+  <rect x="260" y="195" width="220" height="93" rx="6" fill="white" stroke="#F57C00" stroke-width="1.5" opacity="0.95"/>
+  <rect x="260" y="195" width="220" height="24" rx="6" fill="#F57C00" opacity="0.9"/>
+  <rect x="260" y="211" width="220" height="8" fill="#F57C00" opacity="0.9"/>
+  <text x="370" y="212" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">ФИЗИЧЕСКИЕ КАЧЕСТВА</text>
+  <rect x="270" y="225" width="95" height="20" rx="10" fill="#E65100" opacity="0.15"/>
+  <text x="317" y="239" font-family="Arial,sans-serif" font-size="9" fill="#E65100" text-anchor="middle" font-weight="bold">Сила</text>
+  <rect x="375" y="225" width="95" height="20" rx="10" fill="#BF360C" opacity="0.15"/>
+  <text x="422" y="239" font-family="Arial,sans-serif" font-size="9" fill="#BF360C" text-anchor="middle" font-weight="bold">Выносливость</text>
+  <rect x="270" y="250" width="95" height="20" rx="10" fill="#F57C00" opacity="0.15"/>
+  <text x="317" y="264" font-family="Arial,sans-serif" font-size="9" fill="#F57C00" text-anchor="middle" font-weight="bold">Ловкость</text>
+  <rect x="375" y="250" width="95" height="20" rx="10" fill="#FF9800" opacity="0.15"/>
+  <text x="422" y="264" font-family="Arial,sans-serif" font-size="9" fill="#FF9800" text-anchor="middle" font-weight="bold">Быстрота</text>
+  <rect x="270" y="275" width="95" height="20" rx="10" fill="#FFB74D" opacity="0.15"/>
+  <text x="317" y="289" font-family="Arial,sans-serif" font-size="9" fill="#FFB74D" text-anchor="middle" font-weight="bold">Гибкость</text>
+  <rect x="15" y="308" width="470" height="30" rx="4" fill="#E65100" opacity="0.85"/>
+  <text x="250" y="329" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Развитие физических качеств</text>
+</svg>

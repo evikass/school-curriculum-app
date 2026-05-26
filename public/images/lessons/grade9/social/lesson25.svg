@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><linearGradient id="g25" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2B6CB0"/><stop offset="100%" stop-color="#2C7A7B"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#g25)"/>
+  <!-- Contract -->
+  <g transform="translate(250,130)" opacity="0.4">
+    <rect x="-60" y="-60" width="120" height="120" rx="5" fill="#E2E8F0"/>
+    <line x1="-40" y1="-35" x2="40" y2="-35" stroke="#2B6CB0" stroke-width="2"/>
+    <line x1="-40" y1="-20" x2="30" y2="-20" stroke="#2B6CB0" stroke-width="1" opacity="0.5"/>
+    <line x1="-40" y1="-8" x2="35" y2="-8" stroke="#2B6CB0" stroke-width="1" opacity="0.5"/>
+    <line x1="-40" y1="4" x2="25" y2="4" stroke="#2B6CB0" stroke-width="1" opacity="0.5"/>
+    <!-- Seal -->
+    <circle cx="30" cy="30" r="15" fill="none" stroke="#C53030" stroke-width="2"/>
+  </g>
+  <!-- Key/property icons -->
+  <g transform="translate(100,100)" opacity="0.3">
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#F6E05E" stroke-width="2"/>
+    <line x1="8" y1="6" x2="25" y2="20" stroke="#F6E05E" stroke-width="2"/>
+    <line x1="20" y1="15" x2="25" y2="10" stroke="#F6E05E" stroke-width="2"/>
+  </g>
+  <text x="100" y="140" font-size="9" fill="#F6E05E" opacity="0.4">Собственность</text>
+  <text x="250" y="310" text-anchor="middle" font-size="18" fill="#E2E8F0" font-weight="bold" opacity="0.6">Гражданское право</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#E2E8F0" opacity="0.5">Гражданское право</text>
+</svg>

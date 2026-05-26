@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg10s" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffcdd2"/>
+      <stop offset="100%" stop-color="#ef9a9a"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg10s)"/>
+  
+  <!-- City buildings background -->
+  <rect x="0" y="80" width="60" height="200" fill="#90a4ae" opacity="0.4"/>
+  <rect x="70" y="110" width="50" height="170" fill="#78909c" opacity="0.4"/>
+  <rect x="130" y="90" width="65" height="190" fill="#90a4ae" opacity="0.4"/>
+  <rect x="310" y="100" width="55" height="180" fill="#78909c" opacity="0.4"/>
+  <rect x="375" y="80" width="60" height="200" fill="#90a4ae" opacity="0.4"/>
+  <rect x="445" y="95" width="55" height="185" fill="#78909c" opacity="0.4"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="280" width="500" height="70" fill="#9e9e9e"/>
+  
+  <!-- Suspicious package (center) -->
+  <g transform="translate(250,230)">
+    <!-- Package -->
+    <rect x="-30" y="-25" width="60" height="40" rx="3" fill="#795548" stroke="#5d4037" stroke-width="2"/>
+    <!-- Tape -->
+    <rect x="-5" y="-25" width="10" height="40" fill="#bdbdbd" opacity="0.4"/>
+    <rect x="-30" y="-7" width="60" height="6" fill="#bdbdbd" opacity="0.4"/>
+    <!-- Wires -->
+    <path d="M30,0 Q40,-5 45,5 Q50,15 55,10" stroke="#f44336" stroke-width="2" fill="none"/>
+    <path d="M30,5 Q38,2 42,10 Q48,20 52,15" stroke="#2196f3" stroke-width="2" fill="none"/>
+    <!-- Device -->
+    <rect x="35" y="-5" width="20" height="15" rx="2" fill="#333"/>
+    <circle cx="45" cy="2" r="3" fill="#f44336"/>
+    <!-- Blinking light -->
+    <circle cx="45" cy="2" r="5" fill="#f44336" opacity="0.3"/>
+    <!-- Timer -->
+    <rect x="38" y="5" width="14" height="4" rx="1" fill="#4caf50"/>
+    <text x="45" y="8.5" text-anchor="middle" font-size="3" fill="#fff" font-family="monospace">00:15</text>
+    <!-- Warning signs around -->
+    <polygon points="0,-40 -8,-30 8,-30" fill="#ff9800" stroke="#e65100" stroke-width="1"/>
+    <text x="0" y="-33" text-anchor="middle" font-size="7" fill="#fff" font-weight="bold">!</text>
+    <text x="0" y="30" text-anchor="middle" font-size="7" fill="#c62828" font-weight="bold" font-family="Arial">ПОДОЗРИТЕЛЬНЫЙ ПРЕДМЕТ</text>
+  </g>
+  
+  <!-- Evacuation arrow -->
+  <g transform="translate(100,150)">
+    <path d="M0,0 L80,0" stroke="#4caf50" stroke-width="4" fill="none" marker-end="url(#arr10s)"/>
+    <defs>
+      <marker id="arr10s" markerWidth="12" markerHeight="8" refX="12" refY="4" orient="auto">
+        <polygon points="0,0 12,4 0,8" fill="#4caf50"/>
+      </marker>
+    </defs>
+    <text x="40" y="-8" text-anchor="middle" font-size="8" fill="#2e7d32" font-weight="bold" font-family="Arial">ЭВАКУАЦИЯ →</text>
+  </g>
+  
+  <!-- Running people -->
+  <g transform="translate(80,240)" opacity="0.7">
+    <circle cx="0" cy="-15" r="6" fill="#ffb57c"/>
+    <path d="M0,-9 L-2,5 M-2,5 L-8,15 M-2,5 L5,12 M0,-5 Q-8,-2 -10,5 M0,-5 Q6,-8 10,-3" stroke="#333" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(55,250)" opacity="0.7">
+    <circle cx="0" cy="-12" r="5" fill="#c9a87c"/>
+    <path d="M0,-7 L-1,3 M-1,3 L-5,12 M-1,3 L4,10 M0,-3 Q-6,0 -7,4 M0,-3 Q5,-5 7,0" stroke="#333" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Alert levels (right side) -->
+  <g transform="translate(430,100)">
+    <rect x="-55" y="-50" width="110" height="140" rx="5" fill="white" opacity="0.9" stroke="#333" stroke-width="1"/>
+    <text x="0" y="-35" text-anchor="middle" font-size="8" fill="#333" font-weight="bold" font-family="Arial">УРОВНИ УГРОЗЫ</text>
+    
+    <!-- Level 1 - Blue (low) -->
+    <rect x="-45" y="-25" width="90" height="20" rx="3" fill="#42a5f5"/>
+    <text x="0" y="-12" text-anchor="middle" font-size="7" fill="#fff" font-family="Arial">Низкий</text>
+    
+    <!-- Level 2 - Yellow (elevated) -->
+    <rect x="-45" y="0" width="90" height="20" rx="3" fill="#fdd835"/>
+    <text x="0" y="13" text-anchor="middle" font-size="7" fill="#333" font-family="Arial">Повышенный</text>
+    
+    <!-- Level 3 - Orange (high) -->
+    <rect x="-45" y="25" width="90" height="20" rx="3" fill="#ff9800"/>
+    <text x="0" y="38" text-anchor="middle" font-size="7" fill="#fff" font-family="Arial">Высокий</text>
+    
+    <!-- Level 4 - Red (critical) -->
+    <rect x="-45" y="50" width="90" height="20" rx="3" fill="#e53935"/>
+    <text x="0" y="63" text-anchor="middle" font-size="7" fill="#fff" font-family="Arial">Критический</text>
+  </g>
+  
+  <!-- Phone with 112 -->
+  <g transform="translate(400,270)">
+    <rect x="-15" y="-20" width="30" height="42" rx="4" fill="#333"/>
+    <rect x="-11" y="-15" width="22" height="28" rx="1" fill="#4fc3f7"/>
+    <text x="0" y="0" text-anchor="middle" font-size="10" fill="#e53935" font-weight="bold" font-family="Arial">112</text>
+    <circle cx="0" cy="18" r="3" fill="#666"/>
+  </g>
+  
+  <!-- Do not touch sign -->
+  <g transform="translate(250,170)">
+    <circle r="15" fill="none" stroke="#e53935" stroke-width="2.5"/>
+    <line x1="-10" y1="10" x2="10" y2="-10" stroke="#e53935" stroke-width="2.5"/>
+    <!-- Hand -->
+    <path d="M-3,-4 L-3,4 M-1,-5 L-1,4 M1,-5 L1,3 M3,-4 L3,4 M-5,0 L-5,3" stroke="#333" stroke-width="1" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Leave area immediately text -->
+  <text x="250" y="310" text-anchor="middle" font-size="9" fill="#c62828" font-weight="bold" font-family="Arial">НЕ ТРОГАТЬ! НЕ ПОДНОСИТЬ ТЕЛЕФОН! УЙТИ!</text>
+  
+  <text x="250" y="342" text-anchor="middle" font-size="9" opacity="0.5" fill="#333" font-family="Arial, sans-serif">Террористическая угроза</text>
+</svg>

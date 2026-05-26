@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1565C0"/>
+      <stop offset="100%" stop-color="#1976D2"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+  <text x="250" y="28" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1565C0" text-anchor="middle">Сила трения</text>
+  <text x="250" y="44" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Физика 10 класс — Урок 16</text>
+  <line x1="30" y1="52" x2="470" y2="52" stroke="#1565C0" stroke-width="1.5" opacity="0.25"/>
+  <clipPath id="ill"><rect x="15" y="56" width="470" height="238" rx="6"/></clipPath>
+  <g clip-path="url(#ill)">
+    <rect x="15" y="56" width="470" height="238" fill="#E3F2FD" opacity="0.4"/>
+
+    <!-- Friction diagram: block on surface -->
+    <rect x="25" y="62" width="225" height="140" rx="5" fill="white" stroke="#1565C0" stroke-width="1.2"/>
+    <text x="137" y="78" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" font-weight="bold" text-anchor="middle">Сила трения</text>
+
+    <!-- Surface -->
+    <rect x="35" y="155" width="210" height="8" rx="2" fill="#795548" opacity="0.6"/>
+    <!-- Surface texture -->
+    <line x1="40" y1="158" x2="48" y2="163" stroke="#5D4037" stroke-width="0.8"/>
+    <line x1="60" y1="158" x2="68" y2="163" stroke="#5D4037" stroke-width="0.8"/>
+    <line x1="80" y1="158" x2="88" y2="163" stroke="#5D4037" stroke-width="0.8"/>
+    <line x1="100" y1="158" x2="108" y2="163" stroke="#5D4037" stroke-width="0.8"/>
+    <line x1="120" y1="158" x2="128" y2="163" stroke="#5D4037" stroke-width="0.8"/>
+    <line x1="140" y1="158" x2="148" y2="163" stroke="#5D4037" stroke-width="0.8"/>
+    <line x1="160" y1="158" x2="168" y2="163" stroke="#5D4037" stroke-width="0.8"/>
+    <line x1="180" y1="158" x2="188" y2="163" stroke="#5D4037" stroke-width="0.8"/>
+    <line x1="200" y1="158" x2="208" y2="163" stroke="#5D4037" stroke-width="0.8"/>
+    <line x1="220" y1="158" x2="228" y2="163" stroke="#5D4037" stroke-width="0.8"/>
+
+    <!-- Block -->
+    <rect x="85" y="125" width="50" height="30" rx="3" fill="#1565C0"/>
+    <text x="110" y="145" font-family="Arial,sans-serif" font-size="10" fill="white" text-anchor="middle">m</text>
+
+    <!-- Applied force F (right) -->
+    <line x1="135" y1="140" x2="206.0" y2="140.0" stroke="#2E7D32" stroke-width="2.5"/>
+    <polygon points="210,140 202.0,143.2 202.0,136.8" fill="#2E7D32"/>
+    <text x="180" y="133" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" font-weight="bold">F</text>
+
+    <!-- Friction force (left) -->
+    <line x1="85" y1="140" x2="44.0" y2="140.0" stroke="#E53935" stroke-width="2.5"/>
+    <polygon points="40,140 48.0,136.8 48.0,143.2" fill="#E53935"/>
+    <text x="55" y="133" font-family="Arial,sans-serif" font-size="9" fill="#E53935" font-weight="bold">F(тр)</text>
+
+    <!-- Normal force (up) -->
+    <line x1="110" y1="125" x2="110.0" y2="98.5" stroke="#F57C00" stroke-width="2"/>
+    <polygon points="110,95 112.8,102.0 107.2,102.0" fill="#F57C00"/>
+    <text x="120" y="105" font-family="Arial,sans-serif" font-size="8" fill="#F57C00" font-weight="bold">N</text>
+
+    <!-- Weight (down) -->
+    <line x1="110" y1="155" x2="110.0" y2="181.5" stroke="#7B1FA2" stroke-width="2"/>
+    <polygon points="110,185 107.2,178.0 112.8,178.0" fill="#7B1FA2"/>
+    <text x="120" y="180" font-family="Arial,sans-serif" font-size="8" fill="#7B1FA2" font-weight="bold">mg</text>
+
+    <!-- Types of friction -->
+    <rect x="260" y="62" width="215" height="80" rx="5" fill="white" stroke="#E53935" stroke-width="1.2"/>
+    <text x="367" y="78" font-family="Arial,sans-serif" font-size="9" fill="#E53935" font-weight="bold" text-anchor="middle">Виды трения</text>
+
+    <!-- Static friction -->
+    <rect x="270" y="87" width="195" height="15" rx="3" fill="#E3F2FD" stroke="#1565C0" stroke-width="0.8"/>
+    <text x="367" y="98" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">Трение покоя: 0 &lt;= F(тр) &lt;= F(max)</text>
+
+    <!-- Sliding friction -->
+    <rect x="270" y="107" width="195" height="15" rx="3" fill="#E3F2FD" stroke="#E53935" stroke-width="0.8"/>
+    <text x="367" y="118" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">Трение скольжения: F = mu*N</text>
+
+    <!-- Rolling friction -->
+    <rect x="270" y="127" width="195" height="15" rx="3" fill="#E3F2FD" stroke="#2E7D32" stroke-width="0.8"/>
+    <text x="367" y="138" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">Трение качения (наименьшее)</text>
+
+    <!-- F(friction) vs F(applied) graph -->
+    <rect x="260" y="150" width="215" height="52" rx="5" fill="white" stroke="#F57C00" stroke-width="1.2"/>
+    <text x="367" y="164" font-family="Arial,sans-serif" font-size="8" fill="#F57C00" font-weight="bold" text-anchor="middle">Зависимость F(тр) от F</text>
+    <!-- Mini axes -->
+    <line x1="280" y1="195" x2="280.0" y2="160.5" stroke="#333" stroke-width="1"/>
+    <polygon points="280,158 282.0,163.0 278.0,163.0" fill="#333"/>
+    <line x1="280" y1="195" x2="457.5" y2="195.0" stroke="#333" stroke-width="1"/>
+    <polygon points="460,195 455.0,197.0 455.0,193.0" fill="#333"/>
+    <!-- Static: linear increase then drop -->
+    <line x1="280" y1="195" x2="370" y2="175" stroke="#2E7D32" stroke-width="2"/>
+    <!-- Max static friction -->
+    <circle cx="370" cy="175" r="3" fill="#2E7D32"/>
+    <!-- Drop to kinetic -->
+    <line x1="370" y1="175" x2="375" y2="180" stroke="#E53935" stroke-width="1.5"/>
+    <!-- Kinetic: constant -->
+    <line x1="375" y1="180" x2="460" y2="180" stroke="#E53935" stroke-width="2"/>
+    <text x="290" y="162" font-family="Arial,sans-serif" font-size="6" fill="#333">F(тр)</text>
+    <text x="448" y="192" font-family="Arial,sans-serif" font-size="6" fill="#333">F</text>
+
+    <!-- Formulas -->
+    <rect x="25" y="215" width="225" height="55" rx="5" fill="white" stroke="#7B1FA2" stroke-width="1.2"/>
+    <text x="137" y="231" font-family="Arial,sans-serif" font-size="9" fill="#7B1FA2" font-weight="bold" text-anchor="middle">Закон Кулона-Амонтона</text>
+    <text x="137" y="248" font-family="Arial,sans-serif" font-size="11" fill="#333" text-anchor="middle" font-weight="bold">F(тр) = mu * N</text>
+    <text x="137" y="264" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">mu — коэффициент трения, N — сила нормальной реакции</text>
+
+    <!-- Useful info -->
+    <rect x="260" y="215" width="215" height="55" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.2"/>
+    <text x="367" y="231" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" font-weight="bold" text-anchor="middle">Полезное и вредное</text>
+    <rect x="270" y="238" width="90" height="22" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.8"/>
+    <text x="315" y="253" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Полезное: ходьба</text>
+    <rect x="370" y="238" width="95" height="22" rx="3" fill="#FFEBEE" stroke="#E53935" stroke-width="0.8"/>
+    <text x="417" y="253" font-family="Arial,sans-serif" font-size="7" fill="#E53935" text-anchor="middle">Вредное: износ</text>
+    
+  </g>
+  <rect x="12" y="298" width="476" height="42" rx="5" fill="url(#panel)"/>
+  <text x="250" y="316" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Динамика</text>
+  <text x="250" y="332" font-family="Arial,sans-serif" font-size="10" text-anchor="middle" fill="white" opacity="0.8">Урок 16</text>
+</svg>

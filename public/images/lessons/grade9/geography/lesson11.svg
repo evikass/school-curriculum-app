@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#FFF8E1"/>
+  <!-- Africa map (simplified) -->
+  <g transform="translate(100,20)">
+    <!-- Main Africa shape -->
+    <path d="M80,30 Q100,15 130,20 Q160,28 175,50 Q185,70 180,100 Q175,130 168,160 Q160,185 148,205 Q135,220 120,225 Q105,225 95,210 Q85,195 80,170 Q75,140 72,110 Q70,75 75,50 Q78,38 80,30" fill="#FFE082" stroke="#E65100" stroke-width="2"/>
+    <!-- Horn of Africa -->
+    <path d="M175,80 Q190,70 200,80 Q205,95 195,105 Q185,110 178,100" fill="#FFE082" stroke="#E65100" stroke-width="1.5"/>
+    <!-- Madagascar -->
+    <ellipse cx="195" cy="180" rx="12" ry="25" fill="#FFE082" stroke="#E65100" stroke-width="1.5"/>
+    <!-- Sahara desert area -->
+    <path d="M80,45 Q100,35 130,38 Q155,42 170,55" fill="none" stroke="#FF9800" stroke-width="1" stroke-dasharray="4,2"/>
+    <!-- Equator line -->
+    <line x1="65" y1="120" x2="185" y2="120" stroke="#4CAF50" stroke-width="1" stroke-dasharray="5,3"/>
+    <text x="55" y="122" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">0°</text>
+  </g>
+  <!-- Country markers -->
+  <!-- Egypt -->
+  <g transform="translate(210,80)">
+    <circle r="5" fill="#F44336" stroke="#B71C1C" stroke-width="1.5"/>
+    <line x1="5" y1="-3" x2="25" y2="-12" stroke="#333" stroke-width="0.8"/>
+    <text x="27" y="-9" font-family="Arial,sans-serif" font-size="7" fill="#B71C1C" font-weight="bold">Египет</text>
+    <!-- Pyramid icon -->
+    <polygon points="215,62 220,52 225,62" fill="#FFD54F" opacity="0.6"/>
+  </g>
+  <!-- Nigeria -->
+  <g transform="translate(185,160)">
+    <circle r="5" fill="#4CAF50" stroke="#1B5E20" stroke-width="1.5"/>
+    <line x1="-5" y1="4" x2="-25" y2="15" stroke="#333" stroke-width="0.8"/>
+    <text x="-52" y="18" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" font-weight="bold">Нигерия</text>
+  </g>
+  <!-- South Africa -->
+  <g transform="translate(220,235)">
+    <circle r="5" fill="#2196F3" stroke="#0D47A1" stroke-width="1.5"/>
+    <line x1="5" y1="3" x2="25" y2="12" stroke="#333" stroke-width="0.8"/>
+    <text x="27" y="15" font-family="Arial,sans-serif" font-size="7" fill="#0D47A1" font-weight="bold">ЮАР</text>
+  </g>
+  <!-- Kenya -->
+  <g transform="translate(255,170)">
+    <circle r="5" fill="#FF9800" stroke="#E65100" stroke-width="1.5"/>
+    <line x1="5" y1="-3" x2="22" y2="-10" stroke="#333" stroke-width="0.8"/>
+    <text x="24" y="-7" font-family="Arial,sans-serif" font-size="7" fill="#E65100" font-weight="bold">Кения</text>
+  </g>
+  <!-- DR Congo -->
+  <g transform="translate(195,185)">
+    <circle r="5" fill="#9C27B0" stroke="#6A1B9A" stroke-width="1.5"/>
+    <line x1="-5" y1="3" x2="-22" y2="10" stroke="#333" stroke-width="0.8"/>
+    <text x="-52" y="8" font-family="Arial,sans-serif" font-size="7" fill="#6A1B9A">ДР Конго</text>
+  </g>
+  <!-- Info panels -->
+  <rect x="310" y="30" width="175" height="90" rx="5" fill="white" opacity="0.85"/>
+  <text x="397" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#333" font-weight="bold">Африка</text>
+  <text x="320" y="62" font-family="Arial,sans-serif" font-size="7" fill="#666">• Площадь: 30,3 млн км²</text>
+  <text x="320" y="74" font-family="Arial,sans-serif" font-size="7" fill="#666">• Население: ~1,4 млрд</text>
+  <text x="320" y="86" font-family="Arial,sans-serif" font-size="7" fill="#666">• 54 страны</text>
+  <text x="320" y="98" font-family="Arial,sans-serif" font-size="7" fill="#666">• Самый жаркий материк</text>
+  <text x="320" y="110" font-family="Arial,sans-serif" font-size="7" fill="#666">• II тип воспроизводства</text>
+  <rect x="310" y="130" width="175" height="75" rx="5" fill="white" opacity="0.85"/>
+  <text x="397" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#333" font-weight="bold">Проблемы</text>
+  <text x="320" y="162" font-family="Arial,sans-serif" font-size="7" fill="#C62828">• Низкий уровень жизни</text>
+  <text x="320" y="174" font-family="Arial,sans-serif" font-size="7" fill="#C62828">• Болезни (ВИЧ, малярия)</text>
+  <text x="320" y="186" font-family="Arial,sans-serif" font-size="7" fill="#C62828">• Военные конфликты</text>
+  <text x="320" y="198" font-family="Arial,sans-serif" font-size="7" fill="#C62828">• Засухи, голод</text>
+  <!-- Resources -->
+  <rect x="310" y="215" width="175" height="55" rx="5" fill="white" opacity="0.85"/>
+  <text x="397" y="233" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#333" font-weight="bold">Ресурсы</text>
+  <text x="320" y="247" font-family="Arial,sans-serif" font-size="7" fill="#E65100">• Алмазы, золото, нефть</text>
+  <text x="320" y="259" font-family="Arial,sans-serif" font-size="7" fill="#E65100">• Тропическое лесное хоз.</text>
+  <text x="250" y="345" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#666" opacity="0.5">Страны Африки</text>
+</svg>

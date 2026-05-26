@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg39" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8eaf6"/>
+      <stop offset="100%" stop-color="#c5cae9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg39)" rx="8"/>
+  <rect x="2" y="2" width="496" height="346" fill="none" stroke="#283593" stroke-width="2" rx="8"/>
+  <!-- Title bar -->
+  <rect x="0" y="0" width="500" height="38" fill="#283593" rx="8"/>
+  <rect x="0" y="20" width="500" height="18" fill="#283593"/>
+  <text x="250" y="26" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="Arial">III закон Менделя — независимое наследование</text>
+  <text x="490" y="14" text-anchor="end" fill="#c5cae9" font-size="8" font-family="Arial">Биология 10 класс — Урок 39</text>
+  <!-- Law statement -->
+  <rect x="15" y="44" width="470" height="22" fill="#1a237e" fill-opacity="0.1" rx="4" stroke="#283593" stroke-width="0.5"/>
+  <text x="250" y="59" text-anchor="middle" fill="#1a237e" font-size="8" font-weight="bold" font-family="Arial">При дигибридном скрещивании гены наследуются независимо друг от друга</text>
+  <!-- P generation -->
+  <rect x="15" y="70" width="470" height="40" fill="white" fill-opacity="0.5" rx="4" stroke="#283593" stroke-width="0.5"/>
+  <text x="25" y="84" fill="#1a237e" font-size="8" font-weight="bold" font-family="Arial">Р:</text>
+  <!-- AABB parent - yellow smooth -->
+  <circle cx="80" cy="88" r="12" fill="#fdd835" stroke="#f9a825" stroke-width="1"/>
+  <text x="80" y="91" text-anchor="middle" fill="#e65100" font-size="7" font-weight="bold" font-family="Arial">AABB</text>
+  <text x="80" y="105" text-anchor="middle" fill="#4e342e" font-size="5" font-family="Arial">жёлт. гладк.</text>
+  <!-- × -->
+  <text x="125" y="92" text-anchor="middle" fill="#c62828" font-size="14" font-weight="bold" font-family="Arial">×</text>
+  <!-- aabb parent - green wrinkled -->
+  <circle cx="170" cy="88" r="12" fill="#8bc34a" stroke="#558b2f" stroke-width="1"/>
+  <text x="170" y="91" text-anchor="middle" fill="#1b5e20" font-size="7" font-weight="bold" font-family="Arial">aabb</text>
+  <text x="170" y="105" text-anchor="middle" fill="#4e342e" font-size="5" font-family="Arial">зелён. морщ.</text>
+  <!-- Gametes -->
+  <text x="225" y="84" fill="#1a237e" font-size="7" font-weight="bold" font-family="Arial">G:</text>
+  <circle cx="255" cy="82" r="5" fill="#fff9c4" stroke="#f9a825" stroke-width="0.5"/>
+  <text x="255" y="85" text-anchor="middle" fill="#e65100" font-size="5" font-weight="bold" font-family="Arial">AB</text>
+  <circle cx="290" cy="82" r="5" fill="#c8e6c9" stroke="#558b2f" stroke-width="0.5"/>
+  <text x="290" y="85" text-anchor="middle" fill="#1b5e20" font-size="5" font-weight="bold" font-family="Arial">ab</text>
+  <!-- F1 -->
+  <text x="330" y="84" fill="#1a237e" font-size="7" font-weight="bold" font-family="Arial">F1:</text>
+  <circle cx="370" cy="82" r="12" fill="#fdd835" stroke="#f9a825" stroke-width="1"/>
+  <text x="370" y="85" text-anchor="middle" fill="#e65100" font-size="6" font-weight="bold" font-family="Arial">AaBb</text>
+  <text x="370" y="105" text-anchor="middle" fill="#4e342e" font-size="5" font-family="Arial">100% жёлт. гладк.</text>
+  <!-- F1 self-cross to F2 -->
+  <text x="430" y="84" fill="#1a237e" font-size="7" font-weight="bold" font-family="Arial">AaBb × AaBb</text>
+  <!-- Punnett square 4x4 -->
+  <rect x="15" y="115" width="310" height="148" fill="white" fill-opacity="0.6" rx="3" stroke="#283593" stroke-width="0.8"/>
+  <text x="170" y="128" text-anchor="middle" fill="#1a237e" font-size="8" font-weight="bold" font-family="Arial">Решётка Пеннета F2 (AaBb × AaBb)</text>
+  <!-- Column headers -->
+  <rect x="85" y="132" width="56" height="14" fill="#e8eaf6" stroke="#283593" stroke-width="0.4"/>
+  <text x="113" y="142" text-anchor="middle" fill="#1a237e" font-size="7" font-weight="bold" font-family="Arial">AB</text>
+  <rect x="141" y="132" width="56" height="14" fill="#e8eaf6" stroke="#283593" stroke-width="0.4"/>
+  <text x="169" y="142" text-anchor="middle" fill="#1a237e" font-size="7" font-weight="bold" font-family="Arial">Ab</text>
+  <rect x="197" y="132" width="56" height="14" fill="#e8eaf6" stroke="#283593" stroke-width="0.4"/>
+  <text x="225" y="142" text-anchor="middle" fill="#1a237e" font-size="7" font-weight="bold" font-family="Arial">aB</text>
+  <rect x="253" y="132" width="56" height="14" fill="#e8eaf6" stroke="#283593" stroke-width="0.4"/>
+  <text x="281" y="142" text-anchor="middle" fill="#1a237e" font-size="7" font-weight="bold" font-family="Arial">ab</text>
+  <!-- Row headers -->
+  <rect x="30" y="146" width="55" height="26" fill="#e8eaf6" stroke="#283593" stroke-width="0.4"/>
+  <text x="57" y="163" text-anchor="middle" fill="#1a237e" font-size="7" font-weight="bold" font-family="Arial">AB</text>
+  <rect x="30" y="172" width="55" height="26" fill="#e8eaf6" stroke="#283593" stroke-width="0.4"/>
+  <text x="57" y="189" text-anchor="middle" fill="#1a237e" font-size="7" font-weight="bold" font-family="Arial">Ab</text>
+  <rect x="30" y="198" width="55" height="26" fill="#e8eaf6" stroke="#283593" stroke-width="0.4"/>
+  <text x="57" y="215" text-anchor="middle" fill="#1a237e" font-size="7" font-weight="bold" font-family="Arial">aB</text>
+  <rect x="30" y="224" width="55" height="26" fill="#e8eaf6" stroke="#283593" stroke-width="0.4"/>
+  <text x="57" y="241" text-anchor="middle" fill="#1a237e" font-size="7" font-weight="bold" font-family="Arial">ab</text>
+  <!-- Row 1: AB -->
+  <rect x="85" y="146" width="56" height="26" fill="#fdd835" fill-opacity="0.5" stroke="#283593" stroke-width="0.3"/>
+  <text x="113" y="162" text-anchor="middle" fill="#1a237e" font-size="6" font-family="Arial">AABB</text>
+  <rect x="141" y="146" width="56" height="26" fill="#fdd835" fill-opacity="0.4" stroke="#283593" stroke-width="0.3"/>
+  <text x="169" y="162" text-anchor="middle" fill="#1a237e" font-size="6" font-family="Arial">AABb</text>
+  <rect x="197" y="146" width="56" height="26" fill="#fdd835" fill-opacity="0.4" stroke="#283593" stroke-width="0.3"/>
+  <text x="225" y="162" text-anchor="middle" fill="#1a237e" font-size="6" font-family="Arial">AaBB</text>
+  <rect x="253" y="146" width="56" height="26" fill="#fdd835" fill-opacity="0.35" stroke="#283593" stroke-width="0.3"/>
+  <text x="281" y="162" text-anchor="middle" fill="#1a237e" font-size="6" font-family="Arial">AaBb</text>
+  <!-- Row 2: Ab -->
+  <rect x="85" y="172" width="56" height="26" fill="#fdd835" fill-opacity="0.4" stroke="#283593" stroke-width="0.3"/>
+  <text x="113" y="188" text-anchor="middle" fill="#1a237e" font-size="6" font-family="Arial">AABb</text>
+  <rect x="141" y="172" width="56" height="26" fill="#fff9c4" fill-opacity="0.6" stroke="#283593" stroke-width="0.3"/>
+  <text x="169" y="188" text-anchor="middle" fill="#1a237e" font-size="6" font-family="Arial">AAbb</text>
+  <rect x="197" y="172" width="56" height="26" fill="#fdd835" fill-opacity="0.35" stroke="#283593" stroke-width="0.3"/>
+  <text x="225" y="188" text-anchor="middle" fill="#1a237e" font-size="6" font-family="Arial">AaBb</text>
+  <rect x="253" y="172" width="56" height="26" fill="#fff9c4" fill-opacity="0.5" stroke="#283593" stroke-width="0.3"/>
+  <text x="281" y="188" text-anchor="middle" fill="#1a237e" font-size="6" font-family="Arial">Aabb</text>
+  <!-- Row 3: aB -->
+  <rect x="85" y="198" width="56" height="26" fill="#fdd835" fill-opacity="0.4" stroke="#283593" stroke-width="0.3"/>
+  <text x="113" y="214" text-anchor="middle" fill="#1a237e" font-size="6" font-family="Arial">AaBB</text>
+  <rect x="141" y="198" width="56" height="26" fill="#fdd835" fill-opacity="0.35" stroke="#283593" stroke-width="0.3"/>
+  <text x="169" y="214" text-anchor="middle" fill="#1a237e" font-size="6" font-family="Arial">AaBb</text>
+  <rect x="197" y="198" width="56" height="26" fill="#c8e6c9" fill-opacity="0.6" stroke="#283593" stroke-width="0.3"/>
+  <text x="225" y="214" text-anchor="middle" fill="#1a237e" font-size="6" font-family="Arial">aaBB</text>
+  <rect x="253" y="198" width="56" height="26" fill="#c8e6c9" fill-opacity="0.5" stroke="#283593" stroke-width="0.3"/>
+  <text x="281" y="214" text-anchor="middle" fill="#1a237e" font-size="6" font-family="Arial">aaBb</text>
+  <!-- Row 4: ab -->
+  <rect x="85" y="224" width="56" height="26" fill="#fdd835" fill-opacity="0.35" stroke="#283593" stroke-width="0.3"/>
+  <text x="113" y="240" text-anchor="middle" fill="#1a237e" font-size="6" font-family="Arial">AaBb</text>
+  <rect x="141" y="224" width="56" height="26" fill="#fff9c4" fill-opacity="0.5" stroke="#283593" stroke-width="0.3"/>
+  <text x="169" y="240" text-anchor="middle" fill="#1a237e" font-size="6" font-family="Arial">Aabb</text>
+  <rect x="197" y="224" width="56" height="26" fill="#c8e6c9" fill-opacity="0.5" stroke="#283593" stroke-width="0.3"/>
+  <text x="225" y="240" text-anchor="middle" fill="#1a237e" font-size="6" font-family="Arial">aaBb</text>
+  <rect x="253" y="224" width="56" height="26" fill="#8bc34a" fill-opacity="0.5" stroke="#283593" stroke-width="0.3"/>
+  <text x="281" y="240" text-anchor="middle" fill="#1a237e" font-size="6" font-family="Arial">aabb</text>
+  <!-- Phenotype results -->
+  <rect x="335" y="115" width="150" height="148" fill="white" fill-opacity="0.7" rx="4" stroke="#283593" stroke-width="0.8"/>
+  <text x="410" y="130" text-anchor="middle" fill="#1a237e" font-size="8" font-weight="bold" font-family="Arial">Фенотипы F2</text>
+  <!-- 9 yellow smooth -->
+  <rect x="345" y="136" width="14" height="14" fill="#fdd835" stroke="#f9a825" stroke-width="0.5" rx="3"/>
+  <text x="365" y="147" fill="#4e342e" font-size="7" font-weight="bold" font-family="Arial">9 — жёлтые гладкие</text>
+  <text x="365" y="156" fill="#4e342e" font-size="5" font-family="Arial">A_B_ (9/16)</text>
+  <!-- 3 yellow wrinkled -->
+  <rect x="345" y="162" width="14" height="14" fill="#fff9c4" stroke="#f9a825" stroke-width="0.5" rx="3"/>
+  <path d="M348,169 L356,169" stroke="#e65100" stroke-width="0.5"/>
+  <path d="M348,166 L356,166" stroke="#e65100" stroke-width="0.5"/>
+  <text x="365" y="173" fill="#4e342e" font-size="7" font-weight="bold" font-family="Arial">3 — жёлтые морщинистые</text>
+  <text x="365" y="182" fill="#4e342e" font-size="5" font-family="Arial">A_bb (3/16)</text>
+  <!-- 3 green smooth -->
+  <rect x="345" y="188" width="14" height="14" fill="#c8e6c9" stroke="#558b2f" stroke-width="0.5" rx="3"/>
+  <text x="365" y="199" fill="#4e342e" font-size="7" font-weight="bold" font-family="Arial">3 — зелёные гладкие</text>
+  <text x="365" y="208" fill="#4e342e" font-size="5" font-family="Arial">aaB_ (3/16)</text>
+  <!-- 1 green wrinkled -->
+  <rect x="345" y="214" width="14" height="14" fill="#8bc34a" stroke="#558b2f" stroke-width="0.5" rx="3"/>
+  <path d="M348,221 L356,221" stroke="#33691e" stroke-width="0.5"/>
+  <path d="M348,218 L356,218" stroke="#33691e" stroke-width="0.5"/>
+  <text x="365" y="225" fill="#4e342e" font-size="7" font-weight="bold" font-family="Arial">1 — зелёные морщинистые</text>
+  <text x="365" y="234" fill="#4e342e" font-size="5" font-family="Arial">aabb (1/16)</text>
+  <!-- Ratio -->
+  <text x="410" y="252" text-anchor="middle" fill="#c62828" font-size="10" font-weight="bold" font-family="Arial">9 : 3 : 3 : 1</text>
+  <!-- Bottom: Two traits independently -->
+  <rect x="15" y="270" width="470" height="72" fill="white" fill-opacity="0.7" rx="5" stroke="#283593" stroke-width="1"/>
+  <text x="250" y="286" text-anchor="middle" fill="#1a237e" font-size="9" font-weight="bold" font-family="Arial">Независимое наследование двух признаков</text>
+  <!-- Trait 1: Color -->
+  <rect x="25" y="294" width="215" height="40" fill="#e8eaf6" rx="3" stroke="#283593" stroke-width="0.4"/>
+  <text x="132" y="306" text-anchor="middle" fill="#1a237e" font-size="7" font-weight="bold" font-family="Arial">Признак 1: Окраска семян</text>
+  <circle cx="55" cy="324" r="7" fill="#fdd835" stroke="#f9a825" stroke-width="0.6"/>
+  <text x="55" y="327" text-anchor="middle" fill="#e65100" font-size="5" font-family="Arial">A_</text>
+  <text x="75" y="327" fill="#4e342e" font-size="6" font-family="Arial">жёлтые (12)</text>
+  <circle cx="155" cy="324" r="7" fill="#8bc34a" stroke="#558b2f" stroke-width="0.6"/>
+  <text x="155" y="327" text-anchor="middle" fill="#1b5e20" font-size="5" font-family="Arial">aa</text>
+  <text x="175" y="327" fill="#4e342e" font-size="6" font-family="Arial">зелёные (4)</text>
+  <text x="210" y="327" fill="#c62828" font-size="7" font-weight="bold" font-family="Arial">3:1</text>
+  <!-- Trait 2: Shape -->
+  <rect x="250" y="294" width="225" height="40" fill="#f3e5f5" rx="3" stroke="#283593" stroke-width="0.4"/>
+  <text x="362" y="306" text-anchor="middle" fill="#1a237e" font-size="7" font-weight="bold" font-family="Arial">Признак 2: Форма семян</text>
+  <circle cx="280" cy="324" r="7" fill="white" stroke="#283593" stroke-width="0.6"/>
+  <text x="280" y="327" text-anchor="middle" fill="#1a237e" font-size="5" font-family="Arial">B_</text>
+  <text x="300" y="327" fill="#4e342e" font-size="6" font-family="Arial">гладкие (12)</text>
+  <circle cx="385" cy="324" r="7" fill="white" stroke="#283593" stroke-width="0.6"/>
+  <path d="M382,321 Q385,319 388,321" stroke="#283593" stroke-width="0.5"/>
+  <path d="M382,327 Q385,329 388,327" stroke="#283593" stroke-width="0.5"/>
+  <text x="385" y="330" text-anchor="middle" fill="#1a237e" font-size="5" font-family="Arial">bb</text>
+  <text x="405" y="327" fill="#4e342e" font-size="6" font-family="Arial">морщин. (4)</text>
+  <text x="455" y="327" fill="#c62828" font-size="7" font-weight="bold" font-family="Arial">3:1</text>
+</svg>

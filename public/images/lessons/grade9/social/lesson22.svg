@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><linearGradient id="g22" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#C53030"/><stop offset="100%" stop-color="#742A2A"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#g22)"/>
+  <!-- Ballot box -->
+  <rect x="170" y="130" width="160" height="100" rx="8" fill="#E2E8F0" opacity="0.2"/>
+  <rect x="200" y="115" width="100" height="20" rx="5" fill="#E2E8F0" opacity="0.2"/>
+  <text x="250" y="190" text-anchor="middle" font-size="16" fill="#F6E05E" opacity="0.5">ВЫБОРЫ</text>
+  <!-- Checkmark on ballot -->
+  <g transform="translate(240,85)" stroke="#F6E05E" stroke-width="2.5" fill="none" opacity="0.5">
+    <polyline points="0,10 8,20 22,0"/>
+  </g>
+  <!-- Principles -->
+  <g opacity="0.5" font-size="9" fill="#FED7D7">
+    <text x="100" y="80">Всеобщее</text>
+    <text x="350" y="80">Равное</text>
+    <text x="100" y="100">Прямое</text>
+    <text x="350" y="100">Тайное</text>
+  </g>
+  <!-- Arrows -->
+  <g stroke="#F6E05E" stroke-width="1" opacity="0.3" fill="#F6E05E">
+    <line x1="140" y1="78" x2="190" y2="120"/><line x1="360" y1="78" x2="310" y2="120"/>
+    <line x1="140" y1="98" x2="200" y2="125"/><line x1="360" y1="98" x2="300" y2="125"/>
+  </g>
+  <text x="250" y="280" text-anchor="middle" font-size="16" fill="#FED7D7" font-weight="bold" opacity="0.6">Избирательное право</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#FED7D7" opacity="0.5">Избирательное право</text>
+</svg>

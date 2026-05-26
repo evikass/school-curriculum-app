@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="planBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+    <linearGradient id="cork" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D7A86E"/>
+      <stop offset="100%" stop-color="#C49458"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#planBg)"/>
+  <!-- Cork board -->
+  <rect x="60" y="20" width="380" height="260" rx="5" fill="url(#cork)" stroke="#8D6E63" stroke-width="6"/>
+  <!-- Wood frame -->
+  <rect x="55" y="15" width="390" height="270" rx="8" fill="none" stroke="#5D4037" stroke-width="4"/>
+  <!-- Pin top -->
+  <circle cx="250" cy="20" r="6" fill="#E53935" stroke="#B71C1C" stroke-width="1"/>
+  <circle cx="250" cy="18" r="2" fill="#FF8A80"/>
+  <!-- Sticky note 1 - Travel plan -->
+  <rect x="85" y="40" width="105" height="90" fill="#FFF9C4" transform="rotate(-2,137,85)" stroke="#F9A825" stroke-width="1"/>
+  <text x="137" y="62" font-family="Arial" font-size="10" fill="#333" text-anchor="middle" transform="rotate(-2,137,62)">✈️ Trip to</text>
+  <text x="137" y="76" font-family="Arial" font-size="10" fill="#333" text-anchor="middle" transform="rotate(-2,137,76)">Paris</text>
+  <text x="137" y="100" font-family="Georgia" font-size="9" fill="#E65100" text-anchor="middle" transform="rotate(-2,137,100)">I'm going to</text>
+  <text x="137" y="112" font-family="Georgia" font-size="9" fill="#E65100" text-anchor="middle" transform="rotate(-2,137,112)">travel!</text>
+  <circle cx="135" cy="42" r="4" fill="#E53935"/>
+  <!-- Sticky note 2 - Study plan -->
+  <rect x="210" y="35" width="105" height="90" fill="#C8E6C9" transform="rotate(1,262,80)" stroke="#43A047" stroke-width="1"/>
+  <text x="262" y="57" font-family="Arial" font-size="10" fill="#333" text-anchor="middle" transform="rotate(1,262,57)">📚 Study</text>
+  <text x="262" y="71" font-family="Arial" font-size="10" fill="#333" text-anchor="middle" transform="rotate(1,262,71)">English</text>
+  <text x="262" y="95" font-family="Georgia" font-size="9" fill="#1B5E20" text-anchor="middle" transform="rotate(1,262,95)">I'm going to</text>
+  <text x="262" y="107" font-family="Georgia" font-size="9" fill="#1B5E20" text-anchor="middle" transform="rotate(1,262,107)">learn!</text>
+  <circle cx="260" cy="37" r="4" fill="#1E88E5"/>
+  <!-- Sticky note 3 - Cook plan -->
+  <rect x="330" y="45" width="95" height="85" fill="#FFCDD2" transform="rotate(3,377,87)" stroke="#E53935" stroke-width="1"/>
+  <text x="377" y="67" font-family="Arial" font-size="10" fill="#333" text-anchor="middle" transform="rotate(3,377,67)">🍳 Dinner</text>
+  <text x="377" y="91" font-family="Georgia" font-size="9" fill="#B71C1C" text-anchor="middle" transform="rotate(3,377,91)">I'm going to</text>
+  <text x="377" y="103" font-family="Georgia" font-size="9" fill="#B71C1C" text-anchor="middle" transform="rotate(3,377,103)">cook!</text>
+  <circle cx="375" cy="47" r="4" fill="#43A047"/>
+  <!-- Checklist on board -->
+  <rect x="90" y="145" width="150" height="110" fill="#FFF" opacity="0.7" rx="3"/>
+  <text x="165" y="162" font-family="Georgia" font-size="11" fill="#333" text-anchor="middle" font-weight="bold">My Plans</text>
+  <g font-family="Arial" font-size="10" fill="#333">
+    <text x="105" y="182">☑ Buy tickets</text>
+    <text x="105" y="198">☑ Pack bags</text>
+    <text x="105" y="214">☐ Call hotel</text>
+    <text x="105" y="230">☐ Get passport</text>
+  </g>
+  <!-- Calendar mini -->
+  <rect x="260" y="150" width="160" height="100" fill="#FFF" opacity="0.7" rx="3"/>
+  <rect x="260" y="150" width="160" height="20" rx="3" fill="#1565C0"/>
+  <text x="340" y="165" font-family="Arial" font-size="10" fill="#FFF" text-anchor="middle">DECEMBER 2025</text>
+  <circle cx="370" cy="210" r="15" fill="#FF5722" opacity="0.2"/>
+  <text x="370" y="215" font-family="Arial" font-size="14" fill="#FF5722" text-anchor="middle" font-weight="bold">25</text>
+  <text x="370" y="240" font-family="Arial" font-size="8" fill="#FF5722" text-anchor="middle">Departure!</text>
+  <!-- Grammar at bottom -->
+  <rect x="80" y="290" width="340" height="35" rx="8" fill="#FFF" opacity="0.8"/>
+  <text x="250" y="312" font-family="Georgia" font-size="13" fill="#2E7D32" text-anchor="middle">
+    <tspan font-weight="bold">be going to</tspan> + verb (plans &amp; intentions)
+  </text>
+  <text x="250" y="345" font-family="Arial" font-size="9" fill="#000" opacity="0.5" text-anchor="middle">To be going to</text>
+</svg>

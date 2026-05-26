@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#87CEEB"/><stop offset="100%" stop-color="#E0F0FF"/></linearGradient>
+<linearGradient id="crust" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#8B4513"/><stop offset="50%" stop-color="#A0522D"/><stop offset="100%" stop-color="#D2691E"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#sky)"/>
+<polygon points="0,180 60,110 120,150 180,80 240,130 300,70 360,120 420,90 500,140 500,180" fill="#6B8E23"/>
+<polygon points="0,180 60,110 120,150 180,80 240,130 300,70 360,120 420,90 500,140 500,180" fill="#556B2F" opacity="0.4"/>
+<polyline points="60,110 120,150 180,80 240,130 300,70 360,120 420,90" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.6"/>
+<rect x="0" y="180" width="500" height="40" fill="#8B4513" rx="0"/>
+<rect x="0" y="220" width="500" height="35" fill="#A0522D"/>
+<rect x="0" y="255" width="500" height="40" fill="#CD853F"/>
+<rect x="0" y="295" width="500" height="55" fill="#D2691E"/>
+<line x1="0" y1="220" x2="500" y2="220" stroke="#6B3410" stroke-width="1"/>
+<line x1="0" y1="255" x2="500" y2="255" stroke="#8B5A2B" stroke-width="1"/>
+<line x1="0" y1="295" x2="500" y2="295" stroke="#A0522D" stroke-width="1"/>
+<text x="60" y="205" font-family="Arial" font-size="9" fill="#FFF">Земная кора</text>
+<text x="60" y="245" font-family="Arial" font-size="9" fill="#FFF">Мантия</text>
+<text x="60" y="278" font-family="Arial" font-size="9" fill="#5C3310">Верхняя мантия</text>
+<text x="60" y="320" font-family="Arial" font-size="9" fill="#FFF">Нижняя мантия</text>
+<path d="M180,80 L190,60 L195,78" fill="#FFF" opacity="0.8"/>
+<path d="M300,70 L310,50 L315,68" fill="#FFF" opacity="0.8"/>
+<circle cx="180" cy="82" r="4" fill="#FFF" opacity="0.7"/>
+<circle cx="300" cy="72" r="4" fill="#FFF" opacity="0.7"/>
+<path d="M150,180 Q160,175 170,180 Q180,185 190,180" stroke="#FF6347" stroke-width="2" fill="none" opacity="0.6"/>
+<text x="250" y="342" font-family="Arial" font-size="9" fill="#333" text-anchor="middle" opacity="0.5">Литосфера и рельеф Земли</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#1A202C"/>
+  <!-- USSR flag lowering -->
+  <line x1="120" y1="30" x2="120" y2="200" stroke="#E2E8F0" stroke-width="2" opacity="0.5"/>
+  <rect x="122" y="150" width="50" height="30" fill="#C53030" opacity="0.5"/>
+  <g stroke="#F6E05E" stroke-width="1" opacity="0.3">
+    <line x1="122" y1="165" x2="172" y2="165"/>
+    <line x1="147" y1="150" x2="147" y2="180"/>
+  </g>
+  <!-- Flag falling down -->
+  <g transform="translate(120,210) rotate(20)">
+    <rect x="0" y="0" width="50" height="30" fill="#C53030" opacity="0.3"/>
+  </g>
+  <!-- Russian flag rising -->
+  <line x1="380" y1="30" x2="380" y2="180" stroke="#E2E8F0" stroke-width="2" opacity="0.5"/>
+  <rect x="382" y="50" width="50" height="12" fill="#FC8181" opacity="0.6"/>
+  <rect x="382" y="62" width="50" height="12" fill="#E2E8F0" opacity="0.6"/>
+  <rect x="382" y="74" width="50" height="12" fill="#3182CE" opacity="0.6"/>
+  <!-- Broken chain -->
+  <g stroke="#A0AEC0" stroke-width="3" opacity="0.4">
+    <ellipse cx="230" cy="120" rx="15" ry="8" fill="none"/>
+    <ellipse cx="260" cy="120" rx="15" ry="8" fill="none"/>
+    <line x1="245" y1="115" x2="245" y2="125"/>
+  </g>
+  <!-- 15 republics scattering -->
+  <g opacity="0.3">
+    <circle cx="50" cy="260" r="8" fill="#E53E3E"/><circle cx="90" cy="280" r="6" fill="#3182CE"/>
+    <circle cx="130" cy="255" r="7" fill="#38A169"/><circle cx="170" cy="275" r="5" fill="#F6E05E"/>
+    <circle cx="210" cy="260" r="8" fill="#D69E2E"/><circle cx="250" cy="270" r="6" fill="#E53E3E"/>
+    <circle cx="290" cy="258" r="7" fill="#9F7AEA"/><circle cx="330" cy="275" r="5" fill="#3182CE"/>
+    <circle cx="370" cy="260" r="8" fill="#38A169"/><circle cx="410" cy="280" r="6" fill="#FC8181"/>
+    <circle cx="450" cy="262" r="7" fill="#63B3ED"/>
+  </g>
+  <!-- Date -->
+  <text x="250" y="200" text-anchor="middle" font-size="30" fill="#E2E8F0" font-weight="bold" opacity="0.5">1991</text>
+  <text x="250" y="310" text-anchor="middle" font-size="22" fill="#FC8181" font-weight="bold" opacity="0.6">Распад СССР</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#E2E8F0" opacity="0.5">Конец Советского Союза</text>
+</svg>

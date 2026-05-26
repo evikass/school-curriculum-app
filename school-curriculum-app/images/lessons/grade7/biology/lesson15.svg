@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+    <linearGradient id="hdr" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1B5E20"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
+    </linearGradient>
+    <linearGradient id="stemG" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#558B2F"/>
+      <stop offset="100%" stop-color="#33691E"/>
+    </linearGradient>
+    <marker id="arr" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+      <path d="M0,0 L6,2 L0,4" fill="#2E7D32"/>
+    </marker>
+    <marker id="arrR" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+      <path d="M0,0 L6,2 L0,4" fill="#C62828"/>
+    </marker>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="8"/>
+  <rect x="1" y="1" width="498" height="348" fill="none" stroke="#2E7D32" stroke-width="2" rx="8"/>
+  <!-- Header -->
+  <rect x="4" y="4" width="492" height="28" fill="url(#hdr)" rx="6"/>
+  <text x="250" y="23" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#fff" font-weight="bold">Мхи. Общая характеристика</text>
+
+  <!-- ===== MOSS PLANT STRUCTURE ===== -->
+  <rect x="10" y="38" width="130" height="150" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1" rx="5"/>
+  <text x="75" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" font-weight="bold">Строение мха</text>
+
+  <!-- Sporophyte (capsule on stalk) -->
+  <rect x="72" y="58" width="3" height="40" fill="#8D6E63" stroke="#5D4037" stroke-width="0.5"/>
+  <!-- Capsule -->
+  <ellipse cx="73" cy="55" rx="8" ry="12" fill="#A1887F" stroke="#5D4037" stroke-width="1"/>
+  <ellipse cx="73" cy="47" rx="5" ry="3" fill="#8D6E63" stroke="#5D4037" stroke-width="0.5"/>
+  <!-- Lid -->
+  <path d="M68,44 Q73,40 78,44" fill="#795548" stroke="#4E342E" stroke-width="0.5"/>
+  <line x1="73" y1="42" x2="73" y2="38" stroke="#5D4037" stroke-width="0.5"/>
+  <!-- Spores coming out -->
+  <circle cx="66" cy="42" r="1" fill="#FFF9C4" stroke="#F9A825" stroke-width="0.3"/>
+  <circle cx="80" cy="40" r="1" fill="#FFF9C4" stroke="#F9A825" stroke-width="0.3"/>
+  <circle cx="70" cy="38" r="0.8" fill="#FFF9C4" stroke="#F9A825" stroke-width="0.3"/>
+  <circle cx="77" cy="36" r="0.8" fill="#FFF9C4" stroke="#F9A825" stroke-width="0.3"/>
+
+  <!-- Labels for capsule -->
+  <line x1="82" y1="55" x2="100" y2="52" stroke="#5D4037" stroke-width="0.5"/>
+  <text x="101" y="52" font-family="Arial,sans-serif" font-size="5.5" fill="#4E342E">коробочка</text>
+  <line x1="75" y1="70" x2="100" y2="66" stroke="#5D4037" stroke-width="0.5"/>
+  <text x="101" y="66" font-family="Arial,sans-serif" font-size="5.5" fill="#4E342E">ножка</text>
+  <line x1="66" y1="42" x2="52" y2="42" stroke="#F9A825" stroke-width="0.5"/>
+  <text x="38" y="42" font-family="Arial,sans-serif" font-size="5.5" fill="#F57F17">споры</text>
+
+  <!-- Gametophyte stem -->
+  <rect x="68" y="98" width="5" height="60" fill="url(#stemG)" rx="2"/>
+
+  <!-- Leaves -->
+  <ellipse cx="62" cy="108" rx="8" ry="4" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5" transform="rotate(-30,62,108)"/>
+  <ellipse cx="79" cy="108" rx="8" ry="4" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5" transform="rotate(30,79,108)"/>
+  <ellipse cx="61" cy="120" rx="8" ry="4" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5" transform="rotate(-30,61,120)"/>
+  <ellipse cx="80" cy="120" rx="8" ry="4" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5" transform="rotate(30,80,120)"/>
+  <ellipse cx="62" cy="132" rx="8" ry="4" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5" transform="rotate(-30,62,132)"/>
+  <ellipse cx="79" cy="132" rx="8" ry="4" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5" transform="rotate(30,79,132)"/>
+  <ellipse cx="61" cy="144" rx="8" ry="4" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5" transform="rotate(-30,61,144)"/>
+  <ellipse cx="80" cy="144" rx="8" ry="4" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5" transform="rotate(30,80,144)"/>
+
+  <!-- Rhizoids -->
+  <path d="M70,158 Q65,166 58,172" fill="none" stroke="#8D6E63" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M70,158 Q72,168 74,174" fill="none" stroke="#8D6E63" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M70,158 Q78,166 85,170" fill="none" stroke="#8D6E63" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M70,158 Q62,170 55,176" fill="none" stroke="#795548" stroke-width="0.8" stroke-linecap="round"/>
+  <path d="M70,158 Q80,170 88,176" fill="none" stroke="#795548" stroke-width="0.8" stroke-linecap="round"/>
+
+  <!-- Rhizoid label -->
+  <line x1="58" y1="172" x2="40" y2="178" stroke="#795548" stroke-width="0.5"/>
+  <text x="18" y="178" font-family="Arial,sans-serif" font-size="6" fill="#5D4037" font-weight="bold">ризоиды</text>
+
+  <!-- NO ROOTS callout -->
+  <rect x="30" y="183" width="90" height="14" fill="#FFEBEE" stroke="#C62828" stroke-width="0.8" rx="3"/>
+  <text x="75" y="193" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" fill="#C62828" font-weight="bold">⚠ Корней НЕТ!</text>
+
+  <!-- Stem/leaf labels -->
+  <line x1="80" y1="125" x2="100" y2="122" stroke="#2E7D32" stroke-width="0.5"/>
+  <text x="101" y="122" font-family="Arial,sans-serif" font-size="5.5" fill="#1B5E20">стебель</text>
+  <line x1="85" y1="108" x2="100" y2="108" stroke="#2E7D32" stroke-width="0.5"/>
+  <text x="101" y="108" font-family="Arial,sans-serif" font-size="5.5" fill="#1B5E20">листья</text>
+
+  <!-- ===== КУКУШКИН ЛЁН ===== -->
+  <rect x="150" y="38" width="115" height="150" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1" rx="5"/>
+  <text x="207" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" font-weight="bold">Кукушкин лён</text>
+
+  <!-- Male plant -->
+  <text x="180" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" font-weight="bold">♂ Мужское</text>
+  <!-- Male stem -->
+  <rect x="178" y="70" width="4" height="75" fill="#33691E" rx="1"/>
+  <!-- Male leaves - wider at top forming rosette -->
+  <ellipse cx="172" cy="76" rx="10" ry="4" fill="#43A047" stroke="#2E7D32" stroke-width="0.5" transform="rotate(-20,172,76)"/>
+  <ellipse cx="188" cy="76" rx="10" ry="4" fill="#43A047" stroke="#2E7D32" stroke-width="0.5" transform="rotate(20,188,76)"/>
+  <ellipse cx="170" cy="84" rx="10" ry="3.5" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.5" transform="rotate(-25,170,84)"/>
+  <ellipse cx="190" cy="84" rx="10" ry="3.5" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.5" transform="rotate(25,190,84)"/>
+  <!-- Antheridial head -->
+  <ellipse cx="180" cy="72" rx="6" ry="4" fill="#81C784" stroke="#2E7D32" stroke-width="0.5"/>
+  <text x="180" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#1565C0">антеридии</text>
+  <text x="180" y="162" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#1565C0">(сперматозоиды)</text>
+  <!-- Rhizoids -->
+  <path d="M180,145 Q175,152 170,158" fill="none" stroke="#8D6E63" stroke-width="0.8" stroke-linecap="round"/>
+  <path d="M180,145 Q183,153 186,158" fill="none" stroke="#8D6E63" stroke-width="0.8" stroke-linecap="round"/>
+
+  <!-- Female plant -->
+  <text x="235" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#C62828" font-weight="bold">♀ Женское</text>
+  <!-- Female stem -->
+  <rect x="233" y="70" width="4" height="75" fill="#33691E" rx="1"/>
+  <!-- Female leaves -->
+  <ellipse cx="227" cy="80" rx="9" ry="3.5" fill="#43A047" stroke="#2E7D32" stroke-width="0.5" transform="rotate(-20,227,80)"/>
+  <ellipse cx="243" cy="80" rx="9" ry="3.5" fill="#43A047" stroke="#2E7D32" stroke-width="0.5" transform="rotate(20,243,80)"/>
+  <ellipse cx="226" cy="90" rx="9" ry="3" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.5" transform="rotate(-25,226,90)"/>
+  <ellipse cx="244" cy="90" rx="9" ry="3" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.5" transform="rotate(25,244,90)"/>
+  <ellipse cx="227" cy="100" rx="8" ry="3" fill="#388E3C" stroke="#2E7D32" stroke-width="0.5" transform="rotate(-20,227,100)"/>
+  <ellipse cx="243" cy="100" rx="8" ry="3" fill="#388E3C" stroke="#2E7D32" stroke-width="0.5" transform="rotate(20,243,100)"/>
+  <!-- Archegonia at tip -->
+  <ellipse cx="235" cy="72" rx="5" ry="3.5" fill="#EF9A9A" stroke="#C62828" stroke-width="0.5"/>
+  <!-- Sporophyte growing from female -->
+  <rect x="234" y="60" width="2.5" height="14" fill="#8D6E63" stroke="#5D4037" stroke-width="0.3"/>
+  <ellipse cx="235" cy="57" rx="5" ry="8" fill="#A1887F" stroke="#5D4037" stroke-width="0.7"/>
+  <text x="235" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#C62828">архегонии</text>
+  <text x="235" y="162" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#C62828">(яйцеклетки)</text>
+  <!-- Rhizoids -->
+  <path d="M235,145 Q230,152 225,158" fill="none" stroke="#8D6E63" stroke-width="0.8" stroke-linecap="round"/>
+  <path d="M235,145 Q238,153 241,158" fill="none" stroke="#8D6E63" stroke-width="0.8" stroke-linecap="round"/>
+
+  <!-- Note about sporophyte -->
+  <line x1="242" y1="57" x2="262" y2="55" stroke="#5D4037" stroke-width="0.5"/>
+  <text x="263" y="55" font-family="Arial,sans-serif" font-size="5" fill="#5D4037">спорофит на</text>
+  <text x="263" y="61" font-family="Arial,sans-serif" font-size="5" fill="#5D4037">гаметофите</text>
+
+  <!-- Water needed -->
+  <rect x="158" y="168" width="100" height="16" fill="#E3F2FD" stroke="#1565C0" stroke-width="0.7" rx="3"/>
+  <text x="208" y="179" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#0D47A1" font-weight="bold">💧 Нужна вода для оплодтворения!</text>
+
+  <!-- ===== LIFE CYCLE ===== -->
+  <line x1="4" y1="195" x2="496" y2="195" stroke="#81C784" stroke-width="0.5"/>
+  <text x="250" y="210" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#1B5E20" font-weight="bold">Жизненный цикл мха (чередование поколений)</text>
+
+  <!-- Cycle stages arranged in a loop -->
+
+  <!-- Stage 1: Spore -->
+  <circle cx="70" cy="260" r="18" fill="#FFF9C4" stroke="#F9A825" stroke-width="1.5"/>
+  <circle cx="70" cy="260" r="4" fill="#F9A825" opacity="0.5"/>
+  <text x="70" y="256" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#F57F17" font-weight="bold">Спора</text>
+  <text x="70" y="267" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#F9A825">n</text>
+
+  <!-- Arrow: spore → protonema -->
+  <path d="M90,260 L115,260" fill="none" stroke="#2E7D32" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <!-- Stage 2: Protonema -->
+  <rect x="118" y="243" width="55" height="34" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1" rx="4"/>
+  <text x="145" y="256" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" fill="#1B5E20" font-weight="bold">Протонема</text>
+  <text x="145" y="266" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32">(нитчатая)</text>
+  <text x="145" y="274" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">n</text>
+
+  <!-- Arrow: protonema → gametophyte -->
+  <path d="M175,260 L200,260" fill="none" stroke="#2E7D32" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <!-- Stage 3: Gametophyte -->
+  <rect x="203" y="232" width="75" height="56" fill="#81C784" stroke="#2E7D32" stroke-width="1.5" rx="5"/>
+  <text x="240" y="246" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" font-weight="bold">Гаметофит</text>
+  <text x="240" y="256" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">(доминирует!)</text>
+
+  <!-- Male -->
+  <text x="222" y="268" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" fill="#1565C0" font-weight="bold">♂</text>
+  <ellipse cx="222" cy="276" rx="8" ry="5" fill="#BBDEFB" stroke="#1565C0" stroke-width="0.6"/>
+  <text x="222" y="279" text-anchor="middle" font-family="Arial,sans-serif" font-size="4" fill="#0D47A1">антер.</text>
+
+  <!-- Female -->
+  <text x="258" y="268" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" fill="#C62828" font-weight="bold">♀</text>
+  <ellipse cx="258" cy="276" rx="8" ry="5" fill="#FFCDD2" stroke="#C62828" stroke-width="0.6"/>
+  <text x="258" y="279" text-anchor="middle" font-family="Arial,sans-serif" font-size="4" fill="#B71C1C">архег.</text>
+
+  <text x="240" y="286" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">n</text>
+
+  <!-- Arrow: gametophyte → fertilization → sporophyte -->
+  <path d="M280,260 L305,260" fill="none" stroke="#2E7D32" stroke-width="1.2" marker-end="url(#arr)"/>
+  <text x="293" y="255" font-family="Arial,sans-serif" font-size="5" fill="#C62828">+H₂O</text>
+
+  <!-- Stage 4: Sporophyte -->
+  <rect x="308" y="232" width="70" height="56" fill="#D7CCC8" stroke="#5D4037" stroke-width="1.5" rx="5"/>
+  <text x="343" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#4E342E" font-weight="bold">Спорофит</text>
+  <!-- Mini sporophyte drawing -->
+  <rect x="341" y="254" width="3" height="20" fill="#8D6E63"/>
+  <ellipse cx="342" cy="252" rx="6" ry="9" fill="#A1887F" stroke="#5D4037" stroke-width="0.7"/>
+  <text x="343" y="267" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#4E342E">коробочка</text>
+  <text x="343" y="276" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#4E342E">на ножке</text>
+  <text x="343" y="286" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#5D4037">2n</text>
+
+  <!-- Arrow: sporophyte → meiosis → spores (loop back) -->
+  <path d="M343,290 L343,308 L70,308 L70,280" fill="none" stroke="#C62828" stroke-width="1.2" marker-end="url(#arrR)"/>
+  <text x="206" y="320" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#C62828" font-weight="bold">Мейоз в коробочке → споры (n)</text>
+
+  <!-- Dominant generation highlight -->
+  <rect x="390" y="232" width="100" height="90" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1" rx="5"/>
+  <text x="440" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" fill="#1B5E20" font-weight="bold">Доминирует:</text>
+
+  <!-- Gametophyte dominance -->
+  <rect x="400" y="255" width="80" height="22" fill="#81C784" stroke="#2E7D32" stroke-width="1.5" rx="3"/>
+  <text x="440" y="265" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" font-weight="bold">Гаметофит (n)</text>
+  <text x="440" y="274" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32">≈ основное растение</text>
+
+  <!-- Sporophyte small -->
+  <rect x="400" y="282" width="80" height="18" fill="#D7CCC8" stroke="#8D6E63" stroke-width="1" rx="3"/>
+  <text x="440" y="294" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" fill="#5D4037">Спорофит (2n) мал</text>
+
+  <!-- Arrow showing contrast -->
+  <text x="440" y="310" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#1B5E20">Спорофит живёт на</text>
+  <text x="440" y="318" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#1B5E20">гаметофите!</text>
+
+  <!-- Bottom note -->
+  <rect x="4" y="328" width="492" height="18" fill="#1B5E20" fill-opacity="0.08" rx="3"/>
+  <text x="250" y="341" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" fill="#1B5E20">
+    Мхи — высшие споровые растения: есть стебель и листья, но НЕТ корней (только ризоиды) | Оплодотворение в воде
+  </text>
+</svg>

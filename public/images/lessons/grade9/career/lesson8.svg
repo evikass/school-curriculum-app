@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E0F2F1"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#26A69A"/>
+      <stop offset="100%" stop-color="#00695C"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#26A69A" stroke-width="3"/>
+  <!-- Header bar -->
+  <rect x="8" y="8" width="484" height="52" rx="6" fill="url(#hdr)" opacity="0.9"/>
+  <text x="250" y="34" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Сопроводительное письмо</text>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="10" fill="rgba(255,255,255,0.8)" text-anchor="middle">Карьерное консультирование — Урок 8</text>
+  <!-- Decorative elements -->
+  <circle cx="460" cy="25" r="12" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="440" cy="18" r="6" fill="rgba(255,255,255,0.1)"/>
+  <!-- Content area -->
+
+  <rect x="25" y="75" width="145" height="70" rx="5" fill="white" stroke="#4CAF50" stroke-width="1"/>
+  <rect x="25" y="75" width="145" height="20" rx="5" fill="#4CAF50" opacity="0.85"/>
+  <rect x="25" y="93" width="145" height="2" fill="#4CAF50" opacity="0.85"/>
+  <text x="97" y="89" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">Статистика</text>
+  <text x="35" y="113" font-family="Arial,sans-serif" font-size="7.5" fill="#333">45% больше приглашений</text>
+  <text x="35" y="125" font-family="Arial,sans-serif" font-size="7.5" fill="#333">с сопроводительным письмом</text>
+  <text x="35" y="137" font-family="Arial,sans-serif" font-size="7.5" fill="#333">по данным hh.ru</text>
+  <rect x="180" y="75" width="145" height="70" rx="5" fill="white" stroke="#2196F3" stroke-width="1"/>
+  <rect x="180" y="75" width="145" height="20" rx="5" fill="#2196F3" opacity="0.85"/>
+  <rect x="180" y="93" width="145" height="2" fill="#2196F3" opacity="0.85"/>
+  <text x="252" y="89" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">Рекрутёры</text>
+  <text x="190" y="113" font-family="Arial,sans-serif" font-size="7.5" fill="#333">83% рекрутёров читают</text>
+  <text x="190" y="125" font-family="Arial,sans-serif" font-size="7.5" fill="#333">сопроводительные письма</text>
+  <text x="190" y="137" font-family="Arial,sans-serif" font-size="7.5" fill="#333">и учитывают при отборе</text>
+  <rect x="335" y="75" width="145" height="70" rx="5" fill="white" stroke="#FF9800" stroke-width="1"/>
+  <rect x="335" y="75" width="145" height="20" rx="5" fill="#FF9800" opacity="0.85"/>
+  <rect x="335" y="93" width="145" height="2" fill="#FF9800" opacity="0.85"/>
+  <text x="407" y="89" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">Объём</text>
+  <text x="345" y="113" font-family="Arial,sans-serif" font-size="7.5" fill="#333">Оптимум: 200-300 слов</text>
+  <text x="345" y="125" font-family="Arial,sans-serif" font-size="7.5" fill="#333">1-2 минуты чтения</text>
+  <text x="345" y="137" font-family="Arial,sans-serif" font-size="7.5" fill="#333">не дублируйте резюме</text>
+  <rect x="25" y="155" width="145" height="70" rx="5" fill="white" stroke="#9C27B0" stroke-width="1"/>
+  <rect x="25" y="155" width="145" height="20" rx="5" fill="#9C27B0" opacity="0.85"/>
+  <rect x="25" y="173" width="145" height="2" fill="#9C27B0" opacity="0.85"/>
+  <text x="97" y="169" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">Формула</text>
+  <text x="35" y="193" font-family="Arial,sans-serif" font-size="7.5" fill="#333">Формула: Почему вы +</text>
+  <text x="35" y="205" font-family="Arial,sans-serif" font-size="7.5" fill="#333">Почему я + Почему мы</text>
+  <text x="35" y="217" font-family="Arial,sans-serif" font-size="7.5" fill="#333">подходим друг другу</text>
+  <rect x="180" y="155" width="145" height="70" rx="5" fill="white" stroke="#E91E63" stroke-width="1"/>
+  <rect x="180" y="155" width="145" height="20" rx="5" fill="#E91E63" opacity="0.85"/>
+  <rect x="180" y="173" width="145" height="2" fill="#E91E63" opacity="0.85"/>
+  <text x="252" y="169" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">Структура</text>
+  <text x="190" y="193" font-family="Arial,sans-serif" font-size="7.5" fill="#333">Структура: приветствие,</text>
+  <text x="190" y="205" font-family="Arial,sans-serif" font-size="7.5" fill="#333">интерес, опыт, мотивация,</text>
+  <text x="190" y="217" font-family="Arial,sans-serif" font-size="7.5" fill="#333">призыв к действию</text>
+  <rect x="335" y="155" width="145" height="70" rx="5" fill="white" stroke="#607D8B" stroke-width="1"/>
+  <rect x="335" y="155" width="145" height="20" rx="5" fill="#607D8B" opacity="0.85"/>
+  <rect x="335" y="173" width="145" height="2" fill="#607D8B" opacity="0.85"/>
+  <text x="407" y="169" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">Ошибки</text>
+  <text x="345" y="193" font-family="Arial,sans-serif" font-size="7.5" fill="#333">Ошибка: дублирование</text>
+  <text x="345" y="205" font-family="Arial,sans-serif" font-size="7.5" fill="#333">резюме — письмо должно</text>
+  <text x="345" y="217" font-family="Arial,sans-serif" font-size="7.5" fill="#333">дополнять, не повторять</text>
+</svg>

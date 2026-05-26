@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#2C1810"/>
+<circle cx="80" cy="100" r="18" fill="#D4A574" stroke="#8B6914" stroke-width="1.5"/>
+<line x1="80" y1="118" x2="80" y2="165" stroke="#D4A574" stroke-width="2.5"/>
+<line x1="60" y1="135" x2="100" y2="135" stroke="#D4A574" stroke-width="2"/>
+<line x1="80" y1="165" x2="65" y2="195" stroke="#D4A574" stroke-width="2"/>
+<line x1="80" y1="165" x2="95" y2="195" stroke="#D4A574" stroke-width="2"/>
+<circle cx="180" cy="100" r="18" fill="#C68642" stroke="#8B6914" stroke-width="1.5"/>
+<line x1="180" y1="118" x2="180" y2="165" stroke="#C68642" stroke-width="2.5"/>
+<line x1="160" y1="135" x2="200" y2="135" stroke="#C68642" stroke-width="2"/>
+<line x1="180" y1="165" x2="165" y2="195" stroke="#C68642" stroke-width="2"/>
+<line x1="180" y1="165" x2="195" y2="195" stroke="#C68642" stroke-width="2"/>
+<circle cx="280" cy="100" r="18" fill="#F5CBA7" stroke="#8B6914" stroke-width="1.5"/>
+<line x1="280" y1="118" x2="280" y2="165" stroke="#F5CBA7" stroke-width="2.5"/>
+<line x1="260" y1="135" x2="300" y2="135" stroke="#F5CBA7" stroke-width="2"/>
+<line x1="280" y1="165" x2="265" y2="195" stroke="#F5CBA7" stroke-width="2"/>
+<line x1="280" y1="165" x2="295" y2="195" stroke="#F5CBA7" stroke-width="2"/>
+<circle cx="380" cy="100" r="18" fill="#E8B88A" stroke="#8B6914" stroke-width="1.5"/>
+<line x1="380" y1="118" x2="380" y2="165" stroke="#E8B88A" stroke-width="2.5"/>
+<line x1="360" y1="135" x2="400" y2="135" stroke="#E8B88A" stroke-width="2"/>
+<line x1="380" y1="165" x2="365" y2="195" stroke="#E8B88A" stroke-width="2"/>
+<line x1="380" y1="165" x2="395" y2="195" stroke="#E8B88A" stroke-width="2"/>
+<line x1="30" y1="220" x2="470" y2="220" stroke="#8B6914" stroke-width="0.5" opacity="0.4"/>
+<text x="80" y="210" font-family="Arial" font-size="7" fill="#D4A574" text-anchor="middle">Азия</text>
+<text x="180" y="210" font-family="Arial" font-size="7" fill="#C68642" text-anchor="middle">Африка</text>
+<text x="280" y="210" font-family="Arial" font-size="7" fill="#F5CBA7" text-anchor="middle">Европа</text>
+<text x="380" y="210" font-family="Arial" font-size="7" fill="#E8B88A" text-anchor="middle">Америка</text>
+<rect x="40" y="240" width="55" height="45" fill="#1a3a2a" rx="4" stroke="#4a8a5a" stroke-width="0.5"/>
+<path d="M55,280 L55,255 L75,255 L75,280" stroke="#C9A84C" stroke-width="1.5" fill="none"/>
+<circle cx="65" cy="255" r="5" fill="none" stroke="#C9A84C" stroke-width="1"/>
+<text x="67" y="268" font-family="Arial" font-size="6" fill="#C9A84C">☸</text>
+<rect x="120" y="240" width="55" height="45" fill="#1a1a3a" rx="4" stroke="#4a4a8a" stroke-width="0.5"/>
+<path d="M135,270 L142,255 L149,270 Z" fill="none" stroke="#6a6aaa" stroke-width="1.2"/>
+<line x1="142" y1="270" x2="142" y2="278" stroke="#6a6aaa" stroke-width="1.2"/>
+<text x="147" y="265" font-family="Arial" font-size="10" fill="#6a6aaa">✡</text>
+<rect x="200" y="240" width="55" height="45" fill="#2a1a1a" rx="4" stroke="#8a4a4a" stroke-width="0.5"/>
+<line x1="227" y1="250" x2="227" y2="280" stroke="#CC4444" stroke-width="2"/>
+<line x1="215" y1="262" x2="240" y2="262" stroke="#CC4444" stroke-width="2"/>
+<rect x="280" y="240" width="55" height="45" fill="#1a2a1a" rx="4" stroke="#4a8a4a" stroke-width="0.5"/>
+<path d="M295,275 Q300,250 308,260 Q315,245 320,275" fill="none" stroke="#5aaa5a" stroke-width="1.5"/>
+<text x="296" y="252" font-family="Arial" font-size="10" fill="#5aaa5a">☪</text>
+<rect x="360" y="240" width="55" height="45" fill="#2a2a1a" rx="4" stroke="#8a8a4a" stroke-width="0.5"/>
+<circle cx="387" cy="260" r="10" fill="none" stroke="#aaaa5a" stroke-width="1.2"/>
+<path d="M382,260 L387,253 L392,260 L387,267 Z" fill="#aaaa5a" opacity="0.5"/>
+<text x="360" y="280" font-family="Arial" font-size="6" fill="#aaaa5a">Дхарма</text>
+<text x="250" y="342" font-family="Arial" font-size="9" fill="#CCC" text-anchor="middle" opacity="0.5">Народы и религии мира</text>
+</svg>

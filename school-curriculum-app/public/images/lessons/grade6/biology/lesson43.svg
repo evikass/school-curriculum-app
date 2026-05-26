@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+<linearGradient id="plantG" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#66BB6A"/><stop offset="100%" stop-color="#2E7D32"/></linearGradient>
+<linearGradient id="soilG" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#8D6E63"/><stop offset="100%" stop-color="#5D4037"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Дыхание и испарение воды растениями</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 6 класс — Урок 43</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- SECTION 1: Plant Respiration - Day vs Night -->
+<text x="125" y="66" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#2E7D32" text-anchor="middle">Дыхание растений</text>
+
+<!-- Day diagram -->
+<rect x="15" y="70" width="110" height="90" rx="4" fill="#FFF9C4" opacity="0.3" stroke="#F9A825" stroke-width="0.5"/>
+<text x="70" y="82" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#F57F17" text-anchor="middle">Днём</text>
+<!-- Sun -->
+<circle cx="35" cy="95" r="7" fill="#FFD54F" stroke="#F9A825" stroke-width="0.5"/>
+<line x1="35" y1="87" x2="35" y2="84" stroke="#FFB300" stroke-width="0.5"/>
+<line x1="28" y1="90" x2="26" y2="88" stroke="#FFB300" stroke-width="0.5"/>
+<line x1="42" y1="90" x2="44" y2="88" stroke="#FFB300" stroke-width="0.5"/>
+<!-- Plant -->
+<rect x="58" y="95" width="22" height="35" rx="3" fill="#81C784" stroke="#4CAF50" stroke-width="0.8"/>
+<ellipse cx="69" cy="92" rx="14" ry="12" fill="#66BB6A" stroke="#388E3C" stroke-width="0.8"/>
+<!-- Arrows -->
+<path d="M30,115 L52,115" stroke="#42A5F5" stroke-width="1" fill="none"/>
+<polygon points="52,113 56,115 52,117" fill="#42A5F5"/>
+<text x="35" y="112" font-family="Arial,sans-serif" font-size="5" fill="#1565C0">O₂</text>
+<path d="M86,115 L108,115" stroke="#42A5F5" stroke-width="1" fill="none"/>
+<polygon points="108,113 112,115 108,117" fill="#42A5F5"/>
+<text x="92" y="112" font-family="Arial,sans-serif" font-size="5" fill="#1565C0">O₂</text>
+<path d="M108,130 L86,130" stroke="#78909C" stroke-width="1" fill="none"/>
+<polygon points="86,128 82,130 86,132" fill="#78909C"/>
+<text x="92" y="127" font-family="Arial,sans-serif" font-size="5" fill="#546E7A">CO₂</text>
+<path d="M52,130 L30,130" stroke="#78909C" stroke-width="1" fill="none"/>
+<polygon points="30,128 26,130 30,132" fill="#78909C"/>
+<text x="30" y="127" font-family="Arial,sans-serif" font-size="5" fill="#546E7A">CO₂</text>
+<text x="70" y="150" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">фотосинтез > дыхание</text>
+
+<!-- Night diagram -->
+<rect x="135" y="70" width="110" height="90" rx="4" fill="#37474F" opacity="0.2" stroke="#546E7A" stroke-width="0.5"/>
+<text x="190" y="82" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#37474F" text-anchor="middle">Ночью</text>
+<!-- Moon -->
+<circle cx="155" cy="95" r="6" fill="#E0E0E0" stroke="#9E9E9E" stroke-width="0.5"/>
+<circle cx="158" cy="93" r="5" fill="#37474F" opacity="0.3"/>
+<!-- Plant -->
+<rect x="178" y="95" width="22" height="35" rx="3" fill="#81C784" stroke="#4CAF50" stroke-width="0.8" opacity="0.7"/>
+<ellipse cx="189" cy="92" rx="14" ry="12" fill="#66BB6A" stroke="#388E3C" stroke-width="0.8" opacity="0.7"/>
+<!-- Arrows - only respiration -->
+<path d="M150,115 L172,115" stroke="#42A5F5" stroke-width="1" fill="none"/>
+<polygon points="172,113 176,115 172,117" fill="#42A5F5"/>
+<text x="152" y="112" font-family="Arial,sans-serif" font-size="5" fill="#1565C0">O₂</text>
+<path d="M206,130 L172,130" stroke="#78909C" stroke-width="1" fill="none"/>
+<polygon points="172,128 168,130 172,132" fill="#78909C"/>
+<text x="195" y="127" font-family="Arial,sans-serif" font-size="5" fill="#546E7A">CO₂</text>
+<text x="190" y="150" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">только дыхание</text>
+
+<!-- Respiration equation -->
+<rect x="15" y="165" width="230" height="20" rx="3" fill="#FFF" opacity="0.3"/>
+<text x="130" y="178" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1B5E20" text-anchor="middle">C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + энергия</text>
+
+<!-- SECTION 2: Comparison photosynthesis vs respiration -->
+<text x="370" y="66" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#2E7D32" text-anchor="middle">Фотосинтез vs Дыхание</text>
+<!-- Table header -->
+<rect x="260" y="70" width="225" height="14" rx="2" fill="#2E7D32" opacity="0.2"/>
+<text x="317" y="80" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#1B5E20" text-anchor="middle">Фотосинтез</text>
+<text x="428" y="80" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#C62828" text-anchor="middle">Дыхание</text>
+<line x1="372" y1="70" x2="372" y2="165" stroke="#2E7D32" stroke-width="0.3"/>
+<!-- Row 1 -->
+<text x="262" y="92" font-family="Arial,sans-serif" font-size="5" fill="#666">Вещества:</text>
+<text x="317" y="92" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">CO₂+H₂O→глюкоза</text>
+<text x="428" y="92" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">глюкоза→CO₂+H₂O</text>
+<!-- Row 2 -->
+<text x="262" y="102" font-family="Arial,sans-serif" font-size="5" fill="#666">Энергия:</text>
+<text x="317" y="102" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">запасает</text>
+<text x="428" y="102" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">выделяет</text>
+<!-- Row 3 -->
+<text x="262" y="112" font-family="Arial,sans-serif" font-size="5" fill="#666">O₂:</text>
+<text x="317" y="112" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">выделяет</text>
+<text x="428" y="112" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">поглощает</text>
+<!-- Row 4 -->
+<text x="262" y="122" font-family="Arial,sans-serif" font-size="5" fill="#666">Свет:</text>
+<text x="317" y="122" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">необходим</text>
+<text x="428" y="122" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">не нужен</text>
+<!-- Row 5 -->
+<text x="262" y="132" font-family="Arial,sans-serif" font-size="5" fill="#666">Где:</text>
+<text x="317" y="132" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">хлоропласты</text>
+<text x="428" y="132" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">митохондрии</text>
+<!-- Row 6 -->
+<text x="262" y="142" font-family="Arial,sans-serif" font-size="5" fill="#666">Когда:</text>
+<text x="317" y="142" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">на свету</text>
+<text x="428" y="142" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">постоянно</text>
+
+<text x="370" y="160" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20" text-anchor="middle">Фотосинтез и дыхание — противоположные процессы</text>
+
+<!-- SECTION 3: Transpiration - Water movement through plant -->
+<text x="125" y="198" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1565C0" text-anchor="middle">Испарение воды (транспирация)</text>
+
+<!-- Full plant diagram -->
+<!-- Soil -->
+<rect x="15" y="270" width="230" height="60" rx="3" fill="url(#soilG)" opacity="0.4"/>
+<text x="130" y="285" font-family="Arial,sans-serif" font-size="5" fill="#FFF" text-anchor="middle">Почва (вода + минеральные вещества)</text>
+
+<!-- Roots -->
+<path d="M100,270 Q95,285 85,295" stroke="#8D6E63" stroke-width="2" fill="none"/>
+<path d="M110,270 Q115,290 120,300" stroke="#8D6E63" stroke-width="2" fill="none"/>
+<path d="M105,270 Q105,290 105,305" stroke="#8D6E63" stroke-width="2.5" fill="none"/>
+<path d="M115,270 Q120,285 130,295" stroke="#8D6E63" stroke-width="1.5" fill="none"/>
+<path d="M95,270 Q90,285 80,290" stroke="#8D6E63" stroke-width="1.5" fill="none"/>
+
+<!-- Stem -->
+<rect x="100" y="210" width="10" height="60" rx="2" fill="#66BB6A" stroke="#388E3C" stroke-width="0.8"/>
+
+<!-- Leaves -->
+<ellipse cx="75" cy="218" rx="25" ry="10" fill="#81C784" stroke="#388E3C" stroke-width="0.8" transform="rotate(-20,75,218)"/>
+<ellipse cx="135" cy="215" rx="25" ry="10" fill="#81C784" stroke="#388E3C" stroke-width="0.8" transform="rotate(15,135,215)"/>
+<ellipse cx="105" cy="205" rx="22" ry="9" fill="#66BB6A" stroke="#388E3C" stroke-width="0.8" transform="rotate(-5,105,205)"/>
+
+<!-- Water movement arrows (blue, upward) -->
+<path d="M105,300 L105,275" stroke="#42A5F5" stroke-width="1.5" fill="none" stroke-dasharray="3,1"/>
+<polygon points="103,275 105,270 107,275" fill="#42A5F5"/>
+<path d="M105,260 L105,240" stroke="#42A5F5" stroke-width="1.5" fill="none" stroke-dasharray="3,1"/>
+<polygon points="103,240 105,235 107,240" fill="#42A5F5"/>
+
+<!-- Evaporation arrows (upward from leaves) -->
+<path d="M75,208 L68,195" stroke="#81D4FA" stroke-width="0.8" fill="none"/>
+<path d="M78,206 L72,192" stroke="#81D4FA" stroke-width="0.8" fill="none"/>
+<path d="M82,207 L78,193" stroke="#81D4FA" stroke-width="0.8" fill="none"/>
+<path d="M135,206 L142,192" stroke="#81D4FA" stroke-width="0.8" fill="none"/>
+<path d="M132,205 L138,190" stroke="#81D4FA" stroke-width="0.8" fill="none"/>
+<path d="M128,207 L125,193" stroke="#81D4FA" stroke-width="0.8" fill="none"/>
+<path d="M105,198 L105,188" stroke="#81D4FA" stroke-width="0.8" fill="none"/>
+<path d="M108,197 L110,187" stroke="#81D4FA" stroke-width="0.8" fill="none"/>
+<path d="M102,197 L100,187" stroke="#81D4FA" stroke-width="0.8" fill="none"/>
+
+<!-- Water droplets (evaporating) -->
+<circle cx="65" cy="192" r="2" fill="#42A5F5" opacity="0.5"/>
+<circle cx="70" cy="188" r="1.5" fill="#42A5F5" opacity="0.4"/>
+<circle cx="140" cy="189" r="2" fill="#42A5F5" opacity="0.5"/>
+<circle cx="136" cy="185" r="1.5" fill="#42A5F5" opacity="0.4"/>
+<circle cx="105" cy="185" r="2" fill="#42A5F5" opacity="0.5"/>
+
+<!-- Labels for water movement -->
+<text x="85" y="255" font-family="Arial,sans-serif" font-size="5" fill="#1565C0">корень</text>
+<text x="113" y="245" font-family="Arial,sans-serif" font-size="5" fill="#1565C0">стебель</text>
+<text x="55" y="228" font-family="Arial,sans-serif" font-size="5" fill="#1565C0">лист</text>
+
+<!-- H2O labels -->
+<text x="88" y="298" font-family="Arial,sans-serif" font-size="6" fill="#1565C0">H₂O↑</text>
+<text x="105" y="188" font-family="Arial,sans-serif" font-size="5" fill="#1565C0">H₂O↑ пар</text>
+
+<!-- Transpiration flow label -->
+<text x="60" y="180" font-family="Arial,sans-serif" font-size="5" fill="#1565C0">испарение</text>
+
+<!-- SECTION 4: Stomata open/closed -->
+<text x="370" y="178" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#2E7D32" text-anchor="middle">Устьица</text>
+
+<!-- Open stoma -->
+<rect x="265" y="185" width="90" height="55" rx="3" fill="#FFF9C4" opacity="0.3" stroke="#F9A825" stroke-width="0.5"/>
+<text x="310" y="196" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#F57F17" text-anchor="middle">Открытое</text>
+<!-- Guard cells (bean-shaped) open -->
+<ellipse cx="298" cy="218" rx="12" ry="8" fill="#81C784" stroke="#388E3C" stroke-width="0.8"/>
+<ellipse cx="322" cy="218" rx="12" ry="8" fill="#81C784" stroke="#388E3C" stroke-width="0.8"/>
+<!-- Stomatal pore (open) -->
+<ellipse cx="310" cy="218" rx="8" ry="4" fill="#FFF9C4" stroke="#4CAF50" stroke-width="0.5"/>
+<!-- Nuclei -->
+<ellipse cx="294" cy="218" rx="2" ry="2.5" fill="#388E3C"/>
+<ellipse cx="326" cy="218" rx="2" ry="2.5" fill="#388E3C"/>
+<text x="310" y="233" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">днём, тургор↑</text>
+<text x="310" y="239" font-family="Arial,sans-serif" font-size="4.5" fill="#1565C0" text-anchor="middle">CO₂↑ O₂↑ H₂O↑</text>
+
+<!-- Closed stoma -->
+<rect x="370" y="185" width="90" height="55" rx="3" fill="#37474F" opacity="0.15" stroke="#546E7A" stroke-width="0.5"/>
+<text x="415" y="196" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#546E7A" text-anchor="middle">Закрытое</text>
+<!-- Guard cells (closed) -->
+<ellipse cx="403" cy="218" rx="12" ry="8" fill="#A5D6A7" stroke="#4CAF50" stroke-width="0.8"/>
+<ellipse cx="427" cy="218" rx="12" ry="8" fill="#A5D6A7" stroke="#4CAF50" stroke-width="0.8"/>
+<!-- Stomatal pore (closed) -->
+<line x1="413" y1="218" x2="417" y2="218" stroke="#4CAF50" stroke-width="1.5"/>
+<!-- Nuclei -->
+<ellipse cx="399" cy="218" rx="2" ry="2.5" fill="#388E3C"/>
+<ellipse cx="431" cy="218" rx="2" ry="2.5" fill="#388E3C"/>
+<text x="415" y="233" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">ночью, тургор↓</text>
+<text x="415" y="239" font-family="Arial,sans-serif" font-size="4.5" fill="#78909C" text-anchor="middle">газообмен↓</text>
+
+<!-- Guard cell labels -->
+<text x="282" y="227" font-family="Arial,sans-serif" font-size="4" fill="#1B5E20">замыка-</text>
+<text x="282" y="231" font-family="Arial,sans-serif" font-size="4" fill="#1B5E20">тельная</text>
+<text x="282" y="235" font-family="Arial,sans-serif" font-size="4" fill="#1B5E20">клетка</text>
+
+<!-- SECTION 5: Functions of transpiration -->
+<text x="370" y="250" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1565C0" text-anchor="middle">Функции транспирации</text>
+<rect x="265" y="255" width="200" height="50" rx="3" fill="#E3F2FD" opacity="0.3" stroke="#1565C0" stroke-width="0.5"/>
+<text x="365" y="266" font-family="Arial,sans-serif" font-size="5.5" fill="#1565C0" text-anchor="middle">1. Охлаждение растения</text>
+<text x="365" y="275" font-family="Arial,sans-serif" font-size="5.5" fill="#1565C0" text-anchor="middle">2. Водный ток (минералы вверх)</text>
+<text x="365" y="284" font-family="Arial,sans-serif" font-size="5.5" fill="#1565C0" text-anchor="middle">3. Поступление CO₂ для фотосинтеза</text>
+<text x="365" y="293" font-family="Arial,sans-serif" font-size="5.5" fill="#1565C0" text-anchor="middle">4. Поддержание тургора клеток</text>
+
+<!-- Summary -->
+<rect x="15" y="310" width="470" height="28" rx="3" fill="#FFF" opacity="0.3" stroke="#2E7D32" stroke-width="0.5"/>
+<text x="250" y="322" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle">Дыхание — постоянно, во всех клетках, днём и ночью. Транспирация — испарение воды через устьица.</text>
+<text x="250" y="333" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">Гуттация — выделение капель воды через гидатоды (не путать с росой). Корневое давление — «плач растений»</text>
+</svg>

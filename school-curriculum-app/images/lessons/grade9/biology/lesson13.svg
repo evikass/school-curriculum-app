@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" font-family="Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg13" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3E0"/>
+      <stop offset="100%" stop-color="#FFE0B2"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg13)" rx="8"/>
+  <text x="250" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#E65100">Развитие жизни на Земле</text>
+  <text x="250" y="44" text-anchor="middle" font-size="10" fill="#BF360C">Геологическая хронология</text>
+  <line x1="80" y1="50" x2="420" y2="50" stroke="#E65100" stroke-width="1"/>
+
+  <!-- Timeline arrow -->
+  <line x1="30" y1="80" x2="475" y2="80" stroke="#795548" stroke-width="3"/>
+  <polygon points="475,80 465,74 465,86" fill="#795548"/>
+  <text x="480" y="84" font-size="7" fill="#5D4037">время</text>
+
+  <!-- Архей -->
+  <rect x="35" y="90" width="70" height="60" rx="5" fill="#8D6E63" fill-opacity="0.4" stroke="#5D4037" stroke-width="1.5"/>
+  <text x="70" y="108" text-anchor="middle" font-size="10" font-weight="bold" fill="#3E2723">Архей</text>
+  <text x="70" y="120" text-anchor="middle" font-size="7" fill="#5D4037">3800-2500</text>
+  <text x="70" y="130" text-anchor="middle" font-size="7" fill="#5D4037">млн лет</text>
+  <text x="70" y="143" text-anchor="middle" font-size="6" fill="#5D4037">Зарождение жизни</text>
+  <!-- Bacteria icon -->
+  <ellipse cx="60" cy="155" rx="6" ry="3" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.8"/>
+  <ellipse cx="75" cy="158" rx="5" ry="2.5" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.8"/>
+  <line x1="70" y1="88" x2="70" y2="90" stroke="#5D4037" stroke-width="1.5"/>
+
+  <!-- Протерозой -->
+  <rect x="115" y="90" width="80" height="60" rx="5" fill="#A1887F" fill-opacity="0.4" stroke="#5D4037" stroke-width="1.5"/>
+  <text x="155" y="108" text-anchor="middle" font-size="10" font-weight="bold" fill="#3E2723">Протерозой</text>
+  <text x="155" y="120" text-anchor="middle" font-size="7" fill="#5D4037">2500-570</text>
+  <text x="155" y="130" text-anchor="middle" font-size="7" fill="#5D4037">млн лет</text>
+  <text x="155" y="143" text-anchor="middle" font-size="6" fill="#5D4037">Эукариоты, секс.</text>
+  <!-- Simple organism -->
+  <circle cx="145" cy="157" r="5" fill="#81C784" stroke="#2E7D32" stroke-width="0.8"/>
+  <circle cx="145" cy="157" r="2" fill="#2E7D32"/>
+  <line x1="155" y1="88" x2="155" y2="90" stroke="#5D4037" stroke-width="1.5"/>
+
+  <!-- Палеозой -->
+  <rect x="205" y="90" width="100" height="60" rx="5" fill="#FFAB91" fill-opacity="0.4" stroke="#BF360C" stroke-width="1.5"/>
+  <text x="255" y="105" text-anchor="middle" font-size="10" font-weight="bold" fill="#BF360C">Палеозой</text>
+  <text x="255" y="117" text-anchor="middle" font-size="7" fill="#BF360C">570-230 млн лет</text>
+  <text x="255" y="130" text-anchor="middle" font-size="6" fill="#BF360C">Рыбы, амфибии,</text>
+  <text x="255" y="140" text-anchor="middle" font-size="6" fill="#BF360C">рептилии, леса</text>
+  <text x="255" y="150" text-anchor="middle" font-size="6" fill="#BF360C">Выход на сушу</text>
+  <line x1="255" y1="88" x2="255" y2="90" stroke="#BF360C" stroke-width="1.5"/>
+
+  <!-- Мезозой -->
+  <rect x="315" y="90" width="85" height="60" rx="5" fill="#FFE082" fill-opacity="0.5" stroke="#F57F17" stroke-width="1.5"/>
+  <text x="357" y="105" text-anchor="middle" font-size="10" font-weight="bold" fill="#E65100">Мезозой</text>
+  <text x="357" y="117" text-anchor="middle" font-size="7" fill="#E65100">230-65 млн лет</text>
+  <text x="357" y="130" text-anchor="middle" font-size="6" fill="#E65100">Динозавры,</text>
+  <text x="357" y="140" text-anchor="middle" font-size="6" fill="#E65100">первые птицы,</text>
+  <text x="357" y="150" text-anchor="middle" font-size="6" fill="#E65100">млекопитающие</text>
+  <line x1="357" y1="88" x2="357" y2="90" stroke="#E65100" stroke-width="1.5"/>
+
+  <!-- Кайнозой -->
+  <rect x="410" y="90" width="70" height="60" rx="5" fill="#A5D6A7" fill-opacity="0.5" stroke="#1B5E20" stroke-width="1.5"/>
+  <text x="445" y="105" text-anchor="middle" font-size="10" font-weight="bold" fill="#1B5E20">Кайнозой</text>
+  <text x="445" y="117" text-anchor="middle" font-size="7" fill="#1B5E20">65-0 млн лет</text>
+  <text x="445" y="130" text-anchor="middle" font-size="6" fill="#1B5E20">Млекопитающие,</text>
+  <text x="445" y="140" text-anchor="middle" font-size="6" fill="#1B5E20">приматы,</text>
+  <text x="445" y="150" text-anchor="middle" font-size="6" fill="#1B5E20">человек</text>
+  <line x1="445" y1="88" x2="445" y2="90" stroke="#1B5E20" stroke-width="1.5"/>
+
+  <!-- Detailed panels below -->
+  <!-- Key events panel -->
+  <rect x="15" y="170" width="470" height="170" rx="8" fill="#FFF3E0" fill-opacity="0.6" stroke="#E65100" stroke-width="1.5"/>
+  <text x="250" y="190" text-anchor="middle" font-size="12" font-weight="bold" fill="#BF360C">Ключевые события</text>
+
+  <!-- Event rows -->
+  <circle cx="35" cy="210" r="5" fill="#8D6E63"/>
+  <text x="45" y="213" font-size="8" fill="#3E2723"><tspan font-weight="bold">Архей:</tspan> Возникновение прокариот (бактерий), фотосинтез у цианобактерий</text>
+
+  <circle cx="35" cy="230" r="5" fill="#A1887F"/>
+  <text x="45" y="233" font-size="8" fill="#3E2723"><tspan font-weight="bold">Протерозой:</tspan> Появление эукариот, полового процесса, многоклеточных</text>
+
+  <circle cx="35" cy="250" r="5" fill="#FFAB91"/>
+  <text x="45" y="253" font-size="8" fill="#BF360C"><tspan font-weight="bold">Палеозой:</tspan> Кембрийский взрыв, рыбы → амфибии → рептилии, леса каменноуг. периода</text>
+
+  <circle cx="35" cy="270" r="5" fill="#FFE082"/>
+  <text x="45" y="273" font-size="8" fill="#E65100"><tspan font-weight="bold">Мезозой:</tspan> Эра динозавров, появление птиц (археоптерикс), первых млекопитающих</text>
+
+  <circle cx="35" cy="290" r="5" fill="#A5D6A7"/>
+  <text x="45" y="293" font-size="8" fill="#1B5E20"><tspan font-weight="bold">Кайнозой:</tspan> Расцвет млекопитающих, антропогенез, формирование совр. биосферы</text>
+
+  <!-- Mass extinctions note -->
+  <rect x="30" y="305" width="440" height="28" rx="4" fill="#FFCCBC" fill-opacity="0.5" stroke="#BF360C" stroke-width="1"/>
+  <text x="250" y="320" text-anchor="middle" font-size="8" font-weight="bold" fill="#BF360C">⚠ Массовые вымирания: Ордовикское (445) → Девонское (370) → Пермовое (252) → Триасовое (201) → Меловое (66 млн л.)</text>
+</svg>

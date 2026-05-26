@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#E8F5E9" rx="12"/>
+<text x="250" y="28" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1B5E20">Растения и их разнообразие</text>
+<rect x="0" y="280" width="500" height="70" fill="#8D6E63"/>
+<rect x="0" y="275" width="500" height="8" fill="#4CAF50"/>
+<rect x="52" y="180" width="14" height="95" fill="#795548" stroke="#5D4037" stroke-width="2" rx="3"/>
+<circle cx="59" cy="155" r="36" fill="#4CAF50" stroke="#2E7D32" stroke-width="2"/>
+<circle cx="42" cy="168" r="22" fill="#66BB6A" stroke="#388E3C" stroke-width="1.5"/>
+<text x="59" y="290" text-anchor="middle" font-size="10" fill="#3E2723" font-family="sans-serif">Дерево</text>
+<rect x="166" y="240" width="8" height="35" fill="#795548" stroke="#5D4037" stroke-width="1.5"/>
+<ellipse cx="170" cy="225" rx="28" ry="24" fill="#66BB6A" stroke="#388E3C" stroke-width="2"/>
+<text x="170" y="290" text-anchor="middle" font-size="10" fill="#3E2723" font-family="sans-serif">Куст</text>
+<line x1="260" y1="205" x2="260" y2="275" stroke="#4CAF50" stroke-width="4" stroke-linecap="round"/>
+<ellipse cx="260" cy="195" rx="9" ry="13" fill="#E91E63" stroke="#C2185B" stroke-width="1.5"/>
+<ellipse cx="260" cy="195" rx="9" ry="13" fill="#F06292" stroke="#C2185B" stroke-width="1.5" transform="rotate(72,260,195)"/>
+<ellipse cx="260" cy="195" rx="9" ry="13" fill="#E91E63" stroke="#C2185B" stroke-width="1.5" transform="rotate(144,260,195)"/>
+<ellipse cx="260" cy="195" rx="9" ry="13" fill="#F06292" stroke="#C2185B" stroke-width="1.5" transform="rotate(216,260,195)"/>
+<ellipse cx="260" cy="195" rx="9" ry="13" fill="#E91E63" stroke="#C2185B" stroke-width="1.5" transform="rotate(288,260,195)"/>
+<circle cx="260" cy="195" r="6" fill="#FFEB3B" stroke="#F9A825" stroke-width="1.5"/>
+<text x="260" y="290" text-anchor="middle" font-size="10" fill="#3E2723" font-family="sans-serif">Цветок</text>
+<path d="M348,278 Q345,263 340,250" stroke="#4CAF50" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<path d="M355,278 Q355,260 352,245" stroke="#66BB6A" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<path d="M362,278 Q366,263 372,250" stroke="#43A047" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<text x="358" y="295" text-anchor="middle" font-size="10" fill="#3E2723" font-family="sans-serif">Трава</text>
+<line x1="430" y1="275" x2="430" y2="210" stroke="#2E7D32" stroke-width="3"/>
+<path d="M430,210 Q410,200 400,185" stroke="#2E7D32" stroke-width="2" fill="none"/>
+<path d="M430,225 Q450,215 460,200" stroke="#2E7D32" stroke-width="2" fill="none"/>
+<path d="M430,240 Q410,235 395,220" stroke="#2E7D32" stroke-width="2" fill="none"/>
+<text x="430" y="295" text-anchor="middle" font-size="9" fill="#3E2723" font-family="sans-serif">Папоротник</text>
+<rect x="470" y="218" width="16" height="48" fill="#4CAF50" stroke="#2E7D32" stroke-width="2" rx="8"/>
+<rect x="458" y="233" width="12" height="8" fill="#66BB6A" stroke="#388E3C" stroke-width="1.5" rx="4"/>
+<circle cx="30" cy="65" r="16" fill="#FFD54F" stroke="#FF8F00" stroke-width="2"/>
+<line x1="30" y1="45" x2="30" y2="38" stroke="#FF8F00" stroke-width="2"/>
+<line x1="45" y1="52" x2="50" y2="47" stroke="#FF8F00" stroke-width="2"/>
+</svg>

@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="26" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#2E7D32" text-anchor="middle">Побег. Строение почки</text>
+<text x="250" y="40" font-family="Arial,sans-serif" font-size="9" fill="#888" text-anchor="middle">Биология 7 класс — Урок 29</text>
+<line x1="30" y1="46" x2="470" y2="46" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+
+<!-- SHOOT DIAGRAM (main, left side) -->
+<text x="135" y="60" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#1B5E20" text-anchor="middle">Побег = стебель + листья + почки</text>
+
+<g transform="translate(50,68)">
+<!-- Main stem -->
+<line x1="80" y1="130" x2="80" y2="0" stroke="#4CAF50" stroke-width="4" stroke-linecap="round"/>
+
+<!-- Apical bud at top -->
+<ellipse cx="80" cy="5" rx="8" ry="6" fill="#81C784" stroke="#2E7D32" stroke-width="1.2"/>
+<!-- Tiny leaves in bud -->
+<path d="M76,3 Q73,0 76,-2" stroke="#2E7D32" stroke-width="0.8" fill="#A5D6A7"/>
+<path d="M84,3 Q87,0 84,-2" stroke="#2E7D32" stroke-width="0.8" fill="#A5D6A7"/>
+<text x="80" y="22" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle" font-weight="bold">верхушечная</text>
+<text x="80" y="29" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">почка</text>
+
+<!-- Node 1 with leaves -->
+<circle cx="80" cy="40" r="3" fill="#66BB6A" stroke="#2E7D32" stroke-width="1"/>
+<!-- Left leaf -->
+<path d="M77,40 Q55,25 40,35 Q55,42 77,40" fill="#81C784" stroke="#2E7D32" stroke-width="0.8"/>
+<line x1="77" y1="40" x2="42" y2="36" stroke="#2E7D32" stroke-width="0.4"/>
+<!-- Right leaf -->
+<path d="M83,40 Q105,25 120,35 Q105,42 83,40" fill="#81C784" stroke="#2E7D32" stroke-width="0.8"/>
+<line x1="83" y1="40" x2="118" y2="36" stroke="#2E7D32" stroke-width="0.4"/>
+
+<!-- Node 2 with leaves and axillary bud -->
+<circle cx="80" cy="75" r="3" fill="#66BB6A" stroke="#2E7D32" stroke-width="1"/>
+<!-- Left leaf -->
+<path d="M77,75 Q50,60 35,72 Q52,78 77,75" fill="#81C784" stroke="#2E7D32" stroke-width="0.8"/>
+<line x1="77" y1="75" x2="37" y2="73" stroke="#2E7D32" stroke-width="0.4"/>
+<!-- Right leaf -->
+<path d="M83,75 Q110,60 125,72 Q108,78 83,75" fill="#81C784" stroke="#2E7D32" stroke-width="0.8"/>
+<line x1="83" y1="75" x2="123" y2="73" stroke="#2E7D32" stroke-width="0.4"/>
+<!-- Axillary bud in leaf axil -->
+<ellipse cx="62" cy="70" rx="4" ry="3" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.8"/>
+
+<!-- Node 3 -->
+<circle cx="80" cy="110" r="3" fill="#66BB6A" stroke="#2E7D32" stroke-width="1"/>
+<!-- Left leaf -->
+<path d="M77,110 Q50,95 35,107 Q52,113 77,110" fill="#81C784" stroke="#2E7D32" stroke-width="0.8"/>
+<line x1="77" y1="110" x2="37" y2="108" stroke="#2E7D32" stroke-width="0.4"/>
+<!-- Right leaf -->
+<path d="M83,110 Q110,95 125,107 Q108,113 83,110" fill="#81C784" stroke="#2E7D32" stroke-width="0.8"/>
+<line x1="83" y1="110" x2="123" y2="108" stroke="#2E7D32" stroke-width="0.4"/>
+<!-- Axillary bud -->
+<ellipse cx="97" cy="105" rx="4" ry="3" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.8"/>
+
+<!-- Labels with lines -->
+<!-- Node label -->
+<line x1="83" y1="75" x2="140" y2="62" stroke="#888" stroke-width="0.5" stroke-dasharray="2"/>
+<text x="142" y="60" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" font-weight="bold">узел</text>
+
+<!-- Internode label -->
+<line x1="82" y1="57" x2="140" y2="50" stroke="#888" stroke-width="0.5" stroke-dasharray="2"/>
+<text x="142" y="48" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" font-weight="bold">междоузлие</text>
+
+<!-- Leaf axil label -->
+<line x1="62" y1="67" x2="20" y2="60" stroke="#888" stroke-width="0.5" stroke-dasharray="2"/>
+<text x="18" y="58" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="end">пазуха</text>
+<text x="18" y="65" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="end">листа</text>
+
+<!-- Lateral bud label -->
+<line x1="97" y1="102" x2="140" y2="88" stroke="#888" stroke-width="0.5" stroke-dasharray="2"/>
+<text x="142" y="86" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" font-weight="bold">боковая</text>
+<text x="142" y="93" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" font-weight="bold">(пазушная)</text>
+<text x="142" y="100" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" font-weight="bold">почка</text>
+
+<!-- Leaf label -->
+<line x1="50" y1="105" x2="20" y2="100" stroke="#888" stroke-width="0.5" stroke-dasharray="2"/>
+<text x="18" y="98" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="end">лист</text>
+
+<!-- Stem label -->
+<text x="18" y="130" font-family="Arial,sans-serif" font-size="6.5" fill="#4CAF50" text-anchor="end" font-weight="bold">стебель</text>
+</g>
+
+<!-- BUD TYPES (right side, top) -->
+<text x="370" y="60" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#1B5E20" text-anchor="middle">Типы почек</text>
+
+<!-- Vegetative bud (leaf bud cross-section) -->
+<g transform="translate(290,68)">
+<rect x="0" y="0" width="72" height="85" rx="4" fill="#FFF9C4" stroke="#F9A825" stroke-width="0.8"/>
+<text x="36" y="12" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle" font-weight="bold">Вегетативная</text>
+
+<!-- Bud scales (outer) -->
+<path d="M36,18 Q20,25 22,45 Q25,60 36,65 Q47,60 50,45 Q52,25 36,18" fill="#8D6E63" stroke="#5D4037" stroke-width="0.8"/>
+<!-- Inner leaf primordia -->
+<path d="M36,22 Q28,30 30,42 Q33,50 36,52" stroke="#4CAF50" stroke-width="1" fill="#A5D6A7" opacity="0.7"/>
+<path d="M36,22 Q44,30 42,42 Q39,50 36,52" stroke="#4CAF50" stroke-width="1" fill="#A5D6A7" opacity="0.7"/>
+<!-- Growing point -->
+<circle cx="36" cy="28" r="3" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.8"/>
+<!-- Leaf primordia labels -->
+<text x="36" y="72" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">зачатки листьев</text>
+<text x="36" y="80" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">+ конус нарастания</text>
+</g>
+
+<!-- Generative bud (flower bud) -->
+<g transform="translate(375,68)">
+<rect x="0" y="0" width="72" height="85" rx="4" fill="#FCE4EC" stroke="#C62828" stroke-width="0.8"/>
+<text x="36" y="12" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" font-weight="bold">Генеративная</text>
+
+<!-- Bud scales (outer) -->
+<path d="M36,18 Q18,26 20,48 Q24,62 36,65 Q48,62 52,48 Q54,26 36,18" fill="#8D6E63" stroke="#5D4037" stroke-width="0.8"/>
+<!-- Flower primordia inside -->
+<circle cx="36" cy="35" r="6" fill="#FF80AB" stroke="#C51162" stroke-width="0.8"/>
+<circle cx="36" cy="35" r="3" fill="#FFD54F" stroke="#F9A825" stroke-width="0.5"/>
+<!-- Petal primordia -->
+<path d="M30,30 Q26,24 30,20" stroke="#FF80AB" stroke-width="0.8" fill="#F48FB1"/>
+<path d="M42,30 Q46,24 42,20" stroke="#FF80AB" stroke-width="0.8" fill="#F48FB1"/>
+<path d="M30,40 Q26,46 30,50" stroke="#FF80AB" stroke-width="0.8" fill="#F48FB1"/>
+<path d="M42,40 Q46,46 42,50" stroke="#FF80AB" stroke-width="0.8" fill="#F48FB1"/>
+<text x="36" y="72" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">зачатки цветка</text>
+<text x="36" y="80" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">(лепестки, тычинки)</text>
+</g>
+
+<!-- APICAL vs LATERAL buds (comparison) -->
+<text x="370" y="168" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Верхушечная vs Боковая</text>
+
+<g transform="translate(280,175)">
+<!-- Apical dominance diagram -->
+<rect x="0" y="0" width="170" height="45" rx="4" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.8"/>
+<!-- Main stem with apical bud -->
+<line x1="85" y1="40" x2="85" y2="8" stroke="#4CAF50" stroke-width="2"/>
+<!-- Apical bud (large) -->
+<ellipse cx="85" cy="6" rx="6" ry="4" fill="#81C784" stroke="#2E7D32" stroke-width="1"/>
+<text x="85" y="2" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">↑ апикальная</text>
+<!-- Small lateral buds (suppressed) -->
+<ellipse cx="70" cy="20" rx="3" ry="2" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.5"/>
+<ellipse cx="100" cy="20" rx="3" ry="2" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.5"/>
+<ellipse cx="70" cy="30" rx="3" ry="2" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.5"/>
+<ellipse cx="100" cy="30" rx="3" ry="2" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.5"/>
+<text x="55" y="22" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="end">боковые</text>
+<text x="55" y="28" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="end">(подавлены)</text>
+<!-- Arrow showing apical dominance -->
+<path d="M85,12 L75,18" stroke="#C62828" stroke-width="0.5" fill="none" stroke-dasharray="1"/>
+<path d="M85,12 L95,18" stroke="#C62828" stroke-width="0.5" fill="none" stroke-dasharray="1"/>
+<text x="140" y="25" font-family="Arial,sans-serif" font-size="5" fill="#C62828">апикальное</text>
+<text x="140" y="31" font-family="Arial,sans-serif" font-size="5" fill="#C62828">доминирование</text>
+</g>
+
+<!-- BRANCHING TYPES -->
+<text x="250" y="238" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#1B5E20" text-anchor="middle">Типы ветвления</text>
+
+<!-- Моноподий (Monopodial) -->
+<g transform="translate(30,248)">
+<rect x="0" y="0" width="135" height="90" rx="4" fill="#FFF9C4" stroke="#F9A825" stroke-width="0.8"/>
+<text x="67" y="12" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle" font-weight="bold">Моноподий</text>
+<!-- Main axis continues -->
+<line x1="67" y1="80" x2="67" y2="20" stroke="#4CAF50" stroke-width="2.5"/>
+<!-- Same apical bud grows -->
+<ellipse cx="67" cy="18" rx="4" ry="3" fill="#81C784" stroke="#2E7D32" stroke-width="1"/>
+<!-- Side branches at angles -->
+<line x1="67" y1="35" x2="40" y2="25" stroke="#4CAF50" stroke-width="1.5"/>
+<line x1="67" y1="35" x2="94" y2="25" stroke="#4CAF50" stroke-width="1.5"/>
+<line x1="67" y1="50" x2="38" y2="42" stroke="#4CAF50" stroke-width="1.5"/>
+<line x1="67" y1="50" x2="96" y2="42" stroke="#4CAF50" stroke-width="1.5"/>
+<line x1="67" y1="65" x2="42" y2="58" stroke="#4CAF50" stroke-width="1"/>
+<line x1="67" y1="65" x2="92" y2="58" stroke="#4CAF50" stroke-width="1"/>
+<text x="67" y="87" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">одна ось растёт вверх</text>
+</g>
+
+<!-- Симподий (Sympodial) -->
+<g transform="translate(180,248)">
+<rect x="0" y="0" width="135" height="90" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="0.8"/>
+<text x="67" y="12" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle" font-weight="bold">Симподий</text>
+<!-- Segments zigzag -->
+<line x1="67" y1="80" x2="67" y2="55" stroke="#4CAF50" stroke-width="2.5"/>
+<line x1="67" y1="55" x2="40" y2="38" stroke="#4CAF50" stroke-width="2"/>
+<line x1="40" y1="38" x2="40" y2="25" stroke="#4CAF50" stroke-width="2"/>
+<!-- Side branch from first segment -->
+<line x1="67" y1="55" x2="94" y2="42" stroke="#81C784" stroke-width="1.5"/>
+<!-- New axis from lateral bud -->
+<line x1="40" y1="25" x2="55" y2="18" stroke="#4CAF50" stroke-width="1.5"/>
+<!-- Dots at branching points -->
+<circle cx="67" cy="55" r="2.5" fill="#1565C0" stroke="#0D47A1" stroke-width="0.5"/>
+<circle cx="40" cy="38" r="2.5" fill="#1565C0" stroke="#0D47A1" stroke-width="0.5"/>
+<!-- Dead apex marks -->
+<text x="55" y="15" font-family="Arial,sans-serif" font-size="5" fill="#C62828">✕ отмирает</text>
+<text x="67" y="87" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">боковая почка продолжает</text>
+</g>
+
+<!-- Дихотомия (Dichotomous) -->
+<g transform="translate(330,248)">
+<rect x="0" y="0" width="135" height="90" rx="4" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="0.8"/>
+<text x="67" y="12" font-family="Arial,sans-serif" font-size="8" fill="#7B1FA2" text-anchor="middle" font-weight="bold">Дихотомия</text>
+<!-- Y-shaped branching -->
+<line x1="67" y1="80" x2="67" y2="60" stroke="#4CAF50" stroke-width="2.5"/>
+<!-- First dichotomy -->
+<line x1="67" y1="60" x2="47" y2="42" stroke="#4CAF50" stroke-width="2"/>
+<line x1="67" y1="60" x2="87" y2="42" stroke="#4CAF50" stroke-width="2"/>
+<!-- Second dichotomy on left -->
+<line x1="47" y1="42" x2="37" y2="28" stroke="#4CAF50" stroke-width="1.5"/>
+<line x1="47" y1="42" x2="55" y2="28" stroke="#4CAF50" stroke-width="1.5"/>
+<!-- Second dichotomy on right -->
+<line x1="87" y1="42" x2="79" y2="28" stroke="#4CAF50" stroke-width="1.5"/>
+<line x1="87" y1="42" x2="97" y2="28" stroke="#4CAF50" stroke-width="1.5"/>
+<!-- Branching points -->
+<circle cx="67" cy="60" r="2" fill="#7B1FA2"/>
+<circle cx="47" cy="42" r="2" fill="#7B1FA2"/>
+<circle cx="87" cy="42" r="2" fill="#7B1FA2"/>
+<text x="67" y="87" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">вершинка делится пополам</text>
+</g>
+</svg>

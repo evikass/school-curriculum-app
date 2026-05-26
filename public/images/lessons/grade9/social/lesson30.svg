@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><linearGradient id="g30" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#38A169"/><stop offset="100%" stop-color="#276749"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#g30)"/>
+  <!-- Book with scales -->
+  <g transform="translate(250,120)" opacity="0.4">
+    <rect x="-50" y="-40" width="100" height="80" rx="5" fill="#E2E8F0"/>
+    <line x1="0" y1="-35" x2="0" y2="35" stroke="#276749" stroke-width="1.5"/>
+    <!-- Scales on book -->
+    <line x1="-20" y1="-20" x2="20" y2="-20" stroke="#D69E2E" stroke-width="1.5"/>
+    <path d="M-20 -20 Q-18 -10 -12 -10 Q-6 -10 -20 -20" fill="#63B3ED" opacity="0.5"/>
+    <path d="M20 -20 Q18 -10 12 -10 Q6 -10 20 -20" fill="#FC8181" opacity="0.5"/>
+  </g>
+  <!-- Culture elements -->
+  <g opacity="0.4" font-size="9" fill="#C6F6D5">
+    <text x="80" y="80">Знание законов</text><text x="320" y="80">Уважение права</text>
+    <text x="80" y="100">Правосознание</text><text x="320" y="100">Правовое поведение</text>
+  </g>
+  <!-- Nihilism vs culture -->
+  <g transform="translate(130,230)" opacity="0.4">
+    <rect x="0" y="0" width="100" height="30" rx="5" fill="#C53030"/><text x="50" y="20" text-anchor="middle" font-size="9" fill="#FFF">Нигилизм ✕</text>
+  </g>
+  <g transform="translate(270,230)" opacity="0.4">
+    <rect x="0" y="0" width="100" height="30" rx="5" fill="#38A169"/><text x="50" y="20" text-anchor="middle" font-size="9" fill="#FFF">Культура ✓</text>
+  </g>
+  <text x="250" y="310" text-anchor="middle" font-size="18" fill="#C6F6D5" font-weight="bold" opacity="0.6">Правовая культура</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#C6F6D5" opacity="0.5">Правовая культура</text>
+</svg>

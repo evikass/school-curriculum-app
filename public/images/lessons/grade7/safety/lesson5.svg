@@ -1,0 +1,55 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="350" fill="#0d1520"/>
+  <!-- Earthquake -->
+  <rect x="30" y="30" width="140" height="130" rx="6" fill="#1a2a3a" stroke="#ff9800" stroke-width="1.5"/>
+  <text x="55" y="50" font-size="10" fill="#ff9800" font-weight="bold">Землетрясение</text>
+  <!-- Cracked building -->
+  <rect x="60" y="60" width="40" height="60" fill="#546e7a" stroke="#78909c" stroke-width="1"/>
+  <!-- Windows -->
+  <rect x="68" y="68" width="10" height="10" fill="#81d4fa" opacity="0.3"/>
+  <rect x="82" y="68" width="10" height="10" fill="#81d4fa" opacity="0.3"/>
+  <!-- Cracks -->
+  <path d="M70,85 L75,90 L72,100 L78,110" fill="none" stroke="#ff9800" stroke-width="1.5"/>
+  <path d="M90,80 L88,92 L93,100" fill="none" stroke="#ff9800" stroke-width="1"/>
+  <!-- Zigzag ground line -->
+  <path d="M50,120 L60,115 L70,122 L80,110 L90,118 L100,112 L110,120 L120,115" fill="none" stroke="#ff9800" stroke-width="2"/>
+  <!-- Seismograph line -->
+  <path d="M60,135 L80,135 L85,128 L90,142 L95,130 L100,140 L105,132 L110,136 L140,135" fill="none" stroke="#ef5350" stroke-width="1.5"/>
+  <text x="60" y="152" font-size="7" fill="#b0bec5">Сейсмограф</text>
+  <!-- Flood -->
+  <rect x="190" y="30" width="140" height="130" rx="6" fill="#1a2a3a" stroke="#42a5f5" stroke-width="1.5"/>
+  <text x="225" y="50" font-size="10" fill="#42a5f5" font-weight="bold">Наводнение</text>
+  <!-- House partially submerged -->
+  <rect x="220" y="65" width="40" height="40" fill="#795548" stroke="#8d6e63" stroke-width="1"/>
+  <polygon points="215,65 240,50 265,65" fill="#c62828" stroke="#b71c1c" stroke-width="1"/>
+  <rect x="232" y="80" width="12" height="15" fill="#5d4037"/>
+  <!-- Water level -->
+  <rect x="200" y="90" width="120" height="40" fill="#1565c0" opacity="0.3"/>
+  <path d="M200,90 Q220,85 240,90 Q260,95 280,90 Q300,85 320,90" fill="none" stroke="#42a5f5" stroke-width="1.5"/>
+  <text x="210" y="145" font-size="7" fill="#90caf9">Уровень воды ↑</text>
+  <!-- Hurricane -->
+  <rect x="350" y="30" width="130" height="130" rx="6" fill="#1a2a3a" stroke="#78909c" stroke-width="1.5"/>
+  <text x="370" y="50" font-size="10" fill="#78909c" font-weight="bold">Ураган</text>
+  <!-- Spiral hurricane -->
+  <path d="M415,80 Q425,70 430,80 Q435,90 425,100 Q415,110 400,105 Q385,100 385,85 Q385,70 400,65 Q415,60 430,68" fill="none" stroke="#78909c" stroke-width="1.5"/>
+  <!-- Wind arrows -->
+  <path d="M370,95 L390,90" fill="none" stroke="#b0bec5" stroke-width="1"/>
+  <polygon points="390,90 385,87 385,93" fill="#b0bec5"/>
+  <path d="M375,115 L400,108" fill="none" stroke="#b0bec5" stroke-width="1"/>
+  <polygon points="400,108 395,105 395,111" fill="#b0bec5"/>
+  <!-- Tree bent by wind -->
+  <line x1="375" y1="140" x2="375" y2="120" stroke="#5d4037" stroke-width="2"/>
+  <path d="M375,120 Q385,115 395,120" fill="none" stroke="#4caf50" stroke-width="2"/>
+  <text x="365" y="153" font-size="7" fill="#b0bec5">Ветер &gt;30 м/с</text>
+  <!-- Safety rules -->
+  <rect x="30" y="185" width="440" height="130" rx="8" fill="#1a1210" stroke="#ff5722" stroke-width="1"/>
+  <text x="50" y="208" font-size="11" fill="#ff9800" font-weight="bold">Правила поведения при природных ЧС:</text>
+  <text x="50" y="228" font-size="8" fill="#ffe0b2">🌍 Землетрясение: спрячься под столом, держись от стен</text>
+  <text x="50" y="244" font-size="8" fill="#90caf9">🌊 Наводнение: поднимись на возвышенность, не иди в воду</text>
+  <text x="50" y="260" font-size="8" fill="#cfd8dc">🌪 Ураган: оставайся в укрытии, закрой окна</text>
+  <text x="50" y="280" font-size="9" fill="#ef5350" font-weight="bold">Общее: НЕ паникуй! Звони 112!</text>
+  <!-- Warning symbol -->
+  <polygon points="450,200 460,220 440,220" fill="none" stroke="#ff9800" stroke-width="2"/>
+  <text x="447" y="218" font-size="10" fill="#ff9800">!</text>
+  <text x="140" y="340" font-size="9" fill="#fff" opacity="0.5">Природные ЧС</text>
+</svg>

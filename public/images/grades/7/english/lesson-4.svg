@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#3B82F6" /></marker></defs>
+<rect width="800" height="600" fill="#F3F4F6" rx="0" />
+<rect x="0" y="0" width="800" height="70" fill="#3B82F6" />
+<text x="400" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">Sightseeing and Activities</text>
+<text x="400" y="56" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#BFDBFE">Осмотр достопримечательностей</text>
+<rect x="0" y="70" width="800" height="3" fill="#DC2626" /><text x="20" y="90" text-anchor="start" font-family="Arial, sans-serif" font-size="15" fill="#3B82F6" font-weight="bold">Прошедшие времена / Past Tenses</text>
+<line x1="20" y1="93" x2="268" y2="93" stroke="#3B82F6" stroke-width="1.5" /><rect x="20" y="108" width="370" height="90" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2" rx="6" />
+<text x="205" y="126" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#3B82F6" font-weight="bold">PAST SIMPLE</text>
+<text x="30" y="144" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1F2937">Завершённое действие в прошлом</text>
+<text x="30" y="160" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1E3A5F">S + V-ed / V2 (irregular)</text>
+<text x="30" y="174" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1E3A5F">S + did not + V</text>
+<text x="30" y="188" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1E3A5F">Did + S + V?</text><rect x="410" y="108" width="370" height="90" fill="#FEF9C3" stroke="#DC2626" stroke-width="2" rx="6" />
+<text x="595" y="126" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#DC2626" font-weight="bold">PAST CONTINUOUS</text>
+<text x="420" y="144" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1F2937">Действие в процессе в прошлом</text>
+<text x="420" y="160" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1E3A5F">S + was/were + V-ing</text>
+<text x="420" y="174" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1E3A5F">S + was/were not + V-ing</text>
+<text x="420" y="188" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1E3A5F">Was/Were + S + V-ing?</text><text x="20" y="210" text-anchor="start" font-family="Arial, sans-serif" font-size="15" fill="#3B82F6" font-weight="bold">Комбинация / When + Past Simple, While + Past Continuous</text>
+<line x1="20" y1="213" x2="468" y2="213" stroke="#3B82F6" stroke-width="1.5" /><rect x="20" y="228" width="370" height="55" fill="#FEE2E2" stroke="#DC2626" stroke-width="2" rx="6" />
+<circle cx="38" cy="246" r="12" fill="#DC2626" />
+<text x="38" y="251" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold">!</text>
+<text x="58" y="250" text-anchor="start" font-family="Arial, sans-serif" font-size="13" fill="#DC2626" font-weight="bold">WHEN + Past Simple</text>
+<text x="34" y="275" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1F2937">I was walking WHEN it started to rain.</text><rect x="410" y="228" width="370" height="55" fill="#FEE2E2" stroke="#DC2626" stroke-width="2" rx="6" />
+<circle cx="428" cy="246" r="12" fill="#DC2626" />
+<text x="428" y="251" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold">!</text>
+<text x="448" y="250" text-anchor="start" font-family="Arial, sans-serif" font-size="13" fill="#DC2626" font-weight="bold">WHILE + Past Continuous</text>
+<text x="424" y="275" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1F2937">WHILE she was reading, the phone rang.</text><text x="20" y="293" text-anchor="start" font-family="Arial, sans-serif" font-size="15" fill="#3B82F6" font-weight="bold">Маркеры времени / Time Markers</text>
+<line x1="20" y1="296" x2="260" y2="296" stroke="#3B82F6" stroke-width="1.5" /><rect x="20" y="311" width="178" height="24" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1" rx="12" />
+<text x="109" y="327" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1E3A5F" font-weight="bold">yesterday</text><rect x="210" y="311" width="178" height="24" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1" rx="12" />
+<text x="299" y="327" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1E3A5F" font-weight="bold">last week</text><rect x="400" y="311" width="178" height="24" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1" rx="12" />
+<text x="489" y="327" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1E3A5F" font-weight="bold">in 2023</text><rect x="590" y="311" width="178" height="24" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1" rx="12" />
+<text x="679" y="327" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1E3A5F" font-weight="bold">two days ago</text><rect x="20" y="341" width="178" height="24" fill="#FEF9C3" stroke="#DC2626" stroke-width="1" rx="12" />
+<text x="109" y="357" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#DC2626" font-weight="bold">at 5 pm yesterday</text><rect x="210" y="341" width="178" height="24" fill="#FEF9C3" stroke="#DC2626" stroke-width="1" rx="12" />
+<text x="299" y="357" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#DC2626" font-weight="bold">while</text><rect x="400" y="341" width="178" height="24" fill="#FEF9C3" stroke="#DC2626" stroke-width="1" rx="12" />
+<text x="489" y="357" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#DC2626" font-weight="bold">when</text><rect x="590" y="341" width="178" height="24" fill="#FEF9C3" stroke="#DC2626" stroke-width="1" rx="12" />
+<text x="679" y="357" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#DC2626" font-weight="bold">all morning</text><text x="20" y="381" text-anchor="start" font-family="Arial, sans-serif" font-size="15" fill="#3B82F6" font-weight="bold">Словарь / Sightseeing Vocabulary</text>
+<line x1="20" y1="384" x2="276" y2="384" stroke="#3B82F6" stroke-width="1.5" /><text x="20" y="411" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1E3A5F"><tspan fill="#3B82F6" font-weight="bold">cathedral</tspan> — собор</text><text x="410" y="411" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1E3A5F"><tspan fill="#3B82F6" font-weight="bold">museum</tspan> — музей</text><text x="20" y="431" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1E3A5F"><tspan fill="#3B82F6" font-weight="bold">monument</tspan> — памятник</text><text x="410" y="431" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1E3A5F"><tspan fill="#3B82F6" font-weight="bold">art gallery</tspan> — художественная галерея</text><text x="20" y="451" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1E3A5F"><tspan fill="#3B82F6" font-weight="bold">sightseeing tour</tspan> — экскурсия</text><text x="410" y="451" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1E3A5F"><tspan fill="#3B82F6" font-weight="bold">take photos</tspan> — фотографировать</text><text x="20" y="471" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1E3A5F"><tspan fill="#3B82F6" font-weight="bold">buy souvenirs</tspan> — покупать сувениры</text><text x="410" y="471" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#1E3A5F"><tspan fill="#3B82F6" font-weight="bold">go sightseeing</tspan> — осматривать достопримечательности</text><text x="20" y="489" text-anchor="start" font-family="Arial, sans-serif" font-size="15" fill="#3B82F6" font-weight="bold">Примеры / Examples</text>
+<line x1="20" y1="492" x2="164" y2="492" stroke="#3B82F6" stroke-width="1.5" /><circle cx="30" cy="505" r="9" fill="#3B82F6" />
+<text x="30" y="509" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" font-weight="bold">1</text>
+<text x="46" y="509" text-anchor="start" font-family="Arial, sans-serif" font-size="13" fill="#1E3A5F">We visited the museum yesterday.</text>
+<text x="46" y="523" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#6B7280">Мы посетили музей вчера.</text><circle cx="410" cy="505" r="9" fill="#3B82F6" />
+<text x="410" y="509" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" font-weight="bold">2</text>
+<text x="426" y="509" text-anchor="start" font-family="Arial, sans-serif" font-size="13" fill="#1E3A5F">I was taking photos when it rained.</text>
+<text x="426" y="523" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#6B7280">Я фотографировал, когда пошёл дождь.</text><circle cx="30" cy="543" r="9" fill="#3B82F6" />
+<text x="30" y="547" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" font-weight="bold">3</text>
+<text x="46" y="547" text-anchor="start" font-family="Arial, sans-serif" font-size="13" fill="#1E3A5F">While they were sightseeing, we rested.</text>
+<text x="46" y="561" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#6B7280">Пока они осматривали, мы отдыхали.</text><circle cx="410" cy="543" r="9" fill="#3B82F6" />
+<text x="410" y="547" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" font-weight="bold">4</text>
+<text x="426" y="547" text-anchor="start" font-family="Arial, sans-serif" font-size="13" fill="#1E3A5F">Did you buy any souvenirs?</text>
+<text x="426" y="561" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#6B7280">Ты купил сувениры?</text><rect x="0" y="570" width="800" height="30" fill="#1E3A5F" />
+<text x="20" y="590" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#94A3B8">Grade 7 | English | Lesson 4</text>
+<text x="780" y="590" text-anchor="end" font-family="Arial, sans-serif" font-size="11" fill="#94A3B8">Lesson 4/6</text>
+</svg>

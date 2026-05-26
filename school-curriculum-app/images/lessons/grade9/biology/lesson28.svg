@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" font-family="Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg28" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EDE7F6"/>
+      <stop offset="100%" stop-color="#D1C4E9"/>
+    </linearGradient>
+    <marker id="arrow28" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto">
+      <path d="M0,0 L7,2.5 L0,5 Z" fill="#4A148C"/>
+    </marker>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg28)" rx="12"/>
+  <rect x="4" y="4" width="492" height="342" fill="none" stroke="#7B1FA2" stroke-width="2" rx="10"/>
+
+  <!-- Title -->
+  <text x="250" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A148C">Сцепленное наследование</text>
+  <line x1="40" y1="36" x2="460" y2="36" stroke="#7B1FA2" stroke-width="1.5"/>
+
+  <!-- Left: Linked genes on chromosome -->
+  <rect x="10" y="44" width="160" height="155" rx="8" fill="#ffffff" fill-opacity="0.5" stroke="#9C27B0" stroke-width="1.2"/>
+  <text x="90" y="62" text-anchor="middle" font-size="11" font-weight="bold" fill="#4A148C">Сцепленные гены</text>
+
+  <!-- Chromosome pair -->
+  <!-- Chromosome 1 -->
+  <rect x="30" y="72" width="18" height="60" rx="9" fill="#CE93D8" stroke="#6A1B9A" stroke-width="1.2"/>
+  <circle cx="39" cy="82" r="4" fill="#FFD54F" stroke="#F57F17" stroke-width="0.6"/>
+  <text x="39" y="85" text-anchor="middle" font-size="5" fill="#E65100">A</text>
+  <circle cx="39" cy="100" r="4" fill="#90CAF9" stroke="#1565C0" stroke-width="0.6"/>
+  <text x="39" y="103" text-anchor="middle" font-size="5" fill="#0D47A1">B</text>
+  <circle cx="39" cy="118" r="4" fill="#EF9A9A" stroke="#C62828" stroke-width="0.6"/>
+  <text x="39" y="121" text-anchor="middle" font-size="5" fill="#B71C1C">C</text>
+
+  <!-- Chromosome 2 (homologous) -->
+  <rect x="58" y="72" width="18" height="60" rx="9" fill="#E1BEE7" stroke="#6A1B9A" stroke-width="1.2"/>
+  <circle cx="67" cy="82" r="4" fill="#FFF9C4" stroke="#F9A825" stroke-width="0.6"/>
+  <text x="67" y="85" text-anchor="middle" font-size="5" fill="#E65100">a</text>
+  <circle cx="67" cy="100" r="4" fill="#BBDEFB" stroke="#1565C0" stroke-width="0.6"/>
+  <text x="67" y="103" text-anchor="middle" font-size="5" fill="#0D47A1">b</text>
+  <circle cx="67" cy="118" r="4" fill="#FFCDD2" stroke="#C62828" stroke-width="0.6"/>
+  <text x="67" y="121" text-anchor="middle" font-size="5" fill="#B71C1C">c</text>
+
+  <text x="48" y="148" text-anchor="middle" font-size="8" fill="#6A1B9A">Группа сцепления</text>
+  <text x="90" y="162" text-anchor="middle" font-size="8" fill="#7B1FA2" font-style="italic">Гены в одной</text>
+  <text x="90" y="172" text-anchor="middle" font-size="8" fill="#7B1FA2" font-style="italic">хромосоме</text>
+  <text x="90" y="186" text-anchor="middle" font-size="8" fill="#4A148C">AB / ab → вместе</text>
+
+  <!-- Center: Crossing-over -->
+  <rect x="178" y="44" width="150" height="155" rx="8" fill="#ffffff" fill-opacity="0.5" stroke="#9C27B0" stroke-width="1.2"/>
+  <text x="253" y="62" text-anchor="middle" font-size="11" font-weight="bold" fill="#4A148C">Кроссинговер</text>
+
+  <!-- Before crossing over -->
+  <text x="210" y="78" text-anchor="middle" font-size="8" fill="#6A1B9A">До:</text>
+  <rect x="198" y="82" width="14" height="35" rx="7" fill="#CE93D8" stroke="#6A1B9A" stroke-width="1"/>
+  <circle cx="205" cy="90" r="3" fill="#FFD54F" stroke="#F57F17" stroke-width="0.5"/>
+  <text x="205" y="92" text-anchor="middle" font-size="4.5" fill="#E65100">A</text>
+  <circle cx="205" cy="102" r="3" fill="#90CAF9" stroke="#1565C0" stroke-width="0.5"/>
+  <text x="205" y="104" text-anchor="middle" font-size="4.5" fill="#0D47A1">B</text>
+
+  <rect x="218" y="82" width="14" height="35" rx="7" fill="#E1BEE7" stroke="#6A1B9A" stroke-width="1"/>
+  <circle cx="225" cy="90" r="3" fill="#FFF9C4" stroke="#F9A825" stroke-width="0.5"/>
+  <text x="225" y="92" text-anchor="middle" font-size="4.5" fill="#E65100">a</text>
+  <circle cx="225" cy="102" r="3" fill="#BBDEFB" stroke="#1565C0" stroke-width="0.5"/>
+  <text x="225" y="104" text-anchor="middle" font-size="4.5" fill="#0D47A1">b</text>
+
+  <!-- Cross-over X -->
+  <path d="M200 115 Q215 128 230 115" fill="none" stroke="#4A148C" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <path d="M230 115 Q215 128 200 115" fill="none" stroke="#4A148C" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <text x="215" y="135" text-anchor="middle" font-size="8" fill="#4A148C" font-weight="bold">×</text>
+
+  <!-- After crossing over -->
+  <text x="290" y="78" text-anchor="middle" font-size="8" fill="#6A1B9A">После:</text>
+  <rect x="278" y="82" width="14" height="35" rx="7" fill="#CE93D8" stroke="#6A1B9A" stroke-width="1"/>
+  <circle cx="285" cy="90" r="3" fill="#FFD54F" stroke="#F57F17" stroke-width="0.5"/>
+  <text x="285" y="92" text-anchor="middle" font-size="4.5" fill="#E65100">A</text>
+  <circle cx="285" cy="102" r="3" fill="#BBDEFB" stroke="#1565C0" stroke-width="0.5"/>
+  <text x="285" y="104" text-anchor="middle" font-size="4.5" fill="#0D47A1">b</text>
+
+  <rect x="298" y="82" width="14" height="35" rx="7" fill="#E1BEE7" stroke="#6A1B9A" stroke-width="1"/>
+  <circle cx="305" cy="90" r="3" fill="#FFF9C4" stroke="#F9A825" stroke-width="0.5"/>
+  <text x="305" y="92" text-anchor="middle" font-size="4.5" fill="#E65100">a</text>
+  <circle cx="305" cy="102" r="3" fill="#90CAF9" stroke="#1565C0" stroke-width="0.5"/>
+  <text x="305" y="104" text-anchor="middle" font-size="4.5" fill="#0D47A1">B</text>
+
+  <!-- Recombinant types -->
+  <text x="253" y="140" text-anchor="middle" font-size="8" fill="#4A148C">Рекомбинантные:</text>
+  <text x="253" y="152" text-anchor="middle" font-size="9" fill="#6A1B9A" font-weight="bold">Ab  и  aB</text>
+
+  <text x="253" y="170" text-anchor="middle" font-size="7" fill="#7B1FA2">Частота кроссинговера</text>
+  <text x="253" y="182" text-anchor="middle" font-size="7" fill="#7B1FA2">= расстояние между генами</text>
+  <text x="253" y="194" text-anchor="middle" font-size="8" fill="#4A148C" font-weight="bold">1% = 1 морганида</text>
+
+  <!-- Right: Morgan's experiments -->
+  <rect x="336" y="44" width="158" height="155" rx="8" fill="#ffffff" fill-opacity="0.5" stroke="#9C27B0" stroke-width="1.2"/>
+  <text x="415" y="62" text-anchor="middle" font-size="11" font-weight="bold" fill="#4A148C">Опыты Моргана</text>
+  <text x="415" y="76" text-anchor="middle" font-size="9" fill="#6A1B9A">Drosophila</text>
+
+  <!-- Fruit fly icon -->
+  <ellipse cx="415" cy="96" rx="14" ry="8" fill="#8D6E63" stroke="#4E342E" stroke-width="1"/>
+  <ellipse cx="405" cy="90" rx="6" ry="3" fill="#BCAAA4" stroke="#5D4037" stroke-width="0.5" transform="rotate(-20,405,90)"/>
+  <ellipse cx="425" cy="90" rx="6" ry="3" fill="#BCAAA4" stroke="#5D4037" stroke-width="0.5" transform="rotate(20,425,90)"/>
+  <circle cx="408" cy="93" r="1.5" fill="#F44336"/>
+  <circle cx="422" cy="93" r="1.5" fill="#F44336"/>
+
+  <!-- Morgan's results -->
+  <text x="415" y="118" text-anchor="middle" font-size="8" fill="#4A148C" font-weight="bold">Серое тело (A)</text>
+  <text x="415" y="128" text-anchor="middle" font-size="8" fill="#4A148C" font-weight="bold">Норм. крылья (B)</text>
+  <text x="415" y="142" text-anchor="middle" font-size="8" fill="#6A1B9A">AB/ab × ab/ab</text>
+
+  <text x="415" y="156" text-anchor="middle" font-size="8" fill="#4A148C">Некроссоверные:</text>
+  <text x="415" y="168" text-anchor="middle" font-size="9" fill="#1B5E20" font-weight="bold">41.5% AB + 41.5% ab</text>
+
+  <text x="415" y="182" text-anchor="middle" font-size="8" fill="#4A148C">Кроссоверные:</text>
+  <text x="415" y="194" text-anchor="middle" font-size="9" fill="#C62828" font-weight="bold">8.5% Ab + 8.5% aB</text>
+
+  <!-- Bottom: Summary and law -->
+  <rect x="10" y="206" width="480" height="135" rx="8" fill="#ffffff" fill-opacity="0.5" stroke="#7B1FA2" stroke-width="1.2"/>
+  <text x="250" y="226" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A148C">Закон Моргана</text>
+
+  <!-- Main law text -->
+  <rect x="20" y="234" width="460" height="35" rx="4" fill="#D1C4E9" stroke="#9C27B0" stroke-width="0.8"/>
+  <text x="250" y="250" text-anchor="middle" font-size="10" fill="#4A148C" font-weight="bold">Гены, локализованные в одной хромосоме, наследуются совместно</text>
+  <text x="250" y="264" text-anchor="middle" font-size="9" fill="#6A1B9A">(сцепленно), образуя группу сцепления</text>
+
+  <!-- Comparison -->
+  <rect x="20" y="275" width="225" height="58" rx="4" fill="#EDE7F6" stroke="#9C27B0" stroke-width="0.8"/>
+  <text x="133" y="291" text-anchor="middle" font-size="10" font-weight="bold" fill="#4A148C">Несцепленные гены</text>
+  <text x="133" y="305" text-anchor="middle" font-size="9" fill="#6A1B9A">Разные хромосомы</text>
+  <text x="133" y="318" text-anchor="middle" font-size="9" fill="#6A1B9A">Независимое расщепление</text>
+  <text x="133" y="330" text-anchor="middle" font-size="9" fill="#4A148C" font-weight="bold">9:3:3:1</text>
+
+  <rect x="255" y="275" width="225" height="58" rx="4" fill="#D1C4E9" stroke="#7B1FA2" stroke-width="0.8"/>
+  <text x="368" y="291" text-anchor="middle" font-size="10" font-weight="bold" fill="#4A148C">Сцепленные гены</text>
+  <text x="368" y="305" text-anchor="middle" font-size="9" fill="#6A1B9A">Одна хромосома</text>
+  <text x="368" y="318" text-anchor="middle" font-size="9" fill="#6A1B9A">Совместное наследование</text>
+  <text x="368" y="330" text-anchor="middle" font-size="9" fill="#4A148C" font-weight="bold">+ кроссинговер</text>
+</svg>

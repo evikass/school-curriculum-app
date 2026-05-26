@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#E8F5E9"/>
+<!-- NN vs H rules -->
+<text x="250" y="35" font-family="sans-serif" font-size="16" fill="#1B5E20" text-anchor="middle" font-weight="bold">Правописание Н и НН в причастиях</text>
+<!-- NN column -->
+<rect x="30" y="55" width="210" height="150" rx="8" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1.5"/>
+<text x="135" y="80" font-family="sans-serif" font-size="14" fill="#1B5E20" text-anchor="middle" font-weight="bold">НН</text>
+<text x="50" y="105" font-family="sans-serif" font-size="11" fill="#2E7D32">• от глагола на -овать:</text>
+<text x="60" y="120" font-family="serif" font-size="12" fill="#1B5E20">рисованный</text>
+<text x="50" y="142" font-family="sans-serif" font-size="11" fill="#2E7D32">• есть приставка:</text>
+<text x="60" y="157" font-family="serif" font-size="12" fill="#1B5E20">выкрашенный</text>
+<text x="50" y="179" font-family="sans-serif" font-size="11" fill="#2E7D32">• есть зависимое слово:</text>
+<text x="60" y="194" font-family="serif" font-size="12" fill="#1B5E20">крашенный краской</text>
+<!-- H column -->
+<rect x="260" y="55" width="210" height="150" rx="8" fill="#FFCDD2" opacity="0.5" stroke="#C62828" stroke-width="1.5"/>
+<text x="365" y="80" font-family="sans-serif" font-size="14" fill="#B71C1C" text-anchor="middle" font-weight="bold">Н</text>
+<text x="280" y="105" font-family="sans-serif" font-size="11" fill="#C62828">• нет приставки:</text>
+<text x="290" y="120" font-family="serif" font-size="12" fill="#B71C1C">крашеный</text>
+<text x="280" y="142" font-family="sans-serif" font-size="11" fill="#C62828">• нет -ова-/-ева-:</text>
+<text x="290" y="157" font-family="serif" font-size="12" fill="#B71C1C">раненый</text>
+<text x="280" y="179" font-family="sans-serif" font-size="11" fill="#C62828">• нет зависимого слова:</text>
+<text x="290" y="194" font-family="serif" font-size="12" fill="#B71C1C">печёный пирог</text>
+<!-- Vowels in suffixes -->
+<rect x="50" y="225" width="400" height="85" rx="8" fill="#FFF9C4" stroke="#F9A825" stroke-width="1"/>
+<text x="250" y="248" font-family="sans-serif" font-size="13" fill="#E65100" text-anchor="middle" font-weight="bold">Гласные в суффиксах</text>
+<text x="80" y="270" font-family="monospace" font-size="12" fill="#F57F17">-ущ-/-ющ-  (наст. время)</text>
+<text x="300" y="270" font-family="serif" font-size="11" fill="#E65100">читающий</text>
+<text x="80" y="290" font-family="monospace" font-size="12" fill="#F57F17">-аш-/-ящ-  (наст. время)</text>
+<text x="300" y="290" font-family="serif" font-size="11" fill="#E65100">дышащий</text>
+<text x="80" y="305" font-family="monospace" font-size="12" fill="#F57F17">-енн-/-нн-  (прош. время)</text>
+<text x="300" y="305" font-family="serif" font-size="11" fill="#E65100">сделанный</text>
+<text x="250" y="345" font-family="sans-serif" font-size="9" fill="#1B5E20" opacity="0.5" text-anchor="middle">Правописание причастий</text>
+</svg>

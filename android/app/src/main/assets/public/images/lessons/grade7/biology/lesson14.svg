@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Насекомые</text>
+<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 7 класс — Урок 14</text>
+<line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+
+<g transform="translate(250,175)">
+<ellipse cx="-48" cy="0" rx="13" ry="10" fill="#8D6E63" stroke="#3E2723" stroke-width="2"/>
+<ellipse cx="-52" cy="-5" rx="5" ry="4" fill="#FFD54F" stroke="#333" stroke-width="0.8"/>
+<ellipse cx="-52" cy="5" rx="5" ry="4" fill="#FFD54F" stroke="#333" stroke-width="0.8"/>
+<path d="M-57,-7 Q-68,-18 -64,-26" stroke="#5D4037" stroke-width="1.5" fill="none"/>
+<path d="M-57,7 Q-68,18 -64,26" stroke="#5D4037" stroke-width="1.5" fill="none"/>
+<ellipse cx="-25" cy="0" rx="10" ry="12" fill="#A1887F" stroke="#3E2723" stroke-width="1.5"/>
+<path d="M-15,-12 L35,-10 L35,0 L-15,0Z" fill="#6D4C41" stroke="#3E2723" stroke-width="1.5"/>
+<path d="M-15,0 L35,0 L35,10 L-15,12Z" fill="#795548" stroke="#3E2723" stroke-width="1.5"/>
+<line x1="-15" y1="0" x2="35" y2="0" stroke="#3E2723" stroke-width="0.8"/>
+<ellipse cx="40" cy="0" rx="7" ry="9" fill="#A1887F" stroke="#3E2723" stroke-width="1"/>
+<path d="M-27,-10 L-34,-20 L-30,-26" stroke="#5D4037" stroke-width="1.5" fill="none"/>
+<path d="M-24,-12 L-26,-24 L-22,-28" stroke="#5D4037" stroke-width="1.5" fill="none"/>
+<path d="M-20,-12 L-16,-24 L-12,-28" stroke="#5D4037" stroke-width="1.5" fill="none"/>
+<path d="M-27,10 L-34,20 L-30,26" stroke="#5D4037" stroke-width="1.5" fill="none"/>
+<path d="M-24,12 L-26,24 L-22,28" stroke="#5D4037" stroke-width="1.5" fill="none"/>
+<path d="M-20,12 L-16,24 L-12,28" stroke="#5D4037" stroke-width="1.5" fill="none"/>
+</g>
+<rect x="50" y="68" width="400" height="18" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
+<text x="155" y="81" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">Голова</text>
+<text x="250" y="81" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">Грудь</text>
+<text x="370" y="81" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">Брюшко</text>
+<rect x="30" y="280" width="440" height="30" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
+<text x="250" y="294" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">3 отдела: голова, грудь, брюшко | 3 пары ног | 1-2 пары крыльев</text>
+<text x="250" y="306" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Фасеточные глаза | Усики | Трахеи | Мальпигиевы сосуды | Самый многочисленный класс</text>
+
+<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 7 класс</text>
+</svg>

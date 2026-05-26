@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EFEBE9"/>
+      <stop offset="100%" stop-color="#D7CCC8"/>
+    </linearGradient>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#E0F7FA"/>
+    </linearGradient>
+    <linearGradient id="groundGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#81C784"/>
+      <stop offset="100%" stop-color="#4CAF50"/>
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#42A5F5"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+    <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF9C4"/>
+      <stop offset="60%" stop-color="#FDD835"/>
+      <stop offset="100%" stop-color="#F9A825"/>
+    </radialGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="3" stdDeviation="5" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="500" height="260" fill="#FFF8E1"/>
+  <path d="M0,225 Q125,210 250,220 Q375,232 500,215 L500,350 L0,350 Z" fill="#8D6E63" opacity="0.25"/>
+  <g transform="translate(40,25)" filter="url(#softShadow)">
+    <rect width="420" height="200" rx="12" fill="white" opacity="0.94"/>
+    <rect width="420" height="28" rx="12" fill="#8D6E63" opacity="0.9"/>
+    <rect y="20" width="420" height="8" fill="#8D6E63" opacity="0.9"/>
+    <text x="210" y="19" font-family="Arial" font-size="12" fill="white" text-anchor="middle" font-weight="bold">КНЯЗЬ ВЛАДИМИР</text>
+    <g transform="translate(20,40)">
+      <rect width="380" height="55" rx="6" fill="#FFF8E1" opacity="0.5" stroke="#8D6E63" stroke-width="1.5"/>
+      <text x="190" y="25" font-family="Arial" font-size="14" fill="#5D4037" text-anchor="middle" font-weight="bold">Крестил Русь в 988 году</text>
+    </g>
+    <g transform="translate(20,110)">
+      <rect width="380" height="75" rx="6" fill="white" stroke="#1565C0" stroke-width="1"/>
+      <rect width="380" height="22" rx="6" fill="#1565C0" opacity="0.85"/>
+      <rect y="16" width="380" height="6" fill="#1565C0" opacity="0.85"/>
+      <text x="190" y="16" font-family="Arial" font-size="9" fill="white" text-anchor="middle" font-weight="bold">ИСТОРИЧЕСКИЙ ФАКТ</text>
+      <text x="190" y="48" font-family="Arial" font-size="10" fill="#5D4037" text-anchor="middle">Крестил Русь в 988 году</text>
+    </g>
+  </g>
+  <rect x="0" y="318" width="500" height="32" rx="0" fill="#8D6E63" opacity="0.9"/>
+  <text x="250" y="339" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Князь Владимир</text>
+</svg>

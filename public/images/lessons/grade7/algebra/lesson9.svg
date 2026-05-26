@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#E3F2FD"/>
+<!-- Monomial blocks -->
+<rect x="30" y="40" width="130" height="55" rx="8" fill="#1565C0"/>
+<text x="95" y="72" font-family="monospace" font-size="20" fill="white" text-anchor="middle">3x²y</text>
+<text x="95" y="110" font-family="sans-serif" font-size="10" fill="#1565C0" text-anchor="middle">одночлен</text>
+<!-- Another monomial -->
+<rect x="185" y="40" width="130" height="55" rx="8" fill="#1976D2"/>
+<text x="250" y="72" font-family="monospace" font-size="20" fill="white" text-anchor="middle">−5xy³</text>
+<text x="250" y="110" font-family="sans-serif" font-size="10" fill="#1976D2" text-anchor="middle">одночлен</text>
+<!-- Polynomial -->
+<rect x="340" y="40" width="140" height="55" rx="8" fill="#0D47A1"/>
+<text x="410" y="72" font-family="monospace" font-size="17" fill="white" text-anchor="middle">3x²−5xy³</text>
+<text x="410" y="110" font-family="sans-serif" font-size="10" fill="#0D47A1" text-anchor="middle">многочлен</text>
+<!-- Plus sign -->
+<text x="170" y="72" font-family="sans-serif" font-size="24" fill="#0D47A1">+</text>
+<!-- Arrow -->
+<path d="M320 67 L340 67" stroke="#0D47A1" stroke-width="2" fill="none" marker-end="url(#a1)"/>
+<defs><marker id="a1" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto"><path d="M0,0 L6,2 L0,4" fill="#0D47A1"/></marker></defs>
+<!-- Standard form -->
+<rect x="40" y="130" width="420" height="50" rx="8" fill="#BBDEFB"/>
+<text x="60" y="160" font-family="monospace" font-size="16" fill="#0D47A1">Стандартный вид: 7a³b²</text>
+<text x="310" y="160" font-family="sans-serif" font-size="12" fill="#1565C0">коэфф.·буквы</text>
+<!-- Degree of monomial -->
+<rect x="40" y="195" width="420" height="50" rx="8" fill="#BBDEFB" opacity="0.7"/>
+<text x="60" y="220" font-family="monospace" font-size="14" fill="#0D47A1">Степень: 3x²y → 2 + 1 = 3</text>
+<text x="310" y="220" font-family="sans-serif" font-size="12" fill="#1565C0">сумма показателей</text>
+<!-- Similar terms -->
+<text x="250" y="275" font-family="sans-serif" font-size="14" fill="#0D47A1" text-anchor="middle" font-weight="bold">Подобные одночлены</text>
+<rect x="60" y="285" width="140" height="35" rx="6" fill="#42A5F5" opacity="0.3"/>
+<text x="130" y="308" font-family="monospace" font-size="16" fill="#0D47A1" text-anchor="middle">3x²y</text>
+<rect x="220" y="285" width="140" height="35" rx="6" fill="#42A5F5" opacity="0.3"/>
+<text x="290" y="308" font-family="monospace" font-size="16" fill="#0D47A1" text-anchor="middle">−7x²y</text>
+<text x="203" y="308" font-family="sans-serif" font-size="16" fill="#0D47A1">~</text>
+<text x="250" y="345" font-family="sans-serif" font-size="9" fill="#0D47A1" opacity="0.5" text-anchor="middle">Одночлены и многочлены</text>
+</svg>

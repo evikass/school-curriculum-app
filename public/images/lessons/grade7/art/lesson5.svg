@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#1a1a0a"/>
+<polygon points="250,20 180,80 320,80" fill="#C9A84C" stroke="#8B6914" stroke-width="1"/>
+<rect x="180" y="80" width="140" height="100" fill="#D4C090" stroke="#8B6914" stroke-width="1"/>
+<rect x="210" y="95" width="80" height="70" fill="#1a1a0a" rx="2"/>
+<circle cx="250" cy="110" r="15" fill="#C9A84C" opacity="0.6"/>
+<circle cx="250" cy="110" r="12" fill="#D4A84C" opacity="0.4"/>
+<rect x="240" y="100" width="20" height="25" fill="#8B7355" rx="1" opacity="0.7"/>
+<ellipse cx="250" cy="130" rx="8" ry="3" fill="#C9A84C" opacity="0.5"/>
+<rect x="185" y="185" width="130" height="8" fill="#8B6914"/>
+<circle cx="200" cy="50" r="3" fill="#C9A84C" opacity="0.8"/>
+<circle cx="250" cy="35" r="3" fill="#C9A84C" opacity="0.8"/>
+<circle cx="300" cy="50" r="3" fill="#C9A84C" opacity="0.8"/>
+<rect x="50" y="40" width="90" height="130" fill="#3a2a1a" rx="3" stroke="#8B6914" stroke-width="1.5"/>
+<rect x="58" y="48" width="74" height="100" fill="#1a1a0a"/>
+<rect x="65" y="55" width="60" height="86" fill="#D4A84C" opacity="0.15"/>
+<circle cx="95" cy="80" r="15" fill="#C9A84C" opacity="0.5"/>
+<circle cx="95" cy="80" r="12" fill="#DAA520" opacity="0.3"/>
+<rect x="87" y="75" width="16" height="20" fill="#6a5a3a" rx="1" opacity="0.6"/>
+<ellipse cx="95" cy="100" rx="6" ry="2" fill="#C9A84C" opacity="0.4"/>
+<text x="95" y="108" font-family="Arial" font-size="5" fill="#C9A84C" text-anchor="middle" opacity="0.6">МРЪ</text>
+<rect x="360" y="50" width="110" height="130" fill="#4a3a2a" rx="2" stroke="#6a5a3a" stroke-width="1"/>
+<rect x="368" y="58" width="94" height="114" fill="#D4A060" opacity="0.2"/>
+<path d="M390,80 L390,150" stroke="#8B6914" stroke-width="1" opacity="0.4"/>
+<path d="M410,70 L410,150" stroke="#8B6914" stroke-width="1" opacity="0.4"/>
+<path d="M430,75 L430,150" stroke="#8B6914" stroke-width="1" opacity="0.4"/>
+<path d="M450,80 L450,150" stroke="#8B6914" stroke-width="1" opacity="0.4"/>
+<ellipse cx="420" cy="130" rx="30" ry="20" fill="#8B4513" opacity="0.3"/>
+<circle cx="415" cy="120" r="8" fill="#C9A84C" opacity="0.3"/>
+<circle cx="425" cy="118" r="8" fill="#DAA520" opacity="0.3"/>
+<text x="250" y="220" font-family="Arial" font-size="9" fill="#C9A84C" text-anchor="middle" opacity="0.7">Древнерусское искусство</text>
+<rect x="100" y="240" width="300" height="60" fill="#2a2a1a" rx="4" stroke="#5a4a2a" stroke-width="0.5"/>
+<text x="250" y="260" font-family="Arial" font-size="8" fill="#AA8844" text-anchor="middle">Икона • Фреска • Мозаика • Зодчество</text>
+<text x="250" y="280" font-family="Arial" font-size="7" fill="#886633" text-anchor="middle">Традиции византийской и русской культуры</text>
+<text x="250" y="342" font-family="Arial" font-size="9" fill="#AA8844" text-anchor="middle" opacity="0.5">Древнерусское искусство и иконопись</text>
+</svg>

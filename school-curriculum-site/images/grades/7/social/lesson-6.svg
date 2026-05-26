@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#78350F"/>
+    <stop offset="100%" style="stop-color:#B45309"/>
+  </linearGradient>
+  <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#D97706"/>
+    <stop offset="100%" style="stop-color:#F59E0B"/>
+  </linearGradient>
+  <linearGradient id="pyramidGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+    <stop offset="0%" style="stop-color:#92400E"/>
+    <stop offset="50%" style="stop-color:#F59E0B"/>
+    <stop offset="100%" style="stop-color:#FBBF24"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="800" height="600" fill="url(#bg)"/>
+<rect x="0" y="0" width="800" height="70" fill="url(#bg)" rx="8"/>
+<circle cx="40" cy="35" r="22" fill="#D97706" stroke="#F59E0B" stroke-width="2"/>
+<text x="40" y="42" fill="#FFFFFF" font-size="18" text-anchor="middle" font-family="sans-serif" font-weight="bold">6</text>
+<text x="72" y="32" fill="#FFFFFF" font-size="22" text-anchor="start" font-family="sans-serif" font-weight="bold">Общение и его виды</text>
+<text x="72" y="52" fill="#FCD34D" font-size="13" text-anchor="start" font-family="sans-serif" font-weight="normal">Вербальное и невербальное, функции общения</text>
+<rect x="0" y="68" width="800" height="2" fill="#F59E0B" rx="8"/>
+<rect x="20" y="80" width="370" height="200" fill="#1C1917" rx="8" stroke="#D97706" stroke-width="1"/>
+<text x="35" y="102" fill="#F59E0B" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Что такое общение?</text>
+<rect x="35" y="118" width="80" height="35" fill="#292524" rx="6" stroke="#4ADE80" stroke-width="1"/>
+<text x="75" y="140" fill="#4ADE80" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="bold">Отправитель</text>
+<line x1="115" y1="135" x2="175" y2="135" stroke="#FBBF24" stroke-width="2"/>
+<polygon points="175,135,167.0,139.0,167.0,131.0" fill="#FBBF24"/>
+<rect x="175" y="118" width="100" height="35" fill="#292524" rx="6" stroke="#FBBF24" stroke-width="1"/>
+<text x="225" y="140" fill="#FBBF24" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="bold">Сообщение</text>
+<line x1="275" y1="135" x2="335" y2="135" stroke="#F59E0B" stroke-width="2"/>
+<polygon points="335,135,327.0,139.0,327.0,131.0" fill="#F59E0B"/>
+<rect x="280" y="118" width="95" height="35" fill="#292524" rx="6" stroke="#60A5FA" stroke-width="1"/>
+<text x="327" y="140" fill="#60A5FA" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="bold">Получатель</text>
+<line x1="327" y1="160" x2="75" y2="160" stroke="#C084FC" stroke-width="1"/>
+<polygon points="75,160,83.0,156.0,83.0,164.0" fill="#C084FC"/>
+<text x="200" y="174" fill="#C084FC" font-size="9" text-anchor="middle" font-family="sans-serif" font-weight="normal">Обратная связь</text>
+<rect x="35" y="188" width="340" height="80" fill="#292524" rx="6"/>
+<text x="45" y="206" fill="#FEF3C7" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">Общение — процесс обмена</text>
+<text x="45" y="222" fill="#FEF3C7" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">информацией, чувствами, мыслями</text>
+<text x="45" y="244" fill="#FBBF24" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">между людьми.</text>
+<rect x="400" y="80" width="380" height="200" fill="#1C1917" rx="8" stroke="#D97706" stroke-width="1"/>
+<text x="415" y="102" fill="#F59E0B" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Виды общения</text>
+<rect x="415" y="118" width="170" height="65" fill="#292524" rx="6" stroke="#4ADE80" stroke-width="1"/>
+<text x="500" y="140" fill="#4ADE80" font-size="12" text-anchor="middle" font-family="sans-serif" font-weight="bold">Вербальное</text>
+<text x="500" y="158" fill="#FEF3C7" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="normal">Речь, слова</text>
+<text x="500" y="172" fill="#FEF3C7" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="normal">текст, письмо</text>
+<rect x="595" y="118" width="170" height="65" fill="#292524" rx="6" stroke="#FB923C" stroke-width="1"/>
+<text x="680" y="140" fill="#FB923C" font-size="12" text-anchor="middle" font-family="sans-serif" font-weight="bold">Невербальное</text>
+<text x="680" y="158" fill="#FEF3C7" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="normal">Жесты, мимика</text>
+<text x="680" y="172" fill="#FEF3C7" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="normal">поза, взгляд</text>
+<rect x="415" y="195" width="170" height="55" fill="#292524" rx="6" stroke="#60A5FA" stroke-width="1"/>
+<text x="500" y="215" fill="#60A5FA" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Формальное</text>
+<text x="500" y="232" fill="#FEF3C7" font-size="9" text-anchor="middle" font-family="sans-serif" font-weight="normal">Деловое, официальное</text>
+<rect x="595" y="195" width="170" height="55" fill="#292524" rx="6" stroke="#C084FC" stroke-width="1"/>
+<text x="680" y="215" fill="#C084FC" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Неформальное</text>
+<text x="680" y="232" fill="#FEF3C7" font-size="9" text-anchor="middle" font-family="sans-serif" font-weight="normal">Личное, дружеское</text>
+<rect x="20" y="290" width="760" height="280" fill="#1C1917" rx="8" stroke="#D97706" stroke-width="1"/>
+<text x="35" y="312" fill="#F59E0B" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Функции общения</text>
+<rect x="35" y="330" width="360" height="42" fill="#292524" rx="6" stroke="#60A5FA" stroke-width="1"/>
+<circle cx="55" cy="351" r="10" fill="#60A5FA"/>
+<text x="55" y="355" fill="#1C1917" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="bold">1</text>
+<text x="73" y="346" fill="#60A5FA" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Информационная</text>
+<text x="73" y="362" fill="#FEF3C7" font-size="9" text-anchor="start" font-family="sans-serif" font-weight="normal">Обмен знаниями и сведениями</text>
+<rect x="410" y="330" width="360" height="42" fill="#292524" rx="6" stroke="#4ADE80" stroke-width="1"/>
+<circle cx="430" cy="351" r="10" fill="#4ADE80"/>
+<text x="430" y="355" fill="#1C1917" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="bold">2</text>
+<text x="448" y="346" fill="#4ADE80" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Коммуникативная</text>
+<text x="448" y="362" fill="#FEF3C7" font-size="9" text-anchor="start" font-family="sans-serif" font-weight="normal">Передача мыслей и чувств</text>
+<rect x="35" y="380" width="360" height="42" fill="#292524" rx="6" stroke="#FB923C" stroke-width="1"/>
+<circle cx="55" cy="401" r="10" fill="#FB923C"/>
+<text x="55" y="405" fill="#1C1917" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="bold">3</text>
+<text x="73" y="396" fill="#FB923C" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Интерактивная</text>
+<text x="73" y="412" fill="#FEF3C7" font-size="9" text-anchor="start" font-family="sans-serif" font-weight="normal">Организация взаимодействия</text>
+<rect x="410" y="380" width="360" height="42" fill="#292524" rx="6" stroke="#C084FC" stroke-width="1"/>
+<circle cx="430" cy="401" r="10" fill="#C084FC"/>
+<text x="430" y="405" fill="#1C1917" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="bold">4</text>
+<text x="448" y="396" fill="#C084FC" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Перцептивная</text>
+<text x="448" y="412" fill="#FEF3C7" font-size="9" text-anchor="start" font-family="sans-serif" font-weight="normal">Взаимное восприятие людей</text>
+<rect x="35" y="430" width="360" height="42" fill="#292524" rx="6" stroke="#F87171" stroke-width="1"/>
+<circle cx="55" cy="451" r="10" fill="#F87171"/>
+<text x="55" y="455" fill="#1C1917" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="bold">5</text>
+<text x="73" y="446" fill="#F87171" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Эмоциональная</text>
+<text x="73" y="462" fill="#FEF3C7" font-size="9" text-anchor="start" font-family="sans-serif" font-weight="normal">Обмен чувствами и переживаниями</text>
+<rect x="410" y="430" width="360" height="42" fill="#292524" rx="6" stroke="#FBBF24" stroke-width="1"/>
+<circle cx="430" cy="451" r="10" fill="#FBBF24"/>
+<text x="430" y="455" fill="#1C1917" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="bold">6</text>
+<text x="448" y="446" fill="#FBBF24" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Социальная</text>
+<text x="448" y="462" fill="#FEF3C7" font-size="9" text-anchor="start" font-family="sans-serif" font-weight="normal">Формирование отношений, социализация</text>
+<rect x="35" y="490" width="730" height="65" fill="#292524" rx="6" stroke="#FBBF24" stroke-width="1"/>
+<text x="45" y="510" fill="#FBBF24" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Стили общения:</text>
+<rect x="160" y="502" width="86" height="20" fill="#F87171" rx="10"/>
+<text x="203.0" y="516" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Ритуальный</text>
+<rect x="260" y="502" width="114" height="20" fill="#FB923C" rx="10"/>
+<text x="317.0" y="516" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Манипулятивный</text>
+<rect x="380" y="502" width="121" height="20" fill="#4ADE80" rx="10"/>
+<text x="440.5" y="516" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">Гуманистический</text>
+<text x="45" y="535" fill="#FEF3C7" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">Гуманистический стиль — самый конструктивный, основан на уважении и понимании</text>
+<rect x="0" y="570" width="800" height="30" fill="url(#bg)" rx="8"/>
+<text x="400.0" y="590" fill="#FCD34D" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="normal">Обществознание · 7 класс</text>
+</svg>

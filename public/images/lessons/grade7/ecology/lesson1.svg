@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#E8F5E9"/>
+<defs><radialGradient id="glow" cx="50%" cy="50%"><stop offset="0%" stop-color="#C8E6C9"/><stop offset="100%" stop-color="#E8F5E9"/></radialGradient></defs>
+<circle cx="250" cy="170" r="110" fill="url(#glow)" stroke="#4CAF50" stroke-width="2"/>
+<circle cx="250" cy="170" r="90" fill="#A5D6A7" stroke="#388E3C" stroke-width="1.5" opacity="0.5"/>
+<path d="M220,120 Q230,100 250,95 Q270,100 280,120 Q275,130 260,135 Q240,135 225,125 Z" fill="#4CAF50" stroke="#2E7D32" stroke-width="1"/>
+<ellipse cx="225" cy="200" rx="15" ry="10" fill="#8D6E63" stroke="#6D4C41" stroke-width="1"/>
+<circle cx="225" cy="190" r="8" fill="#A1887F"/>
+<circle cx="280" cy="195" rx="10" fill="none" stroke="#1565C0" stroke-width="1.5"/>
+<path d="M280,188 L280,202 M273,195 L287,195" stroke="#1565C0" stroke-width="1.5"/>
+<text x="250" y="145" font-size="7" fill="#1B5E20" text-anchor="middle">лес</text>
+<text x="225" y="220" font-size="6" fill="#5D4037" text-anchor="middle">заяц</text>
+<text x="280" y="215" font-size="6" fill="#1565C0" text-anchor="middle">рыба</text>
+<path d="M200,160 Q185,155 180,145 Q175,135 180,125" fill="none" stroke="#FF8F00" stroke-width="2"/>
+<ellipse cx="178" cy="122" rx="8" ry="10" fill="#FFB74D" stroke="#FF8F00" stroke-width="1" transform="rotate(-20,178,122)"/>
+<text x="160" y="140" font-size="6" fill="#E65100">солнце</text>
+<circle cx="460" cy="80" r="35" fill="none" stroke="#388E3C" stroke-width="2"/>
+<line x1="460" y1="45" x2="460" y2="115" stroke="#388E3C" stroke-width="1"/>
+<line x1="425" y1="80" x2="495" y2="80" stroke="#388E3C" stroke-width="1"/>
+<line x1="435" y1="55" x2="485" y2="105" stroke="#388E3C" stroke-width="1"/>
+<line x1="485" y1="55" x2="435" y2="105" stroke="#388E3C" stroke-width="1"/>
+<text x="460" y="78" font-size="6" fill="#2E7D32" text-anchor="middle">ЭКО</text>
+<text x="460" y="88" font-size="6" fill="#2E7D32" text-anchor="middle">ЛОГИЯ</text>
+<rect x="30" y="260" width="440" height="60" rx="6" fill="#FFF" stroke="#4CAF50" stroke-width="1"/>
+<text x="250" y="280" font-size="9" fill="#2E7D32" text-anchor="middle" font-weight="bold">Экология — наука о связях организмов с окружающей средой</text>
+<text x="250" y="298" font-size="8" fill="#388E3C" text-anchor="middle">Эко (греч.) — дом, жилище + логос — наука</text>
+<text x="250" y="312" font-size="7" fill="#66BB6A" text-anchor="middle">Изучает: экосистемы, пищевые цепи, круговорот веществ</text>
+<text x="250" y="345" font-size="9" fill="#666" text-anchor="middle" opacity="0.5">Предмет экологии</text>
+</svg>

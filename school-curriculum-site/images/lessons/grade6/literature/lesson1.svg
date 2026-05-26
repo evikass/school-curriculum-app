@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <!-- Bauhaus corners -->
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <!-- Bauhaus circles -->
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <!-- Title -->
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Мифы Древней Греции</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Литература - Урок 1</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Card 1: Greek Temple -->
+  <rect x="25" y="90" width="145" height="130" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5" opacity="0.9"/>
+  <text x="97" y="104" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" font-weight="bold" text-anchor="middle">ХРАМ ЗЕВСА</text>
+  <!-- Pediment (triangle roof) -->
+  <polygon points="55,118 97,98 139,118" fill="#FFCC80" stroke="#C62828" stroke-width="1.5"/>
+  <!-- Frieze line -->
+  <rect x="55" y="118" width="84" height="5" fill="#FFCC80" stroke="#C62828" stroke-width="1"/>
+  <!-- Columns -->
+  <rect x="62" y="123" width="6" height="55" fill="#FFCC80" stroke="#C62828" stroke-width="0.8"/>
+  <rect x="76" y="123" width="6" height="55" fill="#FFCC80" stroke="#C62828" stroke-width="0.8"/>
+  <rect x="90" y="123" width="6" height="55" fill="#FFCC80" stroke="#C62828" stroke-width="0.8"/>
+  <rect x="104" y="123" width="6" height="55" fill="#FFCC80" stroke="#C62828" stroke-width="0.8"/>
+  <rect x="118" y="123" width="6" height="55" fill="#FFCC80" stroke="#C62828" stroke-width="0.8"/>
+  <!-- Base -->
+  <rect x="55" y="178" width="84" height="6" fill="#FFCC80" stroke="#C62828" stroke-width="1"/>
+  <!-- Steps -->
+  <rect x="50" y="184" width="94" height="4" fill="#E0E0E0" stroke="#C62828" stroke-width="0.5"/>
+  <rect x="45" y="188" width="104" height="4" fill="#BDBDBD" stroke="#C62828" stroke-width="0.5"/>
+  <!-- Zeus symbol on pediment -->
+  <circle cx="97" cy="112" r="5" fill="#F9A825" opacity="0.7"/>
+  <text x="97" y="115" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" font-weight="bold">Z</text>
+
+  <!-- Card 2: Zeus with Thunderbolt -->
+  <rect x="182" y="90" width="145" height="130" rx="6" fill="white" stroke="#C62828" stroke-width="1.5" opacity="0.9"/>
+  <text x="254" y="104" font-family="Arial,sans-serif" font-size="8" fill="#C62828" font-weight="bold" text-anchor="middle">ЗЕВС-ГРОМОВЕРЖЕЦ</text>
+  <!-- Zeus figure - simplified geometric -->
+  <!-- Body/Toga -->
+  <path d="M240,130 Q235,145 230,170 L278,170 Q273,145 268,130 Z" fill="#FFCC80" stroke="#C62828" stroke-width="1.2"/>
+  <!-- Head -->
+  <circle cx="254" cy="120" r="12" fill="#FFCC80" stroke="#C62828" stroke-width="1.2"/>
+  <!-- Crown/wreath -->
+  <path d="M244,113 Q248,108 254,110 Q260,108 264,113" stroke="#2E7D32" stroke-width="1.5" fill="none"/>
+  <circle cx="248" cy="112" r="2" fill="#2E7D32"/>
+  <circle cx="254" cy="109" r="2" fill="#2E7D32"/>
+  <circle cx="260" cy="112" r="2" fill="#2E7D32"/>
+  <!-- Eyes -->
+  <circle cx="250" cy="119" r="1.5" fill="#C62828"/>
+  <circle cx="258" cy="119" r="1.5" fill="#C62828"/>
+  <!-- Beard -->
+  <path d="M248,124 Q254,132 260,124" stroke="#C62828" stroke-width="1" fill="none"/>
+  <!-- Right arm raised with thunderbolt -->
+  <line x1="268" y1="135" x2="290" y2="115" stroke="#C62828" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Thunderbolt -->
+  <polygon points="288,108 295,118 290,118 296,128 287,122 292,122 285,112" fill="#F9A825" stroke="#E65100" stroke-width="0.8"/>
+  <!-- Left hand with scepter -->
+  <line x1="240" y1="140" x2="225" y2="165" stroke="#C62828" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="225" y1="165" x2="225" y2="200" stroke="#F9A825" stroke-width="3" stroke-linecap="round"/>
+  <!-- Lightning flash -->
+  <line x1="290" y1="110" x2="298" y2="100" stroke="#F9A825" stroke-width="1" opacity="0.5"/>
+  <line x1="292" y1="115" x2="300" y2="108" stroke="#F9A825" stroke-width="1" opacity="0.5"/>
+  <text x="254" y="210" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">верховный бог Олимпа</text>
+
+  <!-- Card 3: Greek Vase -->
+  <rect x="339" y="90" width="135" height="130" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5" opacity="0.9"/>
+  <text x="406" y="104" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" font-weight="bold" text-anchor="middle">ГРЕЧЕСКАЯ ВАЗА</text>
+  <!-- Vase body -->
+  <path d="M385,115 Q380,120 378,130 Q376,150 380,170 Q385,185 406,188 Q427,185 432,170 Q436,150 434,130 Q432,120 427,115 Z" fill="#FFCC80" stroke="#C62828" stroke-width="1.5"/>
+  <!-- Neck -->
+  <rect x="395" y="108" width="22" height="10" fill="#FFCC80" stroke="#C62828" stroke-width="1"/>
+  <!-- Rim -->
+  <ellipse cx="406" cy="108" rx="14" ry="3" fill="#FFCC80" stroke="#C62828" stroke-width="1"/>
+  <!-- Handles -->
+  <path d="M378,135 Q368,140 378,150" stroke="#C62828" stroke-width="2" fill="none"/>
+  <path d="M434,135 Q444,140 434,150" stroke="#C62828" stroke-width="2" fill="none"/>
+  <!-- Base -->
+  <rect x="394" y="185" width="24" height="4" fill="#FFCC80" stroke="#C62828" stroke-width="0.8"/>
+  <!-- Decorative bands -->
+  <line x1="380" y1="130" x2="432" y2="130" stroke="#C62828" stroke-width="1" opacity="0.5"/>
+  <line x1="379" y1="170" x2="433" y2="170" stroke="#C62828" stroke-width="1" opacity="0.5"/>
+  <!-- Greek key pattern (meander) -->
+  <path d="M384,125 L390,125 L390,128 L387,128 L387,130 L393,130 L393,127 L396,127 L396,130 L402,130 L402,127 L405,127 L405,130 L411,130 L411,127 L414,127 L414,130 L420,130 L420,127 L423,127 L423,130 L428,130 L428,125" stroke="#C62828" stroke-width="0.6" fill="none" opacity="0.6"/>
+  <!-- Figure on vase -->
+  <circle cx="406" cy="148" r="6" fill="#C62828" opacity="0.3"/>
+  <path d="M406,154 L406,165" stroke="#C62828" stroke-width="1.2" opacity="0.4"/>
+  <line x1="400" y1="158" x2="412" y2="158" stroke="#C62828" stroke-width="1.2" opacity="0.4"/>
+  <!-- Greek omega motif -->
+  <text x="406" y="195" font-family="Arial,sans-serif" font-size="9" fill="#C62828" text-anchor="middle" opacity="0.3">OMEGA</text>
+
+  <!-- Card 4: Olympian gods symbols -->
+  <rect x="25" y="228" width="200" height="70" rx="6" fill="white" stroke="#F9A825" stroke-width="1.5" opacity="0.9"/>
+  <text x="125" y="242" font-family="Arial,sans-serif" font-size="8" fill="#F57F17" font-weight="bold" text-anchor="middle">СИМВОЛЫ БОГОВ ОЛИМПА</text>
+  <!-- Trident (Poseidon) -->
+  <line x1="55" y1="255" x2="55" y2="285" stroke="#1565C0" stroke-width="2.5"/>
+  <line x1="47" y1="255" x2="63" y2="255" stroke="#1565C0" stroke-width="2"/>
+  <line x1="55" y1="250" x2="55" y2="255" stroke="#1565C0" stroke-width="2"/>
+  <text x="55" y="293" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">Посейдон</text>
+  <!-- Owl (Athena) -->
+  <circle cx="105" cy="267" r="8" fill="#FFCC80" stroke="#C62828" stroke-width="1"/>
+  <circle cx="102" cy="265" r="2" fill="#C62828"/>
+  <circle cx="108" cy="265" r="2" fill="#C62828"/>
+  <polygon points="100,270 105,273 110,270" fill="#F9A825"/>
+  <path d="M97,262 L105,256 L113,262" stroke="#C62828" stroke-width="1" fill="#FFCC80"/>
+  <text x="105" y="293" font-family="Arial,sans-serif" font-size="6" fill="#C62828" text-anchor="middle">Афина</text>
+  <!-- Sun (Apollo) -->
+  <circle cx="155" cy="267" r="8" fill="#F9A825" stroke="#E65100" stroke-width="1"/>
+  <line x1="155" y1="255" x2="155" y2="250" stroke="#F9A825" stroke-width="1.5"/>
+  <line x1="155" y1="279" x2="155" y2="284" stroke="#F9A825" stroke-width="1.5"/>
+  <line x1="143" y1="267" x2="138" y2="267" stroke="#F9A825" stroke-width="1.5"/>
+  <line x1="167" y1="267" x2="172" y2="267" stroke="#F9A825" stroke-width="1.5"/>
+  <line x1="146" y1="258" x2="143" y2="255" stroke="#F9A825" stroke-width="1.5"/>
+  <line x1="164" y1="276" x2="167" y2="279" stroke="#F9A825" stroke-width="1.5"/>
+  <line x1="164" y1="258" x2="167" y2="255" stroke="#F9A825" stroke-width="1.5"/>
+  <line x1="146" y1="276" x2="143" y2="279" stroke="#F9A825" stroke-width="1.5"/>
+  <text x="155" y="293" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle">Аполлон</text>
+  <!-- Helmet (Ares) -->
+  <path d="M195,260 L195,275 Q195,280 205,280 Q215,280 215,275 L215,260 Z" fill="#9E9E9E" stroke="#616161" stroke-width="1"/>
+  <line x1="195" y1="260" x2="215" y2="260" stroke="#616161" stroke-width="1.5"/>
+  <rect x="193" y="257" width="24" height="4" rx="1" fill="#C62828" stroke="#616161" stroke-width="0.5"/>
+  <text x="205" y="293" font-family="Arial,sans-serif" font-size="6" fill="#616161" text-anchor="middle">Арес</text>
+
+  <!-- Bottom bar -->
+  <rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Мифы Древней Греции</text>
+</svg>

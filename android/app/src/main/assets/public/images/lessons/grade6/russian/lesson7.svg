@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Морфемный разбор слова</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Русский язык - Урок 7</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Card 1: Main word dissection -->
+  <rect x="25" y="88" width="450" height="100" rx="6" fill="white" stroke="#C62828" stroke-width="1.5" opacity="0.9"/>
+  <text x="250" y="102" font-family="Arial,sans-serif" font-size="8" fill="#C62828" font-weight="bold" text-anchor="middle">РАЗБОР СЛОВА: ПО-ДОКОННИЧИК</text>
+  <!-- Root word blocks -->
+  <!-- приставка: по -->
+  <rect x="42" y="112" width="32" height="30" rx="4" fill="#FFCDD2" stroke="#C62828" stroke-width="1.5"/>
+  <text x="58" y="132" font-family="Arial,sans-serif" font-size="13" fill="#C62828" text-anchor="middle" font-weight="bold">по</text>
+  <!-- корень: докон -->
+  <rect x="77" y="112" width="85" height="30" rx="4" fill="#BBDEFB" stroke="#1565C0" stroke-width="1.5"/>
+  <text x="120" y="132" font-family="Arial,sans-serif" font-size="13" fill="#1565C0" text-anchor="middle" font-weight="bold">докон</text>
+  <!-- суффикс: нич -->
+  <rect x="165" y="112" width="48" height="30" rx="4" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1.5"/>
+  <text x="189" y="132" font-family="Arial,sans-serif" font-size="13" fill="#2E7D32" text-anchor="middle" font-weight="bold">нич</text>
+  <!-- окончание: ик -->
+  <rect x="216" y="112" width="30" height="30" rx="4" fill="#FFF3E0" stroke="#E65100" stroke-width="1.5"/>
+  <text x="231" y="132" font-family="Arial,sans-serif" font-size="13" fill="#E65100" text-anchor="middle" font-weight="bold">ик</text>
+  <!-- Bracket lines pointing down to labels -->
+  <line x1="58" y1="142" x2="58" y2="150" stroke="#C62828" stroke-width="1"/>
+  <line x1="120" y1="142" x2="120" y2="150" stroke="#1565C0" stroke-width="1"/>
+  <line x1="189" y1="142" x2="189" y2="150" stroke="#2E7D32" stroke-width="1"/>
+  <line x1="231" y1="142" x2="231" y2="150" stroke="#E65100" stroke-width="1"/>
+  <!-- Labels below -->
+  <text x="58" y="162" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" font-weight="bold">приставка</text>
+  <text x="120" y="162" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle" font-weight="bold">корень</text>
+  <text x="189" y="162" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">суффикс</text>
+  <text x="231" y="162" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle" font-weight="bold">окончание</text>
+  <!-- Right side: explanation -->
+  <rect x="270" y="112" width="195" height="70" rx="5" fill="#FFF8E1" stroke="#F9A825" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <text x="367" y="126" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Морфема - минимальная</text>
+  <text x="367" y="137" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">значимая часть слова</text>
+  <text x="280" y="152" font-family="Arial,sans-serif" font-size="6" fill="#C62828">1. Найти окончание</text>
+  <text x="280" y="162" font-family="Arial,sans-serif" font-size="6" fill="#1565C0">2. Выделить корень</text>
+  <text x="280" y="172" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">3. Найти приставку и суффикс</text>
+  <!-- Magnifying glass icon -->
+  <circle cx="430" cy="130" r="12" fill="none" stroke="#F9A825" stroke-width="2"/>
+  <line x1="439" y1="139" x2="448" y2="148" stroke="#F9A825" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Card 2: Окончание (Ending) -->
+  <rect x="25" y="196" width="145" height="104" rx="6" fill="white" stroke="#E65100" stroke-width="1.5" opacity="0.9"/>
+  <text x="97" y="210" font-family="Arial,sans-serif" font-size="8" fill="#E65100" font-weight="bold" text-anchor="middle">ОКОНЧАНИЕ</text>
+  <!-- Word forms table -->
+  <rect x="35" y="218" width="125" height="22" rx="3" fill="#FFF3E0" stroke="#E65100" stroke-width="0.8"/>
+  <text x="42" y="232" font-family="Arial,sans-serif" font-size="7" fill="#555">Стол</text>
+  <text x="130" y="232" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle" font-weight="bold">- нулевое</text>
+  <rect x="35" y="243" width="125" height="22" rx="3" fill="#FFF3E0" stroke="#E65100" stroke-width="0.8"/>
+  <text x="42" y="257" font-family="Arial,sans-serif" font-size="7" fill="#555">Стол-а</text>
+  <text x="130" y="257" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle" font-weight="bold">-а</text>
+  <rect x="35" y="268" width="125" height="22" rx="3" fill="#FFF3E0" stroke="#E65100" stroke-width="0.8"/>
+  <text x="42" y="282" font-family="Arial,sans-serif" font-size="7" fill="#555">Стол-у</text>
+  <text x="130" y="282" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle" font-weight="bold">-у</text>
+  <text x="97" y="298" font-family="Arial,sans-serif" font-size="5" fill="#999" text-anchor="middle">меняется при склонении</text>
+
+  <!-- Card 3: Корень (Root) -->
+  <rect x="182" y="196" width="145" height="104" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5" opacity="0.9"/>
+  <text x="254" y="210" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" font-weight="bold" text-anchor="middle">КОРЕНЬ</text>
+  <!-- Root illustration - tree -->
+  <line x1="254" y1="260" x2="254" y2="230" stroke="#795548" stroke-width="3"/>
+  <ellipse cx="254" cy="222" rx="20" ry="14" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1.2"/>
+  <!-- Roots below -->
+  <path d="M250,260 Q240,272 232,268" stroke="#795548" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M254,260 Q254,275 248,280" stroke="#795548" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M258,260 Q268,272 275,268" stroke="#795548" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M256,260 Q260,276 262,282" stroke="#795548" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Label root -->
+  <text x="248" y="288" font-family="Arial,sans-serif" font-size="5" fill="#795548">-вод-</text>
+  <text x="254" y="298" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">общая часть</text>
+  <!-- Related words -->
+  <text x="198" y="240" font-family="Arial,sans-serif" font-size="5" fill="#1565C0">вода</text>
+  <text x="198" y="248" font-family="Arial,sans-serif" font-size="5" fill="#1565C0">водный</text>
+  <text x="198" y="256" font-family="Arial,sans-serif" font-size="5" fill="#1565C0">провод</text>
+  <text x="290" y="240" font-family="Arial,sans-serif" font-size="5" fill="#1565C0">водяной</text>
+  <text x="290" y="248" font-family="Arial,sans-serif" font-size="5" fill="#1565C0">подводник</text>
+
+  <!-- Card 4: Приставка и Суффикс -->
+  <rect x="339" y="196" width="135" height="104" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5" opacity="0.9"/>
+  <text x="406" y="210" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" font-weight="bold" text-anchor="middle">ПРИСТАВКА + СУФФИКС</text>
+  <!-- Prefix examples -->
+  <rect x="349" y="218" width="115" height="20" rx="3" fill="#FFEBEE" stroke="#C62828" stroke-width="0.8"/>
+  <text x="406" y="232" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">Приставки (перед корнем):</text>
+  <text x="365" y="248" font-family="Arial,sans-serif" font-size="7" fill="#C62828" font-weight="bold">пере</text>
+  <text x="408" y="248" font-family="Arial,sans-serif" font-size="7" fill="#C62828" font-weight="bold">за</text>
+  <text x="435" y="248" font-family="Arial,sans-serif" font-size="7" fill="#C62828" font-weight="bold">на</text>
+  <text x="460" y="248" font-family="Arial,sans-serif" font-size="7" fill="#C62828" font-weight="bold">про</text>
+  <!-- Suffix examples -->
+  <rect x="349" y="256" width="115" height="20" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.8"/>
+  <text x="406" y="270" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Суффиксы (после корня):</text>
+  <text x="360" y="286" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" font-weight="bold">-ник</text>
+  <text x="400" y="286" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" font-weight="bold">-ок</text>
+  <text x="435" y="286" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" font-weight="bold">-ек</text>
+  <text x="460" y="286" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" font-weight="bold">-иц</text>
+  <!-- Arrow showing position -->
+  <line x1="350" y1="248" x2="350" y2="265" stroke="#F9A825" stroke-width="1" stroke-dasharray="2,1"/>
+  <text x="350" y="258" font-family="Arial,sans-serif" font-size="8" fill="#F9A825">|</text>
+
+  <!-- Bottom bar -->
+  <rect x="15" y="308" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Морфемный разбор слова</text>
+</svg>

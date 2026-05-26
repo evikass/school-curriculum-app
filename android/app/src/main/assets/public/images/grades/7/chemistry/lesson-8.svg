@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4C1D95;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6D28D9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7C3AED;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgba(255,255,255,0.15);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgba(255,255,255,0.05);stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="rgba(0,0,0,0.3)"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+  <!-- Decorative circles -->
+  <circle cx="50" cy="50" r="120" fill="#5B21B6" opacity="0.3"/>
+  <circle cx="750" cy="550" r="100" fill="#5B21B6" opacity="0.3"/>
+  <circle cx="700" cy="80" r="60" fill="#7C3AED" opacity="0.2"/>
+  <circle cx="100" cy="520" r="80" fill="#7C3AED" opacity="0.2"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="800" height="70" fill="url(#headerGrad)" rx="0"/>
+  <rect x="0" y="68" width="800" height="3" fill="#A78BFA" opacity="0.6"/>
+  <text x="80" y="44" font-family="Arial, sans-serif" font-size="13" fill="#C4B5FD" font-weight="bold">УРОК 8</text>
+  <text x="160" y="44" font-family="Arial, sans-serif" font-size="20" fill="#FFFFFF" font-weight="bold">Кислоты и основания</text>
+  <text x="160" y="60" font-family="Arial, sans-serif" font-size="12" fill="#C4B5FD">pH, свойства, индикаторы, нейтрализация</text>
+  <!-- Lesson number circle -->
+  <circle cx="40" cy="35" r="25" fill="#5B21B6" stroke="#A78BFA" stroke-width="2"/>
+  <text x="40" y="41" font-family="Arial, sans-serif" font-size="20" fill="#FFFFFF" font-weight="bold" text-anchor="middle">8</text>
+  <rect x="20" y="85" width="370" height="240" rx="12" fill="rgba(255,255,255,0.1)" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.3"/>
+  <rect x="25" y="90" width="360" height="28" rx="6" fill="#EF4444" opacity="0.3"/>
+  <text x="205" y="109" font-family="Arial, sans-serif" font-size="16" fill="#EF4444" text-anchor="middle" font-weight="bold">КИСЛОТЫ</text>
+  <text x="35" y="135" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="normal">Содержат H⁺ (протоны H₃O⁺)</text>
+  <text x="35" y="155" font-family="Arial, sans-serif" font-size="13" fill="#EF4444" text-anchor="start" font-weight="bold">pH &amp;lt; 7 (кислая среда)</text>
+  <text x="35" y="180" font-family="Arial, sans-serif" font-size="12" fill="#A78BFA" text-anchor="start" font-weight="bold">Примеры кислот:</text>
+  <text x="45" y="198" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold">HCl</text>
+  <text x="170" y="198" font-family="Arial, sans-serif" font-size="11" fill="#DDD6FE" text-anchor="start" font-weight="normal">— соляная</text>
+  <text x="45" y="216" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold">H₂SO₄</text>
+  <text x="170" y="216" font-family="Arial, sans-serif" font-size="11" fill="#DDD6FE" text-anchor="start" font-weight="normal">— серная</text>
+  <text x="45" y="234" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold">HNO₃</text>
+  <text x="170" y="234" font-family="Arial, sans-serif" font-size="11" fill="#DDD6FE" text-anchor="start" font-weight="normal">— азотная</text>
+  <text x="45" y="252" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold">H₃PO₄</text>
+  <text x="170" y="252" font-family="Arial, sans-serif" font-size="11" fill="#DDD6FE" text-anchor="start" font-weight="normal">— фосфорная</text>
+  <text x="45" y="270" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold">CH₃COOH</text>
+  <text x="170" y="270" font-family="Arial, sans-serif" font-size="11" fill="#DDD6FE" text-anchor="start" font-weight="normal">— уксусная</text>
+  <text x="35" y="300" font-family="Arial, sans-serif" font-size="12" fill="#A78BFA" text-anchor="start" font-weight="bold">Свойства:</text>
+  <text x="35" y="316" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="start" font-weight="normal">Кислый вкус, изменяют окраску</text>
+  <text x="35" y="332" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="start" font-weight="normal">индикаторов, реагируют с металлами</text>
+  <rect x="410" y="85" width="370" height="240" rx="12" fill="rgba(255,255,255,0.1)" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.3"/>
+  <rect x="415" y="90" width="360" height="28" rx="6" fill="#3B82F6" opacity="0.3"/>
+  <text x="595" y="109" font-family="Arial, sans-serif" font-size="16" fill="#3B82F6" text-anchor="middle" font-weight="bold">ОСНОВАНИЯ (ЩЁЛОЧИ)</text>
+  <text x="425" y="135" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="start" font-weight="normal">Содержат OH⁻ (гидроксид-ионы)</text>
+  <text x="425" y="155" font-family="Arial, sans-serif" font-size="13" fill="#3B82F6" text-anchor="start" font-weight="bold">pH &amp;gt; 7 (щелочная среда)</text>
+  <text x="425" y="180" font-family="Arial, sans-serif" font-size="12" fill="#A78BFA" text-anchor="start" font-weight="bold">Примеры оснований:</text>
+  <text x="435" y="198" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold">NaOH</text>
+  <text x="560" y="198" font-family="Arial, sans-serif" font-size="11" fill="#DDD6FE" text-anchor="start" font-weight="normal">— едкий натр</text>
+  <text x="435" y="216" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold">KOH</text>
+  <text x="560" y="216" font-family="Arial, sans-serif" font-size="11" fill="#DDD6FE" text-anchor="start" font-weight="normal">— едкое кали</text>
+  <text x="435" y="234" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold">Ca(OH)₂</text>
+  <text x="560" y="234" font-family="Arial, sans-serif" font-size="11" fill="#DDD6FE" text-anchor="start" font-weight="normal">— гашёная известь</text>
+  <text x="435" y="252" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold">Ba(OH)₂</text>
+  <text x="560" y="252" font-family="Arial, sans-serif" font-size="11" fill="#DDD6FE" text-anchor="start" font-weight="normal">— барит. вода</text>
+  <text x="435" y="270" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold">Al(OH)₃</text>
+  <text x="560" y="270" font-family="Arial, sans-serif" font-size="11" fill="#DDD6FE" text-anchor="start" font-weight="normal">— гидроксид алюм.</text>
+  <text x="425" y="300" font-family="Arial, sans-serif" font-size="12" fill="#A78BFA" text-anchor="start" font-weight="bold">Свойства:</text>
+  <text x="425" y="316" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="start" font-weight="normal">Мылокопающие на ощупь,</text>
+  <text x="425" y="332" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="start" font-weight="normal">изменяют окраску индикаторов</text>
+  <rect x="20" y="340" width="760" height="100" rx="12" fill="rgba(255,255,255,0.1)" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="400" y="362" font-family="Arial, sans-serif" font-size="15" fill="#A78BFA" text-anchor="middle" font-weight="bold">ШКАЛА pH</text>
+  <rect x="60" y="380" width="50" height="25" fill="#EF4444" opacity="0.7"/>
+  <rect x="109" y="380" width="50" height="25" fill="#FF3333" opacity="0.7"/>
+  <rect x="157" y="380" width="50" height="25" fill="#FF6633" opacity="0.7"/>
+  <rect x="206" y="380" width="50" height="25" fill="#FF9933" opacity="0.7"/>
+  <rect x="254" y="380" width="50" height="25" fill="#F59E0B" opacity="0.7"/>
+  <rect x="303" y="380" width="50" height="25" fill="#FCD34D" opacity="0.7"/>
+  <rect x="351" y="380" width="50" height="25" fill="#CCFF33" opacity="0.7"/>
+  <rect x="400" y="380" width="50" height="25" fill="#10B981" opacity="0.7"/>
+  <rect x="449" y="380" width="50" height="25" fill="#33CC99" opacity="0.7"/>
+  <rect x="497" y="380" width="50" height="25" fill="#06B6D4" opacity="0.7"/>
+  <rect x="546" y="380" width="50" height="25" fill="#3399FF" opacity="0.7"/>
+  <rect x="594" y="380" width="50" height="25" fill="#3B82F6" opacity="0.7"/>
+  <rect x="643" y="380" width="50" height="25" fill="#3333FF" opacity="0.7"/>
+  <rect x="691" y="380" width="50" height="25" fill="#6633CC" opacity="0.7"/>
+  <rect x="740" y="380" width="50" height="25" fill="#660066" opacity="0.7"/>
+  <text x="400.0" y="420" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="normal">7 — нейтральная среда</text>
+  <text x="100" y="420" font-family="Arial, sans-serif" font-size="11" fill="#EF4444" text-anchor="middle" font-weight="normal">Кислота</text>
+  <text x="700" y="420" font-family="Arial, sans-serif" font-size="11" fill="#3B82F6" text-anchor="middle" font-weight="normal">Щёлочь</text>
+  <text x="60.0" y="377" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="normal">0</text>
+  <text x="400.0" y="377" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="normal">7</text>
+  <text x="740.0" y="377" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="normal">14</text>
+  <line x1="60" y1="368" x2="740" y2="368" stroke="#A78BFA" stroke-width="1"/>
+  <text x="60" y="363" font-family="Arial, sans-serif" font-size="9" fill="#C4B5FD" text-anchor="start" font-weight="normal">pH↑</text>
+  <text x="740" y="363" font-family="Arial, sans-serif" font-size="9" fill="#C4B5FD" text-anchor="start" font-weight="normal">pH↓</text>
+  <rect x="20" y="455" width="460" height="110" rx="12" fill="rgba(255,255,255,0.1)" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="250" y="477" font-family="Arial, sans-serif" font-size="14" fill="#A78BFA" text-anchor="middle" font-weight="bold">Индикаторы</text>
+  <rect x="30" y="490" width="85" height="20" rx="3" fill="#6D28D9"/>
+  <text x="72" y="504" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Индикатор</text>
+  <rect x="150" y="490" width="85" height="20" rx="3" fill="#6D28D9"/>
+  <text x="192" y="504" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Кислая</text>
+  <rect x="240" y="490" width="85" height="20" rx="3" fill="#6D28D9"/>
+  <text x="282" y="504" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Нейтр.</text>
+  <rect x="330" y="490" width="85" height="20" rx="3" fill="#6D28D9"/>
+  <text x="372" y="504" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Щёлочная</text>
+  <rect x="30" y="515" width="85" height="20" rx="2" fill="#5B21B6" opacity="0.5"/>
+  <rect x="150" y="515" width="85" height="20" rx="2" fill="#5B21B6" opacity="0.5"/>
+  <rect x="240" y="515" width="85" height="20" rx="2" fill="#5B21B6" opacity="0.5"/>
+  <rect x="330" y="515" width="85" height="20" rx="2" fill="#5B21B6" opacity="0.5"/>
+  <text x="72" y="529" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="normal">Лакмус</text>
+  <rect x="165" y="518" width="55" height="14" rx="3" fill="#EF4444" opacity="0.5"/>
+  <text x="192" y="529" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle" font-weight="normal"></text>
+  <rect x="255" y="518" width="55" height="14" rx="3" fill="#8B5CF6" opacity="0.5"/>
+  <text x="282" y="529" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle" font-weight="normal"></text>
+  <rect x="345" y="518" width="55" height="14" rx="3" fill="#3B82F6" opacity="0.5"/>
+  <text x="372" y="529" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle" font-weight="normal"></text>
+  <rect x="30" y="537" width="85" height="20" rx="2" fill="rgba(255,255,255,0.03)" opacity="0.5"/>
+  <rect x="150" y="537" width="85" height="20" rx="2" fill="rgba(255,255,255,0.03)" opacity="0.5"/>
+  <rect x="240" y="537" width="85" height="20" rx="2" fill="rgba(255,255,255,0.03)" opacity="0.5"/>
+  <rect x="330" y="537" width="85" height="20" rx="2" fill="rgba(255,255,255,0.03)" opacity="0.5"/>
+  <text x="72" y="551" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="normal">Фенолфталеин</text>
+  <text x="192" y="551" font-family="Arial, sans-serif" font-size="9" fill="#C4B5FD" text-anchor="middle" font-weight="normal">Бесцв.</text>
+  <text x="282" y="551" font-family="Arial, sans-serif" font-size="9" fill="#C4B5FD" text-anchor="middle" font-weight="normal">Бесцв.</text>
+  <rect x="345" y="540" width="55" height="14" rx="3" fill="#EC4899" opacity="0.5"/>
+  <text x="372" y="551" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle" font-weight="normal"></text>
+  <rect x="30" y="559" width="85" height="20" rx="2" fill="#5B21B6" opacity="0.5"/>
+  <rect x="150" y="559" width="85" height="20" rx="2" fill="#5B21B6" opacity="0.5"/>
+  <rect x="240" y="559" width="85" height="20" rx="2" fill="#5B21B6" opacity="0.5"/>
+  <rect x="330" y="559" width="85" height="20" rx="2" fill="#5B21B6" opacity="0.5"/>
+  <text x="72" y="573" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="normal">Метилоранж</text>
+  <rect x="165" y="562" width="55" height="14" rx="3" fill="#EF4444" opacity="0.5"/>
+  <text x="192" y="573" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle" font-weight="normal"></text>
+  <rect x="255" y="562" width="55" height="14" rx="3" fill="#F59E0B" opacity="0.5"/>
+  <text x="282" y="573" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle" font-weight="normal"></text>
+  <rect x="345" y="562" width="55" height="14" rx="3" fill="#FCD34D" opacity="0.5"/>
+  <text x="372" y="573" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle" font-weight="normal"></text>
+  <rect x="500" y="455" width="280" height="110" rx="12" fill="rgba(255,255,255,0.1)" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="640" y="477" font-family="Arial, sans-serif" font-size="14" fill="#A78BFA" text-anchor="middle" font-weight="bold">Нейтрализация</text>
+  <text x="640" y="500" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="normal">Кислота + Основание</text>
+  <text x="640" y="518" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">= Соль + Вода</text>
+  <text x="640" y="540" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="normal">HCl + NaOH =</text>
+  <text x="640" y="555" font-family="Arial, sans-serif" font-size="14" fill="#10B981" text-anchor="middle" font-weight="bold">NaCl + H₂O</text>
+
+  <rect x="0" y="575" width="800" height="25" fill="rgba(0,0,0,0.2)"/>
+  <text x="400" y="592" font-family="Arial, sans-serif" font-size="11" fill="#A78BFA" text-anchor="middle">Химия • 7 класс • ИнеШкола</text>
+</svg>

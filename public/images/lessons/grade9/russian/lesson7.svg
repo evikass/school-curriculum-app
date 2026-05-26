@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg7)"/>
+  <!-- Three overlapping circles for three types of connection -->
+  <circle cx="180" cy="80" r="55" fill="#e94560" opacity="0.4" stroke="#e94560" stroke-width="2"/>
+  <circle cx="250" cy="130" r="55" fill="#533483" opacity="0.4" stroke="#533483" stroke-width="2"/>
+  <circle cx="320" cy="80" r="55" fill="#0f3460" opacity="0.4" stroke="#4fc3f7" stroke-width="2"/>
+  <text x="150" y="60" text-anchor="middle" fill="#e94560" font-size="11" font-weight="bold">Сочинение</text>
+  <text x="150" y="78" text-anchor="middle" fill="white" font-size="9">и, а, но</text>
+  <text x="250" y="140" text-anchor="middle" fill="#533483" font-size="11" font-weight="bold">Бессоюзие</text>
+  <text x="250" y="158" text-anchor="middle" fill="white" font-size="9">:, —</text>
+  <text x="350" y="60" text-anchor="middle" fill="#4fc3f7" font-size="11" font-weight="bold">Подчинение</text>
+  <text x="350" y="78" text-anchor="middle" fill="white" font-size="9">что, если</text>
+  <!-- Center overlap -->
+  <text x="250" y="108" text-anchor="middle" fill="white" font-size="9" font-weight="bold">Все три</text>
+  <!-- Combinations -->
+  <rect x="20" y="195" width="155" height="60" rx="8" fill="#e94560" opacity="0.7"/>
+  <text x="97" y="218" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Сочинение +</text>
+  <text x="97" y="235" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Подчинение</text>
+  <text x="97" y="250" text-anchor="middle" fill="white" font-size="8">[..., и (...)]</text>
+  <rect x="185" y="195" width="130" height="60" rx="8" fill="#533483" opacity="0.7"/>
+  <text x="250" y="218" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Подчинение +</text>
+  <text x="250" y="235" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Подчинение</text>
+  <text x="250" y="250" text-anchor="middle" fill="white" font-size="8">[(...), (...)]</text>
+  <rect x="325" y="195" width="155" height="60" rx="8" fill="#0f3460" opacity="0.8"/>
+  <text x="402" y="218" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Сочинение +</text>
+  <text x="402" y="235" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Бессоюзие</text>
+  <text x="402" y="250" text-anchor="middle" fill="white" font-size="8">[..., и ...: ...]</text>
+  <!-- Algorithm steps -->
+  <rect x="30" y="270" width="440" height="55" rx="8" fill="#16213e" stroke="#e94560" stroke-width="1"/>
+  <text x="250" y="290" text-anchor="middle" fill="#e94560" font-size="11" font-weight="bold">Алгоритм разбора</text>
+  <text x="250" y="308" text-anchor="middle" fill="white" font-size="9">1. Найти основы → 2. Определить связь → 3. Начертить схему → 4. Объяснить знаки</text>
+  <text x="250" y="345" text-anchor="middle" fill="white" font-size="9" opacity="0.5">Сложные предложения с разными видами связи</text>
+</svg>

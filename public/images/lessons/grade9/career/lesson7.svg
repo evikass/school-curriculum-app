@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E0F2F1"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#26A69A"/>
+      <stop offset="100%" stop-color="#00695C"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#26A69A" stroke-width="3"/>
+  <!-- Header bar -->
+  <rect x="8" y="8" width="484" height="52" rx="6" fill="url(#hdr)" opacity="0.9"/>
+  <text x="250" y="34" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Портфолио</text>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="10" fill="rgba(255,255,255,0.8)" text-anchor="middle">Карьерное консультирование — Урок 7</text>
+  <!-- Decorative elements -->
+  <circle cx="460" cy="25" r="12" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="440" cy="18" r="6" fill="rgba(255,255,255,0.1)"/>
+  <!-- Content area -->
+
+  <!-- Portfolio layout mockup -->
+  <g transform="translate(25,75)">
+    <rect x="0" y="0" width="450" height="245" rx="6" fill="white" stroke="#ddd" stroke-width="1"/>
+    <text x="225" y="18" font-family="Arial,sans-serif" font-size="11" fill="{C_DARK}" text-anchor="middle" font-weight="bold">Структура портфолио</text>
+    <!-- 5 element cards -->
+    <rect x="10" y="28" width="85" height="65" rx="4" fill="#4CAF50" opacity="0.12"/>
+    <rect x="10" y="28" width="85" height="18" rx="4" fill="#4CAF50" opacity="0.8"/>
+    <text x="52" y="40" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">Работы</text>
+    <text x="52" y="60" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Дизайны, код,</text>
+    <text x="52" y="72" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">тексты</text>
+    <text x="52" y="86" font-family="Arial,sans-serif" font-size="12" text-anchor="middle">🎨</text>
+    
+    <rect x="103" y="28" width="85" height="65" rx="4" fill="#2196F3" opacity="0.12"/>
+    <rect x="103" y="28" width="85" height="18" rx="4" fill="#2196F3" opacity="0.8"/>
+    <text x="145" y="40" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">Кейсы</text>
+    <text x="145" y="60" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Проблема →</text>
+    <text x="145" y="72" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Решение → Результат</text>
+    
+    <rect x="196" y="28" width="85" height="65" rx="4" fill="#FF9800" opacity="0.12"/>
+    <rect x="196" y="28" width="85" height="18" rx="4" fill="#FF9800" opacity="0.8"/>
+    <text x="238" y="40" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">Сертификаты</text>
+    <text x="238" y="60" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Курсы, дипломы,</text>
+    <text x="238" y="72" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">награды</text>
+    
+    <rect x="289" y="28" width="85" height="65" rx="4" fill="#9C27B0" opacity="0.12"/>
+    <rect x="289" y="28" width="85" height="18" rx="4" fill="#9C27B0" opacity="0.8"/>
+    <text x="331" y="40" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">Рекомендации</text>
+    <text x="331" y="60" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Отзывы клиентов</text>
+    <text x="331" y="72" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">и коллег</text>
+    
+    <rect x="382" y="28" width="58" height="65" rx="4" fill="#E91E63" opacity="0.12"/>
+    <rect x="382" y="28" width="58" height="18" rx="4" fill="#E91E63" opacity="0.8"/>
+    <text x="411" y="40" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">Био</text>
+    <text x="411" y="60" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">О себе,</text>
+    <text x="411" y="72" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">опыт</text>
+    
+    <!-- Platforms row -->
+    <text x="225" y="115" font-family="Arial,sans-serif" font-size="9" fill="{C_DARK}" text-anchor="middle" font-weight="bold">Платформы</text>
+    <rect x="10" y="122" width="135" height="40" rx="4" fill="#24292e" opacity="0.08"/>
+    <text x="77" y="138" font-family="Arial,sans-serif" font-size="9" fill="#24292e" text-anchor="middle" font-weight="bold">GitHub</text>
+    <text x="77" y="152" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">100 млн+ репозиториев</text>
+    <rect x="155" y="122" width="135" height="40" rx="4" fill="#1769FF" opacity="0.08"/>
+    <text x="222" y="138" font-family="Arial,sans-serif" font-size="9" fill="#1769FF" text-anchor="middle" font-weight="bold">Behance</text>
+    <text x="222" y="152" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">10 млн+ проектов</text>
+    <rect x="300" y="122" width="140" height="40" rx="4" fill="#0077B5" opacity="0.08"/>
+    <text x="370" y="138" font-family="Arial,sans-serif" font-size="9" fill="#0077B5" text-anchor="middle" font-weight="bold">LinkedIn</text>
+    <text x="370" y="152" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">900 млн+ пользователей</text>
+    
+    <!-- Key stats -->
+    <rect x="10" y="175" width="210" height="55" rx="4" fill="{C_PRI}" opacity="0.06"/>
+    <text x="115" y="192" font-family="Arial,sans-serif" font-size="18" fill="{C_PRI}" text-anchor="middle" font-weight="bold">56%</text>
+    <text x="115" y="206" font-family="Arial,sans-serif" font-size="8" fill="#666" text-anchor="middle">работодателей считают портфолио</text>
+    <text x="115" y="218" font-family="Arial,sans-serif" font-size="8" fill="#666" text-anchor="middle">важнее резюме для дизайнеров</text>
+    <rect x="230" y="175" width="210" height="55" rx="4" fill="#FF9800" opacity="0.06"/>
+    <text x="335" y="192" font-family="Arial,sans-serif" font-size="18" fill="#FF9800" text-anchor="middle" font-weight="bold">3-4 мин</text>
+    <text x="335" y="206" font-family="Arial,sans-serif" font-size="8" fill="#666" text-anchor="middle">среднее время просмотра</text>
+    <text x="335" y="218" font-family="Arial,sans-serif" font-size="8" fill="#666" text-anchor="middle">фокус на первых 2-3 работах</text>
+  </g>
+  <rect x="25" y="328" width="450" height="14" rx="3" fill="{C_PRI}" opacity="0.06"/>
+  <text x="250" y="339" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">Портфолио обязательно для: дизайнеров • программистов • маркетологов • журналистов • архитекторов</text>
+
+</svg>

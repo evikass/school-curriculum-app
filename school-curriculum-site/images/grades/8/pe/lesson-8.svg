@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600"><rect width="800" height="600" fill="#F0FDF4" rx="12"/>
+  <rect x="0" y="0" width="800" height="60" fill="#22C55E" rx="0"/>
+  <text x="400" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">Лыжная подготовка: ходы и техника</text>
+  <rect x="20" y="80" width="760" height="130" fill="#E0F2FE" stroke="#1E293B" stroke-width="1" rx="6"/>
+  <text x="400" y="96" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#475569">Лыжня — классический и коньковый ход</text><line x1="40" y1="130" x2="760" y2="130" stroke="#16A34A" stroke-width="2" stroke-dasharray="12,4"/><line x1="40" y1="150" x2="760" y2="150" stroke="#16A34A" stroke-width="2" stroke-dasharray="12,4"/><text x="60" y="122" font-family="Arial, sans-serif" font-size="10" fill="#16A34A">Классическая лыжня</text><line x1="80" y1="170" x2="100" y2="195" stroke="#EF4444" stroke-width="2"/><line x1="100" y1="195" x2="120" y2="170" stroke="#EF4444" stroke-width="2"/><line x1="120" y1="170" x2="140" y2="195" stroke="#EF4444" stroke-width="2"/><line x1="140" y1="195" x2="160" y2="170" stroke="#EF4444" stroke-width="2"/><line x1="160" y1="170" x2="180" y2="195" stroke="#EF4444" stroke-width="2"/><line x1="180" y1="195" x2="200" y2="170" stroke="#EF4444" stroke-width="2"/><line x1="200" y1="170" x2="220" y2="195" stroke="#EF4444" stroke-width="2"/><line x1="220" y1="195" x2="240" y2="170" stroke="#EF4444" stroke-width="2"/><line x1="240" y1="170" x2="260" y2="195" stroke="#EF4444" stroke-width="2"/><line x1="260" y1="195" x2="280" y2="170" stroke="#EF4444" stroke-width="2"/><line x1="280" y1="170" x2="300" y2="195" stroke="#EF4444" stroke-width="2"/><line x1="300" y1="195" x2="320" y2="170" stroke="#EF4444" stroke-width="2"/><line x1="320" y1="170" x2="340" y2="195" stroke="#EF4444" stroke-width="2"/><line x1="340" y1="195" x2="360" y2="170" stroke="#EF4444" stroke-width="2"/><line x1="360" y1="170" x2="380" y2="195" stroke="#EF4444" stroke-width="2"/><line x1="380" y1="195" x2="400" y2="170" stroke="#EF4444" stroke-width="2"/><line x1="400" y1="170" x2="420" y2="195" stroke="#EF4444" stroke-width="2"/><line x1="420" y1="195" x2="440" y2="170" stroke="#EF4444" stroke-width="2"/><line x1="440" y1="170" x2="460" y2="195" stroke="#EF4444" stroke-width="2"/><line x1="460" y1="195" x2="480" y2="170" stroke="#EF4444" stroke-width="2"/><line x1="480" y1="170" x2="500" y2="195" stroke="#EF4444" stroke-width="2"/><line x1="500" y1="195" x2="520" y2="170" stroke="#EF4444" stroke-width="2"/><line x1="520" y1="170" x2="540" y2="195" stroke="#EF4444" stroke-width="2"/><line x1="540" y1="195" x2="560" y2="170" stroke="#EF4444" stroke-width="2"/><line x1="560" y1="170" x2="580" y2="195" stroke="#EF4444" stroke-width="2"/><line x1="580" y1="195" x2="600" y2="170" stroke="#EF4444" stroke-width="2"/><line x1="600" y1="170" x2="620" y2="195" stroke="#EF4444" stroke-width="2"/><line x1="620" y1="195" x2="640" y2="170" stroke="#EF4444" stroke-width="2"/><line x1="640" y1="170" x2="660" y2="195" stroke="#EF4444" stroke-width="2"/><line x1="660" y1="195" x2="680" y2="170" stroke="#EF4444" stroke-width="2"/><line x1="680" y1="170" x2="700" y2="195" stroke="#EF4444" stroke-width="2"/><line x1="700" y1="195" x2="720" y2="170" stroke="#EF4444" stroke-width="2"/><line x1="720" y1="170" x2="740" y2="195" stroke="#EF4444" stroke-width="2"/><line x1="740" y1="195" x2="760" y2="170" stroke="#EF4444" stroke-width="2"/><text x="60" y="172" font-family="Arial, sans-serif" font-size="10" fill="#EF4444">Коньковый ход (V-образный)</text><circle cx="200" cy="124.0" r="6.4" fill="none" stroke="#16A34A" stroke-width="1.6"/>
+<line x1="200" y1="130.4" x2="202.4" y2="156.0" stroke="#16A34A" stroke-width="1.6"/>
+<line x1="201.6" y1="138.4" x2="188.8" y2="144.8" stroke="#16A34A" stroke-width="1.6"/>
+<line x1="201.6" y1="138.4" x2="214.4" y2="133.6" stroke="#16A34A" stroke-width="1.6"/>
+<line x1="202.4" y1="156.0" x2="192.0" y2="172.0" stroke="#16A34A" stroke-width="1.6"/>
+<line x1="202.4" y1="156.0" x2="212.8" y2="168.8" stroke="#16A34A" stroke-width="1.6"/><circle cx="500" cy="146.0" r="6.4" fill="none" stroke="#DC2626" stroke-width="1.6"/>
+<line x1="500" y1="152.4" x2="502.4" y2="178.0" stroke="#DC2626" stroke-width="1.6"/>
+<line x1="501.6" y1="160.4" x2="488.8" y2="166.8" stroke="#DC2626" stroke-width="1.6"/>
+<line x1="501.6" y1="160.4" x2="514.4" y2="155.6" stroke="#DC2626" stroke-width="1.6"/>
+<line x1="502.4" y1="178.0" x2="492.0" y2="194.0" stroke="#DC2626" stroke-width="1.6"/>
+<line x1="502.4" y1="178.0" x2="512.8" y2="190.8" stroke="#DC2626" stroke-width="1.6"/><rect x="20" y="225" width="245" height="165" fill="#FFFFFF" stroke="#22C55E" stroke-width="2" rx="8"/>
+<rect x="20" y="225" width="245" height="28" fill="#22C55E" rx="8"/>
+<rect x="20" y="245" width="245" height="8" fill="#22C55E"/>
+<text x="142" y="244" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Классические ходы</text>
+<text x="32" y="269" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Попеременный двухшажный</text>
+<text x="32" y="287" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Одновременный бесшажный</text>
+<text x="32" y="305" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Одновременный одношажный</text>
+<text x="32" y="323" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Одновременный двухшажный</text>
+<text x="32" y="341" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Полуконьковый ход</text>
+<text x="32" y="359" font-family="Arial, sans-serif" font-size="12" fill="#1E293B"></text>
+<text x="32" y="377" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">Отталкивание ногой назад</text>
+<text x="32" y="395" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">  по классической лыжне</text><rect x="280" y="225" width="245" height="165" fill="#FFFFFF" stroke="#EF4444" stroke-width="2" rx="8"/>
+<rect x="280" y="225" width="245" height="28" fill="#EF4444" rx="8"/>
+<rect x="280" y="245" width="245" height="8" fill="#EF4444"/>
+<text x="402" y="244" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Коньковые ходы</text>
+<text x="292" y="269" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Коньковый без палок</text>
+<text x="292" y="287" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Коньковый одновременный</text>
+<text x="292" y="305" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Коньковый двухшажный</text>
+<text x="292" y="323" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Полуконьковый</text>
+<text x="292" y="341" font-family="Arial, sans-serif" font-size="12" fill="#1E293B"></text>
+<text x="292" y="359" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">Отталкивание ребром лыжи</text>
+<text x="292" y="377" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">  V-образное скольжение</text>
+<text x="292" y="395" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">  Скорость выше классики</text><rect x="540" y="225" width="240" height="165" fill="#FFFFFF" stroke="#22C55E" stroke-width="2" rx="8"/>
+<rect x="540" y="225" width="240" height="28" fill="#22C55E" rx="8"/>
+<rect x="540" y="245" width="240" height="8" fill="#22C55E"/>
+<text x="660" y="244" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Спуски и подъёмы</text>
+<text x="552" y="269" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Спуск в основной стойке</text>
+<text x="552" y="287" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Спуск в высокой стойке</text>
+<text x="552" y="305" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Спуск в низкой стойке</text>
+<text x="552" y="323" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Подъём «лесенкой»</text>
+<text x="552" y="341" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Подъём «ёлочкой»</text>
+<text x="552" y="359" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Подъём «полуёлочкой»</text>
+<text x="552" y="377" font-family="Arial, sans-serif" font-size="12" fill="#1E293B"></text>
+<text x="552" y="395" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">Торможение: плугом, упором</text>
+  <rect x="20" y="400" width="760" height="36" fill="#16A34A" rx="8"/>
+  <text x="400" y="424" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">Инвентарь и безопасность</text><rect x="20" y="440" width="245" height="110" fill="#FFFFFF" stroke="#22C55E" stroke-width="2" rx="8"/>
+<rect x="20" y="440" width="245" height="28" fill="#22C55E" rx="8"/>
+<rect x="20" y="460" width="245" height="8" fill="#22C55E"/>
+<text x="142" y="459" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Лыжный инвентарь</text>
+<text x="32" y="484" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Беговые лыжи (классические)</text>
+<text x="32" y="502" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Коньковые лыжи (короче)</text>
+<text x="32" y="520" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Лыжные палки (до подмышки)</text>
+<text x="32" y="538" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Лыжные ботинки</text>
+<text x="32" y="556" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Крепления (NNN, SNS)</text>
+<text x="32" y="574" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Смазка (мазь держания/скольж.)</text><rect x="282" y="440" width="245" height="110" fill="#FFFFFF" stroke="#EF4444" stroke-width="2" rx="8"/>
+<rect x="282" y="440" width="245" height="28" fill="#EF4444" rx="8"/>
+<rect x="282" y="460" width="245" height="8" fill="#EF4444"/>
+<text x="404" y="459" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Безопасность на лыжне</text>
+<text x="294" y="484" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Разминка перед выходом на снег</text>
+<text x="294" y="502" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Соответствующая одежда</text>
+<text x="294" y="520" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Соблюдать дистанцию</text>
+<text x="294" y="538" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Не пересекать чужую лыжню</text>
+<text x="294" y="556" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Спуск по своей дорожке</text>
+<text x="294" y="574" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Осторожно на спусках и поворотах</text><rect x="543" y="440" width="240" height="110" fill="#FFFFFF" stroke="#22C55E" stroke-width="2" rx="8"/>
+<rect x="543" y="440" width="240" height="28" fill="#22C55E" rx="8"/>
+<rect x="543" y="460" width="240" height="8" fill="#22C55E"/>
+<text x="663" y="459" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Соревнования</text>
+<text x="555" y="484" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Спринт (1,5 км)</text>
+<text x="555" y="502" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Гонка преследования (пурсьют)</text>
+<text x="555" y="520" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Индивидуальная гонка (10/15 км)</text>
+<text x="555" y="538" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Марафон (50 км)</text>
+<text x="555" y="556" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Эстафета 4х5 / 4х10 км</text>
+<text x="555" y="574" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Тур де Ски — многодневка</text>
+  <rect x="0" y="568" width="800" height="32" fill="#16A34A"/>
+  <text x="400" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">8 класс | Физкультура/ОБЖ | Урок 8</text></svg>

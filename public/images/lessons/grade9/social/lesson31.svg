@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><linearGradient id="g31" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2B6CB0"/><stop offset="100%" stop-color="#2C7A7B"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#g31)"/>
+  <!-- Temple of law -->
+  <path d="M100 250 L250 60 L400 250" fill="none" stroke="#E2E8F0" stroke-width="3" opacity="0.3"/>
+  <line x1="100" y1="250" x2="400" y2="250" stroke="#E2E8F0" stroke-width="3" opacity="0.3"/>
+  <!-- Three pillars -->
+  <rect x="130" y="120" width="20" height="130" rx="3" fill="#E53E3E" opacity="0.4"/>
+  <rect x="240" y="100" width="20" height="150" rx="3" fill="#3182CE" opacity="0.4"/>
+  <rect x="350" y="120" width="20" height="130" rx="3" fill="#D69E2E" opacity="0.4"/>
+  <text x="140" y="270" text-anchor="middle" font-size="8" fill="#FC8181" opacity="0.6">Законод.</text>
+  <text x="250" y="270" text-anchor="middle" font-size="8" fill="#63B3ED" opacity="0.6">Исполн.</text>
+  <text x="360" y="270" text-anchor="middle" font-size="8" fill="#F6E05E" opacity="0.6">Судебн.</text>
+  <!-- Law above -->
+  <text x="250" y="85" text-anchor="middle" font-size="12" fill="#F6E05E" opacity="0.5">Закон выше всех</text>
+  <text x="250" y="310" text-anchor="middle" font-size="16" fill="#E2E8F0" font-weight="bold" opacity="0.6">Правовое государство</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#E2E8F0" opacity="0.5">Правовое государство</text>
+</svg>

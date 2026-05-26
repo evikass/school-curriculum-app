@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="turn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C53030"/>
+      <stop offset="50%" stop-color="#742A2A"/>
+      <stop offset="100%" stop-color="#4A5568"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#turn)"/>
+  <!-- Stalingrad map outline -->
+  <path d="M100 150 Q200 120 250 150 Q300 180 400 150" fill="none" stroke="#E2E8F0" stroke-width="2" opacity="0.4"/>
+  <path d="M100 180 Q200 150 250 180 Q300 210 400 180" fill="#4A5568" opacity="0.3"/>
+  <!-- Volga river -->
+  <path d="M200 50 Q220 120 210 200 Q230 280 215 320" fill="none" stroke="#3182CE" stroke-width="8" opacity="0.4"/>
+  <path d="M200 50 Q220 120 210 200 Q230 280 215 320" fill="none" stroke="#63B3ED" stroke-width="4" opacity="0.3"/>
+  <!-- City ruins -->
+  <g fill="#2D3748" opacity="0.6">
+    <rect x="280" y="130" width="20" height="50"/><rect x="310" y="140" width="15" height="40"/>
+    <rect x="340" y="125" width="25" height="55"/><rect x="375" y="135" width="18" height="45"/>
+  </g>
+  <!-- Arrow - Soviet counterattack -->
+  <g stroke="#F6E05E" stroke-width="3" fill="#F6E05E" opacity="0.5">
+    <line x1="120" y1="230" x2="300" y2="180"/>
+    <polygon points="300,180 285,175 290,190"/>
+  </g>
+  <!-- Another arrow -->
+  <g stroke="#F6E05E" stroke-width="3" fill="#F6E05E" opacity="0.4">
+    <line x1="380" y1="250" x2="320" y2="200"/>
+    <polygon points="320,200 325,215 335,205"/>
+  </g>
+  <text x="250" y="290" text-anchor="middle" font-size="20" fill="#FED7D7" font-weight="bold" opacity="0.6">Сталинград</text>
+  <text x="250" y="312" text-anchor="middle" font-size="14" fill="#FED7D7" opacity="0.5">Курск • 1943</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#E2E8F0" opacity="0.5">Коренной перелом</text>
+</svg>

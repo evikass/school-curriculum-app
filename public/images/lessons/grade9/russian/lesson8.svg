@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg8)"/>
+  <!-- Title -->
+  <rect x="100" y="15" width="300" height="35" rx="8" fill="#e94560"/>
+  <text x="250" y="38" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Итоговое повторение</text>
+  <!-- Five review blocks -->
+  <rect x="15" y="60" width="90" height="80" rx="8" fill="#e94560" opacity="0.8"/>
+  <text x="60" y="82" text-anchor="middle" fill="white" font-size="9" font-weight="bold">Простое</text>
+  <text x="60" y="96" text-anchor="middle" fill="white" font-size="8">предложение</text>
+  <text x="60" y="112" text-anchor="middle" fill="white" font-size="8">Тире</text>
+  <text x="60" y="126" text-anchor="middle" fill="white" font-size="8">Обособления</text>
+  <rect x="115" y="60" width="90" height="80" rx="8" fill="#533483" opacity="0.8"/>
+  <text x="160" y="82" text-anchor="middle" fill="white" font-size="9" font-weight="bold">ССП</text>
+  <text x="160" y="96" text-anchor="middle" fill="white" font-size="8">Запятая</text>
+  <text x="160" y="112" text-anchor="middle" fill="white" font-size="8">перед а, но</text>
+  <text x="160" y="126" text-anchor="middle" fill="white" font-size="8">Общий член</text>
+  <rect x="215" y="60" width="90" height="80" rx="8" fill="#0f3460" opacity="0.9"/>
+  <text x="260" y="82" text-anchor="middle" fill="white" font-size="9" font-weight="bold">СПП</text>
+  <text x="260" y="96" text-anchor="middle" fill="white" font-size="8">Запятая</text>
+  <text x="260" y="112" text-anchor="middle" fill="white" font-size="8">между частями</text>
+  <text x="260" y="126" text-anchor="middle" fill="white" font-size="8">Однор. придат.</text>
+  <rect x="315" y="60" width="90" height="80" rx="8" fill="#e94560" opacity="0.7"/>
+  <text x="360" y="82" text-anchor="middle" fill="white" font-size="9" font-weight="bold">БСП</text>
+  <text x="360" y="96" text-anchor="middle" fill="white" font-size="8">, ; : —</text>
+  <text x="360" y="112" text-anchor="middle" fill="white" font-size="8">Причина</text>
+  <text x="360" y="126" text-anchor="middle" fill="white" font-size="8">Следствие</text>
+  <rect x="415" y="60" width="70" height="80" rx="8" fill="#533483" opacity="0.7"/>
+  <text x="450" y="82" text-anchor="middle" fill="white" font-size="9" font-weight="bold">Прямая</text>
+  <text x="450" y="96" text-anchor="middle" fill="white" font-size="8">речь</text>
+  <text x="450" y="112" text-anchor="middle" fill="white" font-size="8">Кавычки</text>
+  <text x="450" y="126" text-anchor="middle" fill="white" font-size="8">Двоеточие</text>
+  <!-- Algorithm -->
+  <rect x="20" y="155" width="460" height="65" rx="8" fill="#16213e" stroke="#e94560" stroke-width="1.5"/>
+  <text x="250" y="178" text-anchor="middle" fill="#e94560" font-size="12" font-weight="bold">Алгоритм расстановки знаков</text>
+  <text x="250" y="198" text-anchor="middle" fill="white" font-size="10">1. Прочитать → 2. Найти основы → 3. Определить тип → 4. Вид связи → 5. Правило</text>
+  <!-- Common errors -->
+  <rect x="20" y="230" width="460" height="85" rx="8" fill="#0f3460" opacity="0.8"/>
+  <text x="250" y="255" text-anchor="middle" fill="#e94560" font-size="12" font-weight="bold">Типичные ошибки</text>
+  <text x="250" y="275" text-anchor="middle" fill="white" font-size="10">✕ Пропуск запятой в ССП перед «а», «но»</text>
+  <text x="250" y="293" text-anchor="middle" fill="white" font-size="10">✕ Лишняя запятая при общем второстепенном члене</text>
+  <text x="250" y="311" text-anchor="middle" fill="white" font-size="10">✕ Неправильный знак в БСП (двоеточие вместо тире)</text>
+  <text x="250" y="345" text-anchor="middle" fill="white" font-size="9" opacity="0.5">Итоговое повторение синтаксиса и пунктуации</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <!-- Right triangle -->
+  <polygon points="80,260 250,260 250,110" fill="none" stroke="#e94560" stroke-width="2.5"/>
+  <!-- Right angle mark -->
+  <rect x="250" y="248" width="12" height="12" fill="none" stroke="#e94560" stroke-width="1"/>
+  <!-- Side a (bottom) -->
+  <text x="150" y="280" fill="#4cc9f0" font-size="16" font-family="serif" font-weight="bold">a</text>
+  <!-- Side b (right) -->
+  <text x="258" y="190" fill="#4cc9f0" font-size="16" font-family="serif" font-weight="bold">b</text>
+  <!-- Hypotenuse c -->
+  <text x="145" y="175" fill="#f72585" font-size="16" font-family="serif" font-weight="bold">c</text>
+  <!-- Square on side a -->
+  <rect x="80" y="260" width="170" height="170" fill="#4cc9f0" fill-opacity="0.08" stroke="#4cc9f0" stroke-width="1.5"/>
+  <text x="145" y="310" fill="#4cc9f0" font-size="14" font-family="serif">a²</text>
+  <!-- Square on side b -->
+  <rect x="250" y="110" width="150" height="150" fill="#f77f00" fill-opacity="0.08" stroke="#f77f00" stroke-width="1.5"/>
+  <text x="310" y="195" fill="#f77f00" font-size="14" font-family="serif">b²</text>
+  <!-- Square on hypotenuse c -->
+  <polygon points="80,260 250,110 330,190 160,340" fill="#f72585" fill-opacity="0.08" stroke="#f72585" stroke-width="1.5"/>
+  <text x="215" y="240" fill="#f72585" font-size="14" font-family="serif">c²</text>
+  <!-- Formula -->
+  <text x="340" y="280" fill="#e94560" font-size="24" font-family="serif" font-weight="bold">a² + b² = c²</text>
+  <!-- Example -->
+  <text x="340" y="310" fill="#7f8c8d" font-size="11">3² + 4² = 5²</text>
+  <text x="340" y="325" fill="#7f8c8d" font-size="11">9 + 16 = 25</text>
+  <text x="250" y="340" fill="#fff" font-size="9" opacity="0.5" text-anchor="middle">Теорема Пифагора</text>
+</svg>

@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg12" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F5E9;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#E3F2FD;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#F3E5F5;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg12)"/>
+  
+  <!-- Title -->
+  <rect x="130" y="10" width="240" height="45" rx="10" fill="#FFF" stroke="#4CAF50" stroke-width="2"/>
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2E7D32" text-anchor="middle">📚 Проект</text>
+  
+  <!-- Project ideas board -->
+  <g transform="translate(30, 70)">
+    <rect x="0" y="0" width="200" height="180" fill="#FFF" rx="10" stroke="#795548" stroke-width="3"/>
+    <rect x="0" y="0" width="200" height="30" fill="#795548" rx="10"/>
+    <rect x="0" y="15" width="200" height="15" fill="#795548"/>
+    <text x="100" y="22" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFF" text-anchor="middle">📋 ИДЕИ ПРОЕКТОВ</text>
+    
+    <!-- Sticky notes -->
+    <rect x="10" y="40" width="85" height="40" fill="#FFF9C4" rx="3" transform="rotate(-2, 52, 60)"/>
+    <text x="52" y="55" font-family="Arial, sans-serif" font-size="8" fill="#F57F17" text-anchor="middle">Плакат</text>
+    <text x="52" y="67" font-family="Arial, sans-serif" font-size="7" fill="#FF8F00" text-anchor="middle">Безопасность</text>
+    
+    <rect x="105" y="40" width="85" height="40" fill="#C8E6C9" rx="3" transform="rotate(1, 147, 60)"/>
+    <text x="147" y="55" font-family="Arial, sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Книжка</text>
+    <text x="147" y="67" font-family="Arial, sans-serif" font-size="7" fill="#388E3C" text-anchor="middle">правил</text>
+    
+    <rect x="10" y="90" width="85" height="40" fill="#BBDEFB" rx="3" transform="rotate(2, 52, 110)"/>
+    <text x="52" y="105" font-family="Arial, sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">Викторина</text>
+    <text x="52" y="117" font-family="Arial, sans-serif" font-size="7" fill="#1976D2" text-anchor="middle">для класса</text>
+    
+    <rect x="105" y="90" width="85" height="40" fill="#F8BBD9" rx="3" transform="rotate(-1, 147, 110)"/>
+    <text x="147" y="105" font-family="Arial, sans-serif" font-size="8" fill="#AD1457" text-anchor="middle">Сценка</text>
+    <text x="147" y="117" font-family="Arial, sans-serif" font-size="7" fill="#C2185B" text-anchor="middle">о безопасности</text>
+    
+    <rect x="30" y="140" width="140" height="30" fill="#FFECB3" rx="3"/>
+    <text x="100" y="160" font-family="Arial, sans-serif" font-size="9" fill="#E65100" text-anchor="middle">🎭 Твоя идея!</text>
+  </g>
+  
+  <!-- Student presenting -->
+  <g transform="translate(280, 90)">
+    <rect x="0" y="0" width="190" height="160" fill="#FFF" rx="10" stroke="#2196F3" stroke-width="2"/>
+    <text x="95" y="18" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0D47A1" text-anchor="middle">ПРЕЗЕНТАЦИЯ</text>
+    
+    <!-- Presentation screen -->
+    <rect x="20" y="30" width="150" height="80" fill="#263238" rx="5"/>
+    <rect x="25" y="35" width="140" height="70" fill="#37474F"/>
+    
+    <!-- Content on screen -->
+    <text x="95" y="55" font-family="Arial, sans-serif" font-size="10" fill="#4CAF50" text-anchor="middle">🛡️ БЕЗОПАСНОСТЬ</text>
+    <rect x="40" y="62" width="110" height="3" fill="#FF9800"/>
+    <text x="95" y="78" font-family="Arial, sans-serif" font-size="8" fill="#81D4FA" text-anchor="middle">1. Правила дороги</text>
+    <text x="95" y="90" font-family="Arial, sans-serif" font-size="8" fill="#81D4FA" text-anchor="middle">2. Безопасность дома</text>
+    <text x="95" y="102" font-family="Arial, sans-serif" font-size="8" fill="#81D4FA" text-anchor="middle">3. Экстренные службы</text>
+    
+    <!-- Presenter stick figure -->
+    <circle cx="95" cy="130" r="12" fill="#FFCC80"/>
+    <rect x="85" y="140" width="20" height="20" fill="#42A5F5" rx="3"/>
+    <text x="95" y="128" font-family="Arial, sans-serif" font-size="8" fill="#333" text-anchor="middle">😊</text>
+  </g>
+  
+  <!-- Steps to create project -->
+  <g transform="translate(30, 265)">
+    <rect x="0" y="0" width="440" height="70" fill="#FFF" rx="10" stroke="#9C27B0" stroke-width="2"/>
+    <text x="220" y="18" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#6A1B9A" text-anchor="middle">📝 Шаги создания проекта:</text>
+    
+    <!-- Step circles -->
+    <circle cx="60" cy="48" r="18" fill="#E91E63"/>
+    <text x="60" y="53" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFF" text-anchor="middle">1</text>
+    <text x="60" y="70" font-family="Arial, sans-serif" font-size="7" fill="#C2185B" text-anchor="middle">Выбери тему</text>
+    
+    <circle cx="150" cy="48" r="18" fill="#FF9800"/>
+    <text x="150" y="53" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFF" text-anchor="middle">2</text>
+    <text x="150" y="70" font-family="Arial, sans-serif" font-size="7" fill="#E65100" text-anchor="middle">Собери материал</text>
+    
+    <circle cx="240" cy="48" r="18" fill="#4CAF50"/>
+    <text x="240" y="53" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFF" text-anchor="middle">3</text>
+    <text x="240" y="70" font-family="Arial, sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Создай проект</text>
+    
+    <circle cx="330" cy="48" r="18" fill="#2196F3"/>
+    <text x="330" y="53" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFF" text-anchor="middle">4</text>
+    <text x="330" y="70" font-family="Arial, sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">Подготовься</text>
+    
+    <circle cx="420" cy="48" r="18" fill="#9C27B0"/>
+    <text x="420" y="53" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFF" text-anchor="middle">5</text>
+    <text x="420" y="70" font-family="Arial, sans-serif" font-size="7" fill="#6A1B9A" text-anchor="middle">Представь!</text>
+    
+    <!-- Arrows between steps -->
+    <path d="M78,48 L132,48" stroke="#BDBDBD" stroke-width="2" fill="none"/>
+    <path d="M168,48 L222,48" stroke="#BDBDBD" stroke-width="2" fill="none"/>
+    <path d="M258,48 L312,48" stroke="#BDBDBD" stroke-width="2" fill="none"/>
+    <path d="M348,48 L402,48" stroke="#BDBDBD" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Decorative elements -->
+  <polygon points="250,65 255,80 270,80 258,90 263,105 250,95 237,105 242,90 230,80 245,80" fill="#FFC107">
+    <animate attributeName="opacity" values="1;0.6;1" dur="2s" repeatCount="indefinite"/>
+  </polygon>
+  
+  <!-- Pencil -->
+  <g transform="translate(250, 65) rotate(45)">
+    <rect x="-3" y="-25" width="6" height="20" fill="#FFC107"/>
+    <polygon points="0,0 -3,-5 3,-5" fill="#FFECB3"/>
+    <rect x="-3" y="-30" width="6" height="5" fill="#F48FB1"/>
+  </g>
+  
+  <!-- Lightbulb for ideas -->
+  <g transform="translate(470, 50)">
+    <ellipse cx="0" cy="0" rx="15" ry="18" fill="#FFEB3B">
+      <animate attributeName="fill" values="#FFEB3B;#FFF59D;#FFEB3B" dur="1s" repeatCount="indefinite"/>
+    </ellipse>
+    <rect x="-6" y="18" width="12" height="8" fill="#9E9E9E"/>
+    <rect x="-4" y="26" width="8" height="3" fill="#757575"/>
+  </g>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="25" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1B5E20" text-anchor="middle">Обобщение: Экосистемы — интеллект-карта</text>
+
+<!-- Center node: Экосистемы -->
+<ellipse cx="250" cy="175" rx="52" ry="25" fill="#2E7D32" stroke="#1B5E20" stroke-width="2"/>
+<text x="250" y="179" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="white" text-anchor="middle">Экосистемы</text>
+
+<!-- Branch 1: Факторы (top-left) -->
+<line x1="205" y1="158" x2="110" y2="85" stroke="#2E7D32" stroke-width="1.8"/>
+<rect x="40" y="55" width="120" height="50" rx="8" fill="white" opacity="0.8" stroke="#43A047" stroke-width="1.5"/>
+<text x="100" y="72" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#1B5E20" text-anchor="middle">Факторы</text>
+<text x="100" y="84" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">Абиотические (свет, t°, вода)</text>
+<text x="100" y="94" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">Биотические (конкуренция)</text>
+<text x="100" y="104" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">Антропогенные (загрязнение)</text>
+
+<!-- Branch 2: Популяции (top-right) -->
+<line x1="295" y1="158" x2="390" y2="85" stroke="#2E7D32" stroke-width="1.8"/>
+<rect x="340" y="55" width="130" height="50" rx="8" fill="white" opacity="0.8" stroke="#43A047" stroke-width="1.5"/>
+<text x="405" y="72" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#1B5E20" text-anchor="middle">Популяции</text>
+<text x="405" y="84" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">Численность, плотность</text>
+<text x="405" y="94" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">Динамика, кривые роста</text>
+<text x="405" y="104" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">Стратегии: r и K</text>
+
+<!-- Branch 3: Биоценозы (left) -->
+<line x1="200" y1="180" x2="95" y2="180" stroke="#2E7D32" stroke-width="1.8"/>
+<rect x="10" y="155" width="95" height="55" rx="8" fill="white" opacity="0.8" stroke="#43A047" stroke-width="1.5"/>
+<text x="57" y="172" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#1B5E20" text-anchor="middle">Биоценозы</text>
+<text x="57" y="184" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">Видовая структура</text>
+<text x="57" y="194" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">Экологическая ниша</text>
+<text x="57" y="204" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">Видовое разнообразие</text>
+
+<!-- Branch 4: Цепи питания (right) -->
+<line x1="300" y1="180" x2="395" y2="180" stroke="#2E7D32" stroke-width="1.8"/>
+<rect x="390" y="155" width="100" height="55" rx="8" fill="white" opacity="0.8" stroke="#43A047" stroke-width="1.5"/>
+<text x="440" y="172" font-family="Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#1B5E20" text-anchor="middle">Цепи питания</text>
+<text x="440" y="184" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">Продуценты →</text>
+<text x="440" y="194" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">Консументы →</text>
+<text x="440" y="204" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">Редуценты</text>
+
+<!-- Branch 5: Сукцессия (bottom-left) -->
+<line x1="215" y1="198" x2="130" y2="270" stroke="#2E7D32" stroke-width="1.8"/>
+<rect x="50" y="258" width="120" height="55" rx="8" fill="white" opacity="0.8" stroke="#43A047" stroke-width="1.5"/>
+<text x="110" y="275" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#1B5E20" text-anchor="middle">Сукцессия</text>
+<text x="110" y="287" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">Первичная (с нуля)</text>
+<text x="110" y="297" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">Вторичная (после наруш.)</text>
+<text x="110" y="307" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">Климаксное сообщество</text>
+
+<!-- Branch 6: Биосфера (bottom-right) -->
+<line x1="285" y1="198" x2="370" y2="270" stroke="#2E7D32" stroke-width="1.8"/>
+<rect x="310" y="258" width="135" height="55" rx="8" fill="white" opacity="0.8" stroke="#43A047" stroke-width="1.5"/>
+<text x="377" y="275" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#1B5E20" text-anchor="middle">Биосфера</text>
+<text x="377" y="287" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">Живое вещество (Вернадский)</text>
+<text x="377" y="297" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">Круговорот веществ</text>
+<text x="377" y="307" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">Поток энергии, ноосфера</text>
+
+<!-- Connecting relationships -->
+<text x="250" y="120" font-family="Arial,sans-serif" font-size="6" fill="#66BB6A" text-anchor="middle">определяют →</text>
+<text x="250" y="230" font-family="Arial,sans-serif" font-size="6" fill="#66BB6A" text-anchor="middle">← входят в →</text>
+
+<!-- Key concepts box -->
+<rect x="10" y="320" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.1"/>
+<text x="250" y="333" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle">Правило 10% · Правило экологической пирамиды · Саморегуляция · Гомеостаз · Смена биоценозов</text>
+<text x="250" y="345" font-family="Arial,sans-serif" font-size="7" fill="#66BB6A" text-anchor="middle">Урок 44 · Обобщение: Экосистемы</text>
+</svg>

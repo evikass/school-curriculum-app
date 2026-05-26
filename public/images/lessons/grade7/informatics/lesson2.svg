@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#F3E5F5"/>
+<!-- Variable boxes with labels -->
+<!-- Integer box -->
+<rect x="30" y="40" width="120" height="80" rx="8" fill="#E8EAF6" stroke="#3F51B5" stroke-width="2"/>
+<text x="90" y="62" font-family="monospace" font-size="12" fill="#3F51B5" text-anchor="middle">int</text>
+<text x="90" y="82" font-family="monospace" font-size="18" fill="#1A237E" text-anchor="middle" font-weight="bold">42</text>
+<text x="90" y="108" font-family="monospace" font-size="10" fill="#5C6BC0" text-anchor="middle">x = 42</text>
+<!-- Float box -->
+<rect x="170" y="40" width="120" height="80" rx="8" fill="#FFF3E0" stroke="#FF9800" stroke-width="2"/>
+<text x="230" y="62" font-family="monospace" font-size="12" fill="#FF9800" text-anchor="middle">float</text>
+<text x="230" y="82" font-family="monospace" font-size="18" fill="#E65100" text-anchor="middle" font-weight="bold">3.14</text>
+<text x="230" y="108" font-family="monospace" font-size="10" fill="#FF9800" text-anchor="middle">pi = 3.14</text>
+<!-- String box -->
+<rect x="310" y="40" width="160" height="80" rx="8" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+<text x="390" y="62" font-family="monospace" font-size="12" fill="#4CAF50" text-anchor="middle">str</text>
+<text x="390" y="82" font-family="monospace" font-size="16" fill="#1B5E20" text-anchor="middle" font-weight="bold">"Привет"</text>
+<text x="390" y="108" font-family="monospace" font-size="10" fill="#4CAF50" text-anchor="middle">s = "Привет"</text>
+<!-- Boolean box -->
+<rect x="30" y="145" width="120" height="70" rx="8" fill="#FCE4EC" stroke="#E91E63" stroke-width="2"/>
+<text x="90" y="167" font-family="monospace" font-size="12" fill="#E91E63" text-anchor="middle">bool</text>
+<text x="90" y="187" font-family="monospace" font-size="18" fill="#880E4F" text-anchor="middle" font-weight="bold">True</text>
+<text x="90" y="205" font-family="monospace" font-size="9" fill="#E91E63" text-anchor="middle">flag = True</text>
+<!-- List box -->
+<rect x="170" y="145" width="160" height="70" rx="8" fill="#E3F2FD" stroke="#2196F3" stroke-width="2"/>
+<text x="250" y="167" font-family="monospace" font-size="12" fill="#2196F3" text-anchor="middle">list</text>
+<text x="250" y="187" font-family="monospace" font-size="14" fill="#0D47A1" text-anchor="middle" font-weight="bold">[1, 2, 3]</text>
+<text x="250" y="205" font-family="monospace" font-size="9" fill="#2196F3" text-anchor="middle">a = [1, 2, 3]</text>
+<!-- Assignment arrow -->
+<text x="385" y="170" font-family="sans-serif" font-size="24" fill="#7B1FA2">=</text>
+<text x="385" y="195" font-family="sans-serif" font-size="10" fill="#9C27B0">присво-</text>
+<text x="385" y="207" font-family="sans-serif" font-size="10" fill="#9C27B0">ение</text>
+<!-- Type casting arrows -->
+<rect x="50" y="240" width="400" height="65" rx="8" fill="#F3E5F5" opacity="0.5" stroke="#7B1FA2" stroke-width="1"/>
+<text x="250" y="260" font-family="sans-serif" font-size="12" fill="#6A1B9A" text-anchor="middle" font-weight="bold">Преобразование типов</text>
+<text x="80" y="282" font-family="monospace" font-size="11" fill="#7B1FA2">int("42") → 42</text>
+<text x="250" y="282" font-family="monospace" font-size="11" fill="#7B1FA2">str(42) → "42"</text>
+<text x="400" y="282" font-family="monospace" font-size="11" fill="#7B1FA2">float(3) → 3.0</text>
+<text x="250" y="345" font-family="sans-serif" font-size="9" fill="#6A1B9A" opacity="0.5" text-anchor="middle">Переменные и типы данных</text>
+</svg>

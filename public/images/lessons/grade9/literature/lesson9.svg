@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#1a1a2e"/><stop offset="100%" style="stop-color:#2c1810"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <text x="250" y="22" text-anchor="middle" fill="#4fc3f7" font-size="14" font-weight="bold">А.П. Чехов (1860–1904)</text>
+  <text x="250" y="40" text-anchor="middle" fill="white" font-size="10" font-style="italic">«Краткость — сестра таланта»</text>
+  <!-- Story cards -->
+  <rect x="15" y="50" width="115" height="75" rx="6" fill="#e74c3c" opacity="0.7"/>
+  <text x="72" y="72" text-anchor="middle" fill="white" font-size="9" font-weight="bold">«Хамелеон»</text>
+  <text x="72" y="88" text-anchor="middle" fill="white" font-size="8">Приспособлен-</text>
+  <text x="72" y="101" text-anchor="middle" fill="white" font-size="8">чество</text>
+  <text x="72" y="116" text-anchor="middle" fill="white" font-size="8">Очумелов</text>
+  <rect x="140" y="50" width="115" height="75" rx="6" fill="#9b59b6" opacity="0.7"/>
+  <text x="197" y="72" text-anchor="middle" fill="white" font-size="9" font-weight="bold">«Человек в</text>
+  <text x="197" y="84" text-anchor="middle" fill="white" font-size="9" font-weight="bold">футляре»</text>
+  <text x="197" y="101" text-anchor="middle" fill="white" font-size="8">Страх перед</text>
+  <text x="197" y="114" text-anchor="middle" fill="white" font-size="8">жизнью — Беликов</text>
+  <rect x="265" y="50" width="105" height="75" rx="6" fill="#27ae60" opacity="0.7"/>
+  <text x="317" y="72" text-anchor="middle" fill="white" font-size="9" font-weight="bold">«Ионыч»</text>
+  <text x="317" y="88" text-anchor="middle" fill="white" font-size="8">Деградация</text>
+  <text x="317" y="101" text-anchor="middle" fill="white" font-size="8">личности</text>
+  <text x="317" y="116" text-anchor="middle" fill="white" font-size="8">Старцев</text>
+  <rect x="380" y="50" width="105" height="75" rx="6" fill="#f39c12" opacity="0.7"/>
+  <text x="432" y="72" text-anchor="middle" fill="white" font-size="9" font-weight="bold">«Толстый и</text>
+  <text x="432" y="84" text-anchor="middle" fill="white" font-size="9" font-weight="bold">тонкий»</text>
+  <text x="432" y="101" text-anchor="middle" fill="white" font-size="8">Чинопочитание</text>
+  <text x="432" y="116" text-anchor="middle" fill="white" font-size="8">Лакейство</text>
+  <!-- The Cherry Orchard -->
+  <rect x="30" y="140" width="440" height="100" rx="8" fill="#2c1810" stroke="#4fc3f7" stroke-width="1.5"/>
+  <text x="250" y="165" text-anchor="middle" fill="#4fc3f7" font-size="12" font-weight="bold">«Вишнёвый сад» (1903)</text>
+  <rect x="45" y="175" width="125" height="50" rx="5" fill="#9b59b6" opacity="0.6"/>
+  <text x="107" y="198" text-anchor="middle" fill="white" font-size="9">Раневская</text>
+  <text x="107" y="213" text-anchor="middle" fill="white" font-size="8">Уходящая Русь</text>
+  <rect x="180" y="175" width="125" height="50" rx="5" fill="#27ae60" opacity="0.6"/>
+  <text x="242" y="198" text-anchor="middle" fill="white" font-size="9">Лопахин</text>
+  <text x="242" y="213" text-anchor="middle" fill="white" font-size="8">Новый хозяин</text>
+  <rect x="315" y="175" width="140" height="50" rx="5" fill="#4fc3f7" opacity="0.6"/>
+  <text x="385" y="198" text-anchor="middle" fill="white" font-size="9">Вишнёвый сад</text>
+  <text x="385" y="213" text-anchor="middle" fill="white" font-size="8">Символ эпохи</text>
+  <!-- Style note -->
+  <rect x="30" y="255" width="440" height="60" rx="6" fill="#1a1a2e" stroke="#d4a574" stroke-width="1"/>
+  <text x="250" y="278" text-anchor="middle" fill="#d4a574" font-size="11" font-weight="bold">Чеховский стиль</text>
+  <text x="250" y="298" text-anchor="middle" fill="white" font-size="10">Лаконичность + подтекст = «подводное течение»</text>
+  <text x="250" y="345" text-anchor="middle" fill="white" font-size="9" opacity="0.5">А.П. Чехов</text>
+</svg>

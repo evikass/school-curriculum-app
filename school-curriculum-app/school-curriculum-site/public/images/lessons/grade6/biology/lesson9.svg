@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+  <text x="250" y="30" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#2E7D32" text-anchor="middle">Разнообразие грибов</text>
+  <text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 6 класс - Урок 9</text>
+  <line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+  
+  <!-- 4 types of fungi -->
+  <g transform="translate(70,120)">
+    <!-- Chanterelle -->
+    <path d="M-18 0 Q-22 -15 -10 -22 Q0 -25 10 -22 Q22 -15 18 0 Z" fill="#FFB300" stroke="#E65100" stroke-width="1.5"/>
+    <rect x="-4" y="0" width="8" height="25" fill="#FFCC80" stroke="#E65100" stroke-width="1" rx="3"/>
+    <text x="0" y="40" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle" font-weight="bold">Лисичка</text>
+  </g>
+  <g transform="translate(180,115)">
+    <!-- Amanita -->
+    <path d="M-25 0 Q-30 -25 -15 -35 Q0 -40 15 -35 Q30 -25 25 0 Z" fill="#E53935" stroke="#C62828" stroke-width="1.5"/>
+    <circle cx="-10" cy="-18" r="4" fill="white" opacity="0.7"/>
+    <circle cx="8" cy="-22" r="3.5" fill="white" opacity="0.6"/>
+    <circle cx="-2" cy="-8" r="3" fill="white" opacity="0.5"/>
+    <rect x="-5" y="0" width="10" height="30" fill="#FFF3E0" stroke="#D7CCC8" stroke-width="1" rx="3"/>
+    <ellipse cx="0" cy="10" rx="10" ry="3" fill="#FFECB3" stroke="#D7CCC8" stroke-width="0.8"/>
+    <text x="35" y="-25" font-family="Arial,sans-serif" font-size="11" fill="#C62828" font-weight="bold">!</text>
+    <text x="0" y="48" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" font-weight="bold">Мухомор</text>
+  </g>
+  <g transform="translate(310,120)">
+    <!-- Yeast budding -->
+    <ellipse cx="-8" cy="0" rx="10" ry="8" fill="#FFF9C4" stroke="#F9A825" stroke-width="1.5"/>
+    <ellipse cx="8" cy="-10" rx="7" ry="6" fill="#FFF9C4" stroke="#F9A825" stroke-width="1.2"/>
+    <path d="M-2 -5 Q2 -10 4 -8" stroke="#F9A825" stroke-width="1" fill="none"/>
+    <circle cx="-8" cy="0" r="3" fill="#FDD835"/>
+    <circle cx="8" cy="-10" r="2" fill="#FDD835"/>
+    <text x="0" y="25" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle" font-weight="bold">Дрожжи</text>
+  </g>
+  <g transform="translate(420,120)">
+    <!-- Mold -->
+    <rect x="-18" y="5" width="36" height="18" fill="#D7CCC8" stroke="#BCAAA4" stroke-width="1" rx="3"/>
+    <line x1="-6" y1="5" x2="-8" y2="-15" stroke="#8BC34A" stroke-width="1.5"/>
+    <line x1="0" y1="5" x2="2" y2="-18" stroke="#8BC34A" stroke-width="1.5"/>
+    <line x1="8" y1="5" x2="12" y2="-12" stroke="#8BC34A" stroke-width="1.5"/>
+    <circle cx="-8" cy="-17" r="5" fill="#689F38" opacity="0.7"/>
+    <circle cx="2" cy="-20" r="6" fill="#7CB342" opacity="0.7"/>
+    <circle cx="12" cy="-14" r="4" fill="#689F38" opacity="0.7"/>
+    <text x="0" y="38" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle" font-weight="bold">Плесень</text>
+  </g>
+  <!-- Bracket fungus on tree -->
+  <g transform="translate(70,230)">
+    <rect x="-5" y="-20" width="20" height="40" fill="#795548" rx="3"/>
+    <path d="M15 -10 Q22 -20 35 -15 Q30 -8 15 -5 Z" fill="#FF8F00" stroke="#E65100" stroke-width="1"/>
+    <path d="M15 0 Q20 -8 32 -5 Q28 2 15 3 Z" fill="#FFA000" stroke="#E65100" stroke-width="1"/>
+    <text x="15" y="35" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Трутовик</text>
+  </g>
+  <!-- Morel -->
+  <g transform="translate(200,225)">
+    <path d="M-12 0 Q-15 -15 -10 -25 Q-5 -30 0 -28 Q5 -30 10 -25 Q15 -15 12 0 Z" fill="#8D6E63" stroke="#5D4037" stroke-width="1.5"/>
+    <!-- Pits -->
+    <ellipse cx="-5" cy="-18" rx="3" ry="2" fill="#5D4037" opacity="0.3"/>
+    <ellipse cx="5" cy="-12" rx="3" ry="2" fill="#5D4037" opacity="0.3"/>
+    <ellipse cx="0" cy="-6" rx="3" ry="2" fill="#5D4037" opacity="0.3"/>
+    <rect x="-4" y="0" width="8" height="20" fill="#D7CCC8" stroke="#BCAAA4" stroke-width="1" rx="3"/>
+    <text x="0" y="35" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle" font-weight="bold">Сморчок</text>
+  </g>
+  <!-- Summary -->
+  <rect x="300" y="220" width="175" height="85" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
+  <text x="387" y="237" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle" font-weight="bold">Группы грибов</text>
+  <text x="310" y="253" font-family="Arial,sans-serif" font-size="7" fill="#555">- Шляпочные (съедобные/ядовитые)</text>
+  <text x="310" y="265" font-family="Arial,sans-serif" font-size="7" fill="#555">- Плесневые (пеницилл, мукор)</text>
+  <text x="310" y="277" font-family="Arial,sans-serif" font-size="7" fill="#555">- Дрожжи (одноклеточные)</text>
+  <text x="310" y="289" font-family="Arial,sans-serif" font-size="7" fill="#555">- Трутовики (паразиты деревьев)</text>
+  <text x="310" y="301" font-family="Arial,sans-serif" font-size="7" fill="#C62828">Правило: не ешь незнакомые грибы!</text>
+
+  <rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+  <text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 6 класс</text>
+</svg>

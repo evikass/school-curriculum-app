@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F3E5F5"/>
+      <stop offset="100%" stop-color="#E1BEE7"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#8E24AA" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#8E24AA" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#6A1B9A" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#6A1B9A" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#AB47BC" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#CE93D8" opacity="0.08"/>
+  <circle cx="70" cy="15" r="4" fill="#6A1B9A" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#8E24AA" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#9C27B0" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#6A1B9A" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#8E24AA" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#9C27B0" opacity="0.1"/>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#8E24AA" text-anchor="middle">Русский авангард</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">ИЗО - Урок 15</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#8E24AA" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#8E24AA" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#AB47BC" opacity="0.12" rx="1"/>
+  <rect x="20" y="88" width="220" height="200" rx="6" fill="white" stroke="#8E24AA" stroke-width="1.5" opacity="0.95"/>
+  <rect x="20" y="88" width="220" height="24" rx="6" fill="#8E24AA" opacity="0.9"/>
+  <rect x="20" y="104" width="220" height="8" fill="#8E24AA" opacity="0.9"/>
+  <text x="130" y="105" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">ЦВЕТОВОЙ КРУГ</text>
+  <path d="M130,195 L130,150 A45,45 0 0,1 168,173 Z" fill="#F44336" opacity="0.5" stroke="white" stroke-width="1"/>
+  <path d="M130,195 L168,173 A45,45 0 0,1 168,217 Z" fill="#FF9800" opacity="0.5" stroke="white" stroke-width="1"/>
+  <path d="M130,195 L168,217 A45,45 0 0,1 130,240 Z" fill="#FFEB3B" opacity="0.5" stroke="white" stroke-width="1"/>
+  <path d="M130,195 L130,240 A45,45 0 0,1 92,217 Z" fill="#4CAF50" opacity="0.5" stroke="white" stroke-width="1"/>
+  <path d="M130,195 L92,217 A45,45 0 0,1 92,173 Z" fill="#2196F3" opacity="0.5" stroke="white" stroke-width="1"/>
+  <path d="M130,195 L92,173 A45,45 0 0,1 130,150 Z" fill="#9C27B0" opacity="0.5" stroke="white" stroke-width="1"/>
+  <circle cx="130" cy="195" r="15" fill="white" stroke="#8E24AA" stroke-width="1"/>
+  <rect x="260" y="88" width="220" height="200" rx="6" fill="white" stroke="#9C27B0" stroke-width="1.5" opacity="0.95"/>
+  <rect x="260" y="88" width="220" height="24" rx="6" fill="#9C27B0" opacity="0.9"/>
+  <rect x="260" y="104" width="220" height="8" fill="#9C27B0" opacity="0.9"/>
+  <text x="370" y="105" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">ИСТОРИЯ ИСКУССТВА</text>
+  <rect x="270" y="120" width="200" height="24" rx="12" fill="#8E24AA" opacity="0.15"/>
+  <text x="370" y="137" font-family="Arial,sans-serif" font-size="9" fill="#8E24AA" text-anchor="middle" font-weight="bold">Древнерусское</text>
+  <rect x="270" y="155" width="200" height="24" rx="12" fill="#6A1B9A" opacity="0.15"/>
+  <text x="370" y="172" font-family="Arial,sans-serif" font-size="9" fill="#6A1B9A" text-anchor="middle" font-weight="bold">XIX век</text>
+  <rect x="270" y="190" width="200" height="24" rx="12" fill="#9C27B0" opacity="0.15"/>
+  <text x="370" y="207" font-family="Arial,sans-serif" font-size="9" fill="#9C27B0" text-anchor="middle" font-weight="bold">Авангард</text>
+  <rect x="270" y="225" width="200" height="24" rx="12" fill="#AB47BC" opacity="0.15"/>
+  <text x="370" y="242" font-family="Arial,sans-serif" font-size="9" fill="#AB47BC" text-anchor="middle" font-weight="bold">Народные промыслы</text>
+  <circle cx="475" cy="295" r="6" fill="#8E24AA" opacity="0.08"/>
+  <circle cx="468" cy="288" r="4" fill="#8E24AA" opacity="0.06"/>
+  <rect x="15" y="308" width="470" height="30" rx="4" fill="#8E24AA" opacity="0.85"/>
+  <text x="250" y="329" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Русский авангард</text>
+</svg>

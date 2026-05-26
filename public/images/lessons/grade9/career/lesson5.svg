@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#FFF8E1" rx="8"/>
+<!-- Resume paper -->
+<rect x="130" y="25" width="240" height="290" rx="6" fill="white" stroke="#5D4037" stroke-width="2"/>
+<!-- Photo circle -->
+<circle cx="250" cy="80" r="28" fill="#FFE0B2" stroke="#5D4037" stroke-width="1.5"/>
+<circle cx="250" cy="72" r="10" fill="#8D6E63"/>
+<ellipse cx="250" cy="95" rx="16" ry="8" fill="#8D6E63"/>
+<!-- Name -->
+<text x="250" y="125" font-family="Arial" font-size="12" fill="#3E2723" text-anchor="middle" font-weight="bold">Иванов Иван Иванович</text>
+<!-- Section: Contacts -->
+<rect x="148" y="135" width="204" height="2" fill="#8D6E63"/>
+<text x="155" y="150" font-family="Arial" font-size="9" fill="#5D4037" font-weight="bold">📞 Контакты</text>
+<text x="155" y="163" font-family="Arial" font-size="8" fill="#333">+7 (999) 123-45-67</text>
+<text x="155" y="175" font-family="Arial" font-size="8" fill="#333">ivanov@email.com</text>
+<!-- Section: Education -->
+<rect x="148" y="183" width="204" height="2" fill="#8D6E63"/>
+<text x="155" y="198" font-family="Arial" font-size="9" fill="#5D4037" font-weight="bold">🎓 Образование</text>
+<text x="155" y="211" font-family="Arial" font-size="8" fill="#333">Школа №42 (2020–2025)</text>
+<!-- Section: Experience -->
+<rect x="148" y="219" width="204" height="2" fill="#8D6E63"/>
+<text x="155" y="234" font-family="Arial" font-size="9" fill="#5D4037" font-weight="bold">💼 Опыт</text>
+<text x="155" y="247" font-family="Arial" font-size="8" fill="#333">Волонтёр, фонд «Доброе дело»</text>
+<!-- Section: Skills -->
+<rect x="148" y="255" width="204" height="2" fill="#8D6E63"/>
+<text x="155" y="270" font-family="Arial" font-size="9" fill="#5D4037" font-weight="bold">🛠 Навыки</text>
+<text x="155" y="283" font-family="Arial" font-size="8" fill="#333">Python, HTML, английский B1</text>
+<!-- Tips box -->
+<rect x="390" y="25" width="100" height="290" rx="6" fill="#FFF3E0" stroke="#FF8F00" stroke-width="1.5"/>
+<text x="440" y="45" font-family="Arial" font-size="9" fill="#E65100" font-weight="bold" text-anchor="middle">Советы</text>
+<text x="400" y="65" font-family="Arial" font-size="8" fill="#333">• 1–2 страницы</text>
+<text x="400" y="82" font-family="Arial" font-size="8" fill="#333">• Чёткая структура</text>
+<text x="400" y="99" font-family="Arial" font-size="8" fill="#333">• Без ошибок</text>
+<text x="400" y="116" font-family="Arial" font-size="8" fill="#333">• Деловой стиль</text>
+<text x="400" y="133" font-family="Arial" font-size="8" fill="#333">• Актуальная инфо</text>
+<text x="400" y="155" font-family="Arial" font-size="8" fill="#E65100" font-weight="bold">Структура:</text>
+<text x="400" y="172" font-family="Arial" font-size="8" fill="#333">1. Контакты</text>
+<text x="400" y="189" font-family="Arial" font-size="8" fill="#333">2. Образование</text>
+<text x="400" y="206" font-family="Arial" font-size="8" fill="#333">3. Опыт работы</text>
+<text x="400" y="223" font-family="Arial" font-size="8" fill="#333">4. Навыки</text>
+<text x="400" y="240" font-family="Arial" font-size="8" fill="#333">5. Достижения</text>
+<text x="400" y="262" font-family="Arial" font-size="8" fill="#E65100" font-weight="bold">Форматы:</text>
+<text x="400" y="279" font-family="Arial" font-size="8" fill="#333">• PDF</text>
+<text x="400" y="296" font-family="Arial" font-size="8" fill="#333">• .docx</text>
+<!-- Stamp/checkmark -->
+<circle cx="110" cy="280" r="20" fill="#4CAF50" opacity="0.15" stroke="#388E3C" stroke-width="2"/>
+<text x="110" y="287" font-family="Arial" font-size="20" fill="#388E3C" text-anchor="middle">✓</text>
+<text x="250" y="345" font-family="Arial" font-size="9" fill="#999" text-anchor="middle" opacity="0.5">Что такое резюме — Карьерное консультирование 9</text>
+</svg>

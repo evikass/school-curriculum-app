@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Генетика пола и наследование, сцепленное с полом</text>
+<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 9 класс — Урок 16</text>
+<line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+
+<!-- Sex chromosomes -->
+<g transform="translate(130,170)">
+<!-- X chromosome -->
+<rect x="-30" y="-50" width="22" height="80" rx="11" fill="#E53935" opacity="0.3" stroke="#C62828" stroke-width="2"/>
+<text x="-19" y="42" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle" font-weight="bold">X</text>
+<!-- X chromosome 2 -->
+<rect x="8" y="-50" width="22" height="80" rx="11" fill="#E53935" opacity="0.3" stroke="#C62828" stroke-width="2"/>
+<text x="19" y="42" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle" font-weight="bold">X</text>
+<text x="0" y="60" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" font-weight="bold">XX — Женщина</text>
+</g>
+<g transform="translate(310,170)">
+<!-- X chromosome -->
+<rect x="-30" y="-50" width="22" height="80" rx="11" fill="#E53935" opacity="0.3" stroke="#C62828" stroke-width="2"/>
+<text x="-19" y="42" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle" font-weight="bold">X</text>
+<!-- Y chromosome -->
+<rect x="8" y="-40" width="14" height="50" rx="5" fill="#1565C0" opacity="0.3" stroke="#0D47A1" stroke-width="2"/>
+<text x="15" y="25" font-family="Arial,sans-serif" font-size="8" fill="#0D47A1" text-anchor="middle" font-weight="bold">Y</text>
+<text x="0" y="60" font-family="Arial,sans-serif" font-size="7" fill="#0D47A1" text-anchor="middle" font-weight="bold">XY — Мужчина</text>
+</g>
+<!-- Inheritance pattern -->
+<g transform="translate(430,150)">
+<rect x="-50" y="-50" width="100" height="100" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.2"/>
+<text x="0" y="-35" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle" font-weight="bold">Сцеплено с X</text>
+<line x1="-35" y1="-28" x2="35" y2="-28" stroke="#2E7D32" stroke-width="0.5"/>
+<text x="0" y="-15" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Дальтонизм</text>
+<text x="0" y="-3" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Гемофилия</text>
+<line x1="-35" y1="5" x2="35" y2="5" stroke="#2E7D32" stroke-width="0.5"/>
+<text x="0" y="18" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">X(d)X — носитель</text>
+<text x="0" y="30" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">X(d)Y — болен</text>
+<text x="0" y="42" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">X(D)X(D) — здорова</text>
+</g>
+
+<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 9 класс</text>
+</svg>

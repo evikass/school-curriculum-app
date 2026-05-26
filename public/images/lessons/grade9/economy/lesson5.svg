@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#059669"/>
+      <stop offset="100%" style="stop-color:#064e3b"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg5)" rx="12"/>
+  <!-- Market hall/building -->
+  <rect x="150" y="60" width="200" height="140" rx="6" fill="#065f46" stroke="#34d399" stroke-width="2"/>
+  <rect x="150" y="50" width="200" height="20" rx="4" fill="#047857"/>
+  <text x="250" y="65" font-family="sans-serif" font-size="10" fill="#a7f3d0" text-anchor="middle" font-weight="bold">РЫНОК</text>
+  <!-- Five function circles inside -->
+  <circle cx="195" cy="110" r="22" fill="#10b981" stroke="#6ee7b7" stroke-width="1.5"/>
+  <text x="195" y="107" font-family="sans-serif" font-size="7" fill="white" text-anchor="middle">Посредник</text>
+  <text x="195" y="118" font-family="sans-serif" font-size="7" fill="white" text-anchor="middle">Соединяет</text>
+  <circle cx="305" cy="110" r="22" fill="#059669" stroke="#6ee7b7" stroke-width="1.5"/>
+  <text x="305" y="107" font-family="sans-serif" font-size="7" fill="white" text-anchor="middle">Ценообр.</text>
+  <text x="305" y="118" font-family="sans-serif" font-size="7" fill="white" text-anchor="middle">Формир.</text>
+  <circle cx="195" cy="170" r="22" fill="#047857" stroke="#6ee7b7" stroke-width="1.5"/>
+  <text x="195" y="167" font-family="sans-serif" font-size="7" fill="white" text-anchor="middle">Информ.</text>
+  <text x="195" y="178" font-family="sans-serif" font-size="7" fill="white" text-anchor="middle">Сигналы</text>
+  <circle cx="305" cy="170" r="22" fill="#065f46" stroke="#6ee7b7" stroke-width="1.5"/>
+  <text x="305" y="167" font-family="sans-serif" font-size="7" fill="white" text-anchor="middle">Регулир.</text>
+  <text x="305" y="178" font-family="sans-serif" font-size="7" fill="white" text-anchor="middle">Ресурсы</text>
+  <!-- Sanitation function - broom icon below -->
+  <circle cx="250" cy="235" r="25" fill="#064e3b" stroke="#fbbf24" stroke-width="2"/>
+  <text x="250" y="230" font-family="sans-serif" font-size="7" fill="#fbbf24" text-anchor="middle">Санирующая</text>
+  <text x="250" y="243" font-family="sans-serif" font-size="7" fill="#fbbf24" text-anchor="middle">Очищает</text>
+  <!-- Market types on sides -->
+  <rect x="20" y="80" width="110" height="90" rx="6" fill="#064e3b" stroke="#34d399" stroke-width="1"/>
+  <text x="75" y="100" font-family="sans-serif" font-size="9" fill="#6ee7b7" text-anchor="middle" font-weight="bold">По объектам</text>
+  <text x="75" y="118" font-family="sans-serif" font-size="8" fill="#a7f3d0" text-anchor="middle">Товарные</text>
+  <text x="75" y="133" font-family="sans-serif" font-size="8" fill="#a7f3d0" text-anchor="middle">Финансовые</text>
+  <text x="75" y="148" font-family="sans-serif" font-size="8" fill="#a7f3d0" text-anchor="middle">Ресурсные</text>
+  <rect x="370" y="80" width="110" height="90" rx="6" fill="#064e3b" stroke="#34d399" stroke-width="1"/>
+  <text x="425" y="100" font-family="sans-serif" font-size="9" fill="#6ee7b7" text-anchor="middle" font-weight="bold">По территории</text>
+  <text x="425" y="118" font-family="sans-serif" font-size="8" fill="#a7f3d0" text-anchor="middle">Локальные</text>
+  <text x="425" y="133" font-family="sans-serif" font-size="8" fill="#a7f3d0" text-anchor="middle">Национальные</text>
+  <text x="425" y="148" font-family="sans-serif" font-size="8" fill="#a7f3d0" text-anchor="middle">Мировые</text>
+  <!-- Institutions at bottom -->
+  <rect x="60" y="270" width="380" height="45" rx="6" fill="#064e3b" stroke="#34d399" stroke-width="1"/>
+  <text x="250" y="288" font-family="sans-serif" font-size="9" fill="#6ee7b7" text-anchor="middle" font-weight="bold">Институты рынка</text>
+  <text x="140" y="305" font-family="sans-serif" font-size="7" fill="#a7f3d0" text-anchor="middle">Собственность</text>
+  <text x="250" y="305" font-family="sans-serif" font-size="7" fill="#a7f3d0" text-anchor="middle">Конкуренция</text>
+  <text x="360" y="305" font-family="sans-serif" font-size="7" fill="#a7f3d0" text-anchor="middle">Право</text>
+  <text x="250" y="340" font-family="sans-serif" font-size="9" fill="white" text-anchor="middle" opacity="0.5">Рыночный механизм</text>
+</svg>

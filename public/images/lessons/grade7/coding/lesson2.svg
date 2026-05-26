@@ -1,0 +1,48 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="350" fill="#1b2631"/>
+  <!-- Code editor window -->
+  <rect x="30" y="30" width="250" height="240" rx="8" fill="#2c3e50" stroke="#5dade2" stroke-width="1.5"/>
+  <!-- Title bar -->
+  <rect x="30" y="30" width="250" height="22" rx="8" fill="#34495e"/>
+  <circle cx="50" cy="41" r="5" fill="#e74c3c"/>
+  <circle cx="66" cy="41" r="5" fill="#f39c12"/>
+  <circle cx="82" cy="41" r="5" fill="#27ae60"/>
+  <text x="130" y="45" font-size="9" fill="#bdc3c7">main.py</text>
+  <!-- Line numbers -->
+  <text x="40" y="72" font-family="monospace" font-size="9" fill="#7f8c8d">1</text>
+  <text x="40" y="88" font-family="monospace" font-size="9" fill="#7f8c8d">2</text>
+  <text x="40" y="104" font-family="monospace" font-size="9" fill="#7f8c8d">3</text>
+  <text x="40" y="120" font-family="monospace" font-size="9" fill="#7f8c8d">4</text>
+  <text x="40" y="136" font-family="monospace" font-size="9" fill="#7f8c8d">5</text>
+  <!-- Code content -->
+  <text x="58" y="72" font-family="monospace" font-size="11" fill="#e74c3c"># Моя первая программа</text>
+  <text x="58" y="88" font-family="monospace" font-size="11" fill="#f8f9fa"/>
+  <text x="58" y="104" font-family="monospace" font-size="11" fill="#5dade2">print</text>
+  <text x="98" y="104" font-family="monospace" font-size="11" fill="#f8f9fa">(</text>
+  <text x="106" y="104" font-family="monospace" font-size="11" fill="#f39c12">'Привет!'</text>
+  <text x="188" y="104" font-family="monospace" font-size="11" fill="#f8f9fa">)</text>
+  <text x="58" y="120" font-family="monospace" font-size="11" fill="#5dade2">print</text>
+  <text x="98" y="120" font-family="monospace" font-size="11" fill="#f8f9fa">(</text>
+  <text x="106" y="120" font-family="monospace" font-size="11" fill="#f39c12">"Я учу Python!"</text>
+  <text x="228" y="120" font-family="monospace" font-size="11" fill="#f8f9fa">)</text>
+  <text x="58" y="136" font-family="monospace" font-size="11" fill="#7f8c8d"/>
+  <!-- Cursor blinking -->
+  <rect x="58" y="140" width="7" height="13" fill="#5dade2" opacity="0.7"/>
+  <!-- Run button -->
+  <polygon points="230,258 245,265 230,272" fill="#27ae60"/>
+  <text x="250" y="269" font-size="9" fill="#27ae60">Run</text>
+  <!-- Console output -->
+  <rect x="310" y="60" width="170" height="180" rx="8" fill="#0d1117" stroke="#27ae60" stroke-width="1.5"/>
+  <rect x="310" y="60" width="170" height="20" rx="8" fill="#161b22"/>
+  <text x="330" y="74" font-size="8" fill="#58a6ff">Terminal</text>
+  <text x="322" y="102" font-family="monospace" font-size="9" fill="#7ee787">&gt;&gt;&gt;</text>
+  <text x="348" y="102" font-family="monospace" font-size="10" fill="#f0f6fc">Привет!</text>
+  <text x="322" y="120" font-family="monospace" font-size="9" fill="#7ee787">&gt;&gt;&gt;</text>
+  <text x="348" y="120" font-family="monospace" font-size="10" fill="#f0f6fc">Я учу Python!</text>
+  <text x="322" y="138" font-family="monospace" font-size="9" fill="#7ee787">&gt;&gt;&gt;</text>
+  <rect x="348" y="130" width="6" height="12" fill="#7ee787" opacity="0.6"/>
+  <!-- Arrow from Run to output -->
+  <path d="M275,265 Q295,265 305,180 L310,150" fill="none" stroke="#27ae60" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.5"/>
+  <!-- Decorative -->
+  <text x="20" y="330" font-size="9" fill="#fff" opacity="0.5">Первая программа</text>
+</svg>

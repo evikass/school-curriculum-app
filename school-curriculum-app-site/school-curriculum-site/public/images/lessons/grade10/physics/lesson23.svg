@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1565C0"/>
+      <stop offset="100%" stop-color="#1976D2"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+  <text x="250" y="28" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1565C0" text-anchor="middle">Алгоритм решения задач по динамике</text>
+  <text x="250" y="44" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Физика 10 класс — Урок 23</text>
+  <line x1="30" y1="52" x2="470" y2="52" stroke="#1565C0" stroke-width="1.5" opacity="0.25"/>
+  <clipPath id="ill"><rect x="15" y="56" width="470" height="238" rx="6"/></clipPath>
+  <g clip-path="url(#ill)">
+    <rect x="15" y="56" width="470" height="238" fill="#E3F2FD" opacity="0.4"/>
+
+    <!-- Algorithm flowchart -->
+    <rect x="25" y="62" width="450" height="25" rx="5" fill="#1565C0" opacity="0.1"/>
+    <text x="250" y="80" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" font-weight="bold" text-anchor="middle">Пошаговый алгоритм</text>
+
+    <!-- Step 1 -->
+    <rect x="30" y="92" width="130" height="35" rx="5" fill="white" stroke="#1565C0" stroke-width="1.5"/>
+    <circle cx="45" cy="102" r="8" fill="#1565C0"/>
+    <text x="45" y="106" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">1</text>
+    <text x="100" y="107" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">Чертёж + силы</text>
+    <text x="100" y="120" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Все тела + все силы</text>
+
+    <!-- Arrow -->
+    <line x1="165" y1="109" x2="177.5" y2="109.0" stroke="#1565C0" stroke-width="1.5"/>
+    <polygon points="180,109 175.0,111.0 175.0,107.0" fill="#1565C0"/>
+
+    <!-- Step 2 -->
+    <rect x="185" y="92" width="130" height="35" rx="5" fill="white" stroke="#1565C0" stroke-width="1.5"/>
+    <circle cx="200" cy="102" r="8" fill="#E53935"/>
+    <text x="200" y="106" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">2</text>
+    <text x="255" y="107" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">Выбрать СО</text>
+    <text x="255" y="120" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">ИСО + оси ox, oy</text>
+
+    <line x1="320" y1="109" x2="332.5" y2="109.0" stroke="#1565C0" stroke-width="1.5"/>
+    <polygon points="335,109 330.0,111.0 330.0,107.0" fill="#1565C0"/>
+
+    <!-- Step 3 -->
+    <rect x="340" y="92" width="130" height="35" rx="5" fill="white" stroke="#1565C0" stroke-width="1.5"/>
+    <circle cx="355" cy="102" r="8" fill="#2E7D32"/>
+    <text x="355" y="106" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">3</text>
+    <text x="410" y="107" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">F=ma для осей</text>
+    <text x="410" y="120" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">ox: Fx = max</text>
+
+    <!-- Step 4-5 row -->
+    <line x1="250" y1="130" x2="250.0" y2="139.5" stroke="#1565C0" stroke-width="1.5"/>
+    <polygon points="250,142 248.0,137.0 252.0,137.0" fill="#1565C0"/>
+
+    <rect x="80" y="145" width="155" height="35" rx="5" fill="white" stroke="#F57C00" stroke-width="1.5"/>
+    <circle cx="95" cy="155" r="8" fill="#F57C00"/>
+    <text x="95" y="159" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">4</text>
+    <text x="165" y="160" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">Доп. соотношения</text>
+    <text x="165" y="173" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">F(упр)=kx, F(тр)=muN...</text>
+
+    <line x1="240" y1="162" x2="262.5" y2="162.0" stroke="#1565C0" stroke-width="1.5"/>
+    <polygon points="265,162 260.0,164.0 260.0,160.0" fill="#1565C0"/>
+
+    <rect x="270" y="145" width="155" height="35" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
+    <circle cx="285" cy="155" r="8" fill="#2E7D32"/>
+    <text x="285" y="159" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">5</text>
+    <text x="355" y="160" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">Решить систему</text>
+    <text x="355" y="173" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Подставить + найти</text>
+
+    <!-- Example: block on inclined plane -->
+    <rect x="25" y="195" width="225" height="80" rx="5" fill="white" stroke="#E53935" stroke-width="1.2"/>
+    <text x="137" y="211" font-family="Arial,sans-serif" font-size="9" fill="#E53935" font-weight="bold" text-anchor="middle">Пример: наклонная плоскость</text>
+
+    <!-- Incline -->
+    <polygon points="40,268 200,268 200,220" fill="#795548" opacity="0.3" stroke="#795548" stroke-width="1"/>
+    <!-- Block -->
+    <rect x="120" y="225" width="25" height="18" rx="2" fill="#1565C0" transform="rotate(-35,132,234)"/>
+    <!-- mg down -->
+    <line x1="132" y1="245" x2="132.0" y2="265.5" stroke="#7B1FA2" stroke-width="1.5"/>
+    <polygon points="132,268 130.0,263.0 134.0,263.0" fill="#7B1FA2"/>
+    <!-- N perpendicular -->
+    <line x1="130" y1="238" x2="109.72805661491842" y2="216.80660464286925" stroke="#F57C00" stroke-width="1.5"/>
+    <polygon points="108,215 112.90139694413222,217.23076399380378 110.01082951554142,219.9956545776732" fill="#F57C00"/>
+    <!-- Friction up along surface -->
+    <line x1="125" y1="242" x2="107.0961090407516" y2="253.63752912351146" stroke="#E53935" stroke-width="1.5"/>
+    <polygon points="105,255 108.10224138031236,250.59817101442167 110.282194782694,253.95194547962421" fill="#E53935"/>
+
+    <text x="137" y="278" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">ox: mg*sin(a)-F(тр)=ma</text>
+    <text x="137" y="288" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">oy: N-mg*cos(a)=0</text>
+
+    <!-- Common mistakes -->
+    <rect x="260" y="195" width="215" height="80" rx="5" fill="white" stroke="#E53935" stroke-width="1.2"/>
+    <text x="367" y="211" font-family="Arial,sans-serif" font-size="9" fill="#E53935" font-weight="bold" text-anchor="middle">Типичные ошибки</text>
+    <line x1="270" y1="216" x2="465" y2="216" stroke="#E53935" stroke-width="0.5" opacity="0.3"/>
+    <circle cx="280" cy="227" r="3" fill="#E53935"/>
+    <text x="290" y="231" font-family="Arial,sans-serif" font-size="7" fill="#333">Забыть силу (N, трение)</text>
+    <circle cx="280" cy="241" r="3" fill="#E53935"/>
+    <text x="290" y="245" font-family="Arial,sans-serif" font-size="7" fill="#333">Неправильные проекции</text>
+    <circle cx="280" cy="255" r="3" fill="#E53935"/>
+    <text x="290" y="259" font-family="Arial,sans-serif" font-size="7" fill="#333">F=ma не для каждого тела</text>
+    <circle cx="280" cy="269" r="3" fill="#E53935"/>
+    <text x="290" y="273" font-family="Arial,sans-serif" font-size="7" fill="#333">Путать вес и силу тяжести</text>
+    
+  </g>
+  <rect x="12" y="298" width="476" height="42" rx="5" fill="url(#panel)"/>
+  <text x="250" y="316" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Динамика</text>
+  <text x="250" y="332" font-family="Arial,sans-serif" font-size="10" text-anchor="middle" fill="white" opacity="0.8">Урок 23</text>
+</svg>

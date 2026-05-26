@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#1a1a2e"/>
+  <!-- Baroque section -->
+  <text x="130" y="30" font-size="12" fill="#ffd93d" opacity="0.7" text-anchor="middle" font-family="sans-serif">Барокко</text>
+  <!-- Baroque building with curves -->
+  <path d="M40 250 Q40 200 80 180 Q130 160 130 200 L130 250" fill="#8b5e3c" opacity="0.5"/>
+  <path d="M220 250 Q220 200 180 180 Q130 160 130 200 L130 250" fill="#8b5e3c" opacity="0.5"/>
+  <!-- Baroque dome -->
+  <ellipse cx="130" cy="155" rx="40" ry="30" fill="#c49535" opacity="0.4"/>
+  <path d="M90 155 Q130 100 170 155" fill="#d4a843" opacity="0.3"/>
+  <!-- Ornate swirls -->
+  <path d="M60 220 Q50 200 70 195 Q90 190 80 210" fill="none" stroke="#ffd93d" stroke-width="1.5" opacity="0.5"/>
+  <path d="M180 220 Q190 200 170 195 Q150 190 160 210" fill="none" stroke="#ffd93d" stroke-width="1.5" opacity="0.5"/>
+  <!-- Baroque window -->
+  <ellipse cx="130" cy="210" rx="12" ry="18" fill="#ffd93d" opacity="0.1"/>
+  <ellipse cx="130" cy="210" rx="12" ry="18" fill="none" stroke="#ffd93d" stroke-width="1" opacity="0.4"/>
+  <!-- Classical section -->
+  <text x="370" y="30" font-size="12" fill="#4d96ff" opacity="0.7" text-anchor="middle" font-family="sans-serif">Классицизм</text>
+  <!-- Classical building - strict symmetry -->
+  <rect x="290" y="170" width="160" height="80" fill="#d4c5b0" opacity="0.5"/>
+  <!-- Pediment -->
+  <polygon points="290,170 370,120 450,170" fill="none" stroke="#d4c5b0" stroke-width="2" opacity="0.6"/>
+  <polygon points="295,170 370,125 445,170" fill="#d4c5b0" opacity="0.2"/>
+  <!-- Columns -->
+  <rect x="305" y="170" width="8" height="80" fill="#e8dcc8" opacity="0.6"/>
+  <rect x="330" y="170" width="8" height="80" fill="#e8dcc8" opacity="0.6"/>
+  <rect x="402" y="170" width="8" height="80" fill="#e8dcc8" opacity="0.6"/>
+  <rect x="427" y="170" width="8" height="80" fill="#e8dcc8" opacity="0.6"/>
+  <!-- Entablature -->
+  <rect x="290" y="162" width="160" height="8" fill="#e8dcc8" opacity="0.5"/>
+  <!-- Steps -->
+  <rect x="280" y="250" width="180" height="5" fill="#d4c5b0" opacity="0.4"/>
+  <rect x="285" y="258" width="170" height="5" fill="#d4c5b0" opacity="0.3"/>
+  <!-- Dividing line -->
+  <line x1="250" y1="40" x2="250" y2="300" stroke="#ffffff" stroke-width="0.5" opacity="0.15" stroke-dasharray="5,5"/>
+  <!-- Decorative Baroque elements below -->
+  <path d="M50 280 Q80 260 110 280 Q140 300 170 280" fill="none" stroke="#ffd93d" stroke-width="2" opacity="0.4"/>
+  <path d="M60 290 Q90 270 120 290 Q150 310 180 290" fill="none" stroke="#ffd93d" stroke-width="1.5" opacity="0.3"/>
+  <!-- Classical geometric elements below -->
+  <rect x="310" y="270" width="30" height="30" fill="none" stroke="#4d96ff" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="370" cy="285" r="15" fill="none" stroke="#4d96ff" stroke-width="1.5" opacity="0.4"/>
+  <polygon points="430,270 415,300 445,300" fill="none" stroke="#4d96ff" stroke-width="1.5" opacity="0.4"/>
+  <text x="250" y="340" font-size="9" fill="#ffffff" opacity="0.5" text-anchor="middle" font-family="sans-serif">Барокко и классицизм</text>
+</svg>

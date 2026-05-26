@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="archSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#B0D8E8"/>
+    </linearGradient>
+    <linearGradient id="columnGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E8E0D8"/>
+      <stop offset="30%" stop-color="#F5F0EB"/>
+      <stop offset="70%" stop-color="#F0EBE5"/>
+      <stop offset="100%" stop-color="#D8D0C8"/>
+    </linearGradient>
+    <linearGradient id="domeArch" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D8C8A8"/>
+      <stop offset="100%" stop-color="#B8A888"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="500" height="350" fill="url(#archSky)"/>
+  
+  <!-- Main building structure -->
+  <!-- Base/podium -->
+  <rect x="40" y="280" width="420" height="15" fill="#C8B898" stroke="#A89868" stroke-width="1"/>
+  <rect x="35" y="295" width="430" height="10" fill="#B8A888" stroke="#988858" stroke-width="1"/>
+  <!-- Steps -->
+  <rect x="180" y="305" width="140" height="5" fill="#A89878"/>
+  <rect x="170" y="310" width="160" height="5" fill="#A89878"/>
+  <rect x="160" y="315" width="180" height="5" fill="#A89878"/>
+  
+  <!-- Left column -->
+  <rect x="80" y="90" width="12" height="190" fill="url(#columnGrad)" stroke="#C8B898" stroke-width="0.5"/>
+  <!-- Column fluting -->
+  <line x1="83" y1="100" x2="83" y2="275" stroke="#D8D0C8" stroke-width="0.5" opacity="0.5"/>
+  <line x1="87" y1="100" x2="87" y2="275" stroke="#D8D0C8" stroke-width="0.5" opacity="0.5"/>
+  <line x1="89" y1="100" x2="89" y2="275" stroke="#D8D0C8" stroke-width="0.5" opacity="0.5"/>
+  <!-- Capital left -->
+  <path d="M72 90 L70 75 L100 75 L98 90" fill="#E8E0D8" stroke="#C8B898" stroke-width="0.5"/>
+  <path d="M68 75 Q85 65 102 75" fill="#E8E0D8" stroke="#C8B898" stroke-width="0.5"/>
+  <!-- Volutes -->
+  <circle cx="72" cy="78" r="5" fill="none" stroke="#C8B898" stroke-width="1.5"/>
+  <circle cx="98" cy="78" r="5" fill="none" stroke="#C8B898" stroke-width="1.5"/>
+  <!-- Base left -->
+  <rect x="72" y="275" width="28" height="8" fill="#E0D8D0" stroke="#C8B898" stroke-width="0.5"/>
+  
+  <!-- Second column -->
+  <rect x="155" y="90" width="12" height="190" fill="url(#columnGrad)" stroke="#C8B898" stroke-width="0.5"/>
+  <line x1="158" y1="100" x2="158" y2="275" stroke="#D8D0C8" stroke-width="0.5" opacity="0.5"/>
+  <line x1="162" y1="100" x2="162" y2="275" stroke="#D8D0C8" stroke-width="0.5" opacity="0.5"/>
+  <line x1="164" y1="100" x2="164" y2="275" stroke="#D8D0C8" stroke-width="0.5" opacity="0.5"/>
+  <!-- Capital -->
+  <path d="M147 90 L145 75 L175 75 L173 90" fill="#E8E0D8" stroke="#C8B898" stroke-width="0.5"/>
+  <path d="M143 75 Q160 65 177 75" fill="#E8E0D8" stroke="#C8B898" stroke-width="0.5"/>
+  <circle cx="147" cy="78" r="5" fill="none" stroke="#C8B898" stroke-width="1.5"/>
+  <circle cx="173" cy="78" r="5" fill="none" stroke="#C8B898" stroke-width="1.5"/>
+  <rect x="147" y="275" width="28" height="8" fill="#E0D8D0" stroke="#C8B898" stroke-width="0.5"/>
+  
+  <!-- Third column -->
+  <rect x="330" y="90" width="12" height="190" fill="url(#columnGrad)" stroke="#C8B898" stroke-width="0.5"/>
+  <line x1="333" y1="100" x2="333" y2="275" stroke="#D8D0C8" stroke-width="0.5" opacity="0.5"/>
+  <line x1="337" y1="100" x2="337" y2="275" stroke="#D8D0C8" stroke-width="0.5" opacity="0.5"/>
+  <line x1="339" y1="100" x2="339" y2="275" stroke="#D8D0C8" stroke-width="0.5" opacity="0.5"/>
+  <path d="M322 90 L320 75 L350 75 L348 90" fill="#E8E0D8" stroke="#C8B898" stroke-width="0.5"/>
+  <path d="M318 75 Q335 65 352 75" fill="#E8E0D8" stroke="#C8B898" stroke-width="0.5"/>
+  <circle cx="322" cy="78" r="5" fill="none" stroke="#C8B898" stroke-width="1.5"/>
+  <circle cx="348" cy="78" r="5" fill="none" stroke="#C8B898" stroke-width="1.5"/>
+  <rect x="322" y="275" width="28" height="8" fill="#E0D8D0" stroke="#C8B898" stroke-width="0.5"/>
+  
+  <!-- Fourth column -->
+  <rect x="405" y="90" width="12" height="190" fill="url(#columnGrad)" stroke="#C8B898" stroke-width="0.5"/>
+  <line x1="408" y1="100" x2="408" y2="275" stroke="#D8D0C8" stroke-width="0.5" opacity="0.5"/>
+  <line x1="412" y1="100" x2="412" y2="275" stroke="#D8D0C8" stroke-width="0.5" opacity="0.5"/>
+  <line x1="414" y1="100" x2="414" y2="275" stroke="#D8D0C8" stroke-width="0.5" opacity="0.5"/>
+  <path d="M397 90 L395 75 L425 75 L423 90" fill="#E8E0D8" stroke="#C8B898" stroke-width="0.5"/>
+  <path d="M393 75 Q410 65 427 75" fill="#E8E0D8" stroke="#C8B898" stroke-width="0.5"/>
+  <circle cx="397" cy="78" r="5" fill="none" stroke="#C8B898" stroke-width="1.5"/>
+  <circle cx="423" cy="78" r="5" fill="none" stroke="#C8B898" stroke-width="1.5"/>
+  <rect x="397" y="275" width="28" height="8" fill="#E0D8D0" stroke="#C8B898" stroke-width="0.5"/>
+  
+  <!-- Entablature -->
+  <rect x="40" y="65" width="420" height="12" fill="#E0D8D0" stroke="#C8B898" stroke-width="0.5"/>
+  <!-- Triglyphs and metopes -->
+  <g fill="#D0C8C0" stroke="#B8A888" stroke-width="0.5">
+    <rect x="60" y="65" width="10" height="12"/>
+    <rect x="85" y="65" width="10" height="12"/>
+    <rect x="110" y="65" width="10" height="12"/>
+    <rect x="135" y="65" width="10" height="12"/>
+    <rect x="160" y="65" width="10" height="12"/>
+    <rect x="185" y="65" width="10" height="12"/>
+    <rect x="210" y="65" width="10" height="12"/>
+    <rect x="235" y="65" width="10" height="12"/>
+    <rect x="260" y="65" width="10" height="12"/>
+    <rect x="285" y="65" width="10" height="12"/>
+    <rect x="310" y="65" width="10" height="12"/>
+    <rect x="335" y="65" width="10" height="12"/>
+    <rect x="360" y="65" width="10" height="12"/>
+    <rect x="385" y="65" width="10" height="12"/>
+    <rect x="410" y="65" width="10" height="12"/>
+    <rect x="435" y="65" width="10" height="12"/>
+  </g>
+  
+  <!-- Pediment (triangle) -->
+  <polygon points="40,65 250,15 460,65" fill="url(#domeArch)" stroke="#A89868" stroke-width="1.5"/>
+  <!-- Pediment inner triangle -->
+  <polygon points="70,62 250,22 430,62" fill="#C8B8A0" stroke="#B8A878" stroke-width="0.5"/>
+  <!-- Decorative sculpture in pediment -->
+  <circle cx="250" cy="45" r="8" fill="#D8C8A8" stroke="#B8A878" stroke-width="0.5"/>
+  <path d="M240 48 L250 35 L260 48" fill="none" stroke="#A89868" stroke-width="0.8"/>
+  
+  <!-- Arched window/door between middle columns -->
+  <path d="M190 280 L190 180 Q250 140 310 180 L310 280 Z" fill="#3A5070"/>
+  <path d="M195 280 L195 183 Q250 146 305 183 L305 280 Z" fill="#4A6A90"/>
+  <!-- Window divisions -->
+  <line x1="250" y1="148" x2="250" y2="280" stroke="#C8B898" stroke-width="2"/>
+  <!-- Arch keystone -->
+  <polygon points="245,145 255,145 252,140 248,140" fill="#D8C8A8"/>
+  
+  <!-- Shadow under entablature -->
+  <rect x="40" y="77" width="420" height="3" fill="#A89868" opacity="0.3"/>
+  
+  <text x="250" y="340" text-anchor="middle" font-size="9" opacity="0.5" font-family="sans-serif">Архитектура</text>
+</svg>

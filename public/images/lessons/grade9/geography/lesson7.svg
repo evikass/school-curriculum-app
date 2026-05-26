@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#FAFAFA"/>
+  <!-- Three world religions as symbols -->
+  <!-- Christianity - Cross -->
+  <g transform="translate(85,120)">
+    <circle r="65" fill="#E8EAF6" opacity="0.5" stroke="#3F51B5" stroke-width="1.5"/>
+    <rect x="-6" y="-35" width="12" height="60" rx="2" fill="#3F51B5" opacity="0.8"/>
+    <rect x="-20" y="-22" width="40" height="12" rx="2" fill="#3F51B5" opacity="0.8"/>
+    <text x="0" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#1A237E" font-weight="bold">Христианство</text>
+    <text x="0" y="54" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#3F51B5">~2,4 млрд</text>
+    <text x="0" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#666">Католики, протестанты,</text>
+    <text x="0" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#666">православные</text>
+  </g>
+  <!-- Islam - Crescent and Star -->
+  <g transform="translate(250,120)">
+    <circle r="65" fill="#E8F5E9" opacity="0.5" stroke="#2E7D32" stroke-width="1.5"/>
+    <!-- Crescent -->
+    <circle cx="-3" cy="-5" r="22" fill="#2E7D32" opacity="0.7"/>
+    <circle cx="4" cy="-8" r="18" fill="#E8F5E9"/>
+    <!-- Star -->
+    <polygon points="25,-12 27,-6 33,-6 28,-2 30,4 25,0 20,4 22,-2 17,-6 23,-6" fill="#2E7D32" opacity="0.8"/>
+    <text x="0" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" font-weight="bold">Ислам</text>
+    <text x="0" y="54" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32">~1,9 млрд</text>
+    <text x="0" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#666">Сунниты, шииты</text>
+    <text x="0" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#666">Коран</text>
+  </g>
+  <!-- Buddhism - Dharma Wheel -->
+  <g transform="translate(415,120)">
+    <circle r="65" fill="#FFF3E0" opacity="0.5" stroke="#E65100" stroke-width="1.5"/>
+    <!-- Wheel -->
+    <circle cx="0" cy="-5" r="20" fill="none" stroke="#E65100" stroke-width="2" opacity="0.8"/>
+    <circle cx="0" cy="-5" r="4" fill="#E65100" opacity="0.8"/>
+    <!-- Spokes -->
+    <line x1="0" y1="-25" x2="0" y2="15" stroke="#E65100" stroke-width="1.5" opacity="0.7"/>
+    <line x1="-19" y1="-5" x2="19" y2="-5" stroke="#E65100" stroke-width="1.5" opacity="0.7"/>
+    <line x1="-14" y1="-19" x2="14" y2="9" stroke="#E65100" stroke-width="1.5" opacity="0.7"/>
+    <line x1="14" y1="-19" x2="-14" y2="9" stroke="#E65100" stroke-width="1.5" opacity="0.7"/>
+    <text x="0" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#BF360C" font-weight="bold">Буддизм</text>
+    <text x="0" y="54" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#E65100">~500 млн</text>
+    <text x="0" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#666">Тхеравада, махаяна</text>
+    <text x="0" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#666">VI в. до н.э.</text>
+  </g>
+  <!-- National religions row -->
+  <rect x="20" y="220" width="460" height="100" rx="6" fill="white" opacity="0.7"/>
+  <text x="250" y="240" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#333" font-weight="bold">Национальные религии</text>
+  <!-- Hinduism - Om symbol area -->
+  <g transform="translate(85,275)">
+    <circle r="22" fill="#FFEBEE" opacity="0.5" stroke="#C62828" stroke-width="1"/>
+    <text x="0" y="4" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#C62828">ॐ</text>
+    <text x="0" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#C62828" font-weight="bold">Индуизм</text>
+    <text x="0" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#666">Индия, ~1,2 млрд</text>
+  </g>
+  <!-- Judaism - Star of David -->
+  <g transform="translate(195,275)">
+    <circle r="22" fill="#E3F2FD" opacity="0.5" stroke="#1565C0" stroke-width="1"/>
+    <polygon points="0,-14 12,7 -12,7" fill="none" stroke="#1565C0" stroke-width="1.5"/>
+    <polygon points="0,14 12,-7 -12,-7" fill="none" stroke="#1565C0" stroke-width="1.5"/>
+    <text x="0" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#0D47A1" font-weight="bold">Иудаизм</text>
+    <text x="0" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#666">Израиль</text>
+  </g>
+  <!-- Shinto - Torii gate -->
+  <g transform="translate(305,275)">
+    <circle r="22" fill="#FFF3E0" opacity="0.5" stroke="#E65100" stroke-width="1"/>
+    <line x1="-10" y1="-5" x2="-10" y2="10" stroke="#E65100" stroke-width="2"/>
+    <line x1="10" y1="-5" x2="10" y2="10" stroke="#E65100" stroke-width="2"/>
+    <line x1="-14" y1="-5" x2="14" y2="-5" stroke="#E65100" stroke-width="2.5"/>
+    <line x1="-12" y1="-10" x2="12" y2="-10" stroke="#E65100" stroke-width="2"/>
+    <text x="0" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#BF360C" font-weight="bold">Синтоизм</text>
+    <text x="0" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#666">Япония</text>
+  </g>
+  <!-- Confucianism -->
+  <g transform="translate(415,275)">
+    <circle r="22" fill="#F3E5F5" opacity="0.5" stroke="#7B1FA2" stroke-width="1"/>
+    <!-- Chinese character approximation -->
+    <text x="0" y="5" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#7B1FA2">儒</text>
+    <text x="0" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#6A1B9A" font-weight="bold">Конфуцианство</text>
+    <text x="0" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#666">Китай</text>
+  </g>
+  <text x="250" y="345" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#666" opacity="0.5">Религии мира</text>
+</svg>

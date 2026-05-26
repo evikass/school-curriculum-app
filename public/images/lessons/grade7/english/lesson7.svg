@@ -1,0 +1,70 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="350" fill="#0d1218"/>
+  <!-- Smartphone -->
+  <rect x="40" y="50" width="70" height="130" rx="10" fill="#263238" stroke="#546e7a" stroke-width="2"/>
+  <rect x="47" y="62" width="56" height="100" fill="#1a1a2a"/>
+  <circle cx="75" cy="170" r="5" fill="none" stroke="#546e7a" stroke-width="1"/>
+  <!-- Screen content - social icons -->
+  <circle cx="60" cy="80" r="8" fill="#e53935" opacity="0.5"/>
+  <text x="56" y="83" font-size="7" fill="#fff">▶</text>
+  <circle cx="90" cy="80" r="8" fill="#42a5f5" opacity="0.5"/>
+  <text x="85" y="84" font-size="7" fill="#fff">💬</text>
+  <circle cx="60" cy="100" r="8" fill="#7c4dff" opacity="0.5"/>
+  <text x="56" y="104" font-size="7" fill="#fff">📷</text>
+  <circle cx="90" cy="100" r="8" fill="#4caf50" opacity="0.5"/>
+  <text x="86" y="104" font-size="7" fill="#fff">📞</text>
+  <!-- Notification dots -->
+  <circle cx="68" cy="73" r="3" fill="#ef5350"/>
+  <circle cx="98" cy="73" r="3" fill="#ef5350"/>
+  <text x="48" y="130" font-size="6" fill="#78909c">Messages</text>
+  <text x="48" y="140" font-size="6" fill="#78909c">Photos</text>
+  <text x="48" y="150" font-size="6" fill="#78909c">Social</text>
+  <text x="40" y="200" font-size="8" fill="#546e7a">Smartphone</text>
+  <!-- Laptop -->
+  <rect x="150" y="80" width="120" height="80" rx="6" fill="#37474f" stroke="#546e7a" stroke-width="2"/>
+  <rect x="157" y="87" width="106" height="64" fill="#0d1117"/>
+  <!-- Code on screen -->
+  <text x="162" y="102" font-family="monospace" font-size="6" fill="#58a6ff">&lt;html&gt;</text>
+  <text x="162" y="112" font-family="monospace" font-size="6" fill="#c9d1d9">  &lt;body&gt;</text>
+  <text x="162" y="122" font-family="monospace" font-size="6" fill="#7ee787">    Hello World</text>
+  <text x="162" y="132" font-family="monospace" font-size="6" fill="#c9d1d9">  &lt;/body&gt;</text>
+  <text x="162" y="142" font-family="monospace" font-size="6" fill="#58a6ff">&lt;/html&gt;</text>
+  <!-- Keyboard -->
+  <rect x="130" y="162" width="160" height="12" rx="3" fill="#455a64" stroke="#546e7a" stroke-width="1"/>
+  <text x="155" y="190" font-size="8" fill="#546e7a">Laptop</text>
+  <!-- Cloud computing -->
+  <ellipse cx="390" cy="70" rx="50" ry="25" fill="#263238" stroke="#42a5f5" stroke-width="1.5"/>
+  <ellipse cx="370" cy="55" rx="30" ry="20" fill="#263238" stroke="#42a5f5" stroke-width="1.5"/>
+  <ellipse cx="410" cy="55" rx="30" ry="20" fill="#263238" stroke="#42a5f5" stroke-width="1.5"/>
+  <ellipse cx="390" cy="50" rx="25" ry="18" fill="#1a2332"/>
+  <!-- Cloud content icons -->
+  <rect x="370" y="60" width="8" height="8" rx="1" fill="#42a5f5" opacity="0.4"/>
+  <rect x="382" y="60" width="8" height="8" rx="1" fill="#42a5f5" opacity="0.3"/>
+  <rect x="394" y="60" width="8" height="8" rx="1" fill="#42a5f5" opacity="0.4"/>
+  <rect x="406" y="60" width="8" height="8" rx="1" fill="#42a5f5" opacity="0.3"/>
+  <!-- Connection lines to cloud -->
+  <line x1="110" y1="115" x2="340" y2="70" stroke="#42a5f5" stroke-width="1" stroke-dasharray="4,3" opacity="0.3"/>
+  <line x1="270" y1="120" x2="345" y2="75" stroke="#42a5f5" stroke-width="1" stroke-dasharray="4,3" opacity="0.3"/>
+  <text x="355" y="110" font-size="8" fill="#42a5f5">Cloud</text>
+  <!-- Social media icons panel -->
+  <rect x="300" y="130" width="170" height="90" rx="6" fill="#1a2332" stroke="#546e7a" stroke-width="1"/>
+  <text x="315" y="150" font-size="9" fill="#e0e0e0" font-weight="bold">Social Media</text>
+  <!-- Icons row -->
+  <circle cx="330" cy="172" r="12" fill="#e53935" opacity="0.4"/>
+  <text x="324" y="176" font-size="9" fill="#fff">YT</text>
+  <circle cx="365" cy="172" r="12" fill="#42a5f5" opacity="0.4"/>
+  <text x="360" y="176" font-size="9" fill="#fff">FB</text>
+  <circle cx="400" cy="172" r="12" fill="#7c4dff" opacity="0.4"/>
+  <text x="394" y="176" font-size="9" fill="#fff">IG</text>
+  <circle cx="435" cy="172" r="12" fill="#42a5f5" opacity="0.4"/>
+  <text x="431" y="176" font-size="9" fill="#fff">T</text>
+  <text x="315" y="200" font-size="7" fill="#78909c">Connect • Share • Communicate</text>
+  <!-- Digital vocabulary -->
+  <rect x="30" y="225" width="440" height="85" rx="6" fill="#1a1a2a" stroke="#546e7a" stroke-width="1"/>
+  <text x="50" y="245" font-size="10" fill="#42a5f5" font-weight="bold">Digital World Vocabulary:</text>
+  <text x="50" y="262" font-size="7" fill="#90a4ae">upload / download / browse / stream / post / share</text>
+  <text x="50" y="278" font-size="7" fill="#90a4ae">website / app / account / password / network / Wi-Fi</text>
+  <text x="50" y="294" font-size="7" fill="#90a4ae">search engine / cloud storage / notification / feed</text>
+  <text x="50" y="306" font-size="8" fill="#42a5f5" font-style="italic">"How much screen time do you have?"</text>
+  <text x="200" y="340" font-size="9" fill="#fff" opacity="0.5">Digital World</text>
+</svg>

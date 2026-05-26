@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e3f2fd"/>
+      <stop offset="100%" stop-color="#bbdefb"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <!-- Universal Declaration document (top center) -->
+  <rect x="150" y="10" width="200" height="50" rx="4" fill="#fff" stroke="#1565c0" stroke-width="1.5"/>
+  <text x="250" y="28" font-size="7" fill="#1565c0" text-anchor="middle" font-weight="bold">Всеобщая декларация</text>
+  <text x="250" y="40" font-size="7" fill="#1565c0" text-anchor="middle" font-weight="bold">прав человека</text>
+  <text x="250" y="52" font-size="5" fill="#78909c" text-anchor="middle">ООН, 10 декабря 1948 г.</text>
+  <!-- UN logo (simplified) -->
+  <g transform="translate(250,85)">
+    <circle r="22" fill="#1565c0" opacity="0.2" stroke="#1565c0" stroke-width="1"/>
+    <path d="M-8,12 Q0,-10 8,12" fill="none" stroke="#1565c0" stroke-width="1.5"/>
+    <line x1="-12" y1="0" x2="12" y2="0" stroke="#1565c0" stroke-width="0.8"/>
+    <!-- Olive branches -->
+    <path d="M-15,-8 Q-22,0 -15,8" fill="none" stroke="#4caf50" stroke-width="1"/>
+    <path d="M15,-8 Q22,0 15,8" fill="none" stroke="#4caf50" stroke-width="1"/>
+  </g>
+  <!-- Rights icons grid -->
+  <!-- Right 1: Freedom of speech -->
+  <g transform="translate(80,145)">
+    <rect x="-55" y="-30" width="110" height="65" rx="8" fill="#fff" stroke="#c62828" stroke-width="1.5"/>
+    <circle r="18" fill="#c62828" opacity="0.15"/>
+    <!-- Speech bubble -->
+    <rect x="-12" y="-15" width="24" height="16" rx="4" fill="#c62828" opacity="0.7"/>
+    <polygon points="-2,1 2,1 0,6" fill="#c62828" opacity="0.7"/>
+    <text x="0" y="-4" font-size="8" fill="#fff" text-anchor="middle">A</text>
+    <text x="0" y="22" font-size="6" fill="#c62828" text-anchor="middle" font-weight="bold">Свобода слова</text>
+    <text x="0" y="31" font-size="5" fill="#78909c" text-anchor="middle">Ст. 19</text>
+  </g>
+  <!-- Right 2: Freedom of assembly -->
+  <g transform="translate(250,145)">
+    <rect x="-55" y="-30" width="110" height="65" rx="8" fill="#fff" stroke="#1565c0" stroke-width="1.5"/>
+    <circle r="18" fill="#1565c0" opacity="0.15"/>
+    <!-- People group -->
+    <circle cx="-8" cy="-8" r="4" fill="#1565c0" opacity="0.6"/>
+    <circle cx="0" cy="-8" r="4" fill="#1565c0" opacity="0.7"/>
+    <circle cx="8" cy="-8" r="4" fill="#1565c0" opacity="0.6"/>
+    <rect x="-10" y="-2" width="5" height="8" rx="1" fill="#1565c0" opacity="0.5"/>
+    <rect x="-2" y="-2" width="5" height="8" rx="1" fill="#1565c0" opacity="0.6"/>
+    <rect x="6" y="-2" width="5" height="8" rx="1" fill="#1565c0" opacity="0.5"/>
+    <text x="0" y="22" font-size="6" fill="#1565c0" text-anchor="middle" font-weight="bold">Свобода собраний</text>
+    <text x="0" y="31" font-size="5" fill="#78909c" text-anchor="middle">Ст. 20</text>
+  </g>
+  <!-- Right 3: Freedom of religion -->
+  <g transform="translate(420,145)">
+    <rect x="-55" y="-30" width="110" height="65" rx="8" fill="#fff" stroke="#2e7d32" stroke-width="1.5"/>
+    <circle r="18" fill="#2e7d32" opacity="0.15"/>
+    <!-- Religious symbols -->
+    <text x="-8" y="2" font-size="14" fill="#2e7d32" opacity="0.7">✝</text>
+    <text x="5" y="0" font-size="12" fill="#2e7d32" opacity="0.7">☪</text>
+    <text x="0" y="22" font-size="6" fill="#2e7d32" text-anchor="middle" font-weight="bold">Свобода веры</text>
+    <text x="0" y="31" font-size="5" fill="#78909c" text-anchor="middle">Ст. 18</text>
+  </g>
+  <!-- More rights row -->
+  <!-- Right to life -->
+  <g transform="translate(80,240)">
+    <rect x="-55" y="-25" width="110" height="55" rx="8" fill="#fff" stroke="#ff6f00" stroke-width="1.5"/>
+    <circle r="12" fill="#ff6f00" opacity="0.15"/>
+    <path d="M-4,-5 Q0,-12 4,-5 Q8,2 0,8 Q-8,2 -4,-5" fill="#ff6f00" opacity="0.6"/>
+    <text x="0" y="20" font-size="6" fill="#ff6f00" text-anchor="middle" font-weight="bold">Право на жизнь</text>
+    <text x="0" y="29" font-size="5" fill="#78909c" text-anchor="middle">Ст. 3</text>
+  </g>
+  <!-- Right to education -->
+  <g transform="translate(250,240)">
+    <rect x="-55" y="-25" width="110" height="55" rx="8" fill="#fff" stroke="#7b1fa2" stroke-width="1.5"/>
+    <circle r="12" fill="#7b1fa2" opacity="0.15"/>
+    <!-- Book -->
+    <rect x="-8" y="-8" width="16" height="12" rx="1" fill="#7b1fa2" opacity="0.6"/>
+    <line x1="0" y1="-8" x2="0" y2="4" stroke="#fff" stroke-width="0.5"/>
+    <text x="0" y="20" font-size="6" fill="#7b1fa2" text-anchor="middle" font-weight="bold">Право на образование</text>
+    <text x="0" y="29" font-size="5" fill="#78909c" text-anchor="middle">Ст. 26</text>
+  </g>
+  <!-- Equality -->
+  <g transform="translate(420,240)">
+    <rect x="-55" y="-25" width="110" height="55" rx="8" fill="#fff" stroke="#00695c" stroke-width="1.5"/>
+    <circle r="12" fill="#00695c" opacity="0.15"/>
+    <!-- Equality sign -->
+    <line x1="-6" y1="-3" x2="6" y2="-3" stroke="#00695c" stroke-width="2"/>
+    <line x1="-6" y1="3" x2="6" y2="3" stroke="#00695c" stroke-width="2"/>
+    <text x="0" y="20" font-size="6" fill="#00695c" text-anchor="middle" font-weight="bold">Равенство перед законом</text>
+    <text x="0" y="29" font-size="5" fill="#78909c" text-anchor="middle">Ст. 7</text>
+  </g>
+  <!-- Note -->
+  <rect x="100" y="300" width="300" height="22" rx="4" fill="#1a237e" opacity="0.75"/>
+  <text x="250" y="315" font-size="6" fill="#ffd600" text-anchor="middle">30 статей Всеобщей декларации — основа международного права</text>
+  <text x="250" y="340" font-size="9" fill="#333" opacity="0.5" text-anchor="middle">Права и свободы человека</text>
+</svg>

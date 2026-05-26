@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="pbg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a0a2e"/>
+      <stop offset="100%" style="stop-color:#2d1b4e"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#pbg5)"/>
+  <!-- Lightbulb -->
+  <path d="M200,40 Q160,60 160,100 Q160,130 185,150 L185,170 L215,170 L215,150 Q240,130 240,100 Q240,60 200,40 Z" fill="#ffc107" opacity="0.2" stroke="#ffc107" stroke-width="2"/>
+  <rect x="185" y="170" width="30" height="10" fill="#ffc107" opacity="0.3" rx="2"/>
+  <rect x="188" y="180" width="24" height="5" fill="#ffc107" opacity="0.2" rx="1"/>
+  <!-- Filament -->
+  <path d="M195,130 Q200,110 205,130 Q210,110 215,130" fill="none" stroke="#ffc107" stroke-width="2"/>
+  <!-- Light rays -->
+  <g stroke="#ffc107" stroke-width="1.5" opacity="0.4">
+    <line x1="155" y1="70" x2="135" y2="55"/><line x1="245" y1="70" x2="265" y2="55"/>
+    <line x1="150" y1="100" x2="125" y2="100"/><line x1="250" y1="100" x2="275" y2="100"/>
+    <line x1="155" y1="130" x2="135" y2="145"/><line x1="245" y1="130" x2="265" y2="145"/>
+  </g>
+  <!-- Thinking operations -->
+  <g transform="translate(290,40)">
+    <text x="80" y="0" fill="#e040fb" font-size="10" text-anchor="middle" font-weight="bold">Операции мышления</text>
+    <g transform="translate(0,15)">
+      <circle cx="15" cy="12" r="12" fill="#4fc3f7" opacity="0.2" stroke="#4fc3f7" stroke-width="1"/>
+      <text x="15" y="15" fill="#4fc3f7" font-size="7" text-anchor="middle">А→</text>
+      <text x="40" y="15" fill="#b388ff" font-size="8">Анализ</text>
+    </g>
+    <g transform="translate(0,40)">
+      <circle cx="15" cy="12" r="12" fill="#4caf50" opacity="0.2" stroke="#4caf50" stroke-width="1"/>
+      <text x="15" y="15" fill="#4caf50" font-size="7" text-anchor="middle">→А</text>
+      <text x="40" y="15" fill="#b388ff" font-size="8">Синтез</text>
+    </g>
+    <g transform="translate(0,65)">
+      <circle cx="15" cy="12" r="12" fill="#ff9800" opacity="0.2" stroke="#ff9800" stroke-width="1"/>
+      <text x="15" y="15" fill="#ff9800" font-size="7" text-anchor="middle">⊂</text>
+      <text x="40" y="15" fill="#b388ff" font-size="8">Обобщение</text>
+    </g>
+    <g transform="translate(0,90)">
+      <circle cx="15" cy="12" r="12" fill="#f44336" opacity="0.2" stroke="#f44336" stroke-width="1"/>
+      <text x="15" y="15" fill="#f44336" font-size="7" text-anchor="middle">≡</text>
+      <text x="40" y="15" fill="#b388ff" font-size="8">Сравнение</text>
+    </g>
+    <g transform="translate(0,115)">
+      <circle cx="15" cy="12" r="12" fill="#9c27b0" opacity="0.2" stroke="#9c27b0" stroke-width="1"/>
+      <text x="15" y="15" fill="#9c27b0" font-size="7" text-anchor="middle">⇒</text>
+      <text x="40" y="15" fill="#b388ff" font-size="8">Абстрагирование</text>
+    </g>
+  </g>
+  <!-- Types of thinking -->
+  <g transform="translate(30,210)">
+    <text x="210" y="0" fill="#e040fb" font-size="10" text-anchor="middle" font-weight="bold">Виды мышления</text>
+    <rect x="0" y="15" width="95" height="35" fill="#4fc3f7" opacity="0.1" rx="5" stroke="#4fc3f7" stroke-width="1"/>
+    <text x="47" y="30" fill="#4fc3f7" font-size="7" text-anchor="middle">Наглядно-</text>
+    <text x="47" y="40" fill="#4fc3f7" font-size="7" text-anchor="middle">действенное</text>
+    <rect x="110" y="15" width="95" height="35" fill="#4caf50" opacity="0.1" rx="5" stroke="#4caf50" stroke-width="1"/>
+    <text x="157" y="30" fill="#4caf50" font-size="7" text-anchor="middle">Наглядно-</text>
+    <text x="157" y="40" fill="#4caf50" font-size="7" text-anchor="middle">образное</text>
+    <rect x="220" y="15" width="95" height="35" fill="#ff9800" opacity="0.1" rx="5" stroke="#ff9800" stroke-width="1"/>
+    <text x="267" y="30" fill="#ff9800" font-size="7" text-anchor="middle">Словесно-</text>
+    <text x="267" y="40" fill="#ff9800" font-size="7" text-anchor="middle">логическое</text>
+    <rect x="330" y="15" width="95" height="35" fill="#e040fb" opacity="0.1" rx="5" stroke="#e040fb" stroke-width="1"/>
+    <text x="377" y="37" fill="#e040fb" font-size="7" text-anchor="middle">Творческое</text>
+    <!-- Progression arrow -->
+    <line x1="95" y1="32" x2="110" y2="32" stroke="#78909c" stroke-width="1" opacity="0.5"/>
+    <line x1="205" y1="32" x2="220" y2="32" stroke="#78909c" stroke-width="1" opacity="0.5"/>
+    <line x1="315" y1="32" x2="330" y2="32" stroke="#78909c" stroke-width="1" opacity="0.5"/>
+  </g>
+  <text x="250" y="345" fill="#aaa" font-size="9" text-anchor="middle" opacity="0.5">Мышление</text>
+</svg>

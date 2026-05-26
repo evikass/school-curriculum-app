@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E0F2F1"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#26A69A"/>
+      <stop offset="100%" stop-color="#00695C"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#26A69A" stroke-width="3"/>
+  <!-- Header bar -->
+  <rect x="8" y="8" width="484" height="52" rx="6" fill="url(#hdr)" opacity="0.9"/>
+  <text x="250" y="34" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Мир профессий</text>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="10" fill="rgba(255,255,255,0.8)" text-anchor="middle">Карьерное консультирование — Урок 1</text>
+  <!-- Decorative elements -->
+  <circle cx="460" cy="25" r="12" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="440" cy="18" r="6" fill="rgba(255,255,255,0.1)"/>
+  <!-- Content area -->
+
+  <!-- Pentagon diagram for 5 profession types -->
+  <g transform="translate(140,200)">
+    <!-- Central circle -->
+    <circle cx="0" cy="0" r="22" fill="url(#hdr)" opacity="0.9"/>
+    <text x="0" y="4" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle" font-weight="bold">КЛИМОВ</text>
+    <!-- 5 type circles around -->
+    <circle cx="0" cy="-65" r="30" fill="#4CAF50" opacity="0.85"/>
+    <text x="0" y="-69" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Человек-</text>
+    <text x="0" y="-60" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">природа</text>
+    <!-- 🌿 leaf icon -->
+    <ellipse cx="0" cy="-78" rx="5" ry="8" fill="#81C784" transform="rotate(-15,0,-78)"/>
+    
+    <circle cx="62" cy="-20" r="30" fill="#FF9800" opacity="0.85"/>
+    <text x="62" y="-24" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Человек-</text>
+    <text x="62" y="-15" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">техника</text>
+    <!-- ⚙ gear icon -->
+    <circle cx="62" cy="-38" r="6" fill="none" stroke="#FFB74D" stroke-width="2"/>
+    
+    <circle cx="38" cy="55" r="30" fill="#2196F3" opacity="0.85"/>
+    <text x="38" y="51" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Человек-</text>
+    <text x="38" y="60" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">человек</text>
+    <!-- 👤 person icon -->
+    <circle cx="38" cy="35" r="5" fill="#64B5F6"/>
+    
+    <circle cx="-38" cy="55" r="30" fill="#9C27B0" opacity="0.85"/>
+    <text x="-38" y="51" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Человек-</text>
+    <text x="-38" y="60" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">знак</text>
+    <!-- # sign icon -->
+    <text x="-38" y="36" font-family="monospace" font-size="12" fill="#CE93D8" text-anchor="middle">#</text>
+    
+    <circle cx="-62" cy="-20" r="30" fill="#E91E63" opacity="0.85"/>
+    <text x="-62" y="-24" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Человек-</text>
+    <text x="-62" y="-15" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">образ</text>
+    <!-- 🎨 palette icon -->
+    <circle cx="-62" cy="-38" r="6" fill="#F48FB1"/>
+    <circle cx="-59" cy="-40" r="2" fill="#E91E63"/>
+    
+    <!-- Connection lines -->
+    <line x1="0" y1="-22" x2="0" y2="-35" stroke="#999" stroke-width="1" opacity="0.4"/>
+    <line x1="20" y1="-8" x2="35" y2="-18" stroke="#999" stroke-width="1" opacity="0.4"/>
+    <line x1="12" y1="18" x2="25" y2="32" stroke="#999" stroke-width="1" opacity="0.4"/>
+    <line x1="-12" y1="18" x2="-25" y2="32" stroke="#999" stroke-width="1" opacity="0.4"/>
+    <line x1="-20" y1="-8" x2="-35" y2="-18" stroke="#999" stroke-width="1" opacity="0.4"/>
+  </g>
+  <!-- Right side info -->
+  <rect x="295" y="75" width="190" height="24" rx="4" fill="url(#hdr)" opacity="0.15"/>
+  <text x="305" y="91" font-family="Arial,sans-serif" font-size="10" fill="{C_DARK}" font-weight="bold">50 000+ профессий в мире</text>
+  <rect x="295" y="105" width="190" height="24" rx="4" fill="{C_PRI}" opacity="0.08"/>
+  <text x="305" y="121" font-family="Arial,sans-serif" font-size="10" fill="#333">5 типов по Климову</text>
+  <rect x="295" y="135" width="190" height="24" rx="4" fill="{C_PRI}" opacity="0.08"/>
+  <text x="305" y="151" font-family="Arial,sans-serif" font-size="10" fill="#333">Классификация по целям</text>
+  <rect x="295" y="165" width="190" height="24" rx="4" fill="{C_PRI}" opacity="0.08"/>
+  <text x="305" y="181" font-family="Arial,sans-serif" font-size="10" fill="#333">Ежегодно ~500 новых</text>
+  <!-- Arrow icon -->
+  <g transform="translate(310,210)">
+    <text x="0" y="0" font-family="Arial,sans-serif" font-size="24" fill="{C_PRI}" opacity="0.3">↗</text>
+  </g>
+  <text x="335" y="228" font-family="Arial,sans-serif" font-size="9" fill="#666">Профессии будущего</text>
+  <text x="335" y="242" font-family="Arial,sans-serif" font-size="9" fill="#666">растут и меняются</text>
+
+</svg>

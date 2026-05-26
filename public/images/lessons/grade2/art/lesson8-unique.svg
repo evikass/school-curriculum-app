@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <style>@keyframes t{0%,100%{transform:rotate(0)}50%{transform:rotate(3deg)}}.ht{animation:t 2.5s ease-in-out infinite;transform-origin:162px 185px}</style>
+  <rect width="500" height="350" fill="#FFF8E1"/>
+  <text x="250" y="24" text-anchor="middle" font-size="16" font-family="sans-serif" fill="#B71C1C" font-weight="bold">Городецкая роспись</text>
+  <rect x="50" y="45" width="400" height="280" rx="12" fill="#D7A86A" stroke="#8D6E63" stroke-width="4"/>
+  <rect x="60" y="55" width="380" height="260" rx="8" fill="#E8C880"/>
+  <rect x="70" y="65" width="360" height="240" rx="5" fill="none" stroke="#B71C1C" stroke-width="2"/>
+  <rect x="75" y="70" width="350" height="230" rx="4" fill="#F5E6C8"/>
+  <ellipse cx="210" cy="185" rx="50" ry="28" fill="#1A1A1A"/>
+  <path d="M240,175 Q250,140 255,120 Q260,110 265,115 Q260,130 255,155 Q252,165 248,175" fill="#1A1A1A"/>
+  <ellipse cx="260" cy="112" rx="16" ry="12" fill="#1A1A1A" transform="rotate(-15,260,112)"/>
+  <path d="M252,102 Q250,92 255,90 Q258,95 256,102" fill="#1A1A1A"/>
+  <circle cx="266" cy="108" r="3.5" fill="white"/><circle cx="267" cy="108" r="2" fill="#1A1A1A"/>
+  <path d="M250,130 Q240,125 245,118 Q235,120 240,112" fill="none" stroke="#E53935" stroke-width="3" stroke-linecap="round"/>
+  <line x1="180" y1="205" x2="175" y2="245" stroke="#1A1A1A" stroke-width="7" stroke-linecap="round"/>
+  <line x1="195" y1="208" x2="190" y2="248" stroke="#1A1A1A" stroke-width="7" stroke-linecap="round"/>
+  <line x1="225" y1="208" x2="230" y2="248" stroke="#1A1A1A" stroke-width="7" stroke-linecap="round"/>
+  <line x1="240" y1="205" x2="245" y2="245" stroke="#1A1A1A" stroke-width="7" stroke-linecap="round"/>
+  <ellipse cx="182" cy="248" rx="5" ry="3" fill="#444"/><ellipse cx="230" cy="250" rx="5" ry="3" fill="#444"/>
+  <g class="ht">
+    <path d="M162,180 Q145,175 135,185 Q130,195 140,200 Q148,195 155,190" fill="#1A1A1A"/>
+    <path d="M135,185 Q125,195 130,205" fill="none" stroke="#E53935" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <ellipse cx="215" cy="178" rx="18" ry="12" fill="#E53935"/>
+  <ellipse cx="215" cy="178" rx="12" ry="8" fill="#FDD835"/>
+  <circle cx="215" cy="178" r="4" fill="#E53935"/>
+  <g transform="translate(350,140)">
+    <circle r="18" fill="#E53935"/><ellipse cy="-14" rx="7" ry="14" fill="#EF5350"/>
+    <ellipse cy="14" rx="7" ry="14" fill="#EF5350"/><ellipse cx="-13" rx="14" ry="7" fill="#EF5350"/>
+    <ellipse cx="13" rx="14" ry="7" fill="#EF5350"/><circle r="8" fill="#FDD835"/><circle r="4" fill="#E53935"/>
+  </g>
+  <g transform="translate(380,220)">
+    <circle r="12" fill="#FF80AB"/><ellipse cy="-10" rx="5" ry="10" fill="#F48FB1"/>
+    <ellipse cy="10" rx="5" ry="10" fill="#F48FB1"/><circle r="5" fill="#FDD835"/>
+  </g>
+  <g transform="translate(320,250)">
+    <circle r="8" fill="#43A047"/><ellipse cy="-7" rx="3.5" ry="7" fill="#66BB6A"/>
+    <ellipse cy="7" rx="3.5" ry="7" fill="#66BB6A"/><circle r="3" fill="#FDD835"/>
+  </g>
+  <path d="M335,165 Q325,185 310,200" fill="none" stroke="#2E7D32" stroke-width="2"/>
+  <path d="M318,192 Q312,185 318,178" fill="#43A047"/>
+  <path d="M80,270 L420,270" stroke="#B71C1C" stroke-width="2"/>
+  <path d="M90,275 Q250,290 410,275" fill="none" stroke="#2E7D32" stroke-width="1.5"/>
+  <path d="M80,80 L420,80" stroke="#B71C1C" stroke-width="2"/>
+  <g transform="translate(130,95)"><circle r="5" fill="#E53935"/><circle cx="-5" cy="4" r="3.5" fill="#FF80AB"/>
+  <circle cx="5" cy="4" r="3.5" fill="#FF80AB"/></g>
+  <g transform="translate(390,95)"><circle r="5" fill="#FDD835"/><circle cx="-4" cy="4" r="3" fill="#FFEB3B"/>
+  <circle cx="4" cy="4" r="3" fill="#FFEB3B"/></g>
+</svg>

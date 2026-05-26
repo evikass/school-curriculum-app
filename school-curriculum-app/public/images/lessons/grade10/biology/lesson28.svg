@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#A5D6A7"/></linearGradient>
+  <linearGradient id="stromaGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#C8E6C9"/><stop offset="100%" stop-color="#81C784"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<!-- Title bar -->
+<rect x="3" y="3" width="494" height="38" rx="8" fill="#2E7D32"/>
+<rect x="3" y="30" width="494" height="11" fill="#2E7D32"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">Фотосинтез: темновая фаза (цикл Кальвина)</text>
+<text x="250" y="50" font-family="Arial,sans-serif" font-size="10" fill="#1B5E20" text-anchor="middle">Биология 10 класс — Урок 28</text>
+
+<!-- Location -->
+<rect x="155" y="55" width="190" height="16" rx="4" fill="#66BB6A" opacity="0.3"/>
+<text x="250" y="66" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Строма хлоропласта — не требует света напрямую</text>
+
+<!-- Chloroplast outline (background) -->
+<ellipse cx="250" cy="195" rx="230" ry="120" fill="#E8F5E9" stroke="#66BB6A" stroke-width="1.5" opacity="0.3"/>
+<text x="250" y="315" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Хлоропласт (строма)</text>
+
+<!-- CALVIN CYCLE - circular flow -->
+<!-- Center at 250, 190, radius ~80 -->
+
+<!-- CO2 input (top) -->
+<path d="M250,72 L250,100" stroke="#795548" stroke-width="2" marker-end="url(#arrBn)"/>
+<defs><marker id="arrBn" markerWidth="6" markerHeight="5" refX="6" refY="2.5" orient="auto"><path d="M0,0 L6,2.5 L0,5 Z" fill="#795548"/></marker></defs>
+<rect x="218" y="60" width="64" height="18" rx="6" fill="#795548" stroke="#4E342E" stroke-width="1.5"/>
+<text x="250" y="73" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#fff" text-anchor="middle">6 CO₂</text>
+
+<!-- Step 1: RuBP + CO2 → 2 PGA (Carbon fixation) -->
+<!-- RuBP (C5) - left -->
+<rect x="95" y="125" width="85" height="30" rx="8" fill="#FFD54F" stroke="#F57F17" stroke-width="2"/>
+<text x="137" y="140" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#E65100" text-anchor="middle">РуБФ (C₅)</text>
+<text x="137" y="150" font-family="Arial,sans-serif" font-size="7" fill="#F57F17" text-anchor="middle">рибулозобисфосфат</text>
+
+<!-- RuBisCO enzyme label -->
+<rect x="155" y="105" width="60" height="16" rx="4" fill="#E53935" stroke="#B71C1C" stroke-width="1"/>
+<text x="185" y="116" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#fff" text-anchor="middle">RuBisCO</text>
+<path d="M175,121 L160,125" stroke="#E53935" stroke-width="1"/>
+
+<!-- Arrow: RuBP + CO2 → PGA -->
+<path d="M180,142 Q220,145 230,148" stroke="#2E7D32" stroke-width="1.5" marker-end="url(#arrGn2)"/>
+<defs><marker id="arrGn2" markerWidth="5" markerHeight="4" refX="5" refY="2" orient="auto"><path d="M0,0 L5,2 L0,4 Z" fill="#2E7D32"/></marker></defs>
+
+<!-- PGA (C3) - top right -->
+<rect x="232" y="100" width="80" height="32" rx="8" fill="#81C784" stroke="#2E7D32" stroke-width="2"/>
+<text x="272" y="116" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20" text-anchor="middle">2 ФГК (C₃)</text>
+<text x="272" y="128" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">×6 = 12 ФГК</text>
+
+<!-- Arrow down: PGA → G3P -->
+<path d="M272,135 L272,160" stroke="#2E7D32" stroke-width="1.5" marker-end="url(#arrGn2)"/>
+<text x="295" y="148" font-family="Arial,sans-serif" font-size="7" fill="#1565C0">ATP</text>
+<text x="295" y="158" font-family="Arial,sans-serif" font-size="7" fill="#7B1FA2">NADPH</text>
+
+<!-- G3P (C3) - right -->
+<rect x="240" y="163" width="75" height="30" rx="8" fill="#A5D6A7" stroke="#2E7D32" stroke-width="2"/>
+<text x="277" y="178" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20" text-anchor="middle">ФГА (C₃)</text>
+<text x="277" y="189" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">фосфоглицер.альд</text>
+
+<!-- Arrow: G3P splits - some exits, some regenerates -->
+<!-- Exit arrow (to glucose) -->
+<path d="M315,175 L370,175" stroke="#F57F17" stroke-width="2" marker-end="url(#arrOr)"/>
+<defs><marker id="arrOr" markerWidth="5" markerHeight="4" refX="5" refY="2" orient="auto"><path d="M0,0 L5,2 L0,4 Z" fill="#F57F17"/></marker></defs>
+
+<!-- Glucose output -->
+<rect x="375" y="163" width="100" height="30" rx="8" fill="#FFD54F" stroke="#F57F17" stroke-width="2"/>
+<text x="425" y="178" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#E65100" text-anchor="middle">ГЛЮКОЗА</text>
+<text x="425" y="189" font-family="Arial,sans-serif" font-size="7" fill="#F57F17" text-anchor="middle">C₆H₁₂O₆</text>
+
+<!-- Note: 2 G3P needed for 1 glucose -->
+<text x="350" y="160" font-family="Arial,sans-serif" font-size="6" fill="#E65100">2 ФГА → 1 C₆</text>
+
+<!-- Arrow: remaining G3P → RuBP regeneration -->
+<path d="M255,193 Q230,215 210,225" stroke="#2E7D32" stroke-width="1.5" marker-end="url(#arrGn2)"/>
+<text x="210" y="210" font-family="Arial,sans-serif" font-size="7" fill="#1565C0">ATP</text>
+
+<!-- Regeneration intermediate -->
+<rect x="170" y="225" width="80" height="25" rx="6" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1.5"/>
+<text x="210" y="240" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Рибулозо-5-фосфат</text>
+
+<!-- Arrow back to RuBP -->
+<path d="M165,235 Q140,230 137,205 Q135,185 137,158" stroke="#2E7D32" stroke-width="1.5" marker-end="url(#arrGn2)"/>
+<text x="110" y="200" font-family="Arial,sans-serif" font-size="7" fill="#1565C0">ATP</text>
+<text x="108" y="212" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32">→РуБФ</text>
+
+<!-- ATP and NADPH inputs from light phase (left side) -->
+<rect x="15" y="155" width="60" height="22" rx="6" fill="#1565C0" stroke="#0D47A1" stroke-width="1.5"/>
+<text x="45" y="169" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#fff" text-anchor="middle">ATP</text>
+<path d="M75,166 L95,140" stroke="#1565C0" stroke-width="1.5" marker-end="url(#arrBl)"/>
+<defs><marker id="arrBl" markerWidth="5" markerHeight="4" refX="5" refY="2" orient="auto"><path d="M0,0 L5,2 L0,4 Z" fill="#1565C0"/></marker></defs>
+<path d="M75,166 L240,175" stroke="#1565C0" stroke-width="1" stroke-dasharray="4,3"/>
+
+<rect x="15" y="182" width="60" height="22" rx="6" fill="#7B1FA2" stroke="#4A148C" stroke-width="1.5"/>
+<text x="45" y="196" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#fff" text-anchor="middle">NADPH</text>
+<path d="M75,193 L240,180" stroke="#7B1FA2" stroke-width="1" stroke-dasharray="4,3"/>
+
+<text x="45" y="215" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle">Из световой</text>
+<text x="45" y="225" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle">фазы</text>
+
+<!-- Summary box -->
+<rect x="10" y="270" width="480" height="70" rx="8" fill="#1B5E20"/>
+<text x="250" y="286" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#FFEB3B" text-anchor="middle">Цикл Кальвина: 6 CO₂ + 6 РуБФ → 12 ФГК → 12 ФГА</text>
+<text x="250" y="300" font-family="Arial,sans-serif" font-size="8" fill="#C8E6C9" text-anchor="middle">2 ФГА → глюкоза (C₆H₁₂O₆) | 10 ФГА → 6 РуБФ (регенерация)</text>
+<text x="250" y="314" font-family="Arial,sans-serif" font-size="8" fill="#90CAF9" text-anchor="middle">Затраты на 1 глюкозу: 18 ATP + 12 NADPH | Фермент: RuBisCO</text>
+<text x="250" y="328" font-family="Arial,sans-serif" font-size="7" fill="#81C784" text-anchor="middle">«Тёмная фаза» не значит «ночью» — работает и днём, но не зависит от света напрямую</text>
+</svg>

@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg11s" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e8eaf6"/>
+      <stop offset="100%" stop-color="#c5cae9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg11s)"/>
+  
+  <!-- DRABC steps across top -->
+  <g transform="translate(0,30)">
+    <!-- D - Danger -->
+    <g transform="translate(55,0)">
+      <circle r="22" fill="#e53935"/>
+      <text x="0" y="7" text-anchor="middle" font-size="20" fill="#fff" font-weight="bold" font-family="Arial">D</text>
+      <!-- Danger triangle icon -->
+      <polygon points="0,-15 -5,-8 5,-8" fill="none" stroke="#fff" stroke-width="1.5" transform="translate(0,-2)"/>
+      <text x="0" y="35" text-anchor="middle" font-size="7" fill="#c62828" font-weight="bold" font-family="Arial">ОПАСНОСТЬ</text>
+    </g>
+    
+    <!-- R - Response -->
+    <g transform="translate(145,0)">
+      <circle r="22" fill="#ff9800"/>
+      <text x="0" y="7" text-anchor="middle" font-size="20" fill="#fff" font-weight="bold" font-family="Arial">R</text>
+      <!-- Shake shoulders icon -->
+      <path d="M-8,-5 Q0,-8 8,-5" stroke="#fff" stroke-width="2" fill="none"/>
+      <path d="M-6,2 Q0,0 6,2" stroke="#fff" stroke-width="2" fill="none"/>
+      <text x="0" y="35" text-anchor="middle" font-size="7" fill="#e65100" font-weight="bold" font-family="Arial">РЕАКЦИЯ</text>
+    </g>
+    
+    <!-- A - Airway -->
+    <g transform="translate(235,0)">
+      <circle r="22" fill="#fdd835"/>
+      <text x="0" y="7" text-anchor="middle" font-size="20" fill="#333" font-weight="bold" font-family="Arial">A</text>
+      <!-- Airway icon -->
+      <path d="M-5,5 Q0,-5 5,5" stroke="#333" stroke-width="2" fill="none"/>
+      <text x="0" y="35" text-anchor="middle" font-size="7" fill="#f57f17" font-weight="bold" font-family="Arial">ДЫХАНИЕ</text>
+    </g>
+    
+    <!-- B - Breathing -->
+    <g transform="translate(325,0)">
+      <circle r="22" fill="#4caf50"/>
+      <text x="0" y="7" text-anchor="middle" font-size="20" fill="#fff" font-weight="bold" font-family="Arial">B</text>
+      <!-- Lungs icon -->
+      <path d="M0,-5 Q-8,-2 -10,5 Q-8,10 0,8 Z" fill="none" stroke="#fff" stroke-width="1.5"/>
+      <path d="M0,-5 Q8,-2 10,5 Q8,10 0,8 Z" fill="none" stroke="#fff" stroke-width="1.5"/>
+      <text x="0" y="35" text-anchor="middle" font-size="7" fill="#2e7d32" font-weight="bold" font-family="Arial">ВЕНТИЛЯЦИЯ</text>
+    </g>
+    
+    <!-- C - Circulation -->
+    <g transform="translate(415,0)">
+      <circle r="22" fill="#2196f3"/>
+      <text x="0" y="7" text-anchor="middle" font-size="20" fill="#fff" font-weight="bold" font-family="Arial">C</text>
+      <!-- Heart icon -->
+      <path d="M0,5 Q-8,-2 -5,-7 Q-2,-12 0,-7 Q2,-12 5,-7 Q8,-2 0,5 Z" fill="#fff" opacity="0.8"/>
+      <text x="0" y="35" text-anchor="middle" font-size="7" fill="#1565c0" font-weight="bold" font-family="Arial">КРОВООБРАЩЕНИЕ</text>
+    </g>
+    
+    <!-- Connecting arrows -->
+    <line x1="78" y1="0" x2="120" y2="0" stroke="#999" stroke-width="1.5" marker-end="url(#arr11s)"/>
+    <line x1="168" y1="0" x2="210" y2="0" stroke="#999" stroke-width="1.5" marker-end="url(#arr11s)"/>
+    <line x1="258" y1="0" x2="300" y2="0" stroke="#999" stroke-width="1.5" marker-end="url(#arr11s)"/>
+    <line x1="348" y1="0" x2="390" y2="0" stroke="#999" stroke-width="1.5" marker-end="url(#arr11s)"/>
+    <defs>
+      <marker id="arr11s" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+        <polygon points="0,0 8,3 0,6" fill="#999"/>
+      </marker>
+    </defs>
+  </g>
+  
+  <!-- Recovery position (left side) -->
+  <g transform="translate(130,200)">
+    <rect x="-85" y="-55" width="170" height="110" rx="8" fill="white" opacity="0.8" stroke="#78909c" stroke-width="1"/>
+    <text x="0" y="-40" text-anchor="middle" font-size="8" fill="#333" font-weight="bold" font-family="Arial">Боковое положение</text>
+    
+    <!-- Person in recovery position -->
+    <!-- Head turned to side -->
+    <circle cx="-25" cy="-15" r="12" fill="#ffb57c"/>
+    <!-- Face turned -->
+    <circle cx="-30" cy="-17" r="1.5" fill="#333"/>
+    <path d="M-32,-13 Q-30,-11 -28,-13" stroke="#333" stroke-width="0.8" fill="none"/>
+    <!-- Body lying on side -->
+    <path d="M-20,-5 L0,5" stroke="#1e88e5" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <!-- Top arm supporting head -->
+    <path d="M-15,-5 Q-25,-8 -30,-15" stroke="#ffb57c" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Bottom arm -->
+    <path d="M-10,0 Q-15,10 -10,15" stroke="#ffb57c" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Top leg bent -->
+    <path d="M0,5 L15,0 L20,10" stroke="#ffb57c" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- Bottom leg slightly bent -->
+    <path d="M0,5 L10,15" stroke="#ffb57c" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- CPR (right side) -->
+  <g transform="translate(380,200)">
+    <rect x="-85" y="-55" width="170" height="110" rx="8" fill="white" opacity="0.8" stroke="#78909c" stroke-width="1"/>
+    <text x="0" y="-40" text-anchor="middle" font-size="8" fill="#333" font-weight="bold" font-family="Arial">Сердечно-лёгочная реанимация</text>
+    
+    <!-- Person lying on back -->
+    <!-- Head tilted back -->
+    <circle cx="-35" cy="-5" r="10" fill="#ffb57c"/>
+    <!-- Chin tilt indicated -->
+    <path d="M-30,-2 Q-25,0 -22,-3" stroke="#999" stroke-width="1" fill="none"/>
+    <!-- Body flat -->
+    <path d="M-25,0 L30,5" stroke="#1e88e5" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <!-- Arms at sides -->
+    <path d="M-15,2 L-18,15" stroke="#ffb57c" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M15,4 L20,15" stroke="#ffb57c" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <!-- Legs -->
+    <path d="M30,5 L40,18" stroke="#ffb57c" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M30,5 L35,20" stroke="#ffb57c" stroke-width="4" fill="none" stroke-linecap="round"/>
+    
+    <!-- Hands on chest for compressions -->
+    <g transform="translate(-5,0)">
+      <rect x="-8" y="-5" width="16" height="4" rx="1" fill="#ffb57c" stroke="#e8a060" stroke-width="0.5"/>
+      <rect x="-6" y="-8" width="12" height="4" rx="1" fill="#ffb57c" stroke="#e8a060" stroke-width="0.5"/>
+      <!-- Compression arrow -->
+      <path d="M0,-15 L0,-10" stroke="#e53935" stroke-width="2" marker-end="url(#cprArr)"/>
+      <defs>
+        <marker id="cprArr" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+          <polygon points="0,0 6,3 0,6" fill="#e53935"/>
+        </marker>
+      </defs>
+    </g>
+    
+    <!-- Rate indicator -->
+    <text x="40" y="-10" font-size="6" fill="#e53935" font-family="Arial">30:2</text>
+    <text x="40" y="-2" font-size="5" fill="#666" font-family="Arial">компрессий</text>
+    <text x="40" y="5" font-size="5" fill="#666" font-family="Arial">к вдохам</text>
+  </g>
+  
+  <!-- Call 112 reminder -->
+  <g transform="translate(250,310)">
+    <rect x="-50" y="-14" width="100" height="28" rx="14" fill="#e53935"/>
+    <text x="0" y="4" text-anchor="middle" font-size="12" fill="#fff" font-weight="bold" font-family="Arial">☎ 112</text>
+  </g>
+  
+  <text x="250" y="342" text-anchor="middle" font-size="9" opacity="0.5" fill="#333" font-family="Arial, sans-serif">Основы первой помощи</text>
+</svg>

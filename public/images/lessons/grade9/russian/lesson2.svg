@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg2)"/>
+  <!-- Two equal boxes with AND between them -->
+  <rect x="20" y="40" width="190" height="70" rx="10" fill="#0f3460" opacity="0.9"/>
+  <text x="115" y="72" text-anchor="middle" fill="white" font-size="12" font-weight="bold">Солнце светило</text>
+  <text x="115" y="92" text-anchor="middle" fill="white" font-size="10">Одновременность</text>
+  <!-- AND symbol -->
+  <circle cx="250" cy="75" r="25" fill="#e94560"/>
+  <text x="250" y="82" text-anchor="middle" fill="white" font-size="18" font-weight="bold">И</text>
+  <rect x="290" y="40" width="190" height="70" rx="10" fill="#0f3460" opacity="0.9"/>
+  <text x="385" y="72" text-anchor="middle" fill="white" font-size="12" font-weight="bold">Птицы пели</text>
+  <text x="385" y="92" text-anchor="middle" fill="white" font-size="10">Одновременность</text>
+  <!-- Sequence example -->
+  <rect x="20" y="130" width="190" height="70" rx="10" fill="#533483" opacity="0.85"/>
+  <text x="115" y="162" text-anchor="middle" fill="white" font-size="12" font-weight="bold">Дверь открылась</text>
+  <text x="115" y="182" text-anchor="middle" fill="white" font-size="10">Последовательность</text>
+  <circle cx="250" cy="165" r="25" fill="#e94560"/>
+  <text x="250" y="172" text-anchor="middle" fill="white" font-size="18" font-weight="bold">И</text>
+  <rect x="290" y="130" width="190" height="70" rx="10" fill="#533483" opacity="0.85"/>
+  <text x="385" y="162" text-anchor="middle" fill="white" font-size="12" font-weight="bold">Вошёл учитель</text>
+  <text x="385" y="182" text-anchor="middle" fill="white" font-size="10">Последовательность</text>
+  <!-- Connecting unions list -->
+  <rect x="30" y="220" width="440" height="100" rx="10" fill="#16213e" stroke="#e94560" stroke-width="1"/>
+  <text x="250" y="245" text-anchor="middle" fill="#e94560" font-size="14" font-weight="bold">Соединительные союзы</text>
+  <text x="130" y="270" text-anchor="middle" fill="white" font-size="12">и — основной</text>
+  <text x="250" y="270" text-anchor="middle" fill="white" font-size="12">да (= и)</text>
+  <text x="370" y="270" text-anchor="middle" fill="white" font-size="12">тоже, также</text>
+  <text x="250" y="295" text-anchor="middle" fill="#e8e8e8" font-size="11" font-style="italic">ни — ни (повторяющийся)</text>
+  <text x="250" y="315" text-anchor="middle" fill="#e94560" font-size="10">Запятая НЕ ставится при общем второстепенном члене</text>
+  <text x="250" y="345" text-anchor="middle" fill="white" font-size="9" opacity="0.5">ССП с соединительными союзами</text>
+</svg>

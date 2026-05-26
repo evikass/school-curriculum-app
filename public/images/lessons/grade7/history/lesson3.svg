@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#FFEBEE"/>
+<circle cx="100" cy="120" r="45" fill="#FFCDD2" stroke="#C62828" stroke-width="2"/>
+<rect x="75" y="80" width="50" height="40" rx="5" fill="#EF9A9A"/>
+<line x1="60" y1="88" x2="140" y2="88" stroke="#FFD700" stroke-width="2.5"/>
+<circle cx="80" cy="88" r="4" fill="#FFD700" stroke="#F9A825" stroke-width="1"/>
+<circle cx="120" cy="88" r="4" fill="#FFD700" stroke="#F9A825" stroke-width="1"/>
+<path d="M90,88 L90,72 L110,72 L110,88" fill="#FFD700" stroke="#F9A825" stroke-width="1.5"/>
+<circle cx="90" cy="105" r="3" fill="#5D4037"/><circle cx="110" cy="105" r="3" fill="#5D4037"/>
+<path d="M93,118 Q100,125 107,118" fill="none" stroke="#5D4037" stroke-width="1.5"/>
+<line x1="140" y1="100" x2="165" y2="100" stroke="#C62828" stroke-width="2"/>
+<circle cx="175" cy="100" r="8" fill="#FFD700" stroke="#F9A825" stroke-width="1.5"/>
+<text x="175" y="103" font-size="6" fill="#F57F17" text-anchor="middle">с</text>
+<text x="100" y="180" font-size="9" fill="#C62828" text-anchor="middle" font-weight="bold">Иван IV</text>
+<text x="100" y="195" font-size="7" fill="#D32F2F" text-anchor="middle">Грозный</text>
+<text x="100" y="208" font-size="7" fill="#E53935" text-anchor="middle">1533–1584</text>
+<rect x="230" y="30" width="250" height="130" rx="6" fill="#FFF" stroke="#C62828" stroke-width="1.5"/>
+<text x="355" y="50" font-size="9" fill="#C62828" text-anchor="middle" font-weight="bold">Опричнина (1565–1572)</text>
+<rect x="250" y="60" width="30" height="50" rx="2" fill="#37474F" stroke="#263238" stroke-width="1.5"/>
+<circle cx="265" cy="55" r="8" fill="#546E7A" stroke="#37474F" stroke-width="1"/>
+<text x="265" y="58" font-size="5" fill="#FFF" text-anchor="middle">🐕</text>
+<line x1="250" y1="75" x2="280" y2="75" stroke="#90A4AE" stroke-width="1"/>
+<path d="M265,110 L260,140 Q265,150 270,140 L265,110" fill="#5D4037" stroke="#3E2723" stroke-width="1.5"/>
+<text x="310" y="75" font-size="7" fill="#37474F">оплечник</text>
+<text x="310" y="90" font-size="7" fill="#546E7A">собака + метла</text>
+<text x="310" y="105" font-size="7" fill="#546E7A">«выгрызать измену»</text>
+<rect x="250" y="115" width="210" height="30" rx="3" fill="#FFEBEE" stroke="#EF5350" stroke-width="1"/>
+<text x="355" y="135" font-size="7" fill="#C62828" text-anchor="middle">террор, конфискация земель</text>
+<path d="M340,180 Q360,170 380,175 Q400,180 410,195 Q415,210 405,220 Q390,230 370,225 Q350,220 345,205 Q340,190 340,180 Z" fill="#E53935" stroke="#C62828" stroke-width="2"/>
+<path d="M360,185 Q370,178 380,183 Q388,190 382,200 Q375,208 365,203 Q358,198 360,185 Z" fill="#EF5350" stroke="#D32F2F" stroke-width="1"/>
+<path d="M355,218 Q365,225 375,218 Q385,212 390,220" fill="none" stroke="#C62828" stroke-width="1.5"/>
+<path d="M352,210 Q362,205 372,210 Q382,215 390,208" fill="none" stroke="#C62828" stroke-width="1"/>
+<text x="370" y="240" font-size="7" fill="#C62828" text-anchor="middle">Покровский собор</text>
+<text x="370" y="252" font-size="6" fill="#D32F2F" text-anchor="middle">(Храм Василия Блаженного)</text>
+<text x="370" y="265" font-size="6" fill="#E53935" text-anchor="middle">1555–1561, взятие Казани</text>
+<rect x="30" y="240" width="200" height="70" rx="4" fill="#FFF" stroke="#9E9E9E" stroke-width="1"/>
+<text x="130" y="258" font-size="8" fill="#424242" text-anchor="middle" font-weight="bold">Реформы Ивана IV</text>
+<text x="50" y="275" font-size="7" fill="#616161">• Земский собор (1549)</text>
+<text x="50" y="288" font-size="7" fill="#616161">• Судебник (1550)</text>
+<text x="50" y="301" font-size="7" fill="#616161">• Стрелецкое войско</text>
+<text x="250" y="345" font-size="9" fill="#666" text-anchor="middle" opacity="0.5">Иван IV Грозный</text>
+</svg>

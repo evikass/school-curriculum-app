@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="12"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#1B5E20">Селекция</text>
+  <line x1="100" y1="40" x2="400" y2="40" stroke="#2E7D32" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Vavilov centers map -->
+  <g transform="translate(15,50)">
+    <rect x="0" y="0" width="220" height="140" rx="6" fill="white" fill-opacity="0.6" stroke="#2E7D32" stroke-width="1"/>
+    <text x="110" y="16" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#1B5E20">Центры происхождения</text>
+    <text x="110" y="27" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32">культурных растений (Н.И. Вавилов)</text>
+
+    <!-- Simplified world map outline -->
+    <ellipse cx="110" cy="82" rx="95" ry="40" fill="#E8F5E9" stroke="#66BB6A" stroke-width="0.8" opacity="0.4"/>
+
+    <!-- Center dots with labels -->
+    <circle cx="65" cy="62" r="5" fill="#66BB6A" stroke="#1B5E20" stroke-width="1"/>
+    <text x="75" y="60" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20">Средиземноморский</text>
+
+    <circle cx="80" cy="78" r="5" fill="#81C784" stroke="#1B5E20" stroke-width="1"/>
+    <text x="90" y="76" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20">Переднеазиатский</text>
+
+    <circle cx="110" cy="72" r="5" fill="#A5D6A7" stroke="#1B5E20" stroke-width="1"/>
+    <text x="120" y="72" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20">Центральноазиатский</text>
+
+    <circle cx="132" cy="62" r="5" fill="#4CAF50" stroke="#1B5E20" stroke-width="1"/>
+    <text x="142" y="62" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20">Восточноазиатский</text>
+
+    <circle cx="68" cy="100" r="5" fill="#43A047" stroke="#1B5E20" stroke-width="1"/>
+    <text x="78" y="98" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20">Абиссинский</text>
+
+    <circle cx="55" cy="90" r="5" fill="#388E3C" stroke="#1B5E20" stroke-width="1"/>
+    <text x="12" y="93" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20">Южноамерик.</text>
+
+    <circle cx="40" cy="82" r="5" fill="#2E7D32" stroke="#1B5E20" stroke-width="1"/>
+    <text x="5" y="82" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20">Центр.-амер.</text>
+
+    <circle cx="155" cy="85" r="5" fill="#C8E6C9" stroke="#1B5E20" stroke-width="1"/>
+    <text x="165" y="85" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20">Индийский</text>
+
+    <!-- Vavilov portrait hint -->
+    <text x="110" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" font-style="italic">«Закон гомологических рядов»</text>
+  </g>
+
+  <!-- Plant breeding methods -->
+  <g transform="translate(245,50)">
+    <rect x="0" y="0" width="240" height="140" rx="6" fill="white" fill-opacity="0.6" stroke="#2E7D32" stroke-width="1"/>
+    <text x="120" y="16" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#1B5E20">Методы селекции</text>
+
+    <!-- Plant section -->
+    <rect x="5" y="24" width="115" height="110" rx="4" fill="#E8F5E9" stroke="#66BB6A" stroke-width="0.8"/>
+    <text x="62" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20">Растений</text>
+
+    <circle cx="16" cy="50" r="3" fill="#4CAF50"/>
+    <text x="24" y="53" font-family="Arial,sans-serif" font-size="7.5" fill="#1B5E20">Гибридизация</text>
+    <circle cx="16" cy="66" r="3" fill="#4CAF50"/>
+    <text x="24" y="69" font-family="Arial,sans-serif" font-size="7.5" fill="#1B5E20">Отбор (массовый)</text>
+    <circle cx="16" cy="82" r="3" fill="#4CAF50"/>
+    <text x="24" y="85" font-family="Arial,sans-serif" font-size="7.5" fill="#1B5E20">Отбор (индивидуальный)</text>
+    <circle cx="16" cy="98" r="3" fill="#4CAF50"/>
+    <text x="24" y="101" font-family="Arial,sans-serif" font-size="7.5" fill="#1B5E20">Полиплоидия</text>
+    <circle cx="16" cy="114" r="3" fill="#4CAF50"/>
+    <text x="24" y="117" font-family="Arial,sans-serif" font-size="7.5" fill="#1B5E20">Мутагенез</text>
+
+    <!-- Animal section -->
+    <rect x="125" y="24" width="110" height="110" rx="4" fill="#E8F5E9" stroke="#66BB6A" stroke-width="0.8"/>
+    <text x="180" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20">Животных</text>
+
+    <circle cx="136" cy="50" r="3" fill="#4CAF50"/>
+    <text x="144" y="53" font-family="Arial,sans-serif" font-size="7.5" fill="#1B5E20">Гибридизация</text>
+    <circle cx="136" cy="66" r="3" fill="#4CAF50"/>
+    <text x="144" y="69" font-family="Arial,sans-serif" font-size="7.5" fill="#1B5E20">Инбридинг</text>
+    <circle cx="136" cy="82" r="3" fill="#4CAF50"/>
+    <text x="144" y="85" font-family="Arial,sans-serif" font-size="7.5" fill="#1B5E20">Аутбридинг</text>
+    <circle cx="136" cy="98" r="3" fill="#4CAF50"/>
+    <text x="144" y="101" font-family="Arial,sans-serif" font-size="7.5" fill="#1B5E20">Отбор</text>
+    <circle cx="136" cy="114" r="3" fill="#4CAF50"/>
+    <text x="144" y="117" font-family="Arial,sans-serif" font-size="7.5" fill="#1B5E20">Искусств. осемен.</text>
+  </g>
+
+  <!-- Biotechnology -->
+  <g transform="translate(15,200)">
+    <rect x="0" y="0" width="470" height="135" rx="6" fill="white" fill-opacity="0.5" stroke="#2E7D32" stroke-width="1"/>
+    <text x="235" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#1B5E20">Биотехнология</text>
+
+    <!-- Cell engineering -->
+    <g transform="translate(10,28)">
+      <rect x="0" y="0" width="145" height="95" rx="4" fill="#C8E6C9" stroke="#4CAF50" stroke-width="0.8"/>
+      <text x="72" y="14" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20">Клеточная инженерия</text>
+      <!-- Two cells merging -->
+      <circle cx="40" cy="42" r="16" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1" opacity="0.7"/>
+      <circle cx="58" cy="42" r="16" fill="#81C784" stroke="#2E7D32" stroke-width="1" opacity="0.7"/>
+      <circle cx="49" cy="42" r="8" fill="#66BB6A" stroke="#1B5E20" stroke-width="1"/>
+      <text x="72" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" fill="#1B5E20">Гибридома</text>
+      <text x="72" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32">Культура тканей</text>
+      <text x="72" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32">Клонирование</text>
+    </g>
+
+    <!-- Genetic engineering -->
+    <g transform="translate(165,28)">
+      <rect x="0" y="0" width="145" height="95" rx="4" fill="#C8E6C9" stroke="#4CAF50" stroke-width="0.8"/>
+      <text x="72" y="14" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20">Генная инженерия</text>
+      <!-- DNA with insertion -->
+      <path d="M20,35 Q35,28 20,45 Q5,55 20,65" fill="none" stroke="#2E7D32" stroke-width="2"/>
+      <path d="M50,35 Q35,28 50,45 Q65,55 50,65" fill="none" stroke="#2E7D32" stroke-width="2"/>
+      <rect x="26" y="42" width="18" height="8" rx="2" fill="#FF9800" stroke="#E65100" stroke-width="0.8"/>
+      <text x="35" y="49" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#E65100">Ген</text>
+      <line x1="20" y1="38" x2="50" y2="38" stroke="#66BB6A" stroke-width="1"/>
+      <line x1="20" y1="55" x2="50" y2="55" stroke="#66BB6A" stroke-width="1"/>
+      <text x="72" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32">Трансгенные</text>
+      <text x="72" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32">организмы (ГМО)</text>
+    </g>
+
+    <!-- Microbiological synthesis -->
+    <g transform="translate(320,28)">
+      <rect x="0" y="0" width="145" height="95" rx="4" fill="#C8E6C9" stroke="#4CAF50" stroke-width="0.8"/>
+      <text x="72" y="14" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20">Микробиологический</text>
+      <text x="72" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20">синтез</text>
+      <!-- Bacteria -->
+      <ellipse cx="40" cy="48" rx="12" ry="6" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1"/>
+      <ellipse cx="65" cy="42" rx="10" ry="5" fill="#81C784" stroke="#2E7D32" stroke-width="1"/>
+      <ellipse cx="55" cy="58" rx="11" ry="5" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1"/>
+      <!-- Product arrow -->
+      <line x1="80" y1="50" x2="100" y2="50" stroke="#2E7D32" stroke-width="1.5" marker-end="none"/>
+      <polygon points="100,47 106,50 100,53" fill="#2E7D32"/>
+      <rect x="108" y="42" width="25" height="16" rx="3" fill="#FFAB91" stroke="#E65100" stroke-width="0.8"/>
+      <text x="72" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32">Антибиотики</text>
+      <text x="72" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32">Гормоны (инсулин)</text>
+    </g>
+  </g>
+
+  <text x="480" y="340" text-anchor="end" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" opacity="0.6">Урок 33</text>
+</svg>

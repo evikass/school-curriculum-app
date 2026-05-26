@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="pbg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a0a2e"/>
+      <stop offset="100%" style="stop-color:#2d1b4e"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#pbg2)"/>
+  <!-- Central hub -->
+  <circle cx="250" cy="170" r="40" fill="#7c4dff" opacity="0.2" stroke="#b388ff" stroke-width="2"/>
+  <text x="250" y="165" fill="#e040fb" font-size="9" text-anchor="middle" font-weight="bold">Познание</text>
+  <text x="250" y="178" fill="#b388ff" font-size="7" text-anchor="middle">сердцевина</text>
+  <!-- Surrounding processes -->
+  <!-- Ощущение -->
+  <circle cx="100" cy="80" r="30" fill="#4fc3f7" opacity="0.15" stroke="#4fc3f7" stroke-width="1.5"/>
+  <text x="100" y="78" fill="#4fc3f7" font-size="8" text-anchor="middle">Ощущение</text>
+  <text x="100" y="90" fill="#78909c" font-size="6" text-anchor="middle">свойства</text>
+  <line x1="125" y1="100" x2="215" y2="148" stroke="#4fc3f7" stroke-width="1" opacity="0.4"/>
+  <!-- Восприятие -->
+  <circle cx="250" cy="60" r="30" fill="#4caf50" opacity="0.15" stroke="#4caf50" stroke-width="1.5"/>
+  <text x="250" y="58" fill="#4caf50" font-size="8" text-anchor="middle">Восприятие</text>
+  <text x="250" y="70" fill="#78909c" font-size="6" text-anchor="middle">целостность</text>
+  <line x1="250" y1="90" x2="250" y2="130" stroke="#4caf50" stroke-width="1" opacity="0.4"/>
+  <!-- Память -->
+  <circle cx="400" cy="80" r="30" fill="#ff9800" opacity="0.15" stroke="#ff9800" stroke-width="1.5"/>
+  <text x="400" y="78" fill="#ff9800" font-size="8" text-anchor="middle">Память</text>
+  <text x="400" y="90" fill="#78909c" font-size="6" text-anchor="middle">запоминание</text>
+  <line x1="375" y1="100" x2="285" y2="148" stroke="#ff9800" stroke-width="1" opacity="0.4"/>
+  <!-- Мышление -->
+  <circle cx="400" cy="250" r="30" fill="#f44336" opacity="0.15" stroke="#f44336" stroke-width="1.5"/>
+  <text x="400" y="248" fill="#f44336" font-size="8" text-anchor="middle">Мышление</text>
+  <text x="400" y="260" fill="#78909c" font-size="6" text-anchor="middle">обобщение</text>
+  <line x1="375" y1="230" x2="285" y2="192" stroke="#f44336" stroke-width="1" opacity="0.4"/>
+  <!-- Воображение -->
+  <circle cx="250" cy="290" r="30" fill="#9c27b0" opacity="0.15" stroke="#9c27b0" stroke-width="1.5"/>
+  <text x="250" y="288" fill="#9c27b0" font-size="8" text-anchor="middle">Воображение</text>
+  <text x="250" y="300" fill="#78909c" font-size="6" text-anchor="middle">новые образы</text>
+  <line x1="250" y1="260" x2="250" y2="210" stroke="#9c27b0" stroke-width="1" opacity="0.4"/>
+  <!-- Внимание -->
+  <circle cx="100" cy="250" r="30" fill="#ffc107" opacity="0.15" stroke="#ffc107" stroke-width="1.5"/>
+  <text x="100" y="248" fill="#ffc107" font-size="8" text-anchor="middle">Внимание</text>
+  <text x="100" y="260" fill="#78909c" font-size="6" text-anchor="middle">концентрация</text>
+  <line x1="125" y1="230" x2="215" y2="192" stroke="#ffc107" stroke-width="1" opacity="0.4"/>
+  <!-- Eye icon (sensation) -->
+  <g transform="translate(70,120)">
+    <ellipse cx="30" cy="15" rx="25" ry="12" fill="none" stroke="#4fc3f7" stroke-width="1" opacity="0.5"/>
+    <circle cx="30" cy="15" r="6" fill="#4fc3f7" opacity="0.3"/>
+  </g>
+  <text x="250" y="345" fill="#aaa" font-size="9" text-anchor="middle" opacity="0.5">Познавательные процессы</text>
+</svg>

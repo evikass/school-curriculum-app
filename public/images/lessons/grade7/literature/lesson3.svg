@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#EFEBE9"/>
+<!-- Scroll -->
+<rect x="70" y="50" width="360" height="220" rx="5" fill="#FFF8E1" stroke="#8D6E63" stroke-width="1.5"/>
+<!-- Scroll ends (rolled) -->
+<ellipse cx="70" cy="50" rx="12" ry="8" fill="#D7CCC8" stroke="#8D6E63" stroke-width="1.5"/>
+<ellipse cx="70" cy="270" rx="12" ry="8" fill="#D7CCC8" stroke="#8D6E63" stroke-width="1.5"/>
+<ellipse cx="430" cy="50" rx="12" ry="8" fill="#D7CCC8" stroke="#8D6E63" stroke-width="1.5"/>
+<ellipse cx="430" cy="270" rx="12" ry="8" fill="#D7CCC8" stroke="#8D6E63" stroke-width="1.5"/>
+<!-- Old text (Cyrillic-like) -->
+<text x="110" y="95" font-family="serif" font-size="14" fill="#5D4037" opacity="0.7">В лѣто 6562...</text>
+<line x1="110" y1="110" x2="400" y2="110" stroke="#BCAAA4" stroke-width="0.5"/>
+<text x="110" y="130" font-family="serif" font-size="12" fill="#795548" opacity="0.6">И повелѣ князь Рюрикъ</text>
+<line x1="110" y1="140" x2="400" y2="140" stroke="#BCAAA4" stroke-width="0.5"/>
+<text x="110" y="158" font-family="serif" font-size="12" fill="#795548" opacity="0.6">призвати варяги въ земьлю</text>
+<line x1="110" y1="168" x2="400" y2="168" stroke="#BCAAA4" stroke-width="0.5"/>
+<text x="110" y="186" font-family="serif" font-size="12" fill="#795548" opacity="0.6">Новгородьскую...</text>
+<line x1="110" y1="196" x2="400" y2="196" stroke="#BCAAA4" stroke-width="0.5"/>
+<text x="110" y="214" font-family="serif" font-size="12" fill="#795548" opacity="0.6">Се повести времяньныхъ</text>
+<text x="110" y="232" font-family="serif" font-size="12" fill="#795548" opacity="0.6">лѣтъ, откуда есть пошла</text>
+<text x="110" y="250" font-family="serif" font-size="12" fill="#795548" opacity="0.6">Руская земьля...</text>
+<!-- Seal/stamp -->
+<circle cx="370" cy="230" r="22" fill="none" stroke="#C62828" stroke-width="1.5" opacity="0.4"/>
+<text x="370" y="228" font-family="serif" font-size="8" fill="#C62828" text-anchor="middle" opacity="0.5">ЛЕТОПИСЕЦЪ</text>
+<text x="370" y="240" font-family="serif" font-size="7" fill="#C62828" text-anchor="middle" opacity="0.5">НEСТОРА</text>
+<!-- Title label -->
+<rect x="100" y="285" width="300" height="35" rx="5" fill="#8D6E63" opacity="0.15"/>
+<text x="250" y="307" font-family="sans-serif" font-size="14" fill="#4E342E" text-anchor="middle" font-weight="bold">Повесть временных лет</text>
+<!-- Quill -->
+<line x1="420" y1="290" x2="470" y2="310" stroke="#5D4037" stroke-width="2"/>
+<path d="M470 310 Q478 312 475 305 L470 310" fill="#5D4037"/>
+<text x="250" y="345" font-family="sans-serif" font-size="9" fill="#5D4037" opacity="0.5" text-anchor="middle">«Повесть временных лет»</text>
+</svg>
