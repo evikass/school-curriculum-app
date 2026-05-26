@@ -1,36 +1,97 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#E8F5E9"/>
-      <stop offset="100%" stop-color="#C8E6C9"/>
-    </linearGradient>
-  </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="12"/>
-  <rect x="10" y="10" width="480" height="330" fill="white" rx="8" opacity="0.85"/>
-  <text x="250" y="35" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#2E7D32" text-anchor="middle">Разнообразие и значение растений</text>
-  <text x="250" y="50" font-family="Arial,sans-serif" font-size="9" fill="#888" text-anchor="middle">Биология 5 класс — Урок 17</text>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#1B5E20" text-anchor="middle">Разнообразие, распространение, значение растений</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 5 класс — Урок 17</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- Plant diversity tree -->
+<g transform="translate(250,160)">
+  <!-- Main trunk -->
+  <rect x="-5" y="-70" width="10" height="80" fill="#795548" stroke="#5D4037" stroke-width="1"/>
   
-  <rect x="30" y="70" width="440" height="40" fill="#4CAF50" rx="6"/>
-  <text x="250" y="95" font-family="Arial,sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="bold">Растения — продуценты органических веществ</text>
-  <rect x="30" y="125" width="210" height="90" fill="#C8E6C9" rx="6"/>
-  <text x="135" y="145" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">Споровые растения</text>
-  <text x="50" y="165" font-family="Arial,sans-serif" font-size="7" fill="#555">🌊 Водоросли — таллом</text>
-  <text x="50" y="180" font-family="Arial,sans-serif" font-size="7" fill="#555">🌿 Мхи — стебель + листья</text>
-  <text x="50" y="195" font-family="Arial,sans-serif" font-size="7" fill="#555">🍃 Папоротники, хвощи, плауны</text>
-  <text x="50" y="210" font-family="Arial,sans-serif" font-size="7" fill="#555">Размножение: споры</text>
-  <rect x="260" y="125" width="210" height="90" fill="#A5D6A7" rx="6"/>
-  <text x="365" y="145" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">Семенные растения</text>
-  <text x="280" y="165" font-family="Arial,sans-serif" font-size="7" fill="#555">🌲 Голосеменные — шишки</text>
-  <text x="280" y="180" font-family="Arial,sans-serif" font-size="7" fill="#555">🌸 Покрытосеменные — цветки</text>
-  <text x="280" y="195" font-family="Arial,sans-serif" font-size="7" fill="#555">Размножение: семена</text>
-  <text x="280" y="210" font-family="Arial,sans-serif" font-size="7" fill="#555">(без воды!)</text>
-  <rect x="30" y="230" width="440" height="90" fill="#E8F5E9" rx="6" stroke="#4CAF50" stroke-width="1"/>
-  <text x="250" y="250" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle" font-weight="bold">Значение растений:</text>
-  <text x="70" y="270" font-family="Arial,sans-serif" font-size="7" fill="#555">🌬️ Выделяют O2 при фотосинтезе</text>
-  <text x="270" y="270" font-family="Arial,sans-serif" font-size="7" fill="#555">🍞 Пища для всех организмов</text>
-  <text x="70" y="288" font-family="Arial,sans-serif" font-size="7" fill="#555">🏠 Строительный материал</text>
-  <text x="270" y="288" font-family="Arial,sans-serif" font-size="7" fill="#555">💊 Лекарства</text>
-  <text x="70" y="306" font-family="Arial,sans-serif" font-size="7" fill="#555">🎨 Красители, волокна</text>
-  <text x="270" y="306" font-family="Arial,sans-serif" font-size="7" fill="#555">♻️ Круговорот веществ</text>
+  <!-- Branches to plant groups -->
+  <line x1="-5" y1="-55" x2="-100" y2="-85" stroke="#4CAF50" stroke-width="2"/>
+  <line x1="0" y1="-50" x2="-50" y2="-85" stroke="#4CAF50" stroke-width="2"/>
+  <line x1="0" y1="-50" x2="50" y2="-85" stroke="#4CAF50" stroke-width="2"/>
+  <line x1="5" y1="-55" x2="100" y2="-85" stroke="#4CAF50" stroke-width="2"/>
   
+  <!-- Водоросли -->
+  <g transform="translate(-100,-100)">
+    <rect x="-40" y="-20" width="80" height="40" rx="6" fill="white" opacity="0.9" stroke="#00BCD4" stroke-width="1.5"/>
+    <path d="M-25,-5 Q-20,-15 -15,-5 Q-10,-15 -5,-5" fill="none" stroke="#00BCD4" stroke-width="2"/>
+    <text x="15" y="-5" font-family="Arial,sans-serif" font-size="7" fill="#006064" font-weight="bold">Водоросли</text>
+    <text x="15" y="5" font-family="Arial,sans-serif" font-size="5" fill="#006064">нет тканей</text>
+  </g>
+  
+  <!-- Мхи -->
+  <g transform="translate(-50,-100)">
+    <rect x="-35" y="-20" width="70" height="40" rx="6" fill="white" opacity="0.9" stroke="#4CAF50" stroke-width="1.5"/>
+    <path d="M-15,-5 L-15,-15 M-12,-5 L-12,-15 M-9,-5 L-9,-15" stroke="#2E7D32" stroke-width="1.5"/>
+    <circle cx="-15" cy="-16" r="2" fill="#66BB6A"/>
+    <circle cx="-12" cy="-16" r="2" fill="#66BB6A"/>
+    <circle cx="-9" cy="-16" r="2" fill="#66BB6A"/>
+    <text x="15" y="-5" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" font-weight="bold">Мхи</text>
+    <text x="15" y="5" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20">нет корней</text>
+  </g>
+  
+  <!-- Папоротники -->
+  <g transform="translate(50,-100)">
+    <rect x="-40" y="-20" width="80" height="40" rx="6" fill="white" opacity="0.9" stroke="#388E3C" stroke-width="1.5"/>
+    <path d="M-20,-5 Q-15,-15 -5,-10 Q0,-5 5,-10 Q15,-15 20,-5" fill="none" stroke="#388E3C" stroke-width="1.5"/>
+    <path d="M-10,-8 Q-5,-12 0,-8 Q5,-12 10,-8" fill="none" stroke="#388E3C" stroke-width="1"/>
+    <text x="25" y="-5" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" font-weight="bold">Папоротники</text>
+    <text x="25" y="5" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20">споры</text>
+  </g>
+  
+  <!-- Семенные -->
+  <g transform="translate(100,-100)">
+    <rect x="-40" y="-20" width="80" height="40" rx="6" fill="white" opacity="0.9" stroke="#FF9800" stroke-width="1.5"/>
+    <ellipse cx="-15" cy="-5" rx="8" ry="10" fill="#4CAF50" stroke="#2E7D32" stroke-width="1"/>
+    <circle cx="-15" cy="-5" r="4" fill="#8D6E63" stroke="#5D4037" stroke-width="0.5"/>
+    <text x="20" y="-5" font-family="Arial,sans-serif" font-size="6" fill="#E65100" font-weight="bold">Семенные</text>
+    <text x="20" y="5" font-family="Arial,sans-serif" font-size="5" fill="#E65100">семена</text>
+  </g>
+  
+  <!-- Root system -->
+  <path d="M-5,10 Q-20,30 -30,40" fill="none" stroke="#8D6E63" stroke-width="1.5"/>
+  <path d="M0,10 Q5,30 10,40" fill="none" stroke="#8D6E63" stroke-width="1.5"/>
+  <path d="M5,10 Q20,30 30,35" fill="none" stroke="#8D6E63" stroke-width="1.5"/>
+</g>
+
+<!-- Plant significance -->
+<rect x="30" y="235" width="440" height="90" rx="8" fill="white" opacity="0.9" stroke="#2E7D32" stroke-width="1.5"/>
+<text x="250" y="252" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">ЗНАЧЕНИЕ РАСТЕНИЙ</text>
+<line x1="40" y1="258" x2="460" y2="258" stroke="#2E7D32" stroke-width="0.5"/>
+
+<!-- Oxygen/Photosynthesis -->
+<g transform="translate(100,280)">
+  <circle cx="0" cy="0" r="10" fill="#B3E5FC" stroke="#0277BD" stroke-width="1"/>
+  <text x="0" y="3" font-family="Arial,sans-serif" font-size="5" fill="#0277BD" text-anchor="middle">O2</text>
+  <text x="0" y="18" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20" text-anchor="middle" font-weight="bold">Кислород</text>
+</g>
+
+<!-- Food -->
+<g transform="translate(200,280)">
+  <path d="M-5,-8 Q0,-12 5,-8 Q8,-4 5,2 Q0,8 -5,2 Q-8,-4 -5,-8" fill="#81C784" stroke="#2E7D32" stroke-width="1"/>
+  <text x="0" y="18" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20" text-anchor="middle" font-weight="bold">Пища</text>
+</g>
+
+<!-- Building materials -->
+<g transform="translate(300,280)">
+  <rect x="-8" y="-8" width="16" height="16" fill="#8D6E63" stroke="#5D4037" stroke-width="1"/>
+  <text x="0" y="18" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20" text-anchor="middle" font-weight="bold">Строит-во</text>
+</g>
+
+<!-- Medicine -->
+<g transform="translate(400,280)">
+  <rect x="-8" y="-5" width="16" height="10" rx="5" fill="#FFCDD2" stroke="#C62828" stroke-width="0.8"/>
+  <line x1="0" y1="-5" x2="0" y2="5" stroke="#C62828" stroke-width="0.5"/>
+  <text x="0" y="18" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20" text-anchor="middle" font-weight="bold">Медицина</text>
+</g>
+
+<text x="250" y="315" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">Фотосинтез: CO2 + H2O → глюкоза + O2 (на свету с хлорофиллом)</text>
 </svg>

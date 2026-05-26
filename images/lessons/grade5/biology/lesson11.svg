@@ -1,38 +1,113 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#E8F5E9"/>
-      <stop offset="100%" stop-color="#C8E6C9"/>
-    </linearGradient>
-  </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="12"/>
-  <rect x="10" y="10" width="480" height="330" fill="white" rx="8" opacity="0.85"/>
-  <text x="250" y="35" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#2E7D32" text-anchor="middle">Строение и жизнедеятельность бактерий</text>
-  <text x="250" y="50" font-family="Arial,sans-serif" font-size="9" fill="#888" text-anchor="middle">Биология 5 класс — Урок 11</text>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF3E0"/><stop offset="100%" stop-color="#FFE0B2"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#E65100" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#BF360C" text-anchor="middle">Строение и жизнедеятельность бактерий</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 5 класс — Урок 11</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#E65100" stroke-width="1" opacity="0.3"/>
+
+<!-- Detailed bacterium structure -->
+<g transform="translate(160,180)">
+  <rect x="-110" y="-105" width="220" height="200" rx="8" fill="white" opacity="0.9" stroke="#E65100" stroke-width="1.5"/>
+  <text x="0" y="-88" font-family="Arial,sans-serif" font-size="9" fill="#BF360C" text-anchor="middle" font-weight="bold">СТРОЕНИЕ БАКТЕРИИ</text>
+  <line x1="-100" y1="-82" x2="100" y2="-82" stroke="#E65100" stroke-width="0.5"/>
   
-  <ellipse cx="250" cy="140" rx="50" ry="35" fill="#8D6E63" stroke="#5D4037" stroke-width="2"/>
-  <ellipse cx="250" cy="140" rx="42" ry="28" fill="#A1887F" opacity="0.6"/>
-  <ellipse cx="240" cy="130" rx="12" ry="8" fill="#4E342E"/>
-  <text x="240" y="133" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle">ДНК</text>
-  <circle cx="265" cy="140" r="3" fill="#D7CCC8"/>
-  <text x="250" y="185" font-family="Arial,sans-serif" font-size="9" fill="#4E342E" text-anchor="middle" font-weight="bold">Бактерия (прокариот)</text>
-  <rect x="40" y="205" width="200" height="110" fill="#EFEBE9" rx="6"/>
-  <text x="140" y="225" font-family="Arial,sans-serif" font-size="9" fill="#4E342E" text-anchor="middle" font-weight="bold">Строение:</text>
-  <text x="60" y="245" font-family="Arial,sans-serif" font-size="7" fill="#555">• Клеточная стенка (нет целлюлозы)</text>
-  <text x="60" y="260" font-family="Arial,sans-serif" font-size="7" fill="#555">• Мембрана</text>
-  <text x="60" y="275" font-family="Arial,sans-serif" font-size="7" fill="#555">• Цитоплазма с рибосомами</text>
-  <text x="60" y="290" font-family="Arial,sans-serif" font-size="7" fill="#555">• Нуклеоид (кольцевая ДНК)</text>
-  <text x="60" y="305" font-family="Arial,sans-serif" font-size="7" fill="#555">• Нет ядра, митохондрий, ЭПС</text>
-  <rect x="260" y="205" width="210" height="110" fill="#E3F2FD" rx="6"/>
-  <text x="365" y="225" font-family="Arial,sans-serif" font-size="9" fill="#0D47A1" text-anchor="middle" font-weight="bold">Жизнедеятельность:</text>
-  <text x="280" y="245" font-family="Arial,sans-serif" font-size="7" fill="#555">• Автотрофы / Гетеротрофы</text>
-  <text x="280" y="260" font-family="Arial,sans-serif" font-size="7" fill="#555">• Аэробные / Анаэробные</text>
-  <text x="280" y="275" font-family="Arial,sans-serif" font-size="7" fill="#555">• Деление каждые 20–30 мин</text>
-  <text x="280" y="290" font-family="Arial,sans-serif" font-size="7" fill="#555">• Жгутики для движения</text>
-  <text x="280" y="305" font-family="Arial,sans-serif" font-size="7" fill="#555">• Споры при неблагоприятных условиях</text>
-  <circle cx="330" cy="140" r="4" fill="#8D6E63"/><line x1="330" y1="136" x2="330" y2="110" stroke="#5D4037" stroke-width="1.5"/>
-  <circle cx="180" cy="140" r="5" fill="#A1887F"/><line x1="180" y1="135" x2="180" y2="120" stroke="#8D6E63" stroke-width="1"/><line x1="176" y1="120" x2="184" y2="120" stroke="#8D6E63" stroke-width="1"/>
-  <text x="330" y="105" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">жгутик</text>
-  <text x="180" y="115" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">спора</text>
+  <!-- Large bacterium cell -->
+  <ellipse cx="0" cy="5" rx="60" ry="35" fill="#FFE0B2" stroke="#E65100" stroke-width="2"/>
   
+  <!-- Capsule -->
+  <ellipse cx="0" cy="5" rx="68" ry="42" fill="none" stroke="#FF9800" stroke-width="2.5" stroke-dasharray="4,2" opacity="0.6"/>
+  
+  <!-- Cell wall -->
+  <ellipse cx="0" cy="5" rx="55" ry="30" fill="none" stroke="#BF360C" stroke-width="1.5" stroke-dasharray="2,1"/>
+  
+  <!-- Cell membrane -->
+  <ellipse cx="0" cy="5" rx="50" ry="26" fill="#FFF8E1" stroke="#FF9800" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Nucleoid (circular DNA) -->
+  <path d="M-15,-8 Q-10,-18 0,-15 Q10,-12 15,-5 Q18,5 10,10 Q0,15 -10,10 Q-18,5 -15,-8" fill="none" stroke="#1565C0" stroke-width="1.5"/>
+  <text x="0" y="-2" font-family="Arial,sans-serif" font-size="5" fill="#1565C0" text-anchor="middle">Нуклеоид</text>
+  <text x="0" y="5" font-family="Arial,sans-serif" font-size="4" fill="#1565C0" text-anchor="middle">(ДНК)</text>
+  
+  <!-- Ribosomes -->
+  <circle cx="-25" cy="-10" r="3" fill="#9C27B0" opacity="0.6"/>
+  <circle cx="20" cy="-8" r="3" fill="#9C27B0" opacity="0.6"/>
+  <circle cx="-15" cy="15" r="3" fill="#9C27B0" opacity="0.6"/>
+  <circle cx="25" cy="12" r="3" fill="#9C27B0" opacity="0.6"/>
+  <circle cx="30" cy="-2" r="3" fill="#9C27B0" opacity="0.6"/>
+  
+  <!-- Flagellum -->
+  <path d="M55,5 Q65,0 75,5 Q85,10 95,5 Q105,0 115,5" fill="none" stroke="#E65100" stroke-width="2"/>
+  
+  <!-- Pili -->
+  <line x1="-30" y1="-30" x2="-40" y2="-45" stroke="#BF360C" stroke-width="0.8"/>
+  <line x1="-20" y1="-30" x2="-25" y2="-48" stroke="#BF360C" stroke-width="0.8"/>
+  <line x1="30" y1="-30" x2="35" y2="-48" stroke="#BF360C" stroke-width="0.8"/>
+  
+  <!-- Labels with lines -->
+  <line x1="-68" y1="5" x2="-90" y2="-15" stroke="#666" stroke-width="0.5"/>
+  <text x="-92" y="-15" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="end">Капсула</text>
+  
+  <line x1="-55" y1="5" x2="-90" y2="0" stroke="#666" stroke-width="0.5"/>
+  <text x="-92" y="0" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="end">Клет. стенка</text>
+  
+  <line x1="-50" y1="10" x2="-90" y2="15" stroke="#666" stroke-width="0.5"/>
+  <text x="-92" y="15" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="end">Мембрана</text>
+  
+  <line x1="100" y1="5" x2="90" y2="25" stroke="#666" stroke-width="0.5"/>
+  <text x="92" y="27" font-family="Arial,sans-serif" font-size="5" fill="#666">Жгутик</text>
+  
+  <line x1="-35" y1="-40" x2="-50" y2="-55" stroke="#666" stroke-width="0.5"/>
+  <text x="-52" y="-55" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="end">Пили</text>
+  
+  <line x1="25" y1="-8" x2="55" y2="-30" stroke="#666" stroke-width="0.5"/>
+  <text x="57" y="-30" font-family="Arial,sans-serif" font-size="5" fill="#666">Рибосомы</text>
+  
+  <!-- "No nucleus" note -->
+  <rect x="-45" y="55" width="90" height="25" rx="3" fill="#FFEBEE" stroke="#C62828" stroke-width="0.5"/>
+  <text x="0" y="68" font-family="Arial,sans-serif" font-size="6" fill="#C62828" text-anchor="middle" font-weight="bold">Нет ядра!</text>
+  <text x="0" y="77" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">Доядерный организм</text>
+</g>
+
+<!-- Bacteria shapes -->
+<g transform="translate(400,120)">
+  <rect x="-65" y="-55" width="130" height="100" rx="8" fill="white" opacity="0.9" stroke="#E65100" stroke-width="1.5"/>
+  <text x="0" y="-38" font-family="Arial,sans-serif" font-size="8" fill="#BF360C" text-anchor="middle" font-weight="bold">Формы бактерий</text>
+  <line x1="-55" y1="-32" x2="55" y2="-32" stroke="#E65100" stroke-width="0.5"/>
+  
+  <!-- Cocci (spherical) -->
+  <circle cx="-30" cy="-12" r="8" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+  <circle cx="-18" cy="-12" r="8" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+  <circle cx="-24" cy="-22" r="8" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+  <text x="-24" y="5" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle">Кокки</text>
+  
+  <!-- Bacillus (rod) -->
+  <rect x="5" y="-20" width="20" height="10" rx="5" fill="#FFE0B2" stroke="#E65100" stroke-width="1"/>
+  <text x="15" y="5" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle">Палочки</text>
+  
+  <!-- Spirillum -->
+  <path d="M35,-15 Q40,-20 45,-15 Q50,-10 55,-15 Q60,-20 55,-10 Q50,0 55,-5" fill="none" stroke="#E65100" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="45" y="5" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle">Спириллы</text>
+  
+  <!-- Vibrio -->
+  <path d="M-40,25 Q-30,15 -25,25" fill="none" stroke="#E65100" stroke-width="3" stroke-linecap="round"/>
+  <text x="-32" y="38" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle">Вибрионы</text>
+</g>
+
+<!-- Spore formation -->
+<g transform="translate(400,245)">
+  <rect x="-65" y="-30" width="130" height="55" rx="6" fill="white" opacity="0.9" stroke="#795548" stroke-width="1"/>
+  <text x="0" y="-15" font-family="Arial,sans-serif" font-size="7" fill="#5D4037" text-anchor="middle" font-weight="bold">Спорообразование</text>
+  <ellipse cx="-35" cy="5" rx="12" ry="7" fill="#FFE0B2" stroke="#E65100" stroke-width="1"/>
+  <circle cx="-35" cy="3" r="4" fill="#8D6E63" stroke="#5D4037" stroke-width="1"/>
+  <text x="-35" y="18" font-family="Arial,sans-serif" font-size="4" fill="#5D4037" text-anchor="middle">спора</text>
+  <text x="20" y="3" font-family="Arial,sans-serif" font-size="5" fill="#5D4037" text-anchor="middle">Выживание в</text>
+  <text x="20" y="11" font-family="Arial,sans-serif" font-size="5" fill="#5D4037" text-anchor="middle">неблагопр. условиях</text>
+</g>
+
+<!-- Bottom -->
+<rect x="30" y="310" width="440" height="25" rx="6" fill="white" opacity="0.9" stroke="#E65100" stroke-width="1"/>
+<text x="250" y="327" font-family="Arial,sans-serif" font-size="7" fill="#BF360C" text-anchor="middle" font-weight="bold">Бактерии — доядерные организмы: нет ядра, митохондрий, хлоропластов</text>
 </svg>
