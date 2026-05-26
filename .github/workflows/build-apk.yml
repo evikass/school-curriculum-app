@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       version_name:
-        description: 'Version for APK (e.g. 3.795)'
+        description: "Version for APK (e.g. 3.795)"
         required: true
-        default: '3.795'
+        default: "3.795"
 
 jobs:
   build-apk:
@@ -24,77 +24,42 @@ jobs:
       - name: Show site info
         run: |
           echo "=== Deployed site content ==="
-          echo "Total size:"
           du -sh .
-          echo "Data sizes:"
-          du -sh data/ 2>/dev/null || echo "No data/"
-          echo "Grade count:"
+          du -sh data/ 2>/dev/null || true
           ls data/grades/ 2>/dev/null | wc -l
-          echo "Biology lessons in grade 5:"
-          python3 -c "
-import json
-with open('data/grades/5/biology.json') as f:
-    d = json.load(f)
-lessons = d.get('lessons', {})
-detailed = lessons.get('detailedTopics', [])
-total = sum(len(dt.get('lessons', [])) for dt in detailed if isinstance(dt, dict))
-print(f'  {len(detailed)} topics, {total} lessons')
-" 2>/dev/null || echo "  Could not read"
 
       - name: Setup Node.js 22
         uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: "22"
 
       - name: Initialize Capacitor project
         run: |
-          # Create a minimal package.json for Capacitor
-          cat > package.json << 'PKGJSON'
-          {
-            "name": "inetshkola",
-            "version": "0.0.0",
-            "private": true,
-            "dependencies": {
-              "@capacitor/core": "^6.0.0",
-              "@capacitor/android": "^6.0.0"
-            },
-            "devDependencies": {
-              "@capacitor/cli": "^6.0.0"
-            }
-          }
-          PKGJSON
-          npm install
+          npm init -y
+          npm install @capacitor/core@^6 @capacitor/android@^6
+          npm install -D @capacitor/cli@^6
 
-      - name: Initialize Capacitor config
+      - name: Create Capacitor config
         run: |
           VERSION="${{ inputs.version_name }}"
-          cat > capacitor.config.json << CAPCFG
+          cat > capacitor.config.json << 'CAPCFG'
           {
             "appId": "ru.inetshkola.app",
             "appName": "ИНЕТШКОЛА",
             "webDir": ".",
             "server": {
               "androidScheme": "https"
-            },
-            "plugins": {
-              "SplashScreen": {
-                "launchShowDuration": 0
-              }
             }
           }
           CAPCFG
-          # Remove basePath from manifest if present
-          if [ -f "manifest.json" ]; then
-            sed -i 's|/school-curriculum-app/|/|g' manifest.json
-          fi
-          # Fix any basePath references in HTML files
-          find . -name "*.html" -exec sed -i 's|/school-curriculum-app/|/|g' {} \;
+          sed -i 's|/school-curriculum-app/|/|g' manifest.json 2>/dev/null || true
+          find . -name "*.html" -exec sed -i 's|/school-curriculum-app/|/|g' {} + 2>/dev/null || true
 
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
-          distribution: 'zulu'
-          java-version: '21'
+          distribution: "zulu"
+          java-version: "21"
 
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
@@ -109,10 +74,7 @@ print(f'  {len(detailed)} topics, {total} lessons')
 
       - name: Configure Android signing
         run: |
-          # Add signing config to build.gradle
           sed -i '/android {/a\    signingConfigs {\n        release {\n            storeFile file("release.keystore")\n            storePassword "${{ secrets.KEYSTORE_PASSWORD }}"\n            keyAlias "${{ secrets.KEY_ALIAS }}"\n            keyPassword "${{ secrets.KEY_PASSWORD }}"\n        }\n    }' android/app/build.gradle
-          
-          # Enable signing in release build type
           sed -i '/release {/a\            signingConfig signingConfigs.release' android/app/build.gradle
 
       - name: Restore signing keystore
@@ -126,29 +88,23 @@ print(f'  {len(detailed)} topics, {total} lessons')
           for dir in mipmap-mdpi mipmap-hdpi mipmap-xhdpi mipmap-xxhdpi mipmap-xxxhdpi; do
             mkdir -p "android/app/src/main/res/$dir"
           done
-          
           ICON_SRC=""
-          if [ -f "icon-512.png" ]; then
-            ICON_SRC="icon-512.png"
-          elif [ -f "favicon.png" ]; then
-            ICON_SRC="favicon.png"
-          fi
-          
+          if [ -f "icon-512.png" ]; then ICON_SRC="icon-512.png"; fi
+          if [ -z "$ICON_SRC" ] && [ -f "favicon.png" ]; then ICON_SRC="favicon.png"; fi
           if [ -n "$ICON_SRC" ]; then
-            declare -A SIZES=([mdpi]=48 [hdpi]=72 [xhdpi]=96 [xxhdpi]=144 [xxxhdpi]=192)
+            SIZES_MDPI=48
+            SIZES_HDPI=72
+            SIZES_XHDPI=96
+            SIZES_XXHDPI=144
+            SIZES_XXXHDPI=192
             for dpi in mdpi hdpi xhdpi xxhdpi xxxhdpi; do
-              SIZE=${SIZES[$dpi]}
+              eval "SIZE=\$SIZES_$(echo $dpi | tr '[:lower:]' '[:upper:]')"
               DIR="android/app/src/main/res/mipmap-$dpi"
               LOGO_SIZE=$(python3 -c "print(int($SIZE * 0.66))")
               OFFSET=$(python3 -c "print(int(($SIZE - $LOGO_SIZE) / 2))")
-              
               convert -size "${SIZE}x${SIZE}" xc:"#1e1b4b" "$DIR/ic_launcher_background.png"
-              convert -size "${SIZE}x${SIZE}" xc:none \
-                \( "$ICON_SRC" -resize "${LOGO_SIZE}x${LOGO_SIZE}" \) \
-                -geometry "+${OFFSET}+${OFFSET}" -composite "$DIR/ic_launcher_foreground.png"
-              convert "$DIR/ic_launcher_background.png" \
-                \( "$ICON_SRC" -resize "${LOGO_SIZE}x${LOGO_SIZE}" \) \
-                -geometry "+${OFFSET}+${OFFSET}" -composite "$DIR/ic_launcher.png"
+              convert -size "${SIZE}x${SIZE}" xc:none \( "$ICON_SRC" -resize "${LOGO_SIZE}x${LOGO_SIZE}" \) -geometry "+${OFFSET}+${OFFSET}" -composite "$DIR/ic_launcher_foreground.png"
+              convert "$DIR/ic_launcher_background.png" \( "$ICON_SRC" -resize "${LOGO_SIZE}x${LOGO_SIZE}" \) -geometry "+${OFFSET}+${OFFSET}" -composite "$DIR/ic_launcher.png"
               cp "$DIR/ic_launcher.png" "$DIR/ic_launcher_round.png"
             done
           fi
@@ -172,7 +128,6 @@ print(f'  {len(detailed)} topics, {total} lessons')
           APK_PATH="android/app/build/outputs/apk/release/app-release.apk"
           APK_SIZE=$(stat -c%s "$APK_PATH")
           echo "APK size: $(( APK_SIZE / 1024 / 1024 )) MB ($APK_SIZE bytes)"
-          ls -la "$APK_PATH"
 
       - name: Upload APK to Release
         uses: softprops/action-gh-release@v2
@@ -181,15 +136,7 @@ print(f'  {len(detailed)} topics, {total} lessons')
           name: "v${{ inputs.version_name }} - APK for RuStore"
           files: android/app/build/outputs/apk/release/app-release.apk
           body: |
-            ## ИНЕТШКОЛА v${{ inputs.version_name }} - APK для RuStore
-
-            ### Файлы
-            - `app-release.apk` — подписанный release APK для загрузки в RuStore
-
-            ### Установка
-            1. Скачайте `app-release.apk` на Android устройство
-            2. Разрешите установку из неизвестных источников
-            3. Установите APK
+            APK for RuStore upload
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
