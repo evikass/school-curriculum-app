@@ -1,9 +1,8 @@
 name: Build Android APK
 
 on:
-  push:
-    tags:
-      - "apk-v*"
+  repository_dispatch:
+    types: [build-apk]
   workflow_dispatch:
     inputs:
       version_name:
@@ -36,14 +35,7 @@ jobs:
 
       - name: Create Capacitor config
         run: |
-          cat > capacitor.config.json << 'EOF'
-          {
-            "appId": "ru.inetshkola.app",
-            "appName": "INETSHKOLA",
-            "webDir": ".",
-            "server": { "androidScheme": "https" }
-          }
-          EOF
+          printf '{\n  "appId": "ru.inetshkola.app",\n  "appName": "INETSHKOLA",\n  "webDir": ".",\n  "server": { "androidScheme": "https" }\n}\n' > capacitor.config.json
           sed -i 's|/school-curriculum-app/|/|g' manifest.json 2>/dev/null || true
           find . -name "*.html" -exec sed -i 's|/school-curriculum-app/|/|g' {} + 2>/dev/null || true
 
@@ -102,7 +94,7 @@ jobs:
           PKG_VERSION="${{ inputs.version_name || '3.795' }}"
           VERSION_CODE=$(echo "$PKG_VERSION" | tr -d '.')
           sed -i "s/versionCode [0-9]*/versionCode $VERSION_CODE/" android/app/build.gradle
-          sed -i "s/versionName \"[^\"]*\"/versionName \"$PKG_VERSION\"/" android/app/build.gradle
+          sed -i "s/versionName "[^"]*"/versionName "$PKG_VERSION"/" android/app/build.gradle
 
       - name: Build APK
         working-directory: android
