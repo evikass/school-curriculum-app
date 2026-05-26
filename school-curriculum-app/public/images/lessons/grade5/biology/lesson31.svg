@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#66BB6A"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF176"/>
+      <stop offset="100%" stop-color="#FFB300"/>
+    </linearGradient>
+    <radialGradient id="chloro" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A5D6A7"/>
+      <stop offset="100%" stop-color="#1B5E20"/>
+    </radialGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#90CAF9"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+  <text x="250" y="24" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Фотосинтез</text>
+  <text x="250" y="37" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 5 класс — Урок 31</text>
+  <line x1="30" y1="43" x2="470" y2="43" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+  <!-- Sun with rays -->
+  <circle cx="70" cy="80" r="22" fill="url(#sun)"/>
+  <line x1="70" y1="52" x2="70" y2="44" stroke="#FFB300" stroke-width="2"/>
+  <line x1="70" y1="108" x2="70" y2="116" stroke="#FFB300" stroke-width="2"/>
+  <line x1="42" y1="80" x2="34" y2="80" stroke="#FFB300" stroke-width="2"/>
+  <line x1="98" y1="80" x2="106" y2="80" stroke="#FFB300" stroke-width="2"/>
+  <line x1="50" y1="60" x2="44" y2="54" stroke="#FFB300" stroke-width="1.5"/>
+  <line x1="90" y1="60" x2="96" y2="54" stroke="#FFB300" stroke-width="1.5"/>
+  <line x1="50" y1="100" x2="44" y2="106" stroke="#FFB300" stroke-width="1.5"/>
+  <line x1="90" y1="100" x2="96" y2="106" stroke="#FFB300" stroke-width="1.5"/>
+  <text x="70" y="126" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">Солнечный свет</text>
+
+  <!-- CO2 arrow coming in -->
+  <path d="M30 170 Q60 155 90 170" fill="none" stroke="#795548" stroke-width="1.5" marker-end="url(#arrowBr)"/>
+  <text x="30" y="150" font-family="Arial,sans-serif" font-size="8" fill="#5D4037">CO₂</text>
+  <text x="22" y="162" font-family="Arial,sans-serif" font-size="6" fill="#795548">углекислый газ</text>
+
+  <!-- H2O arrow coming up -->
+  <line x1="70" y1="290" x2="70" y2="210" stroke="#1565C0" stroke-width="1.5" marker-end="url(#arrowBl)"/>
+  <text x="70" y="303" font-family="Arial,sans-serif" font-size="8" fill="#0D47A1" text-anchor="middle">H₂O</text>
+  <text x="70" y="314" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">вода</text>
+
+  <!-- Main leaf shape -->
+  <ellipse cx="160" cy="195" rx="80" ry="40" fill="url(#leaf)" stroke="#1B5E20" stroke-width="1.5"/>
+  <line x1="80" y1="195" x2="240" y2="195" stroke="#1B5E20" stroke-width="1.5"/>
+  <line x1="130" y1="170" x2="160" y2="195" stroke="#1B5E20" stroke-width="0.8"/>
+  <line x1="190" y1="170" x2="160" y2="195" stroke="#1B5E20" stroke-width="0.8"/>
+  <line x1="130" y1="220" x2="160" y2="195" stroke="#1B5E20" stroke-width="0.8"/>
+  <line x1="190" y1="220" x2="160" y2="195" stroke="#1B5E20" stroke-width="0.8"/>
+
+  <!-- Chloroplasts on leaf -->
+  <ellipse cx="120" cy="190" rx="12" ry="6" fill="url(#chloro)" stroke="#1B5E20" stroke-width="0.5"/>
+  <ellipse cx="155" cy="185" rx="12" ry="6" fill="url(#chloro)" stroke="#1B5E20" stroke-width="0.5"/>
+  <ellipse cx="190" cy="190" rx="12" ry="6" fill="url(#chloro)" stroke="#1B5E20" stroke-width="0.5"/>
+  <ellipse cx="135" cy="205" rx="12" ry="6" fill="url(#chloro)" stroke="#1B5E20" stroke-width="0.5"/>
+  <ellipse cx="175" cy="205" rx="12" ry="6" fill="url(#chloro)" stroke="#1B5E20" stroke-width="0.5"/>
+
+  <!-- O2 bubbles going out -->
+  <circle cx="250" cy="155" r="6" fill="none" stroke="#2196F3" stroke-width="1"/>
+  <circle cx="260" cy="140" r="4" fill="none" stroke="#2196F3" stroke-width="1"/>
+  <circle cx="248" cy="130" r="5" fill="none" stroke="#2196F3" stroke-width="1"/>
+  <text x="270" y="145" font-family="Arial,sans-serif" font-size="8" fill="#0D47A1">O₂</text>
+  <text x="270" y="156" font-family="Arial,sans-serif" font-size="6" fill="#1565C0">кислород</text>
+
+  <!-- Glucose output -->
+  <rect x="230" y="185" width="50" height="20" rx="4" fill="#FFF9C4" stroke="#F9A825" stroke-width="1"/>
+  <text x="255" y="198" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">C₆H₁₂O₆</text>
+  <text x="255" y="215" font-family="Arial,sans-serif" font-size="6" fill="#795548" text-anchor="middle">глюкоза</text>
+
+  <!-- Leaf cross-section diagram (right side) -->
+  <text x="380" y="60" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">Срез листа</text>
+
+  <!-- Upper epidermis -->
+  <rect x="320" y="70" width="120" height="10" rx="2" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.8"/>
+  <text x="445" y="79" font-family="Arial,sans-serif" font-size="6" fill="#333">Верхняя кожица</text>
+
+  <!-- Palisade mesophyll -->
+  <g>
+    <rect x="322" y="82" width="8" height="22" rx="1" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="333" y="82" width="8" height="22" rx="1" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="344" y="82" width="8" height="22" rx="1" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="355" y="82" width="8" height="22" rx="1" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="366" y="82" width="8" height="22" rx="1" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="377" y="82" width="8" height="22" rx="1" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="388" y="82" width="8" height="22" rx="1" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="399" y="82" width="8" height="22" rx="1" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="410" y="82" width="8" height="22" rx="1" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="421" y="82" width="8" height="22" rx="1" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5"/>
+  </g>
+  <text x="445" y="96" font-family="Arial,sans-serif" font-size="6" fill="#333">Столбчатая</text>
+  <text x="445" y="104" font-family="Arial,sans-serif" font-size="6" fill="#333">ткань</text>
+
+  <!-- Chloroplasts inside palisade cells -->
+  <ellipse cx="326" cy="88" rx="3" ry="2" fill="url(#chloro)"/>
+  <ellipse cx="348" cy="90" rx="3" ry="2" fill="url(#chloro)"/>
+  <ellipse cx="370" cy="87" rx="3" ry="2" fill="url(#chloro)"/>
+  <ellipse cx="392" cy="91" rx="3" ry="2" fill="url(#chloro)"/>
+  <ellipse cx="414" cy="88" rx="3" ry="2" fill="url(#chloro)"/>
+
+  <!-- Spongy mesophyll -->
+  <g>
+    <circle cx="330" cy="118" r="7" fill="#81C784" stroke="#2E7D32" stroke-width="0.5"/>
+    <circle cx="348" cy="113" r="6" fill="#81C784" stroke="#2E7D32" stroke-width="0.5"/>
+    <circle cx="365" cy="120" r="7" fill="#81C784" stroke="#2E7D32" stroke-width="0.5"/>
+    <circle cx="383" cy="115" r="6" fill="#81C784" stroke="#2E7D32" stroke-width="0.5"/>
+    <circle cx="400" cy="118" r="7" fill="#81C784" stroke="#2E7D32" stroke-width="0.5"/>
+    <circle cx="418" cy="113" r="6" fill="#81C784" stroke="#2E7D32" stroke-width="0.5"/>
+    <circle cx="435" cy="119" r="6" fill="#81C784" stroke="#2E7D32" stroke-width="0.5"/>
+  </g>
+  <text x="445" y="118" font-family="Arial,sans-serif" font-size="6" fill="#333">Губчатая</text>
+  <text x="445" y="126" font-family="Arial,sans-serif" font-size="6" fill="#333">ткань</text>
+
+  <!-- Lower epidermis -->
+  <rect x="320" y="130" width="120" height="10" rx="2" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.8"/>
+  <text x="445" y="139" font-family="Arial,sans-serif" font-size="6" fill="#333">Нижняя кожица</text>
+
+  <!-- Stomata -->
+  <ellipse cx="355" cy="135" rx="8" ry="4" fill="#FFE0B2" stroke="#E65100" stroke-width="0.8"/>
+  <ellipse cx="355" cy="135" rx="3" ry="3.5" fill="#E8F5E9"/>
+  <ellipse cx="410" cy="135" rx="8" ry="4" fill="#FFE0B2" stroke="#E65100" stroke-width="0.8"/>
+  <ellipse cx="410" cy="135" rx="3" ry="3.5" fill="#E8F5E9"/>
+  <text x="380" y="152" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle">Устьица</text>
+
+  <!-- Chloroplast detail (bottom right) -->
+  <text x="370" y="170" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">Хлоропласт</text>
+  <ellipse cx="370" cy="200" rx="35" ry="20" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1.2"/>
+  <!-- Outer membrane -->
+  <ellipse cx="370" cy="200" rx="35" ry="20" fill="none" stroke="#1B5E20" stroke-width="0.8"/>
+  <!-- Inner membrane -->
+  <ellipse cx="370" cy="200" rx="32" ry="17" fill="none" stroke="#1B5E20" stroke-width="0.5"/>
+  <!-- Grana stacks -->
+  <rect x="345" y="190" width="4" height="10" rx="1" fill="#388E3C" stroke="#1B5E20" stroke-width="0.3"/>
+  <rect x="351" y="190" width="4" height="10" rx="1" fill="#388E3C" stroke="#1B5E20" stroke-width="0.3"/>
+  <rect x="360" y="192" width="4" height="8" rx="1" fill="#388E3C" stroke="#1B5E20" stroke-width="0.3"/>
+  <rect x="366" y="192" width="4" height="8" rx="1" fill="#388E3C" stroke="#1B5E20" stroke-width="0.3"/>
+  <rect x="375" y="190" width="4" height="10" rx="1" fill="#388E3C" stroke="#1B5E20" stroke-width="0.3"/>
+  <rect x="381" y="190" width="4" height="10" rx="1" fill="#388E3C" stroke="#1B5E20" stroke-width="0.3"/>
+  <rect x="390" y="192" width="4" height="8" rx="1" fill="#388E3C" stroke="#1B5E20" stroke-width="0.3"/>
+  <!-- Lamellae connecting grana -->
+  <line x1="349" y1="195" x2="360" y2="196" stroke="#2E7D32" stroke-width="0.4"/>
+  <line x1="364" y1="196" x2="375" y2="195" stroke="#2E7D32" stroke-width="0.4"/>
+  <line x1="379" y1="195" x2="390" y2="196" stroke="#2E7D32" stroke-width="0.4"/>
+  <!-- Labels for chloroplast -->
+  <text x="355" y="220" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20">грана</text>
+  <text x="380" y="220" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20">строма</text>
+  <text x="410" y="198" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20">↔оболочка</text>
+
+  <!-- Photosynthesis equation (bottom center) -->
+  <rect x="30" y="260" width="290" height="35" rx="5" fill="#FFF8E1" stroke="#F9A825" stroke-width="1"/>
+  <text x="175" y="275" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">Уравнение фотосинтеза:</text>
+  <text x="175" y="290" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂</text>
+
+  <!-- Conditions -->
+  <text x="175" y="305" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">(свет + хлорофилл)</text>
+
+  <!-- Key facts -->
+  <text x="30" y="325" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20">☀ Свет — источник энергии</text>
+  <text x="160" y="325" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20">🌿 Хлорофилл — пигмент</text>
+  <text x="300" y="325" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20">💨 O₂ — побочный продукт</text>
+
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowBr" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <path d="M0,0 L6,2 L0,4 Z" fill="#795548"/>
+    </marker>
+    <marker id="arrowBl" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <path d="M0,0 L6,2 L0,4 Z" fill="#1565C0"/>
+    </marker>
+  </defs>
+
+  <!-- Sunlight arrow to leaf -->
+  <path d="M90 85 Q120 100 130 170" fill="none" stroke="#FFB300" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="108" y="125" font-family="Arial,sans-serif" font-size="6" fill="#FF8F00" transform="rotate(-60 108 125)">свет</text>
+
+  <!-- O2 exit arrow -->
+  <path d="M230 175 Q260 155 252 135" fill="none" stroke="#2196F3" stroke-width="1" stroke-dasharray="3,2"/>
+
+  <!-- Glucose exit arrow -->
+  <path d="M230 195 L230 195" fill="none" stroke="#F9A825" stroke-width="1"/>
+</svg>

@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+    <radialGradient id="cyto" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E1F5FE"/>
+      <stop offset="100%" stop-color="#B3E5FC"/>
+    </radialGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+  <text x="250" y="24" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Одноклеточные животные</text>
+  <text x="250" y="37" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 5 класс — Урок 36</text>
+  <line x1="30" y1="43" x2="470" y2="43" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+  <!-- AMOEBA -->
+  <text x="85" y="58" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">Амёба</text>
+  <text x="85" y="68" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">(Amoeba proteus)</text>
+
+  <!-- Amoeba body - irregular shape -->
+  <path d="M50 100 Q40 85 55 75 Q70 65 80 70 Q95 60 105 75 Q120 70 115 90 Q125 100 110 110 Q120 125 100 125 Q105 140 85 135 Q70 145 60 130 Q45 135 50 115 Q35 105 50 100Z" fill="url(#cyto)" stroke="#0277BD" stroke-width="1.5"/>
+
+  <!-- Nucleus -->
+  <ellipse cx="82" cy="105" rx="10" ry="8" fill="#CE93D8" stroke="#7B1FA2" stroke-width="1"/>
+  <text x="82" y="108" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle">ядро</text>
+
+  <!-- Contractile vacuole -->
+  <circle cx="95" cy="85" r="6" fill="#81D4FA" stroke="#0288D1" stroke-width="0.8"/>
+  <text x="95" y="88" font-family="Arial,sans-serif" font-size="4" fill="#01579B" text-anchor="middle">сокр.</text>
+
+  <!-- Food vacuole -->
+  <circle cx="65" cy="90" r="5" fill="#FFCC80" stroke="#E65100" stroke-width="0.8"/>
+  <text x="65" y="92" font-family="Arial,sans-serif" font-size="4" fill="#BF360C" text-anchor="middle">пищ.</text>
+
+  <!-- Pseudopods (labels) -->
+  <text x="40" y="78" font-family="Arial,sans-serif" font-size="5" fill="#0277BD">псевдоподия</text>
+  <line x1="55" y1="80" x2="50" y2="88" stroke="#0277BD" stroke-width="0.4"/>
+
+  <!-- Digestive vacuole -->
+  <circle cx="100" cy="115" r="4" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.5"/>
+
+  <!-- Labels -->
+  <text x="85" y="158" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Движение: ложноножки</text>
+  <text x="85" y="168" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Питание: фагоцитоз</text>
+  <text x="85" y="178" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Осморегуляция: сокр. вакуоль</text>
+  <text x="85" y="188" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Размножение: деление</text>
+
+  <!-- PARAMECIUM -->
+  <text x="250" y="58" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">Инфузория-туфелька</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">(Paramecium caudatum)</text>
+
+  <!-- Paramecium body - slipper shape -->
+  <path d="M220 80 Q215 85 215 105 Q215 130 225 140 Q235 148 250 145 Q265 148 275 140 Q285 130 285 105 Q285 85 280 80 Q270 72 250 75 Q230 72 220 80Z" fill="url(#cyto)" stroke="#0277BD" stroke-width="1.5"/>
+
+  <!-- Cilia -->
+  <line x1="217" y1="88" x2="212" y2="85" stroke="#0288D1" stroke-width="0.5"/>
+  <line x1="216" y1="95" x2="210" y2="93" stroke="#0288D1" stroke-width="0.5"/>
+  <line x1="216" y1="102" x2="210" y2="101" stroke="#0288D1" stroke-width="0.5"/>
+  <line x1="217" y1="110" x2="211" y2="110" stroke="#0288D1" stroke-width="0.5"/>
+  <line x1="218" y1="118" x2="212" y2="119" stroke="#0288D1" stroke-width="0.5"/>
+  <line x1="221" y1="126" x2="215" y2="128" stroke="#0288D1" stroke-width="0.5"/>
+  <line x1="228" y1="133" x2="222" y2="136" stroke="#0288D1" stroke-width="0.5"/>
+  <line x1="283" y1="88" x2="288" y2="85" stroke="#0288D1" stroke-width="0.5"/>
+  <line x1="284" y1="95" x2="290" y2="93" stroke="#0288D1" stroke-width="0.5"/>
+  <line x1="284" y1="102" x2="290" y2="101" stroke="#0288D1" stroke-width="0.5"/>
+  <line x1="283" y1="110" x2="289" y2="110" stroke="#0288D1" stroke-width="0.5"/>
+  <line x1="282" y1="118" x2="288" y2="119" stroke="#0288D1" stroke-width="0.5"/>
+  <line x1="279" y1="126" x2="285" y2="128" stroke="#0288D1" stroke-width="0.5"/>
+  <line x1="272" y1="133" x2="278" y2="136" stroke="#0288D1" stroke-width="0.5"/>
+
+  <!-- Macronucleus -->
+  <ellipse cx="250" cy="105" rx="15" ry="7" fill="#CE93D8" stroke="#7B1FA2" stroke-width="0.8"/>
+  <text x="250" y="108" font-family="Arial,sans-serif" font-size="4.5" fill="white" text-anchor="middle">макроядро</text>
+
+  <!-- Micronucleus -->
+  <circle cx="258" cy="100" r="4" fill="#AB47BC" stroke="#6A1B9A" stroke-width="0.5"/>
+  <text x="270" y="100" font-family="Arial,sans-serif" font-size="4" fill="#6A1B9A">микроядро</text>
+
+  <!-- Oral groove -->
+  <path d="M225 90 Q235 95 240 110 Q238 118 235 125" fill="none" stroke="#01579B" stroke-width="1"/>
+  <text x="225" y="128" font-family="Arial,sans-serif" font-size="4" fill="#01579B">ротовое отверстие</text>
+
+  <!-- Contractile vacuoles -->
+  <circle cx="240" cy="88" r="4" fill="#81D4FA" stroke="#0288D1" stroke-width="0.5"/>
+  <circle cx="260" cy="130" r="4" fill="#81D4FA" stroke="#0288D1" stroke-width="0.5"/>
+
+  <!-- Labels -->
+  <text x="250" y="158" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Движение: реснички (~10 000)</text>
+  <text x="250" y="168" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Питание: через клеточный рот</text>
+  <text x="250" y="178" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">2 ядра: макро + микро</text>
+  <text x="250" y="188" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Размножение: деление + конъюгация</text>
+
+  <!-- EUGLENA -->
+  <text x="415" y="58" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">Эвглена зелёная</text>
+  <text x="415" y="68" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">(Euglena viridis)</text>
+
+  <!-- Euglena body - elongated -->
+  <path d="M390 80 Q385 90 387 105 Q390 120 400 130 Q410 140 415 145 Q420 140 430 130 Q440 120 443 105 Q445 90 440 80 Q430 72 415 75 Q400 72 390 80Z" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1.5"/>
+
+  <!-- Flagellum -->
+  <path d="M415 75 Q420 60 430 50 Q435 45 440 48" fill="none" stroke="#2E7D32" stroke-width="1"/>
+  <text x="440" y="48" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20">жгутик</text>
+
+  <!-- Eyespot -->
+  <circle cx="410" cy="85" r="3" fill="#FF5722" stroke="#BF360C" stroke-width="0.5"/>
+  <text x="398" y="85" font-family="Arial,sans-serif" font-size="4.5" fill="#BF360C">глазок</text>
+
+  <!-- Chloroplasts -->
+  <ellipse cx="405" cy="100" rx="6" ry="4" fill="#4CAF50" stroke="#1B5E20" stroke-width="0.5"/>
+  <ellipse cx="420" cy="105" rx="6" ry="4" fill="#4CAF50" stroke="#1B5E20" stroke-width="0.5"/>
+  <ellipse cx="410" cy="115" rx="6" ry="4" fill="#4CAF50" stroke="#1B5E20" stroke-width="0.5"/>
+  <ellipse cx="425" cy="95" rx="5" ry="3" fill="#4CAF50" stroke="#1B5E20" stroke-width="0.5"/>
+
+  <!-- Nucleus -->
+  <ellipse cx="415" cy="110" rx="6" ry="5" fill="#CE93D8" stroke="#7B1FA2" stroke-width="0.8"/>
+
+  <!-- Contractile vacuole -->
+  <circle cx="408" cy="80" r="3" fill="#81D4FA" stroke="#0288D1" stroke-width="0.5"/>
+
+  <!-- Labels -->
+  <text x="415" y="158" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Движение: жгутик</text>
+  <text x="415" y="168" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Питание: автотроф + гетеротроф</text>
+  <text x="415" y="178" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Светочувствительный глазок</text>
+  <text x="415" y="188" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Хлоропласты → фотосинтез</text>
+
+  <!-- Comparison table -->
+  <text x="250" y="208" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">Сравнительная таблица</text>
+
+  <rect x="30" y="215" width="440" height="125" rx="5" fill="white" stroke="#2E7D32" stroke-width="0.8" opacity="0.7"/>
+
+  <!-- Table headers -->
+  <rect x="30" y="215" width="80" height="16" rx="0" fill="#1B5E20"/>
+  <text x="70" y="226" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle">Признак</text>
+
+  <rect x="110" y="215" width="110" height="16" fill="#0277BD"/>
+  <text x="165" y="226" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle">Амёба</text>
+
+  <rect x="220" y="215" width="110" height="16" fill="#0288D1"/>
+  <text x="275" y="226" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle">Инфузория</text>
+
+  <rect x="330" y="215" width="140" height="16" fill="#2E7D32"/>
+  <text x="400" y="226" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle">Эвглена</text>
+
+  <!-- Table rows -->
+  <text x="70" y="243" font-family="Arial,sans-serif" font-size="5.5" fill="#333" text-anchor="middle">Движение</text>
+  <text x="165" y="243" font-family="Arial,sans-serif" font-size="5.5" fill="#0277BD" text-anchor="middle">Ложноножки</text>
+  <text x="275" y="243" font-family="Arial,sans-serif" font-size="5.5" fill="#0288D1" text-anchor="middle">Реснички</text>
+  <text x="400" y="243" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32" text-anchor="middle">Жгутик</text>
+
+  <line x1="30" y1="248" x2="470" y2="248" stroke="#C8E6C9" stroke-width="0.5"/>
+
+  <text x="70" y="258" font-family="Arial,sans-serif" font-size="5.5" fill="#333" text-anchor="middle">Питание</text>
+  <text x="165" y="258" font-family="Arial,sans-serif" font-size="5.5" fill="#0277BD" text-anchor="middle">Фагоцитоз</text>
+  <text x="275" y="258" font-family="Arial,sans-serif" font-size="5.5" fill="#0288D1" text-anchor="middle">Клеточный рот</text>
+  <text x="400" y="258" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32" text-anchor="middle">Авто+гетеротроф</text>
+
+  <line x1="30" y1="263" x2="470" y2="263" stroke="#C8E6C9" stroke-width="0.5"/>
+
+  <text x="70" y="273" font-family="Arial,sans-serif" font-size="5.5" fill="#333" text-anchor="middle">Ядро</text>
+  <text x="165" y="273" font-family="Arial,sans-serif" font-size="5.5" fill="#0277BD" text-anchor="middle">1 ядро</text>
+  <text x="275" y="273" font-family="Arial,sans-serif" font-size="5.5" fill="#0288D1" text-anchor="middle">2 ядра</text>
+  <text x="400" y="273" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32" text-anchor="middle">1 ядро</text>
+
+  <line x1="30" y1="278" x2="470" y2="278" stroke="#C8E6C9" stroke-width="0.5"/>
+
+  <text x="70" y="288" font-family="Arial,sans-serif" font-size="5.5" fill="#333" text-anchor="middle">Форма</text>
+  <text x="165" y="288" font-family="Arial,sans-serif" font-size="5.5" fill="#0277BD" text-anchor="middle">Непостоянная</text>
+  <text x="275" y="288" font-family="Arial,sans-serif" font-size="5.5" fill="#0288D1" text-anchor="middle">Постоянная</text>
+  <text x="400" y="288" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32" text-anchor="middle">Постоянная</text>
+
+  <line x1="30" y1="293" x2="470" y2="293" stroke="#C8E6C9" stroke-width="0.5"/>
+
+  <text x="70" y="303" font-family="Arial,sans-serif" font-size="5.5" fill="#333" text-anchor="middle">Размножение</text>
+  <text x="165" y="303" font-family="Arial,sans-serif" font-size="5.5" fill="#0277BD" text-anchor="middle">Деление надвое</text>
+  <text x="275" y="303" font-family="Arial,sans-serif" font-size="5.5" fill="#0288D1" text-anchor="middle">Деление + конъюг.</text>
+  <text x="400" y="303" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32" text-anchor="middle">Деление надвое</text>
+
+  <line x1="30" y1="308" x2="470" y2="308" stroke="#C8E6C9" stroke-width="0.5"/>
+
+  <text x="70" y="318" font-family="Arial,sans-serif" font-size="5.5" fill="#333" text-anchor="middle">Среда</text>
+  <text x="165" y="318" font-family="Arial,sans-serif" font-size="5.5" fill="#0277BD" text-anchor="middle">Пресная вода</text>
+  <text x="275" y="318" font-family="Arial,sans-serif" font-size="5.5" fill="#0288D1" text-anchor="middle">Пресная вода</text>
+  <text x="400" y="318" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32" text-anchor="middle">Пресные водоёмы</text>
+
+  <text x="250" y="337" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle">Все одноклеточные — эукариоты (ядро оформлено)</text>
+</svg>

@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" stroke="#2E7D32" stroke-width="2.5" rx="8"/>
+  <text x="250" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20">Размножение бактерий</text>
+  <text x="250" y="35" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#666">Биология 5 класс — Урок 11</text>
+  <line x1="30" y1="40" x2="470" y2="40" stroke="#2E7D32" stroke-width="1" opacity="0.5"/>
+
+  <!-- Binary fission sequence -->
+  <text x="250" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20">Бинарное деление (простое деление пополам)</text>
+
+  <!-- Step 1: Original bacterium -->
+  <g transform="translate(20,68)">
+    <rect x="0" y="0" width="88" height="55" rx="4" fill="#E3F2FD" stroke="#42A5F5" stroke-width="0.8"/>
+    <text x="44" y="12" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#0D47A1">1. Исходная</text>
+    <!-- Bacterium -->
+    <rect x="15" y="20" width="55" height="22" rx="11" fill="#81D4FA" stroke="#0288D1" stroke-width="1.2"/>
+    <ellipse cx="42" cy="31" rx="12" ry="6" fill="#CE93D8" opacity="0.3" stroke="#7B1FA2" stroke-width="0.5"/>
+    <text x="42" y="34" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#4A148C">ДНК</text>
+    <text x="44" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#555">Клетка растёт</text>
+  </g>
+
+  <!-- Arrow -->
+  <path d="M110,95 L130,95" stroke="#2E7D32" stroke-width="1.5" fill="none" marker-end="url(#arr)"/>
+  <defs><marker id="arr" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto"><path d="M0,0 L6,2 L0,4" fill="#2E7D32"/></marker></defs>
+
+  <!-- Step 2: DNA replication -->
+  <g transform="translate(135,68)">
+    <rect x="0" y="0" width="88" height="55" rx="4" fill="#FFF3E0" stroke="#FF9800" stroke-width="0.8"/>
+    <text x="44" y="12" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#E65100">2. Репликация</text>
+    <!-- Elongated bacterium with two DNA -->
+    <rect x="10" y="20" width="65" height="22" rx="11" fill="#81D4FA" stroke="#0288D1" stroke-width="1.2"/>
+    <ellipse cx="28" cy="31" rx="10" ry="5" fill="#CE93D8" opacity="0.3" stroke="#7B1FA2" stroke-width="0.5"/>
+    <text x="28" y="34" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.5" fill="#4A148C">ДНК</text>
+    <ellipse cx="55" cy="31" rx="10" ry="5" fill="#CE93D8" opacity="0.3" stroke="#7B1FA2" stroke-width="0.5"/>
+    <text x="55" y="34" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.5" fill="#4A148C">ДНК</text>
+    <text x="44" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#555">ДНК удваивается</text>
+  </g>
+
+  <!-- Arrow -->
+  <path d="M225,95 L245,95" stroke="#2E7D32" stroke-width="1.5" fill="none" marker-end="url(#arr)"/>
+
+  <!-- Step 3: Division begins -->
+  <g transform="translate(250,68)">
+    <rect x="0" y="0" width="88" height="55" rx="4" fill="#FCE4EC" stroke="#E91E63" stroke-width="0.8"/>
+    <text x="44" y="12" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#880E4F">3. Перетяжка</text>
+    <!-- Pinching bacterium -->
+    <path d="M10,20 Q35,20 40,25 Q42,31 40,37 Q35,42 10,42" fill="#81D4FA" stroke="#0288D1" stroke-width="1.2"/>
+    <path d="M40,25 Q45,20 75,20 Q80,20 80,31 Q80,42 75,42 Q45,42 40,37" fill="#81D4FA" stroke="#0288D1" stroke-width="1.2"/>
+    <ellipse cx="25" cy="31" rx="8" ry="5" fill="#CE93D8" opacity="0.3" stroke="#7B1FA2" stroke-width="0.5"/>
+    <ellipse cx="60" cy="31" rx="8" ry="5" fill="#CE93D8" opacity="0.3" stroke="#7B1FA2" stroke-width="0.5"/>
+    <text x="44" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#555">Клетка делится</text>
+  </g>
+
+  <!-- Arrow -->
+  <path d="M340,95 L360,95" stroke="#2E7D32" stroke-width="1.5" fill="none" marker-end="url(#arr)"/>
+
+  <!-- Step 4: Two daughter cells -->
+  <g transform="translate(365,68)">
+    <rect x="0" y="0" width="115" height="55" rx="4" fill="#E8F5E9" stroke="#4CAF50" stroke-width="0.8"/>
+    <text x="57" y="12" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#1B5E20">4. Дочерние клетки</text>
+    <!-- Two separate bacteria -->
+    <rect x="8" y="20" width="42" height="20" rx="10" fill="#81D4FA" stroke="#0288D1" stroke-width="1.2"/>
+    <ellipse cx="29" cy="30" rx="8" ry="5" fill="#CE93D8" opacity="0.3" stroke="#7B1FA2" stroke-width="0.5"/>
+    <rect x="58" y="20" width="42" height="20" rx="10" fill="#81D4FA" stroke="#0288D1" stroke-width="1.2"/>
+    <ellipse cx="79" cy="30" rx="8" ry="5" fill="#CE93D8" opacity="0.3" stroke="#7B1FA2" stroke-width="0.5"/>
+    <text x="57" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#555">Две одинаковые клетки</text>
+  </g>
+
+  <!-- Growth Curve -->
+  <text x="250" y="145" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20">Кривая роста бактериальной популяции</text>
+
+  <g transform="translate(50,155)">
+    <!-- Axes -->
+    <line x1="0" y1="90" x2="200" y2="90" stroke="#1B5E20" stroke-width="1.2"/>
+    <line x1="0" y1="0" x2="0" y2="90" stroke="#1B5E20" stroke-width="1.2"/>
+
+    <!-- Axis labels -->
+    <text x="100" y="105" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20">Время</text>
+    <text x="-10" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" transform="rotate(-90,-10,45)">Число бактерий</text>
+
+    <!-- Lag phase -->
+    <path d="M5,80 Q30,78 50,75" stroke="#FF9800" stroke-width="2" fill="none"/>
+    <text x="28" y="68" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#E65100">Лаг-фаза</text>
+    <text x="28" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.5" fill="#555">(адаптация)</text>
+
+    <!-- Exponential phase -->
+    <path d="M50,75 Q70,60 90,35 Q110,10 130,5" stroke="#4CAF50" stroke-width="2" fill="none"/>
+    <text x="100" y="15" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#1B5E20">Лог-фаза</text>
+    <text x="100" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.5" fill="#555">(быстрый рост)</text>
+
+    <!-- Stationary phase -->
+    <path d="M130,5 Q150,4 170,5 Q190,6 200,8" stroke="#2196F3" stroke-width="2" fill="none"/>
+    <text x="165" y="0" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#0D47A1">Стационарная</text>
+    <text x="165" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.5" fill="#555">(равновесие)</text>
+
+    <!-- Death phase (decline) -->
+    <path d="M200,8 Q210,20 215,40" stroke="#D32F2F" stroke-width="2" fill="none"/>
+    <text x="215" y="35" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#C62828">Отмирание</text>
+  </g>
+
+  <!-- Spore formation -->
+  <text x="370" y="145" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20">Образование споры</text>
+
+  <g transform="translate(300,155)">
+    <!-- Step 1: Normal bacterium -->
+    <rect x="5" y="10" width="35" height="16" rx="8" fill="#81D4FA" stroke="#0288D1" stroke-width="1"/>
+
+    <!-- Arrow -->
+    <path d="M45,18 L60,18" stroke="#2E7D32" stroke-width="1" fill="none" marker-end="url(#arr)"/>
+
+    <!-- Step 2: Spore forming inside -->
+    <rect x="65" y="8" width="38" height="20" rx="10" fill="#81D4FA" stroke="#0288D1" stroke-width="1"/>
+    <ellipse cx="82" cy="18" rx="6" ry="5" fill="#8D6E63" stroke="#5D4037" stroke-width="0.8"/>
+
+    <!-- Arrow -->
+    <path d="M108,18 L125,18" stroke="#2E7D32" stroke-width="1" fill="none" marker-end="url(#arr)"/>
+
+    <!-- Step 3: Spore released -->
+    <ellipse cx="145" cy="18" rx="8" ry="7" fill="#8D6E63" stroke="#5D4037" stroke-width="1.5"/>
+    <text x="145" y="21" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.5" fill="white">Спора</text>
+
+    <!-- Step 4: Spore germinates -->
+    <path d="M155,18 L170,18" stroke="#2E7D32" stroke-width="1" fill="none" marker-end="url(#arr)"/>
+    <rect x="175" y="10" width="35" height="16" rx="8" fill="#81D4FA" stroke="#0288D1" stroke-width="1"/>
+
+    <text x="22" y="38" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#555">Клетка</text>
+    <text x="84" y="38" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#555">Спора внутри</text>
+    <text x="145" y="38" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#555">Спора</text>
+    <text x="192" y="38" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#555">Прорастание</text>
+  </g>
+
+  <!-- Reproduction speed facts -->
+  <g transform="translate(300,205)">
+    <rect x="0" y="0" width="185" height="55" rx="5" fill="#FFF8E1" stroke="#F9A825" stroke-width="0.8"/>
+    <text x="92" y="14" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#F57F17">Скорость размножения</text>
+    <text x="10" y="26" font-family="Arial,sans-serif" font-size="6" fill="#555">• Деление каждые 20-30 мин</text>
+    <text x="10" y="36" font-family="Arial,sans-serif" font-size="6" fill="#555">• За сутки: 1 → 2⁷² бактерий</text>
+    <text x="10" y="46" font-family="Arial,sans-serif" font-size="6" fill="#555">• Масса превысила бы Землю!</text>
+  </g>
+
+  <!-- Conditions for growth -->
+  <text x="140" y="275" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20">Условия размножения бактерий</text>
+  <line x1="15" y1="279" x2="270" y2="279" stroke="#2E7D32" stroke-width="0.5" opacity="0.3"/>
+
+  <g transform="translate(15,285)">
+    <rect x="0" y="0" width="120" height="16" rx="3" fill="#FFCDD2" stroke="#EF5350" stroke-width="0.6"/>
+    <text x="60" y="11" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#C62828">🌡 Тепло (20-40°C)</text>
+
+    <rect x="0" y="19" width="120" height="16" rx="3" fill="#B3E5FC" stroke="#42A5F5" stroke-width="0.6"/>
+    <text x="60" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#0D47A1">💧 Влага (влажность)</text>
+
+    <rect x="0" y="38" width="120" height="16" rx="3" fill="#C8E6C9" stroke="#4CAF50" stroke-width="0.6"/>
+    <text x="60" y="49" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20">🍽 Питательные вещества</text>
+  </g>
+
+  <g transform="translate(145,285)">
+    <rect x="0" y="0" width="120" height="16" rx="3" fill="#FFF9C4" stroke="#FBC02D" stroke-width="0.6"/>
+    <text x="60" y="11" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#F57F17"> pH (нейтральная среда)</text>
+
+    <rect x="0" y="19" width="120" height="16" rx="3" fill="#E1BEE7" stroke="#9C27B0" stroke-width="0.6"/>
+    <text x="60" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#6A1B9A">💨 Кислород (не всем)</text>
+
+    <rect x="0" y="38" width="120" height="16" rx="3" fill="#FFE0B2" stroke="#FF9800" stroke-width="0.6"/>
+    <text x="60" y="49" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#E65100">⏱ Отсутствие света</text>
+  </g>
+
+  <!-- Spore resistance facts -->
+  <g transform="translate(300,268)">
+    <rect x="0" y="0" width="185" height="65" rx="5" fill="#EFEBE9" stroke="#795548" stroke-width="0.8"/>
+    <text x="92" y="14" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#3E2723">Устойчивость спор</text>
+    <text x="10" y="26" font-family="Arial,sans-serif" font-size="5.5" fill="#555">• Выдерживают кипячение (1-2 ч)</text>
+    <text x="10" y="36" font-family="Arial,sans-serif" font-size="5.5" fill="#555">• Переносят замораживание</text>
+    <text x="10" y="46" font-family="Arial,sans-serif" font-size="5.5" fill="#555">• Устойчивы к высушиванию</text>
+    <text x="10" y="56" font-family="Arial,sans-serif" font-size="5.5" fill="#555">• Сохраняются сотни лет</text>
+  </g>
+</svg>

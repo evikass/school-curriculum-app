@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" stroke="#2E7D32" stroke-width="2.5" rx="8"/>
+  <text x="250" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20">Свойства живого</text>
+  <text x="250" y="35" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#666">Биология 5 класс — Урок 3</text>
+  <line x1="30" y1="40" x2="470" y2="40" stroke="#2E7D32" stroke-width="1" opacity="0.5"/>
+
+  <!-- Central circle "Живое" -->
+  <circle cx="250" cy="185" r="40" fill="#2E7D32" opacity="0.15" stroke="#2E7D32" stroke-width="2"/>
+  <text x="250" y="182" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#1B5E20">ЖИВОЕ</text>
+  <text x="250" y="195" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32">организм</text>
+
+  <!-- 7 properties around central circle -->
+  <!-- 1. Питание (top) -->
+  <g transform="translate(250,52)">
+    <line x1="0" y1="28" x2="0" y2="90" stroke="#4CAF50" stroke-width="1.2" stroke-dasharray="3,2"/>
+    <rect x="-45" y="0" width="90" height="30" rx="6" fill="#FFF3E0" stroke="#FF9800" stroke-width="1.2"/>
+    <text x="0" y="12" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#E65100">1. Питание</text>
+    <text x="0" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#555">получение веществ и энергии</text>
+  </g>
+
+  <!-- 2. Дыхание (top-right) -->
+  <g transform="translate(410,90)">
+    <line x1="-35" y1="20" x2="-118" y2="75" stroke="#42A5F5" stroke-width="1.2" stroke-dasharray="3,2"/>
+    <rect x="-45" y="0" width="90" height="30" rx="6" fill="#E3F2FD" stroke="#2196F3" stroke-width="1.2"/>
+    <text x="0" y="12" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#0D47A1">2. Дыхание</text>
+    <text x="0" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#555">газообмен: O₂ → CO₂</text>
+  </g>
+
+  <!-- 3. Выделение (bottom-right) -->
+  <g transform="translate(420,210)">
+    <line x1="-40" y1="0" x2="-128" y2="-8" stroke="#AB47BC" stroke-width="1.2" stroke-dasharray="3,2"/>
+    <rect x="-45" y="-15" width="90" height="30" rx="6" fill="#F3E5F5" stroke="#9C27B0" stroke-width="1.2"/>
+    <text x="0" y="-3" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#6A1B9A">3. Выделение</text>
+    <text x="0" y="7" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#555">удаление вредных веществ</text>
+  </g>
+
+  <!-- 4. Размножение (bottom) -->
+  <g transform="translate(250,295)">
+    <line x1="0" y1="-30" x2="0" y2="-70" stroke="#E91E63" stroke-width="1.2" stroke-dasharray="3,2"/>
+    <rect x="-45" y="-15" width="90" height="30" rx="6" fill="#FCE4EC" stroke="#E91E63" stroke-width="1.2"/>
+    <text x="0" y="-3" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#880E4F">4. Размножение</text>
+    <text x="0" y="7" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#555">воспроизведение потомства</text>
+  </g>
+
+  <!-- 5. Рост и развитие (bottom-left) -->
+  <g transform="translate(80,210)">
+    <line x1="40" y1="0" x2="128" y2="-8" stroke="#4CAF50" stroke-width="1.2" stroke-dasharray="3,2"/>
+    <rect x="-45" y="-15" width="90" height="30" rx="6" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1.2"/>
+    <text x="0" y="-3" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#1B5E20">5. Рост и развитие</text>
+    <text x="0" y="7" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#555">увеличение и изменение</text>
+  </g>
+
+  <!-- 6. Раздражимость (top-left) -->
+  <g transform="translate(80,90)">
+    <line x1="35" y1="20" x2="118" y2="75" stroke="#FF6D00" stroke-width="1.2" stroke-dasharray="3,2"/>
+    <rect x="-45" y="0" width="90" height="30" rx="6" fill="#FFF8E1" stroke="#FFC107" stroke-width="1.2"/>
+    <text x="0" y="12" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#F57F17">6. Раздражимость</text>
+    <text x="0" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#555">реакция на воздействие</text>
+  </g>
+
+  <!-- 7. Движение (center-right) -->
+  <g transform="translate(410,155)">
+    <line x1="-35" y1="0" x2="-118" y2="10" stroke="#00897B" stroke-width="1.2" stroke-dasharray="3,2"/>
+    <rect x="-45" y="-15" width="90" height="30" rx="6" fill="#E0F7FA" stroke="#00BCD4" stroke-width="1.2"/>
+    <text x="0" y="-3" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#006064">7. Движение</text>
+    <text x="0" y="7" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#555">перемещение в пространстве</text>
+  </g>
+
+  <!-- Small icons for each property -->
+  <!-- Fork/knife for nutrition -->
+  <g transform="translate(228,72)">
+    <line x1="0" y1="0" x2="0" y2="10" stroke="#E65100" stroke-width="1.2"/>
+    <line x1="-3" y1="0" x2="-3" y2="6" stroke="#E65100" stroke-width="0.8"/>
+    <line x1="3" y1="0" x2="3" y2="6" stroke="#E65100" stroke-width="0.8"/>
+  </g>
+
+  <!-- Lungs for breathing -->
+  <g transform="translate(385,118)">
+    <ellipse cx="-3" cy="0" rx="4" ry="5" fill="none" stroke="#0D47A1" stroke-width="0.8"/>
+    <ellipse cx="5" cy="0" rx="4" ry="5" fill="none" stroke="#0D47A1" stroke-width="0.8"/>
+    <path d="M1,-5 L1,-8" stroke="#0D47A1" stroke-width="0.8"/>
+  </g>
+
+  <!-- Arrow out for excretion -->
+  <g transform="translate(395,232)">
+    <path d="M0,0 L8,-4 L8,-1 L14,-1 L14,1 L8,1 L8,4 Z" fill="#6A1B9A" opacity="0.6"/>
+  </g>
+
+  <!-- Baby icon for reproduction -->
+  <g transform="translate(238,270)">
+    <circle cx="5" cy="0" r="4" fill="none" stroke="#880E4F" stroke-width="0.8"/>
+    <path d="M5,4 L5,12 M1,7 L9,7 M5,12 L2,17 M5,12 L8,17" stroke="#880E4F" stroke-width="0.8" fill="none"/>
+  </g>
+
+  <!-- Up arrow for growth -->
+  <g transform="translate(105,232)">
+    <path d="M5,15 L5,0 L0,5 M5,0 L10,5" stroke="#1B5E20" stroke-width="1.2" fill="none"/>
+  </g>
+
+  <!-- Lightning for irritability -->
+  <g transform="translate(102,118)">
+    <path d="M5,0 L2,6 L6,6 L3,12" stroke="#F57F17" stroke-width="1.2" fill="none"/>
+  </g>
+
+  <!-- Running figure for movement -->
+  <g transform="translate(388,165)">
+    <circle cx="3" cy="0" r="2.5" fill="none" stroke="#006064" stroke-width="0.8"/>
+    <path d="M3,2.5 L3,8 L0,12 M3,8 L7,11 M1,5 L8,4" stroke="#006064" stroke-width="0.8" fill="none"/>
+  </g>
+
+  
+  <!-- Additional properties details -->
+  <text x="250" y="280" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20">Подробности свойств живого</text>
+  <line x1="30" y1="284" x2="470" y2="284" stroke="#2E7D32" stroke-width="0.5" opacity="0.3"/>
+
+  <rect x="15" y="290" width="115" height="40" rx="4" fill="#FFF3E0" stroke="#FF9800" stroke-width="0.6"/>
+  <text x="72" y="302" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#E65100">Питание</text>
+  <text x="72" y="312" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#555">Автотрофное (свет)</text>
+  <text x="72" y="322" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#555">Гетеротрофное (пища)</text>
+
+  <rect x="140" y="290" width="115" height="40" rx="4" fill="#E3F2FD" stroke="#2196F3" stroke-width="0.6"/>
+  <text x="197" y="302" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#0D47A1">Дыхание</text>
+  <text x="197" y="312" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#555">Аэробное (кислород)</text>
+  <text x="197" y="322" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#555">Анаэробное (без O2)</text>
+
+  <rect x="265" y="290" width="115" height="40" rx="4" fill="#F3E5F5" stroke="#9C27B0" stroke-width="0.6"/>
+  <text x="322" y="302" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#6A1B9A">Размножение</text>
+  <text x="322" y="312" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#555">Половое (гаметы)</text>
+  <text x="322" y="322" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#555">Бесполое (деление)</text>
+
+  <rect x="390" y="290" width="95" height="40" rx="4" fill="#E8F5E9" stroke="#4CAF50" stroke-width="0.6"/>
+  <text x="437" y="302" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#1B5E20">Рост</text>
+  <text x="437" y="312" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#555">Увеличение</text>
+  <text x="437" y="322" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#555">размеров и массы</text>
+  <!-- Bottom note -->
+  <rect x="20" y="325" width="460" height="16" rx="3" fill="#1B5E20" opacity="0.1"/>
+  <text x="250" y="336" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" fill="#1B5E20">Все свойства живого взаимосвязаны и обеспечивают существование организма как единого целого</text>
+</svg>

@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+<linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#B3E5FC"/><stop offset="100%" stop-color="#4FC3F7"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Водоросли</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 5 класс — Урок 18</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- Section 1: Three groups of algae -->
+<text x="250" y="67" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Три отдела водорослей</text>
+
+<!-- Green algae (Зелёные) -->
+<g transform="translate(15,75)">
+<rect x="0" y="0" width="150" height="115" rx="6" fill="white" fill-opacity="0.4" stroke="#2E7D32" stroke-width="0.8"/>
+<rect x="0" y="0" width="150" height="16" rx="6" fill="#4CAF50" opacity="0.3"/>
+<text x="75" y="12" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20" text-anchor="middle">Зелёные водоросли</text>
+<text x="75" y="24" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">Chlorophyta</text>
+
+<!-- Chlamydomonas (unicellular) -->
+<ellipse cx="40" cy="45" rx="12" ry="10" fill="#81C784" stroke="#2E7D32" stroke-width="1"/>
+<circle cx="37" cy="42" r="3" fill="#FFEB3B" opacity="0.7"/>
+<circle cx="42" cy="40" r="2" fill="#F44336" opacity="0.8"/>
+<line x1="28" y1="48" x2="20" y2="52" stroke="#2E7D32" stroke-width="0.8"/>
+<line x1="28" y1="50" x2="20" y2="55" stroke="#2E7D32" stroke-width="0.8"/>
+<text x="40" y="62" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">Хламидомонада</text>
+<text x="40" y="69" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">(одноклет.)</text>
+
+<!-- Spirogyra (multicellular filament) -->
+<path d="M80,30 Q85,28 90,30 Q95,32 100,30 Q105,28 110,30 Q115,32 120,30 Q125,28 130,30" fill="none" stroke="#4CAF50" stroke-width="3"/>
+<path d="M80,38 Q85,36 90,38 Q95,40 100,38 Q105,36 110,38 Q115,40 120,38 Q125,36 130,38" fill="none" stroke="#66BB6A" stroke-width="2.5"/>
+<text x="105" y="52" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">Спирогира</text>
+<text x="105" y="59" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">(нитчатая)</text>
+
+<!-- Pigment box -->
+<rect x="5" y="78" width="140" height="30" rx="3" fill="#E8F5E9" stroke="#4CAF50" stroke-width="0.5"/>
+<text x="75" y="89" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle">Пигменты: хлорофилл a, b</text>
+<text x="75" y="98" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Среда: пресная вода</text>
+</g>
+
+<!-- Brown algae (Бурые) -->
+<g transform="translate(175,75)">
+<rect x="0" y="0" width="150" height="115" rx="6" fill="white" fill-opacity="0.4" stroke="#795548" stroke-width="0.8"/>
+<rect x="0" y="0" width="150" height="16" rx="6" fill="#795548" opacity="0.2"/>
+<text x="75" y="12" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#4E342E" text-anchor="middle">Бурые водоросли</text>
+<text x="75" y="24" font-family="Arial,sans-serif" font-size="6" fill="#795548" text-anchor="middle">Phaeophyta</text>
+
+<!-- Laminaria (kelp) -->
+<path d="M40,35 L40,28" stroke="#5D4037" stroke-width="2"/>
+<path d="M40,28 Q35,25 30,30 Q20,40 15,55 Q12,65 18,75" fill="none" stroke="#8D6E63" stroke-width="3"/>
+<path d="M40,28 Q45,25 50,30 Q60,40 65,55 Q68,65 62,75" fill="none" stroke="#A1887F" stroke-width="3"/>
+<path d="M40,28 Q38,32 35,40 Q30,50 28,60" fill="none" stroke="#795548" stroke-width="2"/>
+<!-- Holdfast -->
+<path d="M35,75 Q30,78 25,82 Q22,85 20,88" fill="none" stroke="#5D4037" stroke-width="1.5"/>
+<path d="M45,75 Q50,78 55,82 Q58,85 60,88" fill="none" stroke="#5D4037" stroke-width="1.5"/>
+<text x="40" y="95" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">Ламинария</text>
+<text x="40" y="102" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">(морская капуста)</text>
+
+<!-- Labels -->
+<line x1="65" y1="55" x2="80" y2="50" stroke="#5D4037" stroke-width="0.4"/>
+<text x="100" y="48" font-family="Arial,sans-serif" font-size="5" fill="#4E342E">слоевище</text>
+<text x="100" y="55" font-family="Arial,sans-serif" font-size="5" fill="#4E342E">(таллом)</text>
+<line x1="40" y1="35" x2="75" y2="38" stroke="#5D4037" stroke-width="0.4"/>
+<text x="100" y="37" font-family="Arial,sans-serif" font-size="5" fill="#4E342E">стволик</text>
+<line x1="40" y1="82" x2="75" y2="85" stroke="#5D4037" stroke-width="0.4"/>
+<text x="100" y="83" font-family="Arial,sans-serif" font-size="5" fill="#4E342E">ризоиды</text>
+
+<!-- Pigment box -->
+<rect x="5" y="78" width="140" height="30" rx="3" fill="#EFEBE9" stroke="#795548" stroke-width="0.5"/>
+<text x="75" y="89" font-family="Arial,sans-serif" font-size="6" fill="#4E342E" text-anchor="middle">Пигменты: фукоксантин</text>
+<text x="75" y="98" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Среда: морская вода</text>
+</g>
+
+<!-- Red algae (Красные) -->
+<g transform="translate(335,75)">
+<rect x="0" y="0" width="150" height="115" rx="6" fill="white" fill-opacity="0.4" stroke="#C62828" stroke-width="0.8"/>
+<rect x="0" y="0" width="150" height="16" rx="6" fill="#C62828" opacity="0.15"/>
+<text x="75" y="12" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#B71C1C" text-anchor="middle">Красные водоросли</text>
+<text x="75" y="24" font-family="Arial,sans-serif" font-size="6" fill="#C62828" text-anchor="middle">Rhodophyta</text>
+
+<!-- Porphyra structure -->
+<path d="M45,80 Q40,60 35,45 Q30,35 40,30 Q50,25 55,35 Q60,45 55,55 Q52,65 50,75" fill="#EF9A9A" stroke="#C62828" stroke-width="1" opacity="0.7"/>
+<path d="M55,80 Q52,65 50,50 Q48,38 55,32 Q62,28 65,38 Q68,48 65,58 Q62,68 58,78" fill="#E57373" stroke="#C62828" stroke-width="0.8" opacity="0.6"/>
+<text x="55" y="92" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">Порфира</text>
+<text x="55" y="99" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">(нори)</text>
+
+<!-- Pigment box -->
+<rect x="5" y="78" width="140" height="30" rx="3" fill="#FFEBEE" stroke="#C62828" stroke-width="0.5"/>
+<text x="75" y="89" font-family="Arial,sans-serif" font-size="6" fill="#B71C1C" text-anchor="middle">Пигменты: фикоэритрин</text>
+<text x="75" y="98" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Среда: морская вода, глубина</text>
+</g>
+
+<!-- Section 2: Unicellular vs Multicellular -->
+<text x="250" y="205" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Одноклеточные и многоклеточные водоросли</text>
+
+<!-- Unicellular -->
+<g transform="translate(20,212)">
+<rect x="0" y="0" width="220" height="60" rx="5" fill="white" fill-opacity="0.4" stroke="#1565C0" stroke-width="0.7"/>
+<text x="110" y="13" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1565C0" text-anchor="middle">Одноклеточные</text>
+
+<!-- Chlorella -->
+<circle cx="30" cy="35" r="8" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.8"/>
+<circle cx="30" cy="35" r="3" fill="#66BB6A"/>
+<text x="30" y="50" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">Хлорелла</text>
+
+<!-- Euglena -->
+<ellipse cx="80" cy="35" rx="10" ry="6" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.8"/>
+<circle cx="75" cy="32" r="2" fill="#FFEB3B"/>
+<line x1="90" y1="35" x2="100" y2="30" stroke="#2E7D32" stroke-width="0.6"/>
+<text x="80" y="50" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">Эвглена</text>
+
+<!-- Diatom -->
+<ellipse cx="140" cy="35" rx="12" ry="7" fill="#B3E5FC" stroke="#0288D1" stroke-width="0.8"/>
+<line x1="130" y1="35" x2="150" y2="35" stroke="#0288D1" stroke-width="0.5"/>
+<text x="140" y="50" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">Диатомея</text>
+
+<!-- Volvox -->
+<circle cx="195" cy="35" r="12" fill="#E8F5E9" stroke="#4CAF50" stroke-width="0.8"/>
+<circle cx="190" cy="30" r="2" fill="#66BB6A"/>
+<circle cx="198" cy="28" r="2" fill="#66BB6A"/>
+<circle cx="195" cy="36" r="2" fill="#66BB6A"/>
+<circle cx="188" cy="38" r="2" fill="#66BB6A"/>
+<circle cx="202" cy="38" r="2" fill="#66BB6A"/>
+<text x="195" y="55" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">Вольвокс</text>
+<text x="195" y="62" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">(колония)</text>
+</g>
+
+<!-- Multicellular -->
+<g transform="translate(260,212)">
+<rect x="0" y="0" width="220" height="60" rx="5" fill="white" fill-opacity="0.4" stroke="#2E7D32" stroke-width="0.7"/>
+<text x="110" y="13" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#2E7D32" text-anchor="middle">Многоклеточные</text>
+
+<!-- Ulva -->
+<ellipse cx="35" cy="35" rx="15" ry="12" fill="#81C784" stroke="#2E7D32" stroke-width="0.8"/>
+<line x1="35" y1="48" x2="35" y2="55" stroke="#2E7D32" stroke-width="1"/>
+<text x="35" y="62" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">Ульва</text>
+
+<!-- Kelp -->
+<path d="M80,28 Q78,35 75,45 Q72,55 78,60" fill="none" stroke="#8D6E63" stroke-width="2.5"/>
+<path d="M80,28 Q85,32 90,38 Q95,48 92,58" fill="none" stroke="#A1887F" stroke-width="2"/>
+<text x="85" y="62" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">Ламинария</text>
+
+<!-- Fucus -->
+<path d="M140,28 Q135,35 130,45 Q128,55 135,58" fill="none" stroke="#6D4C41" stroke-width="2.5"/>
+<path d="M140,28 Q145,35 150,45 Q152,55 145,58" fill="none" stroke="#795548" stroke-width="2.5"/>
+<circle cx="150" cy="52" r="3" fill="#FFC107" opacity="0.6"/>
+<text x="140" y="62" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">Фукус</text>
+
+<!-- Porphyra -->
+<path d="M195,55 Q190,40 188,30 Q186,22 195,20 Q204,22 202,30 Q200,40 195,55" fill="#EF9A9A" stroke="#C62828" stroke-width="0.8" opacity="0.7"/>
+<text x="195" y="62" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">Порфира</text>
+</g>
+
+<!-- Section 3: Key features -->
+<g transform="translate(20,282)">
+<rect x="0" y="0" width="460" height="55" rx="5" fill="white" fill-opacity="0.4" stroke="#2E7D32" stroke-width="0.5"/>
+<text x="230" y="14" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1B5E20" text-anchor="middle">Общие признаки водорослей</text>
+<circle cx="30" cy="28" r="4" fill="#4CAF50"/>
+<text x="40" y="31" font-family="Arial,sans-serif" font-size="6" fill="#333">нет настоящих тканей и органов</text>
+<circle cx="180" cy="28" r="4" fill="#4CAF50"/>
+<text x="190" y="31" font-family="Arial,sans-serif" font-size="6" fill="#333">нет корней, стеблей, листьев</text>
+<circle cx="330" cy="28" r="4" fill="#4CAF50"/>
+<text x="340" y="31" font-family="Arial,sans-serif" font-size="6" fill="#333">тело — слоевище (таллом)</text>
+<circle cx="30" cy="43" r="4" fill="#2196F3"/>
+<text x="40" y="46" font-family="Arial,sans-serif" font-size="6" fill="#333">обитают в водной среде</text>
+<circle cx="180" cy="43" r="4" fill="#2196F3"/>
+<text x="190" y="46" font-family="Arial,sans-serif" font-size="6" fill="#333">фотосинтезирующие организмы</text>
+<circle cx="330" cy="43" r="4" fill="#2196F3"/>
+<text x="340" y="46" font-family="Arial,sans-serif" font-size="6" fill="#333">выделяют ≈80% кислорода</text>
+</g>
+</svg>

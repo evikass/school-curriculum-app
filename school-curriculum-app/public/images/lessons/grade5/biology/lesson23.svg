@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+<linearGradient id="soil" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#8D6E63"/><stop offset="100%" stop-color="#5D4037"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Корень</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 5 класс — Урок 23</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- Section 1: Root zones -->
+<text x="130" y="67" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Зоны корня</text>
+
+<g transform="translate(25,72)">
+<!-- Soil background -->
+<rect x="0" y="140" width="220" height="45" rx="3" fill="url(#soil)" opacity="0.3"/>
+
+<!-- Main root -->
+<rect x="95" y="0" width="16" height="170" fill="#A1887F" rx="8"/>
+
+<!-- Zone 1: Root cap (корневой чехлик) -->
+<ellipse cx="103" cy="168" rx="14" ry="10" fill="#8D6E63" stroke="#5D4037" stroke-width="1"/>
+<text x="130" y="168" font-family="Arial,sans-serif" font-size="6" fill="#5D4037">корневой чехлик</text>
+<text x="130" y="176" font-family="Arial,sans-serif" font-size="5" fill="#888">(защита, геотропизм)</text>
+<line x1="117" y1="168" x2="128" y2="167" stroke="#5D4037" stroke-width="0.3"/>
+
+<!-- Zone 2: Division zone (зона деления) -->
+<rect x="92" y="130" width="22" height="28" fill="#FFCDD2" opacity="0.6" rx="3"/>
+<text x="132" y="143" font-family="Arial,sans-serif" font-size="6" fill="#C62828">зона деления</text>
+<text x="132" y="151" font-family="Arial,sans-serif" font-size="5" fill="#888">(образование новых клеток)</text>
+<line x1="114" y1="143" x2="130" y2="142" stroke="#C62828" stroke-width="0.3"/>
+<!-- Small dividing cells -->
+<circle cx="100" cy="140" r="2" fill="#EF9A9A" stroke="#C62828" stroke-width="0.3"/>
+<circle cx="108" cy="137" r="2" fill="#EF9A9A" stroke="#C62828" stroke-width="0.3"/>
+<circle cx="104" cy="145" r="2" fill="#EF9A9A" stroke="#C62828" stroke-width="0.3"/>
+
+<!-- Zone 3: Elongation zone (зона роста/растяжения) -->
+<rect x="92" y="90" width="22" height="40" fill="#C8E6C9" opacity="0.6" rx="3"/>
+<text x="132" y="108" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">зона роста</text>
+<text x="132" y="116" font-family="Arial,sans-serif" font-size="5" fill="#888">(удлинение клеток)</text>
+<line x1="114" y1="108" x2="130" y2="107" stroke="#2E7D32" stroke-width="0.3"/>
+
+<!-- Zone 4: Root hair zone (зона всасывания) -->
+<rect x="90" y="30" width="26" height="60" fill="#E8F5E9" opacity="0.6" rx="3"/>
+<!-- Root hairs -->
+<line x1="90" y1="40" x2="70" y2="35" stroke="#A1887F" stroke-width="1"/>
+<line x1="90" y1="48" x2="68" y2="45" stroke="#A1887F" stroke-width="1"/>
+<line x1="90" y1="56" x2="66" y2="55" stroke="#A1887F" stroke-width="1"/>
+<line x1="90" y1="64" x2="68" y2="65" stroke="#A1887F" stroke-width="1"/>
+<line x1="90" y1="72" x2="70" y2="75" stroke="#A1887F" stroke-width="1"/>
+<line x1="116" y1="40" x2="136" y2="35" stroke="#A1887F" stroke-width="1"/>
+<line x1="116" y1="48" x2="138" y2="45" stroke="#A1887F" stroke-width="1"/>
+<line x1="116" y1="56" x2="140" y2="55" stroke="#A1887F" stroke-width="1"/>
+<line x1="116" y1="64" x2="138" y2="65" stroke="#A1887F" stroke-width="1"/>
+<line x1="116" y1="72" x2="136" y2="75" stroke="#A1887F" stroke-width="1"/>
+<text x="140" y="56" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20">зона всасывания</text>
+<text x="140" y="64" font-family="Arial,sans-serif" font-size="5" fill="#888">(корневые волоски)</text>
+<line x1="118" y1="55" x2="138" y2="55" stroke="#1B5E20" stroke-width="0.3"/>
+
+<!-- Zone 5: Conduction zone (зона проведения) -->
+<rect x="94" y="0" width="18" height="30" fill="#FFF9C4" opacity="0.6" rx="3"/>
+<!-- Lateral roots -->
+<path d="M94,15 Q80,18 65,22" fill="none" stroke="#A1887F" stroke-width="1.5"/>
+<path d="M112,20 Q125,23 140,28" fill="none" stroke="#A1887F" stroke-width="1.5"/>
+<text x="50" y="10" font-family="Arial,sans-serif" font-size="6" fill="#F57F17">зона проведения</text>
+<text x="50" y="18" font-family="Arial,sans-serif" font-size="5" fill="#888">(транспорт веществ)</text>
+<line x1="94" y1="8" x2="70" y2="9" stroke="#F57F17" stroke-width="0.3"/>
+</g>
+
+<!-- Section 2: Root hair close-up -->
+<text x="375" y="67" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Корневой волосок (увеличенно)</text>
+
+<g transform="translate(280,75)">
+<!-- Epidermal cell -->
+<rect x="0" y="20" width="50" height="80" rx="5" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1"/>
+<!-- Nucleus -->
+<ellipse cx="25" cy="50" rx="8" ry="6" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5"/>
+<!-- Vacuole -->
+<ellipse cx="25" cy="70" rx="15" ry="12" fill="#E8F5E9" stroke="#81C784" stroke-width="0.5"/>
+
+<!-- Root hair extension -->
+<path d="M50,35 Q70,30 120,28 Q140,28 150,32" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1"/>
+<path d="M50,45 Q70,42 120,40 Q140,40 150,38" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1"/>
+<!-- Inner space -->
+<ellipse cx="100" cy="35" rx="25" ry="4" fill="#E8F5E9"/>
+
+<!-- Labels -->
+<text x="25" y="16" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle">клетка</text>
+<text x="25" y="23" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20" text-anchor="middle">эпидермы</text>
+<text x="25" y="55" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">ядро</text>
+<text x="25" y="75" font-family="Arial,sans-serif" font-size="5" fill="#81C784" text-anchor="middle">вакуоль</text>
+<text x="155" y="28" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20">корневой</text>
+<text x="155" y="36" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20">волосок</text>
+
+<!-- Arrows showing absorption -->
+<path d="M130,50 Q128,55 125,48" fill="none" stroke="#2196F3" stroke-width="0.8"/>
+<text x="125" y="60" font-family="Arial,sans-serif" font-size="5" fill="#2196F3">H₂O + минералы</text>
+
+<!-- Soil particles around root hair -->
+<circle cx="80" cy="55" r="5" fill="#8D6E63" opacity="0.4"/>
+<circle cx="110" cy="52" r="4" fill="#A1887F" opacity="0.3"/>
+<circle cx="140" cy="50" r="3" fill="#8D6E63" opacity="0.3"/>
+<text x="105" y="70" font-family="Arial,sans-serif" font-size="5" fill="#5D4037">почвенные частицы</text>
+</g>
+
+<!-- Section 3: Two root systems -->
+<text x="145" y="230" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20" text-anchor="middle">Стержневая</text>
+<text x="370" y="230" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20" text-anchor="middle">Мочковатая</text>
+
+<!-- Taproot system -->
+<g transform="translate(60,235)">
+<rect x="0" y="0" width="170" height="95" rx="5" fill="white" fill-opacity="0.4" stroke="#2E7D32" stroke-width="0.5"/>
+<!-- Main root -->
+<path d="M85,5 L85,85" stroke="#5D4037" stroke-width="4" stroke-linecap="round"/>
+<!-- Lateral roots -->
+<path d="M85,20 Q65,30 45,40" fill="none" stroke="#8D6E63" stroke-width="2"/>
+<path d="M85,20 Q105,30 125,40" fill="none" stroke="#8D6E63" stroke-width="2"/>
+<path d="M85,35 Q60,45 35,55" fill="none" stroke="#A1887F" stroke-width="1.5"/>
+<path d="M85,35 Q110,45 135,55" fill="none" stroke="#A1887F" stroke-width="1.5"/>
+<path d="M85,50 Q65,58 40,65" fill="none" stroke="#A1887F" stroke-width="1"/>
+<path d="M85,50 Q105,58 130,65" fill="none" stroke="#A1887F" stroke-width="1"/>
+<path d="M45,40 Q35,48 25,55" fill="none" stroke="#BCAAA4" stroke-width="0.8"/>
+<path d="M125,40 Q135,48 145,55" fill="none" stroke="#BCAAA4" stroke-width="0.8"/>
+<text x="85" y="92" font-family="Arial,sans-serif" font-size="6" fill="#5D4037" text-anchor="middle">главный корень развит</text>
+<text x="85" y="80" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">двудольные</text>
+</g>
+
+<!-- Fibrous root system -->
+<g transform="translate(285,235)">
+<rect x="0" y="0" width="170" height="95" rx="5" fill="white" fill-opacity="0.4" stroke="#FF9800" stroke-width="0.5"/>
+<!-- Adventitious roots (no main root) -->
+<path d="M85,5 Q78,25 70,50 Q65,65 55,85" fill="none" stroke="#A1887F" stroke-width="2"/>
+<path d="M85,5 Q82,30 80,55 Q78,70 75,85" fill="none" stroke="#A1887F" stroke-width="2"/>
+<path d="M85,5 Q88,30 90,55 Q92,70 95,85" fill="none" stroke="#A1887F" stroke-width="2"/>
+<path d="M85,5 Q92,25 100,50 Q105,65 115,85" fill="none" stroke="#A1887F" stroke-width="2"/>
+<path d="M85,5 Q75,20 60,40 Q50,55 40,70" fill="none" stroke="#BCAAA4" stroke-width="1.5"/>
+<path d="M85,5 Q95,20 110,40 Q120,55 130,70" fill="none" stroke="#BCAAA4" stroke-width="1.5"/>
+<text x="85" y="92" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle">придаточные корни</text>
+<text x="85" y="80" font-family="Arial,sans-serif" font-size="6" fill="#FF9800" text-anchor="middle">однодольные</text>
+</g>
+
+<!-- Bottom labels -->
+<text x="250" y="345" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">Корневые волоски живут 10-20 дней, постоянно обновляются в зоне всасывания</text>
+</svg>
