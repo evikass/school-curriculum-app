@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFECB3"/></linearGradient>
+<linearGradient id="triMain" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFB300" stop-opacity="0.12"/><stop offset="100%" stop-color="#FF8F00" stop-opacity="0.22"/></linearGradient>
+<linearGradient id="tri1Grad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#E91E63" stop-opacity="0.15"/><stop offset="100%" stop-color="#E91E63" stop-opacity="0.3"/></linearGradient>
+<linearGradient id="tri2Grad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2196F3" stop-opacity="0.15"/><stop offset="100%" stop-color="#2196F3" stop-opacity="0.3"/></linearGradient>
+<linearGradient id="tri3Grad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4CAF50" stop-opacity="0.15"/><stop offset="100%" stop-color="#4CAF50" stop-opacity="0.3"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FF8F00" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#E65100" text-anchor="middle">Пропорциональные отрезки в прямоугольном △</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Геометрия 8 класс — Урок 12</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#FF8F00" stroke-width="1" opacity="0.3"/>
+
+<!-- Main right triangle with altitude - left side -->
+<g transform="translate(15,55)">
+  <!-- Triangle ABC - right angle at C -->
+  <!-- C at (30,170), A at (30,20), B at (200,170) -->
+  <polygon points="30,170 30,20 200,170" fill="url(#triMain)" stroke="#FF8F00" stroke-width="2"/>
+
+  <!-- Altitude CH from C to hypotenuse AB -->
+  <!-- H is foot of altitude on AB -->
+  <line x1="30" y1="170" x2="80" y2="73" stroke="#E91E63" stroke-width="2" stroke-dasharray="5,3"/>
+
+  <!-- Right angle at C -->
+  <rect x="30" y="158" width="12" height="12" fill="none" stroke="#FF8F00" stroke-width="1.2"/>
+
+  <!-- Right angle at H -->
+  <rect x="73" y="73" width="8" height="8" fill="none" stroke="#E91E63" stroke-width="1" transform="rotate(-56,77,77)"/>
+
+  <!-- Vertex labels -->
+  <text x="22" y="16" font-family="Arial,sans-serif" font-size="11" fill="#E65100" font-weight="bold">A</text>
+  <text x="205" y="178" font-family="Arial,sans-serif" font-size="11" fill="#E65100" font-weight="bold">B</text>
+  <text x="18" y="180" font-family="Arial,sans-serif" font-size="11" fill="#E65100" font-weight="bold">C</text>
+  <text x="72" y="66" font-family="Arial,sans-serif" font-size="10" fill="#E91E63" font-weight="bold">H</text>
+
+  <!-- Labels: legs a and b -->
+  <text x="14" y="100" font-family="Arial,sans-serif" font-size="10" fill="#2196F3" font-weight="bold" transform="rotate(-90,14,100)">b</text>
+  <text x="115" y="192" font-family="Arial,sans-serif" font-size="10" fill="#2196F3" font-weight="bold">a</text>
+  <!-- Hypotenuse c -->
+  <text x="125" y="82" font-family="Arial,sans-serif" font-size="10" fill="#FF8F00" font-weight="bold">c</text>
+  <!-- Altitude h -->
+  <text x="42" y="125" font-family="Arial,sans-serif" font-size="9" fill="#E91E63" font-weight="bold">h</text>
+  <!-- Projections p and q -->
+  <text x="52" y="46" font-family="Arial,sans-serif" font-size="8" fill="#9C27B0" font-weight="bold">p</text>
+  <text x="145" y="120" font-family="Arial,sans-serif" font-size="8" fill="#9C27B0" font-weight="bold">q</text>
+
+  <!-- Projection segments on AB -->
+  <line x1="30" y1="20" x2="80" y2="73" stroke="#9C27B0" stroke-width="2.5" opacity="0.6"/>
+  <line x1="80" y1="73" x2="200" y2="170" stroke="#9C27B0" stroke-width="2.5" opacity="0.6"/>
+</g>
+
+<!-- Three similar triangles - right side -->
+<g transform="translate(260,58)">
+  <text x="105" y="0" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle" font-weight="bold">🔺 Три подобных треугольника</text>
+
+  <!-- Triangle 1: original ABC (pink) -->
+  <g transform="translate(10,10)">
+    <polygon points="0,70 0,0 70,70" fill="url(#tri1Grad)" stroke="#E91E63" stroke-width="1.5"/>
+    <rect x="0" y="58" width="10" height="10" fill="none" stroke="#E91E63" stroke-width="0.8"/>
+    <text x="35" y="45" font-family="Arial,sans-serif" font-size="7" fill="#E91E63" text-anchor="middle" font-weight="bold">△ABC</text>
+    <text x="35" y="55" font-family="Arial,sans-serif" font-size="6" fill="#E91E63" text-anchor="middle">исходный</text>
+  </g>
+
+  <!-- Triangle 2: ACH (blue) -->
+  <g transform="translate(100,10)">
+    <polygon points="0,70 0,0 30,70" fill="url(#tri2Grad)" stroke="#2196F3" stroke-width="1.5"/>
+    <rect x="0" y="58" width="8" height="8" fill="none" stroke="#2196F3" stroke-width="0.8"/>
+    <text x="15" y="45" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle" font-weight="bold">△ACH</text>
+    <text x="15" y="55" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">катет a</text>
+  </g>
+
+  <!-- Triangle 3: BCH (green) -->
+  <g transform="translate(155,10)">
+    <polygon points="0,70 30,0 60,70" fill="url(#tri3Grad)" stroke="#4CAF50" stroke-width="1.5"/>
+    <rect x="22" y="58" width="8" height="8" fill="none" stroke="#4CAF50" stroke-width="0.8"/>
+    <text x="30" y="45" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">△BCH</text>
+    <text x="30" y="55" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">катет b</text>
+  </g>
+
+  <!-- Similarity signs -->
+  <text x="88" y="50" font-family="Arial,sans-serif" font-size="10" fill="#E65100">~</text>
+  <text x="145" y="50" font-family="Arial,sans-serif" font-size="10" fill="#E65100">~</text>
+</g>
+
+<!-- Formulas panel - right side -->
+<g transform="translate(265,150)">
+  <rect x="0" y="0" width="220" height="110" rx="6" fill="white" opacity="0.9" stroke="#FF8F00" stroke-width="1"/>
+  <text x="110" y="15" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle" font-weight="bold">📐 Формулы пропорциональности</text>
+  <line x1="10" y1="20" x2="210" y2="20" stroke="#FF8F00" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Formula 1 -->
+  <rect x="8" y="25" width="100" height="18" rx="3" fill="#FFF3E0" stroke="#FF8F00" stroke-width="0.5"/>
+  <text x="58" y="37" font-family="Arial,sans-serif" font-size="9" fill="#E65100" text-anchor="middle" font-weight="bold">h² = p · q</text>
+
+  <!-- Formula 2 -->
+  <rect x="115" y="25" width="98" height="18" rx="3" fill="#FFF3E0" stroke="#FF8F00" stroke-width="0.5"/>
+  <text x="164" y="37" font-family="Arial,sans-serif" font-size="9" fill="#E65100" text-anchor="middle" font-weight="bold">a² = c · p</text>
+
+  <!-- Formula 3 -->
+  <rect x="8" y="48" width="100" height="18" rx="3" fill="#FFF3E0" stroke="#FF8F00" stroke-width="0.5"/>
+  <text x="58" y="60" font-family="Arial,sans-serif" font-size="9" fill="#E65100" text-anchor="middle" font-weight="bold">b² = c · q</text>
+
+  <!-- Formula 4 -->
+  <rect x="115" y="48" width="98" height="18" rx="3" fill="#FFF3E0" stroke="#FF8F00" stroke-width="0.5"/>
+  <text x="164" y="60" font-family="Arial,sans-serif" font-size="9" fill="#E65100" text-anchor="middle" font-weight="bold">a·b = c·h</text>
+
+  <!-- Proportionality relations -->
+  <line x1="10" y1="72" x2="210" y2="72" stroke="#FF8F00" stroke-width="0.3" opacity="0.4"/>
+  <text x="110" y="83" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle" font-weight="bold">Пропорции подобия:</text>
+
+  <circle cx="18" cy="93" r="2.5" fill="#E91E63"/>
+  <text x="25" y="96" font-family="Arial,sans-serif" font-size="7" fill="#333">a/c = p/a → a² = c·p</text>
+
+  <circle cx="18" cy="105" r="2.5" fill="#2196F3"/>
+  <text x="25" y="108" font-family="Arial,sans-serif" font-size="7" fill="#333">b/c = q/b → b² = c·q</text>
+</g>
+
+<!-- Key theorem note -->
+<g transform="translate(15,248)">
+  <rect x="0" y="0" width="235" height="72" rx="6" fill="white" opacity="0.88" stroke="#FF8F00" stroke-width="1"/>
+  <text x="117" y="14" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle" font-weight="bold">📋 Теорема о высоте</text>
+  <line x1="10" y1="18" x2="225" y2="18" stroke="#FF8F00" stroke-width="0.5" opacity="0.4"/>
+  <text x="117" y="32" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Высота прямоугольного △, проведённая</text>
+  <text x="117" y="42" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">из вершины прямого угла, есть среднее</text>
+  <text x="117" y="52" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">пропорциональное между отрезками,</text>
+  <text x="117" y="62" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">на которые она делит гипотенузу</text>
+</g>
+
+<!-- Bottom bar -->
+<rect x="10" y="330" width="480" height="16" rx="4" fill="#FF8F00" opacity="0.85"/>
+<text x="250" y="342" font-family="Arial,sans-serif" font-size="10" text-anchor="middle" fill="white" font-weight="bold">h² = p·q | a² = c·p | b² = c·q — пропорциональные отрезки в прямоугольном △</text>
+</svg>

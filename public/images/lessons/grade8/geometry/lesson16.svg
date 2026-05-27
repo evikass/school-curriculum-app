@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" font-family="Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg16" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EDE7F6"/>
+      <stop offset="100%" stop-color="#D1C4E9"/>
+    </linearGradient>
+    <linearGradient id="incircle16" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B39DDB"/>
+      <stop offset="100%" stop-color="#7C4DFF"/>
+    </linearGradient>
+    <linearGradient id="circircle16" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9575CD"/>
+      <stop offset="100%" stop-color="#4527A0"/>
+    </linearGradient>
+    <radialGradient id="iglow16" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#B388FF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#7C4DFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="oglow16" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#9575CD" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#4527A0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg16)" rx="8"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#4527A0" stroke-width="2.5"/>
+  <!-- Title -->
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#311B92" text-anchor="middle">Вписанная и описанная окружности</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle">Геометрия 8 класс — Урок 16</text>
+  <line x1="30" y1="50" x2="470" y2="50" stroke="#4527A0" stroke-width="1" opacity="0.3"/>
+
+  <!-- LEFT PANEL: Inscribed circle (incircle) -->
+  <rect x="10" y="58" width="235" height="215" rx="8" fill="white" fill-opacity="0.88" stroke="#7C4DFF" stroke-width="1.2"/>
+  <text x="128" y="75" font-size="10" font-weight="bold" fill="#4527A0" text-anchor="middle">● Вписанная окружность</text>
+  <text x="128" y="87" font-size="7" fill="#7C4DFF" text-anchor="middle">касается всех сторон треугольника</text>
+
+  <!-- Triangle for incircle: A(128,100), B(35,245), C(220,245) -->
+  <polygon points="128,100 35,245 220,245" fill="none" stroke="#4527A0" stroke-width="2"/>
+  <!-- Incircle center at approximately (128,195) with r≈50 -->
+  <circle cx="128" cy="195" r="48" fill="url(#iglow16)"/>
+  <circle cx="128" cy="195" r="48" fill="none" stroke="url(#incircle16)" stroke-width="2"/>
+  <!-- Center point I -->
+  <circle cx="128" cy="195" r="3" fill="#7C4DFF"/>
+  <text x="138" y="192" font-size="9" font-weight="bold" fill="#7C4DFF">I</text>
+  <!-- Radius perpendicular to base -->
+  <line x1="128" y1="195" x2="128" y2="243" stroke="#7C4DFF" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <text x="135" y="228" font-size="7" fill="#7C4DFF">r</text>
+  <!-- Right angle mark at tangent point -->
+  <rect x="125" y="237" width="6" height="6" fill="none" stroke="#7C4DFF" stroke-width="0.8"/>
+  <!-- Angle bisectors (dashed) -->
+  <line x1="128" y1="100" x2="128" y2="195" stroke="#B39DDB" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <line x1="35" y1="245" x2="128" y2="195" stroke="#B39DDB" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <line x1="220" y1="245" x2="128" y2="195" stroke="#B39DDB" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <!-- Vertex labels -->
+  <text x="128" y="96" font-size="9" font-weight="bold" fill="#311B92" text-anchor="middle">A</text>
+  <text x="25" y="253" font-size="9" font-weight="bold" fill="#311B92">B</text>
+  <text x="225" y="253" font-size="9" font-weight="bold" fill="#311B92">C</text>
+  <!-- Tangent points -->
+  <circle cx="128" cy="243" r="2.5" fill="#7C4DFF"/>
+  <circle cx="72" cy="188" r="2.5" fill="#7C4DFF"/>
+  <circle cx="184" cy="188" r="2.5" fill="#7C4DFF"/>
+  <!-- Angle bisector label -->
+  <text x="80" y="140" font-size="6" fill="#9575CD" font-style="italic">биссектриса</text>
+
+  <!-- Formula box for incircle -->
+  <rect x="20" y="255" width="215" height="14" rx="3" fill="white" fill-opacity="0.9" stroke="#7C4DFF" stroke-width="0.8"/>
+  <text x="128" y="265" font-size="8" fill="#4527A0" text-anchor="middle" font-weight="bold">r = S/p  (S — площадь, p — полупериметр)</text>
+
+  <!-- RIGHT PANEL: Circumscribed circle -->
+  <rect x="255" y="58" width="235" height="215" rx="8" fill="white" fill-opacity="0.88" stroke="#4527A0" stroke-width="1.2"/>
+  <text x="373" y="75" font-size="10" font-weight="bold" fill="#4527A0" text-anchor="middle">○ Описанная окружность</text>
+  <text x="373" y="87" font-size="7" fill="#4527A0" text-anchor="middle">проходит через все вершины</text>
+
+  <!-- Triangle for circumcircle: A(373,105), B(300,230), C(445,230) -->
+  <!-- Circumcircle center at approximately (373,178) R≈75 -->
+  <circle cx="373" cy="178" r="75" fill="url(#oglow16)"/>
+  <circle cx="373" cy="178" r="75" fill="none" stroke="url(#circircle16)" stroke-width="2"/>
+  <polygon points="373,103 300,230 445,230" fill="none" stroke="#4527A0" stroke-width="2"/>
+  <!-- Center point O -->
+  <circle cx="373" cy="178" r="3" fill="#4527A0"/>
+  <text x="383" y="175" font-size="9" font-weight="bold" fill="#4527A0">O</text>
+  <!-- Radius line to vertex A -->
+  <line x1="373" y1="178" x2="373" y2="103" stroke="#4527A0" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <text x="378" y="145" font-size="7" fill="#4527A0">R</text>
+  <!-- Perpendicular bisectors (dashed) -->
+  <line x1="336" y1="166" x2="410" y2="193" stroke="#9575CD" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <line x1="373" y1="218" x2="373" y2="152" stroke="#9575CD" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <!-- Midpoint markers on sides -->
+  <circle cx="336" cy="166" r="2" fill="#9575CD"/>
+  <circle cx="373" cy="230" r="2" fill="#9575CD"/>
+  <!-- Right angle marks for perp bisectors -->
+  <rect x="336" y="161" width="5" height="5" fill="none" stroke="#9575CD" stroke-width="0.7" transform="rotate(12,338,163)"/>
+  <rect x="370" y="225" width="5" height="5" fill="none" stroke="#9575CD" stroke-width="0.7"/>
+  <!-- Vertex labels -->
+  <text x="373" y="99" font-size="9" font-weight="bold" fill="#311B92" text-anchor="middle">A</text>
+  <text x="288" y="238" font-size="9" font-weight="bold" fill="#311B92">B</text>
+  <text x="450" y="238" font-size="9" font-weight="bold" fill="#311B92">C</text>
+  <!-- Perp bisector label -->
+  <text x="395" y="163" font-size="6" fill="#9575CD" font-style="italic">серед. ⊥</text>
+
+  <!-- Formula box for circumcircle -->
+  <rect x="265" y="255" width="215" height="14" rx="3" fill="white" fill-opacity="0.9" stroke="#4527A0" stroke-width="0.8"/>
+  <text x="373" y="265" font-size="8" fill="#4527A0" text-anchor="middle" font-weight="bold">R = abc / (4S)</text>
+
+  <!-- Euler line section -->
+  <rect x="10" y="280" width="480" height="20" rx="4" fill="white" fill-opacity="0.85" stroke="#9575CD" stroke-width="0.8"/>
+  <text x="250" y="293" font-size="8" fill="#4527A0" text-anchor="middle">Прямая Эйлера: O (центр опис.) — G (центроид) — H (ортоцентр) — I (центр впис.)</text>
+
+  <!-- Bottom bar -->
+  <rect x="10" y="305" width="480" height="35" rx="6" fill="#4527A0" fill-opacity="0.85"/>
+  <text x="250" y="320" font-size="9" font-weight="bold" fill="white" text-anchor="middle">Ключевые факты</text>
+  <text x="250" y="332" font-size="8" fill="#D1C4E9" text-anchor="middle">I = пересечение биссектрис (r ⊥ стороне) | O = пересечение серединных перпендикуляров | R ≥ 2r</text>
+</svg>

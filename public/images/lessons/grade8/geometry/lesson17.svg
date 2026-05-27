@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" font-family="Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg17" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFEBEE"/>
+      <stop offset="100%" stop-color="#FFCDD2"/>
+    </linearGradient>
+    <marker id="arrR" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#C62828"/>
+    </marker>
+    <marker id="arrD" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#B71C1C"/>
+    </marker>
+    <marker id="arrL" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#EF5350"/>
+    </marker>
+    <linearGradient id="vecG17" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#EF5350"/>
+      <stop offset="100%" stop-color="#C62828"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg17)" rx="8"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="2.5"/>
+  <!-- Title -->
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#B71C1C" text-anchor="middle">Понятие вектора</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle">Геометрия 8 класс — Урок 17</text>
+  <line x1="30" y1="50" x2="470" y2="50" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+
+  <!-- LEFT: Coordinate grid with vector AB -->
+  <rect x="10" y="58" width="240" height="165" rx="8" fill="white" fill-opacity="0.88" stroke="#C62828" stroke-width="1.2"/>
+  <text x="130" y="74" font-size="9" font-weight="bold" fill="#B71C1C" text-anchor="middle">➤ Вектор на координатной плоскости</text>
+
+  <!-- Grid lines -->
+  <g stroke="#FFCDD2" stroke-width="0.5" opacity="0.6">
+    <line x1="40" y1="85" x2="40" y2="215"/>
+    <line x1="70" y1="85" x2="70" y2="215"/>
+    <line x1="100" y1="85" x2="100" y2="215"/>
+    <line x1="130" y1="85" x2="130" y2="215"/>
+    <line x1="160" y1="85" x2="160" y2="215"/>
+    <line x1="190" y1="85" x2="190" y2="215"/>
+    <line x1="220" y1="85" x2="220" y2="215"/>
+    <line x1="25" y1="100" x2="240" y2="100"/>
+    <line x1="25" y1="130" x2="240" y2="130"/>
+    <line x1="25" y1="160" x2="240" y2="160"/>
+    <line x1="25" y1="190" x2="240" y2="190"/>
+  </g>
+  <!-- Axes -->
+  <line x1="25" y1="190" x2="240" y2="190" stroke="#B71C1C" stroke-width="1.2" marker-end="url(#arrD)"/>
+  <line x1="55" y1="215" x2="55" y2="85" stroke="#B71C1C" stroke-width="1.2" marker-end="url(#arrD)"/>
+  <text x="238" y="205" font-size="7" fill="#B71C1C">x</text>
+  <text x="58" y="88" font-size="7" fill="#B71C1C">y</text>
+  <!-- Point A -->
+  <circle cx="85" cy="175" r="3" fill="#C62828"/>
+  <text x="78" y="185" font-size="8" font-weight="bold" fill="#B71C1C">A</text>
+  <!-- Point B -->
+  <circle cx="195" cy="115" r="3" fill="#C62828"/>
+  <text x="198" y="112" font-size="8" font-weight="bold" fill="#B71C1C">B</text>
+  <!-- Vector AB -->
+  <line x1="85" y1="175" x2="195" y2="115" stroke="#C62828" stroke-width="2.5" marker-end="url(#arrR)"/>
+  <!-- Component projections (dashed) -->
+  <line x1="85" y1="175" x2="195" y2="175" stroke="#EF5350" stroke-width="1" stroke-dasharray="4,2"/>
+  <line x1="195" y1="175" x2="195" y2="115" stroke="#EF5350" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="140" y="187" font-size="7" fill="#EF5350">Δx</text>
+  <text x="200" y="150" font-size="7" fill="#EF5350">Δy</text>
+  <!-- Vector label -->
+  <text x="125" y="138" font-size="9" font-weight="bold" fill="#C62828" transform="rotate(-28,125,138)">AB</text>
+  <!-- Arrow above AB notation -->
+  <line x1="118" y1="131" x2="135" y2="131" stroke="#C62828" stroke-width="1" transform="rotate(-28,125,138)"/>
+
+  <!-- RIGHT: Types of vectors panel -->
+  <rect x="258" y="58" width="232" height="165" rx="8" fill="white" fill-opacity="0.88" stroke="#EF5350" stroke-width="1.2"/>
+  <text x="374" y="74" font-size="9" font-weight="bold" fill="#B71C1C" text-anchor="middle">Виды векторов</text>
+
+  <!-- Equal vectors -->
+  <line x1="275" y1="92" x2="325" y2="92" stroke="#C62828" stroke-width="2" marker-end="url(#arrR)"/>
+  <line x1="340" y1="92" x2="390" y2="92" stroke="#C62828" stroke-width="2" marker-end="url(#arrR)"/>
+  <text x="300" y="87" font-size="7" fill="#B71C1C" font-weight="bold">a</text>
+  <text x="365" y="87" font-size="7" fill="#B71C1C" font-weight="bold">b</text>
+  <text x="405" y="95" font-size="7" fill="#C62828">Равные: |a|=|b|, ↑↑</text>
+
+  <!-- Opposite vectors -->
+  <line x1="275" y1="118" x2="325" y2="118" stroke="#C62828" stroke-width="2" marker-end="url(#arrR)"/>
+  <line x1="390" y1="118" x2="340" y2="118" stroke="#EF5350" stroke-width="2" marker-end="url(#arrL)"/>
+  <text x="300" y="113" font-size="7" fill="#B71C1C" font-weight="bold">a</text>
+  <text x="365" y="113" font-size="7" fill="#EF5350" font-weight="bold">−a</text>
+  <text x="405" y="121" font-size="7" fill="#C62828">Противоположные</text>
+
+  <!-- Collinear same direction -->
+  <line x1="275" y1="144" x2="310" y2="144" stroke="#C62828" stroke-width="2" marker-end="url(#arrR)"/>
+  <line x1="325" y1="144" x2="395" y2="144" stroke="#C62828" stroke-width="2" marker-end="url(#arrR)"/>
+  <text x="405" y="147" font-size="7" fill="#C62828">Сонаправленные ↑↑</text>
+
+  <!-- Collinear opposite direction -->
+  <line x1="275" y1="165" x2="310" y2="165" stroke="#C62828" stroke-width="2" marker-end="url(#arrR)"/>
+  <line x1="395" y1="165" x2="360" y2="165" stroke="#EF5350" stroke-width="2" marker-end="url(#arrL)"/>
+  <text x="405" y="168" font-size="7" fill="#C62828">Противоположно ↑↓</text>
+
+  <!-- Zero vector -->
+  <circle cx="295" cy="190" r="3" fill="#B71C1C"/>
+  <text x="305" y="193" font-size="8" fill="#B71C1C" font-weight="bold">0</text>
+  <text x="330" y="193" font-size="7" fill="#C62828">Нулевой вектор: |0|=0, начало=конец</text>
+
+  <!-- Notation panel -->
+  <text x="295" y="210" font-size="7" fill="#B71C1C">Обозначение:</text>
+  <text x="350" y="210" font-size="8" fill="#C62828" font-weight="bold">AB</text>
+  <line x1="349" y1="205" x2="365" y2="205" stroke="#C62828" stroke-width="0.8"/>
+  <text x="372" y="210" font-size="8" fill="#C62828">или</text>
+  <text x="393" y="210" font-size="9" fill="#C62828" font-weight="bold">a</text>
+
+  <!-- BOTTOM PANEL: Properties -->
+  <rect x="10" y="230" width="480" height="72" rx="8" fill="white" fill-opacity="0.88" stroke="#C62828" stroke-width="1.2"/>
+  <text x="250" y="247" font-size="9" font-weight="bold" fill="#B71C1C" text-anchor="middle">Свойства вектора</text>
+
+  <!-- Magnitude -->
+  <rect x="20" y="253" width="145" height="40" rx="4" fill="#FFEBEE" stroke="#EF5350" stroke-width="0.8"/>
+  <text x="92" y="267" font-size="8" fill="#B71C1C" text-anchor="middle" font-weight="bold">📏 Длина (модуль)</text>
+  <text x="92" y="282" font-size="8" fill="#C62828" text-anchor="middle">|AB| = √(Δx² + Δy²)</text>
+
+  <!-- Direction -->
+  <rect x="175" y="253" width="145" height="40" rx="4" fill="#FFEBEE" stroke="#EF5350" stroke-width="0.8"/>
+  <text x="248" y="267" font-size="8" fill="#B71C1C" text-anchor="middle" font-weight="bold">🧭 Направление</text>
+  <text x="248" y="282" font-size="8" fill="#C62828" text-anchor="middle">от начала A к концу B</text>
+
+  <!-- Key property -->
+  <rect x="330" y="253" width="150" height="40" rx="4" fill="#FFEBEE" stroke="#EF5350" stroke-width="0.8"/>
+  <text x="405" y="267" font-size="8" fill="#B71C1C" text-anchor="middle" font-weight="bold">⚡ Равенство</text>
+  <text x="405" y="282" font-size="8" fill="#C62828" text-anchor="middle">a = b ↔ |a|=|b|, a↑↑b</text>
+
+  <!-- Bottom bar -->
+  <rect x="10" y="308" width="480" height="32" rx="6" fill="#C62828" fill-opacity="0.85"/>
+  <text x="250" y="323" font-size="9" font-weight="bold" fill="white" text-anchor="middle">Вектор — направленный отрезок: имеет длину и направление</text>
+  <text x="250" y="334" font-size="7" fill="#FFCDD2" text-anchor="middle">Коллинеарные векторы лежат на параллельных прямых | Равные векторы сонаправлены и равны по длине</text>
+</svg>

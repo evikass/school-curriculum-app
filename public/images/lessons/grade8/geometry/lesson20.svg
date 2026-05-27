@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" font-family="Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg20" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8EAF6"/>
+      <stop offset="100%" stop-color="#C5CAE9"/>
+    </linearGradient>
+    <marker id="arrN" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#1A237E"/>
+    </marker>
+    <marker id="arrNL" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#3F51B5"/>
+    </marker>
+    <marker id="arrOrange" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#E65100"/>
+    </marker>
+    <linearGradient id="medianG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7986CB"/>
+      <stop offset="100%" stop-color="#3F51B5"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg20)" rx="8"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1A237E" stroke-width="2.5"/>
+  <!-- Title -->
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#0D1642" text-anchor="middle">Применение векторов к решению задач</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle">Геометрия 8 класс — Урок 20</text>
+  <line x1="30" y1="50" x2="470" y2="50" stroke="#1A237E" stroke-width="1" opacity="0.3"/>
+
+  <!-- LEFT PANEL: Midline theorem -->
+  <rect x="10" y="58" width="155" height="158" rx="8" fill="white" fill-opacity="0.88" stroke="#1A237E" stroke-width="1.2"/>
+  <text x="88" y="74" font-size="8" font-weight="bold" fill="#0D1642" text-anchor="middle">Средняя линия</text>
+
+  <!-- Triangle ABC -->
+  <polygon points="88,85 30,200 145,200" fill="none" stroke="#1A237E" stroke-width="1.8"/>
+  <text x="88" y="82" font-size="8" font-weight="bold" fill="#0D1642" text-anchor="middle">A</text>
+  <text x="22" y="208" font-size="8" font-weight="bold" fill="#0D1642">B</text>
+  <text x="148" y="208" font-size="8" font-weight="bold" fill="#0D1642">C</text>
+
+  <!-- Midpoints M and N -->
+  <circle cx="59" cy="142" r="2.5" fill="#3F51B5"/>
+  <circle cx="117" cy="142" r="2.5" fill="#3F51B5"/>
+  <text x="48" y="138" font-size="7" fill="#3F51B5" font-weight="bold">M</text>
+  <text x="120" y="138" font-size="7" fill="#3F51B5" font-weight="bold">N</text>
+
+  <!-- Midline MN -->
+  <line x1="59" y1="142" x2="117" y2="142" stroke="#3F51B5" stroke-width="2" stroke-dasharray="4,2"/>
+
+  <!-- Vectors: AB and AC shown as half -->
+  <line x1="88" y1="85" x2="59" y2="142" stroke="#1A237E" stroke-width="1.2" marker-end="url(#arrN)"/>
+  <line x1="88" y1="85" x2="117" y2="142" stroke="#1A237E" stroke-width="1.2" marker-end="url(#arrN)"/>
+  <!-- Midline vector -->
+  <line x1="59" y1="142" x2="117" y2="142" stroke="#E65100" stroke-width="1.5" marker-end="url(#arrOrange)"/>
+
+  <!-- Vector labels -->
+  <text x="68" y="115" font-size="6" fill="#1A237E">½AB</text>
+  <text x="104" y="115" font-size="6" fill="#1A237E">½AC</text>
+  <text x="82" y="139" font-size="6" fill="#E65100">MN</text>
+
+  <!-- Result -->
+  <text x="88" y="178" font-size="7" fill="#3F51B5" text-anchor="middle" font-weight="bold">MN = ½AC</text>
+  <text x="88" y="189" font-size="6" fill="#1A237E" text-anchor="middle">MN ∥ AC</text>
+  <text x="88" y="199" font-size="6" fill="#7986CB" text-anchor="middle">MN = ½ · BC</text>
+  <text x="88" y="210" font-size="5.5" fill="#5C6BC0" text-anchor="middle">(доказано через AM+MN=AN)</text>
+
+  <!-- MIDDLE PANEL: Centroid (median intersection) -->
+  <rect x="172" y="58" width="155" height="158" rx="8" fill="white" fill-opacity="0.88" stroke="#1A237E" stroke-width="1.2"/>
+  <text x="250" y="74" font-size="8" font-weight="bold" fill="#0D1642" text-anchor="middle">Центроид (точка G)</text>
+
+  <!-- Triangle for centroid -->
+  <polygon points="250,85 190,200 310,200" fill="none" stroke="#1A237E" stroke-width="1.8"/>
+  <text x="250" y="80" font-size="8" font-weight="bold" fill="#0D1642" text-anchor="middle">A</text>
+  <text x="180" y="210" font-size="8" font-weight="bold" fill="#0D1642">B</text>
+  <text x="313" y="210" font-size="8" font-weight="bold" fill="#0D1642">C</text>
+
+  <!-- Midpoints of sides -->
+  <circle cx="220" cy="142" r="2" fill="#7986CB"/>
+  <text x="210" y="138" font-size="6" fill="#7986CB">M₁</text>
+  <circle cx="280" cy="142" r="2" fill="#7986CB"/>
+  <text x="283" y="138" font-size="6" fill="#7986CB">M₂</text>
+  <circle cx="250" cy="200" r="2" fill="#7986CB"/>
+  <text x="254" y="196" font-size="6" fill="#7986CB">M₃</text>
+
+  <!-- Medians -->
+  <line x1="250" y1="85" x2="250" y2="200" stroke="url(#medianG)" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <line x1="190" y1="200" x2="280" y2="142" stroke="url(#medianG)" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <line x1="310" y1="200" x2="220" y2="142" stroke="url(#medianG)" stroke-width="1.2" stroke-dasharray="3,2"/>
+
+  <!-- Centroid G -->
+  <circle cx="250" cy="162" r="3.5" fill="#3F51B5"/>
+  <text x="258" y="160" font-size="8" font-weight="bold" fill="#3F51B5">G</text>
+
+  <!-- Ratio markers 2:1 -->
+  <line x1="245" y1="125" x2="255" y2="125" stroke="#3F51B5" stroke-width="1.5"/>
+  <line x1="245" y1="168" x2="255" y2="168" stroke="#3F51B5" stroke-width="1.5"/>
+
+  <text x="262" y="126" font-size="6" fill="#3F51B5">2</text>
+  <text x="262" y="171" font-size="6" fill="#3F51B5">1</text>
+
+  <!-- Centroid formula -->
+  <text x="250" y="190" font-size="7" fill="#1A237E" text-anchor="middle" font-weight="bold">AG : GM₁ = 2 : 1</text>
+  <text x="250" y="201" font-size="6" fill="#3F51B5" text-anchor="middle">OG = ⅓OA + ⅓OB + ⅓OC</text>
+  <text x="250" y="212" font-size="5.5" fill="#7986CB" text-anchor="middle">пересечение медиан</text>
+
+  <!-- RIGHT PANEL: Dividing segment in ratio -->
+  <rect x="334" y="58" width="156" height="158" rx="8" fill="white" fill-opacity="0.88" stroke="#1A237E" stroke-width="1.2"/>
+  <text x="412" y="74" font-size="8" font-weight="bold" fill="#0D1642" text-anchor="middle">Деление отрезка</text>
+
+  <!-- Segment AB with point M dividing in ratio -->
+  <circle cx="355" cy="110" r="2.5" fill="#1A237E"/>
+  <circle cx="470" cy="110" r="2.5" fill="#1A237E"/>
+  <text x="355" y="105" font-size="7" fill="#0D1642" font-weight="bold">A</text>
+  <text x="470" y="105" font-size="7" fill="#0D1642" font-weight="bold">B</text>
+  <line x1="355" y1="110" x2="470" y2="110" stroke="#1A237E" stroke-width="1.5"/>
+
+  <!-- Point M -->
+  <circle cx="412" cy="110" r="2.5" fill="#E65100"/>
+  <text x="415" y="104" font-size="7" fill="#E65100" font-weight="bold">M</text>
+
+  <!-- Ratio markers -->
+  <line x1="370" y1="118" x2="412" y2="118" stroke="#3F51B5" stroke-width="3"/>
+  <line x1="412" y1="118" x2="460" y2="118" stroke="#7986CB" stroke-width="3"/>
+  <text x="390" y="127" font-size="6" fill="#3F51B5">m</text>
+  <text x="436" y="127" font-size="6" fill="#7986CB">n</text>
+
+  <!-- Formula -->
+  <rect x="345" y="138" width="134" height="30" rx="3" fill="#E8EAF6" stroke="#3F51B5" stroke-width="0.6"/>
+  <text x="412" y="152" font-size="7" fill="#1A237E" text-anchor="middle" font-weight="bold">OM = (n·OA + m·OB)/(m+n)</text>
+  <text x="412" y="163" font-size="6" fill="#3F51B5" text-anchor="middle">AM : MB = m : n</text>
+
+  <!-- Coordinate method -->
+  <text x="412" y="180" font-size="7" fill="#1A237E" text-anchor="middle" font-weight="bold">Координатный метод:</text>
+  <text x="412" y="192" font-size="6.5" fill="#3F51B5" text-anchor="middle">M(xₘ, yₘ):</text>
+  <text x="412" y="202" font-size="6.5" fill="#1A237E" text-anchor="middle">xₘ = (nx₁+mx₂)/(m+n)</text>
+  <text x="412" y="212" font-size="6.5" fill="#1A237E" text-anchor="middle">yₘ = (ny₁+my₂)/(m+n)</text>
+
+  <!-- BOTTOM PANEL: Summary of vector applications -->
+  <rect x="10" y="222" width="480" height="80" rx="8" fill="white" fill-opacity="0.88" stroke="#1A237E" stroke-width="1.2"/>
+  <text x="250" y="238" font-size="9" font-weight="bold" fill="#0D1642" text-anchor="middle">Применение векторов — ключевые задачи</text>
+
+  <!-- App 1 -->
+  <rect x="20" y="245" width="108" height="48" rx="4" fill="#E8EAF6" stroke="#3F51B5" stroke-width="0.8"/>
+  <text x="74" y="258" font-size="7" fill="#1A237E" font-weight="bold" text-anchor="middle">📏 Средняя линия</text>
+  <text x="74" y="270" font-size="6.5" fill="#3F51B5" text-anchor="middle">MN = ½ · BC</text>
+  <text x="74" y="280" font-size="6" fill="#7986CB" text-anchor="middle">MN ∥ BC</text>
+  <text x="74" y="290" font-size="5.5" fill="#9FA8DA" text-anchor="middle">векторное доказательство</text>
+
+  <!-- App 2 -->
+  <rect x="138" y="245" width="108" height="48" rx="4" fill="#E8EAF6" stroke="#3F51B5" stroke-width="0.8"/>
+  <text x="192" y="258" font-size="7" fill="#1A237E" font-weight="bold" text-anchor="middle">🔺 Центроид</text>
+  <text x="192" y="270" font-size="6.5" fill="#3F51B5" text-anchor="middle">G = ⅓(A+B+C)</text>
+  <text x="192" y="280" font-size="6" fill="#7986CB" text-anchor="middle">Медианы ÷ 2:1</text>
+  <text x="192" y="290" font-size="5.5" fill="#9FA8DA" text-anchor="middle">в точке G</text>
+
+  <!-- App 3 -->
+  <rect x="256" y="245" width="108" height="48" rx="4" fill="#E8EAF6" stroke="#3F51B5" stroke-width="0.8"/>
+  <text x="310" y="258" font-size="7" fill="#1A237E" font-weight="bold" text-anchor="middle">✂️ Деление отрезка</text>
+  <text x="310" y="270" font-size="6.5" fill="#3F51B5" text-anchor="middle">AM : MB = m : n</text>
+  <text x="310" y="280" font-size="6" fill="#7986CB" text-anchor="middle">OM = (nOA+mOB)</text>
+  <text x="310" y="290" font-size="5.5" fill="#9FA8DA" text-anchor="middle">÷ (m+n)</text>
+
+  <!-- App 4 -->
+  <rect x="374" y="245" width="106" height="48" rx="4" fill="#E8EAF6" stroke="#3F51B5" stroke-width="0.8"/>
+  <text x="427" y="258" font-size="7" fill="#1A237E" font-weight="bold" text-anchor="middle">🎯 Параллельность</text>
+  <text x="427" y="270" font-size="6.5" fill="#3F51B5" text-anchor="middle">a ∥ b ↔ a = kb</text>
+  <text x="427" y="280" font-size="6" fill="#7986CB" text-anchor="middle">коллинеарность</text>
+  <text x="427" y="290" font-size="5.5" fill="#9FA8DA" text-anchor="middle">через векторы</text>
+
+  <!-- Bottom bar -->
+  <rect x="10" y="308" width="480" height="32" rx="6" fill="#1A237E" fill-opacity="0.85"/>
+  <text x="250" y="323" font-size="9" font-weight="bold" fill="white" text-anchor="middle">Векторы — мощный инструмент геометрии: доказательства, вычисления, координаты</text>
+  <text x="250" y="334" font-size="7" fill="#C5CAE9" text-anchor="middle">OM = (1−t)·OA + t·OB — параметрическое уравнение прямой | Центроид G = (A+B+C)/3</text>
+</svg>
