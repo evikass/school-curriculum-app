@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1B5E20" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Пропорциональные отрезки</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Геометрия 8 класс — Урок 12</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#1B5E20" stroke-width="1" opacity="0.3"/><g transform="translate(250,185)">
+  <polygon points="-80,50 0,-50 80,50" fill="rgba(27,94,32,0.1)" stroke="#1B5E20" stroke-width="2"/>
+  <line x1="0" y1="-50" x2="0" y2="50" stroke="#F57F17" stroke-width="2" stroke-dasharray="4"/>
+  <text x="8" y="5" font-family="Arial,sans-serif" font-size="9" fill="#F57F17" font-weight="bold">h</text>
+  <text x="-30" y="63" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20">c₁</text>
+  <text x="25" y="63" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20">c₂</text>
+  <rect x="-75" y="42" width="20" height="8" fill="none" stroke="#1B5E20" stroke-width="0.5"/>
+  <rect x="5" y="42" width="70" height="8" fill="none" stroke="#1B5E20" stroke-width="0.5"/>
+</g>
+<g transform="translate(30,280)">
+  <rect x="0" y="0" width="440" height="35" rx="5" fill="white" opacity="0.85" stroke="#1B5E20" stroke-width="0.8"/>
+  <text x="110" y="15" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" font-weight="bold">h²=c₁·c₂</text>
+  <text x="300" y="15" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" font-weight="bold">a²=c·c₁</text>
+  <text x="110" y="30" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" font-weight="bold">b²=c·c₂</text>
+  <text x="300" y="30" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" font-weight="bold">ab=ch</text>
+</g><rect x="10" y="330" width="480" height="16" rx="4" fill="#1B5E20" opacity="0.85"/>
+<text x="250" y="342" font-family="Arial,sans-serif" font-size="10" text-anchor="middle" fill="white" font-weight="bold">Геометрия 8 класс — Урок 12</text>
+</svg>

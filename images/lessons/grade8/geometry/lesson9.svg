@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8EAF6"/><stop offset="100%" stop-color="#C5CAE9"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#283593" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#283593" text-anchor="middle">Подобные треугольники</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Геометрия 8 класс — Урок 9</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#283593" stroke-width="1" opacity="0.3"/>
+<g transform="translate(150,180)">
+  <polygon points="-60,45 -60,-30 50,45" fill="rgba(40,53,147,0.12)" stroke="#283593" stroke-width="2"/>
+  <text x="-68" y="10" font-family="Arial,sans-serif" font-size="9" fill="#283593">a</text>
+  <text x="-5" y="58" font-family="Arial,sans-serif" font-size="9" fill="#283593">b</text>
+  <text x="-2" y="5" font-family="Arial,sans-serif" font-size="9" fill="#283593">c</text>
+</g>
+<!-- Similarity sign -->
+<text x="240" y="180" font-family="Arial,sans-serif" font-size="24" fill="#283593" font-weight="bold">~</text>
+<g transform="translate(340,180)">
+  <polygon points="-30,45 -30,-15 25,45" fill="rgba(40,53,147,0.18)" stroke="#283593" stroke-width="2"/>
+  <text x="-38" y="18" font-family="Arial,sans-serif" font-size="8" fill="#283593">ka</text>
+  <text x="-2" y="58" font-family="Arial,sans-serif" font-size="8" fill="#283593">kb</text>
+  <text x="-2" y="15" font-family="Arial,sans-serif" font-size="8" fill="#283593">kc</text>
+</g>
+<g transform="translate(30,275)">
+  <rect x="0" y="0" width="440" height="40" rx="5" fill="white" opacity="0.85" stroke="#283593" stroke-width="0.8"/>
+  <text x="220" y="14" font-family="Arial,sans-serif" font-size="8" fill="#283593" text-anchor="middle" font-weight="bold">Свойства подобия</text>
+  <text x="110" y="30" font-family="Arial,sans-serif" font-size="8" fill="#333">P₁/P₂ = k</text>
+  <text x="330" y="30" font-family="Arial,sans-serif" font-size="8" fill="#333">S₁/S₂ = k²</text>
+</g><rect x="10" y="330" width="480" height="16" rx="4" fill="#283593" opacity="0.85"/>
+<text x="250" y="342" font-family="Arial,sans-serif" font-size="10" text-anchor="middle" fill="white" font-weight="bold">Геометрия 8 класс — Урок 9</text>
+</svg>
