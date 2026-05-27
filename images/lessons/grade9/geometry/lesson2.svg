@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect width="400" height="300" fill="#0f172a"/>
+<defs><marker id="a1" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#22d3ee"/></marker>
+<marker id="a2" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#f472b6"/></marker>
+<marker id="a3" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#a78bfa"/></marker></defs>
+<text x="100" y="30" fill="#e2e8f0" font-size="20" font-weight="bold" font-family="sans-serif">Сложение векторов</text>
+<text x="20" y="60" fill="#94a3b8" font-size="14" font-family="sans-serif">Правило треугольника:</text>
+<line x1="50" y1="100" x2="180" y2="100" stroke="#22d3ee" stroke-width="3" marker-end="url(#a1)"/>
+<line x1="180" y1="100" x2="280" y2="180" stroke="#f472b6" stroke-width="3" marker-end="url(#a2)"/>
+<line x1="50" y1="100" x2="280" y2="180" stroke="#a78bfa" stroke-width="2.5" stroke-dasharray="6" marker-end="url(#a3)"/>
+<text x="110" y="95" fill="#22d3ee" font-size="14" font-family="sans-serif">a&#x20D7;</text>
+<text x="225" y="130" fill="#f472b6" font-size="14" font-family="sans-serif">b&#x20D7;</text>
+<text x="155" y="165" fill="#a78bfa" font-size="14" font-family="sans-serif">a&#x20D7;+b&#x20D7;</text>
+<text x="20" y="230" fill="#94a3b8" font-size="14" font-family="sans-serif">Правило параллелограмма:</text>
+<line x1="60" y1="270" x2="160" y2="230" stroke="#22d3ee" stroke-width="3" marker-end="url(#a1)"/>
+<line x1="60" y1="270" x2="110" y2="190" stroke="#f472b6" stroke-width="3" marker-end="url(#a2)"/>
+<line x1="160" y1="230" x2="210" y2="150" stroke="#f472b6" stroke-width="2" stroke-dasharray="4"/>
+<line x1="110" y1="190" x2="210" y2="150" stroke="#22d3ee" stroke-width="2" stroke-dasharray="4"/>
+<line x1="60" y1="270" x2="210" y2="150" stroke="#a78bfa" stroke-width="2.5" stroke-dasharray="6" marker-end="url(#a3)"/>
+</svg>

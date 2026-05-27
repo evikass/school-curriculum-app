@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect width="400" height="300" fill="#0f172a"/>
+<defs><marker id="a1" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#22d3ee"/></marker></defs>
+<text x="110" y="30" fill="#e2e8f0" font-size="20" font-weight="bold" font-family="sans-serif">Уравнение прямой</text>
+<line x1="30" y1="250" x2="370" y2="60" stroke="#22d3ee" stroke-width="2.5"/>
+<circle cx="50" cy="237" r="4" fill="#f472b6"/>
+<text x="30" y="255" fill="#f472b6" font-size="12" font-family="sans-serif">M&#x2081;</text>
+<circle cx="320" cy="82" r="4" fill="#f472b6"/>
+<text x="325" y="80" fill="#f472b6" font-size="12" font-family="sans-serif">M&#x2082;</text>
+<text x="80" y="290" fill="#a78bfa" font-size="15" font-family="sans-serif">Ax+By+C=0 ; y=kx+b</text>
+<line x1="50" y1="237" x2="50" y2="170" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3"/>
+<text x="35" y="165" fill="#94a3b8" font-size="12" font-family="sans-serif">b</text>
+<text x="170" y="150" fill="#22d3ee" font-size="14" font-family="sans-serif">k = tg &#x03B1;</text>
+</svg>

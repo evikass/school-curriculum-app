@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect width="400" height="300" fill="#0f172a"/>
+<defs><marker id="a1" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#a78bfa"/></marker></defs>
+<text x="70" y="30" fill="#e2e8f0" font-size="18" font-weight="bold" font-family="sans-serif">Параллельный перенос</text>
+<polygon points="50,180 100,120 160,140 120,200" fill="none" stroke="#22d3ee" stroke-width="2.5"/>
+<text x="65" y="220" fill="#22d3ee" font-size="14" font-family="sans-serif">F</text>
+<polygon points="220,180 270,120 330,140 290,200" fill="none" stroke="#f472b6" stroke-width="2.5"/>
+<text x="240" y="220" fill="#f472b6" font-size="14" font-family="sans-serif">F&#x2081;</text>
+<line x1="120" y1="170" x2="220" y2="170" stroke="#a78bfa" stroke-width="2" marker-end="url(#a1)"/>
+<text x="155" y="165" fill="#a78bfa" font-size="14" font-family="sans-serif">a&#x20D7;</text>
+<text x="50" y="280" fill="#94a3b8" font-size="13" font-family="sans-serif">MM&#x2081;=a&#x20D7; : (x;y)&#x2192;(x+m;y+n)</text>
+</svg>

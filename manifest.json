@@ -6,7 +6,12 @@
   "start_url": "/school-curriculum-app/",
   "scope": "/school-curriculum-app/",
   "display": "standalone",
-  "display_override": ["standalone", "fullscreen", "minimal-ui", "browser"],
+  "display_override": [
+    "standalone",
+    "fullscreen",
+    "minimal-ui",
+    "browser"
+  ],
   "orientation": "portrait-primary",
   "background_color": "#1e1b4b",
   "theme_color": "#7c3aed",
@@ -36,7 +41,11 @@
       "purpose": "maskable"
     }
   ],
-  "categories": ["education", "kids", "games"],
+  "categories": [
+    "education",
+    "kids",
+    "games"
+  ],
   "lang": "ru",
   "dir": "ltr",
   "screenshots": [
@@ -88,5 +97,6 @@
       "text": "text",
       "url": "url"
     }
-  }
+  },
+  "version": "v3.798"
 }

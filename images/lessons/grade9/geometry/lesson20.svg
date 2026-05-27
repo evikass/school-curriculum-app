@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect width="400" height="300" fill="#0f172a"/>
+<text x="130" y="30" fill="#e2e8f0" font-size="20" font-weight="bold" font-family="sans-serif">Поворот</text>
+<circle cx="200" cy="160" r="3" fill="#fbbf24"/>
+<text x="205" y="170" fill="#fbbf24" font-size="13" font-family="sans-serif">O</text>
+<circle cx="300" cy="160" r="5" fill="#22d3ee"/>
+<text x="305" y="155" fill="#22d3ee" font-size="13" font-family="sans-serif">M</text>
+<circle cx="200" cy="60" r="5" fill="#f472b6"/>
+<text x="205" y="55" fill="#f472b6" font-size="13" font-family="sans-serif">M&#x2081;</text>
+<line x1="200" y1="160" x2="300" y2="160" stroke="#22d3ee" stroke-width="1.5" stroke-dasharray="4"/>
+<line x1="200" y1="160" x2="200" y2="60" stroke="#f472b6" stroke-width="1.5" stroke-dasharray="4"/>
+<path d="M 280 160 A 100 100 0 0 0 200 80" fill="none" stroke="#a78bfa" stroke-width="2.5"/>
+<text x="245" y="105" fill="#a78bfa" font-size="14" font-family="sans-serif">&#x03B1;=90&#x00B0;</text>
+<text x="50" y="280" fill="#94a3b8" font-size="12" font-family="sans-serif">OM=OM&#x2081;, &#x2222;MOM&#x2081;=&#x03B1;</text>
+</svg>

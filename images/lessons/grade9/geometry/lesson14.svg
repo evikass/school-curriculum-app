@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect width="400" height="300" fill="#0f172a"/>
+<text x="80" y="30" fill="#e2e8f0" font-size="18" font-weight="bold" font-family="sans-serif">Длина окружности</text>
+<circle cx="200" cy="150" r="100" fill="none" stroke="#22d3ee" stroke-width="2.5"/>
+<circle cx="200" cy="150" r="3" fill="#f472b6"/>
+<line x1="200" y1="150" x2="300" y2="150" stroke="#f472b6" stroke-width="1.5" stroke-dasharray="4"/>
+<text x="245" y="145" fill="#f472b6" font-size="14" font-family="sans-serif">R</text>
+<path d="M 300 150 A 100 100 0 0 0 270 77" fill="none" stroke="#a78bfa" stroke-width="3"/>
+<text x="310" y="120" fill="#a78bfa" font-size="12" font-family="sans-serif">дуга l</text>
+<text x="50" y="280" fill="#94a3b8" font-size="14" font-family="sans-serif">C=2&#x03C0;R  l=&#x03C0;Rn/180</text>
+</svg>
