@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect width="400" height="300" fill="#0f172a"/>
+<polygon points="100,200 140,60 300,60 340,200" fill="none" stroke="#22d3ee" stroke-width="2"/>
+<line x1="100" y1="200" x2="140" y2="60" stroke="#22d3ee" stroke-width="1.5"/>
+<line x1="300" y1="60" x2="340" y2="200" stroke="#22d3ee" stroke-width="1.5"/>
+<text x="100" y="30" fill="#e2e8f0" font-size="16" font-family="sans-serif" font-weight="bold">Призма</text>
+<text x="60" y="270" fill="#64748b" font-size="12" font-family="sans-serif">Sбок = Pосн·H (прямая)</text>
+<text x="60" y="290" fill="#64748b" font-size="12" font-family="sans-serif">V = Sосн·H</text>
+</svg>

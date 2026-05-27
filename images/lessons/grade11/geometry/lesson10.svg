@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect width="400" height="300" fill="#0f172a"/>
+<circle cx="200" cy="150" r="80" fill="none" stroke="#22d3ee" stroke-width="2"/>
+<circle cx="200" cy="150" r="3" fill="#f97316"/>
+<line x1="200" y1="150" x2="280" y2="150" stroke="#f97316" stroke-width="1.5"/>
+<text x="230" y="143" fill="#f97316" font-size="14" font-family="sans-serif">R</text>
+<circle cx="260" cy="110" r="3" fill="#a78bfa"/>
+<text x="265" y="108" fill="#a78bfa" font-size="12" font-family="sans-serif">M(x;y;z)</text>
+<text x="120" y="30" fill="#e2e8f0" font-size="16" font-family="sans-serif" font-weight="bold">Сфера и шар</text>
+<text x="40" y="270" fill="#64748b" font-size="12" font-family="sans-serif">(x−x₀)²+(y−y₀)²+(z−z₀)² = R²</text>
+</svg>

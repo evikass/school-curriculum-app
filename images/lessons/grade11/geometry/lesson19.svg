@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect width="400" height="300" fill="#0f172a"/>
+<polygon points="200,50 140,130 260,130" fill="none" stroke="#22d3ee" stroke-width="1.5"/>
+<polygon points="200,50 140,130 200,170 260,130" fill="none" stroke="#22d3ee" stroke-width="1.5"/>
+<rect x="130" y="170" width="100" height="100" fill="none" stroke="#f97316" stroke-width="1.5"/>
+<polygon points="330,70 300,100 330,130 360,100" fill="none" stroke="#a78bfa" stroke-width="1.5"/>
+<text x="120" y="35" fill="#e2e8f0" font-size="16" font-family="sans-serif" font-weight="bold">Правильные многогранники</text>
+<text x="60" y="290" fill="#64748b" font-size="12" font-family="sans-serif">V−E+F = 2 (формула Эйлера)</text>
+</svg>
