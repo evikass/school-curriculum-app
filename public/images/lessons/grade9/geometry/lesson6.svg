@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFEBEE"/>
+      <stop offset="100%" stop-color="#FFCDD2"/>
+    </linearGradient>
+    <marker id="ah6" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#C62828"/>
+    </marker>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#B71C1C" text-anchor="middle" font-family="Arial">Простейшие задачи в координатах</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="Arial">Геометрия 9 класс — Урок 6</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#E53935" stroke-width="1" opacity="0.3"/>
+
+  <!-- Coordinate plane with distance panel -->
+  <rect x="15" y="58" width="265" height="175" rx="6" fill="white" opacity="0.9" stroke="#E53935" stroke-width="1"/>
+  <text x="147" y="74" font-size="10" font-weight="bold" fill="#C62828" text-anchor="middle" font-family="Arial">Расстояние между точками</text>
+  <!-- Grid -->
+  <line x1="55" y1="82" x2="55" y2="225" stroke="#eee" stroke-width="0.5"/>
+  <line x1="95" y1="82" x2="95" y2="225" stroke="#eee" stroke-width="0.5"/>
+  <line x1="135" y1="82" x2="135" y2="225" stroke="#eee" stroke-width="0.5"/>
+  <line x1="175" y1="82" x2="175" y2="225" stroke="#eee" stroke-width="0.5"/>
+  <line x1="215" y1="82" x2="215" y2="225" stroke="#eee" stroke-width="0.5"/>
+  <line x1="35" y1="100" x2="260" y2="100" stroke="#eee" stroke-width="0.5"/>
+  <line x1="35" y1="140" x2="260" y2="140" stroke="#eee" stroke-width="0.5"/>
+  <line x1="35" y1="180" x2="260" y2="180" stroke="#eee" stroke-width="0.5"/>
+  <!-- Axes -->
+  <line x1="55" y1="180" x2="265" y2="180" stroke="#C62828" stroke-width="1.2" marker-end="url(#ah6)"/>
+  <line x1="55" y1="225" x2="55" y2="82" stroke="#C62828" stroke-width="1.2" marker-end="url(#ah6)"/>
+  <text x="268" y="183" font-size="8" fill="#C62828" font-family="Arial">x</text>
+  <text x="52" y="79" font-size="8" fill="#C62828" font-family="Arial">y</text>
+  <!-- Point A -->
+  <circle cx="95" cy="140" r="3.5" fill="#C62828"/>
+  <text x="78" y="137" font-size="8" fill="#C62828" font-family="Arial">A(1;2)</text>
+  <!-- Point B -->
+  <circle cx="215" cy="100" r="3.5" fill="#E53935"/>
+  <text x="218" y="97" font-size="8" fill="#E53935" font-family="Arial">B(4;4)</text>
+  <!-- Line AB -->
+  <line x1="95" y1="140" x2="215" y2="100" stroke="#C62828" stroke-width="2"/>
+  <!-- Dashed projections -->
+  <line x1="95" y1="140" x2="215" y2="140" stroke="#C62828" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="215" y1="140" x2="215" y2="100" stroke="#C62828" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="155" y="153" font-size="8" fill="#C62828" font-family="Arial">3</text>
+  <text x="222" y="125" font-size="8" fill="#C62828" font-family="Arial">2</text>
+  <!-- Midpoint M -->
+  <circle cx="155" cy="120" r="3" fill="#4CAF50"/>
+  <text x="158" y="117" font-size="8" fill="#4CAF50" font-family="Arial">M(2.5;3)</text>
+
+  <!-- Formulas panel -->
+  <rect x="290" y="58" width="195" height="175" rx="6" fill="white" opacity="0.9" stroke="#E53935" stroke-width="1"/>
+  <text x="387" y="74" font-size="10" font-weight="bold" fill="#C62828" text-anchor="middle" font-family="Arial">Формулы</text>
+  <!-- Distance formula -->
+  <rect x="300" y="82" width="175" height="38" rx="4" fill="#FFEBEE" stroke="#E53935" stroke-width="0.8"/>
+  <text x="387" y="95" font-size="8" fill="#888" text-anchor="middle" font-family="Arial">Расстояние:</text>
+  <text x="387" y="112" font-size="9" fill="#C62828" text-anchor="middle" font-family="Arial" font-weight="bold">d = √((x2-x1)²+(y2-y1)²)</text>
+  <!-- Midpoint formula -->
+  <rect x="300" y="126" width="175" height="38" rx="4" fill="#FFCDD2" stroke="#E53935" stroke-width="0.8"/>
+  <text x="387" y="139" font-size="8" fill="#888" text-anchor="middle" font-family="Arial">Середина отрезка:</text>
+  <text x="387" y="156" font-size="9" fill="#B71C1C" text-anchor="middle" font-family="Arial" font-weight="bold">M = ((x1+x2)/2; (y1+y2)/2)</text>
+  <!-- Division in ratio -->
+  <rect x="300" y="170" width="175" height="38" rx="4" fill="#FFEBEE" stroke="#E53935" stroke-width="0.8"/>
+  <text x="387" y="183" font-size="8" fill="#888" text-anchor="middle" font-family="Arial">Деление в отношении k:</text>
+  <text x="387" y="200" font-size="8.5" fill="#C62828" text-anchor="middle" font-family="Arial">x = (x1+kx2)/(1+k)</text>
+  <text x="387" y="210" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">y = (y1+ky2)/(1+k)</text>
+
+  <!-- Example calculation panel -->
+  <rect x="15" y="240" width="235" height="72" rx="6" fill="white" opacity="0.9" stroke="#E53935" stroke-width="1"/>
+  <text x="132" y="256" font-size="10" font-weight="bold" fill="#C62828" text-anchor="middle" font-family="Arial">Пример: d(A,B)</text>
+  <text x="132" y="272" font-size="8.5" fill="#333" text-anchor="middle" font-family="Arial">A(1;2), B(4;4)</text>
+  <text x="132" y="286" font-size="8.5" fill="#C62828" text-anchor="middle" font-family="Arial">d = √((4-1)²+(4-2)²)</text>
+  <text x="132" y="300" font-size="9" fill="#B71C1C" text-anchor="middle" font-family="Arial" font-weight="bold">d = √(9+4) = √13</text>
+
+  <!-- Example midpoint panel -->
+  <rect x="260" y="240" width="225" height="72" rx="6" fill="white" opacity="0.9" stroke="#E53935" stroke-width="1"/>
+  <text x="372" y="256" font-size="10" font-weight="bold" fill="#C62828" text-anchor="middle" font-family="Arial">Пример: середина AB</text>
+  <text x="372" y="272" font-size="8.5" fill="#333" text-anchor="middle" font-family="Arial">A(1;2), B(4;4)</text>
+  <text x="372" y="286" font-size="8.5" fill="#4CAF50" text-anchor="middle" font-family="Arial">M = ((1+4)/2; (2+4)/2)</text>
+  <text x="372" y="300" font-size="9" fill="#2E7D32" text-anchor="middle" font-family="Arial" font-weight="bold">M = (2.5; 3)</text>
+
+  <!-- Bottom bar -->
+  <rect x="15" y="318" width="470" height="26" rx="4" fill="#E53935" opacity="0.85"/>
+  <text x="250" y="335" font-size="10" fill="white" text-anchor="middle" font-weight="bold" font-family="Arial">d = √((x2-x1)²+(y2-y1)²) | M = ((x1+x2)/2; (y1+y2)/2)</text>
+</svg>

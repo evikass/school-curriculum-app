@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg20" x1="0" y1="0" x2="500" y2="350" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FBE9E7"/>
+      <stop offset="100%" stop-color="#FFCCBC"/>
+    </linearGradient>
+    <linearGradient id="pl20" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFAB91" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FF7043" stop-opacity="0.15"/>
+    </linearGradient>
+    <marker id="arr20" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <path d="M0,0 L10,3.5 L0,7 Z" fill="#BF360C"/>
+    </marker>
+    <marker id="arr20b" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <path d="M0,0 L10,3.5 L0,7 Z" fill="#1565C0"/>
+    </marker>
+    <marker id="arr20g" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <path d="M0,0 L10,3.5 L0,7 Z" fill="#4CAF50"/>
+    </marker>
+    <marker id="arr20p" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <path d="M0,0 L10,3.5 L0,7 Z" fill="#7B1FA2"/>
+    </marker>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg20)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#BF360C" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="13" font-weight="bold" fill="#8B0000" text-anchor="middle" font-family="serif">Разложение вектора по трём некомпланарным векторам</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="sans-serif">Геометрия 10 класс — Урок 20</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#FF5722" stroke-width="1" opacity="0.3"/>
+  <!-- Theorem Panel -->
+  <rect x="12" y="58" width="280" height="190" rx="6" fill="white" opacity="0.9" stroke="#FF5722" stroke-width="1.2"/>
+  <text x="152" y="74" font-size="10" font-weight="bold" fill="#BF360C" text-anchor="middle" font-family="serif">Теорема о разложении</text>
+  <text x="22" y="89" font-size="8" fill="#555" font-family="sans-serif">Любой вектор p можно разложить</text>
+  <text x="22" y="101" font-size="8" fill="#555" font-family="sans-serif">по трём данным некомпланарным</text>
+  <text x="22" y="113" font-size="8" fill="#555" font-family="sans-serif">векторам a, b, c, причём</text>
+  <text x="22" y="125" font-size="8" fill="#555" font-family="sans-serif">коэффициенты разложения</text>
+  <text x="22" y="137" font-size="8" fill="#BF360C" font-weight="bold" font-family="sans-serif">определяются единственным</text>
+  <text x="22" y="149" font-size="8" fill="#BF360C" font-weight="bold" font-family="sans-serif">образом.</text>
+  <!-- Main formula -->
+  <rect x="40" y="155" width="220" height="28" rx="4" fill="#BF360C" opacity="0.1" stroke="#BF360C" stroke-width="1"/>
+  <text x="150" y="174" font-size="14" fill="#BF360C" font-weight="bold" text-anchor="middle" font-family="serif">p = x*a + y*b + z*c</text>
+  <!-- 3D coordinate system with decomposition -->
+  <!-- Axes -->
+  <line x1="80" y1="240" x2="240" y2="260" stroke="#555" stroke-width="1.2"/>
+  <line x1="80" y1="240" x2="30" y2="260" stroke="#555" stroke-width="1.2"/>
+  <line x1="80" y1="240" x2="80" y2="170" stroke="#555" stroke-width="1.2"/>
+  <text x="243" y="265" font-size="9" fill="#555" font-style="italic">x</text>
+  <text x="22" y="265" font-size="9" fill="#555" font-style="italic">y</text>
+  <text x="80" y="165" font-size="9" fill="#555" font-style="italic">z</text>
+  <!-- Origin -->
+  <circle cx="80" cy="240" r="2" fill="#555"/>
+  <text x="70" y="250" font-size="7" fill="#555">O</text>
+  <!-- Basis vectors -->
+  <line x1="80" y1="240" x2="170" y2="252" stroke="#BF360C" stroke-width="2.2" marker-end="url(#arr20)"/>
+  <text x="130" y="252" font-size="8" fill="#BF360C" font-style="italic" font-weight="bold">a</text>
+  <line x1="80" y1="240" x2="55" y2="253" stroke="#1565C0" stroke-width="2.2" marker-end="url(#arr20b)"/>
+  <text x="50" y="248" font-size="8" fill="#1565C0" font-style="italic" font-weight="bold">b</text>
+  <line x1="80" y1="240" x2="80" y2="190" stroke="#4CAF50" stroke-width="2.2" marker-end="url(#arr20g)"/>
+  <text x="88" y="208" font-size="8" fill="#4CAF50" font-style="italic" font-weight="bold">c</text>
+  <!-- Vector p -->
+  <line x1="80" y1="240" x2="155" y2="192" stroke="#7B1FA2" stroke-width="2.5" marker-end="url(#arr20p)"/>
+  <text x="165" y="195" font-size="9" fill="#7B1FA2" font-style="italic" font-weight="bold">p</text>
+  <!-- Decomposition projections (dashed) -->
+  <line x1="155" y1="192" x2="155" y2="240" stroke="#7B1FA2" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <line x1="155" y1="240" x2="80" y2="240" stroke="#7B1FA2" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <!-- Uniqueness proof panel -->
+  <rect x="302" y="58" width="186" height="190" rx="6" fill="white" opacity="0.9" stroke="#FF5722" stroke-width="1.2"/>
+  <text x="395" y="74" font-size="9" font-weight="bold" fill="#BF360C" text-anchor="middle" font-family="serif">Единственность</text>
+  <text x="312" y="89" font-size="7.5" fill="#555" font-family="sans-serif">Предположим:</text>
+  <text x="312" y="102" font-size="7.5" fill="#555" font-family="sans-serif">p = x1*a + y1*b + z1*c</text>
+  <text x="312" y="115" font-size="7.5" fill="#555" font-family="sans-serif">p = x2*a + y2*b + z2*c</text>
+  <line x1="310" y1="120" x2="480" y2="120" stroke="#FF5722" stroke-width="0.5" opacity="0.3"/>
+  <text x="312" y="133" font-size="7.5" fill="#555" font-family="sans-serif">Вычитаем:</text>
+  <text x="312" y="146" font-size="7.5" fill="#555" font-family="sans-serif">0 = (x1-x2)*a +</text>
+  <text x="312" y="158" font-size="7.5" fill="#555" font-family="sans-serif">  + (y1-y2)*b +</text>
+  <text x="312" y="170" font-size="7.5" fill="#555" font-family="sans-serif">  + (z1-z2)*c</text>
+  <line x1="310" y1="175" x2="480" y2="175" stroke="#FF5722" stroke-width="0.5" opacity="0.3"/>
+  <text x="312" y="188" font-size="7.5" fill="#555" font-family="sans-serif">a,b,c некомпланарны</text>
+  <text x="312" y="200" font-size="7.5" fill="#555" font-family="sans-serif">=&gt; нулевое разложение</text>
+  <text x="312" y="212" font-size="7.5" fill="#555" font-family="sans-serif">только при нулевых</text>
+  <text x="312" y="224" font-size="7.5" fill="#555" font-family="sans-serif">коэффициентах</text>
+  <text x="312" y="239" font-size="7.5" fill="#BF360C" font-weight="bold" font-family="sans-serif">x1=x2, y1=y2, z1=z2</text>
+  <!-- Coordinate basis panel -->
+  <rect x="12" y="256" width="280" height="54" rx="6" fill="white" opacity="0.88" stroke="#FF5722" stroke-width="1"/>
+  <text x="152" y="271" font-size="9" font-weight="bold" fill="#BF360C" text-anchor="middle" font-family="serif">Координатный базис</text>
+  <text x="22" y="285" font-size="8" fill="#555" font-family="sans-serif">i, j, k — единичные векторы вдоль Ox, Oy, Oz</text>
+  <text x="22" y="298" font-size="9" fill="#BF360C" font-weight="bold" font-family="serif">p = x*i + y*j + z*k = (x; y; z)</text>
+  <!-- Analogy panel -->
+  <rect x="302" y="256" width="186" height="54" rx="6" fill="white" opacity="0.88" stroke="#FF5722" stroke-width="1"/>
+  <text x="395" y="271" font-size="8" font-weight="bold" fill="#BF360C" text-anchor="middle" font-family="serif">Аналогия</text>
+  <text x="312" y="285" font-size="7.5" fill="#555" font-family="sans-serif">2D: c = x*a + y*b (по 2-м)</text>
+  <text x="312" y="298" font-size="7.5" fill="#BF360C" font-weight="bold" font-family="sans-serif">3D: p = x*a + y*b + z*c (по 3-м)</text>
+  <!-- Bottom bar -->
+  <rect x="12" y="316" width="476" height="26" rx="4" fill="#FF5722" opacity="0.85"/>
+  <text x="250" y="333" font-size="9" fill="white" text-anchor="middle" font-weight="bold" font-family="serif">p = x*a + y*b + z*c — единственное разложение по некомпланарным векторам</text>
+</svg>

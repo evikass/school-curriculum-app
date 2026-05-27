@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg7" x1="0" y1="0" x2="500" y2="350" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E8EAF6"/>
+      <stop offset="100%" stop-color="#C5CAE9"/>
+    </linearGradient>
+    <linearGradient id="face7" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#9FA8DA" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#5C6BC0" stop-opacity="0.2"/>
+    </linearGradient>
+    <marker id="arrI" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#283593"/>
+    </marker>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg7)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#283593" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#1A237E" text-anchor="middle" font-family="serif">Тетраэдр и параллелепипед</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="sans-serif">Геометрия 10 класс — Урок 7</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#3F51B5" stroke-width="1" opacity="0.3"/>
+  <!-- Tetrahedron Panel -->
+  <rect x="12" y="58" width="235" height="170" rx="6" fill="white" opacity="0.9" stroke="#3F51B5" stroke-width="1.2"/>
+  <text x="130" y="74" font-size="10" font-weight="bold" fill="#283593" text-anchor="middle" font-family="serif">Тетраэдр DABC</text>
+  <!-- 3D Tetrahedron -->
+  <!-- base triangle ABC -->
+  <path d="M60,195 L130,195 L100,145 Z" fill="url(#face7)" stroke="#283593" stroke-width="1.2"/>
+  <!-- face DAB -->
+  <path d="M60,195 L100,145 L85,95 Z" fill="#C5CAE9" fill-opacity="0.5" stroke="#283593" stroke-width="1.2"/>
+  <!-- face DBC -->
+  <path d="M100,145 L130,195 L85,95 Z" fill="#9FA8DA" fill-opacity="0.35" stroke="#283593" stroke-width="1.2"/>
+  <!-- hidden edge DC (dashed) -->
+  <line x1="85" y1="95" x2="130" y2="195" stroke="#283593" stroke-width="1.2"/>
+  <!-- dashed hidden edge if needed - actually all visible from this angle -->
+  <!-- Vertex labels -->
+  <text x="52" y="203" font-size="9" fill="#1A237E" font-weight="bold" font-style="italic">A</text>
+  <text x="135" y="203" font-size="9" fill="#1A237E" font-weight="bold" font-style="italic">B</text>
+  <text x="100" y="140" font-size="9" fill="#1A237E" font-weight="bold" font-style="italic">C</text>
+  <text x="80" y="88" font-size="9" fill="#1A237E" font-weight="bold" font-style="italic">D</text>
+  <!-- Edge labels -->
+  <text x="55" y="145" font-size="7" fill="#5C6BC0" font-style="italic">DA</text>
+  <text x="112" y="143" font-size="7" fill="#5C6BC0" font-style="italic">DC</text>
+  <text x="115" y="170" font-size="7" fill="#5C6BC0" font-style="italic">BC</text>
+  <text x="75" y="205" font-size="7" fill="#5C6BC0" font-style="italic">AB</text>
+  <text x="52" y="175" font-size="7" fill="#5C6BC0" font-style="italic">AC</text>
+  <text x="95" y="148" font-size="7" fill="#5C6BC0" font-style="italic">DB</text>
+  <!-- Stats -->
+  <text x="165" y="110" font-size="8" fill="#283593" font-family="sans-serif">4 вершины</text>
+  <text x="165" y="122" font-size="8" fill="#283593" font-family="sans-serif">6 рёбер</text>
+  <text x="165" y="134" font-size="8" fill="#283593" font-family="sans-serif">4 грани</text>
+  <text x="165" y="150" font-size="7" fill="#555" font-family="sans-serif">(треугольные)</text>
+  <!-- Section example -->
+  <path d="M70,175 L95,140 L110,165 Z" fill="#FF6F00" fill-opacity="0.25" stroke="#FF6F00" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="165" y="172" font-size="7" fill="#FF6F00" font-family="sans-serif">Сечение MNK</text>
+  <!-- Parallelepiped Panel -->
+  <rect x="255" y="58" width="233" height="170" rx="6" fill="white" opacity="0.9" stroke="#3F51B5" stroke-width="1.2"/>
+  <text x="372" y="74" font-size="10" font-weight="bold" fill="#283593" text-anchor="middle" font-family="serif">Параллелепипед</text>
+  <!-- 3D Parallelepiped -->
+  <!-- front face -->
+  <path d="M290,200 L360,200 L360,140 L290,140 Z" fill="url(#face7)" stroke="#283593" stroke-width="1.2"/>
+  <!-- back face visible edges -->
+  <line x1="290" y1="140" x2="320" y2="118" stroke="#283593" stroke-width="1.2"/>
+  <line x1="360" y1="140" x2="390" y2="118" stroke="#283593" stroke-width="1.2"/>
+  <line x1="360" y1="200" x2="390" y2="178" stroke="#283593" stroke-width="1.2"/>
+  <!-- top face -->
+  <path d="M290,140 L320,118 L390,118 L360,140 Z" fill="#C5CAE9" fill-opacity="0.45" stroke="#283593" stroke-width="1.2"/>
+  <!-- right face -->
+  <path d="M360,140 L390,118 L390,178 L360,200 Z" fill="#9FA8DA" fill-opacity="0.3" stroke="#283593" stroke-width="1.2"/>
+  <!-- hidden edges (dashed) -->
+  <line x1="290" y1="200" x2="320" y2="178" stroke="#283593" stroke-width="1" stroke-dasharray="5,3"/>
+  <line x1="320" y1="178" x2="390" y2="178" stroke="#283593" stroke-width="1" stroke-dasharray="5,3"/>
+  <line x1="320" y1="178" x2="320" y2="118" stroke="#283593" stroke-width="1" stroke-dasharray="5,3"/>
+  <!-- Vertex labels -->
+  <text x="283" y="206" font-size="8" fill="#1A237E" font-weight="bold" font-style="italic">A</text>
+  <text x="363" y="206" font-size="8" fill="#1A237E" font-weight="bold" font-style="italic">B</text>
+  <text x="363" y="137" font-size="8" fill="#1A237E" font-weight="bold" font-style="italic">A1</text>
+  <text x="283" y="137" font-size="8" fill="#1A237E" font-weight="bold" font-style="italic">D1</text>
+  <text x="393" y="115" font-size="8" fill="#1A237E" font-weight="bold" font-style="italic">B1</text>
+  <text x="393" y="185" font-size="8" fill="#1A237E" font-weight="bold" font-style="italic">C1</text>
+  <text x="315" y="115" font-size="8" fill="#1A237E" font-weight="bold" font-style="italic">C</text>
+  <text x="315" y="185" font-size="8" fill="#1A237E" font-weight="bold" font-style="italic">D</text>
+  <!-- Stats -->
+  <text x="275" y="82" font-size="8" fill="#283593" font-family="sans-serif">8 вершин</text>
+  <text x="340" y="82" font-size="8" fill="#283593" font-family="sans-serif">12 рёбер</text>
+  <text x="405" y="82" font-size="8" fill="#283593" font-family="sans-serif">6 граней</text>
+  <text x="340" y="95" font-size="7" fill="#555" font-family="sans-serif">(параллелограммы)</text>
+  <!-- Section diagonal plane -->
+  <path d="M290,200 L320,178 L390,118 L360,140 Z" fill="#FF6F00" fill-opacity="0.12" stroke="#FF6F00" stroke-width="0.8" stroke-dasharray="4,2"/>
+  <!-- Properties Panel -->
+  <rect x="12" y="238" width="476" height="70" rx="6" fill="white" opacity="0.88" stroke="#3F51B5" stroke-width="1"/>
+  <text x="250" y="254" font-size="9" font-weight="bold" fill="#283593" text-anchor="middle" font-family="serif">Свойства параллелепипеда</text>
+  <text x="22" y="268" font-size="7.5" fill="#555" font-family="sans-serif">1. Противоположные грани равны и параллельны</text>
+  <text x="22" y="280" font-size="7.5" fill="#555" font-family="sans-serif">2. Диагонали пересекаются в одной точке и делятся ею пополам</text>
+  <text x="22" y="292" font-size="7.5" fill="#555" font-family="sans-serif">3. Квадрат диагонали: d^2 = a^2 + b^2 + c^2 (прямоугольный пар-д)</text>
+  <text x="260" y="268" font-size="7.5" fill="#283593" font-family="sans-serif">4. Тетраэдр — простейший многогранник</text>
+  <text x="260" y="280" font-size="7.5" fill="#283593" font-family="sans-serif">5. Сечение тетраэдра — треугольник</text>
+  <text x="260" y="292" font-size="7.5" fill="#283593" font-family="sans-serif">6. Сечение паралл-да — параллелограмм</text>
+  <!-- Bottom bar -->
+  <rect x="12" y="316" width="476" height="26" rx="4" fill="#3F51B5" opacity="0.85"/>
+  <text x="250" y="333" font-size="9.5" fill="white" text-anchor="middle" font-weight="bold" font-family="serif">Тетраэдр: 4 грани | Параллелепипед: 6 граней, против. грани равны и ||</text>
+</svg>

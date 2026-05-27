@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+    <marker id="ah17" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2E7D32"/>
+    </marker>
+    <marker id="ah17d" markerWidth="8" markerHeight="6" refX="4" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#9C27B0"/>
+    </marker>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle" font-family="Arial">Понятие движения</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="Arial">Геометрия 9 класс — Урок 17</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#43A047" stroke-width="1" opacity="0.3"/>
+
+  <!-- Mapping panel -->
+  <rect x="15" y="58" width="230" height="155" rx="6" fill="white" opacity="0.9" stroke="#43A047" stroke-width="1"/>
+  <text x="130" y="74" font-size="10" font-weight="bold" fill="#2E7D32" text-anchor="middle" font-family="Arial">Отображение плоскости</text>
+  <!-- Original figure -->
+  <polygon points="40,120 40,180 80,180 80,140 60,140 60,120" fill="#C8E6C9" stroke="#2E7D32" stroke-width="2"/>
+  <text x="60" y="195" font-size="8" fill="#2E7D32" text-anchor="middle" font-family="Arial">F</text>
+  <!-- Arrow -->
+  <line x1="95" y1="150" x2="155" y2="150" stroke="#9C27B0" stroke-width="2" marker-end="url(#ah17d)"/>
+  <text x="125" y="143" font-size="8" fill="#9C27B0" font-family="Arial" font-weight="bold">f</text>
+  <!-- Mapped figure -->
+  <polygon points="170,110 170,170 210,170 210,130 190,130 190,110" fill="#E1BEE7" fill-opacity="0.5" stroke="#9C27B0" stroke-width="2"/>
+  <text x="190" y="185" font-size="8" fill="#9C27B0" text-anchor="middle" font-family="Arial">F'</text>
+  <!-- Point mapping -->
+  <circle cx="40" cy="120" r="2" fill="#2E7D32"/>
+  <circle cx="170" cy="110" r="2" fill="#9C27B0"/>
+  <text x="30" y="117" font-size="6" fill="#2E7D32" font-family="Arial">M</text>
+  <text x="160" y="107" font-size="6" fill="#9C27B0" font-family="Arial">M'</text>
+  <text x="130" y="210" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">f: M → M' — образ точки</text>
+
+  <!-- Distance preserving panel -->
+  <rect x="255" y="58" width="230" height="155" rx="6" fill="white" opacity="0.9" stroke="#43A047" stroke-width="1"/>
+  <text x="370" y="74" font-size="10" font-weight="bold" fill="#2E7D32" text-anchor="middle" font-family="Arial">Изометрия (движение)</text>
+  <!-- Original points -->
+  <circle cx="280" cy="120" r="3" fill="#2E7D32"/>
+  <circle cx="340" cy="100" r="3" fill="#2E7D32"/>
+  <text x="275" y="117" font-size="7" fill="#2E7D32" font-family="Arial">A</text>
+  <text x="345" y="97" font-size="7" fill="#2E7D32" font-family="Arial">B</text>
+  <line x1="280" y1="120" x2="340" y2="100" stroke="#2E7D32" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <!-- Mapped points -->
+  <circle cx="370" cy="170" r="3" fill="#9C27B0"/>
+  <circle cx="430" cy="150" r="3" fill="#9C27B0"/>
+  <text x="365" y="167" font-size="7" fill="#9C27B0" font-family="Arial">A'</text>
+  <text x="435" y="147" font-size="7" fill="#9C27B0" font-family="Arial">B'</text>
+  <line x1="370" y1="170" x2="430" y2="150" stroke="#9C27B0" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <!-- Distance labels -->
+  <text x="305" y="102" font-size="7.5" fill="#E65100" font-family="Arial">d</text>
+  <text x="395" y="153" font-size="7.5" fill="#E65100" font-family="Arial">d</text>
+  <!-- Property box -->
+  <rect x="265" y="180" width="210" height="28" rx="4" fill="#C8E6C9" stroke="#43A047" stroke-width="0.8"/>
+  <text x="370" y="194" font-size="8.5" fill="#1B5E20" text-anchor="middle" font-family="Arial" font-weight="bold">AB = A'B' — сохраняет расстояния</text>
+  <text x="370" y="207" font-size="7.5" fill="#555" text-anchor="middle" font-family="Arial">Движение = изометрия</text>
+
+  <!-- Properties panel -->
+  <rect x="15" y="220" width="240" height="92" rx="6" fill="white" opacity="0.9" stroke="#43A047" stroke-width="1"/>
+  <text x="135" y="236" font-size="10" font-weight="bold" fill="#2E7D32" text-anchor="middle" font-family="Arial">Свойства движения</text>
+  <rect x="25" y="242" width="220" height="18" rx="3" fill="#E8F5E9" stroke="#43A047" stroke-width="0.5"/>
+  <text x="135" y="255" font-size="8" fill="#1B5E20" text-anchor="middle" font-family="Arial">Сохраняет расстояния между точками</text>
+  <rect x="25" y="263" width="220" height="18" rx="3" fill="#C8E6C9" stroke="#43A047" stroke-width="0.5"/>
+  <text x="135" y="276" font-size="8" fill="#1B5E20" text-anchor="middle" font-family="Arial">Отрезок → отрезок, угол → угол</text>
+  <rect x="25" y="284" width="220" height="18" rx="3" fill="#E8F5E9" stroke="#43A047" stroke-width="0.5"/>
+  <text x="135" y="297" font-size="8" fill="#1B5E20" text-anchor="middle" font-family="Arial">Треугольник → равный треугольник</text>
+  <text x="135" y="310" font-size="7.5" fill="#555" text-anchor="middle" font-family="Arial">Обратное движение: f⁻¹ тоже движение</text>
+
+  <!-- Types overview panel -->
+  <rect x="265" y="220" width="220" height="92" rx="6" fill="white" opacity="0.9" stroke="#43A047" stroke-width="1"/>
+  <text x="375" y="236" font-size="10" font-weight="bold" fill="#2E7D32" text-anchor="middle" font-family="Arial">Виды движений</text>
+  <!-- Type 1 -->
+  <rect x="275" y="242" width="200" height="15" rx="3" fill="#E8F5E9" stroke="#43A047" stroke-width="0.5"/>
+  <text x="375" y="253" font-size="8" fill="#1B5E20" text-anchor="middle" font-family="Arial">1. Симметрия относительно точки</text>
+  <!-- Type 2 -->
+  <rect x="275" y="260" width="200" height="15" rx="3" fill="#C8E6C9" stroke="#43A047" stroke-width="0.5"/>
+  <text x="375" y="271" font-size="8" fill="#1B5E20" text-anchor="middle" font-family="Arial">2. Симметрия относительно прямой</text>
+  <!-- Type 3 -->
+  <rect x="275" y="278" width="200" height="15" rx="3" fill="#E8F5E9" stroke="#43A047" stroke-width="0.5"/>
+  <text x="375" y="289" font-size="8" fill="#1B5E20" text-anchor="middle" font-family="Arial">3. Параллельный перенос</text>
+  <!-- Type 4 -->
+  <rect x="275" y="296" width="200" height="15" rx="3" fill="#C8E6C9" stroke="#43A047" stroke-width="0.5"/>
+  <text x="375" y="307" font-size="8" fill="#1B5E20" text-anchor="middle" font-family="Arial">4. Поворот</text>
+
+  <!-- Bottom bar -->
+  <rect x="15" y="318" width="470" height="26" rx="4" fill="#43A047" opacity="0.85"/>
+  <text x="250" y="335" font-size="10" fill="white" text-anchor="middle" font-weight="bold" font-family="Arial">Движение — отображение, сохраняющее расстояния | AB = A'B'</text>
+</svg>

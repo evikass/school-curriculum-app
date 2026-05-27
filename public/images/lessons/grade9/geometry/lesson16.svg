@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFEBEE"/>
+      <stop offset="100%" stop-color="#FFCDD2"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#B71C1C" text-anchor="middle" font-family="Arial">Площадь кругового сектора и сегмента</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="Arial">Геометрия 9 класс — Урок 16</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#EF5350" stroke-width="1" opacity="0.3"/>
+
+  <!-- Sector panel -->
+  <rect x="15" y="58" width="235" height="180" rx="6" fill="white" opacity="0.9" stroke="#EF5350" stroke-width="1"/>
+  <text x="132" y="74" font-size="10" font-weight="bold" fill="#C62828" text-anchor="middle" font-family="Arial">Круговой сектор</text>
+  <!-- Sector (pie slice) -->
+  <path d="M 132 155 L 132 90 A 65 65 0 0 1 189 120 Z" fill="#FFCDD2" fill-opacity="0.5" stroke="#C62828" stroke-width="2"/>
+  <!-- Radius lines -->
+  <line x1="132" y1="155" x2="132" y2="90" stroke="#C62828" stroke-width="1.5"/>
+  <line x1="132" y1="155" x2="189" y2="120" stroke="#C62828" stroke-width="1.5"/>
+  <!-- Center -->
+  <circle cx="132" cy="155" r="2.5" fill="#C62828"/>
+  <text x="120" y="150" font-size="7" fill="#C62828" font-family="Arial">O</text>
+  <!-- Radius label -->
+  <text x="120" y="115" font-size="8" fill="#E65100" font-family="Arial">R</text>
+  <!-- Angle arc -->
+  <path d="M 145 148 A 18 18 0 0 0 148 135" fill="none" stroke="#E91E63" stroke-width="1.5"/>
+  <text x="155" y="140" font-size="9" fill="#E91E63" font-family="Arial" font-weight="bold">a°</text>
+  <!-- Arc label -->
+  <text x="170" y="100" font-size="8" fill="#C62828" font-family="Arial" font-style="italic">l</text>
+  <!-- Full circle outline -->
+  <circle cx="132" cy="155" r="65" fill="none" stroke="#EF5350" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <!-- Formula -->
+  <rect x="30" y="210" width="205" height="22" rx="4" fill="#FFEBEE" stroke="#EF5350" stroke-width="0.8"/>
+  <text x="132" y="225" font-size="10" fill="#B71C1C" text-anchor="middle" font-family="Arial" font-weight="bold">S = πR²·a° / 360°</text>
+
+  <!-- Segment panel -->
+  <rect x="260" y="58" width="225" height="180" rx="6" fill="white" opacity="0.9" stroke="#EF5350" stroke-width="1"/>
+  <text x="372" y="74" font-size="10" font-weight="bold" fill="#C62828" text-anchor="middle" font-family="Arial">Круговой сегмент</text>
+  <!-- Circle outline -->
+  <circle cx="372" cy="155" r="55" fill="none" stroke="#EF5350" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <!-- Segment -->
+  <path d="M 340 120 A 55 55 0 0 1 404 120 L 340 120 Z" fill="#FFCDD2" fill-opacity="0.5" stroke="#C62828" stroke-width="2"/>
+  <!-- Chord -->
+  <line x1="340" y1="120" x2="404" y2="120" stroke="#1E88E5" stroke-width="1.5"/>
+  <text x="365" y="116" font-size="7.5" fill="#1E88E5" font-family="Arial">хорда</text>
+  <!-- Height of segment -->
+  <line x1="372" y1="120" x2="372" y2="100" stroke="#4CAF50" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="380" y="110" font-size="7" fill="#4CAF50" font-family="Arial">h</text>
+  <!-- Formula -->
+  <rect x="275" y="195" width="195" height="36" rx="4" fill="#FFEBEE" stroke="#EF5350" stroke-width="0.8"/>
+  <text x="372" y="210" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">Сегмент = Сектор - Треугольник</text>
+  <text x="372" y="225" font-size="8.5" fill="#B71C1C" text-anchor="middle" font-family="Arial" font-weight="bold">Sсегм = Sсект - Sтр</text>
+
+  <!-- Different angles comparison panel -->
+  <rect x="15" y="245" width="235" height="67" rx="6" fill="white" opacity="0.9" stroke="#EF5350" stroke-width="1"/>
+  <text x="132" y="261" font-size="9" font-weight="bold" fill="#C62828" text-anchor="middle" font-family="Arial">Примеры углов</text>
+  <!-- Small angle sector -->
+  <path d="M 50 295 L 50 270 A 25 25 0 0 1 62 275 Z" fill="#FFCDD2" stroke="#C62828" stroke-width="1"/>
+  <text x="50" y="305" font-size="6.5" fill="#555" text-anchor="middle" font-family="Arial">30°</text>
+  <!-- Medium angle sector -->
+  <path d="M 120 295 L 120 270 A 25 25 0 0 1 138 277 Z" fill="#FFCDD2" stroke="#C62828" stroke-width="1"/>
+  <text x="120" y="305" font-size="6.5" fill="#555" text-anchor="middle" font-family="Arial">90°</text>
+  <!-- Large angle sector -->
+  <path d="M 190 295 L 190 270 A 25 25 0 0 1 200 295 Z" fill="#FFCDD2" stroke="#C62828" stroke-width="1"/>
+  <path d="M 200 295 L 190 295 Z" fill="#FFCDD2"/>
+  <text x="190" y="305" font-size="6.5" fill="#555" text-anchor="middle" font-family="Arial">180°</text>
+  <!-- Formulas -->
+  <text x="245" y="278" font-size="7.5" fill="#555" font-family="Arial">a=30°: S=πR²/12</text>
+  <text x="245" y="290" font-size="7.5" fill="#555" font-family="Arial">a=90°: S=πR²/4</text>
+  <text x="245" y="302" font-size="7.5" fill="#555" font-family="Arial">a=180°: S=πR²/2</text>
+
+  <!-- Derivation panel -->
+  <rect x="260" y="245" width="225" height="67" rx="6" fill="white" opacity="0.9" stroke="#EF5350" stroke-width="1"/>
+  <text x="372" y="261" font-size="9" font-weight="bold" fill="#C62828" text-anchor="middle" font-family="Arial">Вывод формулы сектора</text>
+  <text x="372" y="278" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">Круг: S = πR² при a = 360°</text>
+  <text x="372" y="290" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">Сектор — часть круга:</text>
+  <text x="372" y="302" font-size="8.5" fill="#C62828" text-anchor="middle" font-family="Arial" font-weight="bold">Sсект / πR² = a° / 360°</text>
+
+  <!-- Bottom bar -->
+  <rect x="15" y="318" width="470" height="26" rx="4" fill="#EF5350" opacity="0.85"/>
+  <text x="250" y="335" font-size="10" fill="white" text-anchor="middle" font-weight="bold" font-family="Arial">Sсект = πR²·a°/360° | Sсегм = Sсект - Sтр</text>
+</svg>
