@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3E0"/>
+      <stop offset="50%" stop-color="#FFE0B2"/>
+      <stop offset="100%" stop-color="#FFCC80"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="500" height="350" fill="url(#bg4)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#E65100" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#BF360C" text-anchor="middle" font-family="Arial">Измерение отрезков</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="Arial">Геометрия 7 класс — Урок 4</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#F57F17" stroke-opacity="0.3"/>
+
+  <!-- Panel 1: Ruler measuring segment -->
+  <rect x="12" y="58" width="238" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#F57F17" stroke-width="1"/>
+  <text x="131" y="73" font-size="9" font-weight="bold" fill="#E65100" text-anchor="middle">Измерение линейкой</text>
+  <!-- Ruler -->
+  <rect x="25" y="82" width="215" height="18" rx="2" fill="#FFF8E1" stroke="#E65100" stroke-width="0.8"/>
+  <line x1="25" y1="82" x2="25" y2="100" stroke="#E65100" stroke-width="0.6"/>
+  <line x1="68" y1="82" x2="68" y2="95" stroke="#E65100" stroke-width="0.6"/>
+  <line x1="111" y1="82" x2="111" y2="100" stroke="#E65100" stroke-width="0.6"/>
+  <line x1="154" y1="82" x2="154" y2="95" stroke="#E65100" stroke-width="0.6"/>
+  <line x1="197" y1="82" x2="197" y2="100" stroke="#E65100" stroke-width="0.6"/>
+  <line x1="240" y1="82" x2="240" y2="100" stroke="#E65100" stroke-width="0.6"/>
+  <!-- small ticks -->
+  <line x1="46.5" y1="82" x2="46.5" y2="90" stroke="#F57F17" stroke-width="0.4"/>
+  <line x1="89.5" y1="82" x2="89.5" y2="90" stroke="#F57F17" stroke-width="0.4"/>
+  <line x1="132.5" y1="82" x2="132.5" y2="90" stroke="#F57F17" stroke-width="0.4"/>
+  <line x1="175.5" y1="82" x2="175.5" y2="90" stroke="#F57F17" stroke-width="0.4"/>
+  <line x1="218.5" y1="82" x2="218.5" y2="90" stroke="#F57F17" stroke-width="0.4"/>
+  <text x="25" y="79" font-size="6" fill="#E65100" text-anchor="middle">0</text>
+  <text x="68" y="79" font-size="6" fill="#E65100" text-anchor="middle">1</text>
+  <text x="111" y="79" font-size="6" fill="#E65100" text-anchor="middle">2</text>
+  <text x="154" y="79" font-size="6" fill="#E65100" text-anchor="middle">3</text>
+  <text x="197" y="79" font-size="6" fill="#E65100" text-anchor="middle">4</text>
+  <text x="240" y="79" font-size="6" fill="#E65100" text-anchor="middle">5</text>
+  <text x="250" y="79" font-size="5" fill="#E65100">см</text>
+  <!-- Segment AB = 5 cm on ruler -->
+  <line x1="25" y1="110" x2="240" y2="110" stroke="#E65100" stroke-width="2.5"/>
+  <circle cx="25" cy="110" r="3.5" fill="#E65100"/>
+  <circle cx="240" cy="110" r="3.5" fill="#E65100"/>
+  <text x="25" y="124" font-size="9" fill="#E65100" font-style="italic">A</text>
+  <text x="240" y="124" font-size="9" fill="#E65100" font-style="italic">B</text>
+  <text x="131" y="108" font-size="8" fill="#BF360C" text-anchor="middle" font-weight="bold">AB = 5 см</text>
+  <!-- dimension arrows -->
+  <line x1="25" y1="133" x2="240" y2="133" stroke="#F57F17" stroke-width="0.8"/>
+  <polygon points="25,133 30,131 30,135" fill="#F57F17"/>
+  <polygon points="240,133 235,131 235,135" fill="#F57F17"/>
+  <text x="131" y="140" font-size="7" fill="#E65100" text-anchor="middle">Длина отрезка AB = 5 см</text>
+  <!-- units -->
+  <text x="131" y="155" font-size="7" fill="#555" text-anchor="middle">1 см = 10 мм, 1 м = 100 см</text>
+  <text x="131" y="166" font-size="7" fill="#555" text-anchor="middle">1 км = 1000 м</text>
+
+  <!-- Panel 2: Properties -->
+  <rect x="258" y="58" width="230" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#F57F17" stroke-width="1"/>
+  <text x="373" y="73" font-size="9" font-weight="bold" fill="#E65100" text-anchor="middle">Свойства длин</text>
+  <!-- Property 1 -->
+  <rect x="268" y="80" width="210" height="24" rx="3" fill="#FFF3E0" stroke="#F57F17" stroke-width="0.5"/>
+  <circle cx="280" cy="92" r="5" fill="#E65100"/>
+  <text x="280" y="95" font-size="7" fill="white" text-anchor="middle">1</text>
+  <text x="375" y="96" font-size="7.5" fill="#BF360C" text-anchor="middle">Равные отрезки = равные длины</text>
+  <!-- Property 2 -->
+  <rect x="268" y="108" width="210" height="24" rx="3" fill="#FFF3E0" stroke="#F57F17" stroke-width="0.5"/>
+  <circle cx="280" cy="120" r="5" fill="#E65100"/>
+  <text x="280" y="123" font-size="7" fill="white" text-anchor="middle">2</text>
+  <text x="375" y="124" font-size="7.5" fill="#BF360C" text-anchor="middle">AB + BC = AC (аддитивность)</text>
+  <!-- Visual for property 2 -->
+  <line x1="275" y1="143" x2="350" y2="143" stroke="#E65100" stroke-width="2"/>
+  <line x1="350" y1="143" x2="465" y2="143" stroke="#F57F17" stroke-width="2"/>
+  <circle cx="275" cy="143" r="2.5" fill="#E65100"/>
+  <circle cx="350" cy="143" r="3" fill="#C62828"/>
+  <circle cx="465" cy="143" r="2.5" fill="#F57F17"/>
+  <text x="275" y="154" font-size="7" fill="#E65100" font-style="italic">A</text>
+  <text x="350" y="154" font-size="7" fill="#C62828" font-style="italic">B</text>
+  <text x="465" y="154" font-size="7" fill="#F57F17" font-style="italic">C</text>
+  <line x1="275" y1="157" x2="350" y2="157" stroke="#E65100" stroke-width="0.6"/>
+  <line x1="350" y1="157" x2="465" y2="157" stroke="#F57F17" stroke-width="0.6"/>
+  <text x="312" y="164" font-size="6.5" fill="#E65100" text-anchor="middle">AB</text>
+  <text x="407" y="164" font-size="6.5" fill="#F57F17" text-anchor="middle">BC</text>
+  <!-- Property 3 -->
+  <rect x="268" y="155" width="210" height="18" rx="3" fill="#E65100" fill-opacity="0.1"/>
+  <text x="373" y="168" font-size="7.5" fill="#BF360C" text-anchor="middle" font-weight="bold">Длина отрезка — расстояние между точками</text>
+
+  <!-- Panel 3: Distance concept -->
+  <rect x="12" y="184" width="160" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#F57F17" stroke-width="1"/>
+  <text x="92" y="199" font-size="9" font-weight="bold" fill="#E65100" text-anchor="middle">Расстояние</text>
+  <circle cx="40" cy="260" r="4" fill="#E65100"/>
+  <circle cx="140" cy="230" r="4" fill="#F57F17"/>
+  <text x="40" y="275" font-size="8" fill="#E65100" font-style="italic">A</text>
+  <text x="140" y="225" font-size="8" fill="#F57F17" font-style="italic">B</text>
+  <line x1="40" y1="260" x2="140" y2="230" stroke="#E65100" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="90" y="240" font-size="7" fill="#BF360C" text-anchor="middle">d(A,B) = |AB|</text>
+  <text x="92" y="292" font-size="7" fill="#555" text-anchor="middle">Расстояние между</text>
+  <text x="92" y="302" font-size="7" fill="#555" text-anchor="middle">двумя точками = длина</text>
+  <text x="92" y="312" font-size="7" fill="#555" text-anchor="middle">соединяющего отрезка</text>
+
+  <!-- Panel 4: Units table -->
+  <rect x="180" y="184" width="150" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#F57F17" stroke-width="1"/>
+  <text x="255" y="199" font-size="9" font-weight="bold" fill="#E65100" text-anchor="middle">Единицы длины</text>
+  <rect x="190" y="206" width="130" height="16" rx="2" fill="#E65100" fill-opacity="0.15"/>
+  <text x="255" y="218" font-size="7.5" fill="#BF360C" text-anchor="middle" font-weight="bold">1 мм (миллиметр)</text>
+  <rect x="190" y="224" width="130" height="16" rx="2" fill="#FFF3E0"/>
+  <text x="255" y="236" font-size="7.5" fill="#BF360C" text-anchor="middle">1 см = 10 мм</text>
+  <rect x="190" y="242" width="130" height="16" rx="2" fill="#E65100" fill-opacity="0.15"/>
+  <text x="255" y="254" font-size="7.5" fill="#BF360C" text-anchor="middle">1 дм = 10 см = 100 мм</text>
+  <rect x="190" y="260" width="130" height="16" rx="2" fill="#FFF3E0"/>
+  <text x="255" y="272" font-size="7.5" fill="#BF360C" text-anchor="middle">1 м = 100 см</text>
+  <rect x="190" y="278" width="130" height="16" rx="2" fill="#E65100" fill-opacity="0.15"/>
+  <text x="255" y="290" font-size="7.5" fill="#BF360C" text-anchor="middle">1 км = 1000 м</text>
+
+  <!-- Panel 5: Example -->
+  <rect x="338" y="184" width="150" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#F57F17" stroke-width="1"/>
+  <text x="413" y="199" font-size="9" font-weight="bold" fill="#E65100" text-anchor="middle">Пример</text>
+  <line x1="353" y1="220" x2="473" y2="220" stroke="#E65100" stroke-width="2"/>
+  <circle cx="353" cy="220" r="3" fill="#E65100"/>
+  <circle cx="403" cy="220" r="3" fill="#C62828"/>
+  <circle cx="473" cy="220" r="3" fill="#F57F17"/>
+  <text x="353" y="213" font-size="8" fill="#E65100" font-style="italic">A</text>
+  <text x="403" y="213" font-size="8" fill="#C62828" font-style="italic">B</text>
+  <text x="473" y="213" font-size="8" fill="#F57F17" font-style="italic">C</text>
+  <line x1="353" y1="228" x2="403" y2="228" stroke="#E65100" stroke-width="0.6"/>
+  <line x1="403" y1="228" x2="473" y2="228" stroke="#F57F17" stroke-width="0.6"/>
+  <text x="378" y="237" font-size="7" fill="#E65100" text-anchor="middle">3 см</text>
+  <text x="438" y="237" font-size="7" fill="#F57F17" text-anchor="middle">5 см</text>
+  <rect x="353" y="248" width="110" height="18" rx="3" fill="#FFF3E0" stroke="#F57F17" stroke-width="0.5"/>
+  <text x="408" y="260" font-size="8" fill="#BF360C" text-anchor="middle">AC = AB + BC</text>
+  <text x="413" y="278" font-size="9" fill="#E65100" text-anchor="middle" font-weight="bold">AC = 3 + 5 = 8 см</text>
+  <text x="413" y="296" font-size="7" fill="#555" text-anchor="middle">Точка B между A и C</text>
+
+  <!-- Bottom bar -->
+  <rect x="12" y="320" width="476" height="22" rx="4" fill="#F57F17" fill-opacity="0.85"/>
+  <text x="250" y="335" font-size="10" fill="white" text-anchor="middle" font-weight="bold" font-family="Arial">Длина отрезка — расстояние между его концами: AB + BC = AC</text>
+</svg>

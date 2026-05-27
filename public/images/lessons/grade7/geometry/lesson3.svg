@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="50%" stop-color="#BBDEFB"/>
+      <stop offset="100%" stop-color="#90CAF9"/>
+    </linearGradient>
+    <marker id="arrowR3" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto">
+      <path d="M0,0 L7,2.5 L0,5 Z" fill="#1565C0"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="500" height="350" fill="url(#bg3)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#0D47A1" text-anchor="middle" font-family="Arial">Сравнение отрезков и углов</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="Arial">Геометрия 7 класс — Урок 3</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#1E88E5" stroke-opacity="0.3"/>
+
+  <!-- Panel 1: Comparing segments by overlay -->
+  <rect x="12" y="58" width="235" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#1E88E5" stroke-width="1"/>
+  <text x="129" y="73" font-size="9" font-weight="bold" fill="#1565C0" text-anchor="middle">Сравнение отрезков</text>
+  <!-- Segment AB -->
+  <line x1="25" y1="92" x2="105" y2="92" stroke="#1565C0" stroke-width="2.5"/>
+  <circle cx="25" cy="92" r="3" fill="#1565C0"/>
+  <circle cx="105" cy="92" r="3" fill="#1565C0"/>
+  <text x="25" y="87" font-size="8" fill="#1565C0" font-style="italic">A</text>
+  <text x="105" y="87" font-size="8" fill="#1565C0" font-style="italic">B</text>
+  <text x="65" y="86" font-size="7" fill="#1565C0" text-anchor="middle">AB</text>
+  <!-- Segment CD (equal) -->
+  <line x1="125" y1="92" x2="205" y2="92" stroke="#1E88E5" stroke-width="2.5"/>
+  <circle cx="125" cy="92" r="3" fill="#1E88E5"/>
+  <circle cx="205" cy="92" r="3" fill="#1E88E5"/>
+  <text x="125" y="87" font-size="8" fill="#1E88E5" font-style="italic">C</text>
+  <text x="205" y="87" font-size="8" fill="#1E88E5" font-style="italic">D</text>
+  <text x="165" y="86" font-size="7" fill="#1E88E5" text-anchor="middle">CD</text>
+  <!-- Overlay visualization -->
+  <text x="129" y="112" font-size="7" fill="#555" text-anchor="middle">Наложение:</text>
+  <line x1="35" y1="126" x2="115" y2="126" stroke="#1565C0" stroke-width="2.5" stroke-dasharray="5,2"/>
+  <line x1="35" y1="132" x2="115" y2="132" stroke="#1E88E5" stroke-width="2.5"/>
+  <circle cx="35" cy="126" r="2.5" fill="#1565C0"/>
+  <circle cx="115" cy="126" r="2.5" fill="#1565C0"/>
+  <circle cx="35" cy="132" r="2.5" fill="#1E88E5"/>
+  <circle cx="115" cy="132" r="2.5" fill="#1E88E5"/>
+  <text x="120" y="130" font-size="7" fill="#1565C0" font-weight="bold">=</text>
+  <text x="129" y="150" font-size="7" fill="#555" text-anchor="middle">AB = CD (совпадают концы)</text>
+  <!-- Unequal example -->
+  <line x1="35" y1="162" x2="90" y2="162" stroke="#E53935" stroke-width="2"/>
+  <line x1="35" y1="168" x2="130" y2="168" stroke="#1565C0" stroke-width="2"/>
+  <circle cx="35" cy="162" r="2" fill="#E53935"/>
+  <circle cx="90" cy="162" r="2" fill="#E53935"/>
+  <circle cx="35" cy="168" r="2" fill="#1565C0"/>
+  <circle cx="130" cy="168" r="2" fill="#1565C0"/>
+  <text x="145" y="166" font-size="7" fill="#C62828">≠</text>
+  <text x="129" y="175" font-size="6.5" fill="#555" text-anchor="middle">EF &lt; GH (EF — часть GH)</text>
+
+  <!-- Panel 2: Midpoint -->
+  <rect x="255" y="58" width="233" height="55" rx="6" fill="white" fill-opacity="0.9" stroke="#1E88E5" stroke-width="1"/>
+  <text x="371" y="73" font-size="9" font-weight="bold" fill="#1565C0" text-anchor="middle">Середина отрезка</text>
+  <line x1="275" y1="95" x2="465" y2="95" stroke="#1565C0" stroke-width="2.5"/>
+  <circle cx="275" cy="95" r="3.5" fill="#1565C0"/>
+  <circle cx="465" cy="95" r="3.5" fill="#1565C0"/>
+  <circle cx="370" cy="95" r="4" fill="#E53935"/>
+  <text x="275" y="88" font-size="9" fill="#1565C0" font-style="italic">A</text>
+  <text x="465" y="88" font-size="9" fill="#1565C0" font-style="italic">B</text>
+  <text x="370" y="88" font-size="9" fill="#C62828" font-style="italic">M</text>
+  <!-- dimension braces -->
+  <line x1="275" y1="103" x2="370" y2="103" stroke="#43A047" stroke-width="0.8"/>
+  <line x1="370" y1="103" x2="465" y2="103" stroke="#FF9800" stroke-width="0.8"/>
+  <text x="322" y="112" font-size="7" fill="#43A047" text-anchor="middle">AM</text>
+  <text x="418" y="112" font-size="7" fill="#FF9800" text-anchor="middle">MB</text>
+  <text x="371" y="112" font-size="8" fill="#C62828" text-anchor="middle" font-weight="bold">=</text>
+
+  <!-- Panel 3: Angle bisector -->
+  <rect x="255" y="120" width="233" height="56" rx="6" fill="white" fill-opacity="0.9" stroke="#1E88E5" stroke-width="1"/>
+  <text x="371" y="135" font-size="9" font-weight="bold" fill="#1565C0" text-anchor="middle">Биссектриса угла</text>
+  <!-- Angle AOB -->
+  <circle cx="310" cy="168" r="3" fill="#1565C0"/>
+  <line x1="310" y1="168" x2="265" y2="140" stroke="#1565C0" stroke-width="1.5"/>
+  <line x1="310" y1="168" x2="355" y2="140" stroke="#1565C0" stroke-width="1.5"/>
+  <line x1="310" y1="168" x2="310" y2="133" stroke="#E53935" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="262" y="138" font-size="8" fill="#1565C0" font-style="italic">A</text>
+  <text x="358" y="138" font-size="8" fill="#1565C0" font-style="italic">B</text>
+  <text x="310" y="172" font-size="7" fill="#1565C0" font-style="italic">O</text>
+  <text x="310" y="128" font-size="7" fill="#C62828" font-style="italic">C</text>
+  <path d="M300,157 A13,13 0 0,1 310,155" fill="none" stroke="#43A047" stroke-width="1"/>
+  <path d="M310,155 A13,13 0 0,1 320,157" fill="none" stroke="#FF9800" stroke-width="1"/>
+  <text x="296" y="153" font-size="6" fill="#43A047">1</text>
+  <text x="322" y="153" font-size="6" fill="#FF9800">2</text>
+  <!-- Right side notation -->
+  <text x="390" y="150" font-size="7" fill="#555">∠AOC = ∠COB</text>
+  <text x="390" y="162" font-size="7" fill="#C62828">OC — биссектриса</text>
+  <text x="390" y="174" font-size="7" fill="#555">(делит угол пополам)</text>
+
+  <!-- Panel 4: Comparing angles -->
+  <rect x="12" y="184" width="235" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#1E88E5" stroke-width="1"/>
+  <text x="129" y="199" font-size="9" font-weight="bold" fill="#1565C0" text-anchor="middle">Сравнение углов</text>
+  <!-- Equal angles -->
+  <circle cx="55" cy="245" r="3" fill="#1565C0"/>
+  <line x1="55" y1="245" x2="25" y2="215" stroke="#1565C0" stroke-width="1.5"/>
+  <line x1="55" y1="245" x2="85" y2="215" stroke="#1565C0" stroke-width="1.5"/>
+  <path d="M43,234 A16,16 0 0,1 67,234" fill="none" stroke="#43A047" stroke-width="1.2"/>
+  <text x="55" y="232" font-size="6" fill="#43A047">α</text>
+  <text x="55" y="260" font-size="7" fill="#1565C0" text-anchor="middle">∠α</text>
+  <!-- second equal angle -->
+  <circle cx="140" cy="245" r="3" fill="#1E88E5"/>
+  <line x1="140" y1="245" x2="110" y2="215" stroke="#1E88E5" stroke-width="1.5"/>
+  <line x1="140" y1="245" x2="170" y2="215" stroke="#1E88E5" stroke-width="1.5"/>
+  <path d="M128,234 A16,16 0 0,1 152,234" fill="none" stroke="#FF9800" stroke-width="1.2"/>
+  <text x="140" y="232" font-size="6" fill="#FF9800">β</text>
+  <text x="140" y="260" font-size="7" fill="#1E88E5" text-anchor="middle">∠β</text>
+  <!-- equals sign -->
+  <text x="97" y="240" font-size="12" fill="#1565C0" font-weight="bold">=</text>
+  <text x="97" y="275" font-size="7" fill="#555" text-anchor="middle">Совпадают при наложении</text>
+  <!-- Unequal angles -->
+  <circle cx="210" cy="250" r="3" fill="#C62828"/>
+  <line x1="210" y1="250" x2="190" y2="225" stroke="#C62828" stroke-width="1.2"/>
+  <line x1="210" y1="250" x2="230" y2="225" stroke="#C62828" stroke-width="1.2"/>
+  <path d="M202,240 A12,12 0 0,1 218,240" fill="none" stroke="#C62828" stroke-width="1"/>
+  <text x="210" y="265" font-size="6" fill="#C62828" text-anchor="middle">∠α &gt; ∠γ</text>
+
+  <!-- Panel 5: Summary -->
+  <rect x="255" y="184" width="233" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#1E88E5" stroke-width="1"/>
+  <text x="371" y="199" font-size="9" font-weight="bold" fill="#1565C0" text-anchor="middle">Ключевые факты</text>
+  <rect x="265" y="207" width="213" height="20" rx="3" fill="#E3F2FD" stroke="#1E88E5" stroke-width="0.5"/>
+  <text x="371" y="221" font-size="7.5" fill="#0D47A1" text-anchor="middle">Равные отрезки имеют равные длины</text>
+  <rect x="265" y="231" width="213" height="20" rx="3" fill="#E3F2FD" stroke="#1E88E5" stroke-width="0.5"/>
+  <text x="371" y="245" font-size="7.5" fill="#0D47A1" text-anchor="middle">Равные углы имеют равные градусные меры</text>
+  <rect x="265" y="255" width="213" height="20" rx="3" fill="#E3F2FD" stroke="#1E88E5" stroke-width="0.5"/>
+  <text x="371" y="269" font-size="7.5" fill="#0D47A1" text-anchor="middle">Середина: AM = MB (M — середина AB)</text>
+  <rect x="265" y="279" width="213" height="18" rx="3" fill="#1E88E5" fill-opacity="0.15"/>
+  <text x="371" y="292" font-size="7.5" fill="#0D47A1" text-anchor="middle" font-weight="bold">Биссектриса делит угол пополам</text>
+
+  <!-- Bottom bar -->
+  <rect x="12" y="320" width="476" height="22" rx="4" fill="#1E88E5" fill-opacity="0.85"/>
+  <text x="250" y="335" font-size="10" fill="white" text-anchor="middle" font-weight="bold" font-family="Arial">Середина отрезка — точка, делящая отрезок пополам: AM = MB</text>
+</svg>

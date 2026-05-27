@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg14" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8EAF6"/>
+      <stop offset="50%" stop-color="#C5CAE9"/>
+      <stop offset="100%" stop-color="#9FA8DA"/>
+    </linearGradient>
+    <marker id="arrowR14" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto">
+      <path d="M0,0 L7,2.5 L0,5 Z" fill="#1A237E"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="500" height="350" fill="url(#bg14)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1A237E" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#0D47A1" text-anchor="middle" font-family="Arial">Признаки параллельности двух прямых</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="Arial">Геометрия 7 класс — Урок 14</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#3F51B5" stroke-opacity="0.3"/>
+
+  <!-- Panel 1: Transversal with angles 1-8 -->
+  <rect x="12" y="58" width="235" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#3F51B5" stroke-width="1"/>
+  <text x="129" y="73" font-size="9" font-weight="bold" fill="#1A237E" text-anchor="middle">Секущая и углы (1-8)</text>
+  <!-- Line a -->
+  <line x1="22" y1="98" x2="237" y2="98" stroke="#1A237E" stroke-width="2" marker-end="url(#arrowR14)"/>
+  <text x="240" y="101" font-size="8" fill="#1A237E" font-style="italic">a</text>
+  <!-- Line b -->
+  <line x1="22" y1="148" x2="237" y2="148" stroke="#1A237E" stroke-width="2" marker-end="url(#arrowR14)"/>
+  <text x="240" y="151" font-size="8" fill="#1A237E" font-style="italic">b</text>
+  <!-- Transversal c -->
+  <line x1="60" y1="70" x2="200" y2="172" stroke="#E53935" stroke-width="1.5"/>
+  <text x="55" y="68" font-size="8" fill="#E53935" font-style="italic">c</text>
+  <!-- Angle labels: 1,2,3,4 above, 5,6,7,8 below -->
+  <!-- Intersection with a -->
+  <circle cx="115" cy="98" r="2" fill="#E53935"/>
+  <text x="108" y="90" font-size="7" fill="#C62828" font-weight="bold">1</text>
+  <text x="122" y="90" font-size="7" fill="#1565C0" font-weight="bold">2</text>
+  <text x="108" y="112" font-size="7" fill="#FF9800" font-weight="bold">3</text>
+  <text x="122" y="112" font-size="7" fill="#43A047" font-weight="bold">4</text>
+  <!-- Intersection with b -->
+  <circle cx="145" cy="148" r="2" fill="#E53935"/>
+  <text x="138" y="140" font-size="7" fill="#9C27B0" font-weight="bold">5</text>
+  <text x="152" y="140" font-size="7" fill="#E53935" font-weight="bold">6</text>
+  <text x="138" y="160" font-size="7" fill="#795548" font-weight="bold">7</text>
+  <text x="152" y="160" font-size="7" fill="#00897B" font-weight="bold">8</text>
+  <!-- Angle arcs for clarity -->
+  <path d="M110,94 A8,8 0 0,1 118,94" fill="none" stroke="#C62828" stroke-width="0.7"/>
+  <path d="M118,94 A8,8 0 0,1 120,102" fill="none" stroke="#1565C0" stroke-width="0.7"/>
+  <path d="M140,144 A8,8 0 0,1 148,144" fill="none" stroke="#9C27B0" stroke-width="0.7"/>
+  <path d="M148,144 A8,8 0 0,1 150,152" fill="none" stroke="#E53935" stroke-width="0.7"/>
+
+  <!-- Panel 2: Three signs -->
+  <rect x="255" y="58" width="233" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#3F51B5" stroke-width="1"/>
+  <text x="371" y="73" font-size="9" font-weight="bold" fill="#1A237E" text-anchor="middle">Три признака ∥</text>
+  <!-- Sign 1: Corresponding angles -->
+  <rect x="265" y="80" width="213" height="28" rx="3" fill="#E8EAF6" stroke="#3F51B5" stroke-width="0.5"/>
+  <text x="371" y="92" font-size="7.5" fill="#0D47A1" text-anchor="middle">1) Соответственные: ∠1 = ∠6 или ∠4 = ∠7</text>
+  <text x="371" y="103" font-size="7" fill="#555" text-anchor="middle">=> a ∥ b</text>
+  <!-- Sign 2: Alternate interior -->
+  <rect x="265" y="112" width="213" height="28" rx="3" fill="#E8EAF6" stroke="#3F51B5" stroke-width="0.5"/>
+  <text x="371" y="124" font-size="7.5" fill="#0D47A1" text-anchor="middle">2) Накрест лежащие: ∠3 = ∠6 или ∠4 = ∠5</text>
+  <text x="371" y="135" font-size="7" fill="#555" text-anchor="middle">=> a ∥ b</text>
+  <!-- Sign 3: Co-interior supplementary -->
+  <rect x="265" y="144" width="213" height="28" rx="3" fill="#E8EAF6" stroke="#3F51B5" stroke-width="0.5"/>
+  <text x="371" y="156" font-size="7.5" fill="#0D47A1" text-anchor="middle">3) Односторонние: ∠3 + ∠5 = 180°</text>
+  <text x="371" y="167" font-size="7" fill="#555" text-anchor="middle">=> a ∥ b</text>
+
+  <!-- Panel 3: Corresponding angles visual -->
+  <rect x="12" y="184" width="155" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#3F51B5" stroke-width="1"/>
+  <text x="89" y="199" font-size="8" font-weight="bold" fill="#1A237E" text-anchor="middle">Соответственные</text>
+  <!-- Line a -->
+  <line x1="22" y1="215" x2="148" y2="215" stroke="#1A237E" stroke-width="1.5"/>
+  <!-- Line b -->
+  <line x1="22" y1="265" x2="148" y2="265" stroke="#1A237E" stroke-width="1.5"/>
+  <!-- Transversal -->
+  <line x1="45" y1="195" x2="130" y2="285" stroke="#E53935" stroke-width="1.2"/>
+  <!-- Corresponding angle 1 (upper left) -->
+  <path d="M58,208 A8,8 0 0,1 66,212" fill="none" stroke="#E53935" stroke-width="1.5"/>
+  <path d="M58,208 A8,8 0 0,1 66,212" fill="#E53935" fill-opacity="0.1"/>
+  <!-- Corresponding angle 6 (lower left, same position) -->
+  <path d="M80,258 A8,8 0 0,1 88,262" fill="none" stroke="#E53935" stroke-width="1.5"/>
+  <path d="M80,258 A8,8 0 0,1 88,262" fill="#E53935" fill-opacity="0.1"/>
+  <text x="89" y="296" font-size="7" fill="#1A237E" text-anchor="middle">∠1 = ∠6</text>
+
+  <!-- Panel 4: Alternate interior visual -->
+  <rect x="175" y="184" width="155" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#3F51B5" stroke-width="1"/>
+  <text x="252" y="199" font-size="8" font-weight="bold" fill="#1A237E" text-anchor="middle">Накрест лежащие</text>
+  <!-- Line a -->
+  <line x1="185" y1="215" x2="315" y2="215" stroke="#1A237E" stroke-width="1.5"/>
+  <!-- Line b -->
+  <line x1="185" y1="265" x2="315" y2="265" stroke="#1A237E" stroke-width="1.5"/>
+  <!-- Transversal -->
+  <line x1="205" y1="195" x2="290" y2="285" stroke="#43A047" stroke-width="1.2"/>
+  <!-- Alternate interior angle 3 (lower left of intersection a) -->
+  <path d="M225,218 A8,8 0 0,0 218,226" fill="none" stroke="#43A047" stroke-width="1.5"/>
+  <!-- Alternate interior angle 6 (upper right of intersection b) -->
+  <path d="M258,260 A8,8 0 0,0 265,252" fill="none" stroke="#43A047" stroke-width="1.5"/>
+  <text x="252" y="296" font-size="7" fill="#1A237E" text-anchor="middle">∠3 = ∠6</text>
+
+  <!-- Panel 5: Co-interior visual -->
+  <rect x="338" y="184" width="150" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#3F51B5" stroke-width="1"/>
+  <text x="413" y="199" font-size="8" font-weight="bold" fill="#1A237E" text-anchor="middle">Односторонние</text>
+  <!-- Line a -->
+  <line x1="348" y1="215" x2="478" y2="215" stroke="#1A237E" stroke-width="1.5"/>
+  <!-- Line b -->
+  <line x1="348" y1="265" x2="478" y2="265" stroke="#1A237E" stroke-width="1.5"/>
+  <!-- Transversal -->
+  <line x1="370" y1="195" x2="450" y2="285" stroke="#FF9800" stroke-width="1.2"/>
+  <!-- Co-interior angles -->
+  <path d="M390,218 A8,8 0 0,0 383,226" fill="none" stroke="#FF9800" stroke-width="1.5"/>
+  <path d="M415,258 A8,8 0 0,1 408,266" fill="none" stroke="#FF9800" stroke-width="1.5"/>
+  <!-- Plus sign -->
+  <text x="403" y="245" font-size="10" fill="#FF9800" font-weight="bold">+</text>
+  <text x="413" y="296" font-size="7" fill="#1A237E" text-anchor="middle">∠3 + ∠5 = 180°</text>
+
+  <!-- Bottom bar -->
+  <rect x="12" y="320" width="476" height="22" rx="4" fill="#3F51B5" fill-opacity="0.85"/>
+  <text x="250" y="335" font-size="10" fill="white" text-anchor="middle" font-weight="bold" font-family="Arial">Признаки ∥: соответств. равны | накрест леж. равны | одностор. = 180°</text>
+</svg>
