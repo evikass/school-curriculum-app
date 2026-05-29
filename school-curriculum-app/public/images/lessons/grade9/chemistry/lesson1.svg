@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E0F2F1"/>
+      <stop offset="100%" stop-color="#B2DFDB"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00897B"/>
+      <stop offset="100%" stop-color="#00695C"/>
+    </linearGradient>
+    <radialGradient id="nucleus1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4DB6AC"/>
+      <stop offset="100%" stop-color="#00695C"/>
+    </radialGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" rx="8" fill="url(#bg1)"/>
+  <rect x="3" y="3" width="494" height="344" rx="6" fill="none" stroke="#00695C" stroke-width="2.5" opacity="0.7"/>
+  <!-- Title -->
+  <text x="250" y="26" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#00695C">Строение атома</text>
+  <text x="250" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#607D8B">Химия 9 класс — Урок 1</text>
+  <line x1="20" y1="47" x2="480" y2="47" stroke="#00695C" stroke-width="0.8" opacity="0.3"/>
+  <!-- Atom model - center -->
+  <circle cx="250" cy="185" r="90" fill="none" stroke="#80CBC4" stroke-width="1" stroke-dasharray="4,3" opacity="0.5"/>
+  <circle cx="250" cy="185" r="60" fill="none" stroke="#80CBC4" stroke-width="1" stroke-dasharray="4,3" opacity="0.5"/>
+  <!-- Nucleus -->
+  <circle cx="250" cy="185" r="22" fill="url(#nucleus1)" stroke="#004D40" stroke-width="1.5"/>
+  <text x="250" y="182" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="white">ЯДРО</text>
+  <text x="250" y="193" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="white">p+ n0</text>
+  <!-- Electrons on orbits -->
+  <circle cx="310" cy="185" r="6" fill="#E0F7FA" stroke="#00695C" stroke-width="1.5"/>
+  <text x="310" y="188" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#00695C">e-</text>
+  <circle cx="220" cy="125" r="6" fill="#E0F7FA" stroke="#00695C" stroke-width="1.5"/>
+  <text x="220" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#00695C">e-</text>
+  <circle cx="280" cy="245" r="6" fill="#E0F7FA" stroke="#00695C" stroke-width="1.5"/>
+  <text x="280" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#00695C">e-</text>
+  <!-- Left panel: Particle table -->
+  <rect x="14" y="54" width="130" height="130" rx="8" fill="white" fill-opacity="0.9" stroke="#00897B" stroke-width="1.2"/>
+  <text x="79" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#00695C">Частицы атома</text>
+  <line x1="22" y1="75" x2="136" y2="75" stroke="#80CBC4" stroke-width="0.5"/>
+  <!-- Proton -->
+  <circle cx="30" cy="92" r="5" fill="#26A69A" opacity="0.7"/>
+  <text x="42" y="95" font-family="Arial,sans-serif" font-size="7" fill="#004D40">Протон p+ (+1)</text>
+  <!-- Neutron -->
+  <circle cx="30" cy="112" r="5" fill="#78909C" opacity="0.7"/>
+  <text x="42" y="115" font-family="Arial,sans-serif" font-size="7" fill="#004D40">Нейтрон n0 (0)</text>
+  <!-- Electron -->
+  <circle cx="30" cy="132" r="5" fill="#4FC3F7" opacity="0.7"/>
+  <text x="42" y="135" font-family="Arial,sans-serif" font-size="7" fill="#004D40">Электрон e- (-1)</text>
+  <!-- Formulas -->
+  <text x="79" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#00897B">Z = число p+ = число e-</text>
+  <text x="79" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#00897B">N = A - Z (нейтроны)</text>
+  <!-- Right panel: Carbon example -->
+  <rect x="356" y="54" width="130" height="130" rx="8" fill="white" fill-opacity="0.9" stroke="#00897B" stroke-width="1.2"/>
+  <text x="421" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#00695C">Атом углерода</text>
+  <line x1="364" y1="75" x2="478" y2="75" stroke="#80CBC4" stroke-width="0.5"/>
+  <text x="370" y="92" font-family="Arial,sans-serif" font-size="7" fill="#004D40">Порядковый №: 6</text>
+  <text x="370" y="107" font-family="Arial,sans-serif" font-size="7" fill="#004D40">Протонов: 6</text>
+  <text x="370" y="122" font-family="Arial,sans-serif" font-size="7" fill="#004D40">Электронов: 6</text>
+  <text x="370" y="137" font-family="Arial,sans-serif" font-size="7" fill="#004D40">Нейтронов: 12-6=6</text>
+  <text x="370" y="155" font-family="Arial,sans-serif" font-size="7" fill="#00897B" font-weight="bold">Изотопы: 12C и 14C</text>
+  <!-- Bottom panel -->
+  <rect x="14" y="285" width="472" height="50" rx="8" fill="white" fill-opacity="0.85" stroke="#00897B" stroke-width="1"/>
+  <text x="250" y="303" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#00695C">Ключевые формулы</text>
+  <text x="140" y="320" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#004D40">A = Z + N</text>
+  <text x="250" y="320" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#004D40">Z = порядковый №</text>
+  <text x="370" y="320" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#004D40">N = A - Z</text>
+</svg>
