@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#E0F2F1"/><stop offset="100%" stop-color="#B2DFDB"/></linearGradient></defs>
+  <rect width="500" height="350" rx="8" fill="url(#bg)"/>
+  <rect x="3" y="3" width="494" height="344" rx="6" fill="none" stroke="#00695C" stroke-width="2.5" opacity="0.7"/>
+  <text x="250" y="26" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#00695C">Алюминий и его соединения</text>
+  <text x="250" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#607D8B">Химия 9 класс — Урок 11</text>
+  <line x1="20" y1="47" x2="480" y2="47" stroke="#00695C" stroke-width="0.8" opacity="0.3"/>
+  <rect x="14" y="54" width="230" height="90" rx="8" fill="white" fill-opacity="0.9" stroke="#00897B" stroke-width="1.2"/>
+  <text x="129" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#00695C">Al — Амфотерный металл</text>
+  <text x="129" y="86" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#004D40">Порядковый № 13, Ar = 27</text>
+  <text x="129" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#004D40">Конфигурация: 1s2 2s2 2p6 3s2 3p1</text>
+  <text x="129" y="114" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#00897B">3 электрона на внешнем уровне</text>
+  <text x="129" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#00897B">Степень окисления: +3</text>
+  <rect x="256" y="54" width="230" height="90" rx="8" fill="white" fill-opacity="0.9" stroke="#00897B" stroke-width="1.2"/>
+  <text x="371" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#00695C">Реакции алюминия</text>
+  <text x="270" y="88" font-family="Arial,sans-serif" font-size="6" fill="#004D40">4Al + 3O2 = 2Al2O3</text>
+  <text x="270" y="102" font-family="Arial,sans-serif" font-size="6" fill="#004D40">2Al + 6HCl = 2AlCl3 + 3H2</text>
+  <text x="270" y="116" font-family="Arial,sans-serif" font-size="6" fill="#004D40">2Al + 2NaOH + 6H2O =</text>
+  <text x="270" y="128" font-family="Arial,sans-serif" font-size="6" fill="#004D40">  2Na[Al(OH)4] + 3H2</text>
+  <text x="270" y="142" font-family="Arial,sans-serif" font-size="6" fill="#C62828">Реагирует и с кислотами, и со щёлочами!</text>
+  <!-- Amphoteric nature -->
+  <rect x="14" y="152" width="472" height="85" rx="8" fill="white" fill-opacity="0.9" stroke="#00897B" stroke-width="1"/>
+  <text x="250" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#00695C">Амфотерность Al2O3 и Al(OH)3</text>
+  <rect x="24" y="178" width="220" height="48" rx="4" fill="#EF9A9A" fill-opacity="0.2" stroke="#C62828" stroke-width="0.8"/>
+  <text x="134" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#C62828">С кислотами (основные св-ва)</text>
+  <text x="134" y="208" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">Al2O3 + 6HCl = 2AlCl3 + 3H2O</text>
+  <text x="134" y="220" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">Al(OH)3 + 3HCl = AlCl3 + 3H2O</text>
+  <rect x="256" y="178" width="220" height="48" rx="4" fill="#90CAF9" fill-opacity="0.2" stroke="#0D47A1" stroke-width="0.8"/>
+  <text x="366" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#0D47A1">Со щёлочами (кислотные св-ва)</text>
+  <text x="366" y="208" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">Al2O3 + 2NaOH + 3H2O =</text>
+  <text x="366" y="220" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">  2Na[Al(OH)4]</text>
+  <!-- Al production and uses -->
+  <rect x="14" y="245" width="230" height="90" rx="8" fill="white" fill-opacity="0.9" stroke="#00897B" stroke-width="1"/>
+  <text x="129" y="261" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#00695C">Получение Al</text>
+  <text x="129" y="278" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">Электролиз Al2O3 в расплаве</text>
+  <text x="129" y="292" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">Na3AlF6 (криолит) — растворитель</text>
+  <text x="129" y="306" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">Катод: Al3+ + 3e = Al</text>
+  <text x="129" y="320" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">Анод: 2O2- - 4e = O2</text>
+  <rect x="256" y="245" width="230" height="90" rx="8" fill="white" fill-opacity="0.9" stroke="#00897B" stroke-width="1"/>
+  <text x="371" y="261" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#00695C">Применение алюминия</text>
+  <text x="270" y="278" font-family="Arial,sans-serif" font-size="6" fill="#004D40">Авиация, ракетостроение</text>
+  <text x="270" y="292" font-family="Arial,sans-serif" font-size="6" fill="#004D40">Электропровод (провода)</text>
+  <text x="270" y="306" font-family="Arial,sans-serif" font-size="6" fill="#004D40">Пищевая фольга, посуда</text>
+  <text x="270" y="320" font-family="Arial,sans-serif" font-size="6" fill="#004D40">Алюмотермия: Fe2O3 + 2Al = 2Fe + Al2O3</text>
+</svg>

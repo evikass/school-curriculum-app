@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#E0F2F1"/><stop offset="100%" stop-color="#B2DFDB"/></linearGradient></defs>
+  <rect width="500" height="350" rx="8" fill="url(#bg)"/>
+  <rect x="3" y="3" width="494" height="344" rx="6" fill="none" stroke="#00695C" stroke-width="2.5" opacity="0.7"/>
+  <text x="250" y="26" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#00695C">Углерод и его соединения</text>
+  <text x="250" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#607D8B">Химия 9 класс — Урок 19</text>
+  <line x1="20" y1="47" x2="480" y2="47" stroke="#00695C" stroke-width="0.8" opacity="0.3"/>
+  <!-- Allotropy of C -->
+  <rect x="14" y="54" width="472" height="85" rx="8" fill="white" fill-opacity="0.9" stroke="#00897B" stroke-width="1.2"/>
+  <text x="250" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#00695C">Аллотропия углерода</text>
+  <rect x="24" y="78" width="105" height="50" rx="4" fill="#E0E0E0" fill-opacity="0.5" stroke="#78909C" stroke-width="0.8"/>
+  <text x="76" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#37474F">Алмаз</text>
+  <text x="76" y="108" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#004D40">Твёрдый, прозрачный</text>
+  <text x="76" y="120" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#607D8B">Тетраэдр sp3</text>
+  <rect x="138" y="78" width="105" height="50" rx="4" fill="#424242" fill-opacity="0.2" stroke="#424242" stroke-width="0.8"/>
+  <text x="190" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#212121">Графит</text>
+  <text x="190" y="108" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#004D40">Мягкий, проводит ток</text>
+  <text x="190" y="120" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#607D8B">Слои sp2</text>
+  <rect x="252" y="78" width="105" height="50" rx="4" fill="#CE93D8" fill-opacity="0.2" stroke="#7B1FA2" stroke-width="0.8"/>
+  <text x="304" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#4A148C">Фуллерен</text>
+  <text x="304" y="108" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#004D40">C60 — шар</text>
+  <text x="304" y="120" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#607D8B">Нанотехнологии</text>
+  <rect x="366" y="78" width="105" height="50" rx="4" fill="#A5D6A7" fill-opacity="0.3" stroke="#2E7D32" stroke-width="0.8"/>
+  <text x="418" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1B5E20">Карбин</text>
+  <text x="418" y="108" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#004D40">Линейные цепи</text>
+  <text x="418" y="120" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#607D8B">sp-гибридизация</text>
+  <!-- CO and CO2 -->
+  <rect x="14" y="148" width="230" height="95" rx="8" fill="white" fill-opacity="0.9" stroke="#00897B" stroke-width="1"/>
+  <text x="129" y="164" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#00695C">CO — угарный газ</text>
+  <text x="129" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">Бесцветный, без запаха</text>
+  <text x="129" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">Несолеобразующий оксид</text>
+  <text x="129" y="208" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">2C + O2 = 2CO (недостаток O2)</text>
+  <text x="129" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">CO + CuO = Cu + CO2</text>
+  <text x="129" y="236" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#C62828">Ядовит! Связывается с Hb крови</text>
+  <rect x="256" y="148" width="230" height="95" rx="8" fill="white" fill-opacity="0.9" stroke="#00897B" stroke-width="1"/>
+  <text x="371" y="164" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#00695C">CO2 — углекислый газ</text>
+  <text x="270" y="180" font-family="Arial,sans-serif" font-size="6" fill="#004D40">C + O2 = CO2 (горение)</text>
+  <text x="270" y="194" font-family="Arial,sans-serif" font-size="6" fill="#004D40">CaCO3 + 2HCl = CaCl2 + CO2 + H2O</text>
+  <text x="270" y="208" font-family="Arial,sans-serif" font-size="6" fill="#004D40">CO2 + H2O = H2CO3 (слабая)</text>
+  <text x="270" y="222" font-family="Arial,sans-serif" font-size="6" fill="#004D40">CO2 + Ca(OH)2 = CaCO3 + H2O</text>
+  <text x="270" y="236" font-family="Arial,sans-serif" font-size="5" fill="#607D8B">Парниковый эффект, огнетушитель</text>
+  <!-- Carbonates -->
+  <rect x="14" y="252" width="230" height="82" rx="8" fill="white" fill-opacity="0.9" stroke="#00897B" stroke-width="1"/>
+  <text x="129" y="268" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#00695C">Карбонаты</text>
+  <text x="129" y="284" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">CaCO3 — мел, мрамор, известняк</text>
+  <text x="129" y="298" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">Na2CO3 — сода (стиральная)</text>
+  <text x="129" y="312" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">NaHCO3 — пищевая сода</text>
+  <text x="129" y="326" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#607D8B">Разлагаются кислотами с CO2</text>
+  <rect x="256" y="252" width="230" height="82" rx="8" fill="white" fill-opacity="0.9" stroke="#00897B" stroke-width="1"/>
+  <text x="371" y="268" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#00695C">Кач. реакция на CO3(2-)</text>
+  <text x="371" y="286" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">CO3(2-) + 2H+ = CO2 + H2O</text>
+  <text x="371" y="302" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">CO2 + Ca(OH)2 = CaCO3 (помутнение)</text>
+  <text x="371" y="320" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#00897B">Два этапа: выделение газа + помутнение извести</text>
+</svg>
