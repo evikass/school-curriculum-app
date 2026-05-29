@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0fdfa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ccfbf1;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="hAtom" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#2dd4bf;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d9488;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="oAtom" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d9488;stop-opacity:1" />
+    </radialGradient>
+    <filter id="shadow3">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#0d9488" flood-opacity="0.15"/>
+    </filter>
+    <filter id="glow3">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg3)" rx="12" ry="12"/>
+  <rect x="2" y="2" width="796" height="496" fill="none" stroke="#0d9488" stroke-width="2" rx="12" ry="12"/>
+
+  <!-- Title -->
+  <text x="400" y="42" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0d9488" text-anchor="middle">Атомно-молекулярное учение</text>
+  <line x1="150" y1="55" x2="650" y2="55" stroke="#14b8a6" stroke-width="2" stroke-dasharray="6,3"/>
+
+  <!-- Reactants section -->
+  <!-- 2H₂ -->
+  <g transform="translate(50, 90)">
+    <rect x="0" y="0" width="170" height="120" rx="10" fill="white" fill-opacity="0.6" stroke="#14b8a6" stroke-width="1.5" filter="url(#shadow3)"/>
+
+    <!-- H₂ molecule 1 -->
+    <circle cx="50" cy="50" r="18" fill="url(#hAtom)"/>
+    <text x="50" y="55" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">H</text>
+    <circle cx="88" cy="50" r="18" fill="url(#hAtom)"/>
+    <text x="88" y="55" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">H</text>
+    <line x1="68" y1="50" x2="70" y2="50" stroke="#2dd4bf" stroke-width="3"/>
+
+    <!-- H₂ molecule 2 -->
+    <circle cx="50" cy="95" r="18" fill="url(#hAtom)"/>
+    <text x="50" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">H</text>
+    <circle cx="88" cy="95" r="18" fill="url(#hAtom)"/>
+    <text x="88" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">H</text>
+    <line x1="68" y1="95" x2="70" y2="95" stroke="#2dd4bf" stroke-width="3"/>
+
+    <!-- Coefficient 2 -->
+    <text x="15" y="78" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#0d9488">2</text>
+
+    <text x="85" y="135" font-family="Arial, sans-serif" font-size="16" fill="#0d9488" text-anchor="middle">2H₂</text>
+  </g>
+
+  <!-- Plus sign -->
+  <text x="258" y="170" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#0d9488" text-anchor="middle">+</text>
+
+  <!-- O₂ molecule -->
+  <g transform="translate(280, 90)">
+    <rect x="0" y="0" width="150" height="120" rx="10" fill="white" fill-opacity="0.6" stroke="#14b8a6" stroke-width="1.5" filter="url(#shadow3)"/>
+
+    <circle cx="50" cy="60" r="22" fill="url(#oAtom)"/>
+    <text x="50" y="66" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">O</text>
+    <circle cx="100" cy="60" r="22" fill="url(#oAtom)"/>
+    <text x="100" y="66" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">O</text>
+    <!-- Double bond -->
+    <line x1="72" y1="56" x2="78" y2="56" stroke="#2dd4bf" stroke-width="2.5"/>
+    <line x1="72" y1="64" x2="78" y2="64" stroke="#2dd4bf" stroke-width="2.5"/>
+
+    <text x="75" y="135" font-family="Arial, sans-serif" font-size="16" fill="#0d9488" text-anchor="middle">O₂</text>
+  </g>
+
+  <!-- Arrow -->
+  <g transform="translate(445, 135)">
+    <line x1="0" y1="25" x2="70" y2="25" stroke="#0d9488" stroke-width="4"/>
+    <polygon points="70,16 88,25 70,34" fill="#0d9488"/>
+  </g>
+
+  <!-- Product: 2H₂O -->
+  <g transform="translate(545, 90)">
+    <rect x="0" y="0" width="210" height="120" rx="10" fill="white" fill-opacity="0.6" stroke="#14b8a6" stroke-width="1.5" filter="url(#shadow3)"/>
+
+    <!-- H₂O molecule 1 -->
+    <circle cx="70" cy="45" r="22" fill="url(#oAtom)"/>
+    <text x="70" y="51" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="white" text-anchor="middle">O</text>
+    <circle cx="40" cy="80" r="16" fill="url(#hAtom)"/>
+    <text x="40" y="85" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">H</text>
+    <circle cx="100" cy="80" r="16" fill="url(#hAtom)"/>
+    <text x="100" y="85" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">H</text>
+    <line x1="56" y1="60" x2="48" y2="72" stroke="#2dd4bf" stroke-width="2"/>
+    <line x1="84" y1="60" x2="92" y2="72" stroke="#2dd4bf" stroke-width="2"/>
+
+    <!-- H₂O molecule 2 (smaller, background) -->
+    <circle cx="170" cy="55" r="18" fill="url(#oAtom)" opacity="0.7"/>
+    <text x="170" y="60" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">O</text>
+    <circle cx="148" cy="82" r="13" fill="url(#hAtom)" opacity="0.7"/>
+    <text x="148" y="86" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">H</text>
+    <circle cx="192" cy="82" r="13" fill="url(#hAtom)" opacity="0.7"/>
+    <text x="192" y="86" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">H</text>
+    <line x1="158" y1="67" x2="152" y2="75" stroke="#2dd4bf" stroke-width="1.5" opacity="0.7"/>
+    <line x1="182" y1="67" x2="188" y2="75" stroke="#2dd4bf" stroke-width="1.5" opacity="0.7"/>
+
+    <!-- Coefficient 2 -->
+    <text x="15" y="78" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#0d9488">2</text>
+
+    <text x="105" y="135" font-family="Arial, sans-serif" font-size="16" fill="#0d9488" text-anchor="middle">2H₂O</text>
+  </g>
+
+  <!-- Equation text -->
+  <rect x="120" y="248" width="560" height="40" rx="8" fill="#0d9488" opacity="0.1" stroke="#14b8a6" stroke-width="1.5"/>
+  <text x="400" y="275" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#0d9488" text-anchor="middle">2H₂ + O₂ → 2H₂O</text>
+
+  <!-- Conservation law box -->
+  <rect x="80" y="310" width="640" height="60" rx="10" fill="white" fill-opacity="0.7" stroke="#0d9488" stroke-width="2" filter="url(#shadow3)"/>
+  <text x="400" y="335" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0d9488" text-anchor="middle">Закон сохранения массы</text>
+  <text x="400" y="360" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6" text-anchor="middle">Масса веществ до реакции = Масса веществ после реакции</text>
+
+  <!-- Atom regrouping illustration -->
+  <rect x="80" y="390" width="640" height="85" rx="10" fill="white" fill-opacity="0.6" stroke="#14b8a6" stroke-width="1.5" filter="url(#shadow3)"/>
+
+  <text x="400" y="415" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0d9488" text-anchor="middle">Атомы перегруппировываются</text>
+
+  <!-- Before atoms -->
+  <g transform="translate(130, 430)">
+    <circle cx="0" cy="15" r="10" fill="url(#hAtom)"/>
+    <circle cx="22" cy="15" r="10" fill="url(#hAtom)"/>
+    <circle cx="48" cy="15" r="10" fill="url(#hAtom)"/>
+    <circle cx="70" cy="15" r="10" fill="url(#hAtom)"/>
+    <circle cx="100" cy="15" r="14" fill="url(#oAtom)"/>
+    <circle cx="128" cy="15" r="14" fill="url(#oAtom)"/>
+  </g>
+
+  <!-- Arrow -->
+  <g transform="translate(310, 440)">
+    <line x1="0" y1="8" x2="40" y2="8" stroke="#0d9488" stroke-width="3"/>
+    <polygon points="40,2 52,8 40,14" fill="#0d9488"/>
+  </g>
+
+  <!-- After atoms (regrouped) -->
+  <g transform="translate(390, 430)">
+    <!-- H₂O molecule 1 -->
+    <circle cx="14" cy="10" r="14" fill="url(#oAtom)"/>
+    <circle cx="0" cy="30" r="10" fill="url(#hAtom)"/>
+    <circle cx="28" cy="30" r="10" fill="url(#hAtom)"/>
+    <line x1="8" y1="20" x2="4" y2="24" stroke="#2dd4bf" stroke-width="1.5"/>
+    <line x1="20" y1="20" x2="24" y2="24" stroke="#2dd4bf" stroke-width="1.5"/>
+
+    <!-- H₂O molecule 2 -->
+    <circle cx="80" cy="10" r="14" fill="url(#oAtom)"/>
+    <circle cx="66" cy="30" r="10" fill="url(#hAtom)"/>
+    <circle cx="94" cy="30" r="10" fill="url(#hAtom)"/>
+    <line x1="74" y1="20" x2="70" y2="24" stroke="#2dd4bf" stroke-width="1.5"/>
+    <line x1="86" y1="20" x2="90" y2="24" stroke="#2dd4bf" stroke-width="1.5"/>
+  </g>
+
+  <!-- Atom count verification -->
+  <g transform="translate(560, 432)">
+    <rect x="0" y="0" width="140" height="38" rx="6" fill="#f0fdfa" stroke="#2dd4bf" stroke-width="1"/>
+    <text x="70" y="15" font-family="Arial, sans-serif" font-size="11" fill="#0d9488" text-anchor="middle">H: 4 → 4 ✓</text>
+    <text x="70" y="30" font-family="Arial, sans-serif" font-size="11" fill="#0d9488" text-anchor="middle">O: 2 → 2 ✓</text>
+  </g>
+</svg>

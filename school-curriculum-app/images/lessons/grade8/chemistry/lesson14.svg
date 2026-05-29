@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg14" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0fdfa"/>
+      <stop offset="100%" stop-color="#ccfbf1"/>
+    </linearGradient>
+    <filter id="shadow14">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrow14" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#0d9488"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg14)" rx="12"/>
+
+  <!-- Title -->
+  <text x="400" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#0d9488">Металлическая связь</text>
+  <text x="400" y="64" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">Связь в металлах между катионами и свободными электронами</text>
+
+  <!-- Metal lattice section -->
+  <rect x="30" y="80" width="440" height="280" rx="12" fill="white" fill-opacity="0.6" stroke="#2dd4bf" stroke-width="1.5" filter="url(#shadow14)"/>
+  <text x="250" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0d9488">Кристаллическая решётка металла</text>
+
+  <!-- Electron cloud (background) -->
+  <ellipse cx="250" cy="225" rx="190" ry="110" fill="#2dd4bf" fill-opacity="0.1" stroke="#2dd4bf" stroke-width="1" stroke-dasharray="5,3"/>
+
+  <!-- Free electrons in cloud -->
+  <circle cx="180" cy="170" r="3" fill="#0d9488" opacity="0.7"/>
+  <circle cx="220" cy="190" r="3" fill="#0d9488" opacity="0.7"/>
+  <circle cx="260" cy="165" r="3" fill="#0d9488" opacity="0.7"/>
+  <circle cx="300" cy="185" r="3" fill="#0d9488" opacity="0.7"/>
+  <circle cx="340" cy="170" r="3" fill="#0d9488" opacity="0.7"/>
+  <circle cx="160" cy="225" r="3" fill="#0d9488" opacity="0.7"/>
+  <circle cx="200" cy="240" r="3" fill="#0d9488" opacity="0.7"/>
+  <circle cx="240" cy="215" r="3" fill="#0d9488" opacity="0.7"/>
+  <circle cx="280" cy="250" r="3" fill="#0d9488" opacity="0.7"/>
+  <circle cx="320" cy="230" r="3" fill="#0d9488" opacity="0.7"/>
+  <circle cx="350" cy="250" r="3" fill="#0d9488" opacity="0.7"/>
+  <circle cx="170" cy="275" r="3" fill="#0d9488" opacity="0.7"/>
+  <circle cx="210" cy="290" r="3" fill="#0d9488" opacity="0.7"/>
+  <circle cx="250" cy="280" r="3" fill="#0d9488" opacity="0.7"/>
+  <circle cx="290" cy="295" r="3" fill="#0d9488" opacity="0.7"/>
+  <circle cx="330" cy="280" r="3" fill="#0d9488" opacity="0.7"/>
+  <circle cx="190" cy="205" r="3" fill="#0d9488" opacity="0.7"/>
+  <circle cx="310" cy="210" r="3" fill="#0d9488" opacity="0.7"/>
+
+  <!-- Metal cation grid - Row 1 -->
+  <circle cx="130" cy="140" r="20" fill="#ccfbf1" stroke="#0d9488" stroke-width="2"/>
+  <text x="130" y="143" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#0d9488">Meⁿ⁺</text>
+
+  <circle cx="250" cy="140" r="20" fill="#ccfbf1" stroke="#0d9488" stroke-width="2"/>
+  <text x="250" y="143" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#0d9488">Meⁿ⁺</text>
+
+  <circle cx="370" cy="140" r="20" fill="#ccfbf1" stroke="#0d9488" stroke-width="2"/>
+  <text x="370" y="143" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#0d9488">Meⁿ⁺</text>
+
+  <!-- Row 2 -->
+  <circle cx="190" cy="220" r="20" fill="#ccfbf1" stroke="#0d9488" stroke-width="2"/>
+  <text x="190" y="223" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#0d9488">Meⁿ⁺</text>
+
+  <circle cx="310" cy="220" r="20" fill="#ccfbf1" stroke="#0d9488" stroke-width="2"/>
+  <text x="310" y="223" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#0d9488">Meⁿ⁺</text>
+
+  <!-- Row 3 -->
+  <circle cx="130" cy="300" r="20" fill="#ccfbf1" stroke="#0d9488" stroke-width="2"/>
+  <text x="130" y="303" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#0d9488">Meⁿ⁺</text>
+
+  <circle cx="250" cy="300" r="20" fill="#ccfbf1" stroke="#0d9488" stroke-width="2"/>
+  <text x="250" y="303" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#0d9488">Meⁿ⁺</text>
+
+  <circle cx="370" cy="300" r="20" fill="#ccfbf1" stroke="#0d9488" stroke-width="2"/>
+  <text x="370" y="303" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#0d9488">Meⁿ⁺</text>
+
+  <!-- Labels -->
+  <text x="250" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0d9488">● Катионы Meⁿ⁺ в узлах решётки</text>
+  <text x="250" y="368" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6">· Электронный газ (свободные электроны)</text>
+
+  <!-- Properties section -->
+  <rect x="490" y="80" width="280" height="280" rx="12" fill="white" fill-opacity="0.6" stroke="#2dd4bf" stroke-width="1.5" filter="url(#shadow14)"/>
+  <text x="630" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0d9488">Свойства металлов</text>
+
+  <!-- Property 1: Электропроводность -->
+  <g transform="translate(630, 165)">
+    <rect x="-110" y="-30" width="220" height="55" rx="8" fill="#ccfbf1" fill-opacity="0.5" stroke="#2dd4bf" stroke-width="1"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#0d9488">Электропроводность</text>
+    <text x="0" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#14b8a6">Свободные электроны переносят заряд</text>
+    <!-- Small conductivity icon: arrow through wire -->
+    <line x1="-95" y1="-10" x2="-75" y2="-10" stroke="#0d9488" stroke-width="2" marker-end="url(#arrow14)"/>
+  </g>
+
+  <!-- Property 2: Пластичность -->
+  <g transform="translate(630, 245)">
+    <rect x="-110" y="-30" width="220" height="55" rx="8" fill="#ccfbf1" fill-opacity="0.5" stroke="#2dd4bf" stroke-width="1"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#0d9488">Пластичность</text>
+    <text x="0" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#14b8a6">Слои ионов смещаются без разрыва</text>
+    <!-- Small plasticity icon: curved arrow -->
+    <path d="M -95 -10 Q -85 -20 -75 -10" fill="none" stroke="#0d9488" stroke-width="2" marker-end="url(#arrow14)"/>
+  </g>
+
+  <!-- Property 3: Теплопроводность -->
+  <g transform="translate(630, 325)">
+    <rect x="-110" y="-30" width="220" height="55" rx="8" fill="#ccfbf1" fill-opacity="0.5" stroke="#2dd4bf" stroke-width="1"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#0d9488">Теплопроводность</text>
+    <text x="0" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#14b8a6">Электроны передают кинетическую энергию</text>
+  </g>
+
+  <!-- Bottom summary -->
+  <rect x="40" y="400" width="720" height="80" rx="10" fill="white" fill-opacity="0.8" stroke="#2dd4bf" stroke-width="1"/>
+  <text x="400" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#0d9488">Металлическая связь — связь между положительными ионами в узлах кристаллической решётки</text>
+  <text x="400" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6">и свободными электронами (электронным газом), перемещающимися по всему кристаллу.</text>
+  <text x="400" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6">Атомы отдают валентные электроны → образуются катионы → электроны становятся общими для всего металла.</text>
+</svg>

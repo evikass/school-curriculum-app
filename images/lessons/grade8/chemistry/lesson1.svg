@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0fdfa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ccfbf1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="flaskGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2dd4bf;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#0d9488;stop-opacity:0.8" />
+    </linearGradient>
+    <filter id="shadow1" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#0d9488" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg1)" rx="12" ry="12"/>
+  <rect x="2" y="2" width="796" height="496" fill="none" stroke="#0d9488" stroke-width="2" rx="12" ry="12"/>
+
+  <!-- Title -->
+  <text x="400" y="48" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#0d9488" text-anchor="middle">Три состояния вещества</text>
+  <line x1="200" y1="60" x2="600" y2="60" stroke="#14b8a6" stroke-width="2" stroke-dasharray="6,3"/>
+
+  <!-- Panel 1: Solid (Твёрдое) -->
+  <rect x="40" y="85" width="220" height="300" rx="10" ry="10" fill="white" fill-opacity="0.8" stroke="#14b8a6" stroke-width="2" filter="url(#shadow1)"/>
+  <text x="150" y="118" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0d9488" text-anchor="middle">Твёрдое</text>
+
+  <!-- Solid particles - tight grid -->
+  <circle cx="110" cy="170" r="14" fill="#0d9488" opacity="0.9"/>
+  <circle cx="142" cy="170" r="14" fill="#14b8a6" opacity="0.9"/>
+  <circle cx="174" cy="170" r="14" fill="#0d9488" opacity="0.9"/>
+  <circle cx="110" cy="202" r="14" fill="#14b8a6" opacity="0.9"/>
+  <circle cx="142" cy="202" r="14" fill="#0d9488" opacity="0.9"/>
+  <circle cx="174" cy="202" r="14" fill="#14b8a6" opacity="0.9"/>
+  <circle cx="110" cy="234" r="14" fill="#0d9488" opacity="0.9"/>
+  <circle cx="142" cy="234" r="14" fill="#14b8a6" opacity="0.9"/>
+  <circle cx="174" cy="234" r="14" fill="#0d9488" opacity="0.9"/>
+  <circle cx="110" cy="266" r="14" fill="#14b8a6" opacity="0.9"/>
+  <circle cx="142" cy="266" r="14" fill="#0d9488" opacity="0.9"/>
+  <circle cx="174" cy="266" r="14" fill="#14b8a6" opacity="0.9"/>
+
+  <!-- Bonds between solid particles -->
+  <line x1="124" y1="170" x2="128" y2="170" stroke="#2dd4bf" stroke-width="2"/>
+  <line x1="156" y1="170" x2="160" y2="170" stroke="#2dd4bf" stroke-width="2"/>
+  <line x1="110" y1="184" x2="110" y2="188" stroke="#2dd4bf" stroke-width="2"/>
+  <line x1="142" y1="184" x2="142" y2="188" stroke="#2dd4bf" stroke-width="2"/>
+  <line x1="174" y1="184" x2="174" y2="188" stroke="#2dd4bf" stroke-width="2"/>
+
+  <text x="150" y="310" font-family="Arial, sans-serif" font-size="13" fill="#0d9488" text-anchor="middle">Частицы расположены</text>
+  <text x="150" y="328" font-family="Arial, sans-serif" font-size="13" fill="#0d9488" text-anchor="middle">упорядоченно</text>
+  <text x="150" y="350" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6" text-anchor="middle">Форма и объём постоянны</text>
+
+  <!-- Panel 2: Liquid (Жидкое) -->
+  <rect x="290" y="85" width="220" height="300" rx="10" ry="10" fill="white" fill-opacity="0.8" stroke="#14b8a6" stroke-width="2" filter="url(#shadow1)"/>
+  <text x="400" y="118" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0d9488" text-anchor="middle">Жидкое</text>
+
+  <!-- Liquid particles - close but slightly disordered -->
+  <circle cx="355" cy="165" r="14" fill="#14b8a6" opacity="0.85"/>
+  <circle cx="390" cy="175" r="14" fill="#0d9488" opacity="0.85"/>
+  <circle cx="425" cy="162" r="14" fill="#14b8a6" opacity="0.85"/>
+  <circle cx="345" cy="200" r="14" fill="#0d9488" opacity="0.85"/>
+  <circle cx="380" cy="195" r="14" fill="#14b8a6" opacity="0.85"/>
+  <circle cx="415" cy="205" r="14" fill="#0d9488" opacity="0.85"/>
+  <circle cx="440" cy="192" r="14" fill="#14b8a6" opacity="0.85"/>
+  <circle cx="360" cy="233" r="14" fill="#0d9488" opacity="0.85"/>
+  <circle cx="395" cy="240" r="14" fill="#14b8a6" opacity="0.85"/>
+  <circle cx="430" cy="235" r="14" fill="#0d9488" opacity="0.85"/>
+  <circle cx="370" cy="268" r="14" fill="#14b8a6" opacity="0.85"/>
+  <circle cx="405" cy="272" r="14" fill="#0d9488" opacity="0.85"/>
+  <circle cx="435" cy="265" r="14" fill="#14b8a6" opacity="0.85"/>
+
+  <!-- Liquid container hint -->
+  <path d="M340,290 L340,280 Q340,275 345,275 L450,275 Q455,275 455,280 L455,290" fill="none" stroke="#14b8a6" stroke-width="1.5" stroke-dasharray="4,2"/>
+
+  <text x="400" y="310" font-family="Arial, sans-serif" font-size="13" fill="#0d9488" text-anchor="middle">Частицы расположены</text>
+  <text x="400" y="328" font-family="Arial, sans-serif" font-size="13" fill="#0d9488" text-anchor="middle">близко, но подвижны</text>
+  <text x="400" y="350" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6" text-anchor="middle">Объём постоянен, форма нет</text>
+
+  <!-- Panel 3: Gas (Газообразное) -->
+  <rect x="540" y="85" width="220" height="300" rx="10" ry="10" fill="white" fill-opacity="0.8" stroke="#14b8a6" stroke-width="2" filter="url(#shadow1)"/>
+  <text x="650" y="118" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0d9488" text-anchor="middle">Газообразное</text>
+
+  <!-- Gas particles - far apart, scattered -->
+  <circle cx="580" cy="155" r="12" fill="#2dd4bf" opacity="0.75"/>
+  <circle cx="650" cy="170" r="12" fill="#0d9488" opacity="0.75"/>
+  <circle cx="720" cy="148" r="12" fill="#14b8a6" opacity="0.75"/>
+  <circle cx="610" cy="210" r="12" fill="#0d9488" opacity="0.75"/>
+  <circle cx="690" cy="225" r="12" fill="#2dd4bf" opacity="0.75"/>
+  <circle cx="565" cy="260" r="12" fill="#14b8a6" opacity="0.75"/>
+  <circle cx="640" cy="275" r="12" fill="#0d9488" opacity="0.75"/>
+  <circle cx="730" cy="255" r="12" fill="#14b8a6" opacity="0.75"/>
+  <circle cx="600" cy="310" r="12" fill="#2dd4bf" opacity="0.75"/>
+  <circle cx="680" cy="295" r="12" fill="#0d9488" opacity="0.75"/>
+
+  <!-- Motion lines for gas particles -->
+  <line x1="567" y1="145" x2="560" y2="138" stroke="#2dd4bf" stroke-width="1" opacity="0.5"/>
+  <line x1="662" y1="160" x2="670" y2="153" stroke="#0d9488" stroke-width="1" opacity="0.5"/>
+  <line x1="732" y1="140" x2="740" y2="135" stroke="#14b8a6" stroke-width="1" opacity="0.5"/>
+  <line x1="622" y1="202" x2="630" y2="198" stroke="#0d9488" stroke-width="1" opacity="0.5"/>
+  <line x1="552" y1="253" x2="545" y2="248" stroke="#14b8a6" stroke-width="1" opacity="0.5"/>
+  <line x1="648" y1="285" x2="655" y2="290" stroke="#0d9488" stroke-width="1" opacity="0.5"/>
+  <line x1="742" y1="248" x2="750" y2="242" stroke="#14b8a6" stroke-width="1" opacity="0.5"/>
+
+  <text x="650" y="345" font-family="Arial, sans-serif" font-size="13" fill="#0d9488" text-anchor="middle">Частицы далеко друг</text>
+  <text x="650" y="363" font-family="Arial, sans-serif" font-size="13" fill="#0d9488" text-anchor="middle">от друга, хаотично</text>
+  <text x="650" y="380" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6" text-anchor="middle">Нет формы и объёма</text>
+
+  <!-- Flask icon in bottom center -->
+  <g transform="translate(355, 400)">
+    <!-- Flask body -->
+    <path d="M30,0 L30,30 L5,70 Q0,80 10,85 L70,85 Q80,80 75,70 L50,30 L50,0 Z" fill="url(#flaskGrad)" stroke="#0d9488" stroke-width="2"/>
+    <!-- Flask neck -->
+    <rect x="28" y="-5" width="24" height="8" rx="2" fill="#2dd4bf" stroke="#0d9488" stroke-width="1.5"/>
+    <!-- Bubbles -->
+    <circle cx="35" cy="65" r="4" fill="#ccfbf1" opacity="0.8"/>
+    <circle cx="50" cy="55" r="3" fill="#ccfbf1" opacity="0.8"/>
+    <circle cx="42" cy="72" r="5" fill="#ccfbf1" opacity="0.7"/>
+    <!-- Liquid line -->
+    <path d="M12,60 Q40,55 68,60 L68,85 L12,85 Z" fill="#14b8a6" opacity="0.4"/>
+  </g>
+
+  <!-- Footer text -->
+  <text x="400" y="480" font-family="Arial, sans-serif" font-size="14" fill="#0d9488" text-anchor="middle" font-style="italic">Химия — наука о веществах и их превращениях</text>
+</svg>

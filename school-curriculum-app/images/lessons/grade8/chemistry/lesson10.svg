@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <marker id="arrowRight10" markerWidth="12" markerHeight="8" refX="11" refY="4" orient="auto">
+      <polygon points="0 0, 12 4, 0 8" fill="#0d9488"/>
+    </marker>
+    <marker id="arrowDown10" markerWidth="8" markerHeight="12" refX="4" refY="11" orient="auto">
+      <polygon points="0 0, 8 0, 4 12" fill="#14b8a6"/>
+    </marker>
+    <linearGradient id="metalGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#14b8a6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="nonmetalGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.1"/>
+      <stop offset="50%" stop-color="#14b8a6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" rx="16" fill="#f0fdfa"/>
+  <rect x="4" y="4" width="792" height="492" rx="14" fill="none" stroke="#0d9488" stroke-width="2" opacity="0.3"/>
+
+  <!-- Title -->
+  <text x="400" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#0d9488">Изменение свойств элементов</text>
+  <text x="400" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#64748b">Закономерности в периодической системе</text>
+
+  <!-- === LEFT SECTION: Changes in a Period (horizontal) === -->
+  <rect x="30" y="80" width="460" height="195" rx="14" fill="white" stroke="#14b8a6" stroke-width="2" opacity="0.95"/>
+
+  <text x="260" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0d9488">В периоде (слева направо →)</text>
+  <line x1="50" y1="115" x2="470" y2="115" stroke="#2dd4bf" stroke-width="1"/>
+
+  <!-- Gradient bar showing Metal → Non-metal -->
+  <rect x="70" y="125" width="380" height="35" rx="8" fill="url(#metalGrad)"/>
+  <rect x="70" y="125" width="380" height="35" rx="8" fill="none" stroke="#0d9488" stroke-width="1"/>
+
+  <text x="110" y="148" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="white">Ме</text>
+  <text x="240" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#0d9488">переход свойств</text>
+  <text x="410" y="148" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#0d9488">НеМе</text>
+
+  <!-- Arrow -->
+  <line x1="70" y1="170" x2="440" y2="170" stroke="#0d9488" stroke-width="2.5" marker-end="url(#arrowRight10)"/>
+
+  <!-- Property changes listed -->
+  <text x="70" y="195" font-family="Arial, sans-serif" font-size="13" fill="#1e293b">• Металлические свойства ↓ ослабевают</text>
+  <text x="70" y="215" font-family="Arial, sans-serif" font-size="13" fill="#1e293b">• Неметаллические свойства ↑ усиливаются</text>
+  <text x="70" y="240" font-family="Arial, sans-serif" font-size="13" fill="#1e293b">• Атомный радиус ↓ уменьшается</text>
+  <text x="70" y="260" font-family="Arial, sans-serif" font-size="13" fill="#1e293b">• Электроотрицательность ↑ возрастает</text>
+
+  <!-- === RIGHT SECTION: Changes in a Group (vertical) === -->
+  <rect x="510" y="80" width="270" height="195" rx="14" fill="white" stroke="#14b8a6" stroke-width="2" opacity="0.95"/>
+
+  <text x="645" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0d9488">В группе (сверху вниз ↓)</text>
+  <line x1="530" y1="115" x2="760" y2="115" stroke="#2dd4bf" stroke-width="1"/>
+
+  <!-- Vertical gradient: Non-metal (top) → Metal (bottom) -->
+  <rect x="540" y="125" width="120" height="135" rx="8" fill="#2dd4bf" opacity="0.1"/>
+  <rect x="540" y="125" width="120" height="45" rx="8" fill="#2dd4bf" opacity="0.5"/>
+  <rect x="540" y="170" width="120" height="45" rx="0" fill="#14b8a6" opacity="0.3"/>
+  <rect x="540" y="215" width="120" height="45" rx="8" fill="#0d9488" opacity="0.5"/>
+  <rect x="540" y="125" width="120" height="135" rx="8" fill="none" stroke="#0d9488" stroke-width="1"/>
+
+  <text x="600" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#0d9488">НеМе</text>
+  <text x="600" y="197" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#0d9488">переход</text>
+  <text x="600" y="247" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="white">Ме</text>
+
+  <!-- Vertical arrow -->
+  <line x1="690" y1="130" x2="690" y2="252" stroke="#14b8a6" stroke-width="2.5" marker-end="url(#arrowDown10)"/>
+
+  <!-- Property changes for group -->
+  <text x="530" y="278" font-family="Arial, sans-serif" font-size="11" fill="#1e293b">• Ме свойства ↑</text>
+  <text x="650" y="278" font-family="Arial, sans-serif" font-size="11" fill="#1e293b">• НеМе ↓</text>
+
+  <!-- === BOTTOM SECTION: Most active elements === -->
+  <rect x="30" y="295" width="740" height="185" rx="14" fill="white" stroke="#14b8a6" stroke-width="2" opacity="0.95"/>
+
+  <text x="400" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0d9488">Самые активные элементы</text>
+  <line x1="50" y1="330" x2="750" y2="330" stroke="#2dd4bf" stroke-width="1"/>
+
+  <!-- Most active metal: Fr (Francium) -->
+  <rect x="60" y="345" width="320" height="120" rx="12" fill="#ccfbf1" stroke="#0d9488" stroke-width="2"/>
+
+  <!-- Element card for Fr -->
+  <rect x="80" y="360" width="100" height="90" rx="10" fill="#0d9488"/>
+  <text x="85" y="380" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">87</text>
+  <text x="130" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="white">Fr</text>
+  <text x="130" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccfbf1">Франций</text>
+
+  <!-- Fr description -->
+  <text x="200" y="385" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0d9488">Самый активный</text>
+  <text x="200" y="405" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0d9488">металл</text>
+  <text x="200" y="430" font-family="Arial, sans-serif" font-size="12" fill="#64748b">I группа, VII период</text>
+  <text x="200" y="450" font-family="Arial, sans-serif" font-size="12" fill="#64748b">1e⁻ на внешнем уровне</text>
+  <text x="200" y="465" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Легко отдаёт e⁻</text>
+
+  <!-- Most active non-metal: F (Fluorine) -->
+  <rect x="420" y="345" width="320" height="120" rx="12" fill="#f0fdfa" stroke="#2dd4bf" stroke-width="2"/>
+
+  <!-- Element card for F -->
+  <rect x="440" y="360" width="100" height="90" rx="10" fill="#2dd4bf"/>
+  <text x="445" y="380" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">9</text>
+  <text x="490" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="white">F</text>
+  <text x="490" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#f0fdfa">Фтор</text>
+
+  <!-- F description -->
+  <text x="560" y="385" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0d9488">Самый активный</text>
+  <text x="560" y="405" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0d9488">неметалл</text>
+  <text x="560" y="430" font-family="Arial, sans-serif" font-size="12" fill="#64748b">VII группа, II период</text>
+  <text x="560" y="450" font-family="Arial, sans-serif" font-size="12" fill="#64748b">7e⁻ на внешнем уровне</text>
+  <text x="560" y="465" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Легко принимает e⁻</text>
+
+  <!-- Connecting arrow between Fr and F -->
+  <line x1="380" y1="405" x2="420" y2="405" stroke="#0d9488" stroke-width="2" stroke-dasharray="4,2"/>
+  <text x="400" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#0d9488">⟷</text>
+
+  <!-- Summary formulas at very top-right corner -->
+  <rect x="610" y="65" width="170" height="14" rx="4" fill="#f0fdfa" opacity="0.8"/>
+  <text x="695" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#0d9488">В периоде: Ме ↓  НеМе ↑</text>
+
+  <!-- Re-adding these as small summary badges -->
+  <rect x="30" y="62" width="195" height="14" rx="4" fill="#f0fdfa" opacity="0.8"/>
+  <text x="127" y="73" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#14b8a6">В группе: Ме ↑  НеМе ↓</text>
+</svg>

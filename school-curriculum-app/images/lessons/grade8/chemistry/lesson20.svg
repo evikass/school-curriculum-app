@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bgGrad20" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0fdfa"/>
+      <stop offset="100%" stop-color="#ccfbf1"/>
+    </linearGradient>
+    <filter id="shadow20" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="2" stdDeviation="3" flood-color="#0d9488" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" rx="16" fill="url(#bgGrad20)"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="800" height="60" rx="16" fill="#0d9488"/>
+  <rect x="0" y="30" width="800" height="30" fill="#0d9488"/>
+  <text x="400" y="42" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#f0fdfa" text-anchor="middle">Расчёты по химическим уравнениям</text>
+
+  <!-- Equation box -->
+  <rect x="30" y="75" width="740" height="60" rx="12" fill="white" stroke="#0d9488" stroke-width="2.5" filter="url(#shadow20)"/>
+  <text x="400" y="100" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6" text-anchor="middle">Уравнение реакции:</text>
+  <text x="400" y="125" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#0d9488" text-anchor="middle">2H₂ + O₂ → 2H₂O</text>
+
+  <!-- Given info -->
+  <rect x="30" y="148" width="740" height="38" rx="8" fill="#14b8a6" opacity="0.15" stroke="#14b8a6" stroke-width="1.5"/>
+  <text x="400" y="173" font-family="Arial, sans-serif" font-size="17" fill="#0d9488" text-anchor="middle">Дано: m(H₂) = 8 г.  Найти: m(H₂O) — ?</text>
+
+  <!-- Step 1 -->
+  <rect x="30" y="200" width="740" height="62" rx="12" fill="white" stroke="#14b8a6" stroke-width="2" filter="url(#shadow20)"/>
+  <rect x="30" y="200" width="50" height="62" rx="12" fill="#14b8a6"/>
+  <rect x="55" y="200" width="25" height="62" fill="#14b8a6"/>
+  <text x="55" y="238" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">1</text>
+
+  <text x="90" y="225" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#14b8a6">Шаг 1: Найдём количество вещества H₂</text>
+  <text x="90" y="250" font-family="Arial, sans-serif" font-size="17" fill="#0d9488">n(H₂) = m / M = 8 г / 2 г/моль = 4 моль</text>
+
+  <!-- Arrow between steps -->
+  <text x="400" y="276" font-family="Arial, sans-serif" font-size="18" fill="#14b8a6" text-anchor="middle">↓</text>
+
+  <!-- Step 2 -->
+  <rect x="30" y="286" width="740" height="62" rx="12" fill="white" stroke="#14b8a6" stroke-width="2" filter="url(#shadow20)"/>
+  <rect x="30" y="286" width="50" height="62" rx="12" fill="#14b8a6"/>
+  <rect x="55" y="286" width="25" height="62" fill="#14b8a6"/>
+  <text x="55" y="324" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">2</text>
+
+  <text x="90" y="311" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#14b8a6">Шаг 2: По уравнению (коэффициенты 2 : 2)</text>
+  <text x="90" y="336" font-family="Arial, sans-serif" font-size="17" fill="#0d9488">n(H₂O) = n(H₂) = 4 моль (соотношение 2 : 2 = 1 : 1)</text>
+
+  <!-- Arrow between steps -->
+  <text x="400" y="362" font-family="Arial, sans-serif" font-size="18" fill="#14b8a6" text-anchor="middle">↓</text>
+
+  <!-- Step 3 -->
+  <rect x="30" y="372" width="740" height="62" rx="12" fill="white" stroke="#14b8a6" stroke-width="2" filter="url(#shadow20)"/>
+  <rect x="30" y="372" width="50" height="62" rx="12" fill="#0d9488"/>
+  <rect x="55" y="372" width="25" height="62" fill="#0d9488"/>
+  <text x="55" y="410" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">3</text>
+
+  <text x="90" y="397" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#14b8a6">Шаг 3: Найдём массу H₂O</text>
+  <text x="90" y="422" font-family="Arial, sans-serif" font-size="17" fill="#0d9488">m(H₂O) = n · M = 4 моль · 18 г/моль = 72 г</text>
+
+  <!-- Answer box -->
+  <rect x="180" y="450" width="440" height="40" rx="20" fill="#0d9488" filter="url(#shadow20)"/>
+  <text x="400" y="476" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#f0fdfa" text-anchor="middle">Ответ: m(H₂O) = 72 г</text>
+</svg>
