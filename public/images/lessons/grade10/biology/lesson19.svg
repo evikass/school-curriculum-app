@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Энергетический обмен</text>
+<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 10 класс — Урок 19</text>
+<line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+
+<!-- Three stages -->
+<g transform="translate(85,130)">
+<rect x="-55" y="-40" width="110" height="80" rx="5" fill="white" stroke="#FF9800" stroke-width="1.5"/>
+<text x="0" y="-28" font-family="Arial,sans-serif" font-size="7" fill="#FF9800" text-anchor="middle" font-weight="bold">I. Подготовка</text>
+<line x1="-40" y1="-20" x2="40" y2="-20" stroke="#FF9800" stroke-width="0.5"/>
+<text x="0" y="-5" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Белки -> аминок-ты</text>
+<text x="0" y="7" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Жиры -> глицерин + ЖК</text>
+<text x="0" y="19" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Крахмал -> глюкоза</text>
+<text x="0" y="33" font-family="Arial,sans-serif" font-size="5" fill="#FF9800" text-anchor="middle">В лизосомах</text>
+</g>
+<g transform="translate(250,130)">
+<rect x="-55" y="-40" width="110" height="80" rx="5" fill="white" stroke="#E53935" stroke-width="1.5"/>
+<text x="0" y="-28" font-family="Arial,sans-serif" font-size="7" fill="#E53935" text-anchor="middle" font-weight="bold">II. Гликолиз</text>
+<line x1="-40" y1="-20" x2="40" y2="-20" stroke="#E53935" stroke-width="0.5"/>
+<text x="0" y="-5" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">C6H12O6 -> 2C3H4O3</text>
+<text x="0" y="7" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Глюкоза -> ПВК</text>
+<text x="0" y="19" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">2 АТФ (чистых)</text>
+<text x="0" y="33" font-family="Arial,sans-serif" font-size="5" fill="#E53935" text-anchor="middle">В цитоплазме</text>
+</g>
+<g transform="translate(415,130)">
+<rect x="-55" y="-40" width="110" height="80" rx="5" fill="white" stroke="#9C27B0" stroke-width="1.5"/>
+<text x="0" y="-28" font-family="Arial,sans-serif" font-size="7" fill="#9C27B0" text-anchor="middle" font-weight="bold">III. Клеточ. дыхание</text>
+<line x1="-40" y1="-20" x2="40" y2="-20" stroke="#9C27B0" stroke-width="0.5"/>
+<text x="0" y="-5" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">ПВК + O2 -> CO2 + H2O</text>
+<text x="0" y="7" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Цикл Кребса</text>
+<text x="0" y="19" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">36 АТФ</text>
+<text x="0" y="33" font-family="Arial,sans-serif" font-size="5" fill="#9C27B0" text-anchor="middle">В митохондриях</text>
+</g>
+<rect x="30" y="260" width="440" height="40" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
+<text x="250" y="274" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Общее уравнение: C6H12O6 + 6O2 -> 6CO2 + 6H2O + 38 АТФ</text>
+<text x="250" y="285" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Гликолиз: 2 АТФ (бескислородный) | Клеточное дыхание: 36 АТФ (кислородный)</text>
+<text x="250" y="296" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Брожение (без O2): молочнокислое, спиртовое — 2 АТФ</text>
+
+<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 10 класс</text>
+</svg>

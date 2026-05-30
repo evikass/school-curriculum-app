@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <linearGradient id="tealLight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#14b8a6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#14b8a6" stop-opacity="0.05"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <!-- Header bar -->
+  <rect x="0" y="0" width="800" height="52" rx="0" fill="url(#headerGrad)" opacity="0.9"/>
+  <text x="400" y="34" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Значение периодического закона</text>
+  <!-- Applications section title -->
+  <text x="400" y="76" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="14" font-weight="bold" filter="url(#glow)">Применения периодического закона</text>
+  <!-- App 1: Predicting undiscovered elements -->
+  <rect x="25" y="90" width="232" height="90" rx="10" fill="#1e293b" stroke="#14b8a6" stroke-width="1.2" opacity="0.9"/>
+  <rect x="25" y="90" width="232" height="26" rx="10" fill="#14b8a6" opacity="0.2"/>
+  <text x="141" y="108" text-anchor="middle" fill="#14b8a6" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Предсказание элементов</text>
+  <text x="40" y="132" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Менделеев предсказал</text>
+  <text x="40" y="146" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">существование и свойства</text>
+  <text x="40" y="160" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">неоткрытых элементов</text>
+  <text x="40" y="174" fill="#f59e0b" font-family="Arial, sans-serif" font-size="9">Sc, Ga, Ge — подтверждено!</text>
+  <!-- App 2: Determining composition -->
+  <rect x="275" y="90" width="232" height="90" rx="10" fill="#1e293b" stroke="#10b981" stroke-width="1.2" opacity="0.9"/>
+  <rect x="275" y="90" width="232" height="26" rx="10" fill="#10b981" opacity="0.2"/>
+  <text x="391" y="108" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Определение свойств</text>
+  <text x="290" y="132" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Определение состава и</text>
+  <text x="290" y="146" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">свойств элементов по</text>
+  <text x="290" y="160" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">положению в ПСХЭ</text>
+  <text x="290" y="174" fill="#f59e0b" font-family="Arial, sans-serif" font-size="9">Z → свойства элемента</text>
+  <!-- App 3: Explaining chemical bonding -->
+  <rect x="525" y="90" width="232" height="90" rx="10" fill="#1e293b" stroke="#059669" stroke-width="1.2" opacity="0.9"/>
+  <rect x="525" y="90" width="232" height="26" rx="10" fill="#059669" opacity="0.2"/>
+  <text x="641" y="108" text-anchor="middle" fill="#059669" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Химическая связь</text>
+  <text x="540" y="132" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Объяснение природы</text>
+  <text x="540" y="146" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">химической связи между</text>
+  <text x="540" y="160" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">атомами элементов</text>
+  <text x="540" y="174" fill="#f59e0b" font-family="Arial, sans-serif" font-size="9">ЭО → ионная/ковалентная</text>
+  <!-- App 4: Element relationships -->
+  <rect x="25" y="195" width="232" height="90" rx="10" fill="#1e293b" stroke="#14b8a6" stroke-width="1.2" opacity="0.9"/>
+  <rect x="25" y="195" width="232" height="26" rx="10" fill="#14b8a6" opacity="0.15"/>
+  <text x="141" y="213" text-anchor="middle" fill="#14b8a6" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Связи между элементами</text>
+  <text x="40" y="237" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Понимание взаимосвязей</text>
+  <text x="40" y="251" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">между элементами</text>
+  <text x="40" y="265" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">в группах и периодах</text>
+  <text x="40" y="279" fill="#f59e0b" font-family="Arial, sans-serif" font-size="9">Закономерности ПСХЭ</text>
+  <!-- App 5: Classifying elements -->
+  <rect x="275" y="195" width="232" height="90" rx="10" fill="#1e293b" stroke="#10b981" stroke-width="1.2" opacity="0.9"/>
+  <rect x="275" y="195" width="232" height="26" rx="10" fill="#10b981" opacity="0.15"/>
+  <text x="391" y="213" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Классификация</text>
+  <text x="290" y="237" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Разделение на:</text>
+  <text x="290" y="253" fill="#f59e0b" font-family="Arial, sans-serif" font-size="10">● Металлы</text>
+  <text x="290" y="267" fill="#8b5cf6" font-family="Arial, sans-serif" font-size="10">● Неметаллы</text>
+  <text x="290" y="281" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">● Металлоиды</text>
+  <!-- Periodicity section -->
+  <rect x="525" y="195" width="232" height="90" rx="10" fill="#1e293b" stroke="#ef4444" stroke-width="1.2" opacity="0.9"/>
+  <rect x="525" y="195" width="232" height="26" rx="10" fill="#ef4444" opacity="0.15"/>
+  <text x="641" y="213" text-anchor="middle" fill="#ef4444" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Периодичность</text>
+  <text x="540" y="237" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">В группах: свойства</text>
+  <text x="540" y="251" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">изменяются закономерно</text>
+  <text x="540" y="267" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">В периодах: свойства</text>
+  <text x="540" y="281" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">меняются от металла к неметаллу</text>
+  <!-- Scientific significance -->
+  <rect x="25" y="305" width="735" height="80" rx="12" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5" opacity="0.9"/>
+  <rect x="25" y="305" width="735" height="28" rx="12" fill="#f59e0b" opacity="0.15"/>
+  <text x="392" y="324" text-anchor="middle" fill="#f59e0b" font-family="Arial, sans-serif" font-size="13" font-weight="bold" filter="url(#glow)">Научное значение периодического закона</text>
+  <text x="50" y="348" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">• Объединил всю химию в единую научную систему</text>
+  <text x="50" y="366" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">• Стал основой для предсказания новых открытий (Sc, Ga, Ge, инертные газы)</text>
+  <text x="50" y="384" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">• Подтвердил материальное единство и взаимосвязь всех химических элементов</text>
+  <!-- Bottom insight -->
+  <rect x="25" y="400" width="735" height="85" rx="12" fill="#1e293b" stroke="#10b981" stroke-width="1" opacity="0.85"/>
+  <rect x="25" y="400" width="735" height="28" rx="12" fill="#10b981" opacity="0.12"/>
+  <text x="392" y="419" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="12" font-weight="bold" filter="url(#glow)">Периодические свойства элементов</text>
+  <text x="50" y="443" fill="#14b8a6" font-family="Arial, sans-serif" font-size="10">В периодах → :</text>
+  <text x="155" y="443" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">r↓  ЭО↑  Ei↑  металлические свойства↓</text>
+  <text x="50" y="461" fill="#14b8a6" font-family="Arial, sans-serif" font-size="10">В группах ↓:</text>
+  <text x="145" y="461" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">r↑  ЭО↓  Ei↓  металлические свойства↑</text>
+  <text x="400" y="479" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">r — атомный радиус, ЭО — электроотрицательность, Ei — энергия ионизации</text>
+</svg>

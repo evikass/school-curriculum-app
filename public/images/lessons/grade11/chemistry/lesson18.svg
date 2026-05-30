@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <!-- Header bar -->
+  <rect x="0" y="0" width="800" height="48" fill="url(#headerGrad)"/>
+  <text x="400" y="32" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="bold" filter="url(#glow)">Урок 18: Скорость химических реакций</text>
+  <text x="400" y="68" text-anchor="middle" fill="#94a3b8" font-size="12">Тема 4: Химические реакции</text>
+
+  <!-- Rate formula -->
+  <rect x="20" y="78" width="760" height="50" rx="8" fill="#14b8a6" fill-opacity="0.1" stroke="#14b8a6" stroke-width="1.5"/>
+  <text x="400" y="100" text-anchor="middle" fill="#14b8a6" font-size="14" font-weight="bold">Формула скорости: v = Δc / Δt</text>
+  <text x="400" y="118" text-anchor="middle" fill="#94a3b8" font-size="12">[v] = моль/(л·с) — изменение концентрации за единицу времени</text>
+
+  <!-- Factors — 5 cards in 2 rows -->
+  <text x="40" y="152" fill="#10b981" font-size="13" font-weight="bold">Факторы, влияющие на скорость:</text>
+
+  <!-- Factor 1: Nature -->
+  <rect x="20" y="160" width="148" height="80" rx="8" fill="#14b8a6" fill-opacity="0.1" stroke="#14b8a6" stroke-width="1"/>
+  <text x="94" y="180" text-anchor="middle" fill="#14b8a6" font-size="11" font-weight="bold">1. Природа</text>
+  <text x="94" y="196" text-anchor="middle" fill="#ffffff" font-size="10">веществ</text>
+  <text x="94" y="212" text-anchor="middle" fill="#94a3b8" font-size="9">Активные vs</text>
+  <text x="94" y="224" text-anchor="middle" fill="#94a3b8" font-size="9">неактивные</text>
+  <!-- Factor 2: Concentration -->
+  <rect x="178" y="160" width="148" height="80" rx="8" fill="#0d9488" fill-opacity="0.12" stroke="#0d9488" stroke-width="1"/>
+  <text x="252" y="180" text-anchor="middle" fill="#0d9488" font-size="11" font-weight="bold">2. Концентрация</text>
+  <text x="252" y="196" text-anchor="middle" fill="#ffffff" font-size="10">↑C → ↑v</text>
+  <text x="252" y="212" text-anchor="middle" fill="#94a3b8" font-size="9">Больше частиц =</text>
+  <text x="252" y="224" text-anchor="middle" fill="#94a3b8" font-size="9">больше столкновений</text>
+  <!-- Factor 3: Temperature -->
+  <rect x="336" y="160" width="148" height="80" rx="8" fill="#059669" fill-opacity="0.12" stroke="#059669" stroke-width="1"/>
+  <text x="410" y="180" text-anchor="middle" fill="#059669" font-size="11" font-weight="bold">3. Температура</text>
+  <text x="410" y="196" text-anchor="middle" fill="#ffffff" font-size="10">↑T → ↑v</text>
+  <text x="410" y="212" text-anchor="middle" fill="#f59e0b" font-size="9" font-weight="bold">Правило Вант-Гоффа:</text>
+  <text x="410" y="224" text-anchor="middle" fill="#f59e0b" font-size="9">+10°C → v × 2-4</text>
+  <!-- Factor 4: Catalyst -->
+  <rect x="494" y="160" width="148" height="80" rx="8" fill="#10b981" fill-opacity="0.12" stroke="#10b981" stroke-width="1"/>
+  <text x="568" y="180" text-anchor="middle" fill="#10b981" font-size="11" font-weight="bold">4. Катализатор</text>
+  <text x="568" y="196" text-anchor="middle" fill="#ffffff" font-size="10">Ускоряет реакцию</text>
+  <text x="568" y="212" text-anchor="middle" fill="#94a3b8" font-size="9">Не расходуется</text>
+  <text x="568" y="224" text-anchor="middle" fill="#94a3b8" font-size="9">Снижает Ea</text>
+  <!-- Factor 5: Surface area -->
+  <rect x="652" y="160" width="128" height="80" rx="8" fill="#14b8a6" fill-opacity="0.12" stroke="#14b8a6" stroke-width="1"/>
+  <text x="716" y="180" text-anchor="middle" fill="#14b8a6" font-size="11" font-weight="bold">5. Поверхность</text>
+  <text x="716" y="196" text-anchor="middle" fill="#ffffff" font-size="10">Порошок &gt;</text>
+  <text x="716" y="210" text-anchor="middle" fill="#ffffff" font-size="10">Куски</text>
+  <text x="716" y="226" text-anchor="middle" fill="#94a3b8" font-size="9">↑S → ↑v</text>
+
+  <!-- For gases note -->
+  <rect x="20" y="250" width="370" height="36" rx="6" fill="#f59e0b" fill-opacity="0.08" stroke="#f59e0b" stroke-width="1"/>
+  <text x="205" y="272" text-anchor="middle" fill="#f59e0b" font-size="12" font-weight="bold">Для газов: ↑P = ↑C → ↑ скорость</text>
+
+  <!-- Collision theory -->
+  <rect x="410" y="250" width="370" height="36" rx="6" fill="#8b5cf6" fill-opacity="0.08" stroke="#8b5cf6" stroke-width="1"/>
+  <text x="595" y="272" text-anchor="middle" fill="#8b5cf6" font-size="12" font-weight="bold">Теория столкновений: эффективные столкновения</text>
+
+  <!-- Activation energy diagram -->
+  <rect x="20" y="296" width="760" height="160" rx="8" fill="#1e293b" fill-opacity="0.7" stroke="#f59e0b" stroke-width="1"/>
+  <text x="400" y="318" text-anchor="middle" fill="#f59e0b" font-size="14" font-weight="bold">Энергетическая диаграмма (энергия активации)</text>
+
+  <!-- Diagram -->
+  <!-- Energy axis -->
+  <line x1="70" y1="340" x2="70" y2="440" stroke="#94a3b8" stroke-width="1"/>
+  <text x="65" y="335" text-anchor="middle" fill="#94a3b8" font-size="10">E</text>
+  <!-- Reaction progress axis -->
+  <line x1="70" y1="440" x2="740" y2="440" stroke="#94a3b8" stroke-width="1"/>
+  <text x="740" y="452" text-anchor="middle" fill="#94a3b8" font-size="10">Ход реакции</text>
+
+  <!-- Reactant energy level -->
+  <line x1="90" y1="415" x2="180" y2="415" stroke="#14b8a6" stroke-width="3"/>
+  <text x="135" y="430" text-anchor="middle" fill="#14b8a6" font-size="10">Реагенты</text>
+
+  <!-- Activation energy curve -->
+  <path d="M170,415 C200,415 250,350 320,350 C390,350 430,380 500,350 C550,350 580,390 620,415" fill="none" stroke="#ef4444" stroke-width="2.5"/>
+  <!-- Peak label -->
+  <text x="400" y="342" text-anchor="middle" fill="#ef4444" font-size="11" font-weight="bold">Порог Ea</text>
+
+  <!-- Product energy level -->
+  <line x1="600" y1="415" x2="720" y2="415" stroke="#059669" stroke-width="3"/>
+  <text x="660" y="430" text-anchor="middle" fill="#059669" font-size="10">Продукты</text>
+
+  <!-- Ea arrow -->
+  <line x1="135" y1="412" x2="135" y2="355" stroke="#f59e0b" stroke-width="2"/>
+  <polygon points="131,358 135,348 139,358" fill="#f59e0b"/>
+  <text x="110" y="385" fill="#f59e0b" font-size="12" font-weight="bold">Ea</text>
+
+  <!-- ΔH indicator -->
+  <line x1="660" y1="412" x2="660" y2="435" stroke="#8b5cf6" stroke-width="1.5" stroke-dasharray="4"/>
+  <text x="680" y="425" fill="#8b5cf6" font-size="10">ΔH</text>
+
+  <!-- Activation energy label -->
+  <rect x="300" y="450" width="200" height="4" rx="2" fill="none"/>
+  <text x="400" y="455" text-anchor="middle" fill="#94a3b8" font-size="10">Ea — энергия активации (минимальная энергия для реакции)</text>
+
+  <!-- Bottom line -->
+  <line x1="20" y1="475" x2="780" y2="475" stroke="#14b8a6" stroke-width="1" opacity="0.3"/>
+  <text x="400" y="493" text-anchor="middle" fill="#94a3b8" font-size="11">Скорость зависит от частоты и эффективности столкновений частиц</text>
+</svg>

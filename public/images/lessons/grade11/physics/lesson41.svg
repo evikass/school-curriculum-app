@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<defs><linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:#0d1b2a"/><stop offset="100%" style="stop-color:#1b263b"/></linearGradient></defs>
+<rect width="400" height="300" fill="url(#bg)"/>
+<text x="200" y="22" text-anchor="middle" fill="#ffeaa7" font-size="12" font-weight="bold">Модель атома Бора</text>
+<!-- Rutherford experiment -->
+<text x="100" y="48" text-anchor="middle" fill="#ffeaa7" font-size="9" font-weight="bold">Опыт Резерфорда</text>
+<!-- Gold foil -->
+<rect x="90" y="60" width="15" height="50" rx="2" fill="#ffd700" opacity="0.3" stroke="#ffd700" stroke-width="1"/>
+<text x="97" y="125" text-anchor="middle" fill="#ffd700" font-size="6">Au</text>
+<!-- Alpha particles -->
+<line x1="30" y1="70" x2="90" y2="70" stroke="#ff7675" stroke-width="1.5"/>
+<line x1="105" y1="70" x2="180" y2="70" stroke="#ff7675" stroke-width="1.5"/>
+<line x1="30" y1="85" x2="90" y2="85" stroke="#ff7675" stroke-width="1.5"/>
+<line x1="105" y1="85" x2="180" y2="85" stroke="#ff7675" stroke-width="1.5"/>
+<line x1="30" y1="100" x2="90" y2="100" stroke="#ff7675" stroke-width="1.5"/>
+<path d="M105,100 Q120,95 130,75" fill="none" stroke="#74b9ff" stroke-width="1.5"/>
+<text x="140" y="75" fill="#74b9ff" font-size="6">отклонение</text>
+<!-- Nucleus -->
+<circle cx="97" cy="85" r="4" fill="#ff7675"/>
+<text x="97" y="88" text-anchor="middle" fill="#fff" font-size="4">+</text>
+<!-- Bohr model -->
+<text x="290" y="48" text-anchor="middle" fill="#ffeaa7" font-size="9" font-weight="bold">Модель Бора (H)</text>
+<!-- Orbits -->
+<circle cx="290" cy="95" r="15" fill="none" stroke="#ff7675" stroke-width="1"/>
+<circle cx="290" cy="95" r="30" fill="none" stroke="#55efc4" stroke-width="1"/>
+<circle cx="290" cy="95" r="50" fill="none" stroke="#74b9ff" stroke-width="1"/>
+<!-- Electron -->
+<circle cx="340" cy="95" r="4" fill="#55efc4"/>
+<text x="350" y="95" fill="#55efc4" font-size="7">e-</text>
+<!-- Nucleus -->
+<circle cx="290" cy="95" r="5" fill="#ff7675"/>
+<text x="290" y="98" text-anchor="middle" fill="#fff" font-size="6">+</text>
+<!-- Labels -->
+<text x="305" y="82" fill="#ff7675" font-size="7">n=1</text>
+<text x="320" y="78" fill="#55efc4" font-size="7">n=2</text>
+<text x="340" y="74" fill="#74b9ff" font-size="7">n=3</text>
+<!-- Photon transition -->
+<line x1="320" y1="68" x2="305" y2="82" stroke="#ffd700" stroke-width="1.5" stroke-dasharray="3,2"/>
+<text x="322" y="65" fill="#ffd700" font-size="7">hv</text>
+<!-- Postulates -->
+<rect x="20" y="140" width="360" height="70" rx="8" fill="#2d3436" opacity="0.6"/>
+<text x="200" y="158" text-anchor="middle" fill="#ffeaa7" font-size="9" font-weight="bold">Постулаты Бора</text>
+<text x="35" y="175" fill="#55efc4" font-size="8">1. Стационарные состояния: атом не излучает</text>
+<text x="35" y="192" fill="#ff7675" font-size="8">2. hv = |E_n - E_m| при переходе</text>
+<!-- Energy levels and spectrum -->
+<text x="200" y="228" text-anchor="middle" fill="#ffeaa7" font-size="9" font-weight="bold">E_n = -13,6/n2 эВ</text>
+<!-- Energy levels -->
+<line x1="50" y1="260" x2="130" y2="260" stroke="#ff7675" stroke-width="1.5"/>
+<text x="135" y="263" fill="#ff7675" font-size="7">n=1: -13,6 эВ</text>
+<line x1="50" y1="245" x2="130" y2="245" stroke="#55efc4" stroke-width="1.5"/>
+<text x="135" y="248" fill="#55efc4" font-size="7">n=2: -3,4 эВ</text>
+<line x1="50" y1="235" x2="130" y2="235" stroke="#74b9ff" stroke-width="1"/>
+<text x="135" y="238" fill="#74b9ff" font-size="7">n=3: -1,5 эВ</text>
+<!-- Spectral series -->
+<text x="280" y="248" fill="#a29bfe" font-size="8">Лайман: n->1 (УФ)</text>
+<text x="280" y="263" fill="#55efc4" font-size="8">Бальмер: n->2 (видим.)</text>
+<text x="280" y="278" fill="#ff7675" font-size="8">Пашен: n->3 (ИК)</text>
+</svg>

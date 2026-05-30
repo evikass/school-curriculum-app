@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Общая характеристика простейших</text>
+<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 7 класс — Урок 3</text>
+<line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+
+<g transform="translate(85,155)">
+<path d="M-22,8 Q-32,-3 -18,-18 Q-8,-25 5,-22 Q18,-25 22,-12 Q30,-3 22,8 Q12,20 0,18 Q-12,20 -22,8Z" fill="#B2DFDB" stroke="#00897B" stroke-width="2"/>
+<ellipse cx="2" cy="-2" rx="7" ry="5" fill="#80CBC4" stroke="#00695C" stroke-width="1.5"/>
+<circle cx="2" cy="-2" r="3" fill="#4DB6AC"/>
+<path d="M-26,0 Q-40,5 -34,-5" fill="#B2DFDB" stroke="#00897B" stroke-width="1.5"/>
+<path d="M18,-18 Q28,-28 22,-12" fill="#B2DFDB" stroke="#00897B" stroke-width="1.5"/>
+<circle cx="14" cy="8" r="4" fill="#E0F7FA" stroke="#00BCD4" stroke-width="1"/>
+<circle cx="-8" cy="8" r="5" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1" opacity="0.6"/>
+<text x="0" y="42" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle" font-weight="bold">Амёба</text>
+<text x="0" y="52" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">Ложноножки</text>
+</g>
+<g transform="translate(250,155)">
+<ellipse cx="0" cy="0" rx="28" ry="11" fill="#C8E6C9" stroke="#388E3C" stroke-width="2"/>
+<path d="M26,-2 Q42,-14 48,-24" stroke="#388E3C" stroke-width="1.5" fill="none"/>
+<circle cx="18" cy="-3" r="3" fill="#F44336" opacity="0.7"/>
+<ellipse cx="-4" cy="-3" rx="5" ry="2.5" fill="#66BB6A" opacity="0.6"/>
+<ellipse cx="5" cy="4" rx="4" ry="2" fill="#66BB6A" opacity="0.6"/>
+<circle cx="-8" cy="0" r="4" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1"/>
+<text x="0" y="28" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle" font-weight="bold">Эвглена</text>
+<text x="0" y="38" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">Жгутик + хлоропласты</text>
+</g>
+<g transform="translate(415,155)">
+<ellipse cx="0" cy="0" rx="16" ry="32" fill="#E1BEE7" stroke="#7B1FA2" stroke-width="2"/>
+<line x1="-16" y1="-18" x2="-22" y2="-20" stroke="#9C27B0" stroke-width="0.7"/>
+<line x1="-17" y1="-8" x2="-23" y2="-9" stroke="#9C27B0" stroke-width="0.7"/>
+<line x1="-17" y1="2" x2="-23" y2="2" stroke="#9C27B0" stroke-width="0.7"/>
+<line x1="-16" y1="12" x2="-22" y2="13" stroke="#9C27B0" stroke-width="0.7"/>
+<line x1="16" y1="-18" x2="22" y2="-20" stroke="#9C27B0" stroke-width="0.7"/>
+<line x1="17" y1="-8" x2="23" y2="-9" stroke="#9C27B0" stroke-width="0.7"/>
+<line x1="17" y1="2" x2="23" y2="2" stroke="#9C27B0" stroke-width="0.7"/>
+<line x1="16" y1="12" x2="22" y2="13" stroke="#9C27B0" stroke-width="0.7"/>
+<path d="M-8,-12 Q-13,0 -6,12" stroke="#6A1B9A" stroke-width="1.5" fill="none"/>
+<ellipse cx="2" cy="-4" rx="7" ry="4" fill="#CE93D8" stroke="#6A1B9A" stroke-width="1"/>
+<circle cx="4" cy="3" r="2.5" fill="#AB47BC" stroke="#6A1B9A" stroke-width="1"/>
+<text x="0" y="46" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle" font-weight="bold">Инфузория</text>
+<text x="0" y="56" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">Реснички</text>
+</g>
+<rect x="40" y="235" width="420" height="45" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
+<text x="250" y="249" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Общие признаки: одна клетка = целый организм | Эукариоты</text>
+<text x="250" y="261" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Сократительная вакуоль | Инцистирование | Гетеротрофы или миксотрофы</text>
+<text x="250" y="273" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Органоиды движения: ложноножки, жгутики, реснички</text>
+
+<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 7 класс</text>
+</svg>

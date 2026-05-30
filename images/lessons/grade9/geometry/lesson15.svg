@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
-<rect width="400" height="300" fill="#0f172a"/>
-<text x="110" y="30" fill="#e2e8f0" font-size="20" font-weight="bold" font-family="sans-serif">Площадь круга</text>
-<circle cx="180" cy="150" r="100" fill="rgba(34,211,238,0.1)" stroke="#22d3ee" stroke-width="2.5"/>
-<circle cx="180" cy="150" r="3" fill="#f472b6"/>
-<line x1="180" y1="150" x2="280" y2="150" stroke="#f472b6" stroke-width="2"/>
-<text x="225" y="145" fill="#f472b6" font-size="16" font-family="sans-serif">R</text>
-<text x="230" y="290" fill="#a78bfa" font-size="18" font-family="sans-serif">S = &#x03C0;R&#x00B2;</text>
-</svg>

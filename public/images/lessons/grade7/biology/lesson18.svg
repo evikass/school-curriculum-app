@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Многообразие рыб</text>
+<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 7 класс — Урок 18</text>
+<line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+
+<g transform="translate(90,130)">
+<ellipse cx="0" cy="0" rx="40" ry="15" fill="#90CAF9" stroke="#1565C0" stroke-width="1.5"/>
+<path d="M40,0 L55,-10 L55,10Z" fill="#90CAF9" stroke="#1565C0" stroke-width="1"/>
+<circle cx="-30" cy="-3" r="3" fill="white" stroke="#1565C0" stroke-width="0.8"/><circle cx="-30" cy="-3" r="1.5" fill="#333"/>
+<text x="0" y="28" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle" font-weight="bold">Карась</text>
+<text x="0" y="37" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Костные</text>
+</g>
+<g transform="translate(250,130)">
+<path d="M-35,-8 Q-40,-18 -35,-22 Q0,-28 35,-22 Q40,-18 35,-8 L35,8 Q35,18 0,20 Q-35,18 -35,8Z" fill="#B0BEC5" stroke="#546E7A" stroke-width="1.5"/>
+<path d="M35,0 L55,-12 L55,12Z" fill="#B0BEC5" stroke="#546E7A" stroke-width="1"/>
+<path d="M0,-22 L5,-35 L-5,-35Z" fill="#90A4AE" stroke="#546E7A" stroke-width="1"/>
+<circle cx="-25" cy="-5" r="3" fill="white" stroke="#546E7A" stroke-width="0.8"/><circle cx="-25" cy="-5" r="1.5" fill="#333"/>
+<text x="0" y="35" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle" font-weight="bold">Акула</text>
+<text x="0" y="44" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Хрящевые</text>
+</g>
+<g transform="translate(415,130)">
+<ellipse cx="0" cy="0" rx="25" ry="18" fill="#FFAB91" stroke="#BF360C" stroke-width="1.5"/>
+<path d="M-5,-18 Q0,-28 5,-18" fill="#FF8A65" stroke="#BF360C" stroke-width="1"/>
+<path d="M25,0 L38,-8 L38,8Z" fill="#FFAB91" stroke="#BF360C" stroke-width="1"/>
+<circle cx="-15" cy="-3" r="3" fill="white" stroke="#BF360C" stroke-width="0.8"/><circle cx="-15" cy="-3" r="1.5" fill="#333"/>
+<text x="0" y="30" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle" font-weight="bold">Окунь</text>
+<text x="0" y="39" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Костные</text>
+</g>
+<g transform="translate(120,235)">
+<ellipse cx="0" cy="0" rx="35" ry="12" fill="#CE93D8" stroke="#7B1FA2" stroke-width="1.5"/>
+<path d="M-15,-12 Q-10,-22 -5,-12" fill="#BA68C8" stroke="#7B1FA2" stroke-width="1"/>
+<path d="M35,0 L48,-8 L48,8Z" fill="#CE93D8" stroke="#7B1FA2" stroke-width="1"/>
+<circle cx="-25" cy="-2" r="3" fill="white" stroke="#7B1FA2" stroke-width="0.8"/><circle cx="-25" cy="-2" r="1.5" fill="#333"/>
+<text x="0" y="22" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle" font-weight="bold">Латимерия</text>
+<text x="0" y="31" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Лопастепёрые</text>
+</g>
+<g transform="translate(350,235)">
+<ellipse cx="0" cy="0" rx="30" ry="20" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1.5"/>
+<path d="M-10,-20 L-5,-32 L5,-32 L10,-20" fill="#81C784" stroke="#2E7D32" stroke-width="1"/>
+<path d="M30,0 L45,-10 L45,10Z" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1"/>
+<circle cx="-20" cy="-5" r="4" fill="white" stroke="#2E7D32" stroke-width="0.8"/><circle cx="-20" cy="-5" r="2" fill="#333"/>
+<text x="0" y="32" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle" font-weight="bold">Осётр</text>
+<text x="0" y="41" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Хрящекостные</text>
+</g>
+<rect x="30" y="295" width="440" height="18" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
+<text x="250" y="309" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Хрящевые: акулы, скаты | Костные: карп, окунь, треска | Лопастепёрые: латимерия</text>
+
+<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 7 класс</text>
+</svg>

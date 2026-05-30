@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg15" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <marker id="arrG15" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#55efc4"/>
+    </marker>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg15)"/>
+  <text x="200" y="22" text-anchor="middle" fill="#ffeaa7" font-size="12" font-weight="bold">Электромагнитная индукция</text>
+  <!-- Faraday experiment: magnet moving into coil -->
+  <text x="120" y="48" text-anchor="middle" fill="#ffeaa7" font-size="10" font-weight="bold">Опыт Фарадея</text>
+  <!-- Coil -->
+  <ellipse cx="140" cy="110" rx="15" ry="35" fill="none" stroke="#74b9ff" stroke-width="2"/>
+  <ellipse cx="150" cy="110" rx="15" ry="35" fill="none" stroke="#74b9ff" stroke-width="2"/>
+  <ellipse cx="160" cy="110" rx="15" ry="35" fill="none" stroke="#74b9ff" stroke-width="2"/>
+  <!-- Magnet -->
+  <rect x="40" y="95" width="60" height="30" rx="3" fill="#ff7675" opacity="0.8"/>
+  <rect x="40" y="95" width="30" height="30" rx="3" fill="#74b9ff" opacity="0.8"/>
+  <text x="55" y="114" text-anchor="middle" fill="#fff" font-size="9">S</text>
+  <text x="85" y="114" text-anchor="middle" fill="#fff" font-size="9">N</text>
+  <!-- Motion arrow -->
+  <line x1="60" y1="80" x2="100" y2="80" stroke="#ffd700" stroke-width="2" marker-end="url(#arrG15)"/>
+  <text x="80" y="75" fill="#ffd700" font-size="8">v</text>
+  <!-- Galvanometer -->
+  <circle cx="100" cy="160" r="15" fill="none" stroke="#a29bfe" stroke-width="1.5"/>
+  <text x="100" y="164" text-anchor="middle" fill="#a29bfe" font-size="9">G</text>
+  <line x1="85" y1="160" x2="75" y2="145" stroke="#a29bfe" stroke-width="1"/>
+  <line x1="115" y1="160" x2="125" y2="145" stroke="#a29bfe" stroke-width="1"/>
+  <text x="100" y="185" text-anchor="middle" fill="#55efc4" font-size="8">I_инд!</text>
+  <!-- Magnetic flux formula -->
+  <g transform="translate(220,40)">
+    <text x="85" y="0" text-anchor="middle" fill="#ffeaa7" font-size="10" font-weight="bold">Магнитный поток</text>
+    <text x="85" y="22" text-anchor="middle" fill="#55efc4" font-size="16" font-weight="bold">Ф = BScos(a)</text>
+    <!-- Surface with B through it -->
+    <rect x="30" y="35" width="60" height="50" rx="3" fill="#0984e3" opacity="0.15" stroke="#74b9ff" stroke-width="1"/>
+    <text x="60" y="65" text-anchor="middle" fill="#74b9ff" font-size="8">S</text>
+    <line x1="10" y1="45" x2="100" y2="45" stroke="#55efc4" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <line x1="10" y1="60" x2="100" y2="60" stroke="#55efc4" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <line x1="10" y1="75" x2="100" y2="75" stroke="#55efc4" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <text x="105" y="60" fill="#55efc4" font-size="8">B</text>
+    <!-- Angle a -->
+    <line x1="60" y1="35" x2="60" y2="20" stroke="#ffd700" stroke-width="1" stroke-dasharray="2,2"/>
+    <text x="72" y="25" fill="#ffd700" font-size="8">n (нормаль)</text>
+    <path d="M60,30 Q65,28 68,32" fill="none" stroke="#ffd700" stroke-width="1"/>
+    <text x="75" y="35" fill="#ffd700" font-size="7">a</text>
+  </g>
+  <!-- Faraday's law -->
+  <rect x="220" y="130" width="170" height="45" rx="8" fill="#6c5ce7" opacity="0.2" stroke="#a29bfe" stroke-width="1"/>
+  <text x="305" y="150" text-anchor="middle" fill="#ffeaa7" font-size="10" font-weight="bold">Закон Фарадея</text>
+  <text x="305" y="168" text-anchor="middle" fill="#ff7675" font-size="16" font-weight="bold">E = -dФ/dt</text>
+  <!-- Lenz rule -->
+  <rect x="20" y="200" width="370" height="90" rx="8" fill="#2d3436" opacity="0.6"/>
+  <text x="200" y="220" text-anchor="middle" fill="#ffeaa7" font-size="11" font-weight="bold">Правило Ленца</text>
+  <text x="200" y="240" text-anchor="middle" fill="#55efc4" font-size="10">Индукционный ток препятствует</text>
+  <text x="200" y="255" text-anchor="middle" fill="#55efc4" font-size="10">изменению магнитного потока</text>
+  <!-- Before/After -->
+  <text x="100" y="275" text-anchor="middle" fill="#ff7675" font-size="9">Ф растет -> I против</text>
+  <text x="300" y="275" text-anchor="middle" fill="#74b9ff" font-size="9">Ф падает -> I поддерживает</text>
+  <text x="200" y="290" text-anchor="middle" fill="#636e72" font-size="8">(закон сохранения энергии)</text>
+</svg>
