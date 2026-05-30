@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E5F5"/>
+      <stop offset="50%" stop-color="#E1BEE7"/>
+      <stop offset="100%" stop-color="#CE93D8"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="500" height="350" fill="url(#bg5)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#7B1FA2" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#4A148C" text-anchor="middle" font-family="Arial">Измерение углов</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="Arial">Геометрия 7 класс — Урок 5</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#9C27B0" stroke-opacity="0.3"/>
+
+  <!-- Panel 1: Protractor -->
+  <rect x="12" y="58" width="165" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#9C27B0" stroke-width="1"/>
+  <text x="94" y="73" font-size="9" font-weight="bold" fill="#7B1FA2" text-anchor="middle">Транспортир</text>
+  <!-- Protractor shape -->
+  <path d="M30,155 A80,80 0 0,1 160,155" fill="#F3E5F5" fill-opacity="0.5" stroke="#7B1FA2" stroke-width="1.2"/>
+  <line x1="30" y1="155" x2="160" y2="155" stroke="#7B1FA2" stroke-width="1"/>
+  <!-- center point -->
+  <circle cx="95" cy="155" r="2.5" fill="#7B1FA2"/>
+  <!-- degree marks -->
+  <line x1="95" y1="155" x2="95" y2="78" stroke="#7B1FA2" stroke-width="0.8"/>
+  <text x="95" y="75" font-size="6" fill="#7B1FA2" text-anchor="middle">90°</text>
+  <line x1="95" y1="155" x2="30" y2="155" stroke="#9C27B0" stroke-width="0.4"/>
+  <text x="33" y="152" font-size="5.5" fill="#9C27B0">0°</text>
+  <line x1="95" y1="155" x2="160" y2="155" stroke="#9C27B0" stroke-width="0.4"/>
+  <text x="152" y="152" font-size="5.5" fill="#9C27B0">180°</text>
+  <!-- tick marks at 30, 60 -->
+  <line x1="95" y1="155" x2="40" y2="122" stroke="#9C27B0" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <text x="37" y="119" font-size="5" fill="#9C27B0">60°</text>
+  <line x1="95" y1="155" x2="60" y2="97" stroke="#9C27B0" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <text x="55" y="94" font-size="5" fill="#9C27B0">30°</text>
+  <!-- measured angle -->
+  <line x1="95" y1="155" x2="135" y2="105" stroke="#E53935" stroke-width="1.8"/>
+  <path d="M107,142 A20,20 0 0,1 120,128" fill="none" stroke="#E53935" stroke-width="1.5"/>
+  <text x="125" y="132" font-size="7" fill="#C62828" font-weight="bold">50°</text>
+  <!-- Degree definition -->
+  <rect x="20" y="160" width="150" height="12" rx="2" fill="#7B1FA2" fill-opacity="0.1"/>
+  <text x="94" y="170" font-size="6.5" fill="#4A148C" text-anchor="middle">1° = 1/180 развёрнутого угла</text>
+
+  <!-- Panel 2: Degree concept -->
+  <rect x="185" y="58" width="145" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#9C27B0" stroke-width="1"/>
+  <text x="257" y="73" font-size="9" font-weight="bold" fill="#7B1FA2" text-anchor="middle">Градусная мера</text>
+  <!-- Straight angle = 180 -->
+  <line x1="200" y1="95" x2="315" y2="95" stroke="#7B1FA2" stroke-width="2"/>
+  <circle cx="257" cy="95" r="3" fill="#7B1FA2"/>
+  <text x="257" y="90" font-size="7" fill="#7B1FA2" text-anchor="middle">180°</text>
+  <!-- 1° visual -->
+  <line x1="200" y1="115" x2="270" y2="115" stroke="#7B1FA2" stroke-width="1.2"/>
+  <line x1="200" y1="115" x2="202" y2="112" stroke="#E53935" stroke-width="1.5"/>
+  <path d="M204,114 A10,10 0 0,1 205,113" fill="none" stroke="#E53935" stroke-width="1"/>
+  <text x="230" y="110" font-size="7" fill="#C62828">1°</text>
+  <text x="257" y="128" font-size="7" fill="#555" text-anchor="middle">Развёрнутый угол = 180°</text>
+  <text x="257" y="139" font-size="7" fill="#555" text-anchor="middle">Прямой угол = 90°</text>
+  <!-- Properties box -->
+  <rect x="195" y="145" width="125" height="24" rx="3" fill="#F3E5F5" stroke="#9C27B0" stroke-width="0.5"/>
+  <text x="257" y="155" font-size="6.5" fill="#4A148C" text-anchor="middle">Равные углы = равные градусы</text>
+  <text x="257" y="165" font-size="6.5" fill="#4A148C" text-anchor="middle">∠AOB + ∠BOC = ∠AOC</text>
+
+  <!-- Panel 3: Angle types -->
+  <rect x="338" y="58" width="150" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#9C27B0" stroke-width="1"/>
+  <text x="413" y="73" font-size="9" font-weight="bold" fill="#7B1FA2" text-anchor="middle">Виды углов</text>
+  <!-- Acute -->
+  <line x1="350" y1="92" x2="390" y2="92" stroke="#7B1FA2" stroke-width="1.2"/>
+  <line x1="350" y1="92" x2="365" y2="80" stroke="#7B1FA2" stroke-width="1.2"/>
+  <path d="M356,88 A8,8 0 0,1 360,85" fill="none" stroke="#9C27B0" stroke-width="0.8"/>
+  <text x="375" y="88" font-size="6.5" fill="#7B1FA2">Острый &lt;90°</text>
+  <!-- Right -->
+  <line x1="350" y1="108" x2="390" y2="108" stroke="#7B1FA2" stroke-width="1.2"/>
+  <line x1="350" y1="108" x2="350" y2="98" stroke="#7B1FA2" stroke-width="1.2"/>
+  <rect x="350" y="101" width="7" height="7" fill="none" stroke="#7B1FA2" stroke-width="1"/>
+  <text x="375" y="105" font-size="6.5" fill="#7B1FA2">Прямой =90°</text>
+  <!-- Obtuse -->
+  <line x1="350" y1="128" x2="390" y2="128" stroke="#7B1FA2" stroke-width="1.2"/>
+  <line x1="350" y1="128" x2="360" y2="115" stroke="#7B1FA2" stroke-width="1.2"/>
+  <path d="M356,123 A8,8 0 0,0 364,120" fill="none" stroke="#9C27B0" stroke-width="0.8"/>
+  <text x="375" y="122" font-size="6.5" fill="#7B1FA2">Тупой &gt;90°</text>
+  <!-- Straight -->
+  <line x1="350" y1="148" x2="390" y2="148" stroke="#7B1FA2" stroke-width="1.2"/>
+  <circle cx="370" cy="148" r="2" fill="#7B1FA2"/>
+  <text x="375" y="145" font-size="6.5" fill="#7B1FA2">Разв.=180°</text>
+  <!-- Minute/second -->
+  <text x="413" y="165" font-size="6" fill="#555" text-anchor="middle">1° = 60', 1' = 60''</text>
+
+  <!-- Large Panel: Detailed angle types -->
+  <rect x="12" y="184" width="476" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#9C27B0" stroke-width="1"/>
+  <text x="250" y="199" font-size="9" font-weight="bold" fill="#7B1FA2" text-anchor="middle">Наглядные примеры углов</text>
+
+  <!-- Acute angle large -->
+  <rect x="20" y="207" width="108" height="86" rx="4" fill="#F3E5F5" fill-opacity="0.5" stroke="#9C27B0" stroke-width="0.5"/>
+  <text x="74" y="219" font-size="7" font-weight="bold" fill="#7B1FA2" text-anchor="middle">Острый угол</text>
+  <line x1="35" y1="278" x2="100" y2="278" stroke="#7B1FA2" stroke-width="1.8"/>
+  <line x1="35" y1="278" x2="60" y2="235" stroke="#7B1FA2" stroke-width="1.8"/>
+  <path d="M42,272 A15,15 0 0,1 50,262" fill="none" stroke="#E53935" stroke-width="1.2"/>
+  <text x="58" y="260" font-size="7" fill="#C62828">35°</text>
+  <text x="74" y="292" font-size="6.5" fill="#555" text-anchor="middle">0° &lt; α &lt; 90°</text>
+
+  <!-- Right angle large -->
+  <rect x="136" y="207" width="108" height="86" rx="4" fill="#F3E5F5" fill-opacity="0.5" stroke="#9C27B0" stroke-width="0.5"/>
+  <text x="190" y="219" font-size="7" font-weight="bold" fill="#7B1FA2" text-anchor="middle">Прямой угол</text>
+  <line x1="155" y1="278" x2="225" y2="278" stroke="#7B1FA2" stroke-width="1.8"/>
+  <line x1="155" y1="278" x2="155" y2="235" stroke="#7B1FA2" stroke-width="1.8"/>
+  <rect x="155" y="264" width="14" height="14" fill="none" stroke="#E53935" stroke-width="1.5"/>
+  <text x="190" y="258" font-size="7" fill="#C62828" text-anchor="middle">90°</text>
+  <text x="190" y="292" font-size="6.5" fill="#555" text-anchor="middle">α = 90°</text>
+
+  <!-- Obtuse angle large -->
+  <rect x="252" y="207" width="108" height="86" rx="4" fill="#F3E5F5" fill-opacity="0.5" stroke="#9C27B0" stroke-width="0.5"/>
+  <text x="306" y="219" font-size="7" font-weight="bold" fill="#7B1FA2" text-anchor="middle">Тупой угол</text>
+  <line x1="268" y1="278" x2="340" y2="278" stroke="#7B1FA2" stroke-width="1.8"/>
+  <line x1="268" y1="278" x2="290" y2="235" stroke="#7B1FA2" stroke-width="1.8"/>
+  <path d="M280,272 A15,15 0 0,0 298,260" fill="none" stroke="#E53935" stroke-width="1.2"/>
+  <text x="310" y="260" font-size="7" fill="#C62828">130°</text>
+  <text x="306" y="292" font-size="6.5" fill="#555" text-anchor="middle">90° &lt; α &lt; 180°</text>
+
+  <!-- Straight angle large -->
+  <rect x="368" y="207" width="112" height="86" rx="4" fill="#F3E5F5" fill-opacity="0.5" stroke="#9C27B0" stroke-width="0.5"/>
+  <text x="424" y="219" font-size="7" font-weight="bold" fill="#7B1FA2" text-anchor="middle">Развёрнутый угол</text>
+  <line x1="383" y1="260" x2="465" y2="260" stroke="#7B1FA2" stroke-width="1.8"/>
+  <circle cx="424" cy="260" r="3" fill="#E53935"/>
+  <text x="424" y="254" font-size="7" fill="#C62828" text-anchor="middle">180°</text>
+  <text x="424" y="280" font-size="6.5" fill="#555" text-anchor="middle">Стороны — доп.</text>
+  <text x="424" y="290" font-size="6.5" fill="#555" text-anchor="middle">лучи, α = 180°</text>
+
+  <!-- Bottom bar -->
+  <rect x="12" y="320" width="476" height="22" rx="4" fill="#9C27B0" fill-opacity="0.85"/>
+  <text x="250" y="335" font-size="10" fill="white" text-anchor="middle" font-weight="bold" font-family="Arial">Градус — 1/180 часть развёрнутого угла: острый &lt; 90°, прямой = 90°, тупой &gt; 90°</text>
+</svg>

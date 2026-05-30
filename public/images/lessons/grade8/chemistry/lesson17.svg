@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg17" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="predictGrad17" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:0.15"/>
+    </linearGradient>
+    <linearGradient id="philGrad17" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:0.35"/>
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:0.15"/>
+    </linearGradient>
+    <linearGradient id="practGrad17" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:0.15"/>
+    </linearGradient>
+    <linearGradient id="arrowG17" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14b8a6"/>
+      <stop offset="100%" style="stop-color:#10b981"/>
+    </linearGradient>
+    <filter id="glow17">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg17)" rx="12"/>
+
+  <!-- Title -->
+  <text x="400" y="38" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#e2e8f0" text-anchor="middle">Значение периодического закона</text>
+  <line x1="50" y1="52" x2="750" y2="52" stroke="#0d9488" stroke-width="1" opacity="0.3"/>
+
+  <!-- Three pillars of significance -->
+  <!-- Scientific significance -->
+  <rect x="40" y="65" width="230" height="165" rx="8" fill="url(#predictGrad17)" stroke="#10b981" stroke-width="1"/>
+  <circle cx="155" cy="95" r="18" fill="#10b98140" stroke="#14b8a6" stroke-width="1.5"/>
+  <text x="155" y="100" font-family="Arial, sans-serif" font-size="14" fill="#6ee7b7" text-anchor="middle" font-weight="bold">1</text>
+  <text x="155" y="128" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#6ee7b7" text-anchor="middle">Научное</text>
+  <text x="155" y="148" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Объединил все элементы</text>
+  <text x="155" y="163" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">в единую систему</text>
+  <text x="155" y="183" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Предсказал свойства</text>
+  <text x="155" y="198" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">неоткрытых элементов</text>
+  <text x="155" y="218" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Исправил атомные массы</text>
+
+  <!-- Philosophical significance -->
+  <rect x="285" y="65" width="230" height="165" rx="8" fill="url(#philGrad17)" stroke="#8b5cf6" stroke-width="1"/>
+  <circle cx="400" cy="95" r="18" fill="#8b5cf640" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="400" y="100" font-family="Arial, sans-serif" font-size="14" fill="#c4b5fd" text-anchor="middle" font-weight="bold">2</text>
+  <text x="400" y="128" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#c4b5fd" text-anchor="middle">Философское</text>
+  <text x="400" y="148" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Вскрыл связь свойств</text>
+  <text x="400" y="163" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">и положения в системе</text>
+  <text x="400" y="183" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Доказал материальное</text>
+  <text x="400" y="198" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">единство мира</text>
+  <text x="400" y="218" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Закон перехода кол-ва в кач-во</text>
+
+  <!-- Practical significance -->
+  <rect x="530" y="65" width="230" height="165" rx="8" fill="url(#practGrad17)" stroke="#f59e0b" stroke-width="1"/>
+  <circle cx="645" cy="95" r="18" fill="#f59e0b40" stroke="#fbbf24" stroke-width="1.5"/>
+  <text x="645" y="100" font-family="Arial, sans-serif" font-size="14" fill="#fcd34d" text-anchor="middle" font-weight="bold">3</text>
+  <text x="645" y="128" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fcd34d" text-anchor="middle">Практическое</text>
+  <text x="645" y="148" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Поиск новых материалов</text>
+  <text x="645" y="163" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">и катализаторов</text>
+  <text x="645" y="183" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Разработка лекарств</text>
+  <text x="645" y="198" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">и полупроводников</text>
+  <text x="645" y="218" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Сверхпроводники</text>
+
+  <!-- Mendeleev's predictions section -->
+  <rect x="40" y="245" width="720" height="115" rx="8" fill="#0f172a" stroke="#0d9488" stroke-width="1"/>
+  <text x="400" y="268" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#14b8a6" text-anchor="middle">Предсказания Д.И. Менделеева</text>
+
+  <!-- Ekaaluminium -> Gallium -->
+  <rect x="60" y="280" width="210" height="65" rx="6" fill="#1e293b" stroke="#10b981" stroke-width="0.8"/>
+  <text x="165" y="298" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#6ee7b7" text-anchor="middle">Экаалюминий → Галлий</text>
+  <text x="165" y="314" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Атомная масса: 68 → 69,7</text>
+  <text x="165" y="328" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Плотность: 5,9 → 5,91 г/см</text>
+  <text x="165" y="340" font-family="Arial, sans-serif" font-size="9" fill="#6ee7b7" text-anchor="middle">Открыт в 1875 г. ✔</text>
+
+  <!-- Ekasilicon -> Germanium -->
+  <rect x="290" y="280" width="210" height="65" rx="6" fill="#1e293b" stroke="#8b5cf6" stroke-width="0.8"/>
+  <text x="395" y="298" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#c4b5fd" text-anchor="middle">Экасилиций → Германий</text>
+  <text x="395" y="314" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Атомная масса: 72 → 72,6</text>
+  <text x="395" y="328" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Плотность: 5,5 → 5,35 г/см</text>
+  <text x="395" y="340" font-family="Arial, sans-serif" font-size="9" fill="#c4b5fd" text-anchor="middle">Открыт в 1886 г. ✔</text>
+
+  <!-- Ekaboron -> Scandium -->
+  <rect x="520" y="280" width="210" height="65" rx="6" fill="#1e293b" stroke="#f59e0b" stroke-width="0.8"/>
+  <text x="625" y="298" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#fcd34d" text-anchor="middle">Экабор → Скандий</text>
+  <text x="625" y="314" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Атомная масса: 44 → 45</text>
+  <text x="625" y="328" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Плотность: 3,5 → 2,99 г/см</text>
+  <text x="625" y="340" font-family="Arial, sans-serif" font-size="9" fill="#fcd34d" text-anchor="middle">Открыт в 1879 г. ✔</text>
+
+  <!-- Corrected atomic masses section -->
+  <rect x="40" y="375" width="350" height="105" rx="8" fill="#0f172a" stroke="#475569" stroke-width="0.8"/>
+  <text x="215" y="398" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#94a3b8" text-anchor="middle">Исправленные атомные массы</text>
+
+  <text x="70" y="420" font-family="Arial, sans-serif" font-size="10" fill="#64748b">Be:</text>
+  <text x="100" y="420" font-family="Arial, sans-serif" font-size="10" fill="#ef4444" text-decoration="line-through">13,5</text>
+  <text x="135" y="420" font-family="Arial, sans-serif" font-size="10" fill="#10b981"> → 9</text>
+
+  <text x="180" y="420" font-family="Arial, sans-serif" font-size="10" fill="#64748b">In:</text>
+  <text x="205" y="420" font-family="Arial, sans-serif" font-size="10" fill="#ef4444" text-decoration="line-through">75,4</text>
+  <text x="245" y="420" font-family="Arial, sans-serif" font-size="10" fill="#10b981"> → 114,8</text>
+
+  <text x="70" y="440" font-family="Arial, sans-serif" font-size="10" fill="#64748b">Os:</text>
+  <text x="100" y="440" font-family="Arial, sans-serif" font-size="10" fill="#ef4444" text-decoration="line-through">198,6</text>
+  <text x="145" y="440" font-family="Arial, sans-serif" font-size="10" fill="#10b981"> → 190,2</text>
+
+  <text x="70" y="460" font-family="Arial, sans-serif" font-size="10" fill="#64748b">Th:</text>
+  <text x="100" y="460" font-family="Arial, sans-serif" font-size="10" fill="#ef4444" text-decoration="line-through">118</text>
+  <text x="130" y="460" font-family="Arial, sans-serif" font-size="10" fill="#10b981"> → 232</text>
+
+  <text x="70" y="472" font-family="Arial, sans-serif" font-size="9" fill="#475569">Все исправления подтвердились экспериментально</text>
+
+  <!-- Modern formulation -->
+  <rect x="410" y="375" width="350" height="105" rx="8" fill="#0f172a" stroke="#14b8a6" stroke-width="1"/>
+  <text x="585" y="398" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#14b8a6" text-anchor="middle">Современная формулировка</text>
+
+  <rect x="425" y="408" width="320" height="42" rx="5" fill="#1e293b" stroke="#0d9488" stroke-width="0.8"/>
+  <text x="585" y="425" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0" text-anchor="middle">«Свойства химических элементов и</text>
+  <text x="585" y="442" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0" text-anchor="middle">образуемых ими веществ находятся в</text>
+
+  <text x="585" y="465" font-family="Arial, sans-serif" font-size="10" fill="#6ee7b7" text-anchor="middle" font-weight="bold">периодической зависимости от заряда ядра»</text>
+
+  <text x="585" y="478" font-family="Arial, sans-serif" font-size="8" fill="#475569" text-anchor="middle">(не от атомной массы, как в первоначальной формулировке 1869 г.)</text>
+
+  <!-- Decorative glow elements -->
+  <circle cx="30" cy="245" r="3" fill="#14b8a6" opacity="0.4" filter="url(#glow17)"/>
+  <circle cx="770" cy="375" r="2" fill="#8b5cf6" opacity="0.3" filter="url(#glow17)"/>
+  <circle cx="400" cy="240" r="2" fill="#6366f1" opacity="0.3" filter="url(#glow17)"/>
+</svg>

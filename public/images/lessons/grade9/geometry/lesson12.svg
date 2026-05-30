@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0F2F1"/>
+      <stop offset="100%" stop-color="#B2DFDB"/>
+    </linearGradient>
+    <marker id="ah12" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#00695C"/>
+    </marker>
+    <marker id="ah12c" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#009688"/>
+    </marker>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#00695C" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#004D40" text-anchor="middle" font-family="Arial">Скалярное произведение векторов</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="Arial">Геометрия 9 класс — Урок 12</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#009688" stroke-width="1" opacity="0.3"/>
+
+  <!-- Two vectors with angle panel -->
+  <rect x="15" y="58" width="240" height="155" rx="6" fill="white" opacity="0.9" stroke="#009688" stroke-width="1"/>
+  <text x="135" y="74" font-size="10" font-weight="bold" fill="#00695C" text-anchor="middle" font-family="Arial">Векторы и угол между ними</text>
+  <!-- Vector a -->
+  <line x1="60" y1="175" x2="180" y2="110" stroke="#00695C" stroke-width="2.5" marker-end="url(#ah12)"/>
+  <text x="105" y="125" font-size="10" fill="#00695C" font-family="Arial" font-style="italic" font-weight="bold">a</text>
+  <!-- Vector b -->
+  <line x1="60" y1="175" x2="170" y2="175" stroke="#009688" stroke-width="2.5" marker-end="url(#ah12c)"/>
+  <text x="120" y="170" font-size="10" fill="#009688" font-family="Arial" font-style="italic" font-weight="bold">b</text>
+  <!-- Angle arc -->
+  <path d="M 90 175 A 30 30 0 0 0 88 158" fill="none" stroke="#E91E63" stroke-width="1.5"/>
+  <text x="95" y="160" font-size="9" fill="#E91E63" font-family="Arial" font-weight="bold">a</text>
+  <!-- Origin point -->
+  <circle cx="60" cy="175" r="2.5" fill="#00695C"/>
+  <text x="50" y="185" font-size="8" fill="#333" font-family="Arial">O</text>
+  <!-- Projection -->
+  <line x1="180" y1="110" x2="180" y2="175" stroke="#00695C" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="155" y="195" font-size="8" fill="#555" font-family="Arial">|a|·cosa — проекция a на b</text>
+  <!-- Formula -->
+  <rect x="30" y="198" width="210" height="22" rx="4" fill="#E0F2F1" stroke="#009688" stroke-width="0.8"/>
+  <text x="135" y="213" font-size="10" fill="#004D40" text-anchor="middle" font-family="Arial" font-weight="bold">a·b = |a|·|b|·cos(a)</text>
+
+  <!-- Coordinate form panel -->
+  <rect x="265" y="58" width="220" height="155" rx="6" fill="white" opacity="0.9" stroke="#009688" stroke-width="1"/>
+  <text x="375" y="74" font-size="10" font-weight="bold" fill="#00695C" text-anchor="middle" font-family="Arial">Координатная форма</text>
+  <!-- Formula -->
+  <rect x="275" y="82" width="200" height="30" rx="4" fill="#B2DFDB" stroke="#009688" stroke-width="0.8"/>
+  <text x="375" y="96" font-size="8" fill="#888" text-anchor="middle" font-family="Arial">a={x1;y1}, b={x2;y2}</text>
+  <text x="375" y="108" font-size="10" fill="#004D40" text-anchor="middle" font-family="Arial" font-weight="bold">a·b = x1x2 + y1y2</text>
+  <!-- Angle formula -->
+  <rect x="275" y="118" width="200" height="30" rx="4" fill="#E0F2F1" stroke="#009688" stroke-width="0.8"/>
+  <text x="375" y="132" font-size="8" fill="#888" text-anchor="middle" font-family="Arial">Угол между векторами:</text>
+  <text x="375" y="144" font-size="9" fill="#00695C" text-anchor="middle" font-family="Arial" font-weight="bold">cosa = (a·b)/(|a|·|b|)</text>
+  <!-- Example -->
+  <rect x="275" y="155" width="200" height="50" rx="4" fill="#B2DFDB" stroke="#009688" stroke-width="0.8"/>
+  <text x="375" y="168" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">Пример: a={3;4}, b={2;1}</text>
+  <text x="375" y="180" font-size="8" fill="#00695C" text-anchor="middle" font-family="Arial">a·b = 3·2 + 4·1 = 10</text>
+  <text x="375" y="192" font-size="8" fill="#00695C" text-anchor="middle" font-family="Arial">|a|=5, |b|=V5, cosa=10/(5V5)=2/V5</text>
+
+  <!-- Properties panel -->
+  <rect x="15" y="220" width="300" height="92" rx="6" fill="white" opacity="0.9" stroke="#009688" stroke-width="1"/>
+  <text x="165" y="236" font-size="10" font-weight="bold" fill="#00695C" text-anchor="middle" font-family="Arial">Свойства скалярного произведения</text>
+  <!-- Commutative -->
+  <rect x="25" y="242" width="280" height="20" rx="3" fill="#E0F2F1" stroke="#009688" stroke-width="0.5"/>
+  <text x="165" y="256" font-size="8.5" fill="#00695C" text-anchor="middle" font-family="Arial">Переместительное: a·b = b·a</text>
+  <!-- Distributive -->
+  <rect x="25" y="265" width="280" height="20" rx="3" fill="#B2DFDB" stroke="#009688" stroke-width="0.5"/>
+  <text x="165" y="279" font-size="8.5" fill="#004D40" text-anchor="middle" font-family="Arial">Распределительное: a·(b+c) = a·b + a·c</text>
+  <!-- Scalar mult -->
+  <rect x="25" y="288" width="280" height="20" rx="3" fill="#E0F2F1" stroke="#009688" stroke-width="0.5"/>
+  <text x="165" y="302" font-size="8.5" fill="#00695C" text-anchor="middle" font-family="Arial">(ka)·b = k(a·b) | a·a = |a|² | a·b=0 при a_|_b</text>
+
+  <!-- Conditions panel -->
+  <rect x="325" y="220" width="160" height="92" rx="6" fill="white" opacity="0.9" stroke="#009688" stroke-width="1"/>
+  <text x="405" y="236" font-size="9" font-weight="bold" fill="#00695C" text-anchor="middle" font-family="Arial">Условия</text>
+  <text x="405" y="252" font-size="8" fill="#4CAF50" text-anchor="middle" font-family="Arial">a·b &gt; 0: угол острый</text>
+  <text x="405" y="266" font-size="8" fill="#FF5722" text-anchor="middle" font-family="Arial">a·b &lt; 0: угол тупой</text>
+  <text x="405" y="280" font-size="8" fill="#1E88E5" text-anchor="middle" font-family="Arial">a·b = 0: a _|_ b</text>
+  <text x="405" y="296" font-size="8" fill="#9C27B0" text-anchor="middle" font-family="Arial">a·a = |a|² > 0</text>
+  <text x="405" y="308" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">(cosa=0 при 90°)</text>
+
+  <!-- Bottom bar -->
+  <rect x="15" y="318" width="470" height="26" rx="4" fill="#009688" opacity="0.85"/>
+  <text x="250" y="335" font-size="10" fill="white" text-anchor="middle" font-weight="bold" font-family="Arial">a·b = |a||b|cosa = x1x2+y1y2 | cosa = (a·b)/(|a||b|)</text>
+</svg>

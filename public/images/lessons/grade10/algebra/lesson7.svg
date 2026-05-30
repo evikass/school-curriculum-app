@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="50%" stop-color="#BBDEFB"/>
+      <stop offset="100%" stop-color="#1E88E5" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="500" height="350" fill="url(#bg)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#0D47A1" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#0D47A1" text-anchor="middle" font-family="Arial">Преобразование графиков</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="Arial">Алгебра 10 класс — Урок 7</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#1565C0" stroke-opacity="0.3"/>
+  <rect x="12" y="58" width="476" height="38" rx="6" fill="white" fill-opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+  <text x="250" y="78" font-size="10" fill="#0D47A1" text-anchor="middle" font-weight="bold" font-family="Arial">y = A sin(ωx + φ) + B</text>
+  <text x="250" y="91" font-size="7" fill="#555" text-anchor="middle" font-family="Arial">A — амплитуда | ω — частота | φ — фаза | B — сдвиг по Y</text>
+  <rect x="12" y="103" width="230" height="100" rx="6" fill="white" fill-opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+  <text x="127" y="119" font-size="9" font-weight="bold" fill="#0D47A1" text-anchor="middle" font-family="Arial">Влияние параметров</text>
+  <text x="127" y="135" font-size="7" fill="#555" text-anchor="middle" font-family="Arial">A > 1: растяжение по Y</text>
+  <text x="127" y="148" font-size="7" fill="#555" text-anchor="middle" font-family="Arial">0 &lt; A &lt; 1: сжатие по Y</text>
+  <text x="127" y="161" font-size="7" fill="#555" text-anchor="middle" font-family="Arial">ω > 1: сжатие по X (T = 2π/ω)</text>
+  <text x="127" y="174" font-size="7" fill="#555" text-anchor="middle" font-family="Arial">B: сдвиг вверх при B > 0</text>
+  <text x="127" y="187" font-size="7" fill="#555" text-anchor="middle" font-family="Arial">φ: сдвиг влево при φ > 0</text>
+  <text x="127" y="198" font-size="7" fill="#0D47A1" font-weight="bold" text-anchor="middle" font-family="Arial">E(y) = [−|A|+B; |A|+B]</text>
+  <rect x="252" y="103" width="236" height="100" rx="6" fill="white" fill-opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+  <text x="370" y="119" font-size="9" font-weight="bold" fill="#0D47A1" text-anchor="middle" font-family="Arial">Примеры</text>
+  <text x="370" y="135" font-size="7" fill="#555" text-anchor="middle" font-family="Arial">y = 2sin x — растяж. в 2 раза</text>
+  <text x="370" y="148" font-size="7" fill="#555" text-anchor="middle" font-family="Arial">y = sin 2x — сжатие, T = π</text>
+  <text x="370" y="161" font-size="7" fill="#555" text-anchor="middle" font-family="Arial">y = sin(x − π/4) — сдвиг →</text>
+  <text x="370" y="174" font-size="7" fill="#555" text-anchor="middle" font-family="Arial">y = sin x + 3 — сдвиг ↑</text>
+  <text x="370" y="187" font-size="7" fill="#1565C0" text-anchor="middle" font-family="Arial">y = −cos x — отражение</text>
+  <text x="370" y="198" font-size="7" fill="#0D47A1" font-weight="bold" text-anchor="middle" font-family="Arial">A &lt; 0: отражение отн. OX</text>
+  <rect x="12" y="211" width="476" height="55" rx="6" fill="white" fill-opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+  <text x="250" y="228" font-size="9" font-weight="bold" fill="#0D47A1" text-anchor="middle" font-family="Arial">Пример: y = 3sin(2x − π/4) + 1</text>
+  <text x="250" y="245" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">A=3, ω=2, T=π, φ=−π/4, B=1</text>
+  <text x="250" y="258" font-size="8" fill="#1565C0" text-anchor="middle" font-family="Arial">Начало волны: x = π/8 | E(y) = [−2; 4]</text>
+  <rect x="12" y="274" width="476" height="38" rx="6" fill="white" fill-opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+  <text x="250" y="290" font-size="8" font-weight="bold" fill="#0D47A1" text-anchor="middle" font-family="Arial">Важно!</text>
+  <text x="250" y="305" font-size="7" fill="#555" text-anchor="middle" font-family="Arial">sin(x − a) — сдвиг ВПРАВО на a | Период T = 2π/ω, не 2πω!</text>
+  <rect x="12" y="320" width="476" height="22" rx="4" fill="#1565C0" fill-opacity="0.85"/>
+  <text x="250" y="335" font-size="9" fill="white" text-anchor="middle" font-weight="bold" font-family="Arial">Преобразование графиков — Мордкович А.Г., 10 класс</text>
+</svg>

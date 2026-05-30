@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="50%" stop-color="#BBDEFB"/>
+      <stop offset="100%" stop-color="#1E88E5" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="500" height="350" fill="url(#bg)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#0D47A1" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#0D47A1" text-anchor="middle" font-family="Arial">Рациональные выражения</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="Arial">Алгебра 8 класс — Урок 1</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#1565C0" stroke-opacity="0.3"/>
+  <rect x="12" y="58" width="476" height="55" rx="6" fill="white" fill-opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+  <text x="250" y="78" font-size="10" fill="#0D47A1" text-anchor="middle" font-weight="bold">Алгоритм решения задач</text>
+  <text x="250" y="100" font-size="9" fill="#555" text-anchor="middle">1. x → 2. Уравнение → 3. Решить → 4. Проверить</text>
+  <rect x="12" y="121" width="230" height="100" rx="6" fill="white" fill-opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+  <text x="127" y="136" font-size="9" font-weight="bold" fill="#0D47A1" text-anchor="middle">Задача на площадь</text>
+  <text x="127" y="155" font-size="8" fill="#555" text-anchor="middle">x(x+5) = 36</text>
+  <text x="127" y="170" font-size="8" fill="#1565C0" font-family="monospace">x²+5x-36=0</text>
+  <text x="127" y="185" font-size="8" fill="#0D47A1" font-weight="bold">x=4, стороны 4 и 9</text>
+  <rect x="252" y="121" width="236" height="100" rx="6" fill="white" fill-opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+  <text x="370" y="136" font-size="9" font-weight="bold" fill="#0D47A1" text-anchor="middle">Задача на движение</text>
+  <text x="370" y="155" font-size="8" fill="#555" text-anchor="middle">S = v · t</text>
+  <text x="370" y="170" font-size="8" fill="#1565C0" font-family="monospace">40/(x+2)+6/(x-2)=3</text>
+  <text x="370" y="185" font-size="8" fill="#0D47A1" font-weight="bold">Решить квадратное уравнение</text>
+  <rect x="12" y="229" width="476" height="75" rx="6" fill="white" fill-opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+  <text x="250" y="244" font-size="9" font-weight="bold" fill="#0D47A1" text-anchor="middle">Важно!</text>
+  <text x="250" y="262" font-size="8" fill="#555" text-anchor="middle">Отрицательные корни часто не подходят по смыслу</text>
+  <text x="250" y="280" font-size="8" fill="#0D47A1" font-weight="bold">Всегда проверяй ответ по условию задачи!</text>
+  <rect x="12" y="320" width="476" height="22" rx="4" fill="#1565C0" fill-opacity="0.85"/>
+  <text x="250" y="335" font-size="9" fill="white" text-anchor="middle" font-weight="bold" font-family="Arial">Рациональные выражения — Макарычев Ю.Н., 8 класс</text>
+</svg>

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg16" x1="0" y1="0" x2="500" y2="350" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+    <linearGradient id="face16" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#A5D6A7" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#66BB6A" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg16)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle" font-family="serif">Правильные многогранники</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="sans-serif">Геометрия 10 класс — Урок 16</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#43A047" stroke-width="1" opacity="0.3"/>
+  <!-- Row 1: Tetrahedron, Cube, Octahedron -->
+  <!-- Tetrahedron -->
+  <rect x="12" y="58" width="155" height="130" rx="6" fill="white" opacity="0.9" stroke="#43A047" stroke-width="1"/>
+  <text x="90" y="73" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle" font-family="serif">Тетраэдр</text>
+  <text x="90" y="83" font-size="7" fill="#666" text-anchor="middle" font-family="sans-serif">4 грани (треуг.)</text>
+  <!-- Mini 3D tetrahedron -->
+  <path d="M55,160 L110,160 L85,110 Z" fill="url(#face16)" stroke="#2E7D32" stroke-width="1.2"/>
+  <line x1="85" y1="110" x2="55" y2="160" stroke="#2E7D32" stroke-width="1.2"/>
+  <line x1="85" y1="110" x2="110" y2="160" stroke="#2E7D32" stroke-width="1.2"/>
+  <path d="M85,100 L60,145 L105,145 Z" fill="#C8E6C9" fill-opacity="0.5" stroke="#2E7D32" stroke-width="1"/>
+  <text x="90" y="174" font-size="7" fill="#2E7D32" text-anchor="middle">V=4 E=6 F=4</text>
+  <!-- Cube -->
+  <rect x="175" y="58" width="155" height="130" rx="6" fill="white" opacity="0.9" stroke="#43A047" stroke-width="1"/>
+  <text x="253" y="73" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle" font-family="serif">Гексаэдр (куб)</text>
+  <text x="253" y="83" font-size="7" fill="#666" text-anchor="middle" font-family="sans-serif">6 граней (квадр.)</text>
+  <!-- Mini 3D cube -->
+  <rect x="225" y="115" width="40" height="35" rx="1" fill="url(#face16)" stroke="#2E7D32" stroke-width="1"/>
+  <line x1="225" y1="115" x2="240" y2="103" stroke="#2E7D32" stroke-width="1"/>
+  <line x1="265" y1="115" x2="280" y2="103" stroke="#2E7D32" stroke-width="1"/>
+  <line x1="265" y1="150" x2="280" y2="138" stroke="#2E7D32" stroke-width="1"/>
+  <path d="M225,115 L240,103 L280,103 L265,115 Z" fill="#C8E6C9" fill-opacity="0.4" stroke="#2E7D32" stroke-width="1"/>
+  <path d="M265,115 L280,103 L280,138 L265,150 Z" fill="#A5D6A7" fill-opacity="0.3" stroke="#2E7D32" stroke-width="1"/>
+  <line x1="225" y1="150" x2="240" y2="138" stroke="#2E7D32" stroke-width="0.7" stroke-dasharray="3,2"/>
+  <line x1="240" y1="138" x2="280" y2="138" stroke="#2E7D32" stroke-width="0.7" stroke-dasharray="3,2"/>
+  <line x1="240" y1="138" x2="240" y2="103" stroke="#2E7D32" stroke-width="0.7" stroke-dasharray="3,2"/>
+  <text x="253" y="174" font-size="7" fill="#2E7D32" text-anchor="middle">V=8 E=12 F=6</text>
+  <!-- Octahedron -->
+  <rect x="338" y="58" width="150" height="130" rx="6" fill="white" opacity="0.9" stroke="#43A047" stroke-width="1"/>
+  <text x="413" y="73" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle" font-family="serif">Октаэдр</text>
+  <text x="413" y="83" font-size="7" fill="#666" text-anchor="middle" font-family="sans-serif">8 граней (треуг.)</text>
+  <!-- Mini 3D octahedron -->
+  <line x1="413" y1="95" x2="413" y2="158" stroke="#2E7D32" stroke-width="1.2"/>
+  <line x1="380" y1="127" x2="446" y2="127" stroke="#2E7D32" stroke-width="1.2"/>
+  <line x1="413" y1="95" x2="380" y2="127" stroke="#2E7D32" stroke-width="1"/>
+  <line x1="413" y1="95" x2="446" y2="127" stroke="#2E7D32" stroke-width="1"/>
+  <line x1="380" y1="127" x2="413" y2="158" stroke="#2E7D32" stroke-width="1"/>
+  <line x1="446" y1="127" x2="413" y2="158" stroke="#2E7D32" stroke-width="1"/>
+  <path d="M413,95 L380,127 L413,158 L446,127 Z" fill="#C8E6C9" fill-opacity="0.3" stroke="#2E7D32" stroke-width="1"/>
+  <line x1="395" y1="108" x2="431" y2="146" stroke="#2E7D32" stroke-width="0.7" stroke-dasharray="3,2"/>
+  <text x="413" y="174" font-size="7" fill="#2E7D32" text-anchor="middle">V=6 E=12 F=8</text>
+  <!-- Row 2: Dodecahedron, Icosahedron, Euler -->
+  <!-- Dodecahedron -->
+  <rect x="12" y="196" width="155" height="112" rx="6" fill="white" opacity="0.9" stroke="#43A047" stroke-width="1"/>
+  <text x="90" y="211" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle" font-family="serif">Додекаэдр</text>
+  <text x="90" y="221" font-size="7" fill="#666" text-anchor="middle" font-family="sans-serif">12 граней (пятиуг.)</text>
+  <!-- Mini dodecahedron (simplified as pentagon projection) -->
+  <path d="M90,235 L108,243 L102,262 L78,262 L72,243 Z" fill="url(#face16)" stroke="#2E7D32" stroke-width="1.2"/>
+  <path d="M72,243 L55,248 L60,268 L78,262" fill="none" stroke="#2E7D32" stroke-width="0.8"/>
+  <path d="M108,243 L125,248 L120,268 L102,262" fill="none" stroke="#2E7D32" stroke-width="0.8"/>
+  <line x1="55" y1="248" x2="60" y2="268" stroke="#2E7D32" stroke-width="0.7" stroke-dasharray="2,2"/>
+  <text x="90" y="285" font-size="7" fill="#2E7D32" text-anchor="middle">V=20 E=30 F=12</text>
+  <!-- Icosahedron -->
+  <rect x="175" y="196" width="155" height="112" rx="6" fill="white" opacity="0.9" stroke="#43A047" stroke-width="1"/>
+  <text x="253" y="211" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle" font-family="serif">Икосаэдр</text>
+  <text x="253" y="221" font-size="7" fill="#666" text-anchor="middle" font-family="sans-serif">20 граней (треуг.)</text>
+  <!-- Mini icosahedron (simplified) -->
+  <path d="M253,232 L235,252 L271,252 Z" fill="url(#face16)" stroke="#2E7D32" stroke-width="1"/>
+  <path d="M235,252 L240,272 L271,252 Z" fill="#C8E6C9" fill-opacity="0.4" stroke="#2E7D32" stroke-width="0.8"/>
+  <path d="M240,272 L266,272 L271,252 Z" fill="url(#face16)" stroke="#2E7D32" stroke-width="0.8"/>
+  <path d="M253,232 L225,242 L235,252 Z" fill="#A5D6A7" fill-opacity="0.2" stroke="#2E7D32" stroke-width="0.7"/>
+  <path d="M253,232 L281,242 L271,252 Z" fill="#A5D6A7" fill-opacity="0.2" stroke="#2E7D32" stroke-width="0.7"/>
+  <line x1="235" y1="252" x2="266" y2="272" stroke="#2E7D32" stroke-width="0.6" stroke-dasharray="2,2"/>
+  <text x="253" y="285" font-size="7" fill="#2E7D32" text-anchor="middle">V=12 E=30 F=20</text>
+  <!-- Euler's formula Panel -->
+  <rect x="338" y="196" width="150" height="112" rx="6" fill="white" opacity="0.9" stroke="#43A047" stroke-width="1.2"/>
+  <text x="413" y="211" font-size="9" font-weight="bold" fill="#2E7D32" text-anchor="middle" font-family="serif">Формула Эйлера</text>
+  <text x="413" y="238" font-size="16" fill="#1B5E20" font-weight="bold" text-anchor="middle" font-family="serif">V - E + F = 2</text>
+  <text x="413" y="255" font-size="7" fill="#555" text-anchor="middle" font-family="sans-serif">V — вершины</text>
+  <text x="413" y="265" font-size="7" fill="#555" text-anchor="middle" font-family="sans-serif">E — рёбра</text>
+  <text x="413" y="275" font-size="7" fill="#555" text-anchor="middle" font-family="sans-serif">F — грани</text>
+  <text x="413" y="292" font-size="7" fill="#2E7D32" font-weight="bold" text-anchor="middle" font-family="sans-serif">Для любого выпуклого</text>
+  <text x="413" y="302" font-size="7" fill="#2E7D32" font-weight="bold" text-anchor="middle" font-family="sans-serif">многогранника!</text>
+  <!-- Bottom bar -->
+  <rect x="12" y="316" width="476" height="26" rx="4" fill="#43A047" opacity="0.85"/>
+  <text x="250" y="333" font-size="9.5" fill="white" text-anchor="middle" font-weight="bold" font-family="serif">5 платоновых тел | Формула Эйлера: V - E + F = 2</text>
+</svg>

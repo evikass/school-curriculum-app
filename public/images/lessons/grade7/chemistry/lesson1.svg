@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<defs>
+  <style>
+    text { font-family: 'Segoe UI', Arial, Helvetica, sans-serif; }
+  </style>
+  <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+    <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.08"/>
+  </filter>
+</defs>
+<rect width="800" height="500" rx="12" fill="#f8fafc"/>
+<rect width="800" height="6" fill="#3b82f6" rx="3"/>
+<text x="400" y="48" text-anchor="middle" font-size="28" font-weight="700" fill="#1e3a5f">Предмет химии. Что изучает химия</text>
+<rect x="320" y="65" width="160" height="44" rx="22" fill="#3b82f6" filter="url(#shadow)"/>
+<text x="400" y="94" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">Химия</text>
+<rect x="55" y="130" width="230" height="250" rx="14" fill="#fff" stroke="#3b82f6" stroke-width="1.5" filter="url(#shadow)"/>
+<rect x="55" y="130" width="230" height="6" rx="3" fill="#3b82f6"/>
+<path d="M130,170 L130,200 L100,260 Q95,275 110,275 L170,275 Q185,275 180,260 L150,200 L150,170 Z" fill="none" stroke="#3b82f6" stroke-width="2.5"/><line x1="125" y1="170" x2="155" y2="170" stroke="#3b82f6" stroke-width="2.5"/><ellipse cx="140" cy="250" rx="18" ry="10" fill="#93c5fd" opacity="0.5"/>
+<text x="170" y="320" text-anchor="middle" font-size="16" font-weight="600" fill="#3b82f6">Состав веществ</text>
+<rect x="300" y="130" width="230" height="250" rx="14" fill="#fff" stroke="#10b981" stroke-width="1.5" filter="url(#shadow)"/>
+<rect x="300" y="130" width="230" height="6" rx="3" fill="#10b981"/>
+<circle cx="400" cy="230" r="30" fill="none" stroke="#10b981" stroke-width="2.5"/><line x1="422" y1="252" x2="445" y2="275" stroke="#10b981" stroke-width="3" stroke-linecap="round"/><circle cx="393" cy="222" r="5" fill="#6ee7b7" opacity="0.5"/>
+<text x="415" y="320" text-anchor="middle" font-size="16" font-weight="600" fill="#10b981">Свойства веществ</text>
+<rect x="545" y="130" width="230" height="250" rx="14" fill="#fff" stroke="#8b5cf6" stroke-width="1.5" filter="url(#shadow)"/>
+<rect x="545" y="130" width="230" height="6" rx="3" fill="#8b5cf6"/>
+<rect x="595" y="195" width="40" height="28" rx="4" fill="#c4b5fd" stroke="#8b5cf6" stroke-width="1.5"/><polygon points="645,209 665,209 665,200 680,214 665,228 665,219 645,219" fill="#8b5cf6"/><rect x="685" y="195" width="40" height="28" rx="4" fill="#a78bfa" stroke="#8b5cf6" stroke-width="1.5"/>
+<text x="660" y="320" text-anchor="middle" font-size="16" font-weight="600" fill="#8b5cf6">Превращения веществ</text>
+<text x="140" y="360" text-anchor="middle" font-size="20" fill="#1e3a5f">H<tspan font-size="13" baseline-shift="sub">2</tspan>O</text>
+<text x="400" y="360" text-anchor="middle" font-size="20" fill="#1e3a5f">NaCl</text>
+<text x="665" y="360" text-anchor="middle" font-size="20" fill="#1e3a5f">Fe</text>
+<rect x="200" y="420" width="400" height="3" rx="1.5" fill="#e2e8f0"/>
+<text x="400" y="455" text-anchor="middle" font-size="13" fill="#94a3b8">Химия — наука о веществах, их свойствах и превращениях</text>
+</svg>

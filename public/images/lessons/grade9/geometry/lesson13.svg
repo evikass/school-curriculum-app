@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EDE7F6"/>
+      <stop offset="100%" stop-color="#D1C4E9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#4527A0" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#311B92" text-anchor="middle" font-family="Arial">Правильные многоугольники</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="Arial">Геометрия 9 класс — Урок 13</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#7C4DFF" stroke-width="1" opacity="0.3"/>
+
+  <!-- Regular triangle panel -->
+  <rect x="15" y="58" width="115" height="115" rx="6" fill="white" opacity="0.9" stroke="#7C4DFF" stroke-width="1"/>
+  <text x="72" y="72" font-size="8" font-weight="bold" fill="#4527A0" text-anchor="middle" font-family="Arial">Треугольник</text>
+  <polygon points="72,82 42,138 102,138" fill="none" stroke="#7C4DFF" stroke-width="2"/>
+  <circle cx="72" cy="118" r="1.5" fill="#7C4DFF"/>
+  <text x="72" y="150" font-size="7" fill="#4527A0" text-anchor="middle" font-family="Arial">n=3, a=60°</text>
+
+  <!-- Square panel -->
+  <rect x="140" y="58" width="115" height="115" rx="6" fill="white" opacity="0.9" stroke="#7C4DFF" stroke-width="1"/>
+  <text x="197" y="72" font-size="8" font-weight="bold" fill="#4527A0" text-anchor="middle" font-family="Arial">Квадрат</text>
+  <rect x="162" y="80" width="56" height="56" fill="none" stroke="#7C4DFF" stroke-width="2"/>
+  <circle cx="190" cy="108" r="1.5" fill="#7C4DFF"/>
+  <text x="197" y="150" font-size="7" fill="#4527A0" text-anchor="middle" font-family="Arial">n=4, a=90°</text>
+
+  <!-- Pentagon panel -->
+  <rect x="265" y="58" width="115" height="115" rx="6" fill="white" opacity="0.9" stroke="#7C4DFF" stroke-width="1"/>
+  <text x="322" y="72" font-size="8" font-weight="bold" fill="#4527A0" text-anchor="middle" font-family="Arial">Пятиугольник</text>
+  <polygon points="322,82 295,100 305,132 339,132 349,100" fill="none" stroke="#7C4DFF" stroke-width="2"/>
+  <circle cx="322" cy="112" r="1.5" fill="#7C4DFF"/>
+  <text x="322" y="150" font-size="7" fill="#4527A0" text-anchor="middle" font-family="Arial">n=5, a=108°</text>
+
+  <!-- Hexagon panel -->
+  <rect x="390" y="58" width="95" height="115" rx="6" fill="white" opacity="0.9" stroke="#7C4DFF" stroke-width="1"/>
+  <text x="437" y="72" font-size="8" font-weight="bold" fill="#4527A0" text-anchor="middle" font-family="Arial">Шестиуг.</text>
+  <polygon points="437,82 415,95 415,118 437,132 459,118 459,95" fill="none" stroke="#7C4DFF" stroke-width="2"/>
+  <circle cx="437" cy="108" r="1.5" fill="#7C4DFF"/>
+  <text x="437" y="150" font-size="7" fill="#4527A0" text-anchor="middle" font-family="Arial">n=6, a=120°</text>
+
+  <!-- Interior angle formula panel -->
+  <rect x="15" y="180" width="230" height="75" rx="6" fill="white" opacity="0.9" stroke="#7C4DFF" stroke-width="1"/>
+  <text x="130" y="196" font-size="10" font-weight="bold" fill="#4527A0" text-anchor="middle" font-family="Arial">Внутренний угол</text>
+  <rect x="25" y="202" width="210" height="24" rx="4" fill="#EDE7F6" stroke="#7C4DFF" stroke-width="0.8"/>
+  <text x="130" y="218" font-size="10" fill="#311B92" text-anchor="middle" font-family="Arial" font-weight="bold">a = (n-2)·180°/n</text>
+  <text x="130" y="238" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">Сумма углов: (n-2)·180°</text>
+  <text x="130" y="250" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">Внешний угол: 360°/n</text>
+
+  <!-- Apothem and radii panel -->
+  <rect x="255" y="180" width="230" height="75" rx="6" fill="white" opacity="0.9" stroke="#7C4DFF" stroke-width="1"/>
+  <text x="370" y="196" font-size="10" font-weight="bold" fill="#4527A0" text-anchor="middle" font-family="Arial">Радиусы и апофема</text>
+  <!-- Hexagon with radii -->
+  <circle cx="370" cy="240" r="25" fill="none" stroke="#7C4DFF" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="370" y1="215" x2="370" y2="240" stroke="#E65100" stroke-width="1.2"/>
+  <text x="375" y="228" font-size="7" fill="#E65100" font-family="Arial">R</text>
+  <line x1="370" y1="240" x2="392" y2="253" stroke="#1E88E5" stroke-width="1.2"/>
+  <text x="388" y="242" font-size="7" fill="#1E88E5" font-family="Arial">r</text>
+  <text x="370" y="260" font-size="7" fill="#555" text-anchor="middle" font-family="Arial">R — описанной окр.</text>
+  <text x="370" y="270" font-size="7" fill="#555" text-anchor="middle" font-family="Arial">r — вписанной окр. (апофема)</text>
+  <rect x="395" y="202" width="82" height="20" rx="3" fill="#D1C4E9" stroke="#7C4DFF" stroke-width="0.5"/>
+  <text x="436" y="216" font-size="7.5" fill="#311B92" text-anchor="middle" font-family="Arial">a = 2R·sin(180/n)</text>
+
+  <!-- Area formula panel -->
+  <rect x="15" y="262" width="235" height="50" rx="6" fill="white" opacity="0.9" stroke="#7C4DFF" stroke-width="1"/>
+  <text x="132" y="278" font-size="9" font-weight="bold" fill="#4527A0" text-anchor="middle" font-family="Arial">Площадь</text>
+  <rect x="25" y="283" width="215" height="22" rx="4" fill="#EDE7F6" stroke="#7C4DFF" stroke-width="0.8"/>
+  <text x="132" y="298" font-size="10" fill="#311B92" text-anchor="middle" font-family="Arial" font-weight="bold">S = 1/2 · P · r</text>
+
+  <!-- Side length panel -->
+  <rect x="260" y="262" width="225" height="50" rx="6" fill="white" opacity="0.9" stroke="#7C4DFF" stroke-width="1"/>
+  <text x="372" y="278" font-size="9" font-weight="bold" fill="#4527A0" text-anchor="middle" font-family="Arial">Формулы связи</text>
+  <text x="372" y="293" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">a = 2R·sin(180°/n) = 2r·tg(180°/n)</text>
+  <text x="372" y="305" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">R = r / cos(180°/n)</text>
+
+  <!-- Bottom bar -->
+  <rect x="15" y="318" width="470" height="26" rx="4" fill="#7C4DFF" opacity="0.85"/>
+  <text x="250" y="335" font-size="10" fill="white" text-anchor="middle" font-weight="bold" font-family="Arial">a=(n-2)·180°/n | S=½Pr | a=2R·sin(180°/n)</text>
+</svg>

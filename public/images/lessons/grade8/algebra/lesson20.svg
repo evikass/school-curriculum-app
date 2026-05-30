@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8EAF6"/>
+      <stop offset="50%" stop-color="#C5CAE9"/>
+      <stop offset="100%" stop-color="#5C6BC0" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="500" height="350" fill="url(#bg)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1A237E" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#1A237E" text-anchor="middle" font-family="Arial">Теорема Виета</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="Arial">Алгебра 8 класс — Урок 20</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#3949AB" stroke-opacity="0.3"/>
+  <rect x="12" y="58" width="476" height="70" rx="6" fill="white" fill-opacity="0.9" stroke="#3949AB" stroke-width="1"/>
+  <text x="250" y="73" font-size="9" font-weight="bold" fill="#1A237E" text-anchor="middle">Прямая теорема Виета (для x²+px+q=0)</text>
+  <text x="250" y="93" font-size="11" fill="#1A237E" text-anchor="middle" font-weight="bold" font-family="monospace">x₁+x₂ = -p         x₁ · x₂ = q</text>
+  <text x="250" y="115" font-size="8" fill="#555" text-anchor="middle">Для ax²+bx+c=0: x₁+x₂=-b/a, x₁x₂=c/a</text>
+  <rect x="12" y="136" width="230" height="100" rx="6" fill="white" fill-opacity="0.9" stroke="#3949AB" stroke-width="1"/>
+  <text x="127" y="151" font-size="9" font-weight="bold" fill="#1A237E" text-anchor="middle">Применения</text>
+  <text x="127" y="170" font-size="8" fill="#555" text-anchor="middle">1. Проверка корней</text>
+  <text x="127" y="185" font-size="8" fill="#555" text-anchor="middle">2. Найти второй корень</text>
+  <text x="127" y="200" font-size="8" fill="#555" text-anchor="middle">3. Составить уравнение</text>
+  <text x="127" y="215" font-size="8" fill="#555" text-anchor="middle">4. Вычислить выражения</text>
+  <rect x="252" y="136" width="236" height="100" rx="6" fill="white" fill-opacity="0.9" stroke="#3949AB" stroke-width="1"/>
+  <text x="370" y="151" font-size="9" font-weight="bold" fill="#1A237E" text-anchor="middle">Примеры</text>
+  <text x="370" y="170" font-size="8" fill="#3949AB" font-family="monospace">x²-5x+6=0:</text>
+  <text x="370" y="185" font-size="8" fill="#3949AB" font-family="monospace">x₁+x₂=5, x₁x₂=6</text>
+  <text x="370" y="200" font-size="8" fill="#1A237E" font-weight="bold" font-family="monospace">→ x=2, x=3</text>
+  <text x="370" y="220" font-size="8" fill="#3949AB" font-family="monospace">Корни 1 и -4:</text>
+  <text x="370" y="232" font-size="8" fill="#3949AB" font-family="monospace">x²+3x-4=0</text>
+  <rect x="12" y="244" width="476" height="57" rx="6" fill="white" fill-opacity="0.9" stroke="#3949AB" stroke-width="1"/>
+  <text x="250" y="259" font-size="9" font-weight="bold" fill="#1A237E" text-anchor="middle">Полезные формулы</text>
+  <text x="250" y="277" font-size="8" fill="#3949AB" font-family="monospace">x₁²+x₂² = (x₁+x₂)² - 2x₁x₂</text>
+  <text x="250" y="292" font-size="8" fill="#3949AB" font-family="monospace">1/x₁ + 1/x₂ = (x₁+x₂)/(x₁x₂)</text>
+  <rect x="12" y="320" width="476" height="22" rx="4" fill="#3949AB" fill-opacity="0.85"/>
+  <text x="250" y="335" font-size="9" fill="white" text-anchor="middle" font-weight="bold" font-family="Arial">Теорема Виета — Макарычев Ю.Н., 8 класс</text>
+</svg>

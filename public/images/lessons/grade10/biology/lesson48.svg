@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+<linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#1B5E20"/><stop offset="100%" stop-color="#2E7D32"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1B5E20" stroke-width="2.5"/>
+<rect x="10" y="8" width="480" height="28" rx="5" fill="url(#bar)" opacity="0.9"/>
+<text x="250" y="27" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Учение Дарвина об эволюции · Биология 10 — Урок 48</text>
+
+<!-- Five pillars of Darwin's theory -->
+<text x="250" y="52" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#1B5E20" text-anchor="middle">Пять положений теории Ч. Дарвина</text>
+
+<!-- Pillar 1: Variability -->
+<rect x="10" y="60" width="92" height="70" rx="5" fill="white" fill-opacity="0.85" stroke="#1B5E20" stroke-width="1"/>
+<text x="56" y="74" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20" text-anchor="middle">1. Изменчивость</text>
+<!-- Different colored dots representing variation -->
+<circle cx="30" cy="92" r="6" fill="#E91E63"/><circle cx="45" cy="92" r="6" fill="#9C27B0"/><circle cx="60" cy="92" r="6" fill="#2196F3"/>
+<circle cx="75" cy="92" r="6" fill="#FF9800"/>
+<circle cx="38" cy="108" r="6" fill="#4CAF50"/><circle cx="53" cy="108" r="6" fill="#F44336"/><circle cx="68" cy="108" r="6" fill="#00BCD4"/>
+<text x="56" y="126" font-family="Arial,sans-serif" font-size="6.5" fill="#333" text-anchor="middle">Особи отличаются</text>
+
+<!-- Pillar 2: Heredity -->
+<rect x="108" y="60" width="92" height="70" rx="5" fill="white" fill-opacity="0.85" stroke="#1B5E20" stroke-width="1"/>
+<text x="154" y="74" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20" text-anchor="middle">2. Наследственность</text>
+<!-- Parent to child arrows -->
+<circle cx="140" cy="95" r="8" fill="#7B1FA2" opacity="0.7"/>
+<circle cx="168" cy="95" r="8" fill="#7B1FA2" opacity="0.7"/>
+<line x1="148" y1="100" x2="140" y2="112" stroke="#7B1FA2" stroke-width="1"/>
+<line x1="160" y1="100" x2="168" y2="112" stroke="#7B1FA2" stroke-width="1"/>
+<circle cx="140" cy="118" r="6" fill="#9C27B0" opacity="0.7"/>
+<circle cx="168" cy="118" r="6" fill="#9C27B0" opacity="0.7"/>
+<text x="154" y="128" font-family="Arial,sans-serif" font-size="6.5" fill="#333" text-anchor="middle">Признаки передаются</text>
+
+<!-- Pillar 3: Overproduction -->
+<rect x="206" y="60" width="92" height="70" rx="5" fill="white" fill-opacity="0.85" stroke="#1B5E20" stroke-width="1"/>
+<text x="252" y="74" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20" text-anchor="middle">3. Избыток потомства</text>
+<!-- Many small organisms -->
+<g transform="translate(220,85)">
+<circle cx="5" cy="5" r="3" fill="#8D6E63"/><circle cx="15" cy="5" r="3" fill="#8D6E63"/><circle cx="25" cy="5" r="3" fill="#8D6E63"/>
+<circle cx="35" cy="5" r="3" fill="#8D6E63"/><circle cx="45" cy="5" r="3" fill="#8D6E63"/><circle cx="55" cy="5" r="3" fill="#8D6E63"/>
+<circle cx="5" cy="15" r="3" fill="#8D6E63"/><circle cx="15" cy="15" r="3" fill="#8D6E63"/><circle cx="25" cy="15" r="3" fill="#8D6E63"/>
+<circle cx="35" cy="15" r="3" fill="#8D6E63"/><circle cx="45" cy="15" r="3" fill="#8D6E63"/><circle cx="55" cy="15" r="3" fill="#8D6E63"/>
+<circle cx="10" cy="25" r="3" fill="#8D6E63"/><circle cx="25" cy="25" r="3" fill="#8D6E63"/><circle cx="40" cy="25" r="3" fill="#8D6E63"/>
+</g>
+<text x="252" y="128" font-family="Arial,sans-serif" font-size="6.5" fill="#333" text-anchor="middle">Больше, чем выживает</text>
+
+<!-- Pillar 4: Struggle for existence -->
+<rect x="304" y="60" width="92" height="70" rx="5" fill="white" fill-opacity="0.85" stroke="#E65100" stroke-width="1.5"/>
+<text x="350" y="74" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#E65100" text-anchor="middle">4. Борьба за суще-</text>
+<text x="350" y="84" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#E65100" text-anchor="middle">ствование</text>
+<!-- Lightning bolt -->
+<polygon points="340,92 348,104 342,104 350,118 340,108 346,108" fill="#FF9800" stroke="#E65100" stroke-width="0.5"/>
+<!-- Competition arrows -->
+<line x1="358" y1="95" x2="378" y2="92" stroke="#E65100" stroke-width="1" marker-end="none"/>
+<line x1="358" y1="100" x2="378" y2="100" stroke="#E65100" stroke-width="1"/>
+<line x1="358" y1="105" x2="378" y2="108" stroke="#E65100" stroke-width="1"/>
+<text x="365" y="118" font-family="Arial,sans-serif" font-size="5.5" fill="#555" text-anchor="middle">конкуренция</text>
+<text x="365" y="126" font-family="Arial,sans-serif" font-size="5.5" fill="#555" text-anchor="middle">хищники, среда</text>
+
+<!-- Pillar 5: Natural Selection -->
+<rect x="402" y="60" width="92" height="70" rx="5" fill="#E8F5E9" fill-opacity="0.9" stroke="#1B5E20" stroke-width="2"/>
+<text x="448" y="74" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20" text-anchor="middle">5. Естественный</text>
+<text x="448" y="84" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20" text-anchor="middle">отбор</text>
+<!-- Filter/sieve diagram -->
+<line x1="420" y1="92" x2="476" y2="92" stroke="#1B5E20" stroke-width="2"/>
+<line x1="425" y1="98" x2="440" y2="108" stroke="#1B5E20" stroke-width="1"/>
+<line x1="437" y1="98" x2="452" y2="108" stroke="#1B5E20" stroke-width="1"/>
+<line x1="449" y1="98" x2="464" y2="108" stroke="#1B5E20" stroke-width="1"/>
+<!-- Survivors below -->
+<circle cx="430" cy="116" r="4" fill="#4CAF50"/><circle cx="448" cy="116" r="4" fill="#4CAF50"/><circle cx="460" cy="116" r="4" fill="#4CAF50"/>
+<!-- Eliminated above -->
+<circle cx="425" cy="86" r="3" fill="#F44336" opacity="0.5"/><circle cx="440" cy="86" r="3" fill="#F44336" opacity="0.5"/>
+<text x="448" y="128" font-family="Arial,sans-serif" font-size="6.5" fill="#1B5E20" text-anchor="middle">Лучшие выживают!</text>
+
+<!-- Flow arrow -->
+<line x1="56" y1="134" x2="56" y2="142" stroke="#1B5E20" stroke-width="1"/>
+<line x1="154" y1="134" x2="154" y2="142" stroke="#1B5E20" stroke-width="1"/>
+<line x1="252" y1="134" x2="252" y2="142" stroke="#1B5E20" stroke-width="1"/>
+<line x1="350" y1="134" x2="350" y2="142" stroke="#1B5E20" stroke-width="1"/>
+<line x1="448" y1="134" x2="448" y2="142" stroke="#1B5E20" stroke-width="1"/>
+
+<!-- Result: Fitness and Adaptation -->
+<rect x="80" y="142" width="340" height="22" rx="5" fill="#1B5E20" fill-opacity="0.15" stroke="#1B5E20" stroke-width="1.5"/>
+<text x="250" y="157" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">→ Приспособленность → Адаптация → Эволюция →</text>
+
+<!-- Galapagos Finches -->
+<line x1="10" y1="170" x2="490" y2="170" stroke="#1B5E20" stroke-width="0.8" stroke-dasharray="4,3"/>
+<rect x="10" y="175" width="480" height="170" rx="5" fill="white" fill-opacity="0.6" stroke="#1B5E20" stroke-width="1"/>
+<text x="250" y="190" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#1B5E20" text-anchor="middle">Вьюрки Дарвина (Галапагосские острова)</text>
+
+<!-- Common ancestor -->
+<ellipse cx="250" cy="212" rx="20" ry="12" fill="#8D6E63" stroke="#5D4037" stroke-width="1"/>
+<text x="250" y="216" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Предок</text>
+
+<!-- Branches to 5 finch types -->
+<line x1="235" y1="222" x2="60" y2="245" stroke="#5D4037" stroke-width="1"/>
+<line x1="240" y1="222" x2="155" y2="245" stroke="#5D4037" stroke-width="1"/>
+<line x1="250" y1="224" x2="250" y2="245" stroke="#5D4037" stroke-width="1"/>
+<line x1="260" y1="222" x2="345" y2="245" stroke="#5D4037" stroke-width="1"/>
+<line x1="265" y1="222" x2="440" y2="245" stroke="#5D4037" stroke-width="1"/>
+
+<!-- Finch 1: Large ground finch -->
+<g transform="translate(40,248)">
+<ellipse cx="20" cy="12" rx="16" ry="10" fill="#8D6E63" stroke="#5D4037" stroke-width="1"/>
+<circle cx="8" cy="8" r="5" fill="#5D4037"/>
+<polygon points="2,8 -10,4 2,6" fill="#FF9800" stroke="#E65100" stroke-width="0.5"/>
+<text x="20" y="30" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Большой</text>
+<text x="20" y="38" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">земляной</text>
+<text x="20" y="46" font-family="Arial,sans-serif" font-size="5.5" fill="#E65100" text-anchor="middle">Крупный клюв</text>
+<text x="20" y="53" font-family="Arial,sans-serif" font-size="5.5" fill="#E65100" text-anchor="middle">= семена</text>
+</g>
+
+<!-- Finch 2: Small ground finch -->
+<g transform="translate(135,248)">
+<ellipse cx="20" cy="12" rx="14" ry="8" fill="#A1887F" stroke="#5D4037" stroke-width="1"/>
+<circle cx="10" cy="8" r="4" fill="#5D4037"/>
+<polygon points="5,7 -5,4 5,5" fill="#FF9800" stroke="#E65100" stroke-width="0.5"/>
+<text x="20" y="30" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Малый</text>
+<text x="20" y="38" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">земляной</text>
+<text x="20" y="46" font-family="Arial,sans-serif" font-size="5.5" fill="#E65100" text-anchor="middle">Малый клюв</text>
+<text x="20" y="53" font-family="Arial,sans-serif" font-size="5.5" fill="#E65100" text-anchor="middle">= мелкие семена</text>
+</g>
+
+<!-- Finch 3: Warbler finch -->
+<g transform="translate(230,248)">
+<ellipse cx="20" cy="12" rx="14" ry="8" fill="#BCAAA4" stroke="#5D4037" stroke-width="1"/>
+<circle cx="10" cy="8" r="4" fill="#5D4037"/>
+<polygon points="5,7 -7,3 5,5" fill="#FF9800" stroke="#E65100" stroke-width="0.5"/>
+<text x="20" y="30" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Травяной</text>
+<text x="20" y="38" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">вьюрок</text>
+<text x="20" y="46" font-family="Arial,sans-serif" font-size="5.5" fill="#E65100" text-anchor="middle">Тонкий клюв</text>
+<text x="20" y="53" font-family="Arial,sans-serif" font-size="5.5" fill="#E65100" text-anchor="middle">= насекомые</text>
+</g>
+
+<!-- Finch 4: Cactus finch -->
+<g transform="translate(325,248)">
+<ellipse cx="20" cy="12" rx="14" ry="8" fill="#A1887F" stroke="#5D4037" stroke-width="1"/>
+<circle cx="10" cy="8" r="4" fill="#5D4037"/>
+<polygon points="6,7 -4,5 6,6" fill="#FF9800" stroke="#E65100" stroke-width="0.5"/>
+<text x="20" y="30" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Кактусовый</text>
+<text x="20" y="38" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">вьюрок</text>
+<text x="20" y="46" font-family="Arial,sans-serif" font-size="5.5" fill="#E65100" text-anchor="middle">Длинный клюв</text>
+<text x="20" y="53" font-family="Arial,sans-serif" font-size="5.5" fill="#E65100" text-anchor="middle">= кактусы</text>
+</g>
+
+<!-- Finch 5: Woodpecker finch -->
+<g transform="translate(420,248)">
+<ellipse cx="20" cy="12" rx="14" ry="8" fill="#8D6E63" stroke="#5D4037" stroke-width="1"/>
+<circle cx="10" cy="8" r="4" fill="#5D4037"/>
+<polygon points="6,7 -6,4 6,5.5" fill="#FF9800" stroke="#E65100" stroke-width="0.5"/>
+<text x="20" y="30" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Дятловый</text>
+<text x="20" y="38" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">вьюрок</text>
+<text x="20" y="46" font-family="Arial,sans-serif" font-size="5.5" fill="#E65100" text-anchor="middle">Использует</text>
+<text x="20" y="53" font-family="Arial,sans-serif" font-size="5.5" fill="#E65100" text-anchor="middle">палочку-орудие</text>
+</g>
+
+<!-- Key conclusion -->
+<rect x="10" y="308" width="480" height="34" rx="5" fill="#E8F5E9" stroke="#1B5E20" stroke-width="1"/>
+<text x="250" y="322" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20" text-anchor="middle">Дивергенция: от общего предка → разные формы в разных условиях среды</text>
+<text x="250" y="334" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Форма клюва адаптирована к определённому типу пищи — результат естественного отбора</text>
+</svg>

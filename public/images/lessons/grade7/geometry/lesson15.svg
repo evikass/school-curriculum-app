@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg15" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFEBEE"/>
+      <stop offset="50%" stop-color="#FFCDD2"/>
+      <stop offset="100%" stop-color="#EF9A9A"/>
+    </linearGradient>
+    <marker id="arrowR15" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto">
+      <path d="M0,0 L7,2.5 L0,5 Z" fill="#C62828"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="500" height="350" fill="url(#bg15)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#B71C1C" text-anchor="middle" font-family="Arial">Аксиома параллельных прямых</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="Arial">Геометрия 7 класс — Урок 15</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#EF5350" stroke-opacity="0.3"/>
+
+  <!-- Panel 1: Axiom visual -->
+  <rect x="12" y="58" width="235" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#EF5350" stroke-width="1"/>
+  <text x="129" y="73" font-size="9" font-weight="bold" fill="#C62828" text-anchor="middle">V постулат Евклида</text>
+  <!-- Line a -->
+  <line x1="22" y1="138" x2="237" y2="138" stroke="#1A237E" stroke-width="2" marker-end="url(#arrowR15)"/>
+  <text x="240" y="141" font-size="8" fill="#1A237E" font-style="italic">a</text>
+  <!-- Point M -->
+  <circle cx="129" cy="100" r="4" fill="#E53935"/>
+  <text x="129" y="94" font-size="9" fill="#C62828" text-anchor="middle" font-weight="bold">M</text>
+  <!-- Unique parallel through M -->
+  <line x1="22" y1="100" x2="237" y2="100" stroke="#43A047" stroke-width="2.5"/>
+  <text x="240" y="103" font-size="8" fill="#43A047" font-style="italic">b</text>
+  <!-- Other lines through M (not parallel) -->
+  <line x1="129" y1="100" x2="200" y2="155" stroke="#9C27B0" stroke-width="1" stroke-dasharray="4,2"/>
+  <line x1="129" y1="100" x2="60" y2="155" stroke="#FF9800" stroke-width="1" stroke-dasharray="4,2"/>
+  <!-- Intersection marks -->
+  <circle cx="180" cy="140" r="2" fill="#9C27B0"/>
+  <circle cx="80" cy="140" r="2" fill="#FF9800"/>
+  <text x="129" y="170" font-size="7" fill="#555" text-anchor="middle">Только b ∥ a через M</text>
+  <text x="129" y="180" font-size="7" fill="#555" text-anchor="middle">Остальные пересекают a</text>
+
+  <!-- Panel 2: Statement -->
+  <rect x="255" y="58" width="233" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#EF5350" stroke-width="1"/>
+  <text x="371" y="73" font-size="9" font-weight="bold" fill="#C62828" text-anchor="middle">Формулировка</text>
+  <rect x="265" y="80" width="213" height="40" rx="4" fill="#FFEBEE" stroke="#EF5350" stroke-width="0.8"/>
+  <text x="371" y="95" font-size="8" fill="#B71C1C" text-anchor="middle" font-weight="bold">Аксиома:</text>
+  <text x="371" y="108" font-size="7.5" fill="#B71C1C" text-anchor="middle">Через точку, не лежащую на прямой,</text>
+  <text x="371" y="118" font-size="7.5" fill="#B71C1C" text-anchor="middle">проходит только одна прямая,</text>
+  <text x="371" y="128" font-size="7.5" fill="#B71C1C" text-anchor="middle">параллельная данной.</text>
+  <!-- History -->
+  <rect x="265" y="125" width="213" height="42" rx="3" fill="#FFF3E0" stroke="#FF9800" stroke-width="0.5"/>
+  <text x="371" y="138" font-size="7" fill="#E65100" text-anchor="middle">Евклид (~300 до н.э.) — V постулат</text>
+  <text x="371" y="150" font-size="7" fill="#E65100" text-anchor="middle">Лобачевский — неевклидова геометрия</text>
+  <text x="371" y="162" font-size="7" fill="#E65100" text-anchor="middle">(отказ от V постулата)</text>
+
+  <!-- Panel 3: Corollary 1 -->
+  <rect x="12" y="184" width="155" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#EF5350" stroke-width="1"/>
+  <text x="89" y="199" font-size="8" font-weight="bold" fill="#C62828" text-anchor="middle">Следствие 1</text>
+  <rect x="20" y="206" width="138" height="22" rx="3" fill="#FFEBEE" stroke="#EF5350" stroke-width="0.5"/>
+  <text x="89" y="218" font-size="7" fill="#B71C1C" text-anchor="middle">Если c ⊥ a и a ∥ b,</text>
+  <text x="89" y="228" font-size="7" fill="#B71C1C" text-anchor="middle">то c ⊥ b</text>
+  <!-- Visual -->
+  <line x1="30" y1="245" x2="150" y2="245" stroke="#1A237E" stroke-width="1.5"/>
+  <text x="153" y="248" font-size="6" fill="#1A237E" font-style="italic">a</text>
+  <line x1="30" y1="275" x2="150" y2="275" stroke="#43A047" stroke-width="1.5"/>
+  <text x="153" y="278" font-size="6" fill="#43A047" font-style="italic">b</text>
+  <line x1="90" y1="233" x2="90" y2="288" stroke="#E53935" stroke-width="1.5"/>
+  <text x="96" y="233" font-size="6" fill="#E53935" font-style="italic">c</text>
+  <rect x="90" y="240" width="6" height="6" fill="none" stroke="#E53935" stroke-width="0.8"/>
+  <rect x="90" y="270" width="6" height="6" fill="none" stroke="#E53935" stroke-width="0.8"/>
+  <text x="89" y="298" font-size="6.5" fill="#555" text-anchor="middle">a ∥ b, c ⊥ a => c ⊥ b</text>
+
+  <!-- Panel 4: Corollary 2 -->
+  <rect x="175" y="184" width="155" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#EF5350" stroke-width="1"/>
+  <text x="252" y="199" font-size="8" font-weight="bold" fill="#C62828" text-anchor="middle">Следствие 2</text>
+  <rect x="183" y="206" width="138" height="22" rx="3" fill="#FFEBEE" stroke="#EF5350" stroke-width="0.5"/>
+  <text x="252" y="218" font-size="7" fill="#B71C1C" text-anchor="middle">Если a ∥ c и b ∥ c,</text>
+  <text x="252" y="228" font-size="7" fill="#B71C1C" text-anchor="middle">то a ∥ b</text>
+  <!-- Visual -->
+  <line x1="195" y1="242" x2="310" y2="242" stroke="#1A237E" stroke-width="1.5"/>
+  <text x="313" y="245" font-size="6" fill="#1A237E" font-style="italic">a</text>
+  <line x1="195" y1="258" x2="310" y2="258" stroke="#9C27B0" stroke-width="1.5"/>
+  <text x="313" y="261" font-size="6" fill="#9C27B0" font-style="italic">c</text>
+  <line x1="195" y1="274" x2="310" y2="274" stroke="#43A047" stroke-width="1.5"/>
+  <text x="313" y="277" font-size="6" fill="#43A047" font-style="italic">b</text>
+  <!-- Parallel markers -->
+  <line x1="248" y1="240" x2="253" y2="236" stroke="#1A237E" stroke-width="1.5"/>
+  <line x1="250" y1="240" x2="255" y2="236" stroke="#1A237E" stroke-width="1.5"/>
+  <line x1="248" y1="256" x2="253" y2="252" stroke="#9C27B0" stroke-width="1.5"/>
+  <line x1="250" y1="256" x2="255" y2="252" stroke="#9C27B0" stroke-width="1.5"/>
+  <line x1="248" y1="272" x2="253" y2="268" stroke="#43A047" stroke-width="1.5"/>
+  <line x1="250" y1="272" x2="255" y2="268" stroke="#43A047" stroke-width="1.5"/>
+  <text x="252" y="296" font-size="6.5" fill="#555" text-anchor="middle">Транзитивность ∥</text>
+
+  <!-- Panel 5: Corollary 3 -->
+  <rect x="338" y="184" width="150" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#EF5350" stroke-width="1"/>
+  <text x="413" y="199" font-size="8" font-weight="bold" fill="#C62828" text-anchor="middle">Следствие 3</text>
+  <rect x="348" y="206" width="130" height="22" rx="3" fill="#FFEBEE" stroke="#EF5350" stroke-width="0.5"/>
+  <text x="413" y="218" font-size="7" fill="#B71C1C" text-anchor="middle">Если прямая пересекает</text>
+  <text x="413" y="228" font-size="7" fill="#B71C1C" text-anchor="middle">одну из ∥, пересекает и др.</text>
+  <!-- Visual -->
+  <line x1="350" y1="245" x2="470" y2="245" stroke="#1A237E" stroke-width="1.5"/>
+  <text x="473" y="248" font-size="6" fill="#1A237E" font-style="italic">a</text>
+  <line x1="350" y1="275" x2="470" y2="275" stroke="#43A047" stroke-width="1.5"/>
+  <text x="473" y="278" font-size="6" fill="#43A047" font-style="italic">b</text>
+  <!-- Line crossing a -->
+  <line x1="380" y1="230" x2="440" y2="290" stroke="#E53935" stroke-width="1.5"/>
+  <text x="445" y="290" font-size="6" fill="#E53935" font-style="italic">c</text>
+  <circle cx="408" cy="257" r="2.5" fill="#E53935"/>
+  <circle cx="415" cy="267" r="2.5" fill="#E53935"/>
+  <text x="413" y="298" font-size="6.5" fill="#555" text-anchor="middle">a ∥ b, c ∩ a => c ∩ b</text>
+
+  <!-- Bottom bar -->
+  <rect x="12" y="320" width="476" height="22" rx="4" fill="#EF5350" fill-opacity="0.85"/>
+  <text x="250" y="335" font-size="10" fill="white" text-anchor="middle" font-weight="bold" font-family="Arial">Аксиома: через точку вне прямой — единственная параллельная прямая</text>
+</svg>

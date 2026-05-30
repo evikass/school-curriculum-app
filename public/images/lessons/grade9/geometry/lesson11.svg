@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFECB3"/>
+    </linearGradient>
+    <marker id="ah11" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#FF8F00"/>
+    </marker>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FF8F00" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#E65100" text-anchor="middle" font-family="Arial">Теорема косинусов</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="Arial">Геометрия 9 класс — Урок 11</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#FFB300" stroke-width="1" opacity="0.3"/>
+
+  <!-- Triangle panel -->
+  <rect x="15" y="58" width="230" height="180" rx="6" fill="white" opacity="0.9" stroke="#FFB300" stroke-width="1"/>
+  <text x="130" y="74" font-size="10" font-weight="bold" fill="#FF8F00" text-anchor="middle" font-family="Arial">Треугольник ABC</text>
+  <!-- Triangle -->
+  <polygon points="80,100 50,210 200,210" fill="none" stroke="#FF8F00" stroke-width="2.5"/>
+  <!-- Vertices -->
+  <text x="80" y="95" font-size="9" fill="#FF8F00" font-family="Arial" font-weight="bold">A</text>
+  <text x="35" y="215" font-size="9" fill="#FF8F00" font-family="Arial" font-weight="bold">B</text>
+  <text x="205" y="215" font-size="9" fill="#FF8F00" font-family="Arial" font-weight="bold">C</text>
+  <!-- Side labels -->
+  <text x="50" y="155" font-size="9" fill="#C62828" font-family="Arial" font-style="italic" font-weight="bold">a</text>
+  <text x="145" y="155" font-size="9" fill="#1E88E5" font-family="Arial" font-style="italic" font-weight="bold">b</text>
+  <text x="125" y="225" font-size="9" fill="#4CAF50" font-family="Arial" font-style="italic" font-weight="bold">c</text>
+  <!-- Angle A arc -->
+  <path d="M 90 107 A 15 15 0 0 1 80 115" fill="none" stroke="#E91E63" stroke-width="1.5"/>
+  <text x="92" y="115" font-size="8" fill="#E91E63" font-family="Arial" font-weight="bold">A</text>
+  <!-- Altitude from A -->
+  <line x1="80" y1="100" x2="80" y2="210" stroke="#9C27B0" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="63" y="160" font-size="7" fill="#9C27B0" font-family="Arial">h</text>
+  <!-- Projections -->
+  <line x1="50" y1="210" x2="80" y2="210" stroke="#C62828" stroke-width="1.5"/>
+  <line x1="80" y1="210" x2="200" y2="210" stroke="#1E88E5" stroke-width="1.5"/>
+  <text x="60" y="222" font-size="7" fill="#C62828" font-family="Arial">bcosA</text>
+  <text x="120" y="222" font-size="7" fill="#1E88E5" font-family="Arial">b-bcosA</text>
+
+  <!-- Formula panel -->
+  <rect x="255" y="58" width="230" height="110" rx="6" fill="white" opacity="0.9" stroke="#FFB300" stroke-width="1"/>
+  <text x="370" y="74" font-size="10" font-weight="bold" fill="#FF8F00" text-anchor="middle" font-family="Arial">Теорема косинусов</text>
+  <!-- Main formula -->
+  <rect x="265" y="82" width="210" height="32" rx="4" fill="#FFF8E1" stroke="#FFB300" stroke-width="0.8"/>
+  <text x="370" y="103" font-size="11" fill="#E65100" text-anchor="middle" font-family="Arial" font-weight="bold">a² = b² + c² - 2bc·cosA</text>
+  <!-- Other forms -->
+  <rect x="265" y="120" width="210" height="22" rx="4" fill="#FFECB3" stroke="#FFB300" stroke-width="0.8"/>
+  <text x="370" y="135" font-size="8" fill="#FF8F00" text-anchor="middle" font-family="Arial">b² = a² + c² - 2ac·cosB</text>
+  <rect x="265" y="146" width="210" height="18" rx="4" fill="#FFF8E1" stroke="#FFB300" stroke-width="0.8"/>
+  <text x="370" y="159" font-size="8" fill="#FF8F00" text-anchor="middle" font-family="Arial">c² = a² + b² - 2ab·cosC</text>
+
+  <!-- Pythagorean connection panel -->
+  <rect x="255" y="175" width="230" height="63" rx="6" fill="white" opacity="0.9" stroke="#FFB300" stroke-width="1"/>
+  <text x="370" y="191" font-size="9" font-weight="bold" fill="#FF8F00" text-anchor="middle" font-family="Arial">Связь с теоремой Пифагора</text>
+  <text x="370" y="207" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">Если A = 90°, то cosA = 0</text>
+  <text x="370" y="220" font-size="8.5" fill="#E65100" text-anchor="middle" font-family="Arial" font-weight="bold">a² = b² + c² — Пифагор!</text>
+  <text x="370" y="232" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">Обобщение теоремы Пифагора</text>
+
+  <!-- Example panel -->
+  <rect x="15" y="245" width="235" height="67" rx="6" fill="white" opacity="0.9" stroke="#FFB300" stroke-width="1"/>
+  <text x="132" y="261" font-size="9" font-weight="bold" fill="#FF8F00" text-anchor="middle" font-family="Arial">Пример: найти сторону</text>
+  <text x="132" y="276" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">b=5, c=7, A=60°</text>
+  <text x="132" y="290" font-size="8" fill="#FF8F00" text-anchor="middle" font-family="Arial">a² = 25 + 49 - 2·5·7·0.5</text>
+  <text x="132" y="304" font-size="8.5" fill="#E65100" text-anchor="middle" font-family="Arial" font-weight="bold">a² = 39, a = V39</text>
+
+  <!-- Finding angle panel -->
+  <rect x="260" y="245" width="225" height="67" rx="6" fill="white" opacity="0.9" stroke="#FFB300" stroke-width="1"/>
+  <text x="372" y="261" font-size="9" font-weight="bold" fill="#FF8F00" text-anchor="middle" font-family="Arial">Пример: найти угол</text>
+  <text x="372" y="276" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">a=7, b=5, c=8</text>
+  <text x="372" y="290" font-size="8" fill="#FF8F00" text-anchor="middle" font-family="Arial">cosA = (25+64-49)/(2·5·8)</text>
+  <text x="372" y="304" font-size="8.5" fill="#E65100" text-anchor="middle" font-family="Arial" font-weight="bold">cosA = 40/80 = 0.5, A = 60°</text>
+
+  <!-- Bottom bar -->
+  <rect x="15" y="318" width="470" height="26" rx="4" fill="#FFB300" opacity="0.85"/>
+  <text x="250" y="335" font-size="10" fill="white" text-anchor="middle" font-weight="bold" font-family="Arial">a² = b² + c² - 2bc·cosA — Обобщение теоремы Пифагора</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0F7FA"/>
+      <stop offset="50%" stop-color="#B2EBF2"/>
+      <stop offset="100%" stop-color="#80DEEA"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="500" height="350" fill="url(#bg7)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#00838F" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#006064" text-anchor="middle" font-family="Arial">График функции</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="Arial">Алгебра 7 класс — Урок 7</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#00897B" stroke-opacity="0.3"/>
+
+  <rect x="12" y="58" width="280" height="240" rx="6" fill="white" fill-opacity="0.9" stroke="#00897B" stroke-width="1"/>
+  <text x="152" y="73" font-size="9" font-weight="bold" fill="#00838F" text-anchor="middle">Координатная плоскость</text>
+  <line x1="60" y1="85" x2="60" y2="270" stroke="#00897B" stroke-width="1.5"/>
+  <line x1="30" y1="260" x2="270" y2="260" stroke="#00897B" stroke-width="1.5"/>
+  <polygon points="60,85 56,95 64,95" fill="#00897B"/>
+  <polygon points="270,260 260,256 260,264" fill="#00897B"/>
+  <text x="65" y="82" font-size="8" fill="#00838F" font-style="italic">y</text>
+  <text x="275" y="264" font-size="8" fill="#00838F" font-style="italic">x</text>
+  <text x="55" y="275" font-size="8" fill="#00838F">O</text>
+  <line x1="30" y1="85" x2="280" y2="270" stroke="#006064" stroke-width="2"/>
+  <circle cx="100" cy="230" r="4" fill="#00838F"/>
+  <circle cx="160" cy="180" r="4" fill="#00838F"/>
+  <circle cx="200" cy="150" r="4" fill="#00838F"/>
+  <circle cx="240" cy="120" r="4" fill="#00838F"/>
+  <text x="100" y="225" font-size="7" fill="#006064">(-2;-2)</text>
+  <text x="160" y="175" font-size="7" fill="#006064">(1;2)</text>
+  <text x="205" y="145" font-size="7" fill="#006064">(2;3)</text>
+  <text x="200" y="282" font-size="7" fill="#555">y = 2x + 1</text>
+
+  <rect x="302" y="58" width="186" height="240" rx="6" fill="white" fill-opacity="0.9" stroke="#00897B" stroke-width="1"/>
+  <text x="395" y="73" font-size="9" font-weight="bold" fill="#00838F" text-anchor="middle">Построение</text>
+  <rect x="312" y="80" width="166" height="20" rx="3" fill="#E0F7FA" stroke="#00897B" stroke-width="0.5"/>
+  <text x="395" y="94" font-size="7.5" fill="#006064" text-anchor="middle">1. Таблица значений x и y</text>
+  <rect x="312" y="104" width="166" height="20" rx="3" fill="#E0F7FA" stroke="#00897B" stroke-width="0.5"/>
+  <text x="395" y="118" font-size="7.5" fill="#006064" text-anchor="middle">2. Отметить точки (x, y)</text>
+  <rect x="312" y="128" width="166" height="20" rx="3" fill="#00897B" fill-opacity="0.12"/>
+  <text x="395" y="142" font-size="7.5" fill="#006064" text-anchor="middle" font-weight="bold">3. Соединить линией</text>
+  <text x="395" y="165" font-size="9" font-weight="bold" fill="#00838F" text-anchor="middle">Чтение графика</text>
+  <text x="395" y="182" font-size="8" fill="#555" text-anchor="middle">На оси x находим</text>
+  <text x="395" y="194" font-size="8" fill="#555" text-anchor="middle">значение, поднимаемся</text>
+  <text x="395" y="206" font-size="8" fill="#555" text-anchor="middle">до графика, читаем y</text>
+  <text x="395" y="228" font-size="9" font-weight="bold" fill="#00838F" text-anchor="middle">Четверти</text>
+  <text x="370" y="248" font-size="8" fill="#006064">I (+,+)</text>
+  <text x="430" y="248" font-size="8" fill="#006064">II (-,+)</text>
+  <text x="370" y="265" font-size="8" fill="#006064">III (-,-)</text>
+  <text x="430" y="265" font-size="8" fill="#006064">IV (+,-)</text>
+
+  <rect x="12" y="320" width="476" height="22" rx="4" fill="#00897B" fill-opacity="0.85"/>
+  <text x="250" y="335" font-size="10" fill="white" text-anchor="middle" font-weight="bold" font-family="Arial">График — множество точек (x; f(x)) на координатной плоскости</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="tg15" x1="0" y1="0" x2="400" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0d9488"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <filter id="sh15" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="400" height="300" rx="8" fill="#1a1a2e"/>
+  <rect width="400" height="52" rx="8" fill="url(#tg15)"/>
+  <rect y="44" width="400" height="8" fill="url(#tg15)"/>
+  <text x="200" y="24" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Альдегиды и кетоны</text>
+  <text x="200" y="42" text-anchor="middle" fill="#ccfbf1" font-family="Arial, sans-serif" font-size="10">Химия 10 класс</text>
+  <!-- Top left: Aldehyde structure -->
+    <rect x="10" y="60" width="185" height="108" rx="6" fill="#1e1e3a" stroke="#0d9488" stroke-width="1" filter="url(#sh15)"/>
+    <text x="22" y="78" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#14b8a6">Альдегиды (-CHO)</text>
+  <circle cx="100" cy="118" r="13" fill="none" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="100" y="122" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0">C</text>
+  <line x1="113" y1="118" x2="133" y2="118" stroke="#ef4444" stroke-width="2"/>
+  <line x1="113" y1="122" x2="133" y2="122" stroke="#ef4444" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="138" y="122" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">O</text>
+  <line x1="87" y1="118" x2="67" y2="118" stroke="#14b8a6" stroke-width="1.5"/>
+  <text x="52" y="122" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">R</text>
+  <line x1="100" y1="131" x2="100" y2="148" stroke="#14b8a6" stroke-width="1.5"/>
+  <text x="94" y="158" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">H</text>
+    <text x="22" y="165" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">HCHO — формальдегид</text>
+
+  <!-- Top right: Ketone structure -->
+    <rect x="205" y="60" width="185" height="108" rx="6" fill="#1e1e3a" stroke="#f59e0b" stroke-width="1" filter="url(#sh15)"/>
+    <text x="217" y="78" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#f59e0b">Кетоны (C=O)</text>
+    <text x="217" y="95" font-family="Arial, sans-serif" font-size="10" fill="#f59e0b">R-CO-R'</text>
+    <text x="217" y="110" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">CH3-CO-CH3 — ацетон</text>
+    <text x="217" y="123" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8">(пропанон-2)</text>
+    <text x="217" y="139" font-family="Arial, sans-serif" font-size="9" fill="#ef4444">Отличие от альдегидов:</text>
+    <text x="217" y="151" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">нет H при C=O</text>
+    <text x="217" y="163" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">→ нет реакции серебр. зеркала</text>
+
+  <!-- Bottom left: Qualitative reactions -->
+    <rect x="10" y="176" width="185" height="114" rx="6" fill="#1e1e3a" stroke="#a855f7" stroke-width="1" filter="url(#sh15)"/>
+    <text x="22" y="194" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#a855f7">Качественные реакции</text>
+    <text x="22" y="210" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6">Серебряное зеркало:</text>
+    <text x="22" y="222" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8">R-CHO + [Ag(NH3)2]+</text>
+    <text x="22" y="233" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0">  → R-COOH + Ag (осадок)</text>
+    <text x="22" y="247" font-family="Arial, sans-serif" font-size="9" fill="#f59e0b">Cu(OH)2 (реакция):</text>
+    <text x="22" y="259" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8">R-CHO + Cu(OH)2</text>
+    <text x="22" y="270" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0">  → R-COOH + Cu2O (красн.)</text>
+    <text x="22" y="284" font-family="Arial, sans-serif" font-size="8.5" fill="#ef4444">Только для альдегидов!</text>
+
+  <!-- Bottom right: Reactions -->
+    <rect x="205" y="176" width="185" height="114" rx="6" fill="#1e1e3a" stroke="#10b981" stroke-width="1" filter="url(#sh15)"/>
+    <text x="217" y="194" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#10b981">Окисление и восстановл.</text>
+    <text x="217" y="210" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6">Окисление:</text>
+    <text x="217" y="222" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">R-CHO → R-COOH</text>
+    <text x="217" y="234" font-family="Arial, sans-serif" font-size="8.5" fill="#94a3b8">(альдегид → кислота)</text>
+    <text x="217" y="248" font-family="Arial, sans-serif" font-size="9" fill="#f59e0b">Восстановление:</text>
+    <text x="217" y="260" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">R-CHO + H2 → R-CH2OH</text>
+    <text x="217" y="272" font-family="Arial, sans-serif" font-size="8.5" fill="#94a3b8">(альдегид → спирт)</text>
+    <text x="217" y="286" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6">Суффиксы: -аль, -он</text>
+</svg>

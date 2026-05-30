@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<defs>
+  <style>
+    text { font-family: 'Segoe UI', Arial, Helvetica, sans-serif; }
+  </style>
+  <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+    <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.08"/>
+  </filter>
+</defs>
+<rect width="800" height="500" rx="12" fill="#f8fafc"/>
+<rect width="800" height="6" fill="#ef4444" rx="3"/>
+<text x="400" y="50" text-anchor="middle" font-size="26" font-weight="700" fill="#1e3a5f">Техника безопасности в лаборатории</text>
+<rect x="0" y="60" width="800" height="8" fill="#fbbf24"/>
+<rect x="0" y="60" width="20" height="8" fill="#1e1e1e"/>
+<rect x="40" y="60" width="20" height="8" fill="#1e1e1e"/>
+<rect x="80" y="60" width="20" height="8" fill="#1e1e1e"/>
+<rect x="120" y="60" width="20" height="8" fill="#1e1e1e"/>
+<rect x="160" y="60" width="20" height="8" fill="#1e1e1e"/>
+<rect x="200" y="60" width="20" height="8" fill="#1e1e1e"/>
+<rect x="240" y="60" width="20" height="8" fill="#1e1e1e"/>
+<rect x="280" y="60" width="20" height="8" fill="#1e1e1e"/>
+<rect x="320" y="60" width="20" height="8" fill="#1e1e1e"/>
+<rect x="360" y="60" width="20" height="8" fill="#1e1e1e"/>
+<rect x="400" y="60" width="20" height="8" fill="#1e1e1e"/>
+<rect x="440" y="60" width="20" height="8" fill="#1e1e1e"/>
+<rect x="480" y="60" width="20" height="8" fill="#1e1e1e"/>
+<rect x="520" y="60" width="20" height="8" fill="#1e1e1e"/>
+<rect x="560" y="60" width="20" height="8" fill="#1e1e1e"/>
+<rect x="600" y="60" width="20" height="8" fill="#1e1e1e"/>
+<rect x="640" y="60" width="20" height="8" fill="#1e1e1e"/>
+<rect x="680" y="60" width="20" height="8" fill="#1e1e1e"/>
+<rect x="720" y="60" width="20" height="8" fill="#1e1e1e"/>
+<rect x="760" y="60" width="20" height="8" fill="#1e1e1e"/>
+<circle cx="95" cy="160" r="52" fill="#fff" stroke="#ef4444" stroke-width="3" filter="url(#shadow)"/>
+<circle cx="95" cy="160" r="46" fill="#ef4444" opacity="0.1"/>
+<text x="95" y="165" text-anchor="middle" font-size="32">🧤</text>
+<text x="95" y="230" text-anchor="middle" font-size="14" font-weight="700" fill="#ef4444">Перчатки</text>
+<text x="95" y="248" text-anchor="middle" font-size="11" fill="#64748b">Надевайте при</text>
+<text x="95" y="263" text-anchor="middle" font-size="11" fill="#64748b">работе с реактивами</text>
+<circle cx="245" cy="160" r="52" fill="#fff" stroke="#3b82f6" stroke-width="3" filter="url(#shadow)"/>
+<circle cx="245" cy="160" r="46" fill="#3b82f6" opacity="0.1"/>
+<text x="245" y="165" text-anchor="middle" font-size="32">🥽</text>
+<text x="245" y="230" text-anchor="middle" font-size="14" font-weight="700" fill="#3b82f6">Очки</text>
+<text x="245" y="248" text-anchor="middle" font-size="11" fill="#64748b">Защищайте глаза</text>
+<text x="245" y="263" text-anchor="middle" font-size="11" fill="#64748b">от брызг</text>
+<circle cx="395" cy="160" r="52" fill="#fff" stroke="#f59e0b" stroke-width="3" filter="url(#shadow)"/>
+<circle cx="395" cy="160" r="46" fill="#f59e0b" opacity="0.1"/>
+<text x="395" y="165" text-anchor="middle" font-size="32">🚫</text>
+<text x="395" y="230" text-anchor="middle" font-size="14" font-weight="700" fill="#f59e0b">Без еды</text>
+<text x="395" y="248" text-anchor="middle" font-size="11" fill="#64748b">Не ешьте и не пейте</text>
+<text x="395" y="263" text-anchor="middle" font-size="11" fill="#64748b">в лаборатории</text>
+<circle cx="545" cy="160" r="52" fill="#fff" stroke="#f97316" stroke-width="3" filter="url(#shadow)"/>
+<circle cx="545" cy="160" r="46" fill="#f97316" opacity="0.1"/>
+<text x="545" y="165" text-anchor="middle" font-size="32">🔥</text>
+<text x="545" y="230" text-anchor="middle" font-size="14" font-weight="700" fill="#f97316">Огнеопасно</text>
+<text x="545" y="248" text-anchor="middle" font-size="11" fill="#64748b">Осторожно</text>
+<text x="545" y="263" text-anchor="middle" font-size="11" fill="#64748b">с огнём</text>
+<circle cx="695" cy="160" r="52" fill="#fff" stroke="#8b5cf6" stroke-width="3" filter="url(#shadow)"/>
+<circle cx="695" cy="160" r="46" fill="#8b5cf6" opacity="0.1"/>
+<text x="695" y="165" text-anchor="middle" font-size="32">⚗️</text>
+<text x="695" y="230" text-anchor="middle" font-size="14" font-weight="700" fill="#8b5cf6">Кислота</text>
+<text x="695" y="248" text-anchor="middle" font-size="11" fill="#64748b">Опасно!</text>
+<text x="695" y="263" text-anchor="middle" font-size="11" fill="#64748b">Едкое вещество</text>
+<rect x="50" y="355" width="700" height="125" rx="12" fill="#fff" stroke="#e2e8f0" stroke-width="1" filter="url(#shadow)"/>
+<text x="400" y="380" text-anchor="middle" font-size="14" font-weight="700" fill="#ef4444">⚠️ Основные правила:</text>
+<text x="80" y="403" font-size="12" fill="#475569">1. Не пробуйте вещества на вкус</text>
+<text x="80" y="420" font-size="12" fill="#475569">2. Не нюхайте вещества напрямую — направляйте пары рукой к носу</text>
+<text x="80" y="437" font-size="12" fill="#475569">3. При попадании кислоты на кожу — промойте большим количеством воды</text>
+<text x="80" y="454" font-size="12" fill="#475569">4. Нагревайте вещества осторожно, не направляя пробирку на себя и других</text>
+<text x="80" y="471" font-size="12" fill="#475569">5. Немедленно сообщайте учителю о любых происшествиях</text>
+</svg>

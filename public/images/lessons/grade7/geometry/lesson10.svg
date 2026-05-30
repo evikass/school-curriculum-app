@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg10" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="50%" stop-color="#FFECB3"/>
+      <stop offset="100%" stop-color="#FFE082"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="500" height="350" fill="url(#bg10)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FF8F00" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#E65100" text-anchor="middle" font-family="Arial">Медианы, биссектрисы и высоты</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="Arial">Геометрия 7 класс — Урок 10</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#FFB300" stroke-opacity="0.3"/>
+
+  <!-- Panel 1: Median -->
+  <rect x="12" y="58" width="152" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#FFB300" stroke-width="1"/>
+  <text x="88" y="73" font-size="9" font-weight="bold" fill="#FF8F00" text-anchor="middle">Медиана</text>
+  <!-- Triangle -->
+  <polygon points="88,82 42,162 138,162" fill="none" stroke="#FF8F00" stroke-width="1.5"/>
+  <circle cx="88" cy="82" r="2.5" fill="#FF8F00"/>
+  <circle cx="42" cy="162" r="2.5" fill="#FF8F00"/>
+  <circle cx="138" cy="162" r="2.5" fill="#FF8F00"/>
+  <text x="88" y="78" font-size="7" fill="#FF8F00" font-style="italic">A</text>
+  <text x="32" y="166" font-size="7" fill="#FF8F00" font-style="italic">B</text>
+  <text x="142" y="166" font-size="7" fill="#FF8F00" font-style="italic">C</text>
+  <!-- Median from A to midpoint M of BC -->
+  <circle cx="90" cy="162" r="3" fill="#E53935"/>
+  <text x="90" y="174" font-size="7" fill="#C62828" font-style="italic">M</text>
+  <line x1="88" y1="82" x2="90" y2="162" stroke="#E53935" stroke-width="1.8" stroke-dasharray="5,2"/>
+  <!-- Equal segments BM = MC -->
+  <line x1="42" y1="157" x2="66" y2="157" stroke="#43A047" stroke-width="0.8"/>
+  <line x1="114" y1="157" x2="138" y2="157" stroke="#43A047" stroke-width="0.8"/>
+  <text x="56" y="155" font-size="5.5" fill="#43A047">BM</text>
+  <text x="126" y="155" font-size="5.5" fill="#43A047">MC</text>
+  <text x="88" y="142" font-size="6.5" fill="#C62828">BM = MC</text>
+  <text x="88" y="180" font-size="6" fill="#555" text-anchor="middle">Из вершины к середине</text>
+
+  <!-- Panel 2: Bisector -->
+  <rect x="172" y="58" width="152" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#FFB300" stroke-width="1"/>
+  <text x="248" y="73" font-size="9" font-weight="bold" fill="#FF8F00" text-anchor="middle">Биссектриса</text>
+  <!-- Triangle -->
+  <polygon points="248,82 202,162 298,162" fill="none" stroke="#FF8F00" stroke-width="1.5"/>
+  <circle cx="248" cy="82" r="2.5" fill="#FF8F00"/>
+  <circle cx="202" cy="162" r="2.5" fill="#FF8F00"/>
+  <circle cx="298" cy="162" r="2.5" fill="#FF8F00"/>
+  <text x="248" y="78" font-size="7" fill="#FF8F00" font-style="italic">A</text>
+  <text x="192" y="166" font-size="7" fill="#FF8F00" font-style="italic">B</text>
+  <text x="302" y="166" font-size="7" fill="#FF8F00" font-style="italic">C</text>
+  <!-- Bisector from A -->
+  <line x1="248" y1="82" x2="258" y2="162" stroke="#1565C0" stroke-width="1.8" stroke-dasharray="5,2"/>
+  <circle cx="258" cy="162" r="2.5" fill="#1565C0"/>
+  <text x="265" y="166" font-size="7" fill="#1565C0" font-style="italic">D</text>
+  <!-- Angle marks at A -->
+  <path d="M240,96 A10,10 0 0,1 248,92" fill="none" stroke="#43A047" stroke-width="1.2"/>
+  <path d="M248,92 A10,10 0 0,1 256,96" fill="none" stroke="#FF9800" stroke-width="1.2"/>
+  <text x="236" y="94" font-size="6" fill="#43A047">1</text>
+  <text x="258" y="94" font-size="6" fill="#FF9800">2</text>
+  <text x="248" y="145" font-size="6.5" fill="#1565C0">∠1 = ∠2</text>
+  <text x="248" y="180" font-size="6" fill="#555" text-anchor="middle">Делит угол пополам</text>
+
+  <!-- Panel 3: Altitude -->
+  <rect x="332" y="58" width="156" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#FFB300" stroke-width="1"/>
+  <text x="410" y="73" font-size="9" font-weight="bold" fill="#FF8F00" text-anchor="middle">Высота</text>
+  <!-- Triangle -->
+  <polygon points="410,82 365,162 460,162" fill="none" stroke="#FF8F00" stroke-width="1.5"/>
+  <circle cx="410" cy="82" r="2.5" fill="#FF8F00"/>
+  <circle cx="365" cy="162" r="2.5" fill="#FF8F00"/>
+  <circle cx="460" cy="162" r="2.5" fill="#FF8F00"/>
+  <text x="410" y="78" font-size="7" fill="#FF8F00" font-style="italic">A</text>
+  <text x="355" y="166" font-size="7" fill="#FF8F00" font-style="italic">B</text>
+  <text x="464" y="166" font-size="7" fill="#FF8F00" font-style="italic">C</text>
+  <!-- Altitude from A perpendicular to BC -->
+  <line x1="410" y1="82" x2="410" y2="162" stroke="#9C27B0" stroke-width="1.8" stroke-dasharray="5,2"/>
+  <circle cx="410" cy="162" r="2.5" fill="#9C27B0"/>
+  <text x="418" y="166" font-size="7" fill="#9C27B0" font-style="italic">H</text>
+  <!-- Right angle mark -->
+  <rect x="410" y="150" width="8" height="8" fill="none" stroke="#9C27B0" stroke-width="1"/>
+  <text x="410" y="145" font-size="6.5" fill="#9C27B0">AH ⊥ BC</text>
+  <text x="410" y="180" font-size="6" fill="#555" text-anchor="middle">Перпендикуляр к стороне</text>
+
+  <!-- Panel 4: All three in one triangle -->
+  <rect x="12" y="184" width="200" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#FFB300" stroke-width="1"/>
+  <text x="112" y="199" font-size="9" font-weight="bold" fill="#FF8F00" text-anchor="middle">Все три в △ABC</text>
+  <polygon points="112,210 50,290 175,290" fill="#FFF8E1" fill-opacity="0.3" stroke="#FF8F00" stroke-width="1.5"/>
+  <circle cx="112" cy="210" r="2.5" fill="#FF8F00"/>
+  <circle cx="50" cy="290" r="2.5" fill="#FF8F00"/>
+  <circle cx="175" cy="290" r="2.5" fill="#FF8F00"/>
+  <text x="112" y="206" font-size="7" fill="#FF8F00" font-style="italic">A</text>
+  <text x="40" y="293" font-size="7" fill="#FF8F00" font-style="italic">B</text>
+  <text x="180" y="293" font-size="7" fill="#FF8F00" font-style="italic">C</text>
+  <!-- Median (red) -->
+  <line x1="112" y1="210" x2="112" y2="290" stroke="#E53935" stroke-width="1.3" stroke-dasharray="4,2"/>
+  <circle cx="112" cy="290" r="2" fill="#E53935"/>
+  <text x="102" y="280" font-size="5.5" fill="#E53935">M</text>
+  <!-- Bisector (blue) -->
+  <line x1="112" y1="210" x2="118" y2="290" stroke="#1565C0" stroke-width="1.3" stroke-dasharray="4,2"/>
+  <circle cx="118" cy="290" r="2" fill="#1565C0"/>
+  <!-- Altitude (purple) -->
+  <line x1="112" y1="210" x2="85" y2="290" stroke="#9C27B0" stroke-width="1.3" stroke-dasharray="4,2"/>
+  <circle cx="85" cy="290" r="2" fill="#9C27B0"/>
+  <text x="73" y="295" font-size="5.5" fill="#9C27B0">H</text>
+  <!-- Legend -->
+  <line x1="185" y1="220" x2="200" y2="220" stroke="#E53935" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="204" y="223" font-size="6" fill="#E53935">Медиана</text>
+  <line x1="185" y1="233" x2="200" y2="233" stroke="#1565C0" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="204" y="236" font-size="6" fill="#1565C0">Биссектриса</text>
+  <line x1="185" y1="246" x2="200" y2="246" stroke="#9C27B0" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="204" y="249" font-size="6" fill="#9C27B0">Высота</text>
+
+  <!-- Panel 5: Concurrent point -->
+  <rect x="220" y="184" width="140" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#FFB300" stroke-width="1"/>
+  <text x="290" y="199" font-size="9" font-weight="bold" fill="#FF8F00" text-anchor="middle">Замечательные</text>
+  <text x="290" y="210" font-size="9" font-weight="bold" fill="#FF8F00" text-anchor="middle">точки</text>
+  <rect x="230" y="218" width="120" height="18" rx="3" fill="#E53935" fill-opacity="0.1" stroke="#E53935" stroke-width="0.4"/>
+  <text x="290" y="231" font-size="7" fill="#C62828" text-anchor="middle">Медианы: точка M (центр)</text>
+  <rect x="230" y="240" width="120" height="18" rx="3" fill="#1565C0" fill-opacity="0.1" stroke="#1565C0" stroke-width="0.4"/>
+  <text x="290" y="253" font-size="7" fill="#0D47A1" text-anchor="middle">Биссектрисы: точка I (инцентр)</text>
+  <rect x="230" y="262" width="120" height="18" rx="3" fill="#9C27B0" fill-opacity="0.1" stroke="#9C27B0" stroke-width="0.4"/>
+  <text x="290" y="275" font-size="7" fill="#7B1FA2" text-anchor="middle">Высоты: точка H (ортоцентр)</text>
+  <rect x="230" y="284" width="120" height="14" rx="3" fill="#FF8F00" fill-opacity="0.15"/>
+  <text x="290" y="294" font-size="6.5" fill="#E65100" text-anchor="middle" font-weight="bold">Пересекаются в одной точке</text>
+
+  <!-- Panel 6: Properties -->
+  <rect x="368" y="184" width="120" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#FFB300" stroke-width="1"/>
+  <text x="428" y="199" font-size="9" font-weight="bold" fill="#FF8F00" text-anchor="middle">Свойства</text>
+  <rect x="378" y="207" width="100" height="16" rx="2" fill="#FFF8E1" stroke="#FFB300" stroke-width="0.4"/>
+  <text x="428" y="219" font-size="6.5" fill="#E65100" text-anchor="middle">3 медианы</text>
+  <rect x="378" y="227" width="100" height="16" rx="2" fill="#FFF8E1" stroke="#FFB300" stroke-width="0.4"/>
+  <text x="428" y="239" font-size="6.5" fill="#E65100" text-anchor="middle">3 биссектрисы</text>
+  <rect x="378" y="247" width="100" height="16" rx="2" fill="#FFF8E1" stroke="#FFB300" stroke-width="0.4"/>
+  <text x="428" y="259" font-size="6.5" fill="#E65100" text-anchor="middle">3 высоты</text>
+  <rect x="378" y="267" width="100" height="16" rx="2" fill="#FFF8E1" stroke="#FFB300" stroke-width="0.4"/>
+  <text x="428" y="279" font-size="6.5" fill="#E65100" text-anchor="middle">В любом △</text>
+  <rect x="378" y="287" width="100" height="12" rx="2" fill="#FF8F00" fill-opacity="0.15"/>
+  <text x="428" y="296" font-size="6" fill="#E65100" text-anchor="middle">В равнобедренном совпадают</text>
+
+  <!-- Bottom bar -->
+  <rect x="12" y="320" width="476" height="22" rx="4" fill="#FFB300" fill-opacity="0.85"/>
+  <text x="250" y="335" font-size="10" fill="white" text-anchor="middle" font-weight="bold" font-family="Arial">Медиана: AM=MB | Биссектриса: ∠1=∠2 | Высота: AH ⊥ BC</text>
+</svg>

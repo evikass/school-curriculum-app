@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<defs>
+  <style>
+    text { font-family: 'Segoe UI', Arial, Helvetica, sans-serif; }
+  </style>
+  <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+    <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.08"/>
+  </filter>
+</defs>
+<rect width="800" height="500" rx="12" fill="#f8fafc"/>
+<rect width="800" height="6" fill="#6366f1" rx="3"/>
+<text x="400" y="42" text-anchor="middle" font-size="26" font-weight="700" fill="#1e3a5f">Определение валентности по формулам</text>
+
+<!-- Main rule -->
+<rect x="150" y="55" width="500" height="50" rx="12" fill="#eef2ff" stroke="#6366f1" stroke-width="2" filter="url(#shadow)"/>
+<text x="400" y="86" text-anchor="middle" font-size="20" font-weight="700" fill="#6366f1">Валентность × Индекс = const</text>
+
+<!-- Example 1: H2O -->
+<rect x="30" y="118" width="235" height="130" rx="14" fill="#fff" stroke="#3b82f6" stroke-width="1.5" filter="url(#shadow)"/>
+<rect x="30" y="118" width="235" height="6" rx="3" fill="#3b82f6"/>
+<text x="148" y="148" text-anchor="middle" font-size="18" font-weight="700" fill="#1e3a5f">H<tspan font-size="13" baseline-shift="sub">2</tspan>O</text>
+
+<text x="50" y="175" font-size="14" fill="#475569">H — вал. I, инд. 2</text>
+<text x="50" y="195" font-size="14" fill="#475569">O — вал. II, инд. 1</text>
+<line x1="50" y1="202" x2="245" y2="202" stroke="#3b82f6" stroke-width="1"/>
+<text x="50" y="222" font-size="15" font-weight="600" fill="#3b82f6">I × 2 = II × 1</text>
+<text x="50" y="240" font-size="13" fill="#64748b">2 = 2 ✓</text>
+
+<!-- Example 2: Fe2O3 -->
+<rect x="283" y="118" width="235" height="130" rx="14" fill="#fff" stroke="#10b981" stroke-width="1.5" filter="url(#shadow)"/>
+<rect x="283" y="118" width="235" height="6" rx="3" fill="#10b981"/>
+<text x="400" y="148" text-anchor="middle" font-size="18" font-weight="700" fill="#1e3a5f">Fe<tspan font-size="13" baseline-shift="sub">2</tspan>O<tspan font-size="13" baseline-shift="sub">3</tspan></text>
+
+<text x="303" y="175" font-size="14" fill="#475569">Fe — вал. III, инд. 2</text>
+<text x="303" y="195" font-size="14" fill="#475569">O — вал. II, инд. 3</text>
+<line x1="303" y1="202" x2="498" y2="202" stroke="#10b981" stroke-width="1"/>
+<text x="303" y="222" font-size="15" font-weight="600" fill="#10b981">III × 2 = II × 3</text>
+<text x="303" y="240" font-size="13" fill="#64748b">6 = 6 ✓</text>
+
+<!-- Example 3: NH3 -->
+<rect x="536" y="118" width="235" height="130" rx="14" fill="#fff" stroke="#8b5cf6" stroke-width="1.5" filter="url(#shadow)"/>
+<rect x="536" y="118" width="235" height="6" rx="3" fill="#8b5cf6"/>
+<text x="653" y="148" text-anchor="middle" font-size="18" font-weight="700" fill="#1e3a5f">NH<tspan font-size="13" baseline-shift="sub">3</tspan></text>
+
+<text x="556" y="175" font-size="14" fill="#475569">N — вал. III, инд. 1</text>
+<text x="556" y="195" font-size="14" fill="#475569">H — вал. I, инд. 3</text>
+<line x1="556" y1="202" x2="751" y2="202" stroke="#8b5cf6" stroke-width="1"/>
+<text x="556" y="222" font-size="15" font-weight="600" fill="#8b5cf6">III × 1 = I × 3</text>
+<text x="556" y="240" font-size="13" fill="#64748b">3 = 3 ✓</text>
+
+<!-- Step-by-step algorithm -->
+<rect x="30" y="262" width="740" height="170" rx="14" fill="#fff" stroke="#6366f1" stroke-width="1.5" filter="url(#shadow)"/>
+<rect x="30" y="262" width="740" height="6" rx="3" fill="#6366f1"/>
+<text x="400" y="290" text-anchor="middle" font-size="16" font-weight="700" fill="#6366f1">Алгоритм определения валентности</text>
+
+<!-- Step boxes -->
+<rect x="55" y="305" width="155" height="55" rx="10" fill="#eef2ff" stroke="#6366f1" stroke-width="1"/>
+<text x="132" y="325" text-anchor="middle" font-size="12" font-weight="700" fill="#6366f1">Шаг 1</text>
+<text x="132" y="345" text-anchor="middle" font-size="11" fill="#475569">Записать формулу</text>
+
+<text x="220" y="335" text-anchor="middle" font-size="20" fill="#6366f1">→</text>
+
+<rect x="235" y="305" width="155" height="55" rx="10" fill="#eef2ff" stroke="#6366f1" stroke-width="1"/>
+<text x="312" y="325" text-anchor="middle" font-size="12" font-weight="700" fill="#6366f1">Шаг 2</text>
+<text x="312" y="345" text-anchor="middle" font-size="11" fill="#475569">Обозначить известную</text>
+<text x="312" y="357" text-anchor="middle" font-size="11" fill="#475569">валентность (H=I, O=II)</text>
+
+<text x="400" y="335" text-anchor="middle" font-size="20" fill="#6366f1">→</text>
+
+<rect x="415" y="305" width="155" height="55" rx="10" fill="#eef2ff" stroke="#6366f1" stroke-width="1"/>
+<text x="492" y="325" text-anchor="middle" font-size="12" font-weight="700" fill="#6366f1">Шаг 3</text>
+<text x="492" y="345" text-anchor="middle" font-size="11" fill="#475569">Умножить валентность</text>
+<text x="492" y="357" text-anchor="middle" font-size="11" fill="#475569">на индекс</text>
+
+<text x="580" y="335" text-anchor="middle" font-size="20" fill="#6366f1">→</text>
+
+<rect x="595" y="305" width="155" height="55" rx="10" fill="#eef2ff" stroke="#6366f1" stroke-width="1"/>
+<text x="672" y="325" text-anchor="middle" font-size="12" font-weight="700" fill="#6366f1">Шаг 4</text>
+<text x="672" y="345" text-anchor="middle" font-size="11" fill="#475569">Разделить на индекс</text>
+<text x="672" y="357" text-anchor="middle" font-size="11" fill="#475569">неизвестного элемента</text>
+
+<!-- Cross-multiplication visualization -->
+<rect x="55" y="375" width="700" height="45" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/>
+<text x="400" y="395" text-anchor="middle" font-size="14" font-weight="600" fill="#92400e">Крест-накрест: валентность одного элемента × его индекс = валентность другого × его индекс</text>
+<text x="400" y="414" text-anchor="middle" font-size="12" fill="#64748b">Общее кратное для Fe₂O₃: III×2 = II×3 = 6</text>
+
+<!-- Footer -->
+<rect x="200" y="455" width="400" height="3" rx="1.5" fill="#e2e8f0"/>
+<text x="400" y="480" text-anchor="middle" font-size="12" fill="#94a3b8">Произведение валентности на индекс одинаково для всех элементов в формуле</text>
+</svg>

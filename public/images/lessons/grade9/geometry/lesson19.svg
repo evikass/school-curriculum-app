@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBE9E7"/>
+      <stop offset="100%" stop-color="#FFCCBC"/>
+    </linearGradient>
+    <marker id="ah19" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#E65100"/>
+    </marker>
+    <marker id="ah19o" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#FF5722"/>
+    </marker>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#E65100" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#BF360C" text-anchor="middle" font-family="Arial">Параллельный перенос</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="Arial">Геометрия 9 класс — Урок 19</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#FF5722" stroke-width="1" opacity="0.3"/>
+
+  <!-- Translation by vector panel -->
+  <rect x="15" y="58" width="280" height="170" rx="6" fill="white" opacity="0.9" stroke="#FF5722" stroke-width="1"/>
+  <text x="155" y="74" font-size="10" font-weight="bold" fill="#E65100" text-anchor="middle" font-family="Arial">Перенос по вектору</text>
+  <!-- Original figure -->
+  <polygon points="40,140 40,185 80,200 120,185 120,140 80,125" fill="#FFCCBC" fill-opacity="0.4" stroke="#E65100" stroke-width="2"/>
+  <text x="80" y="165" font-size="8" fill="#E65100" text-anchor="middle" font-family="Arial">F</text>
+  <!-- Vector a -->
+  <line x1="80" y1="125" x2="220" y2="95" stroke="#E65100" stroke-width="2" marker-end="url(#ah19)"/>
+  <text x="150" y="102" font-size="9" fill="#E65100" font-family="Arial" font-style="italic" font-weight="bold">a</text>
+  <!-- Mapped figure -->
+  <polygon points="180,110 180,155 220,170 260,155 260,110 220,95" fill="#C8E6C9" fill-opacity="0.4" stroke="#4CAF50" stroke-width="2"/>
+  <text x="220" y="135" font-size="8" fill="#4CAF50" text-anchor="middle" font-family="Arial">F'</text>
+  <!-- Shift lines for each vertex -->
+  <line x1="40" y1="140" x2="180" y2="110" stroke="#9E9E9E" stroke-width="0.7" stroke-dasharray="3,2"/>
+  <line x1="120" y1="140" x2="260" y2="110" stroke="#9E9E9E" stroke-width="0.7" stroke-dasharray="3,2"/>
+  <line x1="40" y1="185" x2="180" y2="155" stroke="#9E9E9E" stroke-width="0.7" stroke-dasharray="3,2"/>
+  <line x1="120" y1="185" x2="260" y2="155" stroke="#9E9E9E" stroke-width="0.7" stroke-dasharray="3,2"/>
+  <text x="155" y="215" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">Все точки сдвигаются на вектор a</text>
+
+  <!-- Properties panel -->
+  <rect x="305" y="58" width="180" height="170" rx="6" fill="white" opacity="0.9" stroke="#FF5722" stroke-width="1"/>
+  <text x="395" y="74" font-size="10" font-weight="bold" fill="#E65100" text-anchor="middle" font-family="Arial">Свойства</text>
+  <rect x="315" y="82" width="160" height="22" rx="4" fill="#FBE9E7" stroke="#FF5722" stroke-width="0.8"/>
+  <text x="395" y="97" font-size="8.5" fill="#BF360C" text-anchor="middle" font-family="Arial">Все точки переносятся на |a|</text>
+  <rect x="315" y="108" width="160" height="22" rx="4" fill="#FFCCBC" stroke="#FF5722" stroke-width="0.8"/>
+  <text x="395" y="123" font-size="8.5" fill="#BF360C" text-anchor="middle" font-family="Arial">Фигура переходит в равную</text>
+  <rect x="315" y="134" width="160" height="22" rx="4" fill="#FBE9E7" stroke="#FF5722" stroke-width="0.8"/>
+  <text x="395" y="149" font-size="8.5" fill="#BF360C" text-anchor="middle" font-family="Arial">M(x,y) → M'(x+a, y+b)</text>
+  <rect x="315" y="160" width="160" height="22" rx="4" fill="#FFCCBC" stroke="#FF5722" stroke-width="0.8"/>
+  <text x="395" y="175" font-size="8.5" fill="#BF360C" text-anchor="middle" font-family="Arial">Является движением</text>
+  <text x="395" y="198" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">Не имеет неподвижных точек</text>
+  <text x="395" y="210" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">(если a ≠ 0)</text>
+
+  <!-- Coordinate plane example panel -->
+  <rect x="15" y="235" width="235" height="77" rx="6" fill="white" opacity="0.9" stroke="#FF5722" stroke-width="1"/>
+  <text x="132" y="251" font-size="9" font-weight="bold" fill="#E65100" text-anchor="middle" font-family="Arial">На координатной плоскости</text>
+  <!-- Mini coordinate plane -->
+  <line x1="45" y1="290" x2="150" y2="290" stroke="#E65100" stroke-width="0.8"/>
+  <line x1="45" y1="290" x2="45" y2="258" stroke="#E65100" stroke-width="0.8"/>
+  <text x="153" y="293" font-size="6" fill="#E65100" font-family="Arial">x</text>
+  <text x="42" y="255" font-size="6" fill="#E65100" font-family="Arial">y</text>
+  <!-- Point -->
+  <circle cx="70" cy="278" r="2.5" fill="#E65100"/>
+  <text x="58" y="275" font-size="6.5" fill="#E65100" font-family="Arial">(1;2)</text>
+  <!-- Shifted point -->
+  <circle cx="110" cy="268" r="2.5" fill="#4CAF50"/>
+  <text x="113" y="265" font-size="6.5" fill="#4CAF50" font-family="Arial">(3;4)</text>
+  <!-- Vector -->
+  <line x1="70" y1="278" x2="110" y2="268" stroke="#E65100" stroke-width="1.5" marker-end="url(#ah19)"/>
+  <text x="240" y="270" font-size="7.5" fill="#555" font-family="Arial">a = {2; 2}</text>
+  <text x="240" y="282" font-size="7.5" fill="#555" font-family="Arial">(x+2, y+2)</text>
+  <text x="240" y="294" font-size="7.5" fill="#555" font-family="Arial">(1+2, 2+2)=(3;4)</text>
+
+  <!-- Composition panel -->
+  <rect x="260" y="235" width="225" height="77" rx="6" fill="white" opacity="0.9" stroke="#FF5722" stroke-width="1"/>
+  <text x="372" y="251" font-size="9" font-weight="bold" fill="#E65100" text-anchor="middle" font-family="Arial">Композиция переносов</text>
+  <!-- Vector a -->
+  <line x1="275" y1="275" x2="315" y2="265" stroke="#E65100" stroke-width="2" marker-end="url(#ah19)"/>
+  <text x="288" y="262" font-size="8" fill="#E65100" font-family="Arial" font-style="italic">a</text>
+  <!-- Vector b -->
+  <line x1="320" y1="265" x2="360" y2="280" stroke="#1E88E5" stroke-width="2" marker-end="url(#ah19)"/>
+  <text x="338" y="260" font-size="8" fill="#1E88E5" font-family="Arial" font-style="italic">b</text>
+  <!-- Result vector -->
+  <line x1="275" y1="275" x2="360" y2="280" stroke="#4CAF50" stroke-width="2" marker-end="url(#ah19)"/>
+  <text x="320" y="290" font-size="8" fill="#4CAF50" font-family="Arial">a+b</text>
+  <rect x="375" y="260" width="100" height="22" rx="3" fill="#FBE9E7" stroke="#FF5722" stroke-width="0.5"/>
+  <text x="425" y="275" font-size="8" fill="#BF360C" text-anchor="middle" font-family="Arial">T_a ° T_b = T_{a+b}</text>
+  <text x="372" y="302" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">Композиция = сложение векторов</text>
+
+  <!-- Bottom bar -->
+  <rect x="15" y="318" width="470" height="26" rx="4" fill="#FF5722" opacity="0.85"/>
+  <text x="250" y="335" font-size="10" fill="white" text-anchor="middle" font-weight="bold" font-family="Arial">M(x,y) → M'(x+a, y+b) | T_a ° T_b = T_{a+b}</text>
+</svg>

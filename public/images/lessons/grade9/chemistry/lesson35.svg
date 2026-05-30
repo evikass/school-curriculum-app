@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg35" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#115e59"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.7"/>
+    </linearGradient>
+    <filter id="sh35">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg35)" rx="10"/>
+  <rect x="8" y="8" width="384" height="284" fill="none" stroke="white" stroke-width="0.5" opacity="0.15" rx="8"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="400" height="32" fill="#0d9488" rx="10"/>
+  <rect x="0" y="16" width="400" height="16" fill="#0d9488"/>
+  <text x="200" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="white" font-weight="bold">Итоговая контрольная работа</text>
+
+  <!-- Central test-themed area -->
+  <rect x="80" y="40" width="240" height="50" rx="8" fill="#0f766e" filter="url(#sh35)"/>
+  <text x="200" y="60" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="white" font-weight="bold">Химия 9 класс</text>
+  <text x="200" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#99f6e4">Проверка знаний за курс</text>
+
+  <!-- Beaker icon -->
+  <rect x="22" y="42" width="40" height="45" rx="3" fill="none" stroke="#5eead4" stroke-width="1.5"/>
+  <rect x="25" y="55" width="34" height="28" rx="2" fill="#14b8a6" opacity="0.3"/>
+  <line x1="22" y1="55" x2="62" y2="55" stroke="#5eead4" stroke-width="1" stroke-dasharray="2,2"/>
+
+  <!-- Test tube icon -->
+  <rect x="338" y="42" width="14" height="40" rx="7" fill="none" stroke="#5eead4" stroke-width="1.5"/>
+  <rect x="340" y="55" width="10" height="22" rx="5" fill="#f59e0b" opacity="0.3"/>
+
+  <!-- Topics covered -->
+  <rect x="12" y="98" width="185" height="88" rx="6" fill="#134e4a" filter="url(#sh35)"/>
+  <text x="22" y="114" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Темы:</text>
+  <text x="22" y="128" font-family="Arial,sans-serif" font-size="7" fill="white">1. Периодический закон</text>
+  <text x="22" y="139" font-family="Arial,sans-serif" font-size="7" fill="white">2. Металлы и их свойства</text>
+  <text x="22" y="150" font-family="Arial,sans-serif" font-size="7" fill="white">3. Неметаллы: галогены, O, S, N, P, C, Si</text>
+  <text x="22" y="161" font-family="Arial,sans-serif" font-size="7" fill="white">4. Кислоты: HCl, H&#178;SO&#8308;, HNO&#179;</text>
+  <text x="22" y="172" font-family="Arial,sans-serif" font-size="7" fill="white">5. Расчётные задачи</text>
+  <text x="22" y="183" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">6. ОВР, СО, типы реакций</text>
+
+  <!-- Formulas to know -->
+  <rect x="203" y="98" width="185" height="88" rx="6" fill="#134e4a" filter="url(#sh35)"/>
+  <text x="213" y="114" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Формулы:</text>
+  <text x="213" y="128" font-family="Arial,sans-serif" font-size="7" fill="white">n = m/M</text>
+  <text x="280" y="128" font-family="Arial,sans-serif" font-size="7" fill="white">V = Vm x n</text>
+  <text x="213" y="139" font-family="Arial,sans-serif" font-size="7" fill="white">w = m(в)/m(р)</text>
+  <text x="280" y="139" font-family="Arial,sans-serif" font-size="7" fill="white">h = m(пр)/m(т)</text>
+  <text x="213" y="150" font-family="Arial,sans-serif" font-size="7" fill="white">D = M1/M2</text>
+  <text x="280" y="150" font-family="Arial,sans-serif" font-size="7" fill="white">Vm = 22.4</text>
+
+  <!-- Equations -->
+  <text x="213" y="166" font-family="Arial,sans-serif" font-size="8" fill="#5eead4" font-weight="bold">Уравнения:</text>
+  <text x="213" y="178" font-family="Arial,sans-serif" font-size="6" fill="white">2KMnO&#8308;=K&#178;MnO&#8308;+MnO&#178;+O&#178;</text>
+  <text x="213" y="188" font-family="Arial,sans-serif" font-size="6" fill="white">N&#178;+3H&#178;=2NH&#179; | CaCO&#179;+2HCl</text>
+
+  <!-- Question marks decoration -->
+  <rect x="12" y="193" width="376" height="50" rx="6" fill="#0f766e" filter="url(#sh35)"/>
+  <text x="22" y="209" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Структура работы:</text>
+  <rect x="22" y="216" width="80" height="20" rx="4" fill="#115e59"/>
+  <text x="62" y="230" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="white">Часть A: тест</text>
+  <rect x="108" y="216" width="80" height="20" rx="4" fill="#115e59"/>
+  <text x="148" y="230" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="white">Часть B: соотв.</text>
+  <rect x="194" y="216" width="80" height="20" rx="4" fill="#115e59"/>
+  <text x="234" y="230" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="white">Часть C: задачи</text>
+  <rect x="280" y="216" width="98" height="20" rx="4" fill="#115e59"/>
+  <text x="329" y="230" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="white">ОВР, расчёты</text>
+
+  <!-- Score -->
+  <rect x="12" y="250" width="376" height="38" rx="6" fill="#134e4a" filter="url(#sh35)"/>
+  <text x="200" y="268" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Удачи на контрольной!</text>
+  <text x="200" y="282" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">Повторите: СО элементов, уравнения реакций, формулы для расчётов</text>
+  <text x="370" y="268" font-family="Arial,sans-serif" font-size="8" fill="#5eead4">35</text>
+
+</svg>

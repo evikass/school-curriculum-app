@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="50%" stop-color="#FFE082"/>
+      <stop offset="100%" stop-color="#FFB300" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="500" height="350" fill="url(#bg)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#E65100" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#E65100" text-anchor="middle" font-family="Arial">Числовые промежутки</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="Arial">Алгебра 8 класс — Урок 12</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#FF8F00" stroke-opacity="0.3"/>
+  <rect x="12" y="58" width="155" height="55" rx="6" fill="white" fill-opacity="0.9" stroke="#FF8F00" stroke-width="1"/>
+  <text x="87" y="73" font-size="8" font-weight="bold" fill="#E65100" text-anchor="middle">(a; b) интервал</text>
+  <text x="87" y="93" font-size="8" fill="#555" text-anchor="middle">a &lt; x &lt; b</text>
+  <rect x="175" y="58" width="155" height="55" rx="6" fill="white" fill-opacity="0.9" stroke="#FF8F00" stroke-width="1"/>
+  <text x="252" y="73" font-size="8" font-weight="bold" fill="#E65100" text-anchor="middle">[a; b] отрезок</text>
+  <text x="252" y="93" font-size="8" fill="#555" text-anchor="middle">a ≤ x ≤ b</text>
+  <rect x="338" y="58" width="150" height="55" rx="6" fill="white" fill-opacity="0.9" stroke="#FF8F00" stroke-width="1"/>
+  <text x="413" y="73" font-size="8" font-weight="bold" fill="#E65100" text-anchor="middle">(a; b] полуинт.</text>
+  <text x="413" y="93" font-size="8" fill="#555" text-anchor="middle">a &lt; x ≤ b</text>
+  <rect x="12" y="121" width="230" height="55" rx="6" fill="white" fill-opacity="0.9" stroke="#FF8F00" stroke-width="1"/>
+  <text x="127" y="136" font-size="8" font-weight="bold" fill="#E65100" text-anchor="middle">Лучи</text>
+  <text x="127" y="155" font-size="8" fill="#555" text-anchor="middle">(a;+∞), [a;+∞), (-∞;a), (-∞;a]</text>
+  <rect x="252" y="121" width="236" height="55" rx="6" fill="white" fill-opacity="0.9" stroke="#FF8F00" stroke-width="1"/>
+  <text x="370" y="136" font-size="8" font-weight="bold" fill="#E65100" text-anchor="middle">Обозначения</text>
+  <text x="370" y="155" font-size="8" fill="#2E7D32" text-anchor="middle">( ) — не включена  [ ] — включена</text>
+  <rect x="12" y="184" width="476" height="120" rx="6" fill="white" fill-opacity="0.9" stroke="#FF8F00" stroke-width="1"/>
+  <text x="250" y="199" font-size="9" font-weight="bold" fill="#E65100" text-anchor="middle">Координатная прямая</text>
+  <line x1="30" y1="230" x2="470" y2="230" stroke="#FF8F00" stroke-width="2"/>
+  <line x1="150" y1="224" x2="150" y2="236" stroke="#FF8F00" stroke-width="2"/>
+  <circle cx="150" cy="230" r="4" fill="white" stroke="#FF8F00" stroke-width="2"/>
+  <text x="150" y="220" font-size="9" fill="#E65100" text-anchor="middle">2</text>
+  <line x1="300" y1="224" x2="300" y2="236" stroke="#FF8F00" stroke-width="2"/>
+  <circle cx="300" cy="230" r="4" fill="#FF8F00"/>
+  <text x="300" y="220" font-size="9" fill="#E65100" text-anchor="middle">7</text>
+  <text x="250" y="260" font-size="9" fill="#FF8F00" font-weight="bold" text-anchor="middle">(2; 7]</text>
+  <text x="250" y="278" font-size="8" fill="#555" text-anchor="middle">Пустой кружок = не включено, закрашенный = включено</text>
+  <text x="250" y="292" font-size="8" fill="#E65100" font-weight="bold" text-anchor="middle">+∞ и -∞ всегда с круглой скобкой!</text>
+  <rect x="12" y="320" width="476" height="22" rx="4" fill="#FF8F00" fill-opacity="0.85"/>
+  <text x="250" y="335" font-size="9" fill="white" text-anchor="middle" font-weight="bold" font-family="Arial">Числовые промежутки — Макарычев Ю.Н., 8 класс</text>
+</svg>

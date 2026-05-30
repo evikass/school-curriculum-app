@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3E0"/>
+      <stop offset="100%" stop-color="#FFE0B2"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="12"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#E65100">Популяция</text>
+  <line x1="100" y1="40" x2="400" y2="40" stroke="#F57C00" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- J-curve (exponential growth) -->
+  <g transform="translate(15,50)">
+    <rect x="0" y="0" width="230" height="135" rx="6" fill="white" fill-opacity="0.7" stroke="#F57C00" stroke-width="1"/>
+    <text x="115" y="16" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#E65100">J-образная кривая</text>
+    <text x="115" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#F57C00">Экспоненциальный рост</text>
+
+    <!-- Axes -->
+    <line x1="30" y1="115" x2="210" y2="115" stroke="#BF360C" stroke-width="1.2"/>
+    <line x1="30" y1="115" x2="30" y2="35" stroke="#BF360C" stroke-width="1.2"/>
+    <polygon points="210,112 215,115 210,118" fill="#BF360C"/>
+    <polygon points="27,35 30,30 33,35" fill="#BF360C"/>
+    <text x="120" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#BF360C">Время</text>
+    <text x="18" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#BF360C" transform="rotate(-90,18,75)">Численность</text>
+
+    <!-- J-curve path -->
+    <path d="M30,112 Q60,111 90,109 Q120,105 140,98 Q160,85 175,65 Q190,45 200,38" fill="none" stroke="#F57C00" stroke-width="2.5"/>
+    <!-- Arrow at end -->
+    <polygon points="198,40 205,35 200,44" fill="#F57C00"/>
+
+    <!-- Label -->
+    <text x="160" y="60" font-family="Arial,sans-serif" font-size="8" fill="#E65100" font-style="italic">Без ограничений</text>
+    <text x="160" y="70" font-family="Arial,sans-serif" font-size="7" fill="#F57C00">N = N₀ · eʳᵗ</text>
+  </g>
+
+  <!-- S-curve (logistic growth) -->
+  <g transform="translate(255,50)">
+    <rect x="0" y="0" width="230" height="135" rx="6" fill="white" fill-opacity="0.7" stroke="#F57C00" stroke-width="1"/>
+    <text x="115" y="16" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#E65100">S-образная кривая</text>
+    <text x="115" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#F57C00">Логистический рост</text>
+
+    <!-- Axes -->
+    <line x1="30" y1="115" x2="210" y2="115" stroke="#BF360C" stroke-width="1.2"/>
+    <line x1="30" y1="115" x2="30" y2="35" stroke="#BF360C" stroke-width="1.2"/>
+    <polygon points="210,112 215,115 210,118" fill="#BF360C"/>
+    <polygon points="27,35 30,30 33,35" fill="#BF360C"/>
+    <text x="120" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#BF360C">Время</text>
+    <text x="18" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#BF360C" transform="rotate(-90,18,75)">Численность</text>
+
+    <!-- K line (carrying capacity) -->
+    <line x1="30" y1="55" x2="210" y2="55" stroke="#FF8A65" stroke-width="1" stroke-dasharray="4,3"/>
+    <text x="212" y="53" font-family="Arial,sans-serif" font-size="8" fill="#E65100" font-weight="bold">K</text>
+
+    <!-- S-curve path -->
+    <path d="M30,112 Q50,111 70,108 Q95,100 110,85 Q130,65 150,58 Q170,55 195,55" fill="none" stroke="#E65100" stroke-width="2.5"/>
+
+    <!-- Labels -->
+    <text x="70" y="100" font-family="Arial,sans-serif" font-size="7" fill="#E65100">Замедленный</text>
+    <text x="70" y="108" font-family="Arial,sans-serif" font-size="7" fill="#E65100">рост</text>
+    <text x="140" y="72" font-family="Arial,sans-serif" font-size="7" fill="#E65100">Равновесие</text>
+    <text x="212" y="62" font-family="Arial,sans-serif" font-size="6" fill="#F57C00">Ёмкость среды</text>
+  </g>
+
+  <!-- Population characteristics -->
+  <g transform="translate(15,195)">
+    <rect x="0" y="0" width="470" height="140" rx="6" fill="white" fill-opacity="0.5" stroke="#F57C00" stroke-width="1"/>
+    <text x="235" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#E65100">Характеристики популяции</text>
+
+    <!-- Stat cards -->
+    <g transform="translate(10,28)">
+      <rect x="0" y="0" width="107" height="48" rx="4" fill="#FFF3E0" stroke="#FFB74D" stroke-width="0.8"/>
+      <text x="53" y="16" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#E65100">Численность</text>
+      <text x="53" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#F57C00">Общее число</text>
+      <text x="53" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#F57C00">особей (N)</text>
+    </g>
+    <g transform="translate(122,28)">
+      <rect x="0" y="0" width="107" height="48" rx="4" fill="#FFF3E0" stroke="#FFB74D" stroke-width="0.8"/>
+      <text x="53" y="16" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#E65100">Плотность</text>
+      <text x="53" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#F57C00">N на единицу</text>
+      <text x="53" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#F57C00">площади/объёма</text>
+    </g>
+    <g transform="translate(234,28)">
+      <rect x="0" y="0" width="107" height="48" rx="4" fill="#FFF3E0" stroke="#FFB74D" stroke-width="0.8"/>
+      <text x="53" y="16" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#E65100">Рождаемость</text>
+      <text x="53" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#F57C00">Число рожд.</text>
+      <text x="53" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#F57C00">за время (b)</text>
+    </g>
+    <g transform="translate(346,28)">
+      <rect x="0" y="0" width="107" height="48" rx="4" fill="#FFF3E0" stroke="#FFB74D" stroke-width="0.8"/>
+      <text x="53" y="16" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#E65100">Смертность</text>
+      <text x="53" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#F57C00">Число смертей</text>
+      <text x="53" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#F57C00">за время (d)</text>
+    </g>
+
+    <!-- Age structure -->
+    <g transform="translate(10,84)">
+      <rect x="0" y="0" width="145" height="48" rx="4" fill="#FFF3E0" stroke="#FFB74D" stroke-width="0.8"/>
+      <text x="72" y="14" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#E65100">Возрастной состав</text>
+      <!-- Age pyramids simplified -->
+      <rect x="10" y="20" width="30" height="8" rx="1" fill="#FF8A65"/>
+      <rect x="15" y="30" width="25" height="8" rx="1" fill="#FFB74D"/>
+      <rect x="20" y="40" width="20" height="8" rx="1" fill="#FFCC80"/>
+      <text x="52" y="28" font-family="Arial,sans-serif" font-size="6.5" fill="#E65100">Молодые</text>
+      <text x="52" y="38" font-family="Arial,sans-serif" font-size="6.5" fill="#E65100">Взрослые</text>
+      <text x="52" y="48" font-family="Arial,sans-serif" font-size="6.5" fill="#E65100">Старые</text>
+    </g>
+
+    <!-- Sex ratio -->
+    <g transform="translate(165,84)">
+      <rect x="0" y="0" width="130" height="48" rx="4" fill="#FFF3E0" stroke="#FFB74D" stroke-width="0.8"/>
+      <text x="65" y="14" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#E65100">Половой состав</text>
+      <text x="25" y="35" font-family="Arial,sans-serif" font-size="20" fill="#42A5F5">♂</text>
+      <text x="50" y="35" font-family="Arial,sans-serif" font-size="12" fill="#E65100">:</text>
+      <text x="65" y="35" font-family="Arial,sans-serif" font-size="20" fill="#EF5350">♀</text>
+      <text x="100" y="32" font-family="Arial,sans-serif" font-size="7" fill="#F57C00">Соотношение</text>
+      <text x="100" y="42" font-family="Arial,sans-serif" font-size="7" fill="#F57C00">полов 1:1</text>
+    </g>
+
+    <!-- Growth formula -->
+    <g transform="translate(305,84)">
+      <rect x="0" y="0" width="150" height="48" rx="4" fill="#FFF3E0" stroke="#FFB74D" stroke-width="0.8"/>
+      <text x="75" y="14" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#E65100">Прирост популяции</text>
+      <text x="75" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#E65100" font-weight="bold">ΔN = (b − d) · N</text>
+      <text x="75" y="44" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#F57C00">b − рождаемость, d − смертность</text>
+    </g>
+  </g>
+
+  <text x="480" y="340" text-anchor="end" font-family="Arial,sans-serif" font-size="9" fill="#F57C00" opacity="0.6">Урок 36</text>
+</svg>

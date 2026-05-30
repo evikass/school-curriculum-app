@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E3F2FD"/><stop offset="100%" stop-color="#BBDEFB"/></linearGradient>
+<linearGradient id="circGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#64B5F6"/><stop offset="100%" stop-color="#1E88E5"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#0D47A1" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#0D47A1" text-anchor="middle">Числовая окружность</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Алгебра 10 класс — Урок 4</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#0D47A1" stroke-width="1" opacity="0.3"/>
+
+<!-- Unit circle -->
+<g transform="translate(200,190)">
+  <!-- Axes -->
+  <line x1="-100" y1="0" x2="100" y2="0" stroke="#666" stroke-width="1"/>
+  <line x1="0" y1="-100" x2="0" y2="100" stroke="#666" stroke-width="1"/>
+  <text x="95" y="-5" font-family="Arial,sans-serif" font-size="8" fill="#666">x</text>
+  <text x="5" y="-90" font-family="Arial,sans-serif" font-size="8" fill="#666">y</text>
+
+  <!-- Circle -->
+  <circle cx="0" cy="0" r="75" fill="url(#circGrad)" opacity="0.15" stroke="#0D47A1" stroke-width="2"/>
+
+  <!-- Quarter marks -->
+  <!-- 0 -->
+  <circle cx="75" cy="0" r="4" fill="#4CAF50"/>
+  <text x="85" y="4" font-family="Arial,sans-serif" font-size="8" fill="#4CAF50" font-weight="bold">A(1;0)</text>
+  <text x="85" y="14" font-family="Arial,sans-serif" font-size="6" fill="#4CAF50">t=0</text>
+
+  <!-- π/2 -->
+  <circle cx="0" cy="-75" r="4" fill="#F44336"/>
+  <text x="8" y="-78" font-family="Arial,sans-serif" font-size="8" fill="#F44336" font-weight="bold">B(0;1)</text>
+  <text x="8" y="-68" font-family="Arial,sans-serif" font-size="6" fill="#F44336">t=π/2</text>
+
+  <!-- π -->
+  <circle cx="-75" cy="0" r="4" fill="#FF9800"/>
+  <text x="-120" y="4" font-family="Arial,sans-serif" font-size="8" fill="#FF9800" font-weight="bold">C(−1;0)</text>
+  <text x="-105" y="14" font-family="Arial,sans-serif" font-size="6" fill="#FF9800">t=π</text>
+
+  <!-- 3π/2 -->
+  <circle cx="0" cy="75" r="4" fill="#9C27B0"/>
+  <text x="8" y="82" font-family="Arial,sans-serif" font-size="8" fill="#9C27B0" font-weight="bold">D(0;−1)</text>
+  <text x="8" y="92" font-family="Arial,sans-serif" font-size="6" fill="#9C27B0">t=3π/2</text>
+
+  <!-- Direction arrow -->
+  <path d="M65,-40 A75,75 0 0,1 40,-65" fill="none" stroke="#4CAF50" stroke-width="2"/>
+  <polygon points="40,-65 35,-55 45,-58" fill="#4CAF50"/>
+  <text x="70" y="-50" font-family="Arial,sans-serif" font-size="6" fill="#4CAF50" font-weight="bold">+t</text>
+
+  <!-- Quarter labels -->
+  <text x="35" y="-35" font-family="Arial,sans-serif" font-size="10" fill="#0D47A1" font-weight="bold">I</text>
+  <text x="-45" y="-35" font-family="Arial,sans-serif" font-size="10" fill="#0D47A1" font-weight="bold">II</text>
+  <text x="-45" y="45" font-family="Arial,sans-serif" font-size="10" fill="#0D47A1" font-weight="bold">III</text>
+  <text x="35" y="45" font-family="Arial,sans-serif" font-size="10" fill="#0D47A1" font-weight="bold">IV</text>
+
+  <!-- Center -->
+  <circle cx="0" cy="0" r="2" fill="#0D47A1"/>
+  <text x="-12" y="-5" font-family="Arial,sans-serif" font-size="7" fill="#0D47A1">O</text>
+</g>
+
+<!-- Radian values panel -->
+<g transform="translate(400,120)">
+  <rect x="-55" y="-50" width="110" height="100" rx="5" fill="white" opacity="0.85" stroke="#1565C0" stroke-width="1"/>
+  <text x="0" y="-34" font-family="Arial,sans-serif" font-size="8" fill="#0D47A1" text-anchor="middle" font-weight="bold">Радианы</text>
+  <line x1="-45" y1="-28" x2="45" y2="-28" stroke="#1565C0" stroke-width="0.5"/>
+  <text x="-35" y="-14" font-family="Arial,sans-serif" font-size="7" fill="#4CAF50">π/6 = 30°</text>
+  <text x="-35" y="0" font-family="Arial,sans-serif" font-size="7" fill="#4CAF50">π/4 = 45°</text>
+  <text x="-35" y="14" font-family="Arial,sans-serif" font-size="7" fill="#4CAF50">π/3 = 60°</text>
+  <text x="-35" y="28" font-family="Arial,sans-serif" font-size="7" fill="#4CAF50">π/2 = 90°</text>
+  <text x="-35" y="42" font-family="Arial,sans-serif" font-size="7" fill="#4CAF50">π = 180°</text>
+</g>
+
+<!-- Key formula -->
+<g transform="translate(400,260)">
+  <rect x="-55" y="-30" width="110" height="60" rx="5" fill="white" opacity="0.85" stroke="#1565C0" stroke-width="1"/>
+  <text x="0" y="-16" font-family="Arial,sans-serif" font-size="7" fill="#0D47A1" text-anchor="middle" font-weight="bold">Перевод</text>
+  <text x="0" y="0" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">α° = α · π/180</text>
+  <text x="0" y="12" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">t рад = t · 180/π</text>
+  <text x="0" y="24" font-family="Arial,sans-serif" font-size="6" fill="#F44336" text-anchor="middle" font-weight="bold">Полный оборот = 2π</text>
+</g>
+
+<rect x="10" y="320" width="480" height="22" rx="4" fill="#0D47A1" opacity="0.85"/>
+<text x="250" y="335" font-family="Arial,sans-serif" font-size="9" text-anchor="middle" fill="white" font-weight="bold">M(t) = M(t + 2πk) — периодичность числовой окружности</text>
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="500" y2="350" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="100%" stop-color="#BBDEFB"/>
+    </linearGradient>
+    <linearGradient id="pl3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#90CAF9" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#42A5F5" stop-opacity="0.2"/>
+    </linearGradient>
+    <marker id="arrB" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1565C0"/>
+    </marker>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg3)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#0D47A1" text-anchor="middle" font-family="serif">Параллельные прямые в пространстве</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="sans-serif">Геометрия 10 класс — Урок 3</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#1E88E5" stroke-width="1" opacity="0.3"/>
+  <!-- Definition Panel -->
+  <rect x="12" y="58" width="235" height="128" rx="6" fill="white" opacity="0.9" stroke="#1E88E5" stroke-width="1.2"/>
+  <text x="130" y="74" font-size="10" font-weight="bold" fill="#1565C0" text-anchor="middle" font-family="serif">Определение</text>
+  <text x="22" y="89" font-size="8" fill="#555" font-family="sans-serif">Две прямые в пространстве</text>
+  <text x="22" y="101" font-size="8" fill="#555" font-family="sans-serif">называются параллельными,</text>
+  <text x="22" y="113" font-size="8" fill="#555" font-family="sans-serif">если они лежат в одной</text>
+  <text x="22" y="125" font-size="8" fill="#555" font-family="sans-serif">плоскости и не пересекаются.</text>
+  <!-- 3D parallel lines visual -->
+  <path d="M30,175 L55,150 L225,150 L200,175 Z" fill="url(#pl3)" stroke="#1E88E5" stroke-width="1"/>
+  <text x="160" y="172" font-size="8" fill="#1E88E5" font-style="italic">alpha</text>
+  <line x1="50" y1="168" x2="190" y2="155" stroke="#1565C0" stroke-width="2" marker-end="url(#arrB)"/>
+  <line x1="55" y1="158" x2="195" y2="145" stroke="#E53935" stroke-width="2" marker-end="url(#arrB)"/>
+  <text x="135" y="153" font-size="9" fill="#1565C0" font-style="italic">a</text>
+  <text x="140" y="143" font-size="9" fill="#E53935" font-style="italic">b</text>
+  <text x="120" y="184" font-size="8" fill="#1565C0" font-weight="bold" font-family="serif">a || b</text>
+  <!-- Theorem Panel -->
+  <rect x="255" y="58" width="233" height="128" rx="6" fill="white" opacity="0.9" stroke="#1E88E5" stroke-width="1.2"/>
+  <text x="372" y="74" font-size="10" font-weight="bold" fill="#1565C0" text-anchor="middle" font-family="serif">Теорема</text>
+  <text x="265" y="89" font-size="7.5" fill="#555" font-family="sans-serif">Через любую точку пространства,</text>
+  <text x="265" y="101" font-size="7.5" fill="#555" font-family="sans-serif">не лежащую на данной прямой,</text>
+  <text x="265" y="113" font-size="7.5" fill="#555" font-family="sans-serif">проходит прямая, параллельная</text>
+  <text x="265" y="125" font-size="7.5" fill="#555" font-family="sans-serif">данной, и притом только одна.</text>
+  <!-- Visual: point M and parallel line through it -->
+  <path d="M280,175 L300,148 L470,148 L450,175 Z" fill="url(#pl3)" stroke="#1E88E5" stroke-width="1"/>
+  <line x1="295" y1="168" x2="440" y2="155" stroke="#1565C0" stroke-width="1.8" marker-end="url(#arrB)"/>
+  <text x="375" y="153" font-size="8" fill="#1565C0" font-style="italic">a</text>
+  <circle cx="340" cy="145" r="3" fill="#E53935"/>
+  <text x="347" y="142" font-size="8" fill="#E53935" font-style="italic">M</text>
+  <line x1="330" y1="152" x2="445" y2="142" stroke="#E53935" stroke-width="1.8" stroke-dasharray="6,3"/>
+  <text x="440" y="138" font-size="8" fill="#E53935" font-style="italic">b||a</text>
+  <text x="372" y="184" font-size="7" fill="#1565C0" font-family="serif">M not in a =&gt; ! b : b || a</text>
+  <!-- Transitivity Panel -->
+  <rect x="12" y="196" width="240" height="112" rx="6" fill="white" opacity="0.9" stroke="#1E88E5" stroke-width="1.2"/>
+  <text x="132" y="212" font-size="10" font-weight="bold" fill="#1565C0" text-anchor="middle" font-family="serif">Транзитивность</text>
+  <path d="M30,295 L50,265 L235,265 L215,295 Z" fill="url(#pl3)" stroke="#1E88E5" stroke-width="1"/>
+  <line x1="45" y1="285" x2="200" y2="272" stroke="#1565C0" stroke-width="2" marker-end="url(#arrB)"/>
+  <line x1="50" y1="278" x2="205" y2="265" stroke="#E53935" stroke-width="2"/>
+  <line x1="55" y1="271" x2="210" y2="258" stroke="#4CAF50" stroke-width="2"/>
+  <text x="130" y="270" font-size="8" fill="#1565C0" font-style="italic">a</text>
+  <text x="135" y="263" font-size="8" fill="#E53935" font-style="italic">b</text>
+  <text x="140" y="256" font-size="8" fill="#4CAF50" font-style="italic">c</text>
+  <text x="132" y="302" font-size="9" fill="#1565C0" font-weight="bold" font-family="serif">a||b, b||c =&gt; a||c</text>
+  <!-- Note Panel -->
+  <rect x="260" y="196" width="228" height="112" rx="6" fill="white" opacity="0.88" stroke="#1E88E5" stroke-width="1"/>
+  <text x="374" y="212" font-size="9" font-weight="bold" fill="#1565C0" text-anchor="middle" font-family="serif">Важно!</text>
+  <text x="270" y="228" font-size="8" fill="#555" font-family="sans-serif">В пространстве существуют</text>
+  <text x="270" y="240" font-size="8" fill="#555" font-family="sans-serif">прямые, которые НЕ лежат</text>
+  <text x="270" y="252" font-size="8" fill="#555" font-family="sans-serif">в одной плоскости:</text>
+  <!-- 3D cube showing parallel and skew lines -->
+  <rect x="300" y="258" width="45" height="42" rx="1" fill="none" stroke="#1565C0" stroke-width="1"/>
+  <line x1="345" y1="258" x2="365" y2="244" stroke="#1565C0" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="345" y1="300" x2="365" y2="286" stroke="#1565C0" stroke-width="1"/>
+  <line x1="300" y1="258" x2="320" y2="244" stroke="#1565C0" stroke-width="1"/>
+  <line x1="320" y1="244" x2="365" y2="244" stroke="#1565C0" stroke-width="1"/>
+  <line x1="320" y1="286" x2="365" y2="286" stroke="#1565C0" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="300" y1="300" x2="320" y2="286" stroke="#1565C0" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="300" y1="258" x2="300" y2="300" stroke="#E53935" stroke-width="1.8"/>
+  <line x1="365" y1="244" x2="365" y2="286" stroke="#E53935" stroke-width="1.8"/>
+  <text x="395" y="270" font-size="7" fill="#E53935" font-family="sans-serif">Скрещивающиеся!</text>
+  <text x="395" y="282" font-size="7" fill="#555" font-family="sans-serif">(не ||, не пересек.)</text>
+  <!-- Bottom bar -->
+  <rect x="12" y="316" width="476" height="26" rx="4" fill="#1E88E5" opacity="0.85"/>
+  <text x="250" y="333" font-size="10" fill="white" text-anchor="middle" font-weight="bold" font-family="serif">a || b — лежат в одной плоскости и не пересекаются; транзитивность: a||b, b||c =&gt; a||c</text>
+</svg>

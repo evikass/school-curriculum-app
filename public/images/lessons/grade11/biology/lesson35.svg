@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+<linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#42A5F5"/><stop offset="100%" stop-color="#1565C0"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="25" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1B5E20" text-anchor="middle">Рациональное природопользование</text>
+
+<!-- Solar panels -->
+<rect x="15" y="42" width="110" height="95" rx="6" fill="white" opacity="0.65" stroke="#2E7D32" stroke-width="1"/>
+<polygon points="30,90 55,70 80,70 105,90" fill="url(#panel)"/>
+<line x1="42" y1="90" x2="42" y2="70" stroke="#90CAF9" stroke-width="0.7"/>
+<line x1="55" y1="90" x2="55" y2="70" stroke="#90CAF9" stroke-width="0.7"/>
+<line x1="68" y1="90" x2="68" y2="70" stroke="#90CAF9" stroke-width="0.7"/>
+<line x1="81" y1="90" x2="81" y2="70" stroke="#90CAF9" stroke-width="0.7"/>
+<line x1="93" y1="90" x2="93" y2="70" stroke="#90CAF9" stroke-width="0.7"/>
+<line x1="30" y1="78" x2="105" y2="78" stroke="#90CAF9" stroke-width="0.7"/>
+<line x1="30" y1="85" x2="105" y2="85" stroke="#90CAF9" stroke-width="0.7"/>
+<!-- Sun -->
+<circle cx="67" cy="55" r="8" fill="#FFD54F"/>
+<line x1="67" y1="44" x2="67" y2="40" stroke="#FF8F00" stroke-width="1.2"/>
+<line x1="57" y1="48" x2="54" y2="45" stroke="#FF8F00" stroke-width="1.2"/>
+<line x1="77" y1="48" x2="80" y2="45" stroke="#FF8F00" stroke-width="1.2"/>
+<text x="67" y="107" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20" text-anchor="middle">Солнечные</text>
+<text x="67" y="117" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20" text-anchor="middle">панели</text>
+<text x="67" y="130" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">Возобновляемая</text>
+<text x="67" y="139" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">энергия</text>
+
+<!-- Water treatment plant -->
+<rect x="135" y="42" width="110" height="95" rx="6" fill="white" opacity="0.65" stroke="#2E7D32" stroke-width="1"/>
+<!-- Tank -->
+<rect x="160" y="65" width="50" height="35" rx="4" fill="#B3E5FC" stroke="#0288D1" stroke-width="1.5"/>
+<rect x="158" y="60" width="54" height="8" rx="2" fill="#78909C"/>
+<!-- Pipes -->
+<line x1="150" y1="80" x2="160" y2="80" stroke="#546E7A" stroke-width="3"/>
+<line x1="210" y1="80" x2="220" y2="80" stroke="#546E7A" stroke-width="3"/>
+<!-- Water drops -->
+<path d="M152 75 Q154 70 156 75 Q154 78 152 75" fill="#29B6F6"/>
+<path d="M216 75 Q218 70 220 75 Q218 78 216 75" fill="#4FC3F7"/>
+<!-- Clean water arrow -->
+<text x="165" y="85" font-family="Arial,sans-serif" font-size="6" fill="#01579B" text-anchor="middle">→</text>
+<text x="190" y="55" font-family="Arial,sans-serif" font-size="5.5" fill="#78909C">очистка</text>
+<text x="190" y="107" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20" text-anchor="middle">Очистные</text>
+<text x="190" y="117" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20" text-anchor="middle">сооружения</text>
+<text x="190" y="130" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">Биологическая</text>
+<text x="190" y="139" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">очистка стоков</text>
+
+<!-- Recycling symbol -->
+<rect x="255" y="42" width="110" height="95" rx="6" fill="white" opacity="0.65" stroke="#2E7D32" stroke-width="1"/>
+<path d="M310 70 L320 80 L314 68 Z" fill="#2E7D32"/>
+<path d="M320 80 Q328 92 316 100" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<path d="M316 100 L306 90 L312 104 Z" fill="#2E7D32"/>
+<path d="M306 90 Q296 102 290 88" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<path d="M290 88 L300 78 L294 92 Z" fill="#2E7D32"/>
+<path d="M300 78 Q296 66 310 70" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="310" y="107" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20" text-anchor="middle">Рециклинг</text>
+<text x="310" y="117" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20" text-anchor="middle">(переработка)</text>
+<text x="310" y="130" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">Вторичное использ.</text>
+<text x="310" y="139" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">материалов</text>
+
+<!-- Wind turbines -->
+<rect x="375" y="42" width="110" height="95" rx="6" fill="white" opacity="0.65" stroke="#2E7D32" stroke-width="1"/>
+<!-- Tower -->
+<line x1="430" y1="100" x2="430" y2="60" stroke="#78909C" stroke-width="3"/>
+<!-- Blades -->
+<line x1="430" y1="60" x2="430" y2="48" stroke="#B0BEC5" stroke-width="2.5"/>
+<line x1="430" y1="60" x2="418" y2="68" stroke="#B0BEC5" stroke-width="2.5"/>
+<line x1="430" y1="60" x2="442" y2="68" stroke="#B0BEC5" stroke-width="2.5"/>
+<!-- Second smaller turbine -->
+<line x1="455" y1="100" x2="455" y2="72" stroke="#90A4AE" stroke-width="2"/>
+<line x1="455" y1="72" x2="455" y2="63" stroke="#CFD8DC" stroke-width="1.8"/>
+<line x1="455" y1="72" x2="446" y2="78" stroke="#CFD8DC" stroke-width="1.8"/>
+<line x1="455" y1="72" x2="464" y2="78" stroke="#CFD8DC" stroke-width="1.8"/>
+<!-- Wind lines -->
+<path d="M395 55 Q405 52 415 55" fill="none" stroke="#90CAF9" stroke-width="1"/>
+<path d="M398 62 Q408 59 418 62" fill="none" stroke="#90CAF9" stroke-width="1"/>
+<text x="430" y="107" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20" text-anchor="middle">Ветроэнергетика</text>
+<text x="430" y="130" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">Экологически</text>
+<text x="430" y="139" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">чистая энергия</text>
+
+<!-- Principles section -->
+<rect x="15" y="148" width="470" height="95" rx="6" fill="white" opacity="0.55" stroke="#4CAF50" stroke-width="1.2"/>
+<text x="250" y="165" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#1B5E20" text-anchor="middle">Принципы рационального природопользования</text>
+<text x="25" y="180" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32">1. Научно обоснованное использование ресурсов (не превышать пределы воспроизводства)</text>
+<text x="25" y="193" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32">2. Комплексное использование сырья — безотходные и малоотходные технологии</text>
+<text x="25" y="206" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32">3. Развитие возобновляемых источников энергии (солнце, ветер, вода, геотермия)</text>
+<text x="25" y="219" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32">4. Очистка и повторное использование воды, переработка отходов (рециклинг)</text>
+<text x="25" y="232" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32">5. Мониторинг окружающей среды и экологическая экспертиза проектов</text>
+
+<!-- Sustainable development goals -->
+<rect x="15" y="252" width="470" height="72" rx="5" fill="#2E7D32" opacity="0.1" stroke="#388E3C" stroke-width="1"/>
+<text x="250" y="268" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Устойчивое развитие (sustainable development)</text>
+<text x="25" y="283" font-family="Arial,sans-serif" font-size="7.5" fill="#2E7D32">• Удовлетворение потребностей настоящего без ущерба для будущих поколений</text>
+<text x="25" y="295" font-family="Arial,sans-serif" font-size="7.5" fill="#2E7D32">• Баланс: экономика ↔ экология ↔ социальная сфера</text>
+<text x="25" y="307" font-family="Arial,sans-serif" font-size="7.5" fill="#2E7D32">• Переход к «зелёной» экономике, Киотский протокол, Парижское соглашение (2015)</text>
+<text x="250" y="320" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#1B5E20" text-anchor="middle">«Природа не принадлежит нам, мы принадлежим природе»</text>
+<text x="250" y="342" font-family="Arial,sans-serif" font-size="7" fill="#66BB6A" text-anchor="middle">Урок 35 · Рациональное природопользование</text>
+</svg>

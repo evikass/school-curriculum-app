@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0F2F1"/>
+      <stop offset="100%" stop-color="#B2DFDB"/>
+    </linearGradient>
+    <marker id="ah10" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#00695C"/>
+    </marker>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#00695C" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#004D40" text-anchor="middle" font-family="Arial">Теорема синусов</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="Arial">Геометрия 9 класс — Урок 10</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#00897B" stroke-width="1" opacity="0.3"/>
+
+  <!-- Triangle with circumscribed circle panel -->
+  <rect x="15" y="58" width="240" height="195" rx="6" fill="white" opacity="0.9" stroke="#00897B" stroke-width="1"/>
+  <text x="135" y="74" font-size="10" font-weight="bold" fill="#00695C" text-anchor="middle" font-family="Arial">Треугольник и описанная окружность</text>
+  <!-- Circumscribed circle -->
+  <circle cx="135" cy="170" r="65" fill="none" stroke="#00897B" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <!-- Center of circumcircle -->
+  <circle cx="135" cy="150" r="2.5" fill="#00695C"/>
+  <text x="140" y="148" font-size="7" fill="#00695C" font-family="Arial">O</text>
+  <!-- Radius -->
+  <line x1="135" y1="150" x2="200" y2="150" stroke="#E65100" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="168" y="145" font-size="8" fill="#E65100" font-family="Arial">R</text>
+  <!-- Triangle -->
+  <polygon points="135,105 70,205 200,205" fill="none" stroke="#00695C" stroke-width="2.5"/>
+  <!-- Vertices -->
+  <text x="132" y="100" font-size="9" fill="#00695C" font-family="Arial" font-weight="bold">A</text>
+  <text x="55" y="210" font-size="9" fill="#00695C" font-family="Arial" font-weight="bold">B</text>
+  <text x="205" y="210" font-size="9" fill="#00695C" font-family="Arial" font-weight="bold">C</text>
+  <!-- Side labels -->
+  <text x="92" y="155" font-size="8" fill="#C62828" font-family="Arial" font-style="italic">a</text>
+  <text x="170" y="155" font-size="8" fill="#1E88E5" font-family="Arial" font-style="italic">b</text>
+  <text x="135" y="222" font-size="8" fill="#4CAF50" font-family="Arial" font-style="italic">c</text>
+  <!-- Angle arcs -->
+  <path d="M 143 112 A 12 12 0 0 1 135 117" fill="none" stroke="#E91E63" stroke-width="1.2"/>
+  <text x="148" y="118" font-size="7" fill="#E91E63" font-family="Arial">A</text>
+  <path d="M 78 198 A 12 12 0 0 0 82 205" fill="none" stroke="#E91E63" stroke-width="1.2"/>
+  <text x="83" y="195" font-size="7" fill="#E91E63" font-family="Arial">B</text>
+  <path d="M 192 198 A 12 12 0 0 1 192 205" fill="none" stroke="#E91E63" stroke-width="1.2"/>
+  <text x="185" y="195" font-size="7" fill="#E91E63" font-family="Arial">C</text>
+
+  <!-- Formula panel -->
+  <rect x="265" y="58" width="220" height="110" rx="6" fill="white" opacity="0.9" stroke="#00897B" stroke-width="1"/>
+  <text x="375" y="74" font-size="10" font-weight="bold" fill="#00695C" text-anchor="middle" font-family="Arial">Теорема синусов</text>
+  <!-- Main formula -->
+  <rect x="275" y="82" width="200" height="35" rx="4" fill="#E0F2F1" stroke="#00897B" stroke-width="0.8"/>
+  <text x="375" y="97" font-size="10" fill="#004D40" text-anchor="middle" font-family="Arial" font-weight="bold">a/sinA = b/sinB = c/sinC</text>
+  <text x="375" y="112" font-size="9" fill="#00695C" text-anchor="middle" font-family="Arial" font-weight="bold">= 2R</text>
+  <!-- Explanation -->
+  <text x="375" y="130" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">Стороны треугольника пропорциональны</text>
+  <text x="375" y="142" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">синусам противолежащих углов</text>
+  <text x="375" y="158" font-size="8" fill="#E65100" text-anchor="middle" font-family="Arial">R — радиус описанной окружности</text>
+
+  <!-- Example panel -->
+  <rect x="265" y="175" width="220" height="78" rx="6" fill="white" opacity="0.9" stroke="#00897B" stroke-width="1"/>
+  <text x="375" y="191" font-size="9" font-weight="bold" fill="#00695C" text-anchor="middle" font-family="Arial">Пример</text>
+  <text x="375" y="206" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">Дано: a=6, A=30°, B=45°</text>
+  <text x="375" y="220" font-size="8" fill="#00695C" text-anchor="middle" font-family="Arial">b = a * sinB / sinA</text>
+  <text x="375" y="234" font-size="8" fill="#00695C" text-anchor="middle" font-family="Arial">b = 6 * sin45° / sin30°</text>
+  <text x="375" y="248" font-size="8.5" fill="#004D40" text-anchor="middle" font-family="Arial" font-weight="bold">b = 6 * (V2/2) / (1/2) = 6V2</text>
+
+  <!-- Application panel -->
+  <rect x="15" y="260" width="240" height="52" rx="6" fill="white" opacity="0.9" stroke="#00897B" stroke-width="1"/>
+  <text x="135" y="276" font-size="9" font-weight="bold" fill="#00695C" text-anchor="middle" font-family="Arial">Применение</text>
+  <text x="135" y="290" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">Нахождение стороны по 2 углам и стороне</text>
+  <text x="135" y="302" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">Нахождение угла по 2 сторонам и углу</text>
+
+  <!-- Connection to R panel -->
+  <rect x="265" y="260" width="220" height="52" rx="6" fill="white" opacity="0.9" stroke="#00897B" stroke-width="1"/>
+  <text x="375" y="276" font-size="9" font-weight="bold" fill="#00695C" text-anchor="middle" font-family="Arial">Связь с радиусом R</text>
+  <text x="375" y="290" font-size="8.5" fill="#E65100" text-anchor="middle" font-family="Arial" font-weight="bold">R = a / (2 sinA)</text>
+  <text x="375" y="302" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">Радиус описанной окружности</text>
+
+  <!-- Bottom bar -->
+  <rect x="15" y="318" width="470" height="26" rx="4" fill="#00897B" opacity="0.85"/>
+  <text x="250" y="335" font-size="10" fill="white" text-anchor="middle" font-weight="bold" font-family="Arial">a/sinA = b/sinB = c/sinC = 2R — Теорема синусов</text>
+</svg>

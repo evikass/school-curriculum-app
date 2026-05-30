@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8EAF6"/><stop offset="100%" stop-color="#C5CAE9"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#283593" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#283593" text-anchor="middle">Свойства функций</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Алгебра 10 класс — Урок 2</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#283593" stroke-width="1" opacity="0.3"/>
+
+<!-- Monotonicity section -->
+<g transform="translate(85,130)">
+  <rect x="-70" y="-55" width="140" height="110" rx="6" fill="white" opacity="0.85" stroke="#3F51B5" stroke-width="1"/>
+  <text x="0" y="-38" font-family="Arial,sans-serif" font-size="9" fill="#283593" text-anchor="middle" font-weight="bold">Монотонность</text>
+
+  <!-- Increasing graph -->
+  <g transform="translate(-30,-10)">
+    <line x1="-20" y1="25" x2="20" y2="-20" stroke="#4CAF50" stroke-width="2"/>
+    <polygon points="18,-22 24,-18 16,-16" fill="#4CAF50"/>
+    <text x="0" y="35" font-family="Arial,sans-serif" font-size="6" fill="#4CAF50" text-anchor="middle" font-weight="bold">↑ Возрастает</text>
+  </g>
+
+  <!-- Decreasing graph -->
+  <g transform="translate(30,-10)">
+    <line x1="-20" y1="-20" x2="20" y2="25" stroke="#F44336" stroke-width="2"/>
+    <polygon points="18,27 24,22 16,22" fill="#F44336"/>
+    <text x="0" y="35" font-family="Arial,sans-serif" font-size="6" fill="#F44336" text-anchor="middle" font-weight="bold">↓ Убывает</text>
+  </g>
+</g>
+
+<!-- Boundedness section -->
+<g transform="translate(250,130)">
+  <rect x="-70" y="-55" width="140" height="110" rx="6" fill="white" opacity="0.85" stroke="#3F51B5" stroke-width="1"/>
+  <text x="0" y="-38" font-family="Arial,sans-serif" font-size="9" fill="#283593" text-anchor="middle" font-weight="bold">Ограниченность</text>
+
+  <!-- Sinusoid bounded -->
+  <g transform="translate(0,-5)">
+    <line x1="-3" y1="-25" x2="-3" y2="25" stroke="#666" stroke-width="0.8"/>
+    <path d="M-3,-20 Q10,-20 20,0 Q30,20 43,0 Q53,-20 63,-15" fill="none" stroke="#FF9800" stroke-width="1.8"/>
+    <!-- Bounds -->
+    <line x1="-8" y1="-20" x2="63" y2="-20" stroke="#F44336" stroke-width="0.8" stroke-dasharray="3,2"/>
+    <line x1="-8" y1="20" x2="63" y2="20" stroke="#4CAF50" stroke-width="0.8" stroke-dasharray="3,2"/>
+    <text x="55" y="-23" font-family="Arial,sans-serif" font-size="6" fill="#F44336">M (сверху)</text>
+    <text x="55" y="23" font-family="Arial,sans-serif" font-size="6" fill="#4CAF50">m (снизу)</text>
+    <text x="30" y="38" font-family="Arial,sans-serif" font-size="6" fill="#FF9800" text-anchor="middle" font-weight="bold">|f(x)| ≤ M</text>
+  </g>
+</g>
+
+<!-- Even/Odd section -->
+<g transform="translate(415,130)">
+  <rect x="-65" y="-55" width="130" height="110" rx="6" fill="white" opacity="0.85" stroke="#3F51B5" stroke-width="1"/>
+  <text x="0" y="-38" font-family="Arial,sans-serif" font-size="9" fill="#283593" text-anchor="middle" font-weight="bold">Чётность</text>
+
+  <!-- Even: symmetric about Oy -->
+  <g transform="translate(0,-10)">
+    <line x1="0" y1="-25" x2="0" y2="25" stroke="#9C27B0" stroke-width="1" stroke-dasharray="2,2"/>
+    <path d="M-25,20 Q-15,0 -5,-15 Q0,-20 5,-15 Q15,0 25,20" fill="none" stroke="#2196F3" stroke-width="1.5"/>
+    <text x="0" y="32" font-family="Arial,sans-serif" font-size="6" fill="#2196F3" text-anchor="middle" font-weight="bold">Чётная: f(−x)=f(x)</text>
+    <text x="0" y="42" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Ось симметрии: Oy</text>
+  </g>
+</g>
+
+<!-- Odd function mini-diagram -->
+<g transform="translate(85,255)">
+  <rect x="-60" y="-30" width="120" height="60" rx="5" fill="white" opacity="0.85" stroke="#3F51B5" stroke-width="1"/>
+  <text x="0" y="-18" font-family="Arial,sans-serif" font-size="7" fill="#283593" text-anchor="middle" font-weight="bold">Нечётная</text>
+  <line x1="0" y1="-10" x2="0" y2="15" stroke="#666" stroke-width="0.8"/>
+  <line x1="-30" y1="5" x2="30" y2="5" stroke="#666" stroke-width="0.8"/>
+  <path d="M-25,15 Q-10,5 0,0 Q10,-5 25,-15" fill="none" stroke="#F44336" stroke-width="1.5"/>
+  <circle cx="0" cy="0" r="2" fill="#283593"/>
+  <text x="0" y="25" font-family="Arial,sans-serif" font-size="5" fill="#F44336" text-anchor="middle" font-weight="bold">f(−x) = −f(x)</text>
+</g>
+
+<!-- Key formulas -->
+<g transform="translate(250,255)">
+  <rect x="-95" y="-30" width="190" height="60" rx="5" fill="white" opacity="0.85" stroke="#3F51B5" stroke-width="1"/>
+  <text x="0" y="-16" font-family="Arial,sans-serif" font-size="7" fill="#283593" text-anchor="middle" font-weight="bold">Ключевые формулы</text>
+  <text x="0" y="0" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">x₁ &lt; x₂ → f(x₁) &lt; f(x₂) — возрастает</text>
+  <text x="0" y="12" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">f(x) ≤ M — ограничена сверху</text>
+  <text x="0" y="24" font-family="Arial,sans-serif" font-size="7" fill="#9C27B0" text-anchor="middle" font-weight="bold">D(f) симметрична → можно проверять чётность</text>
+</g>
+
+<!-- Examples -->
+<g transform="translate(415,255)">
+  <rect x="-60" y="-30" width="120" height="60" rx="5" fill="white" opacity="0.85" stroke="#3F51B5" stroke-width="1"/>
+  <text x="0" y="-18" font-family="Arial,sans-serif" font-size="7" fill="#283593" text-anchor="middle" font-weight="bold">Примеры</text>
+  <text x="0" y="-5" font-family="Arial,sans-serif" font-size="6" fill="#4CAF50" text-anchor="middle">x² — чётная, x ≥ 0 огр.</text>
+  <text x="0" y="7" font-family="Arial,sans-serif" font-size="6" fill="#F44336" text-anchor="middle">x³ — нечётная, не огр.</text>
+  <text x="0" y="19" font-family="Arial,sans-serif" font-size="6" fill="#FF9800" text-anchor="middle">sin x — нечётная, огр.</text>
+  <text x="0" y="28" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">x²+x — общего вида</text>
+</g>
+
+<rect x="10" y="320" width="480" height="22" rx="4" fill="#283593" opacity="0.85"/>
+<text x="250" y="335" font-family="Arial,sans-serif" font-size="9" text-anchor="middle" fill="white" font-weight="bold">Монотонность + Ограниченность + Чётность = Исследование функции</text>
+</svg>

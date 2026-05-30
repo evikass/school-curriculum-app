@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg57" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a148c"/>
+      <stop offset="100%" stop-color="#1a0a2a"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg57)"/>
+  <rect x="2" y="2" width="496" height="346" fill="none" stroke="#ab47bc" stroke-width="2" rx="6"/>
+  <!-- Title bar -->
+  <rect x="4" y="4" width="492" height="36" fill="#6a1b9a" rx="4"/>
+  <text x="250" y="27" text-anchor="middle" fill="#f3e5f5" font-size="11" font-weight="bold" font-family="Arial">Популяция как природная система — Биология 10 класс — Урок 57</text>
+
+  <!-- Population characteristics - left side -->
+  <rect x="8" y="48" width="170" height="105" fill="#1a0a2a" stroke="#9c27b0" stroke-width="1" rx="4"/>
+  <text x="93" y="62" text-anchor="middle" fill="#ce93d8" font-size="7.5" font-weight="bold" font-family="Arial">Характеристики популяции</text>
+  
+  <circle cx="20" cy="76" r="3" fill="#ab47bc"/>
+  <text x="28" y="79" fill="#e1bee7" font-size="6" font-family="Arial">Численность — число особей</text>
+  <circle cx="20" cy="90" r="3" fill="#ab47bc"/>
+  <text x="28" y="93" fill="#e1bee7" font-size="6" font-family="Arial">Плотность — особей/ед. площади</text>
+  <circle cx="20" cy="104" r="3" fill="#ab47bc"/>
+  <text x="28" y="107" fill="#e1bee7" font-size="6" font-family="Arial">Рождаемость — число потомков</text>
+  <circle cx="20" cy="118" r="3" fill="#ab47bc"/>
+  <text x="28" y="121" fill="#e1bee7" font-size="6" font-family="Arial">Смертность — число погибших</text>
+  <circle cx="20" cy="132" r="3" fill="#ab47bc"/>
+  <text x="28" y="135" fill="#e1bee7" font-size="6" font-family="Arial">Прирост = рожд. − смертность</text>
+  <circle cx="20" cy="146" r="3" fill="#ab47bc"/>
+  <text x="28" y="149" fill="#e1bee7" font-size="6" font-family="Arial">Половая и возрастная структура</text>
+
+  <!-- Age structure pyramid - right top -->
+  <rect x="184" y="48" width="145" height="105" fill="#1a0a2a" stroke="#7b1fa2" stroke-width="1" rx="4"/>
+  <text x="256" y="62" text-anchor="middle" fill="#ce93d8" font-size="7" font-weight="bold" font-family="Arial">Возрастная структура</text>
+  
+  <!-- Growing population pyramid -->
+  <text x="222" y="76" text-anchor="middle" fill="#a5d6a7" font-size="5" font-family="Arial">Растущая</text>
+  <path d="M206,80 L222,80 L218,95 L210,95 Z" fill="#66bb6a" opacity="0.6"/>
+  <path d="M210,95 L218,95 L216,108 L212,108 Z" fill="#ffeb3b" opacity="0.5"/>
+  <path d="M212,108 L216,108 L215,118 L213,118 Z" fill="#ef5350" opacity="0.5"/>
+  <text x="215" y="124" text-anchor="middle" fill="#a5d6a7" font-size="4" font-family="Arial">Молодые</text>
+  
+  <!-- Stable -->
+  <text x="256" y="76" text-anchor="middle" fill="#81d4fa" font-size="5" font-family="Arial">Стабильная</text>
+  <path d="M245,80 L267,80 L264,95 L248,95 Z" fill="#66bb6a" opacity="0.5"/>
+  <path d="M248,95 L264,95 L262,108 L250,108 Z" fill="#ffeb3b" opacity="0.5"/>
+  <path d="M250,108 L262,108 L260,118 L252,118 Z" fill="#ef5350" opacity="0.5"/>
+  
+  <!-- Declining -->
+  <text x="295" y="76" text-anchor="middle" fill="#ef9a9a" font-size="5" font-family="Arial">Убывающая</text>
+  <path d="M288,80 L302,80 L300,95 L290,95 Z" fill="#66bb6a" opacity="0.4"/>
+  <path d="M286,95 L304,95 L300,108 L290,108 Z" fill="#ffeb3b" opacity="0.5"/>
+  <path d="M284,108 L306,108 L300,118 L290,118 Z" fill="#ef5350" opacity="0.5"/>
+  
+  <!-- Age labels -->
+  <text x="260" y="132" text-anchor="middle" fill="#a5d6a7" font-size="4" font-family="Arial">▽ Молодые</text>
+  <text x="260" y="139" text-anchor="middle" fill="#fff176" font-size="4" font-family="Arial">□ Репродуктивные</text>
+  <text x="260" y="146" text-anchor="middle" fill="#ef9a9a" font-size="4" font-family="Arial">△ Старые</text>
+
+  <!-- Survival curves -->
+  <rect x="334" y="48" width="158" height="105" fill="#1a0a2a" stroke="#7b1fa2" stroke-width="1" rx="4"/>
+  <text x="413" y="62" text-anchor="middle" fill="#ce93d8" font-size="7" font-weight="bold" font-family="Arial">Кривые выживания</text>
+  
+  <!-- Axes -->
+  <line x1="360" y1="145" x2="480" y2="145" stroke="#7b1fa2" stroke-width="0.8"/>
+  <line x1="360" y1="145" x2="360" y2="70" stroke="#7b1fa2" stroke-width="0.8"/>
+  <text x="420" y="152" text-anchor="middle" fill="#ba68c8" font-size="4.5" font-family="Arial">Возраст →</text>
+  <text x="348" y="110" text-anchor="middle" fill="#ba68c8" font-size="4.5" font-family="Arial" transform="rotate(-90,348,110)">Выживаемость</text>
+  
+  <!-- Type I - convex (humans) -->
+  <path d="M360,75 Q400,76 440,78 Q465,80 475,100" stroke="#4caf50" stroke-width="1.5" fill="none"/>
+  <text x="475" y="95" fill="#81c784" font-size="5" font-family="Arial">I</text>
+  <text x="475" y="101" fill="#a5d6a7" font-size="4" font-family="Arial">Человек</text>
+  
+  <!-- Type II - diagonal (birds) -->
+  <path d="M360,75 L475,135" stroke="#ffeb3b" stroke-width="1.5" fill="none"/>
+  <text x="475" y="130" fill="#fff176" font-size="5" font-family="Arial">II</text>
+  <text x="475" y="136" fill="#fff9c4" font-size="4" font-family="Arial">Птицы</text>
+  
+  <!-- Type III - concave (fish, plants) -->
+  <path d="M360,75 Q365,120 375,135 Q400,143 475,145" stroke="#ef5350" stroke-width="1.5" fill="none"/>
+  <text x="405" y="138" fill="#ef9a9a" font-size="5" font-family="Arial">III</text>
+  <text x="405" y="144" fill="#ffcdd2" font-size="4" font-family="Arial">Рыбы, растения</text>
+
+  <!-- J-curve (exponential) -->
+  <rect x="8" y="160" width="238" height="110" fill="#0a0a1a" stroke="#42a5f5" stroke-width="1" rx="4"/>
+  <text x="127" y="175" text-anchor="middle" fill="#90caf9" font-size="7.5" font-weight="bold" font-family="Arial">J-образная кривая (экспоненциальная)</text>
+  
+  <!-- Axes -->
+  <line x1="40" y1="258" x2="230" y2="258" stroke="#64b5f6" stroke-width="1"/>
+  <line x1="40" y1="258" x2="40" y2="185" stroke="#64b5f6" stroke-width="1"/>
+  <text x="135" y="267" text-anchor="middle" fill="#90caf9" font-size="5" font-family="Arial">Время</text>
+  <text x="30" y="222" text-anchor="middle" fill="#90caf9" font-size="5" font-family="Arial" transform="rotate(-90,30,222)">N (числ.)</text>
+  
+  <!-- J-curve -->
+  <path d="M45,255 Q80,254 110,252 Q140,248 160,240 Q180,225 195,200 Q210,185 225,175" stroke="#42a5f5" stroke-width="2" fill="none"/>
+  
+  <text x="127" y="198" text-anchor="middle" fill="#64b5f6" font-size="5.5" font-family="Arial">Неограниченный рост</text>
+  <text x="127" y="208" text-anchor="middle" fill="#64b5f6" font-size="5" font-family="Arial">Без ограничивающих факторов</text>
+  <text x="127" y="220" text-anchor="middle" fill="#90caf9" font-size="5" font-family="Arial">Пример: бактерии в питательной среде</text>
+  
+  <!-- Dots representing growing population -->
+  <circle cx="60" cy="250" r="1.5" fill="#42a5f5"/>
+  <circle cx="80" cy="248" r="1.5" fill="#42a5f5"/>
+  <circle cx="100" cy="245" r="1.5" fill="#42a5f5"/>
+  <circle cx="120" cy="240" r="2" fill="#42a5f5"/>
+  <circle cx="140" cy="232" r="2" fill="#42a5f5"/>
+  <circle cx="160" cy="218" r="2.5" fill="#42a5f5"/>
+  <circle cx="180" cy="200" r="3" fill="#42a5f5"/>
+  <circle cx="200" cy="185" r="3.5" fill="#42a5f5"/>
+
+  <!-- S-curve (logistic) -->
+  <rect x="252" y="160" width="240" height="110" fill="#0a0a1a" stroke="#66bb6a" stroke-width="1" rx="4"/>
+  <text x="372" y="175" text-anchor="middle" fill="#a5d6a7" font-size="7.5" font-weight="bold" font-family="Arial">S-образная кривая (логистическая)</text>
+  
+  <!-- Axes -->
+  <line x1="285" y1="258" x2="475" y2="258" stroke="#81c784" stroke-width="1"/>
+  <line x1="285" y1="258" x2="285" y2="185" stroke="#81c784" stroke-width="1"/>
+  <text x="380" y="267" text-anchor="middle" fill="#a5d6a7" font-size="5" font-family="Arial">Время</text>
+  <text x="275" y="222" text-anchor="middle" fill="#a5d6a7" font-size="5" font-family="Arial" transform="rotate(-90,275,222)">N</text>
+  
+  <!-- Carrying capacity line (K) -->
+  <line x1="285" y1="200" x2="475" y2="200" stroke="#ff9800" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="476" y="198" fill="#ffcc80" font-size="5.5" font-weight="bold" font-family="Arial">K</text>
+  <text x="460" y="210" fill="#ffa726" font-size="5" font-family="Arial">Ёмкость среды</text>
+  
+  <!-- S-curve -->
+  <path d="M290,255 Q320,252 340,245 Q365,230 385,210 Q400,203 420,200 Q445,199 470,199" stroke="#66bb6a" stroke-width="2" fill="none"/>
+  
+  <!-- Lag, exponential, stationary phases -->
+  <line x1="335" y1="258" x2="335" y2="262" stroke="#81c784" stroke-width="0.5"/>
+  <line x1="405" y1="258" x2="405" y2="262" stroke="#81c784" stroke-width="0.5"/>
+  <text x="310" y="270" text-anchor="middle" fill="#c8e6c9" font-size="4.5" font-family="Arial">Лаг-фаза</text>
+  <text x="370" y="270" text-anchor="middle" fill="#c8e6c9" font-size="4.5" font-family="Arial">Лог-фаза</text>
+  <text x="440" y="270" text-anchor="middle" fill="#c8e6c9" font-size="4.5" font-family="Arial">Стационарная</text>
+
+  <!-- Bottom summary -->
+  <rect x="8" y="278" width="484" height="64" fill="#1a0a2a" stroke="#9c27b0" stroke-width="1" rx="4"/>
+  <text x="250" y="294" text-anchor="middle" fill="#ce93d8" font-size="7" font-weight="bold" font-family="Arial">Популяция — элементарная единица эволюции</text>
+  
+  <!-- Population as unit -->
+  <text x="130" y="310" text-anchor="middle" fill="#e1bee7" font-size="6" font-family="Arial">Единица сохранения вида</text>
+  <text x="130" y="320" text-anchor="middle" fill="#ba68c8" font-size="5.5" font-family="Arial">Подвержена действию элементарных</text>
+  <text x="130" y="329" text-anchor="middle" fill="#ba68c8" font-size="5.5" font-family="Arial">эволюционных факторов</text>
+  
+  <!-- Gene pool concept -->
+  <ellipse cx="300" cy="312" rx="55" ry="18" fill="#4a148c" stroke="#9c27b0" stroke-width="0.8"/>
+  <text x="300" y="310" text-anchor="middle" fill="#e1bee7" font-size="6" font-family="Arial">Генофонд</text>
+  <text x="300" y="318" text-anchor="middle" fill="#ce93d8" font-size="5" font-family="Arial">популяции</text>
+  
+  <text x="430" y="310" text-anchor="middle" fill="#e1bee7" font-size="6" font-family="Arial">Микроэволюция =</text>
+  <text x="430" y="320" text-anchor="middle" fill="#ce93d8" font-size="5.5" font-family="Arial">изменение генофонда</text>
+  <text x="430" y="329" text-anchor="middle" fill="#ba68c8" font-size="5.5" font-family="Arial">популяции во времени</text>
+</svg>

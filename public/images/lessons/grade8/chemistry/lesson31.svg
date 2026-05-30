@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <radialGradient id="clAtomGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="70%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="cloudGlow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bgGrad)"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.04">
+    <line x1="0" y1="100" x2="800" y2="100" stroke="#10b981" stroke-width="0.5"/>
+    <line x1="0" y1="200" x2="800" y2="200" stroke="#10b981" stroke-width="0.5"/>
+    <line x1="0" y1="300" x2="800" y2="300" stroke="#10b981" stroke-width="0.5"/>
+    <line x1="0" y1="400" x2="800" y2="400" stroke="#10b981" stroke-width="0.5"/>
+    <line x1="200" y1="0" x2="200" y2="500" stroke="#10b981" stroke-width="0.5"/>
+    <line x1="400" y1="0" x2="400" y2="500" stroke="#10b981" stroke-width="0.5"/>
+    <line x1="600" y1="0" x2="600" y2="500" stroke="#10b981" stroke-width="0.5"/>
+  </g>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="55" fill="url(#headerGrad)" opacity="0.9"/>
+  <text x="400" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="white">Хлор. Хлорид-ион</text>
+
+  <!-- ===== LEFT: Cl₂ MOLECULE & ATOM ===== -->
+  <g transform="translate(30, 70)">
+    <!-- Cl₂ molecule -->
+    <rect width="230" height="140" rx="10" fill="#1e293b" stroke="#10b981" stroke-width="1" opacity="0.85"/>
+    <text x="115" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#14b8a6">Молекула Cl₂</text>
+
+    <!-- Cl atom 1 -->
+    <circle cx="80" cy="80" r="32" fill="url(#clAtomGrad)" opacity="0.7" filter="url(#glow)"/>
+    <text x="80" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">Cl</text>
+    <text x="80" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0">17</text>
+
+    <!-- Bond -->
+    <line x1="112" y1="80" x2="148" y2="80" stroke="#10b981" stroke-width="3"/>
+
+    <!-- Cl atom 2 -->
+    <circle cx="170" cy="80" r="32" fill="url(#clAtomGrad)" opacity="0.7" filter="url(#glow)"/>
+    <text x="170" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">Cl</text>
+    <text x="170" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0">17</text>
+
+    <text x="115" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Жёлто-зелёный газ с резким запахом</text>
+  </g>
+
+  <!-- Chlorine atom electron config -->
+  <g transform="translate(30, 220)">
+    <rect width="230" height="120" rx="10" fill="#1e293b" stroke="#0d9488" stroke-width="1" opacity="0.85"/>
+    <text x="115" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#14b8a6">Атом хлора ₃₇Cl</text>
+
+    <!-- Electron shells -->
+    <!-- Nucleus -->
+    <circle cx="90" cy="72" r="8" fill="#059669"/>
+    <text x="90" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">+17</text>
+
+    <!-- Shell 1 (2 electrons) -->
+    <circle cx="90" cy="72" r="22" fill="none" stroke="#14b8a6" stroke-width="0.8" stroke-dasharray="2,2"/>
+    <circle cx="90" cy="50" r="2.5" fill="#10b981"/>
+    <circle cx="90" cy="94" r="2.5" fill="#10b981"/>
+
+    <!-- Shell 2 (8 electrons) -->
+    <circle cx="90" cy="72" r="36" fill="none" stroke="#14b8a6" stroke-width="0.8" stroke-dasharray="2,2"/>
+    <circle cx="90" cy="36" r="2.5" fill="#10b981"/>
+    <circle cx="114" cy="48" r="2.5" fill="#10b981"/>
+    <circle cx="126" cy="72" r="2.5" fill="#10b981"/>
+    <circle cx="114" cy="96" r="2.5" fill="#10b981"/>
+    <circle cx="90" cy="108" r="2.5" fill="#10b981"/>
+    <circle cx="66" cy="96" r="2.5" fill="#10b981"/>
+    <circle cx="54" cy="72" r="2.5" fill="#10b981"/>
+    <circle cx="66" cy="48" r="2.5" fill="#10b981"/>
+
+    <!-- Shell 3 (7 electrons) - one missing! -->
+    <circle cx="90" cy="72" r="50" fill="none" stroke="#14b8a6" stroke-width="0.8" stroke-dasharray="2,2"/>
+    <circle cx="90" cy="22" r="3" fill="#10b981"/>
+    <circle cx="117" cy="30" r="3" fill="#10b981"/>
+    <circle cx="135" cy="50" r="3" fill="#10b981"/>
+    <circle cx="140" cy="72" r="3" fill="#10b981"/>
+    <circle cx="135" cy="94" r="3" fill="#10b981"/>
+    <circle cx="117" cy="114" r="3" fill="#10b981"/>
+    <circle cx="90" cy="122" r="3" fill="#10b981"/>
+    <!-- Missing electron position -->
+    <circle cx="63" cy="114" r="3" fill="none" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="2,1"/>
+
+    <!-- Config text -->
+    <text x="160" y="50" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0">2)</text>
+    <text x="175" y="50" font-family="Arial, sans-serif" font-size="11" fill="#10b981">8)</text>
+    <text x="190" y="50" font-family="Arial, sans-serif" font-size="11" fill="#ef4444">7</text>
+
+    <text x="155" y="72" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">Не хватает</text>
+    <text x="155" y="86" font-family="Arial, sans-serif" font-size="10" fill="#ef4444">1 электрона →</text>
+    <text x="155" y="100" font-family="Arial, sans-serif" font-size="10" fill="#10b981">окислитель!</text>
+  </g>
+
+  <!-- ===== RIGHT: REACTIONS ===== -->
+  <g transform="translate(280, 70)">
+    <rect width="500" height="145" rx="10" fill="#1e293b" stroke="#059669" stroke-width="1" opacity="0.85"/>
+    <text x="250" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#10b981">Реакции хлора с металлами</text>
+
+    <!-- Reaction 1: with sodium -->
+    <text x="15" y="50" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">2Na + Cl₂</text>
+    <text x="120" y="50" font-family="Arial, sans-serif" font-size="13" fill="#14b8a6">→</text>
+    <text x="140" y="50" font-family="Arial, sans-serif" font-size="13" fill="#f0fdf4">2NaCl</text>
+    <text x="200" y="50" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">(хлорид натрия)</text>
+
+    <!-- Reaction 2: with iron -->
+    <text x="15" y="78" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">2Fe + 3Cl₂</text>
+    <text x="130" y="78" font-family="Arial, sans-serif" font-size="13" fill="#14b8a6">→</text>
+    <text x="150" y="78" font-family="Arial, sans-serif" font-size="13" fill="#f0fdf4">2FeCl₃</text>
+    <text x="225" y="78" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">(хлорид железа III)</text>
+
+    <!-- Reaction 3: with hydrogen -->
+    <text x="15" y="106" font-family="Arial, sans-serif" font-size="13" fill="#e2e8f0">H₂ + Cl₂</text>
+    <text x="110" y="106" font-family="Arial, sans-serif" font-size="13" fill="#14b8a6">→</text>
+    <text x="130" y="106" font-family="Arial, sans-serif" font-size="13" fill="#f0fdf4">2HCl</text>
+    <text x="185" y="106" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">(хлороводород)</text>
+
+    <!-- Note -->
+    <text x="15" y="132" font-family="Arial, sans-serif" font-size="11" fill="#fbbf24">⚠ Cl₂ — сильный окислитель, горит в H₂</text>
+  </g>
+
+  <!-- ===== QUALITATIVE REACTION ===== -->
+  <g transform="translate(280, 230)">
+    <rect width="500" height="110" rx="10" fill="#1e293b" stroke="#fbbf24" stroke-width="1.5" opacity="0.85"/>
+    <rect x="5" y="5" width="170" height="22" rx="11" fill="#fbbf24" opacity="0.2"/>
+    <text x="90" y="21" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#fbbf24">Качественная реакция</text>
+
+    <text x="20" y="52" font-family="Arial, sans-serif" font-size="14" fill="#e2e8f0">AgNO₃ + NaCl</text>
+    <text x="175" y="52" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">→</text>
+    <text x="195" y="52" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">AgCl↓</text>
+    <text x="260" y="52" font-family="Arial, sans-serif" font-size="14" fill="#e2e8f0">+ NaNO₃</text>
+
+    <!-- Precipitate indicator -->
+    <rect x="400" y="30" width="90" height="65" rx="8" fill="#1e293b" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="445" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">Осадок</text>
+    <!-- White precipitate visualization -->
+    <g opacity="0.8">
+      <circle cx="425" cy="70" r="3" fill="white" opacity="0.7"/>
+      <circle cx="438" cy="75" r="4" fill="white" opacity="0.6"/>
+      <circle cx="455" cy="68" r="3.5" fill="white" opacity="0.7"/>
+      <circle cx="468" cy="73" r="3" fill="white" opacity="0.5"/>
+      <circle cx="432" cy="82" r="3" fill="white" opacity="0.6"/>
+      <circle cx="450" cy="85" r="2.5" fill="white" opacity="0.5"/>
+      <circle cx="475" cy="80" r="2" fill="white" opacity="0.4"/>
+    </g>
+    <text x="445" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">белый</text>
+
+    <text x="20" y="80" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Обнаружение хлорид-ионов Cl⁻ — белый творожистый осадок</text>
+    <text x="20" y="98" font-family="Arial, sans-serif" font-size="11" fill="#14b8a6">AgCl не растворяется в HNO₃ (отличие от карбонатов)</text>
+  </g>
+
+  <!-- ===== CHLORIDE ION ===== -->
+  <g transform="translate(30, 355)">
+    <rect width="230" height="130" rx="10" fill="#1e293b" stroke="#0d9488" stroke-width="1" opacity="0.85"/>
+    <text x="115" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#14b8a6">Хлорид-ион Cl⁻</text>
+
+    <!-- Cl⁻ ion visual -->
+    <circle cx="70" cy="75" r="35" fill="#059669" opacity="0.3" stroke="#10b981" stroke-width="1.5"/>
+    <text x="70" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#10b981">Cl⁻</text>
+    <text x="70" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0">18 электронов</text>
+
+    <text x="120" y="55" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0">Заряд: −1</text>
+    <text x="120" y="73" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0">Конфиг: 2,8,8</text>
+    <text x="120" y="91" font-family="Arial, sans-serif" font-size="11" fill="#14b8a6">= Ar (инертн.)</text>
+    <text x="120" y="115" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">Устойчивая</text>
+    <text x="120" y="128" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">эл. конфигурация</text>
+  </g>
+
+  <!-- ===== PHYSICAL PROPERTIES ===== -->
+  <g transform="translate(280, 355)">
+    <rect width="500" height="130" rx="10" fill="#1e293b" stroke="#059669" stroke-width="1" opacity="0.85"/>
+    <text x="250" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#10b981">Физические свойства хлора</text>
+
+    <text x="20" y="48" font-family="Arial, sans-serif" font-size="12" fill="#e2e8f0">• Газ, жёлто-зелёного цвета</text>
+    <text x="20" y="68" font-family="Arial, sans-serif" font-size="12" fill="#e2e8f0">• Резкий удушливый запах</text>
+    <text x="20" y="88" font-family="Arial, sans-serif" font-size="12" fill="#e2e8f0">• Тяжелее воздуха (ρ = 3,21 г/л)</text>
+    <text x="20" y="108" font-family="Arial, sans-serif" font-size="12" fill="#e2e8f0">• Растворим в воде («хлорная вода»)</text>
+    <text x="260" y="48" font-family="Arial, sans-serif" font-size="12" fill="#e2e8f0">• t°пл = −101 °C</text>
+    <text x="260" y="68" font-family="Arial, sans-serif" font-size="12" fill="#e2e8f0">• t°кип = −34 °C</text>
+    <text x="260" y="88" font-family="Arial, sans-serif" font-size="12" fill="#fbbf24">⚠ Ядовит!</text>
+    <text x="260" y="108" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6">Cl₂ + H₂O ⇌ HCl + HClO</text>
+    <text x="260" y="125" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">(диспропорционирование)</text>
+  </g>
+
+  <!-- Lesson badge -->
+  <rect x="720" y="475" width="70" height="22" rx="11" fill="#059669" opacity="0.6"/>
+  <text x="755" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Урок 31</text>
+</svg>
