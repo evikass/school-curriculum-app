@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Общая характеристика членистоногих</text>
+<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 7 класс — Урок 11</text>
+<line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+
+<g transform="translate(140,165)">
+<path d="M-45,-18 L45,-18 L45,18 L-45,18Z" fill="#FFCC80" stroke="#E65100" stroke-width="2" rx="5"/>
+<path d="M-45,-18 Q0,-28 45,-18" fill="#FFE0B2" stroke="#E65100" stroke-width="1.5"/>
+<line x1="-22" y1="-20" x2="-22" y2="18" stroke="#BF360C" stroke-width="0.8"/>
+<line x1="0" y1="-22" x2="0" y2="18" stroke="#BF360C" stroke-width="0.8"/>
+<line x1="22" y1="-20" x2="22" y2="18" stroke="#BF360C" stroke-width="0.8"/>
+<path d="M-22,18 L-26,32 L-18,40" stroke="#BF360C" stroke-width="2" fill="none"/>
+<path d="M0,18 L-4,32 L4,40" stroke="#BF360C" stroke-width="2" fill="none"/>
+<path d="M22,18 L18,32 L26,40" stroke="#BF360C" stroke-width="2" fill="none"/>
+<text x="0" y="10" font-family="Arial,sans-serif" font-size="7" fill="#BF360C" text-anchor="middle" font-weight="bold">Хитин</text>
+<text x="0" y="55" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle" font-weight="bold">Членистые конечности</text>
+</g>
+<g transform="translate(400,120)">
+<text x="0" y="0" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle" font-weight="bold">3 класса</text>
+<g transform="translate(-55,22)"><rect x="-32" y="-9" width="64" height="20" rx="10" fill="#2196F3" opacity="0.25" stroke="#1565C0" stroke-width="1.5"/><text x="0" y="4" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle" font-weight="bold">Ракообразные</text></g>
+<g transform="translate(55,22)"><rect x="-32" y="-9" width="64" height="20" rx="10" fill="#9C27B0" opacity="0.25" stroke="#7B1FA2" stroke-width="1.5"/><text x="0" y="4" font-family="Arial,sans-serif" font-size="7" fill="#7B1FA2" text-anchor="middle" font-weight="bold">Паукообразные</text></g>
+<g transform="translate(0,50)"><rect x="-28" y="-9" width="56" height="20" rx="10" fill="#4CAF50" opacity="0.25" stroke="#2E7D32" stroke-width="1.5"/><text x="0" y="4" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">Насекомые</text></g>
+</g>
+<g transform="translate(380,240)">
+<text x="0" y="-20" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">Линька</text>
+<path d="M-30,-12 L-10,-12 L-10,12 L-30,12Z" fill="none" stroke="#BF360C" stroke-width="1.5" stroke-dasharray="3,2"/>
+<text x="-20" y="22" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle">Старый</text>
+<path d="M-5,0 L5,0" stroke="#2E7D32" stroke-width="1.5"/><path d="M5,0 L2,-3 M5,0 L2,3" stroke="#2E7D32" stroke-width="1.5" fill="none"/>
+<path d="M10,-15 L30,-15 L30,15 L10,15Z" fill="#FFECB3" stroke="#E65100" stroke-width="1.5"/>
+<text x="20" y="22" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">Новый</text>
+</g>
+<rect x="30" y="290" width="440" height="22" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
+<text x="250" y="304" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Хитиновый покров | Членистые конечности | Сегментация | Линька | Более 1,5 млн видов</text>
+
+<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 7 класс</text>
+</svg>

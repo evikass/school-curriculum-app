@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Строение и виды костей</text>
+<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 8 класс — Урок 10</text>
+<line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+
+<g transform="translate(250,180)">
+<!-- Skull -->
+<ellipse cx="0" cy="-80" rx="18" ry="22" fill="none" stroke="#795548" stroke-width="2"/>
+<ellipse cx="-5" cy="-85" rx="4" ry="3" fill="none" stroke="#5D4037" stroke-width="1"/>
+<ellipse cx="5" cy="-85" rx="4" ry="3" fill="none" stroke="#5D4037" stroke-width="1"/>
+<path d="M-4,-75 L4,-75" stroke="#5D4037" stroke-width="1"/>
+<path d="M-2,-72 L2,-72" stroke="#5D4037" stroke-width="0.8"/>
+<!-- Spine -->
+<line x1="0" y1="-58" x2="0" y2="10" stroke="#795548" stroke-width="3"/>
+<!-- Ribcage -->
+<path d="M-25,-45 Q-30,-25 -25,0 Q-15,10 0,10" fill="none" stroke="#795548" stroke-width="1.5"/>
+<path d="M25,-45 Q30,-25 25,0 Q15,10 0,10" fill="none" stroke="#795548" stroke-width="1.5"/>
+<path d="M-22,-40 Q0,-30 22,-40" fill="none" stroke="#795548" stroke-width="1"/>
+<path d="M-24,-30 Q0,-20 24,-30" fill="none" stroke="#795548" stroke-width="1"/>
+<!-- Pelvis -->
+<path d="M-20,10 Q-25,25 -15,35 Q0,40 15,35 Q25,25 20,10" fill="none" stroke="#795548" stroke-width="2"/>
+<!-- Arms -->
+<line x1="-25" y1="-45" x2="-40" y2="-30" stroke="#795548" stroke-width="2"/>
+<line x1="-40" y1="-30" x2="-45" y2="-10" stroke="#795548" stroke-width="2"/>
+<line x1="-45" y1="-10" x2="-48" y2="10" stroke="#795548" stroke-width="1.5"/>
+<line x1="25" y1="-45" x2="40" y2="-30" stroke="#795548" stroke-width="2"/>
+<line x1="40" y1="-30" x2="45" y2="-10" stroke="#795548" stroke-width="2"/>
+<line x1="45" y1="-10" x2="48" y2="10" stroke="#795548" stroke-width="1.5"/>
+<!-- Legs -->
+<line x1="-10" y1="35" x2="-12" y2="70" stroke="#795548" stroke-width="2.5"/>
+<line x1="-12" y1="70" x2="-14" y2="100" stroke="#795548" stroke-width="2"/>
+<line x1="10" y1="35" x2="12" y2="70" stroke="#795548" stroke-width="2.5"/>
+<line x1="12" y1="70" x2="14" y2="100" stroke="#795548" stroke-width="2"/>
+</g>
+<g transform="translate(420,120)">
+<rect x="-45" y="-30" width="90" height="60" rx="5" fill="white" stroke="#795548" stroke-width="1.5"/>
+<text x="0" y="-15" font-family="Arial,sans-serif" font-size="7" fill="#795548" text-anchor="middle" font-weight="bold">Виды костей</text>
+<text x="0" y="0" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Трубчатые: бедро</text>
+<text x="0" y="12" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Губчатые: позвонки</text>
+<text x="0" y="24" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Плоские: череп, рёбра</text>
+</g>
+<rect x="30" y="295" width="440" height="18" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
+<text x="250" y="309" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Скелет: опора, защита органов, движение | 206 костей | Суставы — подвижные соединения</text>
+
+<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 8 класс</text>
+</svg>

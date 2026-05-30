@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#115e59"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.7"/>
+    </linearGradient>
+    <filter id="sh2">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg2)" rx="10"/>
+  <rect x="8" y="8" width="384" height="284" fill="none" stroke="white" stroke-width="0.5" opacity="0.15" rx="8"/>
+  <rect x="0" y="0" width="400" height="32" fill="#0d9488" rx="10"/>
+  <rect x="0" y="16" width="400" height="16" fill="#0d9488"/>
+  <text x="200" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="white" font-weight="bold">Строение атома. Изотопы</text>
+
+  <!-- Atom diagram -->
+  <rect x="12" y="40" width="130" height="105" rx="6" fill="#0f766e" filter="url(#sh2)"/>
+  <text x="77" y="54" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Модель атома</text>
+  <circle cx="77" cy="95" r="10" fill="#14b8a6"/>
+  <text x="77" y="99" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="white" font-weight="bold">p+n</text>
+  <ellipse cx="77" cy="95" rx="30" ry="14" fill="none" stroke="#5eead4" stroke-width="0.8" stroke-dasharray="2,2"/>
+  <circle cx="107" cy="95" r="3" fill="#f0fdfa"/>
+  <ellipse cx="77" cy="95" rx="46" ry="22" fill="none" stroke="#5eead4" stroke-width="0.8" stroke-dasharray="2,2"/>
+  <circle cx="123" cy="95" r="3" fill="#f0fdfa"/>
+  <circle cx="40" cy="88" r="3" fill="#f0fdfa"/>
+  <text x="77" y="132" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">ядро + эл. оболочки</text>
+  <text x="77" y="141" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#ccfbf1">A = Z + N</text>
+
+  <!-- Electron configuration -->
+  <rect x="150" y="40" width="238" height="105" rx="6" fill="#134e4a" filter="url(#sh2)"/>
+  <text x="160" y="54" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Электронная конфигурация</text>
+  <text x="160" y="70" font-family="Arial,sans-serif" font-size="9" fill="white">Na (Z=11):</text>
+  <text x="230" y="70" font-family="Arial,sans-serif" font-size="9" fill="#99f6e4">1s&#178;2s&#178;2p&#8310;3s&#185;</text>
+  <text x="160" y="85" font-family="Arial,sans-serif" font-size="9" fill="white">Cl (Z=17):</text>
+  <text x="230" y="85" font-family="Arial,sans-serif" font-size="9" fill="#99f6e4">1s&#178;2s&#178;2p&#8310;3s&#178;3p&#8309;</text>
+  <text x="160" y="100" font-family="Arial,sans-serif" font-size="9" fill="white">Ca (Z=20):</text>
+  <text x="230" y="100" font-family="Arial,sans-serif" font-size="9" fill="#99f6e4">1s&#178;2s&#178;2p&#8310;3s&#178;3p&#8310;4s&#178;</text>
+  <text x="160" y="118" font-family="Arial,sans-serif" font-size="8" fill="#5eead4">Z = число протонов = число электронов</text>
+  <text x="160" y="130" font-family="Arial,sans-serif" font-size="8" fill="#99f6e4">N = число нейтронов = A - Z</text>
+  <text x="160" y="141" font-family="Arial,sans-serif" font-size="8" fill="#99f6e4">A = массовое число</text>
+
+  <!-- Isotopes section -->
+  <rect x="12" y="153" width="376" height="55" rx="6" fill="#0f766e" filter="url(#sh2)"/>
+  <text x="22" y="168" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Изотопы водорода:</text>
+
+  <rect x="22" y="175" width="112" height="26" rx="4" fill="#115e59"/>
+  <text x="78" y="188" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="white">&#185;H Протий</text>
+  <text x="78" y="197" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">1p + 0n</text>
+
+  <rect x="142" y="175" width="112" height="26" rx="4" fill="#115e59"/>
+  <text x="198" y="188" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="white">&#178;H Дейтерий</text>
+  <text x="198" y="197" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">1p + 1n</text>
+
+  <rect x="262" y="175" width="116" height="26" rx="4" fill="#115e59"/>
+  <text x="320" y="188" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="white">&#179;H Тритий</text>
+  <text x="320" y="197" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">1p + 2n</text>
+
+  <!-- Isotope definition -->
+  <rect x="12" y="216" width="185" height="72" rx="6" fill="#134e4a" filter="url(#sh2)"/>
+  <text x="22" y="232" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Определение:</text>
+  <text x="22" y="247" font-family="Arial,sans-serif" font-size="8" fill="#f0fdfa">Изотопы - атомы одного</text>
+  <text x="22" y="259" font-family="Arial,sans-serif" font-size="8" fill="#f0fdfa">элемента с разным числом</text>
+  <text x="22" y="271" font-family="Arial,sans-serif" font-size="8" fill="#f0fdfa">нейтронов и разной массой</text>
+  <text x="22" y="283" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">Одинаковые Z, разные A</text>
+
+  <!-- Examples -->
+  <rect x="203" y="216" width="185" height="72" rx="6" fill="#0f766e" filter="url(#sh2)"/>
+  <text x="213" y="232" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Примеры изотопов:</text>
+  <text x="213" y="247" font-family="Arial,sans-serif" font-size="9" fill="white">&#185;&#178;C и &#185;&#179;C и &#185;&#8308;C</text>
+  <text x="213" y="261" font-family="Arial,sans-serif" font-size="9" fill="white">&#185;&#8310;O и &#185;&#8311;O и &#185;&#8318;O</text>
+  <text x="213" y="275" font-family="Arial,sans-serif" font-size="9" fill="white">&#8308;&#8309;K и &#8308;&#185;K</text>
+  <text x="213" y="286" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">Химические свойства одинаковы</text>
+
+  <text x="370" y="295" text-anchor="end" font-family="Arial,sans-serif" font-size="8" fill="#5eead4">Урок 2</text>
+</svg>

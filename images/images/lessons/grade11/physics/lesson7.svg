@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg7" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg7)"/>
+  <!-- Title -->
+  <text x="130" y="25" text-anchor="middle" fill="#ffeaa7" font-size="11" font-weight="bold">Мощность в замкнутой цепи</text>
+  <!-- Graph: P_useful vs R -->
+  <line x1="60" y1="210" x2="240" y2="210" stroke="#dfe6e9" stroke-width="1"/>
+  <line x1="60" y1="210" x2="60" y2="40" stroke="#dfe6e9" stroke-width="1"/>
+  <text x="245" y="215" fill="#dfe6e9" font-size="9">R</text>
+  <text x="40" y="45" fill="#dfe6e9" font-size="9">P</text>
+  <!-- P_useful curve (parabola-like, max at R=r) -->
+  <path d="M65,205 Q100,150 130,90 Q150,60 165,55 Q180,60 200,90 Q230,150 240,190" fill="none" stroke="#55efc4" stroke-width="2.5"/>
+  <text x="105" y="80" fill="#55efc4" font-size="9">P_полезн</text>
+  <!-- P_total line (decreasing) -->
+  <path d="M65,80 Q120,110 180,150 Q220,175 240,195" fill="none" stroke="#74b9ff" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="90" y="100" fill="#74b9ff" font-size="9">P_полн</text>
+  <!-- Mark R=r -->
+  <line x1="165" y1="55" x2="165" y2="210" stroke="#ffd700" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="165" y="225" text-anchor="middle" fill="#ffd700" font-size="9">R=r</text>
+  <circle cx="165" cy="55" r="4" fill="#ffd700"/>
+  <text x="175" y="50" fill="#ffd700" font-size="8">max!</text>
+  <!-- Efficiency line -->
+  <path d="M65,205 Q130,160 200,80 L240,55" fill="none" stroke="#ff7675" stroke-width="1.5" stroke-dasharray="2,2"/>
+  <text x="200" y="75" fill="#ff7675" font-size="8">КПД</text>
+  <!-- Right side formulas -->
+  <text x="320" y="40" text-anchor="middle" fill="#ffeaa7" font-size="11" font-weight="bold">Формулы</text>
+  <text x="320" y="65" text-anchor="middle" fill="#55efc4" font-size="10">P_полн = IE</text>
+  <text x="320" y="85" text-anchor="middle" fill="#55efc4" font-size="10">P_полезн = I2R</text>
+  <text x="320" y="105" text-anchor="middle" fill="#55efc4" font-size="10">P_потерь = I2r</text>
+  <text x="320" y="130" text-anchor="middle" fill="#ff7675" font-size="11" font-weight="bold">КПД = R/(R+r)</text>
+  <text x="320" y="155" text-anchor="middle" fill="#ffd700" font-size="10">При R=r:</text>
+  <text x="320" y="172" text-anchor="middle" fill="#ffd700" font-size="10">P_max, КПД=50%</text>
+  <!-- Power transmission -->
+  <rect x="245" y="190" width="145" height="100" rx="5" fill="#2d3436" opacity="0.6"/>
+  <text x="317" y="210" text-anchor="middle" fill="#ffeaa7" font-size="10" font-weight="bold">Передача энергии</text>
+  <text x="317" y="228" text-anchor="middle" fill="#dfe6e9" font-size="8">P_потерь = (P/U)2 * R_пр</text>
+  <line x1="260" y1="240" x2="280" y2="240" stroke="#ffd700" stroke-width="1.5"/>
+  <rect x="280" y="233" width="30" height="14" rx="2" fill="#636e72"/>
+  <line x1="310" y1="240" x2="370" y2="240" stroke="#ffd700" stroke-width="1.5"/>
+  <text x="295" y="243" text-anchor="middle" fill="#dfe6e9" font-size="7">R_пр</text>
+  <text x="317" y="262" text-anchor="middle" fill="#55efc4" font-size="9">Выше U - меньше потерь!</text>
+  <text x="317" y="280" text-anchor="middle" fill="#a29bfe" font-size="8">Трансформатор</text>
+</svg>

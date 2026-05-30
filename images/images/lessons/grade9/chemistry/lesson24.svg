@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg24" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#115e59"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.7"/>
+    </linearGradient>
+    <filter id="sh24">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg24)" rx="10"/>
+  <rect x="8" y="8" width="384" height="284" fill="none" stroke="white" stroke-width="0.5" opacity="0.15" rx="8"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="400" height="32" fill="#0d9488" rx="10"/>
+  <rect x="0" y="16" width="400" height="16" fill="#0d9488"/>
+  <text x="200" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="white" font-weight="bold">Азот</text>
+
+  <!-- N2 triple bond structure -->
+  <rect x="12" y="40" width="178" height="65" rx="6" fill="#0f766e" filter="url(#sh24)"/>
+  <text x="101" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#5eead4" font-weight="bold">N&#178; — тройная связь</text>
+  <circle cx="55" cy="82" r="14" fill="#3b82f6" opacity="0.6"/><text x="55" y="86" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="white" font-weight="bold">N</text>
+  <line x1="69" y1="76" x2="101" y2="76" stroke="white" stroke-width="1.5" opacity="0.8"/>
+  <line x1="69" y1="82" x2="101" y2="82" stroke="white" stroke-width="1.5" opacity="0.8"/>
+  <line x1="69" y1="88" x2="101" y2="88" stroke="white" stroke-width="1.5" opacity="0.8"/>
+  <circle cx="115" cy="82" r="14" fill="#3b82f6" opacity="0.6"/><text x="115" y="86" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="white" font-weight="bold">N</text>
+  <text x="87" y="103" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ccfbf1">Eсв = 946 кДж/моль</text>
+
+  <!-- Nitrogen in air -->
+  <rect x="198" y="40" width="190" height="65" rx="6" fill="#0f766e" filter="url(#sh24)"/>
+  <text x="293" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Состав воздуха</text>
+  <circle cx="293" cy="82" r="22" fill="#1e3a5f" opacity="0.5"/>
+  <path d="M293,60 A22,22 0 0,1 293,104" fill="#3b82f6" opacity="0.5"/>
+  <text x="280" y="86" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="white" font-weight="bold">78%</text>
+  <text x="312" y="84" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#93c5fd">21% O&#178;</text>
+  <text x="293" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#ccfbf1">1% др.</text>
+
+  <!-- Inertness -->
+  <rect x="12" y="112" width="376" height="40" rx="6" fill="#134e4a" filter="url(#sh24)"/>
+  <text x="22" y="128" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Инертность N&#178;:</text>
+  <text x="120" y="128" font-family="Arial,sans-serif" font-size="8" fill="white">тройная связь N&#8801;N очень прочна</text>
+  <text x="22" y="143" font-family="Arial,sans-serif" font-size="8" fill="#99f6e4">При t и катализаторе: N&#178; + 3H&#178; = 2NH&#179; (реакция Габера)</text>
+
+  <!-- Nitrogen cycle -->
+  <rect x="12" y="159" width="376" height="68" rx="6" fill="#0f766e" filter="url(#sh24)"/>
+  <text x="22" y="175" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Круговорот азота в природе:</text>
+  <rect x="25" y="183" width="60" height="18" rx="4" fill="#1e40af" opacity="0.6"/>
+  <text x="55" y="195" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="white">N&#178; возд.</text>
+  <line x1="85" y1="192" x2="110" y2="192" stroke="#5eead4" stroke-width="1"/>
+  <text x="97" y="188" font-family="Arial,sans-serif" font-size="5" fill="#5eead4">бактер.</text>
+  <rect x="110" y="183" width="60" height="18" rx="4" fill="#065f46" opacity="0.6"/>
+  <text x="140" y="195" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="white">NH&#179;/NO&#179;</text>
+  <line x1="170" y1="192" x2="195" y2="192" stroke="#5eead4" stroke-width="1"/>
+  <rect x="195" y="183" width="60" height="18" rx="4" fill="#7c2d12" opacity="0.6"/>
+  <text x="225" y="195" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="white">Белки</text>
+  <line x1="255" y1="192" x2="280" y2="192" stroke="#5eead4" stroke-width="1"/>
+  <rect x="280" y="183" width="60" height="18" rx="4" fill="#4c1d95" opacity="0.6"/>
+  <text x="310" y="195" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="white">NH&#179;/N&#178;</text>
+  <text x="200" y="220" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">Азотофиксация -> Нитрификация -> Ассимиляция -> Аммонификация</text>
+
+  <!-- Properties -->
+  <rect x="12" y="234" width="185" height="50" rx="6" fill="#134e4a" filter="url(#sh24)"/>
+  <text x="22" y="250" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Свойства N&#178;:</text>
+  <text x="22" y="264" font-family="Arial,sans-serif" font-size="8" fill="white">Бесцв. газ, без запаха</text>
+  <text x="22" y="277" font-family="Arial,sans-serif" font-size="8" fill="white">tкип = -196 C, tпл = -210 C</text>
+
+  <rect x="203" y="234" width="185" height="50" rx="6" fill="#134e4a" filter="url(#sh24)"/>
+  <text x="213" y="250" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">СО азота:</text>
+  <text x="213" y="264" font-family="Arial,sans-serif" font-size="8" fill="white">-3, +1, +2, +3, +4, +5</text>
+  <text x="213" y="277" font-family="Arial,sans-serif" font-size="8" fill="#99f6e4">ns&#178;np&#179; — 5 вал. эл.</text>
+  <text x="345" y="250" font-family="Arial,sans-serif" font-size="8" fill="#5eead4">Урок 24</text>
+
+</svg>

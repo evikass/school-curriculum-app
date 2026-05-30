@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#00000018"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI', Arial, sans-serif; }
+    .title { font-size: 22px; font-weight: 700; fill: #1e293b; }
+    .subtitle { font-size: 13px; fill: #64748b; }
+    .card-title { font-size: 13px; font-weight: 600; fill: #1e293b; }
+    .card-text { font-size: 11px; fill: #475569; }
+    .formula { font-size: 15px; fill: #334155; font-weight: 600; }
+    .label { font-size: 12px; fill: #475569; }
+    .small { font-size: 10px; fill: #94a3b8; }
+    .accent-text { font-size: 12px; font-weight: 600; }
+  </style>
+  <!-- Background -->
+  <rect width="800" height="500" rx="12" fill="#f8fafc" filter="url(#shadow)"/>
+  <!-- Accent bar -->
+  <rect width="800" height="6" rx="3" fill="#06b6d4"/>
+  <!-- Title -->
+  <text x="40" y="42" class="title">Растворение</text>
+  <rect x="40" y="50" width="60" height="3" rx="1.5" fill="#06b6d4" opacity="0.5"/>
+
+  <!-- Subtitle -->
+  <text x="40" y="72" class="subtitle">Процесс растворения и типы растворов по степени насыщения</text>
+
+  <!-- Dissociation equation at top -->
+  <rect x="40" y="82" width="720" height="55" rx="8" fill="white" stroke="#06b6d4" stroke-width="1.5"/>
+  <text x="400" y="105" text-anchor="middle" class="formula">NaCl → Na<tspan baseline-shift="super" font-size="75%">+</tspan> + Cl<tspan baseline-shift="super" font-size="75%">−</tspan></text>
+  <text x="400" y="125" text-anchor="middle" class="card-text">Диссоциация: молекула соли распадается на ионы под действием молекул воды</text>
+
+  <!-- Water molecule diagram (small) -->
+  <g transform="translate(60, 145)">
+    <circle cx="0" cy="0" r="8" fill="#06b6d4" opacity="0.3"/>
+    <circle cx="-14" cy="8" r="5" fill="#94a3b8" opacity="0.3"/>
+    <circle cx="14" cy="8" r="5" fill="#94a3b8" opacity="0.3"/>
+    <text x="0" y="3" text-anchor="middle" font-size="6" fill="#06b6d4" font-weight="600">O</text>
+    <text x="-14" y="11" text-anchor="middle" font-size="5" fill="#64748b">H</text>
+    <text x="14" y="11" text-anchor="middle" font-size="5" fill="#64748b">H</text>
+  </g>
+
+  <!-- Three Beakers -->
+  <!-- Beaker 1: Unsaturated -->
+  <g transform="translate(60, 170)">
+    <rect width="200" height="280" rx="10" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+    <rect width="200" height="4" rx="2" fill="#06b6d4" opacity="0.7"/>
+    <!-- Beaker shape -->
+    <path d="M 40 80 L 40 210 Q 40 230 60 230 L 140 230 Q 160 230 160 210 L 160 80"
+          fill="#e0f7fa" stroke="#06b6d4" stroke-width="2" opacity="0.8"/>
+    <line x1="35" y1="80" x2="165" y2="80" stroke="#06b6d4" stroke-width="2.5"/>
+    <!-- Few dissolved particles -->
+    <circle cx="80" cy="120" r="5" fill="#f59e0b" opacity="0.7"/>
+    <text x="80" y="123" text-anchor="middle" font-size="7" fill="white" font-weight="700">Na</text>
+    <circle cx="120" cy="150" r="5" fill="#06b6d4" opacity="0.7"/>
+    <text x="120" y="153" text-anchor="middle" font-size="7" fill="white" font-weight="700">Cl</text>
+    <circle cx="100" cy="180" r="5" fill="#f59e0b" opacity="0.7"/>
+    <text x="100" y="183" text-anchor="middle" font-size="7" fill="white" font-weight="700">Na</text>
+    <circle cx="70" cy="190" r="5" fill="#06b6d4" opacity="0.7"/>
+    <text x="70" y="193" text-anchor="middle" font-size="7" fill="white" font-weight="700">Cl</text>
+    <!-- Water molecules (small) -->
+    <circle cx="90" cy="140" r="3" fill="#06b6d4" opacity="0.15"/>
+    <circle cx="130" cy="170" r="3" fill="#06b6d4" opacity="0.15"/>
+    <circle cx="60" cy="160" r="3" fill="#06b6d4" opacity="0.15"/>
+    <!-- Label -->
+    <rect x="30" y="240" width="140" height="28" rx="6" fill="#22c55e" opacity="0.12"/>
+    <text x="100" y="258" text-anchor="middle" font-size="12" font-weight="600" fill="#22c55e">Ненасыщенный</text>
+    <text x="100" y="275" text-anchor="middle" class="card-text">Ещё можно растворить</text>
+  </g>
+
+  <!-- Beaker 2: Saturated -->
+  <g transform="translate(290, 170)">
+    <rect width="200" height="280" rx="10" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+    <rect width="200" height="4" rx="2" fill="#06b6d4" opacity="0.7"/>
+    <!-- Beaker shape -->
+    <path d="M 40 80 L 40 210 Q 40 230 60 230 L 140 230 Q 160 230 160 210 L 160 80"
+          fill="#e0f7fa" stroke="#06b6d4" stroke-width="2" opacity="0.8"/>
+    <line x1="35" y1="80" x2="165" y2="80" stroke="#06b6d4" stroke-width="2.5"/>
+    <!-- Many dissolved particles -->
+    <circle cx="80" cy="100" r="5" fill="#f59e0b" opacity="0.7"/>
+    <text x="80" y="103" text-anchor="middle" font-size="7" fill="white" font-weight="700">+</text>
+    <circle cx="110" cy="110" r="5" fill="#06b6d4" opacity="0.7"/>
+    <text x="110" y="113" text-anchor="middle" font-size="7" fill="white" font-weight="700">−</text>
+    <circle cx="130" cy="130" r="5" fill="#f59e0b" opacity="0.7"/>
+    <text x="130" y="133" text-anchor="middle" font-size="7" fill="white" font-weight="700">+</text>
+    <circle cx="70" cy="130" r="5" fill="#06b6d4" opacity="0.7"/>
+    <text x="70" y="133" text-anchor="middle" font-size="7" fill="white" font-weight="700">−</text>
+    <circle cx="100" cy="150" r="5" fill="#f59e0b" opacity="0.7"/>
+    <text x="100" y="153" text-anchor="middle" font-size="7" fill="white" font-weight="700">+</text>
+    <circle cx="60" cy="160" r="5" fill="#06b6d4" opacity="0.7"/>
+    <text x="60" y="163" text-anchor="middle" font-size="7" fill="white" font-weight="700">−</text>
+    <circle cx="140" cy="155" r="5" fill="#f59e0b" opacity="0.7"/>
+    <text x="140" y="158" text-anchor="middle" font-size="7" fill="white" font-weight="700">+</text>
+    <circle cx="90" cy="175" r="5" fill="#06b6d4" opacity="0.7"/>
+    <text x="90" y="178" text-anchor="middle" font-size="7" fill="white" font-weight="700">−</text>
+    <circle cx="120" cy="180" r="5" fill="#f59e0b" opacity="0.7"/>
+    <text x="120" y="183" text-anchor="middle" font-size="7" fill="white" font-weight="700">+</text>
+    <circle cx="75" cy="195" r="5" fill="#06b6d4" opacity="0.7"/>
+    <text x="75" y="198" text-anchor="middle" font-size="7" fill="white" font-weight="700">−</text>
+    <circle cx="105" cy="200" r="5" fill="#f59e0b" opacity="0.7"/>
+    <text x="105" y="203" text-anchor="middle" font-size="7" fill="white" font-weight="700">+</text>
+    <!-- Undissolved solid at bottom -->
+    <rect x="65" y="218" width="70" height="12" rx="3" fill="#f59e0b" opacity="0.4"/>
+    <text x="100" y="228" text-anchor="middle" font-size="7" fill="#92400e">NaCl</text>
+    <!-- Label -->
+    <rect x="30" y="240" width="140" height="28" rx="6" fill="#f59e0b" opacity="0.12"/>
+    <text x="100" y="258" text-anchor="middle" font-size="12" font-weight="600" fill="#f59e0b">Насыщенный</text>
+    <text x="100" y="275" text-anchor="middle" class="card-text">Растворение = осаждение</text>
+  </g>
+
+  <!-- Beaker 3: Supersaturated -->
+  <g transform="translate(520, 170)">
+    <rect width="200" height="280" rx="10" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+    <rect width="200" height="4" rx="2" fill="#06b6d4" opacity="0.7"/>
+    <!-- Beaker shape -->
+    <path d="M 40 80 L 40 210 Q 40 230 60 230 L 140 230 Q 160 230 160 210 L 160 80"
+          fill="#e0f7fa" stroke="#06b6d4" stroke-width="2" opacity="0.8"/>
+    <line x1="35" y1="80" x2="165" y2="80" stroke="#06b6d4" stroke-width="2.5"/>
+    <!-- Overfull particles - very dense -->
+    <circle cx="65" cy="95" r="5" fill="#f59e0b" opacity="0.8"/>
+    <text x="65" y="98" text-anchor="middle" font-size="7" fill="white" font-weight="700">+</text>
+    <circle cx="85" cy="100" r="5" fill="#06b6d4" opacity="0.8"/>
+    <text x="85" y="103" text-anchor="middle" font-size="7" fill="white" font-weight="700">−</text>
+    <circle cx="110" cy="95" r="5" fill="#f59e0b" opacity="0.8"/>
+    <text x="110" y="98" text-anchor="middle" font-size="7" fill="white" font-weight="700">+</text>
+    <circle cx="135" cy="100" r="5" fill="#06b6d4" opacity="0.8"/>
+    <text x="135" y="103" text-anchor="middle" font-size="7" fill="white" font-weight="700">−</text>
+    <circle cx="75" cy="118" r="5" fill="#06b6d4" opacity="0.8"/>
+    <text x="75" y="121" text-anchor="middle" font-size="7" fill="white" font-weight="700">−</text>
+    <circle cx="100" cy="115" r="5" fill="#f59e0b" opacity="0.8"/>
+    <text x="100" y="118" text-anchor="middle" font-size="7" fill="white" font-weight="700">+</text>
+    <circle cx="125" cy="118" r="5" fill="#06b6d4" opacity="0.8"/>
+    <text x="125" y="121" text-anchor="middle" font-size="7" fill="white" font-weight="700">−</text>
+    <circle cx="60" cy="135" r="5" fill="#f59e0b" opacity="0.8"/>
+    <text x="60" y="138" text-anchor="middle" font-size="7" fill="white" font-weight="700">+</text>
+    <circle cx="85" cy="138" r="5" fill="#06b6d4" opacity="0.8"/>
+    <text x="85" y="141" text-anchor="middle" font-size="7" fill="white" font-weight="700">−</text>
+    <circle cx="115" cy="135" r="5" fill="#f59e0b" opacity="0.8"/>
+    <text x="115" y="138" text-anchor="middle" font-size="7" fill="white" font-weight="700">+</text>
+    <circle cx="140" cy="138" r="5" fill="#06b6d4" opacity="0.8"/>
+    <text x="140" y="141" text-anchor="middle" font-size="7" fill="white" font-weight="700">−</text>
+    <circle cx="70" cy="155" r="5" fill="#06b6d4" opacity="0.8"/>
+    <circle cx="95" cy="155" r="5" fill="#f59e0b" opacity="0.8"/>
+    <circle cx="120" cy="158" r="5" fill="#06b6d4" opacity="0.8"/>
+    <circle cx="145" cy="155" r="5" fill="#f59e0b" opacity="0.8"/>
+    <circle cx="65" cy="172" r="5" fill="#f59e0b" opacity="0.8"/>
+    <circle cx="90" cy="175" r="5" fill="#06b6d4" opacity="0.8"/>
+    <circle cx="115" cy="175" r="5" fill="#f59e0b" opacity="0.8"/>
+    <circle cx="140" cy="172" r="5" fill="#06b6d4" opacity="0.8"/>
+    <circle cx="75" cy="192" r="5" fill="#06b6d4" opacity="0.8"/>
+    <circle cx="100" cy="195" r="5" fill="#f59e0b" opacity="0.8"/>
+    <circle cx="125" cy="192" r="5" fill="#06b6d4" opacity="0.8"/>
+    <!-- Crystallizing at bottom -->
+    <rect x="55" y="210" width="90" height="20" rx="4" fill="#f59e0b" opacity="0.5"/>
+    <text x="100" y="224" text-anchor="middle" font-size="7" fill="#92400e">Кристаллизация!</text>
+    <!-- Danger/exclamation -->
+    <text x="155" y="92" font-size="16" fill="#ef4444">⚠</text>
+    <!-- Label -->
+    <rect x="25" y="240" width="150" height="28" rx="6" fill="#ef4444" opacity="0.12"/>
+    <text x="100" y="258" text-anchor="middle" font-size="12" font-weight="600" fill="#ef4444">Пересыщенный</text>
+    <text x="100" y="275" text-anchor="middle" class="card-text">Нестабилен! Кристаллизуется</text>
+  </g>
+
+  <!-- Bottom note -->
+  <text x="400" y="480" text-anchor="middle" class="small">Насыщенный раствор — динамическое равновесие: скорость растворения = скорости кристаллизации</text>
+</svg>

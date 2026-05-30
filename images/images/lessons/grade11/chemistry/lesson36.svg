@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg36" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="hdr36" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0d9488"/>
+      <stop offset="100%" style="stop-color:#059669"/>
+    </linearGradient>
+    <filter id="glow36">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg36)" rx="12"/>
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="44" fill="url(#hdr36)" rx="12"/>
+  <rect x="0" y="22" width="800" height="22" fill="url(#hdr36)"/>
+  <text x="400" y="30" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#ffffff" text-anchor="middle">Обобщение по теме «Неметаллы»</text>
+
+  <!-- === REACTIVE NONMETALS (LEFT) === -->
+  <rect x="15" y="54" width="250" height="210" rx="8" fill="rgba(30,41,59,0.8)" stroke="#8b5cf6" stroke-width="1"/>
+  <text x="140" y="72" font-family="Arial, sans-serif" font-size="12" fill="#8b5cf6" text-anchor="middle" font-weight="bold">Реактивные неметаллы</text>
+  <!-- Element cards row 1 -->
+  <rect x="25" y="80" width="42" height="36" rx="5" fill="rgba(139,92,246,0.25)" stroke="#8b5cf6" stroke-width="0.8"/>
+  <text x="46" y="96" font-family="Arial, sans-serif" font-size="11" fill="#8b5cf6" text-anchor="middle" font-weight="bold">H</text>
+  <text x="46" y="110" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">1</text>
+  <rect x="72" y="80" width="42" height="36" rx="5" fill="rgba(139,92,246,0.25)" stroke="#8b5cf6" stroke-width="0.8"/>
+  <text x="93" y="96" font-family="Arial, sans-serif" font-size="11" fill="#8b5cf6" text-anchor="middle" font-weight="bold">B</text>
+  <text x="93" y="110" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">5</text>
+  <rect x="119" y="80" width="42" height="36" rx="5" fill="rgba(139,92,246,0.25)" stroke="#8b5cf6" stroke-width="0.8"/>
+  <text x="140" y="96" font-family="Arial, sans-serif" font-size="11" fill="#8b5cf6" text-anchor="middle" font-weight="bold">C</text>
+  <text x="140" y="110" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">6</text>
+  <rect x="166" y="80" width="42" height="36" rx="5" fill="rgba(139,92,246,0.25)" stroke="#8b5cf6" stroke-width="0.8"/>
+  <text x="187" y="96" font-family="Arial, sans-serif" font-size="11" fill="#8b5cf6" text-anchor="middle" font-weight="bold">N</text>
+  <text x="187" y="110" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">7</text>
+  <rect x="213" y="80" width="42" height="36" rx="5" fill="rgba(139,92,246,0.25)" stroke="#8b5cf6" stroke-width="0.8"/>
+  <text x="234" y="96" font-family="Arial, sans-serif" font-size="11" fill="#8b5cf6" text-anchor="middle" font-weight="bold">O</text>
+  <text x="234" y="110" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">8</text>
+  <!-- Row 2 -->
+  <rect x="25" y="122" width="42" height="36" rx="5" fill="rgba(139,92,246,0.25)" stroke="#8b5cf6" stroke-width="0.8"/>
+  <text x="46" y="138" font-family="Arial, sans-serif" font-size="11" fill="#8b5cf6" text-anchor="middle" font-weight="bold">Si</text>
+  <text x="46" y="152" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">14</text>
+  <rect x="72" y="122" width="42" height="36" rx="5" fill="rgba(139,92,246,0.25)" stroke="#8b5cf6" stroke-width="0.8"/>
+  <text x="93" y="138" font-family="Arial, sans-serif" font-size="11" fill="#8b5cf6" text-anchor="middle" font-weight="bold">P</text>
+  <text x="93" y="152" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">15</text>
+  <rect x="119" y="122" width="42" height="36" rx="5" fill="rgba(139,92,246,0.25)" stroke="#8b5cf6" stroke-width="0.8"/>
+  <text x="140" y="138" font-family="Arial, sans-serif" font-size="11" fill="#8b5cf6" text-anchor="middle" font-weight="bold">S</text>
+  <text x="140" y="152" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">16</text>
+  <rect x="166" y="122" width="42" height="36" rx="5" fill="rgba(139,92,246,0.25)" stroke="#8b5cf6" stroke-width="0.8"/>
+  <text x="187" y="138" font-family="Arial, sans-serif" font-size="11" fill="#8b5cf6" text-anchor="middle" font-weight="bold">Se</text>
+  <text x="187" y="152" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">34</text>
+  <!-- Trends -->
+  <text x="140" y="178" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Электроотрицательность ↑→</text>
+  <line x1="40" y1="188" x2="230" y2="188" stroke="#8b5cf6" stroke-width="1" stroke-dasharray="4,3" filter="url(#glow36)"/>
+  <text x="140" y="202" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Радиус атома ↓→</text>
+  <line x1="40" y1="212" x2="230" y2="212" stroke="#8b5cf6" stroke-width="1" stroke-dasharray="4,3" filter="url(#glow36)"/>
+  <text x="140" y="226" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Окислительные св-ва ↑→</text>
+  <!-- Arrow indicators -->
+  <path d="M220 200 L240 190 L240 195 L255 195 L255 205 L240 205 L240 210 Z" fill="#8b5cf6" opacity="0.5"/>
+
+  <!-- === HALOGENS (MIDDLE) === -->
+  <rect x="275" y="54" width="250" height="210" rx="8" fill="rgba(30,41,59,0.8)" stroke="#14b8a6" stroke-width="1"/>
+  <text x="400" y="72" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6" text-anchor="middle" font-weight="bold">Галогены</text>
+  <!-- F -->
+  <rect x="285" y="80" width="42" height="36" rx="5" fill="rgba(20,184,166,0.25)" stroke="#14b8a6" stroke-width="0.8"/>
+  <text x="306" y="96" font-family="Arial, sans-serif" font-size="11" fill="#14b8a6" text-anchor="middle" font-weight="bold">F</text>
+  <text x="306" y="110" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">9</text>
+  <!-- Cl -->
+  <rect x="332" y="80" width="42" height="36" rx="5" fill="rgba(20,184,166,0.25)" stroke="#14b8a6" stroke-width="0.8"/>
+  <text x="353" y="96" font-family="Arial, sans-serif" font-size="11" fill="#14b8a6" text-anchor="middle" font-weight="bold">Cl</text>
+  <text x="353" y="110" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">17</text>
+  <!-- Br -->
+  <rect x="379" y="80" width="42" height="36" rx="5" fill="rgba(20,184,166,0.25)" stroke="#14b8a6" stroke-width="0.8"/>
+  <text x="400" y="96" font-family="Arial, sans-serif" font-size="11" fill="#14b8a6" text-anchor="middle" font-weight="bold">Br</text>
+  <text x="400" y="110" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">35</text>
+  <!-- I -->
+  <rect x="426" y="80" width="42" height="36" rx="5" fill="rgba(20,184,166,0.25)" stroke="#14b8a6" stroke-width="0.8"/>
+  <text x="447" y="96" font-family="Arial, sans-serif" font-size="11" fill="#14b8a6" text-anchor="middle" font-weight="bold">I</text>
+  <text x="447" y="110" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">53</text>
+  <!-- At -->
+  <rect x="473" y="80" width="42" height="36" rx="5" fill="rgba(20,184,166,0.25)" stroke="#14b8a6" stroke-width="0.8"/>
+  <text x="494" y="96" font-family="Arial, sans-serif" font-size="11" fill="#14b8a6" text-anchor="middle" font-weight="bold">At</text>
+  <text x="494" y="110" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">85</text>
+  <!-- Halogen properties -->
+  <text x="400" y="140" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Реактивность ↓ по группе</text>
+  <text x="400" y="155" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">F₂ — сильнейший окислитель</text>
+  <text x="400" y="170" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Cl₂ + H₂O → HCl + HClO</text>
+  <text x="400" y="185" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Cl₂ + 2NaOH → NaCl + NaClO + H₂O</text>
+  <!-- Reactivity arrow -->
+  <line x1="295" y1="205" x2="500" y2="205" stroke="#14b8a6" stroke-width="1.5" filter="url(#glow36)"/>
+  <polygon points="500,205 492,200 492,210" fill="#14b8a6"/>
+  <text x="400" y="220" font-family="Arial, sans-serif" font-size="8" fill="#14b8a6" text-anchor="middle">реактивность уменьшается →</text>
+  <text x="400" y="235" font-family="Arial, sans-serif" font-size="8" fill="#f59e0b" text-anchor="middle">Ag halides: AgCl↓ бел., AgBr↓ желт., AgI↓ жёлт.</text>
+  <!-- Displacement -->
+  <text x="400" y="252" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8" text-anchor="middle">Cl₂ + 2KBr → 2KCl + Br₂ (вытеснение)</text>
+
+  <!-- === NOBLE GASES (RIGHT) === -->
+  <rect x="535" y="54" width="250" height="210" rx="8" fill="rgba(30,41,59,0.8)" stroke="#f59e0b" stroke-width="1"/>
+  <text x="660" y="72" font-family="Arial, sans-serif" font-size="12" fill="#f59e0b" text-anchor="middle" font-weight="bold">Благородные газы</text>
+  <!-- He Ne Ar Kr Xe Rn -->
+  <rect x="545" y="80" width="36" height="34" rx="5" fill="rgba(245,158,11,0.2)" stroke="#f59e0b" stroke-width="0.8"/>
+  <text x="563" y="100" font-family="Arial, sans-serif" font-size="10" fill="#f59e0b" text-anchor="middle" font-weight="bold">He</text>
+  <rect x="586" y="80" width="36" height="34" rx="5" fill="rgba(245,158,11,0.2)" stroke="#f59e0b" stroke-width="0.8"/>
+  <text x="604" y="100" font-family="Arial, sans-serif" font-size="10" fill="#f59e0b" text-anchor="middle" font-weight="bold">Ne</text>
+  <rect x="627" y="80" width="36" height="34" rx="5" fill="rgba(245,158,11,0.2)" stroke="#f59e0b" stroke-width="0.8"/>
+  <text x="645" y="100" font-family="Arial, sans-serif" font-size="10" fill="#f59e0b" text-anchor="middle" font-weight="bold">Ar</text>
+  <rect x="668" y="80" width="36" height="34" rx="5" fill="rgba(245,158,11,0.2)" stroke="#f59e0b" stroke-width="0.8"/>
+  <text x="686" y="100" font-family="Arial, sans-serif" font-size="10" fill="#f59e0b" text-anchor="middle" font-weight="bold">Kr</text>
+  <rect x="709" y="80" width="36" height="34" rx="5" fill="rgba(245,158,11,0.2)" stroke="#f59e0b" stroke-width="0.8"/>
+  <text x="727" y="100" font-family="Arial, sans-serif" font-size="10" fill="#f59e0b" text-anchor="middle" font-weight="bold">Xe</text>
+  <rect x="750" y="80" width="28" height="34" rx="5" fill="rgba(245,158,11,0.15)" stroke="#f59e0b" stroke-width="0.8"/>
+  <text x="764" y="100" font-family="Arial, sans-serif" font-size="9" fill="#f59e0b" text-anchor="middle" font-weight="bold">Rn</text>
+  <!-- Properties -->
+  <text x="660" y="132" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Завершённый внешний уровень</text>
+  <text x="660" y="147" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">ns²np⁶ (He: 1s²)</text>
+  <text x="660" y="165" font-family="Arial, sans-serif" font-size="9" fill="#f59e0b" text-anchor="middle">Инертность → малая реакционная</text>
+  <text x="660" y="180" font-family="Arial, sans-serif" font-size="9" fill="#f59e0b" text-anchor="middle">способность</text>
+  <text x="660" y="200" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Исключения: XeF₂, XeF₄, XeF₆, KrF₂</text>
+  <text x="660" y="220" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Применение: лампы (Ne, Ar),</text>
+  <text x="660" y="235" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">сварка (Ar), криогеника (He)</text>
+  <text x="660" y="255" font-family="Arial, sans-serif" font-size="8" fill="#14b8a6" text-anchor="middle">T кипения ↑ вниз по группе</text>
+
+  <!-- === COMMON REACTIONS (BOTTOM LEFT) === -->
+  <rect x="15" y="274" width="385" height="216" rx="8" fill="rgba(30,41,59,0.8)" stroke="#334155" stroke-width="1"/>
+  <text x="207" y="292" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6" text-anchor="middle" font-weight="bold">Типичные реакции неметаллов</text>
+  <!-- With metals -->
+  <rect x="25" y="300" width="365" height="52" rx="5" fill="rgba(245,158,11,0.08)" stroke="#f59e0b" stroke-width="0.5"/>
+  <text x="35" y="315" font-family="Arial, sans-serif" font-size="10" fill="#f59e0b" font-weight="bold">С металлами:</text>
+  <text x="35" y="330" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">2Na + Cl₂ → 2NaCl</text>
+  <text x="195" y="330" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">3Fe + 2O₂ → Fe₃O₄</text>
+  <text x="35" y="344" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">Ca + H₂ → CaH₂</text>
+  <!-- With O2 -->
+  <rect x="25" y="358" width="365" height="52" rx="5" fill="rgba(20,184,166,0.08)" stroke="#14b8a6" stroke-width="0.5"/>
+  <text x="35" y="373" font-family="Arial, sans-serif" font-size="10" fill="#14b8a6" font-weight="bold">С O₂ (горение):</text>
+  <text x="35" y="388" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">S + O₂ → SO₂</text>
+  <text x="160" y="388" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">N₂ + O₂ → 2NO</text>
+  <text x="295" y="388" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">C + O₂ → CO₂</text>
+  <text x="35" y="402" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">4P + 5O₂ → 2P₂O₅</text>
+  <text x="195" y="402" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">Si + O₂ → SiO₂</text>
+  <!-- With each other -->
+  <rect x="25" y="416" width="365" height="52" rx="5" fill="rgba(139,92,246,0.08)" stroke="#8b5cf6" stroke-width="0.5"/>
+  <text x="35" y="431" font-family="Arial, sans-serif" font-size="10" fill="#8b5cf6" font-weight="bold">Между собой:</text>
+  <text x="35" y="446" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">H₂ + Cl₂ → 2HCl</text>
+  <text x="195" y="446" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">N₂ + 3H₂ → 2NH₃</text>
+  <text x="35" y="460" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">C + 2S → CS₂</text>
+  <text x="160" y="460" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">2P + 3Cl₂ → 2PCl₃</text>
+  <text x="310" y="460" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">Si + C → SiC</text>
+
+  <!-- === OXIDATION STATES TABLE (BOTTOM RIGHT) === -->
+  <rect x="410" y="274" width="375" height="216" rx="8" fill="rgba(30,41,59,0.8)" stroke="#334155" stroke-width="1"/>
+  <text x="597" y="292" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6" text-anchor="middle" font-weight="bold">Степени окисления неметаллов</text>
+  <!-- Table header -->
+  <rect x="420" y="300" width="355" height="20" rx="3" fill="rgba(20,184,166,0.2)"/>
+  <text x="448" y="314" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6" text-anchor="middle" font-weight="bold">Элемент</text>
+  <text x="520" y="314" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6" text-anchor="middle" font-weight="bold">мин.</text>
+  <text x="575" y="314" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6" text-anchor="middle" font-weight="bold">макс.</text>
+  <text x="660" y="314" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6" text-anchor="middle" font-weight="bold">Промежуточные</text>
+  <!-- N row -->
+  <rect x="420" y="322" width="355" height="22" rx="2" fill="rgba(139,92,246,0.1)"/>
+  <text x="448" y="337" font-family="Arial, sans-serif" font-size="10" fill="#8b5cf6" text-anchor="middle" font-weight="bold">N</text>
+  <text x="520" y="337" font-family="Arial, sans-serif" font-size="10" fill="#ef4444" text-anchor="middle">−3</text>
+  <text x="575" y="337" font-family="Arial, sans-serif" font-size="10" fill="#14b8a6" text-anchor="middle">+5</text>
+  <text x="660" y="337" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">+1, +2, +3, +4</text>
+  <!-- S row -->
+  <rect x="420" y="346" width="355" height="22" rx="2" fill="rgba(30,41,59,0.5)"/>
+  <text x="448" y="361" font-family="Arial, sans-serif" font-size="10" fill="#8b5cf6" text-anchor="middle" font-weight="bold">S</text>
+  <text x="520" y="361" font-family="Arial, sans-serif" font-size="10" fill="#ef4444" text-anchor="middle">−2</text>
+  <text x="575" y="361" font-family="Arial, sans-serif" font-size="10" fill="#14b8a6" text-anchor="middle">+6</text>
+  <text x="660" y="361" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">+2, +4</text>
+  <!-- P row -->
+  <rect x="420" y="370" width="355" height="22" rx="2" fill="rgba(139,92,246,0.1)"/>
+  <text x="448" y="385" font-family="Arial, sans-serif" font-size="10" fill="#8b5cf6" text-anchor="middle" font-weight="bold">P</text>
+  <text x="520" y="385" font-family="Arial, sans-serif" font-size="10" fill="#ef4444" text-anchor="middle">−3</text>
+  <text x="575" y="385" font-family="Arial, sans-serif" font-size="10" fill="#14b8a6" text-anchor="middle">+5</text>
+  <text x="660" y="385" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">+1, +3</text>
+  <!-- C row -->
+  <rect x="420" y="394" width="355" height="22" rx="2" fill="rgba(30,41,59,0.5)"/>
+  <text x="448" y="409" font-family="Arial, sans-serif" font-size="10" fill="#8b5cf6" text-anchor="middle" font-weight="bold">C</text>
+  <text x="520" y="409" font-family="Arial, sans-serif" font-size="10" fill="#ef4444" text-anchor="middle">−4</text>
+  <text x="575" y="409" font-family="Arial, sans-serif" font-size="10" fill="#14b8a6" text-anchor="middle">+4</text>
+  <text x="660" y="409" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">+2, −2 (CO)</text>
+  <!-- Si row -->
+  <rect x="420" y="418" width="355" height="22" rx="2" fill="rgba(139,92,246,0.1)"/>
+  <text x="448" y="433" font-family="Arial, sans-serif" font-size="10" fill="#8b5cf6" text-anchor="middle" font-weight="bold">Si</text>
+  <text x="520" y="433" font-family="Arial, sans-serif" font-size="10" fill="#ef4444" text-anchor="middle">−4</text>
+  <text x="575" y="433" font-family="Arial, sans-serif" font-size="10" fill="#14b8a6" text-anchor="middle">+4</text>
+  <text x="660" y="433" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">только −4, +4</text>
+  <!-- Cl row -->
+  <rect x="420" y="442" width="355" height="22" rx="2" fill="rgba(30,41,59,0.5)"/>
+  <text x="448" y="457" font-family="Arial, sans-serif" font-size="10" fill="#14b8a6" text-anchor="middle" font-weight="bold">Cl</text>
+  <text x="520" y="457" font-family="Arial, sans-serif" font-size="10" fill="#ef4444" text-anchor="middle">−1</text>
+  <text x="575" y="457" font-family="Arial, sans-serif" font-size="10" fill="#14b8a6" text-anchor="middle">+7</text>
+  <text x="660" y="457" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">+1, +3, +5</text>
+  <!-- Legend -->
+  <circle cx="430" cy="478" r="4" fill="#ef4444"/>
+  <text x="440" y="482" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8">мин. с.о. (восст.)</text>
+  <circle cx="530" cy="478" r="4" fill="#14b8a6"/>
+  <text x="540" y="482" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8">макс. с.о. (окисл.)</text>
+  <circle cx="640" cy="478" r="4" fill="#8b5cf6"/>
+  <text x="650" y="482" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8">неметалл</text>
+</svg>

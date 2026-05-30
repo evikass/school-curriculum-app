@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="header" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <linearGradient id="centralGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowSm">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <!-- Header bar -->
+  <rect x="0" y="0" width="800" height="52" fill="url(#header)" rx="0"/>
+  <text x="400" y="35" text-anchor="middle" fill="#ffffff" font-size="19" font-weight="bold">Урок 15: Обобщение — Строение вещества</text>
+  <!-- ===== MIND MAP ===== -->
+  <!-- Central node -->
+  <ellipse cx="400" cy="260" rx="110" ry="36" fill="url(#centralGrad)" fill-opacity="0.3" stroke="#14b8a6" stroke-width="2.5" filter="url(#glow)"/>
+  <text x="400" y="255" text-anchor="middle" fill="#14b8a6" font-size="15" font-weight="bold">СТРОЕНИЕ</text>
+  <text x="400" y="274" text-anchor="middle" fill="#14b8a6" font-size="15" font-weight="bold">ВЕЩЕСТВА</text>
+  <!-- ===== GLOWING CONNECTION LINES ===== -->
+  <!-- Line to Branch 1: Ковалентная связь (top-left) -->
+  <line x1="310" y1="240" x2="155" y2="130" stroke="#10b981" stroke-width="2" opacity="0.6" filter="url(#glowSm)"/>
+  <!-- Line to Branch 2: Электроотрицательность (top-right) -->
+  <line x1="490" y1="240" x2="645" y2="130" stroke="#8b5cf6" stroke-width="2" opacity="0.6" filter="url(#glowSm)"/>
+  <!-- Line to Branch 3: Ионная связь (left) -->
+  <line x1="295" y1="260" x2="130" y2="290" stroke="#ef4444" stroke-width="2" opacity="0.6" filter="url(#glowSm)"/>
+  <!-- Line to Branch 4: Металлическая связь (right) -->
+  <line x1="505" y1="260" x2="670" y2="290" stroke="#f59e0b" stroke-width="2" opacity="0.6" filter="url(#glowSm)"/>
+  <!-- Line to Branch 5: Водородная связь (bottom-left) -->
+  <line x1="340" y1="290" x2="195" y2="420" stroke="#14b8a6" stroke-width="2" opacity="0.6" filter="url(#glowSm)"/>
+  <!-- Line to Branch 6: Кристаллические решётки (bottom-right) -->
+  <line x1="460" y1="290" x2="605" y2="420" stroke="#eab308" stroke-width="2" opacity="0.6" filter="url(#glowSm)"/>
+  <!-- ===== BRANCH 1: Ковалентная связь ===== -->
+  <rect x="30" y="80" width="210" height="100" rx="12" fill="#1e293b" fill-opacity="0.85" stroke="#10b981" stroke-width="1.5"/>
+  <rect x="30" y="80" width="210" height="22" rx="12" fill="#10b981" fill-opacity="0.2"/>
+  <text x="135" y="96" text-anchor="middle" fill="#10b981" font-size="12" font-weight="bold">1. Ковалентная связь</text>
+  <text x="45" y="118" fill="#ffffff" font-size="10">• Неполярная (H₂, Cl₂, O₂)</text>
+  <text x="45" y="133" fill="#ffffff" font-size="10">• Полярная (HCl, H₂O, NH₃)</text>
+  <text x="45" y="148" fill="#94a3b8" font-size="10">• σ-связь: головное перекрыв.</text>
+  <text x="45" y="163" fill="#94a3b8" font-size="10">• π-связь: боковое перекрыв.</text>
+  <text x="45" y="176" fill="#94a3b8" font-size="9">Общая электронная пара</text>
+  <!-- ===== BRANCH 2: Электроотрицательность ===== -->
+  <rect x="560" y="80" width="210" height="100" rx="12" fill="#1e293b" fill-opacity="0.85" stroke="#8b5cf6" stroke-width="1.5"/>
+  <rect x="560" y="80" width="210" height="22" rx="12" fill="#8b5cf6" fill-opacity="0.2"/>
+  <text x="665" y="96" text-anchor="middle" fill="#8b5cf6" font-size="12" font-weight="bold">2. Электроотрицательность</text>
+  <text x="575" y="118" fill="#ffffff" font-size="10">• Шкала Полинга</text>
+  <text x="575" y="133" fill="#ffffff" font-size="10">• F(4.0) &gt; O(3.5) &gt; N(3.0)</text>
+  <text x="575" y="148" fill="#94a3b8" font-size="10">• ΔЭО&lt;0.4 → неполярная</text>
+  <text x="575" y="163" fill="#94a3b8" font-size="10">• 0.4–1.8 → полярная</text>
+  <text x="575" y="176" fill="#94a3b8" font-size="10">• ΔЭO&gt;1.8 → ионная</text>
+  <!-- ===== BRANCH 3: Ионная связь ===== -->
+  <rect x="20" y="245" width="195" height="95" rx="12" fill="#1e293b" fill-opacity="0.85" stroke="#ef4444" stroke-width="1.5"/>
+  <rect x="20" y="245" width="195" height="22" rx="12" fill="#ef4444" fill-opacity="0.2"/>
+  <text x="118" y="261" text-anchor="middle" fill="#ef4444" font-size="12" font-weight="bold">3. Ионная связь</text>
+  <text x="35" y="283" fill="#ffffff" font-size="10">• Перенос электронов</text>
+  <text x="35" y="298" fill="#ffffff" font-size="10">• Na + Cl → Na⁺ + Cl⁻</text>
+  <text x="35" y="313" fill="#94a3b8" font-size="10">• Высокая T плавл.</text>
+  <text x="35" y="328" fill="#94a3b8" font-size="10">• Проводят в расплаве</text>
+  <!-- ===== BRANCH 4: Металлическая связь ===== -->
+  <rect x="585" y="245" width="195" height="95" rx="12" fill="#1e293b" fill-opacity="0.85" stroke="#f59e0b" stroke-width="1.5"/>
+  <rect x="585" y="245" width="195" height="22" rx="12" fill="#f59e0b" fill-opacity="0.2"/>
+  <text x="683" y="261" text-anchor="middle" fill="#f59e0b" font-size="12" font-weight="bold">4. Металлическая связь</text>
+  <text x="600" y="283" fill="#ffffff" font-size="10">• Электронный газ</text>
+  <text x="600" y="298" fill="#ffffff" font-size="10">• Me⁺ в общем «море e⁻»</text>
+  <text x="600" y="313" fill="#94a3b8" font-size="10">• Ковкие, пластичные</text>
+  <text x="600" y="328" fill="#94a3b8" font-size="10">• Проводят ток и тепло</text>
+  <!-- ===== BRANCH 5: Водородная связь ===== -->
+  <rect x="50" y="385" width="210" height="100" rx="12" fill="#1e293b" fill-opacity="0.85" stroke="#14b8a6" stroke-width="1.5"/>
+  <rect x="50" y="385" width="210" height="22" rx="12" fill="#14b8a6" fill-opacity="0.2"/>
+  <text x="155" y="401" text-anchor="middle" fill="#14b8a6" font-size="12" font-weight="bold">5. Водородная связь</text>
+  <text x="65" y="423" fill="#ffffff" font-size="10">• H—F···F, H—O···O, H—N···N</text>
+  <text x="65" y="438" fill="#ffffff" font-size="10">• Только с F, O, N</text>
+  <text x="65" y="453" fill="#94a3b8" font-size="10">• Аномалия воды (T кип 100°C)</text>
+  <text x="65" y="468" fill="#94a3b8" font-size="10">• ДНК: A–T (2), G–C (3)</text>
+  <text x="65" y="481" fill="#94a3b8" font-size="9">Межмолекулярная связь</text>
+  <!-- ===== BRANCH 6: Кристаллические решётки ===== -->
+  <rect x="540" y="385" width="230" height="100" rx="12" fill="#1e293b" fill-opacity="0.85" stroke="#eab308" stroke-width="1.5"/>
+  <rect x="540" y="385" width="230" height="22" rx="12" fill="#eab308" fill-opacity="0.2"/>
+  <text x="655" y="401" text-anchor="middle" fill="#eab308" font-size="12" font-weight="bold">6. Кристаллические решётки</text>
+  <text x="555" y="423" fill="#14b8a6" font-size="10">• Ионная (NaCl)</text>
+  <text x="555" y="438" fill="#8b5cf6" font-size="10">• Атомная (алмаз, SiO₂)</text>
+  <text x="555" y="453" fill="#f59e0b" font-size="10">• Молекулярная (I₂, CO₂)</text>
+  <text x="555" y="468" fill="#eab308" font-size="10">• Металлическая (Fe, Cu)</text>
+  <text x="555" y="481" fill="#94a3b8" font-size="9">Определяют свойства вещества</text>
+  <!-- ===== DECORATIVE: Small accent dots at line midpoints ===== -->
+  <circle cx="232" cy="185" r="3" fill="#10b981" opacity="0.6" filter="url(#glowSm)"/>
+  <circle cx="567" cy="185" r="3" fill="#8b5cf6" opacity="0.6" filter="url(#glowSm)"/>
+  <circle cx="212" cy="275" r="3" fill="#ef4444" opacity="0.6" filter="url(#glowSm)"/>
+  <circle cx="587" cy="275" r="3" fill="#f59e0b" opacity="0.6" filter="url(#glowSm)"/>
+  <circle cx="267" cy="355" r="3" fill="#14b8a6" opacity="0.6" filter="url(#glowSm)"/>
+  <circle cx="532" cy="355" r="3" fill="#eab308" opacity="0.6" filter="url(#glowSm)"/>
+  <!-- ===== KEY INSIGHT at center bottom ===== -->
+  <rect x="260" y="325" width="280" height="28" rx="8" fill="#1e293b" fill-opacity="0.9" stroke="#14b8a6" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="400" y="344" text-anchor="middle" fill="#14b8a6" font-size="11" font-weight="bold">Тип связи → Тип решётки → Свойства</text>
+</svg>

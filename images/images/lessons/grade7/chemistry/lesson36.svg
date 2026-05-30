@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#94a3b8" flood-opacity="0.25"/>
+    </filter>
+      <marker id="arrowhead-3b82f6" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#3b82f6"/>
+    </marker>
+</defs>
+  <!-- Background -->
+  <rect width="800" height="500" rx="12" fill="#f8fafc" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="800" height="6" rx="3" fill="#3b82f6"/>
+  <text x="400" y="42" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#1d4ed8">Основания</text>
+  <rect x="310" y="58" width="180" height="45" rx="10" fill="#3b82f6"/>
+  <text x="400" y="89" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#ffffff">OH<tspan baseline-shift="super" font-size="75%">−</tspan></text>
+  <rect x="20" y="115" width="375" height="170" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+  <rect x="20" y="115" width="375" height="34" rx="10" fill="#16a34a"/>
+  <rect x="20" y="139" width="375" height="10" fill="#16a34a"/>
+  <text x="207" y="138" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#ffffff">Щёлочи (растворимые)</text>
+  <rect x="35" y="160" width="110" height="48" rx="10" fill="#ffffff" stroke="#86efac" stroke-width="1.5"/>
+  <text x="90" y="182" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#166534">NaOH</text>
+  <text x="90" y="200" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#16a34a">едкий натр</text>
+  <rect x="155" y="160" width="110" height="48" rx="10" fill="#ffffff" stroke="#86efac" stroke-width="1.5"/>
+  <text x="210" y="182" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#166534">KOH</text>
+  <text x="210" y="200" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#16a34a">едкое кали</text>
+  <rect x="275" y="160" width="110" height="48" rx="10" fill="#ffffff" stroke="#86efac" stroke-width="1.5"/>
+  <text x="330" y="182" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#166534">Ca(OH)<tspan baseline-shift="sub" font-size="75%">₂</tspan></text>
+  <text x="330" y="200" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#16a34a">гашёная известь</text>
+  <text x="207" y="232" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#15803d">Растворяются в воде → мыло на ощупь</text>
+  <text x="207" y="250" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#15803d">Щёлочь = Me⁺ + OH⁻</text>
+  <rect x="405" y="115" width="375" height="170" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
+  <rect x="405" y="115" width="375" height="34" rx="10" fill="#3b82f6"/>
+  <rect x="405" y="139" width="375" height="10" fill="#3b82f6"/>
+  <text x="592" y="138" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#ffffff">Нерастворимые основания</text>
+  <rect x="420" y="160" width="165" height="55" rx="10" fill="#ffffff" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="502" y="182" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#1e40af">Cu(OH)<tspan baseline-shift="sub" font-size="75%">₂</tspan></text>
+  <text x="502" y="200" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#3b82f6">голубой осадок</text>
+  <rect x="600" y="160" width="165" height="55" rx="10" fill="#ffffff" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="682" y="182" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#1e40af">Fe(OH)<tspan baseline-shift="sub" font-size="75%">₃</tspan></text>
+  <text x="682" y="200" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#3b82f6">бурый осадок</text>
+  <text x="592" y="240" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#2563eb">Не растворяются в воде</text>
+  <text x="592" y="258" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#2563eb">Разлагаются при нагревании</text>
+  <rect x="20" y="300" width="370" height="180" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="205" y="325" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#92400e">Индикаторы на основания</text>
+  <rect x="35" y="340" width="160" height="55" rx="10" fill="#dbeafe" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="115" y="362" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1e40af">Лакмус</text>
+  <text x="115" y="382" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#2563eb">→ СИНИЙ</text>
+  <rect x="210" y="340" width="160" height="55" rx="10" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="290" y="362" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#9d174d">Фенолфталеин</text>
+  <text x="290" y="382" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#db2777">→ РОЗОВЫЙ</text>
+  <rect x="35" y="405" width="335" height="55" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+  <text x="202" y="427" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#166534">Универсальный индикатор</text>
+  <text x="202" y="448" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#15803d">→ Сине-зелёный (pH &gt; 7)</text>
+  <rect x="410" y="300" width="370" height="180" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="595" y="325" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#1d4ed8">Общие свойства оснований</text>
+  <circle cx="435" cy="350" r="5" fill="#3b82f6"/>
+  <text x="450" y="355" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#1e40af">Основание + Кислота → Соль + Вода</text>
+  <circle cx="435" cy="378" r="5" fill="#3b82f6"/>
+  <text x="450" y="383" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#1e40af">Щёлочь + Кислотный оксид → Соль + H₂O</text>
+  <circle cx="435" cy="406" r="5" fill="#3b82f6"/>
+  <text x="450" y="411" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#1e40af">Щёлочь + Соль → Нов. основание + Нов. соль</text>
+  <circle cx="435" cy="434" r="5" fill="#3b82f6"/>
+  <text x="450" y="439" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#1e40af">Нераств. основания → MeO + H₂O (t°)</text>
+  <text x="595" y="468" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-style="italic" fill="#64748b">Общая формула: Me(OH)ₙ</text>
+</svg>

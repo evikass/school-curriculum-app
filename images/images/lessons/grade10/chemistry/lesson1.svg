@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="tg1" x1="0" y1="0" x2="400" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0d9488"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <filter id="sh1" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="400" height="300" rx="8" fill="#1a1a2e"/>
+  <rect width="400" height="52" rx="8" fill="url(#tg1)"/>
+  <rect y="44" width="400" height="8" fill="url(#tg1)"/>
+  <text x="200" y="24" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Предмет органической химии</text>
+  <text x="200" y="42" text-anchor="middle" fill="#ccfbf1" font-family="Arial, sans-serif" font-size="10">Химия 10 класс</text>
+  <!-- Left card: Features of organic compounds -->
+    <rect x="10" y="60" width="185" height="105" rx="6" fill="#1e1e3a" stroke="#0d9488" stroke-width="1" filter="url(#sh1)"/>
+    <text x="22" y="78" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#14b8a6">Особенности орг. веществ</text>
+    <circle cx="22" cy="90" r="3" fill="#14b8a6"/>
+  <text x="32" y="94" font-family="Arial, sans-serif" font-size="9.5" fill="#e2e8f0">Основа — углерод C</text>
+    <circle cx="22" cy="104" r="3" fill="#14b8a6"/>
+  <text x="32" y="108" font-family="Arial, sans-serif" font-size="9.5" fill="#e2e8f0">Ковалентные связи C–C, C–H</text>
+    <circle cx="22" cy="118" r="3" fill="#14b8a6"/>
+  <text x="32" y="122" font-family="Arial, sans-serif" font-size="9.5" fill="#e2e8f0">Изомерия — один состав,</text>
+    <text x="32" y="133" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8">разные свойства</text>
+    <circle cx="22" cy="143" r="3" fill="#14b8a6"/>
+  <text x="32" y="147" font-family="Arial, sans-serif" font-size="9.5" fill="#e2e8f0">Молекулярная природа</text>
+    <circle cx="22" cy="157" r="3" fill="#14b8a6"/>
+  <text x="32" y="161" font-family="Arial, sans-serif" font-size="9.5" fill="#e2e8f0">Низкие t пл. и t кип.</text>
+
+  <!-- Right card: Vitalism vs Wöhler -->
+    <rect x="205" y="60" width="185" height="105" rx="6" fill="#1e1e3a" stroke="#a855f7" stroke-width="1" filter="url(#sh1)"/>
+    <text x="217" y="78" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#a855f7">Витализм и синтез Велера</text>
+    <text x="217" y="95" font-family="Arial, sans-serif" font-size="9.5" fill="#e2e8f0">Витализм:</text>
+    <text x="217" y="107" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8">Орг. в-ва — только из</text>
+    <text x="217" y="118" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8">живых организмов</text>
+    <text x="217" y="135" font-family="Arial, sans-serif" font-size="9.5" fill="#e2e8f0">1828 г. Ф. Велер:</text>
+    <text x="217" y="147" font-family="Arial, sans-serif" font-size="9" fill="#f59e0b">NH2CONH4 → CO(NH2)2</text>
+    <text x="217" y="159" font-family="Arial, sans-serif" font-size="9" fill="#10b981">мочевина из неорг. в-в!</text>
+
+  <!-- Bottom left: Comparison table -->
+    <rect x="10" y="172" width="185" height="120" rx="6" fill="#1e1e3a" stroke="#3b82f6" stroke-width="1" filter="url(#sh1)"/>
+    <text x="22" y="190" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#3b82f6">Орг. vs Неорг. вещества</text>
+  <line x1="22" y1="196" x2="183" y2="196" stroke="#3b82f6" stroke-width="0.5" opacity="0.5"/>
+    <text x="22" y="208" font-family="Arial, sans-serif" font-size="8.5" fill="#64748b">Свойство</text>
+    <text x="107" y="208" font-family="Arial, sans-serif" font-size="8.5" fill="#14b8a6">Орг.</text>
+    <text x="150" y="208" font-family="Arial, sans-serif" font-size="8.5" fill="#f59e0b">Неорг.</text>
+  <line x1="22" y1="212" x2="183" y2="212" stroke="#3b3b6b" stroke-width="0.5"/>
+    <text x="22" y="222" font-family="Arial, sans-serif" font-size="8.5" fill="#94a3b8">Связи</text>
+    <text x="107" y="222" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">Ковалент.</text>
+    <text x="150" y="222" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">Ионные</text>
+    <text x="22" y="234" font-family="Arial, sans-serif" font-size="8.5" fill="#94a3b8">t плавл.</text>
+    <text x="107" y="234" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">Низк.</text>
+    <text x="150" y="234" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">Высок.</text>
+    <text x="22" y="246" font-family="Arial, sans-serif" font-size="8.5" fill="#94a3b8">Раств.</text>
+    <text x="107" y="246" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">Орг. р-ли</text>
+    <text x="150" y="246" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">Вода</text>
+    <text x="22" y="258" font-family="Arial, sans-serif" font-size="8.5" fill="#94a3b8">Скорость</text>
+    <text x="107" y="258" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">Медлен.</text>
+    <text x="150" y="258" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">Быстрая</text>
+    <text x="22" y="270" font-family="Arial, sans-serif" font-size="8.5" fill="#94a3b8">Кол-во</text>
+    <text x="107" y="270" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">&gt;10 млн</text>
+    <text x="150" y="270" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">~500 тыс.</text>
+
+  <!-- Bottom right: Key concepts -->
+    <rect x="205" y="172" width="185" height="120" rx="6" fill="#1e1e3a" stroke="#10b981" stroke-width="1" filter="url(#sh1)"/>
+    <text x="217" y="190" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#10b981">Ключевые понятия</text>
+    <circle cx="217" cy="203" r="3" fill="#14b8a6"/>
+  <text x="227" y="207" font-family="Arial, sans-serif" font-size="9.5" fill="#e2e8f0">Катенация — цепочки C</text>
+    <circle cx="217" cy="218" r="3" fill="#14b8a6"/>
+  <text x="227" y="222" font-family="Arial, sans-serif" font-size="9.5" fill="#e2e8f0">Гибридизация: sp3, sp2, sp</text>
+    <circle cx="217" cy="233" r="3" fill="#14b8a6"/>
+  <text x="227" y="237" font-family="Arial, sans-serif" font-size="9.5" fill="#e2e8f0">Функц. группы: -OH, -COOH</text>
+    <circle cx="217" cy="248" r="3" fill="#14b8a6"/>
+  <text x="227" y="252" font-family="Arial, sans-serif" font-size="9.5" fill="#e2e8f0">Гомологич. ряд — CnH2n+2</text>
+    <circle cx="217" cy="263" r="3" fill="#14b8a6"/>
+  <text x="227" y="267" font-family="Arial, sans-serif" font-size="9.5" fill="#e2e8f0">Структурная формула</text>
+    <text x="227" y="282" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8">показывает порядок связей</text>
+</svg>

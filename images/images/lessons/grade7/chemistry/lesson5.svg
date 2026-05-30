@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="flask1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:0.7"/>
+    </linearGradient>
+    <linearGradient id="liquid1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981"/>
+      <stop offset="100%" style="stop-color:#059669"/>
+    </linearGradient>
+    <filter id="glow1">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <marker id="arrowHead1" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#0d9488"/>
+    </marker>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg1)" rx="12"/>
+  <!-- Title -->
+  <text x="400" y="45" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#e2e8f0" text-anchor="middle">Электроотрицательность и ионная связь</text>
+
+  <!-- Electronegativity scale -->
+  <g transform="translate(50, 80)">
+    <rect x="0" y="0" width="700" height="120" rx="8" fill="#0f172a" stroke="#0d9488" stroke-width="1" opacity="0.5"/>
+    <text x="350" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#14b8a6" text-anchor="middle">Шкала электроотрицательности (Полинг)</text>
+
+    <!-- Scale bar -->
+    <rect x="30" y="45" width="640" height="20" rx="10" fill="#1e293b" stroke="#0d9488" stroke-width="1"/>
+    <!-- Gradient fill -->
+    <rect x="30" y="45" width="640" height="20" rx="10" fill="url(#eoGrad)" opacity="0.5"/>
+
+    <defs>
+      <linearGradient id="eoGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#3b82f6"/>
+        <stop offset="100%" style="stop-color:#ef4444"/>
+      </linearGradient>
+    </defs>
+
+    <!-- Element markers -->
+    <g transform="translate(50, 75)">
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="11" fill="#3b82f6" text-anchor="middle">Na</text>
+      <text x="0" y="14" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">0,93</text>
+    </g>
+    <g transform="translate(150, 75)">
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="11" fill="#3b82f6" text-anchor="middle">Mg</text>
+      <text x="0" y="14" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">1,31</text>
+    </g>
+    <g transform="translate(280, 75)">
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="11" fill="#f59e0b" text-anchor="middle">H</text>
+      <text x="0" y="14" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">2,20</text>
+    </g>
+    <g transform="translate(400, 75)">
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="11" fill="#f59e0b" text-anchor="middle">C</text>
+      <text x="0" y="14" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">2,55</text>
+    </g>
+    <g transform="translate(500, 75)">
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="11" fill="#f59e0b" text-anchor="middle">N</text>
+      <text x="0" y="14" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">3,04</text>
+    </g>
+    <g transform="translate(580, 75)">
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="11" fill="#ef4444" text-anchor="middle">O</text>
+      <text x="0" y="14" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">3,44</text>
+    </g>
+    <g transform="translate(650, 75)">
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="11" fill="#ef4444" text-anchor="middle">F</text>
+      <text x="0" y="14" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">3,98</text>
+    </g>
+  </g>
+
+  <!-- Decision diagram -->
+  <g transform="translate(50, 230)">
+    <rect x="200" y="0" width="260" height="50" rx="25" fill="#0f172a" stroke="#14b8a6" stroke-width="2"/>
+    <text x="330" y="30" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6" text-anchor="middle">Разность ЭО элементов</text>
+
+    <!-- Branch: < 1,7 -->
+    <line x1="270" y1="50" x2="150" y2="110" stroke="#10b981" stroke-width="2" marker-end="url(#arrowHead1)"/>
+    <text x="175" y="85" font-family="Arial, sans-serif" font-size="12" fill="#10b981" text-anchor="middle">< 1,7</text>
+    <rect x="50" y="110" width="200" height="60" rx="8" fill="#0f172a" stroke="#10b981" stroke-width="1.5"/>
+    <text x="150" y="135" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#14b8a6" text-anchor="middle">Ковалентная связь</text>
+    <text x="150" y="155" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Общение электронных пар</text>
+
+    <!-- Branch: > 1,7 -->
+    <line x1="390" y1="50" x2="510" y2="110" stroke="#ef4444" stroke-width="2" marker-end="url(#arrowHead1)"/>
+    <text x="485" y="85" font-family="Arial, sans-serif" font-size="12" fill="#ef4444" text-anchor="middle">> 1,7</text>
+    <rect x="410" y="110" width="200" height="60" rx="8" fill="#0f172a" stroke="#ef4444" stroke-width="1.5"/>
+    <text x="510" y="135" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#ef4444" text-anchor="middle">Ионная связь</text>
+    <text x="510" y="155" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Передача электронов</text>
+  </g>
+
+  <!-- Ionic crystal example -->
+  <g transform="translate(50, 380)">
+    <text x="350" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e2e8f0" text-anchor="middle">Ионная кристаллическая решётка (NaCl)</text>
+
+    <!-- Crystal lattice -->
+    <g transform="translate(200, 15)">
+      <!-- Row 1 -->
+      <circle cx="0" cy="0" r="12" fill="#3b82f6" opacity="0.6" stroke="#60a5fa" stroke-width="1.5"/>
+      <text x="0" y="4" font-family="Arial, sans-serif" font-size="7" fill="#e2e8f0" text-anchor="middle">Na+</text>
+      <circle cx="35" cy="0" r="12" fill="#f59e0b" opacity="0.6" stroke="#fbbf24" stroke-width="1.5"/>
+      <text x="35" y="4" font-family="Arial, sans-serif" font-size="7" fill="#e2e8f0" text-anchor="middle">Cl-</text>
+      <circle cx="70" cy="0" r="12" fill="#3b82f6" opacity="0.6" stroke="#60a5fa" stroke-width="1.5"/>
+      <text x="70" y="4" font-family="Arial, sans-serif" font-size="7" fill="#e2e8f0" text-anchor="middle">Na+</text>
+      <circle cx="105" cy="0" r="12" fill="#f59e0b" opacity="0.6" stroke="#fbbf24" stroke-width="1.5"/>
+      <text x="105" y="4" font-family="Arial, sans-serif" font-size="7" fill="#e2e8f0" text-anchor="middle">Cl-</text>
+      <!-- Row 2 -->
+      <circle cx="0" cy="35" r="12" fill="#f59e0b" opacity="0.6" stroke="#fbbf24" stroke-width="1.5"/>
+      <text x="0" y="39" font-family="Arial, sans-serif" font-size="7" fill="#e2e8f0" text-anchor="middle">Cl-</text>
+      <circle cx="35" cy="35" r="12" fill="#3b82f6" opacity="0.6" stroke="#60a5fa" stroke-width="1.5"/>
+      <text x="35" y="39" font-family="Arial, sans-serif" font-size="7" fill="#e2e8f0" text-anchor="middle">Na+</text>
+      <circle cx="70" cy="35" r="12" fill="#f59e0b" opacity="0.6" stroke="#fbbf24" stroke-width="1.5"/>
+      <text x="70" y="39" font-family="Arial, sans-serif" font-size="7" fill="#e2e8f0" text-anchor="middle">Cl-</text>
+      <circle cx="105" cy="35" r="12" fill="#3b82f6" opacity="0.6" stroke="#60a5fa" stroke-width="1.5"/>
+      <text x="105" y="39" font-family="Arial, sans-serif" font-size="7" fill="#e2e8f0" text-anchor="middle">Na+</text>
+    </g>
+  </g>
+  <!-- Decorative corner elements -->
+  <circle cx="30" cy="30" r="4" fill="#0d9488" opacity="0.3"/>
+  <circle cx="770" cy="30" r="4" fill="#0d9488" opacity="0.3"/>
+  <circle cx="30" cy="470" r="4" fill="#0d9488" opacity="0.3"/>
+  <circle cx="770" cy="470" r="4" fill="#0d9488" opacity="0.3"/>
+</svg>

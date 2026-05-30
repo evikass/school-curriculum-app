@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg27" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#115e59"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.7"/>
+    </linearGradient>
+    <filter id="sh27">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg27)" rx="10"/>
+  <rect x="8" y="8" width="384" height="284" fill="none" stroke="white" stroke-width="0.5" opacity="0.15" rx="8"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="400" height="32" fill="#0d9488" rx="10"/>
+  <rect x="0" y="16" width="400" height="16" fill="#0d9488"/>
+  <text x="200" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="white" font-weight="bold">Фосфор и его соединения</text>
+
+  <!-- Allotropes -->
+  <rect x="12" y="40" width="185" height="68" rx="6" fill="#0f766e" filter="url(#sh27)"/>
+  <text x="101" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Белый фосфор P&#8308;</text>
+  <polygon points="75,68 90,62 105,68 105,82 90,88 75,82" fill="white" opacity="0.4" stroke="white" stroke-width="0.5"/>
+  <text x="90" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#0f172a">P&#8308;</text>
+  <text x="130" y="72" font-family="Arial,sans-serif" font-size="7" fill="white">Ядовит!</text>
+  <text x="130" y="83" font-family="Arial,sans-serif" font-size="7" fill="white">Воспламен.</text>
+  <text x="130" y="94" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">Хранят под H&#178;O</text>
+  <text x="130" y="104" font-family="Arial,sans-serif" font-size="7" fill="#ccfbf1">Молекула P&#8308; тетраэдр</text>
+
+  <rect x="203" y="40" width="185" height="68" rx="6" fill="#0f766e" filter="url(#sh27)"/>
+  <text x="295" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Красный фосфор</text>
+  <rect x="230" y="63" width="80" height="25" rx="4" fill="#dc2626" opacity="0.4" stroke="#dc2626" stroke-width="0.5"/>
+  <text x="270" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="white">P (полимер)</text>
+  <text x="325" y="72" font-family="Arial,sans-serif" font-size="7" fill="white">Не ядовит</text>
+  <text x="325" y="83" font-family="Arial,sans-serif" font-size="7" fill="white">Устойчив</text>
+  <text x="325" y="94" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">P(белый) -> P(кр.)</text>
+  <text x="325" y="104" font-family="Arial,sans-serif" font-size="7" fill="#ccfbf1">t = 250-300 C</text>
+
+  <!-- P2O5 and H3PO4 -->
+  <rect x="12" y="115" width="185" height="55" rx="6" fill="#134e4a" filter="url(#sh27)"/>
+  <text x="22" y="131" font-family="Arial,sans-serif" font-size="10" fill="#5eead4" font-weight="bold">P&#178;O&#8309;</text>
+  <text x="65" y="131" font-family="Arial,sans-serif" font-size="8" fill="white">оксид фосфора(V)</text>
+  <text x="22" y="146" font-family="Arial,sans-serif" font-size="8" fill="white">P: +5, белый порошок</text>
+  <text x="22" y="160" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">P&#178;O&#8309; + 3H&#178;O = 2H&#179;PO&#8308;</text>
+
+  <rect x="203" y="115" width="185" height="55" rx="6" fill="#134e4a" filter="url(#sh27)"/>
+  <text x="213" y="131" font-family="Arial,sans-serif" font-size="10" fill="#5eead4" font-weight="bold">H&#179;PO&#8308;</text>
+  <text x="270" y="131" font-family="Arial,sans-serif" font-size="8" fill="white">фосфорная к-та</text>
+  <text x="213" y="146" font-family="Arial,sans-serif" font-size="8" fill="white">Трёхосновная, средняя</text>
+  <text x="213" y="160" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">3 ступени диссоциации</text>
+
+  <!-- Phosphates -->
+  <rect x="12" y="177" width="376" height="48" rx="6" fill="#0f766e" filter="url(#sh27)"/>
+  <text x="22" y="193" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Фосфаты:</text>
+  <text x="22" y="207" font-family="Arial,sans-serif" font-size="8" fill="white">Na&#179;PO&#8308; — средний | Na&#178;HPO&#8308; — кислый | NaH&#178;PO&#8308; — кислый</text>
+  <text x="22" y="219" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">Ca&#179;(PO&#8308;)&#178; + 3H&#178;SO&#8308; = 3CaSO&#8308; + 2H&#179;PO&#8308; (получение H&#179;PO&#8308;)</text>
+
+  <!-- Applications -->
+  <rect x="12" y="232" width="185" height="54" rx="6" fill="#134e4a" filter="url(#sh27)"/>
+  <text x="22" y="248" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Применение:</text>
+  <text x="22" y="262" font-family="Arial,sans-serif" font-size="8" fill="white">Спички (красный P)</text>
+  <text x="22" y="275" font-family="Arial,sans-serif" font-size="8" fill="white">Удобрения (фосфаты)</text>
+
+  <rect x="203" y="232" width="185" height="54" rx="6" fill="#134e4a" filter="url(#sh27)"/>
+  <text x="213" y="248" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Удобрения:</text>
+  <text x="213" y="262" font-family="Arial,sans-serif" font-size="8" fill="white">Суперфосфат Ca(H&#178;PO&#8308;)&#178;</text>
+  <text x="213" y="275" font-family="Arial,sans-serif" font-size="8" fill="#99f6e4">Преципитат CaHPO&#8308;</text>
+  <text x="345" y="248" font-family="Arial,sans-serif" font-size="8" fill="#5eead4">Урок 27</text>
+
+</svg>
