@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <!-- Header bar -->
+  <rect x="0" y="0" width="800" height="52" rx="0" fill="url(#headerGrad)" opacity="0.9"/>
+  <text x="400" y="34" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="19" font-weight="bold">Периодическая система химических элементов</text>
+  <!-- Periods info (left side) -->
+  <rect x="20" y="64" width="175" height="200" rx="10" fill="#1e293b" stroke="#14b8a6" stroke-width="1.2" opacity="0.85"/>
+  <text x="107" y="86" text-anchor="middle" fill="#14b8a6" font-family="Arial, sans-serif" font-size="13" font-weight="bold" filter="url(#glow)">7 Периодов</text>
+  <text x="35" y="108" fill="#f59e0b" font-family="Arial, sans-serif" font-size="11" font-weight="bold">1-й (короткий)</text>
+  <text x="35" y="122" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">2 элемента (H, He)</text>
+  <text x="35" y="140" fill="#f59e0b" font-family="Arial, sans-serif" font-size="11" font-weight="bold">2–3-й (короткие)</text>
+  <text x="35" y="154" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">8 элементов каждый</text>
+  <text x="35" y="172" fill="#14b8a6" font-family="Arial, sans-serif" font-size="11" font-weight="bold">4–5-й (длинные)</text>
+  <text x="35" y="186" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">18 элементов каждый</text>
+  <text x="35" y="204" fill="#14b8a6" font-family="Arial, sans-serif" font-size="11" font-weight="bold">6-й (длинный)</text>
+  <text x="35" y="218" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">32 элемента (лантаноиды)</text>
+  <text x="35" y="236" fill="#ef4444" font-family="Arial, sans-serif" font-size="11" font-weight="bold">7-й (незавершённый)</text>
+  <text x="35" y="250" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">aktinoиды</text>
+  <!-- Groups info (right side) -->
+  <rect x="605" y="64" width="175" height="200" rx="10" fill="#1e293b" stroke="#8b5cf6" stroke-width="1.2" opacity="0.85"/>
+  <text x="692" y="86" text-anchor="middle" fill="#8b5cf6" font-family="Arial, sans-serif" font-size="13" font-weight="bold" filter="url(#glow)">Группы</text>
+  <text x="620" y="108" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">8 групп (старая IUPAC)</text>
+  <text x="620" y="126" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">18 групп (новая IUPAC)</text>
+  <text x="620" y="148" fill="#f59e0b" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Главная (A)</text>
+  <text x="620" y="162" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">s- и p-элементы</text>
+  <text x="620" y="180" fill="#8b5cf6" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Побочная (B)</text>
+  <text x="620" y="194" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">d-элементы</text>
+  <text x="620" y="216" fill="#ef4444" font-family="Arial, sans-serif" font-size="11" font-weight="bold">f-элементы</text>
+  <text x="620" y="230" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">лантаноиды/актиноиды</text>
+  <!-- Simplified periodic table -->
+  <rect x="20" y="278" width="760" height="210" rx="10" fill="#1e293b" stroke="#10b981" stroke-width="1" opacity="0.85"/>
+  <text x="400" y="298" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Схема периодической системы (по блокам)</text>
+  <!-- Period numbers -->
+  <text x="50" y="320" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">1</text>
+  <text x="50" y="340" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">2</text>
+  <text x="50" y="360" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">3</text>
+  <text x="50" y="380" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">4</text>
+  <text x="50" y="400" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">5</text>
+  <text x="50" y="420" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">6</text>
+  <text x="50" y="440" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">7</text>
+  <!-- s-block (amber) -->
+  <rect x="68" y="310" width="30" height="16" rx="3" fill="#f59e0b" opacity="0.7"/>
+  <text x="83" y="322" text-anchor="middle" fill="#0f172a" font-family="Arial, sans-serif" font-size="8" font-weight="bold">H</text>
+  <rect x="68" y="330" width="30" height="16" rx="3" fill="#f59e0b" opacity="0.7"/>
+  <rect x="68" y="350" width="30" height="16" rx="3" fill="#f59e0b" opacity="0.7"/>
+  <rect x="68" y="370" width="30" height="16" rx="3" fill="#f59e0b" opacity="0.7"/>
+  <rect x="68" y="390" width="30" height="16" rx="3" fill="#f59e0b" opacity="0.7"/>
+  <rect x="68" y="410" width="30" height="16" rx="3" fill="#f59e0b" opacity="0.7"/>
+  <rect x="68" y="430" width="30" height="16" rx="3" fill="#f59e0b" opacity="0.7"/>
+  <text x="118" y="322" text-anchor="middle" fill="#0f172a" font-family="Arial, sans-serif" font-size="8" font-weight="bold">s¹</text>
+  <text x="118" y="340" fill="#0f172a" font-family="Arial, sans-serif" font-size="8">s²</text>
+  <!-- s-block IIA -->
+  <rect x="100" y="330" width="30" height="16" rx="3" fill="#f59e0b" opacity="0.55"/>
+  <rect x="100" y="350" width="30" height="16" rx="3" fill="#f59e0b" opacity="0.55"/>
+  <rect x="100" y="370" width="30" height="16" rx="3" fill="#f59e0b" opacity="0.55"/>
+  <rect x="100" y="390" width="30" height="16" rx="3" fill="#f59e0b" opacity="0.55"/>
+  <rect x="100" y="410" width="30" height="16" rx="3" fill="#f59e0b" opacity="0.55"/>
+  <rect x="100" y="430" width="30" height="16" rx="3" fill="#f59e0b" opacity="0.55"/>
+  <!-- d-block (purple) - periods 4-7 -->
+  <rect x="138" y="370" width="180" height="16" rx="3" fill="#8b5cf6" opacity="0.6"/>
+  <rect x="138" y="390" width="180" height="16" rx="3" fill="#8b5cf6" opacity="0.6"/>
+  <rect x="138" y="410" width="180" height="16" rx="3" fill="#8b5cf6" opacity="0.6"/>
+  <rect x="138" y="430" width="180" height="16" rx="3" fill="#8b5cf6" opacity="0.6"/>
+  <text x="228" y="382" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="9" font-weight="bold">d-блок (переходные металлы)</text>
+  <!-- p-block (teal) -->
+  <rect x="326" y="330" width="180" height="16" rx="3" fill="#14b8a6" opacity="0.6"/>
+  <rect x="326" y="350" width="180" height="16" rx="3" fill="#14b8a6" opacity="0.6"/>
+  <rect x="326" y="370" width="180" height="16" rx="3" fill="#14b8a6" opacity="0.6"/>
+  <rect x="326" y="390" width="180" height="16" rx="3" fill="#14b8a6" opacity="0.6"/>
+  <rect x="326" y="410" width="180" height="16" rx="3" fill="#14b8a6" opacity="0.6"/>
+  <rect x="326" y="430" width="180" height="16" rx="3" fill="#14b8a6" opacity="0.6"/>
+  <text x="416" y="362" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="9" font-weight="bold">p-блок</text>
+  <!-- He in p-block row 1 -->
+  <rect x="326" y="310" width="30" height="16" rx="3" fill="#14b8a6" opacity="0.6"/>
+  <text x="341" y="322" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="8" font-weight="bold">He</text>
+  <!-- f-block (rose/red) -->
+  <rect x="530" y="370" width="120" height="16" rx="3" fill="#f43f5e" opacity="0.5"/>
+  <rect x="530" y="390" width="120" height="16" rx="3" fill="#f43f5e" opacity="0.5"/>
+  <rect x="530" y="410" width="120" height="16" rx="3" fill="#f43f5e" opacity="0.5"/>
+  <rect x="530" y="430" width="120" height="16" rx="3" fill="#f43f5e" opacity="0.5"/>
+  <text x="590" y="382" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="8">лантаноиды</text>
+  <text x="590" y="402" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="8">актиноиды</text>
+  <text x="590" y="422" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="8">f-блок</text>
+  <!-- Legend -->
+  <rect x="670" y="305" width="100" height="140" rx="8" fill="#0f172a" stroke="#10b981" stroke-width="1" opacity="0.9"/>
+  <text x="720" y="322" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Легенда</text>
+  <rect x="680" y="332" width="14" height="10" rx="2" fill="#f59e0b" opacity="0.7"/>
+  <text x="700" y="341" fill="#f59e0b" font-family="Arial, sans-serif" font-size="9">s-блок</text>
+  <rect x="680" y="350" width="14" height="10" rx="2" fill="#14b8a6" opacity="0.7"/>
+  <text x="700" y="359" fill="#14b8a6" font-family="Arial, sans-serif" font-size="9">p-блок</text>
+  <rect x="680" y="368" width="14" height="10" rx="2" fill="#8b5cf6" opacity="0.7"/>
+  <text x="700" y="377" fill="#8b5cf6" font-family="Arial, sans-serif" font-size="9">d-блок</text>
+  <rect x="680" y="386" width="14" height="10" rx="2" fill="#f43f5e" opacity="0.6"/>
+  <text x="700" y="395" fill="#f43f5e" font-family="Arial, sans-serif" font-size="9">f-блок</text>
+  <!-- Group labels at top -->
+  <text x="83" y="306" text-anchor="middle" fill="#f59e0b" font-family="Arial, sans-serif" font-size="7">IA</text>
+  <text x="115" y="306" text-anchor="middle" fill="#f59e0b" font-family="Arial, sans-serif" font-size="7">IIA</text>
+  <text x="228" y="366" text-anchor="middle" fill="#8b5cf6" font-family="Arial, sans-serif" font-size="7">IIIB–IIB</text>
+  <text x="416" y="326" text-anchor="middle" fill="#14b8a6" font-family="Arial, sans-serif" font-size="7">IIIA–VIIIA</text>
+  <!-- Period label -->
+  <text x="42" y="306" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="7">Пер.</text>
+  <!-- Connection lines from blocks to legend -->
+  <line x1="660" y1="378" x2="670" y2="378" stroke="#8b5cf6" stroke-width="1" opacity="0.5"/>
+  <!-- Footer -->
+  <text x="400" y="472" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">Структура ПСХЭ: 7 периодов × 18 групп (IUPAC) — s, p, d, f блоки</text>
+</svg>

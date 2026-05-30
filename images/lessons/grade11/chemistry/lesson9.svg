@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <linearGradient id="centerGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowStrong">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <!-- Header bar -->
+  <rect x="0" y="0" width="800" height="52" rx="0" fill="url(#headerGrad)" opacity="0.9"/>
+  <text x="400" y="34" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="17" font-weight="bold">Обобщение: Строение атома и периодический закон</text>
+  <!-- Connecting lines from center to branches (drawn first, behind nodes) -->
+  <!-- Center is at (400, 255) -->
+  <!-- Branch 1: Состав атома (150, 130) -->
+  <line x1="400" y1="255" x2="150" y2="140" stroke="#14b8a6" stroke-width="2" opacity="0.6" filter="url(#glow)"/>
+  <!-- Branch 2: Изотопы (400, 80) -->
+  <line x1="400" y1="255" x2="400" y2="95" stroke="#8b5cf6" stroke-width="2" opacity="0.6" filter="url(#glow)"/>
+  <!-- Branch 3: Электронные конфигурации (650, 130) -->
+  <line x1="400" y1="255" x2="650" y2="140" stroke="#f59e0b" stroke-width="2" opacity="0.6" filter="url(#glow)"/>
+  <!-- Branch 4: Периодический закон (150, 370) -->
+  <line x1="400" y1="255" x2="150" y2="370" stroke="#ef4444" stroke-width="2" opacity="0.6" filter="url(#glow)"/>
+  <!-- Branch 5: ПСХЭ (650, 370) -->
+  <line x1="400" y1="255" x2="650" y2="370" stroke="#10b981" stroke-width="2" opacity="0.6" filter="url(#glow)"/>
+  <!-- Branch 6: Периодические свойства (400, 430) -->
+  <line x1="400" y1="255" x2="400" y2="420" stroke="#f59e0b" stroke-width="2" opacity="0.6" filter="url(#glow)"/>
+  <!-- Central node -->
+  <ellipse cx="400" cy="255" rx="85" ry="40" fill="url(#centerGrad)" stroke="#14b8a6" stroke-width="2.5" filter="url(#glowStrong)"/>
+  <text x="400" y="248" text-anchor="middle" fill="#14b8a6" font-family="Arial, sans-serif" font-size="14" font-weight="bold">СТРОЕНИЕ</text>
+  <text x="400" y="268" text-anchor="middle" fill="#14b8a6" font-family="Arial, sans-serif" font-size="14" font-weight="bold">АТОМА</text>
+  <!-- Branch 1: Состав атома -->
+  <rect x="45" y="105" width="210" height="68" rx="10" fill="#1e293b" stroke="#14b8a6" stroke-width="1.5" opacity="0.9"/>
+  <rect x="45" y="105" width="210" height="22" rx="10" fill="#14b8a6" opacity="0.2"/>
+  <text x="150" y="121" text-anchor="middle" fill="#14b8a6" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Состав атома</text>
+  <text x="60" y="142" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">p⁺ (протоны) — заряд +1</text>
+  <text x="60" y="157" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">n⁰ (нейтроны) — заряд 0</text>
+  <text x="60" y="172" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">e⁻ (электроны) — заряд −1</text>
+  <!-- Branch 2: Изотопы -->
+  <rect x="290" y="68" width="220" height="50" rx="10" fill="#1e293b" stroke="#8b5cf6" stroke-width="1.5" opacity="0.9"/>
+  <rect x="290" y="68" width="220" height="22" rx="10" fill="#8b5cf6" opacity="0.2"/>
+  <text x="400" y="84" text-anchor="middle" fill="#8b5cf6" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Изотопы</text>
+  <text x="305" y="105" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Одинаковый Z, разный A</text>
+  <text x="305" y="117" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">¹H, ²H, ³H — изотопы водорода</text>
+  <!-- Branch 3: Электронные конфигурации -->
+  <rect x="540" y="105" width="220" height="68" rx="10" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5" opacity="0.9"/>
+  <rect x="540" y="105" width="220" height="22" rx="10" fill="#f59e0b" opacity="0.2"/>
+  <text x="650" y="121" text-anchor="middle" fill="#f59e0b" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Электронные конфигурации</text>
+  <text x="555" y="142" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">1s²2s²2p⁶3s²3p⁶...</text>
+  <text x="555" y="157" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">s, p, d, f — подоболочки</text>
+  <text x="555" y="172" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">Принцип Паули, правило Хунда</text>
+  <!-- Branch 4: Периодический закон -->
+  <rect x="40" y="335" width="220" height="68" rx="10" fill="#1e293b" stroke="#ef4444" stroke-width="1.5" opacity="0.9"/>
+  <rect x="40" y="335" width="220" height="22" rx="10" fill="#ef4444" opacity="0.2"/>
+  <text x="150" y="351" text-anchor="middle" fill="#ef4444" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Периодический закон</text>
+  <text x="55" y="372" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Свойства зависят от Z</text>
+  <text x="55" y="387" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">1869 — Менделеев</text>
+  <text x="55" y="400" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">Современная: f(Z) заряда ядра</text>
+  <!-- Branch 5: ПСХЭ -->
+  <rect x="540" y="335" width="220" height="68" rx="10" fill="#1e293b" stroke="#10b981" stroke-width="1.5" opacity="0.9"/>
+  <rect x="540" y="335" width="220" height="22" rx="10" fill="#10b981" opacity="0.2"/>
+  <text x="650" y="351" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="11" font-weight="bold">ПСХЭ</text>
+  <text x="555" y="372" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">7 периодов, 18 групп</text>
+  <text x="555" y="387" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">s, p, d, f блоки</text>
+  <text x="555" y="400" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">Главные (A) и побочные (B)</text>
+  <!-- Branch 6: Периодические свойства -->
+  <rect x="280" y="418" width="240" height="68" rx="10" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5" opacity="0.9"/>
+  <rect x="280" y="418" width="240" height="22" rx="10" fill="#f59e0b" opacity="0.2"/>
+  <text x="400" y="434" text-anchor="middle" fill="#f59e0b" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Периодические свойства</text>
+  <text x="295" y="455" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">r — атомный радиус</text>
+  <text x="295" y="469" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">ЭО — электроотрицательность</text>
+  <text x="295" y="483" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Ei — энергия ионизации</text>
+  <!-- Small decorative dots at connection points -->
+  <circle cx="400" cy="255" r="4" fill="#14b8a6" filter="url(#glow)"/>
+  <circle cx="150" cy="140" r="3" fill="#14b8a6"/>
+  <circle cx="400" cy="95" r="3" fill="#8b5cf6"/>
+  <circle cx="650" cy="140" r="3" fill="#f59e0b"/>
+  <circle cx="150" cy="370" r="3" fill="#ef4444"/>
+  <circle cx="650" cy="370" r="3" fill="#10b981"/>
+  <circle cx="400" cy="420" r="3" fill="#f59e0b"/>
+</svg>

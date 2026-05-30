@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg27" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="headerGrad27" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0d9488"/>
+      <stop offset="100%" style="stop-color:#059669"/>
+    </linearGradient>
+    <linearGradient id="fireGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#ef4444;stop-opacity:0.6"/>
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#0d9488;stop-opacity:0.4"/>
+    </linearGradient>
+    <linearGradient id="elecGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0.4"/>
+    </linearGradient>
+    <filter id="glow27">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg27)" rx="12"/>
+
+  <!-- Header bar -->
+  <rect x="0" y="0" width="800" height="44" fill="url(#headerGrad27)" rx="12"/>
+  <rect x="0" y="22" width="800" height="22" fill="url(#headerGrad27)"/>
+  <text x="400" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Общие способы получения металлов</text>
+
+  <!-- === PYROMETALLURGY (LEFT COLUMN) === -->
+  <rect x="15" y="54" width="250" height="434" rx="8" fill="rgba(30,41,59,0.8)" stroke="#f59e0b" stroke-width="1.5"/>
+  <rect x="15" y="54" width="250" height="28" rx="8" fill="url(#fireGrad)"/>
+  <rect x="15" y="72" width="250" height="10" fill="url(#fireGrad)"/>
+  <text x="140" y="74" font-family="Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">🔥 Пирометаллургия</text>
+
+  <!-- Blast furnace icon -->
+  <rect x="55" y="95" width="70" height="80" rx="3" fill="rgba(15,23,42,0.8)" stroke="#ef4444" stroke-width="1.5"/>
+  <rect x="60" y="100" width="60" height="10" rx="2" fill="rgba(239,68,68,0.3)"/>
+  <!-- furnace interior glow -->
+  <rect x="65" y="120" width="50" height="40" rx="2" fill="rgba(245,158,11,0.3)"/>
+  <ellipse cx="90" cy="140" rx="15" ry="8" fill="#f59e0b" opacity="0.6" filter="url(#glow27)"/>
+  <!-- smoke -->
+  <ellipse cx="90" cy="95" rx="12" ry="5" fill="#94a3b8" opacity="0.3"/>
+  <text x="90" y="190" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Доменная печь</text>
+
+  <!-- Description -->
+  <text x="140" y="210" font-family="Arial, sans-serif" font-size="10" fill="#f59e0b" text-anchor="middle" font-weight="bold">Восстановление при высокой t°</text>
+  <text x="140" y="226" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Углеродом, CO, H₂ , Al</text>
+
+  <!-- Equations -->
+  <rect x="25" y="240" width="230" height="55" rx="5" fill="rgba(15,23,42,0.6)" stroke="#475569" stroke-width="0.5"/>
+  <text x="140" y="258" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0" text-anchor="middle">Fe₂O₃ + 3CO → 2Fe + 3CO₂</text>
+  <text x="140" y="275" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">(восстановление CO)</text>
+  <text x="140" y="290" font-family="Arial, sans-serif" font-size="9" fill="#ef4444" text-anchor="middle">t° ≈ 1500°C</text>
+
+  <rect x="25" y="302" width="230" height="40" rx="5" fill="rgba(15,23,42,0.6)" stroke="#475569" stroke-width="0.5"/>
+  <text x="140" y="320" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0" text-anchor="middle">ZnO + C → Zn + CO</text>
+  <text x="140" y="336" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">(восстановление C)</text>
+
+  <rect x="25" y="350" width="230" height="40" rx="5" fill="rgba(15,23,42,0.6)" stroke="#475569" stroke-width="0.5"/>
+  <text x="140" y="368" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0" text-anchor="middle">Cr₂O₃ + 2Al → 2Cr + Al₂O₃</text>
+  <text x="140" y="384" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">(алюминотермия)</text>
+
+  <!-- Metals obtained -->
+  <text x="140" y="410" font-family="Arial, sans-serif" font-size="10" fill="#f59e0b" text-anchor="middle" font-weight="bold">Получают:</text>
+  <text x="140" y="428" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0" text-anchor="middle">Fe, Zn, Cr, Mn, Sn, Pb, Cu</text>
+  <text x="140" y="446" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">(металлы средней активности)</text>
+  <text x="140" y="466" font-family="Arial, sans-serif" font-size="9" fill="#ef4444" text-anchor="middle">Активность: Al &gt; Mg &gt; восстановитель</text>
+
+  <!-- === HYDROMETALLURGY (MIDDLE COLUMN) === -->
+  <rect x="275" y="54" width="250" height="434" rx="8" fill="rgba(30,41,59,0.8)" stroke="#14b8a6" stroke-width="1.5"/>
+  <rect x="275" y="54" width="250" height="28" rx="8" fill="url(#waterGrad)"/>
+  <rect x="275" y="72" width="250" height="10" fill="url(#waterGrad)"/>
+  <text x="400" y="74" font-family="Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">💧 Гидрометаллургия</text>
+
+  <!-- Leaching diagram -->
+  <rect x="310" y="95" width="80" height="40" rx="5" fill="rgba(15,23,42,0.8)" stroke="#14b8a6" stroke-width="1"/>
+  <text x="350" y="115" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Руда</text>
+  <text x="350" y="127" font-family="Arial, sans-serif" font-size="9" fill="#f59e0b" text-anchor="middle">CuO</text>
+  <!-- Arrow -->
+  <text x="350" y="148" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6" text-anchor="middle">↓ + H₂SO₄</text>
+  <rect x="310" y="155" width="80" height="40" rx="5" fill="rgba(20,184,166,0.15)" stroke="#14b8a6" stroke-width="1"/>
+  <text x="350" y="173" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Раствор</text>
+  <text x="350" y="185" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6" text-anchor="middle">CuSO₄</text>
+  <!-- Arrow -->
+  <text x="350" y="206" font-family="Arial, sans-serif" font-size="12" fill="#f59e0b" text-anchor="middle">↓ + Fe</text>
+  <rect x="310" y="213" width="80" height="40" rx="5" fill="rgba(245,158,11,0.15)" stroke="#f59e0b" stroke-width="1"/>
+  <text x="350" y="231" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Металл</text>
+  <text x="350" y="243" font-family="Arial, sans-serif" font-size="9" fill="#f59e0b" text-anchor="middle">Cu ↓</text>
+
+  <!-- Side description -->
+  <rect x="400" y="95" width="115" height="158" rx="5" fill="rgba(15,23,42,0.6)" stroke="#475569" stroke-width="0.5"/>
+  <text x="457" y="112" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6" text-anchor="middle" font-weight="bold">Этапы:</text>
+  <text x="457" y="130" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0" text-anchor="middle">1. Растворение</text>
+  <text x="457" y="145" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0" text-anchor="middle">руды в кислоте</text>
+  <text x="457" y="163" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0" text-anchor="middle">2. Вытеснение</text>
+  <text x="457" y="178" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0" text-anchor="middle">более активным</text>
+  <text x="457" y="193" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0" text-anchor="middle">металлом</text>
+  <text x="457" y="211" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0" text-anchor="middle">3. Осаждение</text>
+  <text x="457" y="226" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0" text-anchor="middle">чистого металла</text>
+
+  <!-- Equations -->
+  <rect x="285" y="265" width="230" height="55" rx="5" fill="rgba(15,23,42,0.6)" stroke="#475569" stroke-width="0.5"/>
+  <text x="400" y="283" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0" text-anchor="middle">CuO + H₂SO₄ → CuSO₄ + H₂O</text>
+  <text x="400" y="300" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0" text-anchor="middle">CuSO₄ + Fe → FeSO₄ + Cu↓</text>
+  <text x="400" y="315" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6" text-anchor="middle">Fe активнее Cu → вытесняет</text>
+
+  <!-- Conditions -->
+  <text x="400" y="340" font-family="Arial, sans-serif" font-size="10" fill="#14b8a6" text-anchor="middle" font-weight="bold">Условия:</text>
+  <text x="400" y="358" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0" text-anchor="middle">Низкие температуры</text>
+  <text x="400" y="376" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0" text-anchor="middle">Водный раствор</text>
+
+  <text x="400" y="402" font-family="Arial, sans-serif" font-size="10" fill="#14b8a6" text-anchor="middle" font-weight="bold">Получают:</text>
+  <text x="400" y="420" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0" text-anchor="middle">Cu, Ag, Au, Zn</text>
+  <text x="400" y="438" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">(малоактивные металлы)</text>
+
+  <!-- Advantage badge -->
+  <rect x="310" y="455" width="180" height="24" rx="12" fill="rgba(20,184,166,0.2)" stroke="#14b8a6" stroke-width="1" filter="url(#glow27)"/>
+  <text x="400" y="471" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6" text-anchor="middle" font-weight="bold">Без высоких температур!</text>
+
+  <!-- === ELECTROMETALLURGY (RIGHT COLUMN) === -->
+  <rect x="535" y="54" width="250" height="434" rx="8" fill="rgba(30,41,59,0.8)" stroke="#8b5cf6" stroke-width="1.5"/>
+  <rect x="535" y="54" width="250" height="28" rx="8" fill="url(#elecGrad)"/>
+  <rect x="535" y="72" width="250" height="10" fill="url(#elecGrad)"/>
+  <text x="660" y="74" font-family="Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">⚡ Электрометаллургия</text>
+
+  <!-- Electrolytic cell diagram -->
+  <rect x="580" y="100" width="120" height="90" rx="5" fill="rgba(15,23,42,0.8)" stroke="#8b5cf6" stroke-width="1"/>
+  <!-- Electrodes -->
+  <rect x="600" y="108" width="8" height="72" rx="2" fill="#8b5cf6" opacity="0.7"/>
+  <text x="604" y="105" font-family="Arial, sans-serif" font-size="7" fill="#8b5cf6" text-anchor="middle">−</text>
+  <rect x="672" y="108" width="8" height="72" rx="2" fill="#ef4444" opacity="0.7"/>
+  <text x="676" y="105" font-family="Arial, sans-serif" font-size="7" fill="#ef4444" text-anchor="middle">+</text>
+  <!-- Electrolyte -->
+  <rect x="612" y="115" width="56" height="55" rx="3" fill="rgba(139,92,246,0.15)"/>
+  <text x="640" y="140" font-family="Arial, sans-serif" font-size="8" fill="#8b5cf6" text-anchor="middle">расплав</text>
+  <text x="640" y="155" font-family="Arial, sans-serif" font-size="8" fill="#8b5cf6" text-anchor="middle">Al₂O₃</text>
+  <!-- Wires -->
+  <line x1="604" y1="108" x2="604" y2="92" stroke="#8b5cf6" stroke-width="1.5"/>
+  <line x1="676" y1="108" x2="676" y2="92" stroke="#ef4444" stroke-width="1.5"/>
+  <line x1="604" y1="92" x2="676" y2="92" stroke="#94a3b8" stroke-width="1"/>
+  <text x="660" y="200" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Электролизёр</text>
+
+  <!-- Description -->
+  <text x="660" y="220" font-family="Arial, sans-serif" font-size="10" fill="#8b5cf6" text-anchor="middle" font-weight="bold">Электролиз расплавов</text>
+  <text x="660" y="238" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">и растворов</text>
+
+  <!-- Equations -->
+  <rect x="545" y="252" width="230" height="55" rx="5" fill="rgba(15,23,42,0.6)" stroke="#475569" stroke-width="0.5"/>
+  <text x="660" y="270" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0" text-anchor="middle">Al₂O₃ (расплав) →</text>
+  <text x="660" y="287" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0" text-anchor="middle">2Al + 3/2 O₂</text>
+  <text x="660" y="302" font-family="Arial, sans-serif" font-size="9" fill="#8b5cf6" text-anchor="middle">≈ 950°C, глинозём</text>
+
+  <rect x="545" y="314" width="230" height="40" rx="5" fill="rgba(15,23,42,0.6)" stroke="#475569" stroke-width="0.5"/>
+  <text x="660" y="332" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0" text-anchor="middle">NaCl (расплав) → Na + ½Cl₂</text>
+  <text x="660" y="348" font-family="Arial, sans-serif" font-size="9" fill="#8b5cf6" text-anchor="middle">(щелочные металлы)</text>
+
+  <!-- Process details -->
+  <text x="660" y="374" font-family="Arial, sans-serif" font-size="10" fill="#8b5cf6" text-anchor="middle" font-weight="bold">На катоде (−):</text>
+  <text x="660" y="392" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0" text-anchor="middle">Al³⁺ + 3e⁻ → Al⁰</text>
+  <text x="660" y="414" font-family="Arial, sans-serif" font-size="10" fill="#ef4444" text-anchor="middle" font-weight="bold">На аноде (+):</text>
+  <text x="660" y="432" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0" text-anchor="middle">2O²⁻ → O₂ + 4e⁻</text>
+
+  <!-- Metals -->
+  <text x="660" y="456" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0" text-anchor="middle">Получают: Al, Na, K, Ca, Mg</text>
+  <text x="660" y="474" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">(активные металлы)</text>
+</svg>

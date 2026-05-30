@@ -55,8 +55,12 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
   
   if (!lesson) return null
   
+  // Используем полный content если есть, иначе theory, иначе description
+  const mainContent = lesson.content || lesson.theory || lesson.description
+  const hasFullContent = !!(lesson.content && lesson.content.length > 200)
+  
   const sections = [
-    { title: 'Теория', icon: BookOpen, content: lesson.theory || lesson.description },
+    { title: hasFullContent ? 'Урок' : 'Теория', icon: BookOpen, content: mainContent },
     { title: 'Ключевые моменты', icon: Lightbulb, content: lesson.keyPoints || [] },
     { title: 'Примеры', icon: Target, content: lesson.examples || [] },
     { title: 'Задания', icon: CheckCircle, content: lesson.tasks }
@@ -80,7 +84,7 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0.8, opacity: 0, y: 50 }}
             className="bg-gradient-to-br from-indigo-900 to-purple-900
-                       rounded-3xl max-w-2xl w-full max-h-[85vh] overflow-hidden
+                       rounded-3xl max-w-4xl w-full max-h-[90vh] overflow-hidden
                        shadow-2xl border-2 border-white/10 flex flex-col"
           >
             {/* Header */}
@@ -158,7 +162,7 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
                       </div>
                     )}
                     <div className="bg-white/5 rounded-2xl p-5 border border-white/10">
-                      <LessonContent content={String(lesson.content || currentContent.content || '')} />
+                      <LessonContent content={String(mainContent)} />
                     </div>
                     
                     {/* Интересные факты */}

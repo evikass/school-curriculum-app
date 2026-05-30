@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <linearGradient id="iso1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="iso2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="iso3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#9333ea"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="48" fill="url(#headerGrad)"/>
+  <text x="400" y="32" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Урок 2: Изотопы. Атомная масса</text>
+  <!-- Hydrogen Isotopes Section -->
+  <rect x="20" y="58" width="760" height="165" rx="10" fill="#1e293b" fill-opacity="0.7" stroke="#14b8a6" stroke-width="1"/>
+  <text x="400" y="78" text-anchor="middle" fill="#14b8a6" font-family="Arial, sans-serif" font-size="13" font-weight="bold">Изотопы водорода</text>
+  <!-- Protium ¹H -->
+  <rect x="35" y="88" width="230" height="125" rx="8" fill="#0f172a" fill-opacity="0.8" stroke="#14b8a6" stroke-width="1"/>
+  <text x="150" y="108" text-anchor="middle" fill="#14b8a6" font-family="Arial, sans-serif" font-size="14" font-weight="bold">¹H Протий</text>
+  <!-- Nucleus -->
+  <circle cx="150" cy="148" r="22" fill="url(#iso1)" fill-opacity="0.3" stroke="#14b8a6" stroke-width="1.5"/>
+  <circle cx="150" cy="148" r="8" fill="#14b8a6"/>
+  <text x="150" y="152" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="8" font-weight="bold">p⁺</text>
+  <!-- Electron -->
+  <ellipse cx="150" cy="148" rx="40" ry="28" fill="none" stroke="#14b8a6" stroke-width="0.8" stroke-dasharray="3,2" opacity="0.5"/>
+  <circle cx="190" cy="148" r="4" fill="#f59e0b" filter="url(#glow)"/>
+  <text x="150" y="195" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">1p⁺, 0n⁰, 1e⁻ | 99,98%</text>
+  <!-- Deuterium ²H/D -->
+  <rect x="285" y="88" width="230" height="125" rx="8" fill="#0f172a" fill-opacity="0.8" stroke="#8b5cf6" stroke-width="1"/>
+  <text x="400" y="108" text-anchor="middle" fill="#8b5cf6" font-family="Arial, sans-serif" font-size="14" font-weight="bold">²H (D) Дейтерий</text>
+  <circle cx="400" cy="148" r="22" fill="url(#iso2)" fill-opacity="0.3" stroke="#8b5cf6" stroke-width="1.5"/>
+  <circle cx="393" cy="143" r="8" fill="#14b8a6"/>
+  <text x="393" y="147" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="8" font-weight="bold">p⁺</text>
+  <circle cx="407" cy="153" r="8" fill="#94a3b8"/>
+  <text x="407" y="157" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="8" font-weight="bold">n⁰</text>
+  <ellipse cx="400" cy="148" rx="40" ry="28" fill="none" stroke="#8b5cf6" stroke-width="0.8" stroke-dasharray="3,2" opacity="0.5"/>
+  <circle cx="440" cy="148" r="4" fill="#f59e0b" filter="url(#glow)"/>
+  <text x="400" y="195" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">1p⁺, 1n⁰, 1e⁻ | 0,02%</text>
+  <!-- Tritium ³H/T -->
+  <rect x="535" y="88" width="230" height="125" rx="8" fill="#0f172a" fill-opacity="0.8" stroke="#a855f7" stroke-width="1"/>
+  <text x="650" y="108" text-anchor="middle" fill="#a855f7" font-family="Arial, sans-serif" font-size="14" font-weight="bold">³H (T) Тритий</text>
+  <circle cx="650" cy="148" r="22" fill="url(#iso3)" fill-opacity="0.3" stroke="#a855f7" stroke-width="1.5"/>
+  <circle cx="643" cy="140" r="8" fill="#14b8a6"/>
+  <text x="643" y="144" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="8" font-weight="bold">p⁺</text>
+  <circle cx="657" cy="140" r="8" fill="#94a3b8"/>
+  <text x="657" y="144" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="8" font-weight="bold">n⁰</text>
+  <circle cx="650" cy="155" r="8" fill="#94a3b8"/>
+  <text x="650" y="159" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="8" font-weight="bold">n⁰</text>
+  <ellipse cx="650" cy="148" rx="40" ry="28" fill="none" stroke="#a855f7" stroke-width="0.8" stroke-dasharray="3,2" opacity="0.5"/>
+  <circle cx="690" cy="148" r="4" fill="#f59e0b" filter="url(#glow)"/>
+  <text x="650" y="195" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">1p⁺, 2n⁰, 1e⁻ | радиоактивен</text>
+  <!-- Average atomic mass calculation -->
+  <rect x="20" y="233" width="380" height="120" rx="10" fill="#1e293b" fill-opacity="0.7" stroke="#14b8a6" stroke-width="1"/>
+  <text x="210" y="253" text-anchor="middle" fill="#14b8a6" font-family="Arial, sans-serif" font-size="13" font-weight="bold">Средняя атомная масса</text>
+  <text x="40" y="275" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Ar(Cl) = 35 × 0,7578 + 37 × 0,2422</text>
+  <text x="40" y="295" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Ar(Cl) = 26,52 + 8,96</text>
+  <text x="40" y="318" fill="#f59e0b" font-family="Arial, sans-serif" font-size="13" font-weight="bold">Ar(Cl) ≈ 35,45</text>
+  <text x="40" y="340" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">Изотопы ³⁵Cl (75,78%) и ³⁷Cl (24,22%)</text>
+  <!-- Isobars vs Isotones -->
+  <rect x="420" y="233" width="360" height="120" rx="10" fill="#1e293b" fill-opacity="0.7" stroke="#8b5cf6" stroke-width="1"/>
+  <text x="600" y="253" text-anchor="middle" fill="#8b5cf6" font-family="Arial, sans-serif" font-size="13" font-weight="bold">Изобары и Изотоны</text>
+  <text x="440" y="278" fill="#ffffff" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Изобары</text>
+  <text x="440" y="295" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">¹⁴C и ¹⁴N — одинаковое A, разное Z</text>
+  <text x="440" y="315" fill="#ffffff" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Изотоны</text>
+  <text x="440" y="332" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">¹³C и ¹⁴N — одинаковое N, разное Z</text>
+  <!-- Applications -->
+  <rect x="20" y="363" width="760" height="125" rx="10" fill="#1e293b" fill-opacity="0.7" stroke="#14b8a6" stroke-width="1"/>
+  <text x="400" y="383" text-anchor="middle" fill="#14b8a6" font-family="Arial, sans-serif" font-size="13" font-weight="bold">Применение изотопов</text>
+  <!-- 14C dating -->
+  <rect x="35" y="393" width="230" height="82" rx="8" fill="#0f172a" fill-opacity="0.8" stroke="#14b8a6" stroke-width="1"/>
+  <text x="150" y="413" text-anchor="middle" fill="#14b8a6" font-family="Arial, sans-serif" font-size="12" font-weight="bold">¹⁴C — датировка</text>
+  <text x="150" y="432" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">Радиоуглеродный анализ</text>
+  <text x="150" y="448" text-anchor="middle" fill="#f59e0b" font-family="Arial, sans-serif" font-size="11" font-weight="bold">T½ = 5730 лет</text>
+  <text x="150" y="465" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">Археология, геология</text>
+  <!-- 131I medicine -->
+  <rect x="285" y="393" width="230" height="82" rx="8" fill="#0f172a" fill-opacity="0.8" stroke="#8b5cf6" stroke-width="1"/>
+  <text x="400" y="413" text-anchor="middle" fill="#8b5cf6" font-family="Arial, sans-serif" font-size="12" font-weight="bold">¹³¹I — медицина</text>
+  <text x="400" y="432" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">Диагностика и лечение</text>
+  <text x="400" y="448" text-anchor="middle" fill="#f59e0b" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Щитовидная железа</text>
+  <text x="400" y="465" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">Радиоизотопная терапия</text>
+  <!-- 235U energy -->
+  <rect x="535" y="393" width="230" height="82" rx="8" fill="#0f172a" fill-opacity="0.8" stroke="#ef4444" stroke-width="1"/>
+  <text x="650" y="413" text-anchor="middle" fill="#ef4444" font-family="Arial, sans-serif" font-size="12" font-weight="bold">²³⁵U — энергетика</text>
+  <text x="650" y="432" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">Ядерное топливо</text>
+  <text x="650" y="448" text-anchor="middle" fill="#f59e0b" font-family="Arial, sans-serif" font-size="11" font-weight="bold">АЭС, реакторы</text>
+  <text x="650" y="465" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">Доля в природе 0,72%</text>
+</svg>
