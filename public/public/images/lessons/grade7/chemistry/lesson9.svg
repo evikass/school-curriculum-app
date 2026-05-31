@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="flask1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:0.7"/>
+    </linearGradient>
+    <linearGradient id="liquid1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981"/>
+      <stop offset="100%" style="stop-color:#059669"/>
+    </linearGradient>
+    <filter id="glow1">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <marker id="arrowHead1" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#0d9488"/>
+    </marker>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg1)" rx="12"/>
+  <!-- Title -->
+  <text x="400" y="45" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#e2e8f0" text-anchor="middle">Кислоты и основания</text>
+
+  <!-- Divider -->
+  <line x1="400" y1="65" x2="400" y2="430" stroke="#0d9488" stroke-width="2" stroke-dasharray="8,4" opacity="0.4"/>
+
+  <!-- Acids side -->
+  <g transform="translate(20, 65)">
+    <text x="185" y="20" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ef4444" text-anchor="middle">Кислоты</text>
+
+    <!-- Flask with acid -->
+    <g transform="translate(60, 40)">
+      <rect x="20" y="0" width="20" height="20" fill="none" stroke="#ef4444" stroke-width="2" rx="2"/>
+      <path d="M15,20 L5,70 L55,70 L45,20 Z" fill="#ef4444" opacity="0.2" stroke="#ef4444" stroke-width="2"/>
+      <path d="M10,45 L7,70 L53,70 L50,45 Z" fill="#ef4444" opacity="0.4"/>
+      <text x="30" y="60" font-family="Arial, sans-serif" font-size="10" fill="#ef4444" text-anchor="middle">H+</text>
+    </g>
+
+    <!-- Examples -->
+    <g transform="translate(10, 130)">
+      <rect x="0" y="0" width="340" height="160" rx="8" fill="#0f172a" stroke="#ef4444" stroke-width="1" opacity="0.6"/>
+      <text x="170" y="20" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#ef4444" text-anchor="middle">Примеры кислот</text>
+      <text x="30" y="45" font-family="Arial, sans-serif" font-size="12" fill="#e2e8f0">HCl — соляная кислота</text>
+      <text x="30" y="65" font-family="Arial, sans-serif" font-size="12" fill="#e2e8f0">H2SO4 — серная кислота</text>
+      <text x="30" y="85" font-family="Arial, sans-serif" font-size="12" fill="#e2e8f0">HNO3 — азотная кислота</text>
+      <text x="30" y="105" font-family="Arial, sans-serif" font-size="12" fill="#e2e8f0">H3PO4 — фосфорная кислота</text>
+      <text x="30" y="130" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">pH < 7 (кислая среда)</text>
+      <text x="30" y="150" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Лакмус — красный</text>
+    </g>
+
+    <!-- Properties -->
+    <g transform="translate(10, 310)">
+      <rect x="0" y="0" width="340" height="110" rx="8" fill="#0f172a" stroke="#ef4444" stroke-width="0.5" opacity="0.5"/>
+      <text x="170" y="20" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#f87171" text-anchor="middle">Свойства</text>
+      <text x="30" y="42" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Кислый вкус (лимон)</text>
+      <text x="30" y="60" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Реагируют с металлами</text>
+      <text x="30" y="78" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Реагируют с основаниями</text>
+      <text x="30" y="96" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Разъедают вещества</text>
+    </g>
+  </g>
+
+  <!-- Bases side -->
+  <g transform="translate(410, 65)">
+    <text x="185" y="20" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#3b82f6" text-anchor="middle">Основания</text>
+
+    <!-- Flask with base -->
+    <g transform="translate(60, 40)">
+      <rect x="20" y="0" width="20" height="20" fill="none" stroke="#3b82f6" stroke-width="2" rx="2"/>
+      <path d="M15,20 L5,70 L55,70 L45,20 Z" fill="#3b82f6" opacity="0.2" stroke="#3b82f6" stroke-width="2"/>
+      <path d="M10,45 L7,70 L53,70 L50,45 Z" fill="#3b82f6" opacity="0.4"/>
+      <text x="30" y="58" font-family="Arial, sans-serif" font-size="9" fill="#3b82f6" text-anchor="middle">OH-</text>
+    </g>
+
+    <!-- Examples -->
+    <g transform="translate(10, 130)">
+      <rect x="0" y="0" width="340" height="160" rx="8" fill="#0f172a" stroke="#3b82f6" stroke-width="1" opacity="0.6"/>
+      <text x="170" y="20" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#3b82f6" text-anchor="middle">Примеры оснований</text>
+      <text x="30" y="45" font-family="Arial, sans-serif" font-size="12" fill="#e2e8f0">NaOH — гидроксид натрия</text>
+      <text x="30" y="65" font-family="Arial, sans-serif" font-size="12" fill="#e2e8f0">KOH — гидроксид калия</text>
+      <text x="30" y="85" font-family="Arial, sans-serif" font-size="12" fill="#e2e8f0">Ca(OH)2 — гашёная известь</text>
+      <text x="30" y="105" font-family="Arial, sans-serif" font-size="12" fill="#e2e8f0">NH3·H2O — аммиачная вода</text>
+      <text x="30" y="130" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">pH > 7 (щелочная среда)</text>
+      <text x="30" y="150" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Лакмус — синий</text>
+    </g>
+
+    <!-- Properties -->
+    <g transform="translate(10, 310)">
+      <rect x="0" y="0" width="340" height="110" rx="8" fill="#0f172a" stroke="#3b82f6" stroke-width="0.5" opacity="0.5"/>
+      <text x="170" y="20" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#60a5fa" text-anchor="middle">Свойства</text>
+      <text x="30" y="42" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Мыльные на ощупь</text>
+      <text x="30" y="60" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Реагируют с кислотами</text>
+      <text x="30" y="78" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Изменяют цвет индикаторов</text>
+      <text x="30" y="96" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Растворяются (щёлочи)</text>
+    </g>
+  </g>
+
+  <!-- Neutralization in center -->
+  <g transform="translate(300, 440)">
+    <rect x="0" y="0" width="200" height="40" rx="20" fill="#0f172a" stroke="#14b8a6" stroke-width="1.5"/>
+    <text x="100" y="25" font-family="Arial, sans-serif" font-size="11" fill="#14b8a6" text-anchor="middle">Нейтрализация: Кислота + Основание</text>
+  </g>
+  <!-- Decorative corner elements -->
+  <circle cx="30" cy="30" r="4" fill="#0d9488" opacity="0.3"/>
+  <circle cx="770" cy="30" r="4" fill="#0d9488" opacity="0.3"/>
+  <circle cx="30" cy="470" r="4" fill="#0d9488" opacity="0.3"/>
+  <circle cx="770" cy="470" r="4" fill="#0d9488" opacity="0.3"/>
+</svg>

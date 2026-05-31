@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1B5E20" text-anchor="middle">Роль бактерий в природе и жизни человека</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 5 класс — Урок 12</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- Positive roles -->
+<rect x="20" y="55" width="225" height="245" rx="8" fill="white" opacity="0.9" stroke="#2E7D32" stroke-width="1.5"/>
+<text x="132" y="72" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">ПОЛОЖИТЕЛЬНАЯ РОЛЬ</text>
+<line x1="30" y1="78" x2="235" y2="78" stroke="#2E7D32" stroke-width="0.5"/>
+
+<!-- Soil formation -->
+<g transform="translate(70,115)">
+  <ellipse cx="0" cy="0" rx="15" ry="7" fill="#FFE0B2" stroke="#E65100" stroke-width="0.8"/>
+  <circle cx="-5" cy="-2" r="2" fill="#FFCC80"/>
+  <circle cx="5" cy="-2" r="2" fill="#FFCC80"/>
+  <text x="25" y="-2" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" font-weight="bold">Почвообразование</text>
+  <text x="25" y="7" font-family="Arial,sans-serif" font-size="5" fill="#666">Разложение органики</text>
+</g>
+
+<!-- Nitrogen fixation -->
+<g transform="translate(70,155)">
+  <!-- Root nodules -->
+  <path d="M-5,-12 L-5,5" stroke="#795548" stroke-width="2"/>
+  <path d="M5,-12 L5,5" stroke="#795548" stroke-width="2"/>
+  <circle cx="-5" cy="10" r="5" fill="#81C784" stroke="#2E7D32" stroke-width="0.8"/>
+  <circle cx="5" cy="10" r="5" fill="#81C784" stroke="#2E7D32" stroke-width="0.8"/>
+  <text x="20" y="-2" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" font-weight="bold">Азотфиксация</text>
+  <text x="20" y="7" font-family="Arial,sans-serif" font-size="5" fill="#666">Клубеньковые бактерии</text>
+  <text x="20" y="15" font-family="Arial,sans-serif" font-size="5" fill="#666">Связывают азот из воздуха</text>
+</g>
+
+<!-- Food production -->
+<g transform="translate(70,200)">
+  <!-- Milk/cheese -->
+  <path d="M-12,-8 L-8,8 L8,8 L12,-8 Z" fill="white" stroke="#90CAF9" stroke-width="1" rx="2"/>
+  <rect x="-8" y="-4" width="12" height="8" rx="1" fill="#FFF9C4" opacity="0.6"/>
+  <text x="20" y="-2" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" font-weight="bold">Пищевая промышл.</text>
+  <text x="20" y="7" font-family="Arial,sans-serif" font-size="5" fill="#666">Кефир, йогурт, сыр,</text>
+  <text x="20" y="15" font-family="Arial,sans-serif" font-size="5" fill="#666">квашеная капуста, уксус</text>
+</g>
+
+<!-- Medicine -->
+<g transform="translate(70,245)">
+  <!-- Pill -->
+  <rect x="-12" y="-6" width="24" height="12" rx="6" fill="#FFCDD2" stroke="#C62828" stroke-width="1"/>
+  <rect x="0" y="-6" width="12" height="12" rx="0" fill="#EF9A9A" stroke="#C62828" stroke-width="0.5"/>
+  <text x="20" y="-2" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" font-weight="bold">Медицина</text>
+  <text x="20" y="7" font-family="Arial,sans-serif" font-size="5" fill="#666">Антибиотики (пенициллин)</text>
+  <text x="20" y="15" font-family="Arial,sans-serif" font-size="5" fill="#666">Вакцины, инсулин</text>
+</g>
+
+<!-- Digestion -->
+<g transform="translate(70,283)">
+  <text x="0" y="0" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" font-weight="bold">Кишечная микрофлора</text>
+  <text x="0" y="9" font-family="Arial,sans-serif" font-size="5" fill="#666">Витамины K, B, пищеварение</text>
+</g>
+
+<!-- Negative roles -->
+<rect x="255" y="55" width="225" height="245" rx="8" fill="white" opacity="0.9" stroke="#C62828" stroke-width="1.5"/>
+<text x="367" y="72" font-family="Arial,sans-serif" font-size="9" fill="#C62828" text-anchor="middle" font-weight="bold">ОТРИЦАТЕЛЬНАЯ РОЛЬ</text>
+<line x1="265" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="0.5"/>
+
+<!-- Diseases -->
+<g transform="translate(310,115)">
+  <circle cx="0" cy="0" r="8" fill="#FFCDD2" stroke="#C62828" stroke-width="1"/>
+  <text x="0" y="3" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle">!</text>
+  <text x="15" y="-2" font-family="Arial,sans-serif" font-size="6" fill="#C62828" font-weight="bold">Заболевания</text>
+  <text x="15" y="7" font-family="Arial,sans-serif" font-size="5" fill="#666">Холера, туберкулёз,</text>
+  <text x="15" y="15" font-family="Arial,sans-serif" font-size="5" fill="#666">дифтерия, столбняк</text>
+</g>
+
+<!-- Food spoilage -->
+<g transform="translate(310,160)">
+  <!-- Spoiled food -->
+  <rect x="-10" y="-8" width="15" height="12" rx="2" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.5" opacity="0.5"/>
+  <circle cx="-5" cy="-3" r="2" fill="#795548" opacity="0.6"/>
+  <circle cx="0" cy="0" r="2.5" fill="#8D6E63" opacity="0.6"/>
+  <path d="M-3,-8 Q-1,-12 2,-8" fill="none" stroke="#9E9E9E" stroke-width="0.5"/>
+  <text x="15" y="-2" font-family="Arial,sans-serif" font-size="6" fill="#C62828" font-weight="bold">Порча продуктов</text>
+  <text x="15" y="7" font-family="Arial,sans-serif" font-size="5" fill="#666">Гниение, брожение</text>
+</g>
+
+<!-- Bioweapons -->
+<g transform="translate(310,200)">
+  <!-- Biohazard simplified -->
+  <circle cx="0" cy="0" r="8" fill="#FFEBEE" stroke="#C62828" stroke-width="1"/>
+  <circle cx="0" cy="-3" r="2.5" fill="none" stroke="#C62828" stroke-width="1"/>
+  <circle cx="-2" cy="1.5" r="2.5" fill="none" stroke="#C62828" stroke-width="1"/>
+  <circle cx="2" cy="1.5" r="2.5" fill="none" stroke="#C62828" stroke-width="1"/>
+  <text x="15" y="-2" font-family="Arial,sans-serif" font-size="6" fill="#C62828" font-weight="bold">Биологич. оружие</text>
+  <text x="15" y="7" font-family="Arial,sans-serif" font-size="5" fill="#666">Опасные штаммы</text>
+</g>
+
+<!-- Infections -->
+<g transform="translate(310,240)">
+  <text x="0" y="0" font-family="Arial,sans-serif" font-size="6" fill="#C62828" font-weight="bold">Инфекции растений</text>
+  <text x="0" y="9" font-family="Arial,sans-serif" font-size="5" fill="#666">Бактериальный рак,</text>
+  <text x="0" y="17" font-family="Arial,sans-serif" font-size="5" fill="#666">увядание, гниль</text>
+</g>
+
+<!-- Bottom -->
+<rect x="30" y="310" width="440" height="25" rx="6" fill="white" opacity="0.9" stroke="#2E7D32" stroke-width="1"/>
+<text x="250" y="327" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle" font-weight="bold">Круговорот веществ в природе невозможен без бактерий — они редуценты</text>
+</svg>

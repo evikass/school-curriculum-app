@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" font-family="Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E3F2FD"/>
+      <stop offset="100%" style="stop-color:#BBDEFB"/>
+    </linearGradient>
+    <filter id="shadow1" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg1)" rx="8"/>
+  <rect x="0" y="0" width="500" height="42" fill="#0D47A1" rx="8"/>
+  <rect x="0" y="20" width="500" height="22" fill="#0D47A1"/>
+  <text x="250" y="28" text-anchor="middle" fill="white" font-size="13" font-weight="bold">Решение задач с помощью систем уравнений</text>
+
+  <!-- Card 1: Motion problem with visual -->
+  <rect x="15" y="52" width="225" height="138" rx="10" fill="white" stroke="#1565C0" filter="url(#shadow1)"/>
+  <text x="127" y="70" text-anchor="middle" fill="#0D47A1" font-size="11" font-weight="bold">Задача на движение</text>
+  <!-- Road/track illustration -->
+  <line x1="35" y1="95" x2="220" y2="95" stroke="#90CAF9" stroke-width="2"/>
+  <line x1="35" y1="115" x2="220" y2="115" stroke="#90CAF9" stroke-width="2"/>
+  <!-- Object A moving right -->
+  <rect x="40" y="86" width="28" height="14" rx="4" fill="#0D47A1"/>
+  <text x="54" y="96" text-anchor="middle" fill="white" font-size="7" font-weight="bold">A</text>
+  <polygon points="70,93 75,90 75,96" fill="#0D47A1"/>
+  <!-- Speed label A -->
+  <text x="80" y="86" fill="#1565C0" font-size="8">v₁ = x км/ч</text>
+  <!-- Object B moving right -->
+  <rect x="40" y="106" width="28" height="14" rx="4" fill="#1976D2"/>
+  <text x="54" y="116" text-anchor="middle" fill="white" font-size="7" font-weight="bold">B</text>
+  <polygon points="70,113 75,110 75,116" fill="#1976D2"/>
+  <!-- Speed label B -->
+  <text x="80" y="126" fill="#1976D2" font-size="8">v₂ = y км/ч</text>
+  <!-- Distance bracket -->
+  <line x1="220" y1="88" x2="220" y2="122" stroke="#42A5F5" stroke-width="1"/>
+  <line x1="215" y1="88" x2="225" y2="88" stroke="#42A5F5" stroke-width="1"/>
+  <line x1="215" y1="122" x2="225" y2="122" stroke="#42A5F5" stroke-width="1"/>
+  <text x="222" y="108" fill="#42A5F5" font-size="7">S</text>
+  <!-- System equations -->
+  <path d="M 45,142 Q 38,142 38,150 Q 38,158 45,158 Q 38,158 38,166 Q 38,174 45,174" fill="none" stroke="#0D47A1" stroke-width="1.2"/>
+  <text x="52" y="154" fill="#0D47A1" font-size="10">x + y = 60</text>
+  <text x="52" y="172" fill="#1565C0" font-size="10">3x - 2y = 20</text>
+  <!-- Arrow to solution -->
+  <line x1="160" y1="163" x2="185" y2="163" stroke="#42A5F5" stroke-width="1.5"/>
+  <polygon points="188,163 183,160 183,166" fill="#42A5F5"/>
+  <!-- Solution pill -->
+  <rect x="190" y="148" width="45" height="28" rx="10" fill="#0D47A1"/>
+  <text x="212" y="160" text-anchor="middle" fill="white" font-size="8">x=28</text>
+  <text x="212" y="172" text-anchor="middle" fill="white" font-size="8">y=32</text>
+
+  <!-- Card 2: Mixture problem -->
+  <rect x="260" y="52" width="225" height="138" rx="10" fill="white" stroke="#1565C0" filter="url(#shadow1)"/>
+  <text x="372" y="70" text-anchor="middle" fill="#0D47A1" font-size="11" font-weight="bold">Задача на смеси</text>
+  <!-- Beaker 1 -->
+  <rect x="280" y="82" width="36" height="45" rx="3" fill="none" stroke="#1565C0" stroke-width="1.5"/>
+  <rect x="282" y="100" width="32" height="25" rx="2" fill="#90CAF9" opacity="0.6"/>
+  <text x="298" y="118" text-anchor="middle" fill="#0D47A1" font-size="7" font-weight="bold">x г</text>
+  <text x="298" y="138" text-anchor="middle" fill="#1565C0" font-size="8">5%</text>
+  <!-- Plus sign -->
+  <text x="330" y="108" text-anchor="middle" fill="#42A5F5" font-size="18" font-weight="bold">+</text>
+  <!-- Beaker 2 -->
+  <rect x="345" y="82" width="36" height="45" rx="3" fill="none" stroke="#1976D2" stroke-width="1.5"/>
+  <rect x="347" y="92" width="32" height="33" rx="2" fill="#64B5F6" opacity="0.5"/>
+  <text x="363" y="116" text-anchor="middle" fill="#0D47A1" font-size="7" font-weight="bold">y г</text>
+  <text x="363" y="138" text-anchor="middle" fill="#1976D2" font-size="8">25%</text>
+  <!-- Equals sign -->
+  <text x="395" y="108" text-anchor="middle" fill="#42A5F5" font-size="18" font-weight="bold">=</text>
+  <!-- Result beaker -->
+  <rect x="410" y="82" width="50" height="45" rx="3" fill="none" stroke="#0D47A1" stroke-width="1.5"/>
+  <rect x="412" y="95" width="46" height="30" rx="2" fill="#42A5F5" opacity="0.4"/>
+  <text x="435" y="118" text-anchor="middle" fill="#0D47A1" font-size="7" font-weight="bold">x+y г</text>
+  <text x="435" y="138" text-anchor="middle" fill="#0D47A1" font-size="8">10%</text>
+  <!-- Dashed connecting lines -->
+  <line x1="298" y1="140" x2="435" y2="140" stroke="#42A5F5" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <!-- System for mixture -->
+  <path d="M 280,155 Q 273,155 273,163 Q 273,171 280,171 Q 273,171 273,179 Q 273,187 280,187" fill="none" stroke="#0D47A1" stroke-width="1.2"/>
+  <text x="287" y="167" fill="#0D47A1" font-size="10">0.05x + 0.25y = 0.1(x+y)</text>
+  <text x="287" y="185" fill="#1565C0" font-size="10">x + y = 200</text>
+
+  <!-- Card 3: Solution algorithm -->
+  <rect x="15" y="200" width="225" height="120" rx="10" fill="white" stroke="#1565C0" filter="url(#shadow1)"/>
+  <text x="127" y="218" text-anchor="middle" fill="#0D47A1" font-size="11" font-weight="bold">Алгоритм решения</text>
+  <!-- Step 1 -->
+  <rect x="30" y="228" width="18" height="18" rx="9" fill="#0D47A1"/>
+  <text x="39" y="241" text-anchor="middle" fill="white" font-size="9" font-weight="bold">1</text>
+  <text x="55" y="241" fill="#1565C0" font-size="9">Ввести переменные x, y</text>
+  <!-- Arrow -->
+  <line x1="39" y1="247" x2="39" y2="255" stroke="#42A5F5" stroke-width="1.2"/>
+  <polygon points="39,258 36,253 42,253" fill="#42A5F5"/>
+  <!-- Step 2 -->
+  <rect x="30" y="260" width="18" height="18" rx="9" fill="#1976D2"/>
+  <text x="39" y="273" text-anchor="middle" fill="white" font-size="9" font-weight="bold">2</text>
+  <text x="55" y="273" fill="#1565C0" font-size="9">Составить систему</text>
+  <!-- Arrow -->
+  <line x1="39" y1="279" x2="39" y2="287" stroke="#42A5F5" stroke-width="1.2"/>
+  <polygon points="39,290 36,285 42,285" fill="#42A5F5"/>
+  <!-- Step 3 -->
+  <rect x="30" y="292" width="18" height="18" rx="9" fill="#42A5F5"/>
+  <text x="39" y="305" text-anchor="middle" fill="white" font-size="9" font-weight="bold">3</text>
+  <text x="55" y="305" fill="#1565C0" font-size="9">Решить, ответить на вопрос</text>
+
+  <!-- Card 4: Problem type pills -->
+  <rect x="260" y="200" width="225" height="120" rx="10" fill="white" stroke="#1565C0" filter="url(#shadow1)"/>
+  <text x="372" y="218" text-anchor="middle" fill="#0D47A1" font-size="11" font-weight="bold">Типы задач</text>
+  <!-- Pill: Motion -->
+  <rect x="275" y="230" width="90" height="24" rx="10" fill="#0D47A1"/>
+  <text x="320" y="246" text-anchor="middle" fill="white" font-size="9" font-weight="bold">Движение</text>
+  <!-- Pill: Mixtures -->
+  <rect x="375" y="230" width="95" height="24" rx="10" fill="#1565C0"/>
+  <text x="422" y="246" text-anchor="middle" fill="white" font-size="9" font-weight="bold">Смеси</text>
+  <!-- Pill: Work -->
+  <rect x="275" y="264" width="90" height="24" rx="10" fill="#1976D2"/>
+  <text x="320" y="280" text-anchor="middle" fill="white" font-size="9" font-weight="bold">Работа</text>
+  <!-- Pill: Numbers -->
+  <rect x="375" y="264" width="95" height="24" rx="10" fill="#42A5F5"/>
+  <text x="422" y="280" text-anchor="middle" fill="white" font-size="9" font-weight="bold">Числа</text>
+  <!-- Dashed lines converging to key concept -->
+  <line x1="320" y1="254" x2="350" y2="304" stroke="#42A5F5" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="422" y1="254" x2="390" y2="304" stroke="#42A5F5" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="320" y1="288" x2="350" y2="304" stroke="#42A5F5" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="422" y1="288" x2="390" y2="304" stroke="#42A5F5" stroke-width="1" stroke-dasharray="3,2"/>
+  <!-- Central key concept pill -->
+  <rect x="330" y="298" width="90" height="20" rx="10" fill="#0D47A1"/>
+  <text x="375" y="312" text-anchor="middle" fill="white" font-size="8" font-weight="bold">Система 2×2</text>
+
+  <!-- Bottom accent bar -->
+  <rect x="0" y="330" width="500" height="20" fill="#0D47A1"/>
+  <text x="250" y="344" text-anchor="middle" fill="#90CAF9" font-size="10" font-weight="bold">Ключ: перевести текст задачи в систему уравнений</text>
+</svg>

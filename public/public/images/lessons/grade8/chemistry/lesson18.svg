@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <radialGradient id="atomGreen" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.3"/>
+    </radialGradient>
+    <radialGradient id="atomTeal" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#14b8a6" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.3"/>
+    </radialGradient>
+    <radialGradient id="atomBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0.3"/>
+    </radialGradient>
+    <radialGradient id="atomRed" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#dc2626" stop-opacity="0.3"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bgGrad)"/>
+
+  <!-- Title -->
+  <text x="400" y="32" text-anchor="middle" fill="#f0fdf4" font-family="Arial, sans-serif" font-size="20" font-weight="bold" filter="url(#glow)">Химическая связь</text>
+  <text x="400" y="48" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="11">Типы химических связей и их характеристики</text>
+
+  <!-- ===== 1. Covalent Nonpolar (Cl-Cl) ===== -->
+  <rect x="15" y="58" width="185" height="195" rx="8" fill="#1e293b" stroke="#10b981" stroke-width="1.5" opacity="0.8"/>
+  <text x="107" y="78" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Ковалентная</text>
+  <text x="107" y="92" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="12" font-weight="bold">неполярная</text>
+
+  <!-- Cl atom 1 -->
+  <circle cx="65" cy="150" r="30" fill="url(#atomGreen)" stroke="#10b981" stroke-width="1.5"/>
+  <text x="65" y="155" text-anchor="middle" fill="#f0fdf4" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Cl</text>
+  <!-- Cl atom 2 -->
+  <circle cx="150" cy="150" r="30" fill="url(#atomGreen)" stroke="#10b981" stroke-width="1.5"/>
+  <text x="150" y="155" text-anchor="middle" fill="#f0fdf4" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Cl</text>
+  <!-- Shared electron pair (centered) -->
+  <ellipse cx="107" cy="150" rx="8" ry="5" fill="#f0fdf4" opacity="0.8"/>
+  <text x="107" y="146" text-anchor="middle" fill="#0f172a" font-family="Arial, sans-serif" font-size="7" font-weight="bold">e⁻e⁻</text>
+
+  <!-- Bond line -->
+  <line x1="80" y1="150" x2="135" y2="150" stroke="#10b981" stroke-width="2" stroke-dasharray="3,2"/>
+
+  <text x="107" y="200" text-anchor="middle" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="9">Одинаковые атомы</text>
+  <text x="107" y="213" text-anchor="middle" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="9">Общая пара симметрична</text>
+  <text x="107" y="226" text-anchor="middle" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="9">ΔЭО = 0</text>
+  <text x="107" y="244" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif" font-size="9">H₂, O₂, N₂, Cl₂</text>
+
+  <!-- ===== 2. Covalent Polar (H-Cl) ===== -->
+  <rect x="210" y="58" width="185" height="195" rx="8" fill="#1e293b" stroke="#14b8a6" stroke-width="1.5" opacity="0.8"/>
+  <text x="302" y="78" text-anchor="middle" fill="#14b8a6" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Ковалентная</text>
+  <text x="302" y="92" text-anchor="middle" fill="#14b8a6" font-family="Arial, sans-serif" font-size="12" font-weight="bold">полярная</text>
+
+  <!-- H atom -->
+  <circle cx="260" cy="150" r="22" fill="url(#atomTeal)" stroke="#14b8a6" stroke-width="1.5"/>
+  <text x="260" y="155" text-anchor="middle" fill="#f0fdf4" font-family="Arial, sans-serif" font-size="14" font-weight="bold">H</text>
+  <!-- Cl atom -->
+  <circle cx="345" cy="150" r="28" fill="url(#atomGreen)" stroke="#10b981" stroke-width="1.5"/>
+  <text x="345" y="155" text-anchor="middle" fill="#f0fdf4" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Cl</text>
+  <!-- Shifted electron pair -->
+  <ellipse cx="325" cy="150" rx="8" ry="5" fill="#f0fdf4" opacity="0.8"/>
+  <text x="325" y="146" text-anchor="middle" fill="#0f172a" font-family="Arial, sans-serif" font-size="7" font-weight="bold">e⁻e⁻</text>
+
+  <!-- Bond line -->
+  <line x1="275" y1="150" x2="330" y2="150" stroke="#14b8a6" stroke-width="2"/>
+
+  <!-- Delta charges -->
+  <text x="248" y="133" text-anchor="middle" fill="#fb923c" font-family="Arial, sans-serif" font-size="12" font-weight="bold">δ+</text>
+  <text x="362" y="133" text-anchor="middle" fill="#3b82f6" font-family="Arial, sans-serif" font-size="12" font-weight="bold">δ−</text>
+
+  <!-- Shift arrow -->
+  <path d="M290,170 L320,170" stroke="#f0fdf4" stroke-width="1" marker-end="url(#arrowW)"/>
+
+  <text x="302" y="200" text-anchor="middle" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="9">Разные атомы</text>
+  <text x="302" y="213" text-anchor="middle" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="9">Пара смещена к Cl</text>
+  <text x="302" y="226" text-anchor="middle" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="9">ΔЭО = 0.9</text>
+  <text x="302" y="244" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif" font-size="9">HCl, H₂O, NH₃</text>
+
+  <!-- ===== 3. Ionic (Na+ Cl-) ===== -->
+  <rect x="405" y="58" width="185" height="195" rx="8" fill="#1e293b" stroke="#0d9488" stroke-width="1.5" opacity="0.8"/>
+  <text x="497" y="78" text-anchor="middle" fill="#0d9488" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Ионная связь</text>
+
+  <!-- Na+ ion -->
+  <circle cx="455" cy="150" r="25" fill="url(#atomBlue)" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="455" y="147" text-anchor="middle" fill="#f0fdf4" font-family="Arial, sans-serif" font-size="13" font-weight="bold">Na</text>
+  <text x="455" y="162" text-anchor="middle" fill="#93c5fd" font-family="Arial, sans-serif" font-size="10">⁺</text>
+
+  <!-- Cl- ion -->
+  <circle cx="540" cy="150" r="28" fill="url(#atomRed)" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="540" y="147" text-anchor="middle" fill="#f0fdf4" font-family="Arial, sans-serif" font-size="13" font-weight="bold">Cl</text>
+  <text x="540" y="162" text-anchor="middle" fill="#fca5a5" font-family="Arial, sans-serif" font-size="10">⁻</text>
+
+  <!-- Electrostatic attraction arrows -->
+  <path d="M478,145 L514,145" stroke="#f0fdf4" stroke-width="1.5"/>
+  <path d="M478,155 L514,155" stroke="#f0fdf4" stroke-width="1.5"/>
+  <text x="497" y="140" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="8">+</text>
+  <text x="497" y="165" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="8">−</text>
+
+  <!-- e- transfer arrow -->
+  <path d="M470,120 Q497,105 525,120" fill="none" stroke="#fbbf24" stroke-width="1.5"/>
+  <text x="497" y="108" text-anchor="middle" fill="#fbbf24" font-family="Arial, sans-serif" font-size="9">e⁻</text>
+
+  <text x="497" y="200" text-anchor="middle" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="9">Металл + неметалл</text>
+  <text x="497" y="213" text-anchor="middle" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="9">Переход электрона</text>
+  <text x="497" y="226" text-anchor="middle" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="9">ΔЭО > 1.7</text>
+  <text x="497" y="244" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif" font-size="9">NaCl, CaO, KBr</text>
+
+  <!-- ===== 4. Metallic Bond ===== -->
+  <rect x="600" y="58" width="185" height="195" rx="8" fill="#1e293b" stroke="#059669" stroke-width="1.5" opacity="0.8"/>
+  <text x="692" y="78" text-anchor="middle" fill="#059669" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Металлическая</text>
+  <text x="692" y="92" text-anchor="middle" fill="#059669" font-family="Arial, sans-serif" font-size="12" font-weight="bold">связь</text>
+
+  <!-- Metallic lattice -->
+  <!-- Row 1 -->
+  <circle cx="640" cy="120" r="10" fill="url(#atomGreen)" stroke="#10b981" stroke-width="1"/>
+  <text x="640" y="123" text-anchor="middle" fill="#f0fdf4" font-family="Arial, sans-serif" font-size="8" font-weight="bold">Na⁺</text>
+  <circle cx="685" cy="120" r="10" fill="url(#atomGreen)" stroke="#10b981" stroke-width="1"/>
+  <text x="685" y="123" text-anchor="middle" fill="#f0fdf4" font-family="Arial, sans-serif" font-size="8" font-weight="bold">Na⁺</text>
+  <circle cx="730" cy="120" r="10" fill="url(#atomGreen)" stroke="#10b981" stroke-width="1"/>
+  <text x="730" y="123" text-anchor="middle" fill="#f0fdf4" font-family="Arial, sans-serif" font-size="8" font-weight="bold">Na⁺</text>
+  <!-- Row 2 -->
+  <circle cx="640" cy="155" r="10" fill="url(#atomGreen)" stroke="#10b981" stroke-width="1"/>
+  <text x="640" y="158" text-anchor="middle" fill="#f0fdf4" font-family="Arial, sans-serif" font-size="8" font-weight="bold">Na⁺</text>
+  <circle cx="685" cy="155" r="10" fill="url(#atomGreen)" stroke="#10b981" stroke-width="1"/>
+  <text x="685" y="158" text-anchor="middle" fill="#f0fdf4" font-family="Arial, sans-serif" font-size="8" font-weight="bold">Na⁺</text>
+  <circle cx="730" cy="155" r="10" fill="url(#atomGreen)" stroke="#10b981" stroke-width="1"/>
+  <text x="730" y="158" text-anchor="middle" fill="#f0fdf4" font-family="Arial, sans-serif" font-size="8" font-weight="bold">Na⁺</text>
+
+  <!-- Delocalized electrons (small dots) -->
+  <circle cx="662" cy="118" r="2.5" fill="#fbbf24" opacity="0.9"/>
+  <circle cx="708" cy="126" r="2.5" fill="#fbbf24" opacity="0.9"/>
+  <circle cx="662" cy="152" r="2.5" fill="#fbbf24" opacity="0.9"/>
+  <circle cx="708" cy="160" r="2.5" fill="#fbbf24" opacity="0.9"/>
+  <circle cx="660" cy="138" r="2.5" fill="#fbbf24" opacity="0.9"/>
+  <circle cx="710" cy="138" r="2.5" fill="#fbbf24" opacity="0.9"/>
+  <circle cx="685" cy="137" r="2.5" fill="#fbbf24" opacity="0.9"/>
+
+  <!-- Electron cloud -->
+  <rect x="632" y="112" width="106" height="50" rx="12" fill="none" stroke="#fbbf24" stroke-width="1" stroke-dasharray="3,2" opacity="0.5"/>
+  <text x="685" y="180" text-anchor="middle" fill="#fbbf24" font-family="Arial, sans-serif" font-size="8">электронный газ</text>
+
+  <text x="692" y="200" text-anchor="middle" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="9">Катионы + e⁻ газ</text>
+  <text x="692" y="213" text-anchor="middle" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="9">Делокализованные e⁻</text>
+  <text x="692" y="226" text-anchor="middle" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="9">ΔЭО = 0</text>
+  <text x="692" y="244" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif" font-size="9">Fe, Cu, Na, Au</text>
+
+  <!-- ===== Electronegativity Scale ===== -->
+  <rect x="30" y="270" width="740" height="80" rx="8" fill="#1e293b" stroke="#0f766e" stroke-width="1.5" opacity="0.8"/>
+  <text x="400" y="290" text-anchor="middle" fill="#f0fdf4" font-family="Arial, sans-serif" font-size="13" font-weight="bold">Шкала электроотрицательности и типы связей</text>
+
+  <!-- Scale bar -->
+  <rect x="60" y="310" width="680" height="12" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+  <!-- Gradient fill on scale -->
+  <rect x="60" y="310" width="227" height="12" rx="6" fill="#10b981" opacity="0.5"/>
+  <rect x="287" y="310" width="226" height="12" fill="#14b8a6" opacity="0.5"/>
+  <rect x="513" y="310" width="227" height="12" rx="6" fill="#0d9488" opacity="0.5"/>
+
+  <!-- Scale markers -->
+  <text x="60" y="335" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">ΔЭО = 0</text>
+  <text x="287" y="335" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">ΔЭО = 0.4</text>
+  <text x="400" y="335" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">ΔЭО = 1.7</text>
+  <text x="710" y="335" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">ΔЭО = 3.0+</text>
+
+  <!-- Scale labels -->
+  <text x="170" y="305" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Ковалентная неполярная</text>
+  <text x="400" y="305" text-anchor="middle" fill="#14b8a6" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Ковалентная полярная</text>
+  <text x="620" y="305" text-anchor="middle" fill="#0d9488" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Ионная</text>
+
+  <!-- Threshold lines -->
+  <line x1="287" y1="308" x2="287" y2="325" stroke="#f0fdf4" stroke-width="1.5" stroke-dasharray="2,1"/>
+  <line x1="513" y1="308" x2="513" y2="325" stroke="#f0fdf4" stroke-width="1.5" stroke-dasharray="2,1"/>
+
+  <!-- ===== Comparison table ===== -->
+  <rect x="30" y="365" width="740" height="115" rx="8" fill="#1e293b" stroke="#0f766e" stroke-width="1" opacity="0.6"/>
+  <text x="400" y="385" text-anchor="middle" fill="#f0fdf4" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Сравнительная характеристика типов связи</text>
+
+  <!-- Table headers -->
+  <text x="105" y="405" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9" font-weight="bold">Свойство</text>
+  <text x="240" y="405" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="9" font-weight="bold">Ков. неполярная</text>
+  <text x="390" y="405" text-anchor="middle" fill="#14b8a6" font-family="Arial, sans-serif" font-size="9" font-weight="bold">Ков. полярная</text>
+  <text x="540" y="405" text-anchor="middle" fill="#0d9488" font-family="Arial, sans-serif" font-size="9" font-weight="bold">Ионная</text>
+  <text x="680" y="405" text-anchor="middle" fill="#059669" font-family="Arial, sans-serif" font-size="9" font-weight="bold">Металлическая</text>
+
+  <line x1="40" y1="410" x2="760" y2="410" stroke="#334155" stroke-width="0.5"/>
+
+  <!-- Table rows -->
+  <text x="105" y="425" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="8">Образуется</text>
+  <text x="240" y="425" text-anchor="middle" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="8">Неметалл + Неметалл</text>
+  <text x="390" y="425" text-anchor="middle" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="8">Неметалл + Неметалл</text>
+  <text x="540" y="425" text-anchor="middle" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="8">Металл + Неметалл</text>
+  <text x="680" y="425" text-anchor="middle" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="8">Металл + Металл</text>
+
+  <text x="105" y="442" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="8">Механизм</text>
+  <text x="240" y="442" text-anchor="middle" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="8">Обмен e⁻</text>
+  <text x="390" y="442" text-anchor="middle" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="8">Обмен e⁻</text>
+  <text x="540" y="442" text-anchor="middle" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="8">Передача e⁻</text>
+  <text x="680" y="442" text-anchor="middle" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="8">Обобществление e⁻</text>
+
+  <text x="105" y="459" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="8">Частицы</text>
+  <text x="240" y="459" text-anchor="middle" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="8">Атомы</text>
+  <text x="390" y="459" text-anchor="middle" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="8">Атомы (диполь)</text>
+  <text x="540" y="459" text-anchor="middle" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="8">Ионы</text>
+  <text x="680" y="459" text-anchor="middle" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="8">Катионы + e⁻ газ</text>
+
+  <text x="105" y="476" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="8">Пример</text>
+  <text x="240" y="476" text-anchor="middle" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="8">Cl₂, H₂</text>
+  <text x="390" y="476" text-anchor="middle" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="8">HCl, H₂O</text>
+  <text x="540" y="476" text-anchor="middle" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="8">NaCl, CaO</text>
+  <text x="680" y="476" text-anchor="middle" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="8">Fe, Cu</text>
+
+  <!-- Decorative border -->
+  <rect x="2" y="2" width="796" height="496" rx="8" fill="none" stroke="#10b981" stroke-width="1" opacity="0.3"/>
+
+  <!-- Lesson number -->
+  <text x="780" y="490" text-anchor="end" fill="#475569" font-family="Arial, sans-serif" font-size="9">Урок 18</text>
+</svg>

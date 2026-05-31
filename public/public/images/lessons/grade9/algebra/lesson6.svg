@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" font-family="Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E3F2FD"/>
+      <stop offset="100%" style="stop-color:#BBDEFB"/>
+    </linearGradient>
+    <filter id="shadow1" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg1)" rx="8"/>
+  <!-- Title bar -->
+  <rect x="0" y="0" width="500" height="42" fill="#0D47A1" rx="8"/>
+  <rect x="0" y="20" width="500" height="22" fill="#0D47A1"/>
+  <text x="250" y="28" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Целое уравнение и его корни</text>
+
+  <!-- Central concept: Cubic polynomial graph -->
+  <rect x="145" y="52" width="210" height="170" rx="10" fill="white" stroke="#1565C0" stroke-width="1.5" filter="url(#shadow1)"/>
+  <text x="250" y="70" text-anchor="middle" fill="#0D47A1" font-size="10" font-weight="bold">y = P(x) — многочлен 3-й степени</text>
+  <!-- Coordinate axes -->
+  <g transform="translate(250,145)">
+    <line x1="-90" y1="0" x2="90" y2="0" stroke="#0D47A1" stroke-width="1.5"/>
+    <line x1="0" y1="-60" x2="0" y2="55" stroke="#0D47A1" stroke-width="1.5"/>
+    <polygon points="90,0 84,-4 84,4" fill="#0D47A1"/>
+    <polygon points="0,-60 -4,-54 4,-54" fill="#0D47A1"/>
+    <text x="88" y="14" fill="#0D47A1" font-size="9" font-weight="bold">x</text>
+    <text x="8" y="-55" fill="#0D47A1" font-size="9" font-weight="bold">y</text>
+    <!-- Cubic curve y=x^3-x -->
+    <path d="M-85,40 Q-65,30 -50,-5 Q-40,-25 -25,-40 Q-15,-45 0,-10 Q15,25 25,40 Q35,30 50,-5 Q60,-25 75,-40 Q80,-45 85,-40" fill="none" stroke="#1976D2" stroke-width="2.5"/>
+    <!-- Root markers on x-axis -->
+    <circle cx="-40" cy="0" r="4" fill="#F44336" stroke="#C62828" stroke-width="1"/>
+    <circle cx="0" cy="0" r="4" fill="#F44336" stroke="#C62828" stroke-width="1"/>
+    <circle cx="40" cy="0" r="4" fill="#F44336" stroke="#C62828" stroke-width="1"/>
+    <text x="-40" y="14" text-anchor="middle" fill="#C62828" font-size="7" font-weight="bold">x₁</text>
+    <text x="0" y="14" text-anchor="middle" fill="#C62828" font-size="7" font-weight="bold">x₂</text>
+    <text x="40" y="14" text-anchor="middle" fill="#C62828" font-size="7" font-weight="bold">x₃</text>
+    <!-- Dashed lines from roots to curve -->
+    <line x1="-40" y1="0" x2="-40" y2="-8" stroke="#F44336" stroke-width="0.8" stroke-dasharray="3,2"/>
+    <line x1="40" y1="0" x2="40" y2="-12" stroke="#F44336" stroke-width="0.8" stroke-dasharray="3,2"/>
+  </g>
+  <text x="250" y="215" text-anchor="middle" fill="#1565C0" font-size="8">3 корня — график пересекает ось x в 3 точках</text>
+
+  <!-- Left card: Degree classification -->
+  <rect x="10" y="52" width="128" height="170" rx="10" fill="white" stroke="#1976D2" stroke-width="1.5" filter="url(#shadow1)"/>
+  <text x="74" y="70" text-anchor="middle" fill="#0D47A1" font-size="9" font-weight="bold">Степень → Корни</text>
+  <line x1="20" y1="76" x2="128" y2="76" stroke="#42A5F5" stroke-width="0.8"/>
+
+  <!-- Degree 1 pill -->
+  <rect x="18" y="84" width="112" height="22" rx="8" fill="#E3F2FD" stroke="#42A5F5" stroke-width="1"/>
+  <text x="30" y="99" fill="#0D47A1" font-size="8" font-weight="bold">1-я</text>
+  <text x="80" y="99" text-anchor="middle" fill="#1565C0" font-size="7">1 корень</text>
+
+  <!-- Degree 2 pill -->
+  <rect x="18" y="112" width="112" height="22" rx="8" fill="#E3F2FD" stroke="#42A5F5" stroke-width="1"/>
+  <text x="30" y="127" fill="#0D47A1" font-size="8" font-weight="bold">2-я</text>
+  <text x="80" y="127" text-anchor="middle" fill="#1565C0" font-size="7">≤ 2 корней</text>
+
+  <!-- Degree 3 pill -->
+  <rect x="18" y="140" width="112" height="22" rx="8" fill="#E3F2FD" stroke="#42A5F5" stroke-width="1"/>
+  <text x="30" y="155" fill="#0D47A1" font-size="8" font-weight="bold">3-я</text>
+  <text x="80" y="155" text-anchor="middle" fill="#1565C0" font-size="7">≤ 3 корней</text>
+
+  <!-- Degree n pill -->
+  <rect x="18" y="168" width="112" height="22" rx="8" fill="#0D47A1" stroke="#1565C0" stroke-width="1"/>
+  <text x="30" y="183" fill="white" font-size="8" font-weight="bold">n-я</text>
+  <text x="80" y="183" text-anchor="middle" fill="#90CAF9" font-size="7">≤ n корней</text>
+
+  <!-- Connecting dashed lines from left card to center -->
+  <path d="M138,120 L145,120" fill="none" stroke="#42A5F5" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <path d="M138,150 L145,150" fill="none" stroke="#42A5F5" stroke-width="1.5" stroke-dasharray="4,2"/>
+
+  <!-- Right card: Bezout's theorem -->
+  <rect x="362" y="52" width="128" height="100" rx="10" fill="white" stroke="#1976D2" stroke-width="1.5" filter="url(#shadow1)"/>
+  <text x="426" y="70" text-anchor="middle" fill="#0D47A1" font-size="9" font-weight="bold">Теорема Безу</text>
+  <line x1="372" y1="76" x2="480" y2="76" stroke="#42A5F5" stroke-width="0.8"/>
+  <!-- Visual: polynomial division icon -->
+  <g transform="translate(426,100)">
+    <rect x="-45" y="-12" width="90" height="24" rx="5" fill="#E3F2FD" stroke="#42A5F5" stroke-width="1"/>
+    <text x="0" y="4" text-anchor="middle" fill="#0D47A1" font-size="9" font-weight="bold">P(x₀) = 0</text>
+  </g>
+  <text x="426" y="125" text-anchor="middle" fill="#1565C0" font-size="7">x₀ — корень ⇔</text>
+  <text x="426" y="137" text-anchor="middle" fill="#1565C0" font-size="7">многочлен делится на</text>
+  <text x="426" y="147" text-anchor="middle" fill="#0D47A1" font-size="8" font-weight="bold">(x − x₀)</text>
+
+  <!-- Connecting dashed line from center to right card -->
+  <path d="M355,100 L362,100" fill="none" stroke="#42A5F5" stroke-width="1.5" stroke-dasharray="4,2"/>
+
+  <!-- Right card: Methods -->
+  <rect x="362" y="160" width="128" height="62" rx="10" fill="white" stroke="#1976D2" stroke-width="1.5" filter="url(#shadow1)"/>
+  <text x="426" y="178" text-anchor="middle" fill="#0D47A1" font-size="9" font-weight="bold">Методы решения</text>
+  <line x1="372" y1="183" x2="480" y2="183" stroke="#42A5F5" stroke-width="0.8"/>
+  <!-- Method pills -->
+  <rect x="368" y="188" width="56" height="14" rx="7" fill="#1565C0"/>
+  <text x="396" y="198" text-anchor="middle" fill="white" font-size="6" font-weight="bold">Разложение</text>
+  <rect x="428" y="188" width="56" height="14" rx="7" fill="#1976D2"/>
+  <text x="456" y="198" text-anchor="middle" fill="white" font-size="6" font-weight="bold">Замена</text>
+  <rect x="368" y="205" width="56" height="14" rx="7" fill="#42A5F5"/>
+  <text x="396" y="215" text-anchor="middle" fill="white" font-size="6" font-weight="bold">Группировка</text>
+  <rect x="428" y="205" width="56" height="14" rx="7" fill="#64B5F6"/>
+  <text x="456" y="215" text-anchor="middle" fill="white" font-size="6" font-weight="bold">Схема Горнера</text>
+
+  <!-- Connecting dashed line from center graph to methods -->
+  <path d="M355,170 L362,175" fill="none" stroke="#42A5F5" stroke-width="1.5" stroke-dasharray="4,2"/>
+
+  <!-- Bottom info strip: small graph icons -->
+  <rect x="10" y="230" width="480" height="90" rx="10" fill="white" stroke="#1976D2" stroke-width="1.5" filter="url(#shadow1)"/>
+  <text x="250" y="248" text-anchor="middle" fill="#0D47A1" font-size="10" font-weight="bold">Графики многочленов разных степеней</text>
+
+  <!-- Linear graph -->
+  <g transform="translate(80,285)">
+    <rect x="-50" y="-28" width="100" height="50" rx="5" fill="#E3F2FD" stroke="#42A5F5" stroke-width="0.8"/>
+    <line x1="-35" y1="0" x2="35" y2="0" stroke="#90CAF9" stroke-width="0.5"/>
+    <line x1="0" y1="-20" x2="0" y2="18" stroke="#90CAF9" stroke-width="0.5"/>
+    <line x1="-30" y1="15" x2="30" y2="-15" stroke="#1976D2" stroke-width="2"/>
+    <circle cx="0" cy="0" r="3" fill="#F44336"/>
+    <text x="0" y="28" text-anchor="middle" fill="#0D47A1" font-size="6" font-weight="bold">ax + b = 0</text>
+  </g>
+
+  <!-- Quadratic graph -->
+  <g transform="translate(210,285)">
+    <rect x="-50" y="-28" width="100" height="50" rx="5" fill="#E3F2FD" stroke="#42A5F5" stroke-width="0.8"/>
+    <line x1="-35" y1="0" x2="35" y2="0" stroke="#90CAF9" stroke-width="0.5"/>
+    <line x1="0" y1="-20" x2="0" y2="18" stroke="#90CAF9" stroke-width="0.5"/>
+    <path d="M-30,15 Q-15,-20 0,-22 Q15,-20 30,15" fill="none" stroke="#1976D2" stroke-width="2"/>
+    <circle cx="-18" cy="0" r="3" fill="#F44336"/>
+    <circle cx="18" cy="0" r="3" fill="#F44336"/>
+    <text x="0" y="28" text-anchor="middle" fill="#0D47A1" font-size="6" font-weight="bold">ax² + bx + c = 0</text>
+  </g>
+
+  <!-- Cubic graph -->
+  <g transform="translate(340,285)">
+    <rect x="-50" y="-28" width="100" height="50" rx="5" fill="#E3F2FD" stroke="#42A5F5" stroke-width="0.8"/>
+    <line x1="-35" y1="0" x2="35" y2="0" stroke="#90CAF9" stroke-width="0.5"/>
+    <line x1="0" y1="-20" x2="0" y2="18" stroke="#90CAF9" stroke-width="0.5"/>
+    <path d="M-32,15 Q-20,10 -12,-5 Q-5,-18 0,-8 Q5,5 12,15 Q18,10 25,-8 Q30,-18 35,-15" fill="none" stroke="#1976D2" stroke-width="2"/>
+    <circle cx="-15" cy="0" r="3" fill="#F44336"/>
+    <circle cx="0" cy="0" r="3" fill="#F44336"/>
+    <circle cx="20" cy="0" r="3" fill="#F44336"/>
+    <text x="0" y="28" text-anchor="middle" fill="#0D47A1" font-size="6" font-weight="bold">ax³ + ... = 0</text>
+  </g>
+
+  <!-- Connecting dashed lines from mini graphs to labels -->
+  <line x1="460" y1="260" x2="470" y2="260" stroke="#42A5F5" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="470" y="270" fill="#0D47A1" font-size="7" font-weight="bold">≤ n</text>
+  <text x="470" y="280" fill="#0D47A1" font-size="7" font-weight="bold">корней</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="330" width="500" height="20" fill="#0D47A1" rx="0"/>
+  <rect x="0" y="330" width="500" height="10" fill="#0D47A1"/>
+  <text x="250" y="344" text-anchor="middle" fill="#90CAF9" font-size="10" font-weight="bold">Уравнение n-й степени имеет не более n корней</text>
+</svg>

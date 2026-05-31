@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="50%" stop-color="#BBDEFB"/>
+      <stop offset="100%" stop-color="#1E88E5" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="500" height="350" fill="url(#bg)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#0D47A1" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#0D47A1" text-anchor="middle" font-family="Arial">Свойства функций</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="Arial">Алгебра 10 класс — Урок 2</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#1565C0" stroke-opacity="0.3"/>
+  <rect x="12" y="58" width="152" height="105" rx="6" fill="white" fill-opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+  <text x="88" y="74" font-size="9" font-weight="bold" fill="#0D47A1" text-anchor="middle" font-family="Arial">Монотонность</text>
+  <text x="88" y="92" font-size="7" fill="#555" text-anchor="middle" font-family="Arial">Возрастает:</text>
+  <text x="88" y="104" font-size="7" fill="#1565C0" text-anchor="middle" font-family="Arial">x₁ &lt; x₂ → f(x₁)&lt;f(x₂)</text>
+  <text x="88" y="119" font-size="7" fill="#555" text-anchor="middle" font-family="Arial">Убывает:</text>
+  <text x="88" y="131" font-size="7" fill="#1565C0" text-anchor="middle" font-family="Arial">x₁ &lt; x₂ → f(x₁)>f(x₂)</text>
+  <text x="88" y="150" font-size="7" fill="#0D47A1" font-weight="bold" text-anchor="middle" font-family="Arial">График: ↑ или ↓</text>
+  <rect x="172" y="58" width="152" height="105" rx="6" fill="white" fill-opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+  <text x="248" y="74" font-size="9" font-weight="bold" fill="#0D47A1" text-anchor="middle" font-family="Arial">Чётность</text>
+  <text x="248" y="92" font-size="7" fill="#555" text-anchor="middle" font-family="Arial">Чётная: f(−x) = f(x)</text>
+  <text x="248" y="107" font-size="7" fill="#1565C0" text-anchor="middle" font-family="Arial">Симметрия: ось Y</text>
+  <text x="248" y="122" font-size="7" fill="#555" text-anchor="middle" font-family="Arial">Нечётная: f(−x) = −f(x)</text>
+  <text x="248" y="137" font-size="7" fill="#1565C0" text-anchor="middle" font-family="Arial">Симметрия: O(0;0)</text>
+  <text x="248" y="152" font-size="7" fill="#0D47A1" font-weight="bold" text-anchor="middle" font-family="Arial">D(f) симметрична!</text>
+  <rect x="332" y="58" width="156" height="105" rx="6" fill="white" fill-opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+  <text x="410" y="74" font-size="9" font-weight="bold" fill="#0D47A1" text-anchor="middle" font-family="Arial">Ограниченность</text>
+  <text x="410" y="92" font-size="7" fill="#555" text-anchor="middle" font-family="Arial">Сверху: f(x) ≤ M</text>
+  <text x="410" y="107" font-size="7" fill="#555" text-anchor="middle" font-family="Arial">Снизу: f(x) ≥ m</text>
+  <text x="410" y="122" font-size="7" fill="#1565C0" text-anchor="middle" font-family="Arial">Пример: sin x ∈ [−1; 1]</text>
+  <text x="410" y="137" font-size="7" fill="#0D47A1" font-weight="bold" text-anchor="middle" font-family="Arial">Ограничена = и сверху,</text>
+  <text x="410" y="152" font-size="7" fill="#0D47A1" font-weight="bold" text-anchor="middle" font-family="Arial">и снизу</text>
+  <rect x="12" y="170" width="476" height="60" rx="6" fill="white" fill-opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+  <text x="250" y="187" font-size="9" font-weight="bold" fill="#0D47A1" text-anchor="middle" font-family="Arial">Примеры</text>
+  <text x="250" y="203" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">f(x) = x⁴ − 3x² — чётная: f(−x) = f(x)</text>
+  <text x="250" y="218" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">f(x) = x³ − x — нечётная: f(−x) = −f(x)</text>
+  <rect x="12" y="238" width="476" height="72" rx="6" fill="white" fill-opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+  <text x="250" y="255" font-size="9" font-weight="bold" fill="#0D47A1" text-anchor="middle" font-family="Arial">Периодичность</text>
+  <text x="250" y="272" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">f(x + T) = f(x) — период T</text>
+  <text x="250" y="288" font-size="8" fill="#1565C0" text-anchor="middle" font-family="Arial">sin x, cos x: T = 2π | tg x, ctg x: T = π</text>
+  <text x="250" y="300" font-size="7" fill="#0D47A1" font-weight="bold" text-anchor="middle" font-family="Arial">График повторяется через T</text>
+  <rect x="12" y="320" width="476" height="22" rx="4" fill="#1565C0" fill-opacity="0.85"/>
+  <text x="250" y="335" font-size="9" fill="white" text-anchor="middle" font-weight="bold" font-family="Arial">Свойства функций — Мордкович А.Г., 10 класс</text>
+</svg>

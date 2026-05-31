@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="scale3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#14b8a6"/>
+      <stop offset="100%" style="stop-color:#0d9488"/>
+    </linearGradient>
+    <linearGradient id="pan3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d9488"/>
+      <stop offset="100%" style="stop-color:#0f766e"/>
+    </linearGradient>
+    <linearGradient id="atom3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981"/>
+      <stop offset="100%" style="stop-color:#059669"/>
+    </linearGradient>
+    <linearGradient id="atomO3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14b8a6"/>
+      <stop offset="100%" style="stop-color:#0d9488"/>
+    </linearGradient>
+    <filter id="shadow3">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg3)" rx="12"/>
+
+  <!-- Title -->
+  <text x="400" y="45" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#e2e8f0" text-anchor="middle">Закон сохранения массы</text>
+
+  <!-- Subtitle -->
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">М.В. Ломоносов, 1748 г.</text>
+
+  <!-- Divider line -->
+  <line x1="50" y1="85" x2="750" y2="85" stroke="#0d9488" stroke-width="1" opacity="0.3"/>
+
+  <!-- ===== BALANCE/SCALE ===== -->
+  <g transform="translate(400, 180)">
+    <!-- Fulcrum (triangle base) -->
+    <polygon points="0,0 -15,40 15,40" fill="url(#scale3)" filter="url(#shadow3)"/>
+    <!-- Base platform -->
+    <rect x="-40" y="40" width="80" height="8" rx="3" fill="url(#pan3)"/>
+
+    <!-- Beam (balanced - horizontal) -->
+    <rect x="-200" y="-8" width="400" height="6" rx="3" fill="url(#scale3)" filter="url(#shadow3)"/>
+
+    <!-- Left pan strings -->
+    <line x1="-180" y1="-8" x2="-200" y2="30" stroke="#14b8a6" stroke-width="1.5"/>
+    <line x1="-180" y1="-8" x2="-160" y2="30" stroke="#14b8a6" stroke-width="1.5"/>
+
+    <!-- Left pan -->
+    <ellipse cx="-180" cy="35" rx="45" ry="10" fill="url(#pan3)" filter="url(#shadow3)"/>
+
+    <!-- Right pan strings -->
+    <line x1="180" y1="-8" x2="160" y2="30" stroke="#14b8a6" stroke-width="1.5"/>
+    <line x1="180" y1="-8" x2="200" y2="30" stroke="#14b8a6" stroke-width="1.5"/>
+
+    <!-- Right pan -->
+    <ellipse cx="180" cy="35" rx="45" ry="10" fill="url(#pan3)" filter="url(#shadow3)"/>
+
+    <!-- ===== LEFT PAN: Reactants (2Mg + O2) ===== -->
+    <!-- Mg atom 1 -->
+    <circle cx="-200" cy="10" r="12" fill="url(#atom3)" stroke="#10b981" stroke-width="1.5"/>
+    <text x="-200" y="14" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Mg</text>
+
+    <!-- Mg atom 2 -->
+    <circle cx="-165" cy="10" r="12" fill="url(#atom3)" stroke="#10b981" stroke-width="1.5"/>
+    <text x="-165" y="14" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Mg</text>
+
+    <!-- O2 molecule (two O atoms bonded) -->
+    <circle cx="-185" cy="-15" r="10" fill="url(#atomO3)" stroke="#14b8a6" stroke-width="1.5"/>
+    <text x="-185" y="-11" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle">O</text>
+    <circle cx="-167" cy="-15" r="10" fill="url(#atomO3)" stroke="#14b8a6" stroke-width="1.5"/>
+    <text x="-167" y="-11" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle">O</text>
+    <!-- Bond between O atoms -->
+    <line x1="-175" y1="-15" x2="-177" y2="-15" stroke="#14b8a6" stroke-width="2"/>
+
+    <!-- Label under left pan -->
+    <text x="-180" y="65" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#e2e8f0" text-anchor="middle">2Mg + O₂</text>
+
+    <!-- ===== RIGHT PAN: Products (2MgO) ===== -->
+    <!-- MgO molecule 1 -->
+    <circle cx="168" cy="5" r="12" fill="url(#atom3)" stroke="#10b981" stroke-width="1.5"/>
+    <text x="168" y="9" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Mg</text>
+    <circle cx="190" cy="5" r="10" fill="url(#atomO3)" stroke="#14b8a6" stroke-width="1.5"/>
+    <text x="190" y="9" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle">O</text>
+    <!-- Bond -->
+    <line x1="180" y1="5" x2="178" y2="5" stroke="#0d9488" stroke-width="2"/>
+
+    <!-- MgO molecule 2 -->
+    <circle cx="170" cy="-18" r="12" fill="url(#atom3)" stroke="#10b981" stroke-width="1.5"/>
+    <text x="170" y="-14" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Mg</text>
+    <circle cx="192" cy="-18" r="10" fill="url(#atomO3)" stroke="#14b8a6" stroke-width="1.5"/>
+    <text x="192" y="-14" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle">O</text>
+    <!-- Bond -->
+    <line x1="182" y1="-18" x2="180" y2="-18" stroke="#0d9488" stroke-width="2"/>
+
+    <!-- Label under right pan -->
+    <text x="180" y="65" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#e2e8f0" text-anchor="middle">2MgO</text>
+  </g>
+
+  <!-- Equals sign in the middle -->
+  <text x="400" y="270" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#10b981" text-anchor="middle">=</text>
+
+  <!-- Law statement box -->
+  <rect x="150" y="350" width="500" height="60" rx="10" fill="#0d9488" opacity="0.15" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="400" y="378" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#10b981" text-anchor="middle">m(исх.) = m(прод.)</text>
+  <text x="400" y="400" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8" text-anchor="middle">Масса исходных веществ равна массе продуктов реакции</text>
+
+  <!-- Atom count verification -->
+  <g transform="translate(400, 445)">
+    <rect x="-180" y="-15" width="360" height="35" rx="8" fill="#059669" opacity="0.1" stroke="#059669" stroke-width="1"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">Слева: 2 атома Mg + 2 атома O  =  Справа: 2 атома Mg + 2 атома O</text>
+  </g>
+
+  <!-- Decorative corner elements -->
+  <circle cx="30" cy="30" r="4" fill="#0d9488" opacity="0.3"/>
+  <circle cx="770" cy="30" r="4" fill="#0d9488" opacity="0.3"/>
+  <circle cx="30" cy="470" r="4" fill="#0d9488" opacity="0.3"/>
+  <circle cx="770" cy="470" r="4" fill="#0d9488" opacity="0.3"/>
+</svg>

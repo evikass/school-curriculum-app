@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="50%" stop-color="#BBDEFB"/>
+      <stop offset="100%" stop-color="#1E88E5" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="500" height="350" fill="url(#bg)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#0D47A1" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#0D47A1" text-anchor="middle" font-family="Arial">Отбор корней на промежутке</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="Arial">Алгебра 10 класс — Урок 10</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#1565C0" stroke-opacity="0.3"/>
+  <rect x="12" y="58" width="476" height="55" rx="6" fill="white" fill-opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+  <text x="250" y="75" font-size="10" fill="#0D47A1" text-anchor="middle" font-weight="bold" font-family="Arial">Два метода отбора</text>
+  <text x="250" y="93" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">1. Перебор k: k=0, ±1, ±2, ... пока x ∈ [a; b]</text>
+  <text x="250" y="107" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">2. Двойное неравенство: a ≤ f(k) ≤ b → найти целые k</text>
+  <rect x="12" y="121" width="476" height="95" rx="6" fill="white" fill-opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+  <text x="250" y="138" font-size="9" font-weight="bold" fill="#0D47A1" text-anchor="middle" font-family="Arial">Пример: sin x = 1/2 на [0; 2π]</text>
+  <text x="250" y="155" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">Общая серия: x = (−1)^k · π/6 + πk</text>
+  <text x="250" y="170" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">k = 0: x = π/6 ✓</text>
+  <text x="250" y="183" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">k = 1: x = −π/6 + π = 5π/6 ✓</text>
+  <text x="250" y="196" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">k = 2: x = 13π/6 > 2π ✗ | k = −1: x &lt; 0 ✗</text>
+  <text x="250" y="211" font-size="8" fill="#0D47A1" font-weight="bold" text-anchor="middle" font-family="Arial">Ответ: π/6, 5π/6</text>
+  <rect x="12" y="224" width="476" height="48" rx="6" fill="white" fill-opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+  <text x="250" y="241" font-size="9" font-weight="bold" fill="#0D47A1" text-anchor="middle" font-family="Arial">Периоды при отборе</text>
+  <text x="250" y="258" font-size="8" fill="#1565C0" text-anchor="middle" font-family="Arial">sin, cos: шаг 2πk | tg, ctg: шаг πk</text>
+  <text x="250" y="268" font-size="7" fill="#555" text-anchor="middle" font-family="Arial">cos x = a даёт ±arccos a — две серии!</text>
+  <rect x="12" y="280" width="476" height="32" rx="6" fill="white" fill-opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+  <text x="250" y="300" font-size="8" fill="#0D47A1" font-weight="bold" text-anchor="middle" font-family="Arial">Главное: перебирать все k, пока не выйдешь за отрезок!</text>
+  <rect x="12" y="320" width="476" height="22" rx="4" fill="#1565C0" fill-opacity="0.85"/>
+  <text x="250" y="335" font-size="9" fill="white" text-anchor="middle" font-weight="bold" font-family="Arial">Отбор корней — Мордкович А.Г., 10 класс</text>
+</svg>

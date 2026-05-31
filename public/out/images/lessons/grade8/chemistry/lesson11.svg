@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg11" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0fdfa"/>
+      <stop offset="100%" stop-color="#ccfbf1"/>
+    </linearGradient>
+    <filter id="shadow11">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg11)" rx="12"/>
+
+  <!-- Title -->
+  <text x="400" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#0d9488">Ковалентная неполярная связь</text>
+  <text x="400" y="64" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">Общие электронные пары расположены симметрично</text>
+
+  <!-- H₂ Molecule — Single Bond -->
+  <g transform="translate(130, 200)">
+    <rect x="-100" y="-80" width="200" height="190" rx="12" fill="white" fill-opacity="0.7" stroke="#2dd4bf" stroke-width="1.5" filter="url(#shadow11)"/>
+    <text x="0" y="-55" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0d9488">Одинарная H—H</text>
+
+    <!-- Left H atom -->
+    <circle cx="-35" cy="0" r="28" fill="#ccfbf1" stroke="#0d9488" stroke-width="2"/>
+    <text x="-35" y="6" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0d9488">H</text>
+
+    <!-- Right H atom -->
+    <circle cx="35" cy="0" r="28" fill="#ccfbf1" stroke="#0d9488" stroke-width="2"/>
+    <text x="35" y="6" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0d9488">H</text>
+
+    <!-- Shared electron pair (dots) -->
+    <circle cx="-6" cy="-5" r="4" fill="#0d9488"/>
+    <circle cx="6" cy="-5" r="4" fill="#0d9488"/>
+
+    <!-- Bond line -->
+    <line x1="-7" y1="5" x2="7" y2="5" stroke="#0d9488" stroke-width="3"/>
+
+    <!-- Symmetry label -->
+    <text x="0" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#14b8a6">1 общая пара</text>
+    <text x="0" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#14b8a6">σ-связь</text>
+
+    <!-- Electron dots on atoms -->
+    <circle cx="-35" cy="-35" r="3" fill="#2dd4bf"/>
+    <circle cx="35" cy="-35" r="3" fill="#2dd4bf"/>
+
+    <!-- Symmetry arrow -->
+    <line x1="-70" y1="80" x2="70" y2="80" stroke="#2dd4bf" stroke-width="1" stroke-dasharray="4,3"/>
+    <text x="0" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#14b8a6">↔ симметрия</text>
+  </g>
+
+  <!-- O₂ Molecule — Double Bond -->
+  <g transform="translate(400, 200)">
+    <rect x="-100" y="-80" width="200" height="190" rx="12" fill="white" fill-opacity="0.7" stroke="#2dd4bf" stroke-width="1.5" filter="url(#shadow11)"/>
+    <text x="0" y="-55" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0d9488">Двойная O═O</text>
+
+    <!-- Left O atom -->
+    <circle cx="-35" cy="0" r="30" fill="#ccfbf1" stroke="#0d9488" stroke-width="2"/>
+    <text x="-35" y="6" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0d9488">O</text>
+
+    <!-- Right O atom -->
+    <circle cx="35" cy="0" r="30" fill="#ccfbf1" stroke="#0d9488" stroke-width="2"/>
+    <text x="35" y="6" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0d9488">O</text>
+
+    <!-- Shared electron pairs (2 pairs = 4 dots) -->
+    <circle cx="-7" cy="-8" r="4" fill="#0d9488"/>
+    <circle cx="7" cy="-8" r="4" fill="#0d9488"/>
+    <circle cx="-7" cy="2" r="4" fill="#0d9488"/>
+    <circle cx="7" cy="2" r="4" fill="#0d9488"/>
+
+    <!-- Double bond lines -->
+    <line x1="-7" y1="-14" x2="7" y2="-14" stroke="#0d9488" stroke-width="2.5"/>
+    <line x1="-7" y1="-4" x2="7" y2="-4" stroke="#0d9488" stroke-width="2.5"/>
+
+    <!-- Electron dots on atoms -->
+    <circle cx="-35" cy="-38" r="3" fill="#2dd4bf"/>
+    <circle cx="-55" cy="-15" r="3" fill="#2dd4bf"/>
+    <circle cx="-55" cy="15" r="3" fill="#2dd4bf"/>
+    <circle cx="35" cy="-38" r="3" fill="#2dd4bf"/>
+    <circle cx="55" cy="-15" r="3" fill="#2dd4bf"/>
+    <circle cx="55" cy="15" r="3" fill="#2dd4bf"/>
+
+    <text x="0" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#14b8a6">2 общие пары</text>
+    <text x="0" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#14b8a6">σ + π связи</text>
+
+    <line x1="-70" y1="80" x2="70" y2="80" stroke="#2dd4bf" stroke-width="1" stroke-dasharray="4,3"/>
+    <text x="0" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#14b8a6">↔ симметрия</text>
+  </g>
+
+  <!-- N₂ Molecule — Triple Bond -->
+  <g transform="translate(670, 200)">
+    <rect x="-100" y="-80" width="200" height="190" rx="12" fill="white" fill-opacity="0.7" stroke="#2dd4bf" stroke-width="1.5" filter="url(#shadow11)"/>
+    <text x="0" y="-55" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0d9488">Тройная N≡N</text>
+
+    <!-- Left N atom -->
+    <circle cx="-35" cy="0" r="30" fill="#ccfbf1" stroke="#0d9488" stroke-width="2"/>
+    <text x="-35" y="6" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0d9488">N</text>
+
+    <!-- Right N atom -->
+    <circle cx="35" cy="0" r="30" fill="#ccfbf1" stroke="#0d9488" stroke-width="2"/>
+    <text x="35" y="6" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0d9488">N</text>
+
+    <!-- Shared electron pairs (3 pairs = 6 dots) -->
+    <circle cx="-6" cy="-12" r="3.5" fill="#0d9488"/>
+    <circle cx="6" cy="-12" r="3.5" fill="#0d9488"/>
+    <circle cx="-6" cy="-3" r="3.5" fill="#0d9488"/>
+    <circle cx="6" cy="-3" r="3.5" fill="#0d9488"/>
+    <circle cx="-6" cy="6" r="3.5" fill="#0d9488"/>
+    <circle cx="6" cy="6" r="3.5" fill="#0d9488"/>
+
+    <!-- Triple bond lines -->
+    <line x1="-7" y1="-18" x2="7" y2="-18" stroke="#0d9488" stroke-width="2"/>
+    <line x1="-7" y1="-8" x2="7" y2="-8" stroke="#0d9488" stroke-width="2"/>
+    <line x1="-7" y1="2" x2="7" y2="2" stroke="#0d9488" stroke-width="2"/>
+
+    <!-- Electron dots on atoms -->
+    <circle cx="-35" cy="-38" r="3" fill="#2dd4bf"/>
+    <circle cx="-55" cy="0" r="3" fill="#2dd4bf"/>
+    <circle cx="35" cy="-38" r="3" fill="#2dd4bf"/>
+    <circle cx="55" cy="0" r="3" fill="#2dd4bf"/>
+
+    <text x="0" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#14b8a6">3 общие пары</text>
+    <text x="0" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#14b8a6">σ + 2π связи</text>
+
+    <line x1="-70" y1="80" x2="70" y2="80" stroke="#2dd4bf" stroke-width="1" stroke-dasharray="4,3"/>
+    <text x="0" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#14b8a6">↔ симметрия</text>
+  </g>
+
+  <!-- Bottom summary -->
+  <rect x="40" y="420" width="720" height="60" rx="10" fill="white" fill-opacity="0.8" stroke="#2dd4bf" stroke-width="1"/>
+  <text x="400" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#0d9488">Ковалентная неполярная связь образуется между атомами одинаковых неметаллов.</text>
+  <text x="400" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6">Общие электронные пары расположены симметрично — электронная плотность не смещена.</text>
+</svg>

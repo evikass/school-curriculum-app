@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<defs>
+  <style>
+    text { font-family: 'Segoe UI', Arial, Helvetica, sans-serif; }
+  </style>
+  <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+    <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.08"/>
+  </filter>
+</defs>
+<rect width="800" height="500" rx="12" fill="#f8fafc"/>
+<rect width="800" height="6" fill="#f97316" rx="3"/>
+<text x="400" y="42" text-anchor="middle" font-size="26" font-weight="700" fill="#1e3a5f">Типы реакций: соединение и разложение</text>
+
+<!-- Left: Соединение -->
+<rect x="20" y="58" width="375" height="310" rx="14" fill="#fff" stroke="#3b82f6" stroke-width="2" filter="url(#shadow)"/>
+<rect x="20" y="58" width="375" height="6" rx="3" fill="#3b82f6"/>
+<text x="208" y="88" text-anchor="middle" font-size="20" font-weight="700" fill="#3b82f6">Соединение</text>
+
+<!-- Block diagram A + B → AB -->
+<rect x="55" y="105" width="70" height="40" rx="10" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+<text x="90" y="131" text-anchor="middle" font-size="20" font-weight="700" fill="#3b82f6">A</text>
+<text x="140" y="131" text-anchor="middle" font-size="22" fill="#475569">+</text>
+<rect x="160" y="105" width="70" height="40" rx="10" fill="#bfdbfe" stroke="#3b82f6" stroke-width="2"/>
+<text x="195" y="131" text-anchor="middle" font-size="20" font-weight="700" fill="#3b82f6">B</text>
+<text x="248" y="131" text-anchor="middle" font-size="22" fill="#3b82f6">→</text>
+<rect x="270" y="105" width="90" height="40" rx="10" fill="#93c5fd" stroke="#3b82f6" stroke-width="2"/>
+<text x="315" y="131" text-anchor="middle" font-size="20" font-weight="700" fill="#1e3a5f">AB</text>
+
+<text x="208" y="170" text-anchor="middle" font-size="13" fill="#64748b">Из нескольких веществ → одно новое</text>
+
+<!-- Examples -->
+<rect x="45" y="185" width="340" height="50" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1"/>
+<text x="215" y="207" text-anchor="middle" font-size="15" font-weight="600" fill="#1e3a5f">2H<tspan font-size="11" baseline-shift="sub">2</tspan> + O<tspan font-size="11" baseline-shift="sub">2</tspan> → 2H<tspan font-size="11" baseline-shift="sub">2</tspan>O</text>
+<text x="215" y="228" text-anchor="middle" font-size="11" fill="#64748b">водород + кислород → вода</text>
+
+<rect x="45" y="245" width="340" height="50" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1"/>
+<text x="215" y="267" text-anchor="middle" font-size="15" font-weight="600" fill="#1e3a5f">2Mg + O<tspan font-size="11" baseline-shift="sub">2</tspan> → 2MgO</text>
+<text x="215" y="288" text-anchor="middle" font-size="11" fill="#64748b">магний + кислород → оксид магния</text>
+
+<rect x="45" y="305" width="340" height="50" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1"/>
+<text x="215" y="327" text-anchor="middle" font-size="15" font-weight="600" fill="#1e3a5f">S + O<tspan font-size="11" baseline-shift="sub">2</tspan> → SO<tspan font-size="11" baseline-shift="sub">2</tspan></text>
+<text x="215" y="348" text-anchor="middle" font-size="11" fill="#64748b">сера + кислород → оксид серы(IV)</text>
+
+<!-- Right: Разложение -->
+<rect x="405" y="58" width="375" height="310" rx="14" fill="#fff" stroke="#10b981" stroke-width="2" filter="url(#shadow)"/>
+<rect x="405" y="58" width="375" height="6" rx="3" fill="#10b981"/>
+<text x="593" y="88" text-anchor="middle" font-size="20" font-weight="700" fill="#10b981">Разложение</text>
+
+<!-- Block diagram AB → A + B -->
+<rect x="440" y="105" width="90" height="40" rx="10" fill="#a7f3d0" stroke="#10b981" stroke-width="2"/>
+<text x="485" y="131" text-anchor="middle" font-size="20" font-weight="700" fill="#1e3a5f">AB</text>
+<text x="548" y="131" text-anchor="middle" font-size="22" fill="#10b981">→</text>
+<rect x="575" y="105" width="70" height="40" rx="10" fill="#d1fae5" stroke="#10b981" stroke-width="2"/>
+<text x="610" y="131" text-anchor="middle" font-size="20" font-weight="700" fill="#10b981">A</text>
+<text x="660" y="131" text-anchor="middle" font-size="22" fill="#475569">+</text>
+<rect x="680" y="105" width="70" height="40" rx="10" fill="#bbf7d0" stroke="#10b981" stroke-width="2"/>
+<text x="715" y="131" text-anchor="middle" font-size="20" font-weight="700" fill="#10b981">B</text>
+
+<text x="593" y="170" text-anchor="middle" font-size="13" fill="#64748b">Из одного вещества → несколько новых</text>
+
+<!-- Examples -->
+<rect x="430" y="185" width="340" height="50" rx="10" fill="#f0fdf4" stroke="#10b981" stroke-width="1"/>
+<text x="600" y="207" text-anchor="middle" font-size="15" font-weight="600" fill="#1e3a5f">2H<tspan font-size="11" baseline-shift="sub">2</tspan>O → 2H<tspan font-size="11" baseline-shift="sub">2</tspan> + O<tspan font-size="11" baseline-shift="sub">2</tspan></text>
+<text x="600" y="228" text-anchor="middle" font-size="11" fill="#64748b">вода → водород + кислород</text>
+
+<rect x="430" y="245" width="340" height="50" rx="10" fill="#f0fdf4" stroke="#10b981" stroke-width="1"/>
+<text x="600" y="267" text-anchor="middle" font-size="15" font-weight="600" fill="#1e3a5f">CaCO<tspan font-size="11" baseline-shift="sub">3</tspan> → CaO + CO<tspan font-size="11" baseline-shift="sub">2</tspan></text>
+<text x="600" y="288" text-anchor="middle" font-size="11" fill="#64748b">карбонат кальция → оксид кальция + углекислый газ</text>
+
+<rect x="430" y="305" width="340" height="50" rx="10" fill="#f0fdf4" stroke="#10b981" stroke-width="1"/>
+<text x="600" y="327" text-anchor="middle" font-size="15" font-weight="600" fill="#1e3a5f">2KClO<tspan font-size="11" baseline-shift="sub">3</tspan> → 2KCl + 3O<tspan font-size="11" baseline-shift="sub">2</tspan></text>
+<text x="600" y="348" text-anchor="middle" font-size="11" fill="#64748b">хлорат калия → хлорид калия + кислород</text>
+
+<!-- Summary comparison -->
+<rect x="20" y="382" width="375" height="65" rx="12" fill="#dbeafe" stroke="#3b82f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="208" y="408" text-anchor="middle" font-size="14" font-weight="600" fill="#3b82f6">Много → Одно</text>
+<text x="208" y="430" text-anchor="middle" font-size="13" fill="#475569">Число веществ уменьшается</text>
+
+<rect x="405" y="382" width="375" height="65" rx="12" fill="#d1fae5" stroke="#10b981" stroke-width="1" filter="url(#shadow)"/>
+<text x="593" y="408" text-anchor="middle" font-size="14" font-weight="600" fill="#10b981">Одно → Много</text>
+<text x="593" y="430" text-anchor="middle" font-size="13" fill="#475569">Число веществ увеличивается</text>
+
+<!-- Footer -->
+<rect x="200" y="460" width="400" height="3" rx="1.5" fill="#e2e8f0"/>
+<text x="400" y="485" text-anchor="middle" font-size="12" fill="#94a3b8">Реакции соединения и разложения — противоположные типы реакций</text>
+</svg>

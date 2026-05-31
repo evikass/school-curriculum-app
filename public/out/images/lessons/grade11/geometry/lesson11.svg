@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0F2F1"/>
+      <stop offset="100%" stop-color="#B2DFDB"/>
+    </linearGradient>
+    <radialGradient id="sphereG" cx="40%" cy="35%">
+      <stop offset="0%" stop-color="#009688" stop-opacity="0.3"/>
+      <stop offset="70%" stop-color="#00695C" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#00695C" stop-opacity="0.22"/>
+    </radialGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#00695C" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="12" font-weight="bold" fill="#004D40" text-anchor="middle" font-family="serif">Касательная плоскость к сфере. Площадь сферы</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="sans-serif">Геометрия 11 класс — Урок 11</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#009688" stroke-width="1" opacity="0.3"/>
+
+  <!-- Tangent Plane Diagram -->
+  <rect x="15" y="58" width="240" height="210" rx="6" fill="white" opacity="0.9" stroke="#009688" stroke-width="1.2"/>
+  <text x="135" y="74" font-size="10" font-weight="bold" fill="#00695C" text-anchor="middle">Касательная плоскость</text>
+  <!-- Sphere -->
+  <circle cx="135" cy="180" r="60" fill="url(#sphereG)" stroke="#00695C" stroke-width="2"/>
+  <!-- Tangent plane (parallelogram) -->
+  <path d="M50,145 L220,120 L225,155 L55,180 Z" fill="#009688" opacity="0.08" stroke="#009688" stroke-width="1.5"/>
+  <!-- Tangent point -->
+  <circle cx="137" cy="147" r="3.5" fill="#C62828"/>
+  <text x="145" y="144" font-size="8" fill="#C62828" font-weight="bold">A</text>
+  <!-- Radius to tangent point -->
+  <line x1="135" y1="180" x2="137" y2="147" stroke="#C62828" stroke-width="2"/>
+  <text x="125" y="165" font-size="9" fill="#C62828" font-weight="bold" font-style="italic">R</text>
+  <!-- Center -->
+  <circle cx="135" cy="180" r="2.5" fill="#00695C"/>
+  <text x="140" y="190" font-size="8" fill="#00695C" font-weight="bold">O</text>
+  <!-- Right angle mark -->
+  <rect x="132" y="144" width="7" height="7" fill="none" stroke="#C62828" stroke-width="1"/>
+  <!-- Plane label -->
+  <text x="80" y="125" font-size="9" fill="#009688" font-style="italic" font-weight="bold">&#x03B1;</text>
+  <!-- Property -->
+  <text x="135" y="260" font-size="8.5" fill="#00695C" text-anchor="middle">OA &#x22A5; &#x03B1; (радиус &#x22A5; плоскости)</text>
+
+  <!-- Theorem Panel -->
+  <rect x="265" y="58" width="222" height="105" rx="6" fill="white" opacity="0.9" stroke="#009688" stroke-width="1.2"/>
+  <text x="376" y="74" font-size="10" font-weight="bold" fill="#00695C" text-anchor="middle">Теорема</text>
+  <text x="275" y="92" font-size="9" fill="#333">&#x03B1; — касат. плоскость к сфере</text>
+  <text x="275" y="107" font-size="9" fill="#333">с центром O и радиусом R</text>
+  <text x="275" y="125" font-size="9.5" fill="#C62828" font-weight="bold">OA &#x22A5; &#x03B1;, где A = &#x03B1; &#x2229; сфера</text>
+  <text x="275" y="143" font-size="9" fill="#333">Обратная теорема:</text>
+  <text x="275" y="157" font-size="9" fill="#00695C" font-weight="bold">OA &#x22A5; &#x03B1; &#x21D2; &#x03B1; — касательная</text>
+
+  <!-- Surface Area Panel -->
+  <rect x="265" y="170" width="222" height="98" rx="6" fill="white" opacity="0.9" stroke="#009688" stroke-width="1.2"/>
+  <text x="376" y="186" font-size="10" font-weight="bold" fill="#00695C" text-anchor="middle">Площадь сферы</text>
+  <rect x="275" y="194" width="202" height="26" rx="3" fill="#00695C" opacity="0.08"/>
+  <text x="376" y="212" font-size="13" fill="#C62828" font-weight="bold" text-anchor="middle">S = 4&#x03C0;R&#x00B2;</text>
+  <text x="275" y="232" font-size="8.5" fill="#666">Вывод через предел описанных</text>
+  <text x="275" y="244" font-size="8.5" fill="#666">многогранников или интегрирование</text>
+  <text x="275" y="260" font-size="8.5" fill="#00695C">R=1: S = 4&#x03C0; &#x2248; 12.57</text>
+
+  <!-- Comparison panel -->
+  <rect x="15" y="275" width="240" height="35" rx="4" fill="white" opacity="0.85" stroke="#009688" stroke-width="0.8"/>
+  <text x="135" y="290" font-size="8" fill="#333" text-anchor="middle">Круг: S=&#x03C0;R&#x00B2;  |  Сфера: S=4&#x03C0;R&#x00B2; = 4 &#x00B7; S<sub>круга</sub></text>
+  <text x="135" y="303" font-size="8" fill="#00695C" text-anchor="middle">Площадь сферы = 4 площади большого круга</text>
+
+  <!-- Bottom bar -->
+  <rect x="10" y="320" width="480" height="24" rx="4" fill="#00695C" opacity="0.85"/>
+  <text x="250" y="336" font-size="10" fill="white" text-anchor="middle" font-weight="bold">S<sub>сферы</sub> = 4&#x03C0;R&#x00B2;;  Радиус &#x22A5; касательной плоскости в точке касания</text>
+</svg>

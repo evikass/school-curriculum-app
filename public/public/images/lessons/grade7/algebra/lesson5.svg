@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="50%" stop-color="#BBDEFB"/>
+      <stop offset="100%" stop-color="#90CAF9"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="500" height="350" fill="url(#bg5)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#0D47A1" text-anchor="middle" font-family="Arial">Задачи с помощью уравнений</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="Arial">Алгебра 7 класс — Урок 5</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#1976D2" stroke-opacity="0.3"/>
+
+  <rect x="12" y="58" width="476" height="110" rx="6" fill="white" fill-opacity="0.9" stroke="#1976D2" stroke-width="1"/>
+  <text x="250" y="73" font-size="9" font-weight="bold" fill="#1565C0" text-anchor="middle">Алгоритм решения задач</text>
+  <rect x="22" y="80" width="456" height="16" rx="2" fill="#E3F2FD" stroke="#1976D2" stroke-width="0.5"/>
+  <text x="250" y="92" font-size="8" fill="#0D47A1" text-anchor="middle">1. Обозначить неизвестную величину буквой x</text>
+  <rect x="22" y="98" width="456" height="16" rx="2" fill="#E3F2FD" stroke="#1976D2" stroke-width="0.5"/>
+  <text x="250" y="110" font-size="8" fill="#0D47A1" text-anchor="middle">2. Составить уравнение по условию задачи</text>
+  <rect x="22" y="116" width="456" height="16" rx="2" fill="#E3F2FD" stroke="#1976D2" stroke-width="0.5"/>
+  <text x="250" y="128" font-size="8" fill="#0D47A1" text-anchor="middle">3. Решить полученное уравнение</text>
+  <rect x="22" y="134" width="456" height="16" rx="2" fill="#1976D2" fill-opacity="0.12"/>
+  <text x="250" y="146" font-size="8" fill="#0D47A1" text-anchor="middle" font-weight="bold">4. Проверить ответ и записать его</text>
+
+  <rect x="12" y="176" width="230" height="128" rx="6" fill="white" fill-opacity="0.9" stroke="#1976D2" stroke-width="1"/>
+  <text x="127" y="191" font-size="9" font-weight="bold" fill="#1565C0" text-anchor="middle">Формулы</text>
+  <rect x="22" y="198" width="210" height="22" rx="3" fill="#E3F2FD" stroke="#1976D2" stroke-width="0.5"/>
+  <text x="127" y="213" font-size="9" fill="#0D47A1" text-anchor="middle" font-family="monospace">S = v &times; t (путь)</text>
+  <rect x="22" y="224" width="210" height="22" rx="3" fill="#E3F2FD" stroke="#1976D2" stroke-width="0.5"/>
+  <text x="127" y="239" font-size="9" fill="#0D47A1" text-anchor="middle" font-family="monospace">A = p &times; t (работа)</text>
+  <rect x="22" y="250" width="210" height="22" rx="3" fill="#E3F2FD" stroke="#1976D2" stroke-width="0.5"/>
+  <text x="127" y="265" font-size="9" fill="#0D47A1" text-anchor="middle" font-family="monospace">C = a &times; n (стоимость)</text>
+  <text x="127" y="290" font-size="8" fill="#555" text-anchor="middle">Не забудь проверить ответ!</text>
+
+  <rect x="252" y="176" width="236" height="128" rx="6" fill="white" fill-opacity="0.9" stroke="#1976D2" stroke-width="1"/>
+  <text x="370" y="191" font-size="9" font-weight="bold" fill="#1565C0" text-anchor="middle">Пример задачи</text>
+  <text x="262" y="208" font-size="8" fill="#555">В двух корзинах 28 яблок,</text>
+  <text x="262" y="220" font-size="8" fill="#555">в первой на 4 больше.</text>
+  <text x="262" y="238" font-size="8" fill="#1565C0" font-family="monospace">x + (x+4) = 28</text>
+  <text x="262" y="254" font-size="8" fill="#1565C0" font-family="monospace">2x + 4 = 28</text>
+  <text x="262" y="270" font-size="8" fill="#1565C0" font-family="monospace">2x = 24, x = 12</text>
+  <text x="262" y="290" font-size="8" fill="#0D47A1" font-weight="bold">Ответ: 12 и 16 яблок</text>
+
+  <rect x="12" y="320" width="476" height="22" rx="4" fill="#1976D2" fill-opacity="0.85"/>
+  <text x="250" y="335" font-size="10" fill="white" text-anchor="middle" font-weight="bold" font-family="Arial">Обозначь неизвестное через x, составь уравнение, реши, проверь</text>
+</svg>

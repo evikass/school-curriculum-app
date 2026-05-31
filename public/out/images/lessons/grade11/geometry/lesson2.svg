@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+    <marker id="arrG" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2E7D32"/>
+    </marker>
+    <marker id="arrR" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#C62828"/>
+    </marker>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle" font-family="serif">Простейшие задачи в координатах</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="sans-serif">Геометрия 11 класс — Урок 2</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#43A047" stroke-width="1" opacity="0.3"/>
+
+  <!-- 3D Coordinate System with Two Points -->
+  <rect x="15" y="58" width="230" height="195" rx="6" fill="white" opacity="0.9" stroke="#43A047" stroke-width="1.2"/>
+  <text x="130" y="74" font-size="10" font-weight="bold" fill="#2E7D32" text-anchor="middle">Расстояние между точками</text>
+  <!-- Axes -->
+  <line x1="125" y1="210" x2="225" y2="165" stroke="#2E7D32" stroke-width="1.5" marker-end="url(#arrG)"/>
+  <line x1="125" y1="210" x2="35" y2="245" stroke="#2E7D32" stroke-width="1.5" marker-end="url(#arrG)"/>
+  <line x1="125" y1="210" x2="125" y2="100" stroke="#2E7D32" stroke-width="1.5" marker-end="url(#arrG)"/>
+  <text x="230" y="165" font-size="10" fill="#2E7D32" font-style="italic" font-weight="bold">x</text>
+  <text x="24" y="250" font-size="10" fill="#2E7D32" font-style="italic" font-weight="bold">y</text>
+  <text x="130" y="97" font-size="10" fill="#2E7D32" font-style="italic" font-weight="bold">z</text>
+  <!-- Point A -->
+  <circle cx="90" cy="170" r="4" fill="#1565C0"/>
+  <text x="70" y="168" font-size="9" fill="#1565C0" font-weight="bold">A(x&#x2081;,y&#x2081;,z&#x2081;)</text>
+  <!-- Point B -->
+  <circle cx="175" cy="130" r="4" fill="#C62828"/>
+  <text x="180" y="127" font-size="9" fill="#C62828" font-weight="bold">B(x&#x2082;,y&#x2082;,z&#x2082;)</text>
+  <!-- Distance line -->
+  <line x1="90" y1="170" x2="175" y2="130" stroke="#C62828" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="120" y="145" font-size="9" fill="#C62828" font-weight="bold">d</text>
+  <!-- Projections -->
+  <line x1="90" y1="170" x2="90" y2="210" stroke="#1565C0" stroke-width="0.7" stroke-dasharray="3,2" opacity="0.5"/>
+  <line x1="175" y1="130" x2="175" y2="210" stroke="#C62828" stroke-width="0.7" stroke-dasharray="3,2" opacity="0.5"/>
+  <line x1="90" y1="210" x2="175" y2="210" stroke="#666" stroke-width="0.7" stroke-dasharray="3,2" opacity="0.4"/>
+
+  <!-- Midpoint Panel -->
+  <rect x="255" y="58" width="230" height="90" rx="6" fill="white" opacity="0.9" stroke="#43A047" stroke-width="1.2"/>
+  <text x="370" y="74" font-size="10" font-weight="bold" fill="#2E7D32" text-anchor="middle">Середина отрезка</text>
+  <!-- Mini diagram -->
+  <line x1="275" y1="115" x2="370" y2="90" stroke="#2E7D32" stroke-width="1.8"/>
+  <circle cx="275" cy="115" r="3" fill="#1565C0"/>
+  <circle cx="370" cy="90" r="3" fill="#C62828"/>
+  <circle cx="322" cy="102" r="3.5" fill="#FF8F00"/>
+  <text x="268" y="128" font-size="8" fill="#1565C0">A</text>
+  <text x="373" y="88" font-size="8" fill="#C62828">B</text>
+  <text x="325" y="98" font-size="8" fill="#FF8F00" font-weight="bold">C</text>
+  <text x="385" y="100" font-size="9" fill="#333">x<sub>C</sub> = (x&#x2081;+x&#x2082;)/2</text>
+  <text x="385" y="114" font-size="9" fill="#333">y<sub>C</sub> = (y&#x2081;+y&#x2082;)/2</text>
+  <text x="385" y="128" font-size="9" fill="#333">z<sub>C</sub> = (z&#x2081;+z&#x2082;)/2</text>
+
+  <!-- Division Panel -->
+  <rect x="255" y="155" width="230" height="98" rx="6" fill="white" opacity="0.9" stroke="#43A047" stroke-width="1.2"/>
+  <text x="370" y="171" font-size="10" font-weight="bold" fill="#2E7D32" text-anchor="middle">Деление в отношении</text>
+  <!-- Segment diagram -->
+  <line x1="275" y1="205" x2="400" y2="185" stroke="#2E7D32" stroke-width="1.8"/>
+  <circle cx="275" cy="205" r="3" fill="#1565C0"/>
+  <circle cx="400" cy="185" r="3" fill="#C62828"/>
+  <circle cx="330" cy="197" r="3.5" fill="#FF8F00"/>
+  <text x="268" y="218" font-size="8" fill="#1565C0">A</text>
+  <text x="403" y="183" font-size="8" fill="#C62828">B</text>
+  <text x="325" y="213" font-size="8" fill="#FF8F00" font-weight="bold">M</text>
+  <!-- Ratio marks -->
+  <text x="300" y="200" font-size="7" fill="#666">m</text>
+  <text x="365" y="193" font-size="7" fill="#666">n</text>
+  <text x="260" y="240" font-size="9" fill="#333">AM : MB = m : n</text>
+  <text x="260" y="246" font-size="8.5" fill="#2E7D32" font-weight="bold">x<sub>M</sub> = (mx&#x2082;+nx&#x2081;)/(m+n)</text>
+
+  <!-- Examples Panel -->
+  <rect x="15" y="260" width="230" height="50" rx="6" fill="white" opacity="0.88" stroke="#43A047" stroke-width="1"/>
+  <text x="130" y="276" font-size="9" font-weight="bold" fill="#2E7D32" text-anchor="middle">Пример</text>
+  <text x="25" y="290" font-size="8.5" fill="#333">A(1,2,3), B(4,6,5)</text>
+  <text x="25" y="303" font-size="8.5" fill="#C62828" font-weight="bold">d = &#x221A;(9+16+4) = &#x221A;29</text>
+
+  <!-- Bottom bar -->
+  <rect x="10" y="320" width="480" height="24" rx="4" fill="#2E7D32" opacity="0.85"/>
+  <text x="250" y="336" font-size="10" fill="white" text-anchor="middle" font-weight="bold">d(A,B) = &#x221A;((x&#x2082;-x&#x2081;)&#x00B2;+(y&#x2082;-y&#x2081;)&#x00B2;+(z&#x2082;-z&#x2081;)&#x00B2;);  C = ((x&#x2081;+x&#x2082;)/2, (y&#x2081;+y&#x2082;)/2, (z&#x2081;+z&#x2082;)/2)</text>
+</svg>

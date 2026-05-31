@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E5F5"/>
+      <stop offset="100%" stop-color="#E1BEE7"/>
+    </linearGradient>
+    <marker id="arrP" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#7B1FA2"/>
+    </marker>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#7B1FA2" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#4A148C" text-anchor="middle" font-family="serif">Движения</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="sans-serif">Геометрия 11 класс — Урок 5</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#9C27B0" stroke-width="1" opacity="0.3"/>
+
+  <!-- Central Symmetry Panel -->
+  <rect x="15" y="58" width="112" height="130" rx="6" fill="white" opacity="0.9" stroke="#9C27B0" stroke-width="1.2"/>
+  <text x="71" y="73" font-size="8.5" font-weight="bold" fill="#7B1FA2" text-anchor="middle">Центральная симм.</text>
+  <!-- Point O -->
+  <circle cx="56" cy="115" r="2.5" fill="#7B1FA2"/>
+  <text x="49" y="128" font-size="8" fill="#7B1FA2" font-weight="bold">O</text>
+  <!-- Point A -->
+  <circle cx="40" cy="100" r="3" fill="#C62828"/>
+  <text x="32" y="97" font-size="7" fill="#C62828">A</text>
+  <!-- Point A' -->
+  <circle cx="72" cy="130" r="3" fill="#1565C0"/>
+  <text x="76" y="128" font-size="7" fill="#1565C0">A'</text>
+  <!-- Connecting line -->
+  <line x1="40" y1="100" x2="72" y2="130" stroke="#9C27B0" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="71" y="150" font-size="7" fill="#333">OA = OA'</text>
+  <text x="71" y="162" font-size="7" fill="#333">A &#x2192; A' : O - центр</text>
+  <text x="71" y="178" font-size="7" fill="#7B1FA2" font-weight="bold">Z<sub>O</sub></text>
+
+  <!-- Axial Symmetry Panel -->
+  <rect x="135" y="58" width="112" height="130" rx="6" fill="white" opacity="0.9" stroke="#9C27B0" stroke-width="1.2"/>
+  <text x="191" y="73" font-size="8.5" font-weight="bold" fill="#7B1FA2" text-anchor="middle">Осевая симметрия</text>
+  <!-- Axis l -->
+  <line x1="191" y1="85" x2="191" y2="175" stroke="#7B1FA2" stroke-width="2"/>
+  <text x="196" y="180" font-size="8" fill="#7B1FA2" font-weight="bold" font-style="italic">l</text>
+  <!-- Point A -->
+  <circle cx="170" cy="110" r="3" fill="#C62828"/>
+  <text x="162" y="107" font-size="7" fill="#C62828">A</text>
+  <!-- Point A' -->
+  <circle cx="212" cy="110" r="3" fill="#1565C0"/>
+  <text x="216" y="107" font-size="7" fill="#1565C0">A'</text>
+  <line x1="170" y1="110" x2="212" y2="110" stroke="#9C27B0" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="191" y1="110" x2="191" y2="110" stroke="#7B1FA2" stroke-width="2"/>
+  <!-- Perpendicular mark -->
+  <text x="182" y="118" font-size="7" fill="#333">90&#x00B0;</text>
+  <text x="191" y="155" font-size="7" fill="#333">A&#x2192;A' : ось l</text>
+  <text x="191" y="167" font-size="7" fill="#7B1FA2" font-weight="bold">S<sub>l</sub></text>
+
+  <!-- Mirror Symmetry Panel -->
+  <rect x="255" y="58" width="112" height="130" rx="6" fill="white" opacity="0.9" stroke="#9C27B0" stroke-width="1.2"/>
+  <text x="311" y="73" font-size="8.5" font-weight="bold" fill="#7B1FA2" text-anchor="middle">Зеркальная симм.</text>
+  <!-- Plane alpha (as a parallelogram) -->
+  <path d="M285,100 L340,90 L345,160 L290,170 Z" fill="#9C27B0" opacity="0.08" stroke="#9C27B0" stroke-width="1.5"/>
+  <text x="295" y="178" font-size="7" fill="#7B1FA2" font-style="italic">&#x03B1;</text>
+  <!-- Point A -->
+  <circle cx="275" cy="120" r="3" fill="#C62828"/>
+  <text x="265" y="117" font-size="7" fill="#C62828">A</text>
+  <!-- Point A' -->
+  <circle cx="350" cy="115" r="3" fill="#1565C0"/>
+  <text x="354" y="112" font-size="7" fill="#1565C0">A'</text>
+  <line x1="275" y1="120" x2="350" y2="115" stroke="#9C27B0" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="311" y="155" font-size="7" fill="#333">A&#x2192;A': пл.&#x03B1;</text>
+  <text x="311" y="167" font-size="7" fill="#7B1FA2" font-weight="bold">S<sub>&#x03B1;</sub></text>
+
+  <!-- Translation Panel -->
+  <rect x="375" y="58" width="112" height="130" rx="6" fill="white" opacity="0.9" stroke="#9C27B0" stroke-width="1.2"/>
+  <text x="431" y="73" font-size="8.5" font-weight="bold" fill="#7B1FA2" text-anchor="middle">Параллельный перенос</text>
+  <!-- Vector -->
+  <line x1="400" y1="120" x2="460" y2="100" stroke="#C62828" stroke-width="2" marker-end="url(#arrP)"/>
+  <text x="428" y="105" font-size="8" fill="#C62828" font-style="italic" font-weight="bold">p</text>
+  <!-- Figure before -->
+  <rect x="395" y="125" width="25" height="18" rx="2" fill="#9C27B0" opacity="0.2" stroke="#9C27B0" stroke-width="1"/>
+  <!-- Figure after -->
+  <rect x="440" y="110" width="25" height="18" rx="2" fill="#1565C0" opacity="0.2" stroke="#1565C0" stroke-width="1"/>
+  <text x="431" y="158" font-size="7" fill="#333">A &#x2192; A' = A+p</text>
+  <text x="431" y="170" font-size="7" fill="#7B1FA2" font-weight="bold">T<sub>p</sub></text>
+
+  <!-- Properties Panel -->
+  <rect x="15" y="196" width="230" height="115" rx="6" fill="white" opacity="0.9" stroke="#9C27B0" stroke-width="1.2"/>
+  <text x="130" y="212" font-size="10" font-weight="bold" fill="#7B1FA2" text-anchor="middle">Свойства движений</text>
+  <text x="25" y="229" font-size="9" fill="#333">1. Сохраняют расстояния</text>
+  <text x="25" y="244" font-size="9" fill="#333">2. Сохраняют углы</text>
+  <text x="25" y="259" font-size="9" fill="#333">3. Переводят отрезки в отрезки</text>
+  <text x="25" y="274" font-size="9" fill="#333">4. Композиция движений — движение</text>
+  <text x="25" y="289" font-size="9" fill="#333">5. Обратное движение — движение</text>
+  <text x="25" y="304" font-size="8.5" fill="#C62828" font-weight="bold">d(f(A),f(B)) = d(A,B)</text>
+
+  <!-- Composition Panel -->
+  <rect x="255" y="196" width="232" height="115" rx="6" fill="white" opacity="0.88" stroke="#9C27B0" stroke-width="1"/>
+  <text x="371" y="212" font-size="10" font-weight="bold" fill="#7B1FA2" text-anchor="middle">Композиции</text>
+  <text x="265" y="229" font-size="8.5" fill="#333">Z<sub>O1</sub> &#x2218; Z<sub>O2</sub> = T (перенос)</text>
+  <text x="265" y="244" font-size="8.5" fill="#333">S<sub>l1</sub> &#x2218; S<sub>l2</sub> = поворот (если l&#x2229;l&#x2260;&#x2205;)</text>
+  <text x="265" y="259" font-size="8.5" fill="#333">S<sub>l1</sub> &#x2218; S<sub>l2</sub> = перенос (если l&#x2225;l&#x2082;)</text>
+  <text x="265" y="274" font-size="8.5" fill="#333">S<sub>&#x03B1;</sub> &#x2218; S<sub>&#x03B2;</sub> = поворот (если &#x03B1;&#x2229;&#x03B2;)</text>
+  <text x="265" y="289" font-size="8.5" fill="#333">5 видов движений в пространстве:</text>
+  <text x="265" y="304" font-size="8.5" fill="#7B1FA2" font-weight="bold">Z<sub>O</sub>, S<sub>l</sub>, S<sub>&#x03B1;</sub>, T<sub>p</sub>, R<sub>l,&#x03B1;</sub></text>
+
+  <!-- Bottom bar -->
+  <rect x="10" y="320" width="480" height="24" rx="4" fill="#7B1FA2" opacity="0.85"/>
+  <text x="250" y="336" font-size="9.5" fill="white" text-anchor="middle" font-weight="bold">Движение — отображение, сохраняющее расстояния. 5 видов: Z<sub>O</sub>, S<sub>l</sub>, S<sub>&#x03B1;</sub>, T<sub>p</sub>, R<sub>l,&#x03B1;</sub></text>
+</svg>

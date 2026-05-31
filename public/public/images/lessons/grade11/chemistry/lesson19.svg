@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+    <filter id="shadow1" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#90CAF9"/>
+      <stop offset="100%" stop-color="#E3F2FD"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#42A5F5"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+    <linearGradient id="earth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8D6E63"/>
+      <stop offset="100%" stop-color="#5D4037"/>
+    </linearGradient>
+    <linearGradient id="greenG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2E7D32"/>
+      <stop offset="100%" stop-color="#43A047"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg)" rx="8"/>
+  <!-- Title bar -->
+  <rect width="500" height="44" fill="#1B5E20" rx="8"/>
+  <rect y="20" width="500" height="24" fill="#1B5E20"/>
+  <text x="250" y="29" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="16" font-weight="bold">Химия и экология</text>
+
+  <!-- Pollution diagram: atmosphere/hydrosphere/lithosphere -->
+  <rect x="15" y="55" width="225" height="130" rx="10" fill="white" stroke="#2E7D32" stroke-width="1.5" filter="url(#shadow1)"/>
+  <text x="127" y="73" text-anchor="middle" fill="#1B5E20" font-family="Arial,sans-serif" font-size="10" font-weight="bold">Загрязнение окружающей среды</text>
+
+  <!-- Atmosphere layer -->
+  <rect x="25" y="80" width="205" height="28" rx="5" fill="url(#sky)" opacity="0.7"/>
+  <text x="40" y="98" fill="#1565C0" font-family="Arial,sans-serif" font-size="9" font-weight="bold">Атмосфера</text>
+  <text x="115" y="98" fill="#333" font-family="Arial,sans-serif" font-size="8">CO₂, SO₂, NOₓ, CO, PM</text>
+
+  <!-- Hydrosphere layer -->
+  <rect x="25" y="113" width="205" height="28" rx="5" fill="url(#water)" opacity="0.5"/>
+  <text x="40" y="131" fill="#0D47A1" font-family="Arial,sans-serif" font-size="9" font-weight="bold">Гидросфера</text>
+  <text x="120" y="131" fill="#333" font-family="Arial,sans-serif" font-size="8">Hg, Pb, пестициды, нефть</text>
+
+  <!-- Lithosphere layer -->
+  <rect x="25" y="146" width="205" height="28" rx="5" fill="url(#earth)" opacity="0.5"/>
+  <text x="40" y="164" fill="white" font-family="Arial,sans-serif" font-size="9" font-weight="bold">Литосфера</text>
+  <text x="120" y="164" fill="#EFEBE9" font-family="Arial,sans-serif" font-size="8">Тяжёлые мет., пластик</text>
+
+  <!-- Greenhouse effect card -->
+  <rect x="250" y="55" width="235" height="65" rx="10" fill="white" stroke="#2E7D32" stroke-width="1.5" filter="url(#shadow1)"/>
+  <text x="367" y="73" text-anchor="middle" fill="#1B5E20" font-family="Arial,sans-serif" font-size="10" font-weight="bold">Парниковый эффект</text>
+  <!-- Sun -->
+  <circle cx="280" cy="95" r="8" fill="#FFC107" stroke="#FF8F00" stroke-width="1"/>
+  <!-- Arrows: sun to earth -->
+  <line x1="292" y1="95" x2="310" y2="95" stroke="#FF8F00" stroke-width="1.5"/>
+  <polygon points="310,93 315,95 310,97" fill="#FF8F00"/>
+  <!-- Earth surface -->
+  <rect x="315" y="88" width="30" height="15" rx="3" fill="#66BB6A"/>
+  <!-- IR back (trapped) -->
+  <path d="M345,95 Q360,85 370,95 Q380,105 395,95" fill="none" stroke="#E53935" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <!-- Greenhouse gas layer -->
+  <rect x="395" y="82" width="80" height="26" rx="4" fill="none" stroke="#E53935" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="435" y="99" text-anchor="middle" fill="#E53935" font-family="Arial,sans-serif" font-size="7" font-weight="bold">CO₂ CH₄ N₂O</text>
+  <text x="367" y="115" text-anchor="middle" fill="#555" font-family="Arial,sans-serif" font-size="8">Задерживают ИК → потепление</text>
+
+  <!-- Acid rain card -->
+  <rect x="250" y="128" width="115" height="62" rx="10" fill="white" stroke="#2E7D32" stroke-width="1.5" filter="url(#shadow1)"/>
+  <text x="307" y="146" text-anchor="middle" fill="#1B5E20" font-family="Arial,sans-serif" font-size="9" font-weight="bold">Кислотные дожди</text>
+  <text x="260" y="160" fill="#555" font-family="Arial,sans-serif" font-size="7">SO₂ + H₂O → H₂SO₃</text>
+  <text x="260" y="172" fill="#555" font-family="Arial,sans-serif" font-size="7">2H₂SO₃+O₂ → 2H₂SO₄</text>
+  <text x="260" y="184" fill="#E65100" font-family="Arial,sans-serif" font-size="7">pH &lt; 5,6</text>
+
+  <!-- Ozone hole card -->
+  <rect x="375" y="128" width="110" height="62" rx="10" fill="white" stroke="#2E7D32" stroke-width="1.5" filter="url(#shadow1)"/>
+  <text x="430" y="146" text-anchor="middle" fill="#1B5E20" font-family="Arial,sans-serif" font-size="9" font-weight="bold">Озоновые дыры</text>
+  <!-- Ozone layer with hole -->
+  <ellipse cx="430" cy="165" rx="35" ry="10" fill="#81D4FA" stroke="#0288D1" stroke-width="1"/>
+  <ellipse cx="440" cy="165" rx="8" ry="5" fill="#E3F2FD"/>
+  <text x="385" y="183" fill="#555" font-family="Arial,sans-serif" font-size="7">CFCl₃ → Cl· + O₃ → O₂</text>
+
+  <!-- Heavy metals card -->
+  <rect x="15" y="195" width="155" height="70" rx="10" fill="white" stroke="#2E7D32" stroke-width="1.5" filter="url(#shadow1)"/>
+  <text x="92" y="213" text-anchor="middle" fill="#1B5E20" font-family="Arial,sans-serif" font-size="9" font-weight="bold">Тяжёлые металлы</text>
+  <text x="25" y="229" fill="#E53935" font-family="Arial,sans-serif" font-size="8">Pb — свинец (неврология)</text>
+  <text x="25" y="242" fill="#E53935" font-family="Arial,sans-serif" font-size="8">Hg — ртуть (Минамата)</text>
+  <text x="25" y="255" fill="#E53935" font-family="Arial,sans-serif" font-size="8">Cd — кадмий (итай-итай)</text>
+
+  <!-- Water purification card -->
+  <rect x="180" y="195" width="155" height="70" rx="10" fill="white" stroke="#2E7D32" stroke-width="1.5" filter="url(#shadow1)"/>
+  <text x="257" y="213" text-anchor="middle" fill="#1B5E20" font-family="Arial,sans-serif" font-size="9" font-weight="bold">Очистка воды</text>
+  <text x="190" y="229" fill="#555" font-family="Arial,sans-serif" font-size="8">1. Механическая (фильтры)</text>
+  <text x="190" y="242" fill="#555" font-family="Arial,sans-serif" font-size="8">2. Химическая (коагуляция)</text>
+  <text x="190" y="255" fill="#555" font-family="Arial,sans-serif" font-size="8">3. Обеззараж. (Cl₂, O₃, УФ)</text>
+
+  <!-- Green chemistry principles pills -->
+  <rect x="345" y="195" width="140" height="70" rx="10" fill="white" stroke="#2E7D32" stroke-width="1.5" filter="url(#shadow1)"/>
+  <text x="415" y="213" text-anchor="middle" fill="#1B5E20" font-family="Arial,sans-serif" font-size="9" font-weight="bold">Зелёная химия</text>
+  <text x="355" y="229" fill="#555" font-family="Arial,sans-serif" font-size="8">12 принципов (Анастас)</text>
+  <text x="355" y="242" fill="#555" font-family="Arial,sans-serif" font-size="8">Атомная экономия</text>
+  <text x="355" y="255" fill="#555" font-family="Arial,sans-serif" font-size="8">Возобновляемое сырьё</text>
+
+  <!-- Bottom pills -->
+  <rect x="15" y="275" width="470" height="65" rx="10" fill="white" stroke="#2E7D32" stroke-width="1.5" filter="url(#shadow1)"/>
+  <text x="250" y="293" text-anchor="middle" fill="#1B5E20" font-family="Arial,sans-serif" font-size="10" font-weight="bold">Принципы зелёной химии</text>
+
+  <rect x="25" y="302" width="105" height="22" rx="11" fill="url(#greenG)" filter="url(#shadow1)"/>
+  <text x="77" y="317" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="7" font-weight="bold">Предотвращение</text>
+
+  <rect x="138" y="302" width="105" height="22" rx="11" fill="#388E3C" filter="url(#shadow1)"/>
+  <text x="190" y="317" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="7" font-weight="bold">Атомная экономия</text>
+
+  <rect x="251" y="302" width="105" height="22" rx="11" fill="#43A047" filter="url(#shadow1)"/>
+  <text x="303" y="317" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="7" font-weight="bold">Катализ</text>
+
+  <rect x="364" y="302" width="110" height="22" rx="11" fill="#4CAF50" filter="url(#shadow1)"/>
+  <text x="419" y="317" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="7" font-weight="bold">Возобн. сырьё</text>
+
+  <text x="250" y="337" text-anchor="middle" fill="#2E7D32" font-family="Arial,sans-serif" font-size="8">1 Cl· разрушает до 100 000 молекул O₃ • Монреальский протокол (1987) — успешный экологический договор</text>
+</svg>

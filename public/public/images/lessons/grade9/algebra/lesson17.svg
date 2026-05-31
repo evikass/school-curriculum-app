@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" font-family="Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E3F2FD"/>
+      <stop offset="100%" style="stop-color:#BBDEFB"/>
+    </linearGradient>
+    <filter id="shadow1" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg1)" rx="8"/>
+  <rect x="0" y="0" width="500" height="42" fill="#0D47A1" rx="8"/>
+  <rect x="0" y="20" width="500" height="22" fill="#0D47A1"/>
+  <text x="250" y="28" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Геометрическая прогрессия</text>
+
+  <!-- Card 1: Exponential growth graph -->
+  <rect x="15" y="52" width="225" height="135" rx="10" fill="white" stroke="#1565C0" stroke-width="1.5" filter="url(#shadow1)"/>
+  <text x="127" y="70" text-anchor="middle" fill="#0D47A1" font-size="10" font-weight="bold">График роста (q = 2)</text>
+  <!-- Coordinate axes -->
+  <line x1="40" y1="170" x2="220" y2="170" stroke="#1565C0" stroke-width="1.5"/>
+  <line x1="40" y1="170" x2="40" y2="80" stroke="#1565C0" stroke-width="1.5"/>
+  <!-- Arrow tips -->
+  <polygon points="220,167 220,173 228,170" fill="#1565C0"/>
+  <polygon points="37,80 43,80 40,72" fill="#1565C0"/>
+  <!-- Axis labels -->
+  <text x="225" y="180" fill="#1565C0" font-size="8">n</text>
+  <text x="30" y="78" fill="#1565C0" font-size="8">bn</text>
+  <!-- Grid lines -->
+  <line x1="40" y1="150" x2="210" y2="150" stroke="#E3F2FD" stroke-width="0.5"/>
+  <line x1="40" y1="130" x2="210" y2="130" stroke="#E3F2FD" stroke-width="0.5"/>
+  <line x1="40" y1="110" x2="210" y2="110" stroke="#E3F2FD" stroke-width="0.5"/>
+  <!-- Tick marks on x-axis -->
+  <line x1="70" y1="168" x2="70" y2="172" stroke="#1565C0" stroke-width="1"/>
+  <text x="70" y="180" text-anchor="middle" fill="#1565C0" font-size="7">1</text>
+  <line x1="100" y1="168" x2="100" y2="172" stroke="#1565C0" stroke-width="1"/>
+  <text x="100" y="180" text-anchor="middle" fill="#1565C0" font-size="7">2</text>
+  <line x1="130" y1="168" x2="130" y2="172" stroke="#1565C0" stroke-width="1"/>
+  <text x="130" y="180" text-anchor="middle" fill="#1565C0" font-size="7">3</text>
+  <line x1="160" y1="168" x2="160" y2="172" stroke="#1565C0" stroke-width="1"/>
+  <text x="160" y="180" text-anchor="middle" fill="#1565C0" font-size="7">4</text>
+  <line x1="190" y1="168" x2="190" y2="172" stroke="#1565C0" stroke-width="1"/>
+  <text x="190" y="180" text-anchor="middle" fill="#1565C0" font-size="7">5</text>
+  <!-- Exponential curve -->
+  <path d="M70,165 Q85,163 100,158 Q115,150 130,138 Q145,118 160,98 Q175,82 190,78" fill="none" stroke="#0D47A1" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Points on the curve -->
+  <circle cx="70" cy="165" r="3.5" fill="#1976D2" stroke="white" stroke-width="1"/>
+  <text x="60" y="162" fill="#1976D2" font-size="7" font-weight="bold">1</text>
+  <circle cx="100" cy="156" r="3.5" fill="#1976D2" stroke="white" stroke-width="1"/>
+  <text x="92" y="150" fill="#1976D2" font-size="7" font-weight="bold">2</text>
+  <circle cx="130" cy="135" r="3.5" fill="#1976D2" stroke="white" stroke-width="1"/>
+  <text x="122" y="128" fill="#1976D2" font-size="7" font-weight="bold">4</text>
+  <circle cx="160" cy="95" r="3.5" fill="#1976D2" stroke="white" stroke-width="1"/>
+  <text x="152" y="90" fill="#1976D2" font-size="7" font-weight="bold">8</text>
+  <circle cx="190" cy="78" r="3.5" fill="#1976D2" stroke="white" stroke-width="1"/>
+  <text x="180" y="73" fill="#1976D2" font-size="7" font-weight="bold">16</text>
+  <!-- Dashed connecting line showing q factor -->
+  <line x1="73" y1="163" x2="97" y2="153" stroke="#42A5F5" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="90" y="155" fill="#42A5F5" font-size="7" font-weight="bold">×2</text>
+
+  <!-- Card 2: Formula and definition -->
+  <rect x="250" y="52" width="235" height="135" rx="10" fill="white" stroke="#1565C0" stroke-width="1.5" filter="url(#shadow1)"/>
+  <text x="367" y="70" text-anchor="middle" fill="#0D47A1" font-size="10" font-weight="bold">Формула n-го члена</text>
+  <!-- Main formula -->
+  <rect x="262" y="78" width="210" height="30" rx="10" fill="#0D47A1"/>
+  <text x="367" y="98" text-anchor="middle" fill="white" font-size="14" font-weight="bold">bn = b1 · q^(n-1)</text>
+  <!-- Definition pills -->
+  <rect x="262" y="116" width="100" height="20" rx="10" fill="#42A5F5"/>
+  <text x="312" y="130" text-anchor="middle" fill="white" font-size="9" font-weight="bold">b1 — первый</text>
+  <rect x="370" y="116" width="105" height="20" rx="10" fill="#42A5F5"/>
+  <text x="422" y="130" text-anchor="middle" fill="white" font-size="9" font-weight="bold">q — знаменатель</text>
+  <!-- Example sequence -->
+  <text x="367" y="152" text-anchor="middle" fill="#1565C0" font-size="9" font-weight="bold">Пример: 2, 6, 18, 54, ...</text>
+  <text x="367" y="167" text-anchor="middle" fill="#1976D2" font-size="8">b1=2, q=3</text>
+  <!-- Sequence terms as blocks -->
+  <rect x="262" y="172" width="38" height="16" rx="8" fill="#64B5F6"/>
+  <text x="281" y="184" text-anchor="middle" fill="white" font-size="8" font-weight="bold">2</text>
+  <text x="305" y="184" fill="#42A5F5" font-size="9">→</text>
+  <rect x="314" y="172" width="38" height="16" rx="8" fill="#42A5F5"/>
+  <text x="333" y="184" text-anchor="middle" fill="white" font-size="8" font-weight="bold">6</text>
+  <text x="357" y="184" fill="#42A5F5" font-size="9">→</text>
+  <rect x="366" y="172" width="38" height="16" rx="8" fill="#1976D2"/>
+  <text x="385" y="184" text-anchor="middle" fill="white" font-size="8" font-weight="bold">18</text>
+  <text x="409" y="184" fill="#42A5F5" font-size="9">→</text>
+  <rect x="418" y="172" width="52" height="16" rx="8" fill="#1565C0"/>
+  <text x="444" y="184" text-anchor="middle" fill="white" font-size="8" font-weight="bold">54</text>
+
+  <!-- Card 3: Properties of q -->
+  <rect x="15" y="197" width="225" height="123" rx="10" fill="white" stroke="#1565C0" stroke-width="1.5" filter="url(#shadow1)"/>
+  <text x="127" y="215" text-anchor="middle" fill="#0D47A1" font-size="10" font-weight="bold">Свойства знаменателя q</text>
+  <!-- q > 1: growth -->
+  <rect x="25" y="225" width="95" height="28" rx="10" fill="#E3F2FD" stroke="#42A5F5" stroke-width="1"/>
+  <text x="72" y="237" text-anchor="middle" fill="#0D47A1" font-size="9" font-weight="bold">q > 1</text>
+  <text x="72" y="249" text-anchor="middle" fill="#1976D2" font-size="7">рост ↑</text>
+  <!-- 0 < q < 1: decay -->
+  <rect x="130" y="225" width="100" height="28" rx="10" fill="#E3F2FD" stroke="#42A5F5" stroke-width="1"/>
+  <text x="180" y="237" text-anchor="middle" fill="#0D47A1" font-size="9" font-weight="bold">0 &lt; q &lt; 1</text>
+  <text x="180" y="249" text-anchor="middle" fill="#1976D2" font-size="7">убывание ↓</text>
+  <!-- q = 1: constant -->
+  <rect x="25" y="260" width="95" height="28" rx="10" fill="#E3F2FD" stroke="#42A5F5" stroke-width="1"/>
+  <text x="72" y="272" text-anchor="middle" fill="#0D47A1" font-size="9" font-weight="bold">q = 1</text>
+  <text x="72" y="284" text-anchor="middle" fill="#1976D2" font-size="7">постоянная →</text>
+  <!-- q < 0: alternating -->
+  <rect x="130" y="260" width="100" height="28" rx="10" fill="#E3F2FD" stroke="#42A5F5" stroke-width="1"/>
+  <text x="180" y="272" text-anchor="middle" fill="#0D47A1" font-size="9" font-weight="bold">q &lt; 0</text>
+  <text x="180" y="284" text-anchor="middle" fill="#1976D2" font-size="7">знакочеред. ±</text>
+  <!-- Small arrows/curves illustrating each -->
+  <!-- Growth curve mini -->
+  <path d="M30,297 Q50,292 75,280" fill="none" stroke="#0D47A1" stroke-width="1.5"/>
+  <!-- Decay curve mini -->
+  <path d="M135,280 Q160,292 225,297" fill="none" stroke="#0D47A1" stroke-width="1.5"/>
+  <!-- Constant line mini -->
+  <line x1="30" y1="303" x2="75" y2="303" stroke="#0D47A1" stroke-width="1.5"/>
+  <!-- Alternating mini -->
+  <path d="M135,303 L150,280 L165,303 L180,280 L195,303 L210,280" fill="none" stroke="#0D47A1" stroke-width="1" stroke-dasharray="2,1"/>
+
+  <!-- Card 4: Comparison with arithmetic -->
+  <rect x="250" y="197" width="235" height="123" rx="10" fill="white" stroke="#1565C0" stroke-width="1.5" filter="url(#shadow1)"/>
+  <text x="367" y="215" text-anchor="middle" fill="#0D47A1" font-size="10" font-weight="bold">Арифм. vs Геометр.</text>
+  <!-- Two columns comparison -->
+  <rect x="262" y="225" width="100" height="86" rx="8" fill="#E3F2FD" stroke="#64B5F6" stroke-width="1"/>
+  <text x="312" y="240" text-anchor="middle" fill="#0D47A1" font-size="8" font-weight="bold">Арифмет.</text>
+  <text x="312" y="255" text-anchor="middle" fill="#1565C0" font-size="7">an+1 = an + d</text>
+  <text x="312" y="268" text-anchor="middle" fill="#1565C0" font-size="7">+d каждый шаг</text>
+  <!-- Small staircase -->
+  <rect x="280" y="278" width="10" height="8" fill="#64B5F6" rx="1"/>
+  <rect x="290" y="272" width="10" height="14" fill="#42A5F5" rx="1"/>
+  <rect x="300" y="266" width="10" height="20" fill="#1976D2" rx="1"/>
+  <text x="312" y="302" text-anchor="middle" fill="#1565C0" font-size="7">линейный</text>
+
+  <rect x="372" y="225" width="105" height="86" rx="8" fill="#E3F2FD" stroke="#64B5F6" stroke-width="1"/>
+  <text x="424" y="240" text-anchor="middle" fill="#0D47A1" font-size="8" font-weight="bold">Геометр.</text>
+  <text x="424" y="255" text-anchor="middle" fill="#1565C0" font-size="7">bn+1 = bn · q</text>
+  <text x="424" y="268" text-anchor="middle" fill="#1565C0" font-size="7">×q каждый шаг</text>
+  <!-- Small exponential bars -->
+  <rect x="392" y="286" width="8" height="6" fill="#64B5F6" rx="1"/>
+  <rect x="402" y="280" width="8" height="12" fill="#42A5F5" rx="1"/>
+  <rect x="412" y="270" width="8" height="22" fill="#1976D2" rx="1"/>
+  <rect x="422" y="254" width="8" height="38" fill="#1565C0" rx="1"/>
+  <rect x="432" y="232" width="8" height="60" fill="#0D47A1" rx="1"/>
+  <text x="424" y="302" text-anchor="middle" fill="#1565C0" font-size="7">экспоненц.</text>
+
+  <!-- Dashed connecting line -->
+  <line x1="240" y1="120" x2="250" y2="120" stroke="#42A5F5" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <line x1="240" y1="260" x2="250" y2="260" stroke="#42A5F5" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+  <!-- Bottom accent bar -->
+  <rect x="0" y="330" width="500" height="20" fill="#0D47A1"/>
+  <text x="250" y="344" text-anchor="middle" fill="#90CAF9" font-size="10" font-weight="bold">bn = b1 · q^(n-1) — геометрическая прогрессия растёт экспоненциально</text>
+</svg>

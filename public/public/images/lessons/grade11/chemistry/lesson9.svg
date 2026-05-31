@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+<filter id="sh"><feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#00000030"/></filter>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Классификация химических реакций</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Химия 11 класс</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- By composition -->
+<rect x="12" y="58" width="235" height="120" rx="8" fill="white" stroke="#2E7D32" stroke-width="1.5" filter="url(#sh)"/>
+<text x="130" y="75" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">По числу и составу веществ</text>
+<line x1="22" y1="80" x2="237" y2="80" stroke="#2E7D32" stroke-width="0.5"/>
+<rect x="22" y="85" width="105" height="35" rx="4" fill="#4CAF50" opacity="0.15" stroke="#4CAF50" stroke-width="0.8"/>
+<text x="74" y="98" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">Соединение</text>
+<text x="74" y="111" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">A + B -> AB</text>
+<rect x="132" y="85" width="105" height="35" rx="4" fill="#FF9800" opacity="0.15" stroke="#FF9800" stroke-width="0.8"/>
+<text x="184" y="98" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle" font-weight="bold">Разложение</text>
+<text x="184" y="111" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">AB -> A + B</text>
+<rect x="22" y="125" width="105" height="35" rx="4" fill="#2196F3" opacity="0.15" stroke="#2196F3" stroke-width="0.8"/>
+<text x="74" y="138" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle" font-weight="bold">Замещение</text>
+<text x="74" y="151" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">A + BC -> AC + B</text>
+<rect x="132" y="125" width="105" height="35" rx="4" fill="#9C27B0" opacity="0.15" stroke="#9C27B0" stroke-width="0.8"/>
+<text x="184" y="138" font-family="Arial,sans-serif" font-size="7" fill="#7B1FA2" text-anchor="middle" font-weight="bold">Обмен</text>
+<text x="184" y="151" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">AB + CD -> AD + CB</text>
+
+<!-- By redox -->
+<rect x="258" y="58" width="230" height="55" rx="8" fill="white" stroke="#C62828" stroke-width="1.5" filter="url(#sh)"/>
+<text x="373" y="75" font-family="Arial,sans-serif" font-size="9" fill="#C62828" text-anchor="middle" font-weight="bold">По изменению степ. окисления</text>
+<line x1="268" y1="80" x2="478" y2="80" stroke="#C62828" stroke-width="0.5"/>
+<text x="310" y="93" font-family="Arial,sans-serif" font-size="7" fill="#C62828">ОВР: степени окисления меняются</text>
+<text x="310" y="105" font-family="Arial,sans-serif" font-size="7" fill="#333">Не ОВР: степени окисления не меняются</text>
+
+<!-- By heat -->
+<rect x="258" y="120" width="110" height="55" rx="8" fill="white" stroke="#FF5722" stroke-width="1.5" filter="url(#sh)"/>
+<text x="313" y="137" font-family="Arial,sans-serif" font-size="8" fill="#BF360C" text-anchor="middle" font-weight="bold">По теплу</text>
+<text x="268" y="152" font-family="Arial,sans-serif" font-size="7" fill="#FF5722">Экзо (+Q): тепло выделяется</text>
+<text x="268" y="164" font-family="Arial,sans-serif" font-size="7" fill="#2196F3">Эндо (-Q): тепло поглощается</text>
+
+<!-- By reversibility -->
+<rect x="378" y="120" width="110" height="55" rx="8" fill="white" stroke="#7B1FA2" stroke-width="1.5" filter="url(#sh)"/>
+<text x="433" y="137" font-family="Arial,sans-serif" font-size="8" fill="#7B1FA2" text-anchor="middle" font-weight="bold">По обратимости</text>
+<text x="388" y="152" font-family="Arial,sans-serif" font-size="7" fill="#7B1FA2">Необратимые: A -> B</text>
+<text x="388" y="164" font-family="Arial,sans-serif" font-size="7" fill="#333">Обратимые: A ⇌ B</text>
+
+<!-- Examples -->
+<rect x="12" y="190" width="476" height="120" rx="8" fill="white" stroke="#1B5E20" stroke-width="1" filter="url(#sh)"/>
+<text x="250" y="208" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">Примеры реакций</text>
+<line x1="22" y1="214" x2="478" y2="214" stroke="#1B5E20" stroke-width="0.5"/>
+<circle cx="30" cy="228" r="3" fill="#4CAF50"/><text x="40" y="231" font-family="Arial,sans-serif" font-size="7" fill="#333">Соед.+ОВР+Экзо: 2Mg + O2 -> 2MgO</text>
+<circle cx="30" cy="244" r="3" fill="#FF9800"/><text x="40" y="247" font-family="Arial,sans-serif" font-size="7" fill="#333">Разл.+не ОВР+Эндо: CaCO3 -> CaO + CO2</text>
+<circle cx="30" cy="260" r="3" fill="#2196F3"/><text x="40" y="263" font-family="Arial,sans-serif" font-size="7" fill="#333">Зам.+ОВР+Экзо: Fe + CuSO4 -> FeSO4 + Cu</text>
+<circle cx="30" cy="276" r="3" fill="#9C27B0"/><text x="40" y="279" font-family="Arial,sans-serif" font-size="7" fill="#333">Обм.+не ОВР+Экзо: NaOH + HCl -> NaCl + H2O</text>
+<text x="250" y="298" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle" font-weight="bold">Одна реакция может относиться к нескольким типам одновременно!</text>
+
+<rect x="10" y="330" width="480" height="16" rx="4" fill="#2E7D32" opacity="0.85"/>
+<text x="250" y="342" font-family="Arial,sans-serif" font-size="10" text-anchor="middle" fill="white" font-weight="bold">Химия 11 класс</text>
+</svg>

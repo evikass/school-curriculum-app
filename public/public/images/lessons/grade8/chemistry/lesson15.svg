@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg15" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <radialGradient id="centerGrad15" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#14b8a6;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="shellK" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:0.2"/>
+    </radialGradient>
+    <radialGradient id="shellL" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:0.2"/>
+    </radialGradient>
+    <radialGradient id="shellM" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:0.2"/>
+    </radialGradient>
+    <radialGradient id="shellN" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0.2"/>
+    </radialGradient>
+    <radialGradient id="electronDot15" cx="35%" cy="35%" r="60%">
+      <stop offset="0%" style="stop-color:#67e8f9"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </radialGradient>
+    <filter id="glow15">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="strongGlow15">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="particleGlow15">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="cellShadow15">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+    <linearGradient id="energyBar" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#ef4444"/>
+      <stop offset="33%" style="stop-color:#f59e0b"/>
+      <stop offset="66%" style="stop-color:#10b981"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg15)" rx="12"/>
+
+  <!-- Title -->
+  <text x="400" y="38" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#e2e8f0" text-anchor="middle">Электронные оболочки атомов</text>
+
+  <!-- Subtitle divider -->
+  <line x1="100" y1="48" x2="700" y2="48" stroke="#0d9488" stroke-width="1" opacity="0.4"/>
+
+  <!-- ===== ELECTRON SHELL DIAGRAM (left-center) ===== -->
+  <g transform="translate(200, 265)">
+    <!-- Background glow -->
+    <circle cx="0" cy="0" r="150" fill="url(#centerGrad15)"/>
+
+    <!-- Shell N (outermost) -->
+    <circle cx="0" cy="0" r="140" fill="none" stroke="#8b5cf6" stroke-width="1.5" opacity="0.25" stroke-dasharray="6,4"/>
+    <text x="0" y="-148" font-family="Arial, sans-serif" font-size="11" fill="#8b5cf6" text-anchor="middle" opacity="0.7">N (n=4)</text>
+
+    <!-- Shell M -->
+    <circle cx="0" cy="0" r="105" fill="none" stroke="#10b981" stroke-width="1.5" opacity="0.35" stroke-dasharray="6,4"/>
+    <text x="0" y="-113" font-family="Arial, sans-serif" font-size="11" fill="#10b981" text-anchor="middle" opacity="0.8">M (n=3)</text>
+
+    <!-- Shell L -->
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#f59e0b" stroke-width="1.5" opacity="0.45" stroke-dasharray="6,4"/>
+    <text x="0" y="-78" font-family="Arial, sans-serif" font-size="11" fill="#f59e0b" text-anchor="middle" opacity="0.9">L (n=2)</text>
+
+    <!-- Shell K (innermost) -->
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#ef4444" stroke-width="1.5" opacity="0.6" stroke-dasharray="6,4"/>
+    <text x="0" y="-46" font-family="Arial, sans-serif" font-size="11" fill="#ef4444" text-anchor="middle">K (n=1)</text>
+
+    <!-- Nucleus -->
+    <circle cx="0" cy="0" r="14" fill="#334155" stroke="#14b8a6" stroke-width="2" filter="url(#glow15)"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#e2e8f0" text-anchor="middle">+Z</text>
+
+    <!-- Electrons on K shell (2 max) -->
+    <circle cx="32" cy="-20" r="5" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="1" filter="url(#particleGlow15)"/>
+    <circle cx="-32" cy="20" r="5" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="1" filter="url(#particleGlow15)"/>
+
+    <!-- Electrons on L shell (8 max, show 6 for visual) -->
+    <circle cx="60" cy="-35" r="5" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="1" filter="url(#particleGlow15)"/>
+    <circle cx="-60" cy="35" r="5" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="1" filter="url(#particleGlow15)"/>
+    <circle cx="0" cy="-68" r="5" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="1" filter="url(#particleGlow15)"/>
+    <circle cx="0" cy="68" r="5" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="1" filter="url(#particleGlow15)"/>
+    <circle cx="55" cy="42" r="5" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="1" filter="url(#particleGlow15)"/>
+    <circle cx="-55" cy="-42" r="5" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="1" filter="url(#particleGlow15)"/>
+
+    <!-- Electrons on M shell (show 3) -->
+    <circle cx="95" cy="-45" r="5" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="1" filter="url(#particleGlow15)"/>
+    <circle cx="-95" cy="45" r="5" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="1" filter="url(#particleGlow15)"/>
+    <circle cx="0" cy="-103" r="5" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="1" filter="url(#particleGlow15)"/>
+
+    <!-- Label -->
+    <text x="0" y="170" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e2e8f0" text-anchor="middle">Электронные оболочки</text>
+    <text x="0" y="185" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">K, L, M, N — энергетические уровни</text>
+  </g>
+
+  <!-- ===== FORMULA BOX ===== -->
+  <g transform="translate(400, 60)">
+    <rect x="0" y="0" width="370" height="65" rx="10" fill="#0f172a" stroke="#14b8a6" stroke-width="1.5" opacity="0.9" filter="url(#cellShadow15)"/>
+    <rect x="3" y="3" width="364" height="59" rx="8" fill="none" stroke="#14b8a6" stroke-width="0.5" opacity="0.3"/>
+    <text x="185" y="22" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8" text-anchor="middle">Максимальное число электронов на уровне:</text>
+    <text x="185" y="50" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#14b8a6" text-anchor="middle" filter="url(#glow15)">N = 2n²</text>
+  </g>
+
+  <!-- ===== SHELL TABLE ===== -->
+  <g transform="translate(400, 140)">
+    <rect x="0" y="0" width="370" height="95" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1" opacity="0.9"/>
+
+    <!-- Header row -->
+    <rect x="0" y="0" width="370" height="25" rx="10" fill="#0d9488" fill-opacity="0.15"/>
+    <rect x="0" y="15" width="370" height="10" fill="#0d9488" fill-opacity="0.15"/>
+    <text x="46" y="17" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#94a3b8" text-anchor="middle">Оболочка</text>
+    <text x="120" y="17" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#94a3b8" text-anchor="middle">n</text>
+    <text x="200" y="17" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#94a3b8" text-anchor="middle">2n²</text>
+    <text x="300" y="17" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#94a3b8" text-anchor="middle">Макс. e⁻</text>
+
+    <!-- K row -->
+    <rect x="5" y="28" width="360" height="15" rx="3" fill="#ef4444" fill-opacity="0.08"/>
+    <text x="46" y="39" font-family="Arial, sans-serif" font-size="11" fill="#ef4444" text-anchor="middle">K</text>
+    <text x="120" y="39" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0" text-anchor="middle">1</text>
+    <text x="200" y="39" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0" text-anchor="middle">2×1² = 2</text>
+    <text x="300" y="39" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#14b8a6" text-anchor="middle">2</text>
+
+    <!-- L row -->
+    <rect x="5" y="45" width="360" height="15" rx="3" fill="#f59e0b" fill-opacity="0.08"/>
+    <text x="46" y="56" font-family="Arial, sans-serif" font-size="11" fill="#f59e0b" text-anchor="middle">L</text>
+    <text x="120" y="56" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0" text-anchor="middle">2</text>
+    <text x="200" y="56" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0" text-anchor="middle">2×2² = 8</text>
+    <text x="300" y="56" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#14b8a6" text-anchor="middle">8</text>
+
+    <!-- M row -->
+    <rect x="5" y="62" width="360" height="15" rx="3" fill="#10b981" fill-opacity="0.08"/>
+    <text x="46" y="73" font-family="Arial, sans-serif" font-size="11" fill="#10b981" text-anchor="middle">M</text>
+    <text x="120" y="73" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0" text-anchor="middle">3</text>
+    <text x="200" y="73" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0" text-anchor="middle">2×3² = 18</text>
+    <text x="300" y="73" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#14b8a6" text-anchor="middle">18</text>
+
+    <!-- N row -->
+    <rect x="5" y="79" width="360" height="15" rx="3" fill="#8b5cf6" fill-opacity="0.08"/>
+    <text x="46" y="90" font-family="Arial, sans-serif" font-size="11" fill="#8b5cf6" text-anchor="middle">N</text>
+    <text x="120" y="90" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0" text-anchor="middle">4</text>
+    <text x="200" y="90" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0" text-anchor="middle">2×4² = 32</text>
+    <text x="300" y="90" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#14b8a6" text-anchor="middle">32</text>
+  </g>
+
+  <!-- ===== Na ATOM EXAMPLE ===== -->
+  <g transform="translate(20, 60)">
+    <rect x="0" y="0" width="175" height="140" rx="10" fill="#0f172a" stroke="#0d9488" stroke-width="1.5" opacity="0.9" filter="url(#cellShadow15)"/>
+    <rect x="0" y="0" width="175" height="28" rx="10" fill="#0d9488" fill-opacity="0.15"/>
+    <rect x="0" y="18" width="175" height="10" fill="#0d9488" fill-opacity="0.15"/>
+    <text x="87" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#14b8a6" text-anchor="middle">Натрий (Na)</text>
+
+    <!-- Z info -->
+    <text x="87" y="44" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Z = 11, электронов = 11</text>
+
+    <!-- Na shell diagram -->
+    <g transform="translate(50, 92)">
+      <!-- Nucleus -->
+      <circle cx="0" cy="0" r="6" fill="#334155" stroke="#14b8a6" stroke-width="1.5"/>
+      <text x="0" y="3" font-family="Arial, sans-serif" font-size="6" fill="#e2e8f0" text-anchor="middle">+11</text>
+
+      <!-- K shell -->
+      <circle cx="0" cy="0" r="18" fill="none" stroke="#ef4444" stroke-width="1" opacity="0.6"/>
+      <circle cx="14" cy="-11" r="4" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="0.8"/>
+      <circle cx="-14" cy="11" r="4" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="0.8"/>
+
+      <!-- L shell -->
+      <circle cx="0" cy="0" r="35" fill="none" stroke="#f59e0b" stroke-width="1" opacity="0.5"/>
+      <!-- 8 electrons on L -->
+      <circle cx="30" cy="-18" r="4" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="0.8"/>
+      <circle cx="-30" cy="18" r="4" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="0.8"/>
+      <circle cx="0" cy="-34" r="4" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="0.8"/>
+      <circle cx="0" cy="34" r="4" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="0.8"/>
+      <circle cx="27" cy="22" r="4" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="0.8"/>
+      <circle cx="-27" cy="-22" r="4" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="0.8"/>
+      <circle cx="32" cy="5" r="4" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="0.8"/>
+      <circle cx="-32" cy="-5" r="4" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="0.8"/>
+
+      <!-- M shell with 1 electron -->
+      <circle cx="0" cy="0" r="50" fill="none" stroke="#10b981" stroke-width="1" opacity="0.4"/>
+      <circle cx="0" cy="-49" r="4" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="0.8" filter="url(#particleGlow15)"/>
+    </g>
+
+    <!-- Configuration text -->
+    <text x="120" y="72" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">K: 2</text>
+    <text x="120" y="86" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">L: 8</text>
+    <text x="120" y="100" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">M: 1</text>
+
+    <!-- Config formula -->
+    <text x="87" y="126" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#14b8a6" text-anchor="middle" filter="url(#glow15)">2, 8, 1</text>
+    <text x="87" y="138" font-family="Arial, sans-serif" font-size="8" fill="#64748b" text-anchor="middle">электронная конфигурация</text>
+  </g>
+
+  <!-- ===== Cl ATOM EXAMPLE ===== -->
+  <g transform="translate(20, 210)">
+    <rect x="0" y="0" width="175" height="140" rx="10" fill="#0f172a" stroke="#8b5cf6" stroke-width="1.5" opacity="0.9" filter="url(#cellShadow15)"/>
+    <rect x="0" y="0" width="175" height="28" rx="10" fill="#8b5cf6" fill-opacity="0.15"/>
+    <rect x="0" y="18" width="175" height="10" fill="#8b5cf6" fill-opacity="0.15"/>
+    <text x="87" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#a78bfa" text-anchor="middle">Хлор (Cl)</text>
+
+    <!-- Z info -->
+    <text x="87" y="44" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Z = 17, электронов = 17</text>
+
+    <!-- Cl shell diagram -->
+    <g transform="translate(50, 92)">
+      <!-- Nucleus -->
+      <circle cx="0" cy="0" r="6" fill="#334155" stroke="#a78bfa" stroke-width="1.5"/>
+      <text x="0" y="3" font-family="Arial, sans-serif" font-size="6" fill="#e2e8f0" text-anchor="middle">+17</text>
+
+      <!-- K shell -->
+      <circle cx="0" cy="0" r="18" fill="none" stroke="#ef4444" stroke-width="1" opacity="0.6"/>
+      <circle cx="14" cy="-11" r="4" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="0.8"/>
+      <circle cx="-14" cy="11" r="4" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="0.8"/>
+
+      <!-- L shell -->
+      <circle cx="0" cy="0" r="35" fill="none" stroke="#f59e0b" stroke-width="1" opacity="0.5"/>
+      <circle cx="30" cy="-18" r="4" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="0.8"/>
+      <circle cx="-30" cy="18" r="4" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="0.8"/>
+      <circle cx="0" cy="-34" r="4" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="0.8"/>
+      <circle cx="0" cy="34" r="4" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="0.8"/>
+      <circle cx="27" cy="22" r="4" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="0.8"/>
+      <circle cx="-27" cy="-22" r="4" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="0.8"/>
+      <circle cx="32" cy="5" r="4" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="0.8"/>
+      <circle cx="-32" cy="-5" r="4" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="0.8"/>
+
+      <!-- M shell with 7 electrons -->
+      <circle cx="0" cy="0" r="50" fill="none" stroke="#10b981" stroke-width="1" opacity="0.4"/>
+      <circle cx="0" cy="-49" r="4" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="0.8"/>
+      <circle cx="44" cy="-22" r="4" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="0.8"/>
+      <circle cx="-44" cy="22" r="4" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="0.8"/>
+      <circle cx="44" cy="22" r="4" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="0.8"/>
+      <circle cx="-44" cy="-22" r="4" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="0.8"/>
+      <circle cx="49" cy="0" r="4" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="0.8"/>
+      <circle cx="-49" cy="0" r="4" fill="url(#electronDot15)" stroke="#67e8f9" stroke-width="0.8"/>
+      <!-- Vacancy indicator -->
+      <circle cx="0" cy="49" r="4" fill="none" stroke="#ef4444" stroke-width="1" stroke-dasharray="2,2" opacity="0.6"/>
+    </g>
+
+    <!-- Configuration text -->
+    <text x="120" y="72" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">K: 2</text>
+    <text x="120" y="86" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">L: 8</text>
+    <text x="120" y="100" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">M: 7</text>
+
+    <!-- Config formula -->
+    <text x="87" y="126" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#a78bfa" text-anchor="middle" filter="url(#glow15)">2, 8, 7</text>
+    <text x="87" y="138" font-family="Arial, sans-serif" font-size="8" fill="#64748b" text-anchor="middle">не хватает 1 e⁻ до октета</text>
+  </g>
+
+  <!-- ===== ENERGY LEVEL DIAGRAM ===== -->
+  <g transform="translate(400, 250)">
+    <rect x="0" y="0" width="370" height="105" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1" opacity="0.9"/>
+    <rect x="0" y="0" width="370" height="25" rx="10" fill="#8b5cf6" fill-opacity="0.15"/>
+    <rect x="0" y="15" width="370" height="10" fill="#8b5cf6" fill-opacity="0.15"/>
+    <text x="185" y="18" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#a78bfa" text-anchor="middle">Энергетическая диаграмма</text>
+
+    <!-- Energy axis -->
+    <line x1="40" y1="90" x2="40" y2="35" stroke="#64748b" stroke-width="1.5"/>
+    <polygon points="40,33 36,40 44,40" fill="#64748b"/>
+    <text x="35" y="98" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="end">E</text>
+
+    <!-- Energy levels (horizontal lines) -->
+    <!-- N level -->
+    <line x1="60" y1="42" x2="340" y2="42" stroke="#8b5cf6" stroke-width="2" opacity="0.6"/>
+    <text x="55" y="46" font-family="Arial, sans-serif" font-size="9" fill="#8b5cf6" text-anchor="end">N</text>
+    <text x="345" y="46" font-family="Arial, sans-serif" font-size="9" fill="#8b5cf6">max 32e⁻</text>
+
+    <!-- M level -->
+    <line x1="60" y1="58" x2="340" y2="58" stroke="#10b981" stroke-width="2" opacity="0.7"/>
+    <text x="55" y="62" font-family="Arial, sans-serif" font-size="9" fill="#10b981" text-anchor="end">M</text>
+    <text x="345" y="62" font-family="Arial, sans-serif" font-size="9" fill="#10b981">max 18e⁻</text>
+
+    <!-- L level -->
+    <line x1="60" y1="74" x2="340" y2="74" stroke="#f59e0b" stroke-width="2" opacity="0.8"/>
+    <text x="55" y="78" font-family="Arial, sans-serif" font-size="9" fill="#f59e0b" text-anchor="end">L</text>
+    <text x="345" y="78" font-family="Arial, sans-serif" font-size="9" fill="#f59e0b">max 8e⁻</text>
+
+    <!-- K level -->
+    <line x1="60" y1="90" x2="340" y2="90" stroke="#ef4444" stroke-width="2" opacity="0.9"/>
+    <text x="55" y="94" font-family="Arial, sans-serif" font-size="9" fill="#ef4444" text-anchor="end">K</text>
+    <text x="345" y="94" font-family="Arial, sans-serif" font-size="9" fill="#ef4444">max 2e⁻</text>
+
+    <!-- Arrow showing energy increase -->
+    <text x="27" y="70" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle" transform="rotate(-90, 27, 70)">Энергия ↑</text>
+  </g>
+
+  <!-- ===== KEY RULES BOX ===== -->
+  <g transform="translate(400, 370)">
+    <rect x="0" y="0" width="370" height="110" rx="10" fill="#0f172a" stroke="#0d9488" stroke-width="1" opacity="0.9" filter="url(#cellShadow15)"/>
+
+    <text x="185" y="22" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#14b8a6" text-anchor="middle">Правила заполнения оболочек</text>
+    <line x1="20" y1="30" x2="350" y2="30" stroke="#334155" stroke-width="0.5"/>
+
+    <text x="15" y="48" font-family="Arial, sans-serif" font-size="11" fill="#cbd5e1">1. Оболочки заполняются от ближней к дальней</text>
+    <text x="15" y="65" font-family="Arial, sans-serif" font-size="11" fill="#cbd5e1">2. Первой заполняется K-оболочка (max 2e⁻)</text>
+    <text x="15" y="82" font-family="Arial, sans-serif" font-size="11" fill="#cbd5e1">3. Затем L-оболочка (max 8e⁻)</text>
+    <text x="15" y="99" font-family="Arial, sans-serif" font-size="11" fill="#cbd5e1">4. Число оболочек = номер периода элемента</text>
+  </g>
+
+  <!-- Decorative corner elements -->
+  <circle cx="20" cy="20" r="3" fill="#0d9488" opacity="0.3"/>
+  <circle cx="780" cy="20" r="3" fill="#0d9488" opacity="0.3"/>
+  <circle cx="20" cy="480" r="3" fill="#0d9488" opacity="0.3"/>
+  <circle cx="780" cy="480" r="3" fill="#0d9488" opacity="0.3"/>
+</svg>

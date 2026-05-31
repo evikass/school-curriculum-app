@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8EAF6"/>
+      <stop offset="100%" stop-color="#C5CAE9"/>
+    </linearGradient>
+    <linearGradient id="cylGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3F51B5" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#3F51B5" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#3F51B5" stop-opacity="0.25"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#283593" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="13" font-weight="bold" fill="#1A237E" text-anchor="middle" font-family="serif">Площадь поверхности цилиндра</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="sans-serif">Геометрия 11 класс — Урок 7</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#3F51B5" stroke-width="1" opacity="0.3"/>
+
+  <!-- Unfolded Net Panel -->
+  <rect x="15" y="58" width="250" height="200" rx="6" fill="white" opacity="0.9" stroke="#3F51B5" stroke-width="1.2"/>
+  <text x="140" y="74" font-size="10" font-weight="bold" fill="#283593" text-anchor="middle">Развёртка цилиндра</text>
+  <!-- Rectangle (lateral surface) -->
+  <rect x="50" y="85" width="180" height="80" rx="1" fill="#3F51B5" opacity="0.08" stroke="#283593" stroke-width="1.5"/>
+  <text x="140" y="128" font-size="9" fill="#283593" text-anchor="middle">Боковая пов-ть</text>
+  <!-- Width label -->
+  <line x1="50" y1="168" x2="230" y2="168" stroke="#C62828" stroke-width="1.2"/>
+  <text x="140" y="180" font-size="9" fill="#C62828" text-anchor="middle" font-weight="bold">2&#x03C0;R</text>
+  <!-- Height label -->
+  <line x1="240" y1="85" x2="240" y2="165" stroke="#2E7D32" stroke-width="1.2"/>
+  <text x="248" y="128" font-size="9" fill="#2E7D32" font-weight="bold">h</text>
+  <!-- Top circle -->
+  <ellipse cx="95" cy="215" rx="30" ry="28" fill="#FF8F00" opacity="0.08" stroke="#FF8F00" stroke-width="1.2"/>
+  <text x="95" y="219" font-size="8" fill="#FF8F00" text-anchor="middle" font-weight="bold">&#x03C0;R&#x00B2;</text>
+  <!-- Bottom circle -->
+  <ellipse cx="195" cy="215" rx="30" ry="28" fill="#FF8F00" opacity="0.08" stroke="#FF8F00" stroke-width="1.2"/>
+  <text x="195" y="219" font-size="8" fill="#FF8F00" text-anchor="middle" font-weight="bold">&#x03C0;R&#x00B2;</text>
+  <!-- Dashed connections -->
+  <line x1="95" y1="85" x2="95" y2="187" stroke="#999" stroke-width="0.7" stroke-dasharray="3,2"/>
+  <line x1="195" y1="85" x2="195" y2="187" stroke="#999" stroke-width="0.7" stroke-dasharray="3,2"/>
+
+  <!-- 3D Cylinder Panel -->
+  <rect x="275" y="58" width="212" height="130" rx="6" fill="white" opacity="0.9" stroke="#3F51B5" stroke-width="1.2"/>
+  <text x="381" y="74" font-size="10" font-weight="bold" fill="#283593" text-anchor="middle">Цилиндр</text>
+  <!-- Bottom ellipse -->
+  <ellipse cx="370" cy="165" rx="55" ry="16" fill="url(#cylGrad)" stroke="#283593" stroke-width="1.3"/>
+  <path d="M315,165 A55,16 0 0,0 425,165" fill="none" stroke="#283593" stroke-width="1" stroke-dasharray="4,3"/>
+  <!-- Side lines -->
+  <line x1="315" y1="165" x2="315" y2="95" stroke="#283593" stroke-width="1.5"/>
+  <line x1="425" y1="165" x2="425" y2="95" stroke="#283593" stroke-width="1.5"/>
+  <!-- Top ellipse -->
+  <ellipse cx="370" cy="95" rx="55" ry="16" fill="url(#cylGrad)" stroke="#283593" stroke-width="1.5"/>
+  <!-- R label -->
+  <line x1="370" y1="95" x2="425" y2="95" stroke="#C62828" stroke-width="1.2"/>
+  <text x="395" y="92" font-size="8" fill="#C62828" font-weight="bold">R</text>
+  <!-- h label -->
+  <text x="305" y="132" font-size="9" fill="#2E7D32" font-weight="bold">h</text>
+
+  <!-- Formulas Panel -->
+  <rect x="275" y="195" width="212" height="115" rx="6" fill="white" opacity="0.9" stroke="#3F51B5" stroke-width="1.2"/>
+  <text x="381" y="211" font-size="10" font-weight="bold" fill="#283593" text-anchor="middle">Формулы площади</text>
+  <!-- Lateral -->
+  <rect x="285" y="218" width="192" height="24" rx="3" fill="#3F51B5" opacity="0.06"/>
+  <text x="381" y="234" font-size="10" fill="#283593" font-weight="bold" text-anchor="middle">S<sub>бок</sub> = 2&#x03C0;Rh</text>
+  <!-- Base -->
+  <text x="381" y="255" font-size="10" fill="#FF8F00" font-weight="bold" text-anchor="middle">S<sub>осн</sub> = &#x03C0;R&#x00B2;</text>
+  <!-- Total -->
+  <rect x="285" y="262" width="192" height="24" rx="3" fill="#C62828" opacity="0.08"/>
+  <text x="381" y="279" font-size="11" fill="#C62828" font-weight="bold" text-anchor="middle">S<sub>полн</sub> = 2&#x03C0;R(R + h)</text>
+  <text x="381" y="302" font-size="8" fill="#666" text-anchor="middle">= 2&#x03C0;R&#x00B2; + 2&#x03C0;Rh</text>
+
+  <!-- Bottom bar -->
+  <rect x="10" y="320" width="480" height="24" rx="4" fill="#283593" opacity="0.85"/>
+  <text x="250" y="336" font-size="10" fill="white" text-anchor="middle" font-weight="bold">S<sub>бок</sub>=2&#x03C0;Rh;  S<sub>осн</sub>=&#x03C0;R&#x00B2;;  S<sub>полн</sub>=2&#x03C0;R(R+h)</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#E0F2F1"/><stop offset="100%" stop-color="#B2DFDB"/></linearGradient></defs>
+  <rect width="500" height="350" rx="8" fill="url(#bg)"/>
+  <rect x="3" y="3" width="494" height="344" rx="6" fill="none" stroke="#00695C" stroke-width="2.5" opacity="0.7"/>
+  <text x="250" y="26" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#00695C">Щёлочноземельные металлы</text>
+  <text x="250" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#607D8B">Химия 9 класс — Урок 10</text>
+  <line x1="20" y1="47" x2="480" y2="47" stroke="#00695C" stroke-width="0.8" opacity="0.3"/>
+  <rect x="14" y="54" width="230" height="95" rx="8" fill="white" fill-opacity="0.9" stroke="#00897B" stroke-width="1.2"/>
+  <text x="129" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#00695C">Элементы IIA группы</text>
+  <text x="129" y="86" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#004D40">Ca — Кальций, Sr — Стронций</text>
+  <text x="129" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#004D40">Ba — Барий, Ra — Радий</text>
+  <text x="129" y="114" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#00897B">2 электрона на внешнем уровне</text>
+  <text x="129" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#00897B">Основные оксиды: MeO</text>
+  <rect x="256" y="54" width="230" height="95" rx="8" fill="white" fill-opacity="0.9" stroke="#00897B" stroke-width="1.2"/>
+  <text x="371" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#00695C">Реакции кальция</text>
+  <text x="270" y="88" font-family="Arial,sans-serif" font-size="6" fill="#004D40">Ca + 2H2O = Ca(OH)2 + H2</text>
+  <text x="270" y="102" font-family="Arial,sans-serif" font-size="6" fill="#004D40">2Ca + O2 = 2CaO</text>
+  <text x="270" y="116" font-family="Arial,sans-serif" font-size="6" fill="#004D40">Ca + Cl2 = CaCl2</text>
+  <text x="270" y="130" font-family="Arial,sans-serif" font-size="6" fill="#004D40">Ca + S = CaS</text>
+  <text x="270" y="144" font-family="Arial,sans-serif" font-size="6" fill="#C62828">Менее активны, чем щёлочные</text>
+  <!-- CaCO3 and CaO -->
+  <rect x="14" y="158" width="155" height="95" rx="8" fill="white" fill-opacity="0.9" stroke="#00897B" stroke-width="1"/>
+  <text x="91" y="174" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#00695C">CaCO3</text>
+  <text x="91" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">Мел, мрамор, известняк</text>
+  <text x="91" y="204" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">CaCO3 = CaO + CO2</text>
+  <text x="91" y="218" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">CaCO3 + 2HCl =</text>
+  <text x="91" y="230" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">CaCl2 + CO2 + H2O</text>
+  <text x="91" y="246" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#607D8B">Строительство, мел</text>
+  <rect x="178" y="158" width="155" height="95" rx="8" fill="white" fill-opacity="0.9" stroke="#00897B" stroke-width="1"/>
+  <text x="255" y="174" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#00695C">CaO и Ca(OH)2</text>
+  <text x="255" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">CaO — негашёная известь</text>
+  <text x="255" y="204" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">CaO + H2O = Ca(OH)2</text>
+  <text x="255" y="218" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">Ca(OH)2 — гашёная известь</text>
+  <text x="255" y="232" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">Известковая вода</text>
+  <text x="255" y="246" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#607D8B">Строительство, побелка</text>
+  <!-- Qualitative test -->
+  <rect x="342" y="158" width="144" height="95" rx="8" fill="white" fill-opacity="0.9" stroke="#00897B" stroke-width="1"/>
+  <text x="414" y="174" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#00695C">Кач. реакция</text>
+  <text x="414" y="192" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">CO2 + Ca(OH)2 =</text>
+  <text x="414" y="206" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#ECEFF1">CaCO3 + H2O</text>
+  <rect x="370" y="214" width="88" height="24" rx="4" fill="white" stroke="#78909C" stroke-width="1"/>
+  <text x="414" y="230" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#607D8B">Помутнение</text>
+  <text x="414" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#00897B">Пламя Ba — зелёное</text>
+  <!-- Hard water -->
+  <rect x="14" y="262" width="472" height="74" rx="8" fill="white" fill-opacity="0.9" stroke="#00897B" stroke-width="1"/>
+  <text x="250" y="280" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#00695C">Жёсткость воды</text>
+  <text x="150" y="298" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">Временная: Ca(HCO3)2</text>
+  <text x="150" y="312" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">Ca(HCO3)2 = CaCO3 + CO2 + H2O</text>
+  <text x="350" y="298" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">Постоянная: CaSO4, CaCl2</text>
+  <text x="350" y="312" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#004D40">Устранение: кипячение, Na2CO3</text>
+  <text x="250" y="330" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#607D8B">Жёсткая вода — накипь, расход мыла</text>
+</svg>

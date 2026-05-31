@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg15" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0fdfa"/>
+      <stop offset="100%" stop-color="#ccfbf1"/>
+    </linearGradient>
+    <filter id="shadow15">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+    <linearGradient id="scaleGrad" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#ccfbf1"/>
+      <stop offset="50%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg15)" rx="12"/>
+
+  <!-- Title -->
+  <text x="400" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#0d9488">Электроотрицательность. Кристаллические решётки</text>
+
+  <!-- Electronegativity Scale (left side) -->
+  <rect x="25" y="55" width="165" height="430" rx="10" fill="white" fill-opacity="0.7" stroke="#2dd4bf" stroke-width="1.5" filter="url(#shadow15)"/>
+  <text x="107" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0d9488">Шкала ЭО</text>
+  <text x="107" y="93" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6">(по Полингу)</text>
+
+  <!-- Scale bar -->
+  <rect x="45" y="110" width="30" height="350" rx="4" fill="url(#scaleGrad)" stroke="#0d9488" stroke-width="1"/>
+
+  <!-- Scale ticks and labels -->
+  <line x1="75" y1="110" x2="85" y2="110" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="90" y="114" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#0d9488">4,0  F</text>
+
+  <line x1="75" y1="150" x2="85" y2="150" stroke="#0d9488" stroke-width="1"/>
+  <text x="90" y="154" font-family="Arial, sans-serif" font-size="10" fill="#0d9488">3,5  O</text>
+
+  <line x1="75" y1="190" x2="85" y2="190" stroke="#0d9488" stroke-width="1"/>
+  <text x="90" y="194" font-family="Arial, sans-serif" font-size="10" fill="#0d9488">3,0  N, Cl</text>
+
+  <line x1="75" y1="230" x2="85" y2="230" stroke="#0d9488" stroke-width="1"/>
+  <text x="90" y="234" font-family="Arial, sans-serif" font-size="10" fill="#0d9488">2,5  C, S</text>
+
+  <line x1="75" y1="270" x2="85" y2="270" stroke="#0d9488" stroke-width="1"/>
+  <text x="90" y="274" font-family="Arial, sans-serif" font-size="10" fill="#0d9488">2,1  H, P</text>
+
+  <line x1="75" y1="310" x2="85" y2="310" stroke="#0d9488" stroke-width="1"/>
+  <text x="90" y="314" font-family="Arial, sans-serif" font-size="10" fill="#0d9488">1,5  Al</text>
+
+  <line x1="75" y1="350" x2="85" y2="350" stroke="#0d9488" stroke-width="1"/>
+  <text x="90" y="354" font-family="Arial, sans-serif" font-size="10" fill="#0d9488">1,2  Mg</text>
+
+  <line x1="75" y1="390" x2="85" y2="390" stroke="#0d9488" stroke-width="1"/>
+  <text x="90" y="394" font-family="Arial, sans-serif" font-size="10" fill="#0d9488">1,0  Ca</text>
+
+  <line x1="75" y1="420" x2="85" y2="420" stroke="#0d9488" stroke-width="1"/>
+  <text x="90" y="424" font-family="Arial, sans-serif" font-size="10" fill="#0d9488">0,9  Na</text>
+
+  <!-- Arrow indicators on scale -->
+  <text x="40" y="122" font-family="Arial, sans-serif" font-size="8" fill="#dc2626">▲ Неметаллы</text>
+  <text x="35" y="438" font-family="Arial, sans-serif" font-size="8" fill="#2563eb">▼ Металлы</text>
+
+  <!-- Type of bond indicator -->
+  <rect x="130" y="120" width="50" height="35" rx="5" fill="#0d9488" fill-opacity="0.15"/>
+  <text x="155" y="136" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#0d9488">Ковал.</text>
+  <text x="155" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#0d9488">полярн.</text>
+
+  <rect x="130" y="375" width="50" height="35" rx="5" fill="#0d9488" fill-opacity="0.15"/>
+  <text x="155" y="391" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#0d9488">Ионная</text>
+  <text x="155" y="403" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#0d9488">связь</text>
+
+  <!-- Crystal Lattices Section -->
+  <!-- 1. Molecular lattice -->
+  <g transform="translate(290, 160)">
+    <rect x="-80" y="-85" width="160" height="185" rx="10" fill="white" fill-opacity="0.7" stroke="#2dd4bf" stroke-width="1.5" filter="url(#shadow15)"/>
+    <text x="0" y="-65" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#0d9488">Молекулярная</text>
+
+    <!-- H₂O molecules -->
+    <g transform="translate(-25, -20)">
+      <circle cx="0" cy="0" r="10" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+      <text x="0" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0d9488">O</text>
+      <circle cx="-12" cy="10" r="6" fill="#ccfbf1" stroke="#0d9488" stroke-width="1"/>
+      <text x="-12" y="13" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#0d9488">H</text>
+      <circle cx="12" cy="10" r="6" fill="#ccfbf1" stroke="#0d9488" stroke-width="1"/>
+      <text x="12" y="13" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#0d9488">H</text>
+    </g>
+    <g transform="translate(35, 20)">
+      <circle cx="0" cy="0" r="10" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+      <text x="0" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0d9488">O</text>
+      <circle cx="-12" cy="10" r="6" fill="#ccfbf1" stroke="#0d9488" stroke-width="1"/>
+      <text x="-12" y="13" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#0d9488">H</text>
+      <circle cx="12" cy="10" r="6" fill="#ccfbf1" stroke="#0d9488" stroke-width="1"/>
+      <text x="12" y="13" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#0d9488">H</text>
+    </g>
+
+    <!-- Dashed intermolecular bonds -->
+    <line x1="-5" y1="5" x2="20" y2="10" stroke="#2dd4bf" stroke-width="1" stroke-dasharray="3,2"/>
+    <line x1="-15" y1="-8" x2="-30" y2="-30" stroke="#2dd4bf" stroke-width="1" stroke-dasharray="3,2"/>
+    <line x1="50" y1="10" x2="60" y2="30" stroke="#2dd4bf" stroke-width="1" stroke-dasharray="3,2"/>
+
+    <text x="0" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6">H₂O, CO₂, I₂</text>
+    <text x="0" y="63" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#14b8a6">Низкая t° плав.</text>
+    <text x="0" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#14b8a6">Хрупкие, летучие</text>
+    <text x="0" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2dd4bf">--- межмолек. связи</text>
+  </g>
+
+  <!-- 2. Atomic lattice -->
+  <g transform="translate(510, 160)">
+    <rect x="-80" y="-85" width="160" height="185" rx="10" fill="white" fill-opacity="0.7" stroke="#2dd4bf" stroke-width="1.5" filter="url(#shadow15)"/>
+    <text x="0" y="-65" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#0d9488">Атомная</text>
+
+    <!-- Diamond-like tetrahedral structure -->
+    <circle cx="0" cy="-10" r="8" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+    <text x="0" y="-7" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#0d9488">C</text>
+    <circle cx="-30" cy="15" r="8" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+    <text x="-30" y="18" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#0d9488">C</text>
+    <circle cx="30" cy="15" r="8" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+    <text x="30" y="18" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#0d9488">C</text>
+    <circle cx="0" cy="35" r="8" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+    <text x="0" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#0d9488">C</text>
+
+    <!-- Strong covalent bonds -->
+    <line x1="-6" y1="-4" x2="-24" y2="10" stroke="#0d9488" stroke-width="2.5"/>
+    <line x1="6" y1="-4" x2="24" y2="10" stroke="#0d9488" stroke-width="2.5"/>
+    <line x1="-24" y1="20" x2="-6" y2="30" stroke="#0d9488" stroke-width="2.5"/>
+    <line x1="24" y1="20" x2="6" y2="30" stroke="#0d9488" stroke-width="2.5"/>
+    <line x1="-22" y1="12" x2="22" y2="12" stroke="#0d9488" stroke-width="2.5"/>
+
+    <text x="0" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6">Алмаз, Si, Ge</text>
+    <text x="0" y="71" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#14b8a6">Очень высокая t° плав.</text>
+    <text x="0" y="84" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#14b8a6">Твёрдые, прочные</text>
+    <text x="0" y="97" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2dd4bf">— ковалентные связи</text>
+  </g>
+
+  <!-- 3. Ionic lattice -->
+  <g transform="translate(400, 400)">
+    <rect x="-80" y="-85" width="160" height="185" rx="10" fill="white" fill-opacity="0.7" stroke="#2dd4bf" stroke-width="1.5" filter="url(#shadow15)"/>
+    <text x="0" y="-65" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#0d9488">Ионная</text>
+
+    <!-- NaCl-like grid -->
+    <circle cx="-25" cy="-25" r="9" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+    <text x="-25" y="-22" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#dc2626">Na⁺</text>
+    <circle cx="15" cy="-25" r="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.2"/>
+    <text x="15" y="-22" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#2563eb">Cl⁻</text>
+    <circle cx="-25" cy="10" r="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.2"/>
+    <text x="-25" y="13" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#2563eb">Cl⁻</text>
+    <circle cx="15" cy="10" r="9" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+    <text x="15" y="13" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#dc2626">Na⁺</text>
+
+    <!-- Electrostatic bonds -->
+    <line x1="-16" y1="-25" x2="5" y2="-25" stroke="#0d9488" stroke-width="1.5" stroke-dasharray="2,2"/>
+    <line x1="-25" y1="-16" x2="-25" y2="0" stroke="#0d9488" stroke-width="1.5" stroke-dasharray="2,2"/>
+    <line x1="15" y1="-16" x2="15" y2="0" stroke="#0d9488" stroke-width="1.5" stroke-dasharray="2,2"/>
+    <line x1="-16" y1="10" x2="5" y2="10" stroke="#0d9488" stroke-width="1.5" stroke-dasharray="2,2"/>
+
+    <text x="0" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6">NaCl, KBr, CaO</text>
+    <text x="0" y="51" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#14b8a6">Высокая t° плав.</text>
+    <text x="0" y="64" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#14b8a6">Хрупкие, растворимы</text>
+    <text x="0" y="77" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2dd4bf">--- электростат. связи</text>
+  </g>
+
+  <!-- 4. Metallic lattice -->
+  <g transform="translate(620, 400)">
+    <rect x="-80" y="-85" width="160" height="185" rx="10" fill="white" fill-opacity="0.7" stroke="#2dd4bf" stroke-width="1.5" filter="url(#shadow15)"/>
+    <text x="0" y="-65" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#0d9488">Металлическая</text>
+
+    <!-- Metal ion grid -->
+    <circle cx="-20" cy="-25" r="10" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+    <text x="-20" y="-22" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#0d9488">Fe²⁺</text>
+    <circle cx="25" cy="-25" r="10" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+    <text x="25" y="-22" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#0d9488">Fe²⁺</text>
+    <circle cx="-20" cy="10" r="10" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+    <text x="-20" y="13" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#0d9488">Fe²⁺</text>
+    <circle cx="25" cy="10" r="10" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+    <text x="25" y="13" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#0d9488">Fe²⁺</text>
+
+    <!-- Electron cloud -->
+    <ellipse cx="3" cy="-8" rx="50" ry="42" fill="#2dd4bf" fill-opacity="0.1" stroke="#2dd4bf" stroke-width="0.8" stroke-dasharray="3,2"/>
+
+    <!-- Free electrons -->
+    <circle cx="-5" cy="-12" r="2.5" fill="#0d9488" opacity="0.6"/>
+    <circle cx="10" cy="-5" r="2.5" fill="#0d9488" opacity="0.6"/>
+    <circle cx="-10" cy="0" r="2.5" fill="#0d9488" opacity="0.6"/>
+    <circle cx="5" cy="-20" r="2.5" fill="#0d9488" opacity="0.6"/>
+    <circle cx="15" cy="5" r="2.5" fill="#0d9488" opacity="0.6"/>
+    <circle cx="-8" cy="20" r="2.5" fill="#0d9488" opacity="0.6"/>
+
+    <text x="0" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6">Fe, Cu, Al, Au</text>
+    <text x="0" y="51" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#14b8a6">Разная t° плав.</text>
+    <text x="0" y="64" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#14b8a6">Пластичные, проводят</text>
+    <text x="0" y="77" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2dd4bf">· электронный газ</text>
+  </g>
+
+  <!-- Connection line: scale to lattices -->
+  <text x="220" y="120" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0d9488">Разность ЭО →</text>
+  <text x="220" y="133" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6">Тип связи → Тип решётки</text>
+</svg>
