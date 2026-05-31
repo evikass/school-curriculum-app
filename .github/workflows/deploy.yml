@@ -1,4 +1,10 @@
-name: Build and Deploy
+name: Build and Deploy (DISABLED)
+
+# ⚠️ This workflow is DISABLED until main branch has complete data.
+# The build from main produces incomplete output (missing lessons, images, etc.)
+# which overwrites the working gh-pages version.
+# To re-enable: remove the 'if: false' conditions below and rename the workflow.
+# Use deploy-pages.yml instead to deploy gh-pages content without rebuild.
 
 on:
   workflow_dispatch:
@@ -14,6 +20,7 @@ concurrency:
 
 jobs:
   build:
+    if: false  # DISABLED - prevents accidental deployment of incomplete build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source code
@@ -39,6 +46,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   deploy:
+    if: false  # DISABLED - prevents accidental deployment of incomplete build
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
