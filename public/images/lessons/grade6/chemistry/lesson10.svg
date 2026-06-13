@@ -1,65 +1,119 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FBE9E7"/><stop offset="100%" stop-color="#FFCCBC"/></linearGradient>
-</defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#BF360C" stroke-width="2.5"/>
-<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#DD2C00" text-anchor="middle">Химические реакции</text>
-<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Химия 6 класс — Урок 10</text>
-<line x1="30" y1="50" x2="470" y2="50" stroke="#BF360C" stroke-width="1" opacity="0.3"/>
-
-
-<!-- Before reaction -->
-<g transform="translate(100,165)">
-  <rect x="-55" y="-40" width="110" height="85" rx="5" fill="white" opacity="0.9" stroke="#BF360C" stroke-width="1.5"/>
-  <text x="0" y="-24" font-family="Arial,sans-serif" font-size="8" fill="#DD2C00" text-anchor="middle" font-weight="bold">До реакции</text>
-  <line x1="-45" y1="-18" x2="45" y2="-18" stroke="#BF360C" stroke-width="0.5"/>
-  <circle cx="-20" cy="5" r="12" fill="#2196F3" opacity="0.4" stroke="#1565C0" stroke-width="1"/>
-  <text x="-20" y="9" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle" font-weight="bold">Fe</text>
-  <rect x="5" y="-8" width="30" height="22" rx="3" fill="#F44336" opacity="0.3" stroke="#C62828" stroke-width="1"/>
-  <text x="20" y="8" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle" font-weight="bold">O₂</text>
-  <text x="0" y="38" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">Железо + Кислород</text>
-</g>
-
-<!-- Arrow -->
-<g transform="translate(220,165)">
-  <line x1="-15" y1="0" x2="25" y2="0" stroke="#BF360C" stroke-width="2.5"/>
-  <polygon points="25,-5 35,0 25,5" fill="#BF360C"/>
-  <text x="10" y="-12" font-family="Arial,sans-serif" font-size="6" fill="#DD2C00" text-anchor="middle">реакция</text>
-</g>
-
-<!-- After reaction -->
-<g transform="translate(350,165)">
-  <rect x="-55" y="-40" width="110" height="85" rx="5" fill="#FF5722" opacity="0.08" stroke="#BF360C" stroke-width="1.5"/>
-  <text x="0" y="-24" font-family="Arial,sans-serif" font-size="8" fill="#DD2C00" text-anchor="middle" font-weight="bold">После реакции</text>
-  <line x1="-45" y1="-18" x2="45" y2="-18" stroke="#BF360C" stroke-width="0.5"/>
-  <rect x="-25" y="-8" width="50" height="28" rx="4" fill="#A1887F" opacity="0.5" stroke="#5D4037" stroke-width="1.5"/>
-  <text x="0" y="10" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">Fe₂O₃</text>
-  <text x="0" y="38" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">Оксид железа(III)</text>
-</g>
-
-<!-- Signs panel -->
-<g transform="translate(460,150)">
-  <rect x="-30" y="-50" width="60" height="115" rx="4" fill="white" opacity="0.9" stroke="#BF360C" stroke-width="1"/>
-  <text x="0" y="-34" font-family="Arial,sans-serif" font-size="6" fill="#DD2C00" text-anchor="middle" font-weight="bold">Признаки</text>
-  <line x1="-20" y1="-28" x2="20" y2="-28" stroke="#BF360C" stroke-width="0.3"/>
-  <circle cx="-15" cy="-15" r="3" fill="#F44336" opacity="0.5"/>
-  <text x="-5" y="-12" font-family="Arial,sans-serif" font-size="5" fill="#333">Изменение</text>
-  <text x="-5" y="-5" font-family="Arial,sans-serif" font-size="5" fill="#333">цвета</text>
-  <circle cx="-15" cy="8" r="3" fill="#FF9800" opacity="0.5"/>
-  <text x="-5" y="11" font-family="Arial,sans-serif" font-size="5" fill="#333">Выделение</text>
-  <text x="-5" y="18" font-family="Arial,sans-serif" font-size="5" fill="#333">газа</text>
-  <circle cx="-15" cy="28" r="3" fill="#2196F3" opacity="0.5"/>
-  <text x="-5" y="31" font-family="Arial,sans-serif" font-size="5" fill="#333">Осадок</text>
-  <circle cx="-15" cy="45" r="3" fill="#4CAF50" opacity="0.5"/>
-  <text x="-5" y="48" font-family="Arial,sans-serif" font-size="5" fill="#333">Теплота</text>
-</g>
-
-<text x="30" y="270" font-family="Arial,sans-serif" font-size="6" fill="#333">• Признаки реакций: изменение цвета, выделение ...</text>
-<text x="30" y="284" font-family="Arial,sans-serif" font-size="6" fill="#333">• Закон сохранения массы: масса реагентов = мас...</text>
-<text x="30" y="298" font-family="Arial,sans-serif" font-size="6" fill="#333">• В уравнении число атомов каждого элемента сле...</text>
-
-
-<rect x="10" y="330" width="480" height="16" rx="4" fill="#BF360C" opacity="0.85"/>
-<text x="250" y="342" font-family="Arial,sans-serif" font-size="10" text-anchor="middle" fill="white" font-weight="bold">Химия 6 класс — Урок 10</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340">
+  <defs>
+    <linearGradient id="bg10" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e0f0e8"/>
+      <stop offset="100%" stop-color="#b0c8b8"/>
+    </linearGradient>
+    <radialGradient id="protonG" cx="0.3" cy="0.3" r="0.5">
+      <stop offset="0%" stop-color="#f08080"/>
+      <stop offset="100%" stop-color="#c04040"/>
+    </radialGradient>
+    <radialGradient id="neutronG" cx="0.3" cy="0.3" r="0.5">
+      <stop offset="0%" stop-color="#a0a0d0"/>
+      <stop offset="100%" stop-color="#6868a0"/>
+    </radialGradient>
+  </defs>
+  <rect width="480" height="340" fill="url(#bg10)" rx="12"/>
+  <rect x="8" y="8" width="464" height="324" fill="none" stroke="#5a8a6a" stroke-width="1.5" rx="8" stroke-dasharray="4,3"/>
+  <text x="240" y="32" text-anchor="middle" font-size="16" font-weight="bold" fill="#2a4a30" font-family="serif">Изотопы. Химические элементы</text>
+  <!-- Three isotopes of Hydrogen -->
+  <text x="240" y="55" text-anchor="middle" font-size="10" font-weight="bold" fill="#2a4a30">Изотопы водорода</text>
+  <!-- Protium -->
+  <rect x="30" y="65" width="130" height="90" rx="5" fill="#e8f0e8" stroke="#5a8a6a" stroke-width="1.5"/>
+  <text x="95" y="82" text-anchor="middle" font-size="9" font-weight="bold" fill="#2a5a30">Протий 1H</text>
+  <circle cx="95" cy="115" r="18" fill="#f0d0d0" stroke="#a06060" stroke-width="1.5"/>
+  <circle cx="95" cy="115" r="7" fill="url(#protonG)"/>
+  <text x="95" y="118" text-anchor="middle" font-size="5" fill="#fff" font-weight="bold">p+</text>
+  <circle cx="95" cy="90" r="4" fill="#60a0e0" stroke="#3060a0" stroke-width="1"/>
+  <text x="95" y="93" text-anchor="middle" font-size="4" fill="#fff" font-weight="bold">e-</text>
+  <text x="95" y="148" text-anchor="middle" font-size="7" fill="#4a7a4a">1p + 0n</text>
+  <!-- Deuterium -->
+  <rect x="175" y="65" width="130" height="90" rx="5" fill="#e8f0e8" stroke="#5a8a6a" stroke-width="1.5"/>
+  <text x="240" y="82" text-anchor="middle" font-size="9" font-weight="bold" fill="#2a5a30">Дейтерий 2H</text>
+  <circle cx="240" cy="115" r="18" fill="#f0d0d0" stroke="#a06060" stroke-width="1.5"/>
+  <circle cx="234" cy="112" r="7" fill="url(#protonG)"/>
+  <text x="234" y="115" text-anchor="middle" font-size="5" fill="#fff" font-weight="bold">p+</text>
+  <circle cx="248" cy="118" r="7" fill="url(#neutronG)"/>
+  <text x="248" y="121" text-anchor="middle" font-size="5" fill="#e0e0ff" font-weight="bold">n</text>
+  <circle cx="240" cy="90" r="4" fill="#60a0e0" stroke="#3060a0" stroke-width="1"/>
+  <text x="240" y="93" text-anchor="middle" font-size="4" fill="#fff" font-weight="bold">e-</text>
+  <text x="240" y="148" text-anchor="middle" font-size="7" fill="#4a7a4a">1p + 1n</text>
+  <!-- Tritium -->
+  <rect x="320" y="65" width="130" height="90" rx="5" fill="#e8f0e8" stroke="#5a8a6a" stroke-width="1.5"/>
+  <text x="385" y="82" text-anchor="middle" font-size="9" font-weight="bold" fill="#2a5a30">Тритий 3H</text>
+  <circle cx="385" cy="115" r="20" fill="#f0d0d0" stroke="#a06060" stroke-width="1.5"/>
+  <circle cx="378" cy="110" r="7" fill="url(#protonG)"/>
+  <text x="378" y="113" text-anchor="middle" font-size="5" fill="#fff" font-weight="bold">p+</text>
+  <circle cx="392" cy="110" r="7" fill="url(#neutronG)"/>
+  <text x="392" y="113" text-anchor="middle" font-size="5" fill="#e0e0ff" font-weight="bold">n</text>
+  <circle cx="385" cy="123" r="7" fill="url(#neutronG)"/>
+  <text x="385" y="126" text-anchor="middle" font-size="5" fill="#e0e0ff" font-weight="bold">n</text>
+  <circle cx="385" cy="88" r="4" fill="#60a0e0" stroke="#3060a0" stroke-width="1"/>
+  <text x="385" y="91" text-anchor="middle" font-size="4" fill="#fff" font-weight="bold">e-</text>
+  <text x="385" y="148" text-anchor="middle" font-size="7" fill="#4a7a4a">1p + 2n (радиоакт.)</text>
+  <!-- Isotopes of Carbon -->
+  <rect x="20" y="165" width="200" height="75" rx="5" fill="#f0e8d0" stroke="#a09060" stroke-width="1"/>
+  <text x="120" y="182" text-anchor="middle" font-size="9" font-weight="bold" fill="#5a4a20">Изотопы углерода</text>
+  <!-- C-12 -->
+  <circle cx="55" cy="215" r="12" fill="#f0d0d0" stroke="#a06060" stroke-width="1"/>
+  <text x="55" y="219" text-anchor="middle" font-size="7" font-weight="bold" fill="#703030">12C</text>
+  <text x="55" y="234" text-anchor="middle" font-size="6" fill="#7a6a4a">6p+6n</text>
+  <!-- C-13 -->
+  <circle cx="120" cy="215" r="13" fill="#f0d0d0" stroke="#a06060" stroke-width="1"/>
+  <text x="120" y="219" text-anchor="middle" font-size="7" font-weight="bold" fill="#703030">13C</text>
+  <text x="120" y="234" text-anchor="middle" font-size="6" fill="#7a6a4a">6p+7n</text>
+  <!-- C-14 -->
+  <circle cx="185" cy="215" r="14" fill="#f0d0d0" stroke="#d04040" stroke-width="1.5"/>
+  <text x="185" y="219" text-anchor="middle" font-size="7" font-weight="bold" fill="#a03030">14C</text>
+  <text x="185" y="234" text-anchor="middle" font-size="6" fill="#a03030">6p+8n радиоакт.</text>
+  <!-- Element abundance -->
+  <rect x="240" y="165" width="220" height="75" rx="5" fill="#e0e8f0" stroke="#5080a0" stroke-width="1"/>
+  <text x="350" y="182" text-anchor="middle" font-size="9" font-weight="bold" fill="#2a3860">Распространённость</text>
+  <!-- Earth crust bar chart -->
+  <rect x="260" y="190" width="55" height="10" rx="2" fill="#e0a0a0" opacity="0.7"/>
+  <text x="260" y="198" font-size="6" fill="#5a3860">O 46%</text>
+  <rect x="260" y="203" width="34" height="10" rx="2" fill="#a0a0c0" opacity="0.7"/>
+  <text x="260" y="211" font-size="6" fill="#5a3860">Si 28%</text>
+  <rect x="260" y="216" width="10" height="10" rx="2" fill="#c0c0c0" opacity="0.7"/>
+  <text x="260" y="224" font-size="6" fill="#5a3860">Al 8%</text>
+  <!-- Universe -->
+  <text x="380" y="198" font-size="6" fill="#5a3860">Вселенная:</text>
+  <text x="380" y="210" font-size="7" fill="#3a3860" font-weight="bold">H 75%</text>
+  <text x="380" y="222" font-size="7" fill="#3a3860" font-weight="bold">He 23%</text>
+  <!-- Radioactive symbol -->
+  <circle cx="440" cy="210" r="15" fill="#f0e0e0" stroke="#c04040" stroke-width="1.5"/>
+  <path d="M440,198 L443,206 L440,204 L437,206 Z" fill="#d04040"/>
+  <path d="M428,218 L436,214 L434,218 Z" fill="#d04040"/>
+  <path d="M452,218 L444,214 L446,218 Z" fill="#d04040"/>
+  <circle cx="440" cy="210" r="3" fill="#d04040"/>
+  <!-- Element symbols section -->
+  <rect x="20" y="250" width="440" height="75" rx="5" fill="#e8f0e8" stroke="#5a8a6a" stroke-width="1"/>
+  <text x="240" y="268" text-anchor="middle" font-size="9" font-weight="bold" fill="#2a4a30">Знаки химических элементов</text>
+  <!-- Element cards -->
+  <rect x="40" y="278" width="45" height="40" rx="3" fill="#f0e8d0" stroke="#a09060" stroke-width="1"/>
+  <text x="62" y="295" text-anchor="middle" font-size="16" font-weight="bold" fill="#5a4a20">H</text>
+  <text x="62" y="310" text-anchor="middle" font-size="6" fill="#7a6a4a">Водород</text>
+  <rect x="100" y="278" width="45" height="40" rx="3" fill="#e0e8f0" stroke="#5080a0" stroke-width="1"/>
+  <text x="122" y="295" text-anchor="middle" font-size="16" font-weight="bold" fill="#2a3860">O</text>
+  <text x="122" y="310" text-anchor="middle" font-size="6" fill="#507090">Кислород</text>
+  <rect x="160" y="278" width="45" height="40" rx="3" fill="#e8e0e0" stroke="#a06060" stroke-width="1"/>
+  <text x="182" y="295" text-anchor="middle" font-size="16" font-weight="bold" fill="#6a3030">Fe</text>
+  <text x="182" y="310" text-anchor="middle" font-size="6" fill="#7a4a4a">Железо</text>
+  <rect x="220" y="278" width="45" height="40" rx="3" fill="#e0e8e0" stroke="#508050" stroke-width="1"/>
+  <text x="242" y="295" text-anchor="middle" font-size="16" font-weight="bold" fill="#2a5a20">C</text>
+  <text x="242" y="310" text-anchor="middle" font-size="6" fill="#4a7a3a">Углерод</text>
+  <rect x="280" y="278" width="45" height="40" rx="3" fill="#f0e8e0" stroke="#a08050" stroke-width="1"/>
+  <text x="302" y="295" text-anchor="middle" font-size="16" font-weight="bold" fill="#5a3a10">Na</text>
+  <text x="302" y="310" text-anchor="middle" font-size="6" fill="#7a5a20">Натрий</text>
+  <rect x="340" y="278" width="45" height="40" rx="3" fill="#e8e0f0" stroke="#8060a0" stroke-width="1"/>
+  <text x="362" y="295" text-anchor="middle" font-size="16" font-weight="bold" fill="#4a2a6a">N</text>
+  <text x="362" y="310" text-anchor="middle" font-size="6" fill="#6a4a8a">Азот</text>
+  <rect x="400" y="278" width="45" height="40" rx="3" fill="#e0f0e8" stroke="#408060" stroke-width="1"/>
+  <text x="422" y="295" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a5a3a">Cl</text>
+  <text x="422" y="310" text-anchor="middle" font-size="6" fill="#3a7a5a">Хлор</text>
+  <!-- Star dust note -->
+  <text x="240" y="335" text-anchor="middle" font-size="8" fill="#5a4a2a" font-style="italic">Мы все состоим из звёздной пыли</text>
+  <!-- Small star (decorative, not the forbidden type) -->
+  <circle cx="460" cy="45" r="2" fill="#b0a0c0" opacity="0.5"/>
+  <circle cx="20" cy="45" r="2" fill="#b0a0c0" opacity="0.5"/>
 </svg>

@@ -1,67 +1,107 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E0F7FA"/><stop offset="100%" stop-color="#B2EBF2"/></linearGradient>
-</defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#00838F" stroke-width="2.5"/>
-<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#006064" text-anchor="middle">Лабораторная посуда</text>
-<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Химия 6 класс — Урок 9</text>
-<line x1="30" y1="50" x2="470" y2="50" stroke="#00838F" stroke-width="1" opacity="0.3"/>
-
-
-<!-- Beaker -->
-<g transform="translate(70,175)">
-  <path d="M-20,-40 L-25,25 Q-25,35 -15,35 L15,35 Q25,35 25,25 L20,-40 Z" fill="#00BCD4" opacity="0.12" stroke="#00838F" stroke-width="1.8"/>
-  <path d="M-22,10 Q-23,30 -13,33 L13,33 Q23,30 22,10 Z" fill="#00BCD4" opacity="0.2"/>
-  <!-- Spout -->
-  <path d="M-20,-40 L-28,-38" fill="none" stroke="#00838F" stroke-width="1.5"/>
-  <!-- Graduation marks -->
-  <line x1="-18" y1="0" x2="-10" y2="0" stroke="#00838F" stroke-width="0.5" opacity="0.4"/>
-  <line x1="-20" y1="15" x2="-10" y2="15" stroke="#00838F" stroke-width="0.5" opacity="0.4"/>
-  <text x="0" y="48" font-family="Arial,sans-serif" font-size="7" fill="#006064" text-anchor="middle" font-weight="bold">Стакан</text>
-</g>
-
-<!-- Test tube -->
-<g transform="translate(160,170)">
-  <rect x="-8" y="-40" width="16" height="55" rx="8" fill="#00BCD4" opacity="0.12" stroke="#00838F" stroke-width="1.5"/>
-  <path d="M-6,0 L-6,10 Q-6,20 0,20 Q6,20 6,10 L6,0 Z" fill="#F44336" opacity="0.25"/>
-  <rect x="-10" y="-42" width="20" height="5" rx="1" fill="#00838F" opacity="0.3"/>
-  <text x="0" y="38" font-family="Arial,sans-serif" font-size="7" fill="#006064" text-anchor="middle" font-weight="bold">Пробирка</text>
-</g>
-
-<!-- Erlenmeyer flask -->
-<g transform="translate(250,175)">
-  <path d="M-8,-40 L-8,-15 L-30,30 Q-32,38 -22,40 L22,40 Q32,38 30,30 L8,-15 L8,-40 Z" fill="#00BCD4" opacity="0.12" stroke="#00838F" stroke-width="1.8"/>
-  <path d="M-25,25 Q-27,35 -17,37 L17,37 Q27,35 25,25 Z" fill="#4CAF50" opacity="0.2"/>
-  <rect x="-10" y="-42" width="20" height="5" rx="1" fill="#00838F" opacity="0.3"/>
-  <text x="0" y="55" font-family="Arial,sans-serif" font-size="7" fill="#006064" text-anchor="middle" font-weight="bold">Колба</text>
-</g>
-
-<!-- Safety sign -->
-<g transform="translate(370,170)">
-  <polygon points="0,-35 35,25 -35,25" fill="none" stroke="#F44336" stroke-width="3"/>
-  <text x="0" y="15" font-family="Arial,sans-serif" font-size="25" font-weight="bold" fill="#F44336" text-anchor="middle">!</text>
-  <text x="0" y="48" font-family="Arial,sans-serif" font-size="7" fill="#F44336" text-anchor="middle" font-weight="bold">Осторожно!</text>
-</g>
-
-<!-- Safety rules panel -->
-<g transform="translate(450,170)">
-  <rect x="-35" y="-40" width="70" height="80" rx="4" fill="white" opacity="0.9" stroke="#F44336" stroke-width="1"/>
-  <text x="0" y="-24" font-family="Arial,sans-serif" font-size="6" fill="#F44336" text-anchor="middle" font-weight="bold">Техника</text>
-  <text x="0" y="-16" font-family="Arial,sans-serif" font-size="6" fill="#F44336" text-anchor="middle" font-weight="bold">безопасности</text>
-  <line x1="-25" y1="-10" x2="25" y2="-10" stroke="#F44336" stroke-width="0.3"/>
-  <text x="-20" y="0" font-family="Arial,sans-serif" font-size="5" fill="#333">• Очки и перчатки</text>
-  <text x="-20" y="10" font-family="Arial,sans-serif" font-size="5" fill="#333">• Не нюхать!</text>
-  <text x="-20" y="20" font-family="Arial,sans-serif" font-size="5" fill="#333">• Не пробовать!</text>
-  <text x="-20" y="30" font-family="Arial,sans-serif" font-size="5" fill="#333">• Осторожно с</text>
-  <text x="-20" y="38" font-family="Arial,sans-serif" font-size="5" fill="#333">  нагреванием</text>
-</g>
-
-<text x="30" y="270" font-family="Arial,sans-serif" font-size="6" fill="#333">• Основная посуда: пробирки, колбы, стаканы, во...</text>
-<text x="30" y="284" font-family="Arial,sans-serif" font-size="6" fill="#333">• Спиртовка — основной нагревательный прибор</text>
-<text x="30" y="298" font-family="Arial,sans-serif" font-size="6" fill="#333">• Главное правило: не пробовать вещества на вку...</text>
-
-
-<rect x="10" y="330" width="480" height="16" rx="4" fill="#00838F" opacity="0.85"/>
-<text x="250" y="342" font-family="Arial,sans-serif" font-size="10" text-anchor="middle" fill="white" font-weight="bold">Химия 6 класс — Урок 9</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340">
+  <defs>
+    <linearGradient id="bg9" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8e0f8"/>
+      <stop offset="100%" stop-color="#c0b0d8"/>
+    </linearGradient>
+    <radialGradient id="nucleus" cx="0.4" cy="0.4" r="0.6">
+      <stop offset="0%" stop-color="#f0a0a0"/>
+      <stop offset="100%" stop-color="#c06060"/>
+    </radialGradient>
+  </defs>
+  <rect width="480" height="340" fill="url(#bg9)" rx="12"/>
+  <rect x="8" y="8" width="464" height="324" fill="none" stroke="#8868a8" stroke-width="1.5" rx="8" stroke-dasharray="4,3"/>
+  <text x="240" y="32" text-anchor="middle" font-size="16" font-weight="bold" fill="#3a2860" font-family="serif">Строение атома</text>
+  <!-- Large atom model -->
+  <ellipse cx="150" cy="160" rx="95" ry="35" fill="none" stroke="#7060a0" stroke-width="1.2" transform="rotate(-25,150,160)" opacity="0.5"/>
+  <ellipse cx="150" cy="160" rx="95" ry="35" fill="none" stroke="#7060a0" stroke-width="1.2" transform="rotate(35,150,160)" opacity="0.5"/>
+  <ellipse cx="150" cy="160" rx="95" ry="35" fill="none" stroke="#7060a0" stroke-width="1.2" transform="rotate(95,150,160)" opacity="0.5"/>
+  <!-- Nucleus -->
+  <circle cx="150" cy="160" r="22" fill="url(#nucleus)" stroke="#904040" stroke-width="2"/>
+  <!-- Protons -->
+  <circle cx="143" cy="153" r="6" fill="#e06060" stroke="#a03030" stroke-width="1"/>
+  <text x="143" y="156" text-anchor="middle" font-size="6" fill="#fff" font-weight="bold">p+</text>
+  <circle cx="157" cy="153" r="6" fill="#e06060" stroke="#a03030" stroke-width="1"/>
+  <text x="157" y="156" text-anchor="middle" font-size="6" fill="#fff" font-weight="bold">p+</text>
+  <circle cx="150" cy="166" r="6" fill="#e06060" stroke="#a03030" stroke-width="1"/>
+  <text x="150" y="169" text-anchor="middle" font-size="6" fill="#fff" font-weight="bold">p+</text>
+  <!-- Neutrons -->
+  <circle cx="140" cy="166" r="6" fill="#8080b0" stroke="#5050a0" stroke-width="1"/>
+  <text x="140" y="169" text-anchor="middle" font-size="6" fill="#e0e0ff" font-weight="bold">n</text>
+  <circle cx="160" cy="166" r="6" fill="#8080b0" stroke="#5050a0" stroke-width="1"/>
+  <text x="160" y="169" text-anchor="middle" font-size="6" fill="#e0e0ff" font-weight="bold">n</text>
+  <circle cx="150" cy="153" r="6" fill="#8080b0" stroke="#5050a0" stroke-width="1"/>
+  <text x="150" y="156" text-anchor="middle" font-size="6" fill="#e0e0ff" font-weight="bold">n</text>
+  <!-- Electrons -->
+  <circle cx="78" cy="138" r="5" fill="#60a0e0" stroke="#3060a0" stroke-width="1.5"/>
+  <text x="78" y="141" text-anchor="middle" font-size="5" fill="#fff" font-weight="bold">e-</text>
+  <circle cx="222" cy="140" r="5" fill="#60a0e0" stroke="#3060a0" stroke-width="1.5"/>
+  <text x="222" y="143" text-anchor="middle" font-size="5" fill="#fff" font-weight="bold">e-</text>
+  <circle cx="150" cy="68" r="5" fill="#60a0e0" stroke="#3060a0" stroke-width="1.5"/>
+  <text x="150" y="71" text-anchor="middle" font-size="5" fill="#fff" font-weight="bold">e-</text>
+  <!-- Rutherford experiment -->
+  <rect x="310" y="50" width="155" height="130" rx="6" fill="#f0e8f0" stroke="#8868a8" stroke-width="1"/>
+  <text x="387" y="68" text-anchor="middle" font-size="8" font-weight="bold" fill="#3a2860">Опыт Резерфорда</text>
+  <!-- Alpha source -->
+  <rect x="320" y="90" width="20" height="20" rx="3" fill="#e0a040" stroke="#a07020" stroke-width="1"/>
+  <text x="330" y="104" text-anchor="middle" font-size="6" fill="#5a3a10" font-weight="bold">α</text>
+  <!-- Gold foil -->
+  <rect x="370" y="80" width="5" height="50" rx="1" fill="#e0c840" stroke="#a09020" stroke-width="1" opacity="0.7"/>
+  <text x="372" y="140" text-anchor="middle" font-size="6" fill="#7a6a20">Au</text>
+  <!-- Alpha particles paths -->
+  <line x1="340" y1="100" x2="368" y2="100" stroke="#e0a040" stroke-width="1.5"/>
+  <line x1="373" y1="100" x2="450" y2="100" stroke="#e0a040" stroke-width="1.5" opacity="0.6"/>
+  <line x1="340" y1="95" x2="368" y2="95" stroke="#e0a040" stroke-width="1.5"/>
+  <line x1="373" y1="95" x2="445" y2="85" stroke="#e0a040" stroke-width="1.5" opacity="0.4"/>
+  <line x1="340" y1="105" x2="368" y2="105" stroke="#e0a040" stroke-width="1.5"/>
+  <line x1="373" y1="105" x2="440" y2="115" stroke="#e0a040" stroke-width="1.5" opacity="0.4"/>
+  <!-- Deflected particle -->
+  <path d="M373,100 Q385,95 390,85" stroke="#d04040" stroke-width="2" fill="none"/>
+  <text x="395" y="82" font-size="6" fill="#d04040">← отклон</text>
+  <!-- Bounced back -->
+  <path d="M373,100 Q365,98 358,105" stroke="#d04040" stroke-width="2" fill="none"/>
+  <text x="350" y="115" font-size="5" fill="#d04040">← назад</text>
+  <text x="387" y="160" text-anchor="middle" font-size="7" fill="#5a3860">Ядро — маленькое,</text>
+  <text x="387" y="170" text-anchor="middle" font-size="7" fill="#5a3860">но массивное!</text>
+  <!-- Table of particles -->
+  <rect x="310" y="190" width="155" height="90" rx="4" fill="#f0e8f0" stroke="#8868a8" stroke-width="1"/>
+  <text x="387" y="208" text-anchor="middle" font-size="8" font-weight="bold" fill="#3a2860">Частицы атома</text>
+  <line x1="315" y1="215" x2="460" y2="215" stroke="#8868a8" stroke-width="0.5"/>
+  <text x="340" y="228" font-size="7" fill="#3a2860" font-weight="bold">Протон</text>
+  <text x="400" y="228" font-size="7" fill="#5a3860">заряд +1, мас. 1</text>
+  <text x="340" y="243" font-size="7" fill="#3a2860" font-weight="bold">Нейтрон</text>
+  <text x="400" y="243" font-size="7" fill="#5a3860">заряд 0, мас. 1</text>
+  <text x="340" y="258" font-size="7" fill="#3a2860" font-weight="bold">Электрон</text>
+  <text x="400" y="258" font-size="7" fill="#5a3860">заряд -1, мас. 1/1836</text>
+  <text x="387" y="275" text-anchor="middle" font-size="6" fill="#7a5890" font-style="italic">p+ = e- → атом нейтрален</text>
+  <!-- Energy levels diagram (Carbon) -->
+  <rect x="20" y="230" width="130" height="95" rx="4" fill="#e8e0f0" stroke="#8868a8" stroke-width="1"/>
+  <text x="85" y="248" text-anchor="middle" font-size="8" font-weight="bold" fill="#3a2860">Углерод (C): 2, 4</text>
+  <!-- Level 1 -->
+  <ellipse cx="85" cy="265" rx="40" ry="10" fill="none" stroke="#7060a0" stroke-width="1.2"/>
+  <circle cx="75" cy="265" r="4" fill="#60a0e0" stroke="#3060a0" stroke-width="1"/>
+  <circle cx="95" cy="265" r="4" fill="#60a0e0" stroke="#3060a0" stroke-width="1"/>
+  <text x="85" y="280" text-anchor="middle" font-size="6" fill="#7060a0">1-й уровень (2e)</text>
+  <!-- Level 2 -->
+  <ellipse cx="85" cy="298" rx="55" ry="12" fill="none" stroke="#7060a0" stroke-width="1.2"/>
+  <circle cx="50" cy="298" r="4" fill="#60a0e0" stroke="#3060a0" stroke-width="1"/>
+  <circle cx="70" cy="298" r="4" fill="#60a0e0" stroke="#3060a0" stroke-width="1"/>
+  <circle cx="90" cy="298" r="4" fill="#60a0e0" stroke="#3060a0" stroke-width="1"/>
+  <circle cx="110" cy="298" r="4" fill="#60a0e0" stroke="#3060a0" stroke-width="1"/>
+  <text x="85" y="318" text-anchor="middle" font-size="6" fill="#7060a0">2-й уровень (4e)</text>
+  <!-- Nucleus dot -->
+  <circle cx="85" cy="265" r="3" fill="url(#nucleus)"/>
+  <!-- Thomson model (historical) -->
+  <rect x="170" y="230" width="120" height="95" rx="4" fill="#e8e0f0" stroke="#8868a8" stroke-width="1"/>
+  <text x="230" y="248" text-anchor="middle" font-size="7" font-weight="bold" fill="#3a2860">Модель Томсона</text>
+  <circle cx="230" cy="285" r="28" fill="#e0d0f0" stroke="#8868a8" stroke-width="1" opacity="0.5"/>
+  <circle cx="220" cy="275" r="3" fill="#60a0e0" stroke="#3060a0" stroke-width="0.5"/>
+  <circle cx="240" cy="270" r="3" fill="#60a0e0" stroke="#3060a0" stroke-width="0.5"/>
+  <circle cx="225" cy="295" r="3" fill="#60a0e0" stroke="#3060a0" stroke-width="0.5"/>
+  <circle cx="245" cy="290" r="3" fill="#60a0e0" stroke="#3060a0" stroke-width="0.5"/>
+  <circle cx="215" cy="288" r="3" fill="#60a0e0" stroke="#3060a0" stroke-width="0.5"/>
+  <text x="230" y="320" text-anchor="middle" font-size="6" fill="#7a5890">«Пудинг с изюмом» ❌</text>
+  <!-- Decorative -->
+  <circle cx="20" cy="45" r="2" fill="#b0a0c0" opacity="0.5"/>
+  <circle cx="460" cy="45" r="2" fill="#b0a0c0" opacity="0.5"/>
 </svg>
