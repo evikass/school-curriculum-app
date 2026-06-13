@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ECEFF1"/><stop offset="100%" stop-color="#CFD8DC"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#455A64" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#263238" text-anchor="middle">Периодическая таблица</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Химия 6 класс — Урок 7</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#455A64" stroke-width="1" opacity="0.3"/>
+
+
+<!-- Mini periodic table -->
+<g transform="translate(30,60)">
+  <rect x="0" y="0" width="300" height="195" rx="4" fill="white" opacity="0.85" stroke="#455A64" stroke-width="1.5"/>
+  <text x="150" y="18" font-family="Arial,sans-serif" font-size="10" fill="#263238" text-anchor="middle" font-weight="bold">Периодическая система Д.И. Менделеева</text>
+  <!-- Period labels -->
+  <text x="20" y="38" font-family="Arial,sans-serif" font-size="6" fill="#455A64" text-anchor="middle">I</text>
+  <text x="20" y="58" font-family="Arial,sans-serif" font-size="6" fill="#455A64" text-anchor="middle">II</text>
+  <text x="20" y="78" font-family="Arial,sans-serif" font-size="6" fill="#455A64" text-anchor="middle">III</text>
+  <!-- Element cells - Period 1 -->
+  <rect x="30" y="28" width="25" height="18" rx="2" fill="#4CAF50" opacity="0.4" stroke="#455A64" stroke-width="0.5"/>
+  <text x="42" y="40" font-family="Arial,sans-serif" font-size="8" fill="#263238" text-anchor="middle" font-weight="bold">H</text>
+  <rect x="255" y="28" width="25" height="18" rx="2" fill="#9C27B0" opacity="0.3" stroke="#455A64" stroke-width="0.5"/>
+  <text x="267" y="40" font-family="Arial,sans-serif" font-size="8" fill="#263238" text-anchor="middle" font-weight="bold">He</text>
+  <!-- Period 2 -->
+  <rect x="30" y="48" width="25" height="18" rx="2" fill="#2196F3" opacity="0.3" stroke="#455A64" stroke-width="0.5"/>
+  <text x="42" y="60" font-family="Arial,sans-serif" font-size="7" fill="#263238" text-anchor="middle" font-weight="bold">Li</text>
+  <rect x="55" y="48" width="25" height="18" rx="2" fill="#FF9800" opacity="0.3" stroke="#455A64" stroke-width="0.5"/>
+  <text x="67" y="60" font-family="Arial,sans-serif" font-size="7" fill="#263238" text-anchor="middle" font-weight="bold">Be</text>
+  <rect x="130" y="48" width="25" height="18" rx="2" fill="#4CAF50" opacity="0.3" stroke="#455A64" stroke-width="0.5"/>
+  <text x="142" y="60" font-family="Arial,sans-serif" font-size="7" fill="#263238" text-anchor="middle" font-weight="bold">B</text>
+  <rect x="155" y="48" width="25" height="18" rx="2" fill="#4CAF50" opacity="0.35" stroke="#455A64" stroke-width="0.5"/>
+  <text x="167" y="60" font-family="Arial,sans-serif" font-size="7" fill="#263238" text-anchor="middle" font-weight="bold">C</text>
+  <rect x="180" y="48" width="25" height="18" rx="2" fill="#4CAF50" opacity="0.35" stroke="#455A64" stroke-width="0.5"/>
+  <text x="192" y="60" font-family="Arial,sans-serif" font-size="7" fill="#263238" text-anchor="middle" font-weight="bold">N</text>
+  <rect x="205" y="48" width="25" height="18" rx="2" fill="#4CAF50" opacity="0.4" stroke="#455A64" stroke-width="0.5"/>
+  <text x="217" y="60" font-family="Arial,sans-serif" font-size="7" fill="#263238" text-anchor="middle" font-weight="bold">O</text>
+  <rect x="230" y="48" width="25" height="18" rx="2" fill="#F44336" opacity="0.3" stroke="#455A64" stroke-width="0.5"/>
+  <text x="242" y="60" font-family="Arial,sans-serif" font-size="7" fill="#263238" text-anchor="middle" font-weight="bold">F</text>
+  <rect x="255" y="48" width="25" height="18" rx="2" fill="#9C27B0" opacity="0.3" stroke="#455A64" stroke-width="0.5"/>
+  <text x="267" y="60" font-family="Arial,sans-serif" font-size="7" fill="#263238" text-anchor="middle" font-weight="bold">Ne</text>
+  <!-- Period 3 row -->
+  <rect x="30" y="68" width="25" height="18" rx="2" fill="#2196F3" opacity="0.3" stroke="#455A64" stroke-width="0.5"/>
+  <text x="42" y="80" font-family="Arial,sans-serif" font-size="7" fill="#263238" text-anchor="middle" font-weight="bold">Na</text>
+  <rect x="55" y="68" width="25" height="18" rx="2" fill="#FF9800" opacity="0.3" stroke="#455A64" stroke-width="0.5"/>
+  <text x="67" y="80" font-family="Arial,sans-serif" font-size="7" fill="#263238" text-anchor="middle" font-weight="bold">Mg</text>
+  <rect x="130" y="68" width="25" height="18" rx="2" fill="#FF9800" opacity="0.3" stroke="#455A64" stroke-width="0.5"/>
+  <text x="142" y="80" font-family="Arial,sans-serif" font-size="7" fill="#263238" text-anchor="middle" font-weight="bold">Al</text>
+  <rect x="155" y="68" width="25" height="18" rx="2" fill="#4CAF50" opacity="0.35" stroke="#455A64" stroke-width="0.5"/>
+  <text x="167" y="80" font-family="Arial,sans-serif" font-size="7" fill="#263238" text-anchor="middle" font-weight="bold">Si</text>
+  <!-- Group numbers -->
+  <text x="42" y="24" font-family="Arial,sans-serif" font-size="5" fill="#999" text-anchor="middle">I</text>
+  <text x="67" y="24" font-family="Arial,sans-serif" font-size="5" fill="#999" text-anchor="middle">II</text>
+  <text x="142" y="24" font-family="Arial,sans-serif" font-size="5" fill="#999" text-anchor="middle">III</text>
+  <text x="167" y="24" font-family="Arial,sans-serif" font-size="5" fill="#999" text-anchor="middle">IV</text>
+  <!-- Legend -->
+  <rect x="30" y="95" width="15" height="10" rx="1" fill="#2196F3" opacity="0.3"/>
+  <text x="50" y="103" font-family="Arial,sans-serif" font-size="5" fill="#333">Металлы</text>
+  <rect x="90" y="95" width="15" height="10" rx="1" fill="#4CAF50" opacity="0.35"/>
+  <text x="110" y="103" font-family="Arial,sans-serif" font-size="5" fill="#333">Неметаллы</text>
+  <rect x="155" y="95" width="15" height="10" rx="1" fill="#9C27B0" opacity="0.3"/>
+  <text x="175" y="103" font-family="Arial,sans-serif" font-size="5" fill="#333">Благородные газы</text>
+</g>
+
+<!-- Mendeleev portrait -->
+<g transform="translate(400,140)">
+  <rect x="-55" y="-50" width="110" height="135" rx="5" fill="white" opacity="0.9" stroke="#455A64" stroke-width="1.2"/>
+  <text x="0" y="-34" font-family="Arial,sans-serif" font-size="7" fill="#263238" text-anchor="middle" font-weight="bold">Д.И. Менделеев</text>
+  <line x1="-45" y1="-28" x2="45" y2="-28" stroke="#455A64" stroke-width="0.5"/>
+  <text x="0" y="-14" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">1869 г.</text>
+  <text x="0" y="-2" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Открыл периодический</text>
+  <text x="0" y="8" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">закон химических</text>
+  <text x="0" y="18" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">элементов</text>
+  <line x1="-45" y1="28" x2="45" y2="28" stroke="#455A64" stroke-width="0.3"/>
+  <text x="0" y="42" font-family="Arial,sans-serif" font-size="5" fill="#263238" text-anchor="middle">7 периодов</text>
+  <text x="0" y="52" font-family="Arial,sans-serif" font-size="5" fill="#263238" text-anchor="middle">18 групп</text>
+  <text x="0" y="62" font-family="Arial,sans-serif" font-size="5" fill="#263238" text-anchor="middle">118 элементов</text>
+  <text x="0" y="76" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Свойства повторяются</text>
+  <text x="0" y="84" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">периодически</text>
+</g>
+
+<text x="30" y="270" font-family="Arial,sans-serif" font-size="6" fill="#333">• Периоды — горизонтальные ряды, группы — верти...</text>
+<text x="30" y="284" font-family="Arial,sans-serif" font-size="6" fill="#333">• Металлы — слева, неметаллы — справа в таблице</text>
+<text x="30" y="298" font-family="Arial,sans-serif" font-size="6" fill="#333">• В периоде металлические свойства ослабевают, ...</text>
+
+
+<rect x="10" y="330" width="480" height="16" rx="4" fill="#546E7A" opacity="0.85"/>
+<text x="250" y="342" font-family="Arial,sans-serif" font-size="10" text-anchor="middle" fill="white" font-weight="bold">Химия 6 класс — Урок 7</text>
+</svg>

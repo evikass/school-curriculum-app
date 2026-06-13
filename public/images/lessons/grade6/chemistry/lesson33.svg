@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E0F2F1"/><stop offset="100%" stop-color="#B2DFDB"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#00695C" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#004D40" text-anchor="middle">Массовая доля растворённого вещества</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Химия 6 класс — Урок 33</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#00695C" stroke-width="1" opacity="0.3"/>
+
+<!-- Main formula box -->
+<rect x="80" y="60" width="340" height="70" rx="10" fill="white" fill-opacity="0.6" stroke="#00695C" stroke-width="2"/>
+<text x="250" y="82" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#004D40" text-anchor="middle">Формула массовой доли</text>
+<text x="250" y="115" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#004D40" text-anchor="middle">ω = m(в-ва) / m(р-ра) × 100%</text>
+
+<!-- Visual breakdown: pie chart style -->
+<circle cx="130" cy="200" r="55" fill="#B2DFDB" stroke="#00695C" stroke-width="1.5"/>
+<!-- Solute slice (20%) -->
+<path d="M 130 200 L 130 145 A 55 55 0 0 1 175 157 Z" fill="#00897B" stroke="#004D40" stroke-width="1"/>
+<text x="145" y="180" font-family="Arial,sans-serif" font-size="8" fill="white" font-weight="bold">ω</text>
+<text x="120" y="230" font-family="Arial,sans-serif" font-size="8" fill="#004D40" text-anchor="middle">m(р-ра)</text>
+
+<!-- Labels for pie -->
+<line x1="155" y1="170" x2="200" y2="155" stroke="#004D40" stroke-width="0.8"/>
+<text x="205" y="155" font-family="Arial,sans-serif" font-size="8" fill="#004D40">m(в-ва)</text>
+<line x1="110" y1="220" x2="70" y2="240" stroke="#004D40" stroke-width="0.8"/>
+<text x="45" y="248" font-family="Arial,sans-serif" font-size="8" fill="#004D40">m(H₂O)</text>
+
+<!-- Example calculation -->
+<rect x="220" y="145" width="260" height="100" rx="8" fill="white" fill-opacity="0.5" stroke="#00695C" stroke-width="1"/>
+<text x="350" y="165" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#004D40" text-anchor="middle">Пример задачи</text>
+
+<text x="235" y="183" font-family="Arial,sans-serif" font-size="9" fill="#004D40">Дано: m(соли) = 20 г, m(воды) = 80 г</text>
+<text x="235" y="198" font-family="Arial,sans-serif" font-size="9" fill="#004D40">Найти: ω(соли) = ?</text>
+<line x1="235" y1="203" x2="465" y2="203" stroke="#00695C" stroke-width="0.5" opacity="0.3"/>
+<text x="235" y="218" font-family="Arial,sans-serif" font-size="9" fill="#004D40">Решение: m(р-ра) = 20 + 80 = 100 г</text>
+<text x="235" y="235" font-family="Arial,sans-serif" font-size="9" fill="#004D40" font-weight="bold">ω = 20/100 × 100% = 20%</text>
+
+<!-- Bar chart showing composition -->
+<rect x="30" y="265" width="440" height="70" rx="8" fill="white" fill-opacity="0.5" stroke="#00695C" stroke-width="1"/>
+<text x="250" y="282" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#004D40" text-anchor="middle">Состав раствора (пример 20%)</text>
+
+<!-- Full bar -->
+<rect x="50" y="295" width="400" height="25" rx="4" fill="#B2DFDB" stroke="#00695C" stroke-width="1"/>
+<!-- Solute portion (20%) -->
+<rect x="51" y="296" width="79" height="23" rx="3" fill="#00897B"/>
+<text x="90" y="312" font-family="Arial,sans-serif" font-size="8" fill="white" font-weight="bold" text-anchor="middle">В-во 20%</text>
+<text x="280" y="312" font-family="Arial,sans-serif" font-size="8" fill="#004D40" text-anchor="middle">Вода (растворитель) 80%</text>
+
+<!-- Key relationships -->
+<text x="130" y="270" font-family="Arial,sans-serif" font-size="8" fill="#004D40" text-anchor="middle">m(р-ра) = m(в-ва) + m(р-ля)</text>
+</svg>

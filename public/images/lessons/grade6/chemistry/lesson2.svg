@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF3E0"/><stop offset="100%" stop-color="#FFE0B2"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#E65100" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#BF360C" text-anchor="middle">Вещества и тела</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Химия 6 класс — Урок 2</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#E65100" stroke-width="1" opacity="0.3"/>
+
+
+<!-- Physical body (cube) -->
+<g transform="translate(90,150)">
+  <rect x="-25" y="-25" width="50" height="50" fill="#FF9800" opacity="0.3" stroke="#E65100" stroke-width="1.5"/>
+  <path d="M25,-25 L40,-40 L40,10 L25,25" fill="#FF9800" opacity="0.2" stroke="#E65100" stroke-width="1"/>
+  <path d="M-25,-25 L-10,-40 L40,-40 L25,-25" fill="#FF9800" opacity="0.15" stroke="#E65100" stroke-width="1"/>
+  <text x="7" y="5" font-family="Arial,sans-serif" font-size="9" fill="#BF360C" text-anchor="middle" font-weight="bold">Тело</text>
+  <text x="7" y="45" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">Кубик льда</text>
+</g>
+
+<!-- Pure substance vial -->
+<g transform="translate(210,155)">
+  <path d="M-15,-45 L-15,-15 L-25,25 Q-25,35 -15,35 L15,35 Q25,35 25,25 L15,-15 L15,-45 Z" fill="#FF9800" opacity="0.15" stroke="#E65100" stroke-width="1.8"/>
+  <path d="M-20,10 Q-22,30 -12,33 L12,33 Q22,30 20,10 Z" fill="#FF9800" opacity="0.35"/>
+  <rect x="-12" y="-50" width="24" height="8" rx="2" fill="#E65100" opacity="0.5"/>
+  <text x="0" y="50" font-family="Arial,sans-serif" font-size="7" fill="#BF360C" text-anchor="middle" font-weight="bold">Чистое вещество</text>
+  <text x="0" y="60" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">Дистиллированная вода</text>
+</g>
+
+<!-- Mixture jar -->
+<g transform="translate(340,150)">
+  <rect x="-30" y="-40" width="60" height="75" rx="5" fill="#FF9800" opacity="0.1" stroke="#E65100" stroke-width="1.8"/>
+  <!-- Sand particles -->
+  <circle cx="-10" cy="5" r="5" fill="#F9A825" opacity="0.7" stroke="#E65100" stroke-width="0.8"/>
+  <circle cx="10" cy="10" r="4" fill="#F9A825" opacity="0.6" stroke="#E65100" stroke-width="0.8"/>
+  <circle cx="0" cy="-5" r="3" fill="#F9A825" opacity="0.5" stroke="#E65100" stroke-width="0.8"/>
+  <!-- Water -->
+  <rect x="-28" y="15" width="56" height="18" rx="2" fill="#FF9800" opacity="0.25"/>
+  <rect x="-22" y="-45" width="44" height="6" rx="2" fill="#E65100" opacity="0.4"/>
+  <text x="0" y="50" font-family="Arial,sans-serif" font-size="7" fill="#BF360C" text-anchor="middle" font-weight="bold">Смесь</text>
+  <text x="0" y="60" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">Песок + вода</text>
+</g>
+
+<!-- Arrow between vial and jar -->
+<g transform="translate(275,155)">
+  <path d="M-5,0 L15,0" fill="none" stroke="#E65100" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <text x="5" y="-8" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">≠</text>
+</g>
+
+<text x="30" y="270" font-family="Arial,sans-serif" font-size="6" fill="#333">• Физическое тело — предмет, вещество — материа...</text>
+<text x="30" y="284" font-family="Arial,sans-serif" font-size="6" fill="#333">• Чистое вещество состоит из одинаковых частиц,...</text>
+<text x="30" y="298" font-family="Arial,sans-serif" font-size="6" fill="#333">• Смеси бывают однородные и неоднородные</text>
+
+
+<rect x="10" y="330" width="480" height="16" rx="4" fill="#E65100" opacity="0.85"/>
+<text x="250" y="342" font-family="Arial,sans-serif" font-size="10" text-anchor="middle" fill="white" font-weight="bold">Химия 6 класс — Урок 2</text>
+</svg>
