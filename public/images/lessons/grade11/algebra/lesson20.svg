@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" font-family="Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E3F2FD"/>
+      <stop offset="100%" style="stop-color:#BBDEFB"/>
+    </linearGradient>
+    <filter id="shadow1" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg1)" rx="8"/>
+  <rect x="0" y="0" width="500" height="42" fill="#0D47A1" rx="8"/>
+  <rect x="0" y="20" width="500" height="22" fill="#0D47A1"/>
+  <text x="250" y="28" text-anchor="middle" fill="white" font-size="13" font-weight="bold">Системы уравнений и неравенств</text>
+
+  <!-- Left card: Two curves intersecting -->
+  <rect x="15" y="52" width="225" height="148" rx="10" fill="white" filter="url(#shadow1)"/>
+  <text x="127" y="70" text-anchor="middle" fill="#0D47A1" font-size="10" font-weight="bold">Графический метод</text>
+
+  <!-- Axes -->
+  <line x1="35" y1="175" x2="225" y2="175" stroke="#455A64" stroke-width="1"/>
+  <line x1="35" y1="78" x2="35" y2="180" stroke="#455A64" stroke-width="1"/>
+  <text x="25" y="78" fill="#455A64" font-size="7">y</text>
+  <text x="225" y="184" fill="#455A64" font-size="7">x</text>
+
+  <!-- First curve: line x+y=5 -->
+  <line x1="45" y1="85" x2="215" y2="170" stroke="#1565C0" stroke-width="2"/>
+  <text x="180" y="145" fill="#1565C0" font-size="7" font-weight="bold">x+y=5</text>
+
+  <!-- Second curve: xy=6 (hyperbola-like) -->
+  <path d="M 50,168 C 65,158 85,138 100,120 C 115,105 125,98 140,94" fill="none" stroke="#E53935" stroke-width="2"/>
+  <path d="M 155,100 C 170,112 185,130 200,160" fill="none" stroke="#E53935" stroke-width="2"/>
+  <text x="90" y="115" fill="#E53935" font-size="7" font-weight="bold">xy=6</text>
+
+  <!-- Intersection points -->
+  <circle cx="90" cy="123" r="4" fill="#2E7D32" stroke="white" stroke-width="1"/>
+  <circle cx="150" cy="97" r="4" fill="#2E7D32" stroke="white" stroke-width="1"/>
+
+  <!-- Labels -->
+  <text x="95" y="118" fill="#2E7D32" font-size="7" font-weight="bold">(2;3)</text>
+  <text x="155" y="94" fill="#2E7D32" font-size="7" font-weight="bold">(3;2)</text>
+
+  <!-- Pill: solutions -->
+  <rect x="25" y="182" width="205" height="14" rx="6" fill="#E8F5E9"/>
+  <text x="127" y="193" text-anchor="middle" fill="#2E7D32" font-size="7" font-weight="bold">Решения = точки пересечения графиков</text>
+
+  <!-- Right card: Substitution method flow -->
+  <rect x="250" y="52" width="235" height="148" rx="10" fill="white" filter="url(#shadow1)"/>
+  <text x="367" y="70" text-anchor="middle" fill="#0D47A1" font-size="10" font-weight="bold">Метод подстановки</text>
+
+  <!-- Step boxes with arrows -->
+  <rect x="260" y="78" width="210" height="18" rx="4" fill="#E3F2FD"/>
+  <text x="365" y="91" text-anchor="middle" fill="#0D47A1" font-size="7" font-weight="bold">1. Выразить y через x: y = 5 - x</text>
+
+  <line x1="365" y1="97" x2="365" y2="102" stroke="#0D47A1" stroke-width="1"/>
+
+  <rect x="260" y="102" width="210" height="18" rx="4" fill="#BBDEFB"/>
+  <text x="365" y="115" text-anchor="middle" fill="#0D47A1" font-size="7" font-weight="bold">2. Подставить: x(5-x) = 6</text>
+
+  <line x1="365" y1="121" x2="365" y2="126" stroke="#0D47A1" stroke-width="1"/>
+
+  <rect x="260" y="126" width="210" height="18" rx="4" fill="#90CAFB"/>
+  <text x="365" y="139" text-anchor="middle" fill="#0D47A1" font-size="7" font-weight="bold">3. Решить: x^2 - 5x + 6 = 0</text>
+
+  <line x1="365" y1="145" x2="365" y2="150" stroke="#0D47A1" stroke-width="1"/>
+
+  <rect x="260" y="150" width="210" height="18" rx="4" fill="#64B5F6"/>
+  <text x="365" y="163" text-anchor="middle" fill="#0D47A1" font-size="7" font-weight="bold">4. x = 2 или x = 3, y = 3 или y = 2</text>
+
+  <line x1="365" y1="169" x2="365" y2="174" stroke="#2E7D32" stroke-width="1"/>
+
+  <rect x="260" y="174" width="210" height="18" rx="4" fill="#E8F5E9"/>
+  <text x="365" y="187" text-anchor="middle" fill="#2E7D32" font-size="7" font-weight="bold">Ответ: (2;3), (3;2)</text>
+
+  <!-- Bottom-left: Symmetric systems -->
+  <rect x="15" y="208" width="225" height="108" rx="10" fill="white" filter="url(#shadow1)"/>
+  <text x="127" y="226" text-anchor="middle" fill="#0D47A1" font-size="10" font-weight="bold">Симметрические системы</text>
+
+  <!-- Replacement -->
+  <rect x="25" y="233" width="100" height="22" rx="5" fill="#E3F2FD"/>
+  <text x="75" y="244" text-anchor="middle" fill="#0D47A1" font-size="8" font-weight="bold">u = x+y</text>
+  <text x="75" y="253" text-anchor="middle" fill="#0D47A1" font-size="7">сумма</text>
+
+  <rect x="130" y="233" width="100" height="22" rx="5" fill="#BBDEFB"/>
+  <text x="180" y="244" text-anchor="middle" fill="#0D47A1" font-size="8" font-weight="bold">v = xy</text>
+  <text x="180" y="253" text-anchor="middle" fill="#0D47A1" font-size="7">произведение</text>
+
+  <!-- Vieta -->
+  <rect x="25" y="260" width="205" height="16" rx="5" fill="#F3E5F5"/>
+  <text x="127" y="272" text-anchor="middle" fill="#6A1B9A" font-size="7" font-weight="bold">Теорема Виета: t^2 - ut + v = 0</text>
+
+  <rect x="25" y="281" width="205" height="16" rx="5" fill="#E8F5E9"/>
+  <text x="127" y="293" text-anchor="middle" fill="#2E7D32" font-size="7" font-weight="bold">x,y - корни уравнения: (a;b) и (b;a)</text>
+
+  <!-- Bottom-right: Inequalities with 2 variables -->
+  <rect x="250" y="208" width="235" height="108" rx="10" fill="white" filter="url(#shadow1)"/>
+  <text x="367" y="226" text-anchor="middle" fill="#0D47A1" font-size="10" font-weight="bold">Неравенства с двумя переменными</text>
+
+  <!-- Mini coordinate plane -->
+  <line x1="295" y1="290" x2="440" y2="290" stroke="#455A64" stroke-width="1"/>
+  <line x1="295" y1="235" x2="295" y2="295" stroke="#455A64" stroke-width="1"/>
+
+  <!-- Circle: x^2 + y^2 <= 9 -->
+  <circle cx="340" cy="265" r="22" fill="#1565C0" opacity="0.2" stroke="#1565C0" stroke-width="1.5"/>
+  <text x="340" y="268" text-anchor="middle" fill="#0D47A1" font-size="6" font-weight="bold">x^2+y^2</text>
+  <text x="340" y="275" text-anchor="middle" fill="#0D47A1" font-size="6">&lt;= R^2</text>
+
+  <!-- Parabola region hint -->
+  <path d="M 380,290 C 385,275 395,255 410,240 C 415,237 418,236 420,235" fill="none" stroke="#E53935" stroke-width="1.5"/>
+  <text x="415" y="250" fill="#E53935" font-size="6">y &gt; x^2</text>
+
+  <!-- Method pills -->
+  <rect x="260" y="297" width="100" height="12" rx="5" fill="#E3F2FD"/>
+  <text x="310" y="306" text-anchor="middle" fill="#0D47A1" font-size="6" font-weight="bold">Граница f=0</text>
+  <rect x="365" y="297" width="110" height="12" rx="5" fill="#E8F5E9"/>
+  <text x="420" y="306" text-anchor="middle" fill="#2E7D32" font-size="6" font-weight="bold">Пробная точка</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="330" width="500" height="20" fill="#0D47A1"/>
+  <text x="250" y="344" text-anchor="middle" fill="#90CAF9" font-size="10" font-weight="bold">Подстановка + сложение + графики = решение любой системы</text>
+</svg>

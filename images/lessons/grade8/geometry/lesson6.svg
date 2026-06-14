@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFCDD2"/>
+      <stop offset="100%" style="stop-color:#EF9A9A"/>
+    </linearGradient>
+    <linearGradient id="pg6" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E53935"/>
+      <stop offset="100%" style="stop-color:#C62828"/>
+    </linearGradient>
+    <linearGradient id="tri6" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF8A80"/>
+      <stop offset="100%" style="stop-color:#E53935"/>
+    </linearGradient>
+    <filter id="sh6" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" rx="12" fill="url(#bg6)"/>
+  <rect x="3" y="3" width="494" height="344" rx="10" fill="none" stroke="#C62828" stroke-width="2.5"/>
+  <!-- Title -->
+  <text x="250" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#C62828">Площадь параллелограмма и треугольника</text>
+  <text x="250" y="43" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#777">Геометрия 8 класс — Урок 6</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+
+  <!-- Parallelogram panel -->
+  <rect x="15" y="58" width="228" height="170" rx="8" fill="white" opacity="0.9" stroke="#E53935" stroke-width="1.2" filter="url(#sh6)"/>
+  <text x="129" y="76" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#C62828">▱ Параллелограмм</text>
+  <!-- Parallelogram shape -->
+  <polygon points="55,150 135,100 195,100 115,150" fill="url(#pg6)" opacity="0.35" stroke="#C62828" stroke-width="2"/>
+  <!-- Base label -->
+  <line x1="55" y1="150" x2="115" y2="150" stroke="#C62828" stroke-width="2"/>
+  <text x="85" y="165" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#C62828">a</text>
+  <!-- Height dashed -->
+  <line x1="135" y1="100" x2="135" y2="150" stroke="#C62828" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="130" y1="150" x2="140" y2="150" stroke="#C62828" stroke-width="1"/>
+  <text x="146" y="130" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#C62828">h</text>
+  <!-- Right angle mark -->
+  <rect x="135" y="146" width="4" height="4" fill="none" stroke="#C62828" stroke-width="0.8"/>
+  <!-- Formula box -->
+  <rect x="50" y="175" width="150" height="28" rx="5" fill="white" stroke="#E53935" stroke-width="1.2"/>
+  <text x="125" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#C62828">S = a · h</text>
+  <!-- Area icon -->
+  <rect x="42" y="177" width="5" height="24" rx="2" fill="#E53935" opacity="0.7"/>
+
+  <!-- Triangle panel -->
+  <rect x="257" y="58" width="228" height="170" rx="8" fill="white" opacity="0.9" stroke="#E53935" stroke-width="1.2" filter="url(#sh6)"/>
+  <text x="371" y="76" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#C62828">△ Треугольник</text>
+  <!-- Triangle shape -->
+  <polygon points="340,150 410,100 410,150" fill="url(#tri6)" opacity="0.35" stroke="#C62828" stroke-width="2"/>
+  <!-- Base label -->
+  <line x1="340" y1="150" x2="410" y2="150" stroke="#C62828" stroke-width="2"/>
+  <text x="375" y="165" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#C62828">a</text>
+  <!-- Height dashed -->
+  <line x1="410" y1="100" x2="410" y2="150" stroke="#C62828" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="422" y="130" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#C62828">h</text>
+  <!-- Right angle mark -->
+  <rect x="410" y="146" width="4" height="4" fill="none" stroke="#C62828" stroke-width="0.8"/>
+  <!-- Formula box -->
+  <rect x="292" y="175" width="150" height="28" rx="5" fill="white" stroke="#E53935" stroke-width="1.2"/>
+  <text x="367" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#C62828">S = ½ · a · h</text>
+  <!-- Area icon -->
+  <rect x="284" y="177" width="5" height="24" rx="2" fill="#E53935" opacity="0.7"/>
+
+  <!-- Visual proof panel -->
+  <rect x="15" y="238" width="470" height="58" rx="8" fill="white" opacity="0.9" stroke="#E53935" stroke-width="1.2" filter="url(#sh6)"/>
+  <text x="250" y="255" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#C62828">📐 Доказательство: треугольник = ½ параллелограмма</text>
+  <!-- Mini parallelogram -->
+  <polygon points="50,282 90,268 130,268 90,282" fill="url(#pg6)" opacity="0.3" stroke="#C62828" stroke-width="1.5"/>
+  <polygon points="50,282 90,268 90,282" fill="url(#tri6)" opacity="0.4" stroke="#C62828" stroke-width="1.2"/>
+  <text x="90" y="293" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#C62828">S△ = ½ S▱</text>
+  <!-- Arrow -->
+  <text x="160" y="280" font-family="Arial,sans-serif" font-size="16" fill="#C62828">→</text>
+  <!-- Cut visualization -->
+  <polygon points="185,282 225,268 225,282" fill="url(#tri6)" opacity="0.5" stroke="#C62828" stroke-width="1.5"/>
+  <polygon points="225,268 265,268 225,282" fill="#FFCDD2" stroke="#C62828" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <text x="225" y="293" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#C62828">равные △</text>
+  <!-- Arrow -->
+  <text x="300" y="280" font-family="Arial,sans-serif" font-size="16" fill="#C62828">→</text>
+  <!-- Result -->
+  <polygon points="320,282 360,268 400,268 360,282" fill="url(#pg6)" opacity="0.2" stroke="#C62828" stroke-width="1.5"/>
+  <text x="360" y="293" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#C62828">2△ = ▱</text>
+  <!-- Equality sign -->
+  <text x="430" y="280" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#C62828">⟹</text>
+  <text x="458" y="279" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#C62828">S△</text>
+  <text x="458" y="292" font-family="Arial,sans-serif" font-size="9" fill="#C62828">= ½S▱</text>
+
+  <!-- Bottom bar -->
+  <rect x="10" y="306" width="480" height="34" rx="8" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="327" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="white">Ключ: S▱ = a·h    |    S△ = ½·a·h    |    S△ = ½ S▱</text>
+</svg>

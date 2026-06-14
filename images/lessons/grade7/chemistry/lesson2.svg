@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<defs>
+  <style>
+    text { font-family: 'Segoe UI', Arial, Helvetica, sans-serif; }
+  </style>
+  <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+    <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.08"/>
+  </filter>
+</defs>
+<rect width="800" height="500" rx="12" fill="#f8fafc"/>
+<rect width="800" height="6" fill="#10b981" rx="3"/>
+<text x="400" y="45" text-anchor="middle" font-size="26" font-weight="700" fill="#1e3a5f">Вещества и их свойства</text>
+<rect x="30" y="65" width="360" height="410" rx="14" fill="#fff" stroke="#3b82f6" stroke-width="1.5" filter="url(#shadow)"/>
+<rect x="30" y="65" width="360" height="40" rx="14" fill="#3b82f6"/>
+<rect x="30" y="91" width="360" height="14" fill="#3b82f6"/>
+<text x="210" y="92" text-anchor="middle" font-size="17" font-weight="600" fill="#fff">Физические свойства</text>
+<text x="55" y="140" font-size="15" fill="#334155">🎨  Цвет</text>
+<text x="55" y="185" font-size="15" fill="#334155">⚖️  Плотность</text>
+<text x="55" y="230" font-size="15" fill="#334155">🌡️  Температура плавления</text>
+<text x="55" y="275" font-size="15" fill="#334155">⚡  Электропроводность</text>
+<text x="55" y="320" font-size="15" fill="#334155">💡  Теплопроводность</text>
+<text x="55" y="365" font-size="15" fill="#334155">💧  Растворимость</text>
+<text x="55" y="420" font-size="14" fill="#3b82f6" font-weight="600">Пример:</text>
+<text x="55" y="445" font-size="14" fill="#475569">H<tspan font-size="10" baseline-shift="sub">2</tspan>O — t<tspan font-size="10" baseline-shift="sub">кип</tspan> = 100°C</text>
+<text x="55" y="465" font-size="14" fill="#475569">Fe — ρ = 7.87 г/см³</text>
+<rect x="410" y="65" width="360" height="410" rx="14" fill="#fff" stroke="#8b5cf6" stroke-width="1.5" filter="url(#shadow)"/>
+<rect x="410" y="65" width="360" height="40" rx="14" fill="#8b5cf6"/>
+<rect x="410" y="91" width="360" height="14" fill="#8b5cf6"/>
+<text x="590" y="92" text-anchor="middle" font-size="17" font-weight="600" fill="#fff">Химические свойства</text>
+<text x="435" y="140" font-size="15" fill="#334155">🔥  Горение</text>
+<text x="435" y="185" font-size="15" fill="#334155">🧪  Окисление</text>
+<text x="435" y="230" font-size="15" fill="#334155">⚗️  Реакции с кислотами</text>
+<text x="435" y="275" font-size="15" fill="#334155">💧  Реакции с водой</text>
+<text x="435" y="320" font-size="15" fill="#334155">🔬  Разложение</text>
+<text x="435" y="365" font-size="15" fill="#334155">🔄  Замещение</text>
+<text x="435" y="420" font-size="14" fill="#8b5cf6" font-weight="600">Пример:</text>
+<text x="435" y="445" font-size="14" fill="#475569">Fe + O<tspan font-size="10" baseline-shift="sub">2</tspan> → Fe<tspan font-size="10" baseline-shift="sub">2</tspan>O<tspan font-size="10" baseline-shift="sub">3</tspan></text>
+<text x="435" y="465" font-size="14" fill="#475569">Zn + HCl → ZnCl<tspan font-size="10" baseline-shift="sub">2</tspan> + H<tspan font-size="10" baseline-shift="sub">2</tspan>↑</text>
+</svg>

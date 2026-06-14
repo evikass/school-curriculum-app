@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="50%" stop-color="#BBDEFB"/>
+      <stop offset="100%" stop-color="#1E88E5" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="500" height="350" fill="url(#bg)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#0D47A1" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#0D47A1" text-anchor="middle" font-family="Arial">Числовая окружность</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="Arial">Алгебра 10 класс — Урок 4</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#1565C0" stroke-opacity="0.3"/>
+  <rect x="12" y="58" width="476" height="42" rx="6" fill="white" fill-opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+  <text x="250" y="75" font-size="9" fill="#0D47A1" text-anchor="middle" font-weight="bold" font-family="Arial">Единичная окружность: R = 1, O(0; 0), x² + y² = 1</text>
+  <text x="250" y="93" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">Число t → точка M(t) — поворот на t радиан от A(1; 0)</text>
+  <rect x="12" y="108" width="230" height="100" rx="6" fill="white" fill-opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+  <text x="127" y="124" font-size="9" font-weight="bold" fill="#0D47A1" text-anchor="middle" font-family="Arial">Радианная мера</text>
+  <text x="127" y="142" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">π рад = 180°</text>
+  <text x="127" y="157" font-size="8" fill="#1565C0" text-anchor="middle" font-family="Arial">30° = π/6 | 45° = π/4</text>
+  <text x="127" y="172" font-size="8" fill="#1565C0" text-anchor="middle" font-family="Arial">60° = π/3 | 90° = π/2</text>
+  <text x="127" y="187" font-size="7" fill="#555" text-anchor="middle" font-family="Arial">рад = град × π/180</text>
+  <text x="127" y="199" font-size="7" fill="#555" text-anchor="middle" font-family="Arial">град = рад × 180/π</text>
+  <rect x="252" y="108" width="236" height="100" rx="6" fill="white" fill-opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+  <text x="370" y="124" font-size="9" font-weight="bold" fill="#0D47A1" text-anchor="middle" font-family="Arial">Четверти</text>
+  <text x="370" y="142" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">I: 0 &lt; t &lt; π/2</text>
+  <text x="370" y="157" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">II: π/2 &lt; t &lt; π</text>
+  <text x="370" y="172" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">III: π &lt; t &lt; 3π/2</text>
+  <text x="370" y="187" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">IV: 3π/2 &lt; t &lt; 2π</text>
+  <text x="370" y="199" font-size="7" fill="#0D47A1" font-weight="bold" text-anchor="middle" font-family="Arial">Период: t + 2πk → та же точка</text>
+  <rect x="12" y="216" width="476" height="48" rx="6" fill="white" fill-opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+  <text x="250" y="233" font-size="9" font-weight="bold" fill="#0D47A1" text-anchor="middle" font-family="Arial">Ключевые точки</text>
+  <text x="250" y="251" font-size="8" fill="#1565C0" text-anchor="middle" font-family="Arial">0→(1;0) | π/2→(0;1) | π→(−1;0) | 3π/2→(0;−1) | 2π→(1;0)</text>
+  <rect x="12" y="272" width="476" height="40" rx="6" fill="white" fill-opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+  <text x="250" y="289" font-size="9" font-weight="bold" fill="#0D47A1" text-anchor="middle" font-family="Arial">Симметрия</text>
+  <text x="250" y="305" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">t и −t — ось X | t и π−t — ось Y | t и t+π — начало O</text>
+  <rect x="12" y="320" width="476" height="22" rx="4" fill="#1565C0" fill-opacity="0.85"/>
+  <text x="250" y="335" font-size="9" fill="white" text-anchor="middle" font-weight="bold" font-family="Arial">Числовая окружность — Мордкович А.Г., 10 класс</text>
+</svg>

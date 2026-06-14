@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg13" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#115e59"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.7"/>
+    </linearGradient>
+    <filter id="sh13">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg13)" rx="10"/>
+  <rect x="8" y="8" width="384" height="284" fill="none" stroke="white" stroke-width="0.5" opacity="0.15" rx="8"/>
+  <rect x="0" y="0" width="400" height="32" fill="#0d9488" rx="10"/>
+  <rect x="0" y="16" width="400" height="16" fill="#0d9488"/>
+  <text x="200" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="white" font-weight="bold">Алюминий</text>
+
+  <!-- Main info card -->
+  <rect x="12" y="40" width="120" height="78" rx="6" fill="#0f766e" filter="url(#sh13)"/>
+  <text x="72" y="56" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#99f6e4">Z=13</text>
+  <text x="72" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="white" font-weight="bold">Al</text>
+  <text x="72" y="93" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ccfbf1">3s&#178;3p&#185;</text>
+  <text x="72" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#5eead4">3 период, IIIA</text>
+  <text x="72" y="115" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#fbbf24">АМФОТЕРЕН</text>
+
+  <!-- Amphoteric properties -->
+  <rect x="140" y="40" width="248" height="78" rx="6" fill="#134e4a" filter="url(#sh13)"/>
+  <text x="150" y="56" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Амфотерность Al:</text>
+  <text x="150" y="70" font-family="Arial,sans-serif" font-size="8" fill="#93c5fd">С кислотами:</text>
+  <text x="215" y="70" font-family="Arial,sans-serif" font-size="8" fill="white">2Al + 6HCl = 2AlCl&#8323; + 3H&#8322;</text>
+  <text x="150" y="84" font-family="Arial,sans-serif" font-size="8" fill="#fca5a5">Со щёлочами:</text>
+  <text x="225" y="84" font-family="Arial,sans-serif" font-size="8" fill="white">2Al + 2NaOH + 6H&#8322;O =</text>
+  <text x="245" y="96" font-family="Arial,sans-serif" font-size="8" fill="white">2Na[Al(OH)&#8324;] + 3H&#8322;</text>
+  <text x="150" y="112" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">Al&#8322;O&#8323; + 6HCl = 2AlCl&#8323; + 3H&#8322;O</text>
+  <text x="150" y="115" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4" dx="0" dy="0"> </text>
+
+  <!-- Al2O3 amphoteric -->
+  <rect x="12" y="126" width="185" height="48" rx="6" fill="#0f766e" filter="url(#sh13)"/>
+  <text x="22" y="142" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Al&#8322;O&#8323; - амфотерный оксид:</text>
+  <text x="22" y="155" font-family="Arial,sans-serif" font-size="7" fill="#93c5fd">+ кисл.: Al&#8322;O&#8323; + 6HCl = 2AlCl&#8323;+3H&#8322;O</text>
+  <text x="22" y="166" font-family="Arial,sans-serif" font-size="7" fill="#fca5a5">+ щёл.: Al&#8322;O&#8323; + 2NaOH = 2NaAlO&#8322;+H&#8322;O</text>
+
+  <!-- Al(OH)3 -->
+  <rect x="203" y="126" width="185" height="48" rx="6" fill="#0f766e" filter="url(#sh13)"/>
+  <text x="213" y="142" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Al(OH)&#8323; - амфотерный:</text>
+  <text x="213" y="155" font-family="Arial,sans-serif" font-size="7" fill="#93c5fd">+ к.: Al(OH)&#8323;+3HCl=AlCl&#8323;+3H&#8322;O</text>
+  <text x="213" y="166" font-family="Arial,sans-serif" font-size="7" fill="#fca5a5">+ щ.: Al(OH)&#8323;+NaOH=Na[Al(OH)&#8324;]</text>
+
+  <!-- Alloys -->
+  <rect x="12" y="182" width="185" height="58" rx="6" fill="#134e4a" filter="url(#sh13)"/>
+  <text x="22" y="198" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Сплавы алюминия:</text>
+  <text x="22" y="212" font-family="Arial,sans-serif" font-size="8" fill="white">Дюралюминий: Al + Cu + Mg</text>
+  <text x="22" y="225" font-family="Arial,sans-serif" font-size="8" fill="white">Силумин: Al + Si</text>
+  <text x="22" y="235" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">Лёгкие, прочные - авиация</text>
+
+  <!-- Uses and anodizing -->
+  <rect x="203" y="182" width="185" height="58" rx="6" fill="#0f766e" filter="url(#sh13)"/>
+  <text x="213" y="198" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Применение:</text>
+  <text x="213" y="212" font-family="Arial,sans-serif" font-size="8" fill="white">Фольга, провода, посуда</text>
+  <text x="213" y="225" font-family="Arial,sans-serif" font-size="8" fill="white">Анодирование - защита</text>
+  <text x="213" y="238" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">Самый распростр. Me в природе</text>
+
+  <!-- Key facts -->
+  <rect x="12" y="248" width="376" height="40" rx="6" fill="#134e4a" filter="url(#sh13)"/>
+  <text x="22" y="264" font-family="Arial,sans-serif" font-size="8" fill="#f0fdfa">Al - самый распространённый металл в земной коре (8.8%)</text>
+  <text x="22" y="278" font-family="Arial,sans-serif" font-size="8" fill="#99f6e4">Пассивируется конц. HNO&#8323; и H&#8322;SO&#8324; (образуется защитная плёнка Al&#8322;O&#8323;)</text>
+
+  <text x="370" y="295" text-anchor="end" font-family="Arial,sans-serif" font-size="8" fill="#5eead4">Урок 13</text>
+</svg>

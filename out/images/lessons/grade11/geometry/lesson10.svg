@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFECB3"/>
+    </linearGradient>
+    <radialGradient id="sphereGrad" cx="40%" cy="35%">
+      <stop offset="0%" stop-color="#FFB300" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#FF8F00" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#FF8F00" stop-opacity="0.25"/>
+    </radialGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FF8F00" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="13" font-weight="bold" fill="#E65100" text-anchor="middle" font-family="serif">Сфера и шар. Уравнение сферы</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="sans-serif">Геометрия 11 класс — Урок 10</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#FFB300" stroke-width="1" opacity="0.3"/>
+
+  <!-- 3D Sphere Panel -->
+  <rect x="15" y="58" width="230" height="215" rx="6" fill="white" opacity="0.9" stroke="#FFB300" stroke-width="1.2"/>
+  <text x="130" y="74" font-size="10" font-weight="bold" fill="#FF8F00" text-anchor="middle">Сфера и шар</text>
+  <!-- Sphere -->
+  <circle cx="130" cy="170" r="75" fill="url(#sphereGrad)" stroke="#E65100" stroke-width="2"/>
+  <!-- Equator ellipse -->
+  <ellipse cx="130" cy="170" rx="75" ry="25" fill="none" stroke="#E65100" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <!-- Meridian ellipse -->
+  <ellipse cx="130" cy="170" rx="25" ry="75" fill="none" stroke="#E65100" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <!-- Center -->
+  <circle cx="130" cy="170" r="3" fill="#E65100"/>
+  <text x="136" y="167" font-size="9" fill="#E65100" font-weight="bold">O</text>
+  <!-- Radius -->
+  <line x1="130" y1="170" x2="205" y2="170" stroke="#C62828" stroke-width="1.8"/>
+  <text x="165" y="167" font-size="10" fill="#C62828" font-weight="bold" font-style="italic">R</text>
+  <!-- Point on sphere -->
+  <circle cx="205" cy="170" r="3" fill="#C62828"/>
+  <text x="208" y="165" font-size="8" fill="#C62828">M</text>
+  <!-- Another point -->
+  <circle cx="130" cy="95" r="3" fill="#1565C0"/>
+  <line x1="130" y1="170" x2="130" y2="95" stroke="#1565C0" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <text x="136" y="93" font-size="8" fill="#1565C0">N</text>
+
+  <!-- Equation Panel -->
+  <rect x="255" y="58" width="232" height="110" rx="6" fill="white" opacity="0.9" stroke="#FFB300" stroke-width="1.2"/>
+  <text x="371" y="74" font-size="10" font-weight="bold" fill="#FF8F00" text-anchor="middle">Уравнение сферы</text>
+  <rect x="265" y="82" width="212" height="28" rx="3" fill="#FF8F00" opacity="0.08"/>
+  <text x="371" y="101" font-size="12" fill="#E65100" font-weight="bold" text-anchor="middle">(x-x&#x2080;)&#x00B2;+(y-y&#x2080;)&#x00B2;+(z-z&#x2080;)&#x00B2;=R&#x00B2;</text>
+  <text x="265" y="122" font-size="9" fill="#333">O(x&#x2080;, y&#x2080;, z&#x2080;) — центр сферы</text>
+  <text x="265" y="137" font-size="9" fill="#333">R — радиус сферы</text>
+  <text x="265" y="152" font-size="9" fill="#333">M(x,y,z) &#x2208; сфере &#x21D4; |OM|=R</text>
+
+  <!-- Sphere vs Ball Panel -->
+  <rect x="255" y="175" width="232" height="98" rx="6" fill="white" opacity="0.88" stroke="#FFB300" stroke-width="1"/>
+  <text x="371" y="191" font-size="10" font-weight="bold" fill="#FF8F00" text-anchor="middle">Сфера vs Шар</text>
+  <!-- Sphere icon -->
+  <circle cx="300" cy="225" r="25" fill="none" stroke="#E65100" stroke-width="2"/>
+  <text x="300" y="260" font-size="8" fill="#E65100" text-anchor="middle" font-weight="bold">Сфера</text>
+  <text x="300" y="270" font-size="7" fill="#666" text-anchor="middle">поверхность</text>
+  <!-- Ball icon -->
+  <circle cx="420" cy="225" r="25" fill="#FF8F00" opacity="0.2" stroke="#E65100" stroke-width="2"/>
+  <text x="420" y="260" font-size="8" fill="#E65100" text-anchor="middle" font-weight="bold">Шар</text>
+  <text x="420" y="270" font-size="7" fill="#666" text-anchor="middle">тело</text>
+  <!-- VS -->
+  <text x="360" y="228" font-size="10" fill="#C62828" font-weight="bold">/</text>
+
+  <!-- Distance from center panel -->
+  <rect x="15" y="280" width="230" height="30" rx="4" fill="white" opacity="0.85" stroke="#FFB300" stroke-width="0.8"/>
+  <text x="130" y="299" font-size="8.5" fill="#333" text-anchor="middle">d(O,M)&#x00B2; = (x-x&#x2080;)&#x00B2;+(y-y&#x2080;)&#x00B2;+(z-z&#x2080;)&#x00B2;</text>
+
+  <!-- Bottom bar -->
+  <rect x="10" y="320" width="480" height="24" rx="4" fill="#FF8F00" opacity="0.85"/>
+  <text x="250" y="336" font-size="10" fill="white" text-anchor="middle" font-weight="bold">(x-x&#x2080;)&#x00B2;+(y-y&#x2080;)&#x00B2;+(z-z&#x2080;)&#x00B2;=R&#x00B2; — уравнение сферы;  Сфера — поверхность, Шар — тело</text>
+</svg>

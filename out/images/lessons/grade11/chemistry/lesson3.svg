@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" font-family="Arial,sans-serif">
+<defs>
+  <filter id="shadow1" x="-5%" y="-5%" width="110%" height="110%">
+    <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.15"/>
+  </filter>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#E8F5E9"/>
+    <stop offset="100%" stop-color="#C8E6C9"/>
+  </linearGradient>
+</defs>
+
+<!-- Background -->
+<rect width="500" height="350" fill="url(#bg)"/>
+
+<!-- Title bar -->
+<rect x="0" y="0" width="500" height="42" fill="#1B5E20" rx="8"/>
+<rect x="0" y="20" width="500" height="22" fill="#1B5E20"/>
+<text x="250" y="28" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Белки: структура и функции</text>
+
+<!-- Card 1: Primary structure -->
+<rect x="10" y="50" width="112" height="120" rx="10" fill="white" stroke="#2E7D32" stroke-width="1.5" filter="url(#shadow1)"/>
+<rect x="10" y="50" width="112" height="18" rx="10" fill="#2E7D32"/>
+<rect x="10" y="58" width="112" height="10" fill="#2E7D32"/>
+<text x="66" y="63" text-anchor="middle" fill="white" font-size="7.5" font-weight="bold">Первичная</text>
+
+<!-- Amino acid chain -->
+<circle cx="30" cy="82" r="7" fill="#66BB6A" stroke="#2E7D32" stroke-width="1"/>
+<text x="30" y="85" text-anchor="middle" fill="white" font-size="5" font-weight="bold">Ала</text>
+<line x1="37" y1="82" x2="42" y2="82" stroke="#4CAF50" stroke-width="1.5"/>
+<circle cx="50" cy="82" r="7" fill="#43A047" stroke="#2E7D32" stroke-width="1"/>
+<text x="50" y="85" text-anchor="middle" fill="white" font-size="5" font-weight="bold">Гли</text>
+<line x1="57" y1="82" x2="62" y2="82" stroke="#4CAF50" stroke-width="1.5"/>
+<circle cx="70" cy="82" r="7" fill="#388E3C" stroke="#2E7D32" stroke-width="1"/>
+<text x="70" y="85" text-anchor="middle" fill="white" font-size="5" font-weight="bold">Вал</text>
+<line x1="77" y1="82" x2="82" y2="82" stroke="#4CAF50" stroke-width="1.5"/>
+<circle cx="90" cy="82" r="7" fill="#2E7D32" stroke="#1B5E20" stroke-width="1"/>
+<text x="90" y="85" text-anchor="middle" fill="white" font-size="5" font-weight="bold">Лей</text>
+<line x1="97" y1="82" x2="102" y2="82" stroke="#4CAF50" stroke-width="1.5"/>
+<circle cx="110" cy="82" r="7" fill="#1B5E20" stroke="#1B5E20" stroke-width="1"/>
+<text x="110" y="85" text-anchor="middle" fill="white" font-size="5" font-weight="bold">Сер</text>
+
+<!-- Peptide bond labels -->
+<text x="40" y="96" text-anchor="middle" fill="#C62828" font-size="4.5">пептид</text>
+<text x="62" y="96" text-anchor="middle" fill="#C62828" font-size="4.5">пептид</text>
+<text x="82" y="96" text-anchor="middle" fill="#C62828" font-size="4.5">пептид</text>
+<text x="102" y="96" text-anchor="middle" fill="#C62828" font-size="4.5">пептид</text>
+
+<text x="66" y="112" text-anchor="middle" fill="#555" font-size="6">Последовательность</text>
+<text x="66" y="120" text-anchor="middle" fill="#555" font-size="6">аминокислот</text>
+<text x="66" y="128" text-anchor="middle" fill="#555" font-size="6">в цепи</text>
+
+<rect x="20" y="140" width="92" height="14" rx="7" fill="#4CAF50"/>
+<text x="66" y="150" text-anchor="middle" fill="white" font-size="6" font-weight="bold">ковалентные связи</text>
+
+<!-- Dashed line -->
+<line x1="122" y1="110" x2="132" y2="110" stroke="#66BB6A" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+<!-- Card 2: Secondary structure -->
+<rect x="132" y="50" width="112" height="120" rx="10" fill="white" stroke="#2E7D32" stroke-width="1.5" filter="url(#shadow1)"/>
+<rect x="132" y="50" width="112" height="18" rx="10" fill="#388E3C"/>
+<rect x="132" y="58" width="112" height="10" fill="#388E3C"/>
+<text x="188" y="63" text-anchor="middle" fill="white" font-size="7.5" font-weight="bold">Вторичная</text>
+
+<!-- Alpha helix coil -->
+<path d="M148,78 C155,72 165,72 172,78 C179,84 189,84 196,78 C203,72 213,72 220,78 C227,84 237,84 237,84" fill="none" stroke="#43A047" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M148,84 C155,78 165,78 172,84 C179,90 189,90 196,84 C203,78 213,78 220,84 C227,90 237,90 237,90" fill="none" stroke="#66BB6A" stroke-width="2" stroke-linecap="round"/>
+
+<!-- H-bonds in helix -->
+<line x1="155" y1="78" x2="210" y2="84" stroke="#C62828" stroke-width="0.6" stroke-dasharray="2,1"/>
+<line x1="165" y1="78" x2="220" y2="84" stroke="#C62828" stroke-width="0.6" stroke-dasharray="2,1"/>
+
+<text x="188" y="102" text-anchor="middle" fill="#1B5E20" font-size="7" font-weight="bold">&#945;-спираль</text>
+
+<!-- Beta sheet icon -->
+<line x1="148" y1="110" x2="225" y2="110" stroke="#2E7D32" stroke-width="1.5"/>
+<line x1="148" y1="116" x2="225" y2="116" stroke="#388E3C" stroke-width="1.5"/>
+<line x1="148" y1="122" x2="225" y2="122" stroke="#43A047" stroke-width="1.5"/>
+<!-- arrows on sheet -->
+<line x1="158" y1="110" x2="158" y2="116" stroke="#C62828" stroke-width="0.6" stroke-dasharray="1,1"/>
+<line x1="175" y1="110" x2="175" y2="116" stroke="#C62828" stroke-width="0.6" stroke-dasharray="1,1"/>
+<line x1="192" y1="110" x2="192" y2="116" stroke="#C62828" stroke-width="0.6" stroke-dasharray="1,1"/>
+<line x1="209" y1="110" x2="209" y2="116" stroke="#C62828" stroke-width="0.6" stroke-dasharray="1,1"/>
+<text x="188" y="132" text-anchor="middle" fill="#1B5E20" font-size="7" font-weight="bold">&#946;-лист</text>
+
+<rect x="142" y="140" width="92" height="14" rx="7" fill="#66BB6A"/>
+<text x="188" y="150" text-anchor="middle" fill="white" font-size="6" font-weight="bold">водородные связи</text>
+
+<!-- Dashed line -->
+<line x1="244" y1="110" x2="254" y2="110" stroke="#66BB6A" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+<!-- Card 3: Tertiary structure -->
+<rect x="254" y="50" width="112" height="120" rx="10" fill="white" stroke="#2E7D32" stroke-width="1.5" filter="url(#shadow1)"/>
+<rect x="254" y="50" width="112" height="18" rx="10" fill="#43A047"/>
+<rect x="254" y="58" width="112" height="10" fill="#43A047"/>
+<text x="310" y="63" text-anchor="middle" fill="white" font-size="7.5" font-weight="bold">Третичная</text>
+
+<!-- Folded 3D blob -->
+<path d="M280,95 C275,80 295,72 310,78 C325,72 345,80 340,95 C348,105 340,118 325,118 C330,128 310,135 300,128 C285,135 270,128 275,118 C265,108 272,95 280,95Z" fill="#81C784" stroke="#2E7D32" stroke-width="1.5"/>
+
+<!-- Disulfide bonds -->
+<line x1="288" y1="90" x2="318" y2="108" stroke="#FF8F00" stroke-width="1.5" stroke-dasharray="2,1"/>
+<text x="308" y="96" fill="#FF8F00" font-size="5" font-weight="bold">S-S</text>
+
+<!-- H-bond in tertiary -->
+<line x1="298" y1="85" x2="325" y2="92" stroke="#C62828" stroke-width="0.8" stroke-dasharray="2,1"/>
+
+<!-- Labels -->
+<text x="310" y="140" text-anchor="middle" fill="#555" font-size="6">Пространственная</text>
+<text x="310" y="148" text-anchor="middle" fill="#555" font-size="6">укладка цепи</text>
+
+<rect x="264" y="153" width="92" height="14" rx="7" fill="#81C784"/>
+<text x="310" y="163" text-anchor="middle" fill="#1B5E20" font-size="6" font-weight="bold">все типы связей</text>
+
+<!-- Dashed line -->
+<line x1="366" y1="110" x2="376" y2="110" stroke="#66BB6A" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+<!-- Card 4: Quaternary structure -->
+<rect x="376" y="50" width="112" height="120" rx="10" fill="white" stroke="#2E7D32" stroke-width="1.5" filter="url(#shadow1)"/>
+<rect x="376" y="50" width="112" height="18" rx="10" fill="#1B5E20"/>
+<rect x="376" y="58" width="112" height="10" fill="#1B5E20"/>
+<text x="432" y="63" text-anchor="middle" fill="white" font-size="7.5" font-weight="bold">Четвертичная</text>
+
+<!-- Multiple subunits -->
+<ellipse cx="415" cy="90" rx="18" ry="14" fill="#66BB6A" stroke="#2E7D32" stroke-width="1.2"/>
+<text x="415" y="93" text-anchor="middle" fill="white" font-size="7" font-weight="bold">&#945;</text>
+
+<ellipse cx="448" cy="90" rx="18" ry="14" fill="#43A047" stroke="#2E7D32" stroke-width="1.2"/>
+<text x="448" y="93" text-anchor="middle" fill="white" font-size="7" font-weight="bold">&#946;</text>
+
+<ellipse cx="415" cy="118" rx="18" ry="14" fill="#388E3C" stroke="#2E7D32" stroke-width="1.2"/>
+<text x="415" y="121" text-anchor="middle" fill="white" font-size="7" font-weight="bold">&#945;</text>
+
+<ellipse cx="448" cy="118" rx="18" ry="14" fill="#2E7D32" stroke="#1B5E20" stroke-width="1.2"/>
+<text x="448" y="121" text-anchor="middle" fill="white" font-size="7" font-weight="bold">&#946;</text>
+
+<!-- Interaction lines between subunits -->
+<line x1="433" y1="90" x2="430" y2="90" stroke="#FF8F00" stroke-width="1" stroke-dasharray="2,1"/>
+<line x1="415" y1="104" x2="415" y2="104" stroke="#FF8F00" stroke-width="1" stroke-dasharray="2,1"/>
+
+<text x="432" y="142" text-anchor="middle" fill="#555" font-size="6">Несколько субъединиц</text>
+<text x="432" y="150" text-anchor="middle" fill="#555" font-size="6">(напр. гемоглобин)</text>
+
+<rect x="386" y="155" width="92" height="14" rx="7" fill="#A5D6A7"/>
+<text x="432" y="165" text-anchor="middle" fill="#1B5E20" font-size="6" font-weight="bold">гидрофобные связи</text>
+
+<!-- Card 5: Denaturation -->
+<rect x="10" y="178" width="225" height="130" rx="10" fill="white" stroke="#2E7D32" stroke-width="1.5" filter="url(#shadow1)"/>
+<text x="122" y="195" text-anchor="middle" fill="#1B5E20" font-size="9" font-weight="bold">Денатурация белка</text>
+
+<!-- Native protein -->
+<ellipse cx="60" cy="230" rx="30" ry="22" fill="#81C784" stroke="#2E7D32" stroke-width="1.5"/>
+<text x="60" y="234" text-anchor="middle" fill="#1B5E20" font-size="7" font-weight="bold">Нативный</text>
+
+<!-- Arrow with causes -->
+<line x1="95" y1="230" x2="145" y2="230" stroke="#C62828" stroke-width="1.5"/>
+<polygon points="143,226 151,230 143,234" fill="#C62828"/>
+<!-- Causes above arrow -->
+<text x="122" y="215" text-anchor="middle" fill="#C62828" font-size="6">температура</text>
+<text x="122" y="248" text-anchor="middle" fill="#C62828" font-size="6">кислоты/щёлочи</text>
+
+<!-- Denatured protein - unfolded -->
+<path d="M155,218 C165,210 175,235 185,220 C195,210 205,240 210,218 C215,225 220,235 225,222 C230,215 240,230 245,218" fill="none" stroke="#C62828" stroke-width="2" stroke-linecap="round"/>
+<text x="200" y="248" text-anchor="middle" fill="#C62828" font-size="7" font-weight="bold">Денатурированный</text>
+
+<!-- Renaturation arrow (dashed) -->
+<line x1="148" y1="260" x2="98" y2="260" stroke="#4CAF50" stroke-width="1" stroke-dasharray="3,2"/>
+<text x="122" y="272" text-anchor="middle" fill="#4CAF50" font-size="6">ренатурация (редко)</text>
+
+<!-- Pills -->
+<rect x="20" y="285" width="70" height="14" rx="7" fill="#EF5350"/>
+<text x="55" y="295" text-anchor="middle" fill="white" font-size="6" font-weight="bold"> необратимо</text>
+<rect x="95" y="285" width="62" height="14" rx="7" fill="#4CAF50"/>
+<text x="126" y="295" text-anchor="middle" fill="white" font-size="6" font-weight="bold">обратимо</text>
+
+<!-- Card 6: Functions -->
+<rect x="245" y="178" width="243" height="130" rx="10" fill="white" stroke="#2E7D32" stroke-width="1.5" filter="url(#shadow1)"/>
+<text x="366" y="195" text-anchor="middle" fill="#1B5E20" font-size="9" font-weight="bold">Функции белков</text>
+
+<!-- Function pills grid -->
+<rect x="255" y="204" width="72" height="18" rx="9" fill="#1B5E20"/>
+<text x="291" y="216" text-anchor="middle" fill="white" font-size="6.5" font-weight="bold">каталитическая</text>
+
+<rect x="333" y="204" width="72" height="18" rx="9" fill="#2E7D32"/>
+<text x="369" y="216" text-anchor="middle" fill="white" font-size="6.5" font-weight="bold">транспортная</text>
+
+<rect x="411" y="204" width="68" height="18" rx="9" fill="#388E3C"/>
+<text x="445" y="216" text-anchor="middle" fill="white" font-size="6.5" font-weight="bold">защитная</text>
+
+<rect x="255" y="228" width="72" height="18" rx="9" fill="#43A047"/>
+<text x="291" y="240" text-anchor="middle" fill="white" font-size="6.5" font-weight="bold">строительная</text>
+
+<rect x="333" y="228" width="72" height="18" rx="9" fill="#4CAF50"/>
+<text x="369" y="240" text-anchor="middle" fill="white" font-size="6.5" font-weight="bold">двигательная</text>
+
+<rect x="411" y="228" width="68" height="18" rx="9" fill="#66BB6A"/>
+<text x="445" y="240" text-anchor="middle" fill="white" font-size="6.5" font-weight="bold">регуляторная</text>
+
+<rect x="255" y="252" width="72" height="18" rx="9" fill="#81C784"/>
+<text x="291" y="264" text-anchor="middle" fill="#1B5E20" font-size="6.5" font-weight="bold">энергетическая</text>
+
+<rect x="333" y="252" width="72" height="18" rx="9" fill="#A5D6A7"/>
+<text x="369" y="264" text-anchor="middle" fill="#1B5E20" font-size="6.5" font-weight="bold">запасная</text>
+
+<rect x="411" y="252" width="68" height="18" rx="9" fill="#C8E6C9"/>
+<text x="445" y="264" text-anchor="middle" fill="#1B5E20" font-size="6.5" font-weight="bold">сигнальная</text>
+
+<!-- Example icons -->
+<text x="291" y="286" text-anchor="middle" fill="#555" font-size="5.5">ферменты</text>
+<text x="369" y="286" text-anchor="middle" fill="#555" font-size="5.5">гемоглобин</text>
+<text x="445" y="286" text-anchor="middle" fill="#555" font-size="5.5">антитела</text>
+
+<!-- Bottom accent bar -->
+<rect x="0" y="330" width="500" height="20" fill="#1B5E20"/>
+<text x="250" y="343" text-anchor="middle" fill="#A5D6A7" font-size="8">4 уровня структуры: первичная &#8594; вторичная &#8594; третичная &#8594; четвертичная</text>
+</svg>

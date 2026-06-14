@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Биология — наука о живом</text>
+<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 9 класс — Урок 1</text>
+<line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+
+<g transform="translate(250,180)">
+<circle cx="0" cy="0" r="65" fill="#2E7D32" opacity="0.08" stroke="#2E7D32" stroke-width="2"/>
+<text x="0" y="-20" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle" font-weight="bold">Биология</text>
+<text x="0" y="-5" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Наука о живой природе</text>
+<line x1="-30" y1="5" x2="30" y2="5" stroke="#2E7D32" stroke-width="0.8" opacity="0.5"/>
+<text x="0" y="18" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">Обмен веществ</text>
+<text x="0" y="28" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">Размножение</text>
+<text x="0" y="38" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">Рост и развитие</text>
+<text x="0" y="48" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">Наследственность</text>
+</g>
+<g transform="translate(80,130)">
+<rect x="-35" y="-18" width="70" height="36" rx="5" fill="white" stroke="#1565C0" stroke-width="1.2"/>
+<text x="0" y="-5" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle" font-weight="bold">Зоология</text>
+<text x="0" y="7" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">Животные</text>
+</g>
+<g transform="translate(420,130)">
+<rect x="-35" y="-18" width="70" height="36" rx="5" fill="white" stroke="#4CAF50" stroke-width="1.2"/>
+<text x="0" y="-5" font-family="Arial,sans-serif" font-size="6" fill="#4CAF50" text-anchor="middle" font-weight="bold">Ботаника</text>
+<text x="0" y="7" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">Растения</text>
+</g>
+<g transform="translate(80,230)">
+<rect x="-35" y="-18" width="70" height="36" rx="5" fill="white" stroke="#9C27B0" stroke-width="1.2"/>
+<text x="0" y="-5" font-family="Arial,sans-serif" font-size="6" fill="#9C27B0" text-anchor="middle" font-weight="bold">Генетика</text>
+<text x="0" y="7" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">Наследственность</text>
+</g>
+<g transform="translate(420,230)">
+<rect x="-35" y="-18" width="70" height="36" rx="5" fill="white" stroke="#E65100" stroke-width="1.2"/>
+<text x="0" y="-5" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle" font-weight="bold">Экология</text>
+<text x="0" y="7" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">Среда обитания</text>
+</g>
+<rect x="30" y="280" width="440" height="30" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
+<text x="250" y="294" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Признаки живого: обмен веществ, размножение, рост, развитие, раздражимость, наследственность</text>
+<text x="250" y="305" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Методы биологии: наблюдение, эксперимент, моделирование, сравнение</text>
+
+<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 9 класс</text>
+</svg>

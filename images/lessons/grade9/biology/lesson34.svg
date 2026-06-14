@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EDE7F6"/>
+      <stop offset="100%" stop-color="#D1C4E9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="12"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#4A148C">Обобщение: Генетика</text>
+  <line x1="100" y1="40" x2="400" y2="40" stroke="#7B1FA2" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Central node -->
+  <ellipse cx="250" cy="185" rx="55" ry="28" fill="#7B1FA2" stroke="#4A148C" stroke-width="2"/>
+  <text x="250" y="182" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white">ГЕНЕТИКА</text>
+  <text x="250" y="196" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#E1BEE7">наука о наследственности</text>
+
+  <!-- Node 1: Основные понятия (top-left) -->
+  <rect x="20" y="52" width="120" height="50" rx="8" fill="#CE93D8" stroke="#7B1FA2" stroke-width="1.5"/>
+  <text x="80" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#4A148C">Основные</text>
+  <text x="80" y="84" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#4A148C">понятия</text>
+  <line x1="140" y1="77" x2="200" y2="165" stroke="#9C27B0" stroke-width="1.5" opacity="0.6"/>
+  <g font-family="Arial,sans-serif" font-size="7" fill="#6A1B9A">
+    <text x="8" y="115">• Ген, аллель</text>
+    <text x="8" y="125">• Генотип, фенотип</text>
+    <text x="8" y="135">• Гомозигота, гетерозигота</text>
+    <text x="8" y="145">• Доминантный, рецессивный</text>
+  </g>
+
+  <!-- Node 2: Законы Менделя (top-right) -->
+  <rect x="360" y="52" width="120" height="50" rx="8" fill="#BA68C8" stroke="#7B1FA2" stroke-width="1.5"/>
+  <text x="420" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#4A148C">Законы</text>
+  <text x="420" y="84" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#4A148C">Менделя</text>
+  <line x1="360" y1="77" x2="305" y2="165" stroke="#9C27B0" stroke-width="1.5" opacity="0.6"/>
+  <g font-family="Arial,sans-serif" font-size="7" fill="#6A1B9A">
+    <text x="365" y="115">I: Единообразие F₁</text>
+    <text x="365" y="125">II: Расщепление 3:1</text>
+    <text x="365" y="135">III: Независимое</text>
+    <text x="375" y="145">наследование 9:3:3:1</text>
+  </g>
+
+  <!-- Node 3: Сцепленное наследование (left) -->
+  <rect x="10" y="190" width="110" height="45" rx="8" fill="#AB47BC" stroke="#7B1FA2" stroke-width="1.5"/>
+  <text x="65" y="208" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="white">Сцепленное</text>
+  <text x="65" y="220" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="white">наследование</text>
+  <line x1="120" y1="210" x2="195" y2="190" stroke="#9C27B0" stroke-width="1.5" opacity="0.6"/>
+  <g font-family="Arial,sans-serif" font-size="7" fill="#6A1B9A">
+    <text x="8" y="248">• Кроссинговер</text>
+    <text x="8" y="258">• Группы сцепления</text>
+    <text x="8" y="268">• Морган</text>
+  </g>
+
+  <!-- Node 4: Определение пола (right) -->
+  <rect x="382" y="190" width="108" height="45" rx="8" fill="#AB47BC" stroke="#7B1FA2" stroke-width="1.5"/>
+  <text x="436" y="208" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="white">Определение</text>
+  <text x="436" y="220" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="white">пола</text>
+  <line x1="382" y1="210" x2="305" y2="190" stroke="#9C27B0" stroke-width="1.5" opacity="0.6"/>
+  <g font-family="Arial,sans-serif" font-size="7" fill="#6A1B9A">
+    <text x="385" y="248">• X и Y хромосомы</text>
+    <text x="385" y="258">• Сцеплено с полом</text>
+    <text x="385" y="268">• 1:1 в потомстве</text>
+  </g>
+
+  <!-- Node 5: Мутации (bottom-left) -->
+  <rect x="55" y="280" width="100" height="40" rx="8" fill="#9C27B0" stroke="#7B1FA2" stroke-width="1.5"/>
+  <text x="105" y="298" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="white">Мутации</text>
+  <text x="105" y="310" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#E1BEE7">генные, хромосомные</text>
+  <line x1="130" y1="280" x2="215" y2="210" stroke="#9C27B0" stroke-width="1.2" opacity="0.5"/>
+
+  <!-- Node 6: Селекция (bottom-right) -->
+  <rect x="345" y="280" width="100" height="40" rx="8" fill="#9C27B0" stroke="#7B1FA2" stroke-width="1.5"/>
+  <text x="395" y="298" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="white">Селекция</text>
+  <text x="395" y="310" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#E1BEE7">и биотехнология</text>
+  <line x1="370" y1="280" x2="285" y2="210" stroke="#9C27B0" stroke-width="1.2" opacity="0.5"/>
+
+  <!-- Node 7: Генетика и здоровье (bottom-center) -->
+  <rect x="185" y="280" width="130" height="40" rx="8" fill="#8E24AA" stroke="#4A148C" stroke-width="1.5"/>
+  <text x="250" y="298" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="white">Генетика и здоровье</text>
+  <text x="250" y="310" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#E1BEE7">наследств. заболевания</text>
+  <line x1="250" y1="280" x2="250" y2="213" stroke="#9C27B0" stroke-width="1.2" opacity="0.5"/>
+
+  <!-- Central decorative rings -->
+  <ellipse cx="250" cy="185" rx="70" ry="40" fill="none" stroke="#CE93D8" stroke-width="0.5" stroke-dasharray="3,3" opacity="0.5"/>
+  <ellipse cx="250" cy="185" rx="90" ry="55" fill="none" stroke="#CE93D8" stroke-width="0.4" stroke-dasharray="2,4" opacity="0.3"/>
+
+  <text x="480" y="340" text-anchor="end" font-family="Arial,sans-serif" font-size="9" fill="#7B1FA2" opacity="0.6">Урок 34</text>
+</svg>

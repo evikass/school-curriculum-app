@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
+  <defs>
+    <linearGradient id="hdr" x1="0" y1="0" x2="480" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <filter id="sh" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="480" height="360" rx="10" fill="#0f172a"/>
+  <rect width="480" height="50" rx="10" fill="url(#hdr)"/>
+  <rect y="42" width="480" height="8" fill="url(#hdr)"/>
+  <text x="240" y="23" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="13" font-weight="bold">Свойства карбоновых кислот</text>
+  <text x="240" y="40" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="9" opacity="0.8">Химия 10 класс</text>
+  <rect x="10" y="58" width="225" height="140" rx="6" fill="#1e293b" stroke="#10b981" stroke-width="1" filter="url(#sh)"/>
+  <text x="22" y="76" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#10b981">Кислотные свойства</text>
+  <line x1="22" y1="82" x2="223" y2="82" stroke="#10b981" stroke-width="0.5" opacity="0.5"/>
+  <circle cx="26" cy="95" r="3" fill="#10b981"/>
+  <text x="36" y="98" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">RCOOH ⇌ RCOO⁻ + H⁺</text>
+  <circle cx="26" cy="117" r="3" fill="#10b981"/>
+  <text x="36" y="120" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">С металлами: 2RCOOH + Zn → (RCOO)…</text>
+  <circle cx="26" cy="139" r="3" fill="#10b981"/>
+  <text x="36" y="142" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">С основаниями: RCOOH + NaOH → RCO…</text>
+  <rect x="245" y="58" width="225" height="140" rx="6" fill="#1e293b" stroke="#6366f1" stroke-width="1" filter="url(#sh)"/>
+  <text x="257" y="76" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#6366f1">Сложные эфиры</text>
+  <line x1="257" y1="82" x2="458" y2="82" stroke="#6366f1" stroke-width="0.5" opacity="0.5"/>
+  <circle cx="261" cy="95" r="3" fill="#6366f1"/>
+  <text x="271" y="98" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Этерификация: RCOOH + R'OH ⇌ RCOO…</text>
+  <circle cx="261" cy="117" r="3" fill="#6366f1"/>
+  <text x="271" y="120" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Обратимая! Катализатор — H₂SO₄ (к…</text>
+  <circle cx="261" cy="139" r="3" fill="#6366f1"/>
+  <text x="271" y="142" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Гидролиз — обратная реакция</text>
+  <rect x="10" y="206" width="460" height="140" rx="6" fill="#1e293b" stroke="#f59e0b" stroke-width="1" filter="url(#sh)"/>
+  <text x="22" y="224" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f59e0b">Особенности</text>
+  <line x1="22" y1="230" x2="458" y2="230" stroke="#f59e0b" stroke-width="0.5" opacity="0.5"/>
+  <circle cx="26" cy="243" r="3" fill="#f59e0b"/>
+  <text x="36" y="246" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Соли — карбонаты/ацетаты/формиаты</text>
+  <circle cx="26" cy="265" r="3" fill="#f59e0b"/>
+  <text x="36" y="268" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Декарбоксилирование: R-COOH → RH …</text>
+  <circle cx="26" cy="287" r="3" fill="#f59e0b"/>
+  <text x="36" y="290" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Ряд: HCOOH > CH₃COOH > C₂H₅COOH</text>
+  <rect x="420" y="330" width="50" height="22" rx="11" fill="#10b981" opacity="0.3"/>
+  <text x="445" y="345" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#10b981">#27</text>
+</svg>

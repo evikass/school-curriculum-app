@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Общая характеристика моллюсков</text>
+<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 7 класс — Урок 9</text>
+<line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+
+<g transform="translate(170,175)">
+<path d="M-45,28 Q-55,-8 -35,-35 Q-18,-52 0,-52 Q18,-52 35,-35 Q55,-8 45,28Z" fill="#FFE0B2" stroke="#E65100" stroke-width="2"/>
+<path d="M-38,22 Q-45,-5 -28,-28 Q-12,-42 0,-42 Q12,-42 28,-28 Q45,-5 38,22" fill="none" stroke="#FF8F00" stroke-width="0.8" opacity="0.5"/>
+<path d="M-40,28 Q-45,8 -32,-22 Q-15,-38 5,-38 Q22,-38 35,-22 Q48,8 40,28" fill="#FFECB3" stroke="#FFB300" stroke-width="1.5" opacity="0.6"/>
+<path d="M-30,28 Q-35,40 -20,45 Q0,48 20,45 Q35,40 30,28Z" fill="#FFCC80" stroke="#E65100" stroke-width="1.5"/>
+<line x1="-15" y1="-48" x2="-22" y2="-62" stroke="#BF360C" stroke-width="1.5"/>
+<line x1="-5" y1="-50" x2="-12" y2="-62" stroke="#BF360C" stroke-width="1.5"/>
+<circle cx="-22" cy="-63" r="1.5" fill="#333"/><circle cx="-12" cy="-63" r="1.5" fill="#333"/>
+<text x="0" y="58" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle" font-weight="bold">Раковина + нога</text>
+</g>
+<g transform="translate(400,170)">
+<rect x="-55" y="-65" width="110" height="130" rx="5" fill="white" stroke="#E65100" stroke-width="1.5"/>
+<text x="0" y="-50" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle" font-weight="bold">Органы</text>
+<path d="M0,-30 Q-4,-35 -2,-30 Q-4,-25 0,-20 Q4,-25 2,-30 Q4,-35 0,-30Z" fill="#E53935" stroke="#C62828" stroke-width="1"/><text x="20" y="-28" font-family="Arial,sans-serif" font-size="5" fill="#333">Сердце</text>
+<rect x="10" y="-40" width="14" height="8" rx="2" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.8"/><text x="35" y="-33" font-family="Arial,sans-serif" font-size="5" fill="#333">Почка</text>
+<ellipse cx="-8" y="-8" rx="10" ry="5" fill="#FFCC80" stroke="#E65100" stroke-width="0.8"/><text x="15" y="-6" font-family="Arial,sans-serif" font-size="5" fill="#333">Печень</text>
+<ellipse cx="-18" cy="15" rx="9" ry="7" fill="#BBDEFB" stroke="#1565C0" stroke-width="0.8"/><text x="10" y="18" font-family="Arial,sans-serif" font-size="5" fill="#333">Жабра</text>
+<ellipse cx="5" cy="30" rx="9" ry="5" fill="#F8BBD0" stroke="#C2185B" stroke-width="0.8"/><text x="28" y="33" font-family="Arial,sans-serif" font-size="5" fill="#333">Половая</text>
+<circle cx="-22" cy="45" r="4" fill="#CE93D8" stroke="#7B1FA2" stroke-width="0.8"/><circle cx="15" cy="45" r="4" fill="#CE93D8" stroke="#7B1FA2" stroke-width="0.8"/>
+<line x1="-18" y1="45" x2="11" y2="45" stroke="#7B1FA2" stroke-width="0.8"/><text x="-3" y="55" font-family="Arial,sans-serif" font-size="5" fill="#333">Нервные узлы</text>
+</g>
+<rect x="30" y="275" width="440" height="30" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
+<text x="250" y="289" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Несегментированное тело | Раковина (известковая) | Мускулистая нога | Мантия</text>
+<text x="250" y="301" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Трёхкамерное сердце | Незамкнутая кровеносная система | Вторичная полость</text>
+
+<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 7 класс</text>
+</svg>

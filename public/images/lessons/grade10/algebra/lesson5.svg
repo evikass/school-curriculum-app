@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="50%" stop-color="#BBDEFB"/>
+      <stop offset="100%" stop-color="#1E88E5" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="500" height="350" fill="url(#bg)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#0D47A1" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#0D47A1" text-anchor="middle" font-family="Arial">Синус и косинус</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="Arial">Алгебра 10 класс — Урок 5</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#1565C0" stroke-opacity="0.3"/>
+  <rect x="12" y="58" width="476" height="48" rx="6" fill="white" fill-opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+  <text x="250" y="75" font-size="10" fill="#0D47A1" text-anchor="middle" font-weight="bold" font-family="Arial">Определения через окружность</text>
+  <text x="250" y="93" font-size="9" fill="#555" text-anchor="middle" font-family="Arial">cos t = x(M(t)) — абсцисса | sin t = y(M(t)) — ордината</text>
+  <text x="250" y="103" font-size="8" fill="#1565C0" text-anchor="middle" font-family="Arial">tg t = sin t/cos t | ctg t = cos t/sin t</text>
+  <rect x="12" y="114" width="230" height="110" rx="6" fill="white" fill-opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+  <text x="127" y="130" font-size="9" font-weight="bold" fill="#0D47A1" text-anchor="middle" font-family="Arial">Табличные значения</text>
+  <text x="127" y="146" font-size="7" fill="#555" text-anchor="middle" font-family="Arial">t | sin t | cos t</text>
+  <text x="127" y="158" font-size="7" fill="#555" text-anchor="middle" font-family="Arial">π/6 | 1/2 | √3/2</text>
+  <text x="127" y="170" font-size="7" fill="#555" text-anchor="middle" font-family="Arial">π/4 | √2/2 | √2/2</text>
+  <text x="127" y="182" font-size="7" fill="#555" text-anchor="middle" font-family="Arial">π/3 | √3/2 | 1/2</text>
+  <text x="127" y="194" font-size="7" fill="#555" text-anchor="middle" font-family="Arial">π/2 | 1 | 0</text>
+  <text x="127" y="212" font-size="7" fill="#0D47A1" font-weight="bold" text-anchor="middle" font-family="Arial">sin: √0/2, √1/2, √2/2, √3/2, √4/2</text>
+  <rect x="252" y="114" width="236" height="110" rx="6" fill="white" fill-opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+  <text x="370" y="130" font-size="9" font-weight="bold" fill="#0D47A1" text-anchor="middle" font-family="Arial">Знаки по четвертям</text>
+  <text x="370" y="148" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">I: sin +, cos +, tg +</text>
+  <text x="370" y="163" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">II: sin +, cos −, tg −</text>
+  <text x="370" y="178" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">III: sin −, cos −, tg +</text>
+  <text x="370" y="193" font-size="8" fill="#555" text-anchor="middle" font-family="Arial">IV: sin −, cos +, tg −</text>
+  <text x="370" y="212" font-size="7" fill="#0D47A1" font-weight="bold" text-anchor="middle" font-family="Arial">Мнемоника: Все, Син, Тан, Кос</text>
+  <rect x="12" y="232" width="476" height="50" rx="6" fill="white" fill-opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+  <text x="250" y="249" font-size="9" font-weight="bold" fill="#0D47A1" text-anchor="middle" font-family="Arial">Основное тождество</text>
+  <text x="250" y="267" font-size="10" fill="#1565C0" text-anchor="middle" font-weight="bold" font-family="Arial">sin²t + cos²t = 1</text>
+  <text x="250" y="278" font-size="7" fill="#555" text-anchor="middle" font-family="Arial">−1 ≤ sin t ≤ 1 | −1 ≤ cos t ≤ 1</text>
+  <rect x="12" y="290" width="476" height="22" rx="6" fill="white" fill-opacity="0.9" stroke="#1565C0" stroke-width="1"/>
+  <text x="250" y="305" font-size="8" fill="#0D47A1" font-weight="bold" text-anchor="middle" font-family="Arial">tg не определён при t = π/2 + πk | ctg не определён при t = πk</text>
+  <rect x="12" y="320" width="476" height="22" rx="4" fill="#1565C0" fill-opacity="0.85"/>
+  <text x="250" y="335" font-size="9" fill="white" text-anchor="middle" font-weight="bold" font-family="Arial">Синус и косинус — Мордкович А.Г., 10 класс</text>
+</svg>

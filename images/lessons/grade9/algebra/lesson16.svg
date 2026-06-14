@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" font-family="Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E3F2FD"/>
+      <stop offset="100%" style="stop-color:#BBDEFB"/>
+    </linearGradient>
+    <filter id="shadow1" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg1)" rx="8"/>
+  <rect x="0" y="0" width="500" height="42" fill="#0D47A1" rx="8"/>
+  <rect x="0" y="20" width="500" height="22" fill="#0D47A1"/>
+  <text x="250" y="28" text-anchor="middle" fill="white" font-size="13" font-weight="bold">Сумма n первых членов арифметической прогрессии</text>
+
+  <!-- Card 1: Staircase visual for arithmetic progression -->
+  <rect x="15" y="52" width="220" height="130" rx="10" fill="white" stroke="#1565C0" stroke-width="1.5" filter="url(#shadow1)"/>
+  <text x="125" y="70" text-anchor="middle" fill="#0D47A1" font-size="10" font-weight="bold">Лестница прогрессии</text>
+  <!-- Staircase steps -->
+  <rect x="30" y="165" width="25" height="10" fill="#64B5F6" rx="2"/>
+  <text x="42" y="162" text-anchor="middle" fill="#0D47A1" font-size="8" font-weight="bold">a1</text>
+  <rect x="55" y="152" width="25" height="23" fill="#42A5F5" rx="2"/>
+  <text x="67" y="149" text-anchor="middle" fill="#0D47A1" font-size="8" font-weight="bold">a2</text>
+  <rect x="80" y="139" width="25" height="36" fill="#1976D2" rx="2"/>
+  <text x="92" y="136" text-anchor="middle" fill="#0D47A1" font-size="8" font-weight="bold">a3</text>
+  <rect x="105" y="126" width="25" height="49" fill="#1565C0" rx="2"/>
+  <text x="117" y="123" text-anchor="middle" fill="#0D47A1" font-size="8" font-weight="bold">a4</text>
+  <rect x="130" y="113" width="25" height="62" fill="#0D47A1" rx="2"/>
+  <text x="142" y="110" text-anchor="middle" fill="white" font-size="8" font-weight="bold">a5</text>
+  <rect x="155" y="100" width="25" height="75" fill="#0D47A1" rx="2"/>
+  <text x="167" y="97" text-anchor="middle" fill="white" font-size="8" font-weight="bold">an</text>
+  <!-- Dashed line showing d -->
+  <line x1="42" y1="160" x2="67" y2="147" stroke="#42A5F5" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <line x1="67" y1="147" x2="92" y2="134" stroke="#42A5F5" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <text x="55" y="148" fill="#1565C0" font-size="8" font-style="italic">d</text>
+  <text x="80" y="135" fill="#1565C0" font-size="8" font-style="italic">d</text>
+  <!-- Diagonal arrow -->
+  <line x1="30" y1="168" x2="180" y2="90" stroke="#90CAF9" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="110" y="80" text-anchor="middle" fill="#1565C0" font-size="7">разность d</text>
+
+  <!-- Card 2: Formula card -->
+  <rect x="250" y="52" width="235" height="130" rx="10" fill="white" stroke="#1565C0" stroke-width="1.5" filter="url(#shadow1)"/>
+  <text x="367" y="70" text-anchor="middle" fill="#0D47A1" font-size="10" font-weight="bold">Формулы суммы</text>
+  <!-- Formula 1 -->
+  <rect x="262" y="78" width="210" height="26" rx="10" fill="#0D47A1"/>
+  <text x="367" y="95" text-anchor="middle" fill="white" font-size="12" font-weight="bold">Sn = n(a1 + an) / 2</text>
+  <!-- Formula 2 -->
+  <rect x="262" y="110" width="210" height="26" rx="10" fill="#1976D2"/>
+  <text x="367" y="127" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Sn = n(2a1 + d(n-1)) / 2</text>
+  <!-- Concept pills -->
+  <rect x="262" y="145" width="60" height="18" rx="10" fill="#42A5F5"/>
+  <text x="292" y="157" text-anchor="middle" fill="white" font-size="8" font-weight="bold">a1 — 1-й</text>
+  <rect x="328" y="145" width="65" height="18" rx="10" fill="#42A5F5"/>
+  <text x="360" y="157" text-anchor="middle" fill="white" font-size="8" font-weight="bold">an — n-й</text>
+  <rect x="399" y="145" width="73" height="18" rx="10" fill="#42A5F5"/>
+  <text x="435" y="157" text-anchor="middle" fill="white" font-size="8" font-weight="bold">d — разность</text>
+
+  <!-- Dashed connecting line between cards -->
+  <line x1="235" y1="117" x2="250" y2="117" stroke="#42A5F5" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+  <!-- Card 3: Gauss method visual -->
+  <rect x="15" y="192" width="225" height="128" rx="10" fill="white" stroke="#1565C0" stroke-width="1.5" filter="url(#shadow1)"/>
+  <text x="127" y="210" text-anchor="middle" fill="#0D47A1" font-size="10" font-weight="bold">Метод Гаусса</text>
+  <!-- Numbers 1 to 10 in two rows -->
+  <text x="30" y="230" fill="#0D47A1" font-size="9" font-weight="bold">1</text>
+  <text x="52" y="230" fill="#0D47A1" font-size="9" font-weight="bold">2</text>
+  <text x="74" y="230" fill="#0D47A1" font-size="9" font-weight="bold">3</text>
+  <text x="96" y="230" fill="#0D47A1" font-size="9" font-weight="bold">4</text>
+  <text x="118" y="230" fill="#0D47A1" font-size="9" font-weight="bold">5</text>
+  <text x="140" y="230" fill="#0D47A1" font-size="9">...</text>
+  <text x="162" y="230" fill="#0D47A1" font-size="9" font-weight="bold">10</text>
+  <!-- Second row reversed -->
+  <text x="30" y="250" fill="#1565C0" font-size="9" font-weight="bold">10</text>
+  <text x="52" y="250" fill="#1565C0" font-size="9" font-weight="bold">9</text>
+  <text x="74" y="250" fill="#1565C0" font-size="9" font-weight="bold">8</text>
+  <text x="96" y="250" fill="#1565C0" font-size="9" font-weight="bold">7</text>
+  <text x="118" y="250" fill="#1565C0" font-size="9" font-weight="bold">6</text>
+  <text x="140" y="250" fill="#1565C0" font-size="9">...</text>
+  <text x="162" y="250" fill="#1565C0" font-size="9" font-weight="bold">1</text>
+  <!-- Braces showing sums -->
+  <line x1="28" y1="234" x2="168" y2="234" stroke="#42A5F5" stroke-width="1" stroke-dasharray="2,1"/>
+  <!-- Sum indicators -->
+  <text x="30" y="268" fill="#64B5F6" font-size="7">11</text>
+  <text x="52" y="268" fill="#64B5F6" font-size="7">11</text>
+  <text x="74" y="268" fill="#64B5F6" font-size="7">11</text>
+  <text x="96" y="268" fill="#64B5F6" font-size="7">11</text>
+  <text x="118" y="268" fill="#64B5F6" font-size="7">11</text>
+  <text x="140" y="268" fill="#64B5F6" font-size="7">...</text>
+  <text x="162" y="268" fill="#64B5F6" font-size="7">11</text>
+  <!-- Result -->
+  <text x="127" y="290" text-anchor="middle" fill="#0D47A1" font-size="9" font-weight="bold">10 пар по 11 = 110</text>
+  <text x="127" y="305" text-anchor="middle" fill="#1976D2" font-size="8">Sn = 10 · 11 / 2 = 55</text>
+
+  <!-- Card 4: Example calculation -->
+  <rect x="250" y="192" width="235" height="128" rx="10" fill="white" stroke="#1565C0" stroke-width="1.5" filter="url(#shadow1)"/>
+  <text x="367" y="210" text-anchor="middle" fill="#0D47A1" font-size="10" font-weight="bold">Пример вычисления</text>
+  <!-- Example: a1=3, d=2, n=10 -->
+  <text x="265" y="230" fill="#1565C0" font-size="9">Дано: a1 = 3, d = 2, n = 10</text>
+  <!-- Step by step -->
+  <text x="265" y="248" fill="#333" font-size="8">1) an = a1 + d(n-1)</text>
+  <text x="280" y="260" fill="#333" font-size="8">= 3 + 2·9 = 21</text>
+  <text x="265" y="278" fill="#333" font-size="8">2) Sn = n(a1 + an)/2</text>
+  <text x="280" y="290" fill="#333" font-size="8">= 10(3 + 21)/2 = 120</text>
+  <!-- Result pill -->
+  <rect x="300" y="298" width="130" height="18" rx="10" fill="#0D47A1"/>
+  <text x="365" y="311" text-anchor="middle" fill="white" font-size="9" font-weight="bold">Ответ: S10 = 120</text>
+
+  <!-- Bottom accent bar -->
+  <rect x="0" y="330" width="500" height="20" fill="#0D47A1"/>
+  <text x="250" y="344" text-anchor="middle" fill="#90CAF9" font-size="10" font-weight="bold">Sn = n(a1 + an)/2 — сумма парных слагаемых</text>
+</svg>

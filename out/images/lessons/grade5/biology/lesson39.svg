@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+  <text x="250" y="24" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Роль животных в природе и жизни человека</text>
+  <text x="250" y="37" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 5 класс — Урок 39</text>
+  <line x1="30" y1="43" x2="470" y2="43" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+  <!-- Section 1: Food chain -->
+  <text x="250" y="58" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">Пищевая цепь</text>
+
+  <!-- Producer -->
+  <rect x="20" y="65" width="80" height="60" rx="5" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1"/>
+  <ellipse cx="60" cy="85" rx="20" ry="12" fill="#66BB6A" stroke="#1B5E20" stroke-width="0.8"/>
+  <line x1="60" y1="85" x2="60" y2="75" stroke="#1B5E20" stroke-width="0.5"/>
+  <line x1="50" y1="80" x2="60" y2="85" stroke="#1B5E20" stroke-width="0.5"/>
+  <line x1="70" y1="80" x2="60" y2="85" stroke="#1B5E20" stroke-width="0.5"/>
+  <text x="60" y="110" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle">Растения</text>
+  <text x="60" y="119" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Продуценты</text>
+
+  <!-- Arrow 1 -->
+  <path d="M105 95 L125 95" fill="none" stroke="#2E7D32" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Primary consumer -->
+  <rect x="130" y="65" width="80" height="60" rx="5" fill="#FFF9C4" stroke="#F9A825" stroke-width="1"/>
+  <!-- Grasshopper -->
+  <ellipse cx="170" cy="85" rx="10" ry="5" fill="#8BC34A" stroke="#33691E" stroke-width="0.8"/>
+  <circle cx="160" cy="83" r="3" fill="#8BC34A" stroke="#33691E" stroke-width="0.5"/>
+  <line x1="158" y1="80" x2="154" y2="76" stroke="#33691E" stroke-width="0.4"/>
+  <line x1="162" y1="80" x2="166" y2="76" stroke="#33691E" stroke-width="0.4"/>
+  <!-- Legs -->
+  <line x1="175" y1="82" x2="180" y2="78" stroke="#33691E" stroke-width="0.3"/>
+  <line x1="175" y1="88" x2="180" y2="92" stroke="#33691E" stroke-width="0.3"/>
+  <text x="170" y="110" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle">Насекомые</text>
+  <text x="170" y="119" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Консументы I</text>
+
+  <!-- Arrow 2 -->
+  <path d="M215 95 L235 95" fill="none" stroke="#2E7D32" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Secondary consumer -->
+  <rect x="240" y="65" width="80" height="60" rx="5" fill="#FFCCBC" stroke="#E65100" stroke-width="1"/>
+  <!-- Frog -->
+  <ellipse cx="280" cy="86" rx="12" ry="8" fill="#81C784" stroke="#1B5E20" stroke-width="0.8"/>
+  <circle cx="272" cy="82" r="2.5" fill="#FFF9C4" stroke="#1B5E20" stroke-width="0.5"/>
+  <circle cx="272" cy="82" r="1" fill="#1B5E20"/>
+  <path d="M268 86 L260 95" fill="none" stroke="#81C784" stroke-width="1"/>
+  <path d="M292 86 L298 95" fill="none" stroke="#81C784" stroke-width="1"/>
+  <text x="280" y="110" font-family="Arial,sans-serif" font-size="6" fill="#BF360C" text-anchor="middle">Лягушка</text>
+  <text x="280" y="119" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Консументы II</text>
+
+  <!-- Arrow 3 -->
+  <path d="M325 95 L345 95" fill="none" stroke="#2E7D32" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Tertiary consumer -->
+  <rect x="350" y="65" width="80" height="60" rx="5" fill="#FFCDD2" stroke="#C62828" stroke-width="1"/>
+  <!-- Snake/hawk -->
+  <path d="M375 85 Q385 80 395 83 Q405 86 410 90" fill="none" stroke="#8D6E63" stroke-width="3"/>
+  <circle cx="412" cy="90" r="3" fill="#8D6E63" stroke="#5D4037" stroke-width="0.5"/>
+  <circle cx="413" cy="89" r="0.8" fill="#333"/>
+  <text x="390" y="110" font-family="Arial,sans-serif" font-size="6" fill="#B71C1C" text-anchor="middle">Хищник</text>
+  <text x="390" y="119" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Консументы III</text>
+
+  <!-- Arrow 4 -->
+  <path d="M435 95 L445 95" fill="none" stroke="#2E7D32" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Decomposers -->
+  <rect x="440" y="65" width="50" height="60" rx="5" fill="#D7CCC8" stroke="#5D4037" stroke-width="1"/>
+  <!-- Mushroom -->
+  <rect x="460" y="82" width="4" height="12" fill="#8D6E63" rx="1"/>
+  <path d="M452 82 Q462 72 472 82" fill="#EFEBE9" stroke="#8D6E63" stroke-width="0.8"/>
+  <text x="465" y="110" font-family="Arial,sans-serif" font-size="5" fill="#5D4037" text-anchor="middle">Редуценты</text>
+  <text x="465" y="119" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">бактерии</text>
+
+  <!-- Ecosystem roles -->
+  <text x="250" y="142" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">Роль животных в экосистеме</text>
+
+  <rect x="20" y="148" width="145" height="52" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="0.8"/>
+  <circle cx="35" cy="162" r="6" fill="#1565C0"/>
+  <text x="35" y="165" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle">1</text>
+  <text x="48" y="162" font-family="Arial,sans-serif" font-size="6" fill="#0D47A1" font-weight="bold">Опылители</text>
+  <text x="48" y="173" font-family="Arial,sans-serif" font-size="5.5" fill="#333">Пчёлы, бабочки, шмели</text>
+  <text x="48" y="182" font-family="Arial,sans-serif" font-size="5.5" fill="#333">→ размножение растений</text>
+  <text x="48" y="191" font-family="Arial,sans-serif" font-size="5.5" fill="#333">80% цветковых опыляют</text>
+
+  <rect x="172" y="148" width="145" height="52" rx="4" fill="#FFF3E0" stroke="#E65100" stroke-width="0.8"/>
+  <circle cx="187" cy="162" r="6" fill="#E65100"/>
+  <text x="187" y="165" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle">2</text>
+  <text x="200" y="162" font-family="Arial,sans-serif" font-size="6" fill="#BF360C" font-weight="bold">Распространители семян</text>
+  <text x="200" y="173" font-family="Arial,sans-serif" font-size="5.5" fill="#333">Птицы, млекопитающие</text>
+  <text x="200" y="182" font-family="Arial,sans-serif" font-size="5.5" fill="#333">→ семена в пищевар. тракте</text>
+  <text x="200" y="191" font-family="Arial,sans-serif" font-size="5.5" fill="#333">→ расселение растений</text>
+
+  <rect x="324" y="148" width="165" height="52" rx="4" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="0.8"/>
+  <circle cx="339" cy="162" r="6" fill="#7B1FA2"/>
+  <text x="339" y="165" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle">3</text>
+  <text x="352" y="162" font-family="Arial,sans-serif" font-size="6" fill="#4A148C" font-weight="bold">Почвообразователи</text>
+  <text x="352" y="173" font-family="Arial,sans-serif" font-size="5.5" fill="#333">Дождевые черви, кроты</text>
+  <text x="352" y="182" font-family="Arial,sans-serif" font-size="5.5" fill="#333">→ рыхление почвы</text>
+  <text x="352" y="191" font-family="Arial,sans-serif" font-size="5.5" fill="#333">→ гумус, аэрация</text>
+
+  <!-- Domestication -->
+  <text x="250" y="218" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">Одомашнение животных</text>
+
+  <!-- Timeline -->
+  <path d="M40 240 L460 240" fill="none" stroke="#795548" stroke-width="1.5"/>
+  <text x="250" y="235" font-family="Arial,sans-serif" font-size="6" fill="#795548" text-anchor="middle">Хронология одомашнения</text>
+
+  <!-- Dog -->
+  <circle cx="80" cy="240" r="5" fill="#8D6E63"/>
+  <text x="80" y="255" font-family="Arial,sans-serif" font-size="5.5" fill="#5D4037" text-anchor="middle">~15 000 лет</text>
+  <text x="80" y="263" font-family="Arial,sans-serif" font-size="5.5" fill="#5D4037" text-anchor="middle">Собака 🐕</text>
+
+  <!-- Goat/Sheep -->
+  <circle cx="160" cy="240" r="5" fill="#BCAAA4"/>
+  <text x="160" y="255" font-family="Arial,sans-serif" font-size="5.5" fill="#5D4037" text-anchor="middle">~11 000 лет</text>
+  <text x="160" y="263" font-family="Arial,sans-serif" font-size="5.5" fill="#5D4037" text-anchor="middle">Овца, коза 🐑</text>
+
+  <!-- Cow -->
+  <circle cx="250" cy="240" r="5" fill="#D7CCC8"/>
+  <text x="250" y="255" font-family="Arial,sans-serif" font-size="5.5" fill="#5D4037" text-anchor="middle">~8 000 лет</text>
+  <text x="250" y="263" font-family="Arial,sans-serif" font-size="5.5" fill="#5D4037" text-anchor="middle">Корова 🐄</text>
+
+  <!-- Horse -->
+  <circle cx="340" cy="240" r="5" fill="#A1887F"/>
+  <text x="340" y="255" font-family="Arial,sans-serif" font-size="5.5" fill="#5D4037" text-anchor="middle">~5 000 лет</text>
+  <text x="340" y="263" font-family="Arial,sans-serif" font-size="5.5" fill="#5D4037" text-anchor="middle">Лошадь 🐎</text>
+
+  <!-- Cat -->
+  <circle cx="420" cy="240" r="5" fill="#BCAAA4"/>
+  <text x="420" y="255" font-family="Arial,sans-serif" font-size="5.5" fill="#5D4037" text-anchor="middle">~4 000 лет</text>
+  <text x="420" y="263" font-family="Arial,sans-serif" font-size="5.5" fill="#5D4037" text-anchor="middle">Кошка 🐈</text>
+
+  <!-- Human uses -->
+  <rect x="20" y="272" width="460" height="68" rx="5" fill="white" stroke="#2E7D32" stroke-width="0.8" opacity="0.8"/>
+  <text x="250" y="285" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle" font-weight="bold">Значение животных для человека</text>
+
+  <text x="50" y="298" font-family="Arial,sans-serif" font-size="5.5" fill="#1565C0">🍖 Пища (мясо, молоко, яйца)</text>
+  <text x="50" y="308" font-family="Arial,sans-serif" font-size="5.5" fill="#1565C0">👕 Материалы (кожа, шерсть, шёлк)</text>
+  <text x="50" y="318" font-family="Arial,sans-serif" font-size="5.5" fill="#1565C0">💪 Транспорт (лошадь, верблюд)</text>
+
+  <text x="200" y="298" font-family="Arial,sans-serif" font-size="5.5" fill="#E65100">💊 Медицина (яды, сыворотки)</text>
+  <text x="200" y="308" font-family="Arial,sans-serif" font-size="5.5" fill="#E65100">🔬 Наука (лаборатории)</text>
+  <text x="200" y="318" font-family="Arial,sans-serif" font-size="5.5" fill="#E65100">🐾 Компаньоны (собаки, кошки)</text>
+
+  <text x="370" y="298" font-family="Arial,sans-serif" font-size="5.5" fill="#7B1FA2">🌾 Защита урожая (совы)</text>
+  <text x="370" y="308" font-family="Arial,sans-serif" font-size="5.5" fill="#7B1FA2">🐟 Промысел (рыболовство)</text>
+  <text x="370" y="318" font-family="Arial,sans-serif" font-size="5.5" fill="#7B1FA2">♻ Санитары (грифы, черви)</text>
+
+  <text x="250" y="335" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle">Правило 10%: на каждый трофический уровень переходит ~10% энергии</text>
+
+  <defs>
+    <marker id="arr" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <path d="M0,0 L6,2 L0,4 Z" fill="#2E7D32"/>
+    </marker>
+  </defs>
+</svg>

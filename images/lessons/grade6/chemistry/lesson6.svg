@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340">
+  <defs>
+    <linearGradient id="bg6" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e0e8f8"/>
+      <stop offset="100%" stop-color="#b0c0d8"/>
+    </linearGradient>
+    <linearGradient id="iceGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d0e8f8"/>
+      <stop offset="100%" stop-color="#90b8d8"/>
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#80b0d0"/>
+      <stop offset="100%" stop-color="#4080a8"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="340" fill="url(#bg6)" rx="12"/>
+  <rect x="8" y="8" width="464" height="324" fill="none" stroke="#6880a0" stroke-width="1.5" rx="8" stroke-dasharray="4,3"/>
+  <text x="240" y="32" text-anchor="middle" font-size="16" font-weight="bold" fill="#2a3860" font-family="serif">Агрегатные состояния вещества</text>
+  <!-- SOLID: Ice crystal -->
+  <rect x="25" y="50" width="130" height="160" rx="6" fill="#e8f0f8" stroke="#6880a0" stroke-width="1.5"/>
+  <text x="90" y="70" text-anchor="middle" font-size="11" font-weight="bold" fill="#2a3860">Твёрдое</text>
+  <!-- Crystal lattice grid -->
+  <circle cx="50" cy="95" r="7" fill="#a0c8e0" stroke="#5088a0" stroke-width="1.5"/>
+  <circle cx="75" cy="95" r="7" fill="#90b0c8" stroke="#5088a0" stroke-width="1.5"/>
+  <circle cx="100" cy="95" r="7" fill="#a0c8e0" stroke="#5088a0" stroke-width="1.5"/>
+  <circle cx="125" cy="95" r="7" fill="#90b0c8" stroke="#5088a0" stroke-width="1.5"/>
+  <circle cx="62" cy="115" r="7" fill="#90b0c8" stroke="#5088a0" stroke-width="1.5"/>
+  <circle cx="87" cy="115" r="7" fill="#a0c8e0" stroke="#5088a0" stroke-width="1.5"/>
+  <circle cx="112" cy="115" r="7" fill="#90b0c8" stroke="#5088a0" stroke-width="1.5"/>
+  <circle cx="50" cy="135" r="7" fill="#90b0c8" stroke="#5088a0" stroke-width="1.5"/>
+  <circle cx="75" cy="135" r="7" fill="#a0c8e0" stroke="#5088a0" stroke-width="1.5"/>
+  <circle cx="100" cy="135" r="7" fill="#90b0c8" stroke="#5088a0" stroke-width="1.5"/>
+  <circle cx="125" cy="135" r="7" fill="#a0c8e0" stroke="#5088a0" stroke-width="1.5"/>
+  <circle cx="62" cy="155" r="7" fill="#a0c8e0" stroke="#5088a0" stroke-width="1.5"/>
+  <circle cx="87" cy="155" r="7" fill="#90b0c8" stroke="#5088a0" stroke-width="1.5"/>
+  <circle cx="112" cy="155" r="7" fill="#a0c8e0" stroke="#5088a0" stroke-width="1.5"/>
+  <!-- Bonds in crystal -->
+  <line x1="57" y1="95" x2="68" y2="95" stroke="#6880a0" stroke-width="1"/>
+  <line x1="82" y1="95" x2="93" y2="95" stroke="#6880a0" stroke-width="1"/>
+  <line x1="107" y1="95" x2="118" y2="95" stroke="#6880a0" stroke-width="1"/>
+  <line x1="50" y1="102" x2="62" y2="108" stroke="#6880a0" stroke-width="1"/>
+  <line x1="75" y1="102" x2="87" y2="108" stroke="#6880a0" stroke-width="1"/>
+  <line x1="100" y1="102" x2="112" y2="108" stroke="#6880a0" stroke-width="1"/>
+  <text x="90" y="180" text-anchor="middle" font-size="8" fill="#3a5070">Форма + Объём</text>
+  <text x="90" y="192" text-anchor="middle" font-size="7" fill="#507090">Лёд, железо, соль</text>
+  <!-- Arrow solid->liquid -->
+  <path d="M160,130 L175,130" stroke="#5070a0" stroke-width="2" fill="none"/>
+  <polygon points="173,125 183,130 173,135" fill="#5070a0"/>
+  <text x="170" y="120" font-size="7" fill="#5070a0">плавление</text>
+  <!-- LIQUID: Water -->
+  <rect x="185" y="50" width="130" height="160" rx="6" fill="#e0ecf4" stroke="#6880a0" stroke-width="1.5"/>
+  <text x="250" y="70" text-anchor="middle" font-size="11" font-weight="bold" fill="#2a3860">Жидкое</text>
+  <!-- Water container -->
+  <path d="M210,90 L210,170 Q210,180 220,180 L280,180 Q290,180 290,170 L290,90" fill="url(#waterGrad)" opacity="0.4" stroke="#5080a0" stroke-width="1.5"/>
+  <rect x="212" y="120" width="76" height="58" rx="3" fill="url(#waterGrad)" opacity="0.5"/>
+  <!-- Random molecules in liquid -->
+  <circle cx="225" cy="135" r="5" fill="#a0c8e0" stroke="#5088a0" stroke-width="1" opacity="0.8"/>
+  <circle cx="248" cy="125" r="5" fill="#90b0c8" stroke="#5088a0" stroke-width="1" opacity="0.7"/>
+  <circle cx="270" cy="140" r="5" fill="#a0c8e0" stroke="#5088a0" stroke-width="1" opacity="0.8"/>
+  <circle cx="235" cy="155" r="5" fill="#90b0c8" stroke="#5088a0" stroke-width="1" opacity="0.7"/>
+  <circle cx="260" cy="160" r="5" fill="#a0c8e0" stroke="#5088a0" stroke-width="1" opacity="0.8"/>
+  <circle cx="280" cy="125" r="5" fill="#90b0c8" stroke="#5088a0" stroke-width="1" opacity="0.7"/>
+  <circle cx="220" cy="148" r="5" fill="#a0c8e0" stroke="#5088a0" stroke-width="1" opacity="0.8"/>
+  <circle cx="250" cy="150" r="5" fill="#90b0c8" stroke="#5088a0" stroke-width="1" opacity="0.7"/>
+  <!-- Wavy surface -->
+  <path d="M212,120 Q230,115 250,120 Q270,125 288,120" fill="none" stroke="#5080a0" stroke-width="1.5"/>
+  <text x="250" y="195" text-anchor="middle" font-size="8" fill="#3a5070">Объём (без формы)</text>
+  <text x="250" y="207" text-anchor="middle" font-size="7" fill="#507090">Вода, спирт, масло</text>
+  <!-- Arrow liquid->gas -->
+  <path d="M320,130 L335,130" stroke="#5070a0" stroke-width="2" fill="none"/>
+  <polygon points="333,125 343,130 333,135" fill="#5070a0"/>
+  <text x="328" y="120" font-size="7" fill="#5070a0">испарение</text>
+  <!-- GAS: Steam -->
+  <rect x="345" y="50" width="120" height="160" rx="6" fill="#e8f0f8" stroke="#6880a0" stroke-width="1.5"/>
+  <text x="405" y="70" text-anchor="middle" font-size="11" font-weight="bold" fill="#2a3860">Газ</text>
+  <!-- Scattered molecules far apart -->
+  <circle cx="370" cy="100" r="5" fill="#a0c8e0" stroke="#5088a0" stroke-width="1" opacity="0.6"/>
+  <circle cx="420" cy="90" r="5" fill="#90b0c8" stroke="#5088a0" stroke-width="1" opacity="0.5"/>
+  <circle cx="395" cy="130" r="5" fill="#a0c8e0" stroke="#5088a0" stroke-width="1" opacity="0.6"/>
+  <circle cx="445" cy="145" r="5" fill="#90b0c8" stroke="#5088a0" stroke-width="1" opacity="0.5"/>
+  <circle cx="360" cy="160" r="5" fill="#a0c8e0" stroke="#5088a0" stroke-width="1" opacity="0.6"/>
+  <circle cx="430" cy="175" r="5" fill="#90b0c8" stroke="#5088a0" stroke-width="1" opacity="0.5"/>
+  <circle cx="380" cy="185" r="5" fill="#a0c8e0" stroke="#5088a0" stroke-width="1" opacity="0.5"/>
+  <!-- Motion lines for gas -->
+  <path d="M368,95 Q360,88 365,80" stroke="#6880a0" stroke-width="0.8" fill="none" opacity="0.4"/>
+  <path d="M422,85 Q430,78 425,70" stroke="#6880a0" stroke-width="0.8" fill="none" opacity="0.4"/>
+  <path d="M447,140 Q455,133 450,125" stroke="#6880a0" stroke-width="0.8" fill="none" opacity="0.4"/>
+  <path d="M358,155 Q350,148 355,140" stroke="#6880a0" stroke-width="0.8" fill="none" opacity="0.4"/>
+  <text x="405" y="195" text-anchor="middle" font-size="8" fill="#3a5070">Ни формы, ни объёма</text>
+  <text x="405" y="207" text-anchor="middle" font-size="7" fill="#507090">O2, N2, CO2</text>
+  <!-- Bottom: transitions diagram -->
+  <rect x="20" y="225" width="440" height="105" rx="6" fill="#e8f0f8" stroke="#6880a0" stroke-width="1"/>
+  <text x="240" y="245" text-anchor="middle" font-size="10" font-weight="bold" fill="#2a3860">Переходы между состояниями</text>
+  <!-- H2O example -->
+  <rect x="40" y="255" width="80" height="30" rx="4" fill="#d0e8f8" stroke="#5080a0" stroke-width="1"/>
+  <text x="80" y="275" text-anchor="middle" font-size="9" fill="#2a3860">Лёд</text>
+  <line x1="125" y1="270" x2="155" y2="270" stroke="#5070a0" stroke-width="1.5"/>
+  <polygon points="153,265 163,270 153,275" fill="#5070a0"/>
+  <text x="140" y="262" font-size="6" fill="#5070a0">плавление</text>
+  <rect x="168" y="255" width="80" height="30" rx="4" fill="#80b0d0" stroke="#5080a0" stroke-width="1" opacity="0.7"/>
+  <text x="208" y="275" text-anchor="middle" font-size="9" fill="#fff">Вода</text>
+  <line x1="253" y1="270" x2="283" y2="270" stroke="#5070a0" stroke-width="1.5"/>
+  <polygon points="281,265 291,270 281,275" fill="#5070a0"/>
+  <text x="268" y="262" font-size="6" fill="#5070a0">испарение</text>
+  <rect x="295" y="255" width="80" height="30" rx="4" fill="#c8d8e8" stroke="#5080a0" stroke-width="1"/>
+  <text x="335" y="275" text-anchor="middle" font-size="9" fill="#2a3860">Пар</text>
+  <!-- Reverse arrows -->
+  <path d="M155,280 L125,280" stroke="#a07050" stroke-width="1.5" fill="none"/>
+  <polygon points="127,285 117,280 127,275" fill="#a07050"/>
+  <text x="140" y="293" font-size="6" fill="#a07050">кристаллизация</text>
+  <path d="M283,280 L253,280" stroke="#a07050" stroke-width="1.5" fill="none"/>
+  <polygon points="255,285 245,280 255,275" fill="#a07050"/>
+  <text x="268" y="293" font-size="6" fill="#a07050">конденсация</text>
+  <!-- Sublimation -->
+  <path d="M60,255 Q60,240 90,240 Q120,240 120,255" stroke="#8a5a8a" stroke-width="1" fill="none" stroke-dasharray="3,2"/>
+  <text x="90" y="236" text-anchor="middle" font-size="6" fill="#8a5a8a">сублимация</text>
+  <!-- All H2O -->
+  <text x="240" y="320" text-anchor="middle" font-size="9" font-weight="bold" fill="#2a3860">Везде — H2O! Состав не меняется</text>
+</svg>

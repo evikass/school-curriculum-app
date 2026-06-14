@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="tg6" x1="0" y1="0" x2="400" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <filter id="sh6" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="400" height="300" rx="8" fill="#1a1a2e"/>
+  <rect width="400" height="52" rx="8" fill="url(#tg6)"/>
+  <rect y="44" width="400" height="8" fill="url(#tg6)"/>
+  <text x="200" y="24" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Алкены: строение, изомерия</text>
+  <text x="200" y="42" text-anchor="middle" fill="#ccfbf1" font-family="Arial, sans-serif" font-size="10">Химия 10 класс</text>
+  <!-- Top left: Double bond & sp2 -->
+    <rect x="10" y="60" width="185" height="110" rx="6" fill="#1e1e3a" stroke="#10b981" stroke-width="1" filter="url(#sh6)"/>
+    <text x="22" y="78" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#10b981">Двойная связь C=C</text>
+    <text x="22" y="94" font-family="Arial, sans-serif" font-size="9.5" fill="#14b8a6">sp2-гибридизация</text>
+    <text x="22" y="106" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">Плоское строение (120°)</text>
+    <text x="22" y="120" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">1 сигма + 1 пи-связь</text>
+  <line x1="70" y1="145" x2="110" y2="145" stroke="#14b8a6" stroke-width="2"/>
+  <line x1="70" y1="150" x2="110" y2="150" stroke="#14b8a6" stroke-width="1" stroke-dasharray="3,2"/>
+    <text x="120" y="150" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">σ + π</text>
+    <text x="22" y="165" font-family="Arial, sans-serif" font-size="9" fill="#f59e0b">Общая формула: CnH2n</text>
+
+  <!-- Top right: Geometric isomerism -->
+    <rect x="205" y="60" width="185" height="110" rx="6" fill="#1e1e3a" stroke="#a855f7" stroke-width="1" filter="url(#sh6)"/>
+    <text x="217" y="78" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#a855f7">Геометрическая изомерия</text>
+    <text x="217" y="95" font-family="Arial, sans-serif" font-size="9.5" fill="#14b8a6">Цис-изомер:</text>
+    <text x="217" y="107" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">одинаковые группы по одну</text>
+    <text x="217" y="118" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">сторону двойной связи</text>
+    <text x="217" y="134" font-family="Arial, sans-serif" font-size="9.5" fill="#f59e0b">Транс-изомер:</text>
+    <text x="217" y="146" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">одинаковые группы по разные</text>
+    <text x="217" y="157" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">стороны двойной связи</text>
+
+  <!-- Bottom left: Examples -->
+    <rect x="10" y="178" width="185" height="112" rx="6" fill="#1e1e3a" stroke="#3b82f6" stroke-width="1" filter="url(#sh6)"/>
+    <text x="22" y="196" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#3b82f6">Гомологический ряд</text>
+    <text x="22" y="212" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">C2H4  — этен (этилен)</text>
+    <text x="22" y="225" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">C3H6  — пропен</text>
+    <text x="22" y="238" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">C4H8  — бутен-1</text>
+    <text x="22" y="251" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">C4H8  — бутен-2 (цис/транс)</text>
+    <text x="22" y="267" font-family="Arial, sans-serif" font-size="10" fill="#f59e0b">Суффикс: -ЕН</text>
+
+  <!-- Bottom right: Naming -->
+    <rect x="205" y="178" width="185" height="112" rx="6" fill="#1e1e3a" stroke="#0d9488" stroke-width="1" filter="url(#sh6)"/>
+    <text x="217" y="196" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#14b8a6">Номенклатура алкенов</text>
+    <circle cx="217" cy="208" r="3" fill="#14b8a6"/>
+  <text x="227" y="212" font-family="Arial, sans-serif" font-size="9.5" fill="#e2e8f0">Найти C=C (входит в главн.)</text>
+    <circle cx="217" cy="223" r="3" fill="#14b8a6"/>
+  <text x="227" y="227" font-family="Arial, sans-serif" font-size="9.5" fill="#e2e8f0">Нумерация ближе к C=C</text>
+    <circle cx="217" cy="238" r="3" fill="#14b8a6"/>
+  <text x="227" y="242" font-family="Arial, sans-serif" font-size="9.5" fill="#e2e8f0">Позиция двойной связи</text>
+    <text x="227" y="253" font-family="Arial, sans-serif" font-size="8.5" fill="#94a3b8">цифрой после названия</text>
+    <text x="217" y="270" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6">Пример:</text>
+    <text x="217" y="282" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">CH2=CH-CH2-CH3 — бутен-1</text>
+</svg>

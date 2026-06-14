@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#115e59"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.7"/>
+    </linearGradient>
+    <filter id="sh5">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg5)" rx="10"/>
+  <rect x="8" y="8" width="384" height="284" fill="none" stroke="white" stroke-width="0.5" opacity="0.15" rx="8"/>
+  <rect x="0" y="0" width="400" height="32" fill="#0d9488" rx="10"/>
+  <rect x="0" y="16" width="400" height="16" fill="#0d9488"/>
+  <text x="200" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="white" font-weight="bold">Характеристика элемента по положению в ПСХЭ</text>
+
+  <!-- Period/Group rules -->
+  <rect x="12" y="40" width="185" height="80" rx="6" fill="#0f766e" filter="url(#sh5)"/>
+  <text x="22" y="56" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Положение в ПСХЭ:</text>
+  <text x="22" y="70" font-family="Arial,sans-serif" font-size="8" fill="#f0fdfa">Номер периода = число эл. оболочек</text>
+  <text x="22" y="83" font-family="Arial,sans-serif" font-size="8" fill="#f0fdfa">Номер группы (A) = валент. эл-ны</text>
+  <text x="22" y="96" font-family="Arial,sans-serif" font-size="8" fill="#f0fdfa">Me: слева, снизу (IA-IIIA, Б)</text>
+  <text x="22" y="109" font-family="Arial,sans-serif" font-size="8" fill="#f0fdfa">NeMe: справа, сверху (IVA-VIIIA)</text>
+
+  <!-- Example: Sulfur -->
+  <rect x="203" y="40" width="185" height="80" rx="6" fill="#134e4a" filter="url(#sh5)"/>
+  <text x="213" y="56" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Пример: Сера (S)</text>
+  <text x="213" y="70" font-family="Arial,sans-serif" font-size="8" fill="white">3 период, VIA группа</text>
+  <text x="213" y="83" font-family="Arial,sans-serif" font-size="8" fill="#99f6e4">Конфиг: ...3s&#178;3p&#8308;</text>
+  <text x="213" y="96" font-family="Arial,sans-serif" font-size="8" fill="white">6 валентных электронов</text>
+  <text x="213" y="109" font-family="Arial,sans-serif" font-size="8" fill="#99f6e4">Неметалл, ЭО = 2.5</text>
+
+  <!-- Formulas from position -->
+  <rect x="12" y="128" width="376" height="68" rx="6" fill="#0f766e" filter="url(#sh5)"/>
+  <text x="22" y="144" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Формулы соединений по положению элемента (на примере S):</text>
+  <text x="22" y="160" font-family="Arial,sans-serif" font-size="9" fill="white">Высший оксид:</text>
+  <text x="115" y="160" font-family="Arial,sans-serif" font-size="9" fill="#99f6e4">SO&#8323; (с.о. = +6 = N группы)</text>
+  <text x="22" y="174" font-family="Arial,sans-serif" font-size="9" fill="white">Гидроксид:</text>
+  <text x="95" y="174" font-family="Arial,sans-serif" font-size="9" fill="#99f6e4">H&#8322;SO&#8324; (кислота)</text>
+  <text x="22" y="188" font-family="Arial,sans-serif" font-size="9" fill="white">Водородное соед.:</text>
+  <text x="130" y="188" font-family="Arial,sans-serif" font-size="9" fill="#99f6e4">H&#8322;S (8 - N группы = 2 атома H)</text>
+
+  <!-- Metal vs Nonmetal patterns -->
+  <rect x="12" y="204" width="185" height="84" rx="6" fill="#134e4a" filter="url(#sh5)"/>
+  <text x="22" y="220" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Закономерности:</text>
+  <text x="22" y="234" font-family="Arial,sans-serif" font-size="8" fill="#f0fdfa">По периоду: Me &#8594; NeMe</text>
+  <text x="22" y="247" font-family="Arial,sans-serif" font-size="8" fill="#f0fdfa">Оксиды: осн. &#8594; амф. &#8594; кисл.</text>
+  <text x="22" y="260" font-family="Arial,sans-serif" font-size="8" fill="#f0fdfa">Гидроксиды: щёлочь &#8594; кисл.</text>
+  <text x="22" y="273" font-family="Arial,sans-serif" font-size="8" fill="#f0fdfa">По группе: усил. Me св-в</text>
+  <text x="22" y="283" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">(для главных подгрупп)</text>
+
+  <!-- Example: Calcium -->
+  <rect x="203" y="204" width="185" height="84" rx="6" fill="#0f766e" filter="url(#sh5)"/>
+  <text x="213" y="220" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Пример: Кальций (Ca)</text>
+  <text x="213" y="234" font-family="Arial,sans-serif" font-size="8" fill="white">4 период, IIA группа</text>
+  <text x="213" y="247" font-family="Arial,sans-serif" font-size="8" fill="#99f6e4">...4s&#178;  - металл</text>
+  <text x="213" y="260" font-family="Arial,sans-serif" font-size="8" fill="white">Оксид: CaO (основный)</text>
+  <text x="213" y="273" font-family="Arial,sans-serif" font-size="8" fill="white">Гидроксид: Ca(OH)&#8322;</text>
+  <text x="213" y="283" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">Водородн. соед. - нет (Me)</text>
+
+  <text x="370" y="295" text-anchor="end" font-family="Arial,sans-serif" font-size="8" fill="#5eead4">Урок 5</text>
+</svg>

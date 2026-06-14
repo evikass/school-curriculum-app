@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg22" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#115e59"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.7"/>
+    </linearGradient>
+    <filter id="sh22">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg22)" rx="10"/>
+  <rect x="8" y="8" width="384" height="284" fill="none" stroke="white" stroke-width="0.5" opacity="0.15" rx="8"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="400" height="32" fill="#0d9488" rx="10"/>
+  <rect x="0" y="16" width="400" height="16" fill="#0d9488"/>
+  <text x="200" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="white" font-weight="bold">Кислород и озон</text>
+
+  <!-- O2 vs O3 comparison -->
+  <rect x="12" y="40" width="178" height="65" rx="6" fill="#0f766e" filter="url(#sh22)"/>
+  <text x="101" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#5eead4" font-weight="bold">Кислород O&#178;</text>
+  <circle cx="55" cy="80" r="10" fill="#ef4444" opacity="0.7"/><text x="55" y="84" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="white">O</text>
+  <line x1="65" y1="80" x2="85" y2="80" stroke="white" stroke-width="2" opacity="0.6"/>
+  <circle cx="95" cy="80" r="10" fill="#ef4444" opacity="0.7"/><text x="95" y="84" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="white">O</text>
+  <text x="145" y="76" font-family="Arial,sans-serif" font-size="7" fill="#ccfbf1">O=O</text>
+  <text x="145" y="88" font-family="Arial,sans-serif" font-size="7" fill="#ccfbf1">M=32</text>
+  <text x="145" y="99" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">бесцв. газ</text>
+
+  <rect x="198" y="40" width="190" height="65" rx="6" fill="#0f766e" filter="url(#sh22)"/>
+  <text x="293" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#5eead4" font-weight="bold">Озон O&#179;</text>
+  <circle cx="240" cy="82" r="9" fill="#8b5cf6" opacity="0.7"/><text x="240" y="86" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="white">O</text>
+  <line x1="249" y1="79" x2="264" y2="73" stroke="white" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="273" cy="70" r="9" fill="#8b5cf6" opacity="0.7"/><text x="273" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="white">O</text>
+  <line x1="282" y1="73" x2="297" y2="79" stroke="white" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="306" cy="82" r="9" fill="#8b5cf6" opacity="0.7"/><text x="306" y="86" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="white">O</text>
+  <text x="348" y="76" font-family="Arial,sans-serif" font-size="7" fill="#ccfbf1">M=48</text>
+  <text x="348" y="88" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">син. газ</text>
+  <text x="348" y="99" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">запах!</text>
+
+  <!-- Ozone layer -->
+  <rect x="12" y="112" width="185" height="55" rx="6" fill="#134e4a" filter="url(#sh22)"/>
+  <text x="22" y="127" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Озоновый слой</text>
+  <rect x="22" y="133" width="165" height="8" rx="3" fill="#1e3a5f" opacity="0.5"/>
+  <rect x="22" y="145" width="165" height="10" rx="3" fill="#3b82f6" opacity="0.4"/>
+  <text x="104" y="153" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#93c5fd">O&#179; слой 20-30 км</text>
+  <text x="104" y="163" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">Защита от UV</text>
+
+  <!-- Preparation -->
+  <rect x="203" y="112" width="185" height="55" rx="6" fill="#134e4a" filter="url(#sh22)"/>
+  <text x="213" y="127" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Получение O&#178;:</text>
+  <text x="213" y="142" font-family="Arial,sans-serif" font-size="8" fill="white">2KMnO&#8308; =t= K&#178;MnO&#8308;</text>
+  <text x="310" y="142" font-family="Arial,sans-serif" font-size="8" fill="#99f6e4">+MnO&#178;+O&#178;</text>
+  <text x="213" y="156" font-family="Arial,sans-serif" font-size="8" fill="white">2H&#178;O&#178; =MnO&#178;= 2H&#178;O+O&#178;</text>
+
+  <!-- Combustion reactions -->
+  <rect x="12" y="174" width="376" height="52" rx="6" fill="#0f766e" filter="url(#sh22)"/>
+  <text x="22" y="190" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Горение (окислительно-восстановительные):</text>
+  <text x="22" y="205" font-family="Arial,sans-serif" font-size="9" fill="white">C + O&#178; = CO&#178;    2Mg + O&#178; = 2MgO</text>
+  <text x="22" y="219" font-family="Arial,sans-serif" font-size="9" fill="white">4P + 5O&#178; = 2P&#178;O&#8309;    3Fe + 2O&#178; = Fe&#179;O&#8308;</text>
+
+  <!-- Redox note & allotropy -->
+  <rect x="12" y="233" width="185" height="52" rx="6" fill="#134e4a" filter="url(#sh22)"/>
+  <text x="22" y="249" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Аллотропия:</text>
+  <text x="22" y="264" font-family="Arial,sans-serif" font-size="8" fill="white">O&#178; и O&#179; — аллотропные</text>
+  <text x="22" y="277" font-family="Arial,sans-serif" font-size="8" fill="#99f6e4">модификации кислорода</text>
+
+  <rect x="203" y="233" width="185" height="52" rx="6" fill="#134e4a" filter="url(#sh22)"/>
+  <text x="213" y="249" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">ОВР:</text>
+  <text x="213" y="264" font-family="Arial,sans-serif" font-size="8" fill="white">O&#178; — окислитель (пр. -2)</text>
+  <text x="213" y="277" font-family="Arial,sans-serif" font-size="8" fill="white">3O&#178; = 2O&#179; (электрич. искра)</text>
+  <text x="345" y="249" font-family="Arial,sans-serif" font-size="8" fill="#5eead4">Урок 22</text>
+
+</svg>

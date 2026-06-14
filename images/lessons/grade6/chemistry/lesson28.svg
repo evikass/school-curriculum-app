@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFFDE7"/><stop offset="100%" stop-color="#FFF9C4"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#F57F17" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#F57F17" text-anchor="middle">Оксиды</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Химия 6 класс — Урок 28</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#F57F17" stroke-width="1" opacity="0.3"/>
+
+<!-- Formation diagram: Metal + Oxygen → Oxide -->
+<!-- Metal piece -->
+<rect x="50" y="90" width="60" height="40" rx="5" fill="#B0BEC5" stroke="#F57F17" stroke-width="1.5"/>
+<text x="80" y="115" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#263238" text-anchor="middle">Me</text>
+<text x="80" y="145" font-family="Arial,sans-serif" font-size="8" fill="#F57F17" text-anchor="middle">Металл</text>
+
+<!-- Plus sign -->
+<text x="135" y="115" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#F57F17" text-anchor="middle">+</text>
+
+<!-- Oxygen molecule O2 -->
+<circle cx="175" cy="100" r="12" fill="#FF8A65" fill-opacity="0.3" stroke="#F57F17" stroke-width="1.5"/>
+<text x="175" y="105" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#F57F17" text-anchor="middle">O</text>
+<circle cx="199" cy="100" r="12" fill="#FF8A65" fill-opacity="0.3" stroke="#F57F17" stroke-width="1.5"/>
+<text x="199" y="105" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#F57F17" text-anchor="middle">O</text>
+<line x1="186" y1="100" x2="188" y2="100" stroke="#F57F17" stroke-width="2"/>
+<text x="187" y="130" font-family="Arial,sans-serif" font-size="8" fill="#F57F17" text-anchor="middle">O₂</text>
+
+<!-- Arrow -->
+<line x1="220" y1="110" x2="260" y2="110" stroke="#F57F17" stroke-width="2"/>
+<polygon points="260,110 253,106 253,114" fill="#F57F17"/>
+<text x="240" y="100" font-family="Arial,sans-serif" font-size="7" fill="#F57F17" text-anchor="middle">t°</text>
+
+<!-- Oxide product -->
+<rect x="268" y="88" width="70" height="40" rx="8" fill="#FFF9C4" stroke="#F57F17" stroke-width="2"/>
+<text x="303" y="112" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#F57F17" text-anchor="middle">MeO</text>
+<text x="303" y="145" font-family="Arial,sans-serif" font-size="8" fill="#F57F17" text-anchor="middle">Оксид</text>
+
+<!-- Classification section -->
+<rect x="30" y="160" width="210" height="175" rx="8" fill="white" fill-opacity="0.5" stroke="#F57F17" stroke-width="1"/>
+<text x="135" y="180" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#F57F17" text-anchor="middle">Оксиды металлов</text>
+<text x="135" y="196" font-family="Arial,sans-serif" font-size="8" fill="#666" text-anchor="middle">(основные)</text>
+
+<text x="50" y="218" font-family="Arial,sans-serif" font-size="9" fill="#F57F17">Na₂O — оксид натрия</text>
+<text x="50" y="236" font-family="Arial,sans-serif" font-size="9" fill="#F57F17">CaO — оксид кальция</text>
+<text x="50" y="254" font-family="Arial,sans-serif" font-size="9" fill="#F57F17">Fe₂O₃ — оксид железа</text>
+<text x="50" y="272" font-family="Arial,sans-serif" font-size="9" fill="#F57F17">MgO — оксид магния</text>
+
+<rect x="50" y="285" width="170" height="35" rx="4" fill="#FFF9C4" stroke="#F57F17" stroke-width="0.5"/>
+<text x="135" y="300" font-family="Arial,sans-serif" font-size="8" fill="#F57F17" text-anchor="middle">+ H₂O → щёлочь</text>
+<text x="135" y="314" font-family="Arial,sans-serif" font-size="8" fill="#F57F17" text-anchor="middle">+ кислота → соль + H₂O</text>
+
+<!-- Non-metal oxides -->
+<rect x="260" y="160" width="210" height="175" rx="8" fill="white" fill-opacity="0.5" stroke="#F57F17" stroke-width="1"/>
+<text x="365" y="180" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#F57F17" text-anchor="middle">Оксиды неметаллов</text>
+<text x="365" y="196" font-family="Arial,sans-serif" font-size="8" fill="#666" text-anchor="middle">(кислотные)</text>
+
+<text x="280" y="218" font-family="Arial,sans-serif" font-size="9" fill="#F57F17">CO₂ — оксид углерода</text>
+<text x="280" y="236" font-family="Arial,sans-serif" font-size="9" fill="#F57F17">SO₃ — оксид серы</text>
+<text x="280" y="254" font-family="Arial,sans-serif" font-size="9" fill="#F57F17">P₂O₅ — оксид фосфора</text>
+<text x="280" y="272" font-family="Arial,sans-serif" font-size="9" fill="#F57F17">SiO₂ — оксид кремния</text>
+
+<rect x="280" y="285" width="170" height="35" rx="4" fill="#FFF9C4" stroke="#F57F17" stroke-width="0.5"/>
+<text x="365" y="300" font-family="Arial,sans-serif" font-size="8" fill="#F57F17" text-anchor="middle">+ H₂O → кислота</text>
+<text x="365" y="314" font-family="Arial,sans-serif" font-size="8" fill="#F57F17" text-anchor="middle">+ основание → соль + H₂O</text>
+
+<!-- General formula -->
+<text x="395" y="135" font-family="Arial,sans-serif" font-size="9" fill="#F57F17" text-anchor="middle" font-weight="bold">Общая формула:</text>
+<text x="395" y="150" font-family="Arial,sans-serif" font-size="12" fill="#F57F17" text-anchor="middle" font-weight="bold">ЭₓOᵧ</text>
+</svg>

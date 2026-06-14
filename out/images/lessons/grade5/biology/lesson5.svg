@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFECB3"/></linearGradient>
+<linearGradient id="sunGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF176"/><stop offset="100%" stop-color="#FFD54F"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#F57F17" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#E65100" text-anchor="middle">Экологические факторы</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 5 класс — Урок 5</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#F57F17" stroke-width="1" opacity="0.3"/>
+
+<!-- Central organism -->
+<g transform="translate(250,120)">
+  <circle cx="0" cy="0" r="30" fill="#81C784" opacity="0.3" stroke="#2E7D32" stroke-width="2"/>
+  <path d="M-8,-15 Q0,-25 8,-15 Q15,-5 8,5 Q0,15 -8,5 Q-15,-5 -8,-15" fill="#66BB6A" stroke="#2E7D32" stroke-width="1.5"/>
+  <path d="M0,-12 L0,5" stroke="#2E7D32" stroke-width="1"/>
+  <path d="M0,-5 L-6,0" stroke="#2E7D32" stroke-width="0.8"/>
+  <path d="M0,-5 L6,0" stroke="#2E7D32" stroke-width="0.8"/>
+  <text x="0" y="42" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">ОРГАНИЗМ</text>
+</g>
+
+<!-- Arrow from factors to organism -->
+<line x1="90" y1="80" x2="215" y2="105" stroke="#F57F17" stroke-width="1.5"/>
+<line x1="250" y1="80" x2="250" y2="90" stroke="#1565C0" stroke-width="1.5"/>
+<line x1="410" y1="80" x2="285" y2="105" stroke="#9C27B0" stroke-width="1.5"/>
+
+<!-- АБИОТИЧЕСКИЕ ФАКТОРЫ -->
+<g transform="translate(90,165)">
+  <rect x="-70" y="-80" width="140" height="150" rx="8" fill="white" opacity="0.9" stroke="#F57F17" stroke-width="1.5"/>
+  <text x="0" y="-63" font-family="Arial,sans-serif" font-size="9" fill="#E65100" text-anchor="middle" font-weight="bold">АБИОТИЧЕСКИЕ</text>
+  <line x1="-60" y1="-57" x2="60" y2="-57" stroke="#F57F17" stroke-width="0.5"/>
+  
+  <!-- Sun (light) -->
+  <circle cx="-35" cy="-35" r="10" fill="url(#sunGrad)" stroke="#F9A825" stroke-width="1"/>
+  <line x1="-35" y1="-48" x2="-35" y2="-52" stroke="#F9A825" stroke-width="1"/>
+  <line x1="-22" y1="-35" x2="-18" y2="-35" stroke="#F9A825" stroke-width="1"/>
+  <line x1="-48" y1="-35" x2="-52" y2="-35" stroke="#F9A825" stroke-width="1"/>
+  <line x1="-44" y1="-44" x2="-47" y2="-47" stroke="#F9A825" stroke-width="1"/>
+  <line x1="-26" y1="-44" x2="-23" y2="-47" stroke="#F9A825" stroke-width="1"/>
+  <text x="-10" y="-33" font-family="Arial,sans-serif" font-size="7" fill="#E65100">Свет</text>
+  
+  <!-- Temperature -->
+  <rect x="-42" y="-18" width="5" height="20" rx="2" fill="#FFCDD2" stroke="#C62828" stroke-width="0.8"/>
+  <rect x="-41" y="-5" width="3" height="6" fill="#F44336"/>
+  <circle cx="-39.5" cy="6" r="3" fill="#F44336" stroke="#C62828" stroke-width="0.8"/>
+  <text x="-25" y="-5" font-family="Arial,sans-serif" font-size="7" fill="#E65100">Температура</text>
+  
+  <!-- Water/Humidity -->
+  <path d="M-38,18 Q-35,10 -32,18 Q-35,22 -38,18" fill="#42A5F5" stroke="#1565C0" stroke-width="0.8"/>
+  <path d="M-35,18 Q-35,25 -35,30" fill="none" stroke="#42A5F5" stroke-width="0.8"/>
+  <text x="-20" y="22" font-family="Arial,sans-serif" font-size="7" fill="#E65100">Вода</text>
+  
+  <!-- Wind -->
+  <path d="M-40,38 Q-30,35 -25,38" fill="none" stroke="#90CAF9" stroke-width="1.5"/>
+  <path d="M-38,43 Q-28,40 -23,43" fill="none" stroke="#90CAF9" stroke-width="1.5"/>
+  <text x="-10" y="42" font-family="Arial,sans-serif" font-size="7" fill="#E65100">Ветер</text>
+  
+  <text x="0" y="60" font-family="Arial,sans-serif" font-size="5.5" fill="#999" text-anchor="middle">Факторы неживой природы</text>
+</g>
+
+<!-- БИОТИЧЕСКИЕ ФАКТОРЫ -->
+<g transform="translate(250,270)">
+  <rect x="-70" y="-45" width="140" height="80" rx="8" fill="white" opacity="0.9" stroke="#9C27B0" stroke-width="1.5"/>
+  <text x="0" y="-28" font-family="Arial,sans-serif" font-size="9" fill="#7B1FA2" text-anchor="middle" font-weight="bold">БИОТИЧЕСКИЕ</text>
+  <line x1="-60" y1="-22" x2="60" y2="-22" stroke="#9C27B0" stroke-width="0.5"/>
+  
+  <!-- Fox and rabbit -->
+  <ellipse cx="-35" cy="-5" rx="8" ry="5" fill="#FFAB91" stroke="#BF360C" stroke-width="0.8"/>
+  <circle cx="-40" cy="-7" r="2" fill="#1B5E20"/>
+  <path d="M-43,-10 Q-45,-14 -42,-12" fill="none" stroke="#BF360C" stroke-width="0.6"/>
+  <path d="M-27,-5 Q-25,-10 -23,-5" fill="none" stroke="#BF360C" stroke-width="1"/>
+  <ellipse cx="-10" cy="-5" rx="6" ry="4" fill="#E0E0E0" stroke="#666" stroke-width="0.8"/>
+  <circle cx="-13" cy="-7" r="1.5" fill="#1B5E20"/>
+  <path d="M-16,-8 Q-18,-12 -15,-10" fill="none" stroke="#666" stroke-width="0.5"/>
+  <path d="M-4,-5 Q-2,-8 0,-5" fill="none" stroke="#666" stroke-width="0.5"/>
+  
+  <text x="30" y="-8" font-family="Arial,sans-serif" font-size="6" fill="#7B1FA2" text-anchor="middle">Хищник —</text>
+  <text x="30" y="0" font-family="Arial,sans-serif" font-size="6" fill="#7B1FA2" text-anchor="middle">жертва</text>
+  
+  <text x="0" y="22" font-family="Arial,sans-serif" font-size="5.5" fill="#999" text-anchor="middle">Влияние одних организмов на другие</text>
+  <text x="0" y="30" font-family="Arial,sans-serif" font-size="5.5" fill="#999" text-anchor="middle">конкуренция, симбиоз, паразитизм</text>
+</g>
+
+<!-- АНТРОПОГЕННЫЕ ФАКТОРЫ -->
+<g transform="translate(410,165)">
+  <rect x="-70" y="-80" width="140" height="150" rx="8" fill="white" opacity="0.9" stroke="#1565C0" stroke-width="1.5"/>
+  <text x="0" y="-63" font-family="Arial,sans-serif" font-size="9" fill="#0D47A1" text-anchor="middle" font-weight="bold">АНТРОПОГЕННЫЕ</text>
+  <line x1="-60" y1="-57" x2="60" y2="-57" stroke="#1565C0" stroke-width="0.5"/>
+  
+  <!-- Factory -->
+  <rect x="-45" y="-35" width="25" height="30" fill="#90CAF9" opacity="0.5" stroke="#1565C0" stroke-width="1"/>
+  <rect x="-50" y="-45" width="8" height="15" fill="#90CAF9" stroke="#1565C0" stroke-width="0.8"/>
+  <rect x="-35" y="-50" width="8" height="20" fill="#90CAF9" stroke="#1565C0" stroke-width="0.8"/>
+  <!-- Smoke -->
+  <path d="M-46,-45 Q-48,-52 -42,-55 Q-38,-58 -40,-62" fill="none" stroke="#9E9E9E" stroke-width="1.5" opacity="0.5"/>
+  <path d="M-31,-50 Q-28,-57 -24,-60" fill="none" stroke="#9E9E9E" stroke-width="1.5" opacity="0.5"/>
+  <text x="-5" y="-30" font-family="Arial,sans-serif" font-size="6" fill="#0D47A1">Загрязнение</text>
+  
+  <!-- Tractor/deforestation -->
+  <rect x="-45" y="5" width="20" height="10" fill="#FFCC80" stroke="#E65100" stroke-width="0.8"/>
+  <rect x="-50" y="8" width="5" height="7" fill="#E65100" stroke="#BF360C" stroke-width="0.5"/>
+  <circle cx="-38" cy="18" r="4" fill="#8D6E63" stroke="#5D4037" stroke-width="0.8"/>
+  <circle cx="-28" cy="18" r="4" fill="#8D6E63" stroke="#5D4037" stroke-width="0.8"/>
+  <text x="-5" y="12" font-family="Arial,sans-serif" font-size="6" fill="#0D47A1">Вырубка</text>
+  
+  <!-- Urbanization -->
+  <rect x="-45" y="30" width="10" height="15" fill="#B0BEC5" stroke="#546E7A" stroke-width="0.5"/>
+  <rect x="-35" y="35" width="10" height="10" fill="#B0BEC5" stroke="#546E7A" stroke-width="0.5"/>
+  <rect x="-25" y="32" width="10" height="13" fill="#B0BEC5" stroke="#546E7A" stroke-width="0.5"/>
+  <text x="15" y="40" font-family="Arial,sans-serif" font-size="6" fill="#0D47A1">Города</text>
+  
+  <text x="0" y="60" font-family="Arial,sans-serif" font-size="5.5" fill="#999" text-anchor="middle">Влияние человека</text>
+  <text x="0" y="68" font-family="Arial,sans-serif" font-size="5.5" fill="#999" text-anchor="middle">на природу</text>
+</g>
+
+<!-- Connecting arrow from organism to biotic -->
+<line x1="250" y1="150" x2="250" y2="220" stroke="#9C27B0" stroke-width="1.5"/>
+</svg>

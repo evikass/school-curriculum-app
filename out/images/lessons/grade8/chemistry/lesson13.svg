@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg13" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0fdfa"/>
+      <stop offset="100%" stop-color="#ccfbf1"/>
+    </linearGradient>
+    <filter id="shadow13">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrow13" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#0d9488"/>
+    </marker>
+    <marker id="arrow13r" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#dc2626"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg13)" rx="12"/>
+
+  <!-- Title -->
+  <text x="400" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#0d9488">Ионная связь</text>
+  <text x="400" y="64" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">Передача электрона от металла к неметаллу</text>
+
+  <!-- Step 1: Na atom -->
+  <g transform="translate(100, 175)">
+    <circle cx="0" cy="0" r="38" fill="#ccfbf1" stroke="#0d9488" stroke-width="2.5"/>
+    <text x="0" y="7" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#0d9488">Na</text>
+    <!-- Electron being donated (highlighted) -->
+    <circle cx="35" cy="-25" r="6" fill="#dc2626" fill-opacity="0.3" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="35" y="-22" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#dc2626" font-weight="bold">e⁻</text>
+    <text x="0" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#14b8a6">Атом Na</text>
+    <text x="0" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#14b8a6">11e⁻ / 11p⁺</text>
+  </g>
+
+  <!-- Transfer arrow -->
+  <line x1="155" y1="150" x2="255" y2="150" stroke="#dc2626" stroke-width="2.5" marker-end="url(#arrow13r)"/>
+  <text x="205" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#dc2626">e⁻</text>
+
+  <!-- Step 2: Cl atom -->
+  <g transform="translate(310, 175)">
+    <circle cx="0" cy="0" r="40" fill="#ccfbf1" stroke="#0d9488" stroke-width="2.5"/>
+    <text x="0" y="7" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#0d9488">Cl</text>
+    <!-- Incoming electron -->
+    <circle cx="-38" cy="-20" r="6" fill="#2563eb" fill-opacity="0.3" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="-38" y="-17" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#2563eb" font-weight="bold">e⁻</text>
+    <text x="0" y="57" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#14b8a6">Атом Cl</text>
+    <text x="0" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#14b8a6">17e⁻ / 17p⁺</text>
+  </g>
+
+  <!-- Results -->
+  <g transform="translate(470, 175)">
+    <circle cx="0" cy="0" r="35" fill="#fef2f2" stroke="#dc2626" stroke-width="2.5"/>
+    <text x="0" y="2" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#dc2626">Na⁺</text>
+    <text x="0" y="16" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#dc2626">+1</text>
+    <text x="0" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#14b8a6">Катион</text>
+    <text x="0" y="67" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#14b8a6">10e⁻ / 11p⁺</text>
+  </g>
+
+  <g transform="translate(590, 175)">
+    <circle cx="0" cy="0" r="38" fill="#eff6ff" stroke="#2563eb" stroke-width="2.5"/>
+    <text x="0" y="2" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2563eb">Cl⁻</text>
+    <text x="0" y="16" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2563eb">−1</text>
+    <text x="0" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#14b8a6">Анион</text>
+    <text x="0" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#14b8a6">18e⁻ / 17p⁺</text>
+  </g>
+
+  <!-- Plus sign between ions -->
+  <text x="530" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#0d9488">+</text>
+
+  <!-- Electrostatic attraction bracket -->
+  <line x1="470" y1="250" x2="590" y2="250" stroke="#0d9488" stroke-width="2" marker-end="url(#arrow13)"/>
+  <line x1="590" y1="250" x2="470" y2="250" stroke="#0d9488" stroke-width="2" marker-end="url(#arrow13)"/>
+  <text x="530" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#0d9488">Электростатическое притяжение</text>
+
+  <!-- NaCl Crystal Lattice -->
+  <g transform="translate(400, 420)">
+    <rect x="-300" y="-55" width="600" height="110" rx="10" fill="white" fill-opacity="0.7" stroke="#2dd4bf" stroke-width="1.5" filter="url(#shadow13)"/>
+    <text x="-240" y="-35" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#0d9488">Кристаллическая решётка NaCl</text>
+
+    <!-- Row 1 -->
+    <circle cx="-140" cy="-10" r="14" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="-140" y="-6" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#dc2626">Na⁺</text>
+    <circle cx="-90" cy="-10" r="16" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="-90" y="-6" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#2563eb">Cl⁻</text>
+    <circle cx="-40" cy="-10" r="14" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="-40" y="-6" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#dc2626">Na⁺</text>
+    <circle cx="10" cy="-10" r="16" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="10" y="-6" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#2563eb">Cl⁻</text>
+    <circle cx="60" cy="-10" r="14" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="60" y="-6" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#dc2626">Na⁺</text>
+    <circle cx="110" cy="-10" r="16" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="110" y="-6" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#2563eb">Cl⁻</text>
+
+    <!-- Row 2 (offset) -->
+    <circle cx="-115" cy="25" r="16" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="-115" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#2563eb">Cl⁻</text>
+    <circle cx="-65" cy="25" r="14" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="-65" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#dc2626">Na⁺</text>
+    <circle cx="-15" cy="25" r="16" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="-15" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#2563eb">Cl⁻</text>
+    <circle cx="35" cy="25" r="14" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="35" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#dc2626">Na⁺</text>
+    <circle cx="85" cy="25" r="16" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="85" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#2563eb">Cl⁻</text>
+
+    <!-- Legend -->
+    <circle cx="190" cy="-20" r="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+    <text x="205" y="-16" font-family="Arial, sans-serif" font-size="10" fill="#0d9488">Na⁺ катион</text>
+    <circle cx="190" cy="5" r="9" fill="#eff6ff" stroke="#2563eb" stroke-width="1.2"/>
+    <text x="207" y="9" font-family="Arial, sans-serif" font-size="10" fill="#0d9488">Cl⁻ анион</text>
+    <text x="180" y="35" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6">Чередование ионов</text>
+  </g>
+</svg>

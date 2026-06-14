@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg23" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#115e59"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.7"/>
+    </linearGradient>
+    <filter id="sh23">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg23)" rx="10"/>
+  <rect x="8" y="8" width="384" height="284" fill="none" stroke="white" stroke-width="0.5" opacity="0.15" rx="8"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="400" height="32" fill="#0d9488" rx="10"/>
+  <rect x="0" y="16" width="400" height="16" fill="#0d9488"/>
+  <text x="200" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="white" font-weight="bold">Сера и её соединения</text>
+
+  <!-- Sulfur allotropes -->
+  <rect x="12" y="40" width="120" height="55" rx="6" fill="#0f766e" filter="url(#sh23)"/>
+  <text x="72" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Ромбич. S&#8328;</text>
+  <polygon points="50,70 65,62 80,70 80,85 65,93 50,85" fill="#eab308" opacity="0.6" stroke="#eab308" stroke-width="0.5"/>
+  <text x="72" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="white">S&#8328;</text>
+  <text x="72" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#ccfbf1">жёлтая</text>
+
+  <rect x="140" y="40" width="120" height="55" rx="6" fill="#0f766e" filter="url(#sh23)"/>
+  <text x="200" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Монокл. S&#946;</text>
+  <polygon points="180,68 195,63 210,70 210,82 195,88 180,82" fill="#f59e0b" opacity="0.5" stroke="#f59e0b" stroke-width="0.5"/>
+  <text x="195" y="79" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="white">S&#946;</text>
+  <text x="195" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#ccfbf1">игольчатая</text>
+
+  <rect x="268" y="40" width="120" height="55" rx="6" fill="#0f766e" filter="url(#sh23)"/>
+  <text x="328" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Пластич. S</text>
+  <rect x="295" y="65" width="66" height="20" rx="10" fill="#d97706" opacity="0.4" stroke="#d97706" stroke-width="0.5"/>
+  <text x="328" y="79" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="white">расплав</text>
+  <text x="328" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#ccfbf1">каучукоподоб.</text>
+
+  <!-- H2S, SO2, SO3 -->
+  <rect x="12" y="102" width="120" height="58" rx="6" fill="#134e4a" filter="url(#sh23)"/>
+  <text x="72" y="117" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#5eead4" font-weight="bold">H&#178;S</text>
+  <text x="72" y="131" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="white">сероводород</text>
+  <text x="72" y="143" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">S: -2 (восст-ль)</text>
+  <text x="72" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ccfbf1">запах тухл. яиц</text>
+
+  <rect x="140" y="102" width="120" height="58" rx="6" fill="#134e4a" filter="url(#sh23)"/>
+  <text x="200" y="117" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#5eead4" font-weight="bold">SO&#178;</text>
+  <text x="200" y="131" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="white">сернистый газ</text>
+  <text x="200" y="143" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">S: +4 (ок.-вос.)</text>
+  <text x="200" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ccfbf1">S + O&#178; = SO&#178;</text>
+
+  <rect x="268" y="102" width="120" height="58" rx="6" fill="#134e4a" filter="url(#sh23)"/>
+  <text x="328" y="117" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#5eead4" font-weight="bold">SO&#179;</text>
+  <text x="328" y="131" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="white">серный ангидрид</text>
+  <text x="328" y="143" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">S: +6 (ок-ль)</text>
+  <text x="328" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ccfbf1">2SO&#178;+O&#178;=2SO&#179;</text>
+
+  <!-- H2SO4 and Contact Process -->
+  <rect x="12" y="167" width="185" height="55" rx="6" fill="#0f766e" filter="url(#sh23)"/>
+  <text x="22" y="183" font-family="Arial,sans-serif" font-size="10" fill="#5eead4" font-weight="bold">H&#178;SO&#8308; (серная к-та)</text>
+  <text x="22" y="197" font-family="Arial,sans-serif" font-size="8" fill="white">H-O-SO&#178;-OH</text>
+  <text x="22" y="211" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">Сильная к-та, водоотн.</text>
+  <text x="22" y="219" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">Разб. и конц.</text>
+
+  <rect x="203" y="167" width="185" height="55" rx="6" fill="#0f766e" filter="url(#sh23)"/>
+  <text x="213" y="183" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Контактный способ:</text>
+  <text x="213" y="197" font-family="Arial,sans-serif" font-size="8" fill="white">1) S + O&#178; = SO&#178;</text>
+  <text x="213" y="209" font-family="Arial,sans-serif" font-size="8" fill="white">2) 2SO&#178;+O&#178; =V&#178;O&#8309;= 2SO&#179;</text>
+  <text x="213" y="221" font-family="Arial,sans-serif" font-size="8" fill="white">3) SO&#179;+H&#178;O = H&#178;SO&#8308;</text>
+
+  <!-- Reactions of H2SO4 -->
+  <rect x="12" y="229" width="376" height="56" rx="6" fill="#134e4a" filter="url(#sh23)"/>
+  <text x="22" y="245" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Реакции H&#178;SO&#8308;:</text>
+  <text x="22" y="259" font-family="Arial,sans-serif" font-size="8" fill="white">CuO + H&#178;SO&#8308; = CuSO&#8308; + H&#178;O    Zn + H&#178;SO&#8308;(р) = ZnSO&#8308; + H&#178;</text>
+  <text x="22" y="273" font-family="Arial,sans-serif" font-size="8" fill="white">Cu + 2H&#178;SO&#8308;(к) = CuSO&#8308; + SO&#178; + 2H&#178;O</text>
+  <text x="345" y="245" font-family="Arial,sans-serif" font-size="8" fill="#5eead4">Урок 23</text>
+
+</svg>

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340">
+  <defs>
+    <linearGradient id="bg8" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0e8d8"/>
+      <stop offset="100%" stop-color="#d8ccb0"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="340" fill="url(#bg8)" rx="12"/>
+  <rect x="8" y="8" width="464" height="324" fill="none" stroke="#a09070" stroke-width="1.5" rx="8" stroke-dasharray="4,3"/>
+  <text x="240" y="32" text-anchor="middle" font-size="16" font-weight="bold" fill="#5a4a2a" font-family="serif">Разделение смесей</text>
+  <!-- Distillation apparatus (main focus) -->
+  <circle cx="100" cy="140" r="35" fill="#e8e0d0" stroke="#8a7a5a" stroke-width="2"/>
+  <circle cx="100" cy="140" r="30" fill="#d8cbb0" stroke="#8a7a5a" stroke-width="1"/>
+  <rect x="92" y="100" width="16" height="8" rx="2" fill="#c0b090" stroke="#8a7a5a" stroke-width="1"/>
+  <!-- Liquid inside flask -->
+  <path d="M75,145 Q100,140 125,145 L125,165 Q100,170 75,165 Z" fill="#80b0d0" opacity="0.5"/>
+  <!-- Bubbles -->
+  <circle cx="90" cy="150" r="2" fill="#a0c8e0" opacity="0.5"/>
+  <circle cx="110" cy="148" r="3" fill="#a0c8e0" opacity="0.4"/>
+  <!-- Thermometer -->
+  <rect x="96" y="105" width="4" height="20" rx="2" fill="#e0d0b0" stroke="#8a7a5a" stroke-width="0.5"/>
+  <circle cx="98" cy="128" r="3" fill="#d04040" stroke="#a03030" stroke-width="0.5"/>
+  <!-- Tube from flask -->
+  <path d="M135,135 L160,125 L180,130 L210,115 L240,110 L260,115 L280,120" stroke="#a09070" stroke-width="3" fill="none"/>
+  <path d="M135,140 L160,130 L180,135 L210,120 L240,115 L260,120 L280,125" stroke="#a09070" stroke-width="3" fill="none"/>
+  <!-- Condenser (jacket) -->
+  <rect x="200" y="105" width="60" height="28" rx="4" fill="#c0d0e0" stroke="#6888a0" stroke-width="1.5" opacity="0.5"/>
+  <line x1="210" y1="108" x2="210" y2="130" stroke="#6888a0" stroke-width="0.5" opacity="0.4"/>
+  <line x1="220" y1="108" x2="220" y2="130" stroke="#6888a0" stroke-width="0.5" opacity="0.4"/>
+  <line x1="230" y1="108" x2="230" y2="130" stroke="#6888a0" stroke-width="0.5" opacity="0.4"/>
+  <line x1="240" y1="108" x2="240" y2="130" stroke="#6888a0" stroke-width="0.5" opacity="0.4"/>
+  <line x1="250" y1="108" x2="250" y2="130" stroke="#6888a0" stroke-width="0.5" opacity="0.4"/>
+  <!-- Collection flask -->
+  <path d="M275,125 L275,175 Q275,185 285,185 L310,185 Q320,185 320,175 L320,125" fill="#e8e0d0" stroke="#8a7a5a" stroke-width="1.5"/>
+  <rect x="278" y="150" width="39" height="33" rx="2" fill="#80b0d0" opacity="0.4"/>
+  <!-- Labels -->
+  <text x="100" y="185" text-anchor="middle" font-size="7" fill="#5a4a2a">Колба</text>
+  <text x="230" y="100" text-anchor="middle" font-size="7" fill="#507090">Холодильник</text>
+  <text x="298" y="200" text-anchor="middle" font-size="7" fill="#5a4a2a">Приёмник</text>
+  <!-- Burner under flask -->
+  <rect x="85" y="175" width="30" height="10" rx="2" fill="#b0b0b0" stroke="#808080" stroke-width="1"/>
+  <path d="M97,168 Q100,155 103,168" fill="#e0a030" opacity="0.6"/>
+  <path d="M95,170 Q100,158 105,170" fill="#f0c860" opacity="0.4"/>
+  <!-- Right side: step-by-step process -->
+  <rect x="340" y="50" width="125" height="210" rx="6" fill="#f0e8d0" stroke="#a09070" stroke-width="1"/>
+  <text x="402" y="68" text-anchor="middle" font-size="9" font-weight="bold" fill="#5a4a2a">Порядок действий</text>
+  <text x="355" y="85" font-size="7" fill="#7a6a4a">1. Смесь: песок +</text>
+  <text x="355" y="95" font-size="7" fill="#7a6a4a">   соль + вода</text>
+  <line x1="355" y1="100" x2="380" y2="100" stroke="#a09070" stroke-width="1"/>
+  <polygon points="378,96 385,100 378,104" fill="#a09070"/>
+  <text x="355" y="115" font-size="7" fill="#7a6a4a">2. Растворить соль</text>
+  <text x="355" y="125" font-size="7" fill="#7a6a4a">   (песок не раствор.)</text>
+  <line x1="355" y1="130" x2="380" y2="130" stroke="#a09070" stroke-width="1"/>
+  <polygon points="378,126 385,130 378,134" fill="#a09070"/>
+  <text x="355" y="145" font-size="7" fill="#7a6a4a">3. Отфильтровать</text>
+  <text x="355" y="155" font-size="7" fill="#7a6a4a">   (песок на фильтре)</text>
+  <line x1="355" y1="160" x2="380" y2="160" stroke="#a09070" stroke-width="1"/>
+  <polygon points="378,156 385,160 378,164" fill="#a09070"/>
+  <text x="355" y="175" font-size="7" fill="#7a6a4a">4. Выпарить воду</text>
+  <text x="355" y="185" font-size="7" fill="#7a6a4a">   (соль кристаллиз.)</text>
+  <!-- Result boxes -->
+  <rect x="345" y="198" width="55" height="25" rx="3" fill="#c8a060" stroke="#907030" stroke-width="1" opacity="0.7"/>
+  <text x="372" y="214" text-anchor="middle" font-size="7" fill="#fff">Песок</text>
+  <rect x="405" y="198" width="55" height="25" rx="3" fill="#e0e0e0" stroke="#a0a0a0" stroke-width="1" opacity="0.7"/>
+  <text x="432" y="214" text-anchor="middle" font-size="7" fill="#5a5a5a">Соль</text>
+  <text x="402" y="240" text-anchor="middle" font-size="6" fill="#7a6a4a" font-style="italic">Вода испарилась</text>
+  <!-- Bottom: Chromatography demo -->
+  <rect x="20" y="275" width="200" height="50" rx="4" fill="#e8e0d0" stroke="#a09070" stroke-width="1"/>
+  <text x="120" y="292" text-anchor="middle" font-size="8" font-weight="bold" fill="#5a4a2a">Хроматография</text>
+  <!-- Paper strip -->
+  <rect x="60" y="298" width="8" height="22" rx="1" fill="#f0e8d0" stroke="#a09060" stroke-width="0.5"/>
+  <rect x="62" y="300" width="4" height="3" rx="1" fill="#d04040"/>
+  <rect x="62" y="305" width="4" height="3" rx="1" fill="#4040d0"/>
+  <rect x="62" y="310" width="4" height="5" rx="1" fill="#40a040"/>
+  <!-- Beaker -->
+  <path d="M50,305 L50,318 Q50,322 55,322 L75,322 Q80,322 80,318 L80,305" fill="#d0e0f0" stroke="#6888a0" stroke-width="1" opacity="0.5"/>
+  <text x="120" y="320" text-anchor="middle" font-size="6" fill="#7a6a4a">Разделение красителей</text>
+  <!-- Bottom right: filtration close-up -->
+  <rect x="240" y="275" width="220" height="50" rx="4" fill="#e8e0d0" stroke="#a09070" stroke-width="1"/>
+  <text x="350" y="292" text-anchor="middle" font-size="8" font-weight="bold" fill="#5a4a2a">Фильтрование</text>
+  <path d="M280,300 L280,318 L270,310 L300,310 L290,318 L290,300" fill="#e8e0c0" stroke="#a09060" stroke-width="1"/>
+  <circle cx="275" cy="303" r="2" fill="#a08040"/>
+  <circle cx="285" cy="305" r="1.5" fill="#a08040"/>
+  <path d="M310,310 L330,310" stroke="#6888a0" stroke-width="1.5"/>
+  <text x="340" y="308" font-size="7" fill="#507090">Фильтрат</text>
+  <text x="340" y="320" font-size="7" fill="#7a6a4a">(чистый раствор)</text>
+</svg>

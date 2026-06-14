@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" font-family="Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E3F2FD"/>
+      <stop offset="100%" style="stop-color:#BBDEFB"/>
+    </linearGradient>
+    <filter id="shadow1" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg1)" rx="8"/>
+  <rect x="0" y="0" width="500" height="42" fill="#0D47A1" rx="8"/>
+  <rect x="0" y="20" width="500" height="22" fill="#0D47A1"/>
+  <text x="250" y="28" text-anchor="middle" fill="white" font-size="13" font-weight="bold">Уравнение касательной к графику функции</text>
+  <!-- Coordinate axes -->
+  <line x1="60" y1="270" x2="440" y2="270" stroke="#90CAF9" stroke-width="1"/>
+  <line x1="80" y1="80" x2="80" y2="280" stroke="#90CAF9" stroke-width="1"/>
+  <text x="440" y="284" text-anchor="end" fill="#90CAF9" font-size="10">x</text>
+  <text x="72" y="85" text-anchor="end" fill="#90CAF9" font-size="10">y</text>
+  <!-- Curve f(x) = x² -->
+  <path d="M 80 268 Q 140 250, 180 200 Q 220 150, 260 120 Q 300 90, 380 70" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+  <!-- Point of tangency -->
+  <circle cx="220" cy="165" r="5" fill="#0D47A1"/>
+  <text x="210" y="155" text-anchor="end" fill="#0D47A1" font-size="11" font-weight="bold">(a; f(a))</text>
+  <!-- Tangent line -->
+  <line x1="100" y1="245" x2="380" y2="85" stroke="#E65100" stroke-width="2"/>
+  <text x="370" y="78" text-anchor="start" fill="#E65100" font-size="10" font-weight="bold">касательная</text>
+  <!-- Angle alpha -->
+  <path d="M 140 218 Q 155 220, 158 210" fill="none" stroke="#2E7D32" stroke-width="1.5"/>
+  <text x="145" y="230" text-anchor="middle" fill="#2E7D32" font-size="11" font-weight="bold">α</text>
+  <!-- Dashed lines to axes -->
+  <line x1="220" y1="165" x2="220" y2="270" stroke="#90CAF9" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="80" y1="165" x2="220" y2="165" stroke="#90CAF9" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="220" y="284" text-anchor="middle" fill="#90CAF9" font-size="9">a</text>
+  <!-- Equation card -->
+  <rect x="280" y="165" width="205" height="55" rx="10" fill="white" stroke="#1565C0" stroke-width="1.5" filter="url(#shadow1)"/>
+  <text x="382" y="183" text-anchor="middle" fill="#0D47A1" font-size="11" font-weight="bold">Уравнение касательной</text>
+  <text x="382" y="200" text-anchor="middle" fill="#E65100" font-size="12" font-weight="bold">y = f(a) + f'(a)(x − a)</text>
+  <text x="382" y="215" text-anchor="middle" fill="#42A5F5" font-size="9">k = f'(a) = tg α</text>
+  <!-- Algorithm steps -->
+  <rect x="15" y="52" width="240" height="62" rx="10" fill="white" stroke="#1565C0" stroke-width="1.5" filter="url(#shadow1)"/>
+  <text x="135" y="68" text-anchor="middle" fill="#0D47A1" font-size="10" font-weight="bold">Алгоритм:</text>
+  <text x="25" y="82" fill="#1565C0" font-size="9">1. Найти f(a)</text>
+  <text x="25" y="93" fill="#1565C0" font-size="9">2. Найти f'(x) и вычислить f'(a)</text>
+  <text x="25" y="104" fill="#1565C0" font-size="9">3. Подставить в y = f(a) + f'(a)(x−a)</text>
+  <!-- Horizontal tangent case -->
+  <rect x="280" y="232" width="205" height="42" rx="10" fill="#E3F2FD" stroke="#1976D2" stroke-width="1.5" filter="url(#shadow1)"/>
+  <text x="382" y="248" text-anchor="middle" fill="#0D47A1" font-size="10" font-weight="bold">Параллельна Ox:</text>
+  <text x="382" y="264" text-anchor="middle" fill="#1565C0" font-size="11" font-weight="bold">f'(a) = 0 ⟹ y = f(a)</text>
+  <!-- Pill: example -->
+  <rect x="30" y="290" width="220" height="24" rx="12" fill="#1976D2"/>
+  <text x="140" y="306" text-anchor="middle" fill="white" font-size="10" font-weight="bold">f(x)=x², a=2: y = 4x − 4</text>
+  <!-- Connecting line -->
+  <line x1="270" y1="220" x2="270" y2="270" stroke="#90CAF9" stroke-width="1" stroke-dasharray="4,2"/>
+  <!-- Bottom bar -->
+  <rect x="0" y="330" width="500" height="20" fill="#0D47A1"/>
+  <text x="250" y="344" text-anchor="middle" fill="#90CAF9" font-size="10" font-weight="bold">Касательная — наилучшее линейное приближение функции</text>
+</svg>

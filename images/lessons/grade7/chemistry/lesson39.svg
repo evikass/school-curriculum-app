@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#94a3b8" flood-opacity="0.25"/>
+    </filter>
+      <marker id="arrowhead-3b82f6" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#3b82f6"/>
+    </marker>
+    <marker id="arrowhead-16a34a" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#16a34a"/>
+    </marker>
+    <marker id="arrowhead-8b5cf6" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8b5cf6"/>
+    </marker>
+    <marker id="arrowhead-ef4444" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ef4444"/>
+    </marker>
+</defs>
+  <!-- Background -->
+  <rect width="800" height="500" rx="12" fill="#f8fafc" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="800" height="6" rx="3" fill="#8b5cf6"/>
+  <text x="400" y="42" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#6d28d9">Генетическая связь веществ</text>
+  <rect x="15" y="62" width="770" height="155" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="30" y="86" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1e40af">Ряд металла (Ca):</text>
+  <rect x="25" y="95" width="110" height="60" rx="10" fill="#ffffff" stroke="#1e40af" stroke-width="1.5"/>
+  <text x="80" y="122" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#1e40af">Ca</text>
+  <text x="80" y="145" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">металл</text>
+  <line x1="135" y1="125" x2="185" y2="125" stroke="#3b82f6" stroke-width="2" marker-end="url(#arrowhead-3b82f6)"/>
+  <rect x="190" y="95" width="110" height="60" rx="10" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="245" y="122" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#2563eb">CaO</text>
+  <text x="245" y="145" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">оксид</text>
+  <line x1="300" y1="125" x2="370" y2="125" stroke="#3b82f6" stroke-width="2" marker-end="url(#arrowhead-3b82f6)"/>
+  <rect x="375" y="95" width="110" height="60" rx="10" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="430" y="122" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#3b82f6">Ca(OH)<tspan baseline-shift="sub" font-size="75%">₂</tspan></text>
+  <text x="430" y="145" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">основание</text>
+  <line x1="485" y1="125" x2="580" y2="125" stroke="#3b82f6" stroke-width="2" marker-end="url(#arrowhead-3b82f6)"/>
+  <rect x="585" y="95" width="110" height="60" rx="10" fill="#ffffff" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="640" y="122" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#60a5fa">CaCl<tspan baseline-shift="sub" font-size="75%">₂</tspan></text>
+  <text x="640" y="145" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">соль</text>
+  <text x="162" y="112" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#3b82f6">+O₂</text>
+  <text x="337" y="112" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#3b82f6">+H₂O</text>
+  <text x="535" y="112" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#3b82f6">+HCl</text>
+  <rect x="15" y="230" width="770" height="155" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="30" y="254" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#14532d">Ряд неметалла (S):</text>
+  <rect x="25" y="263" width="110" height="60" rx="10" fill="#ffffff" stroke="#14532d" stroke-width="1.5"/>
+  <text x="80" y="290" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#14532d">S</text>
+  <text x="80" y="313" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">неметалл</text>
+  <line x1="135" y1="293" x2="185" y2="293" stroke="#16a34a" stroke-width="2" marker-end="url(#arrowhead-16a34a)"/>
+  <rect x="190" y="263" width="110" height="60" rx="10" fill="#ffffff" stroke="#166534" stroke-width="1.5"/>
+  <text x="245" y="290" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#166534">SO<tspan baseline-shift="sub" font-size="75%">₃</tspan></text>
+  <text x="245" y="313" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">оксид</text>
+  <line x1="300" y1="293" x2="370" y2="293" stroke="#16a34a" stroke-width="2" marker-end="url(#arrowhead-16a34a)"/>
+  <rect x="375" y="263" width="110" height="60" rx="10" fill="#ffffff" stroke="#15803d" stroke-width="1.5"/>
+  <text x="430" y="290" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#15803d">H<tspan baseline-shift="sub" font-size="75%">₂</tspan>SO<tspan baseline-shift="sub" font-size="75%">₄</tspan></text>
+  <text x="430" y="313" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">кислота</text>
+  <line x1="485" y1="293" x2="580" y2="293" stroke="#16a34a" stroke-width="2" marker-end="url(#arrowhead-16a34a)"/>
+  <rect x="585" y="263" width="110" height="60" rx="10" fill="#ffffff" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="640" y="290" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#22c55e">Na<tspan baseline-shift="sub" font-size="75%">₂</tspan>SO<tspan baseline-shift="sub" font-size="75%">₄</tspan></text>
+  <text x="640" y="313" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">соль</text>
+  <text x="162" y="280" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#16a34a">+O₂</text>
+  <text x="337" y="280" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#16a34a">+H₂O</text>
+  <text x="535" y="280" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#16a34a">+NaOH</text>
+  <rect x="130" y="400" width="540" height="80" rx="10" fill="#faf5ff" stroke="#8b5cf6" stroke-width="1.5"/>
+  <text x="400" y="425" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#6d28d9">Нейтрализация (связь между рядами):</text>
+  <text x="400" y="452" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#7c3aed">Ca(OH)<tspan baseline-shift="sub" font-size="75%">₂</tspan> + H<tspan baseline-shift="sub" font-size="75%">₂</tspan>SO<tspan baseline-shift="sub" font-size="75%">₄</tspan> → CaSO<tspan baseline-shift="sub" font-size="75%">₄</tspan>↓ + 2H<tspan baseline-shift="sub" font-size="75%">₂</tspan>O</text>
+  <text x="400" y="472" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#a78bfa">Основание + Кислота = Соль + Вода</text>
+  <line x1="430" y1="155" x2="430" y2="175" stroke="#8b5cf6" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="430" y1="185" x2="430" y2="230" stroke="#8b5cf6" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="430" y1="385" x2="430" y2="400" stroke="#8b5cf6" stroke-width="1.5" marker-end="url(#arrowhead-8b5cf6)"/>
+  <text x="460" y="200" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#8b5cf6">кислота</text>
+  <text x="460" y="370" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#8b5cf6">реакция</text>
+</svg>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg16" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="cellMetal16" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:0.15"/>
+    </linearGradient>
+    <linearGradient id="cellNonmetal16" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:0.15"/>
+    </linearGradient>
+    <linearGradient id="cellNoble16" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:0.35"/>
+      <stop offset="100%" style="stop-color:#4f46e5;stop-opacity:0.2"/>
+    </linearGradient>
+    <linearGradient id="cellHalogen16" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:0.15"/>
+    </linearGradient>
+    <linearGradient id="arrowG16" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14b8a6"/>
+      <stop offset="100%" style="stop-color:#10b981"/>
+    </linearGradient>
+    <filter id="glow16">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg16)" rx="12"/>
+
+  <!-- Title -->
+  <text x="400" y="38" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#e2e8f0" text-anchor="middle">Периодическая система химических элементов</text>
+  <line x1="50" y1="52" x2="750" y2="52" stroke="#0d9488" stroke-width="1" opacity="0.3"/>
+
+  <!-- Periodic Table Grid -->
+  <!-- Period 1 -->
+  <rect x="60" y="62" width="38" height="28" rx="3" fill="url(#cellMetal16)" stroke="#10b981" stroke-width="0.8"/>
+  <text x="79" y="73" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">1</text>
+  <text x="79" y="84" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#6ee7b7" text-anchor="middle">H</text>
+
+  <rect x="672" y="62" width="38" height="28" rx="3" fill="url(#cellNoble16)" stroke="#6366f1" stroke-width="0.8"/>
+  <text x="691" y="73" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">2</text>
+  <text x="691" y="84" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#a5b4fc" text-anchor="middle">He</text>
+
+  <!-- Period 2 -->
+  <rect x="60" y="94" width="38" height="28" rx="3" fill="url(#cellMetal16)" stroke="#10b981" stroke-width="0.8"/>
+  <text x="79" y="105" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">3</text>
+  <text x="79" y="116" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#6ee7b7" text-anchor="middle">Li</text>
+
+  <rect x="102" y="94" width="38" height="28" rx="3" fill="url(#cellMetal16)" stroke="#10b981" stroke-width="0.8"/>
+  <text x="121" y="105" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">4</text>
+  <text x="121" y="116" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#6ee7b7" text-anchor="middle">Be</text>
+
+  <rect x="228" y="94" width="38" height="28" rx="3" fill="url(#cellMetal16)" stroke="#10b981" stroke-width="0.8"/>
+  <text x="247" y="105" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">5</text>
+  <text x="247" y="116" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#6ee7b7" text-anchor="middle">B</text>
+
+  <rect x="270" y="94" width="38" height="28" rx="3" fill="url(#cellNonmetal16)" stroke="#8b5cf6" stroke-width="0.8"/>
+  <text x="289" y="105" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">6</text>
+  <text x="289" y="116" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#c4b5fd" text-anchor="middle">C</text>
+
+  <rect x="312" y="94" width="38" height="28" rx="3" fill="url(#cellNonmetal16)" stroke="#8b5cf6" stroke-width="0.8"/>
+  <text x="331" y="105" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">7</text>
+  <text x="331" y="116" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#c4b5fd" text-anchor="middle">N</text>
+
+  <rect x="354" y="94" width="38" height="28" rx="3" fill="url(#cellNonmetal16)" stroke="#8b5cf6" stroke-width="0.8"/>
+  <text x="373" y="105" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">8</text>
+  <text x="373" y="116" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#c4b5fd" text-anchor="middle">O</text>
+
+  <rect x="396" y="94" width="38" height="28" rx="3" fill="url(#cellHalogen16)" stroke="#f59e0b" stroke-width="0.8"/>
+  <text x="415" y="105" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">9</text>
+  <text x="415" y="116" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#fcd34d" text-anchor="middle">F</text>
+
+  <rect x="672" y="94" width="38" height="28" rx="3" fill="url(#cellNoble16)" stroke="#6366f1" stroke-width="0.8"/>
+  <text x="691" y="105" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">10</text>
+  <text x="691" y="116" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#a5b4fc" text-anchor="middle">Ne</text>
+
+  <!-- Period 3 -->
+  <rect x="60" y="126" width="38" height="28" rx="3" fill="url(#cellMetal16)" stroke="#10b981" stroke-width="0.8"/>
+  <text x="79" y="137" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">11</text>
+  <text x="79" y="148" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#6ee7b7" text-anchor="middle">Na</text>
+
+  <rect x="102" y="126" width="38" height="28" rx="3" fill="url(#cellMetal16)" stroke="#10b981" stroke-width="0.8"/>
+  <text x="121" y="137" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">12</text>
+  <text x="121" y="148" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#6ee7b7" text-anchor="middle">Mg</text>
+
+  <rect x="228" y="126" width="38" height="28" rx="3" fill="url(#cellMetal16)" stroke="#10b981" stroke-width="0.8"/>
+  <text x="247" y="137" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">13</text>
+  <text x="247" y="148" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#6ee7b7" text-anchor="middle">Al</text>
+
+  <rect x="270" y="126" width="38" height="28" rx="3" fill="url(#cellNonmetal16)" stroke="#8b5cf6" stroke-width="0.8"/>
+  <text x="289" y="137" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">14</text>
+  <text x="289" y="148" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#c4b5fd" text-anchor="middle">Si</text>
+
+  <rect x="312" y="126" width="38" height="28" rx="3" fill="url(#cellNonmetal16)" stroke="#8b5cf6" stroke-width="0.8"/>
+  <text x="331" y="137" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">15</text>
+  <text x="331" y="148" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#c4b5fd" text-anchor="middle">P</text>
+
+  <rect x="354" y="126" width="38" height="28" rx="3" fill="url(#cellNonmetal16)" stroke="#8b5cf6" stroke-width="0.8"/>
+  <text x="373" y="137" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">16</text>
+  <text x="373" y="148" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#c4b5fd" text-anchor="middle">S</text>
+
+  <rect x="396" y="126" width="38" height="28" rx="3" fill="url(#cellHalogen16)" stroke="#f59e0b" stroke-width="0.8"/>
+  <text x="415" y="137" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">17</text>
+  <text x="415" y="148" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#fcd34d" text-anchor="middle">Cl</text>
+
+  <rect x="672" y="126" width="38" height="28" rx="3" fill="url(#cellNoble16)" stroke="#6366f1" stroke-width="0.8"/>
+  <text x="691" y="137" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">18</text>
+  <text x="691" y="148" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#a5b4fc" text-anchor="middle">Ar</text>
+
+  <!-- Period 4 - abbreviated row -->
+  <rect x="60" y="158" width="38" height="28" rx="3" fill="url(#cellMetal16)" stroke="#10b981" stroke-width="0.8"/>
+  <text x="79" y="169" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">19</text>
+  <text x="79" y="180" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#6ee7b7" text-anchor="middle">K</text>
+
+  <rect x="102" y="158" width="38" height="28" rx="3" fill="url(#cellMetal16)" stroke="#10b981" stroke-width="0.8"/>
+  <text x="121" y="169" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">20</text>
+  <text x="121" y="180" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#6ee7b7" text-anchor="middle">Ca</text>
+
+  <!-- Transition metals indicator -->
+  <rect x="144" y="158" width="80" height="28" rx="3" fill="#334155" stroke="#475569" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <text x="184" y="176" font-family="Arial, sans-serif" font-size="8" fill="#64748b" text-anchor="middle">Sc - Zn</text>
+
+  <rect x="228" y="158" width="38" height="28" rx="3" fill="url(#cellMetal16)" stroke="#10b981" stroke-width="0.8"/>
+  <text x="247" y="169" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">31</text>
+  <text x="247" y="180" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#6ee7b7" text-anchor="middle">Ga</text>
+
+  <rect x="270" y="158" width="38" height="28" rx="3" fill="url(#cellMetal16)" stroke="#10b981" stroke-width="0.8"/>
+  <text x="289" y="169" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">32</text>
+  <text x="289" y="180" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#6ee7b7" text-anchor="middle">Ge</text>
+
+  <rect x="312" y="158" width="38" height="28" rx="3" fill="url(#cellNonmetal16)" stroke="#8b5cf6" stroke-width="0.8"/>
+  <text x="331" y="169" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">33</text>
+  <text x="331" y="180" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#c4b5fd" text-anchor="middle">As</text>
+
+  <rect x="354" y="158" width="38" height="28" rx="3" fill="url(#cellNonmetal16)" stroke="#8b5cf6" stroke-width="0.8"/>
+  <text x="373" y="169" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">34</text>
+  <text x="373" y="180" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#c4b5fd" text-anchor="middle">Se</text>
+
+  <rect x="396" y="158" width="38" height="28" rx="3" fill="url(#cellHalogen16)" stroke="#f59e0b" stroke-width="0.8"/>
+  <text x="415" y="169" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">35</text>
+  <text x="415" y="180" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#fcd34d" text-anchor="middle">Br</text>
+
+  <rect x="672" y="158" width="38" height="28" rx="3" fill="url(#cellNoble16)" stroke="#6366f1" stroke-width="0.8"/>
+  <text x="691" y="169" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8" text-anchor="middle">36</text>
+  <text x="691" y="180" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#a5b4fc" text-anchor="middle">Kr</text>
+
+  <!-- Periods 5-7 indicator -->
+  <rect x="60" y="190" width="650" height="22" rx="3" fill="#1e293b" stroke="#334155" stroke-width="0.5"/>
+  <text x="385" y="205" font-family="Arial, sans-serif" font-size="10" fill="#475569" text-anchor="middle">Rb  Sr  ...  Ag  Cd  In  Sn  Sb  Te  I  Xe   |   Cs  Ba  ...  Au  Hg  Tl  Pb  Bi  Po  At  Rn   |   Fr  Ra  ...</text>
+
+  <!-- Group labels -->
+  <text x="79" y="56" font-family="Arial, sans-serif" font-size="7" fill="#14b8a6" text-anchor="middle" opacity="0.7">IA</text>
+  <text x="121" y="56" font-family="Arial, sans-serif" font-size="7" fill="#14b8a6" text-anchor="middle" opacity="0.7">IIA</text>
+  <text x="247" y="56" font-family="Arial, sans-serif" font-size="7" fill="#14b8a6" text-anchor="middle" opacity="0.7">IIIA</text>
+  <text x="289" y="56" font-family="Arial, sans-serif" font-size="7" fill="#14b8a6" text-anchor="middle" opacity="0.7">IVA</text>
+  <text x="331" y="56" font-family="Arial, sans-serif" font-size="7" fill="#14b8a6" text-anchor="middle" opacity="0.7">VA</text>
+  <text x="373" y="56" font-family="Arial, sans-serif" font-size="7" fill="#14b8a6" text-anchor="middle" opacity="0.7">VIA</text>
+  <text x="415" y="56" font-family="Arial, sans-serif" font-size="7" fill="#14b8a6" text-anchor="middle" opacity="0.7">VIIA</text>
+  <text x="691" y="56" font-family="Arial, sans-serif" font-size="7" fill="#14b8a6" text-anchor="middle" opacity="0.7">VIIIA</text>
+
+  <!-- Legend -->
+  <rect x="460" y="230" width="280" height="130" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+  <text x="600" y="252" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#e2e8f0" text-anchor="middle">Легенда</text>
+
+  <rect x="475" y="264" width="20" height="14" rx="2" fill="url(#cellMetal16)" stroke="#10b981" stroke-width="0.8"/>
+  <text x="505" y="275" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Металлы (s- и p-элементы)</text>
+
+  <rect x="475" y="286" width="20" height="14" rx="2" fill="url(#cellNonmetal16)" stroke="#8b5cf6" stroke-width="0.8"/>
+  <text x="505" y="297" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Неметаллы (p-элементы)</text>
+
+  <rect x="475" y="308" width="20" height="14" rx="2" fill="url(#cellHalogen16)" stroke="#f59e0b" stroke-width="0.8"/>
+  <text x="505" y="319" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Галогены</text>
+
+  <rect x="475" y="330" width="20" height="14" rx="2" fill="url(#cellNoble16)" stroke="#6366f1" stroke-width="0.8"/>
+  <text x="505" y="341" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Благородные газы</text>
+
+  <!-- Key info boxes -->
+  <rect x="60" y="230" width="180" height="130" rx="8" fill="#0f172a" stroke="#0d9488" stroke-width="1" opacity="0.8"/>
+  <text x="150" y="252" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#14b8a6" text-anchor="middle">Структура системы</text>
+  <text x="75" y="272" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">7 периодов (1-3 малые, 4-7 большие)</text>
+  <text x="75" y="290" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">18 групп (8 главных А + побочных Б)</text>
+  <text x="75" y="308" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">Номер периода = число эл. слоёв</text>
+  <text x="75" y="326" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">Номер группы (А) = валентные эл.</text>
+  <text x="75" y="344" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">s-, p-, d-, f- электронные семейства</text>
+
+  <!-- Trends arrows -->
+  <rect x="260" y="230" width="180" height="130" rx="8" fill="#0f172a" stroke="#8b5cf6" stroke-width="1" opacity="0.8"/>
+  <text x="350" y="252" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#a78bfa" text-anchor="middle">Закономерности</text>
+
+  <!-- Right arrow: metallic properties decrease -->
+  <line x1="275" y1="275" x2="345" y2="275" stroke="#10b981" stroke-width="1.5" marker-end="url(#arrowG16)"/>
+  <text x="355" y="279" font-family="Arial, sans-serif" font-size="9" fill="#6ee7b7">Мет. св. ослабевают</text>
+
+  <!-- Right arrow: nonmetallic properties increase -->
+  <line x1="275" y1="295" x2="345" y2="295" stroke="#8b5cf6" stroke-width="1.5"/>
+  <polygon points="345,291 355,295 345,299" fill="#8b5cf6"/>
+  <text x="360" y="299" font-family="Arial, sans-serif" font-size="9" fill="#c4b5fd">Немет. св. усиливаются</text>
+
+  <!-- Down arrow: metallic properties increase -->
+  <line x1="280" y1="310" x2="280" y2="345" stroke="#10b981" stroke-width="1.5"/>
+  <polygon points="276,345 280,355 284,345" fill="#10b981"/>
+  <text x="295" y="335" font-family="Arial, sans-serif" font-size="9" fill="#6ee7b7">Мет. св.</text>
+  <text x="295" y="348" font-family="Arial, sans-serif" font-size="9" fill="#6ee7b7">усиливаются</text>
+
+  <!-- Down arrow: nonmetallic properties decrease -->
+  <line x1="370" y1="310" x2="370" y2="345" stroke="#8b5cf6" stroke-width="1.5"/>
+  <polygon points="366,345 370,355 374,345" fill="#8b5cf6"/>
+  <text x="385" y="335" font-family="Arial, sans-serif" font-size="9" fill="#c4b5fd">Немет. св.</text>
+  <text x="385" y="348" font-family="Arial, sans-serif" font-size="9" fill="#c4b5fd">ослабевают</text>
+
+  <!-- Electron configuration examples -->
+  <rect x="60" y="380" width="680" height="100" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+
+  <text x="400" y="402" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#14b8a6" text-anchor="middle">Пример: определение свойств элемента по положению в системе</text>
+
+  <!-- Sodium example -->
+  <rect x="80" y="414" width="150" height="55" rx="5" fill="#1e293b" stroke="#10b981" stroke-width="0.8"/>
+  <text x="155" y="432" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#6ee7b7" text-anchor="middle">Na (натрий)</text>
+  <text x="155" y="448" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">3 период, IA группа</text>
+  <text x="155" y="462" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Эл. формула: 2, 8, 1</text>
+
+  <!-- Chlorine example -->
+  <rect x="250" y="414" width="150" height="55" rx="5" fill="#1e293b" stroke="#f59e0b" stroke-width="0.8"/>
+  <text x="325" y="432" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#fcd34d" text-anchor="middle">Cl (хлор)</text>
+  <text x="325" y="448" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">3 период, VIIA группа</text>
+  <text x="325" y="462" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Эл. формула: 2, 8, 7</text>
+
+  <!-- Argon example -->
+  <rect x="420" y="414" width="150" height="55" rx="5" fill="#1e293b" stroke="#6366f1" stroke-width="0.8"/>
+  <text x="495" y="432" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#a5b4fc" text-anchor="middle">Ar (аргон)</text>
+  <text x="495" y="448" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">3 период, VIIIA группа</text>
+  <text x="495" y="462" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Эл. формула: 2, 8, 8</text>
+
+  <!-- s/p/d/f indicator -->
+  <rect x="590" y="414" width="130" height="55" rx="5" fill="#1e293b" stroke="#475569" stroke-width="0.8"/>
+  <text x="655" y="432" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#64748b" text-anchor="middle">Эл. семейства</text>
+  <text x="655" y="448" font-family="Arial, sans-serif" font-size="9" fill="#6ee7b7" text-anchor="middle">s: IA, IIA</text>
+  <text x="655" y="462" font-family="Arial, sans-serif" font-size="9" fill="#c4b5fd" text-anchor="middle">p: IIIA-VIIIA</text>
+
+  <!-- Decorative glow elements -->
+  <circle cx="50" cy="250" r="3" fill="#14b8a6" opacity="0.4" filter="url(#glow16)"/>
+  <circle cx="750" cy="380" r="2" fill="#8b5cf6" opacity="0.3" filter="url(#glow16)"/>
+  <circle cx="450" cy="225" r="2" fill="#6366f1" opacity="0.3" filter="url(#glow16)"/>
+</svg>

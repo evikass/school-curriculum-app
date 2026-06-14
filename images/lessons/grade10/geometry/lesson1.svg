@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="500" y2="350" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E0F2F1"/>
+      <stop offset="100%" stop-color="#B2DFDB"/>
+    </linearGradient>
+    <linearGradient id="plane1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#80CBC4" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#4DB6AC" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="plane2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4DB6AC" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#00897B" stop-opacity="0.2"/>
+    </linearGradient>
+    <marker id="arrowT" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#00695C"/>
+    </marker>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg1)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#00695C" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#004D40" text-anchor="middle" font-family="serif">Предмет стереометрии. Аксиомы стереометрии</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="sans-serif">Геометрия 10 класс — Урок 1</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#00897B" stroke-width="1" opacity="0.3"/>
+  <!-- Axiom C1 Panel -->
+  <rect x="12" y="58" width="152" height="130" rx="6" fill="white" opacity="0.9" stroke="#00897B" stroke-width="1"/>
+  <text x="88" y="74" font-size="10" font-weight="bold" fill="#00695C" text-anchor="middle" font-family="serif">Аксиома C1</text>
+  <text x="88" y="86" font-size="7.5" fill="#555" text-anchor="middle" font-family="sans-serif">Через 3 точки — плоскость</text>
+  <!-- 3D plane for C1 -->
+  <path d="M35,150 L70,120 L145,120 L110,150 Z" fill="url(#plane1)" stroke="#00897B" stroke-width="1.2"/>
+  <circle cx="55" cy="140" r="3.5" fill="#00695C"/>
+  <circle cx="95" cy="128" r="3.5" fill="#00695C"/>
+  <circle cx="125" cy="140" r="3.5" fill="#00695C"/>
+  <text x="55" y="157" font-size="8" fill="#00695C" text-anchor="middle" font-style="italic">A</text>
+  <text x="95" y="117" font-size="8" fill="#00695C" text-anchor="middle" font-style="italic">B</text>
+  <text x="125" y="157" font-size="8" fill="#00695C" text-anchor="middle" font-style="italic">C</text>
+  <text x="88" y="168" font-size="7" fill="#00897B" text-anchor="middle" font-style="italic" font-family="serif">(ABC) = </text>
+  <text x="88" y="178" font-size="9" fill="#00695C" text-anchor="middle" font-style="italic">alpha</text>
+  <!-- Axiom C2 Panel -->
+  <rect x="172" y="58" width="152" height="130" rx="6" fill="white" opacity="0.9" stroke="#00897B" stroke-width="1"/>
+  <text x="248" y="74" font-size="10" font-weight="bold" fill="#00695C" text-anchor="middle" font-family="serif">Аксиома C2</text>
+  <text x="248" y="86" font-size="7.5" fill="#555" text-anchor="middle" font-family="sans-serif">Прямая в плоскости</text>
+  <!-- plane for C2 -->
+  <path d="M192,155 L222,125 L312,125 L282,155 Z" fill="url(#plane2)" stroke="#00897B" stroke-width="1.2"/>
+  <line x1="200" y1="145" x2="290" y2="135" stroke="#00695C" stroke-width="1.8" marker-end="url(#arrowT)"/>
+  <circle cx="215" cy="143" r="2.5" fill="#004D40"/>
+  <circle cx="260" cy="138" r="2.5" fill="#004D40"/>
+  <text x="213" y="155" font-size="7" fill="#004D40" text-anchor="middle" font-style="italic">A</text>
+  <text x="262" y="148" font-size="7" fill="#004D40" text-anchor="middle" font-style="italic">B</text>
+  <text x="248" y="170" font-size="7" fill="#00897B" text-anchor="middle" font-family="serif">A,B in a =&gt; a in alpha</text>
+  <!-- Axiom C3 Panel -->
+  <rect x="332" y="58" width="156" height="130" rx="6" fill="white" opacity="0.9" stroke="#00897B" stroke-width="1"/>
+  <text x="410" y="74" font-size="10" font-weight="bold" fill="#00695C" text-anchor="middle" font-family="serif">Аксиома C3</text>
+  <text x="410" y="86" font-size="7.5" fill="#555" text-anchor="middle" font-family="sans-serif">Пересечение плоскостей</text>
+  <!-- Two intersecting planes -->
+  <path d="M348,155 L378,120 L468,120 L438,155 Z" fill="url(#plane1)" stroke="#00897B" stroke-width="1.2"/>
+  <path d="M358,140 L388,110 L460,135 L430,160 Z" fill="#E0F2F1" fill-opacity="0.5" stroke="#00695C" stroke-width="1.2" stroke-dasharray="4,2"/>
+  <line x1="370" y1="148" x2="445" y2="128" stroke="#004D40" stroke-width="2"/>
+  <text x="395" y="128" font-size="8" fill="#004D40" text-anchor="middle" font-style="italic">c</text>
+  <text x="360" y="166" font-size="8" fill="#00897B" font-style="italic">alpha</text>
+  <text x="440" y="108" font-size="8" fill="#00695C" font-style="italic">beta</text>
+  <text x="410" y="175" font-size="7" fill="#00897B" text-anchor="middle" font-family="serif">alpha cap beta = c</text>
+  <!-- Main 3D space illustration -->
+  <rect x="12" y="196" width="240" height="112" rx="6" fill="white" opacity="0.9" stroke="#00897B" stroke-width="1.2"/>
+  <text x="132" y="212" font-size="9" font-weight="bold" fill="#00695C" text-anchor="middle" font-family="serif">Пространство (3D)</text>
+  <!-- 3D axes -->
+  <line x1="60" y1="280" x2="60" y2="225" stroke="#00695C" stroke-width="1.5" marker-end="url(#arrowT)"/>
+  <line x1="60" y1="280" x2="130" y2="300" stroke="#00695C" stroke-width="1.5" marker-end="url(#arrowT)"/>
+  <line x1="60" y1="280" x2="10" y2="300" stroke="#00695C" stroke-width="1.5" marker-end="url(#arrowT)"/>
+  <text x="60" y="220" font-size="9" fill="#004D40" text-anchor="middle" font-style="italic">z</text>
+  <text x="138" y="305" font-size="9" fill="#004D40" font-style="italic">x</text>
+  <text x="5" y="305" font-size="9" fill="#004D40" font-style="italic">y</text>
+  <!-- A point in space -->
+  <circle cx="90" cy="258" r="3" fill="#E53935"/>
+  <text x="97" y="255" font-size="8" fill="#E53935" font-style="italic">M</text>
+  <!-- dashed projections -->
+  <line x1="90" y1="258" x2="90" y2="280" stroke="#00897B" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <line x1="90" y1="280" x2="60" y2="280" stroke="#00897B" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <circle cx="90" cy="280" r="2" fill="#00897B" opacity="0.5"/>
+  <!-- Planes in space -->
+  <path d="M155,270 L175,248 L230,255 L210,278 Z" fill="url(#plane1)" stroke="#00897B" stroke-width="1"/>
+  <text x="195" y="268" font-size="8" fill="#00695C" font-style="italic">alpha</text>
+  <path d="M170,285 L190,260 L240,268 L220,292 Z" fill="url(#plane2)" stroke="#00695C" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="205" y="283" font-size="8" fill="#004D40" font-style="italic">beta</text>
+  <!-- Notation panel -->
+  <rect x="260" y="196" width="228" height="112" rx="6" fill="white" opacity="0.9" stroke="#00897B" stroke-width="1.2"/>
+  <text x="374" y="212" font-size="9" font-weight="bold" fill="#00695C" text-anchor="middle" font-family="serif">Обозначения</text>
+  <text x="272" y="228" font-size="8" fill="#555" font-family="sans-serif">Плоскости: alpha, beta, gamma</text>
+  <text x="272" y="242" font-size="8" fill="#555" font-family="sans-serif">Точки: A, B, C, M, ...</text>
+  <text x="272" y="256" font-size="8" fill="#555" font-family="sans-serif">Прямые: a, b, c, AB, ...</text>
+  <line x1="270" y1="262" x2="478" y2="262" stroke="#00897B" stroke-width="0.5" opacity="0.4"/>
+  <text x="272" y="275" font-size="8" fill="#00695C" font-family="serif">A in alpha — точка A лежит в alpha</text>
+  <text x="272" y="288" font-size="8" fill="#00695C" font-family="serif">a in alpha — прямая a лежит в alpha</text>
+  <text x="272" y="301" font-size="8" fill="#00695C" font-family="serif">alpha cap beta — пересечение</text>
+  <!-- Bottom bar -->
+  <rect x="12" y="316" width="476" height="26" rx="4" fill="#00897B" opacity="0.85"/>
+  <text x="250" y="333" font-size="10" fill="white" text-anchor="middle" font-weight="bold" font-family="serif">C1: Через любые 3 точки, не лежащие на одной прямой, проходит плоскость</text>
+</svg>

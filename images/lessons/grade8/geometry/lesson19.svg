@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" font-family="Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg19" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EFEBE9"/>
+      <stop offset="100%" stop-color="#D7CCC8"/>
+    </linearGradient>
+    <marker id="arrBr" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#4E342E"/>
+    </marker>
+    <marker id="arrBrL" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#795548"/>
+    </marker>
+    <marker id="arrNeg" markerWidth="8" markerHeight="6" refX="0" refY="3" orient="auto">
+      <polygon points="8,0 0,3 8,6" fill="#8D6E63"/>
+    </marker>
+    <linearGradient id="scaleBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8D6E63"/>
+      <stop offset="50%" stop-color="#795548"/>
+      <stop offset="100%" stop-color="#4E342E"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg19)" rx="8"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#4E342E" stroke-width="2.5"/>
+  <!-- Title -->
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#3E2723" text-anchor="middle">Умножение вектора на число</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle">Геометрия 8 класс — Урок 19</text>
+  <line x1="30" y1="50" x2="470" y2="50" stroke="#4E342E" stroke-width="1" opacity="0.3"/>
+
+  <!-- TOP PANEL: Visual scaling display -->
+  <rect x="10" y="58" width="480" height="105" rx="8" fill="white" fill-opacity="0.88" stroke="#4E342E" stroke-width="1.2"/>
+  <text x="250" y="74" font-size="9" font-weight="bold" fill="#3E2723" text-anchor="middle">Масштабирование вектора a</text>
+
+  <!-- Number line / baseline -->
+  <line x1="30" y1="130" x2="470" y2="130" stroke="#BCAAA4" stroke-width="1"/>
+  <!-- Tick marks -->
+  <line x1="60" y1="126" x2="60" y2="134" stroke="#8D6E63" stroke-width="0.8"/>
+  <text x="60" y="142" font-size="6" fill="#8D6E63" text-anchor="middle">0</text>
+  <line x1="130" y1="126" x2="130" y2="134" stroke="#8D6E63" stroke-width="0.8"/>
+  <text x="130" y="142" font-size="6" fill="#8D6E63" text-anchor="middle">1</text>
+  <line x1="200" y1="126" x2="200" y2="134" stroke="#8D6E63" stroke-width="0.8"/>
+  <text x="200" y="142" font-size="6" fill="#8D6E63" text-anchor="middle">2</text>
+  <line x1="270" y1="126" x2="270" y2="134" stroke="#8D6E63" stroke-width="0.8"/>
+  <text x="270" y="142" font-size="6" fill="#8D6E63" text-anchor="middle">3</text>
+
+  <!-- -a (opposite, same length) — row 1 y=95 -->
+  <line x1="130" y1="95" x2="60" y2="95" stroke="#8D6E63" stroke-width="2" marker-end="url(#arrNeg)"/>
+  <text x="95" y="90" font-size="8" fill="#8D6E63" font-weight="bold" text-anchor="middle">−a</text>
+  <text x="95" y="83" font-size="6" fill="#A1887F" text-anchor="middle">k = −1</text>
+
+  <!-- 0.5a (half, same direction) — row 2 y=110 -->
+  <line x1="60" y1="110" x2="95" y2="110" stroke="#795548" stroke-width="2" marker-end="url(#arrBrL)"/>
+  <text x="78" y="106" font-size="8" fill="#795548" font-weight="bold" text-anchor="middle">0.5a</text>
+  <text x="78" y="117" font-size="6" fill="#A1887F" text-anchor="middle">k=0.5</text>
+
+  <!-- a (original) — row 3 y=125 aligned with number line -->
+  <line x1="60" y1="125" x2="130" y2="125" stroke="#4E342E" stroke-width="2.5" marker-end="url(#arrBr)"/>
+  <text x="95" y="122" font-size="9" fill="#4E342E" font-weight="bold" text-anchor="middle">a</text>
+
+  <!-- 2a (double, same direction) -->
+  <line x1="200" y1="95" x2="340" y2="95" stroke="#4E342E" stroke-width="2.5" marker-end="url(#arrBr)"/>
+  <text x="270" y="90" font-size="8" fill="#4E342E" font-weight="bold" text-anchor="middle">2a</text>
+  <text x="270" y="83" font-size="6" fill="#A1887F" text-anchor="middle">k = 2</text>
+
+  <!-- 3a (triple, same direction) -->
+  <line x1="200" y1="110" x2="410" y2="110" stroke="#3E2723" stroke-width="2.8" marker-end="url(#arrBr)"/>
+  <text x="305" y="106" font-size="8" fill="#3E2723" font-weight="bold" text-anchor="middle">3a</text>
+  <text x="305" y="117" font-size="6" fill="#A1887F" text-anchor="middle">k = 3</text>
+
+  <!-- Zero vector point -->
+  <circle cx="60" cy="145" r="3" fill="#795548"/>
+  <text x="75" y="148" font-size="7" fill="#795548">0·a = 0</text>
+
+  <!-- Legend -->
+  <text x="360" y="88" font-size="7" fill="#4E342E" font-weight="bold">Правило:</text>
+  <text x="360" y="98" font-size="6.5" fill="#795548">k > 0 → ↑↑ (сонаправлен)</text>
+  <text x="360" y="108" font-size="6.5" fill="#795548">k &lt; 0 → ↑↓ (противополож.)</text>
+  <text x="360" y="118" font-size="6.5" fill="#795548">|k| → масштаб длины</text>
+  <text x="360" y="128" font-size="6.5" fill="#795548">k = 0 → нулевой вектор</text>
+
+  <!-- MIDDLE PANEL: Collinear vectors -->
+  <rect x="10" y="170" width="235" height="78" rx="8" fill="white" fill-opacity="0.88" stroke="#4E342E" stroke-width="1.2"/>
+  <text x="128" y="186" font-size="8" font-weight="bold" fill="#3E2723" text-anchor="middle">Коллинеарные векторы</text>
+
+  <!-- Collinear same direction -->
+  <line x1="25" y1="202" x2="80" y2="202" stroke="#4E342E" stroke-width="2" marker-end="url(#arrBr)"/>
+  <line x1="90" y1="202" x2="145" y2="202" stroke="#4E342E" stroke-width="2" marker-end="url(#arrBr)"/>
+  <text x="52" y="197" font-size="7" fill="#4E342E" font-weight="bold">a</text>
+  <text x="117" y="197" font-size="7" fill="#4E342E" font-weight="bold">ka</text>
+  <text x="165" y="205" font-size="6" fill="#795548">k>0: сонаправлены ↑↑</text>
+
+  <!-- Collinear opposite direction -->
+  <line x1="25" y1="222" x2="80" y2="222" stroke="#4E342E" stroke-width="2" marker-end="url(#arrBr)"/>
+  <line x1="145" y1="222" x2="90" y2="222" stroke="#8D6E63" stroke-width="2" marker-end="url(#arrNeg)"/>
+  <text x="52" y="217" font-size="7" fill="#4E342E" font-weight="bold">a</text>
+  <text x="117" y="217" font-size="7" fill="#8D6E63" font-weight="bold">ka</text>
+  <text x="165" y="225" font-size="6" fill="#8D6E63">k&lt;0: противоположны ↑↓</text>
+
+  <!-- Right dots for visual -->
+  <circle cx="228" cy="202" r="1.5" fill="#BCAAA4"/>
+  <circle cx="235" cy="202" r="1.5" fill="#BCAAA4"/>
+  <circle cx="228" cy="222" r="1.5" fill="#BCAAA4"/>
+  <circle cx="235" cy="222" r="1.5" fill="#BCAAA4"/>
+
+  <!-- MIDDLE-RIGHT PANEL: Properties -->
+  <rect x="255" y="170" width="235" height="78" rx="8" fill="white" fill-opacity="0.88" stroke="#795548" stroke-width="1.2"/>
+  <text x="373" y="186" font-size="8" font-weight="bold" fill="#3E2723" text-anchor="middle">Свойства умножения</text>
+
+  <!-- Property 1: k(a+b) = ka + kb -->
+  <rect x="265" y="192" width="215" height="16" rx="3" fill="#EFEBE9" stroke="#795548" stroke-width="0.6"/>
+  <text x="373" y="203" font-size="7.5" fill="#4E342E" text-anchor="middle">① k(a + b) = ka + kb</text>
+
+  <!-- Property 2: (k+l)a = ka + la -->
+  <rect x="265" y="212" width="215" height="16" rx="3" fill="#EFEBE9" stroke="#795548" stroke-width="0.6"/>
+  <text x="373" y="223" font-size="7.5" fill="#4E342E" text-anchor="middle">② (k + l)a = ka + la</text>
+
+  <!-- Property 3: k(la) = (kl)a -->
+  <rect x="265" y="232" width="215" height="16" rx="3" fill="#EFEBE9" stroke="#795548" stroke-width="0.6"/>
+  <text x="373" y="243" font-size="7.5" fill="#4E342E" text-anchor="middle">③ k(la) = (kl)a</text>
+
+  <!-- Bottom bar -->
+  <rect x="10" y="255" width="480" height="85" rx="6" fill="#4E342E" fill-opacity="0.85"/>
+  <text x="250" y="272" font-size="9" font-weight="bold" fill="white" text-anchor="middle">Ключевые формулы и определения</text>
+
+  <!-- Formula boxes inside bottom bar -->
+  <rect x="20" y="280" width="145" height="24" rx="4" fill="white" fill-opacity="0.15" stroke="#D7CCC8" stroke-width="0.8"/>
+  <text x="92" y="293" font-size="7" fill="#D7CCC8" text-anchor="middle">|ka| = |k| · |a|</text>
+  <text x="92" y="301" font-size="6" fill="#BCAAA4" text-anchor="middle">длина масштабируется</text>
+
+  <rect x="175" y="280" width="145" height="24" rx="4" fill="white" fill-opacity="0.15" stroke="#D7CCC8" stroke-width="0.8"/>
+  <text x="248" y="293" font-size="7" fill="#D7CCC8" text-anchor="middle">ka ↑↑ a при k > 0</text>
+  <text x="248" y="301" font-size="6" fill="#BCAAA4" text-anchor="middle">сонаправленность</text>
+
+  <rect x="330" y="280" width="150" height="24" rx="4" fill="white" fill-opacity="0.15" stroke="#D7CCC8" stroke-width="0.8"/>
+  <text x="405" y="293" font-size="7" fill="#D7CCC8" text-anchor="middle">ka ↑↓ a при k &lt; 0</text>
+  <text x="405" y="301" font-size="6" fill="#BCAAA4" text-anchor="middle">противоположность</text>
+
+  <text x="250" y="325" font-size="7" fill="#BCAAA4" text-anchor="middle">Векторы ka и a — коллинеарны (лежат на параллельных или одной прямой)</text>
+  <text x="250" y="336" font-size="6.5" fill="#A1887F" text-anchor="middle">Ненулевые коллинеарные векторы: b = ka для некоторого k ≠ 0</text>
+</svg>

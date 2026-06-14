@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg18" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#115e59"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.7"/>
+    </linearGradient>
+    <filter id="sh18">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg18)" rx="10"/>
+  <rect x="8" y="8" width="384" height="284" fill="none" stroke="white" stroke-width="0.5" opacity="0.15" rx="8"/>
+  <rect x="0" y="0" width="400" height="32" fill="#0d9488" rx="10"/>
+  <rect x="0" y="16" width="400" height="16" fill="#0d9488"/>
+  <text x="200" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="white" font-weight="bold">Практическая: Цепочка превращений</text>
+
+  <!-- Chain of transformations -->
+  <rect x="12" y="40" width="376" height="55" rx="6" fill="#0f766e" filter="url(#sh18)"/>
+  <text x="22" y="56" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Цепочка превращений Cu:</text>
+  <text x="22" y="72" font-family="Arial,sans-serif" font-size="9" fill="white" font-weight="bold">Cu</text>
+  <line x1="42" y1="69" x2="68" y2="69" stroke="#14b8a6" stroke-width="1.2"/>
+  <polygon points="68,66 74,69 68,72" fill="#14b8a6"/>
+  <text x="50" y="63" font-family="Arial,sans-serif" font-size="6" fill="#99f6e4">+O&#8322;</text>
+  <text x="78" y="72" font-family="Arial,sans-serif" font-size="9" fill="white" font-weight="bold">CuO</text>
+  <line x1="106" y1="69" x2="132" y2="69" stroke="#14b8a6" stroke-width="1.2"/>
+  <polygon points="132,66 138,69 132,72" fill="#14b8a6"/>
+  <text x="108" y="63" font-family="Arial,sans-serif" font-size="6" fill="#99f6e4">+H&#8322;SO&#8324;</text>
+  <text x="142" y="72" font-family="Arial,sans-serif" font-size="9" fill="white" font-weight="bold">CuSO&#8324;</text>
+  <line x1="186" y1="69" x2="212" y2="69" stroke="#14b8a6" stroke-width="1.2"/>
+  <polygon points="212,66 218,69 212,72" fill="#14b8a6"/>
+  <text x="190" y="63" font-family="Arial,sans-serif" font-size="6" fill="#99f6e4">+NaOH</text>
+  <text x="222" y="72" font-family="Arial,sans-serif" font-size="9" fill="white" font-weight="bold">Cu(OH)&#8322;</text>
+  <line x1="278" y1="69" x2="304" y2="69" stroke="#14b8a6" stroke-width="1.2"/>
+  <polygon points="304,66 310,69 304,72" fill="#14b8a6"/>
+  <text x="282" y="63" font-family="Arial,sans-serif" font-size="6" fill="#99f6e4">t&#176;</text>
+  <text x="314" y="72" font-family="Arial,sans-serif" font-size="9" fill="white" font-weight="bold">CuO</text>
+  <line x1="338" y1="69" x2="356" y2="69" stroke="#14b8a6" stroke-width="1.2"/>
+  <polygon points="356,66 362,69 356,72" fill="#14b8a6"/>
+  <text x="340" y="63" font-family="Arial,sans-serif" font-size="6" fill="#99f6e4">+H&#8322;</text>
+  <text x="366" y="72" font-family="Arial,sans-serif" font-size="9" fill="white" font-weight="bold">Cu</text>
+  <text x="22" y="88" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">Замкнутый цикл!</text>
+
+  <!-- Step 1-3 reactions -->
+  <rect x="12" y="103" width="185" height="68" rx="6" fill="#134e4a" filter="url(#sh18)"/>
+  <text x="22" y="119" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Стадии 1-3:</text>
+  <text x="22" y="133" font-family="Arial,sans-serif" font-size="8" fill="white">1) 2Cu + O&#8322; = 2CuO (t&#176;)</text>
+  <text x="22" y="146" font-family="Arial,sans-serif" font-size="8" fill="white">2) CuO + H&#8322;SO&#8324; = CuSO&#8324;+H&#8322;O</text>
+  <text x="22" y="159" font-family="Arial,sans-serif" font-size="8" fill="white">3) CuSO&#8324;+2NaOH=</text>
+  <text x="35" y="168" font-family="Arial,sans-serif" font-size="8" fill="white">Cu(OH)&#8322;&#8595;+Na&#8322;SO&#8324;</text>
+
+  <!-- Step 4-6 reactions -->
+  <rect x="203" y="103" width="185" height="68" rx="6" fill="#0f766e" filter="url(#sh18)"/>
+  <text x="213" y="119" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Стадии 4-6:</text>
+  <text x="213" y="133" font-family="Arial,sans-serif" font-size="8" fill="white">4) Cu(OH)&#8322; = CuO + H&#8322;O (t&#176;)</text>
+  <text x="213" y="146" font-family="Arial,sans-serif" font-size="8" fill="white">5) CuO + H&#8322; = Cu + H&#8322;O (t&#176;)</text>
+  <text x="213" y="159" font-family="Arial,sans-serif" font-size="8" fill="#99f6e4">Наблюдения:</text>
+  <text x="213" y="168" font-family="Arial,sans-serif" font-size="7" fill="#86efac">Cu(OH)&#8322; - голубой осадок</text>
+
+  <!-- Equipment -->
+  <rect x="12" y="179" width="185" height="68" rx="6" fill="#0f766e" filter="url(#sh18)"/>
+  <text x="22" y="195" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Оборудование:</text>
+  <text x="22" y="209" font-family="Arial,sans-serif" font-size="8" fill="white">Пробирки, спиртовка</text>
+  <text x="22" y="222" font-family="Arial,sans-serif" font-size="8" fill="white">Штатив, держатель</text>
+  <text x="22" y="235" font-family="Arial,sans-serif" font-size="8" fill="white">Стакан, пипетка</text>
+  <text x="22" y="244" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">Техника безопасности!</text>
+
+  <!-- Observations -->
+  <rect x="203" y="179" width="185" height="68" rx="6" fill="#134e4a" filter="url(#sh18)"/>
+  <text x="213" y="195" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Наблюдения:</text>
+  <text x="213" y="209" font-family="Arial,sans-serif" font-size="8" fill="#fca5a5">CuO - чёрный порошок</text>
+  <text x="213" y="222" font-family="Arial,sans-serif" font-size="8" fill="#93c5fd">CuSO&#8324; р-р - голубой</text>
+  <text x="213" y="235" font-family="Arial,sans-serif" font-size="8" fill="#86efac">Cu(OH)&#8322; - голубой осадок</text>
+  <text x="213" y="244" font-family="Arial,sans-serif" font-size="7" fill="#fbbf24">Cu - красный металл</text>
+
+  <!-- Key point -->
+  <rect x="12" y="255" width="376" height="33" rx="6" fill="#0f766e" filter="url(#sh18)"/>
+  <text x="22" y="271" font-family="Arial,sans-serif" font-size="8" fill="#f0fdfa">Типы реакций: соединение, обмен, разложение, замещение</text>
+  <text x="22" y="283" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">Каждая стадия - определённый тип химической реакции</text>
+
+  <text x="370" y="295" text-anchor="end" font-family="Arial,sans-serif" font-size="8" fill="#5eead4">Урок 18</text>
+</svg>

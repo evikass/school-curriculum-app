@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg13" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFEBE9"/>
+      <stop offset="50%" stop-color="#D7CCC8"/>
+      <stop offset="100%" stop-color="#BCAAA4"/>
+    </linearGradient>
+    <marker id="arrowR13" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto">
+      <path d="M0,0 L7,2.5 L0,5 Z" fill="#4E342E"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="500" height="350" fill="url(#bg13)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#4E342E" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#3E2723" text-anchor="middle" font-family="Arial">Определение параллельных прямых</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="Arial">Геометрия 7 класс — Урок 13</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#795548" stroke-opacity="0.3"/>
+
+  <!-- Panel 1: Parallel lines a ∥ b -->
+  <rect x="12" y="58" width="235" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#795548" stroke-width="1"/>
+  <text x="129" y="73" font-size="9" font-weight="bold" fill="#4E342E" text-anchor="middle">Параллельные прямые a ∥ b</text>
+  <!-- Line a -->
+  <line x1="22" y1="105" x2="237" y2="105" stroke="#4E342E" stroke-width="2" marker-end="url(#arrowR13)"/>
+  <text x="240" y="108" font-size="9" fill="#4E342E" font-style="italic">a</text>
+  <!-- Line b -->
+  <line x1="22" y1="148" x2="237" y2="148" stroke="#795548" stroke-width="2" marker-end="url(#arrowR13)"/>
+  <text x="240" y="151" font-size="9" fill="#795548" font-style="italic">b</text>
+  <!-- Distance markers -->
+  <line x1="130" y1="105" x2="130" y2="148" stroke="#E53935" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="136" y="130" font-size="7" fill="#C62828">d</text>
+  <!-- Equal distance indicators -->
+  <line x1="60" y1="105" x2="60" y2="148" stroke="#E53935" stroke-width="0.6" stroke-dasharray="2,2"/>
+  <line x1="200" y1="105" x2="200" y2="148" stroke="#E53935" stroke-width="0.6" stroke-dasharray="2,2"/>
+  <text x="129" y="170" font-size="7" fill="#555" text-anchor="middle">Не пересекаются, расстояние постоянно</text>
+  <!-- Transversal -->
+  <line x1="45" y1="88" x2="175" y2="162" stroke="#FF9800" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="38" y="86" font-size="7" fill="#FF9800" font-style="italic">c</text>
+
+  <!-- Panel 2: Parallel vs Intersecting vs Skew -->
+  <rect x="255" y="58" width="233" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#795548" stroke-width="1"/>
+  <text x="371" y="73" font-size="9" font-weight="bold" fill="#4E342E" text-anchor="middle">Взаимное расположение</text>
+  <!-- Parallel -->
+  <rect x="265" y="80" width="65" height="42" rx="3" fill="#E8F5E9" stroke="#43A047" stroke-width="0.5"/>
+  <text x="297" y="92" font-size="6.5" fill="#2E7D32" text-anchor="middle" font-weight="bold">∥ Паралл.</text>
+  <line x1="275" y1="100" x2="320" y2="100" stroke="#43A047" stroke-width="1.2"/>
+  <line x1="275" y1="112" x2="320" y2="112" stroke="#43A047" stroke-width="1.2"/>
+  <!-- Intersecting -->
+  <rect x="338" y="80" width="65" height="42" rx="3" fill="#FFEBEE" stroke="#E53935" stroke-width="0.5"/>
+  <text x="370" y="92" font-size="6.5" fill="#C62828" text-anchor="middle" font-weight="bold">Пересек.</text>
+  <line x1="348" y1="100" x2="393" y2="112" stroke="#E53935" stroke-width="1.2"/>
+  <line x1="348" y1="112" x2="393" y2="100" stroke="#E53935" stroke-width="1.2"/>
+  <circle cx="370" cy="106" r="2" fill="#C62828"/>
+  <!-- Coincident (same line) -->
+  <rect x="411" y="80" width="65" height="42" rx="3" fill="#FFF3E0" stroke="#FF9800" stroke-width="0.5"/>
+  <text x="443" y="92" font-size="6.5" fill="#E65100" text-anchor="middle" font-weight="bold">Совпадают</text>
+  <line x1="421" y1="106" x2="466" y2="106" stroke="#FF9800" stroke-width="2.5"/>
+  <text x="443" y="118" font-size="5.5" fill="#E65100" text-anchor="middle">Одна прямая</text>
+
+  <!-- Axiom box -->
+  <rect x="265" y="130" width="213" height="38" rx="4" fill="#4E342E" fill-opacity="0.08" stroke="#4E342E" stroke-width="0.8"/>
+  <text x="371" y="143" font-size="7" fill="#3E2723" text-anchor="middle" font-weight="bold">Аксиома параллельности:</text>
+  <text x="371" y="155" font-size="7" fill="#3E2723" text-anchor="middle">Через точку вне прямой — единственная ∥</text>
+  <text x="371" y="165" font-size="7" fill="#3E2723" text-anchor="middle">прямая</text>
+
+  <!-- Panel 3: Axiom visual -->
+  <rect x="12" y="184" width="165" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#795548" stroke-width="1"/>
+  <text x="94" y="199" font-size="9" font-weight="bold" fill="#4E342E" text-anchor="middle">Аксиома visual</text>
+  <!-- Line a -->
+  <line x1="22" y1="240" x2="165" y2="240" stroke="#4E342E" stroke-width="2" marker-end="url(#arrowR13)"/>
+  <text x="168" y="243" font-size="7" fill="#4E342E" font-style="italic">a</text>
+  <!-- Point M -->
+  <circle cx="94" cy="215" r="3.5" fill="#E53935"/>
+  <text x="100" y="212" font-size="8" fill="#C62828" font-style="italic">M</text>
+  <!-- Unique parallel through M -->
+  <line x1="22" y1="215" x2="165" y2="215" stroke="#43A047" stroke-width="2" marker-end="url(#arrowR13)"/>
+  <text x="168" y="218" font-size="7" fill="#43A047" font-style="italic">b</text>
+  <!-- Not parallel (intersecting) attempt -->
+  <line x1="94" y1="215" x2="155" y2="255" stroke="#9C27B0" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="158" y="258" font-size="6" fill="#9C27B0">c (пересекает a)</text>
+  <text x="94" y="275" font-size="6.5" fill="#555" text-anchor="middle">M ∉ a, b ∥ a —</text>
+  <text x="94" y="285" font-size="6.5" fill="#555" text-anchor="middle">единственная!</text>
+  <text x="94" y="298" font-size="6.5" fill="#43A047" text-anchor="middle" font-weight="bold">a ∥ b</text>
+
+  <!-- Panel 4: Notation and properties -->
+  <rect x="185" y="184" width="145" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#795548" stroke-width="1"/>
+  <text x="257" y="199" font-size="9" font-weight="bold" fill="#4E342E" text-anchor="middle">Обозначения</text>
+  <rect x="195" y="207" width="125" height="18" rx="3" fill="#EFEBE9" stroke="#795548" stroke-width="0.4"/>
+  <text x="257" y="220" font-size="8" fill="#3E2723" text-anchor="middle">a ∥ b — параллельны</text>
+  <rect x="195" y="229" width="125" height="18" rx="3" fill="#EFEBE9" stroke="#795548" stroke-width="0.4"/>
+  <text x="257" y="242" font-size="8" fill="#3E2723" text-anchor="middle">a ∩ b — пересекаются</text>
+  <rect x="195" y="251" width="125" height="18" rx="3" fill="#EFEBE9" stroke="#795548" stroke-width="0.4"/>
+  <text x="257" y="264" font-size="7.5" fill="#3E2723" text-anchor="middle">∥ — от греч. «параллель»</text>
+  <rect x="195" y="273" width="125" height="22" rx="3" fill="#4E342E" fill-opacity="0.1"/>
+  <text x="257" y="285" font-size="7" fill="#3E2723" text-anchor="middle">Если a ∥ b и b ∥ c,</text>
+  <text x="257" y="293" font-size="7" fill="#3E2723" text-anchor="middle">то a ∥ c (транзитивность)</text>
+
+  <!-- Panel 5: Segments on parallel lines -->
+  <rect x="338" y="184" width="150" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#795548" stroke-width="1"/>
+  <text x="413" y="199" font-size="9" font-weight="bold" fill="#4E342E" text-anchor="middle">Отрезки ∥ прямых</text>
+  <!-- Two parallel lines with equal segments -->
+  <line x1="350" y1="225" x2="475" y2="225" stroke="#4E342E" stroke-width="1.5"/>
+  <line x1="350" y1="265" x2="475" y2="265" stroke="#4E342E" stroke-width="1.5"/>
+  <text x="345" y="228" font-size="6" fill="#4E342E" font-style="italic">a</text>
+  <text x="345" y="268" font-size="6" fill="#4E342E" font-style="italic">b</text>
+  <!-- Segments on a -->
+  <line x1="370" y1="222" x2="410" y2="222" stroke="#E53935" stroke-width="2.5"/>
+  <circle cx="370" cy="225" r="2" fill="#E53935"/>
+  <circle cx="410" cy="225" r="2" fill="#E53935"/>
+  <!-- Segments on b -->
+  <line x1="370" y1="262" x2="410" y2="262" stroke="#E53935" stroke-width="2.5"/>
+  <circle cx="370" cy="265" r="2" fill="#E53935"/>
+  <circle cx="410" cy="265" r="2" fill="#E53935"/>
+  <!-- Connecting lines (perpendicular) -->
+  <line x1="370" y1="225" x2="370" y2="265" stroke="#795548" stroke-width="0.8" stroke-dasharray="2,2"/>
+  <line x1="410" y1="225" x2="410" y2="265" stroke="#795548" stroke-width="0.8" stroke-dasharray="2,2"/>
+  <rect x="370" y="240" width="5" height="5" fill="none" stroke="#795548" stroke-width="0.5"/>
+  <rect x="410" y="240" width="5" height="5" fill="none" stroke="#795548" stroke-width="0.5"/>
+  <text x="413" y="290" font-size="6.5" fill="#555" text-anchor="middle">Отрезки ∥ прямых между</text>
+  <text x="413" y="298" font-size="6.5" fill="#555" text-anchor="middle">перпендикулярами равны</text>
+
+  <!-- Bottom bar -->
+  <rect x="12" y="320" width="476" height="22" rx="4" fill="#795548" fill-opacity="0.85"/>
+  <text x="250" y="335" font-size="10" fill="white" text-anchor="middle" font-weight="bold" font-family="Arial">a ∥ b — не пересекаются, лежат в одной плоскости, расстояние постоянно</text>
+</svg>

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340">
+  <defs>
+    <linearGradient id="bg7" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e8f0e0"/>
+      <stop offset="100%" stop-color="#c0d0b8"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="340" fill="url(#bg7)" rx="12"/>
+  <rect x="8" y="8" width="464" height="324" fill="none" stroke="#687a5a" stroke-width="1.5" rx="8" stroke-dasharray="4,3"/>
+  <text x="240" y="32" text-anchor="middle" font-size="16" font-weight="bold" fill="#2a4a20" font-family="serif">Чистые вещества и смеси</text>
+  <!-- Pure substance card -->
+  <rect x="20" y="50" width="140" height="130" rx="6" fill="#d8e8d0" stroke="#5a8a4a" stroke-width="1.5"/>
+  <text x="90" y="70" text-anchor="middle" font-size="11" font-weight="bold" fill="#2a5a20">Чистое вещество</text>
+  <!-- Water drop -->
+  <ellipse cx="90" cy="115" rx="20" ry="25" fill="#80b8d0" opacity="0.6" stroke="#4080a0" stroke-width="1.5"/>
+  <ellipse cx="85" cy="105" rx="6" ry="8" fill="#a0d0e8" opacity="0.5"/>
+  <text x="90" y="160" text-anchor="middle" font-size="8" fill="#2a5a20">H2O — вода</text>
+  <text x="90" y="172" text-anchor="middle" font-size="7" fill="#4a7a3a">Постоянный состав</text>
+  <!-- Mixture card -->
+  <rect x="180" y="50" width="280" height="130" rx="6" fill="#f0e8d0" stroke="#a09060" stroke-width="1.5"/>
+  <text x="320" y="70" text-anchor="middle" font-size="11" font-weight="bold" fill="#5a4a20">Смесь</text>
+  <!-- Homogeneous mixture -->
+  <rect x="195" y="80" width="120" height="85" rx="4" fill="#e0e8f0" stroke="#5080a0" stroke-width="1"/>
+  <text x="255" y="95" text-anchor="middle" font-size="8" font-weight="bold" fill="#2a3860">Однородная</text>
+  <!-- Uniform dots representing solution -->
+  <circle cx="215" cy="115" r="2" fill="#5080a0" opacity="0.4"/>
+  <circle cx="230" cy="110" r="2" fill="#5080a0" opacity="0.4"/>
+  <circle cx="245" cy="118" r="2" fill="#5080a0" opacity="0.4"/>
+  <circle cx="260" cy="112" r="2" fill="#5080a0" opacity="0.4"/>
+  <circle cx="275" cy="116" r="2" fill="#5080a0" opacity="0.4"/>
+  <circle cx="290" cy="110" r="2" fill="#5080a0" opacity="0.4"/>
+  <circle cx="220" cy="130" r="2" fill="#5080a0" opacity="0.4"/>
+  <circle cx="240" cy="135" r="2" fill="#5080a0" opacity="0.4"/>
+  <circle cx="260" cy="128" r="2" fill="#5080a0" opacity="0.4"/>
+  <circle cx="280" cy="133" r="2" fill="#5080a0" opacity="0.4"/>
+  <circle cx="295" cy="125" r="2" fill="#5080a0" opacity="0.4"/>
+  <text x="255" y="158" text-anchor="middle" font-size="7" fill="#3a5070">Сахар в воде</text>
+  <!-- Heterogeneous mixture -->
+  <rect x="330" y="80" width="120" height="85" rx="4" fill="#f0e0d0" stroke="#a07040" stroke-width="1"/>
+  <text x="390" y="95" text-anchor="middle" font-size="8" font-weight="bold" fill="#5a3020">Неоднородная</text>
+  <!-- Big and small mixed particles -->
+  <circle cx="350" cy="115" r="5" fill="#c8a060" stroke="#907030" stroke-width="1"/>
+  <circle cx="370" cy="120" r="4" fill="#a08040" stroke="#705020" stroke-width="1"/>
+  <circle cx="390" cy="112" r="6" fill="#c8a060" stroke="#907030" stroke-width="1"/>
+  <circle cx="410" cy="118" r="3" fill="#a08040" stroke="#705020" stroke-width="1"/>
+  <circle cx="430" cy="115" r="5" fill="#c8a060" stroke="#907030" stroke-width="1"/>
+  <circle cx="355" cy="135" r="4" fill="#a08040" stroke="#705020" stroke-width="1"/>
+  <circle cx="375" cy="130" r="5" fill="#c8a060" stroke="#907030" stroke-width="1"/>
+  <circle cx="400" cy="138" r="3" fill="#a08040" stroke="#705020" stroke-width="1"/>
+  <circle cx="420" cy="132" r="6" fill="#c8a060" stroke="#907030" stroke-width="1"/>
+  <text x="390" y="158" text-anchor="middle" font-size="7" fill="#5a3020">Песок + железо</text>
+  <!-- Separation methods section -->
+  <rect x="20" y="195" width="440" height="130" rx="6" fill="#e8f0e0" stroke="#687a5a" stroke-width="1"/>
+  <text x="240" y="215" text-anchor="middle" font-size="10" font-weight="bold" fill="#2a4a20">Способы разделения смесей</text>
+  <!-- Filtration -->
+  <rect x="35" y="225" width="70" height="55" rx="4" fill="#d8e8d0" stroke="#5a8a4a" stroke-width="1"/>
+  <path d="M55,230 L55,248 L50,265 L80,265 L75,248 L75,230" fill="#e8e8c0" stroke="#a09060" stroke-width="1"/>
+  <line x1="55" y1="245" x2="75" y2="245" stroke="#a09060" stroke-width="1" stroke-dasharray="2,1"/>
+  <circle cx="60" cy="242" r="2" fill="#8a6a3a"/>
+  <circle cx="68" cy="238" r="2" fill="#8a6a3a"/>
+  <text x="70" y="278" text-anchor="middle" font-size="6" fill="#2a5a20">Фильтрование</text>
+  <!-- Settling -->
+  <rect x="120" y="225" width="70" height="55" rx="4" fill="#d8e8d0" stroke="#5a8a4a" stroke-width="1"/>
+  <path d="M140,232 L140,265 L170,265 L170,232" fill="#90b8d0" opacity="0.4" stroke="#5080a0" stroke-width="1"/>
+  <rect x="142" y="258" width="26" height="6" rx="1" fill="#c8a060" opacity="0.7"/>
+  <text x="155" y="278" text-anchor="middle" font-size="6" fill="#2a5a20">Отстаивание</text>
+  <!-- Distillation -->
+  <rect x="205" y="225" width="80" height="55" rx="4" fill="#d8e8d0" stroke="#5a8a4a" stroke-width="1"/>
+  <circle cx="230" cy="255" r="8" fill="#c0c0c0" stroke="#808080" stroke-width="1"/>
+  <path d="M238,250 Q250,245 258,248 L268,240" stroke="#5080a0" stroke-width="1.5" fill="none"/>
+  <path d="M265,238 L270,242 L275,235" stroke="#5080a0" stroke-width="1.5" fill="none"/>
+  <circle cx="270" cy="255" r="4" fill="#80b0d0" opacity="0.6"/>
+  <text x="245" y="278" text-anchor="middle" font-size="6" fill="#2a5a20">Дистилляция</text>
+  <!-- Magnetism -->
+  <rect x="300" y="225" width="70" height="55" rx="4" fill="#d8e8d0" stroke="#5a8a4a" stroke-width="1"/>
+  <path d="M325,235 L325,260 M335,235 L335,260" stroke="#b0b0b8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M320,260 Q330,268 340,260" stroke="#b0b0b8" stroke-width="3" fill="none"/>
+  <circle cx="320" cy="248" r="2" fill="#8a6a3a"/>
+  <circle cx="340" cy="252" r="2" fill="#8a6a3a"/>
+  <path d="M340,240 Q348,238 346,232" stroke="#e04040" stroke-width="1" fill="none"/>
+  <path d="M340,240 Q348,242 350,236" stroke="#4040e0" stroke-width="1" fill="none"/>
+  <text x="335" y="278" text-anchor="middle" font-size="6" fill="#2a5a20">Магнит</text>
+  <!-- Chromatography -->
+  <rect x="385" y="225" width="65" height="55" rx="4" fill="#d8e8d0" stroke="#5a8a4a" stroke-width="1"/>
+  <rect x="405" y="232" width="10" height="40" rx="2" fill="#f0e8d0" stroke="#a09060" stroke-width="0.5"/>
+  <rect x="407" y="240" width="6" height="5" rx="1" fill="#d04040" opacity="0.6"/>
+  <rect x="407" y="250" width="6" height="4" rx="1" fill="#4040d0" opacity="0.5"/>
+  <rect x="407" y="258" width="6" height="6" rx="1" fill="#40a040" opacity="0.5"/>
+  <text x="417" y="278" text-anchor="middle" font-size="6" fill="#2a5a20">Хроматография</text>
+  <!-- Decorative -->
+  <circle cx="20" cy="45" r="2" fill="#8ab88a" opacity="0.5"/>
+  <circle cx="460" cy="45" r="2" fill="#8ab88a" opacity="0.5"/>
+  <text x="240" y="335" text-anchor="middle" font-size="9" fill="#3a5a2a" font-style="italic">Выбор метода зависит от свойств компонентов</text>
+</svg>

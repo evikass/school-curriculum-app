@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+<linearGradient id="soil" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#A1887F"/><stop offset="100%" stop-color="#5D4037"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Минеральное питание растений</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 5 класс — Урок 30</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- Section 1: Root absorption mechanism -->
+<text x="140" y="67" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Всасывание корнем воды и минералов</text>
+
+<g transform="translate(15,72)">
+<!-- Soil cross-section -->
+<rect x="0" y="100" width="230" height="70" rx="3" fill="url(#soil)" opacity="0.25"/>
+
+<!-- Root hair zone -->
+<path d="M100,30 Q100,80 100,140" fill="none" stroke="#A1887F" stroke-width="5" stroke-linecap="round"/>
+
+<!-- Root hairs extending into soil -->
+<line x1="95" y1="55" x2="65" y2="50" stroke="#BCAAA4" stroke-width="1.2"/>
+<line x1="95" y1="65" x2="60" y2="62" stroke="#BCAAA4" stroke-width="1.2"/>
+<line x1="95" y1="75" x2="55" y2="72" stroke="#BCAAA4" stroke-width="1.2"/>
+<line x1="95" y1="85" x2="58" y2="85" stroke="#BCAAA4" stroke-width="1.2"/>
+<line x1="95" y1="95" x2="62" y2="95" stroke="#BCAAA4" stroke-width="1.2"/>
+<line x1="95" y1="105" x2="55" y2="108" stroke="#BCAAA4" stroke-width="1.2"/>
+<line x1="95" y1="115" x2="60" y2="118" stroke="#BCAAA4" stroke-width="1.2"/>
+<line x1="95" y1="125" x2="65" y2="128" stroke="#BCAAA4" stroke-width="1.2"/>
+
+<!-- Right side root hairs -->
+<line x1="105" y1="55" x2="135" y2="50" stroke="#BCAAA4" stroke-width="1.2"/>
+<line x1="105" y1="65" x2="140" y2="62" stroke="#BCAAA4" stroke-width="1.2"/>
+<line x1="105" y1="75" x2="145" y2="72" stroke="#BCAAA4" stroke-width="1.2"/>
+<line x1="105" y1="85" x2="142" y2="85" stroke="#BCAAA4" stroke-width="1.2"/>
+<line x1="105" y1="95" x2="138" y2="95" stroke="#BCAAA4" stroke-width="1.2"/>
+<line x1="105" y1="105" x2="145" y2="108" stroke="#BCAAA4" stroke-width="1.2"/>
+<line x1="105" y1="115" x2="140" y2="118" stroke="#BCAAA4" stroke-width="1.2"/>
+<line x1="105" y1="125" x2="135" y2="128" stroke="#BCAAA4" stroke-width="1.2"/>
+
+<!-- Water/mineral droplets -->
+<circle cx="60" cy="55" r="2" fill="#2196F3" opacity="0.6"/>
+<circle cx="55" cy="75" r="2" fill="#2196F3" opacity="0.6"/>
+<circle cx="58" cy="95" r="2" fill="#2196F3" opacity="0.6"/>
+<circle cx="140" cy="60" r="2" fill="#2196F3" opacity="0.6"/>
+<circle cx="145" cy="78" r="2" fill="#2196F3" opacity="0.6"/>
+<circle cx="142" cy="92" r="2" fill="#2196F3" opacity="0.6"/>
+
+<!-- Arrows showing absorption -->
+<path d="M65,52 Q70,50 75,55" fill="none" stroke="#2196F3" stroke-width="0.6"/>
+<path d="M135,52 Q130,50 125,55" fill="none" stroke="#2196F3" stroke-width="0.6"/>
+
+<!-- Mineral ions in soil -->
+<text x="35" y="110" font-family="Arial,sans-serif" font-size="5" fill="#F57F17">K⁺</text>
+<text x="50" y="120" font-family="Arial,sans-serif" font-size="5" fill="#2196F3">NO₃⁻</text>
+<text x="145" y="112" font-family="Arial,sans-serif" font-size="5" fill="#FF9800">Ca²⁺</text>
+<text x="155" y="125" font-family="Arial,sans-serif" font-size="5" fill="#9C27B0">Mg²⁺</text>
+<text x="30" y="135" font-family="Arial,sans-serif" font-size="5" fill="#4CAF50">PO₄³⁻</text>
+<text x="160" y="138" font-family="Arial,sans-serif" font-size="5" fill="#F44336">Fe²⁺</text>
+
+<!-- Labels -->
+<text x="155" y="38" font-family="Arial,sans-serif" font-size="6" fill="#795548">корневые волоски</text>
+<line x1="135" y1="50" x2="152" y2="40" stroke="#795548" stroke-width="0.3"/>
+<text x="155" y="48" font-family="Arial,sans-serif" font-size="5" fill="#888">(увеличивают</text>
+<text x="155" y="55" font-family="Arial,sans-serif" font-size="5" fill="#888">поверхность)</text>
+
+<!-- Upward arrow in root -->
+<path d="M100,140 L100,30" fill="none" stroke="#2196F3" stroke-width="1.2"/>
+<polygon points="98,30 100,22 102,30" fill="#2196F3"/>
+<text x="112" y="25" font-family="Arial,sans-serif" font-size="5" fill="#2196F3">ксилема ↑</text>
+<text x="112" y="32" font-family="Arial,sans-serif" font-size="5" fill="#2196F3">вода + минералы</text>
+</g>
+
+<!-- Section 2: Macroelements table -->
+<text x="380" y="67" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Макроэлементы</text>
+
+<g transform="translate(260,72)">
+<rect x="0" y="0" width="225" height="115" rx="5" fill="white" fill-opacity="0.5" stroke="#2E7D32" stroke-width="0.5"/>
+
+<!-- Header -->
+<rect x="0" y="0" width="225" height="13" rx="5" fill="#2E7D32" opacity="0.15"/>
+<text x="20" y="10" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#1B5E20" text-anchor="middle">Элемент</text>
+<text x="80" y="10" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#1B5E20" text-anchor="middle">Роль</text>
+<text x="180" y="10" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#C62828" text-anchor="middle">При недостатке</text>
+
+<line x1="0" y1="13" x2="225" y2="13" stroke="#C8E6C9" stroke-width="0.5"/>
+<line x1="40" y1="0" x2="40" y2="115" stroke="#C8E6C9" stroke-width="0.3"/>
+<line x1="135" y1="0" x2="135" y2="115" stroke="#C8E6C9" stroke-width="0.3"/>
+
+<!-- N -->
+<text x="20" y="24" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1565C0" text-anchor="middle">N</text>
+<text x="80" y="24" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">рост, белки, хлорофилл</text>
+<text x="180" y="24" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">бледные листья</text>
+<line x1="0" y1="28" x2="225" y2="28" stroke="#E8F5E9" stroke-width="0.3"/>
+
+<!-- P -->
+<text x="20" y="38" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#FF9800" text-anchor="middle">P</text>
+<text x="80" y="38" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">энергия (АТФ), корни</text>
+<text x="180" y="38" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">тёмно-зелёные листья</text>
+<line x1="0" y1="42" x2="225" y2="42" stroke="#E8F5E9" stroke-width="0.3"/>
+
+<!-- K -->
+<text x="20" y="52" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#9C27B0" text-anchor="middle">K</text>
+<text x="80" y="52" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">водный обмен, морозоуст.</text>
+<text x="180" y="52" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">края листьев бурые</text>
+<line x1="0" y1="56" x2="225" y2="56" stroke="#E8F5E9" stroke-width="0.3"/>
+
+<!-- Ca -->
+<text x="20" y="66" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#4CAF50" text-anchor="middle">Ca</text>
+<text x="80" y="66" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">клеточные стенки</text>
+<text x="180" y="66" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">отмирают верхушки</text>
+<line x1="0" y1="70" x2="225" y2="70" stroke="#E8F5E9" stroke-width="0.3"/>
+
+<!-- Mg -->
+<text x="20" y="80" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#2E7D32" text-anchor="middle">Mg</text>
+<text x="80" y="80" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">хлорофилл (фотосинтез)</text>
+<text x="180" y="80" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">хлороз (жёлтые листья)</text>
+<line x1="0" y1="84" x2="225" y2="84" stroke="#E8F5E9" stroke-width="0.3"/>
+
+<!-- S -->
+<text x="20" y="94" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#FFC107" text-anchor="middle">S</text>
+<text x="80" y="94" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">белки, витамины</text>
+<text x="180" y="94" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">общее пожелтение</text>
+<line x1="0" y1="98" x2="225" y2="98" stroke="#E8F5E9" stroke-width="0.3"/>
+
+<!-- Fe -->
+<text x="20" y="108" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#F44336" text-anchor="middle">Fe</text>
+<text x="80" y="108" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">дыхание, хлорофилл</text>
+<text x="180" y="108" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">хлороз молодых лист.</text>
+</g>
+
+<!-- Section 3: Deficiency signs illustrated -->
+<text x="250" y="202" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Признаки недостатка элементов</text>
+
+<!-- Healthy plant -->
+<g transform="translate(20,210)">
+<rect x="0" y="0" width="90" height="95" rx="4" fill="white" fill-opacity="0.4" stroke="#2E7D32" stroke-width="0.5"/>
+<text x="45" y="12" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#2E7D32" text-anchor="middle">Норма</text>
+<!-- Healthy green leaves -->
+<line x1="45" y1="75" x2="45" y2="30" stroke="#4CAF50" stroke-width="2"/>
+<path d="M45,35 Q65,25 70,35 Q60,40 45,40" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.5"/>
+<path d="M45,50 Q25,40 20,50 Q30,55 45,55" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.5"/>
+<path d="M45,55 Q65,45 70,55 Q60,60 45,60" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5"/>
+<text x="45" y="85" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">зелёные, здоровые</text>
+<text x="45" y="92" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">листья</text>
+</g>
+
+<!-- N deficiency -->
+<g transform="translate(115,210)">
+<rect x="0" y="0" width="90" height="95" rx="4" fill="white" fill-opacity="0.4" stroke="#C62828" stroke-width="0.5"/>
+<text x="45" y="12" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#C62828" text-anchor="middle">− N (азот)</text>
+<line x1="45" y1="75" x2="45" y2="30" stroke="#4CAF50" stroke-width="2"/>
+<path d="M45,35 Q65,25 70,35 Q60,40 45,40" fill="#FFFF99" stroke="#FBC02D" stroke-width="0.5"/>
+<path d="M45,50 Q25,40 20,50 Q30,55 45,55" fill="#FFFF99" stroke="#FBC02D" stroke-width="0.5"/>
+<path d="M45,55 Q65,45 70,55 Q60,60 45,60" fill="#FFFFCC" stroke="#FBC02D" stroke-width="0.5"/>
+<text x="45" y="85" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">бледно-жёлтые</text>
+<text x="45" y="92" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">мелкие листья</text>
+</g>
+
+<!-- K deficiency -->
+<g transform="translate(210,210)">
+<rect x="0" y="0" width="90" height="95" rx="4" fill="white" fill-opacity="0.4" stroke="#C62828" stroke-width="0.5"/>
+<text x="45" y="12" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#C62828" text-anchor="middle">− K (калий)</text>
+<line x1="45" y1="75" x2="45" y2="30" stroke="#4CAF50" stroke-width="2"/>
+<path d="M45,35 Q65,25 70,35 Q60,40 45,40" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5"/>
+<!-- Brown edges -->
+<path d="M62,28 Q68,30 70,35 Q68,38 62,35" fill="#795548" stroke="#5D4037" stroke-width="0.3"/>
+<path d="M45,50 Q25,40 20,50 Q30,55 45,55" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5"/>
+<path d="M25,42 Q20,45 22,50" fill="#795548" stroke="#5D4037" stroke-width="0.3"/>
+<text x="45" y="85" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">бурые края</text>
+<text x="45" y="92" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">листьев (ожог)</text>
+</g>
+
+<!-- Mg deficiency -->
+<g transform="translate(305,210)">
+<rect x="0" y="0" width="90" height="95" rx="4" fill="white" fill-opacity="0.4" stroke="#C62828" stroke-width="0.5"/>
+<text x="45" y="12" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#C62828" text-anchor="middle">− Mg (магний)</text>
+<line x1="45" y1="75" x2="45" y2="30" stroke="#4CAF50" stroke-width="2"/>
+<path d="M45,35 Q65,25 70,35 Q60,40 45,40" fill="#FFFF99" stroke="#FBC02D" stroke-width="0.5"/>
+<!-- Green veins on yellow -->
+<line x1="45" y1="32" x2="45" y2="40" stroke="#2E7D32" stroke-width="0.8"/>
+<line x1="50" y1="33" x2="55" y2="36" stroke="#2E7D32" stroke-width="0.5"/>
+<line x1="40" y1="33" x2="35" y2="36" stroke="#2E7D32" stroke-width="0.5"/>
+<path d="M45,50 Q25,40 20,50 Q30,55 45,55" fill="#FFFF99" stroke="#FBC02D" stroke-width="0.5"/>
+<line x1="45" y1="48" x2="45" y2="55" stroke="#2E7D32" stroke-width="0.8"/>
+<text x="45" y="85" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">хлороз: жёлтый</text>
+<text x="45" y="92" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">лист, зелёные жилки</text>
+</g>
+
+<!-- P deficiency -->
+<g transform="translate(400,210)">
+<rect x="0" y="0" width="90" height="95" rx="4" fill="white" fill-opacity="0.4" stroke="#C62828" stroke-width="0.5"/>
+<text x="45" y="12" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#C62828" text-anchor="middle">− P (фосфор)</text>
+<line x1="45" y1="75" x2="45" y2="30" stroke="#4CAF50" stroke-width="2"/>
+<path d="M45,35 Q65,25 70,35 Q60,40 45,40" fill="#1B5E20" stroke="#0D47A1" stroke-width="0.5"/>
+<!-- Purple tint -->
+<path d="M55,28 Q62,30 65,35 Q60,37 52,33" fill="#6A1B9A" opacity="0.3"/>
+<path d="M45,50 Q25,40 20,50 Q30,55 45,55" fill="#1B5E20" stroke="#0D47A1" stroke-width="0.5"/>
+<path d="M30,43 Q24,46 22,50" fill="#6A1B9A" opacity="0.2"/>
+<text x="45" y="85" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">тёмно-зелёные,</text>
+<text x="45" y="92" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">фиолетовый оттенок</text>
+</g>
+
+<!-- Section 4: Fertilizer types -->
+<g transform="translate(20,310)">
+<rect x="0" y="0" width="460" height="28" rx="4" fill="white" fill-opacity="0.5" stroke="#2E7D32" stroke-width="0.5"/>
+<text x="230" y="10" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1B5E20" text-anchor="middle">Удобрения</text>
+<text x="80" y="22" font-family="Arial,sans-serif" font-size="6" fill="#795548">Органические: навоз, компост, перегной (медленное действие)</text>
+<text x="350" y="22" font-family="Arial,sans-serif" font-size="6" fill="#1565C0">Минеральные: азотные, фосфорные, калийные (быстрое действие)</text>
+</g>
+</svg>

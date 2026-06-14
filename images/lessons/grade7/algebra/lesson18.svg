@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCE4EC"/>
+      <stop offset="50%" stop-color="#F8BBD0"/>
+      <stop offset="100%" stop-color="#EC407A" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="500" height="350" fill="url(#bg)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#AD1457" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#AD1457" text-anchor="middle" font-family="Arial">Сумма и разность кубов</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="Arial">Алгебра 7 класс — Урок 18</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#D81B60" stroke-opacity="0.3"/>
+  <rect x="12" y="58" width="230" height="120" rx="6" fill="white" fill-opacity="0.9" stroke="#D81B60" stroke-width="1"/>
+  <text x="127" y="73" font-size="9" font-weight="bold" fill="#AD1457" text-anchor="middle">Сумма кубов</text>
+  <text x="127" y="93" font-size="9" fill="#D81B60" font-family="monospace">a^3+b^3 =</text>
+  <text x="127" y="108" font-size="9" fill="#AD1457" font-weight="bold" font-family="monospace">(a+b)(a^2-ab+b^2)</text>
+  <text x="127" y="130" font-size="8" fill="#555" text-anchor="middle">Неполный квадрат</text>
+  <text x="127" y="142" font-size="8" fill="#555" text-anchor="middle">разности: нет 2 перед ab</text>
+  <text x="127" y="162" font-size="8" fill="#D81B60">Знаки: + - +</text>
+  <rect x="252" y="58" width="236" height="120" rx="6" fill="white" fill-opacity="0.9" stroke="#D81B60" stroke-width="1"/>
+  <text x="370" y="73" font-size="9" font-weight="bold" fill="#AD1457" text-anchor="middle">Разность кубов</text>
+  <text x="370" y="93" font-size="9" fill="#D81B60" font-family="monospace">a^3-b^3 =</text>
+  <text x="370" y="108" font-size="9" fill="#AD1457" font-weight="bold" font-family="monospace">(a-b)(a^2+ab+b^2)</text>
+  <text x="370" y="130" font-size="8" fill="#555" text-anchor="middle">Неполный квадрат</text>
+  <text x="370" y="142" font-size="8" fill="#555" text-anchor="middle">суммы: все знаки +</text>
+  <text x="370" y="162" font-size="8" fill="#D81B60">Знаки: - + +</text>
+  <rect x="12" y="186" width="476" height="118" rx="6" fill="white" fill-opacity="0.9" stroke="#D81B60" stroke-width="1"/>
+  <text x="250" y="201" font-size="9" font-weight="bold" fill="#AD1457" text-anchor="middle">Примеры разложения</text>
+  <text x="250" y="220" font-size="8" fill="#D81B60" font-family="monospace">x^3+8 = (x+2)(x^2-2x+4)</text>
+  <text x="250" y="238" font-size="8" fill="#D81B60" font-family="monospace">a^3-27 = (a-3)(a^2+3a+9)</text>
+  <text x="250" y="256" font-size="8" fill="#D81B60" font-family="monospace">8x^3+1 = (2x+1)(4x^2-2x+1)</text>
+  <text x="250" y="278" font-size="8" fill="#AD1457" font-weight="bold" text-anchor="middle">Мнемоника: сумма кубов + - + | разность кубов - + +</text>
+  <text x="250" y="296" font-size="8" fill="#555" text-anchor="middle">Неполный квадрат: нет коэффициента 2 при ab</text>
+  <rect x="12" y="320" width="476" height="22" rx="4" fill="#D81B60" fill-opacity="0.85"/>
+  <text x="250" y="335" font-size="9" fill="white" text-anchor="middle" font-weight="bold" font-family="Arial">Сумма и разность кубов — Макарычев Ю.Н., 7 класс</text>
+</svg>

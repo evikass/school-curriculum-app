@@ -1,0 +1,246 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+  <text x="250" y="24" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Позвоночные животные</text>
+  <text x="250" y="37" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 5 класс — Урок 38</text>
+  <line x1="30" y1="43" x2="470" y2="43" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+  <!-- Evolution timeline arrow -->
+  <path d="M40 55 L460 55" fill="none" stroke="#2E7D32" stroke-width="2" marker-end="url(#arrEvo)"/>
+  <text x="250" y="52" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle">Эволюция позвоночных →</text>
+
+  <!-- 1. Fish -->
+  <rect x="20" y="65" width="88" height="132" rx="5" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+  <rect x="20" y="65" width="88" height="16" rx="5" fill="#1565C0"/>
+  <text x="64" y="77" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle" font-weight="bold">Рыбы</text>
+  <!-- Fish drawing -->
+  <ellipse cx="64" cy="100" rx="22" ry="10" fill="#90CAF9" stroke="#0D47A1" stroke-width="1"/>
+  <!-- Tail -->
+  <path d="M86 100 L96 90 L96 110 Z" fill="#90CAF9" stroke="#0D47A1" stroke-width="0.8"/>
+  <!-- Eye -->
+  <circle cx="52" cy="97" r="2.5" fill="white" stroke="#0D47A1" stroke-width="0.5"/>
+  <circle cx="52" cy="97" r="1" fill="#0D47A1"/>
+  <!-- Fin -->
+  <path d="M64 90 L60 82 L68 85" fill="#64B5F6" stroke="#0D47A1" stroke-width="0.5"/>
+  <!-- Gill -->
+  <path d="M58 95 Q56 100 58 105" fill="none" stroke="#0D47A1" stroke-width="0.5"/>
+  <!-- Scales -->
+  <path d="M70 95 Q73 97 70 99" fill="none" stroke="#0D47A1" stroke-width="0.3"/>
+  <path d="M76 95 Q79 97 76 99" fill="none" stroke="#0D47A1" stroke-width="0.3"/>
+  <!-- Features -->
+  <text x="64" y="120" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">~35 000 видов</text>
+  <text x="64" y="129" font-family="Arial,sans-serif" font-size="5" fill="#0D47A1" text-anchor="middle">• Жабры</text>
+  <text x="64" y="137" font-family="Arial,sans-serif" font-size="5" fill="#0D47A1" text-anchor="middle">• Чешуя</text>
+  <text x="64" y="145" font-family="Arial,sans-serif" font-size="5" fill="#0D47A1" text-anchor="middle">• Боковая линия</text>
+  <text x="64" y="153" font-family="Arial,sans-serif" font-size="5" fill="#0D47A1" text-anchor="middle">• Двухкам. сердце</text>
+  <text x="64" y="161" font-family="Arial,sans-serif" font-size="5" fill="#0D47A1" text-anchor="middle">• Холоднокровные</text>
+  <text x="64" y="169" font-family="Arial,sans-serif" font-size="5" fill="#0D47A1" text-anchor="middle">• Нерест (икра)</text>
+  <text x="64" y="177" font-family="Arial,sans-serif" font-size="5" fill="#0D47A1" text-anchor="middle">• Плавники</text>
+  <text x="64" y="190" font-family="Arial,sans-serif" font-size="5" fill="#1565C0" text-anchor="middle" font-style="italic">карп, акула</text>
+
+  <!-- 2. Amphibians -->
+  <rect x="115" y="65" width="88" height="132" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
+  <rect x="115" y="65" width="88" height="16" rx="5" fill="#2E7D32"/>
+  <text x="159" y="77" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle" font-weight="bold">Земноводные</text>
+  <!-- Frog -->
+  <ellipse cx="159" cy="98" rx="15" ry="9" fill="#81C784" stroke="#1B5E20" stroke-width="1"/>
+  <!-- Head -->
+  <ellipse cx="148" cy="95" rx="8" ry="6" fill="#81C784" stroke="#1B5E20" stroke-width="0.8"/>
+  <!-- Eyes -->
+  <circle cx="145" cy="91" r="3" fill="#FFF9C4" stroke="#1B5E20" stroke-width="0.5"/>
+  <circle cx="145" cy="91" r="1.2" fill="#1B5E20"/>
+  <!-- Legs -->
+  <path d="M145 107 L135 115 L130 120" fill="none" stroke="#81C784" stroke-width="1.5"/>
+  <path d="M170 107 L180 115 L185 120" fill="none" stroke="#81C784" stroke-width="1.5"/>
+  <!-- Features -->
+  <text x="159" y="120" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">~8 000 видов</text>
+  <text x="159" y="129" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">• Голая кожа</text>
+  <text x="159" y="137" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">• Лёгкие + кожа</text>
+  <text x="159" y="145" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">• Трёхкам. сердце</text>
+  <text x="159" y="153" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">• Метаморфоз</text>
+  <text x="159" y="161" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">• Головастик → лягушка</text>
+  <text x="159" y="169" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">• Холоднокровные</text>
+  <text x="159" y="177" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">• Две среды: вода+суша</text>
+  <text x="159" y="190" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle" font-style="italic">лягушка, тритон</text>
+
+  <!-- 3. Reptiles -->
+  <rect x="210" y="65" width="88" height="132" rx="5" fill="#FFF8E1" stroke="#F9A825" stroke-width="1"/>
+  <rect x="210" y="65" width="88" height="16" rx="5" fill="#F9A825"/>
+  <text x="254" y="77" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle" font-weight="bold">Пресмыкающиеся</text>
+  <!-- Lizard -->
+  <ellipse cx="254" cy="97" rx="12" ry="5" fill="#FFD54F" stroke="#E65100" stroke-width="0.8"/>
+  <!-- Head -->
+  <ellipse cx="242" cy="96" rx="6" ry="3.5" fill="#FFD54F" stroke="#E65100" stroke-width="0.8"/>
+  <!-- Eye -->
+  <circle cx="240" cy="95" r="1.2" fill="#333"/>
+  <!-- Tail -->
+  <path d="M266 97 Q275 96 285 100" fill="none" stroke="#FFD54F" stroke-width="2"/>
+  <!-- Legs -->
+  <line x1="248" y1="102" x2="242" y2="110" stroke="#FFD54F" stroke-width="1"/>
+  <line x1="260" y1="102" x2="266" y2="110" stroke="#FFD54F" stroke-width="1"/>
+  <!-- Scales pattern -->
+  <path d="M250 95 L252 94" fill="none" stroke="#E65100" stroke-width="0.3"/>
+  <path d="M255 95 L257 94" fill="none" stroke="#E65100" stroke-width="0.3"/>
+  <!-- Features -->
+  <text x="254" y="120" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">~11 000 видов</text>
+  <text x="254" y="129" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">• Роговая чешуя</text>
+  <text x="254" y="137" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">• Лёгочное дыхание</text>
+  <text x="254" y="145" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">• Трёхкам. сердце</text>
+  <text x="254" y="153" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">• Откладывают яйца</text>
+  <text x="254" y="161" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">• Холоднокровные</text>
+  <text x="254" y="169" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">• Линька</text>
+  <text x="254" y="177" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">• Полное размнож. на суше</text>
+  <text x="254" y="190" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle" font-style="italic">ящерица, змея</text>
+
+  <!-- 4. Birds -->
+  <rect x="305" y="65" width="88" height="132" rx="5" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
+  <rect x="305" y="65" width="88" height="16" rx="5" fill="#E65100"/>
+  <text x="349" y="77" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle" font-weight="bold">Птицы</text>
+  <!-- Bird -->
+  <ellipse cx="349" cy="97" rx="14" ry="8" fill="#FFAB91" stroke="#BF360C" stroke-width="0.8"/>
+  <!-- Head -->
+  <circle cx="336" cy="93" r="5" fill="#FFAB91" stroke="#BF360C" stroke-width="0.8"/>
+  <!-- Beak -->
+  <path d="M331 92 L325 94 L331 95Z" fill="#FFD54F" stroke="#E65100" stroke-width="0.3"/>
+  <!-- Eye -->
+  <circle cx="334" cy="92" r="1.2" fill="#333"/>
+  <!-- Wing -->
+  <path d="M345 90 Q355 82 365 88 Q360 92 350 95" fill="#FF8A65" stroke="#BF360C" stroke-width="0.5"/>
+  <!-- Tail -->
+  <path d="M363 97 L372 92 L375 97 L372 102" fill="#FF8A65" stroke="#BF360C" stroke-width="0.5"/>
+  <!-- Legs -->
+  <line x1="345" y1="105" x2="343" y2="115" stroke="#BF360C" stroke-width="0.8"/>
+  <line x1="355" y1="105" x2="357" y2="115" stroke="#BF360C" stroke-width="0.8"/>
+  <!-- Features -->
+  <text x="349" y="120" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">~10 000 видов</text>
+  <text x="349" y="129" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle">• Перья</text>
+  <text x="349" y="137" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle">• Четырёхкам. сердце</text>
+  <text x="349" y="145" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle">• Теплокровные!</text>
+  <text x="349" y="153" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle">• Клюв (без зубов)</text>
+  <text x="349" y="161" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle">• Полёт (большинство)</text>
+  <text x="349" y="169" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle">• Воздушные мешки</text>
+  <text x="349" y="177" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle">• Высиж. яйца, гнездо</text>
+  <text x="349" y="190" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle" font-style="italic">орёл, пингвин</text>
+
+  <!-- 5. Mammals -->
+  <rect x="400" y="65" width="88" height="132" rx="5" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="1"/>
+  <rect x="400" y="65" width="88" height="16" rx="5" fill="#7B1FA2"/>
+  <text x="444" y="77" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle" font-weight="bold">Млекопитающие</text>
+  <!-- Mouse-like mammal -->
+  <ellipse cx="444" cy="97" rx="14" ry="8" fill="#CE93D8" stroke="#6A1B9A" stroke-width="0.8"/>
+  <!-- Head -->
+  <ellipse cx="430" cy="93" rx="6" ry="5" fill="#CE93D8" stroke="#6A1B9A" stroke-width="0.8"/>
+  <!-- Ears -->
+  <ellipse cx="428" cy="87" rx="3" ry="4" fill="#CE93D8" stroke="#6A1B9A" stroke-width="0.5"/>
+  <ellipse cx="434" cy="87" rx="3" ry="4" fill="#CE93D8" stroke="#6A1B9A" stroke-width="0.5"/>
+  <!-- Eye -->
+  <circle cx="428" cy="93" r="1" fill="#333"/>
+  <!-- Nose -->
+  <circle cx="424" cy="94" r="0.8" fill="#6A1B9A"/>
+  <!-- Legs -->
+  <line x1="438" y1="105" x2="435" y2="115" stroke="#6A1B9A" stroke-width="0.8"/>
+  <line x1="450" y1="105" x2="453" y2="115" stroke="#6A1B9A" stroke-width="0.8"/>
+  <!-- Tail -->
+  <path d="M458 97 Q465 95 470 100" fill="none" stroke="#CE93D8" stroke-width="1.5"/>
+  <!-- Features -->
+  <text x="444" y="120" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">~6 500 видов</text>
+  <text x="444" y="129" font-family="Arial,sans-serif" font-size="5" fill="#6A1B9A" text-anchor="middle">• Волосяной покров</text>
+  <text x="444" y="137" font-family="Arial,sans-serif" font-size="5" fill="#6A1B9A" text-anchor="middle">• Четырёхкам. сердце</text>
+  <text x="444" y="145" font-family="Arial,sans-serif" font-size="5" fill="#6A1B9A" text-anchor="middle">• Теплокровные!</text>
+  <text x="444" y="153" font-family="Arial,sans-serif" font-size="5" fill="#6A1B9A" text-anchor="middle">• Молочные железы</text>
+  <text x="444" y="161" font-family="Arial,sans-serif" font-size="5" fill="#6A1B9A" text-anchor="middle">• Живородящие (больш.)</text>
+  <text x="444" y="169" font-family="Arial,sans-serif" font-size="5" fill="#6A1B9A" text-anchor="middle">• Зубы дифференциров.</text>
+  <text x="444" y="177" font-family="Arial,sans-serif" font-size="5" fill="#6A1B9A" text-anchor="middle">• Диафрагма</text>
+  <text x="444" y="190" font-family="Arial,sans-serif" font-size="5" fill="#6A1B9A" text-anchor="middle" font-style="italic">волк, кит, человек</text>
+
+  <!-- Comparison table at bottom -->
+  <text x="250" y="210" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">Сравнение классов позвоночных</text>
+
+  <rect x="20" y="218" width="460" height="120" rx="4" fill="white" stroke="#2E7D32" stroke-width="0.5" opacity="0.8"/>
+
+  <!-- Headers -->
+  <rect x="20" y="218" width="75" height="14" fill="#1B5E20"/>
+  <text x="57" y="228" font-family="Arial,sans-serif" font-size="5.5" fill="white" text-anchor="middle">Признак</text>
+
+  <rect x="95" y="218" width="75" height="14" fill="#1565C0"/>
+  <text x="132" y="228" font-family="Arial,sans-serif" font-size="5.5" fill="white" text-anchor="middle">Рыбы</text>
+
+  <rect x="170" y="218" width="75" height="14" fill="#2E7D32"/>
+  <text x="207" y="228" font-family="Arial,sans-serif" font-size="5.5" fill="white" text-anchor="middle">Земноводные</text>
+
+  <rect x="245" y="218" width="75" height="14" fill="#F9A825"/>
+  <text x="282" y="228" font-family="Arial,sans-serif" font-size="5.5" fill="white" text-anchor="middle">Пресмык.</text>
+
+  <rect x="320" y="218" width="75" height="14" fill="#E65100"/>
+  <text x="357" y="228" font-family="Arial,sans-serif" font-size="5.5" fill="white" text-anchor="middle">Птицы</text>
+
+  <rect x="395" y="218" width="85" height="14" fill="#7B1FA2"/>
+  <text x="437" y="228" font-family="Arial,sans-serif" font-size="5.5" fill="white" text-anchor="middle">Млекопитающие</text>
+
+  <!-- Rows -->
+  <text x="57" y="244" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">Покров</text>
+  <text x="132" y="244" font-family="Arial,sans-serif" font-size="5" fill="#1565C0" text-anchor="middle">Чешуя</text>
+  <text x="207" y="244" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">Голая кожа</text>
+  <text x="282" y="244" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">Чешуя</text>
+  <text x="357" y="244" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle">Перья</text>
+  <text x="437" y="244" font-family="Arial,sans-serif" font-size="5" fill="#6A1B9A" text-anchor="middle">Шерсть</text>
+
+  <line x1="20" y1="248" x2="480" y2="248" stroke="#E0E0E0" stroke-width="0.3"/>
+
+  <text x="57" y="258" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">Дыхание</text>
+  <text x="132" y="258" font-family="Arial,sans-serif" font-size="5" fill="#1565C0" text-anchor="middle">Жабры</text>
+  <text x="207" y="258" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">Лёгкие+кожа</text>
+  <text x="282" y="258" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">Лёгкие</text>
+  <text x="357" y="258" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle">Лёгкие+мешки</text>
+  <text x="437" y="258" font-family="Arial,sans-serif" font-size="5" fill="#6A1B9A" text-anchor="middle">Лёгкие+альвеолы</text>
+
+  <line x1="20" y1="262" x2="480" y2="262" stroke="#E0E0E0" stroke-width="0.3"/>
+
+  <text x="57" y="272" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">Сердце</text>
+  <text x="132" y="272" font-family="Arial,sans-serif" font-size="5" fill="#1565C0" text-anchor="middle">2 камеры</text>
+  <text x="207" y="272" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">3 камеры</text>
+  <text x="282" y="272" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">3 камеры</text>
+  <text x="357" y="272" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle">4 камеры</text>
+  <text x="437" y="272" font-family="Arial,sans-serif" font-size="5" fill="#6A1B9A" text-anchor="middle">4 камеры</text>
+
+  <line x1="20" y1="276" x2="480" y2="276" stroke="#E0E0E0" stroke-width="0.3"/>
+
+  <text x="57" y="286" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">Теплокр.</text>
+  <text x="132" y="286" font-family="Arial,sans-serif" font-size="5" fill="#1565C0" text-anchor="middle">Нет</text>
+  <text x="207" y="286" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">Нет</text>
+  <text x="282" y="286" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">Нет</text>
+  <text x="357" y="286" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle">Да!</text>
+  <text x="437" y="286" font-family="Arial,sans-serif" font-size="5" fill="#6A1B9A" text-anchor="middle">Да!</text>
+
+  <line x1="20" y1="290" x2="480" y2="290" stroke="#E0E0E0" stroke-width="0.3"/>
+
+  <text x="57" y="300" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">Размнож.</text>
+  <text x="132" y="300" font-family="Arial,sans-serif" font-size="5" fill="#1565C0" text-anchor="middle">Икра</text>
+  <text x="207" y="300" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">Икра</text>
+  <text x="282" y="300" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">Яйца</text>
+  <text x="357" y="300" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle">Яйца</text>
+  <text x="437" y="300" font-family="Arial,sans-serif" font-size="5" fill="#6A1B9A" text-anchor="middle">Живород.</text>
+
+  <line x1="20" y1="304" x2="480" y2="304" stroke="#E0E0E0" stroke-width="0.3"/>
+
+  <text x="57" y="314" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">Среда</text>
+  <text x="132" y="314" font-family="Arial,sans-serif" font-size="5" fill="#1565C0" text-anchor="middle">Вода</text>
+  <text x="207" y="314" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">Вода+суша</text>
+  <text x="282" y="314" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">Суша</text>
+  <text x="357" y="314" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle">Воздух+суша</text>
+  <text x="437" y="314" font-family="Arial,sans-serif" font-size="5" fill="#6A1B9A" text-anchor="middle">Все среды</text>
+
+  <text x="250" y="337" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle">Общее: позвоночник, череп, внутренний скелет, замкнутая кровеносная система</text>
+
+  <defs>
+    <marker id="arrEvo" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2E7D32"/>
+    </marker>
+  </defs>
+</svg>

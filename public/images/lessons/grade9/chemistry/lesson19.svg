@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg19" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#115e59"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.7"/>
+    </linearGradient>
+    <filter id="sh19">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg19)" rx="10"/>
+  <rect x="8" y="8" width="384" height="284" fill="none" stroke="white" stroke-width="0.5" opacity="0.15" rx="8"/>
+  <rect x="0" y="0" width="400" height="32" fill="#0d9488" rx="10"/>
+  <rect x="0" y="16" width="400" height="16" fill="#0d9488"/>
+  <text x="200" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="white" font-weight="bold">Обобщение: Металлы</text>
+
+  <!-- Physical properties summary -->
+  <rect x="12" y="40" width="185" height="55" rx="6" fill="#0f766e" filter="url(#sh19)"/>
+  <text x="22" y="56" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Физические свойства:</text>
+  <text x="22" y="70" font-family="Arial,sans-serif" font-size="7" fill="white">Блеск, электропр., теплопров.</text>
+  <text x="22" y="82" font-family="Arial,sans-serif" font-size="7" fill="white">Пластичность, непрозрачность</text>
+  <text x="22" y="92" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">Me связь: Me&#8319;&#8319;&#8314; + e&#8315;</text>
+
+  <!-- Chemical properties summary -->
+  <rect x="203" y="40" width="185" height="55" rx="6" fill="#134e4a" filter="url(#sh19)"/>
+  <text x="213" y="56" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Химические свойства:</text>
+  <text x="213" y="70" font-family="Arial,sans-serif" font-size="7" fill="white">Me - восстановитель</text>
+  <text x="213" y="82" font-family="Arial,sans-serif" font-size="7" fill="white">+ O&#8322;, H&#8322;O, кислоты, соли</text>
+  <text x="213" y="92" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">Me &#8594; Me&#8319;&#8314; + ne&#8315;</text>
+
+  <!-- Activity series -->
+  <rect x="12" y="103" width="376" height="36" rx="6" fill="#0f766e" filter="url(#sh19)"/>
+  <text x="22" y="119" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Ряд активности:</text>
+  <text x="110" y="119" font-family="Arial,sans-serif" font-size="8" fill="#fca5a5" font-weight="bold">K Na Ca Mg Al Zn Fe</text>
+  <text x="230" y="119" font-family="Arial,sans-serif" font-size="8" fill="#fbbf24" font-weight="bold">Sn Pb (H)</text>
+  <text x="298" y="119" font-family="Arial,sans-serif" font-size="8" fill="#93c5fd" font-weight="bold">Cu Hg Ag Au</text>
+  <text x="22" y="133" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">Активность убывает слева направо</text>
+
+  <!-- Key groups -->
+  <rect x="12" y="147" width="120" height="58" rx="6" fill="#134e4a" filter="url(#sh19)"/>
+  <text x="22" y="163" font-family="Arial,sans-serif" font-size="8" fill="#5eead4" font-weight="bold">Щелочные (IA):</text>
+  <text x="22" y="175" font-family="Arial,sans-serif" font-size="7" fill="white">Li Na K Rb Cs</text>
+  <text x="22" y="186" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">+1, щёлочи, бурно + H&#8322;O</text>
+  <text x="22" y="199" font-family="Arial,sans-serif" font-size="7" fill="white">ns&#185;</text>
+
+  <rect x="140" y="147" width="120" height="58" rx="6" fill="#0f766e" filter="url(#sh19)"/>
+  <text x="150" y="163" font-family="Arial,sans-serif" font-size="8" fill="#5eead4" font-weight="bold">Щёл.-зем. (IIA):</text>
+  <text x="150" y="175" font-family="Arial,sans-serif" font-size="7" fill="white">Be Mg Ca Sr Ba</text>
+  <text x="150" y="186" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">+2, Me(OH)&#8322;</text>
+  <text x="150" y="199" font-family="Arial,sans-serif" font-size="7" fill="white">ns&#178;, Be - амфотерен</text>
+
+  <rect x="268" y="147" width="120" height="58" rx="6" fill="#134e4a" filter="url(#sh19)"/>
+  <text x="278" y="163" font-family="Arial,sans-serif" font-size="8" fill="#5eead4" font-weight="bold">Al, Fe:</text>
+  <text x="278" y="175" font-family="Arial,sans-serif" font-size="7" fill="white">Al - амфотерен (+3)</text>
+  <text x="278" y="186" font-family="Arial,sans-serif" font-size="7" fill="white">Fe: +2, +3</text>
+  <text x="278" y="199" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">Сплавы, коррозия</text>
+
+  <!-- Extraction and corrosion -->
+  <rect x="12" y="213" width="185" height="38" rx="6" fill="#0f766e" filter="url(#sh19)"/>
+  <text x="22" y="229" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Получение:</text>
+  <text x="22" y="242" font-family="Arial,sans-serif" font-size="7" fill="white">Пиро- | Гидро- | Электрометаллургия</text>
+
+  <rect x="203" y="213" width="185" height="38" rx="6" fill="#134e4a" filter="url(#sh19)"/>
+  <text x="213" y="229" font-family="Arial,sans-serif" font-size="9" fill="#5eead4" font-weight="bold">Коррозия и защита:</text>
+  <text x="213" y="242" font-family="Arial,sans-serif" font-size="7" fill="white">Покрытия, легирование, протекторы</text>
+
+  <!-- Key reactions -->
+  <rect x="12" y="259" width="376" height="30" rx="6" fill="#0f766e" filter="url(#sh19)"/>
+  <text x="22" y="275" font-family="Arial,sans-serif" font-size="7" fill="white">Me+O&#8322;=MeO | Me+H&#8322;O=Me(OH)&#8345;+H&#8322; | Me+кисл.=соль+H&#8322; | Me+соль=Me+соль</text>
+  <text x="22" y="286" font-family="Arial,sans-serif" font-size="7" fill="#99f6e4">Активные Me + H&#8322;O | Me до H + кислота | Более активный Me вытесняет менее активный</text>
+
+  <text x="370" y="295" text-anchor="end" font-family="Arial,sans-serif" font-size="8" fill="#5eead4">Урок 19</text>
+</svg>

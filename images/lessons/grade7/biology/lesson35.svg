@@ -1,0 +1,247 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+<linearGradient id="ovaryG" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#CE93D8"/><stop offset="100%" stop-color="#9C27B0"/></linearGradient>
+<linearGradient id="embryoG" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#81C784"/><stop offset="100%" stop-color="#2E7D32"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="26" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#2E7D32" text-anchor="middle">Оплодотворение. Образование плодов и семян</text>
+<text x="250" y="40" font-family="Arial,sans-serif" font-size="9" fill="#888" text-anchor="middle">Биология 7 класс — Урок 35</text>
+<line x1="30" y1="46" x2="470" y2="46" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+
+<!-- ====== DOUBLE FERTILIZATION (left half) ====== -->
+<text x="145" y="62" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Двойное оплодотворение</text>
+
+<g transform="translate(15,68)">
+  <!-- Pistil outline -->
+  <!-- Stigma -->
+  <path d="M65,8 Q70,2 75,8 Q70,5 65,8" fill="#9C27B0" stroke="#6A1B9A" stroke-width="1.2"/>
+  <text x="85" y="8" font-family="Arial,sans-serif" font-size="5.5" fill="#333">Рыльце</text>
+  <!-- Pollen grains on stigma -->
+  <circle cx="63" cy="6" r="2.5" fill="#FFD54F" stroke="#F9A825" stroke-width="0.5"/>
+  <circle cx="68" cy="4" r="2.5" fill="#FFD54F" stroke="#F9A825" stroke-width="0.5"/>
+  <circle cx="77" cy="6" r="2.5" fill="#FFD54F" stroke="#F9A825" stroke-width="0.5"/>
+
+  <!-- Style -->
+  <rect x="68" y="10" width="4" height="40" rx="1" fill="#CE93D8" stroke="#6A1B9A" stroke-width="0.8"/>
+  <text x="85" y="30" font-family="Arial,sans-serif" font-size="5.5" fill="#333">Столбик</text>
+
+  <!-- Pollen tube growing down through style -->
+  <path d="M70,8 L70,50" stroke="#FFD54F" stroke-width="1.5" fill="none" stroke-dasharray="3,1"/>
+  <!-- Tube nucleus (вегетативное ядро) leading -->
+  <circle cx="70" cy="22" r="1.5" fill="#FFB300" stroke="#E65100" stroke-width="0.3"/>
+
+  <!-- Two sperm cells in tube -->
+  <circle cx="70" cy="38" r="2" fill="#FF6F00" stroke="#E65100" stroke-width="0.5"/>
+  <text x="78" y="39" font-family="Arial,sans-serif" font-size="4.5" fill="#E65100">Спермий 1</text>
+  <circle cx="70" cy="44" r="2" fill="#FF6F00" stroke="#E65100" stroke-width="0.5"/>
+  <text x="78" y="46" font-family="Arial,sans-serif" font-size="4.5" fill="#E65100">Спермий 2</text>
+
+  <!-- Ovary wall -->
+  <ellipse cx="70" cy="78" rx="40" ry="22" fill="url(#ovaryG)" stroke="#6A1B9A" stroke-width="1.2"/>
+  <text x="120" y="78" font-family="Arial,sans-serif" font-size="5.5" fill="#333">Завязь</text>
+
+  <!-- Ovule (семязачаток) inside ovary -->
+  <ellipse cx="70" cy="78" rx="22" ry="14" fill="#E1BEE7" stroke="#6A1B9A" stroke-width="0.8"/>
+
+  <!-- Micropyle (пыльцевход) -->
+  <path d="M58,68 L55,62" stroke="#6A1B9A" stroke-width="0.8"/>
+  <text x="38" y="60" font-family="Arial,sans-serif" font-size="4.5" fill="#333">Пыльцевход</text>
+
+  <!-- Egg cell (яйцеклетка) -->
+  <ellipse cx="62" cy="76" rx="5" ry="4" fill="#F48FB1" stroke="#C2185B" stroke-width="0.6"/>
+  <text x="30" y="76" font-family="Arial,sans-serif" font-size="4.5" fill="#C2185B">Яйцеклетка</text>
+
+  <!-- Central cell (центральная клетка) with 2 polar nuclei -->
+  <ellipse cx="78" cy="80" rx="8" ry="5" fill="#B39DDB" stroke="#4527A0" stroke-width="0.6"/>
+  <circle cx="76" cy="80" r="1.5" fill="#7E57C2" stroke="#4527A0" stroke-width="0.3"/>
+  <circle cx="80" cy="80" r="1.5" fill="#7E57C2" stroke="#4527A0" stroke-width="0.3"/>
+  <text x="92" y="84" font-family="Arial,sans-serif" font-size="4.5" fill="#4527A0">Центр.</text>
+  <text x="92" y="89" font-family="Arial,sans-serif" font-size="4.5" fill="#4527A0">клетка</text>
+
+  <!-- Fertilization arrows -->
+  <!-- Sperm 1 + Egg → Zygote -->
+  <path d="M68,38 Q50,55 62,72" stroke="#FF6F00" stroke-width="0.8" stroke-dasharray="2,1"/>
+  <polygon points="60,70 64,70 62,74" fill="#FF6F00"/>
+  <text x="40" y="55" font-family="Arial,sans-serif" font-size="4.5" fill="#E65100">Спермий 1</text>
+  <!-- Result: зигота -->
+  <text x="42" y="88" font-family="Arial,sans-serif" font-size="4.5" fill="#C62828">→ Зигота</text>
+  <text x="42" y="93" font-family="Arial,sans-serif" font-size="4" fill="#555">(зародыш)</text>
+
+  <!-- Sperm 2 + Central cell → Endosperm -->
+  <path d="M68,44 Q80,58 78,74" stroke="#FF6F00" stroke-width="0.8" stroke-dasharray="2,1"/>
+  <polygon points="76,72 80,72 78,76" fill="#FF6F00"/>
+  <text x="85" y="58" font-family="Arial,sans-serif" font-size="4.5" fill="#E65100">Спермий 2</text>
+  <!-- Result: эндосперм -->
+  <text x="88" y="96" font-family="Arial,sans-serif" font-size="4.5" fill="#4527A0">→ Эндосперм</text>
+  <text x="88" y="101" font-family="Arial,sans-serif" font-size="4" fill="#555">(3n, запас)</text>
+</g>
+
+<!-- ====== SEED & FRUIT DEVELOPMENT (center) ====== -->
+<text x="290" y="62" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Образование семени и плода</text>
+
+<!-- Transformation arrows -->
+<g transform="translate(210,68)">
+  <!-- Before (flower parts) -->
+  <text x="42" y="0" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle">Цветок</text>
+
+  <!-- Ovary -->
+  <ellipse cx="30" cy="18" rx="15" ry="10" fill="#CE93D8" stroke="#6A1B9A" stroke-width="0.8"/>
+  <circle cx="30" cy="18" r="3" fill="#E1BEE7" stroke="#6A1B9A" stroke-width="0.5"/>
+  <text x="30" y="34" font-family="Arial,sans-serif" font-size="5" fill="#6A1B9A" text-anchor="middle">Завязь</text>
+
+  <!-- Ovule -->
+  <ellipse cx="65" cy="18" rx="10" ry="8" fill="#E1BEE7" stroke="#6A1B9A" stroke-width="0.8"/>
+  <circle cx="65" cy="18" r="3" fill="#F48FB1" stroke="#C2185B" stroke-width="0.4"/>
+  <text x="65" y="34" font-family="Arial,sans-serif" font-size="5" fill="#6A1B9A" text-anchor="middle">Семязачаток</text>
+
+  <!-- Arrow down -->
+  <path d="M47,38 L47,48" stroke="#2E7D32" stroke-width="1"/>
+  <polygon points="45,48 49,48 47,52" fill="#2E7D32"/>
+  <text x="62" y="47" font-family="Arial,sans-serif" font-size="4.5" fill="#2E7D32">Оплодотворение</text>
+
+  <!-- After (fruit and seed) -->
+  <text x="42" y="60" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle">Плод + Семя</text>
+
+  <!-- Fruit (pericarp from ovary wall) -->
+  <ellipse cx="30" cy="78" rx="16" ry="12" fill="#FF8A65" stroke="#BF360C" stroke-width="1"/>
+  <!-- Pericarp layers -->
+  <ellipse cx="30" cy="78" rx="14" ry="10" fill="#FFAB91" stroke="#E64A19" stroke-width="0.5"/>
+  <ellipse cx="30" cy="78" rx="10" ry="7" fill="#FFCCBC" stroke="#FF5722" stroke-width="0.3"/>
+  <text x="30" y="97" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle">Околоплодник</text>
+  <text x="30" y="103" font-family="Arial,sans-serif" font-size="4" fill="#555" text-anchor="middle">(из стенки завязи)</text>
+
+  <!-- Seed (from ovule) -->
+  <ellipse cx="72" cy="78" rx="12" ry="9" fill="#BCAAA4" stroke="#5D4037" stroke-width="0.8"/>
+  <!-- Seed coat -->
+  <ellipse cx="72" cy="78" rx="10" ry="7" fill="#D7CCC8" stroke="#795548" stroke-width="0.5"/>
+  <!-- Embryo inside -->
+  <ellipse cx="72" cy="76" rx="4" ry="5" fill="#81C784" stroke="#2E7D32" stroke-width="0.5"/>
+  <!-- Endosperm -->
+  <ellipse cx="72" cy="82" rx="6" ry="2" fill="#FFF9C4" stroke="#F9A825" stroke-width="0.3"/>
+  <text x="72" y="97" font-family="Arial,sans-serif" font-size="5" fill="#5D4037" text-anchor="middle">Семя</text>
+  <text x="72" y="103" font-family="Arial,sans-serif" font-size="4" fill="#555" text-anchor="middle">(из семязачатка)</text>
+
+  <!-- Seed detail labels -->
+  <line x1="82" y1="73" x2="95" y2="68" stroke="#555" stroke-width="0.4"/>
+  <text x="97" y="67" font-family="Arial,sans-serif" font-size="4.5" fill="#2E7D32">Зародыш</text>
+  <line x1="82" y1="82" x2="95" y2="86" stroke="#555" stroke-width="0.4"/>
+  <text x="97" y="85" font-family="Arial,sans-serif" font-size="4.5" fill="#F9A825">Эндосперм</text>
+  <line x1="82" y1="78" x2="95" y2="78" stroke="#555" stroke-width="0.4"/>
+  <text x="97" y="76" font-family="Arial,sans-serif" font-size="4.5" fill="#795548">Семенная</text>
+  <text x="97" y="81" font-family="Arial,sans-serif" font-size="4.5" fill="#795548">оболочка</text>
+</g>
+
+<!-- ====== DISPERSAL METHODS (bottom section) ====== -->
+<line x1="30" y1="188" x2="470" y2="188" stroke="#2E7D32" stroke-width="1" opacity="0.25"/>
+<text x="250" y="202" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Распространение плодов и семян</text>
+
+<!-- Анемохория (Anemochory - wind) -->
+<g transform="translate(15,208)">
+  <rect x="0" y="0" width="108" height="80" rx="3" fill="#E3F2FD" stroke="#1565C0" stroke-width="0.6" opacity="0.4"/>
+  <text x="54" y="12" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1565C0" text-anchor="middle">Анемохория</text>
+  <text x="54" y="20" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">(ветром)</text>
+
+  <!-- Dandelion seed (parachute) -->
+  <circle cx="35" cy="40" r="3" fill="#8D6E63" stroke="#5D4037" stroke-width="0.5"/>
+  <!-- Pappus (parachute hairs) -->
+  <line x1="35" y1="37" x2="25" y2="28" stroke="#BDBDBD" stroke-width="0.4"/>
+  <line x1="35" y1="37" x2="28" y2="26" stroke="#BDBDBD" stroke-width="0.4"/>
+  <line x1="35" y1="37" x2="32" y2="25" stroke="#BDBDBD" stroke-width="0.4"/>
+  <line x1="35" y1="37" x2="35" y2="24" stroke="#BDBDBD" stroke-width="0.4"/>
+  <line x1="35" y1="37" x2="38" y2="25" stroke="#BDBDBD" stroke-width="0.4"/>
+  <line x1="35" y1="37" x2="42" y2="26" stroke="#BDBDBD" stroke-width="0.4"/>
+  <line x1="35" y1="37" x2="45" y2="28" stroke="#BDBDBD" stroke-width="0.4"/>
+
+  <!-- Maple samara (wing) -->
+  <ellipse cx="78" cy="42" rx="4" ry="3" fill="#8D6E63" stroke="#5D4037" stroke-width="0.5"/>
+  <path d="M82,40 Q95,30 90,22 Q85,25 80,35" fill="#D7CCC8" stroke="#8D6E63" stroke-width="0.5"/>
+
+  <!-- Wind arrows -->
+  <path d="M50,50 L70,48" stroke="#90CAF9" stroke-width="0.8" opacity="0.7"/>
+  <path d="M50,55 L72,53" stroke="#90CAF9" stroke-width="0.8" opacity="0.7"/>
+
+  <text x="54" y="72" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Крылатки, парашютики</text>
+</g>
+
+<!-- Зоохория (Zoochory - animals) -->
+<g transform="translate(132,208)">
+  <rect x="0" y="0" width="108" height="80" rx="3" fill="#FFF3E0" stroke="#E65100" stroke-width="0.6" opacity="0.4"/>
+  <text x="54" y="12" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#E65100" text-anchor="middle">Зоохория</text>
+  <text x="54" y="20" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">(животными)</text>
+
+  <!-- Fleshy fruit (berry) -->
+  <circle cx="30" cy="42" r="10" fill="#F44336" stroke="#C62828" stroke-width="0.8"/>
+  <circle cx="30" cy="42" r="2" fill="#8D6E63" stroke="#5D4037" stroke-width="0.3"/>
+
+  <!-- Burdock/cocklebur with hooks -->
+  <ellipse cx="72" cy="40" rx="8" ry="7" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.5"/>
+  <!-- Hooks -->
+  <path d="M64,35 L60,30 Q58,28 62,30" stroke="#2E7D32" stroke-width="0.6" fill="none"/>
+  <path d="M68,33 L65,27 Q63,25 67,27" stroke="#2E7D32" stroke-width="0.6" fill="none"/>
+  <path d="M76,33 L79,27 Q81,25 77,27" stroke="#2E7D32" stroke-width="0.6" fill="none"/>
+  <path d="M80,36 L85,31 Q87,29 83,31" stroke="#2E7D32" stroke-width="0.6" fill="none"/>
+  <path d="M64,46 L60,51 Q58,53 62,51" stroke="#2E7D32" stroke-width="0.6" fill="none"/>
+  <path d="M80,45 L85,50 Q87,52 83,50" stroke="#2E7D32" stroke-width="0.6" fill="none"/>
+
+  <text x="54" y="62" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Сочные плоды, крючочки</text>
+  <text x="54" y="72" font-family="Arial,sans-serif" font-size="4.5" fill="#888" text-anchor="middle">Рябина, лопух</text>
+</g>
+
+<!-- Гидрохория (Hydrochory - water) -->
+<g transform="translate(249,208)">
+  <rect x="0" y="0" width="108" height="80" rx="3" fill="#E0F7FA" stroke="#00695C" stroke-width="0.6" opacity="0.4"/>
+  <text x="54" y="12" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#00695C" text-anchor="middle">Гидрохория</text>
+  <text x="54" y="20" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">(водой)</text>
+
+  <!-- Coconut floating -->
+  <ellipse cx="54" cy="42" rx="14" ry="10" fill="#8D6E63" stroke="#5D4037" stroke-width="0.8"/>
+  <ellipse cx="54" cy="40" rx="10" ry="7" fill="#A1887F" stroke="#6D4C41" stroke-width="0.5"/>
+  <!-- Water line -->
+  <path d="M10,50 Q30,46 54,48 Q78,50 98,46" fill="none" stroke="#4FC3F7" stroke-width="1"/>
+  <!-- Water waves -->
+  <path d="M10,55 Q30,53 54,55 Q78,57 98,53" fill="none" stroke="#4FC3F7" stroke-width="0.5" opacity="0.5"/>
+  <path d="M10,60 Q30,58 54,60 Q78,62 98,58" fill="none" stroke="#4FC3F7" stroke-width="0.5" opacity="0.3"/>
+
+  <text x="54" y="72" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Воздух в оболочке, не тонут</text>
+</g>
+
+<!-- Автохория (Autochory - self-dispersal) -->
+<g transform="translate(366,208)">
+  <rect x="0" y="0" width="108" height="80" rx="3" fill="#FBE9E7" stroke="#BF360C" stroke-width="0.6" opacity="0.4"/>
+  <text x="54" y="12" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#BF360C" text-anchor="middle">Автохория</text>
+  <text x="54" y="20" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">(саморазброс)</text>
+
+  <!-- Touch-me-not / Impatiens pod exploding -->
+  <!-- Pod (open, releasing seeds) -->
+  <path d="M40,35 L35,25" stroke="#66BB6A" stroke-width="1.5"/>
+  <path d="M40,35 L50,28" stroke="#66BB6A" stroke-width="1.5"/>
+  <!-- Seeds flying out -->
+  <circle cx="55" cy="30" r="2" fill="#8D6E63" stroke="#5D4037" stroke-width="0.3"/>
+  <circle cx="58" cy="35" r="1.8" fill="#8D6E63" stroke="#5D4037" stroke-width="0.3"/>
+  <circle cx="60" cy="28" r="1.5" fill="#8D6E63" stroke="#5D4037" stroke-width="0.3"/>
+  <!-- Explosion lines -->
+  <path d="M50,32 L60,30" stroke="#FF5722" stroke-width="0.5" opacity="0.6"/>
+  <path d="M48,35 L58,36" stroke="#FF5722" stroke-width="0.5" opacity="0.6"/>
+  <path d="M48,28 L57,25" stroke="#FF5722" stroke-width="0.5" opacity="0.6"/>
+
+  <!-- Stem -->
+  <line x1="40" y1="35" x2="40" y2="58" stroke="#388E3C" stroke-width="1"/>
+
+  <text x="54" y="62" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Стручки лопаются</text>
+  <text x="54" y="72" font-family="Arial,sans-serif" font-size="4.5" fill="#888" text-anchor="middle">Недотрога, бешеный огурец</text>
+</g>
+
+<!-- Bottom summary -->
+<g transform="translate(15,296)">
+  <rect x="0" y="0" width="470" height="32" rx="4" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.5" opacity="0.7"/>
+  <text x="235" y="11" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1B5E20" text-anchor="middle">Двойное оплодотворение — уникальная особенность покрытосеменных (Цветковых)</text>
+  <text x="235" y="22" font-family="Arial,sans-serif" font-size="5.5" fill="#333" text-anchor="middle">Спермий 1 + Яйцеклетка → Зигота (2n) → Зародыш | Спермий 2 + Центральная клетка (2n) → Эндосперм (3n)</text>
+  <text x="235" y="30" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Завязь → Околоплодник (плод) | Семязачаток → Семя (оболочка + зародыш + эндосперм)</text>
+</g>
+
+<!-- Decorative elements -->
+<path d="M470,325 Q475,315 485,318 Q490,322 483,328 Q476,332 470,325Z" fill="#66BB6A" opacity="0.4"/>
+<path d="M15,325 Q10,315 5,318 Q0,322 7,328 Q14,332 15,325Z" fill="#66BB6A" opacity="0.4"/>
+</svg>

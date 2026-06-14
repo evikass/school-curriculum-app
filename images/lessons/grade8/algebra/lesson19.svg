@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0F2F1"/>
+      <stop offset="50%" stop-color="#B2DFDB"/>
+      <stop offset="100%" stop-color="#00897B" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="500" height="350" fill="url(#bg)"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#004D40" stroke-width="2.5"/>
+  <text x="250" y="28" font-size="14" font-weight="bold" fill="#004D40" text-anchor="middle" font-family="Arial">Функция y = √x и её график</text>
+  <text x="250" y="43" font-size="9" fill="#666" text-anchor="middle" font-family="Arial">Алгебра 8 класс — Урок 19</text>
+  <line x1="20" y1="50" x2="480" y2="50" stroke="#00695C" stroke-opacity="0.3"/>
+  <rect x="12" y="58" width="280" height="240" rx="6" fill="white" fill-opacity="0.9" stroke="#00695C" stroke-width="1"/>
+  <text x="152" y="73" font-size="9" font-weight="bold" fill="#004D40" text-anchor="middle">График y = √x</text>
+  <line x1="60" y1="85" x2="60" y2="280" stroke="#00695C" stroke-width="1.5"/>
+  <line x1="30" y1="270" x2="270" y2="270" stroke="#00695C" stroke-width="1.5"/>
+  <polygon points="60,85 56,95 64,95" fill="#00695C"/>
+  <polygon points="270,270 260,266 260,274" fill="#00695C"/>
+  <text x="55" y="82" font-size="8" fill="#00695C" font-style="italic">y</text>
+  <text x="275" y="274" font-size="8" fill="#00695C" font-style="italic">x</text>
+  <path d="M60,270 Q80,260 90,250 Q110,230 130,210 Q160,190 200,160 Q230,140 260,125" fill="none" stroke="#004D40" stroke-width="2.5"/>
+  <circle cx="80" cy="250" r="3" fill="#00695C"/>
+  <circle cx="124" cy="210" r="3" fill="#00695C"/>
+  <circle cx="200" cy="150" r="3" fill="#00695C"/>
+  <text x="82" y="245" font-size="7" fill="#004D40">(4;2)</text>
+  <text x="126" y="205" font-size="7" fill="#004D40">(9;3)</text>
+  <text x="202" y="145" font-size="7" fill="#004D40">(16;4)</text>
+  <text x="145" y="285" font-size="8" fill="#555" text-anchor="middle">Ветвь параболы</text>
+  <rect x="302" y="58" width="186" height="240" rx="6" fill="white" fill-opacity="0.9" stroke="#00695C" stroke-width="1"/>
+  <text x="395" y="73" font-size="9" font-weight="bold" fill="#004D40" text-anchor="middle">Свойства</text>
+  <text x="312" y="95" font-size="8" fill="#555">D(f) = [0; +∞)</text>
+  <text x="312" y="112" font-size="8" fill="#555">E(f) = [0; +∞)</text>
+  <text x="312" y="129" font-size="8" fill="#2E7D32">Возрастает</text>
+  <text x="312" y="146" font-size="8" fill="#555">y=0 при x=0</text>
+  <text x="395" y="170" font-size="9" font-weight="bold" fill="#004D40" text-anchor="middle">Таблица</text>
+  <text x="350" y="188" font-size="8" fill="#00695C" font-family="monospace">x: 0 1 4 9 16</text>
+  <text x="350" y="204" font-size="8" fill="#00695C" font-family="monospace">y: 0 1 2 3 4</text>
+  <text x="395" y="228" font-size="9" font-weight="bold" fill="#004D40" text-anchor="middle">Симметрия</text>
+  <text x="312" y="248" font-size="8" fill="#555">y=√x и y=x²</text>
+  <text x="312" y="263" font-size="8" fill="#555">симметричны</text>
+  <text x="312" y="278" font-size="8" fill="#004D40" font-weight="bold">относительно y=x</text>
+  <rect x="12" y="320" width="476" height="22" rx="4" fill="#00695C" fill-opacity="0.85"/>
+  <text x="250" y="335" font-size="9" fill="white" text-anchor="middle" font-weight="bold" font-family="Arial">Функция y = √x и её график — Макарычев Ю.Н., 8 класс</text>
+</svg>

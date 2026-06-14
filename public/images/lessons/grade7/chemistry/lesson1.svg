@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<<<<<<< HEAD
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="flask1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:0.7"/>
+    </linearGradient>
+    <linearGradient id="liquid1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981"/>
+      <stop offset="100%" style="stop-color:#059669"/>
+    </linearGradient>
+    <filter id="glow1">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <marker id="arrowHead1" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#0d9488"/>
+    </marker>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg1)" rx="12"/>
+  <!-- Title -->
+  <text x="400" y="45" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#e2e8f0" text-anchor="middle">Периодический закон Д.И. Менделеева</text>
+
+  <!-- Mendeleev portrait placeholder (stylized) -->
+  <g transform="translate(120, 80)">
+    <!-- Portrait frame -->
+    <rect x="0" y="0" width="100" height="120" rx="8" fill="none" stroke="#0d9488" stroke-width="2" opacity="0.6"/>
+    <!-- Silhouette -->
+    <ellipse cx="50" cy="40" rx="25" ry="30" fill="#0d9488" opacity="0.3"/>
+    <path d="M25,70 Q50,60 75,70 L70,110 L30,110 Z" fill="#0d9488" opacity="0.3"/>
+    <!-- Name -->
+    <text x="50" y="140" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#14b8a6" text-anchor="middle">Д.И. Менделеев</text>
+    <text x="50" y="158" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">1869 год</text>
+  </g>
+
+  <!-- Mini periodic table -->
+  <g transform="translate(280, 70)">
+    <rect x="0" y="0" width="470" height="130" rx="8" fill="#0f172a" stroke="#0d9488" stroke-width="1" opacity="0.5"/>
+    <text x="235" y="20" font-family="Arial, sans-serif" font-size="12" fill="#0d9488" text-anchor="middle">Периодическая система химических элементов</text>
+
+    <!-- Period labels -->
+    <text x="30" y="42" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">I</text>
+    <text x="30" y="60" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">II</text>
+    <text x="30" y="78" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">III</text>
+    <text x="30" y="96" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">IV</text>
+    <text x="30" y="114" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">V</text>
+
+    <!-- Period cells - simplified -->
+    <!-- Row 1 -->
+    <rect x="55" y="32" width="22" height="16" rx="2" fill="#10b981" opacity="0.3" stroke="#0d9488" stroke-width="0.5"/>
+    <text x="66" y="44" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0" text-anchor="middle">H</text>
+    <rect x="425" y="32" width="22" height="16" rx="2" fill="#f59e0b" opacity="0.3" stroke="#f59e0b" stroke-width="0.5"/>
+    <text x="436" y="44" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0" text-anchor="middle">He</text>
+    <!-- Row 2 -->
+    <rect x="55" y="50" width="22" height="16" rx="2" fill="#3b82f6" opacity="0.3" stroke="#3b82f6" stroke-width="0.5"/>
+    <text x="66" y="62" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0" text-anchor="middle">Li</text>
+    <rect x="79" y="50" width="22" height="16" rx="2" fill="#3b82f6" opacity="0.3" stroke="#3b82f6" stroke-width="0.5"/>
+    <text x="90" y="62" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0" text-anchor="middle">Be</text>
+    <rect x="329" y="50" width="22" height="16" rx="2" fill="#f59e0b" opacity="0.3" stroke="#f59e0b" stroke-width="0.5"/>
+    <text x="340" y="62" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0" text-anchor="middle">B</text>
+    <rect x="353" y="50" width="22" height="16" rx="2" fill="#f59e0b" opacity="0.3" stroke="#f59e0b" stroke-width="0.5"/>
+    <text x="364" y="62" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0" text-anchor="middle">C</text>
+    <rect x="377" y="50" width="22" height="16" rx="2" fill="#f59e0b" opacity="0.3" stroke="#f59e0b" stroke-width="0.5"/>
+    <text x="388" y="62" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0" text-anchor="middle">N</text>
+    <rect x="401" y="50" width="22" height="16" rx="2" fill="#f59e0b" opacity="0.3" stroke="#f59e0b" stroke-width="0.5"/>
+    <text x="412" y="62" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0" text-anchor="middle">O</text>
+    <rect x="425" y="50" width="22" height="16" rx="2" fill="#f59e0b" opacity="0.3" stroke="#f59e0b" stroke-width="0.5"/>
+    <text x="436" y="62" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0" text-anchor="middle">F</text>
+    <rect x="449" y="50" width="22" height="16" rx="2" fill="#f59e0b" opacity="0.3" stroke="#f59e0b" stroke-width="0.5"/>
+    <text x="460" y="62" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0" text-anchor="middle">Ne</text>
+    <!-- More rows simplified -->
+    <rect x="55" y="68" width="22" height="16" rx="2" fill="#3b82f6" opacity="0.3" stroke="#3b82f6" stroke-width="0.5"/>
+    <text x="66" y="80" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0" text-anchor="middle">Na</text>
+    <rect x="79" y="68" width="22" height="16" rx="2" fill="#3b82f6" opacity="0.3" stroke="#3b82f6" stroke-width="0.5"/>
+    <text x="90" y="80" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0" text-anchor="middle">Mg</text>
+    <rect x="55" y="86" width="22" height="16" rx="2" fill="#3b82f6" opacity="0.3" stroke="#3b82f6" stroke-width="0.5"/>
+    <text x="66" y="98" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0" text-anchor="middle">K</text>
+    <rect x="79" y="86" width="22" height="16" rx="2" fill="#3b82f6" opacity="0.3" stroke="#3b82f6" stroke-width="0.5"/>
+    <text x="90" y="98" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0" text-anchor="middle">Ca</text>
+    <!-- Group numbers -->
+    <text x="66" y="28" font-family="Arial, sans-serif" font-size="8" fill="#64748b" text-anchor="middle">I</text>
+    <text x="90" y="28" font-family="Arial, sans-serif" font-size="8" fill="#64748b" text-anchor="middle">II</text>
+    <text x="340" y="28" font-family="Arial, sans-serif" font-size="8" fill="#64748b" text-anchor="middle">III</text>
+    <text x="364" y="28" font-family="Arial, sans-serif" font-size="8" fill="#64748b" text-anchor="middle">IV</text>
+    <text x="388" y="28" font-family="Arial, sans-serif" font-size="8" fill="#64748b" text-anchor="middle">V</text>
+    <text x="412" y="28" font-family="Arial, sans-serif" font-size="8" fill="#64748b" text-anchor="middle">VI</text>
+    <text x="436" y="28" font-family="Arial, sans-serif" font-size="8" fill="#64748b" text-anchor="middle">VII</text>
+    <text x="460" y="28" font-family="Arial, sans-serif" font-size="8" fill="#64748b" text-anchor="middle">VIII</text>
+  </g>
+
+  <!-- Divider -->
+  <line x1="50" y1="220" x2="750" y2="220" stroke="#0d9488" stroke-width="1" opacity="0.3"/>
+
+  <!-- Key concept boxes -->
+  <g transform="translate(50, 240)">
+    <!-- Box 1 -->
+    <rect x="0" y="0" width="220" height="90" rx="8" fill="#0f172a" stroke="#10b981" stroke-width="1.5" opacity="0.8"/>
+    <text x="110" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#14b8a6" text-anchor="middle">Формулировка</text>
+    <text x="110" y="48" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Свойства элементов</text>
+    <text x="110" y="65" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">периодически зависят</text>
+    <text x="110" y="82" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">от атомных масс</text>
+  </g>
+
+  <g transform="translate(290, 240)">
+    <!-- Box 2 -->
+    <rect x="0" y="0" width="220" height="90" rx="8" fill="#0f172a" stroke="#f59e0b" stroke-width="1.5" opacity="0.8"/>
+    <text x="110" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f59e0b" text-anchor="middle">Предсказание</text>
+    <text x="110" y="48" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Менделеев предсказал</text>
+    <text x="110" y="65" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">свойства ещё не</text>
+    <text x="110" y="82" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">открытых элементов</text>
+  </g>
+
+  <g transform="translate(530, 240)">
+    <!-- Box 3 -->
+    <rect x="0" y="0" width="220" height="90" rx="8" fill="#0f172a" stroke="#3b82f6" stroke-width="1.5" opacity="0.8"/>
+    <text x="110" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#3b82f6" text-anchor="middle">Современная форма</text>
+    <text x="110" y="48" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Зависимость от</text>
+    <text x="110" y="65" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">заряда ядра атома</text>
+    <text x="110" y="82" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">(порядкового номера)</text>
+  </g>
+
+  <!-- Timeline -->
+  <g transform="translate(50, 360)">
+    <line x1="0" y1="20" x2="700" y2="20" stroke="#0d9488" stroke-width="2" opacity="0.5"/>
+    <!-- 1869 -->
+    <circle cx="0" cy="20" r="6" fill="#10b981"/>
+    <text x="0" y="8" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#14b8a6" text-anchor="middle">1869</text>
+    <text x="0" y="45" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Открытие</text>
+    <text x="0" y="58" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">закона</text>
+    <!-- 1871 -->
+    <circle cx="140" cy="20" r="6" fill="#f59e0b"/>
+    <text x="140" y="8" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#f59e0b" text-anchor="middle">1871</text>
+    <text x="140" y="45" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Предсказание</text>
+    <text x="140" y="58" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Ga, Ge, Sc</text>
+    <!-- 1913 -->
+    <circle cx="420" cy="20" r="6" fill="#3b82f6"/>
+    <text x="420" y="8" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#3b82f6" text-anchor="middle">1913</text>
+    <text x="420" y="45" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Модели</text>
+    <text x="420" y="58" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">атома (Бор)</text>
+    <!-- Современность -->
+    <circle cx="700" cy="20" r="6" fill="#ef4444"/>
+    <text x="700" y="8" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ef4444" text-anchor="middle">XXI в.</text>
+    <text x="700" y="45" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">118</text>
+    <text x="700" y="58" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">элементов</text>
+  </g>
+
+  <!-- Bottom label -->
+  <text x="400" y="470" font-family="Arial, sans-serif" font-size="14" fill="#0d9488" text-anchor="middle" opacity="0.7">Периодический закон — основа современной химии</text>
+  <!-- Decorative corner elements -->
+  <circle cx="30" cy="30" r="4" fill="#0d9488" opacity="0.3"/>
+  <circle cx="770" cy="30" r="4" fill="#0d9488" opacity="0.3"/>
+  <circle cx="30" cy="470" r="4" fill="#0d9488" opacity="0.3"/>
+  <circle cx="770" cy="470" r="4" fill="#0d9488" opacity="0.3"/>
+</svg>
+=======
+<defs>
+  <style>
+    text { font-family: 'Segoe UI', Arial, Helvetica, sans-serif; }
+  </style>
+  <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+    <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.08"/>
+  </filter>
+</defs>
+<rect width="800" height="500" rx="12" fill="#f8fafc"/>
+<rect width="800" height="6" fill="#3b82f6" rx="3"/>
+<text x="400" y="48" text-anchor="middle" font-size="28" font-weight="700" fill="#1e3a5f">Предмет химии. Что изучает химия</text>
+<rect x="320" y="65" width="160" height="44" rx="22" fill="#3b82f6" filter="url(#shadow)"/>
+<text x="400" y="94" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">Химия</text>
+<rect x="55" y="130" width="230" height="250" rx="14" fill="#fff" stroke="#3b82f6" stroke-width="1.5" filter="url(#shadow)"/>
+<rect x="55" y="130" width="230" height="6" rx="3" fill="#3b82f6"/>
+<path d="M130,170 L130,200 L100,260 Q95,275 110,275 L170,275 Q185,275 180,260 L150,200 L150,170 Z" fill="none" stroke="#3b82f6" stroke-width="2.5"/><line x1="125" y1="170" x2="155" y2="170" stroke="#3b82f6" stroke-width="2.5"/><ellipse cx="140" cy="250" rx="18" ry="10" fill="#93c5fd" opacity="0.5"/>
+<text x="170" y="320" text-anchor="middle" font-size="16" font-weight="600" fill="#3b82f6">Состав веществ</text>
+<rect x="300" y="130" width="230" height="250" rx="14" fill="#fff" stroke="#10b981" stroke-width="1.5" filter="url(#shadow)"/>
+<rect x="300" y="130" width="230" height="6" rx="3" fill="#10b981"/>
+<circle cx="400" cy="230" r="30" fill="none" stroke="#10b981" stroke-width="2.5"/><line x1="422" y1="252" x2="445" y2="275" stroke="#10b981" stroke-width="3" stroke-linecap="round"/><circle cx="393" cy="222" r="5" fill="#6ee7b7" opacity="0.5"/>
+<text x="415" y="320" text-anchor="middle" font-size="16" font-weight="600" fill="#10b981">Свойства веществ</text>
+<rect x="545" y="130" width="230" height="250" rx="14" fill="#fff" stroke="#8b5cf6" stroke-width="1.5" filter="url(#shadow)"/>
+<rect x="545" y="130" width="230" height="6" rx="3" fill="#8b5cf6"/>
+<rect x="595" y="195" width="40" height="28" rx="4" fill="#c4b5fd" stroke="#8b5cf6" stroke-width="1.5"/><polygon points="645,209 665,209 665,200 680,214 665,228 665,219 645,219" fill="#8b5cf6"/><rect x="685" y="195" width="40" height="28" rx="4" fill="#a78bfa" stroke="#8b5cf6" stroke-width="1.5"/>
+<text x="660" y="320" text-anchor="middle" font-size="16" font-weight="600" fill="#8b5cf6">Превращения веществ</text>
+<text x="140" y="360" text-anchor="middle" font-size="20" fill="#1e3a5f">H<tspan font-size="13" baseline-shift="sub">2</tspan>O</text>
+<text x="400" y="360" text-anchor="middle" font-size="20" fill="#1e3a5f">NaCl</text>
+<text x="665" y="360" text-anchor="middle" font-size="20" fill="#1e3a5f">Fe</text>
+<rect x="200" y="420" width="400" height="3" rx="1.5" fill="#e2e8f0"/>
+<text x="400" y="455" text-anchor="middle" font-size="13" fill="#94a3b8">Химия — наука о веществах, их свойствах и превращениях</text>
+</svg>
+>>>>>>> 4a017dac754e43b4cda6cd1433ec16c21af05c2a

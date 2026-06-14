@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#94a3b8" flood-opacity="0.25"/>
+    </filter>
+      <marker id="arrowhead-f59e0b" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#f59e0b"/>
+    </marker>
+</defs>
+  <!-- Background -->
+  <rect width="800" height="500" rx="12" fill="#f8fafc" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="800" height="6" rx="3" fill="#f59e0b"/>
+  <text x="400" y="42" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#b45309">Соли</text>
+  <rect x="15" y="62" width="255" height="120" rx="10" fill="#fefce8" stroke="#f59e0b" stroke-width="1.5"/>
+  <rect x="15" y="62" width="255" height="32" rx="10" fill="#f59e0b"/>
+  <rect x="15" y="84" width="255" height="10" fill="#f59e0b"/>
+  <text x="142" y="84" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#ffffff">Средние соли</text>
+  <text x="142" y="112" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#854d0e">NaCl, CaSO<tspan baseline-shift="sub" font-size="75%">₄</tspan></text>
+  <text x="142" y="134" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#a16207">Meⁿ⁺ + кисл.остатокⁿ⁻</text>
+  <text x="142" y="152" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#a16207">Все H замещены на Me</text>
+  <rect x="280" y="62" width="240" height="120" rx="10" fill="#fff7ed" stroke="#fb923c" stroke-width="1.5"/>
+  <rect x="280" y="62" width="240" height="32" rx="10" fill="#fb923c"/>
+  <rect x="280" y="84" width="240" height="10" fill="#fb923c"/>
+  <text x="400" y="84" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#ffffff">Кислые соли</text>
+  <text x="400" y="112" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#9a3412">NaHSO<tspan baseline-shift="sub" font-size="75%">₄</tspan></text>
+  <text x="400" y="134" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#c2410c">Часть H замещена на Me</text>
+  <text x="400" y="152" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#c2410c">Содержат H в составе</text>
+  <rect x="530" y="62" width="255" height="120" rx="10" fill="#eff6ff" stroke="#60a5fa" stroke-width="1.5"/>
+  <rect x="530" y="62" width="255" height="32" rx="10" fill="#3b82f6"/>
+  <rect x="530" y="84" width="255" height="10" fill="#3b82f6"/>
+  <text x="657" y="84" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#ffffff">Основные соли</text>
+  <text x="657" y="112" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#1e40af">Cu(OH)Cl</text>
+  <text x="657" y="134" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#2563eb">Содержат OH в составе</text>
+  <text x="657" y="152" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#2563eb">Часть OH не замещена</text>
+  <rect x="15" y="195" width="485" height="100" rx="10" fill="#ecfdf5" stroke="#10b981" stroke-width="1.5"/>
+  <text x="257" y="220" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#047857">Образование солей</text>
+  <text x="257" y="248" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#065f46">Кислота + Основание → Соль + Вода</text>
+  <text x="257" y="270" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#047857">Реакция нейтрализации</text>
+  <text x="257" y="288" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#166534">HCl + NaOH → NaCl + H<tspan baseline-shift="sub" font-size="75%">₂</tspan>O</text>
+  <rect x="510" y="195" width="275" height="100" rx="10" fill="#fefce8" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="647" y="220" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#92400e">Важные соли</text>
+  <rect x="520" y="235" width="80" height="45" rx="10" fill="#ffffff" stroke="#fbbf24" stroke-width="1.5"/>
+  <text x="560" y="254" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#854d0e">NaCl</text>
+  <text x="560" y="270" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#b45309">соль</text>
+  <rect x="610" y="235" width="80" height="45" rx="10" fill="#ffffff" stroke="#fbbf24" stroke-width="1.5"/>
+  <text x="650" y="254" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#854d0e">CaCO<tspan baseline-shift="sub" font-size="75%">₃</tspan></text>
+  <text x="650" y="270" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#b45309">мел</text>
+  <rect x="700" y="235" width="80" height="45" rx="10" fill="#ffffff" stroke="#fbbf24" stroke-width="1.5"/>
+  <text x="740" y="254" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#854d0e">CuSO<tspan baseline-shift="sub" font-size="75%">₄</tspan></text>
+  <text x="740" y="270" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#b45309">купорос</text>
+  <rect x="15" y="310" width="770" height="170" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="400" y="335" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#92400e">Способы получения солей</text>
+  <circle cx="50" cy="356" r="8" fill="#ef4444"/>
+  <text x="50" y="360" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#ffffff">1.</text>
+  <text x="65" y="360" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#78350f">Me + Кислота → Соль + H₂↑</text>
+  <circle cx="430" cy="356" r="8" fill="#3b82f6"/>
+  <text x="430" y="360" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#ffffff">2.</text>
+  <text x="445" y="360" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#78350f">Основный оксид + Кислота → Соль + H₂O</text>
+  <circle cx="50" cy="388" r="8" fill="#10b981"/>
+  <text x="50" y="392" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#ffffff">3.</text>
+  <text x="65" y="392" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#78350f">Кислотный оксид + Основание → Соль + H₂O</text>
+  <circle cx="430" cy="388" r="8" fill="#8b5cf6"/>
+  <text x="430" y="392" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#ffffff">4.</text>
+  <text x="445" y="392" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#78350f">Me + Me-соль → Нов. Me + Нов. соль</text>
+  <circle cx="50" cy="420" r="8" fill="#f59e0b"/>
+  <text x="50" y="424" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#ffffff">5.</text>
+  <text x="65" y="424" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#78350f">Щёлочь + Соль → Нов. основание + Нов. соль</text>
+  <circle cx="430" cy="420" r="8" fill="#06b6d4"/>
+  <text x="430" y="424" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#ffffff">6.</text>
+  <text x="445" y="424" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#78350f">Кислота + Соль → Нов. кислота + Нов. соль</text>
+  <text x="400" y="470" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-style="italic" fill="#92400e">Общая формула средних солей: Meₓ(Кисл.остаток)ᵧ</text>
+</svg>

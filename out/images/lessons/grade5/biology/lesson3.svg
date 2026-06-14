@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#F3E5F5"/><stop offset="100%" stop-color="#E1BEE7"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#7B1FA2" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#4A148C" text-anchor="middle">Царства живых организмов</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 5 класс — Урок 3</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#7B1FA2" stroke-width="1" opacity="0.3"/>
+
+<!-- Central circle - Живая природа -->
+<circle cx="250" cy="130" r="35" fill="#9C27B0" opacity="0.15" stroke="#7B1FA2" stroke-width="2"/>
+<text x="250" y="127" font-family="Arial,sans-serif" font-size="8" fill="#4A148C" text-anchor="middle" font-weight="bold">Живая</text>
+<text x="250" y="138" font-family="Arial,sans-serif" font-size="8" fill="#4A148C" text-anchor="middle" font-weight="bold">природа</text>
+
+<!-- Branches to kingdoms -->
+<line x1="220" y1="115" x2="80" y2="80" stroke="#7B1FA2" stroke-width="1.5"/>
+<line x1="220" y1="140" x2="80" y2="165" stroke="#7B1FA2" stroke-width="1.5"/>
+<line x1="250" y1="165" x2="250" y2="210" stroke="#7B1FA2" stroke-width="1.5"/>
+<line x1="280" y1="115" x2="420" y2="80" stroke="#7B1FA2" stroke-width="1.5"/>
+<line x1="280" y1="140" x2="420" y2="165" stroke="#7B1FA2" stroke-width="1.5"/>
+
+<!-- Бактерии -->
+<g transform="translate(80,80)">
+  <rect x="-45" y="-30" width="90" height="55" rx="8" fill="white" opacity="0.9" stroke="#FF9800" stroke-width="1.5"/>
+  <ellipse cx="-20" cy="-5" rx="12" ry="5" fill="#FFE0B2" stroke="#E65100" stroke-width="1"/>
+  <path d="M-8,-5 Q-3,-8 2,-5" fill="none" stroke="#E65100" stroke-width="0.8"/>
+  <circle cx="-28" cy="-7" r="3" fill="#FFCC80" stroke="#E65100" stroke-width="0.6"/>
+  <text x="5" y="-8" font-family="Arial,sans-serif" font-size="7" fill="#BF360C" text-anchor="middle" font-weight="bold">Бактерии</text>
+  <text x="5" y="2" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">без ядра</text>
+  <text x="0" y="18" font-family="Arial,sans-serif" font-size="5" fill="#999" text-anchor="middle">доядерные</text>
+</g>
+
+<!-- Грибы -->
+<g transform="translate(80,165)">
+  <rect x="-45" y="-30" width="90" height="55" rx="8" fill="white" opacity="0.9" stroke="#795548" stroke-width="1.5"/>
+  <path d="M-25,-5 Q-20,-20 -10,-15 Q0,-10 -5,0 L-8,10 L-22,10 L-23,0 Z" fill="#A1887F" stroke="#5D4037" stroke-width="1"/>
+  <circle cx="-15" cy="-15" r="3" fill="#BCAAA4" stroke="#5D4037" stroke-width="0.5"/>
+  <text x="15" y="-5" font-family="Arial,sans-serif" font-size="7" fill="#4E342E" text-anchor="middle" font-weight="bold">Грибы</text>
+  <text x="15" y="5" font-family="Arial,sans-serif" font-size="5" fill="#795548" text-anchor="middle">хитин + гетеротрофы</text>
+  <text x="0" y="18" font-family="Arial,sans-serif" font-size="5" fill="#999" text-anchor="middle">ядерные</text>
+</g>
+
+<!-- Растения -->
+<g transform="translate(250,240)">
+  <rect x="-55" y="-25" width="110" height="55" rx="8" fill="white" opacity="0.9" stroke="#2E7D32" stroke-width="1.5"/>
+  <path d="M-35,-5 Q-30,-18 -20,-12 Q-15,-5 -20,0 Q-30,5 -35,-5" fill="#66BB6A" stroke="#2E7D32" stroke-width="1"/>
+  <line x1="-27" y1="-2" x2="-27" y2="10" stroke="#2E7D32" stroke-width="1.5"/>
+  <path d="M-27,10 Q-32,12 -35,15" fill="none" stroke="#2E7D32" stroke-width="0.8"/>
+  <text x="15" y="-5" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle" font-weight="bold">Растения</text>
+  <text x="15" y="5" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">автотрофы · фотосинтез</text>
+  <text x="0" y="23" font-family="Arial,sans-serif" font-size="5" fill="#999" text-anchor="middle">ядерные</text>
+</g>
+
+<!-- Животные -->
+<g transform="translate(420,80)">
+  <rect x="-45" y="-30" width="90" height="55" rx="8" fill="white" opacity="0.9" stroke="#E64A19" stroke-width="1.5"/>
+  <ellipse cx="-22" cy="-5" rx="10" ry="7" fill="#FFAB91" stroke="#BF360C" stroke-width="1"/>
+  <circle cx="-26" cy="-7" r="2" fill="#1B5E20"/>
+  <path d="M-12,-5 Q-8,-10 -5,-5" fill="none" stroke="#BF360C" stroke-width="1"/>
+  <path d="M-22,-12 Q-18,-16 -14,-12" fill="none" stroke="#BF360C" stroke-width="0.8"/>
+  <path d="M-28,-12 Q-32,-16 -35,-12" fill="none" stroke="#BF360C" stroke-width="0.8"/>
+  <text x="10" y="-8" font-family="Arial,sans-serif" font-size="7" fill="#BF360C" text-anchor="middle" font-weight="bold">Животные</text>
+  <text x="10" y="2" font-family="Arial,sans-serif" font-size="5" fill="#E64A19" text-anchor="middle">гетеротрофы</text>
+  <text x="0" y="18" font-family="Arial,sans-serif" font-size="5" fill="#999" text-anchor="middle">ядерные</text>
+</g>
+
+<!-- Протисты (простейшие) -->
+<g transform="translate(420,165)">
+  <rect x="-45" y="-30" width="90" height="55" rx="8" fill="white" opacity="0.9" stroke="#1565C0" stroke-width="1.5"/>
+  <ellipse cx="-22" cy="-5" rx="10" ry="7" fill="#90CAF9" stroke="#1565C0" stroke-width="1"/>
+  <circle cx="-25" cy="-7" r="2.5" fill="#42A5F5" stroke="#0D47A1" stroke-width="0.5"/>
+  <path d="M-12,-5 L-5,-3" stroke="#1565C0" stroke-width="0.8"/>
+  <path d="M-30,0 Q-35,3 -38,0" fill="none" stroke="#1565C0" stroke-width="0.8"/>
+  <text x="10" y="-8" font-family="Arial,sans-serif" font-size="7" fill="#0D47A1" text-anchor="middle" font-weight="bold">Протисты</text>
+  <text x="10" y="2" font-family="Arial,sans-serif" font-size="5" fill="#1565C0" text-anchor="middle">простейшие</text>
+  <text x="0" y="18" font-family="Arial,sans-serif" font-size="5" fill="#999" text-anchor="middle">ядерные</text>
+</g>
+
+<!-- Bottom: признаки живого -->
+<rect x="30" y="305" width="440" height="30" rx="6" fill="white" opacity="0.9" stroke="#7B1FA2" stroke-width="1"/>
+<text x="250" y="320" font-family="Arial,sans-serif" font-size="7" fill="#4A148C" text-anchor="middle" font-weight="bold">Признаки живого: обмен веществ · рост · развитие · размножение · раздражимость · наследственность</text>
+<text x="250" y="332" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">Доядерные (без ядра) — Бактерии | Ядерные (с ядром) — Растения, Животные, Грибы, Протисты</text>
+</svg>

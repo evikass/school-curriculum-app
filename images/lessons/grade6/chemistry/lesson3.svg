@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8e0f0"/>
+      <stop offset="100%" stop-color="#c8b8d8"/>
+    </linearGradient>
+    <linearGradient id="flame" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#e08020"/>
+      <stop offset="50%" stop-color="#e8a830"/>
+      <stop offset="100%" stop-color="#f0d060"/>
+    </linearGradient>
+    <linearGradient id="rust" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c87840"/>
+      <stop offset="100%" stop-color="#a05020"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="340" fill="url(#bg3)" rx="12"/>
+  <rect x="8" y="8" width="464" height="324" fill="none" stroke="#8878a0" stroke-width="1.5" rx="8" stroke-dasharray="4,3"/>
+  <text x="240" y="32" text-anchor="middle" font-size="16" font-weight="bold" fill="#4a3860" font-family="serif">Физические и химические явления</text>
+  <!-- Burning candle (chemical) -->
+  <rect x="55" y="140" width="20" height="60" rx="2" fill="#e8e0c8" stroke="#b0a880" stroke-width="1.5"/>
+  <path d="M65,140 Q60,120 65,100 Q70,120 65,140" fill="url(#flame)" opacity="0.9"/>
+  <ellipse cx="65" cy="108" rx="5" ry="8" fill="#f0e080" opacity="0.7"/>
+  <text x="65" y="215" text-anchor="middle" font-size="8" fill="#5a3860">Горение свечи</text>
+  <text x="65" y="226" text-anchor="middle" font-size="7" fill="#7a5890" font-style="italic">Химическое</text>
+  <!-- Rusting nail -->
+  <rect x="110" y="165" width="50" height="8" rx="1" fill="url(#rust)" stroke="#804020" stroke-width="1"/>
+  <circle cx="108" cy="169" r="7" fill="#b0b0b8" stroke="#606068" stroke-width="1"/>
+  <circle cx="108" cy="169" r="7" fill="url(#rust)" opacity="0.5"/>
+  <rect x="160" y="160" width="6" height="18" rx="1" fill="#b0b0b8" stroke="#606068" stroke-width="0.5"/>
+  <text x="130" y="195" text-anchor="middle" font-size="8" fill="#5a3860">Ржавление</text>
+  <text x="130" y="206" text-anchor="middle" font-size="7" fill="#7a5890" font-style="italic">Химическое</text>
+  <!-- Ice melting (physical) -->
+  <polygon points="210,130 230,125 250,130 255,150 240,165 215,165 205,150" fill="#c8d8f0" stroke="#7090b0" stroke-width="1.5" opacity="0.8"/>
+  <ellipse cx="230" cy="180" rx="25" ry="6" fill="#90b8d8" opacity="0.5"/>
+  <path d="M220,165 Q225,175 220,185" stroke="#7090b0" stroke-width="1" fill="none"/>
+  <path d="M235,165 Q240,175 235,185" stroke="#7090b0" stroke-width="1" fill="none"/>
+  <text x="230" y="200" text-anchor="middle" font-size="8" fill="#5a3860">Плавление льда</text>
+  <text x="230" y="211" text-anchor="middle" font-size="7" fill="#7a5890" font-style="italic">Физическое</text>
+  <!-- Water boiling -->
+  <path d="M290,120 L290,180 Q290,190 300,190 L340,190 Q350,190 350,180 L350,120" fill="#d8e0f0" stroke="#7090b0" stroke-width="1.5" opacity="0.7"/>
+  <rect x="295" y="150" width="50" height="38" rx="2" fill="#a0c8e0" opacity="0.4"/>
+  <circle cx="310" cy="170" r="3" fill="#c0d8e8" opacity="0.6"/>
+  <circle cx="325" cy="165" r="2" fill="#c0d8e8" opacity="0.5"/>
+  <circle cx="330" cy="175" r="2.5" fill="#c0d8e8" opacity="0.6"/>
+  <path d="M310,120 Q315,105 310,92" stroke="#a0b8d0" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M325,118 Q330,100 323,88" stroke="#a0b8d0" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <path d="M340,120 Q345,102 338,90" stroke="#a0b8d0" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <text x="320" y="208" text-anchor="middle" font-size="8" fill="#5a3860">Кипение воды</text>
+  <text x="320" y="219" text-anchor="middle" font-size="7" fill="#7a5890" font-style="italic">Физическое</text>
+  <!-- Signs of chemical reactions -->
+  <rect x="20" y="240" width="440" height="85" rx="6" fill="#f0e8f0" stroke="#9878a8" stroke-width="1"/>
+  <text x="240" y="258" text-anchor="middle" font-size="10" font-weight="bold" fill="#5a3860">Признаки химических реакций</text>
+  <!-- Gas evolution -->
+  <rect x="40" y="268" width="70" height="45" rx="4" fill="#e0d8e8" stroke="#9878a8" stroke-width="1"/>
+  <circle cx="60" cy="285" r="3" fill="#b0a0c0" opacity="0.6"/>
+  <circle cx="70" cy="280" r="4" fill="#b0a0c0" opacity="0.5"/>
+  <circle cx="80" cy="283" r="3" fill="#b0a0c0" opacity="0.6"/>
+  <circle cx="90" cy="278" r="2.5" fill="#b0a0c0" opacity="0.5"/>
+  <text x="75" y="308" text-anchor="middle" font-size="7" fill="#5a3860">Газ</text>
+  <!-- Precipitate -->
+  <rect x="125" y="268" width="70" height="45" rx="4" fill="#e0d8e8" stroke="#9878a8" stroke-width="1"/>
+  <rect x="140" y="298" width="40" height="10" rx="2" fill="#d0c8a0" opacity="0.7"/>
+  <rect x="142" y="295" width="36" height="6" rx="1" fill="#e0d8b0" opacity="0.5"/>
+  <text x="160" y="308" text-anchor="middle" font-size="7" fill="#5a3860">Осадок</text>
+  <!-- Color change -->
+  <rect x="210" y="268" width="70" height="45" rx="4" fill="#e0d8e8" stroke="#9878a8" stroke-width="1"/>
+  <circle cx="230" cy="288" r="8" fill="#5090d0" opacity="0.6"/>
+  <path d="M240,288 Q250,280 245,295" stroke="#d05050" stroke-width="2" fill="none"/>
+  <text x="245" y="308" text-anchor="middle" font-size="7" fill="#5a3860">Цвет</text>
+  <!-- Heat -->
+  <rect x="295" y="268" width="70" height="45" rx="4" fill="#e0d8e8" stroke="#9878a8" stroke-width="1"/>
+  <path d="M330,278 Q335,288 328,295 Q338,288 330,278" fill="#e0a030" opacity="0.7"/>
+  <path d="M318,280 Q323,290 316,297 Q326,290 318,280" fill="#e0a030" opacity="0.5"/>
+  <text x="330" y="308" text-anchor="middle" font-size="7" fill="#5a3860">Тепло</text>
+  <!-- Smell -->
+  <rect x="380" y="268" width="70" height="45" rx="4" fill="#e0d8e8" stroke="#9878a8" stroke-width="1"/>
+  <path d="M410,280 Q415,288 410,295" stroke="#9070a0" stroke-width="1.5" fill="none"/>
+  <path d="M418,278 Q423,288 418,297" stroke="#9070a0" stroke-width="1.5" fill="none"/>
+  <path d="M426,280 Q431,290 426,298" stroke="#9070a0" stroke-width="1.5" fill="none"/>
+  <text x="415" y="308" text-anchor="middle" font-size="7" fill="#5a3860">Запах</text>
+  <!-- Decorative -->
+  <circle cx="20" cy="45" r="2" fill="#b0a0c0" opacity="0.5"/>
+  <circle cx="460" cy="45" r="2" fill="#b0a0c0" opacity="0.5"/>
+  <!-- Soda + vinegar reaction -->
+  <rect x="380" y="120" width="30" height="40" rx="3" fill="#f0e8d0" stroke="#b0a060" stroke-width="1"/>
+  <rect x="390" y="100" width="10" height="22" rx="2" fill="#e8e0c8" stroke="#b0a060" stroke-width="1"/>
+  <circle cx="395" cy="115" r="2" fill="#d0c880" opacity="0.5"/>
+  <circle cx="400" cy="110" r="1.5" fill="#d0c880" opacity="0.4"/>
+  <!-- Reaction arrow -->
+  <line x1="415" y1="130" x2="435" y2="130" stroke="#7a5890" stroke-width="1.5"/>
+  <polygon points="433,125 443,130 433,135" fill="#7a5890"/>
+  <!-- Bubbles result -->
+  <circle cx="455" cy="115" r="3" fill="#d0c8e0" opacity="0.5"/>
+  <circle cx="460" cy="125" r="2" fill="#d0c8e0" opacity="0.4"/>
+  <circle cx="450" cy="130" r="2.5" fill="#d0c8e0" opacity="0.5"/>
+  <circle cx="465" cy="118" r="1.5" fill="#d0c8e0" opacity="0.3"/>
+  <text x="425" y="148" text-anchor="middle" font-size="6" fill="#7a5890">Сода + Уксус</text>
+  <text x="425" y="157" text-anchor="middle" font-size="6" fill="#7a5890" font-style="italic">= CO2 + H2O</text>
+  <!-- Diffusion demonstration -->
+  <rect x="20" y="70" width="60" height="50" rx="4" fill="#e0d8e8" stroke="#9878a8" stroke-width="1"/>
+  <circle cx="35" cy="85" r="3" fill="#d08080" opacity="0.6"/>
+  <circle cx="45" cy="90" r="2" fill="#d08080" opacity="0.4"/>
+  <circle cx="55" cy="82" r="2.5" fill="#d08080" opacity="0.3"/>
+  <circle cx="65" cy="88" r="2" fill="#d08080" opacity="0.2"/>
+  <text x="50" y="110" text-anchor="middle" font-size="6" fill="#5a3860">Диффузия</text>
+</svg>
