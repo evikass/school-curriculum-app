@@ -1,45 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
   <defs>
-    <linearGradient id="tg" x1="0" y1="0" x2="400" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0d9488"/><stop offset="100%" stop-color="#14b8a6"/>
+    <linearGradient id="hdr" x1="0" y1="0" x2="480" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#6366f1"/>
     </linearGradient>
     <filter id="sh" x="-2%" y="-2%" width="104%" height="104%">
-      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.15"/>
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.2"/>
     </filter>
   </defs>
-  <rect width="400" height="300" rx="8" fill="#1a1a2e"/>
-  <rect width="400" height="52" rx="8" fill="url(#tg)"/>
-  <rect y="44" width="400" height="8" fill="url(#tg)"/>
-  <text x="200" y="24" text-anchor="middle" fill="#fff" font-family="Arial" font-size="12" font-weight="bold">Обобщение курса органической химии</text>
-  <text x="200" y="42" text-anchor="middle" fill="#ccfbf1" font-family="Arial" font-size="10">Химия 10 класс • Урок 35</text>
-  <rect x="10" y="60" width="185" height="115" rx="6" fill="#1e1e3a" stroke="#10b981" stroke-width="1" filter="url(#sh)"/>
-  <text x="22" y="78" font-family="Arial" font-size="11" font-weight="bold" fill="#10b981">Генетические связи</text>
-  <text x="22" y="95" font-family="Arial" font-size="9" fill="#e2e8f0">Алкан → Алкен (дегидрирование)</text>
-  <text x="22" y="108" font-family="Arial" font-size="9" fill="#e2e8f0">Алкен → Спирт (гидратация)</text>
-  <text x="22" y="121" font-family="Arial" font-size="9" fill="#e2e8f0">Спирт → Альдегид (окисление)</text>
-  <text x="22" y="134" font-family="Arial" font-size="9" fill="#e2e8f0">Альдегид → Кислота (окисление)</text>
-  <text x="22" y="147" font-family="Arial" font-size="9" fill="#e2e8f0">Кислота → Эфир (этерификация)</text>
-  <text x="22" y="160" font-family="Arial" font-size="9" fill="#e2e8f0">Кислота → Соль (нейтрализация)</text>
-  <rect x="205" y="60" width="185" height="115" rx="6" fill="#1e1e3a" stroke="#a855f7" stroke-width="1" filter="url(#sh)"/>
-  <text x="217" y="78" font-family="Arial" font-size="11" font-weight="bold" fill="#a855f7">Общие формулы</text>
-  <circle cx="217" cy="93" r="3" fill="#a855f7"/><text x="227" y="97" font-family="Arial" font-size="9.5" fill="#e2e8f0">Алканы: CnH2n+2</text>
-  <circle cx="217" cy="108" r="3" fill="#a855f7"/><text x="227" y="112" font-family="Arial" font-size="9.5" fill="#e2e8f0">Алкены/цикло: CnH2n</text>
-  <circle cx="217" cy="123" r="3" fill="#a855f7"/><text x="227" y="127" font-family="Arial" font-size="9.5" fill="#e2e8f0">Алкины/диены: CnH2n-2</text>
-  <circle cx="217" cy="138" r="3" fill="#a855f7"/><text x="227" y="142" font-family="Arial" font-size="9.5" fill="#e2e8f0">Арены: CnH2n-6</text>
-  <circle cx="217" cy="153" r="3" fill="#a855f7"/><text x="227" y="157" font-family="Arial" font-size="9.5" fill="#e2e8f0">Спирты: CnH2n+2O</text>
-  <circle cx="217" cy="168" r="3" fill="#a855f7"/><text x="227" y="172" font-family="Arial" font-size="9" fill="#e2e8f0">Альдегиды: CnH2nO</text>
-  <rect x="10" y="183" width="185" height="107" rx="6" fill="#1e1e3a" stroke="#f59e0b" stroke-width="1" filter="url(#sh)"/>
-  <text x="22" y="201" font-family="Arial" font-size="11" font-weight="bold" fill="#f59e0b">Качественные реакции</text>
-  <circle cx="22" cy="217" r="3" fill="#f59e0b"/><text x="32" y="221" font-family="Arial" font-size="9" fill="#e2e8f0">Кратная связь: Br2 (обесцв.)</text>
-  <circle cx="22" cy="232" r="3" fill="#f59e0b"/><text x="32" y="236" font-family="Arial" font-size="9" fill="#e2e8f0">Спирт: Na → H2</text>
-  <circle cx="22" cy="247" r="3" fill="#f59e0b"/><text x="32" y="251" font-family="Arial" font-size="9" fill="#e2e8f0">Альдегид: Ag2O (NH3) → Ag</text>
-  <circle cx="22" cy="262" r="3" fill="#f59e0b"/><text x="32" y="266" font-family="Arial" font-size="9" fill="#e2e8f0">Кислота: NaHCO3 → CO2</text>
-  <circle cx="22" cy="277" r="3" fill="#f59e0b"/><text x="32" y="281" font-family="Arial" font-size="9" fill="#e2e8f0">Белок: CuSO4 + NaOH → фиол.</text>
-  <rect x="205" y="183" width="185" height="107" rx="6" fill="#1e1e3a" stroke="#3b82f6" stroke-width="1" filter="url(#sh)"/>
-  <text x="217" y="201" font-family="Arial" font-size="11" font-weight="bold" fill="#3b82f6">Типы реакций</text>
-  <circle cx="217" cy="217" r="3" fill="#3b82f6"/><text x="227" y="221" font-family="Arial" font-size="9" fill="#e2e8f0">Замещение: RH + X2 →</text>
-  <circle cx="217" cy="232" r="3" fill="#3b82f6"/><text x="227" y="236" font-family="Arial" font-size="9" fill="#e2e8f0">Присоединение: C=C + HX →</text>
-  <circle cx="217" cy="247" r="3" fill="#3b82f6"/><text x="227" y="251" font-family="Arial" font-size="9" fill="#e2e8f0">Отщепление: R-OH → C=C</text>
-  <circle cx="217" cy="262" r="3" fill="#3b82f6"/><text x="227" y="266" font-family="Arial" font-size="9" fill="#e2e8f0">Окисление: спирт → альдегид</text>
-  <circle cx="217" cy="277" r="3" fill="#3b82f6"/><text x="227" y="281" font-family="Arial" font-size="9" fill="#e2e8f0">Полимеризация: nC=C → (-C-C-)n</text>
+  <rect width="480" height="360" rx="10" fill="#0f172a"/>
+  <rect width="480" height="50" rx="10" fill="url(#hdr)"/>
+  <rect y="42" width="480" height="8" fill="url(#hdr)"/>
+  <text x="240" y="23" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="13" font-weight="bold">Обобщение органической химии</text>
+  <text x="240" y="40" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="9" opacity="0.8">Химия 10 класс</text>
+  <rect x="10" y="58" width="225" height="140" rx="6" fill="#1e293b" stroke="#10b981" stroke-width="1" filter="url(#sh)"/>
+  <text x="22" y="76" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#10b981">Генетическая связь</text>
+  <line x1="22" y1="82" x2="223" y2="82" stroke="#10b981" stroke-width="0.5" opacity="0.5"/>
+  <circle cx="26" cy="95" r="3" fill="#10b981"/>
+  <text x="36" y="98" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Алкан → Алкен → Спирт → Альдегид</text>
+  <circle cx="26" cy="117" r="3" fill="#10b981"/>
+  <text x="36" y="120" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">→ Кислота → Сложный эфир</text>
+  <circle cx="26" cy="139" r="3" fill="#10b981"/>
+  <text x="36" y="142" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Каждая стрелка = определ. реакция</text>
+  <rect x="245" y="58" width="225" height="140" rx="6" fill="#1e293b" stroke="#6366f1" stroke-width="1" filter="url(#sh)"/>
+  <text x="257" y="76" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#6366f1">Кач. реакции</text>
+  <line x1="257" y1="82" x2="458" y2="82" stroke="#6366f1" stroke-width="0.5" opacity="0.5"/>
+  <circle cx="261" cy="95" r="3" fill="#6366f1"/>
+  <text x="271" y="98" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">C=C: Br₂, KMnO₄ — обесцвечивание</text>
+  <circle cx="261" cy="117" r="3" fill="#6366f1"/>
+  <text x="271" y="120" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">-CHO: серебр. зеркало, Cu₂O</text>
+  <circle cx="261" cy="139" r="3" fill="#6366f1"/>
+  <text x="271" y="142" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Крахмал + I₂ → синий</text>
+  <rect x="10" y="206" width="460" height="140" rx="6" fill="#1e293b" stroke="#f59e0b" stroke-width="1" filter="url(#sh)"/>
+  <text x="22" y="224" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f59e0b">Итоги курса</text>
+  <line x1="22" y1="230" x2="458" y2="230" stroke="#f59e0b" stroke-width="0.5" opacity="0.5"/>
+  <circle cx="26" cy="243" r="3" fill="#f59e0b"/>
+  <text x="36" y="246" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">9 классов орг. соединений</text>
+  <circle cx="26" cy="265" r="3" fill="#f59e0b"/>
+  <text x="36" y="268" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">3 типа гибридизации углерода</text>
+  <circle cx="26" cy="287" r="3" fill="#f59e0b"/>
+  <text x="36" y="290" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Изомерия — уникальное явление орг…</text>
+  <rect x="420" y="330" width="50" height="22" rx="11" fill="#10b981" opacity="0.3"/>
+  <text x="445" y="345" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#10b981">#35</text>
 </svg>

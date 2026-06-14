@@ -29,7 +29,12 @@ export default function LessonViewer() {
   const [detailLesson, setDetailLesson] = useState<SelectedLesson | null>(null)
   const [isDetailOpen, setIsDetailOpen] = useState(false)
   
-  const games = contextGames || []
+  const allGames = contextGames || []
+  const games = allGames.filter(g =>
+    g.subject === selectedSubject?.title ||
+    selectedSubject?.title.toLowerCase().includes(g.subject.toLowerCase()) ||
+    g.subject.toLowerCase().includes(selectedSubject?.title.toLowerCase())
+  )
 
   // При возврате из теста - открыть модальное окно с уроком
   useEffect(() => {

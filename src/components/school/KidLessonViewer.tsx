@@ -293,7 +293,12 @@ export default function KidLessonViewer() {
   if (!selectedSubject) return null
 
   const topics = selectedSubject.detailedTopics || []
-  const games = contextGames || []
+  const allGames = contextGames || []
+  const games = allGames.filter(g =>
+    g.subject === selectedSubject.title ||
+    selectedSubject.title.toLowerCase().includes(g.subject.toLowerCase()) ||
+    g.subject.toLowerCase().includes(selectedSubject.title.toLowerCase())
+  )
 
   // Если выбран урок - показываем его содержимое
   if (selectedLesson) {
@@ -394,14 +399,17 @@ export default function KidLessonViewer() {
                   Задания:
                 </h4>
                 <div className="space-y-3">
-                  {selectedLesson.tasks.map((task, i) => (
+                  {selectedLesson.tasks.map((task, i) => {
+                    const taskText = typeof task === 'string' ? task : String((task as Record<string,unknown>).question || '')
+                    return (
                     <div key={i} className="flex items-start gap-4 text-white/90 text-lg">
                       <span className="w-8 h-8 rounded-full bg-amber-400 flex items-center justify-center text-sm font-bold text-amber-900 flex-shrink-0 mt-1">
                         {i + 1}
                       </span>
-                      <span>{task}</span>
+                      <span>{taskText}</span>
                     </div>
-                  ))}
+                    )
+                  })}
                 </div>
               </div>
             )}
@@ -411,13 +419,8 @@ export default function KidLessonViewer() {
               {/* Кнопка Тест - всегда видна */}
               <button
                 onClick={() => {
-                  const subjectGames = games.filter(g =>
-                    g.subject === selectedSubject.title ||
-                    selectedSubject.title.toLowerCase().includes(g.subject.toLowerCase()) ||
-                    g.subject.toLowerCase().includes(selectedSubject.title.toLowerCase())
-                  )
-                  if (subjectGames.length > 0) {
-                    const randomGame = subjectGames[Math.floor(Math.random() * subjectGames.length)]
+                  if (games.length > 0) {
+                    const randomGame = games[Math.floor(Math.random() * games.length)]
                     selectGameFromLesson(randomGame)
                   } else {
                     const generatedGame = generateLessonQuiz(
@@ -427,9 +430,6 @@ export default function KidLessonViewer() {
                     )
                     if (generatedGame) {
                       selectGameFromLesson(generatedGame)
-                    } else if (games.length > 0) {
-                      const randomGame = games[Math.floor(Math.random() * games.length)]
-                      selectGameFromLesson(randomGame)
                     }
                   }
                 }}

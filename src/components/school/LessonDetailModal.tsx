@@ -254,7 +254,7 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
                 
                 {currentSection === 3 && (
                   <div className="space-y-3">
-                    {(currentContent.content as string[]).map((task: string, idx: number) => (
+                    {(currentContent.content as any[]).map((task: any, idx: number) => (
                       <motion.div
                         key={idx}
                         initial={{ opacity: 0, x: -20 }}
@@ -268,7 +268,9 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
                                         group-hover:bg-green-500 transition-colors">
                           <CheckCircle className="w-5 h-5 text-green-400 group-hover:text-white transition-colors" />
                         </div>
-                        <p className="text-gray-200 group-hover:text-white transition-colors">{task}</p>
+                        <p className="text-gray-200 group-hover:text-white transition-colors">
+                          {typeof task === 'string' ? task : task.question || JSON.stringify(task)}
+                        </p>
                       </motion.div>
                     ))}
                   </div>

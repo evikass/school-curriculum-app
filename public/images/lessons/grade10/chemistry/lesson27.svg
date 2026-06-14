@@ -1,127 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
   <defs>
-    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0f172a"/>
-      <stop offset="100%" style="stop-color:#1e293b"/>
+    <linearGradient id="hdr" x1="0" y1="0" x2="480" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#6366f1"/>
     </linearGradient>
-    <linearGradient id="flask1" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:0.3"/>
-      <stop offset="100%" style="stop-color:#059669;stop-opacity:0.7"/>
-    </linearGradient>
-    <filter id="glow1">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <filter id="sh" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.2"/>
     </filter>
-    <marker id="arrowHead1" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#0d9488"/>
-    </marker>
   </defs>
-
-  <!-- Background -->
-  <rect width="800" height="500" fill="url(#bg1)" rx="12"/>
-
-  <!-- Title -->
-  <text x="400" y="42" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#e2e8f0" text-anchor="middle">Обобщение и систематизация знаний по органической химии</text>
-
-  <!-- Central molecule icon -->
-  <g transform="translate(365, 55)">
-    <circle cx="20" cy="10" r="8" fill="#14b8a6" opacity="0.6" stroke="#0d9488" stroke-width="1.5"/>
-    <circle cx="45" cy="0" r="8" fill="#14b8a6" opacity="0.6" stroke="#0d9488" stroke-width="1.5"/>
-    <circle cx="45" cy="20" r="8" fill="#14b8a6" opacity="0.6" stroke="#0d9488" stroke-width="1.5"/>
-    <line x1="28" y1="8" x2="37" y2="2" stroke="#0d9488" stroke-width="1.5"/>
-    <line x1="28" y1="12" x2="37" y2="18" stroke="#0d9488" stroke-width="1.5"/>
-  </g>
-
-  <!-- Divider -->
-  <line x1="50" y1="90" x2="750" y2="90" stroke="#0d9488" stroke-width="1" opacity="0.3"/>
-
-  <!-- Central hub: Organic Chemistry -->
-  <g transform="translate(400, 230)">
-    <ellipse cx="0" cy="0" rx="80" ry="40" fill="#0d9488" opacity="0.15" stroke="#14b8a6" stroke-width="2"/>
-    <text x="0" y="-5" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#14b8a6" text-anchor="middle">Органическая</text>
-    <text x="0" y="12" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#14b8a6" text-anchor="middle">химия</text>
-  </g>
-
-  <!-- Branch 1: Углеводороды (top-left) -->
-  <g transform="translate(130, 115)">
-    <rect x="0" y="0" width="200" height="85" rx="8" fill="#0f172a" stroke="#3b82f6" stroke-width="1.5" opacity="0.8"/>
-    <text x="100" y="22" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#60a5fa" text-anchor="middle">Углеводороды</text>
-    <text x="100" y="42" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Алканы, алкены, алкины, алкадиены</text>
-    <text x="100" y="58" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Арены, циклоалканы</text>
-    <text x="100" y="76" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">CnH2n+2 ... CnH2n-6</text>
-  </g>
-  <!-- Arrow from Углеводороды to center -->
-  <path d="M280,175 Q340,200 325,215" fill="none" stroke="#3b82f6" stroke-width="1.5" marker-end="url(#arrowHead1)" opacity="0.6"/>
-
-  <!-- Branch 2: Кислородсодержащие (top-right) -->
-  <g transform="translate(470, 115)">
-    <rect x="0" y="0" width="220" height="85" rx="8" fill="#0f172a" stroke="#f59e0b" stroke-width="1.5" opacity="0.8"/>
-    <text x="110" y="22" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fbbf24" text-anchor="middle">Кислородсодержащие</text>
-    <text x="110" y="42" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Спирты, фенолы, альдегиды</text>
-    <text x="110" y="58" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Карбоновые кислоты, сложные эфиры</text>
-    <text x="110" y="76" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">R-OH, R-CHO, R-COOH</text>
-  </g>
-  <!-- Arrow from Кислородсодержащие to center -->
-  <path d="M520,175 Q460,200 475,215" fill="none" stroke="#f59e0b" stroke-width="1.5" marker-end="url(#arrowHead1)" opacity="0.6"/>
-
-  <!-- Branch 3: Азотсодержащие (bottom-left) -->
-  <g transform="translate(80, 290)">
-    <rect x="0" y="0" width="200" height="85" rx="8" fill="#0f172a" stroke="#a855f7" stroke-width="1.5" opacity="0.8"/>
-    <text x="100" y="22" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#c084fc" text-anchor="middle">Азотсодержащие</text>
-    <text x="100" y="42" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Амины, аминокислоты</text>
-    <text x="100" y="58" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Белки, нуклеиновые кислоты</text>
-    <text x="100" y="76" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">R-NH2, H2N-CH(R)-COOH</text>
-  </g>
-  <!-- Arrow from Азотсодержащие to center -->
-  <path d="M260,310 Q310,280 330,260" fill="none" stroke="#a855f7" stroke-width="1.5" marker-end="url(#arrowHead1)" opacity="0.6"/>
-
-  <!-- Branch 4: Полимеры (bottom-right) -->
-  <g transform="translate(520, 290)">
-    <rect x="0" y="0" width="200" height="85" rx="8" fill="#0f172a" stroke="#ef4444" stroke-width="1.5" opacity="0.8"/>
-    <text x="100" y="22" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f87171" text-anchor="middle">Полимеры</text>
-    <text x="100" y="42" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Пластмассы, волокна</text>
-    <text x="100" y="58" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Каучуки, резины</text>
-    <text x="100" y="76" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">(-CH2-CH2-)n</text>
-  </g>
-  <!-- Arrow from Полимеры to center -->
-  <path d="M540,310 Q490,280 470,260" fill="none" stroke="#ef4444" stroke-width="1.5" marker-end="url(#arrowHead1)" opacity="0.6"/>
-
-  <!-- Bottom summary box -->
-  <g transform="translate(50, 400)">
-    <rect x="0" y="0" width="700" height="75" rx="8" fill="#0f172a" stroke="#0d9488" stroke-width="1" opacity="0.6"/>
-    <text x="350" y="22" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#14b8a6" text-anchor="middle">Ключевые принципы органической химии</text>
-
-    <!-- Three key principles -->
-    <g transform="translate(30, 35)">
-      <circle cx="8" cy="8" r="5" fill="#3b82f6" opacity="0.5"/>
-      <text x="20" y="12" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Теория строения Бутлерова</text>
-    </g>
-    <g transform="translate(250, 35)">
-      <circle cx="8" cy="8" r="5" fill="#f59e0b" opacity="0.5"/>
-      <text x="20" y="12" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Гомологические ряды</text>
-    </g>
-    <g transform="translate(460, 35)">
-      <circle cx="8" cy="8" r="5" fill="#a855f7" opacity="0.5"/>
-      <text x="20" y="12" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Изомерия и её виды</text>
-    </g>
-
-    <g transform="translate(140, 55)">
-      <circle cx="8" cy="8" r="5" fill="#ef4444" opacity="0.5"/>
-      <text x="20" y="12" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Химические свойства классов</text>
-    </g>
-    <g transform="translate(400, 55)">
-      <circle cx="8" cy="8" r="5" fill="#10b981" opacity="0.5"/>
-      <text x="20" y="12" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Качественные реакции</text>
-    </g>
-  </g>
-
-  <!-- Decorative corner elements -->
-  <circle cx="30" cy="30" r="4" fill="#0d9488" opacity="0.3"/>
-  <circle cx="770" cy="30" r="4" fill="#0d9488" opacity="0.3"/>
-  <circle cx="30" cy="470" r="4" fill="#0d9488" opacity="0.3"/>
-  <circle cx="770" cy="470" r="4" fill="#0d9488" opacity="0.3"/>
+  <rect width="480" height="360" rx="10" fill="#0f172a"/>
+  <rect width="480" height="50" rx="10" fill="url(#hdr)"/>
+  <rect y="42" width="480" height="8" fill="url(#hdr)"/>
+  <text x="240" y="23" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="13" font-weight="bold">Свойства карбоновых кислот</text>
+  <text x="240" y="40" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="9" opacity="0.8">Химия 10 класс</text>
+  <rect x="10" y="58" width="225" height="140" rx="6" fill="#1e293b" stroke="#10b981" stroke-width="1" filter="url(#sh)"/>
+  <text x="22" y="76" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#10b981">Кислотные свойства</text>
+  <line x1="22" y1="82" x2="223" y2="82" stroke="#10b981" stroke-width="0.5" opacity="0.5"/>
+  <circle cx="26" cy="95" r="3" fill="#10b981"/>
+  <text x="36" y="98" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">RCOOH ⇌ RCOO⁻ + H⁺</text>
+  <circle cx="26" cy="117" r="3" fill="#10b981"/>
+  <text x="36" y="120" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">С металлами: 2RCOOH + Zn → (RCOO)…</text>
+  <circle cx="26" cy="139" r="3" fill="#10b981"/>
+  <text x="36" y="142" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">С основаниями: RCOOH + NaOH → RCO…</text>
+  <rect x="245" y="58" width="225" height="140" rx="6" fill="#1e293b" stroke="#6366f1" stroke-width="1" filter="url(#sh)"/>
+  <text x="257" y="76" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#6366f1">Сложные эфиры</text>
+  <line x1="257" y1="82" x2="458" y2="82" stroke="#6366f1" stroke-width="0.5" opacity="0.5"/>
+  <circle cx="261" cy="95" r="3" fill="#6366f1"/>
+  <text x="271" y="98" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Этерификация: RCOOH + R'OH ⇌ RCOO…</text>
+  <circle cx="261" cy="117" r="3" fill="#6366f1"/>
+  <text x="271" y="120" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Обратимая! Катализатор — H₂SO₄ (к…</text>
+  <circle cx="261" cy="139" r="3" fill="#6366f1"/>
+  <text x="271" y="142" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Гидролиз — обратная реакция</text>
+  <rect x="10" y="206" width="460" height="140" rx="6" fill="#1e293b" stroke="#f59e0b" stroke-width="1" filter="url(#sh)"/>
+  <text x="22" y="224" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f59e0b">Особенности</text>
+  <line x1="22" y1="230" x2="458" y2="230" stroke="#f59e0b" stroke-width="0.5" opacity="0.5"/>
+  <circle cx="26" cy="243" r="3" fill="#f59e0b"/>
+  <text x="36" y="246" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Соли — карбонаты/ацетаты/формиаты</text>
+  <circle cx="26" cy="265" r="3" fill="#f59e0b"/>
+  <text x="36" y="268" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Декарбоксилирование: R-COOH → RH …</text>
+  <circle cx="26" cy="287" r="3" fill="#f59e0b"/>
+  <text x="36" y="290" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Ряд: HCOOH > CH₃COOH > C₂H₅COOH</text>
+  <rect x="420" y="330" width="50" height="22" rx="11" fill="#10b981" opacity="0.3"/>
+  <text x="445" y="345" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#10b981">#27</text>
 </svg>

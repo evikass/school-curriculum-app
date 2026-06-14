@@ -1,58 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
   <defs>
-    <linearGradient id="tg18" x1="0" y1="0" x2="400" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#16a34a"/>
-      <stop offset="100%" stop-color="#4ade80"/>
+    <linearGradient id="hdr" x1="0" y1="0" x2="480" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#6366f1"/>
     </linearGradient>
-    <filter id="sh18" x="-2%" y="-2%" width="104%" height="104%">
-      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.15"/>
+    <filter id="sh" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.2"/>
     </filter>
   </defs>
-  <rect width="400" height="300" rx="8" fill="#1a1a2e"/>
-  <rect width="400" height="52" rx="8" fill="url(#tg18)"/>
-  <rect y="44" width="400" height="8" fill="url(#tg18)"/>
-  <text x="200" y="24" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Углеводы: моносахариды</text>
-  <text x="200" y="42" text-anchor="middle" fill="#ccfbf1" font-family="Arial, sans-serif" font-size="10">Химия 10 класс</text>
-  <!-- Top left: Glucose -->
-    <rect x="10" y="60" width="185" height="108" rx="6" fill="#1e1e3a" stroke="#10b981" stroke-width="1" filter="url(#sh18)"/>
-    <text x="22" y="78" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#10b981">Глюкоза C6H12O6</text>
-    <text x="22" y="94" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6">Альдегидоспирт:</text>
-    <text x="22" y="106" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">-CHO + 5 групп -OH</text>
-    <text x="22" y="120" font-family="Arial, sans-serif" font-size="9" fill="#f59e0b">Открытая форма:</text>
-    <text x="22" y="132" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">CHO-(CHOH)4-CH2OH</text>
-    <text x="22" y="146" font-family="Arial, sans-serif" font-size="9" fill="#a855f7">Циклическая форма:</text>
-    <text x="22" y="158" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">6-членное кольцо</text>
-    <text x="22" y="170" font-family="Arial, sans-serif" font-size="8.5" fill="#94a3b8">(пиранозная форма)</text>
-
-  <!-- Top right: Fructose -->
-    <rect x="205" y="60" width="185" height="108" rx="6" fill="#1e1e3a" stroke="#f59e0b" stroke-width="1" filter="url(#sh18)"/>
-    <text x="217" y="78" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#f59e0b">Фруктоза C6H12O6</text>
-    <text x="217" y="94" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6">Кетоноспирт:</text>
-    <text x="217" y="106" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">C=O + 5 групп -OH</text>
-    <text x="217" y="120" font-family="Arial, sans-serif" font-size="9" fill="#ef4444">Изомер глюкозы!</text>
-    <text x="217" y="134" font-family="Arial, sans-serif" font-size="9" fill="#a855f7">Фуранозная форма:</text>
-    <text x="217" y="146" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">5-членное кольцо</text>
-    <text x="217" y="160" font-family="Arial, sans-serif" font-size="9" fill="#f59e0b">Самый сладкий сахар</text>
-
-  <!-- Bottom left: Qualitative reactions -->
-    <rect x="10" y="176" width="185" height="114" rx="6" fill="#1e1e3a" stroke="#a855f7" stroke-width="1" filter="url(#sh18)"/>
-    <text x="22" y="194" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#a855f7">Качественные реакции</text>
-    <text x="22" y="210" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6">Серебряное зеркало:</text>
-    <text x="22" y="222" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8">C6H12O6 + [Ag(NH3)2]+</text>
-    <text x="22" y="233" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0">→ глюконовая к-та + Ag</text>
-    <text x="22" y="247" font-family="Arial, sans-serif" font-size="9" fill="#f59e0b">Cu(OH)2:</text>
-    <text x="22" y="259" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">→ Cu2O (красный осадок)</text>
-    <text x="22" y="273" font-family="Arial, sans-serif" font-size="8.5" fill="#94a3b8">Подтверждает -CHO группу</text>
-    <text x="22" y="286" font-family="Arial, sans-serif" font-size="8.5" fill="#94a3b8">глюкозы</text>
-
-  <!-- Bottom right: Fermentation -->
-    <rect x="205" y="176" width="185" height="114" rx="6" fill="#1e1e3a" stroke="#3b82f6" stroke-width="1" filter="url(#sh18)"/>
-    <text x="217" y="194" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#3b82f6">Брожение глюкозы</text>
-    <text x="217" y="210" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6">Спиртовое брожение:</text>
-    <text x="217" y="222" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">C6H12O6 → 2C2H5OH</text>
-    <text x="217" y="234" font-family="Arial, sans-serif" font-size="8.5" fill="#94a3b8">  + 2CO2 (ферменты)</text>
-    <text x="217" y="248" font-family="Arial, sans-serif" font-size="9" fill="#f59e0b">Молочнокислое:</text>
-    <text x="217" y="260" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">C6H12O6 → 2C3H6O3</text>
-    <text x="217" y="272" font-family="Arial, sans-serif" font-size="8.5" fill="#94a3b8">  (молочная кислота)</text>
-    <text x="217" y="286" font-family="Arial, sans-serif" font-size="8.5" fill="#10b981">Общая ф-ла: Cn(H2O)m</text>
+  <rect width="480" height="360" rx="10" fill="#0f172a"/>
+  <rect width="480" height="50" rx="10" fill="url(#hdr)"/>
+  <rect y="42" width="480" height="8" fill="url(#hdr)"/>
+  <text x="240" y="23" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="13" font-weight="bold">Гомологи бензола</text>
+  <text x="240" y="40" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="9" opacity="0.8">Химия 10 класс</text>
+  <rect x="10" y="58" width="225" height="140" rx="6" fill="#1e293b" stroke="#10b981" stroke-width="1" filter="url(#sh)"/>
+  <text x="22" y="76" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#10b981">Толуол C₆H₅CH₃</text>
+  <line x1="22" y1="82" x2="223" y2="82" stroke="#10b981" stroke-width="0.5" opacity="0.5"/>
+  <circle cx="26" cy="95" r="3" fill="#10b981"/>
+  <text x="36" y="98" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Метильная группа — донор e⁻</text>
+  <circle cx="26" cy="117" r="3" fill="#10b981"/>
+  <text x="36" y="120" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Орто/пара-ориентант</text>
+  <circle cx="26" cy="139" r="3" fill="#10b981"/>
+  <text x="36" y="142" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Легче нитруется, чем бензол</text>
+  <rect x="245" y="58" width="225" height="140" rx="6" fill="#1e293b" stroke="#3b82f6" stroke-width="1" filter="url(#sh)"/>
+  <text x="257" y="76" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#3b82f6">Ориентанты I рода</text>
+  <line x1="257" y1="82" x2="458" y2="82" stroke="#3b82f6" stroke-width="0.5" opacity="0.5"/>
+  <circle cx="261" cy="95" r="3" fill="#3b82f6"/>
+  <text x="271" y="98" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">-CH₃, -OH, -NH₂ (доноры e⁻)</text>
+  <circle cx="261" cy="117" r="3" fill="#3b82f6"/>
+  <text x="271" y="120" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Направляют в о- и п-положения</text>
+  <circle cx="261" cy="139" r="3" fill="#3b82f6"/>
+  <text x="271" y="142" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Активируют кольцо</text>
+  <rect x="10" y="206" width="460" height="140" rx="6" fill="#1e293b" stroke="#ec4899" stroke-width="1" filter="url(#sh)"/>
+  <text x="22" y="224" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#ec4899">Ориентанты II рода</text>
+  <line x1="22" y1="230" x2="458" y2="230" stroke="#ec4899" stroke-width="0.5" opacity="0.5"/>
+  <circle cx="26" cy="243" r="3" fill="#ec4899"/>
+  <text x="36" y="246" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">-NO₂, -COOH, -SO₃H (акцепторы)</text>
+  <circle cx="26" cy="265" r="3" fill="#ec4899"/>
+  <text x="36" y="268" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Направляют в м-положение</text>
+  <circle cx="26" cy="287" r="3" fill="#ec4899"/>
+  <text x="36" y="290" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Деактивируют кольцо</text>
+  <rect x="420" y="330" width="50" height="22" rx="11" fill="#10b981" opacity="0.3"/>
+  <text x="445" y="345" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#10b981">#18</text>
 </svg>
