@@ -284,7 +284,7 @@ import { lessons as grade10Literature } from './grades/10/literature'
 import { lessons as grade10Algebra } from './grades/10/algebra'
 import { lessons as grade10Geometry } from './grades/10/geometry'
 import { lessons as grade10Physics, games as grade10PhysicsGames } from './grades/10/physics'
-import { lessons as grade10Chemistry } from './grades/10/chemistry'
+import { lessons as grade10Chemistry, games as grade10ChemistryGames } from './grades/10/chemistry'
 import { lessons as grade10History } from './grades/10/history'
 import { lessons as grade10Social } from './grades/10/social'
 import { lessons as grade10Biology, games as grade10BiologyGames } from './grades/10/biology'
@@ -409,7 +409,7 @@ export const allGames: Record<number, GameLesson[]> = {
   7: [...seventhGradeGames, ...grade7AlgebraGames, ...grade7GeometryGames, ...grade7PhysicsGames, ...grade7HistoryGames, ...grade7BiologyGames, ...grade7GeographyGames, ...grade7EnglishGames, ...grade7RussianGames, ...grade7LiteratureGames, ...grade7CodingGames, ...grade7SocialGames, ...grade7EcologyGames, ...grade7RoboticsGames, ...grade7ChemistryGames, ...grade7InformaticsGames],
   8: [...eighthGradeGames, ...grade8PhysicsGames, ...grade8CodingGames, ...grade8SocialGames, ...grade8EconomyGames, ...grade8InformaticsGames, ...grade8RoboticsGames, ...grade8LawGames],
   9: [...ninthGradeGames, ...grade9AlgebraGames, ...grade9GeometryGames, ...grade9PhysicsGames, ...grade9ChemistryGames, ...grade9BiologyGames, ...grade9GeographyGames, ...grade9HistoryGames, ...grade9RussianGames, ...grade9LiteratureGames, ...grade9SocialGames, ...grade9CodingGames, ...grade9InformaticsGames, ...grade9PsychologyGames, ...grade9EconomyGames, ...grade9CareerGames, ...grade9OGEGames],
-  10: [...tenthGradeGames, ...grade10PhysicsGames, ...grade10EconomyGames, ...grade10CodingGames, ...grade10BiologyGames, ...grade10TechGames, ...grade10ArtGames, ...grade10CareerGames, ...grade10AstronomyGames, ...grade10BusinessGames, ...grade10PhilosophyGames, ...grade10ProjectsGames, ...grade10LabGames, ...grade10EGEGames],
+  10: [...tenthGradeGames, ...grade10PhysicsGames, ...grade10ChemistryGames, ...grade10EconomyGames, ...grade10CodingGames, ...grade10BiologyGames, ...grade10TechGames, ...grade10ArtGames, ...grade10CareerGames, ...grade10AstronomyGames, ...grade10BusinessGames, ...grade10PhilosophyGames, ...grade10ProjectsGames, ...grade10LabGames, ...grade10EGEGames],
   11: [...eleventhGradeGames, ...grade11PhysicsGames, ...grade11BiologyGames, ...grade11EconomyGames, ...grade11CodingGames],
 }
 

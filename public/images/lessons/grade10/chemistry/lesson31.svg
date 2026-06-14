@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="tg" x1="0" y1="0" x2="400" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0d9488"/><stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <filter id="sh" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="400" height="300" rx="8" fill="#1a1a2e"/>
+  <rect width="400" height="52" rx="8" fill="url(#tg)"/>
+  <rect y="44" width="400" height="8" fill="url(#tg)"/>
+  <text x="200" y="24" text-anchor="middle" fill="#fff" font-family="Arial" font-size="13" font-weight="bold">Дисахариды и полисахариды</text>
+  <text x="200" y="42" text-anchor="middle" fill="#ccfbf1" font-family="Arial" font-size="10">Химия 10 класс • Урок 31</text>
+  <rect x="10" y="60" width="120" height="115" rx="6" fill="#1e1e3a" stroke="#10b981" stroke-width="1" filter="url(#sh)"/>
+  <text x="22" y="78" font-family="Arial" font-size="10" font-weight="bold" fill="#10b981">Сахароза</text>
+  <text x="22" y="95" font-family="Arial" font-size="9" fill="#e2e8f0">C12H22O11</text>
+  <text x="22" y="110" font-family="Arial" font-size="9" fill="#94a3b8">Глюкоза+</text>
+  <text x="22" y="122" font-family="Arial" font-size="9" fill="#94a3b8">фруктоза</text>
+  <text x="22" y="140" font-family="Arial" font-size="9" fill="#f59e0b">Нет CHO</text>
+  <text x="22" y="155" font-family="Arial" font-size="9" fill="#f59e0b">Нет восст. св-в</text>
+  <rect x="140" y="60" width="120" height="115" rx="6" fill="#1e1e3a" stroke="#a855f7" stroke-width="1" filter="url(#sh)"/>
+  <text x="152" y="78" font-family="Arial" font-size="10" font-weight="bold" fill="#a855f7">Мальтоза</text>
+  <text x="152" y="95" font-family="Arial" font-size="9" fill="#e2e8f0">C12H22O11</text>
+  <text x="152" y="110" font-family="Arial" font-size="9" fill="#94a3b8">2 глюкозы</text>
+  <text x="152" y="128" font-family="Arial" font-size="9" fill="#10b981">Есть CHO</text>
+  <text x="152" y="143" font-family="Arial" font-size="9" fill="#10b981">Р. серебр. зеркала +</text>
+  <rect x="270" y="60" width="120" height="115" rx="6" fill="#1e1e3a" stroke="#3b82f6" stroke-width="1" filter="url(#sh)"/>
+  <text x="282" y="78" font-family="Arial" font-size="10" font-weight="bold" fill="#3b82f6">Лактоза</text>
+  <text x="282" y="95" font-family="Arial" font-size="9" fill="#e2e8f0">C12H22O11</text>
+  <text x="282" y="110" font-family="Arial" font-size="9" fill="#94a3b8">Глюкоза+</text>
+  <text x="282" y="122" font-family="Arial" font-size="9" fill="#94a3b8">галактоза</text>
+  <text x="282" y="140" font-family="Arial" font-size="9" fill="#10b981">Молочный сах.</text>
+  <rect x="10" y="183" width="185" height="107" rx="6" fill="#1e1e3a" stroke="#f59e0b" stroke-width="1" filter="url(#sh)"/>
+  <text x="22" y="201" font-family="Arial" font-size="11" font-weight="bold" fill="#f59e0b">Крахмал (C6H10O5)n</text>
+  <circle cx="22" cy="217" r="3" fill="#f59e0b"/><text x="32" y="221" font-family="Arial" font-size="9.5" fill="#e2e8f0">Полимер глюкозы</text>
+  <circle cx="22" cy="233" r="3" fill="#f59e0b"/><text x="32" y="237" font-family="Arial" font-size="9.5" fill="#e2e8f0">Йод → синее окрашивание</text>
+  <circle cx="22" cy="249" r="3" fill="#f59e0b"/><text x="32" y="253" font-family="Arial" font-size="9.5" fill="#e2e8f0">Гидролиз → глюкоза</text>
+  <circle cx="22" cy="265" r="3" fill="#f59e0b"/><text x="32" y="269" font-family="Arial" font-size="9.5" fill="#e2e8f0">Амилоза + амилопектин</text>
+  <rect x="205" y="183" width="185" height="107" rx="6" fill="#1e1e3a" stroke="#ef4444" stroke-width="1" filter="url(#sh)"/>
+  <text x="217" y="201" font-family="Arial" font-size="11" font-weight="bold" fill="#ef4444">Целлюлоза (C6H10O5)n</text>
+  <circle cx="217" cy="217" r="3" fill="#ef4444"/><text x="227" y="221" font-family="Arial" font-size="9.5" fill="#e2e8f0">Линейные цепи глюкозы</text>
+  <circle cx="217" cy="233" r="3" fill="#ef4444"/><text x="227" y="237" font-family="Arial" font-size="9.5" fill="#e2e8f0">Не растворима в воде</text>
+  <circle cx="217" cy="249" r="3" fill="#ef4444"/><text x="227" y="253" font-family="Arial" font-size="9.5" fill="#e2e8f0">Реагирует с HNO3 → нитроцелл.</text>
+  <circle cx="217" cy="265" r="3" fill="#ef4444"/><text x="227" y="269" font-family="Arial" font-size="9.5" fill="#e2e8f0">Бумага, хлопок, древесина</text>
+</svg>

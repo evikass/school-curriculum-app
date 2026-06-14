@@ -7,6 +7,7 @@ import {
   Lightbulb, Target, Clock, Award, Gamepad2, Atom
 } from 'lucide-react'
 import LessonContent from './LessonContent'
+import { getImagePath } from '@/lib/imagePath'
 import LessonAnimatedSVG from './LessonAnimatedSVG'
 import PeriodicTable from './PeriodicTable'
 
@@ -155,7 +156,7 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
                     {lesson.image && (
                       <div className="relative rounded-2xl overflow-hidden border-2 border-purple-400/30 mb-4 shadow-lg">
                         <img 
-                          src={lesson.image} 
+                          src={getImagePath(lesson.image)} 
                           alt={lesson.title}
                           className="w-full h-auto object-cover"
                         />

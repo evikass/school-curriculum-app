@@ -10,6 +10,7 @@ import {
   MapPin, Blocks, MessageSquare, Wallet, Smartphone, Bug, Pencil, MessageCircle, Code, X
 } from 'lucide-react'
 import { generateLessonQuiz } from '@/lib/lessonQuizGenerator'
+import { getImagePath } from '@/lib/imagePath'
 import LessonAnimatedSVG from './LessonAnimatedSVG'
 import PeriodicTable from './PeriodicTable'
 import { LessonTopic, LessonItem } from '@/data/types'
@@ -332,7 +333,7 @@ export default function KidLessonViewer() {
               <div className="flex justify-center mb-6">
                 <div className="relative rounded-3xl overflow-hidden border-4 border-purple-400/30 shadow-2xl max-w-2xl w-full">
                   <img 
-                    src={selectedLesson.image as string} 
+                    src={getImagePath(selectedLesson.image as string)} 
                     alt={selectedLesson.title}
                     className="w-full h-auto"
                     onError={(e) => {

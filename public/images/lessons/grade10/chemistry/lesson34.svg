@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="tg" x1="0" y1="0" x2="400" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0d9488"/><stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <filter id="sh" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="400" height="300" rx="8" fill="#1a1a2e"/>
+  <rect width="400" height="52" rx="8" fill="url(#tg)"/>
+  <rect y="44" width="400" height="8" fill="url(#tg)"/>
+  <text x="200" y="24" text-anchor="middle" fill="#fff" font-family="Arial" font-size="13" font-weight="bold">Аминокислоты и белки</text>
+  <text x="200" y="42" text-anchor="middle" fill="#ccfbf1" font-family="Arial" font-size="10">Химия 10 класс • Урок 34</text>
+  <rect x="10" y="60" width="185" height="115" rx="6" fill="#1e1e3a" stroke="#10b981" stroke-width="1" filter="url(#sh)"/>
+  <text x="22" y="78" font-family="Arial" font-size="11" font-weight="bold" fill="#10b981">Аминокислоты</text>
+  <circle cx="22" cy="93" r="3" fill="#10b981"/><text x="32" y="97" font-family="Arial" font-size="9.5" fill="#e2e8f0">Общая формула: H2N-CH(R)-COOH</text>
+  <circle cx="22" cy="108" r="3" fill="#10b981"/><text x="32" y="112" font-family="Arial" font-size="9.5" fill="#e2e8f0">Амфотерные: + кислота + основание</text>
+  <circle cx="22" cy="123" r="3" fill="#10b981"/><text x="32" y="127" font-family="Arial" font-size="9.5" fill="#e2e8f0">Пептидная связь: -CO-NH-</text>
+  <circle cx="22" cy="138" r="3" fill="#10b981"/><text x="32" y="142" font-family="Arial" font-size="9.5" fill="#e2e8f0">Дипептид: 2 аминокислоты</text>
+  <circle cx="22" cy="153" r="3" fill="#10b981"/><text x="32" y="157" font-family="Arial" font-size="9.5" fill="#e2e8f0">20 стандартных аминокислот</text>
+  <rect x="205" y="60" width="185" height="115" rx="6" fill="#1e1e3a" stroke="#a855f7" stroke-width="1" filter="url(#sh)"/>
+  <text x="217" y="78" font-family="Arial" font-size="11" font-weight="bold" fill="#a855f7">Структуры белка</text>
+  <circle cx="217" cy="93" r="3" fill="#a855f7"/><text x="227" y="97" font-family="Arial" font-size="9.5" fill="#e2e8f0">1°: последоват. аминокислот</text>
+  <circle cx="217" cy="108" r="3" fill="#a855f7"/><text x="227" y="112" font-family="Arial" font-size="9.5" fill="#e2e8f0">2°: α-спираль, β-слой (H-связи)</text>
+  <circle cx="217" cy="123" r="3" fill="#a855f7"/><text x="227" y="127" font-family="Arial" font-size="9.5" fill="#e2e8f0">3°: глобула (дисульфидные мост.)</text>
+  <circle cx="217" cy="138" r="3" fill="#a855f7"/><text x="227" y="142" font-family="Arial" font-size="9.5" fill="#e2e8f0">4°: неск. полипептидных цепей</text>
+  <text x="227" y="157" font-family="Arial" font-size="9" fill="#f59e0b">Гемоглобин — 4° структура</text>
+  <rect x="10" y="183" width="380" height="107" rx="6" fill="#1e1e3a" stroke="#3b82f6" stroke-width="1" filter="url(#sh)"/>
+  <text x="22" y="201" font-family="Arial" font-size="11" font-weight="bold" fill="#3b82f6">Качественные реакции на белки</text>
+  <circle cx="22" cy="217" r="3" fill="#3b82f6"/><text x="32" y="221" font-family="Arial" font-size="9.5" fill="#e2e8f0">Биуретовая: CuSO4 + NaOH → фиолетовый (пептидные связи)</text>
+  <circle cx="22" cy="233" r="3" fill="#3b82f6"/><text x="32" y="237" font-family="Arial" font-size="9.5" fill="#e2e8f0">Ксантопротеиновая: конц. HNO3 → жёлтый (аром. аминок.)</text>
+  <circle cx="22" cy="249" r="3" fill="#3b82f6"/><text x="32" y="253" font-family="Arial" font-size="9.5" fill="#e2e8f0">Серная: Pb(CH3COO)2 → чёрный осадок (S-аминок.)</text>
+  <circle cx="22" cy="265" r="3" fill="#3b82f6"/><text x="32" y="269" font-family="Arial" font-size="9.5" fill="#e2e8f0">Денатурация: разрушение 2°-4° структуры (нагрев, к-ты)</text>
+  <circle cx="22" cy="281" r="3" fill="#3b82f6"/><text x="32" y="285" font-family="Arial" font-size="9.5" fill="#e2e8f0">Гидролиз: белок → аминокислоты (1° структура разрушается)</text>
+</svg>
