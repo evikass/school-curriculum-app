@@ -12,11 +12,12 @@ import { generateLessonQuiz } from '@/lib/lessonQuizGenerator'
 interface SelectedLesson {
   title: string
   description: string
-  tasks: string[]
+  tasks: any[]
   image?: string
   content?: string
   examples?: string[]
   facts?: string[]
+  test?: { title: string; questions: any[] }
 }
 
 export default function LessonViewer() {
@@ -30,11 +31,8 @@ export default function LessonViewer() {
   const [isDetailOpen, setIsDetailOpen] = useState(false)
   
   const allGames = contextGames || []
-  const games = allGames.filter(g =>
-    g.subject === selectedSubject?.title ||
-    selectedSubject?.title.toLowerCase().includes(g.subject.toLowerCase()) ||
-    g.subject.toLowerCase().includes(selectedSubject?.title.toLowerCase())
-  )
+  // Строгая фильтрация: только игры, у которых subject точно совпадает с названием предмета
+  const games = allGames.filter(g => g.subject === selectedSubject?.title)
 
   // При возврате из теста - открыть модальное окно с уроком
   useEffect(() => {
@@ -88,33 +86,55 @@ export default function LessonViewer() {
       })
     }
 
-    // 3. Ищем игру по теме из описания урока
-    if (!matchingGame) {
-      // Ключевые слова из описания для поиска игры
-      const keywords = [
-        'корень', 'приставка', 'суффикс', 'окончание', 'состав слова',
-        'падеж', 'склонение', 'существительное', 'прилагательное', 'глагол',
-        'подлежащее', 'сказуемое', 'предложение', 'части речи',
-        'время глагола', 'род прилагательных'
-      ]
-
-      for (const keyword of keywords) {
-        if (lessonTopicLower.includes(keyword) || lessonDescLower.includes(keyword)) {
-          matchingGame = games.find(g =>
-            g.title.toLowerCase().includes(keyword)
-          )
-          if (matchingGame) break
-        }
-      }
-    }
-
-    // 4. Если нашли готовую игру - используем её
+    // 3. Если нашли готовую игру - используем её
     if (matchingGame) {
       selectGameFromLesson(matchingGame)
       return
     }
 
-    // 5. Если готовой игры нет - генерируем тест по уроку
+    // 4. Если в уроке есть задания с correctIndex — конвертируем в GameLesson формат
+    const lessonTasks = lesson.tasks as any[]
+    if (lessonTasks && lessonTasks.length > 0 && typeof lessonTasks[0] === 'object' && lessonTasks[0].correctIndex !== undefined) {
+      const convertedGame: GameLesson = {
+        title: `Тест: ${lesson.title}`,
+        subject: selectedSubject.title,
+        icon: selectedSubject.icon || 'BookOpen',
+        color: selectedSubject.color || 'text-purple-400',
+        tasks: lessonTasks.map((t: any) => ({
+          type: 'quiz' as const,
+          question: t.question,
+          options: t.options,
+          correctAnswer: t.options?.[t.correctIndex] || '',
+          hint: t.hint
+        })),
+        reward: { stars: 3, message: `Отлично! Вы прошли тест по теме «${lessonTopic}»!` }
+      }
+      selectGameFromLesson(convertedGame)
+      return
+    }
+
+    // 5. Если в уроке есть test поле с вопросами
+    const lessonAny = lesson as any
+    if (lessonAny.test?.questions?.length > 0) {
+      const testGame: GameLesson = {
+        title: `Тест: ${lesson.title}`,
+        subject: selectedSubject.title,
+        icon: selectedSubject.icon || 'BookOpen',
+        color: selectedSubject.color || 'text-purple-400',
+        tasks: lessonAny.test.questions.map((q: any) => ({
+          type: 'quiz' as const,
+          question: q.question,
+          options: q.options,
+          correctAnswer: q.options?.[q.correctIndex] || '',
+          hint: q.hint
+        })),
+        reward: { stars: 3, message: `Отлично! Вы прошли тест по теме «${lessonTopic}»!` }
+      }
+      selectGameFromLesson(testGame)
+      return
+    }
+
+    // 6. Если готовой игры нет - генерируем тест по уроку
     const generatedGame = generateLessonQuiz(
       lesson.title,
       lesson.description,
@@ -125,12 +145,7 @@ export default function LessonViewer() {
       selectGameFromLesson(generatedGame)
     } else if (games.length > 0) {
       // Fallback - случайная игра по предмету
-      const subjectGames = games.filter(g => g.subject === selectedSubject.title)
-      if (subjectGames.length > 0) {
-        selectGameFromLesson(subjectGames[Math.floor(Math.random() * subjectGames.length)])
-      } else {
-        selectGameFromLesson(games[Math.floor(Math.random() * games.length)])
-      }
+      selectGameFromLesson(games[Math.floor(Math.random() * games.length)])
     }
   }
   

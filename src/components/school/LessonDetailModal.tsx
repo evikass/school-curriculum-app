@@ -1,9 +1,9 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { 
-  X, BookOpen, Star, CheckCircle, 
+  X, BookOpen, Star, CheckCircle, XCircle,
   Lightbulb, Target, Clock, Award, Gamepad2, Atom
 } from 'lucide-react'
 import LessonContent from './LessonContent'
@@ -14,13 +14,14 @@ import PeriodicTable from './PeriodicTable'
 interface LessonDetail {
   title: string
   description: string
-  tasks: string[]
+  tasks: any[]
   theory?: string
   examples?: string[]
   keyPoints?: string[]
   image?: string
   content?: string
   facts?: string[]
+  test?: { title: string; questions: any[] }
 }
 
 interface Props {
@@ -35,6 +36,15 @@ interface Props {
 export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete, onStartQuiz, isTestCompleted }: Props) {
   const [currentSection, setCurrentSection] = useState(0)
   const [showPeriodicTable, setShowPeriodicTable] = useState(false)
+  // Интерактивное состояние для заданий
+  const [taskAnswers, setTaskAnswers] = useState<Record<number, number>>({})
+  const [taskResults, setTaskResults] = useState<Record<number, 'correct' | 'incorrect'>>({})
+  
+  // Сброс ответов при смене урока или вкладки
+  useEffect(() => {
+    setTaskAnswers({})
+    setTaskResults({})
+  }, [lesson?.title, currentSection])
   
   // Определяем, нужно ли показывать кнопку таблицы Менделеева
   const isChemistryOrPhysics = lesson && (
@@ -253,26 +263,137 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
                 )}
                 
                 {currentSection === 3 && (
-                  <div className="space-y-3">
-                    {(currentContent.content as any[]).map((task: any, idx: number) => (
-                      <motion.div
-                        key={idx}
-                        initial={{ opacity: 0, x: -20 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        transition={{ delay: idx * 0.1 }}
-                        className="flex items-center gap-3 bg-white/5 rounded-xl p-4 
-                                   border border-white/10 hover:border-green-500/50 
-                                   transition-colors cursor-pointer group"
-                      >
-                        <div className="w-8 h-8 rounded-full bg-green-500/20 flex items-center justify-center flex-shrink-0
-                                        group-hover:bg-green-500 transition-colors">
-                          <CheckCircle className="w-5 h-5 text-green-400 group-hover:text-white transition-colors" />
-                        </div>
-                        <p className="text-gray-200 group-hover:text-white transition-colors">
-                          {typeof task === 'string' ? task : task.question || JSON.stringify(task)}
-                        </p>
-                      </motion.div>
-                    ))}
+                  <div className="space-y-4">
+                    {(!currentContent.content || !Array.isArray(currentContent.content) || currentContent.content.length === 0) ? (
+                      <div className="text-center py-8 text-white/50">
+                        <CheckCircle className="w-12 h-12 mx-auto mb-3 opacity-30" />
+                        <p>Задания будут добавлены позже</p>
+                      </div>
+                    ) : (
+                      <>
+                        {(currentContent.content as any[]).map((task: any, idx: number) => {
+                          if (task === null || task === undefined) return null
+                          const isObject = typeof task === 'object' && task !== null
+                          const isAnswered = taskResults[idx] !== undefined
+                          const isCorrect = taskResults[idx] === 'correct'
+                          const selectedAnswer = taskAnswers[idx]
+                          
+                          return (
+                            <motion.div
+                              key={idx}
+                              initial={{ opacity: 0, x: -20 }}
+                              animate={{ opacity: 1, x: 0 }}
+                              transition={{ delay: idx * 0.1 }}
+                              className={`rounded-xl p-4 border transition-colors ${
+                                isAnswered
+                                  ? isCorrect
+                                    ? 'bg-green-500/10 border-green-500/30'
+                                    : 'bg-red-500/10 border-red-500/30'
+                                  : 'bg-white/5 border-white/10'
+                              }`}
+                            >
+                              <div className="flex items-center gap-3 mb-2">
+                                <div className={`w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 ${
+                                  isAnswered
+                                    ? isCorrect
+                                      ? 'bg-green-500/30'
+                                      : 'bg-red-500/30'
+                                    : 'bg-purple-500/20'
+                                }`}>
+                                  {isAnswered ? (
+                                    isCorrect ? <CheckCircle className="w-5 h-5 text-green-400" /> : <XCircle className="w-5 h-5 text-red-400" />
+                                  ) : (
+                                    <span className="text-purple-300 font-bold text-sm">{idx + 1}</span>
+                                  )}
+                                </div>
+                                <p className="text-gray-200 font-medium">
+                                  {isObject ? task.question : String(task)}
+                                </p>
+                              </div>
+                              
+                              {/* Если это объект с вариантами ответа — показываем интерактивные кнопки */}
+                              {isObject && task.options && Array.isArray(task.options) && (
+                                <div className="ml-11 space-y-2 mt-3">
+                                  {task.options.map((option: string, optIdx: number) => {
+                                    const isSelected = selectedAnswer === optIdx
+                                    const correctIndex = task.correctIndex
+                                    const showCorrect = isAnswered && optIdx === correctIndex
+                                    const showWrong = isAnswered && isSelected && optIdx !== correctIndex
+                                    
+                                    return (
+                                      <button
+                                        key={optIdx}
+                                        onClick={() => {
+                                          if (isAnswered) return
+                                          setTaskAnswers(prev => ({ ...prev, [idx]: optIdx }))
+                                          const correct = optIdx === correctIndex
+                                          setTaskResults(prev => ({ ...prev, [idx]: correct ? 'correct' : 'incorrect' }))
+                                        }}
+                                        disabled={isAnswered}
+                                        className={`w-full text-left px-4 py-2.5 rounded-lg transition-all text-sm ${
+                                          showCorrect
+                                            ? 'bg-green-500/20 border-2 border-green-500/50 text-green-300'
+                                            : showWrong
+                                            ? 'bg-red-500/20 border-2 border-red-500/50 text-red-300'
+                                            : isSelected
+                                            ? 'bg-purple-500/20 border-2 border-purple-400/50 text-purple-200'
+                                            : 'bg-white/5 border border-white/10 text-gray-300 hover:bg-white/10 hover:border-purple-400/30'
+                                        } ${isAnswered ? 'cursor-default' : 'cursor-pointer'}`}
+                                      >
+                                        <span className="font-medium mr-2">{String.fromCharCode(1040 + optIdx)})</span>
+                                        {option}
+                                      </button>
+                                    )
+                                  })}
+                                  {/* Подсказка после ответа */}
+                                  {isAnswered && task.hint && (
+                                    <div className="mt-2 text-sm text-yellow-300/80 bg-yellow-500/10 px-3 py-2 rounded-lg">
+                                      💡 {task.hint}
+                                    </div>
+                                  )}
+                                </div>
+                              )}
+                            </motion.div>
+                          )
+                        })}
+                        
+                        {/* Кнопка сброса ответов */}
+                        {Object.keys(taskResults).length > 0 && (
+                          <div className="mt-4 flex justify-center">
+                            <button
+                              onClick={() => { setTaskAnswers({}); setTaskResults({}) }}
+                              className="px-6 py-2 bg-white/10 hover:bg-white/20 text-white/70 hover:text-white rounded-xl transition-all text-sm"
+                            >
+                              Начать заново
+                            </button>
+                          </div>
+                        )}
+                        
+                        {/* Результат */}
+                        {Object.keys(taskResults).length > 0 && (
+                          <div className={`mt-4 p-4 rounded-xl text-center ${
+                            Object.values(taskResults).filter(r => r === 'correct').length / Object.keys(taskResults).length >= 0.6
+                              ? 'bg-green-500/20 border border-green-500/30'
+                              : 'bg-orange-500/20 border border-orange-500/30'
+                          }`}>
+                            <p className="text-lg font-bold text-white">
+                              Результат: {Object.values(taskResults).filter(r => r === 'correct').length} из {Object.keys(taskResults).length}
+                            </p>
+                            <p className={`text-sm ${
+                              Object.values(taskResults).filter(r => r === 'correct').length / Object.keys(taskResults).length >= 0.6
+                                ? 'text-green-300'
+                                : 'text-orange-300'
+                            }`}>
+                              {Object.values(taskResults).filter(r => r === 'correct').length / Object.keys(taskResults).length >= 0.8
+                                ? 'Отлично! 🎉'
+                                : Object.values(taskResults).filter(r => r === 'correct').length / Object.keys(taskResults).length >= 0.6
+                                ? 'Хорошо! 👍'
+                                : 'Попробуйте ещё раз! 💪'}
+                            </p>
+                          </div>
+                        )}
+                      </>
+                    )}
                   </div>
                 )}
               </div>

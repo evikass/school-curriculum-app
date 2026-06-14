@@ -50,6 +50,9 @@ const subjectEmojis: Record<string, string> = {
 export default function SubjectGrid() {
   const { selectedClass, subjects, games, goToSubject, goToGames, goBack, isKidMode } = useSchool()
 
+  // Подсчитываем суммарное количество игр по всем предметам этого класса
+  const totalSubjectGames = subjects.reduce((acc, s) => acc + (s.games?.length || 0), 0)
+
   const getIconComponent = (iconName: string) => iconMap[iconName] || BookOpen
   const getEmoji = (title: string) => subjectEmojis[title] || '📖'
 
@@ -85,7 +88,7 @@ export default function SubjectGrid() {
       </div>
 
       {/* Games button */}
-      {games.length > 0 && (
+      {totalSubjectGames > 0 && (
         <button
           onClick={goToGames}
           className="w-full mb-8 p-6 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 
@@ -96,7 +99,7 @@ export default function SubjectGrid() {
             <Gamepad2 className="w-12 h-12 text-white group-hover:rotate-12 transition-transform" />
             <div className="text-left">
               <div className="text-2xl font-black text-white">Игры и викторины!</div>
-              <div className="text-white/80">{games.length} игр доступно</div>
+              <div className="text-white/80">{totalSubjectGames} игр доступно</div>
             </div>
             <Sparkles className="w-10 h-10 text-yellow-300 animate-pulse" />
           </div>

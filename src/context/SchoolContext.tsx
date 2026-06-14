@@ -35,11 +35,12 @@ interface Progress {
 export interface LessonData {
   title: string
   description: string
-  tasks: string[]
+  tasks: any[]
   image?: string
   content?: string      // Полное содержание урока (markdown)
   examples?: string[]   // Примеры
   facts?: string[]      // Интересные факты
+  test?: { title: string; questions: any[] } // Тест к уроку
 }
 
 interface SchoolContextType {

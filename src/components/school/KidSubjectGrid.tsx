@@ -60,6 +60,9 @@ const gradeEmoji = (cls: number | null) => {
 export default function KidSubjectGrid() {
   const { selectedClass, subjects, games, goToSubject, goToGames, goBack } = useSchool()
 
+  // Подсчитываем суммарное количество игр по всем предметам этого класса
+  const totalSubjectGames = subjects.reduce((acc, s) => acc + (s.games?.length || 0), 0)
+
   const getEmoji = (title: string) => subjectEmojis[title] || '📖'
 
   return (
@@ -90,7 +93,7 @@ export default function KidSubjectGrid() {
       </div>
 
       {/* Games button - HUGE */}
-      {games.length > 0 && (
+      {totalSubjectGames > 0 && (
         <button
           onClick={goToGames}
           className="w-full mb-10 p-8 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 
@@ -101,7 +104,7 @@ export default function KidSubjectGrid() {
             <Gamepad2 className="w-16 h-16 text-white group-hover:scale-110 transition-transform" />
             <div className="text-left">
               <div className="text-3xl md:text-4xl font-black text-white">ИГРЫ!</div>
-              <div className="text-xl text-white/80">{games.length} игр доступно</div>
+              <div className="text-xl text-white/80">{totalSubjectGames} игр доступно</div>
             </div>
             <Sparkles className="w-12 h-12 text-yellow-300 animate-sparkle" />
           </div>

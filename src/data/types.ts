@@ -24,13 +24,14 @@ export interface GameLesson {
 export interface LessonItem {
   title: string;
   description: string;
-  tasks: string[];
+  tasks: any[];           // Может быть string[] или массив объектов {type, question, options, correctIndex}
   theory?: string;        // Подробная теория урока
   content?: string;       // Полное содержание урока (markdown)
   keyPoints?: string[];   // Ключевые моменты
   examples?: string[];    // Примеры
   facts?: string[];       // Интересные факты
   image?: string;         // Изображение к уроку
+  test?: { title: string; questions: any[] }; // Тест к уроку
 }
 
 // Тема для уроков (средний уровень)
