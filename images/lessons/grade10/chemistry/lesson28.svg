@@ -1,45 +1,136 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
   <defs>
-    <linearGradient id="hdr" x1="0" y1="0" x2="480" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#10b981"/>
-      <stop offset="100%" stop-color="#6366f1"/>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
     </linearGradient>
-    <filter id="sh" x="-2%" y="-2%" width="104%" height="104%">
-      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.2"/>
+    <filter id="glow1">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
+    <marker id="arrowHead1" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#0d9488"/>
+    </marker>
   </defs>
-  <rect width="480" height="360" rx="10" fill="#0f172a"/>
-  <rect width="480" height="50" rx="10" fill="url(#hdr)"/>
-  <rect y="42" width="480" height="8" fill="url(#hdr)"/>
-  <text x="240" y="23" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="13" font-weight="bold">Сложные эфиры и жиры</text>
-  <text x="240" y="40" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="9" opacity="0.8">Химия 10 класс</text>
-  <rect x="10" y="58" width="225" height="140" rx="6" fill="#1e293b" stroke="#10b981" stroke-width="1" filter="url(#sh)"/>
-  <text x="22" y="76" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#10b981">Сложные эфиры</text>
-  <line x1="22" y1="82" x2="223" y2="82" stroke="#10b981" stroke-width="0.5" opacity="0.5"/>
-  <circle cx="26" cy="95" r="3" fill="#10b981"/>
-  <text x="36" y="98" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">RCOOR' — общая формула</text>
-  <circle cx="26" cy="117" r="3" fill="#10b981"/>
-  <text x="36" y="120" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Фруктовые запахи (изоамилацетат)</text>
-  <circle cx="26" cy="139" r="3" fill="#10b981"/>
-  <text x="36" y="142" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Гидролиз: RCOOR' + H₂O → RCOOH + …</text>
-  <rect x="245" y="58" width="225" height="140" rx="6" fill="#1e293b" stroke="#6366f1" stroke-width="1" filter="url(#sh)"/>
-  <text x="257" y="76" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#6366f1">Жиры</text>
-  <line x1="257" y1="82" x2="458" y2="82" stroke="#6366f1" stroke-width="0.5" opacity="0.5"/>
-  <circle cx="261" cy="95" r="3" fill="#6366f1"/>
-  <text x="271" y="98" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Сложные эфиры глицерина + ЖК</text>
-  <circle cx="261" cy="117" r="3" fill="#6366f1"/>
-  <text x="271" y="120" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Триацилглицерины</text>
-  <circle cx="261" cy="139" r="3" fill="#6366f1"/>
-  <text x="271" y="142" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Насыщ. — твёрдые, ненасыщ. — жидкие</text>
-  <rect x="10" y="206" width="460" height="140" rx="6" fill="#1e293b" stroke="#f59e0b" stroke-width="1" filter="url(#sh)"/>
-  <text x="22" y="224" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f59e0b">Мыла</text>
-  <line x1="22" y1="230" x2="458" y2="230" stroke="#f59e0b" stroke-width="0.5" opacity="0.5"/>
-  <circle cx="26" cy="243" r="3" fill="#f59e0b"/>
-  <text x="36" y="246" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Омыление: жир + NaOH → мыло + гли…</text>
-  <circle cx="26" cy="265" r="3" fill="#f59e0b"/>
-  <text x="36" y="268" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Мыло — натриевая соль ЖК</text>
-  <circle cx="26" cy="287" r="3" fill="#f59e0b"/>
-  <text x="36" y="290" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Не работают в жёсткой воде!</text>
-  <rect x="420" y="330" width="50" height="22" rx="11" fill="#10b981" opacity="0.3"/>
-  <text x="445" y="345" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#10b981">#28</text>
+  <rect width="800" height="500" fill="url(#bg1)" rx="12"/>
+  <text x="400" y="42" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#e2e8f0" text-anchor="middle">Итоговая контрольная работа</text>
+
+  <!-- General formulas review -->
+  <g transform="translate(30, 70)">
+    <rect x="0" y="0" width="740" height="140" rx="8" fill="#0f172a" stroke="#14b8a6" stroke-width="1.5" opacity="0.7"/>
+    <text x="370" y="22" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#14b8a6" text-anchor="middle">Общие формулы органических соединений</text>
+
+    <g transform="translate(20, 40)">
+      <rect x="0" y="0" width="105" height="30" rx="4" fill="#3b82f6" opacity="0.15" stroke="#3b82f6" stroke-width="1"/>
+      <text x="52" y="12" font-family="Arial, sans-serif" font-size="9" fill="#60a5fa" text-anchor="middle">Алканы</text>
+      <text x="52" y="25" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0" text-anchor="middle">CnH2n+2</text>
+
+      <rect x="115" y="0" width="105" height="30" rx="4" fill="#10b981" opacity="0.15" stroke="#10b981" stroke-width="1"/>
+      <text x="167" y="12" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6" text-anchor="middle">Алкены/Цикло</text>
+      <text x="167" y="25" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0" text-anchor="middle">CnH2n</text>
+
+      <rect x="230" y="0" width="105" height="30" rx="4" fill="#f59e0b" opacity="0.15" stroke="#f59e0b" stroke-width="1"/>
+      <text x="282" y="12" font-family="Arial, sans-serif" font-size="9" fill="#fbbf24" text-anchor="middle">Алкины/Диены</text>
+      <text x="282" y="25" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0" text-anchor="middle">CnH2n-2</text>
+
+      <rect x="345" y="0" width="105" height="30" rx="4" fill="#ef4444" opacity="0.15" stroke="#ef4444" stroke-width="1"/>
+      <text x="397" y="12" font-family="Arial, sans-serif" font-size="9" fill="#f87171" text-anchor="middle">Арены</text>
+      <text x="397" y="25" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0" text-anchor="middle">CnH2n-6</text>
+
+      <rect x="460" y="0" width="120" height="30" rx="4" fill="#a855f7" opacity="0.15" stroke="#a855f7" stroke-width="1"/>
+      <text x="520" y="12" font-family="Arial, sans-serif" font-size="9" fill="#c084fc" text-anchor="middle">Спирты</text>
+      <text x="520" y="25" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0" text-anchor="middle">CnH2n+2O</text>
+
+      <rect x="590" y="0" width="120" height="30" rx="4" fill="#0d9488" opacity="0.15" stroke="#0d9488" stroke-width="1"/>
+      <text x="650" y="12" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6" text-anchor="middle">Кислоты</text>
+      <text x="650" y="25" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0" text-anchor="middle">CnH2nO2</text>
+    </g>
+
+    <!-- Second row -->
+    <g transform="translate(20, 80)">
+      <rect x="0" y="0" width="105" height="30" rx="4" fill="#3b82f6" opacity="0.1" stroke="#3b82f6" stroke-width="0.5"/>
+      <text x="52" y="12" font-family="Arial, sans-serif" font-size="9" fill="#60a5fa" text-anchor="middle">Альдегиды</text>
+      <text x="52" y="25" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0" text-anchor="middle">CnH2nO</text>
+
+      <rect x="115" y="0" width="105" height="30" rx="4" fill="#10b981" opacity="0.1" stroke="#10b981" stroke-width="0.5"/>
+      <text x="167" y="12" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6" text-anchor="middle">Кетоны</text>
+      <text x="167" y="25" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0" text-anchor="middle">CnH2nO</text>
+
+      <rect x="230" y="0" width="105" height="30" rx="4" fill="#f59e0b" opacity="0.1" stroke="#f59e0b" stroke-width="0.5"/>
+      <text x="282" y="12" font-family="Arial, sans-serif" font-size="9" fill="#fbbf24" text-anchor="middle">Амины</text>
+      <text x="282" y="25" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0" text-anchor="middle">CnH2n+3N</text>
+
+      <rect x="345" y="0" width="105" height="30" rx="4" fill="#ef4444" opacity="0.1" stroke="#ef4444" stroke-width="0.5"/>
+      <text x="397" y="12" font-family="Arial, sans-serif" font-size="9" fill="#f87171" text-anchor="middle">Аминокислоты</text>
+      <text x="397" y="25" font-family="Arial, sans-serif" font-size="10" fill="#e2e8f0" text-anchor="middle">CnH2n+1NO2</text>
+    </g>
+  </g>
+
+  <!-- Qualitative reactions -->
+  <g transform="translate(30, 230)">
+    <rect x="0" y="0" width="350" height="240" rx="8" fill="#0f172a" stroke="#f59e0b" stroke-width="1.5" opacity="0.7"/>
+    <text x="175" y="22" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fbbf24" text-anchor="middle">Качественные реакции</text>
+
+    <circle cx="20" cy="50" r="5" fill="#ef4444"/>
+    <text x="32" y="54" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0">Серебряное зеркало</text>
+    <text x="200" y="54" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">альдегиды</text>
+
+    <circle cx="20" cy="78" r="5" fill="#3b82f6"/>
+    <text x="32" y="82" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0">FeCl3 (фиолетовый)</text>
+    <text x="200" y="82" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">фенолы</text>
+
+    <circle cx="20" cy="106" r="5" fill="#10b981"/>
+    <text x="32" y="110" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0">Cu(OH)2 (синий)</text>
+    <text x="200" y="110" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">многоатомн. спирты</text>
+
+    <circle cx="20" cy="134" r="5" fill="#f59e0b"/>
+    <text x="32" y="138" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0">Йод (синий)</text>
+    <text x="200" y="138" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">крахмал</text>
+
+    <circle cx="20" cy="162" r="5" fill="#a855f7"/>
+    <text x="32" y="166" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0">Биуретовая (фиолет.)</text>
+    <text x="200" y="166" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">белки</text>
+
+    <circle cx="20" cy="190" r="5" fill="#ef4444"/>
+    <text x="32" y="194" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0">Br2 (обесцвечивание)</text>
+    <text x="200" y="194" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">алкены, алкины</text>
+
+    <circle cx="20" cy="218" r="5" fill="#14b8a6"/>
+    <text x="32" y="222" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0">KMnO4 (обесцвеч.)</text>
+    <text x="200" y="222" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">алкены, алкины</text>
+  </g>
+
+  <!-- Formula determination algorithm -->
+  <g transform="translate(400, 230)">
+    <rect x="0" y="0" width="370" height="240" rx="8" fill="#0f172a" stroke="#3b82f6" stroke-width="1.5" opacity="0.7"/>
+    <text x="185" y="22" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#60a5fa" text-anchor="middle">Алгоритм определения формулы</text>
+
+    <g transform="translate(20, 40)">
+      <rect x="0" y="0" width="330" height="28" rx="4" fill="#3b82f6" opacity="0.1" stroke="#3b82f6" stroke-width="1"/>
+      <text x="10" y="18" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0">1. По массе CO2 найти массу C</text>
+
+      <rect x="0" y="35" width="330" height="28" rx="4" fill="#3b82f6" opacity="0.1" stroke="#3b82f6" stroke-width="1"/>
+      <text x="10" y="53" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0">2. По массе H2O найти массу H</text>
+
+      <rect x="0" y="70" width="330" height="28" rx="4" fill="#3b82f6" opacity="0.1" stroke="#3b82f6" stroke-width="1"/>
+      <text x="10" y="88" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0">3. m(O) = m(в-ва) - m(C) - m(H)</text>
+
+      <rect x="0" y="105" width="330" height="28" rx="4" fill="#3b82f6" opacity="0.1" stroke="#3b82f6" stroke-width="1"/>
+      <text x="10" y="123" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0">4. n(C) : n(H) : n(O) по молям</text>
+
+      <rect x="0" y="140" width="330" height="28" rx="4" fill="#3b82f6" opacity="0.1" stroke="#3b82f6" stroke-width="1"/>
+      <text x="10" y="158" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0">5. Простейшая формула</text>
+
+      <rect x="0" y="175" width="330" height="28" rx="4" fill="#14b8a6" opacity="0.15" stroke="#14b8a6" stroke-width="1.5"/>
+      <text x="10" y="193" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#14b8a6">6. M(истинная) -> истинная формула</text>
+    </g>
+  </g>
+  <circle cx="30" cy="30" r="4" fill="#0d9488" opacity="0.3"/>
+  <circle cx="770" cy="30" r="4" fill="#0d9488" opacity="0.3"/>
+  <circle cx="30" cy="470" r="4" fill="#0d9488" opacity="0.3"/>
+  <circle cx="770" cy="470" r="4" fill="#0d9488" opacity="0.3"/>
 </svg>

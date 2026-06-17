@@ -1,45 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
   <defs>
-    <linearGradient id="hdr" x1="0" y1="0" x2="480" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#10b981"/>
-      <stop offset="100%" stop-color="#6366f1"/>
+    <linearGradient id="tg3" x1="0" y1="0" x2="400" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0d9488"/>
+      <stop offset="100%" stop-color="#2dd4bf"/>
     </linearGradient>
-    <filter id="sh" x="-2%" y="-2%" width="104%" height="104%">
-      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.2"/>
+    <filter id="sh3" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.15"/>
     </filter>
   </defs>
-  <rect width="480" height="360" rx="10" fill="#0f172a"/>
-  <rect width="480" height="50" rx="10" fill="url(#hdr)"/>
-  <rect y="42" width="480" height="8" fill="url(#hdr)"/>
-  <text x="240" y="23" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="13" font-weight="bold">Предмет органической химии</text>
-  <text x="240" y="40" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="9" opacity="0.8">Химия 10 класс</text>
-  <rect x="10" y="58" width="225" height="140" rx="6" fill="#1e293b" stroke="#10b981" stroke-width="1" filter="url(#sh)"/>
-  <text x="22" y="76" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#10b981">Что изучает орг. химия</text>
-  <line x1="22" y1="82" x2="223" y2="82" stroke="#10b981" stroke-width="0.5" opacity="0.5"/>
-  <circle cx="26" cy="95" r="3" fill="#10b981"/>
-  <text x="36" y="98" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Соединения углерода (кроме CO, CO₂)</text>
-  <circle cx="26" cy="117" r="3" fill="#10b981"/>
-  <text x="36" y="120" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">>10 млн органических веществ</text>
-  <circle cx="26" cy="139" r="3" fill="#10b981"/>
-  <text x="36" y="142" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Основа жизни: белки, жиры, УВ</text>
-  <rect x="245" y="58" width="225" height="140" rx="6" fill="#1e293b" stroke="#ec4899" stroke-width="1" filter="url(#sh)"/>
-  <text x="257" y="76" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#ec4899">Витализм и его крах</text>
-  <line x1="257" y1="82" x2="458" y2="82" stroke="#ec4899" stroke-width="0.5" opacity="0.5"/>
-  <circle cx="261" cy="95" r="3" fill="#ec4899"/>
-  <text x="271" y="98" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Витализм: орг. в-ва только из живых</text>
-  <circle cx="261" cy="117" r="3" fill="#ec4899"/>
-  <text x="271" y="120" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">1828: Велер синтезировал мочевину</text>
-  <circle cx="261" cy="139" r="3" fill="#ec4899"/>
-  <text x="271" y="142" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">CO(NH₂)₂ из неорганических реаген…</text>
-  <rect x="10" y="206" width="460" height="140" rx="6" fill="#1e293b" stroke="#3b82f6" stroke-width="1" filter="url(#sh)"/>
-  <text x="22" y="224" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#3b82f6">Орг. vs Неорг.</text>
-  <line x1="22" y1="230" x2="458" y2="230" stroke="#3b82f6" stroke-width="0.5" opacity="0.5"/>
-  <circle cx="26" cy="243" r="3" fill="#3b82f6"/>
-  <text x="36" y="246" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Ковалентные связи, низкие t пл.</text>
-  <circle cx="26" cy="265" r="3" fill="#3b82f6"/>
-  <text x="36" y="268" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Изомерия, горючи, молек. природа</text>
-  <circle cx="26" cy="287" r="3" fill="#3b82f6"/>
-  <text x="36" y="290" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Скорость реакций ниже</text>
-  <rect x="420" y="330" width="50" height="22" rx="11" fill="#10b981" opacity="0.3"/>
-  <text x="445" y="345" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#10b981">#3</text>
+  <rect width="400" height="300" rx="8" fill="#1a1a2e"/>
+  <rect width="400" height="52" rx="8" fill="url(#tg3)"/>
+  <rect y="44" width="400" height="8" fill="url(#tg3)"/>
+  <text x="200" y="24" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Классификация и номенклатура</text>
+  <text x="200" y="42" text-anchor="middle" fill="#ccfbf1" font-family="Arial, sans-serif" font-size="10">Химия 10 класс</text>
+  <!-- Top left: Classification by skeleton -->
+    <rect x="10" y="60" width="185" height="110" rx="6" fill="#1e1e3a" stroke="#0d9488" stroke-width="1" filter="url(#sh3)"/>
+    <text x="22" y="78" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#14b8a6">По углеродному скелету</text>
+    <text x="22" y="94" font-family="Arial, sans-serif" font-size="9.5" fill="#14b8a6">Ациклические (открытые)</text>
+    <text x="28" y="105" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">• Линейные: CH3-CH2-CH3</text>
+    <text x="28" y="116" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">• Разветвлённые: CH(CH3)3</text>
+    <text x="22" y="130" font-family="Arial, sans-serif" font-size="9.5" fill="#f59e0b">Циклические (замкнутые)</text>
+    <text x="28" y="141" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">• Карбоциклические</text>
+    <text x="28" y="152" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">• Гетероциклические</text>
+
+  <!-- Top right: Classification by functional group -->
+    <rect x="205" y="60" width="185" height="110" rx="6" fill="#1e1e3a" stroke="#a855f7" stroke-width="1" filter="url(#sh3)"/>
+    <text x="217" y="78" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#a855f7">По функциональной группе</text>
+  <line x1="217" y1="86" x2="379" y2="86" stroke="#a855f7" stroke-width="0.5" opacity="0.4"/>
+    <text x="217" y="98" font-family="Arial, sans-serif" font-size="8.5" fill="#64748b">Группа</text>
+    <text x="285" y="98" font-family="Arial, sans-serif" font-size="8.5" fill="#64748b">Класс</text>
+    <text x="217" y="110" font-family="Arial, sans-serif" font-size="9" fill="#ef4444">-OH</text>
+    <text x="285" y="110" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">Спирты</text>
+    <text x="217" y="122" font-family="Arial, sans-serif" font-size="9" fill="#f59e0b">-COOH</text>
+    <text x="285" y="122" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">Кислоты</text>
+    <text x="217" y="134" font-family="Arial, sans-serif" font-size="9" fill="#10b981">-CHO</text>
+    <text x="285" y="134" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">Альдегиды</text>
+    <text x="217" y="146" font-family="Arial, sans-serif" font-size="9" fill="#3b82f6">-NH2</text>
+    <text x="285" y="146" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">Амины</text>
+    <text x="217" y="158" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6">C=O</text>
+    <text x="285" y="158" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">Кетоны</text>
+
+  <!-- Bottom: IUPAC nomenclature -->
+    <rect x="10" y="178" width="380" height="112" rx="6" fill="#1e1e3a" stroke="#3b82f6" stroke-width="1" filter="url(#sh3)"/>
+    <text x="22" y="196" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#3b82f6">Номенклатура ИЮПАК (IUPAC)</text>
+    <text x="22" y="212" font-family="Arial, sans-serif" font-size="9.5" fill="#e2e8f0">Корни названий углеродной цепи:</text>
+    <text x="22" y="226" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6">C1-Мет  C2-Эт  C3-Проп  C4-Бут</text>
+    <text x="22" y="239" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6">C5-Пент  C6-Гекс  C7-Гепт  C8-Окт</text>
+    <text x="22" y="255" font-family="Arial, sans-serif" font-size="9.5" fill="#e2e8f0">Суффиксы:</text>
+    <text x="22" y="268" font-family="Arial, sans-serif" font-size="9" fill="#f59e0b">-ан (алканы)  -ен (алкены)  -ин (алкины)</text>
+    <text x="22" y="281" font-family="Arial, sans-serif" font-size="9" fill="#f59e0b">-ол (спирты)  -аль (альдегиды)  -овая (к-ты)</text>
 </svg>

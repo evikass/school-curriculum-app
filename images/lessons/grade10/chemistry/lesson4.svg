@@ -1,47 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
   <defs>
-    <linearGradient id="hdr" x1="0" y1="0" x2="480" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#10b981"/>
-      <stop offset="100%" stop-color="#6366f1"/>
+    <linearGradient id="tg4" x1="0" y1="0" x2="400" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
     </linearGradient>
-    <filter id="sh" x="-2%" y="-2%" width="104%" height="104%">
-      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.2"/>
+    <filter id="sh4" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.15"/>
     </filter>
   </defs>
-  <rect width="480" height="360" rx="10" fill="#0f172a"/>
-  <rect width="480" height="50" rx="10" fill="url(#hdr)"/>
-  <rect y="42" width="480" height="8" fill="url(#hdr)"/>
-  <text x="240" y="23" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="13" font-weight="bold">Теория строения А.М. Бутлерова</text>
-  <text x="240" y="40" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="9" opacity="0.8">Химия 10 класс</text>
-  <rect x="10" y="58" width="225" height="140" rx="6" fill="#1e293b" stroke="#10b981" stroke-width="1" filter="url(#sh)"/>
-  <text x="22" y="76" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#10b981">Положения теории</text>
-  <line x1="22" y1="82" x2="223" y2="82" stroke="#10b981" stroke-width="0.5" opacity="0.5"/>
-  <circle cx="26" cy="95" r="3" fill="#10b981"/>
-  <text x="36" y="98" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">1. Атомы в молекуле в опред. поря…</text>
-  <circle cx="26" cy="117" r="3" fill="#10b981"/>
-  <text x="36" y="120" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">2. Свойства зависят от строения</text>
-  <circle cx="26" cy="139" r="3" fill="#10b981"/>
-  <text x="36" y="142" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">3. Взаимное влияние атомов</text>
-  <circle cx="26" cy="161" r="3" fill="#10b981"/>
-  <text x="36" y="164" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">4. Строение можно доказать хим. м…</text>
-  <rect x="245" y="58" width="225" height="140" rx="6" fill="#1e293b" stroke="#6366f1" stroke-width="1" filter="url(#sh)"/>
-  <text x="257" y="76" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#6366f1">Изомерия</text>
-  <line x1="257" y1="82" x2="458" y2="82" stroke="#6366f1" stroke-width="0.5" opacity="0.5"/>
-  <circle cx="261" cy="95" r="3" fill="#6366f1"/>
-  <text x="271" y="98" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">C₄H₁₀: бутан и изобутан</text>
-  <circle cx="261" cy="117" r="3" fill="#6366f1"/>
-  <text x="271" y="120" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">CH₃-CH₂-CH₂-CH₃</text>
-  <circle cx="261" cy="139" r="3" fill="#6366f1"/>
-  <text x="271" y="142" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">CH₃-CH(CH₃)-CH₃</text>
-  <rect x="10" y="206" width="460" height="140" rx="6" fill="#1e293b" stroke="#f59e0b" stroke-width="1" filter="url(#sh)"/>
-  <text x="22" y="224" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f59e0b">Значение</text>
-  <line x1="22" y1="230" x2="458" y2="230" stroke="#f59e0b" stroke-width="0.5" opacity="0.5"/>
-  <circle cx="26" cy="243" r="3" fill="#f59e0b"/>
-  <text x="36" y="246" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Предсказала свойства веществ</text>
-  <circle cx="26" cy="265" r="3" fill="#f59e0b"/>
-  <text x="36" y="268" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Объяснила причину изомерии</text>
-  <circle cx="26" cy="287" r="3" fill="#f59e0b"/>
-  <text x="36" y="290" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Основа органической химии</text>
-  <rect x="420" y="330" width="50" height="22" rx="11" fill="#10b981" opacity="0.3"/>
-  <text x="445" y="345" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#10b981">#4</text>
+  <rect width="400" height="300" rx="8" fill="#1a1a2e"/>
+  <rect width="400" height="52" rx="8" fill="url(#tg4)"/>
+  <rect y="44" width="400" height="8" fill="url(#tg4)"/>
+  <text x="200" y="24" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Алканы: строение, изомерия</text>
+  <text x="200" y="42" text-anchor="middle" fill="#ccfbf1" font-family="Arial, sans-serif" font-size="10">Химия 10 класс</text>
+  <!-- Top left: sp3 hybridization -->
+    <rect x="10" y="60" width="185" height="100" rx="6" fill="#1e1e3a" stroke="#3b82f6" stroke-width="1" filter="url(#sh4)"/>
+    <text x="22" y="78" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#3b82f6">sp3-гибридизация</text>
+  <circle cx="100" cy="125" r="16" fill="none" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="100" y="129" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#e2e8f0">C</text>
+  <line x1="112" y1="117" x2="132" y2="107" stroke="#14b8a6" stroke-width="1.5"/>
+  <line x1="112" y1="133" x2="132" y2="143" stroke="#14b8a6" stroke-width="1.5"/>
+  <line x1="88" y1="117" x2="68" y2="107" stroke="#14b8a6" stroke-width="1.5"/>
+  <line x1="88" y1="133" x2="68" y2="143" stroke="#14b8a6" stroke-width="1.5"/>
+    <text x="60" y="155" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8">109.5°</text>
+    <text x="22" y="95" font-family="Arial, sans-serif" font-size="8.5" fill="#94a3b8">Тетраэдр, 4 сигма-связи</text>
+
+  <!-- Top right: Alkane series -->
+    <rect x="205" y="60" width="185" height="100" rx="6" fill="#1e1e3a" stroke="#0d9488" stroke-width="1" filter="url(#sh4)"/>
+    <text x="217" y="78" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#14b8a6">Гомологический ряд</text>
+    <text x="217" y="94" font-family="Arial, sans-serif" font-size="10" fill="#f59e0b">CnH2n+2</text>
+    <text x="217" y="108" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">CH4   — метан</text>
+    <text x="217" y="119" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">C2H6  — этан</text>
+    <text x="217" y="130" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">C3H8  — пропан</text>
+    <text x="217" y="141" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">C4H10 — бутан</text>
+    <text x="217" y="152" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">C5H12 — пентан</text>
+
+  <!-- Bottom left: Isomerism -->
+    <rect x="10" y="168" width="185" height="122" rx="6" fill="#1e1e3a" stroke="#a855f7" stroke-width="1" filter="url(#sh4)"/>
+    <text x="22" y="186" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#a855f7">Изомерия углеродного скелета</text>
+    <text x="22" y="202" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">C5H12 — 3 изомера:</text>
+    <text x="22" y="215" font-family="Arial, sans-serif" font-size="8.5" fill="#14b8a6">Пентан:</text>
+    <text x="22" y="225" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0">CH3-CH2-CH2-CH2-CH3</text>
+    <text x="22" y="239" font-family="Arial, sans-serif" font-size="8.5" fill="#f59e0b">2-Метилбутан:</text>
+    <text x="22" y="249" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0">CH3-CH(CH3)-CH2-CH3</text>
+    <text x="22" y="263" font-family="Arial, sans-serif" font-size="8.5" fill="#ef4444">2,2-Диметилпропан:</text>
+    <text x="22" y="273" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0">C(CH3)4</text>
+
+  <!-- Bottom right: Naming rules -->
+    <rect x="205" y="168" width="185" height="122" rx="6" fill="#1e1e3a" stroke="#10b981" stroke-width="1" filter="url(#sh4)"/>
+    <text x="217" y="186" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#10b981">Правила номенклатуры</text>
+    <circle cx="217" cy="198" r="3" fill="#14b8a6"/>
+  <text x="227" y="202" font-family="Arial, sans-serif" font-size="9.5" fill="#e2e8f0">Найти главную цепь (max C)</text>
+    <circle cx="217" cy="212" r="3" fill="#14b8a6"/>
+  <text x="227" y="216" font-family="Arial, sans-serif" font-size="9.5" fill="#e2e8f0">Пронумеровать с конца</text>
+    <text x="227" y="227" font-family="Arial, sans-serif" font-size="8.5" fill="#94a3b8">ближе к ответвлению</text>
+    <circle cx="217" cy="237" r="3" fill="#14b8a6"/>
+  <text x="227" y="241" font-family="Arial, sans-serif" font-size="9.5" fill="#e2e8f0">Назвать заместители</text>
+    <circle cx="217" cy="251" r="3" fill="#14b8a6"/>
+  <text x="227" y="255" font-family="Arial, sans-serif" font-size="9.5" fill="#e2e8f0">Указать позицию цифрой</text>
+    <circle cx="217" cy="265" r="3" fill="#14b8a6"/>
+  <text x="227" y="269" font-family="Arial, sans-serif" font-size="9.5" fill="#e2e8f0">3-метилгексан — пример</text>
+    <text x="227" y="282" font-family="Arial, sans-serif" font-size="7.5" fill="#94a3b8">CH3-CH2-CH(CH3)-CH2-CH2-CH3</text>
 </svg>

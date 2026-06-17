@@ -1,45 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
   <defs>
-    <linearGradient id="hdr" x1="0" y1="0" x2="480" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#10b981"/>
-      <stop offset="100%" stop-color="#6366f1"/>
+    <linearGradient id="tg19" x1="0" y1="0" x2="400" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#16a34a"/>
+      <stop offset="100%" stop-color="#22c55e"/>
     </linearGradient>
-    <filter id="sh" x="-2%" y="-2%" width="104%" height="104%">
-      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.2"/>
+    <filter id="sh19" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.15"/>
     </filter>
   </defs>
-  <rect width="480" height="360" rx="10" fill="#0f172a"/>
-  <rect width="480" height="50" rx="10" fill="url(#hdr)"/>
-  <rect y="42" width="480" height="8" fill="url(#hdr)"/>
-  <text x="240" y="23" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="13" font-weight="bold">Одноатомные предельные спирты</text>
-  <text x="240" y="40" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="9" opacity="0.8">Химия 10 класс</text>
-  <rect x="10" y="58" width="225" height="140" rx="6" fill="#1e293b" stroke="#10b981" stroke-width="1" filter="url(#sh)"/>
-  <text x="22" y="76" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#10b981">Общая формула</text>
-  <line x1="22" y1="82" x2="223" y2="82" stroke="#10b981" stroke-width="0.5" opacity="0.5"/>
-  <circle cx="26" cy="95" r="3" fill="#10b981"/>
-  <text x="36" y="98" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">R-OH, CnH₂ₙ₊₁OH</text>
-  <circle cx="26" cy="117" r="3" fill="#10b981"/>
-  <text x="36" y="120" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">-OH — гидроксильная группа</text>
-  <circle cx="26" cy="139" r="3" fill="#10b981"/>
-  <text x="36" y="142" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">sp³ у атома C при -OH</text>
-  <rect x="245" y="58" width="225" height="140" rx="6" fill="#1e293b" stroke="#3b82f6" stroke-width="1" filter="url(#sh)"/>
-  <text x="257" y="76" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#3b82f6">Номенклатура</text>
-  <line x1="257" y1="82" x2="458" y2="82" stroke="#3b82f6" stroke-width="0.5" opacity="0.5"/>
-  <circle cx="261" cy="95" r="3" fill="#3b82f6"/>
-  <text x="271" y="98" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Суффикс -ол: метанол, этанол</text>
-  <circle cx="261" cy="117" r="3" fill="#3b82f6"/>
-  <text x="271" y="120" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">CH₃OH — метанол (wood alcohol)</text>
-  <circle cx="261" cy="139" r="3" fill="#3b82f6"/>
-  <text x="271" y="142" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">C₂H₅OH — этанол (этиловый спирт)</text>
-  <rect x="10" y="206" width="460" height="140" rx="6" fill="#1e293b" stroke="#6366f1" stroke-width="1" filter="url(#sh)"/>
-  <text x="22" y="224" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#6366f1">Физ. свойства</text>
-  <line x1="22" y1="230" x2="458" y2="230" stroke="#6366f1" stroke-width="0.5" opacity="0.5"/>
-  <circle cx="26" cy="243" r="3" fill="#6366f1"/>
-  <text x="36" y="246" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Жидкости (C₁-C₁₁), t кип. выше ал…</text>
-  <circle cx="26" cy="265" r="3" fill="#6366f1"/>
-  <text x="36" y="268" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Водородная связь между молекулами</text>
-  <circle cx="26" cy="287" r="3" fill="#6366f1"/>
-  <text x="36" y="290" font-family="Arial,sans-serif" font-size="9.5" fill="#e2e8f0">Растворимы в воде (C₁-C₃)</text>
-  <rect x="420" y="330" width="50" height="22" rx="11" fill="#10b981" opacity="0.3"/>
-  <text x="445" y="345" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#10b981">#19</text>
+  <rect width="400" height="300" rx="8" fill="#1a1a2e"/>
+  <rect width="400" height="52" rx="8" fill="url(#tg19)"/>
+  <rect y="44" width="400" height="8" fill="url(#tg19)"/>
+  <text x="200" y="24" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Дисахариды и полисахариды</text>
+  <text x="200" y="42" text-anchor="middle" fill="#ccfbf1" font-family="Arial, sans-serif" font-size="10">Химия 10 класс</text>
+  <!-- Top left: Disaccharides -->
+    <rect x="10" y="60" width="185" height="118" rx="6" fill="#1e1e3a" stroke="#10b981" stroke-width="1" filter="url(#sh19)"/>
+    <text x="22" y="78" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#10b981">Дисахариды</text>
+    <text x="22" y="94" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6">Сахароза C12H22O11:</text>
+    <text x="22" y="106" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">Глюкоза + Фруктоза</text>
+    <text x="22" y="118" font-family="Arial, sans-serif" font-size="8.5" fill="#ef4444">Не восст. (нет -CHO)</text>
+    <text x="22" y="132" font-family="Arial, sans-serif" font-size="9" fill="#f59e0b">Мальтоза C12H22O11:</text>
+    <text x="22" y="144" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">Глюкоза + Глюкоза</text>
+    <text x="22" y="156" font-family="Arial, sans-serif" font-size="8.5" fill="#10b981">Восстанавливает!</text>
+    <text x="22" y="170" font-family="Arial, sans-serif" font-size="8.5" fill="#94a3b8">Гидролиз → моносахариды</text>
+
+  <!-- Top right: Polysaccharides -->
+    <rect x="205" y="60" width="185" height="118" rx="6" fill="#1e1e3a" stroke="#f59e0b" stroke-width="1" filter="url(#sh19)"/>
+    <text x="217" y="78" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#f59e0b">Полисахариды (C6H10O5)n</text>
+    <text x="217" y="94" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6">Крахмал:</text>
+    <text x="217" y="106" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">амилоза + амилопектин</text>
+    <text x="217" y="118" font-family="Arial, sans-serif" font-size="8.5" fill="#94a3b8">Запасное в-во растений</text>
+    <text x="217" y="132" font-family="Arial, sans-serif" font-size="9" fill="#f59e0b">Целлюлоза:</text>
+    <text x="217" y="144" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">линейные цепи глюкозы</text>
+    <text x="217" y="156" font-family="Arial, sans-serif" font-size="8.5" fill="#94a3b8">Строит. в-во растений</text>
+    <text x="217" y="170" font-family="Arial, sans-serif" font-size="8.5" fill="#94a3b8">β-гликозидная связь</text>
+
+  <!-- Bottom left: Iodine test & hydrolysis -->
+    <rect x="10" y="186" width="185" height="104" rx="6" fill="#1e1e3a" stroke="#a855f7" stroke-width="1" filter="url(#sh19)"/>
+    <text x="22" y="204" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#a855f7">Йодная проба и гидролиз</text>
+    <text x="22" y="220" font-family="Arial, sans-serif" font-size="9" fill="#14b8a6">Крахмал + I2 → синий</text>
+    <text x="22" y="232" font-family="Arial, sans-serif" font-size="8.5" fill="#ef4444">Качественная реакция!</text>
+    <text x="22" y="248" font-family="Arial, sans-serif" font-size="9" fill="#e2e8f0">Гидролиз крахмала:</text>
+    <text x="22" y="260" font-family="Arial, sans-serif" font-size="8.5" fill="#94a3b8">(C6H10O5)n + nH2O →</text>
+    <text x="22" y="272" font-family="Arial, sans-serif" font-size="8.5" fill="#e2e8f0">  n C6H12O6 (глюкоза)</text>
+
+  <!-- Bottom right: Comparison -->
+    <rect x="205" y="186" width="185" height="104" rx="6" fill="#1e1e3a" stroke="#3b82f6" stroke-width="1" filter="url(#sh19)"/>
+    <text x="217" y="204" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#3b82f6">Крахмал vs Целлюлоза</text>
+  <line x1="217" y1="212" x2="379" y2="212" stroke="#3b82f6" stroke-width="0.5" opacity="0.3"/>
+    <text x="217" y="224" font-family="Arial, sans-serif" font-size="8" fill="#64748b">Свойство</text>
+    <text x="305" y="224" font-family="Arial, sans-serif" font-size="8" fill="#64748b">Крахмал</text>
+    <text x="360" y="224" font-family="Arial, sans-serif" font-size="8" fill="#64748b">Целл.</text>
+    <text x="217" y="236" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8">Связь</text>
+    <text x="305" y="236" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0">α</text>
+    <text x="360" y="236" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0">β</text>
+    <text x="217" y="248" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8">Р-римость</text>
+    <text x="305" y="248" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0">В горяч. H2O</text>
+    <text x="360" y="248" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0">Не раств.</text>
+    <text x="217" y="260" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8">Функция</text>
+    <text x="305" y="260" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0">Запас</text>
+    <text x="360" y="260" font-family="Arial, sans-serif" font-size="8" fill="#e2e8f0">Каркас</text>
+    <text x="217" y="276" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8">I2 проба</text>
+    <text x="305" y="276" font-family="Arial, sans-serif" font-size="8" fill="#14b8a6">Синий</text>
+    <text x="360" y="276" font-family="Arial, sans-serif" font-size="8" fill="#ef4444">Нет</text>
 </svg>
