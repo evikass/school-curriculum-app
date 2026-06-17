@@ -1,33 +1,104 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" style="stop-color:#E8F5E9;stop-opacity:0.6"/><stop offset="100%" style="stop-color:#C8E6C9;stop-opacity:0.3"/>
-  </linearGradient></defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="14"/>
-  <rect x="4" y="4" width="492" height="342" rx="12" fill="none" stroke="#4E342E" stroke-width="2.5" opacity="0.35"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#4E342E" text-anchor="middle">Черви</text>
-  <line x1="40" y1="62" x2="460" y2="62" stroke="#4E342E" stroke-width="2" opacity="0.3"/>
-  <rect x="40" y="74" width="100" height="5" rx="2.5" fill="#4E342E" opacity="0.2"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+  <text x="250" y="30" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#2E7D32" text-anchor="middle">Мхи, папоротники и голосеменные</text>
+  <text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 5 класс - Урок 15</text>
+  <line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
   
-    <path d="M400,50 Q420,30 440,50 Q460,70 440,85 Q420,95 400,85 Q390,70 400,50" fill="none" stroke="#4E342E" stroke-width="2" opacity="0.15"/>
-    <circle cx="415" cy="55" r="4" fill="#4E342E" opacity="0.2"/>
-    <circle cx="430" cy="60" r="3" fill="#4E342E" opacity="0.15"/>
-  
-    <rect x="30" y="100" width="210" height="90" rx="12" fill="white" stroke="#4E342E" stroke-width="2.5" opacity="0.95"/>
-    <text x="135" y="142" font-family="Arial,sans-serif" font-size="26" text-anchor="middle" fill="#4E342E" font-weight="bold">🪱</text>
-    <text x="135" y="172" font-family="Arial,sans-serif" font-size="17" text-anchor="middle" fill="#333" font-weight="bold">Плоские</text>
-    <text x="135" y="186" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#666">планария</text>
-    <rect x="260" y="100" width="210" height="90" rx="12" fill="white" stroke="#4E342E" stroke-width="2.5" opacity="0.95"/>
-    <text x="365" y="142" font-family="Arial,sans-serif" font-size="26" text-anchor="middle" fill="#4E342E" font-weight="bold">🔴</text>
-    <text x="365" y="172" font-family="Arial,sans-serif" font-size="17" text-anchor="middle" fill="#333" font-weight="bold">Круглые</text>
-    <text x="365" y="186" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#666">аскарида</text>
-    <rect x="30" y="210" width="210" height="90" rx="12" fill="white" stroke="#4E342E" stroke-width="2.5" opacity="0.95"/>
-    <text x="135" y="252" font-family="Arial,sans-serif" font-size="26" text-anchor="middle" fill="#4E342E" font-weight="bold">🪱</text>
-    <text x="135" y="282" font-family="Arial,sans-serif" font-size="17" text-anchor="middle" fill="#333" font-weight="bold">Кольчатые</text>
-    <text x="135" y="296" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#666">дождевой червь</text>
-    <rect x="260" y="210" width="210" height="90" rx="12" fill="white" stroke="#4E342E" stroke-width="2.5" opacity="0.95"/>
-    <text x="365" y="252" font-family="Arial,sans-serif" font-size="26" text-anchor="middle" fill="#4E342E" font-weight="bold">💉</text>
-    <text x="365" y="282" font-family="Arial,sans-serif" font-size="17" text-anchor="middle" fill="#333" font-weight="bold">Пиявка</text>
-    <text x="365" y="296" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#666">медицина</text>
-  <rect x="30" y="315" width="440" height="26" rx="8" fill="#4E342E" opacity="0.08"/>
-  <text x="250" y="333" font-family="Arial,sans-serif" font-size="15" fill="#4E342E" text-anchor="middle" font-weight="bold">Дождевой червь — плуг природы</text>
+  <!-- Three plant groups side by side -->
+  <!-- Moss (Мох) -->
+  <g transform="translate(85,160)">
+    <!-- Ground -->
+    <ellipse cx="0" cy="65" rx="55" ry="8" fill="#8D6E63" opacity="0.3"/>
+    <!-- Moss stems -->
+    <rect x="-2" y="20" width="4" height="45" fill="#66BB6A" rx="2"/>
+    <rect x="-17" y="25" width="3" height="40" fill="#81C784" rx="1.5"/>
+    <rect x="14" y="22" width="3" height="43" fill="#81C784" rx="1.5"/>
+    <!-- Leaves (small) -->
+    <ellipse cx="-8" cy="30" rx="6" ry="3" fill="#4CAF50" opacity="0.7"/>
+    <ellipse cx="8" cy="28" rx="6" ry="3" fill="#4CAF50" opacity="0.7"/>
+    <ellipse cx="-12" cy="40" rx="5" ry="2.5" fill="#66BB6A" opacity="0.6"/>
+    <ellipse cx="10" cy="38" rx="5" ry="2.5" fill="#66BB6A" opacity="0.6"/>
+    <!-- Sporangium capsule -->
+    <ellipse cx="0" cy="10" rx="6" ry="10" fill="#A5D6A7" stroke="#4CAF50" stroke-width="1"/>
+    <!-- Lid -->
+    <ellipse cx="0" cy="2" rx="5" ry="2" fill="#81C784"/>
+    <!-- Seta (stalk) -->
+    <line x1="0" y1="20" x2="0" y2="10" stroke="#4CAF50" stroke-width="1.5"/>
+    <!-- Rhizoids (not roots!) -->
+    <path d="M0 65 Q-5 72 -8 78" stroke="#BCAAA4" stroke-width="1" fill="none"/>
+    <path d="M0 65 Q5 72 8 78" stroke="#BCAAA4" stroke-width="1" fill="none"/>
+    <path d="M0 65 Q-2 75 -3 80" stroke="#BCAAA4" stroke-width="0.8" fill="none"/>
+    <text x="0" y="95" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle" font-weight="bold">Мхи</text>
+    <text x="0" y="107" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">Нет корней (ризоиды)</text>
+    <text x="0" y="118" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">Споры в коробочке</text>
+  </g>
+  <!-- Fern (Папоротник) -->
+  <g transform="translate(250,150)">
+    <!-- Ground -->
+    <ellipse cx="0" cy="70" rx="60" ry="8" fill="#8D6E63" opacity="0.3"/>
+    <!-- Stem -->
+    <rect x="-3" y="10" width="6" height="60" fill="#795548" rx="2"/>
+    <!-- Fronds (leaves) -->
+    <path d="M0 10 Q-40 -20 -60 -40" stroke="#2E7D32" stroke-width="3" fill="none"/>
+    <path d="M0 10 Q40 -20 60 -40" stroke="#2E7D32" stroke-width="3" fill="none"/>
+    <path d="M0 20 Q-35 -5 -55 -25" stroke="#43A047" stroke-width="2.5" fill="none"/>
+    <path d="M0 20 Q35 -5 55 -25" stroke="#43A047" stroke-width="2.5" fill="none"/>
+    <!-- Leaflets on fronds -->
+    <path d="M-25 -10 Q-35 -15 -30 -5" fill="#66BB6A" opacity="0.6"/>
+    <path d="M25 -10 Q35 -15 30 -5" fill="#66BB6A" opacity="0.6"/>
+    <path d="M-40 -25 Q-50 -30 -45 -20" fill="#66BB6A" opacity="0.5"/>
+    <path d="M40 -25 Q50 -30 45 -20" fill="#66BB6A" opacity="0.5"/>
+    <!-- Sorus (spore clusters) on back of leaf -->
+    <circle cx="-35" cy="-18" r="3" fill="#8D6E63" opacity="0.6"/>
+    <circle cx="-45" cy="-30" r="2.5" fill="#8D6E63" opacity="0.6"/>
+    <circle cx="35" cy="-18" r="3" fill="#8D6E63" opacity="0.6"/>
+    <circle cx="45" cy="-30" r="2.5" fill="#8D6E63" opacity="0.6"/>
+    <!-- Fiddlehead (young frond) -->
+    <path d="M0 5 Q-5 -5 -3 -10 Q0 -15 3 -10 Q5 -5 0 5" fill="#81C784" stroke="#4CAF50" stroke-width="1"/>
+    <!-- Roots -->
+    <path d="M0 70 Q-10 80 -15 88" stroke="#795548" stroke-width="2" fill="none"/>
+    <path d="M0 70 Q10 80 15 88" stroke="#795548" stroke-width="2" fill="none"/>
+    <path d="M0 70 Q0 82 0 90" stroke="#795548" stroke-width="1.5" fill="none"/>
+    <text x="0" y="100" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle" font-weight="bold">Папоротники</text>
+    <text x="0" y="112" font-family="Arial,sans-serif" font-size="7" fill="#4CAF50" text-anchor="middle">Есть корни и листья</text>
+    <text x="0" y="123" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">Споры на листьях</text>
+  </g>
+  <!-- Conifer (Голосеменные) -->
+  <g transform="translate(415,150)">
+    <!-- Ground -->
+    <ellipse cx="0" cy="70" rx="40" ry="6" fill="#8D6E63" opacity="0.3"/>
+    <!-- Trunk -->
+    <rect x="-5" y="-10" width="10" height="80" fill="#795548" rx="2"/>
+    <!-- Tree crown (triangular) -->
+    <path d="M0 -60 L-35 -10 L35 -10 Z" fill="#2E7D32" opacity="0.8"/>
+    <path d="M0 -50 L-28 -5 L28 -5 Z" fill="#388E3C" opacity="0.7"/>
+    <path d="M0 -40 L-20 5 L20 5 Z" fill="#43A047" opacity="0.6"/>
+    <!-- Cones -->
+    <ellipse cx="-20" cy="0" rx="6" ry="10" fill="#8D6E63" stroke="#5D4037" stroke-width="1"/>
+    <ellipse cx="18" cy="5" rx="5" ry="8" fill="#A1887F" stroke="#795548" stroke-width="1"/>
+    <!-- Cone scales -->
+    <path d="M-24 -2 L-20 -5 L-16 -2" stroke="#5D4037" stroke-width="0.8" fill="none"/>
+    <path d="M-24 3 L-20 0 L-16 3" stroke="#5D4037" stroke-width="0.8" fill="none"/>
+    <!-- Roots -->
+    <path d="M0 70 Q-15 82 -20 90" stroke="#795548" stroke-width="2" fill="none"/>
+    <path d="M0 70 Q15 82 20 90" stroke="#795548" stroke-width="2" fill="none"/>
+    <text x="0" y="100" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle" font-weight="bold">Голосеменные</text>
+    <text x="0" y="112" font-family="Arial,sans-serif" font-size="7" fill="#4CAF50" text-anchor="middle">Семена в шишках</text>
+    <text x="0" y="123" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">Нет плодов/цветков</text>
+  </g>
+  <!-- Evolution arrow at top -->
+  <rect x="40" y="62" width="420" height="20" rx="4" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.8"/>
+  <text x="250" y="76" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Эволюция: от простых (без корней) к сложным (семена)</text>
+  <path d="M60 72 L440 72" stroke="#2E7D32" stroke-width="1.5"/>
+  <path d="M440 72 L435 68 M440 72 L435 76" stroke="#2E7D32" stroke-width="1.5" fill="none"/>
+
+  <rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+  <text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 5 класс</text>
 </svg>

@@ -1,67 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8F5E9"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9C27B0;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#CE93D8;stop-opacity:0.06"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="12"/>
-  <rect x="0" y="0" width="500" height="50" fill="#66BB6A" rx="12"/>
-  <rect x="0" y="25" width="500" height="25" fill="#66BB6A"/>
-  <text x="250" y="34" text-anchor="middle" fill="#FFF" font-size="16" font-weight="bold" font-family="Arial,sans-serif">Урок 4. Бег на короткие и средние дистанции</text>
-  <!-- Sprint technique -->
-  <rect x="15" y="60" width="230" height="140" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
-  <rect x="15" y="60" width="230" height="25" fill="#66BB6A" rx="8"/>
-  <rect x="15" y="77" width="230" height="8" fill="#66BB6A"/>
-  <text x="130" y="78" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Спринт (60 м, 100 м)</text>
-  <!-- Sprinter figure -->
-  <circle cx="50" cy="105" r="6" fill="#2E7D32"/>
-  <line x1="50" y1="111" x2="50" y2="130" stroke="#2E7D32" stroke-width="2"/>
-  <line x1="50" y1="117" x2="40" y2="125" stroke="#2E7D32" stroke-width="2"/>
-  <line x1="50" y1="117" x2="60" y2="112" stroke="#2E7D32" stroke-width="2"/>
-  <line x1="50" y1="130" x2="42" y2="143" stroke="#2E7D32" stroke-width="2"/>
-  <line x1="50" y1="130" x2="60" y2="140" stroke="#2E7D32" stroke-width="2"/>
-  <text x="25" y="160" fill="#2E7D32" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Фазы спринта:</text>
-  <text x="25" y="173" fill="#333" font-size="9" font-family="Arial,sans-serif">1. Старт (низкий/высокий)</text>
-  <text x="25" y="186" fill="#333" font-size="9" font-family="Arial,sans-serif">2. Стартовый разгон</text>
-  <text x="25" y="199" fill="#333" font-size="9" font-family="Arial,sans-serif">3. Бег по дистанции</text>
-
-  <!-- Middle distance -->
-  <rect x="255" y="60" width="230" height="140" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
-  <rect x="255" y="60" width="230" height="25" fill="#66BB6A" rx="8"/>
-  <rect x="255" y="77" width="230" height="8" fill="#66BB6A"/>
-  <text x="370" y="78" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Средние дистанции (800–1500 м)</text>
-  <text x="265" y="100" fill="#2E7D32" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Тактика бега:</text>
-  <text x="265" y="113" fill="#333" font-size="9" font-family="Arial,sans-serif">• Равномерный темп</text>
-  <text x="265" y="126" fill="#333" font-size="9" font-family="Arial,sans-serif">• Рывок на финише</text>
-  <text x="265" y="139" fill="#333" font-size="9" font-family="Arial,sans-serif">• Дыхание: 2 шага вдох/выдох</text>
-  <text x="265" y="155" fill="#2E7D32" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Техника:</text>
-  <text x="265" y="168" fill="#333" font-size="9" font-family="Arial,sans-serif">• Наклон тела 4–5°</text>
-  <text x="265" y="181" fill="#333" font-size="9" font-family="Arial,sans-serif">• Постановка с носка</text>
-  <text x="265" y="194" fill="#333" font-size="9" font-family="Arial,sans-serif">• Работа рук: локти 90°</text>
-
-  <!-- Running technique details -->
-  <rect x="15" y="210" width="230" height="110" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
-  <rect x="15" y="210" width="230" height="25" fill="#2E7D32" rx="8"/>
-  <rect x="15" y="227" width="230" height="8" fill="#2E7D32"/>
-  <text x="130" y="228" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Техника бега</text>
-  <text x="25" y="252" fill="#333" font-size="9" font-family="Arial,sans-serif">• Положение головы: прямо</text>
-  <text x="25" y="265" fill="#333" font-size="9" font-family="Arial,sans-serif">• Шаг: длина + частота</text>
-  <text x="25" y="278" fill="#333" font-size="9" font-family="Arial,sans-serif">• Мах ногой вперёд-вверх</text>
-  <text x="25" y="291" fill="#333" font-size="9" font-family="Arial,sans-serif">• Отталкивание стопой</text>
-  <text x="25" y="304" fill="#333" font-size="9" font-family="Arial,sans-serif">• Расслабленность плеч</text>
-  <text x="25" y="317" fill="#333" font-size="9" font-family="Arial,sans-serif">• Финиш: грудь или плечо</text>
-
-  <!-- Safety -->
-  <rect x="255" y="210" width="230" height="110" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
-  <rect x="255" y="210" width="230" height="25" fill="#2E7D32" rx="8"/>
-  <rect x="255" y="227" width="230" height="8" fill="#2E7D32"/>
-  <text x="370" y="228" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Безопасность</text>
-  <text x="265" y="252" fill="#333" font-size="9" font-family="Arial,sans-serif">• Разминка: суставы + бег</text>
-  <text x="265" y="265" fill="#333" font-size="9" font-family="Arial,sans-serif">• Бег по дорожке против час.</text>
-  <text x="265" y="278" fill="#333" font-size="9" font-family="Arial,sans-serif">• Обувь с амортизацией</text>
-  <text x="265" y="291" fill="#333" font-size="9" font-family="Arial,sans-serif">• Не пересекать дорожку!</text>
-  <text x="265" y="304" fill="#333" font-size="9" font-family="Arial,sans-serif">• Заминка: ходьба 3–5 мин</text>
-  <text x="265" y="317" fill="#333" font-size="9" font-family="Arial,sans-serif">• Растяжка после тренировки</text>
+  <rect width="500" height="350" fill="#1a1a2e"/>
+  <rect width="500" height="350" fill="url(#bg4)"/>
+  <!-- Balance beam -->
+  <rect x="50" y="180" width="180" height="6" fill="#CE93D8" rx="2"/>
+  <rect x="60" y="186" width="8" height="30" fill="#9C27B0" opacity="0.5"/>
+  <rect x="212" y="186" width="8" height="30" fill="#9C27B0" opacity="0.5"/>
+  <!-- Figure on beam -->
+  <g transform="translate(130,110)">
+    <circle cx="15" cy="10" r="9" fill="#CE93D8"/>
+    <line x1="15" y1="19" x2="15" y2="50" stroke="#CE93D8" stroke-width="3" stroke-linecap="round"/>
+    <line x1="15" y1="28" x2="0" y2="42" stroke="#CE93D8" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="15" y1="28" x2="30" y2="42" stroke="#CE93D8" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="15" y1="50" x2="0" y2="70" stroke="#CE93D8" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="15" y1="50" x2="30" y2="70" stroke="#CE93D8" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <!-- Ribbon (rhythmic gymnastics) -->
+  <path d="M300,80 Q320,50 350,80 Q380,110 400,70 Q420,30 440,60 Q460,90 470,50" fill="none" stroke="#CE93D8" stroke-width="3" opacity="0.8"/>
+  <circle cx="300" cy="80" r="6" fill="#9C27B0"/>
+  <!-- Parallel bars -->
+  <rect x="280" y="160" width="8" height="80" fill="#7B1FA2" opacity="0.4"/>
+  <rect x="370" y="160" width="8" height="80" fill="#7B1FA2" opacity="0.4"/>
+  <rect x="275" y="155" width="110" height="6" fill="#CE93D8" rx="2"/>
+  <rect x="275" y="175" width="110" height="6" fill="#CE93D8" rx="2"/>
+  <!-- Mats -->
+  <rect x="80" y="260" width="120" height="15" fill="#9C27B0" opacity="0.3" rx="3"/>
+  <rect x="300" y="260" width="120" height="15" fill="#9C27B0" opacity="0.3" rx="3"/>
+  <!-- Star -->
+  <polygon points="250,50 255,65 270,65 258,75 262,90 250,80 238,90 242,75 230,65 245,65" fill="#CE93D8" opacity="0.5"/>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#aaa" opacity="0.5" font-family="sans-serif">Гимнастика</text>
 </svg>

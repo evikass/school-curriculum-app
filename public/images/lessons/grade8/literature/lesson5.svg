@@ -1,37 +1,131 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
+    <linearGradient id="soulsBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B3E5FC"/>
+      <stop offset="50%" stop-color="#E1F5FE"/>
+      <stop offset="100%" stop-color="#FFF8E1"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#3E2723"/>
-      <stop offset="100%" stop-color="#6D4C41"/>
+    <linearGradient id="horseGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8D6E63"/>
+      <stop offset="100%" stop-color="#5D4037"/>
     </linearGradient>
+    <filter id="dustCloud">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#6D4C41" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#6D4C41" stroke-width="1" opacity="0.3"/>
-  <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#6D4C41" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#6D4C41" text-anchor="middle">Поэма «Мёртвые души»</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Литература - Урок 5</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#6D4C41" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#6D4C41" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA -->
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#EFEBE9"/><text x="250" y="130" font-family="Arial,sans-serif" font-size="20" fill="#6D4C41" text-anchor="middle" font-weight="bold">Поэма «Мёртвые души»</text><rect x="25" y="155" width="140" height="45" rx="5" fill="#E3F2FD" stroke="#6D4C41" stroke-width="1.5"/><text x="95" y="182" font-family="Arial" font-size="12" fill="#6D4C41" text-anchor="middle">«Мёртвые души»</text><rect x="170" y="155" width="140" height="45" rx="5" fill="#FFF3E0" stroke="#3E2723" stroke-width="1.5"/><text x="240" y="182" font-family="Arial" font-size="12" fill="#3E2723" text-anchor="middle">Жанр:</text><rect x="315" y="155" width="140" height="45" rx="5" fill="#FFFDE7" stroke="#F9A825" stroke-width="1.5"/><text x="385" y="182" font-family="Arial" font-size="12" fill="#F9A825" text-anchor="middle">Сюжет:</text><rect x="25" y="210" width="140" height="45" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/><text x="95" y="238" font-family="Arial" font-size="12" fill="#2E7D32" text-anchor="middle">Галерея помещиков:</text><rect x="170" y="210" width="140" height="45" rx="5" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="1.5"/><text x="240" y="238" font-family="Arial" font-size="12" fill="#6A1B9A" text-anchor="middle">Манилов:</text><rect x="315" y="210" width="140" height="45" rx="5" fill="#FFEBEE" stroke="#E65100" stroke-width="1.5"/><text x="385" y="238" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">Коробочка:</text>
-  <rect x="430" y="268" width="25" height="30" rx="2" fill="#6D4C41" opacity="0.1"/>
+  <rect width="500" height="350" fill="url(#soulsBg)"/>
+  <!-- Road -->
+  <path d="M0,280 Q100,270 200,275 Q300,280 400,272 Q450,270 500,275" fill="#D2B48C" opacity="0.5"/>
+  <!-- Dust cloud behind troika -->
+  <ellipse cx="80" cy="240" rx="60" ry="25" fill="#D2B48C" opacity="0.3" filter="url(#dustCloud)"/>
+  <!-- Troika (three-horse carriage) -->
+  <g transform="translate(280,200)">
+    <!-- Center horse -->
+    <g transform="translate(0,-20)">
+      <ellipse cx="0" cy="0" rx="18" ry="10" fill="url(#horseGrad)"/>
+      <path d="M-15,-5 Q-20,-18 -14,-22" stroke="#5D4037" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <ellipse cx="-15" cy="-24" rx="5" ry="7" fill="#5D4037"/>
+      <!-- Mane -->
+      <path d="M-10,-18 Q-5,-25 0,-18" fill="#4E342E"/>
+      <!-- Legs -->
+      <line x1="-8" y1="8" x2="-12" y2="28" stroke="#5D4037" stroke-width="3"/>
+      <line x1="8" y1="8" x2="12" y2="28" stroke="#5D4037" stroke-width="3"/>
+      <line x1="-3" y1="8" x2="-5" y2="28" stroke="#5D4037" stroke-width="3"/>
+      <line x1="3" y1="8" x2="5" y2="28" stroke="#5D4037" stroke-width="3"/>
+      <!-- Harness -->
+      <path d="M-5,-15 Q0,-20 5,-15" stroke="#D32F2F" stroke-width="1" fill="none"/>
+      <circle cx="0" cy="-15" r="2" fill="#FFD700"/>
+    </g>
+    <!-- Left horse (running ahead) -->
+    <g transform="translate(-35,-25)">
+      <ellipse cx="0" cy="0" rx="14" ry="8" fill="#795548"/>
+      <path d="M-12,-4 Q-15,-15 -10,-18" stroke="#795548" stroke-width="4" fill="none" stroke-linecap="round"/>
+      <ellipse cx="-10" cy="-20" rx="4" ry="5.5" fill="#795548"/>
+      <!-- Extended legs (running) -->
+      <line x1="-6" y1="6" x2="-15" y2="22" stroke="#795548" stroke-width="2.5"/>
+      <line x1="6" y1="6" x2="15" y2="20" stroke="#795548" stroke-width="2.5"/>
+      <!-- Harness -->
+      <path d="M-3,-12 Q2,-16 7,-11" stroke="#D32F2F" stroke-width="1" fill="none"/>
+    </g>
+    <!-- Right horse (running ahead) -->
+    <g transform="translate(35,-25)">
+      <ellipse cx="0" cy="0" rx="14" ry="8" fill="#6D4C41"/>
+      <path d="M-12,-4 Q-15,-15 -10,-18" stroke="#6D4C41" stroke-width="4" fill="none" stroke-linecap="round"/>
+      <ellipse cx="-10" cy="-20" rx="4" ry="5.5" fill="#6D4C41"/>
+      <line x1="-6" y1="6" x2="-15" y2="22" stroke="#6D4C41" stroke-width="2.5"/>
+      <line x1="6" y1="6" x2="15" y2="20" stroke="#6D4C41" stroke-width="2.5"/>
+      <path d="M-3,-12 Q2,-16 7,-11" stroke="#D32F2F" stroke-width="1" fill="none"/>
+    </g>
+    <!-- Shaft/pole -->
+    <line x1="0" y1="-10" x2="0" y2="20" stroke="#4E342E" stroke-width="3"/>
+    <!-- Carriage body -->
+    <rect x="-30" y="15" width="60" height="35" rx="5" fill="#1565C0"/>
+    <rect x="-28" y="17" width="56" height="20" rx="3" fill="#1976D2"/>
+    <!-- Carriage roof -->
+    <path d="M-35,12 Q-35,5 -30,5 L30,5 Q35,5 35,12" fill="#0D47A1"/>
+    <!-- Carriage wheels -->
+    <circle cx="-25" cy="55" r="12" fill="none" stroke="#4E342E" stroke-width="3"/>
+    <circle cx="-25" cy="55" r="3" fill="#4E342E"/>
+    <line x1="-25" y1="43" x2="-25" y2="67" stroke="#4E342E" stroke-width="1"/>
+    <line x1="-37" y1="55" x2="-13" y2="55" stroke="#4E342E" stroke-width="1"/>
+    <circle cx="25" cy="55" r="12" fill="none" stroke="#4E342E" stroke-width="3"/>
+    <circle cx="25" cy="55" r="3" fill="#4E342E"/>
+    <line x1="25" y1="43" x2="25" y2="67" stroke="#4E342E" stroke-width="1"/>
+    <line x1="13" y1="55" x2="37" y2="55" stroke="#4E342E" stroke-width="1"/>
+    <!-- Bells on harness -->
+    <circle cx="-15" cy="-8" r="3" fill="#FFD700"/>
+    <circle cx="15" cy="-8" r="3" fill="#FFD700"/>
+    <circle cx="0" cy="-5" r="3" fill="#FFD700"/>
   </g>
-  <!-- Bottom panel -->
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Литература</text>
+  <!-- Chichikov in carriage -->
+  <g transform="translate(280,215)">
+    <circle cx="0" cy="0" r="7" fill="#FFDAB9"/>
+    <rect x="-5" y="7" width="10" height="12" rx="2" fill="#2C2C2C"/>
+    <!-- Round hat (Chichikov's signature) -->
+    <ellipse cx="0" cy="-5" rx="9" ry="3" fill="#333"/>
+    <rect x="-5" y="-10" width="10" height="6" rx="3" fill="#333"/>
+  </g>
+  <!-- Landowner silhouettes on the road behind -->
+  <!-- Sobakevich (big, solid) -->
+  <g transform="translate(90,230)" opacity="0.3">
+    <circle cx="0" cy="0" r="10" fill="#333"/>
+    <rect x="-12" y="10" width="24" height="25" rx="4" fill="#333"/>
+  </g>
+  <!-- Korobochka (small, round) -->
+  <g transform="translate(130,240)" opacity="0.3">
+    <circle cx="0" cy="0" r="7" fill="#333"/>
+    <ellipse cx="0" cy="14" rx="10" ry="12" fill="#333"/>
+  </g>
+  <!-- Manilov (dreamy, slight) -->
+  <g transform="translate(50,235)" opacity="0.3">
+    <circle cx="0" cy="0" r="6" fill="#333"/>
+    <rect x="-5" y="6" width="10" height="18" rx="2" fill="#333"/>
+  </g>
+  <!-- Nozdryov (wild) -->
+  <g transform="translate(160,235)" opacity="0.3">
+    <circle cx="0" cy="0" r="8" fill="#333"/>
+    <rect x="-8" y="8" width="16" height="20" rx="3" fill="#333"/>
+  </g>
+  <!-- Dead souls list (scrolling paper) -->
+  <g transform="translate(30,30)">
+    <rect x="0" y="0" width="100" height="130" rx="3" fill="#FFF8DC" stroke="#8D6E63" stroke-width="1"/>
+    <text x="50" y="16" font-family="Georgia" font-size="8" fill="#8D6E63" text-anchor="middle" font-weight="bold">Мёртвые души</text>
+    <line x1="10" y1="22" x2="90" y2="22" stroke="#8D6E63" stroke-width="0.5"/>
+    <g font-family="Arial" font-size="7" fill="#555">
+      <text x="10" y="35">Манилов — ... чел.</text>
+      <text x="10" y="48">Коробочка — ... чел.</text>
+      <text x="10" y="61">Ноздрёв — ... чел.</text>
+      <text x="10" y="74">Собакевич — ... чел.</text>
+      <text x="10" y="87">Плюшкин — ... чел.</text>
+    </g>
+    <line x1="10" y1="95" x2="90" y2="95" stroke="#8D6E63" stroke-width="0.5"/>
+    <text x="50" y="108" font-family="Georgia" font-size="7" fill="#D32F2F" text-anchor="middle">Итого: ??? душ</text>
+    <!-- Quill -->
+    <line x1="85" y1="115" x2="95" y2="100" stroke="#5D4037" stroke-width="1.5"/>
+  </g>
+  <!-- Title -->
+  <rect x="150" y="290" width="320" height="35" rx="8" fill="#FFF" opacity="0.8"/>
+  <text x="310" y="310" font-family="Georgia" font-size="13" fill="#4E342E" text-anchor="middle" font-weight="bold">«Мёртвые души» — Н.В. Гоголь</text>
+  <text x="310" y="323" font-family="Arial" font-size="9" fill="#888" text-anchor="middle">Поэма о русской жизни и Чичикове</text>
+  <text x="250" y="345" font-family="Arial" font-size="9" fill="#000" opacity="0.5" text-anchor="middle">Поэма «Мёртвые души»</text>
 </svg>

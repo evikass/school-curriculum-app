@@ -1,38 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FBE9E7"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FF7043"/>
-      <stop offset="100%" stop-color="#BF360C"/>
+    <linearGradient id="perest" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6B46C1"/>
+      <stop offset="100%" stop-color="#553C9A"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FF7043" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#FF7043" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#FF7043" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#BF360C" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#FF7043" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#BF360C" opacity="0.12"/>
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#FF7043" text-anchor="middle">Россия в 1990-е годы</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">История — Урок 15</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#FF7043" stroke-width="2" opacity="0.25"/>
-  <rect x="20" y="72" width="460" height="25" rx="4" fill="#FF7043" opacity="0.07"/>
-  <text x="250" y="89" font-family="Arial,sans-serif" font-size="12" fill="#BF360C" text-anchor="middle" font-weight="bold">1991-2000</text>
-  <rect x="20" y="102" width="225" height="170" rx="4" fill="#FF7043" opacity="0.05"/>
-  <text x="28" y="118" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Ельцин — первый президент РФ</text>
-  <text x="28" y="140" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Рыночные реформы: Гайдар, приватизация</text>
-  <text x="28" y="162" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Конституция 1993 года</text>
-  <rect x="255" y="102" width="225" height="170" rx="4" fill="#FF7043" opacity="0.05"/>
-  <text x="263" y="118" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Кризис 1998 года</text>
-  <text x="263" y="140" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Чеченские войны</text>
-  <text x="263" y="162" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Трудности переходного периода</text>
-  <rect x="20" y="278" width="225" height="22" rx="4" fill="#FF7043" opacity="0.06"/>
-  <text x="132" y="293" font-family="Arial,sans-serif" font-size="10" fill="#BF360C" text-anchor="middle" font-weight="bold">Шоковая терапия</text>
-  <rect x="255" y="278" width="225" height="22" rx="4" fill="#FF7043" opacity="0.06"/>
-  <text x="367" y="293" font-family="Arial,sans-serif" font-size="10" fill="#BF360C" text-anchor="middle" font-weight="bold">Демократия + кризис</text>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">История · Россия в 1990-е годы</text>
+  <rect width="500" height="350" fill="url(#perest)"/>
+  <!-- Cracking wall -->
+  <rect x="50" y="50" width="400" height="220" fill="#4A5568" opacity="0.4" rx="3"/>
+  <!-- Cracks -->
+  <g stroke="#E2E8F0" stroke-width="2" opacity="0.5">
+    <path d="M250 50 L240 100 L260 150 L245 200 L250 270" fill="none"/>
+    <path d="M240 100 L200 120" fill="none"/>
+    <path d="M260 150 L300 160" fill="none"/>
+    <path d="M245 200 L210 210" fill="none"/>
+    <path d="M245 200 L280 230" fill="none"/>
+  </g>
+  <!-- Light through cracks -->
+  <g fill="#F6E05E" opacity="0.15">
+    <polygon points="240,100 200,120 250,130 260,150"/>
+    <polygon points="260,150 300,160 270,180 245,200"/>
+  </g>
+  <!-- Glasnost word hint -->
+  <g transform="translate(100,130)" opacity="0.4">
+    <rect x="0" y="0" width="80" height="30" fill="none" stroke="#F6E05E" stroke-width="1" rx="3"/>
+    <text x="40" y="20" text-anchor="middle" font-size="12" fill="#F6E05E">Гласность</text>
+  </g>
+  <!-- Uskorenie word hint -->
+  <g transform="translate(320,130)" opacity="0.4">
+    <rect x="0" y="0" width="80" height="30" fill="none" stroke="#63B3ED" stroke-width="1" rx="3"/>
+    <text x="40" y="20" text-anchor="middle" font-size="11" fill="#63B3ED">Ускорение</text>
+  </g>
+  <!-- Falling pieces -->
+  <g fill="#718096" opacity="0.3">
+    <rect x="180" y="280" width="20" height="15" transform="rotate(15,190,287)"/>
+    <rect x="280" y="290" width="15" height="12" transform="rotate(-10,287,296)"/>
+  </g>
+  <!-- Gorbachev birthmark hint -->
+  <g transform="translate(250,75)" opacity="0.3">
+    <circle cx="0" cy="0" r="20" fill="#FC8181"/>
+    <ellipse cx="-5" cy="-3" rx="6" ry="5" fill="#C53030" opacity="0.5"/>
+  </g>
+  <text x="250" y="310" text-anchor="middle" font-size="22" fill="#E2E8F0" font-weight="bold" opacity="0.6">1985–1991</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#E2E8F0" opacity="0.5">Перестройка</text>
 </svg>

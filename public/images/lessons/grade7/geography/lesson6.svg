@@ -1,67 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E0F7FA"/><stop offset="100%" stop-color="#B2EBF2"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#00838F" stroke-width="3"/>
-<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#00838F" stroke-width="1" opacity="0.3"/>
-<polygon points="10,10 30,10 10,30" fill="#00838F" opacity="0.08"/>
-<polygon points="490,10 470,10 490,30" fill="#0097A7" opacity="0.08"/>
-<polygon points="10,340 30,340 10,320" fill="#00ACC1" opacity="0.08"/>
-<polygon points="490,340 470,340 490,320" fill="#26C6DA" opacity="0.08"/>
-<circle cx="70" cy="15" r="4" fill="#00838F" opacity="0.1"/>
-<circle cx="82" cy="15" r="4" fill="#0097A7" opacity="0.1"/>
-<circle cx="94" cy="15" r="4" fill="#00ACC1" opacity="0.1"/>
-<circle cx="406" cy="15" r="4" fill="#00838F" opacity="0.1"/>
-<circle cx="418" cy="15" r="4" fill="#0097A7" opacity="0.1"/>
-<circle cx="430" cy="15" r="4" fill="#00ACC1" opacity="0.1"/>
-<text x="250" y="50" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#00838F" text-anchor="middle">Индийский и Северный Ледовитый океаны</text>
-<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">География - Урок 6</text>
-<line x1="30" y1="78" x2="470" y2="78" stroke="#00838F" stroke-width="2" opacity="0.25"/>
-<rect x="30" y="75" width="60" height="6" fill="#00838F" opacity="0.15" rx="1"/>
-<rect x="410" y="75" width="60" height="6" fill="#0097A7" opacity="0.12" rx="1"/>
-
-  <!-- World map simplified -->
-  <rect x="25" y="90" width="310" height="200" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5"/>
-  <text x="180" y="106" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" font-weight="bold" text-anchor="middle">Мировой океан</text>
-  <rect x="35" y="115" width="290" height="165" rx="3" fill="#E3F2FD"/>
-  <!-- Continents simplified -->
-  <path d="M55,140 Q65,130 80,135 Q95,130 105,140 L105,165 Q90,175 70,170 L55,160 Z" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1"/>
-  <text x="80" y="155" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Европа</text>
-  <path d="M55,165 Q65,180 60,200 Q55,225 70,240 L100,240 Q110,230 105,210 Q100,190 110,175 L105,165" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1"/>
-  <text x="80" y="210" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Африка</text>
-  <path d="M110,130 Q140,120 180,125 Q200,130 210,120 L210,170 Q200,180 185,175 Q170,185 160,175 L140,180 L130,170 L115,175 L105,165 L110,130" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1"/>
-  <text x="160" y="150" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Азия</text>
-  <path d="M215,130 Q230,125 250,130 Q265,135 280,130 L285,170 Q270,175 255,165 Q240,170 230,160 L220,155 L215,145 Z" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1"/>
-  <text x="250" y="150" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Сев. Америка</text>
-  <path d="M225,175 Q240,170 260,180 Q275,185 280,195 L275,235 Q260,245 240,240 L225,220 Z" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1"/>
-  <text x="255" y="210" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Юж. Америка</text>
-  <!-- Ocean labels -->
-  <text x="180" y="200" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">Тихий</text>
-  <text x="110" y="250" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">Атлантический</text>
-  <text x="250" y="250" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">Индийский</text>
-  <!-- Compass -->
-  <circle cx="300" cy="250" r="15" fill="white" stroke="#00838F" stroke-width="1"/>
-  <line x1="300" y1="238" x2="300" y2="245" stroke="#00838F" stroke-width="1.5"/>
-  <line x1="300" y1="255" x2="300" y2="262" stroke="#888" stroke-width="1"/>
-  <line x1="288" y1="250" x2="295" y2="250" stroke="#888" stroke-width="1"/>
-  <line x1="305" y1="250" x2="312" y2="250" stroke="#888" stroke-width="1"/>
-  <text x="300" y="236" font-family="Arial,sans-serif" font-size="6" fill="#00838F" text-anchor="middle">С</text>
-
-  <rect x="345" y="90" width="130" height="200" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
-  <text x="410" y="106" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" font-weight="bold" text-anchor="middle">Факты</text>
-  <text x="410" y="130" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">71% поверхности</text>
-  <text x="410" y="148" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">Земли - вода</text>
-  <line x1="365" y1="158" x2="455" y2="158" stroke="#E0E0E0" stroke-width="1"/>
-  <!-- Pie chart -->
-  <circle cx="410" cy="195" r="25" fill="#1565C0"/>
-  <path d="M410,195 L410,170 A25,25 0 1,1 385,185 Z" fill="#A5D6A7"/>
-  <text x="415" y="200" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">71%</text>
-  <text x="395" y="182" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32">29%</text>
-  <text x="410" y="240" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">океаны: 361 млн км2</text>
-  <text x="410" y="255" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">суша: 149 млн км2</text>
-  <text x="410" y="275" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">средняя глуб: 3.7 км</text>
-<rect x="15" y="310" width="470" height="30" rx="4" fill="#00838F" opacity="0.85"/>
-<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">География</text>
-  <circle cx="455" cy="125" r="20" fill="none" stroke="#00838F" stroke-width="1" opacity="0.1"/>
-  <ellipse cx="455" cy="125" rx="20" ry="8" fill="none" stroke="#00ACC1" stroke-width="0.8" opacity="0.1"/>
-  <line x1="455" y1="105" x2="455" y2="145" stroke="#26C6DA" stroke-width="0.8" opacity="0.1"/>
+<defs>
+<linearGradient id="warm" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0088AA"/><stop offset="100%" stop-color="#00BBDD"/></linearGradient>
+<linearGradient id="cold" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#B0D4E8"/><stop offset="100%" stop-color="#D8EAF5"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="#0a2a3a"/>
+<rect x="15" y="30" width="230" height="260" fill="url(#warm)" rx="8"/>
+<rect x="255" y="30" width="230" height="260" fill="url(#cold)" rx="8"/>
+<path d="M50,80 Q80,60 130,80 Q180,100 210,70" fill="none" stroke="#FF6633" stroke-width="2" stroke-dasharray="6,3" opacity="0.8"/>
+<polygon points="210,70 200,65 205,75" fill="#FF6633" opacity="0.8"/>
+<text x="180" y="60" font-family="Arial" font-size="7" fill="#FF8855">Тёплое течение</text>
+<path d="M50,200 Q90,220 150,200 Q200,180 220,210" fill="none" stroke="#FF6633" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.6"/>
+<ellipse cx="120" cy="140" rx="22" ry="14" fill="#2a6a3a" stroke="#3a8a4a" stroke-width="0.8"/>
+<ellipse cx="80" cy="150" rx="15" ry="10" fill="#2a6a3a" stroke="#3a8a4a" stroke-width="0.8"/>
+<text x="130" y="50" font-family="Arial" font-size="11" fill="#FFD700" text-anchor="middle" font-weight="bold">ИНДИЙСКИЙ</text>
+<path d="M280,80 Q310,60 360,80 Q400,100 440,70" fill="none" stroke="#3399FF" stroke-width="2" stroke-dasharray="6,3" opacity="0.8"/>
+<polygon points="440,70 430,65 435,75" fill="#3399FF" opacity="0.8"/>
+<text x="410" y="60" font-family="Arial" font-size="7" fill="#66AAFF">Холодное течение</text>
+<polygon points="340,130 360,130 365,150 335,150" fill="#C8E0F0" stroke="#8AB4D4" stroke-width="0.8"/>
+<polygon points="380,140 400,140 405,160 375,160" fill="#D8EAF5" stroke="#8AB4D4" stroke-width="0.8"/>
+<polygon points="310,145 330,145 335,165 305,165" fill="#E0F0FF" stroke="#8AB4D4" stroke-width="0.8"/>
+<circle cx="370" cy="110" r="8" fill="white" opacity="0.3"/>
+<circle cx="355" cy="105" r="10" fill="white" opacity="0.2"/>
+<circle cx="400" cy="115" r="6" fill="white" opacity="0.25"/>
+<text x="370" y="50" font-family="Arial" font-size="10" fill="#C8E0F0" text-anchor="middle" font-weight="bold">СЕВЕРНЫЙ ЛЕДОВИТЫЙ</text>
+<path d="M90,230 Q95,215 100,230" stroke="#4a9aaa" stroke-width="1.5" fill="none"/>
+<path d="M110,225 Q115,210 120,225" stroke="#4a9aaa" stroke-width="1.2" fill="none" opacity="0.7"/>
+<path d="M340,200 Q345,185 350,200" stroke="#8ac0dd" stroke-width="1.2" fill="none" opacity="0.5"/>
+<text x="250" y="342" font-family="Arial" font-size="9" fill="#8ac0dd" text-anchor="middle" opacity="0.5">Индийский и Северный Ледовитый океаны</text>
 </svg>

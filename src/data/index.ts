@@ -17,7 +17,7 @@ const gradeSubjectKeys: Record<number, string[]> = {
   7: ["algebra", "art", "biology", "chemistry", "coding", "ecology", "english", "geography", "geometry", "history", "informatics", "literature", "music", "pe", "physics", "robotics", "russian", "safety", "social", "tech"],
   8: ["algebra", "art", "biology", "chemistry", "coding", "economy", "english", "geography", "geometry", "history", "informatics", "law", "literature", "music", "pe", "physics", "robotics", "russian", "safety", "social", "tech"],
   9: ["algebra", "art", "biology", "career", "chemistry", "coding", "economy", "english", "geography", "geometry", "history", "informatics", "literature", "music", "oge", "pe", "physics", "psychology", "russian", "safety", "social", "tech"],
-  10: ["algebra", "art", "astronomy", "biology", "business", "career", "chemistry", "coding", "economy", "ege", "english", "geography", "geometry", "history", "informatics", "lab", "literature", "pe", "philosophy", "physics", "projects", "russian", "safety", "social", "tech"],
+  10: ["algebra", "art", "astronomy", "biology", "business", "career", "chemistry", "coding", "economy", "ege", "english", "geography", "geometry", "history", "history-russia", "informatics", "lab", "literature", "pe", "philosophy", "physics", "projects", "russian", "safety", "social", "tech"],
   11: ["algebra", "biology", "chemistry", "coding", "economy", "english", "geography", "geometry", "history", "informatics", "literature", "pe", "physics", "russian", "safety", "social"],
 }
 

@@ -30,9 +30,10 @@ interface Props {
   onComplete: () => void
   onStartQuiz?: () => void // Новый callback для запуска теста
   isTestCompleted?: boolean // Пройден ли тест для этого урока
+  subject?: string // Название предмета для анимированного SVG
 }
 
-export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete, onStartQuiz, isTestCompleted }: Props) {
+export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete, onStartQuiz, isTestCompleted, subject }: Props) {
   const [currentSection, setCurrentSection] = useState(0)
   const [showPeriodicTable, setShowPeriodicTable] = useState(false)
   const [lightboxSrc, setLightboxSrc] = useState<string | null>(null)
@@ -75,7 +76,7 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
   })()
 
   const sections = [
-    { title: 'Теория', icon: BookOpen, content: lesson.theory || lesson.description },
+    { title: 'Теория', icon: BookOpen, content: lesson.theory || lesson.content || lesson.description },
     { title: 'Ключевые моменты', icon: Lightbulb, content: autoKeyPoints },
     { title: 'Примеры', icon: Target, content: autoExamples },
     { title: 'Задания', icon: CheckCircle, content: lesson.tasks }
@@ -161,7 +162,7 @@ export default function LessonDetailModal({ lesson, isOpen, onClose, onComplete,
                     <div className="flex justify-center mb-4">
                       <LessonAnimatedSVG 
                         lessonTitle={lesson.title} 
-                        subject=""
+                        subject={subject || ''}
                         size="medium" 
                       />
                     </div>

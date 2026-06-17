@@ -1,42 +1,50 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#F3E5F5"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#AB47BC"/>
-      <stop offset="100%" stop-color="#6A1B9A"/>
+    <linearGradient id="pbg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a0a2e"/>
+      <stop offset="100%" style="stop-color:#2d1b4e"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#AB47BC" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#AB47BC" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#6A1B9A" opacity="0.12"/>
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#AB47BC" text-anchor="middle">Эмоциональный интеллект</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Психология — Урок 2</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#AB47BC" stroke-width="2" opacity="0.25"/>
-  <rect x="15" y="72" width="235" height="225" rx="4" fill="#AB47BC" opacity="0.05"/>
-  <text x="22" y="88" font-family="Arial,sans-serif" font-size="10" fill="#6A1B9A" text-anchor="start" font-weight="bold">EQ —</text>
-  <text x="80" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">способность понимать эмоции</text>
-  <text x="22" y="108" font-family="Arial,sans-serif" font-size="10" fill="#6A1B9A" text-anchor="start" font-weight="bold">4 компонента:</text>
-  <text x="80" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">1. Осознание своих эмоций</text>
-  <text x="32" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">2. Управление эмоциями</text>
-  <text x="32" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">3. Понимание эмоций других</text>
-  <text x="32" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">4. Управление отношениями</text>
-  <rect x="255" y="72" width="230" height="225" rx="4" fill="#AB47BC" opacity="0.05"/>
-  <text x="262" y="88" font-family="Arial,sans-serif" font-size="10" fill="#6A1B9A" text-anchor="start" font-weight="bold">EQ vs IQ:</text>
-  <text x="320" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">IQ — интеллект, EQ — мудрость</text>
-  <text x="272" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">EQ важнее для успеха в жизни</text>
-  <text x="262" y="128" font-family="Arial,sans-serif" font-size="10" fill="#6A1B9A" text-anchor="start" font-weight="bold">Как развить:</text>
-  <text x="320" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Замечать свои эмоции</text>
-  <text x="272" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Называть их точно</text>
-  <text x="272" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Делать паузу перед реакцией</text>
-  <rect x="15" y="280" width="235" height="18" rx="4" fill="#AB47BC" opacity="0.06"/>
-  <text x="132" y="293" font-family="Arial,sans-serif" font-size="9" fill="#6A1B9A" text-anchor="middle" font-weight="bold">EQ > IQ для жизненного успеха</text>
-  <rect x="255" y="280" width="230" height="18" rx="4" fill="#AB47BC" opacity="0.06"/>
-  <text x="370" y="293" font-family="Arial,sans-serif" font-size="9" fill="#6A1B9A" text-anchor="middle" font-weight="bold">Эмоциональный интеллект можно развить</text>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Психология · Эмоциональный интелл</text>
+  <rect width="500" height="350" fill="url(#pbg2)"/>
+  <!-- Central hub -->
+  <circle cx="250" cy="170" r="40" fill="#7c4dff" opacity="0.2" stroke="#b388ff" stroke-width="2"/>
+  <text x="250" y="165" fill="#e040fb" font-size="9" text-anchor="middle" font-weight="bold">Познание</text>
+  <text x="250" y="178" fill="#b388ff" font-size="7" text-anchor="middle">сердцевина</text>
+  <!-- Surrounding processes -->
+  <!-- Ощущение -->
+  <circle cx="100" cy="80" r="30" fill="#4fc3f7" opacity="0.15" stroke="#4fc3f7" stroke-width="1.5"/>
+  <text x="100" y="78" fill="#4fc3f7" font-size="8" text-anchor="middle">Ощущение</text>
+  <text x="100" y="90" fill="#78909c" font-size="6" text-anchor="middle">свойства</text>
+  <line x1="125" y1="100" x2="215" y2="148" stroke="#4fc3f7" stroke-width="1" opacity="0.4"/>
+  <!-- Восприятие -->
+  <circle cx="250" cy="60" r="30" fill="#4caf50" opacity="0.15" stroke="#4caf50" stroke-width="1.5"/>
+  <text x="250" y="58" fill="#4caf50" font-size="8" text-anchor="middle">Восприятие</text>
+  <text x="250" y="70" fill="#78909c" font-size="6" text-anchor="middle">целостность</text>
+  <line x1="250" y1="90" x2="250" y2="130" stroke="#4caf50" stroke-width="1" opacity="0.4"/>
+  <!-- Память -->
+  <circle cx="400" cy="80" r="30" fill="#ff9800" opacity="0.15" stroke="#ff9800" stroke-width="1.5"/>
+  <text x="400" y="78" fill="#ff9800" font-size="8" text-anchor="middle">Память</text>
+  <text x="400" y="90" fill="#78909c" font-size="6" text-anchor="middle">запоминание</text>
+  <line x1="375" y1="100" x2="285" y2="148" stroke="#ff9800" stroke-width="1" opacity="0.4"/>
+  <!-- Мышление -->
+  <circle cx="400" cy="250" r="30" fill="#f44336" opacity="0.15" stroke="#f44336" stroke-width="1.5"/>
+  <text x="400" y="248" fill="#f44336" font-size="8" text-anchor="middle">Мышление</text>
+  <text x="400" y="260" fill="#78909c" font-size="6" text-anchor="middle">обобщение</text>
+  <line x1="375" y1="230" x2="285" y2="192" stroke="#f44336" stroke-width="1" opacity="0.4"/>
+  <!-- Воображение -->
+  <circle cx="250" cy="290" r="30" fill="#9c27b0" opacity="0.15" stroke="#9c27b0" stroke-width="1.5"/>
+  <text x="250" y="288" fill="#9c27b0" font-size="8" text-anchor="middle">Воображение</text>
+  <text x="250" y="300" fill="#78909c" font-size="6" text-anchor="middle">новые образы</text>
+  <line x1="250" y1="260" x2="250" y2="210" stroke="#9c27b0" stroke-width="1" opacity="0.4"/>
+  <!-- Внимание -->
+  <circle cx="100" cy="250" r="30" fill="#ffc107" opacity="0.15" stroke="#ffc107" stroke-width="1.5"/>
+  <text x="100" y="248" fill="#ffc107" font-size="8" text-anchor="middle">Внимание</text>
+  <text x="100" y="260" fill="#78909c" font-size="6" text-anchor="middle">концентрация</text>
+  <line x1="125" y1="230" x2="215" y2="192" stroke="#ffc107" stroke-width="1" opacity="0.4"/>
+  <!-- Eye icon (sensation) -->
+  <g transform="translate(70,120)">
+    <ellipse cx="30" cy="15" rx="25" ry="12" fill="none" stroke="#4fc3f7" stroke-width="1" opacity="0.5"/>
+    <circle cx="30" cy="15" r="6" fill="#4fc3f7" opacity="0.3"/>
+  </g>
+  <text x="250" y="345" fill="#aaa" font-size="9" text-anchor="middle" opacity="0.5">Познавательные процессы</text>
 </svg>

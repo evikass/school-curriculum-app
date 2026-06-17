@@ -1,0 +1,252 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+<marker id="arr" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2E7D32"/></marker>
+<linearGradient id="coalAge" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#81C784"/><stop offset="60%" stop-color="#4CAF50"/><stop offset="100%" stop-color="#2E7D32"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Происхождение высших споровых</text>
+<text x="250" y="44" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 7 класс — Урок 18</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+
+<!-- Section 1: Evolution Timeline -->
+<text x="250" y="68" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#2E7D32" text-anchor="middle">Эволюция высших споровых растений</text>
+<rect x="10" y="72" width="480" height="72" fill="white" fill-opacity="0.5" rx="5" stroke="#A5D6A7" stroke-width="0.8"/>
+
+<!-- Timeline arrow -->
+<line x1="30" y1="108" x2="470" y2="108" stroke="#2E7D32" stroke-width="2" marker-end="url(#arr)"/>
+
+<!-- Algae -->
+<g transform="translate(60,95)">
+  <ellipse cx="0" cy="0" rx="16" ry="10" fill="#4DB6AC" stroke="#00897B" stroke-width="1"/>
+  <path d="M-8,-5 Q-4,-12 0,-8 Q4,-12 8,-5" stroke="#26A69A" stroke-width="0.8" fill="none"/>
+  <text x="0" y="18" font-family="Arial,sans-serif" font-size="7" fill="#00695C" text-anchor="middle" font-weight="bold">Водоросли</text>
+  <text x="0" y="27" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">500 млн л.н.</text>
+</g>
+
+<!-- Arrow segment -->
+<path d="M82,108 L105,108" stroke="#2E7D32" stroke-width="1.5" fill="none"/>
+
+<!-- Rhyniophytes -->
+<g transform="translate(140,95)">
+  <line x1="0" y1="10" x2="0" y2="-10" stroke="#8D6E63" stroke-width="2"/>
+  <ellipse cx="0" cy="-14" rx="5" ry="7" fill="#A1887F" stroke="#6D4C41" stroke-width="1"/>
+  <text x="0" y="18" font-family="Arial,sans-serif" font-size="7" fill="#4E342E" text-anchor="middle" font-weight="bold">Риниофиты</text>
+  <text x="0" y="27" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">420 млн л.н.</text>
+  <text x="0" y="-27" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">† вымершие</text>
+</g>
+
+<!-- Arrow segment -->
+<path d="M170,108 L200,108" stroke="#2E7D32" stroke-width="1.5" fill="none"/>
+
+<!-- Mosses -->
+<g transform="translate(235,95)">
+  <line x1="0" y1="10" x2="0" y2="-5" stroke="#66BB6A" stroke-width="1.5"/>
+  <ellipse cx="0" cy="-8" rx="6" ry="4" fill="#81C784" stroke="#2E7D32" stroke-width="0.8"/>
+  <line x1="-3" y1="0" x2="-7" y2="-4" stroke="#4CAF50" stroke-width="0.8"/>
+  <line x1="3" y1="0" x2="7" y2="-4" stroke="#4CAF50" stroke-width="0.8"/>
+  <text x="0" y="18" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">Мхи</text>
+  <text x="0" y="27" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">400 млн л.н.</text>
+</g>
+
+<!-- Arrow segment -->
+<path d="M265,108 L295,108" stroke="#2E7D32" stroke-width="1.5" fill="none"/>
+
+<!-- Ferns -->
+<g transform="translate(340,95)">
+  <path d="M0,10 Q2,0 0,-8" stroke="#2E7D32" stroke-width="1.5" fill="none"/>
+  <path d="M0,0 Q-12,-5 -18,-10" stroke="#4CAF50" stroke-width="0.8" fill="none"/>
+  <path d="M0,-5 Q12,-10 18,-14" stroke="#4CAF50" stroke-width="0.8" fill="none"/>
+  <path d="M0,0 Q12,-4 16,-8" stroke="#4CAF50" stroke-width="0.8" fill="none"/>
+  <path d="M0,-3 Q-10,-8 -15,-12" stroke="#4CAF50" stroke-width="0.8" fill="none"/>
+  <text x="0" y="18" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">Папоротники</text>
+  <text x="0" y="27" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">380 млн л.н.</text>
+</g>
+
+<!-- Arrow segment -->
+<path d="M370,108 L400,108" stroke="#2E7D32" stroke-width="1.5" fill="none"/>
+
+<!-- Seed plants -->
+<g transform="translate(440,95)">
+  <line x1="0" y1="10" x2="0" y2="-8" stroke="#795548" stroke-width="2"/>
+  <polygon points="0,-16 -6,-6 6,-6" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.8"/>
+  <text x="0" y="18" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">Голосеменные</text>
+  <text x="0" y="27" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">300 млн л.н.</text>
+</g>
+
+<!-- Section 2: Rhynia Fossil Reconstruction -->
+<text x="95" y="162" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#2E7D32" text-anchor="middle">Риния (реконструкция)</text>
+<rect x="10" y="166" width="175" height="100" fill="white" fill-opacity="0.5" rx="5" stroke="#A5D6A7" stroke-width="0.8"/>
+
+<g transform="translate(55,230)">
+  <!-- Underground rhizome -->
+  <path d="M-30,5 Q0,0 30,5" stroke="#8D6E63" stroke-width="3" fill="none"/>
+  <!-- Rhizoids -->
+  <path d="M-20,8 Q-22,14 -24,18" stroke="#A1887F" stroke-width="0.8" fill="none"/>
+  <path d="M0,7 Q-2,14 -3,18" stroke="#A1887F" stroke-width="0.8" fill="none"/>
+  <path d="M20,8 Q22,14 24,18" stroke="#A1887F" stroke-width="0.8" fill="none"/>
+  <text x="0" y="24" font-family="Arial,sans-serif" font-size="5" fill="#5D4037" text-anchor="middle">Ризоиды</text>
+  
+  <!-- Simple stems (no leaves!) -->
+  <line x1="-15" y1="2" x2="-15" y2="-45" stroke="#8D6E63" stroke-width="2.5"/>
+  <line x1="10" y1="3" x2="10" y2="-35" stroke="#8D6E63" stroke-width="2.5"/>
+  
+  <!-- Sporangia at tips -->
+  <ellipse cx="-15" cy="-50" rx="6" ry="9" fill="#A1887F" stroke="#6D4C41" stroke-width="1"/>
+  <line x1="-19" y1="-48" x2="-11" y2="-48" stroke="#6D4C41" stroke-width="0.5"/>
+  <line x1="-19" y1="-52" x2="-11" y2="-52" stroke="#6D4C41" stroke-width="0.5"/>
+  
+  <ellipse cx="10" cy="-40" rx="5" ry="8" fill="#A1887F" stroke="#6D4C41" stroke-width="1"/>
+  <line x1="7" y1="-38" x2="13" y2="-38" stroke="#6D4C41" stroke-width="0.5"/>
+  
+  <!-- Spores coming out -->
+  <circle cx="-8" cy="-55" r="1" fill="#4CAF50" opacity="0.6"/>
+  <circle cx="-12" cy="-58" r="0.8" fill="#4CAF50" opacity="0.5"/>
+  <circle cx="-5" cy="-57" r="0.7" fill="#4CAF50" opacity="0.4"/>
+  
+  <!-- Labels -->
+  <text x="-15" y="-64" font-family="Arial,sans-serif" font-size="5" fill="#5D4037" text-anchor="middle">Спорангий</text>
+  <text x="-38" y="-20" font-family="Arial,sans-serif" font-size="5" fill="#5D4037" text-anchor="middle">Стебель</text>
+  <text x="-38" y="-14" font-family="Arial,sans-serif" font-size="5" fill="#5D4037" text-anchor="middle">(без листьев)</text>
+</g>
+
+<!-- Key features -->
+<text x="97" y="248" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">Простейшее наземное растение:</text>
+<text x="97" y="257" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">стебель + спорангии, без листьев</text>
+
+<!-- Section 3: Adaptations for Land -->
+<text x="310" y="162" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#2E7D32" text-anchor="middle">Приспособления к суше</text>
+<rect x="195" y="166" width="295" height="100" fill="white" fill-opacity="0.5" rx="5" stroke="#A5D6A7" stroke-width="0.8"/>
+
+<!-- Stem cross-section showing adaptations -->
+<g transform="translate(270,215)">
+  <!-- Outer circle - epidermis with cuticle -->
+  <circle cx="0" cy="0" r="32" fill="none" stroke="#F9A825" stroke-width="2.5"/>
+  <text x="0" y="-36" font-family="Arial,sans-serif" font-size="5" fill="#F57F17" text-anchor="middle">Кутикула</text>
+  
+  <circle cx="0" cy="0" r="29" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
+  <text x="0" y="36" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">Эпидерма</text>
+  
+  <!-- Stomata on epidermis -->
+  <ellipse cx="24" cy="-18" rx="4" ry="2" fill="#81C784" stroke="#2E7D32" stroke-width="0.5"/>
+  <line x1="22" y1="-18" x2="26" y2="-18" stroke="#1B5E20" stroke-width="0.5"/>
+  <text x="35" y="-16" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32">Устьица</text>
+  
+  <!-- Xylem (center) -->
+  <circle cx="0" cy="0" r="8" fill="#EF9A9A" stroke="#C62828" stroke-width="1"/>
+  <text x="0" y="2" font-family="Arial,sans-serif" font-size="5" fill="#B71C1C" text-anchor="middle">Ксилема</text>
+  
+  <!-- Phloem ring -->
+  <circle cx="0" cy="0" r="14" fill="none" stroke="#1565C0" stroke-width="2" stroke-dasharray="3,2"/>
+  <text x="0" y="-12" font-family="Arial,sans-serif" font-size="4.5" fill="#1565C0" text-anchor="middle">Флоэма</text>
+  
+  <!-- Mechanical tissue -->
+  <rect x="-24" y="-3" width="8" height="6" rx="1" fill="#FFE082" stroke="#FF8F00" stroke-width="0.5"/>
+  <rect x="16" y="-3" width="8" height="6" rx="1" fill="#FFE082" stroke="#FF8F00" stroke-width="0.5"/>
+  <text x="-20" y="14" font-family="Arial,sans-serif" font-size="4.5" fill="#FF6F00" text-anchor="middle">Механич.</text>
+</g>
+
+<!-- Adaptation descriptions -->
+<g transform="translate(360,185)">
+  <rect x="0" y="0" width="8" height="3" fill="#F9A825" rx="1"/>
+  <text x="12" y="3" font-family="Arial,sans-serif" font-size="6" fill="#333">Кутикула — защита от высыхания</text>
+  
+  <ellipse cx="4" cy="14" rx="4" ry="2" fill="#81C784" stroke="#2E7D32" stroke-width="0.5"/>
+  <text x="12" y="17" font-family="Arial,sans-serif" font-size="6" fill="#333">Устьица — газообмен</text>
+  
+  <rect x="0" y="24" width="8" height="3" fill="#EF9A9A" rx="1"/>
+  <text x="12" y="27" font-family="Arial,sans-serif" font-size="6" fill="#333">Ксилема — транспорт воды</text>
+  
+  <rect x="0" y="34" width="8" height="3" fill="#90CAF9" rx="1"/>
+  <text x="12" y="37" font-family="Arial,sans-serif" font-size="6" fill="#333">Флоэма — транспорт орг. веществ</text>
+  
+  <rect x="0" y="44" width="8" height="3" fill="#FFE082" rx="1"/>
+  <text x="12" y="47" font-family="Arial,sans-serif" font-size="6" fill="#333">Механич. ткань — опора</text>
+  
+  <rect x="0" y="54" width="8" height="3" fill="#A5D6A7" rx="1"/>
+  <text x="12" y="57" font-family="Arial,sans-serif" font-size="6" fill="#333">Покровная ткань — защита</text>
+  
+  <rect x="0" y="64" width="8" height="3" fill="#CE93D8" rx="1"/>
+  <text x="12" y="67" font-family="Arial,sans-serif" font-size="6" fill="#333">Проводящая система — связь частей</text>
+</g>
+
+<!-- Section 4: Carboniferous Forest Scene -->
+<text x="250" y="280" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#2E7D32" text-anchor="middle">Карбоновый лес (300 млн лет назад)</text>
+<rect x="10" y="284" width="480" height="56" fill="white" fill-opacity="0.5" rx="5" stroke="#A5D6A7" stroke-width="0.8"/>
+
+<!-- Ground -->
+<rect x="15" y="320" width="470" height="15" fill="#8D6E63" rx="0 0 3 3"/>
+<rect x="15" y="320" width="470" height="5" fill="#A1887F"/>
+
+<!-- Giant tree fern (left) -->
+<g transform="translate(60,320)">
+  <line x1="0" y1="0" x2="0" y2="-30" stroke="#5D4037" stroke-width="3"/>
+  <!-- Crown of fronds -->
+  <path d="M0,-30 Q-25,-35 -35,-28" stroke="#2E7D32" stroke-width="1.5" fill="none"/>
+  <path d="M0,-30 Q25,-35 35,-28" stroke="#2E7D32" stroke-width="1.5" fill="none"/>
+  <path d="M0,-30 Q-15,-42 -25,-40" stroke="#2E7D32" stroke-width="1.2" fill="none"/>
+  <path d="M0,-30 Q15,-42 25,-40" stroke="#2E7D32" stroke-width="1.2" fill="none"/>
+  <path d="M0,-30 Q0,-45 0,-42" stroke="#2E7D32" stroke-width="1" fill="none"/>
+  <text x="0" y="5" font-family="Arial,sans-serif" font-size="5" fill="#4E342E" text-anchor="middle">Древовидн.</text>
+  <text x="0" y="11" font-family="Arial,sans-serif" font-size="5" fill="#4E342E" text-anchor="middle">папоротник</text>
+</g>
+
+<!-- Giant horsetail / Calamites (center-left) -->
+<g transform="translate(160,320)">
+  <line x1="0" y1="0" x2="0" y2="-28" stroke="#66BB6A" stroke-width="2.5"/>
+  <line x1="-2" y1="-8" x2="-10" y2="-12" stroke="#81C784" stroke-width="0.8"/>
+  <line x1="2" y1="-8" x2="10" y2="-12" stroke="#81C784" stroke-width="0.8"/>
+  <line x1="-2" y1="-16" x2="-9" y2="-20" stroke="#81C784" stroke-width="0.8"/>
+  <line x1="2" y1="-16" x2="9" y2="-20" stroke="#81C784" stroke-width="0.8"/>
+  <rect x="-3" y="-7" width="6" height="2" rx="0.5" fill="#4CAF50"/>
+  <rect x="-3" y="-15" width="6" height="2" rx="0.5" fill="#4CAF50"/>
+  <rect x="-2.5" y="-23" width="5" height="2" rx="0.5" fill="#4CAF50"/>
+  <text x="0" y="5" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">Каламит</text>
+  <text x="0" y="11" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">(хвощ)</text>
+</g>
+
+<!-- Lepidodendron (clubmoss tree) (center) -->
+<g transform="translate(260,320)">
+  <line x1="0" y1="0" x2="0" y2="-32" stroke="#5D4037" stroke-width="2.5"/>
+  <!-- Diamond pattern on trunk -->
+  <path d="M-2,-5 L0,-8 L2,-5 L0,-2 Z" fill="#8D6E63" stroke="#6D4C41" stroke-width="0.3"/>
+  <path d="M-2,-12 L0,-15 L2,-12 L0,-9 Z" fill="#8D6E63" stroke="#6D4C41" stroke-width="0.3"/>
+  <path d="M-2,-19 L0,-22 L2,-19 L0,-16 Z" fill="#8D6E63" stroke="#6D4C41" stroke-width="0.3"/>
+  <!-- Crown branches -->
+  <path d="M0,-28 Q-12,-32 -15,-28" stroke="#2E7D32" stroke-width="1" fill="none"/>
+  <path d="M0,-28 Q12,-32 15,-28" stroke="#2E7D32" stroke-width="1" fill="none"/>
+  <path d="M0,-30 Q-8,-36 -10,-34" stroke="#2E7D32" stroke-width="0.8" fill="none"/>
+  <path d="M0,-30 Q8,-36 10,-34" stroke="#2E7D32" stroke-width="0.8" fill="none"/>
+  <!-- Strobili -->
+  <ellipse cx="-15" cy="-26" rx="2" ry="4" fill="#8D6E63" stroke="#5D4037" stroke-width="0.5"/>
+  <ellipse cx="15" cy="-26" rx="2" ry="4" fill="#8D6E63" stroke="#5D4037" stroke-width="0.5"/>
+  <text x="0" y="5" font-family="Arial,sans-serif" font-size="5" fill="#4E342E" text-anchor="middle">Лепидодендрон</text>
+  <text x="0" y="11" font-family="Arial,sans-serif" font-size="5" fill="#4E342E" text-anchor="middle">(плаун)</text>
+</g>
+
+<!-- Seed fern (center-right) -->
+<g transform="translate(360,320)">
+  <line x1="0" y1="0" x2="0" y2="-25" stroke="#5D4037" stroke-width="2"/>
+  <path d="M0,-25 Q-20,-30 -28,-24" stroke="#2E7D32" stroke-width="1.2" fill="none"/>
+  <path d="M0,-25 Q20,-30 28,-24" stroke="#2E7D32" stroke-width="1.2" fill="none"/>
+  <path d="M0,-25 Q-10,-38 -18,-36" stroke="#2E7D32" stroke-width="1" fill="none"/>
+  <path d="M0,-25 Q10,-38 18,-36" stroke="#2E7D32" stroke-width="1" fill="none"/>
+  <!-- Seeds on fronds -->
+  <circle cx="-22" cy="-22" r="2" fill="#8D6E63" stroke="#5D4037" stroke-width="0.5"/>
+  <circle cx="22" cy="-22" r="2" fill="#8D6E63" stroke="#5D4037" stroke-width="0.5"/>
+  <text x="0" y="5" font-family="Arial,sans-serif" font-size="5" fill="#4E342E" text-anchor="middle">Семенной</text>
+  <text x="0" y="11" font-family="Arial,sans-serif" font-size="5" fill="#4E342E" text-anchor="middle">папоротник</text>
+</g>
+
+<!-- Cordaites (right) -->
+<g transform="translate(450,320)">
+  <line x1="0" y1="0" x2="0" y2="-30" stroke="#5D4037" stroke-width="2.5"/>
+  <!-- Long leaves -->
+  <path d="M0,-25 Q-15,-20 -25,-22" stroke="#4CAF50" stroke-width="2" fill="none"/>
+  <path d="M0,-25 Q15,-20 25,-22" stroke="#4CAF50" stroke-width="2" fill="none"/>
+  <path d="M0,-20 Q-18,-16 -28,-18" stroke="#4CAF50" stroke-width="1.5" fill="none"/>
+  <path d="M0,-20 Q18,-16 28,-18" stroke="#4CAF50" stroke-width="1.5" fill="none"/>
+  <text x="0" y="5" font-family="Arial,sans-serif" font-size="5" fill="#4E342E" text-anchor="middle">Кордаит</text>
+</g>
+</svg>

@@ -1,38 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FBE9E7"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FF7043"/>
-      <stop offset="100%" stop-color="#BF360C"/>
+    <linearGradient id="civil" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C53030"/>
+      <stop offset="50%" stop-color="#2D3748"/>
+      <stop offset="100%" stop-color="#276749"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FF7043" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#FF7043" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#FF7043" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#BF360C" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#FF7043" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#BF360C" opacity="0.12"/>
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#FF7043" text-anchor="middle">Февральская революция</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">История — Урок 4</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#FF7043" stroke-width="2" opacity="0.25"/>
-  <rect x="20" y="72" width="460" height="25" rx="4" fill="#FF7043" opacity="0.07"/>
-  <text x="250" y="89" font-family="Arial,sans-serif" font-size="12" fill="#BF360C" text-anchor="middle" font-weight="bold">Февраль 1917</text>
-  <rect x="20" y="102" width="225" height="170" rx="4" fill="#FF7043" opacity="0.05"/>
-  <text x="28" y="118" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">23 февраля — забастовки в Петрограде</text>
-  <text x="28" y="140" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">2 марта — отречение Николая II</text>
-  <text x="28" y="162" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Двоевластие: Вр. правительство + Петросовет</text>
-  <rect x="255" y="102" width="225" height="170" rx="4" fill="#FF7043" opacity="0.05"/>
-  <text x="263" y="118" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Демократизация армии (Приказ №1)</text>
-  <text x="263" y="140" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Возвращение Ленина (Апрельские тезисы)</text>
-  <text x="263" y="162" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Кризисы: апрель, июнь, июль</text>
-  <rect x="20" y="278" width="225" height="22" rx="4" fill="#FF7043" opacity="0.06"/>
-  <text x="132" y="293" font-family="Arial,sans-serif" font-size="10" fill="#BF360C" text-anchor="middle" font-weight="bold">Свержение самодержавия</text>
-  <rect x="255" y="278" width="225" height="22" rx="4" fill="#FF7043" opacity="0.06"/>
-  <text x="367" y="293" font-family="Arial,sans-serif" font-size="10" fill="#BF360C" text-anchor="middle" font-weight="bold">Двоевластие → хаос</text>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">История · Февральская революция</text>
+  <rect width="500" height="350" fill="url(#civil)"/>
+  <!-- Dividing line -->
+  <line x1="250" y1="30" x2="250" y2="300" stroke="#E2E8F0" stroke-width="2" stroke-dasharray="8,4" opacity="0.4"/>
+  <!-- Red side - star -->
+  <g transform="translate(125,120)">
+    <polygon points="0,-35 10,-12 35,-12 15,5 22,30 0,15 -22,30 -15,5 -35,-12 -10,-12" fill="#E53E3E" opacity="0.8"/>
+  </g>
+  <text x="125" y="175" text-anchor="middle" font-size="14" fill="#FED7D7" opacity="0.7">Красные</text>
+  <!-- White side - eagle -->
+  <g transform="translate(375,110)" fill="#E2E8F0" opacity="0.7">
+    <ellipse cx="0" cy="0" rx="25" ry="20"/>
+    <polygon points="-25,-5 -40,-20 -20,-10" fill="#E2E8F0"/>
+    <polygon points="25,-5 40,-20 20,-10" fill="#E2E8F0"/>
+  </g>
+  <text x="375" y="175" text-anchor="middle" font-size="14" fill="#E2E8F0" opacity="0.7">Белые</text>
+  <!-- Green - at bottom center -->
+  <g transform="translate(250,230)">
+    <ellipse cx="0" cy="0" rx="30" ry="18" fill="#276749" opacity="0.8"/>
+    <text x="0" y="5" text-anchor="middle" font-size="12" fill="#C6F6D5" opacity="0.8">Зелёные</text>
+  </g>
+  <!-- Crossed swords -->
+  <g transform="translate(250,100)" stroke="#CBD5E0" stroke-width="3" opacity="0.5">
+    <line x1="-50" y1="50" x2="50" y2="-50"/>
+    <line x1="50" y1="50" x2="-50" y2="-50"/>
+  </g>
+  <!-- Smoke -->
+  <ellipse cx="200" cy="60" rx="40" ry="15" fill="#718096" opacity="0.2"/>
+  <ellipse cx="320" cy="55" rx="35" ry="12" fill="#718096" opacity="0.15"/>
+  <text x="250" y="310" text-anchor="middle" font-size="22" fill="#E2E8F0" font-weight="bold" opacity="0.6">1918–1922</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#E2E8F0" opacity="0.5">Гражданская война</text>
 </svg>

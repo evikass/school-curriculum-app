@@ -1,61 +1,81 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
 <defs>
-  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" style="stop-color:#283593"/>
-    <stop offset="100%" style="stop-color:#5C6BC0"/>
-  </linearGradient>
-  <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
-    <stop offset="0%" style="stop-color:rgba(255,255,255,0.95)"/>
-    <stop offset="100%" style="stop-color:rgba(255,255,255,0.85)"/>
-  </linearGradient>
-</defs>
-<rect width="500" height="350" fill="url(#bg)"/>
-<circle cx="30" cy="20" r="3" fill="white" opacity="0.08"/>
-<circle cx="30" cy="110" r="3" fill="white" opacity="0.08"/>
-<circle cx="30" cy="200" r="3" fill="white" opacity="0.08"/>
-<circle cx="30" cy="290" r="3" fill="white" opacity="0.08"/>
-<circle cx="95" cy="20" r="3" fill="white" opacity="0.08"/>
-<circle cx="95" cy="110" r="3" fill="white" opacity="0.08"/>
-<circle cx="95" cy="200" r="3" fill="white" opacity="0.08"/>
-<circle cx="95" cy="290" r="3" fill="white" opacity="0.08"/>
-<circle cx="160" cy="20" r="3" fill="white" opacity="0.08"/>
-<circle cx="160" cy="110" r="3" fill="white" opacity="0.08"/>
-<circle cx="160" cy="200" r="3" fill="white" opacity="0.08"/>
-<circle cx="160" cy="290" r="3" fill="white" opacity="0.08"/>
-<circle cx="225" cy="20" r="3" fill="white" opacity="0.08"/>
-<circle cx="225" cy="110" r="3" fill="white" opacity="0.08"/>
-<circle cx="225" cy="200" r="3" fill="white" opacity="0.08"/>
-<circle cx="225" cy="290" r="3" fill="white" opacity="0.08"/>
-<circle cx="290" cy="20" r="3" fill="white" opacity="0.08"/>
-<circle cx="290" cy="110" r="3" fill="white" opacity="0.08"/>
-<circle cx="290" cy="200" r="3" fill="white" opacity="0.08"/>
-<circle cx="290" cy="290" r="3" fill="white" opacity="0.08"/>
-<circle cx="355" cy="20" r="3" fill="white" opacity="0.08"/>
-<circle cx="355" cy="110" r="3" fill="white" opacity="0.08"/>
-<circle cx="355" cy="200" r="3" fill="white" opacity="0.08"/>
-<circle cx="355" cy="290" r="3" fill="white" opacity="0.08"/>
-<circle cx="420" cy="20" r="3" fill="white" opacity="0.08"/>
-<circle cx="420" cy="110" r="3" fill="white" opacity="0.08"/>
-<circle cx="420" cy="200" r="3" fill="white" opacity="0.08"/>
-<circle cx="420" cy="290" r="3" fill="white" opacity="0.08"/>
-<circle cx="485" cy="20" r="3" fill="white" opacity="0.08"/>
-<circle cx="485" cy="110" r="3" fill="white" opacity="0.08"/>
-<circle cx="485" cy="200" r="3" fill="white" opacity="0.08"/>
-<circle cx="485" cy="290" r="3" fill="white" opacity="0.08"/>
-<rect x="20" y="50" width="460" height="270" rx="16" fill="url(#card)" opacity="0.92"/>
-<rect x="30" y="60" width="auto" height="24" rx="12" fill="#283593" opacity="0.9"/>
-<rect x="30" y="60" width="148" height="24" rx="12" fill="#283593" opacity="0.9"/>
-<text x="104" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="white" font-weight="bold">Иностранный язык</text>
-<text x="470" y="77" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#283593" font-weight="bold">Урок 1</text>
-<text x="40" y="105" font-family="Arial,sans-serif" font-size="18" fill="#1a1a1a" font-weight="bold">Приветствие</text>
-<line x1="40" y1="115" x2="460" y2="115" stroke="#C5CAE9" stroke-width="2"/>
-<text x="40" y="135" font-family="Arial,sans-serif" font-size="13" fill="#444">Greetings — слова и фразы для приветствия на английском язык...</text>
-<rect x="40" y="155" width="420" height="30" rx="6" fill="#283593" opacity="0.08"/>
-<text x="50" y="175" font-family="Arial,sans-serif" font-size="11" fill="#444">️ Hello — самое популярное слово в мире</text>
-<rect x="40" y="191" width="420" height="30" rx="6" fill="#283593" opacity="0.08"/>
-<text x="50" y="211" font-family="Arial,sans-serif" font-size="11" fill="#444">️ Hi — неформальное приветление для друзей</text>
-<rect x="40" y="227" width="420" height="30" rx="6" fill="#283593" opacity="0.08"/>
-<text x="50" y="247" font-family="Arial,sans-serif" font-size="11" fill="#444">️ Англичане всегда спрашивают «How are you?», но н...</text>
-<circle cx="460" cy="310" r="25" fill="#283593" opacity="0.15"/>
-<circle cx="460" cy="310" r="15" fill="#283593" opacity="0.1"/>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF3E0"/>
+      <stop offset="100%" stop-color="#FFE0B2"/>
+    </linearGradient>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#E0F7FA"/>
+    </linearGradient>
+    <linearGradient id="groundGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#81C784"/>
+      <stop offset="100%" stop-color="#4CAF50"/>
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#42A5F5"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+    <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF9C4"/>
+      <stop offset="60%" stop-color="#FDD835"/>
+      <stop offset="100%" stop-color="#F9A825"/>
+    </radialGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="3" stdDeviation="5" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="500" height="220" fill="url(#skyGrad)"/>
+  <circle cx="430" cy="50" r="35" fill="url(#sunGrad)" filter="url(#glow)"/>
+  <path d="M80,40 Q90,25 100,40 Q110,25 120,40" fill="white" opacity="0.7"/>
+  <path d="M200,55 Q212,38 224,55 Q236,38 248,55" fill="white" opacity="0.6"/>
+  <path d="M340,30 Q348,20 356,30 Q364,20 372,30" fill="white" opacity="0.5"/><path d="M0,270 Q125,255 250,270 Q375,280 500,270 L500,350 L0,350 Z" fill="url(#groundGrad)"/>
+  <path d="M0,275 Q125,260 250,275 Q375,285 500,275" fill="#66BB6A" opacity="0.3"/>
+  <rect x="27" y="225" width="6" height="19.200000000000003" rx="2" fill="#795548"/>
+  <path d="M13.200000000000003,225 Q30,186.6 46.8,225" fill="#2E7D32" opacity="0.8"/>
+  <path d="M16.56,217.8 Q30,181.8 43.44,217.8" fill="#388E3C" opacity="0.7"/>
+  <path d="M20.4,210.6 Q30,177 39.6,210.6" fill="#43A047" opacity="0.6"/><rect x="457" y="228" width="6" height="16" rx="2" fill="#795548"/>
+  <path d="M446,228 Q460,196 474,228" fill="#2E7D32" opacity="0.8"/>
+  <path d="M448.8,222 Q460,192 471.2,222" fill="#388E3C" opacity="0.7"/>
+  <path d="M452,216 Q460,188 468,216" fill="#43A047" opacity="0.6"/>
+  <g transform="translate(40,40)" filter="url(#softShadow)">
+    <rect width="420" height="225" rx="12" fill="white" opacity="0.94"/>
+    <rect width="420" height="28" rx="12" fill="#F57C00" opacity="0.9"/>
+    <rect y="20" width="420" height="8" fill="#F57C00" opacity="0.9"/>
+    <text x="210" y="19" font-family="Arial" font-size="12" fill="white" text-anchor="middle" font-weight="bold">GREETINGS — ПРИВЕТСТВИЕ</text>
+    <g transform="translate(20,40)">
+      <rect width="180" height="55" rx="8" fill="#FFF3E0" stroke="#F57C00" stroke-width="1.5"/>
+      <text x="90" y="25" font-family="Arial" font-size="16" fill="#F57C00" text-anchor="middle" font-weight="bold">Hello!</text>
+      <text x="90" y="45" font-family="Arial" font-size="10" fill="#555" text-anchor="middle">Привет!</text>
+    </g>
+    <g transform="translate(220,40)">
+      <rect width="180" height="55" rx="8" fill="#FFF3E0" stroke="#FF9800" stroke-width="1.5"/>
+      <text x="90" y="25" font-family="Arial" font-size="16" fill="#E65100" text-anchor="middle" font-weight="bold">Good morning!</text>
+      <text x="90" y="45" font-family="Arial" font-size="10" fill="#555" text-anchor="middle">Доброе утро!</text>
+    </g>
+    <g transform="translate(20,108)">
+      <rect width="180" height="55" rx="8" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1.5"/>
+      <text x="90" y="25" font-family="Arial" font-size="16" fill="#2E7D32" text-anchor="middle" font-weight="bold">How are you?</text>
+      <text x="90" y="45" font-family="Arial" font-size="10" fill="#555" text-anchor="middle">Как дела?</text>
+    </g>
+    <g transform="translate(220,108)">
+      <rect width="180" height="55" rx="8" fill="#FCE4EC" stroke="#E91E63" stroke-width="1.5"/>
+      <text x="90" y="25" font-family="Arial" font-size="16" fill="#AD1457" text-anchor="middle" font-weight="bold">Goodbye!</text>
+      <text x="90" y="45" font-family="Arial" font-size="10" fill="#555" text-anchor="middle">До свидания!</text>
+    </g>
+    <g transform="translate(20,178)">
+      <rect width="380" height="35" rx="6" fill="#FFF3E0" opacity="0.3" stroke="#F57C00" stroke-width="1"/>
+      <text x="190" y="22" font-family="Arial" font-size="10" fill="#F57C00" text-anchor="middle" font-weight="bold">Nice to meet you! — Приятно познакомиться!</text>
+    </g>
+  </g>
+  <path d="M250,50 Q255,45 260,50 Q265,45 270,50" fill="none" stroke="#555" stroke-width="1.2"/><path d="M280,38 Q285,33 290,38 Q295,33 300,38" fill="none" stroke="#555" stroke-width="1.2"/>
+  <rect x="0" y="318" width="500" height="32" rx="0" fill="#F57C00" opacity="0.9"/>
+  <text x="250" y="339" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Приветствие</text>
 </svg>

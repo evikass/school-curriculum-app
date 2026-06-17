@@ -1,36 +1,67 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
-    </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#B71C1C"/>
-      <stop offset="100%" stop-color="#C62828"/>
+      <stop offset="0%" stop-color="#e8f5e9"/>
+      <stop offset="100%" stop-color="#c8e6c9"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
-  <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#2E7D32" text-anchor="middle">Что такое экономика</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Экономика - Урок 1</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#2E7D32" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#2E7D32" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA: x=15..485, y=85..300 -->
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8F5E9"/><g transform="translate(200,180) scale(1.5)"><ellipse cx="0" cy="-15" rx="18" ry="5" fill="#F9A825" stroke="#F57F17" stroke-width="1"/><ellipse cx="0" cy="-9" rx="18" ry="5" fill="#FFB300" stroke="#F57F17" stroke-width="1"/><ellipse cx="0" cy="-3" rx="18" ry="5" fill="#FFC107" stroke="#F57F17" stroke-width="1"/><ellipse cx="0" cy="3" rx="18" ry="5" fill="#FFD54F" stroke="#F57F17" stroke-width="1"/><text x="0" y="-10" font-family="Arial" font-size="14" fill="#F57F17" text-anchor="middle" font-weight="bold">$</text></g><g transform="translate(350,180) scale(0.8)"><line x1="-30" y1="25" x2="35" y2="25" stroke="#333" stroke-width="1.5"/><line x1="-30" y1="25" x2="-30" y2="-25" stroke="#333" stroke-width="1.5"/><rect x="-28.0" y="2.5" width="10.5" height="22.5" fill="#C62828" rx="1"/><rect x="-15.5" y="-12.5" width="10.5" height="37.5" fill="#1565C0" rx="1"/><rect x="-3.0" y="-5.0" width="10.5" height="30.0" fill="#2E7D32" rx="1"/><rect x="9.5" y="-20.0" width="10.5" height="45.0" fill="#F9A825" rx="1"/></g><text x="250" y="130" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle" font-weight="bold">Экономика: производство, обмен, потребление</text>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <!-- Supply-Demand diagram (center) -->
+  <rect x="60" y="20" width="250" height="220" fill="#fff" stroke="#90a4ae" stroke-width="1" rx="4"/>
+  <!-- Axes -->
+  <line x1="100" y1="30" x2="100" y2="220" stroke="#333" stroke-width="1.5"/>
+  <line x1="80" y1="200" x2="300" y2="200" stroke="#333" stroke-width="1.5"/>
+  <!-- Axis labels -->
+  <text x="85" y="35" font-size="7" fill="#333">P</text>
+  <text x="295" y="215" font-size="7" fill="#333">Q</text>
+  <!-- Supply curve (upward) -->
+  <path d="M120,190 Q170,160 200,130 Q230,100 270,60" fill="none" stroke="#1a237e" stroke-width="2.5"/>
+  <text x="275" y="55" font-size="7" fill="#1a237e" font-weight="bold">S</text>
+  <!-- Demand curve (downward) -->
+  <path d="M120,60 Q160,90 200,120 Q240,150 270,185" fill="none" stroke="#c62828" stroke-width="2.5"/>
+  <text x="275" y="190" font-size="7" fill="#c62828" font-weight="bold">D</text>
+  <!-- Equilibrium point -->
+  <circle cx="200" cy="120" r="5" fill="#ffd600" stroke="#f57f17" stroke-width="1.5"/>
+  <line x1="200" y1="120" x2="100" y2="120" stroke="#f57f17" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <line x1="200" y1="120" x2="200" y2="200" stroke="#f57f17" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <text x="85" y="123" font-size="6" fill="#f57f17">P*</text>
+  <text x="196" y="215" font-size="6" fill="#f57f17">Q*</text>
+  <text x="210" y="115" font-size="6" fill="#f57f17">E</text>
+  <!-- Money icon (right) -->
+  <g transform="translate(370,50)">
+    <circle r="30" fill="#ffd600" opacity="0.3"/>
+    <circle r="25" fill="#ffd600" opacity="0.5"/>
+    <text x="0" y="8" font-size="24" fill="#f57f17" text-anchor="middle" font-weight="bold">₽</text>
+    <text x="0" y="45" font-size="7" fill="#f57f17" text-anchor="middle">Деньги</text>
   </g>
-  <!-- Bottom panel -->
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Экономика</text>
+  <!-- Goods icon (bottom right) -->
+  <g transform="translate(380,160)">
+    <rect x="-25" y="-20" width="50" height="40" rx="5" fill="#2e7d32" opacity="0.2"/>
+    <rect x="-15" y="-10" width="12" height="12" rx="2" fill="#4caf50" opacity="0.6"/>
+    <rect x="5" y="-10" width="12" height="12" rx="2" fill="#66bb6a" opacity="0.6"/>
+    <rect x="-5" y="5" width="12" height="8" rx="2" fill="#81c784" opacity="0.6"/>
+    <text x="0" y="35" font-size="7" fill="#2e7d32" text-anchor="middle">Товары</text>
+  </g>
+  <!-- Services icon -->
+  <g transform="translate(460,160)">
+    <circle r="15" fill="#1565c0" opacity="0.2"/>
+    <circle r="10" fill="#42a5f5" opacity="0.4"/>
+    <path d="M-5,0 L0,5 L8,-5" fill="none" stroke="#fff" stroke-width="2"/>
+    <text x="0" y="28" font-size="7" fill="#1565c0" text-anchor="middle">Услуги</text>
+  </g>
+  <!-- Circular flow -->
+  <!-- Producers -->
+  <rect x="340" y="220" width="130" height="35" rx="6" fill="#1a237e" opacity="0.8"/>
+  <text x="405" y="242" font-size="7" fill="#fff" text-anchor="middle" font-weight="bold">Производители</text>
+  <!-- Consumers -->
+  <rect x="30" y="260" width="130" height="35" rx="6" fill="#c62828" opacity="0.8"/>
+  <text x="95" y="282" font-size="7" fill="#fff" text-anchor="middle" font-weight="bold">Потребители</text>
+  <!-- Flow arrows -->
+  <path d="M160,270 Q250,250 340,235" fill="none" stroke="#2e7d32" stroke-width="1.5"/>
+  <text x="250" y="250" font-size="5" fill="#2e7d32" text-anchor="middle">Товары и услуги</text>
+  <path d="M340,245 Q250,270 160,278" fill="none" stroke="#f57f17" stroke-width="1.5"/>
+  <text x="250" y="275" font-size="5" fill="#f57f17" text-anchor="middle">Деньги</text>
+  <!-- Title -->
+  <text x="250" y="320" font-size="8" fill="#1a237e" text-anchor="middle" font-weight="bold">Что такое экономика</text>
+  <text x="250" y="340" font-size="9" fill="#333" opacity="0.5" text-anchor="middle">Что такое экономика</text>
 </svg>

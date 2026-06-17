@@ -30,13 +30,118 @@
             "examples": [
               "He goes to school every day. — Он ходит в школу каждый день. (3-е лицо ед. ч., окончание -es)",
               "My mother works in a hospital. — Моя мама работает в больнице. (Факт, постоянное состояние)",
-              "Do you like pizza? — Ты любишь пиццу? (Вопрос с вспомогательным глаголом do)"
+              "Do you like pizza? — Ты любишь пиццу? (Вопрос с вспомогательным глаголом do)",
+              "The Earth revolves around the Sun. — Земля вращается вокруг Солнца. (Scientific fact in Present Simple)"
             ],
             "keyPoints": [
               "Основные случаи употребления — Регулярные, повторяющиеся действия: I wake up at 7 o'clock every day",
               "Образование утверждений — I/You/We/They + V (base form): I work, we play",
-              "Правила правописания — work → works"
-            ]
+              "Правила правописания — work → works",
+              "Present Simple is used for regular actions, facts, permanent states, and timetables; marker words: always, usually, often, every day"
+            ],
+            "facts": [
+              "Present Simple is the most frequently used tense in English, appearing in about 30% of all spoken sentences",
+              "The third person singular -s/-es ending comes from Old English verb conjugations that have simplified over centuries",
+              "The auxiliary verb 'do' for questions and negatives in Present Simple was not used in Early Modern English — Shakespeare wrote 'Go you?' instead of 'Do you go?'"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Which auxiliary verb is used for questions with 'I/you/we/they'?",
+                  "options": [
+                    "Does",
+                    "Do",
+                    "Did",
+                    "Will"
+                  ],
+                  "correct": "Do"
+                },
+                {
+                  "question": "What ending do we add for he/she/it?",
+                  "options": [
+                    "-ed",
+                    "-ing",
+                    "-s/-es",
+                    "-er"
+                  ],
+                  "correct": "-s/-es"
+                },
+                {
+                  "question": "Choose the correct form: She ___ to school every day.",
+                  "options": [
+                    "go",
+                    "goes",
+                    "going",
+                    "gone"
+                  ],
+                  "correct": "goes"
+                },
+                {
+                  "question": "Which is a marker word for Present Simple?",
+                  "options": [
+                    "now",
+                    "yesterday",
+                    "every day",
+                    "at the moment"
+                  ],
+                  "correct": "every day"
+                },
+                {
+                  "question": "What is the negative form of 'He plays football'?",
+                  "options": [
+                    "He don't play",
+                    "He doesn't play",
+                    "He not play",
+                    "He isn't play"
+                  ],
+                  "correct": "He doesn't play"
+                }
+              ],
+              "find": [
+                {
+                  "text": "In Present Simple, we add ___ to the base form for he/she/it",
+                  "answer": "-s/-es"
+                },
+                {
+                  "text": "___ you like ice cream? — question form with I/you/we/they",
+                  "answer": "Do"
+                },
+                {
+                  "text": "She ___ (not/work) on Sundays. — negative form",
+                  "answer": "doesn't work"
+                },
+                {
+                  "text": "The train ___ at 9:30. — timetable in Present Simple",
+                  "answer": "leaves"
+                },
+                {
+                  "text": "Marker words for Present Simple: always, usually, often, ___",
+                  "answer": "every day"
+                }
+              ],
+              "match": [
+                {
+                  "term": "always",
+                  "definition": "Marker word meaning 100% of the time, used with Present Simple"
+                },
+                {
+                  "term": "does",
+                  "definition": "Auxiliary verb for questions/negatives with he/she/it"
+                },
+                {
+                  "term": "don't",
+                  "definition": "Auxiliary verb for negatives with I/you/we/they"
+                },
+                {
+                  "term": "goes",
+                  "definition": "Third person singular form of 'go'"
+                },
+                {
+                  "term": "studies",
+                  "definition": "Third person singular form of 'study' (y → ies)"
+                }
+              ]
+            }
           },
           {
             "title": "Present Continuous",
@@ -51,13 +156,118 @@
             "examples": [
               "Look! The children are playing in the yard. — Смотри! Дети играют во дворе. (Действие в данный момент)",
               "I am reading an interesting book now. — Я сейчас читаю интересную книгу.",
-              "She is not watching TV at the moment. — Она сейчас не смотрит телевизор. (Отрицание: isn't + V-ing)"
+              "She is not watching TV at the moment. — Она сейчас не смотрит телевизор. (Отрицание: isn't + V-ing)",
+              "We are meeting at 5 tomorrow. — Мы встречаемся завтра в 5. (Future arrangement using Present Continuous)"
             ],
             "keyPoints": [
               "Основные случаи употребления — Действие в момент речи: I am reading a book now",
               "Правила правописания — work → working",
-              "Глаголы, не употребляющиеся в Continuous — состояния: be, have, know, understand, believe"
-            ]
+              "Глаголы, не употребляющиеся в Continuous — состояния: be, have, know, understand, believe",
+              "Present Continuous: am/is/are + V-ing; used for actions happening now, temporary situations, and fixed future arrangements"
+            ],
+            "facts": [
+              "Present Continuous is sometimes called 'Present Progressive' — both names are used interchangeably in grammar books",
+              "Stative verbs (know, like, understand) are generally NOT used in Continuous tenses because they describe states, not actions",
+              "The -ing form comes from the Old English suffix -ende, which gradually changed to -ing over centuries"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Which verb is NOT used in Present Continuous?",
+                  "options": [
+                    "run",
+                    "know",
+                    "read",
+                    "write"
+                  ],
+                  "correct": "know"
+                },
+                {
+                  "question": "What is the correct form: 'She ___ a book now.'?",
+                  "options": [
+                    "reads",
+                    "is reading",
+                    "read",
+                    "has read"
+                  ],
+                  "correct": "is reading"
+                },
+                {
+                  "question": "What happens to 'make' in Present Continuous?",
+                  "options": [
+                    "makeing",
+                    "makking",
+                    "making",
+                    "makiing"
+                  ],
+                  "correct": "making"
+                },
+                {
+                  "question": "Choose the correct negative: 'They ___ TV at the moment.'",
+                  "options": [
+                    "don't watching",
+                    "aren't watching",
+                    "isn't watching",
+                    "not watching"
+                  ],
+                  "correct": "aren't watching"
+                },
+                {
+                  "question": "Present Continuous can express:",
+                  "options": [
+                    "Past habits",
+                    "Future arrangements",
+                    "Permanent states",
+                    "Scientific facts"
+                  ],
+                  "correct": "Future arrangements"
+                }
+              ],
+              "find": [
+                {
+                  "text": "Present Continuous is formed with am/is/are + ___",
+                  "answer": "V-ing"
+                },
+                {
+                  "text": "The verb 'run' doubles the consonant: ___",
+                  "answer": "running"
+                },
+                {
+                  "text": "Stative verbs like 'know' and 'like' are NOT used in ___ tenses",
+                  "answer": "Continuous"
+                },
+                {
+                  "text": "The silent -e is dropped: make → ___",
+                  "answer": "making"
+                },
+                {
+                  "text": "Marker words for Present Continuous: now, at the ___, today",
+                  "answer": "moment"
+                }
+              ],
+              "match": [
+                {
+                  "term": "now",
+                  "definition": "Marker word for Present Continuous — action at the moment of speech"
+                },
+                {
+                  "term": "is reading",
+                  "definition": "Present Continuous form for he/she/it + read"
+                },
+                {
+                  "term": "stative verbs",
+                  "definition": "Verbs not used in Continuous: know, like, understand, believe"
+                },
+                {
+                  "term": "are playing",
+                  "definition": "Present Continuous form for we/you/they + play"
+                },
+                {
+                  "term": "lying",
+                  "definition": "Present Continuous form of 'lie' (ie → y + ing)"
+                }
+              ]
+            }
           },
           {
             "title": "Present Perfect",
@@ -72,13 +282,118 @@
             "examples": [
               "I have already finished my homework. — Я уже закончил домашнее задание. (Результат важен сейчас)",
               "She has lived in Moscow for 10 years. — Она живёт в Москве 10 лет. (Предлог for — период времени)",
-              "Have you ever been to St. Petersburg? — Ты когда-нибудь бывал в Санкт-Петербурге? (Опыт)"
+              "Have you ever been to St. Petersburg? — Ты когда-нибудь бывал в Санкт-Петербурге? (Опыт)",
+              "We have known each other since 2015. — Мы знакомы с 2015 года. ('Since' marks the starting point of the period)"
             ],
             "keyPoints": [
               "Основные случаи употребления — Личный опыт: I have been to Paris",
               "I have lost my key. (результат важен — не могу войти)",
-              "Действие завершилось, результат важен сейчас: I have lost my keys. (не могу найти)"
-            ]
+              "Действие завершилось, результат важен сейчас: I have lost my keys. (не могу найти)",
+              "Present Perfect: have/has + V3 (past participle); marker words: just, already, yet, ever, never, for, since"
+            ],
+            "facts": [
+              "Present Perfect does not exist in many languages — Russian uses Past tense + adverbs instead, making it challenging for Russian speakers",
+              "The choice between 'for' and 'since' is one of the most common mistakes: 'for' = period, 'since' = starting point",
+              "Present Perfect connects past actions to the present — the result matters NOW, not when exactly it happened"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Which preposition is used for a period of time?",
+                  "options": [
+                    "since",
+                    "for",
+                    "at",
+                    "on"
+                  ],
+                  "correct": "for"
+                },
+                {
+                  "question": "Choose the correct form: 'I ___ already ___ this film.'",
+                  "options": [
+                    "have/seen",
+                    "has/seen",
+                    "have/saw",
+                    "had/seen"
+                  ],
+                  "correct": "have/seen"
+                },
+                {
+                  "question": "Which time marker is NOT used with Present Perfect?",
+                  "options": [
+                    "just",
+                    "already",
+                    "yesterday",
+                    "ever"
+                  ],
+                  "correct": "yesterday"
+                },
+                {
+                  "question": "'She has lived here for 5 years' means:",
+                  "options": [
+                    "She left 5 years ago",
+                    "She still lives here",
+                    "She will move soon",
+                    "She visited once"
+                  ],
+                  "correct": "She still lives here"
+                },
+                {
+                  "question": "What is the past participle of 'go'?",
+                  "options": [
+                    "went",
+                    "goed",
+                    "gone",
+                    "going"
+                  ],
+                  "correct": "gone"
+                }
+              ],
+              "find": [
+                {
+                  "text": "Present Perfect is formed with have/has + ___ (past participle)",
+                  "answer": "V3"
+                },
+                {
+                  "text": "Use '___' for a period of time and 'since' for a starting point",
+                  "answer": "for"
+                },
+                {
+                  "text": "___ you ever been to London? — question in Present Perfect",
+                  "answer": "Have"
+                },
+                {
+                  "text": "She hasn't called me ___. — marker word for negative sentences",
+                  "answer": "yet"
+                },
+                {
+                  "text": "Present Perfect connects the ___ with the present",
+                  "answer": "past"
+                }
+              ],
+              "match": [
+                {
+                  "term": "just",
+                  "definition": "Marker word meaning 'a very short time ago' in Present Perfect"
+                },
+                {
+                  "term": "already",
+                  "definition": "Marker word for affirmative sentences — something happened sooner than expected"
+                },
+                {
+                  "term": "yet",
+                  "definition": "Marker word for questions and negatives — up to now"
+                },
+                {
+                  "term": "for",
+                  "definition": "Preposition used with a period of time (for 5 years)"
+                },
+                {
+                  "term": "since",
+                  "definition": "Preposition used with a starting point in time (since 2020)"
+                }
+              ]
+            }
           }
         ]
       },
@@ -98,13 +413,118 @@
             "examples": [
               "We went to the cinema yesterday. — Мы ходили в кино вчера. (Завершённое действие)",
               "She didn't understand the question. — Она не поняла вопрос. (Отрицание: didn't + V)",
-              "Did you see him last night? — Ты видел его вчера вечером? (Вопрос с did)"
+              "Did you see him last night? — Ты видел его вчера вечером? (Вопрос с did)",
+              "When I was a child, I liked ice cream. — Когда я был ребёнком, я любил мороженое. (Past state)"
             ],
             "keyPoints": [
               "Основные случаи употребления — Завершённые действия в прошлом: I visited Paris last year",
               "Образование правильных глаголов — V + ed: work → worked, play → played, watch → watched",
-              "Правила правописания — work → worked"
-            ]
+              "Правила правописания — work → worked",
+              "Past Simple: V+ed (regular) or V2 (irregular); marker words: yesterday, last week, ...ago, in 2020"
+            ],
+            "facts": [
+              "English has about 200 irregular verbs that must be memorized — they are among the most frequently used words in the language",
+              "The -ed ending for regular verbs was pronounced as a separate syllable in Old English, but now it's often just /t/ or /d/",
+              "The auxiliary verb 'did' in questions and negatives replaces the main verb's past tense form"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "What is the past form of 'go'?",
+                  "options": [
+                    "goed",
+                    "gone",
+                    "went",
+                    "going"
+                  ],
+                  "correct": "went"
+                },
+                {
+                  "question": "Which is the correct question form?",
+                  "options": [
+                    "Did you went?",
+                    "Did you go?",
+                    "Did you gone?",
+                    "Do you went?"
+                  ],
+                  "correct": "Did you go?"
+                },
+                {
+                  "question": "What ending do regular verbs get in Past Simple?",
+                  "options": [
+                    "-ing",
+                    "-s",
+                    "-ed",
+                    "-er"
+                  ],
+                  "correct": "-ed"
+                },
+                {
+                  "question": "Choose the correct negative: 'She ___ to the party.'",
+                  "options": [
+                    "didn't went",
+                    "doesn't go",
+                    "didn't go",
+                    "not went"
+                  ],
+                  "correct": "didn't go"
+                },
+                {
+                  "question": "Which word is a Past Simple marker?",
+                  "options": [
+                    "now",
+                    "every day",
+                    "yesterday",
+                    "tomorrow"
+                  ],
+                  "correct": "yesterday"
+                }
+              ],
+              "find": [
+                {
+                  "text": "Regular verbs form Past Simple by adding ___",
+                  "answer": "-ed"
+                },
+                {
+                  "text": "The past form of 'see' is ___",
+                  "answer": "saw"
+                },
+                {
+                  "text": "In Past Simple questions, use ___ + subject + base verb",
+                  "answer": "Did"
+                },
+                {
+                  "text": "In negatives, 'did not' contracts to ___",
+                  "answer": "didn't"
+                },
+                {
+                  "text": "The verb 'to be' has two past forms: ___ and were",
+                  "answer": "was"
+                }
+              ],
+              "match": [
+                {
+                  "term": "went",
+                  "definition": "Past Simple form of 'go' (irregular verb)"
+                },
+                {
+                  "term": "saw",
+                  "definition": "Past Simple form of 'see' (irregular verb)"
+                },
+                {
+                  "term": "played",
+                  "definition": "Past Simple form of 'play' (regular verb)"
+                },
+                {
+                  "term": "didn't",
+                  "definition": "Contraction of 'did not' for Past Simple negatives"
+                },
+                {
+                  "term": "yesterday",
+                  "definition": "Marker word indicating finished time in the past"
+                }
+              ]
+            }
           },
           {
             "title": "Past Continuous",
@@ -119,13 +539,118 @@
             "examples": [
               "At 8 o'clock yesterday I was having breakfast. — Вчера в 8 часов я завтракал. (Конкретный момент)",
               "When I came home, my mother was cooking dinner. — Когда я пришёл, мама готовила ужин. (Прерванное действие)",
-              "While he was reading, his brother was playing. — Пока он читал, его брат играл. (Одновременные действия)"
+              "While he was reading, his brother was playing. — Пока он читал, его брат играл. (Одновременные действия)",
+              "While I was walking home, it started to rain. — Пока я шёл домой, начался дождь. (Interrupted action)"
             ],
             "keyPoints": [
               "Основные случаи употребления — Прерванное действие: When the phone rang, I was sleeping",
               "Сочетание с Past Simple — Когда одно действие прерывает другое:",
-              "Когда одно действие прерывает другое — Длинное действие — Past Continuous"
-            ]
+              "Когда одно действие прерывает другое — Длинное действие — Past Continuous",
+              "Past Continuous: was/were + V-ing; used for actions in progress at a specific past time, simultaneous actions, and interrupted actions"
+            ],
+            "facts": [
+              "Past Continuous is often combined with Past Simple to tell stories — the Continuous sets the scene, Simple tells the events",
+              "The combination 'when + Past Simple, Past Continuous' is one of the most common patterns in English narrative",
+              "While both actions can be in Past Continuous (simultaneous), only the interrupting action uses Past Simple"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "What is the correct form: 'At 5 PM I ___ TV.'?",
+                  "options": [
+                    "watched",
+                    "was watching",
+                    "am watching",
+                    "have watched"
+                  ],
+                  "correct": "was watching"
+                },
+                {
+                  "question": "Which tense describes the interrupting action?",
+                  "options": [
+                    "Past Continuous",
+                    "Past Simple",
+                    "Present Perfect",
+                    "Present Simple"
+                  ],
+                  "correct": "Past Simple"
+                },
+                {
+                  "question": "'While she ___ dinner, the phone rang.' — fill in:",
+                  "options": [
+                    "cooked",
+                    "was cooking",
+                    "cooks",
+                    "has cooked"
+                  ],
+                  "correct": "was cooking"
+                },
+                {
+                  "question": "What connector shows simultaneous past actions?",
+                  "options": [
+                    "when",
+                    "while",
+                    "after",
+                    "before"
+                  ],
+                  "correct": "while"
+                },
+                {
+                  "question": "Choose the correct negative: 'They ___ at that time.'",
+                  "options": [
+                    "wasn't playing",
+                    "weren't playing",
+                    "didn't playing",
+                    "not playing"
+                  ],
+                  "correct": "weren't playing"
+                }
+              ],
+              "find": [
+                {
+                  "text": "Past Continuous is formed with was/were + ___",
+                  "answer": "V-ing"
+                },
+                {
+                  "text": "When the phone ___, I was sleeping. — short interrupting action",
+                  "answer": "rang"
+                },
+                {
+                  "text": "___ I was reading, my brother was playing. — simultaneous actions",
+                  "answer": "While"
+                },
+                {
+                  "text": "The long ongoing action uses Past ___",
+                  "answer": "Continuous"
+                },
+                {
+                  "text": "At 8 o'clock yesterday I ___ having breakfast. — fill in",
+                  "answer": "was"
+                }
+              ],
+              "match": [
+                {
+                  "term": "was reading",
+                  "definition": "Past Continuous for I/he/she/it — action in progress"
+                },
+                {
+                  "term": "were playing",
+                  "definition": "Past Continuous for we/you/they — action in progress"
+                },
+                {
+                  "term": "while",
+                  "definition": "Conjunction connecting two simultaneous past actions"
+                },
+                {
+                  "term": "when",
+                  "definition": "Conjunction connecting an ongoing action with an interrupting event"
+                },
+                {
+                  "term": "interrupted action",
+                  "definition": "Long action in Past Continuous stopped by a short Past Simple action"
+                }
+              ]
+            }
           }
         ]
       },
@@ -145,13 +670,118 @@
             "examples": [
               "I think it will rain tomorrow. — Думаю, завтра пойдёт дождь. (Предсказание с will)",
               "I will help you with your homework. — Я помогу тебе с домашним заданием. (Обещание)",
-              "She won't tell anyone your secret. — Она никому не расскажет твой секрет. (Отрицание: won't)"
+              "She won't tell anyone your secret. — Она никому не расскажет твой секрет. (Отрицание: won't)",
+              "I'll carry your bag for you. — Я понесу твою сумку. (Offer using Future Simple)"
             ],
             "keyPoints": [
               "Основные случаи употребления — Мгновенные решения: It's cold",
               "I'll help you. — мгновенное решение",
-              "I'm going to help you. — запланированное действие"
-            ]
+              "I'm going to help you. — запланированное действие",
+              "Future Simple: will + V; used for spontaneous decisions, predictions, promises, offers, and threats"
+            ],
+            "facts": [
+              "In modern spoken English, 'will' is often shortened to 'll (I'll, she'll, they'll) in affirmative sentences",
+              "'Will' originally meant 'to want' in Old English — that's why it's used for spontaneous decisions and promises",
+              "Future Simple with 'will' is used when the decision is made at the moment of speaking, not before"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "When do we use Future Simple (will)?",
+                  "options": [
+                    "For plans",
+                    "For spontaneous decisions",
+                    "For past habits",
+                    "For schedules"
+                  ],
+                  "correct": "For spontaneous decisions"
+                },
+                {
+                  "question": "What is the negative form of 'will'?",
+                  "options": [
+                    "willn't",
+                    "won't",
+                    "don't will",
+                    "not will"
+                  ],
+                  "correct": "won't"
+                },
+                {
+                  "question": "Choose the correct form for a prediction: 'It ___ rain tomorrow.'",
+                  "options": [
+                    "is going to",
+                    "will",
+                    "was",
+                    "has"
+                  ],
+                  "correct": "will"
+                },
+                {
+                  "question": "'I'll help you' is an example of:",
+                  "options": [
+                    "A threat",
+                    "A promise/offer",
+                    "A schedule",
+                    "A habit"
+                  ],
+                  "correct": "A promise/offer"
+                },
+                {
+                  "question": "Which shows a plan, not a spontaneous decision?",
+                  "options": [
+                    "I'll open the window",
+                    "I'm going to study tonight",
+                    "I'll answer the phone",
+                    "I'll carry that"
+                  ],
+                  "correct": "I'm going to study tonight"
+                }
+              ],
+              "find": [
+                {
+                  "text": "Future Simple is formed with ___ + base verb",
+                  "answer": "will"
+                },
+                {
+                  "text": "The contraction of 'will not' is ___",
+                  "answer": "won't"
+                },
+                {
+                  "text": "Use 'will' for ___ decisions made at the moment of speaking",
+                  "answer": "spontaneous"
+                },
+                {
+                  "text": "Use 'going to' for ___ made before the moment of speaking",
+                  "answer": "plans"
+                },
+                {
+                  "text": "Marker words: tomorrow, next week, soon, in the ___",
+                  "answer": "future"
+                }
+              ],
+              "match": [
+                {
+                  "term": "will + V",
+                  "definition": "Future Simple form for spontaneous decisions and predictions"
+                },
+                {
+                  "term": "won't",
+                  "definition": "Negative contraction of 'will not' in Future Simple"
+                },
+                {
+                  "term": "spontaneous decision",
+                  "definition": "A choice made at the moment of speaking, using 'will'"
+                },
+                {
+                  "term": "prediction",
+                  "definition": "A guess about the future, often with 'I think... will...'"
+                },
+                {
+                  "term": "promise",
+                  "definition": "A commitment to do something, expressed with 'will'"
+                }
+              ]
+            }
           },
           {
             "title": "To be going to",
@@ -166,13 +796,118 @@
             "examples": [
               "I am going to visit my grandmother next weekend. — Я собираюсь навестить бабушку в выходные. (План)",
               "Look at those clouds! It is going to rain. — Посмотри на тучи! Собирается дождь. (Признаки)",
-              "They are going to move to a new flat. — Они собираются переехать в новую квартиру. (Намерение)"
+              "They are going to move to a new flat. — Они собираются переехать в новую квартиру. (Намерение)",
+              "She's going to have a baby. — У неё будет ребёнок. (Evidence-based prediction using going to)"
             ],
             "keyPoints": [
               "Основные случаи употребления — Планы и намерения: I'm going to study medicine",
               "Going to vs Present Continuous для планов — Оба используются для планов:",
-              "Оба используются для планов — I'm going to meet Tom"
-            ]
+              "Оба используются для планов — I'm going to meet Tom",
+              "To be going to + V: am/is/are going to + V; used for plans/intentions and predictions based on present evidence"
+            ],
+            "facts": [
+              "The 'going to' structure evolved from the literal meaning of 'going somewhere to do something' in Middle English",
+              "'Going to' is pronounced 'gonna' in informal spoken American English, but this should not be used in writing",
+              "When there is visible evidence now, we use 'going to' not 'will': 'Look at those clouds — it's going to rain'"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "What structure do we use for plans and intentions?",
+                  "options": [
+                    "will + V",
+                    "am/is/are going to + V",
+                    "was/were going to",
+                    "have + V3"
+                  ],
+                  "correct": "am/is/are going to + V"
+                },
+                {
+                  "question": "'Look at those clouds! It ___ rain.' Choose:",
+                  "options": [
+                    "will",
+                    "is going to",
+                    "was going to",
+                    "has"
+                  ],
+                  "correct": "is going to"
+                },
+                {
+                  "question": "What is the negative of 'She is going to come'?",
+                  "options": [
+                    "She isn't going to come",
+                    "She doesn't going to come",
+                    "She won't going to come",
+                    "She not going to come"
+                  ],
+                  "correct": "She isn't going to come"
+                },
+                {
+                  "question": "'I'm meeting Tom at 5' shows:",
+                  "options": [
+                    "A spontaneous decision",
+                    "A fixed arrangement",
+                    "A past habit",
+                    "A fact"
+                  ],
+                  "correct": "A fixed arrangement"
+                },
+                {
+                  "question": "Which is the correct question form?",
+                  "options": [
+                    "Does she going to come?",
+                    "Is she going to come?",
+                    "Will she going to come?",
+                    "Was she going to come?"
+                  ],
+                  "correct": "Is she going to come?"
+                }
+              ],
+              "find": [
+                {
+                  "text": "To be going to is formed with am/is/are going to + ___",
+                  "answer": "V"
+                },
+                {
+                  "text": "Use 'going to' for ___ and intentions",
+                  "answer": "plans"
+                },
+                {
+                  "text": "When there is visible ___ now, use 'going to' for predictions",
+                  "answer": "evidence"
+                },
+                {
+                  "text": "The informal pronunciation of 'going to' is ___",
+                  "answer": "gonna"
+                },
+                {
+                  "text": "I ___ going to visit my grandmother next weekend.",
+                  "answer": "am"
+                }
+              ],
+              "match": [
+                {
+                  "term": "going to",
+                  "definition": "Structure for plans, intentions, and evidence-based predictions"
+                },
+                {
+                  "term": "plan",
+                  "definition": "A decision made before the moment of speaking, using 'going to'"
+                },
+                {
+                  "term": "evidence-based prediction",
+                  "definition": "A prediction based on what you can see now (dark clouds → rain)"
+                },
+                {
+                  "term": "gonna",
+                  "definition": "Informal spoken pronunciation of 'going to'"
+                },
+                {
+                  "term": "intention",
+                  "definition": "Something you have decided to do in the future"
+                }
+              ]
+            }
           }
         ]
       },
@@ -192,13 +927,118 @@
             "examples": [
               "She can speak three languages. — Она может говорить на трёх языках. (Умение)",
               "You must do your homework every day. — Ты должен делать домашнее задание каждый день. (Обязанность)",
-              "Could you open the window, please? — Не могли бы вы открыть окно? (Вежливая просьба)"
+              "Could you open the window, please? — Не могли бы вы открыть окно? (Вежливая просьба)",
+              "You don't have to wear a tie. — Тебе не обязательно носить галстук. (It's not necessary, but allowed)"
             ],
             "keyPoints": [
               "CAN — физическая возможность, умение:",
               "COULD — вежливая просьба, возможность в прошлом:",
-              "MUST — обязанность, настоятельная необходимость:"
-            ]
+              "MUST — обязанность, настоятельная необходимость:",
+              "CAN = ability/permission; COULD = past ability / polite request; MUST = strong obligation / necessity"
+            ],
+            "facts": [
+              "Modal verbs are unique in English: they don't change form (no -s, -ed, -ing) and don't need 'do' for questions/negatives",
+              "'Must' expresses strong obligation from the speaker, while 'have to' expresses external obligation (rules, laws)",
+              "'Mustn't' means prohibition (forbidden), while 'don't have to' means it's not necessary (optional) — a common confusion"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Which modal verb expresses prohibition?",
+                  "options": [
+                    "can",
+                    "must",
+                    "mustn't",
+                    "could"
+                  ],
+                  "correct": "mustn't"
+                },
+                {
+                  "question": "'Could you open the door?' is:",
+                  "options": [
+                    "Past ability",
+                    "Polite request",
+                    "Prohibition",
+                    "Obligation"
+                  ],
+                  "correct": "Polite request"
+                },
+                {
+                  "question": "Which means 'not necessary'?",
+                  "options": [
+                    "mustn't",
+                    "don't have to",
+                    "can't",
+                    "couldn't"
+                  ],
+                  "correct": "don't have to"
+                },
+                {
+                  "question": "Modal verbs:",
+                  "options": [
+                    "Add -s for 3rd person",
+                    "Need 'do' for questions",
+                    "Don't change form",
+                    "Add -ed for past"
+                  ],
+                  "correct": "Don't change form"
+                },
+                {
+                  "question": "'You must wear a uniform' expresses:",
+                  "options": [
+                    "Ability",
+                    "Permission",
+                    "Obligation",
+                    "Request"
+                  ],
+                  "correct": "Obligation"
+                }
+              ],
+              "find": [
+                {
+                  "text": "___ expresses ability: 'I can swim.'",
+                  "answer": "Can"
+                },
+                {
+                  "text": "___ is used for polite requests: '___ you open the door?'",
+                  "answer": "Could"
+                },
+                {
+                  "text": "___ means 'it is forbidden': 'You mustn't smoke here.'",
+                  "answer": "Mustn't"
+                },
+                {
+                  "text": "___ means 'it is not necessary': 'You don't have to come.'",
+                  "answer": "Don't have to"
+                },
+                {
+                  "text": "Modal verbs are followed by the infinitive without ___",
+                  "answer": "to"
+                }
+              ],
+              "match": [
+                {
+                  "term": "can",
+                  "definition": "Modal verb expressing ability, permission, or possibility"
+                },
+                {
+                  "term": "could",
+                  "definition": "Modal verb for past ability or polite requests"
+                },
+                {
+                  "term": "must",
+                  "definition": "Modal verb for strong obligation or necessity"
+                },
+                {
+                  "term": "mustn't",
+                  "definition": "Modal verb for prohibition — something is forbidden"
+                },
+                {
+                  "term": "don't have to",
+                  "definition": "Expression meaning something is not necessary (optional)"
+                }
+              ]
+            }
           },
           {
             "title": "Modal Verbs: Should, May, Might",
@@ -213,13 +1053,118 @@
             "examples": [
               "You should eat more vegetables. — Тебе стоит есть больше овощей. (Совет)",
               "It may rain tomorrow. — Завтра может пойти дождь. (Возможность)",
-              "He might come to the party. — Он, возможно, придёт на вечеринку. (Меньшая вероятность)"
+              "He might come to the party. — Он, возможно, придёт на вечеринку. (Меньшая вероятность)",
+              "She should have studied harder. — Ей следовало учиться усерднее. (Regret about past — modal perfect)"
             ],
             "keyPoints": [
               "MAY — вероятность, разрешение (формально):",
               "MIGHT — меньшая вероятность:",
-              "It might snow tonight. (Возможно, ночью пойдёт снег — меньше уверенности)"
-            ]
+              "It might snow tonight. (Возможно, ночью пойдёт снег — меньше уверенности)",
+              "SHOULD = advice/recommendation; MAY = possibility/permission (formal); MIGHT = weaker possibility"
+            ],
+            "facts": [
+              "'Should' is the past form of 'shall', but in modern English it's used for advice and recommendations, not past time",
+              "'May' and 'might' both express possibility, but 'might' indicates less certainty — about 30-50% vs 50-70% for 'may'",
+              "'Could have done' and 'should have done' are called modal perfects — they express regret about past actions"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Which modal verb gives advice?",
+                  "options": [
+                    "may",
+                    "might",
+                    "should",
+                    "must"
+                  ],
+                  "correct": "should"
+                },
+                {
+                  "question": "'It might snow tonight' means:",
+                  "options": [
+                    "It will definitely snow",
+                    "There's a small possibility",
+                    "It is snowing now",
+                    "It snowed yesterday"
+                  ],
+                  "correct": "There's a small possibility"
+                },
+                {
+                  "question": "Which modal is used for formal permission?",
+                  "options": [
+                    "can",
+                    "might",
+                    "may",
+                    "should"
+                  ],
+                  "correct": "may"
+                },
+                {
+                  "question": "'She must be tired' means:",
+                  "options": [
+                    "She is obliged to be tired",
+                    "I'm certain she is tired",
+                    "She might be tired",
+                    "She should rest"
+                  ],
+                  "correct": "I'm certain she is tired"
+                },
+                {
+                  "question": "'Should have studied' expresses:",
+                  "options": [
+                    "Future plan",
+                    "Present ability",
+                    "Regret about the past",
+                    "Formal permission"
+                  ],
+                  "correct": "Regret about the past"
+                }
+              ],
+              "find": [
+                {
+                  "text": "___ is used for advice: 'You should see a doctor.'",
+                  "answer": "Should"
+                },
+                {
+                  "text": "___ expresses weaker possibility than 'may'",
+                  "answer": "Might"
+                },
+                {
+                  "text": "___ I come in? — formal permission request",
+                  "answer": "May"
+                },
+                {
+                  "text": "'She must be tired' — degree of certainty: approximately ___%",
+                  "answer": "95"
+                },
+                {
+                  "text": "'Could have done' is called a modal ___",
+                  "answer": "perfect"
+                }
+              ],
+              "match": [
+                {
+                  "term": "should",
+                  "definition": "Modal verb for advice and recommendations"
+                },
+                {
+                  "term": "may",
+                  "definition": "Modal verb for possibility (~50%) and formal permission"
+                },
+                {
+                  "term": "might",
+                  "definition": "Modal verb for weaker possibility (~30%)"
+                },
+                {
+                  "term": "must be",
+                  "definition": "Expression of strong certainty (~95%)"
+                },
+                {
+                  "term": "should have done",
+                  "definition": "Modal perfect expressing regret about a past action"
+                }
+              ]
+            }
           }
         ]
       },
@@ -239,13 +1184,118 @@
             "examples": [
               "This book was written by Pushkin. — Эта книга была написана Пушкиным. (Past Simple Passive с by)",
               "English is spoken in many countries. — На английском говорят во многих странах. (Present Simple Passive)",
-              "The work has already been done. — Работа уже выполнена. (Present Perfect Passive)"
+              "The work has already been done. — Работа уже выполнена. (Present Perfect Passive)",
+              "The project will be finished next month. — Проект будет завершён в следующем месяце. (Future Simple Passive)"
             ],
             "keyPoints": [
               "Когда используется Passive — Важен объект, а не исполнитель",
               "Если указываем исполнителя — This picture was painted by Picasso",
-              "Ключевое понятие: Passive Voice"
-            ]
+              "Ключевое понятие: Passive Voice",
+              "Passive Voice: to be + V3 (past participle); used when the object is more important than the subject, or the subject is unknown"
+            ],
+            "facts": [
+              "Passive Voice is more common in formal and academic English than in everyday speech — about 25% of academic sentences use it",
+              "In English, Passive is formed with 'to be + V3', while Russian uses -ся/-сь or reflexive forms",
+              "The preposition 'by' introduces the agent (who does the action) in Passive sentences"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "How is Passive Voice formed?",
+                  "options": [
+                    "have + V3",
+                    "to be + V3",
+                    "will + V",
+                    "do + V"
+                  ],
+                  "correct": "to be + V3"
+                },
+                {
+                  "question": "Which is Passive: 'The letter was sent yesterday'?",
+                  "options": [
+                    "Active",
+                    "Passive",
+                    "Both",
+                    "Neither"
+                  ],
+                  "correct": "Passive"
+                },
+                {
+                  "question": "What preposition introduces the agent in Passive?",
+                  "options": [
+                    "with",
+                    "by",
+                    "for",
+                    "from"
+                  ],
+                  "correct": "by"
+                },
+                {
+                  "question": "'Cars are made in Japan' is:",
+                  "options": [
+                    "Present Simple Passive",
+                    "Past Simple Passive",
+                    "Future Simple Passive",
+                    "Present Perfect Passive"
+                  ],
+                  "correct": "Present Simple Passive"
+                },
+                {
+                  "question": "When do we use Passive Voice?",
+                  "options": [
+                    "When the subject is important",
+                    "When the object is more important or subject unknown",
+                    "In informal speech only",
+                    "Never in writing"
+                  ],
+                  "correct": "When the object is more important or subject unknown"
+                }
+              ],
+              "find": [
+                {
+                  "text": "Passive Voice is formed with to be + ___",
+                  "answer": "V3"
+                },
+                {
+                  "text": "The letter ___ sent yesterday. — Past Simple Passive",
+                  "answer": "was"
+                },
+                {
+                  "text": "English is spoken ___ many countries",
+                  "answer": "in"
+                },
+                {
+                  "text": "This picture was painted ___ Picasso",
+                  "answer": "by"
+                },
+                {
+                  "text": "The project will ___ finished soon. — Future Simple Passive",
+                  "answer": "be"
+                }
+              ],
+              "match": [
+                {
+                  "term": "is/are + V3",
+                  "definition": "Present Simple Passive form"
+                },
+                {
+                  "term": "was/were + V3",
+                  "definition": "Past Simple Passive form"
+                },
+                {
+                  "term": "will be + V3",
+                  "definition": "Future Simple Passive form"
+                },
+                {
+                  "term": "by",
+                  "definition": "Preposition introducing the agent/performer in Passive Voice"
+                },
+                {
+                  "term": "have/has been + V3",
+                  "definition": "Present Perfect Passive form"
+                }
+              ]
+            }
           }
         ]
       },
@@ -265,13 +1315,118 @@
             "examples": [
               "If you heat ice, it melts. — Если нагреть лёд, он тает. (Zero Conditional — факт)",
               "If it rains tomorrow, we will stay at home. — Если завтра пойдёт дождь, мы останемся дома. (First Conditional)",
-              "Unless you study hard, you won't pass the exam. — Если не будешь стараться, не сдашь. (Unless = if not)"
+              "Unless you study hard, you won't pass the exam. — Если не будешь стараться, не сдашь. (Unless = if not)",
+              "If you don't hurry, you'll miss the bus. = Unless you hurry, you'll miss the bus. (Unless = if not)"
             ],
             "keyPoints": [
               "First Conditional — реальные условия:",
               "When I see him — уверен, что увижу",
-              "If I see him — не уверен"
-            ]
+              "If I see him — не уверен",
+              "Zero Conditional: If + Present Simple, Present Simple (facts/truths); First Conditional: If + Present Simple, will + V (real future conditions)"
+            ],
+            "facts": [
+              "Zero Conditional uses Present Simple in both clauses because it describes facts that are always true, not possibilities",
+              "First Conditional never uses 'will' in the if-clause — this is one of the most common mistakes for learners",
+              "'Unless' means 'if not' and always makes the sentence negative in meaning even though the verb form may be affirmative"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Which Conditional describes facts that are always true?",
+                  "options": [
+                    "First",
+                    "Second",
+                    "Zero",
+                    "Third"
+                  ],
+                  "correct": "Zero"
+                },
+                {
+                  "question": "Which is correct: 'If it ___ tomorrow, I'll stay home.'?",
+                  "options": [
+                    "will rain",
+                    "rains",
+                    "rained",
+                    "would rain"
+                  ],
+                  "correct": "rains"
+                },
+                {
+                  "question": "'Unless you study' means:",
+                  "options": [
+                    "If you study",
+                    "If you don't study",
+                    "Because you study",
+                    "After you study"
+                  ],
+                  "correct": "If you don't study"
+                },
+                {
+                  "question": "In First Conditional, 'will' goes in:",
+                  "options": [
+                    "The if-clause",
+                    "The main clause",
+                    "Both clauses",
+                    "Neither clause"
+                  ],
+                  "correct": "The main clause"
+                },
+                {
+                  "question": "'When I see him' suggests:",
+                  "options": [
+                    "Uncertainty",
+                    "Certainty that it will happen",
+                    "It already happened",
+                    "It will never happen"
+                  ],
+                  "correct": "Certainty that it will happen"
+                }
+              ],
+              "find": [
+                {
+                  "text": "Zero Conditional: If + Present Simple, ___",
+                  "answer": "Present Simple"
+                },
+                {
+                  "text": "First Conditional: If + Present Simple, ___ + V",
+                  "answer": "will"
+                },
+                {
+                  "text": "___ means 'if not' in conditionals",
+                  "answer": "Unless"
+                },
+                {
+                  "text": "Never use 'will' in the ___-clause of First Conditional",
+                  "answer": "if"
+                },
+                {
+                  "text": "'When' shows ___ that something will happen",
+                  "answer": "certainty"
+                }
+              ],
+              "match": [
+                {
+                  "term": "Zero Conditional",
+                  "definition": "If + Present Simple, Present Simple — for facts and truths"
+                },
+                {
+                  "term": "First Conditional",
+                  "definition": "If + Present Simple, will + V — for real possible future situations"
+                },
+                {
+                  "term": "unless",
+                  "definition": "Means 'if not' — makes condition negative"
+                },
+                {
+                  "term": "when",
+                  "definition": "Used instead of 'if' when you are certain something will happen"
+                },
+                {
+                  "term": "if-clause",
+                  "definition": "The part of a conditional sentence that describes the condition"
+                }
+              ]
+            }
           },
           {
             "title": "Conditionals: Second and Third",
@@ -286,13 +1441,118 @@
             "examples": [
               "If I were rich, I would travel around the world. — Если бы я был богат, я бы путешествовал. (Second Conditional)",
               "If I had studied harder, I would have passed the exam. — Если бы учился усерднее, сдал бы. (Third Conditional)",
-              "If I knew her phone number, I would call her. — Если бы знал номер, позвонил бы. (Second)"
+              "If I knew her phone number, I would call her. — Если бы знал номер, позвонил бы. (Second)",
+              "If I had known about the meeting, I would have come. — Если бы я знал о собрании, я бы пришёл. (Third Conditional — unreal past)"
             ],
             "keyPoints": [
               "Second Conditional для советов — If I were you, I would study medicine",
               "Third Conditional — нереальные условия в прошлом:",
-              "Ключевое понятие: Conditionals: Second and Third"
-            ]
+              "Ключевое понятие: Conditionals: Second and Third",
+              "Second Conditional: If + Past Simple, would + V — unreal present/future situations; were for all persons"
+            ],
+            "facts": [
+              "In Second Conditional, 'were' is used for all persons (If I were you), though 'was' is acceptable in informal English",
+              "Third Conditional talks about unreal past situations — things that did NOT happen and cannot be changed",
+              "The difference between Second and Third Conditional is the TIME: Second = unreal present/future, Third = unreal past"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Which Conditional describes unreal present situations?",
+                  "options": [
+                    "Zero",
+                    "First",
+                    "Second",
+                    "Third"
+                  ],
+                  "correct": "Second"
+                },
+                {
+                  "question": "What form is used in the if-clause of Third Conditional?",
+                  "options": [
+                    "Present Simple",
+                    "Past Simple",
+                    "Past Perfect",
+                    "Future Simple"
+                  ],
+                  "correct": "Past Perfect"
+                },
+                {
+                  "question": "'If I were you, I would accept' — which Conditional?",
+                  "options": [
+                    "First",
+                    "Second",
+                    "Third",
+                    "Zero"
+                  ],
+                  "correct": "Second"
+                },
+                {
+                  "question": "Which form: 'If I ___ harder, I would have passed'?",
+                  "options": [
+                    "study",
+                    "studied",
+                    "had studied",
+                    "would study"
+                  ],
+                  "correct": "had studied"
+                },
+                {
+                  "question": "In Second Conditional, 'were' is used for:",
+                  "options": [
+                    "Only plural subjects",
+                    "Only 'I'",
+                    "All persons",
+                    "Only 'he/she'"
+                  ],
+                  "correct": "All persons"
+                }
+              ],
+              "find": [
+                {
+                  "text": "Second Conditional: If + Past Simple, ___ + V",
+                  "answer": "would"
+                },
+                {
+                  "text": "Third Conditional: If + Past Perfect, would have + ___",
+                  "answer": "V3"
+                },
+                {
+                  "text": "In Second Conditional, use ___ for all persons instead of 'was'",
+                  "answer": "were"
+                },
+                {
+                  "text": "Third Conditional describes unreal ___ situations",
+                  "answer": "past"
+                },
+                {
+                  "text": "Second Conditional describes ___ present or future situations",
+                  "answer": "unreal"
+                }
+              ],
+              "match": [
+                {
+                  "term": "Second Conditional",
+                  "definition": "If + Past Simple, would + V — unreal present/future"
+                },
+                {
+                  "term": "Third Conditional",
+                  "definition": "If + Past Perfect, would have + V3 — unreal past"
+                },
+                {
+                  "term": "were",
+                  "definition": "Form used for all persons in Second Conditional if-clauses"
+                },
+                {
+                  "term": "would have + V3",
+                  "definition": "Result clause form in Third Conditional"
+                },
+                {
+                  "term": "If I were you",
+                  "definition": "Common Second Conditional phrase for giving advice"
+                }
+              ]
+            }
           }
         ]
       },
@@ -312,13 +1572,118 @@
             "examples": [
               "I usually wake up at 7 o'clock and have a shower. — Я обычно просыпаюсь в 7 часов и принимаю душ.",
               "After school I do my homework and then watch TV. — После школы делаю домашку и смотрю ТВ.",
-              "She goes to bed at 10 p.m. every day. — Она ложится спать в 10 вечера. (Предлог at со временем)"
+              "She goes to bed at 10 p.m. every day. — Она ложится спать в 10 вечера. (Предлог at со временем)",
+              "I leave home at 8:30 and have classes until 3 p.m. — Я выхожу из дома в 8:30 и учусь до 3 дня."
             ],
             "keyPoints": [
               "have a shower — принимать душ",
               "brush teeth — чистить зубы",
-              "leave home — выходить из дома"
-            ]
+              "leave home — выходить из дома",
+              "Daily routine vocabulary covers morning (wake up, get dressed), day (have classes, do homework), and evening (watch TV, go to bed)"
+            ],
+            "facts": [
+              "The phrase 'wake up' means to stop sleeping, while 'get up' means to leave the bed — they are different actions",
+              "In English, 'have breakfast/lunch/dinner' is more common than 'eat breakfast', though both are correct",
+              "Time prepositions: 'at' for clock times, 'in' for parts of the day, 'on' for days and dates"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "What does 'get up' mean?",
+                  "options": [
+                    "Stop sleeping",
+                    "Leave the bed",
+                    "Go to sleep",
+                    "Have breakfast"
+                  ],
+                  "correct": "Leave the bed"
+                },
+                {
+                  "question": "Which preposition: 'I have breakfast ___ the morning'?",
+                  "options": [
+                    "at",
+                    "on",
+                    "in",
+                    "by"
+                  ],
+                  "correct": "in"
+                },
+                {
+                  "question": "Which preposition: 'I wake up ___ 7 o'clock'?",
+                  "options": [
+                    "in",
+                    "on",
+                    "at",
+                    "by"
+                  ],
+                  "correct": "at"
+                },
+                {
+                  "question": "What does 'surf the Internet' mean?",
+                  "options": [
+                    "Swim in the ocean",
+                    "Browse websites online",
+                    "Watch TV",
+                    "Read a book"
+                  ],
+                  "correct": "Browse websites online"
+                },
+                {
+                  "question": "'Do homework' means:",
+                  "options": [
+                    "Play games",
+                    "Complete school assignments",
+                    "Clean the house",
+                    "Cook dinner"
+                  ],
+                  "correct": "Complete school assignments"
+                }
+              ],
+              "find": [
+                {
+                  "text": "'Wake ___' means to stop sleeping; 'get up' means to leave the bed",
+                  "answer": "up"
+                },
+                {
+                  "text": "Preposition for clock times: I wake up ___ 7 o'clock",
+                  "answer": "at"
+                },
+                {
+                  "text": "Preposition for parts of the day: ___ the morning",
+                  "answer": "in"
+                },
+                {
+                  "text": "Preposition for days: ___ Monday",
+                  "answer": "on"
+                },
+                {
+                  "text": "___ the Internet means to browse websites online",
+                  "answer": "Surf"
+                }
+              ],
+              "match": [
+                {
+                  "term": "wake up",
+                  "definition": "To stop sleeping and open your eyes"
+                },
+                {
+                  "term": "get dressed",
+                  "definition": "To put on clothes"
+                },
+                {
+                  "term": "do homework",
+                  "definition": "To complete school assignments at home"
+                },
+                {
+                  "term": "have a shower",
+                  "definition": "To wash your body under running water"
+                },
+                {
+                  "term": "go to bed",
+                  "definition": "To get into bed to sleep"
+                }
+              ]
+            }
           },
           {
             "title": "Hobbies and Free Time",
@@ -333,13 +1698,118 @@
             "examples": [
               "In my free time I like reading books and listening to music. — В свободное время люблю читать и слушать музыку.",
               "She plays the piano very well. — Она очень хорошо играет на пианино. (Артикль the с инструментом)",
-              "He is fond of playing football. — Он увлекается футболом. (Конструкция be fond of)"
+              "He is fond of playing football. — Он увлекается футболом. (Конструкция be fond of)",
+              "She is interested in photography and takes photos every weekend. — Она увлекается фотографией и фотографирует каждые выходные."
             ],
             "keyPoints": [
               "Виды хобби — read books / magazines — читать книги/журналы",
               "read books / magazines — читать книги/журналы",
-              "watch films / series — смотреть фильмы/сериалы"
-            ]
+              "watch films / series — смотреть фильмы/сериалы",
+              "Hobby vocabulary: read books, watch films, listen to music, play sports, play computer games, draw, dance, travel, take photos"
+            ],
+            "facts": [
+              "In English, we say 'play THE piano' (with article) but 'play football' (without article) — instruments need 'the', sports don't",
+              "'Be fond of' and 'be interested in' are formal ways to talk about hobbies; 'like' and 'love' are more casual",
+              "The word 'hobby' originally referred to a small horse (hobbyhorse) before it came to mean a leisure activity"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Which is correct: 'She can play ___ piano'?",
+                  "options": [
+                    "a",
+                    "the",
+                    "— (no article)",
+                    "an"
+                  ],
+                  "correct": "the"
+                },
+                {
+                  "question": "Which is correct: 'He plays ___ football'?",
+                  "options": [
+                    "a",
+                    "the",
+                    "— (no article)",
+                    "an"
+                  ],
+                  "correct": "— (no article)"
+                },
+                {
+                  "question": "'Be fond of' means:",
+                  "options": [
+                    "To dislike",
+                    "To be interested in / like",
+                    "To be afraid of",
+                    "To be tired of"
+                  ],
+                  "correct": "To be interested in / like"
+                },
+                {
+                  "question": "Which verb goes with swimming?",
+                  "options": [
+                    "play",
+                    "do",
+                    "go",
+                    "make"
+                  ],
+                  "correct": "go"
+                },
+                {
+                  "question": "What question asks about hobbies?",
+                  "options": [
+                    "Where do you live?",
+                    "What do you do in your free time?",
+                    "How old are you?",
+                    "What time is it?"
+                  ],
+                  "correct": "What do you do in your free time?"
+                }
+              ],
+              "find": [
+                {
+                  "text": "Musical instruments need article '___': play the piano, play the guitar",
+                  "answer": "the"
+                },
+                {
+                  "text": "Sports need no article: play ___, play tennis",
+                  "answer": "football"
+                },
+                {
+                  "text": "Go ___ means to swim for exercise or pleasure",
+                  "answer": "swimming"
+                },
+                {
+                  "text": "Be ___ of = to like something very much",
+                  "answer": "fond"
+                },
+                {
+                  "text": "Take ___ = to photograph with a camera",
+                  "answer": "photos"
+                }
+              ],
+              "match": [
+                {
+                  "term": "play the piano",
+                  "definition": "To play a musical instrument (article 'the' required)"
+                },
+                {
+                  "term": "play football",
+                  "definition": "To play a sport (no article needed)"
+                },
+                {
+                  "term": "go swimming",
+                  "definition": "To swim for exercise or pleasure (go + V-ing)"
+                },
+                {
+                  "term": "be fond of",
+                  "definition": "To like something very much — formal way to describe a hobby"
+                },
+                {
+                  "term": "take photos",
+                  "definition": "To capture images with a camera"
+                }
+              ]
+            }
           }
         ]
       },
@@ -359,13 +1829,118 @@
             "examples": [
               "Skimming — быстрый просмотр заголовков и первого абзаца для понимания главной идеи текста.",
               "Scanning — поиск конкретного имени или даты в тексте, не читая его целиком.",
-              "Слова-связки however (однако) и therefore (поэтому) помогают понять логическую структуру текста."
+              "Слова-связки however (однако) и therefore (поэтому) помогают понять логическую структуру текста.",
+              "When you scan a restaurant menu for a specific dish, you use scanning — searching for one item without reading the whole menu."
             ],
             "keyPoints": [
               "Виды чтения — Skimming (Просмотровое чтение):",
               "Skimming (Просмотровое чтение) — Быстрое прочтение для общего понимания",
-              "Scanning (Поисковое чтение) — Поиск конкретной информации"
-            ]
+              "Scanning (Поисковое чтение) — Поиск конкретной информации",
+              "Three types of reading: skimming (general idea), scanning (specific facts), detailed reading (full understanding)"
+            ],
+            "facts": [
+              "Skimming can help you read a 300-page book in about 30 minutes by focusing only on headings and key sentences",
+              "Scanning is similar to using Ctrl+F on a computer — you look for specific information without reading everything",
+              "Linking words (however, therefore, because) are key signals that show the logical relationship between ideas in a text"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "What reading strategy do you use to find a specific name in a text?",
+                  "options": [
+                    "Skimming",
+                    "Scanning",
+                    "Detailed reading",
+                    "Speed reading"
+                  ],
+                  "correct": "Scanning"
+                },
+                {
+                  "question": "What is skimming?",
+                  "options": [
+                    "Reading every word",
+                    "Quick reading for general idea",
+                    "Searching for specific facts",
+                    "Writing a summary"
+                  ],
+                  "correct": "Quick reading for general idea"
+                },
+                {
+                  "question": "What technique helps guess unknown words?",
+                  "options": [
+                    "Skimming",
+                    "Context clues",
+                    "Scanning",
+                    "Speed reading"
+                  ],
+                  "correct": "Context clues"
+                },
+                {
+                  "question": "What are linking words?",
+                  "options": [
+                    "Nouns in a text",
+                    "Words connecting ideas logically",
+                    "The first and last words",
+                    "Adjectives only"
+                  ],
+                  "correct": "Words connecting ideas logically"
+                },
+                {
+                  "question": "What is the structure of a text?",
+                  "options": [
+                    "Introduction, body, conclusion",
+                    "Only paragraphs",
+                    "Questions and answers",
+                    "Title only"
+                  ],
+                  "correct": "Introduction, body, conclusion"
+                }
+              ],
+              "find": [
+                {
+                  "text": "___ is quick reading for general understanding of a text",
+                  "answer": "Skimming"
+                },
+                {
+                  "text": "___ is searching for specific information like names or dates",
+                  "answer": "Scanning"
+                },
+                {
+                  "text": "___ words like 'however' and 'therefore' connect ideas logically",
+                  "answer": "Linking"
+                },
+                {
+                  "text": "The three parts of a text structure: introduction, body, ___",
+                  "answer": "conclusion"
+                },
+                {
+                  "text": "___ means predicting content from the title before reading",
+                  "answer": "Predicting"
+                }
+              ],
+              "match": [
+                {
+                  "term": "Skimming",
+                  "definition": "Quick reading of headings and first sentences for general idea"
+                },
+                {
+                  "term": "Scanning",
+                  "definition": "Searching for specific facts, names, or dates in a text"
+                },
+                {
+                  "term": "Detailed Reading",
+                  "definition": "Careful reading of the whole text for complete understanding"
+                },
+                {
+                  "term": "Predicting",
+                  "definition": "Guessing content from the title or headings before reading"
+                },
+                {
+                  "term": "Linking words",
+                  "definition": "Words like 'however', 'therefore', 'because' that show logical connections"
+                }
+              ]
+            }
           }
         ]
       }

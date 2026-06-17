@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" font-family="Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg16" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="100%" stop-color="#BBDEFB"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg16)" rx="8"/>
+  <text x="250" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#0D47A1">Эукариотическая клетка</text>
+  <line x1="140" y1="36" x2="360" y2="36" stroke="#1565C0" stroke-width="1"/>
+
+  <!-- Cell outline - irregular ellipse -->
+  <ellipse cx="250" cy="190" rx="195" ry="125" fill="#BBDEFB" fill-opacity="0.3" stroke="#1565C0" stroke-width="2.5"/>
+  
+  <!-- Cell membrane - double line effect -->
+  <ellipse cx="250" cy="190" rx="195" ry="125" fill="none" stroke="#42A5F5" stroke-width="1" stroke-dasharray="3,2"/>
+
+  <!-- Cytoplasm label -->
+  <text x="130" y="175" font-size="8" fill="#1565C0" font-style="italic">Цитоплазма</text>
+
+  <!-- NUCLEUS -->
+  <ellipse cx="250" cy="180" rx="52" ry="45" fill="#90CAF9" fill-opacity="0.5" stroke="#0D47A1" stroke-width="2"/>
+  <!-- Nuclear envelope double -->
+  <ellipse cx="250" cy="180" rx="55" ry="48" fill="none" stroke="#0D47A1" stroke-width="0.8"/>
+  <!-- Nucleolus -->
+  <circle cx="258" cy="175" r="12" fill="#42A5F5" fill-opacity="0.7" stroke="#1565C0" stroke-width="1"/>
+  <text x="258" y="178" text-anchor="middle" font-size="6" fill="#0D47A1">Ядр.</text>
+  <!-- Chromatin -->
+  <path d="M235,190 Q240,185 245,192 Q250,198 255,190" stroke="#1565C0" stroke-width="1" fill="none"/>
+  <!-- Nucleus label -->
+  <line x1="298" y1="170" x2="345" y2="130" stroke="#0D47A1" stroke-width="0.8"/>
+  <text x="350" y="128" font-size="9" font-weight="bold" fill="#0D47A1">Ядро</text>
+  <text x="350" y="140" font-size="7" fill="#1565C0">ДНК, наследств.</text>
+
+  <!-- ENDOPLASMIC RETICULUM (Rough) - left of nucleus -->
+  <path d="M180,150 Q170,155 175,165 Q180,175 170,180 Q165,185 170,195 Q175,205 170,210" stroke="#1E88E5" stroke-width="1.5" fill="none"/>
+  <path d="M175,150 Q165,155 170,165 Q175,175 165,180 Q160,185 165,195 Q170,205 165,210" stroke="#1E88E5" stroke-width="1.5" fill="none"/>
+  <!-- Ribosomes on rough ER -->
+  <circle cx="177" cy="155" r="2" fill="#0D47A1"/>
+  <circle cx="170" cy="170" r="2" fill="#0D47A1"/>
+  <circle cx="177" cy="185" r="2" fill="#0D47A1"/>
+  <circle cx="170" cy="200" r="2" fill="#0D47A1"/>
+  <!-- Label -->
+  <line x1="165" y1="148" x2="100" y2="120" stroke="#0D47A1" stroke-width="0.8"/>
+  <text x="60" y="118" font-size="8" font-weight="bold" fill="#0D47A1">ЭПС (шерох.)</text>
+  <text x="60" y="128" font-size="7" fill="#1565C0">Синтез белков</text>
+
+  <!-- Smooth ER - right side -->
+  <path d="M320,160 Q330,165 325,175 Q320,185 330,190 Q335,195 325,205" stroke="#64B5F6" stroke-width="1.5" fill="none"/>
+  <path d="M325,160 Q335,165 330,175 Q325,185 335,190 Q340,195 330,205" stroke="#64B5F6" stroke-width="1.5" fill="none"/>
+  <line x1="335" y1="162" x2="400" y2="148" stroke="#0D47A1" stroke-width="0.8"/>
+  <text x="405" y="146" font-size="8" font-weight="bold" fill="#0D47A1">ЭПС (гладк.)</text>
+  <text x="405" y="156" font-size="7" fill="#1565C0">Синтез липидов</text>
+
+  <!-- GOLGI APPARATUS - bottom left -->
+  <path d="M140,230 Q155,225 170,230" stroke="#FF9800" stroke-width="2.5" fill="none"/>
+  <path d="M138,237 Q155,232 172,237" stroke="#FF9800" stroke-width="2.5" fill="none"/>
+  <path d="M140,244 Q155,239 170,244" stroke="#FF9800" stroke-width="2.5" fill="none"/>
+  <path d="M142,251 Q155,246 168,251" stroke="#FF9800" stroke-width="2.5" fill="none"/>
+  <!-- Vesicles -->
+  <circle cx="128" cy="235" r="4" fill="#FFB74D" stroke="#E65100" stroke-width="0.8"/>
+  <circle cx="135" cy="250" r="3" fill="#FFB74D" stroke="#E65100" stroke-width="0.8"/>
+  <circle cx="180" cy="240" r="4" fill="#FFB74D" stroke="#E65100" stroke-width="0.8"/>
+  <!-- Label -->
+  <line x1="155" y1="258" x2="155" y2="282" stroke="#E65100" stroke-width="0.8"/>
+  <text x="155" y="292" text-anchor="middle" font-size="8" font-weight="bold" fill="#E65100">Комплекс Гольджи</text>
+  <text x="155" y="302" text-anchor="middle" font-size="7" fill="#FF9800">Транспорт, упаковка</text>
+
+  <!-- MITOCHONDRIA - right bottom -->
+  <ellipse cx="370" cy="240" rx="30" ry="14" fill="#AB47BC" fill-opacity="0.3" stroke="#6A1B9A" stroke-width="1.5"/>
+  <!-- Cristae -->
+  <path d="M355,235 Q360,230 365,235" stroke="#6A1B9A" stroke-width="1" fill="none"/>
+  <path d="M368,237 Q373,232 378,237" stroke="#6A1B9A" stroke-width="1" fill="none"/>
+  <path d="M380,235 Q385,230 390,235" stroke="#6A1B9A" stroke-width="1" fill="none"/>
+  <!-- Label -->
+  <line x1="380" y1="256" x2="400" y2="282" stroke="#6A1B9A" stroke-width="0.8"/>
+  <text x="400" y="290" font-size="8" font-weight="bold" fill="#6A1B9A">Митохондрия</text>
+  <text x="400" y="300" font-size="7" fill="#7B1FA2">Энергия (АТФ)</text>
+
+  <!-- Second mitochondria -->
+  <ellipse cx="350" cy="215" rx="22" ry="10" fill="#AB47BC" fill-opacity="0.25" stroke="#6A1B9A" stroke-width="1" transform="rotate(-20,350,215)"/>
+  <path d="M340,212 Q344,208 348,212" stroke="#6A1B9A" stroke-width="0.8" fill="none"/>
+
+  <!-- RIBOSOMES - scattered -->
+  <circle cx="200" cy="140" r="3" fill="#F44336" stroke="#B71C1C" stroke-width="0.8"/>
+  <circle cx="310" cy="200" r="3" fill="#F44336" stroke="#B71C1C" stroke-width="0.8"/>
+  <circle cx="290" cy="230" r="3" fill="#F44336" stroke="#B71C1C" stroke-width="0.8"/>
+  <circle cx="190" cy="210" r="3" fill="#F44336" stroke="#B71C1C" stroke-width="0.8"/>
+  <!-- Label -->
+  <line x1="290" y1="230" x2="320" y2="255" stroke="#B71C1C" stroke-width="0.8"/>
+  <text x="320" y="262" font-size="8" font-weight="bold" fill="#B71C1C">Рибосомы</text>
+  <text x="320" y="272" font-size="7" fill="#E53935">Синтез белка</text>
+
+  <!-- LYSOSOMES -->
+  <circle cx="320" cy="260" r="8" fill="#66BB6A" fill-opacity="0.5" stroke="#2E7D32" stroke-width="1"/>
+  <circle cx="340" cy="268" r="6" fill="#66BB6A" fill-opacity="0.5" stroke="#2E7D32" stroke-width="1"/>
+
+  <!-- Cell membrane label -->
+  <line x1="385" y1="100" x2="425" y2="80" stroke="#0D47A1" stroke-width="0.8"/>
+  <text x="430" y="78" font-size="8" font-weight="bold" fill="#0D47A1">Мембрана</text>
+  <text x="430" y="88" font-size="7" fill="#1565C0">Полупроницаемая</text>
+
+  <!-- Title subtitle -->
+  <text x="250" y="340" text-anchor="middle" font-size="8" fill="#0D47A1">Животная эукариотическая клетка: мембрана → цитоплазма → ядро → органоиды</text>
+</svg>

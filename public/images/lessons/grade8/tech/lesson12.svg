@@ -1,37 +1,125 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
+    <linearGradient id="bgT12" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#263238"/>
-      <stop offset="100%" stop-color="#37474F"/>
+    <linearGradient id="nozzleGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0e0e0"/>
+      <stop offset="100%" stop-color="#a0a0a0"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#37474F" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#37474F" stroke-width="1" opacity="0.3"/>
-  <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#37474F" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#37474F" text-anchor="middle">Современные технологии в промышленности</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Технология - Урок 12</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#37474F" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#37474F" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA -->
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#ECEFF1"/><text x="250" y="130" font-family="Arial,sans-serif" font-size="20" fill="#37474F" text-anchor="middle" font-weight="bold">Современные технологии в промышленности</text><rect x="25" y="155" width="140" height="45" rx="5" fill="#E3F2FD" stroke="#37474F" stroke-width="1.5"/><text x="95" y="182" font-family="Arial" font-size="12" fill="#37474F" text-anchor="middle">Современные технологии</text><rect x="170" y="155" width="140" height="45" rx="5" fill="#FFF3E0" stroke="#263238" stroke-width="1.5"/><text x="240" y="182" font-family="Arial" font-size="12" fill="#263238" text-anchor="middle">Роботизация:</text><rect x="315" y="155" width="140" height="45" rx="5" fill="#FFFDE7" stroke="#F9A825" stroke-width="1.5"/><text x="385" y="182" font-family="Arial" font-size="12" fill="#F9A825" text-anchor="middle">3D-печать:</text><rect x="25" y="210" width="140" height="45" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/><text x="95" y="238" font-family="Arial" font-size="12" fill="#2E7D32" text-anchor="middle">Лазерные технологии:</text><rect x="170" y="210" width="140" height="45" rx="5" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="1.5"/><text x="240" y="238" font-family="Arial" font-size="12" fill="#6A1B9A" text-anchor="middle">Нанотехнологии:</text><rect x="315" y="210" width="140" height="45" rx="5" fill="#FFEBEE" stroke="#E65100" stroke-width="1.5"/><text x="385" y="238" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">Компьютерное моделирова...</text>
-  <polygon points="50,275 65,265 65,285" fill="#37474F" opacity="0.1"/>
+  <rect width="500" height="350" fill="url(#bgT12)"/>
+  <!-- 3D Printer -->
+  <g transform="translate(15, 20)">
+    <rect width="160" height="150" rx="8" fill="#1e2a3a" stroke="#30363d" stroke-width="1"/>
+    <text x="80" y="18" fill="#6c5ce7" font-size="10" font-family="sans-serif" text-anchor="middle" font-weight="bold">3D-принтер</text>
+    <!-- Frame -->
+    <rect x="15" y="28" width="130" height="90" rx="4" fill="none" stroke="#6c5ce7" stroke-width="2"/>
+    <!-- Print bed -->
+    <rect x="25" y="95" width="110" height="8" rx="2" fill="#333" stroke="#555" stroke-width="1"/>
+    <!-- Being printed object -->
+    <rect x="55" y="72" width="30" height="23" rx="2" fill="#e17055" opacity="0.8"/>
+    <rect x="55" y="62" width="30" height="10" rx="1" fill="#e17055" opacity="0.6"/>
+    <!-- Print head -->
+    <rect x="60" y="42" width="20" height="12" rx="2" fill="url(#nozzleGrad)" stroke="#888" stroke-width="1"/>
+    <!-- Filament -->
+    <line x1="70" y1="42" x2="70" y2="30" stroke="#e17055" stroke-width="1.5"/>
+    <!-- Z-axis rods -->
+    <line x1="20" y1="28" x2="20" y2="118" stroke="#6c5ce7" stroke-width="1.5"/>
+    <line x1="140" y1="28" x2="140" y2="118" stroke="#6c5ce7" stroke-width="1.5"/>
+    <!-- X-axis rail -->
+    <line x1="20" y1="48" x2="140" y2="48" stroke="#6c5ce7" stroke-width="1"/>
+    <!-- Spool -->
+    <circle cx="130" cy="35" r="8" fill="none" stroke="#e17055" stroke-width="2"/>
+    <circle cx="130" cy="35" r="3" fill="#e17055"/>
+    <text x="80" y="135" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">FDM/SLA печать</text>
+    <text x="80" y="147" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">PLA, ABS, PETG</text>
   </g>
-  <!-- Bottom panel -->
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Технология</text>
+  <!-- CNC Machine -->
+  <g transform="translate(185, 20)">
+    <rect width="160" height="150" rx="8" fill="#1e2a3a" stroke="#30363d" stroke-width="1"/>
+    <text x="80" y="18" fill="#00b894" font-size="10" font-family="sans-serif" text-anchor="middle" font-weight="bold">CNC-станок</text>
+    <!-- Machine body -->
+    <rect x="15" y="28" width="130" height="95" rx="4" fill="#2a3a4a" stroke="#00b894" stroke-width="1.5"/>
+    <!-- Work area -->
+    <rect x="25" y="70" width="90" height="40" rx="2" fill="#1a2a3a"/>
+    <!-- Material being cut -->
+    <rect x="35" y="80" width="70" height="20" rx="2" fill="#d4a574" stroke="#a07830" stroke-width="1"/>
+    <!-- Cutter -->
+    <line x1="65" y1="55" x2="65" y2="80" stroke="#e0e0e0" stroke-width="3"/>
+    <polygon points="63,80 67,80 65,85" fill="#e0e0e0"/>
+    <!-- Spindle -->
+    <rect x="55" y="45" width="20" height="15" rx="3" fill="#888" stroke="#666" stroke-width="1"/>
+    <!-- Sparks -->
+    <circle cx="65" cy="82" r="2" fill="#ffd93d">
+      <animate attributeName="opacity" values="1;0;1" dur="0.3s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Coordinate axes -->
+    <g transform="translate(120, 95)" stroke-width="1.5">
+      <line x1="0" y1="0" x2="15" y2="0" stroke="#ff5f56"/>
+      <line x1="0" y1="0" x2="0" y2="-15" stroke="#00b894"/>
+      <text x="18" y="3" fill="#ff5f56" font-size="7">X</text>
+      <text x="-3" y="-17" fill="#00b894" font-size="7">Z</text>
+    </g>
+    <text x="80" y="135" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">Фрезерование</text>
+    <text x="80" y="147" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">G-code управление</text>
+  </g>
+  <!-- Laser Cutter -->
+  <g transform="translate(355, 20)">
+    <rect width="135" height="150" rx="8" fill="#1e2a3a" stroke="#30363d" stroke-width="1"/>
+    <text x="67" y="18" fill="#e17055" font-size="10" font-family="sans-serif" text-anchor="middle" font-weight="bold">Лазерный станок</text>
+    <!-- Machine body -->
+    <rect x="10" y="28" width="115" height="95" rx="4" fill="#2a3a4a" stroke="#e17055" stroke-width="1.5"/>
+    <!-- Laser head -->
+    <rect x="50" y="40" width="16" height="20" rx="2" fill="#888" stroke="#666" stroke-width="1"/>
+    <!-- Laser beam -->
+    <line x1="58" y1="60" x2="58" y2="85" stroke="#ff5f56" stroke-width="2" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="0.5s" repeatCount="indefinite"/>
+    </line>
+    <!-- Burn point -->
+    <circle cx="58" cy="85" r="3" fill="#ffd93d" opacity="0.8">
+      <animate attributeName="r" values="3;5;3" dur="0.5s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Material -->
+    <rect x="25" y="85" width="70" height="8" rx="1" fill="#d4a574" stroke="#a07830" stroke-width="1"/>
+    <!-- Cut line on material -->
+    <line x1="58" y1="85" x2="58" y2="93" stroke="#333" stroke-width="1"/>
+    <!-- Warning symbol -->
+    <polygon points="58,28 52,38 64,38" fill="none" stroke="#ffd93d" stroke-width="1"/>
+    <text x="58" y="36" fill="#ffd93d" font-size="7" text-anchor="middle">!</text>
+    <text x="67" y="135" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">Резка / гравировка</text>
+    <text x="67" y="147" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">CO₂ / волоконный</text>
+  </g>
+  <!-- Technology comparison -->
+  <rect x="15" y="185" width="470" height="135" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <text x="250" y="205" fill="#e0e0e0" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="bold">Сравнение технологий</text>
+  <!-- Table -->
+  <text x="65" y="225" fill="#ffd93d" font-size="8" font-family="monospace" text-anchor="middle">Технология</text>
+  <text x="170" y="225" fill="#ffd93d" font-size="8" font-family="monospace" text-anchor="middle">Материал</text>
+  <text x="270" y="225" fill="#ffd93d" font-size="8" font-family="monospace" text-anchor="middle">Точность</text>
+  <text x="360" y="225" fill="#ffd93d" font-size="8" font-family="monospace" text-anchor="middle">Скорость</text>
+  <text x="440" y="225" fill="#ffd93d" font-size="8" font-family="monospace" text-anchor="middle">Применение</text>
+  <line x1="25" y1="230" x2="475" y2="230" stroke="#30363d" stroke-width="0.5"/>
+  <!-- 3D print row -->
+  <text x="65" y="247" fill="#6c5ce7" font-size="8" font-family="monospace" text-anchor="middle">3D-печать</text>
+  <text x="170" y="247" fill="#c9d1d9" font-size="8" font-family="monospace" text-anchor="middle">Пластик</text>
+  <text x="270" y="247" fill="#c9d1d9" font-size="8" font-family="monospace" text-anchor="middle">0.1-0.3 мм</text>
+  <text x="360" y="247" fill="#fdcb6e" font-size="8" font-family="monospace" text-anchor="middle">Медленно</text>
+  <text x="440" y="247" fill="#c9d1d9" font-size="8" font-family="monospace" text-anchor="middle">Прототипы</text>
+  <!-- CNC row -->
+  <text x="65" y="267" fill="#00b894" font-size="8" font-family="monospace" text-anchor="middle">CNC</text>
+  <text x="170" y="267" fill="#c9d1d9" font-size="8" font-family="monospace" text-anchor="middle">Дерево/Металл</text>
+  <text x="270" y="267" fill="#c9d1d9" font-size="8" font-family="monospace" text-anchor="middle">0.01-0.1 мм</text>
+  <text x="360" y="267" fill="#fdcb6e" font-size="8" font-family="monospace" text-anchor="middle">Средне</text>
+  <text x="440" y="267" fill="#c9d1d9" font-size="8" font-family="monospace" text-anchor="middle">Детали</text>
+  <!-- Laser row -->
+  <text x="65" y="287" fill="#e17055" font-size="8" font-family="monospace" text-anchor="middle">Лазер</text>
+  <text x="170" y="287" fill="#c9d1d9" font-size="8" font-family="monospace" text-anchor="middle">Дерево/Акрил</text>
+  <text x="270" y="287" fill="#c9d1d9" font-size="8" font-family="monospace" text-anchor="middle">0.05-0.2 мм</text>
+  <text x="360" y="287" fill="#00b894" font-size="8" font-family="monospace" text-anchor="middle">Быстро</text>
+  <text x="440" y="287" fill="#c9d1d9" font-size="8" font-family="monospace" text-anchor="middle">Резка/Грав.</text>
+  <!-- Common note -->
+  <text x="250" y="310" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">Все технологии управляются ЧПУ (числовое программное управление)</text>
+  <text x="250" y="340" fill="#aaa" font-size="9" opacity="0.5" font-family="sans-serif" text-anchor="middle">Современные технологии</text>
 </svg>

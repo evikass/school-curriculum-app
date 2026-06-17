@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+<linearGradient id="fernGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#66BB6A"/><stop offset="100%" stop-color="#2E7D32"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Папоротники</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 6 класс — Урок 19</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- Section 1: Fern plant with labeled parts -->
+<text x="95" y="67" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Строение папоротника</text>
+
+<g transform="translate(15,75)">
+<!-- Ground -->
+<path d="M0,155 Q40,150 80,155 Q120,160 160,153" fill="none" stroke="#795548" stroke-width="1.5"/>
+<rect x="0" y="155" width="160" height="25" fill="#8D6E63" opacity="0.1"/>
+
+<!-- Rhizome (корневище - underground) -->
+<path d="M30,162 Q50,158 80,160 Q110,162 130,158" fill="none" stroke="#8D6E63" stroke-width="4" stroke-linecap="round"/>
+<!-- Roots from rhizome -->
+<path d="M50,162 Q48,170 45,175" fill="none" stroke="#A1887F" stroke-width="1"/>
+<path d="M70,160 Q68,168 65,173" fill="none" stroke="#A1887F" stroke-width="1"/>
+<path d="M90,162 Q88,170 85,175" fill="none" stroke="#A1887F" stroke-width="1"/>
+<path d="M110,160 Q108,168 105,172" fill="none" stroke="#A1887F" stroke-width="1"/>
+
+<!-- Frond 1 (left) -->
+<path d="M50,158 Q45,130 35,100 Q28,80 25,60" fill="none" stroke="#4CAF50" stroke-width="2"/>
+<!-- Pinnae (leaflets) -->
+<path d="M35,100 Q20,95 15,100" fill="none" stroke="#66BB6A" stroke-width="1"/>
+<path d="M35,100 Q50,95 55,100" fill="none" stroke="#66BB6A" stroke-width="1"/>
+<path d="M30,85 Q15,80 10,85" fill="none" stroke="#66BB6A" stroke-width="1"/>
+<path d="M30,85 Q45,80 50,85" fill="none" stroke="#66BB6A" stroke-width="1"/>
+<path d="M28,72 Q14,68 10,72" fill="none" stroke="#66BB6A" stroke-width="1"/>
+<path d="M28,72 Q40,68 45,72" fill="none" stroke="#66BB6A" stroke-width="1"/>
+<path d="M26,60 Q15,57 12,62" fill="none" stroke="#66BB6A" stroke-width="0.8"/>
+<path d="M26,60 Q36,57 40,62" fill="none" stroke="#66BB6A" stroke-width="0.8"/>
+<!-- Sub-pinnae -->
+<path d="M15,100 Q8,97 5,100" fill="none" stroke="#81C784" stroke-width="0.5"/>
+<path d="M50,100 Q55,97 58,100" fill="none" stroke="#81C784" stroke-width="0.5"/>
+
+<!-- Frond 2 (center, taller) -->
+<path d="M80,158 Q78,120 75,90 Q72,60 70,30" fill="none" stroke="#4CAF50" stroke-width="2.5"/>
+<!-- Pinnae -->
+<path d="M75,90 Q58,84 52,90" fill="none" stroke="#66BB6A" stroke-width="1.2"/>
+<path d="M75,90 Q92,84 98,90" fill="none" stroke="#66BB6A" stroke-width="1.2"/>
+<path d="M73,70 Q58,65 52,70" fill="none" stroke="#66BB6A" stroke-width="1.2"/>
+<path d="M73,70 Q88,65 94,70" fill="none" stroke="#66BB6A" stroke-width="1.2"/>
+<path d="M72,55 Q60,50 55,55" fill="none" stroke="#66BB6A" stroke-width="1"/>
+<path d="M72,55 Q84,50 90,55" fill="none" stroke="#66BB6A" stroke-width="1"/>
+<path d="M71,42 Q62,38 58,42" fill="none" stroke="#66BB6A" stroke-width="0.8"/>
+<path d="M71,42 Q80,38 85,42" fill="none" stroke="#66BB6A" stroke-width="0.8"/>
+
+<!-- Sori on the back of frond 2 (brown dots) -->
+<circle cx="60" cy="87" r="2" fill="#8D6E63" opacity="0.6"/>
+<circle cx="65" cy="85" r="2" fill="#8D6E63" opacity="0.6"/>
+<circle cx="88" cy="87" r="2" fill="#8D6E63" opacity="0.6"/>
+<circle cx="93" cy="85" r="2" fill="#8D6E63" opacity="0.6"/>
+<circle cx="60" cy="67" r="2" fill="#8D6E63" opacity="0.6"/>
+<circle cx="65" cy="65" r="2" fill="#8D6E63" opacity="0.6"/>
+<circle cx="88" cy="67" r="2" fill="#8D6E63" opacity="0.6"/>
+<circle cx="93" cy="65" r="2" fill="#8D6E63" opacity="0.6"/>
+
+<!-- Frond 3 (right) -->
+<path d="M110,155 Q112,125 118,95 Q122,75 125,55" fill="none" stroke="#4CAF50" stroke-width="1.8"/>
+<path d="M118,95 Q105,90 100,95" fill="none" stroke="#66BB6A" stroke-width="1"/>
+<path d="M118,95 Q130,90 135,95" fill="none" stroke="#66BB6A" stroke-width="1"/>
+<path d="M120,80 Q108,75 103,80" fill="none" stroke="#66BB6A" stroke-width="1"/>
+<path d="M120,80 Q132,75 137,80" fill="none" stroke="#66BB6A" stroke-width="1"/>
+<path d="M122,67 Q112,63 108,67" fill="none" stroke="#66BB6A" stroke-width="0.8"/>
+<path d="M122,67 Q132,63 137,67" fill="none" stroke="#66BB6A" stroke-width="0.8"/>
+
+<!-- Young frond (улитка/crosier) -->
+<path d="M130,155 Q135,145 138,135 Q142,125 145,120 Q148,115 142,112 Q136,110 135,115 Q134,120 138,125" fill="none" stroke="#81C784" stroke-width="1.5"/>
+
+<!-- Labels -->
+<text x="3" y="165" font-family="Arial,sans-serif" font-size="6" fill="#8D6E63">корневище</text>
+<line x1="48" y1="162" x2="30" y2="162" stroke="#8D6E63" stroke-width="0.3"/>
+<text x="3" y="175" font-family="Arial,sans-serif" font-size="6" fill="#A1887F">придаточные</text>
+<text x="3" y="182" font-family="Arial,sans-serif" font-size="6" fill="#A1887F">корни</text>
+
+<text x="140" y="60" font-family="Arial,sans-serif" font-size="6" fill="#4CAF50">вайи</text>
+<text x="140" y="68" font-family="Arial,sans-serif" font-size="5.5" fill="#4CAF50">(листья)</text>
+<line x1="138" y1="62" x2="130" y2="80" stroke="#4CAF50" stroke-width="0.3"/>
+
+<text x="140" y="82" font-family="Arial,sans-serif" font-size="6" fill="#8D6E63">сорусы</text>
+<line x1="138" y1="80" x2="95" y2="85" stroke="#8D6E63" stroke-width="0.3" stroke-dasharray="1,1"/>
+
+<text x="145" y="118" font-family="Arial,sans-serif" font-size="6" fill="#81C784">молодая</text>
+<text x="145" y="126" font-family="Arial,sans-serif" font-size="6" fill="#81C784">вайя (улитка)</text>
+</g>
+
+<!-- Section 2: Sori detail (top right) -->
+<text x="345" y="67" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Сорусы (деталь)</text>
+
+<g transform="translate(280,75)">
+<!-- Leaf surface section -->
+<path d="M0,30 Q50,25 100,30 Q110,40 100,50 Q50,55 0,50 Q-10,40 0,30Z" fill="#C8E6C9" opacity="0.5" stroke="#4CAF50" stroke-width="0.8"/>
+
+<!-- Sori clusters -->
+<circle cx="20" cy="38" r="8" fill="#8D6E63" opacity="0.4" stroke="#5D4037" stroke-width="0.8"/>
+<circle cx="45" cy="35" r="9" fill="#8D6E63" opacity="0.4" stroke="#5D4037" stroke-width="0.8"/>
+<circle cx="72" cy="36" r="8" fill="#8D6E63" opacity="0.4" stroke="#5D4037" stroke-width="0.8"/>
+<circle cx="92" cy="40" r="7" fill="#8D6E63" opacity="0.4" stroke="#5D4037" stroke-width="0.8"/>
+
+<!-- Individual sporangia visible in one sorus -->
+<circle cx="42" cy="33" r="1.5" fill="#5D4037" opacity="0.5"/>
+<circle cx="47" cy="32" r="1.5" fill="#5D4037" opacity="0.5"/>
+<circle cx="45" cy="37" r="1.5" fill="#5D4037" opacity="0.5"/>
+<circle cx="49" cy="36" r="1.5" fill="#5D4037" opacity="0.5"/>
+<circle cx="43" cy="38" r="1.5" fill="#5D4037" opacity="0.5"/>
+<circle cx="48" cy="40" r="1.2" fill="#5D4037" opacity="0.5"/>
+
+<!-- Indusium (cover) -->
+<path d="M36,28 Q45,24 54,28" fill="none" stroke="#E65100" stroke-width="0.6" stroke-dasharray="2,1"/>
+<text x="45" y="22" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">индузий (покрывальце)</text>
+
+<text x="50" y="65" font-family="Arial,sans-serif" font-size="6" fill="#5D4037" text-anchor="middle">сорусы = группы спорангиев</text>
+<text x="50" y="73" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">на нижней стороне вайи</text>
+</g>
+
+<!-- Section 3: Life cycle diagram -->
+<text x="345" y="155" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Жизненный цикл</text>
+
+<g transform="translate(280,162)">
+<rect x="0" y="0" width="200" height="75" rx="4" fill="white" opacity="0.3" stroke="#2E7D32" stroke-width="0.5"/>
+
+<!-- Sporophyte (2n) - big -->
+<rect x="5" y="5" width="60" height="30" rx="5" fill="#81C784" opacity="0.3" stroke="#4CAF50" stroke-width="1"/>
+<text x="35" y="18" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Спорофит</text>
+<text x="35" y="27" font-family="Arial,sans-serif" font-size="6" fill="#4CAF50" text-anchor="middle">(2n) — папоротник</text>
+
+<!-- Prothallus (n) - small -->
+<rect x="135" y="5" width="60" height="30" rx="5" fill="#FFECB3" opacity="0.3" stroke="#FF9800" stroke-width="1"/>
+<text x="165" y="18" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">Заросток</text>
+<text x="165" y="27" font-family="Arial,sans-serif" font-size="6" fill="#FF9800" text-anchor="middle">(n) — маленький</text>
+
+<!-- Arrow: sporophyte → spores → prothallus -->
+<path d="M65,20 L135,20" fill="none" stroke="#2E7D32" stroke-width="0.8"/>
+<polygon points="133,18 137,20 133,22" fill="#2E7D32"/>
+<text x="100" y="16" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32" text-anchor="middle">споры (n)</text>
+
+<!-- Arrow: prothallus → fertilization → sporophyte -->
+<path d="M165,38 Q165,55 100,55 Q35,55 35,38" fill="none" stroke="#FF9800" stroke-width="0.8"/>
+<polygon points="33,40 35,36 37,40" fill="#FF9800"/>
+<text x="100" y="52" font-family="Arial,sans-serif" font-size="5.5" fill="#FF9800" text-anchor="middle">оплодотворение (нужна вода!)</text>
+
+<!-- Prothallus detail -->
+<text x="165" y="45" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">антеридии ♂ + архегонии ♀</text>
+
+<!-- Key fact -->
+<text x="100" y="68" font-family="Arial,sans-serif" font-size="5.5" fill="#1B5E20" text-anchor="middle">Спорофит преобладает над гаметофитом</text>
+</g>
+
+<!-- Section 4: Young frond (crosier/улитка) detail -->
+<text x="185" y="178" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20" text-anchor="middle">Молодая вайя</text>
+
+<g transform="translate(150,185)">
+<!-- Crossier (fiddlehead) -->
+<path d="M30,50 Q25,40 28,30 Q32,20 38,15 Q44,10 48,14 Q52,18 48,24 Q44,30 38,32 Q32,34 30,28" fill="none" stroke="#4CAF50" stroke-width="2.5" stroke-linecap="round"/>
+<!-- Inner coils -->
+<path d="M38,15 Q42,12 45,15" fill="none" stroke="#81C784" stroke-width="1.5"/>
+<!-- Hairs on crosier -->
+<line x1="35" y1="13" x2="32" y2="8" stroke="#C8E6C9" stroke-width="0.5"/>
+<line x1="42" y1="12" x2="44" y2="7" stroke="#C8E6C9" stroke-width="0.5"/>
+<line x1="28" y1="22" x2="24" y2="18" stroke="#C8E6C9" stroke-width="0.5"/>
+
+<text x="60" y="20" font-family="Arial,sans-serif" font-size="6" fill="#4CAF50">улиткообразное</text>
+<text x="60" y="28" font-family="Arial,sans-serif" font-size="6" fill="#4CAF50">закручивание</text>
+<text x="60" y="40" font-family="Arial,sans-serif" font-size="5.5" fill="#666">защита точки</text>
+<text x="60" y="48" font-family="Arial,sans-serif" font-size="5.5" fill="#666">роста (апекса)</text>
+</g>
+
+<!-- Section 5: Ancient fern forest -->
+<text x="250" y="250" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20" text-anchor="middle">Древние папоротники — Карбон (~300 млн лет)</text>
+
+<g transform="translate(30,258)">
+<!-- Background - ancient atmosphere -->
+<rect x="0" y="0" width="440" height="65" rx="4" fill="#FFF8E1" opacity="0.3" stroke="#FF8F00" stroke-width="0.5"/>
+
+<!-- Giant tree fern 1 -->
+<rect x="30" y="10" width="12" height="55" rx="2" fill="#5D4037" opacity="0.5" stroke="#3E2723" stroke-width="0.5"/>
+<path d="M36,10 Q20,5 10,15" fill="none" stroke="#4CAF50" stroke-width="1.5" opacity="0.6"/>
+<path d="M36,10 Q50,5 60,15" fill="none" stroke="#4CAF50" stroke-width="1.5" opacity="0.6"/>
+<!-- Frond canopy -->
+<path d="M10,15 Q5,12 0,15" fill="none" stroke="#66BB6A" stroke-width="1" opacity="0.5"/>
+<path d="M60,15 Q65,12 70,15" fill="none" stroke="#66BB6A" stroke-width="1" opacity="0.5"/>
+
+<!-- Giant tree fern 2 -->
+<rect x="100" y="5" width="15" height="60" rx="3" fill="#5D4037" opacity="0.5" stroke="#3E2723" stroke-width="0.5"/>
+<path d="M107,5 Q85,-5 70,10" fill="none" stroke="#4CAF50" stroke-width="2" opacity="0.6"/>
+<path d="M107,5 Q130,-5 145,10" fill="none" stroke="#4CAF50" stroke-width="2" opacity="0.6"/>
+
+<!-- Giant tree fern 3 -->
+<rect x="190" y="8" width="14" height="57" rx="3" fill="#5D4037" opacity="0.5" stroke="#3E2723" stroke-width="0.5"/>
+<path d="M197,8 Q175,0 160,12" fill="none" stroke="#4CAF50" stroke-width="2" opacity="0.6"/>
+<path d="M197,8 Q220,0 235,12" fill="none" stroke="#4CAF50" stroke-width="2" opacity="0.6"/>
+
+<!-- Lepidodendron (club moss tree) -->
+<rect x="280" y="3" width="10" height="62" rx="2" fill="#795548" opacity="0.5" stroke="#4E342E" stroke-width="0.5"/>
+<path d="M285,3 Q275,-3 268,5" fill="none" stroke="#66BB6A" stroke-width="1.2" opacity="0.5"/>
+<path d="M285,3 Q295,-3 302,5" fill="none" stroke="#66BB6A" stroke-width="1.2" opacity="0.5"/>
+
+<!-- Calamites (horsetail tree) -->
+<rect x="350" y="10" width="8" height="55" rx="2" fill="#6D4C41" opacity="0.5" stroke="#4E342E" stroke-width="0.5"/>
+<!-- Nodes -->
+<line x1="350" y1="25" x2="358" y2="25" stroke="#4E342E" stroke-width="0.5" opacity="0.5"/>
+<line x1="350" y1="38" x2="358" y2="38" stroke="#4E342E" stroke-width="0.5" opacity="0.5"/>
+<line x1="350" y1="50" x2="358" y2="50" stroke="#4E342E" stroke-width="0.5" opacity="0.5"/>
+<!-- Branch whorls -->
+<path d="M354,25 Q340,20 335,25" fill="none" stroke="#81C784" stroke-width="0.8" opacity="0.5"/>
+<path d="M354,25 Q368,20 373,25" fill="none" stroke="#81C784" stroke-width="0.8" opacity="0.5"/>
+<path d="M354,38 Q340,33 335,38" fill="none" stroke="#81C784" stroke-width="0.8" opacity="0.5"/>
+<path d="M354,38 Q368,33 373,38" fill="none" stroke="#81C784" stroke-width="0.8" opacity="0.5"/>
+
+<!-- Coal layer at bottom -->
+<rect x="0" y="58" width="440" height="7" rx="1" fill="#37474F" opacity="0.4" stroke="#263238" stroke-width="0.3"/>
+
+<!-- Labels -->
+<text x="40" y="70" font-family="Arial,sans-serif" font-size="5" fill="#5D4037">древовидные</text>
+<text x="40" y="76" font-family="Arial,sans-serif" font-size="5" fill="#5D4037">папоротники</text>
+<text x="285" y="70" font-family="Arial,sans-serif" font-size="5" fill="#795548">Лепидодендрон</text>
+<text x="354" y="70" font-family="Arial,sans-serif" font-size="5" fill="#6D4C41">Каламиты</text>
+<text x="220" y="65" font-family="Arial,sans-serif" font-size="6" fill="#37474F" text-anchor="middle">→ каменный уголь</text>
+</g>
+</svg>

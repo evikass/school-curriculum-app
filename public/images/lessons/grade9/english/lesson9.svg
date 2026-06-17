@@ -1,41 +1,61 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8EAF6"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#5C6BC0"/>
-      <stop offset="100%" stop-color="#283593"/>
+    <linearGradient id="ebg9" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d97706"/>
+      <stop offset="100%" style="stop-color:#78350f"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#283593" opacity="0.12"/>
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Типы СМИ</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Английский язык — Урок 9</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="15" y="72" width="235" height="225" rx="4" fill="#5C6BC0" opacity="0.05"/>
-  <text x="22" y="88" font-family="Arial,sans-serif" font-size="10" fill="#283593" text-anchor="start" font-weight="bold">Типы:</text>
-  <text x="75" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Print media: newspapers, magazines</text>
-  <text x="32" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Broadcast: TV, radio</text>
-  <text x="32" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Digital: websites, blogs</text>
-  <text x="32" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Social media: platforms</text>
-  <text x="22" y="168" font-family="Arial,sans-serif" font-size="10" fill="#283593" text-anchor="start" font-weight="bold">Словарь:</text>
-  <text x="75" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">headline — заголовок</text>
-  <rect x="255" y="72" width="230" height="225" rx="4" fill="#5C6BC0" opacity="0.05"/>
-  <text x="272" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">article — статья, editor — редактор</text>
-  <text x="272" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">broadcast — трансляция</text>
-  <text x="272" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">coverage — освещение</text>
-  <text x="262" y="148" font-family="Arial,sans-serif" font-size="10" fill="#283593" text-anchor="start" font-weight="bold">Фразы:</text>
-  <text x="315" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">According to the news...</text>
-  <text x="272" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">The media reports that...</text>
-  <rect x="15" y="280" width="235" height="18" rx="4" fill="#5C6BC0" opacity="0.06"/>
-  <text x="132" y="293" font-family="Arial,sans-serif" font-size="9" fill="#283593" text-anchor="middle" font-weight="bold">Media literacy</text>
-  <rect x="255" y="280" width="230" height="18" rx="4" fill="#5C6BC0" opacity="0.06"/>
-  <text x="370" y="293" font-family="Arial,sans-serif" font-size="9" fill="#283593" text-anchor="middle" font-weight="bold">Fake news — фейковые новости</text>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">English · Типы СМИ</text>
+  <rect width="500" height="350" fill="url(#ebg9)" rx="12"/>
+  <!-- Three article zones -->
+  <!-- A/An zone -->
+  <rect x="15" y="20" width="155" height="150" rx="8" fill="#92400e" stroke="#fbbf24" stroke-width="1.5"/>
+  <text x="92" y="45" font-family="sans-serif" font-size="18" fill="#fbbf24" text-anchor="middle" font-weight="bold">A / An</text>
+  <text x="92" y="62" font-family="sans-serif" font-size="8" fill="#fde68a" text-anchor="middle">Indefinite Article</text>
+  <text x="92" y="80" font-family="sans-serif" font-size="7" fill="#fef3c7" text-anchor="middle">First mention</text>
+  <text x="92" y="93" font-family="sans-serif" font-size="7" fill="#fef3c7" text-anchor="middle">Professions: She is a doctor</text>
+  <text x="92" y="106" font-family="sans-serif" font-size="7" fill="#fef3c7" text-anchor="middle">Singular countable</text>
+  <text x="92" y="123" font-family="sans-serif" font-size="7" fill="#fbbf24" text-anchor="middle">A before consonant SOUND</text>
+  <text x="92" y="136" font-family="sans-serif" font-size="7" fill="#fbbf24" text-anchor="middle">An before vowel SOUND</text>
+  <rect x="30" y="145" width="50" height="16" rx="3" fill="#b45309"/>
+  <text x="55" y="156" font-family="sans-serif" font-size="7" fill="white" text-anchor="middle">a book</text>
+  <rect x="85" y="145" width="60" height="16" rx="3" fill="#b45309"/>
+  <text x="115" y="156" font-family="sans-serif" font-size="7" fill="white" text-anchor="middle">an apple</text>
+  <!-- The zone -->
+  <rect x="180" y="20" width="140" height="150" rx="8" fill="#78350f" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="250" y="45" font-family="sans-serif" font-size="18" fill="#fca5a5" text-anchor="middle" font-weight="bold">The</text>
+  <text x="250" y="62" font-family="sans-serif" font-size="8" fill="#fecaca" text-anchor="middle">Definite Article</text>
+  <text x="250" y="80" font-family="sans-serif" font-size="7" fill="#fecaca" text-anchor="middle">Specific / known</text>
+  <text x="250" y="93" font-family="sans-serif" font-size="7" fill="#fecaca" text-anchor="middle">Previously mentioned</text>
+  <text x="250" y="106" font-family="sans-serif" font-size="7" fill="#fecaca" text-anchor="middle">Unique: the sun, the moon</text>
+  <text x="250" y="119" font-family="sans-serif" font-size="7" fill="#fecaca" text-anchor="middle">Superlatives: the best</text>
+  <text x="250" y="132" font-family="sans-serif" font-size="7" fill="#fecaca" text-anchor="middle">Instruments: the piano</text>
+  <text x="250" y="148" font-family="sans-serif" font-size="7" fill="#fca5a5" text-anchor="middle">The USA, the Alps</text>
+  <!-- Zero article zone -->
+  <rect x="330" y="20" width="155" height="150" rx="8" fill="#78350f" stroke="#10b981" stroke-width="1.5"/>
+  <text x="407" y="45" font-family="sans-serif" font-size="16" fill="#6ee7b7" text-anchor="middle" font-weight="bold">No Article</text>
+  <text x="407" y="62" font-family="sans-serif" font-size="8" fill="#a7f3d0" text-anchor="middle">Zero Article</text>
+  <text x="407" y="80" font-family="sans-serif" font-size="7" fill="#d1fae5" text-anchor="middle">General uncountable/plural</text>
+  <text x="407" y="93" font-family="sans-serif" font-size="7" fill="#d1fae5" text-anchor="middle">I love music. Dogs are loyal.</text>
+  <text x="407" y="106" font-family="sans-serif" font-size="7" fill="#d1fae5" text-anchor="middle">Languages: speaks French</text>
+  <text x="407" y="119" font-family="sans-serif" font-size="7" fill="#d1fae5" text-anchor="middle">Meals: have lunch</text>
+  <text x="407" y="132" font-family="sans-serif" font-size="7" fill="#d1fae5" text-anchor="middle">Sports: play football</text>
+  <text x="407" y="148" font-family="sans-serif" font-size="7" fill="#6ee7b7" text-anchor="middle">Countries: live in Russia</text>
+  <!-- Tricky cases -->
+  <rect x="20" y="185" width="460" height="60" rx="6" fill="#92400e" stroke="#fbbf24" stroke-width="1"/>
+  <text x="250" y="205" font-family="sans-serif" font-size="9" fill="#fbbf24" text-anchor="middle" font-weight="bold">Tricky Cases — Sound, Not Spelling!</text>
+  <text x="130" y="222" font-family="sans-serif" font-size="8" fill="#fde68a" text-anchor="middle">a university /juː/ ✓</text>
+  <text x="130" y="238" font-family="sans-serif" font-size="8" fill="#fde68a" text-anchor="middle">a European ✓</text>
+  <text x="370" y="222" font-family="sans-serif" font-size="8" fill="#fde68a" text-anchor="middle">an hour (silent h) ✓</text>
+  <text x="370" y="238" font-family="sans-serif" font-size="8" fill="#fde68a" text-anchor="middle">an MP3 player ✓</text>
+  <!-- Fixed expressions -->
+  <rect x="20" y="255" width="220" height="55" rx="6" fill="#78350f" stroke="#a78bfa" stroke-width="1"/>
+  <text x="130" y="275" font-family="sans-serif" font-size="9" fill="#c4b5fd" text-anchor="middle" font-weight="bold">No article in expressions</text>
+  <text x="130" y="292" font-family="sans-serif" font-size="7" fill="#ddd6fe" text-anchor="middle">in bed, at school, by car</text>
+  <text x="130" y="305" font-family="sans-serif" font-size="7" fill="#ddd6fe" text-anchor="middle">go to prison, at work</text>
+  <!-- Purpose vs place -->
+  <rect x="260" y="255" width="220" height="55" rx="6" fill="#78350f" stroke="#60a5fa" stroke-width="1"/>
+  <text x="370" y="275" font-family="sans-serif" font-size="9" fill="#93c5fd" text-anchor="middle" font-weight="bold">Purpose vs Place</text>
+  <text x="370" y="292" font-family="sans-serif" font-size="7" fill="#bfdbfe" text-anchor="middle">at school = studying (purpose)</text>
+  <text x="370" y="305" font-family="sans-serif" font-size="7" fill="#bfdbfe" text-anchor="middle">at the school = visiting (place)</text>
+  <text x="250" y="340" font-family="sans-serif" font-size="9" fill="white" text-anchor="middle" opacity="0.5">Articles</text>
 </svg>

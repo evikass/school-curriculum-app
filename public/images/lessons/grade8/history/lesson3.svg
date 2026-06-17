@@ -1,37 +1,79 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
+      <stop offset="0%" stop-color="#311b92"/>
+      <stop offset="100%" stop-color="#4527a0"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#BF360C"/>
-      <stop offset="100%" stop-color="#E65100"/>
+    <linearGradient id="throne" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffd600"/>
+      <stop offset="100%" stop-color="#ff8f00"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#E65100" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#E65100" stroke-width="1" opacity="0.3"/>
-  <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#E65100" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#E65100" text-anchor="middle">Дворцовые перевороты</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">История - Урок 3</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#E65100" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#E65100" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA -->
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FFF3E0"/><text x="250" y="130" font-family="Arial,sans-serif" font-size="20" fill="#E65100" text-anchor="middle" font-weight="bold">Дворцовые перевороты</text><rect x="25" y="155" width="140" height="45" rx="5" fill="#E3F2FD" stroke="#E65100" stroke-width="1.5"/><text x="95" y="182" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">Причины дворцовых перев...</text><rect x="170" y="155" width="140" height="45" rx="5" fill="#FFF3E0" stroke="#BF360C" stroke-width="1.5"/><text x="240" y="182" font-family="Arial" font-size="12" fill="#BF360C" text-anchor="middle">Екатерина I (1725-1727):</text><rect x="315" y="155" width="140" height="45" rx="5" fill="#FFFDE7" stroke="#F9A825" stroke-width="1.5"/><text x="385" y="182" font-family="Arial" font-size="12" fill="#F9A825" text-anchor="middle">Пётр II (1727-1730):</text><rect x="25" y="210" width="140" height="45" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/><text x="95" y="238" font-family="Arial" font-size="12" fill="#2E7D32" text-anchor="middle">Анна Иоанновна (1730-17...</text><rect x="170" y="210" width="140" height="45" rx="5" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="1.5"/><text x="240" y="238" font-family="Arial" font-size="12" fill="#6A1B9A" text-anchor="middle">Иван VI (1740-1741):</text><rect x="315" y="210" width="140" height="45" rx="5" fill="#FFEBEE" stroke="#E65100" stroke-width="1.5"/><text x="385" y="238" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">Елизавета Петровна (174...</text>
-  <rect x="435" y="268" width="30" height="25" rx="3" fill="#E65100" opacity="0.1"/>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <!-- Palace floor -->
+  <rect x="0" y="240" width="500" height="110" fill="#4a148c" opacity="0.5"/>
+  <line x1="0" y1="240" x2="500" y2="240" stroke="#7b1fa2" stroke-width="1"/>
+  <!-- Throne -->
+  <rect x="210" y="130" width="80" height="110" rx="3" fill="url(#throne)" stroke="#e65100" stroke-width="2"/>
+  <path d="M205,130 Q250,105 295,130" fill="#ffd600" stroke="#e65100" stroke-width="2"/>
+  <!-- Throne back decoration -->
+  <path d="M230,140 Q250,125 270,140" fill="none" stroke="#bf360c" stroke-width="1.5"/>
+  <circle cx="250" cy="132" r="5" fill="#e53935" stroke="#b71c1c" stroke-width="0.5"/>
+  <!-- Crown on throne -->
+  <path d="M235,105 L240,90 L248,100 L255,85 L262,100 L270,90 L275,105" fill="#ffd600" stroke="#f57f17" stroke-width="1"/>
+  <circle cx="248" cy="95" r="2" fill="#e53935"/>
+  <circle cx="255" cy="88" r="2.5" fill="#1a237e"/>
+  <circle cx="262" cy="95" r="2" fill="#e53935"/>
+  <!-- Guards (left) -->
+  <g transform="translate(100,160)">
+    <rect x="0" y="15" width="12" height="40" rx="2" fill="#1a237e"/>
+    <circle cx="6" cy="8" r="8" fill="#ffcc80"/>
+    <path d="M-2,2 Q6,-5 14,2" fill="#5d4037"/>
+    <!-- Guard hat -->
+    <rect x="-2" y="-5" width="16" height="6" rx="1" fill="#1a237e"/>
+    <rect x="0" y="-8" width="12" height="5" rx="1" fill="#0d47a1"/>
+    <!-- Halberd -->
+    <line x1="14" y1="-20" x2="14" y2="55" stroke="#78909c" stroke-width="2"/>
+    <path d="M10,-20 L14,-30 L18,-20 L16,-15 L12,-15 Z" fill="#bdbdbd"/>
   </g>
-  <!-- Bottom panel -->
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">История</text>
+  <!-- Guard (right) -->
+  <g transform="translate(388,160)">
+    <rect x="0" y="15" width="12" height="40" rx="2" fill="#1a237e"/>
+    <circle cx="6" cy="8" r="8" fill="#ffcc80"/>
+    <path d="M-2,2 Q6,-5 14,2" fill="#5d4037"/>
+    <rect x="-2" y="-5" width="16" height="6" rx="1" fill="#1a237e"/>
+    <rect x="0" y="-8" width="12" height="5" rx="1" fill="#0d47a1"/>
+    <line x1="-2" y1="-20" x2="-2" y2="55" stroke="#78909c" stroke-width="2"/>
+    <path d="M-6,-20 L-2,-30 L2,-20 L0,-15 L-4,-15 Z" fill="#bdbdbd"/>
+  </g>
+  <!-- Scheming figures (small, in shadows) -->
+  <g opacity="0.6" transform="translate(50,200)">
+    <circle cx="8" cy="0" r="5" fill="#ce93d8"/>
+    <rect x="2" y="6" width="12" height="20" rx="2" fill="#7b1fa2"/>
+  </g>
+  <g opacity="0.6" transform="translate(440,200)">
+    <circle cx="8" cy="0" r="5" fill="#ce93d8"/>
+    <rect x="2" y="6" width="12" height="20" rx="2" fill="#7b1fa2"/>
+  </g>
+  <!-- Whisper lines -->
+  <path d="M70,198 Q80,195 90,198" fill="none" stroke="#ce93d8" stroke-width="0.5" opacity="0.6"/>
+  <path d="M72,202 Q82,199 92,202" fill="none" stroke="#ce93d8" stroke-width="0.5" opacity="0.5"/>
+  <path d="M410,198 Q420,195 430,198" fill="none" stroke="#ce93d8" stroke-width="0.5" opacity="0.6"/>
+  <!-- Rulers timeline at bottom -->
+  <rect x="30" y="270" width="440" height="50" rx="6" fill="#1a237e" opacity="0.7"/>
+  <text x="250" y="285" font-size="7" fill="#ffd600" text-anchor="middle">Дворцовые перевороты 1725–1762</text>
+  <line x1="60" y1="298" x2="440" y2="298" stroke="#ffd600" stroke-width="1"/>
+  <circle cx="80" cy="298" r="4" fill="#e91e63"/>
+  <text x="80" y="310" font-size="5" fill="#fff" text-anchor="middle">Екатерина I</text>
+  <circle cx="150" cy="298" r="4" fill="#4caf50"/>
+  <text x="150" y="310" font-size="5" fill="#fff" text-anchor="middle">Пётр II</text>
+  <circle cx="220" cy="298" r="4" fill="#ff9800"/>
+  <text x="220" y="310" font-size="5" fill="#fff" text-anchor="middle">Анна Иоанновна</text>
+  <circle cx="310" cy="298" r="4" fill="#2196f3"/>
+  <text x="310" y="310" font-size="5" fill="#fff" text-anchor="middle">Иван VI</text>
+  <circle cx="380" cy="298" r="4" fill="#9c27b0"/>
+  <text x="380" y="310" font-size="5" fill="#fff" text-anchor="middle">Елизавета</text>
+  <circle cx="430" cy="298" r="4" fill="#f44336"/>
+  <text x="430" y="310" font-size="5" fill="#fff" text-anchor="middle">Пётр III</text>
+  <text x="250" y="340" font-size="9" fill="#fff" opacity="0.5" text-anchor="middle">Дворцовые перевороты</text>
 </svg>

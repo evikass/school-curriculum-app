@@ -1,75 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#F1F8E9"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#33691E"/>
-      <stop offset="100%" stop-color="#558B2F"/>
-    </linearGradient>
-  </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#33691E" stroke-width="2.5"/>
-  <text x="250" y="40" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#33691E" text-anchor="middle">Макроэволюция</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#777" text-anchor="middle">Биология — Урок 4</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#33691E" stroke-width="2" opacity="0.25"/>
-  <clipPath id="ill"><rect x="15" y="72" width="470" height="230" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-    <rect x="15" y="72" width="470" height="230" fill="#F1F8E9" opacity="0.5"/>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Популяция как единица эволюции</text>
+<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 11 класс — Урок 4</text>
+<line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
 
-    <!-- Evolutionary tree -->
-    <text x="250" y="88" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#33691E" text-anchor="middle">Филогенетическое древо</text>
-    
-    <!-- Tree trunk -->
-    <line x1="250" y1="275" x2="250" y2="130" stroke="#33691E" stroke-width="3"/>
-    <!-- Branch left - fish -->
-    <path d="M250,250 Q200,240 150,200 Q120,180 90,160" fill="none" stroke="#558B2F" stroke-width="2"/>
-    <circle cx="85" cy="155" r="8" fill="#F1F8E9" stroke="#33691E" stroke-width="1.2"/>
-    <text x="85" y="158" font-family="Arial,sans-serif" font-size="7" fill="#33691E" text-anchor="middle">🐟</text>
-    <text x="85" y="175" font-family="Arial,sans-serif" font-size="7" fill="#33691E" text-anchor="middle">Рыбы</text>
-    
-    <!-- Branch - amphibians -->
-    <path d="M200,235 Q180,210 170,190" fill="none" stroke="#558B2F" stroke-width="2"/>
-    <circle cx="168" cy="185" r="8" fill="#F1F8E9" stroke="#33691E" stroke-width="1.2"/>
-    <text x="168" y="188" font-family="Arial,sans-serif" font-size="7" fill="#33691E" text-anchor="middle">🐸</text>
-    <text x="168" y="205" font-family="Arial,sans-serif" font-size="7" fill="#33691E" text-anchor="middle">Земноводные</text>
+<g transform="translate(140,180)">
+<circle cx="0" cy="0" r="55" fill="#2E7D32" opacity="0.07" stroke="#2E7D32" stroke-width="2"/>
+<text x="0" y="-15" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle" font-weight="bold">Популяция</text>
+<text x="0" y="2" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Единица эволюции</text>
+<circle cx="-20" cy="25" r="3" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.8"/>
+<circle cx="-8" cy="35" r="3" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.8"/>
+<circle cx="5" cy="25" r="3" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.8"/>
+<circle cx="18" cy="35" r="3" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.8"/>
+<circle cx="-12" cy="42" r="3" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.8"/>
+<circle cx="10" cy="42" r="3" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.8"/>
+</g>
+<g transform="translate(380,160)">
+<rect x="-80" y="-65" width="160" height="130" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
+<text x="0" y="-50" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">Почему популяция?</text>
+<line x1="-65" y1="-43" x2="65" y2="-43" stroke="#2E7D32" stroke-width="0.5"/>
+<text x="0" y="-28" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Открытая генетич. система</text>
+<text x="0" y="-15" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Свободное скрещивание</text>
+<text x="0" y="0" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Генофонд: все гены</text>
+<text x="0" y="13" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Мутационный процесс</text>
+<text x="0" y="28" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Изменение частот аллелей</text>
+<text x="0" y="43" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Борьба за существование</text>
+<text x="0" y="58" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">Естественный отбор</text>
+</g>
 
-    <!-- Branch - reptiles -->
-    <path d="M250,220 Q270,200 290,180" fill="none" stroke="#558B2F" stroke-width="2"/>
-    <circle cx="295" cy="175" r="8" fill="#F1F8E9" stroke="#33691E" stroke-width="1.2"/>
-    <text x="295" y="178" font-family="Arial,sans-serif" font-size="7" fill="#33691E" text-anchor="middle">🦎</text>
-    <text x="295" y="195" font-family="Arial,sans-serif" font-size="7" fill="#33691E" text-anchor="middle">Пресмыкающиеся</text>
-
-    <!-- Branch right - birds -->
-    <path d="M280,200 Q310,185 340,165" fill="none" stroke="#558B2F" stroke-width="2"/>
-    <circle cx="345" cy="160" r="8" fill="#F1F8E9" stroke="#33691E" stroke-width="1.2"/>
-    <text x="345" y="163" font-family="Arial,sans-serif" font-size="7" fill="#33691E" text-anchor="middle">🦅</text>
-    <text x="345" y="178" font-family="Arial,sans-serif" font-size="7" fill="#33691E" text-anchor="middle">Птицы</text>
-
-    <!-- Branch - mammals -->
-    <path d="M250,180 Q300,160 380,140" fill="none" stroke="#558B2F" stroke-width="2"/>
-    <circle cx="385" cy="135" r="8" fill="#F1F8E9" stroke="#33691E" stroke-width="1.2"/>
-    <text x="385" y="138" font-family="Arial,sans-serif" font-size="7" fill="#33691E" text-anchor="middle">🐾</text>
-    <text x="385" y="155" font-family="Arial,sans-serif" font-size="7" fill="#33691E" text-anchor="middle">Млекопитающие</text>
-
-    <!-- Time axis -->
-    <text x="250" y="290" font-family="Arial,sans-serif" font-size="7" fill="#777" text-anchor="middle">Время (млн лет) →</text>
-    <text x="250" y="280" font-family="Arial,sans-serif" font-size="6" fill="#777" text-anchor="middle">500    400    300    200    100    0</text>
-
-    <!-- Key concepts -->
-    <rect x="30" y="240" width="185" height="55" rx="5" fill="white" stroke="#33691E" stroke-width="1"/>
-    <text x="122" y="255" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#33691E" text-anchor="middle">Пути макроэволюции</text>
-    <text x="40" y="268" font-family="Arial,sans-serif" font-size="7" fill="#33691E">• Ароморфоз — крупное усложнение</text>
-    <text x="40" y="279" font-family="Arial,sans-serif" font-size="7" fill="#33691E">• Идиоадаптация — мелкие адаптации</text>
-    <text x="40" y="290" font-family="Arial,sans-serif" font-size="7" fill="#33691E">• Дегенерация — упрощение строения</text>
-
-    <rect x="290" y="240" width="175" height="55" rx="5" fill="white" stroke="#33691E" stroke-width="1"/>
-    <text x="377" y="255" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#33691E" text-anchor="middle">Правило</text>
-    <text x="377" y="268" font-family="Arial,sans-serif" font-size="7" fill="#33691E" text-anchor="middle">Неполного параллелизма:</text>
-    <text x="377" y="279" font-family="Arial,sans-serif" font-size="7" fill="#33691E" text-anchor="middle">Параллелизм не доходит</text>
-    <text x="377" y="290" font-family="Arial,sans-serif" font-size="7" fill="#33691E" text-anchor="middle">до совпадения групп</text>
-  </g>
-  <line x1="30" y1="308" x2="470" y2="308" stroke="#33691E" stroke-width="1.5" opacity="0.25"/>
-  <text x="250" y="330" font-family="Arial,sans-serif" font-size="11" fill="#33691E" text-anchor="middle">Биология · 11 класс</text>
+<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 11 класс</text>
 </svg>

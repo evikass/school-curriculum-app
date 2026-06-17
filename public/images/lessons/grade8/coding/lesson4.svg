@@ -1,36 +1,58 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#0f3460"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#B71C1C"/>
-      <stop offset="100%" stop-color="#C62828"/>
-    </linearGradient>
+    <marker id="arrow4" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#e0e0e0"/>
+    </marker>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
-  <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#6A1B9A" text-anchor="middle">Условные операторы</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Основы программирования - Урок 4</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#6A1B9A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#6A1B9A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA: x=15..485, y=85..300 -->
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E3F2FD"/><text x="250" y="140" font-family="monospace" font-size="14" fill="#1565C0" text-anchor="middle">if mark >= 5:</text><text x="250" y="165" font-family="monospace" font-size="14" fill="#333" text-anchor="middle">  print("Отлично")</text><text x="250" y="195" font-family="monospace" font-size="14" fill="#C62828" text-anchor="middle">elif mark >= 4:</text><text x="250" y="220" font-family="monospace" font-size="14" fill="#333" text-anchor="middle">  print("Хорошо")</text><text x="250" y="250" font-family="monospace" font-size="14" fill="#6A1B9A" text-anchor="middle">else:</text>
+  <rect width="500" height="350" fill="url(#bg4)"/>
+  <!-- Flowchart -->
+  <!-- Start oval -->
+  <ellipse cx="250" cy="35" rx="60" ry="20" fill="#00b894" stroke="#00a381" stroke-width="1.5"/>
+  <text x="250" y="40" fill="white" font-size="12" font-family="sans-serif" text-anchor="middle">НАЧАЛО</text>
+  <!-- Arrow down -->
+  <line x1="250" y1="55" x2="250" y2="75" stroke="#e0e0e0" stroke-width="1.5" marker-end="url(#arrow4)"/>
+  <!-- Input parallelogram -->
+  <polygon points="190,80 320,80 310,110 180,110" fill="#6c5ce7" stroke="#5f3dc4" stroke-width="1.5"/>
+  <text x="250" y="100" fill="white" font-size="11" font-family="monospace" text-anchor="middle">x = int(input())</text>
+  <!-- Arrow down -->
+  <line x1="250" y1="110" x2="250" y2="135" stroke="#e0e0e0" stroke-width="1.5" marker-end="url(#arrow4)"/>
+  <!-- Diamond - condition -->
+  <polygon points="250,140 350,180 250,220 150,180" fill="#fdcb6e" stroke="#f0b429" stroke-width="1.5"/>
+  <text x="250" y="176" fill="#333" font-size="11" font-family="monospace" text-anchor="middle">x &gt; 0 ?</text>
+  <!-- True branch - left -->
+  <line x1="150" y1="180" x2="80" y2="180" stroke="#00b894" stroke-width="1.5" marker-end="url(#arrow4)"/>
+  <text x="120" y="174" fill="#00b894" font-size="10" font-family="sans-serif">Да</text>
+  <line x1="80" y1="180" x2="80" y2="220" stroke="#e0e0e0" stroke-width="1.5" marker-end="url(#arrow4)"/>
+  <!-- True box -->
+  <rect x="20" y="225" width="120" height="35" rx="5" fill="#00b894" stroke="#00a381" stroke-width="1.5"/>
+  <text x="80" y="247" fill="white" font-size="10" font-family="monospace" text-anchor="middle">print("Положит.")</text>
+  <!-- False branch - right -->
+  <line x1="350" y1="180" x2="420" y2="180" stroke="#e17055" stroke-width="1.5" marker-end="url(#arrow4)"/>
+  <text x="380" y="174" fill="#e17055" font-size="10" font-family="sans-serif">Нет</text>
+  <line x1="420" y1="180" x2="420" y2="220" stroke="#e0e0e0" stroke-width="1.5" marker-end="url(#arrow4)"/>
+  <!-- False box -->
+  <rect x="360" y="225" width="120" height="35" rx="5" fill="#e17055" stroke="#d63031" stroke-width="1.5"/>
+  <text x="420" y="247" fill="white" font-size="10" font-family="monospace" text-anchor="middle">print("Неположит.")</text>
+  <!-- Merge arrows -->
+  <line x1="80" y1="260" x2="80" y2="285" stroke="#e0e0e0" stroke-width="1.5"/>
+  <line x1="420" y1="260" x2="420" y2="285" stroke="#e0e0e0" stroke-width="1.5"/>
+  <line x1="80" y1="285" x2="420" y2="285" stroke="#e0e0e0" stroke-width="1.5"/>
+  <line x1="250" y1="285" x2="250" y2="300" stroke="#e0e0e0" stroke-width="1.5" marker-end="url(#arrow4)"/>
+  <!-- End oval -->
+  <ellipse cx="250" cy="320" rx="50" ry="18" fill="#6c5ce7" stroke="#5f3dc4" stroke-width="1.5"/>
+  <text x="250" y="325" fill="white" font-size="12" font-family="sans-serif" text-anchor="middle">КОНЕЦ</text>
+  <!-- Code snippet on the side -->
+  <g transform="translate(10, 280)" opacity="0.4">
+    <text fill="#7ee787" font-size="9" font-family="monospace">
+      <tspan x="0" dy="0">if x &gt; 0:</tspan>
+      <tspan x="10" dy="12">print("+")</tspan>
+      <tspan x="0" dy="12">else:</tspan>
+      <tspan x="10" dy="12">print("-")</tspan>
+    </text>
   </g>
-  <!-- Bottom panel -->
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Основы программирования</text>
+  <text x="250" y="340" fill="#aaa" font-size="9" opacity="0.5" font-family="sans-serif" text-anchor="middle">Условные операторы</text>
 </svg>

@@ -1,53 +1,80 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
+    <linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#B0E0E6"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#4A148C"/>
-      <stop offset="100%" stop-color="#6A1B9A"/>
+    <linearGradient id="stone1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F5F0E8"/>
+      <stop offset="100%" stop-color="#E8DFD0"/>
     </linearGradient>
+    <radialGradient id="dome1" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#DAA520"/>
+    </radialGradient>
+    <pattern id="carving" width="12" height="12" patternUnits="userSpaceOnUse">
+      <path d="M0 6 L6 0 L12 6 L6 12 Z" fill="none" stroke="#C8B88A" stroke-width="0.5"/>
+      <circle cx="6" cy="6" r="1.5" fill="#C8B88A" opacity="0.6"/>
+    </pattern>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#6A1B9A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#6A1B9A" stroke-width="1" opacity="0.3"/>
-  <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#6A1B9A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#6A1B9A" text-anchor="middle">Искусство Древней Руси</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Изобразительное искусство - Урок 1</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#6A1B9A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#6A1B9A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA -->
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#F3E5F5"/>
-      <text x="250" y="130" font-family="Arial,sans-serif" font-size="20" fill="#6A1B9A" text-anchor="middle" font-weight="bold">Искусство Древней Руси</text>
-      <rect x="25" y="155" width="140" height="45" rx="5" fill="#EDE7F6" stroke="#6A1B9A" stroke-width="1.5"/>
-      <text x="95" y="175" font-family="Arial" font-size="11" fill="#6A1B9A" text-anchor="middle">Храмовое зодчество:</text>
-      <text x="95" y="192" font-family="Arial" font-size="10" fill="#333" text-anchor="middle">Киевская София</text>
-      <rect x="170" y="155" width="140" height="45" rx="5" fill="#FFF3E0" stroke="#4A148C" stroke-width="1.5"/>
-      <text x="240" y="175" font-family="Arial" font-size="11" fill="#4A148C" text-anchor="middle">Иконопись:</text>
-      <text x="240" y="192" font-family="Arial" font-size="10" fill="#333" text-anchor="middle">Византийская традиция</text>
-      <rect x="315" y="155" width="140" height="45" rx="5" fill="#FFEBEE" stroke="#C62828" stroke-width="1.5"/>
-      <text x="385" y="175" font-family="Arial" font-size="11" fill="#C62828" text-anchor="middle">Фрески и мозаики:</text>
-      <text x="385" y="192" font-family="Arial" font-size="10" fill="#333" text-anchor="middle">XI-XII века</text>
-      <rect x="25" y="210" width="210" height="45" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/>
-      <text x="130" y="230" font-family="Arial" font-size="11" fill="#2E7D32" text-anchor="middle">Принятие христианства 988 г.</text>
-      <text x="130" y="247" font-family="Arial" font-size="10" fill="#333" text-anchor="middle">Начало русского искусства</text>
-      <rect x="265" y="210" width="190" height="45" rx="5" fill="#FFFDE7" stroke="#F9A825" stroke-width="1.5"/>
-      <text x="360" y="230" font-family="Arial" font-size="11" fill="#F9A825" text-anchor="middle">Летописание</text>
-      <text x="360" y="247" font-family="Arial" font-size="10" fill="#333" text-anchor="middle">Повесть временных лет</text>
-      <circle cx="55" cy="275" r="16" fill="#6A1B9A" opacity="0.15"/>
+  <!-- Sky background -->
+  <rect width="500" height="350" fill="url(#sky1)"/>
+  <!-- Ground -->
+  <ellipse cx="250" cy="320" rx="280" ry="40" fill="#8B9B6B"/>
+  <!-- Green hill -->
+  <path d="M0 290 Q100 260 200 280 Q300 250 400 270 Q450 275 500 290 L500 350 L0 350 Z" fill="#7A8F5A"/>
+  <!-- Church base/foundation -->
+  <rect x="185" y="220" width="130" height="70" fill="url(#stone1)" stroke="#C8B88A" stroke-width="1"/>
+  <!-- Stone texture on base -->
+  <rect x="185" y="220" width="130" height="70" fill="url(#carving)" opacity="0.4"/>
+  <!-- Church body -->
+  <rect x="195" y="140" width="110" height="80" fill="url(#stone1)" stroke="#C8B88A" stroke-width="1"/>
+  <rect x="195" y="140" width="110" height="80" fill="url(#carving)" opacity="0.3"/>
+  <!-- Main dome -->
+  <ellipse cx="250" cy="140" rx="45" ry="35" fill="url(#dome1)"/>
+  <!-- Dome base ring -->
+  <rect x="208" y="135" width="84" height="10" fill="#DAA520" rx="2"/>
+  <!-- Cross on dome -->
+  <line x1="250" y1="95" x2="250" y2="115" stroke="#DAA520" stroke-width="3"/>
+  <line x1="242" y1="102" x2="258" y2="102" stroke="#DAA520" stroke-width="3"/>
+  <line x1="244" y1="108" x2="256" y2="108" stroke="#DAA520" stroke-width="2"/>
+  <!-- Left small dome -->
+  <rect x="160" y="195" width="40" height="30" fill="url(#stone1)" stroke="#C8B88A" stroke-width="1"/>
+  <ellipse cx="180" cy="195" rx="20" ry="16" fill="url(#dome1)"/>
+  <line x1="180" y1="172" x2="180" y2="182" stroke="#DAA520" stroke-width="2"/>
+  <line x1="175" y1="176" x2="185" y2="176" stroke="#DAA520" stroke-width="2"/>
+  <!-- Right small dome -->
+  <rect x="300" y="195" width="40" height="30" fill="url(#stone1)" stroke="#C8B88A" stroke-width="1"/>
+  <ellipse cx="320" cy="195" rx="20" ry="16" fill="url(#dome1)"/>
+  <line x1="320" y1="172" x2="320" y2="182" stroke="#DAA520" stroke-width="2"/>
+  <line x1="315" y1="176" x2="325" y2="176" stroke="#DAA520" stroke-width="2"/>
+  <!-- Door arch -->
+  <path d="M230 290 L230 250 Q250 235 270 250 L270 290 Z" fill="#4A3520"/>
+  <path d="M233 290 L233 253 Q250 240 267 253 L267 290 Z" fill="#5C4030"/>
+  <!-- Windows -->
+  <path d="M210 180 L210 160 Q215 155 220 160 L220 180 Z" fill="#5C7A94" stroke="#C8B88A" stroke-width="0.5"/>
+  <path d="M280 180 L280 160 Q285 155 290 160 L290 180 Z" fill="#5C7A94" stroke="#C8B88A" stroke-width="0.5"/>
+  <!-- Carving patterns on facade -->
+  <path d="M200 150 L300 150" stroke="#B8A878" stroke-width="1.5"/>
+  <path d="M195 215 L325 215" stroke="#B8A878" stroke-width="1.5"/>
+  <!-- Decorative arch band -->
+  <path d="M200 152 Q215 158 230 152 Q245 158 260 152 Q275 158 290 152 Q300 158 305 152" stroke="#C8A858" stroke-width="1" fill="none"/>
+  <!-- Carved patterns - arcading -->
+  <g opacity="0.6">
+    <path d="M205 160 Q210 165 215 160" stroke="#A09060" stroke-width="0.8" fill="none"/>
+    <path d="M220 160 Q225 165 230 160" stroke="#A09060" stroke-width="0.8" fill="none"/>
+    <path d="M250 160 Q255 165 260 160" stroke="#A09060" stroke-width="0.8" fill="none"/>
+    <path d="M270 160 Q275 165 280 160" stroke="#A09060" stroke-width="0.8" fill="none"/>
+    <path d="M285 160 Q290 165 295 160" stroke="#A09060" stroke-width="0.8" fill="none"/>
   </g>
-  <!-- Bottom panel -->
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Изобразительное искусство</text>
+  <!-- Trees -->
+  <path d="M80 260 Q85 220 70 190 Q90 210 95 250 Z" fill="#5A7A4A"/>
+  <path d="M90 265 Q95 230 80 200 Q100 220 105 255 Z" fill="#4A6A3A"/>
+  <path d="M410 255 Q415 215 400 185 Q420 205 425 250 Z" fill="#5A7A4A"/>
+  <path d="M420 260 Q425 225 410 195 Q430 215 435 255 Z" fill="#4A6A3A"/>
+  <!-- Birds -->
+  <path d="M120 80 Q125 75 130 80 Q125 78 120 80" fill="#333"/>
+  <path d="M350 60 Q355 55 360 60 Q355 58 350 60" fill="#333"/>
+  <path d="M150 100 Q155 95 160 100 Q155 98 150 100" fill="#333"/>
+  <text x="250" y="340" text-anchor="middle" font-size="9" opacity="0.5" font-family="sans-serif">Искусство Древней Руси</text>
 </svg>

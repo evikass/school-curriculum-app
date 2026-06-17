@@ -1,89 +1,38 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <radialGradient id="nucleus" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#FF8A65"/>
-      <stop offset="100%" stop-color="#D84315"/>
-    </radialGradient>
-    <radialGradient id="electronGrad" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#64B5F6"/>
-      <stop offset="100%" stop-color="#1565C0"/>
-    </radialGradient>
-    <filter id="shadow1" x="-5%" y="-5%" width="110%" height="110%">
-      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#00000033"/>
-    </filter>
-  </defs>
-  <!-- Background -->
-  <rect width="500" height="350" rx="12" fill="#E8F5E9"/>
-  <rect x="0" y="0" width="500" height="52" rx="12" fill="#388E3C"/>
-  <rect x="0" y="20" width="500" height="32" fill="#388E3C"/>
-  <!-- Header -->
-  <text x="250" y="35" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="white">Урок 1: Строение атома</text>
-  <!-- Atom diagram -->
-  <g transform="translate(140,200)">
-    <!-- Electron shells -->
-    <ellipse cx="0" cy="0" rx="40" ry="35" fill="none" stroke="#66BB6A" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.7"/>
-    <ellipse cx="0" cy="0" rx="75" ry="65" fill="none" stroke="#66BB6A" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.7"/>
-    <ellipse cx="0" cy="0" rx="110" ry="95" fill="none" stroke="#66BB6A" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.7"/>
-    <!-- Shell labels -->
-    <text x="42" y="-30" font-family="Arial,sans-serif" font-size="9" fill="#388E3C">1 уровень</text>
-    <text x="77" y="-55" font-family="Arial,sans-serif" font-size="9" fill="#388E3C">2 уровень</text>
-    <text x="112" y="-80" font-family="Arial,sans-serif" font-size="9" fill="#388E3C">3 уровень</text>
-    <!-- Nucleus -->
-    <circle cx="0" cy="0" r="22" fill="url(#nucleus)" filter="url(#shadow1)"/>
-    <text x="0" y="2" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="white">ЯДРО</text>
-    <!-- Protons and neutrons inside nucleus -->
-    <circle cx="-7" cy="-5" r="5" fill="#FFCDD2" stroke="#C62828" stroke-width="0.8"/>
-    <text x="-7" y="-3" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#C62828">p+</text>
-    <circle cx="7" cy="-5" r="5" fill="#FFCDD2" stroke="#C62828" stroke-width="0.8"/>
-    <text x="7" y="-3" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#C62828">p+</text>
-    <circle cx="0" cy="7" r="5" fill="#BBDEFB" stroke="#1565C0" stroke-width="0.8"/>
-    <text x="0" y="9" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#1565C0">n0</text>
-    <!-- Electrons on shells -->
-    <circle cx="40" cy="0" r="7" fill="url(#electronGrad)" filter="url(#shadow1)"/>
-    <text x="40" y="2" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="white">e-</text>
-    <circle cx="-40" cy="0" r="7" fill="url(#electronGrad)" filter="url(#shadow1)"/>
-    <text x="-40" y="2" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="white">e-</text>
-    <circle cx="0" cy="-65" r="7" fill="url(#electronGrad)" filter="url(#shadow1)"/>
-    <text x="0" y="-63" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="white">e-</text>
-    <circle cx="65" cy="0" r="7" fill="url(#electronGrad)" filter="url(#shadow1)"/>
-    <text x="65" y="2" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="white">e-</text>
-    <circle cx="-65" cy="0" r="7" fill="url(#electronGrad)" filter="url(#shadow1)"/>
-    <text x="-65" y="2" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="white">e-</text>
-    <circle cx="46" cy="-46" r="7" fill="url(#electronGrad)" filter="url(#shadow1)"/>
-    <text x="46" y="-44" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="white">e-</text>
-    <circle cx="-46" cy="-46" r="7" fill="url(#electronGrad)" filter="url(#shadow1)"/>
-    <text x="-46" y="-44" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="white">e-</text>
-    <circle cx="0" cy="95" r="7" fill="url(#electronGrad)" filter="url(#shadow1)"/>
-    <text x="0" y="97" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="white">e-</text>
-  </g>
-  <!-- Right panel: definitions -->
-  <rect x="285" y="60" width="205" height="145" rx="8" fill="white" opacity="0.9" filter="url(#shadow1)"/>
-  <text x="387" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#388E3C">Состав атома</text>
-  <line x1="295" y1="86" x2="480" y2="86" stroke="#A5D6A7" stroke-width="1"/>
-  <!-- Proton info -->
-  <circle cx="305" cy="102" r="6" fill="#FFCDD2" stroke="#C62828" stroke-width="1"/>
-  <text x="305" y="104" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#C62828">+</text>
-  <text x="318" y="105" font-family="Arial,sans-serif" font-size="10" fill="#333">Протон (p+): заряд +1</text>
-  <text x="318" y="118" font-family="Arial,sans-serif" font-size="9" fill="#666">масса ~ 1 а.е.м.</text>
-  <!-- Neutron info -->
-  <circle cx="305" cy="135" r="6" fill="#BBDEFB" stroke="#1565C0" stroke-width="1"/>
-  <text x="305" y="137" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#1565C0">0</text>
-  <text x="318" y="138" font-family="Arial,sans-serif" font-size="10" fill="#333">Нейтрон (n0): заряд 0</text>
-  <text x="318" y="151" font-family="Arial,sans-serif" font-size="9" fill="#666">масса ~ 1 а.е.м.</text>
-  <!-- Electron info -->
-  <circle cx="305" cy="168" r="6" fill="url(#electronGrad)"/>
-  <text x="305" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="white">-</text>
-  <text x="318" y="171" font-family="Arial,sans-serif" font-size="10" fill="#333">Электрон (e-): заряд -1</text>
-  <text x="318" y="184" font-family="Arial,sans-serif" font-size="9" fill="#666">масса очень мала</text>
-  <!-- Formulas box -->
-  <rect x="15" y="310" width="470" height="30" rx="6" fill="#66BB6A" opacity="0.15"/>
-  <text x="250" y="330" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#388E3C">Z = число протонов = число электронов | A = Z + N | N = A - Z</text>
-  <!-- Bottom info: Carbon example -->
-  <rect x="285" y="215" width="205" height="90" rx="8" fill="white" opacity="0.9" filter="url(#shadow1)"/>
-  <text x="387" y="235" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#388E3C">Пример: ¹²C (Углерод)</text>
-  <line x1="295" y1="241" x2="480" y2="241" stroke="#A5D6A7" stroke-width="1"/>
-  <text x="300" y="258" font-family="Arial,sans-serif" font-size="10" fill="#333">Порядковый номер Z = 6</text>
-  <text x="300" y="273" font-family="Arial,sans-serif" font-size="10" fill="#333">Протонов: 6 | Электронов: 6</text>
-  <text x="300" y="288" font-family="Arial,sans-serif" font-size="10" fill="#333">Нейтронов: N = 12 - 6 = 6</text>
-  <text x="300" y="300" font-family="Arial,sans-serif" font-size="9" fill="#388E3C" font-style="italic">Изотопы: ¹²C и ¹⁴C</text>
+  <rect width="500" height="350" fill="#0f0f1a"/>
+  <!-- Atom model -->
+  <!-- Nucleus (zoomed in) -->
+  <circle cx="250" cy="140" r="40" fill="#ef4444" fill-opacity="0.15" stroke="#ef4444" stroke-width="2"/>
+  <!-- Protons -->
+  <circle cx="240" cy="130" r="8" fill="#ef4444" fill-opacity="0.5" stroke="#ef4444" stroke-width="1"/>
+  <text x="240" y="134" fill="#ffffff" font-size="7" font-family="serif" text-anchor="middle">p⁺</text>
+  <circle cx="260" cy="130" r="8" fill="#ef4444" fill-opacity="0.5" stroke="#ef4444" stroke-width="1"/>
+  <text x="260" y="134" fill="#ffffff" font-size="7" font-family="serif" text-anchor="middle">p⁺</text>
+  <!-- Neutrons -->
+  <circle cx="245" cy="150" r="8" fill="#9ca3af" fill-opacity="0.5" stroke="#9ca3af" stroke-width="1"/>
+  <text x="245" y="154" fill="#ffffff" font-size="7" font-family="serif" text-anchor="middle">n⁰</text>
+  <circle cx="265" cy="148" r="8" fill="#9ca3af" fill-opacity="0.5" stroke="#9ca3af" stroke-width="1"/>
+  <text x="265" y="152" fill="#ffffff" font-size="7" font-family="serif" text-anchor="middle">n⁰</text>
+  <!-- Electron shells -->
+  <circle cx="250" cy="140" r="75" fill="none" stroke="#22d3ee" stroke-width="1" stroke-dasharray="4,3"/>
+  <circle cx="250" cy="140" r="120" fill="none" stroke="#22d3ee" stroke-width="1" stroke-dasharray="4,3"/>
+  <!-- Electrons on shells -->
+  <circle cx="325" cy="140" r="5" fill="#22d3ee"/>
+  <circle cx="175" cy="140" r="5" fill="#22d3ee"/>
+  <circle cx="310" cy="85" r="5" fill="#22d3ee"/>
+  <circle cx="190" cy="85" r="5" fill="#22d3ee"/>
+  <circle cx="310" cy="195" r="5" fill="#22c55e"/>
+  <circle cx="190" cy="195" r="5" fill="#22c55e"/>
+  <circle cx="370" cy="140" r="5" fill="#22c55e"/>
+  <circle cx="130" cy="140" r="5" fill="#22c55e"/>
+  <!-- Labels -->
+  <text x="250" y="30" fill="#6366f1" font-size="12" font-family="serif" text-anchor="middle">Модель атома</text>
+  <text x="310" y="70" fill="#22d3ee" font-size="9" font-family="serif">e⁻</text>
+  <text x="380" y="135" fill="#22c55e" font-size="9" font-family="serif">e⁻</text>
+  <!-- Info box -->
+  <rect x="30" y="260" width="440" height="70" rx="6" fill="#1a1a2e" stroke="#6366f1" stroke-width="1"/>
+  <text x="250" y="280" fill="#ef4444" font-size="10" font-family="serif" text-anchor="middle">Z = число протонов = порядковый номер</text>
+  <text x="250" y="298" fill="#9ca3af" font-size="10" font-family="serif" text-anchor="middle">A = Z + N (массовое число)</text>
+  <text x="250" y="316" fill="#22c55e" font-size="10" font-family="serif" text-anchor="middle">N = A − Z (число нейтронов)</text>
+  <text x="250" y="345" fill="#ffffff" font-size="9" opacity="0.5" text-anchor="middle" font-family="sans-serif">Периодический закон и строение атома</text>
 </svg>

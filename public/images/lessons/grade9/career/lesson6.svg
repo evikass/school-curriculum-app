@@ -9,36 +9,84 @@
       <stop offset="100%" stop-color="#00695C"/>
     </linearGradient>
   </defs>
+  <!-- Background -->
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#26A69A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#00695C" opacity="0.12"/>
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#26A69A" text-anchor="middle">Составление резюме</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Карьера — Урок 6</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#26A69A" stroke-width="2" opacity="0.25"/>
-  <rect x="15" y="72" width="235" height="225" rx="4" fill="#26A69A" opacity="0.05"/>
-  <text x="22" y="88" font-family="Arial,sans-serif" font-size="10" fill="#00695C" text-anchor="start" font-weight="bold">Практика:</text>
-  <text x="85" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Составьте своё резюме!</text>
-  <text x="22" y="108" font-family="Arial,sans-serif" font-size="10" fill="#00695C" text-anchor="start" font-weight="bold">Заголовок:</text>
-  <text x="85" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Имя Фамилия, должность</text>
-  <text x="22" y="128" font-family="Arial,sans-serif" font-size="10" fill="#00695C" text-anchor="start" font-weight="bold">Обо мне:</text>
-  <text x="85" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">2-3 предложения о вас</text>
-  <text x="32" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Почему вы подходите на позицию</text>
-  <text x="22" y="168" font-family="Arial,sans-serif" font-size="10" fill="#00695C" text-anchor="start" font-weight="bold">Опыт:</text>
-  <text x="85" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Компания, должность, период</text>
-  <rect x="255" y="72" width="230" height="225" rx="4" fill="#26A69A" opacity="0.05"/>
-  <text x="272" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Что делали (глаголы действия)</text>
-  <text x="262" y="108" font-family="Arial,sans-serif" font-size="10" fill="#00695C" text-anchor="start" font-weight="bold">Навыки:</text>
-  <text x="325" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Python, Excel, Figma...</text>
-  <text x="272" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Командная работа, лидерство</text>
-  <text x="262" y="148" font-family="Arial,sans-serif" font-size="10" fill="#00695C" text-anchor="start" font-weight="bold">Ошибки:</text>
-  <text x="325" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Опечатки и грамматика</text>
-  <text x="272" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Нечёткие формулировки</text>
-  <rect x="15" y="280" width="235" height="18" rx="4" fill="#26A69A" opacity="0.06"/>
-  <text x="132" y="293" font-family="Arial,sans-serif" font-size="9" fill="#00695C" text-anchor="middle" font-weight="bold">Покажите результаты, не обязанности</text>
-  <rect x="255" y="280" width="230" height="18" rx="4" fill="#26A69A" opacity="0.06"/>
-  <text x="370" y="293" font-family="Arial,sans-serif" font-size="9" fill="#00695C" text-anchor="middle" font-weight="bold">Используйте «глаголы действия»</text>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Карьера · Составление резюме</text>
+  <!-- Header bar -->
+  <rect x="8" y="8" width="484" height="52" rx="6" fill="url(#hdr)" opacity="0.9"/>
+  <text x="250" y="34" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Составление резюме</text>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="10" fill="rgba(255,255,255,0.8)" text-anchor="middle">Карьерное консультирование — Урок 6</text>
+  <!-- Decorative elements -->
+  <circle cx="460" cy="25" r="12" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="440" cy="18" r="6" fill="rgba(255,255,255,0.1)"/>
+  <!-- Content area -->
+
+  <!-- 3 format cards -->
+  <g transform="translate(25,75)">
+    <!-- Chronological -->
+    <rect x="0" y="0" width="145" height="115" rx="5" fill="white" stroke="#4CAF50" stroke-width="1.5"/>
+    <rect x="0" y="0" width="145" height="22" rx="5" fill="#4CAF50"/>
+    <rect x="0" y="18" width="145" height="4" fill="#4CAF50"/>
+    <text x="72" y="15" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">Хронологический</text>
+    <text x="10" y="40" font-family="Arial,sans-serif" font-size="7" fill="#333">✓ Опыт в обратном порядке</text>
+    <text x="10" y="52" font-family="Arial,sans-serif" font-size="7" fill="#333">✓ Для опытных специалистов</text>
+    <rect x="10" y="60" width="125" height="3" rx="1" fill="#4CAF50" opacity="0.3"/>
+    <rect x="10" y="67" width="125" height="3" rx="1" fill="#4CAF50" opacity="0.2"/>
+    <rect x="10" y="74" width="100" height="3" rx="1" fill="#4CAF50" opacity="0.15"/>
+    <rect x="10" y="85" width="40" height="14" rx="3" fill="#4CAF50" opacity="0.15"/>
+    <text x="30" y="95" font-family="Arial,sans-serif" font-size="6" fill="#4CAF50" text-anchor="middle">Опыт</text>
+    <rect x="55" y="85" width="40" height="14" rx="3" fill="#4CAF50" opacity="0.1"/>
+    <text x="75" y="95" font-family="Arial,sans-serif" font-size="6" fill="#4CAF50" text-anchor="middle">Образ.</text>
+  </g>
+  <g transform="translate(178,75)">
+    <!-- Functional -->
+    <rect x="0" y="0" width="145" height="115" rx="5" fill="white" stroke="#FF9800" stroke-width="1.5"/>
+    <rect x="0" y="0" width="145" height="22" rx="5" fill="#FF9800"/>
+    <rect x="0" y="18" width="145" height="4" fill="#FF9800"/>
+    <text x="72" y="15" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">Функциональный</text>
+    <text x="10" y="40" font-family="Arial,sans-serif" font-size="7" fill="#333">✓ Акцент на навыки</text>
+    <text x="10" y="52" font-family="Arial,sans-serif" font-size="7" fill="#333">✓ При смене профессии</text>
+    <rect x="10" y="60" width="125" height="10" rx="2" fill="#FF9800" opacity="0.15"/>
+    <text x="72" y="68" font-family="Arial,sans-serif" font-size="6" fill="#FF9800" text-anchor="middle">Навыки и достижения</text>
+    <rect x="10" y="74" width="125" height="10" rx="2" fill="#FF9800" opacity="0.1"/>
+    <text x="72" y="82" font-family="Arial,sans-serif" font-size="6" fill="#FF9800" text-anchor="middle">Достижения</text>
+    <rect x="10" y="88" width="125" height="10" rx="2" fill="#FF9800" opacity="0.05"/>
+    <text x="72" y="96" font-family="Arial,sans-serif" font-size="6" fill="#FF9800" text-anchor="middle">Опыт</text>
+  </g>
+  <g transform="translate(331,75)">
+    <!-- Combined -->
+    <rect x="0" y="0" width="145" height="115" rx="5" fill="white" stroke="#7E57C2" stroke-width="1.5"/>
+    <rect x="0" y="0" width="145" height="22" rx="5" fill="#7E57C2"/>
+    <rect x="0" y="18" width="145" height="4" fill="#7E57C2"/>
+    <text x="72" y="15" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">Комбинированный</text>
+    <text x="10" y="40" font-family="Arial,sans-serif" font-size="7" fill="#333">✓ Хронология + навыки</text>
+    <text x="10" y="52" font-family="Arial,sans-serif" font-size="7" fill="#333">✓ Большинству кандидатов</text>
+    <rect x="10" y="60" width="60" height="10" rx="2" fill="#7E57C2" opacity="0.15"/>
+    <text x="40" y="68" font-family="Arial,sans-serif" font-size="6" fill="#7E57C2" text-anchor="middle">Навыки</text>
+    <rect x="75" y="60" width="60" height="10" rx="2" fill="#7E57C2" opacity="0.1"/>
+    <text x="105" y="68" font-family="Arial,sans-serif" font-size="6" fill="#7E57C2" text-anchor="middle">Опыт</text>
+    <rect x="10" y="88" width="60" height="14" rx="3" fill="#7E57C2" opacity="0.08"/>
+    <text x="40" y="98" font-family="Arial,sans-serif" font-size="6" fill="#7E57C2" text-anchor="middle">Образ.</text>
+    <rect x="75" y="88" width="60" height="14" rx="3" fill="#7E57C2" opacity="0.08"/>
+    <text x="105" y="98" font-family="Arial,sans-serif" font-size="6" fill="#7E57C2" text-anchor="middle">Достиж.</text>
+  </g>
+  <!-- ATS panel -->
+  <g transform="translate(25,200)">
+    <rect x="0" y="0" width="450" height="60" rx="5" fill="white" stroke="#ddd" stroke-width="1"/>
+    <text x="15" y="17" font-family="Arial,sans-serif" font-size="9" fill="{C_DARK}" font-weight="bold">ATS (Applicant Tracking System)</text>
+    <rect x="15" y="24" width="420" height="12" rx="3" fill="#eee"/>
+    <rect x="15" y="24" width="315" height="12" rx="3" fill="{C_PRI}" opacity="0.5"/>
+    <text x="225" y="33" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Ключевые слова из вакансии → Резюме</text>
+    <text x="15" y="50" font-family="Arial,sans-serif" font-size="7" fill="#666">98% компаний используют ATS • Включайте ключевые слова • Адаптируйте под каждую вакансию</text>
+  </g>
+  <!-- Tools -->
+  <rect x="25" y="275" width="145" height="22" rx="4" fill="#4CAF50" opacity="0.12"/>
+  <text x="97" y="290" font-family="Arial,sans-serif" font-size="8" fill="#4CAF50" text-anchor="middle">hh.ru — конструктор</text>
+  <rect x="178" y="275" width="145" height="22" rx="4" fill="#2196F3" opacity="0.12"/>
+  <text x="250" y="290" font-family="Arial,sans-serif" font-size="8" fill="#2196F3" text-anchor="middle">Google Docs — шаблоны</text>
+  <rect x="331" y="275" width="145" height="22" rx="4" fill="#7E57C2" opacity="0.12"/>
+  <text x="403" y="290" font-family="Arial,sans-serif" font-size="8" fill="#7E57C2" text-anchor="middle">LinkedIn — профиль</text>
+  <rect x="25" y="305" width="450" height="22" rx="4" fill="{C_PRI}" opacity="0.06"/>
+  <text x="250" y="320" font-family="Arial,sans-serif" font-size="8" fill="{C_DARK}" text-anchor="middle">Действие + Объект + Результат + Контекст — формула описания достижений</text>
+
 </svg>

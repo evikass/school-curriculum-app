@@ -15,7 +15,7 @@
         "lessons": [
           {
             "title": "Урок 1: Mixed Conditionals",
-            "description": "Смешанные условные предложения.",
+            "description": "Смешанные условные предложения (Mixed Conditionals) — это особый тип условных конструкций в английском языке, в которых части условного предложения относятся к разным временам. В отличие от стандартных условных предложений (Zero, First, Second, Third Conditionals), где условие и результат относятся к одному и тому же времени, смешанные условные позволяют выразить более сложные логические связи между событиями. Существует два основных типа смешанных условных: II+III (условие в прошлом, результат в настоящем) и III+II (условие в настоящем/общем, результат в прошлом). Важной темой является также инверсия в условных предложениях, когда частица 'if' опускается, а вспомогательный глагол ставится перед подлежащим, что придаёт высказыванию более формальный и литературный характер. Освоение смешанных условных предложений необходимо для понимания сложных текстов, написания академических эссе и свободного общения на продвинутом уровне английского языка.",
             "tasks": [
               "Mixed Conditional: II + III",
               "Mixed Conditional: III + II",
@@ -24,9 +24,10 @@
             ],
             "content": "**Mixed Conditionals** — смешанные условные предложения.\n\nСочетают части разных типов Conditionals.\n\n---\n\n**Mixed Conditional: II + III**\n\n**Структура:**\nIf + Past Perfect, would + V\n\n**Значение:**\n- Условие в прошлом (III)\n- Результат в настоящем (II)\n\n**Примеры:**\n- If I had studied harder at school, I would have a better job now.\n  (Если бы я учился лучше в школе, у меня была бы лучшая работа сейчас)\n  \n- If she hadn't missed the train, she would be here now.\n  (Если бы она не опоздала на поезд, она была бы здесь сейчас)\n\n---\n\n**Mixed Conditional: III + II**\n\n**Структура:**\nIf + Past Simple, would have + V3\n\n**Значение:**\n- Условие в настоящем/общее (II)\n- Результат в прошлом (III)\n\n**Примеры:**\n- If I were braver, I would have jumped.\n  (Если бы я был смелее, я бы прыгнул)\n  \n- If she spoke French, she would have got that job.\n  (Если бы она говорила по-французски, она бы получила ту работу)\n\n---\n\n**Таблица смешанных Conditionals:**\n\n| Тип | Условие | Результат | Пример |\n|-----|---------|-----------|--------|\n| II+III | Past Perfect | would + V | If I had saved money, I would buy a car now. |\n| III+II | Past Simple | would have + V3 | If I were you, I would have accepted. |\n\n---\n\n**Инверсия в Conditionals:**\n\nБез IF:\n- If I were you → Were I you\n- If I had known → Had I known\n- If it should rain → Should it rain\n\n**Примеры:**\n- Were I rich, I would travel the world.\n- Had I known, I would have come.\n- Should you need help, call me.",
             "examples": [
-              "If I had studied, I would have a degree now. (II+III)",
-              "If I were you, I would have done it differently. (III+II)",
-              "Had I known... = If I had known..."
+              "If I had studied, I would have a degree now. (II+III: учился бы в прошлом — имел бы степень сейчас)",
+              "If I were you, I would have done it differently. (III+II: был бы на твоём месте сейчас — сделал бы по-другому в прошлом)",
+              "Had I known about the meeting, I would have attended. (Инверсия вместо If I had known)",
+              "If she hadn't missed the train, she would be here now. (II+III: не опоздала бы — была бы здесь сейчас)"
             ],
             "facts": [
               "Mixed Conditionals связывают прошлое с настоящим",
@@ -34,15 +35,145 @@
               "Без 'if' предложение звучит литературнее"
             ],
             "keyPoints": [
-              "If + Past Perfect, would + V — условие в прошлом, результат сейчас",
-              "If + Past Simple, would have + V3 — условие сейчас, результат в прошлом",
-              "Инверсия: Had I known = If I had known"
+              "If + Past Perfect, would + V — условие в прошлом, результат сейчас (Mixed II+III)",
+              "If + Past Simple, would have + V3 — условие сейчас/вообще, результат в прошлом (Mixed III+II)",
+              "Инверсия: Had I known = If I had known; Were I you = If I were you",
+              "Смешанные условные связывают разные временные планы, что невозможно в стандартных Conditionals",
+              "Инверсия делает речь формальной и типична для письменного английского"
             ],
-            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson1.svg"
+            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson1.svg",
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Какой тип Mixed Conditional использует структуру If + Past Perfect, would + V?",
+                  "options": [
+                    "II+III (условие в прошлом, результат сейчас)",
+                    "III+II (условие сейчас, результат в прошлом)",
+                    "Нулевой conditional",
+                    "Первый conditional"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "question": "Что означает Mixed Conditional III+II (If + Past Simple, would have + V3)?",
+                  "options": [
+                    "Условие в прошлом, результат в настоящем",
+                    "Условие в настоящем/общем, результат в прошлом",
+                    "Оба в настоящем",
+                    "Оба в прошлом"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Какая инверсия заменяет 'If I had known'?",
+                  "options": [
+                    "Were I known",
+                    "Had I known",
+                    "Did I know",
+                    "Should I know"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Выберите верный пример Mixed Conditional II+III:",
+                  "options": [
+                    "If it rains, I will stay home",
+                    "If I had saved money, I would buy a car now",
+                    "If I were rich, I would travel",
+                    "If she studied, she would pass"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Какой вспомогательный глагол используется при инверсии с Past Perfect в Conditionals?",
+                  "options": [
+                    "Were",
+                    "Had",
+                    "Should",
+                    "Did"
+                  ],
+                  "correct": 1
+                }
+              ],
+              "find": [
+                {
+                  "text": "If I ___ harder at school, I would have a better job now.",
+                  "answer": "had studied",
+                  "options": [
+                    "had studied",
+                    "studied",
+                    "have studied",
+                    "would study"
+                  ]
+                },
+                {
+                  "text": "If she ___ French, she would have got that job.",
+                  "answer": "spoke",
+                  "options": [
+                    "spoke",
+                    "had spoken",
+                    "speaks",
+                    "would speak"
+                  ]
+                },
+                {
+                  "text": "___ I you, I would have accepted the offer.",
+                  "answer": "Were",
+                  "options": [
+                    "Were",
+                    "Had",
+                    "Should",
+                    "If"
+                  ]
+                },
+                {
+                  "text": "If he hadn't missed the bus, he ___ here now.",
+                  "answer": "would be",
+                  "options": [
+                    "would be",
+                    "would have been",
+                    "will be",
+                    "is"
+                  ]
+                },
+                {
+                  "text": "___ she arrive early, tell her to wait.",
+                  "answer": "Should",
+                  "options": [
+                    "Should",
+                    "Were",
+                    "Had",
+                    "If"
+                  ]
+                }
+              ],
+              "match": [
+                {
+                  "term": "If + Past Perfect, would + V",
+                  "definition": "Mixed Conditional: условие в прошлом, результат в настоящем"
+                },
+                {
+                  "term": "If + Past Simple, would have + V3",
+                  "definition": "Mixed Conditional: условие в настоящем, результат в прошлом"
+                },
+                {
+                  "term": "Had I known",
+                  "definition": "Инверсия условного предложения с Past Perfect"
+                },
+                {
+                  "term": "Were I you",
+                  "definition": "Инверсия условного предложения с Past Simple (be)"
+                },
+                {
+                  "term": "Should you need help",
+                  "definition": "Инверсия условного предложения с should"
+                }
+              ]
+            }
           },
           {
             "title": "Урок 2: Inversion",
-            "description": "Инверсия в английском языке.",
+            "description": "Инверсия (Inversion) в английском языке — это изменение обычного порядка слов в предложении, при котором часть сказуемого (вспомогательный или модальный глагол) ставится перед подлежащим. Инверсия используется для придания высказыванию выразительности, эмоциональности или формальности. Наиболее часто инверсия встречается после отрицательных и ограничительных наречий (never, rarely, seldom, hardly, scarcely, little, nowhere), стоящих в начале предложения. Также инверсия используется с конструкциями 'only + обстоятельство', 'not only... but also', 'no sooner... than', 'so/neither/nor' для выражения согласия. В условных предложениях инверсия заменяет частицу 'if', делая речь более формальной. Освоение инверсии необходимо для понимания литературных текстов, публичных выступлений и написания эссе на продвинутом уровне. Инверсия — один из ключевых признаков владения английским на уровне C1-C2.",
             "tasks": [
               "Грамматическая инверсия",
               "Инверсия после отрицательных наречий",
@@ -51,9 +182,10 @@
             ],
             "content": "**Inversion** — изменение обычного порядка слов в предложении.\n\nОбычный порядок: Подлежащее + Сказуемое\nИнверсия: Сказуемое (часть) + Подлежащее\n\n---\n\n**1. Инверсия после отрицательных наречий:**\n\nКогда отрицательное наречие стоит в начале предложения.\n\n**Отрицательные наречия:**\n- never (никогда)\n- rarely, seldom (редко)\n- hardly, scarcely (едва)\n- little (мало)\n- nowhere (нигде)\n\n**Структура:**\nОтрицательное слово + вспомогательный глагол + подлежащее\n\n**Примеры:**\n- Never have I seen such a beautiful sunset.\n  (Никогда я не видел такого красивого заката)\n  \n- Rarely does she make mistakes.\n  (Редко она делает ошибки)\n  \n- Seldom do we go to the cinema.\n  (Редко мы ходим в кино)\n\n---\n\n**2. Инверсия с 'only':**\n\n**Структура:**\nOnly + обстоятельство + вспомогательный глагол + подлежащее\n\n**Примеры:**\n- Only after the meeting did I realize my mistake.\n  (Только после встречи я понял свою ошибку)\n  \n- Only then did she understand the truth.\n  (Только тогда она поняла правду)\n\n---\n\n**3. Инверсия с 'not only... but also':**\n\n**Примеры:**\n- Not only did he arrive late, but he also forgot his documents.\n  (Он не только опоздал, но и забыл документы)\n\n---\n\n**4. Инверсия с 'so' и 'neither/nor':**\n\n**Примеры:**\n- She likes coffee. So do I.\n  (Она любит кофе. Я тоже.)\n  \n- He doesn't speak French. Neither do I.\n  (Он не говорит по-французски. Я тоже.)\n\n---\n\n**5. Инверсия с 'no sooner... than':**\n\n**Примеры:**\n- No sooner had I arrived than it started to rain.\n  (Едва я прибыл, как начался дождь)\n\n---\n\n**6. Инверсия в Conditionals:**\n\nБез 'if':\n- Were I you, I would accept. (If I were you)\n- Had I known, I would have come. (If I had known)\n- Should you need help, call me. (If you should need help)",
             "examples": [
-              "Never have I seen... = Я никогда не видел...",
-              "Only then did I understand... = Только тогда я понял...",
-              "So do I = Я тоже; Neither do I = Я тоже нет"
+              "Never have I seen such a beautiful sunset. (Никогда я не видел такого красивого заката)",
+              "Only then did she understand the truth. (Только тогда она поняла правду)",
+              "Not only did he win the race, but he also broke the record. (Он не только выиграл, но и побил рекорд)",
+              "No sooner had I arrived than it started to rain. (Едва я прибыл, как начался дождь)"
             ],
             "facts": [
               "Инверсия делает речь формальной и выразительной",
@@ -61,15 +193,145 @@
               "В обычной речи чаще используют обычный порядок слов"
             ],
             "keyPoints": [
-              "Инверсия после отрицательных наречий: Never have I...",
-              "Only then did I... — инверсия с 'only'",
-              "So do I / Neither do I — согласие"
+              "Инверсия после отрицательных наречий: Never have I seen... / Rarely does she... / Seldom do we...",
+              "Инверсия с 'only': Only then did I understand... / Only after the meeting did I realize...",
+              "Инверсия с 'not only... but also': Not only did he arrive late, but he also forgot...",
+              "Инверсия согласия: So do I (я тоже) / Neither do I (я тоже нет)",
+              "Инверсия 'no sooner... than': No sooner had I arrived than it started to rain"
             ],
-            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson2.svg"
+            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson2.svg",
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Какое слово стоит после отрицательного наречия в начале предложения при инверсии?",
+                  "options": [
+                    "Подлежащее",
+                    "Вспомогательный глагол",
+                    "Основной глагол",
+                    "Существительное"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Что означает 'So do I'?",
+                  "options": [
+                    "Я тоже нет",
+                    "Я тоже",
+                    "Я делаю так",
+                    "Я не тоже"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Какая инверсия используется с 'No sooner'?",
+                  "options": [
+                    "No sooner I had arrived",
+                    "No sooner had I arrived",
+                    "No sooner did I arrived",
+                    "No sooner I arrived had"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Какое наречие НЕ требует инверсии в начале предложения?",
+                  "options": [
+                    "Never",
+                    "Sometimes",
+                    "Rarely",
+                    "Seldom"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Как переводится 'Neither do I'?",
+                  "options": [
+                    "Я тоже",
+                    "Я тоже нет",
+                    "Я не делаю",
+                    "Ни я"
+                  ],
+                  "correct": 1
+                }
+              ],
+              "find": [
+                {
+                  "text": "Rarely ___ she make mistakes in her work.",
+                  "answer": "does",
+                  "options": [
+                    "does",
+                    "do",
+                    "is",
+                    "has"
+                  ]
+                },
+                {
+                  "text": "Not only ___ he arrive late, but he also forgot his documents.",
+                  "answer": "did",
+                  "options": [
+                    "did",
+                    "does",
+                    "was",
+                    "had"
+                  ]
+                },
+                {
+                  "text": "Only after the meeting ___ I realize my mistake.",
+                  "answer": "did",
+                  "options": [
+                    "did",
+                    "do",
+                    "was",
+                    "had"
+                  ]
+                },
+                {
+                  "text": "No sooner had I arrived ___ it started to rain.",
+                  "answer": "than",
+                  "options": [
+                    "than",
+                    "when",
+                    "that",
+                    "then"
+                  ]
+                },
+                {
+                  "text": "She likes coffee. So ___ I.",
+                  "answer": "do",
+                  "options": [
+                    "do",
+                    "does",
+                    "am",
+                    "have"
+                  ]
+                }
+              ],
+              "match": [
+                {
+                  "term": "Never have I seen",
+                  "definition": "Инверсия после отрицательного наречия 'never'"
+                },
+                {
+                  "term": "Only then did she understand",
+                  "definition": "Инверсия с 'only + обстоятельство'"
+                },
+                {
+                  "term": "Not only did he arrive",
+                  "definition": "Инверсия с 'not only... but also'"
+                },
+                {
+                  "term": "So do I",
+                  "definition": "Согласие с утвердительным предложением"
+                },
+                {
+                  "term": "Neither do I",
+                  "definition": "Согласие с отрицательным предложением"
+                }
+              ]
+            }
           },
           {
             "title": "Урок 3: Subjunctive Mood",
-            "description": "Сослагательное наклонение.",
+            "description": "Сослагательное наклонение (Subjunctive Mood) в английском языке выражает желание, рекомендацию, необходимость, предложение или гипотетическую ситуацию. Present Subjunctive использует базовую форму глагола (инфинитив без 'to') для всех лиц, включая третье лицо единственного числа, что отличает его от обычного настоящего времени. Он употребляется после глаголов suggest, recommend, insist, demand, require и прилагательных essential, important, necessary, vital. Past Subjunctive используется после 'wish' для выражения сожаления: wish + Past Simple — о настоящем, wish + Past Perfect — о прошлом, wish + would — о желании изменений. Важно помнить, что форма 'were' используется для всех лиц в Past Subjunctive. Конструкции 'would rather' и 'had better' также относятся к сослагательному наклонению и выражают предпочтение и совет соответственно. Освоение Subjunctive Mood — обязательное условие для владения английским на уровне Advanced.",
             "tasks": [
               "Present Subjunctive",
               "Past Subjunctive",
@@ -78,9 +340,10 @@
             ],
             "content": "**Subjunctive Mood** — сослагательное наклонение.\n\nВыражает желание, рекомендацию, необходимость.\n\n---\n\n**1. Present Subjunctive:**\n\n**Форма:** инфинитив без 'to' (base form) для всех лиц.\n\n**Использование:**\n- После глаголов: suggest, recommend, insist, demand, require, order\n- После прилагательных: essential, important, necessary, vital, imperative\n- После выражений: it's time, I wish, would rather\n\n**Примеры:**\n- I suggest that he be more careful.\n  (Я предлагаю, чтобы он был осторожнее)\n  \n- It is essential that she be present.\n  (Необходимо, чтобы она присутствовала)\n  \n- The doctor recommended that he take a rest.\n  (Врач рекомендовал ему отдохнуть)\n\n**Важно:** 'be' и 'take' — без окончаний!\n\n---\n\n**2. Past Subjunctive:**\n\n**Использование:**\n- После 'wish' для сожаления о настоящем\n- После 'as if', 'as though'\n- В структуре 'it's time'\n\n**Примеры:**\n- I wish I were rich. (Жаль, что я не богат)\n- He talks as if he knew everything. (Он говорит так, будто всё знает)\n- It's time we left. (Пора нам уходить)\n\n**Важно:** 'were' для всех лиц!\n\n---\n\n**3. Wish + разные формы:**\n\n| Конструкция | Значение | Пример |\n|-------------|----------|--------|\n| wish + Past Simple | Сожаление о настоящем | I wish I knew. |\n| wish + Past Perfect | Сожаление о прошлом | I wish I had known. |\n| wish + would | Недовольство, желание изменений | I wish you would stop. |\n\n**Примеры:**\n- I wish I spoke French. (Жаль, что я не говорю по-французски)\n- I wish I had studied harder. (Жаль, что я не учился лучше)\n- I wish you would be quiet. (Хотелось бы, чтобы ты помолчал)\n\n---\n\n**4. Would rather / Had better:**\n\n**Would rather + V:** предпочтение\n- I would rather stay at home. (Я бы лучше остался дома)\n\n**Would rather + Past Simple:** предпочтение о другом человеке\n- I would rather you stayed. (Я бы предпочёл, чтобы ты остался)\n\n**Had better + V:** совет, предупреждение\n- You had better study. (Тебе лучше учиться)",
             "examples": [
-              "I suggest he be careful. (сослагательное)",
-              "I wish I were... (форма were для всех)",
-              "I wish I had known... (сожаление о прошлом)"
+              "The doctor recommended that he take a rest. (Врач рекомендовал ему отдохнуть — Present Subjunctive)",
+              "I wish I were more confident. (Жаль, что я не увереннее — Past Subjunctive с 'were')",
+              "I wish I had studied harder at university. (Жаль, что я не учился лучше — сожаление о прошлом)",
+              "I would rather you stayed at home tonight. (Я бы предпочёл, чтобы ты остался дома)"
             ],
             "facts": [
               "Present Subjunctive использует базовую форму глагола",
@@ -88,15 +351,145 @@
               "'I wish I was' допустимо в разговорной речи, но 'were' — правильно"
             ],
             "keyPoints": [
-              "Present Subjunctive: I suggest that he be...",
-              "Past Subjunctive: I wish I were... (were для всех)",
-              "Wish + Past Perfect — сожаление о прошлом"
+              "Present Subjunctive: I suggest that he be careful (базовая форма глагола для всех лиц)",
+              "Past Subjunctive: I wish I were rich (форма 'were' для всех лиц)",
+              "Wish + Past Simple — сожаление о настоящем; Wish + Past Perfect — сожаление о прошлом",
+              "Would rather + V — предпочтение; Would rather + Past Simple — предпочтение о другом человеке",
+              "Had better + V — совет/предупреждение (сильнее, чем should)"
             ],
-            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson3.svg"
+            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson3.svg",
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Какая форма глагола используется в Present Subjunctive?",
+                  "options": [
+                    "Инфинитив без 'to' (base form)",
+                    "Past Simple",
+                    "Present Perfect",
+                    "V3 (Past Participle)"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "question": "Какая форма 'be' используется в Past Subjunctive для всех лиц?",
+                  "options": [
+                    "am/is/are",
+                    "was",
+                    "were",
+                    "been"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "question": "Какая конструкция с wish выражает сожаление о прошлом?",
+                  "options": [
+                    "wish + Past Simple",
+                    "wish + Past Perfect",
+                    "wish + would",
+                    "wish + Present Simple"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Что выражает 'Had better + V'?",
+                  "options": [
+                    "Предпочтение",
+                    "Совет или предупреждение",
+                    "Сожаление",
+                    "Рекомендацию в формальном стиле"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Какой глагол НЕ используется с Present Subjunctive?",
+                  "options": [
+                    "suggest",
+                    "insist",
+                    "think",
+                    "demand"
+                  ],
+                  "correct": 2
+                }
+              ],
+              "find": [
+                {
+                  "text": "I suggest that he ___ more careful.",
+                  "answer": "be",
+                  "options": [
+                    "be",
+                    "is",
+                    "was",
+                    "were"
+                  ]
+                },
+                {
+                  "text": "I wish I ___ French fluently.",
+                  "answer": "spoke",
+                  "options": [
+                    "spoke",
+                    "speak",
+                    "had spoken",
+                    "would speak"
+                  ]
+                },
+                {
+                  "text": "I wish I ___ the opportunity when I had the chance.",
+                  "answer": "had taken",
+                  "options": [
+                    "had taken",
+                    "took",
+                    "take",
+                    "would take"
+                  ]
+                },
+                {
+                  "text": "You had better ___ before making a decision.",
+                  "answer": "think",
+                  "options": [
+                    "think",
+                    "thinking",
+                    "thought",
+                    "to think"
+                  ]
+                },
+                {
+                  "text": "It is essential that she ___ present at the meeting.",
+                  "answer": "be",
+                  "options": [
+                    "be",
+                    "is",
+                    "was",
+                    "will be"
+                  ]
+                }
+              ],
+              "match": [
+                {
+                  "term": "Present Subjunctive",
+                  "definition": "Базовая форма глагола после suggest, demand, insist: 'he be', 'she take'"
+                },
+                {
+                  "term": "Past Subjunctive",
+                  "definition": "Форма 'were' для всех лиц после wish, as if: 'I wish I were'"
+                },
+                {
+                  "term": "Wish + Past Perfect",
+                  "definition": "Сожаление о действии в прошлом: 'I wish I had known'"
+                },
+                {
+                  "term": "Would rather + Past Simple",
+                  "definition": "Предпочтение относительно другого лица: 'I'd rather you stayed'"
+                },
+                {
+                  "term": "Had better + V",
+                  "definition": "Настоятельный совет или предупреждение: 'You'd better study'"
+                }
+              ]
+            }
           },
           {
             "title": "Урок 4: Complex Structures",
-            "description": "Сложные грамматические конструкции.",
+            "description": "Сложные грамматические конструкции (Complex Structures) — это продвинутые синтаксические структуры английского языка, которые делают речь более выразительной, разнообразной и близкой к уровню носителя языка. Cleft sentences (расщеплённые предложения) позволяют выделить важную информацию с помощью конструкций 'It was... who/that' и 'What I need is...'. Participle clauses (причастные обороты) сокращают придаточные предложения, делая речь более плавной и лаконичной: Present Participle (-ing) для активного действия, Past Participle (-ed) для пассивного, Perfect Participle (having + V3) для завершённого действия. Конструкции 'so/such... that' выражают причину и следствие с эмоциональной окраской. Структуры 'too... to' и 'enough... to' описывают степень достаточности или недостаточности. Demonstrative + of + possessive ('that brother of yours') добавляет разговорную выразительность. Эти конструкции характерны для письменной речи и формального общения.",
             "tasks": [
               "Cleft sentences",
               "Inversion with adverbs",
@@ -105,9 +498,10 @@
             ],
             "content": "**Сложные грамматические конструкции:**\n\n**1. Cleft Sentences (расщеплённые предложения):**\n\n**It-cleft:**\nIt + be + выделяемый элемент + that/who\n\n**Примеры:**\n- It was John who broke the window.\n  (Именно Джон разбил окно)\n  \n- It is this book that I recommend.\n  (Именно эту книгу я рекомендую)\n\n**Wh-cleft:**\nWhat + clause + be + X\n\n**Примеры:**\n- What I need is a cup of coffee.\n  (То, что мне нужно — чашка кофе)\n  \n- What surprises me is his attitude.\n  (Что меня удивляет — его отношение)\n\n---\n\n**2. Participle Clauses (причастные обороты):**\n\n**Present Participle (-ing):**\n- Active действие\n- Walking down the street, I met an old friend.\n  (Гуляя по улице, я встретил старого друга)\n\n**Past Participle (-ed/irregular):**\n- Passive действие\n- Written in 1960, the book became a classic.\n  (Написанная в 1960 году, книга стала классикой)\n\n**Perfect Participle (having + V3):**\n- Действие завершено до другого\n- Having finished the work, he went home.\n  (Закончив работу, он пошёл домой)\n\n---\n\n**3. So / Such... that:**\n\n**So + прилагательное/наречие + that:**\n- He was so tired that he fell asleep immediately.\n\n**Such + (a/an) + существительное + that:**\n- It was such a good movie that I watched it twice.\n\n---\n\n**4. Too / Enough:**\n\n**Too + прилагательное/наречие + to + V:**\n- He is too young to drive. (Слишком молод, чтобы водить)\n\n**Прилагательное/наречие + enough + to + V:**\n- He is old enough to vote. (Достаточно взрослый, чтобы голосовать)\n\n---\n\n**5. Demonstrative + of + possessive:**\n\n- That brother of yours is annoying.\n  (Этот твой брат раздражает)\n  \n- This idea of mine might work.\n  (Эта моя идея может сработать)",
             "examples": [
-              "It was John who... = Именно Джон...",
-              "Walking down the street, I... = Гуляя по улице, я...",
-              "He was so tired that... = Он был так уставшим, что..."
+              "It was John who broke the window. (Именно Джон разбил окно — It-cleft)",
+              "Walking down the street, I met an old friend. (Гуляя по улице, я встретил друга — Present Participle)",
+              "He was so tired that he fell asleep immediately. (Он был так уставшим, что сразу заснул — so...that)",
+              "He is too young to drive. (Он слишком молод, чтобы водить — too...to)"
             ],
             "facts": [
               "Cleft sentences выделяют важную информацию",
@@ -115,11 +509,141 @@
               "Эти конструкции типичны для письменной речи"
             ],
             "keyPoints": [
-              "Cleft sentences: It was John who... = Именно Джон...",
-              "Participle clauses: Walking..., Written...",
-              "Too... to / enough to — степень"
+              "Cleft sentences: It was John who broke... (It-cleft); What I need is... (Wh-cleft) — выделение важной информации",
+              "Participle clauses: Walking down the street (Active); Written in 1960 (Passive); Having finished (Perfect) — сокращение придаточных",
+              "So + adj/adv + that / Such + noun + that — причина и следствие с усилением",
+              "Too + adj/adv + to + V (слишком... чтобы) / Adj + enough + to + V (достаточно... чтобы)",
+              "That brother of yours / This idea of mine — разговорная конструкция для выразительности"
             ],
-            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson4.svg"
+            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson4.svg",
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Какая конструкция используется для выделения элемента в предложении (It-cleft)?",
+                  "options": [
+                    "What I need is...",
+                    "It was John who...",
+                    "Walking down the street...",
+                    "So tired that..."
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Какой тип Participle Clause выражает пассивное действие?",
+                  "options": [
+                    "Present Participle (-ing)",
+                    "Past Participle (-ed/V3)",
+                    "Perfect Participle (having + V3)",
+                    "Gerund"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Какая структура правильная: 'He is ___ young ___ drive'?",
+                  "options": [
+                    "so...that",
+                    "too...to",
+                    "such...that",
+                    "enough...to"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Что означает Perfect Participle (having + V3)?",
+                  "options": [
+                    "Действие происходит одновременно",
+                    "Действие завершено до другого",
+                    "Пассивное действие",
+                    "Будущее действие"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Какой тип cleft sentence: 'What I need is a cup of coffee'?",
+                  "options": [
+                    "It-cleft",
+                    "Wh-cleft",
+                    "Passive cleft",
+                    "Reverse cleft"
+                  ],
+                  "correct": 1
+                }
+              ],
+              "find": [
+                {
+                  "text": "___ down the street, I met an old friend.",
+                  "answer": "Walking",
+                  "options": [
+                    "Walking",
+                    "Walked",
+                    "Having walked",
+                    "To walk"
+                  ]
+                },
+                {
+                  "text": "It was Mary ___ called you yesterday.",
+                  "answer": "who",
+                  "options": [
+                    "who",
+                    "which",
+                    "what",
+                    "whom"
+                  ]
+                },
+                {
+                  "text": "Written in 1960, the book ___ a classic.",
+                  "answer": "became",
+                  "options": [
+                    "became",
+                    "becoming",
+                    "becomes",
+                    "become"
+                  ]
+                },
+                {
+                  "text": "He is old ___ to vote in the election.",
+                  "answer": "enough",
+                  "options": [
+                    "enough",
+                    "too",
+                    "so",
+                    "such"
+                  ]
+                },
+                {
+                  "text": "___ finished the work, he went home.",
+                  "answer": "Having",
+                  "options": [
+                    "Having",
+                    "Being",
+                    "After",
+                    "When"
+                  ]
+                }
+              ],
+              "match": [
+                {
+                  "term": "It-cleft",
+                  "definition": "It + be + выделяемый элемент + that/who: 'It was John who broke it'"
+                },
+                {
+                  "term": "Wh-cleft",
+                  "definition": "What + clause + be + X: 'What I need is coffee'"
+                },
+                {
+                  "term": "Present Participle",
+                  "definition": "Активное действие: 'Walking down the street, I met a friend'"
+                },
+                {
+                  "term": "Past Participle",
+                  "definition": "Пассивное действие: 'Written in 1960, the book became a classic'"
+                },
+                {
+                  "term": "Perfect Participle",
+                  "definition": "Завершённое действие: 'Having finished, he went home'"
+                }
+              ]
+            }
           }
         ]
       },
@@ -128,7 +652,7 @@
         "lessons": [
           {
             "title": "Урок 5: Academic Vocabulary",
-            "description": "Академическая и научная лексика.",
+            "description": "Академическая лексика (Academic Vocabulary) — это набор слов и выражений, используемых в научных, формальных и академических текстах. Владение академической лексикой необходимо для написания эссе, исследовательских работ, докладов и участия в академических дискуссиях на английском языке. Ключевые академические глаголы включают: analyse (анализировать), assess (оценивать), evaluate (оценивать результат), demonstrate (демонстрировать), imply (подразумевать), propose (предлагать). Важнейшую роль играют связующие слова (linking words), обеспечивающие логическую связь между частями текста: furthermore и moreover для добавления, however и nevertheless для противопоставления, consequently и therefore для следствия. Академический стиль требует избегания сокращений (don't → do not), использования формальных слов вместо разговорных (get → obtain), а также предпочтения пассивного залога в научных текстах. Правильное использование академической лексики — признак продвинутого владения языком.",
             "tasks": [
               "Слова для академического письма",
               "Связующие слова для эссе",
@@ -137,9 +661,10 @@
             ],
             "content": "**Академическая лексика** — слова для научного и формального письма.\n\n**Глаголы для академического письма:**\n\n| Глагол | Значение | Пример |\n|--------|----------|--------|\n| analyse | анализировать | analyse the data |\n| assess | оценивать | assess the impact |\n| claim | утверждать | claim that... |\n| demonstrate | демонстрировать | demonstrate the effects |\n| evaluate | оценивать | evaluate the results |\n| imply | подразумевать | imply that... |\n| indicate | указывать | indicate a trend |\n| maintain | утверждать | maintain that... |\n| propose | предлагать | propose a theory |\n| suggest | предлагать | suggest that... |\n\n---\n\n**Существительные для академического письма:**\n\n| Слово | Значение | Пример |\n|-------|----------|--------|\n| approach | подход | a new approach |\n| aspect | аспект | this aspect of... |\n| assumption | предположение | this assumption is... |\n| concept | концепция | the concept of... |\n| context | контекст | in this context |\n| factor | фактор | a key factor |\n| issue | проблема | a controversial issue |\n| perspective | перспектива | from this perspective |\n| significance | значимость | of great significance |\n| tendency | тенденция | a tendency to... |\n\n---\n\n**Связующие слова для эссе:**\n\n**Введение темы:**\n- The purpose of this essay is to...\n- This paper aims to discuss...\n- The issue of... has become increasingly important.\n\n**Добавление информации:**\n- Furthermore, ... / Moreover, ...\n- In addition, ... / Additionally, ...\n- Another significant point is that...\n\n**Противопоставление:**\n- However, ... / Nevertheless, ...\n- On the other hand, ...\n- Despite this, ... / In spite of this, ...\n\n**Причина и следствие:**\n- Consequently, ... / As a result, ...\n- Therefore, ... / Thus, ...\n- This leads to... / This results in...\n\n**Примеры:**\n- For instance, ... / For example, ...\n- To illustrate, ...\n- A case in point is...\n\n**Заключение:**\n- In conclusion, ... / To conclude, ...\n- In summary, ... / To sum up, ...\n- Overall, it can be seen that...",
             "examples": [
-              "analyse, assess, evaluate — ключевые академические глаголы",
-              "Furthermore, Moreover, However — связующие слова",
-              "In conclusion, To sum up — для заключения"
+              "The research demonstrates a clear link between diet and health. (Исследование демонстрирует явную связь)",
+              "Furthermore, the results indicate a significant improvement. (Кроме того, результаты указывают на улучшение)",
+              "However, this approach has several limitations. (Однако этот подход имеет несколько ограничений)",
+              "In conclusion, the findings support the initial hypothesis. (В заключение, результаты подтверждают гипотезу)"
             ],
             "facts": [
               "Академический стиль избегает сокращений (don't → do not)",
@@ -147,15 +672,145 @@
               "Формальные слова вместо разговорных (get → obtain)"
             ],
             "keyPoints": [
-              "Ключевые глаголы: analyse, assess, evaluate",
-              "Связующие слова: furthermore, moreover, however",
-              "Заключение: in conclusion, to sum up"
+              "Ключевые академические глаголы: analyse, assess, evaluate, demonstrate, imply, propose, indicate",
+              "Связующие слова добавления: furthermore, moreover, in addition, additionally",
+              "Связующие слова противопоставления: however, nevertheless, on the other hand, despite",
+              "Связующие слова следствия: consequently, therefore, thus, as a result",
+              "Академический стиль: без сокращений, формальные слова, пассивный залог"
             ],
-            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson5.svg"
+            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson5.svg",
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Какой глагол означает 'оценивать результат' в академическом контексте?",
+                  "options": [
+                    "analyse",
+                    "evaluate",
+                    "imply",
+                    "indicate"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Какое связующее слово выражает противопоставление?",
+                  "options": [
+                    "Furthermore",
+                    "Moreover",
+                    "However",
+                    "Therefore"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "question": "Какое слово следует использовать вместо 'get' в академическом тексте?",
+                  "options": [
+                    "take",
+                    "obtain",
+                    "catch",
+                    "grab"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Какое связующее слово выражает добавление информации?",
+                  "options": [
+                    "Nevertheless",
+                    "Consequently",
+                    "Moreover",
+                    "However"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "question": "Какое сокращение НЕ следует использовать в академическом письме?",
+                  "options": [
+                    "e.g.",
+                    "i.e.",
+                    "don't",
+                    "etc."
+                  ],
+                  "correct": 2
+                }
+              ],
+              "find": [
+                {
+                  "text": "The results ___ a clear trend in the data.",
+                  "answer": "indicate",
+                  "options": [
+                    "indicate",
+                    "show",
+                    "point",
+                    "give"
+                  ]
+                },
+                {
+                  "text": "___, the study reveals important patterns.",
+                  "answer": "Furthermore",
+                  "options": [
+                    "Furthermore",
+                    "But",
+                    "So",
+                    "And"
+                  ]
+                },
+                {
+                  "text": "The researchers ___ that more studies are needed.",
+                  "answer": "suggest",
+                  "options": [
+                    "suggest",
+                    "tell",
+                    "say",
+                    "speak"
+                  ]
+                },
+                {
+                  "text": "___, the data does not support this conclusion.",
+                  "answer": "However",
+                  "options": [
+                    "However",
+                    "Also",
+                    "So",
+                    "Thus"
+                  ]
+                },
+                {
+                  "text": "In ___, the hypothesis was confirmed by the experiment.",
+                  "answer": "conclusion",
+                  "options": [
+                    "conclusion",
+                    "end",
+                    "finish",
+                    "summary"
+                  ]
+                }
+              ],
+              "match": [
+                {
+                  "term": "analyse",
+                  "definition": "Изучать что-либо подробно, разбирать на составляющие"
+                },
+                {
+                  "term": "assess",
+                  "definition": "Оценивать качество, значимость или стоимость чего-либо"
+                },
+                {
+                  "term": "Furthermore",
+                  "definition": "Связующее слово для добавления дополнительной информации"
+                },
+                {
+                  "term": "Nevertheless",
+                  "definition": "Связующее слово для противопоставления, несмотря на что-либо"
+                },
+                {
+                  "term": "Consequently",
+                  "definition": "Связующее слово для выражения следствия или результата"
+                }
+              ]
+            }
           },
           {
             "title": "Урок 6: Essay Writing",
-            "description": "Написание эссе.",
+            "description": "Написание эссе (Essay Writing) — один из важнейших навыков академического английского, требующий чёткого понимания структуры, логики и стиля изложения. Эссе состоит из трёх основных частей: введение (Introduction), основная часть (Body Paragraphs) и заключение (Conclusion). Во введении необходимо представить общую информацию по теме, контекст и, самое важное, тезис (thesis statement) — центральную мысль эссе. Каждый абзац основной части строится по схеме: тематическое предложение (topic sentence) → поддерживающие аргументы → доказательства и примеры → заключительное предложение. Существует несколько типов эссе: Opinion (выражение мнения), Discussion (обсуждение обеих сторон), Problem-Solution (проблема и решение), Advantages-Disadvantages (преимущества и недостатки). Заключение переформулирует тезис, обобщает основные аргументы и содержит финальную мысль, но не должно включать новую информацию. Правильная структура и логика — основа успешного эссе.",
             "tasks": [
               "Структура эссе",
               "Введение и тезис",
@@ -164,9 +819,10 @@
             ],
             "content": "**Структура эссе:**\n\n**1. Introduction (Введение)**\n\n**Компоненты:**\n- General statement (общее введение в тему)\n- Background information (контекст)\n- Thesis statement (тезис — главная мысль)\n\n**Пример введения:**\n\"In recent years, the issue of climate change has become increasingly prominent in public discourse. With rising global temperatures and extreme weather events, governments and individuals are facing critical decisions about environmental policy. This essay will examine the causes of climate change and evaluate potential solutions.\"\n\n---\n\n**2. Body Paragraphs (Основная часть)**\n\n**Структура абзаца:**\n1. Topic sentence (тематическое предложение)\n2. Supporting sentences (поддерживающие предложения)\n3. Evidence/examples (доказательства/примеры)\n4. Concluding sentence (заключительное предложение)\n\n**Пример абзаца:**\n\"One significant cause of climate change is the burning of fossil fuels. When coal, oil, and natural gas are burned for energy, they release carbon dioxide into the atmosphere. For instance, the transportation sector accounts for approximately 24% of global CO2 emissions. This accumulation of greenhouse gases contributes to the warming of the planet.\"\n\n---\n\n**3. Conclusion (Заключение)**\n\n**Компоненты:**\n- Restate thesis (переформулировать тезис)\n- Summarize main points (обобщить основные пункты)\n- Final thought/recommendation (финальная мысль)\n\n**Пример заключения:**\n\"In conclusion, climate change is driven primarily by human activities, particularly the burning of fossil fuels and deforestation. While the challenges are significant, solutions such as renewable energy adoption and reforestation offer hope for the future. It is essential that both governments and individuals take immediate action to address this global crisis.\"\n\n---\n\n**Типы эссе:**\n\n| Тип | Цель | Структура |\n|-----|------|-----------|\n| Opinion | Выразить мнение | Введение + 2-3 аргумента + Заключение |\n| Discussion | Обсудить обе стороны | Введение + Аргументы за + Аргументы против + Заключение |\n| Problem-Solution | Проблема и решение | Введение + Проблема + Решения + Заключение |\n| Advantages-Disadvantages | Плюсы и минусы | Введение + Преимущества + Недостатки + Заключение |",
             "examples": [
-              "Introduction: General statement → Thesis",
-              "Body: Topic sentence → Evidence → Concluding sentence",
-              "Conclusion: Restate thesis → Summarize → Final thought"
+              "Introduction: 'In recent years, the issue of climate change has become increasingly prominent...' → Thesis: 'This essay will examine the causes and evaluate solutions'",
+              "Body paragraph: Topic sentence → 'One significant cause is fossil fuels' → Evidence → '24% of global CO2 emissions'",
+              "Conclusion: 'In conclusion, climate change is driven by human activities. Solutions such as renewable energy offer hope'",
+              "Discussion essay: Introduction → Arguments for → Arguments against → Conclusion"
             ],
             "facts": [
               "Тезис — самая важная часть введения",
@@ -174,15 +830,145 @@
               "Заключение НЕ должно содержать новой информации"
             ],
             "keyPoints": [
-              "Структура: Introduction → Body → Conclusion",
-              "Topic sentence — главная мысль абзаца",
-              "Тезис — центральная идея эссе"
+              "Структура эссе: Introduction (тезис) → Body Paragraphs (аргументы) → Conclusion (обобщение)",
+              "Тезис (thesis statement) — центральная мысль эссе, содержащаяся во введении",
+              "Каждый абзац: Topic sentence → Supporting sentences → Evidence → Concluding sentence",
+              "Типы эссе: Opinion, Discussion, Problem-Solution, Advantages-Disadvantages",
+              "Заключение переформулирует тезис и обобщает аргументы, без новой информации"
             ],
-            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson6.svg"
+            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson6.svg",
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Что такое thesis statement?",
+                  "options": [
+                    "Заключительное предложение",
+                    "Центральная мысль эссе во введении",
+                    "Тематическое предложение абзаца",
+                    "Список литературы"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Сколько основных частей в эссе?",
+                  "options": [
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Какой тип эссе обсуждает обе стороны вопроса?",
+                  "options": [
+                    "Opinion",
+                    "Discussion",
+                    "Problem-Solution",
+                    "Narrative"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Что НЕ должно содержаться в заключении?",
+                  "options": [
+                    "Переформулировка тезиса",
+                    "Обобщение аргументов",
+                    "Новая информация",
+                    "Финальная мысль"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "question": "Какова схема абзаца основной части?",
+                  "options": [
+                    "Thesis → Evidence → Conclusion",
+                    "Topic sentence → Support → Evidence → Concluding sentence",
+                    "Introduction → Body → Conclusion",
+                    "Question → Answer → Example"
+                  ],
+                  "correct": 1
+                }
+              ],
+              "find": [
+                {
+                  "text": "The ___ statement presents the main idea of the essay.",
+                  "answer": "thesis",
+                  "options": [
+                    "thesis",
+                    "topic",
+                    "concluding",
+                    "supporting"
+                  ]
+                },
+                {
+                  "text": "Each body paragraph should contain ___ main idea.",
+                  "answer": "one",
+                  "options": [
+                    "one",
+                    "two",
+                    "three",
+                    "several"
+                  ]
+                },
+                {
+                  "text": "In ___, the findings support the initial hypothesis.",
+                  "answer": "conclusion",
+                  "options": [
+                    "conclusion",
+                    "addition",
+                    "contrast",
+                    "summary"
+                  ]
+                },
+                {
+                  "text": "A ___ essay discusses both sides of an issue.",
+                  "answer": "Discussion",
+                  "options": [
+                    "Discussion",
+                    "Opinion",
+                    "Narrative",
+                    "Descriptive"
+                  ]
+                },
+                {
+                  "text": "The ___ sentence introduces the main idea of a paragraph.",
+                  "answer": "topic",
+                  "options": [
+                    "topic",
+                    "thesis",
+                    "concluding",
+                    "supporting"
+                  ]
+                }
+              ],
+              "match": [
+                {
+                  "term": "Introduction",
+                  "definition": "Введение с общим контекстом и тезисом"
+                },
+                {
+                  "term": "Body Paragraph",
+                  "definition": "Основной абзац: topic sentence → support → evidence → conclusion"
+                },
+                {
+                  "term": "Thesis statement",
+                  "definition": "Центральная мысль эссе во введении"
+                },
+                {
+                  "term": "Topic sentence",
+                  "definition": "Тематическое предложение — главная мысль абзаца"
+                },
+                {
+                  "term": "Conclusion",
+                  "definition": "Заключение: переформулировка тезиса + обобщение + финальная мысль"
+                }
+              ]
+            }
           },
           {
             "title": "Урок 7: Debating Skills",
-            "description": "Навыки дебатов и дискуссий.",
+            "description": "Навыки дебатов и дискуссий (Debating Skills) — это комплекс умений, необходимых для эффективного участия в дискуссиях на английском языке: аргументация, опровержение, использование риторических приёмов и избегание логических ошибок. Структура дебатов включает вступительные заявления, аргументы, опровержение и заключительные заявления. Для представления аргумента используются фразы: 'The first point I'd like to make is...', 'My primary argument is that...'. Для опровержения: 'While it may be true that..., I would argue that...'. Логические ошибки (logical fallacies) подрывают аргументацию: Ad Hominem (атака на личность), Straw Man (искажение аргумента), False Dichotomy (ложная дилемма), Slippery Slope (скользкая дорожка). Риторические приёмы усиливают воздействие: риторические вопросы, повторение, правило трёх (tripling). Освоение навыков дебатов развивает критическое мышление и уверенность в публичных выступлениях.",
             "tasks": [
               "Структура дебатов",
               "Аргументация",
@@ -191,9 +977,10 @@
             ],
             "content": "**Структура дебатов:**\n\n**Типичная структура:**\n1. Opening statements (вступительные заявления)\n2. Arguments (аргументы)\n3. Rebuttal (опровержение)\n4. Closing statements (заключительные заявления)\n\n---\n\n**Выражения для дебатов:**\n\n**Представление аргумента:**\n- The first point I'd like to make is...\n- My primary argument is that...\n- There are several reasons why I believe...\n- Let me begin by stating...\n\n**Поддержка аргумента:**\n- Research has shown that...\n- According to recent studies...\n- For instance, ... / For example, ...\n- This is illustrated by...\n\n**Опровержение:**\n- While it may be true that..., I would argue that...\n- I understand the point about..., however...\n- That's an interesting perspective, but...\n- I see your point, but I must disagree because...\n- The evidence actually suggests otherwise...\n\n**Заключение:**\n- In conclusion, I strongly believe that...\n- To summarise my position...\n- For these reasons, I urge you to support/oppose...\n\n---\n\n**Логические ошибки (Logical Fallacies):**\n\n**1. Ad Hominem** — атака на личность\n- «Ты не можешь быть прав, ты даже не учился в университете!»\n\n**2. Straw Man** — искажение аргумента оппонента\n- «Ты хочешь открыть границы? Значит, ты хочешь уничтожить нашу страну!»\n\n**3. False Dichotomy** — ложная дилемма\n- «Или ты с нами, или против нас!»\n\n**4. Slippery Slope** — скользкая дорожка\n- «Если разрешить это, то всё рухнет!»\n\n**5. Appeal to Authority** — обращение к авторитету\n- «Знаменитый актёр сказал, что это правда!»\n\n---\n\n**Риторические приёмы:**\n\n**Rhetorical questions:**\n- Can we really afford to ignore this problem?\n\n**Repetition:**\n- We need change. We need progress. We need action.\n\n**Tripling (правило трёх):**\n- Government of the people, by the people, for the people.",
             "examples": [
-              "My primary argument is that... — Мой главный аргумент...",
-              "I see your point, but... — Я понимаю вашу точку зрения, но...",
-              "In conclusion, I strongly believe that... — В заключение, я твёрдо верю, что..."
+              "My primary argument is that renewable energy is essential for our future. (Мой главный аргумент...)",
+              "I see your point, but I must disagree because the evidence shows otherwise. (Я понимаю вашу точку зрения, но...)",
+              "Ad Hominem: 'You can't be right, you didn't even go to university!' (Атака на личность)",
+              "We need change. We need progress. We need action. (Правило трёх — tripling)"
             ],
             "facts": [
               "Избегайте логических ошибок в аргументах",
@@ -201,11 +988,141 @@
               "Уважайте противоположную точку зрения"
             ],
             "keyPoints": [
-              "My primary argument is that... — представление аргумента",
-              "I see your point, but I disagree — опровержение",
-              "Избегайте логических ошибок в аргументах"
+              "Структура дебатов: Opening statements → Arguments → Rebuttal → Closing statements",
+              "Фразы аргументации: My primary argument is that... / There are several reasons why...",
+              "Фразы опровержения: I see your point, but I must disagree because... / The evidence suggests otherwise",
+              "Логические ошибки: Ad Hominem, Straw Man, False Dichotomy, Slippery Slope",
+              "Риторические приёмы: rhetorical questions, repetition, tripling (правило трёх)"
             ],
-            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson7.svg"
+            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson7.svg",
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Что такое 'Ad Hominem'?",
+                  "options": [
+                    "Искажение аргумента оппонента",
+                    "Атака на личность вместо аргумента",
+                    "Ложная дилемма",
+                    "Обращение к авторитету"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Какая логическая ошибка представляет только два варианта, хотя их больше?",
+                  "options": [
+                    "Ad Hominem",
+                    "Straw Man",
+                    "False Dichotomy",
+                    "Slippery Slope"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "question": "Что такое 'Straw Man'?",
+                  "options": [
+                    "Атака на личность",
+                    "Искажение аргумента оппонента для облегчения опровержения",
+                    "Скользкая дорожка",
+                    "Обращение к авторитету"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Какой риторический приём использует повторение триады?",
+                  "options": [
+                    "Rhetorical question",
+                    "Metaphor",
+                    "Tripling",
+                    "Hyperbole"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "question": "Какая фраза используется для опровержения?",
+                  "options": [
+                    "My primary argument is...",
+                    "In conclusion...",
+                    "I see your point, but I must disagree",
+                    "Furthermore..."
+                  ],
+                  "correct": 2
+                }
+              ],
+              "find": [
+                {
+                  "text": "A logical fallacy where you attack the person instead of the argument is called Ad ___.",
+                  "answer": "Hominem",
+                  "options": [
+                    "Hominem",
+                    "Argumentum",
+                    "Fallacy",
+                    "Ignorantiam"
+                  ]
+                },
+                {
+                  "text": "The 'Straw ___' fallacy distorts the opponent's argument.",
+                  "answer": "Man",
+                  "options": [
+                    "Man",
+                    "Dog",
+                    "Cat",
+                    "Person"
+                  ]
+                },
+                {
+                  "text": "A ___ Dichotomy presents only two options when more exist.",
+                  "answer": "False",
+                  "options": [
+                    "False",
+                    "True",
+                    "Real",
+                    "Dual"
+                  ]
+                },
+                {
+                  "text": "The rule of three in rhetoric is called ___.",
+                  "answer": "tripling",
+                  "options": [
+                    "tripling",
+                    "doubling",
+                    "quadring",
+                    "pairing"
+                  ]
+                },
+                {
+                  "text": "A ___ slope argument claims one action will inevitably lead to extreme consequences.",
+                  "answer": "slippery",
+                  "options": [
+                    "slippery",
+                    "steep",
+                    "down",
+                    "long"
+                  ]
+                }
+              ],
+              "match": [
+                {
+                  "term": "Ad Hominem",
+                  "definition": "Логическая ошибка: атака на личность вместо аргумента"
+                },
+                {
+                  "term": "Straw Man",
+                  "definition": "Логическая ошибка: искажение аргумента оппонента"
+                },
+                {
+                  "term": "False Dichotomy",
+                  "definition": "Логическая ошибка: представление только двух вариантов"
+                },
+                {
+                  "term": "Slippery Slope",
+                  "definition": "Логическая ошибка: утверждение о неизбежности крайних последствий"
+                },
+                {
+                  "term": "Tripling",
+                  "definition": "Риторический приём: повторение группы из трёх элементов"
+                }
+              ]
+            }
           }
         ]
       },
@@ -214,7 +1131,7 @@
         "lessons": [
           {
             "title": "Урок 8: Business English",
-            "description": "Деловой английский.",
+            "description": "Деловой английский (Business English) — это специализированная разновидность английского языка, используемая в профессиональной среде для деловой переписки, проведения презентаций, переговоров и соблюдения делового этикета. Деловое письмо имеет строгую структуру: приветствие (Dear Mr./Ms.), открытие (I am writing to...), основная часть, закрытие (I look forward to hearing from you) и подпись (Yours sincerely/faithfully). Формальность выбирается в зависимости от степени знакомства с адресатом. Презентации на деловом английском следуют чёткой структуре: введение (цель, план), основная часть (переходы, визуальные материалы), заключение (обобщение, вопросы). Деловой этикет требует своевременных ответов на письма (24-48 часов), проверки правописания и формального тона. Владение деловым английским — необходимое условие для успешной международной карьеры и профессионального общения.",
             "tasks": [
               "Деловая переписка",
               "Презентации",
@@ -223,9 +1140,10 @@
             ],
             "content": "**Деловая переписка:**\n\n**Структура делового письма:**\n\n1. **Salutation (приветствие):**\n- Dear Mr./Ms. [Last Name],\n- Dear Sir/Madam, (если неизвестно имя)\n\n2. **Opening (открытие):**\n- I am writing to inquire about...\n- I am writing in response to...\n- Thank you for your letter/email regarding...\n\n3. **Body (основная часть):**\n- I would like to request...\n- Please find attached...\n- Could you please provide...?\n\n4. **Closing (закрытие):**\n- I look forward to hearing from you.\n- Please do not hesitate to contact me if you need further information.\n- Thank you for your time and consideration.\n\n5. **Sign-off (подпись):**\n- Yours sincerely, (если знаете имя)\n- Yours faithfully, (если не знаете имя)\n- Best regards, / Kind regards, (менее формально)\n\n---\n\n**Пример делового письма:**\n\nDear Ms. Johnson,\n\nI am writing to apply for the Marketing Manager position advertised on your company website.\n\nWith over five years of experience in digital marketing and a proven track record of increasing brand awareness, I believe I would be a valuable addition to your team. Please find attached my CV and cover letter for your consideration.\n\nI would welcome the opportunity to discuss my application with you further. I am available for an interview at your convenience.\n\nThank you for your time and consideration.\n\nYours sincerely,\n\nJohn Smith\n\n---\n\n**Фразы для презентаций:**\n\n**Введение:**\n- Good morning/afternoon everyone. Thank you for coming.\n- The purpose of my presentation is to...\n- I've divided my presentation into three parts.\n\n**Переходы:**\n- Let's move on to...\n- Now I'd like to discuss...\n- Turning to my next point...\n\n**Визуальные материалы:**\n- As you can see from this chart...\n- This graph shows...\n- Let me draw your attention to...\n\n**Заключение:**\n- To sum up, ... / In conclusion, ...\n- Thank you for your attention.\n- I'd be happy to answer any questions.",
             "examples": [
-              "Dear Mr./Ms. [Last Name], ... Yours sincerely,",
-              "I am writing to inquire about... — Я пишу, чтобы узнать о...",
-              "Please find attached... — Пожалуйста, найдите во вложении..."
+              "Dear Ms. Johnson, I am writing to apply for the Marketing Manager position... Yours sincerely, John Smith",
+              "I am writing to inquire about your services. Please find attached our company profile.",
+              "Good morning everyone. The purpose of my presentation is to discuss our quarterly results.",
+              "I look forward to hearing from you. Please do not hesitate to contact me if you need further information."
             ],
             "facts": [
               "Деловой стиль требует формальности",
@@ -233,15 +1151,145 @@
               "Всегда проверяйте правописание перед отправкой"
             ],
             "keyPoints": [
-              "Dear Mr./Ms. [Name], ... Yours sincerely,",
-              "I am writing to inquire about...",
-              "Please find attached..."
+              "Структура делового письма: Salutation → Opening → Body → Closing → Sign-off",
+              "Формальности: Yours sincerely (знаете имя) / Yours faithfully (не знаете имя)",
+              "Фразы для деловой переписки: I am writing to inquire about... / Please find attached...",
+              "Структура презентации: Introduction → Body (переходы, визуальные материалы) → Conclusion + Q&A",
+              "Деловой этикет: ответ в течение 24-48 часов, проверка правописания, формальный тон"
             ],
-            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson8.svg"
+            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson8.svg",
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Какую формулу подписи используют, если вы НЕ знаете имя адресата?",
+                  "options": [
+                    "Yours sincerely",
+                    "Yours faithfully",
+                    "Best regards",
+                    "Kind regards"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Какая фраза используется для начала делового письма-запроса?",
+                  "options": [
+                    "I am writing to inquire about...",
+                    "I want to know about...",
+                    "Tell me about...",
+                    "What about..."
+                  ],
+                  "correct": 0
+                },
+                {
+                  "question": "В течение какого времени рекомендуется отвечать на деловое письмо?",
+                  "options": [
+                    "1 час",
+                    "24-48 часов",
+                    "1 неделя",
+                    "1 месяц"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Что означает 'Please find attached'?",
+                  "options": [
+                    "Пожалуйста, найдите",
+                    "Во вложении вы найдёте",
+                    "Пожалуйста, прикрепите",
+                    "Найдите приложение"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Какая фраза НЕ используется в формальном деловом письме?",
+                  "options": [
+                    "I look forward to hearing from you",
+                    "Please do not hesitate to contact me",
+                    "Hit me up anytime",
+                    "Thank you for your consideration"
+                  ],
+                  "correct": 2
+                }
+              ],
+              "find": [
+                {
+                  "text": "Dear Mr. Smith, I am writing to ___ about your services.",
+                  "answer": "inquire",
+                  "options": [
+                    "inquire",
+                    "ask",
+                    "wonder",
+                    "know"
+                  ]
+                },
+                {
+                  "text": "Please find ___ my CV and cover letter.",
+                  "answer": "attached",
+                  "options": [
+                    "attached",
+                    "enclosed",
+                    "included",
+                    "added"
+                  ]
+                },
+                {
+                  "text": "I look ___ to hearing from you.",
+                  "answer": "forward",
+                  "options": [
+                    "forward",
+                    "up",
+                    "ahead",
+                    "on"
+                  ]
+                },
+                {
+                  "text": "Yours ___, when you know the recipient's name.",
+                  "answer": "sincerely",
+                  "options": [
+                    "sincerely",
+                    "faithfully",
+                    "truly",
+                    "honestly"
+                  ]
+                },
+                {
+                  "text": "The ___ of my presentation is to discuss our strategy.",
+                  "answer": "purpose",
+                  "options": [
+                    "purpose",
+                    "reason",
+                    "cause",
+                    "point"
+                  ]
+                }
+              ],
+              "match": [
+                {
+                  "term": "Salutation",
+                  "definition": "Приветствие в деловом письме: Dear Mr./Ms. [Name]"
+                },
+                {
+                  "term": "Yours sincerely",
+                  "definition": "Формула подписи, когда вы знаете имя адресата"
+                },
+                {
+                  "term": "Please find attached",
+                  "definition": "Фраза для указания на вложение в письме"
+                },
+                {
+                  "term": "I look forward to hearing from you",
+                  "definition": "Фраза закрытия письма с ожиданием ответа"
+                },
+                {
+                  "term": "Yours faithfully",
+                  "definition": "Формула подписи, когда имя адресата неизвестно"
+                }
+              ]
+            }
           },
           {
             "title": "Урок 9: Job Interview",
-            "description": "Собеседование на английском.",
+            "description": "Собеседование на английском языке (Job Interview) — ключевой этап трудоустройства в международных компаниях, требующий специальной подготовки и знания типичных вопросов, ответов и делового этикета. К числу наиболее распространённых вопросов относятся: 'Tell me about yourself' (представление), 'Why do you want to work for this company?' (мотивация), 'What are your strengths/weaknesses?' (самооценка), 'Where do you see yourself in 5 years?' (карьерные цели), 'Why should we hire you?' (аргументация). Для ответа на вопрос о слабых сторонах рекомендуется назвать реальную слабость и описать, как вы работаете над её устранением. Важно также подготовить вопросы интервьюеру о команде, должности и возможностях развития. После собеседования необходимо отправить благодарственное письмо в течение 24 часов. Подготовка включает изучение компании, практику ответов и профессиональный внешний вид.",
             "tasks": [
               "Подготовка к собеседованию",
               "Типичные вопросы и ответы",
@@ -250,9 +1298,10 @@
             ],
             "content": "**Типичные вопросы на собеседовании:**\n\n**1. Tell me about yourself.**\n- I have [number] years of experience in [field].\n- I graduated from [university] with a degree in [subject].\n- My key strengths are [strength 1], [strength 2], and [strength 3].\n\n**2. Why do you want to work for this company?**\n- I admire your company's commitment to [value].\n- I've been following your company's growth and success in [area].\n- This position aligns perfectly with my career goals.\n\n**3. What are your strengths?**\n- I'm a quick learner and adapt easily to new situations.\n- I have strong communication skills.\n- I'm highly organised and meet deadlines consistently.\n\n**4. What are your weaknesses?**\n- I sometimes focus too much on details, but I'm learning to prioritise.\n- I tend to take on too much responsibility, but I'm working on delegation.\n\n**5. Where do you see yourself in 5 years?**\n- I see myself growing with the company and taking on more responsibilities.\n- I hope to develop my skills in [area] and contribute to the team's success.\n\n**6. Why should we hire you?**\n- I bring a unique combination of [skill 1] and [skill 2].\n- I'm passionate about this industry and eager to contribute.\n- My experience in [area] makes me well-suited for this role.\n\n---\n\n**Questions to ask the interviewer:**\n\n- Can you tell me more about the team I'd be working with?\n- What does a typical day look like in this position?\n- What are the biggest challenges facing the team right now?\n- How do you measure success for this role?\n- What opportunities are there for professional development?\n- When can I expect to hear back about the next steps?\n\n---\n\n**Фразы для описания опыта:**\n\n- I was responsible for...\n- I successfully completed...\n- I led a team of [number] people.\n- I increased sales by [percentage].\n- I managed a budget of [amount].\n\n---\n\n**После собеседования:**\n\n**Thank you email:**\n\nDear [Interviewer's Name],\n\nThank you for taking the time to meet with me yesterday. I enjoyed learning more about the [position] role and [Company Name].\n\nOur discussion reinforced my interest in the position, and I am confident that my experience in [area] would enable me to contribute effectively to your team.\n\nPlease don't hesitate to contact me if you need any additional information. I look forward to hearing from you.\n\nBest regards,\n[Your Name]",
             "examples": [
-              "Tell me about yourself. — Расскажите о себе.",
-              "What are your strengths? — Ваши сильные стороны?",
-              "Why should we hire you? — Почему мы должны вас нанять?"
+              "Tell me about yourself: 'I have 5 years of experience in digital marketing with a proven track record...'",
+              "Why should we hire you?: 'I bring a unique combination of analytical skills and creative thinking...'",
+              "Weakness: 'I sometimes focus too much on details, but I'm learning to prioritise effectively.'",
+              "Question to interviewer: 'Can you tell me more about the team I'd be working with?'"
             ],
             "facts": [
               "Готовьтесь к собеседованию заранее",
@@ -260,15 +1309,145 @@
               "Отправьте благодарственное письмо в течение 24 часов"
             ],
             "keyPoints": [
-              "Tell me about yourself — представление",
-              "Thank you email — в течение 24 часов",
-              "Изучите компанию перед собеседованием"
+              "Tell me about yourself: краткое представление с акцентом на опыт и навыки",
+              "Why should we hire you?: уникальная комбинация навыков и опыта",
+              "Weaknesses: реальная слабость + план улучшения (не «я перфекционист»)",
+              "Вопросы интервьюеру: о команде, должности, возможностях развития",
+              "Thank you email: отправить в течение 24 часов после собеседования"
             ],
-            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson9.svg"
+            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson9.svg",
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Как лучше всего отвечать на вопрос о слабых сторонах?",
+                  "options": [
+                    "Сказать, что их нет",
+                    "Назвать реальную слабость и план улучшения",
+                    "Перечислить все недостатки",
+                    "Ответить «я перфекционист»"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "В течение какого времени нужно отправить благодарственное письмо?",
+                  "options": [
+                    "1 неделю",
+                    "1 месяц",
+                    "24 часа",
+                    "3 дня"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "question": "Какой вопрос НЕ стоит задавать интервьюеру?",
+                  "options": [
+                    "What does a typical day look like?",
+                    "What opportunities are there for development?",
+                    "How much vacation time do I get?",
+                    "What are the biggest challenges for the team?"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "question": "Что важно сделать ДО собеседования?",
+                  "options": [
+                    "Выучить все ответы наизусть",
+                    "Изучить компанию и её деятельность",
+                    "Подготовить шутки",
+                    "Купить дорогой костюм"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Какой вопрос проверяет мотивацию кандидата?",
+                  "options": [
+                    "Tell me about yourself",
+                    "What are your strengths?",
+                    "Why do you want to work for this company?",
+                    "Where do you see yourself in 5 years?"
+                  ],
+                  "correct": 2
+                }
+              ],
+              "find": [
+                {
+                  "text": "I have five years of ___ in digital marketing.",
+                  "answer": "experience",
+                  "options": [
+                    "experience",
+                    "experiments",
+                    "expertise",
+                    "exercise"
+                  ]
+                },
+                {
+                  "text": "I ___ your company's commitment to innovation.",
+                  "answer": "admire",
+                  "options": [
+                    "admire",
+                    "admit",
+                    "adopt",
+                    "adjust"
+                  ]
+                },
+                {
+                  "text": "This position ___ perfectly with my career goals.",
+                  "answer": "aligns",
+                  "options": [
+                    "aligns",
+                    "arranges",
+                    "allows",
+                    "appears"
+                  ]
+                },
+                {
+                  "text": "I'm a quick ___ and adapt easily to new situations.",
+                  "answer": "learner",
+                  "options": [
+                    "learner",
+                    "teacher",
+                    "reader",
+                    "speaker"
+                  ]
+                },
+                {
+                  "text": "Please don't ___ to contact me if you need additional information.",
+                  "answer": "hesitate",
+                  "options": [
+                    "hesitate",
+                    "hurry",
+                    "hope",
+                    "handle"
+                  ]
+                }
+              ],
+              "match": [
+                {
+                  "term": "Tell me about yourself",
+                  "definition": "Краткое представление опыта и ключевых навыков"
+                },
+                {
+                  "term": "Why should we hire you?",
+                  "definition": "Аргументация: уникальная комбинация навыков и опыта"
+                },
+                {
+                  "term": "What are your weaknesses?",
+                  "definition": "Самоанализ: реальная слабость + план улучшения"
+                },
+                {
+                  "term": "Where do you see yourself in 5 years?",
+                  "definition": "Карьерные цели и стремление к развитию"
+                },
+                {
+                  "term": "Thank you email",
+                  "definition": "Благодарственное письмо в течение 24 часов после интервью"
+                }
+              ]
+            }
           },
           {
             "title": "Урок 10: Presentation Skills",
-            "description": "Навыки презентации.",
+            "description": "Навыки презентации (Presentation Skills) — это совокупность умений, необходимых для подготовки и проведения эффективных публичных выступлений на английском языке. Структура презентации включает три части: введение (10-15% времени), основная часть (75-80%) и заключение (10-15%). Во введении необходимо поприветствовать аудиторию, представиться, объявить тему и план выступления. Основная часть делится на разделы, связанные логическими переходами: 'Let's begin with...', 'Moving on to my next point...', 'This brings me to...'. Заключение обобщает ключевые мысли и содержит призыв к действию. Работа с визуальными материалами требует фраз: 'As you can see from this chart...', 'This diagram illustrates...'. Главное правило — не читать со слайдов, а делать зрительный контакт с аудиторией. При ответах на вопросы важно демонстрировать уверенность, а при незнании — честно признавать это и предлагать выяснить позже.",
             "tasks": [
               "Структура презентации",
               "Визуальные материалы",
@@ -277,9 +1456,10 @@
             ],
             "content": "**Структура презентации:**\n\n**1. Introduction (10-15% времени)**\n\n**Компоненты:**\n- Greeting (приветствие)\n- Self-introduction (представление)\n- Topic announcement (объявление темы)\n- Outline (план)\n\n**Пример:**\n\"Good morning everyone. My name is [Name], and I'm the [Position] at [Company]. Today I'm going to talk about [Topic]. I've divided my presentation into three main parts: first, I'll discuss [Point 1]; then I'll move on to [Point 2]; and finally, I'll look at [Point 3]. The presentation will take about [X] minutes, and I'll be happy to answer any questions at the end.\"\n\n---\n\n**2. Body (75-80% времени)**\n\n**Структура каждого раздела:**\n- Topic sentence (введение в пункт)\n- Explanation (объяснение)\n- Example (пример)\n- Transition (переход)\n\n**Фразы переходов:**\n- Let's begin with...\n- Moving on to my next point...\n- Now I'd like to discuss...\n- This brings me to...\n\n---\n\n**3. Conclusion (10-15% времени)**\n\n**Компоненты:**\n- Summary (обобщение)\n- Final message (финальное сообщение)\n- Call to action (призыв к действию)\n- Q&A invitation (приглашение к вопросам)\n\n**Пример:**\n\"To sum up, we've looked at [Point 1], [Point 2], and [Point 3]. The key takeaway is that [Main message]. I encourage you all to [Call to action]. Thank you for your attention. I'd be happy to answer any questions you may have.\"\n\n---\n\n**Работа с визуальными материалами:**\n\n**Фразы:**\n- As you can see from this chart/graph...\n- This diagram illustrates...\n- Let me draw your attention to this figure.\n- The table shows the comparison between...\n\n**Советы:**\n- Не читайте со слайдов!\n- Используйте простые графики\n- Минимум текста на слайдах\n- Делайте зрительный контакт\n\n---\n\n**Ответы на вопросы:**\n\n**Если знаете ответ:**\n- That's a good question. The answer is...\n- I'm glad you asked that. As I mentioned...\n\n**Если не знаете ответ:**\n- That's an interesting question. I don't have the exact figures with me, but I can get back to you on that.\n- I'm not entirely sure, but I would guess that...\n\n**Если вопрос не по теме:**\n- That's slightly outside the scope of this presentation, but I'd be happy to discuss it afterwards.\n\n**Если не поняли вопрос:**\n- Could you please rephrase your question?\n- I'm not sure I understand. Could you clarify?",
             "examples": [
-              "Today I'm going to talk about... — Сегодня я расскажу о...",
-              "To sum up, we've looked at... — Подводя итог, мы рассмотрели...",
-              "I'd be happy to answer any questions. — С удовольствием отвечу на вопросы."
+              "Good morning everyone. Today I'm going to talk about our new strategy. I've divided my presentation into three parts...",
+              "Moving on to my next point, I'd like to discuss the financial results for this quarter.",
+              "As you can see from this chart, our revenue has increased by 25% over the past year.",
+              "That's an interesting question. I don't have the exact figures, but I can get back to you on that."
             ],
             "facts": [
               "Практикуйте презентацию заранее",
@@ -287,11 +1467,141 @@
               "Делайте зрительный контакт с аудиторией"
             ],
             "keyPoints": [
-              "Введение (10-15%) → Основная часть (75-80%) → Заключение (10-15%)",
-              "Let's move on to... — переход между частями",
-              "Не читайте со слайдов, делайте зрительный контакт"
+              "Структура: Introduction (10-15%) → Body (75-80%) → Conclusion (10-15%)",
+              "Введение: приветствие, представление, тема, план, хронометраж",
+              "Переходы: Let's begin with... / Moving on to... / This brings me to...",
+              "Визуальные материалы: As you can see... / This graph shows... — не читать со слайдов!",
+              "Ответы на вопросы: честность при незнании, вежливость, готовность выяснить"
             ],
-            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson10.svg"
+            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson10.svg",
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Какой процент времени презентации должна занимать основная часть?",
+                  "options": [
+                    "50-60%",
+                    "75-80%",
+                    "90-95%",
+                    "30-40%"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Что НЕ рекомендуется делать при работе со слайдами?",
+                  "options": [
+                    "Использовать графики",
+                    "Делать зрительный контакт",
+                    "Читать текст со слайдов",
+                    "Минимизировать текст на слайдах"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "question": "Какая фраза используется для перехода между частями презентации?",
+                  "options": [
+                    "In conclusion...",
+                    "Moving on to my next point...",
+                    "Thank you for coming...",
+                    "I don't know the answer"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Как лучше ответить, если вы не знаете ответ на вопрос?",
+                  "options": [
+                    "Сказать что угодно",
+                    "Сказать, что выясните и вернётесь с ответом",
+                    "Игнорировать вопрос",
+                    "Сменить тему"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Что включает заключение презентации?",
+                  "options": [
+                    "Только вопросы аудитории",
+                    "Summary + Final message + Call to action + Q&A invitation",
+                    "Новые данные и аргументы",
+                    "Благодарность и уход"
+                  ],
+                  "correct": 1
+                }
+              ],
+              "find": [
+                {
+                  "text": "Today I'm going to ___ about our quarterly results.",
+                  "answer": "talk",
+                  "options": [
+                    "talk",
+                    "say",
+                    "tell",
+                    "speak"
+                  ]
+                },
+                {
+                  "text": "I've ___ my presentation into three parts.",
+                  "answer": "divided",
+                  "options": [
+                    "divided",
+                    "shared",
+                    "split",
+                    "cut"
+                  ]
+                },
+                {
+                  "text": "As you can ___ from this chart, sales have increased.",
+                  "answer": "see",
+                  "options": [
+                    "see",
+                    "look",
+                    "watch",
+                    "view"
+                  ]
+                },
+                {
+                  "text": "To ___ up, we've looked at three key areas.",
+                  "answer": "sum",
+                  "options": [
+                    "sum",
+                    "add",
+                    "total",
+                    "count"
+                  ]
+                },
+                {
+                  "text": "I'd be happy to ___ any questions you may have.",
+                  "answer": "answer",
+                  "options": [
+                    "answer",
+                    "ask",
+                    "reply",
+                    "respond"
+                  ]
+                }
+              ],
+              "match": [
+                {
+                  "term": "Introduction",
+                  "definition": "10-15% времени: приветствие, тема, план презентации"
+                },
+                {
+                  "term": "Body",
+                  "definition": "75-80% времени: основные аргументы с переходами"
+                },
+                {
+                  "term": "Conclusion",
+                  "definition": "10-15% времени: обобщение, призыв к действию, Q&A"
+                },
+                {
+                  "term": "Moving on to...",
+                  "definition": "Фраза перехода между разделами презентации"
+                },
+                {
+                  "term": "Call to action",
+                  "definition": "Призыв к действию в заключении презентации"
+                }
+              ]
+            }
           }
         ]
       }
@@ -304,13 +1614,86 @@
       "icon": "Languages",
       "color": "text-pink-400",
       "tasks": [
-        {"type": "quiz", "question": "Какой тип Mixed Conditional: If + Past Perfect, would + V?", "options": ["II + III (условие в прошлом, результат сейчас)", "III + II (условие сейчас, результат в прошлом)", "Нулевой conditional", "Первый conditional", "Не знаю"], "correctAnswer": "II + III (условие в прошлом, результат сейчас)", "hint": "Past Perfect — прошлое, would + V — настоящее"},
-        {"type": "quiz", "question": "Какая инверсия вместо 'If I had known'?", "options": ["Were I known", "Had I known", "Did I know", "Should I know", "Не знаю"], "correctAnswer": "Had I known", "hint": "Вспомогательный глагол ставится перед подлежащим"},
-        {"type": "quiz", "question": "Что означает Mixed Conditional III + II?", "options": ["Условие в прошлом, результат сейчас", "Условие в настоящем, результат в прошлом", "Условие в будущем, результат сейчас", "Оба в настоящем", "Не знаю"], "correctAnswer": "Условие в настоящем, результат в прошлом", "hint": "If + Past Simple (настоящее/общее), would have + V3 (прошлое)"},
-        {"type": "find", "question": "Выберите все верные примеры Mixed Conditionals:", "options": ["If I had studied, I would have a degree now", "If I were you, I would have accepted", "If it rains, I will stay home", "If she hadn't missed the train, she would be here now", "If I were rich, I would travel", "Had I known, I would have come"], "correctAnswer": ["If I had studied, I would have a degree now", "If I were you, I would have accepted", "If she hadn't missed the train, she would be here now"], "hint": "Mixed Conditionals сочетают части разных типов"},
-        {"type": "find", "question": "Выберите все формы инверсии в Conditionals:", "options": ["Were I you", "Had I known", "If I was you", "Should you need help", "Do I know", "Am I rich"], "correctAnswer": ["Were I you", "Had I known", "Should you need help"], "hint": "Инверсия заменяет 'if' и делает речь формальной"}
+        {
+          "type": "quiz",
+          "question": "Какой тип Mixed Conditional: If + Past Perfect, would + V?",
+          "options": [
+            "II + III (условие в прошлом, результат сейчас)",
+            "III + II (условие сейчас, результат в прошлом)",
+            "Нулевой conditional",
+            "Первый conditional",
+            "Не знаю"
+          ],
+          "correctAnswer": "II + III (условие в прошлом, результат сейчас)",
+          "hint": "Past Perfect — прошлое, would + V — настоящее"
+        },
+        {
+          "type": "quiz",
+          "question": "Какая инверсия вместо 'If I had known'?",
+          "options": [
+            "Were I known",
+            "Had I known",
+            "Did I know",
+            "Should I know",
+            "Не знаю"
+          ],
+          "correctAnswer": "Had I known",
+          "hint": "Вспомогательный глагол ставится перед подлежащим"
+        },
+        {
+          "type": "quiz",
+          "question": "Что означает Mixed Conditional III + II?",
+          "options": [
+            "Условие в прошлом, результат сейчас",
+            "Условие в настоящем, результат в прошлом",
+            "Условие в будущем, результат сейчас",
+            "Оба в настоящем",
+            "Не знаю"
+          ],
+          "correctAnswer": "Условие в настоящем, результат в прошлом",
+          "hint": "If + Past Simple (настоящее/общее), would have + V3 (прошлое)"
+        },
+        {
+          "type": "find",
+          "question": "Выберите все верные примеры Mixed Conditionals:",
+          "options": [
+            "If I had studied, I would have a degree now",
+            "If I were you, I would have accepted",
+            "If it rains, I will stay home",
+            "If she hadn't missed the train, she would be here now",
+            "If I were rich, I would travel",
+            "Had I known, I would have come"
+          ],
+          "correctAnswer": [
+            "If I had studied, I would have a degree now",
+            "If I were you, I would have accepted",
+            "If she hadn't missed the train, she would be here now"
+          ],
+          "hint": "Mixed Conditionals сочетают части разных типов"
+        },
+        {
+          "type": "find",
+          "question": "Выберите все формы инверсии в Conditionals:",
+          "options": [
+            "Were I you",
+            "Had I known",
+            "If I was you",
+            "Should you need help",
+            "Do I know",
+            "Am I rich"
+          ],
+          "correctAnswer": [
+            "Were I you",
+            "Had I known",
+            "Should you need help"
+          ],
+          "hint": "Инверсия заменяет 'if' и делает речь формальной"
+        }
       ],
-      "reward": {"stars": 3, "message": "Отлично! Вы освоили Mixed Conditionals! 🎯"}
+      "reward": {
+        "stars": 3,
+        "message": "Отлично! Вы освоили Mixed Conditionals! 🎯"
+      }
     },
     {
       "title": "Inversion 🔄",
@@ -318,13 +1701,88 @@
       "icon": "Languages",
       "color": "text-pink-400",
       "tasks": [
-        {"type": "quiz", "question": "Какое слово стоит после отрицательного наречия в начале предложения при инверсии?", "options": ["Подлежащее", "Вспомогательный глагол", "Основной глагол", "Существительное", "Не знаю"], "correctAnswer": "Вспомогательный глагол", "hint": "Never have I seen... — вспомогательный глагол перед подлежащим"},
-        {"type": "quiz", "question": "Как переводится 'No sooner had I arrived than it started to rain'?", "options": ["Я прибыл, и пошёл дождь", "Едва я прибыл, как начался дождь", "Я не успел прибыть, как начался дождь", "Скоро я прибуду, и начнётся дождь", "Не знаю"], "correctAnswer": "Едва я прибыл, как начался дождь", "hint": "No sooner... than — едва... как"},
-        {"type": "quiz", "question": "Что означает 'So do I'?", "options": ["Я тоже нет", "Я тоже", "Я не тоже", "Я делаю так", "Не знаю"], "correctAnswer": "Я тоже", "hint": "Используется для согласия с утвердительным предложением"},
-        {"type": "find", "question": "Выберите все наречия, требующие инверсии в начале предложения:", "options": ["Never", "Sometimes", "Rarely", "Often", "Hardly", "Seldom"], "correctAnswer": ["Never", "Rarely", "Hardly", "Seldom"], "hint": "Отрицательные и ограничительные наречия вызывают инверсию"},
-        {"type": "find", "question": "Выберите все верные примеры инверсии:", "options": ["Never have I seen such beauty", "Often I go to the park", "Only then did she understand", "Not only did he arrive late, but he also forgot", "Always she sings well", "So do I"], "correctAnswer": ["Never have I seen such beauty", "Only then did she understand", "Not only did he arrive late, but he also forgot", "So do I"], "hint": "Инверсия меняет порядок слов для выразительности"}
+        {
+          "type": "quiz",
+          "question": "Какое слово стоит после отрицательного наречия в начале предложения при инверсии?",
+          "options": [
+            "Подлежащее",
+            "Вспомогательный глагол",
+            "Основной глагол",
+            "Существительное",
+            "Не знаю"
+          ],
+          "correctAnswer": "Вспомогательный глагол",
+          "hint": "Never have I seen... — вспомогательный глагол перед подлежащим"
+        },
+        {
+          "type": "quiz",
+          "question": "Как переводится 'No sooner had I arrived than it started to rain'?",
+          "options": [
+            "Я прибыл, и пошёл дождь",
+            "Едва я прибыл, как начался дождь",
+            "Я не успел прибыть, как начался дождь",
+            "Скоро я прибуду, и начнётся дождь",
+            "Не знаю"
+          ],
+          "correctAnswer": "Едва я прибыл, как начался дождь",
+          "hint": "No sooner... than — едва... как"
+        },
+        {
+          "type": "quiz",
+          "question": "Что означает 'So do I'?",
+          "options": [
+            "Я тоже нет",
+            "Я тоже",
+            "Я не тоже",
+            "Я делаю так",
+            "Не знаю"
+          ],
+          "correctAnswer": "Я тоже",
+          "hint": "Используется для согласия с утвердительным предложением"
+        },
+        {
+          "type": "find",
+          "question": "Выберите все наречия, требующие инверсии в начале предложения:",
+          "options": [
+            "Never",
+            "Sometimes",
+            "Rarely",
+            "Often",
+            "Hardly",
+            "Seldom"
+          ],
+          "correctAnswer": [
+            "Never",
+            "Rarely",
+            "Hardly",
+            "Seldom"
+          ],
+          "hint": "Отрицательные и ограничительные наречия вызывают инверсию"
+        },
+        {
+          "type": "find",
+          "question": "Выберите все верные примеры инверсии:",
+          "options": [
+            "Never have I seen such beauty",
+            "Often I go to the park",
+            "Only then did she understand",
+            "Not only did he arrive late, but he also forgot",
+            "Always she sings well",
+            "So do I"
+          ],
+          "correctAnswer": [
+            "Never have I seen such beauty",
+            "Only then did she understand",
+            "Not only did he arrive late, but he also forgot",
+            "So do I"
+          ],
+          "hint": "Инверсия меняет порядок слов для выразительности"
+        }
       ],
-      "reward": {"stars": 3, "message": "Отлично! Вы разобрались с инверсией! 🎯"}
+      "reward": {
+        "stars": 3,
+        "message": "Отлично! Вы разобрались с инверсией! 🎯"
+      }
     },
     {
       "title": "Subjunctive Mood 💭",
@@ -332,13 +1790,88 @@
       "icon": "Languages",
       "color": "text-pink-400",
       "tasks": [
-        {"type": "quiz", "question": "Какая форма глагола используется в Present Subjunctive?", "options": ["Инфинитив без 'to' (base form)", "Past Simple", "Present Perfect", "V3", "Не знаю"], "correctAnswer": "Инфинитив без 'to' (base form)", "hint": "I suggest that he be more careful — 'be' без окончания"},
-        {"type": "quiz", "question": "Какая форма используется после 'wish' для сожаления о прошлом?", "options": ["wish + Past Simple", "wish + Past Perfect", "wish + would", "wish + Present Simple", "Не знаю"], "correctAnswer": "wish + Past Perfect", "hint": "I wish I had studied harder — сожаление о прошлом"},
-        {"type": "quiz", "question": "Какая форма 'be' используется в Past Subjunctive для всех лиц?", "options": ["am/is/are", "was", "were", "been", "Не знаю"], "correctAnswer": "were", "hint": "I wish I were rich — 'were' для всех лиц"},
-        {"type": "find", "question": "Выберите все глаголы, после которых используется Present Subjunctive:", "options": ["suggest", "want", "insist", "recommend", "think", "demand"], "correctAnswer": ["suggest", "insist", "recommend", "demand"], "hint": "Эти глаголы выражают предложение, требование, рекомендацию"},
-        {"type": "find", "question": "Выберите все верные конструкции с wish:", "options": ["I wish I spoke French (сожаление о настоящем)", "I wish I will speak French", "I wish I had studied harder (сожаление о прошлом)", "I wish I can fly", "I wish you would stop (недовольство)", "I wish I was there (разговорная форма)"], "correctAnswer": ["I wish I spoke French (сожаление о настоящем)", "I wish I had studied harder (сожаление о прошлом)", "I wish you would stop (недовольство)", "I wish I was there (разговорная форма)"], "hint": "Wish + разные формы для разных значений"}
+        {
+          "type": "quiz",
+          "question": "Какая форма глагола используется в Present Subjunctive?",
+          "options": [
+            "Инфинитив без 'to' (base form)",
+            "Past Simple",
+            "Present Perfect",
+            "V3",
+            "Не знаю"
+          ],
+          "correctAnswer": "Инфинитив без 'to' (base form)",
+          "hint": "I suggest that he be more careful — 'be' без окончания"
+        },
+        {
+          "type": "quiz",
+          "question": "Какая форма используется после 'wish' для сожаления о прошлом?",
+          "options": [
+            "wish + Past Simple",
+            "wish + Past Perfect",
+            "wish + would",
+            "wish + Present Simple",
+            "Не знаю"
+          ],
+          "correctAnswer": "wish + Past Perfect",
+          "hint": "I wish I had studied harder — сожаление о прошлом"
+        },
+        {
+          "type": "quiz",
+          "question": "Какая форма 'be' используется в Past Subjunctive для всех лиц?",
+          "options": [
+            "am/is/are",
+            "was",
+            "were",
+            "been",
+            "Не знаю"
+          ],
+          "correctAnswer": "were",
+          "hint": "I wish I were rich — 'were' для всех лиц"
+        },
+        {
+          "type": "find",
+          "question": "Выберите все глаголы, после которых используется Present Subjunctive:",
+          "options": [
+            "suggest",
+            "want",
+            "insist",
+            "recommend",
+            "think",
+            "demand"
+          ],
+          "correctAnswer": [
+            "suggest",
+            "insist",
+            "recommend",
+            "demand"
+          ],
+          "hint": "Эти глаголы выражают предложение, требование, рекомендацию"
+        },
+        {
+          "type": "find",
+          "question": "Выберите все верные конструкции с wish:",
+          "options": [
+            "I wish I spoke French (сожаление о настоящем)",
+            "I wish I will speak French",
+            "I wish I had studied harder (сожаление о прошлом)",
+            "I wish I can fly",
+            "I wish you would stop (недовольство)",
+            "I wish I was there (разговорная форма)"
+          ],
+          "correctAnswer": [
+            "I wish I spoke French (сожаление о настоящем)",
+            "I wish I had studied harder (сожаление о прошлом)",
+            "I wish you would stop (недовольство)",
+            "I wish I was there (разговорная форма)"
+          ],
+          "hint": "Wish + разные формы для разных значений"
+        }
       ],
-      "reward": {"stars": 3, "message": "Отлично! Вы освоили Subjunctive Mood! 🎯"}
+      "reward": {
+        "stars": 3,
+        "message": "Отлично! Вы освоили Subjunctive Mood! 🎯"
+      }
     },
     {
       "title": "Complex Structures 🏗️",
@@ -346,13 +1879,87 @@
       "icon": "Languages",
       "color": "text-pink-400",
       "tasks": [
-        {"type": "quiz", "question": "Какая конструкция выделяет элемент предложения: It + be + X + that/who?", "options": ["Wh-cleft", "It-cleft", "Participle clause", "Inversion", "Не знаю"], "correctAnswer": "It-cleft", "hint": "It was John who broke the window — Именно Джон..."},
-        {"type": "quiz", "question": "Что выражает Perfect Participle (having + V3)?", "options": ["Действие происходит одновременно", "Действие завершено до другого", "Пассивное действие", "Будущее действие", "Не знаю"], "correctAnswer": "Действие завершено до другого", "hint": "Having finished the work, he went home"},
-        {"type": "quiz", "question": "Какое значение у конструкции 'too + прилагательное + to + V'?", "options": ["Достаточно для действия", "Слишком для действия (невозможно)", "Очень хорошо для действия", "Необходимо для действия", "Не знаю"], "correctAnswer": "Слишком для действия (невозможно)", "hint": "He is too young to drive — Слишком молод, чтобы водить"},
-        {"type": "find", "question": "Выберите все типы Participle Clauses:", "options": ["Present Participle (-ing) — активное действие", "Past Participle (-ed) — пассивное действие", "Future Participle — будущее действие", "Perfect Participle (having + V3) — завершённое действие", "Conditional Participle — условное действие", "Negative Participle — отрицательное действие"], "correctAnswer": ["Present Participle (-ing) — активное действие", "Past Participle (-ed) — пассивное действие", "Perfect Participle (having + V3) — завершённое действие"], "hint": "Существует 3 типа причастных оборотов"},
-        {"type": "find", "question": "Выберите все верные примеры cleft sentences:", "options": ["It was John who broke the window", "What I need is a cup of coffee", "Walking down the street, I met a friend", "It is this book that I recommend", "He was so tired that he fell asleep", "What surprises me is his attitude"], "correctAnswer": ["It was John who broke the window", "What I need is a cup of coffee", "It is this book that I recommend", "What surprises me is his attitude"], "hint": "Cleft sentences выделяют важную информацию"}
+        {
+          "type": "quiz",
+          "question": "Какая конструкция выделяет элемент предложения: It + be + X + that/who?",
+          "options": [
+            "Wh-cleft",
+            "It-cleft",
+            "Participle clause",
+            "Inversion",
+            "Не знаю"
+          ],
+          "correctAnswer": "It-cleft",
+          "hint": "It was John who broke the window — Именно Джон..."
+        },
+        {
+          "type": "quiz",
+          "question": "Что выражает Perfect Participle (having + V3)?",
+          "options": [
+            "Действие происходит одновременно",
+            "Действие завершено до другого",
+            "Пассивное действие",
+            "Будущее действие",
+            "Не знаю"
+          ],
+          "correctAnswer": "Действие завершено до другого",
+          "hint": "Having finished the work, he went home"
+        },
+        {
+          "type": "quiz",
+          "question": "Какое значение у конструкции 'too + прилагательное + to + V'?",
+          "options": [
+            "Достаточно для действия",
+            "Слишком для действия (невозможно)",
+            "Очень хорошо для действия",
+            "Необходимо для действия",
+            "Не знаю"
+          ],
+          "correctAnswer": "Слишком для действия (невозможно)",
+          "hint": "He is too young to drive — Слишком молод, чтобы водить"
+        },
+        {
+          "type": "find",
+          "question": "Выберите все типы Participle Clauses:",
+          "options": [
+            "Present Participle (-ing) — активное действие",
+            "Past Participle (-ed) — пассивное действие",
+            "Future Participle — будущее действие",
+            "Perfect Participle (having + V3) — завершённое действие",
+            "Conditional Participle — условное действие",
+            "Negative Participle — отрицательное действие"
+          ],
+          "correctAnswer": [
+            "Present Participle (-ing) — активное действие",
+            "Past Participle (-ed) — пассивное действие",
+            "Perfect Participle (having + V3) — завершённое действие"
+          ],
+          "hint": "Существует 3 типа причастных оборотов"
+        },
+        {
+          "type": "find",
+          "question": "Выберите все верные примеры cleft sentences:",
+          "options": [
+            "It was John who broke the window",
+            "What I need is a cup of coffee",
+            "Walking down the street, I met a friend",
+            "It is this book that I recommend",
+            "He was so tired that he fell asleep",
+            "What surprises me is his attitude"
+          ],
+          "correctAnswer": [
+            "It was John who broke the window",
+            "What I need is a cup of coffee",
+            "It is this book that I recommend",
+            "What surprises me is his attitude"
+          ],
+          "hint": "Cleft sentences выделяют важную информацию"
+        }
       ],
-      "reward": {"stars": 3, "message": "Отлично! Вы освоили сложные конструкции! 🎯"}
+      "reward": {
+        "stars": 3,
+        "message": "Отлично! Вы освоили сложные конструкции! 🎯"
+      }
     },
     {
       "title": "Academic Vocabulary 📖",
@@ -360,13 +1967,87 @@
       "icon": "Languages",
       "color": "text-pink-400",
       "tasks": [
-        {"type": "quiz", "question": "Какой академический глагол означает 'оценивать, определять ценность'?", "options": ["analyse", "assess", "claim", "imply", "Не знаю"], "correctAnswer": "assess", "hint": "Assess the impact — оценить влияние"},
-        {"type": "quiz", "question": "Какое связующее слово используется для противопоставления?", "options": ["Furthermore", "Moreover", "However", "Additionally", "Не знаю"], "correctAnswer": "However", "hint": "Это слово вводит контраст или возражение"},
-        {"type": "quiz", "question": "Что предпочтительнее в академическом стиле вместо 'get'?", "options": ["take", "obtain", "receive", "grab", "Не знаю"], "correctAnswer": "obtain", "hint": "Формальные слова вместо разговорных"},
-        {"type": "find", "question": "Выберите все академические глаголы:", "options": ["analyse", "get", "assess", "evaluate", "figure out", "propose"], "correctAnswer": ["analyse", "assess", "evaluate", "propose"], "hint": "Академические глаголы — формальные и точные"},
-        {"type": "find", "question": "Выберите все связующие слова для заключения:", "options": ["Furthermore", "In conclusion", "Moreover", "To sum up", "However", "In summary"], "correctAnswer": ["In conclusion", "To sum up", "In summary"], "hint": "Эти фразы подводят итог эссе"}
+        {
+          "type": "quiz",
+          "question": "Какой академический глагол означает 'оценивать, определять ценность'?",
+          "options": [
+            "analyse",
+            "assess",
+            "claim",
+            "imply",
+            "Не знаю"
+          ],
+          "correctAnswer": "assess",
+          "hint": "Assess the impact — оценить влияние"
+        },
+        {
+          "type": "quiz",
+          "question": "Какое связующее слово используется для противопоставления?",
+          "options": [
+            "Furthermore",
+            "Moreover",
+            "However",
+            "Additionally",
+            "Не знаю"
+          ],
+          "correctAnswer": "However",
+          "hint": "Это слово вводит контраст или возражение"
+        },
+        {
+          "type": "quiz",
+          "question": "Что предпочтительнее в академическом стиле вместо 'get'?",
+          "options": [
+            "take",
+            "obtain",
+            "receive",
+            "grab",
+            "Не знаю"
+          ],
+          "correctAnswer": "obtain",
+          "hint": "Формальные слова вместо разговорных"
+        },
+        {
+          "type": "find",
+          "question": "Выберите все академические глаголы:",
+          "options": [
+            "analyse",
+            "get",
+            "assess",
+            "evaluate",
+            "figure out",
+            "propose"
+          ],
+          "correctAnswer": [
+            "analyse",
+            "assess",
+            "evaluate",
+            "propose"
+          ],
+          "hint": "Академические глаголы — формальные и точные"
+        },
+        {
+          "type": "find",
+          "question": "Выберите все связующие слова для заключения:",
+          "options": [
+            "Furthermore",
+            "In conclusion",
+            "Moreover",
+            "To sum up",
+            "However",
+            "In summary"
+          ],
+          "correctAnswer": [
+            "In conclusion",
+            "To sum up",
+            "In summary"
+          ],
+          "hint": "Эти фразы подводят итог эссе"
+        }
       ],
-      "reward": {"stars": 3, "message": "Отлично! Вы знаете академическую лексику! 🎯"}
+      "reward": {
+        "stars": 3,
+        "message": "Отлично! Вы знаете академическую лексику! 🎯"
+      }
     },
     {
       "title": "Essay Writing ✍️",
@@ -374,13 +2055,87 @@
       "icon": "Languages",
       "color": "text-pink-400",
       "tasks": [
-        {"type": "quiz", "question": "Что такое thesis statement?", "options": ["Заключение эссе", "Главная мысль (тезис) во введении", "Первый аргумент", "Вопрос к читателю", "Не знаю"], "correctAnswer": "Главная мысль (тезис) во введении", "hint": "Это центральная идея всего эссе"},
-        {"type": "quiz", "question": "Что должно содержать заключение эссе?", "options": ["Новые аргументы", "Переформулированный тезис + обобщение + финальная мысль", "Цитаты из источников", "Вопросы к читателю", "Не знаю"], "correctAnswer": "Переформулированный тезис + обобщение + финальная мысль", "hint": "Заключение НЕ должно содержать новой информации"},
-        {"type": "quiz", "question": "Что такое topic sentence?", "options": ["Последнее предложение абзаца", "Главная мысль абзаца", "Цитата в абзаце", "Переход к следующему абзацу", "Не знаю"], "correctAnswer": "Главная мысль абзаца", "hint": "Оно открывает абзац и выражает его основную идею"},
-        {"type": "find", "question": "Выберите все компоненты введения эссе:", "options": ["General statement", "Thesis statement", "Topic sentence", "Background information", "Evidence", "Counterargument"], "correctAnswer": ["General statement", "Thesis statement", "Background information"], "hint": "Введение вводит в тему и формулирует тезис"},
-        {"type": "find", "question": "Выберите все типы эссе:", "options": ["Opinion essay", "Discussion essay", "Summary essay", "Problem-Solution essay", "Advantages-Disadvantages essay", "Narrative essay"], "correctAnswer": ["Opinion essay", "Discussion essay", "Problem-Solution essay", "Advantages-Disadvantages essay"], "hint": "Это основные типы академических эссе"}
+        {
+          "type": "quiz",
+          "question": "Что такое thesis statement?",
+          "options": [
+            "Заключение эссе",
+            "Главная мысль (тезис) во введении",
+            "Первый аргумент",
+            "Вопрос к читателю",
+            "Не знаю"
+          ],
+          "correctAnswer": "Главная мысль (тезис) во введении",
+          "hint": "Это центральная идея всего эссе"
+        },
+        {
+          "type": "quiz",
+          "question": "Что должно содержать заключение эссе?",
+          "options": [
+            "Новые аргументы",
+            "Переформулированный тезис + обобщение + финальная мысль",
+            "Цитаты из источников",
+            "Вопросы к читателю",
+            "Не знаю"
+          ],
+          "correctAnswer": "Переформулированный тезис + обобщение + финальная мысль",
+          "hint": "Заключение НЕ должно содержать новой информации"
+        },
+        {
+          "type": "quiz",
+          "question": "Что такое topic sentence?",
+          "options": [
+            "Последнее предложение абзаца",
+            "Главная мысль абзаца",
+            "Цитата в абзаце",
+            "Переход к следующему абзацу",
+            "Не знаю"
+          ],
+          "correctAnswer": "Главная мысль абзаца",
+          "hint": "Оно открывает абзац и выражает его основную идею"
+        },
+        {
+          "type": "find",
+          "question": "Выберите все компоненты введения эссе:",
+          "options": [
+            "General statement",
+            "Thesis statement",
+            "Topic sentence",
+            "Background information",
+            "Evidence",
+            "Counterargument"
+          ],
+          "correctAnswer": [
+            "General statement",
+            "Thesis statement",
+            "Background information"
+          ],
+          "hint": "Введение вводит в тему и формулирует тезис"
+        },
+        {
+          "type": "find",
+          "question": "Выберите все типы эссе:",
+          "options": [
+            "Opinion essay",
+            "Discussion essay",
+            "Summary essay",
+            "Problem-Solution essay",
+            "Advantages-Disadvantages essay",
+            "Narrative essay"
+          ],
+          "correctAnswer": [
+            "Opinion essay",
+            "Discussion essay",
+            "Problem-Solution essay",
+            "Advantages-Disadvantages essay"
+          ],
+          "hint": "Это основные типы академических эссе"
+        }
       ],
-      "reward": {"stars": 3, "message": "Отлично! Вы умеете писать эссе! 🎯"}
+      "reward": {
+        "stars": 3,
+        "message": "Отлично! Вы умеете писать эссе! 🎯"
+      }
     },
     {
       "title": "Debating Skills 🎤",
@@ -388,13 +2143,87 @@
       "icon": "Languages",
       "color": "text-pink-400",
       "tasks": [
-        {"type": "quiz", "question": "Какая логическая ошибка — атака на личность вместо аргумента?", "options": ["Straw Man", "Ad Hominem", "False Dichotomy", "Slippery Slope", "Не знаю"], "correctAnswer": "Ad Hominem", "hint": "Переход на личности вместо обсуждения аргумента"},
-        {"type": "quiz", "question": "Что такое 'Straw Man'?", "options": ["Атака на личность", "Искажение аргумента оппонента", "Ложная дилемма", "Обращение к авторитету", "Не знаю"], "correctAnswer": "Искажение аргумента оппонента", "hint": "Противник приписывает вам то, что вы не говорили"},
-        {"type": "quiz", "question": "Какая фраза используется для опровержения?", "options": ["My primary argument is that...", "In conclusion, I believe...", "I see your point, but I must disagree because...", "Furthermore, I would like to add...", "Не знаю"], "correctAnswer": "I see your point, but I must disagree because...", "hint": "Сначала признаёте точку зрения, затем возражаете"},
-        {"type": "find", "question": "Выберите все логические ошибки (fallacies):", "options": ["Ad Hominem", "Deduction", "Straw Man", "False Dichotomy", "Induction", "Slippery Slope"], "correctAnswer": ["Ad Hominem", "Straw Man", "False Dichotomy", "Slippery Slope"], "hint": "Это ошибки в рассуждениях, которых следует избегать"},
-        {"type": "find", "question": "Выберите все риторические приёмы:", "options": ["Rhetorical questions", "Repetition", "Ad Hominem", "Tripling (правило трёх)", "Straw Man", "False Dichotomy"], "correctAnswer": ["Rhetorical questions", "Repetition", "Tripling (правило трёх)"], "hint": "Это приёмы убеждения, а не логические ошибки"}
+        {
+          "type": "quiz",
+          "question": "Какая логическая ошибка — атака на личность вместо аргумента?",
+          "options": [
+            "Straw Man",
+            "Ad Hominem",
+            "False Dichotomy",
+            "Slippery Slope",
+            "Не знаю"
+          ],
+          "correctAnswer": "Ad Hominem",
+          "hint": "Переход на личности вместо обсуждения аргумента"
+        },
+        {
+          "type": "quiz",
+          "question": "Что такое 'Straw Man'?",
+          "options": [
+            "Атака на личность",
+            "Искажение аргумента оппонента",
+            "Ложная дилемма",
+            "Обращение к авторитету",
+            "Не знаю"
+          ],
+          "correctAnswer": "Искажение аргумента оппонента",
+          "hint": "Противник приписывает вам то, что вы не говорили"
+        },
+        {
+          "type": "quiz",
+          "question": "Какая фраза используется для опровержения?",
+          "options": [
+            "My primary argument is that...",
+            "In conclusion, I believe...",
+            "I see your point, but I must disagree because...",
+            "Furthermore, I would like to add...",
+            "Не знаю"
+          ],
+          "correctAnswer": "I see your point, but I must disagree because...",
+          "hint": "Сначала признаёте точку зрения, затем возражаете"
+        },
+        {
+          "type": "find",
+          "question": "Выберите все логические ошибки (fallacies):",
+          "options": [
+            "Ad Hominem",
+            "Deduction",
+            "Straw Man",
+            "False Dichotomy",
+            "Induction",
+            "Slippery Slope"
+          ],
+          "correctAnswer": [
+            "Ad Hominem",
+            "Straw Man",
+            "False Dichotomy",
+            "Slippery Slope"
+          ],
+          "hint": "Это ошибки в рассуждениях, которых следует избегать"
+        },
+        {
+          "type": "find",
+          "question": "Выберите все риторические приёмы:",
+          "options": [
+            "Rhetorical questions",
+            "Repetition",
+            "Ad Hominem",
+            "Tripling (правило трёх)",
+            "Straw Man",
+            "False Dichotomy"
+          ],
+          "correctAnswer": [
+            "Rhetorical questions",
+            "Repetition",
+            "Tripling (правило трёх)"
+          ],
+          "hint": "Это приёмы убеждения, а не логические ошибки"
+        }
       ],
-      "reward": {"stars": 3, "message": "Отлично! Вы владеете навыками дебатов! 🎯"}
+      "reward": {
+        "stars": 3,
+        "message": "Отлично! Вы владеете навыками дебатов! 🎯"
+      }
     },
     {
       "title": "Business English 💼",
@@ -402,13 +2231,89 @@
       "icon": "Languages",
       "color": "text-pink-400",
       "tasks": [
-        {"type": "quiz", "question": "Как завершить письмо, если вы знаете имя адресата?", "options": ["Yours faithfully,", "Yours sincerely,", "Best wishes,", "Cheers,", "Не знаю"], "correctAnswer": "Yours sincerely,", "hint": "Yours sincerely — если знаете имя, Yours faithfully — если нет"},
-        {"type": "quiz", "question": "Что означает 'Please find attached...'?", "options": ["Пожалуйста, найдите...", "Во вложении...", "Пожалуйста, прикрепите...", "Найдите ошибку...", "Не знаю"], "correctAnswer": "Во вложении...", "hint": "Эта фраза указывает на прикреплённый файл"},
-        {"type": "quiz", "question": "Какое приветствие используется, если имя адресата неизвестно?", "options": ["Dear Mr. Smith,", "Dear Sir/Madam,", "Hi there,", "Hello,", "Не знаю"], "correctAnswer": "Dear Sir/Madam,", "hint": "Формальное приветствие без знания имени"},
-        {"type": "find", "question": "Выберите все компоненты делового письма:", "options": ["Salutation", "Opening", "Body", "Conclusion paragraph", "Closing", "Sign-off"], "correctAnswer": ["Salutation", "Opening", "Body", "Closing", "Sign-off"], "hint": "Деловое письмо имеет 5 основных частей"},
-        {"type": "find", "question": "Выберите все фразы для презентации:", "options": ["The purpose of my presentation is to...", "Let's move on to...", "I am writing to inquire about...", "As you can see from this chart...", "Please find attached...", "I'd be happy to answer any questions"], "correctAnswer": ["The purpose of my presentation is to...", "Let's move on to...", "As you can see from this chart...", "I'd be happy to answer any questions"], "hint": "Это фразы для устной презентации, а не письма"}
+        {
+          "type": "quiz",
+          "question": "Как завершить письмо, если вы знаете имя адресата?",
+          "options": [
+            "Yours faithfully,",
+            "Yours sincerely,",
+            "Best wishes,",
+            "Cheers,",
+            "Не знаю"
+          ],
+          "correctAnswer": "Yours sincerely,",
+          "hint": "Yours sincerely — если знаете имя, Yours faithfully — если нет"
+        },
+        {
+          "type": "quiz",
+          "question": "Что означает 'Please find attached...'?",
+          "options": [
+            "Пожалуйста, найдите...",
+            "Во вложении...",
+            "Пожалуйста, прикрепите...",
+            "Найдите ошибку...",
+            "Не знаю"
+          ],
+          "correctAnswer": "Во вложении...",
+          "hint": "Эта фраза указывает на прикреплённый файл"
+        },
+        {
+          "type": "quiz",
+          "question": "Какое приветствие используется, если имя адресата неизвестно?",
+          "options": [
+            "Dear Mr. Smith,",
+            "Dear Sir/Madam,",
+            "Hi there,",
+            "Hello,",
+            "Не знаю"
+          ],
+          "correctAnswer": "Dear Sir/Madam,",
+          "hint": "Формальное приветствие без знания имени"
+        },
+        {
+          "type": "find",
+          "question": "Выберите все компоненты делового письма:",
+          "options": [
+            "Salutation",
+            "Opening",
+            "Body",
+            "Conclusion paragraph",
+            "Closing",
+            "Sign-off"
+          ],
+          "correctAnswer": [
+            "Salutation",
+            "Opening",
+            "Body",
+            "Closing",
+            "Sign-off"
+          ],
+          "hint": "Деловое письмо имеет 5 основных частей"
+        },
+        {
+          "type": "find",
+          "question": "Выберите все фразы для презентации:",
+          "options": [
+            "The purpose of my presentation is to...",
+            "Let's move on to...",
+            "I am writing to inquire about...",
+            "As you can see from this chart...",
+            "Please find attached...",
+            "I'd be happy to answer any questions"
+          ],
+          "correctAnswer": [
+            "The purpose of my presentation is to...",
+            "Let's move on to...",
+            "As you can see from this chart...",
+            "I'd be happy to answer any questions"
+          ],
+          "hint": "Это фразы для устной презентации, а не письма"
+        }
       ],
-      "reward": {"stars": 3, "message": "Отлично! Вы знаете деловой английский! 🎯"}
+      "reward": {
+        "stars": 3,
+        "message": "Отлично! Вы знаете деловой английский! 🎯"
+      }
     },
     {
       "title": "Job Interview 🤝",
@@ -416,13 +2321,88 @@
       "icon": "Languages",
       "color": "text-pink-400",
       "tasks": [
-        {"type": "quiz", "question": "В течение какого времени следует отправить thank you email после собеседования?", "options": ["1 неделю", "24 часа", "3 дня", "1 месяц", "Не знаю"], "correctAnswer": "24 часа", "hint": "Чем быстрее, тем лучше — в течение суток"},
-        {"type": "quiz", "question": "Что спрашивают в вопросе 'Where do you see yourself in 5 years?'?", "options": ["Где вы хотите жить?", "Каковы ваши карьерные цели?", "Кем вы работали 5 лет назад?", "Какой ваш любимый год?", "Не знаю"], "correctAnswer": "Каковы ваши карьерные цели?", "hint": "Работодатель хочет понять ваши долгосрочные планы"},
-        {"type": "quiz", "question": "Как лучше ответить на вопрос о слабых сторонах?", "options": ["У меня нет слабых сторон", "Я ленивый", "Я иногда слишком внимания уделяю деталям, но учусь расставлять приоритеты", "Я не умею работать в команде", "Не знаю"], "correctAnswer": "Я иногда слишком внимания уделяю деталям, но учусь расставлять приоритеты", "hint": "Назовите реальную слабость и как вы с ней работаете"},
-        {"type": "find", "question": "Выберите все типичные вопросы на собеседовании:", "options": ["Tell me about yourself", "What is your favorite color?", "Why do you want to work for this company?", "What are your strengths?", "What is your blood type?", "Why should we hire you?"], "correctAnswer": ["Tell me about yourself", "Why do you want to work for this company?", "What are your strengths?", "Why should we hire you?"], "hint": "Это стандартные профессиональные вопросы"},
-        {"type": "find", "question": "Выберите все вопросы, которые стоит задать интервьюеру:", "options": ["What does a typical day look like?", "How much is the salary?", "What are the biggest challenges facing the team?", "Can I work from home every day?", "What opportunities are there for professional development?", "When can I expect to hear back?"], "correctAnswer": ["What does a typical day look like?", "What are the biggest challenges facing the team?", "What opportunities are there for professional development?", "When can I expect to hear back?"], "hint": "Показывайте интерес к работе и команде"}
+        {
+          "type": "quiz",
+          "question": "В течение какого времени следует отправить thank you email после собеседования?",
+          "options": [
+            "1 неделю",
+            "24 часа",
+            "3 дня",
+            "1 месяц",
+            "Не знаю"
+          ],
+          "correctAnswer": "24 часа",
+          "hint": "Чем быстрее, тем лучше — в течение суток"
+        },
+        {
+          "type": "quiz",
+          "question": "Что спрашивают в вопросе 'Where do you see yourself in 5 years?'?",
+          "options": [
+            "Где вы хотите жить?",
+            "Каковы ваши карьерные цели?",
+            "Кем вы работали 5 лет назад?",
+            "Какой ваш любимый год?",
+            "Не знаю"
+          ],
+          "correctAnswer": "Каковы ваши карьерные цели?",
+          "hint": "Работодатель хочет понять ваши долгосрочные планы"
+        },
+        {
+          "type": "quiz",
+          "question": "Как лучше ответить на вопрос о слабых сторонах?",
+          "options": [
+            "У меня нет слабых сторон",
+            "Я ленивый",
+            "Я иногда слишком внимания уделяю деталям, но учусь расставлять приоритеты",
+            "Я не умею работать в команде",
+            "Не знаю"
+          ],
+          "correctAnswer": "Я иногда слишком внимания уделяю деталям, но учусь расставлять приоритеты",
+          "hint": "Назовите реальную слабость и как вы с ней работаете"
+        },
+        {
+          "type": "find",
+          "question": "Выберите все типичные вопросы на собеседовании:",
+          "options": [
+            "Tell me about yourself",
+            "What is your favorite color?",
+            "Why do you want to work for this company?",
+            "What are your strengths?",
+            "What is your blood type?",
+            "Why should we hire you?"
+          ],
+          "correctAnswer": [
+            "Tell me about yourself",
+            "Why do you want to work for this company?",
+            "What are your strengths?",
+            "Why should we hire you?"
+          ],
+          "hint": "Это стандартные профессиональные вопросы"
+        },
+        {
+          "type": "find",
+          "question": "Выберите все вопросы, которые стоит задать интервьюеру:",
+          "options": [
+            "What does a typical day look like?",
+            "How much is the salary?",
+            "What are the biggest challenges facing the team?",
+            "Can I work from home every day?",
+            "What opportunities are there for professional development?",
+            "When can I expect to hear back?"
+          ],
+          "correctAnswer": [
+            "What does a typical day look like?",
+            "What are the biggest challenges facing the team?",
+            "What opportunities are there for professional development?",
+            "When can I expect to hear back?"
+          ],
+          "hint": "Показывайте интерес к работе и команде"
+        }
       ],
-      "reward": {"stars": 3, "message": "Отлично! Вы готовы к собеседованию! 🎯"}
+      "reward": {
+        "stars": 3,
+        "message": "Отлично! Вы готовы к собеседованию! 🎯"
+      }
     },
     {
       "title": "Presentation Skills 🎙️",
@@ -430,13 +2410,88 @@
       "icon": "Languages",
       "color": "text-pink-400",
       "tasks": [
-        {"type": "quiz", "question": "Какой процент времени должна занимать основная часть презентации?", "options": ["50-60%", "75-80%", "30-40%", "90-95%", "Не знаю"], "correctAnswer": "75-80%", "hint": "Введение и заключение вместе занимают 20-30%"},
-        {"type": "quiz", "question": "Что НЕ следует делать при работе со слайдами?", "options": ["Делать зрительный контакт", "Использовать простые графики", "Читать текст со слайдов", "Минимум текста на слайдах", "Не знаю"], "correctAnswer": "Читать текст со слайдов", "hint": "Слайды — поддержка, а не текст для чтения"},
-        {"type": "quiz", "question": "Как сказать 'Я не уверен, но могу уточнить' на презентации?", "options": ["I don't know", "I'm not entirely sure, but I can get back to you on that", "That's a stupid question", "Next question please", "Не знаю"], "correctAnswer": "I'm not entirely sure, but I can get back to you on that", "hint": "Будьте честны, но профессиональны"},
-        {"type": "find", "question": "Выберите все компоненты введения презентации:", "options": ["Greeting", "Self-introduction", "Detailed data analysis", "Topic announcement", "Outline", "Q&A session"], "correctAnswer": ["Greeting", "Self-introduction", "Topic announcement", "Outline"], "hint": "Введение презентации — 4 основных компонента"},
-        {"type": "find", "question": "Выберите все фразы для работы с визуальными материалами:", "options": ["As you can see from this chart...", "I am writing to inform you...", "This diagram illustrates...", "Let me draw your attention to this figure", "Please find attached...", "The table shows the comparison between..."], "correctAnswer": ["As you can see from this chart...", "This diagram illustrates...", "Let me draw your attention to this figure", "The table shows the comparison between..."], "hint": "Эти фразы направляют внимание аудитории к визуальным данным"}
+        {
+          "type": "quiz",
+          "question": "Какой процент времени должна занимать основная часть презентации?",
+          "options": [
+            "50-60%",
+            "75-80%",
+            "30-40%",
+            "90-95%",
+            "Не знаю"
+          ],
+          "correctAnswer": "75-80%",
+          "hint": "Введение и заключение вместе занимают 20-30%"
+        },
+        {
+          "type": "quiz",
+          "question": "Что НЕ следует делать при работе со слайдами?",
+          "options": [
+            "Делать зрительный контакт",
+            "Использовать простые графики",
+            "Читать текст со слайдов",
+            "Минимум текста на слайдах",
+            "Не знаю"
+          ],
+          "correctAnswer": "Читать текст со слайдов",
+          "hint": "Слайды — поддержка, а не текст для чтения"
+        },
+        {
+          "type": "quiz",
+          "question": "Как сказать 'Я не уверен, но могу уточнить' на презентации?",
+          "options": [
+            "I don't know",
+            "I'm not entirely sure, but I can get back to you on that",
+            "That's a stupid question",
+            "Next question please",
+            "Не знаю"
+          ],
+          "correctAnswer": "I'm not entirely sure, but I can get back to you on that",
+          "hint": "Будьте честны, но профессиональны"
+        },
+        {
+          "type": "find",
+          "question": "Выберите все компоненты введения презентации:",
+          "options": [
+            "Greeting",
+            "Self-introduction",
+            "Detailed data analysis",
+            "Topic announcement",
+            "Outline",
+            "Q&A session"
+          ],
+          "correctAnswer": [
+            "Greeting",
+            "Self-introduction",
+            "Topic announcement",
+            "Outline"
+          ],
+          "hint": "Введение презентации — 4 основных компонента"
+        },
+        {
+          "type": "find",
+          "question": "Выберите все фразы для работы с визуальными материалами:",
+          "options": [
+            "As you can see from this chart...",
+            "I am writing to inform you...",
+            "This diagram illustrates...",
+            "Let me draw your attention to this figure",
+            "Please find attached...",
+            "The table shows the comparison between..."
+          ],
+          "correctAnswer": [
+            "As you can see from this chart...",
+            "This diagram illustrates...",
+            "Let me draw your attention to this figure",
+            "The table shows the comparison between..."
+          ],
+          "hint": "Эти фразы направляют внимание аудитории к визуальным данным"
+        }
       ],
-      "reward": {"stars": 3, "message": "Отлично! Вы готовы к презентациям! 🎯"}
+      "reward": {
+        "stars": 3,
+        "message": "Отлично! Вы готовы к презентациям! 🎯"
+      }
     }
   ]
 }

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>.trace{stroke-dasharray:200;animation:draw 3s infinite}@keyframes draw{to{stroke-dashoffset:-400}}</style></defs>
+  <rect width="500" height="350" fill="#eff6ff"/>
+  <text x="250" y="30" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#1d4ed8">Обведение контуров ✏️</text>
+  <rect x="30" y="50" width="140" height="140" fill="#fff" stroke="#3b82f6" stroke-width="2" rx="10"/>
+  <circle cx="100" cy="120" r="50" fill="none" stroke="#3b82f6" stroke-width="3" class="trace"/>
+  <text x="100" y="210" text-anchor="middle" font-family="Arial" font-size="12" fill="#6b7280">Круг</text>
+  <rect x="180" y="50" width="140" height="140" fill="#fff" stroke="#22c55e" stroke-width="2" rx="10"/>
+  <rect x="210" y="80" width="80" height="80" fill="none" stroke="#22c55e" stroke-width="3" class="trace"/>
+  <text x="250" y="210" text-anchor="middle" font-family="Arial" font-size="12" fill="#6b7280">Квадрат</text>
+  <rect x="330" y="50" width="140" height="140" fill="#fff" stroke="#ef4444" stroke-width="2" rx="10"/>
+  <polygon points="400,80 360,160 440,160" fill="none" stroke="#ef4444" stroke-width="3" class="trace"/>
+  <text x="400" y="210" text-anchor="middle" font-family="Arial" font-size="12" fill="#6b7280">Треугольник</text>
+  <rect x="20" y="220" width="460" height="110" fill="#fef3c7" rx="10"/>
+  <text x="250" y="250" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#b45309">Правила обведения 📝</text>
+  <text x="150" y="280" text-anchor="middle" font-family="Arial" font-size="12" fill="#374151">1. Начни с начальной точки</text>
+  <text x="150" y="300" text-anchor="middle" font-family="Arial" font-size="12" fill="#374151">2. Веди медленно и аккуратно</text>
+  <text x="350" y="280" text-anchor="middle" font-family="Arial" font-size="12" fill="#374151">3. Не отрывай ручку от бумаги</text>
+  <text x="350" y="300" text-anchor="middle" font-family="Arial" font-size="12" fill="#374151">4. Повторяй контур точно</text>
+</svg>

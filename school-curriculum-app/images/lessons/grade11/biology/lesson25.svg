@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" font-family="Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg25" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg25)" rx="8"/>
+  
+  <!-- Title -->
+  <text x="250" y="22" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Структура популяции</text>
+
+  <!-- Section 1: Возрастная пирамида -->
+  <rect x="10" y="34" width="155" height="310" rx="6" fill="white" fill-opacity="0.5" stroke="#2E7D32" stroke-width="1"/>
+  <text x="87" y="50" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Возрастная пирамида</text>
+  
+  <!-- Pyramid - 3 tiers -->
+  <!-- Top tier: пострепродуктивная (narrow) -->
+  <polygon points="87,62 60,115 114,115" fill="#FF8A65" stroke="#E64A19" stroke-width="1"/>
+  <text x="87" y="82" font-size="6.5" fill="white" text-anchor="middle" font-weight="bold">Пострепродук-</text>
+  <text x="87" y="91" font-size="6.5" fill="white" text-anchor="middle" font-weight="bold">тивная</text>
+  <text x="87" y="108" font-size="5.5" fill="#BF360C" text-anchor="middle">старшие</text>
+
+  <!-- Middle tier: репродуктивная (medium) -->
+  <polygon points="60,115 42,185 132,185 114,115" fill="#FFD54F" stroke="#F9A825" stroke-width="1"/>
+  <text x="87" y="140" font-size="7" fill="#3E2723" text-anchor="middle" font-weight="bold">Репродуктивная</text>
+  <text x="87" y="152" font-size="6" fill="#5D4037" text-anchor="middle">взрослые</text>
+  <text x="87" y="165" font-size="6" fill="#5D4037" text-anchor="middle">(размножение)</text>
+  <text x="87" y="178" font-size="5" fill="#795548" text-anchor="middle">20–50 лет</text>
+
+  <!-- Bottom tier: предрепродуктивная (wide) -->
+  <polygon points="42,185 24,260 150,260 132,185" fill="#81C784" stroke="#388E3C" stroke-width="1"/>
+  <text x="87" y="210" font-size="7" fill="white" text-anchor="middle" font-weight="bold">Предрепродуктивная</text>
+  <text x="87" y="222" font-size="6" fill="#1B5E20" text-anchor="middle">дети, подростки</text>
+  <text x="87" y="234" font-size="6" fill="#1B5E20" text-anchor="middle">(подрастающие)</text>
+  <text x="87" y="248" font-size="5" fill="#2E7D32" text-anchor="middle">0–20 лет</text>
+
+  <!-- Age axis label -->
+  <text x="20" y="160" font-size="6" fill="#5D4037" text-anchor="middle" transform="rotate(-90,20,160)">Возраст ↑</text>
+
+  <!-- Pyramid type labels -->
+  <rect x="18" y="268" width="140" height="68" rx="4" fill="#E8F5E9" stroke="#66BB6A" stroke-width="0.5"/>
+  <text x="88" y="280" font-size="6.5" fill="#1B5E20" font-weight="bold" text-anchor="middle">Типы пирамид:</text>
+  <!-- Growing -->
+  <polygon points="28,290 24,310 44,310" fill="#81C784" stroke="#388E3C" stroke-width="0.5"/>
+  <text x="50" y="303" font-size="5.5" fill="#2E7D32">Растущая</text>
+  <!-- Stable -->
+  <polygon points="80,290 74,310 86,310" fill="#FFD54F" stroke="#F9A825" stroke-width="0.5"/>
+  <text x="92" y="303" font-size="5.5" fill="#F57F17">Стабильная</text>
+  <!-- Declining -->
+  <polygon points="126,290 118,310 134,310" fill="#FF8A65" stroke="#E64A19" stroke-width="0.5"/>
+  <text x="142" y="303" font-size="5.5" fill="#E64A19">Убывающая</text>
+  <text x="88" y="325" font-size="5" fill="#5D4037" text-anchor="middle">Ширина = доля возрастной группы</text>
+
+  <!-- Section 2: Пространственное распределение -->
+  <rect x="172" y="34" width="155" height="310" rx="6" fill="white" fill-opacity="0.5" stroke="#1565C0" stroke-width="1"/>
+  <text x="249" y="50" font-size="9" font-weight="bold" fill="#0D47A1" text-anchor="middle">Пространственное</text>
+  <text x="249" y="60" font-size="9" font-weight="bold" fill="#0D47A1" text-anchor="middle">распределение</text>
+
+  <!-- Pattern 1: Равномерное -->
+  <rect x="182" y="70" width="135" height="80" rx="4" fill="#E3F2FD" stroke="#64B5F6" stroke-width="0.5"/>
+  <text x="249" y="83" font-size="7" fill="#0D47A1" text-anchor="middle" font-weight="bold">Равномерное</text>
+  <g fill="#1565C0">
+    <circle cx="205" cy="100" r="3"/><circle cx="225" cy="100" r="3"/><circle cx="245" cy="100" r="3"/><circle cx="265" cy="100" r="3"/><circle cx="285" cy="100" r="3"/>
+    <circle cx="205" cy="120" r="3"/><circle cx="225" cy="120" r="3"/><circle cx="245" cy="120" r="3"/><circle cx="265" cy="120" r="3"/><circle cx="285" cy="120" r="3"/>
+    <circle cx="205" cy="140" r="3"/><circle cx="225" cy="140" r="3"/><circle cx="245" cy="140" r="3"/><circle cx="265" cy="140" r="3"/><circle cx="285" cy="140" r="3"/>
+  </g>
+  <text x="249" y="148" font-size="5" fill="#0D47A1" text-anchor="middle">Пингвины, хищные птицы</text>
+
+  <!-- Pattern 2: Случайное -->
+  <rect x="182" y="155" width="135" height="80" rx="4" fill="#E8F5E9" stroke="#66BB6A" stroke-width="0.5"/>
+  <text x="249" y="168" font-size="7" fill="#1B5E20" text-anchor="middle" font-weight="bold">Случайное</text>
+  <g fill="#2E7D32">
+    <circle cx="192" cy="185" r="3"/><circle cx="218" cy="178" r="3"/><circle cx="250" cy="190" r="3"/>
+    <circle cx="275" cy="180" r="3"/><circle cx="290" cy="195" r="3"/><circle cx="230" cy="205" r="3"/>
+    <circle cx="198" cy="210" r="3"/><circle cx="260" cy="215" r="3"/><circle cx="285" cy="210" r="3"/>
+    <circle cx="210" cy="195" r="3"/><circle cx="245" cy="220" r="3"/>
+  </g>
+  <text x="249" y="232" font-size="5" fill="#2E7D32" text-anchor="middle">Лесные деревья, пауки</text>
+
+  <!-- Pattern 3: Групповое -->
+  <rect x="182" y="240" width="135" height="80" rx="4" fill="#FFF3E0" stroke="#FFB74D" stroke-width="0.5"/>
+  <text x="249" y="253" font-size="7" fill="#E65100" text-anchor="middle" font-weight="bold">Групповое (кучное)</text>
+  <g fill="#E65100">
+    <!-- Cluster 1 -->
+    <circle cx="200" cy="268" r="2.5"/><circle cx="206" cy="265" r="2.5"/><circle cx="203" cy="273" r="2.5"/><circle cx="209" cy="270" r="2.5"/><circle cx="196" cy="271" r="2.5"/>
+    <!-- Cluster 2 -->
+    <circle cx="245" cy="275" r="2.5"/><circle cx="250" cy="272" r="2.5"/><circle cx="248" cy="280" r="2.5"/><circle cx="253" cy="277" r="2.5"/><circle cx="241" cy="278" r="2.5"/><circle cx="247" cy="269" r="2.5"/>
+    <!-- Cluster 3 -->
+    <circle cx="280" cy="265" r="2.5"/><circle cx="285" cy="262" r="2.5"/><circle cx="283" cy="270" r="2.5"/><circle cx="276" cy="268" r="2.5"/>
+  </g>
+  <text x="249" y="295" font-size="5" fill="#E65100" text-anchor="middle">Стада рыб, колонии птиц</text>
+  <text x="249" y="316" font-size="5.5" fill="#5D4037" text-anchor="middle">Тип зависит от:</text>
+  <text x="249" y="326" font-size="5.5" fill="#5D4037" text-anchor="middle">ресурсов, поведения, среды</text>
+
+  <!-- Section 3: Половая структура -->
+  <rect x="334" y="34" width="155" height="310" rx="6" fill="white" fill-opacity="0.5" stroke="#7B1FA2" stroke-width="1"/>
+  <text x="411" y="50" font-size="9" font-weight="bold" fill="#4A148C" text-anchor="middle">Половая структура</text>
+
+  <!-- Male/Female symbols -->
+  <g transform="translate(380,75)">
+    <!-- Male symbol -->
+    <circle cx="0" cy="0" r="12" fill="#42A5F5" stroke="#1565C0" stroke-width="1.5"/>
+    <line x1="8" y1="-8" x2="18" y2="-18" stroke="#1565C0" stroke-width="2"/>
+    <line x1="12" y1="-18" x2="18" y2="-18" stroke="#1565C0" stroke-width="2"/>
+    <line x1="18" y1="-18" x2="18" y2="-12" stroke="#1565C0" stroke-width="2"/>
+    <text x="0" y="4" font-size="10" fill="white" text-anchor="middle" font-weight="bold">♂</text>
+  </g>
+  <g transform="translate(442,75)">
+    <!-- Female symbol -->
+    <circle cx="0" cy="0" r="12" fill="#EC407A" stroke="#C2185B" stroke-width="1.5"/>
+    <line x1="0" y1="12" x2="0" y2="22" stroke="#C2185B" stroke-width="2"/>
+    <line x1="-5" y1="17" x2="5" y2="17" stroke="#C2185B" stroke-width="2"/>
+    <text x="0" y="4" font-size="10" fill="white" text-anchor="middle" font-weight="bold">♀</text>
+  </g>
+
+  <!-- Ratio bar -->
+  <text x="411" y="112" font-size="7" fill="#4A148C" text-anchor="middle" font-weight="bold">Половое соотношение</text>
+  <rect x="350" y="120" width="55" height="12" rx="2" fill="#42A5F5"/>
+  <rect x="405" y="120" width="60" height="12" rx="2" fill="#EC407A"/>
+  <text x="377" y="130" font-size="6" fill="white" text-anchor="middle">48% ♂</text>
+  <text x="435" y="130" font-size="6" fill="white" text-anchor="middle">52% ♀</text>
+
+  <!-- Age-sex pyramid -->
+  <text x="411" y="148" font-size="7" fill="#4A148C" text-anchor="middle" font-weight="bold">Половозрастная пирамида</text>
+  
+  <!-- Left side (males) -->
+  <rect x="370" y="155" width="30" height="15" rx="1" fill="#42A5F5" opacity="0.9"/>
+  <rect x="365" y="172" width="35" height="15" rx="1" fill="#42A5F5" opacity="0.8"/>
+  <rect x="360" y="189" width="40" height="15" rx="1" fill="#42A5F5" opacity="0.7"/>
+  <rect x="355" y="206" width="45" height="15" rx="1" fill="#42A5F5" opacity="0.6"/>
+  
+  <!-- Right side (females) -->
+  <rect x="405" y="155" width="28" height="15" rx="1" fill="#EC407A" opacity="0.9"/>
+  <rect x="405" y="172" width="33" height="15" rx="1" fill="#EC407A" opacity="0.8"/>
+  <rect x="405" y="189" width="38" height="15" rx="1" fill="#EC407A" opacity="0.7"/>
+  <rect x="405" y="206" width="42" height="15" rx="1" fill="#EC407A" opacity="0.6"/>
+
+  <!-- Center line -->
+  <line x1="400" y1="152" x2="400" y2="225" stroke="#4A148C" stroke-width="1"/>
+
+  <!-- Age labels -->
+  <text x="345" y="166" font-size="5" fill="#4A148C" text-anchor="end">70+</text>
+  <text x="345" y="183" font-size="5" fill="#4A148C" text-anchor="end">50-70</text>
+  <text x="345" y="200" font-size="5" fill="#4A148C" text-anchor="end">20-50</text>
+  <text x="345" y="217" font-size="5" fill="#4A148C" text-anchor="end">0-20</text>
+  
+  <!-- Male/Female labels -->
+  <text x="375" y="230" font-size="6" fill="#1565C0" text-anchor="middle">♂</text>
+  <text x="425" y="230" font-size="6" fill="#C2185B" text-anchor="middle">♀</text>
+
+  <!-- Primary/Secondary ratio info -->
+  <rect x="345" y="238" width="130" height="98" rx="4" fill="#F3E5F5" stroke="#9C27B0" stroke-width="0.5"/>
+  <text x="410" y="252" font-size="6.5" fill="#4A148C" font-weight="bold" text-anchor="middle">Соотношение полов:</text>
+  <text x="410" y="264" font-size="5.5" fill="#6A1B9A" text-anchor="middle">Первичное — при зачатии</text>
+  <text x="410" y="274" font-size="5.5" fill="#6A1B9A" text-anchor="middle">≈ 105♂ : 100♀</text>
+  <text x="410" y="286" font-size="5.5" fill="#6A1B9A" text-anchor="middle">Вторичное — при рождении</text>
+  <text x="410" y="296" font-size="5.5" fill="#6A1B9A" text-anchor="middle">≈ 103♂ : 100♀</text>
+  <text x="410" y="308" font-size="5.5" fill="#6A1B9A" text-anchor="middle">Третичное — у взрослых</text>
+  <text x="410" y="318" font-size="5.5" fill="#6A1B9A" text-anchor="middle">≈ 95♂ : 100♀</text>
+  <text x="410" y="332" font-size="5" fill="#9C27B0" text-anchor="middle" font-style="italic">Мужчины живут короче</text>
+</svg>

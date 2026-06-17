@@ -1,43 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF3E0"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FFA726"/>
-      <stop offset="100%" stop-color="#E65100"/>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1d4ed8"/>
+      <stop offset="100%" style="stop-color:#1e3a5f"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FFA726" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#FFA726" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#FFA726" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#E65100" opacity="0.12"/>
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#FFA726" text-anchor="middle">Конкуренция</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Экономика — Урок 3</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#FFA726" stroke-width="2" opacity="0.25"/>
-  <rect x="15" y="72" width="235" height="225" rx="4" fill="#FFA726" opacity="0.05"/>
-  <text x="22" y="88" font-family="Arial,sans-serif" font-size="10" fill="#E65100" text-anchor="start" font-weight="bold">Конкуренция —</text>
-  <text x="80" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">соперничество на рынке</text>
-  <text x="22" y="108" font-family="Arial,sans-serif" font-size="10" fill="#E65100" text-anchor="start" font-weight="bold">Виды:</text>
-  <text x="80" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Совершенная — много продавцов</text>
-  <text x="32" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Монополистическая — дифференц. продукт</text>
-  <text x="32" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Олигополия — несколько фирм</text>
-  <text x="32" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Монополия — один продавец</text>
-  <rect x="255" y="72" width="230" height="225" rx="4" fill="#FFA726" opacity="0.05"/>
-  <text x="262" y="88" font-family="Arial,sans-serif" font-size="10" fill="#E65100" text-anchor="start" font-weight="bold">Плюсы:</text>
-  <text x="320" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Снижение цен, качество ↑</text>
-  <text x="272" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Инновации, выбор товаров</text>
-  <text x="262" y="128" font-family="Arial,sans-serif" font-size="10" fill="#E65100" text-anchor="start" font-weight="bold">Минусы:</text>
-  <text x="320" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Монополия — завышенные цены</text>
-  <text x="272" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Недобросовестная конкуренция</text>
-  <text x="262" y="168" font-family="Arial,sans-serif" font-size="10" fill="#E65100" text-anchor="start" font-weight="bold">Закон:</text>
-  <text x="320" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Антимонопольное законодательство</text>
-  <rect x="15" y="280" width="235" height="18" rx="4" fill="#FFA726" opacity="0.06"/>
-  <text x="132" y="293" font-family="Arial,sans-serif" font-size="9" fill="#E65100" text-anchor="middle" font-weight="bold">Совершенная → Монополия</text>
-  <rect x="255" y="280" width="230" height="18" rx="4" fill="#FFA726" opacity="0.06"/>
-  <text x="370" y="293" font-family="Arial,sans-serif" font-size="9" fill="#E65100" text-anchor="middle" font-weight="bold">ФАС — антимонопольная служба</text>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Экономика · Конкуренция</text>
+  <rect width="500" height="350" fill="url(#bg3)" rx="12"/>
+  <!-- Four factor boxes -->
+  <rect x="30" y="30" width="200" height="130" rx="10" fill="#1e40af" stroke="#60a5fa" stroke-width="2"/>
+  <rect x="270" y="30" width="200" height="130" rx="10" fill="#1e40af" stroke="#60a5fa" stroke-width="2"/>
+  <rect x="30" y="190" width="200" height="130" rx="10" fill="#1e40af" stroke="#60a5fa" stroke-width="2"/>
+  <rect x="270" y="190" width="200" height="130" rx="10" fill="#1e40af" stroke="#60a5fa" stroke-width="2"/>
+  <!-- Earth/Land factor -->
+  <circle cx="80" cy="75" r="25" fill="#3b82f6"/>
+  <ellipse cx="80" cy="75" rx="25" ry="12" fill="none" stroke="#93c5fd" stroke-width="1"/>
+  <path d="M60,68 Q75,55 90,65 Q95,75 85,82 Q70,88 62,78 Z" fill="#34d399" opacity="0.6"/>
+  <text x="130" y="72" font-family="sans-serif" font-size="14" fill="#93c5fd" font-weight="bold">Земля</text>
+  <text x="130" y="92" font-family="sans-serif" font-size="10" fill="#bfdbfe">→ Рента</text>
+  <!-- Labor factor -->
+  <circle cx="320" cy="75" r="25" fill="#3b82f6"/>
+  <text x="320" y="80" font-family="sans-serif" font-size="22" text-anchor="middle">💪</text>
+  <text x="370" y="72" font-family="sans-serif" font-size="14" fill="#93c5fd" font-weight="bold">Труд</text>
+  <text x="370" y="92" font-family="sans-serif" font-size="10" fill="#bfdbfe">→ Зарплата</text>
+  <!-- Capital factor -->
+  <circle cx="80" cy="235" r="25" fill="#3b82f6"/>
+  <text x="80" y="240" font-family="sans-serif" font-size="22" text-anchor="middle">🏗</text>
+  <text x="130" y="232" font-family="sans-serif" font-size="14" fill="#93c5fd" font-weight="bold">Капитал</text>
+  <text x="130" y="252" font-family="sans-serif" font-size="10" fill="#bfdbfe">→ Процент</text>
+  <!-- Entrepreneurship factor -->
+  <circle cx="320" cy="235" r="25" fill="#3b82f6"/>
+  <text x="320" y="240" font-family="sans-serif" font-size="22" text-anchor="middle">💡</text>
+  <text x="370" y="232" font-family="sans-serif" font-size="14" fill="#93c5fd" font-weight="bold">Предприним.</text>
+  <text x="370" y="252" font-family="sans-serif" font-size="10" fill="#bfdbfe">→ Прибыль</text>
+  <!-- Central connecting circle -->
+  <circle cx="250" cy="175" r="22" fill="#2563eb" stroke="#93c5fd" stroke-width="2"/>
+  <text x="250" y="179" font-family="sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">ФАКТОРЫ</text>
+  <!-- Connecting lines -->
+  <line x1="230" y1="160" x2="130" y2="100" stroke="#60a5fa" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="270" y1="160" x2="370" y2="100" stroke="#60a5fa" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="230" y1="190" x2="130" y2="250" stroke="#60a5fa" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="270" y1="190" x2="370" y2="250" stroke="#60a5fa" stroke-width="1" stroke-dasharray="3,3"/>
+  <!-- Substitution arrow -->
+  <path d="M145,155 C160,170 180,170 195,155" fill="none" stroke="#fbbf24" stroke-width="1.5" marker-end="url(#arrY)"/>
+  <text x="170" y="183" font-family="sans-serif" font-size="7" fill="#fde68a" text-anchor="middle">Взаимозаменяемость</text>
+  <text x="250" y="340" font-family="sans-serif" font-size="9" fill="white" text-anchor="middle" opacity="0.5">Факторы производства</text>
 </svg>

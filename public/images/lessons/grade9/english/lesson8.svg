@@ -1,42 +1,66 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8EAF6"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#5C6BC0"/>
-      <stop offset="100%" stop-color="#283593"/>
+    <linearGradient id="ebg8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0891b2"/>
+      <stop offset="100%" style="stop-color:#164e63"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#283593" opacity="0.12"/>
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Защита окружающей среды</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Английский язык — Урок 8</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="15" y="72" width="235" height="225" rx="4" fill="#5C6BC0" opacity="0.05"/>
-  <text x="22" y="88" font-family="Arial,sans-serif" font-size="10" fill="#283593" text-anchor="start" font-weight="bold">Действия:</text>
-  <text x="75" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">recycle — перерабатывать</text>
-  <text x="32" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">reduce — сокращать, reuse — повторно</text>
-  <text x="32" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">save energy — экономить энергию</text>
-  <text x="22" y="148" font-family="Arial,sans-serif" font-size="10" fill="#283593" text-anchor="start" font-weight="bold">Альтернатива:</text>
-  <text x="75" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">renewable energy — возобновляемая</text>
-  <text x="32" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">solar power — солнечная</text>
-  <rect x="255" y="72" width="230" height="225" rx="4" fill="#5C6BC0" opacity="0.05"/>
-  <text x="272" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">wind power — ветровая</text>
-  <text x="262" y="108" font-family="Arial,sans-serif" font-size="10" fill="#283593" text-anchor="start" font-weight="bold">Фразы:</text>
-  <text x="315" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">We can make a difference</text>
-  <text x="272" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Every little helps</text>
-  <text x="272" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Think globally, act locally</text>
-  <text x="262" y="168" font-family="Arial,sans-serif" font-size="10" fill="#283593" text-anchor="start" font-weight="bold">Правило 3R:</text>
-  <text x="315" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Reduce, Reuse, Recycle!</text>
-  <rect x="15" y="280" width="235" height="18" rx="4" fill="#5C6BC0" opacity="0.06"/>
-  <text x="132" y="293" font-family="Arial,sans-serif" font-size="9" fill="#283593" text-anchor="middle" font-weight="bold">Go green!</text>
-  <rect x="255" y="280" width="230" height="18" rx="4" fill="#5C6BC0" opacity="0.06"/>
-  <text x="370" y="293" font-family="Arial,sans-serif" font-size="9" fill="#283593" text-anchor="middle" font-weight="bold">Sustainability — устойчивость</text>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">English · Защита окружающей среды</text>
+  <rect width="500" height="350" fill="url(#ebg8)" rx="12"/>
+  <!-- Main sentence -->
+  <rect x="30" y="25" width="440" height="45" rx="8" fill="#155e75" stroke="#67e8f9" stroke-width="1.5"/>
+  <text x="250" y="45" font-family="sans-serif" font-size="10" fill="#67e8f9" text-anchor="middle" font-weight="bold">The student who sits next to me is very smart.</text>
+  <text x="250" y="60" font-family="sans-serif" font-size="7" fill="#a5f3fc" text-anchor="middle">[who sits next to me] = Relative Clause</text>
+  <!-- Bracket indicator -->
+  <line x1="155" y1="25" x2="155" y2="70" stroke="#fbbf24" stroke-width="2"/>
+  <line x1="310" y1="25" x2="310" y2="70" stroke="#fbbf24" stroke-width="2"/>
+  <!-- Pronoun cards -->
+  <rect x="20" y="85" width="70" height="55" rx="6" fill="#0e7490" stroke="#67e8f9" stroke-width="1"/>
+  <text x="55" y="105" font-family="sans-serif" font-size="11" fill="#67e8f9" text-anchor="middle" font-weight="bold">who</text>
+  <text x="55" y="120" font-family="sans-serif" font-size="7" fill="#a5f3fc" text-anchor="middle">people</text>
+  <text x="55" y="133" font-family="sans-serif" font-size="6" fill="#cffafe" text-anchor="middle">The man who...</text>
+
+  <rect x="100" y="85" width="70" height="55" rx="6" fill="#0e7490" stroke="#67e8f9" stroke-width="1"/>
+  <text x="135" y="105" font-family="sans-serif" font-size="11" fill="#67e8f9" text-anchor="middle" font-weight="bold">which</text>
+  <text x="135" y="120" font-family="sans-serif" font-size="7" fill="#a5f3fc" text-anchor="middle">things</text>
+  <text x="135" y="133" font-family="sans-serif" font-size="6" fill="#cffafe" text-anchor="middle">The book which...</text>
+
+  <rect x="180" y="85" width="70" height="55" rx="6" fill="#0e7490" stroke="#fbbf24" stroke-width="1"/>
+  <text x="215" y="105" font-family="sans-serif" font-size="11" fill="#fbbf24" text-anchor="middle" font-weight="bold">that</text>
+  <text x="215" y="120" font-family="sans-serif" font-size="7" fill="#fde68a" text-anchor="middle">people/things</text>
+  <text x="215" y="133" font-family="sans-serif" font-size="6" fill="#fef3c7" text-anchor="middle">Defining only!</text>
+
+  <rect x="260" y="85" width="70" height="55" rx="6" fill="#0e7490" stroke="#f472b6" stroke-width="1"/>
+  <text x="295" y="105" font-family="sans-serif" font-size="11" fill="#f472b6" text-anchor="middle" font-weight="bold">whose</text>
+  <text x="295" y="120" font-family="sans-serif" font-size="7" fill="#fbcfe8" text-anchor="middle">possession</text>
+  <text x="295" y="133" font-family="sans-serif" font-size="6" fill="#fce7f3" text-anchor="middle">Whose book...</text>
+
+  <rect x="340" y="85" width="70" height="55" rx="6" fill="#0e7490" stroke="#10b981" stroke-width="1"/>
+  <text x="375" y="105" font-family="sans-serif" font-size="11" fill="#6ee7b7" text-anchor="middle" font-weight="bold">where</text>
+  <text x="375" y="120" font-family="sans-serif" font-size="7" fill="#a7f3d0" text-anchor="middle">places</text>
+  <text x="375" y="133" font-family="sans-serif" font-size="6" fill="#d1fae5" text-anchor="middle">The café where...</text>
+
+  <rect x="420" y="85" width="60" height="55" rx="6" fill="#0e7490" stroke="#a78bfa" stroke-width="1"/>
+  <text x="450" y="105" font-family="sans-serif" font-size="11" fill="#c4b5fd" text-anchor="middle" font-weight="bold">when</text>
+  <text x="450" y="120" font-family="sans-serif" font-size="7" fill="#ddd6fe" text-anchor="middle">time</text>
+  <text x="450" y="133" font-family="sans-serif" font-size="6" fill="#ede9fe" text-anchor="middle">The day when...</text>
+  <!-- Defining vs Non-defining -->
+  <rect x="20" y="155" width="225" height="80" rx="6" fill="#155e75" stroke="#67e8f9" stroke-width="1.5"/>
+  <text x="132" y="175" font-family="sans-serif" font-size="9" fill="#67e8f9" text-anchor="middle" font-weight="bold">Defining Clause</text>
+  <text x="132" y="192" font-family="sans-serif" font-size="7" fill="#a5f3fc" text-anchor="middle">Essential info — NO commas</text>
+  <text x="132" y="207" font-family="sans-serif" font-size="7" fill="#cffafe" text-anchor="middle">The woman who lives next door</text>
+  <text x="132" y="220" font-family="sans-serif" font-size="7" fill="#cffafe" text-anchor="middle">Identifies WHICH woman</text>
+
+  <rect x="260" y="155" width="220" height="80" rx="6" fill="#155e75" stroke="#fbbf24" stroke-width="1.5"/>
+  <text x="370" y="175" font-family="sans-serif" font-size="9" fill="#fbbf24" text-anchor="middle" font-weight="bold">Non-Defining Clause</text>
+  <text x="370" y="192" font-family="sans-serif" font-size="7" fill="#fde68a" text-anchor="middle">Extra info — COMMAS needed</text>
+  <text x="370" y="207" font-family="sans-serif" font-size="7" fill="#fef3c7" text-anchor="middle">My mother, who is a teacher,</text>
+  <text x="370" y="220" font-family="sans-serif" font-size="7" fill="#fef3c7" text-anchor="middle">Can be removed. 'That' ✗</text>
+  <!-- Omission rule -->
+  <rect x="50" y="250" width="400" height="45" rx="6" fill="#155e75" stroke="#10b981" stroke-width="1.5"/>
+  <text x="250" y="268" font-family="sans-serif" font-size="9" fill="#6ee7b7" text-anchor="middle" font-weight="bold">Omitting the Relative Pronoun</text>
+  <text x="250" y="284" font-family="sans-serif" font-size="8" fill="#a7f3d0" text-anchor="middle">Can omit when it's the OBJECT: "The book (which) I read" ✓</text>
+  <!-- Quick rule -->
+  <rect x="80" y="305" width="340" height="25" rx="4" fill="#164e63" stroke="#67e8f9" stroke-width="1"/>
+  <text x="250" y="322" font-family="sans-serif" font-size="8" fill="#67e8f9" text-anchor="middle" font-weight="bold">Key: Defining = no commas, that OK | Non-defining = commas, that ✗</text>
+  <text x="250" y="340" font-family="sans-serif" font-size="9" fill="white" text-anchor="middle" opacity="0.5">Relative Clauses</text>
 </svg>

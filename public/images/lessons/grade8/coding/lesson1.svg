@@ -1,36 +1,71 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#B71C1C"/>
-      <stop offset="100%" stop-color="#C62828"/>
+    <linearGradient id="pyBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#306998"/>
+      <stop offset="100%" stop-color="#4B8BBE"/>
     </linearGradient>
+    <linearGradient id="pyYellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD43B"/>
+      <stop offset="100%" stop-color="#FFE873"/>
+    </linearGradient>
+    <filter id="glow1">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
-  <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#6A1B9A" text-anchor="middle">Введение в Python</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Основы программирования - Урок 1</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#6A1B9A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#6A1B9A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA: x=15..485, y=85..300 -->
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6"/><rect x="100" y="100" width="300" height="170" rx="5" fill="#1E1E2E" stroke="#333" stroke-width="2"/><text x="120" y="125" font-family="monospace" font-size="12" fill="#81C784">print("Hello World!")</text><text x="120" y="150" font-family="monospace" font-size="12" fill="#81C784">x = 10</text><text x="120" y="175" font-family="monospace" font-size="12" fill="#89DDFF">if</text><text x="140" y="175" font-family="monospace" font-size="12" fill="#C792EA">x > 5</text><text x="185" y="175" font-family="monospace" font-size="12" fill="#89DDFF">:</text><text x="140" y="200" font-family="monospace" font-size="12" fill="#82AAFF">print("big")</text><text x="120" y="240" font-family="Arial" font-size="20" fill="#FDD835" text-anchor="middle" font-weight="bold">Python</text>
+  <rect width="500" height="350" fill="url(#bg1)"/>
+  <!-- Grid lines background -->
+  <g opacity="0.06" stroke="#4B8BBE" stroke-width="0.5">
+    <line x1="0" y1="50" x2="500" y2="50"/><line x1="0" y1="100" x2="500" y2="100"/>
+    <line x1="0" y1="150" x2="500" y2="150"/><line x1="0" y1="200" x2="500" y2="200"/>
+    <line x1="0" y1="250" x2="500" y2="250"/><line x1="0" y1="300" x2="500" y2="300"/>
+    <line x1="50" y1="0" x2="50" y2="350"/><line x1="100" y1="0" x2="100" y2="350"/>
+    <line x1="150" y1="0" x2="150" y2="350"/><line x1="200" y1="0" x2="200" y2="350"/>
+    <line x1="250" y1="0" x2="250" y2="350"/><line x1="300" y1="0" x2="300" y2="350"/>
+    <line x1="350" y1="0" x2="350" y2="350"/><line x1="400" y1="0" x2="400" y2="350"/>
+    <line x1="450" y1="0" x2="450" y2="350"/>
   </g>
-  <!-- Bottom panel -->
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Основы программирования</text>
+  <!-- Python Logo -->
+  <g transform="translate(100, 50)">
+    <!-- Blue snake half -->
+    <path d="M60,10 C60,10 40,10 40,30 L40,55 L80,55 L80,65 L25,65 C25,65 5,65 5,90 C5,115 20,115 20,115 L35,115 L35,95 C35,95 35,80 50,80 L90,80 C90,80 105,80 105,60 L105,30 C105,30 105,10 85,10 Z" fill="url(#pyBlue)"/>
+    <!-- Yellow snake half -->
+    <path d="M60,140 C60,140 80,140 80,120 L80,95 L40,95 L40,85 L95,85 C95,85 115,85 115,60 C115,35 100,35 100,35 L85,35 L85,55 C85,55 85,70 70,70 L30,70 C30,70 15,70 15,90 L15,120 C15,120 15,140 35,140 Z" fill="url(#pyYellow)"/>
+    <!-- Eyes -->
+    <circle cx="30" cy="35" r="5" fill="#1a1a2e"/>
+    <circle cx="32" cy="33" r="2" fill="white"/>
+    <circle cx="85" cy="115" r="5" fill="#1a1a2e"/>
+    <circle cx="87" cy="113" r="2" fill="white"/>
+  </g>
+  <!-- Terminal window -->
+  <rect x="240" y="40" width="230" height="200" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <rect x="240" y="40" width="230" height="24" rx="8" fill="#161b22"/>
+  <circle cx="256" cy="52" r="5" fill="#ff5f56"/>
+  <circle cx="272" cy="52" r="5" fill="#ffbd2e"/>
+  <circle cx="288" cy="52" r="5" fill="#27c93f"/>
+  <text x="360" y="56" fill="#8b949e" font-size="10" font-family="monospace" text-anchor="middle">terminal</text>
+  <!-- Code lines -->
+  <text x="255" y="88" fill="#79c0ff" font-size="13" font-family="monospace">&gt;&gt;&gt; print("Привет, мир!")</text>
+  <text x="255" y="110" fill="#7ee787" font-size="13" font-family="monospace">Привет, мир!</text>
+  <text x="255" y="140" fill="#79c0ff" font-size="13" font-family="monospace">&gt;&gt;&gt; x = 42</text>
+  <text x="255" y="162" fill="#79c0ff" font-size="13" font-family="monospace">&gt;&gt;&gt; type(x)</text>
+  <text x="255" y="184" fill="#7ee787" font-size="13" font-family="monospace">&lt;class 'int'&gt;</text>
+  <text x="255" y="214" fill="#79c0ff" font-size="13" font-family="monospace">&gt;&gt;&gt; 2 ** 10</text>
+  <text x="255" y="232" fill="#7ee787" font-size="13" font-family="monospace">1024</text>
+  <!-- Floating code symbols -->
+  <g filter="url(#glow1)" opacity="0.3">
+    <text x="30" y="240" fill="#4B8BBE" font-size="28" font-family="monospace">{ }</text>
+    <text x="430" y="280" fill="#FFD43B" font-size="24" font-family="monospace">( )</text>
+    <text x="50" y="300" fill="#4B8BBE" font-size="22" font-family="monospace">[ ]</text>
+    <text x="200" y="290" fill="#FFD43B" font-size="20" font-family="monospace">:=</text>
+  </g>
+  <!-- Cursor blink -->
+  <rect x="255" y="200" width="8" height="14" fill="#79c0ff" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0;0.8" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  <text x="250" y="340" fill="#aaa" font-size="9" opacity="0.5" font-family="sans-serif" text-anchor="middle">Введение в Python</text>
 </svg>

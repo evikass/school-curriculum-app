@@ -1,67 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF3E0"/><stop offset="100%" stop-color="#FFE0B2"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#E65100" stroke-width="3"/>
-<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#E65100" stroke-width="1" opacity="0.3"/>
-<polygon points="10,10 30,10 10,30" fill="#E65100" opacity="0.08"/>
-<polygon points="490,10 470,10 490,30" fill="#F57C00" opacity="0.08"/>
-<polygon points="10,340 30,340 10,320" fill="#FF9800" opacity="0.08"/>
-<polygon points="490,340 470,340 490,320" fill="#FFB74D" opacity="0.08"/>
-<circle cx="70" cy="15" r="4" fill="#E65100" opacity="0.1"/>
-<circle cx="82" cy="15" r="4" fill="#F57C00" opacity="0.1"/>
-<circle cx="94" cy="15" r="4" fill="#FF9800" opacity="0.1"/>
-<circle cx="406" cy="15" r="4" fill="#E65100" opacity="0.1"/>
-<circle cx="418" cy="15" r="4" fill="#F57C00" opacity="0.1"/>
-<circle cx="430" cy="15" r="4" fill="#FF9800" opacity="0.1"/>
-<text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#E65100" text-anchor="middle">Освобождение Москвы</text>
-<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">История - Урок 6</text>
-<line x1="30" y1="78" x2="470" y2="78" stroke="#E65100" stroke-width="2" opacity="0.25"/>
-<rect x="30" y="75" width="60" height="6" fill="#E65100" opacity="0.15" rx="1"/>
-<rect x="410" y="75" width="60" height="6" fill="#F57C00" opacity="0.12" rx="1"/>
-
-  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#8D6E63" stroke-width="1.5"/>
-  <text x="135" y="115" font-family="Arial,sans-serif" font-size="13" fill="#8D6E63" text-anchor="middle" font-weight="bold">Освобождение Москвы</text>
-  <!-- Kremlin towers -->
-  <rect x="55" y="160" width="25" height="80" fill="#E65100" stroke="#B71C1C" stroke-width="1"/>
-  <rect x="53" y="155" width="29" height="10" rx="2" fill="#E65100"/>
-  <polygon points="67,140 58,155 78,155" fill="#E65100"/>
-  <circle cx="67" cy="145" r="5" fill="#F9A825"/>
-  <rect x="110" y="145" width="25" height="95" fill="#E65100" stroke="#B71C1C" stroke-width="1"/>
-  <polygon points="122,125 108,145 138,145" fill="#E65100"/>
-  <circle cx="122" cy="130" r="5" fill="#F9A825"/>
-  <rect x="165" y="155" width="25" height="85" fill="#E65100" stroke="#B71C1C" stroke-width="1"/>
-  <polygon points="177,138 163,155 193,155" fill="#E65100"/>
-  <circle cx="177" cy="143" r="5" fill="#F9A825"/>
-  <!-- Wall -->
-  <rect x="48" y="230" width="155" height="12" fill="#B71C1C"/>
-  <line x1="80" y1="230" x2="80" y2="242" stroke="#A11212" stroke-width="1"/>
-  <line x1="120" y1="230" x2="120" y2="242" stroke="#A11212" stroke-width="1"/>
-  <line x1="160" y1="230" x2="160" y2="242" stroke="#A11212" stroke-width="1"/>
-  <text x="135" y="260" font-family="Arial,sans-serif" font-size="8" fill="#8D6E63" text-anchor="middle">Московский Кремль</text>
-
-  <rect x="260" y="90" width="215" height="200" rx="6" fill="white" stroke="#F9A825" stroke-width="1.5"/>
-  <text x="367" y="115" font-family="Arial,sans-serif" font-size="12" fill="#F9A825" text-anchor="middle" font-weight="bold">Хронология</text>
-  <!-- Timeline -->
-  <line x1="285" y1="140" x2="450" y2="140" stroke="#F9A825" stroke-width="1.5"/>
-  <circle cx="300" cy="140" r="4" fill="#E65100"/>
-  <circle cx="340" cy="140" r="4" fill="#1565C0"/>
-  <circle cx="380" cy="140" r="4" fill="#2E7D32"/>
-  <circle cx="420" cy="140" r="4" fill="#FF9800"/>
-  <text x="300" y="160" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">XV</text>
-  <text x="340" y="160" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">XVI</text>
-  <text x="380" y="160" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">XVII</text>
-  <text x="420" y="160" font-family="Arial,sans-serif" font-size="7" fill="#FF9800" text-anchor="middle">XVIII</text>
-  <!-- Events -->
-  <text x="367" y="190" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Ключевые события</text>
-  <text x="367" y="210" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Исторические лица</text>
-  <text x="367" y="230" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Реформы и законы</text>
-  <!-- Book -->
-  <rect x="335" y="245" width="60" height="35" rx="3" fill="#FFF3E0" stroke="#8D6E63" stroke-width="1"/>
-  <line x1="365" y1="245" x2="365" y2="280" stroke="#8D6E63" stroke-width="1"/>
-  <text x="367" y="268" font-family="Arial,sans-serif" font-size="7" fill="#8D6E63" text-anchor="middle">летопись</text>
-<rect x="15" y="310" width="470" height="30" rx="4" fill="#E65100" opacity="0.85"/>
-<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">История</text>
-  <rect x="440" y="105" width="12" height="40" rx="3" fill="#E65100" opacity="0.1"/>
-  <rect x="458" y="110" width="12" height="35" rx="3" fill="#FF9800" opacity="0.08"/>
-  <rect x="476" y="108" width="8" height="30" rx="2" fill="#FFB74D" opacity="0.06"/>
+<rect width="500" height="350" fill="#FBE9E7"/>
+<rect x="200" y="60" width="100" height="150" fill="#ECEFF1" stroke="#78909C" stroke-width="2"/>
+<rect x="190" y="55" width="120" height="15" fill="#B0BEC5" stroke="#78909C" stroke-width="1.5"/>
+<path d="M210,55 L210,40 L230,40 L230,55" fill="#90A4AE" stroke="#607D8B" stroke-width="1"/>
+<path d="M270,55 L270,40 L290,40 L290,55" fill="#90A4AE" stroke="#607D8B" stroke-width="1"/>
+<rect x="230" y="30" width="40" height="15" fill="#78909C" stroke="#546E7A" stroke-width="1.5"/>
+<path d="M250,30 L250,20" stroke="#546E7A" stroke-width="2"/>
+<circle cx="250" cy="17" r="4" fill="#FFD700"/>
+<rect x="215" y="80" width="25" height="35" fill="#CFD8DC" stroke="#78909C" stroke-width="1"/>
+<rect x="260" y="80" width="25" height="35" fill="#CFD8DC" stroke="#78909C" stroke-width="1"/>
+<path d="M215,75 L285,75 L290,80 L210,80 Z" fill="#90A4AE" stroke="#607D8B" stroke-width="1"/>
+<text x="250" y="135" font-size="7" fill="#37474F" text-anchor="middle">Кремль</text>
+<circle cx="80" cy="140" r="30" fill="#FFCC80" stroke="#E65100" stroke-width="2"/>
+<circle cx="80" cy="120" r="15" fill="#FFE0B2" stroke="#E65100" stroke-width="1.5"/>
+<text x="80" y="160" font-size="7" fill="#BF360C" text-anchor="middle">Минин</text>
+<line x1="80" y1="170" x2="80" y2="210" stroke="#E65100" stroke-width="2"/>
+<rect x="60" y="210" width="40" height="60" rx="3" fill="#FF8F00" stroke="#E65100" stroke-width="1.5"/>
+<line x1="70" y1="230" x2="90" y2="230" stroke="#FFD700" stroke-width="1"/>
+<circle cx="420" cy="140" r="30" fill="#FF8A65" stroke="#D84315" stroke-width="2"/>
+<circle cx="420" cy="120" r="15" fill="#FFAB91" stroke="#D84315" stroke-width="1.5"/>
+<text x="420" y="160" font-size="7" fill="#BF360C" text-anchor="middle">Пожарский</text>
+<line x1="420" y1="170" x2="420" y2="210" stroke="#D84315" stroke-width="2"/>
+<rect x="400" y="210" width="40" height="60" rx="3" fill="#E65100" stroke="#BF360C" stroke-width="1.5"/>
+<path d="M440,220 L460,210" stroke="#D84315" stroke-width="2"/>
+<text x="250" y="235" font-size="10" fill="#C62828" text-anchor="middle" font-weight="bold">1612 г.</text>
+<text x="250" y="255" font-size="8" fill="#D32F2F" text-anchor="middle">Освобождение Москвы</text>
+<path d="M110,135 L200,120" stroke="#FF8F00" stroke-width="2.5"/>
+<polygon points="200,117 210,120 200,123" fill="#FF8F00"/>
+<path d="M390,135 L300,120" stroke="#E65100" stroke-width="2.5"/>
+<polygon points="300,117 290,120 300,123" fill="#E65100"/>
+<rect x="140" y="270" width="220" height="45" rx="6" fill="#FFF" stroke="#D32F2F" stroke-width="1.5"/>
+<text x="250" y="288" font-size="8" fill="#C62828" text-anchor="middle" font-weight="bold">Народное ополчение</text>
+<text x="250" y="305" font-size="7" fill="#D32F2F" text-anchor="middle">Нижний Новгород → Москва</text>
+<text x="250" y="345" font-size="9" fill="#666" text-anchor="middle" opacity="0.5">Освобождение Москвы</text>
 </svg>

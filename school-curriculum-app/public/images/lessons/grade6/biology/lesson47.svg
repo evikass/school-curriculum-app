@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+<linearGradient id="ovaryG" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#A5D6A7"/><stop offset="100%" stop-color="#66BB6A"/></linearGradient>
+<linearGradient id="pollenG" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFD54F"/><stop offset="100%" stop-color="#F9A825"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Двойное оплодотворение у цветковых растений</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 6 класс — Урок 47</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- Navashin label -->
+<rect x="340" y="54" width="150" height="14" rx="2" fill="#FFF9C4" opacity="0.5" stroke="#F9A825" stroke-width="0.5"/>
+<text x="415" y="64" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#F57F17" text-anchor="middle">Открыто С.Г. Навашиным, 1898</text>
+
+<!-- SECTION 1: Pollen tube growth diagram -->
+<text x="150" y="80" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#2E7D32" text-anchor="middle">Рост пыльцевой трубки и двойное оплодотворение</text>
+
+<!-- Stigma (top) -->
+<ellipse cx="150" cy="100" rx="30" ry="8" fill="#CE93D8" stroke="#7B1FA2" stroke-width="1"/>
+<text x="150" y="103" font-family="Arial,sans-serif" font-size="5" fill="#4A148C" text-anchor="middle">рыльце</text>
+<!-- Pollen grains on stigma -->
+<circle cx="130" cy="96" r="3" fill="url(#pollenG)" stroke="#F57F17" stroke-width="0.5"/>
+<circle cx="150" cy="94" r="3" fill="url(#pollenG)" stroke="#F57F17" stroke-width="0.5"/>
+<circle cx="170" cy="96" r="3" fill="url(#pollenG)" stroke="#F57F17" stroke-width="0.5"/>
+<text x="190" y="96" font-family="Arial,sans-serif" font-size="5" fill="#F57F17">пыльца</text>
+
+<!-- Style -->
+<rect x="146" y="108" width="8" height="40" rx="2" fill="#A5D6A7" stroke="#4CAF50" stroke-width="0.5"/>
+<text x="165" y="130" font-family="Arial,sans-serif" font-size="5" fill="#388E3C">столбик</text>
+
+<!-- Pollen tube growing through style -->
+<path d="M155,105 Q158,130 155,148 Q152,158 150,168" stroke="#FFD54F" stroke-width="1.5" fill="none" stroke-dasharray="3,1"/>
+<text x="170" y="155" font-family="Arial,sans-serif" font-size="5" fill="#F57F17">пыльцевая</text>
+<text x="170" y="162" font-family="Arial,sans-serif" font-size="5" fill="#F57F17">трубка</text>
+
+<!-- Two sperm cells in pollen tube -->
+<circle cx="153" cy="140" r="2.5" fill="#1565C0" stroke="#0D47A1" stroke-width="0.5"/>
+<text x="160" y="141" font-family="Arial,sans-serif" font-size="4" fill="#1565C0">спермий 1</text>
+<circle cx="153" cy="147" r="2.5" fill="#C62828" stroke="#880E4F" stroke-width="0.5"/>
+<text x="160" y="148" font-family="Arial,sans-serif" font-size="4" fill="#C62828">спермий 2</text>
+
+<!-- Ovary (large) -->
+<ellipse cx="150" cy="200" rx="50" ry="35" fill="url(#ovaryG)" stroke="#2E7D32" stroke-width="1.2"/>
+<text x="150" y="206" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle">завязь</text>
+
+<!-- Ovule inside ovary -->
+<ellipse cx="150" cy="200" rx="22" ry="16" fill="#FFF9C4" stroke="#F9A825" stroke-width="0.8"/>
+<text x="150" y="203" font-family="Arial,sans-serif" font-size="5" fill="#F57F17" text-anchor="middle">семязачаток</text>
+
+<!-- Egg cell -->
+<circle cx="142" cy="194" r="5" fill="#FF8A65" stroke="#E64A19" stroke-width="0.5"/>
+<text x="142" y="196" font-family="Arial,sans-serif" font-size="3.5" fill="#FFF" text-anchor="middle">яйц.</text>
+
+<!-- Central cell -->
+<ellipse cx="160" cy="205" rx="8" ry="5" fill="#BBDEFB" stroke="#1565C0" stroke-width="0.5"/>
+<text x="160" y="207" font-family="Arial,sans-serif" font-size="3.5" fill="#0D47A1" text-anchor="middle">центр.</text>
+
+<!-- Pollen tube entering ovule -->
+<path d="M150,168 L150,185" stroke="#FFD54F" stroke-width="1.2" fill="none"/>
+<polygon points="148,185 150,188 152,185" fill="#FFD54F"/>
+
+<!-- First fertilization arrow -->
+<path d="M153,140 Q140,160 142,189" stroke="#1565C0" stroke-width="0.8" fill="none" stroke-dasharray="2,1"/>
+<circle cx="142" cy="190" r="2" fill="#1565C0"/>
+<text x="118" y="188" font-family="Arial,sans-serif" font-size="4" fill="#1565C0">спермий 1</text>
+
+<!-- Second fertilization arrow -->
+<path d="M153,147 Q165,165 158,200" stroke="#C62828" stroke-width="0.8" fill="none" stroke-dasharray="2,1"/>
+<circle cx="158" cy="201" r="2" fill="#C62828"/>
+<text x="175" y="196" font-family="Arial,sans-serif" font-size="4" fill="#C62828">спермий 2</text>
+
+<!-- SECTION 2: Results of double fertilization -->
+<text x="385" y="80" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#2E7D32" text-anchor="middle">Результаты двойного оплодотворения</text>
+
+<!-- First fertilization result -->
+<rect x="270" y="88" width="220" height="65" rx="4" fill="#E3F2FD" opacity="0.4" stroke="#1565C0" stroke-width="0.8"/>
+<text x="380" y="100" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#0D47A1" text-anchor="middle">I оплодотворение</text>
+
+<!-- Sperm 1 + Egg -->
+<circle cx="300" cy="120" r="8" fill="#1565C0" opacity="0.6" stroke="#0D47A1" stroke-width="0.5"/>
+<text x="300" y="123" font-family="Arial,sans-serif" font-size="5" fill="#FFF" text-anchor="middle">спермий</text>
+<text x="322" y="123" font-family="Arial,sans-serif" font-size="10" fill="#1565C0">+</text>
+<circle cx="340" cy="120" r="8" fill="#FF8A65" opacity="0.6" stroke="#E64A19" stroke-width="0.5"/>
+<text x="340" y="123" font-family="Arial,sans-serif" font-size="5" fill="#FFF" text-anchor="middle">яйцекл.</text>
+
+<!-- Arrow -->
+<path d="M355,120 L370,120" stroke="#1565C0" stroke-width="1" fill="none"/>
+<polygon points="370,118 374,120 370,122" fill="#1565C0"/>
+
+<!-- Zygote -->
+<circle cx="395" cy="120" r="10" fill="#4CAF50" opacity="0.6" stroke="#2E7D32" stroke-width="0.8"/>
+<text x="395" y="118" font-family="Arial,sans-serif" font-size="5" font-weight="bold" fill="#1B5E20" text-anchor="middle">Зигота</text>
+<text x="395" y="126" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#1B5E20" text-anchor="middle">2n</text>
+
+<!-- Arrow to embryo -->
+<path d="M405,120 L420,120" stroke="#2E7D32" stroke-width="0.8" fill="none"/>
+<polygon points="420,118 424,120 420,122" fill="#2E7D32"/>
+<text x="450" y="118" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">Зародыш</text>
+<text x="450" y="126" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">(диплоидный)</text>
+
+<!-- Second fertilization result -->
+<rect x="270" y="158" width="220" height="65" rx="4" fill="#FCE4EC" opacity="0.4" stroke="#C62828" stroke-width="0.8"/>
+<text x="380" y="170" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#880E4F" text-anchor="middle">II оплодотворение</text>
+
+<!-- Sperm 2 + Central cell -->
+<circle cx="300" cy="190" r="8" fill="#C62828" opacity="0.6" stroke="#880E4F" stroke-width="0.5"/>
+<text x="300" y="193" font-family="Arial,sans-serif" font-size="5" fill="#FFF" text-anchor="middle">спермий</text>
+<text x="322" y="193" font-family="Arial,sans-serif" font-size="10" fill="#C62828">+</text>
+<ellipse cx="345" cy="190" rx="12" ry="8" fill="#BBDEFB" opacity="0.6" stroke="#1565C0" stroke-width="0.5"/>
+<text x="345" y="188" font-family="Arial,sans-serif" font-size="4" fill="#0D47A1" text-anchor="middle">центральная</text>
+<text x="345" y="194" font-family="Arial,sans-serif" font-size="4" fill="#0D47A1" text-anchor="middle">клетка (2n)</text>
+
+<!-- Arrow -->
+<path d="M360,190 L375,190" stroke="#C62828" stroke-width="1" fill="none"/>
+<polygon points="375,188 379,190 375,192" fill="#C62828"/>
+
+<!-- Endosperm -->
+<circle cx="400" cy="190" r="10" fill="#FF9800" opacity="0.6" stroke="#E65100" stroke-width="0.8"/>
+<text x="400" y="188" font-family="Arial,sans-serif" font-size="4.5" font-weight="bold" fill="#BF360C" text-anchor="middle">Эндо-</text>
+<text x="400" y="194" font-family="Arial,sans-serif" font-size="4.5" font-weight="bold" fill="#BF360C" text-anchor="middle">сперм</text>
+<text x="400" y="202" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#BF360C" text-anchor="middle">3n</text>
+
+<!-- Arrow to nutritive tissue -->
+<path d="M410,190 L425,190" stroke="#E65100" stroke-width="0.8" fill="none"/>
+<polygon points="425,188 429,190 425,192" fill="#E65100"/>
+<text x="460" y="188" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">Питательная</text>
+<text x="460" y="196" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">ткань семени</text>
+<text x="460" y="204" font-family="Arial,sans-serif" font-size="4.5" fill="#E65100" text-anchor="middle">(триплоидная)</text>
+
+<!-- SECTION 3: Development from ovary to seed/fruit -->
+<text x="250" y="240" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#2E7D32" text-anchor="middle">Образование семени и плода</text>
+
+<!-- Development chain -->
+<!-- Завязь -->
+<ellipse cx="60" cy="270" rx="22" ry="14" fill="url(#ovaryG)" stroke="#2E7D32" stroke-width="0.8"/>
+<text x="60" y="273" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20" text-anchor="middle">завязь</text>
+<!-- Arrow -->
+<path d="M85,270 L105,270" stroke="#2E7D32" stroke-width="1" fill="none"/>
+<polygon points="105,268 109,270 105,272" fill="#2E7D32"/>
+
+<!-- Семязачаток -->
+<ellipse cx="135" cy="270" rx="18" ry="12" fill="#FFF9C4" stroke="#F9A825" stroke-width="0.6"/>
+<text x="135" y="268" font-family="Arial,sans-serif" font-size="4.5" fill="#F57F17" text-anchor="middle">семя-</text>
+<text x="135" y="274" font-family="Arial,sans-serif" font-size="4.5" fill="#F57F17" text-anchor="middle">зачаток</text>
+<!-- Arrow -->
+<path d="M155,270 L175,270" stroke="#2E7D32" stroke-width="1" fill="none"/>
+<polygon points="175,268 179,270 175,272" fill="#2E7D32"/>
+
+<!-- Семя -->
+<ellipse cx="205" cy="270" rx="16" ry="11" fill="#BCAAA4" stroke="#795548" stroke-width="0.8"/>
+<text x="205" y="273" font-family="Arial,sans-serif" font-size="5" fill="#4E342E" text-anchor="middle">семя</text>
+<!-- Arrow -->
+<path d="M225,270 L240,270" stroke="#2E7D32" stroke-width="1" fill="none"/>
+<polygon points="240,268 244,270 240,272" fill="#2E7D32"/>
+
+<!-- Плод -->
+<ellipse cx="270" cy="270" rx="18" ry="13" fill="#E53935" stroke="#C62828" stroke-width="0.8" opacity="0.7"/>
+<text x="270" y="273" font-family="Arial,sans-serif" font-size="5" fill="#FFF" text-anchor="middle">плод</text>
+
+<!-- Labels for transformations -->
+<text x="95" y="260" font-family="Arial,sans-serif" font-size="4" fill="#666">оплодотворение</text>
+<text x="160" y="260" font-family="Arial,sans-serif" font-size="4" fill="#666">развивается</text>
+<text x="225" y="260" font-family="Arial,sans-serif" font-size="4" fill="#666">внутри</text>
+
+<!-- Second chain: Цветоложе -->
+<text x="360" y="258" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20">Цветоложе → Плод (у яблони)</text>
+<text x="360" y="268" font-family="Arial,sans-serif" font-size="5" fill="#666">Стенки завязи → Околоплодник</text>
+<text x="360" y="278" font-family="Arial,sans-serif" font-size="5" fill="#666">Семязачаток → Семя с зародышем</text>
+<text x="360" y="288" font-family="Arial,sans-serif" font-size="5" fill="#666">Партенокарпия — плоды без семян</text>
+
+<!-- Summary -->
+<rect x="15" y="300" width="470" height="40" rx="3" fill="#FFF" opacity="0.3" stroke="#2E7D32" stroke-width="0.5"/>
+<text x="250" y="312" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle">Двойное оплодотворение — уникальная особенность цветковых растений.</text>
+<text x="250" y="322" font-family="Arial,sans-serif" font-size="5.5" fill="#1565C0" text-anchor="middle">I: спермий (n) + яйцеклетка (n) → зигота (2n) → зародыш семени</text>
+<text x="250" y="332" font-family="Arial,sans-serif" font-size="5.5" fill="#C62828" text-anchor="middle">II: спермий (n) + центральная клетка (2n) → эндосперм (3n) → питательная ткань</text>
+</svg>

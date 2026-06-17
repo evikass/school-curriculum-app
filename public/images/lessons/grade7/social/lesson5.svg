@@ -1,57 +1,51 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E1F5FE"/><stop offset="100%" stop-color="#B3E5FC"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#0277BD" stroke-width="3"/>
-<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#0277BD" stroke-width="1" opacity="0.3"/>
-<polygon points="10,10 30,10 10,30" fill="#0277BD" opacity="0.08"/>
-<polygon points="490,10 470,10 490,30" fill="#0288D1" opacity="0.08"/>
-<polygon points="10,340 30,340 10,320" fill="#039BE5" opacity="0.08"/>
-<polygon points="490,340 470,340 490,320" fill="#29B6F6" opacity="0.08"/>
-<circle cx="70" cy="15" r="4" fill="#0277BD" opacity="0.1"/>
-<circle cx="82" cy="15" r="4" fill="#0288D1" opacity="0.1"/>
-<circle cx="94" cy="15" r="4" fill="#039BE5" opacity="0.1"/>
-<circle cx="406" cy="15" r="4" fill="#0277BD" opacity="0.1"/>
-<circle cx="418" cy="15" r="4" fill="#0288D1" opacity="0.1"/>
-<circle cx="430" cy="15" r="4" fill="#039BE5" opacity="0.1"/>
-<text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#0277BD" text-anchor="middle">Трудовая деятельность</text>
-<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Обществознание - Урок 5</text>
-<line x1="30" y1="78" x2="470" y2="78" stroke="#0277BD" stroke-width="2" opacity="0.25"/>
-<rect x="30" y="75" width="60" height="6" fill="#0277BD" opacity="0.15" rx="1"/>
-<rect x="410" y="75" width="60" height="6" fill="#0288D1" opacity="0.12" rx="1"/>
-
-  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#E65100" stroke-width="1.5"/>
-  <text x="135" y="115" font-family="Arial,sans-serif" font-size="13" fill="#E65100" text-anchor="middle" font-weight="bold">Трудовая деятельность</text>
-  <!-- Society pyramid -->
-  <polygon points="135,135 70,265 200,265" fill="none" stroke="#E65100" stroke-width="1.5"/>
-  <line x1="85" y1="225" x2="185" y2="225" stroke="#E65100" stroke-width="1"/>
-  <line x1="100" y1="185" x2="170" y2="185" stroke="#E65100" stroke-width="1"/>
-  <text x="135" y="155" font-family="Arial,sans-serif" font-size="7" fill="#0277BD" text-anchor="middle">власть</text>
-  <text x="135" y="175" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">законы</text>
-  <text x="135" y="210" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">экономика</text>
-  <text x="135" y="250" font-family="Arial,sans-serif" font-size="7" fill="#F9A825" text-anchor="middle">общество</text>
-
-  <rect x="260" y="90" width="215" height="200" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5"/>
-  <text x="367" y="115" font-family="Arial,sans-serif" font-size="12" fill="#1565C0" text-anchor="middle" font-weight="bold">Сферы общества</text>
-  <!-- Spheres as circles -->
-  <circle cx="330" cy="165" r="22" fill="#FFEBEE" stroke="#0277BD" stroke-width="1.5"/>
-  <text x="330" y="163" font-family="Arial,sans-serif" font-size="7" fill="#0277BD" text-anchor="middle">полит.</text>
-  <text x="330" y="173" font-family="Arial,sans-serif" font-size="7" fill="#0277BD" text-anchor="middle">сфера</text>
-  <circle cx="400" cy="165" r="22" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/>
-  <text x="400" y="163" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">эконом.</text>
-  <text x="400" y="173" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">сфера</text>
-  <circle cx="330" cy="220" r="22" fill="#FFF3E0" stroke="#E65100" stroke-width="1.5"/>
-  <text x="330" y="218" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">социальн.</text>
-  <text x="330" y="228" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">сфера</text>
-  <circle cx="400" cy="220" r="22" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
-  <text x="400" y="218" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">духовн.</text>
-  <text x="400" y="228" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">сфера</text>
-  <!-- Rights -->
-  <rect x="285" y="250" width="160" height="30" rx="4" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
-  <text x="365" y="270" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Права и обязанности</text>
-<rect x="15" y="310" width="470" height="30" rx="4" fill="#0277BD" opacity="0.85"/>
-<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Обществознание</text>
-  <rect x="440" y="120" width="6" height="30" fill="#0277BD" opacity="0.1"/>
-  <rect x="452" y="120" width="6" height="30" fill="#039BE5" opacity="0.08"/>
-  <rect x="464" y="120" width="6" height="30" fill="#29B6F6" opacity="0.06"/>
-  <rect x="435" y="115" width="42" height="4" fill="#0277BD" opacity="0.1"/>
+<rect width="500" height="350" fill="#1a2a3a"/>
+<rect x="30" y="30" width="95" height="130" fill="#1a3a4a" rx="6" stroke="#4a9aba" stroke-width="1"/>
+<circle cx="77" cy="65" r="15" fill="#FFB74D"/>
+<rect x="67" y="80" width="20" height="35" fill="#E53935" rx="3"/>
+<line x1="57" y1="95" x2="67" y2="90" stroke="#FFB74D" stroke-width="2"/>
+<line x1="87" y1="90" x2="97" y2="85" stroke="#FFB74D" stroke-width="2"/>
+<circle cx="97" cy="82" r="4" fill="white"/>
+<path d="M87,115 L82,140 L72,140" stroke="#1565C0" stroke-width="1.5" fill="none"/>
+<path d="M67,115 L72,140 L82,140" stroke="#1565C0" stroke-width="1.5" fill="none"/>
+<text x="77" y="155" font-family="Arial" font-size="7" fill="#88CCEE" text-anchor="middle">Врач</text>
+<rect x="145" y="30" width="95" height="130" fill="#2a3a1a" rx="6" stroke="#8aba4a" stroke-width="1"/>
+<circle cx="192" cy="65" r="15" fill="#FFB74D"/>
+<rect x="182" y="80" width="20" height="25" fill="#FF9800" rx="2"/>
+<line x1="172" y1="95" x2="165" y2="85" stroke="#FFB74D" stroke-width="2"/>
+<line x1="202" y1="92" x2="220" y2="80" stroke="#FFB74D" stroke-width="2.5"/>
+<rect x="218" y="75" width="8" height="35" fill="#8B4513" rx="1"/>
+<rect x="214" y="108" width="16" height="4" fill="#8B4513" rx="1"/>
+<line x1="187" y1="105" x2="180" y2="140" stroke="#1565C0" stroke-width="1.5"/>
+<line x1="197" y1="105" x2="204" y2="140" stroke="#1565C0" stroke-width="1.5"/>
+<text x="192" y="155" font-family="Arial" font-size="7" fill="#88CCEE" text-anchor="middle">Строитель</text>
+<rect x="260" y="30" width="95" height="130" fill="#3a1a2a" rx="6" stroke="#ba4a8a" stroke-width="1"/>
+<circle cx="307" cy="65" r="15" fill="#FFB74D"/>
+<rect x="297" y="80" width="20" height="25" fill="#9C27B0" rx="2"/>
+<line x1="287" y1="90" x2="275" y2="95" stroke="#FFB74D" stroke-width="2"/>
+<line x1="317" y1="90" x2="330" y2="95" stroke="#FFB74D" stroke-width="2"/>
+<rect x="270" y="90" width="20" height="2" fill="#333" rx="1"/>
+<text x="275" y="89" font-family="Arial" font-size="5" fill="white">АБВ</text>
+<line x1="302" y1="105" x2="295" y2="140" stroke="#333" stroke-width="1.5"/>
+<line x1="312" y1="105" x2="319" y2="140" stroke="#333" stroke-width="1.5"/>
+<text x="307" y="155" font-family="Arial" font-size="7" fill="#88CCEE" text-anchor="middle">Учитель</text>
+<rect x="375" y="30" width="95" height="130" fill="#1a2a3a" rx="6" stroke="#4a6aba" stroke-width="1"/>
+<circle cx="422" cy="65" r="15" fill="#FFB74D"/>
+<rect x="412" y="80" width="20" height="25" fill="#2196F3" rx="2"/>
+<line x1="402" y1="90" x2="395" y2="100" stroke="#FFB74D" stroke-width="2"/>
+<line x1="432" y1="90" x2="440" y2="95" stroke="#FFB74D" stroke-width="2"/>
+<rect x="436" y="88" width="18" height="12" fill="#333" rx="2"/>
+<rect x="438" y="90" width="5" height="3" fill="#4CAF50" rx="0.5"/>
+<rect x="445" y="90" width="5" height="3" fill="#4CAF50" rx="0.5"/>
+<text x="448" y="97" font-family="monospace" font-size="4" fill="#4CAF50">&lt;/&gt;</text>
+<line x1="417" y1="105" x2="412" y2="140" stroke="#1565C0" stroke-width="1.5"/>
+<line x1="427" y1="105" x2="432" y2="140" stroke="#1565C0" stroke-width="1.5"/>
+<text x="422" y="155" font-family="Arial" font-size="7" fill="#88CCEE" text-anchor="middle">Программист</text>
+<rect x="80" y="190" width="340" height="120" fill="#0a1a2a" rx="8" stroke="#3a5a7a" stroke-width="0.8"/>
+<text x="250" y="215" font-family="Arial" font-size="10" fill="#AACCEE" text-anchor="middle" font-weight="bold">Трудовая деятельность</text>
+<line x1="120" y1="230" x2="380" y2="230" stroke="#3a5a7a" stroke-width="0.5"/>
+<text x="250" y="250" font-family="Arial" font-size="7" fill="#88AACC" text-anchor="middle">Осознанная деятельность человека</text>
+<text x="250" y="265" font-family="Arial" font-size="7" fill="#88AACC" text-anchor="middle">направленная на создание благ</text>
+<text x="250" y="280" font-family="Arial" font-size="7" fill="#88AACC" text-anchor="middle">и удовлетворение потребностей</text>
+<text x="250" y="342" font-family="Arial" font-size="9" fill="#88AACC" text-anchor="middle" opacity="0.5">Трудовая деятельность</text>
 </svg>

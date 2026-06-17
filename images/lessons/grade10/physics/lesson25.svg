@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E3F2FD"/><stop offset="100%" stop-color="#BBDEFB"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+<text x="250" y="30" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1565C0" text-anchor="middle">Динамика движения по окружности</text>
+<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Физика 10 класс — Урок 25</text>
+<line x1="30" y1="52" x2="470" y2="52" stroke="#1565C0" stroke-width="1.5" opacity="0.25"/>
+
+<g transform="translate(160,185)">
+<!-- Car on circular track -->
+<path d="M-60,40 A70,70 0 0,1 60,40" fill="none" stroke="#333" stroke-width="2"/>
+<!-- Car -->
+<rect x="-10" y="-15" width="25" height="12" rx="2" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+<text x="3" y="-5" font-family="Arial,sans-serif" font-size="5" fill="#1565C0" text-anchor="middle">m</text>
+<!-- Centripetal force -->
+<line x1="3" y1="0" x2="3" y2="30" stroke="#E53935" stroke-width="2"/>
+<polygon points="3,30 0,24 6,24" fill="#E53935"/>
+<text x="15" y="20" font-family="Arial,sans-serif" font-size="5" fill="#E53935">Fцс</text>
+<!-- Velocity -->
+<line x1="15" y1="-10" x2="40" y2="-15" stroke="#2E7D32" stroke-width="1.5"/>
+<polygon points="40,-15 34,-17 35,-11" fill="#2E7D32"/>
+<text x="35" y="-20" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32">v</text>
+<!-- Center -->
+<circle cx="0" cy="60" r="2" fill="#333"/>
+<text x="0" y="72" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">O</text>
+</g>
+<g transform="translate(400,150)">
+<rect x="-80" y="-60" width="160" height="120" rx="5" fill="white" stroke="#1565C0" stroke-width="1.5"/>
+<text x="0" y="-45" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle" font-weight="bold">Равнодействующая</text>
+<line x1="-65" y1="-38" x2="65" y2="-38" stroke="#1565C0" stroke-width="0.5"/>
+<text x="0" y="-22" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Fравн = m*aцс</text>
+<text x="0" y="-8" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Fравн = m*v^2/R</text>
+<line x1="-65" y1="2" x2="65" y2="2" stroke="#1565C0" stroke-width="0.5"/>
+<text x="0" y="17" font-family="Arial,sans-serif" font-size="5" fill="#E53935" text-anchor="middle">Конический маятник</text>
+<text x="0" y="32" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">Автомобиль на повороте</text>
+<text x="0" y="47" font-family="Arial,sans-serif" font-size="5" fill="#7B1FA2" text-anchor="middle">Самолёт в вираже</text>
+</g>
+
+<rect x="10" y="325" width="480" height="20" rx="4" fill="#1565C0" opacity="0.85"/>
+<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Физика 10 класс</text>
+</svg>

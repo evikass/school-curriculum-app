@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFEBEE"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C62828"/>
+      <stop offset="100%" stop-color="#C62828" opacity="0.7"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="2.5"/>
+  <text x="250" y="30" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#C62828" text-anchor="middle">Инерция. Первый закон Ньютона</text>
+  <text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Физика 10 класс — Урок 11</text>
+  <line x1="30" y1="54" x2="470" y2="54" stroke="#C62828" stroke-width="1.5" opacity="0.25"/>
+  <clipPath id="ill"><rect x="15" y="58" width="470" height="232" rx="6"/></clipPath>
+  <g clip-path="url(#ill)">
+    <rect x="15" y="58" width="470" height="232" fill="#FFEBEE" opacity="0.5"/>
+    <rect x="25" y="68" width="220" height="110" rx="5" fill="white" opacity="0.8" stroke="#C62828" stroke-width="1"/>
+    <text x="135" y="84" font-family="Arial,sans-serif" font-size="11" fill="#C62828" font-weight="bold" text-anchor="middle">Основные формулы</text>
+    <text x="35" y="100" font-family="Arial,sans-serif" font-size="10" fill="#444">Закон инерции</text>
+    <text x="35" y="116" font-family="Arial,sans-serif" font-size="10" fill="#444">Инерция — от лат. inertia (бездейст</text>
+    <text x="35" y="132" font-family="Arial,sans-serif" font-size="10" fill="#444">ИСО — система, где свободное тело д</text>
+    <rect x="260" y="68" width="210" height="110" rx="5" fill="white" opacity="0.8" stroke="#C62828" stroke-width="1"/>
+    <text x="365" y="84" font-family="Arial,sans-serif" font-size="11" fill="#C62828" font-weight="bold" text-anchor="middle">Ключевые понятия</text>
+    <text x="270" y="100" font-family="Arial,sans-serif" font-size="10" fill="#444">Тело стремится сохранить свою скоро</text>
+    <text x="270" y="116" font-family="Arial,sans-serif" font-size="10" fill="#444">Земля — приближённая ИСО</text>
+    <rect x="25" y="188" width="445" height="90" rx="5" fill="white" opacity="0.8" stroke="#C62828" stroke-width="1"/>
+    <text x="250" y="205" font-family="Arial,sans-serif" font-size="11" fill="#C62828" font-weight="bold" text-anchor="middle">Инерция. Первый закон Ньютона</text>
+    <text x="35" y="222" font-family="Arial,sans-serif" font-size="10" fill="#444">Что утверждает первый закон Ньютона?</text>
+    <text x="35" y="237" font-family="Arial,sans-serif" font-size="10" fill="#444">Что такое инерция?</text>
+    <text x="35" y="252" font-family="Arial,sans-serif" font-size="10" fill="#444">Какая система отсчёта называется инерциальной?</text>
+    <text x="35" y="267" font-family="Arial,sans-serif" font-size="10" fill="#444">Пример инерции в быту:</text>
+  </g>
+  <rect x="12" y="296" width="476" height="42" rx="5" fill="url(#panel)"/>
+  <text x="250" y="314" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Динамика</text>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="10" text-anchor="middle" fill="white" opacity="0.8">Урок 11</text>
+</svg>

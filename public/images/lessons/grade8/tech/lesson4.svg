@@ -1,37 +1,94 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
+    <linearGradient id="bgT4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#2a2a3e"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#263238"/>
-      <stop offset="100%" stop-color="#37474F"/>
+    <linearGradient id="metalT4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c0c0c0"/>
+      <stop offset="50%" stop-color="#909090"/>
+      <stop offset="100%" stop-color="#707070"/>
+    </linearGradient>
+    <linearGradient id="woodT4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4a574"/>
+      <stop offset="100%" stop-color="#b8834a"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#37474F" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#37474F" stroke-width="1" opacity="0.3"/>
-  <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#37474F" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#37474F" text-anchor="middle">Ручные инструменты для обработки древе...</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Технология - Урок 4</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#37474F" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#37474F" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA -->
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#ECEFF1"/><text x="250" y="130" font-family="Arial,sans-serif" font-size="20" fill="#37474F" text-anchor="middle" font-weight="bold">Ручные инструменты для обработки древе...</text><rect x="25" y="155" width="140" height="45" rx="5" fill="#E3F2FD" stroke="#37474F" stroke-width="1.5"/><text x="95" y="182" font-family="Arial" font-size="12" fill="#37474F" text-anchor="middle">Ручные инструменты</text><rect x="170" y="155" width="140" height="45" rx="5" fill="#FFF3E0" stroke="#263238" stroke-width="1.5"/><text x="240" y="182" font-family="Arial" font-size="12" fill="#263238" text-anchor="middle">Инструменты для разметки:</text><rect x="315" y="155" width="140" height="45" rx="5" fill="#FFFDE7" stroke="#F9A825" stroke-width="1.5"/><text x="385" y="182" font-family="Arial" font-size="12" fill="#F9A825" text-anchor="middle">Инструменты для пиления:</text><rect x="25" y="210" width="140" height="45" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/><text x="95" y="238" font-family="Arial" font-size="12" fill="#2E7D32" text-anchor="middle">Инструменты для строган...</text><rect x="170" y="210" width="140" height="45" rx="5" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="1.5"/><text x="240" y="238" font-family="Arial" font-size="12" fill="#6A1B9A" text-anchor="middle">Инструменты для долблен...</text><rect x="315" y="210" width="140" height="45" rx="5" fill="#FFEBEE" stroke="#E65100" stroke-width="1.5"/><text x="385" y="238" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">Инструменты для сборки:</text>
-  <polygon points="50,275 65,265 65,285" fill="#37474F" opacity="0.1"/>
+  <rect width="500" height="350" fill="url(#bgT4)"/>
+  <!-- Saw (пила) -->
+  <g transform="translate(20, 30)">
+    <rect x="0" y="0" width="220" height="140" rx="8" fill="#1e2a3a" stroke="#30363d" stroke-width="1"/>
+    <text x="110" y="18" fill="#e17055" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="bold">Ножовка</text>
+    <!-- Handle -->
+    <path d="M15,45 Q15,35 25,35 L55,35 Q65,35 65,45 L65,85 Q65,95 55,95 L45,95 Q45,105 35,105 L25,105 Q15,105 15,95 Z" fill="#8B4513" stroke="#5c3010" stroke-width="1.5"/>
+    <!-- Blade -->
+    <rect x="65" y="45" width="140" height="12" rx="1" fill="url(#metalT4)" stroke="#666" stroke-width="1"/>
+    <!-- Teeth -->
+    <path d="M65,57 L70,65 L75,57 L80,65 L85,57 L90,65 L95,57 L100,65 L105,57 L110,65 L115,57 L120,65 L125,57 L130,65 L135,57 L140,65 L145,57 L150,65 L155,57 L160,65 L165,57 L170,65 L175,57 L180,65 L185,57 L190,65 L195,57 L200,65 L205,57" fill="none" stroke="#888" stroke-width="1"/>
+    <!-- Wood being cut -->
+    <rect x="130" y="65" width="80" height="25" rx="2" fill="url(#woodT4)"/>
+    <line x1="165" y1="65" x2="165" y2="90" stroke="#8B6914" stroke-width="1" stroke-dasharray="2,1"/>
+    <!-- Sawdust -->
+    <circle cx="162" cy="92" r="1" fill="#c4935a" opacity="0.6"/>
+    <circle cx="168" cy="93" r="0.8" fill="#c4935a" opacity="0.5"/>
+    <circle cx="170" cy="91" r="1" fill="#c4935a" opacity="0.4"/>
+    <text x="110" y="115" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">Для продольного и</text>
+    <text x="110" y="127" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">поперечного пиления</text>
   </g>
-  <!-- Bottom panel -->
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Технология</text>
+  <!-- Plane (рубанок) -->
+  <g transform="translate(260, 30)">
+    <rect x="0" y="0" width="220" height="140" rx="8" fill="#1e2a3a" stroke="#30363d" stroke-width="1"/>
+    <text x="110" y="18" fill="#00b894" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="bold">Рубанок</text>
+    <!-- Body -->
+    <rect x="20" y="50" width="140" height="35" rx="4" fill="url(#woodT4)" stroke="#a07830" stroke-width="1.5"/>
+    <!-- Blade opening -->
+    <rect x="70" y="50" width="20" height="35" fill="#333"/>
+    <!-- Blade -->
+    <rect x="68" y="45" width="24" height="20" rx="2" fill="url(#metalT4)" stroke="#888" stroke-width="1"/>
+    <!-- Handle -->
+    <path d="M40,50 Q30,40 35,30 L50,30 Q55,30 55,40 L55,50" fill="#5c3010" stroke="#3a1e0a" stroke-width="1.5"/>
+    <!-- Adjustment knob -->
+    <circle cx="80" cy="42" r="6" fill="#888" stroke="#666" stroke-width="1"/>
+    <line x1="76" y1="42" x2="84" y2="42" stroke="#555" stroke-width="1"/>
+    <!-- Wood being planed -->
+    <rect x="20" y="88" width="140" height="20" rx="2" fill="url(#woodT4)"/>
+    <!-- Shavings -->
+    <path d="M85,88 Q90,78 95,82 Q100,86 95,76 Q90,66 95,70" fill="none" stroke="#d4a574" stroke-width="1.5" opacity="0.7"/>
+    <text x="110" y="125" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">Строгание поверхности</text>
+    <text x="110" y="137" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">Выравнивание деталей</text>
+  </g>
+  <!-- Chisel (стамеска) -->
+  <g transform="translate(20, 185)">
+    <rect x="0" y="0" width="220" height="140" rx="8" fill="#1e2a3a" stroke="#30363d" stroke-width="1"/>
+    <text x="110" y="18" fill="#fdcb6e" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="bold">Стамеска</text>
+    <!-- Handle -->
+    <rect x="70" y="30" width="25" height="55" rx="4" fill="#8B4513" stroke="#5c3010" stroke-width="1.5"/>
+    <!-- Ferrule -->
+    <rect x="68" y="82" width="29" height="8" rx="2" fill="#888" stroke="#666" stroke-width="1"/>
+    <!-- Blade -->
+    <path d="M72,90 L82,125 L92,90" fill="url(#metalT4)" stroke="#888" stroke-width="1"/>
+    <!-- Beveled edge -->
+    <path d="M76,110 L82,125 L88,110" fill="#aaa" stroke="#888" stroke-width="0.5"/>
+    <!-- Wood piece -->
+    <rect x="130" y="60" width="60" height="70" rx="2" fill="url(#woodT4)"/>
+    <!-- Carved groove -->
+    <path d="M130,80 Q140,75 150,80 Q160,75 170,80" fill="none" stroke="#a07830" stroke-width="1"/>
+    <!-- Mallet -->
+    <rect x="35" y="25" width="40" height="25" rx="4" fill="#5c3010" stroke="#3a1e0a" stroke-width="1.5"/>
+    <rect x="50" y="15" width="10" height="12" rx="2" fill="#8B4513"/>
+    <text x="110" y="125" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">Выдалбливание пазов</text>
+    <text x="110" y="137" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">и резьба по дереву</text>
+  </g>
+  <!-- Additional tools info -->
+  <g transform="translate(260, 185)">
+    <rect x="0" y="0" width="220" height="140" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+    <text x="110" y="18" fill="#6c5ce7" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="bold">Другие инструменты</text>
+    <text x="15" y="40" fill="#e17055" font-size="9" font-family="sans-serif">🔨 Киянка — удары без повреждений</text>
+    <text x="15" y="58" fill="#00b894" font-size="9" font-family="sans-serif">📐 Угольник — проверка углов 90°</text>
+    <text x="15" y="76" fill="#fdcb6e" font-size="9" font-family="sans-serif">📏 Линейка — разметка размеров</text>
+    <text x="15" y="94" fill="#6c5ce7" font-size="9" font-family="sans-serif">✏️ Карандаш — разметка на дереве</text>
+    <text x="15" y="112" fill="#79c0ff" font-size="9" font-family="sans-serif">🔧 Коловорот — сверление отверстий</text>
+    <text x="15" y="130" fill="#aaa" font-size="9" font-family="sans-serif">🪚 Лучковая пила — криволинейный рез</text>
+  </g>
+  <text x="250" y="340" fill="#aaa" font-size="9" opacity="0.5" font-family="sans-serif" text-anchor="middle">Ручные инструменты для древесины</text>
 </svg>

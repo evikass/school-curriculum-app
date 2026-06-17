@@ -9,34 +9,77 @@
       <stop offset="100%" stop-color="#00695C"/>
     </linearGradient>
   </defs>
+  <!-- Background -->
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#26A69A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#00695C" opacity="0.12"/>
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#26A69A" text-anchor="middle">Портфолио</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Карьера — Урок 7</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#26A69A" stroke-width="2" opacity="0.25"/>
-  <rect x="15" y="72" width="235" height="225" rx="4" fill="#26A69A" opacity="0.05"/>
-  <text x="22" y="88" font-family="Arial,sans-serif" font-size="10" fill="#00695C" text-anchor="start" font-weight="bold">Портфолио —</text>
-  <text x="85" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">витрина ваших работ</text>
-  <text x="22" y="108" font-family="Arial,sans-serif" font-size="10" fill="#00695C" text-anchor="start" font-weight="bold">Кому нужно:</text>
-  <text x="85" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Дизайнерам — примеры макетов</text>
-  <text x="32" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Разработчикам — GitHub, проекты</text>
-  <text x="32" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Писателям — статьи, тексты</text>
-  <text x="32" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Фотографам — лучшие снимки</text>
-  <rect x="255" y="72" width="230" height="225" rx="4" fill="#26A69A" opacity="0.05"/>
-  <text x="262" y="88" font-family="Arial,sans-serif" font-size="10" fill="#00695C" text-anchor="start" font-weight="bold">Форматы:</text>
-  <text x="325" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Сайт-портфолио (личный сайт)</text>
-  <text x="272" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Behance, Dribbble — для дизайнеров</text>
-  <text x="272" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">GitHub — для программистов</text>
-  <text x="262" y="148" font-family="Arial,sans-serif" font-size="10" fill="#00695C" text-anchor="start" font-weight="bold">Правила:</text>
-  <text x="325" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Качество важнее количества</text>
-  <text x="272" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">5-10 лучших работ лучше 50 средних</text>
-  <rect x="15" y="280" width="235" height="18" rx="4" fill="#26A69A" opacity="0.06"/>
-  <text x="132" y="293" font-family="Arial,sans-serif" font-size="9" fill="#00695C" text-anchor="middle" font-weight="bold">Портфолио показывает, что вы умеете</text>
-  <rect x="255" y="280" width="230" height="18" rx="4" fill="#26A69A" opacity="0.06"/>
-  <text x="370" y="293" font-family="Arial,sans-serif" font-size="9" fill="#00695C" text-anchor="middle" font-weight="bold">Обновляйте регулярно!</text>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Карьера · Портфолио</text>
+  <!-- Header bar -->
+  <rect x="8" y="8" width="484" height="52" rx="6" fill="url(#hdr)" opacity="0.9"/>
+  <text x="250" y="34" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Портфолио</text>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="10" fill="rgba(255,255,255,0.8)" text-anchor="middle">Карьерное консультирование — Урок 7</text>
+  <!-- Decorative elements -->
+  <circle cx="460" cy="25" r="12" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="440" cy="18" r="6" fill="rgba(255,255,255,0.1)"/>
+  <!-- Content area -->
+
+  <!-- Portfolio layout mockup -->
+  <g transform="translate(25,75)">
+    <rect x="0" y="0" width="450" height="245" rx="6" fill="white" stroke="#ddd" stroke-width="1"/>
+    <text x="225" y="18" font-family="Arial,sans-serif" font-size="11" fill="{C_DARK}" text-anchor="middle" font-weight="bold">Структура портфолио</text>
+    <!-- 5 element cards -->
+    <rect x="10" y="28" width="85" height="65" rx="4" fill="#4CAF50" opacity="0.12"/>
+    <rect x="10" y="28" width="85" height="18" rx="4" fill="#4CAF50" opacity="0.8"/>
+    <text x="52" y="40" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">Работы</text>
+    <text x="52" y="60" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Дизайны, код,</text>
+    <text x="52" y="72" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">тексты</text>
+    <text x="52" y="86" font-family="Arial,sans-serif" font-size="12" text-anchor="middle">🎨</text>
+    
+    <rect x="103" y="28" width="85" height="65" rx="4" fill="#2196F3" opacity="0.12"/>
+    <rect x="103" y="28" width="85" height="18" rx="4" fill="#2196F3" opacity="0.8"/>
+    <text x="145" y="40" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">Кейсы</text>
+    <text x="145" y="60" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Проблема →</text>
+    <text x="145" y="72" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Решение → Результат</text>
+    
+    <rect x="196" y="28" width="85" height="65" rx="4" fill="#FF9800" opacity="0.12"/>
+    <rect x="196" y="28" width="85" height="18" rx="4" fill="#FF9800" opacity="0.8"/>
+    <text x="238" y="40" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">Сертификаты</text>
+    <text x="238" y="60" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Курсы, дипломы,</text>
+    <text x="238" y="72" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">награды</text>
+    
+    <rect x="289" y="28" width="85" height="65" rx="4" fill="#9C27B0" opacity="0.12"/>
+    <rect x="289" y="28" width="85" height="18" rx="4" fill="#9C27B0" opacity="0.8"/>
+    <text x="331" y="40" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">Рекомендации</text>
+    <text x="331" y="60" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Отзывы клиентов</text>
+    <text x="331" y="72" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">и коллег</text>
+    
+    <rect x="382" y="28" width="58" height="65" rx="4" fill="#E91E63" opacity="0.12"/>
+    <rect x="382" y="28" width="58" height="18" rx="4" fill="#E91E63" opacity="0.8"/>
+    <text x="411" y="40" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">Био</text>
+    <text x="411" y="60" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">О себе,</text>
+    <text x="411" y="72" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">опыт</text>
+    
+    <!-- Platforms row -->
+    <text x="225" y="115" font-family="Arial,sans-serif" font-size="9" fill="{C_DARK}" text-anchor="middle" font-weight="bold">Платформы</text>
+    <rect x="10" y="122" width="135" height="40" rx="4" fill="#24292e" opacity="0.08"/>
+    <text x="77" y="138" font-family="Arial,sans-serif" font-size="9" fill="#24292e" text-anchor="middle" font-weight="bold">GitHub</text>
+    <text x="77" y="152" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">100 млн+ репозиториев</text>
+    <rect x="155" y="122" width="135" height="40" rx="4" fill="#1769FF" opacity="0.08"/>
+    <text x="222" y="138" font-family="Arial,sans-serif" font-size="9" fill="#1769FF" text-anchor="middle" font-weight="bold">Behance</text>
+    <text x="222" y="152" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">10 млн+ проектов</text>
+    <rect x="300" y="122" width="140" height="40" rx="4" fill="#0077B5" opacity="0.08"/>
+    <text x="370" y="138" font-family="Arial,sans-serif" font-size="9" fill="#0077B5" text-anchor="middle" font-weight="bold">LinkedIn</text>
+    <text x="370" y="152" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">900 млн+ пользователей</text>
+    
+    <!-- Key stats -->
+    <rect x="10" y="175" width="210" height="55" rx="4" fill="{C_PRI}" opacity="0.06"/>
+    <text x="115" y="192" font-family="Arial,sans-serif" font-size="18" fill="{C_PRI}" text-anchor="middle" font-weight="bold">56%</text>
+    <text x="115" y="206" font-family="Arial,sans-serif" font-size="8" fill="#666" text-anchor="middle">работодателей считают портфолио</text>
+    <text x="115" y="218" font-family="Arial,sans-serif" font-size="8" fill="#666" text-anchor="middle">важнее резюме для дизайнеров</text>
+    <rect x="230" y="175" width="210" height="55" rx="4" fill="#FF9800" opacity="0.06"/>
+    <text x="335" y="192" font-family="Arial,sans-serif" font-size="18" fill="#FF9800" text-anchor="middle" font-weight="bold">3-4 мин</text>
+    <text x="335" y="206" font-family="Arial,sans-serif" font-size="8" fill="#666" text-anchor="middle">среднее время просмотра</text>
+    <text x="335" y="218" font-family="Arial,sans-serif" font-size="8" fill="#666" text-anchor="middle">фокус на первых 2-3 работах</text>
+  </g>
+  <rect x="25" y="328" width="450" height="14" rx="3" fill="{C_PRI}" opacity="0.06"/>
+  <text x="250" y="339" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">Портфолио обязательно для: дизайнеров • программистов • маркетологов • журналистов • архитекторов</text>
+
 </svg>

@@ -1,69 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF9C4"/><stop offset="100%" stop-color="#FFF9C4"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#F57F17" stroke-width="3"/>
-<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#F57F17" stroke-width="1" opacity="0.3"/>
-<polygon points="10,10 30,10 10,30" fill="#F57F17" opacity="0.08"/>
-<polygon points="490,10 470,10 490,30" fill="#FBC02D" opacity="0.08"/>
-<polygon points="10,340 30,340 10,320" fill="#FFEB3B" opacity="0.08"/>
-<polygon points="490,340 470,340 490,320" fill="#FFF176" opacity="0.08"/>
-<circle cx="70" cy="15" r="4" fill="#F57F17" opacity="0.1"/>
-<circle cx="82" cy="15" r="4" fill="#FBC02D" opacity="0.1"/>
-<circle cx="94" cy="15" r="4" fill="#FFEB3B" opacity="0.1"/>
-<circle cx="406" cy="15" r="4" fill="#F57F17" opacity="0.1"/>
-<circle cx="418" cy="15" r="4" fill="#FBC02D" opacity="0.1"/>
-<circle cx="430" cy="15" r="4" fill="#FFEB3B" opacity="0.1"/>
-<text x="250" y="50" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#F57F17" text-anchor="middle">Правила дорожного движения для велосипедист...</text>
-<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">ОБЖ - Урок 8</text>
-<line x1="30" y1="78" x2="470" y2="78" stroke="#F57F17" stroke-width="2" opacity="0.25"/>
-<rect x="30" y="75" width="60" height="6" fill="#F57F17" opacity="0.15" rx="1"/>
-<rect x="410" y="75" width="60" height="6" fill="#FBC02D" opacity="0.12" rx="1"/>
-
-  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#F57F17" stroke-width="1.5"/>
-  <text x="135" y="110" font-family="Arial,sans-serif" font-size="11" fill="#F57F17" text-anchor="middle" font-weight="bold">Правила дорожного движения для велосипед</text>
-  <!-- First aid cross -->
-  <rect x="75" y="130" width="120" height="70" rx="5" fill="white" stroke="#F57F17" stroke-width="2"/>
-  <rect x="125" y="140" width="20" height="50" rx="3" fill="#F57F17"/>
-  <rect x="100" y="150" width="70" height="20" rx="3" fill="#F57F17"/>
-  <text x="135" y="220" font-family="Arial,sans-serif" font-size="8" fill="#F57F17" text-anchor="middle">первая помощь</text>
-  <!-- Warning signs -->
-  <polygon points="80,250 65,280 95,280" fill="#FFF9C4" stroke="#F9A825" stroke-width="2"/>
-  <text x="80" y="275" font-family="Arial,sans-serif" font-size="12" fill="#F9A825" text-anchor="middle" font-weight="bold">!</text>
-  <polygon points="135,250 120,280 150,280" fill="#FFF9C4" stroke="#F9A825" stroke-width="2"/>
-  <text x="135" y="275" font-family="Arial,sans-serif" font-size="12" fill="#F9A825" text-anchor="middle" font-weight="bold">!</text>
-  <polygon points="190,250 175,280 205,280" fill="#FFF9C4" stroke="#F9A825" stroke-width="2"/>
-  <text x="190" y="275" font-family="Arial,sans-serif" font-size="12" fill="#F9A825" text-anchor="middle" font-weight="bold">!</text>
-
-  <rect x="260" y="90" width="215" height="200" rx="6" fill="white" stroke="#F9A825" stroke-width="1.5"/>
-  <text x="367" y="115" font-family="Arial,sans-serif" font-size="12" fill="#F9A825" text-anchor="middle" font-weight="bold">Безопасность</text>
-  <!-- Fire -->
-  <rect x="280" y="130" width="80" height="60" rx="4" fill="#FFEBEE" stroke="#F57F17" stroke-width="1"/>
-  <path d="M310,175 Q300,160 310,145 Q315,135 320,145 Q330,160 320,175 Z" fill="#FF5722" opacity="0.7"/>
-  <path d="M315,175 Q308,165 315,152 Q318,146 322,155 Q328,165 320,175 Z" fill="#FF9800" opacity="0.8"/>
-  <text x="320" y="200" font-family="Arial,sans-serif" font-size="7" fill="#F57F17" text-anchor="middle">пожарная безоп.</text>
-  <!-- Traffic light -->
-  <rect x="390" y="125" width="20" height="55" rx="4" fill="#333"/>
-  <circle cx="400" cy="138" r="6" fill="#F57F17"/>
-  <circle cx="400" cy="153" r="6" fill="#F9A825"/>
-  <circle cx="400" cy="168" r="6" fill="#2E7D32"/>
-  <text x="400" y="200" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">ПДД</text>
-  <!-- Road -->
-  <rect x="280" y="215" width="165" height="25" rx="2" fill="#78909C"/>
-  <line x1="290" y1="227" x2="305" y2="227" stroke="white" stroke-width="2"/>
-  <line x1="315" y1="227" x2="330" y2="227" stroke="white" stroke-width="2"/>
-  <line x1="340" y1="227" x2="355" y2="227" stroke="white" stroke-width="2"/>
-  <line x1="365" y1="227" x2="380" y2="227" stroke="white" stroke-width="2"/>
-  <line x1="390" y1="227" x2="405" y2="227" stroke="white" stroke-width="2"/>
-  <line x1="415" y1="227" x2="430" y2="227" stroke="white" stroke-width="2"/>
-  <!-- Car -->
-  <rect x="300" y="245" width="40" height="18" rx="5" fill="#42A5F5" stroke="#1565C0" stroke-width="1"/>
-  <circle cx="310" cy="265" r="4" fill="#333"/><circle cx="330" cy="265" r="4" fill="#333"/>
-  <!-- Emergency number -->
-  <rect x="280" y="255" width="50" height="25" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
-  <text x="305" y="272" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" text-anchor="middle" font-weight="bold">112</text>
-  <text x="367" y="285" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">экстренные службы</text>
-<rect x="15" y="310" width="470" height="30" rx="4" fill="#F57F17" opacity="0.85"/>
-<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">ОБЖ</text>
-  <path d="M455,105 L470,112 L470,130 L455,140 L440,130 L440,112 Z" fill="none" stroke="#F57F17" stroke-width="1" opacity="0.12"/>
-  <text x="455" y="128" font-family="Arial" font-size="14" fill="#F57F17" opacity="0.1" text-anchor="middle">!</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="350" fill="#0d1218"/>
+  <!-- Fracture with splint -->
+  <rect x="30" y="30" width="220" height="150" rx="6" fill="#1a1a2a" stroke="#42a5f5" stroke-width="1.5"/>
+  <text x="50" y="50" font-size="10" fill="#42a5f5" font-weight="bold">Перелом — шина</text>
+  <!-- Arm with fracture -->
+  <rect x="60" y="70" width="150" height="30" rx="15" fill="#ffcc80" stroke="#e0a050" stroke-width="1"/>
+  <!-- Fracture point (bump) -->
+  <circle cx="140" cy="82" r="8" fill="#e53935" opacity="0.4"/>
+  <!-- Splint (two sticks alongside arm) -->
+  <rect x="90" y="62" width="80" height="6" rx="2" fill="#8d6e63" stroke="#6d4c41" stroke-width="1"/>
+  <rect x="90" y="102" width="80" height="6" rx="2" fill="#8d6e63" stroke="#6d4c41" stroke-width="1"/>
+  <!-- Bandage over splint -->
+  <rect x="85" y="65" width="90" height="40" rx="4" fill="#eceff1" opacity="0.3" stroke="#cfd8dc" stroke-width="0.5"/>
+  <line x1="100" y1="65" x2="100" y2="105" stroke="#b0bec5" stroke-width="0.5" opacity="0.3"/>
+  <line x1="120" y1="65" x2="120" y2="105" stroke="#b0bec5" stroke-width="0.5" opacity="0.3"/>
+  <line x1="140" y1="65" x2="140" y2="105" stroke="#b0bec5" stroke-width="0.5" opacity="0.3"/>
+  <line x1="160" y1="65" x2="160" y2="105" stroke="#b0bec5" stroke-width="0.5" opacity="0.3"/>
+  <!-- Sling -->
+  <path d="M80,85 L50,60 L50,120 L80,85" fill="#42a5f5" opacity="0.15" stroke="#42a5f5" stroke-width="1"/>
+  <text x="60" y="125" font-size="7" fill="#90caf9">Шина + косынка</text>
+  <text x="60" y="140" font-size="7" fill="#b0bec5">Обездвижь конечность!</text>
+  <!-- Burn cooling -->
+  <rect x="270" y="30" width="210" height="150" rx="6" fill="#1a2a1a" stroke="#ff5722" stroke-width="1.5"/>
+  <text x="290" y="50" font-size="10" fill="#ff5722" font-weight="bold">Ожог — охлаждение</text>
+  <!-- Hand/arm under water -->
+  <rect x="310" y="70" width="120" height="60" rx="10" fill="#1565c0" opacity="0.3" stroke="#42a5f5" stroke-width="1.5"/>
+  <!-- Water level -->
+  <path d="M310,80 Q340,75 370,80 Q400,85 430,80" fill="none" stroke="#42a5f5" stroke-width="1" opacity="0.5"/>
+  <!-- Arm under water -->
+  <rect x="330" y="85" width="80" height="25" rx="12" fill="#ffcc80" stroke="#e0a050" stroke-width="1"/>
+  <!-- Burn mark on arm -->
+  <ellipse cx="370" cy="95" rx="10" ry="8" fill="#e53935" opacity="0.5"/>
+  <!-- Water tap -->
+  <rect x="350" y="55" width="20" height="15" rx="3" fill="#546e7a"/>
+  <path d="M360,70 L360,80" stroke="#42a5f5" stroke-width="2"/>
+  <!-- Water drops -->
+  <circle cx="358" cy="82" r="2" fill="#42a5f5" opacity="0.5"/>
+  <circle cx="362" cy="86" r="1.5" fill="#42a5f5" opacity="0.4"/>
+  <text x="295" y="145" font-size="7" fill="#a5d6a7">Прохладная вода 10-15 мин</text>
+  <text x="295" y="158" font-size="7" fill="#ef9a9a">НЕ лей лёд! НЕ мажь маслом!</text>
+  <!-- DO NOT pop blisters -->
+  <rect x="30" y="200" width="220" height="110" rx="6" fill="#1a1210" stroke="#ef5350" stroke-width="1.5"/>
+  <text x="45" y="220" font-size="10" fill="#ef5350" font-weight="bold">❌ НЕ прокалывай пузыри!</text>
+  <!-- Blister illustration -->
+  <rect x="60" y="235" width="80" height="30" rx="15" fill="#ffcc80" stroke="#e0a050" stroke-width="1"/>
+  <!-- Blister -->
+  <ellipse cx="100" cy="248" rx="15" ry="10" fill="#fff8e1" stroke="#ffe0b2" stroke-width="1" opacity="0.8"/>
+  <ellipse cx="100" cy="246" rx="10" ry="6" fill="#eceff1" opacity="0.5"/>
+  <!-- Red X over blister -->
+  <line x1="88" y1="238" x2="112" y2="258" stroke="#ef5350" stroke-width="2.5"/>
+  <line x1="112" y1="238" x2="88" y2="258" stroke="#ef5350" stroke-width="2.5"/>
+  <text x="50" y="280" font-size="7" fill="#ffcdd2">Пузырь защищает рану</text>
+  <text x="50" y="295" font-size="7" fill="#ffcdd2">от инфекции!</text>
+  <!-- Steps summary -->
+  <rect x="270" y="200" width="210" height="110" rx="6" fill="#1a1a2a" stroke="#546e7a" stroke-width="1"/>
+  <text x="285" y="220" font-size="9" fill="#66bb6a" font-weight="bold">Первая помощь:</text>
+  <text x="285" y="238" font-size="8" fill="#c8e6c9">🔵 Перелом: шина, обездвижить</text>
+  <text x="285" y="255" font-size="8" fill="#c8e6c9">🔴 Ожог: охладить водой</text>
+  <text x="285" y="272" font-size="8" fill="#ef5350">❌ НЕ прокалывать пузыри</text>
+  <text x="285" y="289" font-size="8" fill="#ef5350">❌ НЕ мазать маслом/кремом</text>
+  <text x="285" y="306" font-size="8" fill="#ff9800">📞 Вызови 103!</text>
+  <text x="140" y="340" font-size="9" fill="#fff" opacity="0.5">Первая помощь при переломах и ожогах</text>
 </svg>

@@ -1,82 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <linearGradient id="tableGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#A5D6A7"/>
-      <stop offset="100%" stop-color="#66BB6A"/>
-    </linearGradient>
-    <filter id="shadow2" x="-5%" y="-5%" width="110%" height="110%">
-      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#00000033"/>
-    </filter>
-  </defs>
-  <!-- Background -->
-  <rect width="500" height="350" rx="12" fill="#E8F5E9"/>
-  <rect x="0" y="0" width="500" height="52" rx="12" fill="#388E3C"/>
-  <rect x="0" y="20" width="500" height="32" fill="#388E3C"/>
-  <!-- Header -->
-  <text x="250" y="35" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="white">Урок 2: Периодический закон</text>
-  <!-- Mendeleev portrait area -->
-  <rect x="15" y="62" width="160" height="70" rx="8" fill="white" opacity="0.9" filter="url(#shadow2)"/>
-  <text x="95" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#388E3C">Д.И. Менделеев</text>
-  <text x="95" y="96" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#555">1869 г.</text>
-  <text x="95" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#666">Периодический закон</text>
-  <text x="95" y="124" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#388E3C" font-style="italic">Свойства зависят от заряда ядра</text>
-  <!-- Modern formulation box -->
-  <rect x="185" y="62" width="300" height="70" rx="8" fill="white" opacity="0.9" filter="url(#shadow2)"/>
-  <text x="335" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#388E3C">Современная формулировка</text>
-  <line x1="195" y1="86" x2="475" y2="86" stroke="#A5D6A7" stroke-width="1"/>
-  <text x="335" y="103" text-anchor="middle" font-family="Arial,sans-serif" font-size="9.5" fill="#333">Свойства химических элементов</text>
-  <text x="335" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="9.5" fill="#333">находятся в периодической зависимости</text>
-  <text x="335" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#2E7D32">от зарядов их атомных ядер</text>
-  <!-- Mini element card example -->
-  <rect x="15" y="138" width="80" height="62" rx="4" fill="white" stroke="#66BB6A" stroke-width="1.5" filter="url(#shadow2)"/>
-  <text x="55" y="153" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#555">12</text>
-  <text x="55" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#388E3C">Mg</text>
-  <text x="55" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#555">магний</text>
-  <text x="55" y="196" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#555">24,305</text>
-  <!-- Element card legend -->
-  <rect x="105" y="138" width="105" height="62" rx="4" fill="white" opacity="0.85" filter="url(#shadow2)"/>
-  <text x="110" y="153" font-family="Arial,sans-serif" font-size="8" fill="#555">12 — порядковый №</text>
-  <text x="110" y="165" font-family="Arial,sans-serif" font-size="8" fill="#555">Mg — символ</text>
-  <text x="110" y="177" font-family="Arial,sans-serif" font-size="8" fill="#555">3 период, IIA группа</text>
-  <text x="110" y="189" font-family="Arial,sans-serif" font-size="8" fill="#555">24,305 — Ar (отн. масса)</text>
-  <text x="110" y="197" font-family="Arial,sans-serif" font-size="7" fill="#388E3C" font-style="italic">Z = 12 (заряд ядра)</text>
-  <!-- Periods section -->
-  <g transform="translate(220,138)">
-    <rect width="265" height="62" rx="6" fill="white" opacity="0.85" filter="url(#shadow2)"/>
-    <text x="132" y="14" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#388E3C">7 периодов (горизонтальные ряды)</text>
-    <rect x="5" y="20" width="125" height="14" rx="2" fill="#C8E6C9"/>
-    <text x="67" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" fill="#388E3C">1-3: малые (2,8,8 эл.)</text>
-    <rect x="135" y="20" width="125" height="14" rx="2" fill="#81C784"/>
-    <text x="197" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" fill="white">4-7: большие (18,18,32,32)</text>
-    <text x="132" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#555">Номер периода = число электронных слоёв</text>
-    <text x="132" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#388E3C" font-style="italic">18 групп — вертикальные столбцы</text>
-  </g>
-  <!-- Groups info -->
-  <rect x="15" y="208" width="470" height="28" rx="6" fill="#66BB6A" opacity="0.15"/>
-  <text x="250" y="226" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#388E3C">Номер группы = число валентных электронов на внешнем уровне</text>
-  <!-- Left: trends in period -->
-  <rect x="15" y="244" width="230" height="98" rx="8" fill="white" opacity="0.9" filter="url(#shadow2)"/>
-  <text x="130" y="262" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#388E3C">В периоде (→ слева направо)</text>
-  <line x1="25" y1="268" x2="235" y2="268" stroke="#A5D6A7" stroke-width="1"/>
-  <text x="25" y="282" font-family="Arial,sans-serif" font-size="9" fill="#333">• Заряд ядра ↑ увеличивается</text>
-  <text x="25" y="294" font-family="Arial,sans-serif" font-size="9" fill="#333">• Электронных слоёв — постоянно</text>
-  <text x="25" y="306" font-family="Arial,sans-serif" font-size="9" fill="#333">• Валентных электронов ↑</text>
-  <text x="25" y="318" font-family="Arial,sans-serif" font-size="9" fill="#333">• Радиус атома ↓ уменьшается</text>
-  <text x="25" y="330" font-family="Arial,sans-serif" font-size="9" fill="#C62828">• Металлические св-ва ↓ ослабевают</text>
-  <text x="25" y="340" font-family="Arial,sans-serif" font-size="9" fill="#1565C0">• Неметаллические ↑ усиливаются</text>
-  <!-- Right: trends in group -->
-  <rect x="255" y="244" width="230" height="98" rx="8" fill="white" opacity="0.9" filter="url(#shadow2)"/>
-  <text x="370" y="262" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#388E3C">В группе (↓ сверху вниз)</text>
-  <line x1="265" y1="268" x2="475" y2="268" stroke="#A5D6A7" stroke-width="1"/>
-  <text x="265" y="282" font-family="Arial,sans-serif" font-size="9" fill="#333">• Заряд ядра ↑ увеличивается</text>
-  <text x="265" y="294" font-family="Arial,sans-serif" font-size="9" fill="#333">• Электронных слоёв ↑ увеличивается</text>
-  <text x="265" y="306" font-family="Arial,sans-serif" font-size="9" fill="#333">• Радиус атома ↑ увеличивается</text>
-  <text x="265" y="318" font-family="Arial,sans-serif" font-size="9" fill="#333">• Валентных электронов — постоянно</text>
-  <text x="265" y="330" font-family="Arial,sans-serif" font-size="9" fill="#C62828">• Металлические св-ва ↑ усиливаются</text>
-  <text x="265" y="340" font-family="Arial,sans-serif" font-size="9" fill="#1565C0">• Неметаллические ↓ ослабевают</text>
-  <!-- Example comparison -->
-  <rect x="15" y="244" width="0" height="0" fill="none"/>
-  <!-- Na vs K example in group -->
-  <text x="25" y="344" font-family="Arial,sans-serif" font-size="7" fill="#388E3C" font-style="italic">Пример: Na (Z=11) → K (Z=19): K более металл.</text>
-  <text x="265" y="344" font-family="Arial,sans-serif" font-size="7" fill="#388E3C" font-style="italic">Пример: F (Z=9) → Cl (Z=17): F более неметалл.</text>
+  <rect width="500" height="350" fill="#0f0f1a"/>
+  <!-- Periodic table simplified -->
+  <!-- Row 1 -->
+  <rect x="30" y="30" width="30" height="25" rx="2" fill="#ef4444" fill-opacity="0.3" stroke="#ef4444" stroke-width="1"/>
+  <text x="45" y="47" fill="#ffffff" font-size="8" font-family="sans-serif" text-anchor="middle">H</text>
+  <rect x="420" y="30" width="30" height="25" rx="2" fill="#9ca3af" fill-opacity="0.3" stroke="#9ca3af" stroke-width="1"/>
+  <text x="435" y="47" fill="#ffffff" font-size="8" font-family="sans-serif" text-anchor="middle">He</text>
+  <!-- Row 2 -->
+  <rect x="30" y="60" width="30" height="25" rx="2" fill="#ef4444" fill-opacity="0.3" stroke="#ef4444" stroke-width="1"/>
+  <text x="45" y="77" fill="#ffffff" font-size="8" font-family="sans-serif" text-anchor="middle">Li</text>
+  <rect x="60" y="60" width="30" height="25" rx="2" fill="#22c55e" fill-opacity="0.3" stroke="#22c55e" stroke-width="1"/>
+  <text x="75" y="77" fill="#ffffff" font-size="8" font-family="sans-serif" text-anchor="middle">Be</text>
+  <rect x="180" y="60" width="30" height="25" rx="2" fill="#3b82f6" fill-opacity="0.3" stroke="#3b82f6" stroke-width="1"/>
+  <text x="195" y="77" fill="#ffffff" font-size="8" font-family="sans-serif" text-anchor="middle">B</text>
+  <rect x="210" y="60" width="30" height="25" rx="2" fill="#3b82f6" fill-opacity="0.3" stroke="#3b82f6" stroke-width="1"/>
+  <text x="225" y="77" fill="#ffffff" font-size="8" font-family="sans-serif" text-anchor="middle">C</text>
+  <rect x="240" y="60" width="30" height="25" rx="2" fill="#3b82f6" fill-opacity="0.3" stroke="#3b82f6" stroke-width="1"/>
+  <text x="255" y="77" fill="#ffffff" font-size="8" font-family="sans-serif" text-anchor="middle">N</text>
+  <rect x="270" y="60" width="30" height="25" rx="2" fill="#3b82f6" fill-opacity="0.3" stroke="#3b82f6" stroke-width="1"/>
+  <text x="285" y="77" fill="#ffffff" font-size="8" font-family="sans-serif" text-anchor="middle">O</text>
+  <rect x="300" y="60" width="30" height="25" rx="2" fill="#3b82f6" fill-opacity="0.3" stroke="#3b82f6" stroke-width="1"/>
+  <text x="315" y="77" fill="#ffffff" font-size="8" font-family="sans-serif" text-anchor="middle">F</text>
+  <rect x="420" y="60" width="30" height="25" rx="2" fill="#9ca3af" fill-opacity="0.3" stroke="#9ca3af" stroke-width="1"/>
+  <text x="435" y="77" fill="#ffffff" font-size="8" font-family="sans-serif" text-anchor="middle">Ne</text>
+  <!-- Arrow showing properties change in period -->
+  <line x1="35" y1="100" x2="330" y2="100" stroke="#f59e0b" stroke-width="2"/>
+  <polygon points="330,96 340,100 330,104" fill="#f59e0b"/>
+  <text x="180" y="115" fill="#f59e0b" font-size="9" font-family="sans-serif" text-anchor="middle">Металлические ↓ Неметаллические ↑</text>
+  <!-- Arrow in group -->
+  <line x1="48" y1="90" x2="48" y2="200" stroke="#22d3ee" stroke-width="2"/>
+  <polygon points="44,200 48,210 52,200" fill="#22d3ee"/>
+  <text x="20" y="160" fill="#22d3ee" font-size="8" font-family="sans-serif" transform="rotate(-90,20,160)">Металлические ↑</text>
+  <!-- Trend diagrams -->
+  <rect x="60" y="130" width="180" height="80" rx="6" fill="#1a1a2e" stroke="#6366f1" stroke-width="1"/>
+  <text x="150" y="150" fill="#6366f1" font-size="10" font-family="sans-serif" text-anchor="middle">В периоде (→):</text>
+  <text x="150" y="165" fill="#ef4444" font-size="9" font-family="sans-serif" text-anchor="middle">Заряд ядра ↑</text>
+  <text x="150" y="178" fill="#3b82f6" font-size="9" font-family="sans-serif" text-anchor="middle">Радиус атома ↓</text>
+  <text x="150" y="195" fill="#22c55e" font-size="9" font-family="sans-serif" text-anchor="middle">Неметаллические ↑</text>
+  <rect x="260" y="130" width="180" height="80" rx="6" fill="#1a1a2e" stroke="#f59e0b" stroke-width="1"/>
+  <text x="350" y="150" fill="#f59e0b" font-size="10" font-family="sans-serif" text-anchor="middle">В группе (↓):</text>
+  <text x="350" y="165" fill="#ef4444" font-size="9" font-family="sans-serif" text-anchor="middle">Число слоёв ↑</text>
+  <text x="350" y="178" fill="#3b82f6" font-size="9" font-family="sans-serif" text-anchor="middle">Радиус атома ↑</text>
+  <text x="350" y="195" fill="#22c55e" font-size="9" font-family="sans-serif" text-anchor="middle">Металлические ↑</text>
+  <!-- Footer -->
+  <text x="250" y="240" fill="#9ca3af" font-size="9" font-family="sans-serif" text-anchor="middle">Менделеев, 1869 г. — свойства зависят от заряда ядра</text>
+  <text x="250" y="345" fill="#ffffff" font-size="9" opacity="0.5" text-anchor="middle" font-family="sans-serif">Периодический закон и строение атома</text>
 </svg>

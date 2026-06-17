@@ -1,106 +1,61 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="hdr4" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#C62828;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#EF5350;stop-opacity:1"/>
+    <linearGradient id="bgs4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F44336;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#EF9A9A;stop-opacity:0.06"/>
     </linearGradient>
-    <linearGradient id="bg4" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#FFEBEE;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#FFCDD2;stop-opacity:1"/>
-    </linearGradient>
-    <linearGradient id="card4" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.85"/>
-      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0.65"/>
-    </linearGradient>
-    <filter id="sh4" x="-3%" y="-3%" width="106%" height="112%">
-      <feDropShadow dx="1" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.12"/>
-    </filter>
-    <filter id="glow4" x="-10%" y="-10%" width="120%" height="120%">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
   </defs>
-<rect width="500" height="350" fill="url(#bg4)"/>
-<circle cx="0" cy="0" r="60" fill="#EF5350" opacity="0.04"/>
-<circle cx="500" cy="350" r="80" fill="#EF5350" opacity="0.04"/>
-<circle cx="500" cy="0" r="40" fill="#C62828" opacity="0.03"/>
-<rect x="2" y="2" width="496" height="346" rx="12" ry="12" fill="none" stroke="#EF5350" stroke-width="2.5" opacity="0.5"/>
-<rect x="3" y="3" width="494" height="44" rx="10" ry="10" fill="url(#hdr4)"/>
-<rect x="3" y="37" width="494" height="10" fill="url(#hdr4)"/>
-<circle cx="28" cy="25" r="15" fill="#FFFFFF" opacity="0.25"/>
-<circle cx="28" cy="25" r="12" fill="#FFFFFF" opacity="0.15"/>
-<text x="28" y="29" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
-<text x="250" y="22" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Причины пожаров и их профилактика</text>
-<text x="250" y="38" font-family="Arial,sans-serif" font-size="10" fill="#FFEBEE" text-anchor="middle">ОБЖ — Урок 4</text>
-<line x1="10" y1="50" x2="490" y2="50" stroke="#EF5350" stroke-width="0.5" opacity="0.3"/>
-<rect x="3" y="335" width="494" height="12" rx="0" ry="0" fill="#C62828" opacity="0.08"/>
-<text x="250" y="344" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" opacity="0.5">9 класс — Основы безопасности жизнедеятельности</text>
-<ellipse cx="465" cy="70" rx="10" ry="16" fill="#EF5350" opacity="0.35"/>
-<ellipse cx="465" cy="75" rx="7" ry="12" fill="#FF9800" opacity="0.5"/>
-<ellipse cx="465" cy="78" rx="3" ry="7" fill="#FFEB3B" opacity="0.7"/>
-<rect x="12" y="55" width="230" height="135" rx="8" ry="8" fill="url(#card4)" filter="url(#sh4)"/>
-<rect x="12" y="55" width="230" height="135" rx="8" ry="8" fill="none" stroke="#EF5350" stroke-width="0.5" opacity="0.2"/>
-<rect x="16" y="58" width="222" height="20" rx="4" ry="4" fill="#C62828" opacity="0.12"/>
-<text x="127" y="72" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#C62828" text-anchor="middle">Основные причины пожаров</text>
-<line x1="22" y1="80" x2="232" y2="80" stroke="#C62828" stroke-width="0.5" opacity="0.2"/>
-<circle cx="26" cy="89" r="3" fill="#D32F2F" opacity="0.7"/>
-<text x="36" y="92" font-family="Arial,sans-serif" font-size="9" fill="#333333">Неосторожное обращение с огнём</text>
-<circle cx="26" cy="104" r="3" fill="#D32F2F" opacity="0.7"/>
-<text x="36" y="107" font-family="Arial,sans-serif" font-size="9" fill="#333333">Неисправность электропроводки</text>
-<circle cx="26" cy="119" r="3" fill="#D32F2F" opacity="0.7"/>
-<text x="36" y="122" font-family="Arial,sans-serif" font-size="9" fill="#333333">Перегрузка электрических сетей</text>
-<circle cx="26" cy="134" r="3" fill="#D32F2F" opacity="0.7"/>
-<text x="36" y="137" font-family="Arial,sans-serif" font-size="9" fill="#333333">Оставленные без присмотра приборы</text>
-<circle cx="26" cy="149" r="3" fill="#D32F2F" opacity="0.7"/>
-<text x="36" y="152" font-family="Arial,sans-serif" font-size="9" fill="#333333">Детские шалости со спичками</text>
-<circle cx="26" cy="164" r="3" fill="#D32F2F" opacity="0.7"/>
-<text x="36" y="167" font-family="Arial,sans-serif" font-size="9" fill="#333333">Нарушение правил эксплуатации печей</text>
-<rect x="250" y="55" width="238" height="135" rx="8" ry="8" fill="url(#card4)" filter="url(#sh4)"/>
-<rect x="250" y="55" width="238" height="135" rx="8" ry="8" fill="none" stroke="#EF5350" stroke-width="0.5" opacity="0.2"/>
-<rect x="254" y="58" width="230" height="20" rx="4" ry="4" fill="#C62828" opacity="0.12"/>
-<text x="369" y="72" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#C62828" text-anchor="middle">Профилактика пожаров</text>
-<line x1="260" y1="80" x2="478" y2="80" stroke="#C62828" stroke-width="0.5" opacity="0.2"/>
-<circle cx="264" cy="89" r="3" fill="#D32F2F" opacity="0.7"/>
-<text x="274" y="92" font-family="Arial,sans-serif" font-size="9" fill="#333333">Не оставляйте включённые приборы</text>
-<circle cx="264" cy="104" r="3" fill="#D32F2F" opacity="0.7"/>
-<text x="274" y="107" font-family="Arial,sans-serif" font-size="9" fill="#333333">Регулярно проверяйте электропроводку</text>
-<circle cx="264" cy="119" r="3" fill="#D32F2F" opacity="0.7"/>
-<text x="274" y="122" font-family="Arial,sans-serif" font-size="9" fill="#333333">Не курите в постели!</text>
-<circle cx="264" cy="134" r="3" fill="#D32F2F" opacity="0.7"/>
-<text x="274" y="137" font-family="Arial,sans-serif" font-size="9" fill="#333333">Установите дымовые датчики</text>
-<circle cx="264" cy="149" r="3" fill="#D32F2F" opacity="0.7"/>
-<text x="274" y="152" font-family="Arial,sans-serif" font-size="9" fill="#333333">Держите огнетушитель доступным</text>
-<circle cx="264" cy="164" r="3" fill="#D32F2F" opacity="0.7"/>
-<text x="274" y="167" font-family="Arial,sans-serif" font-size="9" fill="#333333">Не загромождайте пути эвакуации</text>
-<line x1="15" y1="195" x2="485" y2="195" stroke="#EF5350" stroke-width="0.4" opacity="0.15" stroke-dasharray="4,3"/>
-<rect x="12" y="202" width="230" height="125" rx="8" ry="8" fill="url(#card4)" filter="url(#sh4)"/>
-<rect x="12" y="202" width="230" height="125" rx="8" ry="8" fill="none" stroke="#EF5350" stroke-width="0.5" opacity="0.2"/>
-<rect x="16" y="205" width="222" height="20" rx="4" ry="4" fill="#C62828" opacity="0.12"/>
-<text x="127" y="219" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#C62828" text-anchor="middle">Огнеопасные вещества</text>
-<line x1="22" y1="227" x2="232" y2="227" stroke="#C62828" stroke-width="0.5" opacity="0.2"/>
-<circle cx="26" cy="236" r="3" fill="#D32F2F" opacity="0.7"/>
-<text x="36" y="239" font-family="Arial,sans-serif" font-size="9" fill="#333333">Лакокрасочные покрытия, растворители</text>
-<circle cx="26" cy="251" r="3" fill="#D32F2F" opacity="0.7"/>
-<text x="36" y="254" font-family="Arial,sans-serif" font-size="9" fill="#333333">Бензин и другие горючие жидкости</text>
-<circle cx="26" cy="266" r="3" fill="#D32F2F" opacity="0.7"/>
-<text x="36" y="269" font-family="Arial,sans-serif" font-size="9" fill="#333333">Аэрозоли — взрывоопасны при нагреве!</text>
-<circle cx="26" cy="281" r="3" fill="#D32F2F" opacity="0.7"/>
-<text x="36" y="284" font-family="Arial,sans-serif" font-size="9" fill="#333333">Фейерверки и петарды — осторожно!</text>
-<circle cx="26" cy="296" r="3" fill="#D32F2F" opacity="0.7"/>
-<text x="36" y="299" font-family="Arial,sans-serif" font-size="9" fill="#333333">Бытовой газ (метан, пропан, бутан)</text>
-<rect x="250" y="202" width="238" height="125" rx="8" ry="8" fill="url(#card4)" filter="url(#sh4)"/>
-<rect x="250" y="202" width="238" height="125" rx="8" ry="8" fill="none" stroke="#EF5350" stroke-width="0.5" opacity="0.2"/>
-<rect x="254" y="205" width="230" height="20" rx="4" ry="4" fill="#C62828" opacity="0.12"/>
-<text x="369" y="219" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#C62828" text-anchor="middle">Средства пожаротушения</text>
-<line x1="260" y1="227" x2="478" y2="227" stroke="#C62828" stroke-width="0.5" opacity="0.2"/>
-<circle cx="264" cy="236" r="3" fill="#D32F2F" opacity="0.7"/>
-<text x="274" y="239" font-family="Arial,sans-serif" font-size="9" fill="#333333">Огнетушитель (проверять срок годности!)</text>
-<circle cx="264" cy="251" r="3" fill="#D32F2F" opacity="0.7"/>
-<text x="274" y="254" font-family="Arial,sans-serif" font-size="9" fill="#333333">ОВП — водно-пенный огнетушитель</text>
-<circle cx="264" cy="266" r="3" fill="#D32F2F" opacity="0.7"/>
-<text x="274" y="269" font-family="Arial,sans-serif" font-size="9" fill="#333333">ОП — порошковый огнетушитель</text>
-<circle cx="264" cy="281" r="3" fill="#D32F2F" opacity="0.7"/>
-<text x="274" y="284" font-family="Arial,sans-serif" font-size="9" fill="#333333">ОУ — углекислотный огнетушитель</text>
-<circle cx="264" cy="296" r="3" fill="#D32F2F" opacity="0.7"/>
-<text x="274" y="299" font-family="Arial,sans-serif" font-size="9" fill="#333333">Песок, плотная ткань (кошма), вода</text>
+  <rect width="500" height="350" fill="#1a1a2e"/>
+  <rect width="500" height="350" fill="url(#bgs4)"/>
+  <!-- Cigarette with prohibition -->
+  <g transform="translate(40,50)">
+    <rect x="0" y="12" width="60" height="12" fill="#795548" opacity="0.4" rx="2"/>
+    <rect x="60" y="12" width="18" height="12" fill="#FFC107" opacity="0.3" rx="1"/>
+    <circle cx="40" cy="18" r="30" fill="none" stroke="#F44336" stroke-width="3" opacity="0.5"/>
+    <line x1="18" y1="-5" x2="62" y2="40" stroke="#F44336" stroke-width="3" opacity="0.5"/>
+  </g>
+  <!-- Bottle with prohibition -->
+  <g transform="translate(180,50)">
+    <rect x="10" y="20" width="25" height="40" fill="#FF9800" opacity="0.3" rx="3"/>
+    <rect x="15" y="10" width="15" height="12" fill="#FF9800" opacity="0.25" rx="2"/>
+    <circle cx="22" cy="40" r="30" fill="none" stroke="#F44336" stroke-width="3" opacity="0.5"/>
+    <line x1="0" y1="18" x2="44" y2="62" stroke="#F44336" stroke-width="3" opacity="0.5"/>
+  </g>
+  <!-- Syringe with prohibition -->
+  <g transform="translate(340,40)">
+    <rect x="8" y="5" width="10" height="45" fill="#B0BEC5" opacity="0.4" rx="2"/>
+    <line x1="13" y1="50" x2="13" y2="65" stroke="#B0BEC5" stroke-width="2" opacity="0.4"/>
+    <rect x="5" y="0" width="16" height="8" fill="#B0BEC5" opacity="0.3" rx="1"/>
+    <circle cx="13" cy="35" r="30" fill="none" stroke="#F44336" stroke-width="3" opacity="0.5"/>
+    <line x1="-8" y1="12" x2="34" y2="58" stroke="#F44336" stroke-width="3" opacity="0.5"/>
+  </g>
+  <!-- Lungs affected -->
+  <g transform="translate(100,170)">
+    <path d="M50,10 Q30,10 20,30 Q10,50 20,70 Q30,80 40,70 L50,55Z" fill="#F44336" opacity="0.2"/>
+    <path d="M50,10 Q70,10 80,30 Q90,50 80,70 Q70,80 60,70 L50,55Z" fill="#F44336" opacity="0.2"/>
+    <line x1="50" y1="5" x2="50" y2="55" stroke="#EF9A9A" stroke-width="2" opacity="0.4"/>
+    <!-- Spots -->
+    <circle cx="35" cy="45" r="4" fill="#F44336" opacity="0.3"/>
+    <circle cx="65" cy="40" r="3" fill="#F44336" opacity="0.3"/>
+    <circle cx="30" cy="55" r="3" fill="#F44336" opacity="0.25"/>
+  </g>
+  <!-- Healthy vs damaged brain -->
+  <g transform="translate(280,170)">
+    <path d="M25,45 Q5,40 5,20 Q5,0 25,0 Q40,0 45,15 Q50,0 65,0 Q85,0 85,20 Q85,40 65,45Z" fill="#F44336" opacity="0.15" stroke="#EF9A9A" stroke-width="1.5" opacity="0.3"/>
+    <path d="M25,45 Q20,50 25,55" fill="none" stroke="#EF9A9A" stroke-width="1.5" opacity="0.3"/>
+    <path d="M65,45 Q70,50 65,55" fill="none" stroke="#EF9A9A" stroke-width="1.5" opacity="0.3"/>
+    <!-- X marks for damage -->
+    <line x1="30" y1="15" x2="38" y2="23" stroke="#F44336" stroke-width="1.5" opacity="0.4"/>
+    <line x1="38" y1="15" x2="30" y2="23" stroke="#F44336" stroke-width="1.5" opacity="0.4"/>
+  </g>
+  <!-- Strong "NO" figure -->
+  <g transform="translate(400,200)">
+    <circle cx="25" cy="10" r="10" fill="#4CAF50" opacity="0.5"/>
+    <line x1="25" y1="20" x2="25" y2="55" stroke="#4CAF50" stroke-width="3" opacity="0.5"/>
+    <line x1="25" y1="30" x2="5" y2="18" stroke="#4CAF50" stroke-width="2.5" opacity="0.5" stroke-linecap="round"/>
+    <line x1="25" y1="30" x2="45" y2="18" stroke="#4CAF50" stroke-width="2.5" opacity="0.5" stroke-linecap="round"/>
+    <line x1="25" y1="55" x2="12" y2="75" stroke="#4CAF50" stroke-width="2.5" opacity="0.5" stroke-linecap="round"/>
+    <line x1="25" y1="55" x2="38" y2="75" stroke="#4CAF50" stroke-width="2.5" opacity="0.5" stroke-linecap="round"/>
+  </g>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#aaa" opacity="0.5" font-family="sans-serif">Вредные привычки и их профилактика</text>
 </svg>

@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Взаимосвязи организмов в природе</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 6 класс — Урок 48</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- SECTION 1: Six relationship types -->
+<text x="250" y="66" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#2E7D32" text-anchor="middle">Типы взаимоотношений между организмами</text>
+
+<!-- 1. Mutualism (Мутуализм) -->
+<rect x="8" y="72" width="155" height="52" rx="3" fill="#E8F5E9" opacity="0.4" stroke="#2E7D32" stroke-width="0.8"/>
+<text x="85" y="82" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1B5E20" text-anchor="middle">Мутуализм (+/+)</text>
+<!-- Lichen: fungus + algae -->
+<ellipse cx="50" cy="102" rx="14" ry="10" fill="#BCAAA4" stroke="#8D6E63" stroke-width="0.8"/>
+<!-- Algal layer inside -->
+<ellipse cx="50" cy="100" rx="10" ry="5" fill="#81C784" stroke="#4CAF50" stroke-width="0.4"/>
+<!-- Plus sign -->
+<text x="72" y="106" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">=</text>
+<!-- Lichen result -->
+<path d="M82,95 Q90,90 98,95 Q95,105 90,108 Q85,105 82,95Z" fill="#8D6E63" stroke="#5D4037" stroke-width="0.6"/>
+<path d="M84,97 Q90,93 96,97 Q94,103 90,105 Q86,103 84,97Z" fill="#A5D6A7" stroke="#66BB6A" stroke-width="0.3"/>
+<text x="85" y="120" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">гриб + водоросль = лишайник</text>
+
+<!-- 2. Commensalism (Комменсализм) -->
+<rect x="170" y="72" width="155" height="52" rx="3" fill="#E3F2FD" opacity="0.4" stroke="#1565C0" stroke-width="0.8"/>
+<text x="247" y="82" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#0D47A1" text-anchor="middle">Комменсализм (+/0)</text>
+<!-- Tree with epiphyte -->
+<rect x="215" y="90" width="5" height="30" rx="1" fill="#795548" stroke="#5D4037" stroke-width="0.5"/>
+<ellipse cx="217" cy="92" rx="10" ry="8" fill="#81C784" stroke="#388E3C" stroke-width="0.6"/>
+<!-- Epiphyte on trunk -->
+<ellipse cx="225" cy="100" rx="6" ry="4" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.5"/>
+<line x1="220" y1="100" x2="218" y2="98" stroke="#66BB6A" stroke-width="0.5"/>
+<!-- Labels -->
+<text x="250" y="100" font-family="Arial,sans-serif" font-size="5" fill="#0D47A1">эпифит</text>
+<text x="250" y="108" font-family="Arial,sans-serif" font-size="5" fill="#5D4037">на дереве</text>
+<text x="247" y="120" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">один выигр., друг. нейтр.</text>
+
+<!-- 3. Parasitism (Паразитизм) -->
+<rect x="332" y="72" width="158" height="52" rx="3" fill="#FFEBEE" opacity="0.4" stroke="#C62828" stroke-width="0.8"/>
+<text x="411" y="82" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#B71C1C" text-anchor="middle">Паразитизм (+/-)</text>
+<!-- Host plant -->
+<line x1="390" y1="115" x2="390" y2="92" stroke="#4CAF50" stroke-width="2"/>
+<ellipse cx="390" cy="92" rx="8" ry="6" fill="#81C784" stroke="#388E3C" stroke-width="0.5"/>
+<!-- Dodder (повилика) wrapping around -->
+<path d="M383,95 Q388,100 393,95 Q398,90 395,105 Q390,110 385,105 Q380,100 383,95" stroke="#FF5722" stroke-width="1" fill="none"/>
+<!-- Dodder strands -->
+<path d="M395,98 Q420,95 440,98" stroke="#FF5722" stroke-width="0.8" fill="none"/>
+<path d="M440,98 Q445,95 442,105 Q438,110 435,105" stroke="#FF5722" stroke-width="0.8" fill="none"/>
+<!-- Haustoria -->
+<line x1="390" y1="100" x2="390" y2="103" stroke="#FF5722" stroke-width="0.5"/>
+<text x="411" y="114" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">повилика на растении</text>
+<text x="411" y="120" font-family="Arial,sans-serif" font-size="4.5" fill="#C62828" text-anchor="middle">один за счёт другого</text>
+
+<!-- 4. Competition (Конкуренция) -->
+<rect x="8" y="130" width="155" height="52" rx="3" fill="#FFF3E0" opacity="0.4" stroke="#FF9800" stroke-width="0.8"/>
+<text x="85" y="140" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#E65100" text-anchor="middle">Конкуренция (-/-)</text>
+<!-- Two plants competing -->
+<line x1="55" y1="168" x2="55" y2="148" stroke="#4CAF50" stroke-width="1.5"/>
+<ellipse cx="55" cy="148" rx="7" ry="5" fill="#81C784" stroke="#388E3C" stroke-width="0.5"/>
+<line x1="75" y1="168" x2="75" y2="148" stroke="#66BB6A" stroke-width="1.5"/>
+<ellipse cx="75" cy="148" rx="7" ry="5" fill="#A5D6A7" stroke="#4CAF50" stroke-width="0.5"/>
+<!-- Clashing roots -->
+<path d="M55,168 Q60,172 65,168 Q70,172 75,168" stroke="#8D6E63" stroke-width="0.8" fill="none"/>
+<!-- Lightning bolt between -->
+<text x="65" y="156" font-family="Arial,sans-serif" font-size="7" fill="#FF9800" text-anchor="middle">⚡</text>
+<!-- Resources -->
+<text x="40" y="165" font-family="Arial,sans-serif" font-size="4" fill="#42A5F5">H₂O</text>
+<text x="88" y="165" font-family="Arial,sans-serif" font-size="4" fill="#F9A825">☀</text>
+<text x="85" y="177" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">за ресурсы: свет, воду</text>
+
+<!-- 5. Predation (Хищничество) -->
+<rect x="170" y="130" width="155" height="52" rx="3" fill="#FCE4EC" opacity="0.4" stroke="#E91E63" stroke-width="0.8"/>
+<text x="247" y="140" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#880E4F" text-anchor="middle">Хищничество (+/-)</text>
+<!-- Leaf being eaten -->
+<path d="M225,148 Q240,143 255,148 Q250,160 240,165 Q230,160 225,148Z" fill="#81C784" stroke="#388E3C" stroke-width="0.8"/>
+<!-- Bite marks -->
+<path d="M240,150 Q238,148 236,150" fill="#E8F5E9" stroke="none"/>
+<path d="M245,155 Q243,153 241,155" fill="#E8F5E9" stroke="none"/>
+<!-- Caterpillar -->
+<ellipse cx="252" cy="152" rx="8" ry="4" fill="#8BC34A" stroke="#558B2F" stroke-width="0.6"/>
+<!-- Caterpillar segments -->
+<circle cx="246" cy="152" r="2.5" fill="#9CCC65" stroke="#558B2F" stroke-width="0.3"/>
+<circle cx="250" cy="152" r="2.5" fill="#9CCC65" stroke="#558B2F" stroke-width="0.3"/>
+<circle cx="254" cy="152" r="2.5" fill="#9CCC65" stroke="#558B2F" stroke-width="0.3"/>
+<circle cx="258" cy="152" r="2.5" fill="#9CCC65" stroke="#558B2F" stroke-width="0.3"/>
+<!-- Antennae -->
+<line x1="260" y1="151" x2="264" y2="148" stroke="#558B2F" stroke-width="0.3"/>
+<line x1="260" y1="152" x2="264" y2="150" stroke="#558B2F" stroke-width="0.3"/>
+<text x="247" y="177" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">гусеница ест лист</text>
+
+<!-- 6. Neutralism (Нейтрализм) -->
+<rect x="332" y="130" width="158" height="52" rx="3" fill="#F5F5F5" opacity="0.4" stroke="#9E9E9E" stroke-width="0.8"/>
+<text x="411" y="140" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#616161" text-anchor="middle">Нейтрализм (0/0)</text>
+<!-- Two organisms not interacting -->
+<line x1="385" y1="168" x2="385" y2="152" stroke="#4CAF50" stroke-width="1.5"/>
+<ellipse cx="385" cy="152" rx="7" ry="5" fill="#81C784" stroke="#388E3C" stroke-width="0.5"/>
+<!-- Mushroom -->
+<rect x="425" y="160" width="4" height="8" rx="1" fill="#D7CCC8" stroke="#8D6E63" stroke-width="0.5"/>
+<ellipse cx="427" cy="158" rx="8" ry="5" fill="#BCAAA4" stroke="#8D6E63" stroke-width="0.5"/>
+<!-- Space between -->
+<text x="405" y="157" font-family="Arial,sans-serif" font-size="6" fill="#9E9E9E" text-anchor="middle">…</text>
+<text x="411" y="177" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">не влияют друг на друга</text>
+
+<!-- SECTION 2: Food chain -->
+<text x="250" y="198" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#2E7D32" text-anchor="middle">Пищевая цепь</text>
+
+<rect x="15" y="205" width="470" height="42" rx="4" fill="#FFF" opacity="0.3" stroke="#2E7D32" stroke-width="0.5"/>
+
+<!-- Producer -->
+<ellipse cx="55" cy="226" rx="18" ry="12" fill="#81C784" stroke="#388E3C" stroke-width="0.8"/>
+<text x="55" y="224" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20" text-anchor="middle">Растение</text>
+<text x="55" y="232" font-family="Arial,sans-serif" font-size="4.5" fill="#388E3C" text-anchor="middle">(продуцент)</text>
+<!-- Arrow -->
+<path d="M78,226 L108,226" stroke="#2E7D32" stroke-width="1.2" fill="none"/>
+<polygon points="108,224 112,226 108,228" fill="#2E7D32"/>
+
+<!-- Herbivore -->
+<ellipse cx="140" cy="226" rx="20" ry="12" fill="#FFB74D" stroke="#E65100" stroke-width="0.8"/>
+<text x="140" y="224" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle">Травоядное</text>
+<text x="140" y="232" font-family="Arial,sans-serif" font-size="4.5" fill="#E65100" text-anchor="middle">(консумент I)</text>
+<!-- Arrow -->
+<path d="M165,226 L195,226" stroke="#E65100" stroke-width="1.2" fill="none"/>
+<polygon points="195,224 199,226 195,228" fill="#E65100"/>
+
+<!-- Predator -->
+<ellipse cx="225" cy="226" rx="20" ry="12" fill="#EF5350" stroke="#C62828" stroke-width="0.8"/>
+<text x="225" y="224" font-family="Arial,sans-serif" font-size="5" fill="#FFF" text-anchor="middle">Хищник</text>
+<text x="225" y="232" font-family="Arial,sans-serif" font-size="4.5" fill="#FFCDD2" text-anchor="middle">(консумент II)</text>
+<!-- Arrow -->
+<path d="M250,226 L280,226" stroke="#C62828" stroke-width="1.2" fill="none"/>
+<polygon points="280,224 284,226 280,228" fill="#C62828"/>
+
+<!-- Decomposer -->
+<ellipse cx="315" cy="226" rx="20" ry="12" fill="#8D6E63" stroke="#5D4037" stroke-width="0.8"/>
+<text x="315" y="224" font-family="Arial,sans-serif" font-size="5" fill="#FFF" text-anchor="middle">Редуцент</text>
+<text x="315" y="232" font-family="Arial,sans-serif" font-size="4.5" fill="#D7CCC8" text-anchor="middle">(бактерии, грибы)</text>
+
+<!-- Arrow back to producer (nutrient cycle) -->
+<path d="M315,238 Q315,248 200,248 Q55,248 55,240" stroke="#5D4037" stroke-width="0.8" fill="none" stroke-dasharray="3,1"/>
+<polygon points="53,240 55,236 57,240" fill="#5D4037"/>
+<text x="200" y="246" font-family="Arial,sans-serif" font-size="5" fill="#5D4037" text-anchor="middle">минеральные вещества</text>
+
+<!-- 10% rule -->
+<rect x="355" y="210" width="120" height="32" rx="3" fill="#FFF9C4" opacity="0.5" stroke="#F9A825" stroke-width="0.5"/>
+<text x="415" y="222" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#F57F17" text-anchor="middle">Правило 10%</text>
+<text x="415" y="231" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">~10% энергии переходит</text>
+<text x="415" y="239" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">на следующий уровень</text>
+
+<!-- SECTION 3: Symbiosis examples -->
+<text x="250" y="265" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">Примеры симбиоза</text>
+
+<!-- Mycorrhiza -->
+<rect x="15" y="272" width="150" height="35" rx="3" fill="#FFF" opacity="0.3" stroke="#2E7D32" stroke-width="0.5"/>
+<text x="90" y="282" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#2E7D32" text-anchor="middle">Микориза</text>
+<text x="90" y="291" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">гриб + корень дерева</text>
+<text x="90" y="299" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">обмен: вода ↔ органика</text>
+
+<!-- Root nodules -->
+<rect x="175" y="272" width="150" height="35" rx="3" fill="#FFF" opacity="0.3" stroke="#2E7D32" stroke-width="0.5"/>
+<text x="250" y="282" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#2E7D32" text-anchor="middle">Клубеньки на корнях</text>
+<text x="250" y="291" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">бактерии + бобовые</text>
+<text x="250" y="299" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">азотофиксация N₂ → NH₃</text>
+
+<!-- Carnivorous plants -->
+<rect x="335" y="272" width="155" height="35" rx="3" fill="#FFF" opacity="0.3" stroke="#C62828" stroke-width="0.5"/>
+<text x="412" y="282" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#C62828" text-anchor="middle">Хищные растения</text>
+<text x="412" y="291" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">росянка, венерина мухоловка</text>
+<text x="412" y="299" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">насекомые → источник N</text>
+
+<!-- Summary -->
+<rect x="15" y="314" width="470" height="26" rx="3" fill="#FFF" opacity="0.3" stroke="#2E7D32" stroke-width="0.5"/>
+<text x="250" y="326" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle">Все организмы связаны в природе: пищевые цепи, симбиоз, конкуренция. Каждое звено важно для устойчивости экосистемы.</text>
+<text x="250" y="336" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">Протокооперация — взаимовыгодное, но необязательное сотрудничество. Клептопаразитизм — «воровство» пищи</text>
+</svg>

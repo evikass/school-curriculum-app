@@ -1,37 +1,108 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
+    <linearGradient id="sky6s" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#90caf9"/>
+      <stop offset="100%" stop-color="#e3f2fd"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#BF360C"/>
-      <stop offset="100%" stop-color="#E65100"/>
+    <linearGradient id="bus6s" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffd54f"/>
+      <stop offset="100%" stop-color="#ffb300"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#E65100" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#E65100" stroke-width="1" opacity="0.3"/>
-  <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#E65100" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#E65100" text-anchor="middle">Безопасность пассажира</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">ОБЖ - Урок 6</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#E65100" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#E65100" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA -->
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FFF3E0"/><text x="250" y="130" font-family="Arial,sans-serif" font-size="20" fill="#E65100" text-anchor="middle" font-weight="bold">Безопасность пассажира</text><rect x="25" y="155" width="140" height="45" rx="5" fill="#E3F2FD" stroke="#E65100" stroke-width="1.5"/><text x="95" y="182" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">При посадке:</text><rect x="170" y="155" width="140" height="45" rx="5" fill="#FFF3E0" stroke="#BF360C" stroke-width="1.5"/><text x="240" y="182" font-family="Arial" font-size="12" fill="#BF360C" text-anchor="middle">Пассажир</text><rect x="315" y="155" width="140" height="45" rx="5" fill="#FFFDE7" stroke="#F9A825" stroke-width="1.5"/><text x="385" y="182" font-family="Arial" font-size="12" fill="#F9A825" text-anchor="middle">Правила безопасности в ...</text><rect x="25" y="210" width="140" height="45" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/><text x="95" y="238" font-family="Arial" font-size="12" fill="#2E7D32" text-anchor="middle">В салоне:</text><rect x="170" y="210" width="140" height="45" rx="5" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="1.5"/><text x="240" y="238" font-family="Arial" font-size="12" fill="#6A1B9A" text-anchor="middle">При выходе:</text><rect x="315" y="210" width="140" height="45" rx="5" fill="#FFEBEE" stroke="#E65100" stroke-width="1.5"/><text x="385" y="238" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">Правила в легковом авто...</text>
-  <polygon points="50,270 60,285 40,285" fill="#E65100" opacity="0.12"/>
+  <rect width="500" height="350" fill="url(#sky6s)"/>
+  
+  <!-- Road -->
+  <rect x="0" y="220" width="500" height="130" fill="#616161"/>
+  <line x1="0" y1="285" x2="500" y2="285" stroke="#fdd835" stroke-width="2" stroke-dasharray="20,15"/>
+  
+  <!-- Bus stop sign -->
+  <g transform="translate(60,140)">
+    <rect x="-2" y="-10" width="4" height="90" fill="#888"/>
+    <rect x="-18" y="-20" width="36" height="24" rx="3" fill="#1565c0"/>
+    <text x="0" y="-6" text-anchor="middle" font-size="7" fill="#fff" font-weight="bold" font-family="Arial">АВТО-</text>
+    <text x="0" y="2" text-anchor="middle" font-size="7" fill="#fff" font-weight="bold" font-family="Arial">БУС</text>
   </g>
-  <!-- Bottom panel -->
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">ОБЖ</text>
+  
+  <!-- Bus -->
+  <g transform="translate(260,200)">
+    <!-- Bus body -->
+    <rect x="-110" y="-80" width="220" height="85" rx="8" fill="url(#bus6s)" stroke="#f57f17" stroke-width="2"/>
+    <!-- Windows -->
+    <rect x="-95" y="-70" width="35" height="30" rx="3" fill="#b3e5fc" stroke="#f9a825" stroke-width="1"/>
+    <rect x="-52" y="-70" width="35" height="30" rx="3" fill="#b3e5fc" stroke="#f9a825" stroke-width="1"/>
+    <rect x="-9" y="-70" width="35" height="30" rx="3" fill="#b3e5fc" stroke="#f9a825" stroke-width="1"/>
+    <rect x="34" y="-70" width="35" height="30" rx="3" fill="#b3e5fc" stroke="#f9a825" stroke-width="1"/>
+    <rect x="77" y="-70" width="25" height="30" rx="3" fill="#b3e5fc" stroke="#f9a825" stroke-width="1"/>
+    <!-- Windshield -->
+    <path d="M100,-70 L110,-60 L110,-35 L90,-35 L90,-70 Z" fill="#b3e5fc" stroke="#f9a825" stroke-width="1"/>
+    <!-- Route number -->
+    <rect x="-105" y="-68" width="22" height="18" rx="2" fill="#333"/>
+    <text x="-94" y="-55" text-anchor="middle" font-size="10" fill="#ffd54f" font-weight="bold" font-family="Arial">42</text>
+    <!-- Door -->
+    <rect x="60" y="-35" width="18" height="35" rx="2" fill="#f9a825" stroke="#f57f17" stroke-width="1"/>
+    <line x1="69" y1="-33" x2="69" y2="-2" stroke="#f57f17" stroke-width="1"/>
+    <!-- Wheels -->
+    <circle cx="-70" cy="8" r="14" fill="#333"/>
+    <circle cx="-70" cy="8" r="8" fill="#666"/>
+    <circle cx="70" cy="8" r="14" fill="#333"/>
+    <circle cx="70" cy="8" r="8" fill="#666"/>
+    <!-- Headlights -->
+    <rect x="105" y="-50" width="8" height="10" rx="2" fill="#ffeb3b"/>
+    <rect x="-118" y="-50" width="8" height="10" rx="2" fill="#f44336"/>
+    <!-- Rearview mirrors -->
+    <rect x="-118" y="-65" width="8" height="5" rx="1" fill="#888"/>
+    <rect x="110" y="-65" width="8" height="5" rx="1" fill="#888"/>
+  </g>
+  
+  <!-- Passenger with seatbelt (inside bus, visible through window) -->
+  <g transform="translate(210,170)">
+    <circle cx="0" cy="-8" r="5" fill="#ffb57c" opacity="0.7"/>
+    <rect x="-4" y="-3" width="8" height="12" rx="2" fill="#1e88e5" opacity="0.7"/>
+    <!-- Seatbelt -->
+    <path d="M-3,-3 L3,5" stroke="#fff" stroke-width="1.5" fill="none" opacity="0.8"/>
+    <path d="M-3,-3 L-5,-1" stroke="#fff" stroke-width="1.5" fill="none" opacity="0.8"/>
+  </g>
+  <g transform="translate(250,170)">
+    <circle cx="0" cy="-8" r="5" fill="#c9a87c" opacity="0.7"/>
+    <rect x="-4" y="-3" width="8" height="12" rx="2" fill="#e53935" opacity="0.7"/>
+    <path d="M-3,-3 L3,5" stroke="#fff" stroke-width="1.5" fill="none" opacity="0.8"/>
+    <path d="M-3,-3 L-5,-1" stroke="#fff" stroke-width="1.5" fill="none" opacity="0.8"/>
+  </g>
+  
+  <!-- Seatbelt detail (zoom, bottom-left) -->
+  <g transform="translate(80,290)">
+    <rect x="-50" y="-30" width="100" height="60" rx="5" fill="white" opacity="0.9" stroke="#1565c0" stroke-width="1.5"/>
+    <!-- Seat icon -->
+    <path d="M-20,-15 L-15,-15 L-15,10 L20,10" stroke="#666" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M-20,-15 L-20,10" stroke="#666" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Seatbelt -->
+    <path d="M-10,-12 L10,5" stroke="#1565c0" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M-10,-12 L-15,-5" stroke="#1565c0" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Buckle -->
+    <rect x="-5" y="-2" width="10" height="6" rx="1" fill="#ffd54f" stroke="#f9a825" stroke-width="1"/>
+    <text x="0" y="28" text-anchor="middle" font-size="7" fill="#1565c0" font-family="Arial">Ремень безопасности</text>
+  </g>
+  
+  <!-- Emergency exit detail (bottom-right) -->
+  <g transform="translate(400,290)">
+    <rect x="-55" y="-30" width="110" height="60" rx="5" fill="white" opacity="0.9" stroke="#e53935" stroke-width="1.5"/>
+    <!-- Window/emergency exit -->
+    <rect x="-30" y="-22" width="40" height="35" rx="3" fill="#b3e5fc" stroke="#666" stroke-width="2"/>
+    <!-- Break point indicator -->
+    <circle cx="-10" cy="-5" r="6" fill="#e53935"/>
+    <text x="-10" y="-2" text-anchor="middle" font-size="6" fill="#fff" font-weight="bold" font-family="Arial">✕</text>
+    <!-- Hammer -->
+    <rect x="18" y="-15" width="4" height="20" rx="1" fill="#8d6e63"/>
+    <rect x="14" y="-20" width="12" height="8" rx="2" fill="#78909c"/>
+    <text x="0" y="25" text-anchor="middle" font-size="7" fill="#e53935" font-family="Arial">Аварийный выход</text>
+  </g>
+  
+  <!-- Grab handle inside bus -->
+  <g transform="translate(330,140)">
+    <line x1="-15" y1="0" x2="15" y2="0" stroke="#888" stroke-width="3"/>
+    <circle cx="-15" cy="0" r="2" fill="#888"/>
+    <circle cx="15" cy="0" r="2" fill="#888"/>
+  </g>
+  
+  <text x="250" y="342" text-anchor="middle" font-size="9" opacity="0.5" fill="#333" font-family="Arial, sans-serif">Безопасность пассажира</text>
 </svg>

@@ -1,65 +1,63 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
 <defs>
-  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" style="stop-color:#283593"/>
-    <stop offset="100%" style="stop-color:#5C6BC0"/>
-  </linearGradient>
-  <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
-    <stop offset="0%" style="stop-color:rgba(255,255,255,0.95)"/>
-    <stop offset="100%" style="stop-color:rgba(255,255,255,0.85)"/>
-  </linearGradient>
-</defs>
-<rect width="500" height="350" fill="url(#bg)"/>
-<circle cx="30" cy="20" r="3" fill="white" opacity="0.08"/>
-<circle cx="30" cy="110" r="3" fill="white" opacity="0.08"/>
-<circle cx="30" cy="200" r="3" fill="white" opacity="0.08"/>
-<circle cx="30" cy="290" r="3" fill="white" opacity="0.08"/>
-<circle cx="95" cy="20" r="3" fill="white" opacity="0.08"/>
-<circle cx="95" cy="110" r="3" fill="white" opacity="0.08"/>
-<circle cx="95" cy="200" r="3" fill="white" opacity="0.08"/>
-<circle cx="95" cy="290" r="3" fill="white" opacity="0.08"/>
-<circle cx="160" cy="20" r="3" fill="white" opacity="0.08"/>
-<circle cx="160" cy="110" r="3" fill="white" opacity="0.08"/>
-<circle cx="160" cy="200" r="3" fill="white" opacity="0.08"/>
-<circle cx="160" cy="290" r="3" fill="white" opacity="0.08"/>
-<circle cx="225" cy="20" r="3" fill="white" opacity="0.08"/>
-<circle cx="225" cy="110" r="3" fill="white" opacity="0.08"/>
-<circle cx="225" cy="200" r="3" fill="white" opacity="0.08"/>
-<circle cx="225" cy="290" r="3" fill="white" opacity="0.08"/>
-<circle cx="290" cy="20" r="3" fill="white" opacity="0.08"/>
-<circle cx="290" cy="110" r="3" fill="white" opacity="0.08"/>
-<circle cx="290" cy="200" r="3" fill="white" opacity="0.08"/>
-<circle cx="290" cy="290" r="3" fill="white" opacity="0.08"/>
-<circle cx="355" cy="20" r="3" fill="white" opacity="0.08"/>
-<circle cx="355" cy="110" r="3" fill="white" opacity="0.08"/>
-<circle cx="355" cy="200" r="3" fill="white" opacity="0.08"/>
-<circle cx="355" cy="290" r="3" fill="white" opacity="0.08"/>
-<circle cx="420" cy="20" r="3" fill="white" opacity="0.08"/>
-<circle cx="420" cy="110" r="3" fill="white" opacity="0.08"/>
-<circle cx="420" cy="200" r="3" fill="white" opacity="0.08"/>
-<circle cx="420" cy="290" r="3" fill="white" opacity="0.08"/>
-<circle cx="485" cy="20" r="3" fill="white" opacity="0.08"/>
-<circle cx="485" cy="110" r="3" fill="white" opacity="0.08"/>
-<circle cx="485" cy="200" r="3" fill="white" opacity="0.08"/>
-<circle cx="485" cy="290" r="3" fill="white" opacity="0.08"/>
-<rect x="20" y="50" width="460" height="270" rx="16" fill="url(#card)" opacity="0.92"/>
-<rect x="30" y="60" width="auto" height="24" rx="12" fill="#283593" opacity="0.9"/>
-<rect x="30" y="60" width="148" height="24" rx="12" fill="#283593" opacity="0.9"/>
-<text x="104" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="white" font-weight="bold">Иностранный язык</text>
-<text x="470" y="77" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#283593" font-weight="bold">Урок 4</text>
-<text x="40" y="105" font-family="Arial,sans-serif" font-size="18" fill="#1a1a1a" font-weight="bold">❓ Вопросительные слова</text>
-<line x1="40" y1="115" x2="460" y2="115" stroke="#C5CAE9" stroke-width="2"/>
-<text x="40" y="135" font-family="Arial,sans-serif" font-size="13" fill="#444">Question words — слова для вопросов.</text>
-<circle cx="50" cy="160" r="4" fill="#283593"/>
-<text x="62" y="165" font-family="Arial,sans-serif" font-size="12" fill="#333">Задавать вопросы с What</text>
-<circle cx="50" cy="185" r="4" fill="#283593"/>
-<text x="62" y="190" font-family="Arial,sans-serif" font-size="12" fill="#333">Задавать вопросы с Where</text>
-<circle cx="50" cy="210" r="4" fill="#283593"/>
-<text x="62" y="215" font-family="Arial,sans-serif" font-size="12" fill="#333">Задавать вопросы с Who</text>
-<circle cx="50" cy="235" r="4" fill="#283593"/>
-<text x="62" y="240" font-family="Arial,sans-serif" font-size="12" fill="#333">Отвечать на вопросы</text>
-<rect x="40" y="260" width="70" height="18" rx="9" fill="#283593" opacity="0.15"/>
-<text x="75" y="273" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#283593" font-weight="bold">4 заданий</text>
-<circle cx="460" cy="310" r="25" fill="#283593" opacity="0.15"/>
-<circle cx="460" cy="310" r="15" fill="#283593" opacity="0.1"/>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF3E0"/>
+      <stop offset="100%" stop-color="#FFE0B2"/>
+    </linearGradient>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#E0F7FA"/>
+    </linearGradient>
+    <linearGradient id="groundGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#81C784"/>
+      <stop offset="100%" stop-color="#4CAF50"/>
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#42A5F5"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+    <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF9C4"/>
+      <stop offset="60%" stop-color="#FDD835"/>
+      <stop offset="100%" stop-color="#F9A825"/>
+    </radialGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="3" stdDeviation="5" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  <g transform="translate(40,30)" filter="url(#softShadow)">
+    <rect width="420" height="285" rx="12" fill="white" opacity="0.94"/>
+    <rect width="420" height="32" rx="12" fill="#F57C00" opacity="0.9"/>
+    <rect y="24" width="420" height="8" fill="#F57C00" opacity="0.9"/>
+    <text x="210" y="22" font-family="Arial" font-size="12" fill="white" text-anchor="middle" font-weight="bold">РАСПИСАНИЕ</text>
+    <g transform="translate(20,48)">
+      <rect width="380" height="70" rx="8" fill="#FFF3E0" opacity="0.4" stroke="#F57C00" stroke-width="1.5"/>
+      <text x="190" y="30" font-family="Arial" font-size="22" fill="#E65100" text-anchor="middle" font-weight="bold">Monday, Tuesday...</text>
+      <text x="190" y="55" font-family="Arial" font-size="12" fill="#555" text-anchor="middle">Понедельник, Вторник...</text>
+    </g>
+    <g transform="translate(20,135)">
+      <rect width="185" height="130" rx="8" fill="white" stroke="#6A1B9A" stroke-width="1.5"/>
+      <rect width="185" height="24" rx="8" fill="#6A1B9A" opacity="0.85"/>
+      <rect y="18" width="185" height="6" fill="#6A1B9A" opacity="0.85"/>
+      <text x="92" y="17" font-family="Arial" font-size="9" fill="white" text-anchor="middle" font-weight="bold">ПО-АНГЛИЙСКИ</text>
+      <text x="92" y="55" font-family="Arial" font-size="14" fill="#E65100" text-anchor="middle" font-weight="bold">Monday, Tuesday...</text>
+    </g>
+    <g transform="translate(220,135)">
+      <rect width="180" height="130" rx="8" fill="white" stroke="#FFB74D" stroke-width="1.5"/>
+      <rect width="180" height="24" rx="8" fill="#FFB74D" opacity="0.85"/>
+      <rect y="18" width="180" height="6" fill="#FFB74D" opacity="0.85"/>
+      <text x="90" y="17" font-family="Arial" font-size="9" fill="white" text-anchor="middle" font-weight="bold">ПО-РУССКИ</text>
+      <text x="90" y="55" font-family="Arial" font-size="14" fill="#555" text-anchor="middle" font-weight="bold">Понедельник, Вторник...</text>
+    </g>
+  </g>
+  <rect x="0" y="318" width="500" height="32" rx="0" fill="#F57C00" opacity="0.9"/>
+  <text x="250" y="339" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Расписание</text>
 </svg>

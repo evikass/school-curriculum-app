@@ -1,62 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8EAF6"/><stop offset="100%" stop-color="#C5CAE9"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#283593" stroke-width="3"/>
-<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#283593" stroke-width="1" opacity="0.3"/>
-<polygon points="10,10 30,10 10,30" fill="#283593" opacity="0.08"/>
-<polygon points="490,10 470,10 490,30" fill="#3F51B5" opacity="0.08"/>
-<polygon points="10,340 30,340 10,320" fill="#5C6BC0" opacity="0.08"/>
-<polygon points="490,340 470,340 490,320" fill="#7986CB" opacity="0.08"/>
-<circle cx="70" cy="15" r="4" fill="#283593" opacity="0.1"/>
-<circle cx="82" cy="15" r="4" fill="#3F51B5" opacity="0.1"/>
-<circle cx="94" cy="15" r="4" fill="#5C6BC0" opacity="0.1"/>
-<circle cx="406" cy="15" r="4" fill="#283593" opacity="0.1"/>
-<circle cx="418" cy="15" r="4" fill="#3F51B5" opacity="0.1"/>
-<circle cx="430" cy="15" r="4" fill="#5C6BC0" opacity="0.1"/>
-<text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#283593" text-anchor="middle">Planning a Trip</text>
-<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Английский язык - Урок 3</text>
-<line x1="30" y1="78" x2="470" y2="78" stroke="#283593" stroke-width="2" opacity="0.25"/>
-<rect x="30" y="75" width="60" height="6" fill="#283593" opacity="0.15" rx="1"/>
-<rect x="410" y="75" width="60" height="6" fill="#3F51B5" opacity="0.12" rx="1"/>
-
-  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5"/>
-  <text x="135" y="110" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" text-anchor="middle" font-weight="bold">Planning a Trip</text>
-  <!-- Speech bubbles -->
-  <ellipse cx="100" cy="155" rx="55" ry="25" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
-  <text x="100" y="152" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle">Hello!</text>
-  <text x="100" y="164" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle">How are you?</text>
-  <polygon points="120,175 130,195 110,175" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
-  <ellipse cx="175" cy="200" rx="45" ry="22" fill="#FFF3E0" stroke="#E65100" stroke-width="1.5"/>
-  <text x="175" y="197" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle">I am fine,</text>
-  <text x="175" y="208" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle">thank you!</text>
-  <!-- Vocabulary box -->
-  <rect x="45" y="230" width="180" height="45" rx="4" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
-  <text x="135" y="248" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Vocabulary: words</text>
-  <text x="135" y="262" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Grammar: tenses</text>
-
-  <rect x="260" y="90" width="215" height="200" rx="6" fill="white" stroke="#283593" stroke-width="1.5"/>
-  <text x="367" y="115" font-family="Arial,sans-serif" font-size="12" fill="#283593" text-anchor="middle" font-weight="bold">Grammar</text>
-  <!-- Tenses -->
-  <rect x="280" y="128" width="85" height="25" rx="3" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
-  <text x="322" y="145" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">Present Simple</text>
-  <rect x="375" y="128" width="85" height="25" rx="3" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
-  <text x="417" y="145" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle">Past Simple</text>
-  <rect x="280" y="160" width="85" height="25" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
-  <text x="322" y="177" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Future Simple</text>
-  <rect x="375" y="160" width="85" height="25" rx="3" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="1"/>
-  <text x="417" y="177" font-family="Arial,sans-serif" font-size="8" fill="#7B1FA2" text-anchor="middle">Continuous</text>
-  <!-- ABC -->
-  <text x="290" y="210" font-family="Arial,sans-serif" font-size="18" fill="#FF9800" font-weight="bold">A B C</text>
-  <text x="360" y="210" font-family="Arial,sans-serif" font-size="18" fill="#1565C0" font-weight="bold">D E F</text>
-  <!-- Big Ben -->
-  <rect x="300" y="225" width="30" height="55" rx="3" fill="#B0BEC5" stroke="#78909C" stroke-width="1"/>
-  <polygon points="300,225 315,210 330,225" fill="#1565C0"/>
-  <rect x="308" y="235" width="14" height="14" rx="1" fill="white" stroke="#333" stroke-width="1"/>
-  <line x1="315" y1="235" x2="315" y2="242" stroke="#333" stroke-width="1"/>
-  <line x1="315" y1="242" x2="319" y2="240" stroke="#333" stroke-width="1"/>
-  <text x="367" y="280" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Reading, Writing, Speaking</text>
-<rect x="15" y="310" width="470" height="30" rx="4" fill="#283593" opacity="0.85"/>
-<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Английский язык</text>
-  <path d="M430,120 Q445,110 460,120 Q475,130 490,120" fill="none" stroke="#283593" stroke-width="1" opacity="0.12"/>
-  <path d="M430,135 Q445,125 460,135 Q475,145 490,135" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.1"/>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="350" fill="#0d1520"/>
+  <!-- Map background -->
+  <rect x="30" y="30" width="280" height="200" rx="4" fill="#1a3a2a" stroke="#4caf50" stroke-width="1.5"/>
+  <!-- Map grid -->
+  <line x1="30" y1="80" x2="310" y2="80" stroke="#2e7d32" stroke-width="0.5" opacity="0.3"/>
+  <line x1="30" y1="130" x2="310" y2="130" stroke="#2e7d32" stroke-width="0.5" opacity="0.3"/>
+  <line x1="30" y1="180" x2="310" y2="180" stroke="#2e7d32" stroke-width="0.5" opacity="0.3"/>
+  <line x1="100" y1="30" x2="100" y2="230" stroke="#2e7d32" stroke-width="0.5" opacity="0.3"/>
+  <line x1="170" y1="30" x2="170" y2="230" stroke="#2e7d32" stroke-width="0.5" opacity="0.3"/>
+  <line x1="240" y1="30" x2="240" y2="230" stroke="#2e7d32" stroke-width="0.5" opacity="0.3"/>
+  <!-- Land shapes -->
+  <path d="M50,60 Q80,50 120,55 Q160,40 200,50 Q230,55 260,70 Q280,80 290,100 Q280,130 250,150 Q220,160 190,155 Q150,150 120,160 Q90,155 60,140 Q40,120 50,90 Z" fill="#2e7d32" opacity="0.3" stroke="#4caf50" stroke-width="1"/>
+  <!-- Water -->
+  <path d="M60,170 Q100,165 140,175 Q180,180 220,170 Q260,165 290,180" fill="none" stroke="#42a5f5" stroke-width="1.5" opacity="0.4"/>
+  <!-- Map pins -->
+  <circle cx="120" cy="90" r="6" fill="#ef5350" stroke="#fff" stroke-width="1"/>
+  <rect x="117" y="96" width="6" height="10" fill="#ef5350"/>
+  <text x="100" y="120" font-size="7" fill="#ef9a9a">Paris</text>
+  <circle cx="200" cy="70" r="6" fill="#42a5f5" stroke="#fff" stroke-width="1"/>
+  <rect x="197" y="76" width="6" height="10" fill="#42a5f5"/>
+  <text x="183" y="98" font-size="7" fill="#90caf9">London</text>
+  <circle cx="250" cy="120" r="6" fill="#ff9800" stroke="#fff" stroke-width="1"/>
+  <rect x="247" y="126" width="6" height="10" fill="#ff9800"/>
+  <text x="237" y="148" font-size="7" fill="#ffcc80">Rome</text>
+  <!-- Route line -->
+  <path d="M200,70 Q160,80 120,90 Q140,110 250,120" fill="none" stroke="#ffeb3b" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.5"/>
+  <!-- Compass -->
+  <circle cx="275" cy="50" r="18" fill="#1a2a3a" stroke="#78909c" stroke-width="1"/>
+  <text x="271" y="42" font-size="7" fill="#ef5350">N</text>
+  <text x="271" y="62" font-size="7" fill="#78909c">S</text>
+  <text x="260" y="54" font-size="7" fill="#78909c">W</text>
+  <text x="281" y="54" font-size="7" fill="#78909c">E</text>
+  <!-- Suitcase -->
+  <rect x="340" y="50" width="70" height="55" rx="6" fill="#5d4037" stroke="#8d6e63" stroke-width="2"/>
+  <rect x="358" y="42" width="34" height="12" rx="4" fill="#8d6e63" stroke="#6d4c41" stroke-width="1"/>
+  <rect x="345" y="70" width="60" height="5" rx="2" fill="#4e342e"/>
+  <text x="345" y="120" font-size="9" fill="#8d6e63">Suitcase</text>
+  <!-- Tickets -->
+  <rect x="340" y="140" width="80" height="35" rx="4" fill="#eceff1" stroke="#90a4ae" stroke-width="1"/>
+  <rect x="345" y="145" width="30" height="25" rx="2" fill="#37474f" opacity="0.2"/>
+  <line x1="390" y1="140" x2="390" y2="175" stroke="#90a4ae" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="395" y="157" font-size="7" fill="#546e7a">BOARDING</text>
+  <text x="395" y="168" font-size="7" fill="#546e7a">PASS</text>
+  <text x="345" y="190" font-size="9" fill="#90a4ae">Ticket</text>
+  <!-- Passport -->
+  <rect x="430" y="140" width="50" height="35" rx="2" fill="#1565c0" stroke="#1976d2" stroke-width="1.5"/>
+  <text x="437" y="158" font-size="6" fill="#90caf9">PASSPORT</text>
+  <circle cx="455" cy="168" r="5" fill="none" stroke="#42a5f5" stroke-width="0.5"/>
+  <text x="430" y="190" font-size="9" fill="#90caf9">Passport</text>
+  <!-- Camera -->
+  <rect x="440" y="55" width="40" height="28" rx="4" fill="#37474f" stroke="#546e7a" stroke-width="1.5"/>
+  <circle cx="460" cy="69" r="8" fill="#263238" stroke="#78909c" stroke-width="1"/>
+  <circle cx="460" cy="69" r="4" fill="#42a5f5" opacity="0.3"/>
+  <rect x="448" y="51" width="14" height="6" rx="2" fill="#546e7a"/>
+  <text x="438" y="96" font-size="9" fill="#78909c">Camera</text>
+  <!-- Phrases -->
+  <rect x="30" y="250" width="440" height="70" rx="6" fill="#1a2332" stroke="#4caf50" stroke-width="1"/>
+  <text x="50" y="270" font-size="9" fill="#4caf50" font-weight="bold">Planning a Trip - Useful Phrases:</text>
+  <text x="50" y="286" font-size="8" fill="#a5d6a7">"I'm going to visit Paris next summer."</text>
+  <text x="50" y="300" font-size="8" fill="#a5d6a7">"We need to book a hotel and buy tickets."</text>
+  <text x="280" y="286" font-size="8" fill="#a5d6a7">"How long is the flight?"</text>
+  <text x="280" y="300" font-size="8" fill="#a5d6a7">"Don't forget your passport!"</text>
+  <text x="200" y="340" font-size="9" fill="#fff" opacity="0.5">Planning a Trip</text>
 </svg>

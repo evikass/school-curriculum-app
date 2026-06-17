@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E3F2FD"/><stop offset="100%" stop-color="#BBDEFB"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+<text x="250" y="30" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1565C0" text-anchor="middle">Инертность. Масса. Второй закон Ньютона</text>
+<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Физика 10 класс — Урок 16</text>
+<line x1="30" y1="52" x2="470" y2="52" stroke="#1565C0" stroke-width="1.5" opacity="0.25"/>
+
+<g transform="translate(250,175)">
+<!-- F = ma central diagram -->
+<circle cx="0" cy="0" r="60" fill="#1565C0" opacity="0.05" stroke="#1565C0" stroke-width="2"/>
+<text x="0" y="-15" font-family="Arial,sans-serif" font-size="18" fill="#1565C0" text-anchor="middle" font-weight="bold">F = ma</text>
+<text x="0" y="5" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Второй закон Ньютона</text>
+</g>
+<g transform="translate(80,110)">
+<rect x="-50" y="-25" width="100" height="50" rx="5" fill="white" stroke="#E53935" stroke-width="1.2"/>
+<text x="0" y="-10" font-family="Arial,sans-serif" font-size="6" fill="#E53935" text-anchor="middle" font-weight="bold">F — сила</text>
+<text x="0" y="5" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">Равнодействующая</text>
+<text x="0" y="16" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">всех сил (Н)</text>
+</g>
+<g transform="translate(420,110)">
+<rect x="-50" y="-25" width="100" height="50" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.2"/>
+<text x="0" y="-10" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle" font-weight="bold">m — масса</text>
+<text x="0" y="5" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">Мера инертности</text>
+<text x="0" y="16" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">(кг)</text>
+</g>
+<g transform="translate(80,250)">
+<rect x="-50" y="-25" width="100" height="50" rx="5" fill="white" stroke="#FF6F00" stroke-width="1.2"/>
+<text x="0" y="-10" font-family="Arial,sans-serif" font-size="6" fill="#FF6F00" text-anchor="middle" font-weight="bold">a — ускорение</text>
+<text x="0" y="5" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">Быстрота изменения</text>
+<text x="0" y="16" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">скорости (м/с^2)</text>
+</g>
+<g transform="translate(420,250)">
+<rect x="-55" y="-25" width="110" height="50" rx="5" fill="white" stroke="#7B1FA2" stroke-width="1.2"/>
+<text x="0" y="-10" font-family="Arial,sans-serif" font-size="6" fill="#7B1FA2" text-anchor="middle" font-weight="bold">Инертность</text>
+<text x="0" y="5" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">Свойство тела</text>
+<text x="0" y="16" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">сопротивляться изменению v</text>
+</g>
+
+<rect x="10" y="325" width="480" height="20" rx="4" fill="#1565C0" opacity="0.85"/>
+<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Физика 10 класс</text>
+</svg>

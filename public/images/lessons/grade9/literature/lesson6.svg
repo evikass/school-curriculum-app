@@ -1,80 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7B1FA2"/>
-      <stop offset="100%" stop-color="#AB47BC"/>
-    </linearGradient>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="100%" stop-color="#F3E5F5"/>
-    </linearGradient>
-  </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="8"/>
-  <rect width="500" height="44" fill="url(#hdr)" rx="8"/>
-  <rect y="36" width="500" height="8" fill="url(#hdr)"/>
-  <text x="250" y="18" text-anchor="middle" font-size="13" fill="#FFFFFF" font-weight="bold" font-family="Arial">Урок 6. А.С. Пушкин — лирика и ключевые произведения</text>
-  <text x="250" y="34" text-anchor="middle" font-size="9" fill="#E1BEE7" font-family="Arial">1799-1837 • «Солнце русской поэзии»</text>
-  <!-- Author portrait area -->
-  <rect x="10" y="52" width="120" height="68" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1.2"/>
-  <circle cx="70" cy="78" r="16" fill="#E1BEE7" stroke="#AB47BC" stroke-width="1"/>
-  <text x="70" y="83" text-anchor="middle" font-size="16" fill="#7B1FA2" font-family="Arial">&#9998;</text>
-  <text x="70" y="103" text-anchor="middle" font-size="7.5" fill="#7B1FA2" font-weight="bold" font-family="Arial">Александр Сергеевич</text>
-  <text x="70" y="114" text-anchor="middle" font-size="7.5" fill="#7B1FA2" font-weight="bold" font-family="Arial">Пушкин</text>
-  <!-- Themes of lyrics -->
-  <rect x="140" y="52" width="350" height="68" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1.2"/>
-  <text x="315" y="66" text-anchor="middle" font-size="9.5" fill="#7B1FA2" font-weight="bold" font-family="Arial">Основные темы лирики</text>
-  <line x1="150" y1="69" x2="480" y2="69" stroke="#E1BEE7" stroke-width="1"/>
-  <rect x="148" y="74" width="75" height="18" rx="3" fill="#7B1FA2" opacity="0.15"/>
-  <text x="185" y="86" text-anchor="middle" font-size="7.5" fill="#212121" font-family="Arial">Свобода</text>
-  <rect x="228" y="74" width="75" height="18" rx="3" fill="#7B1FA2" opacity="0.15"/>
-  <text x="265" y="86" text-anchor="middle" font-size="7.5" fill="#212121" font-family="Arial">Любовь</text>
-  <rect x="308" y="74" width="75" height="18" rx="3" fill="#7B1FA2" opacity="0.15"/>
-  <text x="345" y="86" text-anchor="middle" font-size="7.5" fill="#212121" font-family="Arial">Природа</text>
-  <rect x="388" y="74" width="92" height="18" rx="3" fill="#7B1FA2" opacity="0.15"/>
-  <text x="434" y="86" text-anchor="middle" font-size="7.5" fill="#212121" font-family="Arial">Назначение</text>
-  <text x="148" y="102" font-size="7.5" fill="#757575" font-family="Arial">«К Чаадаеву», «К морю» • «Я вас любил...» • «Зимнее утро» • «Пророк»</text>
-  <text x="148" y="114" font-size="7.5" fill="#757575" font-family="Arial">«Анчар» • «На холмах Грузии...» • «Осень» • «Памятник», «Поэт»</text>
-  <!-- Key poems -->
-  <rect x="10" y="126" width="155" height="68" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1"/>
-  <text x="87" y="140" text-anchor="middle" font-size="9" fill="#7B1FA2" font-weight="bold" font-family="Arial">Ключевые стихи</text>
-  <line x1="20" y1="143" x2="155" y2="143" stroke="#E1BEE7" stroke-width="1"/>
-  <text x="18" y="155" font-size="7.5" fill="#212121" font-family="Arial">«К Чаадаеву» — свобода</text>
-  <text x="18" y="166" font-size="7.5" fill="#212121" font-family="Arial">«Пророк» — назначение поэта</text>
-  <text x="18" y="177" font-size="7.5" fill="#212121" font-family="Arial">«Я вас любил...» — любовь</text>
-  <text x="18" y="188" font-size="7.5" fill="#212121" font-family="Arial">«Анчар» — тирания</text>
-  <!-- Eugene Onegin -->
-  <rect x="175" y="126" width="315" height="68" rx="5" fill="#E1BEE7" opacity="0.4"/>
-  <text x="332" y="140" text-anchor="middle" font-size="9.5" fill="#7B1FA2" font-weight="bold" font-family="Arial">Роман в стихах «Евгений Онегин»</text>
-  <line x1="185" y1="143" x2="480" y2="143" stroke="#AB47BC" stroke-width="0.5"/>
-  <text x="183" y="155" font-size="7.5" fill="#212121" font-family="Arial">«Энциклопедия русской жизни» (Белинский)</text>
-  <text x="183" y="166" font-size="7.5" fill="#212121" font-family="Arial">Онегин — «лишний человек», Татьяна — «милый идеал»</text>
-  <text x="183" y="177" font-size="7.5" fill="#212121" font-family="Arial">Онегинская строфа (14 строк), особая рифмовка</text>
-  <text x="183" y="188" font-size="7.5" fill="#757575" font-family="Arial">Открытый финал: судьба героев не решена</text>
-  <!-- Famous quote -->
-  <rect x="10" y="200" width="480" height="26" rx="5" fill="#7B1FA2" opacity="0.1"/>
-  <text x="250" y="214" text-anchor="middle" font-size="8.5" fill="#7B1FA2" font-style="italic" font-family="Arial">«Я помню чудное мгновенье: передо мной явилась ты...» — тема вдохновения и любви</text>
-  <text x="250" y="224" text-anchor="middle" font-size="7" fill="#757575" font-family="Arial">Посвящено А.П. Керн</text>
-  <!-- Poet's mission -->
-  <rect x="10" y="232" width="235" height="60" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1"/>
-  <text x="127" y="246" text-anchor="middle" font-size="9" fill="#7B1FA2" font-weight="bold" font-family="Arial">Назначение поэта</text>
-  <line x1="20" y1="249" x2="235" y2="249" stroke="#E1BEE7" stroke-width="1"/>
-  <text x="18" y="260" font-size="7.5" fill="#212121" font-family="Arial">«Пророк» — поэт как посланник Бога</text>
-  <text x="18" y="271" font-size="7.5" fill="#212121" font-family="Arial">«Поэт» — творец независим от толпы</text>
-  <text x="18" y="282" font-size="7.5" fill="#212121" font-family="Arial">«Памятник» — бессмертие поэзии</text>
-  <!-- Other works -->
-  <rect x="255" y="232" width="235" height="60" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1"/>
-  <text x="372" y="246" text-anchor="middle" font-size="9" fill="#7B1FA2" font-weight="bold" font-family="Arial">Другие произведения</text>
-  <line x1="265" y1="249" x2="480" y2="249" stroke="#E1BEE7" stroke-width="1"/>
-  <text x="263" y="260" font-size="7.5" fill="#212121" font-family="Arial">«Капитанская дочка» — истор. повесть</text>
-  <text x="263" y="271" font-size="7.5" fill="#212121" font-family="Arial">«Медный всадник» — поэма о государстве</text>
-  <text x="263" y="282" font-size="7.5" fill="#212121" font-family="Arial">«Борис Годунов» • «Повести Белкина»</text>
-  <!-- Legacy -->
-  <rect x="10" y="298" width="480" height="36" rx="5" fill="#7B1FA2" opacity="0.08"/>
-  <text x="250" y="312" text-anchor="middle" font-size="8.5" fill="#7B1FA2" font-weight="bold" font-family="Arial">Пушкин — основоположник современного русского литературного языка</text>
-  <text x="250" y="324" text-anchor="middle" font-size="7.5" fill="#757575" font-family="Arial">Им завершено формирование русского национального литературного языка</text>
-  <rect y="338" width="500" height="12" fill="#7B1FA2" rx="0"/>
-  <rect y="338" width="500" height="12" fill="url(#hdr)" rx="0"/>
-  <text x="250" y="348" text-anchor="middle" font-size="8" fill="#FFFFFF" font-family="Arial">Литература 9 класс</text>
-  <line x1="10" y1="296" x2="10" y2="296" stroke="#E1BEE7" stroke-width="0.5" opacity="0.3"/>
-  <line x1="10" y1="300" x2="106" y2="300" stroke="#E1BEE7" stroke-width="0.5" opacity="0.3"/>
+  <defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#0f3460"/><stop offset="100%" style="stop-color:#1a1a2e"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <text x="250" y="25" text-anchor="middle" fill="#f1c40f" font-size="14" font-weight="bold">А.С. Пушкин (1799–1837)</text>
+  <text x="250" y="42" text-anchor="middle" fill="white" font-size="10">«Солнце русской поэзии»</text>
+  <!-- Eugene Onegin structure -->
+  <rect x="30" y="55" width="440" height="45" rx="6" fill="#0f3460" stroke="#f1c40f" stroke-width="1.5"/>
+  <text x="250" y="82" text-anchor="middle" fill="#f1c40f" font-size="12" font-weight="bold">«Евгений Онегин» — энциклопедия русской жизни</text>
+  <!-- Two characters -->
+  <rect x="30" y="110" width="210" height="80" rx="8" fill="#2c3e50" opacity="0.8" stroke="#e74c3c" stroke-width="1"/>
+  <text x="135" y="135" text-anchor="middle" fill="#e74c3c" font-size="12" font-weight="bold">Онегин</text>
+  <text x="135" y="155" text-anchor="middle" fill="white" font-size="9">«Лишний человек»</text>
+  <text x="135" y="170" text-anchor="middle" fill="white" font-size="9">Разочарованный аристократ</text>
+  <text x="135" y="183" text-anchor="middle" fill="white" font-size="9">Не нашёл применения силам</text>
+  <rect x="260" y="110" width="210" height="80" rx="8" fill="#2c3e50" opacity="0.8" stroke="#9b59b6" stroke-width="1"/>
+  <text x="365" y="135" text-anchor="middle" fill="#9b59b6" font-size="12" font-weight="bold">Татьяна</text>
+  <text x="365" y="155" text-anchor="middle" fill="white" font-size="9">«Милый идеал» Пушкина</text>
+  <text x="365" y="170" text-anchor="middle" fill="white" font-size="9">«Русская душою»</text>
+  <text x="365" y="183" text-anchor="middle" fill="white" font-size="9">Верная долгу</text>
+  <!-- Lyric themes -->
+  <rect x="30" y="205" width="90" height="50" rx="5" fill="#8e44ad" opacity="0.7"/>
+  <text x="75" y="228" text-anchor="middle" fill="white" font-size="9">Свобода</text>
+  <text x="75" y="245" text-anchor="middle" fill="white" font-size="8">«К Чаадаеву»</text>
+  <rect x="125" y="205" width="90" height="50" rx="5" fill="#e74c3c" opacity="0.7"/>
+  <text x="170" y="228" text-anchor="middle" fill="white" font-size="9">Любовь</text>
+  <text x="170" y="245" text-anchor="middle" fill="white" font-size="8">«Я вас любил»</text>
+  <rect x="220" y="205" width="90" height="50" rx="5" fill="#f1c40f" opacity="0.6"/>
+  <text x="265" y="228" text-anchor="middle" fill="white" font-size="9">Дружба</text>
+  <text x="265" y="245" text-anchor="middle" fill="white" font-size="8">«19 октября»</text>
+  <rect x="315" y="205" width="90" height="50" rx="5" fill="#27ae60" opacity="0.7"/>
+  <text x="360" y="228" text-anchor="middle" fill="white" font-size="9">Философия</text>
+  <text x="360" y="245" text-anchor="middle" fill="white" font-size="8">«Пророк»</text>
+  <rect x="410" y="205" width="70" height="50" rx="5" fill="#4fc3f7" opacity="0.7"/>
+  <text x="445" y="228" text-anchor="middle" fill="white" font-size="9">Природа</text>
+  <text x="445" y="245" text-anchor="middle" fill="white" font-size="8">«Осень»</text>
+  <!-- Quote -->
+  <rect x="30" y="270" width="440" height="45" rx="6" fill="#0f3460" stroke="#f1c40f" stroke-width="1"/>
+  <text x="250" y="290" text-anchor="middle" fill="#f1c40f" font-size="10" font-style="italic">«Я вас любил: любовь ещё, быть может…»</text>
+  <text x="250" y="307" text-anchor="middle" fill="white" font-size="9">Шедевр любовной лирики</text>
+  <text x="250" y="345" text-anchor="middle" fill="white" font-size="9" opacity="0.5">А.С. Пушкин</text>
 </svg>

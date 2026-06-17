@@ -1,84 +1,57 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8F5E9"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="bg15" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#607D8B;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#90A4AE;stop-opacity:0.08"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="12"/>
-  <rect x="0" y="0" width="500" height="50" fill="#66BB6A" rx="12"/>
-  <rect x="0" y="25" width="500" height="25" fill="#66BB6A"/>
-  <text x="250" y="34" text-anchor="middle" fill="#FFF" font-size="16" font-weight="bold" font-family="Arial,sans-serif">Урок 15. Формирование правильной осанки</text>
-  <!-- Correct posture diagram -->
-  <rect x="15" y="60" width="155" height="140" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
-  <rect x="15" y="60" width="155" height="25" fill="#66BB6A" rx="8"/>
-  <rect x="15" y="77" width="155" height="8" fill="#66BB6A"/>
-  <text x="92" y="78" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold" font-family="Arial,sans-serif">Правильная осанка</text>
-  <!-- Stick figure with correct posture -->
-  <circle cx="92" cy="100" r="8" fill="none" stroke="#66BB6A" stroke-width="2"/>
-  <line x1="92" y1="108" x2="92" y2="150" stroke="#66BB6A" stroke-width="2"/>
-  <line x1="92" y1="120" x2="75" y2="135" stroke="#66BB6A" stroke-width="2"/>
-  <line x1="92" y1="120" x2="109" y2="135" stroke="#66BB6A" stroke-width="2"/>
-  <line x1="92" y1="150" x2="80" y2="180" stroke="#66BB6A" stroke-width="2"/>
-  <line x1="92" y1="150" x2="104" y2="180" stroke="#66BB6A" stroke-width="2"/>
-  <text x="92" y="195" text-anchor="middle" fill="#2E7D32" font-size="8" font-weight="bold" font-family="Arial,sans-serif">Голова прямо</text>
-  <text x="92" y="205" text-anchor="middle" fill="#666" font-size="7" font-family="Arial,sans-serif">Плечи на уровне</text>
-  <text x="92" y="215" text-anchor="middle" fill="#666" font-size="7" font-family="Arial,sans-serif">Лопатки прижаты</text>
-  <text x="92" y="225" text-anchor="middle" fill="#666" font-size="7" font-family="Arial,sans-serif">Живот подтянут</text>
-
-  <!-- Posture disorders -->
-  <rect x="175" y="60" width="155" height="140" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
-  <rect x="175" y="60" width="155" height="25" fill="#E53935" rx="8"/>
-  <rect x="175" y="77" width="155" height="8" fill="#E53935"/>
-  <text x="252" y="78" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold" font-family="Arial,sans-serif">Нарушения осанки</text>
-  <!-- Slouching figure -->
-  <circle cx="230" cy="103" r="7" fill="none" stroke="#E53935" stroke-width="1.5"/>
-  <path d="M230,110 Q228,130 230,150" fill="none" stroke="#E53935" stroke-width="1.5"/>
-  <text x="245" y="105" fill="#E53935" font-size="8" font-family="Arial,sans-serif">Круглая спина</text>
-  <!-- Swayback figure -->
-  <circle cx="230" cy="140" r="7" fill="none" stroke="#FF9800" stroke-width="1.5"/>
-  <path d="M230,147 Q235,160 230,180" fill="none" stroke="#FF9800" stroke-width="1.5"/>
-  <text x="245" y="155" fill="#FF9800" font-size="8" font-family="Arial,sans-serif">Прогнутая спина</text>
-  <!-- Scoliosis -->
-  <path d="M230,195 Q240,205 235,215 Q230,225 240,230" fill="none" stroke="#7B1FA2" stroke-width="2"/>
-  <text x="250" y="215" fill="#7B1FA2" font-size="8" font-family="Arial,sans-serif">Сколиоз</text>
-
-  <!-- Prevention exercises -->
-  <rect x="335" y="60" width="150" height="140" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
-  <rect x="335" y="60" width="150" height="25" fill="#66BB6A" rx="8"/>
-  <rect x="335" y="77" width="150" height="8" fill="#66BB6A"/>
-  <text x="410" y="78" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold" font-family="Arial,sans-serif">Профилактика</text>
-  <text x="345" y="100" fill="#333" font-size="8" font-family="Arial,sans-serif">• Правильная посадка</text>
-  <text x="345" y="112" fill="#333" font-size="8" font-family="Arial,sans-serif">• Мебель по росту</text>
-  <text x="345" y="124" fill="#333" font-size="8" font-family="Arial,sans-serif">• Рюкзак на 2 лямках</text>
-  <text x="345" y="136" fill="#333" font-size="8" font-family="Arial,sans-serif">• Вес рюкзака до 10%</text>
-  <text x="345" y="148" fill="#333" font-size="8" font-family="Arial,sans-serif">• Сон на ровном</text>
-  <text x="345" y="160" fill="#333" font-size="8" font-family="Arial,sans-serif">• Контрастный душ</text>
-  <text x="345" y="175" fill="#333" font-size="8" font-family="Arial,sans-serif">• Плавание!</text>
-  <text x="345" y="190" fill="#333" font-size="8" font-family="Arial,sans-serif">• Двигательный режим</text>
-
-  <!-- Exercises panel -->
-  <rect x="15" y="210" width="230" height="110" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
-  <rect x="15" y="210" width="230" height="25" fill="#2E7D32" rx="8"/>
-  <rect x="15" y="227" width="230" height="8" fill="#2E7D32"/>
-  <text x="130" y="228" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Упражнения для осанки</text>
-  <text x="25" y="252" fill="#333" font-size="9" font-family="Arial,sans-serif">• «Ласточка» — равновесие</text>
-  <text x="25" y="265" fill="#333" font-size="9" font-family="Arial,sans-serif">• «Лодочка» — лёжа на животе</text>
-  <text x="25" y="278" fill="#333" font-size="9" font-family="Arial,sans-serif">• «Рыбка» — прогиб спины</text>
-  <text x="25" y="291" fill="#333" font-size="9" font-family="Arial,sans-serif">• Упор присев-упор лёжа</text>
-  <text x="25" y="304" fill="#333" font-size="9" font-family="Arial,sans-serif">• Круги руками назад</text>
-  <text x="25" y="317" fill="#333" font-size="9" font-family="Arial,sans-serif">• Ходьба с книгой на голове</text>
-
-  <!-- Self-check -->
-  <rect x="255" y="210" width="230" height="110" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
-  <rect x="255" y="210" width="230" height="25" fill="#2E7D32" rx="8"/>
-  <rect x="255" y="227" width="230" height="8" fill="#2E7D32"/>
-  <text x="370" y="228" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Самоконтроль осанки</text>
-  <text x="265" y="252" fill="#333" font-size="9" font-family="Arial,sans-serif">• У стены: 5 точек касания</text>
-  <text x="265" y="265" fill="#333" font-size="9" font-family="Arial,sans-serif">  (затылок, лопатки, ягодицы,</text>
-  <text x="265" y="278" fill="#333" font-size="9" font-family="Arial,sans-serif">   икры, пятки)</text>
-  <text x="265" y="294" fill="#333" font-size="9" font-family="Arial,sans-serif">• Зеркало: симметрия плеч</text>
-  <text x="265" y="307" fill="#333" font-size="9" font-family="Arial,sans-serif">• Фото сбоку: S-кривизна</text>
-  <text x="265" y="323" fill="#2E7D32" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Обращаться к ортопеду!</text>
+  <rect width="500" height="350" fill="#1a1a2e"/>
+  <rect width="500" height="350" fill="url(#bg15)"/>
+  <!-- Gear/cog -->
+  <g transform="translate(60,50)">
+    <circle cx="40" cy="40" r="25" fill="none" stroke="#90A4AE" stroke-width="3" opacity="0.5"/>
+    <circle cx="40" cy="40" r="12" fill="none" stroke="#90A4AE" stroke-width="2" opacity="0.4"/>
+    <rect x="36" y="8" width="8" height="12" fill="#90A4AE" opacity="0.4" rx="1"/>
+    <rect x="36" y="60" width="8" height="12" fill="#90A4AE" opacity="0.4" rx="1"/>
+    <rect x="8" y="36" width="12" height="8" fill="#90A4AE" opacity="0.4" rx="1"/>
+    <rect x="60" y="36" width="12" height="8" fill="#90A4AE" opacity="0.4" rx="1"/>
+  </g>
+  <!-- Briefcase -->
+  <g transform="translate(200,50)">
+    <rect x="0" y="15" width="60" height="40" fill="#607D8B" opacity="0.4" rx="5"/>
+    <rect x="15" y="5" width="30" height="15" fill="none" stroke="#90A4AE" stroke-width="2" rx="3"/>
+    <line x1="0" y1="30" x2="60" y2="30" stroke="#90A4AE" stroke-width="1.5" opacity="0.3"/>
+  </g>
+  <!-- Hard hat (construction) -->
+  <g transform="translate(340,40)">
+    <path d="M5,35 Q5,5 40,5 Q75,5 75,35Z" fill="#FF9800" opacity="0.5"/>
+    <rect x="0" y="33" width="80" height="8" fill="#FF9800" opacity="0.4" rx="2"/>
+  </g>
+  <!-- Figure with weights (physical work) -->
+  <g transform="translate(80,150)">
+    <circle cx="30" cy="10" r="10" fill="#90A4AE"/>
+    <line x1="30" y1="20" x2="30" y2="55" stroke="#90A4AE" stroke-width="3" stroke-linecap="round"/>
+    <line x1="30" y1="30" x2="10" y2="20" stroke="#90A4AE" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="30" y1="30" x2="50" y2="20" stroke="#90A4AE" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="30" y1="55" x2="15" y2="80" stroke="#90A4AE" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="30" y1="55" x2="45" y2="80" stroke="#90A4AE" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Weight box -->
+    <rect x="0" y="15" width="12" height="10" fill="#607D8B" opacity="0.5" rx="1"/>
+    <rect x="48" y="15" width="12" height="10" fill="#607D8B" opacity="0.5" rx="1"/>
+  </g>
+  <!-- Computer/desk worker -->
+  <g transform="translate(250,150)">
+    <rect x="0" y="30" width="60" height="40" fill="#607D8B" opacity="0.3" rx="3"/>
+    <rect x="5" y="20" width="50" height="12" fill="#90A4AE" opacity="0.3" rx="2"/>
+    <circle cx="30" cy="10" r="8" fill="#90A4AE" opacity="0.5"/>
+    <line x1="30" y1="18" x2="30" y2="25" stroke="#90A4AE" stroke-width="2" opacity="0.5"/>
+  </g>
+  <!-- Arrow connecting fitness to career -->
+  <g transform="translate(180,260)">
+    <line x1="0" y1="20" x2="140" y2="20" stroke="#607D8B" stroke-width="2" opacity="0.5"/>
+    <polygon points="140,20 130,14 130,26" fill="#607D8B" opacity="0.5"/>
+    <text x="20" y="15" font-size="8" fill="#90A4AE" opacity="0.5" font-family="sans-serif">ЗДОРОВЬЕ</text>
+    <text x="90" y="15" font-size="8" fill="#90A4AE" opacity="0.5" font-family="sans-serif">КАРЬЕРА</text>
+  </g>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#aaa" opacity="0.5" font-family="sans-serif">Профессионально-прикладная ФП</text>
 </svg>

@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" font-family="Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F5E9"/>
+      <stop offset="100%" style="stop-color:#C8E6C9"/>
+    </linearGradient>
+    <linearGradient id="sky6" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#81D4FA"/>
+      <stop offset="100%" style="stop-color:#B3E5FC"/>
+    </linearGradient>
+    <filter id="shadow6" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg6)" rx="8"/>
+  <!-- Title bar -->
+  <rect x="0" y="0" width="500" height="42" fill="#2E7D32" rx="8"/>
+  <rect x="0" y="20" width="500" height="22" fill="#2E7D32"/>
+  <text x="250" y="28" text-anchor="middle" fill="white" font-size="16" font-weight="bold">Урок 6: Популяция</text>
+
+  <!-- Landscape scene -->
+  <!-- Sky -->
+  <rect x="10" y="48" width="480" height="125" rx="6" fill="url(#sky6)"/>
+
+  <!-- Mountains -->
+  <polygon points="10,173 80,100 150,173" fill="#78909C" opacity="0.4"/>
+  <polygon points="100,173 200,85 300,173" fill="#607D8B" opacity="0.3"/>
+  <polygon points="250,173 350,95 450,173" fill="#78909C" opacity="0.35"/>
+  <polygon points="380,173 470,110 490,173" fill="#607D8B" opacity="0.3"/>
+
+  <!-- Sun -->
+  <circle cx="430" cy="75" r="18" fill="#FFF176" opacity="0.8"/>
+  <circle cx="430" cy="75" r="13" fill="#FFEE58"/>
+
+  <!-- Ground -->
+  <rect x="10" y="155" width="480" height="18" rx="0" fill="#66BB6A"/>
+  <rect x="10" y="155" width="480" height="8" rx="0" fill="#81C784"/>
+
+  <!-- Trees -->
+  <g transform="translate(60,130)">
+    <rect x="-2" y="5" width="4" height="15" fill="#5D4037"/>
+    <ellipse cx="0" cy="0" rx="12" ry="10" fill="#388E3C"/>
+    <ellipse cx="-5" cy="3" rx="8" ry="7" fill="#43A047"/>
+  </g>
+  <g transform="translate(380,135)">
+    <rect x="-2" y="5" width="4" height="12" fill="#5D4037"/>
+    <ellipse cx="0" cy="0" rx="10" ry="8" fill="#388E3C"/>
+    <ellipse cx="4" cy="2" rx="7" ry="6" fill="#43A047"/>
+  </g>
+
+  <!-- Population 1 (left group - red dots) -->
+  <g>
+    <circle cx="80" cy="140" r="4" fill="#EF5350" stroke="#C62828" stroke-width="0.8"/>
+    <circle cx="90" cy="138" r="4" fill="#EF5350" stroke="#C62828" stroke-width="0.8"/>
+    <circle cx="85" cy="148" r="4" fill="#EF5350" stroke="#C62828" stroke-width="0.8"/>
+    <circle cx="95" cy="145" r="4" fill="#EF5350" stroke="#C62828" stroke-width="0.8"/>
+    <circle cx="78" cy="150" r="4" fill="#EF5350" stroke="#C62828" stroke-width="0.8"/>
+    <circle cx="100" cy="140" r="4" fill="#EF5350" stroke="#C62828" stroke-width="0.8"/>
+  </g>
+  <text x="88" y="166" text-anchor="middle" fill="#C62828" font-size="8" font-weight="bold">Популяция 1</text>
+
+  <!-- Population 2 (center group - blue dots) -->
+  <g>
+    <circle cx="230" cy="142" r="4" fill="#42A5F5" stroke="#1565C0" stroke-width="0.8"/>
+    <circle cx="240" cy="140" r="4" fill="#42A5F5" stroke="#1565C0" stroke-width="0.8"/>
+    <circle cx="235" cy="150" r="4" fill="#42A5F5" stroke="#1565C0" stroke-width="0.8"/>
+    <circle cx="248" cy="147" r="4" fill="#42A5F5" stroke="#1565C0" stroke-width="0.8"/>
+    <circle cx="222" cy="148" r="4" fill="#42A5F5" stroke="#1565C0" stroke-width="0.8"/>
+    <circle cx="245" cy="137" r="4" fill="#42A5F5" stroke="#1565C0" stroke-width="0.8"/>
+    <circle cx="255" cy="143" r="4" fill="#42A5F5" stroke="#1565C0" stroke-width="0.8"/>
+  </g>
+  <text x="240" y="166" text-anchor="middle" fill="#1565C0" font-size="8" font-weight="bold">Популяция 2</text>
+
+  <!-- Population 3 (right group - orange dots) -->
+  <g>
+    <circle cx="390" cy="145" r="4" fill="#FFA726" stroke="#E65100" stroke-width="0.8"/>
+    <circle cx="400" cy="143" r="4" fill="#FFA726" stroke="#E65100" stroke-width="0.8"/>
+    <circle cx="395" cy="152" r="4" fill="#FFA726" stroke="#E65100" stroke-width="0.8"/>
+    <circle cx="405" cy="150" r="4" fill="#FFA726" stroke="#E65100" stroke-width="0.8"/>
+    <circle cx="385" cy="150" r="4" fill="#FFA726" stroke="#E65100" stroke-width="0.8"/>
+  </g>
+  <text x="395" y="166" text-anchor="middle" fill="#E65100" font-size="8" font-weight="bold">Популяция 3</text>
+
+  <!-- Gene flow arrows between populations -->
+  <path d="M108,143 C140,125 180,125 218,140" fill="none" stroke="#9C27B0" stroke-width="2" stroke-dasharray="4,2"/>
+  <polygon points="218,140 212,135 214,143" fill="#9C27B0"/>
+  <path d="M262,140 C300,125 340,125 378,143" fill="none" stroke="#9C27B0" stroke-width="2" stroke-dasharray="4,2"/>
+  <polygon points="378,143 372,138 374,146" fill="#9C27B0"/>
+
+  <text x="170" y="120" text-anchor="middle" fill="#9C27B0" font-size="7" font-weight="bold">Поток генов</text>
+  <text x="330" y="120" text-anchor="middle" fill="#9C27B0" font-size="7" font-weight="bold">Поток генов</text>
+
+  <!-- River at bottom of landscape -->
+  <path d="M10,173 Q100,168 200,173 Q300,178 400,173 Q450,170 490,175 L490,173 Q450,168 400,173 Q300,178 200,173 Q100,168 10,173Z" fill="#42A5F5" opacity="0.4"/>
+
+  <!-- Bottom section: Bell curve for allele frequency -->
+  <rect x="10" y="183" width="480" height="157" rx="6" fill="white" fill-opacity="0.8" stroke="#2E7D32" stroke-width="1"/>
+  <text x="250" y="200" text-anchor="middle" fill="#1B5E20" font-size="11" font-weight="bold">Распределение частоты аллелей в популяции</text>
+
+  <!-- Axes -->
+  <line x1="60" y1="310" x2="460" y2="310" stroke="#2E7D32" stroke-width="1.5"/>
+  <line x1="60" y1="310" x2="60" y2="215" stroke="#2E7D32" stroke-width="1.5"/>
+  <polygon points="460,310 453,306 453,314" fill="#2E7D32"/>
+  <polygon points="60,215 56,222 64,222" fill="#2E7D32"/>
+
+  <text x="260" y="328" text-anchor="middle" fill="#1B5E20" font-size="9">Значение признака</text>
+  <text x="35" y="270" fill="#1B5E20" font-size="8" transform="rotate(-90,35,270)">Частота</text>
+
+  <!-- Bell curve -->
+  <path d="M80,308 Q100,306 130,295 Q160,270 200,240 Q230,225 260,222 Q290,225 320,240 Q360,270 390,295 Q420,306 440,308" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+  <!-- Fill under curve -->
+  <path d="M80,308 Q100,306 130,295 Q160,270 200,240 Q230,225 260,222 Q290,225 320,240 Q360,270 390,295 Q420,306 440,308 L440,310 L80,310Z" fill="#4CAF50" fill-opacity="0.2"/>
+
+  <!-- Mean line -->
+  <line x1="260" y1="218" x2="260" y2="310" stroke="#C62828" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="260" y="214" text-anchor="middle" fill="#C62828" font-size="8" font-weight="bold">μ (среднее)</text>
+
+  <!-- Standard deviation markers -->
+  <line x1="180" y1="250" x2="180" y2="310" stroke="#FF9800" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <line x1="340" y1="250" x2="340" y2="310" stroke="#FF9800" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <text x="180" y="320" text-anchor="middle" fill="#FF9800" font-size="7">-σ</text>
+  <text x="340" y="320" text-anchor="middle" fill="#FF9800" font-size="7">+σ</text>
+  <text x="260" y="320" text-anchor="middle" fill="#C62828" font-size="7">0</text>
+
+  <!-- Sigma bracket -->
+  <path d="M180,256 L180,260 L340,260 L340,256" fill="none" stroke="#FF9800" stroke-width="1"/>
+  <text x="260" y="270" text-anchor="middle" fill="#E65100" font-size="7">68% особей</text>
+
+  <!-- Info box -->
+  <rect x="350" y="222" width="130" height="48" rx="4" fill="#E8F5E9" stroke="#43A047" stroke-width="0.8"/>
+  <text x="415" y="236" text-anchor="middle" fill="#1B5E20" font-size="7" font-weight="bold">Закон Харди-Вайнберга:</text>
+  <text x="415" y="248" text-anchor="middle" fill="#2E7D32" font-size="8">p² + 2pq + q² = 1</text>
+  <text x="415" y="260" text-anchor="middle" fill="#388E3C" font-size="6">В равновесной популяции</text>
+  <text x="415" y="268" text-anchor="middle" fill="#388E3C" font-size="6">частоты аллелей постоянны</text>
+</svg>

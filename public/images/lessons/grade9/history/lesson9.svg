@@ -1,38 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FBE9E7"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FF7043"/>
-      <stop offset="100%" stop-color="#BF360C"/>
+    <linearGradient id="vov1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2D3748"/>
+      <stop offset="100%" stop-color="#4A5568"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FF7043" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#FF7043" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#FF7043" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#BF360C" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#FF7043" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#BF360C" opacity="0.12"/>
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#FF7043" text-anchor="middle">Политические репрессии</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">История — Урок 9</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#FF7043" stroke-width="2" opacity="0.25"/>
-  <rect x="20" y="72" width="460" height="25" rx="4" fill="#FF7043" opacity="0.07"/>
-  <text x="250" y="89" font-family="Arial,sans-serif" font-size="12" fill="#BF360C" text-anchor="middle" font-weight="bold">1930-е годы</text>
-  <rect x="20" y="102" width="225" height="170" rx="4" fill="#FF7043" opacity="0.05"/>
-  <text x="28" y="118" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Большой террор 1937-1938</text>
-  <text x="28" y="140" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">ГУЛАГ: миллионы заключённых</text>
-  <text x="28" y="162" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Показательные процессы</text>
-  <rect x="255" y="102" width="225" height="170" rx="4" fill="#FF7043" opacity="0.05"/>
-  <text x="263" y="118" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Репрессии в армии: уничтожение командиров</text>
-  <text x="263" y="140" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Конституция 1936 — «победившего социализма»</text>
-  <text x="263" y="162" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Культ личности Сталина</text>
-  <rect x="20" y="278" width="225" height="22" rx="4" fill="#FF7043" opacity="0.06"/>
-  <text x="132" y="293" font-family="Arial,sans-serif" font-size="10" fill="#BF360C" text-anchor="middle" font-weight="bold">Массовые репрессии</text>
-  <rect x="255" y="278" width="225" height="22" rx="4" fill="#FF7043" opacity="0.06"/>
-  <text x="367" y="293" font-family="Arial,sans-serif" font-size="10" fill="#BF360C" text-anchor="middle" font-weight="bold">Тоталитарный режим</text>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">История · Политические репрессии</text>
+  <rect width="500" height="350" fill="url(#vov1)"/>
+  <!-- Red star -->
+  <g transform="translate(250,80)">
+    <polygon points="0,-40 10,-14 40,-14 16,5 24,35 0,18 -24,35 -16,5 -40,-14 -10,-14" fill="#C53030" opacity="0.7"/>
+  </g>
+  <!-- Tank -->
+  <g transform="translate(160,200)" fill="#2D3748" opacity="0.7">
+    <rect x="0" y="-15" width="60" height="20" rx="5"/>
+    <rect x="15" y="-30" width="35" height="18" rx="3"/>
+    <line x1="50" y1="-25" x2="80" y2="-40" stroke="#2D3748" stroke-width="4"/>
+    <ellipse cx="10" cy="10" rx="10" ry="8"/><ellipse cx="30" cy="10" rx="10" ry="8"/>
+    <ellipse cx="50" cy="10" rx="10" ry="8"/>
+  </g>
+  <!-- Explosions -->
+  <g transform="translate(350,150)">
+    <circle cx="0" cy="0" r="20" fill="#E53E3E" opacity="0.5"/>
+    <circle cx="0" cy="0" r="12" fill="#F6AD55" opacity="0.6"/>
+    <circle cx="0" cy="0" r="5" fill="#FEFCBF" opacity="0.8"/>
+  </g>
+  <!-- Smoke -->
+  <ellipse cx="320" cy="110" rx="30" ry="15" fill="#718096" opacity="0.2"/>
+  <ellipse cx="380" cy="100" rx="25" ry="12" fill="#718096" opacity="0.15"/>
+  <!-- Date -->
+  <text x="250" y="175" text-anchor="middle" font-size="28" fill="#E2E8F0" font-weight="bold" opacity="0.5">22.06.1941</text>
+  <text x="250" y="310" text-anchor="middle" font-size="18" fill="#FC8181" font-weight="bold" opacity="0.6">Великая Отечественная</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#E2E8F0" opacity="0.5">Начало войны</text>
 </svg>

@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+  <defs>
+    <linearGradient id="bg27" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F5E9;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#C8E6C9;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="liver27" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8D6E63;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#6D4C41;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="pancreas27" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFAB91;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FF8A65;stop-opacity:1"/>
+    </linearGradient>
+    <marker id="arrow27" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#2E7D32"/>
+    </marker>
+    <marker id="arrow27r" markerWidth="5" markerHeight="5" refX="4" refY="2.5" orient="auto">
+      <path d="M0,0 L5,2.5 L0,5 Z" fill="#C62828"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg27)" rx="12"/>
+  <rect width="500" height="350" fill="none" rx="12" stroke="#2E7D32" stroke-width="2.5"/>
+
+  <!-- Title -->
+  <text x="250" y="22" font-family="Arial, sans-serif" font-size="14" fill="#1B5E20" text-anchor="middle" font-weight="bold">Пищеварение в кишечнике. Всасывание</text>
+  <text x="250" y="34" font-family="Arial, sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 8 класс — Урок 27</text>
+  <line x1="15" y1="40" x2="485" y2="40" stroke="#2E7D32" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- MAIN SECTION: Small Intestine with Duodenum -->
+  <rect x="12" y="46" width="310" height="185" rx="6" fill="white" opacity="0.45" stroke="#4CAF50" stroke-width="0.8"/>
+  <text x="167" y="58" font-family="Arial, sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">Тонкий кишечник</text>
+
+  <!-- Duodenum (C-shaped) -->
+  <path d="M50 70 L50 130 Q50 150 70 150 L130 150 Q150 150 150 130 L150 110" fill="none" stroke="#FF8A65" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+  <path d="M50 70 L50 130 Q50 150 70 150 L130 150 Q150 150 150 130 L150 110" fill="none" stroke="#E64A19" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="95" y="100" font-family="Arial, sans-serif" font-size="7" fill="#BF360C" text-anchor="middle" font-weight="bold">Двенадцатиперстная</text>
+  <text x="95" y="110" font-family="Arial, sans-serif" font-size="7" fill="#BF360C" text-anchor="middle">кишка</text>
+
+  <!-- Bile duct -->
+  <path d="M50 65 L25 52" stroke="#8D6E63" stroke-width="2" fill="none"/>
+  <circle cx="22" cy="50" r="5" fill="#A1887F" stroke="#6D4C41" stroke-width="0.5"/>
+  <text x="22" y="53" font-family="Arial, sans-serif" font-size="4.5" fill="white" text-anchor="middle" font-weight="bold">Жёлчь</text>
+  <text x="36" y="62" font-family="Arial, sans-serif" font-size="5.5" fill="#5D4037" font-weight="bold">Жёлчный проток</text>
+
+  <!-- Pancreatic duct -->
+  <path d="M150 105 L185 90" stroke="#FF8A65" stroke-width="2" fill="none"/>
+  <ellipse cx="200" cy="85" rx="25" ry="10" fill="url(#pancreas27)" stroke="#E64A19" stroke-width="0.8"/>
+  <text x="200" y="89" font-family="Arial, sans-serif" font-size="6" fill="#BF360C" text-anchor="middle" font-weight="bold">Поджелудочная</text>
+  <text x="170" y="100" font-family="Arial, sans-serif" font-size="5" fill="#E64A19">Панкреатический проток</text>
+
+  <!-- Liver -->
+  <path d="M10 48 Q10 30 35 28 L60 28 Q70 30 68 45 Q65 55 50 55 L20 55 Q10 53 10 48 Z" fill="url(#liver27)" stroke="#4E342E" stroke-width="0.8"/>
+  <text x="40" y="42" font-family="Arial, sans-serif" font-size="6" fill="white" text-anchor="middle" font-weight="bold">Печень</text>
+
+  <!-- Rest of small intestine (coiled) -->
+  <path d="M150 115 Q170 115 170 135 Q170 155 190 155 Q210 155 210 135 Q210 115 230 115 Q250 115 250 135 Q250 155 270 155 Q290 155 290 135 Q290 115 305 115" fill="none" stroke="#FF8A65" stroke-width="8" stroke-linecap="round" opacity="0.5"/>
+  <text x="230" y="130" font-family="Arial, sans-serif" font-size="6" fill="#E64A19" text-anchor="middle">Тощая кишка</text>
+  <text x="290" y="150" font-family="Arial, sans-serif" font-size="6" fill="#E64A19" text-anchor="middle">Подвздошная</text>
+
+  <!-- Enzyme action boxes -->
+  <rect x="170" y="162" width="145" height="62" rx="3" fill="#FFF3E0" stroke="#FF9800" stroke-width="0.6"/>
+  <text x="242" y="173" font-family="Arial, sans-serif" font-size="7" fill="#E65100" text-anchor="middle" font-weight="bold">Ферментативное расщепление:</text>
+  <text x="180" y="185" font-family="Arial, sans-serif" font-size="6.5" fill="#BF360C">Пептиды → Аминокислоты</text>
+  <text x="180" y="196" font-family="Arial, sans-serif" font-size="6.5" fill="#BF360C">Жиры → Глицерин + ЖК</text>
+  <text x="180" y="207" font-family="Arial, sans-serif" font-size="6.5" fill="#BF360C">Мальтоза → Глюкоза</text>
+  <text x="180" y="218" font-family="Arial, sans-serif" font-size="5.5" fill="#FF8F00">(трипсин, липаза, амилаза)</text>
+
+  <!-- VILLI detail -->
+  <rect x="12" y="235" width="205" height="70" rx="5" fill="white" opacity="0.7" stroke="#2E7D32" stroke-width="0.7"/>
+  <text x="114" y="247" font-family="Arial, sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">Ворсинки кишечника</text>
+
+  <!-- Intestinal wall -->
+  <rect x="25" y="252" width="180" height="5" rx="2" fill="#FFCCBC" stroke="#FF8A65" stroke-width="0.5"/>
+  <text x="115" y="257" font-family="Arial, sans-serif" font-size="5" fill="#E64A19" text-anchor="middle">Стенка кишечника</text>
+
+  <!-- Villi shapes -->
+  <path d="M35 252 Q40 232 45 252 Z" fill="#FFCDD2" stroke="#E57373" stroke-width="0.6"/>
+  <path d="M55 252 Q60 228 65 252 Z" fill="#FFCDD2" stroke="#E57373" stroke-width="0.6"/>
+  <path d="M75 252 Q80 230 85 252 Z" fill="#FFCDD2" stroke="#E57373" stroke-width="0.6"/>
+  <path d="M95 252 Q100 226 105 252 Z" fill="#FFCDD2" stroke="#E57373" stroke-width="0.6"/>
+  <path d="M115 252 Q120 230 125 252 Z" fill="#FFCDD2" stroke="#E57373" stroke-width="0.6"/>
+  <path d="M135 252 Q140 228 145 252 Z" fill="#FFCDD2" stroke="#E57373" stroke-width="0.6"/>
+  <path d="M155 252 Q160 232 165 252 Z" fill="#FFCDD2" stroke="#E57373" stroke-width="0.6"/>
+  <path d="M175 252 Q180 230 185 252 Z" fill="#FFCDD2" stroke="#E57373" stroke-width="0.6"/>
+
+  <!-- Blood capillaries inside villi -->
+  <line x1="60" y1="250" x2="60" y2="234" stroke="#F44336" stroke-width="0.5"/>
+  <line x1="100" y1="250" x2="100" y2="230" stroke="#F44336" stroke-width="0.5"/>
+  <line x1="140" y1="250" x2="140" y2="232" stroke="#F44336" stroke-width="0.5"/>
+  <line x1="180" y1="250" x2="180" y2="234" stroke="#F44336" stroke-width="0.5"/>
+
+  <!-- Lymph capillary (lacteal) inside villi -->
+  <line x1="62" y1="250" x2="62" y2="236" stroke="#7E57C2" stroke-width="0.5" stroke-dasharray="1,0.5"/>
+  <line x1="102" y1="250" x2="102" y2="232" stroke="#7E57C2" stroke-width="0.5" stroke-dasharray="1,0.5"/>
+  <line x1="142" y1="250" x2="142" y2="234" stroke="#7E57C2" stroke-width="0.5" stroke-dasharray="1,0.5"/>
+
+  <!-- Legend for villi -->
+  <circle cx="30" cy="275" r="2" fill="#F44336"/>
+  <text x="35" y="278" font-family="Arial, sans-serif" font-size="5.5" fill="#C62828">Кровеносные капилляры</text>
+  <circle cx="120" cy="275" r="2" fill="#7E57C2"/>
+  <text x="125" y="278" font-family="Arial, sans-serif" font-size="5.5" fill="#4527A0">Лимфатические капилляры</text>
+
+  <!-- Microvilli label -->
+  <text x="114" y="292" font-family="Arial, sans-serif" font-size="5.5" fill="#888" text-anchor="middle">Микроворсинки увеличивают площадь всасывания в 600 раз</text>
+
+  <!-- RIGHT PANEL: Large Intestine -->
+  <rect x="330" y="46" width="158" height="100" rx="5" fill="white" opacity="0.7" stroke="#2E7D32" stroke-width="0.7"/>
+  <text x="409" y="58" font-family="Arial, sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">Толстая кишка</text>
+
+  <!-- Large intestine outline -->
+  <path d="M370 70 L370 100 L450 100 L450 70" fill="none" stroke="#8D6E63" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+  <path d="M370 70 L370 100 L450 100 L450 70" fill="none" stroke="#5D4037" stroke-width="0.8"/>
+  <text x="410" y="75" font-family="Arial, sans-serif" font-size="5" fill="#5D4037" text-anchor="middle">Восходящая</text>
+  <text x="410" y="98" font-family="Arial, sans-serif" font-size="5" fill="#5D4037" text-anchor="middle">Нисходящая</text>
+
+  <!-- Cecum + appendix -->
+  <ellipse cx="370" cy="108" rx="10" ry="8" fill="#D7CCC8" stroke="#8D6E63" stroke-width="0.5"/>
+  <path d="M370 116 L370 128 L374 124" fill="none" stroke="#8D6E63" stroke-width="0.8"/>
+  <text x="385" y="112" font-family="Arial, sans-serif" font-size="5" fill="#5D4037">Слепая кишка</text>
+  <text x="385" y="126" font-family="Arial, sans-serif" font-size="5" fill="#C62828">Аппендикс</text>
+
+  <!-- Functions -->
+  <text x="345" y="115" font-family="Arial, sans-serif" font-size="5.5" fill="#333">• Всасывание воды</text>
+  <text x="345" y="123" font-family="Arial, sans-serif" font-size="5.5" fill="#333">• Формирование кала</text>
+  <text x="345" y="131" font-family="Arial, sans-serif" font-size="5.5" fill="#333">• Микробиом (E.coli и др.)</text>
+  <text x="345" y="139" font-family="Arial, sans-serif" font-size="5.5" fill="#333">• Витамины K, B синтез</text>
+
+  <!-- ABSORPTION PATHWAYS panel -->
+  <rect x="330" y="152" width="158" height="153" rx="5" fill="white" opacity="0.7" stroke="#2E7D32" stroke-width="0.7"/>
+  <text x="409" y="164" font-family="Arial, sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">Пути всасывания</text>
+
+  <!-- Amino acids & glucose → blood -->
+  <rect x="340" y="172" width="138" height="38" rx="3" fill="#FFEBEE" stroke="#EF9A9A" stroke-width="0.5"/>
+  <text x="409" y="183" font-family="Arial, sans-serif" font-size="6.5" fill="#C62828" text-anchor="middle" font-weight="bold">Аминокислоты, Глюкоза</text>
+  <text x="409" y="193" font-family="Arial, sans-serif" font-size="6" fill="#C62828" text-anchor="middle">→ Кровеносные капилляры</text>
+  <text x="409" y="203" font-family="Arial, sans-serif" font-size="6" fill="#C62828" text-anchor="middle">→ Воротная вена → Печень</text>
+
+  <!-- Arrow down -->
+  <path d="M409 212 L409 220" stroke="#2E7D32" stroke-width="0.8" marker-end="url(#arrow27)"/>
+
+  <!-- Fatty acids → lymph -->
+  <rect x="340" y="222" width="138" height="38" rx="3" fill="#F3E5F5" stroke="#CE93D8" stroke-width="0.5"/>
+  <text x="409" y="233" font-family="Arial, sans-serif" font-size="6.5" fill="#6A1B9A" text-anchor="middle" font-weight="bold">Глицерин, Жирные кислоты</text>
+  <text x="409" y="243" font-family="Arial, sans-serif" font-size="6" fill="#6A1B9A" text-anchor="middle">→ Лимфатические капилляры</text>
+  <text x="409" y="253" font-family="Arial, sans-serif" font-size="6" fill="#6A1B9A" text-anchor="middle">(млечные сосуды) → Кровь</text>
+
+  <!-- Water & minerals -->
+  <rect x="340" y="265" width="138" height="20" rx="3" fill="#E3F2FD" stroke="#90CAF9" stroke-width="0.5"/>
+  <text x="409" y="275" font-family="Arial, sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">Вода, Минеральные вещества</text>
+  <text x="409" y="283" font-family="Arial, sans-serif" font-size="5.5" fill="#1565C0" text-anchor="middle">→ Всасываются по всему ЖКТ</text>
+
+  <!-- Key info note -->
+  <text x="409" y="298" font-family="Arial, sans-serif" font-size="5" fill="#666" text-anchor="middle">Площадь всасывания: ~200 м²</text>
+
+  <!-- Footer -->
+  <rect x="0" y="335" width="500" height="15" rx="0" fill="#2E7D32"/>
+  <text x="250" y="346" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle" font-weight="bold">Тонкий кишечник: расщепление и всасывание | Толстый кишечник: вода и микробиом</text>
+</svg>

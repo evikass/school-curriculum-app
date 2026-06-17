@@ -15,7 +15,7 @@
         "lessons": [
           {
             "title": "Урок 1: Времена группы Perfect",
-            "description": "Present, Past, Future Perfect.",
+            "description": "Времена группы Perfect (совершённые времена) — одна из ключевых тем английской грамматики, которая часто вызывает затруднения у русскоязычных учащихся. Present Perfect (настоящее совершённое время) связывает прошлое с настоящим: действие завершилось, но его результат важен в настоящий момент. Образуется с помощью вспомогательного глагола have/has и третьей формы глагола (V3). Маркеры времени: already, just, yet, ever, never, recently. Past Perfect (прошедшее совершённое) выражает действие, завершившееся до другого действия в прошлом; образуется с помощью had + V3. Future Perfect (будущее совершённое) указывает, что действие завершится к определённому моменту в будущем: will have + V3. Важно понимать разницу между Perfect и Simple: I have lost my key (результат важен сейчас) vs I lost my key yesterday (факт в прошлом). Умение правильно выбирать время группы Perfect необходимо для сдачи экзаменов и свободного общения на английском языке.",
             "tasks": [
               "Present Perfect: have/has + V3",
               "Past Perfect: had + V3",
@@ -27,7 +27,8 @@
             "examples": [
               "I have finished. (Я закончил — результат)",
               "She had left when I came. (Она ушла до моего прихода)",
-              "By 2025 I will have graduated. (К 2025 я закончу)"
+              "By 2025 I will have graduated. (К 2025 я закончу)",
+              "Grammar exercise on Грамматика"
             ],
             "facts": [
               "Present Perfect связывает прошлое с настоящим",
@@ -37,12 +38,111 @@
             "keyPoints": [
               "Present Perfect: have/has + V3 — связывает прошлое с настоящим",
               "Past Perfect: had + V3 — действие завершилось до другого действия в прошлом",
-              "Future Perfect: will have + V3 — действие завершится к определённому моменту"
-            ]
+              "Future Perfect: will have + V3 — действие завершится к определённому моменту",
+              "Тема «Грамматика» требует комплексного подхода, включающего теоретическое изучение и практическое применение"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Как образуется Present Perfect?",
+                  "options": [
+                    "have/has + V3",
+                    "had + V3",
+                    "will have + V3",
+                    "have/has + V-ing"
+                  ],
+                  "correctAnswer": 0
+                },
+                {
+                  "question": "Какой маркер времени типичен для Present Perfect?",
+                  "options": [
+                    "yesterday",
+                    "already",
+                    "last week",
+                    "two days ago"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "Past Perfect выражает действие, которое:",
+                  "options": [
+                    "происходит сейчас",
+                    "завершилось до другого действия в прошлом",
+                    "произойдёт в будущем",
+                    "происходит регулярно"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "Выберите правильную форму: By 5 o'clock I ___ my work.",
+                  "options": [
+                    "will finish",
+                    "will have finished",
+                    "have finished",
+                    "had finished"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "В чём разница: I have lost my key / I lost my key yesterday?",
+                  "options": [
+                    "Никакой разницы",
+                    "Первая — результат важен сейчас, вторая — факт в прошлом",
+                    "Первая — в прошлом, вторая — сейчас",
+                    "Обе формы неправильные"
+                  ],
+                  "correctAnswer": 1
+                }
+              ],
+              "find": [
+                {
+                  "text": "Present Perfect образуется: have/has + ___",
+                  "answer": "V3"
+                },
+                {
+                  "text": "Past Perfect образуется: ___ + V3",
+                  "answer": "had"
+                },
+                {
+                  "text": "Future Perfect образуется: will ___ + V3",
+                  "answer": "have"
+                },
+                {
+                  "text": "Маркер Present Perfect: I have ___ seen this film (уже)",
+                  "answer": "already"
+                },
+                {
+                  "text": "Маркер Present Perfect: Have you ___ been to London? (когда-либо)",
+                  "answer": "ever"
+                }
+              ],
+              "match": [
+                {
+                  "term": "Present Perfect",
+                  "definition": "have/has + V3 — связывает прошлое с настоящим"
+                },
+                {
+                  "term": "Past Perfect",
+                  "definition": "had + V3 — действие до другого действия в прошлом"
+                },
+                {
+                  "term": "Future Perfect",
+                  "definition": "will have + V3 — действие завершится к моменту в будущем"
+                },
+                {
+                  "term": "already",
+                  "definition": "маркер Present Perfect — «уже»"
+                },
+                {
+                  "term": "yet",
+                  "definition": "маркер Present Perfect в отрицательных и вопросительных предложениях — «ещё»"
+                }
+              ]
+            }
           },
           {
             "title": "Урок 2: Passive Voice",
-            "description": "Страдательный залог.",
+            "description": "Страдательный залог (Passive Voice) — грамматическая конструкция, при которой подлежащим предложения является не деятель, а объект, на который направлено действие. Образуется по формуле: be + V3 (причастие прошедшего времени). Passive Voice используется в нескольких случаях: когда неизвестно, кто совершил действие (The window was broken); когда важнее объект, чем субъект (The Mona Lisa was painted by Da Vinci); в научных текстах и официальных документах (Water is heated to 100°C). Времена в пассиве: Present Simple (am/is/are + V3), Past Simple (was/were + V3), Future Simple (will be + V3), Present Continuous (am/is/are being + V3), Present Perfect (have/has been + V3). Отсутствуют Perfect Continuous и Future Continuous в пассиве. Для указания агента используется предлог by. Инфинитив в пассиве: to be done, to have been done. Знание пассивного залога необходимо для понимания научных текстов, новостей и официальных документов на английском языке.",
             "tasks": [
               "Образование пассивного залога",
               "Все времена в пассиве",
@@ -54,7 +154,8 @@
             "examples": [
               "The book is written. (Книга написана)",
               "The house was built in 1990. (Дом был построен)",
-              "English is spoken here. (Здесь говорят по-английски)"
+              "English is spoken here. (Здесь говорят по-английски)",
+              "Grammar exercise on Грамматика"
             ],
             "facts": [
               "В Passive не указывается, кто совершает действие",
@@ -64,12 +165,111 @@
             "keyPoints": [
               "Страдательный залог: be + V3 (причастие прошедшего времени)",
               "В Passive Voice неизвестно или неважно, кто совершает действие",
-              "Passive Voice часто используется в научных текстах и новостях"
-            ]
+              "Passive Voice часто используется в научных текстах и новостях",
+              "Тема «Грамматика» требует комплексного подхода, включающего теоретическое изучение и практическое применение"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Как образуется Passive Voice?",
+                  "options": [
+                    "be + V3",
+                    "have + V3",
+                    "do + V",
+                    "be + V-ing"
+                  ],
+                  "correctAnswer": 0
+                },
+                {
+                  "question": "The book was written by Pushkin. Это пример:",
+                  "options": [
+                    "Active Voice Present",
+                    "Passive Voice Past Simple",
+                    "Active Voice Past",
+                    "Passive Voice Present Simple"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "В каком времени Passive отсутствует?",
+                  "options": [
+                    "Present Simple",
+                    "Past Simple",
+                    "Future Continuous",
+                    "Present Perfect"
+                  ],
+                  "correctAnswer": 2
+                },
+                {
+                  "question": "Для указания агента в пассиве используется предлог:",
+                  "options": [
+                    "with",
+                    "by",
+                    "from",
+                    "to"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "English ___ here. (Здесь говорят по-английски) — правильная форма:",
+                  "options": [
+                    "is spoken",
+                    "speaks",
+                    "is speaking",
+                    "spoke"
+                  ],
+                  "correctAnswer": 0
+                }
+              ],
+              "find": [
+                {
+                  "text": "Passive Voice образуется: ___ + V3",
+                  "answer": "be"
+                },
+                {
+                  "text": "Предлог для указания деятеля в пассиве: written ___ Tolstoy",
+                  "answer": "by"
+                },
+                {
+                  "text": "Present Simple Passive: The book ___ read every day",
+                  "answer": "is"
+                },
+                {
+                  "text": "Past Simple Passive: The house ___ built in 1990",
+                  "answer": "was"
+                },
+                {
+                  "text": "Present Perfect Passive: The letter has ___ written",
+                  "answer": "been"
+                }
+              ],
+              "match": [
+                {
+                  "term": "Passive Voice",
+                  "definition": "be + V3 — подлежащее испытывает действие"
+                },
+                {
+                  "term": "by",
+                  "definition": "предлог для указания агента действия в пассиве"
+                },
+                {
+                  "term": "Active Voice",
+                  "definition": "подлежащее само совершает действие"
+                },
+                {
+                  "term": "is being + V3",
+                  "definition": "Present Continuous Passive"
+                },
+                {
+                  "term": "was/were + V3",
+                  "definition": "Past Simple Passive"
+                }
+              ]
+            }
           },
           {
             "title": "Урок 3: Conditionals",
-            "description": "Условные предложения.",
+            "description": "Условные предложения (Conditionals) — это сложноподчинённые предложения, состоящие из условия (if-часть) и результата (главная часть). В английском языке выделяют четыре основных типа условных предложений. Zero Conditional (If + Present Simple, Present Simple) выражает всегда истинные факты и законы природы: If you heat water to 100°C, it boils. First Conditional (If + Present Simple, will + V) описывает реальную возможность в будущем: If it rains, I will stay at home. Second Conditional (If + Past Simple, would + V) выражает нереальное условие в настоящем: If I had a million dollars, I would buy a house. Важно: после if используется were для всех лиц (If I were you). Third Conditional (If + Past Perfect, would have + V3) описывает нереальное условие в прошлом, сожаление о том, что уже нельзя изменить: If I had studied harder, I would have passed the exam. Существуют также смешанные условные предложения (Mixed Conditionals), где условие и результат относятся к разным временным периодам.",
             "tasks": [
               "Zero Conditional",
               "First Conditional",
@@ -81,7 +281,8 @@
             "examples": [
               "If you heat ice, it melts. (0 — факт)",
               "If it rains, I'll stay home. (I — реальное)",
-              "If I were rich, I would travel. (II — нереальное)"
+              "If I were rich, I would travel. (II — нереальное)",
+              "Grammar exercise on Грамматика"
             ],
             "facts": [
               "В II Conditional: If I were (не was!)",
@@ -91,12 +292,111 @@
             "keyPoints": [
               "Zero Conditional: If + Present, Present — всегда истинные факты",
               "First Conditional: If + Present, will + V — реальное будущее условие",
-              "Second Conditional: If + Past, would + V — нереальное условие"
-            ]
+              "Second Conditional: If + Past, would + V — нереальное условие",
+              "Тема «Грамматика» требует комплексного подхода, включающего теоретическое изучение и практическое применение"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Zero Conditional описывает:",
+                  "options": [
+                    "реальное будущее",
+                    "нереальное настоящее",
+                    "всегда истинные факты",
+                    "сожаление о прошлом"
+                  ],
+                  "correctAnswer": 2
+                },
+                {
+                  "question": "Структура First Conditional:",
+                  "options": [
+                    "If + Past, would + V",
+                    "If + Present, will + V",
+                    "If + Present, Present",
+                    "If + Past Perfect, would have + V3"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "If I ___ you, I would accept the offer. (На твоём месте)",
+                  "options": [
+                    "am",
+                    "was",
+                    "were",
+                    "be"
+                  ],
+                  "correctAnswer": 2
+                },
+                {
+                  "question": "Third Conditional выражает:",
+                  "options": [
+                    "факт",
+                    "реальное будущее условие",
+                    "нереальное настоящее",
+                    "нереальное условие в прошлом"
+                  ],
+                  "correctAnswer": 3
+                },
+                {
+                  "question": "If it rains, I will stay at home. Это пример:",
+                  "options": [
+                    "Zero Conditional",
+                    "First Conditional",
+                    "Second Conditional",
+                    "Third Conditional"
+                  ],
+                  "correctAnswer": 1
+                }
+              ],
+              "find": [
+                {
+                  "text": "Zero Conditional: If + Present Simple, ___ Simple",
+                  "answer": "Present"
+                },
+                {
+                  "text": "Second Conditional: If + Past Simple, ___ + V",
+                  "answer": "would"
+                },
+                {
+                  "text": "Third Conditional: If + Past Perfect, would ___ + V3",
+                  "answer": "have"
+                },
+                {
+                  "text": "В Second Conditional используется ___ для всех лиц: If I ___ you",
+                  "answer": "were"
+                },
+                {
+                  "text": "First Conditional описывает ___ условие в будущем",
+                  "answer": "реальное"
+                }
+              ],
+              "match": [
+                {
+                  "term": "Zero Conditional",
+                  "definition": "If + Present, Present — всегда истинные факты"
+                },
+                {
+                  "term": "First Conditional",
+                  "definition": "If + Present, will + V — реальное будущее условие"
+                },
+                {
+                  "term": "Second Conditional",
+                  "definition": "If + Past, would + V — нереальное условие в настоящем"
+                },
+                {
+                  "term": "Third Conditional",
+                  "definition": "If + Past Perfect, would have + V3 — нереальное прошлое"
+                },
+                {
+                  "term": "Mixed Conditional",
+                  "definition": "смешанное условие — условие и результат в разных временах"
+                }
+              ]
+            }
           },
           {
             "title": "Урок 4: Reported Speech",
-            "description": "Косвенная речь.",
+            "description": "Косвенная речь (Reported Speech) — способ передачи чужих слов без прямой цитаты. При переводе прямой речи в косвенную происходят важные изменения. Главное правило — сдвиг времён (Backshift): времена «отодвигаются назад» — Present Simple становится Past Simple, Present Continuous → Past Continuous, Present Perfect → Past Perfect, will → would, can → could, may → might, must → had to. Местоимения и наречия также меняются: I → he/she, this → that, here → there, now → then, today → that day, yesterday → the day before, tomorrow → the next day. Вопросы в косвенной речи: общие вопросы передаются с помощью if/whether (He asked if I liked coffee), специальные — с сохранением вопросительного слова (He asked where I lived), порядок слов становится прямым. Команды и просьбы: инфинитив с частицей to (He told me to open the door), запрет — not to + V (He told me not to go there). Эти правила необходимы для пересказа диалогов, написания эссе и общения.",
             "tasks": [
               "Прямая и косвенная речь",
               "Изменение времён",
@@ -108,7 +408,8 @@
             "examples": [
               "\"I am happy.\" → He said he was happy.",
               "\"Where do you live?\" → He asked where I lived.",
-              "\"Don't do it!\" → He told me not to do it."
+              "\"Don't do it!\" → He told me not to do it.",
+              "Grammar exercise on Грамматика"
             ],
             "facts": [
               "Время «сдвигается назад» в косвенной речи",
@@ -118,8 +419,107 @@
             "keyPoints": [
               "Косвенная речь передаёт чужие слова без прямой цитаты",
               "При переводе в косвенную речь времена сдвигаются назад (Backshift)",
-              "Вопросы в косвенной речи становятся утверждениями с if/whether"
-            ]
+              "Вопросы в косвенной речи становятся утверждениями с if/whether",
+              "Тема «Грамматика» требует комплексного подхода, включающего теоретическое изучение и практическое применение"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Что происходит с временами при переводе в косвенную речь?",
+                  "options": [
+                    "не меняются",
+                    "сдвигаются назад",
+                    "сдвигаются вперёд",
+                    "заменяются на Perfect"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "\"I am happy\" → He said he ___ happy.",
+                  "options": [
+                    "is",
+                    "was",
+                    "will be",
+                    "has been"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "Какой союз используется для передачи общего вопроса в косвенной речи?",
+                  "options": [
+                    "that",
+                    "if/whether",
+                    "what",
+                    "which"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "\"Open the door.\" → He told me ___ the door.",
+                  "options": [
+                    "open",
+                    "to open",
+                    "opening",
+                    "opened"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "В косвенной речи now заменяется на:",
+                  "options": [
+                    "then",
+                    "that day",
+                    "the day before",
+                    "the next day"
+                  ],
+                  "correctAnswer": 0
+                }
+              ],
+              "find": [
+                {
+                  "text": "При переводе в косвенную речь времена сдвигаются ___",
+                  "answer": "назад"
+                },
+                {
+                  "text": "Общие вопросы в косвенной речи передаются через ___/whether",
+                  "answer": "if"
+                },
+                {
+                  "text": "\"I will come\" → He said he ___ come",
+                  "answer": "would"
+                },
+                {
+                  "text": "Команды в косвенной речи: told + ___ + to + V",
+                  "answer": "me"
+                },
+                {
+                  "text": "yesterday в косвенной речи заменяется на the day ___",
+                  "answer": "before"
+                }
+              ],
+              "match": [
+                {
+                  "term": "Reported Speech",
+                  "definition": "косвенная речь — передача чужих слов без прямой цитаты"
+                },
+                {
+                  "term": "Backshift",
+                  "definition": "сдвиг времён назад при переводе в косвенную речь"
+                },
+                {
+                  "term": "if/whether",
+                  "definition": "союзы для передачи общих вопросов в косвенной речи"
+                },
+                {
+                  "term": "to + V",
+                  "definition": "форма команд в косвенной речи (He told me to open)"
+                },
+                {
+                  "term": "not to + V",
+                  "definition": "форма запретов в косвенной речи (He told me not to go)"
+                }
+              ]
+            }
           }
         ]
       },
@@ -128,7 +528,7 @@
         "lessons": [
           {
             "title": "Урок 5: Phrasal Verbs",
-            "description": "Фразовые глаголы.",
+            "description": "Фразовые глаголы (Phrasal Verbs) — уникальное явление английского языка, представляющее собой сочетание глагола с предлогом или наречием, значение которого часто не равно сумме значений его частей. Фразовые глаголы чрезвычайно распространены в повседневной речи и делают её более естественной. С предлогом up: give up (бросить), take up (начать заниматься), wake up (просыпаться), grow up (вырастать), look up (искать в словаре). С down: break down (сломаться), turn down (отклонить), write down (записать), calm down (успокоиться). С on/off: turn on/off (включить/выключить), put on/off (надеть/отложить), get on/off (сесть/выйти из транспорта). С out: find out (узнать), run out of (закончиться), work out (разработать, тренироваться). Разделяемые phrasal verbs допускают постановку местоимения между глаголом и частицей (put it on), неразделяемые — нет (look after him). Многие фразовые глаголы имеют несколько значений в зависимости от контекста.",
             "tasks": [
               "Глаголы с up, down, on, off",
               "Глаголы с out, away, back",
@@ -140,7 +540,8 @@
             "examples": [
               "give up — бросить; take up — начать",
               "turn on/off — включить/выключить",
-              "find out — узнать; run out of — закончиться"
+              "find out — узнать; run out of — закончиться",
+              "Grammar exercise on Лексика"
             ],
             "facts": [
               "Фразовые глаголы очень распространены в английском",
@@ -150,12 +551,111 @@
             "keyPoints": [
               "Phrasal verb = глагол + предлог/наречие, значение часто не равно сумме частей",
               "Разделяемые phrasal verbs: put on, take off (местоимение между глаголом и частицей)",
-              "Неразделяемые phrasal verbs: look after, run into"
-            ]
+              "Неразделяемые phrasal verbs: look after, run into",
+              "Тема «Лексика» требует комплексного подхода, включающего теоретическое изучение и практическое применение"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Что такое phrasal verb?",
+                  "options": [
+                    "глагол в прошедшем времени",
+                    "глагол + предлог/наречие с особым значением",
+                    "вспомогательный глагол",
+                    "модальный глагол"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "Что означает phrasal verb «give up»?",
+                  "options": [
+                    "поднять",
+                    "бросить, отказаться",
+                    "вернуть",
+                    "передать"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "Какой phrasal verb означает «узнать, выяснить»?",
+                  "options": [
+                    "give out",
+                    "find out",
+                    "look up",
+                    "turn down"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "В разделяемых phrasal verbs местоимение ставится:",
+                  "options": [
+                    "после частицы",
+                    "между глаголом и частицей",
+                    "перед глаголом",
+                    "в конце предложения"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "Что означает «run out of»?",
+                  "options": [
+                    "выбежать",
+                    "закончиться (о запасах)",
+                    "наткнуться",
+                    "управлять"
+                  ],
+                  "correctAnswer": 1
+                }
+              ],
+              "find": [
+                {
+                  "text": "give ___ — бросить, отказаться от чего-либо",
+                  "answer": "up"
+                },
+                {
+                  "text": "turn ___ — отклонить предложение, отказать",
+                  "answer": "down"
+                },
+                {
+                  "text": "find ___ — узнать, выяснить что-либо",
+                  "answer": "out"
+                },
+                {
+                  "text": "put ___ — надеть одежду; отложить мероприятие",
+                  "answer": "on"
+                },
+                {
+                  "text": "look ___ — искать слово в словаре",
+                  "answer": "up"
+                }
+              ],
+              "match": [
+                {
+                  "term": "give up",
+                  "definition": "бросить, отказаться (I gave up smoking)"
+                },
+                {
+                  "term": "break down",
+                  "definition": "сломаться (My car broke down)"
+                },
+                {
+                  "term": "turn on/off",
+                  "definition": "включить/выключить (Turn on the light)"
+                },
+                {
+                  "term": "work out",
+                  "definition": "разработать план; тренироваться"
+                },
+                {
+                  "term": "take up",
+                  "definition": "начать заниматься чем-то (He took up tennis)"
+                }
+              ]
+            }
           },
           {
             "title": "Урок 6: Idioms",
-            "description": "Английские идиомы.",
+            "description": "Идиомы (Idioms) — устойчивые выражения, значение которых не выводится из значений отдельных слов. Идиомы — неотъемлемая часть английского языка, без знания которой невозможно полное понимание речи носителей. Идиомы о погоде: under the weather (плохо себя чувствовать), rain cats and dogs (лить как из ведра), break the ice (разрядить обстановку). Идиомы о деньгах: cost an arm and a leg (стоить очень дорого), make ends meet (сводить концы с концами), breadwinner (кормилец). Идиомы о чувствах: over the moon (на седьмом небе от счастья), down in the dumps (в унынии), butterflies in the stomach (мурашки по коже от волнения). Идиомы о работе: burn the midnight oil (работать допоздна), hit the nail on the head (попасть в точку), pull one's weight (делать свою долю работы). Идиомы со зверями: let the cat out of the bag (выдать секрет), a piece of cake (пара пустяков), the lion's share (львиная доля). Знание идиом обогащает речь и помогает лучше понимать английскую литературу и разговорный язык.",
             "tasks": [
               "Идиомы с частями тела",
               "Идиомы с животными",
@@ -167,7 +667,8 @@
             "examples": [
               "break a leg — ни пуха ни пера!",
               "let the cat out of the bag — выдать секрет",
-              "once in a blue moon — очень редко"
+              "once in a blue moon — очень редко",
+              "Grammar exercise on Лексика"
             ],
             "facts": [
               "Идиомы делают речь живой и естественной",
@@ -177,12 +678,111 @@
             "keyPoints": [
               "Идиома — устойчивое выражение, смысл которого не складывается из значений слов",
               "Идиомы делают речь более естественной и выразительной",
-              "Не переводите идиомы дословно — используйте словари идиом"
-            ]
+              "Не переводите идиомы дословно — используйте словари идиом",
+              "Тема «Лексика» требует комплексного подхода, включающего теоретическое изучение и практическое применение"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Что означает идиома «under the weather»?",
+                  "options": [
+                    "под дождём",
+                    "плохо себя чувствовать",
+                    "на свежем воздухе",
+                    "в хорошем настроении"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "Идиома «cost an arm and a leg» означает:",
+                  "options": [
+                    "быть бесплатным",
+                    "стоить очень дорого",
+                    "быть опасным",
+                    "требовать усилий"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "Что означает «a piece of cake»?",
+                  "options": [
+                    "кусок торта",
+                    "сложная задача",
+                    "пара пустяков, легко",
+                    "десерт"
+                  ],
+                  "correctAnswer": 2
+                },
+                {
+                  "question": "Идиома «break the ice» означает:",
+                  "options": [
+                    "разбить лёд",
+                    "разрядить обстановку",
+                    "замёрзнуть",
+                    "простудиться"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "«Let the cat out of the bag» — это значит:",
+                  "options": [
+                    "выпустить кота",
+                    "выдать секрет",
+                    "покупать кота",
+                    "испугаться"
+                  ],
+                  "correctAnswer": 1
+                }
+              ],
+              "find": [
+                {
+                  "text": "Идиома «make ___ meet» — сводить концы с концами",
+                  "answer": "ends"
+                },
+                {
+                  "text": "«Burn the midnight ___» — работать допоздна",
+                  "answer": "oil"
+                },
+                {
+                  "text": "«Over the ___» — на седьмом небе от счастья",
+                  "answer": "moon"
+                },
+                {
+                  "text": "«Rain cats and ___» — лить как из ведра",
+                  "answer": "dogs"
+                },
+                {
+                  "text": "«Hit the nail on the ___» — попасть в точку",
+                  "answer": "head"
+                }
+              ],
+              "match": [
+                {
+                  "term": "under the weather",
+                  "definition": "плохо себя чувствовать"
+                },
+                {
+                  "term": "cost an arm and a leg",
+                  "definition": "стоить очень дорого"
+                },
+                {
+                  "term": "break the ice",
+                  "definition": "разрядить обстановку, начать знакомство"
+                },
+                {
+                  "term": "a piece of cake",
+                  "definition": "пара пустяков, очень легко"
+                },
+                {
+                  "term": "butterflies in the stomach",
+                  "definition": "мурашки по коже от волнения"
+                }
+              ]
+            }
           },
           {
             "title": "Урок 7: Word Formation",
-            "description": "Словообразование.",
+            "description": "Словообразование (Word Formation) — система правил создания новых слов от существующих основ. Понимание словообразования значительно расширяет словарный запас и помогает угадывать значения незнакомых слов. Основные способы словообразования: аффиксация (приставки и суффиксы), конверсия, словосложение. Приставки (prefixes): un-/in-/im-/dis-/il-/ir- придают отрицательное значение (happy → unhappy, possible → impossible, agree → disagree); re- означает повторность (write → rewrite); over- — избыточность (cook → overcook). Суффиксы существительных: -tion/-sion (educate → education), -ment (develop → development), -ness (happy → happiness), -ity (possible → possibility), -er/-or (teach → teacher). Суффиксы прилагательных: -ful (care → careful), -less (care → careless), -ous (danger → dangerous), -able/-ible (read → readable). Суффиксы глаголов: -ize (modern → modernize), -en (wide → widen), -fy (simple → simplify). Конверсия: water (сущ.) → to water (глаг.), run (глаг.) → a run (сущ.). Словосложение: notebook, blackboard, brainstorm.",
             "tasks": [
               "Префиксы",
               "Суффиксы существительных",
@@ -194,7 +794,8 @@
             "examples": [
               "un- = не- (unhappy); -ful = с качеством (useful)",
               "-er = деятель (teacher); -tion = действие (education)",
-              "-less = без качества (useless, hopeless)"
+              "-less = без качества (useless, hopeless)",
+              "Grammar exercise on Лексика"
             ],
             "facts": [
               "Знание суффиксов помогает угадывать значение слов",
@@ -204,8 +805,107 @@
             "keyPoints": [
               "Суффиксы и приставки помогают образовывать новые слова",
               "Negative prefixes: un-, in-, dis-, il-, ir-, im-",
-              "Части речи можно менять с помощью суффиксов: -tion, -ment, -ness, -able"
-            ]
+              "Части речи можно менять с помощью суффиксов: -tion, -ment, -ness, -able",
+              "Тема «Лексика» требует комплексного подхода, включающего теоретическое изучение и практическое применение"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Приставка un- придаёт слову:",
+                  "options": [
+                    "усиление значения",
+                    "отрицательное значение",
+                    "повторность",
+                    "будущее время"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "Суффикс -tion образует:",
+                  "options": [
+                    "прилагательные",
+                    "глаголы",
+                    "существительные",
+                    "наречия"
+                  ],
+                  "correctAnswer": 2
+                },
+                {
+                  "question": "Слово «happiness» образовано с помощью суффикса:",
+                  "options": [
+                    "-ment",
+                    "-ness",
+                    "-tion",
+                    "-ful"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "Конверсия — это:",
+                  "options": [
+                    "добавление суффикса",
+                    "переход слова из одной части речи в другую без изменения формы",
+                    "сложение двух слов",
+                    "добавление приставки"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "Суффикс -less означает:",
+                  "options": [
+                    "полный чего-то",
+                    "без чего-то, отсутствие",
+                    "маленький",
+                    "подобный"
+                  ],
+                  "correctAnswer": 1
+                }
+              ],
+              "find": [
+                {
+                  "text": "Приставка re- означает ___ действия (write → rewrite)",
+                  "answer": "повторность"
+                },
+                {
+                  "text": "Суффикс ___ образует существительные от глаголов: develop → development",
+                  "answer": "-ment"
+                },
+                {
+                  "text": "Суффикс ___ образует прилагательные: danger → dangerous",
+                  "answer": "-ous"
+                },
+                {
+                  "text": "Приставка ___ придаёт отрицание: possible → impossible",
+                  "answer": "im-"
+                },
+                {
+                  "text": "Словообразование сложением: ___ + board = blackboard",
+                  "answer": "black"
+                }
+              ],
+              "match": [
+                {
+                  "term": "un-/in-/im-/dis-",
+                  "definition": "приставки с отрицательным значением"
+                },
+                {
+                  "term": "-tion/-sion",
+                  "definition": "суффиксы существительных (educate → education)"
+                },
+                {
+                  "term": "-ful",
+                  "definition": "суффикс прилагательных «полный» (care → careful)"
+                },
+                {
+                  "term": "-less",
+                  "definition": "суффикс прилагательных «без» (care → careless)"
+                },
+                {
+                  "term": "конверсия",
+                  "definition": "переход в другую часть речи без изменения формы (water → to water)"
+                }
+              ]
+            }
           }
         ]
       },
@@ -214,7 +914,7 @@
         "lessons": [
           {
             "title": "Урок 8: Reading Strategies",
-            "description": "Стратегии чтения.",
+            "description": "Стратегии чтения (Reading Strategies) — набор приёмов, позволяющих эффективно работать с текстами на английском языке. Skimming (просмотровое чтение) — быстрый просмотр текста для получения общего представления о его содержании; используется для понимания главной мысли, структуры и ключевых тем. Scanning (поисковое чтение) — поиск конкретной информации (дат, имён, цифр) без чтения всего текста; применяется при работе со справочниками, расписаниями. Intensive reading (интенсивное чтение) — детальное изучение текста, анализ грамматических структур, лексики и стилистических особенностей; используется при работе с учебными текстами. Extensive reading (экстенсивное чтение) — чтение больших объёмов текста для удовольствия и общего развития; рекомендуется читать адаптированные книги уровня чуть выше текущего. Важные техники: контекстная догадка (угадывание значения слов по контексту), анализ словообразования, использование заголовков и подзаголовков, выделение ключевых слов (keyword spotting), составление ментальных карт прочитанного.",
             "tasks": [
               "Skimming и scanning",
               "Чтение с пониманием общего содержания",
@@ -226,7 +926,8 @@
             "examples": [
               "Skimming — общее понимание текста",
               "Scanning — поиск конкретной информации",
-              "Не переводите каждое слово!"
+              "Не переводите каждое слово!",
+              "Grammar exercise on Чтение и понимание"
             ],
             "facts": [
               "Чтение — лучший способ расширить словарный запас",
@@ -236,12 +937,111 @@
             "keyPoints": [
               "Skimming — быстрое чтение для понимания основной идеи",
               "Scanning — поиск конкретной информации в тексте",
-              "Чтение с пониманием требует активной работы с текстом и словарём"
-            ]
+              "Чтение с пониманием требует активной работы с текстом и словарём",
+              "Тема «Чтение и понимание» требует комплексного подхода, включающего теоретическое изучение и практическое применение"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Skimming — это:",
+                  "options": [
+                    "детальное чтение",
+                    "быстрый просмотр для общего представления",
+                    "поиск конкретной информации",
+                    "чтение вслух"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "Какая стратегия используется для поиска конкретной даты в тексте?",
+                  "options": [
+                    "skimming",
+                    "scanning",
+                    "intensive reading",
+                    "extensive reading"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "Intensive reading предполагает:",
+                  "options": [
+                    "быстрое чтение больших объёмов",
+                    "детальное изучение текста и анализ структур",
+                    "чтение для удовольствия",
+                    "чтение только заголовков"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "Что такое контекстная догадка?",
+                  "options": [
+                    "угадывание ответа в тесте",
+                    "определение значения слова по окружающему контексту",
+                    "перевод слова по словарю",
+                    "чтение между строк"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "Extensive reading рекомендуется для:",
+                  "options": [
+                    "подготовки к экзаменам",
+                    "чтения больших объёмов для удовольствия и развития",
+                    "анализа грамматики",
+                    "поиска конкретных данных"
+                  ],
+                  "correctAnswer": 1
+                }
+              ],
+              "find": [
+                {
+                  "text": "___ — быстрый просмотр текста для общего представления",
+                  "answer": "Skimming"
+                },
+                {
+                  "text": "___ — поиск конкретной информации без чтения всего текста",
+                  "answer": "Scanning"
+                },
+                {
+                  "text": "Определение значения слова по контексту — контекстная ___",
+                  "answer": "догадка"
+                },
+                {
+                  "text": "___ reading — детальное изучение текста",
+                  "answer": "Intensive"
+                },
+                {
+                  "text": "Keyword ___ — выделение ключевых слов при чтении",
+                  "answer": "spotting"
+                }
+              ],
+              "match": [
+                {
+                  "term": "Skimming",
+                  "definition": "просмотровое чтение — быстрый просмотр для общего представления"
+                },
+                {
+                  "term": "Scanning",
+                  "definition": "поисковое чтение — поиск конкретной информации в тексте"
+                },
+                {
+                  "term": "Intensive reading",
+                  "definition": "интенсивное чтение — детальное изучение текста"
+                },
+                {
+                  "term": "Extensive reading",
+                  "definition": "экстенсивное чтение — чтение больших объёмов для удовольствия"
+                },
+                {
+                  "term": "Контекстная догадка",
+                  "definition": "угадывание значения слова по окружающему контексту"
+                }
+              ]
+            }
           },
           {
             "title": "Урок 9: Text Analysis",
-            "description": "Анализ текста.",
+            "description": "Анализ текста (Text Analysis) — навык глубокого понимания и интерпретации письменного текста, необходимый для успешной сдачи экзаменов и академической работы. Структура анализа: определение темы и главной мысли текста, выявление авторской позиции и цели, анализ структуры текста (введение, основная часть, заключение), определение типа текста (описание, повествование, рассуждение, аргументация). Стилистические особенности: формальный и неформальный стили, использование выразительных средств (метафора, эпитет, гипербола), тональность текста (объективная, субъективная, ироничная). Работа с аргументацией: выявление тезиса и аргументов, определение убедительности доказательств, поиск логических ошибок. Типы вопросов к тексту: factual (фактические — ответ прямо в тексте), inferential (выводимые — нужно сделать вывод), evaluative (оценочные — собственное мнение). Техники активного чтения: аннотирование, маркировка текста, ведение заметок, формулировка вопросов к тексту, резюмирование.",
             "tasks": [
               "Структура текста",
               "Связность и логика",
@@ -253,7 +1053,8 @@
             "examples": [
               "Moreover, however, therefore — связующие слова",
               "Introduction — Body — Conclusion — структура текста",
-              "Тон может быть формальным, неформальным, ироничным"
+              "Тон может быть формальным, неформальным, ироничным",
+              "Grammar exercise on Чтение и понимание"
             ],
             "facts": [
               "Связующие слова делают текст логичным",
@@ -263,8 +1064,107 @@
             "keyPoints": [
               "Структура текста: введение, основная часть, заключение",
               "Ссылки и переходы (linking words) связывают предложения и абзацы",
-              "Определите главную тему, ключевые аргументы и вывод автора"
-            ]
+              "Определите главную тему, ключевые аргументы и вывод автора",
+              "Тема «Чтение и понимание» требует комплексного подхода, включающего теоретическое изучение и практическое применение"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Что такое главная мысль текста (main idea)?",
+                  "options": [
+                    "заголовок текста",
+                    "основное утверждение, которое автор хочет донести",
+                    "первое предложение",
+                    "последний абзац"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "Inferential questions требуют:",
+                  "options": [
+                    "ответа прямо из текста",
+                    "сделать вывод на основе прочитанного",
+                    "выразить личное мнение",
+                    "пересказать текст"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "Что такое tone текста?",
+                  "options": [
+                    "длина текста",
+                    "тональность и отношение автора к предмету",
+                    "язык текста",
+                    "количество абзацев"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "Формальный стиль отличается от неформального:",
+                  "options": [
+                    "более длинными предложениями",
+                    "отсутствием сокращений и разговорной лексики",
+                    "наличием идиом",
+                    "использованием Past Simple"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "Что включает анализ аргументации?",
+                  "options": [
+                    "только пересказ",
+                    "выявление тезиса, аргументов и логических связей",
+                    "только поиск фактов",
+                    "перевод текста"
+                  ],
+                  "correctAnswer": 1
+                }
+              ],
+              "find": [
+                {
+                  "text": "___ questions — вопросы, ответ на которые нужно вывести из текста",
+                  "answer": "Inferential"
+                },
+                {
+                  "text": "___ — авторская позиция и цель написания текста",
+                  "answer": "Тональность"
+                },
+                {
+                  "text": "Анализ текста включает определение темы и ___ мысли",
+                  "answer": "главной"
+                },
+                {
+                  "text": "___ стиль использует сокращения (don't, can't) и разговорную лексику",
+                  "answer": "Неформальный"
+                },
+                {
+                  "text": "Аннотирование и маркировка текста — техники ___ чтения",
+                  "answer": "активного"
+                }
+              ],
+              "match": [
+                {
+                  "term": "Factual questions",
+                  "definition": "фактические вопросы — ответ прямо в тексте"
+                },
+                {
+                  "term": "Inferential questions",
+                  "definition": "вопросы-умозаключения — нужно сделать вывод"
+                },
+                {
+                  "term": "Evaluative questions",
+                  "definition": "оценочные вопросы — требуют собственного мнения"
+                },
+                {
+                  "term": "Main idea",
+                  "definition": "главная мысль текста — основное утверждение автора"
+                },
+                {
+                  "term": "Тональность (tone)",
+                  "definition": "отношение автора к предмету (объективное, ироничное)"
+                }
+              ]
+            }
           }
         ]
       },
@@ -273,7 +1173,7 @@
         "lessons": [
           {
             "title": "Урок 10: Discussion Skills",
-            "description": "Навыки дискуссии.",
+            "description": "Навыки дискуссии (Discussion Skills) — умение участвовать в обсуждении различных тем на английском языке, выражать и аргументировать свою точку зрения. Основные элементы дискуссии: выражение мнения (In my opinion, I believe that, From my point of view, As far as I'm concerned), согласие (I agree, That's exactly what I think, You're absolutely right), несогласие (I'm afraid I disagree, I see your point but, I'd argue that), уточнение (Could you elaborate on that?, What exactly do you mean by...?), перебивание и ответ (If I could just add..., Going back to what you said...). Структура аргументации: тезис → аргументы → примеры → контраргумент → опровержение → вывод. Полезные фразы для введения примеров: For instance, For example, Such as, In particular. Фразы для обобщения: To sum up, In conclusion, All in all, On the whole. Дискуссионные форматы: дебаты (pro/con), круглый стол, мозговой штурм. Важные правила: уважительно относиться к чужому мнению, не переходить на личности, подтверждать утверждения фактами, слушать собеседника и отвечать на его аргументы.",
             "tasks": [
               "Выражение мнения",
               "Согласие и несогласие",
@@ -285,7 +1185,8 @@
             "examples": [
               "In my opinion... — По моему мнению",
               "I agree with you. / I'm afraid I disagree.",
-              "Firstly... Secondly... For example..."
+              "Firstly... Secondly... For example...",
+              "Grammar exercise on Говорение"
             ],
             "facts": [
               "В английской культуре важно быть вежливым при несогласии",
@@ -295,8 +1196,107 @@
             "keyPoints": [
               "Фразы согласия: I agree, That is right, You have a point",
               "Фразы несогласия: I am afraid I disagree, I see your point, but...",
-              "Умение слушать и аргументировать — ключевые навыки дискуссии"
-            ]
+              "Умение слушать и аргументировать — ключевые навыки дискуссии",
+              "Тема «Говорение» требует комплексного подхода, включающего теоретическое изучение и практическое применение"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Какая фраза используется для выражения несогласия вежливым образом?",
+                  "options": [
+                    "You are wrong",
+                    "I'm afraid I disagree",
+                    "No, never",
+                    "That's stupid"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "Структура аргументации в дискуссии:",
+                  "options": [
+                    "вопрос → ответ",
+                    "тезис → аргументы → примеры → вывод",
+                    "приветствие → прощание",
+                    "факт → гипотеза"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "Фраза «Could you elaborate on that?» используется для:",
+                  "options": [
+                    "выражения согласия",
+                    "просьбы уточнить и раскрыть мысль",
+                    "прерывания собеседника",
+                    "завершения дискуссии"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "Что недопустимо в академической дискуссии?",
+                  "options": [
+                    "выражение несогласия",
+                    "переход на личности и оскорбления",
+                    "использование контраргументов",
+                    "приведение примеров"
+                  ],
+                  "correctAnswer": 1
+                },
+                {
+                  "question": "Фраза «To sum up» используется для:",
+                  "options": [
+                    "начала дискуссии",
+                    "обобщения и подведения итогов",
+                    "выражения сомнения",
+                    "перебивания собеседника"
+                  ],
+                  "correctAnswer": 1
+                }
+              ],
+              "find": [
+                {
+                  "text": "In my ___ — по моему мнению (выражение мнения)",
+                  "answer": "opinion"
+                },
+                {
+                  "text": "I'm afraid I ___ — боюсь, я не согласен",
+                  "answer": "disagree"
+                },
+                {
+                  "text": "To ___ up — подвести итог, обобщить",
+                  "answer": "sum"
+                },
+                {
+                  "text": "___ your point but... — я понимаю вашу точку зрения, но...",
+                  "answer": "I see"
+                },
+                {
+                  "text": "For ___ — например, для примера",
+                  "answer": "instance"
+                }
+              ],
+              "match": [
+                {
+                  "term": "In my opinion",
+                  "definition": "выражение собственного мнения — по моему мнению"
+                },
+                {
+                  "term": "I'm afraid I disagree",
+                  "definition": "вежливое несогласие — боюсь, я не согласен"
+                },
+                {
+                  "term": "Could you elaborate?",
+                  "definition": "просьба раскрыть мысль подробнее"
+                },
+                {
+                  "term": "I see your point but",
+                  "definition": "частичное согласие с переходом к несогласию"
+                },
+                {
+                  "term": "To sum up",
+                  "definition": "подведение итогов, обобщение сказанного"
+                }
+              ]
+            }
           }
         ]
       }

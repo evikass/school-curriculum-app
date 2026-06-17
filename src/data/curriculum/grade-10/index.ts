@@ -43,6 +43,12 @@ export const grade10Subjects = [
     topics: ["XX век", "Революции", "ВОВ"]
   },
   {
+    title: "История России",
+    icon: "Landmark",
+    color: "text-amber-500",
+    topics: ["Древняя Русь", "Монголы и Москва", "Российское государство", "Империя"]
+  },
+  {
     title: "Обществознание",
     icon: "Users",
     color: "text-violet-400",
@@ -50,9 +56,9 @@ export const grade10Subjects = [
   },
   {
     title: "Биология",
-    icon: "Atom",
+    icon: "Leaf",
     color: "text-green-400",
-    topics: ["Цитология", "Генетика", "Эволюция"]
+    topics: ["Клетка", "Строение клетки", "Обмен веществ", "Мейоз и размножение", "Генетика", "Онтогенез"]
   },
   {
     title: "География",

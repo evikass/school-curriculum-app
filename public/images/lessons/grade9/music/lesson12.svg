@@ -1,41 +1,67 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#F3E5F5"/>
-      <stop offset="100%" stop-color="#FFF"/>
-    </linearGradient>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#9C27B0"/>
-      <stop offset="100%" stop-color="#6A1B9A"/>
-    </linearGradient>
-  </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#9C27B0" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#9C27B0" stroke-width="1" opacity="0.3"/>
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#9C27B0" text-anchor="middle">Джаз и блюз</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Музыка — Урок 12</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#9C27B0" stroke-width="2" opacity="0.25"/>
-  <rect x="15" y="72" width="235" height="225" rx="4" fill="#9C27B0" opacity="0.05"/>
-  <text x="22" y="88" font-family="Arial,sans-serif" font-size="10" fill="#6A1B9A" font-weight="bold">Джаз —</text>
-  <text x="85" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333">импровизационная музыка XX века</text>
-  <text x="22" y="108" font-family="Arial,sans-serif" font-size="10" fill="#6A1B9A" font-weight="bold">Истоки:</text>
-  <text x="85" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333">Африканские ритмы + европейская гармония</text>
-  <text x="32" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333">Нью-Орлеан — родина джаза</text>
-  <text x="22" y="148" font-family="Arial,sans-serif" font-size="10" fill="#6A1B9A" font-weight="bold">Особенности:</text>
-  <text x="85" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333">Свинг — особый ритмический рисунок</text>
-  <text x="32" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333">Импровизация — сольная игра</text>
-  <rect x="255" y="72" width="230" height="225" rx="4" fill="#9C27B0" opacity="0.05"/>
-  <text x="272" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333">Синкопа — акцент на слабую долю</text>
-  <text x="262" y="108" font-family="Arial,sans-serif" font-size="10" fill="#6A1B9A" font-weight="bold">Блюз:</text>
-  <text x="325" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333">12-тактовая форма</text>
-  <text x="272" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333">Блюзовый лад — «голубые ноты»</text>
-  <text x="262" y="148" font-family="Arial,sans-serif" font-size="10" fill="#6A1B9A" font-weight="bold">Легенды:</text>
-  <text x="325" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333">Луи Армстронг — труба и вокал</text>
-  <text x="272" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333">Дюк Эллингтон, Майлс Дэвис</text>
-  <rect x="15" y="280" width="235" height="18" rx="4" fill="#9C27B0" opacity="0.06"/>
-  <text x="132" y="293" font-family="Arial,sans-serif" font-size="9" fill="#6A1B9A" text-anchor="middle" font-weight="bold">Джаз — музыка свободы</text>
-  <rect x="255" y="280" width="230" height="18" rx="4" fill="#9C27B0" opacity="0.06"/>
-  <text x="370" y="293" font-family="Arial,sans-serif" font-size="9" fill="#6A1B9A" text-anchor="middle" font-weight="bold">Импровизация — душа джаза</text>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Музыка · Джаз и блюз</text>
+  <rect width="500" height="350" fill="#0a0a14"/>
+  <!-- Film strip -->
+  <rect x="30" y="30" width="440" height="270" fill="#1a1a2e" opacity="0.3" rx="3"/>
+  <!-- Film perforations -->
+  <g opacity="0.3">
+    <rect x="35" y="35" width="12" height="8" rx="2" fill="#0a0a14"/>
+    <rect x="35" y="55" width="12" height="8" rx="2" fill="#0a0a14"/>
+    <rect x="35" y="75" width="12" height="8" rx="2" fill="#0a0a14"/>
+    <rect x="35" y="95" width="12" height="8" rx="2" fill="#0a0a14"/>
+    <rect x="35" y="115" width="12" height="8" rx="2" fill="#0a0a14"/>
+    <rect x="35" y="135" width="12" height="8" rx="2" fill="#0a0a14"/>
+    <rect x="35" y="155" width="12" height="8" rx="2" fill="#0a0a14"/>
+    <rect x="35" y="175" width="12" height="8" rx="2" fill="#0a0a14"/>
+    <rect x="35" y="195" width="12" height="8" rx="2" fill="#0a0a14"/>
+    <rect x="35" y="215" width="12" height="8" rx="2" fill="#0a0a14"/>
+    <rect x="35" y="235" width="12" height="8" rx="2" fill="#0a0a14"/>
+    <rect x="35" y="255" width="12" height="8" rx="2" fill="#0a0a14"/>
+    <rect x="453" y="35" width="12" height="8" rx="2" fill="#0a0a14"/>
+    <rect x="453" y="55" width="12" height="8" rx="2" fill="#0a0a14"/>
+    <rect x="453" y="75" width="12" height="8" rx="2" fill="#0a0a14"/>
+    <rect x="453" y="95" width="12" height="8" rx="2" fill="#0a0a14"/>
+    <rect x="453" y="115" width="12" height="8" rx="2" fill="#0a0a14"/>
+    <rect x="453" y="135" width="12" height="8" rx="2" fill="#0a0a14"/>
+    <rect x="453" y="155" width="12" height="8" rx="2" fill="#0a0a14"/>
+    <rect x="453" y="175" width="12" height="8" rx="2" fill="#0a0a14"/>
+    <rect x="453" y="195" width="12" height="8" rx="2" fill="#0a0a14"/>
+    <rect x="453" y="215" width="12" height="8" rx="2" fill="#0a0a14"/>
+    <rect x="453" y="235" width="12" height="8" rx="2" fill="#0a0a14"/>
+    <rect x="453" y="255" width="12" height="8" rx="2" fill="#0a0a14"/>
+  </g>
+  <!-- Movie scene - dramatic landscape -->
+  <rect x="55" y="35" width="390" height="230" fill="#0a0a14"/>
+  <!-- Sky in scene -->
+  <rect x="55" y="35" width="390" height="100" fill="#1a1a3e" opacity="0.5"/>
+  <!-- Mountains in scene -->
+  <path d="M55 135 L120 70 L180 110 L250 55 L320 100 L380 65 L445 135" fill="#2a2a4e" opacity="0.4"/>
+  <!-- Characters in scene -->
+  <circle cx="150" cy="200" r="12" fill="#e8dcc8" opacity="0.3"/>
+  <path d="M138 212 Q150 207 162 212 L158 260 L142 260 Z" fill="#4d96ff" opacity="0.2"/>
+  <circle cx="350" cy="200" r="12" fill="#e8dcc8" opacity="0.3"/>
+  <path d="M338 212 Q350 207 362 212 L358 260 L342 260 Z" fill="#ff6b6b" opacity="0.2"/>
+  <!-- Music notes emanating from scene -->
+  <ellipse cx="200" cy="80" rx="8" ry="5" fill="#ffd93d" opacity="0.4" transform="rotate(-15,200,80)"/>
+  <line x1="207" y1="78" x2="207" y2="55" stroke="#ffd93d" stroke-width="1.5" opacity="0.4"/>
+  <ellipse cx="300" cy="75" rx="8" ry="5" fill="#00d2ff" opacity="0.4" transform="rotate(-15,300,75)"/>
+  <line x1="307" y1="73" x2="307" y2="50" stroke="#00d2ff" stroke-width="1.5" opacity="0.4"/>
+  <!-- Sound wave connecting film and music -->
+  <path d="M55 265 Q150 255 250 265 Q350 275 445 265" fill="none" stroke="#ffd93d" stroke-width="1.5" opacity="0.3"/>
+  <path d="M55 270 Q150 260 250 270 Q350 280 445 270" fill="none" stroke="#00d2ff" stroke-width="1" opacity="0.2"/>
+  <!-- Conductor baton -->
+  <line x1="250" y1="290" x2="270" y2="270" stroke="#e8dcc8" stroke-width="2" opacity="0.3"/>
+  <!-- Film reel -->
+  <circle cx="80" cy="310" r="20" fill="none" stroke="#4d96ff" stroke-width="2" opacity="0.3"/>
+  <circle cx="80" cy="310" r="6" fill="#4d96ff" opacity="0.2"/>
+  <circle cx="80" cy="295" r="3" fill="#4d96ff" opacity="0.15"/>
+  <circle cx="93" cy="303" r="3" fill="#4d96ff" opacity="0.15"/>
+  <circle cx="93" cy="317" r="3" fill="#4d96ff" opacity="0.15"/>
+  <circle cx="80" cy="325" r="3" fill="#4d96ff" opacity="0.15"/>
+  <circle cx="67" cy="317" r="3" fill="#4d96ff" opacity="0.15"/>
+  <circle cx="67" cy="303" r="3" fill="#4d96ff" opacity="0.15"/>
+  <!-- Headphones -->
+  <path d="M380 290 Q380 270 400 270 Q420 270 420 290" fill="none" stroke="#ff6b6b" stroke-width="3" opacity="0.3"/>
+  <rect x="375" y="285" width="10" height="15" rx="3" fill="#ff6b6b" opacity="0.25"/>
+  <rect x="415" y="285" width="10" height="15" rx="3" fill="#ff6b6b" opacity="0.25"/>
+  <text x="250" y="340" font-size="9" fill="#ffffff" opacity="0.5" text-anchor="middle" font-family="sans-serif">Музыка и кино</text>
 </svg>

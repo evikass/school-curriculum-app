@@ -1,41 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#EFEBE9"/>
-      <stop offset="100%" stop-color="#FFF"/>
-    </linearGradient>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#8D6E63"/>
-      <stop offset="100%" stop-color="#4E342E"/>
-    </linearGradient>
-  </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#8D6E63" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#8D6E63" stroke-width="1" opacity="0.3"/>
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#8D6E63" text-anchor="middle">Социальная структура и стратификация</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Обществознание — Урок 13</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#8D6E63" stroke-width="2" opacity="0.25"/>
-  <rect x="15" y="72" width="235" height="225" rx="4" fill="#8D6E63" opacity="0.05"/>
-  <text x="22" y="88" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Структура —</text>
-  <text x="85" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333">деление общества на группы</text>
-  <text x="22" y="108" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Критерии:</text>
-  <text x="85" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333">Доход, образование, власть</text>
-  <text x="32" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333">Престиж профессии, образ жизни</text>
-  <text x="22" y="148" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Классы:</text>
-  <text x="85" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333">Высший — крупные собственники</text>
-  <text x="32" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333">Средний — специалисты, бизнес</text>
-  <rect x="255" y="72" width="230" height="225" rx="4" fill="#8D6E63" opacity="0.05"/>
-  <text x="272" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333">Низший — рабочие, малоимущие</text>
-  <text x="262" y="108" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Стратификация:</text>
-  <text x="325" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333">Расположение слоёв по вертикали</text>
-  <text x="272" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333">Социальная дистанция между слоями</text>
-  <text x="262" y="148" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Мобильность:</text>
-  <text x="325" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333">Восходящая — переход выше</text>
-  <text x="272" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333">Нисходящая — переход ниже</text>
-  <rect x="15" y="280" width="235" height="18" rx="4" fill="#8D6E63" opacity="0.06"/>
-  <text x="132" y="293" font-family="Arial,sans-serif" font-size="9" fill="#4E342E" text-anchor="middle" font-weight="bold">Средний класс — основа стабильности</text>
-  <rect x="255" y="280" width="230" height="18" rx="4" fill="#8D6E63" opacity="0.06"/>
-  <text x="370" y="293" font-family="Arial,sans-serif" font-size="9" fill="#4E342E" text-anchor="middle" font-weight="bold">Социальная мобильность — движение по лестнице</text>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Обществознание · Социальная структура</text>
+  <rect width="500" height="350" fill="#1A202C"/>
+  <!-- Power fist -->
+  <g transform="translate(250,130)" fill="#E2E8F0" opacity="0.3">
+    <rect x="-15" y="-30" width="30" height="40" rx="5"/>
+    <rect x="-20" y="-10" width="8" height="15" rx="3"/>
+    <rect x="-8" y="-12" width="8" height="15" rx="3"/>
+    <rect x="4" y="-10" width="8" height="15" rx="3"/>
+    <rect x="16" y="-5" width="8" height="12" rx="3"/>
+    <rect x="-12" y="10" width="24" height="25" rx="5"/>
+  </g>
+  <!-- Lightning bolts (power) -->
+  <g fill="#F6E05E" opacity="0.4">
+    <polygon points="180,60 195,100 185,100 200,140 175,105 185,105 170,70"/>
+    <polygon points="310,50 325,90 315,90 330,130 305,95 315,95 300,60"/>
+  </g>
+  <!-- Power types -->
+  <g opacity="0.5">
+    <rect x="40" y="200" width="100" height="28" rx="5" fill="#C53030"/><text x="90" y="219" text-anchor="middle" font-size="9" fill="#FFF">Политическая</text>
+    <rect x="160" y="200" width="100" height="28" rx="5" fill="#D69E2E"/><text x="210" y="219" text-anchor="middle" font-size="9" fill="#FFF">Экономическая</text>
+    <rect x="280" y="200" width="100" height="28" rx="5" fill="#9F7AEA"/><text x="330" y="219" text-anchor="middle" font-size="9" fill="#FFF">Духовная</text>
+    <rect x="400" y="200" width="80" height="28" rx="5" fill="#38A169"/><text x="440" y="219" text-anchor="middle" font-size="9" fill="#FFF">Семейная</text>
+  </g>
+  <text x="250" y="290" text-anchor="middle" font-size="18" fill="#E2E8F0" font-weight="bold" opacity="0.6">Политика и власть</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#E2E8F0" opacity="0.5">Политика и власть</text>
 </svg>

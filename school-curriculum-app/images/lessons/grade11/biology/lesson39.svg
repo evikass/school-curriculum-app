@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+<marker id="arrG" markerWidth="6" markerHeight="5" refX="6" refY="2.5" orient="auto"><polygon points="0 0,6 2.5,0 5" fill="#2E7D32"/></marker>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="25" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1B5E20" text-anchor="middle">Клеточная инженерия</text>
+
+<!-- Section 1: Hybridoma -->
+<rect x="10" y="38" width="155" height="155" rx="6" fill="white" opacity="0.65" stroke="#2E7D32" stroke-width="1.2"/>
+<text x="87" y="55" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Гибридома</text>
+
+<!-- B-lymphocyte -->
+<circle cx="45" cy="80" r="14" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1.5"/>
+<text x="45" y="78" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20" text-anchor="middle">В-клетка</text>
+<text x="45" y="85" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20" text-anchor="middle">(иммунная)</text>
+
+<!-- Myeloma cell -->
+<circle cx="130" cy="80" r="14" fill="#FFAB91" stroke="#E64A19" stroke-width="1.5"/>
+<text x="130" y="78" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle">Миелома</text>
+<text x="130" y="85" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle">(опухолевая)</text>
+
+<!-- Fusion arrows -->
+<line x1="59" y1="80" x2="72" y2="80" stroke="#2E7D32" stroke-width="1" marker-end="url(#arrG)"/>
+<line x1="116" y1="80" x2="103" y2="80" stroke="#E64A19" stroke-width="1" marker-end="url(#arrG)"/>
+<text x="87" y="75" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle">слияние</text>
+<text x="87" y="95" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32" text-anchor="middle">(ПЭГ или вирус)</text>
+
+<!-- Hybridoma result -->
+<circle cx="87" cy="120" r="18" fill="#C8E6C9" stroke="#1B5E20" stroke-width="2"/>
+<text x="87" y="118" font-family="Arial,sans-serif" font-size="5.5" font-weight="bold" fill="#1B5E20" text-anchor="middle">Гибри-</text>
+<text x="87" y="126" font-family="Arial,sans-serif" font-size="5.5" font-weight="bold" fill="#1B5E20" text-anchor="middle">дома</text>
+<!-- Arrow down -->
+<line x1="87" y1="100" x2="87" y2="102" stroke="#2E7D32" stroke-width="1" marker-end="url(#arrG)"/>
+
+<!-- Antibodies -->
+<text x="87" y="152" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">Моноклональные</text>
+<text x="87" y="162" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">антитела (МКАТ)</text>
+<text x="87" y="175" font-family="Arial,sans-serif" font-size="6" fill="#388E3C" text-anchor="middle">Диагностика, терапия</text>
+<text x="87" y="185" font-family="Arial,sans-serif" font-size="6" fill="#388E3C" text-anchor="middle">(Келер, Мильштейн, 1975)</text>
+
+<!-- Section 2: Cloning (Dolly) -->
+<rect x="175" y="38" width="155" height="155" rx="6" fill="white" opacity="0.65" stroke="#2E7D32" stroke-width="1.2"/>
+<text x="252" y="55" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Клонирование</text>
+
+<!-- Donor cell -->
+<circle cx="205" cy="80" r="12" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1.5"/>
+<text x="205" y="82" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20" text-anchor="middle">ядро</text>
+<text x="205" y="96" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32" text-anchor="middle">Клетка</text>
+<text x="205" y="103" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32" text-anchor="middle">донора</text>
+
+<!-- Enucleated egg -->
+<circle cx="290" cy="80" r="14" fill="#FFF9C4" stroke="#F9A825" stroke-width="1.5"/>
+<text x="290" y="78" font-family="Arial,sans-serif" font-size="5" fill="#F57F17" text-anchor="middle">ооцит</text>
+<text x="290" y="85" font-family="Arial,sans-serif" font-size="5" fill="#F57F17" text-anchor="middle">(без ядра)</text>
+
+<!-- Transfer arrow -->
+<line x1="217" y1="80" x2="240" y2="80" stroke="#2E7D32" stroke-width="1" marker-end="url(#arrG)"/>
+<text x="248" y="75" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20" text-anchor="middle">перенос</text>
+<text x="248" y="96" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20" text-anchor="middle">ядра</text>
+
+<!-- Embryo -->
+<ellipse cx="252" cy="122" rx="16" ry="12" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/>
+<text x="252" y="124" font-family="Arial,sans-serif" font-size="5.5" fill="#1B5E20" text-anchor="middle">зародыш</text>
+<!-- Arrow -->
+<line x1="252" y1="95" x2="252" y2="108" stroke="#2E7D32" stroke-width="1" marker-end="url(#arrG)"/>
+
+<!-- Dolly sheep silhouette -->
+<ellipse cx="252" cy="155" rx="20" ry="12" fill="#E0E0E0" stroke="#757575" stroke-width="1"/>
+<ellipse cx="235" cy="148" rx="8" ry="7" fill="#EEEEEE" stroke="#757575" stroke-width="1"/>
+<!-- Legs -->
+<line x1="240" y1="165" x2="238" y2="175" stroke="#757575" stroke-width="1.5"/>
+<line x1="255" y1="165" x2="257" y2="175" stroke="#757575" stroke-width="1.5"/>
+<line x1="265" y1="164" x2="267" y2="175" stroke="#757575" stroke-width="1.5"/>
+<text x="252" y="186" font-family="Arial,sans-serif" font-size="6.5" font-weight="bold" fill="#1B5E20" text-anchor="middle">Долли (1996)</text>
+<text x="252" y="194" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32" text-anchor="middle">Первое клонированное</text>
+<text x="252" y="202" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32" text-anchor="middle">млекопитающее</text>
+
+<!-- Section 3: Stem cells -->
+<rect x="340" y="38" width="150" height="155" rx="6" fill="white" opacity="0.65" stroke="#2E7D32" stroke-width="1.2"/>
+<text x="415" y="55" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Стволовые клетки</text>
+
+<!-- Totipotent -->
+<circle cx="370" cy="78" r="10" fill="#1B5E20" opacity="0.8"/>
+<text x="370" y="80" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle">Тотипотентные</text>
+<text x="370" y="95" font-family="Arial,sans-serif" font-size="5.5" fill="#1B5E20" text-anchor="middle">→ любой тип клеток</text>
+<text x="370" y="103" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32" text-anchor="middle">(зигота)</text>
+
+<!-- Pluripotent -->
+<circle cx="445" cy="78" r="10" fill="#388E3C" opacity="0.8"/>
+<text x="445" y="80" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle">Плюрипотентные</text>
+<text x="445" y="95" font-family="Arial,sans-serif" font-size="5.5" fill="#1B5E20" text-anchor="middle">→ многие типы</text>
+<text x="445" y="103" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32" text-anchor="middle">(ЭСК, бластоциста)</text>
+
+<!-- Multipotent -->
+<circle cx="405" cy="125" r="10" fill="#66BB6A" opacity="0.8"/>
+<text x="405" y="127" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle">Мультипотентные</text>
+<text x="405" y="142" font-family="Arial,sans-serif" font-size="5.5" fill="#1B5E20" text-anchor="middle">→ родственные типы</text>
+<text x="405" y="150" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32" text-anchor="middle">(стволовые кроветворные)</text>
+
+<!-- Differentiation arrows -->
+<line x1="380" y1="85" x2="395" y2="115" stroke="#2E7D32" stroke-width="0.8" stroke-dasharray="2,1"/>
+<line x1="435" y1="85" x2="415" y2="115" stroke="#2E7D32" stroke-width="0.8" stroke-dasharray="2,1"/>
+
+<!-- Applications -->
+<text x="415" y="168" font-family="Arial,sans-serif" font-size="6.5" fill="#1B5E20" text-anchor="middle">Применение:</text>
+<text x="415" y="178" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">• Регенеративная медицина</text>
+<text x="415" y="188" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">• Трансплантация органов</text>
+<text x="415" y="198" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">• Лечение болезней</text>
+
+<!-- Bottom: Culture of cells and tissues -->
+<rect x="10" y="205" width="480" height="70" rx="5" fill="white" opacity="0.5" stroke="#2E7D32" stroke-width="1"/>
+<text x="250" y="222" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Культура клеток и тканей</text>
+<text x="25" y="238" font-family="Arial,sans-serif" font-size="7.5" fill="#2E7D32">• Микроклональное размножение растений — получение тысяч копий из одной клетки</text>
+<text x="25" y="250" font-family="Arial,sans-serif" font-size="7.5" fill="#2E7D32">• Культура каллюса — неорганизованная ткань на питательной среде (ауксин + цитокинин)</text>
+<text x="25" y="262" font-family="Arial,sans-serif" font-size="7.5" fill="#2E7D32">• Гаплоидные растения из пыльцы → чистые линии за 1 поколение (андрогенез in vitro)</text>
+
+<!-- Key principles -->
+<rect x="10" y="282" width="480" height="52" rx="5" fill="#2E7D32" opacity="0.1" stroke="#388E3C" stroke-width="1"/>
+<text x="250" y="298" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20" text-anchor="middle">Основные принципы клеточной инженерии</text>
+<text x="25" y="312" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32">• Тотипотентность — каждая клетка содержит полный геном и может дать целый организм</text>
+<text x="25" y="323" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32">• Соматическая гибридизация — слияние клеток разных видов (картофель + томат = помидор картофель)</text>
+<text x="250" y="342" font-family="Arial,sans-serif" font-size="7" fill="#66BB6A" text-anchor="middle">Урок 39 · Клеточная инженерия</text>
+</svg>

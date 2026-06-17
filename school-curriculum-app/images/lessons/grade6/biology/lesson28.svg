@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Строение семени двудольных и однодольных растений</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 6 класс — Урок 28</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- BEAN SEED (DICOT) - left half -->
+<text x="130" y="68" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle" font-weight="bold">Семя фасоли (двудольное)</text>
+
+<!-- Whole bean seed -->
+<g transform="translate(65,110)">
+  <ellipse cx="0" cy="0" rx="28" ry="38" fill="#D7CCC8" stroke="#8D6E63" stroke-width="1.5"/>
+  <!-- Seed coat texture -->
+  <path d="M-15,-30 Q-5,-35 5,-30" fill="none" stroke="#A1887F" stroke-width="0.5"/>
+  <!-- Hilum (scar) -->
+  <line x1="10" y1="-12" x2="10" y2="8" stroke="#5D4037" stroke-width="2"/>
+  <text x="22" y="-2" font-family="Arial,sans-serif" font-size="6" fill="#5D4037">Рубчик</text>
+  <!-- Micropyle -->
+  <circle cx="10" cy="12" r="2" fill="#5D4037"/>
+  <text x="18" y="14" font-family="Arial,sans-serif" font-size="5" fill="#5D4037">Семявход</text>
+  <text x="0" y="48" font-family="Arial,sans-serif" font-size="7" fill="#795548" text-anchor="middle">Снаружи</text>
+</g>
+
+<!-- Bean seed - cross section (opened) -->
+<g transform="translate(170,110)">
+  <text x="0" y="-46" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle" font-weight="bold">В разрезе</text>
+  <!-- Seed coat -->
+  <path d="M-30,-40 Q0,-48 30,-40 Q38,0 30,40 Q0,48 -30,40 Q-38,0 -30,-40" fill="#D7CCC8" stroke="#8D6E63" stroke-width="1.5"/>
+  <!-- Left cotyledon -->
+  <path d="M0,-36 Q-26,-30 -26,0 Q-26,30 0,36 Q0,0 0,-36" fill="#A5D6A7" stroke="#66BB6A" stroke-width="0.8"/>
+  <text x="-14" y="3" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle">Семядоля 1</text>
+  <!-- Right cotyledon -->
+  <path d="M0,-36 Q26,-30 26,0 Q26,30 0,36 Q0,0 0,-36" fill="#81C784" stroke="#66BB6A" stroke-width="0.8"/>
+  <text x="14" y="3" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle">Семядоля 2</text>
+  <!-- Embryo detail on right cotyledon -->
+  <!-- Root (radicle) -->
+  <path d="M2,-30 Q6,-28 8,-22 Q6,-18 2,-20" fill="#FFCC80" stroke="#F57C00" stroke-width="0.8"/>
+  <text x="20" y="-28" font-family="Arial,sans-serif" font-size="5" fill="#E65100">Корешок</text>
+  <line x1="18" y1="-27" x2="10" y2="-25" stroke="#E65100" stroke-width="0.3"/>
+  <!-- Hypocotyl (stem) -->
+  <path d="M2,-20 Q4,-16 4,-12" fill="none" stroke="#F57C00" stroke-width="1.2"/>
+  <text x="18" y="-18" font-family="Arial,sans-serif" font-size="5" fill="#E65100">Стебелёк</text>
+  <!-- Plumule (bud) -->
+  <ellipse cx="4" cy="-8" rx="5" ry="4" fill="#C8E6C9" stroke="#388E3C" stroke-width="0.8"/>
+  <text x="18" y="-8" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32">Почечка</text>
+  <!-- Seed coat label -->
+  <text x="-35" y="-35" font-family="Arial,sans-serif" font-size="5" fill="#5D4037">Семенная</text>
+  <text x="-35" y="-28" font-family="Arial,sans-serif" font-size="5" fill="#5D4037">кожура</text>
+  <line x1="-27" y1="-33" x2="-24" y2="-35" stroke="#5D4037" stroke-width="0.3"/>
+
+  <!-- Embryo bracket -->
+  <path d="M30,-35 Q35,-35 35,-20 Q35,-10 30,-10" fill="none" stroke="#E65100" stroke-width="0.8"/>
+  <text x="37" y="-22" font-family="Arial,sans-serif" font-size="6" fill="#E65100">Зародыш</text>
+</g>
+
+<!-- WHEAT GRAIN (MONOCOT) - right half -->
+<text x="370" y="68" font-family="Arial,sans-serif" font-size="10" fill="#E65100" text-anchor="middle" font-weight="bold">Зерно пшеницы (однодольное)</text>
+
+<!-- Whole wheat grain -->
+<g transform="translate(315,110)">
+  <ellipse cx="0" cy="0" rx="15" ry="38" fill="#FFF9C4" stroke="#F9A825" stroke-width="1.2"/>
+  <!-- Groove -->
+  <line x1="-5" y1="-30" x2="-5" y2="30" stroke="#FBC02D" stroke-width="0.5"/>
+  <!-- Brush at top -->
+  <path d="M-3,-38 Q0,-42 3,-38" fill="none" stroke="#FBC02D" stroke-width="0.8"/>
+  <text x="0" y="48" font-family="Arial,sans-serif" font-size="7" fill="#795548" text-anchor="middle">Снаружи</text>
+  <text x="22" y="0" font-family="Arial,sans-serif" font-size="5" fill="#795548">Плёнки</text>
+</g>
+
+<!-- Wheat grain - cross section -->
+<g transform="translate(400,110)">
+  <text x="0" y="-46" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle" font-weight="bold">В разрезе</text>
+  <!-- Pericarp + seed coat (fused) -->
+  <ellipse cx="0" cy="0" rx="28" ry="40" fill="#FFF9C4" stroke="#F9A825" stroke-width="2"/>
+  <text x="32" y="-30" font-family="Arial,sans-serif" font-size="5" fill="#F57F17">Плодовая</text>
+  <text x="32" y="-24" font-family="Arial,sans-serif" font-size="5" fill="#F57F17">оболочка +</text>
+  <text x="32" y="-18" font-family="Arial,sans-serif" font-size="5" fill="#F57F17">семенная кожа</text>
+  <line x1="30" y1="-28" x2="26" y2="-32" stroke="#F57F17" stroke-width="0.3"/>
+
+  <!-- Endosperm (large) -->
+  <ellipse cx="-4" cy="2" rx="20" ry="32" fill="#FFF3E0" stroke="#FFE0B2" stroke-width="0.8"/>
+  <text x="-4" y="5" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">Эндосперм</text>
+  <text x="-4" y="14" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">(запас питательных)</text>
+
+  <!-- Shield (scutellum) - single cotyledon -->
+  <path d="M16,-25 Q22,-15 22,0 Q22,15 16,25 Q18,0 16,-25" fill="#FFD54F" stroke="#F9A825" stroke-width="0.8"/>
+  <text x="25" y="3" font-family="Arial,sans-serif" font-size="6" fill="#E65100">Щиток</text>
+
+  <!-- Embryo -->
+  <g transform="translate(16,-8)">
+    <!-- Coleoptile (sheath) -->
+    <path d="M2,-18 Q6,-22 8,-18 Q6,-14 2,-18" fill="#81C784" stroke="#388E3C" stroke-width="0.5" opacity="0.6"/>
+    <!-- Plumule -->
+    <ellipse cx="5" cy="-14" rx="4" ry="5" fill="#A5D6A7" stroke="#388E3C" stroke-width="0.8"/>
+    <text x="14" y="-14" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32">Почечка</text>
+    <!-- Stem -->
+    <rect x="4" y="-9" width="3" height="10" fill="#C8E6C9" stroke="#388E3C" stroke-width="0.5"/>
+    <text x="14" y="-4" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32">Стебелёк</text>
+    <!-- Root -->
+    <ellipse cx="5" cy="4" rx="3" ry="5" fill="#FFCC80" stroke="#F57C00" stroke-width="0.5"/>
+    <!-- Coleorhiza -->
+    <ellipse cx="5" cy="8" rx="4" ry="3" fill="#FFE0B2" stroke="#F57C00" stroke-width="0.5"/>
+    <text x="14" y="4" font-family="Arial,sans-serif" font-size="5" fill="#E65100">Корешок</text>
+    <text x="14" y="10" font-family="Arial,sans-serif" font-size="5" fill="#E65100">Колеориза</text>
+  </g>
+
+  <!-- Embryo bracket -->
+  <path d="M25,-28 Q32,-28 32,10 Q32,18 25,18" fill="none" stroke="#2E7D32" stroke-width="0.8"/>
+  <text x="34" y="-8" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">Зародыш</text>
+</g>
+
+<!-- COMPARISON TABLE (bottom) -->
+<text x="250" y="210" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">Сравнение семян двудольных и однодольных</text>
+<line x1="30" y1="214" x2="470" y2="214" stroke="#2E7D32" stroke-width="0.5" opacity="0.3"/>
+
+<!-- Table headers -->
+<rect x="30" y="218" width="140" height="14" fill="#1B5E20" opacity="0.12" rx="1"/>
+<rect x="170" y="218" width="150" height="14" fill="#1565C0" opacity="0.1" rx="1"/>
+<rect x="320" y="218" width="150" height="14" fill="#E65100" opacity="0.1" rx="1"/>
+<text x="100" y="229" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle" font-weight="bold">Признак</text>
+<text x="245" y="229" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle" font-weight="bold">Двудольное (фасоль)</text>
+<text x="395" y="229" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle" font-weight="bold">Однодольное (пшеница)</text>
+
+<!-- Row 1: Семядоли -->
+<text x="100" y="245" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Семядоли</text>
+<text x="245" y="245" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">2 (с запасом веществ)</text>
+<text x="395" y="245" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle">1 (щиток, без запаса)</text>
+
+<!-- Row 2: Эндосперм -->
+<text x="100" y="258" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Эндосперм</text>
+<text x="245" y="258" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">Обычно отсутствует</text>
+<text x="395" y="258" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle">Хорошо развит</text>
+
+<!-- Row 3: Покровы -->
+<text x="100" y="271" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Покровы</text>
+<text x="245" y="271" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">Семенная кожура</text>
+<text x="395" y="271" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle">Плодовая обол. + кожура</text>
+
+<!-- Row 4: Зародыш -->
+<text x="100" y="284" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Зародыш</text>
+<text x="245" y="284" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">Крупный, 2 семядоли</text>
+<text x="395" y="284" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle">Мелкий, колеоптиль/колеориза</text>
+
+<!-- Row 5: Запас -->
+<text x="100" y="297" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Запас веществ</text>
+<text x="245" y="297" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">В семядолях</text>
+<text x="395" y="297" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle">В эндосперме</text>
+
+<!-- Row 6: Плод -->
+<text x="100" y="310" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Плод</text>
+<text x="245" y="310" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">Боб (раскрывается)</text>
+<text x="395" y="310" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle">Зерновка (не раскрывается)</text>
+
+<!-- Table lines -->
+<line x1="170" y1="218" x2="170" y2="316" stroke="#2E7D32" stroke-width="0.3" opacity="0.3"/>
+<line x1="320" y1="218" x2="320" y2="316" stroke="#2E7D32" stroke-width="0.3" opacity="0.3"/>
+<line x1="30" y1="232" x2="470" y2="232" stroke="#2E7D32" stroke-width="0.3" opacity="0.3"/>
+<line x1="30" y1="249" x2="470" y2="249" stroke="#2E7D32" stroke-width="0.3" opacity="0.2"/>
+<line x1="30" y1="262" x2="470" y2="262" stroke="#2E7D32" stroke-width="0.3" opacity="0.2"/>
+<line x1="30" y1="275" x2="470" y2="275" stroke="#2E7D32" stroke-width="0.3" opacity="0.2"/>
+<line x1="30" y1="288" x2="470" y2="288" stroke="#2E7D32" stroke-width="0.3" opacity="0.2"/>
+<line x1="30" y1="301" x2="470" y2="301" stroke="#2E7D32" stroke-width="0.3" opacity="0.2"/>
+
+<!-- Common features note -->
+<rect x="100" y="320" width="300" height="18" rx="3" fill="#1B5E20" opacity="0.06" stroke="#2E7D32" stroke-width="0.5"/>
+<text x="250" y="332" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle">Общее: семенная кожура, зародыш (корешок, стебелёк, почечка), запас питательных веществ</text>
+</svg>

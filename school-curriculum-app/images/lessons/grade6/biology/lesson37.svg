@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+<linearGradient id="rhizG" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#A5D6A7"/><stop offset="100%" stop-color="#66BB6A"/></linearGradient>
+<linearGradient id="tubG" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#D7CCC8"/><stop offset="100%" stop-color="#A1887F"/></linearGradient>
+<linearGradient id="bulbG" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFF9C4"/><stop offset="100%" stop-color="#FFEE58"/></linearGradient>
+<linearGradient id="scaleG" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#FFF9C4"/><stop offset="50%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#FFF9C4"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Видоизменения побегов</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 6 класс — Урок 37</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- SECTION 1: Underground modifications -->
+<text x="250" y="66" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Подземные видоизменения побегов</text>
+
+<!-- 1: Корневище (Rhizome) -->
+<rect x="10" y="72" width="155" height="105" rx="4" fill="#EFEBE9" opacity="0.3" stroke="#795548" stroke-width="0.8"/>
+<text x="87" y="84" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#5D4037" text-anchor="middle">Корневище (ирис)</text>
+<!-- Ground line -->
+<path d="M20,110 Q55,107 87,110 Q120,113 150,108" fill="none" stroke="#795548" stroke-width="1"/>
+<!-- Rhizome (thick horizontal stem underground) -->
+<path d="M25,135 Q45,128 87,130 Q130,132 150,126" fill="none" stroke="url(#rhizG)" stroke-width="8" stroke-linecap="round"/>
+<!-- Nodes on rhizome -->
+<circle cx="45" cy="131" r="2" fill="#2E7D32"/>
+<circle cx="87" cy="130" r="2" fill="#2E7D32"/>
+<circle cx="130" cy="130" r="2" fill="#2E7D32"/>
+<!-- Scale leaves (reduced) -->
+<path d="M45,126 L45,121" stroke="#81C784" stroke-width="1.5"/>
+<path d="M87,125 L87,120" stroke="#81C784" stroke-width="1.5"/>
+<path d="M130,126 L130,121" stroke="#81C784" stroke-width="1.5"/>
+<!-- Adventitious roots going down -->
+<path d="M45,135 L40,155" stroke="#FF9800" stroke-width="1" stroke-linecap="round"/>
+<path d="M55,134 L50,152" stroke="#FF9800" stroke-width="0.8" stroke-linecap="round"/>
+<path d="M87,134 L85,155" stroke="#FF9800" stroke-width="1" stroke-linecap="round"/>
+<path d="M95,133 L98,153" stroke="#FF9800" stroke-width="0.8" stroke-linecap="round"/>
+<path d="M130,132 L128,152" stroke="#FF9800" stroke-width="1" stroke-linecap="round"/>
+<path d="M140,130 L145,150" stroke="#FF9800" stroke-width="0.8" stroke-linecap="round"/>
+<!-- Shoot above ground from node -->
+<path d="M87,120 L87,100" stroke="#4CAF50" stroke-width="2" stroke-linecap="round"/>
+<!-- Leaves on aerial shoot -->
+<path d="M87,100 Q75,92 70,85" fill="none" stroke="#66BB6A" stroke-width="1.5"/>
+<path d="M87,100 Q99,92 104,85" fill="none" stroke="#66BB6A" stroke-width="1.5"/>
+<path d="M87,105 Q72,98 65,90" fill="none" stroke="#4CAF50" stroke-width="1.2"/>
+<path d="M87,105 Q102,98 109,90" fill="none" stroke="#4CAF50" stroke-width="1.2"/>
+<!-- Labels -->
+<text x="30" y="168" font-family="Arial,sans-serif" font-size="5" fill="#5D4037">узлы</text>
+<text x="55" y="168" font-family="Arial,sans-serif" font-size="5" fill="#FF9800">придат. корни</text>
+<text x="108" y="168" font-family="Arial,sans-serif" font-size="5" fill="#4CAF50">чешуевидные листья</text>
+
+<!-- 2: Клубень (Tuber) -->
+<rect x="175" y="72" width="155" height="105" rx="4" fill="#EFEBE9" opacity="0.3" stroke="#795548" stroke-width="0.8"/>
+<text x="252" y="84" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#5D4037" text-anchor="middle">Клубень (картофель)</text>
+<!-- Ground line -->
+<path d="M185,110 Q220,107 252,110 Q285,113 320,108" fill="none" stroke="#795548" stroke-width="1"/>
+<!-- Potato tuber -->
+<ellipse cx="252" cy="140" rx="45" ry="25" fill="url(#tubG)" stroke="#795548" stroke-width="1.2"/>
+<!-- Eyes (buds) -->
+<circle cx="222" cy="132" r="3" fill="#8D6E63" stroke="#5D4037" stroke-width="0.6"/>
+<circle cx="240" cy="128" r="2.5" fill="#8D6E63" stroke="#5D4037" stroke-width="0.5"/>
+<circle cx="265" cy="130" r="3" fill="#8D6E63" stroke="#5D4037" stroke-width="0.6"/>
+<circle cx="278" cy="140" r="2.5" fill="#8D6E63" stroke="#5D4037" stroke-width="0.5"/>
+<circle cx="235" cy="148" r="2.5" fill="#8D6E63" stroke="#5D4037" stroke-width="0.5"/>
+<circle cx="260" cy="150" r="3" fill="#8D6E63" stroke="#5D4037" stroke-width="0.6"/>
+<!-- Aerial stem from tuber -->
+<path d="M252,115 L252,95" stroke="#4CAF50" stroke-width="2" stroke-linecap="round"/>
+<path d="M252,95 Q240,88 235,80" fill="none" stroke="#66BB6A" stroke-width="1.5"/>
+<path d="M252,95 Q264,88 270,80" fill="none" stroke="#66BB6A" stroke-width="1.5"/>
+<!-- Stolon connecting -->
+<path d="M207,140 L180,138 Q170,137 170,130" fill="none" stroke="#A5D6A7" stroke-width="2" stroke-linecap="round"/>
+<!-- Labels -->
+<line x1="222" y1="132" x2="200" y2="122" stroke="#666" stroke-width="0.4"/>
+<text x="198" y="120" font-family="Arial,sans-serif" font-size="5" fill="#5D4037" text-anchor="end">глазки (почки)</text>
+<line x1="170" y1="130" x2="160" y2="122" stroke="#666" stroke-width="0.4"/>
+<text x="158" y="120" font-family="Arial,sans-serif" font-size="5" fill="#4CAF50" text-anchor="end">столон</text>
+<text x="252" y="168" font-family="Arial,sans-serif" font-size="5" fill="#795548" text-anchor="middle">запасающий стебель</text>
+
+<!-- 3: Луковица (Bulb) -->
+<rect x="340" y="72" width="150" height="105" rx="4" fill="#FFF9C4" opacity="0.3" stroke="#F9A825" stroke-width="0.8"/>
+<text x="415" y="84" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#F57F17" text-anchor="middle">Луковица (лук/тюльпан)</text>
+<!-- Ground line -->
+<path d="M350,110 Q385,107 415,110 Q445,113 480,108" fill="none" stroke="#795548" stroke-width="1"/>
+<!-- Bulb cross-section -->
+<!-- Outer dry scales -->
+<ellipse cx="415" cy="140" rx="28" ry="30" fill="#D7CCC8" stroke="#BCAAA4" stroke-width="1"/>
+<!-- Fleshy scales -->
+<ellipse cx="415" cy="140" rx="22" ry="24" fill="url(#scaleG)" stroke="#FFF9C4" stroke-width="0.5"/>
+<ellipse cx="415" cy="140" rx="16" ry="18" fill="#FFFFFF" stroke="#FFF9C4" stroke-width="0.5"/>
+<ellipse cx="415" cy="140" rx="10" ry="12" fill="#FFF9C4" stroke="#FFF176" stroke-width="0.3"/>
+<!-- Central bud -->
+<ellipse cx="415" cy="134" rx="5" ry="10" fill="#81C784" stroke="#4CAF50" stroke-width="0.5"/>
+<!-- Donets (base plate) -->
+<rect x="397" y="165" width="36" height="5" rx="2" fill="#8D6E63" stroke="#5D4037" stroke-width="0.5"/>
+<!-- Adventitious roots -->
+<path d="M405,170 L403,182" stroke="#FF9800" stroke-width="0.8" stroke-linecap="round"/>
+<path d="M410,170 L409,184" stroke="#FF9800" stroke-width="0.8" stroke-linecap="round"/>
+<path d="M415,170 L415,185" stroke="#FF9800" stroke-width="0.8" stroke-linecap="round"/>
+<path d="M420,170 L421,184" stroke="#FF9800" stroke-width="0.8" stroke-linecap="round"/>
+<path d="M425,170 L427,182" stroke="#FF9800" stroke-width="0.8" stroke-linecap="round"/>
+<!-- Aerial leaves -->
+<path d="M415,115 L415,95 Q410,85 408,78" fill="none" stroke="#66BB6A" stroke-width="2"/>
+<path d="M415,115 L415,95 Q420,85 422,78" fill="none" stroke="#66BB6A" stroke-width="2"/>
+<!-- Labels -->
+<line x1="443" y1="128" x2="460" y2="122" stroke="#666" stroke-width="0.4"/>
+<text x="462" y="118" font-family="Arial,sans-serif" font-size="5" fill="#F57F17">чешуи</text>
+<text x="462" y="126" font-family="Arial,sans-serif" font-size="5" fill="#F57F17">(сочные)</text>
+<line x1="395" y1="134" x2="375" y2="128" stroke="#666" stroke-width="0.4"/>
+<text x="373" y="126" font-family="Arial,sans-serif" font-size="5" fill="#4CAF50" text-anchor="end">почка</text>
+<line x1="395" y1="168" x2="375" y2="168" stroke="#666" stroke-width="0.4"/>
+<text x="373" y="166" font-family="Arial,sans-serif" font-size="5" fill="#5D4037" text-anchor="end">донце</text>
+<text x="415" y="192" font-family="Arial,sans-serif" font-size="5" fill="#FF9800" text-anchor="middle">придаточные корни</text>
+
+<!-- SECTION 2: Above-ground modifications (bottom) -->
+<text x="250" y="198" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Надземные видоизменения побегов</text>
+
+<!-- 1: Усики (Tendrils) -->
+<rect x="10" y="205" width="120" height="90" rx="4" fill="#E8F5E9" opacity="0.4" stroke="#2E7D32" stroke-width="0.8"/>
+<text x="70" y="218" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1B5E20" text-anchor="middle">Усики (виноград)</text>
+<!-- Stem -->
+<line x1="35" y1="230" x2="35" y2="280" stroke="#66BB6A" stroke-width="2"/>
+<!-- Tendril coiling -->
+<path d="M35,235 Q45,232 50,238 Q55,244 48,248 Q41,252 46,258 Q51,264 44,268" fill="none" stroke="#4CAF50" stroke-width="1.5"/>
+<!-- Second tendril -->
+<path d="M35,240 Q25,237 20,243 Q15,249 22,253 Q29,257 24,263" fill="none" stroke="#4CAF50" stroke-width="1.2"/>
+<!-- Leaf -->
+<path d="M35,245 L55,240 Q58,243 55,246 L35,250" fill="#81C784" stroke="#388E3C" stroke-width="0.5"/>
+<!-- Support line -->
+<line x1="50" y1="225" x2="50" y2="290" stroke="#8D6E63" stroke-width="2" stroke-dasharray="5,3"/>
+<!-- Attachment point -->
+<circle cx="44" cy="268" r="2" fill="#388E3C"/>
+<text x="70" y="280" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">обвивают опору</text>
+<text x="70" y="288" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">для поддержки</text>
+
+<!-- 2: Колючки (Spines) -->
+<rect x="140" y="205" width="120" height="90" rx="4" fill="#FFF3E0" opacity="0.4" stroke="#E65100" stroke-width="0.8"/>
+<text x="200" y="218" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#E65100" text-anchor="middle">Колючки (боярышник)</text>
+<!-- Stem -->
+<line x1="200" y1="225" x2="200" y2="290" stroke="#8D6E63" stroke-width="3"/>
+<!-- Spines (modified short shoots) -->
+<path d="M200,235 L220,222 L222,218 L218,224 Z" fill="#A1887F" stroke="#5D4037" stroke-width="0.8"/>
+<path d="M200,255 L178,242 L176,238 L180,244 Z" fill="#A1887F" stroke="#5D4037" stroke-width="0.8"/>
+<path d="M200,272 L215,260 L217,256 L213,262 Z" fill="#A1887F" stroke="#5D4037" stroke-width="0.8"/>
+<!-- Small leaf at base of spine -->
+<ellipse cx="225" cy="228" rx="5" ry="3" fill="#81C784" stroke="#388E3C" stroke-width="0.4"/>
+<!-- Node marks -->
+<ellipse cx="200" cy="235" rx="5" ry="2" fill="none" stroke="#5D4037" stroke-width="0.5"/>
+<ellipse cx="200" cy="255" rx="5" ry="2" fill="none" stroke="#5D4037" stroke-width="0.5"/>
+<text x="200" y="298" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">защита от поедания</text>
+
+<!-- 3: Филлокладии (Phylloclades) -->
+<rect x="270" y="205" width="120" height="90" rx="4" fill="#E8F5E9" opacity="0.4" stroke="#2E7D32" stroke-width="0.8"/>
+<text x="330" y="218" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1B5E20" text-anchor="middle">Филлокладии</text>
+<text x="330" y="226" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">(молодило, кактус)</text>
+<!-- Phylloclade (flat leaf-like stem) -->
+<ellipse cx="330" cy="260" rx="30" ry="18" fill="#81C784" stroke="#388E3C" stroke-width="1"/>
+<!-- Small scales (true leaves) -->
+<path d="M315,245 L312,240" stroke="#66BB6A" stroke-width="1"/>
+<path d="M330,243 L330,238" stroke="#66BB6A" stroke-width="1"/>
+<path d="M345,245 L348,240" stroke="#66BB6A" stroke-width="1"/>
+<!-- Flower on edge -->
+<circle cx="358" cy="255" r="3" fill="#F48FB1" stroke="#E91E63" stroke-width="0.5"/>
+<circle cx="358" cy="255" r="1.5" fill="#FFF176"/>
+<!-- New phylloclade growing from edge -->
+<ellipse cx="360" cy="270" rx="8" ry="5" fill="#A5D6A7" stroke="#4CAF50" stroke-width="0.5" transform="rotate(30,360,270)"/>
+<text x="330" y="298" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">стебель → листовидная</text>
+
+<!-- 4: Столоны (Stolons/runners) -->
+<rect x="400" y="205" width="90" height="90" rx="4" fill="#E8F5E9" opacity="0.4" stroke="#2E7D32" stroke-width="0.8"/>
+<text x="445" y="218" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1B5E20" text-anchor="middle">Столоны</text>
+<text x="445" y="226" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">(земляника)</text>
+<!-- Mother plant -->
+<circle cx="420" cy="245" r="10" fill="#66BB6A" stroke="#388E3C" stroke-width="0.8"/>
+<!-- Runner (stolon) -->
+<path d="M430,250 Q440,255 450,250 Q460,245 470,250" fill="none" stroke="#4CAF50" stroke-width="1.5"/>
+<!-- Node on runner -->
+<circle cx="445" cy="252" r="2" fill="#2E7D32"/>
+<!-- Daughter plant at end -->
+<circle cx="475" cy="248" r="7" fill="#81C784" stroke="#388E3C" stroke-width="0.8"/>
+<!-- Roots from daughter -->
+<path d="M475,255 L473,268" stroke="#FF9800" stroke-width="0.8"/>
+<path d="M477,255 L479,267" stroke="#FF9800" stroke-width="0.8"/>
+<!-- Leaves on daughter -->
+<path d="M475,241 L468,235" stroke="#66BB6A" stroke-width="1"/>
+<path d="M475,241 L482,235" stroke="#66BB6A" stroke-width="1"/>
+<text x="445" y="290" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">вегетативное</text>
+<text x="445" y="298" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">размножение</text>
+
+<!-- Bottom comparison note -->
+<rect x="20" y="308" width="460" height="32" rx="3" fill="#FFF9C4" opacity="0.5" stroke="#F9A825" stroke-width="0.5"/>
+<text x="250" y="320" font-family="Arial,sans-serif" font-size="6" fill="#5D4037" text-anchor="middle">!! Все видоизменения — это побеги (стебель + листья + почки), приспособленные к особым условиям</text>
+<text x="250" y="330" font-family="Arial,sans-serif" font-size="6" fill="#5D4037" text-anchor="middle">Отличие от корня: есть узлы, почки, чешуевидные листья | Корнеплод = корень, а клубень = побег!</text>
+</svg>

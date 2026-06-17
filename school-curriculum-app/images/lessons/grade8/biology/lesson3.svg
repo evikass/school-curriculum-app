@@ -1,0 +1,245 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+  <linearGradient id="panelGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="white"/><stop offset="100%" stop-color="#F1F8E9"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+
+<!-- Title -->
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Эволюция человека. Доказательства от животных</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 8 класс — Урок 3</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- Four evidence panels in 2x2 grid -->
+
+<!-- Panel 1: Embryological evidence (top-left) -->
+<g transform="translate(15,56)">
+  <rect x="0" y="0" width="232" height="130" rx="6" fill="url(#panelGrad)" opacity="0.92" stroke="#2E7D32" stroke-width="1"/>
+  <!-- Panel header -->
+  <rect x="0" y="0" width="232" height="18" rx="6" fill="#2E7D32" opacity="0.15"/>
+  <text x="116" y="13" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">1. Эмбриологические доказательства</text>
+
+  <!-- Embryo stages -->
+  <g transform="translate(30,70)">
+    <!-- Early embryo - fish-like -->
+    <ellipse cx="0" cy="0" rx="12" ry="8" fill="#FFCC80" opacity="0.5" stroke="#E65100" stroke-width="0.8"/>
+    <circle cx="-10" cy="-2" r="3" fill="#FFE0B2" stroke="#E65100" stroke-width="0.5"/>
+    <!-- Gill slits -->
+    <line x1="-3" y1="-4" x2="-3" y2="0" stroke="#E65100" stroke-width="0.5"/>
+    <line x1="-1" y1="-4" x2="-1" y2="0" stroke="#E65100" stroke-width="0.5"/>
+    <line x1="1" y1="-4" x2="1" y2="0" stroke="#E65100" stroke-width="0.5"/>
+    <!-- Tail -->
+    <path d="M12,0 Q18,0 16,-6" fill="none" stroke="#E65100" stroke-width="0.8"/>
+    <text x="0" y="18" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Рыба</text>
+  </g>
+
+  <g transform="translate(80,70)">
+    <!-- Embryo - amphibian-like -->
+    <ellipse cx="0" cy="0" rx="12" ry="10" fill="#FFCC80" opacity="0.5" stroke="#E65100" stroke-width="0.8"/>
+    <circle cx="-9" cy="-3" r="3.5" fill="#FFE0B2" stroke="#E65100" stroke-width="0.5"/>
+    <line x1="-2" y1="-5" x2="-2" y2="-1" stroke="#E65100" stroke-width="0.5"/>
+    <line x1="0" y1="-5" x2="0" y2="-1" stroke="#E65100" stroke-width="0.5"/>
+    <path d="M12,2 Q18,2 16,-4" fill="none" stroke="#E65100" stroke-width="0.8"/>
+    <text x="0" y="18" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Земноводное</text>
+  </g>
+
+  <g transform="translate(130,70)">
+    <!-- Embryo - mammal-like -->
+    <ellipse cx="0" cy="0" rx="13" ry="11" fill="#FFCC80" opacity="0.6" stroke="#E65100" stroke-width="0.8"/>
+    <circle cx="-9" cy="-3" r="4" fill="#FFE0B2" stroke="#E65100" stroke-width="0.5"/>
+    <path d="M13,2 Q17,0 15,-5" fill="none" stroke="#E65100" stroke-width="0.8"/>
+    <!-- Limb buds -->
+    <ellipse cx="-5" cy="10" rx="4" ry="2" fill="#FFE0B2" stroke="#E65100" stroke-width="0.4"/>
+    <ellipse cx="5" cy="10" rx="4" ry="2" fill="#FFE0B2" stroke="#E65100" stroke-width="0.4"/>
+    <text x="0" y="22" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Млекопитающее</text>
+  </g>
+
+  <g transform="translate(185,70)">
+    <!-- Embryo - human-like -->
+    <ellipse cx="0" cy="0" rx="11" ry="13" fill="#FFCC80" opacity="0.7" stroke="#E65100" stroke-width="0.8"/>
+    <circle cx="-7" cy="-5" r="5" fill="#FFE0B2" stroke="#E65100" stroke-width="0.5"/>
+    <!-- Large head -->
+    <path d="M11,0 Q14,-2 12,-6" fill="none" stroke="#E65100" stroke-width="0.6"/>
+    <text x="0" y="22" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Человек</text>
+  </g>
+
+  <!-- Arrow showing progression -->
+  <path d="M50,70 L170,70" fill="none" stroke="#2E7D32" stroke-width="0.8" marker-end="url(#arrowG)"/>
+
+  <!-- Caption -->
+  <text x="116" y="110" font-family="Arial,sans-serif" font-size="5.5" fill="#1B5E20" text-anchor="middle">Сходство ранних стадий эмбрионального развития</text>
+  <text x="116" y="119" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Жаберные щели, хвост, один план строения</text>
+</g>
+
+<!-- Panel 2: Paleontological evidence (top-right) -->
+<g transform="translate(253,56)">
+  <rect x="0" y="0" width="232" height="130" rx="6" fill="url(#panelGrad)" opacity="0.92" stroke="#2E7D32" stroke-width="1"/>
+  <rect x="0" y="0" width="232" height="18" rx="6" fill="#2E7D32" opacity="0.15"/>
+  <text x="116" y="13" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">2. Палеонтологические доказательства</text>
+
+  <!-- Fossil skull -->
+  <g transform="translate(80,68)">
+    <!-- Skull outline -->
+    <path d="M-20,10 Q-22,-8 -10,-18 Q0,-24 12,-18 Q22,-8 20,10 Q18,16 10,18 L-10,18 Q-18,16 -20,10Z" fill="#D7CCC8" stroke="#795548" stroke-width="1.2"/>
+    <!-- Eye sockets -->
+    <ellipse cx="-8" cy="-4" rx="5" ry="4.5" fill="#8D6E63" opacity="0.3" stroke="#5D4037" stroke-width="0.6"/>
+    <ellipse cx="8" cy="-4" rx="5" ry="4.5" fill="#8D6E63" opacity="0.3" stroke="#5D4037" stroke-width="0.6"/>
+    <!-- Nose -->
+    <path d="M-2,2 L0,5 L2,2" fill="none" stroke="#5D4037" stroke-width="0.6"/>
+    <!-- Jaw -->
+    <path d="M-14,14 Q0,20 14,14" fill="none" stroke="#5D4037" stroke-width="0.8"/>
+    <!-- Teeth -->
+    <line x1="-8" y1="14" x2="-8" y2="16" stroke="#5D4037" stroke-width="0.5"/>
+    <line x1="-4" y1="15" x2="-4" y2="17" stroke="#5D4037" stroke-width="0.5"/>
+    <line x1="0" y1="16" x2="0" y2="18" stroke="#5D4037" stroke-width="0.5"/>
+    <line x1="4" y1="15" x2="4" y2="17" stroke="#5D4037" stroke-width="0.5"/>
+    <line x1="8" y1="14" x2="8" y2="16" stroke="#5D4037" stroke-width="0.5"/>
+    <!-- Brush/ground marks -->
+    <path d="M-24,22 L24,22" stroke="#A1887F" stroke-width="0.5" stroke-dasharray="2,1"/>
+    <text x="0" y="32" font-family="Arial,sans-serif" font-size="5.5" fill="#795548" text-anchor="middle" font-weight="bold">Ископаемый череп</text>
+  </g>
+
+  <!-- Time scale on right -->
+  <g transform="translate(180,40)">
+    <line x1="0" y1="0" x2="0" y2="80" stroke="#795548" stroke-width="1.5"/>
+    <polygon points="0,83 -3,78 3,78" fill="#795548"/>
+    <text x="3" y="10" font-family="Arial,sans-serif" font-size="4.5" fill="#795548">7 млн л.н.</text>
+    <text x="3" y="35" font-family="Arial,sans-serif" font-size="4.5" fill="#795548">2 млн л.н.</text>
+    <text x="3" y="60" font-family="Arial,sans-serif" font-size="4.5" fill="#795548">40 тыс. л.н.</text>
+    <!-- dots on timeline -->
+    <circle cx="0" cy="8" r="2" fill="#795548"/>
+    <circle cx="0" cy="33" r="2" fill="#795548"/>
+    <circle cx="0" cy="58" r="2" fill="#795548"/>
+  </g>
+
+  <text x="116" y="115" font-family="Arial,sans-serif" font-size="5.5" fill="#1B5E20" text-anchor="middle">Останки предков человека</text>
+  <text x="116" y="124" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Переходные формы, увеличение мозга</text>
+</g>
+
+<!-- Panel 3: Comparative-anatomical evidence (bottom-left) -->
+<g transform="translate(15,192)">
+  <rect x="0" y="0" width="232" height="130" rx="6" fill="url(#panelGrad)" opacity="0.92" stroke="#2E7D32" stroke-width="1"/>
+  <rect x="0" y="0" width="232" height="18" rx="6" fill="#2E7D32" opacity="0.15"/>
+  <text x="116" y="13" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">3. Сравнительно-анатомические док-ва</text>
+
+  <!-- Homologous limb bones -->
+  <!-- Human arm -->
+  <g transform="translate(35,70)">
+    <text x="0" y="-30" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Человек</text>
+    <!-- Humerus -->
+    <line x1="0" y1="-22" x2="0" y2="-5" stroke="#1565C0" stroke-width="3" stroke-linecap="round"/>
+    <!-- Radius/Ulna -->
+    <line x1="0" y1="-5" x2="-4" y2="12" stroke="#1565C0" stroke-width="2" stroke-linecap="round"/>
+    <line x1="0" y1="-5" x2="4" y2="12" stroke="#1976D2" stroke-width="2" stroke-linecap="round"/>
+    <!-- Hand -->
+    <line x1="-4" y1="12" x2="-8" y2="20" stroke="#1565C0" stroke-width="1.2"/>
+    <line x1="4" y1="12" x2="8" y2="20" stroke="#1565C0" stroke-width="1.2"/>
+    <text x="0" y="28" font-family="Arial,sans-serif" font-size="5" fill="#1565C0" text-anchor="middle">Рука</text>
+  </g>
+
+  <!-- Bat wing -->
+  <g transform="translate(90,70)">
+    <text x="0" y="-30" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Летучая мышь</text>
+    <line x1="0" y1="-22" x2="0" y2="-5" stroke="#E91E63" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="-5" x2="-6" y2="12" stroke="#E91E63" stroke-width="2" stroke-linecap="round"/>
+    <line x1="0" y1="-5" x2="3" y2="10" stroke="#C2185B" stroke-width="2" stroke-linecap="round"/>
+    <!-- Wing membrane -->
+    <path d="M-6,12 Q-15,5 -12,20 L-6,15" fill="#E91E63" opacity="0.15" stroke="#E91E63" stroke-width="0.5"/>
+    <path d="M3,10 Q10,3 8,18 L3,13" fill="#E91E63" opacity="0.15" stroke="#E91E63" stroke-width="0.5"/>
+    <text x="0" y="28" font-family="Arial,sans-serif" font-size="5" fill="#E91E63" text-anchor="middle">Крыло</text>
+  </g>
+
+  <!-- Whale flipper -->
+  <g transform="translate(145,70)">
+    <text x="0" y="-30" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Кит</text>
+    <line x1="0" y1="-22" x2="0" y2="-5" stroke="#0097A7" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="0" y1="-5" x2="-4" y2="8" stroke="#0097A7" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="0" y1="-5" x2="4" y2="8" stroke="#00838F" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Flipper outline -->
+    <path d="M-4,8 Q-10,12 -8,18 Q0,22 8,18 Q10,12 4,8" fill="#0097A7" opacity="0.15" stroke="#0097A7" stroke-width="0.5"/>
+    <text x="0" y="28" font-family="Arial,sans-serif" font-size="5" fill="#0097A7" text-anchor="middle">Ласт</text>
+  </g>
+
+  <!-- Cat leg -->
+  <g transform="translate(195,70)">
+    <text x="0" y="-30" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Кошка</text>
+    <line x1="0" y1="-22" x2="0" y2="-5" stroke="#FF9800" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="-5" x2="-3" y2="10" stroke="#FF9800" stroke-width="2" stroke-linecap="round"/>
+    <line x1="0" y1="-5" x2="3" y2="10" stroke="#F57C00" stroke-width="2" stroke-linecap="round"/>
+    <!-- Paw -->
+    <ellipse cx="0" cy="14" rx="5" ry="3" fill="#FF9800" opacity="0.2" stroke="#FF9800" stroke-width="0.5"/>
+    <text x="0" y="28" font-family="Arial,sans-serif" font-size="5" fill="#FF9800" text-anchor="middle">Лапа</text>
+  </g>
+
+  <!-- "Гомологичные органы" label -->
+  <text x="116" y="110" font-family="Arial,sans-serif" font-size="5.5" fill="#1B5E20" text-anchor="middle">Гомологичные органы — общее происхождение</text>
+  <text x="116" y="120" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Рудименты и атавизмы у человека</text>
+</g>
+
+<!-- Panel 4: Molecular-genetic evidence (bottom-right) -->
+<g transform="translate(253,192)">
+  <rect x="0" y="0" width="232" height="130" rx="6" fill="url(#panelGrad)" opacity="0.92" stroke="#2E7D32" stroke-width="1"/>
+  <rect x="0" y="0" width="232" height="18" rx="6" fill="#2E7D32" opacity="0.15"/>
+  <text x="116" y="13" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">4. Молекулярно-генетические док-ва</text>
+
+  <!-- DNA helix -->
+  <g transform="translate(65,75)">
+    <!-- Left strand -->
+    <path d="M-8,-30 C0,-25 8,-20 0,-15 C-8,-10 8,-5 0,0 C-8,5 8,10 0,15 C-8,20 8,25 0,30" fill="none" stroke="#1565C0" stroke-width="2"/>
+    <!-- Right strand -->
+    <path d="M8,-30 C0,-25 -8,-20 0,-15 C8,-10 -8,-5 0,0 C8,5 -8,10 0,15 C8,20 -8,25 0,30" fill="none" stroke="#C62828" stroke-width="2"/>
+    <!-- Base pairs -->
+    <line x1="-4" y1="-25" x2="4" y2="-25" stroke="#9C27B0" stroke-width="1.2"/>
+    <line x1="-6" y1="-15" x2="6" y2="-15" stroke="#4CAF50" stroke-width="1.2"/>
+    <line x1="-4" y1="-5" x2="4" y2="-5" stroke="#9C27B0" stroke-width="1.2"/>
+    <line x1="-6" y1="5" x2="6" y2="5" stroke="#4CAF50" stroke-width="1.2"/>
+    <line x1="-4" y1="15" x2="4" y2="15" stroke="#9C27B0" stroke-width="1.2"/>
+    <line x1="-6" y1="25" x2="6" y2="25" stroke="#4CAF50" stroke-width="1.2"/>
+    <text x="0" y="42" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle" font-weight="bold">ДНК</text>
+  </g>
+
+  <!-- Similarity percentages -->
+  <g transform="translate(155,40)">
+    <text x="0" y="0" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" font-weight="bold">Сходство ДНК с человеком:</text>
+
+    <!-- Chimp -->
+    <rect x="0" y="6" width="68" height="8" rx="2" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="0" y="6" width="65.3" height="8" rx="2" fill="#4CAF50" opacity="0.5"/>
+    <text x="2" y="13" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20">Шимпанзе</text>
+    <text x="66" y="13" font-family="Arial,sans-serif" font-size="5.5" fill="#1B5E20" font-weight="bold">98.8%</text>
+
+    <!-- Gorilla -->
+    <rect x="0" y="18" width="68" height="8" rx="2" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="0" y="18" width="64.6" height="8" rx="2" fill="#66BB6A" opacity="0.5"/>
+    <text x="2" y="25" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20">Горилла</text>
+    <text x="66" y="25" font-family="Arial,sans-serif" font-size="5.5" fill="#1B5E20" font-weight="bold">98.4%</text>
+
+    <!-- Orangutan -->
+    <rect x="0" y="30" width="68" height="8" rx="2" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="0" y="30" width="62.9" height="8" rx="2" fill="#81C784" opacity="0.5"/>
+    <text x="2" y="37" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20">Орангутан</text>
+    <text x="66" y="37" font-family="Arial,sans-serif" font-size="5.5" fill="#1B5E20" font-weight="bold">96.9%</text>
+
+    <!-- Mouse -->
+    <rect x="0" y="42" width="68" height="8" rx="2" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="0" y="42" width="55.1" height="8" rx="2" fill="#A5D6A7" opacity="0.5"/>
+    <text x="2" y="49" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20">Мышь</text>
+    <text x="66" y="49" font-family="Arial,sans-serif" font-size="5.5" fill="#1B5E20" font-weight="bold">85%</text>
+
+    <!-- Yeast -->
+    <rect x="0" y="54" width="68" height="8" rx="2" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="0" y="54" width="30.6" height="8" rx="2" fill="#C8E6C9" opacity="0.7"/>
+    <text x="2" y="61" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20">Дрожжи</text>
+    <text x="66" y="61" font-family="Arial,sans-serif" font-size="5.5" fill="#1B5E20" font-weight="bold">45%</text>
+  </g>
+
+  <!-- Conclusion text -->
+  <text x="116" y="112" font-family="Arial,sans-serif" font-size="5.5" fill="#1B5E20" text-anchor="middle">Ближе к человеку — больше сходство ДНК</text>
+  <text x="116" y="122" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Универсальный генетический код</text>
+</g>
+
+<!-- Footer bar -->
+<rect x="0" y="330" width="500" height="20" rx="0" fill="#2E7D32"/>
+<text x="250" y="344" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle" font-weight="bold">Четыре группы доказательств происхождения человека от животных</text>
+</svg>

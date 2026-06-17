@@ -1,70 +1,49 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8F5E9"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="bg11" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#90CAF9;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#E3F2FD;stop-opacity:0.1"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="12"/>
-  <rect x="0" y="0" width="500" height="50" fill="#66BB6A" rx="12"/>
-  <rect x="0" y="25" width="500" height="25" fill="#66BB6A"/>
-  <text x="250" y="34" text-anchor="middle" fill="#FFF" font-size="16" font-weight="bold" font-family="Arial,sans-serif">Урок 11. Акробатические упражнения</text>
-  <!-- Rolls -->
-  <rect x="15" y="60" width="230" height="130" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
-  <rect x="15" y="60" width="230" height="25" fill="#66BB6A" rx="8"/>
-  <rect x="15" y="77" width="230" height="8" fill="#66BB6A"/>
-  <text x="130" y="78" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Кувырки и перекаты</text>
-  <!-- Roll sequence -->
-  <circle cx="45" cy="105" r="8" fill="#E8F5E9" stroke="#66BB6A" stroke-width="1"/>
-  <text x="45" y="108" text-anchor="middle" fill="#2E7D32" font-size="7" font-family="Arial,sans-serif">1</text>
-  <path d="M55,105 Q70,95 85,105" fill="none" stroke="#66BB6A" stroke-width="1.5"/>
-  <circle cx="95" cy="105" r="8" fill="#E8F5E9" stroke="#66BB6A" stroke-width="1"/>
-  <text x="95" y="108" text-anchor="middle" fill="#2E7D32" font-size="7" font-family="Arial,sans-serif">2</text>
-  <path d="M105,105 Q120,95 135,105" fill="none" stroke="#66BB6A" stroke-width="1.5"/>
-  <circle cx="145" cy="105" r="8" fill="#E8F5E9" stroke="#66BB6A" stroke-width="1"/>
-  <text x="145" y="108" text-anchor="middle" fill="#2E7D32" font-size="7" font-family="Arial,sans-serif">3</text>
-  <text x="25" y="130" fill="#333" font-size="9" font-family="Arial,sans-serif">• Кувырок вперёд</text>
-  <text x="25" y="143" fill="#333" font-size="9" font-family="Arial,sans-serif">• Кувырок назад</text>
-  <text x="25" y="156" fill="#333" font-size="9" font-family="Arial,sans-serif">• Перекат в сторону</text>
-  <text x="25" y="169" fill="#333" font-size="9" font-family="Arial,sans-serif">• Длинный кувырок</text>
-  <text x="25" y="185" fill="#2E7D32" font-size="8" font-weight="bold" font-family="Arial,sans-serif">Группировка: колени к груди!</text>
-
-  <!-- Stands -->
-  <rect x="255" y="60" width="230" height="130" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
-  <rect x="255" y="60" width="230" height="25" fill="#66BB6A" rx="8"/>
-  <rect x="255" y="77" width="230" height="8" fill="#66BB6A"/>
-  <text x="370" y="78" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Стойки и равновесия</text>
-  <text x="265" y="100" fill="#333" font-size="9" font-family="Arial,sans-serif">• Стойка на лопатках</text>
-  <text x="265" y="113" fill="#333" font-size="9" font-family="Arial,sans-serif">• Стойка на голове (помощь!)</text>
-  <text x="265" y="126" fill="#333" font-size="9" font-family="Arial,sans-serif">• Стойка на руках (у стены)</text>
-  <text x="265" y="139" fill="#333" font-size="9" font-family="Arial,sans-serif">• «Мост» из положения лёжа</text>
-  <text x="265" y="155" fill="#2E7D32" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Равновесия:</text>
-  <text x="265" y="168" fill="#333" font-size="9" font-family="Arial,sans-serif">• На одной ноге (ласточка)</text>
-  <text x="265" y="181" fill="#333" font-size="9" font-family="Arial,sans-serif">• Шпагат (продольный, попер.)</text>
-  <text x="265" y="194" fill="#333" font-size="9" font-family="Arial,sans-serif">• Упор присев, упор лёжа</text>
-
-  <!-- Safety -->
-  <rect x="15" y="200" width="230" height="120" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
-  <rect x="15" y="200" width="230" height="25" fill="#E53935" rx="8"/>
-  <rect x="15" y="217" width="230" height="8" fill="#E53935"/>
-  <text x="130" y="228" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">⚠ Безопасность</text>
-  <text x="25" y="252" fill="#333" font-size="9" font-family="Arial,sans-serif">• Маты обязательно!</text>
-  <text x="25" y="265" fill="#333" font-size="9" font-family="Arial,sans-serif">• Страховка партнёром</text>
-  <text x="25" y="278" fill="#333" font-size="9" font-family="Arial,sans-serif">• Разминка шеи и спины</text>
-  <text x="25" y="291" fill="#333" font-size="9" font-family="Arial,sans-serif">• Не выполнять без команды</text>
-  <text x="25" y="304" fill="#333" font-size="9" font-family="Arial,sans-serif">• Группировка при падении!</text>
-  <text x="25" y="317" fill="#333" font-size="9" font-family="Arial,sans-serif">• Очки и украшения снять</text>
-
-  <!-- Connection -->
-  <rect x="255" y="200" width="230" height="120" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
-  <rect x="255" y="200" width="230" height="25" fill="#2E7D32" rx="8"/>
-  <rect x="255" y="217" width="230" height="8" fill="#2E7D32"/>
-  <text x="370" y="228" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Связки и комбинации</text>
-  <text x="265" y="252" fill="#333" font-size="9" font-family="Arial,sans-serif">• Кувырок вперёд → стойка</text>
-  <text x="265" y="265" fill="#333" font-size="9" font-family="Arial,sans-serif">• 2 кувырка вперёд подряд</text>
-  <text x="265" y="278" fill="#333" font-size="9" font-family="Arial,sans-serif">• Кувырок → мост → встать</text>
-  <text x="265" y="291" fill="#333" font-size="9" font-family="Arial,sans-serif">• Стойка → кувырок вперёд</text>
-  <text x="265" y="304" fill="#333" font-size="9" font-family="Arial,sans-serif">• «Колесо» (с помощью)</text>
-  <text x="265" y="317" fill="#2E7D32" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Плавность и точность!</text>
+  <rect width="500" height="350" fill="#1a1a2e"/>
+  <rect width="500" height="350" fill="url(#bg11)"/>
+  <!-- Mountains -->
+  <polygon points="0,250 120,80 240,250" fill="#546E7A" opacity="0.3"/>
+  <polygon points="150,250 300,60 450,250" fill="#455A64" opacity="0.25"/>
+  <polygon points="100,80 120,50 140,80" fill="#B0BEC5" opacity="0.4"/>
+  <polygon points="280,60 300,30 320,60" fill="#B0BEC5" opacity="0.4"/>
+  <!-- Snow ground -->
+  <path d="M0,250 Q100,240 200,250 Q300,260 400,250 Q450,245 500,250 L500,350 L0,350Z" fill="#90CAF9" opacity="0.1"/>
+  <!-- Skier -->
+  <g transform="translate(180,150)">
+    <circle cx="25" cy="8" r="9" fill="#90CAF9"/>
+    <line x1="25" y1="17" x2="25" y2="55" stroke="#90CAF9" stroke-width="3" stroke-linecap="round"/>
+    <line x1="25" y1="28" x2="10" y2="15" stroke="#90CAF9" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="25" y1="28" x2="42" y2="18" stroke="#90CAF9" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="25" y1="55" x2="8" y2="78" stroke="#90CAF9" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="25" y1="55" x2="42" y2="78" stroke="#90CAF9" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Skis -->
+    <line x1="-5" y1="78" x2="55" y2="78" stroke="#64B5F6" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="82" x2="50" y2="82" stroke="#64B5F6" stroke-width="3" stroke-linecap="round"/>
+    <!-- Poles -->
+    <line x1="10" y1="15" x2="0" y2="78" stroke="#B0BEC5" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="42" y1="18" x2="48" y2="78" stroke="#B0BEC5" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <!-- Pine trees -->
+  <g transform="translate(350,170)">
+    <rect x="12" y="40" width="6" height="20" fill="#5D4037" opacity="0.4"/>
+    <polygon points="15,0 -5,25 35,25" fill="#2E7D32" opacity="0.4"/>
+    <polygon points="15,10 -2,30 32,30" fill="#388E3C" opacity="0.35"/>
+    <polygon points="15,20 0,40 30,40" fill="#43A047" opacity="0.3"/>
+  </g>
+  <g transform="translate(400,190)">
+    <rect x="10" y="35" width="5" height="18" fill="#5D4037" opacity="0.4"/>
+    <polygon points="12,0 -4,22 28,22" fill="#2E7D32" opacity="0.35"/>
+    <polygon points="12,10 -2,28 26,28" fill="#388E3C" opacity="0.3"/>
+  </g>
+  <!-- Snowflakes -->
+  <text x="80" y="100" font-size="14" fill="#B0BEC5" opacity="0.4">❄</text>
+  <text x="320" y="120" font-size="10" fill="#B0BEC5" opacity="0.3">❄</text>
+  <text x="450" y="80" font-size="12" fill="#B0BEC5" opacity="0.35">❄</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#aaa" opacity="0.5" font-family="sans-serif">Лыжная подготовка</text>
 </svg>

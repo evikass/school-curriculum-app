@@ -1,113 +1,50 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
-    </linearGradient>
-    <linearGradient id="lungGrad" x1="0" y1="0" x2="0.5" y2="1">
-      <stop offset="0%" stop-color="#90CAF9"/>
-      <stop offset="100%" stop-color="#42A5F5"/>
-    </linearGradient>
-    <linearGradient id="lungGrad2" x1="0.5" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#90CAF9"/>
-      <stop offset="100%" stop-color="#42A5F5"/>
-    </linearGradient>
-    <linearGradient id="stomachGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#F48FB1"/>
-      <stop offset="100%" stop-color="#E91E63"/>
-    </linearGradient>
-    <linearGradient id="intestineGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#A5D6A7"/>
-      <stop offset="100%" stop-color="#43A047"/>
-    </linearGradient>
-    <linearGradient id="tracheaGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFCC80"/>
-      <stop offset="100%" stop-color="#FF9800"/>
-    </linearGradient>
-  </defs>
-  <!-- Background -->
-  <rect width="500" height="350" rx="12" fill="url(#bg)"/>
-  <rect x="2" y="2" width="496" height="346" rx="11" fill="none" stroke="#A5D6A7" stroke-width="1.5"/>
-  <!-- Title -->
-  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20">Дыхание и пищеварение</text>
-  <!-- Divider line between respiration and digestion -->
-  <line x1="250" y1="42" x2="250" y2="325" stroke="#C8E6C9" stroke-width="1" stroke-dasharray="5,5"/>
-  <!-- LEFT SIDE: RESPIRATION -->
-  <!-- Trachea -->
-  <rect x="118" y="50" width="14" height="40" rx="7" fill="url(#tracheaGrad)" stroke="#E65100" stroke-width="1"/>
-  <!-- Trachea rings -->
-  <line x1="118" y1="58" x2="132" y2="58" stroke="#E65100" stroke-width="0.8" opacity="0.5"/>
-  <line x1="118" y1="66" x2="132" y2="66" stroke="#E65100" stroke-width="0.8" opacity="0.5"/>
-  <line x1="118" y1="74" x2="132" y2="74" stroke="#E65100" stroke-width="0.8" opacity="0.5"/>
-  <line x1="118" y1="82" x2="132" y2="82" stroke="#E65100" stroke-width="0.8" opacity="0.5"/>
-  <!-- Bronchi branching -->
-  <path d="M125,90 Q125,100 105,110" fill="none" stroke="#FF9800" stroke-width="5" stroke-linecap="round"/>
-  <path d="M125,90 Q125,100 145,110" fill="none" stroke="#FF9800" stroke-width="5" stroke-linecap="round"/>
-  <!-- Left Lung -->
-  <path d="M105,112 Q75,115 60,140 Q48,165 55,195 Q62,220 85,230 Q105,235 115,225 Q120,215 118,195 Q115,170 112,150 Q110,130 105,112Z" fill="url(#lungGrad)" stroke="#1565C0" stroke-width="1.5" opacity="0.9"/>
-  <!-- Left lung bronchioles -->
-  <path d="M105,115 Q90,130 80,155" fill="none" stroke="#1565C0" stroke-width="1.5" opacity="0.4" stroke-linecap="round"/>
-  <path d="M95,140 Q85,150 75,170" fill="none" stroke="#1565C0" stroke-width="1" opacity="0.4" stroke-linecap="round"/>
-  <path d="M90,155 Q78,165 70,185" fill="none" stroke="#1565C0" stroke-width="1" opacity="0.4" stroke-linecap="round"/>
-  <!-- Left lung alveoli dots -->
-  <circle cx="75" cy="175" r="4" fill="#BBDEFB" stroke="#1565C0" stroke-width="0.8" opacity="0.6"/>
-  <circle cx="68" cy="190" r="3.5" fill="#BBDEFB" stroke="#1565C0" stroke-width="0.8" opacity="0.6"/>
-  <circle cx="80" cy="195" r="4" fill="#BBDEFB" stroke="#1565C0" stroke-width="0.8" opacity="0.6"/>
-  <circle cx="72" cy="208" r="3" fill="#BBDEFB" stroke="#1565C0" stroke-width="0.8" opacity="0.6"/>
-  <!-- Right Lung -->
-  <path d="M145,112 Q175,115 190,140 Q202,165 195,195 Q188,220 165,230 Q145,235 135,225 Q130,215 132,195 Q135,170 138,150 Q140,130 145,112Z" fill="url(#lungGrad2)" stroke="#1565C0" stroke-width="1.5" opacity="0.9"/>
-  <!-- Right lung bronchioles -->
-  <path d="M145,115 Q160,130 170,155" fill="none" stroke="#1565C0" stroke-width="1.5" opacity="0.4" stroke-linecap="round"/>
-  <path d="M155,140 Q165,150 175,170" fill="none" stroke="#1565C0" stroke-width="1" opacity="0.4" stroke-linecap="round"/>
-  <path d="M160,155 Q172,165 180,185" fill="none" stroke="#1565C0" stroke-width="1" opacity="0.4" stroke-linecap="round"/>
-  <!-- Right lung alveoli dots -->
-  <circle cx="175" cy="175" r="4" fill="#BBDEFB" stroke="#1565C0" stroke-width="0.8" opacity="0.6"/>
-  <circle cx="182" cy="190" r="3.5" fill="#BBDEFB" stroke="#1565C0" stroke-width="0.8" opacity="0.6"/>
-  <circle cx="170" cy="195" r="4" fill="#BBDEFB" stroke="#1565C0" stroke-width="0.8" opacity="0.6"/>
-  <circle cx="178" cy="208" r="3" fill="#BBDEFB" stroke="#1565C0" stroke-width="0.8" opacity="0.6"/>
-  <!-- Air flow arrows -->
-  <path d="M125,48 L125,38 L120,44" fill="#42A5F5" stroke="none"/>
-  <path d="M108,108 L100,102 L104,110" fill="#42A5F5" stroke="none"/>
-  <path d="M142,108 L150,102 L146,110" fill="#42A5F5" stroke="none"/>
-  <!-- Respiration labels -->
-  <line x1="60" y1="145" x2="25" y2="130" stroke="#1565C0" stroke-width="1" stroke-dasharray="3,2"/>
-  <text x="5" y="126" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" font-weight="bold">Лёгкие</text>
-  <line x1="125" y1="65" x2="170" y2="50" stroke="#E65100" stroke-width="1" stroke-dasharray="3,2"/>
-  <text x="175" y="54" font-family="Arial,sans-serif" font-size="10" fill="#E65100" font-weight="bold">Трахея</text>
-  <text x="60" y="250" font-family="Arial,sans-serif" font-size="9" fill="#1565C0">Альвеолы</text>
-  <!-- RIGHT SIDE: DIGESTION -->
-  <!-- Esophagus -->
-  <path d="M310,50 Q308,70 306,90 Q304,110 308,125" fill="none" stroke="#F48FB1" stroke-width="5" stroke-linecap="round"/>
-  <!-- Stomach -->
-  <path d="M308,125 Q290,125 278,140 Q268,158 272,180 Q278,200 298,208 Q318,215 332,205 Q345,195 348,175 Q350,155 340,140 Q332,128 318,125 Q312,124 308,125Z" fill="url(#stomachGrad)" stroke="#880E4F" stroke-width="1.5"/>
-  <!-- Stomach inner folds -->
-  <path d="M285,145 Q300,150 310,148" fill="none" stroke="#880E4F" stroke-width="0.8" opacity="0.4"/>
-  <path d="M280,160 Q300,168 325,162" fill="none" stroke="#880E4F" stroke-width="0.8" opacity="0.4"/>
-  <path d="M282,178 Q305,185 330,178" fill="none" stroke="#880E4F" stroke-width="0.8" opacity="0.4"/>
-  <!-- Small intestine (coiled tube) -->
-  <path d="M310,210 Q330,218 350,225 Q370,232 375,245 Q378,258 365,265 Q350,270 335,262 Q320,255 310,260 Q300,268 305,280 Q312,290 328,288 Q345,285 355,295 Q362,305 352,315 Q340,322 325,318 Q310,312 300,320" fill="none" stroke="url(#intestineGrad)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M310,210 Q330,218 350,225 Q370,232 375,245 Q378,258 365,265 Q350,270 335,262 Q320,255 310,260 Q300,268 305,280 Q312,290 328,288 Q345,285 355,295 Q362,305 352,315 Q340,322 325,318 Q310,312 300,320" fill="none" stroke="#2E7D32" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"/>
-  <!-- Large intestine (around small) -->
-  <path d="M280,218 Q268,230 265,255 Q264,280 272,305 Q280,325 310,328 Q340,330 360,320 Q380,310 388,285 Q392,260 385,240 Q378,225 370,218" fill="none" stroke="#81C784" stroke-width="10" stroke-linecap="round" opacity="0.6"/>
-  <path d="M280,218 Q268,230 265,255 Q264,280 272,305 Q280,325 310,328 Q340,330 360,320 Q380,310 388,285 Q392,260 385,240 Q378,225 370,218" fill="none" stroke="#388E3C" stroke-width="1" opacity="0.4"/>
-  <!-- Digestion labels -->
-  <line x1="340" y1="145" x2="420" y2="100" stroke="#880E4F" stroke-width="1" stroke-dasharray="3,2"/>
-  <text x="425" y="104" font-family="Arial,sans-serif" font-size="10" fill="#880E4F" font-weight="bold">Желудок</text>
-  <line x1="355" y1="260" x2="430" y2="240" stroke="#2E7D32" stroke-width="1" stroke-dasharray="3,2"/>
-  <text x="435" y="244" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" font-weight="bold">Кишечник</text>
-  <line x1="375" y1="285" x2="435" y2="290" stroke="#388E3C" stroke-width="1" stroke-dasharray="3,2"/>
-  <text x="440" y="294" font-family="Arial,sans-serif" font-size="10" fill="#388E3C" font-weight="bold">Толстая кишка</text>
-  <line x1="306" y1="80" x2="420" y2="65" stroke="#F48FB1" stroke-width="1" stroke-dasharray="3,2"/>
-  <text x="425" y="69" font-family="Arial,sans-serif" font-size="10" fill="#F48FB1" font-weight="bold">Пищевод</text>
-  <!-- Decorative -->
-  <circle cx="40" cy="55" r="15" fill="#BBDEFB" opacity="0.3"/>
-  <circle cx="460" cy="55" r="15" fill="#F8BBD0" opacity="0.3"/>
-  <circle cx="40" cy="310" r="18" fill="#C8E6C9" opacity="0.3"/>
-  <circle cx="460" cy="310" r="18" fill="#C8E6C9" opacity="0.3"/>
-  <!-- O2 and CO2 labels near lungs -->
-  <text x="50" y="85" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" font-weight="bold">O₂</text>
-  <text x="50" y="100" font-family="Arial,sans-serif" font-size="9" fill="#E53935">↑ CO₂</text>
-  <!-- Bottom info -->
-  <rect x="90" y="332" width="320" height="14" rx="7" fill="#C8E6C9" opacity="0.4"/>
-  <text x="250" y="343" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20">Лёгкие • Трахея • Желудок • Кишечник</text>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+  <text x="250" y="30" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#2E7D32" text-anchor="middle">Общая характеристика царства Растения</text>
+  <text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 6 класс - Урок 11</text>
+  <line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+  
+  <!-- Plant kingdom overview -->
+  <g transform="translate(250,185)">
+    <!-- Central title -->
+    <circle cx="0" cy="0" r="35" fill="#2E7D32" opacity="0.8"/>
+    <text x="0" y="-3" font-family="Arial,sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="bold">Растения</text>
+    <text x="0" y="10" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">(автотрофы)</text>
+    <!-- Branches -->
+    <line x1="-30" y1="-25" x2="-100" y2="-70" stroke="#795548" stroke-width="2"/>
+    <line x1="30" y1="-25" x2="100" y2="-70" stroke="#795548" stroke-width="2"/>
+    <line x1="-35" y1="0" x2="-120" y2="0" stroke="#795548" stroke-width="2"/>
+    <line x1="35" y1="0" x2="120" y2="0" stroke="#795548" stroke-width="2"/>
+    <line x1="-25" y1="25" x2="-90" y2="70" stroke="#795548" stroke-width="2"/>
+    <line x1="25" y1="25" x2="90" y2="70" stroke="#795548" stroke-width="2"/>
+    <!-- Водоросли -->
+    <ellipse cx="-115" cy="-75" rx="40" ry="16" fill="#4CAF50" opacity="0.6"/>
+    <text x="-115" y="-72" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle" font-weight="bold">Водоросли</text>
+    <!-- Мхи -->
+    <ellipse cx="115" cy="-75" rx="35" ry="16" fill="#66BB6A" opacity="0.6"/>
+    <text x="115" y="-72" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle" font-weight="bold">Мхи</text>
+    <!-- Папоротники -->
+    <ellipse cx="-135" cy="0" rx="45" ry="16" fill="#43A047" opacity="0.6"/>
+    <text x="-135" y="3" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle" font-weight="bold">Папоротники</text>
+    <!-- Голосеменные -->
+    <ellipse cx="135" cy="0" rx="45" ry="16" fill="#2E7D32" opacity="0.6"/>
+    <text x="135" y="3" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle" font-weight="bold">Голосеменные</text>
+    <!-- Покрытосеменные -->
+    <ellipse cx="-105" cy="75" rx="50" ry="16" fill="#1B5E20" opacity="0.6"/>
+    <text x="-105" y="72" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle" font-weight="bold">Покрытосеменные</text>
+    <text x="-105" y="83" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle">(цветковые)</text>
+    <!-- Evolution arrow -->
+    <text x="105" y="68" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">Цветковые</text>
+    <text x="105" y="78" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">самые</text>
+    <text x="105" y="88" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">сложные</text>
+  </g>
+  <!-- Characteristics -->
+  <rect x="20" y="280" width="460" height="35" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
+  <text x="250" y="296" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle" font-weight="bold">Признаки растений: автотрофы (фотосинтез), клеточная стенка из целлюлозы, неподвижны</text>
+  <text x="250" y="310" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Растут всю жизнь, запасное вещество - крахмал</text>
+
+  <rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+  <text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 6 класс</text>
 </svg>

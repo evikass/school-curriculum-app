@@ -1,50 +1,86 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b71c1c"/>
+      <stop offset="50%" stop-color="#e53935"/>
+      <stop offset="100%" stop-color="#ff8a65"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#B71C1C"/>
-      <stop offset="100%" stop-color="#C62828"/>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5d4037"/>
+      <stop offset="100%" stop-color="#3e2723"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
-  <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#1565C0" text-anchor="middle">Северная война</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">История - Урок 2</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#1565C0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#1565C0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA: x=15..485, y=85..300 -->
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="#BBDEFB" width="470" height="215" fill="#E3F2FD"/><rect x="15" y="265" width="470" height="30" fill="#795548"/><g transform="translate(200,210) scale(2.0)">
-      <path d="M-35,15 Q-30,25 0,28 Q30,25 35,15Z" fill="#8D6E63"/>
-      <rect x="-2" y="-25" width="4" height="40" fill="#5D4037"/>
-      <polygon points="0,-22 -20,5 0,5" fill="white" stroke="#ccc" stroke-width="0.5"/>
-      <line x1="0" y1="-22" x2="0" y2="5" stroke="#aaa" stroke-width="0.5"/>
-      <polygon points="0,-18 15,0 0,0" fill="#FFF8E1" stroke="#ccc" stroke-width="0.5"/>
-      <path d="M-40,15 Q-30,18 30,18 Q40,15 45,12" fill="none" stroke="#1565C0" stroke-width="1.5"/>
-    </g><g transform="translate(370,220) scale(1.2)">
-      <path d="M-35,15 Q-30,25 0,28 Q30,25 35,15Z" fill="#8D6E63"/>
-      <rect x="-2" y="-25" width="4" height="40" fill="#5D4037"/>
-      <polygon points="0,-22 -20,5 0,5" fill="white" stroke="#ccc" stroke-width="0.5"/>
-      <line x1="0" y1="-22" x2="0" y2="5" stroke="#aaa" stroke-width="0.5"/>
-      <polygon points="0,-18 15,0 0,0" fill="#FFF8E1" stroke="#ccc" stroke-width="0.5"/>
-      <path d="M-40,15 Q-30,18 30,18 Q40,15 45,12" fill="none" stroke="#1565C0" stroke-width="1.5"/>
-    </g><circle cx="400" cy="150" r="5" fill="#F9A825" opacity="0.3"/><circle cx="420" cy="155" r="8" fill="#F9A825" opacity="0.2"/><text x="200" y="155" font-family="Arial" font-size="10" fill="#1565C0" text-anchor="middle">1700-1721</text><text x="250" y="290" font-family="Arial,sans-serif" font-size="14" fill="#C62828" text-anchor="middle" font-weight="bold">Северная война</text>
+  <rect width="500" height="350" fill="url(#sky)"/>
+  <!-- Smoke/fire sky -->
+  <circle cx="100" cy="50" r="40" fill="#ff6f00" opacity="0.2"/>
+  <circle cx="400" cy="40" r="50" fill="#ff6f00" opacity="0.15"/>
+  <!-- Ground -->
+  <rect x="0" y="250" width="500" height="60" fill="url(#ground)"/>
+  <!-- Fortress (left) -->
+  <rect x="30" y="160" width="80" height="90" fill="#78909c" stroke="#455a64" stroke-width="1.5"/>
+  <rect x="25" y="155" width="90" height="10" fill="#546e7a"/>
+  <!-- Tower -->
+  <rect x="50" y="120" width="30" height="45" fill="#607d8b" stroke="#455a64" stroke-width="1"/>
+  <polygon points="45,120 65,100 85,120" fill="#546e7a" stroke="#455a64" stroke-width="1"/>
+  <!-- Flag on tower -->
+  <line x1="65" y1="100" x2="65" y2="85" stroke="#333" stroke-width="1"/>
+  <rect x="65" y="85" width="15" height="8" fill="#1565c0"/>
+  <!-- Fortress gate -->
+  <path d="M55,250 L55,215 Q65,205 75,215 L75,250" fill="#3e2723"/>
+  <!-- Battle scene (center) -->
+  <!-- Russian soldiers -->
+  <g transform="translate(200,200)">
+    <rect x="0" y="10" width="8" height="25" rx="1" fill="#2e7d32"/>
+    <circle cx="4" cy="5" r="5" fill="#ffcc80"/>
+    <line x1="4" y1="15" x2="4" y2="35" stroke="#1b5e20" stroke-width="2"/>
+    <!-- Bayonet -->
+    <line x1="8" y1="5" x2="20" y2="-5" stroke="#bdbdbd" stroke-width="1.5"/>
   </g>
-  <!-- Bottom panel -->
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">История</text>
+  <g transform="translate(225,195)">
+    <rect x="0" y="10" width="8" height="25" rx="1" fill="#2e7d32"/>
+    <circle cx="4" cy="5" r="5" fill="#ffcc80"/>
+    <line x1="8" y1="5" x2="20" y2="-5" stroke="#bdbdbd" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(250,198)">
+    <rect x="0" y="10" width="8" height="25" rx="1" fill="#2e7d32"/>
+    <circle cx="4" cy="5" r="5" fill="#ffcc80"/>
+    <line x1="8" y1="5" x2="20" y2="-5" stroke="#bdbdbd" stroke-width="1.5"/>
+  </g>
+  <!-- Swedish soldiers (blue) -->
+  <g transform="translate(310,200)">
+    <rect x="0" y="10" width="8" height="25" rx="1" fill="#1565c0"/>
+    <circle cx="4" cy="5" r="5" fill="#ffcc80"/>
+    <line x1="0" y1="5" x2="-12" y2="-5" stroke="#bdbdbd" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(335,195)">
+    <rect x="0" y="10" width="8" height="25" rx="1" fill="#1565c0"/>
+    <circle cx="4" cy="5" r="5" fill="#ffcc80"/>
+    <line x1="0" y1="5" x2="-12" y2="-5" stroke="#bdbdbd" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(355,200)">
+    <rect x="0" y="10" width="8" height="25" rx="1" fill="#1565c0"/>
+    <circle cx="4" cy="5" r="5" fill="#ffcc80"/>
+    <line x1="0" y1="5" x2="-12" y2="-5" stroke="#bdbdbd" stroke-width="1.5"/>
+  </g>
+  <!-- Cannon -->
+  <rect x="170" y="230" width="25" height="10" rx="2" fill="#424242"/>
+  <circle cx="175" cy="242" r="5" fill="#333"/>
+  <circle cx="190" cy="242" r="5" fill="#333"/>
+  <!-- Cannonball trail -->
+  <circle cx="300" cy="170" r="4" fill="#424242"/>
+  <circle cx="280" cy="180" r="3" fill="#616161"/>
+  <!-- Baltic Sea (right) -->
+  <path d="M400,250 Q420,240 440,250 Q460,260 480,250 L500,250 L500,310 L400,310 Z" fill="#1565c0" opacity="0.6"/>
+  <text x="450" y="280" font-size="8" fill="#fff" text-anchor="middle">Балтика</text>
+  <!-- Ship on Baltic -->
+  <path d="M420,255 L425,248 L465,248 L470,255 Q455,260 445,261 Q435,260 420,255" fill="#5d4037"/>
+  <line x1="445" y1="248" x2="445" y2="220" stroke="#4e342e" stroke-width="1.5"/>
+  <path d="M447,222 Q460,232 447,242" fill="#fff" opacity="0.8"/>
+  <!-- Year banner -->
+  <rect x="140" y="55" width="220" height="35" rx="5" fill="#1a237e" opacity="0.85"/>
+  <text x="250" y="72" font-size="11" fill="#ffd600" text-anchor="middle" font-weight="bold">Северная война 1700–1721</text>
+  <text x="250" y="84" font-size="7" fill="#fff" text-anchor="middle">Полтавская битва — 1709</text>
+  <!-- Battle title -->
+  <text x="275" y="160" font-size="8" fill="#ffd600" text-anchor="middle">⚔ ПОЛТАВА ⚔</text>
+  <text x="250" y="340" font-size="9" fill="#fff" opacity="0.5" text-anchor="middle">Северная война</text>
 </svg>

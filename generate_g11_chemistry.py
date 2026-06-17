@@ -4,7 +4,7 @@
 import xml.etree.ElementTree as ET
 import os
 
-OUTPUT_DIR = "/home/z/my-project/school-curriculum-app/public/images/lessons/grade11/chemistry"
+OUTPUT_DIR = "/home/z/school-curriculum-app/public/images/lessons/grade11/chemistry"
 PRIMARY = "#2E7D32"
 PRIMARY_DARK = "#1B5E20"
 PRIMARY_LIGHT = "#81C784"

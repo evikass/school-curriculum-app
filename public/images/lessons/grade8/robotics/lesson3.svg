@@ -1,37 +1,134 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
+    <linearGradient id="bgR3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#1a2744"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#263238"/>
-      <stop offset="100%" stop-color="#37474F"/>
+    <linearGradient id="pcbGreen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00897b"/>
+      <stop offset="100%" stop-color="#00695c"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#37474F" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#37474F" stroke-width="1" opacity="0.3"/>
-  <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#37474F" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#37474F" text-anchor="middle">Знакомство с Arduino</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Робототехника - Урок 3</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#37474F" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#37474F" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA -->
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#ECEFF1"/><text x="250" y="130" font-family="Arial,sans-serif" font-size="20" fill="#37474F" text-anchor="middle" font-weight="bold">Знакомство с Arduino</text><rect x="25" y="155" width="140" height="45" rx="5" fill="#E3F2FD" stroke="#37474F" stroke-width="1.5"/><text x="95" y="182" font-family="Arial" font-size="12" fill="#37474F" text-anchor="middle">Arduino Uno:</text><rect x="170" y="155" width="140" height="45" rx="5" fill="#FFF3E0" stroke="#263238" stroke-width="1.5"/><text x="240" y="182" font-family="Arial" font-size="12" fill="#263238" text-anchor="middle">Arduino</text><rect x="315" y="155" width="140" height="45" rx="5" fill="#FFFDE7" stroke="#F9A825" stroke-width="1.5"/><text x="385" y="182" font-family="Arial" font-size="12" fill="#F9A825" text-anchor="middle">Особенности:</text><rect x="25" y="210" width="140" height="45" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/><text x="95" y="238" font-family="Arial" font-size="12" fill="#2E7D32" text-anchor="middle">Виды плат:</text><rect x="170" y="210" width="140" height="45" rx="5" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="1.5"/><text x="240" y="238" font-family="Arial" font-size="12" fill="#6A1B9A" text-anchor="middle">Arduino Nano:</text><rect x="315" y="210" width="140" height="45" rx="5" fill="#FFEBEE" stroke="#E65100" stroke-width="1.5"/><text x="385" y="238" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">Arduino Mega:</text>
-  <rect x="435" y="270" width="20" height="20" rx="2" fill="#37474F" opacity="0.12"/><rect x="445" y="280" width="15" height="15" rx="2" fill="#263238" opacity="0.08"/>
+  <rect width="500" height="350" fill="url(#bgR3)"/>
+  <!-- Arduino board -->
+  <rect x="80" y="30" width="280" height="240" rx="6" fill="url(#pcbGreen)" stroke="#004d40" stroke-width="2"/>
+  <!-- PCB traces -->
+  <g stroke="#4db6ac" stroke-width="0.5" opacity="0.3">
+    <line x1="100" y1="50" x2="100" y2="250"/>
+    <line x1="140" y1="50" x2="340" y2="50"/>
+    <line x1="140" y1="100" x2="340" y2="100"/>
+    <line x1="200" y1="50" x2="200" y2="250"/>
+    <line x1="300" y1="50" x2="300" y2="250"/>
+    <line x1="100" y1="150" x2="340" y2="150"/>
+    <line x1="100" y1="200" x2="340" y2="200"/>
   </g>
-  <!-- Bottom panel -->
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Робототехника</text>
+  <!-- USB connector -->
+  <rect x="170" y="25" width="60" height="20" rx="2" fill="#bbb" stroke="#999" stroke-width="1"/>
+  <rect x="178" y="28" width="44" height="14" rx="1" fill="#333"/>
+  <text x="200" y="22" fill="#aaa" font-size="7" font-family="monospace" text-anchor="middle">USB</text>
+  <!-- Microcontroller chip -->
+  <rect x="175" y="100" width="70" height="70" rx="3" fill="#1a1a1a" stroke="#333" stroke-width="1.5"/>
+  <circle cx="183" cy="108" r="2" fill="#555"/>
+  <!-- Chip pins left -->
+  <g fill="#aaa">
+    <rect x="168" y="108" width="7" height="3"/><rect x="168" y="116" width="7" height="3"/>
+    <rect x="168" y="124" width="7" height="3"/><rect x="168" y="132" width="7" height="3"/>
+    <rect x="168" y="140" width="7" height="3"/><rect x="168" y="148" width="7" height="3"/>
+    <rect x="168" y="156" width="7" height="3"/>
+  </g>
+  <!-- Chip pins right -->
+  <g fill="#aaa">
+    <rect x="245" y="108" width="7" height="3"/><rect x="245" y="116" width="7" height="3"/>
+    <rect x="245" y="124" width="7" height="3"/><rect x="245" y="132" width="7" height="3"/>
+    <rect x="245" y="140" width="7" height="3"/><rect x="245" y="148" width="7" height="3"/>
+    <rect x="245" y="156" width="7" height="3"/>
+  </g>
+  <text x="210" y="140" fill="#4db6ac" font-size="8" font-family="monospace" text-anchor="middle">ATmega</text>
+  <text x="210" y="152" fill="#4db6ac" font-size="8" font-family="monospace" text-anchor="middle">328P</text>
+  <!-- Crystal oscillator -->
+  <rect x="265" y="105" width="16" height="24" rx="2" fill="#c0c0c0" stroke="#999" stroke-width="0.5"/>
+  <text x="273" y="120" fill="#333" font-size="5" font-family="monospace" text-anchor="middle">16M</text>
+  <!-- Power LED -->
+  <circle cx="145" cy="110" r="4" fill="#00b894">
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="145" y="122" fill="#7ee787" font-size="6" font-family="monospace" text-anchor="middle">PWR</text>
+  <!-- TX/RX LEDs -->
+  <circle cx="145" cy="135" r="3" fill="#ffd93d"/>
+  <text x="145" y="145" fill="#ffd93d" font-size="6" font-family="monospace" text-anchor="middle">TX</text>
+  <circle cx="145" cy="155" r="3" fill="#e17055"/>
+  <text x="145" y="165" fill="#e17055" font-size="6" font-family="monospace" text-anchor="middle">RX</text>
+  <!-- Digital pins (top) -->
+  <g fill="#ffd93d">
+    <rect x="100" y="35" width="6" height="10" rx="1"/>
+    <rect x="112" y="35" width="6" height="10" rx="1"/>
+    <rect x="124" y="35" width="6" height="10" rx="1"/>
+    <rect x="136" y="35" width="6" height="10" rx="1"/>
+    <rect x="268" y="35" width="6" height="10" rx="1"/>
+    <rect x="280" y="35" width="6" height="10" rx="1"/>
+    <rect x="292" y="35" width="6" height="10" rx="1"/>
+    <rect x="304" y="35" width="6" height="10" rx="1"/>
+    <rect x="316" y="35" width="6" height="10" rx="1"/>
+    <rect x="328" y="35" width="6" height="10" rx="1"/>
+    <rect x="340" y="35" width="6" height="10" rx="1"/>
+  </g>
+  <!-- Analog pins (bottom) -->
+  <g fill="#79c0ff">
+    <rect x="100" y="255" width="6" height="10" rx="1"/>
+    <rect x="112" y="255" width="6" height="10" rx="1"/>
+    <rect x="124" y="255" width="6" height="10" rx="1"/>
+    <rect x="136" y="255" width="6" height="10" rx="1"/>
+    <rect x="148" y="255" width="6" height="10" rx="1"/>
+    <rect x="160" y="255" width="6" height="10" rx="1"/>
+  </g>
+  <!-- Power pins (bottom right) -->
+  <g fill="#e17055">
+    <rect x="270" y="255" width="6" height="10" rx="1"/>
+    <rect x="282" y="255" width="6" height="10" rx="1"/>
+    <rect x="294" y="255" width="6" height="10" rx="1"/>
+    <rect x="306" y="255" width="6" height="10" rx="1"/>
+    <rect x="318" y="255" width="6" height="10" rx="1"/>
+  </g>
+  <!-- Pin labels -->
+  <text x="103" y="58" fill="#ffd93d" font-size="6" font-family="monospace" text-anchor="middle">D0</text>
+  <text x="115" y="58" fill="#ffd93d" font-size="6" font-family="monospace" text-anchor="middle">D1</text>
+  <text x="127" y="58" fill="#ffd93d" font-size="6" font-family="monospace" text-anchor="middle">D2</text>
+  <text x="139" y="58" fill="#ffd93d" font-size="6" font-family="monospace" text-anchor="middle">D3</text>
+  <text x="271" y="58" fill="#ffd93d" font-size="6" font-family="monospace" text-anchor="middle">D8</text>
+  <text x="283" y="58" fill="#ffd93d" font-size="6" font-family="monospace" text-anchor="middle">D9</text>
+  <text x="295" y="58" fill="#ffd93d" font-size="6" font-family="monospace" text-anchor="middle">D10</text>
+  <text x="307" y="58" fill="#ffd93d" font-size="6" font-family="monospace" text-anchor="middle">D11</text>
+  <text x="319" y="58" fill="#ffd93d" font-size="6" font-family="monospace" text-anchor="middle">D12</text>
+  <text x="331" y="58" fill="#ffd93d" font-size="6" font-family="monospace" text-anchor="middle">D13</text>
+  <text x="103" y="274" fill="#79c0ff" font-size="6" font-family="monospace" text-anchor="middle">A0</text>
+  <text x="115" y="274" fill="#79c0ff" font-size="6" font-family="monospace" text-anchor="middle">A1</text>
+  <text x="127" y="274" fill="#79c0ff" font-size="6" font-family="monospace" text-anchor="middle">A2</text>
+  <text x="139" y="274" fill="#79c0ff" font-size="6" font-family="monospace" text-anchor="middle">A3</text>
+  <text x="151" y="274" fill="#79c0ff" font-size="6" font-family="monospace" text-anchor="middle">A4</text>
+  <text x="163" y="274" fill="#79c0ff" font-size="6" font-family="monospace" text-anchor="middle">A5</text>
+  <text x="273" y="274" fill="#e17055" font-size="6" font-family="monospace" text-anchor="middle">5V</text>
+  <text x="285" y="274" fill="#e17055" font-size="6" font-family="monospace" text-anchor="middle">3V</text>
+  <text x="297" y="274" fill="#e17055" font-size="6" font-family="monospace" text-anchor="middle">GND</text>
+  <text x="309" y="274" fill="#e17055" font-size="6" font-family="monospace" text-anchor="middle">VIN</text>
+  <!-- Reset button -->
+  <circle cx="330" cy="90" r="8" fill="#e17055" stroke="#d63031" stroke-width="1"/>
+  <text x="330" y="105" fill="#e17055" font-size="6" font-family="monospace" text-anchor="middle">RST</text>
+  <!-- Board name -->
+  <text x="220" y="240" fill="#4db6ac" font-size="14" font-family="monospace" text-anchor="middle" font-weight="bold">ARDUINO UNO</text>
+  <!-- Side info -->
+  <g transform="translate(385, 40)">
+    <rect width="100" height="200" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+    <text x="50" y="18" fill="#ffd93d" font-size="10" font-family="monospace" text-anchor="middle">Характеристики</text>
+    <text x="10" y="38" fill="#79c0ff" font-size="9" font-family="monospace">МК: ATmega328</text>
+    <text x="10" y="55" fill="#79c0ff" font-size="9" font-family="monospace">Частота: 16 МГц</text>
+    <text x="10" y="72" fill="#79c0ff" font-size="9" font-family="monospace">Flash: 32 КБ</text>
+    <text x="10" y="89" fill="#79c0ff" font-size="9" font-family="monospace">SRAM: 2 КБ</text>
+    <text x="10" y="106" fill="#79c0ff" font-size="9" font-family="monospace">Пины I/O: 14</text>
+    <text x="10" y="123" fill="#79c0ff" font-size="9" font-family="monospace">Аналог: 6</text>
+    <text x="10" y="140" fill="#79c0ff" font-size="9" font-family="monospace">UART: 1</text>
+    <text x="10" y="157" fill="#79c0ff" font-size="9" font-family="monospace">Напряж: 5В</text>
+    <text x="10" y="180" fill="#00b894" font-size="9" font-family="monospace">Открытый</text>
+    <text x="10" y="195" fill="#00b894" font-size="9" font-family="monospace">исходный код</text>
+  </g>
+  <text x="250" y="340" fill="#aaa" font-size="9" opacity="0.5" font-family="sans-serif" text-anchor="middle">Знакомство с Arduino</text>
 </svg>

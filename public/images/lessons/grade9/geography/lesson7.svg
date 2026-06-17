@@ -1,100 +1,80 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#E0F2F1;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1"/>
-    </linearGradient>
-    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#26A69A;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#00796B;stop-opacity:1"/>
-    </linearGradient>
-  </defs>
-  <!-- Background -->
-  <rect x="0" y="0" width="500" height="350" rx="12" fill="url(#bg)" stroke="#26A69A" stroke-width="2"/>
-  <!-- Header bar -->
-  <rect x="0" y="0" width="500" height="50" rx="12" fill="url(#headerGrad)"/>
-  <rect x="0" y="25" width="500" height="25" fill="url(#headerGrad)"/>
-  <!-- Lesson number badge -->
-  <circle cx="28" cy="25" r="18" fill="#FFFFFF" opacity="0.3"/>
-  <text x="28" y="31" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">7</text>
-  <!-- Title -->
-  <text x="250" y="32" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Топливно-энергетический комплекс</text>
-  <!-- Decorative line -->
-  <line x1="15" y1="56" x2="485" y2="56" stroke="#80CBC4" stroke-width="1" stroke-dasharray="4,2"/>
-  <!-- Definition -->
-  <rect x="15" y="62" width="470" height="30" rx="6" fill="#FFFFFF" stroke="#26A69A" stroke-width="1"/>
-  <text x="25" y="77" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A">ТЭК</text>
-  <text x="55" y="77" font-family="Arial,sans-serif" font-size="9" fill="#333">— комплекс отраслей по добыче, переработке и транспортировке топлива и энергии</text>
-  <text x="25" y="88" font-family="Arial,sans-serif" font-size="8" fill="#666">Обеспечивает ~30% экспортных доходов и ~25% ВВП России</text>
-  <!-- Oil section -->
-  <g transform="translate(15, 97)">
-    <rect x="0" y="0" width="150" height="105" rx="8" fill="#FFFFFF" stroke="#E65100" stroke-width="1"/>
-    <rect x="0" y="0" width="150" height="18" rx="8" fill="#E65100" opacity="0.15"/>
-    <rect x="0" y="10" width="150" height="8" fill="#E65100" opacity="0.15"/>
-    <text x="75" y="14" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#E65100" text-anchor="middle">НЕФТЯНАЯ ПРОМЫШЛЕННОСТЬ</text>
-    <text x="10" y="33" font-family="Arial,sans-serif" font-size="8" fill="#333">Добыча: ~540 млн т/год</text>
-    <text x="10" y="45" font-family="Arial,sans-serif" font-size="8" fill="#333">Мировой лидер по добыче</text>
-    <text x="10" y="59" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#E65100">Районы добычи:</text>
-    <text x="10" y="70" font-family="Arial,sans-serif" font-size="7" fill="#333">• Зап.-Сибирский (ХМАО)</text>
-    <text x="10" y="80" font-family="Arial,sans-serif" font-size="7" fill="#333">• Волго-Уральский</text>
-    <text x="10" y="90" font-family="Arial,sans-serif" font-size="7" fill="#333">• Тимано-Печорский</text>
-    <text x="10" y="100" font-family="Arial,sans-serif" font-size="7" fill="#333">• Сахалинский шельф</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#FAFAFA"/>
+  <!-- Three world religions as symbols -->
+  <!-- Christianity - Cross -->
+  <g transform="translate(85,120)">
+    <circle r="65" fill="#E8EAF6" opacity="0.5" stroke="#3F51B5" stroke-width="1.5"/>
+    <rect x="-6" y="-35" width="12" height="60" rx="2" fill="#3F51B5" opacity="0.8"/>
+    <rect x="-20" y="-22" width="40" height="12" rx="2" fill="#3F51B5" opacity="0.8"/>
+    <text x="0" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#1A237E" font-weight="bold">Христианство</text>
+    <text x="0" y="54" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#3F51B5">~2,4 млрд</text>
+    <text x="0" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#666">Католики, протестанты,</text>
+    <text x="0" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#666">православные</text>
   </g>
-  <!-- Gas section -->
-  <g transform="translate(175, 97)">
-    <rect x="0" y="0" width="150" height="105" rx="8" fill="#FFFFFF" stroke="#1565C0" stroke-width="1"/>
-    <rect x="0" y="0" width="150" height="18" rx="8" fill="#1565C0" opacity="0.15"/>
-    <rect x="0" y="10" width="150" height="8" fill="#1565C0" opacity="0.15"/>
-    <text x="75" y="14" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1565C0" text-anchor="middle">ГАЗОВАЯ ПРОМЫШЛЕННОСТЬ</text>
-    <text x="10" y="33" font-family="Arial,sans-serif" font-size="8" fill="#333">Добыча: ~700 млрд м³/год</text>
-    <text x="10" y="45" font-family="Arial,sans-serif" font-size="8" fill="#333">№1 в мире по запасам газа</text>
-    <text x="10" y="59" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1565C0">Крупнейшие месторождения:</text>
-    <text x="10" y="70" font-family="Arial,sans-serif" font-size="7" fill="#333">• Уренгойское</text>
-    <text x="10" y="80" font-family="Arial,sans-serif" font-size="7" fill="#333">• Ямбургское</text>
-    <text x="10" y="90" font-family="Arial,sans-serif" font-size="7" fill="#333">• Бованенковское</text>
-    <text x="10" y="100" font-family="Arial,sans-serif" font-size="7" fill="#333">• Штокмановское (шельф)</text>
+  <!-- Islam - Crescent and Star -->
+  <g transform="translate(250,120)">
+    <circle r="65" fill="#E8F5E9" opacity="0.5" stroke="#2E7D32" stroke-width="1.5"/>
+    <!-- Crescent -->
+    <circle cx="-3" cy="-5" r="22" fill="#2E7D32" opacity="0.7"/>
+    <circle cx="4" cy="-8" r="18" fill="#E8F5E9"/>
+    <!-- Star -->
+    <polygon points="25,-12 27,-6 33,-6 28,-2 30,4 25,0 20,4 22,-2 17,-6 23,-6" fill="#2E7D32" opacity="0.8"/>
+    <text x="0" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" font-weight="bold">Ислам</text>
+    <text x="0" y="54" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32">~1,9 млрд</text>
+    <text x="0" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#666">Сунниты, шииты</text>
+    <text x="0" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#666">Коран</text>
   </g>
-  <!-- Coal and Electricity -->
-  <g transform="translate(335, 97)">
-    <rect x="0" y="0" width="150" height="105" rx="8" fill="#FFFFFF" stroke="#424242" stroke-width="1"/>
-    <rect x="0" y="0" width="150" height="18" rx="8" fill="#424242" opacity="0.1"/>
-    <rect x="0" y="10" width="150" height="8" fill="#424242" opacity="0.1"/>
-    <text x="75" y="14" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#424242" text-anchor="middle">УГОЛЬ И ЭЛЕКТРОЭНЕРГИЯ</text>
-    <text x="10" y="33" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#424242">Уголь: ~440 млн т/год</text>
-    <text x="10" y="44" font-family="Arial,sans-serif" font-size="7" fill="#333">• Кузбасс (Кемерово)</text>
-    <text x="10" y="54" font-family="Arial,sans-serif" font-size="7" fill="#333">• Канско-Ачинский basin</text>
-    <text x="10" y="64" font-family="Arial,sans-serif" font-size="7" fill="#333">• Печорский (Воркута)</text>
-    <line x1="5" y1="69" x2="145" y2="69" stroke="#E0E0E0" stroke-width="0.5"/>
-    <text x="10" y="80" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#26A69A">Электроэнергетика:</text>
-    <text x="10" y="90" font-family="Arial,sans-serif" font-size="7" fill="#333">• ТЭС — 65% (газ, уголь)</text>
-    <text x="10" y="100" font-family="Arial,sans-serif" font-size="7" fill="#333">• ГЭС — 20% (Саяно-Шушен.)</text>
+  <!-- Buddhism - Dharma Wheel -->
+  <g transform="translate(415,120)">
+    <circle r="65" fill="#FFF3E0" opacity="0.5" stroke="#E65100" stroke-width="1.5"/>
+    <!-- Wheel -->
+    <circle cx="0" cy="-5" r="20" fill="none" stroke="#E65100" stroke-width="2" opacity="0.8"/>
+    <circle cx="0" cy="-5" r="4" fill="#E65100" opacity="0.8"/>
+    <!-- Spokes -->
+    <line x1="0" y1="-25" x2="0" y2="15" stroke="#E65100" stroke-width="1.5" opacity="0.7"/>
+    <line x1="-19" y1="-5" x2="19" y2="-5" stroke="#E65100" stroke-width="1.5" opacity="0.7"/>
+    <line x1="-14" y1="-19" x2="14" y2="9" stroke="#E65100" stroke-width="1.5" opacity="0.7"/>
+    <line x1="14" y1="-19" x2="-14" y2="9" stroke="#E65100" stroke-width="1.5" opacity="0.7"/>
+    <text x="0" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#BF360C" font-weight="bold">Буддизм</text>
+    <text x="0" y="54" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#E65100">~500 млн</text>
+    <text x="0" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#666">Тхеравада, махаяна</text>
+    <text x="0" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#666">VI в. до н.э.</text>
   </g>
-  <!-- Energy mix and pipelines -->
-  <rect x="15" y="208" width="470" height="132" rx="6" fill="#E0F2F1" stroke="#26A69A" stroke-width="1"/>
-  <text x="250" y="225" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A" text-anchor="middle">ТРУБОПРОВОДНЫЙ ТРАНСПОРТ И ЭНЕРГОБАЛАНС</text>
-  <!-- Energy balance bars -->
-  <text x="25" y="242" font-family="Arial,sans-serif" font-size="8" fill="#333">Нефть</text>
-  <rect x="65" y="233" width="300" height="10" rx="3" fill="#EEEEEE"/>
-  <rect x="65" y="233" width="135" height="10" rx="3" fill="#E65100"/>
-  <text x="205" y="242" font-family="Arial,sans-serif" font-size="7" fill="#333">~35%</text>
-  <text x="25" y="256" font-family="Arial,sans-serif" font-size="8" fill="#333">Газ</text>
-  <rect x="65" y="247" width="300" height="10" rx="3" fill="#EEEEEE"/>
-  <rect x="65" y="247" width="150" height="10" rx="3" fill="#1565C0"/>
-  <text x="220" y="256" font-family="Arial,sans-serif" font-size="7" fill="#333">~37%</text>
-  <text x="25" y="270" font-family="Arial,sans-serif" font-size="8" fill="#333">Уголь</text>
-  <rect x="65" y="261" width="300" height="10" rx="3" fill="#EEEEEE"/>
-  <rect x="65" y="261" width="60" height="10" rx="3" fill="#424242"/>
-  <text x="130" y="270" font-family="Arial,sans-serif" font-size="7" fill="#333">~13%</text>
-  <text x="25" y="284" font-family="Arial,sans-serif" font-size="8" fill="#333">ГЭС</text>
-  <rect x="65" y="275" width="300" height="10" rx="3" fill="#EEEEEE"/>
-  <rect x="65" y="275" width="45" height="10" rx="3" fill="#42A5F5"/>
-  <text x="115" y="284" font-family="Arial,sans-serif" font-size="7" fill="#333">~8%</text>
-  <text x="25" y="298" font-family="Arial,sans-serif" font-size="8" fill="#333">АЭС</text>
-  <rect x="65" y="289" width="300" height="10" rx="3" fill="#EEEEEE"/>
-  <rect x="65" y="289" width="30" height="10" rx="3" fill="#7E57C2"/>
-  <text x="100" y="298" font-family="Arial,sans-serif" font-size="7" fill="#333">~7%</text>
-  <!-- Pipeline info -->
-  <text x="25" y="318" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A">Трубопроводы:</text>
-  <text x="110" y="318" font-family="Arial,sans-serif" font-size="8" fill="#333">«Сила Сибири» (Китай) | «Северный поток» | «Турецкий поток»</text>
-  <text x="25" y="332" font-family="Arial,sans-serif" font-size="8" fill="#333">Длина трубопроводов РФ: ~250 тыс. км — крупнейшая система в мире</text>
+  <!-- National religions row -->
+  <rect x="20" y="220" width="460" height="100" rx="6" fill="white" opacity="0.7"/>
+  <text x="250" y="240" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#333" font-weight="bold">Национальные религии</text>
+  <!-- Hinduism - Om symbol area -->
+  <g transform="translate(85,275)">
+    <circle r="22" fill="#FFEBEE" opacity="0.5" stroke="#C62828" stroke-width="1"/>
+    <text x="0" y="4" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#C62828">ॐ</text>
+    <text x="0" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#C62828" font-weight="bold">Индуизм</text>
+    <text x="0" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#666">Индия, ~1,2 млрд</text>
+  </g>
+  <!-- Judaism - Star of David -->
+  <g transform="translate(195,275)">
+    <circle r="22" fill="#E3F2FD" opacity="0.5" stroke="#1565C0" stroke-width="1"/>
+    <polygon points="0,-14 12,7 -12,7" fill="none" stroke="#1565C0" stroke-width="1.5"/>
+    <polygon points="0,14 12,-7 -12,-7" fill="none" stroke="#1565C0" stroke-width="1.5"/>
+    <text x="0" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#0D47A1" font-weight="bold">Иудаизм</text>
+    <text x="0" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#666">Израиль</text>
+  </g>
+  <!-- Shinto - Torii gate -->
+  <g transform="translate(305,275)">
+    <circle r="22" fill="#FFF3E0" opacity="0.5" stroke="#E65100" stroke-width="1"/>
+    <line x1="-10" y1="-5" x2="-10" y2="10" stroke="#E65100" stroke-width="2"/>
+    <line x1="10" y1="-5" x2="10" y2="10" stroke="#E65100" stroke-width="2"/>
+    <line x1="-14" y1="-5" x2="14" y2="-5" stroke="#E65100" stroke-width="2.5"/>
+    <line x1="-12" y1="-10" x2="12" y2="-10" stroke="#E65100" stroke-width="2"/>
+    <text x="0" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#BF360C" font-weight="bold">Синтоизм</text>
+    <text x="0" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#666">Япония</text>
+  </g>
+  <!-- Confucianism -->
+  <g transform="translate(415,275)">
+    <circle r="22" fill="#F3E5F5" opacity="0.5" stroke="#7B1FA2" stroke-width="1"/>
+    <!-- Chinese character approximation -->
+    <text x="0" y="5" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#7B1FA2">儒</text>
+    <text x="0" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#6A1B9A" font-weight="bold">Конфуцианство</text>
+    <text x="0" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#666">Китай</text>
+  </g>
+  <text x="250" y="345" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#666" opacity="0.5">Религии мира</text>
 </svg>

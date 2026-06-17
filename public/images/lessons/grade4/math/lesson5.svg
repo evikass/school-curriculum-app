@@ -1,41 +1,69 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
 <defs>
-  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" style="stop-color:#1565C0"/>
-    <stop offset="100%" style="stop-color:#64B5F6"/>
-  </linearGradient>
-  <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
-    <stop offset="0%" style="stop-color:rgba(255,255,255,0.95)"/>
-    <stop offset="100%" style="stop-color:rgba(255,255,255,0.85)"/>
-  </linearGradient>
-</defs>
-<rect width="500" height="350" fill="url(#bg)"/>
-<text x="40" y="50" font-family="Arial" font-size="50" fill="white" opacity="0.08" font-weight="bold">7</text>
-<text x="160" y="50" font-family="Arial" font-size="50" fill="white" opacity="0.08" font-weight="bold">3</text>
-<text x="280" y="50" font-family="Arial" font-size="50" fill="white" opacity="0.08" font-weight="bold">5</text>
-<text x="400" y="50" font-family="Arial" font-size="50" fill="white" opacity="0.08" font-weight="bold">9</text>
-<text x="40" y="200" font-family="Arial" font-size="50" fill="white" opacity="0.08" font-weight="bold">2</text>
-<text x="160" y="200" font-family="Arial" font-size="50" fill="white" opacity="0.08" font-weight="bold">4</text>
-<text x="280" y="200" font-family="Arial" font-size="50" fill="white" opacity="0.08" font-weight="bold">8</text>
-<text x="400" y="200" font-family="Arial" font-size="50" fill="white" opacity="0.08" font-weight="bold">6</text>
-<rect x="20" y="50" width="460" height="270" rx="16" fill="url(#card)" opacity="0.92"/>
-<rect x="30" y="60" width="auto" height="24" rx="12" fill="#1565C0" opacity="0.9"/>
-<rect x="30" y="60" width="100" height="24" rx="12" fill="#1565C0" opacity="0.9"/>
-<text x="80" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="white" font-weight="bold">Математика</text>
-<text x="470" y="77" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" font-weight="bold">Урок 24</text>
-<text x="40" y="105" font-family="Arial,sans-serif" font-size="18" fill="#1a1a1a" font-weight="bold">Действия с величинами</text>
-<line x1="40" y1="115" x2="460" y2="115" stroke="#BBDEFB" stroke-width="2"/>
-<text x="40" y="135" font-family="Arial,sans-serif" font-size="13" fill="#444">Вычисления с величинами: сложение, вычитание, умножение, дел...</text>
-<circle cx="50" cy="160" r="4" fill="#1565C0"/>
-<text x="62" y="165" font-family="Arial,sans-serif" font-size="12" fill="#333">Складывать и вычитать величины</text>
-<circle cx="50" cy="185" r="4" fill="#1565C0"/>
-<text x="62" y="190" font-family="Arial,sans-serif" font-size="12" fill="#333">Умножать и делить величины</text>
-<circle cx="50" cy="210" r="4" fill="#1565C0"/>
-<text x="62" y="215" font-family="Arial,sans-serif" font-size="12" fill="#333">Сравнивать величины</text>
-<circle cx="50" cy="235" r="4" fill="#1565C0"/>
-<text x="62" y="240" font-family="Arial,sans-serif" font-size="12" fill="#333">Решать задачи</text>
-<rect x="40" y="260" width="70" height="18" rx="9" fill="#1565C0" opacity="0.15"/>
-<text x="75" y="273" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" font-weight="bold">4 заданий</text>
-<circle cx="460" cy="310" r="25" fill="#1565C0" opacity="0.15"/>
-<circle cx="460" cy="310" r="15" fill="#1565C0" opacity="0.1"/>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="100%" stop-color="#BBDEFB"/>
+    </linearGradient>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#E0F7FA"/>
+    </linearGradient>
+    <linearGradient id="groundGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#81C784"/>
+      <stop offset="100%" stop-color="#4CAF50"/>
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#42A5F5"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+    <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF9C4"/>
+      <stop offset="60%" stop-color="#FDD835"/>
+      <stop offset="100%" stop-color="#F9A825"/>
+    </radialGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="3" stdDeviation="5" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  <g transform="translate(40,30)" filter="url(#softShadow)">
+    <rect width="420" height="285" rx="12" fill="white" opacity="0.94"/>
+    <rect width="420" height="32" rx="12" fill="#1565C0" opacity="0.9"/>
+    <rect y="24" width="420" height="8" fill="#1565C0" opacity="0.9"/>
+    <text x="210" y="22" font-family="Arial" font-size="13" fill="white" text-anchor="middle" font-weight="bold">СЛОЖЕНИЕ МНОГОЗНАЧНЫХ ЧИСЕЛ</text>
+    <g transform="translate(30,50)">
+      <rect width="360" height="130" rx="8" fill="#E3F2FD" opacity="0.3" stroke="#1565C0" stroke-width="1"/>
+      <text x="200" y="25" font-family="monospace" font-size="18" fill="#0D47A1" text-anchor="end" font-weight="bold">  24 568</text>
+      <text x="200" y="50" font-family="monospace" font-size="18" fill="#0D47A1" text-anchor="end" font-weight="bold">+ 13 724</text>
+      <line x1="80" y1="58" x2="210" y2="58" stroke="#1565C0" stroke-width="2.5"/>
+      <text x="200" y="82" font-family="monospace" font-size="18" fill="#FDD835" text-anchor="end" font-weight="bold">  38 292</text>
+      <text x="290" y="25" font-family="Arial" font-size="8" fill="#777">Разряд единиц: 8+4=12</text>
+      <text x="290" y="45" font-family="Arial" font-size="8" fill="#777">Перенос: 1 дес.</text>
+      <text x="290" y="65" font-family="Arial" font-size="8" fill="#777">6+2+1=9 дес.</text>
+      <text x="290" y="85" font-family="Arial" font-size="8" fill="#777">5+7=12 → перенос</text>
+      <text x="290" y="105" font-family="Arial" font-size="8" fill="#777">4+3+1=8 сот.</text>
+      <text x="290" y="125" font-family="Arial" font-size="8" fill="#777">2+1=3 тыс.</text>
+    </g>
+    <g transform="translate(30,195)">
+      <rect width="160" height="70" rx="6" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1"/>
+      <text x="80" y="20" font-family="Arial" font-size="9" fill="#2E7D32" text-anchor="middle" font-weight="bold">ПРАВИЛО</text>
+      <text x="80" y="38" font-family="Arial" font-size="8" fill="#555" text-anchor="middle">Складываем поразрядно,</text>
+      <text x="80" y="52" font-family="Arial" font-size="8" fill="#555" text-anchor="middle">начиная с единиц</text>
+    </g>
+    <g transform="translate(210,195)">
+      <rect width="170" height="70" rx="6" fill="#FFF3E0" stroke="#FF9800" stroke-width="1"/>
+      <text x="85" y="20" font-family="Arial" font-size="9" fill="#E65100" text-anchor="middle" font-weight="bold">ЗАПОМНИ</text>
+      <text x="85" y="38" font-family="Arial" font-size="8" fill="#555" text-anchor="middle">Если сумма &gt; 9, то</text>
+      <text x="85" y="52" font-family="Arial" font-size="8" fill="#555" text-anchor="middle">переносим 1 в след. разряд</text>
+    </g>
+  </g>
+  <rect x="0" y="318" width="500" height="32" rx="0" fill="#1565C0" opacity="0.9"/>
+  <text x="250" y="339" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Сложение многозначных чисел</text>
 </svg>

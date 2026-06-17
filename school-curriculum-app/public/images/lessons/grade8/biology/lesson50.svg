@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Нарушения эндокринной системы</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 8 класс — Урок 50</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- Pituitary disorders - Silhouettes -->
+<rect x="15" y="56" width="155" height="105" fill="white" fill-opacity="0.7" rx="6" stroke="#A5D6A7" stroke-width="1"/>
+<text x="92" y="68" font-family="Arial,sans-serif" font-size="7" fill="#7B1FA2" text-anchor="middle" font-weight="bold">Гипофиз</text>
+<line x1="25" y1="72" x2="160" y2="72" stroke="#CE93D8" stroke-width="0.5"/>
+
+<!-- Normal silhouette -->
+<g transform="translate(38,78)">
+  <ellipse cx="0" cy="4" rx="4" ry="5" fill="#8D6E63" fill-opacity="0.5"/>
+  <rect x="-2" y="9" width="4" height="4" fill="#8D6E63" fill-opacity="0.5"/>
+  <path d="M-8,13 L8,13 L6,35 L-6,35 Z" fill="#8D6E63" fill-opacity="0.5"/>
+  <path d="M-5,35 L-6,52 L-3,52" fill="none" stroke="#8D6E63" stroke-width="2" stroke-opacity="0.5"/>
+  <path d="M5,35 L6,52 L3,52" fill="none" stroke="#8D6E63" stroke-width="2" stroke-opacity="0.5"/>
+  <text x="0" y="60" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Норма</text>
+</g>
+
+<!-- Giant silhouette (гигантизм) -->
+<g transform="translate(80,68)">
+  <ellipse cx="0" cy="4" rx="5" ry="6" fill="#E53935" fill-opacity="0.5"/>
+  <rect x="-2.5" y="10" width="5" height="5" fill="#E53935" fill-opacity="0.5"/>
+  <path d="M-10,15 L10,15 L8,48 L-8,48 Z" fill="#E53935" fill-opacity="0.5"/>
+  <path d="M-6,48 L-8,72 L-4,72" fill="none" stroke="#E53935" stroke-width="2.5" stroke-opacity="0.5"/>
+  <path d="M6,48 L8,72 L4,72" fill="none" stroke="#E53935" stroke-width="2.5" stroke-opacity="0.5"/>
+  <text x="0" y="80" font-family="Arial,sans-serif" font-size="4.5" fill="#C62828" text-anchor="middle" font-weight="bold">Гигантизм</text>
+  <text x="0" y="87" font-family="Arial,sans-serif" font-size="4" fill="#C62828" text-anchor="middle">(гипер)</text>
+</g>
+
+<!-- Dwarf silhouette (карликовость) -->
+<g transform="translate(135,95)">
+  <ellipse cx="0" cy="3" rx="3.5" ry="4" fill="#1565C0" fill-opacity="0.5"/>
+  <rect x="-1.5" y="7" width="3" height="3" fill="#1565C0" fill-opacity="0.5"/>
+  <path d="M-6,10 L6,10 L5,24 L-5,24 Z" fill="#1565C0" fill-opacity="0.5"/>
+  <path d="M-4,24 L-5,37 L-2,37" fill="none" stroke="#1565C0" stroke-width="1.5" stroke-opacity="0.5"/>
+  <path d="M4,24 L5,37 L2,37" fill="none" stroke="#1565C0" stroke-width="1.5" stroke-opacity="0.5"/>
+  <text x="0" y="44" font-family="Arial,sans-serif" font-size="4.5" fill="#0D47A1" text-anchor="middle" font-weight="bold">Карликовость</text>
+  <text x="0" y="51" font-family="Arial,sans-serif" font-size="4" fill="#0D47A1" text-anchor="middle">(гипо)</text>
+</g>
+
+<!-- Thyroid disorders -->
+<rect x="178" y="56" width="150" height="105" fill="white" fill-opacity="0.7" rx="6" stroke="#A5D6A7" stroke-width="1"/>
+<text x="253" y="68" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle" font-weight="bold">Щитовидная железа</text>
+<line x1="188" y1="72" x2="318" y2="72" stroke="#FFCC80" stroke-width="0.5"/>
+
+<!-- Basedow's disease (hyper) -->
+<g transform="translate(210,78)">
+  <!-- Face with exophthalmos -->
+  <ellipse cx="0" cy="8" rx="10" ry="12" fill="#FFCCBC" stroke="#8D6E63" stroke-width="0.8"/>
+  <!-- Protruding eyes -->
+  <circle cx="-4" cy="5" r="3.5" fill="white" stroke="#333" stroke-width="0.5"/>
+  <circle cx="4" cy="5" r="3.5" fill="white" stroke="#333" stroke-width="0.5"/>
+  <circle cx="-4" cy="5" r="1.5" fill="#333"/>
+  <circle cx="4" cy="5" r="1.5" fill="#333"/>
+  <!-- Swollen neck (goiter) -->
+  <ellipse cx="0" cy="24" rx="8" ry="5" fill="#FF8A65" stroke="#E65100" stroke-width="0.8"/>
+  <text x="0" y="38" font-family="Arial,sans-serif" font-size="4.5" fill="#C62828" text-anchor="middle" font-weight="bold">Базедова</text>
+  <text x="0" y="44" font-family="Arial,sans-serif" font-size="4.5" fill="#C62828" text-anchor="middle" font-weight="bold">болезнь</text>
+  <text x="0" y="50" font-family="Arial,sans-serif" font-size="4" fill="#C62828" text-anchor="middle">(гипер, экзофтальм)</text>
+</g>
+
+<!-- Myxedema/cretinism (hypo) -->
+<g transform="translate(295,78)">
+  <!-- Puffy face -->
+  <ellipse cx="0" cy="8" rx="11" ry="13" fill="#FFF9C4" stroke="#8D6E63" stroke-width="0.8"/>
+  <!-- Small eyes -->
+  <ellipse cx="-4" cy="6" rx="2" ry="1.5" fill="#8D6E63"/>
+  <ellipse cx="4" cy="6" rx="2" ry="1.5" fill="#8D6E63"/>
+  <!-- Mouth -->
+  <path d="M-3,12 Q0,14 3,12" fill="none" stroke="#8D6E63" stroke-width="0.5"/>
+  <text x="0" y="32" font-family="Arial,sans-serif" font-size="4.5" fill="#0D47A1" text-anchor="middle" font-weight="bold">Микседема</text>
+  <text x="0" y="38" font-family="Arial,sans-serif" font-size="4.5" fill="#0D47A1" text-anchor="middle" font-weight="bold">/ Кретинизм</text>
+  <text x="0" y="44" font-family="Arial,sans-serif" font-size="4" fill="#0D47A1" text-anchor="middle">(гипо, отёк)</text>
+</g>
+
+<!-- Adrenal disorders -->
+<rect x="336" y="56" width="155" height="105" fill="white" fill-opacity="0.7" rx="6" stroke="#A5D6A7" stroke-width="1"/>
+<text x="413" y="68" font-family="Arial,sans-serif" font-size="7" fill="#B71C1C" text-anchor="middle" font-weight="bold">Надпочечники</text>
+<line x1="346" y1="72" x2="481" y2="72" stroke="#EF9A9A" stroke-width="0.5"/>
+
+<!-- Cushing syndrome (hyper) -->
+<g transform="translate(380,80)">
+  <!-- Moon face -->
+  <ellipse cx="0" cy="8" rx="12" ry="12" fill="#FFCCBC" stroke="#8D6E63" stroke-width="0.8"/>
+  <!-- Features -->
+  <circle cx="-4" cy="6" r="1.2" fill="#8D6E63"/>
+  <circle cx="4" cy="6" r="1.2" fill="#8D6E63"/>
+  <path d="M-2,11 Q0,13 2,11" fill="none" stroke="#8D6E63" stroke-width="0.5"/>
+  <!-- Fat deposits -->
+  <ellipse cx="-14" cy="8" rx="4" ry="3" fill="#FFAB91" fill-opacity="0.5"/>
+  <ellipse cx="14" cy="8" rx="4" ry="3" fill="#FFAB91" fill-opacity="0.5"/>
+  <text x="0" y="30" font-family="Arial,sans-serif" font-size="4.5" fill="#C62828" text-anchor="middle" font-weight="bold">Синдром</text>
+  <text x="0" y="36" font-family="Arial,sans-serif" font-size="4.5" fill="#C62828" text-anchor="middle" font-weight="bold">Кушинга</text>
+  <text x="0" y="42" font-family="Arial,sans-serif" font-size="4" fill="#C62828" text-anchor="middle">(гипер, лунообразное лицо)</text>
+</g>
+
+<!-- Addison disease (hypo) -->
+<g transform="translate(460,80)">
+  <!-- Dark skin face -->
+  <ellipse cx="0" cy="8" rx="10" ry="12" fill="#8D6E63" stroke="#5D4037" stroke-width="0.8"/>
+  <circle cx="-3" cy="6" r="1" fill="#3E2723"/>
+  <circle cx="3" cy="6" r="1" fill="#3E2723"/>
+  <text x="0" y="30" font-family="Arial,sans-serif" font-size="4.5" fill="#0D47A1" text-anchor="middle" font-weight="bold">Болезнь</text>
+  <text x="0" y="36" font-family="Arial,sans-serif" font-size="4.5" fill="#0D47A1" text-anchor="middle" font-weight="bold">Аддисона</text>
+  <text x="0" y="42" font-family="Arial,sans-serif" font-size="4" fill="#0D47A1" text-anchor="middle">(гипо, гиперпигментация)</text>
+</g>
+
+<!-- Diabetes section with blood glucose graph -->
+<rect x="15" y="168" width="290" height="90" fill="white" fill-opacity="0.7" rx="6" stroke="#A5D6A7" stroke-width="1"/>
+<text x="160" y="182" font-family="Arial,sans-serif" font-size="7.5" fill="#1B5E20" text-anchor="middle" font-weight="bold">Сахарный диабет (недостаток инсулина)</text>
+<line x1="25" y1="186" x2="295" y2="186" stroke="#A5D6A7" stroke-width="0.5"/>
+
+<!-- Glucose graph -->
+<rect x="30" y="190" width="260" height="55" fill="#FAFAFA" rx="3" stroke="#E0E0E0" stroke-width="0.5"/>
+<!-- Y axis -->
+<line x1="40" y1="195" x2="40" y2="240" stroke="#888" stroke-width="0.5"/>
+<text x="38" y="200" font-family="Arial,sans-serif" font-size="4" fill="#888" text-anchor="end">15</text>
+<text x="38" y="212" font-family="Arial,sans-serif" font-size="4" fill="#888" text-anchor="end">10</text>
+<text x="38" y="225" font-family="Arial,sans-serif" font-size="4" fill="#888" text-anchor="end">5</text>
+<text x="38" y="240" font-family="Arial,sans-serif" font-size="4" fill="#888" text-anchor="end">0</text>
+<!-- X axis -->
+<line x1="40" y1="240" x2="285" y2="240" stroke="#888" stroke-width="0.5"/>
+<text x="70" y="248" font-family="Arial,sans-serif" font-size="4" fill="#888" text-anchor="middle">Завтрак</text>
+<text x="160" y="248" font-family="Arial,sans-serif" font-size="4" fill="#888" text-anchor="middle">Обед</text>
+<text x="250" y="248" font-family="Arial,sans-serif" font-size="4" fill="#888" text-anchor="middle">Ужин</text>
+
+<!-- Normal glucose line -->
+<path d="M45,222 C55,218 60,220 70,214 C80,208 85,210 90,218 C95,222 110,224 130,222 C140,220 150,216 160,210 C170,206 175,208 180,216 C190,222 210,224 230,222 C240,220 250,216 255,210 C265,206 270,210 275,218" fill="none" stroke="#4CAF50" stroke-width="1.5"/>
+<!-- Normal range shading -->
+<rect x="40" y="215" width="250" height="12" fill="#4CAF50" fill-opacity="0.08"/>
+
+<!-- Diabetic glucose line -->
+<path d="M45,218 C55,212 60,208 70,196 C80,190 85,192 90,200 C100,210 110,212 130,210 C140,206 150,200 160,190 C170,184 175,186 180,196 C190,208 210,210 230,206 C240,200 250,192 255,184 C265,180 270,186 275,198" fill="none" stroke="#E53935" stroke-width="1.5" stroke-dasharray="3,1"/>
+
+<text x="180" y="203" font-family="Arial,sans-serif" font-size="5" fill="#4CAF50" font-weight="bold">— Норма</text>
+<text x="180" y="195" font-family="Arial,sans-serif" font-size="5" fill="#E53935" font-weight="bold">- - Диабет</text>
+
+<!-- Y axis label -->
+<text x="28" y="218" font-family="Arial,sans-serif" font-size="4" fill="#888" text-anchor="middle" transform="rotate(-90,28,218)">ммоль/л</text>
+
+<!-- Diabetes symptoms panel -->
+<rect x="315" y="168" width="176" height="90" fill="white" fill-opacity="0.7" rx="6" stroke="#EF5350" stroke-width="1"/>
+<text x="403" y="182" font-family="Arial,sans-serif" font-size="7.5" fill="#C62828" text-anchor="middle" font-weight="bold">Симптомы диабета</text>
+<line x1="325" y1="186" x2="481" y2="186" stroke="#EF9A9A" stroke-width="0.5"/>
+
+<text x="330" y="198" font-family="Arial,sans-serif" font-size="6.5" fill="#555">💧 Сильная жажда (полидипсия)</text>
+<text x="330" y="210" font-family="Arial,sans-serif" font-size="6.5" fill="#555">🚽 Частое мочеиспускание</text>
+<text x="330" y="222" font-family="Arial,sans-serif" font-size="6.5" fill="#555">📉 Похудение</text>
+<text x="330" y="234" font-family="Arial,sans-serif" font-size="6.5" fill="#555">😴 Утомляемость, слабость</text>
+<text x="330" y="246" font-family="Arial,sans-serif" font-size="6.5" fill="#555">👁️ Ухудшение зрения</text>
+<text x="330" y="256" font-family="Arial,sans-serif" font-size="5.5" fill="#888" font-style="italic">Тип 1: аутоиммунный (ювенильный)</text>
+
+<!-- Bottom: Prevention and treatment -->
+<rect x="15" y="263" width="476" height="50" fill="white" fill-opacity="0.7" rx="6" stroke="#66BB6A" stroke-width="1"/>
+<text x="253" y="277" font-family="Arial,sans-serif" font-size="7.5" fill="#1B5E20" text-anchor="middle" font-weight="bold">Профилактика и лечение эндокринных нарушений</text>
+<line x1="25" y1="281" x2="481" y2="281" stroke="#A5D6A7" stroke-width="0.5"/>
+
+<text x="50" y="294" font-family="Arial,sans-serif" font-size="6" fill="#555" font-weight="bold">Лечение:</text>
+<text x="50" y="304" font-family="Arial,sans-serif" font-size="5.5" fill="#555">• Заместительная терапия (гормоны при гипофункции)</text>
+<text x="50" y="312" font-family="Arial,sans-serif" font-size="5.5" fill="#555">• Удаление опухоли / подавление при гиперфункции</text>
+
+<text x="290" y="294" font-family="Arial,sans-serif" font-size="6" fill="#555" font-weight="bold">Профилактика:</text>
+<text x="290" y="304" font-family="Arial,sans-serif" font-size="5.5" fill="#555">• Йодированная соль (профилактика зоба)</text>
+<text x="290" y="312" font-family="Arial,sans-serif" font-size="5.5" fill="#555">• Здоровое питание, регулярные осмотры</text>
+
+<!-- Footer bar -->
+<rect x="3" y="318" width="494" height="29" rx="0" fill="#2E7D32"/>
+<rect x="3" y="340" width="494" height="7" rx="0 0 8 8" fill="#2E7D32"/>
+<text x="250" y="336" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle" font-weight="bold">Гиперфункция — избыток гормона | Гипофункция — недостаток гормона</text>
+</svg>

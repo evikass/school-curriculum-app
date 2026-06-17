@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Соединения костей: суставы, хрящи, связки</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 8 класс — Урок 12</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- Main illustration: Joint cross-section -->
+<g transform="translate(165,190)">
+  <!-- Upper bone (epiphysis) -->
+  <path d="M-30,-55 Q-35,-50 -35,-40 L-35,-20 Q-35,-10 -25,-5 L25,-5 Q35,-10 35,-20 L35,-40 Q35,-50 30,-55 Z" fill="#FFF8E1" stroke="#795548" stroke-width="1.5"/>
+  <!-- Lower bone (epiphysis) -->
+  <path d="M-28,55 Q-32,50 -32,40 L-32,20 Q-32,10 -22,5 L22,5 Q32,10 32,20 L32,40 Q32,50 28,55 Z" fill="#FFF8E1" stroke="#795548" stroke-width="1.5"/>
+
+  <!-- Articular cartilage on upper bone -->
+  <path d="M-28,-5 Q-15,-12 0,-10 Q15,-12 28,-5 Q15,0 0,-2 Q-15,0 -28,-5 Z" fill="#B2DFDB" stroke="#00897B" stroke-width="1" opacity="0.7"/>
+  <!-- Articular cartilage on lower bone -->
+  <path d="M-25,5 Q-12,12 0,10 Q12,12 25,5 Q12,0 0,2 Q-12,0 -25,5 Z" fill="#B2DFDB" stroke="#00897B" stroke-width="1" opacity="0.7"/>
+
+  <!-- Joint capsule -->
+  <path d="M-38,-40 Q-45,-15 -42,5 Q-40,25 -38,40" fill="none" stroke="#E65100" stroke-width="2" stroke-dasharray="3,2"/>
+  <path d="M38,-40 Q45,-15 42,5 Q40,25 38,40" fill="none" stroke="#E65100" stroke-width="2" stroke-dasharray="3,2"/>
+
+  <!-- Synovial membrane (inner layer of capsule) -->
+  <path d="M-36,-35 Q-42,-12 -40,5 Q-38,22 -36,35" fill="none" stroke="#FF8A65" stroke-width="1" stroke-dasharray="2,2"/>
+  <path d="M36,-35 Q42,-12 40,5 Q38,22 36,35" fill="none" stroke="#FF8A65" stroke-width="1" stroke-dasharray="2,2"/>
+
+  <!-- Synovial fluid (fill the joint cavity) -->
+  <ellipse cx="0" cy="0" rx="25" ry="8" fill="#E1F5FE" opacity="0.5" stroke="#42A5F5" stroke-width="0.5"/>
+
+  <!-- Ligaments (side bands) -->
+  <path d="M-35,-35 Q-42,-10 -38,15 Q-36,25 -33,35" fill="none" stroke="#D32F2F" stroke-width="2.5"/>
+  <path d="M35,-35 Q42,-10 38,15 Q36,25 33,35" fill="none" stroke="#D32F2F" stroke-width="2.5"/>
+
+  <!-- Spongy bone texture in epiphyses -->
+  <g opacity="0.5">
+    <line x1="-20" y1="-40" x2="-10" y2="-30" stroke="#8D6E63" stroke-width="0.4"/>
+    <line x1="-5" y1="-45" x2="5" y2="-35" stroke="#8D6E63" stroke-width="0.4"/>
+    <line x1="10" y1="-42" x2="20" y2="-32" stroke="#8D6E63" stroke-width="0.4"/>
+    <line x1="-15" y1="-30" x2="0" y2="-22" stroke="#8D6E63" stroke-width="0.4"/>
+    <line x1="5" y1="-35" x2="18" y2="-25" stroke="#8D6E63" stroke-width="0.4"/>
+    <line x1="-20" y1="25" x2="-10" y2="35" stroke="#8D6E63" stroke-width="0.4"/>
+    <line x1="-5" y1="20" x2="5" y2="32" stroke="#8D6E63" stroke-width="0.4"/>
+    <line x1="10" y1="22" x2="18" y2="35" stroke="#8D6E63" stroke-width="0.4"/>
+    <line x1="-12" y1="32" x2="8" y2="40" stroke="#8D6E63" stroke-width="0.4"/>
+  </g>
+
+  <!-- Labels -->
+  <!-- Суставная капсула -->
+  <line x1="45" y1="-20" x2="70" y2="-35" stroke="#E65100" stroke-width="0.7"/>
+  <text x="72" y="-36" font-family="Arial,sans-serif" font-size="7" fill="#E65100" font-weight="bold">Суставная</text>
+  <text x="72" y="-28" font-family="Arial,sans-serif" font-size="7" fill="#E65100" font-weight="bold">капсула</text>
+
+  <!-- Суставной хрящ -->
+  <line x1="28" y1="-8" x2="70" y2="-12" stroke="#00897B" stroke-width="0.7"/>
+  <text x="72" y="-14" font-family="Arial,sans-serif" font-size="7" fill="#00897B" font-weight="bold">Суставной</text>
+  <text x="72" y="-6" font-family="Arial,sans-serif" font-size="7" fill="#00897B" font-weight="bold">хрящ</text>
+
+  <!-- Суставная полость -->
+  <line x1="20" y1="2" x2="70" y2="5" stroke="#42A5F5" stroke-width="0.7"/>
+  <text x="72" y="4" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" font-weight="bold">Суставная полость</text>
+  <text x="72" y="12" font-family="Arial,sans-serif" font-size="6" fill="#42A5F5">(синовиальная</text>
+  <text x="72" y="19" font-family="Arial,sans-serif" font-size="6" fill="#42A5F5">жидкость)</text>
+
+  <!-- Связки -->
+  <line x1="-38" y1="0" x2="-70" y2="-10" stroke="#D32F2F" stroke-width="0.7"/>
+  <text x="-100" y="-12" font-family="Arial,sans-serif" font-size="7" fill="#D32F2F" font-weight="bold">Связки</text>
+
+  <!-- Синовиальная оболочка -->
+  <line x1="-40" y1="-25" x2="-70" y2="-30" stroke="#FF8A65" stroke-width="0.7"/>
+  <text x="-108" y="-28" font-family="Arial,sans-serif" font-size="7" fill="#E64A19" font-weight="bold">Синовиальная</text>
+  <text x="-100" y="-20" font-family="Arial,sans-serif" font-size="7" fill="#E64A19" font-weight="bold">оболочка</text>
+
+  <!-- Кость labels -->
+  <text x="0" y="-48" font-family="Arial,sans-serif" font-size="6" fill="#5D4037" text-anchor="middle">Кость</text>
+  <text x="0" y="48" font-family="Arial,sans-serif" font-size="6" fill="#5D4037" text-anchor="middle">Кость</text>
+</g>
+
+<!-- Side panel: Types of connections -->
+<g transform="translate(400,120)">
+  <rect x="-50" y="-60" width="100" height="120" rx="5" fill="white" opacity="0.92" stroke="#2E7D32" stroke-width="1"/>
+  <rect x="-50" y="-60" width="100" height="16" rx="5" fill="#2E7D32" opacity="0.85"/>
+  <rect x="-50" y="-48" width="100" height="4" fill="#2E7D32" opacity="0.85"/>
+  <text x="0" y="-46" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle" font-weight="bold">Соединения</text>
+
+  <!-- Непрерывные -->
+  <text x="0" y="-30" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle" font-weight="bold">Непрерывные</text>
+  <!-- Шов -->
+  <g transform="translate(0,-18)">
+    <rect x="-35" y="-5" width="70" height="14" rx="2" fill="#E8F5E9" stroke="#A5D6A7" stroke-width="0.5"/>
+    <path d="M-25,0 L-15,3 L-5,-2 L5,2 L15,-1 L25,1" fill="none" stroke="#795548" stroke-width="1.2"/>
+    <text x="32" y="3" font-family="Arial,sans-serif" font-size="5" fill="#555">Шов</text>
+  </g>
+  <!-- Синдесмоз -->
+  <g transform="translate(0,2)">
+    <rect x="-35" y="-5" width="70" height="14" rx="2" fill="#E8F5E9" stroke="#A5D6A7" stroke-width="0.5"/>
+    <rect x="-28" y="-1" width="10" height="6" rx="1" fill="#FFF8E1" stroke="#795548" stroke-width="0.6"/>
+    <rect x="18" y="-1" width="10" height="6" rx="1" fill="#FFF8E1" stroke="#795548" stroke-width="0.6"/>
+    <line x1="-18" y1="2" x2="18" y2="2" stroke="#D32F2F" stroke-width="0.8" stroke-dasharray="2,1"/>
+    <text x="0" y="-3" font-family="Arial,sans-serif" font-size="4" fill="#555" text-anchor="middle">Синдесмоз</text>
+  </g>
+
+  <!-- Прерывные -->
+  <text x="0" y="22" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle" font-weight="bold">Прерывные</text>
+  <!-- Сустав -->
+  <g transform="translate(0,36)">
+    <rect x="-35" y="-8" width="70" height="16" rx="2" fill="#E8F5E9" stroke="#A5D6A7" stroke-width="0.5"/>
+    <ellipse cx="-20" cy="0" rx="8" ry="5" fill="#FFF8E1" stroke="#795548" stroke-width="0.6"/>
+    <ellipse cx="20" cy="0" rx="8" ry="5" fill="#FFF8E1" stroke="#795548" stroke-width="0.6"/>
+    <ellipse cx="0" cy="0" rx="6" ry="3" fill="#E1F5FE" stroke="#42A5F5" stroke-width="0.5"/>
+    <text x="0" y="-4" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Сустав (диартроз)</text>
+  </g>
+
+  <!-- Полусустав -->
+  <g transform="translate(0,52)">
+    <rect x="-35" y="-5" width="70" height="12" rx="2" fill="#FFF3E0" stroke="#FFB74D" stroke-width="0.5"/>
+    <text x="0" y="3" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">Полусустав (симфиз)</text>
+  </g>
+</g>
+
+<!-- Bottom panel: Types of joints -->
+<g transform="translate(30,280)">
+  <rect x="0" y="0" width="440" height="55" rx="5" fill="white" opacity="0.92" stroke="#2E7D32" stroke-width="1"/>
+  <text x="220" y="13" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">Типы суставов по форме суставных поверхностей</text>
+  <line x1="10" y1="18" x2="430" y2="18" stroke="#A5D6A7" stroke-width="0.5"/>
+
+  <!-- Шаровидный -->
+  <g transform="translate(45,38)">
+    <circle cx="0" cy="0" r="8" fill="#FFF8E1" stroke="#795548" stroke-width="0.8"/>
+    <path d="M0,5 Q4,-2 0,-8" fill="none" stroke="#795548" stroke-width="0.5"/>
+    <text x="0" y="14" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20" text-anchor="middle" font-weight="bold">Шаровидный</text>
+    <text x="0" y="20" font-family="Arial,sans-serif" font-size="4.5" fill="#555" text-anchor="middle">Плечевой</text>
+  </g>
+
+  <!-- Цилиндрический -->
+  <g transform="translate(130,38)">
+    <ellipse cx="0" cy="0" rx="5" ry="9" fill="#FFF8E1" stroke="#795548" stroke-width="0.8"/>
+    <line x1="0" y1="-9" x2="0" y2="9" stroke="#795548" stroke-width="0.5"/>
+    <text x="0" y="14" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20" text-anchor="middle" font-weight="bold">Цилиндрический</text>
+    <text x="0" y="20" font-family="Arial,sans-serif" font-size="4.5" fill="#555" text-anchor="middle">Атлант-ось</text>
+  </g>
+
+  <!-- Блоковидный -->
+  <g transform="translate(215,38)">
+    <rect x="-8" y="-8" width="16" height="16" rx="2" fill="#FFF8E1" stroke="#795548" stroke-width="0.8"/>
+    <line x1="-8" y1="-3" x2="8" y2="-3" stroke="#795548" stroke-width="0.5"/>
+    <line x1="-8" y1="3" x2="8" y2="3" stroke="#795548" stroke-width="0.5"/>
+    <text x="0" y="14" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20" text-anchor="middle" font-weight="bold">Блоковидный</text>
+    <text x="0" y="20" font-family="Arial,sans-serif" font-size="4.5" fill="#555" text-anchor="middle">Локтевой</text>
+  </g>
+
+  <!-- Плоский -->
+  <g transform="translate(300,38)">
+    <ellipse cx="0" cy="0" rx="10" ry="4" fill="#FFF8E1" stroke="#795548" stroke-width="0.8"/>
+    <text x="0" y="14" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20" text-anchor="middle" font-weight="bold">Плоский</text>
+    <text x="0" y="20" font-family="Arial,sans-serif" font-size="4.5" fill="#555" text-anchor="middle">Между позвонками</text>
+  </g>
+
+  <!-- Эллипсовидный -->
+  <g transform="translate(395,38)">
+    <ellipse cx="0" cy="0" rx="9" ry="6" fill="#FFF8E1" stroke="#795548" stroke-width="0.8"/>
+    <text x="0" y="14" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20" text-anchor="middle" font-weight="bold">Эллипсовидный</text>
+    <text x="0" y="20" font-family="Arial,sans-serif" font-size="4.5" fill="#555" text-anchor="middle">Лучезапястный</text>
+  </g>
+</g>
+
+<rect x="10" y="340" width="480" height="8" rx="4" fill="#2E7D32" opacity="0.85"/>
+</svg>

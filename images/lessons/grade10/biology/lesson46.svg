@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FBE9E7"/><stop offset="100%" stop-color="#FFCCBC"/></linearGradient>
+<linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#BF360C"/><stop offset="100%" stop-color="#E64A19"/></linearGradient>
+<linearGradient id="dna1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1565C0"/><stop offset="100%" stop-color="#42A5F5"/></linearGradient>
+<linearGradient id="dna2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#C62828"/><stop offset="100%" stop-color="#EF5350"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#BF360C" stroke-width="2.5"/>
+<rect x="10" y="8" width="480" height="28" rx="5" fill="url(#bar)" opacity="0.9"/>
+<text x="250" y="27" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="white" text-anchor="middle">Мутационная изменчивость · Биология 10 — Урок 46</text>
+
+<!-- 1. Gene mutations -->
+<rect x="10" y="42" width="160" height="138" rx="5" fill="white" fill-opacity="0.8" stroke="#BF360C" stroke-width="1"/>
+<text x="90" y="56" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#BF360C" text-anchor="middle">1. ГЕННЫЕ (точковые)</text>
+
+<!-- Normal DNA sequence -->
+<text x="90" y="70" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Норма:</text>
+<rect x="22" y="74" width="16" height="14" rx="2" fill="#1565C0"/><text x="30" y="85" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">A</text>
+<rect x="40" y="74" width="16" height="14" rx="2" fill="#2E7D32"/><text x="48" y="85" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">T</text>
+<rect x="58" y="74" width="16" height="14" rx="2" fill="#E65100"/><text x="66" y="85" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">G</text>
+<rect x="76" y="74" width="16" height="14" rx="2" fill="#6A1B9A"/><text x="84" y="85" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">C</text>
+<rect x="94" y="74" width="16" height="14" rx="2" fill="#1565C0"/><text x="102" y="85" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">A</text>
+<rect x="112" y="74" width="16" height="14" rx="2" fill="#E65100"/><text x="120" y="85" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">G</text>
+
+<!-- Substitution -->
+<text x="90" y="100" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">Замена:</text>
+<rect x="22" y="104" width="16" height="14" rx="2" fill="#1565C0"/><text x="30" y="115" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">A</text>
+<rect x="40" y="104" width="16" height="14" rx="2" fill="#2E7D32"/><text x="48" y="115" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">T</text>
+<rect x="58" y="104" width="16" height="14" rx="2" fill="#F44336" stroke="#C62828" stroke-width="1.5"/><text x="66" y="115" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">A</text>
+<rect x="76" y="104" width="16" height="14" rx="2" fill="#6A1B9A"/><text x="84" y="115" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">C</text>
+<rect x="94" y="104" width="16" height="14" rx="2" fill="#1565C0"/><text x="102" y="115" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">A</text>
+<rect x="112" y="104" width="16" height="14" rx="2" fill="#E65100"/><text x="120" y="115" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">G</text>
+
+<!-- Insertion -->
+<text x="90" y="130" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">Вставка:</text>
+<rect x="22" y="134" width="14" height="14" rx="2" fill="#1565C0"/><text x="29" y="145" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="white" text-anchor="middle">A</text>
+<rect x="38" y="134" width="14" height="14" rx="2" fill="#2E7D32"/><text x="45" y="145" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="white" text-anchor="middle">T</text>
+<rect x="54" y="134" width="14" height="14" rx="2" fill="#FF9800" stroke="#E65100" stroke-width="1.5"/><text x="61" y="145" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="white" text-anchor="middle">C</text>
+<rect x="70" y="134" width="14" height="14" rx="2" fill="#E65100"/><text x="77" y="145" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="white" text-anchor="middle">G</text>
+<rect x="86" y="134" width="14" height="14" rx="2" fill="#6A1B9A"/><text x="93" y="145" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="white" text-anchor="middle">C</text>
+<rect x="102" y="134" width="14" height="14" rx="2" fill="#1565C0"/><text x="109" y="145" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="white" text-anchor="middle">A</text>
+<rect x="118" y="134" width="14" height="14" rx="2" fill="#E65100"/><text x="125" y="145" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="white" text-anchor="middle">G</text>
+
+<!-- Deletion -->
+<text x="90" y="160" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">Удаление (делеция):</text>
+<rect x="30" y="164" width="14" height="14" rx="2" fill="#1565C0"/><text x="37" y="175" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="white" text-anchor="middle">A</text>
+<rect x="46" y="164" width="14" height="14" rx="2" fill="#6A1B9A"/><text x="53" y="175" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="white" text-anchor="middle">C</text>
+<rect x="62" y="164" width="14" height="14" rx="2" fill="#1565C0"/><text x="69" y="175" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="white" text-anchor="middle">A</text>
+<rect x="78" y="164" width="14" height="14" rx="2" fill="#E65100"/><text x="85" y="175" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="white" text-anchor="middle">G</text>
+<text x="110" y="175" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">← G выпал</text>
+
+<!-- 2. Chromosomal mutations -->
+<rect x="178" y="42" width="160" height="138" rx="5" fill="white" fill-opacity="0.8" stroke="#BF360C" stroke-width="1"/>
+<text x="258" y="56" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#BF360C" text-anchor="middle">2. ХРОМОСОМНЫЕ</text>
+
+<!-- Normal chromosome -->
+<text x="200" y="72" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Норма:</text>
+<rect x="188" y="76" width="10" height="6" rx="2" fill="#7B1FA2"/>
+<rect x="188" y="82" width="10" height="6" rx="2" fill="#9C27B0"/>
+<rect x="188" y="88" width="10" height="6" rx="2" fill="#7B1FA2"/>
+<rect x="188" y="94" width="10" height="6" rx="2" fill="#AB47BC"/>
+<rect x="188" y="100" width="10" height="6" rx="2" fill="#7B1FA2"/>
+<rect x="188" y="106" width="10" height="6" rx="2" fill="#9C27B0"/>
+
+<!-- Deletion -->
+<text x="258" y="72" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">Делеция:</text>
+<rect x="218" y="76" width="10" height="6" rx="2" fill="#7B1FA2"/>
+<rect x="218" y="82" width="10" height="6" rx="2" fill="#9C27B0"/>
+<rect x="218" y="94" width="10" height="6" rx="2" fill="#AB47BC"/>
+<rect x="218" y="100" width="10" height="6" rx="2" fill="#7B1FA2"/>
+<rect x="218" y="106" width="10" height="6" rx="2" fill="#9C27B0"/>
+<line x1="218" y1="89" x2="228" y2="89" stroke="#F44336" stroke-width="1.5"/>
+<text x="234" y="92" font-family="Arial,sans-serif" font-size="6" fill="#F44336">← утрачен</text>
+
+<!-- Duplication -->
+<text x="200" y="124" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">Дупликация:</text>
+<rect x="188" y="128" width="10" height="6" rx="2" fill="#7B1FA2"/>
+<rect x="188" y="134" width="10" height="6" rx="2" fill="#9C27B0"/>
+<rect x="188" y="140" width="10" height="6" rx="2" fill="#7B1FA2"/>
+<rect x="188" y="146" width="10" height="6" rx="2" fill="#9C27B0"/>
+<rect x="188" y="152" width="10" height="6" rx="2" fill="#7B1FA2"/>
+<rect x="188" y="158" width="10" height="6" rx="2" fill="#AB47BC"/>
+<rect x="188" y="164" width="10" height="6" rx="2" fill="#7B1FA2"/>
+<rect x="188" y="170" width="10" height="6" rx="2" fill="#9C27B0"/>
+<rect x="200" y="140" width="6" height="6" rx="1" fill="#FF9800"/>
+<text x="212" y="148" font-family="Arial,sans-serif" font-size="6" fill="#E65100">← дублир.</text>
+
+<!-- Inversion -->
+<text x="285" y="124" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">Инверсия:</text>
+<rect x="275" y="128" width="10" height="6" rx="2" fill="#7B1FA2"/>
+<rect x="275" y="134" width="10" height="6" rx="2" fill="#AB47BC"/>
+<rect x="275" y="140" width="10" height="6" rx="2" fill="#7B1FA2"/>
+<rect x="275" y="146" width="10" height="6" rx="2" fill="#9C27B0"/>
+<rect x="275" y="152" width="10" height="6" rx="2" fill="#7B1FA2"/>
+<rect x="275" y="158" width="10" height="6" rx="2" fill="#9C27B0"/>
+<path d="M285,135 Q290,135 290,140 Q290,145 285,145" fill="none" stroke="#F44336" stroke-width="1"/>
+<text x="296" y="144" font-family="Arial,sans-serif" font-size="6" fill="#F44336">↔</text>
+
+<!-- Translocation -->
+<text x="258" y="168" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">Транслокация:</text>
+<rect x="215" y="172" width="10" height="6" rx="2" fill="#7B1FA2"/>
+<rect x="215" y="178" width="10" height="6" rx="2" fill="#9C27B0"/>
+<rect x="215" y="184" width="10" height="6" rx="2" fill="#2E7D32"/>
+<rect x="215" y="190" width="10" height="6" rx="2" fill="#4CAF50"/>
+<text x="230" y="188" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">← из др. хр.</text>
+
+<!-- 3. Genomic mutations -->
+<rect x="346" y="42" width="148" height="138" rx="5" fill="white" fill-opacity="0.8" stroke="#BF360C" stroke-width="1"/>
+<text x="420" y="56" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#BF360C" text-anchor="middle">3. ГЕНОМНЫЕ</text>
+
+<!-- Polyploidy -->
+<text x="420" y="72" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#333" text-anchor="middle">Полиплоидия (3n, 4n)</text>
+<text x="390" y="84" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">2n:</text>
+<g transform="translate(405,78)">
+<ellipse cx="0" cy="0" rx="5" ry="8" fill="#5C6BC0" stroke="#3949AB" stroke-width="0.5"/>
+<ellipse cx="10" cy="0" rx="5" ry="8" fill="#5C6BC0" stroke="#3949AB" stroke-width="0.5"/>
+</g>
+<text x="390" y="100" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">4n:</text>
+<g transform="translate(400,94)">
+<ellipse cx="0" cy="0" rx="5" ry="8" fill="#5C6BC0" stroke="#3949AB" stroke-width="0.5"/>
+<ellipse cx="10" cy="0" rx="5" ry="8" fill="#5C6BC0" stroke="#3949AB" stroke-width="0.5"/>
+<ellipse cx="20" cy="0" rx="5" ry="8" fill="#5C6BC0" stroke="#3949AB" stroke-width="0.5"/>
+<ellipse cx="30" cy="0" rx="5" ry="8" fill="#5C6BC0" stroke="#3949AB" stroke-width="0.5"/>
+</g>
+<text x="420" y="114" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">У растений — крупные плоды</text>
+
+<!-- Aneuploidy / Down syndrome -->
+<text x="420" y="128" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#333" text-anchor="middle">Анеуплоидия (2n±1)</text>
+<text x="420" y="140" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">Синдром Дауна</text>
+<text x="420" y="150" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">Трисомия по 21 хромосоме</text>
+
+<!-- Karyotype with 3 copies -->
+<g transform="translate(370,158)">
+<rect x="0" y="0" width="7" height="12" rx="2" fill="#FF9800" stroke="#E65100" stroke-width="0.5"/>
+<rect x="10" y="0" width="7" height="12" rx="2" fill="#FF9800" stroke="#E65100" stroke-width="0.5"/>
+<rect x="20" y="0" width="7" height="12" rx="2" fill="#FF9800" stroke="#E65100" stroke-width="1.5"/>
+</g>
+<text x="420" y="180" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle">3 копии 21-й!</text>
+
+<text x="420" y="195" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">45,ХО — синдром Тернера</text>
+<text x="420" y="205" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">47,XXY — синдром Клайнфельтера</text>
+
+<!-- Mutagens section -->
+<line x1="10" y1="186" x2="490" y2="186" stroke="#BF360C" stroke-width="0.8" stroke-dasharray="4,3"/>
+
+<rect x="10" y="192" width="160" height="66" rx="5" fill="white" fill-opacity="0.8" stroke="#BF360C" stroke-width="1"/>
+<text x="90" y="206" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#BF360C" text-anchor="middle">Мутагены</text>
+
+<!-- Radiation icon -->
+<circle cx="35" cy="224" r="10" fill="#FFEB3B" stroke="#F57F17" stroke-width="1"/>
+<line x1="35" y1="214" x2="35" y2="218" stroke="#F57F17" stroke-width="1.5"/>
+<line x1="43" y1="228" x2="46" y2="230" stroke="#F57F17" stroke-width="1.5"/>
+<line x1="27" y1="228" x2="24" y2="230" stroke="#F57F17" stroke-width="1.5"/>
+<text x="55" y="220" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#333" text-anchor="start">Физические:</text>
+<text x="55" y="230" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="start">радиация, УФ</text>
+
+<!-- Chemical icon -->
+<rect x="100" y="238" width="10" height="12" rx="2" fill="#9C27B0"/>
+<circle cx="110" cy="238" r="4" fill="#7B1FA2"/>
+<text x="120" y="244" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#333" text-anchor="start">Химические</text>
+
+<text x="35" y="252" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">🦠 Биологические</text>
+
+<!-- Somatic vs germ -->
+<rect x="178" y="192" width="316" height="66" rx="5" fill="white" fill-opacity="0.8" stroke="#BF360C" stroke-width="1"/>
+<text x="336" y="206" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#BF360C" text-anchor="middle">Соматические vs Генеративные мутации</text>
+
+<!-- Somatic -->
+<rect x="190" y="212" width="140" height="40" rx="4" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
+<text x="260" y="224" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#E65100" text-anchor="middle">Соматические</text>
+<text x="260" y="234" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">В клетках тела</text>
+<text x="260" y="244" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">НЕ передаются потомкам</text>
+
+<!-- Germ -->
+<rect x="340" y="212" width="140" height="40" rx="4" fill="#FCE4EC" stroke="#C62828" stroke-width="1"/>
+<text x="410" y="224" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#C62828" text-anchor="middle">Генеративные</text>
+<text x="410" y="234" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">В половых клетках</text>
+<text x="410" y="244" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">ПЕРЕДАЮТСЯ потомкам!</text>
+
+<!-- Properties of mutations -->
+<rect x="10" y="264" width="480" height="78" rx="5" fill="white" fill-opacity="0.8" stroke="#BF360C" stroke-width="1"/>
+<text x="250" y="278" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#BF360C" text-anchor="middle">Свойства мутаций</text>
+
+<rect x="20" y="284" width="8" height="8" rx="2" fill="#F44336"/>
+<text x="34" y="292" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="start">Наследуются (в отличие от модификаций)</text>
+
+<rect x="20" y="298" width="8" height="8" rx="2" fill="#F44336"/>
+<text x="34" y="306" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="start">Возникают внезапно, скачкообразно</text>
+
+<rect x="250" y="284" width="8" height="8" rx="2" fill="#F44336"/>
+<text x="264" y="292" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="start">Не направлены (случайны)</text>
+
+<rect x="250" y="298" width="8" height="8" rx="2" fill="#F44336"/>
+<text x="264" y="306" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="start">Редко полезны, чаще вредны</text>
+
+<rect x="20" y="314" width="8" height="8" rx="2" fill="#F44336"/>
+<text x="34" y="322" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="start">Могут быть рецессивными (проявляются в гомозиготе)</text>
+
+<rect x="250" y="314" width="8" height="8" rx="2" fill="#F44336"/>
+<text x="264" y="322" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="start">Один и тот же признак может мутировать повторно</text>
+</svg>

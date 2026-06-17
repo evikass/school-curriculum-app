@@ -1,37 +1,73 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
+    <linearGradient id="bg9" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0a28"/>
+      <stop offset="100%" stop-color="#2d1654"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#311B92"/>
-      <stop offset="100%" stop-color="#4A148C"/>
-    </linearGradient>
+    <marker id="arrow9" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#ffd93d"/>
+    </marker>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#4A148C" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#4A148C" stroke-width="1" opacity="0.3"/>
-  <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#4A148C" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#4A148C" text-anchor="middle">Урок 9: Словари</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Основы программирования - Урок 9</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#4A148C" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#4A148C" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA -->
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#EDE7F6"/><text x="250" y="130" font-family="Arial,sans-serif" font-size="20" fill="#4A148C" text-anchor="middle" font-weight="bold">Урок 9: Словари</text><rect x="73" y="155" width="140" height="45" rx="5" fill="#E3F2FD" stroke="#4A148C" stroke-width="1.5"/><text x="143" y="182" font-family="Arial" font-size="12" fill="#4A148C" text-anchor="middle">Словарь (dict)</text><rect x="267" y="155" width="140" height="45" rx="5" fill="#FFF3E0" stroke="#311B92" stroke-width="1.5"/><text x="337" y="182" font-family="Arial" font-size="12" fill="#311B92" text-anchor="middle">Создание словаря:</text>
-  <rect x="435" y="270" width="20" height="20" rx="2" fill="#4A148C" opacity="0.12"/><rect x="445" y="280" width="15" height="15" rx="2" fill="#311B92" opacity="0.08"/>
+  <rect width="500" height="350" fill="url(#bg9)"/>
+  <!-- Dictionary title -->
+  <text x="250" y="30" fill="#79c0ff" font-size="13" font-family="monospace" text-anchor="middle">student = {"имя": "Иван", "возраст": 14, "класс": "8А"}</text>
+  <!-- Key-value pairs as connected boxes -->
+  <!-- Pair 1 -->
+  <g transform="translate(40, 55)">
+    <!-- Key box -->
+    <rect x="0" y="0" width="120" height="45" rx="6" fill="#6c5ce7" opacity="0.9"/>
+    <text x="60" y="15" fill="#ddd" font-size="9" font-family="monospace" text-anchor="middle">ключ</text>
+    <text x="60" y="33" fill="white" font-size="14" font-family="monospace" text-anchor="middle">"имя"</text>
+    <!-- Arrow -->
+    <line x1="125" y1="22" x2="155" y2="22" stroke="#ffd93d" stroke-width="2" marker-end="url(#arrow9)"/>
+    <!-- Value box -->
+    <rect x="160" y="0" width="120" height="45" rx="6" fill="#00b894" opacity="0.9"/>
+    <text x="220" y="15" fill="#ddd" font-size="9" font-family="monospace" text-anchor="middle">значение</text>
+    <text x="220" y="33" fill="white" font-size="14" font-family="monospace" text-anchor="middle">"Иван"</text>
   </g>
-  <!-- Bottom panel -->
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Основы программирования</text>
+  <!-- Pair 2 -->
+  <g transform="translate(40, 115)">
+    <rect x="0" y="0" width="120" height="45" rx="6" fill="#6c5ce7" opacity="0.9"/>
+    <text x="60" y="15" fill="#ddd" font-size="9" font-family="monospace" text-anchor="middle">ключ</text>
+    <text x="60" y="33" fill="white" font-size="14" font-family="monospace" text-anchor="middle">"возраст"</text>
+    <line x1="125" y1="22" x2="155" y2="22" stroke="#ffd93d" stroke-width="2" marker-end="url(#arrow9)"/>
+    <rect x="160" y="0" width="120" height="45" rx="6" fill="#e17055" opacity="0.9"/>
+    <text x="220" y="15" fill="#ddd" font-size="9" font-family="monospace" text-anchor="middle">значение</text>
+    <text x="220" y="33" fill="white" font-size="14" font-family="monospace" text-anchor="middle">14</text>
+  </g>
+  <!-- Pair 3 -->
+  <g transform="translate(40, 175)">
+    <rect x="0" y="0" width="120" height="45" rx="6" fill="#6c5ce7" opacity="0.9"/>
+    <text x="60" y="15" fill="#ddd" font-size="9" font-family="monospace" text-anchor="middle">ключ</text>
+    <text x="60" y="33" fill="white" font-size="14" font-family="monospace" text-anchor="middle">"класс"</text>
+    <line x1="125" y1="22" x2="155" y2="22" stroke="#ffd93d" stroke-width="2" marker-end="url(#arrow9)"/>
+    <rect x="160" y="0" width="120" height="45" rx="6" fill="#fdcb6e" opacity="0.9"/>
+    <text x="220" y="15" fill="#666" font-size="9" font-family="monospace" text-anchor="middle">значение</text>
+    <text x="220" y="33" fill="#333" font-size="14" font-family="monospace" text-anchor="middle">"8А"</text>
+  </g>
+  <!-- Curly braces decoration -->
+  <text x="18" y="100" fill="#6c5ce7" font-size="50" font-family="monospace" opacity="0.3">{</text>
+  <text x="310" y="100" fill="#6c5ce7" font-size="50" font-family="monospace" opacity="0.3">}</text>
+  <!-- Access methods -->
+  <g transform="translate(330, 55)">
+    <rect width="150" height="120" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+    <text x="75" y="18" fill="#ffd93d" font-size="10" font-family="monospace" text-anchor="middle">Доступ</text>
+    <text x="10" y="38" fill="#7ee787" font-size="10" font-family="monospace">student["имя"]</text>
+    <text x="10" y="54" fill="#aaa" font-size="9" font-family="monospace">  → "Иван"</text>
+    <text x="10" y="74" fill="#7ee787" font-size="10" font-family="monospace">student.get("тель")</text>
+    <text x="10" y="90" fill="#aaa" font-size="9" font-family="monospace">  → None</text>
+    <text x="10" y="110" fill="#79c0ff" font-size="10" font-family="monospace">"имя" in student</text>
+    <text x="10" y="120" fill="#aaa" font-size="9" font-family="monospace">  → True</text>
+  </g>
+  <!-- Methods -->
+  <g transform="translate(330, 190)">
+    <rect width="150" height="110" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+    <text x="75" y="18" fill="#ffd93d" font-size="10" font-family="monospace" text-anchor="middle">Методы</text>
+    <text x="10" y="38" fill="#79c0ff" font-size="10" font-family="monospace">.keys()</text>
+    <text x="10" y="54" fill="#79c0ff" font-size="10" font-family="monospace">.values()</text>
+    <text x="10" y="70" fill="#79c0ff" font-size="10" font-family="monospace">.items()</text>
+    <text x="10" y="90" fill="#ff7b72" font-size="10" font-family="monospace">.pop("класс")</text>
+    <text x="10" y="106" fill="#7ee787" font-size="10" font-family="monospace">.update({...})</text>
+  </g>
+  <text x="250" y="340" fill="#aaa" font-size="9" opacity="0.5" font-family="sans-serif" text-anchor="middle">Словари</text>
 </svg>

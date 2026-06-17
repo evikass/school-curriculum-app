@@ -1,37 +1,101 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
-    </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#BF360C"/>
-      <stop offset="100%" stop-color="#E65100"/>
+      <stop offset="0%" stop-color="#f3e5f5"/>
+      <stop offset="100%" stop-color="#e1bee7"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#E65100" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#E65100" stroke-width="1" opacity="0.3"/>
-  <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#E65100" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#E65100" text-anchor="middle">Экономические системы</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Экономика - Урок 2</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#E65100" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#E65100" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA -->
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FFF3E0"/><text x="250" y="130" font-family="Arial,sans-serif" font-size="20" fill="#E65100" text-anchor="middle" font-weight="bold">Экономические системы</text><rect x="25" y="155" width="140" height="45" rx="5" fill="#E3F2FD" stroke="#E65100" stroke-width="1.5"/><text x="95" y="182" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">Традиционная экономика:</text><rect x="170" y="155" width="140" height="45" rx="5" fill="#FFF3E0" stroke="#BF360C" stroke-width="1.5"/><text x="240" y="182" font-family="Arial" font-size="12" fill="#BF360C" text-anchor="middle">Типы экономических сист...</text><rect x="315" y="155" width="140" height="45" rx="5" fill="#FFFDE7" stroke="#F9A825" stroke-width="1.5"/><text x="385" y="182" font-family="Arial" font-size="12" fill="#F9A825" text-anchor="middle">Командная (плановая) эк...</text><rect x="25" y="210" width="140" height="45" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/><text x="95" y="238" font-family="Arial" font-size="12" fill="#2E7D32" text-anchor="middle">Рыночная экономика:</text><rect x="170" y="210" width="140" height="45" rx="5" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="1.5"/><text x="240" y="238" font-family="Arial" font-size="12" fill="#6A1B9A" text-anchor="middle">Смешанная экономика:</text><rect x="315" y="210" width="140" height="45" rx="5" fill="#FFEBEE" stroke="#E65100" stroke-width="1.5"/><text x="385" y="238" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">Преимущества рынка:</text>
-  <circle cx="450" cy="275" r="15" fill="#E65100" opacity="0.12"/>
-  </g>
-  <!-- Bottom panel -->
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Экономика</text>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <!-- Three columns -->
+  <!-- Traditional economy -->
+  <rect x="25" y="30" width="140" height="260" rx="10" fill="#8d6e63" stroke="#5d4037" stroke-width="2"/>
+  <rect x="30" y="35" width="130" height="30" rx="5" fill="#5d4037"/>
+  <text x="95" y="55" font-size="8" fill="#fff" text-anchor="middle" font-weight="bold">ТРАДИЦИОННАЯ</text>
+  <!-- Village scene -->
+  <path d="M55,100 L65,80 L75,100" fill="#795548"/>
+  <rect x="60" y="100" width="12" height="15" fill="#5d4037"/>
+  <path d="M90,100 L100,82 L110,100" fill="#795548"/>
+  <rect x="95" y="100" width="12" height="15" fill="#5d4037"/>
+  <!-- Farm field -->
+  <rect x="45" y="125" width="100" height="20" fill="#a5d6a7" opacity="0.5"/>
+  <line x1="55" y1="135" x2="135" y2="135" stroke="#66bb6a" stroke-width="0.5"/>
+  <line x1="55" y1="130" x2="135" y2="130" stroke="#66bb6a" stroke-width="0.5"/>
+  <line x1="55" y1="140" x2="135" y2="140" stroke="#66bb6a" stroke-width="0.5"/>
+  <!-- Plow -->
+  <line x1="60" y1="150" x2="130" y2="150" stroke="#795548" stroke-width="2"/>
+  <path d="M125,148 L130,150 L125,152" fill="#795548"/>
+  <!-- Features -->
+  <text x="95" y="170" font-size="6" fill="#fff" text-anchor="middle">• Община</text>
+  <text x="95" y="182" font-size="6" fill="#fff" text-anchor="middle">• Натуральное хозяйство</text>
+  <text x="95" y="194" font-size="6" fill="#fff" text-anchor="middle">• Ручной труд</text>
+  <text x="95" y="206" font-size="6" fill="#fff" text-anchor="middle">• Традиции</text>
+  <!-- Emotion -->
+  <circle cx="75" cy="235" r="12" fill="#ffcc80" opacity="0.7"/>
+  <circle cx="71" cy="232" r="1.5" fill="#333"/>
+  <circle cx="79" cy="232" r="1.5" fill="#333"/>
+  <path d="M70,238 Q75,242 80,238" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="95" y="260" font-size="5" fill="#fff" text-anchor="middle">Низкая эффективность</text>
+  <!-- Command economy -->
+  <rect x="180" y="30" width="140" height="260" rx="10" fill="#c62828" stroke="#b71c1c" stroke-width="2"/>
+  <rect x="185" y="35" width="130" height="30" rx="5" fill="#b71c1c"/>
+  <text x="250" y="55" font-size="8" fill="#fff" text-anchor="middle" font-weight="bold">КОМАНДНАЯ</text>
+  <!-- Government building -->
+  <rect x="220" y="80" width="60" height="40" fill="#880e4f"/>
+  <polygon points="215,80 250,65 285,80" fill="#880e4f"/>
+  <!-- Star -->
+  <polygon points="250,70 252,76 258,76 253,80 255,86 250,82 245,86 247,80 242,76 248,76" fill="#ffd600"/>
+  <!-- Factory -->
+  <rect x="215" y="125" width="70" height="20" fill="#880e4f" opacity="0.7"/>
+  <rect x="225" y="118" width="8" height="10" fill="#880e4f" opacity="0.7"/>
+  <rect x="245" y="112" width="8" height="16" fill="#880e4f" opacity="0.7"/>
+  <!-- Central planning arrow -->
+  <path d="M250,95 L250,125" stroke="#ffd600" stroke-width="1.5"/>
+  <polygon points="250,125 246,118 254,118" fill="#ffd600"/>
+  <text x="250" y="110" font-size="5" fill="#ffd600" text-anchor="middle">ПЛАН</text>
+  <!-- Features -->
+  <text x="250" y="170" font-size="6" fill="#fff" text-anchor="middle">• Государственная</text>
+  <text x="250" y="180" font-size="6" fill="#fff" text-anchor="middle">  собственность</text>
+  <text x="250" y="192" font-size="6" fill="#fff" text-anchor="middle">• Центральное</text>
+  <text x="250" y="202" font-size="6" fill="#fff" text-anchor="middle">  планирование</text>
+  <text x="250" y="214" font-size="6" fill="#fff" text-anchor="middle">• Уравниловка</text>
+  <!-- Emotion -->
+  <circle cx="250" cy="235" r="12" fill="#ffcc80" opacity="0.7"/>
+  <circle cx="246" cy="232" r="1.5" fill="#333"/>
+  <circle cx="254" cy="232" r="1.5" fill="#333"/>
+  <line x1="245" y1="239" x2="255" y2="239" stroke="#333" stroke-width="1"/>
+  <text x="250" y="260" font-size="5" fill="#fff" text-anchor="middle">Дефицит товаров</text>
+  <!-- Market economy -->
+  <rect x="335" y="30" width="140" height="260" rx="10" fill="#1a237e" stroke="#0d47a1" stroke-width="2"/>
+  <rect x="340" y="35" width="130" height="30" rx="5" fill="#0d47a1"/>
+  <text x="405" y="55" font-size="8" fill="#fff" text-anchor="middle" font-weight="bold">РЫНОЧНАЯ</text>
+  <!-- Market scene -->
+  <!-- Shop -->
+  <rect x="375" y="85" width="50" height="35" fill="#1565c0"/>
+  <path d="M370,85 L400,70 L430,85" fill="#0d47a1"/>
+  <rect x="385" y="95" width="15" height="15" fill="#42a5f5" opacity="0.5"/>
+  <!-- Price tags -->
+  <rect x="380" y="105" width="8" height="5" fill="#ffd600"/>
+  <rect x="395" y="100" width="8" height="5" fill="#ffd600"/>
+  <!-- Supply-demand mini -->
+  <line x1="365" y1="130" x2="365" y2="155" stroke="#fff" stroke-width="0.8"/>
+  <line x1="365" y1="155" x2="420" y2="155" stroke="#fff" stroke-width="0.8"/>
+  <path d="M375,145 Q390,135 410,128" fill="none" stroke="#4caf50" stroke-width="1"/>
+  <path d="M375,130 Q390,140 410,150" fill="none" stroke="#ef5350" stroke-width="1"/>
+  <circle cx="392" cy="138" r="2" fill="#ffd600"/>
+  <!-- Features -->
+  <text x="405" y="170" font-size="6" fill="#fff" text-anchor="middle">• Частная</text>
+  <text x="405" y="180" font-size="6" fill="#fff" text-anchor="middle">  собственность</text>
+  <text x="405" y="192" font-size="6" fill="#fff" text-anchor="middle">• Свобода выбора</text>
+  <text x="405" y="204" font-size="6" fill="#fff" text-anchor="middle">• Конкуренция</text>
+  <text x="405" y="216" font-size="6" fill="#fff" text-anchor="middle">• Прибыль</text>
+  <!-- Emotion -->
+  <circle cx="405" cy="235" r="12" fill="#ffcc80" opacity="0.7"/>
+  <circle cx="401" cy="232" r="1.5" fill="#333"/>
+  <circle cx="409" cy="232" r="1.5" fill="#333"/>
+  <path d="M400,238 Q405,244 410,238" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="405" y="260" font-size="5" fill="#fff" text-anchor="middle">Эффективность + неравенство</text>
+  <!-- Mixed economy note -->
+  <rect x="100" y="295" width="300" height="25" rx="5" fill="#fff" opacity="0.7" stroke="#7b1fa2"/>
+  <text x="250" y="312" font-size="7" fill="#4a148c" text-anchor="middle">Современная экономика — СМЕШАННАЯ (рынок + государство)</text>
+  <text x="250" y="340" font-size="9" fill="#333" opacity="0.5" text-anchor="middle">Экономические системы</text>
 </svg>

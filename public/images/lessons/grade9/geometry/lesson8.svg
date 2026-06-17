@@ -1,80 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
-  <defs>
-    <linearGradient id="headerGrad8" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#7E57C2;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#B39DDB;stop-opacity:1"/>
-    </linearGradient>
-    <filter id="shadow8" x="-2%" y="-2%" width="104%" height="104%">
-      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#00000022"/>
-    </filter>
-  </defs>
-  <!-- Background -->
-  <rect width="500" height="350" fill="#FAFAFA" rx="8"/>
-  <!-- Header bar -->
-  <rect width="500" height="52" fill="url(#headerGrad8)" rx="8"/>
-  <rect y="40" width="500" height="12" fill="url(#headerGrad8)"/>
-  <!-- Decorative elements -->
-  <circle cx="470" cy="26" r="15" fill="#FFFFFF" opacity="0.15"/>
-  <circle cx="445" cy="18" r="8" fill="#FFFFFF" opacity="0.1"/>
-  <circle cx="30" cy="26" r="12" fill="#FFFFFF" opacity="0.12"/>
-  <!-- Title -->
-  <text x="250" y="34" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">Урок 8: Теорема косинусов</text>
-  <!-- Triangle diagram -->
-  <g transform="translate(20,62)">
-    <rect x="0" y="0" width="230" height="145" rx="6" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" filter="url(#shadow8)"/>
-    <text x="115" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4A2F8A">Теорема косинусов</text>
-    <!-- Triangle -->
-    <polygon points="40,125 200,125 130,40" fill="none" stroke="#7E57C2" stroke-width="2.5"/>
-    <!-- Vertices -->
-    <text x="28" y="138" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#FF7043">B</text>
-    <text x="205" y="138" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#FF7043">C</text>
-    <text x="130" y="33" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#FF7043">A</text>
-    <!-- Sides -->
-    <text x="115" y="140" font-family="Arial,sans-serif" font-size="11" fill="#7E57C2">a</text>
-    <text x="78" y="78" font-family="Arial,sans-serif" font-size="11" fill="#4CAF50">c</text>
-    <text x="172" y="78" font-family="Arial,sans-serif" font-size="11" fill="#4CAF50">b</text>
-    <!-- Angle A -->
-    <path d="M 145 50 A 15 15 0 0 1 135 55" fill="none" stroke="#FF7043" stroke-width="1.5"/>
-    <text x="148" y="55" font-family="Arial,sans-serif" font-size="10" fill="#FF7043">α</text>
-    <!-- Formula -->
-    <rect x="8" y="100" width="215" height="38" rx="4" fill="#EDE7F6"/>
-    <text x="115" y="114" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4A2F8A">a² = b² + c² - 2bc·cos α</text>
-    <text x="115" y="130" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#757575">обобщение теоремы Пифагора</text>
-  </g>
-  <!-- Three formulas -->
-  <g transform="translate(265,62)">
-    <rect x="0" y="0" width="215" height="145" rx="6" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" filter="url(#shadow8)"/>
-    <text x="107" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4A2F8A">Формулы для всех сторон</text>
-    <line x1="10" y1="24" x2="205" y2="24" stroke="#D1C4E9" stroke-width="1"/>
-    <rect x="8" y="30" width="200" height="22" rx="3" fill="#EDE7F6"/>
-    <text x="108" y="44" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4A2F8A">a² = b² + c² - 2bc·cos A</text>
-    <rect x="8" y="56" width="200" height="22" rx="3" fill="#E8F5E9"/>
-    <text x="108" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32">b² = a² + c² - 2ac·cos B</text>
-    <rect x="8" y="82" width="200" height="22" rx="3" fill="#FFF3E0"/>
-    <text x="108" y="96" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#E65100">c² = a² + b² - 2ab·cos C</text>
-    <!-- Finding angle -->
-    <text x="107" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#212121">Нахождение угла:</text>
-    <rect x="8" y="124" width="200" height="18" rx="3" fill="#FCE4EC"/>
-    <text x="108" y="137" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#C62828">cos A = (b²+c²-a²) / (2bc)</text>
-  </g>
-  <!-- Angle types and examples -->
-  <g transform="translate(20,218)">
-    <rect x="0" y="0" width="460" height="115" rx="6" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" filter="url(#shadow8)"/>
-    <text x="230" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4A2F8A">Определение вида угла и примеры</text>
-    <line x1="10" y1="24" x2="450" y2="24" stroke="#D1C4E9" stroke-width="1"/>
-    <!-- Angle types -->
-    <rect x="10" y="30" width="140" height="20" rx="3" fill="#E8F5E9"/>
-    <text x="80" y="44" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32">Острый: a² &lt; b² + c²</text>
-    <rect x="160" y="30" width="140" height="20" rx="3" fill="#FFF3E0"/>
-    <text x="230" y="44" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#E65100">Прямой: a² = b² + c²</text>
-    <rect x="310" y="30" width="140" height="20" rx="3" fill="#FFCDD2"/>
-    <text x="380" y="44" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#C62828">Тупой: a² &gt; b² + c²</text>
-    <!-- Example 1 -->
-    <text x="230" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#7E57C2">Пример 1</text>
-    <text x="230" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#212121">a=3, b=5, ∠C=60°. Найти c.</text>
-    <text x="230" y="93" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4CAF50">c² = 9+25-2·3·5·0.5 = 34-15 = 19 → c = √19 ≈ 4.4</text>
-    <!-- Example 2 -->
-    <text x="230" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#757575">Пример 2: a=7, b=8, c=5 → cosC=(49+64-25)/112 ≈ 0.786 → ∠C ≈ 38°</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#0f0f1a"/>
+  <!-- Triangle -->
+  <polygon points="250,60 80,280 400,280" fill="none" stroke="#22d3ee" stroke-width="2.5"/>
+  <!-- Sides -->
+  <text x="155" y="170" fill="#ec4899" font-size="13" font-family="serif">b</text>
+  <text x="340" y="170" fill="#f59e0b" font-size="13" font-family="serif">c</text>
+  <text x="235" y="300" fill="#22c55e" font-size="13" font-family="serif">a</text>
+  <!-- Angle A between b and c -->
+  <path d="M250,60 A30,30 0 0,1 225,85" fill="none" stroke="#ef4444" stroke-width="2"/>
+  <text x="215" y="80" fill="#ef4444" font-size="13" font-family="serif">A</text>
+  <!-- Projection lines (dashed) -->
+  <line x1="80" y1="280" x2="250" y2="280" stroke="#9ca3af" stroke-width="0.8" stroke-dasharray="4,4"/>
+  <!-- Height from C to AB -->
+  <line x1="400" y1="280" x2="250" y2="280" stroke="#9ca3af" stroke-width="0.8" stroke-dasharray="4,4"/>
+  <!-- Formula box -->
+  <rect x="60" y="20" width="220" height="35" rx="6" fill="#1a1a2e" stroke="#ef4444" stroke-width="1"/>
+  <text x="170" y="42" fill="#ef4444" font-size="12" font-family="serif" text-anchor="middle">a² = b² + c² − 2bc·cosA</text>
+  <!-- Special cases -->
+  <rect x="300" y="50" width="180" height="80" rx="6" fill="#1a1a2e" stroke="#6366f1" stroke-width="1"/>
+  <text x="390" y="68" fill="#6366f1" font-size="10" font-family="sans-serif" text-anchor="middle">Частные случаи:</text>
+  <text x="310" y="85" fill="#22c55e" font-size="9" font-family="sans-serif">∠A &lt; 90°: a² &lt; b²+c²</text>
+  <text x="310" y="100" fill="#f59e0b" font-size="9" font-family="sans-serif">∠A = 90°: a² = b²+c²</text>
+  <text x="310" y="115" fill="#ef4444" font-size="9" font-family="sans-serif">∠A &gt; 90°: a² &gt; b²+c²</text>
+  <!-- Pythagoras reference -->
+  <text x="250" y="330" fill="#f59e0b" font-size="11" font-family="serif" text-anchor="middle">Обобщение теоремы Пифагора</text>
+  <text x="250" y="345" fill="#ffffff" font-size="9" opacity="0.5" text-anchor="middle" font-family="sans-serif">Теорема косинусов</text>
 </svg>

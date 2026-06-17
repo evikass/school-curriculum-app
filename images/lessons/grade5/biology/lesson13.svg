@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#EFEBE9"/><stop offset="100%" stop-color="#D7CCC8"/></linearGradient>
+<linearGradient id="capGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#A1887F"/><stop offset="100%" stop-color="#795548"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5D4037" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#3E2723" text-anchor="middle">Общая характеристика грибов</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 5 класс — Урок 13</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#5D4037" stroke-width="1" opacity="0.3"/>
+
+<!-- Mushroom structure -->
+<g transform="translate(140,175)">
+  <rect x="-90" y="-95" width="180" height="180" rx="8" fill="white" opacity="0.9" stroke="#5D4037" stroke-width="1.5"/>
+  <text x="0" y="-78" font-family="Arial,sans-serif" font-size="9" fill="#3E2723" text-anchor="middle" font-weight="bold">СТРОЕНИЕ ГРИБА</text>
+  <line x1="-80" y1="-72" x2="80" y2="-72" stroke="#5D4037" stroke-width="0.5"/>
+  
+  <!-- Cap -->
+  <path d="M-45,-50 Q-40,-70 -20,-65 Q0,-60 20,-65 Q40,-70 45,-50 Q30,-40 0,-38 Q-30,-40 -45,-50" fill="url(#capGrad)" stroke="#4E342E" stroke-width="1.5"/>
+  <!-- Cap surface texture -->
+  <path d="M-30,-58 Q-20,-55 -10,-58" fill="none" stroke="#8D6E63" stroke-width="0.5"/>
+  <path d="M10,-58 Q20,-55 30,-58" fill="none" stroke="#8D6E63" stroke-width="0.5"/>
+  
+  <!-- Gills under cap -->
+  <line x1="-25" y1="-42" x2="-15" y2="-32" stroke="#BCAAA4" stroke-width="0.6"/>
+  <line x1="-15" y1="-43" x2="-5" y2="-32" stroke="#BCAAA4" stroke-width="0.6"/>
+  <line x1="-5" y1="-44" x2="5" y2="-32" stroke="#BCAAA4" stroke-width="0.6"/>
+  <line x1="5" y1="-43" x2="15" y2="-32" stroke="#BCAAA4" stroke-width="0.6"/>
+  <line x1="15" y1="-42" x2="25" y2="-32" stroke="#BCAAA4" stroke-width="0.6"/>
+  
+  <!-- Stem -->
+  <rect x="-10" y="-38" width="20" height="50" rx="4" fill="#D7CCC8" stroke="#5D4037" stroke-width="1.5"/>
+  <!-- Ring on stem -->
+  <rect x="-14" y="-25" width="28" height="5" rx="2" fill="#BCAAA4" stroke="#795548" stroke-width="0.8"/>
+  
+  <!-- Mycelium (грибница) -->
+  <path d="M-10,12 Q-25,20 -35,35" fill="none" stroke="#8D6E63" stroke-width="1.5"/>
+  <path d="M-5,15 Q-10,25 -15,40" fill="none" stroke="#8D6E63" stroke-width="1.5"/>
+  <path d="M0,15 Q5,25 10,38" fill="none" stroke="#8D6E63" stroke-width="1.5"/>
+  <path d="M5,12 Q20,20 30,35" fill="none" stroke="#8D6E63" stroke-width="1.5"/>
+  <path d="M-15,30 Q-20,38 -30,42" fill="none" stroke="#A1887F" stroke-width="1"/>
+  <path d="M-20,22 Q-30,28 -40,35" fill="none" stroke="#A1887F" stroke-width="1"/>
+  <path d="M15,30 Q25,38 35,40" fill="none" stroke="#A1887F" stroke-width="1"/>
+  <path d="M20,22 Q30,28 40,32" fill="none" stroke="#A1887F" stroke-width="1"/>
+  <!-- Hyphae dots -->
+  <circle cx="-35" cy="35" r="2" fill="#8D6E63" opacity="0.5"/>
+  <circle cx="-15" cy="40" r="2" fill="#8D6E63" opacity="0.5"/>
+  <circle cx="10" cy="38" r="2" fill="#8D6E63" opacity="0.5"/>
+  <circle cx="30" cy="35" r="2" fill="#8D6E63" opacity="0.5"/>
+  
+  <!-- Labels -->
+  <line x1="45" y1="-55" x2="65" y2="-65" stroke="#666" stroke-width="0.5"/>
+  <text x="67" y="-65" font-family="Arial,sans-serif" font-size="5" fill="#666">Шляпка</text>
+  
+  <line x1="10" y1="-20" x2="65" y2="-20" stroke="#666" stroke-width="0.5"/>
+  <text x="67" y="-20" font-family="Arial,sans-serif" font-size="5" fill="#666">Плёнка (кольцо)</text>
+  
+  <line x1="10" y1="-5" x2="65" y2="-5" stroke="#666" stroke-width="0.5"/>
+  <text x="67" y="-5" font-family="Arial,sans-serif" font-size="5" fill="#666">Ножка</text>
+  
+  <line x1="25" y1="-38" x2="65" y2="-40" stroke="#666" stroke-width="0.5"/>
+  <text x="67" y="-40" font-family="Arial,sans-serif" font-size="5" fill="#666">Гименофор (пластинки)</text>
+  
+  <line x1="30" y1="30" x2="65" y2="30" stroke="#666" stroke-width="0.5"/>
+  <text x="67" y="30" font-family="Arial,sans-serif" font-size="5" fill="#666">Грибница</text>
+  <text x="67" y="38" font-family="Arial,sans-serif" font-size="5" fill="#666">(мицелий)</text>
+</g>
+
+<!-- Hyphae detail -->
+<g transform="translate(390,115)">
+  <rect x="-65" y="-45" width="130" height="85" rx="6" fill="white" opacity="0.9" stroke="#5D4037" stroke-width="1"/>
+  <text x="0" y="-28" font-family="Arial,sans-serif" font-size="7" fill="#3E2723" text-anchor="middle" font-weight="bold">ГИФЫ (нити мицелия)</text>
+  <line x1="-55" y1="-22" x2="55" y2="-22" stroke="#5D4037" stroke-width="0.5"/>
+  <!-- Hyphae tubes -->
+  <path d="M-45,-10 Q-30,-15 -15,-10 Q0,-5 15,-10 Q30,-15 45,-10" fill="none" stroke="#8D6E63" stroke-width="3"/>
+  <!-- Septa (cross walls) -->
+  <line x1="-30" y1="-14" x2="-30" y2="-6" stroke="#5D4037" stroke-width="0.8"/>
+  <line x1="0" y1="-8" x2="0" y2="0" stroke="#5D4037" stroke-width="0.8"/>
+  <line x1="30" y1="-14" x2="30" y2="-6" stroke="#5D4037" stroke-width="0.8"/>
+  <!-- Nuclei in cells -->
+  <circle cx="-15" cy="-10" r="3" fill="#795548" opacity="0.4"/>
+  <circle cx="15" cy="-10" r="3" fill="#795548" opacity="0.4"/>
+  <text x="-15" y="-8" font-family="Arial,sans-serif" font-size="3" fill="white" text-anchor="middle">я</text>
+  <text x="15" y="-8" font-family="Arial,sans-serif" font-size="3" fill="white" text-anchor="middle">я</text>
+  <!-- Branch -->
+  <path d="M0,-10 Q5,0 15,10 Q20,15 25,15" fill="none" stroke="#A1887F" stroke-width="2"/>
+  <text x="0" y="25" font-family="Arial,sans-serif" font-size="5" fill="#3E2723" text-anchor="middle">Разделяются перегородками</text>
+  <text x="0" y="33" font-family="Arial,sans-serif" font-size="5" fill="#3E2723" text-anchor="middle">(септами) — многоядерные</text>
+</g>
+
+<!-- Fungi characteristics -->
+<g transform="translate(390,225)">
+  <rect x="-65" y="-45" width="130" height="85" rx="6" fill="white" opacity="0.9" stroke="#5D4037" stroke-width="1"/>
+  <text x="0" y="-28" font-family="Arial,sans-serif" font-size="7" fill="#3E2723" text-anchor="middle" font-weight="bold">ПРИЗНАКИ ГРИБОВ</text>
+  <line x1="-55" y1="-22" x2="55" y2="-22" stroke="#5D4037" stroke-width="0.5"/>
+  <text x="-50" y="-10" font-family="Arial,sans-serif" font-size="5.5" fill="#3E2723">● Гетеротрофы (не фотосинтез.)</text>
+  <text x="-50" y="0" font-family="Arial,sans-serif" font-size="5.5" fill="#3E2723">● Клет. стенка из хитина</text>
+  <text x="-50" y="10" font-family="Arial,sans-serif" font-size="5.5" fill="#3E2723">● Запасное вещество — гликоген</text>
+  <text x="-50" y="20" font-family="Arial,sans-serif" font-size="5.5" fill="#3E2723">● Всасывание пищи всем телом</text>
+  <text x="-50" y="30" font-family="Arial,sans-serif" font-size="5.5" fill="#3E2723">● Размножение: споры</text>
+  <text x="-50" y="40" font-family="Arial,sans-serif" font-size="5.5" fill="#3E2723">● Неподвижны, растут как растения</text>
+</g>
+
+<!-- Spore detail -->
+<g transform="translate(40,310)">
+  <rect x="-20" y="-12" width="130" height="24" rx="4" fill="#EFEBE9" stroke="#5D4037" stroke-width="0.5"/>
+  <circle cx="-5" cy="0" r="4" fill="#8D6E63" stroke="#5D4037" stroke-width="0.5"/>
+  <text x="30" y="3" font-family="Arial,sans-serif" font-size="6" fill="#3E2723">Спора — клетка размножения</text>
+</g>
+
+<!-- Bottom -->
+<rect x="30" y="310" width="440" height="25" rx="6" fill="white" opacity="0.9" stroke="#5D4037" stroke-width="1"/>
+<text x="250" y="327" font-family="Arial,sans-serif" font-size="7" fill="#3E2723" text-anchor="middle" font-weight="bold">Грибы — царство: признаки животных (гетеротрофы, хитин) + растений (неподвижны, рост)</text>
+</svg>

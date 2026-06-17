@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <style>
+    @keyframes hop {
+      0%, 100% { transform: translateX(0); }
+      50% { transform: translateX(30px); }
+    }
+    @keyframes step {
+      0% { transform: translateX(0); }
+      25% { transform: translateX(25px); }
+      50% { transform: translateX(50px); }
+      75% { transform: translateX(75px); }
+      100% { transform: translateX(100px); }
+    }
+    @keyframes arrow-pulse {
+      0%, 100% { opacity: 0.5; }
+      50% { opacity: 1; }
+    }
+    .hop { animation: hop 1s ease-in-out infinite; }
+    .arrow { animation: arrow-pulse 1s ease-in-out infinite; }
+    .frog { animation: hop 1.5s ease-in-out infinite; }
+  </style>
+  <!-- Background -->
+  <rect width="400" height="400" fill="#ecfdf5" rx="20"/>
+  <!-- Decorative lily pads -->
+  <ellipse cx="50" cy="350" rx="35" ry="20" fill="#86efac" opacity="0.6"/>
+  <ellipse cx="350" cy="370" rx="40" ry="22" fill="#86efac" opacity="0.6"/>
+  <!-- Title -->
+  <text x="200" y="45" font-size="22" fill="#16a34a" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">ПРИБАВИТЬ И ВЫЧЕСТЬ 1</text>
+  <!-- Number line -->
+  <g transform="translate(30, 80)">
+    <!-- Line -->
+    <line x1="0" y1="30" x2="340" y2="30" stroke="#22c55e" stroke-width="4"/>
+    <!-- Numbers on the line -->
+    <g>
+      <circle cx="0" cy="30" r="20" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+      <text x="0" y="37" font-size="20" fill="#78350f" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">0</text>
+    </g>
+    <g>
+      <circle cx="48" cy="30" r="20" fill="#bbf7d0" stroke="#22c55e" stroke-width="2"/>
+      <text x="48" y="37" font-size="20" fill="#166534" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">1</text>
+    </g>
+    <g>
+      <circle cx="96" cy="30" r="20" fill="#bbf7d0" stroke="#22c55e" stroke-width="2"/>
+      <text x="96" y="37" font-size="20" fill="#166534" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">2</text>
+    </g>
+    <g>
+      <circle cx="144" cy="30" r="20" fill="#bbf7d0" stroke="#22c55e" stroke-width="2"/>
+      <text x="144" y="37" font-size="20" fill="#166534" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">3</text>
+    </g>
+    <g>
+      <circle cx="192" cy="30" r="20" fill="#bbf7d0" stroke="#22c55e" stroke-width="2"/>
+      <text x="192" y="37" font-size="20" fill="#166534" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">4</text>
+    </g>
+    <g>
+      <circle cx="240" cy="30" r="20" fill="#bbf7d0" stroke="#22c55e" stroke-width="2"/>
+      <text x="240" y="37" font-size="20" fill="#166534" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">5</text>
+    </g>
+    <g>
+      <circle cx="288" cy="30" r="20" fill="#bbf7d0" stroke="#22c55e" stroke-width="2"/>
+      <text x="288" y="37" font-size="20" fill="#166534" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">6</text>
+    </g>
+    <g>
+      <circle cx="336" cy="30" r="20" fill="#bbf7d0" stroke="#22c55e" stroke-width="2"/>
+      <text x="336" y="37" font-size="20" fill="#166534" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">7</text>
+    </g>
+  </g>
+  <!-- Frog on number line -->
+  <g class="frog" transform="translate(50, 75)">
+    <!-- Frog body -->
+    <ellipse cx="0" cy="35" rx="15" ry="10" fill="#22c55e"/>
+    <circle cx="-8" cy="28" r="5" fill="#22c55e"/>
+    <circle cx="8" cy="28" r="5" fill="#22c55e"/>
+    <circle cx="-8" cy="26" r="2" fill="#1e293b"/>
+    <circle cx="8" cy="26" r="2" fill="#1e293b"/>
+  </g>
+  <!-- Plus 1 section -->
+  <g transform="translate(30, 160)">
+    <rect x="0" y="0" width="150" height="80" fill="#dcfce7" rx="10"/>
+    <text x="75" y="25" font-size="14" fill="#166534" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">+1 = СЛЕДУЮЩЕЕ</text>
+    <!-- Arrow right -->
+    <g class="arrow" transform="translate(75, 50)">
+      <path d="M -30 0 L 30 0" stroke="#22c55e" stroke-width="3" fill="none"/>
+      <polygon points="30,0 20,-5 20,5" fill="#22c55e"/>
+    </g>
+    <text x="40" y="70" font-size="12" fill="#64748b" text-anchor="middle" font-family="Arial, sans-serif">3 + 1 = 4</text>
+  </g>
+  <!-- Minus 1 section -->
+  <g transform="translate(220, 160)">
+    <rect x="0" y="0" width="150" height="80" fill="#fee2e2" rx="10"/>
+    <text x="75" y="25" font-size="14" fill="#dc2626" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">−1 = ПРЕДЫДУЩЕЕ</text>
+    <!-- Arrow left -->
+    <g class="arrow" transform="translate(75, 50)">
+      <path d="M 30 0 L -30 0" stroke="#dc2626" stroke-width="3" fill="none"/>
+      <polygon points="-30,0 -20,-5 -20,5" fill="#dc2626"/>
+    </g>
+    <text x="110" y="70" font-size="12" fill="#64748b" text-anchor="middle" font-family="Arial, sans-serif">5 − 1 = 4</text>
+  </g>
+  <!-- Examples -->
+  <g transform="translate(30, 270)">
+    <text x="170" y="0" font-size="16" fill="#64748b" text-anchor="middle" font-family="Arial, sans-serif">ПРИМЕРЫ:</text>
+    <!-- +1 examples -->
+    <g transform="translate(0, 20)">
+      <rect x="0" y="0" width="160" height="35" fill="#f0fdf4" rx="5"/>
+      <text x="80" y="25" font-size="18" fill="#22c55e" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">4 + 1 = 5 ✓</text>
+    </g>
+    <g transform="translate(0, 60)">
+      <rect x="0" y="0" width="160" height="35" fill="#f0fdf4" rx="5"/>
+      <text x="80" y="25" font-size="18" fill="#22c55e" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">6 + 1 = 7 ✓</text>
+    </g>
+    <!-- -1 examples -->
+    <g transform="translate(180, 20)">
+      <rect x="0" y="0" width="160" height="35" fill="#fef2f2" rx="5"/>
+      <text x="80" y="25" font-size="18" fill="#dc2626" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">5 − 1 = 4 ✓</text>
+    </g>
+    <g transform="translate(180, 60)">
+      <rect x="0" y="0" width="160" height="35" fill="#fef2f2" rx="5"/>
+      <text x="80" y="25" font-size="18" fill="#dc2626" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">3 − 1 = 2 ✓</text>
+    </g>
+  </g>
+</svg>

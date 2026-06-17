@@ -9,33 +9,99 @@
       <stop offset="100%" stop-color="#00695C"/>
     </linearGradient>
   </defs>
+  <!-- Background -->
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#26A69A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#00695C" opacity="0.12"/>
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#26A69A" text-anchor="middle">Выбор направления</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Карьера — Урок 4</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#26A69A" stroke-width="2" opacity="0.25"/>
-  <rect x="15" y="72" width="235" height="225" rx="4" fill="#26A69A" opacity="0.05"/>
-  <text x="22" y="88" font-family="Arial,sans-serif" font-size="10" fill="#00695C" text-anchor="start" font-weight="bold">Как выбрать:</text>
-  <text x="85" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">1. Узнай свои интересы</text>
-  <text x="32" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">2. Оцени свои способности</text>
-  <text x="32" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">3. Изучи рынок труда</text>
-  <text x="32" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">4. Попробуй на практике</text>
-  <text x="22" y="168" font-family="Arial,sans-serif" font-size="10" fill="#00695C" text-anchor="start" font-weight="bold">Метод:</text>
-  <text x="85" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Профориентационные тесты</text>
-  <rect x="255" y="72" width="230" height="225" rx="4" fill="#26A69A" opacity="0.05"/>
-  <text x="272" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Беседы с профессионалами</text>
-  <text x="272" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Стажировки и практики</text>
-  <text x="262" y="128" font-family="Arial,sans-serif" font-size="10" fill="#00695C" text-anchor="start" font-weight="bold">Круги Айнекстай:</text>
-  <text x="325" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Что люблю? Что умею?</text>
-  <text x="272" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Что платят? Что нужно людям?</text>
-  <text x="272" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">На пересечении — твоя ниша</text>
-  <rect x="15" y="280" width="235" height="18" rx="4" fill="#26A69A" opacity="0.06"/>
-  <text x="132" y="293" font-family="Arial,sans-serif" font-size="9" fill="#00695C" text-anchor="middle" font-weight="bold">Хочу + Могу + Надо = Профессия</text>
-  <rect x="255" y="280" width="230" height="18" rx="4" fill="#26A69A" opacity="0.06"/>
-  <text x="370" y="293" font-family="Arial,sans-serif" font-size="9" fill="#00695C" text-anchor="middle" font-weight="bold">Не бойся менять направление</text>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Карьера · Выбор направления</text>
+  <!-- Header bar -->
+  <rect x="8" y="8" width="484" height="52" rx="6" fill="url(#hdr)" opacity="0.9"/>
+  <text x="250" y="34" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Выбор направления</text>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="10" fill="rgba(255,255,255,0.8)" text-anchor="middle">Карьерное консультирование — Урок 4</text>
+  <!-- Decorative elements -->
+  <circle cx="460" cy="25" r="12" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="440" cy="18" r="6" fill="rgba(255,255,255,0.1)"/>
+  <!-- Content area -->
+
+  <!-- Interest-Skill matrix -->
+  <g transform="translate(25,75)">
+    <rect x="0" y="0" width="215" height="165" rx="6" fill="white" stroke="#ddd" stroke-width="1"/>
+    <text x="107" y="16" font-family="Arial,sans-serif" font-size="10" fill="{C_DARK}" text-anchor="middle" font-weight="bold">Сферы интересов</text>
+    <!-- 6 interest circles -->
+    <circle cx="45" cy="50" r="20" fill="#4CAF50" opacity="0.8"/>
+    <text x="45" y="53" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Техно</text>
+    <circle cx="107" cy="50" r="20" fill="#2196F3" opacity="0.8"/>
+    <text x="107" y="53" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Люди</text>
+    <circle cx="170" cy="50" r="20" fill="#E91E63" opacity="0.8"/>
+    <text x="170" y="53" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Творч.</text>
+    <circle cx="45" cy="100" r="20" fill="#FF9800" opacity="0.8"/>
+    <text x="45" y="103" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Бизн.</text>
+    <circle cx="107" cy="100" r="20" fill="#9C27B0" opacity="0.8"/>
+    <text x="107" y="103" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Наука</text>
+    <circle cx="170" cy="100" r="20" fill="#795548" opacity="0.8"/>
+    <text x="170" y="103" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Прир.</text>
+    <text x="107" y="145" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">→ Выяви свои интересы</text>
+    <text x="107" y="157" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">→ Оцени способности</text>
+  </g>
+  <!-- Decision matrix -->
+  <g transform="translate(260,75)">
+    <rect x="0" y="0" width="210" height="165" rx="6" fill="white" stroke="#ddd" stroke-width="1"/>
+    <text x="105" y="16" font-family="Arial,sans-serif" font-size="10" fill="{C_DARK}" text-anchor="middle" font-weight="bold">Матрица решения</text>
+    <!-- Table header -->
+    <rect x="5" y="24" width="55" height="16" fill="url(#hdr)" rx="2"/>
+    <text x="32" y="35" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Профессия</text>
+    <rect x="62" y="24" width="30" height="16" fill="url(#hdr)" rx="2"/>
+    <text x="77" y="35" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Инт.</text>
+    <rect x="94" y="24" width="30" height="16" fill="url(#hdr)" rx="2"/>
+    <text x="109" y="35" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Спос.</text>
+    <rect x="126" y="24" width="30" height="16" fill="url(#hdr)" rx="2"/>
+    <text x="141" y="35" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Персп.</text>
+    <rect x="158" y="24" width="30" height="16" fill="url(#hdr)" rx="2"/>
+    <text x="173" y="35" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Доход</text>
+    <!-- Row 1 -->
+    <rect x="5" y="42" width="55" height="16" fill="#E8F5E9" rx="2"/>
+    <text x="32" y="53" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Прогр.</text>
+    <text x="77" y="53" font-family="Arial,sans-serif" font-size="8" fill="#4CAF50" text-anchor="middle">5</text>
+    <text x="109" y="53" font-family="Arial,sans-serif" font-size="8" fill="#4CAF50" text-anchor="middle">4</text>
+    <text x="141" y="53" font-family="Arial,sans-serif" font-size="8" fill="#4CAF50" text-anchor="middle">5</text>
+    <text x="173" y="53" font-family="Arial,sans-serif" font-size="8" fill="#4CAF50" text-anchor="middle">5</text>
+    <text x="195" y="53" font-family="Arial,sans-serif" font-size="8" fill="{C_DARK}" font-weight="bold">19</text>
+    <!-- Row 2 -->
+    <rect x="5" y="60" width="55" height="16" fill="#FFF3E0" rx="2"/>
+    <text x="32" y="71" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Дизайн</text>
+    <text x="77" y="71" font-family="Arial,sans-serif" font-size="8" fill="#FF9800" text-anchor="middle">5</text>
+    <text x="109" y="71" font-family="Arial,sans-serif" font-size="8" fill="#FF9800" text-anchor="middle">5</text>
+    <text x="141" y="71" font-family="Arial,sans-serif" font-size="8" fill="#FF9800" text-anchor="middle">4</text>
+    <text x="173" y="71" font-family="Arial,sans-serif" font-size="8" fill="#FF9800" text-anchor="middle">3</text>
+    <text x="195" y="71" font-family="Arial,sans-serif" font-size="8" fill="{C_DARK}" font-weight="bold">17</text>
+    <!-- Row 3 -->
+    <rect x="5" y="78" width="55" height="16" fill="#E3F2FD" rx="2"/>
+    <text x="32" y="89" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Врач</text>
+    <text x="77" y="89" font-family="Arial,sans-serif" font-size="8" fill="#2196F3" text-anchor="middle">4</text>
+    <text x="109" y="89" font-family="Arial,sans-serif" font-size="8" fill="#2196F3" text-anchor="middle">3</text>
+    <text x="141" y="89" font-family="Arial,sans-serif" font-size="8" fill="#2196F3" text-anchor="middle">5</text>
+    <text x="173" y="89" font-family="Arial,sans-serif" font-size="8" fill="#2196F3" text-anchor="middle">4</text>
+    <text x="195" y="89" font-family="Arial,sans-serif" font-size="8" fill="{C_DARK}" font-weight="bold">16</text>
+    <!-- Legend -->
+    <text x="105" y="115" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">Шкала: 1 (низко) — 5 (высоко)</text>
+    <!-- Checkmark -->
+    <circle cx="32" cy="140" r="12" fill="#4CAF50" opacity="0.2"/>
+    <text x="32" y="144" font-family="Arial,sans-serif" font-size="12" fill="#4CAF50" text-anchor="middle">✓</text>
+    <text x="50" y="144" font-family="Arial,sans-serif" font-size="7" fill="#666">Выбирай макс. сумму</text>
+  </g>
+  <!-- Bottom quote -->
+  <rect x="25" y="260" width="445" height="30" rx="4" fill="{C_PRI}" opacity="0.08"/>
+  <text x="250" y="280" font-family="Arial,sans-serif" font-size="9" fill="{C_DARK}" text-anchor="middle">Человек меняет профессию в среднем 5-7 раз за жизнь — выбор не окончательный!</text>
+  <!-- Arrows -->
+  <g transform="translate(30,300)">
+    <rect x="0" y="0" width="130" height="20" rx="3" fill="#4CAF50" opacity="0.15"/>
+    <text x="65" y="14" font-family="Arial,sans-serif" font-size="8" fill="#4CAF50" text-anchor="middle">Интересы → Профессии</text>
+  </g>
+  <g transform="translate(170,300)">
+    <rect x="0" y="0" width="130" height="20" rx="3" fill="#2196F3" opacity="0.15"/>
+    <text x="65" y="14" font-family="Arial,sans-serif" font-size="8" fill="#2196F3" text-anchor="middle">Способности → Навыки</text>
+  </g>
+  <g transform="translate(310,300)">
+    <rect x="0" y="0" width="150" height="20" rx="3" fill="#FF9800" opacity="0.15"/>
+    <text x="75" y="14" font-family="Arial,sans-serif" font-size="8" fill="#FF9800" text-anchor="middle">Рынок труда → Перспектива</text>
+  </g>
+
 </svg>

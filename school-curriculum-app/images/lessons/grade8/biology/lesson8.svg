@@ -1,0 +1,256 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Ткани организма человека</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 8 класс — Урок 8</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- Dividing cross lines -->
+<line x1="250" y1="55" x2="250" y2="318" stroke="#2E7D32" stroke-width="0.8" opacity="0.3"/>
+<line x1="10" y1="185" x2="490" y2="185" stroke="#2E7D32" stroke-width="0.8" opacity="0.3"/>
+
+<!-- ============ QUADRANT 1: Эпителиальная ткань (top-left) ============ -->
+<rect x="15" y="55" width="230" height="128" rx="5" fill="white" opacity="0.7" stroke="#1565C0" stroke-width="1"/>
+<text x="130" y="70" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle" font-weight="bold">ЭПИТЕЛИАЛЬНАЯ ТКАНЬ</text>
+<line x1="25" y1="74" x2="235" y2="74" stroke="#1565C0" stroke-width="0.5" opacity="0.4"/>
+
+<!-- Epithelial cells - tightly packed rectangular cells in layers -->
+<!-- Basement membrane -->
+<line x1="35" y1="155" x2="220" y2="155" stroke="#795548" stroke-width="2"/>
+<text x="225" y="158" font-family="Arial,sans-serif" font-size="5" fill="#795548">Базальная</text>
+<text x="225" y="164" font-family="Arial,sans-serif" font-size="5" fill="#795548">мембрана</text>
+
+<!-- Row of columnar epithelial cells -->
+<rect x="40" y="115" width="18" height="38" rx="2" fill="#90CAF9" stroke="#1565C0" stroke-width="0.8"/>
+<rect x="60" y="115" width="18" height="38" rx="2" fill="#BBDEFB" stroke="#1565C0" stroke-width="0.8"/>
+<rect x="80" y="115" width="18" height="38" rx="2" fill="#90CAF9" stroke="#1565C0" stroke-width="0.8"/>
+<rect x="100" y="115" width="18" height="38" rx="2" fill="#BBDEFB" stroke="#1565C0" stroke-width="0.8"/>
+<rect x="120" y="115" width="18" height="38" rx="2" fill="#90CAF9" stroke="#1565C0" stroke-width="0.8"/>
+<rect x="140" y="115" width="18" height="38" rx="2" fill="#BBDEFB" stroke="#1565C0" stroke-width="0.8"/>
+<!-- Nuclei in cells -->
+<ellipse cx="49" cy="130" rx="4" ry="3" fill="#1A237E" opacity="0.6"/>
+<ellipse cx="69" cy="130" rx="4" ry="3" fill="#1A237E" opacity="0.6"/>
+<ellipse cx="89" cy="130" rx="4" ry="3" fill="#1A237E" opacity="0.6"/>
+<ellipse cx="109" cy="130" rx="4" ry="3" fill="#1A237E" opacity="0.6"/>
+<ellipse cx="129" cy="130" rx="4" ry="3" fill="#1A237E" opacity="0.6"/>
+<ellipse cx="149" cy="130" rx="4" ry="3" fill="#1A237E" opacity="0.6"/>
+
+<!-- Squamous epithelium on top -->
+<rect x="40" y="100" width="18" height="14" rx="1" fill="#E3F2FD" stroke="#1565C0" stroke-width="0.6"/>
+<rect x="60" y="100" width="18" height="14" rx="1" fill="#E8EAF6" stroke="#1565C0" stroke-width="0.6"/>
+<rect x="80" y="100" width="18" height="14" rx="1" fill="#E3F2FD" stroke="#1565C0" stroke-width="0.6"/>
+<rect x="100" y="100" width="18" height="14" rx="1" fill="#E8EAF6" stroke="#1565C0" stroke-width="0.6"/>
+<rect x="120" y="100" width="18" height="14" rx="1" fill="#E3F2FD" stroke="#1565C0" stroke-width="0.6"/>
+<rect x="140" y="100" width="18" height="14" rx="1" fill="#E8EAF6" stroke="#1565C0" stroke-width="0.6"/>
+
+<!-- Cilia on top -->
+<line x1="49" y1="100" x2="49" y2="93" stroke="#1565C0" stroke-width="0.5"/>
+<line x1="69" y1="100" x2="69" y2="93" stroke="#1565C0" stroke-width="0.5"/>
+<line x1="89" y1="100" x2="89" y2="93" stroke="#1565C0" stroke-width="0.5"/>
+<line x1="109" y1="100" x2="109" y2="93" stroke="#1565C0" stroke-width="0.5"/>
+<line x1="129" y1="100" x2="129" y2="93" stroke="#1565C0" stroke-width="0.5"/>
+<line x1="149" y1="100" x2="149" y2="93" stroke="#1565C0" stroke-width="0.5"/>
+
+<!-- Labels -->
+<text x="170" y="108" font-family="Arial,sans-serif" font-size="5.5" fill="#1565C0" font-weight="bold">→ Покровный</text>
+<text x="170" y="116" font-family="Arial,sans-serif" font-size="5.5" fill="#1565C0" font-weight="bold">  эпителий</text>
+<text x="170" y="128" font-family="Arial,sans-serif" font-size="5" fill="#555">Кожа, слизистые</text>
+<text x="170" y="146" font-family="Arial,sans-serif" font-size="5" fill="#555">Защита, всасывание,</text>
+<text x="170" y="153" font-family="Arial,sans-serif" font-size="5" fill="#555">секреция</text>
+
+<!-- ============ QUADRANT 2: Соединительная ткань (top-right) ============ -->
+<rect x="255" y="55" width="230" height="128" rx="5" fill="white" opacity="0.7" stroke="#FF9800" stroke-width="1"/>
+<text x="370" y="70" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle" font-weight="bold">СОЕДИНИТЕЛЬНАЯ ТКАНЬ</text>
+<line x1="265" y1="74" x2="475" y2="74" stroke="#FF9800" stroke-width="0.5" opacity="0.4"/>
+
+<!-- Blood cells -->
+<g transform="translate(280,95)">
+  <circle cx="0" cy="0" r="6" fill="#EF5350" stroke="#C62828" stroke-width="0.8"/>
+  <circle cx="10" cy="-5" r="6" fill="#EF9A9A" stroke="#C62828" stroke-width="0.8"/>
+  <circle cx="-8" cy="8" r="6" fill="#EF5350" stroke="#C62828" stroke-width="0.8"/>
+  <!-- White blood cell -->
+  <circle cx="15" cy="7" r="5" fill="#E3F2FD" stroke="#1565C0" stroke-width="0.8"/>
+  <circle cx="17" cy="6" r="2" fill="#90CAF9" opacity="0.6"/>
+  <!-- Platelets -->
+  <circle cx="-3" cy="-7" r="1.5" fill="#FFCDD2" stroke="#E57373" stroke-width="0.5"/>
+  <circle cx="6" cy="9" r="1.5" fill="#FFCDD2" stroke="#E57373" stroke-width="0.5"/>
+  <text x="3" y="20" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">Кровь</text>
+</g>
+
+<!-- Bone tissue -->
+<g transform="translate(340,90)">
+  <!-- Haversian system (osteon) -->
+  <circle cx="0" cy="5" r="14" fill="#FFF9C4" stroke="#F9A825" stroke-width="1"/>
+  <circle cx="0" cy="5" r="10" fill="none" stroke="#F9A825" stroke-width="0.6"/>
+  <circle cx="0" cy="5" r="6" fill="none" stroke="#F9A825" stroke-width="0.6"/>
+  <circle cx="0" cy="5" r="3" fill="#F9A825" opacity="0.5"/>
+  <!-- Lacunae -->
+  <ellipse cx="-8" cy="0" rx="3" ry="1.5" fill="#F9A825" opacity="0.4"/>
+  <ellipse cx="7" cy="8" rx="3" ry="1.5" fill="#F9A825" opacity="0.4"/>
+  <ellipse cx="-5" cy="12" rx="3" ry="1.5" fill="#F9A825" opacity="0.4"/>
+  <text x="0" y="26" font-family="Arial,sans-serif" font-size="5" fill="#F57F17" text-anchor="middle">Костная</text>
+</g>
+
+<!-- Loose connective tissue with fibers -->
+<g transform="translate(415,88)">
+  <!-- Collagen fibers (thick) -->
+  <path d="M-15,5 Q-5,-3 5,8 Q15,-2 25,5" fill="none" stroke="#FFB74D" stroke-width="2" opacity="0.7"/>
+  <path d="M-15,12 Q-5,4 5,15 Q15,5 25,12" fill="none" stroke="#FFCC80" stroke-width="1.5" opacity="0.7"/>
+  <!-- Elastic fibers (thin, wavy) -->
+  <path d="M-12,2 Q-7,-5 -2,2 Q3,-5 8,2 Q13,-5 18,2" fill="none" stroke="#FFE082" stroke-width="0.8"/>
+  <!-- Fibroblasts -->
+  <ellipse cx="-5" cy="10" rx="4" ry="2" fill="#FFE0B2" stroke="#E65100" stroke-width="0.6"/>
+  <ellipse cx="12" cy="3" rx="4" ry="2" fill="#FFE0B2" stroke="#E65100" stroke-width="0.6"/>
+  <text x="5" y="24" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">Рыхлая</text>
+</g>
+
+<!-- Cartilage -->
+<g transform="translate(310,130)">
+  <rect x="-20" y="-8" width="40" height="18" rx="4" fill="#E0F2F1" stroke="#00897B" stroke-width="1"/>
+  <!-- Chondrocytes in lacunae -->
+  <circle cx="-10" cy="1" r="3" fill="#80CBC4" stroke="#00695C" stroke-width="0.6"/>
+  <circle cx="0" cy="1" r="3" fill="#80CBC4" stroke="#00695C" stroke-width="0.6"/>
+  <circle cx="10" cy="1" r="3" fill="#80CBC4" stroke="#00695C" stroke-width="0.6"/>
+  <text x="0" y="18" font-family="Arial,sans-serif" font-size="5" fill="#00695C" text-anchor="middle">Хрящевая</text>
+</g>
+
+<!-- Functions -->
+<text x="400" y="138" font-family="Arial,sans-serif" font-size="5" fill="#555">Опора, защита,</text>
+<text x="400" y="145" font-family="Arial,sans-serif" font-size="5" fill="#555">транспорт, трофика</text>
+
+<!-- ============ QUADRANT 3: Мышечная ткань (bottom-left) ============ -->
+<rect x="15" y="189" width="230" height="128" rx="5" fill="white" opacity="0.7" stroke="#C62828" stroke-width="1"/>
+<text x="130" y="204" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle" font-weight="bold">МЫШЕЧНАЯ ТКАНЬ</text>
+<line x1="25" y1="208" x2="235" y2="208" stroke="#C62828" stroke-width="0.5" opacity="0.4"/>
+
+<!-- Striated (skeletal) muscle -->
+<g transform="translate(35,220)">
+  <text x="30" y="-2" font-family="Arial,sans-serif" font-size="5.5" fill="#C62828" font-weight="bold">Поперечнополосатая</text>
+  <!-- Elongated cell with striations -->
+  <rect x="0" y="3" width="65" height="14" rx="3" fill="#FFCDD2" stroke="#C62828" stroke-width="0.8"/>
+  <!-- Striations -->
+  <line x1="8" y1="3" x2="8" y2="17" stroke="#E57373" stroke-width="0.5"/>
+  <line x1="14" y1="3" x2="14" y2="17" stroke="#E57373" stroke-width="0.5"/>
+  <line x1="20" y1="3" x2="20" y2="17" stroke="#E57373" stroke-width="0.5"/>
+  <line x1="26" y1="3" x2="26" y2="17" stroke="#E57373" stroke-width="0.5"/>
+  <line x1="32" y1="3" x2="32" y2="17" stroke="#E57373" stroke-width="0.5"/>
+  <line x1="38" y1="3" x2="38" y2="17" stroke="#E57373" stroke-width="0.5"/>
+  <line x1="44" y1="3" x2="44" y2="17" stroke="#E57373" stroke-width="0.5"/>
+  <line x1="50" y1="3" x2="50" y2="17" stroke="#E57373" stroke-width="0.5"/>
+  <line x1="56" y1="3" x2="56" y2="17" stroke="#E57373" stroke-width="0.5"/>
+  <!-- Nuclei (multiple, peripheral) -->
+  <ellipse cx="12" cy="5" rx="3" ry="1.5" fill="#C62828" opacity="0.5"/>
+  <ellipse cx="35" cy="5" rx="3" ry="1.5" fill="#C62828" opacity="0.5"/>
+  <ellipse cx="55" cy="5" rx="3" ry="1.5" fill="#C62828" opacity="0.5"/>
+  <text x="32" y="28" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Скелетные мышцы</text>
+</g>
+
+<!-- Smooth muscle -->
+<g transform="translate(35,260)">
+  <text x="30" y="-2" font-family="Arial,sans-serif" font-size="5.5" fill="#C62828" font-weight="bold">Гладкая</text>
+  <!-- Spindle-shaped cells -->
+  <ellipse cx="12" cy="8" rx="18" ry="5" fill="#FFCDD2" stroke="#C62828" stroke-width="0.7"/>
+  <ellipse cx="42" cy="8" rx="18" ry="5" fill="#FFCDD2" stroke="#C62828" stroke-width="0.7"/>
+  <!-- Single central nucleus -->
+  <ellipse cx="12" cy="8" rx="4" ry="2" fill="#C62828" opacity="0.5"/>
+  <ellipse cx="42" cy="8" rx="4" ry="2" fill="#C62828" opacity="0.5"/>
+  <text x="27" y="20" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Стенки внутренних органов</text>
+</g>
+
+<!-- Cardiac muscle -->
+<g transform="translate(140,220)">
+  <text x="45" y="-2" font-family="Arial,sans-serif" font-size="5.5" fill="#C62828" font-weight="bold">Сердечная</text>
+  <!-- Branched cells with intercalated discs -->
+  <rect x="0" y="3" width="55" height="12" rx="2" fill="#EF9A9A" stroke="#C62828" stroke-width="0.7"/>
+  <rect x="15" y="15" width="40" height="12" rx="2" fill="#EF9A9A" stroke="#C62828" stroke-width="0.7"/>
+  <!-- Intercalated discs -->
+  <line x1="18" y1="3" x2="18" y2="15" stroke="#B71C1C" stroke-width="1.5"/>
+  <line x1="38" y1="3" x2="38" y2="15" stroke="#B71C1C" stroke-width="1.5"/>
+  <line x1="33" y1="15" x2="33" y2="27" stroke="#B71C1C" stroke-width="1.5"/>
+  <!-- Striations -->
+  <line x1="6" y1="3" x2="6" y2="15" stroke="#E57373" stroke-width="0.4"/>
+  <line x1="12" y1="3" x2="12" y2="15" stroke="#E57373" stroke-width="0.4"/>
+  <line x1="24" y1="3" x2="24" y2="15" stroke="#E57373" stroke-width="0.4"/>
+  <line x1="30" y1="3" x2="30" y2="15" stroke="#E57373" stroke-width="0.4"/>
+  <line x1="44" y1="3" x2="44" y2="15" stroke="#E57373" stroke-width="0.4"/>
+  <!-- Nuclei -->
+  <ellipse cx="9" cy="9" rx="3" ry="2" fill="#C62828" opacity="0.5"/>
+  <ellipse cx="28" cy="9" rx="3" ry="2" fill="#C62828" opacity="0.5"/>
+  <ellipse cx="47" cy="9" rx="3" ry="2" fill="#C62828" opacity="0.5"/>
+  <text x="35" y="36" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Миокард</text>
+</g>
+
+<!-- ============ QUADRANT 4: Нервная ткань (bottom-right) ============ -->
+<rect x="255" y="189" width="230" height="128" rx="5" fill="white" opacity="0.7" stroke="#6A1B9A" stroke-width="1"/>
+<text x="370" y="204" font-family="Arial,sans-serif" font-size="8" fill="#6A1B9A" text-anchor="middle" font-weight="bold">НЕРВНАЯ ТКАНЬ</text>
+<line x1="265" y1="208" x2="475" y2="208" stroke="#6A1B9A" stroke-width="0.5" opacity="0.4"/>
+
+<!-- Neuron - main illustration -->
+<g transform="translate(350,270)">
+  <!-- Cell body (soma) -->
+  <circle cx="0" cy="0" r="14" fill="#E1BEE7" stroke="#6A1B9A" stroke-width="1.2"/>
+  <!-- Nucleus in soma -->
+  <circle cx="0" cy="0" r="6" fill="#CE93D8" stroke="#4A148C" stroke-width="0.6" opacity="0.7"/>
+  <circle cx="2" cy="-2" r="2" fill="#E1BEE7" stroke="#4A148C" stroke-width="0.4"/>
+
+  <!-- Dendrites (branching inputs) -->
+  <line x1="-10" y1="-10" x2="-25" y2="-25" stroke="#6A1B9A" stroke-width="1.2"/>
+  <line x1="-25" y1="-25" x2="-35" y2="-35" stroke="#6A1B9A" stroke-width="0.8"/>
+  <line x1="-25" y1="-25" x2="-32" y2="-22" stroke="#6A1B9A" stroke-width="0.8"/>
+  <line x1="-10" y1="-12" x2="-28" y2="-18" stroke="#6A1B9A" stroke-width="1"/>
+  <line x1="-28" y1="-18" x2="-38" y2="-16" stroke="#6A1B9A" stroke-width="0.7"/>
+  <line x1="-28" y1="-18" x2="-36" y2="-24" stroke="#6A1B9A" stroke-width="0.7"/>
+  <line x1="-5" y1="-13" x2="-15" y2="-30" stroke="#6A1B9A" stroke-width="0.8"/>
+  <line x1="-15" y1="-30" x2="-22" y2="-38" stroke="#6A1B9A" stroke-width="0.6"/>
+  <line x1="-15" y1="-30" x2="-8" y2="-38" stroke="#6A1B9A" stroke-width="0.6"/>
+
+  <!-- Axon (long output) -->
+  <line x1="14" y1="0" x2="80" y2="0" stroke="#6A1B9A" stroke-width="1.5"/>
+  <!-- Myelin sheath segments -->
+  <rect x="20" y="-4" width="12" height="8" rx="3" fill="#F3E5F5" stroke="#9C27B0" stroke-width="0.6" opacity="0.7"/>
+  <rect x="36" y="-4" width="12" height="8" rx="3" fill="#F3E5F5" stroke="#9C27B0" stroke-width="0.6" opacity="0.7"/>
+  <rect x="52" y="-4" width="12" height="8" rx="3" fill="#F3E5F5" stroke="#9C27B0" stroke-width="0.6" opacity="0.7"/>
+  <rect x="68" y="-4" width="12" height="8" rx="3" fill="#F3E5F5" stroke="#9C27B0" stroke-width="0.6" opacity="0.7"/>
+  <!-- Nodes of Ranvier -->
+  <line x1="34" y1="-5" x2="34" y2="5" stroke="#6A1B9A" stroke-width="0.8"/>
+  <line x1="50" y1="-5" x2="50" y2="5" stroke="#6A1B9A" stroke-width="0.8"/>
+  <line x1="66" y1="-5" x2="66" y2="5" stroke="#6A1B9A" stroke-width="0.8"/>
+
+  <!-- Axon terminals -->
+  <line x1="80" y1="0" x2="90" y2="-8" stroke="#6A1B9A" stroke-width="0.8"/>
+  <line x1="80" y1="0" x2="90" y2="8" stroke="#6A1B9A" stroke-width="0.8"/>
+  <circle cx="92" cy="-10" r="3" fill="#CE93D8" stroke="#6A1B9A" stroke-width="0.6"/>
+  <circle cx="92" cy="10" r="3" fill="#CE93D8" stroke="#6A1B9A" stroke-width="0.6"/>
+  <circle cx="90" cy="0" r="2.5" fill="#CE93D8" stroke="#6A1B9A" stroke-width="0.6"/>
+</g>
+
+<!-- Neuron labels -->
+<text x="290" y="235" font-family="Arial,sans-serif" font-size="5.5" fill="#6A1B9A" font-weight="bold">Дендриты</text>
+<line x1="310" y1="237" x2="320" y2="245" stroke="#6A1B9A" stroke-width="0.5"/>
+
+<text x="350" y="240" font-family="Arial,sans-serif" font-size="5.5" fill="#6A1B9A" font-weight="bold">Тело клетки</text>
+<line x1="350" y1="242" x2="350" y2="253" stroke="#6A1B9A" stroke-width="0.5"/>
+
+<text x="410" y="264" font-family="Arial,sans-serif" font-size="5.5" fill="#6A1B9A" font-weight="bold">Аксон</text>
+
+<text x="440" y="275" font-family="Arial,sans-serif" font-size="5" fill="#9C27B0" font-weight="bold">Миелиновая</text>
+<text x="440" y="281" font-family="Arial,sans-serif" font-size="5" fill="#9C27B0" font-weight="bold">оболочка</text>
+
+<text x="440" y="295" font-family="Arial,sans-serif" font-size="5" fill="#4A148C" font-weight="bold">Нервные</text>
+<text x="440" y="301" font-family="Arial,sans-serif" font-size="5" fill="#4A148C" font-weight="bold">окончания</text>
+
+<!-- Glial cells (small) -->
+<circle cx="290" cy="285" r="5" fill="#F3E5F5" stroke="#9C27B0" stroke-width="0.6"/>
+<text x="290" y="294" font-family="Arial,sans-serif" font-size="4.5" fill="#9C27B0" text-anchor="middle">Глия</text>
+
+<!-- Function text -->
+<text x="270" y="310" font-family="Arial,sans-serif" font-size="5" fill="#555">Возбуждение, проведение</text>
+<text x="270" y="316" font-family="Arial,sans-serif" font-size="5" fill="#555">нервных импульсов</text>
+
+<!-- Footer bar -->
+<rect x="3" y="323" width="494" height="24" rx="0" fill="#2E7D32"/>
+<text x="250" y="339" font-family="Arial,sans-serif" font-size="8" fill="white" text-anchor="middle">Ткань — группа клеток и межклеточного вещества, выполняющих общую функцию</text>
+</svg>

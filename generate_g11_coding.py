@@ -4,7 +4,7 @@
 import os
 import xml.etree.ElementTree as ET
 
-OUTPUT_DIR = "/home/z/my-project/school-curriculum-app/public/images/lessons/grade11/coding"
+OUTPUT_DIR = "/home/z/school-curriculum-app/public/images/lessons/grade11/coding"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 PRIMARY = "#0D47A1"

@@ -1,37 +1,130 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
+    <linearGradient id="hall6" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eceff1"/>
+      <stop offset="100%" stop-color="#cfd8dc"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#BF360C"/>
-      <stop offset="100%" stop-color="#E65100"/>
+    <linearGradient id="floor6" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8d5a0"/>
+      <stop offset="100%" stop-color="#d4c080"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#E65100" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#E65100" stroke-width="1" opacity="0.3"/>
-  <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#E65100" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#E65100" text-anchor="middle">Волейбол: техника и тактика</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физическая культура - Урок 6</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#E65100" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#E65100" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA -->
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FFF3E0"/><text x="250" y="130" font-family="Arial,sans-serif" font-size="20" fill="#E65100" text-anchor="middle" font-weight="bold">Волейбол: техника и тактика</text><rect x="25" y="155" width="140" height="45" rx="5" fill="#E3F2FD" stroke="#E65100" stroke-width="1.5"/><text x="95" y="182" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">Основные правила:</text><rect x="170" y="155" width="140" height="45" rx="5" fill="#FFF3E0" stroke="#BF360C" stroke-width="1.5"/><text x="240" y="182" font-family="Arial" font-size="12" fill="#BF360C" text-anchor="middle">Стойка волейболиста:</text><rect x="315" y="155" width="140" height="45" rx="5" fill="#FFFDE7" stroke="#F9A825" stroke-width="1.5"/><text x="385" y="182" font-family="Arial" font-size="12" fill="#F9A825" text-anchor="middle">Нижняя прямая подача:</text><rect x="25" y="210" width="140" height="45" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/><text x="95" y="238" font-family="Arial" font-size="12" fill="#2E7D32" text-anchor="middle">Расстановка при приёме ...</text><rect x="170" y="210" width="140" height="45" rx="5" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="1.5"/><text x="240" y="238" font-family="Arial" font-size="12" fill="#6A1B9A" text-anchor="middle">Связующий:</text><rect x="315" y="210" width="140" height="45" rx="5" fill="#FFEBEE" stroke="#E65100" stroke-width="1.5"/><text x="385" y="238" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">Волейбол</text>
-  <polygon points="50,270 60,285 40,285" fill="#E65100" opacity="0.12"/>
+  <rect width="500" height="350" fill="url(#hall6)"/>
+  
+  <!-- Gym floor -->
+  <rect x="0" y="200" width="500" height="150" fill="url(#floor6)"/>
+  
+  <!-- Court lines -->
+  <rect x="30" y="210" width="440" height="120" fill="none" stroke="#8B6914" stroke-width="2" opacity="0.5"/>
+  <line x1="250" y1="210" x2="250" y2="330" stroke="#8B6914" stroke-width="2" opacity="0.5"/>
+  <!-- Attack lines -->
+  <line x1="170" y1="210" x2="170" y2="330" stroke="#8B6914" stroke-width="1.5" opacity="0.4"/>
+  <line x1="330" y1="210" x2="330" y2="330" stroke="#8B6914" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- Net -->
+  <g>
+    <!-- Net post left -->
+    <rect x="246" y="90" width="5" height="125" fill="#888"/>
+    <!-- Net post right -->
+    <rect x="490" y="90" width="5" height="125" fill="#888"/>
+    <!-- Top rope -->
+    <line x1="248" y1="95" x2="492" y2="95" stroke="#333" stroke-width="2.5"/>
+    <!-- Bottom rope -->
+    <line x1="248" y1="212" x2="492" y2="212" stroke="#333" stroke-width="2"/>
+    <!-- Net mesh -->
+    <g stroke="#999" stroke-width="0.7" opacity="0.5">
+      <line x1="248" y1="110" x2="492" y2="110"/>
+      <line x1="248" y1="125" x2="492" y2="125"/>
+      <line x1="248" y1="140" x2="492" y2="140"/>
+      <line x1="248" y1="155" x2="492" y2="155"/>
+      <line x1="248" y1="170" x2="492" y2="170"/>
+      <line x1="248" y1="185" x2="492" y2="185"/>
+      <line x1="248" y1="200" x2="492" y2="200"/>
+      <line x1="275" y1="95" x2="275" y2="212"/>
+      <line x1="310" y1="95" x2="310" y2="212"/>
+      <line x1="345" y1="95" x2="345" y2="212"/>
+      <line x1="380" y1="95" x2="380" y2="212"/>
+      <line x1="415" y1="95" x2="415" y2="212"/>
+      <line x1="450" y1="95" x2="450" y2="212"/>
+      <line x1="485" y1="95" x2="485" y2="212"/>
+    </g>
   </g>
-  <!-- Bottom panel -->
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Физическая культура</text>
+  
+  <!-- Player spiking (right side, jumping) -->
+  <g transform="translate(350,130)">
+    <!-- Body airborne -->
+    <circle cx="0" cy="-25" r="11" fill="#ffb57c"/>
+    <path d="M-11,-25 Q0,-35 11,-25" fill="#333"/>
+    <!-- Ponytail -->
+    <path d="M8,-28 Q15,-32 12,-22" stroke="#333" stroke-width="3" fill="none"/>
+    <!-- Jersey -->
+    <path d="M-8,-14 L-5,10 L5,10 L8,-14 Z" fill="#1e88e5"/>
+    <!-- Spiking arm up -->
+    <path d="M5,-10 Q15,-25 10,-40" stroke="#ffb57c" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- Hand hitting ball -->
+    <circle cx="8" cy="-45" r="4" fill="#ffb57c"/>
+    <!-- Other arm back -->
+    <path d="M-5,-10 Q-18,-5 -20,5" stroke="#ffb57c" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Legs bent -->
+    <path d="M-3,10 L-10,25 L-5,30" stroke="#ffb57c" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M3,10 L12,20 L8,28" stroke="#ffb57c" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Volleyball at impact -->
+  <g transform="translate(360,85)">
+    <circle r="14" fill="#f5f0e0" stroke="#ccc" stroke-width="1"/>
+    <path d="M-10,-8 Q2,-2 -2,8 Q-6,18 -8,10" fill="none" stroke="#3498db" stroke-width="1.5"/>
+    <path d="M10,-8 Q-2,-2 2,8 Q6,18 8,10" fill="none" stroke="#e74c3c" stroke-width="1.5"/>
+    <path d="M-13,2 Q-3,8 -2,15" fill="none" stroke="#f1c40f" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Ball trajectory -->
+  <path d="M355,80 Q330,50 280,45 Q230,42 180,70" stroke="#e74c3c" stroke-width="1.5" fill="none" stroke-dasharray="5,4" opacity="0.6"/>
+  <polygon points="180,70 188,62 185,75" fill="#e74c3c" opacity="0.6"/>
+  
+  <!-- Setter (center) -->
+  <g transform="translate(220,190)">
+    <circle cx="0" cy="-22" r="10" fill="#ffb57c"/>
+    <path d="M-10,-22 Q0,-30 10,-22" fill="#333"/>
+    <path d="M-7,-12 L-8,8 L8,8 L7,-12 Z" fill="#1e88e5"/>
+    <path d="M-8,8 L-10,25 L0,25 L0,8 Z" fill="#222"/>
+    <path d="M0,8 L0,25 L10,25 L8,8 Z" fill="#222"/>
+    <!-- Setting position - hands up -->
+    <path d="M-5,-8 Q-12,-20 -8,-28" stroke="#ffb57c" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M5,-8 Q12,-20 8,-28" stroke="#ffb57c" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M-10,25 L-12,42" stroke="#ffb57c" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M8,25 L12,40" stroke="#ffb57c" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Defender (left back) -->
+  <g transform="translate(80,230)">
+    <circle cx="0" cy="-18" r="9" fill="#ffb57c"/>
+    <path d="M-9,-18 Q0,-26 9,-18" fill="#1e88e5"/>
+    <path d="M-6,-9 L-8,5 L8,5 L6,-9 Z" fill="#1e88e5"/>
+    <path d="M-8,5 L-10,18 L0,18 L0,5 Z" fill="#222"/>
+    <path d="M0,5 L0,18 L10,18 L8,5 Z" fill="#222"/>
+    <!-- Low defensive stance -->
+    <path d="M-5,-5 Q-15,-8 -18,-2" stroke="#ffb57c" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M5,-5 Q15,-8 18,-2" stroke="#ffb57c" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M-10,18 L-14,32" stroke="#ffb57c" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M8,18 L12,30" stroke="#ffb57c" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Opponent on other side (silhouette) -->
+  <g transform="translate(380,240)" opacity="0.4">
+    <circle cx="0" cy="-18" r="9" fill="#c62828"/>
+    <path d="M-6,-9 L-7,5 L7,5 L6,-9 Z" fill="#c62828"/>
+    <path d="M-7,5 L-8,20 L8,20 L7,5 Z" fill="#555"/>
+  </g>
+  <g transform="translate(420,250)" opacity="0.4">
+    <circle cx="0" cy="-18" r="9" fill="#c62828"/>
+    <path d="M-6,-9 L-7,5 L7,5 L6,-9 Z" fill="#c62828"/>
+    <path d="M-7,5 L-8,20 L8,20 L7,5 Z" fill="#555"/>
+  </g>
+  
+  <!-- Court boundary markers (cones) -->
+  <polygon points="30,208 34,198 38,208" fill="#ff9800"/>
+  <polygon points="462,208 466,198 470,208" fill="#ff9800"/>
+  
+  <text x="250" y="342" text-anchor="middle" font-size="9" opacity="0.5" fill="#333" font-family="Arial, sans-serif">Волейбол: техника и тактика</text>
 </svg>

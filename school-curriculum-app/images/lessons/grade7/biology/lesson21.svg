@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Разнообразие голосеменных</text>
+<text x="250" y="44" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 7 класс — Урок 21</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+
+<!-- Title: Conifers Row -->
+<text x="250" y="66" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#1B5E20" text-anchor="middle">Хвойные растения</text>
+
+<!-- 1. Сосна (Pine) — 2 needles per fascicle -->
+<g transform="translate(42,100)">
+  <text x="0" y="-8" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#2E7D32" text-anchor="middle">Сосна</text>
+  <text x="0" y="0" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">Pinus</text>
+  <!-- Tree silhouette -->
+  <rect x="-3" y="52" width="6" height="14" fill="#795548" rx="1"/>
+  <polygon points="0,-28 -14,-5 14,-5" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.6"/>
+  <polygon points="0,-18 -17,10 17,10" fill="#43A047" stroke="#2E7D32" stroke-width="0.6"/>
+  <polygon points="0,-6 -19,28 19,28" fill="#388E3C" stroke="#2E7D32" stroke-width="0.6"/>
+  <polygon points="0,6 -16,48 16,48" fill="#2E7D32" stroke="#1B5E20" stroke-width="0.6"/>
+  <!-- 2 needles -->
+  <line x1="0" y1="52" x2="-4" y2="42" stroke="#1B5E20" stroke-width="1.2"/>
+  <line x1="0" y1="52" x2="4" y2="42" stroke="#1B5E20" stroke-width="1.2"/>
+  <ellipse cx="10" cy="40" rx="2.5" ry="4" fill="#8D6E63" stroke="#5D4037" stroke-width="0.5"/>
+  <text x="0" y="76" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">2 хвоинки</text>
+</g>
+
+<!-- 2. Ель (Spruce) — 4-sided needles, hanging cones -->
+<g transform="translate(120,100)">
+  <text x="0" y="-8" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#2E7D32" text-anchor="middle">Ель</text>
+  <text x="0" y="0" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">Picea</text>
+  <!-- Tree silhouette — more triangular -->
+  <rect x="-3" y="52" width="6" height="14" fill="#795548" rx="1"/>
+  <polygon points="0,-30 -6,-10 6,-10" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.6"/>
+  <polygon points="0,-22 -12,0 12,0" fill="#43A047" stroke="#2E7D32" stroke-width="0.6"/>
+  <polygon points="0,-12 -18,14 18,14" fill="#388E3C" stroke="#2E7D32" stroke-width="0.6"/>
+  <polygon points="0,-2 -22,28 22,28" fill="#2E7D32" stroke="#1B5E20" stroke-width="0.6"/>
+  <polygon points="0,10 -20,50 20,50" fill="#1B5E20" stroke="#1B5E20" stroke-width="0.6"/>
+  <!-- Hanging cones -->
+  <ellipse cx="-10" cy="36" rx="2" ry="5" fill="#A1887F" stroke="#795548" stroke-width="0.5"/>
+  <line x1="-10" y1="28" x2="-10" y2="31" stroke="#795548" stroke-width="0.5"/>
+  <ellipse cx="8" cy="40" rx="2" ry="5" fill="#A1887F" stroke="#795548" stroke-width="0.5"/>
+  <line x1="8" y1="30" x2="8" y2="35" stroke="#795548" stroke-width="0.5"/>
+  <!-- 4-sided needle cross section -->
+  <polygon points="0,56 2,59 0,62 -2,59" fill="#388E3C" stroke="#2E7D32" stroke-width="0.5"/>
+  <text x="0" y="76" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">4-гран. хвоя</text>
+  <text x="0" y="83" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">висячие шишки</text>
+</g>
+
+<!-- 3. Лиственница (Larch) — soft needle clusters, deciduous -->
+<g transform="translate(198,100)">
+  <text x="0" y="-8" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#2E7D32" text-anchor="middle">Лиственница</text>
+  <text x="0" y="0" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">Larix</text>
+  <!-- Tree silhouette — less dense, conical -->
+  <rect x="-3" y="52" width="6" height="14" fill="#795548" rx="1"/>
+  <path d="M0,-25 L-5,-10 L-10,-10 L-14,5 L-8,5 L-18,25 L-6,25 L-4,50 L4,50 L6,25 L18,25 L8,5 L14,5 L10,-10 L5,-10 Z" fill="#81C784" stroke="#4CAF50" stroke-width="0.6"/>
+  <!-- Soft needle clusters -->
+  <ellipse cx="-8" cy="5" rx="4" ry="2" fill="#A5D6A7" stroke="#66BB6A" stroke-width="0.4"/>
+  <ellipse cx="8" cy="5" rx="4" ry="2" fill="#A5D6A7" stroke="#66BB6A" stroke-width="0.4"/>
+  <ellipse cx="-12" cy="25" rx="4" ry="2" fill="#A5D6A7" stroke="#66BB6A" stroke-width="0.4"/>
+  <ellipse cx="12" cy="25" rx="4" ry="2" fill="#A5D6A7" stroke="#66BB6A" stroke-width="0.4"/>
+  <text x="0" y="76" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">мягкие пучки</text>
+  <text x="0" y="83" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">листопадное!</text>
+</g>
+
+<!-- 4. Пихта (Fir) — flat needles, upright cones -->
+<g transform="translate(276,100)">
+  <text x="0" y="-8" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#2E7D32" text-anchor="middle">Пихта</text>
+  <text x="0" y="0" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">Abies</text>
+  <!-- Tree silhouette — narrow spire -->
+  <rect x="-3" y="52" width="6" height="14" fill="#795548" rx="1"/>
+  <polygon points="0,-30 -8,-5 8,-5" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.6"/>
+  <polygon points="0,-20 -14,10 14,10" fill="#43A047" stroke="#2E7D32" stroke-width="0.6"/>
+  <polygon points="0,-8 -18,28 18,28" fill="#388E3C" stroke="#2E7D32" stroke-width="0.6"/>
+  <polygon points="0,4 -16,50 16,50" fill="#2E7D32" stroke="#1B5E20" stroke-width="0.6"/>
+  <!-- Upright cones on top -->
+  <ellipse cx="0" cy="-32" rx="2.5" ry="5" fill="#8D6E63" stroke="#5D4037" stroke-width="0.5"/>
+  <ellipse cx="5" cy="-30" rx="2" ry="4" fill="#A1887F" stroke="#795548" stroke-width="0.5"/>
+  <!-- Flat needle -->
+  <rect x="18" y="18" width="8" height="2" fill="#388E3C" stroke="#2E7D32" stroke-width="0.4" rx="0.5"/>
+  <text x="0" y="76" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">плоская хвоя</text>
+  <text x="0" y="83" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">шишки вверх↑</text>
+</g>
+
+<!-- 5. Кедр (Cedar) — 5 needles -->
+<g transform="translate(350,100)">
+  <text x="0" y="-8" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#2E7D32" text-anchor="middle">Кедр</text>
+  <text x="0" y="0" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">Pinus sibirica</text>
+  <!-- Tree silhouette — broad crown -->
+  <rect x="-3" y="52" width="6" height="14" fill="#795548" rx="1"/>
+  <ellipse cx="0" cy="15" rx="22" ry="35" fill="#2E7D32" stroke="#1B5E20" stroke-width="0.6"/>
+  <ellipse cx="0" cy="20" rx="18" ry="28" fill="#388E3C" stroke="#2E7D32" stroke-width="0.6"/>
+  <!-- 5 needles in fascicle -->
+  <line x1="0" y1="52" x2="-5" y2="44" stroke="#1B5E20" stroke-width="0.8"/>
+  <line x1="0" y1="52" x2="-2.5" y2="43" stroke="#1B5E20" stroke-width="0.8"/>
+  <line x1="0" y1="52" x2="0" y2="42" stroke="#1B5E20" stroke-width="0.8"/>
+  <line x1="0" y1="52" x2="2.5" y2="43" stroke="#1B5E20" stroke-width="0.8"/>
+  <line x1="0" y1="52" x2="5" y2="44" stroke="#1B5E20" stroke-width="0.8"/>
+  <!-- Large cone -->
+  <ellipse cx="-14" cy="30" rx="4" ry="6" fill="#8D6E63" stroke="#5D4037" stroke-width="0.5"/>
+  <text x="0" y="76" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">5 хвоинок</text>
+  <text x="0" y="83" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">кедровые орехи</text>
+</g>
+
+<!-- 6. Можжевельник (Juniper) — berry-like cones -->
+<g transform="translate(430,100)">
+  <text x="0" y="-8" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#2E7D32" text-anchor="middle">Можжевельник</text>
+  <text x="0" y="0" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">Juniperus</text>
+  <!-- Shrub silhouette -->
+  <rect x="-2" y="42" width="4" height="24" fill="#795548" rx="1"/>
+  <ellipse cx="0" cy="25" rx="18" ry="22" fill="#2E7D32" stroke="#1B5E20" stroke-width="0.6"/>
+  <ellipse cx="0" cy="30" rx="14" ry="16" fill="#388E3C" stroke="#2E7D32" stroke-width="0.4"/>
+  <!-- Berry-like cones (galbuli) -->
+  <circle cx="-6" cy="18" r="3" fill="#5C6BC0" stroke="#303F9F" stroke-width="0.5"/>
+  <circle cx="5" cy="22" r="2.5" fill="#7986CB" stroke="#3F51B5" stroke-width="0.5"/>
+  <circle cx="-2" cy="30" r="2.5" fill="#5C6BC0" stroke="#303F9F" stroke-width="0.5"/>
+  <text x="0" y="76" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">шишкоягоды</text>
+  <text x="0" y="83" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">(галбулы)</text>
+</g>
+
+<!-- Divider -->
+<line x1="30" y1="190" x2="470" y2="190" stroke="#2E7D32" stroke-width="1" opacity="0.2"/>
+
+<!-- Relicts Section -->
+<text x="250" y="205" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#1B5E20" text-anchor="middle">Реликтовые голосеменные</text>
+
+<!-- Гинкго (Ginkgo) -->
+<g transform="translate(120,220)">
+  <rect x="-65" y="-5" width="130" height="115" fill="white" fill-opacity="0.5" rx="5" stroke="#A5D6A7" stroke-width="0.8"/>
+  <text x="0" y="8" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">Гинкго</text>
+  <text x="0" y="18" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">Ginkgo biloba — реликт</text>
+  <!-- Branch -->
+  <line x1="0" y1="30" x2="0" y2="65" stroke="#795548" stroke-width="2"/>
+  <line x1="0" y1="45" x2="-20" y2="35" stroke="#795548" stroke-width="1.2"/>
+  <line x1="0" y1="55" x2="18" y2="42" stroke="#795548" stroke-width="1.2"/>
+  <!-- Bilobed leaves (fan-shaped with notch) -->
+  <path d="M-20,35 Q-30,20 -20,10 Q-15,18 -10,10 Q0,20 -20,35Z" fill="#81C784" stroke="#4CAF50" stroke-width="0.6"/>
+  <path d="M18,42 Q28,27 18,17 Q13,25 8,17 Q-2,27 18,42Z" fill="#81C784" stroke="#4CAF50" stroke-width="0.6"/>
+  <path d="M0,30 Q-8,22 0,14 Q8,22 0,30Z" fill="#A5D6A7" stroke="#66BB6A" stroke-width="0.4"/>
+  <!-- Label -->
+  <text x="0" y="80" font-family="Arial,sans-serif" font-size="5.5" fill="#555" text-anchor="middle">Двулопастные листья</text>
+  <text x="0" y="88" font-family="Arial,sans-serif" font-size="5.5" fill="#555" text-anchor="middle">Живой ископаемый!</text>
+  <text x="0" y="98" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">~270 млн лет</text>
+</g>
+
+<!-- Саговник (Cycad) -->
+<g transform="translate(280,220)">
+  <rect x="-55" y="-5" width="110" height="115" fill="white" fill-opacity="0.5" rx="5" stroke="#A5D6A7" stroke-width="0.8"/>
+  <text x="0" y="8" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">Саговник</text>
+  <text x="0" y="18" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">Cycas — реликт</text>
+  <!-- Thick trunk -->
+  <rect x="-6" y="50" width="12" height="40" fill="#8D6E63" stroke="#5D4037" stroke-width="0.8" rx="3"/>
+  <!-- Leaf scars on trunk -->
+  <line x1="-4" y1="56" x2="4" y2="56" stroke="#795548" stroke-width="0.4"/>
+  <line x1="-5" y1="62" x2="5" y2="62" stroke="#795548" stroke-width="0.4"/>
+  <line x1="-5" y1="68" x2="5" y2="68" stroke="#795548" stroke-width="0.4"/>
+  <!-- Palm-like fronds -->
+  <path d="M0,50 Q-5,35 -35,20" stroke="#2E7D32" stroke-width="1.2" fill="none"/>
+  <path d="M0,50 Q5,35 35,20" stroke="#2E7D32" stroke-width="1.2" fill="none"/>
+  <path d="M0,50 Q-10,30 -25,15" stroke="#2E7D32" stroke-width="1" fill="none"/>
+  <path d="M0,50 Q10,30 25,15" stroke="#2E7D32" stroke-width="1" fill="none"/>
+  <path d="M0,50 Q-3,32 -15,10" stroke="#2E7D32" stroke-width="1" fill="none"/>
+  <path d="M0,50 Q3,32 15,10" stroke="#2E7D32" stroke-width="1" fill="none"/>
+  <path d="M0,50 Q0,30 0,8" stroke="#2E7D32" stroke-width="1.2" fill="none"/>
+  <!-- Leaflets on fronds -->
+  <ellipse cx="-30" cy="22" rx="6" ry="2" fill="#66BB6A" stroke="#4CAF50" stroke-width="0.3" transform="rotate(-30 -30 22)"/>
+  <ellipse cx="30" cy="22" rx="6" ry="2" fill="#66BB6A" stroke="#4CAF50" stroke-width="0.3" transform="rotate(30 30 22)"/>
+  <ellipse cx="-22" cy="17" rx="5" ry="1.5" fill="#81C784" stroke="#4CAF50" stroke-width="0.3" transform="rotate(-20 -22 17)"/>
+  <ellipse cx="22" cy="17" rx="5" ry="1.5" fill="#81C784" stroke="#4CAF50" stroke-width="0.3" transform="rotate(20 22 17)"/>
+  <ellipse cx="0" cy="12" rx="6" ry="1.5" fill="#81C784" stroke="#4CAF50" stroke-width="0.3"/>
+  <text x="0" y="98" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Пальмовидные листья</text>
+  <text x="0" y="105" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">~300 млн лет</text>
+</g>
+
+<!-- Секвойя (Sequoia) -->
+<g transform="translate(430,220)">
+  <rect x="-48" y="-5" width="96" height="115" fill="white" fill-opacity="0.5" rx="5" stroke="#A5D6A7" stroke-width="0.8"/>
+  <text x="0" y="8" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">Секвойя</text>
+  <text x="0" y="18" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">Sequoiadendron</text>
+  <!-- Very tall tree -->
+  <rect x="-4" y="30" width="8" height="60" fill="#795548" rx="1"/>
+  <!-- Crown layers -->
+  <ellipse cx="0" cy="28" rx="16" ry="12" fill="#2E7D32" stroke="#1B5E20" stroke-width="0.6"/>
+  <ellipse cx="0" cy="22" rx="12" ry="8" fill="#388E3C" stroke="#2E7D32" stroke-width="0.4"/>
+  <!-- Height indicator -->
+  <line x1="22" y1="90" x2="22" y2="22" stroke="#E65100" stroke-width="0.8" stroke-dasharray="2,1"/>
+  <polygon points="22,22 20,26 24,26" fill="#E65100"/>
+  <text x="30" y="58" font-family="Arial,sans-serif" font-size="6" fill="#E65100">~115 м</text>
+  <text x="0" y="98" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Самое высокое</text>
+  <text x="0" y="105" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">дерево в мире</text>
+</g>
+
+<!-- Classification bar -->
+<rect x="10" y="338" width="480" height="8" fill="#2E7D32" rx="2" opacity="0.15"/>
+<text x="250" y="345" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32" text-anchor="middle">Отдел Голосеменные: ~800 видов | Хвойные ≈ 600 | Саговниковые ≈ 300 | Гинкговые — 1 вид</text>
+</svg>

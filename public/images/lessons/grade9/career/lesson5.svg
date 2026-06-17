@@ -1,42 +1,49 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E0F2F1"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#26A69A"/>
-      <stop offset="100%" stop-color="#00695C"/>
-    </linearGradient>
-  </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#26A69A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#26A69A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#00695C" opacity="0.12"/>
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#26A69A" text-anchor="middle">Что такое резюме</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Карьера — Урок 5</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#26A69A" stroke-width="2" opacity="0.25"/>
-  <rect x="15" y="72" width="235" height="225" rx="4" fill="#26A69A" opacity="0.05"/>
-  <text x="22" y="88" font-family="Arial,sans-serif" font-size="10" fill="#00695C" text-anchor="start" font-weight="bold">Резюме —</text>
-  <text x="85" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">документ о вашем опыте</text>
-  <text x="22" y="108" font-family="Arial,sans-serif" font-size="10" fill="#00695C" text-anchor="start" font-weight="bold">Структура:</text>
-  <text x="85" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Контактная информация</text>
-  <text x="32" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Цель (какую позицию ищете)</text>
-  <text x="32" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Образование</text>
-  <text x="32" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Опыт работы / проекты</text>
-  <rect x="255" y="72" width="230" height="225" rx="4" fill="#26A69A" opacity="0.05"/>
-  <text x="272" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Навыки (hard и soft)</text>
-  <text x="262" y="108" font-family="Arial,sans-serif" font-size="10" fill="#00695C" text-anchor="start" font-weight="bold">Правила:</text>
-  <text x="325" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">1-2 страницы максимум</text>
-  <text x="272" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Чёткая структура, без воды</text>
-  <text x="272" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Грамотность — обязательно!</text>
-  <text x="262" y="168" font-family="Arial,sans-serif" font-size="10" fill="#00695C" text-anchor="start" font-weight="bold">Совет:</text>
-  <text x="325" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Адаптируйте под каждую вакансию</text>
-  <rect x="15" y="280" width="235" height="18" rx="4" fill="#26A69A" opacity="0.06"/>
-  <text x="132" y="293" font-family="Arial,sans-serif" font-size="9" fill="#00695C" text-anchor="middle" font-weight="bold">Резюме — ваша визитная карточка</text>
-  <rect x="255" y="280" width="230" height="18" rx="4" fill="#26A69A" opacity="0.06"/>
-  <text x="370" y="293" font-family="Arial,sans-serif" font-size="9" fill="#00695C" text-anchor="middle" font-weight="bold">HR тратит 6 секунд на резюме</text>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Карьера · Что такое резюме</text>
+<rect width="500" height="350" fill="#FFF8E1" rx="8"/>
+<!-- Resume paper -->
+<rect x="130" y="25" width="240" height="290" rx="6" fill="white" stroke="#5D4037" stroke-width="2"/>
+<!-- Photo circle -->
+<circle cx="250" cy="80" r="28" fill="#FFE0B2" stroke="#5D4037" stroke-width="1.5"/>
+<circle cx="250" cy="72" r="10" fill="#8D6E63"/>
+<ellipse cx="250" cy="95" rx="16" ry="8" fill="#8D6E63"/>
+<!-- Name -->
+<text x="250" y="125" font-family="Arial" font-size="12" fill="#3E2723" text-anchor="middle" font-weight="bold">Иванов Иван Иванович</text>
+<!-- Section: Contacts -->
+<rect x="148" y="135" width="204" height="2" fill="#8D6E63"/>
+<text x="155" y="150" font-family="Arial" font-size="9" fill="#5D4037" font-weight="bold">📞 Контакты</text>
+<text x="155" y="163" font-family="Arial" font-size="8" fill="#333">+7 (999) 123-45-67</text>
+<text x="155" y="175" font-family="Arial" font-size="8" fill="#333">ivanov@email.com</text>
+<!-- Section: Education -->
+<rect x="148" y="183" width="204" height="2" fill="#8D6E63"/>
+<text x="155" y="198" font-family="Arial" font-size="9" fill="#5D4037" font-weight="bold">🎓 Образование</text>
+<text x="155" y="211" font-family="Arial" font-size="8" fill="#333">Школа №42 (2020–2025)</text>
+<!-- Section: Experience -->
+<rect x="148" y="219" width="204" height="2" fill="#8D6E63"/>
+<text x="155" y="234" font-family="Arial" font-size="9" fill="#5D4037" font-weight="bold">💼 Опыт</text>
+<text x="155" y="247" font-family="Arial" font-size="8" fill="#333">Волонтёр, фонд «Доброе дело»</text>
+<!-- Section: Skills -->
+<rect x="148" y="255" width="204" height="2" fill="#8D6E63"/>
+<text x="155" y="270" font-family="Arial" font-size="9" fill="#5D4037" font-weight="bold">🛠 Навыки</text>
+<text x="155" y="283" font-family="Arial" font-size="8" fill="#333">Python, HTML, английский B1</text>
+<!-- Tips box -->
+<rect x="390" y="25" width="100" height="290" rx="6" fill="#FFF3E0" stroke="#FF8F00" stroke-width="1.5"/>
+<text x="440" y="45" font-family="Arial" font-size="9" fill="#E65100" font-weight="bold" text-anchor="middle">Советы</text>
+<text x="400" y="65" font-family="Arial" font-size="8" fill="#333">• 1–2 страницы</text>
+<text x="400" y="82" font-family="Arial" font-size="8" fill="#333">• Чёткая структура</text>
+<text x="400" y="99" font-family="Arial" font-size="8" fill="#333">• Без ошибок</text>
+<text x="400" y="116" font-family="Arial" font-size="8" fill="#333">• Деловой стиль</text>
+<text x="400" y="133" font-family="Arial" font-size="8" fill="#333">• Актуальная инфо</text>
+<text x="400" y="155" font-family="Arial" font-size="8" fill="#E65100" font-weight="bold">Структура:</text>
+<text x="400" y="172" font-family="Arial" font-size="8" fill="#333">1. Контакты</text>
+<text x="400" y="189" font-family="Arial" font-size="8" fill="#333">2. Образование</text>
+<text x="400" y="206" font-family="Arial" font-size="8" fill="#333">3. Опыт работы</text>
+<text x="400" y="223" font-family="Arial" font-size="8" fill="#333">4. Навыки</text>
+<text x="400" y="240" font-family="Arial" font-size="8" fill="#333">5. Достижения</text>
+<text x="400" y="262" font-family="Arial" font-size="8" fill="#E65100" font-weight="bold">Форматы:</text>
+<text x="400" y="279" font-family="Arial" font-size="8" fill="#333">• PDF</text>
+<text x="400" y="296" font-family="Arial" font-size="8" fill="#333">• .docx</text>
+<!-- Stamp/checkmark -->
+<circle cx="110" cy="280" r="20" fill="#4CAF50" opacity="0.15" stroke="#388E3C" stroke-width="2"/>
+<text x="110" y="287" font-family="Arial" font-size="20" fill="#388E3C" text-anchor="middle">✓</text>
+<text x="250" y="345" font-family="Arial" font-size="9" fill="#999" text-anchor="middle" opacity="0.5">Что такое резюме — Карьерное консультирование 9</text>
 </svg>

@@ -1,41 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#EFEBE9"/>
-      <stop offset="100%" stop-color="#FFF"/>
-    </linearGradient>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#8D6E63"/>
-      <stop offset="100%" stop-color="#4E342E"/>
-    </linearGradient>
-  </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#8D6E63" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#8D6E63" stroke-width="1" opacity="0.3"/>
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#8D6E63" text-anchor="middle">Самопознание и самореализация</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Обществознание — Урок 2</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#8D6E63" stroke-width="2" opacity="0.25"/>
-  <rect x="15" y="72" width="235" height="225" rx="4" fill="#8D6E63" opacity="0.05"/>
-  <text x="22" y="88" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Самопознание —</text>
-  <text x="85" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333">изучение самого себя</text>
-  <text x="22" y="108" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Методы:</text>
-  <text x="85" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333">Самонаблюдение, рефлексия</text>
-  <text x="32" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333">Тесты, беседы, дневник</text>
-  <text x="22" y="148" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Самооценка:</text>
-  <text x="85" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333">Адекватная — реалистичная</text>
-  <text x="32" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333">Заниженная — неуверенность</text>
-  <rect x="255" y="72" width="230" height="225" rx="4" fill="#8D6E63" opacity="0.05"/>
-  <text x="272" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333">Завышенная — самоуверенность</text>
-  <text x="262" y="108" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Самореализация:</text>
-  <text x="325" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333">Раскрытие потенциала</text>
-  <text x="272" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333">Деятельность, творчество, труд</text>
-  <text x="262" y="148" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Условия:</text>
-  <text x="325" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333">Свобода выбора и возможности</text>
-  <text x="272" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333">Усилие и настойчивость</text>
-  <rect x="15" y="280" width="235" height="18" rx="4" fill="#8D6E63" opacity="0.06"/>
-  <text x="132" y="293" font-family="Arial,sans-serif" font-size="9" fill="#4E342E" text-anchor="middle" font-weight="bold">Познай себя — реализуй себя</text>
-  <rect x="255" y="280" width="230" height="18" rx="4" fill="#8D6E63" opacity="0.06"/>
-  <text x="370" y="293" font-family="Arial,sans-serif" font-size="9" fill="#4E342E" text-anchor="middle" font-weight="bold">Самореализация — цель жизни</text>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Обществознание · Самопознание и самор</text>
+  <rect width="500" height="350" fill="#2D3748"/>
+  <!-- System circles -->
+  <circle cx="250" cy="140" r="80" fill="none" stroke="#63B3ED" stroke-width="2" opacity="0.4"/>
+  <circle cx="250" cy="140" r="55" fill="none" stroke="#63B3ED" stroke-width="1.5" opacity="0.3"/>
+  <!-- Subsystem boxes -->
+  <rect x="170" y="100" width="60" height="25" rx="5" fill="#E53E3E" opacity="0.5"/><text x="200" y="117" text-anchor="middle" font-size="8" fill="#FFF">Эконом.</text>
+  <rect x="270" y="100" width="60" height="25" rx="5" fill="#3182CE" opacity="0.5"/><text x="300" y="117" text-anchor="middle" font-size="8" fill="#FFF">Полит.</text>
+  <rect x="170" y="150" width="60" height="25" rx="5" fill="#38A169" opacity="0.5"/><text x="200" y="167" text-anchor="middle" font-size="8" fill="#FFF">Социальн.</text>
+  <rect x="270" y="150" width="60" height="25" rx="5" fill="#D69E2E" opacity="0.5"/><text x="300" y="167" text-anchor="middle" font-size="8" fill="#FFF">Духовн.</text>
+  <!-- Connections -->
+  <g stroke="#A0AEC0" stroke-width="1" opacity="0.3">
+    <line x1="230" y1="112" x2="270" y2="112"/><line x1="230" y1="162" x2="270" y2="162"/>
+    <line x1="200" y1="125" x2="200" y2="150"/><line x1="300" y1="125" x2="300" y2="150"/>
+  </g>
+  <!-- Institute icons -->
+  <g transform="translate(80,220)" opacity="0.5">
+    <rect x="0" y="0" width="30" height="25" rx="3" fill="#9F7AEA"/><text x="15" y="17" text-anchor="middle" font-size="7" fill="#FFF">Семья</text>
+  </g>
+  <g transform="translate(130,220)" opacity="0.5">
+    <rect x="0" y="0" width="30" height="25" rx="3" fill="#E53E3E"/><text x="15" y="17" text-anchor="middle" font-size="7" fill="#FFF">Гос.</text>
+  </g>
+  <g transform="translate(180,220)" opacity="0.5">
+    <rect x="0" y="0" width="30" height="25" rx="3" fill="#3182CE"/><text x="15" y="17" text-anchor="middle" font-size="7" fill="#FFF">Рел.</text>
+  </g>
+  <g transform="translate(230,220)" opacity="0.5">
+    <rect x="0" y="0" width="30" height="25" rx="3" fill="#38A169"/><text x="15" y="17" text-anchor="middle" font-size="7" fill="#FFF">Обр.</text>
+  </g>
+  <g transform="translate(280,220)" opacity="0.5">
+    <rect x="0" y="0" width="30" height="25" rx="3" fill="#D69E2E"/><text x="15" y="17" text-anchor="middle" font-size="7" fill="#FFF">Пр-во</text>
+  </g>
+  <text x="250" y="290" text-anchor="middle" font-size="18" fill="#E2E8F0" font-weight="bold" opacity="0.6">Общество как система</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#E2E8F0" opacity="0.5">Общество как система</text>
 </svg>

@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+<linearGradient id="peat1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#8D6E63"/><stop offset="100%" stop-color="#5D4037"/></linearGradient>
+<linearGradient id="peat2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#6D4C41"/><stop offset="100%" stop-color="#3E2723"/></linearGradient>
+<linearGradient id="coal" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#424242"/><stop offset="100%" stop-color="#212121"/></linearGradient>
+<linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4FC3F7"/><stop offset="100%" stop-color="#0288D1"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Роль споровых растений в природе и жизни человека</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 6 класс — Урок 21</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- PEAT BOG CROSS-SECTION (left) -->
+<text x="115" y="68" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">Торфяное болото</text>
+
+<!-- Sky -->
+<rect x="20" y="74" width="190" height="25" fill="#81D4FA" opacity="0.4"/>
+<!-- Water surface -->
+<ellipse cx="115" cy="99" rx="95" ry="8" fill="url(#water)" opacity="0.5"/>
+<!-- Sphagnum layer -->
+<rect x="25" y="97" width="180" height="18" rx="3" fill="#66BB6A" opacity="0.7"/>
+<text x="115" y="109" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle">Сфагнум (живой)</text>
+<!-- Moss remains layer -->
+<rect x="25" y="115" width="180" height="18" rx="2" fill="#8D6E63" opacity="0.6"/>
+<text x="115" y="127" font-family="Arial,sans-serif" font-size="6" fill="#FFF" text-anchor="middle">Полуразложившийся торф</text>
+<!-- Brown peat -->
+<rect x="25" y="133" width="180" height="22" rx="2" fill="url(#peat1)" opacity="0.8"/>
+<text x="115" y="147" font-family="Arial,sans-serif" font-size="6" fill="#FFF" text-anchor="middle">Бурый торф</text>
+<!-- Black peat -->
+<rect x="25" y="155" width="180" height="22" rx="2" fill="url(#peat2)"/>
+<text x="115" y="169" font-family="Arial,sans-serif" font-size="6" fill="#FFF" text-anchor="middle">Чёрный торф</text>
+<!-- Clay base -->
+<rect x="25" y="177" width="180" height="15" rx="2" fill="#A1887F" opacity="0.6"/>
+<text x="115" y="188" font-family="Arial,sans-serif" font-size="6" fill="#5D4037" text-anchor="middle">Глина (водоупор)</text>
+
+<!-- Moss plants on top -->
+<g transform="translate(40,88)">
+  <line x1="0" y1="10" x2="0" y2="0" stroke="#2E7D32" stroke-width="1"/>
+  <circle cx="0" cy="-1" r="2" fill="#4CAF50"/>
+  <line x1="5" y1="10" x2="5" y2="2" stroke="#2E7D32" stroke-width="1"/>
+  <circle cx="5" cy="1" r="2" fill="#4CAF50"/>
+  <line x1="10" y1="10" x2="10" y2="1" stroke="#2E7D32" stroke-width="1"/>
+  <circle cx="10" cy="0" r="2" fill="#4CAF50"/>
+</g>
+<g transform="translate(165,86)">
+  <line x1="0" y1="12" x2="0" y2="0" stroke="#2E7D32" stroke-width="1"/>
+  <circle cx="0" cy="-1" r="2" fill="#4CAF50"/>
+  <line x1="6" y1="12" x2="6" y2="2" stroke="#2E7D32" stroke-width="1"/>
+  <circle cx="6" cy="1" r="2" fill="#4CAF50"/>
+  <line x1="12" y1="12" x2="12" y2="1" stroke="#2E7D32" stroke-width="1"/>
+  <circle cx="12" cy="0" r="2" fill="#4CAF50"/>
+</g>
+
+<!-- Fern on bog edge -->
+<g transform="translate(55,78)">
+  <path d="M0,20 Q5,10 0,0" fill="none" stroke="#388E3C" stroke-width="1"/>
+  <path d="M0,15 Q-8,12 -5,8" fill="none" stroke="#388E3C" stroke-width="0.7"/>
+  <path d="M0,10 Q8,7 5,3" fill="none" stroke="#388E3C" stroke-width="0.7"/>
+</g>
+
+<!-- Arrow labels -->
+<text x="115" y="205" font-family="Arial,sans-serif" font-size="6" fill="#5D4037" text-anchor="middle">↓ Давление + время</text>
+<path d="M90,208 L90,220 L80,220 L115,232 L150,220 L140,220 L140,208" fill="url(#coal)" stroke="#333" stroke-width="0.5"/>
+<text x="115" y="218" font-family="Arial,sans-serif" font-size="6" fill="#FFF" text-anchor="middle">КАМЕННЫЙ</text>
+<text x="115" y="227" font-family="Arial,sans-serif" font-size="6" fill="#FFF" text-anchor="middle">УГОЛЬ</text>
+
+<!-- CARBONIFEROUS FOREST (center) -->
+<text x="310" y="68" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">Карбоновый лес (300 млн л.н.)</text>
+
+<!-- Ground -->
+<rect x="215" y="215" width="190" height="15" rx="2" fill="#795548" opacity="0.5"/>
+<rect x="215" y="225" width="190" height="20" rx="2" fill="#5D4037" opacity="0.5"/>
+
+<!-- Giant fern tree 1 (Lepidodendron) -->
+<g transform="translate(260,78)">
+  <rect x="-4" y="0" width="8" height="137" fill="#5D4037" rx="2"/>
+  <!-- Bark pattern -->
+  <line x1="-4" y1="20" x2="4" y2="20" stroke="#4E342E" stroke-width="0.5"/>
+  <line x1="-4" y1="40" x2="4" y2="40" stroke="#4E342E" stroke-width="0.5"/>
+  <line x1="-4" y1="60" x2="4" y2="60" stroke="#4E342E" stroke-width="0.5"/>
+  <line x1="-4" y1="80" x2="4" y2="80" stroke="#4E342E" stroke-width="0.5"/>
+  <!-- Crown -->
+  <ellipse cx="0" cy="-10" rx="22" ry="25" fill="#2E7D32" opacity="0.7"/>
+  <ellipse cx="-15" cy="5" rx="12" ry="15" fill="#388E3C" opacity="0.6"/>
+  <ellipse cx="15" cy="5" rx="12" ry="15" fill="#388E3C" opacity="0.6"/>
+  <text x="0" y="-38" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle">Лепидодендрон</text>
+</g>
+
+<!-- Giant horsetail (Calamites) -->
+<g transform="translate(330,100)">
+  <line x1="0" y1="115" x2="0" y2="0" stroke="#5D4037" stroke-width="5"/>
+  <!-- Nodes -->
+  <line x1="-8" y1="20" x2="8" y2="20" stroke="#5D4037" stroke-width="2"/>
+  <line x1="-8" y1="50" x2="8" y2="50" stroke="#5D4037" stroke-width="2"/>
+  <line x1="-8" y1="80" x2="8" y2="80" stroke="#5D4037" stroke-width="2"/>
+  <!-- Whorled branches -->
+  <line x1="0" y1="20" x2="15" y2="10" stroke="#388E3C" stroke-width="1"/>
+  <line x1="0" y1="20" x2="-15" y2="10" stroke="#388E3C" stroke-width="1"/>
+  <line x1="0" y1="50" x2="15" y2="40" stroke="#388E3C" stroke-width="1"/>
+  <line x1="0" y1="50" x2="-15" y2="40" stroke="#388E3C" stroke-width="1"/>
+  <line x1="0" y1="80" x2="15" y2="70" stroke="#388E3C" stroke-width="1"/>
+  <line x1="0" y1="80" x2="-15" y2="70" stroke="#388E3C" stroke-width="1"/>
+  <!-- Top -->
+  <ellipse cx="0" cy="-5" rx="8" ry="10" fill="#388E3C" opacity="0.7"/>
+  <text x="0" y="-18" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle">Каламит</text>
+</g>
+
+<!-- Giant fern -->
+<g transform="translate(380,140)">
+  <path d="M0,75 Q0,40 -5,0" fill="none" stroke="#2E7D32" stroke-width="2"/>
+  <path d="M-5,20 Q-25,15 -30,5" fill="none" stroke="#388E3C" stroke-width="1.5"/>
+  <path d="M-5,30 Q15,25 20,15" fill="none" stroke="#388E3C" stroke-width="1.5"/>
+  <path d="M-5,40 Q-30,35 -35,25" fill="none" stroke="#388E3C" stroke-width="1"/>
+  <text x="-10" y="-5" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle">Папоротник</text>
+</g>
+
+<!-- Small ferns on ground -->
+<g transform="translate(235,200)">
+  <path d="M0,15 Q-8,8 -12,2" fill="none" stroke="#4CAF50" stroke-width="1"/>
+  <path d="M0,15 Q8,8 12,2" fill="none" stroke="#4CAF50" stroke-width="1"/>
+</g>
+<g transform="translate(350,205)">
+  <path d="M0,10 Q-6,5 -8,0" fill="none" stroke="#4CAF50" stroke-width="1"/>
+  <path d="M0,10 Q6,5 8,0" fill="none" stroke="#4CAF50" stroke-width="1"/>
+</g>
+
+<!-- USES OF SPORE PLANTS (bottom right) -->
+<text x="310" y="252" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">Использование споровых растений</text>
+
+<!-- Peat as fuel -->
+<g transform="translate(230,270)">
+  <rect x="-15" y="-8" width="30" height="16" rx="2" fill="#8D6E63" stroke="#5D4037" stroke-width="1"/>
+  <text x="0" y="3" font-family="Arial,sans-serif" font-size="5" fill="#FFF" text-anchor="middle">ТОПЛИВО</text>
+  <!-- Flame -->
+  <path d="M0,-12 Q5,-18 0,-22 Q-5,-18 0,-12" fill="#FF9800" opacity="0.8"/>
+  <path d="M0,-14 Q3,-18 0,-20 Q-3,-18 0,-14" fill="#FFEB3B" opacity="0.7"/>
+</g>
+
+<!-- Peat as fertilizer -->
+<g transform="translate(285,270)">
+  <rect x="-15" y="-8" width="30" height="16" rx="2" fill="#A5D6A7" stroke="#388E3C" stroke-width="1"/>
+  <text x="0" y="3" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20" text-anchor="middle">УДОБРЕНИЕ</text>
+  <!-- Plant -->
+  <line x1="0" y1="-8" x2="0" y2="-16" stroke="#2E7D32" stroke-width="1"/>
+  <ellipse cx="-3" cy="-18" rx="4" ry="3" fill="#4CAF50"/>
+  <ellipse cx="3" cy="-18" rx="4" ry="3" fill="#4CAF50"/>
+</g>
+
+<!-- Lycopodium spores (medicine) -->
+<g transform="translate(340,270)">
+  <rect x="-15" y="-8" width="30" height="16" rx="2" fill="#EF9A9A" stroke="#C62828" stroke-width="1"/>
+  <text x="0" y="3" font-family="Arial,sans-serif" font-size="5" fill="#B71C1C" text-anchor="middle">МЕДИЦИНА</text>
+  <!-- Cross -->
+  <line x1="-3" y1="-18" x2="3" y2="-18" stroke="#C62828" stroke-width="1.5"/>
+  <line x1="0" y1="-21" x2="0" y2="-15" stroke="#C62828" stroke-width="1.5"/>
+</g>
+
+<!-- Coal -->
+<g transform="translate(395,270)">
+  <rect x="-15" y="-8" width="30" height="16" rx="2" fill="#616161" stroke="#333" stroke-width="1"/>
+  <text x="0" y="3" font-family="Arial,sans-serif" font-size="5" fill="#FFF" text-anchor="middle">УГОЛЬ</text>
+  <!-- Pickaxe -->
+  <line x1="-5" y1="-18" x2="5" y2="-14" stroke="#795548" stroke-width="1.5"/>
+  <line x1="3" y1="-18" x2="7" y2="-12" stroke="#9E9E9E" stroke-width="1"/>
+</g>
+
+<!-- Ecological role labels (bottom left) -->
+<text x="115" y="250" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">Роль в природе</text>
+<text x="115" y="263" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">• Накопление воды мхами</text>
+<text x="115" y="275" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">• Образование торфа и угля</text>
+<text x="115" y="287" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">• Почвообразование</text>
+<text x="115" y="299" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">• Биоиндикаторы (хвощи)</text>
+<text x="115" y="311" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">• Кислород древних лесов</text>
+
+<!-- Conservation note -->
+<text x="310" y="300" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">!! Редкие споровые растения</text>
+<text x="310" y="312" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">в Красной книге России</text>
+
+<!-- Water retention diagram -->
+<g transform="translate(115,237)">
+  <path d="M-50,0 Q-30,-5 -10,0 Q10,-5 30,0 Q50,-5 60,0" fill="none" stroke="#0288D1" stroke-width="0.8" opacity="0.5"/>
+</g>
+</svg>

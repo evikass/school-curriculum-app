@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1565C0"/>
+      <stop offset="100%" stop-color="#1976D2"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+  <text x="250" y="28" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1565C0" text-anchor="middle">Инерция. Первый закон Ньютона</text>
+  <text x="250" y="44" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Физика 10 класс — Урок 11</text>
+  <line x1="30" y1="52" x2="470" y2="52" stroke="#1565C0" stroke-width="1.5" opacity="0.25"/>
+  <clipPath id="ill"><rect x="15" y="56" width="470" height="238" rx="6"/></clipPath>
+  <g clip-path="url(#ill)">
+    <rect x="15" y="56" width="470" height="238" fill="#E3F2FD" opacity="0.4"/>
+
+    <!-- Galileo experiment: inclined planes -->
+    <rect x="25" y="62" width="225" height="130" rx="5" fill="white" stroke="#1565C0" stroke-width="1.2"/>
+    <text x="137" y="78" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" font-weight="bold" text-anchor="middle">Опыт Галилея</text>
+
+    <!-- Left ramp -->
+    <line x1="40" y1="170" x2="100" y2="110" stroke="#795548" stroke-width="2.5"/>
+    <!-- Right ramp - different angles -->
+    <line x1="100" y1="170" x2="150" y2="120" stroke="#795548" stroke-width="2.5"/>
+    <!-- Flat extension -->
+    <line x1="150" y1="120" x2="240" y2="120" stroke="#795548" stroke-width="1.5" stroke-dasharray="4,2"/>
+
+    <!-- Ball on left ramp -->
+    <circle cx="72" cy="137" r="6" fill="#E53935"/>
+    <!-- Ball rolling up right ramp -->
+    <circle cx="130" cy="130" r="6" fill="#E53935" opacity="0.7"/>
+
+    <!-- Ground line -->
+    <line x1="35" y1="170" x2="155" y2="170" stroke="#795548" stroke-width="1.5"/>
+
+    <!-- Arrow showing motion -->
+    <path d="M 80 132 Q 110 125 125 130" fill="none" stroke="#F57C00" stroke-width="1.5"/>
+    <polygon points="125,130 118,127 120,135" fill="#F57C00"/>
+
+    <text x="137" y="190" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Без трения: h1 = h2</text>
+
+    <!-- First law illustration: object at rest / constant velocity -->
+    <rect x="260" y="62" width="215" height="130" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.2"/>
+    <text x="367" y="78" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" font-weight="bold" text-anchor="middle">I закон Ньютона</text>
+
+    <!-- Object at rest -->
+    <rect x="275" y="95" width="30" height="20" rx="3" fill="#1565C0"/>
+    <text x="290" y="125" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">v = 0</text>
+    <text x="290" y="135" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Покой</text>
+
+    <!-- Object moving at constant v -->
+    <rect x="360" y="95" width="30" height="20" rx="3" fill="#E53935"/>
+    <line x1="395" y1="105" x2="451.0" y2="105.0" stroke="#2E7D32" stroke-width="2"/>
+    <polygon points="455,105 447.0,108.2 447.0,101.8" fill="#2E7D32"/>
+    <text x="425" y="125" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">v = const</text>
+    <text x="425" y="135" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Равномерно</text>
+
+    <!-- No net force -->
+    <text x="367" y="155" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" font-weight="bold" text-anchor="middle">F(рез) = 0</text>
+    <text x="367" y="170" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Существуют ИСО, где:</text>
+    <text x="367" y="182" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">если F = 0, то v = const</text>
+
+    <!-- Inertial reference frames -->
+    <rect x="25" y="205" width="225" height="70" rx="5" fill="white" stroke="#F57C00" stroke-width="1.2"/>
+    <text x="137" y="221" font-family="Arial,sans-serif" font-size="9" fill="#F57C00" font-weight="bold" text-anchor="middle">Инерциальные системы отсчёта</text>
+    <line x1="35" y1="226" x2="240" y2="226" stroke="#F57C00" stroke-width="0.5" opacity="0.3"/>
+    <text x="137" y="241" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">ИСО — система, где тело без сил</text>
+    <text x="137" y="255" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">движется равномерно или покоится</text>
+    <text x="137" y="269" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Все ИСО эквивалентны (относительность)</text>
+
+    <!-- Key concept -->
+    <rect x="260" y="205" width="215" height="70" rx="5" fill="white" stroke="#7B1FA2" stroke-width="1.2"/>
+    <text x="367" y="221" font-family="Arial,sans-serif" font-size="9" fill="#7B1FA2" font-weight="bold" text-anchor="middle">Суть инерции</text>
+    <line x1="270" y1="226" x2="465" y2="226" stroke="#7B1FA2" stroke-width="0.5" opacity="0.3"/>
+    <text x="367" y="241" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">Тело сохраняет состояние покоя</text>
+    <text x="367" y="255" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">или равномерного движения</text>
+    <text x="367" y="269" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Сила нужна для изменения скорости</text>
+    
+  </g>
+  <rect x="12" y="298" width="476" height="42" rx="5" fill="url(#panel)"/>
+  <text x="250" y="316" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Динамика</text>
+  <text x="250" y="332" font-family="Arial,sans-serif" font-size="10" text-anchor="middle" fill="white" opacity="0.8">Урок 11</text>
+</svg>

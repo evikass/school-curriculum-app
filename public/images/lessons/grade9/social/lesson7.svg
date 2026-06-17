@@ -1,40 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#EFEBE9"/>
-      <stop offset="100%" stop-color="#FFF"/>
-    </linearGradient>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#8D6E63"/>
-      <stop offset="100%" stop-color="#4E342E"/>
-    </linearGradient>
-  </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#8D6E63" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#8D6E63" stroke-width="1" opacity="0.3"/>
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#8D6E63" text-anchor="middle">Познание мира</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Обществознание — Урок 7</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#8D6E63" stroke-width="2" opacity="0.25"/>
-  <rect x="15" y="72" width="235" height="225" rx="4" fill="#8D6E63" opacity="0.05"/>
-  <text x="22" y="88" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Познание —</text>
-  <text x="85" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333">процесс получения знаний</text>
-  <text x="22" y="108" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Виды:</text>
-  <text x="85" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333">Чувственное — ощущения, восприятие</text>
-  <text x="32" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333">  Представление — образ без объекта</text>
-  <text x="32" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333">Рациональное — понятия, суждения</text>
-  <text x="32" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333">  Умозаключение — вывод из посылок</text>
-  <rect x="255" y="72" width="230" height="225" rx="4" fill="#8D6E63" opacity="0.05"/>
-  <text x="262" y="88" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Истина:</text>
-  <text x="325" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333">Объективная — не зависит от мнения</text>
-  <text x="272" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333">Относительная — ограничена временем</text>
-  <text x="272" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333">Абсолютная — полная, исчерпывающая</text>
-  <text x="262" y="148" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Критерии:</text>
-  <text x="325" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333">Практика — главный критерий истины</text>
-  <text x="272" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333">Логика, опыт, эксперимент</text>
-  <rect x="15" y="280" width="235" height="18" rx="4" fill="#8D6E63" opacity="0.06"/>
-  <text x="132" y="293" font-family="Arial,sans-serif" font-size="9" fill="#4E342E" text-anchor="middle" font-weight="bold">Практика — критерий истины</text>
-  <rect x="255" y="280" width="230" height="18" rx="4" fill="#8D6E63" opacity="0.06"/>
-  <text x="370" y="293" font-family="Arial,sans-serif" font-size="9" fill="#4E342E" text-anchor="middle" font-weight="bold">Знание = Чувственное + Рациональное</text>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Обществознание · Познание мира</text>
+  <rect width="500" height="350" fill="#2D3748"/>
+  <!-- Supply and Demand curves -->
+  <line x1="80" y1="280" x2="80" y2="40" stroke="#E2E8F0" stroke-width="2" opacity="0.4"/>
+  <line x1="80" y1="280" x2="440" y2="280" stroke="#E2E8F0" stroke-width="2" opacity="0.4"/>
+  <text x="70" y="38" text-anchor="end" font-size="9" fill="#A0AEC0" opacity="0.5">Цена</text>
+  <text x="440" y="295" text-anchor="end" font-size="9" fill="#A0AEC0" opacity="0.5">Кол-во</text>
+  <!-- Demand curve (down) -->
+  <path d="M120 80 Q250 150 400 250" fill="none" stroke="#63B3ED" stroke-width="3" opacity="0.6"/>
+  <text x="130" y="75" font-size="10" fill="#63B3ED" opacity="0.6">Спрос</text>
+  <!-- Supply curve (up) -->
+  <path d="M120 250 Q250 180 400 80" fill="none" stroke="#FC8181" stroke-width="3" opacity="0.6"/>
+  <text x="390" y="75" font-size="10" fill="#FC8181" opacity="0.6">Предл.</text>
+  <!-- Equilibrium point -->
+  <circle cx="255" cy="165" r="6" fill="#F6E05E" opacity="0.7"/>
+  <text x="268" y="160" font-size="9" fill="#F6E05E" opacity="0.7">Равновесие</text>
+  <text x="250" y="310" text-anchor="middle" font-size="18" fill="#E2E8F0" font-weight="bold" opacity="0.6">Рыночная экономика</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#E2E8F0" opacity="0.5">Рыночная экономика</text>
 </svg>

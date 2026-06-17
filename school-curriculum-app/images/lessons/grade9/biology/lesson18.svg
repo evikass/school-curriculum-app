@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" font-family="Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg18" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="100%" stop-color="#BBDEFB"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg18)" rx="8"/>
+  <text x="250" y="25" text-anchor="middle" font-size="16" font-weight="bold" fill="#0D47A1">Органоиды клетки</text>
+  <text x="250" y="38" text-anchor="middle" font-size="9" fill="#1565C0">Сравнение растительной и животной клеток</text>
+  <line x1="80" y1="43" x2="420" y2="43" stroke="#1565C0" stroke-width="1"/>
+
+  <!-- LEFT: Animal cell -->
+  <ellipse cx="135" cy="175" rx="110" ry="100" fill="#BBDEFB" fill-opacity="0.3" stroke="#1565C0" stroke-width="2"/>
+  <text x="135" y="63" text-anchor="middle" font-size="11" font-weight="bold" fill="#0D47A1">Животная клетка</text>
+
+  <!-- Nucleus animal -->
+  <ellipse cx="135" cy="170" rx="35" ry="30" fill="#90CAF9" fill-opacity="0.5" stroke="#0D47A1" stroke-width="1.5"/>
+  <circle cx="140" cy="166" r="8" fill="#42A5F5" stroke="#1565C0" stroke-width="0.8"/>
+  <text x="135" y="170" text-anchor="middle" font-size="5" fill="#0D47A1">яд.</text>
+
+  <!-- ER animal -->
+  <path d="M90,140 Q82,148 88,158 Q94,168 86,175" stroke="#1E88E5" stroke-width="1.2" fill="none"/>
+  <path d="M85,140 Q77,148 83,158 Q89,168 81,175" stroke="#1E88E5" stroke-width="1.2" fill="none"/>
+
+  <!-- Golgi animal -->
+  <path d="M155,140 Q165,135 175,140" stroke="#FF9800" stroke-width="2" fill="none"/>
+  <path d="M153,146 Q165,141 177,146" stroke="#FF9800" stroke-width="2" fill="none"/>
+  <path d="M155,152 Q165,147 175,152" stroke="#FF9800" stroke-width="2" fill="none"/>
+
+  <!-- Mitochondria animal -->
+  <ellipse cx="95" cy="210" rx="20" ry="10" fill="#CE93D8" fill-opacity="0.4" stroke="#7B1FA2" stroke-width="1.2"/>
+  <path d="M85,207 Q90,203 95,207" stroke="#7B1FA2" stroke-width="0.8" fill="none"/>
+  <path d="M95,209 Q100,205 105,209" stroke="#7B1FA2" stroke-width="0.8" fill="none"/>
+
+  <!-- Lysosome animal -->
+  <circle cx="175" cy="210" r="8" fill="#A5D6A7" fill-opacity="0.6" stroke="#2E7D32" stroke-width="1"/>
+  <circle cx="180" cy="220" r="5" fill="#A5D6A7" fill-opacity="0.5" stroke="#2E7D32" stroke-width="0.8"/>
+
+  <!-- Ribosomes animal -->
+  <circle cx="105" cy="145" r="2" fill="#E53935"/>
+  <circle cx="88" cy="162" r="2" fill="#E53935"/>
+  <circle cx="170" cy="165" r="2" fill="#E53935"/>
+
+  <!-- Centrioles animal -->
+  <rect x="165" y="190" width="8" height="3" rx="1" fill="#795548" stroke="#4E342E" stroke-width="0.5"/>
+  <rect x="166" y="193" width="8" height="3" rx="1" fill="#795548" stroke="#4E342E" stroke-width="0.5" transform="rotate(90,170,194)"/>
+
+  <!-- RIGHT: Plant cell -->
+  <rect x="265" y="70" width="220" height="210" rx="5" fill="#C8E6C9" fill-opacity="0.3" stroke="#2E7D32" stroke-width="2"/>
+  <text x="375" y="63" text-anchor="middle" font-size="11" font-weight="bold" fill="#1B5E20">Растительная клетка</text>
+
+  <!-- Cell wall -->
+  <rect x="265" y="70" width="220" height="210" rx="5" fill="none" stroke="#4E342E" stroke-width="3" stroke-opacity="0.3"/>
+  <text x="488" y="140" font-size="6" fill="#4E342E" transform="rotate(90,488,140)">Клет. стенка</text>
+
+  <!-- Nucleus plant -->
+  <ellipse cx="345" cy="160" rx="30" ry="25" fill="#90CAF9" fill-opacity="0.5" stroke="#0D47A1" stroke-width="1.5"/>
+  <circle cx="350" cy="156" r="7" fill="#42A5F5" stroke="#1565C0" stroke-width="0.8"/>
+
+  <!-- Chloroplast -->
+  <ellipse cx="310" cy="115" rx="22" ry="10" fill="#66BB6A" fill-opacity="0.6" stroke="#1B5E20" stroke-width="1.5"/>
+  <!-- Thylakoids inside -->
+  <ellipse cx="310" cy="115" rx="14" ry="5" fill="none" stroke="#2E7D32" stroke-width="0.8"/>
+  <line x1="310" y1="109" x2="310" y2="121" stroke="#2E7D32" stroke-width="0.8"/>
+
+  <!-- Vacuole - large -->
+  <ellipse cx="395" cy="175" rx="50" ry="55" fill="#E1F5FE" fill-opacity="0.5" stroke="#42A5F5" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <text x="395" y="175" text-anchor="middle" font-size="7" fill="#1565C0">Вакуоль</text>
+  <text x="395" y="185" text-anchor="middle" font-size="6" fill="#42A5F5">Клет. сок</text>
+
+  <!-- Mitochondria plant -->
+  <ellipse cx="290" cy="195" rx="18" ry="9" fill="#CE93D8" fill-opacity="0.4" stroke="#7B1FA2" stroke-width="1.2"/>
+  <path d="M282,192 Q287,188 292,192" stroke="#7B1FA2" stroke-width="0.8" fill="none"/>
+
+  <!-- ER plant -->
+  <path d="M315,175 Q308,180 314,188 Q320,196 312,200" stroke="#1E88E5" stroke-width="1.2" fill="none"/>
+  <path d="M320,175 Q313,180 319,188 Q325,196 317,200" stroke="#1E88E5" stroke-width="1.2" fill="none"/>
+
+  <!-- Golgi plant -->
+  <path d="M330,135 Q340,130 350,135" stroke="#FF9800" stroke-width="1.5" fill="none"/>
+  <path d="M328,140 Q340,135 352,140" stroke="#FF9800" stroke-width="1.5" fill="none"/>
+
+  <!-- Plastids note -->
+  <ellipse cx="290" cy="235" rx="18" ry="9" fill="#A5D6A7" fill-opacity="0.5" stroke="#2E7D32" stroke-width="1"/>
+  <text x="290" y="250" text-anchor="middle" font-size="5" fill="#2E7D32">Лейкопласт</text>
+
+  <!-- COMPARISON TABLE at bottom -->
+  <rect x="15" y="290" width="470" height="55" rx="6" fill="#E3F2FD" fill-opacity="0.5" stroke="#1565C0" stroke-width="1"/>
+  <text x="250" y="304" text-anchor="middle" font-size="9" font-weight="bold" fill="#0D47A1">Различия</text>
+  
+  <text x="55" y="318" font-size="7" fill="#0D47A1" font-weight="bold">Признак</text>
+  <text x="180" y="318" font-size="7" fill="#0D47A1" font-weight="bold">Животная</text>
+  <text x="340" y="318" font-size="7" fill="#1B5E20" font-weight="bold">Растительная</text>
+  <line x1="20" y1="322" x2="480" y2="322" stroke="#90CAF9" stroke-width="0.5"/>
+  
+  <text x="55" y="332" font-size="6.5" fill="#424242">Клет. стенка</text>
+  <text x="180" y="332" font-size="6.5" fill="#C62828">✗ Нет</text>
+  <text x="340" y="332" font-size="6.5" fill="#2E7D32">✓ Целлюлоза</text>
+  
+  <text x="55" y="342" font-size="6.5" fill="#424242">Хлоропласты / Вакуоль / Центриоли</text>
+  <text x="290" y="342" font-size="6.5" fill="#C62828">✗ / ✗ / ✓</text>
+  <text x="400" y="342" font-size="6.5" fill="#2E7D32">✓ / ✓ / ✗</text>
+</svg>

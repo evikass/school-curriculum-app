@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1565C0"/>
+      <stop offset="100%" stop-color="#1976D2"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+  <text x="250" y="28" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1565C0" text-anchor="middle">Закон сохранения энергии в механике</text>
+  <text x="250" y="44" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Физика 10 класс — Урок 27</text>
+  <line x1="30" y1="52" x2="470" y2="52" stroke="#1565C0" stroke-width="1.5" opacity="0.25"/>
+  <clipPath id="ill"><rect x="15" y="56" width="470" height="238" rx="6"/></clipPath>
+  <g clip-path="url(#ill)">
+    <rect x="15" y="56" width="470" height="238" fill="#E3F2FD" opacity="0.4"/>
+
+    <!-- Pendulum at different positions -->
+    <rect x="25" y="62" width="300" height="170" rx="5" fill="white" stroke="#1565C0" stroke-width="1.2"/>
+    <text x="175" y="78" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" font-weight="bold" text-anchor="middle">Маятник: превращение энергии</text>
+
+    <!-- Pivot -->
+    <circle cx="175" cy="90" r="4" fill="#555"/>
+
+    <!-- Position 1: top left (max height, v=0) -->
+    <line x1="175" y1="90" x2="100" y2="130" stroke="#555" stroke-width="1.5"/>
+    <circle cx="100" cy="130" r="8" fill="#E53935"/>
+    <text x="100" y="134" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle">1</text>
+    <text x="72" y="120" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32">E(п)=max</text>
+    <text x="72" y="130" font-family="Arial,sans-serif" font-size="7" fill="#E53935">E(k)=0</text>
+
+    <!-- Position 2: bottom (max v, h=0) -->
+    <line x1="175" y1="90" x2="175" y2="210" stroke="#555" stroke-width="1.5"/>
+    <circle cx="175" cy="210" r="8" fill="#2E7D32"/>
+    <text x="175" y="214" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle">2</text>
+    <text x="195" y="205" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32">E(п)=0</text>
+    <text x="195" y="215" font-family="Arial,sans-serif" font-size="7" fill="#E53935">E(k)=max</text>
+    <!-- Velocity at bottom -->
+    <line x1="185" y1="210" x2="217.5" y2="210.0" stroke="#2E7D32" stroke-width="1.5"/>
+    <polygon points="220,210 215.0,212.0 215.0,208.0" fill="#2E7D32"/>
+    <text x="215" y="205" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32">v(max)</text>
+
+    <!-- Position 3: top right -->
+    <line x1="175" y1="90" x2="250" y2="130" stroke="#555" stroke-width="1.5"/>
+    <circle cx="250" cy="130" r="8" fill="#E53935"/>
+    <text x="250" y="134" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle">3</text>
+    <text x="262" y="120" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32">E(п)=max</text>
+    <text x="262" y="130" font-family="Arial,sans-serif" font-size="7" fill="#E53935">E(k)=0</text>
+
+    <!-- Arc path -->
+    <path d="M 100 130 Q 175 220 250 130" fill="none" stroke="#42A5F5" stroke-width="1.5" stroke-dasharray="4,2"/>
+
+    <!-- Height labels -->
+    <line x1="100" y1="215" x2="100" y2="130" stroke="#F57C00" stroke-width="1" stroke-dasharray="2,2"/>
+    <text x="88" y="175" font-family="Arial,sans-serif" font-size="8" fill="#F57C00" text-anchor="end">h</text>
+
+    <!-- Formula -->
+    <rect x="335" y="62" width="140" height="80" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
+    <text x="405" y="78" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" font-weight="bold" text-anchor="middle">Закон сохранения</text>
+    <line x1="345" y1="83" x2="465" y2="83" stroke="#2E7D32" stroke-width="0.5" opacity="0.3"/>
+    <text x="405" y="100" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle" font-weight="bold">E = const</text>
+    <text x="405" y="118" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">E(k) + E(п) = const</text>
+    <text x="405" y="132" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Если F(тр) = 0</text>
+
+    <!-- Energy bar chart -->
+    <rect x="335" y="150" width="140" height="82" rx="5" fill="white" stroke="#F57C00" stroke-width="1.2"/>
+    <text x="405" y="165" font-family="Arial,sans-serif" font-size="8" fill="#F57C00" font-weight="bold" text-anchor="middle">Распределение энергии</text>
+
+    <!-- Position 1 bars -->
+    <rect x="350" y="170" width="15" height="50" rx="1" fill="#2E7D32" opacity="0.7"/>
+    <rect x="367" y="218" width="15" height="2" rx="1" fill="#E53935" opacity="0.7"/>
+    <text x="365" y="228" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">1</text>
+
+    <!-- Position 2 bars -->
+    <rect x="395" y="218" width="15" height="2" rx="1" fill="#2E7D32" opacity="0.7"/>
+    <rect x="412" y="170" width="15" height="50" rx="1" fill="#E53935" opacity="0.7"/>
+    <text x="410" y="228" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">2</text>
+
+    <!-- Position 3 bars -->
+    <rect x="440" y="170" width="15" height="50" rx="1" fill="#2E7D32" opacity="0.7"/>
+    <rect x="457" y="218" width="15" height="2" rx="1" fill="#E53935" opacity="0.7"/>
+    <text x="455" y="228" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">3</text>
+
+    <!-- Legend -->
+    <rect x="350" y="217" width="10" height="5" fill="#2E7D32" opacity="0.7"/>
+    <text x="365" y="222" font-family="Arial,sans-serif" font-size="6" fill="#555">E(п)</text>
+    <rect x="395" y="217" width="10" height="5" fill="#E53935" opacity="0.7"/>
+    <text x="410" y="222" font-family="Arial,sans-serif" font-size="6" fill="#555">E(k)</text>
+
+    <!-- With friction -->
+    <rect x="25" y="248" width="450" height="28" rx="4" fill="white" stroke="#E53935" stroke-width="1"/>
+    <text x="250" y="266" font-family="Arial,sans-serif" font-size="8" fill="#E53935" text-anchor="middle">С трением: E(k1)+E(п1) = E(k2)+E(п2) + A(тр) | A(тр) = Q (теплота) | Энергия не исчезает!</text>
+    
+  </g>
+  <rect x="12" y="298" width="476" height="42" rx="5" fill="url(#panel)"/>
+  <text x="250" y="316" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Законы сохранения</text>
+  <text x="250" y="332" font-family="Arial,sans-serif" font-size="10" text-anchor="middle" fill="white" opacity="0.8">Урок 27</text>
+</svg>

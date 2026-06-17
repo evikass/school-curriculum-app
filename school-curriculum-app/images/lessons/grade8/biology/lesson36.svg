@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+    <linearGradient id="grayMatter" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#9E9E9E"/>
+      <stop offset="100%" stop-color="#757575"/>
+    </linearGradient>
+    <linearGradient id="whiteMatter" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FAFAFA"/>
+      <stop offset="100%" stop-color="#E0E0E0"/>
+    </linearGradient>
+    <linearGradient id="nerveGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF8A65"/>
+      <stop offset="100%" stop-color="#E64A19"/>
+    </linearGradient>
+    <linearGradient id="reflexGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7E57C2"/>
+      <stop offset="100%" stop-color="#4527A0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="350" rx="12" fill="url(#bg)" stroke="#2E7D32" stroke-width="2"/>
+
+  <!-- Title -->
+  <text x="250" y="22" text-anchor="middle" font-size="14" font-weight="bold" fill="#1B5E20" font-family="Arial">Спинной мозг: строение и функции</text>
+  <text x="250" y="35" text-anchor="middle" font-size="9" fill="#666" font-family="Arial">Биология 8 класс — Урок 36</text>
+  <line x1="15" y1="42" x2="485" y2="42" stroke="#2E7D32" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- ===== SPINAL CORD CROSS-SECTION (left side) ===== -->
+  <!-- Outer white matter ellipse -->
+  <ellipse cx="140" cy="145" rx="72" ry="58" fill="url(#whiteMatter)" stroke="#BDBDBD" stroke-width="1.2"/>
+  <!-- White matter label -->
+  <text x="140" y="95" text-anchor="middle" font-size="7" font-weight="bold" fill="#616161" font-family="Arial">Белое вещество</text>
+
+  <!-- Gray matter H-shape (butterfly) -->
+  <path d="M115,110 C110,110 105,120 105,140 C105,155 110,165 115,168 L120,170 L125,165 L128,155 L132,148 L137,145 L143,145 L148,148 L152,155 L155,165 L160,170 L165,168 C170,165 175,155 175,140 C175,120 170,110 165,110 L160,112 L155,118 L152,128 L148,135 L143,138 L137,138 L132,135 L128,128 L125,118 L120,112 Z" fill="url(#grayMatter)" stroke="#616161" stroke-width="0.8"/>
+
+  <!-- Central canal -->
+  <circle cx="140" cy="142" r="4" fill="#42A5F5" stroke="#1565C0" stroke-width="0.8"/>
+  <text x="140" y="145" text-anchor="middle" font-size="4.5" fill="#0D47A1" font-family="Arial">ЦК</text>
+
+  <!-- Label for central canal -->
+  <line x1="144" y1="142" x2="170" y2="128" stroke="#1565C0" stroke-width="0.5"/>
+  <text x="172" y="127" font-size="6" fill="#1565C0" font-family="Arial">Центральный</text>
+  <text x="172" y="134" font-size="6" fill="#1565C0" font-family="Arial">канал</text>
+
+  <!-- Anterior horns (ventral) — bottom of H -->
+  <text x="115" y="183" font-size="6" font-weight="bold" fill="#D32F2F" font-family="Arial">Передний</text>
+  <text x="115" y="190" font-size="6" font-weight="bold" fill="#D32F2F" font-family="Arial">рог (двиг.)</text>
+
+  <text x="152" y="183" font-size="6" font-weight="bold" fill="#D32F2F" font-family="Arial">Передний</text>
+  <text x="152" y="190" font-size="6" font-weight="bold" fill="#D32F2F" font-family="Arial">рог (двиг.)</text>
+
+  <!-- Posterior horns (dorsal) — top of H -->
+  <text x="105" y="104" font-size="6" font-weight="bold" fill="#1565C0" font-family="Arial">Задний рог</text>
+  <text x="105" y="111" font-size="6" font-weight="bold" fill="#1565C0" font-family="Arial">(чувств.)</text>
+
+  <text x="153" y="104" font-size="6" font-weight="bold" fill="#1565C0" font-family="Arial">Задний рог</text>
+  <text x="153" y="111" font-size="6" font-weight="bold" fill="#1565C0" font-family="Arial">(чувств.)</text>
+
+  <!-- Ventral root (motor) — red/orange -->
+  <path d="M120,170 Q110,185 105,200 L100,215" fill="none" stroke="#E64A19" stroke-width="2" stroke-linecap="round"/>
+  <path d="M160,170 Q170,185 175,200 L180,215" fill="none" stroke="#E64A19" stroke-width="2" stroke-linecap="round"/>
+  <text x="85" y="228" font-size="6" font-weight="bold" fill="#E64A19" font-family="Arial">Передний</text>
+  <text x="87" y="235" font-size="6" font-weight="bold" fill="#E64A19" font-family="Arial">корешок</text>
+
+  <!-- Dorsal root (sensory) — blue -->
+  <path d="M115,110 Q100,95 90,90 L82,88" fill="none" stroke="#1565C0" stroke-width="2" stroke-linecap="round"/>
+  <path d="M165,110 Q180,95 190,90 L198,88" fill="none" stroke="#1565C0" stroke-width="2" stroke-linecap="round"/>
+  <text x="58" y="82" font-size="6" font-weight="bold" fill="#1565C0" font-family="Arial">Задний</text>
+  <text x="58" y="89" font-size="6" font-weight="bold" fill="#1565C0" font-family="Arial">корешок</text>
+
+  <!-- Spinal nerve (combined) -->
+  <path d="M100,215 L95,230 L90,245" fill="none" stroke="#FF8F00" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M180,215 L185,230 L190,245" fill="none" stroke="#FF8F00" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="75" y="252" font-size="6" font-weight="bold" fill="#FF8F00" font-family="Arial">Спинномозговой</text>
+  <text x="80" y="259" font-size="6" font-weight="bold" fill="#FF8F00" font-family="Arial">нерв (31 пара)</text>
+
+  <!-- Dorsal root ganglion -->
+  <ellipse cx="85" cy="86" rx="6" ry="4" fill="#90CAF9" stroke="#1565C0" stroke-width="0.8"/>
+  <ellipse cx="195" cy="86" rx="6" ry="4" fill="#90CAF9" stroke="#1565C0" stroke-width="0.8"/>
+  <text x="60" y="74" font-size="5.5" fill="#1565C0" font-family="Arial">Спинномозговой</text>
+  <text x="60" y="80" font-size="5.5" fill="#1565C0" font-family="Arial">узел</text>
+
+  <!-- Ascending tracts label -->
+  <text x="90" y="145" font-size="5" fill="#4CAF50" font-family="Arial" transform="rotate(-90,90,145)">Восходящие</text>
+  <!-- Descending tracts label -->
+  <text x="195" y="145" font-size="5" fill="#FF7043" font-family="Arial" transform="rotate(90,195,145)">Нисходящие</text>
+
+  <!-- Cross-section label -->
+  <text x="140" y="270" text-anchor="middle" font-size="7" font-weight="bold" fill="#2E7D32" font-family="Arial">Поперечный срез спинного мозга</text>
+
+  <!-- ===== REFLEX ARC DIAGRAM (right side) ===== -->
+  <rect x="270" y="50" width="220" height="145" rx="6" fill="white" fill-opacity="0.6" stroke="#7E57C2" stroke-width="0.8"/>
+  <text x="380" y="63" text-anchor="middle" font-size="7.5" font-weight="bold" fill="#4527A0" font-family="Arial">Рефлекторная дуга</text>
+
+  <!-- Reflex arc steps -->
+  <!-- 1. Receptor -->
+  <rect x="280" y="72" width="48" height="18" rx="4" fill="#E8F5E9" stroke="#4CAF50" stroke-width="0.8"/>
+  <text x="304" y="84" text-anchor="middle" font-size="6" font-weight="bold" fill="#2E7D32" font-family="Arial">Рецептор</text>
+
+  <!-- Arrow -->
+  <line x1="328" y1="81" x2="335" y2="81" stroke="#7E57C2" stroke-width="1" marker-end="url(#arrowPurple)"/>
+  <defs><marker id="arrowPurple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#7E57C2"/></marker></defs>
+
+  <!-- 2. Dorsal root -->
+  <rect x="336" y="72" width="48" height="18" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="0.8"/>
+  <text x="360" y="80" text-anchor="middle" font-size="5.5" font-weight="bold" fill="#1565C0" font-family="Arial">Задний</text>
+  <text x="360" y="87" text-anchor="middle" font-size="5.5" font-weight="bold" fill="#1565C0" font-family="Arial">корешок</text>
+
+  <!-- Arrow -->
+  <line x1="384" y1="81" x2="391" y2="81" stroke="#7E57C2" stroke-width="1" marker-end="url(#arrowPurple)"/>
+
+  <!-- 3. Dorsal horn -->
+  <rect x="392" y="72" width="48" height="18" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="0.8"/>
+  <text x="416" y="80" text-anchor="middle" font-size="5.5" font-weight="bold" fill="#1565C0" font-family="Arial">Задний</text>
+  <text x="416" y="87" text-anchor="middle" font-size="5.5" font-weight="bold" fill="#1565C0" font-family="Arial">рог</text>
+
+  <!-- Arrow down -->
+  <line x1="416" y1="90" x2="416" y2="100" stroke="#7E57C2" stroke-width="1" marker-end="url(#arrowPurple)"/>
+
+  <!-- 4. Ventral horn -->
+  <rect x="392" y="101" width="48" height="18" rx="4" fill="#FBE9E7" stroke="#E64A19" stroke-width="0.8"/>
+  <text x="416" y="109" text-anchor="middle" font-size="5.5" font-weight="bold" fill="#E64A19" font-family="Arial">Передний</text>
+  <text x="416" y="116" text-anchor="middle" font-size="5.5" font-weight="bold" fill="#E64A19" font-family="Arial">рог</text>
+
+  <!-- Arrow left -->
+  <line x1="392" y1="110" x2="385" y2="110" stroke="#7E57C2" stroke-width="1" marker-end="url(#arrowPurple)"/>
+
+  <!-- 5. Ventral root -->
+  <rect x="336" y="101" width="48" height="18" rx="4" fill="#FBE9E7" stroke="#E64A19" stroke-width="0.8"/>
+  <text x="360" y="109" text-anchor="middle" font-size="5.5" font-weight="bold" fill="#E64A19" font-family="Arial">Передний</text>
+  <text x="360" y="116" text-anchor="middle" font-size="5.5" font-weight="bold" fill="#E64A19" font-family="Arial">корешок</text>
+
+  <!-- Arrow left -->
+  <line x1="336" y1="110" x2="329" y2="110" stroke="#7E57C2" stroke-width="1" marker-end="url(#arrowPurple)"/>
+
+  <!-- 6. Effector -->
+  <rect x="280" y="101" width="48" height="18" rx="4" fill="#FFF3E0" stroke="#FF8F00" stroke-width="0.8"/>
+  <text x="304" y="113" text-anchor="middle" font-size="6" font-weight="bold" fill="#E65100" font-family="Arial">Эффектор</text>
+
+  <!-- Sensory/Motor labels -->
+  <text x="380" y="133" text-anchor="middle" font-size="5.5" fill="#1565C0" font-family="Arial">▲ Чувствительный нейрон (афферентный)</text>
+  <text x="380" y="141" text-anchor="middle" font-size="5.5" fill="#E64A19" font-family="Arial">▼ Двигательный нейрон (эфферентный)</text>
+
+  <!-- Reflex arc curved path illustration -->
+  <path d="M290,155 Q380,175 440,155" fill="none" stroke="#7E57C2" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="380" y="168" text-anchor="middle" font-size="5.5" fill="#4527A0" font-family="Arial">Замыкание рефлекса в спинном мозге</text>
+
+  <!-- ===== FUNCTIONS SIDE PANEL ===== -->
+  <rect x="270" y="205" width="220" height="90" rx="6" fill="white" fill-opacity="0.7" stroke="#2E7D32" stroke-width="0.8"/>
+  <text x="380" y="218" text-anchor="middle" font-size="7.5" font-weight="bold" fill="#1B5E20" font-family="Arial">Функции спинного мозга</text>
+
+  <!-- Reflex function -->
+  <rect x="280" y="225" width="100" height="60" rx="4" fill="#E8F5E9" stroke="#4CAF50" stroke-width="0.8"/>
+  <text x="330" y="237" text-anchor="middle" font-size="7" font-weight="bold" fill="#2E7D32" font-family="Arial">Рефлекторная</text>
+  <text x="330" y="248" text-anchor="middle" font-size="5.5" fill="#333" font-family="Arial">Соматические рефлексы:</text>
+  <text x="330" y="256" text-anchor="middle" font-size="5.5" fill="#333" font-family="Arial">• Коленный рефлекс</text>
+  <text x="330" y="264" text-anchor="middle" font-size="5.5" fill="#333" font-family="Arial">• Ахиллов рефлекс</text>
+  <text x="330" y="272" text-anchor="middle" font-size="5.5" fill="#333" font-family="Arial">• Сгибательный рефлекс</text>
+  <text x="330" y="280" text-anchor="middle" font-size="5.5" fill="#333" font-family="Arial">Висцеральные рефлексы</text>
+
+  <!-- Conductive function -->
+  <rect x="385" y="225" width="100" height="60" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="0.8"/>
+  <text x="435" y="237" text-anchor="middle" font-size="7" font-weight="bold" fill="#1565C0" font-family="Arial">Проводниковая</text>
+  <text x="435" y="248" text-anchor="middle" font-size="5.5" fill="#333" font-family="Arial">Восходящие пути:</text>
+  <text x="435" y="256" text-anchor="middle" font-size="5.5" fill="#333" font-family="Arial">• К головному мозгу</text>
+  <text x="435" y="266" text-anchor="middle" font-size="5.5" fill="#333" font-family="Arial">Нисходящие пути:</text>
+  <text x="435" y="274" text-anchor="middle" font-size="5.5" fill="#333" font-family="Arial">• От головного мозга</text>
+  <text x="435" y="282" text-anchor="middle" font-size="5.5" fill="#333" font-family="Arial">• К эффекторам</text>
+
+  <!-- Spinal cord segments note -->
+  <text x="250" y="310" text-anchor="middle" font-size="6" fill="#555" font-family="Arial">Сегменты: 8 шейных, 12 грудных, 5 поясничных, 5 крестцовых, 1 копчиковый</text>
+
+  <!-- Footer bar -->
+  <rect x="2" y="325" width="496" height="23" rx="0 0 12 12" fill="#2E7D32"/>
+  <text x="250" y="340" text-anchor="middle" font-size="8" fill="white" font-family="Arial">Спинной мозг — центральный отдел нервной системы в позвоночном канале</text>
+</svg>

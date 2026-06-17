@@ -1,66 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ECEFF1"/><stop offset="100%" stop-color="#CFD8DC"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#455A64" stroke-width="3"/>
-<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#455A64" stroke-width="1" opacity="0.3"/>
-<polygon points="10,10 30,10 10,30" fill="#455A64" opacity="0.08"/>
-<polygon points="490,10 470,10 490,30" fill="#546E7A" opacity="0.08"/>
-<polygon points="10,340 30,340 10,320" fill="#78909C" opacity="0.08"/>
-<polygon points="490,340 470,340 490,320" fill="#90A4AE" opacity="0.08"/>
-<circle cx="70" cy="15" r="4" fill="#455A64" opacity="0.1"/>
-<circle cx="82" cy="15" r="4" fill="#546E7A" opacity="0.1"/>
-<circle cx="94" cy="15" r="4" fill="#78909C" opacity="0.1"/>
-<circle cx="406" cy="15" r="4" fill="#455A64" opacity="0.1"/>
-<circle cx="418" cy="15" r="4" fill="#546E7A" opacity="0.1"/>
-<circle cx="430" cy="15" r="4" fill="#78909C" opacity="0.1"/>
-<text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#455A64" text-anchor="middle">Свойства и пороки древесины 📚</text>
-<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Технология - Урок 7</text>
-<line x1="30" y1="78" x2="470" y2="78" stroke="#455A64" stroke-width="2" opacity="0.25"/>
-<rect x="30" y="75" width="60" height="6" fill="#455A64" opacity="0.15" rx="1"/>
-<rect x="410" y="75" width="60" height="6" fill="#546E7A" opacity="0.12" rx="1"/>
-
-  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#8D6E63" stroke-width="1.5"/>
-  <text x="135" y="110" font-family="Arial,sans-serif" font-size="11" fill="#8D6E63" text-anchor="middle" font-weight="bold">Свойства и пороки древесины 📚</text>
-  <!-- Woodworking tools -->
-  <rect x="45" y="125" width="80" height="55" rx="4" fill="#EFEBE9" stroke="#8D6E63" stroke-width="1"/>
-  <!-- Saw -->
-  <path d="M55,170 L110,135" stroke="#78909C" stroke-width="2"/>
-  <path d="M110,135 L113,130" stroke="#78909C" stroke-width="2"/>
-  <rect x="50" y="168" width="20" height="8" rx="2" fill="#795548"/>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="350" fill="#0d1218"/>
+  <!-- Step-by-step project flow -->
+  <!-- Step 1: Idea (lightbulb) -->
+  <rect x="20" y="80" width="80" height="80" rx="8" fill="#1a2a3a" stroke="#fdd835" stroke-width="2"/>
+  <circle cx="60" cy="105" r="18" fill="none" stroke="#fdd835" stroke-width="2"/>
+  <line x1="52" y1="123" x2="68" y2="123" stroke="#fdd835" stroke-width="1.5"/>
+  <line x1="54" y1="127" x2="66" y2="127" stroke="#fdd835" stroke-width="1"/>
+  <path d="M60,87 L60,82" stroke="#fdd835" stroke-width="1.5"/>
+  <path d="M78,105 L83,105" stroke="#fdd835" stroke-width="1.5"/>
+  <path d="M37,105 L42,105" stroke="#fdd835" stroke-width="1.5"/>
+  <text x="40" y="150" font-size="8" fill="#fdd835">1. Идея</text>
+  <!-- Arrow 1→2 -->
+  <line x1="105" y1="120" x2="115" y2="120" stroke="#546e7a" stroke-width="2"/>
+  <polygon points="115,120 109,115 109,125" fill="#546e7a"/>
+  <!-- Step 2: Plan (clipboard) -->
+  <rect x="120" y="80" width="80" height="80" rx="8" fill="#1a2a3a" stroke="#42a5f5" stroke-width="2"/>
+  <rect x="140" y="92" width="40" height="50" rx="3" fill="#0d1926" stroke="#42a5f5" stroke-width="1"/>
+  <rect x="148" y="86" width="24" height="10" rx="3" fill="#42a5f5" opacity="0.3"/>
+  <line x1="148" y1="107" x2="172" y2="107" stroke="#42a5f5" stroke-width="1" opacity="0.6"/>
+  <line x1="148" y1="115" x2="168" y2="115" stroke="#42a5f5" stroke-width="1" opacity="0.5"/>
+  <line x1="148" y1="123" x2="165" y2="123" stroke="#42a5f5" stroke-width="1" opacity="0.4"/>
+  <text x="133" y="150" font-size="8" fill="#42a5f5">2. План</text>
+  <!-- Arrow 2→3 -->
+  <line x1="205" y1="120" x2="215" y2="120" stroke="#546e7a" stroke-width="2"/>
+  <polygon points="215,120 209,115 209,125" fill="#546e7a"/>
+  <!-- Step 3: Create (tools) -->
+  <rect x="220" y="80" width="80" height="80" rx="8" fill="#1a2a3a" stroke="#ff9800" stroke-width="2"/>
   <!-- Hammer -->
-  <line x1="155" y1="125" x2="155" y2="180" stroke="#8D6E63" stroke-width="3"/>
-  <rect x="142" y="120" width="26" height="12" rx="2" fill="#78909C"/>
-  <text x="135" y="200" font-family="Arial,sans-serif" font-size="8" fill="#8D6E63" text-anchor="middle">деревообработка</text>
-  <!-- Wood pieces -->
-  <rect x="55" y="215" width="60" height="15" rx="2" fill="#D7CCC8" stroke="#8D6E63" stroke-width="1"/>
-  <rect x="125" y="220" width="50" height="12" rx="2" fill="#BCAAA4" stroke="#8D6E63" stroke-width="1"/>
-  <rect x="185" y="218" width="40" height="14" rx="2" fill="#D7CCC8" stroke="#8D6E63" stroke-width="1"/>
-  <text x="135" y="252" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">древесина и металлы</text>
-
-  <rect x="260" y="90" width="215" height="200" rx="6" fill="white" stroke="#F9A825" stroke-width="1.5"/>
-  <text x="367" y="115" font-family="Arial,sans-serif" font-size="12" fill="#F9A825" text-anchor="middle" font-weight="bold">Кулинария</text>
-  <!-- Kitchen -->
-  <!-- Pot -->
-  <rect x="285" y="140" width="50" height="35" rx="5" fill="#B0BEC5" stroke="#78909C" stroke-width="1.5"/>
-  <ellipse cx="310" cy="140" rx="25" ry="8" fill="#CFD8DC" stroke="#78909C" stroke-width="1"/>
-  <rect x="280" y="138" width="5" height="10" rx="2" fill="#78909C"/>
-  <rect x="335" y="138" width="5" height="10" rx="2" fill="#78909C"/>
-  <circle cx="300" cy="148" r="2" fill="white"/><circle cx="315" cy="152" r="1.5" fill="white"/>
-  <!-- Pan -->
-  <ellipse cx="410" cy="155" rx="30" ry="10" fill="#333" stroke="#555" stroke-width="1"/>
-  <line x1="440" y1="155" x2="465" y2="145" stroke="#78909C" stroke-width="4" stroke-linecap="round"/>
-  <!-- Egg -->
-  <ellipse cx="370" cy="200" rx="10" ry="13" fill="white" stroke="#D7CCC8" stroke-width="1"/>
-  <!-- Flour -->
-  <path d="M420,195 Q430,185 440,195 L445,210 Q435,220 420,215 Z" fill="#ECEFF1" stroke="#F9A825" stroke-width="1"/>
-  <text x="432" y="205" font-family="Arial,sans-serif" font-size="6" fill="#F9A825" text-anchor="middle">мука</text>
-  <!-- Project steps -->
-  <text x="367" y="245" font-family="Arial,sans-serif" font-size="8" fill="#F9A825" text-anchor="middle">Этапы проекта:</text>
-  <text x="367" y="260" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">идея - разработка - создание</text>
-  <text x="367" y="275" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">тестирование - защита</text>
-<rect x="15" y="310" width="470" height="30" rx="4" fill="#455A64" opacity="0.85"/>
-<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Технология</text>
-  <rect x="440" y="110" width="4" height="30" fill="#455A64" opacity="0.1" transform="rotate(30,442,125)"/>
-  <circle cx="435" cy="108" r="6" fill="none" stroke="#455A64" stroke-width="1.5" opacity="0.1"/>
-  <rect x="460" y="115" width="4" height="25" fill="#78909C" opacity="0.08" transform="rotate(-20,462,128)"/>
+  <rect x="242" y="98" width="8" height="30" rx="2" fill="#5d4037"/>
+  <rect x="236" y="92" width="20" height="12" rx="2" fill="#78909c"/>
+  <!-- Gear -->
+  <circle cx="272" cy="118" r="12" fill="none" stroke="#ff9800" stroke-width="1.5"/>
+  <circle cx="272" cy="118" r="4" fill="#ff9800" opacity="0.3"/>
+  <text x="228" y="150" font-size="8" fill="#ff9800">3. Создание</text>
+  <!-- Arrow 3→4 -->
+  <line x1="305" y1="120" x2="315" y2="120" stroke="#546e7a" stroke-width="2"/>
+  <polygon points="315,120 309,115 309,125" fill="#546e7a"/>
+  <!-- Step 4: Test (checkmark) -->
+  <rect x="320" y="80" width="80" height="80" rx="8" fill="#1a2a3a" stroke="#66bb6a" stroke-width="2"/>
+  <circle cx="360" cy="115" r="20" fill="none" stroke="#66bb6a" stroke-width="2"/>
+  <path d="M348,115 L356,123 L374,105" fill="none" stroke="#66bb6a" stroke-width="2.5"/>
+  <text x="328" y="150" font-size="8" fill="#66bb6a">4. Тест</text>
+  <!-- Arrow 4→5 -->
+  <line x1="405" y1="120" x2="415" y2="120" stroke="#546e7a" stroke-width="2"/>
+  <polygon points="415,120 409,115 409,125" fill="#546e7a"/>
+  <!-- Step 5: Present (megaphone/star) -->
+  <rect x="420" y="80" width="65" height="80" rx="8" fill="#1a2a3a" stroke="#7c4dff" stroke-width="2"/>
+  <polygon points="452,95 456,108 470,108 459,116 463,130 452,122 441,130 445,116 434,108 448,108" fill="#7c4dff" opacity="0.5"/>
+  <text x="423" y="150" font-size="8" fill="#7c4dff">5. Презент.</text>
+  <!-- Feedback loop arrow from Test back to Create -->
+  <path d="M360,165 L360,185 L260,185 L260,165" fill="none" stroke="#ef5350" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.6"/>
+  <polygon points="260,165 255,175 265,175" fill="#ef5350" opacity="0.6"/>
+  <text x="275" y="198" font-size="7" fill="#ef5350" opacity="0.7">Исправить если нужно</text>
+  <!-- Detail section -->
+  <rect x="30" y="220" width="440" height="100" rx="8" fill="#141e2a" stroke="#37474f" stroke-width="1"/>
+  <text x="50" y="242" font-size="10" fill="#e0e0e0" font-weight="bold">Этапы проекта подробно:</text>
+  <text x="50" y="262" font-size="8" fill="#fdd835">💡 Идея → постановка проблемы и цели</text>
+  <text x="50" y="278" font-size="8" fill="#42a5f5">📋 План → выбор материалов и инструментов</text>
+  <text x="50" y="294" font-size="8" fill="#ff9800">🔨 Создание → изготовление изделия</text>
+  <text x="250" y="262" font-size="8" fill="#66bb6a">✅ Тест → проверка работы</text>
+  <text x="250" y="278" font-size="8" fill="#7c4dff">⭐ Презентация → показ и оценка</text>
+  <text x="200" y="340" font-size="9" fill="#fff" opacity="0.5">Этапы проекта</text>
 </svg>

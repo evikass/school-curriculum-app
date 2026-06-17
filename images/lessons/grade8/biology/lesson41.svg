@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+    <linearGradient id="eyeGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFF9C4"/>
+      <stop offset="100%" stop-color="#FFECB3"/>
+    </linearGradient>
+    <linearGradient id="lensGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="100%" stop-color="#90CAF9"/>
+    </linearGradient>
+    <linearGradient id="vitreousGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F3E5F5" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#CE93D8" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="irisGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4CAF50"/>
+      <stop offset="50%" stop-color="#2E7D32"/>
+      <stop offset="100%" stop-color="#1B5E20"/>
+    </linearGradient>
+    <radialGradient id="foveaGrad" cx="0.8" cy="0.5">
+      <stop offset="0%" stop-color="#FFEB3B"/>
+      <stop offset="100%" stop-color="#FFC107"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="350" rx="12" fill="url(#bg)" stroke="#2E7D32" stroke-width="2"/>
+
+  <!-- Title -->
+  <text x="250" y="22" text-anchor="middle" font-size="14" font-weight="bold" fill="#1B5E20" font-family="Arial">Зрительный анализатор. Строение и работа глаза</text>
+  <text x="250" y="35" text-anchor="middle" font-size="9" fill="#666" font-family="Arial">Биология 8 класс — Урок 41</text>
+  <line x1="15" y1="42" x2="485" y2="42" stroke="#2E7D32" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- ===== EYE CROSS-SECTION (horizontal) ===== -->
+  <!-- Sclera outer shell -->
+  <ellipse cx="175" cy="165" rx="105" ry="65" fill="white" stroke="#546E7A" stroke-width="2.5"/>
+  
+  <!-- Choroid (vascular layer) -->
+  <ellipse cx="175" cy="165" rx="100" ry="60" fill="#FFCDD2" stroke="#E57373" stroke-width="1"/>
+  
+  <!-- Retina (inner layer) -->
+  <ellipse cx="175" cy="165" rx="95" ry="56" fill="#FFE0B2" stroke="#FFB74D" stroke-width="0.8"/>
+  
+  <!-- Vitreous humor (стекловидное тело) -->
+  <ellipse cx="190" cy="165" rx="80" ry="48" fill="url(#vitreousGrad)" stroke="#BA68C8" stroke-width="0.5" stroke-dasharray="3,2"/>
+  
+  <!-- Aqueous humor regions -->
+  <!-- Передняя камера -->
+  <path d="M 115 145 Q 125 165 115 185 L 130 180 Q 138 165 130 150 Z" fill="#E1F5FE" stroke="#4FC3F7" stroke-width="0.8"/>
+  
+  <!-- Задняя камера -->
+  <path d="M 130 148 Q 138 165 130 182 L 140 175 Q 143 165 140 155 Z" fill="#B3E5FC" stroke="#4FC3F7" stroke-width="0.6"/>
+  
+  <!-- Cornea (роговица) - front bulge -->
+  <path d="M 70 130 Q 85 108 105 125 Q 90 145 85 165 Q 90 185 105 205 Q 85 222 70 200 Q 60 165 70 130 Z" fill="url(#eyeGrad)" stroke="#F9A825" stroke-width="1.5"/>
+  
+  <!-- Iris (радужка) -->
+  <path d="M 118 135 Q 125 165 118 195 L 128 190 Q 133 165 128 140 Z" fill="url(#irisGrad)" stroke="#1B5E20" stroke-width="1"/>
+  <path d="M 130 143 Q 133 165 130 187 L 128 185 Q 131 165 128 145 Z" fill="#1B5E20"/>
+  
+  <!-- Pupil (зрачок) - dark gap -->
+  <rect x="127" y="145" width="4" height="40" fill="#212121" rx="1"/>
+  
+  <!-- Lens (хрусталик) -->
+  <ellipse cx="142" cy="165" rx="12" ry="28" fill="url(#lensGrad)" stroke="#1565C0" stroke-width="1.2"/>
+  
+  <!-- Blind spot (слепое пятно) -->
+  <ellipse cx="265" cy="170" rx="10" ry="12" fill="#EF9A9A" stroke="#C62828" stroke-width="1"/>
+  
+  <!-- Fovea / Yellow spot (жёлтое пятно) -->
+  <circle cx="248" cy="165" r="5" fill="url(#foveaGrad)" stroke="#FF8F00" stroke-width="1"/>
+  
+  <!-- Optic nerve (зрительный нерв) -->
+  <path d="M 270 165 L 310 155 L 330 148 Q 340 145 345 150 L 345 180 Q 340 185 330 182 L 310 175 L 270 170 Z" fill="#FFF9C4" stroke="#F57F17" stroke-width="1.5"/>
+  <line x1="275" y1="160" x2="340" y2="152" stroke="#F57F17" stroke-width="0.5"/>
+  <line x1="275" y1="165" x2="340" y2="165" stroke="#F57F17" stroke-width="0.5"/>
+  <line x1="275" y1="170" x2="340" y2="178" stroke="#F57F17" stroke-width="0.5"/>
+
+  <!-- ===== LABELS ===== -->
+  <!-- Роговица -->
+  <line x1="80" y1="112" x2="80" y2="60" stroke="#F9A825" stroke-width="0.6"/>
+  <text x="80" y="57" text-anchor="middle" font-size="7" font-weight="bold" fill="#E65100" font-family="Arial">Роговица</text>
+  
+  <!-- Склера -->
+  <line x1="210" y1="105" x2="210" y2="60" stroke="#546E7A" stroke-width="0.6"/>
+  <text x="210" y="57" text-anchor="middle" font-size="7" font-weight="bold" fill="#37474F" font-family="Arial">Склера</text>
+  
+  <!-- Сосудистая оболочка -->
+  <line x1="230" y1="115" x2="245" y2="60" stroke="#E57373" stroke-width="0.6"/>
+  <text x="260" y="57" text-anchor="middle" font-size="7" font-weight="bold" fill="#C62828" font-family="Arial">Сосудистая</text>
+  <text x="260" y="65" text-anchor="middle" font-size="6" fill="#C62828" font-family="Arial">оболочка</text>
+  
+  <!-- Сетчатка -->
+  <line x1="225" y1="120" x2="290" y2="75" stroke="#FFB74D" stroke-width="0.6"/>
+  <text x="305" y="73" text-anchor="middle" font-size="7" font-weight="bold" fill="#E65100" font-family="Arial">Сетчатка</text>
+  
+  <!-- Зрачок -->
+  <line x1="129" y1="165" x2="98" y2="165" stroke="#212121" stroke-width="0.6"/>
+  <text x="90" y="163" text-anchor="end" font-size="7" font-weight="bold" fill="#212121" font-family="Arial">Зрачок</text>
+  
+  <!-- Радужка -->
+  <line x1="120" y1="200" x2="100" y2="218" stroke="#2E7D32" stroke-width="0.6"/>
+  <text x="98" y="226" text-anchor="end" font-size="7" font-weight="bold" fill="#1B5E20" font-family="Arial">Радужка</text>
+  
+  <!-- Хрусталик -->
+  <line x1="142" y1="135" x2="142" y2="92" stroke="#1565C0" stroke-width="0.6"/>
+  <text x="142" y="89" text-anchor="middle" font-size="7" font-weight="bold" fill="#0D47A1" font-family="Arial">Хрусталик</text>
+  
+  <!-- Передняя камера -->
+  <text x="118" y="210" text-anchor="middle" font-size="5.5" fill="#0277BD" font-family="Arial">Передняя</text>
+  <text x="118" y="217" text-anchor="middle" font-size="5.5" fill="#0277BD" font-family="Arial">камера</text>
+  
+  <!-- Задняя камера -->
+  <text x="138" y="210" text-anchor="middle" font-size="5.5" fill="#0277BD" font-family="Arial">Задняя</text>
+  <text x="138" y="217" text-anchor="middle" font-size="5.5" fill="#0277BD" font-family="Arial">камера</text>
+  
+  <!-- Стекловидное тело -->
+  <text x="195" y="168" text-anchor="middle" font-size="6" fill="#7B1FA2" font-family="Arial">Стекловидное</text>
+  <text x="195" y="176" text-anchor="middle" font-size="6" fill="#7B1FA2" font-family="Arial">тело</text>
+  
+  <!-- Зрительный нерв -->
+  <text x="340" y="140" text-anchor="middle" font-size="7" font-weight="bold" fill="#F57F17" font-family="Arial">Зрительный</text>
+  <text x="340" y="148" text-anchor="middle" font-size="7" font-weight="bold" fill="#F57F17" font-family="Arial">нерв</text>
+  
+  <!-- Слепое пятно -->
+  <line x1="265" y1="182" x2="265" y2="222" stroke="#C62828" stroke-width="0.6"/>
+  <text x="265" y="230" text-anchor="middle" font-size="6.5" font-weight="bold" fill="#C62828" font-family="Arial">Слепое пятно</text>
+  
+  <!-- Жёлтое пятно -->
+  <line x1="248" y1="155" x2="248" y2="100" stroke="#FF8F00" stroke-width="0.6"/>
+  <text x="248" y="96" text-anchor="middle" font-size="6.5" font-weight="bold" fill="#FF8F00" font-family="Arial">Жёлтое пятно</text>
+
+  <!-- ===== ACCOMMODATION DIAGRAM (bottom-left) ===== -->
+  <rect x="15" y="242" width="175" height="70" rx="5" fill="white" fill-opacity="0.7" stroke="#1565C0" stroke-width="0.8"/>
+  <text x="102" y="254" text-anchor="middle" font-size="7" font-weight="bold" fill="#0D47A1" font-family="Arial">Аккомодация</text>
+  
+  <!-- Near focus - round lens -->
+  <text x="55" y="266" text-anchor="middle" font-size="6" fill="#333" font-family="Arial">Близкий предмет</text>
+  <ellipse cx="55" cy="282" rx="8" ry="14" fill="#BBDEFB" stroke="#1565C0" stroke-width="1"/>
+  <line x1="38" y1="275" x2="47" y2="280" stroke="#F44336" stroke-width="0.8"/>
+  <line x1="38" y1="290" x2="47" y2="285" stroke="#F44336" stroke-width="0.8"/>
+  <line x1="63" y1="282" x2="75" y2="282" stroke="#F44336" stroke-width="0.8"/>
+  <text x="55" y="306" text-anchor="middle" font-size="5.5" fill="#555" font-family="Arial">Хрусталик округлён</text>
+
+  <!-- Far focus - flat lens -->
+  <text x="150" y="266" text-anchor="middle" font-size="6" fill="#333" font-family="Arial">Далёкий предмет</text>
+  <ellipse cx="150" cy="282" rx="12" ry="8" fill="#BBDEFB" stroke="#1565C0" stroke-width="1"/>
+  <line x1="133" y1="278" x2="138" y2="280" stroke="#2196F3" stroke-width="0.8"/>
+  <line x1="133" y1="286" x2="138" y2="284" stroke="#2196F3" stroke-width="0.8"/>
+  <line x1="162" y1="282" x2="175" y2="282" stroke="#2196F3" stroke-width="0.8"/>
+  <text x="150" y="306" text-anchor="middle" font-size="5.5" fill="#555" font-family="Arial">Хрусталик уплощён</text>
+
+  <!-- ===== LIGHT PATH & PHOTORECEPTORS (bottom-right) ===== -->
+  <rect x="200" y="242" width="285" height="70" rx="5" fill="white" fill-opacity="0.7" stroke="#2E7D32" stroke-width="0.8"/>
+  <text x="342" y="254" text-anchor="middle" font-size="7" font-weight="bold" fill="#1B5E20" font-family="Arial">Путь света и фоторецепторы</text>
+  
+  <!-- Light path arrows -->
+  <text x="215" y="268" font-size="5.5" fill="#333" font-family="Arial">Свет</text>
+  <line x1="232" y1="266" x2="260" y2="266" stroke="#FF9800" stroke-width="1" marker-end="none"/>
+  <polygon points="260,263 266,266 260,269" fill="#FF9800"/>
+  <text x="268" y="268" font-size="5.5" fill="#333" font-family="Arial">→ Роговица</text>
+  <line x1="310" y1="266" x2="330" y2="266" stroke="#FF9800" stroke-width="0.8"/>
+  <polygon points="330,263 336,266 330,269" fill="#FF9800"/>
+  <text x="338" y="268" font-size="5.5" fill="#333" font-family="Arial">→ Хрусталик → Сетчатка</text>
+  
+  <!-- Rods -->
+  <rect x="212" y="278" width="120" height="28" rx="3" fill="#FFF3E0" stroke="#E65100" stroke-width="0.6"/>
+  <text x="222" y="289" font-size="6.5" font-weight="bold" fill="#BF360C" font-family="Arial">Палочки</text>
+  <text x="222" y="298" font-size="5.5" fill="#555" font-family="Arial">Ч/Б зрение, сумерки</text>
+  <text x="222" y="305" font-size="5.5" fill="#555" font-family="Arial">≈130 млн, по всей сетчатке</text>
+  
+  <!-- Cones -->
+  <rect x="340" y="278" width="140" height="28" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.6"/>
+  <text x="350" y="289" font-size="6.5" font-weight="bold" fill="#1B5E20" font-family="Arial">Колбочки</text>
+  <text x="350" y="298" font-size="5.5" fill="#555" font-family="Arial">Цветное зрение, дневной свет</text>
+  <text x="350" y="305" font-size="5.5" fill="#555" font-family="Arial">≈7 млн, в жёлтом пятне</text>
+
+  <!-- ===== RAY PATH through eye ===== -->
+  <line x1="60" y1="155" x2="118" y2="163" stroke="#FF9800" stroke-width="0.6" stroke-dasharray="2,1"/>
+  <line x1="60" y1="175" x2="118" y2="167" stroke="#FF9800" stroke-width="0.6" stroke-dasharray="2,1"/>
+  <line x1="130" y1="163" x2="142" y2="165" stroke="#FF9800" stroke-width="0.6" stroke-dasharray="2,1"/>
+  <line x1="130" y1="167" x2="142" y2="165" stroke="#FF9800" stroke-width="0.6" stroke-dasharray="2,1"/>
+  <line x1="155" y1="165" x2="248" y2="165" stroke="#FF9800" stroke-width="0.5" stroke-dasharray="2,1"/>
+
+  <!-- Footer bar -->
+  <rect x="0" y="338" width="500" height="12" rx="0" fill="#2E7D32"/>
+  <text x="250" y="347" text-anchor="middle" font-size="7" fill="white" font-family="Arial">Зрительный анализатор: рецепторы (палочки/колбочки) → зрительный нерв → затылочная доля коры</text>
+</svg>

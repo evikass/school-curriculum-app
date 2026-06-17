@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#E3F2FD"/><stop offset="100%" stop-color="#FFF"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#1565C0"/><stop offset="100%" stop-color="#1976D2"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+  <text x="250" y="28" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1565C0" text-anchor="middle">Масса и размеры молекул</text>
+  <text x="250" y="44" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Физика 10 класс — Урок 33</text>
+  <line x1="30" y1="52" x2="470" y2="52" stroke="#1565C0" stroke-width="1.5" opacity="0.25"/>
+  <clipPath id="ill"><rect x="15" y="56" width="470" height="238" rx="6"/></clipPath>
+  <g clip-path="url(#ill)"><rect x="15" y="56" width="470" height="238" fill="#E3F2FD" opacity="0.4"/>
+
+    <!-- Molecule size calculation -->
+    <rect x="25" y="62" width="225" height="130" rx="5" fill="white" stroke="#1565C0" stroke-width="1.2"/>
+    <text x="137" y="78" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" font-weight="bold" text-anchor="middle">Оценка размеров молекулы</text>
+
+    <!-- Oil drop on water -->
+    <rect x="40" y="100" width="190" height="60" rx="3" fill="#42A5F5" opacity="0.2" stroke="#42A5F5" stroke-width="1"/>
+    <text x="135" y="95" font-family="Arial,sans-serif" font-size="7" fill="#42A5F5">Поверхность воды</text>
+    <!-- Oil film -->
+    <rect x="55" y="102" width="160" height="3" fill="#F57C00" opacity="0.6"/>
+    <text x="135" y="115" font-family="Arial,sans-serif" font-size="7" fill="#F57C00" text-anchor="middle">Масляная плёнка (1 молекула)</text>
+
+    <!-- Cross section of film -->
+    <rect x="60" y="125" width="150" height="25" rx="2" fill="#F57C00" opacity="0.15"/>
+    <line x1="60" y1="125" x2="210" y2="125" stroke="#F57C00" stroke-width="1"/>
+    <line x1="60" y1="150" x2="210" y2="150" stroke="#F57C00" stroke-width="1"/>
+    <!-- Molecules as circles -->
+    <circle cx="72" cy="138" r="5" fill="#E53935" opacity="0.6" stroke="#E53935" stroke-width="0.5"/>
+    <circle cx="84" cy="138" r="5" fill="#E53935" opacity="0.6" stroke="#E53935" stroke-width="0.5"/>
+    <circle cx="96" cy="138" r="5" fill="#E53935" opacity="0.6" stroke="#E53935" stroke-width="0.5"/>
+    <circle cx="108" cy="138" r="5" fill="#E53935" opacity="0.6" stroke="#E53935" stroke-width="0.5"/>
+    <circle cx="120" cy="138" r="5" fill="#E53935" opacity="0.6" stroke="#E53935" stroke-width="0.5"/>
+    <circle cx="132" cy="138" r="5" fill="#E53935" opacity="0.6" stroke="#E53935" stroke-width="0.5"/>
+    <circle cx="144" cy="138" r="5" fill="#E53935" opacity="0.6" stroke="#E53935" stroke-width="0.5"/>
+    <circle cx="156" cy="138" r="5" fill="#E53935" opacity="0.6" stroke="#E53935" stroke-width="0.5"/>
+
+    <!-- d label -->
+    <line x1="68" y1="155" x2="78" y2="155" stroke="#E53935" stroke-width="1"/>
+    <line x1="68" y1="150" x2="68" y2="160" stroke="#E53935" stroke-width="0.8"/>
+    <line x1="78" y1="150" x2="78" y2="160" stroke="#E53935" stroke-width="0.8"/>
+    <text x="73" y="168" font-family="Arial,sans-serif" font-size="7" fill="#E53935" text-anchor="middle" font-style="italic">d</text>
+
+    <!-- S label -->
+    <line x1="60" y1="170" x2="210" y2="170" stroke="#1565C0" stroke-width="1"/>
+    <text x="135" y="180" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">S — площадь</text>
+
+    <!-- Formulas -->
+    <rect x="260" y="62" width="215" height="130" rx="5" fill="white" stroke="#E53935" stroke-width="1.2"/>
+    <text x="367" y="78" font-family="Arial,sans-serif" font-size="9" fill="#E53935" font-weight="bold" text-anchor="middle">Формулы</text>
+    <line x1="270" y1="83" x2="465" y2="83" stroke="#E53935" stroke-width="0.5" opacity="0.3"/>
+    <text x="367" y="100" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle">d = V / S</text>
+    <text x="367" y="115" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle">m0 = M / N(A)</text>
+    <text x="367" y="130" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle">N = m*N(A) / M</text>
+    <text x="367" y="148" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">d — диаметр молекулы</text>
+    <text x="367" y="160" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">m0 — масса одной молекулы</text>
+    <text x="367" y="172" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">M — молярная масса (кг/моль)</text>
+    <text x="367" y="184" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">N(A) = 6.02*10^23 моль^(-1)</text>
+
+    <!-- Amount of substance -->
+    <rect x="25" y="205" width="225" height="65" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.2"/>
+    <text x="137" y="221" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" font-weight="bold" text-anchor="middle">Количество вещества</text>
+    <line x1="35" y1="226" x2="240" y2="226" stroke="#2E7D32" stroke-width="0.5" opacity="0.3"/>
+    <text x="137" y="242" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle" font-weight="bold">nu = m/M = N/N(A)</text>
+    <text x="137" y="258" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">[nu] = моль</text>
+    <text x="137" y="268" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">1 моль = N(A) частиц</text>
+
+    <!-- Example values -->
+    <rect x="260" y="205" width="215" height="65" rx="5" fill="white" stroke="#F57C00" stroke-width="1.2"/>
+    <text x="367" y="221" font-family="Arial,sans-serif" font-size="9" fill="#F57C00" font-weight="bold" text-anchor="middle">Примеры молярных масс</text>
+    <line x1="270" y1="226" x2="465" y2="226" stroke="#F57C00" stroke-width="0.5" opacity="0.3"/>
+    <text x="290" y="240" font-family="Arial,sans-serif" font-size="8" fill="#333">H2O: 18 г/моль</text>
+    <text x="290" y="255" font-family="Arial,sans-serif" font-size="8" fill="#333">O2: 32 г/моль</text>
+    <text x="290" y="268" font-family="Arial,sans-serif" font-size="8" fill="#333">N2: 28 г/моль</text>
+    <text x="395" y="240" font-family="Arial,sans-serif" font-size="8" fill="#333">CO2: 44 г/моль</text>
+    <text x="395" y="255" font-family="Arial,sans-serif" font-size="8" fill="#333">Fe: 56 г/моль</text>
+    </g><rect x="12" y="298" width="476" height="42" rx="5" fill="url(#panel)"/>
+  <text x="250" y="316" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Молекулярная физика</text>
+  <text x="250" y="332" font-family="Arial,sans-serif" font-size="10" text-anchor="middle" fill="white" opacity="0.8">Урок 33</text></svg>

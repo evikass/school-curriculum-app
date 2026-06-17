@@ -1,61 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FCE4EC"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-  </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="12"/>
-  <rect x="0" y="0" width="500" height="50" fill="#EC407A" rx="12"/>
-  <rect x="0" y="25" width="500" height="25" fill="#EC407A"/>
-  <text x="250" y="34" text-anchor="middle" fill="#FFF" font-size="16" font-weight="bold" font-family="Arial,sans-serif">Урок 9. Психология цвета в искусстве</text>
-  <rect x="15" y="60" width="230" height="125" fill="#FFF" stroke="#EC407A" stroke-width="1.5" rx="8"/>
-  <rect x="15" y="60" width="230" height="25" fill="#FF9800" rx="8"/>
-  <rect x="15" y="77" width="230" height="8" fill="#FF9800"/>
-  <text x="130" y="77" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Тёплые цвета</text>
-  <rect x="25" y="93" width="38" height="18" fill="#E53935" rx="4"/>
-  <text x="70" y="105" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">Красный — энергия, страсть</text>
-  <rect x="25" y="115" width="38" height="18" fill="#FF9800" rx="4"/>
-  <text x="70" y="127" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">Оранжевый — радость, тепло</text>
-  <rect x="25" y="137" width="38" height="18" fill="#FDD835" rx="4"/>
-  <text x="70" y="149" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">Жёлтый — свет, оптимизм</text>
-  <text x="25" y="168" fill="#666" font-size="8" font-weight="normal" font-family="Arial,sans-serif">Активность, движение, приближение</text>
-  <text x="25" y="180" fill="#666" font-size="8" font-weight="normal" font-family="Arial,sans-serif">Визуально расширяют пространство</text>
-  <rect x="255" y="60" width="230" height="125" fill="#FFF" stroke="#EC407A" stroke-width="1.5" rx="8"/>
-  <rect x="255" y="60" width="230" height="25" fill="#1565C0" rx="8"/>
-  <rect x="255" y="77" width="230" height="8" fill="#1565C0"/>
-  <text x="370" y="77" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Холодные цвета</text>
-  <rect x="265" y="93" width="38" height="18" fill="#1E88E5" rx="4"/>
-  <text x="310" y="105" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">Синий — покой, грусть</text>
-  <rect x="265" y="115" width="38" height="18" fill="#43A047" rx="4"/>
-  <text x="310" y="127" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">Зелёный — природа, гармония</text>
-  <rect x="265" y="137" width="38" height="18" fill="#7B1FA2" rx="4"/>
-  <text x="310" y="149" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">Фиолетовый — тайна, роскошь</text>
-  <text x="265" y="168" fill="#666" font-size="8" font-weight="normal" font-family="Arial,sans-serif">Спокойствие, удаление, отдых</text>
-  <text x="265" y="180" fill="#666" font-size="8" font-weight="normal" font-family="Arial,sans-serif">Визуально сужают, углубляют</text>
-  <rect x="15" y="195" width="230" height="135" fill="#FFF" stroke="#EC407A" stroke-width="1.5" rx="8"/>
-  <rect x="15" y="195" width="230" height="25" fill="#AD1457" rx="8"/>
-  <rect x="15" y="212" width="230" height="8" fill="#AD1457"/>
-  <text x="130" y="212" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Символика цвета</text>
-  <text x="25" y="230" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">🔴 Красный — кровь, любовь, опасн.</text>
-  <text x="25" y="243" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">⚪ Белый — чистота, невинность</text>
-  <text x="25" y="256" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">⚫ Чёрный — смерть, тайна, элег.</text>
-  <text x="25" y="269" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">🔵 Синий — вера, мудрость, покой</text>
-  <text x="25" y="282" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">🟡 Золотой — божество, величие</text>
-  <text x="25" y="295" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">🟢 Зелёный — жизнь, надежда</text>
-  <text x="25" y="308" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">🟣 Фиолет. — власть, духовность</text>
-  <text x="25" y="321" fill="#666" font-size="7" font-weight="normal" font-family="Arial,sans-serif"> Cultural context varies!</text>
-  <rect x="255" y="195" width="230" height="135" fill="#FFF" stroke="#EC407A" stroke-width="1.5" rx="8"/>
-  <rect x="255" y="195" width="230" height="25" fill="#AD1457" rx="8"/>
-  <rect x="255" y="212" width="230" height="8" fill="#AD1457"/>
-  <text x="370" y="212" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Цвет и эмоции</text>
-  <text x="265" y="230" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Тёплые — возбуждают, радуют</text>
-  <text x="265" y="243" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Холодные — успокаивают, грусть</text>
-  <text x="265" y="256" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Яркие — привлекают внимание</text>
-  <text x="265" y="269" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Пастельные — расслабляют</text>
-  <text x="265" y="285" fill="#AD1457" font-size="9" font-weight="bold" font-family="Arial,sans-serif">В искусстве:</text>
-  <text x="265" y="298" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Цвет создаёт настроение</text>
-  <text x="265" y="311" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Цвет — средство выразительности</text>
-  <text x="265" y="324" fill="#666" font-size="7" font-weight="normal" font-family="Arial,sans-serif">• Пример: «Чёрный квадрат» Малевича</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#0a0a14"/>
+  <!-- Cubism section - Picasso-like face -->
+  <polygon points="60,80 100,60 120,90 100,120 60,110" fill="#4d96ff" opacity="0.3"/>
+  <polygon points="120,90 150,70 160,100 140,130 100,120" fill="#ff6b6b" opacity="0.25"/>
+  <polygon points="60,110 100,120 90,160 50,150" fill="#ffd93d" opacity="0.25"/>
+  <polygon points="100,120 140,130 130,160 90,160" fill="#6bcb77" opacity="0.25"/>
+  <!-- Cubist eye -->
+  <circle cx="85" cy="90" r="5" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.5"/>
+  <circle cx="125" cy="85" r="4" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.5"/>
+  <!-- Abstract expressionism - splashes -->
+  <circle cx="280" cy="80" r="30" fill="#ff6b6b" opacity="0.3"/>
+  <circle cx="310" cy="100" r="20" fill="#ffd93d" opacity="0.3"/>
+  <circle cx="260" cy="110" r="15" fill="#4d96ff" opacity="0.3"/>
+  <circle cx="300" cy="60" r="10" fill="#6bcb77" opacity="0.3"/>
+  <!-- Dynamic paint strokes -->
+  <path d="M230 70 Q270 50 310 75" fill="none" stroke="#ff6b6b" stroke-width="4" opacity="0.4"/>
+  <path d="M240 100 Q280 85 320 95" fill="none" stroke="#ffd93d" stroke-width="3" opacity="0.4"/>
+  <path d="M250 120 Q290 110 330 115" fill="none" stroke="#4d96ff" stroke-width="3" opacity="0.4"/>
+  <!-- Suprematism - Malevich squares -->
+  <rect x="380" y="50" width="45" height="45" fill="#ff6b6b" opacity="0.6" transform="rotate(15,402,72)"/>
+  <rect x="410" y="100" width="30" height="30" fill="#ffd93d" opacity="0.5" transform="rotate(-10,425,115)"/>
+  <rect x="360" y="110" width="20" height="20" fill="#4d96ff" opacity="0.5" transform="rotate(30,370,120)"/>
+  <!-- Black square (Malevich) -->
+  <rect x="390" y="40" width="25" height="25" fill="#000000" stroke="#ffffff" stroke-width="1" opacity="0.7"/>
+  <!-- Constructivism -->
+  <line x1="50" y1="230" x2="200" y2="180" stroke="#ff6b6b" stroke-width="3" opacity="0.5"/>
+  <line x1="50" y1="230" x2="120" y2="280" stroke="#ffd93d" stroke-width="3" opacity="0.5"/>
+  <line x1="200" y1="180" x2="120" y2="280" stroke="#4d96ff" stroke-width="3" opacity="0.5"/>
+  <circle cx="50" cy="230" r="5" fill="#ffffff" opacity="0.4"/>
+  <circle cx="200" cy="180" r="5" fill="#ffffff" opacity="0.4"/>
+  <circle cx="120" cy="280" r="5" fill="#ffffff" opacity="0.4"/>
+  <!-- Dada/Ready-made -->
+  <ellipse cx="300" cy="240" rx="25" ry="18" fill="#c4b8a4" opacity="0.3"/>
+  <rect x="290" y="255" width="20" height="35" rx="2" fill="#c4b8a4" opacity="0.3"/>
+  <line x1="310" y1="260" x2="340" y2="230" stroke="#c4b8a4" stroke-width="3" opacity="0.3"/>
+  <!-- Surrealism - melting clock -->
+  <ellipse cx="420" cy="250" rx="25" ry="15" fill="#ffd93d" opacity="0.3"/>
+  <path d="M395 250 Q400 265 410 270 Q420 275 430 268" fill="none" stroke="#ffd93d" stroke-width="2" opacity="0.4"/>
+  <line x1="420" y1="238" x2="420" y2="250" stroke="#1a1a2e" stroke-width="1" opacity="0.4"/>
+  <line x1="420" y1="250" x2="430" y2="245" stroke="#1a1a2e" stroke-width="1" opacity="0.4"/>
+  <!-- Labels -->
+  <text x="90" y="175" font-size="7" fill="#4d96ff" opacity="0.5" text-anchor="middle" font-family="sans-serif">Кубизм</text>
+  <text x="280" y="145" font-size="7" fill="#ff6b6b" opacity="0.5" text-anchor="middle" font-family="sans-serif">Абстракция</text>
+  <text x="410" y="145" font-size="7" fill="#ffd93d" opacity="0.5" text-anchor="middle" font-family="sans-serif">Супрематизм</text>
+  <text x="250" y="340" font-size="9" fill="#ffffff" opacity="0.5" text-anchor="middle" font-family="sans-serif">Искусство 20 века</text>
 </svg>

@@ -5,7 +5,7 @@ import os
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 
-OUTPUT_DIR = "/home/z/my-project/school-curriculum-app/public/images/lessons/grade11/informatics"
+OUTPUT_DIR = "/home/z/school-curriculum-app/public/images/lessons/grade11/informatics"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Color scheme

@@ -1,42 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#EFEBE9"/>
-      <stop offset="100%" stop-color="#FFF"/>
-    </linearGradient>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#8D6E63"/>
-      <stop offset="100%" stop-color="#4E342E"/>
-    </linearGradient>
-  </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#8D6E63" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#8D6E63" stroke-width="1" opacity="0.3"/>
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#8D6E63" text-anchor="middle">Гражданские правоотношения</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Обществознание — Урок 25</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#8D6E63" stroke-width="2" opacity="0.25"/>
-  <rect x="15" y="72" width="235" height="225" rx="4" fill="#8D6E63" opacity="0.05"/>
-  <text x="22" y="88" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Гражданское право —</text>
-  <text x="85" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333">регулирует имущественные отношения</text>
-  <text x="22" y="108" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Субъекты:</text>
-  <text x="85" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333">Физические лица — граждане</text>
-  <text x="32" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333">Юридические лица — организации</text>
-  <text x="22" y="148" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Объекты:</text>
-  <text x="85" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333">Вещи, деньги, ценные бумаги</text>
-  <text x="32" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333">Работы, услуги, информация</text>
-  <rect x="255" y="72" width="230" height="225" rx="4" fill="#8D6E63" opacity="0.05"/>
-  <text x="262" y="88" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Дееспособность:</text>
-  <text x="325" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333">Полная — с 18 лет</text>
-  <text x="272" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333">Частичная — 14-18 лет</text>
-  <text x="262" y="128" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Право:</text>
-  <text x="325" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333">Право собственности — владеть, пользоваться, распоряжаться</text>
-  <text x="272" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333">Защита гражданских прав через суд</text>
-  <text x="262" y="168" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Сроки:</text>
-  <text x="325" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333">Исковая давность — 3 года</text>
-  <rect x="15" y="280" width="235" height="18" rx="4" fill="#8D6E63" opacity="0.06"/>
-  <text x="132" y="293" font-family="Arial,sans-serif" font-size="9" fill="#4E342E" text-anchor="middle" font-weight="bold">Гражданское право — про имущество и договоры</text>
-  <rect x="255" y="280" width="230" height="18" rx="4" fill="#8D6E63" opacity="0.06"/>
-  <text x="370" y="293" font-family="Arial,sans-serif" font-size="9" fill="#4E342E" text-anchor="middle" font-weight="bold">Полная дееспособность — с 18 лет</text>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Обществознание · Гражданские правоотн</text>
+  <defs><linearGradient id="g25" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2B6CB0"/><stop offset="100%" stop-color="#2C7A7B"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#g25)"/>
+  <!-- Contract -->
+  <g transform="translate(250,130)" opacity="0.4">
+    <rect x="-60" y="-60" width="120" height="120" rx="5" fill="#E2E8F0"/>
+    <line x1="-40" y1="-35" x2="40" y2="-35" stroke="#2B6CB0" stroke-width="2"/>
+    <line x1="-40" y1="-20" x2="30" y2="-20" stroke="#2B6CB0" stroke-width="1" opacity="0.5"/>
+    <line x1="-40" y1="-8" x2="35" y2="-8" stroke="#2B6CB0" stroke-width="1" opacity="0.5"/>
+    <line x1="-40" y1="4" x2="25" y2="4" stroke="#2B6CB0" stroke-width="1" opacity="0.5"/>
+    <!-- Seal -->
+    <circle cx="30" cy="30" r="15" fill="none" stroke="#C53030" stroke-width="2"/>
+  </g>
+  <!-- Key/property icons -->
+  <g transform="translate(100,100)" opacity="0.3">
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#F6E05E" stroke-width="2"/>
+    <line x1="8" y1="6" x2="25" y2="20" stroke="#F6E05E" stroke-width="2"/>
+    <line x1="20" y1="15" x2="25" y2="10" stroke="#F6E05E" stroke-width="2"/>
+  </g>
+  <text x="100" y="140" font-size="9" fill="#F6E05E" opacity="0.4">Собственность</text>
+  <text x="250" y="310" text-anchor="middle" font-size="18" fill="#E2E8F0" font-weight="bold" opacity="0.6">Гражданское право</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#E2E8F0" opacity="0.5">Гражданское право</text>
 </svg>

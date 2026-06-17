@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#F3E5F5"/><stop offset="100%" stop-color="#CE93D8"/></linearGradient>
+  <linearGradient id="dnaGrad1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#42A5F5"/><stop offset="100%" stop-color="#1565C0"/></linearGradient>
+  <linearGradient id="dnaGrad2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#EF5350"/><stop offset="100%" stop-color="#C62828"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#7B1FA2" stroke-width="2.5"/>
+<!-- Title bar -->
+<rect x="3" y="3" width="494" height="38" rx="8" fill="#7B1FA2"/>
+<rect x="3" y="30" width="494" height="11" fill="#7B1FA2"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">Биосинтез белка: транскрипция</text>
+<text x="250" y="50" font-family="Arial,sans-serif" font-size="10" fill="#6A1B9A" text-anchor="middle">Биология 10 класс — Урок 29</text>
+
+<!-- Location -->
+<rect x="185" y="55" width="130" height="16" rx="4" fill="#AB47BC" opacity="0.3"/>
+<text x="250" y="66" font-family="Arial,sans-serif" font-size="8" fill="#6A1B9A" text-anchor="middle">Ядро клетки</text>
+
+<!-- DNA DOUBLE HELIX (left side) -->
+<!-- Strand 1 (sense strand) -->
+<path d="M30,85 Q45,80 60,85 Q75,90 90,85 Q105,80 120,85 Q135,90 150,85 Q165,80 180,85 Q195,90 210,85 Q225,80 240,85 Q255,90 270,85 Q285,80 300,85 Q315,90 330,85 Q345,80 360,85 Q375,90 390,85 Q405,80 420,85 Q435,90 450,85 Q465,80 475,85" stroke="url(#dnaGrad1)" stroke-width="4" fill="none"/>
+
+<!-- Strand 2 (template strand) -->
+<path d="M30,100 Q45,105 60,100 Q75,95 90,100 Q105,105 120,100 Q135,95 150,100 Q165,105 180,100 Q195,95 210,100 Q225,105 240,100 Q255,95 270,100 Q285,105 300,100 Q315,95 330,100 Q345,105 360,100 Q375,95 390,100 Q405,105 420,100 Q435,95 450,100 Q465,105 475,100" stroke="url(#dnaGrad2)" stroke-width="4" fill="none"/>
+
+<!-- Base pair rungs -->
+<line x1="60" y1="85" x2="60" y2="100" stroke="#9E9E9E" stroke-width="2"/>
+<line x1="90" y1="85" x2="90" y2="100" stroke="#9E9E9E" stroke-width="2"/>
+<line x1="120" y1="85" x2="120" y2="100" stroke="#9E9E9E" stroke-width="2"/>
+<line x1="150" y1="85" x2="150" y2="100" stroke="#9E9E9E" stroke-width="2"/>
+<line x1="180" y1="85" x2="180" y2="100" stroke="#9E9E9E" stroke-width="2"/>
+<line x1="210" y1="85" x2="210" y2="100" stroke="#9E9E9E" stroke-width="2"/>
+<line x1="240" y1="85" x2="240" y2="100" stroke="#9E9E9E" stroke-width="2"/>
+<line x1="270" y1="85" x2="270" y2="100" stroke="#9E9E9E" stroke-width="2"/>
+<line x1="300" y1="85" x2="300" y2="100" stroke="#9E9E9E" stroke-width="2"/>
+<line x1="330" y1="85" x2="330" y2="100" stroke="#9E9E9E" stroke-width="2"/>
+<line x1="360" y1="85" x2="360" y2="100" stroke="#9E9E9E" stroke-width="2"/>
+<line x1="390" y1="85" x2="390" y2="100" stroke="#9E9E9E" stroke-width="2"/>
+<line x1="420" y1="85" x2="420" y2="100" stroke="#9E9E9E" stroke-width="2"/>
+<line x1="450" y1="85" x2="450" y2="100" stroke="#9E9E9E" stroke-width="2"/>
+
+<text x="45" y="80" font-family="Arial,sans-serif" font-size="7" fill="#1565C0">5'</text>
+<text x="465" y="80" font-family="Arial,sans-serif" font-size="7" fill="#1565C0">3'</text>
+<text x="45" y="112" font-family="Arial,sans-serif" font-size="7" fill="#C62828">3'</text>
+<text x="465" y="112" font-family="Arial,sans-serif" font-size="7" fill="#C62828">5'</text>
+
+<!-- DNA label -->
+<text x="20" y="78" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#4A148C">ДНК</text>
+
+<!-- Unwinding region (where RNA polymerase is) -->
+<ellipse cx="250" cy="92" rx="40" ry="25" fill="#F3E5F5" stroke="#AB47BC" stroke-width="1" opacity="0.6"/>
+
+<!-- RNA POLYMERASE -->
+<ellipse cx="250" cy="118" rx="30" ry="20" fill="#FF8A65" stroke="#BF360C" stroke-width="2"/>
+<text x="250" y="115" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#fff" text-anchor="middle">РНК</text>
+<text x="250" y="125" font-family="Arial,sans-serif" font-size="7" fill="#fff" text-anchor="middle">полимераза</text>
+
+<!-- mRNA being synthesized (below RNA pol) -->
+<path d="M210,130 Q215,145 220,140 Q225,155 230,148 Q235,160 240,155 Q245,165 250,158 Q255,168 260,160 Q265,170 270,162 Q275,172 280,165 Q285,175 290,168 Q295,178 300,170" stroke="#43A047" stroke-width="3.5" fill="none"/>
+<text x="310" y="168" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32">5'→3'</text>
+
+<!-- Growing mRNA strand label -->
+<text x="195" y="160" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32">мРНК ←</text>
+
+<!-- Promoter region (left) -->
+<rect x="30" y="112" width="55" height="14" rx="4" fill="#FFD54F" stroke="#F57F17" stroke-width="1"/>
+<text x="57" y="122" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#E65100" text-anchor="middle">Промотор</text>
+<path d="M85,119 L220,119" stroke="#F57F17" stroke-width="1" stroke-dasharray="3,2"/>
+
+<!-- Terminator region (right) -->
+<rect x="420" y="112" width="60" height="14" rx="4" fill="#EF5350" stroke="#B71C1C" stroke-width="1"/>
+<text x="450" y="122" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#fff" text-anchor="middle">Терминатор</text>
+<path d="M280,119 L420,119" stroke="#E53935" stroke-width="1" stroke-dasharray="3,2"/>
+
+<!-- PROCESSING SECTION (bottom) -->
+<text x="250" y="195" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#6A1B9A" text-anchor="middle">Процессинг мРНК (эукариоты)</text>
+
+<!-- Pre-mRNA (with introns and exons) -->
+<text x="40" y="215" font-family="Arial,sans-serif" font-size="8" fill="#4A148C">Пре-мРНК:</text>
+<!-- Exon (kept) -->
+<rect x="40" y="220" width="50" height="16" rx="3" fill="#81C784" stroke="#2E7D32" stroke-width="1.5"/>
+<text x="65" y="231" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle">Экзон</text>
+<!-- Intron (removed) -->
+<rect x="93" y="220" width="45" height="16" rx="3" fill="#EF5350" stroke="#B71C1C" stroke-width="1.5"/>
+<text x="115" y="231" font-family="Arial,sans-serif" font-size="7" fill="#fff" text-anchor="middle">Интрон</text>
+<!-- Exon -->
+<rect x="141" y="220" width="50" height="16" rx="3" fill="#81C784" stroke="#2E7D32" stroke-width="1.5"/>
+<text x="166" y="231" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle">Экзон</text>
+<!-- Intron -->
+<rect x="194" y="220" width="45" height="16" rx="3" fill="#EF5350" stroke="#B71C1C" stroke-width="1.5"/>
+<text x="216" y="231" font-family="Arial,sans-serif" font-size="7" fill="#fff" text-anchor="middle">Интрон</text>
+<!-- Exon -->
+<rect x="242" y="220" width="50" height="16" rx="3" fill="#81C784" stroke="#2E7D32" stroke-width="1.5"/>
+<text x="267" y="231" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle">Экзон</text>
+
+<!-- Arrow down: splicing -->
+<path d="M150,240 L150,255" stroke="#7B1FA2" stroke-width="1.5" marker-end="url(#arrPu2)"/>
+<defs><marker id="arrPu2" markerWidth="5" markerHeight="4" refX="5" refY="2" orient="auto"><path d="M0,0 L5,2 L0,4 Z" fill="#7B1FA2"/></marker></defs>
+<text x="185" y="250" font-family="Arial,sans-serif" font-size="7" fill="#7B1FA2">Сплайсинг</text>
+
+<!-- Removed introns -->
+<rect x="90" y="248" width="45" height="10" rx="3" fill="#EF5350" opacity="0.3" stroke="#B71C1C" stroke-width="0.5"/>
+<text x="112" y="256" font-family="Arial,sans-serif" font-size="5" fill="#B71C1C" text-anchor="middle">интрон ↓</text>
+<rect x="190" y="248" width="45" height="10" rx="3" fill="#EF5350" opacity="0.3" stroke="#B71C1C" stroke-width="0.5"/>
+<text x="212" y="256" font-family="Arial,sans-serif" font-size="5" fill="#B71C1C" text-anchor="middle">интрон ↓</text>
+<text x="150" y="266" font-family="Arial,sans-serif" font-size="6" fill="#C62828" text-anchor="middle">⌄ разрушаются</text>
+
+<!-- Mature mRNA -->
+<text x="40" y="280" font-family="Arial,sans-serif" font-size="8" fill="#4A148C">Зрелая мРНК:</text>
+
+<!-- Cap (5' end) -->
+<circle cx="55" cy="290" r="8" fill="#FF9800" stroke="#E65100" stroke-width="1.5"/>
+<text x="55" y="293" font-family="Arial,sans-serif" font-size="6" fill="#fff" text-anchor="middle">Кэп</text>
+
+<!-- Exons joined -->
+<rect x="66" y="284" width="45" height="14" rx="3" fill="#81C784" stroke="#2E7D32" stroke-width="1.5"/>
+<text x="88" y="294" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle">Экзон1</text>
+<rect x="114" y="284" width="45" height="14" rx="3" fill="#66BB6A" stroke="#2E7D32" stroke-width="1.5"/>
+<text x="136" y="294" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle">Экзон2</text>
+<rect x="162" y="284" width="45" height="14" rx="3" fill="#81C784" stroke="#2E7D32" stroke-width="1.5"/>
+<text x="184" y="294" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle">Экзон3</text>
+
+<!-- Poly-A tail (3' end) -->
+<rect x="210" y="284" width="55" height="14" rx="3" fill="#7B1FA2" stroke="#4A148C" stroke-width="1.5"/>
+<text x="237" y="294" font-family="Arial,sans-serif" font-size="7" fill="#fff" text-anchor="middle">Poly-A</text>
+
+<!-- Direction labels -->
+<text x="48" y="305" font-family="Arial,sans-serif" font-size="7" fill="#E65100">5'</text>
+<text x="268" y="305" font-family="Arial,sans-serif" font-size="7" fill="#7B1FA2">3'</text>
+
+<!-- Summary box -->
+<rect x="280" y="268" width="210" height="72" rx="8" fill="#4A148C"/>
+<text x="385" y="284" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#FFEB3B" text-anchor="middle">Транскрипция: ДНК → мРНК</text>
+<text x="385" y="296" font-family="Arial,sans-serif" font-size="7" fill="#E1BEE7" text-anchor="middle">РНК-полимераза считывает</text>
+<text x="385" y="306" font-family="Arial,sans-serif" font-size="7" fill="#E1BEE7" text-anchor="middle">матричную цепь ДНК (3'→5')</text>
+<text x="385" y="316" font-family="Arial,sans-serif" font-size="7" fill="#E1BEE7" text-anchor="middle">мРНК синтезируется 5'→3'</text>
+<text x="385" y="326" font-family="Arial,sans-serif" font-size="7" fill="#FFD54F" text-anchor="middle">Комплементарность: A→U, T→A,</text>
+<text x="385" y="336" font-family="Arial,sans-serif" font-size="7" fill="#FFD54F" text-anchor="middle">G→C, C→G (U вместо T!)</text>
+</svg>

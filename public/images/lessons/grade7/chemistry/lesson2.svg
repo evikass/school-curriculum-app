@@ -1,63 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E0F2F1"/><stop offset="100%" stop-color="#B2DFDB"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#00796B" stroke-width="3"/>
-<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#00796B" stroke-width="1" opacity="0.3"/>
-<polygon points="10,10 30,10 10,30" fill="#00796B" opacity="0.08"/>
-<polygon points="490,10 470,10 490,30" fill="#009688" opacity="0.08"/>
-<polygon points="10,340 30,340 10,320" fill="#26A69A" opacity="0.08"/>
-<polygon points="490,340 470,340 490,320" fill="#4DB6AC" opacity="0.08"/>
-<circle cx="70" cy="15" r="4" fill="#00796B" opacity="0.1"/>
-<circle cx="82" cy="15" r="4" fill="#009688" opacity="0.1"/>
-<circle cx="94" cy="15" r="4" fill="#26A69A" opacity="0.1"/>
-<circle cx="406" cy="15" r="4" fill="#00796B" opacity="0.1"/>
-<circle cx="418" cy="15" r="4" fill="#009688" opacity="0.1"/>
-<circle cx="430" cy="15" r="4" fill="#26A69A" opacity="0.1"/>
-<text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#00796B" text-anchor="middle">Структура периодической системы</text>
-<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Химия - Урок 2</text>
-<line x1="30" y1="78" x2="470" y2="78" stroke="#00796B" stroke-width="2" opacity="0.25"/>
-<rect x="30" y="75" width="60" height="6" fill="#00796B" opacity="0.15" rx="1"/>
-<rect x="410" y="75" width="60" height="6" fill="#009688" opacity="0.12" rx="1"/>
-
-  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5"/>
-  <text x="135" y="115" font-family="Arial,sans-serif" font-size="13" fill="#1565C0" text-anchor="middle" font-weight="bold">Структура периодической системы</text>
-  <!-- Atom model -->
-  <circle cx="135" cy="195" r="45" fill="none" stroke="#90CAF9" stroke-width="1" stroke-dasharray="3,2"/>
-  <circle cx="135" cy="195" r="30" fill="none" stroke="#90CAF9" stroke-width="1" stroke-dasharray="3,2"/>
-  <circle cx="135" cy="195" r="15" fill="none" stroke="#1565C0" stroke-width="1.5" stroke-dasharray="3,2"/>
-  <circle cx="135" cy="195" r="6" fill="#00796B"/>
-  <text x="135" y="198" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle">p+</text>
-  <!-- Electrons -->
-  <circle cx="170" cy="185" r="3" fill="#1565C0"/>
-  <circle cx="110" cy="175" r="3" fill="#1565C0"/>
-  <circle cx="135" cy="160" r="3" fill="#1565C0"/>
-  <circle cx="155" cy="215" r="3" fill="#1565C0"/>
-  <text x="135" y="260" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">модель атома</text>
-  <text x="135" y="275" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">электроны, протоны, нейтроны</text>
-
-  <rect x="260" y="90" width="215" height="200" rx="6" fill="white" stroke="#00796B" stroke-width="1.5"/>
-  <text x="367" y="115" font-family="Arial,sans-serif" font-size="12" fill="#00796B" text-anchor="middle" font-weight="bold">Химические формулы</text>
-  <!-- Flask -->
-  <path d="M345,160 L340,200 Q340,210 350,210 L384,210 Q394,210 394,200 L389,160 Z" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
-  <rect x="348" y="145" width="38" height="18" rx="3" fill="none" stroke="#1565C0" stroke-width="1.5"/>
-  <line x1="355" y1="145" x2="355" y2="137" stroke="#888" stroke-width="1.5"/>
-  <line x1="379" y1="145" x2="379" y2="137" stroke="#888" stroke-width="1.5"/>
-  <line x1="355" y1="137" x2="379" y2="137" stroke="#888" stroke-width="1.5"/>
-  <!-- Liquid -->
-  <path d="M342,185 L340,200 Q340,210 350,210 L384,210 Q394,210 394,200 L392,185 Z" fill="#81D4FA" opacity="0.5"/>
-  <!-- Bubbles -->
-  <circle cx="360" cy="195" r="3" fill="none" stroke="#1565C0" stroke-width="0.8"/>
-  <circle cx="375" cy="190" r="2" fill="none" stroke="#1565C0" stroke-width="0.8"/>
-  <circle cx="365" cy="180" r="2" fill="none" stroke="#1565C0" stroke-width="0.8"/>
-  <!-- Test tube -->
-  <rect x="415" y="150" width="10" height="55" rx="5" fill="#FFECB3" stroke="#F9A825" stroke-width="1"/>
-  <path d="M415,195 L425,195 L425,205 Q425,210 420,210 Q415,210 415,205 Z" fill="#FFCC80"/>
-  <!-- Equations -->
-  <text x="367" y="240" font-family="Arial,sans-serif" font-size="9" fill="#00796B" text-anchor="middle">H2 + O2 = H2O</text>
-  <text x="367" y="258" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle">Na + Cl = NaCl</text>
-  <text x="367" y="276" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle">C + O2 = CO2</text>
-<rect x="15" y="310" width="470" height="30" rx="4" fill="#00796B" opacity="0.85"/>
-<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Химия</text>
-  <polygon points="450,110 460,115 460,125 450,130 440,125 440,115" fill="none" stroke="#00796B" stroke-width="1" opacity="0.12"/>
-  <polygon points="468,125 478,130 478,140 468,145 458,140 458,130" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.1"/>
+<rect width="500" height="350" fill="#FAFAFA"/>
+<rect x="20" y="20" width="460" height="300" fill="#FFF" stroke="#B0BEC5" stroke-width="1.5" rx="4"/>
+<text x="250" y="42" font-size="10" fill="#37474F" text-anchor="middle" font-weight="bold">Структура периодической системы</text>
+<rect x="50" y="55" width="400" height="18" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1"/>
+<text x="250" y="68" font-size="8" fill="#2E7D32" text-anchor="middle">7 периодов (горизонтальные ряды)</text>
+<rect x="50" y="80" width="55" height="35" fill="#E3F2FD" stroke="#1976D2" stroke-width="1" rx="1"/>
+<text x="77" y="100" font-size="14" fill="#0D47A1" text-anchor="middle" font-weight="bold">H</text>
+<rect x="115" y="80" width="55" height="35" fill="#E3F2FD" stroke="#1976D2" stroke-width="1" rx="1"/>
+<text x="142" y="100" font-size="14" fill="#0D47A1" text-anchor="middle" font-weight="bold">He</text>
+<rect x="180" y="80" width="55" height="35" fill="#E3F2FD" stroke="#1976D2" stroke-width="1" rx="1"/>
+<text x="207" y="100" font-size="14" fill="#0D47A1" text-anchor="middle" font-weight="bold">Li</text>
+<text x="250" y="100" font-size="10" fill="#90A4AE">···</text>
+<rect x="395" y="80" width="55" height="35" fill="#E3F2FD" stroke="#1976D2" stroke-width="1" rx="1"/>
+<text x="422" y="100" font-size="14" fill="#0D47A1" text-anchor="middle" font-weight="bold">Ne</text>
+<text x="250" y="125" font-size="8" fill="#546E7A" text-anchor="middle">1-3 периоды — малые</text>
+<rect x="50" y="135" width="55" height="35" fill="#BBDEFB" stroke="#1976D2" stroke-width="1" rx="1"/>
+<text x="77" y="155" font-size="14" fill="#0D47A1" text-anchor="middle" font-weight="bold">K</text>
+<text x="250" y="155" font-size="10" fill="#90A4AE">···</text>
+<rect x="395" y="135" width="55" height="35" fill="#BBDEFB" stroke="#1976D2" stroke-width="1" rx="1"/>
+<text x="422" y="155" font-size="14" fill="#0D47A1" text-anchor="middle" font-weight="bold">Kr</text>
+<text x="250" y="180" font-size="8" fill="#546E7A" text-anchor="middle">4-7 периоды — большие</text>
+<rect x="50" y="195" width="15" height="110" fill="#FFCDD2" stroke="#E53935" stroke-width="1" rx="1"/>
+<text x="57" y="260" font-size="7" fill="#C62828" text-anchor="middle" writing-mode="tb">IA</text>
+<rect x="75" y="195" width="55" height="30" fill="#FFCDD2" stroke="#E53935" stroke-width="1" rx="1"/>
+<text x="102" y="214" font-size="14" fill="#C62828" text-anchor="middle" font-weight="bold">Li</text>
+<rect x="75" y="230" width="55" height="30" fill="#FFCDD2" stroke="#E53935" stroke-width="1" rx="1"/>
+<text x="102" y="249" font-size="14" fill="#C62828" text-anchor="middle" font-weight="bold">Na</text>
+<rect x="75" y="265" width="55" height="30" fill="#FFCDD2" stroke="#E53935" stroke-width="1" rx="1"/>
+<text x="102" y="284" font-size="14" fill="#C62828" text-anchor="middle" font-weight="bold">K</text>
+<text x="150" y="215" font-size="8" fill="#546E7A">↑ группа IA</text>
+<text x="150" y="230" font-size="7" fill="#78909C">Li→Na→K</text>
+<text x="150" y="245" font-size="7" fill="#78909C">сходные</text>
+<text x="150" y="258" font-size="7" fill="#78909C">свойства</text>
+<rect x="390" y="195" width="15" height="110" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1" rx="1"/>
+<text x="397" y="260" font-size="7" fill="#2E7D32" text-anchor="middle" writing-mode="tb">VIIIA</text>
+<rect x="310" y="195" width="55" height="30" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1" rx="1"/>
+<text x="337" y="214" font-size="14" fill="#2E7D32" text-anchor="middle" font-weight="bold">He</text>
+<rect x="310" y="230" width="55" height="30" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1" rx="1"/>
+<text x="337" y="249" font-size="14" fill="#2E7D32" text-anchor="middle" font-weight="bold">Ne</text>
+<rect x="310" y="265" width="55" height="30" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1" rx="1"/>
+<text x="337" y="284" font-size="14" fill="#2E7D32" text-anchor="middle" font-weight="bold">Ar</text>
+<text x="280" y="230" font-size="8" fill="#546E7A">VIIIA →</text>
+<text x="280" y="245" font-size="7" fill="#78909C">благородные</text>
+<text x="280" y="258" font-size="7" fill="#78909C">газы</text>
+<text x="250" y="345" font-size="9" fill="#666" text-anchor="middle" opacity="0.5">Структура периодической системы</text>
 </svg>

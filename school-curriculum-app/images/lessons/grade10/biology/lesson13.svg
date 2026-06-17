@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Клеточная теория</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 10 класс — Урок 13</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- Timeline of discoveries -->
+<g transform="translate(250,50)">
+  <!-- Vertical timeline line -->
+  <line x1="-180" y1="25" x2="180" y2="25" stroke="#2E7D32" stroke-width="2"/>
+
+  <!-- 1665 - Hooke -->
+  <g transform="translate(-155,25)">
+    <circle cx="0" cy="0" r="8" fill="#795548" opacity="0.8" stroke="white" stroke-width="1.5"/>
+    <text x="0" y="4" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle" font-weight="bold">H</text>
+    <text x="0" y="-15" font-family="Arial,sans-serif" font-size="7" fill="#795548" text-anchor="middle" font-weight="bold">1665</text>
+    <rect x="-35" y="12" width="70" height="40" rx="4" fill="white" opacity="0.9" stroke="#795548" stroke-width="0.8"/>
+    <text x="0" y="24" font-family="Arial,sans-serif" font-size="6" fill="#795548" text-anchor="middle" font-weight="bold">Роберт Гук</text>
+    <text x="0" y="34" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Клетки пробки.</text>
+    <text x="0" y="42" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Термин «клетка»</text>
+    <!-- Microscope icon -->
+    <rect x="-45" y="15" width="6" height="10" rx="1" fill="#795548" opacity="0.3"/>
+    <line x1="-42" y1="15" x2="-42" y2="10" stroke="#795548" stroke-width="1.5"/>
+    <circle cx="-42" cy="8" r="4" fill="none" stroke="#795548" stroke-width="1"/>
+  </g>
+
+  <!-- 1674 - Leeuwenhoek -->
+  <g transform="translate(-78,25)">
+    <circle cx="0" cy="0" r="8" fill="#FF9800" opacity="0.8" stroke="white" stroke-width="1.5"/>
+    <text x="0" y="4" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle" font-weight="bold">Lv</text>
+    <text x="0" y="-15" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle" font-weight="bold">1674</text>
+    <rect x="-35" y="12" width="70" height="40" rx="4" fill="white" opacity="0.9" stroke="#FF9800" stroke-width="0.8"/>
+    <text x="0" y="24" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle" font-weight="bold">Левенгук</text>
+    <text x="0" y="34" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Открыл бактерии,</text>
+    <text x="0" y="42" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">простейших, сперматозоиды</text>
+  </g>
+
+  <!-- 1838-1839 - Schleiden & Schwann -->
+  <g transform="translate(0,25)">
+    <circle cx="0" cy="0" r="10" fill="#2E7D32" opacity="0.9" stroke="white" stroke-width="2"/>
+    <text x="0" y="4" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle" font-weight="bold">SS</text>
+    <text x="0" y="-18" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">1838–39</text>
+    <rect x="-42" y="14" width="84" height="45" rx="4" fill="white" opacity="0.95" stroke="#2E7D32" stroke-width="1.2"/>
+    <text x="0" y="26" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle" font-weight="bold">Шлейден + Шванн</text>
+    <text x="0" y="36" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Все организмы состоят</text>
+    <text x="0" y="44" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">из клеток. 1-е и 2-е</text>
+    <text x="0" y="52" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">положения теории</text>
+  </g>
+
+  <!-- 1855 - Virchow -->
+  <g transform="translate(78,25)">
+    <circle cx="0" cy="0" r="8" fill="#1565C0" opacity="0.8" stroke="white" stroke-width="1.5"/>
+    <text x="0" y="4" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle" font-weight="bold">V</text>
+    <text x="0" y="-15" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle" font-weight="bold">1855</text>
+    <rect x="-35" y="12" width="70" height="40" rx="4" fill="white" opacity="0.9" stroke="#1565C0" stroke-width="0.8"/>
+    <text x="0" y="24" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle" font-weight="bold">Рудольф Вирхов</text>
+    <text x="0" y="34" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">«Каждая клетка</text>
+    <text x="0" y="42" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">из клетки»</text>
+  </g>
+
+  <!-- Modern additions -->
+  <g transform="translate(155,25)">
+    <circle cx="0" cy="0" r="8" fill="#9C27B0" opacity="0.8" stroke="white" stroke-width="1.5"/>
+    <text x="0" y="4" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle" font-weight="bold">XX</text>
+    <text x="0" y="-15" font-family="Arial,sans-serif" font-size="7" fill="#7B1FA2" text-anchor="middle" font-weight="bold">XX век</text>
+    <rect x="-35" y="12" width="70" height="40" rx="4" fill="white" opacity="0.9" stroke="#9C27B0" stroke-width="0.8"/>
+    <text x="0" y="24" font-family="Arial,sans-serif" font-size="6" fill="#7B1FA2" text-anchor="middle" font-weight="bold">Дополнения</text>
+    <text x="0" y="34" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Вирусы — неклет.</text>
+    <text x="0" y="42" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">форма жизни</text>
+  </g>
+</g>
+
+<!-- Provisions of cell theory -->
+<g transform="translate(30,200)">
+  <rect x="0" y="0" width="440" height="115" rx="6" fill="white" opacity="0.92" stroke="#2E7D32" stroke-width="1.2"/>
+  <text x="220" y="16" font-family="Arial,sans-serif" font-size="10" fill="#1B5E20" text-anchor="middle" font-weight="bold">ПОЛОЖЕНИЯ КЛЕТОЧНОЙ ТЕОРИИ</text>
+  <line x1="15" y1="22" x2="425" y2="22" stroke="#4CAF50" stroke-width="0.5"/>
+
+  <!-- Provision 1 -->
+  <g transform="translate(15,35)">
+    <circle cx="8" cy="0" r="8" fill="#2E7D32" opacity="0.2" stroke="#2E7D32" stroke-width="1"/>
+    <text x="8" y="4" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">1</text>
+    <text x="24" y="4" font-family="Arial,sans-serif" font-size="7" fill="#333">Клетка — элементарная единица строения и жизнедеятельности всех организмов</text>
+  </g>
+
+  <!-- Provision 2 -->
+  <g transform="translate(15,55)">
+    <circle cx="8" cy="0" r="8" fill="#2E7D32" opacity="0.2" stroke="#2E7D32" stroke-width="1"/>
+    <text x="8" y="4" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">2</text>
+    <text x="24" y="4" font-family="Arial,sans-serif" font-size="7" fill="#333">Клетки всех организмов сходны по строению, хим. составу и функциям</text>
+  </g>
+
+  <!-- Provision 3 -->
+  <g transform="translate(15,75)">
+    <circle cx="8" cy="0" r="8" fill="#2E7D32" opacity="0.2" stroke="#2E7D32" stroke-width="1"/>
+    <text x="8" y="4" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">3</text>
+    <text x="24" y="4" font-family="Arial,sans-serif" font-size="7" fill="#333">Клетки размножаются делением (каждая из ранее существовавшей клетки)</text>
+  </g>
+
+  <!-- Provision 4 -->
+  <g transform="translate(15,95)">
+    <circle cx="8" cy="0" r="8" fill="#2E7D32" opacity="0.2" stroke="#2E7D32" stroke-width="1"/>
+    <text x="8" y="4" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">4</text>
+    <text x="24" y="4" font-family="Arial,sans-serif" font-size="7" fill="#333">Многоклеточный организм — система клеток, специализированных по функциям</text>
+  </g>
+</g>
+
+<rect x="10" y="326" width="480" height="18" rx="4" fill="#2E7D32" opacity="0.85"/>
+<text x="250" y="339" font-family="Arial,sans-serif" font-size="7" text-anchor="middle" fill="white" font-weight="bold">Клеточная теория — одно из величайших обобщений биологии, основа современной науки о жизни</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs><rect width="500" height="350" fill="url(#bg)" rx="10"/><rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/><text x="250" y="30" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#2E7D32" text-anchor="middle">Фотосинтез и дыхание растений</text><text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 6 класс - Урок 28</text><line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+  <!-- Photosynthesis equation diagram -->
+  <g transform="translate(250,140)">
+    <!-- Sun -->
+    <circle cx="-180" cy="-60" r="25" fill="#FFF176" stroke="#FDD835" stroke-width="2"/>
+    <line x1="-180" y1="-90" x2="-180" y2="-98" stroke="#FDD835" stroke-width="2"/>
+    <line x1="-210" y1="-75" x2="-216" y2="-80" stroke="#FDD835" stroke-width="2"/>
+    <line x1="-155" y1="-75" x2="-148" y2="-80" stroke="#FDD835" stroke-width="2"/>
+    <line x1="-200" y1="-50" x2="-208" y2="-46" stroke="#FDD835" stroke-width="2"/>
+    <!-- Light arrow to leaf -->
+    <path d="M-155 -50 Q-120 -20 -90 0" stroke="#FDD835" stroke-width="2" fill="none"/>
+    <!-- Leaf (large) -->
+    <path d="M-60 -40 Q-30 -55 0 -45 Q30 -30 35 0 Q30 25 0 35 Q-30 30 -60 10 Q-65 -15 -60 -40 Z" fill="#81C784" stroke="#4CAF50" stroke-width="2"/>
+    <line x1="-60" y1="-10" x2="30" y2="-5" stroke="#388E3C" stroke-width="1.5"/>
+    <!-- CO2 arrow in -->
+    <path d="M-100 30 Q-80 20 -60 15" stroke="#795548" stroke-width="2" fill="none"/>
+    <text x="-115" y="25" font-family="Arial,sans-serif" font-size="9" fill="#5D4037" font-weight="bold">CO2</text>
+    <!-- H2O arrow in -->
+    <path d="M-70 55 Q-50 40 -30 30" stroke="#42A5F5" stroke-width="2" fill="none"/>
+    <text x="-85" y="60" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" font-weight="bold">H2O</text>
+    <!-- O2 arrow out -->
+    <path d="M30 -30 Q60 -45 80 -50" stroke="#4CAF50" stroke-width="2" fill="none"/>
+    <text x="85" y="-48" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" font-weight="bold">O2</text>
+    <!-- Glucose arrow out -->
+    <path d="M30 20 Q60 30 80 35" stroke="#FF9800" stroke-width="2" fill="none"/>
+    <text x="85" y="33" font-family="Arial,sans-serif" font-size="9" fill="#E65100" font-weight="bold">C6H12O6</text>
+    <!-- Chloroplast in leaf -->
+    <ellipse cx="-15" cy="-5" rx="15" ry="8" fill="#4CAF50" opacity="0.4" stroke="#2E7D32" stroke-width="1"/>
+    <rect x="-22" y="-8" width="2" height="6" fill="#2E7D32" rx="0.5"/>
+    <rect x="-16" y="-9" width="2" height="8" fill="#2E7D32" rx="0.5"/>
+    <rect x="-10" y="-7" width="2" height="5" fill="#2E7D32" rx="0.5"/>
+  </g>
+  <!-- Comparison: Photosynthesis vs Respiration -->
+  <rect x="20" y="220" width="220" height="90" rx="5" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1"/>
+  <text x="130" y="238" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle" font-weight="bold">Фотосинтез (на свету)</text>
+  <text x="30" y="255" font-family="Arial,sans-serif" font-size="7" fill="#555">CO2 + H2O -> C6H12O6 + O2</text>
+  <text x="30" y="268" font-family="Arial,sans-serif" font-size="7" fill="#555">Идёт в хлоропластах</text>
+  <text x="30" y="281" font-family="Arial,sans-serif" font-size="7" fill="#555">Поглощает CO2, выделяет O2</text>
+  <text x="30" y="294" font-family="Arial,sans-serif" font-size="7" fill="#555">Накапливает энергию</text>
+  <rect x="260" y="220" width="220" height="90" rx="5" fill="#FFF3E0" stroke="#FF9800" stroke-width="1"/>
+  <text x="370" y="238" font-family="Arial,sans-serif" font-size="9" fill="#E65100" text-anchor="middle" font-weight="bold">Дыхание (постоянно)</text>
+  <text x="270" y="255" font-family="Arial,sans-serif" font-size="7" fill="#555">C6H12O6 + O2 -> CO2 + H2O</text>
+  <text x="270" y="268" font-family="Arial,sans-serif" font-size="7" fill="#555">Идёт в митохондриях</text>
+  <text x="270" y="281" font-family="Arial,sans-serif" font-size="7" fill="#555">Поглощает O2, выделяет CO2</text>
+  <text x="270" y="294" font-family="Arial,sans-serif" font-size="7" fill="#555">Освобождает энергию</text>
+<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/><text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 6 класс</text></svg>

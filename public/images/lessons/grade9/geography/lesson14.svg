@@ -1,100 +1,84 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#E0F2F1;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1"/>
-    </linearGradient>
-    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#26A69A;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#00796B;stop-opacity:1"/>
-    </linearGradient>
+    <radialGradient id="earth14" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#81D4FA"/>
+      <stop offset="100%" stop-color="#0288D1"/>
+    </radialGradient>
   </defs>
-  <!-- Background -->
-  <rect x="0" y="0" width="500" height="350" rx="12" fill="url(#bg)" stroke="#26A69A" stroke-width="2"/>
-  <!-- Header bar -->
-  <rect x="0" y="0" width="500" height="50" rx="12" fill="url(#headerGrad)"/>
-  <rect x="0" y="25" width="500" height="25" fill="url(#headerGrad)"/>
-  <!-- Lesson number badge -->
-  <circle cx="28" cy="25" r="18" fill="#FFFFFF" opacity="0.3"/>
-  <text x="28" y="31" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">14</text>
+  <rect width="500" height="350" fill="#ECEFF1"/>
+  <!-- Earth in center -->
+  <circle cx="250" cy="140" r="80" fill="url(#earth14)"/>
+  <!-- Simplified continents on earth -->
+  <path d="M210,90 Q230,80 250,85 Q260,90 255,105 Q248,115 235,112 Q220,108 210,90" fill="#66BB6A" opacity="0.6"/>
+  <path d="M265,95 Q280,88 295,95 Q305,105 298,120 Q288,130 275,125 Q265,115 265,95" fill="#66BB6A" opacity="0.6"/>
+  <path d="M225,125 Q240,118 255,125 Q265,135 260,155 Q250,170 238,168 Q225,162 220,145 Q218,135 225,125" fill="#66BB6A" opacity="0.6"/>
+  <path d="M280,135 Q295,128 310,135 Q320,148 315,165 Q305,178 290,175 Q278,168 278,150 Q278,140 280,135" fill="#66BB6A" opacity="0.6"/>
+  <!-- Problem icons around earth -->
+  <!-- 1. Climate change / warming -->
+  <g transform="translate(80,55)">
+    <rect x="-30" y="-22" width="60" height="58" rx="5" fill="white" opacity="0.85" stroke="#F44336" stroke-width="1.5"/>
+    <!-- Thermometer -->
+    <rect x="-5" y="-15" width="10" height="28" rx="5" fill="none" stroke="#F44336" stroke-width="1.5"/>
+    <circle cx="0" cy="16" r="7" fill="#F44336" opacity="0.6"/>
+    <rect x="-2" y="-5" width="4" height="18" fill="#F44336" opacity="0.5"/>
+    <!-- Heat waves -->
+    <path d="M8,-10 Q12,-14 8,-18" stroke="#FF9800" stroke-width="1" fill="none"/>
+    <path d="M8,-5 Q12,-9 8,-13" stroke="#FF9800" stroke-width="1" fill="none"/>
+    <text x="0" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#C62828" font-weight="bold">Изменение</text>
+    <text x="0" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#C62828" font-weight="bold">климата</text>
+  </g>
+  <!-- 2. Pollution -->
+  <g transform="translate(420,55)">
+    <rect x="-30" y="-22" width="60" height="58" rx="5" fill="white" opacity="0.85" stroke="#795548" stroke-width="1.5"/>
+    <!-- Factory with smoke -->
+    <rect x="-12" y="2" width="24" height="15" fill="#795548" opacity="0.6"/>
+    <rect x="-5" y="-10" width="5" height="12" fill="#795548" opacity="0.6"/>
+    <rect x="5" y="-5" width="5" height="7" fill="#795548" opacity="0.6"/>
+    <circle cx="-3" cy="-14" r="4" fill="#9E9E9E" opacity="0.4"/>
+    <circle cx="7" cy="-10" r="3" fill="#9E9E9E" opacity="0.3"/>
+    <text x="0" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#4E342E" font-weight="bold">Загрязнение</text>
+    <text x="0" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#4E342E" font-weight="bold">среды</text>
+  </g>
+  <!-- 3. Overpopulation -->
+  <g transform="translate(80,230)">
+    <rect x="-30" y="-22" width="60" height="58" rx="5" fill="white" opacity="0.85" stroke="#FF9800" stroke-width="1.5"/>
+    <!-- People crowd -->
+    <circle cx="-10" cy="-8" r="5" fill="#FF9800" opacity="0.6"/>
+    <circle cx="0" cy="-10" r="5" fill="#FF9800" opacity="0.6"/>
+    <circle cx="10" cy="-8" r="5" fill="#FF9800" opacity="0.6"/>
+    <circle cx="-5" cy="2" r="5" fill="#FF9800" opacity="0.6"/>
+    <circle cx="5" cy="2" r="5" fill="#FF9800" opacity="0.6"/>
+    <text x="0" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#E65100" font-weight="bold">Демографич.</text>
+    <text x="0" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#E65100" font-weight="bold">проблемы</text>
+  </g>
+  <!-- 4. War/Conflict -->
+  <g transform="translate(420,230)">
+    <rect x="-30" y="-22" width="60" height="58" rx="5" fill="white" opacity="0.85" stroke="#C62828" stroke-width="1.5"/>
+    <!-- Explosion -->
+    <polygon points="0,-15 5,-5 15,-8 8,2 12,12 0,6 -12,12 -8,2 -15,-8 -5,-5" fill="#F44336" opacity="0.5"/>
+    <circle cx="0" cy="0" r="6" fill="#FF9800" opacity="0.6"/>
+    <text x="0" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#C62828" font-weight="bold">Вооружённые</text>
+    <text x="0" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#C62828" font-weight="bold">конфликты</text>
+  </g>
+  <!-- 5. Resource depletion -->
+  <g transform="translate(250,280)">
+    <rect x="-30" y="-18" width="60" height="48" rx="5" fill="white" opacity="0.85" stroke="#2E7D32" stroke-width="1.5"/>
+    <!-- Oil barrel -->
+    <ellipse cx="0" cy="-2" rx="10" ry="5" fill="#795548" opacity="0.4"/>
+    <rect x="-10" y="-2" width="20" height="15" fill="#795548" opacity="0.3"/>
+    <ellipse cx="0" cy="13" rx="10" ry="5" fill="#795548" opacity="0.4"/>
+    <!-- Down arrow -->
+    <line x1="15" y1="-8" x2="15" y2="10" stroke="#C62828" stroke-width="2"/>
+    <polygon points="15,12 11,6 19,6" fill="#C62828"/>
+    <text x="0" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" font-weight="bold">Истощение ресурсов</text>
+  </g>
+  <!-- Connection lines from earth to problems -->
+  <line x1="180" y1="85" x2="112" y2="65" stroke="#F44336" stroke-width="1" stroke-dasharray="3,2" opacity="0.5"/>
+  <line x1="320" y1="85" x2="388" y2="65" stroke="#795548" stroke-width="1" stroke-dasharray="3,2" opacity="0.5"/>
+  <line x1="190" y1="180" x2="112" y2="225" stroke="#FF9800" stroke-width="1" stroke-dasharray="3,2" opacity="0.5"/>
+  <line x1="310" y1="180" x2="388" y2="225" stroke="#C62828" stroke-width="1" stroke-dasharray="3,2" opacity="0.5"/>
+  <line x1="250" y1="220" x2="250" y2="258" stroke="#2E7D32" stroke-width="1" stroke-dasharray="3,2" opacity="0.5"/>
   <!-- Title -->
-  <text x="250" y="32" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Россия в мировой экономике</text>
-  <!-- Decorative line -->
-  <line x1="15" y1="56" x2="485" y2="56" stroke="#80CBC4" stroke-width="1" stroke-dasharray="4,2"/>
-  <!-- Key stat -->
-  <rect x="15" y="62" width="470" height="30" rx="6" fill="#26A69A" opacity="0.15"/>
-  <text x="250" y="82" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#26A69A" text-anchor="middle">Россия: 6-я экономика мира по ППС (ВВП ~5 трлн долл.)</text>
-  <!-- Trade structure -->
-  <g transform="translate(15, 97)">
-    <rect x="0" y="0" width="235" height="130" rx="8" fill="#FFFFFF" stroke="#26A69A" stroke-width="1"/>
-    <text x="117" y="17" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A" text-anchor="middle">СТРУКТУРА ЭКСПОРТА</text>
-    <!-- Pie chart -->
-    <circle cx="75" cy="72" r="35" fill="#EEEEEE"/>
-    <path d="M75,72 L75,37 A35,35 0 0,1 107,94 Z" fill="#E65100"/>
-    <path d="M75,72 L107,94 A35,35 0 0,1 43,94 Z" fill="#1565C0"/>
-    <path d="M75,72 L43,94 A35,35 0 0,1 75,37 Z" fill="#4CAF50"/>
-    <text x="90" y="60" font-family="Arial,sans-serif" font-size="7" fill="#FFF" text-anchor="middle">Нефть/газ</text>
-    <text x="90" y="69" font-family="Arial,sans-serif" font-size="7" fill="#FFF" text-anchor="middle">~45%</text>
-    <text x="75" y="90" font-family="Arial,sans-serif" font-size="7" fill="#FFF" text-anchor="middle">Металлы ~15%</text>
-    <text x="55" y="65" font-family="Arial,sans-serif" font-size="7" fill="#FFF" text-anchor="middle">Прочее</text>
-    <!-- Legend -->
-    <rect x="130" y="40" width="10" height="8" rx="1" fill="#E65100"/>
-    <text x="145" y="48" font-family="Arial,sans-serif" font-size="8" fill="#333">Топливо — 45%</text>
-    <rect x="130" y="55" width="10" height="8" rx="1" fill="#1565C0"/>
-    <text x="145" y="63" font-family="Arial,sans-serif" font-size="8" fill="#333">Металлы — 15%</text>
-    <rect x="130" y="70" width="10" height="8" rx="1" fill="#4CAF50"/>
-    <text x="145" y="78" font-family="Arial,sans-serif" font-size="8" fill="#333">С/х — 10%</text>
-    <rect x="130" y="85" width="10" height="8" rx="1" fill="#7E57C2"/>
-    <text x="145" y="93" font-family="Arial,sans-serif" font-size="8" fill="#333">Вооружения — 5%</text>
-    <rect x="130" y="100" width="10" height="8" rx="1" fill="#BDBDBD"/>
-    <text x="145" y="108" font-family="Arial,sans-serif" font-size="8" fill="#333">Прочее — 25%</text>
-    <text x="117" y="124" font-family="Arial,sans-serif" font-size="7" fill="#00796B" text-anchor="middle">Сырьевая направленность экспорта</text>
-  </g>
-  <!-- Trade partners -->
-  <g transform="translate(260, 97)">
-    <rect x="0" y="0" width="225" height="130" rx="8" fill="#FFFFFF" stroke="#26A69A" stroke-width="1"/>
-    <text x="112" y="17" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A" text-anchor="middle">ТОРГОВЫЕ ПАРТНЁРЫ</text>
-    <!-- Import -->
-    <text x="112" y="33" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A" text-anchor="middle">ИМПОРТ в Россию:</text>
-    <rect x="10" y="38" width="205" height="10" rx="3" fill="#EEEEEE"/>
-    <rect x="10" y="38" width="72" height="10" rx="3" fill="#E53935"/>
-    <text x="46" y="46" font-family="Arial,sans-serif" font-size="7" fill="#FFF" text-anchor="middle">Китай 35%</text>
-    <rect x="10" y="52" width="205" height="10" rx="3" fill="#EEEEEE"/>
-    <rect x="10" y="52" width="20" height="10" rx="3" fill="#7E57C2"/>
-    <text x="34" y="60" font-family="Arial,sans-serif" font-size="7" fill="#333">Германия</text>
-    <rect x="10" y="66" width="205" height="10" rx="3" fill="#EEEEEE"/>
-    <rect x="10" y="66" width="14" height="10" rx="3" fill="#FF8A65"/>
-    <text x="28" y="74" font-family="Arial,sans-serif" font-size="7" fill="#333">Беларусь</text>
-    <!-- Export -->
-    <text x="112" y="92" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A" text-anchor="middle">ЭКСПОРТ из России:</text>
-    <rect x="10" y="97" width="205" height="10" rx="3" fill="#EEEEEE"/>
-    <rect x="10" y="97" width="60" height="10" rx="3" fill="#E53935"/>
-    <text x="40" y="105" font-family="Arial,sans-serif" font-size="7" fill="#FFF" text-anchor="middle">Китай</text>
-    <rect x="10" y="111" width="205" height="10" rx="3" fill="#EEEEEE"/>
-    <rect x="10" y="111" width="30" height="10" rx="3" fill="#42A5F5"/>
-    <text x="25" y="119" font-family="Arial,sans-serif" font-size="7" fill="#FFF" text-anchor="middle">Индия</text>
-    <rect x="10" y="121" width="205" height="6" rx="2" fill="#E0F2F1"/>
-  </g>
-  <!-- International organizations and challenges -->
-  <rect x="15" y="233" width="470" height="107" rx="6" fill="#E0F2F1" stroke="#26A69A" stroke-width="1"/>
-  <text x="250" y="250" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A" text-anchor="middle">МЕЖДУНАРОДНЫЕ ОРГАНИЗАЦИИ И ВЫЗОВЫ</text>
-  <!-- Organizations -->
-  <rect x="25" y="258" width="100" height="22" rx="4" fill="#FFFFFF" stroke="#26A69A" stroke-width="0.5"/>
-  <text x="75" y="268" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#26A69A" text-anchor="middle">БРИКС</text>
-  <text x="75" y="277" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Бразилия, Россия,</text>
-  <text x="75" y="277" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Бразилия, Россия, Индия, Китай, ЮАР</text>
-  <rect x="130" y="258" width="100" height="22" rx="4" fill="#FFFFFF" stroke="#26A69A" stroke-width="0.5"/>
-  <text x="180" y="268" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#26A69A" text-anchor="middle">ШОС</text>
-  <text x="180" y="277" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Шанхайская организация</text>
-  <rect x="235" y="258" width="100" height="22" rx="4" fill="#FFFFFF" stroke="#26A69A" stroke-width="0.5"/>
-  <text x="285" y="268" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#26A69A" text-anchor="middle">СНГ</text>
-  <text x="285" y="277" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Содружество государств</text>
-  <rect x="340" y="258" width="135" height="22" rx="4" fill="#FFFFFF" stroke="#26A69A" stroke-width="0.5"/>
-  <text x="407" y="268" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#26A69A" text-anchor="middle">ЕАЭС</text>
-  <text x="407" y="277" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Евразийский экономический союз</text>
-  <!-- Challenges -->
-  <text x="25" y="298" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#26A69A">ВЫЗОВЫ:</text>
-  <text x="25" y="311" font-family="Arial,sans-serif" font-size="8" fill="#333">• Сырьевая зависимость | Санкции | Необходимость импортозамещения</text>
-  <text x="25" y="324" font-family="Arial,sans-serif" font-size="8" fill="#333">• Поворот к Азии и странам Глобального Юга | Развитие новых логистических маршрутов</text>
-  <text x="25" y="337" font-family="Arial,sans-serif" font-size="8" fill="#333">• Цифровая экономика, нанотехнологии, арктический проект — новые точки роста</text>
+  <text x="250" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#333" font-weight="bold">Глобальные проблемы человечества</text>
+  <text x="250" y="345" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#666" opacity="0.5">Глобальные проблемы человечества</text>
 </svg>

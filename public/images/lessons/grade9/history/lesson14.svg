@@ -1,38 +1,54 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FBE9E7"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FF7043"/>
-      <stop offset="100%" stop-color="#BF360C"/>
+    <linearGradient id="thaw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#63B3ED"/>
+      <stop offset="100%" stop-color="#38A169"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FF7043" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#FF7043" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#FF7043" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#BF360C" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#FF7043" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#BF360C" opacity="0.12"/>
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#FF7043" text-anchor="middle">Перестройка и распад СССР</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">История — Урок 14</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#FF7043" stroke-width="2" opacity="0.25"/>
-  <rect x="20" y="72" width="460" height="25" rx="4" fill="#FF7043" opacity="0.07"/>
-  <text x="250" y="89" font-family="Arial,sans-serif" font-size="12" fill="#BF360C" text-anchor="middle" font-weight="bold">1985-1991</text>
-  <rect x="20" y="102" width="225" height="170" rx="4" fill="#FF7043" opacity="0.05"/>
-  <text x="28" y="118" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Горбачёв: гласность и перестройка</text>
-  <text x="28" y="140" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Экономический кризис</text>
-  <text x="28" y="162" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Национальные конфликты</text>
-  <rect x="255" y="102" width="225" height="170" rx="4" fill="#FF7043" opacity="0.05"/>
-  <text x="263" y="118" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Августовский путч 1991</text>
-  <text x="263" y="140" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Беловежские соглашения: декабрь 1991</text>
-  <text x="263" y="162" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Конец СССР — 26 декабря 1991</text>
-  <rect x="20" y="278" width="225" height="22" rx="4" fill="#FF7043" opacity="0.06"/>
-  <text x="132" y="293" font-family="Arial,sans-serif" font-size="10" fill="#BF360C" text-anchor="middle" font-weight="bold">Перестройка → распад</text>
-  <rect x="255" y="278" width="225" height="22" rx="4" fill="#FF7043" opacity="0.06"/>
-  <text x="367" y="293" font-family="Arial,sans-serif" font-size="10" fill="#BF360C" text-anchor="middle" font-weight="bold">15 независимых государств</text>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">История · Перестройка и распад СССР</text>
+  <rect width="500" height="350" fill="url(#thaw)"/>
+  <!-- Sun -->
+  <circle cx="400" cy="70" r="35" fill="#F6E05E" opacity="0.6"/>
+  <g stroke="#F6E05E" stroke-width="2" opacity="0.4">
+    <line x1="400" y1="25" x2="400" y2="10"/><line x1="435" y1="45" x2="450" y2="35"/>
+    <line x1="445" y1="70" x2="460" y2="70"/><line x1="435" y1="95" x2="450" y2="105"/>
+    <line x1="365" y1="45" x2="350" y2="35"/><line x1="355" y1="70" x2="340" y2="70"/>
+  </g>
+  <!-- Melting snow/icicles -->
+  <g fill="#E2E8F0" opacity="0.5">
+    <polygon points="50,0 55,0 52,25 48,25"/>
+    <polygon points="80,0 85,0 82,20 78,20"/>
+    <polygon points="120,0 125,0 122,30 118,30"/>
+    <polygon points="440,0 445,0 442,22 438,22"/>
+    <polygon points="470,0 475,0 472,28 468,28"/>
+  </g>
+  <!-- Water drops -->
+  <g fill="#63B3ED" opacity="0.4">
+    <ellipse cx="52" cy="30" rx="2" ry="3"/><ellipse cx="82" cy="25" rx="2" ry="3"/>
+    <ellipse cx="122" cy="35" rx="2" ry="3"/><ellipse cx="442" cy="27" rx="2" ry="3"/>
+  </g>
+  <!-- Flower growing -->
+  <g transform="translate(200,220)">
+    <line x1="0" y1="0" x2="0" y2="-40" stroke="#38A169" stroke-width="2" opacity="0.6"/>
+    <circle cx="0" cy="-45" r="8" fill="#FC8181" opacity="0.5"/>
+    <circle cx="0" cy="-45" r="4" fill="#F6E05E" opacity="0.5"/>
+    <ellipse cx="-10" cy="-25" rx="8" ry="4" fill="#38A169" opacity="0.4" transform="rotate(-30,-10,-25)"/>
+  </g>
+  <!-- Book - cultural thaw -->
+  <g transform="translate(300,180)">
+    <rect x="0" y="0" width="40" height="55" fill="#8B7355" opacity="0.5" rx="2"/>
+    <rect x="3" y="3" width="34" height="49" fill="#F6E05E" opacity="0.2"/>
+    <line x1="20" y1="3" x2="20" y2="52" stroke="#8B7355" stroke-width="1" opacity="0.4"/>
+  </g>
+  <!-- Khrushchev silhouette hint -->
+  <g transform="translate(100,120)" fill="#2D3748" opacity="0.4">
+    <circle cx="0" cy="0" r="15"/>
+    <ellipse cx="0" cy="-2" rx="12" ry="8" fill="none" stroke="#2D3748" stroke-width="2"/>
+  </g>
+  <!-- Corn -->
+  <g transform="translate(120,180)">
+    <ellipse cx="0" cy="0" rx="8" ry="18" fill="#F6E05E" opacity="0.4"/>
+    <line x1="0" y1="18" x2="0" y2="50" stroke="#38A169" stroke-width="2" opacity="0.4"/>
+  </g>
+  <text x="250" y="310" text-anchor="middle" font-size="22" fill="#2D3748" font-weight="bold" opacity="0.5">1953–1964</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#2D3748" opacity="0.4">Оттепель</text>
 </svg>

@@ -1,69 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFEBEE"/>
-      <stop offset="100%" stop-color="#FFCDD2"/>
-    </linearGradient>
-  </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
-  <polygon points="490,10 470,10 490,30" fill="#D32F2F" opacity="0.08"/>
-  <polygon points="10,340 30,340 10,320" fill="#E53935" opacity="0.08"/>
-  <polygon points="490,340 470,340 490,320" fill="#EF5350" opacity="0.08"/>
-  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-  <circle cx="82" cy="15" r="4" fill="#D32F2F" opacity="0.1"/>
-  <circle cx="94" cy="15" r="4" fill="#E53935" opacity="0.1"/>
-  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-  <circle cx="418" cy="15" r="4" fill="#D32F2F" opacity="0.1"/>
-  <circle cx="430" cy="15" r="4" fill="#E53935" opacity="0.1"/>
-  <text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Механическая работа</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физика - Урок 8</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
-  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
-
-  <!-- Work -->
-  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#C62828" stroke-width="1.5"/>
-  <text x="135" y="106" font-family="Arial,sans-serif" font-size="10" fill="#C62828" font-weight="bold" text-anchor="middle">Механическая работа</text>
-  <!-- Box being pushed -->
-  <rect x="70" y="160" width="50" height="35" rx="3" fill="#FFCC80" stroke="#E65100" stroke-width="1.5"/>
-  <text x="95" y="182" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle">m</text>
-  <line x1="50" y1="195" x2="170" y2="195" stroke="#888" stroke-width="1.5"/>
-  <!-- Force arrow -->
-  <line x1="130" y1="177" x2="170" y2="177" stroke="#C62828" stroke-width="2"/>
-  <polygon points="168,174 175,177 168,180" fill="#C62828"/>
-  <text x="155" y="172" font-family="Arial,sans-serif" font-size="8" fill="#C62828">F</text>
-  <!-- Distance -->
-  <line x1="40" y1="205" x2="160" y2="205" stroke="#1565C0" stroke-width="1"/>
-  <line x1="40" y1="202" x2="40" y2="208" stroke="#1565C0" stroke-width="1"/>
-  <line x1="160" y1="202" x2="160" y2="208" stroke="#1565C0" stroke-width="1"/>
-  <text x="100" y="218" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">S</text>
-  <text x="135" y="250" font-family="Arial,sans-serif" font-size="14" fill="#C62828" text-anchor="middle" font-weight="bold">A = F x S</text>
-  <text x="135" y="270" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">Дж (джоуль)</text>
-
-  <!-- Power -->
-  <rect x="260" y="90" width="215" height="200" rx="6" fill="white" stroke="#F9A825" stroke-width="1.5"/>
-  <text x="367" y="106" font-family="Arial,sans-serif" font-size="10" fill="#F9A825" font-weight="bold" text-anchor="middle">Мощность</text>
-  <!-- Light bulb -->
-  <circle cx="367" cy="160" r="20" fill="#FFF9C4" stroke="#F9A825" stroke-width="2"/>
-  <path d="M357,178 L357,188 L377,188 L377,178" fill="none" stroke="#F9A825" stroke-width="1.5"/>
-  <line x1="357" y1="185" x2="377" y2="185" stroke="#F9A825" stroke-width="1"/>
-  <line x1="357" y1="182" x2="377" y2="182" stroke="#F9A825" stroke-width="1"/>
-  <!-- Energy rays -->
-  <line x1="367" y1="135" x2="367" y2="130" stroke="#F9A825" stroke-width="1.5"/>
-  <line x1="385" y1="140" x2="390" y2="135" stroke="#F9A825" stroke-width="1.5"/>
-  <line x1="349" y1="140" x2="344" y2="135" stroke="#F9A825" stroke-width="1.5"/>
-  <text x="367" y="215" font-family="Arial,sans-serif" font-size="12" fill="#F9A825" text-anchor="middle" font-weight="bold">N = A / t</text>
-  <text x="367" y="235" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">Вт (ватт)</text>
-  <!-- Examples -->
-  <text x="367" y="260" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Лампа: 60 Вт</text>
-  <text x="367" y="275" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Двигатель: 100 кВт</text>
-  <rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
-  <text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Физика</text>
-  <circle cx="455" cy="125" r="4" fill="#C62828" opacity="0.15"/>
-  <ellipse cx="455" cy="125" rx="20" ry="8" fill="none" stroke="#C62828" stroke-width="0.8" opacity="0.1"/>
-  <ellipse cx="455" cy="125" rx="20" ry="8" fill="none" stroke="#E53935" stroke-width="0.8" opacity="0.1" transform="rotate(60,455,125)"/>
-  <ellipse cx="455" cy="125" rx="20" ry="8" fill="none" stroke="#EF5350" stroke-width="0.8" opacity="0.1" transform="rotate(-60,455,125)"/>
+<rect width="500" height="350" fill="#FFFDE7"/>
+<rect x="40" y="80" width="420" height="8" fill="#8D6E63" rx="2"/>
+<rect x="80" y="55" width="60" height="28" rx="3" fill="#8D6E63" stroke="#5D4037" stroke-width="1.5"/>
+<text x="110" y="74" font-size="9" fill="#FFF" text-anchor="middle">ящик</text>
+<line x1="140" y1="68" x2="220" y2="68" stroke="#D32F2F" stroke-width="3"/>
+<polygon points="220,64 232,68 220,72" fill="#D32F2F"/>
+<text x="185" y="58" font-size="12" fill="#C62828" font-weight="bold">F</text>
+<line x1="80" y1="100" x2="280" y2="100" stroke="#4CAF50" stroke-width="2"/>
+<text x="180" y="118" font-size="10" fill="#2E7D32" text-anchor="middle">s — перемещение</text>
+<line x1="80" y1="95" x2="80" y2="108" stroke="#4CAF50" stroke-width="1.5"/>
+<line x1="280" y1="95" x2="280" y2="108" stroke="#4CAF50" stroke-width="1.5"/>
+<text x="250" y="160" font-size="22" fill="#0D47A1" text-anchor="middle" font-style="italic" font-weight="bold">A = F · s</text>
+<text x="250" y="185" font-size="12" fill="#1565C0" text-anchor="middle">[A] = Дж (Джоуль)</text>
+<rect x="50" y="210" width="140" height="110" rx="6" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1.5"/>
+<line x1="70" y1="280" x2="70" y2="250" stroke="#4CAF50" stroke-width="2"/>
+<rect x="60" y="245" width="30" height="20" fill="#81C784" stroke="#388E3C" stroke-width="1"/>
+<line x1="90" y1="255" x2="145" y2="255" stroke="#4CAF50" stroke-width="2"/>
+<polygon points="145,252 155,255 145,258" fill="#4CAF50"/>
+<text x="120" y="245" font-size="8" fill="#2E7D32">F↑, s↑</text>
+<text x="120" y="300" font-size="9" fill="#2E7D32" text-anchor="middle">A > 0 (сила помогает)</text>
+<rect x="210" y="210" width="140" height="110" rx="6" fill="#FFF3E0" stroke="#FF9800" stroke-width="1.5"/>
+<line x1="230" y1="260" x2="230" y2="280" stroke="#FF9800" stroke-width="2"/>
+<rect x="220" y="250" width="30" height="20" fill="#FFB74D" stroke="#E65100" stroke-width="1"/>
+<line x1="250" y1="260" x2="305" y2="260" stroke="#FF9800" stroke-width="2"/>
+<polygon points="305,257 315,260 305,263" fill="#FF9800"/>
+<text x="280" y="248" font-size="8" fill="#E65100">F⊥s</text>
+<text x="280" y="300" font-size="9" fill="#E65100" text-anchor="middle">A = 0 (сила ⊥ путь)</text>
+<rect x="370" y="210" width="110" height="110" rx="6" fill="#FFEBEE" stroke="#F44336" stroke-width="1.5"/>
+<rect x="390" y="245" width="30" height="20" fill="#EF9A9A" stroke="#C62828" stroke-width="1"/>
+<line x1="420" y1="255" x2="440" y2="255" stroke="#F44336" stroke-width="2"/>
+<line x1="440" y1="255" x2="420" y2="270" stroke="#F44336" stroke-width="2"/>
+<polygon points="420,270 415,262 425,262" fill="#F44336"/>
+<text x="425" y="300" font-size="9" fill="#C62828" text-anchor="middle">A < 0</text>
+<text x="250" y="345" font-size="9" fill="#666" text-anchor="middle" opacity="0.5">Механическая работа</text>
 </svg>

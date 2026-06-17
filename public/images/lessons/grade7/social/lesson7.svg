@@ -1,57 +1,49 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E1F5FE"/><stop offset="100%" stop-color="#B3E5FC"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#0277BD" stroke-width="3"/>
-<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#0277BD" stroke-width="1" opacity="0.3"/>
-<polygon points="10,10 30,10 10,30" fill="#0277BD" opacity="0.08"/>
-<polygon points="490,10 470,10 490,30" fill="#0288D1" opacity="0.08"/>
-<polygon points="10,340 30,340 10,320" fill="#039BE5" opacity="0.08"/>
-<polygon points="490,340 470,340 490,320" fill="#29B6F6" opacity="0.08"/>
-<circle cx="70" cy="15" r="4" fill="#0277BD" opacity="0.1"/>
-<circle cx="82" cy="15" r="4" fill="#0288D1" opacity="0.1"/>
-<circle cx="94" cy="15" r="4" fill="#039BE5" opacity="0.1"/>
-<circle cx="406" cy="15" r="4" fill="#0277BD" opacity="0.1"/>
-<circle cx="418" cy="15" r="4" fill="#0288D1" opacity="0.1"/>
-<circle cx="430" cy="15" r="4" fill="#039BE5" opacity="0.1"/>
-<text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#0277BD" text-anchor="middle">Конфликты и их решение</text>
-<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Обществознание - Урок 7</text>
-<line x1="30" y1="78" x2="470" y2="78" stroke="#0277BD" stroke-width="2" opacity="0.25"/>
-<rect x="30" y="75" width="60" height="6" fill="#0277BD" opacity="0.15" rx="1"/>
-<rect x="410" y="75" width="60" height="6" fill="#0288D1" opacity="0.12" rx="1"/>
-
-  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#E65100" stroke-width="1.5"/>
-  <text x="135" y="115" font-family="Arial,sans-serif" font-size="13" fill="#E65100" text-anchor="middle" font-weight="bold">Конфликты и их решение</text>
-  <!-- Society pyramid -->
-  <polygon points="135,135 70,265 200,265" fill="none" stroke="#E65100" stroke-width="1.5"/>
-  <line x1="85" y1="225" x2="185" y2="225" stroke="#E65100" stroke-width="1"/>
-  <line x1="100" y1="185" x2="170" y2="185" stroke="#E65100" stroke-width="1"/>
-  <text x="135" y="155" font-family="Arial,sans-serif" font-size="7" fill="#0277BD" text-anchor="middle">власть</text>
-  <text x="135" y="175" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">законы</text>
-  <text x="135" y="210" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">экономика</text>
-  <text x="135" y="250" font-family="Arial,sans-serif" font-size="7" fill="#F9A825" text-anchor="middle">общество</text>
-
-  <rect x="260" y="90" width="215" height="200" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5"/>
-  <text x="367" y="115" font-family="Arial,sans-serif" font-size="12" fill="#1565C0" text-anchor="middle" font-weight="bold">Сферы общества</text>
-  <!-- Spheres as circles -->
-  <circle cx="330" cy="165" r="22" fill="#FFEBEE" stroke="#0277BD" stroke-width="1.5"/>
-  <text x="330" y="163" font-family="Arial,sans-serif" font-size="7" fill="#0277BD" text-anchor="middle">полит.</text>
-  <text x="330" y="173" font-family="Arial,sans-serif" font-size="7" fill="#0277BD" text-anchor="middle">сфера</text>
-  <circle cx="400" cy="165" r="22" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/>
-  <text x="400" y="163" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">эконом.</text>
-  <text x="400" y="173" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">сфера</text>
-  <circle cx="330" cy="220" r="22" fill="#FFF3E0" stroke="#E65100" stroke-width="1.5"/>
-  <text x="330" y="218" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">социальн.</text>
-  <text x="330" y="228" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">сфера</text>
-  <circle cx="400" cy="220" r="22" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
-  <text x="400" y="218" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">духовн.</text>
-  <text x="400" y="228" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">сфера</text>
-  <!-- Rights -->
-  <rect x="285" y="250" width="160" height="30" rx="4" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
-  <text x="365" y="270" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Права и обязанности</text>
-<rect x="15" y="310" width="470" height="30" rx="4" fill="#0277BD" opacity="0.85"/>
-<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Обществознание</text>
-  <rect x="440" y="120" width="6" height="30" fill="#0277BD" opacity="0.1"/>
-  <rect x="452" y="120" width="6" height="30" fill="#039BE5" opacity="0.08"/>
-  <rect x="464" y="120" width="6" height="30" fill="#29B6F6" opacity="0.06"/>
-  <rect x="435" y="115" width="42" height="4" fill="#0277BD" opacity="0.1"/>
+<rect width="500" height="350" fill="#1a1a2e"/>
+<circle cx="120" cy="100" r="16" fill="#EF5350"/>
+<line x1="120" y1="116" x2="120" y2="155" stroke="#EF5350" stroke-width="2.5"/>
+<line x1="105" y1="130" x2="135" y2="130" stroke="#EF5350" stroke-width="2"/>
+<line x1="120" y1="155" x2="105" y2="180" stroke="#EF5350" stroke-width="2"/>
+<line x1="120" y1="155" x2="135" y2="180" stroke="#EF5350" stroke-width="2"/>
+<circle cx="200" cy="100" r="16" fill="#EF5350"/>
+<line x1="200" y1="116" x2="200" y2="155" stroke="#EF5350" stroke-width="2.5"/>
+<line x1="185" y1="130" x2="215" y2="130" stroke="#EF5350" stroke-width="2"/>
+<line x1="200" y1="155" x2="185" y2="180" stroke="#EF5350" stroke-width="2"/>
+<line x1="200" y1="155" x2="215" y2="180" stroke="#EF5350" stroke-width="2"/>
+<line x1="138" y1="92" x2="182" y2="92" stroke="#FF5252" stroke-width="3"/>
+<text x="160" y="82" font-family="Arial" font-size="14" fill="#FF5252" text-anchor="middle">⚡</text>
+<text x="160" y="200" font-family="Arial" font-size="8" fill="#FF8A80" text-anchor="middle">Конфликт</text>
+<path d="M230,140 L270,140" stroke="#FFD700" stroke-width="2"/>
+<polygon points="265,135 275,140 265,145" fill="#FFD700"/>
+<circle cx="320" cy="100" r="16" fill="#4CAF50"/>
+<line x1="320" y1="116" x2="320" y2="155" stroke="#4CAF50" stroke-width="2.5"/>
+<line x1="305" y1="130" x2="335" y2="130" stroke="#4CAF50" stroke-width="2"/>
+<line x1="320" y1="155" x2="305" y2="180" stroke="#4CAF50" stroke-width="2"/>
+<line x1="320" y1="155" x2="335" y2="180" stroke="#4CAF50" stroke-width="2"/>
+<circle cx="400" cy="100" r="16" fill="#4CAF50"/>
+<line x1="400" y1="116" x2="400" y2="155" stroke="#4CAF50" stroke-width="2.5"/>
+<line x1="385" y1="130" x2="415" y2="130" stroke="#4CAF50" stroke-width="2"/>
+<line x1="400" y1="155" x2="385" y2="180" stroke="#4CAF50" stroke-width="2"/>
+<line x1="400" y1="155" x2="415" y2="180" stroke="#4CAF50" stroke-width="2"/>
+<path d="M338,95 Q360,80 382,95" stroke="#4CAF50" stroke-width="2" fill="none"/>
+<text x="360" y="82" font-family="Arial" font-size="14" fill="#4CAF50" text-anchor="middle">🤝</text>
+<text x="360" y="200" font-family="Arial" font-size="8" fill="#A5D6A7" text-anchor="middle">Решение</text>
+<rect x="60" y="230" width="380" height="80" fill="#0a1a2e" rx="6" stroke="#3a5a7a" stroke-width="0.8"/>
+<text x="250" y="250" font-family="Arial" font-size="9" fill="#88AACC" text-anchor="middle" font-weight="bold">Этапы разрешения конфликта</text>
+<circle cx="115" cy="275" r="12" fill="#EF5350" opacity="0.7"/>
+<text x="115" y="278" font-family="Arial" font-size="7" fill="white" text-anchor="middle">1</text>
+<text x="115" y="296" font-family="Arial" font-size="6" fill="#FF8A80" text-anchor="middle">Причина</text>
+<circle cx="195" cy="275" r="12" fill="#FF9800" opacity="0.7"/>
+<text x="195" y="278" font-family="Arial" font-size="7" fill="white" text-anchor="middle">2</text>
+<text x="195" y="296" font-family="Arial" font-size="6" fill="#FFB74D" text-anchor="middle">Диалог</text>
+<circle cx="275" cy="275" r="12" fill="#2196F3" opacity="0.7"/>
+<text x="275" y="278" font-family="Arial" font-size="7" fill="white" text-anchor="middle">3</text>
+<text x="275" y="296" font-family="Arial" font-size="6" fill="#90CAF9" text-anchor="middle">Компромисс</text>
+<circle cx="355" cy="275" r="12" fill="#4CAF50" opacity="0.7"/>
+<text x="355" y="278" font-family="Arial" font-size="7" fill="white" text-anchor="middle">4</text>
+<text x="355" y="296" font-family="Arial" font-size="6" fill="#A5D6A7" text-anchor="middle">Мир</text>
+<line x1="127" y1="275" x2="183" y2="275" stroke="#5a7a9a" stroke-width="1" stroke-dasharray="3,2"/>
+<line x1="207" y1="275" x2="263" y2="275" stroke="#5a7a9a" stroke-width="1" stroke-dasharray="3,2"/>
+<line x1="287" y1="275" x2="343" y2="275" stroke="#5a7a9a" stroke-width="1" stroke-dasharray="3,2"/>
+<text x="250" y="342" font-family="Arial" font-size="9" fill="#88AACC" text-anchor="middle" opacity="0.5">Конфликты и их решение</text>
 </svg>

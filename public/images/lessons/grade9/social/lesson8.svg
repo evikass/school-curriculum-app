@@ -1,41 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#EFEBE9"/>
-      <stop offset="100%" stop-color="#FFF"/>
-    </linearGradient>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#8D6E63"/>
-      <stop offset="100%" stop-color="#4E342E"/>
-    </linearGradient>
-  </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#8D6E63" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#8D6E63" stroke-width="1" opacity="0.3"/>
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#8D6E63" text-anchor="middle">Общение как деятельность</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Обществознание — Урок 8</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#8D6E63" stroke-width="2" opacity="0.25"/>
-  <rect x="15" y="72" width="235" height="225" rx="4" fill="#8D6E63" opacity="0.05"/>
-  <text x="22" y="88" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Общение —</text>
-  <text x="85" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333">процесс обмена информацией</text>
-  <text x="22" y="108" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Функции:</text>
-  <text x="85" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333">Коммуникативная — обмен информацией</text>
-  <text x="32" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333">Интерактивная — взаимодействие</text>
-  <text x="32" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333">Перцептивная — восприятие друг друга</text>
-  <text x="22" y="168" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Виды:</text>
-  <text x="85" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333">Межличностное — двое или группа</text>
-  <rect x="255" y="72" width="230" height="225" rx="4" fill="#8D6E63" opacity="0.05"/>
-  <text x="272" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333">Деловое — по работе, формальное</text>
-  <text x="272" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333">Массовое — СМИ, аудитория</text>
-  <text x="262" y="128" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Стили:</text>
-  <text x="325" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333">Конструктивный — сотрудничество</text>
-  <text x="272" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333">Деструктивный — конфликт</text>
-  <text x="262" y="168" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Барьеры:</text>
-  <text x="325" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333">Языковой, культурный, психологический</text>
-  <rect x="15" y="280" width="235" height="18" rx="4" fill="#8D6E63" opacity="0.06"/>
-  <text x="132" y="293" font-family="Arial,sans-serif" font-size="9" fill="#4E342E" text-anchor="middle" font-weight="bold">Общение — основа социальных связей</text>
-  <rect x="255" y="280" width="230" height="18" rx="4" fill="#8D6E63" opacity="0.06"/>
-  <text x="370" y="293" font-family="Arial,sans-serif" font-size="9" fill="#4E342E" text-anchor="middle" font-weight="bold">Коммуникация = информация + взаимодействие</text>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Обществознание · Общение как деятельн</text>
+  <defs><linearGradient id="g8" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#C53030"/><stop offset="100%" stop-color="#742A2A"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#g8)"/>
+  <!-- Government building -->
+  <rect x="160" y="100" width="180" height="120" fill="#E2E8F0" opacity="0.2" rx="3"/>
+  <path d="M150 100 L250 50 L350 100" fill="#E2E8F0" opacity="0.2"/>
+  <!-- Columns -->
+  <g fill="#E2E8F0" opacity="0.25"><rect x="180" y="110" width="8" height="90"/><rect x="210" y="110" width="8" height="90"/>
+  <rect x="240" y="110" width="8" height="90"/><rect x="270" y="110" width="8" height="90"/><rect x="300" y="110" width="8" height="90"/></g>
+  <!-- Budget scales -->
+  <g transform="translate(250,60)" opacity="0.5">
+    <line x1="-30" y1="0" x2="30" y2="0" stroke="#F6E05E" stroke-width="2"/>
+    <line x1="0" y1="-5" x2="0" y2="15" stroke="#F6E05E" stroke-width="2"/>
+    <path d="M-30 0 Q-25 15 -15 15 Q-5 15 -30 0" fill="#63B3ED" opacity="0.4"/>
+    <path d="M30 0 Q25 15 15 15 Q5 15 30 0" fill="#FC8181" opacity="0.4"/>
+  </g>
+  <!-- Public goods icons -->
+  <g transform="translate(80,220)" opacity="0.4">
+    <rect x="0" y="0" width="50" height="35" rx="5" fill="#3182CE"/><text x="25" y="22" text-anchor="middle" font-size="8" fill="#FFF">Дороги</text>
+  </g>
+  <g transform="translate(160,220)" opacity="0.4">
+    <rect x="0" y="0" width="50" height="35" rx="5" fill="#38A169"/><text x="25" y="22" text-anchor="middle" font-size="8" fill="#FFF">Обр-е</text>
+  </g>
+  <g transform="translate(290,220)" opacity="0.4">
+    <rect x="0" y="0" width="50" height="35" rx="5" fill="#D69E2E"/><text x="25" y="22" text-anchor="middle" font-size="8" fill="#FFF">Оборона</text>
+  </g>
+  <g transform="translate(370,220)" opacity="0.4">
+    <rect x="0" y="0" width="50" height="35" rx="5" fill="#9F7AEA"/><text x="25" y="22" text-anchor="middle" font-size="8" fill="#FFF">Мед-на</text>
+  </g>
+  <text x="250" y="300" text-anchor="middle" font-size="16" fill="#FED7D7" font-weight="bold" opacity="0.6">Государство и экономика</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#FED7D7" opacity="0.5">Государство и экономика</text>
 </svg>

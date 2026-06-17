@@ -1,37 +1,156 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
+    <linearGradient id="concertBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A0A0A"/>
+      <stop offset="100%" stop-color="#0A0505"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#4A148C"/>
-      <stop offset="100%" stop-color="#6A1B9A"/>
-    </linearGradient>
+    <radialGradient id="stageSpot" cx="50%" cy="0%" r="70%">
+      <stop offset="0%" stop-color="#FFE4B5" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#FFE4B5" stop-opacity="0"/>
+    </radialGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#6A1B9A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#6A1B9A" stroke-width="1" opacity="0.3"/>
-  <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#6A1B9A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#6A1B9A" text-anchor="middle">Симфоническая музыка</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Музыка - Урок 6</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#6A1B9A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#6A1B9A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA -->
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#F3E5F5"/><text x="250" y="130" font-family="Arial,sans-serif" font-size="20" fill="#6A1B9A" text-anchor="middle" font-weight="bold">Симфоническая музыка</text><rect x="25" y="155" width="140" height="45" rx="5" fill="#E3F2FD" stroke="#6A1B9A" stroke-width="1.5"/><text x="95" y="182" font-family="Arial" font-size="12" fill="#6A1B9A" text-anchor="middle">Струнная группа</text><rect x="170" y="155" width="140" height="45" rx="5" fill="#FFF3E0" stroke="#4A148C" stroke-width="1.5"/><text x="240" y="182" font-family="Arial" font-size="12" fill="#4A148C" text-anchor="middle">Симфония</text><rect x="315" y="155" width="140" height="45" rx="5" fill="#FFFDE7" stroke="#F9A825" stroke-width="1.5"/><text x="385" y="182" font-family="Arial" font-size="12" fill="#F9A825" text-anchor="middle">Симфоническая музыка</text><rect x="25" y="210" width="140" height="45" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/><text x="95" y="238" font-family="Arial" font-size="12" fill="#2E7D32" text-anchor="middle">Симфонический оркестр:</text><rect x="170" y="210" width="140" height="45" rx="5" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="1.5"/><text x="240" y="238" font-family="Arial" font-size="12" fill="#6A1B9A" text-anchor="middle">Деревянные духовые:</text><rect x="315" y="210" width="140" height="45" rx="5" fill="#FFEBEE" stroke="#E65100" stroke-width="1.5"/><text x="385" y="238" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">Медные духовые:</text>
-  <circle cx="55" cy="275" r="16" fill="#6A1B9A" opacity="0.15"/><circle cx="65" cy="268" r="8" fill="#4A148C" opacity="0.1"/>
+  <!-- Dark concert hall -->
+  <rect width="500" height="350" fill="url(#concertBg)"/>
+  <rect width="500" height="350" fill="url(#stageSpot)"/>
+  
+  <!-- Stage back wall -->
+  <rect x="0" y="0" width="500" height="180" fill="#2A1A1A"/>
+  
+  <!-- Stage lighting rig -->
+  <rect x="50" y="5" width="400" height="3" rx="1" fill="#333"/>
+  <!-- Lights -->
+  <g>
+    <circle cx="100" cy="12" r="6" fill="#444"/>
+    <path d="M94 12 L90 25 L110 25 L106 12" fill="#FFE4B5" opacity="0.15"/>
+    
+    <circle cx="200" cy="12" r="6" fill="#444"/>
+    <path d="M194 12 L185 30 L215 30 L206 12" fill="#FFE4B5" opacity="0.12"/>
+    
+    <circle cx="300" cy="12" r="6" fill="#444"/>
+    <path d="M294 12 L285 30 L315 30 L306 12" fill="#FFE4B5" opacity="0.12"/>
+    
+    <circle cx="400" cy="12" r="6" fill="#444"/>
+    <path d="M394 12 L390 25 L410 25 L406 12" fill="#FFE4B5" opacity="0.15"/>
   </g>
-  <!-- Bottom panel -->
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Музыка</text>
+  
+  <!-- Stage floor -->
+  <rect x="0" y="180" width="500" height="170" fill="#3A2A1A"/>
+  <g stroke="#4A3A2A" stroke-width="0.3" opacity="0.5">
+    <line x1="0" y1="200" x2="500" y2="200"/>
+    <line x1="0" y1="220" x2="500" y2="220"/>
+    <line x1="0" y1="240" x2="500" y2="240"/>
+    <line x1="0" y1="260" x2="500" y2="260"/>
+    <line x1="0" y1="280" x2="500" y2="280"/>
+    <line x1="0" y1="300" x2="500" y2="300"/>
+  </g>
+  
+  <!-- === CONDUCTOR (center, elevated) === -->
+  <g transform="translate(250, 135)">
+    <!-- Podium -->
+    <rect x="-20" y="30" width="40" height="15" fill="#4A3020" stroke="#5A4030" stroke-width="0.5"/>
+    <!-- Conductor body -->
+    <path d="M-8 0 L-12 30 L12 30 L8 0 Z" fill="#111"/>
+    <!-- Tuxedo tails -->
+    <path d="M-10 25 L-15 45 L-5 35" fill="#111"/>
+    <path d="M10 25 L15 45 L5 35" fill="#111"/>
+    <!-- Head -->
+    <circle cx="0" cy="-10" r="8" fill="#DEB887"/>
+    <!-- Hair -->
+    <path d="M-8 -14 Q-8 -22 0 -22 Q8 -22 8 -14" fill="#333"/>
+    <!-- Arms raised with baton -->
+    <line x1="8" y1="5" x2="28" y2="-20" stroke="#DEB887" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-8" y1="5" x2="-25" y2="-5" stroke="#DEB887" stroke-width="3" stroke-linecap="round"/>
+    <!-- Baton -->
+    <line x1="28" y1="-20" x2="38" y2="-35" stroke="#FFF" stroke-width="1.5"/>
+  </g>
+  
+  <!-- === STRING SECTION (front left) === -->
+  <!-- Section bracket -->
+  <path d="M30 195 Q35 190 40 195" fill="none" stroke="#6A5A4A" stroke-width="0.5"/>
+  <text x="35" y="210" font-size="6" fill="#6A5A4A" font-family="sans-serif" text-anchor="middle">Струнные</text>
+  
+  <!-- Violin players (seated silhouettes) -->
+  <g fill="#1A1A1A" opacity="0.8">
+    <circle cx="70" cy="215" r="5"/><rect x="66" y="220" width="8" height="12" rx="1"/>
+    <circle cx="100" cy="218" r="5"/><rect x="96" y="223" width="8" height="12" rx="1"/>
+    <circle cx="130" cy="215" r="5"/><rect x="126" y="220" width="8" height="12" rx="1"/>
+    <circle cx="160" cy="218" r="5"/><rect x="156" y="223" width="8" height="12" rx="1"/>
+  </g>
+  <!-- Violin shapes -->
+  <g fill="#8B6914" opacity="0.6">
+    <ellipse cx="78" cy="225" rx="5" ry="3"/>
+    <ellipse cx="108" cy="228" rx="5" ry="3"/>
+    <ellipse cx="138" cy="225" rx="5" ry="3"/>
+    <ellipse cx="168" cy="228" rx="5" ry="3"/>
+  </g>
+  
+  <!-- === WOODWIND (center left) === -->
+  <text x="110" y="245" font-size="6" fill="#5A6A5A" font-family="sans-serif" text-anchor="middle">Духовые</text>
+  <g fill="#1A1A1A" opacity="0.7">
+    <circle cx="90" cy="255" r="5"/><rect x="86" y="260" width="8" height="12" rx="1"/>
+    <circle cx="120" cy="255" r="5"/><rect x="116" y="260" width="8" height="12" rx="1"/>
+    <circle cx="150" cy="258" r="5"/><rect x="146" y="263" width="8" height="12" rx="1"/>
+  </g>
+  
+  <!-- === BRASS (back left) === -->
+  <text x="70" y="280" font-size="6" fill="#6A6A3A" font-family="sans-serif" text-anchor="middle">Медные</text>
+  <g fill="#1A1A1A" opacity="0.6">
+    <circle cx="50" cy="290" r="5"/><rect x="46" y="295" width="8" height="12" rx="1"/>
+    <circle cx="80" cy="290" r="5"/><rect x="76" y="295" width="8" height="12" rx="1"/>
+    <circle cx="110" cy="292" r="5"/><rect x="106" y="297" width="8" height="12" rx="1"/>
+  </g>
+  <!-- Trumpet bells -->
+  <g fill="#DAA520" opacity="0.4">
+    <ellipse cx="62" cy="295" rx="5" ry="3"/>
+    <ellipse cx="92" cy="295" rx="5" ry="3"/>
+  </g>
+  
+  <!-- === STRING SECTION (front right) === -->
+  <text x="430" y="210" font-size="6" fill="#6A5A4A" font-family="sans-serif" text-anchor="middle">Струнные</text>
+  <g fill="#1A1A1A" opacity="0.8">
+    <circle cx="340" cy="215" r="5"/><rect x="336" y="220" width="8" height="12" rx="1"/>
+    <circle cx="370" cy="218" r="5"/><rect x="366" y="223" width="8" height="12" rx="1"/>
+    <circle cx="400" cy="215" r="5"/><rect x="396" y="220" width="8" height="12" rx="1"/>
+    <circle cx="430" cy="218" r="5"/><rect x="426" y="223" width="8" height="12" rx="1"/>
+  </g>
+  <g fill="#8B6914" opacity="0.6">
+    <ellipse cx="348" cy="225" rx="5" ry="3"/>
+    <ellipse cx="378" cy="228" rx="5" ry="3"/>
+    <ellipse cx="408" cy="225" rx="5" ry="3"/>
+    <ellipse cx="438" cy="228" rx="5" ry="3"/>
+  </g>
+  
+  <!-- === PERCUSSION (back right) === -->
+  <text x="420" y="265" font-size="6" fill="#6A3A3A" font-family="sans-serif" text-anchor="middle">Ударные</text>
+  <!-- Timpani -->
+  <g>
+    <ellipse cx="380" cy="275" rx="15" ry="5" fill="#8B4513"/>
+    <ellipse cx="380" cy="270" rx="15" ry="5" fill="#C8A878"/>
+    <path d="M365 275 L362 290 L398 290 L395 275" fill="#6B3E12"/>
+    
+    <ellipse cx="420" cy="278" rx="12" ry="4" fill="#8B4513"/>
+    <ellipse cx="420" cy="274" rx="12" ry="4" fill="#C8A878"/>
+    <path d="M408 278 L406 290 L434 290 L432 278" fill="#6B3E12"/>
+    
+    <!-- Cymbal -->
+    <ellipse cx="460" cy="270" rx="10" ry="2.5" fill="#DAA520"/>
+    <line x1="460" y1="273" x2="460" y2="290" stroke="#8B6914" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Music stands -->
+  <g fill="#2A2A2A" stroke="#444" stroke-width="0.3">
+    <rect x="55" y="220" width="12" height="8" rx="0.5" transform="rotate(-5 61 224)"/>
+    <rect x="135" y="218" width="12" height="8" rx="0.5" transform="rotate(3 141 222)"/>
+    <rect x="350" y="218" width="12" height="8" rx="0.5" transform="rotate(-3 356 222)"/>
+    <rect x="420" y="220" width="12" height="8" rx="0.5" transform="rotate(5 426 224)"/>
+  </g>
+  
+  <!-- Sound waves from conductor -->
+  <g fill="none" stroke="#FFE4B5" stroke-width="0.5" opacity="0.2">
+    <path d="M260 130 Q270 140 260 150"/>
+    <path d="M265 125 Q280 140 265 155"/>
+    <path d="M270 120 Q290 140 270 160"/>
+  </g>
+  
+  <text x="250" y="340" text-anchor="middle" font-size="9" opacity="0.5" font-family="sans-serif" fill="#AAA">Симфоническая музыка</text>
 </svg>

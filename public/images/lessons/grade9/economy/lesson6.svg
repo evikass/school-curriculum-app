@@ -1,43 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF3E0"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FFA726"/>
-      <stop offset="100%" stop-color="#E65100"/>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#dc2626"/>
+      <stop offset="100%" style="stop-color:#7f1d1d"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FFA726" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#FFA726" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#FFA726" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#E65100" opacity="0.12"/>
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#FFA726" text-anchor="middle">Семейный бюджет</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Экономика — Урок 6</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#FFA726" stroke-width="2" opacity="0.25"/>
-  <rect x="15" y="72" width="235" height="225" rx="4" fill="#FFA726" opacity="0.05"/>
-  <text x="22" y="88" font-family="Arial,sans-serif" font-size="10" fill="#E65100" text-anchor="start" font-weight="bold">Семейный бюджет —</text>
-  <text x="80" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">доходы и расходы семьи</text>
-  <text x="22" y="108" font-family="Arial,sans-serif" font-size="10" fill="#E65100" text-anchor="start" font-weight="bold">Доходы:</text>
-  <text x="80" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Зарплата, пенсия, стипендия</text>
-  <text x="32" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Доходы от имущества, вкладов</text>
-  <text x="32" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Пособия, алименты</text>
-  <text x="22" y="168" font-family="Arial,sans-serif" font-size="10" fill="#E65100" text-anchor="start" font-weight="bold">Расходы:</text>
-  <text x="80" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Обязательные: коммуналка, питание</text>
-  <rect x="255" y="72" width="230" height="225" rx="4" fill="#FFA726" opacity="0.05"/>
-  <text x="272" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Переменные: одежда, транспорт</text>
-  <text x="272" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Непредвиденные: ремонт, лечение</text>
-  <text x="262" y="128" font-family="Arial,sans-serif" font-size="10" fill="#E65100" text-anchor="start" font-weight="bold">Правило:</text>
-  <text x="320" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">50/30/20 — метод конвертов</text>
-  <text x="272" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">50% — нужды, 30% — желания, 20% — сбережения</text>
-  <text x="262" y="168" font-family="Arial,sans-serif" font-size="10" fill="#E65100" text-anchor="start" font-weight="bold">Совет:</text>
-  <text x="320" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Ведите учёт расходов!</text>
-  <rect x="15" y="280" width="235" height="18" rx="4" fill="#FFA726" opacity="0.06"/>
-  <text x="132" y="293" font-family="Arial,sans-serif" font-size="9" fill="#E65100" text-anchor="middle" font-weight="bold">Доходы > Расходы = Профицит</text>
-  <rect x="255" y="280" width="230" height="18" rx="4" fill="#FFA726" opacity="0.06"/>
-  <text x="370" y="293" font-family="Arial,sans-serif" font-size="9" fill="#E65100" text-anchor="middle" font-weight="bold">Финансовая грамотность — основа благополучия</text>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Экономика · Семейный бюджет</text>
+  <rect width="500" height="350" fill="url(#bg6)" rx="12"/>
+  <!-- Supply and demand graph -->
+  <line x1="80" y1="280" x2="430" y2="280" stroke="#fca5a5" stroke-width="2"/>
+  <line x1="80" y1="280" x2="80" y2="40" stroke="#fca5a5" stroke-width="2"/>
+  <text x="440" y="284" font-family="sans-serif" font-size="10" fill="#fca5a5">Q</text>
+  <text x="72" y="35" font-family="sans-serif" font-size="10" fill="#fca5a5">P</text>
+  <!-- Demand curve (downward) -->
+  <path d="M120,60 Q250,160 400,250" fill="none" stroke="#60a5fa" stroke-width="3"/>
+  <text x="135" y="55" font-family="sans-serif" font-size="12" fill="#60a5fa" font-weight="bold">D</text>
+  <!-- Supply curve (upward) -->
+  <path d="M120,250 Q250,160 400,60" fill="none" stroke="#fbbf24" stroke-width="3"/>
+  <text x="405" y="55" font-family="sans-serif" font-size="12" fill="#fbbf24" font-weight="bold">S</text>
+  <!-- Equilibrium point -->
+  <circle cx="255" cy="155" r="8" fill="#f0fdf4" stroke="#10b981" stroke-width="2"/>
+  <text x="270" y="145" font-family="sans-serif" font-size="9" fill="#86efac" font-weight="bold">E (равновесие)</text>
+  <!-- Dashed lines to axes -->
+  <line x1="255" y1="155" x2="255" y2="280" stroke="#86efac" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="80" y1="155" x2="255" y2="155" stroke="#86efac" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="60" y="158" font-family="sans-serif" font-size="8" fill="#86efac">P*</text>
+  <text x="250" y="295" font-family="sans-serif" font-size="8" fill="#86efac">Q*</text>
+  <!-- Surplus zone -->
+  <rect x="260" y="85" width="100" height="45" rx="4" fill="#991b1b" opacity="0.5"/>
+  <text x="310" y="105" font-family="sans-serif" font-size="8" fill="#fca5a5" text-anchor="middle">Избыток</text>
+  <text x="310" y="120" font-family="sans-serif" font-size="7" fill="#fca5a5" text-anchor="middle">(P > P*)</text>
+  <!-- Deficit zone -->
+  <rect x="260" y="180" width="100" height="45" rx="4" fill="#991b1b" opacity="0.5"/>
+  <text x="310" y="200" font-family="sans-serif" font-size="8" fill="#fca5a5" text-anchor="middle">Дефицит</text>
+  <text x="310" y="215" font-family="sans-serif" font-size="7" fill="#fca5a5" text-anchor="middle">(P &lt; P*)</text>
+  <!-- Elasticity indicator -->
+  <rect x="30" y="30" width="130" height="55" rx="6" fill="#7f1d1d" stroke="#fbbf24" stroke-width="1"/>
+  <text x="95" y="50" font-family="sans-serif" font-size="9" fill="#fbbf24" text-anchor="middle" font-weight="bold">Эластичность</text>
+  <text x="95" y="65" font-family="sans-serif" font-size="7" fill="#fde68a" text-anchor="middle">Хлеб — неэластичен</text>
+  <text x="95" y="78" font-family="sans-serif" font-size="7" fill="#fde68a" text-anchor="middle">Ювелирки — эластичен</text>
+  <!-- Laws on right -->
+  <rect x="380" y="250" width="110" height="60" rx="6" fill="#7f1d1d" stroke="#60a5fa" stroke-width="1"/>
+  <text x="435" y="270" font-family="sans-serif" font-size="8" fill="#93c5fd" text-anchor="middle" font-weight="bold">Законы:</text>
+  <text x="435" y="285" font-family="sans-serif" font-size="7" fill="#bfdbfe" text-anchor="middle">↓ P = ↑ D (спрос)</text>
+  <text x="435" y="300" font-family="sans-serif" font-size="7" fill="#bfdbfe" text-anchor="middle">↑ P = ↑ S (предлож.)</text>
+  <text x="250" y="340" font-family="sans-serif" font-size="9" fill="white" text-anchor="middle" opacity="0.5">Спрос и предложение</text>
 </svg>

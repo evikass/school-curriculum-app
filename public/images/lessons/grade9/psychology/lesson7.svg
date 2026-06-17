@@ -1,43 +1,66 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#F3E5F5"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#AB47BC"/>
-      <stop offset="100%" stop-color="#6A1B9A"/>
+    <linearGradient id="pbg7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a0a2e"/>
+      <stop offset="100%" style="stop-color:#2d1b4e"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#AB47BC" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#AB47BC" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#6A1B9A" opacity="0.12"/>
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#AB47BC" text-anchor="middle">Конфликты и их причины</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Психология — Урок 7</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#AB47BC" stroke-width="2" opacity="0.25"/>
-  <rect x="15" y="72" width="235" height="225" rx="4" fill="#AB47BC" opacity="0.05"/>
-  <text x="22" y="88" font-family="Arial,sans-serif" font-size="10" fill="#6A1B9A" text-anchor="start" font-weight="bold">Конфликт —</text>
-  <text x="80" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">столкновение интересов</text>
-  <text x="22" y="108" font-family="Arial,sans-serif" font-size="10" fill="#6A1B9A" text-anchor="start" font-weight="bold">Причины:</text>
-  <text x="80" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Разные цели и ценности</text>
-  <text x="32" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Недостаток информации</text>
-  <text x="32" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Нарушение коммуникации</text>
-  <text x="32" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Ограниченные ресурсы</text>
-  <rect x="255" y="72" width="230" height="225" rx="4" fill="#AB47BC" opacity="0.05"/>
-  <text x="262" y="88" font-family="Arial,sans-serif" font-size="10" fill="#6A1B9A" text-anchor="start" font-weight="bold">Виды:</text>
-  <text x="320" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Внутриличностный — с самим собой</text>
-  <text x="272" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Межличностный — между двумя</text>
-  <text x="272" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Межгрупповой — группы vs группы</text>
-  <text x="262" y="148" font-family="Arial,sans-serif" font-size="10" fill="#6A1B9A" text-anchor="start" font-weight="bold">Динамика:</text>
-  <text x="320" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Нарастание → Кульминация → Разрешение</text>
-  <text x="262" y="168" font-family="Arial,sans-serif" font-size="10" fill="#6A1B9A" text-anchor="start" font-weight="bold">Опасность:</text>
-  <text x="320" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Эскалация — усиление конфликта</text>
-  <rect x="15" y="280" width="235" height="18" rx="4" fill="#AB47BC" opacity="0.06"/>
-  <text x="132" y="293" font-family="Arial,sans-serif" font-size="9" fill="#6A1B9A" text-anchor="middle" font-weight="bold">Конфликт — нормальная часть жизни</text>
-  <rect x="255" y="280" width="230" height="18" rx="4" fill="#AB47BC" opacity="0.06"/>
-  <text x="370" y="293" font-family="Arial,sans-serif" font-size="9" fill="#6A1B9A" text-anchor="middle" font-weight="bold">Важно: как мы его разрешаем</text>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Психология · Конфликты и их причи</text>
+  <rect width="500" height="350" fill="url(#pbg7)"/>
+  <!-- Joy face -->
+  <g transform="translate(60,30)">
+    <circle cx="40" cy="40" r="35" fill="#ffc107" opacity="0.15" stroke="#ffc107" stroke-width="2"/>
+    <circle cx="28" cy="32" r="4" fill="#ffc107"/><circle cx="52" cy="32" r="4" fill="#ffc107"/>
+    <path d="M22,48 Q40,65 58,48" fill="none" stroke="#ffc107" stroke-width="2.5"/>
+    <text x="40" y="90" fill="#ffc107" font-size="9" text-anchor="middle">Радость</text>
+  </g>
+  <!-- Anger face -->
+  <g transform="translate(170,30)">
+    <circle cx="40" cy="40" r="35" fill="#f44336" opacity="0.15" stroke="#f44336" stroke-width="2"/>
+    <line x1="25" y1="25" x2="33" y2="32" stroke="#f44336" stroke-width="2.5"/>
+    <line x1="55" y1="25" x2="47" y2="32" stroke="#f44336" stroke-width="2.5"/>
+    <circle cx="28" cy="35" r="3.5" fill="#f44336"/><circle cx="52" cy="35" r="3.5" fill="#f44336"/>
+    <path d="M25,55 Q40,45 55,55" fill="none" stroke="#f44336" stroke-width="2.5"/>
+    <text x="40" y="90" fill="#f44336" font-size="9" text-anchor="middle">Гнев</text>
+  </g>
+  <!-- Sadness face -->
+  <g transform="translate(280,30)">
+    <circle cx="40" cy="40" r="35" fill="#4fc3f7" opacity="0.15" stroke="#4fc3f7" stroke-width="2"/>
+    <circle cx="28" cy="32" r="4" fill="#4fc3f7"/><circle cx="52" cy="32" r="4" fill="#4fc3f7"/>
+    <path d="M22,55 Q40,42 58,55" fill="none" stroke="#4fc3f7" stroke-width="2.5"/>
+    <text x="40" y="90" fill="#4fc3f7" font-size="9" text-anchor="middle">Грусть</text>
+  </g>
+  <!-- Surprise face -->
+  <g transform="translate(390,30)">
+    <circle cx="40" cy="40" r="35" fill="#ff9800" opacity="0.15" stroke="#ff9800" stroke-width="2"/>
+    <circle cx="28" cy="30" r="5" fill="none" stroke="#ff9800" stroke-width="2"/>
+    <circle cx="52" cy="30" r="5" fill="none" stroke="#ff9800" stroke-width="2"/>
+    <circle cx="40" cy="52" r="6" fill="none" stroke="#ff9800" stroke-width="2"/>
+    <text x="40" y="90" fill="#ff9800" font-size="9" text-anchor="middle">Удивление</text>
+  </g>
+  <!-- Emotion vs Feeling comparison -->
+  <rect x="30" y="145" width="210" height="85" fill="#7c4dff" opacity="0.1" rx="8" stroke="#e040fb" stroke-width="1"/>
+  <text x="135" y="168" fill="#e040fb" font-size="11" text-anchor="middle" font-weight="bold">Эмоции</text>
+  <text x="135" y="185" fill="#b388ff" font-size="8" text-anchor="middle">Кратковременные</text>
+  <text x="135" y="198" fill="#b388ff" font-size="8" text-anchor="middle">Ситуативные</text>
+  <text x="135" y="211" fill="#b388ff" font-size="8" text-anchor="middle">Сильные, яркие</text>
+  <text x="135" y="224" fill="#78909c" font-size="7" text-anchor="middle">Внезапный страх, радость</text>
+  <rect x="260" y="145" width="210" height="85" fill="#7c4dff" opacity="0.1" rx="8" stroke="#b388ff" stroke-width="1"/>
+  <text x="365" y="168" fill="#b388ff" font-size="11" text-anchor="middle" font-weight="bold">Чувства</text>
+  <text x="365" y="185" fill="#e040fb" font-size="8" text-anchor="middle">Устойчивые</text>
+  <text x="365" y="198" fill="#e040fb" font-size="8" text-anchor="middle">Длительные</text>
+  <text x="365" y="211" fill="#e040fb" font-size="8" text-anchor="middle">Глубокие</text>
+  <text x="365" y="224" fill="#78909c" font-size="7" text-anchor="middle">Любовь, патриотизм</text>
+  <!-- Functions of emotions -->
+  <g transform="translate(60,250)">
+    <text x="190" y="0" fill="#e040fb" font-size="9" text-anchor="middle" font-weight="bold">Функции эмоций</text>
+    <rect x="0" y="10" width="90" height="25" fill="#ffc107" opacity="0.1" rx="12" stroke="#ffc107" stroke-width="1"/>
+    <text x="45" y="27" fill="#ffc107" font-size="8" text-anchor="middle">Сигнальная</text>
+    <rect x="100" y="10" width="90" height="25" fill="#4fc3f7" opacity="0.1" rx="12" stroke="#4fc3f7" stroke-width="1"/>
+    <text x="145" y="27" fill="#4fc3f7" font-size="8" text-anchor="middle">Регуляторная</text>
+    <rect x="200" y="10" width="90" height="25" fill="#4caf50" opacity="0.1" rx="12" stroke="#4caf50" stroke-width="1"/>
+    <text x="245" y="27" fill="#4caf50" font-size="8" text-anchor="middle">Коммуникативная</text>
+    <rect x="300" y="10" width="90" height="25" fill="#f44336" opacity="0.1" rx="12" stroke="#f44336" stroke-width="1"/>
+    <text x="345" y="27" fill="#f44336" font-size="8" text-anchor="middle">Защитная</text>
+  </g>
+  <text x="250" y="345" fill="#aaa" font-size="9" text-anchor="middle" opacity="0.5">Эмоции и чувства</text>
 </svg>

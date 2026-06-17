@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+<linearGradient id="metalGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#78909C"/><stop offset="50%" stop-color="#90A4AE"/><stop offset="100%" stop-color="#78909C"/></linearGradient>
+<linearGradient id="metalDark" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#546E7A"/><stop offset="50%" stop-color="#607D8B"/><stop offset="100%" stop-color="#546E7A"/></linearGradient>
+<linearGradient id="lensGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#E3F2FD"/><stop offset="100%" stop-color="#BBDEFB"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Устройство увеличительных приборов</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 6 класс — Урок 4</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- Detailed Microscope Diagram -->
+<g transform="translate(175,200)">
+  <!-- Base - horseshoe shape -->
+  <path d="M-48,72 L-48,60 C-48,50 -38,45 0,45 C38,45 48,50 48,60 L48,72 C48,82 38,87 0,87 C-38,87 -48,82 -48,72 Z" fill="url(#metalDark)" stroke="#37474F" stroke-width="1.2"/>
+  
+  <!-- Pillar -->
+  <rect x="-7" y="-25" width="14" height="72" rx="3" fill="url(#metalGrad)" stroke="#546E7A" stroke-width="1"/>
+  
+  <!-- Arm curve to eyepiece -->
+  <path d="M7,-25 C7,-38 18,-44 24,-44 L36,-44" fill="none" stroke="#546E7A" stroke-width="9" stroke-linecap="round"/>
+  <path d="M7,-25 C7,-38 18,-44 24,-44 L36,-44" fill="none" stroke="url(#metalGrad)" stroke-width="7" stroke-linecap="round"/>
+  
+  <!-- Eyepiece tube -->
+  <rect x="34" y="-58" width="10" height="22" rx="2" fill="url(#metalGrad)" stroke="#546E7A" stroke-width="0.8"/>
+  
+  <!-- Eyepiece (top) -->
+  <rect x="31" y="-70" width="16" height="16" rx="3" fill="url(#metalDark)" stroke="#37474F" stroke-width="0.8"/>
+  <ellipse cx="39" cy="-70" rx="6" ry="2.5" fill="#B0BEC5" stroke="#78909C" stroke-width="0.5"/>
+  
+  <!-- Revolving nosepiece -->
+  <ellipse cx="39" cy="-32" rx="16" ry="7" fill="#607D8B" stroke="#455A64" stroke-width="1"/>
+  <!-- Dot markers on nosepiece -->
+  <circle cx="30" cy="-33" r="1.5" fill="#B0BEC5"/>
+  <circle cx="48" cy="-33" r="1.5" fill="#B0BEC5"/>
+  
+  <!-- Objective lenses (3 different lengths) -->
+  <rect x="25" y="-25" width="6" height="16" rx="1" fill="#455A64" stroke="#37474F" stroke-width="0.5"/>
+  <text x="22" y="-12" font-family="Arial,sans-serif" font-size="4" fill="#78909C" text-anchor="end">×8</text>
+  <rect x="36" y="-25" width="6" height="22" rx="1" fill="#455A64" stroke="#37474F" stroke-width="0.5"/>
+  <text x="33" y="2" font-family="Arial,sans-serif" font-size="4" fill="#78909C" text-anchor="end">×40</text>
+  <rect x="47" y="-25" width="6" height="12" rx="1" fill="#455A64" stroke="#37474F" stroke-width="0.5"/>
+  <text x="57" y="-15" font-family="Arial,sans-serif" font-size="4" fill="#78909C">×15</text>
+  
+  <!-- Stage -->
+  <rect x="-35" y="18" width="65" height="7" rx="1" fill="#90A4AE" stroke="#546E7A" stroke-width="0.8"/>
+  <!-- Stage clips -->
+  <rect x="-30" y="15" width="12" height="5" rx="1" fill="#B0BEC5" stroke="#78909C" stroke-width="0.5"/>
+  <rect x="14" y="15" width="12" height="5" rx="1" fill="#B0BEC5" stroke="#78909C" stroke-width="0.5"/>
+  <!-- Hole in stage -->
+  <ellipse cx="-2" cy="21" rx="6" ry="3" fill="#78909C" stroke="#546E7A" stroke-width="0.5"/>
+  
+  <!-- Slide on stage -->
+  <rect x="-22" y="16" width="30" height="4" rx="1" fill="#E3F2FD" stroke="#90CAF9" stroke-width="0.5" opacity="0.6"/>
+  <!-- Specimen on slide -->
+  <circle cx="-7" cy="18" r="3" fill="#81C784" opacity="0.3" stroke="#4CAF50" stroke-width="0.3"/>
+  
+  <!-- Coarse adjustment knob (left) -->
+  <ellipse cx="-12" cy="52" rx="10" ry="10" fill="#90A4AE" stroke="#546E7A" stroke-width="1"/>
+  <ellipse cx="-12" cy="52" rx="5" ry="5" fill="#B0BEC5" stroke="#78909C" stroke-width="0.5"/>
+  <!-- Knurled texture -->
+  <line x1="-20" y1="48" x2="-18" y2="48" stroke="#78909C" stroke-width="0.3"/>
+  <line x1="-21" y1="52" x2="-18" y2="52" stroke="#78909C" stroke-width="0.3"/>
+  <line x1="-20" y1="56" x2="-18" y2="56" stroke="#78909C" stroke-width="0.3"/>
+  
+  <!-- Fine adjustment knob (inner) -->
+  <ellipse cx="-12" cy="52" rx="3" ry="3" fill="#CFD8DC"/>
+  
+  <!-- Condenser -->
+  <rect x="-5" y="30" width="10" height="8" rx="2" fill="#607D8B" stroke="#455A64" stroke-width="0.5"/>
+  
+  <!-- Mirror/Light source -->
+  <ellipse cx="-2" cy="42" rx="10" ry="5" fill="#FFD54F" stroke="#F9A825" stroke-width="0.8"/>
+  <path d="M-12,42 L-18,47" stroke="#78909C" stroke-width="2.5"/>
+  <path d="M8,42 L14,47" stroke="#78909C" stroke-width="2.5"/>
+  <!-- Light reflection -->
+  <path d="M-4,40 C-2,38 2,38 4,40" fill="none" stroke="#FFF9C4" stroke-width="0.5"/>
+  
+  <!-- LABELS with leader lines -->
+  <!-- Окуляр -->
+  <line x1="47" y1="-62" x2="105" y2="-72" stroke="#333" stroke-width="0.6"/>
+  <circle cx="47" cy="-62" r="1.5" fill="#333"/>
+  <text x="107" y="-69" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" font-weight="bold">Окуляр</text>
+  <text x="107" y="-60" font-family="Arial,sans-serif" font-size="5.5" fill="#666">увеличивает изображение</text>
+  
+  <!-- Объектив -->
+  <line x1="50" y1="-15" x2="105" y2="-22" stroke="#333" stroke-width="0.6"/>
+  <circle cx="50" cy="-15" r="1.5" fill="#333"/>
+  <text x="107" y="-19" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" font-weight="bold">Объективы</text>
+  <text x="107" y="-10" font-family="Arial,sans-serif" font-size="5.5" fill="#666">×8, ×15, ×40</text>
+  
+  <!-- Револьвер -->
+  <line x1="55" y1="-32" x2="105" y2="-40" stroke="#333" stroke-width="0.6"/>
+  <circle cx="55" cy="-32" r="1.5" fill="#333"/>
+  <text x="107" y="-37" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" font-weight="bold">Револьвер</text>
+  <text x="107" y="-28" font-family="Arial,sans-serif" font-size="5.5" fill="#666">смена объектива</text>
+  
+  <!-- Предметный столик -->
+  <line x1="25" y1="21" x2="105" y2="10" stroke="#333" stroke-width="0.6"/>
+  <circle cx="25" cy="21" r="1.5" fill="#333"/>
+  <text x="107" y="7" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" font-weight="bold">Предметный столик</text>
+  <text x="107" y="16" font-family="Arial,sans-serif" font-size="5.5" fill="#666">размещение препарата</text>
+  
+  <!-- Винт -->
+  <line x1="-22" y1="52" x2="-65" y2="35" stroke="#333" stroke-width="0.6"/>
+  <circle cx="-22" cy="52" r="1.5" fill="#333"/>
+  <text x="-110" y="32" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" font-weight="bold">Винт грубой</text>
+  <text x="-110" y="41" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" font-weight="bold">наводки</text>
+  
+  <!-- Зеркало -->
+  <line x1="-12" y1="42" x2="-65" y2="55" stroke="#333" stroke-width="0.6"/>
+  <circle cx="-12" cy="42" r="1.5" fill="#333"/>
+  <text x="-110" y="52" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" font-weight="bold">Зеркало</text>
+  <text x="-110" y="61" font-family="Arial,sans-serif" font-size="5.5" fill="#666">направляет свет</text>
+  
+  <!-- Штатив -->
+  <line x1="0" y1="30" x2="-65" y2="72" stroke="#333" stroke-width="0.6"/>
+  <circle cx="0" cy="30" r="1.5" fill="#333"/>
+  <text x="-105" y="69" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" font-weight="bold">Штатив</text>
+  
+  <!-- Основание -->
+  <line x1="-40" y1="75" x2="-65" y2="85" stroke="#333" stroke-width="0.6"/>
+  <circle cx="-40" cy="75" r="1.5" fill="#333"/>
+  <text x="-105" y="82" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" font-weight="bold">Основание</text>
+</g>
+
+<!-- Hand lens comparison at top right -->
+<g transform="translate(430,80)">
+  <circle cx="0" cy="0" r="18" fill="#FFF9C4" opacity="0.3" stroke="#795548" stroke-width="2.8"/>
+  <circle cx="0" cy="0" r="14" fill="#FFF9C4" opacity="0.15"/>
+  <line x1="13" y1="13" x2="28" y2="28" stroke="#795548" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Small bug visible through lens -->
+  <ellipse cx="-3" cy="-2" rx="5" ry="3" fill="#81C784" opacity="0.3" stroke="#4CAF50" stroke-width="0.5"/>
+  <text x="5" y="35" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle">Лупа</text>
+  <text x="5" y="43" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">×5–×20</text>
+</g>
+
+<!-- Electron microscope note -->
+<rect x="350" y="105" width="135" height="28" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="0.6"/>
+<text x="417" y="117" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle" font-weight="bold">Электронный микроскоп</text>
+<text x="417" y="126" font-family="Arial,sans-serif" font-size="5.5" fill="#1565C0" text-anchor="middle">увеличение до ×2 000 000</text>
+
+<!-- Magnification calculation -->
+<rect x="15" y="298" width="470" height="38" rx="5" fill="#1B5E20" opacity="0.07" stroke="#2E7D32" stroke-width="0.8"/>
+<text x="250" y="313" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">Увеличение микроскопа = Увеличение окуляра × Увеличение объектива</text>
+<text x="250" y="328" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">Пример: окуляр ×15 и объектив ×40 → общее увеличение = 15 × 40 = ×600</text>
+</svg>

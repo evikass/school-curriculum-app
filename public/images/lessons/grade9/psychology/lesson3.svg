@@ -1,41 +1,54 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#F3E5F5"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#AB47BC"/>
-      <stop offset="100%" stop-color="#6A1B9A"/>
+    <linearGradient id="pbg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a0a2e"/>
+      <stop offset="100%" style="stop-color:#2d1b4e"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#AB47BC" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#AB47BC" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#6A1B9A" opacity="0.12"/>
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#AB47BC" text-anchor="middle">Распознавание эмоций</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Психология — Урок 3</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#AB47BC" stroke-width="2" opacity="0.25"/>
-  <rect x="15" y="72" width="235" height="225" rx="4" fill="#AB47BC" opacity="0.05"/>
-  <text x="22" y="88" font-family="Arial,sans-serif" font-size="10" fill="#6A1B9A" text-anchor="start" font-weight="bold">Как распознать:</text>
-  <text x="80" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Мимика — движения лица</text>
-  <text x="32" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Жесты — движения рук и тела</text>
-  <text x="32" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Интонация — тон голоса</text>
-  <text x="32" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Поза — положение тела</text>
-  <text x="22" y="168" font-family="Arial,sans-serif" font-size="10" fill="#6A1B9A" text-anchor="start" font-weight="bold">Универсальные:</text>
-  <text x="80" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">6 базовых эмоций узнаются</text>
-  <rect x="255" y="72" width="230" height="225" rx="4" fill="#AB47BC" opacity="0.05"/>
-  <text x="272" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">во всех культурах мира</text>
-  <text x="272" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Радость, грусть, страх, гнев,</text>
-  <text x="272" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">удивление, отвращение</text>
-  <text x="262" y="148" font-family="Arial,sans-serif" font-size="10" fill="#6A1B9A" text-anchor="start" font-weight="bold">Трудности:</text>
-  <text x="320" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Смешанные эмоции</text>
-  <text x="272" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Скрытые эмоции (микровыражения)</text>
-  <rect x="15" y="280" width="235" height="18" rx="4" fill="#AB47BC" opacity="0.06"/>
-  <text x="132" y="293" font-family="Arial,sans-serif" font-size="9" fill="#6A1B9A" text-anchor="middle" font-weight="bold">Мимика — зеркало эмоций</text>
-  <rect x="255" y="280" width="230" height="18" rx="4" fill="#AB47BC" opacity="0.06"/>
-  <text x="370" y="293" font-family="Arial,sans-serif" font-size="9" fill="#6A1B9A" text-anchor="middle" font-weight="bold">П. Экман: 6 универсальных эмоций</text>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Психология · Распознавание эмоций</text>
+  <rect width="500" height="350" fill="url(#pbg3)"/>
+  <!-- Large eye -->
+  <ellipse cx="200" cy="130" rx="100" ry="55" fill="#0d1b2a" stroke="#b388ff" stroke-width="2.5"/>
+  <ellipse cx="200" cy="130" rx="60" ry="45" fill="#1a237e"/>
+  <circle cx="200" cy="130" r="25" fill="#4fc3f7"/>
+  <circle cx="200" cy="130" r="12" fill="#0d1b2a"/>
+  <circle cx="192" cy="122" r="4" fill="white" opacity="0.7"/>
+  <!-- Light rays entering eye -->
+  <g stroke="#ffc107" stroke-width="1" opacity="0.5">
+    <line x1="50" y1="80" x2="140" y2="115"/>
+    <line x1="50" y1="130" x2="140" y2="130"/>
+    <line x1="50" y1="180" x2="140" y2="145"/>
+  </g>
+  <!-- Arrow to brain -->
+  <path d="M300,130 L360,130" stroke="#b388ff" stroke-width="2" marker-end="url(#arrow)"/>
+  <polygon points="360,130 350,125 350,135" fill="#b388ff"/>
+  <!-- Brain receiving -->
+  <path d="M380,105 Q400,90 420,105 Q440,95 445,115 Q460,120 455,140 Q465,155 450,165 Q455,180 435,180 Q430,195 410,190 Q395,200 380,190 Q370,195 365,180 Q350,175 355,160 Q345,145 360,135 Q350,120 365,112 Z" fill="#7c4dff" opacity="0.15" stroke="#b388ff" stroke-width="1.5"/>
+  <!-- Perception properties -->
+  <g font-size="8" fill="#b388ff">
+    <rect x="30" y="230" width="90" height="22" fill="#7c4dff" opacity="0.15" rx="10" stroke="#b388ff" stroke-width="1"/>
+    <text x="75" y="245" text-anchor="middle">Предметность</text>
+    <rect x="130" y="230" width="80" height="22" fill="#7c4dff" opacity="0.15" rx="10" stroke="#e040fb" stroke-width="1"/>
+    <text x="170" y="245" text-anchor="middle">Целостность</text>
+    <rect x="220" y="230" width="90" height="22" fill="#7c4dff" opacity="0.15" rx="10" stroke="#4fc3f7" stroke-width="1"/>
+    <text x="265" y="245" text-anchor="middle">Константность</text>
+    <rect x="320" y="230" width="95" height="22" fill="#7c4dff" opacity="0.15" rx="10" stroke="#4caf50" stroke-width="1"/>
+    <text x="367" y="245" text-anchor="middle">Осмысленность</text>
+  </g>
+  <!-- Illusion: Mueller-Lyer -->
+  <g transform="translate(120,280)">
+    <text x="120" y="-5" fill="#e040fb" font-size="9" text-anchor="middle">Иллюзия Мюллера-Лайера</text>
+    <line x1="40" y1="15" x2="120" y2="15" stroke="#e040fb" stroke-width="2"/>
+    <line x1="40" y1="15" x2="50" y2="8" stroke="#e040fb" stroke-width="2"/>
+    <line x1="40" y1="15" x2="50" y2="22" stroke="#e040fb" stroke-width="2"/>
+    <line x1="120" y1="15" x2="110" y2="8" stroke="#e040fb" stroke-width="2"/>
+    <line x1="120" y1="15" x2="110" y2="22" stroke="#e040fb" stroke-width="2"/>
+    <line x1="160" y1="15" x2="240" y2="15" stroke="#4fc3f7" stroke-width="2"/>
+    <line x1="160" y1="15" x2="170" y2="8" stroke="#4fc3f7" stroke-width="2"/>
+    <line x1="160" y1="15" x2="170" y2="22" stroke="#4fc3f7" stroke-width="2"/>
+    <line x1="240" y1="15" x2="230" y2="8" stroke="#4fc3f7" stroke-width="2"/>
+    <line x1="240" y1="15" x2="230" y2="22" stroke="#4fc3f7" stroke-width="2"/>
+    <text x="80" y="40" fill="#78909c" font-size="7" text-anchor="middle">← кажется короче →</text>
+    <text x="200" y="40" fill="#78909c" font-size="7" text-anchor="middle">← кажется длиннее →</text>
+  </g>
+  <text x="250" y="345" fill="#aaa" font-size="9" text-anchor="middle" opacity="0.5">Ощущение и восприятие</text>
 </svg>

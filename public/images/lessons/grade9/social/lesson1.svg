@@ -1,41 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#EFEBE9"/>
-      <stop offset="100%" stop-color="#FFF"/>
-    </linearGradient>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#8D6E63"/>
-      <stop offset="100%" stop-color="#4E342E"/>
-    </linearGradient>
-  </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#8D6E63" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#8D6E63" stroke-width="1" opacity="0.3"/>
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#8D6E63" text-anchor="middle">Природа человека</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Обществознание — Урок 1</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#8D6E63" stroke-width="2" opacity="0.25"/>
-  <rect x="15" y="72" width="235" height="225" rx="4" fill="#8D6E63" opacity="0.05"/>
-  <text x="22" y="88" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Человек —</text>
-  <text x="85" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333">биосоциальное существо</text>
-  <text x="22" y="108" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Биологическое:</text>
-  <text x="85" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333">Инстинкты, потребности, наследственность</text>
-  <text x="32" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333">Анатомия, физиология, возраст</text>
-  <text x="22" y="148" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Социальное:</text>
-  <text x="85" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333">Культура, язык, ценности</text>
-  <text x="32" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333">Общение, деятельность, сознание</text>
-  <rect x="255" y="72" width="230" height="225" rx="4" fill="#8D6E63" opacity="0.05"/>
-  <text x="262" y="88" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Потребности:</text>
-  <text x="325" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333">Физиологические — еда, сон, безопасность</text>
-  <text x="272" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333">Социальные — общение, принадлежность</text>
-  <text x="272" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333">Духовные — самореализация</text>
-  <text x="262" y="148" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Маслоу:</text>
-  <text x="325" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333">Пирамида потребностей</text>
-  <text x="272" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333">От физиологии к самоактуализации</text>
-  <rect x="15" y="280" width="235" height="18" rx="4" fill="#8D6E63" opacity="0.06"/>
-  <text x="132" y="293" font-family="Arial,sans-serif" font-size="9" fill="#4E342E" text-anchor="middle" font-weight="bold">Человек = биология + социум</text>
-  <rect x="255" y="280" width="230" height="18" rx="4" fill="#8D6E63" opacity="0.06"/>
-  <text x="370" y="293" font-family="Arial,sans-serif" font-size="9" fill="#4E342E" text-anchor="middle" font-weight="bold">Пирамида Маслоу — от низшего к высшему</text>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Обществознание · Природа человека</text>
+  <defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#4299E1"/><stop offset="100%" stop-color="#9F7AEA"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#g1)"/>
+  <!-- Person silhouette -->
+  <g transform="translate(250,140)" fill="#E2E8F0" opacity="0.5">
+    <circle cx="0" cy="-30" r="22"/><rect x="-15" y="-8" width="30" height="45" rx="8"/>
+    <line x1="-15" y1="5" x2="-35" y2="25" stroke="#E2E8F0" stroke-width="6" stroke-linecap="round"/>
+    <line x1="15" y1="5" x2="35" y2="25" stroke="#E2E8F0" stroke-width="6" stroke-linecap="round"/>
+    <line x1="-8" y1="37" x2="-12" y2="70" stroke="#E2E8F0" stroke-width="6" stroke-linecap="round"/>
+    <line x1="8" y1="37" x2="12" y2="70" stroke="#E2E8F0" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <!-- Bio side -->
+  <g transform="translate(80,100)" opacity="0.5">
+    <path d="M0 30 Q15 0 30 30 Q15 60 0 30" fill="#48BB78"/>
+    <text x="15" y="80" text-anchor="middle" font-size="9" fill="#C6F6D5">Био</text>
+  </g>
+  <!-- Social side -->
+  <g transform="translate(390,100)" opacity="0.5">
+    <circle cx="0" cy="20" r="8" fill="#FC8181" opacity="0.6"/>
+    <circle cx="15" cy="30" r="6" fill="#F6AD55" opacity="0.6"/>
+    <line x1="0" y1="20" x2="15" y2="30" stroke="#F6AD55" stroke-width="1"/>
+    <text x="7" y="50" text-anchor="middle" font-size="9" fill="#FED7D7">Соц.</text>
+  </g>
+  <!-- 4 spheres -->
+  <g opacity="0.5">
+    <rect x="60" y="230" width="80" height="30" rx="10" fill="#E53E3E"/><text x="100" y="250" text-anchor="middle" font-size="9" fill="#FFF">Экономика</text>
+    <rect x="160" y="230" width="80" height="30" rx="10" fill="#3182CE"/><text x="200" y="250" text-anchor="middle" font-size="9" fill="#FFF">Политика</text>
+    <rect x="260" y="230" width="80" height="30" rx="10" fill="#38A169"/><text x="300" y="250" text-anchor="middle" font-size="9" fill="#FFF">Социум</text>
+    <rect x="360" y="230" width="80" height="30" rx="10" fill="#D69E2E"/><text x="400" y="250" text-anchor="middle" font-size="9" fill="#FFF">Духовность</text>
+  </g>
+  <text x="250" y="310" text-anchor="middle" font-size="18" fill="#E2E8F0" font-weight="bold" opacity="0.6">Человек и общество</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#E2E8F0" opacity="0.5">Человек и общество</text>
 </svg>

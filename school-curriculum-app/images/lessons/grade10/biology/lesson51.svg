@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg51" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="treeGrad" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#4a752c"/>
+      <stop offset="100%" stop-color="#2d5016"/>
+    </linearGradient>
+    <filter id="glow51"><feGaussianBlur stdDeviation="1.5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg51)"/>
+  <rect x="2" y="2" width="496" height="346" fill="none" stroke="#6b8e23" stroke-width="2" rx="6"/>
+  <!-- Title bar -->
+  <rect x="4" y="4" width="492" height="36" fill="#2d5016" rx="4"/>
+  <text x="250" y="27" text-anchor="middle" fill="#e8f5e9" font-size="13" font-weight="bold" font-family="Arial">Макроэволюция и её доказательства — Биология 10 класс — Урок 51</text>
+
+  <!-- Phylogenetic tree -->
+  <text x="130" y="56" text-anchor="middle" fill="#a5d6a7" font-size="10" font-weight="bold" font-family="Arial">Филогенетическое дерево</text>
+  <!-- Trunk -->
+  <path d="M130,300 L130,220 C130,200 80,180 60,160" stroke="#6b8e23" stroke-width="3" fill="none"/>
+  <path d="M130,220 C130,200 180,180 200,160" stroke="#6b8e23" stroke-width="3" fill="none"/>
+  <path d="M130,260 C130,240 50,230 40,210" stroke="#6b8e23" stroke-width="2" fill="none"/>
+  <path d="M130,240 C130,230 190,230 210,215" stroke="#6b8e23" stroke-width="2" fill="none"/>
+  <!-- Branch tips with taxa labels -->
+  <circle cx="60" cy="155" r="5" fill="#81c784"/>
+  <text x="20" y="150" fill="#c8e6c9" font-size="7" font-family="Arial">Тип</text>
+  <text x="10" y="160" fill="#c8e6c9" font-size="6" font-family="Arial">Хордовые</text>
+  <circle cx="200" cy="155" r="5" fill="#81c784"/>
+  <text x="175" y="148" fill="#c8e6c9" font-size="7" font-family="Arial">Тип</text>
+  <text x="170" y="158" fill="#c8e6c9" font-size="6" font-family="Arial">Членистоногие</text>
+  <circle cx="40" cy="207" r="4" fill="#a5d6a7"/>
+  <text x="8" y="215" fill="#c8e6c9" font-size="6" font-family="Arial">Класс</text>
+  <circle cx="210" cy="212" r="4" fill="#a5d6a7"/>
+  <text x="196" y="225" fill="#c8e6c9" font-size="6" font-family="Arial">Класс</text>
+  <!-- Root -->
+  <text x="130" y="313" text-anchor="middle" fill="#8bc34a" font-size="7" font-family="Arial">Общий предок</text>
+  <circle cx="130" cy="300" r="4" fill="#4caf50"/>
+
+  <!-- Time arrow -->
+  <line x1="8" y1="295" x2="8" y2="70" stroke="#558b2f" stroke-width="1.5" marker-end="url(#arrow51)"/>
+  <defs><marker id="arrow51" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#558b2f"/></marker></defs>
+  <text x="12" y="90" fill="#8bc34a" font-size="6" font-family="Arial" transform="rotate(-90,12,90)">Время</text>
+
+  <!-- AROMORPHOSIS section -->
+  <rect x="240" y="48" width="248" height="88" fill="#1b3a1b" stroke="#4caf50" stroke-width="1" rx="4"/>
+  <rect x="240" y="48" width="248" height="16" fill="#2e7d32" rx="4"/>
+  <text x="364" y="60" text-anchor="middle" fill="#e8f5e9" font-size="9" font-weight="bold" font-family="Arial">АРОМОРФОЗ — прогрессивная эволюция</text>
+  <!-- Jaw illustration -->
+  <path d="M252,80 L270,75 L290,78 L295,85 L285,88 L265,86 Z" fill="#e57373" stroke="#c62828" stroke-width="0.8"/>
+  <path d="M258,82 L275,79 L290,82" stroke="#ffcdd2" stroke-width="0.5" fill="none"/>
+  <text x="275" y="97" text-anchor="middle" fill="#ef9a9a" font-size="6" font-family="Arial">Челюсти</text>
+  <!-- Limb illustration -->
+  <path d="M310,82 L320,78 L340,80 L345,88 L335,92 L315,90 Z" fill="#64b5f6" stroke="#1565c0" stroke-width="0.8"/>
+  <line x1="318" y1="84" x2="322" y2="89" stroke="#1565c0" stroke-width="1"/>
+  <line x1="328" y1="84" x2="332" y2="90" stroke="#1565c0" stroke-width="1"/>
+  <line x1="338" y1="85" x2="340" y2="91" stroke="#1565c0" stroke-width="1"/>
+  <text x="327" y="97" text-anchor="middle" fill="#90caf9" font-size="6" font-family="Arial">Конечности</text>
+  <!-- Amniotic egg -->
+  <ellipse cx="380" cy="84" rx="14" ry="10" fill="#fff9c4" stroke="#f9a825" stroke-width="0.8"/>
+  <ellipse cx="380" cy="83" rx="4" ry="3" fill="#ffcc80"/>
+  <text x="380" y="97" text-anchor="middle" fill="#fff176" font-size="6" font-family="Arial">Амниотич. яйцо</text>
+  <!-- Warm-blooded -->
+  <circle cx="440" cy="82" r="8" fill="#ef5350" opacity="0.3"/>
+  <circle cx="440" cy="82" r="5" fill="#ef5350" opacity="0.5"/>
+  <circle cx="440" cy="82" r="2" fill="#ffeb3b"/>
+  <text x="440" y="97" text-anchor="middle" fill="#ef9a9a" font-size="6" font-family="Arial">Теплокровность</text>
+  <text x="364" y="115" text-anchor="middle" fill="#a5d6a7" font-size="7" font-family="Arial" font-style="italic">Повышение уровня организации</text>
+  <text x="364" y="125" text-anchor="middle" fill="#81c784" font-size="6" font-family="Arial">= возникновение новых таксонов</text>
+
+  <!-- IDIOADAPTATION section -->
+  <rect x="240" y="142" width="248" height="72" fill="#1b2a3a" stroke="#42a5f5" stroke-width="1" rx="4"/>
+  <rect x="240" y="142" width="248" height="16" fill="#1565c0" rx="4"/>
+  <text x="364" y="154" text-anchor="middle" fill="#e3f2fd" font-size="9" font-weight="bold" font-family="Arial">ИДИОАДАПТАЦИЯ — частные приспособления</text>
+  <!-- Beak shapes -->
+  <path d="M258,175 L270,170 L280,174 L278,178 L262,177 Z" fill="#8d6e63" stroke="#5d4037" stroke-width="0.7"/>
+  <path d="M290,174 L305,168 L310,170 L300,178 L292,178 Z" fill="#a1887f" stroke="#5d4037" stroke-width="0.7"/>
+  <path d="M320,177 L330,168 L335,172 L332,178 Z" fill="#bcaaa4" stroke="#5d4037" stroke-width="0.7"/>
+  <path d="M348,175 L358,170 L368,175 L365,180 L352,179 Z" fill="#8d6e63" stroke="#5d4037" stroke-width="0.7"/>
+  <text x="364" y="195" text-anchor="middle" fill="#90caf9" font-size="6" font-family="Arial">Формы клювов, модификации конечностей</text>
+  <text x="364" y="205" text-anchor="middle" fill="#64b5f6" font-size="7" font-family="Arial" font-style="italic">Без повышения уровня организации</text>
+
+  <!-- DEGENERATION section -->
+  <rect x="240" y="220" width="248" height="62" fill="#2a1a2a" stroke="#ab47bc" stroke-width="1" rx="4"/>
+  <rect x="240" y="220" width="248" height="16" fill="#6a1b9a" rx="4"/>
+  <text x="364" y="232" text-anchor="middle" fill="#f3e5f5" font-size="9" font-weight="bold" font-family="Arial">ДЕГЕНЕРАЦИЯ — упрощение организации</text>
+  <!-- Tapeworm simplified -->
+  <path d="M265,250 L275,245 L285,248 L295,244 L305,247 L315,243 L325,246 L335,244 L345,247" stroke="#ce93d8" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <circle cx="263" cy="250" r="4" fill="#e1bee7" stroke="#ab47bc" stroke-width="0.5"/>
+  <circle cx="262" cy="249" r="1" fill="#4a148c"/>
+  <!-- Sucker dots -->
+  <circle cx="278" cy="247" r="1.5" fill="#7b1fa2"/>
+  <circle cx="298" cy="246" r="1.5" fill="#7b1fa2"/>
+  <circle cx="318" cy="245" r="1.5" fill="#7b1fa2"/>
+  <circle cx="338" cy="246" r="1.5" fill="#7b1fa2"/>
+  <text x="364" y="265" text-anchor="middle" fill="#ce93d8" font-size="6" font-family="Arial">Паразиты: ленточные черви, бычий цепень</text>
+  <text x="364" y="275" text-anchor="middle" fill="#ba68c8" font-size="7" font-family="Arial" font-style="italic">Утрата органов, упрощение строения</text>
+
+  <!-- Macroevolution definition -->
+  <rect x="10" y="55" width="115" height="40" fill="#1a3320" stroke="#66bb6a" stroke-width="1" rx="3"/>
+  <text x="67" y="68" text-anchor="middle" fill="#a5d6a7" font-size="7" font-weight="bold" font-family="Arial">Макроэволюция</text>
+  <text x="67" y="80" text-anchor="middle" fill="#81c784" font-size="6" font-family="Arial">= эволюция над</text>
+  <text x="67" y="89" text-anchor="middle" fill="#81c784" font-size="6" font-family="Arial">уровнем вида</text>
+
+  <!-- Taxa levels on tree -->
+  <text x="130" y="296" text-anchor="middle" fill="#4caf50" font-size="5" font-family="Arial">Вид</text>
+  <text x="155" y="275" text-anchor="middle" fill="#4caf50" font-size="5" font-family="Arial">Род</text>
+  <text x="165" y="258" text-anchor="middle" fill="#66bb6a" font-size="5" font-family="Arial">Семейство</text>
+  <text x="155" y="242" text-anchor="middle" fill="#81c784" font-size="5" font-family="Arial">Отряд</text>
+  <text x="140" y="226" text-anchor="middle" fill="#a5d6a7" font-size="5" font-family="Arial">Класс</text>
+
+  <!-- Bottom summary -->
+  <rect x="10" y="295" width="220" height="42" fill="#0d1f0d" stroke="#33691e" stroke-width="1" rx="3"/>
+  <text x="120" y="308" text-anchor="middle" fill="#aed581" font-size="7" font-weight="bold" font-family="Arial">Пути макроэволюции:</text>
+  <circle cx="20" cy="320" r="3" fill="#4caf50"/>
+  <text x="27" y="323" fill="#a5d6a7" font-size="6" font-family="Arial">Ароморфоз → новый класс/тип</text>
+  <circle cx="20" cy="330" r="3" fill="#42a5f5"/>
+  <text x="27" y="333" fill="#90caf9" font-size="6" font-family="Arial">Идиоадаптация → новый отряд/семейство</text>
+</svg>

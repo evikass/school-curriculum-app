@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg32" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f3e5f5"/>
+      <stop offset="100%" stop-color="#e1bee7"/>
+    </linearGradient>
+    <radialGradient id="cellM" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fffde7"/>
+      <stop offset="100%" stop-color="#fff9c4"/>
+    </radialGradient>
+    <marker id="arrP" markerWidth="5" markerHeight="5" refX="4" refY="2.5" orient="auto"><path d="M0,0 L5,2.5 L0,5 Z" fill="#7b1fa2"/></marker>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg32)" rx="8"/>
+  <rect x="2" y="2" width="496" height="346" fill="none" stroke="#7b1fa2" stroke-width="2" rx="8"/>
+  <!-- Title bar -->
+  <rect x="0" y="0" width="500" height="38" fill="#7b1fa2" rx="8"/>
+  <rect x="0" y="20" width="500" height="18" fill="#7b1fa2"/>
+  <text x="250" y="26" text-anchor="middle" fill="white" font-size="14" font-weight="bold" font-family="Arial">Мейоз</text>
+  <text x="490" y="14" text-anchor="end" fill="#e1bee7" font-size="8" font-family="Arial">Биология 10 класс — Урок 32</text>
+  <!-- MEIOSIS I label -->
+  <rect x="15" y="44" width="230" height="16" fill="#7b1fa2" fill-opacity="0.15" rx="3"/>
+  <text x="130" y="56" text-anchor="middle" fill="#4a148c" font-size="10" font-weight="bold" font-family="Arial">Мейоз I (редукционное деление)</text>
+  <!-- Prophase I with crossing over -->
+  <ellipse cx="52" cy="95" rx="38" ry="30" fill="url(#cellM)" stroke="#6a1b9a" stroke-width="1.3"/>
+  <!-- Homologous pair with crossing over -->
+  <path d="M40,82 Q44,95 40,108" fill="none" stroke="#d32f2f" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="M44,82 Q48,95 44,108" fill="none" stroke="#1565c0" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="M56,82 Q52,95 56,108" fill="none" stroke="#d32f2f" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="M60,82 Q64,95 60,108" fill="none" stroke="#1565c0" stroke-width="2.8" stroke-linecap="round"/>
+  <!-- Chiasma X mark -->
+  <circle cx="50" cy="95" r="3" fill="#ff6f00" stroke="#ff6f00" stroke-width="0.5"/>
+  <text x="50" y="140" text-anchor="middle" fill="#4a148c" font-size="8" font-weight="bold" font-family="Arial">Профаза I</text>
+  <text x="50" y="150" text-anchor="middle" fill="#4e342e" font-size="6" font-family="Arial">Кроссинговер</text>
+  <!-- Arrow -->
+  <line x1="92" y1="95" x2="104" y2="95" stroke="#7b1fa2" stroke-width="1.2" marker-end="url(#arrP)"/>
+  <!-- Metaphase I -->
+  <ellipse cx="135" cy="95" rx="38" ry="30" fill="url(#cellM)" stroke="#6a1b9a" stroke-width="1.3"/>
+  <line x1="135" y1="68" x2="135" y2="122" stroke="#7e57c2" stroke-width="0.5" stroke-dasharray="2,1"/>
+  <!-- Pairs at equator -->
+  <line x1="128" y1="88" x2="128" y2="102" stroke="#d32f2f" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="131" y1="88" x2="131" y2="102" stroke="#1565c0" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="139" y1="88" x2="139" y2="102" stroke="#d32f2f" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="142" y1="88" x2="142" y2="102" stroke="#1565c0" stroke-width="2.2" stroke-linecap="round"/>
+  <text x="135" y="140" text-anchor="middle" fill="#4a148c" font-size="8" font-weight="bold" font-family="Arial">Метафаза I</text>
+  <text x="135" y="150" text-anchor="middle" fill="#4e342e" font-size="6" font-family="Arial">Пары на экваторе</text>
+  <!-- Arrow -->
+  <line x1="175" y1="95" x2="187" y2="95" stroke="#7b1fa2" stroke-width="1.2" marker-end="url(#arrP)"/>
+  <!-- Anaphase I -->
+  <ellipse cx="218" cy="95" rx="38" ry="30" fill="url(#cellM)" stroke="#6a1b9a" stroke-width="1.3"/>
+  <line x1="218" y1="68" x2="205" y2="84" stroke="#7e57c2" stroke-width="0.5" stroke-dasharray="2,1"/>
+  <line x1="218" y1="68" x2="231" y2="84" stroke="#7e57c2" stroke-width="0.5" stroke-dasharray="2,1"/>
+  <!-- Homologous separating -->
+  <line x1="202" y1="80" x2="202" y2="92" stroke="#d32f2f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="205" y1="80" x2="205" y2="92" stroke="#1565c0" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="231" y1="80" x2="231" y2="92" stroke="#d32f2f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="234" y1="80" x2="234" y2="92" stroke="#1565c0" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="218" y="140" text-anchor="middle" fill="#4a148c" font-size="8" font-weight="bold" font-family="Arial">Анафаза I</text>
+  <text x="218" y="150" text-anchor="middle" fill="#4e342e" font-size="6" font-family="Arial">Гомолог. расходятся</text>
+  <!-- Arrow -->
+  <line x1="258" y1="95" x2="270" y2="95" stroke="#7b1fa2" stroke-width="1.2" marker-end="url(#arrP)"/>
+  <!-- Telophase I -->
+  <ellipse cx="288" cy="85" rx="24" ry="22" fill="url(#cellM)" stroke="#6a1b9a" stroke-width="1"/>
+  <ellipse cx="310" cy="105" rx="24" ry="22" fill="url(#cellM)" stroke="#6a1b9a" stroke-width="1"/>
+  <path d="M296,66 Q299,95 296,124" fill="none" stroke="#6a1b9a" stroke-width="1"/>
+  <path d="M302,66 Q299,95 302,124" fill="none" stroke="#6a1b9a" stroke-width="1"/>
+  <line x1="284" y1="80" x2="284" y2="90" stroke="#d32f2f" stroke-width="2" stroke-linecap="round"/>
+  <line x1="287" y1="80" x2="287" y2="90" stroke="#1565c0" stroke-width="2" stroke-linecap="round"/>
+  <line x1="306" y1="100" x2="306" y2="110" stroke="#d32f2f" stroke-width="2" stroke-linecap="round"/>
+  <line x1="309" y1="100" x2="309" y2="110" stroke="#1565c0" stroke-width="2" stroke-linecap="round"/>
+  <text x="299" y="140" text-anchor="middle" fill="#4a148c" font-size="8" font-weight="bold" font-family="Arial">Телофаза I</text>
+  <text x="299" y="150" text-anchor="middle" fill="#4e342e" font-size="6" font-family="Arial">2n → n</text>
+  <!-- MEIOSIS II label -->
+  <rect x="255" y="44" width="230" height="16" fill="#7b1fa2" fill-opacity="0.15" rx="3"/>
+  <text x="370" y="56" text-anchor="middle" fill="#4a148c" font-size="10" font-weight="bold" font-family="Arial">Мейоз II (эквационное деление)</text>
+  <!-- Arrow from Meiosis I to II -->
+  <path d="M299,125 L299,155 L370,155 L370,165" fill="none" stroke="#7b1fa2" stroke-width="1.2" marker-end="url(#arrP)"/>
+  <!-- Meiosis II: 4 cells at bottom -->
+  <!-- Two cells entering Meiosis II -->
+  <ellipse cx="340" cy="180" rx="30" ry="18" fill="url(#cellM)" stroke="#6a1b9a" stroke-width="1"/>
+  <text x="340" y="184" text-anchor="middle" fill="#d32f2f" font-size="7" font-weight="bold" font-family="Arial">n</text>
+  <ellipse cx="400" cy="180" rx="30" ry="18" fill="url(#cellM)" stroke="#6a1b9a" stroke-width="1"/>
+  <text x="400" y="184" text-anchor="middle" fill="#d32f2f" font-size="7" font-weight="bold" font-family="Arial">n</text>
+  <!-- Arrows to 4 products -->
+  <line x1="330" y1="198" x2="315" y2="215" stroke="#7b1fa2" stroke-width="1" marker-end="url(#arrP)"/>
+  <line x1="350" y1="198" x2="365" y2="215" stroke="#7b1fa2" stroke-width="1" marker-end="url(#arrP)"/>
+  <line x1="390" y1="198" x2="385" y2="215" stroke="#7b1fa2" stroke-width="1" marker-end="url(#arrP)"/>
+  <line x1="410" y1="198" x2="435" y2="215" stroke="#7b1fa2" stroke-width="1" marker-end="url(#arrP)"/>
+  <!-- 4 haploid cells -->
+  <ellipse cx="310" cy="232" rx="22" ry="15" fill="#e8eaf6" stroke="#6a1b9a" stroke-width="1.2"/>
+  <text x="310" y="236" text-anchor="middle" fill="#d32f2f" font-size="7" font-weight="bold" font-family="Arial">n</text>
+  <ellipse cx="370" cy="232" rx="22" ry="15" fill="#e8eaf6" stroke="#6a1b9a" stroke-width="1.2"/>
+  <text x="370" y="236" text-anchor="middle" fill="#d32f2f" font-size="7" font-weight="bold" font-family="Arial">n</text>
+  <ellipse cx="390" cy="232" rx="22" ry="15" fill="#e8eaf6" stroke="#6a1b9a" stroke-width="1.2"/>
+  <text x="390" y="236" text-anchor="middle" fill="#1565c0" font-size="7" font-weight="bold" font-family="Arial">n</text>
+  <ellipse cx="445" cy="232" rx="22" ry="15" fill="#e8eaf6" stroke="#6a1b9a" stroke-width="1.2"/>
+  <text x="445" y="236" text-anchor="middle" fill="#1565c0" font-size="7" font-weight="bold" font-family="Arial">n</text>
+  <text x="380" y="258" text-anchor="middle" fill="#4a148c" font-size="9" font-weight="bold" font-family="Arial">4 гаплоидные клетки</text>
+  <!-- Crossing over detail -->
+  <rect x="20" y="162" width="150" height="75" fill="white" fill-opacity="0.7" rx="5" stroke="#ff6f00" stroke-width="1"/>
+  <text x="95" y="177" text-anchor="middle" fill="#e65100" font-size="9" font-weight="bold" font-family="Arial">Кроссинговер</text>
+  <!-- Two homologous chromosomes crossing -->
+  <line x1="45" y1="188" x2="75" y2="210" stroke="#d32f2f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="55" y1="188" x2="85" y2="210" stroke="#1565c0" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Cross point -->
+  <circle cx="65" cy="199" r="4" fill="#ff6f00" opacity="0.8"/>
+  <text x="65" y="202" text-anchor="middle" fill="white" font-size="5" font-weight="bold" font-family="Arial">X</text>
+  <text x="45" y="225" fill="#4e342e" font-size="7" font-family="Arial">Обмен участками</text>
+  <text x="45" y="234" fill="#4e342e" font-size="7" font-family="Arial">гомологичных хромосом</text>
+  <!-- Summary box -->
+  <rect x="15" y="252" width="220" height="88" fill="white" fill-opacity="0.7" rx="5" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="125" y="268" text-anchor="middle" fill="#4a148c" font-size="10" font-weight="bold" font-family="Arial">Результат мейоза</text>
+  <text x="25" y="283" fill="#4e342e" font-size="8" font-family="Arial">• 1 диплоидная клетка (2n)</text>
+  <text x="25" y="295" fill="#4e342e" font-size="8" font-family="Arial">• → 4 гаплоидные клетки (n)</text>
+  <text x="25" y="307" fill="#4e342e" font-size="8" font-family="Arial">• Два последовательных деления</text>
+  <text x="25" y="319" fill="#4e342e" font-size="8" font-family="Arial">• Кроссинговер → рекомбинация</text>
+  <text x="25" y="331" fill="#4e342e" font-size="8" font-family="Arial">• Генетическое разнообразие</text>
+  <!-- Conjugation detail -->
+  <rect x="245" y="268" width="240" height="68" fill="white" fill-opacity="0.7" rx="5" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="365" y="284" text-anchor="middle" fill="#4a148c" font-size="9" font-weight="bold" font-family="Arial">Конъюгация (Профаза I)</text>
+  <text x="255" y="298" fill="#4e342e" font-size="7" font-family="Arial">Сближение гомологичных хромосом</text>
+  <text x="255" y="310" fill="#4e342e" font-size="7" font-family="Arial">образование бивалентов (тетрад)</text>
+  <text x="255" y="322" fill="#4e342e" font-size="7" font-family="Arial">Каждый бивалент = 4 хроматиды</text>
+  <text x="255" y="334" fill="#4e342e" font-size="7" font-family="Arial">Оплодотворение: n + n → 2n</text>
+  <!-- Legend -->
+  <rect x="175" y="162" width="65" height="50" fill="white" fill-opacity="0.6" rx="3" stroke="#7b1fa2" stroke-width="0.5"/>
+  <rect x="180" y="170" width="8" height="4" fill="#d32f2f" rx="1"/>
+  <text x="192" y="174" fill="#4e342e" font-size="6" font-family="Arial">Матер.</text>
+  <rect x="180" y="180" width="8" height="4" fill="#1565c0" rx="1"/>
+  <text x="192" y="184" fill="#4e342e" font-size="6" font-family="Arial">Отцов.</text>
+  <rect x="180" y="190" width="8" height="4" fill="#ff6f00" rx="1"/>
+  <text x="192" y="194" fill="#4e342e" font-size="6" font-family="Arial">Хиазма</text>
+</svg>

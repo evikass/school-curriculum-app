@@ -1,35 +1,82 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" style="stop-color:#E8F5E9;stop-opacity:0.6"/><stop offset="100%" style="stop-color:#C8E6C9;stop-opacity:0.3"/>
-  </linearGradient></defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="14"/>
-  <rect x="4" y="4" width="492" height="342" rx="12" fill="none" stroke="#388E3C" stroke-width="2.5" opacity="0.35"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#388E3C" text-anchor="middle">Части клетки</text>
-  <line x1="40" y1="62" x2="460" y2="62" stroke="#388E3C" stroke-width="2" opacity="0.3"/>
-  <rect x="40" y="74" width="100" height="5" rx="2.5" fill="#388E3C" opacity="0.2"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+  <text x="250" y="30" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#2E7D32" text-anchor="middle">Признаки живого</text>
+  <text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 5 класс - Урок 2</text>
+  <line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
   
-    <circle cx="430" cy="60" r="35" fill="none" stroke="#388E3C" stroke-width="2" opacity="0.2"/>
-    <circle cx="430" cy="60" r="22" fill="#388E3C" opacity="0.08"/>
-    <circle cx="430" cy="60" r="8" fill="#388E3C" opacity="0.2"/>
-    <circle cx="70" cy="310" r="20" fill="none" stroke="#388E3C" stroke-width="1.5" opacity="0.15"/>
-    <circle cx="70" cy="310" r="12" fill="#388E3C" opacity="0.08"/>
-  
-    <rect x="30" y="100" width="210" height="90" rx="12" fill="white" stroke="#388E3C" stroke-width="2.5" opacity="0.95"/>
-    <text x="135" y="142" font-family="Arial,sans-serif" font-size="26" text-anchor="middle" fill="#388E3C" font-weight="bold">🛡️</text>
-    <text x="135" y="172" font-family="Arial,sans-serif" font-size="17" text-anchor="middle" fill="#333" font-weight="bold">Мембрана</text>
-    <text x="135" y="186" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#666">защита</text>
-    <rect x="260" y="100" width="210" height="90" rx="12" fill="white" stroke="#388E3C" stroke-width="2.5" opacity="0.95"/>
-    <text x="365" y="142" font-family="Arial,sans-serif" font-size="26" text-anchor="middle" fill="#388E3C" font-weight="bold">💧</text>
-    <text x="365" y="172" font-family="Arial,sans-serif" font-size="17" text-anchor="middle" fill="#333" font-weight="bold">Цитоплазма</text>
-    <text x="365" y="186" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#666">внутренняя среда</text>
-    <rect x="30" y="210" width="210" height="90" rx="12" fill="white" stroke="#388E3C" stroke-width="2.5" opacity="0.95"/>
-    <text x="135" y="252" font-family="Arial,sans-serif" font-size="26" text-anchor="middle" fill="#388E3C" font-weight="bold">⚙️</text>
-    <text x="135" y="282" font-family="Arial,sans-serif" font-size="17" text-anchor="middle" fill="#333" font-weight="bold">Ядро</text>
-    <text x="135" y="296" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#666">ДНК, управление</text>
-    <rect x="260" y="210" width="210" height="90" rx="12" fill="white" stroke="#388E3C" stroke-width="2.5" opacity="0.95"/>
-    <text x="365" y="252" font-family="Arial,sans-serif" font-size="26" text-anchor="middle" fill="#388E3C" font-weight="bold">⚡</text>
-    <text x="365" y="282" font-family="Arial,sans-serif" font-size="17" text-anchor="middle" fill="#333" font-weight="bold">Митохондрии</text>
-    <text x="365" y="296" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#666">энергия</text>
-  <rect x="30" y="315" width="440" height="26" rx="8" fill="#388E3C" opacity="0.08"/>
-  <text x="250" y="333" font-family="Arial,sans-serif" font-size="15" fill="#388E3C" text-anchor="middle" font-weight="bold">Ядро — мозг клетки</text>
+  <!-- Sign 1: Питание (Nutrition) - apple -->
+  <g transform="translate(70,90)">
+    <circle cx="0" cy="12" r="18" fill="#E53935" opacity="0.8"/>
+    <path d="M0 -6 Q5 -15 10 -12" stroke="#4CAF50" stroke-width="2" fill="none"/>
+    <ellipse cx="6" cy="-10" rx="6" ry="3" fill="#4CAF50" opacity="0.7" transform="rotate(-30,6,-10)"/>
+    <text x="0" y="42" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle" font-weight="bold">Питание</text>
+  </g>
+  <!-- Sign 2: Дыхание (Respiration) - lungs -->
+  <g transform="translate(180,90)">
+    <path d="M0 -15 Q-20 -5 -18 15 Q-15 25 -5 20 Q0 15 0 10" fill="#FFAB91" stroke="#E64A19" stroke-width="1.5"/>
+    <path d="M0 -15 Q20 -5 18 15 Q15 25 5 20 Q0 15 0 10" fill="#FFAB91" stroke="#E64A19" stroke-width="1.5"/>
+    <path d="M0 -20 L0 -15" stroke="#795548" stroke-width="3"/>
+    <text x="0" y="42" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle" font-weight="bold">Дыхание</text>
+  </g>
+  <!-- Sign 3: Рост (Growth) - plant growing -->
+  <g transform="translate(290,90)">
+    <rect x="-3" y="0" width="6" height="25" fill="#66BB6A" rx="2"/>
+    <ellipse cx="-10" cy="-2" rx="12" ry="8" fill="#4CAF50" opacity="0.7" transform="rotate(30,-10,-2)"/>
+    <ellipse cx="10" cy="-2" rx="12" ry="8" fill="#4CAF50" opacity="0.7" transform="rotate(-30,10,-2)"/>
+    <path d="M0 -5 L0 -18" stroke="#4CAF50" stroke-width="2"/>
+    <path d="M0 -18 L-4 -22 M0 -18 L4 -22" stroke="#4CAF50" stroke-width="1.5"/>
+    <!-- arrow up -->
+    <path d="M20 -10 L20 -25 L15 -20 M20 -25 L25 -20" stroke="#2E7D32" stroke-width="2" fill="none"/>
+    <text x="0" y="42" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle" font-weight="bold">Рост</text>
+  </g>
+  <!-- Sign 4: Размножение (Reproduction) - cell division -->
+  <g transform="translate(400,90)">
+    <ellipse cx="-10" cy="0" rx="16" ry="14" fill="#CE93D8" stroke="#8E24AA" stroke-width="1.5" opacity="0.8"/>
+    <ellipse cx="10" cy="0" rx="16" ry="14" fill="#CE93D8" stroke="#8E24AA" stroke-width="1.5" opacity="0.8"/>
+    <circle cx="-10" cy="0" r="4" fill="#8E24AA" opacity="0.6"/>
+    <circle cx="10" cy="0" r="4" fill="#8E24AA" opacity="0.6"/>
+    <line x1="0" y1="-18" x2="0" y2="18" stroke="#8E24AA" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <text x="0" y="42" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle" font-weight="bold">Размножение</text>
+  </g>
+  <!-- Sign 5: Движение (Movement) - running figure -->
+  <g transform="translate(125,185)">
+    <circle cx="0" cy="-15" r="7" fill="#FFB74D" stroke="#E65100" stroke-width="1"/>
+    <line x1="0" y1="-8" x2="0" y2="8" stroke="#E65100" stroke-width="2.5"/>
+    <line x1="0" y1="-2" x2="-12" y2="-10" stroke="#E65100" stroke-width="2"/>
+    <line x1="0" y1="-2" x2="12" y2="2" stroke="#E65100" stroke-width="2"/>
+    <line x1="0" y1="8" x2="-8" y2="22" stroke="#E65100" stroke-width="2"/>
+    <line x1="0" y1="8" x2="10" y2="20" stroke="#E65100" stroke-width="2"/>
+    <!-- motion lines -->
+    <line x1="-15" y1="0" x2="-22" y2="-2" stroke="#999" stroke-width="1" opacity="0.5"/>
+    <line x1="-14" y1="6" x2="-21" y2="5" stroke="#999" stroke-width="1" opacity="0.5"/>
+    <line x1="-13" y1="12" x2="-20" y2="12" stroke="#999" stroke-width="1" opacity="0.5"/>
+    <text x="0" y="42" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle" font-weight="bold">Движение</text>
+  </g>
+  <!-- Sign 6: Раздражимость (Irritability) - touch-me-not plant -->
+  <g transform="translate(340,185)">
+    <rect x="-2" y="0" width="4" height="25" fill="#66BB6A" rx="1"/>
+    <path d="M-2 0 Q-15 -10 -20 -5" stroke="#4CAF50" stroke-width="2" fill="none"/>
+    <path d="M2 0 Q15 -10 20 -5" stroke="#4CAF50" stroke-width="2" fill="none"/>
+    <!-- small leaves on branches -->
+    <ellipse cx="-18" cy="-8" rx="5" ry="3" fill="#81C784" transform="rotate(-20,-18,-8)"/>
+    <ellipse cx="18" cy="-8" rx="5" ry="3" fill="#81C784" transform="rotate(20,18,-8)"/>
+    <!-- lightning bolt (stimulus) -->
+    <path d="M25 -15 L22 -5 L27 -5 L23 5" stroke="#F44336" stroke-width="2" fill="none"/>
+    <!-- exclamation -->
+    <text x="30" y="-8" font-family="Arial,sans-serif" font-size="14" fill="#F44336" font-weight="bold">!</text>
+    <text x="0" y="42" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle" font-weight="bold">Раздражимость</text>
+  </g>
+  <!-- Title box -->
+  <rect x="120" y="260" width="260" height="30" rx="6" fill="#2E7D32" opacity="0.12"/>
+  <text x="250" y="280" font-family="Arial,sans-serif" font-size="12" fill="#2E7D32" text-anchor="middle" font-weight="bold">6 признаков живого организма</text>
+
+  <rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+  <text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 5 класс</text>
 </svg>

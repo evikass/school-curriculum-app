@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Грибы-паразиты. Значение грибов</text>
+<text x="250" y="44" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 7 класс — Урок 10</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- Головня (Smut on wheat) -->
+<g transform="translate(70,128)">
+  <rect x="-52" y="-62" width="104" height="125" rx="6" fill="white" opacity="0.9" stroke="#2E7D32" stroke-width="1.2"/>
+  <text x="0" y="-47" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">ГОЛОВНЯ</text>
+  <line x1="-38" y1="-41" x2="38" y2="-41" stroke="#2E7D32" stroke-width="0.5"/>
+  <!-- Wheat stalk -->
+  <line x1="0" y1="40" x2="0" y2="-15" stroke="#8BC34A" stroke-width="2"/>
+  <!-- Wheat ear (infected - black) -->
+  <ellipse cx="0" cy="-22" rx="5" ry="14" fill="#333" stroke="#212121" stroke-width="1.2"/>
+  <!-- Healthy wheat for contrast -->
+  <line x1="-25" y1="40" x2="-25" y2="-5" stroke="#8BC34A" stroke-width="2"/>
+  <ellipse cx="-25" cy="-12" rx="4" ry="12" fill="#FFD54F" stroke="#F9A825" stroke-width="1"/>
+  <text x="-25" y="50" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">здоровый</text>
+  <text x="0" y="50" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">заражённый</text>
+  <!-- Spores coming out -->
+  <circle cx="8" cy="-18" r="2" fill="#555"/>
+  <circle cx="10" cy="-25" r="1.5" fill="#555"/>
+  <circle cx="7" cy="-30" r="1.5" fill="#555"/>
+  <text x="0" y="58" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">на злаках (пшеница)</text>
+</g>
+
+<!-- Ржавчина (Rust on leaves) -->
+<g transform="translate(190,128)">
+  <rect x="-52" y="-62" width="104" height="125" rx="6" fill="white" opacity="0.9" stroke="#2E7D32" stroke-width="1.2"/>
+  <text x="0" y="-47" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">РЖАВЧИНА</text>
+  <line x1="-38" y1="-41" x2="38" y2="-41" stroke="#2E7D32" stroke-width="0.5"/>
+  <!-- Leaf shape -->
+  <path d="M0,-30 Q-28,-15 -25,5 Q-20,20 0,25 Q20,20 25,5 Q28,-15 0,-30Z" fill="#81C784" stroke="#4CAF50" stroke-width="1.5"/>
+  <!-- Central vein -->
+  <line x1="0" y1="-25" x2="0" y2="22" stroke="#388E3C" stroke-width="1"/>
+  <!-- Rust spots (orange-brown pustules) -->
+  <ellipse cx="-8" cy="-10" rx="5" ry="3" fill="#FF6F00" stroke="#E65100" stroke-width="0.8"/>
+  <ellipse cx="10" cy="0" rx="6" ry="3.5" fill="#FF8F00" stroke="#E65100" stroke-width="0.8"/>
+  <ellipse cx="-5" cy="10" rx="4" ry="2.5" fill="#FF6F00" stroke="#E65100" stroke-width="0.8"/>
+  <ellipse cx="8" cy="-18" rx="4" ry="2.5" fill="#FF8F00" stroke="#E65100" stroke-width="0.8"/>
+  <ellipse cx="-12" cy="3" rx="3.5" ry="2" fill="#FF6F00" stroke="#E65100" stroke-width="0.8"/>
+  <text x="0" y="40" font-family="Arial,sans-serif" font-size="5" fill="#FF6F00" text-anchor="middle">ржавые пятна</text>
+  <text x="0" y="50" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">на листьях злаков</text>
+  <text x="0" y="58" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">снижает урожай</text>
+</g>
+
+<!-- Трутовик (Bracket fungus on tree) -->
+<g transform="translate(310,128)">
+  <rect x="-52" y="-62" width="104" height="125" rx="6" fill="white" opacity="0.9" stroke="#2E7D32" stroke-width="1.2"/>
+  <text x="0" y="-47" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">ТРУТОВИК</text>
+  <line x1="-38" y1="-41" x2="38" y2="-41" stroke="#2E7D32" stroke-width="0.5"/>
+  <!-- Tree trunk -->
+  <rect x="-8" y="-30" width="16" height="70" rx="3" fill="#8D6E63" stroke="#5D4037" stroke-width="1.5"/>
+  <!-- Tree rings on top -->
+  <ellipse cx="0" cy="-30" rx="8" ry="3" fill="#A1887F" stroke="#5D4037" stroke-width="0.8"/>
+  <!-- Bracket fungi growing from trunk -->
+  <path d="M8,-15 Q20,-20 25,-10 Q22,-5 8,-5Z" fill="#D7CCC8" stroke="#8D6E63" stroke-width="1.2"/>
+  <path d="M8,-2 Q22,-8 30,2 Q25,8 8,8Z" fill="#BCAAA4" stroke="#8D6E63" stroke-width="1.2"/>
+  <path d="M8,12 Q18,7 22,15 Q18,20 8,18Z" fill="#D7CCC8" stroke="#8D6E63" stroke-width="1"/>
+  <!-- Concentric rings on bracket -->
+  <path d="M12,-13 Q17,-14 20,-10" stroke="#5D4037" stroke-width="0.5" fill="none"/>
+  <path d="M11,-4 Q18,-6 22,-2" stroke="#5D4037" stroke-width="0.5" fill="none"/>
+  <!-- Rot indication -->
+  <text x="-25" y="10" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">гниль</text>
+  <path d="M-3,5 Q-5,15 -8,25" stroke="#C62828" stroke-width="0.5" fill="none" stroke-dasharray="2,2"/>
+  <text x="0" y="50" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">на стволах деревьев</text>
+  <text x="0" y="58" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">вызывает гниль древесины</text>
+</g>
+
+<!-- Спорынья and Ядовитые грибы -->
+<g transform="translate(440,128)">
+  <rect x="-45" y="-62" width="90" height="125" rx="6" fill="white" opacity="0.9" stroke="#2E7D32" stroke-width="1.2"/>
+  <text x="0" y="-47" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle" font-weight="bold">ЯДОВИТЫЕ</text>
+  <line x1="-32" y1="-41" x2="32" y2="-41" stroke="#2E7D32" stroke-width="0.5"/>
+  <!-- Бледная поганка -->
+  <path d="M-12,-18 Q-10,-28 0,-25 Q10,-28 12,-18 Q10,-12 0,-10 Q-10,-12 -12,-18Z" fill="#F5F5F5" stroke="#BDBDBD" stroke-width="1"/>
+  <rect x="-2" y="-10" width="4" height="10" rx="1" fill="#EEEEEE" stroke="#BDBDBD" stroke-width="0.8"/>
+  <!-- Volva at base -->
+  <path d="M-6,0 Q-8,3 -4,5 Q0,6 4,5 Q8,3 6,0" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="0.8"/>
+  <!-- Skull warning -->
+  <circle cx="0" cy="-18" r="2" fill="none" stroke="#C62828" stroke-width="0.8"/>
+  <text x="0" y="-16" font-family="Arial,sans-serif" font-size="2.5" fill="#C62828" text-anchor="middle">☠</text>
+  <text x="0" y="12" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">Бледная</text>
+  <text x="0" y="19" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">поганка</text>
+
+  <!-- Мухомор -->
+  <path d="M-14,25 Q-12,15 0,17 Q12,15 14,25 Q12,30 0,31 Q-12,30 -14,25Z" fill="#F44336" stroke="#C62828" stroke-width="1.2"/>
+  <!-- White spots on cap -->
+  <circle cx="-6" cy="22" r="2" fill="white"/>
+  <circle cx="4" cy="20" r="1.5" fill="white"/>
+  <circle cx="0" cy="26" r="1.5" fill="white"/>
+  <circle cx="8" cy="25" r="1.2" fill="white"/>
+  <rect x="-2" y="31" width="4" height="10" rx="1" fill="#EEEEEE" stroke="#BDBDBD" stroke-width="0.8"/>
+  <text x="0" y="50" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">Мухомор</text>
+  <text x="0" y="58" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">☠ СМЕРТЕЛЬНО</text>
+</g>
+
+<!-- Спорынья mention -->
+<rect x="30" y="215" width="440" height="30" rx="5" fill="white" opacity="0.9" stroke="#2E7D32" stroke-width="1"/>
+<text x="250" y="229" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">Спорынья</text>
+<text x="250" y="240" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Паразитирует на злаках → ядовитые алкалоиды → эрготизм («ведьмины корчи»)</text>
+
+<!-- Benefits panel -->
+<rect x="30" y="252" width="440" height="62" rx="5" fill="white" opacity="0.9" stroke="#2E7D32" stroke-width="1"/>
+<text x="250" y="266" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">Значение грибов в природе и жизни человека</text>
+<line x1="40" y1="272" x2="460" y2="272" stroke="#2E7D32" stroke-width="0.5"/>
+<!-- Пища -->
+<g transform="translate(80,290)">
+  <circle cx="0" cy="0" r="11" fill="#2E7D32" opacity="0.12" stroke="#2E7D32" stroke-width="1"/>
+  <text x="0" y="3" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">П</text>
+  <text x="0" y="16" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Пища</text>
+</g>
+<!-- Антибиотики -->
+<g transform="translate(175,290)">
+  <circle cx="0" cy="0" r="11" fill="#1565C0" opacity="0.12" stroke="#1565C0" stroke-width="1"/>
+  <text x="0" y="3" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle" font-weight="bold">А</text>
+  <text x="0" y="16" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Антибиотики</text>
+</g>
+<!-- Сыры -->
+<g transform="translate(270,290)">
+  <circle cx="0" cy="0" r="11" fill="#F9A825" opacity="0.12" stroke="#F9A825" stroke-width="1"/>
+  <text x="0" y="3" font-family="Arial,sans-serif" font-size="7" fill="#F9A825" text-anchor="middle" font-weight="bold">С</text>
+  <text x="0" y="16" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Сыры</text>
+</g>
+<!-- Разложение -->
+<g transform="translate(370,290)">
+  <circle cx="0" cy="0" r="11" fill="#5D4037" opacity="0.12" stroke="#5D4037" stroke-width="1"/>
+  <text x="0" y="3" font-family="Arial,sans-serif" font-size="7" fill="#5D4037" text-anchor="middle" font-weight="bold">Р</text>
+  <text x="0" y="16" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Разложение</text>
+</g>
+<text x="450" y="290" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">редуценты</text>
+<text x="450" y="298" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">в природе</text>
+
+<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 7 класс</text>
+</svg>

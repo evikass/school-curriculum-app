@@ -1,42 +1,73 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8EAF6"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#5C6BC0"/>
-      <stop offset="100%" stop-color="#283593"/>
+    <linearGradient id="ebg10" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#059669"/>
+      <stop offset="100%" style="stop-color:#064e3b"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#5C6BC0" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#283593" opacity="0.12"/>
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Социальные сети</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Английский язык — Урок 10</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <rect x="15" y="72" width="235" height="225" rx="4" fill="#5C6BC0" opacity="0.05"/>
-  <text x="22" y="88" font-family="Arial,sans-serif" font-size="10" fill="#283593" text-anchor="start" font-weight="bold">Платформы:</text>
-  <text x="75" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Instagram, TikTok, YouTube</text>
-  <text x="32" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Twitter/X, VK, Telegram</text>
-  <text x="22" y="128" font-family="Arial,sans-serif" font-size="10" fill="#283593" text-anchor="start" font-weight="bold">Плюсы:</text>
-  <text x="75" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Stay connected with friends</text>
-  <text x="32" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Share ideas and creativity</text>
-  <text x="32" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Learn new things quickly</text>
-  <rect x="255" y="72" width="230" height="225" rx="4" fill="#5C6BC0" opacity="0.05"/>
-  <text x="262" y="88" font-family="Arial,sans-serif" font-size="10" fill="#283593" text-anchor="start" font-weight="bold">Минусы:</text>
-  <text x="315" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Cyberbullying — кибербуллинг</text>
-  <text x="272" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Privacy issues — конфиденциальность</text>
-  <text x="272" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Addiction — зависимость</text>
-  <text x="262" y="148" font-family="Arial,sans-serif" font-size="10" fill="#283593" text-anchor="start" font-weight="bold">Безопасность:</text>
-  <text x="315" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Don't share personal info</text>
-  <text x="272" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Think before you post</text>
-  <rect x="15" y="280" width="235" height="18" rx="4" fill="#5C6BC0" opacity="0.06"/>
-  <text x="132" y="293" font-family="Arial,sans-serif" font-size="9" fill="#283593" text-anchor="middle" font-weight="bold">Be safe online!</text>
-  <rect x="255" y="280" width="230" height="18" rx="4" fill="#5C6BC0" opacity="0.06"/>
-  <text x="370" y="293" font-family="Arial,sans-serif" font-size="9" fill="#283593" text-anchor="middle" font-weight="bold">Digital footprint — цифровой след</text>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">English · Социальные сети</text>
+  <rect width="500" height="350" fill="url(#ebg10)" rx="12"/>
+  <!-- Central word tree -->
+  <text x="250" y="45" font-family="sans-serif" font-size="14" fill="#fbbf24" text-anchor="middle" font-weight="bold">WORD FORMATION</text>
+  <!-- Root word -->
+  <rect x="210" y="55" width="80" height="30" rx="6" fill="#10b981" stroke="#6ee7b7" stroke-width="2"/>
+  <text x="250" y="75" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">educate</text>
+  <!-- Prefix branches -->
+  <line x1="220" y1="60" x2="100" y2="30" stroke="#f472b6" stroke-width="1.5"/>
+  <rect x="40" y="18" width="120" height="22" rx="4" fill="#065f46" stroke="#f472b6" stroke-width="1"/>
+  <text x="100" y="33" font-family="sans-serif" font-size="9" fill="#f9a8d4" text-anchor="middle">un-, dis-, in-, re-</text>
+  <text x="100" y="12" font-family="sans-serif" font-size="7" fill="#f472b6" text-anchor="middle">PREFIXES → change meaning</text>
+  <!-- Suffix branches -->
+  <line x1="250" y1="85" x2="130" y2="120" stroke="#60a5fa" stroke-width="1.5"/>
+  <rect x="55" y="112" width="100" height="22" rx="4" fill="#065f46" stroke="#60a5fa" stroke-width="1"/>
+  <text x="105" y="127" font-family="sans-serif" font-size="9" fill="#93c5fd" text-anchor="middle">education</text>
+  <text x="105" y="140" font-family="sans-serif" font-size="6" fill="#60a5fa" text-anchor="middle">-tion → NOUN</text>
+
+  <line x1="250" y1="85" x2="250" y2="120" stroke="#10b981" stroke-width="1.5"/>
+  <rect x="200" y="112" width="100" height="22" rx="4" fill="#065f46" stroke="#10b981" stroke-width="1"/>
+  <text x="250" y="127" font-family="sans-serif" font-size="9" fill="#6ee7b7" text-anchor="middle">educational</text>
+  <text x="250" y="140" font-family="sans-serif" font-size="6" fill="#10b981" text-anchor="middle">-al → ADJECTIVE</text>
+
+  <line x1="250" y1="85" x2="370" y2="120" stroke="#fbbf24" stroke-width="1.5"/>
+  <rect x="320" y="112" width="100" height="22" rx="4" fill="#065f46" stroke="#fbbf24" stroke-width="1"/>
+  <text x="370" y="127" font-family="sans-serif" font-size="9" fill="#fde68a" text-anchor="middle">educator</text>
+  <text x="370" y="140" font-family="sans-serif" font-size="6" fill="#fbbf24" text-anchor="middle">-er/-or → NOUN</text>
+
+  <line x1="280" y1="60" x2="400" y2="30" stroke="#a78bfa" stroke-width="1.5"/>
+  <rect x="340" y="18" width="120" height="22" rx="4" fill="#065f46" stroke="#a78bfa" stroke-width="1"/>
+  <text x="400" y="33" font-family="sans-serif" font-size="9" fill="#c4b5fd" text-anchor="middle">educatively</text>
+  <text x="400" y="12" font-family="sans-serif" font-size="7" fill="#a78bfa" text-anchor="middle">-ly → ADVERB</text>
+  <!-- Suffix categories -->
+  <rect x="15" y="155" width="150" height="80" rx="6" fill="#065f46" stroke="#60a5fa" stroke-width="1"/>
+  <text x="90" y="173" font-family="sans-serif" font-size="9" fill="#93c5fd" text-anchor="middle" font-weight="bold">Noun Suffixes</text>
+  <text x="90" y="190" font-family="sans-serif" font-size="7" fill="#bfdbfe" text-anchor="middle">-tion, -ment, -ness</text>
+  <text x="90" y="205" font-family="sans-serif" font-size="7" fill="#bfdbfe" text-anchor="middle">-ity, -er/-or, -ance</text>
+  <text x="90" y="225" font-family="sans-serif" font-size="7" fill="#60a5fa" text-anchor="middle">happy→happiness</text>
+
+  <rect x="175" y="155" width="150" height="80" rx="6" fill="#065f46" stroke="#10b981" stroke-width="1"/>
+  <text x="250" y="173" font-family="sans-serif" font-size="9" fill="#6ee7b7" text-anchor="middle" font-weight="bold">Adjective Suffixes</text>
+  <text x="250" y="190" font-family="sans-serif" font-size="7" fill="#a7f3d0" text-anchor="middle">-ful, -less, -ous, -ive</text>
+  <text x="250" y="205" font-family="sans-serif" font-size="7" fill="#a7f3d0" text-anchor="middle">-able, -al/-ial</text>
+  <text x="250" y="225" font-family="sans-serif" font-size="7" fill="#10b981" text-anchor="middle">hope→hopeful/hopeless</text>
+
+  <rect x="335" y="155" width="150" height="80" rx="6" fill="#065f46" stroke="#fbbf24" stroke-width="1"/>
+  <text x="410" y="173" font-family="sans-serif" font-size="9" fill="#fbbf24" text-anchor="middle" font-weight="bold">Adverb &amp; Verb Suffixes</text>
+  <text x="410" y="190" font-family="sans-serif" font-size="7" fill="#fde68a" text-anchor="middle">-ly (adverb)</text>
+  <text x="410" y="205" font-family="sans-serif" font-size="7" fill="#fde68a" text-anchor="middle">-ise/-ize, -en, -fy</text>
+  <text x="410" y="225" font-family="sans-serif" font-size="7" fill="#fbbf24" text-anchor="middle">quick→quickly, wide→widen</text>
+  <!-- Prefix section -->
+  <rect x="30" y="250" width="440" height="55" rx="6" fill="#065f46" stroke="#f472b6" stroke-width="1.5"/>
+  <text x="250" y="270" font-family="sans-serif" font-size="9" fill="#f9a8d4" text-anchor="middle" font-weight="bold">Common Prefixes</text>
+  <rect x="40" y="278" width="60" height="18" rx="3" fill="#064e3b"/>
+  <text x="70" y="290" font-family="sans-serif" font-size="7" fill="#f9a8d4" text-anchor="middle">un- (not)</text>
+  <rect x="105" y="278" width="70" height="18" rx="3" fill="#064e3b"/>
+  <text x="140" y="290" font-family="sans-serif" font-size="7" fill="#f9a8d4" text-anchor="middle">re- (again)</text>
+  <rect x="180" y="278" width="65" height="18" rx="3" fill="#064e3b"/>
+  <text x="212" y="290" font-family="sans-serif" font-size="7" fill="#f9a8d4" text-anchor="middle">dis- (opposite)</text>
+  <rect x="250" y="278" width="65" height="18" rx="3" fill="#064e3b"/>
+  <text x="282" y="290" font-family="sans-serif" font-size="7" fill="#f9a8d4" text-anchor="middle">mis- (wrong)</text>
+  <rect x="320" y="278" width="70" height="18" rx="3" fill="#064e3b"/>
+  <text x="355" y="290" font-family="sans-serif" font-size="7" fill="#f9a8d4" text-anchor="middle">over- (too much)</text>
+  <rect x="395" y="278" width="65" height="18" rx="3" fill="#064e3b"/>
+  <text x="427" y="290" font-family="sans-serif" font-size="7" fill="#f9a8d4" text-anchor="middle">pre- (before)</text>
+  <text x="250" y="340" font-family="sans-serif" font-size="9" fill="white" text-anchor="middle" opacity="0.5">Word Formation</text>
 </svg>

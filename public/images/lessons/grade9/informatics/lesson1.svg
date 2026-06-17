@@ -1,41 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E3F2FD"/>
-      <stop offset="100%" stop-color="#FFF"/>
-    </linearGradient>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#42A5F5"/>
-      <stop offset="100%" stop-color="#1565C0"/>
-    </linearGradient>
-  </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#42A5F5" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#42A5F5" stroke-width="1" opacity="0.3"/>
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#42A5F5" text-anchor="middle">Информационный объём</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Информатика — Урок 1</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#42A5F5" stroke-width="2" opacity="0.25"/>
-  <rect x="15" y="72" width="235" height="225" rx="4" fill="#42A5F5" opacity="0.05"/>
-  <text x="22" y="88" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" font-weight="bold">Информация —</text>
-  <text x="85" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333">сведения об окружающем мире</text>
-  <text x="22" y="108" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" font-weight="bold">Измерение:</text>
-  <text x="85" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333">Бит — минимальная единица (0 или 1)</text>
-  <text x="32" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333">Байт = 8 битов</text>
-  <text x="32" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333">1 Кбайт = 1024 байта</text>
-  <text x="32" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333">1 Мбайт = 1024 Кбайта</text>
-  <rect x="255" y="72" width="230" height="225" rx="4" fill="#42A5F5" opacity="0.05"/>
-  <text x="262" y="88" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" font-weight="bold">Формула:</text>
-  <text x="325" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333">N = 2^i (алфавитный подход)</text>
-  <text x="272" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333">I = K · i (объём сообщения)</text>
-  <text x="262" y="128" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" font-weight="bold">Пример:</text>
-  <text x="325" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333">Текст из 100 символов в Unicode:</text>
-  <text x="272" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333">i = 16 бит, I = 100 · 16 = 1600 бит</text>
-  <text x="262" y="168" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" font-weight="bold">Скорость:</text>
-  <text x="325" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333">бит/с, Кбит/с, Мбит/с</text>
-  <rect x="15" y="280" width="235" height="18" rx="4" fill="#42A5F5" opacity="0.06"/>
-  <text x="132" y="293" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle" font-weight="bold">Информация измеряется в битах</text>
-  <rect x="255" y="280" width="230" height="18" rx="4" fill="#42A5F5" opacity="0.06"/>
-  <text x="370" y="293" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle" font-weight="bold">N = 2^i — формула Хартли</text>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Информатика · Информационный объём</text>
+  <defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#0f3460"/><stop offset="100%" style="stop-color:#1a1a2e"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <text x="250" y="25" text-anchor="middle" fill="#4fc3f7" font-size="14" font-weight="bold">Информационный объём</text>
+  <!-- Unit hierarchy -->
+  <rect x="60" y="40" width="380" height="35" rx="5" fill="#e74c3c" opacity="0.7"/>
+  <text x="250" y="63" text-anchor="middle" fill="white" font-size="11">1 Тбайт = 1024 Гбайт = 1024² Мбайт = 1024³ Кбайт</text>
+  <rect x="30" y="85" width="70" height="50" rx="5" fill="#4fc3f7" opacity="0.7"/>
+  <text x="65" y="108" text-anchor="middle" fill="white" font-size="10" font-weight="bold">1 бит</text>
+  <text x="65" y="125" text-anchor="middle" fill="white" font-size="8">0 или 1</text>
+  <rect x="110" y="85" width="80" height="50" rx="5" fill="#27ae60" opacity="0.7"/>
+  <text x="150" y="108" text-anchor="middle" fill="white" font-size="10" font-weight="bold">1 байт</text>
+  <text x="150" y="125" text-anchor="middle" fill="white" font-size="8">= 8 бит</text>
+  <rect x="200" y="85" width="85" height="50" rx="5" fill="#f39c12" opacity="0.7"/>
+  <text x="242" y="108" text-anchor="middle" fill="white" font-size="10" font-weight="bold">1 Кбайт</text>
+  <text x="242" y="125" text-anchor="middle" fill="white" font-size="8">= 1024 б</text>
+  <rect x="295" y="85" width="85" height="50" rx="5" fill="#9b59b6" opacity="0.7"/>
+  <text x="337" y="108" text-anchor="middle" fill="white" font-size="10" font-weight="bold">1 Мбайт</text>
+  <text x="337" y="125" text-anchor="middle" fill="white" font-size="8">= 1024 Кб</text>
+  <rect x="390" y="85" width="85" height="50" rx="5" fill="#e74c3c" opacity="0.7"/>
+  <text x="432" y="108" text-anchor="middle" fill="white" font-size="10" font-weight="bold">1 Гбайт</text>
+  <text x="432" y="125" text-anchor="middle" fill="white" font-size="8">= 1024 Мб</text>
+  <!-- Hartley formula -->
+  <rect x="30" y="150" width="210" height="80" rx="8" fill="#1a1a2e" stroke="#4fc3f7" stroke-width="1.5"/>
+  <text x="135" y="175" text-anchor="middle" fill="#4fc3f7" font-size="13" font-weight="bold">i = log₂N</text>
+  <text x="135" y="195" text-anchor="middle" fill="white" font-size="9">N = 2 → i = 1 бит</text>
+  <text x="135" y="210" text-anchor="middle" fill="white" font-size="9">N = 8 → i = 3 бита</text>
+  <text x="135" y="225" text-anchor="middle" fill="white" font-size="9">N = 256 → i = 8 бит</text>
+  <!-- Alphabet approach -->
+  <rect x="260" y="150" width="210" height="80" rx="8" fill="#1a1a2e" stroke="#27ae60" stroke-width="1.5"/>
+  <text x="365" y="175" text-anchor="middle" fill="#27ae60" font-size="13" font-weight="bold">I = K × i</text>
+  <text x="365" y="195" text-anchor="middle" fill="white" font-size="9">K — количество символов</text>
+  <text x="365" y="210" text-anchor="middle" fill="white" font-size="9">i — вес символа</text>
+  <text x="365" y="225" text-anchor="middle" fill="white" font-size="9">100 сим. × 5 бит = 500 бит</text>
+  <!-- Content approach -->
+  <rect x="30" y="245" width="440" height="60" rx="8" fill="#0f3460" stroke="#f39c12" stroke-width="1"/>
+  <text x="250" y="268" text-anchor="middle" fill="#f39c12" font-size="11" font-weight="bold">Содержательный подход</text>
+  <text x="250" y="290" text-anchor="middle" fill="white" font-size="10">Уменьшение неопределённости в 2 раза = 1 бит информации</text>
+  <text x="250" y="345" text-anchor="middle" fill="white" font-size="9" opacity="0.5">Информационный объём</text>
 </svg>

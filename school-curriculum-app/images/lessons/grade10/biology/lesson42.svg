@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#F3E5F5"/><stop offset="100%" stop-color="#E1BEE7"/></linearGradient>
+<linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#6A1B9A"/><stop offset="100%" stop-color="#8E24AA"/></linearGradient>
+<linearGradient id="xFill" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#E91E63"/><stop offset="100%" stop-color="#AD1457"/></linearGradient>
+<linearGradient id="yFill" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#42A5F5"/><stop offset="100%" stop-color="#1565C0"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#6A1B9A" stroke-width="2.5"/>
+<rect x="10" y="8" width="480" height="28" rx="5" fill="url(#bar)" opacity="0.9"/>
+<text x="250" y="27" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="white" text-anchor="middle">Генетика пола · Биология 10 класс — Урок 42</text>
+
+<!-- Sex determination systems -->
+<text x="250" y="55" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4A148C" text-anchor="middle">Системы определения пола</text>
+
+<!-- XX/XY system -->
+<rect x="15" y="62" width="145" height="68" rx="5" fill="white" fill-opacity="0.8" stroke="#E91E63" stroke-width="1.5"/>
+<text x="87" y="76" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#4A148C" text-anchor="middle">XX / XY (млекопитающие)</text>
+<!-- Female XX -->
+<ellipse cx="52" cy="98" rx="10" ry="18" fill="url(#xFill)" stroke="#880E4F" stroke-width="1"/>
+<ellipse cx="68" cy="98" rx="10" ry="18" fill="url(#xFill)" stroke="#880E4F" stroke-width="1"/>
+<text x="60" y="124" font-family="Arial,sans-serif" font-size="8" fill="#E91E63" text-anchor="middle">♀ XX</text>
+<!-- Male XY -->
+<ellipse cx="112" cy="98" rx="10" ry="18" fill="url(#xFill)" stroke="#880E4F" stroke-width="1"/>
+<rect x="122" y="84" width="8" height="28" rx="3" fill="url(#yFill)" stroke="#0D47A1" stroke-width="1"/>
+<text x="118" y="124" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">♂ XY</text>
+
+<!-- XX/X0 system -->
+<rect x="170" y="62" width="145" height="68" rx="5" fill="white" fill-opacity="0.8" stroke="#7B1FA2" stroke-width="1.5"/>
+<text x="242" y="76" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#4A148C" text-anchor="middle">XX / X0 (клопы)</text>
+<ellipse cx="210" cy="98" rx="10" ry="18" fill="url(#xFill)" stroke="#880E4F" stroke-width="1"/>
+<ellipse cx="226" cy="98" rx="10" ry="18" fill="url(#xFill)" stroke="#880E4F" stroke-width="1"/>
+<text x="218" y="124" font-family="Arial,sans-serif" font-size="8" fill="#E91E63" text-anchor="middle">♀ XX</text>
+<ellipse cx="268" cy="98" rx="10" ry="18" fill="url(#xFill)" stroke="#880E4F" stroke-width="1"/>
+<text x="268" y="124" font-family="Arial,sans-serif" font-size="8" fill="#7B1FA2" text-anchor="middle">♂ X0</text>
+
+<!-- ZW/ZZ system -->
+<rect x="325" y="62" width="160" height="68" rx="5" fill="white" fill-opacity="0.8" stroke="#1565C0" stroke-width="1.5"/>
+<text x="405" y="76" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#4A148C" text-anchor="middle">ZW / ZZ (птицы)</text>
+<rect x="366" y="82" width="8" height="28" rx="3" fill="#FF9800" stroke="#E65100" stroke-width="1"/>
+<ellipse cx="386" cy="98" rx="10" ry="18" fill="#CE93D8" stroke="#7B1FA2" stroke-width="1"/>
+<text x="378" y="124" font-family="Arial,sans-serif" font-size="8" fill="#E91E63" text-anchor="middle">♀ ZW</text>
+<ellipse cx="430" cy="98" rx="10" ry="18" fill="#CE93D8" stroke="#7B1FA2" stroke-width="1"/>
+<ellipse cx="446" cy="98" rx="10" ry="18" fill="#CE93D8" stroke="#7B1FA2" stroke-width="1"/>
+<text x="438" y="124" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">♂ ZZ</text>
+
+<!-- Human karyotype section -->
+<line x1="15" y1="138" x2="485" y2="138" stroke="#6A1B9A" stroke-width="0.8" stroke-dasharray="4,3"/>
+<text x="250" y="155" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4A148C" text-anchor="middle">Кариотип человека</text>
+
+<!-- Female karyotype -->
+<rect x="15" y="162" width="230" height="72" rx="5" fill="white" fill-opacity="0.7" stroke="#E91E63" stroke-width="1.5"/>
+<text x="130" y="176" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#E91E63" text-anchor="middle">Женский кариотип: 44 аутосомы + XX</text>
+<!-- Autosome pairs -->
+<g transform="translate(25,182)">
+<rect x="0" y="0" width="6" height="14" rx="2" fill="#90A4AE"/><rect x="8" y="0" width="6" height="14" rx="2" fill="#90A4AE"/>
+<rect x="18" y="0" width="6" height="14" rx="2" fill="#90A4AE"/><rect x="26" y="0" width="6" height="14" rx="2" fill="#90A4AE"/>
+<rect x="36" y="2" width="7" height="12" rx="2" fill="#78909C"/><rect x="45" y="2" width="7" height="12" rx="2" fill="#78909C"/>
+<rect x="56" y="4" width="8" height="10" rx="2" fill="#607D8B"/><rect x="66" y="4" width="8" height="10" rx="2" fill="#607D8B"/>
+<rect x="78" y="1" width="6" height="13" rx="2" fill="#90A4AE"/><rect x="86" y="1" width="6" height="13" rx="2" fill="#90A4AE"/>
+<rect x="96" y="3" width="7" height="11" rx="2" fill="#78909C"/><rect x="105" y="3" width="7" height="11" rx="2" fill="#78909C"/>
+<rect x="116" y="2" width="5" height="12" rx="2" fill="#607D8B"/><rect x="123" y="2" width="5" height="12" rx="2" fill="#607D8B"/>
+<rect x="132" y="0" width="6" height="14" rx="2" fill="#90A4AE"/><rect x="140" y="0" width="6" height="14" rx="2" fill="#90A4AE"/>
+<rect x="150" y="1" width="6" height="13" rx="2" fill="#78909C"/><rect x="158" y="1" width="6" height="13" rx="2" fill="#78909C"/>
+<rect x="168" y="3" width="7" height="11" rx="2" fill="#607D8B"/><rect x="177" y="3" width="7" height="11" rx="2" fill="#607D8B"/>
+<!-- XX -->
+<ellipse x="0" cx="195" cy="7" rx="6" ry="12" fill="url(#xFill)" stroke="#880E4F" stroke-width="1"/>
+<ellipse cx="208" cy="7" rx="6" ry="12" fill="url(#xFill)" stroke="#880E4F" stroke-width="1"/>
+</g>
+<text x="130" y="218" font-family="Arial,sans-serif" font-size="8" fill="#E91E63" text-anchor="middle">22 пары аутосом + XX</text>
+<text x="130" y="228" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#E91E63" text-anchor="middle">♀ 44 + XX</text>
+
+<!-- Male karyotype -->
+<rect x="255" y="162" width="230" height="72" rx="5" fill="white" fill-opacity="0.7" stroke="#1565C0" stroke-width="1.5"/>
+<text x="370" y="176" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1565C0" text-anchor="middle">Мужской кариотип: 44 аутосомы + XY</text>
+<g transform="translate(265,182)">
+<rect x="0" y="0" width="6" height="14" rx="2" fill="#90A4AE"/><rect x="8" y="0" width="6" height="14" rx="2" fill="#90A4AE"/>
+<rect x="18" y="0" width="6" height="14" rx="2" fill="#90A4AE"/><rect x="26" y="0" width="6" height="14" rx="2" fill="#90A4AE"/>
+<rect x="36" y="2" width="7" height="12" rx="2" fill="#78909C"/><rect x="45" y="2" width="7" height="12" rx="2" fill="#78909C"/>
+<rect x="56" y="4" width="8" height="10" rx="2" fill="#607D8B"/><rect x="66" y="4" width="8" height="10" rx="2" fill="#607D8B"/>
+<rect x="78" y="1" width="6" height="13" rx="2" fill="#90A4AE"/><rect x="86" y="1" width="6" height="13" rx="2" fill="#90A4AE"/>
+<rect x="96" y="3" width="7" height="11" rx="2" fill="#78909C"/><rect x="105" y="3" width="7" height="11" rx="2" fill="#78909C"/>
+<rect x="116" y="2" width="5" height="12" rx="2" fill="#607D8B"/><rect x="123" y="2" width="5" height="12" rx="2" fill="#607D8B"/>
+<rect x="132" y="0" width="6" height="14" rx="2" fill="#90A4AE"/><rect x="140" y="0" width="6" height="14" rx="2" fill="#90A4AE"/>
+<rect x="150" y="1" width="6" height="13" rx="2" fill="#78909C"/><rect x="158" y="1" width="6" height="13" rx="2" fill="#78909C"/>
+<rect x="168" y="3" width="7" height="11" rx="2" fill="#607D8B"/><rect x="177" y="3" width="7" height="11" rx="2" fill="#607D8B"/>
+<!-- XY -->
+<ellipse cx="195" cy="7" rx="6" ry="12" fill="url(#xFill)" stroke="#880E4F" stroke-width="1"/>
+<rect x="206" y="-2" width="5" height="18" rx="2" fill="url(#yFill)" stroke="#0D47A1" stroke-width="1"/>
+</g>
+<text x="370" y="218" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">22 пары аутосом + XY</text>
+<text x="370" y="228" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1565C0" text-anchor="middle">♂ 44 + XY</text>
+
+<!-- Punnett square for sex determination -->
+<line x1="15" y1="240" x2="485" y2="240" stroke="#6A1B9A" stroke-width="0.8" stroke-dasharray="4,3"/>
+<text x="140" y="258" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4A148C" text-anchor="middle">Решётка Пеннета: определение пола</text>
+
+<!-- Punnett square -->
+<rect x="60" y="268" width="50" height="20" rx="2" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="0.5"/>
+<rect x="110" y="268" width="50" height="20" rx="2" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="0.5"/>
+<text x="85" y="282" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#E91E63" text-anchor="middle">X</text>
+<text x="135" y="282" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1565C0" text-anchor="middle">Y</text>
+
+<rect x="30" y="288" width="30" height="20" rx="2" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="0.5"/>
+<rect x="30" y="308" width="30" height="20" rx="2" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="0.5"/>
+<text x="45" y="302" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#E91E63" text-anchor="middle">X</text>
+<text x="45" y="322" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#E91E63" text-anchor="middle">X</text>
+
+<!-- Cells -->
+<rect x="60" y="288" width="50" height="20" rx="2" fill="#FCE4EC" stroke="#E91E63" stroke-width="0.5"/>
+<text x="85" y="302" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#E91E63" text-anchor="middle">XX ♀</text>
+<rect x="110" y="288" width="50" height="20" rx="2" fill="#E3F2FD" stroke="#1565C0" stroke-width="0.5"/>
+<text x="135" y="302" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1565C0" text-anchor="middle">XY ♂</text>
+<rect x="60" y="308" width="50" height="20" rx="2" fill="#FCE4EC" stroke="#E91E63" stroke-width="0.5"/>
+<text x="85" y="322" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#E91E63" text-anchor="middle">XX ♀</text>
+<rect x="110" y="308" width="50" height="20" rx="2" fill="#E3F2FD" stroke="#1565C0" stroke-width="0.5"/>
+<text x="135" y="322" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1565C0" text-anchor="middle">XY ♂</text>
+
+<!-- Ratio -->
+<text x="85" y="344" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#4A148C" text-anchor="middle">1 XX : 1 XY → 1♀ : 1♂</text>
+
+<!-- SRY gene info -->
+<rect x="220" y="260" width="265" height="82" rx="5" fill="white" fill-opacity="0.8" stroke="#1565C0" stroke-width="1.5"/>
+<text x="352" y="278" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#0D47A1" text-anchor="middle">Ген SRY на Y-хромосоме</text>
+
+<!-- Y chromosome with SRY -->
+<rect x="240" y="285" width="12" height="45" rx="4" fill="url(#yFill)" stroke="#0D47A1" stroke-width="1.5"/>
+<rect x="237" y="300" width="18" height="8" rx="2" fill="#FF9800" stroke="#E65100" stroke-width="1"/>
+<text x="246" y="307" font-family="Arial,sans-serif" font-size="5" font-weight="bold" fill="white" text-anchor="middle">SRY</text>
+
+<text x="290" y="296" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="start">SRY = Sex-determining Region Y</text>
+<text x="290" y="308" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="start">Определяет развитие по мужскому типу</text>
+<text x="290" y="320" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="start">Запускает синтез тестостерона</text>
+<text x="290" y="332" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="start">Y-хромосома передаётся только от отца</text>
+</svg>

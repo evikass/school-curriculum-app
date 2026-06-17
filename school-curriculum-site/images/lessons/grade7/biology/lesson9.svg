@@ -1,58 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient></defs>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
 <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
-<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
-<polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
-<polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
-<polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
-<polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
-<circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-<circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
-<circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
-<circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-<circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
-<circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
-<text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Бактерии и грибы 📚</text>
-<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 9</text>
-<line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
-<rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
-<rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Общая характеристика моллюсков</text>
+<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 7 класс — Урок 9</text>
+<line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
 
-  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
-  <text x="135" y="115" font-family="Arial,sans-serif" font-size="13" fill="#2E7D32" text-anchor="middle" font-weight="bold">Бактерии и грибы 📚</text>
-  <!-- Cell -->
-  <circle cx="135" cy="195" r="50" fill="#E8F5E9" stroke="#2E7D32" stroke-width="2"/>
-  <circle cx="135" cy="195" r="15" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1.5"/>
-  <circle cx="130" cy="190" r="5" fill="#1B5E20"/>
-  <circle cx="155" cy="185" r="3" fill="#1565C0"/>
-  <circle cx="145" cy="210" r="3" fill="#1565C0"/>
-  <circle cx="115" cy="205" r="3" fill="#1565C0"/>
-  <path d="M100,175 Q110,170 120,180" stroke="#4CAF50" stroke-width="1" fill="none"/>
-  <path d="M150,215 Q160,220 170,210" stroke="#4CAF50" stroke-width="1" fill="none"/>
-  <text x="135" y="260" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">клеточное строение</text>
+<g transform="translate(170,175)">
+<path d="M-45,28 Q-55,-8 -35,-35 Q-18,-52 0,-52 Q18,-52 35,-35 Q55,-8 45,28Z" fill="#FFE0B2" stroke="#E65100" stroke-width="2"/>
+<path d="M-38,22 Q-45,-5 -28,-28 Q-12,-42 0,-42 Q12,-42 28,-28 Q45,-5 38,22" fill="none" stroke="#FF8F00" stroke-width="0.8" opacity="0.5"/>
+<path d="M-40,28 Q-45,8 -32,-22 Q-15,-38 5,-38 Q22,-38 35,-22 Q48,8 40,28" fill="#FFECB3" stroke="#FFB300" stroke-width="1.5" opacity="0.6"/>
+<path d="M-30,28 Q-35,40 -20,45 Q0,48 20,45 Q35,40 30,28Z" fill="#FFCC80" stroke="#E65100" stroke-width="1.5"/>
+<line x1="-15" y1="-48" x2="-22" y2="-62" stroke="#BF360C" stroke-width="1.5"/>
+<line x1="-5" y1="-50" x2="-12" y2="-62" stroke="#BF360C" stroke-width="1.5"/>
+<circle cx="-22" cy="-63" r="1.5" fill="#333"/><circle cx="-12" cy="-63" r="1.5" fill="#333"/>
+<text x="0" y="58" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle" font-weight="bold">Раковина + нога</text>
+</g>
+<g transform="translate(400,170)">
+<rect x="-55" y="-65" width="110" height="130" rx="5" fill="white" stroke="#E65100" stroke-width="1.5"/>
+<text x="0" y="-50" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle" font-weight="bold">Органы</text>
+<path d="M0,-30 Q-4,-35 -2,-30 Q-4,-25 0,-20 Q4,-25 2,-30 Q4,-35 0,-30Z" fill="#E53935" stroke="#C62828" stroke-width="1"/><text x="20" y="-28" font-family="Arial,sans-serif" font-size="5" fill="#333">Сердце</text>
+<rect x="10" y="-40" width="14" height="8" rx="2" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.8"/><text x="35" y="-33" font-family="Arial,sans-serif" font-size="5" fill="#333">Почка</text>
+<ellipse cx="-8" y="-8" rx="10" ry="5" fill="#FFCC80" stroke="#E65100" stroke-width="0.8"/><text x="15" y="-6" font-family="Arial,sans-serif" font-size="5" fill="#333">Печень</text>
+<ellipse cx="-18" cy="15" rx="9" ry="7" fill="#BBDEFB" stroke="#1565C0" stroke-width="0.8"/><text x="10" y="18" font-family="Arial,sans-serif" font-size="5" fill="#333">Жабра</text>
+<ellipse cx="5" cy="30" rx="9" ry="5" fill="#F8BBD0" stroke="#C2185B" stroke-width="0.8"/><text x="28" y="33" font-family="Arial,sans-serif" font-size="5" fill="#333">Половая</text>
+<circle cx="-22" cy="45" r="4" fill="#CE93D8" stroke="#7B1FA2" stroke-width="0.8"/><circle cx="15" cy="45" r="4" fill="#CE93D8" stroke="#7B1FA2" stroke-width="0.8"/>
+<line x1="-18" y1="45" x2="11" y2="45" stroke="#7B1FA2" stroke-width="0.8"/><text x="-3" y="55" font-family="Arial,sans-serif" font-size="5" fill="#333">Нервные узлы</text>
+</g>
+<rect x="30" y="275" width="440" height="30" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
+<text x="250" y="289" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Несегментированное тело | Раковина (известковая) | Мускулистая нога | Мантия</text>
+<text x="250" y="301" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Трёхкамерное сердце | Незамкнутая кровеносная система | Вторичная полость</text>
 
-  <rect x="260" y="90" width="215" height="200" rx="6" fill="white" stroke="#C62828" stroke-width="1.5"/>
-  <text x="367" y="115" font-family="Arial,sans-serif" font-size="12" fill="#C62828" text-anchor="middle" font-weight="bold">Классификация</text>
-  <!-- Classification tree -->
-  <rect x="340" y="128" width="70" height="22" rx="3" fill="#FFEBEE" stroke="#C62828" stroke-width="1"/>
-  <text x="375" y="143" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">Царство</text>
-  <line x1="375" y1="150" x2="375" y2="158" stroke="#333" stroke-width="1"/>
-  <line x1="340" y1="158" x2="410" y2="158" stroke="#333" stroke-width="1"/>
-  <rect x="305" y="162" width="55" height="20" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
-  <text x="332" y="176" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">Растения</text>
-  <rect x="375" y="162" width="55" height="20" rx="3" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
-  <text x="402" y="176" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle">Животные</text>
-  <!-- Plant and animal examples -->
-  <circle cx="322" cy="205" r="15" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1"/>
-  <line x1="322" y1="220" x2="322" y2="235" stroke="#795548" stroke-width="2"/>
-  <circle cx="322" cy="200" r="8" fill="#81C784"/>
-  <text x="322" y="250" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">растение</text>
-  <circle cx="402" cy="200" r="10" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
-  <circle cx="399" cy="197" r="2" fill="#333"/>
-  <ellipse cx="402" cy="210" rx="8" ry="6" fill="#FFCC80" stroke="#E65100" stroke-width="0.5"/>
-  <text x="402" y="235" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">животное</text>
-  <text x="367" y="275" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Биология - Урок 9</text>
-<rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
-<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Биология</text>
+<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 7 класс</text>
 </svg>

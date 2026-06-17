@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F5E9"/>
+      <stop offset="100%" style="stop-color:#C8E6C9"/>
+    </linearGradient>
+    <linearGradient id="bactGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#BBDEFB"/>
+      <stop offset="100%" style="stop-color:#90CAF9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="350" rx="12" ry="12" fill="url(#bg)" stroke="#2E7D32" stroke-width="2.5"/>
+
+  <!-- Title -->
+  <text x="250" y="22" text-anchor="middle" font-size="14" font-weight="bold" fill="#1B5E20" font-family="Arial, sans-serif">Размножение и распространение бактерий</text>
+  <text x="250" y="35" text-anchor="middle" font-size="9" fill="#666" font-family="Arial, sans-serif">Биология 7 класс — Урок 4</text>
+  <line x1="15" y1="41" x2="485" y2="41" stroke="#2E7D32" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- ============ BINARY FISSION SEQUENCE ============ -->
+  <text x="250" y="56" text-anchor="middle" font-size="8" font-weight="bold" fill="#1B5E20" font-family="Arial, sans-serif">Деление бактерий надвое (бинарное деление)</text>
+
+  <!-- Step 1: Single cell -->
+  <rect x="22" y="63" width="70" height="48" rx="4" fill="white" stroke="#1565C0" stroke-width="0.8"/>
+  <ellipse cx="57" cy="87" rx="18" ry="10" fill="url(#bactGrad)" stroke="#1565C0" stroke-width="1"/>
+  <ellipse cx="57" cy="87" rx="7" ry="5" fill="#7986CB" opacity="0.5"/>
+  <text x="57" y="107" text-anchor="middle" font-size="7" font-weight="bold" fill="#1565C0" font-family="Arial, sans-serif">1 клетка</text>
+  <text x="57" y="115" text-anchor="middle" font-size="5.5" fill="#666" font-family="Arial, sans-serif">t = 0</text>
+
+  <!-- Arrow 1→2 -->
+  <path d="M94,87 L106,87" stroke="#2E7D32" stroke-width="1.5" fill="none" marker-end="url(#arrowG)"/>
+  <polygon points="106,84 112,87 106,90" fill="#2E7D32"/>
+
+  <!-- Step 2: Two cells -->
+  <rect x="115" y="63" width="70" height="48" rx="4" fill="white" stroke="#1565C0" stroke-width="0.8"/>
+  <ellipse cx="140" cy="87" rx="14" ry="9" fill="url(#bactGrad)" stroke="#1565C0" stroke-width="0.8"/>
+  <ellipse cx="140" cy="87" rx="5" ry="4" fill="#7986CB" opacity="0.5"/>
+  <ellipse cx="162" cy="87" rx="14" ry="9" fill="url(#bactGrad)" stroke="#1565C0" stroke-width="0.8"/>
+  <ellipse cx="162" cy="87" rx="5" ry="4" fill="#7986CB" opacity="0.5"/>
+  <text x="150" y="107" text-anchor="middle" font-size="7" font-weight="bold" fill="#1565C0" font-family="Arial, sans-serif">2 клетки</text>
+  <text x="150" y="115" text-anchor="middle" font-size="5.5" fill="#666" font-family="Arial, sans-serif">t = 20 мин</text>
+
+  <!-- Arrow 2→4 -->
+  <path d="M187,87 L199,87" stroke="#2E7D32" stroke-width="1.5" fill="none"/>
+  <polygon points="199,84 205,87 199,90" fill="#2E7D32"/>
+
+  <!-- Step 3: Four cells -->
+  <rect x="208" y="63" width="70" height="48" rx="4" fill="white" stroke="#1565C0" stroke-width="0.8"/>
+  <ellipse cx="228" cy="80" rx="10" ry="7" fill="url(#bactGrad)" stroke="#1565C0" stroke-width="0.7"/>
+  <ellipse cx="250" cy="80" rx="10" ry="7" fill="url(#bactGrad)" stroke="#1565C0" stroke-width="0.7"/>
+  <ellipse cx="228" cy="95" rx="10" ry="7" fill="url(#bactGrad)" stroke="#1565C0" stroke-width="0.7"/>
+  <ellipse cx="250" cy="95" rx="10" ry="7" fill="url(#bactGrad)" stroke="#1565C0" stroke-width="0.7"/>
+  <text x="243" y="107" text-anchor="middle" font-size="7" font-weight="bold" fill="#1565C0" font-family="Arial, sans-serif">4 клетки</text>
+  <text x="243" y="115" text-anchor="middle" font-size="5.5" fill="#666" font-family="Arial, sans-serif">t = 40 мин</text>
+
+  <!-- Arrow 4→8 -->
+  <path d="M280,87 L292,87" stroke="#2E7D32" stroke-width="1.5" fill="none"/>
+  <polygon points="292,84 298,87 292,90" fill="#2E7D32"/>
+
+  <!-- Step 4: Eight cells -->
+  <rect x="300" y="63" width="80" height="48" rx="4" fill="white" stroke="#1565C0" stroke-width="0.8"/>
+  <ellipse cx="318" cy="76" rx="8" ry="5.5" fill="url(#bactGrad)" stroke="#1565C0" stroke-width="0.6"/>
+  <ellipse cx="335" cy="76" rx="8" ry="5.5" fill="url(#bactGrad)" stroke="#1565C0" stroke-width="0.6"/>
+  <ellipse cx="352" cy="76" rx="8" ry="5.5" fill="url(#bactGrad)" stroke="#1565C0" stroke-width="0.6"/>
+  <ellipse cx="369" cy="76" rx="8" ry="5.5" fill="url(#bactGrad)" stroke="#1565C0" stroke-width="0.6"/>
+  <ellipse cx="318" cy="92" rx="8" ry="5.5" fill="url(#bactGrad)" stroke="#1565C0" stroke-width="0.6"/>
+  <ellipse cx="335" cy="92" rx="8" ry="5.5" fill="url(#bactGrad)" stroke="#1565C0" stroke-width="0.6"/>
+  <ellipse cx="352" cy="92" rx="8" ry="5.5" fill="url(#bactGrad)" stroke="#1565C0" stroke-width="0.6"/>
+  <ellipse cx="369" cy="92" rx="8" ry="5.5" fill="url(#bactGrad)" stroke="#1565C0" stroke-width="0.6"/>
+  <text x="340" y="107" text-anchor="middle" font-size="7" font-weight="bold" fill="#1565C0" font-family="Arial, sans-serif">8 клеток</text>
+  <text x="340" y="115" text-anchor="middle" font-size="5.5" fill="#666" font-family="Arial, sans-serif">t = 60 мин</text>
+
+  <!-- Formula -->
+  <text x="440" y="78" text-anchor="middle" font-size="6.5" font-weight="bold" fill="#1B5E20" font-family="Arial, sans-serif">Формула:</text>
+  <text x="440" y="90" text-anchor="middle" font-size="8" font-weight="bold" fill="#2E7D32" font-family="Arial, sans-serif">N = 2ⁿ</text>
+  <text x="440" y="102" text-anchor="middle" font-size="5.5" fill="#555" font-family="Arial, sans-serif">n — число делений</text>
+  <text x="440" y="112" text-anchor="middle" font-size="5" fill="#888" font-family="Arial, sans-serif">Время поколения:</text>
+  <text x="440" y="121" text-anchor="middle" font-size="5" fill="#888" font-family="Arial, sans-serif">20–30 мин</text>
+
+  <!-- ============ ENDOSPORE FORMATION ============ -->
+  <text x="250" y="137" text-anchor="middle" font-size="8" font-weight="bold" fill="#1B5E20" font-family="Arial, sans-serif">Образование эндоспоры</text>
+
+  <!-- Step 1: Vegetative cell -->
+  <rect x="15" y="143" width="95" height="56" rx="5" fill="white" stroke="#1565C0" stroke-width="0.8"/>
+  <ellipse cx="62" cy="168" rx="22" ry="11" fill="#90CAF9" stroke="#1565C0" stroke-width="0.8"/>
+  <ellipse cx="62" cy="168" rx="8" ry="5" fill="#7986CB" opacity="0.5"/>
+  <text x="62" y="190" text-anchor="middle" font-size="5.5" font-weight="bold" fill="#1565C0" font-family="Arial, sans-serif">Вегетативная</text>
+  <text x="62" y="197" text-anchor="middle" font-size="5.5" font-weight="bold" fill="#1565C0" font-family="Arial, sans-serif">клетка</text>
+
+  <!-- Arrow -->
+  <polygon points="112,168 118,165 118,171" fill="#2E7D32"/>
+  <line x1="110" y1="168" x2="118" y2="168" stroke="#2E7D32" stroke-width="1.2"/>
+
+  <!-- Step 2: Sporangium -->
+  <rect x="122" y="143" width="85" height="56" rx="5" fill="white" stroke="#E65100" stroke-width="0.8"/>
+  <ellipse cx="164" cy="168" rx="24" ry="12" fill="#FFCC80" stroke="#E65100" stroke-width="0.8"/>
+  <ellipse cx="164" cy="168" rx="9" ry="7" fill="#FF8A65" stroke="#BF360C" stroke-width="0.6"/>
+  <text x="164" y="190" text-anchor="middle" font-size="5.5" font-weight="bold" fill="#E65100" font-family="Arial, sans-serif">Спорангий</text>
+  <text x="164" y="197" text-anchor="middle" font-size="5.5" font-weight="bold" fill="#E65100" font-family="Arial, sans-serif">(формирование)</text>
+
+  <!-- Arrow -->
+  <polygon points="209,168 215,165 215,171" fill="#2E7D32"/>
+  <line x1="207" y1="168" x2="215" y2="168" stroke="#2E7D32" stroke-width="1.2"/>
+
+  <!-- Step 3: Endospore -->
+  <rect x="219" y="143" width="85" height="56" rx="5" fill="white" stroke="#6A1B9A" stroke-width="0.8"/>
+  <ellipse cx="261" cy="168" rx="13" ry="11" fill="#CE93D8" stroke="#6A1B9A" stroke-width="1"/>
+  <ellipse cx="261" cy="168" rx="7" ry="6" fill="#AB47BC" stroke="#6A1B9A" stroke-width="0.6"/>
+  <text x="261" y="190" text-anchor="middle" font-size="5.5" font-weight="bold" fill="#6A1B9A" font-family="Arial, sans-serif">Эндоспора</text>
+  <text x="261" y="197" text-anchor="middle" font-size="5" fill="#888" font-family="Arial, sans-serif">(покой)</text>
+
+  <!-- Arrow -->
+  <polygon points="306,168 312,165 312,171" fill="#2E7D32"/>
+  <line x1="304" y1="168" x2="312" y2="168" stroke="#2E7D32" stroke-width="1.2"/>
+
+  <!-- Step 4: Germination -->
+  <rect x="316" y="143" width="85" height="56" rx="5" fill="white" stroke="#2E7D32" stroke-width="0.8"/>
+  <!-- Spore opening -->
+  <ellipse cx="358" cy="168" rx="16" ry="12" fill="none" stroke="#AB47BC" stroke-width="0.6" stroke-dasharray="2,1"/>
+  <!-- New cell emerging -->
+  <ellipse cx="358" cy="168" rx="12" ry="8" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.8"/>
+  <ellipse cx="358" cy="168" rx="5" ry="3.5" fill="#66BB6A" opacity="0.5"/>
+  <!-- Growth arrow -->
+  <path d="M370,164 L376,160 M370,172 L376,176" stroke="#2E7D32" stroke-width="0.8"/>
+  <text x="358" y="190" text-anchor="middle" font-size="5.5" font-weight="bold" fill="#2E7D32" font-family="Arial, sans-serif">Прорастание</text>
+  <text x="358" y="197" text-anchor="middle" font-size="5" fill="#888" font-family="Arial, sans-serif">(благоприятные</text>
+  <text x="358" y="204" text-anchor="middle" font-size="5" fill="#888" font-family="Arial, sans-serif">условия)</text>
+
+  <!-- Spore properties box -->
+  <rect x="410" y="145" width="80" height="52" rx="4" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="0.7"/>
+  <text x="450" y="156" text-anchor="middle" font-size="6" font-weight="bold" fill="#6A1B9A" font-family="Arial, sans-serif">Свойства споры:</text>
+  <text x="415" y="166" font-size="5" fill="#333" font-family="Arial, sans-serif">&#x2022; Термостойкость</text>
+  <text x="415" y="174" font-size="5" fill="#333" font-family="Arial, sans-serif">&#x2022; Устойчивость к УФ</text>
+  <text x="415" y="182" font-size="5" fill="#333" font-family="Arial, sans-serif">&#x2022; До 100 лет жизни</text>
+  <text x="415" y="190" font-size="5" fill="#333" font-family="Arial, sans-serif">&#x2022; Нет метаболизма</text>
+
+  <!-- ============ GROWTH CURVE ============ -->
+  <rect x="15" y="208" width="305" height="108" rx="6" fill="white" stroke="#2E7D32" stroke-width="0.8" opacity="0.92"/>
+  <text x="168" y="221" text-anchor="middle" font-size="7.5" font-weight="bold" fill="#1B5E20" font-family="Arial, sans-serif">Кривая роста бактериальной популяции</text>
+
+  <!-- Axes -->
+  <line x1="50" y1="235" x2="50" y2="300" stroke="#333" stroke-width="1"/>
+  <line x1="50" y1="300" x2="300" y2="300" stroke="#333" stroke-width="1"/>
+  <polygon points="50,233 48,238 52,238" fill="#333"/>
+  <polygon points="302,300 297,298 297,302" fill="#333"/>
+
+  <text x="25" y="270" text-anchor="middle" font-size="5.5" fill="#333" font-family="Arial, sans-serif" transform="rotate(-90,25,270)">Число бактерий</text>
+  <text x="175" y="312" text-anchor="middle" font-size="5.5" fill="#333" font-family="Arial, sans-serif">Время</text>
+
+  <!-- Growth curve -->
+  <!-- Lag phase -->
+  <path d="M55,295 Q70,294 85,293 Q100,292 110,290" fill="none" stroke="#FF9800" stroke-width="1.8"/>
+  <!-- Exponential phase -->
+  <path d="M110,290 Q130,280 150,265 Q170,245 190,250" fill="none" stroke="#4CAF50" stroke-width="1.8"/>
+  <!-- Stationary phase -->
+  <path d="M190,250 Q210,252 230,250 Q250,248 270,250" fill="none" stroke="#2196F3" stroke-width="1.8"/>
+  <!-- Death phase -->
+  <path d="M270,250 Q280,260 290,275 Q295,285 298,292" fill="none" stroke="#F44336" stroke-width="1.8"/>
+
+  <!-- Phase labels -->
+  <text x="80" y="283" text-anchor="middle" font-size="5" font-weight="bold" fill="#FF9800" font-family="Arial, sans-serif">Лаг-</text>
+  <text x="80" y="289" text-anchor="middle" font-size="5" font-weight="bold" fill="#FF9800" font-family="Arial, sans-serif">фаза</text>
+
+  <text x="155" y="268" text-anchor="middle" font-size="5" font-weight="bold" fill="#4CAF50" font-family="Arial, sans-serif">Лог-</text>
+  <text x="155" y="274" text-anchor="middle" font-size="5" font-weight="bold" fill="#4CAF50" font-family="Arial, sans-serif">фаза</text>
+
+  <text x="230" y="262" text-anchor="middle" font-size="5" font-weight="bold" fill="#2196F3" font-family="Arial, sans-serif">Стационарная</text>
+  <text x="230" y="268" text-anchor="middle" font-size="5" font-weight="bold" fill="#2196F3" font-family="Arial, sans-serif">фаза</text>
+
+  <text x="290" y="270" text-anchor="middle" font-size="5" font-weight="bold" fill="#F44336" font-family="Arial, sans-serif">Отми-</text>
+  <text x="290" y="276" text-anchor="middle" font-size="5" font-weight="bold" fill="#F44336" font-family="Arial, sans-serif">рание</text>
+
+  <!-- Phase boundary lines -->
+  <line x1="110" y1="237" x2="110" y2="300" stroke="#FF9800" stroke-width="0.4" stroke-dasharray="3,2"/>
+  <line x1="190" y1="237" x2="190" y2="300" stroke="#4CAF50" stroke-width="0.4" stroke-dasharray="3,2"/>
+  <line x1="270" y1="237" x2="270" y2="300" stroke="#2196F3" stroke-width="0.4" stroke-dasharray="3,2"/>
+
+  <!-- ============ ENVIRONMENTAL FACTORS PANEL ============ -->
+  <rect x="330" y="208" width="160" height="108" rx="6" fill="white" stroke="#2E7D32" stroke-width="0.8" opacity="0.92"/>
+  <text x="410" y="221" text-anchor="middle" font-size="7.5" font-weight="bold" fill="#1B5E20" font-family="Arial, sans-serif">Факторы среды</text>
+  <line x1="340" y1="225" x2="480" y2="225" stroke="#2E7D32" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Temperature -->
+  <circle cx="352" cy="240" r="8" fill="#FFCDD2" stroke="#C62828" stroke-width="0.8"/>
+  <text x="352" y="243" text-anchor="middle" font-size="7" font-weight="bold" fill="#C62828" font-family="Arial, sans-serif">°C</text>
+  <text x="366" y="238" font-size="6" font-weight="bold" fill="#C62828" font-family="Arial, sans-serif">Температура</text>
+  <text x="366" y="247" font-size="5" fill="#555" font-family="Arial, sans-serif">Оптимум: 25–37°C</text>
+  <text x="366" y="254" font-size="5" fill="#555" font-family="Arial, sans-serif">Экстремофилы: до 110°C</text>
+
+  <!-- UV -->
+  <circle cx="352" cy="268" r="8" fill="#E1BEE7" stroke="#6A1B9A" stroke-width="0.8"/>
+  <text x="352" y="270" text-anchor="middle" font-size="6" font-weight="bold" fill="#6A1B9A" font-family="Arial, sans-serif">UV</text>
+  <text x="366" y="266" font-size="6" font-weight="bold" fill="#6A1B9A" font-family="Arial, sans-serif">УФ-излучение</text>
+  <text x="366" y="275" font-size="5" fill="#555" font-family="Arial, sans-serif">Повреждает ДНК</text>
+  <text x="366" y="282" font-size="5" fill="#555" font-family="Arial, sans-serif">Споры устойчивы</text>
+
+  <!-- Moisture -->
+  <circle cx="352" cy="296" r="8" fill="#BBDEFB" stroke="#1565C0" stroke-width="0.8"/>
+  <text x="352" y="298" text-anchor="middle" font-size="7" font-weight="bold" fill="#1565C0" font-family="Arial, sans-serif">💧</text>
+  <text x="366" y="294" font-size="6" font-weight="bold" fill="#1565C0" font-family="Arial, sans-serif">Влажность</text>
+  <text x="366" y="303" font-size="5" fill="#555" font-family="Arial, sans-serif">Необходима для обмена</text>
+  <text x="366" y="310" font-size="5" fill="#555" font-family="Arial, sans-serif">веществ и роста</text>
+
+  <!-- Footer -->
+  <rect x="0" y="325" width="500" height="25" rx="0" fill="#2E7D32"/>
+  <rect x="0" y="325" width="500" height="12" rx="0" fill="#2E7D32"/>
+  <rect x="0" y="337" width="500" height="13" rx="0 0 12 12" fill="#2E7D32"/>
+  <text x="250" y="342" text-anchor="middle" font-size="8" font-weight="bold" fill="white" font-family="Arial, sans-serif">Урок 4: Размножение и распространение бактерий</text>
+</svg>

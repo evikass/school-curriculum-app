@@ -5,7 +5,7 @@ import os
 import xml.etree.ElementTree as ET
 
 # ── Paths ──────────────────────────────────────────────────────────────────
-BASE = "/home/z/my-project/school-curriculum-app/public/images/lessons/grade11"
+BASE = "/home/z/school-curriculum-app/public/images/lessons/grade11"
 PHYSICS_DIR = os.path.join(BASE, "physics")
 ALGEBRA_DIR = os.path.join(BASE, "algebra")
 

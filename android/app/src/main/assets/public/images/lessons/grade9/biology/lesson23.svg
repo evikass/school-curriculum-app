@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Биосфера и живое вещество</text>
+<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 9 класс — Урок 23</text>
+<line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+
+<!-- Earth-like sphere -->
+<g transform="translate(250,175)">
+<circle cx="0" cy="0" r="65" fill="#42A5F5" opacity="0.15" stroke="#1565C0" stroke-width="2"/>
+<!-- Atmosphere -->
+<ellipse cx="0" cy="-40" rx="55" ry="12" fill="#90CAF9" opacity="0.3" stroke="#42A5F5" stroke-width="1"/>
+<text x="0" y="-38" font-family="Arial,sans-serif" font-size="5" fill="#1565C0" text-anchor="middle">Атмосфера</text>
+<!-- Hydrosphere -->
+<ellipse cx="0" cy="20" rx="50" ry="18" fill="#1565C0" opacity="0.2" stroke="#0D47A1" stroke-width="1"/>
+<text x="0" y="22" font-family="Arial,sans-serif" font-size="5" fill="#0D47A1" text-anchor="middle">Гидросфера</text>
+<!-- Lithosphere -->
+<ellipse cx="0" cy="50" rx="40" ry="10" fill="#8D6E63" opacity="0.3" stroke="#5D4037" stroke-width="1"/>
+<text x="0" y="52" font-family="Arial,sans-serif" font-size="5" fill="#5D4037" text-anchor="middle">Литосфера</text>
+<text x="0" y="-60" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle" font-weight="bold">Биосфера</text>
+</g>
+<!-- Vernadsky info -->
+<g transform="translate(420,120)">
+<rect x="-50" y="-30" width="100" height="60" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.2"/>
+<text x="0" y="-18" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle" font-weight="bold">В.И. Вернадский</text>
+<line x1="-35" y1="-10" x2="35" y2="-10" stroke="#2E7D32" stroke-width="0.5"/>
+<text x="0" y="2" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Живое вещество</text>
+<text x="0" y="14" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Биокосное вещество</text>
+<text x="0" y="26" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Косное вещество</text>
+</g>
+<rect x="30" y="280" width="440" height="30" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
+<text x="250" y="294" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Биосфера: оболочка Земли, заселённая живыми организмами</text>
+<text x="250" y="305" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Живое вещество: совокупность всех организмов | Масса: 2.4 x 10^12 т</text>
+<text x="250" y="316" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Функции: газовая, концентрационная, окислительно-восстановительная</text>
+
+<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 9 класс</text>
+</svg>

@@ -1,50 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
+    <radialGradient id="globe" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#4fc3f7"/>
+      <stop offset="100%" stop-color="#0277bd"/>
+    </radialGradient>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
-    </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#004D40"/>
-      <stop offset="100%" stop-color="#00695C"/>
+      <stop offset="0%" stop-color="#1a237e"/>
+      <stop offset="100%" stop-color="#283593"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#00695C" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#00695C" stroke-width="1" opacity="0.3"/>
-  <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#00695C" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <!-- Globe -->
+  <circle cx="250" cy="155" r="120" fill="url(#globe)" stroke="#01579b" stroke-width="2"/>
+  <!-- Latitude lines -->
+  <ellipse cx="250" cy="155" rx="120" ry="20" fill="none" stroke="#0288d1" stroke-width="0.7" opacity="0.5"/>
+  <ellipse cx="250" cy="155" rx="120" ry="50" fill="none" stroke="#0288d1" stroke-width="0.7" opacity="0.5"/>
+  <ellipse cx="250" cy="155" rx="120" ry="85" fill="none" stroke="#0288d1" stroke-width="0.7" opacity="0.5"/>
+  <!-- Longitude lines -->
+  <ellipse cx="250" cy="155" rx="30" ry="120" fill="none" stroke="#0288d1" stroke-width="0.7" opacity="0.5"/>
+  <ellipse cx="250" cy="155" rx="70" ry="120" fill="none" stroke="#0288d1" stroke-width="0.7" opacity="0.5"/>
+  <line x1="250" y1="35" x2="250" y2="275" stroke="#0288d1" stroke-width="0.7" opacity="0.5"/>
+  <!-- Russia shape (simplified) -->
+  <path d="M155,100 L165,88 L185,82 L210,78 L240,80 L270,75 L300,78 L320,85 L340,80 L360,88 L365,100 L355,110 L340,115 L330,125 L315,130 L300,128 L285,135 L270,140 L260,148 L250,155 L240,160 L225,158 L210,155 L195,150 L180,148 L170,140 L160,130 L155,118 Z" fill="#e53935" stroke="#b71c1c" stroke-width="1.5" opacity="0.9"/>
+  <!-- Kamchatka extension -->
+  <path d="M360,88 L370,82 L378,88 L375,100 L365,105 L360,100 Z" fill="#e53935" stroke="#b71c1c" stroke-width="1.5" opacity="0.9"/>
+  <!-- Label on Russia -->
+  <text x="255" y="125" font-size="11" fill="#fff" text-anchor="middle" font-weight="bold">РОССИЯ</text>
+  <!-- Star for Moscow -->
+  <polygon points="220,130 222,126 226,124 222,122 220,118 218,122 214,124 218,126" fill="#ffd600"/>
+  <text x="220" y="142" font-size="7" fill="#fff" text-anchor="middle">Москва</text>
+  <!-- Surrounding countries hints -->
+  <path d="M150,100 L140,95 L135,105 L145,115 L155,118" fill="#66bb6a" opacity="0.6"/>
+  <path d="M155,148 L145,155 L140,165 L150,170 L160,165 L170,160" fill="#66bb6a" opacity="0.6"/>
+  <path d="M340,115 L350,118 L355,128 L345,135 L335,130" fill="#ffa726" opacity="0.6"/>
+  <!-- Ocean labels -->
+  <text x="100" y="80" font-size="7" fill="#4fc3f7" opacity="0.8">Атлантика</text>
+  <text x="380" y="100" font-size="7" fill="#4fc3f7" opacity="0.8">Тихий</text>
+  <text x="380" y="110" font-size="7" fill="#4fc3f7" opacity="0.8">океан</text>
+  <text x="250" y="260" font-size="7" fill="#4fc3f7" opacity="0.8">Северный Ледовитый океан</text>
   <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#00695C" text-anchor="middle">Россия на карте мира</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">География - Урок 1</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#00695C" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#00695C" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA -->
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E3F2FD"/>
-      <text x="250" y="130" font-family="Arial,sans-serif" font-size="20" fill="#00695C" text-anchor="middle" font-weight="bold">Россия на карте мира</text>
-      <rect x="25" y="155" width="140" height="45" rx="5" fill="#E0F2F1" stroke="#00695C" stroke-width="1.5"/>
-      <text x="95" y="175" font-family="Arial" font-size="11" fill="#00695C" text-anchor="middle">Площадь:</text>
-      <text x="95" y="192" font-family="Arial" font-size="10" fill="#333" text-anchor="middle">17,1 млн км²</text>
-      <rect x="170" y="155" width="140" height="45" rx="5" fill="#FFF3E0" stroke="#E65100" stroke-width="1.5"/>
-      <text x="240" y="175" font-family="Arial" font-size="11" fill="#E65100" text-anchor="middle">Самая большая</text>
-      <text x="240" y="192" font-family="Arial" font-size="10" fill="#333" text-anchor="middle">страна в мире</text>
-      <rect x="315" y="155" width="140" height="45" rx="5" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
-      <text x="385" y="175" font-family="Arial" font-size="11" fill="#1565C0" text-anchor="middle">Границы:</text>
-      <text x="385" y="192" font-family="Arial" font-size="10" fill="#333" text-anchor="middle">Сухопутные + морские</text>
-      <rect x="25" y="210" width="210" height="40" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/>
-      <text x="130" y="235" font-family="Arial" font-size="11" fill="#2E7D32" text-anchor="middle">11 часовых поясов</text>
-      <rect x="265" y="210" width="190" height="40" rx="5" fill="#FFFDE7" stroke="#F9A825" stroke-width="1.5"/>
-      <text x="360" y="235" font-family="Arial" font-size="11" fill="#F9A825" text-anchor="middle">Евразия: Европа + Азия</text>
-  </g>
-  <!-- Bottom panel -->
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">География</text>
+  <text x="250" y="340" font-size="9" fill="#fff" opacity="0.5" text-anchor="middle">Россия на карте мира</text>
 </svg>

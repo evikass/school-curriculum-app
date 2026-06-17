@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Шляпочные грибы</text>
+<text x="250" y="44" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 7 класс — Урок 8</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- Mushroom cross-section -->
+<g transform="translate(75,155)">
+  <rect x="-60" y="-85" width="120" height="180" rx="6" fill="white" opacity="0.9" stroke="#2E7D32" stroke-width="1.2"/>
+  <text x="0" y="-70" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">СТРОЕНИЕ</text>
+  <line x1="-45" y1="-64" x2="45" y2="-64" stroke="#2E7D32" stroke-width="0.5"/>
+  <!-- Cap (шляпка) -->
+  <path d="M-35,-50 Q-30,-60 -15,-55 Q0,-58 15,-55 Q30,-60 35,-50 Q30,-42 15,-40 Q0,-38 -15,-40 Q-30,-42 -35,-50Z" fill="#8D6E63" stroke="#5D4037" stroke-width="1.5"/>
+  <!-- Gills under cap (cross section) -->
+  <path d="M-28,-40 Q-25,-35 -20,-30" stroke="#D7CCC8" stroke-width="0.7" fill="none"/>
+  <path d="M-18,-40 Q-15,-35 -12,-30" stroke="#D7CCC8" stroke-width="0.7" fill="none"/>
+  <path d="M-8,-40 Q-5,-35 -2,-30" stroke="#D7CCC8" stroke-width="0.7" fill="none"/>
+  <path d="M2,-40 Q5,-35 8,-30" stroke="#D7CCC8" stroke-width="0.7" fill="none"/>
+  <path d="M12,-40 Q15,-35 18,-30" stroke="#D7CCC8" stroke-width="0.7" fill="none"/>
+  <path d="M22,-40 Q25,-35 28,-30" stroke="#D7CCC8" stroke-width="0.7" fill="none"/>
+  <!-- Stalk (ножка) -->
+  <rect x="-6" y="-30" width="12" height="40" rx="3" fill="#D7CCC8" stroke="#8D6E63" stroke-width="1.5"/>
+  <!-- Ring on stalk -->
+  <ellipse cx="0" cy="-15" rx="10" ry="2" fill="none" stroke="#8D6E63" stroke-width="1"/>
+  <!-- Mycelium at base -->
+  <path d="M-6,10 Q-15,15 -22,25" stroke="#8D6E63" stroke-width="1.5" fill="none"/>
+  <path d="M-6,10 Q-10,20 -12,30" stroke="#8D6E63" stroke-width="1.5" fill="none"/>
+  <path d="M6,10 Q10,20 12,30" stroke="#8D6E63" stroke-width="1.5" fill="none"/>
+  <path d="M6,10 Q15,15 22,25" stroke="#8D6E63" stroke-width="1.5" fill="none"/>
+  <!-- Labels -->
+  <line x1="35" y1="-50" x2="48" y2="-55" stroke="#1B5E20" stroke-width="0.6"/>
+  <text x="50" y="-52" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20">шляпка</text>
+  <line x1="12" y1="-15" x2="40" y2="-20" stroke="#1B5E20" stroke-width="0.6"/>
+  <text x="42" y="-17" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20">кольцо</text>
+  <line x1="12" y1="-5" x2="40" y2="0" stroke="#1B5E20" stroke-width="0.6"/>
+  <text x="42" y="3" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20">ножка</text>
+  <line x1="15" y1="20" x2="40" y2="25" stroke="#1B5E20" stroke-width="0.6"/>
+  <text x="42" y="28" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20">грибница</text>
+  <text x="42" y="37" font-family="Arial,sans-serif" font-size="5" fill="#666">(мицелий)</text>
+</g>
+
+<!-- Hymenophore types -->
+<g transform="translate(235,155)">
+  <rect x="-80" y="-85" width="160" height="180" rx="6" fill="white" opacity="0.9" stroke="#2E7D32" stroke-width="1.2"/>
+  <text x="0" y="-70" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">ГИМЕНОФОР</text>
+  <line x1="-60" y1="-64" x2="60" y2="-64" stroke="#2E7D32" stroke-width="0.5"/>
+  <!-- Tubular (трубчатый) -->
+  <text x="-35" y="-50" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle" font-weight="bold">Трубчатый</text>
+  <!-- Cap outline -->
+  <path d="M-60,-35 Q-55,-45 -40,-42 Q-30,-44 -20,-42 Q-15,-45 -10,-35 Q-15,-28 -20,-26 Q-30,-24 -40,-26 Q-55,-28 -60,-35Z" fill="#8D6E63" stroke="#5D4037" stroke-width="1.2"/>
+  <!-- Tubes underneath -->
+  <rect x="-55" y="-26" width="6" height="14" rx="1" fill="#D7CCC8" stroke="#8D6E63" stroke-width="0.7"/>
+  <rect x="-47" y="-26" width="6" height="14" rx="1" fill="#D7CCC8" stroke="#8D6E63" stroke-width="0.7"/>
+  <rect x="-39" y="-26" width="6" height="14" rx="1" fill="#D7CCC8" stroke="#8D6E63" stroke-width="0.7"/>
+  <rect x="-31" y="-26" width="6" height="14" rx="1" fill="#D7CCC8" stroke="#8D6E63" stroke-width="0.7"/>
+  <rect x="-23" y="-26" width="6" height="14" rx="1" fill="#D7CCC8" stroke="#8D6E63" stroke-width="0.7"/>
+  <rect x="-15" y="-26" width="6" height="14" rx="1" fill="#D7CCC8" stroke="#8D6E63" stroke-width="0.7"/>
+  <!-- Examples -->
+  <text x="-35" y="-3" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Белый, Подберёзовик</text>
+
+  <!-- Lamellate (пластинчатый) -->
+  <text x="35" y="-50" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle" font-weight="bold">Пластинчатый</text>
+  <!-- Cap outline -->
+  <path d="M10,-35 Q15,-45 30,-42 Q40,-44 50,-42 Q55,-45 60,-35 Q55,-28 50,-26 Q40,-24 30,-26 Q15,-28 10,-35Z" fill="#E91E63" opacity="0.3" stroke="#C2185B" stroke-width="1.2"/>
+  <!-- Gills underneath (radiating lines) -->
+  <path d="M15,-28 L35,-10" stroke="#C2185B" stroke-width="0.7" fill="none"/>
+  <path d="M20,-28 L35,-10" stroke="#C2185B" stroke-width="0.7" fill="none"/>
+  <path d="M25,-29 L35,-10" stroke="#C2185B" stroke-width="0.7" fill="none"/>
+  <path d="M30,-29 L35,-10" stroke="#C2185B" stroke-width="0.7" fill="none"/>
+  <path d="M35,-29 L35,-10" stroke="#C2185B" stroke-width="0.7" fill="none"/>
+  <path d="M40,-29 L35,-10" stroke="#C2185B" stroke-width="0.7" fill="none"/>
+  <path d="M45,-29 L35,-10" stroke="#C2185B" stroke-width="0.7" fill="none"/>
+  <path d="M50,-28 L35,-10" stroke="#C2185B" stroke-width="0.7" fill="none"/>
+  <path d="M55,-28 L35,-10" stroke="#C2185B" stroke-width="0.7" fill="none"/>
+  <!-- Examples -->
+  <text x="35" y="-3" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Рыжик, Сыроежка</text>
+
+  <!-- Divider -->
+  <line x1="-60" y1="8" x2="60" y2="8" stroke="#2E7D32" stroke-width="0.5" stroke-dasharray="3,2"/>
+
+  <!-- Mycorrhiza diagram -->
+  <text x="0" y="25" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">МИКОРИЗА</text>
+  <!-- Plant root -->
+  <path d="M-15,35 Q-10,45 -15,55 Q-12,65 -15,75" stroke="#8D6E63" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M-15,35 Q-10,45 -15,55 Q-12,65 -15,75" stroke="#A1887F" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Fungal hyphae wrapping around root -->
+  <path d="M-25,38 Q-5,42 -25,48 Q-5,52 -25,58 Q-5,62 -25,68 Q-5,72 -25,78" stroke="#66BB6A" stroke-width="1.2" fill="none"/>
+  <text x="15" y="50" font-family="Arial,sans-serif" font-size="5" fill="#66BB6A">гифы гриба</text>
+  <text x="15" y="60" font-family="Arial,sans-serif" font-size="5" fill="#A1887F">корень</text>
+  <text x="15" y="70" font-family="Arial,sans-serif" font-size="5" fill="#8D6E63">растения</text>
+  <text x="0" y="90" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">взаимовыгодный симбиоз</text>
+</g>
+
+<!-- Examples panel -->
+<rect x="370" y="70" width="110" height="220" rx="6" fill="white" opacity="0.9" stroke="#2E7D32" stroke-width="1.2"/>
+<text x="425" y="85" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">ПРИМЕРЫ</text>
+<line x1="380" y1="90" x2="470" y2="90" stroke="#2E7D32" stroke-width="0.5"/>
+
+<!-- Tubular examples -->
+<text x="425" y="105" font-family="Arial,sans-serif" font-size="7" fill="#8D6E63" text-anchor="middle" font-weight="bold">Трубчатые:</text>
+<!-- Белый mushroom icon -->
+<g transform="translate(425,125)">
+  <path d="M-10,-8 Q-8,-14 0,-12 Q8,-14 10,-8 Q8,-4 0,-3 Q-8,-4 -10,-8Z" fill="#8D6E63" stroke="#5D4037" stroke-width="1"/>
+  <rect x="-2" y="-3" width="4" height="8" rx="1" fill="#D7CCC8" stroke="#8D6E63" stroke-width="0.8"/>
+  <text x="0" y="14" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Белый</text>
+</g>
+<!-- Подберёзовик icon -->
+<g transform="translate(425,155)">
+  <path d="M-12,-8 Q-10,-15 0,-13 Q10,-15 12,-8 Q10,-4 0,-3 Q-10,-4 -12,-8Z" fill="#A1887F" stroke="#5D4037" stroke-width="1"/>
+  <rect x="-2" y="-3" width="4" height="10" rx="1" fill="#BCAAA4" stroke="#8D6E63" stroke-width="0.8"/>
+  <text x="0" y="16" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Подберёзовик</text>
+</g>
+
+<!-- Lamellate examples -->
+<text x="425" y="185" font-family="Arial,sans-serif" font-size="7" fill="#C2185B" text-anchor="middle" font-weight="bold">Пластинчатые:</text>
+<!-- Рыжик icon -->
+<g transform="translate(425,205)">
+  <path d="M-10,-8 Q-8,-14 0,-12 Q8,-14 10,-8 Q8,-4 0,-3 Q-8,-4 -10,-8Z" fill="#FF9800" stroke="#E65100" stroke-width="1"/>
+  <rect x="-2" y="-3" width="4" height="8" rx="1" fill="#FFE0B2" stroke="#FF9800" stroke-width="0.8"/>
+  <text x="0" y="14" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Рыжик</text>
+</g>
+<!-- Сыроежка icon -->
+<g transform="translate(425,235)">
+  <path d="M-10,-8 Q-8,-14 0,-12 Q8,-14 10,-8 Q8,-4 0,-3 Q-8,-4 -10,-8Z" fill="#E53935" opacity="0.6" stroke="#C62828" stroke-width="1"/>
+  <rect x="-2" y="-3" width="4" height="8" rx="1" fill="#FFCDD2" stroke="#E53935" stroke-width="0.8"/>
+  <text x="0" y="14" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Сыроежка</text>
+</g>
+
+<text x="425" y="268" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Съедобные грибы</text>
+<text x="425" y="278" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">образуют микоризу</text>
+<text x="425" y="288" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">с корнями деревьев</text>
+
+<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 7 класс</text>
+</svg>

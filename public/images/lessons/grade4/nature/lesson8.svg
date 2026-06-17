@@ -1,41 +1,56 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
 <defs>
-  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" style="stop-color:#2E7D32"/>
-    <stop offset="100%" style="stop-color:#81C784"/>
-  </linearGradient>
-  <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
-    <stop offset="0%" style="stop-color:rgba(255,255,255,0.95)"/>
-    <stop offset="100%" style="stop-color:rgba(255,255,255,0.85)"/>
-  </linearGradient>
-</defs>
-<rect width="500" height="350" fill="url(#bg)"/>
-<ellipse cx="60" cy="50" rx="15" ry="8" fill="white" opacity="0.08" transform="rotate(-30 60 50)"/>
-<ellipse cx="180" cy="30" rx="15" ry="8" fill="white" opacity="0.08" transform="rotate(-30 180 30)"/>
-<ellipse cx="350" cy="70" rx="15" ry="8" fill="white" opacity="0.08" transform="rotate(-30 350 70)"/>
-<ellipse cx="440" cy="40" rx="15" ry="8" fill="white" opacity="0.08" transform="rotate(-30 440 40)"/>
-<ellipse cx="100" cy="180" rx="15" ry="8" fill="white" opacity="0.08" transform="rotate(-30 100 180)"/>
-<ellipse cx="300" cy="160" rx="15" ry="8" fill="white" opacity="0.08" transform="rotate(-30 300 160)"/>
-<ellipse cx="60" cy="280" rx="15" ry="8" fill="white" opacity="0.08" transform="rotate(-30 60 280)"/>
-<ellipse cx="420" cy="250" rx="15" ry="8" fill="white" opacity="0.08" transform="rotate(-30 420 250)"/>
-<rect x="20" y="50" width="460" height="270" rx="16" fill="url(#card)" opacity="0.92"/>
-<rect x="30" y="60" width="auto" height="24" rx="12" fill="#2E7D32" opacity="0.9"/>
-<rect x="30" y="60" width="132" height="24" rx="12" fill="#2E7D32" opacity="0.9"/>
-<text x="96" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="white" font-weight="bold">Природоведение</text>
-<text x="470" y="77" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" font-weight="bold">Урок 11</text>
-<text x="40" y="105" font-family="Arial,sans-serif" font-size="18" fill="#1a1a1a" font-weight="bold">Водоём как экосистема</text>
-<line x1="40" y1="115" x2="460" y2="115" stroke="#C8E6C9" stroke-width="2"/>
-<text x="40" y="135" font-family="Arial,sans-serif" font-size="13" fill="#444">Водоём — это природное сообщество с водой, растениями и живо...</text>
-<text x="40" y="155" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" font-weight="bold">Ключевые темы:</text>
-<circle cx="48" cy="175" r="9" fill="#2E7D32" opacity="0.15"/>
-<text x="48" y="179" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" font-weight="bold">1</text>
-<text x="64" y="179" font-family="Arial,sans-serif" font-size="11" fill="#444">Знать типы водоёмов</text>
-<circle cx="48" cy="199" r="9" fill="#2E7D32" opacity="0.15"/>
-<text x="48" y="203" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" font-weight="bold">2</text>
-<text x="64" y="203" font-family="Arial,sans-serif" font-size="11" fill="#444">Называть жителей водоёма</text>
-<circle cx="48" cy="223" r="9" fill="#2E7D32" opacity="0.15"/>
-<text x="48" y="227" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" font-weight="bold">3</text>
-<text x="64" y="227" font-family="Arial,sans-serif" font-size="11" fill="#444">Строить цепи питания</text>
-<circle cx="460" cy="310" r="25" fill="#2E7D32" opacity="0.15"/>
-<circle cx="460" cy="310" r="15" fill="#2E7D32" opacity="0.1"/>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#E0F7FA"/>
+    </linearGradient>
+    <linearGradient id="groundGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#81C784"/>
+      <stop offset="100%" stop-color="#4CAF50"/>
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#42A5F5"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+    <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF9C4"/>
+      <stop offset="60%" stop-color="#FDD835"/>
+      <stop offset="100%" stop-color="#F9A825"/>
+    </radialGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="3" stdDeviation="5" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  <g transform="translate(40,30)" filter="url(#softShadow)">
+    <rect width="420" height="285" rx="12" fill="white" opacity="0.94"/>
+    <rect width="420" height="32" rx="12" fill="#2E7D32" opacity="0.9"/>
+    <rect y="24" width="420" height="8" fill="#2E7D32" opacity="0.9"/>
+    <text x="210" y="22" font-family="Arial" font-size="12" fill="white" text-anchor="middle" font-weight="bold">ЦАРСТВО ЖИВОТНЫХ</text>
+    <g transform="translate(20,48)">
+      <rect width="380" height="70" rx="8" fill="#E8F5E9" opacity="0.4" stroke="#2E7D32" stroke-width="1.5"/>
+      <text x="190" y="30" font-family="Arial" font-size="16" fill="#1B5E20" text-anchor="middle" font-weight="bold">Насекомые, рыбы, птицы, звери</text>
+    </g>
+    <g transform="translate(20,135)">
+      <rect width="380" height="130" rx="8" fill="white" stroke="#E65100" stroke-width="1.5"/>
+      <rect width="380" height="24" rx="8" fill="#E65100" opacity="0.85"/>
+      <rect y="18" width="380" height="6" fill="#E65100" opacity="0.85"/>
+      <text x="190" y="17" font-family="Arial" font-size="10" fill="white" text-anchor="middle" font-weight="bold">ГЛАВНОЕ</text>
+      <text x="190" y="55" font-family="Arial" font-size="12" fill="#1B5E20" text-anchor="middle" font-weight="bold">Насекомые, рыбы, птицы, звери</text>
+      <text x="190" y="85" font-family="Arial" font-size="9" fill="#555" text-anchor="middle">Окружающий мир — 4 класс</text>
+    </g>
+  </g>
+  <rect x="0" y="318" width="500" height="32" rx="0" fill="#2E7D32" opacity="0.9"/>
+  <text x="250" y="339" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Царство животных</text>
 </svg>

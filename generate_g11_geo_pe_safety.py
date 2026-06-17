@@ -4,7 +4,7 @@
 import os
 import xml.etree.ElementTree as ET
 
-BASE = "/home/z/my-project/school-curriculum-app/public/images/lessons/grade11"
+BASE = "/home/z/school-curriculum-app/public/images/lessons/grade11"
 
 SUBJECTS = {
     "geography": {

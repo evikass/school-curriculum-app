@@ -1,37 +1,66 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
-    </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#0D47A1"/>
-      <stop offset="100%" stop-color="#1565C0"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1b2a"/>
+      <stop offset="100%" stop-color="#1b2838"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#1565C0" stroke-width="1" opacity="0.3"/>
-  <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#1565C0" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#1565C0" text-anchor="middle">Основное свойство дроби</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Алгебра - Урок 2</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#1565C0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#1565C0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA -->
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E3F2FD"/><text x="250" y="130" font-family="Arial,sans-serif" font-size="20" fill="#1565C0" text-anchor="middle" font-weight="bold">Основное свойство дроби</text><rect x="25" y="155" width="140" height="45" rx="5" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/><text x="95" y="182" font-family="Arial" font-size="12" fill="#1565C0" text-anchor="middle">Пример 1:</text><rect x="170" y="155" width="140" height="45" rx="5" fill="#FFF3E0" stroke="#0D47A1" stroke-width="1.5"/><text x="240" y="182" font-family="Arial" font-size="12" fill="#0D47A1" text-anchor="middle">Формулировка основного ...</text><rect x="315" y="155" width="140" height="45" rx="5" fill="#FFFDE7" stroke="#F9A825" stroke-width="1.5"/><text x="385" y="182" font-family="Arial" font-size="12" fill="#F9A825" text-anchor="middle">Формулы основного свойс...</text><rect x="25" y="210" width="140" height="45" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/><text x="95" y="238" font-family="Arial" font-size="12" fill="#2E7D32" text-anchor="middle">Сокращение дробей:</text><rect x="170" y="210" width="140" height="45" rx="5" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="1.5"/><text x="240" y="238" font-family="Arial" font-size="12" fill="#6A1B9A" text-anchor="middle">Алгоритм сокращения рац...</text><rect x="315" y="210" width="140" height="45" rx="5" fill="#FFEBEE" stroke="#E65100" stroke-width="1.5"/><text x="385" y="238" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">Способы разложения на м...</text>
-  <circle cx="450" cy="110" r="15" fill="#1565C0" opacity="0.15"/><circle cx="440" cy="120" r="8" fill="#0D47A1" opacity="0.1"/>
-  </g>
-  <!-- Bottom panel -->
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Алгебра</text>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <!-- Main fraction -->
+  <text x="80" y="90" fill="#48cae4" font-size="32" font-family="serif" font-weight="bold">3</text>
+  <line x1="70" y1="100" x2="115" y2="100" stroke="#48cae4" stroke-width="3"/>
+  <text x="80" y="130" fill="#48cae4" font-size="32" font-family="serif" font-weight="bold">5</text>
+  <!-- Multiply arrow -->
+  <text x="130" y="115" fill="#f77f00" font-size="28">·</text>
+  <!-- Factor -->
+  <rect x="155" y="75" width="45" height="65" rx="5" fill="none" stroke="#f77f00" stroke-width="2" stroke-dasharray="4,2"/>
+  <text x="168" y="95" fill="#f77f00" font-size="24" font-family="serif">2</text>
+  <line x1="155" y1="100" x2="200" y2="100" stroke="#f77f00" stroke-width="2" stroke-dasharray="4,2"/>
+  <text x="168" y="128" fill="#f77f00" font-size="24" font-family="serif">2</text>
+  <!-- Equals -->
+  <text x="215" y="115" fill="#90be6d" font-size="28">=</text>
+  <!-- Result fraction -->
+  <text x="250" y="90" fill="#f9c74f" font-size="32" font-family="serif" font-weight="bold">6</text>
+  <line x1="240" y1="100" x2="290" y2="100" stroke="#f9c74f" stroke-width="3"/>
+  <text x="250" y="130" fill="#f9c74f" font-size="32" font-family="serif" font-weight="bold">10</text>
+  <!-- Simplify arrow -->
+  <path d="M300,110 C330,110 340,70 370,70" stroke="#90be6d" stroke-width="1.5" fill="none"/>
+  <text x="340" y="60" fill="#90be6d" font-size="11">сокращение</text>
+  <!-- Back to original -->
+  <text x="380" y="90" fill="#48cae4" font-size="32" font-family="serif" font-weight="bold">3</text>
+  <line x1="370" y1="100" x2="415" y2="100" stroke="#48cae4" stroke-width="3"/>
+  <text x="380" y="130" fill="#48cae4" font-size="32" font-family="serif" font-weight="bold">5</text>
+  <!-- Variable example -->
+  <text x="60" y="200" fill="#a8dadc" font-size="22" font-family="serif">ax</text>
+  <line x1="50" y1="210" x2="120" y2="210" stroke="#a8dadc" stroke-width="2"/>
+  <text x="70" y="235" fill="#a8dadc" font-size="22" font-family="serif">ay</text>
+  <text x="135" y="220" fill="#f77f00" font-size="20">=</text>
+  <text x="165" y="200" fill="#a8dadc" font-size="22" font-family="serif">x</text>
+  <line x1="158" y1="210" x2="205" y2="210" stroke="#a8dadc" stroke-width="2"/>
+  <text x="175" y="235" fill="#a8dadc" font-size="22" font-family="serif">y</text>
+  <!-- Bracket showing same factor -->
+  <path d="M140,190 C145,185 145,185 150,190" stroke="#f77f00" stroke-width="1.5" fill="none"/>
+  <path d="M140,245 C145,250 145,250 150,245" stroke="#f77f00" stroke-width="1.5" fill="none"/>
+  <text x="140" y="265" fill="#f77f00" font-size="12">a≠0</text>
+  <!-- Visual bars showing equal parts -->
+  <rect x="260" y="170" width="200" height="25" rx="3" fill="none" stroke="#48cae4" stroke-width="1"/>
+  <rect x="260" y="170" width="40" height="25" fill="#48cae4" opacity="0.3"/>
+  <rect x="300" y="170" width="40" height="25" fill="#48cae4" opacity="0.3"/>
+  <rect x="340" y="170" width="40" height="25" fill="#48cae4" opacity="0.3"/>
+  <rect x="380" y="170" width="40" height="25" fill="#48cae4" opacity="0.3"/>
+  <rect x="420" y="170" width="40" height="25" fill="#48cae4" opacity="0.3"/>
+  <text x="360" y="215" fill="#7f8c8d" font-size="11">3 из 5 частей</text>
+  <rect x="260" y="230" width="200" height="25" rx="3" fill="none" stroke="#f9c74f" stroke-width="1"/>
+  <rect x="260" y="230" width="20" height="25" fill="#f9c74f" opacity="0.3"/>
+  <rect x="280" y="230" width="20" height="25" fill="#f9c74f" opacity="0.3"/>
+  <rect x="300" y="230" width="20" height="25" fill="#f9c74f" opacity="0.3"/>
+  <rect x="320" y="230" width="20" height="25" fill="#f9c74f" opacity="0.3"/>
+  <rect x="340" y="230" width="20" height="25" fill="#f9c74f" opacity="0.3"/>
+  <rect x="360" y="230" width="20" height="25" fill="#f9c74f" opacity="0.3"/>
+  <rect x="380" y="230" width="20" height="25" fill="#f9c74f" opacity="0.3"/>
+  <rect x="400" y="230" width="20" height="25" fill="#f9c74f" opacity="0.3"/>
+  <rect x="420" y="230" width="20" height="25" fill="#f9c74f" opacity="0.3"/>
+  <rect x="440" y="230" width="20" height="25" fill="#f9c74f" opacity="0.3"/>
+  <text x="360" y="275" fill="#7f8c8d" font-size="11">6 из 10 = то же самое</text>
+  <text x="250" y="340" fill="#fff" font-size="9" opacity="0.5" text-anchor="middle">Основное свойство дроби</text>
 </svg>

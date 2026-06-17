@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg9" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FCE4EC"/>
+      <stop offset="100%" stop-color="#F8BBD9"/>
+    </linearGradient>
+    <linearGradient id="doorGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8D6E63"/>
+      <stop offset="100%" stop-color="#6D4C41"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bg9)"/>
+  
+  <!-- Sun -->
+  <circle cx="450" cy="50" r="25" fill="#FFD54F">
+    <animate attributeName="r" values="23;27;23" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Title -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#AD1457" text-anchor="middle">🚪 Гостевой этикет</text>
+  <rect x="130" y="42" width="240" height="2" rx="1" fill="#E91E63" opacity="0.6"/>
+  
+  <!-- Ground -->
+  <ellipse cx="250" cy="330" rx="270" ry="35" fill="#F48FB1" opacity="0.3"/>
+  
+  <!-- Door frame -->
+  <g transform="translate(30, 60)">
+    <rect x="0" y="0" width="100" height="150" fill="#5D4037" rx="5"/>
+    <rect x="8" y="8" width="84" height="134" fill="url(#doorGrad)"/>
+    <circle cx="80" cy="75" r="6" fill="#FFD54F"/>
+    <!-- Door knocker -->
+    <circle cx="30" cy="60" r="10" fill="#FFD54F" stroke="#E65100" stroke-width="2">
+      <animate attributeName="r" values="10;12;10" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Wreath on door -->
+    <circle cx="50" cy="35" r="20" fill="#4CAF50" stroke="#2E7D32" stroke-width="3"/>
+    <circle cx="50" cy="35" r="12" fill="none" stroke="#388E3C" stroke-width="5"/>
+    <path d="M45,30 Q50,25 55,30 Q50,35 45,30" fill="#E91E63"/>
+    <!-- Welcome text -->
+    <text x="50" y="180" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#5D4037" text-anchor="middle">ДОБРО ПОЖАЛОВАТЬ!</text>
+  </g>
+  
+  <!-- Guest with flowers -->
+  <g transform="translate(150, 100)">
+    <circle cx="40" cy="20" r="20" fill="#FFCC80"/>
+    <ellipse cx="40" cy="12" rx="16" ry="10" fill="#5D4037"/>
+    <rect x="22" y="40" width="36" height="45" rx="10" fill="#7B1FA2"/>
+    <rect x="25" y="85" width="12" height="25" rx="5" fill="#333"/>
+    <rect x="43" y="85" width="12" height="25" rx="5" fill="#333"/>
+    <circle cx="34" cy="18" r="2" fill="#5D4037"/>
+    <circle cx="46" cy="18" r="2" fill="#5D4037"/>
+    <path d="M32,26 Q40,33 48,26" stroke="#E65100" stroke-width="2" fill="none"/>
+    <!-- Flowers bouquet -->
+    <g transform="translate(55, 25)">
+      <line x1="5" y1="0" x2="5" y2="25" stroke="#4CAF50" stroke-width="2"/>
+      <circle cx="5" cy="-5" r="6" fill="#E91E63">
+        <animate attributeName="r" values="6;7;6" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <line x1="15" y1="5" x2="15" y2="30" stroke="#4CAF50" stroke-width="2"/>
+      <circle cx="15" cy="0" r="5" fill="#FF9800">
+        <animate attributeName="r" values="5;6;5" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <line x1="-5" y1="8" x2="-5" y2="33" stroke="#4CAF50" stroke-width="2"/>
+      <circle cx="-5" cy="3" r="5" fill="#FFEB3B">
+        <animate attributeName="r" values="5;6;5" dur="2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <animateTransform attributeName="transform" type="translate" values="150,100;155,100;150,100" dur="3s" repeatCount="indefinite"/>
+  </g>
+  
+  <!-- Guest etiquette rules -->
+  <g transform="translate(300, 60)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="180" height="160" fill="#FFF" rx="10" stroke="#E91E63"/>
+    <text x="90" y="22" font-size="12" font-weight="bold" fill="#AD1457" text-anchor="middle">🎀 Правила гостя</text>
+    <text x="15" y="45" font-size="10" fill="#C2185B">✓ Звони заранее</text>
+    <text x="15" y="63" font-size="10" fill="#C2185B">✓ Приходи вовремя</text>
+    <text x="15" y="81" font-size="10" fill="#C2185B">✓ Принеси подарок</text>
+    <text x="15" y="99" font-size="10" fill="#C2185B">✓ Сними обувь</text>
+    <text x="15" y="117" font-size="10" fill="#C2185B">✓ Будь вежлив</text>
+    <text x="15" y="135" font-size="10" fill="#C2185B">✓ Благодари за угощение</text>
+    <text x="15" y="153" font-size="10" fill="#C2185B">✓ Прощайся вовремя</text>
+  </g>
+  
+  <!-- Host greeting -->
+  <g transform="translate(250, 240)">
+    <rect x="0" y="0" width="200" height="50" fill="#FFF" rx="8" stroke="#E91E63"/>
+    <text x="100" y="20" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#AD1457" text-anchor="middle">🏠 Хозяин встречает:</text>
+    <text x="100" y="38" font-family="Arial, sans-serif" font-size="10" fill="#C2185B" text-anchor="middle">«Здравствуйте! Проходите, пожалуйста!»</text>
+  </g>
+  
+  <!-- Lesson box -->
+  <g transform="translate(30, 280)">
+    <rect x="0" y="0" width="210" height="55" fill="#FCE4EC" rx="8" stroke="#E91E63"/>
+    <text x="105" y="20" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#AD1457" text-anchor="middle">💡 Хороший гость</text>
+    <text x="105" y="38" font-family="Arial, sans-serif" font-size="10" fill="#C2185B" text-anchor="middle">уважает дом хозяев и</text>
+    <text x="105" y="50" font-family="Arial, sans-serif" font-size="10" fill="#C2185B" text-anchor="middle">соблюдает правила этикета</text>
+  </g>
+  
+  <!-- Decorative elements -->
+  <text x="20" y="300" font-size="16">🌸</text>
+  <text x="480" y="100" font-size="14">🌺</text>
+  <text x="470" y="280" font-size="12">✨</text>
+</svg>

@@ -1,38 +1,65 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
 <defs>
-  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" style="stop-color:#C62828"/>
-    <stop offset="100%" style="stop-color:#EF5350"/>
-  </linearGradient>
-  <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
-    <stop offset="0%" style="stop-color:rgba(255,255,255,0.95)"/>
-    <stop offset="100%" style="stop-color:rgba(255,255,255,0.85)"/>
-  </linearGradient>
-</defs>
-<rect width="500" height="350" fill="url(#bg)"/>
-<line x1="20" y1="30" x2="80" y2="30" stroke="white" stroke-width="3" opacity="0.08" stroke-linecap="round"/>
-<line x1="190" y1="90" x2="250" y2="90" stroke="white" stroke-width="3" opacity="0.08" stroke-linecap="round"/>
-<line x1="360" y1="150" x2="420" y2="150" stroke="white" stroke-width="3" opacity="0.08" stroke-linecap="round"/>
-<line x1="20" y1="210" x2="80" y2="210" stroke="white" stroke-width="3" opacity="0.08" stroke-linecap="round"/>
-<line x1="190" y1="270" x2="250" y2="270" stroke="white" stroke-width="3" opacity="0.08" stroke-linecap="round"/>
-<line x1="360" y1="330" x2="420" y2="330" stroke="white" stroke-width="3" opacity="0.08" stroke-linecap="round"/>
-<rect x="20" y="50" width="460" height="270" rx="16" fill="url(#card)" opacity="0.92"/>
-<rect x="30" y="60" width="auto" height="24" rx="12" fill="#C62828" opacity="0.9"/>
-<rect x="30" y="60" width="172" height="24" rx="12" fill="#C62828" opacity="0.9"/>
-<text x="116" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="white" font-weight="bold">Физическая культура</text>
-<text x="470" y="77" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#C62828" font-weight="bold">Урок 6</text>
-<text x="40" y="105" font-family="Arial,sans-serif" font-size="18" fill="#1a1a1a" font-weight="bold">Метание</text>
-<line x1="40" y1="115" x2="460" y2="115" stroke="#FFCDD2" stroke-width="2"/>
-<text x="40" y="135" font-family="Arial,sans-serif" font-size="13" fill="#444">Осваиваем технику метания.</text>
-<text x="40" y="155" font-family="Arial,sans-serif" font-size="11" fill="#C62828" font-weight="bold">Задания:</text>
-<circle cx="48" cy="177" r="3" fill="#C62828"/>
-<text x="58" y="181" font-family="Arial,sans-serif" font-size="11" fill="#444">Научиться метать мяч</text>
-<circle cx="48" cy="197" r="3" fill="#C62828"/>
-<text x="58" y="201" font-family="Arial,sans-serif" font-size="11" fill="#444">Метать на дальность</text>
-<line x1="40" y1="218" x2="460" y2="218" stroke="#FFCDD2" stroke-width="1"/>
-<text x="40" y="230" font-family="Arial,sans-serif" font-size="11" fill="#C62828" font-weight="bold">Факты:</text>
-<text x="50" y="246" font-family="Arial,sans-serif" font-size="10" fill="#555">💡 Мировой рекорд метания копья — 98,48 м</text>
-<text x="50" y="264" font-family="Arial,sans-serif" font-size="10" fill="#555">💡 Бейсбольный мяч бросают со скоростью 170 км/ч</text>
-<circle cx="460" cy="310" r="25" fill="#C62828" opacity="0.15"/>
-<circle cx="460" cy="310" r="15" fill="#C62828" opacity="0.1"/>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#E0F7FA"/>
+    </linearGradient>
+    <linearGradient id="groundGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#81C784"/>
+      <stop offset="100%" stop-color="#4CAF50"/>
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#42A5F5"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+    <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF9C4"/>
+      <stop offset="60%" stop-color="#FDD835"/>
+      <stop offset="100%" stop-color="#F9A825"/>
+    </radialGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="3" stdDeviation="5" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  <g transform="translate(40,25)" filter="url(#softShadow)">
+    <rect width="420" height="290" rx="12" fill="white" opacity="0.94"/>
+    <rect width="420" height="32" rx="12" fill="#2E7D32" opacity="0.9"/>
+    <rect y="24" width="420" height="8" fill="#2E7D32" opacity="0.9"/>
+    <text x="210" y="22" font-family="Arial" font-size="12" fill="white" text-anchor="middle" font-weight="bold">УПРАЖНЕНИЯ С ПРЕДМЕТАМИ</text>
+    <g transform="translate(20,48)">
+      <rect width="380" height="75" rx="8" fill="#E8F5E9" opacity="0.5" stroke="#2E7D32" stroke-width="1.5"/>
+      <text x="190" y="30" font-family="Arial" font-size="18" fill="#1B5E20" text-anchor="middle" font-weight="bold">Упражнения с предметами</text>
+      <text x="190" y="55" font-family="Arial" font-size="11" fill="#555" text-anchor="middle">Мяч, скакалка, обруч, гимнастическая палка</text>
+    </g>
+    <g transform="translate(20,140)">
+      <rect width="185" height="130" rx="8" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
+      <rect width="185" height="24" rx="8" fill="#2E7D32" opacity="0.85"/>
+      <rect y="18" width="185" height="6" fill="#2E7D32" opacity="0.85"/>
+      <text x="92" y="17" font-family="Arial" font-size="9" fill="white" text-anchor="middle" font-weight="bold">ТЕМА</text>
+      <text x="92" y="55" font-family="Arial" font-size="12" fill="#1B5E20" text-anchor="middle" font-weight="bold">Упражнения с предметами</text>
+      <text x="92" y="80" font-family="Arial" font-size="9" fill="#555" text-anchor="middle">Мяч, скакалка, обруч, гимнастическа</text>
+    </g>
+    <g transform="translate(220,140)">
+      <rect width="180" height="130" rx="8" fill="white" stroke="#66BB6A" stroke-width="1.5"/>
+      <rect width="180" height="24" rx="8" fill="#66BB6A" opacity="0.85"/>
+      <rect y="18" width="180" height="6" fill="#66BB6A" opacity="0.85"/>
+      <text x="90" y="17" font-family="Arial" font-size="9" fill="white" text-anchor="middle" font-weight="bold">УРОК 3</text>
+      <text x="90" y="55" font-family="Arial" font-size="10" fill="#555" text-anchor="middle">Четвёртый класс</text>
+      <text x="90" y="75" font-family="Arial" font-size="10" fill="#555" text-anchor="middle">Начальная школа</text>
+    </g>
+  </g>
+  <rect x="0" y="318" width="500" height="32" rx="0" fill="#2E7D32" opacity="0.9"/>
+  <text x="250" y="339" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Упражнения с предметами</text>
 </svg>

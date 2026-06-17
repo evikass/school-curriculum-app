@@ -1,133 +1,57 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
-    </linearGradient>
-    <radialGradient id="brainGrad" cx="0.45" cy="0.4">
-      <stop offset="0%" stop-color="#CE93D8"/>
-      <stop offset="100%" stop-color="#7B1FA2"/>
-    </radialGradient>
-    <linearGradient id="nerveGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#B39DDB"/>
-      <stop offset="100%" stop-color="#5E35B1"/>
-    </linearGradient>
-    <linearGradient id="eyeGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#90CAF9"/>
-      <stop offset="100%" stop-color="#1E88E5"/>
-    </linearGradient>
-    <linearGradient id="earGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFCC80"/>
-      <stop offset="100%" stop-color="#FF8F00"/>
-    </linearGradient>
-    <radialGradient id="pupilGrad" cx="0.45" cy="0.4">
-      <stop offset="0%" stop-color="#1A237E"/>
-      <stop offset="100%" stop-color="#000000"/>
-    </radialGradient>
-  </defs>
-  <!-- Background -->
-  <rect width="500" height="350" rx="12" fill="url(#bg)"/>
-  <rect x="2" y="2" width="496" height="346" rx="11" fill="none" stroke="#B39DDB" stroke-width="1.5"/>
-  <!-- Title -->
-  <text x="250" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#4A148C">Нервная система и органы чувств</text>
-  <!-- Brain - top center -->
-  <ellipse cx="250" cy="90" rx="60" ry="42" fill="url(#brainGrad)" stroke="#4A148C" stroke-width="1.5"/>
-  <!-- Brain hemispheres line -->
-  <line x1="250" y1="50" x2="250" y2="128" stroke="#4A148C" stroke-width="1" opacity="0.4"/>
-  <!-- Brain folds (gyri) -->
-  <path d="M200,75 Q215,65 230,78 Q245,88 260,75 Q275,65 290,78" fill="none" stroke="#6A1B9A" stroke-width="1.5" opacity="0.5"/>
-  <path d="M205,95 Q220,85 235,98 Q250,108 265,95 Q280,85 295,98" fill="none" stroke="#6A1B9A" stroke-width="1.5" opacity="0.5"/>
-  <path d="M210,112 Q225,105 240,115 Q255,122 270,112" fill="none" stroke="#6A1B9A" stroke-width="1.2" opacity="0.4"/>
-  <!-- Cerebellum -->
-  <ellipse cx="250" cy="132" rx="28" ry="12" fill="#AB47BC" stroke="#4A148C" stroke-width="1" opacity="0.7"/>
-  <path d="M228,132 Q235,126 242,132 Q249,126 256,132 Q263,126 272,132" fill="none" stroke="#4A148C" stroke-width="0.8" opacity="0.5"/>
-  <!-- Spinal cord -->
-  <path d="M250,144 L250,280" fill="none" stroke="url(#nerveGrad)" stroke-width="6" stroke-linecap="round"/>
-  <!-- Spinal cord segments -->
-  <line x1="246" y1="165" x2="254" y2="165" stroke="#4527A0" stroke-width="0.8" opacity="0.4"/>
-  <line x1="246" y1="180" x2="254" y2="180" stroke="#4527A0" stroke-width="0.8" opacity="0.4"/>
-  <line x1="246" y1="195" x2="254" y2="195" stroke="#4527A0" stroke-width="0.8" opacity="0.4"/>
-  <line x1="246" y1="210" x2="254" y2="210" stroke="#4527A0" stroke-width="0.8" opacity="0.4"/>
-  <line x1="246" y1="225" x2="254" y2="225" stroke="#4527A0" stroke-width="0.8" opacity="0.4"/>
-  <line x1="246" y1="240" x2="254" y2="240" stroke="#4527A0" stroke-width="0.8" opacity="0.4"/>
-  <line x1="246" y1="255" x2="254" y2="255" stroke="#4527A0" stroke-width="0.8" opacity="0.4"/>
-  <!-- Nerves branching from spinal cord -->
-  <path d="M250,165 Q225,170 200,180" fill="none" stroke="#9575CD" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M250,165 Q275,170 300,180" fill="none" stroke="#9575CD" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M250,195 Q220,200 190,215" fill="none" stroke="#9575CD" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M250,195 Q280,200 310,215" fill="none" stroke="#9575CD" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M250,225 Q222,232 195,250" fill="none" stroke="#9575CD" stroke-width="2" stroke-linecap="round"/>
-  <path d="M250,225 Q278,232 305,250" fill="none" stroke="#9575CD" stroke-width="2" stroke-linecap="round"/>
-  <!-- Nerve ending dots -->
-  <circle cx="195" cy="250" r="3" fill="#7E57C2" opacity="0.6"/>
-  <circle cx="305" cy="250" r="3" fill="#7E57C2" opacity="0.6"/>
-  <circle cx="190" cy="215" r="3" fill="#7E57C2" opacity="0.6"/>
-  <circle cx="310" cy="215" r="3" fill="#7E57C2" opacity="0.6"/>
-  <circle cx="200" cy="180" r="3" fill="#7E57C2" opacity="0.6"/>
-  <circle cx="300" cy="180" r="3" fill="#7E57C2" opacity="0.6"/>
-  <!-- EYE - left side -->
-  <g transform="translate(80, 200)">
-    <!-- Eye shape -->
-    <ellipse cx="0" cy="0" rx="30" ry="20" fill="white" stroke="#1565C0" stroke-width="1.5"/>
-    <!-- Iris -->
-    <circle cx="0" cy="0" r="14" fill="url(#eyeGrad)" stroke="#0D47A1" stroke-width="1"/>
-    <!-- Pupil -->
-    <circle cx="0" cy="0" r="7" fill="url(#pupilGrad)"/>
-    <!-- Highlight -->
-    <circle cx="-4" cy="-4" r="3" fill="white" opacity="0.7"/>
-    <!-- Eyelid top -->
-    <path d="M-30,0 Q-15,-18 0,-20 Q15,-18 30,0" fill="none" stroke="#5D4037" stroke-width="2"/>
-    <!-- Eyelashes -->
-    <line x1="-20" y1="-14" x2="-23" y2="-22" stroke="#5D4037" stroke-width="1.2"/>
-    <line x1="-10" y1="-18" x2="-12" y2="-26" stroke="#5D4037" stroke-width="1.2"/>
-    <line x1="0" y1="-20" x2="0" y2="-28" stroke="#5D4037" stroke-width="1.2"/>
-    <line x1="10" y1="-18" x2="12" y2="-26" stroke="#5D4037" stroke-width="1.2"/>
-    <line x1="20" y1="-14" x2="23" y2="-22" stroke="#5D4037" stroke-width="1.2"/>
-    <!-- Optic nerve -->
-    <path d="M30,0 Q50,5 65,15 Q75,22 85,18" fill="none" stroke="#7E57C2" stroke-width="2" stroke-linecap="round"/>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+  <text x="250" y="30" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#2E7D32" text-anchor="middle">Водоросли - древнейшие растения</text>
+  <text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 6 класс - Урок 12</text>
+  <line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+  
+  <!-- Three algae types -->
+  <g transform="translate(85,140)">
+    <rect x="-50" y="-45" width="100" height="100" fill="#E0F7FA" stroke="#80DEEA" stroke-width="1" rx="5" opacity="0.5"/>
+    <!-- Chlamydomonas -->
+    <circle cx="0" cy="0" r="18" fill="#81C784" stroke="#4CAF50" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="6" fill="#C8E6C9" opacity="0.5"/>
+    <!-- Cup-shaped chloroplast -->
+    <path d="M-10 5 Q-12 -8 0 -10 Q12 -8 10 5 Q5 8 0 8 Q-5 8 -10 5 Z" fill="#388E3C" opacity="0.4"/>
+    <!-- Flagella -->
+    <path d="M5 -15 Q8 -25 5 -35" stroke="#4CAF50" stroke-width="1.5" fill="none"/>
+    <path d="M-5 -15 Q-8 -25 -5 -35" stroke="#4CAF50" stroke-width="1.5" fill="none"/>
+    <!-- Eye spot -->
+    <circle cx="-5" cy="-8" r="2.5" fill="#E53935"/>
+    <text x="0" y="30" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Хламидомонада</text>
+    <text x="0" y="42" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">(одноклеточная)</text>
   </g>
-  <!-- EAR - right side -->
-  <g transform="translate(420, 210)">
-    <!-- Outer ear shape -->
-    <path d="M0,-25 Q20,-25 25,-10 Q30,8 20,22 Q12,30 5,28 Q-2,25 2,18 Q8,10 5,0 Q2,-10 -5,-12" fill="url(#earGrad)" stroke="#E65100" stroke-width="1.5"/>
-    <!-- Inner ear fold -->
-    <path d="M5,-15 Q15,-14 17,-5 Q18,5 12,14 Q8,18 4,15" fill="none" stroke="#BF360C" stroke-width="1.2"/>
-    <!-- Ear canal -->
-    <circle cx="5" cy="2" r="5" fill="#FFE0B2" stroke="#E65100" stroke-width="1"/>
-    <!-- Ear canal inner -->
-    <circle cx="5" cy="2" r="2.5" fill="#FF8F00" opacity="0.5"/>
-    <!-- Sound waves -->
-    <path d="M30,-5 Q38,0 30,5" fill="none" stroke="#FF8F00" stroke-width="1.5" opacity="0.6"/>
-    <path d="M36,-10 Q48,0 36,10" fill="none" stroke="#FF8F00" stroke-width="1.2" opacity="0.4"/>
-    <path d="M42,-15 Q58,0 42,15" fill="none" stroke="#FF8F00" stroke-width="1" opacity="0.25"/>
-    <!-- Auditory nerve -->
-    <path d="M0,2 Q-15,8 -30,15 Q-40,20 -50,12" fill="none" stroke="#7E57C2" stroke-width="2" stroke-linecap="round"/>
+  <g transform="translate(250,135)">
+    <rect x="-55" y="-45" width="110" height="105" fill="#FFF3E0" stroke="#FFE0B2" stroke-width="1" rx="5" opacity="0.5"/>
+    <!-- Kelp/Laminaria -->
+    <path d="M0 40 L0 -10" stroke="#795548" stroke-width="4"/>
+    <path d="M-5 -10 Q-25 -20 -30 -5 Q-25 5 -5 0" fill="#A1887F" stroke="#795548" stroke-width="1"/>
+    <path d="M5 -10 Q25 -20 30 -5 Q25 5 5 0" fill="#A1887F" stroke="#795548" stroke-width="1"/>
+    <path d="M-3 -10 Q-15 -30 -10 -38 Q0 -30 3 -10" fill="#BCAAA4" stroke="#795548" stroke-width="0.8"/>
+    <path d="M3 -10 Q15 -30 10 -38 Q0 -30 -3 -10" fill="#BCAAA4" stroke="#795548" stroke-width="0.8"/>
+    <circle cx="-15" cy="-15" r="3.5" fill="#D7CCC8" stroke="#8D6E63" stroke-width="0.8"/>
+    <text x="0" y="55" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Ламинария</text>
+    <text x="0" y="67" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">(многоклеточная бурая)</text>
   </g>
-  <!-- Labels -->
-  <line x1="250" y1="90" x2="370" y2="55" stroke="#4A148C" stroke-width="1" stroke-dasharray="3,2"/>
-  <text x="375" y="59" font-family="Arial,sans-serif" font-size="12" fill="#4A148C" font-weight="bold">Мозг</text>
-  <line x1="250" y1="210" x2="290" y2="295" stroke="#5E35B1" stroke-width="1" stroke-dasharray="3,2"/>
-  <text x="250" y="308" font-family="Arial,sans-serif" font-size="11" fill="#5E35B1" font-weight="bold" text-anchor="middle">Спинной мозг</text>
-  <line x1="80" y1="175" x2="80" y2="145" stroke="#1565C0" stroke-width="1" stroke-dasharray="3,2"/>
-  <text x="55" y="140" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" font-weight="bold">Глаз</text>
-  <line x1="300" y1="180" x2="300" y2="155" stroke="#7E57C2" stroke-width="1" stroke-dasharray="3,2"/>
-  <text x="280" y="150" font-family="Arial,sans-serif" font-size="10" fill="#7E57C2" font-weight="bold">Нервы</text>
-  <text x="420" y="180" font-family="Arial,sans-serif" font-size="11" fill="#E65100" font-weight="bold" text-anchor="middle">Ухо</text>
-  <line x1="250" y1="132" x2="145" y2="115" stroke="#4A148C" stroke-width="1" stroke-dasharray="3,2"/>
-  <text x="85" y="118" font-family="Arial,sans-serif" font-size="10" fill="#4A148C" font-weight="bold">Мозжечок</text>
-  <!-- Decorative lightning bolts (neural signals) -->
-  <path d="M155,160 L162,170 L157,170 L164,182" fill="none" stroke="#FFD54F" stroke-width="1.5" stroke-linecap="round"/>
-  <path d="M340,160 L347,170 L342,170 L349,182" fill="none" stroke="#FFD54F" stroke-width="1.5" stroke-linecap="round"/>
-  <!-- Decorative circles -->
-  <circle cx="50" cy="50" r="18" fill="#E1BEE7" opacity="0.3"/>
-  <circle cx="450" cy="50" r="15" fill="#E1BEE7" opacity="0.25"/>
-  <circle cx="35" cy="300" r="14" fill="#D1C4E9" opacity="0.3"/>
-  <circle cx="465" cy="300" r="16" fill="#FFE0B2" opacity="0.25"/>
-  <!-- Synapse decoration -->
-  <circle cx="160" cy="268" r="5" fill="#CE93D8" stroke="#7B1FA2" stroke-width="0.8" opacity="0.6"/>
-  <circle cx="175" cy="275" r="5" fill="#CE93D8" stroke="#7B1FA2" stroke-width="0.8" opacity="0.6"/>
-  <path d="M165,268 Q170,272 175,275" fill="none" stroke="#7B1FA2" stroke-width="0.8" opacity="0.5" stroke-dasharray="2,2"/>
-  <!-- Bottom info -->
-  <rect x="85" y="332" width="330" height="14" rx="7" fill="#D1C4E9" opacity="0.4"/>
-  <text x="250" y="343" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4A148C">Мозг • Нервы • Глаз • Ухо • Рецепторы</text>
+  <g transform="translate(415,140)">
+    <rect x="-45" y="-45" width="90" height="100" fill="#FCE4EC" stroke="#F8BBD0" stroke-width="1" rx="5" opacity="0.5"/>
+    <!-- Red algae - branching -->
+    <path d="M0 40 L0 10 L-15 -10 L-22 -20" stroke="#E91E63" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M0 10 L15 -10 L22 -20" stroke="#E91E63" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M0 25 L-18 10 L-25 0" stroke="#EC407A" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M0 25 L18 10 L25 0" stroke="#EC407A" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M-15 -10 L-22 -15" stroke="#F06292" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M15 -10 L22 -15" stroke="#F06292" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <text x="0" y="55" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Порфира</text>
+    <text x="0" y="67" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">(красная водоросль)</text>
+  </g>
+  <!-- Info -->
+  <rect x="40" y="260" width="420" height="45" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
+  <text x="250" y="277" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle" font-weight="bold">Особенности водорослей</text>
+  <text x="250" y="292" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Нет корней, стеблей, листьев - тело: слоевище (таллом)</text>
+  <text x="250" y="304" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Обитают в воде, выделяют 50-80% кислорода на планете</text>
+
+  <rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+  <text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 6 класс</text>
 </svg>

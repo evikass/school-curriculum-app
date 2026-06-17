@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#E3F2FD"/><stop offset="100%" stop-color="#FFF"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#1565C0"/><stop offset="100%" stop-color="#1976D2"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+  <text x="250" y="28" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1565C0" text-anchor="middle">Идеальный газ. Основное уравнение МКТ</text>
+  <text x="250" y="44" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Физика 10 класс — Урок 34</text>
+  <line x1="30" y1="52" x2="470" y2="52" stroke="#1565C0" stroke-width="1.5" opacity="0.25"/>
+  <clipPath id="ill"><rect x="15" y="56" width="470" height="238" rx="6"/></clipPath>
+  <g clip-path="url(#ill)"><rect x="15" y="56" width="470" height="238" fill="#E3F2FD" opacity="0.4"/>
+
+    <!-- Gas molecules in container -->
+    <rect x="25" y="62" width="225" height="140" rx="5" fill="white" stroke="#1565C0" stroke-width="1.2"/>
+    <text x="137" y="78" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" font-weight="bold" text-anchor="middle">Модель идеального газа</text>
+
+    <!-- Container -->
+    <rect x="45" y="88" width="180" height="90" rx="3" fill="none" stroke="#555" stroke-width="2"/>
+
+    <!-- Molecules bouncing -->
+    <circle cx="80" cy="115" r="4" fill="#E53935" opacity="0.8"/>
+    <line x1="84" y1="113" x2="98.21114561800017" y2="105.89442719099992" stroke="#E53935" stroke-width="1"/>
+<polygon points="100,105 97.13783298880027,108.2199378875997 95.7067494832004,105.35777087639995" fill="#E53935"/>
+    <circle cx="140" cy="100" r="4" fill="#2E7D32" opacity="0.8"/>
+    <line x1="140" y1="96" x2="153.23529411764707" y2="88.94117647058823" stroke="#2E7D32" stroke-width="1"/>
+<polygon points="155,88 152.2235294117647,91.29411764705881 150.71764705882353,88.47058823529412" fill="#2E7D32"/>
+    <circle cx="180" cy="140" r="4" fill="#F57C00" opacity="0.8"/>
+    <line x1="176" y1="138" x2="161.78885438199984" y2="130.89442719099992" stroke="#F57C00" stroke-width="1"/>
+<polygon points="160,130 164.2932505167996,130.35777087639997 162.86216701119972,133.2199378875997" fill="#F57C00"/>
+    <circle cx="100" cy="150" r="4" fill="#7B1FA2" opacity="0.8"/>
+    <line x1="104" y1="148" x2="118.03425562613135" y2="145.36857707010037" stroke="#7B1FA2" stroke-width="1"/>
+<polygon points="120,145 116.36337290834301,147.30974963929566 115.77364959618241,144.16455864110583" fill="#7B1FA2"/>
+    <circle cx="160" cy="120" r="4" fill="#1565C0" opacity="0.8"/>
+    <line x1="156" y1="118" x2="141.96574437386863" y2="115.36857707010037" stroke="#1565C0" stroke-width="1"/>
+<polygon points="140,115 144.22635040381758,114.16455864110583 143.636627091657,117.30974963929566" fill="#1565C0"/>
+    <circle cx="70" cy="140" r="3" fill="#E53935" opacity="0.5"/>
+    <circle cx="200" cy="105" r="3" fill="#2E7D32" opacity="0.5"/>
+    <circle cx="120" cy="165" r="3" fill="#F57C00" opacity="0.5"/>
+
+    <!-- Wall collision -->
+    <circle cx="210" cy="130" r="4" fill="#E53935" opacity="0.8"/>
+    <line x1="206" y1="130" x2="197.5" y2="130.0" stroke="#E53935" stroke-width="1.5"/>
+<polygon points="195,130 200.0,128.0 200.0,132.0" fill="#E53935"/>
+    <!-- Force on wall -->
+    <line x1="222" y1="130" x2="235.5" y2="130.0" stroke="#E53935" stroke-width="1.5"/>
+<polygon points="238,130 233.0,132.0 233.0,128.0" fill="#E53935"/>
+    <text x="240" y="128" font-family="Arial,sans-serif" font-size="7" fill="#E53935">F</text>
+
+    <text x="137" y="192" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Молекулы — материальные точки, не взаимодействуют</text>
+    <text x="137" y="202" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Упругие столкновения со стенками</text>
+
+    <!-- Main formula -->
+    <rect x="260" y="62" width="215" height="70" rx="5" fill="white" stroke="#E53935" stroke-width="1.5"/>
+    <text x="367" y="78" font-family="Arial,sans-serif" font-size="9" fill="#E53935" font-weight="bold" text-anchor="middle">Основное уравнение МКТ</text>
+    <line x1="270" y1="83" x2="465" y2="83" stroke="#E53935" stroke-width="0.5" opacity="0.3"/>
+    <text x="367" y="102" font-family="Arial,sans-serif" font-size="13" fill="#333" text-anchor="middle" font-weight="bold">p = (1/3)*n*m0*v*v</text>
+    <text x="367" y="118" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">p = (2/3)*n*E(k) — через энергию</text>
+    <text x="367" y="128" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">v*v — средний квадрат скорости</text>
+
+    <!-- Variables -->
+    <rect x="260" y="140" width="215" height="62" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.2"/>
+    <text x="367" y="156" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" font-weight="bold" text-anchor="middle">Величины</text>
+    <line x1="270" y1="161" x2="465" y2="161" stroke="#2E7D32" stroke-width="0.5" opacity="0.3"/>
+    <text x="280" y="174" font-family="Arial,sans-serif" font-size="7" fill="#333">p — давление (Па)</text>
+    <text x="280" y="186" font-family="Arial,sans-serif" font-size="7" fill="#333">n — концентрация (1/м3)</text>
+    <text x="390" y="174" font-family="Arial,sans-serif" font-size="7" fill="#333">m0 — масса молекулы</text>
+    <text x="390" y="186" font-family="Arial,sans-serif" font-size="7" fill="#333">v — скорость (м/с)</text>
+
+    <!-- Connection to temperature -->
+    <rect x="25" y="215" width="450" height="55" rx="5" fill="white" stroke="#7B1FA2" stroke-width="1.2"/>
+    <text x="250" y="231" font-family="Arial,sans-serif" font-size="9" fill="#7B1FA2" font-weight="bold" text-anchor="middle">Связь с температурой</text>
+    <text x="250" y="248" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle">E(k) = (3/2)*k*T | k = 1.38*10^(-23) Дж/К — постоянная Больцмана</text>
+    <text x="250" y="263" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">p = n*k*T — связывающее уравнение (давление через температуру)</text>
+    </g><rect x="12" y="298" width="476" height="42" rx="5" fill="url(#panel)"/>
+  <text x="250" y="316" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Молекулярная физика</text>
+  <text x="250" y="332" font-family="Arial,sans-serif" font-size="10" text-anchor="middle" fill="white" opacity="0.8">Урок 34</text></svg>

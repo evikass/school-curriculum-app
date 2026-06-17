@@ -1,85 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#E0F2F1;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1"/>
-    </linearGradient>
-    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#26A69A;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#00796B;stop-opacity:1"/>
+    <linearGradient id="oceanG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B3E5FC"/>
+      <stop offset="100%" stop-color="#4FC3F7"/>
     </linearGradient>
   </defs>
-  <!-- Background -->
-  <rect x="0" y="0" width="500" height="350" rx="12" fill="url(#bg)" stroke="#26A69A" stroke-width="2"/>
-  <!-- Header bar -->
-  <rect x="0" y="0" width="500" height="50" rx="12" fill="url(#headerGrad)"/>
-  <rect x="0" y="25" width="500" height="25" fill="url(#headerGrad)"/>
-  <!-- Lesson number badge -->
-  <circle cx="28" cy="25" r="18" fill="#FFFFFF" opacity="0.3"/>
-  <text x="28" y="31" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
-  <!-- Title -->
-  <text x="250" y="32" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Государственное устройство РФ</text>
-  <!-- Decorative line -->
-  <line x1="15" y1="56" x2="485" y2="56" stroke="#80CBC4" stroke-width="1" stroke-dasharray="4,2"/>
-  <!-- Section: Definition -->
-  <rect x="15" y="62" width="470" height="40" rx="6" fill="#FFFFFF" stroke="#26A69A" stroke-width="1"/>
-  <text x="25" y="78" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A">ОПРЕДЕЛЕНИЕ:</text>
-  <text x="25" y="93" font-family="Arial,sans-serif" font-size="10" fill="#333333">Россия — федеративное государство (смешанная республика), 89 субъектов федерации</text>
-  <!-- Stylized Russia map outline -->
-  <g transform="translate(20, 110)">
-    <rect x="0" y="0" width="200" height="100" rx="8" fill="#E0F2F1" stroke="#26A69A" stroke-width="1"/>
-    <text x="100" y="18" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#26A69A" text-anchor="middle">КАРТА-СХЕМА РФ</text>
-    <!-- Simplified Russia shape -->
-    <path d="M30,75 L50,35 L70,30 L90,25 L110,28 L130,35 L150,30 L170,40 L185,55 L175,70 L155,75 L135,70 L115,72 L95,68 L75,72 L55,78 L35,80 Z" fill="#26A69A" opacity="0.3" stroke="#26A69A" stroke-width="1"/>
-    <!-- Mark Moscow -->
-    <circle cx="95" cy="55" r="4" fill="#00796B"/>
-    <text x="95" y="53" font-family="Arial,sans-serif" font-size="7" fill="#00796B" text-anchor="middle">М</text>
-    <!-- Federal districts markers -->
-    <circle cx="85" cy="50" r="2" fill="#E53935"/>
-    <circle cx="130" cy="45" r="2" fill="#E53935"/>
-    <circle cx="155" cy="55" r="2" fill="#E53935"/>
-    <text x="100" y="92" font-family="Arial,sans-serif" font-size="7" fill="#666666" text-anchor="middle">● — центры федеральных округов</text>
+  <rect width="500" height="350" fill="url(#oceanG)"/>
+  <!-- Simplified world map continents -->
+  <!-- North America -->
+  <path d="M60,60 Q80,45 110,50 Q130,55 135,70 Q140,85 130,100 Q120,115 105,120 Q90,125 75,115 Q60,105 55,85 Q50,70 60,60" fill="#81C784" stroke="#2E7D32" stroke-width="1"/>
+  <!-- South America -->
+  <path d="M110,155 Q120,145 130,150 Q140,160 138,180 Q135,200 125,220 Q115,235 105,230 Q95,225 90,205 Q88,185 95,170 Q100,158 110,155" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1"/>
+  <!-- Europe -->
+  <path d="M210,55 Q225,45 240,50 Q250,55 248,70 Q245,80 235,85 Q225,88 215,80 Q205,72 210,55" fill="#CE93D8" stroke="#7B1FA2" stroke-width="1"/>
+  <!-- Africa -->
+  <path d="M215,100 Q235,90 250,95 Q265,100 270,120 Q275,145 268,175 Q260,200 245,210 Q230,215 220,200 Q210,180 208,150 Q205,120 215,100" fill="#FFE082" stroke="#F9A825" stroke-width="1"/>
+  <!-- Asia -->
+  <path d="M250,40 Q280,30 320,35 Q360,40 380,55 Q395,70 390,90 Q385,105 365,110 Q345,115 320,108 Q295,102 275,90 Q255,78 250,60 Q248,48 250,40" fill="#FFAB91" stroke="#E64A19" stroke-width="1"/>
+  <!-- India -->
+  <path d="M310,110 Q320,105 330,110 Q335,125 328,140 Q320,148 312,140 Q305,130 310,110" fill="#FFAB91" stroke="#E64A19" stroke-width="1"/>
+  <!-- Australia -->
+  <path d="M370,185 Q390,178 405,185 Q415,195 410,210 Q400,220 385,218 Q370,215 365,205 Q360,195 370,185" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+  <!-- Russia/central Asia extension -->
+  <path d="M255,40 Q280,35 310,32 Q340,30 370,38 Q390,42 400,48" fill="none" stroke="#E64A19" stroke-width="1" stroke-dasharray="3,2"/>
+  <!-- Flag markers -->
+  <!-- Russia flag -->
+  <g transform="translate(300,35)">
+    <line x1="0" y1="0" x2="0" y2="-15" stroke="#333" stroke-width="1"/>
+    <rect x="-6" y="-15" width="12" height="3" fill="white"/>
+    <rect x="-6" y="-12" width="12" height="3" fill="#1565C0"/>
+    <rect x="-6" y="-9" width="12" height="3" fill="#C62828"/>
   </g>
-  <!-- Types of subjects -->
-  <g transform="translate(235, 110)">
-    <rect x="0" y="0" width="250" height="100" rx="8" fill="#FFFFFF" stroke="#26A69A" stroke-width="1"/>
-    <text x="125" y="18" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A" text-anchor="middle">ТИПЫ СУБЪЕКТОВ РФ</text>
-    <rect x="10" y="25" width="12" height="10" rx="2" fill="#26A69A"/>
-    <text x="28" y="34" font-family="Arial,sans-serif" font-size="9" fill="#333333">Республики — 24</text>
-    <rect x="10" y="40" width="12" height="10" rx="2" fill="#80CBC4"/>
-    <text x="28" y="49" font-family="Arial,sans-serif" font-size="9" fill="#333333">Края — 9</text>
-    <rect x="10" y="55" width="12" height="10" rx="2" fill="#FF8A65"/>
-    <text x="28" y="64" font-family="Arial,sans-serif" font-size="9" fill="#333333">Области — 48</text>
-    <rect x="130" y="25" width="12" height="10" rx="2" fill="#7E57C2"/>
-    <text x="148" y="34" font-family="Arial,sans-serif" font-size="9" fill="#333333">Города фед. знач. — 3</text>
-    <rect x="130" y="40" width="12" height="10" rx="2" fill="#FFB74D"/>
-    <text x="148" y="49" font-family="Arial,sans-serif" font-size="9" fill="#333333">Авт. область — 1</text>
-    <rect x="130" y="55" width="12" height="10" rx="2" fill="#A1887F"/>
-    <text x="148" y="64" font-family="Arial,sans-serif" font-size="9" fill="#333333">Авт. округа — 4</text>
-    <!-- Bar chart -->
-    <rect x="20" y="78" width="96" height="8" rx="2" fill="#26A69A" opacity="0.7"/>
-    <rect x="20" y="78" width="72" height="8" rx="2" fill="#80CBC4"/>
-    <text x="20" y="93" font-family="Arial,sans-serif" font-size="7" fill="#666666">Состав Конституции РФ, ст. 65</text>
+  <!-- USA flag -->
+  <g transform="translate(95,65)">
+    <line x1="0" y1="0" x2="0" y2="-15" stroke="#333" stroke-width="1"/>
+    <rect x="-7" y="-15" width="14" height="9" fill="#C62828"/>
+    <rect x="-7" y="-10" width="14" height="2" fill="white"/>
+    <rect x="-7" y="-6" width="14" height="2" fill="#1565C0"/>
+    <rect x="-7" y="-15" width="6" height="5" fill="#1565C0"/>
   </g>
-  <!-- Key facts -->
-  <rect x="15" y="220" width="470" height="55" rx="6" fill="#FFFFFF" stroke="#26A69A" stroke-width="1"/>
-  <text x="25" y="237" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A">КЛЮЧЕВЫЕ ФАКТЫ:</text>
-  <text x="25" y="252" font-family="Arial,sans-serif" font-size="9" fill="#333333">• Столица — Москва  • Глава государства — Президент  • Парламент — Федеральное Собрание</text>
-  <text x="25" y="267" font-family="Arial,sans-serif" font-size="9" fill="#333333">• Конституция принята 12 декабря 1993 г.  • Государственный язык — русский</text>
-  <!-- Structure diagram -->
-  <rect x="15" y="282" width="470" height="58" rx="6" fill="#E0F2F1" stroke="#26A69A" stroke-width="1"/>
-  <text x="250" y="298" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A" text-anchor="middle">СТРУКТУРА ВЛАСТИ</text>
-  <!-- President -->
-  <rect x="195" y="303" width="110" height="18" rx="4" fill="#26A69A" opacity="0.9"/>
-  <text x="250" y="316" font-family="Arial,sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle">Президент</text>
-  <!-- Branches -->
-  <line x1="220" y1="321" x2="120" y2="328" stroke="#26A69A" stroke-width="1"/>
-  <line x1="250" y1="321" x2="250" y2="328" stroke="#26A69A" stroke-width="1"/>
-  <line x1="280" y1="321" x2="380" y2="328" stroke="#26A69A" stroke-width="1"/>
-  <rect x="70" y="326" width="100" height="12" rx="3" fill="#80CBC4"/>
-  <text x="120" y="335" font-family="Arial,sans-serif" font-size="7" fill="#333333" text-anchor="middle">Законодательная</text>
-  <rect x="195" y="326" width="110" height="12" rx="3" fill="#80CBC4"/>
-  <text x="250" y="335" font-family="Arial,sans-serif" font-size="7" fill="#333333" text-anchor="middle">Исполнительная</text>
-  <rect x="330" y="326" width="100" height="12" rx="3" fill="#80CBC4"/>
-  <text x="380" y="335" font-family="Arial,sans-serif" font-size="7" fill="#333333" text-anchor="middle">Судебная</text>
+  <!-- China flag -->
+  <g transform="translate(355,55)">
+    <line x1="0" y1="0" x2="0" y2="-15" stroke="#333" stroke-width="1"/>
+    <rect x="-7" y="-15" width="14" height="9" fill="#C62828"/>
+    <circle cx="-2" cy="-12" r="2" fill="#FFEB3B"/>
+    <circle cx="3" cy="-11" r="1" fill="#FFEB3B"/>
+  </g>
+  <!-- Brazil flag -->
+  <g transform="translate(115,185)">
+    <line x1="0" y1="0" x2="0" y2="-15" stroke="#333" stroke-width="1"/>
+    <rect x="-7" y="-15" width="14" height="9" fill="#4CAF50"/>
+    <polygon points="-5,-10 0,-14 5,-10" fill="#FFEB3B"/>
+    <circle cx="0" cy="-11" r="2" fill="#1565C0"/>
+  </g>
+  <!-- Legend box -->
+  <rect x="15" y="240" width="210" height="85" rx="5" fill="white" opacity="0.85"/>
+  <text x="120" y="258" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#333" font-weight="bold">Классификация стран</text>
+  <line x1="25" y1="264" x2="215" y2="264" stroke="#BDBDBD" stroke-width="0.5"/>
+  <rect x="25" y="270" width="8" height="8" rx="1" fill="#4CAF50"/>
+  <text x="38" y="278" font-family="Arial,sans-serif" font-size="7" fill="#333">Развитые: США, Япония, Германия</text>
+  <rect x="25" y="283" width="8" height="8" rx="1" fill="#FF9800"/>
+  <text x="38" y="291" font-family="Arial,sans-serif" font-size="7" fill="#333">Развивающиеся: Индия, Бразилия</text>
+  <rect x="25" y="296" width="8" height="8" rx="1" fill="#F44336"/>
+  <text x="38" y="304" font-family="Arial,sans-serif" font-size="7" fill="#333">Наименее развитые: Афганистан</text>
+  <rect x="25" y="309" width="8" height="8" rx="1" fill="#9C27B0"/>
+  <text x="38" y="317" font-family="Arial,sans-serif" font-size="7" fill="#333">200+ стран, 193 члена ООН</text>
+  <!-- Forms of government -->
+  <rect x="275" y="240" width="210" height="85" rx="5" fill="white" opacity="0.85"/>
+  <text x="380" y="258" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#333" font-weight="bold">Формы правления</text>
+  <line x1="285" y1="264" x2="475" y2="264" stroke="#BDBDBD" stroke-width="0.5"/>
+  <!-- Crown for monarchy -->
+  <text x="295" y="280" font-family="Arial,sans-serif" font-size="10">👑</text>
+  <text x="310" y="280" font-family="Arial,sans-serif" font-size="7" fill="#333">Монархия (Великобритания)</text>
+  <!-- Star for republic -->
+  <text x="295" y="296" font-family="Arial,sans-serif" font-size="10">⭐</text>
+  <text x="310" y="296" font-family="Arial,sans-serif" font-size="7" fill="#333">Республика (США, Франция)</text>
+  <!-- Federal symbol -->
+  <circle cx="300" cy="312" r="4" fill="none" stroke="#1565C0" stroke-width="1"/>
+  <circle cx="296" cy="308" r="2.5" fill="#64B5F6"/>
+  <circle cx="304" cy="308" r="2.5" fill="#64B5F6"/>
+  <circle cx="300" cy="316" r="2.5" fill="#64B5F6"/>
+  <text x="310" y="316" font-family="Arial,sans-serif" font-size="7" fill="#333">Федерация (Россия, США)</text>
+  <text x="250" y="345" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#666" opacity="0.5">Политическая карта мира</text>
 </svg>

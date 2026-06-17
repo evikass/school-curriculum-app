@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#eff6ff"/>
+  <text x="250" y="30" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#1d4ed8">Подвижные игры 🎮</text>
+  <rect x="30" y="50" width="140" height="130" fill="#fef3c7" rx="15"/>
+  <text x="100" y="90" text-anchor="middle" font-family="Arial" font-size="40">🙈</text>
+  <text x="100" y="120" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#b45309">Прятки</text>
+  <text x="100" y="145" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Прячься!</text>
+  <text x="100" y="165" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Ищи!</text>
+  <rect x="180" y="50" width="140" height="130" fill="#dcfce7" rx="15"/>
+  <text x="250" y="90" text-anchor="middle" font-family="Arial" font-size="40">🏃‍♂️</text>
+  <text x="250" y="120" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#15803d">Догонялки</text>
+  <text x="250" y="145" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Беги!</text>
+  <text x="250" y="165" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Догоняй!</text>
+  <rect x="330" y="50" width="140" height="130" fill="#fce7f3" rx="15"/>
+  <text x="400" y="90" text-anchor="middle" font-family="Arial" font-size="40">🎯</text>
+  <text x="400" y="120" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#be185d">Эстафета</text>
+  <text x="400" y="145" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Команды</text>
+  <text x="400" y="165" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Передача</text>
+  <rect x="20" y="200" width="460" height="130" fill="#fef2f2" rx="10"/>
+  <text x="250" y="225" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#dc2626">Игры с мячом ⚽</text>
+  <text x="80" y="260" text-anchor="middle" font-family="Arial" font-size="30">⚽</text>
+  <text x="80" y="295" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Футбол</text>
+  <text x="170" y="260" text-anchor="middle" font-family="Arial" font-size="30">🏀</text>
+  <text x="170" y="295" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Баскетбол</text>
+  <text x="260" y="260" text-anchor="middle" font-family="Arial" font-size="30">🎾</text>
+  <text x="260" y="295" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Теннис</text>
+  <text x="350" y="260" text-anchor="middle" font-family="Arial" font-size="30">🏐</text>
+  <text x="350" y="295" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Волейбол</text>
+  <text x="440" y="260" text-anchor="middle" font-family="Arial" font-size="30">🎯</text>
+  <text x="440" y="295" text-anchor="middle" font-family="Arial" font-size="10" fill="#374151">Попади в цель</text>
+</svg>

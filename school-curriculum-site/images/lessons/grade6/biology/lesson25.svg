@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs><rect width="500" height="350" fill="url(#bg)" rx="10"/><rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/><text x="250" y="30" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#2E7D32" text-anchor="middle">Цветок - орган семенного размножения</text><text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 6 класс - Урок 25</text><line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+  <!-- Detailed flower diagram -->
+  <g transform="translate(180,190)">
+    <!-- Peduncle -->
+    <rect x="-3" y="50" width="6" height="40" fill="#795548" rx="2"/>
+    <!-- Receptacle -->
+    <ellipse cx="0" cy="48" rx="12" ry="5" fill="#A5D6A7" stroke="#4CAF50" stroke-width="1"/>
+    <!-- Sepals -->
+    <path d="M-12 45 Q-25 30 -20 20 Q-15 25 -5 40 Z" fill="#66BB6A" stroke="#4CAF50" stroke-width="1"/>
+    <path d="M12 45 Q25 30 20 20 Q15 25 5 40 Z" fill="#66BB6A" stroke="#4CAF50" stroke-width="1"/>
+    <path d="M0 45 Q0 25 0 18 Q5 28 5 42 Z" fill="#81C784" stroke="#4CAF50" stroke-width="0.8"/>
+    <!-- Petals -->
+    <ellipse cx="0" cy="-25" rx="15" ry="30" fill="#E91E63" opacity="0.7" stroke="#C2185B" stroke-width="1"/>
+    <ellipse cx="28" cy="-8" rx="15" ry="30" fill="#E91E63" opacity="0.7" stroke="#C2185B" stroke-width="1" transform="rotate(72,0,0)"/>
+    <ellipse cx="17" cy="22" rx="15" ry="30" fill="#E91E63" opacity="0.7" stroke="#C2185B" stroke-width="1" transform="rotate(144,0,0)"/>
+    <ellipse cx="-17" cy="22" rx="15" ry="30" fill="#E91E63" opacity="0.7" stroke="#C2185B" stroke-width="1" transform="rotate(216,0,0)"/>
+    <ellipse cx="-28" cy="-8" rx="15" ry="30" fill="#E91E63" opacity="0.7" stroke="#C2185B" stroke-width="1" transform="rotate(288,0,0)"/>
+    <!-- Stamens (filament + anther) -->
+    <line x1="-8" y1="-5" x2="-12" y2="-25" stroke="#FF9800" stroke-width="1.5"/>
+    <ellipse cx="-12" cy="-28" rx="3" ry="5" fill="#FFC107" stroke="#FF9800" stroke-width="1"/>
+    <line x1="8" y1="-5" x2="12" y2="-25" stroke="#FF9800" stroke-width="1.5"/>
+    <ellipse cx="12" cy="-28" rx="3" ry="5" fill="#FFC107" stroke="#FF9800" stroke-width="1"/>
+    <line x1="0" y1="-2" x2="0" y2="-22" stroke="#FF9800" stroke-width="1.5"/>
+    <ellipse cx="0" cy="-25" rx="3" ry="5" fill="#FFC107" stroke="#FF9800" stroke-width="1"/>
+    <!-- Pistil (stigma + style + ovary) -->
+    <line x1="0" y1="10" x2="0" y2="-18" stroke="#4CAF50" stroke-width="2"/>
+    <path d="M-4 -18 Q0 -24 4 -18" stroke="#4CAF50" stroke-width="2" fill="#81C784"/>
+    <!-- Ovary -->
+    <ellipse cx="0" cy="15" rx="8" ry="10" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1.5"/>
+    <!-- Ovules inside -->
+    <circle cx="-3" cy="15" r="2" fill="#81C784"/>
+    <circle cx="3" cy="15" r="2" fill="#81C784"/>
+  </g>
+  <!-- Labels -->
+  <g transform="translate(350,70)">
+    <rect x="-60" y="-10" width="170" height="215" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
+    <text x="25" y="6" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle" font-weight="bold">Строение цветка</text>
+    <line x1="-55" y1="12" x2="105" y2="12" stroke="#ddd" stroke-width="0.5"/>
+    <circle cx="-42" cy="28" r="4" fill="#E91E63" opacity="0.7"/><text x="-32" y="32" font-family="Arial,sans-serif" font-size="8" fill="#333">Лепесток (венчик)</text>
+    <circle cx="-42" cy="48" r="4" fill="#66BB6A"/><text x="-32" y="52" font-family="Arial,sans-serif" font-size="8" fill="#333">Чашелистик (чашечка)</text>
+    <circle cx="-42" cy="68" r="4" fill="#FFC107"/><text x="-32" y="72" font-family="Arial,sans-serif" font-size="8" fill="#333">Тычинка (андроцей)</text>
+    <circle cx="-42" cy="88" r="4" fill="#4CAF50"/><text x="-32" y="92" font-family="Arial,sans-serif" font-size="8" fill="#333">Пестик (гинецей)</text>
+    <circle cx="-42" cy="108" r="4" fill="#81C784"/><text x="-32" y="112" font-family="Arial,sans-serif" font-size="8" fill="#333">Рыльце пестика</text>
+    <circle cx="-42" cy="128" r="4" fill="#795548"/><text x="-32" y="132" font-family="Arial,sans-serif" font-size="8" fill="#333">Цветоложе</text>
+    <text x="25" y="155" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Тычинка = нить + пыльник</text>
+    <text x="25" y="168" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Пестик = рыльце + столбик</text>
+    <text x="25" y="181" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">+ завязь (семяпочки)</text>
+    <text x="25" y="198" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">Обоеполые и раздельнополые</text>
+  </g>
+<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/><text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 6 класс</text></svg>

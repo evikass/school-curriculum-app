@@ -356,6 +356,7 @@ export default function LessonViewer() {
         onComplete={handleDetailComplete}
         onStartQuiz={detailLesson ? () => startQuiz(detailLesson) : undefined}
         isTestCompleted={detailLesson ? isLessonTestCompleted(detailLesson.title) : false}
+        subject={selectedSubject?.title}
       />
     </div>
   )

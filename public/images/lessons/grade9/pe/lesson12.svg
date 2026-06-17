@@ -1,68 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8F5E9"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="bg12" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F44336;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#EF5350;stop-opacity:0.06"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="12"/>
-  <rect x="0" y="0" width="500" height="50" fill="#66BB6A" rx="12"/>
-  <rect x="0" y="25" width="500" height="25" fill="#66BB6A"/>
-  <text x="250" y="34" text-anchor="middle" fill="#FFF" font-size="16" font-weight="bold" font-family="Arial,sans-serif">Урок 12. Опорный прыжок</text>
-  <!-- Vault phases -->
-  <rect x="15" y="60" width="470" height="130" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
-  <rect x="15" y="60" width="470" height="25" fill="#66BB6A" rx="8"/>
-  <rect x="15" y="77" width="470" height="8" fill="#66BB6A"/>
-  <text x="250" y="78" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Фазы опорного прыжка</text>
-  <!-- Vault diagram -->
-  <line x1="25" y1="175" x2="475" y2="175" stroke="#CCC" stroke-width="0.5"/>
-  <!-- Run-up -->
-  <rect x="30" y="165" width="60" height="10" fill="#66BB6A" opacity="0.2" rx="3"/>
-  <text x="60" y="172" text-anchor="middle" fill="#FFF" font-size="7" font-family="Arial,sans-serif">разбег</text>
-  <text x="60" y="190" text-anchor="middle" fill="#2E7D32" font-size="8" font-weight="bold" font-family="Arial,sans-serif">1. Разбег</text>
-  <text x="30" y="200" fill="#666" font-size="7" font-family="Arial,sans-serif">15–20 м, скорость</text>
-  <!-- Board -->
-  <rect x="100" y="160" width="20" height="15" fill="#FDD835" stroke="#F9A825" stroke-width="1" rx="2"/>
-  <text x="110" y="190" text-anchor="middle" fill="#2E7D32" font-size="8" font-weight="bold" font-family="Arial,sans-serif">2. Мостик</text>
-  <text x="95" y="200" fill="#666" font-size="7" font-family="Arial,sans-serif">толчок 2 ногами</text>
-  <!-- Flight 1 -->
-  <path d="M125,160 Q155,100 190,130" fill="none" stroke="#66BB6A" stroke-width="2"/>
-  <text x="160" y="190" text-anchor="middle" fill="#2E7D32" font-size="8" font-weight="bold" font-family="Arial,sans-serif">3. Полёт 1</text>
-  <text x="140" y="200" fill="#666" font-size="7" font-family="Arial,sans-serif">наскок, мах</text>
-  <!-- Vault box -->
-  <rect x="195" y="130" width="40" height="45" fill="#8D6E63" stroke="#5D4037" stroke-width="1.5" rx="3"/>
-  <text x="215" y="155" text-anchor="middle" fill="#FFF" font-size="7" font-family="Arial,sans-serif">конь</text>
-  <text x="215" y="190" text-anchor="middle" fill="#2E7D32" font-size="8" font-weight="bold" font-family="Arial,sans-serif">4. Толчок</text>
-  <text x="200" y="200" fill="#666" font-size="7" font-family="Arial,sans-serif">руками от коня</text>
-  <!-- Flight 2 -->
-  <path d="M240,130 Q280,80 330,150" fill="none" stroke="#66BB6A" stroke-width="2"/>
-  <text x="285" y="190" text-anchor="middle" fill="#2E7D32" font-size="8" font-weight="bold" font-family="Arial,sans-serif">5. Полёт 2</text>
-  <text x="270" y="200" fill="#666" font-size="7" font-family="Arial,sans-serif">сгибание/разгиб.</text>
-  <!-- Landing -->
-  <rect x="340" y="165" width="30" height="10" fill="#66BB6A" opacity="0.2" rx="3"/>
-  <text x="355" y="190" text-anchor="middle" fill="#2E7D32" font-size="8" font-weight="bold" font-family="Arial,sans-serif">6. Приземл.</text>
-  <text x="335" y="200" fill="#666" font-size="7" font-family="Arial,sans-serif">носок→пятка, мат</text>
-
-  <!-- Types of vaults -->
-  <rect x="15" y="210" width="230" height="110" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
-  <rect x="15" y="210" width="230" height="25" fill="#2E7D32" rx="8"/>
-  <rect x="15" y="227" width="230" height="8" fill="#2E7D32"/>
-  <text x="130" y="228" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Виды прыжков</text>
-  <text x="25" y="252" fill="#333" font-size="9" font-family="Arial,sans-serif">• Прыжок ноги врозь</text>
-  <text x="25" y="265" fill="#333" font-size="9" font-family="Arial,sans-serif">• Прыжок согнув ноги</text>
-  <text x="25" y="278" fill="#333" font-size="9" font-family="Arial,sans-serif">• Прыжок боком (конь)</text>
-  <text x="25" y="291" fill="#333" font-size="9" font-family="Arial,sans-serif">• Прыжок углом</text>
-  <text x="25" y="307" fill="#2E7D32" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Высота коня: 110–125 см</text>
-
-  <!-- Safety -->
-  <rect x="255" y="210" width="230" height="110" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
-  <rect x="255" y="210" width="230" height="25" fill="#E53935" rx="8"/>
-  <rect x="255" y="227" width="230" height="8" fill="#E53935"/>
-  <text x="370" y="228" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">⚠ Безопасность</text>
-  <text x="265" y="252" fill="#333" font-size="9" font-family="Arial,sans-serif">• Мостик и маты на месте!</text>
-  <text x="265" y="265" fill="#333" font-size="9" font-family="Arial,sans-serif">• Страховка: сбоку от коня</text>
-  <text x="265" y="278" fill="#333" font-size="9" font-family="Arial,sans-serif">• Разминка запястий!</text>
-  <text x="265" y="291" fill="#333" font-size="9" font-family="Arial,sans-serif">• Не прыгать без команды</text>
-  <text x="265" y="307" fill="#E53935" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Сначала освоить мостик!</text>
+  <rect width="500" height="350" fill="#1a1a2e"/>
+  <rect width="500" height="350" fill="url(#bg12)"/>
+  <!-- Two fighters facing each other -->
+  <!-- Fighter 1 (left) -->
+  <g transform="translate(120,80)">
+    <circle cx="25" cy="10" r="11" fill="#F44336"/>
+    <line x1="25" y1="21" x2="25" y2="60" stroke="#F44336" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="25" y1="32" x2="45" y2="25" stroke="#F44336" stroke-width="3" stroke-linecap="round"/>
+    <line x1="25" y1="32" x2="10" y2="45" stroke="#F44336" stroke-width="3" stroke-linecap="round"/>
+    <line x1="25" y1="60" x2="12" y2="85" stroke="#F44336" stroke-width="3" stroke-linecap="round"/>
+    <line x1="25" y1="60" x2="40" y2="85" stroke="#F44336" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <!-- Fighter 2 (right) -->
+  <g transform="translate(290,80)">
+    <circle cx="25" cy="10" r="11" fill="#EF5350"/>
+    <line x1="25" y1="21" x2="25" y2="60" stroke="#EF5350" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="25" y1="32" x2="5" y2="25" stroke="#EF5350" stroke-width="3" stroke-linecap="round"/>
+    <line x1="25" y1="32" x2="40" y2="45" stroke="#EF5350" stroke-width="3" stroke-linecap="round"/>
+    <line x1="25" y1="60" x2="12" y2="85" stroke="#EF5350" stroke-width="3" stroke-linecap="round"/>
+    <line x1="25" y1="60" x2="40" y2="85" stroke="#EF5350" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <!-- Action lines between fighters -->
+  <line x1="210" y1="100" x2="235" y2="100" stroke="#F44336" stroke-width="1.5" opacity="0.5"/>
+  <line x1="215" y1="110" x2="240" y2="110" stroke="#EF5350" stroke-width="1.5" opacity="0.5"/>
+  <line x1="210" y1="120" x2="235" y2="120" stroke="#F44336" stroke-width="1.5" opacity="0.4"/>
+  <!-- Tatami/mat -->
+  <rect x="60" y="200" width="380" height="80" fill="#F44336" opacity="0.08" rx="5"/>
+  <line x1="250" y1="200" x2="250" y2="280" stroke="#F44336" stroke-width="1" opacity="0.2"/>
+  <line x1="60" y1="240" x2="440" y2="240" stroke="#F44336" stroke-width="1" opacity="0.2"/>
+  <!-- Belt -->
+  <g transform="translate(170,210)">
+    <ellipse cx="80" cy="15" rx="70" ry="20" fill="none" stroke="#FFC107" stroke-width="3" opacity="0.4"/>
+    <line x1="80" y1="35" x2="70" y2="50" stroke="#FFC107" stroke-width="2" opacity="0.4"/>
+    <line x1="80" y1="35" x2="90" y2="50" stroke="#FFC107" stroke-width="2" opacity="0.4"/>
+  </g>
+  <!-- Shield icon -->
+  <g transform="translate(390,210)">
+    <path d="M20,0 L40,8 L40,30 C40,45 20,55 20,55 C20,55 0,45 0,30 L0,8Z" fill="none" stroke="#EF5350" stroke-width="2" opacity="0.4"/>
+  </g>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#aaa" opacity="0.5" font-family="sans-serif">Единоборства</text>
 </svg>

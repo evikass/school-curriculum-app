@@ -5,7 +5,7 @@ import os
 import html
 import xml.etree.ElementTree as ET
 
-OUTPUT_DIR = "/home/z/my-project/school-curriculum-app/public/images/lessons/grade11/social"
+OUTPUT_DIR = "/home/z/school-curriculum-app/public/images/lessons/grade11/social"
 
 LESSONS = [
     (1, "Человек как биосоциальное существо"),

@@ -1,83 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7B1FA2"/>
-      <stop offset="100%" stop-color="#AB47BC"/>
-    </linearGradient>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="100%" stop-color="#F3E5F5"/>
-    </linearGradient>
-  </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="8"/>
-  <rect width="500" height="44" fill="url(#hdr)" rx="8"/>
-  <rect y="36" width="500" height="8" fill="url(#hdr)"/>
-  <text x="250" y="18" text-anchor="middle" font-size="13" fill="#FFFFFF" font-weight="bold" font-family="Arial">Урок 8. Н.В. Гоголь «Мёртвые души»</text>
-  <text x="250" y="34" text-anchor="middle" font-size="9" fill="#E1BEE7" font-family="Arial">Поэма, 1842 г. — «предмет долгого и глубокого соображения»</text>
-  <!-- Author -->
-  <rect x="10" y="52" width="160" height="36" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1"/>
-  <text x="90" y="66" text-anchor="middle" font-size="8.5" fill="#7B1FA2" font-weight="bold" font-family="Arial">Николай Васильевич Гоголь</text>
-  <text x="90" y="78" font-size="7.5" fill="#757575" font-family="Arial">1809-1852 • Прозаик, драматург</text>
-  <!-- Genre -->
-  <rect x="180" y="52" width="310" height="36" rx="5" fill="#E1BEE7" opacity="0.5"/>
-  <text x="335" y="66" text-anchor="middle" font-size="9" fill="#7B1FA2" font-weight="bold" font-family="Arial">Жанр: поэма в прозе</text>
-  <text x="188" y="79" font-size="8" fill="#212121" font-family="Arial">Не роман, не повесть — автор: «поэма» — эпос + лирика</text>
-  <!-- Landowners sequence -->
-  <rect x="10" y="94" width="480" height="80" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1.2"/>
-  <text x="250" y="108" text-anchor="middle" font-size="9.5" fill="#7B1FA2" font-weight="bold" font-family="Arial">Помещики — «мёртвые души» (деградация)</text>
-  <rect x="18" y="114" width="88" height="54" rx="3" fill="#7B1FA2" opacity="0.08"/>
-  <text x="62" y="127" text-anchor="middle" font-size="8" fill="#212121" font-weight="bold" font-family="Arial">Манилов</text>
-  <text x="62" y="139" text-anchor="middle" font-size="6.5" fill="#757575" font-family="Arial">Сентиментален</text>
-  <text x="62" y="149" text-anchor="middle" font-size="6.5" fill="#757575" font-family="Arial">Пустые мечты</text>
-  <text x="62" y="161" text-anchor="middle" font-size="6.5" fill="#7B1FA2" font-family="Arial">«Тёплое место»</text>
-  <rect x="112" y="114" width="88" height="54" rx="3" fill="#7B1FA2" opacity="0.12"/>
-  <text x="156" y="127" text-anchor="middle" font-size="8" fill="#212121" font-weight="bold" font-family="Arial">Коробочка</text>
-  <text x="156" y="139" text-anchor="middle" font-size="6.5" fill="#757575" font-family="Arial">Хозяйственная</text>
-  <text x="156" y="149" text-anchor="middle" font-size="6.5" fill="#757575" font-family="Arial">«Дубинноголовая»</text>
-  <text x="156" y="161" text-anchor="middle" font-size="6.5" fill="#7B1FA2" font-family="Arial">Мелкая жадность</text>
-  <rect x="206" y="114" width="88" height="54" rx="3" fill="#7B1FA2" opacity="0.18"/>
-  <text x="250" y="127" text-anchor="middle" font-size="8" fill="#212121" font-weight="bold" font-family="Arial">Ноздрёв</text>
-  <text x="250" y="139" text-anchor="middle" font-size="6.5" fill="#757575" font-family="Arial">Хвастун, картёжник</text>
-  <text x="250" y="149" text-anchor="middle" font-size="6.5" fill="#757575" font-family="Arial">Наглая ложь</text>
-  <text x="250" y="161" text-anchor="middle" font-size="6.5" fill="#7B1FA2" font-family="Arial">Разрушитель</text>
-  <rect x="300" y="114" width="88" height="54" rx="3" fill="#7B1FA2" opacity="0.25"/>
-  <text x="344" y="127" text-anchor="middle" font-size="8" fill="#212121" font-weight="bold" font-family="Arial">Собакевич</text>
-  <text x="344" y="139" text-anchor="middle" font-size="6.5" fill="#757575" font-family="Arial">«Дубинноголовый»</text>
-  <text x="344" y="149" text-anchor="middle" font-size="6.5" fill="#757575" font-family="Arial">Кулак-мироед</text>
-  <text x="344" y="161" text-anchor="middle" font-size="6.5" fill="#7B1FA2" font-family="Arial">Крепкий хозяин</text>
-  <rect x="394" y="114" width="88" height="54" rx="3" fill="#7B1FA2" opacity="0.35"/>
-  <text x="438" y="127" text-anchor="middle" font-size="8" fill="#FFFFFF" font-weight="bold" font-family="Arial">Плюшкин</text>
-  <text x="438" y="139" text-anchor="middle" font-size="6.5" fill="#E1BEE7" font-family="Arial">Скупец, «прореха»</text>
-  <text x="438" y="149" text-anchor="middle" font-size="6.5" fill="#E1BEE7" font-family="Arial">Человек-ключница</text>
-  <text x="438" y="161" text-anchor="middle" font-size="6.5" fill="#FFFFFF" font-family="Arial">«Мёртвая душа»</text>
-  <!-- Arrow of degradation -->
-  <line x1="30" y1="178" x2="470" y2="178" stroke="#7B1FA2" stroke-width="2"/>
-  <text x="250" y="190" text-anchor="middle" font-size="7.5" fill="#7B1FA2" font-family="Arial">Степень духовного омертвения &#8594;</text>
+  <defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#1a1a2e"/><stop offset="100%" style="stop-color:#2c1810"/></linearGradient></defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <text x="250" y="22" text-anchor="middle" fill="#d4a574" font-size="13" font-weight="bold">Н.В. Гоголь «Мёртвые души» (1842)</text>
+  <!-- Gallery of landowners - staircase of degradation -->
+  <rect x="15" y="40" width="88" height="65" rx="5" fill="#4fc3f7" opacity="0.6"/>
+  <text x="59" y="62" text-anchor="middle" fill="white" font-size="9" font-weight="bold">Манилов</text>
+  <text x="59" y="78" text-anchor="middle" fill="white" font-size="8">Мечтатель</text>
+  <text x="59" y="93" text-anchor="middle" fill="white" font-size="8">Бездеятельность</text>
+  <rect x="108" y="50" width="88" height="65" rx="5" fill="#27ae60" opacity="0.6"/>
+  <text x="152" y="72" text-anchor="middle" fill="white" font-size="9" font-weight="bold">Коробочка</text>
+  <text x="152" y="88" text-anchor="middle" fill="white" font-size="8">Накопительство</text>
+  <text x="152" y="103" text-anchor="middle" fill="white" font-size="8">Ограниченность</text>
+  <rect x="201" y="60" width="88" height="65" rx="5" fill="#f39c12" opacity="0.6"/>
+  <text x="245" y="82" text-anchor="middle" fill="white" font-size="9" font-weight="bold">Ноздрёв</text>
+  <text x="245" y="98" text-anchor="middle" fill="white" font-size="8">Враньё</text>
+  <text x="245" y="113" text-anchor="middle" fill="white" font-size="8">Азарт</text>
+  <rect x="294" y="70" width="88" height="65" rx="5" fill="#e74c3c" opacity="0.6"/>
+  <text x="338" y="92" text-anchor="middle" fill="white" font-size="9" font-weight="bold">Собакевич</text>
+  <text x="338" y="108" text-anchor="middle" fill="white" font-size="8">Кулак</text>
+  <text x="338" y="123" text-anchor="middle" fill="white" font-size="8">Хватка</text>
+  <rect x="387" y="80" width="98" height="65" rx="5" fill="#c0392b" opacity="0.8"/>
+  <text x="436" y="102" text-anchor="middle" fill="white" font-size="9" font-weight="bold">Плюшкин</text>
+  <text x="436" y="118" text-anchor="middle" fill="white" font-size="8">Скупость</text>
+  <text x="436" y="133" text-anchor="middle" fill="white" font-size="8">«Прореха»</text>
+  <!-- Arrow showing degradation -->
+  <line x1="15" y1="115" x2="485" y2="155" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="250" y="170" text-anchor="middle" fill="#e74c3c" font-size="9">→ Деградация личности →</text>
   <!-- Chichikov -->
-  <rect x="10" y="196" width="235" height="66" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1.2"/>
-  <text x="127" y="210" text-anchor="middle" font-size="9" fill="#7B1FA2" font-weight="bold" font-family="Arial">Павел Иванович Чичиков</text>
-  <line x1="20" y1="213" x2="235" y2="213" stroke="#E1BEE7" stroke-width="1"/>
-  <text x="18" y="224" font-size="7.5" fill="#212121" font-family="Arial">Мошенник — покупает «мёртвые души»</text>
-  <text x="18" y="235" font-size="7.5" fill="#212121" font-family="Arial">(умерших крестьян) для заклада в Опекунский</text>
-  <text x="18" y="246" font-size="7.5" fill="#212121" font-family="Arial">совет и получения денег</text>
-  <text x="18" y="257" font-size="7.5" fill="#757575" font-family="Arial">«Приобретение — вина всего» — девиз</text>
-  <!-- Dead souls meaning -->
-  <rect x="255" y="196" width="235" height="66" rx="5" fill="#E1BEE7" opacity="0.5"/>
-  <text x="372" y="210" text-anchor="middle" font-size="9" fill="#7B1FA2" font-weight="bold" font-family="Arial">Смысл названия «Мёртвые души»</text>
-  <line x1="265" y1="213" x2="480" y2="213" stroke="#AB47BC" stroke-width="0.5"/>
-  <text x="263" y="224" font-size="7.5" fill="#212121" font-family="Arial">1. Буквально — умершие крестьяне</text>
-  <text x="263" y="235" font-size="7.5" fill="#212121" font-family="Arial">2. Переносно — живые люди с мёртвой</text>
-  <text x="263" y="246" font-size="7.5" fill="#212121" font-family="Arial">душой (помещики, чиновники)</text>
-  <text x="263" y="257" font-size="7.5" fill="#7B1FA2" font-family="Arial">3. Метафизический — духовная смерть</text>
-  <!-- Rus trope -->
-  <rect x="10" y="268" width="480" height="32" rx="5" fill="#7B1FA2" opacity="0.08"/>
-  <text x="250" y="282" text-anchor="middle" font-size="8.5" fill="#7B1FA2" font-style="italic" font-family="Arial">«Русь, куда ж несёшься ты? Дай ответ. Не даёт ответа.»</text>
-  <text x="250" y="294" text-anchor="middle" font-size="7.5" fill="#757575" font-family="Arial">Лирическое отступление о России — птица-тройка</text>
-  <!-- 3 volumes plan -->
-  <rect x="10" y="306" width="480" height="28" rx="5" fill="#FFFFFF" stroke="#AB47BC" stroke-width="1"/>
-  <text x="250" y="318" text-anchor="middle" font-size="8" fill="#7B1FA2" font-weight="bold" font-family="Arial">Замысел: Ад (том 1) &#8594; Чистилище (том 2) &#8594; Рай (том 3)</text>
-  <text x="250" y="330" text-anchor="middle" font-size="7" fill="#757575" font-family="Arial">По аналогии с «Божественной комедией» Данте • 2-й и 3-й тома сожжены</text>
-  <rect y="338" width="500" height="12" fill="#7B1FA2" rx="0"/>
-  <rect y="338" width="500" height="12" fill="url(#hdr)" rx="0"/>
-  <text x="250" y="348" text-anchor="middle" font-size="8" fill="#FFFFFF" font-family="Arial">Литература 9 класс</text>
+  <rect x="120" y="185" width="260" height="45" rx="6" fill="#1a1a2e" stroke="#d4a574" stroke-width="1.5"/>
+  <text x="250" y="205" text-anchor="middle" fill="#d4a574" font-size="11" font-weight="bold">Чичиков — аферист и приспособленец</text>
+  <text x="250" y="222" text-anchor="middle" fill="white" font-size="9">Скупает «мёртвые души» для залога в опекунском совете</text>
+  <!-- Dante parallel -->
+  <rect x="30" y="245" width="440" height="65" rx="6" fill="#2c1810" stroke="#d4a574" stroke-width="1"/>
+  <text x="250" y="268" text-anchor="middle" fill="#d4a574" font-size="11" font-weight="bold">Замысел: три тома по аналогии с Данте</text>
+  <text x="130" y="290" text-anchor="middle" fill="#e74c3c" font-size="10">Ад (I том)</text>
+  <text x="250" y="290" text-anchor="middle" fill="#f39c12" font-size="10">Чистилище</text>
+  <text x="370" y="290" text-anchor="middle" fill="#27ae60" font-size="10">Рай</text>
+  <text x="250" y="305" text-anchor="middle" fill="white" font-size="8">Завершён только первый том</text>
+  <text x="250" y="345" text-anchor="middle" fill="white" font-size="9" opacity="0.5">Гоголь «Мёртвые души»</text>
 </svg>

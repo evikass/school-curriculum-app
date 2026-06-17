@@ -1,96 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ECEFF1"/><stop offset="100%" stop-color="#CFD8DC"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#37474F" stroke-width="3"/>
-<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#37474F" stroke-width="1" opacity="0.3"/>
-<polygon points="10,10 30,10 10,30" fill="#37474F" opacity="0.08"/>
-<polygon points="490,10 470,10 490,30" fill="#546E7A" opacity="0.08"/>
-<polygon points="10,340 30,340 10,320" fill="#607D8B" opacity="0.08"/>
-<polygon points="490,340 470,340 490,320" fill="#78909C" opacity="0.08"/>
-<circle cx="70" cy="15" r="4" fill="#37474F" opacity="0.1"/>
-<circle cx="82" cy="15" r="4" fill="#546E7A" opacity="0.1"/>
-<circle cx="94" cy="15" r="4" fill="#607D8B" opacity="0.1"/>
-<circle cx="406" cy="15" r="4" fill="#37474F" opacity="0.1"/>
-<circle cx="418" cy="15" r="4" fill="#546E7A" opacity="0.1"/>
-<circle cx="430" cy="15" r="4" fill="#607D8B" opacity="0.1"/>
-<text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#37474F" text-anchor="middle">Ультразвуковой датчик расстояния</text>
-<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Робототехника - Урок 7</text>
-<line x1="30" y1="78" x2="470" y2="78" stroke="#37474F" stroke-width="2" opacity="0.25"/>
-<rect x="30" y="75" width="60" height="6" fill="#37474F" opacity="0.15" rx="1"/>
-<rect x="410" y="75" width="60" height="6" fill="#546E7A" opacity="0.12" rx="1"/>
-
-  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#FF9800" stroke-width="1.5"/>
-  <text x="135" y="110" font-family="Arial,sans-serif" font-size="11" fill="#FF9800" text-anchor="middle" font-weight="bold">Ультразвуковой датчик расстояния</text>
-  <!-- Robot -->
-  <!-- Head -->
-  <rect x="95" y="125" width="60" height="40" rx="8" fill="#B0BEC5" stroke="#546E7A" stroke-width="2"/>
-  <!-- Eyes -->
-  <circle cx="112" cy="145" r="8" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
-  <circle cx="138" cy="145" r="8" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
-  <circle cx="112" cy="145" r="3" fill="#1565C0"/>
-  <circle cx="138" cy="145" r="3" fill="#1565C0"/>
-  <!-- Antenna -->
-  <line x1="125" y1="125" x2="125" y2="112" stroke="#546E7A" stroke-width="2"/>
-  <circle cx="125" cy="110" r="4" fill="#37474F"/>
-  <!-- Body -->
-  <rect x="85" y="170" width="80" height="50" rx="5" fill="#78909C" stroke="#546E7A" stroke-width="2"/>
-  <!-- Panel on body -->
-  <rect x="95" y="178" width="60" height="15" rx="2" fill="#37474F"/>
-  <circle cx="105" cy="185" r="3" fill="#4CAF50"/>
-  <circle cx="115" cy="185" r="3" fill="#F9A825"/>
-  <circle cx="125" cy="185" r="3" fill="#37474F"/>
-  <circle cx="135" cy="185" r="3" fill="#1565C0"/>
-  <circle cx="145" cy="185" r="3" fill="#4CAF50"/>
-  <!-- Arms -->
-  <rect x="65" y="175" width="15" height="35" rx="3" fill="#90A4AE" stroke="#546E7A" stroke-width="1"/>
-  <rect x="170" y="175" width="15" height="35" rx="3" fill="#90A4AE" stroke="#546E7A" stroke-width="1"/>
-  <!-- Wheels/tracks -->
-  <circle cx="100" cy="230" r="10" fill="#333" stroke="#555" stroke-width="1"/>
-  <circle cx="100" cy="230" r="3" fill="#888"/>
-  <circle cx="150" cy="230" r="10" fill="#333" stroke="#555" stroke-width="1"/>
-  <circle cx="150" cy="230" r="3" fill="#888"/>
-  <text x="135" y="260" font-family="Arial,sans-serif" font-size="8" fill="#FF9800" text-anchor="middle">робот</text>
-  <text x="135" y="275" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">сенсоры, моторы</text>
-
-  <rect x="260" y="90" width="215" height="200" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5"/>
-  <text x="367" y="115" font-family="Arial,sans-serif" font-size="12" fill="#1565C0" text-anchor="middle" font-weight="bold">Arduino</text>
-  <!-- Arduino board -->
-  <rect x="290" y="128" width="155" height="80" rx="5" fill="#1565C0" stroke="#0D47A1" stroke-width="2"/>
-  <!-- Chip -->
-  <rect x="340" y="148" width="40" height="35" rx="2" fill="#333"/>
-  <text x="360" y="170" font-family="monospace" font-size="6" fill="#4CAF50" text-anchor="middle">ATmega</text>
-  <!-- Pins -->
-  <line x1="295" y1="140" x2="310" y2="140" stroke="#F9A825" stroke-width="2"/>
-  <line x1="295" y1="148" x2="310" y2="148" stroke="#F9A825" stroke-width="2"/>
-  <line x1="295" y1="156" x2="310" y2="156" stroke="#F9A825" stroke-width="2"/>
-  <line x1="295" y1="164" x2="310" y2="164" stroke="#F9A825" stroke-width="2"/>
-  <line x1="295" y1="172" x2="310" y2="172" stroke="#F9A825" stroke-width="2"/>
-  <line x1="295" y1="180" x2="310" y2="180" stroke="#F9A825" stroke-width="2"/>
-  <line x1="295" y1="188" x2="310" y2="188" stroke="#F9A825" stroke-width="2"/>
-  <line x1="295" y1="196" x2="310" y2="196" stroke="#F9A825" stroke-width="2"/>
-  <!-- USB -->
-  <rect x="285" y="150" width="12" height="20" rx="2" fill="#B0BEC5" stroke="#78909C" stroke-width="1"/>
-  <!-- Power LED -->
-  <circle cx="325" y="140" r="3" fill="#4CAF50"/>
-  <!-- TX/RX LEDs -->
-  <circle cx="335" y="140" r="3" fill="#F9A825"/>
-  <circle cx="345" y="140" r="3" fill="#F9A825"/>
-  <text x="367" y="225" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">микроконтроллер</text>
-  <!-- Sensors -->
-  <rect x="280" y="238" width="55" height="35" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
-  <text x="307" y="255" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">ультразвук</text>
-  <text x="307" y="267" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">HC-SR04</text>
-  <rect x="345" y="238" width="55" height="35" rx="3" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
-  <text x="372" y="255" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">линия</text>
-  <text x="372" y="267" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">TCRT5000</text>
-  <rect x="410" y="238" width="55" height="35" rx="3" fill="#FFEBEE" stroke="#37474F" stroke-width="1"/>
-  <text x="437" y="255" font-family="Arial,sans-serif" font-size="7" fill="#37474F" text-anchor="middle">свет</text>
-  <text x="437" y="267" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">LDR</text>
-  <text x="367" y="285" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">датчики и исполнительные устройства</text>
-<rect x="15" y="310" width="470" height="30" rx="4" fill="#37474F" opacity="0.85"/>
-<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Робототехника</text>
-  <circle cx="450" cy="120" r="12" fill="none" stroke="#37474F" stroke-width="1" opacity="0.12"/>
-  <circle cx="450" cy="120" r="5" fill="none" stroke="#607D8B" stroke-width="1" opacity="0.1"/>
-  <circle cx="470" cy="138" r="8" fill="none" stroke="#78909C" stroke-width="0.8" opacity="0.1"/>
-  <circle cx="470" cy="138" r="3" fill="none" stroke="#78909C" stroke-width="0.8" opacity="0.08"/>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="350" fill="#0d1520"/>
+  <!-- Ultrasonic sensor -->
+  <rect x="180" y="60" width="50" height="70" rx="6" fill="#1a2a3a" stroke="#42a5f5" stroke-width="2"/>
+  <!-- Sensor eyes (transducers) -->
+  <circle cx="196" cy="85" r="10" fill="#0d1926" stroke="#42a5f5" stroke-width="1.5"/>
+  <circle cx="196" cy="85" r="4" fill="#42a5f5" opacity="0.5"/>
+  <circle cx="216" cy="85" r="10" fill="#0d1926" stroke="#42a5f5" stroke-width="1.5"/>
+  <circle cx="216" cy="85" r="4" fill="#42a5f5" opacity="0.5"/>
+  <text x="183" y="122" font-size="7" fill="#42a5f5">HC-SR04</text>
+  <!-- Sound waves going right -->
+  <path d="M230,80 Q240,80 240,85 Q240,90 230,90" fill="none" stroke="#42a5f5" stroke-width="1.5" opacity="0.8"/>
+  <path d="M240,75 Q255,75 255,85 Q255,95 240,95" fill="none" stroke="#42a5f5" stroke-width="1.5" opacity="0.6"/>
+  <path d="M250,70 Q270,70 270,85 Q270,100 250,100" fill="none" stroke="#42a5f5" stroke-width="1.5" opacity="0.4"/>
+  <path d="M260,65 Q285,65 285,85 Q285,105 260,105" fill="none" stroke="#42a5f5" stroke-width="1.5" opacity="0.25"/>
+  <!-- Wall -->
+  <rect x="350" y="50" width="15" height="100" fill="#37474f" stroke="#78909c" stroke-width="1.5"/>
+  <line x1="355" y1="55" x2="365" y2="65" stroke="#546e7a" stroke-width="1"/>
+  <line x1="355" y1="75" x2="365" y2="85" stroke="#546e7a" stroke-width="1"/>
+  <line x1="355" y1="95" x2="365" y2="105" stroke="#546e7a" stroke-width="1"/>
+  <line x1="355" y1="115" x2="365" y2="125" stroke="#546e7a" stroke-width="1"/>
+  <!-- Reflected waves coming back -->
+  <path d="M350,90 Q340,90 340,85 Q340,80 350,80" fill="none" stroke="#ff9800" stroke-width="1.5" opacity="0.6"/>
+  <path d="M340,95 Q325,95 325,85 Q325,75 340,75" fill="none" stroke="#ff9800" stroke-width="1.5" opacity="0.4"/>
+  <path d="M330,100 Q310,100 310,85 Q310,70 330,70" fill="none" stroke="#ff9800" stroke-width="1.5" opacity="0.25"/>
+  <!-- Distance measurement line -->
+  <line x1="205" y1="40" x2="355" y2="40" stroke="#ffeb3b" stroke-width="1.5"/>
+  <line x1="205" y1="35" x2="205" y2="45" stroke="#ffeb3b" stroke-width="1.5"/>
+  <line x1="355" y1="35" x2="355" y2="45" stroke="#ffeb3b" stroke-width="1.5"/>
+  <text x="250" y="35" font-size="10" fill="#ffeb3b" font-weight="bold">d = ?</text>
+  <!-- Formula -->
+  <rect x="40" y="160" width="420" height="55" rx="6" fill="#1a2332" stroke="#546e7a" stroke-width="1"/>
+  <text x="60" y="182" font-size="11" fill="#e0e0e0">Расстояние = </text>
+  <text x="160" y="182" font-size="11" fill="#42a5f5">(время × скорость звука)</text>
+  <text x="360" y="182" font-size="11" fill="#e0e0e0"> / 2</text>
+  <text x="60" y="205" font-size="9" fill="#78909c">v = 340 м/с    t = время возврата эха</text>
+  <!-- Timing diagram -->
+  <rect x="40" y="230" width="420" height="80" rx="6" fill="#1a2332" stroke="#546e7a" stroke-width="1"/>
+  <text x="55" y="250" font-size="9" fill="#42a5f5">Trig</text>
+  <rect x="90" y="240" width="30" height="12" fill="#42a5f5" opacity="0.5"/>
+  <line x1="55" y1="246" x2="90" y2="246" stroke="#42a5f5" stroke-width="1"/>
+  <line x1="120" y1="246" x2="440" y2="246" stroke="#42a5f5" stroke-width="1" opacity="0.3"/>
+  <text x="55" y="275" font-size="9" fill="#ff9800">Echo</text>
+  <line x1="55" y1="271" x2="120" y2="271" stroke="#ff9800" stroke-width="1" opacity="0.3"/>
+  <rect x="120" y="265" width="120" height="12" fill="#ff9800" opacity="0.4"/>
+  <line x1="240" y1="271" x2="440" y2="271" stroke="#ff9800" stroke-width="1" opacity="0.3"/>
+  <!-- Time measurement -->
+  <line x1="120" y1="282" x2="120" y2="300" stroke="#ffeb3b" stroke-width="1"/>
+  <line x1="240" y1="282" x2="240" y2="300" stroke="#ffeb3b" stroke-width="1"/>
+  <line x1="120" y1="296" x2="240" y2="296" stroke="#ffeb3b" stroke-width="1"/>
+  <polygon points="240,296 234,293 234,299" fill="#ffeb3b"/>
+  <text x="155" y="308" font-size="8" fill="#ffeb3b">Δt (время эха)</text>
+  <text x="180" y="340" font-size="9" fill="#fff" opacity="0.5">Ультразвуковой датчик расстояния</text>
 </svg>

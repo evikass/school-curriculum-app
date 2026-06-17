@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFEBEE"/><stop offset="100%" stop-color="#FFCDD2"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="2.5"/>
+<text x="250" y="25" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#B71C1C" text-anchor="middle">Охрана природы: Красная книга и ООПТ</text>
+
+<!-- Red Book cover -->
+<rect x="15" y="38" width="90" height="120" rx="4" fill="#C62828" stroke="#8E0000" stroke-width="2"/>
+<rect x="20" y="43" width="80" height="110" rx="2" fill="#D32F2F"/>
+<text x="60" y="70" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle">КРАСНАЯ</text>
+<text x="60" y="82" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle">КНИГА</text>
+<text x="60" y="97" font-family="Arial,sans-serif" font-size="7" fill="#FFCDD2" text-anchor="middle">Российской</text>
+<text x="60" y="107" font-family="Arial,sans-serif" font-size="7" fill="#FFCDD2" text-anchor="middle">Федерации</text>
+<!-- Animal icon -->
+<ellipse cx="60" cy="130" rx="12" ry="8" fill="#FFCDD2" opacity="0.6"/>
+<circle cx="52" cy="124" r="4" fill="#FFCDD2" opacity="0.6"/>
+
+<!-- Red book categories -->
+<rect x="115" y="38" width="135" height="120" rx="5" fill="white" opacity="0.65" stroke="#C62828" stroke-width="1"/>
+<text x="182" y="55" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#B71C1C" text-anchor="middle">Категории Красной книги</text>
+<rect x="122" y="62" width="8" height="8" rx="1" fill="#8E0000"/>
+<text x="135" y="70" font-family="Arial,sans-serif" font-size="7" fill="#424242">0 — вероятно исчезнувшие</text>
+<rect x="122" y="76" width="8" height="8" rx="1" fill="#C62828"/>
+<text x="135" y="84" font-family="Arial,sans-serif" font-size="7" fill="#424242">1 — под угрозой исчезновения</text>
+<rect x="122" y="90" width="8" height="8" rx="1" fill="#E57373"/>
+<text x="135" y="98" font-family="Arial,sans-serif" font-size="7" fill="#424242">2 — сокращающиеся в числ.</text>
+<rect x="122" y="104" width="8" height="8" rx="1" fill="#FFAB91"/>
+<text x="135" y="112" font-family="Arial,sans-serif" font-size="7" fill="#424242">3 — редкие виды</text>
+<rect x="122" y="118" width="8" height="8" rx="1" fill="#FFCDD2"/>
+<text x="135" y="126" font-family="Arial,sans-serif" font-size="7" fill="#424242">4 — неопределённые</text>
+<rect x="122" y="132" width="8" height="8" rx="1" fill="#E0E0E0"/>
+<text x="135" y="140" font-family="Arial,sans-serif" font-size="7" fill="#424242">5 — восстанавливаемые</text>
+<text x="182" y="154" font-family="Arial,sans-serif" font-size="6.5" fill="#C62828" text-anchor="middle">~500 видов животных и растений</text>
+
+<!-- Map of Russia with reserves -->
+<rect x="260" y="38" width="225" height="120" rx="5" fill="white" opacity="0.65" stroke="#2E7D32" stroke-width="1"/>
+<text x="372" y="55" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20" text-anchor="middle">ООПТ России (карта-схема)</text>
+<!-- Simplified Russia outline -->
+<path d="M280 80 L300 72 L330 68 L360 65 L400 70 L430 72 L450 78 L455 85 L445 90 L430 88 L400 92 L370 88 L340 92 L320 88 L290 92 L275 88 Z" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1"/>
+<!-- Reserve dots -->
+<circle cx="310" cy="78" r="3" fill="#1B5E20"/>
+<text x="310" y="100" font-family="Arial,sans-serif" font-size="5.5" fill="#1B5E20" text-anchor="middle">Кроноцкий</text>
+<circle cx="340" cy="75" r="3" fill="#2E7D32"/>
+<text x="340" y="100" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32" text-anchor="middle">Байкальский</text>
+<circle cx="390" cy="75" r="3" fill="#388E3C"/>
+<text x="390" y="100" font-family="Arial,sans-serif" font-size="5.5" fill="#388E3C" text-anchor="middle">Алтайский</text>
+<circle cx="420" cy="78" r="3" fill="#43A047"/>
+<text x="420" y="100" font-family="Arial,sans-serif" font-size="5.5" fill="#43A047" text-anchor="middle">Сихотэ-Алинь</text>
+<circle cx="370" cy="80" r="3" fill="#1B5E20"/>
+<text x="370" y="105" font-family="Arial,sans-serif" font-size="5.5" fill="#1B5E20" text-anchor="middle">Остров Врангеля</text>
+<!-- Legend -->
+<circle cx="275" cy="115" r="2.5" fill="#1B5E20"/>
+<text x="282" y="118" font-family="Arial,sans-serif" font-size="6" fill="#424242">Заповедник</text>
+<circle cx="330" cy="115" r="2.5" fill="#66BB6A"/>
+<text x="337" y="118" font-family="Arial,sans-serif" font-size="6" fill="#424242">Нац. парк</text>
+<circle cx="385" cy="115" r="2.5" fill="#A5D6A7"/>
+<text x="392" y="118" font-family="Arial,sans-serif" font-size="6" fill="#424242">Заказник</text>
+<text x="372" y="132" font-family="Arial,sans-serif" font-size="6.5" fill="#1B5E20" text-anchor="middle">Всего ООПТ: ~12 000 (площадь ~2,3 млн км²)</text>
+<text x="372" y="145" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">Заповедников: 107 · Нац. парков: 67</text>
+<text x="372" y="155" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32" text-anchor="middle">Заказников: ~2 500</text>
+
+<!-- Comparison table -->
+<rect x="15" y="168" width="470" height="125" rx="5" fill="white" opacity="0.6" stroke="#424242" stroke-width="1"/>
+<text x="250" y="185" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#424242" text-anchor="middle">Сравнение видов ООПТ</text>
+
+<!-- Table header -->
+<rect x="20" y="192" width="460" height="16" rx="2" fill="#37474F"/>
+<text x="60" y="203" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="white" text-anchor="middle">Признак</text>
+<text x="170" y="203" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="white" text-anchor="middle">Заповедник</text>
+<text x="290" y="203" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="white" text-anchor="middle">Национальный парк</text>
+<text x="420" y="203" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="white" text-anchor="middle">Заказник</text>
+
+<!-- Row 1 -->
+<rect x="20" y="208" width="460" height="14" fill="#E8F5E9" opacity="0.5"/>
+<text x="60" y="218" font-family="Arial,sans-serif" font-size="7" fill="#424242" text-anchor="middle">Режим охраны</text>
+<text x="170" y="218" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">Полный запрет</text>
+<text x="290" y="218" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Зонирование (ядро+буфер)</text>
+<text x="420" y="218" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">Частичные ограничения</text>
+
+<!-- Row 2 -->
+<rect x="20" y="222" width="460" height="14" fill="white" opacity="0.3"/>
+<text x="60" y="232" font-family="Arial,sans-serif" font-size="7" fill="#424242" text-anchor="middle">Посещение</text>
+<text x="170" y="232" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">Только по разрешению</text>
+<text x="290" y="232" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Допускается экотуризм</text>
+<text x="420" y="232" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">Свободный доступ</text>
+
+<!-- Row 3 -->
+<rect x="20" y="236" width="460" height="14" fill="#E8F5E9" opacity="0.5"/>
+<text x="60" y="246" font-family="Arial,sans-serif" font-size="7" fill="#424242" text-anchor="middle">Хозяйств. деятельность</text>
+<text x="170" y="246" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">Запрещена полностью</text>
+<text x="290" y="246" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Ограничена в зонах</text>
+<text x="420" y="246" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">Разрешена (частично)</text>
+
+<!-- Row 4 -->
+<rect x="20" y="250" width="460" height="14" fill="white" opacity="0.3"/>
+<text x="60" y="260" font-family="Arial,sans-serif" font-size="7" fill="#424242" text-anchor="middle">Цель</text>
+<text x="170" y="260" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">Сохранение экосистем</text>
+<text x="290" y="260" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Охрана + рекреация</text>
+<text x="420" y="260" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">Восстановление видов</text>
+
+<!-- Row 5 -->
+<rect x="20" y="264" width="460" height="14" fill="#E8F5E9" opacity="0.5"/>
+<text x="60" y="274" font-family="Arial,sans-serif" font-size="7" fill="#424242" text-anchor="middle">Пример</text>
+<text x="170" y="274" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">Кроноцкий, Оксский</text>
+<text x="290" y="274" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Сочинский, Лосиный</text>
+<text x="420" y="274" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">Брянский, Керженский</text>
+
+<!-- Key dates -->
+<rect x="15" y="300" width="470" height="32" rx="4" fill="#2E7D32" opacity="0.12"/>
+<text x="250" y="315" font-family="Arial,sans-serif" font-size="7.5" fill="#1B5E20" text-anchor="middle">1949 — первое издание Красной книги МСОП · 1966 — Красная книга СССР · 2001 — Красная книга РФ</text>
+<text x="250" y="327" font-family="Arial,sans-serif" font-size="7.5" fill="#1B5E20" text-anchor="middle">Конвенция СИТЕС (CITES) — контроль международной торговли редкими видами</text>
+<text x="250" y="342" font-family="Arial,sans-serif" font-size="7" fill="#E57373" text-anchor="middle">Урок 36 · Охрана природы: Красная книга и ООПТ</text>
+</svg>

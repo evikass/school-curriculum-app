@@ -1,0 +1,288 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+<linearGradient id="leafG" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#81C784"/><stop offset="100%" stop-color="#4CAF50"/></linearGradient>
+<linearGradient id="palG" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#66BB6A"/><stop offset="100%" stop-color="#43A047"/></linearGradient>
+<linearGradient id="spoG" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#A5D6A7"/><stop offset="100%" stop-color="#81C784"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Лист. Внешнее и внутреннее строение</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 6 класс — Урок 36</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- SECTION 1: External structure (top left) -->
+<text x="135" y="66" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Внешнее строение листа</text>
+
+<!-- Simple leaf -->
+<path d="M135,78 Q100,90 85,115 Q75,135 80,155 Q90,170 110,178 Q125,182 135,183 Q145,182 160,178 Q180,170 190,155 Q195,135 185,115 Q170,90 135,78 Z" fill="url(#leafG)" stroke="#2E7D32" stroke-width="1.2"/>
+<!-- Midrib -->
+<path d="M135,78 L135,183" fill="none" stroke="#388E3C" stroke-width="1.5"/>
+<!-- Side veins -->
+<path d="M135,100 Q115,110 100,120" fill="none" stroke="#388E3C" stroke-width="0.7"/>
+<path d="M135,100 Q155,110 170,120" fill="none" stroke="#388E3C" stroke-width="0.7"/>
+<path d="M135,125 Q110,135 95,142" fill="none" stroke="#388E3C" stroke-width="0.6"/>
+<path d="M135,125 Q160,135 175,142" fill="none" stroke="#388E3C" stroke-width="0.6"/>
+<path d="M135,148 Q115,155 102,162" fill="none" stroke="#388E3C" stroke-width="0.5"/>
+<path d="M135,148 Q155,155 168,162" fill="none" stroke="#388E3C" stroke-width="0.5"/>
+<!-- Tertiary veins -->
+<path d="M115,110 Q108,118 100,125" fill="none" stroke="#4CAF50" stroke-width="0.3"/>
+<path d="M155,110 Q162,118 170,125" fill="none" stroke="#4CAF50" stroke-width="0.3"/>
+
+<!-- Petiole -->
+<path d="M135,183 L135,210" stroke="#388E3C" stroke-width="2.5" stroke-linecap="round"/>
+<!-- Stipules -->
+<path d="M135,195 L120,200 Q118,203 122,205 L135,200" fill="#81C784" stroke="#388E3C" stroke-width="0.5"/>
+<path d="M135,195 L150,200 Q152,203 148,205 L135,200" fill="#81C784" stroke="#388E3C" stroke-width="0.5"/>
+
+<!-- Labels -->
+<line x1="190" y1="130" x2="205" y2="120" stroke="#666" stroke-width="0.5"/>
+<text x="207" y="118" font-family="Arial,sans-serif" font-size="6.5" fill="#1B5E20">листовая</text>
+<text x="207" y="126" font-family="Arial,sans-serif" font-size="6.5" fill="#1B5E20">пластинка</text>
+
+<line x1="138" y1="200" x2="165" y2="200" stroke="#666" stroke-width="0.5"/>
+<text x="167" y="198" font-family="Arial,sans-serif" font-size="6.5" fill="#1B5E20">черешок</text>
+
+<line x1="150" y1="203" x2="165" y2="210" stroke="#666" stroke-width="0.5"/>
+<text x="167" y="210" font-family="Arial,sans-serif" font-size="6.5" fill="#1B5E20">прилистники</text>
+
+<!-- SECTION 2: Leaf types and venation (top right) -->
+<text x="375" y="66" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Типы листьев и жилкование</text>
+
+<!-- Simple leaf -->
+<rect x="260" y="72" width="55" height="48" rx="3" fill="white" opacity="0.4" stroke="#2E7D32" stroke-width="0.5"/>
+<text x="287" y="82" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#1B5E20" text-anchor="middle">Простой</text>
+<path d="M287,86 Q272,92 268,102 Q270,112 280,116 Q287,118 294,116 Q304,112 306,102 Q302,92 287,86 Z" fill="#81C784" stroke="#388E3C" stroke-width="0.7"/>
+<path d="M287,86 L287,118" fill="none" stroke="#2E7D32" stroke-width="0.8"/>
+<line x1="287" y1="118" x2="287" y2="122" stroke="#388E3C" stroke-width="1.5"/>
+
+<!-- Compound leaf -->
+<rect x="325" y="72" width="55" height="48" rx="3" fill="white" opacity="0.4" stroke="#2E7D32" stroke-width="0.5"/>
+<text x="352" y="82" font-family="Arial,sans-serif" font-size="6" font-weight="bold" fill="#1B5E20" text-anchor="middle">Сложный</text>
+<!-- Rachis -->
+<line x1="352" y1="87" x2="352" y2="120" stroke="#388E3C" stroke-width="1"/>
+<!-- Leaflets -->
+<path d="M352,90 Q342,92 340,98 Q342,102 348,101 L352,97 Z" fill="#81C784" stroke="#388E3C" stroke-width="0.5"/>
+<path d="M352,90 Q362,92 364,98 Q362,102 356,101 L352,97 Z" fill="#81C784" stroke="#388E3C" stroke-width="0.5"/>
+<path d="M352,100 Q340,103 338,110 Q340,115 348,113 L352,107 Z" fill="#81C784" stroke="#388E3C" stroke-width="0.5"/>
+<path d="M352,100 Q364,103 366,110 Q364,115 356,113 L352,107 Z" fill="#81C784" stroke="#388E3C" stroke-width="0.5"/>
+<path d="M352,110 Q343,112 341,117 Q343,120 349,119 L352,115 Z" fill="#81C784" stroke="#388E3C" stroke-width="0.5"/>
+<path d="M352,110 Q361,112 363,117 Q361,120 355,119 L352,115 Z" fill="#81C784" stroke="#388E3C" stroke-width="0.5"/>
+
+<!-- Venation types -->
+<rect x="390" y="72" width="50" height="14" rx="2" fill="white" opacity="0.4" stroke="#2E7D32" stroke-width="0.5"/>
+<text x="415" y="82" font-family="Arial,sans-serif" font-size="5.5" font-weight="bold" fill="#1B5E20" text-anchor="middle">Параллельное</text>
+<!-- Parallel veins -->
+<line x1="400" y1="85" x2="400" y2="97" stroke="#2E7D32" stroke-width="0.5"/>
+<line x1="407" y1="85" x2="407" y2="97" stroke="#2E7D32" stroke-width="0.5"/>
+<line x1="415" y1="85" x2="415" y2="97" stroke="#2E7D32" stroke-width="0.5"/>
+<line x1="423" y1="85" x2="423" y2="97" stroke="#2E7D32" stroke-width="0.5"/>
+<line x1="430" y1="85" x2="430" y2="97" stroke="#2E7D32" stroke-width="0.5"/>
+<text x="415" y="103" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">пшеница</text>
+
+<rect x="445" y="72" width="50" height="14" rx="2" fill="white" opacity="0.4" stroke="#2E7D32" stroke-width="0.5"/>
+<text x="470" y="82" font-family="Arial,sans-serif" font-size="5.5" font-weight="bold" fill="#1B5E20" text-anchor="middle">Дуговое</text>
+<!-- Arc veins -->
+<path d="M455,97 Q462,88 470,86 Q478,88 485,97" fill="none" stroke="#2E7D32" stroke-width="0.5"/>
+<path d="M458,97 Q464,90 470,88 Q476,90 482,97" fill="none" stroke="#2E7D32" stroke-width="0.5"/>
+<path d="M461,97 Q465,92 470,91 Q475,92 479,97" fill="none" stroke="#2E7D32" stroke-width="0.5"/>
+<text x="470" y="103" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">лилия</text>
+
+<rect x="390" y="108" width="105" height="14" rx="2" fill="white" opacity="0.4" stroke="#2E7D32" stroke-width="0.5"/>
+<text x="442" y="118" font-family="Arial,sans-serif" font-size="5.5" font-weight="bold" fill="#1B5E20" text-anchor="middle">Сетчатое (перистое)</text>
+<!-- Net veins -->
+<path d="M415,122 L415,138" stroke="#2E7D32" stroke-width="0.7"/>
+<path d="M415,126 L405,130" stroke="#2E7D32" stroke-width="0.4"/>
+<path d="M415,126 L425,130" stroke="#2E7D32" stroke-width="0.4"/>
+<path d="M415,131 L403,135" stroke="#2E7D32" stroke-width="0.4"/>
+<path d="M415,131 L427,135" stroke="#2E7D32" stroke-width="0.4"/>
+<text x="448" y="132" font-family="Arial,sans-serif" font-size="5" fill="#666">дуб, берёза</text>
+
+<!-- SECTION 3: Internal structure cross-section (main area) -->
+<text x="250" y="150" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Внутреннее строение листа (срез)</text>
+
+<!-- Leaf cross-section shape -->
+<path d="M30,195 Q30,175 60,170 L440,170 Q470,175 470,195 Q470,215 440,220 L60,220 Q30,215 30,195 Z" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/>
+
+<!-- Upper epidermis -->
+<path d="M35,180 L465,180 L465,185 L35,185 Z" fill="#A5D6A7" stroke="#388E3C" stroke-width="0.5"/>
+
+<!-- Palisade mesophyll -->
+<rect x="35" y="185" width="430" height="13" fill="url(#palG)" stroke="none"/>
+<!-- Palisade cells (tall, columnar) -->
+<rect x="45" y="185" width="6" height="13" rx="1" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.4"/>
+<rect x="55" y="185" width="6" height="13" rx="1" fill="#43A047" stroke="#2E7D32" stroke-width="0.4"/>
+<rect x="65" y="185" width="6" height="13" rx="1" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.4"/>
+<rect x="75" y="185" width="6" height="13" rx="1" fill="#43A047" stroke="#2E7D32" stroke-width="0.4"/>
+<rect x="85" y="185" width="6" height="13" rx="1" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.4"/>
+<rect x="95" y="185" width="6" height="13" rx="1" fill="#43A047" stroke="#2E7D32" stroke-width="0.4"/>
+<rect x="110" y="185" width="6" height="13" rx="1" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.4"/>
+<rect x="120" y="185" width="6" height="13" rx="1" fill="#43A047" stroke="#2E7D32" stroke-width="0.4"/>
+<rect x="130" y="185" width="6" height="13" rx="1" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.4"/>
+<rect x="140" y="185" width="6" height="13" rx="1" fill="#43A047" stroke="#2E7D32" stroke-width="0.4"/>
+
+<rect x="170" y="185" width="6" height="13" rx="1" fill="#43A047" stroke="#2E7D32" stroke-width="0.4"/>
+<rect x="180" y="185" width="6" height="13" rx="1" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.4"/>
+
+<rect x="210" y="185" width="6" height="13" rx="1" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.4"/>
+
+<rect x="250" y="185" width="6" height="13" rx="1" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.4"/>
+
+<rect x="290" y="185" width="6" height="13" rx="1" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.4"/>
+
+<rect x="330" y="185" width="6" height="13" rx="1" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.4"/>
+
+<rect x="370" y="185" width="6" height="13" rx="1" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.4"/>
+
+<rect x="410" y="185" width="6" height="13" rx="1" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.4"/>
+
+
+
+<!-- Chloroplasts inside some palisade cells -->
+<circle cx="48" cy="191" r="2" fill="#2E7D32" opacity="0.6"/>
+
+<circle cx="88" cy="192" r="2" fill="#2E7D32" opacity="0.6"/>
+
+<circle cx="213" cy="191" r="2" fill="#2E7D32" opacity="0.6"/>
+
+
+
+<!-- Spongy mesophyll -->
+<rect x="35" y="198" width="430" height="12" fill="url(#spoG)" stroke="none"/>
+<!-- Spongy cells (irregular, with spaces) -->
+<circle cx="50" cy="204" r="4" fill="#81C784" stroke="#4CAF50" stroke-width="0.3"/>
+
+<circle cx="78" cy="206" r="4" fill="#81C784" stroke="#4CAF50" stroke-width="0.3"/>
+
+<circle cx="110" cy="205" r="4" fill="#81C784" stroke="#4CAF50" stroke-width="0.3"/>
+
+<circle cx="145" cy="206" r="4" fill="#81C784" stroke="#4CAF50" stroke-width="0.3"/>
+
+<circle cx="180" cy="205" r="4" fill="#81C784" stroke="#4CAF50" stroke-width="0.3"/>
+
+<circle cx="220" cy="206" r="4" fill="#81C784" stroke="#4CAF50" stroke-width="0.3"/>
+
+<circle cx="260" cy="205" r="4" fill="#81C784" stroke="#4CAF50" stroke-width="0.3"/>
+
+<circle cx="300" cy="206" r="4" fill="#81C784" stroke="#4CAF50" stroke-width="0.3"/>
+
+<circle cx="340" cy="205" r="4" fill="#81C784" stroke="#4CAF50" stroke-width="0.3"/>
+
+<circle cx="380" cy="206" r="4" fill="#81C784" stroke="#4CAF50" stroke-width="0.3"/>
+
+<circle cx="420" cy="205" r="4" fill="#81C784" stroke="#4CAF50" stroke-width="0.3"/>
+
+<circle cx="455" cy="206" r="3.5" fill="#81C784" stroke="#4CAF50" stroke-width="0.3"/>
+
+<!-- Vascular bundle (vein) in cross-section -->
+<ellipse cx="150" cy="204" rx="8" ry="10" fill="white" stroke="#5D4037" stroke-width="0.5"/>
+<!-- Xylem on top -->
+<circle cx="150" cy="200" r="3" fill="#8D6E63" stroke="#5D4037" stroke-width="0.5"/>
+<!-- Phloem below -->
+<circle cx="150" cy="208" r="2.5" fill="#FFCC80" stroke="#E65100" stroke-width="0.5"/>
+<!-- Bundle sheath -->
+<ellipse cx="150" cy="204" rx="9" ry="11" fill="none" stroke="#4CAF50" stroke-width="0.5" stroke-dasharray="1,1"/>
+
+<!-- Another vein -->
+<ellipse cx="350" cy="204" rx="7" ry="9" fill="white" stroke="#5D4037" stroke-width="0.5"/>
+<circle cx="350" cy="201" r="2.5" fill="#8D6E63" stroke="#5D4037" stroke-width="0.5"/>
+<circle cx="350" cy="208" r="2" fill="#FFCC80" stroke="#E65100" stroke-width="0.5"/>
+
+<!-- Lower epidermis -->
+<path d="M35,210 L465,210 L465,215 L35,215 Z" fill="#A5D6A7" stroke="#388E3C" stroke-width="0.5"/>
+
+<!-- Stomata on lower epidermis -->
+<!-- Stomata 1 -->
+<ellipse cx="100" cy="213" rx="6" ry="3" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.6"/>
+<line x1="96" y1="213" x2="104" y2="213" stroke="#2E7D32" stroke-width="0.4"/>
+<!-- Guard cells -->
+<path d="M94,211 Q94,213 96,215" fill="none" stroke="#4CAF50" stroke-width="0.8"/>
+<path d="M106,211 Q106,213 104,215" fill="none" stroke="#4CAF50" stroke-width="0.8"/>
+
+<!-- Stomata 2 -->
+<ellipse cx="250" cy="213" rx="6" ry="3" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.6"/>
+<line x1="246" y1="213" x2="254" y2="213" stroke="#2E7D32" stroke-width="0.4"/>
+<path d="M244,211 Q244,213 246,215" fill="none" stroke="#4CAF50" stroke-width="0.8"/>
+<path d="M256,211 Q256,213 254,215" fill="none" stroke="#4CAF50" stroke-width="0.8"/>
+
+<!-- Stomata 3 -->
+<ellipse cx="400" cy="213" rx="6" ry="3" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.6"/>
+<line x1="396" y1="213" x2="404" y2="213" stroke="#2E7D32" stroke-width="0.4"/>
+<path d="M394,211 Q394,213 396,215" fill="none" stroke="#4CAF50" stroke-width="0.8"/>
+<path d="M406,211 Q406,213 404,215" fill="none" stroke="#4CAF50" stroke-width="0.8"/>
+
+<!-- Labels for cross-section -->
+<!-- Upper epidermis -->
+<line x1="50" y1="180" x2="20" y2="175" stroke="#666" stroke-width="0.5"/>
+<text x="18" y="173" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="end">верхняя</text>
+<text x="18" y="181" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="end">эпидерма</text>
+
+<!-- Palisade -->
+<line x1="50" y1="192" x2="18" y2="192" stroke="#666" stroke-width="0.5"/>
+<text x="16" y="190" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="end">столбчатая</text>
+<text x="16" y="198" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="end">ткань</text>
+
+<!-- Spongy -->
+<line x1="50" y1="204" x2="18" y2="204" stroke="#666" stroke-width="0.5"/>
+<text x="16" y="202" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="end">губчатая</text>
+<text x="16" y="210" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="end">ткань</text>
+
+<!-- Vein label -->
+<line x1="150" y1="215" x2="150" y2="230" stroke="#666" stroke-width="0.5"/>
+<text x="150" y="238" font-family="Arial,sans-serif" font-size="6" fill="#5D4037" text-anchor="middle">жилка (проводящий пучок)</text>
+
+<!-- Lower epidermis -->
+<line x1="450" y1="213" x2="480" y2="208" stroke="#666" stroke-width="0.5"/>
+<text x="482" y="206" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20">нижняя</text>
+<text x="482" y="214" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20">эпидерма</text>
+
+<!-- Stomata label -->
+<line x1="250" y1="218" x2="250" y2="230" stroke="#666" stroke-width="0.5"/>
+<text x="250" y="238" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">устьице</text>
+
+<!-- Stomata detail (bottom right) -->
+<rect x="350" y="245" width="140" height="95" rx="4" fill="white" opacity="0.5" stroke="#2E7D32" stroke-width="0.8"/>
+<text x="420" y="258" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1B5E20" text-anchor="middle">Устьице (увел.)</text>
+
+<!-- Guard cells pair -->
+<path d="M400,280 Q410,272 420,280 Q410,288 400,280 Z" fill="#81C784" stroke="#2E7D32" stroke-width="1"/>
+<path d="M420,280 Q430,272 440,280 Q430,288 420,280 Z" fill="#81C784" stroke="#2E7D32" stroke-width="1"/>
+<!-- Stomatal pore -->
+<path d="M410,278 Q420,276 430,278" fill="none" stroke="#1B5E20" stroke-width="0.8"/>
+<path d="M410,282 Q420,284 430,282" fill="none" stroke="#1B5E20" stroke-width="0.8"/>
+<!-- Nuclei in guard cells -->
+<ellipse cx="407" cy="280" rx="2.5" ry="2" fill="#FFF9C4" stroke="#F9A825" stroke-width="0.5"/>
+<ellipse cx="433" cy="280" rx="2.5" ry="2" fill="#FFF9C4" stroke="#F9A825" stroke-width="0.5"/>
+<!-- Chloroplasts in guard cells -->
+<circle cx="403" cy="278" r="1.2" fill="#2E7D32"/>
+<circle cx="406" cy="282" r="1" fill="#2E7D32"/>
+<circle cx="437" cy="278" r="1.2" fill="#2E7D32"/>
+<circle cx="434" cy="282" r="1" fill="#2E7D32"/>
+<!-- Epidermal cells around -->
+<rect x="385" y="270" width="12" height="8" rx="2" fill="#C8E6C9" stroke="#388E3C" stroke-width="0.5"/>
+<rect x="443" y="270" width="12" height="8" rx="2" fill="#C8E6C9" stroke="#388E3C" stroke-width="0.5"/>
+<rect x="385" y="282" width="12" height="8" rx="2" fill="#C8E6C9" stroke="#388E3C" stroke-width="0.5"/>
+<rect x="443" y="282" width="12" height="8" rx="2" fill="#C8E6C9" stroke="#388E3C" stroke-width="0.5"/>
+
+<!-- Labels -->
+<text x="420" y="298" font-family="Arial,sans-serif" font-size="5.5" fill="#1B5E20" text-anchor="middle">устьичная щель</text>
+<line x1="398" y1="290" x2="388" y2="298" stroke="#666" stroke-width="0.4"/>
+<text x="385" y="305" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20" text-anchor="end">замыка-</text>
+<text x="385" y="312" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20" text-anchor="end">тельные</text>
+<text x="385" y="319" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20" text-anchor="end">клетки</text>
+
+<!-- Gas exchange arrows -->
+<path d="M420,268 L420,275" fill="none" stroke="#1565C0" stroke-width="0.8"/>
+<polygon points="420,275 418,270 422,270" fill="#1565C0"/>
+<text x="420" y="266" font-family="Arial,sans-serif" font-size="5" fill="#1565C0" text-anchor="middle">CO₂↓</text>
+<path d="M425,276 L425,268" fill="none" stroke="#E65100" stroke-width="0.8"/>
+<polygon points="425,266 423,271 427,271" fill="#E65100"/>
+<text x="432" y="266" font-family="Arial,sans-serif" font-size="5" fill="#E65100">O₂↑</text>
+
+<text x="420" y="332" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">1 мм² листа = 100–300 устьиц</text>
+<text x="420" y="340" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Открыты днём, закрыты ночью</text>
+
+<!-- Cuticle indication -->
+<line x1="35" y1="178" x2="465" y2="178" stroke="#FFAB91" stroke-width="0.8"/>
+<text x="250" y="176" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle">кутикула</text>
+</svg>

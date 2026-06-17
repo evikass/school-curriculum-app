@@ -1,60 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FCE4EC"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="sky3" x1="0" y1="0" x2="0" y2="200">
+      <stop offset="0%" stop-color="#ffd93d" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#1a0a3e" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="12"/>
-  <rect x="0" y="0" width="500" height="50" fill="#EC407A" rx="12"/>
-  <rect x="0" y="25" width="500" height="25" fill="#EC407A"/>
-  <text x="250" y="34" text-anchor="middle" fill="#FFF" font-size="16" font-weight="bold" font-family="Arial,sans-serif">Урок 3. Декоративно-прикладное искусство</text>
-  <rect x="15" y="60" width="230" height="135" fill="#FFF" stroke="#EC407A" stroke-width="1.5" rx="8"/>
-  <rect x="15" y="60" width="230" height="25" fill="#EC407A" rx="8"/>
-  <rect x="15" y="77" width="230" height="8" fill="#EC407A"/>
-  <text x="130" y="77" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Народные промыслы</text>
-  <ellipse cx="55" cy="107" rx="18" ry="10" fill="#FDD835" stroke="#E53935" stroke-width="1.5"/>
-  <text x="82" y="105" fill="#AD1457" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Хохлома</text>
-  <text x="82" y="116" fill="#666" font-size="7" font-weight="normal" font-family="Arial,sans-serif">чёрно-красно-золотая роспись</text>
-  <ellipse cx="55" cy="137" rx="18" ry="10" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
-  <text x="82" y="135" fill="#AD1457" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Гжель</text>
-  <text x="82" y="146" fill="#666" font-size="7" font-weight="normal" font-family="Arial,sans-serif">сине-белая керамика</text>
-  <ellipse cx="55" cy="167" rx="18" ry="10" fill="#FFF9C4" stroke="#E53935" stroke-width="1.5"/>
-  <text x="82" y="165" fill="#AD1457" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Дымково</text>
-  <text x="82" y="176" fill="#666" font-size="7" font-weight="normal" font-family="Arial,sans-serif">глиняная игрушка</text>
-  <rect x="255" y="60" width="230" height="135" fill="#FFF" stroke="#EC407A" stroke-width="1.5" rx="8"/>
-  <rect x="255" y="60" width="230" height="25" fill="#EC407A" rx="8"/>
-  <rect x="255" y="77" width="230" height="8" fill="#EC407A"/>
-  <text x="370" y="77" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Традиционные ремёсла</text>
-  <text x="265" y="95" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Палех — лаковая миниатюра</text>
-  <text x="265" y="108" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Федоскино — масляная мин.</text>
-  <text x="265" y="121" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Жостово — подносы, букеты</text>
-  <text x="265" y="134" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Городец — конь-качалка</text>
-  <text x="265" y="147" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Вологодское кружево</text>
-  <text x="265" y="160" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Тульский самовар</text>
-  <text x="265" y="173" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Матрёшка (Сергиев Посад)</text>
-  <text x="265" y="186" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Береста, резьба по кости</text>
-  <rect x="15" y="205" width="230" height="125" fill="#FFF" stroke="#EC407A" stroke-width="1.5" rx="8"/>
-  <rect x="15" y="205" width="230" height="25" fill="#AD1457" rx="8"/>
-  <rect x="15" y="222" width="230" height="8" fill="#AD1457"/>
-  <text x="130" y="222" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Материалы и техники</text>
-  <text x="25" y="240" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Дерево — резьба, роспись</text>
-  <text x="25" y="253" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Глина — лепка, обжиг</text>
-  <text x="25" y="266" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Металл — чеканка, ковка, литьё</text>
-  <text x="25" y="279" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Ткань — вышивка, ткачество</text>
-  <text x="25" y="292" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Береста — плетение, тиснение</text>
-  <text x="25" y="305" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Кость — резьба, гравировка</text>
-  <text x="25" y="318" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Стекло — выдувание, роспись</text>
-  <rect x="255" y="205" width="230" height="125" fill="#FFF" stroke="#EC407A" stroke-width="1.5" rx="8"/>
-  <rect x="255" y="205" width="230" height="25" fill="#AD1457" rx="8"/>
-  <rect x="255" y="222" width="230" height="8" fill="#AD1457"/>
-  <text x="370" y="222" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Символы и традиции</text>
-  <text x="265" y="240" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Орнамент — оберег, символ</text>
-  <text x="265" y="253" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Солярные знаки ☀, конь 🐴</text>
-  <text x="265" y="266" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Цветовая символика</text>
-  <text x="265" y="279" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Передача мастерства из пок.</text>
-  <text x="265" y="292" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Связь с природой и циклами</text>
-  <text x="265" y="305" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Ритуальное и магическое назн.</text>
-  <text x="265" y="318" fill="#333" font-size="9" font-weight="normal" font-family="Arial,sans-serif">• Каждая вещь уникальна</text>
+  <rect width="500" height="350" fill="#1a0a3e"/>
+  <rect width="500" height="200" fill="url(#sky3)"/>
+  <!-- Egyptian pyramids -->
+  <polygon points="80,250 150,120 220,250" fill="#d4a843" opacity="0.7"/>
+  <polygon points="160,250 210,170 260,250" fill="#c49535" opacity="0.6"/>
+  <polygon points="230,250 260,200 290,250" fill="#b8882a" opacity="0.5"/>
+  <!-- Sun -->
+  <circle cx="400" cy="80" r="35" fill="#ffd93d" opacity="0.6"/>
+  <circle cx="400" cy="80" r="25" fill="#ffd93d" opacity="0.8"/>
+  <!-- Sun rays -->
+  <line x1="400" y1="35" x2="400" y2="20" stroke="#ffd93d" stroke-width="2" opacity="0.4"/>
+  <line x1="435" y1="55" x2="450" y2="45" stroke="#ffd93d" stroke-width="2" opacity="0.4"/>
+  <line x1="445" y1="80" x2="460" y2="80" stroke="#ffd93d" stroke-width="2" opacity="0.4"/>
+  <line x1="435" y1="105" x2="450" y2="115" stroke="#ffd93d" stroke-width="2" opacity="0.4"/>
+  <!-- Ziggurat (Mesopotamia) -->
+  <rect x="320" y="210" width="70" height="15" fill="#8b6914" opacity="0.7"/>
+  <rect x="328" y="195" width="55" height="15" fill="#8b6914" opacity="0.7"/>
+  <rect x="336" y="180" width="40" height="15" fill="#8b6914" opacity="0.7"/>
+  <rect x="344" y="165" width="25" height="15" fill="#8b6914" opacity="0.7"/>
+  <!-- Stairway on ziggurat -->
+  <line x1="355" y1="225" x2="355" y2="165" stroke="#a07820" stroke-width="2" opacity="0.5"/>
+  <!-- Arch -->
+  <path d="M420 250 Q445 220 470 250" fill="none" stroke="#c49535" stroke-width="3" opacity="0.7"/>
+  <line x1="420" y1="250" x2="420" y2="230" stroke="#c49535" stroke-width="3" opacity="0.7"/>
+  <line x1="470" y1="250" x2="470" y2="230" stroke="#c49535" stroke-width="3" opacity="0.7"/>
+  <!-- Sphinx silhouette -->
+  <path d="M30 250 L30 210 Q35 195 50 190 Q65 185 70 195 L75 210 Q80 210 80 215 L80 250" fill="#c49535" opacity="0.5"/>
+  <!-- Desert sand -->
+  <path d="M0 250 Q100 240 200 250 Q300 260 400 250 Q450 245 500 250 L500 350 L0 350 Z" fill="#d4a843" opacity="0.2"/>
+  <!-- Sand texture dots -->
+  <circle cx="50" cy="260" r="1" fill="#d4a843" opacity="0.4"/>
+  <circle cx="150" cy="255" r="1" fill="#d4a843" opacity="0.4"/>
+  <circle cx="250" cy="265" r="1" fill="#d4a843" opacity="0.4"/>
+  <circle cx="350" cy="258" r="1" fill="#d4a843" opacity="0.4"/>
+  <text x="250" y="340" font-size="9" fill="#ffffff" opacity="0.5" text-anchor="middle" font-family="sans-serif">Архитектура древнего мира</text>
 </svg>

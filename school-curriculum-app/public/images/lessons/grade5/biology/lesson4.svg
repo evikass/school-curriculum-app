@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" stroke="#2E7D32" stroke-width="2.5" rx="8"/>
+  <text x="250" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20">Среды жизни на Земле</text>
+  <text x="250" y="35" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#666">Биология 5 класс — Урок 4</text>
+  <line x1="30" y1="40" x2="470" y2="40" stroke="#2E7D32" stroke-width="1" opacity="0.5"/>
+
+  <!-- 1. Наземно-воздушная среда -->
+  <rect x="15" y="50" width="230" height="135" rx="6" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1"/>
+  <text x="130" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20">Наземно-воздушная</text>
+
+  <!-- Sky -->
+  <rect x="20" y="72" width="220" height="50" rx="3" fill="#B3E5FC" opacity="0.5"/>
+  <!-- Sun -->
+  <circle cx="210" cy="82" r="12" fill="#FFF176"/>
+  <circle cx="210" cy="82" r="9" fill="#FFEE58"/>
+  <!-- Clouds -->
+  <ellipse cx="60" cy="82" rx="18" ry="8" fill="white" opacity="0.7"/>
+  <ellipse cx="75" cy="79" rx="12" ry="7" fill="white" opacity="0.7"/>
+  <ellipse cx="140" cy="88" rx="15" ry="6" fill="white" opacity="0.6"/>
+
+  <!-- Ground -->
+  <rect x="20" y="118" width="220" height="55" rx="0" fill="#8D6E63" opacity="0.4"/>
+  <rect x="20" y="118" width="220" height="10" rx="0" fill="#66BB6A" opacity="0.6"/>
+
+  <!-- Tree -->
+  <rect x="80" y="95" width="6" height="25" fill="#5D4037"/>
+  <ellipse cx="83" cy="88" rx="14" ry="12" fill="#4CAF50"/>
+  <ellipse cx="83" cy="85" rx="11" ry="9" fill="#66BB6A"/>
+
+  <!-- Bird -->
+  <path d="M150,88 Q155,82 160,88 Q165,82 170,88" fill="none" stroke="#5D4037" stroke-width="1.2"/>
+
+  <!-- Flower -->
+  <line x1="120" y1="118" x2="120" y2="105" stroke="#4CAF50" stroke-width="1"/>
+  <circle cx="120" cy="103" r="3" fill="#E91E63"/>
+  <circle cx="120" cy="103" r="1.5" fill="#FFF176"/>
+
+  <!-- Grass -->
+  <path d="M30,118 Q32,110 34,118" stroke="#4CAF50" stroke-width="0.8" fill="none"/>
+  <path d="M38,118 Q40,108 42,118" stroke="#4CAF50" stroke-width="0.8" fill="none"/>
+  <path d="M190,118 Q192,110 194,118" stroke="#4CAF50" stroke-width="0.8" fill="none"/>
+
+  <text x="130" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#555">Свойства: много кислорода,</text>
+  <text x="130" y="149" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#555">свет, изменение температуры,</text>
+  <text x="130" y="158" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#555">ветер, осадки</text>
+
+  <!-- 2. Водная среда -->
+  <rect x="255" y="50" width="230" height="135" rx="6" fill="#E3F2FD" stroke="#2196F3" stroke-width="1"/>
+  <text x="370" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#0D47A1">Водная</text>
+
+  <!-- Water -->
+  <rect x="260" y="72" width="220" height="95" rx="3" fill="#42A5F5" opacity="0.3"/>
+  <!-- Waves -->
+  <path d="M260,80 Q280,75 300,80 Q320,85 340,80 Q360,75 380,80 Q400,85 420,80 Q440,75 470,80" fill="none" stroke="#42A5F5" stroke-width="1" opacity="0.5"/>
+
+  <!-- Fish -->
+  <ellipse cx="330" cy="110" rx="18" ry="9" fill="#FF8A65"/>
+  <polygon points="350,110 362,102 362,118" fill="#FF8A65"/>
+  <circle cx="320" cy="108" r="2" fill="#1B5E20"/>
+  <path d="M325,106 Q328,103 331,106" stroke="#D32F2F" stroke-width="0.5" fill="none"/>
+
+  <!-- Seaweed -->
+  <path d="M290,165 Q285,145 295,130 Q290,120 295,110" stroke="#2E7D32" stroke-width="2" fill="none"/>
+  <path d="M310,165 Q315,150 305,140 Q310,130 305,120" stroke="#388E3C" stroke-width="2" fill="none"/>
+
+  <!-- Shells -->
+  <ellipse cx="380" cy="155" rx="8" ry="5" fill="#FFCC80" stroke="#E65100" stroke-width="0.5"/>
+  <line x1="375" y1="155" x2="388" y2="155" stroke="#E65100" stroke-width="0.3"/>
+
+  <!-- Bubbles -->
+  <circle cx="345" cy="95" r="3" fill="none" stroke="#90CAF9" stroke-width="0.5"/>
+  <circle cx="355" cy="88" r="2" fill="none" stroke="#90CAF9" stroke-width="0.5"/>
+  <circle cx="350" cy="82" r="1.5" fill="none" stroke="#90CAF9" stroke-width="0.5"/>
+
+  <text x="370" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#555">Свойства: мало кислорода,</text>
+  <text x="370" y="149" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#555">давление, плотность,</text>
+  <text x="370" y="158" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#555">постоянная температура</text>
+
+  <!-- 3. Почвенная среда -->
+  <rect x="15" y="195" width="230" height="135" rx="6" fill="#EFEBE9" stroke="#795548" stroke-width="1"/>
+  <text x="130" y="211" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#3E2723">Почвенная</text>
+
+  <!-- Soil cross-section -->
+  <rect x="20" y="218" width="220" height="50" fill="#8D6E63" opacity="0.5"/>
+  <rect x="20" y="218" width="220" height="15" fill="#66BB6A" opacity="0.3"/>
+  <!-- Roots -->
+  <path d="M80,218 Q75,235 70,248 Q68,255 72,260" stroke="#5D4037" stroke-width="1.5" fill="none"/>
+  <path d="M82,218 Q88,240 95,255" stroke="#5D4037" stroke-width="1" fill="none"/>
+  <path d="M160,218 Q155,232 150,245 Q148,252 155,258" stroke="#5D4037" stroke-width="1.5" fill="none"/>
+
+  <!-- Worm -->
+  <path d="M110,240 Q115,235 120,240 Q125,245 130,240 Q135,235 140,240" stroke="#D7CCC8" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Soil particles -->
+  <circle cx="50" cy="242" r="2" fill="#A1887F"/>
+  <circle cx="60" cy="250" r="1.5" fill="#BCAAA4"/>
+  <circle cx="180" cy="245" r="2" fill="#A1887F"/>
+  <circle cx="200" cy="252" r="1.5" fill="#BCAAA4"/>
+  <circle cx="170" cy="255" r="1" fill="#8D6E63"/>
+
+  <!-- Mole -->
+  <ellipse cx="200" cy="235" rx="10" ry="7" fill="#795548"/>
+  <circle cx="207" cy="233" r="1.5" fill="#1B5E20"/>
+  <path d="M210,235 L214,235" stroke="#3E2723" stroke-width="0.8"/>
+
+  <!-- Surface grass -->
+  <path d="M25,218 Q27,210 29,218" stroke="#4CAF50" stroke-width="0.8" fill="none"/>
+  <path d="M35,218 Q37,208 39,218" stroke="#4CAF50" stroke-width="0.8" fill="none"/>
+
+  <text x="130" y="282" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#555">Свойства: мало света, мало</text>
+  <text x="130" y="291" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#555">кислорода, плотная среда,</text>
+  <text x="130" y="300" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#555">стабильная температура</text>
+
+  <!-- 4. Организменная среда -->
+  <rect x="255" y="195" width="230" height="135" rx="6" fill="#FCE4EC" stroke="#E91E63" stroke-width="1"/>
+  <text x="370" y="211" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#880E4F">Организменная</text>
+
+  <!-- Host organism (large cell/organism) -->
+  <ellipse cx="370" cy="260" rx="55" ry="40" fill="#FFCDD2" stroke="#E91E63" stroke-width="1.5" opacity="0.5"/>
+  <ellipse cx="370" cy="260" rx="45" ry="32" fill="#FFCDD2" stroke="#E91E63" stroke-width="1" opacity="0.3"/>
+
+  <!-- Nucleus of host -->
+  <ellipse cx="370" cy="255" rx="18" ry="14" fill="#EF9A9A" stroke="#E91E63" stroke-width="0.8"/>
+  <text x="370" y="258" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#880E4F">ядро</text>
+
+  <!-- Parasites inside -->
+  <!-- Bacteria -->
+  <ellipse cx="335" cy="240" rx="6" ry="3" fill="#42A5F5" stroke="#1565C0" stroke-width="0.8"/>
+  <text x="335" y="250" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.5" fill="#0D47A1">бактерия</text>
+
+  <!-- Virus -->
+  <circle cx="405" cy="245" r="5" fill="#CE93D8" stroke="#7B1FA2" stroke-width="0.8"/>
+  <line x1="405" y1="240" x2="405" y2="235" stroke="#7B1FA2" stroke-width="0.5"/>
+  <line x1="400" y1="242" x2="396" y2="239" stroke="#7B1FA2" stroke-width="0.5"/>
+  <line x1="410" y1="242" x2="414" y2="239" stroke="#7B1FA2" stroke-width="0.5"/>
+  <text x="405" y="255" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.5" fill="#6A1B9A">вирус</text>
+
+  <!-- Worm parasite -->
+  <path d="M340,272 Q345,268 350,272 Q355,276 360,272" stroke="#8D6E63" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <text x="350" y="282" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.5" fill="#3E2723">паразит</text>
+
+  <!-- Label host -->
+  <text x="370" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#880E4F">организм-хозяин</text>
+
+  <text x="370" y="306" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#555">Свойства: стабильные условия,</text>
+  <text x="370" y="315" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#555">готовая пища, защита,</text>
+  <text x="370" y="324" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#555">ограниченное пространство</text>
+</svg>

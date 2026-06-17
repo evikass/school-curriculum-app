@@ -9,100 +9,179 @@ interface Props {
   size?: 'small' | 'medium' | 'large'
 }
 
-// Определяем ключевые слова для разных типов уроков
-const lessonPatterns = {
+// Маппинг: название предмета → SVG тип (приоритет предмета)
+const subjectSvgMap: Record<string, string> = {
+  'математика': 'numbers',
+  'русский язык': 'letters',
+  'литература': 'reading',
+  'чтение': 'reading',
+  'английский язык': 'english',
+  'окружающий мир': 'nature',
+  'природоведение': 'nature',
+  'география': 'geography',
+  'история': 'history',
+  'биология': 'biology',
+  'физика': 'physics',
+  'химия': 'chemistry',
+  'музыка': 'music',
+  'изобразительное искусство': 'art',
+  'изо': 'art',
+  'физическая культура': 'pe',
+  'физкультура': 'pe',
+  'информатика': 'informatics',
+  'робототехника': 'robotics',
+  'этика': 'ethics',
+  'основы безопасности жизнедеятельности': 'safety',
+  'обж': 'safety',
+  'технология': 'tech',
+  'труд': 'tech',
+  'проектная деятельность': 'projects',
+  'основы религиозных культур': 'religion',
+  'финансовая грамотность': 'finance',
+  'цифровая грамотность': 'digital',
+  'программирование': 'coding',
+  'обществознание': 'social',
+  'лепка': 'clay',
+  'ремесло': 'crafts',
+  'развитие речи': 'sounds',
+  'подготовка к письму': 'writing',
+  'крафт': 'crafts',
+}
+
+// Ключевые слова для определения SVG по заголовку (внутри предмета)
+const titlePatterns: Record<string, string[]> = {
   // Математика
-  numbers: ['числ', 'нумерац', 'счёт', 'цифр', 'разряд', 'класс', 'тысяч', 'миллион'],
+  numbers: ['числ', 'нумерац', 'счёт', 'цифр', 'разряд', 'класс единиц', 'тысяч', 'миллион', 'миллиард'],
   addition: ['сложен', 'сумм', 'плюс', 'прибав', 'увелич', '+'],
-  subtraction: ['вычитан', 'разност', 'минус', 'уменьш', '-'],
+  subtraction: ['вычитан', 'разност', 'минус', 'уменьш', '−'],
   multiplication: ['умножен', 'произведен', '×', 'умножа'],
   division: ['делен', 'делим', 'частн', '÷', 'остаток'],
   fractions: ['дроб', 'дол', 'числит', 'знаменател', 'четверт', 'половин', 'трет'],
-  geometry: ['фигур', 'треугольн', 'квадрат', 'прямоугольн', 'круг', 'угол', 'периметр', 'площад'],
+  geometry: ['фигур', 'треугольн', 'квадрат', 'прямоугольн', 'угол', 'периметр', 'площад', 'многоугольн', 'ромб', 'параллелограмм', 'трапеца', 'окружност', 'радиус', 'диаметр', 'хорд'],
   equations: ['уравнен', 'равенств', 'неизвестн', 'икс', 'x='],
-  time: ['врем', 'час', 'минут', 'секунд', 'сутк'],
+  time: ['врем', 'час', 'минут', 'секунд'],
   measurement: ['измерен', 'величин', 'длин', 'масс', 'объём', 'литр', 'килогр', 'метр', 'сантиметр'],
   
   // Русский язык
-  letters: ['букв', 'алфавит', 'звук', 'гласн', 'согласн'],
-  words: ['слов', 'корн', 'приставк', 'суффикс', 'окончан', 'основа'],
-  sentence: ['предложен', 'подлежащ', 'сказуем', 'члены предложен'],
-  partsOfSpeech: ['существительн', 'прилагательн', 'глагол', 'местоимен', 'нареч'],
+  letters: ['букв', 'алфавит', 'гласн', 'согласн', 'твёрд', 'мягк'],
+  words: ['корн', 'приставк', 'суффикс', 'окончан', 'основа', 'состав слов', 'морфем'],
+  sentence: ['предложен', 'подлежащ', 'сказуем', 'члены предложен', 'синтаксис'],
+  partsOfSpeech: ['существительн', 'прилагательн', 'глагол', 'местоимен', 'нареч', 'частиц', 'предлог', 'союз', 'междомет', 'части речи'],
   cases: ['падеж', 'склонен', 'родител', 'дател', 'винител', 'творител', 'предложн'],
-  punctuation: ['знак', 'запят', 'точк', 'тире', 'двоеточ', 'кавычк'],
-  spelling: ['правописан', 'орфограф', 'проверочн', 'безударн'],
+  punctuation: ['запят', 'тире', 'двоеточ', 'кавычк', 'восклицательн', 'вопросительн'],
+  spelling: ['правописан', 'орфограф', 'проверочн', 'безударн', 'ударен'],
   
   // Литература
   reading: ['чтен', 'произведен', 'автор', 'писател', 'поэт'],
-  folklore: ['сказк', 'пословиц', 'поговорк', 'загадк', 'фольклор'],
-  poetry: ['стих', 'стихотворен', 'рифм', 'поэзи'],
-  prose: ['рассказ', 'повест', 'роман', 'проза'],
+  folklore: ['пословиц', 'поговорк', 'загадк', 'фольклор', 'былин'],
+  poetry: ['стих', 'стихотворен', 'рифм', 'поэзи', 'басн'],
+  prose: ['повест', 'роман', 'проза'],
   
-  // Окружающий мир
-  nature: ['природ', 'растен', 'животн', 'гриб'],
-  seasons: ['времена год', 'зим', 'весн', 'лет', 'осен'],
-  space: ['космос', 'планет', 'звезд', 'солнц', 'лун', 'земл'],
-  ecology: ['эколог', 'окружающ', 'сред', 'загрязнен'],
+  // Окружающий мир / природа
+  nature: ['природ', 'растен', 'гриб', 'сообществ', 'экосистем', 'лес', 'луг', 'поле'],
+  seasons: ['времена год', 'зим', 'весн', 'лет', 'осен', 'сезон'],
+  space: ['космос', 'планет', 'звезд', 'солнц', 'лун', 'вселенн'],
+  ecology: ['эколог', 'загрязнен'],
   
   // История
-  history: ['истор', 'древн', 'век', 'эпох', 'войн', 'цар'],
+  history: ['древн', 'эпох', 'войн', 'цар', 'княж', 'импер'],
   
   // География
-  geography: ['географ', 'карт', 'материк', 'океан', 'стран', 'город'],
-  map: ['карт', 'масштаб', 'план'],
+  geography: ['географ', 'материк', 'океан', 'рельеф', 'климат', 'зон'],
+  map: ['карт', 'масштаб', 'план', 'градусн'],
   
   // Биология
-  biology: ['биолог', 'клетк', 'организм', 'животн', 'растен'],
+  biology: ['клетк', 'организм', 'царств', 'бактер', 'вирус', 'тип', 'класс животн', 'филум'],
   
   // Физика
-  physics: ['физик', 'сил', 'движ', 'скорост', 'энерг'],
+  physics: ['сил', 'движ', 'скорост', 'энерг', 'механич', 'электр', 'магнит', 'оптик', 'тепл', 'давлен'],
   
   // Химия
-  chemistry: ['хим', 'элемент', 'молекул', 'атом', 'реакц'],
+  chemistry: ['элемент', 'молекул', 'атом', 'реакц', 'веществ', 'металл', 'кислот', 'щелоч', 'оксид', 'сол'],
   
   // Английский
-  english: ['english', 'английск', 'translate', 'перевод', 'слов', 'word'],
+  english: ['english', 'alphabet', 'vowels', 'consonants', 'reading rules', 'numbers', 'colors', 'family', 'animals', 'food', 'clothes', 'weather', 'body parts', 'months', 'seasons', 'fruits', 'vegetables', 'shapes', 'pets', 'wild animals', 'farm animals', 'drinks', 'cafe'],
   
   // Музыка
-  music: ['музык', 'нот', 'ритм', 'мелод', 'песн'],
+  music: ['нот', 'ритм', 'мелод', 'песн', 'оркестр', 'инструмент', 'композитор', 'симфон', 'жанр', 'тембр', 'регистр', 'вокал'],
   
   // ИЗО
-  art: ['изо', 'рисован', 'краск', 'цвет', 'палитр', 'худож'],
+  art: ['изо', 'рисован', 'краск', 'палитр', 'худож', 'живопись', 'график', 'скульптур', 'натюрморт', 'портрет', 'пейзаж', 'жанр', 'композица', 'дымковск', 'хохлом', 'гжель'],
   
   // Физкультура
-  pe: ['физкул', 'спорт', 'упражнен', 'игр', 'бег', 'прыжк'],
+  pe: ['физкул', 'спорт', 'упражнен', 'бег', 'прыжк', 'гимнастик', 'строев', 'лыжн', 'игр', 'эстафет', 'разминк'],
+  
+  // Новые предметы
+  informatics: ['информатик', 'компьютер', 'программ', 'алгоритм', 'кодирован', 'логическ', 'блок-схем', 'клавиатур', 'текстов', 'редактор', 'файл', 'папк', 'вирус', 'безопасност'],
+  robotics: ['робот', 'lego', 'детал', 'конструкца', 'механизм', 'шестерён', 'мотор', 'датчик', 'сборк', 'модел'],
+  ethics: ['этик', 'морал', 'нравствен', 'добро', 'зло', 'совест', 'чест', 'ответствен', 'вежливост', 'этикет', 'правил поведен', 'волшебн слов', 'приветств', 'прощан'],
+  safety: ['светофор', 'дорог', 'пешеход', 'пожар', 'эвакуац', 'травм', 'первичн помощ', 'медицинск', 'правил безопасност', 'знак', 'велосипед'],
+  tech: ['бумаг', 'картон', 'вырезан', 'разметк', 'кле', 'ножниц', 'поделк', 'аппликац', 'оригам', 'дерев', 'древесин', 'пил', 'инструмент'],
+  projects: ['проект', 'исследован', 'наблюден', 'эксперимент', 'гипотез', 'метод', 'информац', 'презентац', 'доклад', 'ботан'],
+  religion: ['религ', 'православ', 'ислам', 'будд', 'иуда', 'культур', 'традица', 'храм', 'молитв', 'заповед'],
+  finance: ['деньг', 'доход', 'расход', 'бюджет', 'сбережен', 'кредит', 'банк', 'валют', 'монет', 'купюр', 'цена', 'товар'],
+  digital: ['цифров', 'интернет', 'парол', 'кибербуллинг', 'личн дан', 'цифров след', 'сет', 'онлайн', 'безопасност в интернет', 'мошенничеств'],
+  coding: ['scratch', 'спрайт', 'сцен', 'координат', 'блок код', 'цикл', 'услов', 'переменн', 'алгоритм', 'программ'],
+  social: ['обществ', 'институт', 'семь', 'образован', 'государств', 'прав', 'конституц', 'граждан', 'социальн'],
   
   // === ПОДГОТОВИШКИ (детский сад / класс 0) ===
-  // Развитие речи
   sounds: ['звук', 'реч', 'артикул'],
   syllables: ['слог', 'хлоп'],
   fairytales: ['сказк'],
-  
-  // Подготовка к письму
-  writing: ['пропис', 'контур', 'лини', 'узор', 'клеточк', 'графическ', 'элемент'],
-  
-  // Окружающий мир (детский)
+  writing: ['пропис', 'контур', 'узор', 'клеточк', 'графическ'],
   pets: ['домашн', 'собак', 'кошк', 'коров', 'лошад', 'свин', 'кур'],
   wildAnimals: ['дикие', 'медвед', 'лис', 'волк', 'заяц', 'белк', 'ёж'],
   birds: ['птиц', 'вороб', 'ворон', 'синиц', 'снегир', 'ласточк'],
   trees: ['дерев', 'берёз', 'дуб', 'клён', 'рябин', 'ёлк', 'сосн'],
   fruits: ['овощ', 'фрукт', 'яблок', 'морков', 'огурц', 'помидор', 'банан'],
   dayNight: ['сутк', 'утро', 'днём', 'вечер', 'ноч'],
-  safety: ['безопасност', 'светофор', 'дорог', 'пешеход'],
-  
-  // Музыка (детский)
-  instruments: ['бубен', 'погремушк', 'барабан', 'колокольчик', 'оркестр'],
+  instruments: ['бубен', 'погремушк', 'барабан', 'колокольчик'],
   loudQuiet: ['громко', 'тихо'],
   fastSlow: ['быстро', 'медленно'],
-  
-  // ИЗО (детский)
-  rainbow: ['радуг', 'цвет'],
-  shapes: ['форм', 'круг', 'квадрат', 'треугольник'],
+  rainbow: ['радуг'],
+  shapes: ['форм', 'треугольник'],
   mixing: ['смешиван'],
-  
-  // Лепка и поделки
-  clay: ['лепк', 'пластилин', 'форм'],
-  crafts: ['поделк', 'аппликац', 'инструмент']
+  clay: ['лепк', 'пластилин'],
+  crafts: ['аппликац', 'поделк'],
+}
+
+// Группы паттернов по предметам — искать совпадение сначала в своей группе
+const subjectPatternGroups: Record<string, string[]> = {
+  'математика': ['addition','subtraction','multiplication','division','fractions','geometry','equations','time','measurement','numbers'],
+  'русский язык': ['letters','words','sentence','partsOfSpeech','cases','punctuation','spelling'],
+  'литература': ['reading','folklore','poetry','prose'],
+  'чтение': ['reading','folklore','poetry','fairytales'],
+  'английский язык': ['english'],
+  'окружающий мир': ['nature','seasons','space','ecology','pets','wildAnimals','birds','trees','fruits','dayNight'],
+  'природоведение': ['nature','seasons','space','ecology'],
+  'география': ['geography','map'],
+  'история': ['history'],
+  'биология': ['biology','nature'],
+  'физика': ['physics'],
+  'химия': ['chemistry'],
+  'музыка': ['music','instruments','loudQuiet','fastSlow'],
+  'изобразительное искусство': ['art','rainbow','shapes','mixing'],
+  'изо': ['art','rainbow','shapes','mixing'],
+  'физическая культура': ['pe'],
+  'физкультура': ['pe'],
+  'информатика': ['informatics'],
+  'робототехника': ['robotics'],
+  'этика': ['ethics'],
+  'основы безопасности жизнедеятельности': ['safety'],
+  'обж': ['safety'],
+  'технология': ['tech','clay','crafts'],
+  'труд': ['tech','clay','crafts'],
+  'проектная деятельность': ['projects'],
+  'основы религиозных культур': ['religion'],
+  'финансовая грамотность': ['finance'],
+  'цифровая грамотность': ['digital'],
+  'программирование': ['coding'],
+  'обществознание': ['social'],
+  'лепка': ['clay','crafts'],
+  'ремесло': ['crafts','tech'],
+  'крафт': ['crafts','tech'],
+  'развитие речи': ['sounds','syllables','fairytales'],
+  'подготовка к письму': ['writing'],
 }
 
 export default function LessonAnimatedSVG({ lessonTitle, subject = '', size = 'medium' }: Props) {
@@ -112,9 +191,30 @@ export default function LessonAnimatedSVG({ lessonTitle, subject = '', size = 'm
     const title = lessonTitle.toLowerCase()
     const subjectLower = subject.toLowerCase()
     
-    // Определяем тип SVG по заголовку урока
-    for (const [type, patterns] of Object.entries(lessonPatterns)) {
-      if (patterns.some(pattern => title.includes(pattern) || subjectLower.includes(pattern))) {
+    // ШАГ 1: Если предмет известен, сначала ищем совпадение в группе этого предмета
+    if (subjectLower) {
+      // Сначала проверяем прямой маппинг предмета
+      for (const [subjKey, svgType] of Object.entries(subjectSvgMap)) {
+        if (subjectLower.includes(subjKey)) {
+          // Нашли предмет — ищем уточнение по заголовку в группе
+          const group = subjectPatternGroups[subjKey] || []
+          for (const patternType of group) {
+            const patterns = titlePatterns[patternType] || []
+            if (patterns.some(p => title.includes(p))) {
+              setSvgType(patternType)
+              return
+            }
+          }
+          // Нет уточнения по заголовку — используем базовый SVG предмета
+          setSvgType(svgType)
+          return
+        }
+      }
+    }
+    
+    // ШАГ 2: Предмет не известен или не распознан — ищем по заголовку
+    for (const [type, patterns] of Object.entries(titlePatterns)) {
+      if (patterns.some(pattern => title.includes(pattern))) {
         setSvgType(type)
         return
       }
@@ -198,6 +298,30 @@ export default function LessonAnimatedSVG({ lessonTitle, subject = '', size = 'm
       case 'pe':
         return <PESVG />
       
+      // === НОВЫЕ ПРЕДМЕТЫ ===
+      case 'informatics':
+        return <InformaticsSVG />
+      case 'robotics':
+        return <RoboticsSVG />
+      case 'ethics':
+        return <EthicsSVG />
+      case 'safety':
+        return <SafetySVG />
+      case 'tech':
+        return <TechSVG />
+      case 'projects':
+        return <ProjectsSVG />
+      case 'religion':
+        return <ReligionSVG />
+      case 'finance':
+        return <FinanceSVG />
+      case 'digital':
+        return <DigitalSVG />
+      case 'coding':
+        return <CodingSVG />
+      case 'social':
+        return <SocialSVG />
+      
       // === ПОДГОТОВИШКИ (детский сад / класс 0) ===
       case 'sounds':
         return <SoundsSVG />
@@ -219,8 +343,6 @@ export default function LessonAnimatedSVG({ lessonTitle, subject = '', size = 'm
         return <FruitsSVG />
       case 'dayNight':
         return <DayNightSVG />
-      case 'safety':
-        return <SafetySVG />
       case 'instruments':
         return <InstrumentsSVG />
       case 'loudQuiet':
@@ -3989,6 +4111,400 @@ function CraftsSVG() {
           transition={{ delay: i * 0.2, duration: 1, repeat: Infinity }}
         >{star}</motion.text>
       ))}
+    </svg>
+  )
+}
+
+// ============ НОВЫЕ SVG ДЛЯ НЕДОСТАЮЩИХ ПРЕДМЕТОВ ============
+
+// Информатика — компьютер и код
+function InformaticsSVG() {
+  return (
+    <svg viewBox="0 0 200 200" className="w-full h-full">
+      <defs>
+        <linearGradient id="infoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#6366F1" />
+          <stop offset="100%" stopColor="#818CF8" />
+        </linearGradient>
+      </defs>
+      
+      <motion.circle cx="100" cy="100" r="85" fill="#6366F120" initial={{ scale: 0 }} animate={{ scale: 1 }} />
+      
+      {/* Монитор */}
+      <motion.rect x="45" y="40" width="110" height="70" rx="8" fill="#6366F140" stroke="url(#infoGrad)" strokeWidth="3" initial={{ scaleY: 0 }} animate={{ scaleY: 1 }} transition={{ delay: 0.3 }} style={{ transformOrigin: '100px 75px' }} />
+      
+      {/* Экран */}
+      <motion.rect x="55" y="50" width="90" height="50" rx="4" fill="#818CF830" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.6 }} />
+      
+      {/* Строки кода на экране */}
+      {[0, 1, 2, 3].map(i => (
+        <motion.line key={i} x1="62" y1={58 + i * 11} x2={100 + (i % 2) * 20} y2={58 + i * 11} stroke="#818CF8" strokeWidth="2" strokeLinecap="round" initial={{ pathLength: 0 }} animate={{ pathLength: 1 }} transition={{ delay: 0.8 + i * 0.2 }} />
+      ))}
+      
+      {/* Подставка */}
+      <motion.line x1="80" y1="110" x2="120" y2="110" stroke="#6366F1" strokeWidth="3" initial={{ pathLength: 0 }} animate={{ pathLength: 1 }} transition={{ delay: 1 }} />
+      <motion.line x1="90" y1="110" x2="90" y2="125" stroke="#6366F1" strokeWidth="3" initial={{ pathLength: 0 }} animate={{ pathLength: 1 }} transition={{ delay: 1.1 }} />
+      <motion.line x1="110" y1="110" x2="110" y2="125" stroke="#6366F1" strokeWidth="3" initial={{ pathLength: 0 }} animate={{ pathLength: 1 }} transition={{ delay: 1.1 }} />
+      
+      {/* Клавиатура */}
+      <motion.rect x="55" y="128" width="90" height="18" rx="4" fill="#6366F130" stroke="#818CF8" strokeWidth="1.5" initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 1.3 }} />
+      
+      {/* Курсор мигающий */}
+      <motion.rect x="105" y="56" width="3" height="10" fill="#818CF8" animate={{ opacity: [1, 0, 1] }} transition={{ duration: 1, repeat: Infinity }} />
+      
+      {/* Вращающиеся биты */}
+      <motion.g animate={{ rotate: 360 }} transition={{ duration: 12, repeat: Infinity, ease: "linear" }} style={{ transformOrigin: '100px 100px' }}>
+        {[0, 90, 180, 270].map(angle => (
+          <text key={angle} x={100 + 78 * Math.cos(angle * Math.PI / 180)} y={104 + 78 * Math.sin(angle * Math.PI / 180)} textAnchor="middle" fontSize="10" fill="#818CF8">{angle % 180 === 0 ? '1' : '0'}</text>
+        ))}
+      </motion.g>
+    </svg>
+  )
+}
+
+// Робототехника — робот
+function RoboticsSVG() {
+  return (
+    <svg viewBox="0 0 200 200" className="w-full h-full">
+      <defs>
+        <linearGradient id="robGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#F59E0B" />
+          <stop offset="100%" stopColor="#FBBF24" />
+        </linearGradient>
+      </defs>
+      
+      <motion.circle cx="100" cy="100" r="85" fill="#F59E0B20" initial={{ scale: 0 }} animate={{ scale: 1 }} />
+      
+      {/* Голова робота */}
+      <motion.rect x="65" y="40" width="70" height="55" rx="10" fill="#F59E0B40" stroke="url(#robGrad)" strokeWidth="3" initial={{ y: -30, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.3, type: "spring" }} />
+      
+      {/* Глаза */}
+      <motion.circle cx="85" cy="60" r="8" fill="#FBBF24" initial={{ scale: 0 }} animate={{ scale: [1, 1.2, 1] }} transition={{ delay: 0.8, duration: 2, repeat: Infinity }} />
+      <motion.circle cx="115" cy="60" r="8" fill="#FBBF24" initial={{ scale: 0 }} animate={{ scale: [1, 1.2, 1] }} transition={{ delay: 0.8, duration: 2, repeat: Infinity }} />
+      
+      {/* Усы антенны */}
+      <motion.line x1="85" y1="40" x2="85" y2="25" stroke="#FBBF24" strokeWidth="2" initial={{ pathLength: 0 }} animate={{ pathLength: 1 }} transition={{ delay: 0.5 }} />
+      <motion.circle cx="85" cy="22" r="4" fill="#F59E0B" animate={{ scale: [1, 1.5, 1] }} transition={{ duration: 1.5, repeat: Infinity }} />
+      
+      {/* Тело */}
+      <motion.rect x="60" y="100" width="80" height="50" rx="8" fill="#F59E0B30" stroke="url(#robGrad)" strokeWidth="2" initial={{ y: 30, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.6 }} />
+      
+      {/* Руки */}
+      <motion.rect x="35" y="105" width="22" height="12" rx="6" fill="#FBBF2440" stroke="#FBBF24" strokeWidth="1.5" animate={{ x: [35, 30, 35] }} transition={{ duration: 2, repeat: Infinity }} />
+      <motion.rect x="143" y="105" width="22" height="12" rx="6" fill="#FBBF2440" stroke="#FBBF24" strokeWidth="1.5" animate={{ x: [143, 148, 143] }} transition={{ duration: 2, repeat: Infinity }} />
+      
+      {/* Шестерёнка */}
+      <motion.g animate={{ rotate: 360 }} transition={{ duration: 6, repeat: Infinity, ease: "linear" }} style={{ transformOrigin: '100px 125px' }}>
+        <circle cx="100" cy="125" r="12" fill="none" stroke="#FBBF24" strokeWidth="2" />
+        {[0, 60, 120, 180, 240, 300].map(a => (
+          <line key={a} x1={100 + 10 * Math.cos(a * Math.PI / 180)} y1={125 + 10 * Math.sin(a * Math.PI / 180)} x2={100 + 16 * Math.cos(a * Math.PI / 180)} y2={125 + 16 * Math.sin(a * Math.PI / 180)} stroke="#FBBF24" strokeWidth="3" strokeLinecap="round" />
+        ))}
+      </motion.g>
+    </svg>
+  )
+}
+
+// Этика — сердце и звёзды
+function EthicsSVG() {
+  return (
+    <svg viewBox="0 0 200 200" className="w-full h-full">
+      <defs>
+        <linearGradient id="ethGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#EC4899" />
+          <stop offset="100%" stopColor="#F472B6" />
+        </linearGradient>
+      </defs>
+      
+      <motion.circle cx="100" cy="100" r="85" fill="#EC489920" initial={{ scale: 0 }} animate={{ scale: 1 }} />
+      
+      {/* Сердце */}
+      <motion.path d="M100,150 C60,120 30,90 50,70 C65,55 85,60 100,80 C115,60 135,55 150,70 C170,90 140,120 100,150Z" fill="#EC489940" stroke="url(#ethGrad)" strokeWidth="3" initial={{ scale: 0 }} animate={{ scale: [1, 1.05, 1] }} transition={{ delay: 0.3, duration: 1.5, repeat: Infinity }} style={{ transformOrigin: '100px 100px' }} />
+      
+      {/* Звёзды */}
+      {[{x:60,y:50},{x:140,y:45},{x:45,y:120},{x:155,y:115},{x:100,y:35}].map((pos, i) => (
+        <motion.text key={i} x={pos.x} y={pos.y} textAnchor="middle" fontSize="16" fill="#F472B6" initial={{ scale: 0, rotate: -180 }} animate={{ scale: [0, 1.2, 1], rotate: 0 }} transition={{ delay: 0.5 + i * 0.15, type: "spring" }}>&#9733;</motion.text>
+      ))}
+      
+      {/* Светящиеся точки */}
+      {[0, 72, 144, 216, 288].map((angle, i) => (
+        <motion.circle key={angle} cx={100 + 75 * Math.cos(angle * Math.PI / 180)} cy={100 + 75 * Math.sin(angle * Math.PI / 180)} r="3" fill="#F472B6" animate={{ opacity: [0.3, 1, 0.3] }} transition={{ delay: i * 0.3, duration: 2, repeat: Infinity }} />
+      ))}
+    </svg>
+  )
+}
+
+// Технология — инструменты
+function TechSVG() {
+  return (
+    <svg viewBox="0 0 200 200" className="w-full h-full">
+      <defs>
+        <linearGradient id="techGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#D97706" />
+          <stop offset="100%" stopColor="#FBBF24" />
+        </linearGradient>
+      </defs>
+      
+      <motion.circle cx="100" cy="100" r="85" fill="#D9770620" initial={{ scale: 0 }} animate={{ scale: 1 }} />
+      
+      {/* Ножницы */}
+      <motion.g initial={{ rotate: -30, opacity: 0 }} animate={{ rotate: 0, opacity: 1 }} transition={{ delay: 0.3, type: "spring" }}>
+        <circle cx="75" cy="70" r="12" fill="none" stroke="#FBBF24" strokeWidth="3" />
+        <circle cx="95" cy="70" r="12" fill="none" stroke="#FBBF24" strokeWidth="3" />
+        <line x1="65" y1="58" x2="50" y2="35" stroke="#D97706" strokeWidth="4" strokeLinecap="round" />
+        <line x1="105" y1="58" x2="120" y2="35" stroke="#D97706" strokeWidth="4" strokeLinecap="round" />
+      </motion.g>
+      
+      {/* Карандаш */}
+      <motion.g initial={{ y: 30, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.6 }}>
+        <rect x="85" y="90" width="12" height="50" rx="2" fill="#FBBF2440" stroke="#FBBF24" strokeWidth="2" />
+        <polygon points="85,140 97,140 91,155" fill="#D97706" />
+        <rect x="85" y="90" width="12" height="8" fill="#F59E0B" />
+      </motion.g>
+      
+      {/* Линейка */}
+      <motion.g initial={{ x: -20, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ delay: 0.9 }}>
+        <rect x="40" y="145" width="120" height="15" rx="3" fill="#D9770630" stroke="#FBBF24" strokeWidth="1.5" />
+        {Array.from({ length: 12 }).map((_, i) => (
+          <line key={i} x1={50 + i * 10} y1="145" x2={50 + i * 10} y2={i % 2 === 0 ? 155 : 150} stroke="#FBBF24" strokeWidth="1" />
+        ))}
+      </motion.g>
+      
+      {/* Вращающиеся звёздочки */}
+      <motion.g animate={{ rotate: 360 }} transition={{ duration: 15, repeat: Infinity, ease: "linear" }} style={{ transformOrigin: '100px 100px' }}>
+        {[0, 120, 240].map(a => (
+          <circle key={a} cx={100 + 78 * Math.cos(a * Math.PI / 180)} cy={100 + 78 * Math.sin(a * Math.PI / 180)} r="3" fill="#FBBF24" />
+        ))}
+      </motion.g>
+    </svg>
+  )
+}
+
+// Проекты — лупа и блокнот
+function ProjectsSVG() {
+  return (
+    <svg viewBox="0 0 200 200" className="w-full h-full">
+      <defs>
+        <linearGradient id="projGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#7C3AED" />
+          <stop offset="100%" stopColor="#A78BFA" />
+        </linearGradient>
+      </defs>
+      
+      <motion.circle cx="100" cy="100" r="85" fill="#7C3AED20" initial={{ scale: 0 }} animate={{ scale: 1 }} />
+      
+      {/* Блокнот */}
+      <motion.rect x="50" y="50" width="70" height="90" rx="6" fill="#7C3AED30" stroke="url(#projGrad)" strokeWidth="2.5" initial={{ x: -20, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ delay: 0.3 }} />
+      
+      {/* Строки */}
+      {[0, 1, 2, 3, 4].map(i => (
+        <motion.line key={i} x1="60" y1={70 + i * 14} x2={105} y2={70 + i * 14} stroke="#A78BFA" strokeWidth="2" strokeLinecap="round" initial={{ pathLength: 0 }} animate={{ pathLength: 1 }} transition={{ delay: 0.5 + i * 0.15 }} />
+      ))}
+      
+      {/* Лупа */}
+      <motion.g initial={{ scale: 0, x: 20 }} animate={{ scale: 1, x: 0 }} transition={{ delay: 1, type: "spring" }}>
+        <circle cx="130" cy="90" r="25" fill="#A78BFA20" stroke="#A78BFA" strokeWidth="3" />
+        <line x1="148" y1="108" x2="168" y2="128" stroke="#7C3AED" strokeWidth="5" strokeLinecap="round" />
+      </motion.g>
+      
+      {/* Блестящие точки */}
+      {[{x:60,y:45},{x:140,y:50},{x:45,y:140},{x:155,y:140}].map((pos, i) => (
+        <motion.circle key={i} cx={pos.x} cy={pos.y} r="3" fill="#A78BFA" animate={{ scale: [0, 1, 0] }} transition={{ delay: 1.5 + i * 0.3, duration: 1, repeat: Infinity, repeatDelay: 2 }} />
+      ))}
+    </svg>
+  )
+}
+
+// Религия — храм
+function ReligionSVG() {
+  return (
+    <svg viewBox="0 0 200 200" className="w-full h-full">
+      <defs>
+        <linearGradient id="relGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#92400E" />
+          <stop offset="100%" stopColor="#D97706" />
+        </linearGradient>
+      </defs>
+      
+      <motion.circle cx="100" cy="100" r="85" fill="#92400E20" initial={{ scale: 0 }} animate={{ scale: 1 }} />
+      
+      {/* Купол */}
+      <motion.path d="M60,100 Q100,40 140,100" fill="#D9770630" stroke="url(#relGrad)" strokeWidth="3" initial={{ pathLength: 0 }} animate={{ pathLength: 1 }} transition={{ delay: 0.3, duration: 1 }} />
+      
+      {/* Крест */}
+      <motion.g initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ delay: 0.8, type: "spring" }}>
+        <line x1="100" y1="30" x2="100" y2="50" stroke="#D97706" strokeWidth="3" strokeLinecap="round" />
+        <line x1="92" y1="38" x2="108" y2="38" stroke="#D97706" strokeWidth="3" strokeLinecap="round" />
+      </motion.g>
+      
+      {/* Стены */}
+      <motion.rect x="60" y="100" width="80" height="55" fill="#92400E20" stroke="url(#relGrad)" strokeWidth="2" initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.6 }} />
+      
+      {/* Дверь */}
+      <motion.path d="M85,155 Q100,130 115,155" fill="#D9770640" stroke="#D97706" strokeWidth="1.5" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1 }} />
+      
+      {/* Окна */}
+      <motion.circle cx="75" cy="115" r="6" fill="#D9770630" stroke="#D97706" strokeWidth="1.5" initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ delay: 1.1 }} />
+      <motion.circle cx="125" cy="115" r="6" fill="#D9770630" stroke="#D97706" strokeWidth="1.5" initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ delay: 1.2 }} />
+      
+      {/* Светящийся ореол */}
+      <motion.circle cx="100" cy="42" r="20" fill="none" stroke="#D9770640" strokeWidth="1" animate={{ r: [20, 30, 20], opacity: [0.5, 0.2, 0.5] }} transition={{ duration: 3, repeat: Infinity }} />
+    </svg>
+  )
+}
+
+// Финансы — монеты
+function FinanceSVG() {
+  return (
+    <svg viewBox="0 0 200 200" className="w-full h-full">
+      <defs>
+        <linearGradient id="finGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#CA8A04" />
+          <stop offset="100%" stopColor="#FDE047" />
+        </linearGradient>
+      </defs>
+      
+      <motion.circle cx="100" cy="100" r="85" fill="#CA8A0420" initial={{ scale: 0 }} animate={{ scale: 1 }} />
+      
+      {/* Монета 1 */}
+      <motion.circle cx="80" cy="75" r="28" fill="#CA8A0430" stroke="url(#finGrad)" strokeWidth="3" initial={{ y: -30, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.3 }} />
+      <motion.text x="80" y="83" textAnchor="middle" fontSize="24" fontWeight="bold" fill="#FDE047" initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ delay: 0.6, type: "spring" }}>$</motion.text>
+      
+      {/* Монета 2 */}
+      <motion.circle cx="125" cy="95" r="22" fill="#CA8A0430" stroke="#FDE047" strokeWidth="2" initial={{ y: -20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.5 }} />
+      <motion.text x="125" y="102" textAnchor="middle" fontSize="18" fontWeight="bold" fill="#FDE047" initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ delay: 0.8, type: "spring" }}>$</motion.text>
+      
+      {/* Монета 3 */}
+      <motion.circle cx="90" cy="130" r="18" fill="#CA8A0430" stroke="#FDE047" strokeWidth="2" initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.7 }} />
+      <motion.text x="90" y="136" textAnchor="middle" fontSize="14" fontWeight="bold" fill="#FDE047" initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ delay: 1, type: "spring" }}>$</motion.text>
+      
+      {/* Рост стрелка */}
+      <motion.path d="M55,150 L145,55 M135,55 L145,55 L145,65" stroke="#FDE047" strokeWidth="3" fill="none" strokeLinecap="round" initial={{ pathLength: 0 }} animate={{ pathLength: 1 }} transition={{ delay: 1.2, duration: 0.8 }} />
+      
+      {/* Блестящие частицы */}
+      {[0, 72, 144, 216, 288].map((angle, i) => (
+        <motion.circle key={angle} cx={100 + 80 * Math.cos(angle * Math.PI / 180)} cy={100 + 80 * Math.sin(angle * Math.PI / 180)} r="3" fill="#FDE047" animate={{ scale: [0, 1, 0] }} transition={{ delay: 1.5 + i * 0.2, duration: 0.5, repeat: Infinity, repeatDelay: 3 }} />
+      ))}
+    </svg>
+  )
+}
+
+// Цифровая грамотность — глобус/сеть
+function DigitalSVG() {
+  return (
+    <svg viewBox="0 0 200 200" className="w-full h-full">
+      <defs>
+        <linearGradient id="digGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#2563EB" />
+          <stop offset="100%" stopColor="#60A5FA" />
+        </linearGradient>
+      </defs>
+      
+      <motion.circle cx="100" cy="100" r="85" fill="#2563EB20" initial={{ scale: 0 }} animate={{ scale: 1 }} />
+      
+      {/* Экран */}
+      <motion.rect x="40" y="55" width="80" height="55" rx="6" fill="#2563EB30" stroke="url(#digGrad)" strokeWidth="2.5" initial={{ scaleX: 0 }} animate={{ scaleX: 1 }} transition={{ delay: 0.3 }} style={{ transformOrigin: '80px 82px' }} />
+      
+      {/* Замок на экране */}
+      <motion.g initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ delay: 0.8, type: "spring" }}>
+        <rect x="68" y="72" width="24" height="18" rx="4" fill="#60A5FA50" stroke="#60A5FA" strokeWidth="2" />
+        <path d="M73,72 L73,66 Q80,56 87,66 L87,72" fill="none" stroke="#60A5FA" strokeWidth="2" />
+        <circle cx="80" cy="81" r="2" fill="#60A5FA" />
+      </motion.g>
+      
+      {/* Сеть - точки и линии */}
+      {[{x:145,y:60},{x:160,y:100},{x:150,y:140},{x:130,y:80},{x:135,y:120}].map((pos, i) => (
+        <motion.circle key={i} cx={pos.x} cy={pos.y} r="4" fill="#60A5FA" initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ delay: 1 + i * 0.1 }} />
+      ))}
+      
+      {/* Линии сети */}
+      {[[145,60,130,80],[130,80,160,100],[160,100,135,120],[135,120,150,140],[130,80,135,120]].map((l, i) => (
+        <motion.line key={i} x1={l[0]} y1={l[1]} x2={l[2]} y2={l[3]} stroke="#60A5FA60" strokeWidth="1" initial={{ pathLength: 0 }} animate={{ pathLength: 1 }} transition={{ delay: 1.3 + i * 0.1 }} />
+      ))}
+      
+      {/* Пульсирующий WiFi */}
+      <motion.g animate={{ opacity: [0.3, 1, 0.3] }} transition={{ duration: 2, repeat: Infinity }}>
+        <path d="M70,145 Q80,135 90,145" fill="none" stroke="#60A5FA" strokeWidth="2" />
+        <path d="M65,150 Q80,130 95,150" fill="none" stroke="#60A5FA" strokeWidth="1.5" />
+      </motion.g>
+    </svg>
+  )
+}
+
+// Программирование — блоки кода
+function CodingSVG() {
+  return (
+    <svg viewBox="0 0 200 200" className="w-full h-full">
+      <defs>
+        <linearGradient id="codGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#7C3AED" />
+          <stop offset="100%" stopColor="#C084FC" />
+        </linearGradient>
+      </defs>
+      
+      <motion.circle cx="100" cy="100" r="85" fill="#7C3AED20" initial={{ scale: 0 }} animate={{ scale: 1 }} />
+      
+      {/* Блок кода — старт */}
+      <motion.rect x="45" y="40" width="60" height="24" rx="12" fill="#7C3AED40" stroke="#C084FC" strokeWidth="2" initial={{ x: -30, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ delay: 0.3 }} />
+      <motion.text x="75" y="57" textAnchor="middle" fontSize="11" fill="#C084FC" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.6 }}>СТАРТ</motion.text>
+      
+      {/* Блок кода — действие */}
+      <motion.rect x="45" y="74" width="80" height="24" rx="6" fill="#7C3AED30" stroke="#C084FC" strokeWidth="1.5" initial={{ x: -30, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ delay: 0.5 }} />
+      <motion.text x="85" y="91" textAnchor="middle" fontSize="10" fill="#C084FC" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.8 }}>Идти 10 шагов</motion.text>
+      
+      {/* Блок кода — условие */}
+      <motion.polygon points="75,106 140,120 75,134 10,120" fill="#7C3AED25" stroke="#C084FC" strokeWidth="1.5" initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ delay: 0.7 }} style={{ transformOrigin: '75px 120px' }} />
+      <motion.text x="75" y="124" textAnchor="middle" fontSize="9" fill="#C084FC" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1 }}>Если край?</motion.text>
+      
+      {/* Стрелки-соединители */}
+      <motion.line x1="75" y1="64" x2="75" y2="74" stroke="#C084FC" strokeWidth="1.5" initial={{ pathLength: 0 }} animate={{ pathLength: 1 }} transition={{ delay: 0.6 }} />
+      <motion.line x1="75" y1="98" x2="75" y2="106" stroke="#C084FC" strokeWidth="1.5" initial={{ pathLength: 0 }} animate={{ pathLength: 1 }} transition={{ delay: 0.8 }} />
+      
+      {/* Кот-спрайт */}
+      <motion.circle cx="155" cy="90" r="20" fill="#7C3AED20" stroke="#C084FC" strokeWidth="2" initial={{ scale: 0 }} animate={{ scale: 1, x: [0, 5, 0] }} transition={{ delay: 1.2, duration: 2, repeat: Infinity }} />
+      <motion.text x="155" y="96" textAnchor="middle" fontSize="18" fill="#C084FC" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.5 }}>🐱</motion.text>
+      
+      {/* Пульс */}
+      <motion.circle cx="100" cy="165" r="8" fill="#C084FC30" stroke="#C084FC" strokeWidth="1.5" animate={{ scale: [1, 1.3, 1] }} transition={{ duration: 1.5, repeat: Infinity }} />
+    </svg>
+  )
+}
+
+// Обществознание — люди и здание
+function SocialSVG() {
+  return (
+    <svg viewBox="0 0 200 200" className="w-full h-full">
+      <defs>
+        <linearGradient id="socGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#0891B2" />
+          <stop offset="100%" stopColor="#22D3EE" />
+        </linearGradient>
+      </defs>
+      
+      <motion.circle cx="100" cy="100" r="85" fill="#0891B220" initial={{ scale: 0 }} animate={{ scale: 1 }} />
+      
+      {/* Здание */}
+      <motion.rect x="60" y="55" width="80" height="80" rx="4" fill="#0891B230" stroke="url(#socGrad)" strokeWidth="2.5" initial={{ scaleY: 0 }} animate={{ scaleY: 1 }} transition={{ delay: 0.3 }} style={{ transformOrigin: '100px 95px' }} />
+      
+      {/* Колонны */}
+      {[75, 100, 125].map((x, i) => (
+        <motion.line key={x} x1={x} y1="65" x2={x} y2="130" stroke="#22D3EE" strokeWidth="2.5" initial={{ pathLength: 0 }} animate={{ pathLength: 1 }} transition={{ delay: 0.5 + i * 0.15 }} />
+      ))}
+      
+      {/* Купол */}
+      <motion.path d="M60,55 Q100,25 140,55" fill="#0891B220" stroke="#22D3EE" strokeWidth="2" initial={{ pathLength: 0 }} animate={{ pathLength: 1 }} transition={{ delay: 0.8 }} />
+      
+      {/* Люди */}
+      {[55, 100, 145].map((x, i) => (
+        <motion.g key={x} initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 1 + i * 0.2 }}>
+          <circle cx={x} cy="148" r="8" fill="#22D3EE40" stroke="#22D3EE" strokeWidth="1.5" />
+          <line x1={x} y1="156" x2={x} y2="172" stroke="#22D3EE" strokeWidth="2" />
+          <line x1={x - 8} y1="163" x2={x + 8} y2="163" stroke="#22D3EE" strokeWidth="1.5" />
+        </motion.g>
+      ))}
+      
+      {/* Связи между людьми */}
+      <motion.line x1="63" y1="155" x2="92" y2="155" stroke="#22D3EE60" strokeWidth="1" strokeDasharray="3 3" initial={{ pathLength: 0 }} animate={{ pathLength: 1 }} transition={{ delay: 1.5 }} />
+      <motion.line x1="108" y1="155" x2="137" y2="155" stroke="#22D3EE60" strokeWidth="1" strokeDasharray="3 3" initial={{ pathLength: 0 }} animate={{ pathLength: 1 }} transition={{ delay: 1.6 }} />
     </svg>
   )
 }

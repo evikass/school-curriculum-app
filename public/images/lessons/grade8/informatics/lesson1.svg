@@ -1,46 +1,88 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
-    </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#B71C1C"/>
-      <stop offset="100%" stop-color="#C62828"/>
+      <stop offset="0%" stop-color="#e0f2f1"/>
+      <stop offset="100%" stop-color="#b2dfdb"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
-  <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#1565C0" text-anchor="middle">Информация</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Информатика - Урок 1</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#1565C0" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#1565C0" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA: x=15..485, y=85..300 -->
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E3F2FD"/><g transform="translate(250,190) scale(1.8)">
-      <rect x="-25" y="-20" width="50" height="35" rx="3" fill="#37474F" stroke="#263238" stroke-width="1.5"/>
-      <rect x="-22" y="-17" width="44" height="28" rx="1" fill="#BBDEFB"/>
-      <rect x="-5" y="15" width="10" height="8" fill="#455A64"/>
-      <rect x="-15" y="23" width="30" height="3" rx="1" fill="#546E7A"/>
-      <!-- code lines on screen -->
-      <line x1="-18" y1="-12" x2="-5" y2="-12" stroke="#4FC3F7" stroke-width="1.5"/>
-      <line x1="-18" y1="-6" x2="5" y2="-6" stroke="#81C784" stroke-width="1.5"/>
-      <line x1="-18" y1="0" x2="0" y2="0" stroke="#F9A825" stroke-width="1.5"/>
-      <line x1="-12" y1="6" x2="8" y2="6" stroke="#CE93D8" stroke-width="1.5"/>
-    </g><text x="120" y="160" font-family="Arial" font-size="12" fill="#333" text-anchor="middle" font-weight="bold">Текст</text><text x="380" y="160" font-family="Arial" font-size="12" fill="#333" text-anchor="middle" font-weight="bold">Число</text><text x="120" y="250" font-family="Arial" font-size="12" fill="#333" text-anchor="middle" font-weight="bold">Звук</text><text x="380" y="250" font-family="Arial" font-size="12" fill="#333" text-anchor="middle" font-weight="bold">Изображение</text>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <!-- Information flow diagram -->
+  <!-- Source -->
+  <rect x="20" y="60" width="90" height="50" rx="8" fill="#1a237e" stroke="#0d47a1" stroke-width="1.5"/>
+  <text x="65" y="82" font-size="7" fill="#fff" text-anchor="middle" font-weight="bold">ИСТОЧНИК</text>
+  <text x="65" y="95" font-size="5" fill="#bbdefb" text-anchor="middle">Отправитель</text>
+  <!-- Arrow -->
+  <path d="M110,85 L145,85" stroke="#546e7a" stroke-width="2"/>
+  <polygon points="145,85 138,81 138,89" fill="#546e7a"/>
+  <!-- Encoder -->
+  <rect x="145" y="60" width="80" height="50" rx="8" fill="#1565c0" stroke="#0d47a1" stroke-width="1.5"/>
+  <text x="185" y="82" font-size="7" fill="#fff" text-anchor="middle" font-weight="bold">КОДИРОВАНИЕ</text>
+  <text x="185" y="95" font-size="5" fill="#bbdefb" text-anchor="middle">Преобразование</text>
+  <!-- Arrow -->
+  <path d="M225,85 L260,85" stroke="#546e7a" stroke-width="2"/>
+  <polygon points="260,85 253,81 253,89" fill="#546e7a"/>
+  <!-- Channel -->
+  <rect x="260" y="60" width="80" height="50" rx="8" fill="#2e7d32" stroke="#1b5e20" stroke-width="1.5"/>
+  <text x="300" y="82" font-size="7" fill="#fff" text-anchor="middle" font-weight="bold">КАНАЛ СВЯЗИ</text>
+  <text x="300" y="95" font-size="5" fill="#c8e6c9" text-anchor="middle">Передача</text>
+  <!-- Noise -->
+  <rect x="275" y="25" width="50" height="25" rx="4" fill="#c62828" opacity="0.7"/>
+  <text x="300" y="40" font-size="6" fill="#fff" text-anchor="middle">ПОМЕХИ</text>
+  <path d="M300,50 L300,58" stroke="#c62828" stroke-width="1" stroke-dasharray="2,2"/>
+  <!-- Arrow -->
+  <path d="M340,85 L375,85" stroke="#546e7a" stroke-width="2"/>
+  <polygon points="375,85 368,81 368,89" fill="#546e7a"/>
+  <!-- Decoder -->
+  <rect x="375" y="60" width="80" height="50" rx="8" fill="#ff6f00" stroke="#e65100" stroke-width="1.5"/>
+  <text x="415" y="82" font-size="7" fill="#fff" text-anchor="middle" font-weight="bold">ДЕКОДИР.</text>
+  <text x="415" y="95" font-size="5" fill="#fff3e0" text-anchor="middle">Расшифровка</text>
+  <!-- Arrow -->
+  <path d="M455,85 L470,85" stroke="#546e7a" stroke-width="2"/>
+  <polygon points="470,85 463,81 463,89" fill="#546e7a"/>
+  <!-- Receiver -->
+  <rect x="410" y="60" width="80" height="50" rx="8" fill="#7b1fa2" stroke="#4a148c" stroke-width="1.5"/>
+  <text x="450" y="82" font-size="7" fill="#fff" text-anchor="middle" font-weight="bold">ПРИЁМНИК</text>
+  <!-- Properties of information -->
+  <text x="250" y="135" font-size="9" fill="#1a237e" text-anchor="middle" font-weight="bold">Свойства информации</text>
+  <!-- Property cards -->
+  <g transform="translate(60,170)">
+    <rect x="-45" y="-18" width="90" height="36" rx="6" fill="#c62828" opacity="0.8"/>
+    <text x="0" y="-3" font-size="7" fill="#fff" text-anchor="middle" font-weight="bold">Достоверность</text>
+    <text x="0" y="9" font-size="5" fill="#ffcdd2" text-anchor="middle">Без искажений</text>
   </g>
-  <!-- Bottom panel -->
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Информатика</text>
+  <g transform="translate(180,170)">
+    <rect x="-45" y="-18" width="90" height="36" rx="6" fill="#1565c0" opacity="0.8"/>
+    <text x="0" y="-3" font-size="7" fill="#fff" text-anchor="middle" font-weight="bold">Полнота</text>
+    <text x="0" y="9" font-size="5" fill="#bbdefb" text-anchor="middle">Достаточность данных</text>
+  </g>
+  <g transform="translate(300,170)">
+    <rect x="-45" y="-18" width="90" height="36" rx="6" fill="#2e7d32" opacity="0.8"/>
+    <text x="0" y="-3" font-size="7" fill="#fff" text-anchor="middle" font-weight="bold">Своевременность</text>
+    <text x="0" y="9" font-size="5" fill="#c8e6c9" text-anchor="middle">В нужный момент</text>
+  </g>
+  <g transform="translate(420,170)">
+    <rect x="-45" y="-18" width="90" height="36" rx="6" fill="#ff6f00" opacity="0.8"/>
+    <text x="0" y="-3" font-size="7" fill="#fff" text-anchor="middle" font-weight="bold">Актуальность</text>
+    <text x="0" y="9" font-size="5" fill="#fff3e0" text-anchor="middle">Важность сейчас</text>
+  </g>
+  <g transform="translate(120,225)">
+    <rect x="-45" y="-18" width="90" height="36" rx="6" fill="#7b1fa2" opacity="0.8"/>
+    <text x="0" y="-3" font-size="7" fill="#fff" text-anchor="middle" font-weight="bold">Объективность</text>
+    <text x="0" y="9" font-size="5" fill="#d1c4e9" text-anchor="middle">Без субъективности</text>
+  </g>
+  <g transform="translate(250,225)">
+    <rect x="-45" y="-18" width="90" height="36" rx="6" fill="#00695c" opacity="0.8"/>
+    <text x="0" y="-3" font-size="7" fill="#fff" text-anchor="middle" font-weight="bold">Полезность</text>
+    <text x="0" y="9" font-size="5" fill="#b2dfdb" text-anchor="middle">Практическая ценность</text>
+  </g>
+  <g transform="translate(380,225)">
+    <rect x="-45" y="-18" width="90" height="36" rx="6" fill="#5d4037" opacity="0.8"/>
+    <text x="0" y="-3" font-size="7" fill="#fff" text-anchor="middle" font-weight="bold">Понятность</text>
+    <text x="0" y="9" font-size="5" fill="#d7ccc8" text-anchor="middle">Доступность для понимания</text>
+  </g>
+  <!-- Information types -->
+  <rect x="30" y="265" width="440" height="45" rx="6" fill="#fff" opacity="0.7" stroke="#1a237e"/>
+  <text x="250" y="282" font-size="7" fill="#1a237e" text-anchor="middle" font-weight="bold">Виды информации по форме представления</text>
+  <text x="250" y="300" font-size="6" fill="#546e7a" text-anchor="middle">Текстовая • Числовая • Графическая • Звуковая • Видеоинформация</text>
+  <text x="250" y="340" font-size="9" fill="#333" opacity="0.5" text-anchor="middle">Информация и её свойства</text>
 </svg>

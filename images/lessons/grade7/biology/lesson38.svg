@@ -1,0 +1,320 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F5E9;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#C8E6C9;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2E7D32;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#43A047;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#B3E5FC;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#E8F5E9;stop-opacity:0.2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="350" rx="6" fill="url(#bgGrad)" stroke="#2E7D32" stroke-width="2.5"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="500" height="32" rx="6" fill="url(#headerGrad)"/>
+  <rect x="0" y="16" width="500" height="16" fill="url(#headerGrad)"/>
+  <text x="250" y="22" font-family="Arial,sans-serif" font-size="11.5" fill="white" text-anchor="middle" font-weight="bold">Растительные сообщества. Охрана растений</text>
+
+  <!-- === PHYTOCOENOSIS STRUCTURE (left: forest layers) === -->
+  <rect x="8" y="38" width="152" height="175" rx="5" fill="white" fill-opacity="0.6" stroke="#2E7D32" stroke-width="1"/>
+  <text x="84" y="51" font-family="Arial,sans-serif" font-size="8.5" fill="#1B5E20" text-anchor="middle" font-weight="bold">Ярусность фитоценоза</text>
+
+  <!-- Sky background -->
+  <rect x="12" y="55" width="144" height="155" rx="3" fill="url(#skyGrad)"/>
+
+  <!-- Древесный ярус (Tree layer) -->
+  <rect x="12" y="55" width="144" height="40" rx="0" fill="#1B5E20" opacity="0.08"/>
+  <!-- Tree icons -->
+  <rect x="35" y="72" width="4" height="20" fill="#5D4037" opacity="0.6"/>
+  <ellipse cx="37" cy="70" rx="12" ry="10" fill="#2E7D32" opacity="0.6"/>
+  <rect x="85" y="68" width="5" height="24" fill="#5D4037" opacity="0.6"/>
+  <ellipse cx="87" cy="65" rx="14" ry="12" fill="#388E3C" opacity="0.6"/>
+  <rect x="125" y="75" width="3" height="17" fill="#5D4037" opacity="0.6"/>
+  <ellipse cx="126" cy="73" rx="10" ry="9" fill="#43A047" opacity="0.5"/>
+  <!-- Label -->
+  <rect x="15" y="57" width="60" height="10" rx="2" fill="#1B5E20" opacity="0.8"/>
+  <text x="45" y="65" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle">Древесный</text>
+
+  <!-- Кустарниковый ярус (Shrub layer) -->
+  <rect x="12" y="95" width="144" height="30" rx="0" fill="#4CAF50" opacity="0.08"/>
+  <!-- Shrub icons -->
+  <ellipse cx="30" cy="106" rx="8" ry="6" fill="#66BB6A" opacity="0.6"/>
+  <ellipse cx="24" cy="108" rx="6" ry="5" fill="#81C784" opacity="0.5"/>
+  <ellipse cx="70" cy="104" rx="7" ry="6" fill="#66BB6A" opacity="0.5"/>
+  <ellipse cx="110" cy="106" rx="9" ry="5" fill="#81C784" opacity="0.6"/>
+  <ellipse cx="140" cy="105" rx="6" ry="5" fill="#66BB6A" opacity="0.5"/>
+  <!-- Label -->
+  <rect x="15" y="97" width="72" height="10" rx="2" fill="#388E3C" opacity="0.8"/>
+  <text x="51" y="105" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle">Кустарниковый</text>
+
+  <!-- Травяной ярус (Herb layer) -->
+  <rect x="12" y="125" width="144" height="30" rx="0" fill="#81C784" opacity="0.1"/>
+  <!-- Grass icons -->
+  <line x1="22" y1="145" x2="22" y2="133" stroke="#4CAF50" stroke-width="0.8"/>
+  <line x1="24" y1="145" x2="26" y2="132" stroke="#4CAF50" stroke-width="0.8"/>
+  <line x1="40" y1="145" x2="39" y2="130" stroke="#66BB6A" stroke-width="0.8"/>
+  <line x1="42" y1="145" x2="44" y2="131" stroke="#66BB6A" stroke-width="0.8"/>
+  <line x1="65" y1="145" x2="64" y2="132" stroke="#4CAF50" stroke-width="0.8"/>
+  <line x1="90" y1="145" x2="90" y2="133" stroke="#66BB6A" stroke-width="0.8"/>
+  <line x1="92" y1="145" x2="94" y2="131" stroke="#4CAF50" stroke-width="0.8"/>
+  <line x1="115" y1="145" x2="114" y2="130" stroke="#66BB6A" stroke-width="0.8"/>
+  <line x1="135" y1="145" x2="135" y2="132" stroke="#4CAF50" stroke-width="0.8"/>
+  <line x1="137" y1="145" x2="139" y2="131" stroke="#4CAF50" stroke-width="0.8"/>
+  <!-- Small flowers -->
+  <circle cx="40" cy="129" r="1.5" fill="#E91E63" opacity="0.5"/>
+  <circle cx="115" cy="129" r="1.5" fill="#FFC107" opacity="0.5"/>
+  <!-- Label -->
+  <rect x="15" y="127" width="56" height="10" rx="2" fill="#4CAF50" opacity="0.8"/>
+  <text x="43" y="135" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle">Травяной</text>
+
+  <!-- Моховой ярус (Moss layer) -->
+  <rect x="12" y="155" width="144" height="20" rx="0" fill="#A5D6A7" opacity="0.15"/>
+  <!-- Moss icons -->
+  <ellipse cx="25" cy="165" rx="8" ry="3" fill="#2E7D32" opacity="0.3"/>
+  <ellipse cx="50" cy="166" rx="10" ry="3" fill="#388E3C" opacity="0.25"/>
+  <ellipse cx="80" cy="165" rx="9" ry="3" fill="#2E7D32" opacity="0.3"/>
+  <ellipse cx="110" cy="166" rx="11" ry="3" fill="#388E3C" opacity="0.25"/>
+  <ellipse cx="140" cy="165" rx="8" ry="3" fill="#2E7D32" opacity="0.3"/>
+  <!-- Label -->
+  <rect x="15" y="157" width="56" height="10" rx="2" fill="#81C784" opacity="0.8"/>
+  <text x="43" y="165" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle">Моховой</text>
+
+  <!-- Ground line -->
+  <line x1="12" y1="178" x2="156" y2="178" stroke="#5D4037" stroke-width="1"/>
+  <!-- Soil -->
+  <rect x="12" y="178" width="144" height="32" rx="0" fill="#5D4037" opacity="0.12"/>
+
+  <!-- Light arrows on right of forest diagram -->
+  <text x="150" y="63" font-family="Arial,sans-serif" font-size="5" fill="#FFC107">☀</text>
+  <line x1="148" y1="67" x2="148" y2="170" stroke="#FFC107" stroke-width="0.5" stroke-dasharray="2,3" opacity="0.4"/>
+
+  <!-- === ECOLOGICAL GROUPS BY LIGHT (top-center) === -->
+  <rect x="166" y="38" width="170" height="80" rx="5" fill="white" fill-opacity="0.7" stroke="#2E7D32" stroke-width="1"/>
+  <text x="251" y="51" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">По отношению к свету</text>
+
+  <!-- Светолюбивые -->
+  <rect x="172" y="56" width="50" height="56" rx="3" fill="#FFF9C4" stroke="#F9A825" stroke-width="0.8"/>
+  <text x="197" y="67" font-family="Arial,sans-serif" font-size="6.5" fill="#E65100" text-anchor="middle" font-weight="bold">Свето-</text>
+  <text x="197" y="75" font-family="Arial,sans-serif" font-size="6.5" fill="#E65100" text-anchor="middle" font-weight="bold">любивые</text>
+  <!-- Sun icon -->
+  <circle cx="197" cy="89" r="6" fill="#FFC107" opacity="0.4" stroke="#F9A825" stroke-width="0.5"/>
+  <line x1="197" y1="81" x2="197" y2="79" stroke="#FFC107" stroke-width="0.5"/>
+  <line x1="197" y1="97" x2="197" y2="99" stroke="#FFC107" stroke-width="0.5"/>
+  <line x1="189" y1="89" x2="187" y2="89" stroke="#FFC107" stroke-width="0.5"/>
+  <line x1="205" y1="89" x2="207" y2="89" stroke="#FFC107" stroke-width="0.5"/>
+  <text x="197" y="108" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">сосна, берёза</text>
+
+  <!-- Теневыносливые -->
+  <rect x="228" y="56" width="52" height="56" rx="3" fill="#FFF3E0" stroke="#FF9800" stroke-width="0.8"/>
+  <text x="254" y="67" font-family="Arial,sans-serif" font-size="6.5" fill="#E65100" text-anchor="middle" font-weight="bold">Теневы-</text>
+  <text x="254" y="75" font-family="Arial,sans-serif" font-size="6.5" fill="#E65100" text-anchor="middle" font-weight="bold">носливые</text>
+  <!-- Half-sun icon -->
+  <circle cx="254" cy="89" r="6" fill="#FF9800" opacity="0.25" stroke="#E65100" stroke-width="0.5"/>
+  <path d="M254,83 A6,6 0 0,1 254,95" fill="#FFC107" opacity="0.3"/>
+  <text x="254" y="108" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">ель, дуб, липа</text>
+
+  <!-- Тенелюбивые -->
+  <rect x="286" y="56" width="44" height="56" rx="3" fill="#E8EAF6" stroke="#3F51B5" stroke-width="0.8"/>
+  <text x="308" y="67" font-family="Arial,sans-serif" font-size="6.5" fill="#283593" text-anchor="middle" font-weight="bold">Тене-</text>
+  <text x="308" y="75" font-family="Arial,sans-serif" font-size="6.5" fill="#283593" text-anchor="middle" font-weight="bold">любивые</text>
+  <!-- Cloud icon -->
+  <ellipse cx="308" cy="89" rx="8" ry="5" fill="#9FA8DA" opacity="0.3" stroke="#3F51B5" stroke-width="0.5"/>
+  <text x="308" y="108" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">мхи, папоротники</text>
+
+  <!-- Light gradient arrow -->
+  <line x1="172" y1="116" x2="330" y2="116" stroke="#F9A825" stroke-width="1"/>
+  <polygon points="330,116 326,113 326,119" fill="#F9A825"/>
+  <text x="250" y="113" font-family="Arial,sans-serif" font-size="5.5" fill="#E65100" text-anchor="middle">свет →</text>
+
+  <!-- === ECOLOGICAL GROUPS BY WATER (center) === -->
+  <rect x="166" y="120" width="170" height="93" rx="5" fill="white" fill-opacity="0.7" stroke="#2E7D32" stroke-width="1"/>
+  <text x="251" y="133" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">По отношению к воде</text>
+
+  <!-- Water gradient bar -->
+  <rect x="172" y="137" width="158" height="10" rx="2" fill="none" stroke="#aaa" stroke-width="0.5"/>
+  <rect x="172" y="137" width="32" height="10" rx="2" fill="#0277BD" opacity="0.3"/>
+  <rect x="204" y="137" width="32" height="10" rx="0" fill="#0288D1" opacity="0.25"/>
+  <rect x="236" y="137" width="32" height="10" rx="0" fill="#039BE5" opacity="0.2"/>
+  <rect x="268" y="137" width="32" height="10" rx="0" fill="#29B6F6" opacity="0.15"/>
+  <rect x="300" y="137" width="30" height="10" rx="2" fill="#FF8F00" opacity="0.2"/>
+  <text x="188" y="144" font-family="Arial,sans-serif" font-size="4.5" fill="white" text-anchor="middle">много</text>
+  <text x="315" y="144" font-family="Arial,sans-serif" font-size="4.5" fill="#E65100" text-anchor="middle">мало</text>
+
+  <!-- Гидатофиты -->
+  <rect x="172" y="150" width="30" height="58" rx="3" fill="#E1F5FE" stroke="#0277BD" stroke-width="0.7"/>
+  <text x="187" y="160" font-family="Arial,sans-serif" font-size="5" fill="#01579B" text-anchor="middle" font-weight="bold">Гидато-</text>
+  <text x="187" y="167" font-family="Arial,sans-serif" font-size="5" fill="#01579B" text-anchor="middle" font-weight="bold">фиты</text>
+  <!-- Submerged plant -->
+  <line x1="187" y1="180" x2="187" y2="195" stroke="#0277BD" stroke-width="0.7"/>
+  <ellipse cx="183" cy="178" rx="4" ry="2" fill="#29B6F6" opacity="0.5"/>
+  <ellipse cx="191" cy="182" rx="4" ry="2" fill="#29B6F6" opacity="0.5"/>
+  <text x="187" y="205" font-family="Arial,sans-serif" font-size="4" fill="#888" text-anchor="middle">погружённые</text>
+
+  <!-- Гидрофиты -->
+  <rect x="204" y="150" width="30" height="58" rx="3" fill="#E0F7FA" stroke="#00838F" stroke-width="0.7"/>
+  <text x="219" y="160" font-family="Arial,sans-serif" font-size="5" fill="#006064" text-anchor="middle" font-weight="bold">Гидро-</text>
+  <text x="219" y="167" font-family="Arial,sans-serif" font-size="5" fill="#006064" text-anchor="middle" font-weight="bold">фиты</text>
+  <!-- Floating leaf -->
+  <ellipse cx="219" cy="183" rx="6" ry="3" fill="#4CAF50" opacity="0.4"/>
+  <text x="219" y="205" font-family="Arial,sans-serif" font-size="4" fill="#888" text-anchor="middle">кувшинка</text>
+
+  <!-- Гигрофиты -->
+  <rect x="236" y="150" width="32" height="58" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.7"/>
+  <text x="252" y="160" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20" text-anchor="middle" font-weight="bold">Гигро-</text>
+  <text x="252" y="167" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20" text-anchor="middle" font-weight="bold">фиты</text>
+  <!-- Wetland plant -->
+  <line x1="252" y1="195" x2="252" y2="178" stroke="#2E7D32" stroke-width="0.7"/>
+  <ellipse cx="252" cy="176" rx="4" ry="2" fill="#66BB6A" opacity="0.5"/>
+  <text x="252" y="205" font-family="Arial,sans-serif" font-size="4" fill="#888" text-anchor="middle">камыш, росянка</text>
+
+  <!-- Мезофиты -->
+  <rect x="270" y="150" width="30" height="58" rx="3" fill="#F1F8E9" stroke="#558B2F" stroke-width="0.7"/>
+  <text x="285" y="160" font-family="Arial,sans-serif" font-size="5" fill="#33691E" text-anchor="middle" font-weight="bold">Мезо-</text>
+  <text x="285" y="167" font-family="Arial,sans-serif" font-size="5" fill="#33691E" text-anchor="middle" font-weight="bold">фиты</text>
+  <!-- Normal plant -->
+  <line x1="285" y1="195" x2="285" y2="176" stroke="#558B2F" stroke-width="0.7"/>
+  <ellipse cx="285" cy="174" rx="5" ry="3.5" fill="#8BC34A" opacity="0.5"/>
+  <text x="285" y="205" font-family="Arial,sans-serif" font-size="4" fill="#888" text-anchor="middle">дуб, рожь</text>
+
+  <!-- Ксерофиты -->
+  <rect x="302" y="150" width="30" height="58" rx="3" fill="#FFF8E1" stroke="#E65100" stroke-width="0.7"/>
+  <text x="317" y="160" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle" font-weight="bold">Ксеро-</text>
+  <text x="317" y="167" font-family="Arial,sans-serif" font-size="5" fill="#BF360C" text-anchor="middle" font-weight="bold">фиты</text>
+  <!-- Cactus -->
+  <ellipse cx="317" cy="185" rx="5" ry="8" fill="#8BC34A" opacity="0.5" stroke="#558B2F" stroke-width="0.5"/>
+  <line x1="312" y1="183" x2="309" y2="180" stroke="#558B2F" stroke-width="0.5"/>
+  <line x1="322" y1="181" x2="325" y2="178" stroke="#558B2F" stroke-width="0.5"/>
+  <text x="317" y="205" font-family="Arial,sans-serif" font-size="4" fill="#888" text-anchor="middle">кактус, саксаул</text>
+
+  <!-- === BIOTIC INTERACTIONS (top-right) === -->
+  <rect x="342" y="38" width="152" height="108" rx="5" fill="white" fill-opacity="0.7" stroke="#2E7D32" stroke-width="1"/>
+  <text x="418" y="51" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">Биотические взаимодействия</text>
+
+  <!-- Конкуренция -->
+  <rect x="348" y="56" width="44" height="84" rx="3" fill="#FFEBEE" stroke="#E53935" stroke-width="0.8"/>
+  <text x="370" y="67" font-family="Arial,sans-serif" font-size="6" fill="#C62828" text-anchor="middle" font-weight="bold">Конку-</text>
+  <text x="370" y="75" font-family="Arial,sans-serif" font-size="6" fill="#C62828" text-anchor="middle" font-weight="bold">ренция</text>
+  <!-- Two plants fighting for resources -->
+  <line x1="362" y1="100" x2="362" y2="82" stroke="#4CAF50" stroke-width="0.8"/>
+  <line x1="378" y1="100" x2="378" y2="82" stroke="#E53935" stroke-width="0.8"/>
+  <!-- Roots competing -->
+  <path d="M362,100 Q365,108 370,105 Q375,102 378,100" fill="none" stroke="#795548" stroke-width="0.5"/>
+  <!-- VS symbol -->
+  <text x="370" y="95" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" font-weight="bold">⚡</text>
+  <text x="370" y="120" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">за свет, воду,</text>
+  <text x="370" y="127" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">пищу, пространство</text>
+  <text x="370" y="137" font-family="Arial,sans-serif" font-size="4.5" fill="#888" text-anchor="middle">внутривидовая, межвидовая</text>
+
+  <!-- Симбиоз -->
+  <rect x="396" y="56" width="44" height="84" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.8"/>
+  <text x="418" y="67" font-family="Arial,sans-serif" font-size="6" fill="#1B5E20" text-anchor="middle" font-weight="bold">Симбиоз</text>
+  <!-- Mycorrhiza icon -->
+  <ellipse cx="418" cy="88" rx="8" ry="5" fill="#8D6E63" opacity="0.3"/>
+  <line x1="412" y1="88" x2="408" y2="84" stroke="#FF9800" stroke-width="0.6"/>
+  <line x1="424" y1="88" x2="428" y2="84" stroke="#FF9800" stroke-width="0.6"/>
+  <line x1="418" y1="83" x2="418" y2="78" stroke="#2E7D32" stroke-width="0.7"/>
+  <ellipse cx="418" cy="76" rx="4" ry="2.5" fill="#4CAF50" opacity="0.5"/>
+  <text x="418" y="100" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">микориза</text>
+  <!-- Root nodules -->
+  <ellipse cx="418" cy="115" rx="3" ry="4" fill="#E91E63" opacity="0.3" stroke="#C2185B" stroke-width="0.5"/>
+  <line x1="418" y1="111" x2="418" y2="107" stroke="#795548" stroke-width="0.6"/>
+  <text x="418" y="124" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">клубеньки</text>
+  <text x="418" y="131" font-family="Arial,sans-serif" font-size="4.5" fill="#888" text-anchor="middle">(бобовые + бактерии)</text>
+  <text x="418" y="138" font-family="Arial,sans-serif" font-size="4.5" fill="#888" text-anchor="middle">взаимовыгодно</text>
+
+  <!-- Паразитизм -->
+  <rect x="444" y="56" width="44" height="84" rx="3" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="0.8"/>
+  <text x="466" y="67" font-family="Arial,sans-serif" font-size="6" fill="#4A148C" text-anchor="middle" font-weight="bold">Парази-</text>
+  <text x="466" y="75" font-family="Arial,sans-serif" font-size="6" fill="#4A148C" text-anchor="middle" font-weight="bold">тизм</text>
+  <!-- Dodder (повилика) -->
+  <line x1="454" y1="90" x2="478" y2="90" stroke="#2E7D32" stroke-width="0.7"/>
+  <path d="M458,90 Q460,84 462,90 Q464,84 466,90 Q468,84 470,90 Q472,84 474,90" fill="none" stroke="#FF9800" stroke-width="0.8"/>
+  <text x="466" y="100" font-family="Arial,sans-serif" font-size="5" fill="#6A1B9A" text-anchor="middle">повилика</text>
+  <!-- Mistletoe (омела) -->
+  <line x1="466" y1="108" x2="466" y2="118" stroke="#5D4037" stroke-width="1.2"/>
+  <ellipse cx="462" cy="115" rx="4" ry="2.5" fill="#4CAF50" opacity="0.5"/>
+  <ellipse cx="470" cy="115" rx="4" ry="2.5" fill="#4CAF50" opacity="0.5"/>
+  <line x1="455" y1="118" x2="455" y2="123" stroke="#5D4037" stroke-width="0.8"/>
+  <text x="466" y="127" font-family="Arial,sans-serif" font-size="5" fill="#6A1B9A" text-anchor="middle">омела</text>
+  <text x="466" y="135" font-family="Arial,sans-serif" font-size="4.5" fill="#888" text-anchor="middle">выгодно одному,</text>
+  <text x="466" y="141" font-family="Arial,sans-serif" font-size="4.5" fill="#888" text-anchor="middle">вредно другому</text>
+
+  <!-- === CONSERVATION (bottom-right) === -->
+  <rect x="342" y="150" width="152" height="105" rx="5" fill="white" fill-opacity="0.7" stroke="#2E7D32" stroke-width="1"/>
+  <text x="418" y="163" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">Охрана растений</text>
+
+  <!-- Красная книга -->
+  <rect x="348" y="170" width="68" height="36" rx="3" fill="#FFEBEE" stroke="#D32F2F" stroke-width="1"/>
+  <rect x="352" y="174" width="14" height="18" rx="2" fill="#D32F2F" opacity="0.7"/>
+  <text x="359" y="187" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle" font-weight="bold">КК</text>
+  <text x="390" y="182" font-family="Arial,sans-serif" font-size="6.5" fill="#C62828" text-anchor="middle" font-weight="bold">Красная</text>
+  <text x="390" y="191" font-family="Arial,sans-serif" font-size="6.5" fill="#C62828" text-anchor="middle" font-weight="bold">книга</text>
+  <text x="382" y="203" font-family="Arial,sans-serif" font-size="4.5" fill="#888" text-anchor="middle">редкие и исчезающие</text>
+
+  <!-- Заповедники -->
+  <rect x="420" y="170" width="68" height="36" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
+  <text x="454" y="182" font-family="Arial,sans-serif" font-size="6.5" fill="#1B5E20" text-anchor="middle" font-weight="bold">Заповедники</text>
+  <!-- Shield icon -->
+  <path d="M454,186 L448,189 L448,194 Q448,198 454,200 Q460,198 460,194 L460,189 Z" fill="#2E7D32" opacity="0.3" stroke="#1B5E20" stroke-width="0.5"/>
+  <text x="454" y="203" font-family="Arial,sans-serif" font-size="4.5" fill="#888" text-anchor="middle">полный запрет хозяйств.</text>
+
+  <!-- Национальные парки -->
+  <rect x="348" y="210" width="68" height="36" rx="3" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
+  <text x="382" y="222" font-family="Arial,sans-serif" font-size="6.5" fill="#E65100" text-anchor="middle" font-weight="bold">Нац. парки</text>
+  <!-- Tree + visitor icon -->
+  <ellipse cx="374" cy="233" rx="4" ry="3" fill="#4CAF50" opacity="0.4"/>
+  <line x1="374" y1="236" x2="374" y2="240" stroke="#5D4037" stroke-width="0.5"/>
+  <circle cx="388" cy="231" r="2" fill="#E65100" opacity="0.4"/>
+  <text x="382" y="244" font-family="Arial,sans-serif" font-size="4.5" fill="#888" text-anchor="middle">охрана + туризм</text>
+
+  <!-- Заказники -->
+  <rect x="420" y="210" width="68" height="36" rx="3" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+  <text x="454" y="222" font-family="Arial,sans-serif" font-size="6.5" fill="#0D47A1" text-anchor="middle" font-weight="bold">Заказники</text>
+  <!-- Partial protection icon -->
+  <rect x="445" y="228" width="18" height="12" rx="2" fill="#1565C0" opacity="0.15" stroke="#1565C0" stroke-width="0.5"/>
+  <line x1="445" y1="234" x2="463" y2="234" stroke="#1565C0" stroke-width="0.5" stroke-dasharray="1,1"/>
+  <text x="454" y="244" font-family="Arial,sans-serif" font-size="4.5" fill="#888" text-anchor="middle">частичная охрана</text>
+
+  <!-- === BOTTOM: KEY RELATIONSHIPS SUMMARY === -->
+  <rect x="8" y="218" width="330" height="42" rx="5" fill="white" fill-opacity="0.7" stroke="#2E7D32" stroke-width="1"/>
+  <text x="173" y="231" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">Типы связей в фитоценозе</text>
+
+  <!-- Competition arrow -->
+  <rect x="14" y="236" width="80" height="18" rx="3" fill="#FFEBEE" stroke="#E53935" stroke-width="0.6"/>
+  <text x="54" y="248" font-family="Arial,sans-serif" font-size="6.5" fill="#C62828" text-anchor="middle">⟷ Конкуренция</text>
+
+  <!-- Symbiosis arrow -->
+  <rect x="100" y="236" width="80" height="18" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="0.6"/>
+  <text x="140" y="248" font-family="Arial,sans-serif" font-size="6.5" fill="#1B5E20" text-anchor="middle">⟷ Симбиоз (+/+)</text>
+
+  <!-- Parasitism arrow -->
+  <rect x="186" y="236" width="80" height="18" rx="3" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="0.6"/>
+  <text x="226" y="248" font-family="Arial,sans-serif" font-size="6.5" fill="#4A148C" text-anchor="middle">→ Паразитизм (+/−)</text>
+
+  <!-- Commensalism -->
+  <rect x="272" y="236" width="60" height="18" rx="3" fill="#FFF3E0" stroke="#E65100" stroke-width="0.6"/>
+  <text x="302" y="248" font-family="Arial,sans-serif" font-size="6.5" fill="#E65100" text-anchor="middle">Комменсализм</text>
+
+  <!-- === BOTTOM: Conservation principles === -->
+  <rect x="8" y="264" width="486" height="22" rx="4" fill="#1B5E20" opacity="0.1" stroke="#2E7D32" stroke-width="0.8"/>
+  <text x="250" y="278" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle" font-weight="bold">Принципы охраны: сохранение местообитаний → защита видов → восстановление экосистем → экологическое просвещение</text>
+
+  <!-- Decorative plant bottom -->
+  <line x1="20" y1="296" x2="20" y2="310" stroke="#2E7D32" stroke-width="0.8"/>
+  <ellipse cx="17" cy="294" rx="3" ry="2" fill="#4CAF50" opacity="0.4"/>
+  <ellipse cx="23" cy="296" rx="3" ry="2" fill="#66BB6A" opacity="0.4"/>
+
+  <line x1="480" y1="296" x2="480" y2="310" stroke="#2E7D32" stroke-width="0.8"/>
+  <ellipse cx="477" cy="294" rx="3" ry="2" fill="#4CAF50" opacity="0.4"/>
+  <ellipse cx="483" cy="296" rx="3" ry="2" fill="#66BB6A" opacity="0.4"/>
+
+  <!-- Bottom label -->
+  <text x="250" y="340" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" opacity="0.6">Биология 7 класс — Урок 38</text>
+</svg>

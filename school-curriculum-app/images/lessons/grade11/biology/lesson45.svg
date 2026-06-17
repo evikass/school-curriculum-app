@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#EDE7F6"/><stop offset="100%" stop-color="#E8F5E9"/></linearGradient>
+<linearGradient id="l1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#311B92"/><stop offset="100%" stop-color="#4527A0"/></linearGradient>
+<linearGradient id="l2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#4527A0"/><stop offset="100%" stop-color="#5E35B1"/></linearGradient>
+<linearGradient id="l3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#5E35B1"/><stop offset="100%" stop-color="#7E57C2"/></linearGradient>
+<linearGradient id="l4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#7E57C2"/><stop offset="100%" stop-color="#66BB6A"/></linearGradient>
+<linearGradient id="l5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#66BB6A"/><stop offset="100%" stop-color="#43A047"/></linearGradient>
+<linearGradient id="l6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#43A047"/><stop offset="100%" stop-color="#2E7D32"/></linearGradient>
+<linearGradient id="l7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2E7D32"/><stop offset="100%" stop-color="#1B5E20"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="25" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Уровни организации жизни — обзор курса</text>
+
+<!-- Pyramid of organization levels -->
+<!-- Level 1: Молекулярный (top, narrowest) -->
+<polygon points="215,48 285,48 295,72 205,72" fill="url(#l1)" stroke="#1B5E20" stroke-width="0.5"/>
+<text x="250" y="58" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">Молекулярный</text>
+<text x="250" y="68" font-family="Arial,sans-serif" font-size="5.5" fill="#D1C4E9" text-anchor="middle">ДНК, РНК, белки, АТФ</text>
+
+<!-- Level 2: Клеточный -->
+<polygon points="200,75 300,75 315,99 185,99" fill="url(#l2)" stroke="#1B5E20" stroke-width="0.5"/>
+<text x="250" y="85" font-family="Arial,sans-serif" font-size="8.5" font-weight="bold" fill="white" text-anchor="middle">Клеточный</text>
+<text x="250" y="95" font-family="Arial,sans-serif" font-size="5.5" fill="#D1C4E9" text-anchor="middle">Прокариоты, эукариоты, органеллы</text>
+
+<!-- Level 3: Организменный -->
+<polygon points="180,102 320,102 340,126 160,126" fill="url(#l3)" stroke="#1B5E20" stroke-width="0.5"/>
+<text x="250" y="112" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle">Организменный</text>
+<text x="250" y="122" font-family="Arial,sans-serif" font-size="5.5" fill="#E8EAF6" text-anchor="middle">Генетика, онтогенез, эволюция, здоровье</text>
+
+<!-- Level 4: Популяционный -->
+<polygon points="155,129 345,129 370,153 130,153" fill="url(#l4)" stroke="#1B5E20" stroke-width="0.5"/>
+<text x="250" y="139" font-family="Arial,sans-serif" font-size="9.5" font-weight="bold" fill="white" text-anchor="middle">Популяционно-видовой</text>
+<text x="250" y="149" font-family="Arial,sans-serif" font-size="5.5" fill="#E8F5E9" text-anchor="middle">Популяция, вид, микроэволюция</text>
+
+<!-- Level 5: Биоценотический -->
+<polygon points="125,156 375,156 405,180 95,180" fill="url(#l5)" stroke="#1B5E20" stroke-width="0.5"/>
+<text x="250" y="166" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Биоценотический (экосистемный)</text>
+<text x="250" y="176" font-family="Arial,sans-serif" font-size="5.5" fill="#E8F5E9" text-anchor="middle">Биоценоз, цепи питания, сукцессия, биогеоценоз</text>
+
+<!-- Level 6: Биосферный (bottom, widest) -->
+<polygon points="90,183 410,183 445,207 55,207" fill="url(#l6)" stroke="#1B5E20" stroke-width="0.5"/>
+<text x="250" y="193" font-family="Arial,sans-serif" font-size="10.5" font-weight="bold" fill="white" text-anchor="middle">Биосферный</text>
+<text x="250" y="203" font-family="Arial,sans-serif" font-size="5.5" fill="#E8F5E9" text-anchor="middle">Биосфера, ноосфера, круговорот веществ, функции живого вещества</text>
+
+<!-- Right side: Key concepts for each level -->
+<rect x="15" y="218" width="470" height="105" rx="5" fill="white" opacity="0.55" stroke="#2E7D32" stroke-width="1"/>
+<text x="250" y="233" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Ключевые темы курса 11 класса</text>
+
+<!-- Column 1 -->
+<text x="25" y="248" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#311B92">Молекулярно-клеточный:</text>
+<text x="25" y="259" font-family="Arial,sans-serif" font-size="6.5" fill="#4527A0">• Биосинтез белка, генетический код</text>
+<text x="25" y="269" font-family="Arial,sans-serif" font-size="6.5" fill="#4527A0">• Энергетический обмен (гликолиз, Кребс)</text>
+<text x="25" y="279" font-family="Arial,sans-serif" font-size="6.5" fill="#4527A0">• Фотосинтез, хемосинтез</text>
+<text x="25" y="289" font-family="Arial,sans-serif" font-size="6.5" fill="#4527A0">• Деление клетки: митоз, мейоз</text>
+
+<!-- Column 2 -->
+<text x="180" y="248" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1B5E20">Организменный:</text>
+<text x="180" y="259" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32">• Генетика: законы Менделя</text>
+<text x="180" y="269" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32">• Хромосомная теория, сцепление</text>
+<text x="180" y="279" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32">• Мутации, изменчивость</text>
+<text x="180" y="289" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32">• Эволюция: Дарвин, синтетич. теория</text>
+
+<!-- Column 3 -->
+<text x="340" y="248" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1B5E20">Надорганизменный:</text>
+<text x="340" y="259" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32">• Экология: факторы, популяции</text>
+<text x="340" y="269" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32">• Биоценоз, экосистема, сукцессия</text>
+<text x="340" y="279" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32">• Биосфера, ноосфера (Вернадский)</text>
+<text x="340" y="289" font-family="Arial,sans-serif" font-size="6.5" fill="#2E7D32">• Биотехнологии, охрана природы</text>
+
+<!-- Bottom: Integration message -->
+<rect x="15" y="305" width="470" height="30" rx="4" fill="#2E7D32" opacity="0.1" stroke="#388E3C" stroke-width="1"/>
+<text x="250" y="318" font-family="Arial,sans-serif" font-size="7.5" font-weight="bold" fill="#1B5E20" text-anchor="middle">Все уровни организации взаимосвязаны — от молекулы до биосферы</text>
+<text x="250" y="330" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">Биология — наука о жизни во всём её многообразии и единстве</text>
+<text x="250" y="342" font-family="Arial,sans-serif" font-size="7" fill="#66BB6A" text-anchor="middle">Урок 45 · Обзор курса: уровни организации жизни</text>
+</svg>

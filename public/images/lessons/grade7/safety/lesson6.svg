@@ -1,69 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF9C4"/><stop offset="100%" stop-color="#FFF9C4"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#F57F17" stroke-width="3"/>
-<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#F57F17" stroke-width="1" opacity="0.3"/>
-<polygon points="10,10 30,10 10,30" fill="#F57F17" opacity="0.08"/>
-<polygon points="490,10 470,10 490,30" fill="#FBC02D" opacity="0.08"/>
-<polygon points="10,340 30,340 10,320" fill="#FFEB3B" opacity="0.08"/>
-<polygon points="490,340 470,340 490,320" fill="#FFF176" opacity="0.08"/>
-<circle cx="70" cy="15" r="4" fill="#F57F17" opacity="0.1"/>
-<circle cx="82" cy="15" r="4" fill="#FBC02D" opacity="0.1"/>
-<circle cx="94" cy="15" r="4" fill="#FFEB3B" opacity="0.1"/>
-<circle cx="406" cy="15" r="4" fill="#F57F17" opacity="0.1"/>
-<circle cx="418" cy="15" r="4" fill="#FBC02D" opacity="0.1"/>
-<circle cx="430" cy="15" r="4" fill="#FFEB3B" opacity="0.1"/>
-<text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#F57F17" text-anchor="middle">Первая помощь при кровотечениях</text>
-<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">ОБЖ - Урок 6</text>
-<line x1="30" y1="78" x2="470" y2="78" stroke="#F57F17" stroke-width="2" opacity="0.25"/>
-<rect x="30" y="75" width="60" height="6" fill="#F57F17" opacity="0.15" rx="1"/>
-<rect x="410" y="75" width="60" height="6" fill="#FBC02D" opacity="0.12" rx="1"/>
-
-  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#F57F17" stroke-width="1.5"/>
-  <text x="135" y="110" font-family="Arial,sans-serif" font-size="11" fill="#F57F17" text-anchor="middle" font-weight="bold">Первая помощь при кровотечениях</text>
-  <!-- First aid cross -->
-  <rect x="75" y="130" width="120" height="70" rx="5" fill="white" stroke="#F57F17" stroke-width="2"/>
-  <rect x="125" y="140" width="20" height="50" rx="3" fill="#F57F17"/>
-  <rect x="100" y="150" width="70" height="20" rx="3" fill="#F57F17"/>
-  <text x="135" y="220" font-family="Arial,sans-serif" font-size="8" fill="#F57F17" text-anchor="middle">первая помощь</text>
-  <!-- Warning signs -->
-  <polygon points="80,250 65,280 95,280" fill="#FFF9C4" stroke="#F9A825" stroke-width="2"/>
-  <text x="80" y="275" font-family="Arial,sans-serif" font-size="12" fill="#F9A825" text-anchor="middle" font-weight="bold">!</text>
-  <polygon points="135,250 120,280 150,280" fill="#FFF9C4" stroke="#F9A825" stroke-width="2"/>
-  <text x="135" y="275" font-family="Arial,sans-serif" font-size="12" fill="#F9A825" text-anchor="middle" font-weight="bold">!</text>
-  <polygon points="190,250 175,280 205,280" fill="#FFF9C4" stroke="#F9A825" stroke-width="2"/>
-  <text x="190" y="275" font-family="Arial,sans-serif" font-size="12" fill="#F9A825" text-anchor="middle" font-weight="bold">!</text>
-
-  <rect x="260" y="90" width="215" height="200" rx="6" fill="white" stroke="#F9A825" stroke-width="1.5"/>
-  <text x="367" y="115" font-family="Arial,sans-serif" font-size="12" fill="#F9A825" text-anchor="middle" font-weight="bold">Безопасность</text>
-  <!-- Fire -->
-  <rect x="280" y="130" width="80" height="60" rx="4" fill="#FFEBEE" stroke="#F57F17" stroke-width="1"/>
-  <path d="M310,175 Q300,160 310,145 Q315,135 320,145 Q330,160 320,175 Z" fill="#FF5722" opacity="0.7"/>
-  <path d="M315,175 Q308,165 315,152 Q318,146 322,155 Q328,165 320,175 Z" fill="#FF9800" opacity="0.8"/>
-  <text x="320" y="200" font-family="Arial,sans-serif" font-size="7" fill="#F57F17" text-anchor="middle">пожарная безоп.</text>
-  <!-- Traffic light -->
-  <rect x="390" y="125" width="20" height="55" rx="4" fill="#333"/>
-  <circle cx="400" cy="138" r="6" fill="#F57F17"/>
-  <circle cx="400" cy="153" r="6" fill="#F9A825"/>
-  <circle cx="400" cy="168" r="6" fill="#2E7D32"/>
-  <text x="400" y="200" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">ПДД</text>
-  <!-- Road -->
-  <rect x="280" y="215" width="165" height="25" rx="2" fill="#78909C"/>
-  <line x1="290" y1="227" x2="305" y2="227" stroke="white" stroke-width="2"/>
-  <line x1="315" y1="227" x2="330" y2="227" stroke="white" stroke-width="2"/>
-  <line x1="340" y1="227" x2="355" y2="227" stroke="white" stroke-width="2"/>
-  <line x1="365" y1="227" x2="380" y2="227" stroke="white" stroke-width="2"/>
-  <line x1="390" y1="227" x2="405" y2="227" stroke="white" stroke-width="2"/>
-  <line x1="415" y1="227" x2="430" y2="227" stroke="white" stroke-width="2"/>
-  <!-- Car -->
-  <rect x="300" y="245" width="40" height="18" rx="5" fill="#42A5F5" stroke="#1565C0" stroke-width="1"/>
-  <circle cx="310" cy="265" r="4" fill="#333"/><circle cx="330" cy="265" r="4" fill="#333"/>
-  <!-- Emergency number -->
-  <rect x="280" y="255" width="50" height="25" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
-  <text x="305" y="272" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" text-anchor="middle" font-weight="bold">112</text>
-  <text x="367" y="285" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">экстренные службы</text>
-<rect x="15" y="310" width="470" height="30" rx="4" fill="#F57F17" opacity="0.85"/>
-<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">ОБЖ</text>
-  <path d="M455,105 L470,112 L470,130 L455,140 L440,130 L440,112 Z" fill="none" stroke="#F57F17" stroke-width="1" opacity="0.12"/>
-  <text x="455" y="128" font-family="Arial" font-size="14" fill="#F57F17" opacity="0.1" text-anchor="middle">!</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="350" fill="#0d1210"/>
+  <!-- Factory accident -->
+  <rect x="30" y="30" width="150" height="120" rx="6" fill="#1a2a1a" stroke="#ff9800" stroke-width="1.5"/>
+  <text x="45" y="50" font-size="10" fill="#ff9800" font-weight="bold">Авария на заводе</text>
+  <!-- Factory building -->
+  <rect x="50" y="70" width="100" height="55" fill="#37474f" stroke="#546e7a" stroke-width="1.5"/>
+  <!-- Chimney -->
+  <rect x="60" y="50" width="15" height="25" fill="#455a64"/>
+  <rect x="90" y="55" width="12" height="20" fill="#455a64"/>
+  <!-- Smoke/toxic release -->
+  <circle cx="67" cy="42" r="8" fill="#ff9800" opacity="0.15"/>
+  <circle cx="75" cy="35" r="10" fill="#ff9800" opacity="0.1"/>
+  <circle cx="90" cy="30" r="12" fill="#ff9800" opacity="0.07"/>
+  <!-- Warning stripes -->
+  <rect x="50" y="110" width="100" height="8" fill="#ff9800" opacity="0.3"/>
+  <text x="60" y="140" font-size="7" fill="#b0bec5">Химическое заражение</text>
+  <!-- Chemical spill -->
+  <rect x="200" y="30" width="140" height="120" rx="6" fill="#1a1a2a" stroke="#ffeb3b" stroke-width="1.5"/>
+  <text x="215" y="50" font-size="10" fill="#ffeb3b" font-weight="bold">Химический разлив</text>
+  <!-- Barrel -->
+  <rect x="240" y="60" width="35" height="45" rx="4" fill="#fdd835" stroke="#f9a825" stroke-width="1.5"/>
+  <text x="248" y="82" font-size="7" fill="#5d4037">OПАСНО</text>
+  <!-- Spill puddle -->
+  <ellipse cx="260" cy="115" rx="40" ry="12" fill="#ffeb3b" opacity="0.2"/>
+  <ellipse cx="260" cy="115" rx="25" ry="7" fill="#fdd835" opacity="0.3"/>
+  <!-- Fumes -->
+  <path d="M250,110 Q245,100 250,95" fill="none" stroke="#fdd835" stroke-width="1" opacity="0.3"/>
+  <path d="M265,108 Q270,98 265,92" fill="none" stroke="#fdd835" stroke-width="1" opacity="0.3"/>
+  <text x="210" y="140" font-size="7" fill="#b0bec5">Ядовитые вещества (АХОВ)</text>
+  <!-- Radiation -->
+  <rect x="360" y="30" width="120" height="120" rx="6" fill="#1a2a1a" stroke="#66bb6a" stroke-width="1.5"/>
+  <text x="375" y="50" font-size="10" fill="#66bb6a" font-weight="bold">Радиация</text>
+  <!-- Radiation symbol -->
+  <circle cx="420" cy="90" r="28" fill="none" stroke="#66bb6a" stroke-width="1.5"/>
+  <circle cx="420" cy="90" r="5" fill="#66bb6a"/>
+  <!-- Three blades -->
+  <path d="M420,85 A20,20 0 0,1 420,65" fill="#66bb6a" opacity="0.4"/>
+  <path d="M425,90 A20,20 0 0,1 445,90" fill="#66bb6a" opacity="0.4"/>
+  <path d="M415,95 A20,20 0 0,1 395,95" fill="#66bb6a" opacity="0.4"/>
+  <text x="385" y="130" font-size="7" fill="#a5d6a7">Радиоактивный фон</text>
+  <text x="380" y="142" font-size="7" fill="#66bb6a" opacity="0.6">☢ ионизирующее излучение</text>
+  <!-- Actions section -->
+  <rect x="30" y="175" width="440" height="140" rx="8" fill="#1a1610" stroke="#546e7a" stroke-width="1"/>
+  <text x="50" y="198" font-size="11" fill="#ff9800" font-weight="bold">Действия при техногенных ЧС:</text>
+  <text x="50" y="218" font-size="8" fill="#ffe0b2">🏭 Хим. авария: закрой окна, влажная марля, не выходи</text>
+  <text x="50" y="236" font-size="8" fill="#fff9c4">⚗ Разлив АХОВ: иди перпендикулярно ветру, вверх</text>
+  <text x="50" y="254" font-size="8" fill="#c8e6c9">☢ Радиация: оставайся в укрытии, йодная профилактика</text>
+  <text x="50" y="275" font-size="9" fill="#ef5350" font-weight="bold">⚠ Общее правило: НЕ паникуй! Жди сигнала «Отбой»</text>
+  <!-- Emergency numbers -->
+  <rect x="50" y="288" width="80" height="20" rx="4" fill="#c62828"/>
+  <text x="58" y="303" font-size="11" fill="#fff" font-weight="bold">112</text>
+  <rect x="145" y="288" width="80" height="20" rx="4" fill="#e65100"/>
+  <text x="153" y="303" font-size="11" fill="#fff" font-weight="bold">101</text>
+  <rect x="240" y="288" width="80" height="20" rx="4" fill="#1565c0"/>
+  <text x="248" y="303" font-size="11" fill="#fff" font-weight="bold">102</text>
+  <rect x="335" y="288" width="80" height="20" rx="4" fill="#2e7d32"/>
+  <text x="343" y="303" font-size="11" fill="#fff" font-weight="bold">103</text>
+  <text x="140" y="340" font-size="9" fill="#fff" opacity="0.5">Техногенные ЧС</text>
 </svg>

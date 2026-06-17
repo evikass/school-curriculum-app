@@ -1,37 +1,101 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
-    </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#0D47A1"/>
-      <stop offset="100%" stop-color="#1A237E"/>
+      <stop offset="0%" stop-color="#fff3e0"/>
+      <stop offset="100%" stop-color="#ffe0b2"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1A237E" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#1A237E" stroke-width="1" opacity="0.3"/>
-  <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#1A237E" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
+  <rect width="500" height="350" fill="url(#bg)"/>
   <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#1A237E" text-anchor="middle">Обработка данных</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Информатика - Урок 6</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#1A237E" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#1A237E" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA -->
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#E8EAF6"/><text x="250" y="130" font-family="Arial,sans-serif" font-size="20" fill="#1A237E" text-anchor="middle" font-weight="bold">Обработка данных</text><rect x="170" y="155" width="140" height="45" rx="5" fill="#E3F2FD" stroke="#1A237E" stroke-width="1.5"/><text x="240" y="182" font-family="Arial" font-size="12" fill="#1A237E" text-anchor="middle">Списки (list):</text>
-  <rect x="435" y="270" width="20" height="20" rx="2" fill="#1A237E" opacity="0.12"/><rect x="445" y="280" width="15" height="15" rx="2" fill="#0D47A1" opacity="0.08"/>
-  </g>
-  <!-- Bottom panel -->
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Информатика</text>
+  <text x="250" y="22" font-size="9" fill="#e65100" text-anchor="middle" font-weight="bold">ОБРАБОТКА ДАННЫХ</text>
+  <!-- Original data table (top) -->
+  <text x="120" y="45" font-size="7" fill="#5d4037" text-anchor="middle" font-weight="bold">Исходные данные</text>
+  <rect x="30" y="50" width="180" height="120" fill="#fff" stroke="#5d4037" stroke-width="1.5" rx="3"/>
+  <!-- Table headers -->
+  <rect x="30" y="50" width="180" height="18" fill="#5d4037"/>
+  <text x="60" y="63" font-size="6" fill="#fff" text-anchor="middle">Имя</text>
+  <text x="120" y="63" font-size="6" fill="#fff" text-anchor="middle">Возраст</text>
+  <text x="175" y="63" font-size="6" fill="#fff" text-anchor="middle">Оценка</text>
+  <!-- Table rows -->
+  <line x1="30" y1="68" x2="210" y2="68" stroke="#d7ccc8" stroke-width="0.5"/>
+  <line x1="90" y1="50" x2="90" y2="170" stroke="#d7ccc8" stroke-width="0.5"/>
+  <line x1="150" y1="50" x2="150" y2="170" stroke="#d7ccc8" stroke-width="0.5"/>
+  <text x="60" y="80" font-size="6" fill="#333" text-anchor="middle">Анна</text>
+  <text x="120" y="80" font-size="6" fill="#333" text-anchor="middle">14</text>
+  <text x="175" y="80" font-size="6" fill="#333" text-anchor="middle">5</text>
+  <text x="60" y="95" font-size="6" fill="#333" text-anchor="middle">Борис</text>
+  <text x="120" y="95" font-size="6" fill="#333" text-anchor="middle">15</text>
+  <text x="175" y="95" font-size="6" fill="#333" text-anchor="middle">3</text>
+  <text x="60" y="110" font-size="6" fill="#333" text-anchor="middle">Вика</text>
+  <text x="120" y="110" font-size="6" fill="#333" text-anchor="middle">14</text>
+  <text x="175" y="110" font-size="6" fill="#333" text-anchor="middle">4</text>
+  <text x="60" y="125" font-size="6" fill="#c62828" text-anchor="middle">Дима</text>
+  <text x="120" y="125" font-size="6" fill="#c62828" text-anchor="middle">16</text>
+  <text x="175" y="125" font-size="6" fill="#c62828" text-anchor="middle">2</text>
+  <text x="60" y="140" font-size="6" fill="#333" text-anchor="middle">Елена</text>
+  <text x="120" y="140" font-size="6" fill="#333" text-anchor="middle">15</text>
+  <text x="175" y="140" font-size="6" fill="#333" text-anchor="middle">5</text>
+  <text x="60" y="155" font-size="6" fill="#333" text-anchor="middle">Женя</text>
+  <text x="120" y="155" font-size="6" fill="#333" text-anchor="middle">14</text>
+  <text x="175" y="155" font-size="6" fill="#333" text-anchor="middle">4</text>
+  <!-- Processing arrows (center) -->
+  <!-- Filter arrow -->
+  <path d="M215,80 L270,80" stroke="#c62828" stroke-width="2"/>
+  <polygon points="270,80 263,76 263,84" fill="#c62828"/>
+  <rect x="225" y="70" width="40" height="12" rx="3" fill="#c62828" opacity="0.8"/>
+  <text x="245" y="79" font-size="5" fill="#fff" text-anchor="middle">Фильтр</text>
+  <!-- Sort arrow -->
+  <path d="M215,120 L270,120" stroke="#1565c0" stroke-width="2"/>
+  <polygon points="270,120 263,116 263,124" fill="#1565c0"/>
+  <rect x="225" y="110" width="40" height="12" rx="3" fill="#1565c0" opacity="0.8"/>
+  <text x="245" y="119" font-size="5" fill="#fff" text-anchor="middle">Сортировка</text>
+  <!-- Aggregate arrow -->
+  <path d="M215,160 L270,160" stroke="#2e7d32" stroke-width="2"/>
+  <polygon points="270,160 263,156 263,164" fill="#2e7d32"/>
+  <rect x="220" y="150" width="50" height="12" rx="3" fill="#2e7d32" opacity="0.8"/>
+  <text x="245" y="159" font-size="5" fill="#fff" text-anchor="middle">Агрегация</text>
+  <!-- Filtered result -->
+  <text x="370" y="70" font-size="6" fill="#c62828" text-anchor="middle" font-weight="bold">Оценка ≥ 4</text>
+  <rect x="280" y="75" width="180" height="55" fill="#fff" stroke="#c62828" stroke-width="1" rx="3"/>
+  <text x="310" y="88" font-size="5" fill="#333">Анна — 5</text>
+  <text x="310" y="98" font-size="5" fill="#333">Вика — 4</text>
+  <text x="310" y="108" font-size="5" fill="#333">Елена — 5</text>
+  <text x="310" y="118" font-size="5" fill="#333">Женя — 4</text>
+  <!-- Sorted result -->
+  <text x="370" y="140" font-size="6" fill="#1565c0" text-anchor="middle" font-weight="bold">По возрасту ↑</text>
+  <rect x="280" y="145" width="180" height="30" fill="#fff" stroke="#1565c0" stroke-width="1" rx="3"/>
+  <text x="310" y="158" font-size="5" fill="#333">Анна(14) → Вика(14) → Женя(14)</text>
+  <text x="310" y="168" font-size="5" fill="#333">Борис(15) → Елена(15) → Дима(16)</text>
+  <!-- Aggregated result -->
+  <text x="370" y="186" font-size="6" fill="#2e7d32" text-anchor="middle" font-weight="bold">Статистика</text>
+  <rect x="280" y="191" width="180" height="40" fill="#fff" stroke="#2e7d32" stroke-width="1" rx="3"/>
+  <text x="310" y="204" font-size="5" fill="#333">Средняя оценка: 3.83</text>
+  <text x="310" y="214" font-size="5" fill="#333">Мин: 2 | Макс: 5</text>
+  <text x="310" y="224" font-size="5" fill="#333">Количество: 6 учеников</text>
+  <!-- Python code (bottom) -->
+  <rect x="30" y="245" width="440" height="70" rx="4" fill="#263238"/>
+  <rect x="30" y="245" width="440" height="15" fill="#37474f"/>
+  <text x="250" y="256" font-size="6" fill="#90a4ae" text-anchor="middle">data_processing.py</text>
+  <text x="40" y="273" font-size="6" fill="#c792ea" font-family="monospace">import</text>
+  <text x="75" y="273" font-size="6" fill="#82aaff" font-family="monospace"> pandas </text>
+  <text x="120" y="273" font-size="6" fill="#c792ea" font-family="monospace">as</text>
+  <text x="133" y="273" font-size="6" fill="#c3e88d" font-family="monospace"> pd</text>
+  <text x="40" y="285" font-size="6" fill="#c792ea" font-family="monospace">df</text>
+  <text x="52" y="285" font-size="6" fill="#89ddff" font-family="monospace"> = </text>
+  <text x="65" y="285" font-size="6" fill="#82aaff" font-family="monospace">pd.read_csv</text>
+  <text x="135" y="285" font-size="6" fill="#c3e88d" font-family="monospace">("data.csv")</text>
+  <text x="40" y="297" font-size="6" fill="#c792ea" font-family="monospace">filtered</text>
+  <text x="85" y="297" font-size="6" fill="#89ddff" font-family="monospace"> = </text>
+  <text x="95" y="297" font-size="6" fill="#c792ea" font-family="monospace">df</text>
+  <text x="108" y="297" font-size="6" fill="#89ddff" font-family="monospace">[</text>
+  <text x="112" y="297" font-size="6" fill="#c792ea" font-family="monospace">df</text>
+  <text x="124" y="297" font-size="6" fill="#c3e88d" font-family="monospace">.grade</text>
+  <text x="152" y="297" font-size="6" fill="#89ddff" font-family="monospace"> >= </text>
+  <text x="168" y="297" font-size="6" fill="#f78c6c" font-family="monospace">4</text>
+  <text x="175" y="297" font-size="6" fill="#89ddff" font-family="monospace">]</text>
+  <text x="40" y="309" font-size="6" fill="#c792ea" font-family="monospace">df</text>
+  <text x="55" y="309" font-size="6" fill="#82aaff" font-family="monospace">.sort_values</text>
+  <text x="130" y="309" font-size="6" fill="#c3e88d" font-family="monospace">("age")</text>
+  <text x="200" y="309" font-size="6" fill="#78909c" font-family="monospace">  # сортировка</text>
+  <text x="250" y="340" font-size="9" fill="#333" opacity="0.5" text-anchor="middle">Обработка данных</text>
 </svg>

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" font-family="Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg19" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg19)" rx="8"/>
+  <text x="250" y="25" text-anchor="middle" font-size="17" font-weight="bold" fill="#1B5E20">Обмен веществ и энергии</text>
+  <line x1="100" y1="33" x2="400" y2="33" stroke="#2E7D32" stroke-width="1"/>
+
+  <!-- LEFT PANEL: Пластический обмен -->
+  <rect x="10" y="42" width="235" height="165" rx="8" fill="#C8E6C9" fill-opacity="0.4" stroke="#2E7D32" stroke-width="1.5"/>
+  <text x="127" y="60" text-anchor="middle" font-size="12" font-weight="bold" fill="#1B5E20">Пластический обмен</text>
+  <text x="127" y="73" text-anchor="middle" font-size="8" fill="#2E7D32">(Ассимиляция — биосинтез)</text>
+
+  <!-- Photosynthesis box -->
+  <rect x="20" y="80" width="215" height="50" rx="5" fill="#81C784" fill-opacity="0.3" stroke="#388E3C" stroke-width="1"/>
+  <text x="127" y="95" text-anchor="middle" font-size="9" font-weight="bold" fill="#1B5E20">Фотосинтез</text>
+  <text x="127" y="108" text-anchor="middle" font-size="8" fill="#2E7D32">6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂</text>
+  <text x="127" y="122" text-anchor="middle" font-size="7" fill="#388E3C">Свет + хлорофилл → глюкоза + O₂</text>
+
+  <!-- Biosynthesis pathway -->
+  <rect x="20" y="135" width="215" height="65" rx="5" fill="#A5D6A7" fill-opacity="0.3" stroke="#388E3C" stroke-width="1"/>
+  <text x="127" y="150" text-anchor="middle" font-size="9" font-weight="bold" fill="#1B5E20">Биосинтез белка</text>
+  <text x="127" y="163" text-anchor="middle" font-size="7" fill="#2E7D32">ДНК → и-РНК (транскрипция)</text>
+  <text x="127" y="174" text-anchor="middle" font-size="7" fill="#2E7D32">и-РНК → белок (трансляция)</text>
+  <text x="127" y="185" text-anchor="middle" font-size="7" fill="#2E7D32">Рибосома + т-РНК + аминок-ты</text>
+  <text x="127" y="196" text-anchor="middle" font-size="7" fill="#388E3C">⚡ Тратится АТФ</text>
+
+  <!-- RIGHT PANEL: Энергетический обмен -->
+  <rect x="255" y="42" width="235" height="165" rx="8" fill="#FFCCBC" fill-opacity="0.4" stroke="#BF360C" stroke-width="1.5"/>
+  <text x="372" y="60" text-anchor="middle" font-size="12" font-weight="bold" fill="#BF360C">Энергетический обмен</text>
+  <text x="372" y="73" text-anchor="middle" font-size="8" fill="#E65100">(Диссимиляция — дыхание)</text>
+
+  <!-- Stages -->
+  <rect x="265" y="80" width="215" height="35" rx="4" fill="#FFAB91" fill-opacity="0.3" stroke="#E65100" stroke-width="1"/>
+  <text x="372" y="95" text-anchor="middle" font-size="8" font-weight="bold" fill="#BF360C">1. Подготовительный</text>
+  <text x="372" y="108" text-anchor="middle" font-size="7" fill="#E65100">Полимеры → Мономеры (в ЖКТ)</text>
+
+  <rect x="265" y="118" width="215" height="35" rx="4" fill="#FFAB91" fill-opacity="0.4" stroke="#E65100" stroke-width="1"/>
+  <text x="372" y="133" text-anchor="middle" font-size="8" font-weight="bold" fill="#BF360C">2. Бескислородный (гликолиз)</text>
+  <text x="372" y="146" text-anchor="middle" font-size="7" fill="#E65100">C₆H₁₂O₆ → 2C₃H₄O₃ + 2АТФ</text>
+
+  <rect x="265" y="156" width="215" height="35" rx="4" fill="#FFAB91" fill-opacity="0.5" stroke="#E65100" stroke-width="1"/>
+  <text x="372" y="171" text-anchor="middle" font-size="8" font-weight="bold" fill="#BF360C">3. Кислородный (дыхание)</text>
+  <text x="372" y="184" text-anchor="middle" font-size="7" fill="#E65100">C₃H₄O₃ → CO₂ + H₂O + 36АТФ</text>
+
+  <!-- ATP yield -->
+  <text x="372" y="200" text-anchor="middle" font-size="7" font-weight="bold" fill="#BF360C">Итого: 38 АТФ на 1 глюкозу</text>
+
+  <!-- CENTER: ATP CYCLE -->
+  <rect x="80" y="218" width="340" height="125" rx="8" fill="#E8F5E9" fill-opacity="0.7" stroke="#2E7D32" stroke-width="1.5"/>
+  <text x="250" y="236" text-anchor="middle" font-size="12" font-weight="bold" fill="#1B5E20">Цикл АТФ</text>
+
+  <!-- ATP molecule -->
+  <rect x="210" y="248" width="80" height="30" rx="10" fill="#FDD835" fill-opacity="0.6" stroke="#F57F17" stroke-width="2"/>
+  <text x="250" y="267" text-anchor="middle" font-size="12" font-weight="bold" fill="#E65100">АТФ</text>
+
+  <!-- ADP + P -->
+  <rect x="210" y="305" width="80" height="25" rx="8" fill="#FFF9C4" fill-opacity="0.6" stroke="#F57F17" stroke-width="1.5"/>
+  <text x="250" y="322" text-anchor="middle" font-size="9" font-weight="bold" fill="#F57F17">АДФ + Ф</text>
+
+  <!-- Up arrow: Энергия -->
+  <line x1="240" y1="300" x2="240" y2="280" stroke="#2E7D32" stroke-width="2"/>
+  <polygon points="240,278 235,285 245,285" fill="#2E7D32"/>
+  <text x="205" y="292" font-size="7" fill="#2E7D32">+ Энергия</text>
+
+  <!-- Down arrow: Release -->
+  <line x1="260" y1="280" x2="260" y2="300" stroke="#BF360C" stroke-width="2"/>
+  <polygon points="260,302 255,295 265,295" fill="#BF360C"/>
+  <text x="278" y="292" font-size="7" fill="#BF360C">− Энергия</text>
+
+  <!-- Left label -->
+  <text x="120" y="270" text-anchor="middle" font-size="8" font-weight="bold" fill="#2E7D32">Энергетич.</text>
+  <text x="120" y="281" text-anchor="middle" font-size="8" fill="#2E7D32">обмен</text>
+  <path d="M160,275 Q190,275 210,262" stroke="#2E7D32" stroke-width="1.5" fill="none" marker-end="url(#arrG19)"/>
+  <defs><marker id="arrG19" markerWidth="6" markerHeight="5" refX="6" refY="2.5" orient="auto"><path d="M0,0 L6,2.5 L0,5Z" fill="#2E7D32"/></marker></defs>
+
+  <!-- Right label -->
+  <text x="380" y="270" text-anchor="middle" font-size="8" font-weight="bold" fill="#BF360C">Пластич.</text>
+  <text x="380" y="281" text-anchor="middle" font-size="8" fill="#BF360C">обмен</text>
+  <path d="M340,275 Q310,275 290,262" stroke="#BF360C" stroke-width="1.5" fill="none" marker-end="url(#arrR19)"/>
+  <defs><marker id="arrR19" markerWidth="6" markerHeight="5" refX="6" refY="2.5" orient="auto"><path d="M0,0 L6,2.5 L0,5Z" fill="#BF360C"/></marker></defs>
+
+  <!-- Summary -->
+  <text x="250" y="343" text-anchor="middle" font-size="7" fill="#1B5E20">АТФ = Аденозинтрифосфат — универсальный источник энергии клетки</text>
+</svg>

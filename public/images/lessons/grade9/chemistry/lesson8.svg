@@ -1,98 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <filter id="shadow8" x="-5%" y="-5%" width="110%" height="110%">
-      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#00000033"/>
-    </filter>
-    <marker id="arrowW" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
-      <path d="M0,0 L8,4 L0,8 Z" fill="white"/>
-    </marker>
-  </defs>
-  <!-- Background -->
-  <rect width="500" height="350" rx="12" fill="#E8F5E9"/>
-  <rect x="0" y="0" width="500" height="52" rx="12" fill="#388E3C"/>
-  <rect x="0" y="20" width="500" height="32" fill="#388E3C"/>
-  <!-- Header -->
-  <text x="250" y="35" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="white">Урок 8: Реакции ионного обмена</text>
-
-  <!-- Conditions -->
-  <rect x="15" y="58" width="470" height="42" rx="8" fill="white" opacity="0.9" filter="url(#shadow8)"/>
-  <text x="250" y="76" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#388E3C">РИО идёт до конца, если образуется:</text>
-  <!-- Three conditions -->
-  <rect x="25" y="83" width="140" height="14" rx="3" fill="#FFCDD2"/>
-  <text x="95" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#C62828">1. Осадок (↓)</text>
-  <rect x="175" y="83" width="140" height="14" rx="3" fill="#C8E6C9"/>
-  <text x="245" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#2E7D32">2. Газ (↑)</text>
-  <rect x="325" y="83" width="150" height="14" rx="3" fill="#BBDEFB"/>
-  <text x="400" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1565C0">3. Вода (H₂O)</text>
-
-  <!-- Example 1: Precipitate -->
-  <rect x="15" y="108" width="155" height="115" rx="8" fill="white" opacity="0.9" filter="url(#shadow8)"/>
-  <rect x="15" y="108" width="155" height="20" rx="8" fill="#C62828" opacity="0.8"/>
-  <rect x="15" y="120" width="155" height="8" fill="#C62828" opacity="0.8"/>
-  <text x="92" y="124" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="white">Осадок</text>
-  <text x="25" y="146" font-family="Arial,sans-serif" font-size="8" fill="#333">AgNO₃ + NaCl →</text>
-  <text x="25" y="160" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#C62828">AgCl↓ + NaNO₃</text>
-  <line x1="25" y1="166" x2="160" y2="166" stroke="#A5D6A7" stroke-width="0.5"/>
-  <text x="25" y="178" font-family="Arial,sans-serif" font-size="7" fill="#555">Полное ионное:</text>
-  <text x="25" y="189" font-family="Arial,sans-serif" font-size="7" fill="#555">Ag⁺+NO₃⁻+Na⁺+Cl⁻</text>
-  <text x="25" y="200" font-family="Arial,sans-serif" font-size="7" fill="#555">→AgCl↓+Na⁺+NO₃⁻</text>
-  <line x1="25" y1="205" x2="160" y2="205" stroke="#A5D6A7" stroke-width="0.5"/>
-  <text x="25" y="216" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#2E7D32">Ag⁺ + Cl⁻ → AgCl↓</text>
-  <!-- Precipitate visual -->
-  <circle cx="130" cy="213" r="4" fill="#E0E0E0" stroke="#9E9E9E" stroke-width="0.8"/>
-  <circle cx="137" cy="217" r="3" fill="#E0E0E0" stroke="#9E9E9E" stroke-width="0.8"/>
-
-  <!-- Example 2: Gas -->
-  <rect x="180" y="108" width="155" height="115" rx="8" fill="white" opacity="0.9" filter="url(#shadow8)"/>
-  <rect x="180" y="108" width="155" height="20" rx="8" fill="#2E7D32" opacity="0.8"/>
-  <rect x="180" y="120" width="155" height="8" fill="#2E7D32" opacity="0.8"/>
-  <text x="257" y="124" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="white">Газ</text>
-  <text x="190" y="146" font-family="Arial,sans-serif" font-size="8" fill="#333">Na₂CO₃ + 2HCl →</text>
-  <text x="190" y="160" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#2E7D32">2NaCl+CO₂↑+H₂O</text>
-  <line x1="190" y1="166" x2="325" y2="166" stroke="#A5D6A7" stroke-width="0.5"/>
-  <text x="190" y="178" font-family="Arial,sans-serif" font-size="7" fill="#555">CO₃²⁻ + 2H⁺ →</text>
-  <text x="190" y="196" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#2E7D32">CO₂↑ + H₂O</text>
-  <!-- Gas bubbles visual -->
-  <circle cx="305" cy="190" r="5" fill="none" stroke="#66BB6A" stroke-width="1"/>
-  <circle cx="310" cy="180" r="3" fill="none" stroke="#66BB6A" stroke-width="1"/>
-  <circle cx="307" cy="170" r="2" fill="none" stroke="#66BB6A" stroke-width="1"/>
-
-  <!-- Example 3: Water (neutralization) -->
-  <rect x="345" y="108" width="140" height="115" rx="8" fill="white" opacity="0.9" filter="url(#shadow8)"/>
-  <rect x="345" y="108" width="140" height="20" rx="8" fill="#1565C0" opacity="0.8"/>
-  <rect x="345" y="120" width="140" height="8" fill="#1565C0" opacity="0.8"/>
-  <text x="415" y="124" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="white">Вода (Нейтрализация)</text>
-  <text x="355" y="146" font-family="Arial,sans-serif" font-size="8" fill="#333">NaOH + HCl →</text>
-  <text x="355" y="160" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1565C0">NaCl + H₂O</text>
-  <line x1="355" y1="166" x2="475" y2="166" stroke="#A5D6A7" stroke-width="0.5"/>
-  <text x="355" y="182" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#2E7D32">H⁺ + OH⁻ → H₂O</text>
-  <text x="355" y="198" font-family="Arial,sans-serif" font-size="7" fill="#388E3C" font-style="italic">Реакция нейтрализации</text>
-  <text x="355" y="212" font-family="Arial,sans-serif" font-size="7" fill="#555">Кислота + Щёлочь</text>
-  <!-- Water drop visual -->
-  <path d="M420,200 Q425,190 430,200 Q430,208 420,208 Z" fill="#90CAF9" stroke="#1565C0" stroke-width="0.8"/>
-
-  <!-- Rules for writing ionic equations -->
-  <rect x="15" y="230" width="470" height="114" rx="8" fill="white" opacity="0.9" filter="url(#shadow8)"/>
-  <text x="250" y="250" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#388E3C">Правила составления ионных уравнений</text>
-  <line x1="25" y1="256" x2="475" y2="256" stroke="#A5D6A7" stroke-width="1"/>
-  <!-- Step numbers -->
-  <circle cx="38" cy="272" r="9" fill="#66BB6A"/>
-  <text x="38" y="276" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="white">1</text>
-  <text x="55" y="276" font-family="Arial,sans-serif" font-size="9" fill="#333">Записать молекулярное уравнение</text>
-  <circle cx="38" cy="292" r="9" fill="#66BB6A"/>
-  <text x="38" y="296" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="white">2</text>
-  <text x="55" y="296" font-family="Arial,sans-serif" font-size="9" fill="#333">Сильные электролиты расписать на ионы</text>
-  <circle cx="38" cy="312" r="9" fill="#66BB6A"/>
-  <text x="38" y="316" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="white">3</text>
-  <text x="55" y="316" font-family="Arial,sans-serif" font-size="9" fill="#333">Оставить в молекулярном виде: осадки (↓), газы (↑), H₂O, слабые эл-ты</text>
-  <circle cx="38" cy="332" r="9" fill="#66BB6A"/>
-  <text x="38" y="336" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="white">4</text>
-  <text x="55" y="336" font-family="Arial,sans-serif" font-size="9" fill="#333">Сократить одинаковые ионы → сокращённое ионное уравнение</text>
-  <!-- Right side key -->
-  <rect x="340" y="265" width="135" height="72" rx="4" fill="#E8F5E9" stroke="#66BB6A" stroke-width="1"/>
-  <text x="407" y="280" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#388E3C">Не расписывать:</text>
-  <text x="350" y="294" font-family="Arial,sans-serif" font-size="8" fill="#C62828">• Осадки (↓)</text>
-  <text x="350" y="306" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32">• Газы (↑)</text>
-  <text x="350" y="318" font-family="Arial,sans-serif" font-size="8" fill="#1565C0">• H₂O, слабые эл-ты</text>
-  <text x="350" y="330" font-family="Arial,sans-serif" font-size="8" fill="#6A1B9A">• Нерастворимые в-ва</text>
+  <rect width="500" height="350" fill="#0f0f1a"/>
+  <!-- Three conditions for RIO -->
+  <!-- 1. Precipitate -->
+  <rect x="40" y="25" width="130" height="120" rx="8" fill="#1a1a2e" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="105" y="45" fill="#ef4444" font-size="10" font-family="serif" text-anchor="middle">Осадок ↓</text>
+  <path d="M65,60 L65,110 Q65,120 75,120 L135,120 Q145,120 145,110 L145,60" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+  <rect x="75" y="100" width="60" height="15" rx="2" fill="#ffffff" fill-opacity="0.25"/>
+  <text x="105" y="112" fill="#ffffff" font-size="8" font-family="serif" text-anchor="middle">AgCl↓</text>
+  <text x="105" y="140" fill="#9ca3af" font-size="7" font-family="serif" text-anchor="middle">Ag⁺+Cl⁻→AgCl↓</text>
+  <!-- 2. Gas -->
+  <rect x="185" y="25" width="130" height="120" rx="8" fill="#1a1a2e" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="250" y="45" fill="#22c55e" font-size="10" font-family="serif" text-anchor="middle">Газ ↑</text>
+  <path d="M210,60 L210,110 Q210,120 220,120 L280,120 Q290,120 290,110 L290,60" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+  <circle cx="240" cy="80" r="3" fill="none" stroke="#22c55e" stroke-width="1"/>
+  <circle cx="260" cy="70" r="4" fill="none" stroke="#22c55e" stroke-width="1"/>
+  <circle cx="250" cy="90" r="2.5" fill="none" stroke="#22c55e" stroke-width="1"/>
+  <text x="250" y="110" fill="#22c55e" font-size="8" font-family="serif" text-anchor="middle">CO₂↑</text>
+  <text x="250" y="140" fill="#9ca3af" font-size="7" font-family="serif" text-anchor="middle">CO₃²⁻+2H⁺→CO₂↑+H₂O</text>
+  <!-- 3. Water -->
+  <rect x="330" y="25" width="130" height="120" rx="8" fill="#1a1a2e" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="395" y="45" fill="#3b82f6" font-size="10" font-family="serif" text-anchor="middle">Вода H₂O</text>
+  <path d="M355,60 L355,110 Q355,120 365,120 L425,120 Q435,120 435,110 L435,60" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+  <path d="M390,90 Q395,78 400,90 Q395,97 390,90" fill="#3b82f6" fill-opacity="0.4"/>
+  <text x="395" y="112" fill="#3b82f6" font-size="8" font-family="serif" text-anchor="middle">нейтрал.</text>
+  <text x="395" y="140" fill="#9ca3af" font-size="7" font-family="serif" text-anchor="middle">H⁺+OH⁻→H₂O</text>
+  <!-- Ion equation process -->
+  <rect x="30" y="160" width="440" height="110" rx="8" fill="#1a1a2e" stroke="#f59e0b" stroke-width="1"/>
+  <text x="250" y="180" fill="#f59e0b" font-size="10" font-family="sans-serif" text-anchor="middle">Составление ионных уравнений:</text>
+  <text x="50" y="200" fill="#9ca3af" font-size="9" font-family="sans-serif">1. Молекулярное: AgNO₃ + NaCl → AgCl↓ + NaNO₃</text>
+  <text x="50" y="220" fill="#9ca3af" font-size="9" font-family="sans-serif">2. Полное ионное: Ag⁺+NO₃⁻+Na⁺+Cl⁻→AgCl↓+Na⁺+NO₃⁻</text>
+  <text x="50" y="240" fill="#22d3ee" font-size="10" font-family="sans-serif">3. Сокращённое: Ag⁺ + Cl⁻ → AgCl↓</text>
+  <text x="50" y="260" fill="#ef4444" font-size="9" font-family="sans-serif">РИО ⇨ осадок ↓ , газ ↑ или вода H₂O</text>
+  <text x="250" y="290" fill="#9ca3af" font-size="9" font-family="sans-serif" text-anchor="middle">Сильные электролиты → ионы | Слабые, осадки, газы → молекулы</text>
+  <text x="250" y="345" fill="#ffffff" font-size="9" opacity="0.5" text-anchor="middle" font-family="sans-serif">Реакции ионного обмена</text>
 </svg>

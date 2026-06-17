@@ -1,62 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8EAF6"/><stop offset="100%" stop-color="#C5CAE9"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#283593" stroke-width="3"/>
-<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#283593" stroke-width="1" opacity="0.3"/>
-<polygon points="10,10 30,10 10,30" fill="#283593" opacity="0.08"/>
-<polygon points="490,10 470,10 490,30" fill="#3F51B5" opacity="0.08"/>
-<polygon points="10,340 30,340 10,320" fill="#5C6BC0" opacity="0.08"/>
-<polygon points="490,340 470,340 490,320" fill="#7986CB" opacity="0.08"/>
-<circle cx="70" cy="15" r="4" fill="#283593" opacity="0.1"/>
-<circle cx="82" cy="15" r="4" fill="#3F51B5" opacity="0.1"/>
-<circle cx="94" cy="15" r="4" fill="#5C6BC0" opacity="0.1"/>
-<circle cx="406" cy="15" r="4" fill="#283593" opacity="0.1"/>
-<circle cx="418" cy="15" r="4" fill="#3F51B5" opacity="0.1"/>
-<circle cx="430" cy="15" r="4" fill="#5C6BC0" opacity="0.1"/>
-<text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#283593" text-anchor="middle">Digital World</text>
-<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Английский язык - Урок 6</text>
-<line x1="30" y1="78" x2="470" y2="78" stroke="#283593" stroke-width="2" opacity="0.25"/>
-<rect x="30" y="75" width="60" height="6" fill="#283593" opacity="0.15" rx="1"/>
-<rect x="410" y="75" width="60" height="6" fill="#3F51B5" opacity="0.12" rx="1"/>
-
-  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5"/>
-  <text x="135" y="110" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" text-anchor="middle" font-weight="bold">Digital World</text>
-  <!-- Speech bubbles -->
-  <ellipse cx="100" cy="155" rx="55" ry="25" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
-  <text x="100" y="152" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle">Hello!</text>
-  <text x="100" y="164" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle">How are you?</text>
-  <polygon points="120,175 130,195 110,175" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
-  <ellipse cx="175" cy="200" rx="45" ry="22" fill="#FFF3E0" stroke="#E65100" stroke-width="1.5"/>
-  <text x="175" y="197" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle">I am fine,</text>
-  <text x="175" y="208" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle">thank you!</text>
-  <!-- Vocabulary box -->
-  <rect x="45" y="230" width="180" height="45" rx="4" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
-  <text x="135" y="248" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Vocabulary: words</text>
-  <text x="135" y="262" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Grammar: tenses</text>
-
-  <rect x="260" y="90" width="215" height="200" rx="6" fill="white" stroke="#283593" stroke-width="1.5"/>
-  <text x="367" y="115" font-family="Arial,sans-serif" font-size="12" fill="#283593" text-anchor="middle" font-weight="bold">Grammar</text>
-  <!-- Tenses -->
-  <rect x="280" y="128" width="85" height="25" rx="3" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
-  <text x="322" y="145" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">Present Simple</text>
-  <rect x="375" y="128" width="85" height="25" rx="3" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
-  <text x="417" y="145" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle">Past Simple</text>
-  <rect x="280" y="160" width="85" height="25" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
-  <text x="322" y="177" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Future Simple</text>
-  <rect x="375" y="160" width="85" height="25" rx="3" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="1"/>
-  <text x="417" y="177" font-family="Arial,sans-serif" font-size="8" fill="#7B1FA2" text-anchor="middle">Continuous</text>
-  <!-- ABC -->
-  <text x="290" y="210" font-family="Arial,sans-serif" font-size="18" fill="#FF9800" font-weight="bold">A B C</text>
-  <text x="360" y="210" font-family="Arial,sans-serif" font-size="18" fill="#1565C0" font-weight="bold">D E F</text>
-  <!-- Big Ben -->
-  <rect x="300" y="225" width="30" height="55" rx="3" fill="#B0BEC5" stroke="#78909C" stroke-width="1"/>
-  <polygon points="300,225 315,210 330,225" fill="#1565C0"/>
-  <rect x="308" y="235" width="14" height="14" rx="1" fill="white" stroke="#333" stroke-width="1"/>
-  <line x1="315" y1="235" x2="315" y2="242" stroke="#333" stroke-width="1"/>
-  <line x1="315" y1="242" x2="319" y2="240" stroke="#333" stroke-width="1"/>
-  <text x="367" y="280" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Reading, Writing, Speaking</text>
-<rect x="15" y="310" width="470" height="30" rx="4" fill="#283593" opacity="0.85"/>
-<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Английский язык</text>
-  <path d="M430,120 Q445,110 460,120 Q475,130 490,120" fill="none" stroke="#283593" stroke-width="1" opacity="0.12"/>
-  <path d="M430,135 Q445,125 460,135 Q475,145 490,135" fill="none" stroke="#5C6BC0" stroke-width="1" opacity="0.1"/>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="350" fill="#0d1a0d"/>
+  <!-- Recycling bins -->
+  <!-- Blue bin - paper -->
+  <rect x="30" y="60" width="50" height="70" rx="4" fill="#1565c0" stroke="#42a5f5" stroke-width="1.5"/>
+  <text x="35" y="82" font-size="7" fill="#90caf9">PAPER</text>
+  <!-- Recycling symbol on blue bin -->
+  <path d="M45,95 L55,95 L50,85 Z" fill="#90caf9" opacity="0.5"/>
+  <path d="M45,95 L50,105 L40,105 Z" fill="#90caf9" opacity="0.4"/>
+  <path d="M55,95 L65,105 L55,105 Z" fill="#90caf9" opacity="0.3"/>
+  <!-- Yellow bin - plastic -->
+  <rect x="90" y="60" width="50" height="70" rx="4" fill="#f9a825" stroke="#fdd835" stroke-width="1.5"/>
+  <text x="92" y="82" font-size="7" fill="#fff9c4">PLASTIC</text>
+  <path d="M108,95 L118,95 L113,85 Z" fill="#fff9c4" opacity="0.5"/>
+  <!-- Green bin - glass -->
+  <rect x="150" y="60" width="50" height="70" rx="4" fill="#2e7d32" stroke="#66bb6a" stroke-width="1.5"/>
+  <text x="158" y="82" font-size="7" fill="#c8e6c9">GLASS</text>
+  <path d="M168,95 L178,95 L173,85 Z" fill="#c8e6c9" opacity="0.5"/>
+  <text x="60" y="145" font-size="8" fill="#a5d6a7">Recycling bins</text>
+  <!-- Tree planting -->
+  <rect x="30" y="170" width="170" height="130" rx="6" fill="#1a2a1a" stroke="#4caf50" stroke-width="1"/>
+  <!-- Person planting -->
+  <circle cx="80" cy="195" r="10" fill="#e0e0e0" opacity="0.7"/>
+  <rect x="73" y="207" width="14" height="30" rx="4" fill="#42a5f5" opacity="0.5"/>
+  <!-- Shovel -->
+  <rect x="100" y="200" width="4" height="40" fill="#78909c"/>
+  <rect x="94" y="238" width="16" height="8" rx="2" fill="#90a4ae"/>
+  <!-- Small tree being planted -->
+  <rect x="112" y="220" width="6" height="30" fill="#5d4037"/>
+  <circle cx="115" cy="210" r="14" fill="#4caf50" opacity="0.7"/>
+  <circle cx="108" cy="205" r="8" fill="#66bb6a" opacity="0.5"/>
+  <circle cx="122" cy="208" r="7" fill="#388e3c" opacity="0.5"/>
+  <!-- Dirt mound -->
+  <ellipse cx="115" cy="252" rx="20" ry="6" fill="#5d4037" opacity="0.5"/>
+  <text x="55" y="280" font-size="8" fill="#a5d6a7">Plant a tree!</text>
+  <text x="40" y="293" font-size="7" fill="#66bb6a" font-style="italic">"Let's make the</text>
+  <text x="40" y="303" font-size="7" fill="#66bb6a" font-style="italic">world greener."</text>
+  <!-- Solar panel -->
+  <rect x="240" y="50" width="90" height="60" rx="3" fill="#1a237e" stroke="#42a5f5" stroke-width="1.5"/>
+  <!-- Grid lines on panel -->
+  <line x1="265" y1="50" x2="265" y2="110" stroke="#42a5f5" stroke-width="0.5" opacity="0.5"/>
+  <line x1="290" y1="50" x2="290" y2="110" stroke="#42a5f5" stroke-width="0.5" opacity="0.5"/>
+  <line x1="315" y1="50" x2="315" y2="110" stroke="#42a5f5" stroke-width="0.5" opacity="0.5"/>
+  <line x1="240" y1="70" x2="330" y2="70" stroke="#42a5f5" stroke-width="0.5" opacity="0.5"/>
+  <line x1="240" y1="90" x2="330" y2="90" stroke="#42a5f5" stroke-width="0.5" opacity="0.5"/>
+  <!-- Sun -->
+  <circle cx="285" cy="30" r="14" fill="#fdd835" opacity="0.5"/>
+  <line x1="285" y1="10" x2="285" y2="5" stroke="#fdd835" stroke-width="1.5" opacity="0.4"/>
+  <line x1="285" y1="50" x2="285" y2="55" stroke="#fdd835" stroke-width="1.5" opacity="0.3"/>
+  <line x1="265" y1="30" x2="260" y2="30" stroke="#fdd835" stroke-width="1.5" opacity="0.4"/>
+  <line x1="305" y1="30" x2="310" y2="30" stroke="#fdd835" stroke-width="1.5" opacity="0.4"/>
+  <!-- Panel stand -->
+  <rect x="270" y="110" width="6" height="20" fill="#546e7a"/>
+  <rect x="295" y="110" width="6" height="20" fill="#546e7a"/>
+  <text x="255" y="145" font-size="8" fill="#42a5f5">Solar panel</text>
+  <!-- Green Earth -->
+  <circle cx="400" cy="170" r="60" fill="#1b5e20" stroke="#4caf50" stroke-width="2"/>
+  <!-- Continents -->
+  <path d="M380,140 Q390,130 400,135 Q410,130 420,140 Q415,150 400,148 Q385,150 380,140" fill="#2e7d32" stroke="#388e3c" stroke-width="0.5" opacity="0.6"/>
+  <path d="M360,170 Q370,160 385,165 Q390,175 380,180 Q365,178 360,170" fill="#2e7d32" stroke="#388e3c" stroke-width="0.5" opacity="0.5"/>
+  <path d="M400,185 Q415,180 425,190 Q430,200 420,210 Q405,215 395,205 Q390,195 400,185" fill="#2e7d32" stroke="#388e3c" stroke-width="0.5" opacity="0.5"/>
+  <!-- Leaf decorations -->
+  <path d="M395,115 Q400,105 410,110 Q405,120 395,115" fill="#66bb6a" opacity="0.5"/>
+  <path d="M350,145 Q355,135 365,140 Q360,150 350,145" fill="#66bb6a" opacity="0.4"/>
+  <!-- Hands holding earth -->
+  <path d="M340,210 Q350,230 370,225" fill="none" stroke="#ffcc80" stroke-width="3" opacity="0.5"/>
+  <path d="M460,210 Q450,230 430,225" fill="none" stroke="#ffcc80" stroke-width="3" opacity="0.5"/>
+  <!-- Action words -->
+  <rect x="240" y="250" width="220" height="65" rx="6" fill="#1a2a1a" stroke="#4caf50" stroke-width="1"/>
+  <text x="255" y="270" font-size="9" fill="#4caf50" font-weight="bold">Protecting Nature:</text>
+  <text x="255" y="286" font-size="7" fill="#a5d6a7">♻ Reduce, Reuse, Recycle</text>
+  <text x="255" y="298" font-size="7" fill="#a5d6a7">🌳 Plant trees • Save water</text>
+  <text x="255" y="310" font-size="7" fill="#a5d6a7">☀ Use renewable energy</text>
+  <text x="200" y="340" font-size="9" fill="#fff" opacity="0.5">Protecting Nature</text>
 </svg>

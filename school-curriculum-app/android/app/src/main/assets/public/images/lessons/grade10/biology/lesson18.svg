@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Пластический и энергетический обмен</text>
+<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 10 класс — Урок 18</text>
+<line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+
+<g transform="translate(130,180)">
+<rect x="-80" y="-65" width="160" height="130" rx="5" fill="white" stroke="#4CAF50" stroke-width="1.5"/>
+<text x="0" y="-50" font-family="Arial,sans-serif" font-size="8" fill="#4CAF50" text-anchor="middle" font-weight="bold">Пластический обмен</text>
+<text x="0" y="-38" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">(ассимиляция)</text>
+<line x1="-65" y1="-30" x2="65" y2="-30" stroke="#4CAF50" stroke-width="0.5"/>
+<text x="0" y="-15" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Простые вещества -> Сложные</text>
+<text x="0" y="0" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Фотосинтез</text>
+<text x="0" y="13" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Биосинтез белка</text>
+<text x="0" y="28" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Синтез липидов</text>
+<text x="0" y="43" font-family="Arial,sans-serif" font-size="6" fill="#4CAF50" text-anchor="middle">Энергия + АТФ расходуется</text>
+</g>
+<g transform="translate(370,180)">
+<rect x="-80" y="-65" width="160" height="130" rx="5" fill="white" stroke="#E65100" stroke-width="1.5"/>
+<text x="0" y="-50" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle" font-weight="bold">Энергетический обмен</text>
+<text x="0" y="-38" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">(диссимиляция)</text>
+<line x1="-65" y1="-30" x2="65" y2="-30" stroke="#E65100" stroke-width="0.5"/>
+<text x="0" y="-15" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Сложные вещества -> Простые</text>
+<text x="0" y="0" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Гликолиз</text>
+<text x="0" y="13" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Клеточное дыхание</text>
+<text x="0" y="28" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Брожение</text>
+<text x="0" y="43" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle">Энергия + АТФ образуется</text>
+</g>
+
+<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 10 класс</text>
+</svg>

@@ -1,37 +1,94 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
+    <linearGradient id="caucasusBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="40%" stop-color="#B0E0E6"/>
+      <stop offset="100%" stop-color="#2F4F4F"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#3E2723"/>
-      <stop offset="100%" stop-color="#6D4C41"/>
+    <linearGradient id="mountain1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8E8E8"/>
+      <stop offset="30%" stop-color="#9E9E9E"/>
+      <stop offset="100%" stop-color="#616161"/>
+    </linearGradient>
+    <linearGradient id="mountain2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="20%" stop-color="#BDBDBD"/>
+      <stop offset="100%" stop-color="#757575"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#6D4C41" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#6D4C41" stroke-width="1" opacity="0.3"/>
-  <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#6D4C41" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#6D4C41" text-anchor="middle">Роман «Герой нашего времени»</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Литература - Урок 3</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#6D4C41" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#6D4C41" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA -->
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#EFEBE9"/><text x="250" y="130" font-family="Arial,sans-serif" font-size="20" fill="#6D4C41" text-anchor="middle" font-weight="bold">Роман «Герой нашего времени»</text><rect x="25" y="155" width="140" height="45" rx="5" fill="#E3F2FD" stroke="#6D4C41" stroke-width="1.5"/><text x="95" y="182" font-family="Arial" font-size="12" fill="#6D4C41" text-anchor="middle">Характер:</text><rect x="170" y="155" width="140" height="45" rx="5" fill="#FFF3E0" stroke="#3E2723" stroke-width="1.5"/><text x="240" y="182" font-family="Arial" font-size="12" fill="#3E2723" text-anchor="middle">Бэла</text><rect x="315" y="155" width="140" height="45" rx="5" fill="#FFFDE7" stroke="#F9A825" stroke-width="1.5"/><text x="385" y="182" font-family="Arial" font-size="12" fill="#F9A825" text-anchor="middle">«Портрет поколения»:</text><rect x="25" y="210" width="140" height="45" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/><text x="95" y="238" font-family="Arial" font-size="12" fill="#2E7D32" text-anchor="middle">«Герой нашего времени»</text><rect x="170" y="210" width="140" height="45" rx="5" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="1.5"/><text x="240" y="238" font-family="Arial" font-size="12" fill="#6A1B9A" text-anchor="middle">Жанр:</text><rect x="315" y="210" width="140" height="45" rx="5" fill="#FFEBEE" stroke="#E65100" stroke-width="1.5"/><text x="385" y="238" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">Композиция:</text>
-  <rect x="430" y="268" width="25" height="30" rx="2" fill="#6D4C41" opacity="0.1"/>
+  <rect width="500" height="350" fill="url(#caucasusBg)"/>
+  <!-- Sun -->
+  <circle cx="420" cy="50" r="25" fill="#FFD700" opacity="0.6"/>
+  <!-- Clouds -->
+  <g opacity="0.5">
+    <ellipse cx="80" cy="50" rx="30" ry="12" fill="#FFF"/>
+    <ellipse cx="70" cy="45" rx="18" ry="10" fill="#FFF"/>
+    <ellipse cx="100" cy="48" rx="15" ry="8" fill="#FFF"/>
+    <ellipse cx="320" cy="70" rx="25" ry="10" fill="#FFF"/>
+    <ellipse cx="310" cy="65" rx="15" ry="8" fill="#FFF"/>
   </g>
-  <!-- Bottom panel -->
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Литература</text>
+  <!-- Far mountains -->
+  <polygon points="0,200 70,80 140,200" fill="#9E9E9E" opacity="0.5"/>
+  <polygon points="100,200 200,50 300,200" fill="url(#mountain2)" opacity="0.7"/>
+  <polygon points="250,200 380,30 500,200" fill="url(#mountain1)"/>
+  <!-- Snow caps -->
+  <polygon points="360,50 380,30 400,50 390,45 380,55 370,45" fill="#FFF" opacity="0.9"/>
+  <polygon points="180,70 200,50 220,70 210,65 200,75 190,65" fill="#FFF" opacity="0.8"/>
+  <!-- Closer mountain -->
+  <polygon points="350,200 430,100 500,200" fill="#757575"/>
+  <!-- Valley floor -->
+  <rect x="0" y="200" width="500" height="150" fill="#556B2F" opacity="0.6"/>
+  <!-- Path -->
+  <path d="M0,250 Q100,230 200,240 Q300,250 400,235 Q450,230 500,240" stroke="#8B7355" stroke-width="3" fill="none" opacity="0.5"/>
+  <!-- Pechorin figure on cliff edge -->
+  <g transform="translate(380,140)">
+    <!-- Standing figure silhouette -->
+    <circle cx="0" cy="-18" r="7" fill="#2C2C2C"/>
+    <rect x="-5" y="-12" width="10" height="20" rx="2" fill="#2C2C2C"/>
+    <!-- Coat tails blowing -->
+    <path d="M5,0 Q15,5 20,-5" stroke="#2C2C2C" stroke-width="2" fill="none"/>
+    <path d="M5,2 Q12,8 18,2" stroke="#2C2C2C" stroke-width="2" fill="none"/>
+    <!-- Legs -->
+    <line x1="-3" y1="8" x2="-5" y2="22" stroke="#2C2C2C" stroke-width="2.5"/>
+    <line x1="3" y1="8" x2="5" y2="22" stroke="#2C2C2C" stroke-width="2.5"/>
+    <!-- Arms behind back (contemplative pose) -->
+    <path d="M-5,-8 Q-10,0 -5,5" stroke="#2C2C2C" stroke-width="2" fill="none"/>
+    <path d="M5,-8 Q10,0 5,5" stroke="#2C2C2C" stroke-width="2" fill="none"/>
+  </g>
+  <!-- Cliff edge -->
+  <rect x="355" y="160" width="50" height="40" fill="#757575"/>
+  <rect x="350" y="158" width="60" height="5" fill="#888"/>
+  <!-- Diary/journal -->
+  <g transform="translate(80,230)">
+    <rect x="-25" y="-18" width="50" height="35" rx="3" fill="#8B4513" opacity="0.9" transform="rotate(-8)"/>
+    <rect x="-22" y="-15" width="44" height="29" rx="2" fill="#FFF8DC" transform="rotate(-8)"/>
+    <!-- Text lines -->
+    <g stroke="#BDBDBD" stroke-width="0.5" opacity="0.6" transform="rotate(-8)">
+      <line x1="-18" y1="-8" x2="18" y2="-8"/>
+      <line x1="-18" y1="-2" x2="18" y2="-2"/>
+      <line x1="-18" y1="4" x2="18" y2="4"/>
+      <line x1="-18" y1="10" x2="12" y2="10"/>
+    </g>
+    <!-- Pen -->
+    <line x1="28" y1="-15" x2="35" y2="-30" stroke="#333" stroke-width="1.5" transform="rotate(-8)"/>
+  </g>
+  <!-- Dagger on ground -->
+  <g transform="translate(160,255)">
+    <line x1="0" y1="0" x2="0" y2="20" stroke="#C0C0C0" stroke-width="2"/>
+    <rect x="-4" y="0" width="8" height="2" fill="#C0C0C0"/>
+    <polygon points="-2,20 2,20 0,28" fill="#C0C0C0"/>
+  </g>
+  <!-- Horse in distance -->
+  <g transform="translate(300,230)" opacity="0.4">
+    <ellipse cx="0" cy="0" rx="10" ry="5" fill="#333"/>
+    <path d="M-7,-3 Q-9,-10 -5,-12" stroke="#333" stroke-width="3" fill="none"/>
+    <ellipse cx="-5" cy="-13" rx="3" ry="4" fill="#333"/>
+    <line x1="-5" y1="5" x2="-6" y2="14" stroke="#333" stroke-width="1.5"/>
+    <line x1="5" y1="5" x2="6" y2="14" stroke="#333" stroke-width="1.5"/>
+  </g>
+  <!-- Title -->
+  <rect x="30" y="280" width="440" height="40" rx="8" fill="#2F4F4F" opacity="0.6"/>
+  <text x="250" y="300" font-family="Georgia" font-size="13" fill="#FFF" text-anchor="middle" font-weight="bold">«Герой нашего времени» — М.Ю. Лермонтов</text>
+  <text x="250" y="315" font-family="Arial" font-size="9" fill="#FFF" text-anchor="middle" opacity="0.7">Роман о Печорине — «лишнем человеке» эпохи</text>
+  <text x="250" y="345" font-family="Arial" font-size="9" fill="#FFF" opacity="0.5" text-anchor="middle">Роман «Герой нашего времени»</text>
 </svg>

@@ -28,14 +28,119 @@
             "examples": [
               "This is my mother. Her name is Anna. She is a teacher.",
               "My uncle lives in Moscow. He has two children.",
-              "Their grandparents are from Kazan."
+              "Their grandparents are from Kazan.",
+              "My cousin is my aunt's son. His name is Alex. He lives in Saint Petersburg."
             ],
             "keyPoints": [
               "Family members: mother, father, sister, brother, grandmother, grandfather",
               "Possessive adjectives: my, your, his, her, our, their show who owns something",
-              "To be (am/is/are) is used to describe people and relationships"
+              "To be (am/is/are) is used to describe people and relationships",
+              "Extended family includes relatives beyond parents and siblings: aunts, uncles, cousins, nephews, and nieces"
             ],
-            "content": "## Family Members\n\n:- **Mother / Mom / Mum** — мама\n:- **Father / Dad** — папа\n:- **Parents** — родители\n:- **Sister** — сестра\n:- **Brother** — брат\n:- **Grandmother / Grandma** — бабушка\n:- **Grandfather / Grandpa** — дедушка\n:- **Grandparents** — бабушка и дедушка\n\n# Extended Family\n\n:- **Aunt** — тётя\n:- **Uncle** — дядя\n:- **Cousin** — двоюродный брат/сестра\n:- **Nephew** — племянник\n:- **Nie"
+            "content": "## Family Members\n\n:- **Mother / Mom / Mum** — мама\n:- **Father / Dad** — папа\n:- **Parents** — родители\n:- **Sister** — сестра\n:- **Brother** — брат\n:- **Grandmother / Grandma** — бабушка\n:- **Grandfather / Grandpa** — дедушка\n:- **Grandparents** — бабушка и дедушка\n\n# Extended Family\n\n:- **Aunt** — тётя\n:- **Uncle** — дядя\n:- **Cousin** — двоюродный брат/сестра\n:- **Nephew** — племянник\n:- **Nie",
+            "facts": [
+              "The word 'family' comes from the Latin word 'familia' which originally meant all the people living in one household, including servants",
+              "In English, 'cousin' is used for both male and female children of your aunts and uncles — there is no separate word for male and female cousins",
+              "In some languages there are different words for older and younger siblings, but in English we just say 'older sister' or 'younger brother'"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "What is the English word for 'тётя'?",
+                  "options": [
+                    "Uncle",
+                    "Cousin",
+                    "Aunt",
+                    "Niece"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "question": "Which possessive adjective do we use for 'she'?",
+                  "options": [
+                    "his",
+                    "her",
+                    "their",
+                    "my"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "What does 'nephew' mean?",
+                  "options": [
+                    "Племянница",
+                    "Двоюродный брат",
+                    "Племянник",
+                    "Дядя"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "question": "How do you say 'бабушка и дедушка' in English?",
+                  "options": [
+                    "Parents",
+                    "Grandparents",
+                    "Relatives",
+                    "Siblings"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Which sentence is correct?",
+                  "options": [
+                    "This is my aunt. His name is Anna.",
+                    "This is my aunt. Her name is Anna.",
+                    "This is my aunt. Their name is Anna.",
+                    "This is my aunt. His name is Anna."
+                  ],
+                  "correct": 1
+                }
+              ],
+              "find": [
+                {
+                  "text": "My mother's sister is my ___",
+                  "answer": "aunt"
+                },
+                {
+                  "text": "My uncle's children are my ___",
+                  "answer": "cousins"
+                },
+                {
+                  "text": "My father and mother are my ___",
+                  "answer": "parents"
+                },
+                {
+                  "text": "This is my sister. ___ name is Kate.",
+                  "answer": "Her"
+                },
+                {
+                  "text": "My mother's father is my ___",
+                  "answer": "grandfather"
+                }
+              ],
+              "match": [
+                {
+                  "term": "Mother",
+                  "definition": "Female parent — мама"
+                },
+                {
+                  "term": "Uncle",
+                  "definition": "Mother's or father's brother — дядя"
+                },
+                {
+                  "term": "Cousin",
+                  "definition": "Aunt's or uncle's child — двоюродный брат/сестра"
+                },
+                {
+                  "term": "Niece",
+                  "definition": "Brother's or sister's daughter — племянница"
+                },
+                {
+                  "term": "Grandparents",
+                  "definition": "Grandmother and grandfather — бабушка и дедушка"
+                }
+              ]
+            }
           },
           {
             "title": "Describing People",
@@ -52,14 +157,119 @@
             "examples": [
               "He has got blue eyes and dark hair.",
               "She is tall and slim. She is very friendly.",
-              "My friend is short with brown eyes and curly hair."
+              "My friend is short with brown eyes and curly hair.",
+              "He has got short dark hair and brown eyes. He is serious and honest."
             ],
             "keyPoints": [
               "Adjectives describe appearance: tall, short, young, old, blonde, dark-haired",
               "Has got is used to describe physical features and possessions",
-              "Questions with Who, What, Where for asking about people"
+              "Questions with Who, What, Where for asking about people",
+              "Use 'have got / has got' for physical features and 'am / is / are' for character traits and personality"
             ],
-            "content": "## Describing People\n\n# Physical Appearance\n\n## Height and Build\n\n:- **tall** — высокий\n:- **short** — низкий\n:- **medium height** — среднего роста\n:- **slim** — стройный\n:- **athletic** — атлетический\n:- **plump** — полный\n\n## Hair\n\n:- **long / short hair** — длинные / короткие волосы\n:- **straight** — прямые\n:- **curly** — кудрявые\n:- **wavy** — волнистые\n:- **fair / blond** — светлые\n:- **dark*"
+            "content": "## Describing People\n\n# Physical Appearance\n\n## Height and Build\n\n:- **tall** — высокий\n:- **short** — низкий\n:- **medium height** — среднего роста\n:- **slim** — стройный\n:- **athletic** — атлетический\n:- **plump** — полный\n\n## Hair\n\n:- **long / short hair** — длинные / короткие волосы\n:- **straight** — прямые\n:- **curly** — кудрявые\n:- **wavy** — волнистые\n:- **fair / blond** — светлые\n:- **dark*",
+            "facts": [
+              "The phrase 'have got' is typical of British English, while American English speakers usually say just 'have'",
+              "In English, adjectives don't change for gender — 'tall' describes both a man and a woman, unlike in Russian",
+              "The word 'brave' comes from the Italian word 'bravo', which originally meant 'wild' or 'bold'"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Which structure do we use to describe character?",
+                  "options": [
+                    "have got",
+                    "am / is / are",
+                    "there is / there are",
+                    "has got"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "What does 'shy' mean?",
+                  "options": [
+                    "Храбрый",
+                    "Добрый",
+                    "Застенчивый",
+                    "Честный"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "question": "Choose the correct sentence:",
+                  "options": [
+                    "She have got blue eyes.",
+                    "She has got blue eyes.",
+                    "She has get blue eyes.",
+                    "She is got blue eyes."
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "How do you say 'кудрявые волосы' in English?",
+                  "options": [
+                    "straight hair",
+                    "wavy hair",
+                    "curly hair",
+                    "dark hair"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "question": "What does 'plump' mean?",
+                  "options": [
+                    "Стройный",
+                    "Атлетический",
+                    "Высокий",
+                    "Полный"
+                  ],
+                  "correct": 3
+                }
+              ],
+              "find": [
+                {
+                  "text": "She ___ got long curly hair and green eyes.",
+                  "answer": "has"
+                },
+                {
+                  "text": "He is tall and ___ — he has a good athletic build.",
+                  "answer": "slim"
+                },
+                {
+                  "text": "My friend is very ___ — she always helps people.",
+                  "answer": "kind"
+                },
+                {
+                  "text": "He has got ___ eyes, like the colour of chocolate.",
+                  "answer": "brown"
+                },
+                {
+                  "text": "A person who is not afraid is called ___",
+                  "answer": "brave"
+                }
+              ],
+              "match": [
+                {
+                  "term": "tall",
+                  "definition": "High in height — высокий"
+                },
+                {
+                  "term": "curly",
+                  "definition": "Hair that forms curls — кудрявый"
+                },
+                {
+                  "term": "friendly",
+                  "definition": "Kind and pleasant to people — дружелюбный"
+                },
+                {
+                  "term": "slim",
+                  "definition": "Thin in an attractive way — стройный"
+                },
+                {
+                  "term": "honest",
+                  "definition": "Always tells the truth — честный"
+                }
+              ]
+            }
           }
         ]
       },
@@ -81,14 +291,119 @@
             "examples": [
               "I wake up at 7 o clock and have breakfast at 7:30.",
               "She goes to school at 8 and does her homework in the evening.",
-              "We usually have dinner at 7 p.m."
+              "We usually have dinner at 7 p.m.",
+              "He doesn't watch TV in the morning. He always reads books in the evening."
             ],
             "keyPoints": [
               "Time expressions: in the morning, in the afternoon, at night, at weekends",
               "Present Simple for daily routines and regular activities",
-              "Adverbs of frequency: always, usually, often, sometimes, never"
+              "Adverbs of frequency: always, usually, often, sometimes, never",
+              "In Present Simple, add -s/-es for he/she/it, use 'don't/doesn't' for negatives and 'Do/Does' for questions"
             ],
-            "content": "## Time and Daily Activities\n\n# Telling the Time\n\n## Full Hours\n\n:- **It's 7 o'clock.** — 7 часов.\n:- **It's seven a.m.** — 7 утра.\n:- **It's seven p.m.** — 7 вечера.\n\n## Minutes\n\n:- **half past seven** — половина восьмого (7:30)\n:- **quarter past seven** — четверть восьмого (7:15)\n:- **quarter to eight** — без четверти восемь (7:45)\n:- **ten past three** — десять минут четвёртого (3:10)\n:- **twen"
+            "content": "## Time and Daily Activities\n\n# Telling the Time\n\n## Full Hours\n\n:- **It's 7 o'clock.** — 7 часов.\n:- **It's seven a.m.** — 7 утра.\n:- **It's seven p.m.** — 7 вечера.\n\n## Minutes\n\n:- **half past seven** — половина восьмого (7:30)\n:- **quarter past seven** — четверть восьмого (7:15)\n:- **quarter to eight** — без четверти восемь (7:45)\n:- **ten past three** — десять минут четвёртого (3:10)\n:- **twen",
+            "facts": [
+              "The 24-hour clock is used in most countries, but English speakers commonly use a.m. (ante meridiem — before noon) and p.m. (post meridiem — after noon)",
+              "The word 'breakfast' comes from 'break + fast' — breaking the fast of not eating during the night",
+              "Ancient Egyptians were the first to divide the day into 24 hours, but their hours varied in length depending on the season"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "What time is 'quarter past seven'?",
+                  "options": [
+                    "7:00",
+                    "7:15",
+                    "7:30",
+                    "7:45"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Which sentence is correct in Present Simple?",
+                  "options": [
+                    "She go to school at 8.",
+                    "She goes to school at 8.",
+                    "She going to school at 8.",
+                    "She is goes to school at 8."
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "What does 'wake up' mean?",
+                  "options": [
+                    "Ложиться спать",
+                    "Просыпаться",
+                    "Завтракать",
+                    "Обедать"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "How do you say '7:30' in English?",
+                  "options": [
+                    "quarter past seven",
+                    "seven and thirty",
+                    "half past seven",
+                    "seven to thirty"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "question": "Which negative sentence is correct?",
+                  "options": [
+                    "He don't watch TV.",
+                    "He doesn't watches TV.",
+                    "He doesn't watch TV.",
+                    "He not watch TV."
+                  ],
+                  "correct": 2
+                }
+              ],
+              "find": [
+                {
+                  "text": "I ___ up at 7 o'clock every morning.",
+                  "answer": "wake"
+                },
+                {
+                  "text": "She ___ to school at 8 a.m.",
+                  "answer": "goes"
+                },
+                {
+                  "text": "We have ___ at 7 p.m. — it's our evening meal.",
+                  "answer": "dinner"
+                },
+                {
+                  "text": "He ___ his homework after school.",
+                  "answer": "does"
+                },
+                {
+                  "text": "___ past seven means 7:30.",
+                  "answer": "Half"
+                }
+              ],
+              "match": [
+                {
+                  "term": "wake up",
+                  "definition": "To stop sleeping — просыпаться"
+                },
+                {
+                  "term": "have breakfast",
+                  "definition": "To eat in the morning — завтракать"
+                },
+                {
+                  "term": "do homework",
+                  "definition": "To complete school tasks — делать домашнее задание"
+                },
+                {
+                  "term": "go to bed",
+                  "definition": "To go to sleep — ложиться спать"
+                },
+                {
+                  "term": "have lunch",
+                  "definition": "To eat in the middle of the day — обедать"
+                }
+              ]
+            }
           },
           {
             "title": "Days of the Week and Prepositions",
@@ -105,14 +420,119 @@
             "examples": [
               "I always do my homework after school.",
               "She never watches TV in the morning.",
-              "We visit our grandparents on Sunday."
+              "We visit our grandparents on Sunday.",
+              "He often plays football after school. He rarely watches TV in the morning."
             ],
             "keyPoints": [
               "Days of the week: Monday through Sunday, always capitalised in English",
               "Prepositions of time: in (months/years), on (days), at (clock time)",
-              "Ordinal numbers: first, second, third for dates"
+              "Ordinal numbers: first, second, third for dates",
+              "Adverbs of frequency (always, usually, often, sometimes, rarely, never) go BEFORE the main verb in a sentence"
             ],
-            "content": "## Days of the Week and Prepositions\n\n# Days of the Week\n\n:- **Monday** — понедельник\n:- **Tuesday** — вторник\n:- **Wednesday** — среда\n:- **Thursday** — четверг\n:- **Friday** — пятница\n:- **Saturday** — суббота\n:- **Sunday** — воскресенье\n\n!! Remember: Days of the week start with a capital letter!\n\n# Prepositions of Time\n\n## AT — for exact time\n\n:- **at 7 o'clock** — в 7 часов\n:- **at noon** — в "
+            "content": "## Days of the Week and Prepositions\n\n# Days of the Week\n\n:- **Monday** — понедельник\n:- **Tuesday** — вторник\n:- **Wednesday** — среда\n:- **Thursday** — четверг\n:- **Friday** — пятница\n:- **Saturday** — суббота\n:- **Sunday** — воскресенье\n\n!! Remember: Days of the week start with a capital letter!\n\n# Prepositions of Time\n\n## AT — for exact time\n\n:- **at 7 o'clock** — в 7 часов\n:- **at noon** — в ",
+            "facts": [
+              "The days of the week in English are named after Norse and Anglo-Saxon gods: Tuesday — Tiw, Wednesday — Odin, Thursday — Thor, Friday — Frigg",
+              "The preposition 'on' is also used for specific dates: 'on the 5th of May', but 'in' for months: 'in May'",
+              "In the UK, the calendar week starts on Monday, while in the USA it traditionally starts on Sunday"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Which preposition do we use with days of the week?",
+                  "options": [
+                    "at",
+                    "in",
+                    "on",
+                    "by"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "question": "What does 'rarely' mean?",
+                  "options": [
+                    "Всегда",
+                    "Обычно",
+                    "Редко",
+                    "Никогда"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "question": "Where do adverbs of frequency go in a sentence?",
+                  "options": [
+                    "At the end",
+                    "Before the main verb",
+                    "After the main verb",
+                    "At the beginning always"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Which preposition: '___ night'?",
+                  "options": [
+                    "at",
+                    "on",
+                    "in",
+                    "to"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "question": "Which day is named after the Norse god Thor?",
+                  "options": [
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                  ],
+                  "correct": 2
+                }
+              ],
+              "find": [
+                {
+                  "text": "We use the preposition ___ for months and seasons.",
+                  "answer": "in"
+                },
+                {
+                  "text": "I ___ go to school on Sunday — it's a rest day for me.",
+                  "answer": "never"
+                },
+                {
+                  "text": "She ___ has breakfast — every morning without exception.",
+                  "answer": "always"
+                },
+                {
+                  "text": "We visit our grandparents ___ Sunday.",
+                  "answer": "on"
+                },
+                {
+                  "text": "The preposition ___ is used for exact clock time.",
+                  "answer": "at"
+                }
+              ],
+              "match": [
+                {
+                  "term": "at",
+                  "definition": "Preposition for exact time: at 7 o'clock, at noon"
+                },
+                {
+                  "term": "on",
+                  "definition": "Preposition for days and dates: on Monday, on the 5th of May"
+                },
+                {
+                  "term": "in",
+                  "definition": "Preposition for months, seasons, years: in September, in winter"
+                },
+                {
+                  "term": "always",
+                  "definition": "Adverb of frequency meaning 100% — всегда"
+                },
+                {
+                  "term": "never",
+                  "definition": "Adverb of frequency meaning 0% — никогда"
+                }
+              ]
+            }
           }
         ]
       },
@@ -134,14 +554,119 @@
             "examples": [
               "I like reading books and playing football.",
               "She is interested in music and dancing.",
-              "He is good at swimming and riding a bike."
+              "He is good at swimming and riding a bike.",
+              "She loves dancing and is good at playing the piano. She is also interested in painting."
             ],
             "keyPoints": [
               "Free time vocabulary: reading, swimming, playing sports, watching films",
               "Like + -ing: I like reading, She enjoys swimming",
-              "Can/Cannot for abilities: I can play football, He can't swim"
+              "Can/Cannot for abilities: I can play football, He can't swim",
+              "Use 'the' with musical instruments (play the guitar) but NO article with sports (play football); use -ing form after like/love/enjoy"
             ],
-            "content": "## Free Time Activities\n\n# Hobbies\n\n## Sports\n\n:- **play football** — играть в футбол\n:- **play basketball** — играть в баскетбол\n:- **play tennis** — играть в теннис\n:- **play volleyball** — играть в волейбол\n:- **swim** — плавать\n:- **run** — бегать\n:- **ride a bike** — кататься на велосипеде\n:- **skate** — кататься на коньках\n:- **ski** — кататься на лыжах\n\n## Creative Activities\n\n:- **draw** —"
+            "content": "## Free Time Activities\n\n# Hobbies\n\n## Sports\n\n:- **play football** — играть в футбол\n:- **play basketball** — играть в баскетбол\n:- **play tennis** — играть в теннис\n:- **play volleyball** — играть в волейбол\n:- **swim** — плавать\n:- **run** — бегать\n:- **ride a bike** — кататься на велосипеде\n:- **skate** — кататься на коньках\n:- **ski** — кататься на лыжах\n\n## Creative Activities\n\n:- **draw** —",
+            "facts": [
+              "The word 'hobby' comes from the word 'hobbyhorse' — a toy horse that children rode for fun. Over time it came to mean any activity done for pleasure",
+              "Stamp collecting (philately) was once the most popular hobby in the world, with over 200 million collectors",
+              "The rule 'play the guitar' but 'play football' exists because instruments are seen as specific objects, while sports are activities"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Which sentence is correct?",
+                  "options": [
+                    "She plays guitar.",
+                    "She plays a guitar.",
+                    "She plays the guitar.",
+                    "She plays on guitar."
+                  ],
+                  "correct": 2
+                },
+                {
+                  "question": "What goes after 'enjoy'?",
+                  "options": [
+                    "Base form of verb",
+                    "-ing form",
+                    "to + verb",
+                    "Past tense"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "How do you say 'я увлекаюсь музыкой'?",
+                  "options": [
+                    "I am good at music.",
+                    "I am interested in music.",
+                    "I can music.",
+                    "I have music."
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Which sentence uses the correct article?",
+                  "options": [
+                    "I play football.",
+                    "I play a football.",
+                    "I play the football.",
+                    "I play an football."
+                  ],
+                  "correct": 0
+                },
+                {
+                  "question": "What does 'be good at' mean?",
+                  "options": [
+                    "Интересоваться",
+                    "Быть хорошим в чём-то",
+                    "Любить",
+                    "Хотеть"
+                  ],
+                  "correct": 1
+                }
+              ],
+              "find": [
+                {
+                  "text": "I like ___ books in my free time.",
+                  "answer": "reading"
+                },
+                {
+                  "text": "She plays ___ violin — she's very musical.",
+                  "answer": "the"
+                },
+                {
+                  "text": "He is good ___ playing tennis.",
+                  "answer": "at"
+                },
+                {
+                  "text": "My hobby is ___ — I love taking photos.",
+                  "answer": "photography"
+                },
+                {
+                  "text": "They enjoy ___ to music after school.",
+                  "answer": "listening"
+                }
+              ],
+              "match": [
+                {
+                  "term": "play the piano",
+                  "definition": "Play a musical instrument (with 'the')"
+                },
+                {
+                  "term": "play football",
+                  "definition": "Play a sport (no article)"
+                },
+                {
+                  "term": "like + V-ing",
+                  "definition": "Structure for talking about preferences: I like reading"
+                },
+                {
+                  "term": "be interested in",
+                  "definition": "To be curious about something — интересоваться"
+                },
+                {
+                  "term": "be good at",
+                  "definition": "To have skill in something — быть хорошим в"
+                }
+              ]
+            }
           },
           {
             "title": "Can / Can't for Abilities",
@@ -158,14 +683,120 @@
             "examples": [
               "I can swim, but I cannot drive.",
               "She can play the piano very well.",
-              "Can you help me with this task?"
+              "Can you help me with this task?",
+              "Can I borrow your pen? — Yes, you can. I can write with a pencil."
             ],
             "keyPoints": [
               "Can expresses ability, permission and possibility in English",
               "Can is the same for all persons: I can, he can, we can",
-              "Negative: cannot or can't; question: Can you...? — Yes, I can / No, I can't"
+              "Negative: cannot or can't; question: Can you...? — Yes, I can / No, I can't",
+              "CAN stays the same for all persons (I can, he can, we can), is followed by the base form of the verb, and is also used for requests and permission"
             ],
-            "content": "## Can / Can't for Abilities\n\n# Modal Verb CAN\n\n:- **can** — мочь, уметь (ability)\n:- **can't / cannot** — не мочь, не уметь\n\n!! CAN doesn't change for he/she/it — no -s ending!\n!! CAN is followed by the base form of the verb.\n\n# Expressing Ability\n\n## Positive Sentences\n\n> **Examples:**\n> - I can swim. — Я умею плавать.\n> - She can play the piano. — Она умеет играть на пианино.\n> - They can speak"
+            "content": "## Can / Can't for Abilities\n\n# Modal Verb CAN\n\n:- **can** — мочь, уметь (ability)\n:- **can't / cannot** — не мочь, не уметь\n\n!! CAN doesn't change for he/she/it — no -s ending!\n!! CAN is followed by the base form of the verb.\n\n# Expressing Ability\n\n## Positive Sentences\n\n> **Examples:**\n> - I can swim. — Я умею плавать.\n> - She can play the piano. — Она умеет играть на пианино.\n> - They can speak",
+            "facts": [
+              "The word 'can' for ability has been used in English since the year 800, making it one of the oldest English words still in use",
+              "'Cannot' is always written as one word — this is one of the few cases in English where a negative is formed without a space",
+              "The full form 'cannot' is more formal, while 'can't' is used in everyday speech"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "Which sentence is correct?",
+                  "options": [
+                    "He cans swim.",
+                    "He can swims.",
+                    "He can swim.",
+                    "He can to swim."
+                  ],
+                  "correct": 2
+                },
+                {
+                  "question": "What is the short negative answer to 'Can you drive?'",
+                  "options": [
+                    "No, I don't.",
+                    "No, I can't.",
+                    "No, I not.",
+                    "No, I doesn't."
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "What does 'Can I go out?' express?",
+                  "options": [
+                    "Ability",
+                    "Request for permission",
+                    "Future plan",
+                    "Past action"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "How is 'cannot' written?",
+                  "options": [
+                    "Can not",
+                    "Cannot",
+                    "Can't",
+                    "Cannnot"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "What form of verb follows CAN?",
+                  "options": [
+                    "-ing form",
+                    "Past form",
+                    "Base form",
+                    "To + verb"
+                  ],
+                  "correct": 2
+                }
+              ],
+              "find": [
+                {
+                  "text": "She ___ speak three languages.",
+                  "answer": "can"
+                },
+                {
+                  "text": "I ___ play chess, but I want to learn.",
+                  "answer": "can't"
+                },
+                {
+                  "question": "___ you help me with my homework?",
+                  "answer": "Can",
+                  "text": "___ you help me with my homework?"
+                },
+                {
+                  "text": "CAN ___ change for he/she/it — no -s ending!",
+                  "answer": "does not"
+                },
+                {
+                  "text": "The full form of 'can't' is ___",
+                  "answer": "cannot"
+                }
+              ],
+              "match": [
+                {
+                  "term": "can",
+                  "definition": "Modal verb for ability, permission and possibility"
+                },
+                {
+                  "term": "can't / cannot",
+                  "definition": "Negative form — не мочь, не уметь"
+                },
+                {
+                  "term": "Can you...?",
+                  "definition": "Question form for asking about ability or making a request"
+                },
+                {
+                  "term": "base form",
+                  "definition": "The form of the verb that follows CAN (without -s, -ing, or to)"
+                },
+                {
+                  "term": "short answer",
+                  "definition": "Yes, I can / No, I can't — brief response to a CAN question"
+                }
+              ]
+            }
           }
         ]
       },
@@ -187,14 +818,119 @@
             "examples": [
               "Here is my passport. I would like a window seat, please.",
               "Where is gate 5? The flight leaves at 3 p.m.",
-              "I have one suitcase and a hand luggage."
+              "I have one suitcase and a hand luggage.",
+              "I'd like a window seat, please. Here is my passport and my boarding pass."
             ],
             "keyPoints": [
               "Airport vocabulary: boarding pass, gate, departure, arrival, luggage",
               "Travel phrases: I'd like to book..., Where is gate...?, How long is the flight?",
-              "Imperative mood for instructions and requests"
+              "Imperative mood for instructions and requests",
+              "Key airport process: check in → security check → departure lounge → gate → board the plane → take off → land → collect luggage"
             ],
-            "content": "## At the Airport\n\n# Airport Vocabulary\n\n## Places at the Airport\n\n:- **airport** — аэропорт\n:- **departure lounge** — зал вылета\n:- **arrival hall** — зал прилёта\n:- **gate** — выход на посадку\n:- **baggage claim** — выдача багажа\n:- **customs** — таможня\n:- **check-in desk** — стойка регистрации\n:- **duty-free shop** — магазин беспошлинной торговли\n:- **security check** — контроль безопасности\n\n"
+            "content": "## At the Airport\n\n# Airport Vocabulary\n\n## Places at the Airport\n\n:- **airport** — аэропорт\n:- **departure lounge** — зал вылета\n:- **arrival hall** — зал прилёта\n:- **gate** — выход на посадку\n:- **baggage claim** — выдача багажа\n:- **customs** — таможня\n:- **check-in desk** — стойка регистрации\n:- **duty-free shop** — магазин беспошлинной торговли\n:- **security check** — контроль безопасности\n\n",
+            "facts": [
+              "The world's busiest airport is Hartsfield-Jackson Atlanta International Airport in the USA — it serves over 100 million passengers per year",
+              "The word 'airport' was first used in 1919, when the first regular international flights began between London and Paris",
+              "Duty-free shops were first established at Shannon Airport in Ireland in 1947 and are now found in airports worldwide"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "What is a 'boarding pass'?",
+                  "options": [
+                    "Багаж",
+                    "Посадочный талон",
+                    "Паспорт",
+                    "Билет на поезд"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "What does 'take off' mean?",
+                  "options": [
+                    "Садиться в самолёт",
+                    "Приземляться",
+                    "Взлетать",
+                    "Регистрироваться"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "question": "Where do you pick up your luggage after a flight?",
+                  "options": [
+                    "At the gate",
+                    "At the check-in desk",
+                    "At the baggage claim",
+                    "At the duty-free shop"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "question": "What does 'I'd like a window seat' mean?",
+                  "options": [
+                    "Я хотел бы место у прохода",
+                    "Я хотел бы место у окна",
+                    "Я хотел бы билет",
+                    "Я хотел бы еду"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "What should you do at the security check?",
+                  "options": [
+                    "Buy souvenirs",
+                    "Show passport and walk through the scanner",
+                    "Collect your luggage",
+                    "Board the plane"
+                  ],
+                  "correct": 1
+                }
+              ],
+              "find": [
+                {
+                  "text": "I'd like a ___ seat — I want to look out the window.",
+                  "answer": "window"
+                },
+                {
+                  "text": "Please fasten your ___ during takeoff.",
+                  "answer": "seatbelts"
+                },
+                {
+                  "text": "The flight is ___ — it will leave later than planned.",
+                  "answer": "delayed"
+                },
+                {
+                  "text": "Before boarding, you must go through ___ check.",
+                  "answer": "security"
+                },
+                {
+                  "text": "After landing, passengers go to baggage ___ to get their suitcases.",
+                  "answer": "claim"
+                }
+              ],
+              "match": [
+                {
+                  "term": "boarding pass",
+                  "definition": "Document that allows you to board the plane — посадочный талон"
+                },
+                {
+                  "term": "gate",
+                  "definition": "The door where you board the plane — выход на посадку"
+                },
+                {
+                  "term": "check-in desk",
+                  "definition": "Place where you register and drop off luggage — стойка регистрации"
+                },
+                {
+                  "term": "duty-free shop",
+                  "definition": "Store at the airport selling goods without tax — магазин беспошлинной торговли"
+                },
+                {
+                  "term": "baggage claim",
+                  "definition": "Area where you collect your luggage after landing — выдача багажа"
+                }
+              ]
+            }
           },
           {
             "title": "Countries and Nationalities",
@@ -211,14 +947,119 @@
             "examples": [
               "Moscow is the capital of Russia.",
               "I am from Russia. I speak Russian.",
-              "She is French. She lives in Paris."
+              "She is French. She lives in Paris.",
+              "Tokyo is the capital of Japan. Japanese people speak Japanese."
             ],
             "keyPoints": [
               "Countries and nationalities: France — French, Japan — Japanese, Russia — Russian",
               "Languages: English, Spanish, Chinese, Arabic, German",
-              "To be from / To come from for talking about origin"
+              "To be from / To come from for talking about origin",
+              "Use 'the' with country names that include 'kingdom', 'states', or 'republic': the UK, the USA, the Russian Federation"
             ],
-            "content": "## Countries and Nationalities\n\n# Countries and Nationalities Table\n\n| Country | Nationality |\n|---------|-------------|\n| Russia | Russian |\n| England / the UK | English / British |\n| the USA | American |\n| France | French |\n| Germany | German |\n| Spain | Spanish |\n| Italy | Italian |\n| China | Chinese |\n| Japan | Japanese |\n| Australia | Australian |\n| Canada | Canadian |\n\n!! Country names start"
+            "content": "## Countries and Nationalities\n\n# Countries and Nationalities Table\n\n| Country | Nationality |\n|---------|-------------|\n| Russia | Russian |\n| England / the UK | English / British |\n| the USA | American |\n| France | French |\n| Germany | German |\n| Spain | Spanish |\n| Italy | Italian |\n| China | Chinese |\n| Japan | Japanese |\n| Australia | Australian |\n| Canada | Canadian |\n\n!! Country names start",
+            "facts": [
+              "There are about 195 countries in the world today, and many nationality words end in -ian (Russian, Canadian), -ish (British, Spanish), or -ese (Chinese, Japanese)",
+              "The article 'the' is used with countries that have plural nouns or words like 'United' or 'Republic' in their name: the Netherlands, the United Arab Emirates",
+              "English is an official language in over 60 countries, making it one of the most widely spoken languages in the world"
+            ],
+            "tests": {
+              "quiz": [
+                {
+                  "question": "What nationality is a person from France?",
+                  "options": [
+                    "Francish",
+                    "French",
+                    "Franch",
+                    "France"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "Which sentence is correct?",
+                  "options": [
+                    "I'm from the Russia.",
+                    "I'm from Russia.",
+                    "I'm from an Russia.",
+                    "I'm from Russias."
+                  ],
+                  "correct": 1
+                },
+                {
+                  "question": "What is the capital of Japan?",
+                  "options": [
+                    "Beijing",
+                    "Seoul",
+                    "Tokyo",
+                    "Bangkok"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "question": "Which country uses 'the' in its name?",
+                  "options": [
+                    "France",
+                    "Germany",
+                    "The USA",
+                    "Japan"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "question": "How do you say 'Я говорю по-русски'?",
+                  "options": [
+                    "I speak Russian.",
+                    "I speak in Russian.",
+                    "I am speaking Russian language.",
+                    "I talk Russian."
+                  ],
+                  "correct": 0
+                }
+              ],
+              "find": [
+                {
+                  "text": "Moscow is the capital of ___",
+                  "answer": "Russia"
+                },
+                {
+                  "text": "A person from Spain is ___",
+                  "answer": "Spanish"
+                },
+                {
+                  "text": "We use 'the' with 'United ___' — the USA.",
+                  "answer": "States"
+                },
+                {
+                  "text": "She is from Germany. She is ___",
+                  "answer": "German"
+                },
+                {
+                  "text": "People in China speak ___",
+                  "answer": "Chinese"
+                }
+              ],
+              "match": [
+                {
+                  "term": "Russia — Russian",
+                  "definition": "Country and nationality: Россия — русский"
+                },
+                {
+                  "term": "Japan — Japanese",
+                  "definition": "Country and nationality: Япония — японский"
+                },
+                {
+                  "term": "the UK — British",
+                  "definition": "Country and nationality: Великобритания — британский"
+                },
+                {
+                  "term": "I'm from + country",
+                  "definition": "Structure for saying where you come from"
+                },
+                {
+                  "term": "I speak + language",
+                  "definition": "Structure for saying what language you speak"
+                }
+              ]
+            }
           }
         ]
       }

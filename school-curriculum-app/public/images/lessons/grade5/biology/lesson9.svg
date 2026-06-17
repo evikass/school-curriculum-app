@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" stroke="#2E7D32" stroke-width="2.5" rx="8"/>
+  <text x="250" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20">Ткани организмов</text>
+  <text x="250" y="35" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#666">Биология 5 класс — Урок 9</text>
+  <line x1="30" y1="40" x2="470" y2="40" stroke="#2E7D32" stroke-width="1" opacity="0.5"/>
+
+  <!-- PLANT TISSUES section -->
+  <text x="125" y="57" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20">Ткани растений</text>
+  <line x1="15" y1="61" x2="240" y2="61" stroke="#4CAF50" stroke-width="0.5"/>
+
+  <!-- 1. Образовательная ткань -->
+  <g transform="translate(15,68)">
+    <rect x="0" y="0" width="108" height="52" rx="4" fill="#E8F5E9" stroke="#4CAF50" stroke-width="0.8"/>
+    <text x="54" y="12" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1B5E20">Образовательная</text>
+    <!-- Small tightly packed cells -->
+    <rect x="15" y="18" width="10" height="10" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="27" y="18" width="10" height="10" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="39" y="18" width="10" height="10" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="51" y="18" width="10" height="10" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="63" y="18" width="10" height="10" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="75" y="18" width="10" height="10" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="15" y="30" width="10" height="10" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="27" y="30" width="10" height="10" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="39" y="30" width="10" height="10" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="51" y="30" width="10" height="10" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="63" y="30" width="10" height="10" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="75" y="30" width="10" height="10" fill="#A5D6A7" stroke="#2E7D32" stroke-width="0.5"/>
+    <text x="54" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#555">Рост, деление клеток</text>
+  </g>
+
+  <!-- 2. Покровная ткань -->
+  <g transform="translate(130,68)">
+    <rect x="0" y="0" width="108" height="52" rx="4" fill="#E8F5E9" stroke="#4CAF50" stroke-width="0.8"/>
+    <text x="54" y="12" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1B5E20">Покровная</text>
+    <!-- Flat tightly packed cells like bricks -->
+    <rect x="12" y="18" width="16" height="8" fill="#81C784" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="30" y="18" width="16" height="8" fill="#81C784" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="48" y="18" width="16" height="8" fill="#81C784" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="66" y="18" width="16" height="8" fill="#81C784" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="20" y="28" width="16" height="8" fill="#81C784" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="38" y="28" width="16" height="8" fill="#81C784" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="56" y="28" width="16" height="8" fill="#81C784" stroke="#2E7D32" stroke-width="0.5"/>
+    <rect x="74" y="28" width="16" height="8" fill="#81C784" stroke="#2E7D32" stroke-width="0.5"/>
+    <text x="54" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#555">Защита, кожаца</text>
+  </g>
+
+  <!-- 3. Проводящая ткань -->
+  <g transform="translate(15,126)">
+    <rect x="0" y="0" width="108" height="52" rx="4" fill="#E8F5E9" stroke="#4CAF50" stroke-width="0.8"/>
+    <text x="54" y="12" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1B5E20">Проводящая</text>
+    <!-- Vessel elements - tubes -->
+    <rect x="15" y="18" width="8" height="28" fill="#42A5F5" opacity="0.4" stroke="#1565C0" stroke-width="0.8"/>
+    <rect x="28" y="18" width="8" height="28" fill="#42A5F5" opacity="0.4" stroke="#1565C0" stroke-width="0.8"/>
+    <rect x="41" y="18" width="8" height="28" fill="#FF8A65" opacity="0.4" stroke="#D84315" stroke-width="0.8"/>
+    <rect x="54" y="18" width="8" height="28" fill="#FF8A65" opacity="0.4" stroke="#D84315" stroke-width="0.8"/>
+    <text x="20" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="4" fill="#1565C0">ксилема</text>
+    <text x="46" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="4" fill="#D84315">флоэма</text>
+    <text x="54" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#555">Транспорт веществ</text>
+  </g>
+
+  <!-- 4. Механическая ткань -->
+  <g transform="translate(130,126)">
+    <rect x="0" y="0" width="108" height="52" rx="4" fill="#E8F5E9" stroke="#4CAF50" stroke-width="0.8"/>
+    <text x="54" y="12" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1B5E20">Механическая</text>
+    <!-- Thick-walled cells -->
+    <rect x="15" y="18" width="12" height="28" rx="1" fill="#8D6E63" stroke="#5D4037" stroke-width="1.5"/>
+    <rect x="32" y="18" width="12" height="28" rx="1" fill="#8D6E63" stroke="#5D4037" stroke-width="1.5"/>
+    <rect x="49" y="18" width="12" height="28" rx="1" fill="#8D6E63" stroke="#5D4037" stroke-width="1.5"/>
+    <rect x="66" y="18" width="12" height="28" rx="1" fill="#8D6E63" stroke="#5D4037" stroke-width="1.5"/>
+    <rect x="83" y="18" width="12" height="28" rx="1" fill="#8D6E63" stroke="#5D4037" stroke-width="1.5"/>
+    <text x="54" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#555">Прочность, опора</text>
+  </g>
+
+  <!-- 5. Основная ткань -->
+  <g transform="translate(72,184)">
+    <rect x="0" y="0" width="108" height="48" rx="4" fill="#E8F5E9" stroke="#4CAF50" stroke-width="0.8"/>
+    <text x="54" y="12" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1B5E20">Основная</text>
+    <!-- Round loosely packed cells -->
+    <circle cx="25" cy="26" r="8" fill="#C8E6C9" stroke="#4CAF50" stroke-width="0.8"/>
+    <circle cx="50" cy="28" r="9" fill="#C8E6C9" stroke="#4CAF50" stroke-width="0.8"/>
+    <circle cx="75" cy="25" r="8" fill="#C8E6C9" stroke="#4CAF50" stroke-width="0.8"/>
+    <circle cx="35" cy="38" r="6" fill="#C8E6C9" stroke="#4CAF50" stroke-width="0.8"/>
+    <circle cx="60" cy="37" r="7" fill="#C8E6C9" stroke="#4CAF50" stroke-width="0.8"/>
+    <text x="54" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#555">Фотосинтез, запасание</text>
+  </g>
+
+  <!-- ANIMAL TISSUES section -->
+  <text x="375" y="57" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20">Ткани животных</text>
+  <line x1="260" y1="61" x2="485" y2="61" stroke="#E91E63" stroke-width="0.5"/>
+
+  <!-- 1. Эпителиальная ткань -->
+  <g transform="translate(260,68)">
+    <rect x="0" y="0" width="112" height="52" rx="4" fill="#FCE4EC" stroke="#E91E63" stroke-width="0.8"/>
+    <text x="56" y="12" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#880E4F">Эпителиальная</text>
+    <!-- Columnar epithelium -->
+    <rect x="12" y="18" width="8" height="18" rx="1" fill="#F48FB1" stroke="#C2185B" stroke-width="0.5"/>
+    <rect x="22" y="18" width="8" height="18" rx="1" fill="#F48FB1" stroke="#C2185B" stroke-width="0.5"/>
+    <rect x="32" y="18" width="8" height="18" rx="1" fill="#F48FB1" stroke="#C2185B" stroke-width="0.5"/>
+    <rect x="42" y="18" width="8" height="18" rx="1" fill="#F48FB1" stroke="#C2185B" stroke-width="0.5"/>
+    <rect x="52" y="18" width="8" height="18" rx="1" fill="#F48FB1" stroke="#C2185B" stroke-width="0.5"/>
+    <rect x="62" y="18" width="8" height="18" rx="1" fill="#F48FB1" stroke="#C2185B" stroke-width="0.5"/>
+    <rect x="72" y="18" width="8" height="18" rx="1" fill="#F48FB1" stroke="#C2185B" stroke-width="0.5"/>
+    <rect x="82" y="18" width="8" height="18" rx="1" fill="#F48FB1" stroke="#C2185B" stroke-width="0.5"/>
+    <!-- Basement membrane -->
+    <line x1="8" y1="36" x2="95" y2="36" stroke="#C2185B" stroke-width="1"/>
+    <text x="56" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#555">Покров, защита</text>
+  </g>
+
+  <!-- 2. Соединительная ткань -->
+  <g transform="translate(378,68)">
+    <rect x="0" y="0" width="112" height="52" rx="4" fill="#FFF3E0" stroke="#FF9800" stroke-width="0.8"/>
+    <text x="56" y="12" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#E65100">Соединительная</text>
+    <!-- Fibers and cells scattered -->
+    <path d="M10,25 Q30,20 50,28 Q70,35 90,25" stroke="#FFB74D" stroke-width="1" fill="none"/>
+    <path d="M10,32 Q30,38 50,30 Q70,24 90,32" stroke="#FFB74D" stroke-width="1" fill="none"/>
+    <circle cx="25" cy="22" r="3" fill="#FFCC80" stroke="#E65100" stroke-width="0.5"/>
+    <circle cx="55" cy="35" r="3" fill="#FFCC80" stroke="#E65100" stroke-width="0.5"/>
+    <circle cx="80" cy="24" r="3" fill="#FFCC80" stroke="#E65100" stroke-width="0.5"/>
+    <text x="56" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#555">Связь, опора, питание</text>
+  </g>
+
+  <!-- 3. Мышечная ткань -->
+  <g transform="translate(260,126)">
+    <rect x="0" y="0" width="112" height="52" rx="4" fill="#E3F2FD" stroke="#2196F3" stroke-width="0.8"/>
+    <text x="56" y="12" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#0D47A1">Мышечная</text>
+    <!-- Striated muscle fibers -->
+    <rect x="12" y="18" width="88" height="8" rx="2" fill="#90CAF9" stroke="#1565C0" stroke-width="0.8"/>
+    <line x1="20" y1="18" x2="20" y2="26" stroke="#1565C0" stroke-width="0.4"/>
+    <line x1="28" y1="18" x2="28" y2="26" stroke="#1565C0" stroke-width="0.4"/>
+    <line x1="36" y1="18" x2="36" y2="26" stroke="#1565C0" stroke-width="0.4"/>
+    <line x1="44" y1="18" x2="44" y2="26" stroke="#1565C0" stroke-width="0.4"/>
+    <line x1="52" y1="18" x2="52" y2="26" stroke="#1565C0" stroke-width="0.4"/>
+    <line x1="60" y1="18" x2="60" y2="26" stroke="#1565C0" stroke-width="0.4"/>
+    <line x1="68" y1="18" x2="68" y2="26" stroke="#1565C0" stroke-width="0.4"/>
+    <line x1="76" y1="18" x2="76" y2="26" stroke="#1565C0" stroke-width="0.4"/>
+    <line x1="84" y1="18" x2="84" y2="26" stroke="#1565C0" stroke-width="0.4"/>
+    <line x1="92" y1="18" x2="92" y2="26" stroke="#1565C0" stroke-width="0.4"/>
+
+    <rect x="12" y="30" width="88" height="8" rx="2" fill="#90CAF9" stroke="#1565C0" stroke-width="0.8"/>
+    <line x1="20" y1="30" x2="20" y2="38" stroke="#1565C0" stroke-width="0.4"/>
+    <line x1="28" y1="30" x2="28" y2="38" stroke="#1565C0" stroke-width="0.4"/>
+    <line x1="36" y1="30" x2="36" y2="38" stroke="#1565C0" stroke-width="0.4"/>
+    <line x1="44" y1="30" x2="44" y2="38" stroke="#1565C0" stroke-width="0.4"/>
+    <line x1="52" y1="30" x2="52" y2="38" stroke="#1565C0" stroke-width="0.4"/>
+    <line x1="60" y1="30" x2="60" y2="38" stroke="#1565C0" stroke-width="0.4"/>
+    <line x1="68" y1="30" x2="68" y2="38" stroke="#1565C0" stroke-width="0.4"/>
+    <line x1="76" y1="30" x2="76" y2="38" stroke="#1565C0" stroke-width="0.4"/>
+    <line x1="84" y1="30" x2="84" y2="38" stroke="#1565C0" stroke-width="0.4"/>
+    <line x1="92" y1="30" x2="92" y2="38" stroke="#1565C0" stroke-width="0.4"/>
+    <text x="56" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#555">Движение, сокращение</text>
+  </g>
+
+  <!-- 4. Нервная ткань -->
+  <g transform="translate(378,126)">
+    <rect x="0" y="0" width="112" height="52" rx="4" fill="#F3E5F5" stroke="#9C27B0" stroke-width="0.8"/>
+    <text x="56" y="12" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#6A1B9A">Нервная</text>
+    <!-- Neuron -->
+    <circle cx="55" cy="28" r="8" fill="#CE93D8" stroke="#7B1FA2" stroke-width="1"/>
+    <circle cx="55" cy="28" r="3" fill="#AB47BC"/>
+    <!-- Dendrites -->
+    <path d="M48,24 Q38,18 30,15" stroke="#7B1FA2" stroke-width="0.8" fill="none"/>
+    <path d="M48,28 Q35,28 28,25" stroke="#7B1FA2" stroke-width="0.8" fill="none"/>
+    <path d="M50,33 Q40,38 32,40" stroke="#7B1FA2" stroke-width="0.8" fill="none"/>
+    <!-- Axon -->
+    <path d="M63,28 Q75,28 85,28 Q92,28 98,26" stroke="#7B1FA2" stroke-width="1.2" fill="none"/>
+    <!-- Axon endings -->
+    <line x1="98" y1="26" x2="102" y2="22" stroke="#7B1FA2" stroke-width="0.5"/>
+    <line x1="98" y1="26" x2="102" y2="30" stroke="#7B1FA2" stroke-width="0.5"/>
+    <text x="56" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#555">Передача сигналов</text>
+  </g>
+
+  <!-- Connective tissue types list -->
+  <text x="375" y="192" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#E65100">Виды соединительной ткани:</text>
+
+  <g transform="translate(260,198)">
+    <rect x="0" y="0" width="110" height="14" rx="2" fill="#FFF8E1" stroke="#FFC107" stroke-width="0.5"/>
+    <text x="55" y="10" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#555">Костная ткань</text>
+
+    <rect x="0" y="16" width="110" height="14" rx="2" fill="#FFF8E1" stroke="#FFC107" stroke-width="0.5"/>
+    <text x="55" y="26" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#555">Хрящевая ткань</text>
+
+    <rect x="0" y="32" width="110" height="14" rx="2" fill="#FFF8E1" stroke="#FFC107" stroke-width="0.5"/>
+    <text x="55" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#555">Кровь</text>
+
+    <rect x="0" y="48" width="110" height="14" rx="2" fill="#FFF8E1" stroke="#FFC107" stroke-width="0.5"/>
+    <text x="55" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#555">Жировая ткань</text>
+  </g>
+
+  <!-- Definition -->
+  <g transform="translate(380,198)">
+    <rect x="0" y="0" width="110" height="14" rx="2" fill="#E3F2FD" stroke="#42A5F5" stroke-width="0.5"/>
+    <text x="55" y="10" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#555">Сухожилия</text>
+
+    <rect x="0" y="16" width="110" height="14" rx="2" fill="#E3F2FD" stroke="#42A5F5" stroke-width="0.5"/>
+    <text x="55" y="26" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#555">Связки</text>
+
+    <rect x="0" y="32" width="110" height="14" rx="2" fill="#E3F2FD" stroke="#42A5F5" stroke-width="0.5"/>
+    <text x="55" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#555">Лимфа</text>
+  </g>
+
+  <!-- Bottom definition box -->
+  <rect x="20" y="282" width="460" height="30" rx="5" fill="#1B5E20" opacity="0.08" stroke="#2E7D32" stroke-width="0.8"/>
+  <text x="250" y="296" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20">Ткань — группа клеток, сходных по строению и выполняющих одинаковые функции</text>
+  <text x="250" y="308" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" fill="#555">Межклеточное вещество заполняет пространство между клетками ткани</text>
+
+  <!-- Muscle types note -->
+  <rect x="20" y="318" width="150" height="22" rx="3" fill="#E3F2FD" stroke="#2196F3" stroke-width="0.6"/>
+  <text x="85" y="328" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#0D47A1">Поперечнополосатая</text>
+  <text x="85" y="337" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#0D47A1">(скелетная, сердечная)</text>
+
+  <rect x="180" y="318" width="140" height="22" rx="3" fill="#E3F2FD" stroke="#2196F3" stroke-width="0.6"/>
+  <text x="250" y="328" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#0D47A1">Гладкая</text>
+  <text x="250" y="337" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#0D47A1">(внутренние органы)</text>
+
+  <rect x="330" y="318" width="150" height="22" rx="3" fill="#F3E5F5" stroke="#9C27B0" stroke-width="0.6"/>
+  <text x="405" y="328" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#6A1B9A">Нейрон: тело + дендриты</text>
+  <text x="405" y="337" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#6A1B9A">+ аксон (+ миелин)</text>
+</svg>

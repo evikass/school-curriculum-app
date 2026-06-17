@@ -1,84 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#E0F2F1;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1"/>
-    </linearGradient>
-    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#26A69A;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#00796B;stop-opacity:1"/>
+    <linearGradient id="skyUrb" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ECEFF1"/>
+      <stop offset="100%" stop-color="#CFD8DC"/>
     </linearGradient>
   </defs>
-  <!-- Background -->
-  <rect x="0" y="0" width="500" height="350" rx="12" fill="url(#bg)" stroke="#26A69A" stroke-width="2"/>
-  <!-- Header bar -->
-  <rect x="0" y="0" width="500" height="50" rx="12" fill="url(#headerGrad)"/>
-  <rect x="0" y="25" width="500" height="25" fill="url(#headerGrad)"/>
-  <!-- Lesson number badge -->
-  <circle cx="28" cy="25" r="18" fill="#FFFFFF" opacity="0.3"/>
-  <text x="28" y="31" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
-  <!-- Title -->
-  <text x="250" y="32" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Миграции и трудовые ресурсы</text>
-  <!-- Decorative line -->
-  <line x1="15" y1="56" x2="485" y2="56" stroke="#80CBC4" stroke-width="1" stroke-dasharray="4,2"/>
-  <!-- Definitions -->
-  <rect x="15" y="62" width="470" height="35" rx="6" fill="#FFFFFF" stroke="#26A69A" stroke-width="1"/>
-  <text x="25" y="77" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A">МИГРАЦИЯ</text>
-  <text x="90" y="77" font-family="Arial,sans-serif" font-size="9" fill="#333">— перемещение населения через границы территорий со сменой места жительства</text>
-  <text x="25" y="90" font-family="Arial,sans-serif" font-size="8" fill="#666">Иммиграция (въезд) → Эмиграция (выезд) | Внутренняя ↔ Внешняя</text>
-  <!-- Migration types diagram -->
-  <g transform="translate(15, 102)">
-    <rect x="0" y="0" width="230" height="120" rx="8" fill="#FFFFFF" stroke="#26A69A" stroke-width="1"/>
-    <text x="115" y="17" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A" text-anchor="middle">ВИДЫ МИГРАЦИИ</text>
-    <!-- Central node -->
-    <rect x="75" y="25" width="80" height="18" rx="6" fill="#26A69A"/>
-    <text x="115" y="38" font-family="Arial,sans-serif" font-size="8" fill="#FFF" text-anchor="middle">МИГРАЦИЯ</text>
-    <!-- Branches -->
-    <line x1="85" y1="43" x2="45" y2="55" stroke="#26A69A" stroke-width="1"/>
-    <line x1="145" y1="43" x2="185" y2="55" stroke="#26A69A" stroke-width="1"/>
-    <rect x="15" y="53" width="60" height="14" rx="4" fill="#80CBC4"/>
-    <text x="45" y="63" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Внутренняя</text>
-    <rect x="155" y="53" width="60" height="14" rx="4" fill="#80CBC4"/>
-    <text x="185" y="63" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Внешняя</text>
-    <!-- Sub-branches internal -->
-    <line x1="30" y1="67" x2="20" y2="78" stroke="#999" stroke-width="0.5"/>
-    <line x1="60" y1="67" x2="75" y2="78" stroke="#999" stroke-width="0.5"/>
-    <text x="10" y="88" font-family="Arial,sans-serif" font-size="7" fill="#333">Село→Город</text>
-    <text x="60" y="88" font-family="Arial,sans-serif" font-size="7" fill="#333">Север→Юг</text>
-    <text x="10" y="100" font-family="Arial,sans-serif" font-size="7" fill="#333">Восток→Запад</text>
-    <!-- Sub-branches external -->
-    <line x1="175" y1="67" x2="165" y2="78" stroke="#999" stroke-width="0.5"/>
-    <line x1="195" y1="67" x2="210" y2="78" stroke="#999" stroke-width="0.5"/>
-    <text x="148" y="88" font-family="Arial,sans-serif" font-size="7" fill="#333">Иммиграция</text>
-    <text x="195" y="88" font-family="Arial,sans-serif" font-size="7" fill="#333">Эмиграция</text>
-    <!-- Causes -->
-    <text x="115" y="115" font-family="Arial,sans-serif" font-size="7" fill="#26A69A" text-anchor="middle">Причины: экономич., политич., экологич., семейные</text>
+  <rect width="500" height="350" fill="url(#skyUrb)"/>
+  <!-- Sky gradient -->
+  <rect width="500" height="200" fill="#B0BEC5" opacity="0.3"/>
+  <!-- City skyline - left section (old/medium buildings) -->
+  <rect x="20" y="130" width="30" height="120" fill="#78909C"/>
+  <rect x="55" y="110" width="25" height="140" fill="#607D8B"/>
+  <rect x="85" y="145" width="35" height="105" fill="#90A4AE"/>
+  <rect x="125" y="120" width="20" height="130" fill="#78909C"/>
+  <!-- City skyline - center (tall skyscrapers) -->
+  <rect x="150" y="60" width="35" height="190" fill="#546E7A"/>
+  <rect x="155" y="55" width="25" height="8" fill="#37474F"/>
+  <!-- Antenna -->
+  <line x1="167" y1="55" x2="167" y2="40" stroke="#37474F" stroke-width="2"/>
+  <!-- Windows on tall building -->
+  <rect x="155" y="70" width="5" height="4" fill="#FFF9C4" opacity="0.6"/>
+  <rect x="163" y="70" width="5" height="4" fill="#FFF9C4" opacity="0.6"/>
+  <rect x="172" y="70" width="5" height="4" fill="#FFF9C4" opacity="0.6"/>
+  <rect x="155" y="80" width="5" height="4" fill="#FFF9C4" opacity="0.7"/>
+  <rect x="163" y="80" width="5" height="4" fill="#FFF9C4" opacity="0.7"/>
+  <rect x="172" y="80" width="5" height="4" fill="#FFF9C4" opacity="0.7"/>
+  <rect x="155" y="90" width="5" height="4" fill="#FFF9C4" opacity="0.6"/>
+  <rect x="163" y="90" width="5" height="4" fill="#FFF9C4" opacity="0.5"/>
+  <rect x="172" y="90" width="5" height="4" fill="#FFF9C4" opacity="0.6"/>
+  <rect x="190" y="80" width="40" height="170" fill="#455A64"/>
+  <rect x="235" y="95" width="30" height="155" fill="#546E7A"/>
+  <!-- Second skyscraper with pointed top -->
+  <rect x="270" y="70" width="35" height="180" fill="#37474F"/>
+  <polygon points="270,70 287,40 305,70" fill="#37474F"/>
+  <rect x="278" y="80" width="5" height="4" fill="#FFF9C4" opacity="0.6"/>
+  <rect x="290" y="80" width="5" height="4" fill="#FFF9C4" opacity="0.5"/>
+  <rect x="278" y="90" width="5" height="4" fill="#FFF9C4" opacity="0.7"/>
+  <rect x="290" y="90" width="5" height="4" fill="#FFF9C4" opacity="0.6"/>
+  <rect x="310" y="120" width="25" height="130" fill="#607D8B"/>
+  <rect x="340" y="100" width="30" height="150" fill="#78909C"/>
+  <rect x="375" y="135" width="35" height="115" fill="#90A4AE"/>
+  <!-- Right section -->
+  <rect x="415" y="115" width="25" height="135" fill="#78909C"/>
+  <rect x="445" y="140" width="35" height="110" fill="#B0BEC5"/>
+  <!-- Ground / street -->
+  <rect x="0" y="250" width="500" height="100" fill="#9E9E9E" opacity="0.3"/>
+  <line x1="0" y1="250" x2="500" y2="250" stroke="#616161" stroke-width="1"/>
+  <!-- Road -->
+  <rect x="0" y="260" width="500" height="30" fill="#616161" opacity="0.3"/>
+  <line x1="0" y1="275" x2="500" y2="275" stroke="#FFF9C4" stroke-width="1" stroke-dasharray="15,10"/>
+  <!-- Cars -->
+  <rect x="50" y="268" width="18" height="8" rx="2" fill="#F44336" opacity="0.7"/>
+  <rect x="180" y="270" width="18" height="8" rx="2" fill="#2196F3" opacity="0.7"/>
+  <rect x="350" y="268" width="18" height="8" rx="2" fill="#4CAF50" opacity="0.7"/>
+  <!-- Suburb (right side, smaller houses) -->
+  <rect x="400" y="230" width="15" height="20" fill="#A5D6A7" opacity="0.6"/>
+  <polygon points="400,230 407,220 415,230" fill="#81C784" opacity="0.6"/>
+  <rect x="425" y="235" width="15" height="15" fill="#C8E6C9" opacity="0.6"/>
+  <polygon points="425,235 432,225 440,235" fill="#A5D6A7" opacity="0.6"/>
+  <rect x="455" y="238" width="15" height="12" fill="#DCEDC8" opacity="0.6"/>
+  <polygon points="455,238 462,230 470,238" fill="#A5D6A7" opacity="0.6"/>
+  <!-- Arrow showing suburbanization -->
+  <path d="M395,240 L380,240" stroke="#2E7D32" stroke-width="1.5" marker-end="url(#arrU)"/>
+  <defs>
+    <marker id="arrU" markerWidth="6" markerHeight="5" refX="6" refY="2.5" orient="auto">
+      <polygon points="0,0 6,2.5 0,5" fill="#2E7D32"/>
+    </marker>
+  </defs>
+  <text x="395" y="220" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32">Субурбанизация</text>
+  <!-- Urbanization level bar chart -->
+  <rect x="20" y="295" width="460" height="40" rx="4" fill="white" opacity="0.8"/>
+  <text x="250" y="308" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#333" font-weight="bold">Уровень урбанизации</text>
+  <rect x="30" y="312" width="180" height="10" rx="2" fill="#1565C0" opacity="0.7"/>
+  <text x="120" y="320" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="white">Европа >75%</text>
+  <rect x="30" y="324" width="120" height="8" rx="2" fill="#FF9800" opacity="0.7"/>
+  <text x="90" y="331" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="white">Азия 40-75%</text>
+  <!-- Tokyo label -->
+  <g transform="translate(200,50)">
+    <circle r="3" fill="#F44336"/>
+    <line x1="3" y1="0" x2="20" y2="-10" stroke="#333" stroke-width="0.8"/>
+    <text x="22" y="-8" font-family="Arial,sans-serif" font-size="7" fill="#C62828" font-weight="bold">Токио 37 млн</text>
   </g>
-  <!-- Labor resources -->
-  <g transform="translate(255, 102)">
-    <rect x="0" y="0" width="230" height="120" rx="8" fill="#FFFFFF" stroke="#26A69A" stroke-width="1"/>
-    <text x="115" y="17" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A" text-anchor="middle">ТРУДОВЫЕ РЕСУРСЫ</text>
-    <!-- Age structure bars -->
-    <text x="15" y="35" font-family="Arial,sans-serif" font-size="8" fill="#666">Моложе трудоспособного</text>
-    <rect x="15" y="38" width="200" height="12" rx="3" fill="#EEEEEE"/>
-    <rect x="15" y="38" width="40" height="12" rx="3" fill="#FF8A65"/>
-    <text x="210" y="48" font-family="Arial,sans-serif" font-size="8" fill="#333">~18%</text>
-    <text x="15" y="60" font-family="Arial,sans-serif" font-size="8" fill="#666">Трудоспособный возраст</text>
-    <rect x="15" y="63" width="200" height="12" rx="3" fill="#EEEEEE"/>
-    <rect x="15" y="63" width="120" height="12" rx="3" fill="#26A69A"/>
-    <text x="210" y="73" font-family="Arial,sans-serif" font-size="8" fill="#333">~57%</text>
-    <text x="15" y="85" font-family="Arial,sans-serif" font-size="8" fill="#666">Старше трудоспособного</text>
-    <rect x="15" y="88" width="200" height="12" rx="3" fill="#EEEEEE"/>
-    <rect x="15" y="88" width="50" height="12" rx="3" fill="#BDBDBD"/>
-    <text x="210" y="98" font-family="Arial,sans-serif" font-size="8" fill="#333">~25%</text>
-    <text x="115" y="117" font-family="Arial,sans-serif" font-size="7" fill="#00796B" text-anchor="middle">Проблема: старение населения, дефицит кадров</text>
-  </g>
-  <!-- Key points -->
-  <rect x="15" y="230" width="470" height="110" rx="6" fill="#E0F2F1" stroke="#26A69A" stroke-width="1"/>
-  <text x="25" y="248" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#26A69A">КЛЮЧЕВЫЕ ТЕНДЕНЦИИ:</text>
-  <text x="25" y="264" font-family="Arial,sans-serif" font-size="9" fill="#333">• Основной миграционный поток: из стран СНГ (Узбекистан, Таджикистан, Киргизия)</text>
-  <text x="25" y="278" font-family="Arial,sans-serif" font-size="9" fill="#333">• Внутренняя миграция: восток и север → центр и юг (" western drift ")</text>
-  <text x="25" y="292" font-family="Arial,sans-serif" font-size="9" fill="#333">• Утечка мозгов: выезд высококвалифицированных специалистов за рубеж</text>
-  <text x="25" y="306" font-family="Arial,sans-serif" font-size="9" fill="#333">• Трудовые ресурсы — население в трудоспособном возрасте (16–60/65 лет)</text>
-  <text x="25" y="320" font-family="Arial,sans-serif" font-size="9" fill="#333">• Занятость: ~72 млн чел. в экономике, безработица ~3,5%</text>
+  <text x="250" y="345" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#666" opacity="0.5">Урбанизация</text>
 </svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fce4ec"/>
+      <stop offset="100%" style="stop-color:#f3e5f5"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <text x="200" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#7b1fa2" text-anchor="middle">Скороговорки для Р и Л</text>
+  
+  <!-- Motorboat sound R -->
+  <rect x="30" y="50" width="150" height="110" fill="#ffccbc" stroke="#ff5722" stroke-width="2" rx="10"/>
+  <text x="105" y="75" font-family="Arial" font-size="14" font-weight="bold" fill="#d84315" text-anchor="middle">[Р] — Рычит</text>
+  <circle cx="105" cy="115" r="30" fill="#ff8a65">
+    <animate attributeName="r" values="30;33;30" dur="0.3s" repeatCount="indefinite"/>
+  </circle>
+  <text x="105" y="120" font-family="Arial" font-size="20" text-anchor="middle">🦁</text>
+  <text x="105" y="150" font-family="Arial" font-size="11" fill="#bf360c" text-anchor="middle">Р-Р-Р-Р-Р!</text>
+  
+  <!-- Bell sound L -->
+  <rect x="220" y="50" width="150" height="110" fill="#c5cae9" stroke="#3f51b5" stroke-width="2" rx="10"/>
+  <text x="295" y="75" font-family="Arial" font-size="14" font-weight="bold" fill="#283593" text-anchor="middle">[Л] — Ласковый</text>
+  <ellipse cx="295" cy="110" rx="25" ry="30" fill="#7986cb">
+    <animate attributeName="ry" values="30;33;30" dur="1s" repeatCount="indefinite"/>
+  </ellipse>
+  <text x="295" y="118" font-family="Arial" font-size="18" text-anchor="middle">🔔</text>
+  <text x="295" y="150" font-family="Arial" font-size="11" fill="#1a237e" text-anchor="middle">Л-Л-Л-Л-Л!</text>
+  
+  <!-- Tongue position -->
+  <rect x="30" y="175" width="170" height="80" fill="white" stroke="#9c27b0" stroke-width="1" rx="5"/>
+  <text x="115" y="195" font-family="Arial" font-size="11" font-weight="bold" fill="#7b1fa2" text-anchor="middle">Положение языка</text>
+  <text x="50" y="215" font-family="Arial" font-size="10" fill="#d32f2f">[Р]: дрожит за зубами</text>
+  <text x="50" y="235" font-family="Arial" font-size="10" fill="#3f51b5">[Л]: касается нёба</text>
+  
+  <!-- Tongue twisters -->
+  <rect x="210" y="175" width="170" height="80" fill="white" stroke="#ffc107" stroke-width="1" rx="5"/>
+  <text x="295" y="195" font-family="Arial" font-size="10" fill="#f57f17" text-anchor="middle">🌲 "На дворе трава, на траве дрова"</text>
+  <text x="295" y="215" font-family="Arial" font-size="10" fill="#f57f17" text-anchor="middle">⛵ "Корабли лавировали"</text>
+  <text x="295" y="235" font-family="Arial" font-size="10" fill="#f57f17" text-anchor="middle">🦁 "Лев лил лимонад"</text>
+  
+  <text x="200" y="280" font-family="Arial" font-size="11" fill="#5d4037" text-anchor="middle">Тренируй Р и Л каждый день!</text>
+</svg>

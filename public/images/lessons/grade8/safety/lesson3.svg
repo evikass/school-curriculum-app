@@ -1,37 +1,127 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
+    <linearGradient id="bg3s" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbe9e7"/>
+      <stop offset="100%" stop-color="#ffccbc"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#BF360C"/>
-      <stop offset="100%" stop-color="#E65100"/>
-    </linearGradient>
+    <radialGradient id="fire3s" cx="0.5" cy="0.8">
+      <stop offset="0%" stop-color="#ffeb3b"/>
+      <stop offset="40%" stop-color="#ff9800"/>
+      <stop offset="100%" stop-color="#e65100"/>
+    </radialGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#E65100" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#E65100" stroke-width="1" opacity="0.3"/>
-  <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#E65100" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#E65100" text-anchor="middle">Причины пожаров и их профилактика</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">ОБЖ - Урок 3</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#E65100" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#E65100" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA -->
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FFF3E0"/><text x="250" y="130" font-family="Arial,sans-serif" font-size="20" fill="#E65100" text-anchor="middle" font-weight="bold">Причины пожаров и их профилактика</text><rect x="25" y="155" width="140" height="45" rx="5" fill="#E3F2FD" stroke="#E65100" stroke-width="1.5"/><text x="95" y="182" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">Электротехнические прич...</text><rect x="170" y="155" width="140" height="45" rx="5" fill="#FFF3E0" stroke="#BF360C" stroke-width="1.5"/><text x="240" y="182" font-family="Arial" font-size="12" fill="#BF360C" text-anchor="middle">Правила пожарной безопа...</text><rect x="315" y="155" width="140" height="45" rx="5" fill="#FFFDE7" stroke="#F9A825" stroke-width="1.5"/><text x="385" y="182" font-family="Arial" font-size="12" fill="#F9A825" text-anchor="middle">Пожар</text><rect x="25" y="210" width="140" height="45" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/><text x="95" y="238" font-family="Arial" font-size="12" fill="#2E7D32" text-anchor="middle">Причины пожаров в быту:</text><rect x="170" y="210" width="140" height="45" rx="5" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="1.5"/><text x="240" y="238" font-family="Arial" font-size="12" fill="#6A1B9A" text-anchor="middle">Неосторожное обращение ...</text><rect x="315" y="210" width="140" height="45" rx="5" fill="#FFEBEE" stroke="#E65100" stroke-width="1.5"/><text x="385" y="238" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">Нарушение правил эксплу...</text>
-  <polygon points="50,270 60,285 40,285" fill="#E65100" opacity="0.12"/>
+  <rect width="500" height="350" fill="url(#bg3s)"/>
+  
+  <!-- Bad wiring (top-left) -->
+  <g transform="translate(80,70)">
+    <!-- Wall outlet -->
+    <rect x="-25" y="-20" width="50" height="40" rx="3" fill="#f5f5f5" stroke="#bbb" stroke-width="2"/>
+    <!-- Socket holes -->
+    <rect x="-10" y="-8" width="5" height="8" rx="1" fill="#333"/>
+    <rect x="5" y="-8" width="5" height="8" rx="1" fill="#333"/>
+    <circle cx="0" cy="10" r="3" fill="#333"/>
+    <!-- Frayed wire -->
+    <path d="M25,0 Q35,0 40,5 Q45,10 40,15 Q35,20 40,25" stroke="#333" stroke-width="3" fill="none"/>
+    <!-- Exposed copper -->
+    <path d="M40,15 L48,12 M40,15 L50,15 M40,15 L48,18" stroke="#ff8a65" stroke-width="1.5"/>
+    <!-- Spark -->
+    <line x1="48" y1="12" x2="55" y2="8" stroke="#ff0" stroke-width="1.5"/>
+    <line x1="50" y1="15" x2="58" y2="15" stroke="#ff0" stroke-width="1.5"/>
+    <line x1="48" y1="18" x2="55" y2="22" stroke="#ff0" stroke-width="1.5"/>
+    <!-- Warning -->
+    <polygon points="0,-32 -6,-25 6,-25" fill="#f44336"/>
+    <text x="0" y="-27" text-anchor="middle" font-size="6" fill="#fff" font-weight="bold">!</text>
+    <text x="0" y="35" text-anchor="middle" font-size="7" fill="#c62828" font-family="Arial">Повреждённая проводка</text>
   </g>
-  <!-- Bottom panel -->
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">ОБЖ</text>
+  
+  <!-- Stove left on (top-right) -->
+  <g transform="translate(250,65)">
+    <!-- Stove top -->
+    <rect x="-45" y="-15" width="90" height="55" rx="4" fill="#424242"/>
+    <!-- Burners -->
+    <circle cx="-20" cy="10" r="15" fill="none" stroke="#666" stroke-width="2"/>
+    <circle cx="20" cy="10" r="15" fill="none" stroke="#666" stroke-width="2"/>
+    <!-- Active burner glow -->
+    <circle cx="-20" cy="10" r="12" fill="url(#fire3s)" opacity="0.6"/>
+    <circle cx="-20" cy="10" r="8" fill="#ff5722" opacity="0.4"/>
+    <!-- Pot on active burner -->
+    <rect x="-32" y="-5" width="24" height="16" rx="2" fill="#78909c"/>
+    <rect x="-34" y="-7" width="28" height="4" rx="1" fill="#90a4ae"/>
+    <!-- Steam -->
+    <path d="M-20,-10 Q-22,-18 -18,-22" stroke="#bbb" stroke-width="1.5" fill="none" opacity="0.5"/>
+    <path d="M-16,-10 Q-14,-20 -18,-25" stroke="#bbb" stroke-width="1.5" fill="none" opacity="0.4"/>
+    <!-- Knob positions -->
+    <circle cx="-20" cy="48" r="4" fill="#333"/>
+    <line x1="-20" y1="44" x2="-20" y2="46" stroke="#f44336" stroke-width="1.5"/>
+    <circle cx="0" cy="48" r="4" fill="#333"/>
+    <circle cx="20" cy="48" r="4" fill="#333"/>
+    <text x="0" y="65" text-anchor="middle" font-size="7" fill="#c62828" font-family="Arial">Оставленная плита</text>
+  </g>
+  
+  <!-- Candles (center-right) -->
+  <g transform="translate(400,80)">
+    <!-- Candle 1 -->
+    <rect x="-25" y="0" width="8" height="25" rx="1" fill="#fff9c4" stroke="#f9a825" stroke-width="0.5"/>
+    <path d="M-21,0 Q-21,-8 -21,-10" stroke="#8d6e63" stroke-width="1"/>
+    <!-- Flame -->
+    <path d="M-21,-10 Q-25,-20 -21,-28 Q-17,-20 -21,-10 Z" fill="url(#fire3s)"/>
+    <path d="M-21,-12 Q-23,-18 -21,-22 Q-19,-18 -21,-12 Z" fill="#fff9c4" opacity="0.7"/>
+    <!-- Candle 2 -->
+    <rect x="-5" y="5" width="8" height="20" rx="1" fill="#e1bee7" stroke="#9c27b0" stroke-width="0.5"/>
+    <path d="M-1,5 Q-1,-2 -1,-5" stroke="#8d6e63" stroke-width="1"/>
+    <!-- Flame -->
+    <path d="M-1,-5 Q-5,-15 -1,-23 Q3,-15 -1,-5 Z" fill="url(#fire3s)"/>
+    <path d="M-1,-7 Q-3,-13 -1,-17 Q1,-13 -1,-7 Z" fill="#fff9c4" opacity="0.7"/>
+    <!-- Candle 3 (tipped) -->
+    <g transform="rotate(30,-30,25)">
+      <rect x="-30" y="5" width="8" height="22" rx="1" fill="#bbdefb" stroke="#1976d2" stroke-width="0.5"/>
+      <path d="M-26,5 Q-26,-3 -26,-5" stroke="#8d6e63" stroke-width="1"/>
+      <path d="M-26,-5 Q-30,-15 -26,-23 Q-22,-15 -26,-5 Z" fill="url(#fire3s)"/>
+    </g>
+    <!-- Curtain nearby (fire hazard) -->
+    <path d="M20,-20 Q22,0 18,30 Q15,35 20,40" stroke="#7b1fa2" stroke-width="6" fill="none" opacity="0.5"/>
+    <text x="-5" y="42" text-anchor="middle" font-size="7" fill="#c62828" font-family="Arial">Свечи</text>
+  </g>
+  
+  <!-- Fire extinguisher (bottom-left) -->
+  <g transform="translate(90,240)">
+    <!-- Body -->
+    <rect x="-15" y="-25" width="30" height="50" rx="8" fill="#e53935"/>
+    <rect x="-15" y="-25" width="30" height="50" rx="8" fill="none" stroke="#c62828" stroke-width="1.5"/>
+    <!-- Label -->
+    <rect x="-10" y="-10" width="20" height="25" rx="2" fill="#fff" opacity="0.9"/>
+    <text x="0" y="-2" text-anchor="middle" font-size="5" fill="#e53935" font-family="Arial">ОГНЕТУ-</text>
+    <text x="0" y="4" text-anchor="middle" font-size="5" fill="#e53935" font-family="Arial">ШИТЕЛЬ</text>
+    <!-- Pressure gauge -->
+    <circle cx="0" cy="-18" r="5" fill="#fff" stroke="#999" stroke-width="0.5"/>
+    <line x1="0" y1="-18" x2="3" y2="-20" stroke="#4caf50" stroke-width="1"/>
+    <!-- Handle -->
+    <rect x="-8" y="-32" width="16" height="5" rx="2" fill="#333"/>
+    <!-- Nozzle/hose -->
+    <path d="M8,-30 Q20,-35 25,-25" stroke="#333" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M25,-25 L30,-22" stroke="#333" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Pin -->
+    <line x1="-4" y1="-30" x2="-8" y2="-36" stroke="#ffd54f" stroke-width="2"/>
+    <circle cx="-8" cy="-38" r="2" fill="#ffd54f"/>
+    <text x="0" y="38" text-anchor="middle" font-size="7" fill="#2e7d32" font-family="Arial">Огнетушитель</text>
+  </g>
+  
+  <!-- Fire statistics / causes chart (bottom-right) -->
+  <g transform="translate(320,250)">
+    <rect x="-80" y="-50" width="160" height="80" rx="5" fill="white" opacity="0.8" stroke="#ccc" stroke-width="1"/>
+    <text x="0" y="-38" text-anchor="middle" font-size="7" fill="#333" font-weight="bold" font-family="Arial">Причины пожаров</text>
+    <!-- Simple bar chart -->
+    <rect x="-65" y="-28" width="20" height="25" rx="1" fill="#e53935"/>
+    <text x="-55" y="2" text-anchor="middle" font-size="5" fill="#333" font-family="Arial">Электрика</text>
+    <rect x="-38" y="-20" width="20" height="17" rx="1" fill="#ff9800"/>
+    <text x="-28" y="2" text-anchor="middle" font-size="5" fill="#333" font-family="Arial">Плита</text>
+    <rect x="-11" y="-32" width="20" height="29" rx="1" fill="#f44336"/>
+    <text x="-1" y="2" text-anchor="middle" font-size="5" fill="#333" font-family="Arial">Неосторожность</text>
+    <rect x="16" y="-24" width="20" height="21" rx="1" fill="#ff5722"/>
+    <text x="26" y="2" text-anchor="middle" font-size="5" fill="#333" font-family="Arial">Свечи</text>
+    <rect x="43" y="-16" width="20" height="13" rx="1" fill="#ff8a65"/>
+    <text x="53" y="2" text-anchor="middle" font-size="5" fill="#333" font-family="Arial">Другое</text>
+  </g>
+  
+  <text x="250" y="342" text-anchor="middle" font-size="9" opacity="0.5" fill="#333" font-family="Arial, sans-serif">Причины пожаров и их профилактика</text>
 </svg>

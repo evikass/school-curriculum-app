@@ -1,34 +1,79 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
 <defs>
-  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" style="stop-color:#8E24AA"/>
-    <stop offset="100%" style="stop-color:#CE93D8"/>
-  </linearGradient>
-  <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
-    <stop offset="0%" style="stop-color:rgba(255,255,255,0.95)"/>
-    <stop offset="100%" style="stop-color:rgba(255,255,255,0.85)"/>
-  </linearGradient>
-</defs>
-<rect width="500" height="350" fill="url(#bg)"/>
-<circle cx="50" cy="30" r="40" fill="white" opacity="0.08"/>
-<circle cx="160" cy="150" r="40" fill="white" opacity="0.08"/>
-<circle cx="270" cy="270" r="40" fill="white" opacity="0.08"/>
-<circle cx="380" cy="30" r="40" fill="white" opacity="0.08"/>
-<circle cx="490" cy="150" r="40" fill="white" opacity="0.08"/>
-<rect x="20" y="50" width="460" height="270" rx="16" fill="url(#card)" opacity="0.92"/>
-<rect x="30" y="60" width="auto" height="24" rx="12" fill="#8E24AA" opacity="0.9"/>
-<rect x="30" y="60" width="220" height="24" rx="12" fill="#8E24AA" opacity="0.9"/>
-<text x="140" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="white" font-weight="bold">Изобразительное искусство</text>
-<text x="470" y="77" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#8E24AA" font-weight="bold">Урок 1</text>
-<text x="40" y="105" font-family="Arial,sans-serif" font-size="18" fill="#1a1a1a" font-weight="bold">Жанры живописи</text>
-<line x1="40" y1="115" x2="460" y2="115" stroke="#E1BEE7" stroke-width="2"/>
-<text x="40" y="135" font-family="Arial,sans-serif" font-size="13" fill="#444">Основные жанры изобразительного искусства.</text>
-<rect x="40" y="155" width="420" height="30" rx="6" fill="#8E24AA" opacity="0.08"/>
-<text x="50" y="175" font-family="Arial,sans-serif" font-size="11" fill="#444">️ Слово «пейзаж» от французского «страна, местност...</text>
-<rect x="40" y="191" width="420" height="30" rx="6" fill="#8E24AA" opacity="0.08"/>
-<text x="50" y="211" font-family="Arial,sans-serif" font-size="11" fill="#444">️ Левитан — мастер «пейзажа настроения»</text>
-<rect x="40" y="227" width="420" height="30" rx="6" fill="#8E24AA" opacity="0.08"/>
-<text x="50" y="247" font-family="Arial,sans-serif" font-size="11" fill="#444">️ Шишкина называли «лесным богатырём»</text>
-<circle cx="460" cy="310" r="25" fill="#8E24AA" opacity="0.15"/>
-<circle cx="460" cy="310" r="15" fill="#8E24AA" opacity="0.1"/>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F3E5F5"/>
+      <stop offset="100%" stop-color="#E1BEE7"/>
+    </linearGradient>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#E0F7FA"/>
+    </linearGradient>
+    <linearGradient id="groundGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#81C784"/>
+      <stop offset="100%" stop-color="#4CAF50"/>
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#42A5F5"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+    <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF9C4"/>
+      <stop offset="60%" stop-color="#FDD835"/>
+      <stop offset="100%" stop-color="#F9A825"/>
+    </radialGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="3" stdDeviation="5" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  <g transform="translate(40,25)" filter="url(#softShadow)">
+    <rect width="420" height="290" rx="12" fill="white" opacity="0.94"/>
+    <rect width="420" height="32" rx="12" fill="#6A1B9A" opacity="0.9"/>
+    <rect y="24" width="420" height="8" fill="#6A1B9A" opacity="0.9"/>
+    <text x="210" y="22" font-family="Arial" font-size="12" fill="white" text-anchor="middle" font-weight="bold">ЖАНРЫ ЖИВОПИСИ</text>
+    <g transform="translate(15,45)">
+      <rect width="130" height="120" rx="8" fill="#FFF3E0" stroke="#FF9800" stroke-width="1.5"/>
+      <text x="65" y="16" font-family="Arial" font-size="8" fill="#E65100" text-anchor="middle" font-weight="bold">НАТЮРМОРТ</text>
+      <rect x="20" y="25" width="90" height="65" rx="2" fill="#FFFDE7" stroke="#E65100" stroke-width="1"/>
+      <path d="M35,55 Q45,45 55,55 Q65,45 75,55" fill="#E91E63" opacity="0.3"/>
+      <circle cx="45" cy="50" r="8" fill="#F44336" opacity="0.4"/>
+      <circle cx="65" cy="48" r="7" fill="#FF9800" opacity="0.4"/>
+      <rect x="30" y="65" width="50" height="15" rx="2" fill="#8D6E63" opacity="0.3"/>
+      <text x="65" y="108" font-family="Arial" font-size="7" fill="#555" text-anchor="middle">Изображение предметов</text>
+    </g>
+    <g transform="translate(155,45)">
+      <rect width="130" height="120" rx="8" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
+      <text x="65" y="16" font-family="Arial" font-size="8" fill="#1565C0" text-anchor="middle" font-weight="bold">ПЕЙЗАЖ</text>
+      <rect x="20" y="25" width="90" height="65" rx="2" fill="#E8F5E9" stroke="#1565C0" stroke-width="1"/>
+      <path d="M20,75 Q40,45 60,60 Q80,40 110,75" fill="#4CAF50" opacity="0.3"/>
+      <circle cx="90" cy="38" r="8" fill="#FDD835" opacity="0.5"/>
+      <path d="M20,75 L110,75 L110,90 L20,90 Z" fill="#81C784" opacity="0.3"/>
+      <text x="65" y="108" font-family="Arial" font-size="7" fill="#555" text-anchor="middle">Изображение природы</text>
+    </g>
+    <g transform="translate(295,45)">
+      <rect width="110" height="120" rx="8" fill="#FCE4EC" stroke="#E91E63" stroke-width="1.5"/>
+      <text x="55" y="16" font-family="Arial" font-size="8" fill="#AD1457" text-anchor="middle" font-weight="bold">ПОРТРЕТ</text>
+      <rect x="20" y="25" width="70" height="65" rx="2" fill="#FFF3E0" stroke="#E91E63" stroke-width="1"/>
+      <circle cx="55" cy="45" r="12" fill="#FFCCBC" opacity="0.5"/>
+      <path d="M40,65 Q55,58 70,65" fill="#E91E63" opacity="0.15"/>
+      <text x="55" y="108" font-family="Arial" font-size="7" fill="#555" text-anchor="middle">Изображение людей</text>
+    </g>
+    <g transform="translate(15,180)">
+      <rect width="390" height="90" rx="8" fill="white" stroke="#6A1B9A" stroke-width="1"/>
+      <rect width="390" height="22" rx="8" fill="#6A1B9A" opacity="0.85"/>
+      <rect y="16" width="390" height="6" fill="#6A1B9A" opacity="0.85"/>
+      <text x="195" y="16" font-family="Arial" font-size="9" fill="white" text-anchor="middle" font-weight="bold">ДРУГИЕ ЖАНРЫ</text>
+      <text x="195" y="48" font-family="Arial" font-size="10" fill="#555" text-anchor="middle">Анималистический • Исторический • Батальный • Бытовой</text>
+      <text x="195" y="70" font-family="Arial" font-size="9" fill="#6A1B9A" text-anchor="middle">Каждый жанр рассказывает свою историю через краски</text>
+    </g>
+  </g>
+  <rect x="0" y="318" width="500" height="32" rx="0" fill="#6A1B9A" opacity="0.9"/>
+  <text x="250" y="339" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Жанры живописи</text>
 </svg>

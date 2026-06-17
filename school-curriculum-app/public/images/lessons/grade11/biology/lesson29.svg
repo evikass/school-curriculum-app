@@ -1,0 +1,237 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" font-family="Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg29" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+    <marker id="arrow29" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#5D4037"/>
+    </marker>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg29)" rx="8"/>
+  
+  <!-- Title -->
+  <text x="250" y="22" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Агроценозы и сукцессия</text>
+
+  <!-- Left side: Агроценоз vs Естественный биоценоз -->
+  <rect x="10" y="34" width="230" height="155" rx="6" fill="white" fill-opacity="0.5" stroke="#E65100" stroke-width="1"/>
+  
+  <!-- Агроценоз -->
+  <rect x="10" y="34" width="110" height="155" rx="6" fill="#FFF8E1" stroke="#FF8F00" stroke-width="1"/>
+  <text x="65" y="50" font-size="8" font-weight="bold" fill="#E65100" text-anchor="middle">Агроценоз</text>
+  
+  <!-- Wheat field -->
+  <rect x="18" y="58" width="94" height="45" fill="#FDD835" rx="2"/>
+  <!-- Wheat stalks -->
+  <g stroke="#8D6E63" stroke-width="1" fill="none">
+    <line x1="25" y1="100" x2="25" y2="65"/><line x1="35" y1="100" x2="35" y2="65"/>
+    <line x1="45" y1="100" x2="45" y2="65"/><line x1="55" y1="100" x2="55" y2="65"/>
+    <line x1="65" y1="100" x2="65" y2="65"/><line x1="75" y1="100" x2="75" y2="65"/>
+    <line x1="85" y1="100" x2="85" y2="65"/><line x1="95" y1="100" x2="95" y2="65"/>
+  </g>
+  <!-- Wheat heads -->
+  <g fill="#F9A825">
+    <ellipse cx="25" cy="63" rx="3" ry="5"/><ellipse cx="35" cy="63" rx="3" ry="5"/>
+    <ellipse cx="45" cy="63" rx="3" ry="5"/><ellipse cx="55" cy="63" rx="3" ry="5"/>
+    <ellipse cx="65" cy="63" rx="3" ry="5"/><ellipse cx="75" cy="63" rx="3" ry="5"/>
+    <ellipse cx="85" cy="63" rx="3" ry="5"/><ellipse cx="95" cy="63" rx="3" ry="5"/>
+  </g>
+  
+  <!-- Tractor -->
+  <g transform="translate(35,108)">
+    <rect x="0" y="0" width="22" height="12" rx="2" fill="#F44336"/>
+    <rect x="18" y="-5" width="8" height="10" rx="1" fill="#F44336"/>
+    <circle cx="8" cy="15" r="5" fill="#3E2723"/>
+    <circle cx="20" cy="15" r="4" fill="#3E2723"/>
+    <circle cx="8" cy="15" r="2" fill="#5D4037"/>
+    <circle cx="20" cy="15" r="2" fill="#5D4037"/>
+  </g>
+  
+  <!-- Simple food chain -->
+  <text x="65" y="140" font-size="5.5" fill="#BF360C" text-anchor="middle" font-weight="bold">Простая цепь:</text>
+  <text x="65" y="150" font-size="5" fill="#BF360C" text-anchor="middle">Пшеница → Мышь → Сова</text>
+  <text x="65" y="162" font-size="5" fill="#BF360C" text-anchor="middle">1 вид растений</text>
+  <text x="65" y="172" font-size="5" fill="#BF360C" text-anchor="middle">Низкое разнообразие</text>
+  <text x="65" y="182" font-size="5" fill="#BF360C" text-anchor="middle">Неустойчивая</text>
+
+  <!-- Естественный биоценоз -->
+  <rect x="130" y="34" width="110" height="155" rx="6" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
+  <text x="185" y="50" font-size="7" font-weight="bold" fill="#1B5E20" text-anchor="middle">Естественный</text>
+  <text x="185" y="59" font-size="7" font-weight="bold" fill="#1B5E20" text-anchor="middle">биоценоз</text>
+  
+  <!-- Diverse forest -->
+  <rect x="138" y="65" width="94" height="55" fill="#A5D6A7" rx="2"/>
+  <!-- Trees -->
+  <rect x="148" y="80" width="4" height="35" fill="#5D4037"/>
+  <ellipse cx="150" cy="76" rx="10" ry="10" fill="#2E7D32"/>
+  <rect x="170" y="70" width="5" height="45" fill="#5D4037"/>
+  <ellipse cx="172" cy="66" rx="12" ry="11" fill="#388E3C"/>
+  <rect x="195" y="75" width="4" height="40" fill="#5D4037"/>
+  <ellipse cx="197" cy="72" rx="9" ry="9" fill="#2E7D32"/>
+  <!-- Bushes -->
+  <ellipse cx="145" cy="110" rx="8" ry="5" fill="#4CAF50"/>
+  <ellipse cx="185" cy="108" rx="7" ry="4" fill="#66BB6A"/>
+  <ellipse cx="215" cy="110" rx="6" ry="4" fill="#4CAF50"/>
+  <!-- Flowers -->
+  <circle cx="155" cy="114" r="2" fill="#FF8A65"/><circle cx="200" cy="115" r="1.5" fill="#CE93D8"/>
+  <!-- Animals -->
+  <g transform="translate(148,112)">
+    <ellipse cx="0" cy="0" rx="3" ry="2" fill="#8D6E63"/><!-- rabbit -->
+  </g>
+  <g transform="translate(210,112)">
+    <path d="M0,0 Q2,-3 4,0" fill="none" stroke="#1A237E" stroke-width="0.8"/><!-- bird -->
+  </g>
+  <!-- Mushroom -->
+  <g transform="translate(190,115)">
+    <rect x="0" y="2" width="2" height="4" fill="#EFEBE9"/>
+    <ellipse cx="1" cy="2" rx="4" ry="2" fill="#FF8A65"/>
+  </g>
+  
+  <!-- Complex food web -->
+  <text x="185" y="140" font-size="5.5" fill="#1B5E20" text-anchor="middle" font-weight="bold">Сложная сеть:</text>
+  <text x="185" y="150" font-size="5" fill="#1B5E20" text-anchor="middle">Дуб→Гусеница→Синица→Ястреб</text>
+  <text x="185" y="162" font-size="5" fill="#1B5E20" text-anchor="middle">100+ видов растений</text>
+  <text x="185" y="172" font-size="5" fill="#1B5E20" text-anchor="middle">Высокое разнообразие</text>
+  <text x="185" y="182" font-size="5" fill="#1B5E20" text-anchor="middle">Саморегуляция</text>
+
+  <!-- Comparison arrows -->
+  <text x="120" y="110" font-size="8" fill="#795548" text-anchor="middle">VS</text>
+
+  <!-- Right side: Сукцессия -->
+  <rect x="248" y="34" width="244" height="155" rx="6" fill="white" fill-opacity="0.5" stroke="#5D4037" stroke-width="1"/>
+  <text x="370" y="50" font-size="9" font-weight="bold" fill="#3E2723" text-anchor="middle">Первичная сукцессия</text>
+
+  <!-- Succession timeline - arrow -->
+  <line x1="260" y1="145" x2="478" y2="145" stroke="#5D4037" stroke-width="2" marker-end="url(#arrow29)"/>
+  <text x="370" y="158" font-size="6" fill="#5D4037" text-anchor="middle">Время →</text>
+
+  <!-- Stage 1: Bare rock -->
+  <g transform="translate(260,60)">
+    <rect x="0" y="70" width="32" height="30" rx="2" fill="#9E9E9E" stroke="#616161" stroke-width="0.8"/>
+    <rect x="5" y="75" width="10" height="8" fill="#757575"/>
+    <rect x="18" y="78" width="8" height="6" fill="#757575"/>
+    <text x="16" y="65" font-size="5" fill="#424242" text-anchor="middle" font-weight="bold">Голая</text>
+    <text x="16" y="72" font-size="5" fill="#424242" text-anchor="middle" font-weight="bold">скала</text>
+  </g>
+
+  <!-- Arrow -->
+  <path d="M295,100 L305,100" fill="none" stroke="#5D4037" stroke-width="1" marker-end="url(#arrow29)"/>
+
+  <!-- Stage 2: Lichens -->
+  <g transform="translate(310,60)">
+    <rect x="0" y="70" width="32" height="30" rx="2" fill="#9E9E9E" stroke="#616161" stroke-width="0.8"/>
+    <!-- Lichens on rock -->
+    <ellipse cx="8" cy="72" rx="6" ry="3" fill="#C5E1A5"/>
+    <ellipse cx="22" cy="75" rx="5" ry="3" fill="#DCEDC8"/>
+    <ellipse cx="14" cy="78" rx="4" ry="2" fill="#C5E1A5"/>
+    <text x="16" y="65" font-size="5" fill="#558B2F" text-anchor="middle" font-weight="bold">Лишайники</text>
+    <text x="16" y="72" font-size="4" fill="#558B2F" text-anchor="middle"> </text>
+  </g>
+
+  <!-- Arrow -->
+  <path d="M345,100 L355,100" fill="none" stroke="#5D4037" stroke-width="1" marker-end="url(#arrow29)"/>
+
+  <!-- Stage 3: Mosses -->
+  <g transform="translate(360,60)">
+    <rect x="0" y="70" width="32" height="30" rx="2" fill="#A1887F" stroke="#616161" stroke-width="0.8"/>
+    <!-- Moss -->
+    <ellipse cx="8" cy="68" rx="8" ry="5" fill="#66BB6A"/>
+    <ellipse cx="22" cy="70" rx="7" ry="4" fill="#81C784"/>
+    <ellipse cx="14" cy="66" rx="6" ry="4" fill="#4CAF50"/>
+    <text x="16" y="60" font-size="5" fill="#2E7D32" text-anchor="middle" font-weight="bold">Мхи</text>
+  </g>
+
+  <!-- Arrow -->
+  <path d="M395,100 L405,100" fill="none" stroke="#5D4037" stroke-width="1" marker-end="url(#arrow29)"/>
+
+  <!-- Stage 4: Grasses -->
+  <g transform="translate(410,58)">
+    <rect x="0" y="72" width="32" height="28" rx="2" fill="#8D6E63"/>
+    <!-- Grass -->
+    <g stroke="#43A047" stroke-width="1.2" fill="none">
+      <path d="M5,72 Q3,60 7,52"/><path d="M10,72 Q12,62 8,55"/>
+      <path d="M18,72 Q16,62 20,54"/><path d="M23,72 Q25,63 21,56"/>
+    </g>
+    <!-- Small flowers -->
+    <circle cx="7" cy="51" r="1.5" fill="#FF8A65"/><circle cx="20" cy="53" r="1.5" fill="#CE93D8"/>
+    <text x="16" y="55" font-size="5" fill="#388E3C" text-anchor="middle" font-weight="bold">Травы</text>
+  </g>
+
+  <!-- Arrow -->
+  <path d="M445,100 L455,100" fill="none" stroke="#5D4037" stroke-width="1" marker-end="url(#arrow29)"/>
+
+  <!-- Stage 5: Shrubs + Climax -->
+  <g transform="translate(460,55)">
+    <rect x="0" y="75" width="30" height="25" rx="2" fill="#6D4C41"/>
+    <!-- Shrubs -->
+    <ellipse cx="8" cy="68" rx="8" ry="8" fill="#388E3C"/>
+    <ellipse cx="20" cy="72" rx="7" ry="6" fill="#4CAF50"/>
+    <rect x="7" y="72" width="2" height="10" fill="#5D4037"/>
+    <rect x="19" y="74" width="2" height="8" fill="#5D4037"/>
+    <text x="15" y="52" font-size="4.5" fill="#1B5E20" text-anchor="middle" font-weight="bold">Кустар-</text>
+    <text x="15" y="58" font-size="4.5" fill="#1B5E20" text-anchor="middle" font-weight="bold">ники</text>
+  </g>
+
+  <!-- Climax label -->
+  <rect x="350" y="162" width="140" height="22" rx="4" fill="#1B5E20"/>
+  <text x="420" y="177" font-size="8" fill="white" text-anchor="middle" font-weight="bold">КЛИМАКС = Лес</text>
+
+  <!-- Bottom section: Key differences and succession details -->
+  <rect x="10" y="195" width="480" height="148" rx="6" fill="white" fill-opacity="0.5" stroke="#1B5E20" stroke-width="1"/>
+  
+  <!-- Comparison table -->
+  <text x="250" y="212" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Сравнение агроценоза и естественного биоценоза</text>
+  
+  <!-- Table -->
+  <rect x="20" y="220" width="150" height="16" fill="#FF8F00" rx="2"/>
+  <text x="95" y="232" font-size="7" fill="white" text-anchor="middle" font-weight="bold">Признак</text>
+  <rect x="170" y="220" width="150" height="16" fill="#E65100" rx="2"/>
+  <text x="245" y="232" font-size="7" fill="white" text-anchor="middle" font-weight="bold">Агроценоз</text>
+  <rect x="320" y="220" width="150" height="16" fill="#2E7D32" rx="2"/>
+  <text x="395" y="232" font-size="7" fill="white" text-anchor="middle" font-weight="bold">Биоценоз</text>
+  
+  <!-- Row 1 -->
+  <rect x="20" y="236" width="150" height="14" fill="#FFF8E1" rx="1"/>
+  <text x="95" y="246" font-size="6" fill="#5D4037" text-anchor="middle">Видовое разнообразие</text>
+  <rect x="170" y="236" width="150" height="14" fill="#FFF3E0" rx="1"/>
+  <text x="245" y="246" font-size="6" fill="#BF360C" text-anchor="middle">Низкое (1-3 вида)</text>
+  <rect x="320" y="236" width="150" height="14" fill="#E8F5E9" rx="1"/>
+  <text x="395" y="246" font-size="6" fill="#1B5E20" text-anchor="middle">Высокое (сотни видов)</text>
+  
+  <!-- Row 2 -->
+  <rect x="20" y="250" width="150" height="14" fill="#FFF8E1" rx="1"/>
+  <text x="95" y="260" font-size="6" fill="#5D4037" text-anchor="middle">Пищевые цепи</text>
+  <rect x="170" y="250" width="150" height="14" fill="#FFF3E0" rx="1"/>
+  <text x="245" y="260" font-size="6" fill="#BF360C" text-anchor="middle">Короткие, простые</text>
+  <rect x="320" y="250" width="150" height="14" fill="#E8F5E9" rx="1"/>
+  <text x="395" y="260" font-size="6" fill="#1B5E20" text-anchor="middle">Длинные, разветвлённые</text>
+  
+  <!-- Row 3 -->
+  <rect x="20" y="264" width="150" height="14" fill="#FFF8E1" rx="1"/>
+  <text x="95" y="274" font-size="6" fill="#5D4037" text-anchor="middle">Саморегуляция</text>
+  <rect x="170" y="264" width="150" height="14" fill="#FFF3E0" rx="1"/>
+  <text x="245" y="274" font-size="6" fill="#BF360C" text-anchor="middle">Отсутствует (труд человека)</text>
+  <rect x="320" y="264" width="150" height="14" fill="#E8F5E9" rx="1"/>
+  <text x="395" y="274" font-size="6" fill="#1B5E20" text-anchor="middle">Выражена (динамич. равновесие)</text>
+  
+  <!-- Row 4 -->
+  <rect x="20" y="278" width="150" height="14" fill="#FFF8E1" rx="1"/>
+  <text x="95" y="288" font-size="6" fill="#5D4037" text-anchor="middle">Круговорот веществ</text>
+  <rect x="170" y="278" width="150" height="14" fill="#FFF3E0" rx="1"/>
+  <text x="245" y="288" font-size="6" fill="#BF360C" text-anchor="middle">Открытый (удобрения)</text>
+  <rect x="320" y="278" width="150" height="14" fill="#E8F5E9" rx="1"/>
+  <text x="395" y="288" font-size="6" fill="#1B5E20" text-anchor="middle">Замкнутый</text>
+  
+  <!-- Row 5 -->
+  <rect x="20" y="292" width="150" height="14" fill="#FFF8E1" rx="1"/>
+  <text x="95" y="302" font-size="6" fill="#5D4037" text-anchor="middle">Устойчивость</text>
+  <rect x="170" y="292" width="150" height="14" fill="#FFF3E0" rx="1"/>
+  <text x="245" y="302" font-size="6" fill="#BF360C" text-anchor="middle">Низкая (без человека гибнет)</text>
+  <rect x="320" y="292" width="150" height="14" fill="#E8F5E9" rx="1"/>
+  <text x="395" y="302" font-size="6" fill="#1B5E20" text-anchor="middle">Высокая (существует веками)</text>
+
+  <!-- Succession types at bottom -->
+  <rect x="20" y="312" width="460" height="26" rx="4" fill="#E3F2FD" stroke="#42A5F5" stroke-width="0.5"/>
+  <text x="250" y="323" font-size="6.5" fill="#0D47A1" text-anchor="middle" font-weight="bold">Виды сукцессии:</text>
+  <text x="250" y="333" font-size="6" fill="#1565C0" text-anchor="middle">Первичная — на безжизненном субстрате (скала, лава)  |  Вторичная — после нарушения (пожар, вырубка)</text>
+</svg>

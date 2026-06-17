@@ -1,38 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FBE9E7"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FF7043"/>
-      <stop offset="100%" stop-color="#BF360C"/>
+    <linearGradient id="feb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#667EEA"/>
+      <stop offset="100%" stop-color="#764BA2"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FF7043" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#FF7043" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#FF7043" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#BF360C" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#FF7043" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#BF360C" opacity="0.12"/>
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#FF7043" text-anchor="middle">Революция 1905-1907</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">История — Урок 2</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#FF7043" stroke-width="2" opacity="0.25"/>
-  <rect x="20" y="72" width="460" height="25" rx="4" fill="#FF7043" opacity="0.07"/>
-  <text x="250" y="89" font-family="Arial,sans-serif" font-size="12" fill="#BF360C" text-anchor="middle" font-weight="bold">Первая русская революция</text>
-  <rect x="20" y="102" width="225" height="170" rx="4" fill="#FF7043" opacity="0.05"/>
-  <text x="28" y="118" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">9 января — Кровавое воскресенье</text>
-  <text x="28" y="140" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Манифест 17 октября 1905</text>
-  <text x="28" y="162" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Создание Гос. Думы</text>
-  <rect x="255" y="102" width="225" height="170" rx="4" fill="#FF7043" opacity="0.05"/>
-  <text x="263" y="118" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Всероссийская стачка</text>
-  <text x="263" y="140" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Крестьянские восстания</text>
-  <text x="263" y="162" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Восстание на «Потёмкине»</text>
-  <rect x="20" y="278" width="225" height="22" rx="4" fill="#FF7043" opacity="0.06"/>
-  <text x="132" y="293" font-family="Arial,sans-serif" font-size="10" fill="#BF360C" text-anchor="middle" font-weight="bold">Причины: бесправие, малоземелье</text>
-  <rect x="255" y="278" width="225" height="22" rx="4" fill="#FF7043" opacity="0.06"/>
-  <text x="367" y="293" font-family="Arial,sans-serif" font-size="10" fill="#BF360C" text-anchor="middle" font-weight="bold">Итог: начало конституционализма</text>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">История · Революция 1905-1907</text>
+  <rect width="500" height="350" fill="url(#feb)"/>
+  <!-- Palace silhouette -->
+  <rect x="120" y="120" width="260" height="140" fill="#2D3748" opacity="0.7" rx="2"/>
+  <rect x="130" y="100" width="240" height="20" fill="#4A5568" opacity="0.7"/>
+  <!-- Windows -->
+  <g fill="#F6AD55" opacity="0.6">
+    <rect x="145" y="140" width="18" height="25" rx="9"/><rect x="175" y="140" width="18" height="25" rx="9"/>
+    <rect x="205" y="140" width="18" height="25" rx="9"/><rect x="235" y="140" width="18" height="25" rx="9"/>
+    <rect x="265" y="140" width="18" height="25" rx="9"/><rect x="295" y="140" width="18" height="25" rx="9"/>
+    <rect x="325" y="140" width="18" height="25" rx="9"/><rect x="355" y="140" width="18" height="25" rx="9"/>
+  </g>
+  <!-- Columns -->
+  <g fill="#4A5568" opacity="0.8">
+    <rect x="155" y="170" width="10" height="70"/><rect x="195" y="170" width="10" height="70"/>
+    <rect x="235" y="170" width="10" height="70"/><rect x="275" y="170" width="10" height="70"/>
+    <rect x="315" y="170" width="10" height="70"/><rect x="345" y="170" width="10" height="70"/>
+  </g>
+  <!-- Crowd -->
+  <g fill="#1A202C" opacity="0.6">
+    <circle cx="100" cy="280" r="6"/><circle cx="120" cy="275" r="6"/><circle cx="140" cy="282" r="6"/>
+    <circle cx="160" cy="278" r="6"/><circle cx="180" cy="283" r="6"/><circle cx="200" cy="276" r="6"/>
+    <circle cx="220" cy="280" r="6"/><circle cx="240" cy="275" r="6"/><circle cx="260" cy="282" r="6"/>
+    <circle cx="280" cy="277" r="6"/><circle cx="300" cy="283" r="6"/><circle cx="320" cy="278" r="6"/>
+    <circle cx="340" cy="282" r="6"/><circle cx="360" cy="275" r="6"/><circle cx="380" cy="280" r="6"/>
+    <circle cx="400" cy="277" r="6"/><circle cx="420" cy="282" r="6"/>
+  </g>
+  <!-- Raised fists / banners -->
+  <g stroke="#F6E05E" stroke-width="2" opacity="0.8">
+    <line x1="150" y1="260" x2="145" y2="240"/>
+    <line x1="220" y1="258" x2="218" y2="235"/>
+    <line x1="300" y1="260" x2="305" y2="238"/>
+    <line x1="370" y1="258" x2="375" y2="240"/>
+  </g>
+  <rect x="138" y="225" width="15" height="12" fill="#E53E3E" opacity="0.7"/>
+  <rect x="211" y="220" width="15" height="12" fill="#E53E3E" opacity="0.7"/>
+  <rect x="298" y="223" width="15" height="12" fill="#E53E3E" opacity="0.7"/>
+  <!-- Snow flakes -->
+  <g fill="#E2E8F0" opacity="0.4">
+    <circle cx="50" cy="60" r="2"/><circle cx="120" cy="40" r="2"/><circle cx="200" cy="55" r="2"/>
+    <circle cx="300" cy="45" r="2"/><circle cx="400" cy="60" r="2"/><circle cx="450" cy="35" r="2"/>
+    <circle cx="80" cy="80" r="1.5"/><circle cx="170" cy="70" r="1.5"/><circle cx="350" cy="75" r="1.5"/>
+    <circle cx="440" cy="85" r="1.5"/><circle cx="250" cy="65" r="1.5"/>
+  </g>
+  <text x="250" y="310" text-anchor="middle" font-size="22" fill="#E2E8F0" font-weight="bold" opacity="0.6">Февраль 1917</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#E2E8F0" opacity="0.5">Февральская революция</text>
 </svg>

@@ -1,57 +1,54 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF3E0"/><stop offset="100%" stop-color="#FFE0B2"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#E65100" stroke-width="3"/>
-<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#E65100" stroke-width="1" opacity="0.3"/>
-<polygon points="10,10 30,10 10,30" fill="#E65100" opacity="0.08"/>
-<polygon points="490,10 470,10 490,30" fill="#F57C00" opacity="0.08"/>
-<polygon points="10,340 30,340 10,320" fill="#FF9800" opacity="0.08"/>
-<polygon points="490,340 470,340 490,320" fill="#FFB74D" opacity="0.08"/>
-<circle cx="70" cy="15" r="4" fill="#E65100" opacity="0.1"/>
-<circle cx="82" cy="15" r="4" fill="#F57C00" opacity="0.1"/>
-<circle cx="94" cy="15" r="4" fill="#FF9800" opacity="0.1"/>
-<circle cx="406" cy="15" r="4" fill="#E65100" opacity="0.1"/>
-<circle cx="418" cy="15" r="4" fill="#F57C00" opacity="0.1"/>
-<circle cx="430" cy="15" r="4" fill="#FF9800" opacity="0.1"/>
-<text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#E65100" text-anchor="middle">Начало династии Романовых</text>
-<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">История - Урок 7</text>
-<line x1="30" y1="78" x2="470" y2="78" stroke="#E65100" stroke-width="2" opacity="0.25"/>
-<rect x="30" y="75" width="60" height="6" fill="#E65100" opacity="0.15" rx="1"/>
-<rect x="410" y="75" width="60" height="6" fill="#F57C00" opacity="0.12" rx="1"/>
-
-  <rect x="25" y="90" width="450" height="200" rx="6" fill="white" stroke="#E65100" stroke-width="1.5"/>
-  <text x="250" y="106" font-family="Arial,sans-serif" font-size="12" fill="#E65100" text-anchor="middle" font-weight="bold">Начало династии Романовых</text>
-  <!-- Timeline -->
-  <line x1="50" y1="150" x2="450" y2="150" stroke="#E65100" stroke-width="2"/>
-  <circle cx="80" cy="150" r="5" fill="#E65100"/>
-  <text x="80" y="140" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">1598</text>
-  <text x="80" y="170" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Борис</text>
-  <text x="80" y="180" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Годунов</text>
-  <circle cx="180" cy="150" r="5" fill="#FF9800"/>
-  <text x="180" y="140" font-family="Arial,sans-serif" font-size="7" fill="#FF9800" text-anchor="middle">1604</text>
-  <text x="180" y="170" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Лжедмитрий</text>
-  <text x="180" y="180" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">I</text>
-  <circle cx="280" cy="150" r="5" fill="#E65100"/>
-  <text x="280" y="140" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">1610</text>
-  <text x="280" y="170" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Польская</text>
-  <text x="280" y="180" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">интервенция</text>
-  <circle cx="380" cy="150" r="5" fill="#2E7D32"/>
-  <text x="380" y="140" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">1613</text>
-  <text x="380" y="170" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Михаил</text>
-  <text x="380" y="180" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Романов</text>
-  <!-- Minin and Pozharsky -->
-  <rect x="100" y="200" width="300" height="75" rx="4" fill="#FFF3E0" opacity="0.5"/>
-  <circle cx="180" cy="240" r="14" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
-  <rect x="168" y="254" width="24" height="20" rx="3" fill="#1565C0"/>
-  <circle cx="320" cy="240" r="14" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
-  <rect x="308" y="254" width="24" height="20" rx="3" fill="#1565C0"/>
-  <line x1="200" y1="240" x2="300" y2="240" stroke="#E65100" stroke-width="1.5"/>
-  <text x="250" y="238" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle">ополчение</text>
-  <text x="180" y="270" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Минин</text>
-  <text x="320" y="270" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Пожарский</text>
-<rect x="15" y="310" width="470" height="30" rx="4" fill="#E65100" opacity="0.85"/>
-<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">История</text>
-  <rect x="440" y="105" width="12" height="40" rx="3" fill="#E65100" opacity="0.1"/>
-  <rect x="458" y="110" width="12" height="35" rx="3" fill="#FF9800" opacity="0.08"/>
-  <rect x="476" y="108" width="8" height="30" rx="2" fill="#FFB74D" opacity="0.06"/>
+<rect width="500" height="350" fill="#FFF3E0"/>
+<rect x="180" y="80" width="140" height="150" rx="3" fill="#FFD54F" stroke="#F9A825" stroke-width="2.5"/>
+<path d="M180,80 Q250,65 320,80" fill="#FFB300" stroke="#F9A825" stroke-width="2"/>
+<rect x="225" y="55" width="50" height="30" rx="3" fill="#FF8F00" stroke="#E65100" stroke-width="2"/>
+<circle cx="250" cy="150" r="30" fill="#FFE082" stroke="#F9A825" stroke-width="2"/>
+<circle cx="242" cy="143" r="4" fill="#5D4037"/><circle cx="258" cy="143" r="4" fill="#5D4037"/>
+<path d="M242,160 Q250,167 258,160" fill="none" stroke="#5D4037" stroke-width="1.5"/>
+<line x1="215" y1="125" x2="235" y2="130" stroke="#5D4037" stroke-width="1"/>
+<line x1="285" y1="125" x2="265" y2="130" stroke="#5D4037" stroke-width="1"/>
+<text x="250" y="200" font-size="8" fill="#E65100" text-anchor="middle" font-weight="bold">Михаил</text>
+<text x="250" y="212" font-size="8" fill="#E65100" text-anchor="middle">Романов</text>
+<text x="250" y="225" font-size="7" fill="#BF360C" text-anchor="middle">1613 г.</text>
+<rect x="40" y="50" width="120" height="100" rx="6" fill="#FFF" stroke="#795548" stroke-width="1.5"/>
+<text x="100" y="70" font-size="8" fill="#4E342E" text-anchor="middle" font-weight="bold">Земский собор</text>
+<circle cx="70" cy="95" r="8" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+<circle cx="95" cy="90" r="8" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+<circle cx="120" cy="95" r="8" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+<circle cx="80" cy="115" r="8" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+<circle cx="110" cy="115" r="8" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+<text x="100" y="140" font-size="6" fill="#795548" text-anchor="middle">выбор от всех сословий</text>
+<line x1="160" y1="100" x2="180" y2="120" stroke="#795548" stroke-width="1.5"/>
+<text x="100" y="40" font-size="7" fill="#5D4037" text-anchor="middle">1613, февраль</text>
+<rect x="350" y="50" width="130" height="100" rx="6" fill="#FFF" stroke="#1565C0" stroke-width="1.5"/>
+<text x="415" y="70" font-size="8" fill="#0D47A1" text-anchor="middle" font-weight="bold">Династия</text>
+<line x1="380" y1="80" x2="380" y2="140" stroke="#1565C0" stroke-width="2"/>
+<circle cx="380" cy="85" r="6" fill="#42A5F5" stroke="#1565C0" stroke-width="1"/>
+<text x="395" y="88" font-size="7" fill="#1565C0">Михаил</text>
+<circle cx="380" cy="105" r="6" fill="#42A5F5" stroke="#1565C0" stroke-width="1"/>
+<text x="395" y="108" font-size="7" fill="#1565C0">Алексей</text>
+<circle cx="380" cy="125" r="6" fill="#42A5F5" stroke="#1565C0" stroke-width="1"/>
+<text x="395" y="128" font-size="7" fill="#1565C0">Фёдор</text>
+<circle cx="380" cy="140" r="6" fill="#EF5350" stroke="#C62828" stroke-width="1"/>
+<text x="395" y="143" font-size="7" fill="#C62828">Пётр I</text>
+<text x="415" y="155" font-size="6" fill="#1976D2" text-anchor="middle">1613–1917</text>
+<rect x="50" y="180" width="120" height="130" rx="4" fill="#FFF" stroke="#4CAF50" stroke-width="1"/>
+<text x="110" y="200" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">Итоги Смуты</text>
+<text x="65" y="218" font-size="7" fill="#388E3C">• Новая династия</text>
+<text x="65" y="233" font-size="7" fill="#388E3C">• Восстановление</text>
+<text x="72" y="246" font-size="7" fill="#388E3C">государства</text>
+<text x="65" y="261" font-size="7" fill="#388E3C">• Потеря земель</text>
+<text x="65" y="276" font-size="7" fill="#388E3C">• Ослабление</text>
+<text x="72" y="289" font-size="7" fill="#388E3C">экономики</text>
+<text x="65" y="304" font-size="7" fill="#388E3C">• Урок единства</text>
+<rect x="330" y="180" width="140" height="130" rx="4" fill="#FFF" stroke="#FF8F00" stroke-width="1"/>
+<text x="400" y="200" font-size="7" fill="#E65100" text-anchor="middle" font-weight="bold">Почему Михаил?</text>
+<text x="345" y="218" font-size="7" fill="#FF8F00">• 16 лет — управляем</text>
+<text x="345" y="233" font-size="7" fill="#FF8F00">• Родственник Анастасии</text>
+<text x="352" y="246" font-size="7" fill="#FF8F00">Романовой (жена Ив.Гр.)</text>
+<text x="345" y="261" font-size="7" fill="#FF8F00">• Компромисс для бояр</text>
+<text x="345" y="276" font-size="7" fill="#FF8F00">• Не запятнан Смутой</text>
+<text x="345" y="291" font-size="7" fill="#FF8F00">• Поддержка церкви</text>
+<text x="250" y="345" font-size="9" fill="#666" text-anchor="middle" opacity="0.5">Начало династии Романовых</text>
 </svg>

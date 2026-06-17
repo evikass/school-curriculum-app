@@ -1,74 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8F5E9"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="bg9" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFC107;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#FFD54F;stop-opacity:0.06"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="12"/>
-  <rect x="0" y="0" width="500" height="50" fill="#66BB6A" rx="12"/>
-  <rect x="0" y="25" width="500" height="25" fill="#66BB6A"/>
-  <text x="250" y="34" text-anchor="middle" fill="#FFF" font-size="16" font-weight="bold" font-family="Arial,sans-serif">Урок 9. Футбол</text>
-  <!-- Rules -->
-  <rect x="15" y="60" width="155" height="130" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
-  <rect x="15" y="60" width="155" height="25" fill="#66BB6A" rx="8"/>
-  <rect x="15" y="77" width="155" height="8" fill="#66BB6A"/>
-  <text x="92" y="78" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold" font-family="Arial,sans-serif">Правила футбола</text>
-  <!-- Ball icon -->
-  <circle cx="55" cy="110" r="18" fill="#FFF" stroke="#333" stroke-width="1.5"/>
-  <polygon points="55,95 65,102 62,114 48,114 45,102" fill="none" stroke="#333" stroke-width="0.8"/>
-  <text x="80" y="102" fill="#333" font-size="8" font-family="Arial,sans-serif">• 11 игроков</text>
-  <text x="80" y="114" fill="#333" font-size="8" font-family="Arial,sans-serif">• 2 тайма по 45 мин</text>
-  <text x="25" y="135" fill="#333" font-size="8" font-family="Arial,sans-serif">• Офсайд, пенальти</text>
-  <text x="25" y="147" fill="#333" font-size="8" font-family="Arial,sans-serif">• Жёлтая/красная карточка</text>
-  <text x="25" y="159" fill="#333" font-size="8" font-family="Arial,sans-serif">• Замены: 5 чел.</text>
-  <text x="25" y="171" fill="#333" font-size="8" font-family="Arial,sans-serif">• Угловой, штрафной</text>
-  <text x="25" y="183" fill="#333" font-size="8" font-family="Arial,sans-serif">• Фол: толчок, подножка</text>
-
-  <!-- Positions -->
-  <rect x="175" y="60" width="155" height="130" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
-  <rect x="175" y="60" width="155" height="25" fill="#66BB6A" rx="8"/>
-  <rect x="175" y="77" width="155" height="8" fill="#66BB6A"/>
-  <text x="252" y="78" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold" font-family="Arial,sans-serif">Амплуа игроков</text>
-  <!-- Position diagram -->
-  <circle cx="252" cy="100" r="5" fill="#E53935"/>
-  <text x="262" y="103" fill="#333" font-size="7" font-family="Arial,sans-serif">Нападающий</text>
-  <circle cx="232" cy="118" r="5" fill="#FF9800"/>
-  <text x="242" y="121" fill="#333" font-size="7" font-family="Arial,sans-serif">Полузащитник</text>
-  <circle cx="272" cy="118" r="5" fill="#FF9800"/>
-  <circle cx="222" cy="136" r="5" fill="#1E88E5"/>
-  <text x="232" y="139" fill="#333" font-size="7" font-family="Arial,sans-serif">Защитник</text>
-  <circle cx="262" cy="136" r="5" fill="#1E88E5"/>
-  <circle cx="242" cy="154" r="5" fill="#FDD835"/>
-  <text x="252" y="157" fill="#333" font-size="7" font-family="Arial,sans-serif">Вратарь</text>
-  <text x="185" y="175" fill="#666" font-size="7" font-family="Arial,sans-serif">Схема: 4-4-2, 4-3-3, 3-5-2</text>
-  <text x="185" y="187" fill="#666" font-size="7" font-family="Arial,sans-serif">Тактика: атака, оборона</text>
-
-  <!-- Techniques -->
-  <rect x="335" y="60" width="150" height="130" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
-  <rect x="335" y="60" width="150" height="25" fill="#66BB6A" rx="8"/>
-  <rect x="335" y="77" width="150" height="8" fill="#66BB6A"/>
-  <text x="410" y="78" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold" font-family="Arial,sans-serif">Техника</text>
-  <text x="345" y="100" fill="#333" font-size="8" font-family="Arial,sans-serif">• Ведение мяча</text>
-  <text x="345" y="112" fill="#333" font-size="8" font-family="Arial,sans-serif">• Передача (пас)</text>
-  <text x="345" y="124" fill="#333" font-size="8" font-family="Arial,sans-serif">• Удар (внутрь стопы)</text>
-  <text x="345" y="136" fill="#333" font-size="8" font-family="Arial,sans-serif">• Удар (носок, подъём)</text>
-  <text x="345" y="148" fill="#333" font-size="8" font-family="Arial,sans-serif">• Остановка мяча</text>
-  <text x="345" y="160" fill="#333" font-size="8" font-family="Arial,sans-serif">• Финт (обманный движ.)</text>
-  <text x="345" y="175" fill="#333" font-size="8" font-family="Arial,sans-serif">• Отбор, перехват</text>
-  <text x="345" y="187" fill="#333" font-size="8" font-family="Arial,sans-serif">• Игра головой</text>
-
-  <!-- Field diagram -->
-  <rect x="15" y="200" width="470" height="120" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
-  <rect x="15" y="200" width="470" height="25" fill="#2E7D32" rx="8"/>
-  <rect x="15" y="217" width="470" height="8" fill="#2E7D32"/>
-  <text x="250" y="228" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Футбольное поле</text>
-  <!-- Field -->
-  <rect x="40" y="240" width="420" height="65" fill="#4CAF50" opacity="0.2" stroke="#66BB6A" stroke-width="1.5" rx="2"/>
-  <line x1="250" y1="240" x2="250" y2="305" stroke="#FFF" stroke-width="1.5"/>
-  <circle cx="250" cy="272" r="15" fill="none" stroke="#FFF" stroke-width="1"/>
-  <rect x="40" y="252" width="55" height="40" fill="none" stroke="#FFF" stroke-width="1"/>
-  <rect x="405" y="252" width="55" height="40" fill="none" stroke="#FFF" stroke-width="1"/>
-  <text x="250" y="325" text-anchor="middle" fill="#666" font-size="8" font-family="Arial,sans-serif">100–110 м × 64–75 м | Ворота 7.32 × 2.44 м | Штрафная 16.5 м</text>
+  <rect width="500" height="350" fill="#1a1a2e"/>
+  <rect width="500" height="350" fill="url(#bg9)"/>
+  <!-- Court -->
+  <rect x="30" y="60" width="440" height="220" fill="none" stroke="#FFC107" stroke-width="2" opacity="0.3"/>
+  <line x1="250" y1="60" x2="250" y2="280" stroke="#FFC107" stroke-width="1" opacity="0.25" stroke-dasharray="5,5"/>
+  <!-- Net -->
+  <rect x="245" y="40" width="10" height="150" fill="#FFD54F" opacity="0.15"/>
+  <line x1="250" y1="40" x2="250" y2="190" stroke="#FFD54F" stroke-width="3" opacity="0.6"/>
+  <line x1="240" y1="50" x2="260" y2="50" stroke="#FFD54F" stroke-width="1" opacity="0.3"/>
+  <line x1="240" y1="70" x2="260" y2="70" stroke="#FFD54F" stroke-width="1" opacity="0.3"/>
+  <line x1="240" y1="90" x2="260" y2="90" stroke="#FFD54F" stroke-width="1" opacity="0.3"/>
+  <line x1="240" y1="110" x2="260" y2="110" stroke="#FFD54F" stroke-width="1" opacity="0.3"/>
+  <line x1="240" y1="130" x2="260" y2="130" stroke="#FFD54F" stroke-width="1" opacity="0.3"/>
+  <line x1="240" y1="150" x2="260" y2="150" stroke="#FFD54F" stroke-width="1" opacity="0.3"/>
+  <line x1="240" y1="170" x2="260" y2="170" stroke="#FFD54F" stroke-width="1" opacity="0.3"/>
+  <!-- Net posts -->
+  <rect x="244" y="40" width="4" height="155" fill="#FFC107" opacity="0.5"/>
+  <rect x="254" y="40" width="4" height="155" fill="#FFC107" opacity="0.5"/>
+  <!-- Volleyball -->
+  <circle cx="250" cy="25" r="16" fill="none" stroke="#FFD54F" stroke-width="2"/>
+  <path d="M237,18 Q250,25 263,18" fill="none" stroke="#FFD54F" stroke-width="1.2"/>
+  <path d="M237,32 Q250,25 263,32" fill="none" stroke="#FFD54F" stroke-width="1.2"/>
+  <!-- Players (dots) -->
+  <circle cx="100" cy="130" r="6" fill="#FFC107" opacity="0.6"/>
+  <circle cx="140" cy="170" r="6" fill="#FFC107" opacity="0.6"/>
+  <circle cx="180" cy="120" r="6" fill="#FFC107" opacity="0.6"/>
+  <circle cx="160" cy="200" r="6" fill="#FFC107" opacity="0.6"/>
+  <circle cx="120" cy="220" r="6" fill="#FFC107" opacity="0.6"/>
+  <circle cx="180" cy="240" r="6" fill="#FFC107" opacity="0.5"/>
+  <circle cx="350" cy="130" r="6" fill="#FFD54F" opacity="0.6"/>
+  <circle cx="370" cy="170" r="6" fill="#FFD54F" opacity="0.6"/>
+  <circle cx="330" cy="120" r="6" fill="#FFD54F" opacity="0.6"/>
+  <circle cx="340" cy="200" r="6" fill="#FFD54F" opacity="0.6"/>
+  <circle cx="380" cy="220" r="6" fill="#FFD54F" opacity="0.6"/>
+  <circle cx="320" cy="240" r="6" fill="#FFD54F" opacity="0.5"/>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#aaa" opacity="0.5" font-family="sans-serif">Волейбол</text>
 </svg>

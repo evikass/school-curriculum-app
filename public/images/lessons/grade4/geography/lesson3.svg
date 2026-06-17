@@ -1,35 +1,55 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
 <defs>
-  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" style="stop-color:#00838F"/>
-    <stop offset="100%" style="stop-color:#4DD0E1"/>
-  </linearGradient>
-  <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
-    <stop offset="0%" style="stop-color:rgba(255,255,255,0.95)"/>
-    <stop offset="100%" style="stop-color:rgba(255,255,255,0.85)"/>
-  </linearGradient>
-</defs>
-<rect width="500" height="350" fill="url(#bg)"/>
-<path d="M0,80 Q125,50 250,80 Q375,110 500,80" fill="none" stroke="white" stroke-width="2" opacity="0.08"/>
-<path d="M0,180 Q125,150 250,180 Q375,210 500,180" fill="none" stroke="white" stroke-width="2" opacity="0.08"/>
-<path d="M0,280 Q125,250 250,280 Q375,310 500,280" fill="none" stroke="white" stroke-width="2" opacity="0.08"/>
-<rect x="20" y="50" width="460" height="270" rx="16" fill="url(#card)" opacity="0.92"/>
-<rect x="30" y="60" width="auto" height="24" rx="12" fill="#00838F" opacity="0.9"/>
-<rect x="30" y="60" width="156" height="24" rx="12" fill="#00838F" opacity="0.9"/>
-<text x="108" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="white" font-weight="bold">География: Россия</text>
-<text x="470" y="77" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#00838F" font-weight="bold">Урок 6</text>
-<text x="40" y="105" font-family="Arial,sans-serif" font-size="18" fill="#1a1a1a" font-weight="bold">Озёра России</text>
-<line x1="40" y1="115" x2="460" y2="115" stroke="#B2EBF2" stroke-width="2"/>
-<text x="40" y="135" font-family="Arial,sans-serif" font-size="13" fill="#444">Крупнейшие озёра страны.</text>
-<text x="40" y="155" font-family="Arial,sans-serif" font-size="11" fill="#00838F" font-weight="bold">Задания:</text>
-<circle cx="48" cy="177" r="3" fill="#00838F"/>
-<text x="58" y="181" font-family="Arial,sans-serif" font-size="11" fill="#444">Озеро Байкал</text>
-<circle cx="48" cy="197" r="3" fill="#00838F"/>
-<text x="58" y="201" font-family="Arial,sans-serif" font-size="11" fill="#444">Ладожское озеро</text>
-<line x1="40" y1="218" x2="460" y2="218" stroke="#B2EBF2" stroke-width="1"/>
-<text x="40" y="230" font-family="Arial,sans-serif" font-size="11" fill="#00838F" font-weight="bold">Факты:</text>
-<text x="50" y="246" font-family="Arial,sans-serif" font-size="10" fill="#555">💡 Байкал называют «Голубым глазом Сибири»</text>
-<text x="50" y="264" font-family="Arial,sans-serif" font-size="10" fill="#555">💡 Байкальская вода очень чистая — видно дно на ...</text>
-<circle cx="460" cy="310" r="25" fill="#00838F" opacity="0.15"/>
-<circle cx="460" cy="310" r="15" fill="#00838F" opacity="0.1"/>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E0F7FA"/>
+      <stop offset="100%" stop-color="#B2EBF2"/>
+    </linearGradient>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#E0F7FA"/>
+    </linearGradient>
+    <linearGradient id="groundGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#81C784"/>
+      <stop offset="100%" stop-color="#4CAF50"/>
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#42A5F5"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+    <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF9C4"/>
+      <stop offset="60%" stop-color="#FDD835"/>
+      <stop offset="100%" stop-color="#F9A825"/>
+    </radialGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="3" stdDeviation="5" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  <g transform="translate(40,30)" filter="url(#softShadow)">
+    <rect width="420" height="285" rx="12" fill="white" opacity="0.94"/>
+    <rect width="420" height="32" rx="12" fill="#00838F" opacity="0.9"/>
+    <rect y="24" width="420" height="8" fill="#00838F" opacity="0.9"/>
+    <text x="210" y="22" font-family="Arial" font-size="12" fill="white" text-anchor="middle" font-weight="bold">СТОЛИЦА РОССИИ</text>
+    <g transform="translate(20,48)">
+      <rect width="380" height="70" rx="8" fill="#E0F7FA" opacity="0.4" stroke="#00838F" stroke-width="1.5"/>
+      <text x="190" y="30" font-family="Arial" font-size="16" fill="#006064" text-anchor="middle" font-weight="bold">Москва — Кремль, Красная площадь</text>
+    </g>
+    <g transform="translate(20,135)">
+      <rect width="380" height="130" rx="8" fill="white" stroke="#D32F2F" stroke-width="1.5"/>
+      <rect width="380" height="24" rx="8" fill="#D32F2F" opacity="0.85"/>
+      <rect y="18" width="380" height="6" fill="#D32F2F" opacity="0.85"/>
+      <text x="190" y="17" font-family="Arial" font-size="10" fill="white" text-anchor="middle" font-weight="bold">ЗАПОМНИ</text>
+      <text x="190" y="55" font-family="Arial" font-size="12" fill="#006064" text-anchor="middle" font-weight="bold">Москва — Кремль, Красная площадь</text>
+    </g>
+  </g>
+  <rect x="0" y="318" width="500" height="32" rx="0" fill="#00838F" opacity="0.9"/>
+  <text x="250" y="339" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Столица России</text>
 </svg>

@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+    <linearGradient id="eyeDisease" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFCDD2"/>
+      <stop offset="100%" stop-color="#EF9A9A"/>
+    </linearGradient>
+    <linearGradient id="earDisease" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFE0B2"/>
+      <stop offset="100%" stop-color="#FFCC80"/>
+    </linearGradient>
+    <linearGradient id="noseDisease" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C8E6C9"/>
+      <stop offset="100%" stop-color="#A5D6A7"/>
+    </linearGradient>
+    <linearGradient id="skinDisease" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E1BEE7"/>
+      <stop offset="100%" stop-color="#CE93D8"/>
+    </linearGradient>
+    <linearGradient id="lensGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="100%" stop-color="#90CAF9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="350" rx="12" fill="url(#bg)" stroke="#2E7D32" stroke-width="2"/>
+
+  <!-- Title -->
+  <text x="250" y="22" text-anchor="middle" font-size="14" font-weight="bold" fill="#1B5E20" font-family="Arial">Предупреждение заболеваний органов чувств</text>
+  <text x="250" y="35" text-anchor="middle" font-size="9" fill="#666" font-family="Arial">Биология 8 класс — Урок 44</text>
+  <line x1="15" y1="42" x2="485" y2="42" stroke="#2E7D32" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- ===== 4 DISEASE PANELS ===== -->
+  
+  <!-- 1. Eye diseases (top-left) -->
+  <rect x="15" y="48" width="155" height="115" rx="5" fill="url(#eyeDisease)" fill-opacity="0.4" stroke="#C62828" stroke-width="0.8"/>
+  <text x="92" y="60" text-anchor="middle" font-size="7.5" font-weight="bold" fill="#B71C1C" font-family="Arial">ГЛАЗА</text>
+  
+  <!-- Small eye icon -->
+  <ellipse cx="92" cy="75" rx="18" ry="12" fill="white" stroke="#C62828" stroke-width="1"/>
+  <circle cx="92" cy="75" r="6" fill="#4CAF50" stroke="#2E7D32" stroke-width="0.8"/>
+  <circle cx="92" cy="75" r="2.5" fill="#212121"/>
+  
+  <text x="22" y="95" font-size="6" fill="#C62828" font-family="Arial">• Близорукость (миопия)</text>
+  <text x="28" y="103" font-size="5" fill="#555" font-family="Arial">фокус перед сетчаткой</text>
+  <text x="22" y="112" font-size="6" fill="#C62828" font-family="Arial">• Дальнозоркость (гиперопия)</text>
+  <text x="28" y="120" font-size="5" fill="#555" font-family="Arial">фокус за сетчаткой</text>
+  <text x="22" y="129" font-size="6" fill="#C62828" font-family="Arial">• Катаракта (помутнение хрусталика)</text>
+  <text x="22" y="138" font-size="6" fill="#C62828" font-family="Arial">• Глаукома (повыш. внутриглазное давление)</text>
+  <text x="22" y="147" font-size="6" fill="#C62828" font-family="Arial">• Конъюнктивит (воспаление оболочки)</text>
+  <text x="22" y="156" font-size="6" fill="#C62828" font-family="Arial">• Дальтонизм (нарушение цветного зрения)</text>
+
+  <!-- 2. Ear diseases (top-right of left pair) -->
+  <rect x="175" y="48" width="145" height="115" rx="5" fill="url(#earDisease)" fill-opacity="0.4" stroke="#E65100" stroke-width="0.8"/>
+  <text x="247" y="60" text-anchor="middle" font-size="7.5" font-weight="bold" fill="#BF360C" font-family="Arial">УХА</text>
+  
+  <!-- Small ear icon -->
+  <path d="M 247 70 Q 237 78 238 88 Q 240 95 247 98 Q 252 100 255 96 Q 258 90 255 84 Q 252 80 248 78" fill="none" stroke="#E65100" stroke-width="1.5"/>
+  
+  <text x="182" y="95" font-size="6" fill="#BF360C" font-family="Arial">• Отит (воспаление среднего уха)</text>
+  <text x="182" y="105" font-size="6" fill="#BF360C" font-family="Arial">• Тугоухость (снижение слуха)</text>
+  <text x="182" y="115" font-size="6" fill="#BF360C" font-family="Arial">• Шум в ушах (тиннитус)</text>
+  <text x="182" y="125" font-size="6" fill="#BF360C" font-family="Arial">• Серная пробка</text>
+  <text x="182" y="135" font-size="6" fill="#BF360C" font-family="Arial">• Повреждение барабанной перепонки</text>
+  
+  <rect x="182" y="140" width="130" height="18" rx="3" fill="white" fill-opacity="0.7" stroke="#E65100" stroke-width="0.5"/>
+  <text x="247" y="150" text-anchor="middle" font-size="5.5" fill="#E65100" font-family="Arial">Шум &gt;70 дБ — вреден для слуха</text>
+  <text x="247" y="157" text-anchor="middle" font-size="5.5" fill="#E65100" font-family="Arial">Шум &gt;120 дБ — болевой порог</text>
+
+  <!-- 3. Nose diseases (bottom-left) -->
+  <rect x="15" y="168" width="155" height="62" rx="5" fill="url(#noseDisease)" fill-opacity="0.4" stroke="#2E7D32" stroke-width="0.8"/>
+  <text x="92" y="180" text-anchor="middle" font-size="7.5" font-weight="bold" fill="#1B5E20" font-family="Arial">НОСА</text>
+  
+  <text x="22" y="192" font-size="6" fill="#2E7D32" font-family="Arial">• Синусит (воспаление пазух)</text>
+  <text x="22" y="202" font-size="6" fill="#2E7D32" font-family="Arial">• Аллергический ринит</text>
+  <text x="22" y="212" font-size="6" fill="#2E7D32" font-family="Arial">• Потеря обоняния (аносмия)</text>
+  <text x="22" y="222" font-size="6" fill="#2E7D32" font-family="Arial">• Полипы носовой полости</text>
+
+  <!-- 4. Skin diseases (bottom of center) -->
+  <rect x="175" y="168" width="145" height="62" rx="5" fill="url(#skinDisease)" fill-opacity="0.4" stroke="#7B1FA2" stroke-width="0.8"/>
+  <text x="247" y="180" text-anchor="middle" font-size="7.5" font-weight="bold" fill="#4A148C" font-family="Arial">КОЖИ</text>
+  
+  <text x="182" y="192" font-size="6" fill="#7B1FA2" font-family="Arial">• Снижение чувствительности</text>
+  <text x="182" y="202" font-size="6" fill="#7B1FA2" font-family="Arial">• Ожоги (термические, химические)</text>
+  <text x="182" y="212" font-size="6" fill="#7B1FA2" font-family="Arial">• Обморожение</text>
+  <text x="182" y="222" font-size="6" fill="#7B1FA2" font-family="Arial">• Дерматиты, аллергические реакции</text>
+
+  <!-- ===== VISION CORRECTION DIAGRAM (right side) ===== -->
+  <rect x="325" y="48" width="160" height="182" rx="5" fill="white" fill-opacity="0.8" stroke="#1565C0" stroke-width="0.8"/>
+  <text x="405" y="60" text-anchor="middle" font-size="7.5" font-weight="bold" fill="#0D47A1" font-family="Arial">Коррекция зрения</text>
+  
+  <!-- Normal eye -->
+  <text x="405" y="73" text-anchor="middle" font-size="6" font-weight="bold" fill="#333" font-family="Arial">Нормальное зрение</text>
+  <ellipse cx="405" cy="88" rx="30" ry="14" fill="white" stroke="#555" stroke-width="1"/>
+  <ellipse cx="395" cy="88" rx="4" ry="10" fill="url(#lensGrad)" stroke="#1565C0" stroke-width="0.6"/>
+  <line x1="360" y1="85" x2="388" y2="87" stroke="#4CAF50" stroke-width="0.7"/>
+  <line x1="360" y1="91" x2="388" y2="89" stroke="#4CAF50" stroke-width="0.7"/>
+  <line x1="400" y1="88" x2="430" y2="88" stroke="#4CAF50" stroke-width="0.7" stroke-dasharray="2,1"/>
+  <circle cx="432" cy="88" r="2" fill="#4CAF50"/>
+  <text x="438" y="91" font-size="5" fill="#4CAF50" font-family="Arial">Сетчатка ✓</text>
+  
+  <!-- Myopia -->
+  <text x="405" y="110" text-anchor="middle" font-size="6" font-weight="bold" fill="#C62828" font-family="Arial">Близорукость</text>
+  <ellipse cx="405" cy="125" rx="30" ry="14" fill="white" stroke="#C62828" stroke-width="1"/>
+  <ellipse cx="395" cy="125" rx="4" ry="10" fill="url(#lensGrad)" stroke="#1565C0" stroke-width="0.6"/>
+  <line x1="360" y1="122" x2="388" y2="124" stroke="#F44336" stroke-width="0.7"/>
+  <line x1="360" y1="128" x2="388" y2="126" stroke="#F44336" stroke-width="0.7"/>
+  <!-- Focal point before retina -->
+  <circle cx="420" cy="125" r="2" fill="#F44336"/>
+  <text x="422" y="120" font-size="5" fill="#F44336" font-family="Arial">фокус</text>
+  <line x1="420" y1="125" x2="434" y2="128" stroke="#F44336" stroke-width="0.5" stroke-dasharray="1,1"/>
+  <line x1="420" y1="125" x2="434" y2="122" stroke="#F44336" stroke-width="0.5" stroke-dasharray="1,1"/>
+  
+  <!-- Myopia correction - concave lens -->
+  <text x="405" y="147" text-anchor="middle" font-size="5.5" fill="#1565C0" font-family="Arial">Коррекция: вогнутая линза (—)</text>
+  <path d="M 358 155 Q 362 160 358 165" fill="none" stroke="#1565C0" stroke-width="1.5"/>
+  <path d="M 362 152 Q 366 160 362 168" fill="none" stroke="#1565C0" stroke-width="0.8" stroke-dasharray="2,1"/>
+  
+  <!-- Hyperopia -->
+  <text x="405" y="178" text-anchor="middle" font-size="6" font-weight="bold" fill="#E65100" font-family="Arial">Дальнозоркость</text>
+  <ellipse cx="405" cy="192" rx="30" ry="14" fill="white" stroke="#E65100" stroke-width="1"/>
+  <ellipse cx="395" cy="192" rx="4" ry="10" fill="url(#lensGrad)" stroke="#1565C0" stroke-width="0.6"/>
+  <line x1="360" y1="189" x2="388" y2="191" stroke="#FF9800" stroke-width="0.7"/>
+  <line x1="360" y1="195" x2="388" y2="193" stroke="#FF9800" stroke-width="0.7"/>
+  <!-- Focal point behind retina -->
+  <circle cx="445" cy="192" r="2" fill="#FF9800"/>
+  <text x="447" y="188" font-size="5" fill="#FF9800" font-family="Arial">фокус</text>
+  <line x1="430" y1="191" x2="443" y2="192" stroke="#FF9800" stroke-width="0.5" stroke-dasharray="1,1"/>
+  <line x1="430" y1="193" x2="443" y2="192" stroke="#FF9800" stroke-width="0.5" stroke-dasharray="1,1"/>
+  
+  <!-- Hyperopia correction - convex lens -->
+  <text x="405" y="214" text-anchor="middle" font-size="5.5" fill="#1565C0" font-family="Arial">Коррекция: выпуклая линза (+)</text>
+  <path d="M 356 220 Q 362 225 356 230" fill="none" stroke="#1565C0" stroke-width="1.5"/>
+  <path d="M 358 218 Q 366 225 358 232" fill="none" stroke="#1565C0" stroke-width="0.8" stroke-dasharray="2,1"/>
+
+  <!-- ===== PREVENTION PANEL (bottom) ===== -->
+  <rect x="15" y="235" width="470" height="98" rx="5" fill="white" fill-opacity="0.8" stroke="#2E7D32" stroke-width="1"/>
+  <text x="250" y="248" text-anchor="middle" font-size="8" font-weight="bold" fill="#1B5E20" font-family="Arial">Профилактика заболеваний органов чувств</text>
+  <line x1="25" y1="252" x2="475" y2="252" stroke="#2E7D32" stroke-width="0.4"/>
+  
+  <!-- Eye hygiene -->
+  <rect x="22" y="256" width="145" height="72" rx="4" fill="#FFEBEE" fill-opacity="0.5" stroke="#C62828" stroke-width="0.5"/>
+  <text x="94" y="267" text-anchor="middle" font-size="7" font-weight="bold" fill="#B71C1C" font-family="Arial">👁 Гигиена глаз</text>
+  <text x="28" y="277" font-size="5.5" fill="#333" font-family="Arial">• Расстояние до книги: 30-40 см</text>
+  <text x="28" y="285" font-size="5.5" fill="#333" font-family="Arial">• Хорошее освещение (слева)</text>
+  <text x="28" y="293" font-size="5.5" fill="#333" font-family="Arial">• Перерывы каждые 30-40 мин</text>
+  <text x="28" y="301" font-size="5.5" fill="#333" font-family="Arial">• Гимнастика для глаз</text>
+  <text x="28" y="309" font-size="5.5" fill="#333" font-family="Arial">• Не тереть глаза грязными руками</text>
+  <text x="28" y="317" font-size="5.5" fill="#333" font-family="Arial">• Защита от UV-излучения</text>
+  <text x="28" y="325" font-size="5.5" fill="#333" font-family="Arial">• Ограничение экранного времени</text>
+  
+  <!-- Ear hygiene -->
+  <rect x="172" y="256" width="145" height="72" rx="4" fill="#FFF3E0" fill-opacity="0.5" stroke="#E65100" stroke-width="0.5"/>
+  <text x="244" y="267" text-anchor="middle" font-size="7" font-weight="bold" fill="#BF360C" font-family="Arial">👂 Защита слуха</text>
+  <text x="178" y="277" font-size="5.5" fill="#333" font-family="Arial">• Не слушать громкую музыку</text>
+  <text x="178" y="285" font-size="5.5" fill="#333" font-family="Arial">• Беруши при шуме &gt;70 дБ</text>
+  <text x="178" y="293" font-size="5.5" fill="#333" font-family="Arial">• Не чистить уши острыми предметами</text>
+  <text x="178" y="301" font-size="5.5" fill="#333" font-family="Arial">• Своевременно лечить простуду</text>
+  <text x="178" y="309" font-size="5.5" fill="#333" font-family="Arial">• Наушники: не &gt;60% громкости</text>
+  <text x="178" y="317" font-size="5.5" fill="#333" font-family="Arial">• Регулярные проверки слуха</text>
+  <text x="178" y="325" font-size="5.5" fill="#333" font-family="Arial">• Защита от перепадов давления</text>
+  
+  <!-- General prevention -->
+  <rect x="322" y="256" width="155" height="72" rx="4" fill="#E8F5E9" fill-opacity="0.5" stroke="#2E7D32" stroke-width="0.5"/>
+  <text x="399" y="267" text-anchor="middle" font-size="7" font-weight="bold" fill="#1B5E20" font-family="Arial">🛡 Общая профилактика</text>
+  <text x="328" y="277" font-size="5.5" fill="#333" font-family="Arial">• Регулярные медосмотры</text>
+  <text x="328" y="285" font-size="5.5" fill="#333" font-family="Arial">• Правильное питание (вит. A, C, E)</text>
+  <text x="328" y="293" font-size="5.5" fill="#333" font-family="Arial">• Отказ от вредных привычек</text>
+  <text x="328" y="301" font-size="5.5" fill="#333" font-family="Arial">• Физическая активность</text>
+  <text x="328" y="309" font-size="5.5" fill="#333" font-family="Arial">• Свежий воздух, проветривание</text>
+  <text x="328" y="317" font-size="5.5" fill="#333" font-family="Arial">• Защита кожи от холода и солнца</text>
+  <text x="328" y="325" font-size="5.5" fill="#333" font-family="Arial">• Гигиена рук и лица</text>
+
+  <!-- Footer bar -->
+  <rect x="0" y="338" width="500" height="12" rx="0" fill="#2E7D32"/>
+  <text x="250" y="347" text-anchor="middle" font-size="7" fill="white" font-family="Arial">Профилактика — залог здоровья органов чувств! Регулярные осмотры у врача обязательны</text>
+</svg>

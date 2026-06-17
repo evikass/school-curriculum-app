@@ -1,37 +1,106 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
+    <linearGradient id="modernBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1A1A2E"/>
+      <stop offset="50%" stop-color="#16213E"/>
+      <stop offset="100%" stop-color="#0F3460"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#4A148C"/>
-      <stop offset="100%" stop-color="#6A1B9A"/>
-    </linearGradient>
+    <radialGradient id="neonGlow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E94560"/>
+      <stop offset="100%" stop-color="#E94560" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="neonGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00D2FF"/>
+      <stop offset="100%" stop-color="#00D2FF" stop-opacity="0"/>
+    </radialGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#6A1B9A" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#6A1B9A" stroke-width="1" opacity="0.3"/>
-  <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#6A1B9A" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#6A1B9A" text-anchor="middle">Современное искусство</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Изобразительное искусство - Урок 12</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#6A1B9A" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#6A1B9A" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA -->
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#F3E5F5"/><text x="250" y="130" font-family="Arial,sans-serif" font-size="20" fill="#6A1B9A" text-anchor="middle" font-weight="bold">Современное искусство</text><rect x="25" y="155" width="140" height="45" rx="5" fill="#E3F2FD" stroke="#6A1B9A" stroke-width="1.5"/><text x="95" y="182" font-family="Arial" font-size="12" fill="#6A1B9A" text-anchor="middle">Авангард начала XX века:</text><rect x="170" y="155" width="140" height="45" rx="5" fill="#FFF3E0" stroke="#4A148C" stroke-width="1.5"/><text x="240" y="182" font-family="Arial" font-size="12" fill="#4A148C" text-anchor="middle">Абстрактный экспрессион...</text><rect x="315" y="155" width="140" height="45" rx="5" fill="#FFFDE7" stroke="#F9A825" stroke-width="1.5"/><text x="385" y="182" font-family="Arial" font-size="12" fill="#F9A825" text-anchor="middle">Инсталляция:</text><rect x="25" y="210" width="140" height="45" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/><text x="95" y="238" font-family="Arial" font-size="12" fill="#2E7D32" text-anchor="middle">Важнейшие представители:</text><rect x="170" y="210" width="140" height="45" rx="5" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="1.5"/><text x="240" y="238" font-family="Arial" font-size="12" fill="#6A1B9A" text-anchor="middle">Современное искусство</text><rect x="315" y="210" width="140" height="45" rx="5" fill="#FFEBEE" stroke="#E65100" stroke-width="1.5"/><text x="385" y="238" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">Основные направления XX...</text>
-  <circle cx="55" cy="275" r="16" fill="#6A1B9A" opacity="0.15"/><circle cx="65" cy="268" r="8" fill="#4A148C" opacity="0.1"/>
+  <!-- Dark modern background -->
+  <rect width="500" height="350" fill="url(#modernBg)"/>
+  
+  <!-- Neon glow effects -->
+  <circle cx="150" cy="120" r="60" fill="url(#neonGlow1)" opacity="0.3"/>
+  <circle cx="370" cy="200" r="70" fill="url(#neonGlow2)" opacity="0.3"/>
+  
+  <!-- Abstract geometric shapes -->
+  <!-- Large triangle -->
+  <polygon points="250,50 150,200 350,200" fill="none" stroke="#E94560" stroke-width="3" opacity="0.8"/>
+  <!-- Inverted triangle -->
+  <polygon points="250,250 170,120 330,120" fill="none" stroke="#00D2FF" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Overlapping circles -->
+  <circle cx="180" cy="150" r="50" fill="none" stroke="#FFD700" stroke-width="2" opacity="0.7"/>
+  <circle cx="250" cy="150" r="50" fill="none" stroke="#E94560" stroke-width="2" opacity="0.7"/>
+  <circle cx="215" cy="200" r="50" fill="none" stroke="#00D2FF" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Filled abstract shapes -->
+  <rect x="60" y="80" width="40" height="40" fill="#E94560" opacity="0.3" transform="rotate(15 80 100)"/>
+  <rect x="400" y="60" width="35" height="35" fill="#00D2FF" opacity="0.25" transform="rotate(-20 417 77)"/>
+  <rect x="380" y="260" width="50" height="50" fill="#FFD700" opacity="0.2" transform="rotate(30 405 285)"/>
+  
+  <!-- De Stijl inspired rectangles -->
+  <rect x="80" y="240" width="60" height="40" fill="#E94560" opacity="0.5"/>
+  <rect x="80" y="280" width="60" height="25" fill="#FFD700" opacity="0.4"/>
+  <rect x="140" y="240" width="30" height="65" fill="#00D2FF" opacity="0.4"/>
+  <line x1="80" y1="240" x2="170" y2="240" stroke="#FFF" stroke-width="2" opacity="0.3"/>
+  <line x1="80" y1="280" x2="170" y2="280" stroke="#FFF" stroke-width="2" opacity="0.3"/>
+  <line x1="80" y1="240" x2="80" y2="305" stroke="#FFF" stroke-width="2" opacity="0.3"/>
+  <line x1="140" y1="240" x2="140" y2="305" stroke="#FFF" stroke-width="2" opacity="0.3"/>
+  <line x1="170" y1="240" x2="170" y2="305" stroke="#FFF" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Splatter/drip paint effect -->
+  <g opacity="0.6">
+    <circle cx="300" cy="80" r="4" fill="#E94560"/>
+    <circle cx="320" cy="85" r="3" fill="#FFD700"/>
+    <circle cx="310" cy="95" r="5" fill="#00D2FF"/>
+    <circle cx="340" cy="75" r="2.5" fill="#E94560"/>
+    <circle cx="290" cy="90" r="3.5" fill="#FFD700"/>
+    <!-- Drips -->
+    <path d="M305 85 L305 120" stroke="#E94560" stroke-width="2" opacity="0.5"/>
+    <path d="M325 80 L325 110" stroke="#00D2FF" stroke-width="1.5" opacity="0.4"/>
   </g>
-  <!-- Bottom panel -->
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Изобразительное искусство</text>
+  
+  <!-- Installation art piece - cube on pedestal -->
+  <!-- Pedestal -->
+  <rect x="390" y="240" width="60" height="80" fill="#2A2A4E" stroke="#4A4A6E" stroke-width="1"/>
+  <rect x="385" y="235" width="70" height="8" rx="2" fill="#3A3A5E"/>
+  <!-- 3D cube -->
+  <polygon points="420,200 450,185 450,220 420,235" fill="#3A3A5E" stroke="#00D2FF" stroke-width="1.5"/>
+  <polygon points="420,200 390,185 390,220 420,235" fill="#2A2A4E" stroke="#00D2FF" stroke-width="1.5"/>
+  <polygon points="420,200 450,185 420,170 390,185" fill="#4A4A6E" stroke="#00D2FF" stroke-width="1.5"/>
+  <!-- Neon lines on cube -->
+  <line x1="420" y1="200" x2="420" y2="235" stroke="#E94560" stroke-width="1" opacity="0.8"/>
+  
+  <!-- Abstract squiggles -->
+  <path d="M40 140 Q60 120 80 140 Q100 160 120 140 Q140 120 160 140" fill="none" stroke="#FFD700" stroke-width="2" opacity="0.5"/>
+  <path d="M350 280 Q370 260 390 280 Q410 300 430 280" fill="none" stroke="#E94560" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- Dots pattern (Lichtenstein inspired) -->
+  <g fill="#FFF" opacity="0.15">
+    <circle cx="430" cy="30" r="2"/>
+    <circle cx="445" cy="30" r="2"/>
+    <circle cx="460" cy="30" r="2"/>
+    <circle cx="475" cy="30" r="2"/>
+    <circle cx="430" cy="45" r="2"/>
+    <circle cx="445" cy="45" r="2"/>
+    <circle cx="460" cy="45" r="2"/>
+    <circle cx="475" cy="45" r="2"/>
+    <circle cx="430" cy="60" r="2"/>
+    <circle cx="445" cy="60" r="2"/>
+    <circle cx="460" cy="60" r="2"/>
+    <circle cx="475" cy="60" r="2"/>
+    <circle cx="430" cy="75" r="2"/>
+    <circle cx="445" cy="75" r="2"/>
+    <circle cx="460" cy="75" r="2"/>
+    <circle cx="475" cy="75" r="2"/>
+  </g>
+  
+  <!-- Scattered abstract forms -->
+  <path d="M50 50 Q70 30 90 50 Q70 70 50 50" fill="#FFD700" opacity="0.3"/>
+  <path d="M440 140 Q460 120 480 140 Q460 160 440 140" fill="#E94560" opacity="0.25"/>
+  
+  <!-- Diagonal slash -->
+  <line x1="220" y1="220" x2="280" y2="300" stroke="#FFF" stroke-width="3" opacity="0.15"/>
+  <line x1="230" y1="220" x2="290" y2="300" stroke="#FFD700" stroke-width="1.5" opacity="0.2"/>
+  
+  <text x="250" y="340" text-anchor="middle" font-size="9" opacity="0.5" font-family="sans-serif" fill="#AAA">Современное искусство</text>
 </svg>

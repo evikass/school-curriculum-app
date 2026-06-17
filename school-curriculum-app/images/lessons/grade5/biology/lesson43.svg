@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+  <text x="250" y="24" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Охрана природы</text>
+  <text x="250" y="37" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 5 класс — Урок 43</text>
+  <line x1="30" y1="43" x2="470" y2="43" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+  <!-- Red Book -->
+  <text x="135" y="58" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">Красная книга</text>
+
+  <!-- Red Book shape -->
+  <rect x="40" y="64" width="90" height="120" rx="4" fill="#C62828" stroke="#8E0000" stroke-width="1.5"/>
+  <text x="85" y="80" font-family="Arial,sans-serif" font-size="8" fill="#FFD54F" text-anchor="middle" font-weight="bold">КРАСНАЯ</text>
+  <text x="85" y="92" font-family="Arial,sans-serif" font-size="8" fill="#FFD54F" text-anchor="middle" font-weight="bold">КНИГА</text>
+  <text x="85" y="104" font-family="Arial,sans-serif" font-size="6" fill="#FFCDD2" text-anchor="middle">России</text>
+
+  <!-- Color-coded categories -->
+  <rect x="50" y="112" width="12" height="8" rx="1" fill="#212121"/>
+  <text x="66" y="119" font-family="Arial,sans-serif" font-size="5" fill="#333">Исчезающие</text>
+
+  <rect x="50" y="122" width="12" height="8" rx="1" fill="#C62828"/>
+  <text x="66" y="129" font-family="Arial,sans-serif" font-size="5" fill="#333">Сокращающиеся</text>
+
+  <rect x="50" y="132" width="12" height="8" rx="1" fill="#FFD54F"/>
+  <text x="66" y="139" font-family="Arial,sans-serif" font-size="5" fill="#333">Редкие</text>
+
+  <rect x="50" y="142" width="12" height="8" rx="1" fill="#81C784"/>
+  <text x="66" y="149" font-family="Arial,sans-serif" font-size="5" fill="#333">Неизученные</text>
+
+  <rect x="50" y="152" width="12" height="8" rx="1" fill="#90CAF9"/>
+  <text x="66" y="159" font-family="Arial,sans-serif" font-size="5" fill="#333">Восстанавливаемые</text>
+
+  <text x="85" y="174" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">~500 видов животных</text>
+  <text x="85" y="183" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">~700 видов растений</text>
+
+  <!-- Examples -->
+  <rect x="135" y="64" width="95" height="120" rx="4" fill="white" stroke="#2E7D32" stroke-width="0.8" opacity="0.8"/>
+  <text x="182" y="76" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle" font-weight="bold">Примеры</text>
+  <!-- Amur tiger -->
+  <text x="142" y="90" font-family="Arial,sans-serif" font-size="5.5" fill="#E65100">🐅 Амурский тигр</text>
+  <text x="142" y="100" font-family="Arial,sans-serif" font-size="5" fill="#666">~570 особей</text>
+  <!-- Snow leopard -->
+  <text x="142" y="112" font-family="Arial,sans-serif" font-size="5.5" fill="#1565C0">🐆 Снежный барс</text>
+  <text x="142" y="122" font-family="Arial,sans-serif" font-size="5" fill="#666">редчайший хищник</text>
+  <!-- Lotus -->
+  <text x="142" y="134" font-family="Arial,sans-serif" font-size="5.5" fill="#C2185B">🌸 Лотос орехоносный</text>
+  <text x="142" y="144" font-family="Arial,sans-serif" font-size="5" fill="#666">реликтовое растение</text>
+  <!-- Sturgeon -->
+  <text x="142" y="156" font-family="Arial,sans-serif" font-size="5.5" fill="#5D4037">🐟 Осётр</text>
+  <text x="142" y="166" font-family="Arial,sans-serif" font-size="5" fill="#666">сокращается из-за браконьеров</text>
+  <!-- Cranes -->
+  <text x="142" y="178" font-family="Arial,sans-serif" font-size="5.5" fill="#7B1FA2">🦢 Стерх</text>
+  <text x="142" y="188" font-family="Arial,sans-serif" font-size="5" fill="#666">белый журавль</text>
+
+  <!-- Protected areas -->
+  <text x="370" y="58" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">Охраняемые территории</text>
+
+  <!-- Zapovednik -->
+  <rect x="260" y="64" width="105" height="45" rx="4" fill="#1B5E20" stroke="#0D3B0F" stroke-width="1"/>
+  <text x="312" y="77" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle" font-weight="bold">Заповедник</text>
+  <text x="312" y="87" font-family="Arial,sans-serif" font-size="5" fill="#C8E6C9" text-anchor="middle">Полный запрет хозяйств.</text>
+  <text x="312" y="96" font-family="Arial,sans-serif" font-size="5" fill="#C8E6C9" text-anchor="middle">деятельности</text>
+  <text x="312" y="105" font-family="Arial,sans-serif" font-size="5" fill="#A5D6A7" text-anchor="middle">~110 в России</text>
+
+  <!-- National park -->
+  <rect x="370" y="64" width="105" height="45" rx="4" fill="#2E7D32" stroke="#1B5E20" stroke-width="1"/>
+  <text x="422" y="77" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle" font-weight="bold">Нац. парк</text>
+  <text x="422" y="87" font-family="Arial,sans-serif" font-size="5" fill="#C8E6C9" text-anchor="middle">Зоны: заповедная,</text>
+  <text x="422" y="96" font-family="Arial,sans-serif" font-size="5" fill="#C8E6C9" text-anchor="middle">рекреационная, хоз.</text>
+  <text x="422" y="105" font-family="Arial,sans-serif" font-size="5" fill="#A5D6A7" text-anchor="middle">~60 в России</text>
+
+  <!-- Zakaznik -->
+  <rect x="260" y="113" width="105" height="40" rx="4" fill="#388E3C" stroke="#1B5E20" stroke-width="1"/>
+  <text x="312" y="126" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle" font-weight="bold">Заказник</text>
+  <text x="312" y="136" font-family="Arial,sans-serif" font-size="5" fill="#C8E6C9" text-anchor="middle">Частичные ограничения</text>
+  <text x="312" y="145" font-family="Arial,sans-serif" font-size="5" fill="#C8E6C9" text-anchor="middle">Охрана конкретных видов</text>
+
+  <!-- Monument -->
+  <rect x="370" y="113" width="105" height="40" rx="4" fill="#43A047" stroke="#2E7D32" stroke-width="1"/>
+  <text x="422" y="126" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle" font-weight="bold">Памятник природы</text>
+  <text x="422" y="136" font-family="Arial,sans-serif" font-size="5" fill="#C8E6C9" text-anchor="middle">Отдельные объекты</text>
+  <text x="422" y="145" font-family="Arial,sans-serif" font-size="5" fill="#C8E6C9" text-anchor="middle">Дерево, пещера, водопад</text>
+
+  <!-- What everyone can do -->
+  <rect x="260" y="160" width="215" height="58" rx="4" fill="#FFF8E1" stroke="#F9A825" stroke-width="0.8"/>
+  <text x="367" y="173" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle" font-weight="bold">Что может каждый?</text>
+  <text x="268" y="185" font-family="Arial,sans-serif" font-size="5.5" fill="#333">• Не мусорить, сортировать отходы</text>
+  <text x="268" y="194" font-family="Arial,sans-serif" font-size="5.5" fill="#333">• Экономить воду и электричество</text>
+  <text x="268" y="203" font-family="Arial,sans-serif" font-size="5.5" fill="#333">• Не рвать редкие цветы</text>
+  <text x="268" y="212" font-family="Arial,sans-serif" font-size="5.5" fill="#333">• Подкармливать птиц зимой</text>
+
+  <!-- Course summary circle -->
+  <text x="250" y="233" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">Итог курса — Биология 5 класс</text>
+
+  <!-- Central circle -->
+  <circle cx="250" cy="290" r="42" fill="#2E7D32" stroke="#1B5E20" stroke-width="1.5"/>
+  <text x="250" y="283" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle" font-weight="bold">БИОЛОГИЯ</text>
+  <text x="250" y="293" font-family="Arial,sans-serif" font-size="6" fill="#C8E6C9" text-anchor="middle">5 класс</text>
+  <text x="250" y="303" font-family="Arial,sans-serif" font-size="5" fill="#A5D6A7" text-anchor="middle">живая природа</text>
+
+  <!-- Surrounding topic circles -->
+  <circle cx="145" cy="258" r="22" fill="#4CAF50" stroke="#1B5E20" stroke-width="0.8"/>
+  <text x="145" y="256" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle">Растения</text>
+  <text x="145" y="264" font-family="Arial,sans-serif" font-size="4.5" fill="#C8E6C9" text-anchor="middle">(1-30)</text>
+
+  <circle cx="355" cy="258" r="22" fill="#FF7043" stroke="#E64A19" stroke-width="0.8"/>
+  <text x="355" y="256" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle">Животные</text>
+  <text x="355" y="264" font-family="Arial,sans-serif" font-size="4.5" fill="#FFCCBC" text-anchor="middle">(35-38)</text>
+
+  <circle cx="170" cy="320" r="22" fill="#9C27B0" stroke="#6A1B9A" stroke-width="0.8"/>
+  <text x="170" y="318" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle">Грибы и</text>
+  <text x="170" y="326" font-family="Arial,sans-serif" font-size="4.5" fill="#E1BEE7" text-anchor="middle">бактерии</text>
+
+  <circle cx="330" cy="320" r="22" fill="#1565C0" stroke="#0D47A1" stroke-width="0.8"/>
+  <text x="330" y="318" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle">Экология</text>
+  <text x="330" y="326" font-family="Arial,sans-serif" font-size="4.5" fill="#BBDEFB" text-anchor="middle">(39-43)</text>
+
+  <circle cx="95" cy="290" r="20" fill="#F9A825" stroke="#E65100" stroke-width="0.8"/>
+  <text x="95" y="288" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle">Клетка</text>
+  <text x="95" y="296" font-family="Arial,sans-serif" font-size="4.5" fill="#FFF9C4" text-anchor="middle">(1-5)</text>
+
+  <circle cx="405" cy="290" r="20" fill="#795548" stroke="#5D4037" stroke-width="0.8"/>
+  <text x="405" y="288" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle">Охрана</text>
+  <text x="405" y="296" font-family="Arial,sans-serif" font-size="4.5" fill="#D7CCC8" text-anchor="middle">природы</text>
+
+  <!-- Connection lines -->
+  <line x1="165" y1="262" x2="210" y2="278" stroke="#4CAF50" stroke-width="0.5" opacity="0.6"/>
+  <line x1="335" y1="262" x2="290" y2="278" stroke="#FF7043" stroke-width="0.5" opacity="0.6"/>
+  <line x1="185" y1="318" x2="215" y2="305" stroke="#9C27B0" stroke-width="0.5" opacity="0.6"/>
+  <line x1="315" y1="318" x2="285" y2="305" stroke="#1565C0" stroke-width="0.5" opacity="0.6"/>
+  <line x1="112" y1="290" x2="210" y2="290" stroke="#F9A825" stroke-width="0.5" opacity="0.6"/>
+  <line x1="388" y1="290" x2="290" y2="290" stroke="#795548" stroke-width="0.5" opacity="0.6"/>
+
+  <!-- Key message -->
+  <text x="250" y="347" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle" font-weight="bold">Природу нужно не только изучать, но и беречь! 🌍</text>
+</svg>

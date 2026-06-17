@@ -2,42 +2,65 @@
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#EDE7F6"/>
-      <stop offset="100%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
     <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#7E57C2"/>
       <stop offset="100%" stop-color="#4527A0"/>
     </linearGradient>
   </defs>
+  <!-- Background -->
   <rect width="500" height="350" fill="url(#bg)" rx="10"/>
   <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#7E57C2" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#7E57C2" stroke-width="1" opacity="0.3"/>
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#7E57C2" text-anchor="middle">Пробное тестирование (математика)</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">ОГЭ — Урок 10</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#7E57C2" stroke-width="2" opacity="0.25"/>
-  <rect x="15" y="72" width="235" height="225" rx="4" fill="#7E57C2" opacity="0.05"/>
-  <text x="22" y="88" font-family="Arial,sans-serif" font-size="10" fill="#4527A0" font-weight="bold">Практика:</text>
-  <text x="85" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333">Решите полный вариант (25 заданий)</text>
-  <text x="22" y="108" font-family="Arial,sans-serif" font-size="10" fill="#4527A0" font-weight="bold">Время:</text>
-  <text x="85" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333">3 часа 55 минут</text>
-  <text x="22" y="128" font-family="Arial,sans-serif" font-size="10" fill="#4527A0" font-weight="bold">Часть 1:</text>
-  <text x="85" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333">1-19 — краткий ответ</text>
-  <text x="32" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333">Действуйте быстро и точно</text>
-  <text x="22" y="168" font-family="Arial,sans-serif" font-size="10" fill="#4527A0" font-weight="bold">Часть 2:</text>
-  <text x="85" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333">20-25 — развёрнутый ответ</text>
-  <rect x="255" y="72" width="230" height="225" rx="4" fill="#7E57C2" opacity="0.05"/>
-  <text x="272" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333">Показывайте полное решение!</text>
-  <text x="262" y="108" font-family="Arial,sans-serif" font-size="10" fill="#4527A0" font-weight="bold">Советы:</text>
-  <text x="325" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333">Задание 1-5 (практические) — легко</text>
-  <text x="272" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333">Задание 6-14 (алгебра) — средне</text>
-  <text x="272" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333">Задание 15-19 (геометрия) — сложнее</text>
-  <text x="262" y="168" font-family="Arial,sans-serif" font-size="10" fill="#4527A0" font-weight="bold">Часть 2:</text>
-  <text x="325" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333">Без полного решения — 0 баллов!</text>
-  <text x="272" y="188" font-family="Arial,sans-serif" font-size="10" fill="#333">Чертежи — аккуратные</text>
-  <rect x="15" y="280" width="235" height="18" rx="4" fill="#7E57C2" opacity="0.06"/>
-  <text x="132" y="293" font-family="Arial,sans-serif" font-size="9" fill="#4527A0" text-anchor="middle" font-weight="bold">Покажите ход решения в части 2!</text>
-  <rect x="255" y="280" width="230" height="18" rx="4" fill="#7E57C2" opacity="0.06"/>
-  <text x="370" y="293" font-family="Arial,sans-serif" font-size="9" fill="#4527A0" text-anchor="middle" font-weight="bold">Без обоснования — нет баллов</text>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">ОГЭ · Пробное тестирование</text>
+  <!-- Header bar -->
+  <rect x="8" y="8" width="484" height="52" rx="6" fill="url(#hdr)" opacity="0.9"/>
+  <text x="250" y="34" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Пробный ОГЭ: математика</text>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="10" fill="rgba(255,255,255,0.8)" text-anchor="middle">Подготовка к ОГЭ — Урок 10</text>
+  <!-- Decorative elements -->
+  <circle cx="460" cy="25" r="12" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="440" cy="18" r="6" fill="rgba(255,255,255,0.1)"/>
+  <!-- Content area -->
+
+  <rect x="25" y="75" width="145" height="70" rx="5" fill="white" stroke="#7E57C2" stroke-width="1"/>
+  <rect x="25" y="75" width="145" height="20" rx="5" fill="#7E57C2" opacity="0.85"/>
+  <rect x="25" y="93" width="145" height="2" fill="#7E57C2" opacity="0.85"/>
+  <text x="97" y="89" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">Тайминг</text>
+  <text x="35" y="113" font-family="Arial,sans-serif" font-size="7.5" fill="#333">Часть 1 за 30-60 мин</text>
+  <text x="35" y="125" font-family="Arial,sans-serif" font-size="7.5" fill="#333">часть 2 за 100 мин</text>
+  <text x="35" y="137" font-family="Arial,sans-serif" font-size="7.5" fill="#333">проверка 30 мин</text>
+  <rect x="180" y="75" width="145" height="70" rx="5" fill="white" stroke="#5C6BC0" stroke-width="1"/>
+  <rect x="180" y="75" width="145" height="20" rx="5" fill="#5C6BC0" opacity="0.85"/>
+  <rect x="180" y="93" width="145" height="2" fill="#5C6BC0" opacity="0.85"/>
+  <text x="252" y="89" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">Баллы</text>
+  <text x="190" y="113" font-family="Arial,sans-serif" font-size="7.5" fill="#333">Задания 20-25: по 2 балла</text>
+  <text x="190" y="125" font-family="Arial,sans-serif" font-size="7.5" fill="#333">обоснование обязательно</text>
+  <text x="190" y="137" font-family="Arial,sans-serif" font-size="7.5" fill="#333">для полного балла</text>
+  <rect x="335" y="75" width="145" height="70" rx="5" fill="white" stroke="#42A5F5" stroke-width="1"/>
+  <rect x="335" y="75" width="145" height="20" rx="5" fill="#42A5F5" opacity="0.85"/>
+  <rect x="335" y="93" width="145" height="2" fill="#42A5F5" opacity="0.85"/>
+  <text x="407" y="89" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">Чертёж</text>
+  <text x="345" y="113" font-family="Arial,sans-serif" font-size="7.5" fill="#333">Геометрия 23-25:</text>
+  <text x="345" y="125" font-family="Arial,sans-serif" font-size="7.5" fill="#333">чертёж обязателен —</text>
+  <text x="345" y="137" font-family="Arial,sans-serif" font-size="7.5" fill="#333">без него могут не засчитать</text>
+  <rect x="25" y="155" width="145" height="70" rx="5" fill="white" stroke="#26A69A" stroke-width="1"/>
+  <rect x="25" y="155" width="145" height="20" rx="5" fill="#26A69A" opacity="0.85"/>
+  <rect x="25" y="173" width="145" height="2" fill="#26A69A" opacity="0.85"/>
+  <text x="97" y="169" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">Оформление</text>
+  <text x="35" y="193" font-family="Arial,sans-serif" font-size="7.5" fill="#333">Оформление: Дано →</text>
+  <text x="35" y="205" font-family="Arial,sans-serif" font-size="7.5" fill="#333">Найти → Решение →</text>
+  <text x="35" y="217" font-family="Arial,sans-serif" font-size="7.5" fill="#333">Ответ с пояснениями</text>
+  <rect x="180" y="155" width="145" height="70" rx="5" fill="white" stroke="#66BB6A" stroke-width="1"/>
+  <rect x="180" y="155" width="145" height="20" rx="5" fill="#66BB6A" opacity="0.85"/>
+  <rect x="180" y="173" width="145" height="2" fill="#66BB6A" opacity="0.85"/>
+  <text x="252" y="169" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">Проверка</text>
+  <text x="190" y="193" font-family="Arial,sans-serif" font-size="7.5" fill="#333">Проверяй подстановкой:</text>
+  <text x="190" y="205" font-family="Arial,sans-serif" font-size="7.5" fill="#333">корни в уравнение,</text>
+  <text x="190" y="217" font-family="Arial,sans-serif" font-size="7.5" fill="#333">размерность в задачах</text>
+  <rect x="335" y="155" width="145" height="70" rx="5" fill="white" stroke="#FFA726" stroke-width="1"/>
+  <rect x="335" y="155" width="145" height="20" rx="5" fill="#FFA726" opacity="0.85"/>
+  <rect x="335" y="173" width="145" height="2" fill="#FFA726" opacity="0.85"/>
+  <text x="407" y="169" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">Обоснование</text>
+  <text x="345" y="193" font-family="Arial,sans-serif" font-size="7.5" fill="#333">Частая причина снижения</text>
+  <text x="345" y="205" font-family="Arial,sans-serif" font-size="7.5" fill="#333">балла: недостаточное</text>
+  <text x="345" y="217" font-family="Arial,sans-serif" font-size="7.5" fill="#333">обоснование решения</text>
 </svg>

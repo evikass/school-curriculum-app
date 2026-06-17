@@ -1,42 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF3E0"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
-    </linearGradient>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FFA726"/>
-      <stop offset="100%" stop-color="#E65100"/>
+    <linearGradient id="bg11" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4338ca"/>
+      <stop offset="100%" style="stop-color:#312e81"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FFA726" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#FFA726" stroke-width="1" opacity="0.3"/>
-  <polygon points="10,10 30,10 10,30" fill="#FFA726" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#E65100" opacity="0.12"/>
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#FFA726" text-anchor="middle">Маркетинг</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Экономика — Урок 11</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#FFA726" stroke-width="2" opacity="0.25"/>
-  <rect x="15" y="72" width="235" height="225" rx="4" fill="#FFA726" opacity="0.05"/>
-  <text x="22" y="88" font-family="Arial,sans-serif" font-size="10" fill="#E65100" text-anchor="start" font-weight="bold">Маркетинг —</text>
-  <text x="80" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">продвижение товаров и услуг</text>
-  <text x="22" y="108" font-family="Arial,sans-serif" font-size="10" fill="#E65100" text-anchor="start" font-weight="bold">Модель 4P:</text>
-  <text x="80" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Product — продукт (что продаём)</text>
-  <text x="32" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Price — цена (за сколько)</text>
-  <text x="32" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Place — место (где продаём)</text>
-  <text x="32" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Promotion — продвижение (как рекламируем)</text>
-  <rect x="255" y="72" width="230" height="225" rx="4" fill="#FFA726" opacity="0.05"/>
-  <text x="262" y="88" font-family="Arial,sans-serif" font-size="10" fill="#E65100" text-anchor="start" font-weight="bold">Целевая аудитория:</text>
-  <text x="320" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Кто наш покупатель?</text>
-  <text x="272" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Возраст, интересы, доходы</text>
-  <text x="262" y="128" font-family="Arial,sans-serif" font-size="10" fill="#E65100" text-anchor="start" font-weight="bold">Реклама:</text>
-  <text x="320" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Онлайн: соцсети, контекстная</text>
-  <text x="272" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Офлайн: ТВ, радио, наружная</text>
-  <text x="272" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="start">Вирусная, сарафанное радио</text>
-  <rect x="15" y="280" width="235" height="18" rx="4" fill="#FFA726" opacity="0.06"/>
-  <text x="132" y="293" font-family="Arial,sans-serif" font-size="9" fill="#E65100" text-anchor="middle" font-weight="bold">4P: Product, Price, Place, Promotion</text>
-  <rect x="255" y="280" width="230" height="18" rx="4" fill="#FFA726" opacity="0.06"/>
-  <text x="370" y="293" font-family="Arial,sans-serif" font-size="9" fill="#E65100" text-anchor="middle" font-weight="bold">УЗВ: уникальное торговое предложение</text>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Экономика · Маркетинг</text>
+  <rect width="500" height="350" fill="url(#bg11)" rx="12"/>
+  <!-- People seeking jobs -->
+  <circle cx="80" cy="80" r="20" fill="#6366f1"/>
+  <rect x="68" y="100" width="24" height="30" rx="4" fill="#6366f1"/>
+  <text x="80" y="150" font-family="sans-serif" font-size="7" fill="#c7d2fe" text-anchor="middle">Соискатель</text>
+  <!-- Employer -->
+  <rect x="340" y="50" width="130" height="90" rx="8" fill="#3730a3" stroke="#818cf8" stroke-width="1.5"/>
+  <text x="405" y="75" font-family="sans-serif" font-size="10" fill="#a5b4fc" text-anchor="middle" font-weight="bold">Работодатель</text>
+  <rect x="360" y="85" width="30" height="25" rx="3" fill="#4f46e5"/>
+  <rect x="400" y="85" width="30" height="25" rx="3" fill="#4f46e5"/>
+  <rect x="370" y="115" width="30" height="15" rx="2" fill="#6366f1"/>
+  <text x="405" y="128" font-family="sans-serif" font-size="6" fill="#c7d2fe" text-anchor="middle">Спрос на труд</text>
+  <!-- Handshake area -->
+  <rect x="140" y="70" width="180" height="50" rx="8" fill="#4338ca" stroke="#fbbf24" stroke-width="2"/>
+  <text x="230" y="92" font-family="sans-serif" font-size="10" fill="#fbbf24" text-anchor="middle" font-weight="bold">Рынок труда</text>
+  <text x="230" y="108" font-family="sans-serif" font-size="8" fill="#fde68a" text-anchor="middle">Спрос ↔ Предложение</text>
+  <!-- Arrows -->
+  <line x1="105" y1="90" x2="135" y2="90" stroke="#a5b4fc" stroke-width="2"/>
+  <polygon points="135,87 140,90 135,93" fill="#a5b4fc"/>
+  <line x1="335" y1="90" x2="325" y2="90" stroke="#a5b4fc" stroke-width="2"/>
+  <polygon points="325,87 320,90 325,93" fill="#a5b4fc"/>
+  <!-- Salary types -->
+  <rect x="30" y="170" width="210" height="70" rx="6" fill="#312e81" stroke="#818cf8" stroke-width="1"/>
+  <text x="135" y="190" font-family="sans-serif" font-size="9" fill="#a5b4fc" text-anchor="middle" font-weight="bold">Зарплата</text>
+  <rect x="40" y="200" width="90" height="25" rx="4" fill="#4338ca"/>
+  <text x="85" y="216" font-family="sans-serif" font-size="8" fill="#c7d2fe" text-anchor="middle">Номинальная</text>
+  <rect x="140" y="200" width="90" height="25" rx="4" fill="#4f46e5"/>
+  <text x="185" y="216" font-family="sans-serif" font-size="8" fill="#c7d2fe" text-anchor="middle">Реальная</text>
+  <text x="135" y="235" font-family="sans-serif" font-size="7" fill="#818cf8" text-anchor="middle">Реальная = Номинальная / Уровень цен</text>
+  <!-- Unemployment types -->
+  <rect x="260" y="170" width="220" height="100" rx="6" fill="#312e81" stroke="#fca5a5" stroke-width="1.5"/>
+  <text x="370" y="190" font-family="sans-serif" font-size="9" fill="#fca5a5" text-anchor="middle" font-weight="bold">Виды безработицы</text>
+  <rect x="270" y="200" width="95" height="22" rx="4" fill="#4338ca"/>
+  <text x="317" y="215" font-family="sans-serif" font-size="7" fill="#c7d2fe" text-anchor="middle">Фрикционная</text>
+  <rect x="375" y="200" width="95" height="22" rx="4" fill="#4338ca"/>
+  <text x="422" y="215" font-family="sans-serif" font-size="7" fill="#c7d2fe" text-anchor="middle">Структурная</text>
+  <rect x="270" y="230" width="95" height="22" rx="4" fill="#4338ca"/>
+  <text x="317" y="245" font-family="sans-serif" font-size="7" fill="#c7d2fe" text-anchor="middle">Циклическая</text>
+  <rect x="375" y="230" width="95" height="22" rx="4" fill="#4338ca"/>
+  <text x="422" y="245" font-family="sans-serif" font-size="7" fill="#c7d2fe" text-anchor="middle">Сезонная</text>
+  <!-- Natural rate -->
+  <rect x="120" y="280" width="260" height="35" rx="6" fill="#312e81" stroke="#10b981" stroke-width="1.5"/>
+  <text x="250" y="302" font-family="sans-serif" font-size="9" fill="#6ee7b7" text-anchor="middle" font-weight="bold">Естественный уровень безработицы: 5-6%</text>
+  <text x="250" y="340" font-family="sans-serif" font-size="9" fill="white" text-anchor="middle" opacity="0.5">Рынок труда</text>
 </svg>

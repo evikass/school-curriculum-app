@@ -4,7 +4,7 @@
 import os
 import html
 
-OUTPUT_DIR = "/home/z/my-project/school-curriculum-app/public/images/lessons/grade11/economy"
+OUTPUT_DIR = "/home/z/school-curriculum-app/public/images/lessons/grade11/economy"
 
 LESSONS = [
     (1, "Мировое хозяйство"),

@@ -1,37 +1,119 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
+    <linearGradient id="bgR6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1923"/>
+      <stop offset="100%" stop-color="#1a3045"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#263238"/>
-      <stop offset="100%" stop-color="#37474F"/>
+    <linearGradient id="metalR6" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b0bec5"/>
+      <stop offset="50%" stop-color="#78909c"/>
+      <stop offset="100%" stop-color="#546e7a"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#37474F" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#37474F" stroke-width="1" opacity="0.3"/>
-  <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#37474F" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#37474F" text-anchor="middle">Моторы и драйверы</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Робототехника - Урок 6</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#37474F" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#37474F" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA -->
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#ECEFF1"/><text x="250" y="130" font-family="Arial,sans-serif" font-size="20" fill="#37474F" text-anchor="middle" font-weight="bold">Моторы и драйверы</text><rect x="25" y="155" width="140" height="45" rx="5" fill="#E3F2FD" stroke="#37474F" stroke-width="1.5"/><text x="95" y="182" font-family="Arial" font-size="12" fill="#37474F" text-anchor="middle">DC-моторы (постоянного ...</text><rect x="170" y="155" width="140" height="45" rx="5" fill="#FFF3E0" stroke="#263238" stroke-width="1.5"/><text x="240" y="182" font-family="Arial" font-size="12" fill="#263238" text-anchor="middle">Зачем нужен драйвер:</text><rect x="315" y="155" width="140" height="45" rx="5" fill="#FFFDE7" stroke="#F9A825" stroke-width="1.5"/><text x="385" y="182" font-family="Arial" font-size="12" fill="#F9A825" text-anchor="middle">Виды моторов:</text><rect x="25" y="210" width="140" height="45" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/><text x="95" y="238" font-family="Arial" font-size="12" fill="#2E7D32" text-anchor="middle">Сервоприводы:</text><rect x="170" y="210" width="140" height="45" rx="5" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="1.5"/><text x="240" y="238" font-family="Arial" font-size="12" fill="#6A1B9A" text-anchor="middle">Шаговые двигатели:</text><rect x="315" y="210" width="140" height="45" rx="5" fill="#FFEBEE" stroke="#E65100" stroke-width="1.5"/><text x="385" y="238" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">Драйвер моторов:</text>
-  <rect x="435" y="270" width="20" height="20" rx="2" fill="#37474F" opacity="0.12"/><rect x="445" y="280" width="15" height="15" rx="2" fill="#263238" opacity="0.08"/>
+  <rect width="500" height="350" fill="url(#bgR6)"/>
+  <!-- DC Motor (left) -->
+  <g transform="translate(20, 25)">
+    <rect x="0" y="0" width="150" height="140" rx="8" fill="#1e2a3a" stroke="#30363d" stroke-width="1.5"/>
+    <text x="75" y="18" fill="#6c5ce7" font-size="10" font-family="sans-serif" text-anchor="middle" font-weight="bold">Двигатель постоянного тока</text>
+    <!-- Motor body -->
+    <rect x="25" y="30" width="70" height="60" rx="6" fill="url(#metalR6)" stroke="#546e7a" stroke-width="1.5"/>
+    <circle cx="60" cy="60" r="15" fill="#333" stroke="#555" stroke-width="1.5"/>
+    <circle cx="60" cy="60" r="8" fill="#444"/>
+    <circle cx="60" cy="60" r="3" fill="#666"/>
+    <!-- Shaft -->
+    <rect x="95" y="54" width="30" height="12" rx="2" fill="#888" stroke="#666" stroke-width="1"/>
+    <!-- Wires -->
+    <line x1="30" y1="95" x2="30" y2="115" stroke="#ff5f56" stroke-width="2.5"/>
+    <line x1="50" y1="95" x2="50" y2="115" stroke="#3333ff" stroke-width="2.5"/>
+    <text x="30" y="130" fill="#ff5f56" font-size="7" font-family="monospace">+</text>
+    <text x="50" y="130" fill="#3333ff" font-size="7" font-family="monospace">−</text>
+    <!-- Rotation arrow -->
+    <path d="M55,40 A10,10 0 1,1 65,40" fill="none" stroke="#ffd93d" stroke-width="1.5"/>
+    <polygon points="65,40 62,35 68,37" fill="#ffd93d"/>
+    <text x="75" y="130" fill="#8b949e" font-size="8" font-family="monospace" text-anchor="middle">3-12В, 200-10000 об/мин</text>
   </g>
-  <!-- Bottom panel -->
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Робототехника</text>
+  <!-- Servo motor (center) -->
+  <g transform="translate(180, 25)">
+    <rect x="0" y="0" width="150" height="140" rx="8" fill="#1e2a3a" stroke="#30363d" stroke-width="1.5"/>
+    <text x="75" y="18" fill="#00b894" font-size="10" font-family="sans-serif" text-anchor="middle" font-weight="bold">Сервопривод</text>
+    <!-- Servo body -->
+    <rect x="20" y="30" width="85" height="50" rx="6" fill="url(#metalR6)" stroke="#546e7a" stroke-width="1.5"/>
+    <!-- Servo top -->
+    <rect x="20" y="25" width="85" height="10" rx="3" fill="#333" stroke="#555" stroke-width="1"/>
+    <!-- Shaft -->
+    <circle cx="70" cy="30" r="6" fill="#888" stroke="#666" stroke-width="1"/>
+    <!-- Horn -->
+    <rect x="60" y="18" width="25" height="10" rx="3" fill="#fff" stroke="#ddd" stroke-width="1"/>
+    <!-- Wires -->
+    <line x1="35" y1="80" x2="35" y2="105" stroke="#ff5f56" stroke-width="2.5"/>
+    <line x1="50" y1="80" x2="50" y2="105" stroke="#333" stroke-width="2.5"/>
+    <line x1="65" y1="80" x2="65" y2="105" stroke="#ffd93d" stroke-width="2.5"/>
+    <text x="35" y="120" fill="#ff5f56" font-size="7" font-family="monospace">VCC</text>
+    <text x="50" y="120" fill="#aaa" font-size="7" font-family="monospace">GND</text>
+    <text x="65" y="120" fill="#ffd93d" font-size="7" font-family="monospace">SIG</text>
+    <!-- Angle arc -->
+    <path d="M70,50 A25,25 0 0,1 45,65" fill="none" stroke="#00b894" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <text x="42" y="55" fill="#00b894" font-size="8" font-family="monospace">0°-180°</text>
+    <text x="75" y="130" fill="#8b949e" font-size="8" font-family="monospace" text-anchor="middle">Точный угол, ШИМ</text>
+  </g>
+  <!-- H-Bridge (right) -->
+  <g transform="translate(340, 25)">
+    <rect x="0" y="0" width="150" height="140" rx="8" fill="#1e2a3a" stroke="#30363d" stroke-width="1.5"/>
+    <text x="75" y="18" fill="#e17055" font-size="10" font-family="sans-serif" text-anchor="middle" font-weight="bold">H-мост (L298N)</text>
+    <!-- H-Bridge chip -->
+    <rect x="30" y="30" width="90" height="60" rx="4" fill="#1a1a1a" stroke="#333" stroke-width="1.5"/>
+    <text x="75" y="60" fill="#e17055" font-size="10" font-family="monospace" text-anchor="middle">L298N</text>
+    <text x="75" y="75" fill="#aaa" font-size="7" font-family="monospace" text-anchor="middle">Dual H-Bridge</text>
+    <!-- H-bridge circuit diagram -->
+    <g transform="translate(40, 100)" stroke="#ffd93d" stroke-width="1" fill="none" opacity="0.6">
+      <!-- Switches forming H -->
+      <line x1="0" y1="0" x2="0" y2="30"/>
+      <line x1="70" y1="0" x2="70" y2="30"/>
+      <line x1="0" y1="0" x2="20" y2="0"/>
+      <line x1="50" y1="0" x2="70" y2="0"/>
+      <line x1="0" y1="30" x2="20" y2="30"/>
+      <line x1="50" y1="30" x2="70" y2="30"/>
+      <!-- Motor in middle -->
+      <circle cx="35" cy="15" r="8" fill="none" stroke="#00b894"/>
+      <text x="35" y="18" fill="#00b894" font-size="7" font-family="monospace" text-anchor="middle">M</text>
+      <line x1="20" y1="15" x2="27" y2="15"/>
+      <line x1="43" y1="15" x2="50" y2="15"/>
+      <!-- Switch symbols -->
+      <line x1="20" y1="0" x2="30" y2="8" stroke="#e17055" stroke-width="1.5"/>
+      <line x1="40" y1="0" x2="50" y2="8" stroke="#e17055" stroke-width="1.5"/>
+      <line x1="20" y1="30" x2="30" y2="22" stroke="#e17055" stroke-width="1.5"/>
+      <line x1="40" y1="30" x2="50" y2="22" stroke="#e17055" stroke-width="1.5"/>
+    </g>
+  </g>
+  <!-- Driver table -->
+  <rect x="15" y="180" width="470" height="140" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <text x="250" y="200" fill="#e0e0e0" font-size="12" font-family="sans-serif" text-anchor="middle" font-weight="bold">Драйверы моторов</text>
+  <!-- Table content -->
+  <text x="70" y="222" fill="#ffd93d" font-size="9" font-family="monospace" text-anchor="middle">Драйвер</text>
+  <text x="170" y="222" fill="#ffd93d" font-size="9" font-family="monospace" text-anchor="middle">Моторы</text>
+  <text x="270" y="222" fill="#ffd93d" font-size="9" font-family="monospace" text-anchor="middle">Ток</text>
+  <text x="370" y="222" fill="#ffd93d" font-size="9" font-family="monospace" text-anchor="middle">Напряж.</text>
+  <text x="450" y="222" fill="#ffd93d" font-size="9" font-family="monospace" text-anchor="middle">ШИМ</text>
+  <line x1="25" y1="228" x2="475" y2="228" stroke="#30363d" stroke-width="1"/>
+  <text x="70" y="245" fill="#c9d1d9" font-size="9" font-family="monospace" text-anchor="middle">L298N</text>
+  <text x="170" y="245" fill="#c9d1d9" font-size="9" font-family="monospace" text-anchor="middle">2 DC</text>
+  <text x="270" y="245" fill="#c9d1d9" font-size="9" font-family="monospace" text-anchor="middle">2A</text>
+  <text x="370" y="245" fill="#c9d1d9" font-size="9" font-family="monospace" text-anchor="middle">5-35В</text>
+  <text x="450" y="245" fill="#00b894" font-size="9" font-family="monospace" text-anchor="middle">Да</text>
+  <text x="70" y="265" fill="#c9d1d9" font-size="9" font-family="monospace" text-anchor="middle">L293D</text>
+  <text x="170" y="265" fill="#c9d1d9" font-size="9" font-family="monospace" text-anchor="middle">2 DC</text>
+  <text x="270" y="265" fill="#c9d1d9" font-size="9" font-family="monospace" text-anchor="middle">0.6A</text>
+  <text x="370" y="265" fill="#c9d1d9" font-size="9" font-family="monospace" text-anchor="middle">4.5-36В</text>
+  <text x="450" y="265" fill="#00b894" font-size="9" font-family="monospace" text-anchor="middle">Да</text>
+  <text x="70" y="285" fill="#c9d1d9" font-size="9" font-family="monospace" text-anchor="middle">TB6612</text>
+  <text x="170" y="285" fill="#c9d1d9" font-size="9" font-family="monospace" text-anchor="middle">2 DC</text>
+  <text x="270" y="285" fill="#c9d1d9" font-size="9" font-family="monospace" text-anchor="middle">1.2A</text>
+  <text x="370" y="285" fill="#c9d1d9" font-size="9" font-family="monospace" text-anchor="middle">2.5-13В</text>
+  <text x="450" y="285" fill="#00b894" font-size="9" font-family="monospace" text-anchor="middle">Да</text>
+  <text x="70" y="305" fill="#c9d1d9" font-size="9" font-family="monospace" text-anchor="middle">Servo lib</text>
+  <text x="170" y="305" fill="#c9d1d9" font-size="9" font-family="monospace" text-anchor="middle">1 Servo</text>
+  <text x="270" y="305" fill="#c9d1d9" font-size="9" font-family="monospace" text-anchor="middle">—</text>
+  <text x="370" y="305" fill="#c9d1d9" font-size="9" font-family="monospace" text-anchor="middle">5В</text>
+  <text x="450" y="305" fill="#ffd93d" font-size="9" font-family="monospace" text-anchor="middle">ШИМ</text>
+  <text x="250" y="340" fill="#aaa" font-size="9" opacity="0.5" font-family="sans-serif" text-anchor="middle">Моторы и драйверы</text>
 </svg>

@@ -1,32 +1,66 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" style="stop-color:#E8F5E9;stop-opacity:0.6"/><stop offset="100%" style="stop-color:#C8E6C9;stop-opacity:0.3"/>
-  </linearGradient></defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="14"/>
-  <rect x="4" y="4" width="492" height="342" rx="12" fill="none" stroke="#4E342E" stroke-width="2.5" opacity="0.35"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#4E342E" text-anchor="middle">Грибы</text>
-  <line x1="40" y1="62" x2="460" y2="62" stroke="#4E342E" stroke-width="2" opacity="0.3"/>
-  <rect x="40" y="74" width="100" height="5" rx="2.5" fill="#4E342E" opacity="0.2"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+  <text x="250" y="30" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#2E7D32" text-anchor="middle">Химический состав клетки</text>
+  <text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 5 класс - Урок 6</text>
+  <line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
   
-    <ellipse cx="420" cy="55" rx="25" ry="15" fill="#4E342E" opacity="0.15"/>
-    <rect x="416" y="60" width="8" height="25" rx="3" fill="#4E342E" opacity="0.12"/>
-  
-    <rect x="30" y="100" width="210" height="90" rx="12" fill="white" stroke="#4E342E" stroke-width="2.5" opacity="0.95"/>
-    <text x="135" y="142" font-family="Arial,sans-serif" font-size="26" text-anchor="middle" fill="#4E342E" font-weight="bold">🎩</text>
-    <text x="135" y="172" font-family="Arial,sans-serif" font-size="17" text-anchor="middle" fill="#333" font-weight="bold">Шляпка</text>
-    <text x="135" y="186" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#666">споры</text>
-    <rect x="260" y="100" width="210" height="90" rx="12" fill="white" stroke="#4E342E" stroke-width="2.5" opacity="0.95"/>
-    <text x="365" y="142" font-family="Arial,sans-serif" font-size="26" text-anchor="middle" fill="#4E342E" font-weight="bold">🪵</text>
-    <text x="365" y="172" font-family="Arial,sans-serif" font-size="17" text-anchor="middle" fill="#333" font-weight="bold">Ножка</text>
-    <text x="365" y="186" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#666">опора</text>
-    <rect x="30" y="210" width="210" height="90" rx="12" fill="white" stroke="#4E342E" stroke-width="2.5" opacity="0.95"/>
-    <text x="135" y="252" font-family="Arial,sans-serif" font-size="26" text-anchor="middle" fill="#4E342E" font-weight="bold">🕸️</text>
-    <text x="135" y="282" font-family="Arial,sans-serif" font-size="17" text-anchor="middle" fill="#333" font-weight="bold">Грибница</text>
-    <text x="135" y="296" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#666">мицелий</text>
-    <rect x="260" y="210" width="210" height="90" rx="12" fill="white" stroke="#4E342E" stroke-width="2.5" opacity="0.95"/>
-    <text x="365" y="252" font-family="Arial,sans-serif" font-size="26" text-anchor="middle" fill="#4E342E" font-weight="bold">🍄</text>
-    <text x="365" y="282" font-family="Arial,sans-serif" font-size="17" text-anchor="middle" fill="#333" font-weight="bold">Белый гриб</text>
-    <text x="365" y="296" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#666">царь грибов</text>
-  <rect x="30" y="315" width="440" height="26" rx="8" fill="#4E342E" opacity="0.08"/>
-  <text x="250" y="333" font-family="Arial,sans-serif" font-size="15" fill="#4E342E" text-anchor="middle" font-weight="bold">Грибы — отдельное царство</text>
+  <!-- Pie chart of cell chemical composition -->
+  <g transform="translate(160,190)">
+    <!-- Water - 70% (large blue sector) -->
+    <path d="M0 0 L0 -100 A100 100 0 1 1 -81 -59 Z" fill="#42A5F5" opacity="0.8"/>
+    <!-- Proteins - 15% -->
+    <path d="M0 0 L-81 -59 A100 100 0 0 1 -95 31 Z" fill="#EF5350" opacity="0.8"/>
+    <!-- Lipids - 8% -->
+    <path d="M0 0 L-95 31 A100 100 0 0 1 -56 82 Z" fill="#FFC107" opacity="0.8"/>
+    <!-- Carbohydrates - 4% -->
+    <path d="M0 0 L-56 82 A100 100 0 0 1 -22 97 Z" fill="#66BB6A" opacity="0.8"/>
+    <!-- Nucleic acids - 3% -->
+    <path d="M0 0 L-22 97 A100 100 0 0 1 0 100 Z" fill="#AB47BC" opacity="0.8"/>
+    <!-- Center circle -->
+    <circle cx="0" cy="0" r="35" fill="white" opacity="0.9"/>
+    <text x="0" y="-3" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle" font-weight="bold">Хим.</text>
+    <text x="0" y="10" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle" font-weight="bold">состав</text>
+  </g>
+  <!-- Legend -->
+  <g transform="translate(310,80)">
+    <rect x="0" y="0" width="170" height="150" rx="6" fill="white" stroke="#ddd" stroke-width="1" opacity="0.9"/>
+    <rect x="10" y="10" width="14" height="14" fill="#42A5F5" opacity="0.8" rx="2"/>
+    <text x="30" y="22" font-family="Arial,sans-serif" font-size="10" fill="#333">Вода - 70%</text>
+    <rect x="10" y="32" width="14" height="14" fill="#EF5350" opacity="0.8" rx="2"/>
+    <text x="30" y="44" font-family="Arial,sans-serif" font-size="10" fill="#333">Белки - 15%</text>
+    <rect x="10" y="54" width="14" height="14" fill="#FFC107" opacity="0.8" rx="2"/>
+    <text x="30" y="66" font-family="Arial,sans-serif" font-size="10" fill="#333">Липиды - 8%</text>
+    <rect x="10" y="76" width="14" height="14" fill="#66BB6A" opacity="0.8" rx="2"/>
+    <text x="30" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333">Углеводы - 4%</text>
+    <rect x="10" y="98" width="14" height="14" fill="#AB47BC" opacity="0.8" rx="2"/>
+    <text x="30" y="110" font-family="Arial,sans-serif" font-size="10" fill="#333">Нуклеиновые к-ты - 3%</text>
+    <!-- Chemical symbols -->
+    <text x="85" y="135" font-family="Arial,sans-serif" font-size="8" fill="#666" text-anchor="middle">C H O N P S</text>
+  </g>
+  <!-- Molecule illustrations -->
+  <!-- Water molecule -->
+  <g transform="translate(80,90)">
+    <circle cx="0" cy="0" r="8" fill="#F44336" opacity="0.7"/>
+    <text x="0" y="3" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">O</text>
+    <circle cx="-12" cy="8" r="5" fill="#fff" stroke="#ccc" stroke-width="1"/>
+    <text x="-12" y="11" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">H</text>
+    <circle cx="12" cy="8" r="5" fill="#fff" stroke="#ccc" stroke-width="1"/>
+    <text x="12" y="11" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">H</text>
+    <line x1="-5" y1="4" x2="-9" y2="6" stroke="#999" stroke-width="1"/>
+    <line x1="5" y1="4" x2="9" y2="6" stroke="#999" stroke-width="1"/>
+    <text x="0" y="25" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">H2O</text>
+  </g>
+  <!-- Organic/Inorganic label -->
+  <rect x="30" y="290" width="200" height="22" rx="4" fill="#2E7D32" opacity="0.1"/>
+  <text x="130" y="305" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle">Неорганические и органические вещества</text>
+
+  <rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
+  <text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 5 класс</text>
 </svg>

@@ -4,7 +4,7 @@
 import os
 import xml.etree.ElementTree as ET
 
-OUTPUT_DIR = "/home/z/my-project/school-curriculum-app/public/images/lessons/grade11/russian"
+OUTPUT_DIR = "/home/z/school-curriculum-app/public/images/lessons/grade11/russian"
 
 # Color scheme
 PRIMARY = "#D32F2F"

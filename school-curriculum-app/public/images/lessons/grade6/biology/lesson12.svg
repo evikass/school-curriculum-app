@@ -1,0 +1,267 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+<linearGradient id="capBrown" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#8D6E63"/><stop offset="100%" stop-color="#5D4037"/></linearGradient>
+<linearGradient id="capRed" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#E53935"/><stop offset="100%" stop-color="#B71C1C"/></linearGradient>
+<linearGradient id="capYellow" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFEE58"/><stop offset="100%" stop-color="#F9A825"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Многообразие грибов: шляпочные, плесневые, дрожжи</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 6 класс — Урок 12</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- Section 1: Шляпочные грибы -->
+<text x="145" y="67" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Шляпочные грибы</text>
+
+<!-- Трубчатые label -->
+<text x="72" y="82" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#5D4037" text-anchor="middle">Трубчатые</text>
+
+<!-- White mushroom (Боровик/Белый) -->
+<g transform="translate(35,90)">
+<ellipse cx="37" cy="18" rx="30" ry="16" fill="url(#capBrown)" stroke="#4E342E" stroke-width="1"/>
+<rect x="31" y="34" width="12" height="35" rx="3" fill="#EFEBE9" stroke="#8D6E63" stroke-width="0.8"/>
+<!-- Tube surface under cap -->
+<rect x="15" y="30" width="44" height="6" rx="2" fill="#FFCC80" opacity="0.5" stroke="#E65100" stroke-width="0.5"/>
+<!-- Small tubes visible -->
+<circle cx="22" cy="33" r="1" fill="#E65100" opacity="0.4"/>
+<circle cx="27" cy="33" r="1" fill="#E65100" opacity="0.4"/>
+<circle cx="32" cy="33" r="1" fill="#E65100" opacity="0.4"/>
+<circle cx="37" cy="33" r="1" fill="#E65100" opacity="0.4"/>
+<circle cx="42" cy="33" r="1" fill="#E65100" opacity="0.4"/>
+<circle cx="47" cy="33" r="1" fill="#E65100" opacity="0.4"/>
+<circle cx="52" cy="33" r="1" fill="#E65100" opacity="0.4"/>
+<text x="37" y="80" font-family="Arial,sans-serif" font-size="6" fill="#5D4037" text-anchor="middle">Белый гриб</text>
+</g>
+
+<!-- Подосиновик -->
+<g transform="translate(100,95)">
+<ellipse cx="30" cy="16" rx="25" ry="14" fill="#E53935" opacity="0.8" stroke="#B71C1C" stroke-width="0.8"/>
+<rect x="25" y="30" width="10" height="28" rx="2" fill="#EFEBE9" stroke="#8D6E63" stroke-width="0.8"/>
+<rect x="15" y="27" width="30" height="5" rx="2" fill="#FFCC80" opacity="0.4" stroke="#E65100" stroke-width="0.4"/>
+<text x="30" y="68" font-family="Arial,sans-serif" font-size="6" fill="#5D4037" text-anchor="middle">Подосиновик</text>
+</g>
+
+<!-- Пластинчатые label -->
+<text x="215" y="82" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#5D4037" text-anchor="middle">Пластинчатые</text>
+
+<!-- Сыроежка -->
+<g transform="translate(180,90)">
+<ellipse cx="32" cy="18" rx="26" ry="14" fill="#E8F5E9" stroke="#4CAF50" stroke-width="0.8"/>
+<rect x="27" y="32" width="10" height="32" rx="2" fill="#EFEBE9" stroke="#8D6E63" stroke-width="0.8"/>
+<!-- Gills -->
+<line x1="18" y1="28" x2="26" y2="42" stroke="#C8E6C9" stroke-width="0.5"/>
+<line x1="23" y1="28" x2="28" y2="44" stroke="#C8E6C9" stroke-width="0.5"/>
+<line x1="28" y1="28" x2="30" y2="44" stroke="#C8E6C9" stroke-width="0.5"/>
+<line x1="36" y1="28" x2="34" y2="44" stroke="#C8E6C9" stroke-width="0.5"/>
+<line x1="41" y1="28" x2="38" y2="42" stroke="#C8E6C9" stroke-width="0.5"/>
+<line x1="46" y1="28" x2="40" y2="38" stroke="#C8E6C9" stroke-width="0.5"/>
+<text x="32" y="76" font-family="Arial,sans-serif" font-size="6" fill="#5D4037" text-anchor="middle">Сыроежка</text>
+</g>
+
+<!-- Вешенка -->
+<g transform="translate(240,100)">
+<path d="M5,25 Q15,5 35,0 Q45,5 40,20 Q35,30 25,30 Q15,30 5,25Z" fill="#EFEBE9" stroke="#8D6E63" stroke-width="0.8"/>
+<rect x="22" y="28" width="6" height="22" rx="1" fill="#EFEBE9" stroke="#8D6E63" stroke-width="0.7"/>
+<text x="22" y="60" font-family="Arial,sans-serif" font-size="6" fill="#5D4037" text-anchor="middle">Вешенка</text>
+</g>
+
+<!-- Divider line -->
+<line x1="30" y1="175" x2="470" y2="175" stroke="#2E7D32" stroke-width="0.5" opacity="0.3"/>
+
+<!-- Edible vs Poisonous -->
+<g transform="translate(20,180)">
+<rect x="0" y="0" width="130" height="55" rx="4" fill="#E8F5E9" opacity="0.5" stroke="#4CAF50" stroke-width="0.8"/>
+<text x="65" y="12" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#2E7D32" text-anchor="middle">Съедобные</text>
+<text x="8" y="24" font-family="Arial,sans-serif" font-size="6" fill="#333">✓ Белый, Подберёзовик</text>
+<text x="8" y="34" font-family="Arial,sans-serif" font-size="6" fill="#333">✓ Шампиньон, Опёнок</text>
+<text x="8" y="44" font-family="Arial,sans-serif" font-size="6" fill="#333">✓ Лисичка, Рыжик</text>
+<text x="8" y="54" font-family="Arial,sans-serif" font-size="5.5" fill="#666">Перед употреблением —</text>
+<text x="8" y="62" font-family="Arial,sans-serif" font-size="5.5" fill="#666">обязательная термообработка!</text>
+</g>
+
+<g transform="translate(155,180)">
+<rect x="0" y="0" width="130" height="55" rx="4" fill="#FFEBEE" opacity="0.5" stroke="#F44336" stroke-width="0.8"/>
+<text x="65" y="12" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#C62828" text-anchor="middle">Ядовитые</text>
+<text x="8" y="24" font-family="Arial,sans-serif" font-size="6" fill="#333">✗ Бледная поганка</text>
+<text x="8" y="34" font-family="Arial,sans-serif" font-size="6" fill="#333">✗ Мухомор красный</text>
+<text x="8" y="44" font-family="Arial,sans-serif" font-size="6" fill="#333">✗ Ложный опёнок</text>
+<text x="8" y="54" font-family="Arial,sans-serif" font-size="5.5" fill="#C62828">Смертельно опасны!</text>
+</g>
+
+<!-- Мухомор illustration -->
+<g transform="translate(200,85)">
+<ellipse cx="65" cy="50" rx="22" ry="14" fill="url(#capRed)" stroke="#B71C1C" stroke-width="0.8"/>
+<!-- White spots -->
+<circle cx="55" cy="43" r="3.5" fill="white" opacity="0.8"/>
+<circle cx="70" cy="40" r="4" fill="white" opacity="0.8"/>
+<circle cx="62" cy="48" r="3" fill="white" opacity="0.8"/>
+<circle cx="78" cy="46" r="2.5" fill="white" opacity="0.7"/>
+<rect x="60" y="64" width="10" height="30" rx="2" fill="#EFEBE9" stroke="#8D6E63" stroke-width="0.7"/>
+<!-- Ring -->
+<ellipse cx="65" cy="78" rx="8" ry="2.5" fill="#D7CCC8" stroke="#8D6E63" stroke-width="0.5"/>
+<!-- Gills -->
+<line x1="50" y1="58" x2="58" y2="72" stroke="#FFCDD2" stroke-width="0.4"/>
+<line x1="55" y1="58" x2="61" y2="74" stroke="#FFCDD2" stroke-width="0.4"/>
+<line x1="60" y1="58" x2="63" y2="74" stroke="#FFCDD2" stroke-width="0.4"/>
+<line x1="70" y1="58" x2="67" y2="74" stroke="#FFCDD2" stroke-width="0.4"/>
+<line x1="75" y1="58" x2="72" y2="72" stroke="#FFCDD2" stroke-width="0.4"/>
+<line x1="80" y1="58" x2="75" y2="68" stroke="#FFCDD2" stroke-width="0.4"/>
+<text x="65" y="102" font-family="Arial,sans-serif" font-size="6" fill="#C62828" text-anchor="middle">Мухомор</text>
+</g>
+
+<!-- Section 2: Плесневые грибы -->
+<text x="370" y="67" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Плесневые грибы</text>
+
+<!-- Мукор -->
+<g transform="translate(310,78)">
+<rect x="0" y="0" width="55" height="88" rx="4" fill="white" opacity="0.4" stroke="#9E9E9E" stroke-width="0.5"/>
+<text x="27" y="10" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#616161" text-anchor="middle">Мукор</text>
+<!-- Substrate -->
+<rect x="5" y="72" width="45" height="10" rx="2" fill="#FFCC80" opacity="0.5"/>
+<!-- Sporangiophore -->
+<line x1="27" y1="72" x2="27" y2="30" stroke="#4CAF50" stroke-width="1.2"/>
+<!-- Sporangium -->
+<circle cx="27" cy="24" r="10" fill="#4CAF50" opacity="0.3" stroke="#2E7D32" stroke-width="1"/>
+<!-- Spores inside -->
+<circle cx="24" cy="22" r="1.2" fill="#1B5E20" opacity="0.5"/>
+<circle cx="28" cy="20" r="1" fill="#1B5E20" opacity="0.5"/>
+<circle cx="30" cy="24" r="1.2" fill="#1B5E20" opacity="0.5"/>
+<circle cx="25" cy="26" r="1" fill="#1B5E20" opacity="0.5"/>
+<circle cx="30" cy="28" r="0.8" fill="#1B5E20" opacity="0.5"/>
+<!-- Columella -->
+<ellipse cx="27" cy="24" rx="4" ry="3" fill="#2E7D32" opacity="0.3"/>
+<text x="27" y="56" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32" text-anchor="middle">спорангий</text>
+<line x1="27" y1="34" x2="27" y2="53" stroke="#2E7D32" stroke-width="0.3" stroke-dasharray="1,1"/>
+<text x="27" y="85" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">белая плесень</text>
+</g>
+
+<!-- Пенициллиум -->
+<g transform="translate(375,78)">
+<rect x="0" y="0" width="65" height="88" rx="4" fill="white" opacity="0.4" stroke="#9E9E9E" stroke-width="0.5"/>
+<text x="32" y="10" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#616161" text-anchor="middle">Пенициллиум</text>
+<!-- Substrate -->
+<rect x="5" y="72" width="55" height="10" rx="2" fill="#FFCC80" opacity="0.5"/>
+<!-- Conidiophore -->
+<line x1="32" y1="72" x2="32" y2="35" stroke="#1976D2" stroke-width="1"/>
+<!-- Brush-like conidial head -->
+<path d="M32,35 Q25,28 20,22" fill="none" stroke="#1976D2" stroke-width="0.8"/>
+<path d="M32,35 Q28,25 25,18" fill="none" stroke="#1976D2" stroke-width="0.8"/>
+<path d="M32,35 Q32,24 32,16" fill="none" stroke="#1976D2" stroke-width="0.8"/>
+<path d="M32,35 Q36,25 39,18" fill="none" stroke="#1976D2" stroke-width="0.8"/>
+<path d="M32,35 Q39,28 44,22" fill="none" stroke="#1976D2" stroke-width="0.8"/>
+<!-- Conidia chains -->
+<circle cx="19" cy="20" r="1.5" fill="#42A5F5" opacity="0.7"/>
+<circle cx="17" cy="22" r="1.3" fill="#42A5F5" opacity="0.6"/>
+<circle cx="24" cy="15" r="1.5" fill="#42A5F5" opacity="0.7"/>
+<circle cx="22" cy="17" r="1.3" fill="#42A5F5" opacity="0.6"/>
+<circle cx="32" cy="13" r="1.5" fill="#42A5F5" opacity="0.7"/>
+<circle cx="32" cy="11" r="1.3" fill="#42A5F5" opacity="0.6"/>
+<circle cx="40" cy="15" r="1.5" fill="#42A5F5" opacity="0.7"/>
+<circle cx="42" cy="17" r="1.3" fill="#42A5F5" opacity="0.6"/>
+<circle cx="45" cy="20" r="1.5" fill="#42A5F5" opacity="0.7"/>
+<circle cx="47" cy="22" r="1.3" fill="#42A5F5" opacity="0.6"/>
+<text x="32" y="55" font-family="Arial,sans-serif" font-size="5.5" fill="#1565C0" text-anchor="middle">конидии</text>
+<text x="32" y="85" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">зелёная плесень</text>
+</g>
+
+<!-- Section 3: Дрожжи -->
+<text x="440" y="67" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1B5E20" text-anchor="middle">Дрожжи</text>
+
+<g transform="translate(410,78)">
+<rect x="0" y="0" width="80" height="88" rx="4" fill="white" opacity="0.4" stroke="#9E9E9E" stroke-width="0.5"/>
+<!-- Budding yeast cells -->
+<!-- Mother cell -->
+<ellipse cx="30" cy="30" rx="10" ry="8" fill="#FFECB3" stroke="#F9A825" stroke-width="1"/>
+<!-- Bud 1 -->
+<ellipse cx="42" cy="25" rx="7" ry="5.5" fill="#FFECB3" stroke="#F9A825" stroke-width="0.8"/>
+<!-- Bud on bud -->
+<ellipse cx="50" cy="20" rx="4" ry="3" fill="#FFECB3" stroke="#F9A825" stroke-width="0.6"/>
+<!-- Another cell with bud -->
+<ellipse cx="55" cy="50" rx="9" ry="7" fill="#FFECB3" stroke="#F9A825" stroke-width="1"/>
+<ellipse cx="65" cy="44" rx="6" ry="5" fill="#FFECB3" stroke="#F9A825" stroke-width="0.8"/>
+<!-- Single cell -->
+<ellipse cx="25" cy="55" rx="8" ry="6.5" fill="#FFECB3" stroke="#F9A825" stroke-width="1"/>
+<!-- Nuclei -->
+<ellipse cx="28" cy="29" rx="3" ry="2.5" fill="#F57F17" opacity="0.3"/>
+<ellipse cx="54" cy="49" rx="2.5" ry="2" fill="#F57F17" opacity="0.3"/>
+<ellipse cx="24" cy="54" rx="2.5" ry="2" fill="#F57F17" opacity="0.3"/>
+<!-- Bud scar -->
+<circle cx="38" cy="34" r="1.5" fill="none" stroke="#F9A825" stroke-width="0.5"/>
+<!-- Labels -->
+<text x="40" y="70" font-family="Arial,sans-serif" font-size="6" fill="#F57F17" text-anchor="middle">почкование</text>
+<text x="40" y="82" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Saccharomyces</text>
+</g>
+
+<!-- Bottom section: Comparison -->
+<g transform="translate(290,180)">
+<rect x="0" y="0" width="200" height="85" rx="5" fill="white" opacity="0.5" stroke="#2E7D32" stroke-width="0.6"/>
+<text x="100" y="12" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1B5E20" text-anchor="middle">Сравнение групп грибов</text>
+<line x1="5" y1="16" x2="195" y2="16" stroke="#2E7D32" stroke-width="0.3"/>
+<text x="5" y="26" font-family="Arial,sans-serif" font-size="6" fill="#333" font-weight="bold">Признак</text>
+<text x="65" y="26" font-family="Arial,sans-serif" font-size="6" fill="#5D4037" font-weight="bold">Шляпочные</text>
+<text x="125" y="26" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" font-weight="bold">Плесневые</text>
+<text x="175" y="26" font-family="Arial,sans-serif" font-size="6" fill="#F57F17" font-weight="bold">Дрожжи</text>
+<line x1="5" y1="29" x2="195" y2="29" stroke="#999" stroke-width="0.2"/>
+<text x="5" y="37" font-family="Arial,sans-serif" font-size="5.5" fill="#333">Мицелий</text>
+<text x="65" y="37" font-family="Arial,sans-serif" font-size="5.5" fill="#5D4037">многокл.</text>
+<text x="125" y="37" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32">многокл.</text>
+<text x="175" y="37" font-family="Arial,sans-serif" font-size="5.5" fill="#F57F17">однокл.</text>
+<text x="5" y="47" font-family="Arial,sans-serif" font-size="5.5" fill="#333">Размнож.</text>
+<text x="65" y="47" font-family="Arial,sans-serif" font-size="5.5" fill="#5D4037">споры</text>
+<text x="125" y="47" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32">споры/конидии</text>
+<text x="175" y="47" font-family="Arial,sans-serif" font-size="5.5" fill="#F57F17">почкование</text>
+<text x="5" y="57" font-family="Arial,sans-serif" font-size="5.5" fill="#333">Плодовое тело</text>
+<text x="65" y="57" font-family="Arial,sans-serif" font-size="5.5" fill="#5D4037">есть</text>
+<text x="125" y="57" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32">нет</text>
+<text x="175" y="57" font-family="Arial,sans-serif" font-size="5.5" fill="#F57F17">нет</text>
+<text x="5" y="67" font-family="Arial,sans-serif" font-size="5.5" fill="#333">Среда</text>
+<text x="65" y="67" font-family="Arial,sans-serif" font-size="5.5" fill="#5D4037">почва, лес</text>
+<text x="125" y="67" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32">субстрат</text>
+<text x="175" y="67" font-family="Arial,sans-serif" font-size="5.5" fill="#F57F17">сахарная</text>
+<text x="5" y="77" font-family="Arial,sans-serif" font-size="5.5" fill="#333">Значение</text>
+<text x="65" y="77" font-family="Arial,sans-serif" font-size="5.5" fill="#5D4037">пища</text>
+<text x="125" y="77" font-family="Arial,sans-serif" font-size="5.5" fill="#2E7D32">антибиотики</text>
+<text x="175" y="77" font-family="Arial,sans-serif" font-size="5.5" fill="#F57F17">хлеб, пиво</text>
+</g>
+
+<!-- Tube vs Plate detail -->
+<g transform="translate(20,245)">
+<text x="55" y="0" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#5D4037" text-anchor="middle">Трубчатый слой</text>
+<!-- Tube cross-section -->
+<rect x="10" y="8" width="90" height="30" rx="3" fill="#FFCC80" opacity="0.4" stroke="#E65100" stroke-width="0.7"/>
+<!-- Tubes -->
+<rect x="15" y="8" width="8" height="30" rx="1" fill="none" stroke="#E65100" stroke-width="0.5"/>
+<rect x="25" y="8" width="8" height="30" rx="1" fill="none" stroke="#E65100" stroke-width="0.5"/>
+<rect x="35" y="8" width="8" height="30" rx="1" fill="none" stroke="#E65100" stroke-width="0.5"/>
+<rect x="45" y="8" width="8" height="30" rx="1" fill="none" stroke="#E65100" stroke-width="0.5"/>
+<rect x="55" y="8" width="8" height="30" rx="1" fill="none" stroke="#E65100" stroke-width="0.5"/>
+<rect x="65" y="8" width="8" height="30" rx="1" fill="none" stroke="#E65100" stroke-width="0.5"/>
+<rect x="75" y="8" width="8" height="30" rx="1" fill="none" stroke="#E65100" stroke-width="0.5"/>
+<rect x="85" y="8" width="8" height="30" rx="1" fill="none" stroke="#E65100" stroke-width="0.5"/>
+<text x="55" y="50" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">трубочки со спорами</text>
+</g>
+
+<g transform="translate(120,245)">
+<text x="55" y="0" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#5D4037" text-anchor="middle">Пластинчатый слой</text>
+<!-- Plate cross-section -->
+<rect x="10" y="8" width="90" height="30" rx="3" fill="#C8E6C9" opacity="0.4" stroke="#4CAF50" stroke-width="0.7"/>
+<!-- Plates/gills -->
+<line x1="20" y1="8" x2="20" y2="38" stroke="#4CAF50" stroke-width="1"/>
+<line x1="30" y1="8" x2="30" y2="38" stroke="#4CAF50" stroke-width="1"/>
+<line x1="40" y1="8" x2="40" y2="38" stroke="#4CAF50" stroke-width="1"/>
+<line x1="50" y1="8" x2="50" y2="38" stroke="#4CAF50" stroke-width="1"/>
+<line x1="60" y1="8" x2="60" y2="38" stroke="#4CAF50" stroke-width="1"/>
+<line x1="70" y1="8" x2="70" y2="38" stroke="#4CAF50" stroke-width="1"/>
+<line x1="80" y1="8" x2="80" y2="38" stroke="#4CAF50" stroke-width="1"/>
+<line x1="90" y1="8" x2="90" y2="38" stroke="#4CAF50" stroke-width="1"/>
+<text x="55" y="50" font-family="Arial,sans-serif" font-size="5.5" fill="#666" text-anchor="middle">пластинки со спорами</text>
+</g>
+
+<!-- Spore note -->
+<g transform="translate(20,300)">
+<rect x="0" y="0" width="460" height="30" rx="4" fill="white" opacity="0.4" stroke="#2E7D32" stroke-width="0.4"/>
+<text x="230" y="12" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle" font-weight="bold">Споры грибов</text>
+<text x="230" y="24" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Споры образуются в спорангиях (плесневые) или на пластинках/трубочках (шляпочные). Дрожжи размножаются почкованием.</text>
+</g>
+</svg>

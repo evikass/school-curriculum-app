@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs><rect width="500" height="350" fill="url(#bg)" rx="10"/><rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/><text x="250" y="30" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#2E7D32" text-anchor="middle">Корень. Виды корней и корневые системы</text><text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 6 класс - Урок 22</text><line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+  <!-- Two root systems -->
+  <!-- Taproot system -->
+  <g transform="translate(130,180)">
+    <!-- Plant top -->
+    <rect x="-3" y="-25" width="6" height="25" fill="#795548" rx="2"/>
+    <ellipse cx="-10" cy="-20" rx="10" ry="6" fill="#81C784" transform="rotate(30,-10,-20)"/>
+    <ellipse cx="10" cy="-20" rx="10" ry="6" fill="#81C784" transform="rotate(-30,10,-20)"/>
+    <!-- Main root -->
+    <path d="M0 0 L0 90" stroke="#795548" stroke-width="5" stroke-linecap="round"/>
+    <!-- Lateral roots -->
+    <path d="M0 20 Q-20 30 -30 40" stroke="#8D6E63" stroke-width="2.5" fill="none"/>
+    <path d="M0 20 Q20 30 30 40" stroke="#8D6E63" stroke-width="2.5" fill="none"/>
+    <path d="M0 40 Q-18 48 -25 55" stroke="#8D6E63" stroke-width="2" fill="none"/>
+    <path d="M0 40 Q18 48 25 55" stroke="#8D6E63" stroke-width="2" fill="none"/>
+    <path d="M0 60 Q-12 65 -18 72" stroke="#8D6E63" stroke-width="1.5" fill="none"/>
+    <path d="M0 60 Q12 65 18 72" stroke="#8D6E63" stroke-width="1.5" fill="none"/>
+    <!-- Root hairs -->
+    <line x1="-3" y1="75" x2="-8" y2="73" stroke="#A1887F" stroke-width="0.5"/>
+    <line x1="-2" y1="80" x2="-7" y2="78" stroke="#A1887F" stroke-width="0.5"/>
+    <line x1="3" y1="70" x2="8" y2="68" stroke="#A1887F" stroke-width="0.5"/>
+    <!-- Root cap -->
+    <path d="M-3 88 Q0 98 3 88" fill="#BCAAA4" stroke="#8D6E63" stroke-width="1"/>
+    <text x="0" y="112" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle" font-weight="bold">Стержневая</text>
+    <text x="0" y="124" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">(двудольные)</text>
+  </g>
+  <!-- Fibrous root system -->
+  <g transform="translate(370,180)">
+    <rect x="-3" y="-25" width="6" height="25" fill="#795548" rx="2"/>
+    <ellipse cx="-10" cy="-20" rx="10" ry="6" fill="#81C784" transform="rotate(30,-10,-20)"/>
+    <ellipse cx="10" cy="-20" rx="10" ry="6" fill="#81C784" transform="rotate(-30,10,-20)"/>
+    <!-- Many equal roots -->
+    <path d="M0 0 Q-15 30 -20 70" stroke="#795548" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M0 0 Q-8 35 -12 75" stroke="#795548" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M0 0 Q0 40 0 80" stroke="#795548" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M0 0 Q8 35 12 75" stroke="#795548" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M0 0 Q15 30 20 70" stroke="#795548" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Secondary -->
+    <path d="M-15 35 Q-25 42 -30 50" stroke="#8D6E63" stroke-width="1.5" fill="none"/>
+    <path d="M12 40 Q20 48 25 55" stroke="#8D6E63" stroke-width="1.5" fill="none"/>
+    <text x="0" y="112" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle" font-weight="bold">Мочковатая</text>
+    <text x="0" y="124" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">(однодольные)</text>
+  </g>
+  <!-- Root zones -->
+  <rect x="210" y="80" width="180" height="70" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
+  <text x="300" y="96" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle" font-weight="bold">Зоны корня (сверху вниз)</text>
+  <text x="220" y="112" font-family="Arial,sans-serif" font-size="7" fill="#555">1. Зона деления (рост)</text>
+  <text x="220" y="124" font-family="Arial,sans-serif" font-size="7" fill="#555">2. Зона растяжения</text>
+  <text x="220" y="136" font-family="Arial,sans-serif" font-size="7" fill="#555">3. Зона всасывания (корневые волоски)</text>
+  <text x="220" y="148" font-family="Arial,sans-serif" font-size="7" fill="#555">4. Зона проведения</text>
+<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/><text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 6 класс</text></svg>

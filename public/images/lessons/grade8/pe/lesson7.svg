@@ -1,37 +1,127 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFFDE7"/>
+    <linearGradient id="water7" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4fc3f7"/>
+      <stop offset="50%" stop-color="#0288d1"/>
+      <stop offset="100%" stop-color="#01579b"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#BF360C"/>
-      <stop offset="100%" stop-color="#E65100"/>
+    <linearGradient id="pool7" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0288d1"/>
+      <stop offset="100%" stop-color="#01579b"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#E65100" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#E65100" stroke-width="1" opacity="0.3"/>
-  <!-- Bauhaus corner accents -->
-  <polygon points="10,10 30,10 10,30" fill="#E65100" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.12"/>
-  <!-- Title -->
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#E65100" text-anchor="middle">Плавание: способы и техника</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физическая культура - Урок 7</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#E65100" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="75" width="60" height="5" fill="#E65100" opacity="0.18" rx="1"/>
-  <rect x="410" y="75" width="60" height="5" fill="#1565C0" opacity="0.12" rx="1"/>
-  <!-- ILLUSTRATION AREA -->
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-  <rect x="15" y="85" width="470" height="215" fill="#FFF3E0"/><text x="250" y="130" font-family="Arial,sans-serif" font-size="20" fill="#E65100" text-anchor="middle" font-weight="bold">Плавание: способы и техника</text><rect x="25" y="155" width="140" height="45" rx="5" fill="#E3F2FD" stroke="#E65100" stroke-width="1.5"/><text x="95" y="182" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">Оздоровительное значение:</text><rect x="170" y="155" width="140" height="45" rx="5" fill="#FFF3E0" stroke="#BF360C" stroke-width="1.5"/><text x="240" y="182" font-family="Arial" font-size="12" fill="#BF360C" text-anchor="middle">1. Кроль на груди (воль...</text><rect x="315" y="155" width="140" height="45" rx="5" fill="#FFFDE7" stroke="#F9A825" stroke-width="1.5"/><text x="385" y="182" font-family="Arial" font-size="12" fill="#F9A825" text-anchor="middle">Техника:</text><rect x="25" y="210" width="140" height="45" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/><text x="95" y="238" font-family="Arial" font-size="12" fill="#2E7D32" text-anchor="middle">Положение тела:</text><rect x="170" y="210" width="140" height="45" rx="5" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="1.5"/><text x="240" y="238" font-family="Arial" font-size="12" fill="#6A1B9A" text-anchor="middle">Старт:</text><rect x="315" y="210" width="140" height="45" rx="5" fill="#FFEBEE" stroke="#E65100" stroke-width="1.5"/><text x="385" y="238" font-family="Arial" font-size="12" fill="#E65100" text-anchor="middle">Плавание</text>
-  <polygon points="50,270 60,285 40,285" fill="#E65100" opacity="0.12"/>
+  <rect width="500" height="350" fill="#e0f7fa"/>
+  
+  <!-- Pool deck -->
+  <rect x="0" y="0" width="500" height="70" fill="#efebe9"/>
+  <rect x="0" y="70" width="500" height="8" fill="#8d6e63"/>
+  
+  <!-- Pool water -->
+  <rect x="0" y="78" width="500" height="240" fill="url(#water7)"/>
+  
+  <!-- Pool bottom pattern -->
+  <g opacity="0.15">
+    <line x1="0" y1="200" x2="500" y2="200" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="250" x2="500" y2="250" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="300" x2="500" y2="300" stroke="#fff" stroke-width="1"/>
   </g>
-  <!-- Bottom panel -->
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#F9A825" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Физическая культура</text>
+  
+  <!-- Lane lines -->
+  <line x1="100" y1="78" x2="100" y2="318" stroke="#fdd835" stroke-width="3" opacity="0.6"/>
+  <line x1="200" y1="78" x2="200" y2="318" stroke="#fdd835" stroke-width="3" opacity="0.6"/>
+  <line x1="300" y1="78" x2="300" y2="318" stroke="#fdd835" stroke-width="3" opacity="0.6"/>
+  <line x1="400" y1="78" x2="400" y2="318" stroke="#fdd835" stroke-width="3" opacity="0.6"/>
+  <!-- Lane buoys on rope -->
+  <g fill="#f44336" opacity="0.7">
+    <circle cx="100" cy="120" r="3"/><circle cx="100" cy="160" r="3"/>
+    <circle cx="100" cy="200" r="3"/><circle cx="100" cy="240" r="3"/>
+    <circle cx="100" cy="280" r="3"/>
+    <circle cx="200" cy="130" r="3"/><circle cx="200" cy="170" r="3"/>
+    <circle cx="200" cy="210" r="3"/><circle cx="200" cy="250" r="3"/>
+    <circle cx="200" cy="290" r="3"/>
+    <circle cx="300" cy="120" r="3"/><circle cx="300" cy="160" r="3"/>
+    <circle cx="300" cy="200" r="3"/><circle cx="300" cy="240" r="3"/>
+    <circle cx="300" cy="280" r="3"/>
+    <circle cx="400" cy="130" r="3"/><circle cx="400" cy="170" r="3"/>
+    <circle cx="400" cy="210" r="3"/><circle cx="400" cy="250" r="3"/>
+    <circle cx="400" cy="290" r="3"/>
+  </g>
+  
+  <!-- Starting blocks -->
+  <rect x="45" y="60" width="25" height="18" rx="2" fill="#546e7a"/>
+  <rect x="40" y="58" width="35" height="5" rx="1" fill="#78909c"/>
+  <rect x="145" y="60" width="25" height="18" rx="2" fill="#546e7a"/>
+  <rect x="140" y="58" width="35" height="5" rx="1" fill="#78909c"/>
+  <rect x="245" y="60" width="25" height="18" rx="2" fill="#546e7a"/>
+  <rect x="240" y="58" width="35" height="5" rx="1" fill="#78909c"/>
+  
+  <!-- Swimmer doing crawl (top-down view in lane 2) -->
+  <g transform="translate(150,170)">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="45" ry="12" fill="#ffb57c" opacity="0.9"/>
+    <!-- Head -->
+    <circle cx="45" cy="0" r="9" fill="#ffb57c"/>
+    <!-- Swim cap -->
+    <path d="M38,-7 Q45,-10 52,-7 Q54,-2 52,3 Q45,6 38,3 Z" fill="#1e88e5"/>
+    <!-- Goggles -->
+    <ellipse cx="48" cy="-2" rx="4" ry="2.5" fill="#333" opacity="0.7"/>
+    <ellipse cx="48" cy="2" rx="4" ry="2.5" fill="#333" opacity="0.7"/>
+    <!-- Right arm extended (pulling) -->
+    <path d="M20,-8 Q35,-25 50,-20" stroke="#ffb57c" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- Left arm recovering (above water) -->
+    <path d="M15,5 Q0,-20 25,-30" stroke="#ffb57c" stroke-width="5" fill="none" stroke-linecap="round" stroke-dasharray="3,2"/>
+    <!-- Kick bubbles -->
+    <g fill="#fff" opacity="0.5">
+      <circle cx="-42" cy="-5" r="2"/>
+      <circle cx="-48" cy="3" r="1.5"/>
+      <circle cx="-50" cy="-2" r="1"/>
+      <circle cx="-55" cy="0" r="2.5"/>
+      <circle cx="-52" cy="5" r="1.5"/>
+    </g>
+    <!-- Water splashes -->
+    <path d="M25,-12 Q30,-18 28,-10" stroke="#b3e5fc" stroke-width="1.5" fill="none"/>
+    <path d="M20,10 Q25,16 23,8" stroke="#b3e5fc" stroke-width="1.5" fill="none"/>
+  </g>
+  
+  <!-- Water surface ripples -->
+  <g stroke="#b3e5fc" stroke-width="1" fill="none" opacity="0.4">
+    <path d="M0,100 Q50,95 100,100 Q150,105 200,100 Q250,95 300,100 Q350,105 400,100 Q450,95 500,100"/>
+    <path d="M0,140 Q50,135 100,140 Q150,145 200,140 Q250,135 300,140"/>
+    <path d="M200,220 Q250,215 300,220 Q350,225 400,220 Q450,215 500,220"/>
+    <path d="M0,260 Q50,255 100,260 Q150,265 200,260 Q250,255 300,260"/>
+  </g>
+  
+  <!-- Lane numbers -->
+  <text x="50" y="95" text-anchor="middle" font-size="12" fill="#fff" opacity="0.5" font-family="Arial">1</text>
+  <text x="150" y="95" text-anchor="middle" font-size="12" fill="#fff" opacity="0.5" font-family="Arial">2</text>
+  <text x="250" y="95" text-anchor="middle" font-size="12" fill="#fff" opacity="0.5" font-family="Arial">3</text>
+  <text x="350" y="95" text-anchor="middle" font-size="12" fill="#fff" opacity="0.5" font-family="Arial">4</text>
+  <text x="450" y="95" text-anchor="middle" font-size="12" fill="#fff" opacity="0.5" font-family="Arial">5</text>
+  
+  <!-- Second swimmer (farther, smaller) in lane 4 -->
+  <g transform="translate(320,230)" opacity="0.6">
+    <ellipse cx="0" cy="0" rx="35" ry="9" fill="#c9a87c"/>
+    <circle cx="35" cy="0" r="7" fill="#c9a87c"/>
+    <path d="M30,-5 Q35,-7 40,-5 Q41,-1 40,2 Q35,4 30,2 Z" fill="#f44336"/>
+    <path d="M15,-6 Q25,-18 35,-14" stroke="#c9a87c" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Poolside flags -->
+  <g transform="translate(0,30)">
+    <line x1="0" y1="0" x2="500" y2="0" stroke="#888" stroke-width="1"/>
+    <rect x="20" y="0" width="8" height="12" fill="#f44336"/>
+    <rect x="60" y="0" width="8" height="12" fill="#ffeb3b"/>
+    <rect x="100" y="0" width="8" height="12" fill="#f44336"/>
+    <rect x="140" y="0" width="8" height="12" fill="#ffeb3b"/>
+    <rect x="180" y="0" width="8" height="12" fill="#f44336"/>
+    <rect x="220" y="0" width="8" height="12" fill="#ffeb3b"/>
+    <rect x="260" y="0" width="8" height="12" fill="#f44336"/>
+    <rect x="300" y="0" width="8" height="12" fill="#ffeb3b"/>
+    <rect x="340" y="0" width="8" height="12" fill="#f44336"/>
+    <rect x="380" y="0" width="8" height="12" fill="#ffeb3b"/>
+    <rect x="420" y="0" width="8" height="12" fill="#f44336"/>
+    <rect x="460" y="0" width="8" height="12" fill="#ffeb3b"/>
+  </g>
+  
+  <text x="250" y="342" text-anchor="middle" font-size="9" opacity="0.5" fill="#01579b" font-family="Arial, sans-serif">Плавание</text>
 </svg>

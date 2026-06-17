@@ -1,41 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#EFEBE9"/>
-      <stop offset="100%" stop-color="#FFF"/>
-    </linearGradient>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#8D6E63"/>
-      <stop offset="100%" stop-color="#4E342E"/>
-    </linearGradient>
-  </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#8D6E63" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#8D6E63" stroke-width="1" opacity="0.3"/>
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#8D6E63" text-anchor="middle">Сделки и договоры</text>
-  <text x="250" y="58" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Обществознание — Урок 26</text>
-  <line x1="30" y1="66" x2="470" y2="66" stroke="#8D6E63" stroke-width="2" opacity="0.25"/>
-  <rect x="15" y="72" width="235" height="225" rx="4" fill="#8D6E63" opacity="0.05"/>
-  <text x="22" y="88" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Сделка —</text>
-  <text x="85" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333">действие, изменяющее права и обязанности</text>
-  <text x="22" y="108" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Виды:</text>
-  <text x="85" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333">Односторонние — завещание, доверенность</text>
-  <text x="32" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333">Двухсторонние — договор купли-продажи</text>
-  <text x="32" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333">Многосторонние — учредительный договор</text>
-  <text x="22" y="168" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Договор —</text>
-  <text x="85" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333">соглашение двух и более сторон</text>
-  <rect x="255" y="72" width="230" height="225" rx="4" fill="#8D6E63" opacity="0.05"/>
-  <text x="262" y="88" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Виды:</text>
-  <text x="325" y="88" font-family="Arial,sans-serif" font-size="10" fill="#333">Купля-продажа, дарение, мена</text>
-  <text x="272" y="108" font-family="Arial,sans-serif" font-size="10" fill="#333">Аренда, подряд, заём</text>
-  <text x="262" y="128" font-family="Arial,sans-serif" font-size="10" fill="#4E342E" font-weight="bold">Условия:</text>
-  <text x="325" y="128" font-family="Arial,sans-serif" font-size="10" fill="#333">Существенные — без них договор недействителен</text>
-  <text x="272" y="148" font-family="Arial,sans-serif" font-size="10" fill="#333">Обычные — по закону</text>
-  <text x="272" y="168" font-family="Arial,sans-serif" font-size="10" fill="#333">Случайные — по желанию сторон</text>
-  <rect x="15" y="280" width="235" height="18" rx="4" fill="#8D6E63" opacity="0.06"/>
-  <text x="132" y="293" font-family="Arial,sans-serif" font-size="9" fill="#4E342E" text-anchor="middle" font-weight="bold">Договор — закон для двоих</text>
-  <rect x="255" y="280" width="230" height="18" rx="4" fill="#8D6E63" opacity="0.06"/>
-  <text x="370" y="293" font-family="Arial,sans-serif" font-size="9" fill="#4E342E" text-anchor="middle" font-weight="bold">Сделка = волеизъявление → права и обязанности</text>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#hdr)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="bold">Обществознание · Сделки и договоры</text>
+  <rect width="500" height="350" fill="#276749"/>
+  <!-- Worker with hard hat -->
+  <g transform="translate(250,120)" fill="#E2E8F0" opacity="0.4">
+    <ellipse cx="0" cy="-35" rx="18" ry="6" fill="#F6E05E" opacity="0.5"/>
+    <circle cx="0" cy="-20" r="12"/>
+    <rect x="-10" y="-8" width="20" height="30" rx="5"/>
+    <line x1="-10" y1="2" x2="-25" y2="20" stroke="#E2E8F0" stroke-width="4" stroke-linecap="round"/>
+    <line x1="10" y1="2" x2="25" y2="20" stroke="#E2E8F0" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <!-- Work contract -->
+  <g transform="translate(350,90)" opacity="0.3">
+    <rect x="0" y="0" width="60" height="80" rx="3" fill="#E2E8F0"/>
+    <line x1="10" y1="15" x2="50" y2="15" stroke="#276749" stroke-width="1"/>
+    <line x1="10" y1="25" x2="45" y2="25" stroke="#276749" stroke-width="1" opacity="0.5"/>
+    <line x1="10" y1="35" x2="40" y2="35" stroke="#276749" stroke-width="1" opacity="0.5"/>
+  </g>
+  <!-- Labor rights -->
+  <g opacity="0.4" font-size="8" fill="#C6F6D5">
+    <text x="80" y="200">Зарплата</text><text x="80" y="215">Отпуск 28 дней</text>
+    <text x="80" y="230">40-час. неделя</text><text x="80" y="245">Безопасность</text>
+  </g>
+  <text x="250" y="310" text-anchor="middle" font-size="18" fill="#C6F6D5" font-weight="bold" opacity="0.6">Трудовое право</text>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#C6F6D5" opacity="0.5">Трудовое право</text>
 </svg>

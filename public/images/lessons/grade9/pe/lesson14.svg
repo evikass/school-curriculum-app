@@ -1,64 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8F5E9"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="bg14" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3F51B5;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#7986CB;stop-opacity:0.06"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="12"/>
-  <rect x="0" y="0" width="500" height="50" fill="#66BB6A" rx="12"/>
-  <rect x="0" y="25" width="500" height="25" fill="#66BB6A"/>
-  <text x="250" y="34" text-anchor="middle" fill="#FFF" font-size="16" font-weight="bold" font-family="Arial,sans-serif">Урок 14. Развитие силы и быстроты</text>
-  <!-- Strength exercises -->
-  <rect x="15" y="60" width="230" height="140" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
-  <rect x="15" y="60" width="230" height="25" fill="#66BB6A" rx="8"/>
-  <rect x="15" y="77" width="230" height="8" fill="#66BB6A"/>
-  <text x="130" y="78" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Силовые упражнения</text>
-  <text x="25" y="100" fill="#2E7D32" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Собственным весом:</text>
-  <text x="25" y="113" fill="#333" font-size="9" font-family="Arial,sans-serif">• Отжимания (м: 15+, д: 8+)</text>
-  <text x="25" y="126" fill="#333" font-size="9" font-family="Arial,sans-serif">• Подтягивания (м: 8+)</text>
-  <text x="25" y="139" fill="#333" font-size="9" font-family="Arial,sans-serif">• Приседания (20–30)</text>
-  <text x="25" y="152" fill="#333" font-size="9" font-family="Arial,sans-serif">• Планка (60+ сек)</text>
-  <text x="25" y="168" fill="#2E7D32" font-size="9" font-weight="bold" font-family="Arial,sans-serif">С отягощением:</text>
-  <text x="25" y="181" fill="#333" font-size="9" font-family="Arial,sans-serif">• Гантели (1–3 кг)</text>
-  <text x="25" y="194" fill="#333" font-size="9" font-family="Arial,sans-serif">• Набивной мяч (1–2 кг)</text>
-
-  <!-- Speed training -->
-  <rect x="255" y="60" width="230" height="140" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
-  <rect x="255" y="60" width="230" height="25" fill="#66BB6A" rx="8"/>
-  <rect x="255" y="77" width="230" height="8" fill="#66BB6A"/>
-  <text x="370" y="78" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Быстрота и скорость</text>
-  <text x="265" y="100" fill="#2E7D32" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Упражнения на быстроту:</text>
-  <text x="265" y="113" fill="#333" font-size="9" font-family="Arial,sans-serif">• Бег 30 м (м: 5.0, д: 5.5)</text>
-  <text x="265" y="126" fill="#333" font-size="9" font-family="Arial,sans-serif">• Бег 60 м (м: 8.8, д: 10.0)</text>
-  <text x="265" y="139" fill="#333" font-size="9" font-family="Arial,sans-serif">• Челночный бег 3×10 м</text>
-  <text x="265" y="155" fill="#2E7D32" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Методы развития:</text>
-  <text x="265" y="168" fill="#333" font-size="9" font-family="Arial,sans-serif">• Повторный (макс. скорость)</text>
-  <text x="265" y="181" fill="#333" font-size="9" font-family="Arial,sans-serif">• Игровой (подвижные игры)</text>
-  <text x="265" y="194" fill="#333" font-size="9" font-family="Arial,sans-serif">• Соревновательный метод</text>
-
-  <!-- Training principles -->
-  <rect x="15" y="210" width="230" height="110" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
-  <rect x="15" y="210" width="230" height="25" fill="#2E7D32" rx="8"/>
-  <rect x="15" y="227" width="230" height="8" fill="#2E7D32"/>
-  <text x="130" y="228" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Принципы тренировки</text>
-  <text x="25" y="252" fill="#333" font-size="9" font-family="Arial,sans-serif">1. Постепенность нагрузки</text>
-  <text x="25" y="265" fill="#333" font-size="9" font-family="Arial,sans-serif">2. Систематичность (3+ раз/нед)</text>
-  <text x="25" y="278" fill="#333" font-size="9" font-family="Arial,sans-serif">3. Последовательность</text>
-  <text x="25" y="291" fill="#333" font-size="9" font-family="Arial,sans-serif">4. Разнообразие упражнений</text>
-  <text x="25" y="304" fill="#333" font-size="9" font-family="Arial,sans-serif">5. Чередование нагрузки/отдыха</text>
-  <text x="25" y="317" fill="#2E7D32" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Суперкомпенсация!</text>
-
-  <!-- Norms -->
-  <rect x="255" y="210" width="230" height="110" fill="#FFF" stroke="#66BB6A" stroke-width="1.5" rx="8"/>
-  <rect x="255" y="210" width="230" height="25" fill="#2E7D32" rx="8"/>
-  <rect x="255" y="227" width="230" height="8" fill="#2E7D32"/>
-  <text x="370" y="228" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Нормативы 9 класс</text>
-  <text x="265" y="249" fill="#2E7D32" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Сила (юн./дев.):</text>
-  <text x="265" y="262" fill="#333" font-size="9" font-family="Arial,sans-serif">• Подтягивания: 8 / —</text>
-  <text x="265" y="275" fill="#333" font-size="9" font-family="Arial,sans-serif">• Отжимания: 15 / 8</text>
-  <text x="265" y="288" fill="#333" font-size="9" font-family="Arial,sans-serif">• Планка: 60 / 45 сек</text>
-  <text x="265" y="304" fill="#2E7D32" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Быстрота:</text>
-  <text x="265" y="317" fill="#333" font-size="9" font-family="Arial,sans-serif">• 30 м: 5.0 / 5.5 сек</text>
+  <rect width="500" height="350" fill="#1a1a2e"/>
+  <rect width="500" height="350" fill="url(#bg14)"/>
+  <!-- Wheelchair -->
+  <g transform="translate(60,100)">
+    <circle cx="15" cy="85" r="15" fill="none" stroke="#7986CB" stroke-width="2.5"/>
+    <circle cx="75" cy="85" r="15" fill="none" stroke="#7986CB" stroke-width="2.5"/>
+    <line x1="15" y1="70" x2="30" y2="30" stroke="#7986CB" stroke-width="2.5"/>
+    <line x1="30" y1="30" x2="60" y2="30" stroke="#7986CB" stroke-width="2.5"/>
+    <line x1="60" y1="30" x2="75" y2="70" stroke="#7986CB" stroke-width="2.5"/>
+    <line x1="30" y1="50" x2="60" y2="50" stroke="#7986CB" stroke-width="2"/>
+    <line x1="60" y1="50" x2="75" y2="70" stroke="#7986CB" stroke-width="2"/>
+    <!-- Person in wheelchair -->
+    <circle cx="45" cy="15" r="10" fill="#7986CB"/>
+    <line x1="45" y1="25" x2="45" y2="50" stroke="#7986CB" stroke-width="3" stroke-linecap="round"/>
+    <line x1="45" y1="35" x2="60" y2="30" stroke="#7986CB" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <!-- Paralympic symbol (3 agitos) -->
+  <g transform="translate(250,60)">
+    <path d="M30,0 C15,0 5,15 10,30 C15,45 30,50 30,50" fill="none" stroke="#E91E63" stroke-width="3" opacity="0.7"/>
+    <path d="M50,0 C65,0 75,15 70,30 C65,45 50,50 50,50" fill="none" stroke="#2196F3" stroke-width="3" opacity="0.7"/>
+    <path d="M40,30 C40,45 30,55 20,60 C30,55 40,60 40,60" fill="none" stroke="#4CAF50" stroke-width="3" opacity="0.7"/>
+  </g>
+  <!-- Accessible ramp -->
+  <g transform="translate(250,160)">
+    <line x1="0" y1="80" x2="180" y2="20" stroke="#7986CB" stroke-width="3"/>
+    <line x1="0" y1="80" x2="180" y2="80" stroke="#7986CB" stroke-width="2" opacity="0.3"/>
+    <line x1="180" y1="20" x2="180" y2="80" stroke="#7986CB" stroke-width="2" opacity="0.3"/>
+  </g>
+  <!-- Support/care hands -->
+  <g transform="translate(300,240)">
+    <path d="M0,30 Q20,0 50,10 Q80,20 100,5" fill="none" stroke="#3F51B5" stroke-width="3" opacity="0.4"/>
+    <path d="M0,40 Q25,15 55,25 Q85,35 100,20" fill="none" stroke="#7986CB" stroke-width="2" opacity="0.3"/>
+  </g>
+  <!-- Heart with accessibility -->
+  <g transform="translate(100,240)">
+    <path d="M25,10 C25,0 10,0 10,12 C10,25 25,35 25,35 C25,35 40,25 40,12 C40,0 25,0 25,10Z" fill="#3F51B5" opacity="0.5"/>
+    <circle cx="25" cy="18" r="4" fill="none" stroke="#fff" stroke-width="1.5" opacity="0.6"/>
+  </g>
+  <text x="250" y="340" text-anchor="middle" font-size="9" fill="#aaa" opacity="0.5" font-family="sans-serif">Адаптивная физическая культура</text>
 </svg>

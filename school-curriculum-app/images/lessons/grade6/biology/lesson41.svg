@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+<linearGradient id="soilG" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#8D6E63"/><stop offset="100%" stop-color="#5D4037"/></linearGradient>
+<linearGradient id="rootG" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#A5D6A7"/><stop offset="100%" stop-color="#66BB6A"/></linearGradient>
+<linearGradient id="waterG" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#BBDEFB"/><stop offset="100%" stop-color="#64B5F6"/></linearGradient>
+<linearGradient id="tubeG" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#E0E0E0"/><stop offset="100%" stop-color="#9E9E9E"/></linearGradient>
+<linearGradient id="solG" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#E1F5FE"/><stop offset="100%" stop-color="#81D4FA"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Минеральное питание растений</text>
+<text x="250" y="43" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 6 класс — Урок 41</text>
+<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+
+<!-- SECTION 1: Root hair absorbing minerals -->
+<text x="130" y="66" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#2E7D32" text-anchor="middle">Корневой волосок</text>
+<!-- Soil background -->
+<rect x="15" y="70" width="230" height="145" rx="5" fill="url(#soilG)" opacity="0.4"/>
+<!-- Soil particles -->
+<circle cx="40" cy="130" r="8" fill="#A1887F" opacity="0.5"/>
+<circle cx="65" cy="150" r="6" fill="#8D6E63" opacity="0.5"/>
+<circle cx="80" cy="120" r="10" fill="#BCAAA4" opacity="0.4"/>
+<circle cx="100" cy="160" r="7" fill="#A1887F" opacity="0.5"/>
+<circle cx="180" cy="140" r="9" fill="#8D6E63" opacity="0.4"/>
+<circle cx="200" cy="170" r="6" fill="#A1887F" opacity="0.5"/>
+<circle cx="50" cy="180" r="7" fill="#BCAAA4" opacity="0.4"/>
+<!-- Root (main) -->
+<path d="M130,72 L130,110 Q130,130 120,145 Q110,160 105,180 Q103,190 100,200" stroke="#66BB6A" stroke-width="4" fill="none"/>
+<!-- Root branches -->
+<path d="M125,110 Q115,120 105,125" stroke="#81C784" stroke-width="2" fill="none"/>
+<path d="M135,120 Q145,135 155,140" stroke="#81C784" stroke-width="2" fill="none"/>
+<path d="M115,155 Q100,160 90,170" stroke="#81C784" stroke-width="1.5" fill="none"/>
+<!-- Root hairs (thin elongated cells) -->
+<line x1="105" y1="125" x2="88" y2="118" stroke="#A5D6A7" stroke-width="0.7"/>
+<line x1="105" y1="127" x2="85" y2="124" stroke="#A5D6A7" stroke-width="0.7"/>
+<line x1="105" y1="129" x2="87" y2="130" stroke="#A5D6A7" stroke-width="0.7"/>
+<line x1="155" y1="138" x2="172" y2="132" stroke="#A5D6A7" stroke-width="0.7"/>
+<line x1="155" y1="140" x2="175" y2="139" stroke="#A5D6A7" stroke-width="0.7"/>
+<line x1="155" y1="142" x2="170" y2="148" stroke="#A5D6A7" stroke-width="0.7"/>
+<line x1="90" y1="168" x2="75" y2="162" stroke="#A5D6A7" stroke-width="0.7"/>
+<line x1="90" y1="170" x2="72" y2="170" stroke="#A5D6A7" stroke-width="0.7"/>
+<line x1="90" y1="172" x2="74" y2="178" stroke="#A5D6A7" stroke-width="0.7"/>
+<!-- Mineral ions in soil -->
+<text x="38" y="133" font-family="Arial,sans-serif" font-size="6" fill="#FF6F00" font-weight="bold">K⁺</text>
+<text x="72" y="118" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" font-weight="bold">NO₃⁻</text>
+<text x="155" y="155" font-family="Arial,sans-serif" font-size="6" fill="#6A1B9A" font-weight="bold">PO₄³⁻</text>
+<text x="195" y="165" font-family="Arial,sans-serif" font-size="6" fill="#00695C" font-weight="bold">Mg²⁺</text>
+<text x="50" y="170" font-family="Arial,sans-serif" font-size="6" fill="#BF360C" font-weight="bold">Ca²⁺</text>
+<!-- Arrows showing absorption -->
+<path d="M52,128 L78,125" stroke="#FF6F00" stroke-width="0.7" fill="none" marker-end="url(#arrO)"/>
+<path d="M78,116 L95,120" stroke="#1565C0" stroke-width="0.7" fill="none"/>
+<path d="M155,150 L158,145" stroke="#6A1B9A" stroke-width="0.7" fill="none"/>
+<!-- Water arrows -->
+<path d="M60,145 Q80,140 100,130" stroke="#42A5F5" stroke-width="0.8" fill="none" stroke-dasharray="2,1"/>
+<text x="55" y="98" font-family="Arial,sans-serif" font-size="6" fill="#1565C0">H₂O + минералы</text>
+<!-- Root hair detail box -->
+<rect x="160" y="72" width="80" height="50" rx="3" fill="#FFF9C4" opacity="0.4" stroke="#F9A825" stroke-width="0.5"/>
+<text x="200" y="82" font-family="Arial,sans-serif" font-size="5" font-weight="bold" fill="#F57F17" text-anchor="middle">Корневой волосок</text>
+<!-- Enlarged root hair cell -->
+<ellipse cx="200" cy="105" rx="25" ry="10" fill="#C8E6C9" stroke="#4CAF50" stroke-width="0.8"/>
+<ellipse cx="200" cy="105" rx="4" ry="6" fill="#A5D6A7" stroke="#388E3C" stroke-width="0.5"/>
+<text x="200" y="108" font-family="Arial,sans-serif" font-size="4" fill="#1B5E20" text-anchor="middle">ядро</text>
+<text x="200" y="117" font-family="Arial,sans-serif" font-size="4" fill="#666" text-anchor="middle">клетка всасывания</text>
+<!-- Labels -->
+<text x="130" y="215" font-family="Arial,sans-serif" font-size="6" fill="#5D4037" text-anchor="middle">Почва — источник минеральных веществ</text>
+
+<!-- SECTION 2: Macroelements -->
+<text x="390" y="66" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#2E7D32" text-anchor="middle">Макроэлементы</text>
+<rect x="260" y="70" width="230" height="72" rx="4" fill="#FFF" opacity="0.3"/>
+<!-- Element circles -->
+<circle cx="285" cy="88" r="12" fill="#1565C0" opacity="0.7" stroke="#0D47A1" stroke-width="0.8"/>
+<text x="285" y="92" font-family="Arial,sans-serif" font-size="9" fill="#FFF" font-weight="bold" text-anchor="middle">N</text>
+<text x="285" y="106" font-family="Arial,sans-serif" font-size="4" fill="#1565C0" text-anchor="middle">азот</text>
+
+<circle cx="315" cy="88" r="12" fill="#6A1B9A" opacity="0.7" stroke="#4A148C" stroke-width="0.8"/>
+<text x="315" y="92" font-family="Arial,sans-serif" font-size="9" fill="#FFF" font-weight="bold" text-anchor="middle">P</text>
+<text x="315" y="106" font-family="Arial,sans-serif" font-size="4" fill="#6A1B9A" text-anchor="middle">фосфор</text>
+
+<circle cx="345" cy="88" r="12" fill="#FF6F00" opacity="0.7" stroke="#E65100" stroke-width="0.8"/>
+<text x="345" y="92" font-family="Arial,sans-serif" font-size="9" fill="#FFF" font-weight="bold" text-anchor="middle">K</text>
+<text x="345" y="106" font-family="Arial,sans-serif" font-size="4" fill="#E65100" text-anchor="middle">калий</text>
+
+<circle cx="375" cy="88" r="12" fill="#BF360C" opacity="0.7" stroke="#880E4F" stroke-width="0.8"/>
+<text x="375" y="92" font-family="Arial,sans-serif" font-size="9" fill="#FFF" font-weight="bold" text-anchor="middle">Ca</text>
+<text x="375" y="106" font-family="Arial,sans-serif" font-size="4" fill="#BF360C" text-anchor="middle">кальций</text>
+
+<circle cx="405" cy="88" r="12" fill="#00695C" opacity="0.7" stroke="#004D40" stroke-width="0.8"/>
+<text x="405" y="92" font-family="Arial,sans-serif" font-size="9" fill="#FFF" font-weight="bold" text-anchor="middle">Mg</text>
+<text x="405" y="106" font-family="Arial,sans-serif" font-size="4" fill="#00695C" text-anchor="middle">магний</text>
+
+<circle cx="435" cy="88" r="12" fill="#F9A825" opacity="0.7" stroke="#F57F17" stroke-width="0.8"/>
+<text x="435" y="92" font-family="Arial,sans-serif" font-size="9" fill="#FFF" font-weight="bold" text-anchor="middle">S</text>
+<text x="435" y="106" font-family="Arial,sans-serif" font-size="4" fill="#F57F17" text-anchor="middle">сера</text>
+
+<circle cx="465" cy="88" r="12" fill="#78909C" opacity="0.7" stroke="#546E7A" stroke-width="0.8"/>
+<text x="465" y="92" font-family="Arial,sans-serif" font-size="8" fill="#FFF" font-weight="bold" text-anchor="middle">Fe</text>
+<text x="465" y="106" font-family="Arial,sans-serif" font-size="4" fill="#546E7A" text-anchor="middle">железо</text>
+
+<!-- Microelements row -->
+<text x="285" y="120" font-family="Arial,sans-serif" font-size="6" fill="#666">Микроэлементы:</text>
+<text x="285" y="130" font-family="Arial,sans-serif" font-size="6" fill="#888">B, Mn, Cu, Zn, Mo, Cl</text>
+<text x="285" y="139" font-family="Arial,sans-serif" font-size="5" fill="#999">необходимы в малых количествах</text>
+
+<!-- SECTION 3: Signs of deficiency -->
+<text x="130" y="232" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#C62828" text-anchor="middle">Признаки недостатка</text>
+
+<!-- N deficiency - yellowing leaf -->
+<rect x="20" y="238" width="140" height="55" rx="3" fill="#FFF9C4" opacity="0.3" stroke="#F9A825" stroke-width="0.5"/>
+<text x="90" y="248" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#1565C0" text-anchor="middle">Недостаток N (азот)</text>
+<!-- Yellow leaf -->
+<path d="M70,260 Q90,255 110,260 Q100,275 90,285 Q80,275 70,260Z" fill="#FFEB3B" stroke="#F9A825" stroke-width="0.8"/>
+<line x1="90" y1="260" x2="90" y2="283" stroke="#8D6E63" stroke-width="0.8"/>
+<text x="90" y="296" font-family="Arial,sans-serif" font-size="5" fill="#1565C0" text-anchor="middle">пожелтение листьев</text>
+
+<!-- P deficiency - purple leaf -->
+<rect x="170" y="238" width="140" height="55" rx="3" fill="#F3E5F5" opacity="0.3" stroke="#7B1FA2" stroke-width="0.5"/>
+<text x="240" y="248" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#6A1B9A" text-anchor="middle">Недостаток P (фосфор)</text>
+<!-- Purple leaf -->
+<path d="M220,260 Q240,255 260,260 Q250,275 240,285 Q230,275 220,260Z" fill="#9C27B0" stroke="#6A1B9A" stroke-width="0.8"/>
+<line x1="240" y1="260" x2="240" y2="283" stroke="#4A148C" stroke-width="0.8"/>
+<text x="240" y="296" font-family="Arial,sans-serif" font-size="5" fill="#6A1B9A" text-anchor="middle">фиолетовая окраска</text>
+
+<!-- K deficiency - brown edges -->
+<rect x="320" y="238" width="165" height="55" rx="3" fill="#EFEBE9" opacity="0.3" stroke="#BF360C" stroke-width="0.5"/>
+<text x="402" y="248" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#E65100" text-anchor="middle">Недостаток K (калий)</text>
+<!-- Leaf with brown edges -->
+<path d="M375,260 Q402,254 428,260 Q418,275 402,285 Q386,275 375,260Z" fill="#81C784" stroke="#BF360C" stroke-width="0.8"/>
+<path d="M378,262 Q402,257 425,262 Q416,274 402,282 Q389,274 378,262Z" fill="#8D6E63" opacity="0.6"/>
+<line x1="402" y1="260" x2="402" y2="283" stroke="#5D4037" stroke-width="0.8"/>
+<text x="402" y="296" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">бурая кайма на краях листьев</text>
+
+<!-- SECTION 4: Hydroponics (Water culture experiment) -->
+<text x="390" y="155" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#1565C0" text-anchor="middle">Гидропоника (водная культура)</text>
+<!-- Glass container -->
+<rect x="280" y="160" width="80" height="70" rx="3" fill="url(#solG)" stroke="#90A4AE" stroke-width="1"/>
+<!-- Liquid level -->
+<rect x="282" y="175" width="76" height="53" rx="2" fill="#81D4FA" opacity="0.3"/>
+<!-- Solution label -->
+<text x="320" y="218" font-family="Arial,sans-serif" font-size="5" fill="#0277BD" text-anchor="middle">раствор</text>
+<text x="320" y="225" font-family="Arial,sans-serif" font-size="5" fill="#0277BD" text-anchor="middle">минеральных солей</text>
+<!-- Plant in hydroponics -->
+<line x1="320" y1="160" x2="320" y2="130" stroke="#4CAF50" stroke-width="2"/>
+<!-- Leaves -->
+<path d="M320,135 Q305,125 295,130" stroke="#66BB6A" stroke-width="1.5" fill="#81C784"/>
+<path d="M320,135 Q335,125 345,130" stroke="#66BB6A" stroke-width="1.5" fill="#81C784"/>
+<path d="M320,140 Q310,132 300,138" stroke="#66BB6A" stroke-width="1.2" fill="#A5D6A7"/>
+<path d="M320,140 Q330,132 340,138" stroke="#66BB6A" stroke-width="1.2" fill="#A5D6A7"/>
+<!-- Roots in solution -->
+<path d="M320,175 Q315,190 310,200" stroke="#A5D6A7" stroke-width="1" fill="none"/>
+<path d="M320,175 Q325,192 330,202" stroke="#A5D6A7" stroke-width="1" fill="none"/>
+<path d="M320,175 Q320,195 318,210" stroke="#81C784" stroke-width="1" fill="none"/>
+<!-- Cork support -->
+<rect x="308" y="158" width="24" height="5" rx="1" fill="#D7CCC8" stroke="#8D6E63" stroke-width="0.5"/>
+<!-- Second container - control (no minerals) -->
+<rect x="390" y="160" width="80" height="70" rx="3" fill="#E0E0E0" stroke="#90A4AE" stroke-width="1"/>
+<rect x="392" y="175" width="76" height="53" rx="2" fill="#BDBDBD" opacity="0.3"/>
+<text x="430" y="218" font-family="Arial,sans-serif" font-size="5" fill="#616161" text-anchor="middle">дистил. вода</text>
+<text x="430" y="225" font-family="Arial,sans-serif" font-size="5" fill="#616161" text-anchor="middle">(без минералов)</text>
+<!-- Weak plant -->
+<line x1="430" y1="160" x2="432" y2="140" stroke="#9E9E9E" stroke-width="1.2"/>
+<path d="M432,143 Q425,138 420,141" stroke="#BDBDBD" stroke-width="1" fill="#E0E0E0"/>
+<path d="M432,143 Q439,138 444,141" stroke="#BDBDBD" stroke-width="1" fill="#E0E0E0"/>
+<path d="M430,175 Q428,190 426,200" stroke="#BDBDBD" stroke-width="0.7" fill="none"/>
+<path d="M430,175 Q432,192 434,202" stroke="#BDBDBD" stroke-width="0.7" fill="none"/>
+<rect x="418" y="158" width="24" height="5" rx="1" fill="#D7CCC8" stroke="#8D6E63" stroke-width="0.5"/>
+<!-- Labels -->
+<text x="320" y="155" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">Опыт</text>
+<text x="430" y="155" font-family="Arial,sans-serif" font-size="6" fill="#9E9E9E" text-anchor="middle">Контроль</text>
+
+<!-- Fertilizer info -->
+<text x="250" y="325" font-family="Arial,sans-serif" font-size="7" fill="#1B5E20" text-anchor="middle">Удобрения: органические (навоз, компост) и минеральные (азотные, фосфорные, калийные)</text>
+<text x="250" y="340" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">Опыт Сакса (1860): растение растёт только в растворе минеральных солей</text>
+</svg>
