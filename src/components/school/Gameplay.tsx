@@ -6,6 +6,7 @@ import { ArrowLeft, Gamepad2, Star, Trophy, CheckCircle, XCircle, Circle, Clock,
 import Confetti from './Confetti'
 import { useSound } from '@/lib/sounds'
 import { calculateLevel, XP_REWARDS, getRank } from '@/data/constants'
+import { calculateStars, MAX_STARS, starLabel } from '@/lib/stars'
 
 type AnswerState = 'idle' | 'correct' | 'incorrect' | 'revealed'
 
@@ -200,6 +201,7 @@ export default function Gameplay() {
   // Results screen
   if (showResults) {
     const percentage = totalTasks > 0 ? Math.round((finalScore / totalTasks) * 100) : 0
+    const stars = calculateStars(finalScore, totalTasks)
 
     return (
       <>
@@ -208,7 +210,7 @@ export default function Gameplay() {
           <div className="text-center p-8 rounded-3xl bg-gradient-to-br from-purple-600/60 to-pink-600/60 border-4 border-white/20 animate-bounceIn">
             <Trophy className="w-20 h-20 text-yellow-400 mx-auto mb-6 animate-float" />
             <h2 className="text-4xl font-black text-white mb-4">
-              {percentage === 100 ? '🏆 Идеально!' : percentage >= 80 ? '🎉 Отлично!' : percentage >= 50 ? '👍 Хорошо!' : '💪 Попробуй ещё!'}
+              {starLabel(stars)}
             </h2>
           
             <div className="flex justify-center gap-8 mb-8">
@@ -227,8 +229,8 @@ export default function Gameplay() {
             </div>
 
             <div className="flex justify-center gap-2 mb-6">
-              {Array.from({ length: selectedGame.reward?.stars || 0 }).map((_, i) => (
-                <Star key={i} className={`w-10 h-10 text-yellow-400 fill-yellow-400 ${i < finalScore ? 'animate-bounce' : 'opacity-30'}`} 
+              {Array.from({ length: MAX_STARS }).map((_, i) => (
+                <Star key={i} className={`w-10 h-10 ${i < stars ? 'text-yellow-400 fill-yellow-400 animate-bounce' : 'text-white/20'}`} 
                   style={{ animationDelay: `${i * 0.1}s` }} />
               ))}
             </div>

@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react'
 import { GameLesson } from '@/data/types'
+import { calculateStars, MAX_STARS, starLabel } from '@/lib/stars'
 import { 
   ChevronLeft, 
   Star, 
@@ -189,7 +190,7 @@ export default function GamePlayer({ game, onBack, onComplete }: GamePlayerProps
       }
     } else {
       setGameFinished(true)
-      const stars = score >= game.tasks.length * 0.9 ? 3 : score >= game.tasks.length * 0.6 ? 2 : 1
+      const stars = calculateStars(score, game.tasks.length)
       onComplete(stars)
     }
   }
@@ -213,7 +214,7 @@ export default function GamePlayer({ game, onBack, onComplete }: GamePlayerProps
 
   // Game finished screen
   if (gameFinished) {
-    const stars = score >= game.tasks.length * 0.9 ? 3 : score >= game.tasks.length * 0.6 ? 2 : 1
+    const stars = calculateStars(score, game.tasks.length)
     return (
       <div className="min-h-[60vh] flex items-center justify-center">
         <div className="bg-slate-800/80 backdrop-blur-xl rounded-3xl p-8 text-center max-w-md w-full border border-slate-700/50 shadow-2xl">
@@ -222,21 +223,24 @@ export default function GamePlayer({ game, onBack, onComplete }: GamePlayerProps
           </div>
           
           <h2 className="text-3xl font-bold text-white mb-4">
-            {stars === 3 ? 'Отлично!' : stars === 2 ? 'Хорошо!' : 'Попробуй ещё!'}
+            {starLabel(stars)}
           </h2>
           
           <div className="flex justify-center gap-2 mb-6">
-            {[1, 2, 3].map((star) => (
-              <Star 
-                key={star}
-                className={`w-12 h-12 transition-all duration-300 ${
-                  star <= stars 
-                    ? 'text-yellow-400 fill-yellow-400 scale-110' 
-                    : 'text-slate-600'
-                }`}
-                style={{ animationDelay: `${star * 0.2}s` }}
-              />
-            ))}
+            {Array.from({ length: MAX_STARS }).map((_, idx) => {
+              const star = idx + 1
+              return (
+                <Star 
+                  key={star}
+                  className={`w-12 h-12 transition-all duration-300 ${
+                    star <= stars 
+                      ? 'text-yellow-400 fill-yellow-400 scale-110' 
+                      : 'text-slate-600'
+                  }`}
+                  style={{ animationDelay: `${star * 0.2}s` }}
+                />
+              )
+            })}
           </div>
           
           <p className="text-slate-300 mb-2">
