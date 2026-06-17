@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#E0F7FA" rx="12"/>
+<text x="250" y="28" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#00695C">Парные согласные в корне</text>
+<line x1="250" y1="50" x2="250" y2="310" stroke="#00BCD4" stroke-width="2" stroke-dasharray="6,4"/>
+<circle cx="180" cy="110" r="24" fill="#FF8A80" stroke="#D32F2F" stroke-width="2"/>
+<text x="180" y="118" text-anchor="middle" font-size="28" font-weight="bold" fill="#fff" font-family="sans-serif">б</text>
+<circle cx="320" cy="110" r="24" fill="#FF8A80" stroke="#D32F2F" stroke-width="2"/>
+<text x="320" y="118" text-anchor="middle" font-size="28" font-weight="bold" fill="#fff" font-family="sans-serif">п</text>
+<line x1="204" y1="107" x2="246" y2="107" stroke="#D32F2F" stroke-width="2"/>
+<line x1="254" y1="107" x2="296" y2="107" stroke="#D32F2F" stroke-width="2"/>
+<circle cx="250" cy="107" r="5" fill="#FF5252"/>
+<circle cx="180" cy="175" r="24" fill="#80D8FF" stroke="#0277BD" stroke-width="2"/>
+<text x="180" y="183" text-anchor="middle" font-size="28" font-weight="bold" fill="#fff" font-family="sans-serif">в</text>
+<circle cx="320" cy="175" r="24" fill="#80D8FF" stroke="#0277BD" stroke-width="2"/>
+<text x="320" y="183" text-anchor="middle" font-size="28" font-weight="bold" fill="#fff" font-family="sans-serif">ф</text>
+<line x1="204" y1="172" x2="246" y2="172" stroke="#0277BD" stroke-width="2"/>
+<line x1="254" y1="172" x2="296" y2="172" stroke="#0277BD" stroke-width="2"/>
+<circle cx="250" cy="172" r="5" fill="#29B6F6"/>
+<circle cx="180" cy="240" r="24" fill="#A5D6A7" stroke="#2E7D32" stroke-width="2"/>
+<text x="180" y="248" text-anchor="middle" font-size="28" font-weight="bold" fill="#fff" font-family="sans-serif">г</text>
+<circle cx="320" cy="240" r="24" fill="#A5D6A7" stroke="#2E7D32" stroke-width="2"/>
+<text x="320" y="248" text-anchor="middle" font-size="28" font-weight="bold" fill="#fff" font-family="sans-serif">к</text>
+<line x1="204" y1="237" x2="246" y2="237" stroke="#2E7D32" stroke-width="2"/>
+<line x1="254" y1="237" x2="296" y2="237" stroke="#2E7D32" stroke-width="2"/>
+<circle cx="250" cy="237" r="5" fill="#66BB6A"/>
+<circle cx="95" cy="305" r="14" fill="#FFE082" stroke="#F9A825" stroke-width="1.5"/>
+<text x="95" y="310" text-anchor="middle" font-size="17" font-weight="bold" fill="#fff" font-family="sans-serif">д</text>
+<circle cx="155" cy="305" r="14" fill="#FFE082" stroke="#F9A825" stroke-width="1.5"/>
+<text x="155" y="310" text-anchor="middle" font-size="17" font-weight="bold" fill="#fff" font-family="sans-serif">т</text>
+<line x1="109" y1="300" x2="141" y2="300" stroke="#F9A825" stroke-width="1.5"/>
+<circle cx="225" cy="305" r="14" fill="#CE93D8" stroke="#7B1FA2" stroke-width="1.5"/>
+<text x="225" y="310" text-anchor="middle" font-size="17" font-weight="bold" fill="#fff" font-family="sans-serif">ж</text>
+<circle cx="285" cy="305" r="14" fill="#CE93D8" stroke="#7B1FA2" stroke-width="1.5"/>
+<text x="285" y="310" text-anchor="middle" font-size="17" font-weight="bold" fill="#fff" font-family="sans-serif">ш</text>
+<line x1="239" y1="300" x2="271" y2="300" stroke="#7B1FA2" stroke-width="1.5"/>
+<circle cx="355" cy="305" r="14" fill="#FFAB91" stroke="#E64A19" stroke-width="1.5"/>
+<text x="355" y="310" text-anchor="middle" font-size="17" font-weight="bold" fill="#fff" font-family="sans-serif">з</text>
+<circle cx="415" cy="305" r="14" fill="#FFAB91" stroke="#E64A19" stroke-width="1.5"/>
+<text x="415" y="310" text-anchor="middle" font-size="17" font-weight="bold" fill="#fff" font-family="sans-serif">с</text>
+<line x1="369" y1="300" x2="401" y2="300" stroke="#E64A19" stroke-width="1.5"/>
+</svg>

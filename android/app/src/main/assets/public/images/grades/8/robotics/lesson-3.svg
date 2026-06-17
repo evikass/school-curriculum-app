@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#0F172A" />
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.5" />
+    </pattern>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#grid)" opacity="0.5" />
+  <rect width="800" height="200" fill="url(#topGrad)" />
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#38BDF8" />
+    </marker>
+  </defs>
+  <rect x="0" y="10" width="800" height="55" fill="#0369A1" opacity="0.9" />
+  <rect x="0" y="65" width="800" height="3" fill="#38BDF8" />
+  <text x="400" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#F8FAFC">Знакомство с Arduino</text>
+  <text x="400" y="82" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#94A3B8">Урок 3 — Платформа для создания электроники</text>
+  <rect x="20" y="90" width="400" height="270" rx="8" ry="8" fill="#1E293B" stroke="#334155" stroke-width="1" />
+  <rect x="20" y="90" width="400" height="28" rx="8" ry="8" fill="#0369A1" />
+  <rect x="20" y="110" width="400" height="8" fill="#0369A1" />
+  <text x="220" y="109" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#F8FAFC">Архитектура платы Arduino Uno</text>
+  <rect x="40" y="135" width="280" height="190" rx="6" fill="#0A3D62" stroke="#38BDF8" stroke-width="2" />
+  <rect x="40" y="190" width="25" height="45" rx="2" fill="#94A3B8" stroke="#F8FAFC" stroke-width="1" />
+  <text x="72" y="216" font-family="Arial, sans-serif" font-size="7" fill="#94A3B8">USB</text>
+  <rect x="140" y="185" width="60" height="55" rx="2" fill="#1E293B" stroke="#A78BFA" stroke-width="1.5" />
+  <text x="170" y="210" text-anchor="middle" font-family="Consolas, monospace" font-size="7" font-weight="bold" fill="#A78BFA">ATmega</text>
+  <text x="170" y="222" text-anchor="middle" font-family="Consolas, monospace" font-size="7" fill="#A78BFA">328P</text>
+  <rect x="220" y="200" width="20" height="10" rx="2" fill="#334155" stroke="#94A3B8" stroke-width="0.5" />
+  <text x="230" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#94A3B8">16MHz</text>
+  <circle cx="100" cy="160" r="4" fill="#22C55E" />
+  <text x="108" y="163" font-family="Arial, sans-serif" font-size="6" fill="#94A3B8">PWR</text>
+  <circle cx="115" cy="160" r="4" fill="#F59E0B" />
+  <text x="123" y="163" font-family="Arial, sans-serif" font-size="6" fill="#94A3B8">TX</text>
+  <circle cx="135" cy="160" r="4" fill="#38BDF8" />
+  <text x="143" y="163" font-family="Arial, sans-serif" font-size="6" fill="#94A3B8">RX</text>
+  <rect x="48" y="130" width="14" height="8" fill="#0A3D62" stroke="#06B6D4" stroke-width="0.8" />
+  <text x="55" y="127" text-anchor="middle" font-family="Consolas, monospace" font-size="6" fill="#06B6D4">0</text>
+  <rect x="67" y="130" width="14" height="8" fill="#0A3D62" stroke="#06B6D4" stroke-width="0.8" />
+  <text x="74" y="127" text-anchor="middle" font-family="Consolas, monospace" font-size="6" fill="#06B6D4">1</text>
+  <rect x="86" y="130" width="14" height="8" fill="#0A3D62" stroke="#06B6D4" stroke-width="0.8" />
+  <text x="93" y="127" text-anchor="middle" font-family="Consolas, monospace" font-size="6" fill="#06B6D4">2</text>
+  <rect x="105" y="130" width="14" height="8" fill="#0A3D62" stroke="#06B6D4" stroke-width="0.8" />
+  <text x="112" y="127" text-anchor="middle" font-family="Consolas, monospace" font-size="6" fill="#06B6D4">3</text>
+  <rect x="124" y="130" width="14" height="8" fill="#0A3D62" stroke="#06B6D4" stroke-width="0.8" />
+  <text x="131" y="127" text-anchor="middle" font-family="Consolas, monospace" font-size="6" fill="#06B6D4">4</text>
+  <rect x="143" y="130" width="14" height="8" fill="#0A3D62" stroke="#06B6D4" stroke-width="0.8" />
+  <text x="150" y="127" text-anchor="middle" font-family="Consolas, monospace" font-size="6" fill="#06B6D4">5</text>
+  <rect x="162" y="130" width="14" height="8" fill="#0A3D62" stroke="#06B6D4" stroke-width="0.8" />
+  <text x="169" y="127" text-anchor="middle" font-family="Consolas, monospace" font-size="6" fill="#06B6D4">6</text>
+  <rect x="181" y="130" width="14" height="8" fill="#0A3D62" stroke="#06B6D4" stroke-width="0.8" />
+  <text x="188" y="127" text-anchor="middle" font-family="Consolas, monospace" font-size="6" fill="#06B6D4">7</text>
+  <rect x="200" y="130" width="14" height="8" fill="#0A3D62" stroke="#06B6D4" stroke-width="0.8" />
+  <text x="207" y="127" text-anchor="middle" font-family="Consolas, monospace" font-size="6" fill="#06B6D4">8</text>
+  <rect x="219" y="130" width="14" height="8" fill="#0A3D62" stroke="#06B6D4" stroke-width="0.8" />
+  <text x="226" y="127" text-anchor="middle" font-family="Consolas, monospace" font-size="6" fill="#06B6D4">9</text>
+  <rect x="238" y="130" width="14" height="8" fill="#0A3D62" stroke="#06B6D4" stroke-width="0.8" />
+  <rect x="257" y="130" width="14" height="8" fill="#0A3D62" stroke="#06B6D4" stroke-width="0.8" />
+  <rect x="276" y="130" width="14" height="8" fill="#0A3D62" stroke="#06B6D4" stroke-width="0.8" />
+  <rect x="295" y="130" width="14" height="8" fill="#0A3D62" stroke="#06B6D4" stroke-width="0.8" />
+  <text x="112" y="145" text-anchor="middle" font-family="Consolas, monospace" font-size="5" fill="#F59E0B">~</text>
+  <text x="150" y="145" text-anchor="middle" font-family="Consolas, monospace" font-size="5" fill="#F59E0B">~</text>
+  <text x="169" y="145" text-anchor="middle" font-family="Consolas, monospace" font-size="5" fill="#F59E0B">~</text>
+  <text x="226" y="145" text-anchor="middle" font-family="Consolas, monospace" font-size="5" fill="#F59E0B">~</text>
+  <text x="245" y="145" text-anchor="middle" font-family="Consolas, monospace" font-size="5" fill="#F59E0B">~</text>
+  <text x="264" y="145" text-anchor="middle" font-family="Consolas, monospace" font-size="5" fill="#F59E0B">~</text>
+  <rect x="48" y="320" width="14" height="8" fill="#0A3D62" stroke="#22C55E" stroke-width="0.8" />
+  <text x="55" y="338" text-anchor="middle" font-family="Consolas, monospace" font-size="6" fill="#22C55E">A0</text>
+  <rect x="67" y="320" width="14" height="8" fill="#0A3D62" stroke="#22C55E" stroke-width="0.8" />
+  <text x="74" y="338" text-anchor="middle" font-family="Consolas, monospace" font-size="6" fill="#22C55E">A1</text>
+  <rect x="86" y="320" width="14" height="8" fill="#0A3D62" stroke="#22C55E" stroke-width="0.8" />
+  <text x="93" y="338" text-anchor="middle" font-family="Consolas, monospace" font-size="6" fill="#22C55E">A2</text>
+  <rect x="105" y="320" width="14" height="8" fill="#0A3D62" stroke="#22C55E" stroke-width="0.8" />
+  <text x="112" y="338" text-anchor="middle" font-family="Consolas, monospace" font-size="6" fill="#22C55E">A3</text>
+  <rect x="124" y="320" width="14" height="8" fill="#0A3D62" stroke="#22C55E" stroke-width="0.8" />
+  <text x="131" y="338" text-anchor="middle" font-family="Consolas, monospace" font-size="6" fill="#22C55E">A4</text>
+  <rect x="143" y="320" width="14" height="8" fill="#0A3D62" stroke="#22C55E" stroke-width="0.8" />
+  <text x="150" y="338" text-anchor="middle" font-family="Consolas, monospace" font-size="6" fill="#22C55E">A5</text>
+  <rect x="296" y="155" width="20" height="8" fill="#0A3D62" stroke="#EF4444" stroke-width="0.8" />
+  <text x="320" y="162" font-family="Consolas, monospace" font-size="6" fill="#EF4444">5V</text>
+  <rect x="296" y="173" width="20" height="8" fill="#0A3D62" stroke="#EF4444" stroke-width="0.8" />
+  <text x="320" y="180" font-family="Consolas, monospace" font-size="6" fill="#EF4444">3.3V</text>
+  <rect x="296" y="191" width="20" height="8" fill="#0A3D62" stroke="#EF4444" stroke-width="0.8" />
+  <text x="320" y="198" font-family="Consolas, monospace" font-size="6" fill="#EF4444">GND</text>
+  <rect x="296" y="209" width="20" height="8" fill="#0A3D62" stroke="#EF4444" stroke-width="0.8" />
+  <text x="320" y="216" font-family="Consolas, monospace" font-size="6" fill="#EF4444">GND</text>
+  <rect x="296" y="227" width="20" height="8" fill="#0A3D62" stroke="#EF4444" stroke-width="0.8" />
+  <text x="320" y="234" font-family="Consolas, monospace" font-size="6" fill="#EF4444">Vin</text>
+  <circle cx="270" cy="150" r="8" fill="#334155" stroke="#94A3B8" stroke-width="1" />
+  <text x="270" y="153" text-anchor="middle" font-family="Arial, sans-serif" font-size="5" fill="#94A3B8">RST</text>
+  <circle cx="50" y="355" r="4" fill="#06B6D4" />
+  <text x="58" y="358" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">Цифровые</text>
+  <circle cx="120" y="355" r="4" fill="#22C55E" />
+  <text x="128" y="358" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">Аналоговые</text>
+  <circle cx="200" y="355" r="4" fill="#EF4444" />
+  <text x="208" y="358" font-family="Arial, sans-serif" font-size="8" fill="#94A3B8">Питание</text>
+  <text x="50" y="358" font-family="Arial, sans-serif" font-size="8" fill="#F59E0B" />
+  <text x="275" y="358" font-family="Arial, sans-serif" font-size="8" fill="#F59E0B">~ = PWM</text>
+  <rect x="440" y="90" width="340" height="270" rx="8" ry="8" fill="#1E293B" stroke="#334155" stroke-width="1" />
+  <rect x="440" y="90" width="340" height="28" rx="8" ry="8" fill="#0369A1" />
+  <rect x="440" y="110" width="340" height="8" fill="#0369A1" />
+  <text x="610" y="109" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#F8FAFC">Arduino IDE</text>
+  <rect x="455" y="125" width="310" height="195" rx="4" fill="#0D1117" stroke="#334155" stroke-width="1" />
+  <rect x="455" y="125" width="310" height="22" rx="4" fill="#161B22" />
+  <rect x="455" y="143" width="310" height="4" fill="#161B22" />
+  <rect x="462" y="129" width="24" height="14" rx="2" fill="#0284C7" opacity="0.5" />
+  <text x="474" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="5" fill="#F8FAFC">Verify</text>
+  <rect x="490" y="129" width="24" height="14" rx="2" fill="#0284C7" opacity="0.5" />
+  <text x="502" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="5" fill="#F8FAFC">Upload</text>
+  <rect x="518" y="129" width="24" height="14" rx="2" fill="#0284C7" opacity="0.5" />
+  <text x="530" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="5" fill="#F8FAFC">New</text>
+  <rect x="546" y="129" width="24" height="14" rx="2" fill="#0284C7" opacity="0.5" />
+  <text x="558" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="5" fill="#F8FAFC">Open</text>
+  <rect x="574" y="129" width="24" height="14" rx="2" fill="#0284C7" opacity="0.5" />
+  <text x="586" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="5" fill="#F8FAFC">Save</text>
+  <text x="465" y="160" font-family="Consolas, monospace" font-size="10" fill="#A78BFA">void</text>
+  <text x="493" y="160" font-family="Consolas, monospace" font-size="10" fill="#CBD5E1"> setup() {</text>
+  <text x="465" y="173" font-family="Consolas, monospace" font-size="10" fill="#06B6D4">  pinMode(13, OUTPUT);</text>
+  <text x="465" y="186" font-family="Consolas, monospace" font-size="10" fill="#CBD5E1">}</text>
+  <text x="472" y="186" font-family="Consolas, monospace" font-size="10" fill="" />
+  <text x="465" y="212" font-family="Consolas, monospace" font-size="10" fill="#A78BFA">void</text>
+  <text x="493" y="212" font-family="Consolas, monospace" font-size="10" fill="#CBD5E1"> loop() {</text>
+  <text x="465" y="225" font-family="Consolas, monospace" font-size="10" fill="#06B6D4">  digitalWrite(13, HIGH);</text>
+  <text x="465" y="238" font-family="Consolas, monospace" font-size="10" fill="#06B6D4">  delay(1000);</text>
+  <text x="465" y="251" font-family="Consolas, monospace" font-size="10" fill="#06B6D4">  digitalWrite(13, LOW);</text>
+  <text x="465" y="264" font-family="Consolas, monospace" font-size="10" fill="#06B6D4">  delay(1000);</text>
+  <text x="465" y="277" font-family="Consolas, monospace" font-size="10" fill="#CBD5E1">}</text>
+  <text x="472" y="277" font-family="Consolas, monospace" font-size="10" fill="" />
+  <rect x="455" y="303" width="310" height="17" fill="#0369A1" />
+  <text x="465" y="315" font-family="Arial, sans-serif" font-size="8" fill="#22C55E">✓ Compilation complete</text>
+  <rect x="20" y="375" width="760" height="200" rx="8" ry="8" fill="#1E293B" stroke="#334155" stroke-width="1" />
+  <rect x="20" y="375" width="760" height="28" rx="8" ry="8" fill="#0369A1" />
+  <rect x="20" y="395" width="760" height="8" fill="#0369A1" />
+  <text x="400" y="394" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#F8FAFC">Характеристики Arduino Uno</text>
+  <rect x="40" y="420" width="175" height="55" rx="6" fill="#0D1117" stroke="#0284C7" stroke-width="1" />
+  <rect x="40" y="420" width="4" height="55" rx="2" fill="#0284C7" />
+  <text x="54" y="442" font-family="Arial, sans-serif" font-size="9" fill="#94A3B8">Микроконтроллер</text>
+  <text x="54" y="462" font-family="Consolas, monospace" font-size="14" font-weight="bold" fill="#0284C7">ATmega328P</text>
+  <rect x="230" y="420" width="175" height="55" rx="6" fill="#0D1117" stroke="#06B6D4" stroke-width="1" />
+  <rect x="230" y="420" width="4" height="55" rx="2" fill="#06B6D4" />
+  <text x="244" y="442" font-family="Arial, sans-serif" font-size="9" fill="#94A3B8">Тактовая частота</text>
+  <text x="244" y="462" font-family="Consolas, monospace" font-size="14" font-weight="bold" fill="#06B6D4">16 МГц</text>
+  <rect x="420" y="420" width="175" height="55" rx="6" fill="#0D1117" stroke="#F59E0B" stroke-width="1" />
+  <rect x="420" y="420" width="4" height="55" rx="2" fill="#F59E0B" />
+  <text x="434" y="442" font-family="Arial, sans-serif" font-size="9" fill="#94A3B8">Флеш-память</text>
+  <text x="434" y="462" font-family="Consolas, monospace" font-size="14" font-weight="bold" fill="#F59E0B">32 КБ</text>
+  <rect x="610" y="420" width="175" height="55" rx="6" fill="#0D1117" stroke="#14B8A6" stroke-width="1" />
+  <rect x="610" y="420" width="4" height="55" rx="2" fill="#14B8A6" />
+  <text x="624" y="442" font-family="Arial, sans-serif" font-size="9" fill="#94A3B8">SRAM</text>
+  <text x="624" y="462" font-family="Consolas, monospace" font-size="14" font-weight="bold" fill="#14B8A6">2 КБ</text>
+  <rect x="40" y="490" width="175" height="55" rx="6" fill="#0D1117" stroke="#A78BFA" stroke-width="1" />
+  <rect x="40" y="490" width="4" height="55" rx="2" fill="#A78BFA" />
+  <text x="54" y="512" font-family="Arial, sans-serif" font-size="9" fill="#94A3B8">EEPROM</text>
+  <text x="54" y="532" font-family="Consolas, monospace" font-size="14" font-weight="bold" fill="#A78BFA">1 КБ</text>
+  <rect x="230" y="490" width="175" height="55" rx="6" fill="#0D1117" stroke="#38BDF8" stroke-width="1" />
+  <rect x="230" y="490" width="4" height="55" rx="2" fill="#38BDF8" />
+  <text x="244" y="512" font-family="Arial, sans-serif" font-size="9" fill="#94A3B8">Цифровые пины</text>
+  <text x="244" y="532" font-family="Consolas, monospace" font-size="14" font-weight="bold" fill="#38BDF8">14 (6 PWM)</text>
+  <rect x="420" y="490" width="175" height="55" rx="6" fill="#0D1117" stroke="#22C55E" stroke-width="1" />
+  <rect x="420" y="490" width="4" height="55" rx="2" fill="#22C55E" />
+  <text x="434" y="512" font-family="Arial, sans-serif" font-size="9" fill="#94A3B8">Аналоговые пины</text>
+  <text x="434" y="532" font-family="Consolas, monospace" font-size="14" font-weight="bold" fill="#22C55E">6</text>
+  <rect x="610" y="490" width="175" height="55" rx="6" fill="#0D1117" stroke="#EF4444" stroke-width="1" />
+  <rect x="610" y="490" width="4" height="55" rx="2" fill="#EF4444" />
+  <text x="624" y="512" font-family="Arial, sans-serif" font-size="9" fill="#94A3B8">Напряжение</text>
+  <text x="624" y="532" font-family="Consolas, monospace" font-size="14" font-weight="bold" fill="#EF4444">5В / 3.3В</text>
+</svg>

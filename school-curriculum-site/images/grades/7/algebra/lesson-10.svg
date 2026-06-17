@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E1B4B;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#3730A3;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.95"/>
+      <stop offset="100%" style="stop-color:#EEF2FF;stop-opacity:0.9"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4F46E5;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#A78BFA;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#818CF8;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#1E1B4B" flood-opacity="0.3"/>
+    </filter>
+    <filter id="shadowSm" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#1E1B4B" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+  <!-- Decorative circles -->
+  <circle cx="750" cy="50" r="80" fill="#4F46E5" opacity="0.15"/>
+  <circle cx="50" cy="560" r="60" fill="#A78BFA" opacity="0.1"/>
+  <circle cx="700" cy="550" r="40" fill="#818CF8" opacity="0.1"/>
+  <!-- Subtle grid pattern -->
+  <line x1="0" y1="0" x2="800" y2="600" stroke="#4F46E5" stroke-width="0.3" opacity="0.05"/>
+  <line x1="800" y1="0" x2="0" y2="600" stroke="#4F46E5" stroke-width="0.3" opacity="0.05"/>
+
+  <!-- Header bar -->
+  <rect x="30" y="15" width="740" height="70" rx="12" fill="url(#headerGrad)" filter="url(#shadow)"/>
+  <text x="60" y="48" font-family="Arial, sans-serif" font-size="16" fill="#FFFFFF" opacity="0.8">Урок 10</text>
+  <text x="400" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">Сложение и вычитание многочленов</text>
+    <text x="400" y="82" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#C7D2FE" opacity="0.9">Подобные слагаемые и скобки</text>
+  <rect x="30" y="95" width="740" height="490" rx="10" fill="url(#cardGrad)" filter="url(#shadow)"/>
+  <rect x="50" y="116" width="8" height="16" rx="2" fill="#4F46E5"/>
+  <text x="64" y="130" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#4F46E5">Сложение многочленов</text>
+  <rect x="50" y="140" width="700" height="90" rx="8" fill="url(#cardGrad)" filter="url(#shadow)"/>
+  <text x="70" y="165" text-anchor="start" font-family="Arial, sans-serif" font-size="14" fill="#1E293B" font-weight="bold">Правило: раскрыть скобки и привести подобные слагаемые</text>
+  <text x="70" y="190" text-anchor="start" font-family="Arial, sans-serif" font-size="15" fill="#4F46E5" font-weight="bold">(3x² + 2x − 1) + (x² − 3x + 4)</text>
+  <text x="70" y="215" text-anchor="start" font-family="Arial, sans-serif" font-size="15" fill="#10B981" font-weight="bold">= 3x² + 2x − 1 + x² − 3x + 4 = 4x² − x + 3</text>
+  <rect x="50" y="236" width="8" height="16" rx="2" fill="#EF4444"/>
+  <text x="64" y="250" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#EF4444">Вычитание многочленов</text>
+  <rect x="50" y="260" width="700" height="90" rx="8" fill="url(#cardGrad)" filter="url(#shadow)"/>
+  <text x="70" y="285" text-anchor="start" font-family="Arial, sans-serif" font-size="14" fill="#1E293B" font-weight="bold">Правило: поменять знаки в вычитаемом и привести подобные</text>
+  <text x="70" y="310" text-anchor="start" font-family="Arial, sans-serif" font-size="15" fill="#4F46E5" font-weight="bold">(5a² − 3a + 2) − (2a² + a − 1)</text>
+  <text x="70" y="335" text-anchor="start" font-family="Arial, sans-serif" font-size="15" fill="#10B981" font-weight="bold">= 5a² − 3a + 2 − 2a² − a + 1 = 3a² − 4a + 3</text>
+  <rect x="50" y="356" width="8" height="16" rx="2" fill="#6366F1"/>
+  <text x="64" y="370" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#6366F1">Подобные слагаемые</text>
+  <rect x="50" y="385" width="345" height="80" rx="8" fill="url(#cardGrad)" filter="url(#shadow)"/>
+  <text x="65" y="408" text-anchor="start" font-family="Arial, sans-serif" font-size="13" fill="#475569">Имеют одинаковую</text>
+  <text x="65" y="428" text-anchor="start" font-family="Arial, sans-serif" font-size="13" fill="#475569">переменную часть:</text>
+  <text x="65" y="453" text-anchor="start" font-family="Arial, sans-serif" font-size="14" fill="#10B981" font-weight="bold">3x² и −5x² ✓</text>
+  <text x="65" y="470" text-anchor="start" font-family="Arial, sans-serif" font-size="14" fill="#EF4444" font-weight="bold">2xy и 3x²  ✗</text>
+  <rect x="415" y="385" width="335" height="80" rx="8" fill="url(#cardGrad)" filter="url(#shadow)"/>
+  <text x="430" y="408" text-anchor="start" font-family="Arial, sans-serif" font-size="13" fill="#475569" font-weight="bold">Приведение подобных:</text>
+  <text x="430" y="430" text-anchor="start" font-family="Arial, sans-serif" font-size="15" fill="#4F46E5" font-weight="bold">3x² + 5x² = 8x²</text>
+  <text x="430" y="453" text-anchor="start" font-family="Arial, sans-serif" font-size="15" fill="#4F46E5" font-weight="bold">7ab − 2ab = 5ab</text>
+  <rect x="50" y="471" width="8" height="16" rx="2" fill="#F59E0B"/>
+  <text x="64" y="485" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#F59E0B">Правила раскрытия скобок</text>
+  <rect x="50" y="500" width="345" height="70" rx="8" fill="url(#cardGrad)" filter="url(#shadow)"/>
+  <text x="65" y="522" text-anchor="start" font-family="Arial, sans-serif" font-size="13" fill="#F59E0B" font-weight="bold">Перед скобкой + :</text>
+  <text x="65" y="545" text-anchor="start" font-family="Arial, sans-serif" font-size="15" fill="#1E293B" font-weight="bold">+(a − b) = a − b</text>
+  <text x="65" y="562" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#475569">Знаки не меняются</text>
+  <rect x="415" y="500" width="335" height="70" rx="8" fill="url(#cardGrad)" filter="url(#shadow)"/>
+  <text x="430" y="522" text-anchor="start" font-family="Arial, sans-serif" font-size="13" fill="#EF4444" font-weight="bold">Перед скобкой − :</text>
+  <text x="430" y="545" text-anchor="start" font-family="Arial, sans-serif" font-size="15" fill="#1E293B" font-weight="bold">−(a − b) = −a + b</text>
+  <text x="430" y="562" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#EF4444" font-weight="bold">Знаки меняются!</text>
+</svg>

@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+<polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+<polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+<polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+<polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+<circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+<circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+<circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+<circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+<circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+<circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+<text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Периодический закон Д.И. Менделеева</text>
+<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Химия - Урок 1</text>
+<line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+<rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+<rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Periodic table preview -->
+  <rect x="25" y="90" width="310" height="200" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5"/>
+  <text x="180" y="106" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" font-weight="bold" text-anchor="middle">Периодическая система элементов</text>
+  <!-- Mini table -->
+  <rect x="40" y="115" width="22" height="22" rx="2" fill="#FFCDD2" stroke="#C62828" stroke-width="1"/>
+  <text x="51" y="125" font-family="Arial,sans-serif" font-size="6" fill="#C62828" text-anchor="middle" font-weight="bold">H</text>
+  <text x="51" y="134" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">1</text>
+  <rect x="68" y="115" width="22" height="22" rx="2" fill="#BBDEFB" stroke="#1565C0" stroke-width="1"/>
+  <text x="79" y="125" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle" font-weight="bold">He</text>
+  <text x="79" y="134" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">2</text>
+  <rect x="40" y="143" width="22" height="22" rx="2" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1"/>
+  <text x="51" y="153" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle" font-weight="bold">Li</text>
+  <text x="51" y="162" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">3</text>
+  <rect x="68" y="143" width="22" height="22" rx="2" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1"/>
+  <text x="79" y="153" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle" font-weight="bold">Be</text>
+  <text x="79" y="162" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">4</text>
+  <rect x="96" y="143" width="22" height="22" rx="2" fill="#FFE0B2" stroke="#E65100" stroke-width="1"/>
+  <text x="107" y="153" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle" font-weight="bold">B</text>
+  <text x="107" y="162" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">5</text>
+  <rect x="124" y="143" width="22" height="22" rx="2" fill="#E8EAF6" stroke="#3F51B5" stroke-width="1"/>
+  <text x="135" y="153" font-family="Arial,sans-serif" font-size="6" fill="#3F51B5" text-anchor="middle" font-weight="bold">C</text>
+  <text x="135" y="162" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">6</text>
+  <rect x="152" y="143" width="22" height="22" rx="2" fill="#E8EAF6" stroke="#3F51B5" stroke-width="1"/>
+  <text x="163" y="153" font-family="Arial,sans-serif" font-size="6" fill="#3F51B5" text-anchor="middle" font-weight="bold">N</text>
+  <text x="163" y="162" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">7</text>
+  <rect x="180" y="143" width="22" height="22" rx="2" fill="#E8EAF6" stroke="#3F51B5" stroke-width="1"/>
+  <text x="191" y="153" font-family="Arial,sans-serif" font-size="6" fill="#3F51B5" text-anchor="middle" font-weight="bold">O</text>
+  <text x="191" y="162" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">8</text>
+  <rect x="208" y="143" width="22" height="22" rx="2" fill="#E3F2FD" stroke="#0D47A1" stroke-width="1"/>
+  <text x="219" y="153" font-family="Arial,sans-serif" font-size="6" fill="#0D47A1" text-anchor="middle" font-weight="bold">F</text>
+  <text x="219" y="162" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">9</text>
+  <rect x="236" y="143" width="22" height="22" rx="2" fill="#E8EAF6" stroke="#3F51B5" stroke-width="1"/>
+  <text x="247" y="153" font-family="Arial,sans-serif" font-size="6" fill="#3F51B5" text-anchor="middle" font-weight="bold">Ne</text>
+  <text x="247" y="162" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">10</text>
+  <rect x="264" y="143" width="22" height="22" rx="2" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1"/>
+  <text x="275" y="153" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle" font-weight="bold">Na</text>
+  <text x="275" y="162" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">11</text>
+  <rect x="292" y="143" width="22" height="22" rx="2" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1"/>
+  <text x="303" y="153" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle" font-weight="bold">Mg</text>
+  <text x="303" y="162" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">12</text>
+  <!-- More rows -->
+  <rect x="40" y="171" width="22" height="22" rx="2" fill="#FFCDD2" stroke="#C62828" stroke-width="1"/>
+  <text x="51" y="181" font-family="Arial,sans-serif" font-size="6" fill="#C62828" text-anchor="middle" font-weight="bold">K</text>
+  <text x="51" y="190" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">19</text>
+  <rect x="68" y="171" width="22" height="22" rx="2" fill="#FFCDD2" stroke="#C62828" stroke-width="1"/>
+  <text x="79" y="181" font-family="Arial,sans-serif" font-size="6" fill="#C62828" text-anchor="middle" font-weight="bold">Ca</text>
+  <text x="79" y="190" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">20</text>
+  <rect x="96" y="171" width="22" height="22" rx="2" fill="#E8EAF6" stroke="#3F51B5" stroke-width="1"/>
+  <text x="107" y="181" font-family="Arial,sans-serif" font-size="6" fill="#3F51B5" text-anchor="middle" font-weight="bold">Fe</text>
+  <text x="107" y="190" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">26</text>
+  <rect x="124" y="171" width="22" height="22" rx="2" fill="#E8EAF6" stroke="#3F51B5" stroke-width="1"/>
+  <text x="135" y="181" font-family="Arial,sans-serif" font-size="6" fill="#3F51B5" text-anchor="middle" font-weight="bold">Cu</text>
+  <text x="135" y="190" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">29</text>
+  <rect x="152" y="171" width="22" height="22" rx="2" fill="#E8EAF6" stroke="#3F51B5" stroke-width="1"/>
+  <text x="163" y="181" font-family="Arial,sans-serif" font-size="6" fill="#3F51B5" text-anchor="middle" font-weight="bold">Zn</text>
+  <text x="163" y="190" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">30</text>
+  <rect x="180" y="171" width="22" height="22" rx="2" fill="#E8EAF6" stroke="#3F51B5" stroke-width="1"/>
+  <text x="191" y="181" font-family="Arial,sans-serif" font-size="6" fill="#3F51B5" text-anchor="middle" font-weight="bold">Ag</text>
+  <text x="191" y="190" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">47</text>
+  <rect x="208" y="171" width="22" height="22" rx="2" fill="#E8EAF6" stroke="#3F51B5" stroke-width="1"/>
+  <text x="219" y="181" font-family="Arial,sans-serif" font-size="6" fill="#3F51B5" text-anchor="middle" font-weight="bold">Au</text>
+  <text x="219" y="190" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">79</text>
+  <!-- Legend -->
+  <rect x="45" y="205" width="10" height="10" fill="#C8E6C9" stroke="#2E7D32" stroke-width="0.5"/>
+  <text x="60" y="214" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32">металлы</text>
+  <rect x="115" y="205" width="10" height="10" fill="#FFE0B2" stroke="#E65100" stroke-width="0.5"/>
+  <text x="130" y="214" font-family="Arial,sans-serif" font-size="7" fill="#E65100">полуметаллы</text>
+  <rect x="205" y="205" width="10" height="10" fill="#E3F2FD" stroke="#1565C0" stroke-width="0.5"/>
+  <text x="220" y="214" font-family="Arial,sans-serif" font-size="7" fill="#1565C0">неметаллы</text>
+  <!-- Mendeleev portrait -->
+  <rect x="245" y="200" width="80" height="80" rx="4" fill="#E8EAF6" stroke="#3F51B5" stroke-width="1"/>
+  <circle cx="285" cy="230" r="20" fill="#B0BEC5"/>
+  <rect x="275" y="250" width="20" height="15" rx="3" fill="#78909C"/>
+  <text x="285" y="270" font-family="Arial,sans-serif" font-size="6" fill="#3F51B5" text-anchor="middle">Д.И. Менделеев</text>
+  <text x="285" y="280" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">1869 г.</text>
+
+  <!-- Periods and groups -->
+  <rect x="345" y="90" width="130" height="200" rx="6" fill="white" stroke="#C62828" stroke-width="1.5"/>
+  <text x="410" y="106" font-family="Arial,sans-serif" font-size="10" fill="#C62828" font-weight="bold" text-anchor="middle">Структура</text>
+  <!-- Periods horizontal -->
+  <text x="365" y="130" font-family="Arial,sans-serif" font-size="8" fill="#1565C0">Периоды (строки)</text>
+  <rect x="360" y="135" width="8" height="8" fill="#C8E6C9" rx="1"/>
+  <rect x="370" y="135" width="8" height="8" fill="#BBDEFB" rx="1"/>
+  <rect x="380" y="135" width="8" height="8" fill="#FFE0B2" rx="1"/>
+  <rect x="390" y="135" width="8" height="8" fill="#FFCDD2" rx="1"/>
+  <text x="365" y="160" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32">Группы (столбцы)</text>
+  <rect x="360" y="165" width="8" height="8" fill="#C8E6C9" rx="1"/>
+  <rect x="360" y="175" width="8" height="8" fill="#C8E6C9" rx="1"/>
+  <rect x="360" y="185" width="8" height="8" fill="#C8E6C9" rx="1"/>
+  <rect x="370" y="165" width="8" height="8" fill="#E8EAF6" rx="1"/>
+  <rect x="370" y="175" width="8" height="8" fill="#E8EAF6" rx="1"/>
+  <rect x="370" y="185" width="8" height="8" fill="#E8EAF6" rx="1"/>
+  <!-- Law -->
+  <text x="410" y="220" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle" font-weight="bold">Закон:</text>
+  <text x="410" y="235" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Свойства элементов</text>
+  <text x="410" y="248" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">периодически</text>
+  <text x="410" y="261" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">зависят от</text>
+  <text x="410" y="274" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">заряд. ядра</text>
+  <text x="410" y="287" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle" font-weight="bold">118 элементов</text>
+<rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Химия</text>
+</svg>

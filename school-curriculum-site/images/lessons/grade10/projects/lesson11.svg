@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="hdrprojects11" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#004D40;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#00897B;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="bgprojects11" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0F2F1;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#B2DFDB;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="shadowprojects11" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#000" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  <rect width="500" height="350" fill="url(#bgprojects11)"/>
+  <rect x="2" y="2" width="496" height="346" rx="12" ry="12" fill="none" stroke="#004D40" stroke-width="2.5" opacity="0.6"/>
+  <rect x="3" y="3" width="494" height="42" rx="10" ry="10" fill="url(#hdrprojects11)"/>
+  <rect x="3" y="35" width="494" height="10" fill="url(#hdrprojects11)"/>
+  <text x="250" y="20" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Ответы на вопросы и дискуссия</text>
+  <text x="250" y="36" font-family="Arial, sans-serif" font-size="10" fill="#E0F2F1" text-anchor="middle">Проекты — Урок 11</text>
+  <circle cx="28" cy="24" r="14" fill="#FFFFFF" opacity="0.25"/>
+  <text x="28" y="28" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">11</text>
+  <rect x="12" y="52" width="230" height="146" rx="8" ry="8" fill="#FFFFFF" opacity="0.7" filter="url(#shadowprojects11)"/>
+  <rect x="16" y="55" width="222" height="18" rx="4" ry="4" fill="#004D40" opacity="0.15"/>
+  <text x="127" y="68" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#004D40" text-anchor="middle">Как отвечать на вопросы</text>
+  <circle cx="26" cy="77" r="4" fill="#004D40" opacity="0.8"/>
+  <text x="36" y="80" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Внимательно дослушайте вопрос до конца</text>
+  <circle cx="26" cy="99" r="4" fill="#004D40" opacity="0.8"/>
+  <text x="36" y="102" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Переформулируйте: «Правильно ли я понял, что…»</text>
+  <circle cx="26" cy="121" r="4" fill="#004D40" opacity="0.8"/>
+  <text x="36" y="124" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Отвечайте коротко и по существу</text>
+  <circle cx="26" cy="143" r="4" fill="#004D40" opacity="0.8"/>
+  <text x="36" y="146" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Не знаете — честно скажите: «У меня нет данных, но…»</text>
+  <circle cx="26" cy="165" r="4" fill="#004D40" opacity="0.8"/>
+  <text x="36" y="168" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Не вступайте в спор — дискуссия — это диалог</text>
+  <rect x="252" y="52" width="236" height="146" rx="8" ry="8" fill="#FFFFFF" opacity="0.7" filter="url(#shadowprojects11)"/>
+  <rect x="256" y="55" width="228" height="18" rx="4" ry="4" fill="#004D40" opacity="0.15"/>
+  <text x="370" y="68" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#004D40" text-anchor="middle">Типы вопросов</text>
+  <circle cx="266" cy="77" r="6" fill="#004D40" opacity="0.2"/>
+  <text x="266" y="80" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#004D40" text-anchor="middle">1</text>
+  <text x="278" y="80" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Уточняющие: «Что вы имеете в виду под…?»</text>
+  <circle cx="266" cy="99" r="6" fill="#004D40" opacity="0.2"/>
+  <text x="266" y="102" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#004D40" text-anchor="middle">2</text>
+  <text x="278" y="102" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Критические: «Почему вы выбрали этот метод?»</text>
+  <circle cx="266" cy="121" r="6" fill="#004D40" opacity="0.2"/>
+  <text x="266" y="124" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#004D40" text-anchor="middle">3</text>
+  <text x="278" y="124" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Альтернативные: «А не проще ли было…?»</text>
+  <circle cx="266" cy="143" r="6" fill="#004D40" opacity="0.2"/>
+  <text x="266" y="146" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#004D40" text-anchor="middle">4</text>
+  <text x="278" y="146" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Перспективные: «Какие дальнейшие планы?»</text>
+  <circle cx="266" cy="165" r="6" fill="#004D40" opacity="0.2"/>
+  <text x="266" y="168" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#004D40" text-anchor="middle">5</text>
+  <text x="278" y="168" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Провокационные: отвечайте спокойно и аргументированно</text>
+  <rect x="12" y="206" width="476" height="74" rx="8" ry="8" fill="#FFFFFF" opacity="0.7" filter="url(#shadowprojects11)"/>
+  <rect x="12" y="206" width="5" height="74" rx="2" ry="0" fill="#004D40" opacity="0.7"/>
+  <text x="250" y="220" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#00251A" text-anchor="middle">Подготовьтесь к вопросам заранее</text>
+  <rect x="24" y="228" width="452" height="15" rx="3" ry="3" fill="#004D40" opacity="0.06"/>
+  <text x="30" y="236" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Составьте список из 10–15 возможных вопросов и подготовьте ответы</text>
+  <rect x="24" y="246" width="452" height="15" rx="3" ry="3" fill="#004D40" opacity="0.06"/>
+  <text x="30" y="254" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Попросите друзей/родителей задать вам вопросы после репетиции</text>
+<g transform="translate(440,58)"><text x="20" y="28" font-family="Arial" font-size="20" fill="#004D40" opacity="0.12" text-anchor="middle">Q</text><text x="20" y="42" font-family="Arial" font-size="10" fill="#004D40" opacity="0.08" text-anchor="middle">A</text></g>
+  <line x1="15" y1="334" x2="485" y2="334" stroke="#004D40" stroke-width="0.5" opacity="0.3"/>
+  <text x="250" y="338" font-family="Arial, sans-serif" font-size="8" fill="#9E9E9E" text-anchor="middle">Проектная деятельность · 10 класс</text>
+</svg>

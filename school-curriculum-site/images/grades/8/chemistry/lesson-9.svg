@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EDE9FE;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#F5F3FF;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#5B21B6;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.95"/>
+      <stop offset="100%" style="stop-color:#EDE9FE;stop-opacity:0.9"/>
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#5B21B6" flood-opacity="0.15"/>
+    </filter>
+    <filter id="shadowSm" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#5B21B6" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="0"/>
+  <!-- Decorative circles -->
+  <circle cx="750" cy="50" r="80" fill="#8B5CF6" opacity="0.05"/>
+  <circle cx="50" cy="550" r="60" fill="#8B5CF6" opacity="0.05"/>
+  <circle cx="400" cy="600" r="100" fill="#A78BFA" opacity="0.04"/>
+  <!-- Header bar -->
+  <rect x="0" y="0" width="800" height="60" fill="url(#headerGrad)" rx="0"/>
+  <text x="400" y="38" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">Оксиды</text>
+  <!-- Small decorative line under header -->
+  <rect x="300" y="54" width="200" height="3" fill="#C4B5FD" rx="1.5" opacity="0.7"/>
+  <rect x="20" y="75" width="760" height="55" fill="url(#cardGrad)" stroke="#C4B5FD" stroke-width="1.5" rx="12" filter="url(#shadow)"/>
+  <text x="40" y="97" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" fill="#7C3AED">Оксиды — сложные вещества, состоящие из двух элементов, один из которых кислород (O) со с.о. -2</text>
+  <text x="400" y="120" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="bold" fill="#5B21B6">Общая формула: EₓOᵧ</text>
+  <rect x="20" y="140" width="245" height="210" fill="url(#cardGrad)" stroke="#C4B5FD" stroke-width="1.5" rx="12" filter="url(#shadow)"/>
+  <rect x="30" y="150" width="225" height="28" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1" rx="8"/>
+  <text x="45" y="168" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="#3B82F6">Кислотные оксиды</text>
+  <text x="35" y="195" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#6B7280">Образованы неметаллами</text>
+  <text x="35" y="212" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#6B7280">Соответствуют кислотам</text>
+  <text x="35" y="230" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#3B82F6"> + H₂O → кислота</text>
+  <text x="35" y="248" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#3B82F6"> + щёлочь → соль + H₂O</text>
+  <rect x="35" y="260" width="215" height="80" fill="#DBEAFE" stroke="#93C5FD" stroke-width="1" rx="8"/>
+  <text x="142" y="280" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="bold" fill="#3B82F6">SO₃ + H₂O → H₂SO₄</text>
+  <text x="142" y="298" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="bold" fill="#3B82F6">CO₂ + H₂O → H₂CO₃</text>
+  <text x="142" y="316" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="bold" fill="#3B82F6">P₂O₅ + H₂O → H₃PO₄</text>
+  <text x="35" y="338" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#6B7280">SO₃, CO₂, SiO₂, P₂O₅, NO₂</text>
+  <rect x="275" y="140" width="245" height="210" fill="url(#cardGrad)" stroke="#C4B5FD" stroke-width="1.5" rx="12" filter="url(#shadow)"/>
+  <rect x="285" y="150" width="225" height="28" fill="#FEE2E2" stroke="#EF4444" stroke-width="1" rx="8"/>
+  <text x="300" y="168" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="#EF4444">Основные оксиды</text>
+  <text x="285" y="195" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#6B7280">Образованы металлами</text>
+  <text x="285" y="212" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#6B7280">Соответствуют основаниям</text>
+  <text x="285" y="230" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#EF4444"> + H₂O → основание</text>
+  <text x="285" y="248" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#EF4444"> + кислота → соль + H₂O</text>
+  <rect x="285" y="260" width="215" height="80" fill="#FEE2E2" stroke="#FCA5A5" stroke-width="1" rx="8"/>
+  <text x="392" y="280" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="bold" fill="#EF4444">CaO + H₂O → Ca(OH)₂</text>
+  <text x="392" y="298" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="bold" fill="#EF4444">Na₂O + H₂O → 2NaOH</text>
+  <text x="392" y="316" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="bold" fill="#EF4444">CuO + 2HCl → CuCl₂ + H₂O</text>
+  <text x="285" y="338" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#6B7280">CaO, Na₂O, K₂O, MgO, CuO</text>
+  <rect x="530" y="140" width="250" height="210" fill="url(#cardGrad)" stroke="#C4B5FD" stroke-width="1.5" rx="12" filter="url(#shadow)"/>
+  <rect x="540" y="150" width="230" height="28" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1" rx="8"/>
+  <text x="555" y="168" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="#F59E0B">Амфотерные оксиды</text>
+  <text x="540" y="195" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#6B7280">Обладают двойственными</text>
+  <text x="540" y="212" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#6B7280">свойствами</text>
+  <text x="540" y="230" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#F59E0B"> + кислота → соль + H₂O</text>
+  <text x="540" y="248" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#F59E0B"> + щёлочь → соль + H₂O</text>
+  <rect x="540" y="260" width="230" height="80" fill="#FEF3C7" stroke="#FCD34D" stroke-width="1" rx="8"/>
+  <text x="655" y="280" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="bold" fill="#F59E0B">ZnO + 2HCl → ZnCl₂ + H₂O</text>
+  <text x="655" y="298" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="9" font-weight="bold" fill="#F59E0B">ZnO + 2NaOH → Na₂ZnO₂ + H₂O</text>
+  <text x="540" y="338" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#6B7280">ZnO, Al₂O₃, Cr₂O₃, BeO</text>
+  <rect x="20" y="360" width="760" height="210" fill="url(#cardGrad)" stroke="#C4B5FD" stroke-width="1.5" rx="12" filter="url(#shadow)"/>
+  <text x="40" y="385" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" fill="#7C3AED">Номенклатура оксидов</text>
+  <rect x="40" y="400" width="350" height="70" fill="#EDE9FE" stroke="#A78BFA" stroke-width="1" rx="8"/>
+  <text x="55" y="420" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#7C3AED">Название: "Оксид" + элемент (в род. падеже)</text>
+  <text x="55" y="438" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#6B7280">Если несколько с.о. — указать римскую цифру:</text>
+  <text x="55" y="456" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#5B21B6">FeO — оксид железа(II)</text>
+  <text x="55" y="470" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#5B21B6">Fe₂O₃ — оксид железа(III)</text>
+  <rect x="410" y="400" width="350" height="70" fill="#D1FAE5" stroke="#6EE7B7" stroke-width="1" rx="8"/>
+  <text x="425" y="420" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#10B981">Получение оксидов:</text>
+  <text x="425" y="438" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#5B21B6">1. Горение: 2Mg + O₂ → 2MgO</text>
+  <text x="425" y="456" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#5B21B6">2. Разложение: CaCO₃ → CaO + CO₂</text>
+  <text x="425" y="470" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#5B21B6">3. Окисление: 2Zn + O₂ → 2ZnO</text>
+  <rect x="40" y="480" width="720" height="80" fill="#FEF3C7" stroke="#FCD34D" stroke-width="1" rx="8"/>
+  <text x="60" y="502" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="bold" fill="#F59E0B">Ключевое свойство:</text>
+  <text x="60" y="522" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#5B21B6">Кислотный оксид + Основный оксид → Соль</text>
+  <text x="400" y="548" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="bold" fill="#5B21B6">CaO + SiO₂ → CaSiO₃ (силикат кальция)</text>
+  <!-- Footer -->
+  <rect x="0" y="580" width="800" height="20" fill="#7C3AED" opacity="0.1"/>
+  <text x="400" y="594" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#6B7280">Химия — 8 класс</text>
+</svg>

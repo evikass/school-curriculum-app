@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#0C4A6E"/>
+    <stop offset="100%" style="stop-color:#0284C7"/>
+  </linearGradient>
+  <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#0EA5E9"/>
+    <stop offset="100%" style="stop-color:#38BDF8"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="800" height="600" fill="url(#bg)"/>
+<rect x="0" y="0" width="800" height="70" fill="url(#bg)" rx="8"/>
+<circle cx="40" cy="35" r="22" fill="#0EA5E9" stroke="#38BDF8" stroke-width="2"/>
+<text x="40" y="42" fill="#FFFFFF" font-size="18" text-anchor="middle" font-family="sans-serif" font-weight="bold">10</text>
+<text x="72" y="32" fill="#FFFFFF" font-size="22" text-anchor="start" font-family="sans-serif" font-weight="bold">Что такое алгоритм</text>
+<text x="72" y="52" fill="#7DD3FC" font-size="13" text-anchor="start" font-family="sans-serif" font-weight="normal">Свойства, псевдокод, блок-схемы</text>
+<rect x="0" y="68" width="800" height="2" fill="#38BDF8" rx="8"/>
+<rect x="20" y="80" width="380" height="150" fill="#0F172A" rx="8" stroke="#0EA5E9" stroke-width="1"/>
+<text x="35" y="102" fill="#38BDF8" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Что такое алгоритм?</text>
+<text x="35" y="124" fill="#E0F2FE" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">Алгоритм — конечная последовательность</text>
+<text x="35" y="140" fill="#E0F2FE" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">точно определённых действий, приводящая</text>
+<text x="35" y="156" fill="#E0F2FE" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">к решению задачи.</text>
+<text x="35" y="180" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">Пример: рецепт приготовления блюда,</text>
+<text x="35" y="196" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">инструкция по сборке мебели.</text>
+<rect x="410" y="80" width="370" height="150" fill="#0F172A" rx="8" stroke="#FACC15" stroke-width="1"/>
+<text x="425" y="102" fill="#FACC15" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Свойства алгоритма</text>
+<text x="425" y="132" fill="#38BDF8" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Дискретность</text>
+<text x="555" y="132" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">шаги выполняются по порядку</text>
+<text x="425" y="154" fill="#38BDF8" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Определённость</text>
+<text x="555" y="154" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">каждый шаг чётко описан</text>
+<text x="425" y="176" fill="#38BDF8" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Результативность</text>
+<text x="555" y="176" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">всегда есть результат</text>
+<text x="425" y="198" fill="#38BDF8" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Массовость</text>
+<text x="555" y="198" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">работает для разных данных</text>
+<text x="425" y="220" fill="#38BDF8" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Конечность</text>
+<text x="555" y="220" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">число шагов ограничено</text>
+<rect x="20" y="240" width="280" height="230" fill="#0F172A" rx="8" stroke="#0EA5E9" stroke-width="1"/>
+<text x="35" y="262" fill="#38BDF8" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Блок-схема алгоритма</text>
+<rect x="85" y="278" width="130" height="28" fill="#0369A1" rx="6" stroke="#0EA5E9" stroke-width="1.5"/>
+<text x="150.0" y="297.0" fill="#FFFFFF" font-size="12" text-anchor="middle" font-family="sans-serif" font-weight="bold">Начало</text>
+<line x1="150" y1="306" x2="150" y2="316" stroke="#38BDF8" stroke-width="2"/>
+<polygon points="150,316,146.0,308.0,154.0,308.0" fill="#38BDF8"/>
+<rect x="70" y="316" width="160" height="28" fill="#1E293B" rx="6" stroke="#0EA5E9" stroke-width="1.5"/>
+<text x="150.0" y="335.0" fill="#FFFFFF" font-size="12" text-anchor="middle" font-family="sans-serif" font-weight="bold">Ввести a, b</text>
+<line x1="150" y1="344" x2="150" y2="354" stroke="#38BDF8" stroke-width="2"/>
+<polygon points="150,354,146.0,346.0,154.0,346.0" fill="#38BDF8"/>
+<polygon points="150.0,354,225,376.5,150.0,399,75,376.5" fill="#0F172A" stroke="#0EA5E9" stroke-width="1.5"/>
+<text x="150.0" y="381.5" fill="#FFFFFF" font-size="11" text-anchor="middle" font-family="sans-serif" font-weight="bold">a &gt; b?</text>
+<line x1="150" y1="399" x2="150" y2="409" stroke="#38BDF8" stroke-width="2"/>
+<polygon points="150,409,146.0,401.0,154.0,401.0" fill="#38BDF8"/>
+<text x="155" y="407" fill="#4ADE80" font-size="9" text-anchor="start" font-family="sans-serif" font-weight="normal">Да</text>
+<rect x="70" y="409" width="160" height="28" fill="#166534" rx="6" stroke="#0EA5E9" stroke-width="1.5"/>
+<text x="150.0" y="428.0" fill="#FFFFFF" font-size="12" text-anchor="middle" font-family="sans-serif" font-weight="bold">max = a</text>
+<line x1="225" y1="377" x2="260" y2="377" stroke="#F87171" stroke-width="2"/>
+<polygon points="260,377,252.0,381.0,252.0,373.0" fill="#F87171"/>
+<text x="232" y="370" fill="#F87171" font-size="9" text-anchor="start" font-family="sans-serif" font-weight="normal">Нет</text>
+<rect x="260" y="365" width="0" height="0" fill="#0F172A" rx="6" stroke="#0EA5E9" stroke-width="1.5"/>
+<text x="260.0" y="370.0" fill="#FFFFFF" font-size="12" text-anchor="middle" font-family="sans-serif" font-weight="bold"></text>
+<rect x="195" y="365" width="80" height="28" fill="#7F1D1D" rx="6" stroke="#0EA5E9" stroke-width="1.5"/>
+<text x="235.0" y="384.0" fill="#FFFFFF" font-size="12" text-anchor="middle" font-family="sans-serif" font-weight="bold">max = b</text>
+<line x1="235" y1="393" x2="235" y2="445" stroke="#F87171" stroke-width="2"/>
+<polygon points="235,445,231.0,437.0,239.0,437.0" fill="#F87171"/>
+<rect x="85" y="445" width="130" height="28" fill="#0369A1" rx="6" stroke="#0EA5E9" stroke-width="1.5"/>
+<text x="150.0" y="464.0" fill="#FFFFFF" font-size="12" text-anchor="middle" font-family="sans-serif" font-weight="bold">Вывести max</text>
+<rect x="310" y="240" width="470" height="230" fill="#0F172A" rx="8" stroke="#4ADE80" stroke-width="1"/>
+<text x="325" y="262" fill="#4ADE80" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Псевдокод и запись алгоритма</text>
+<rect x="325" y="272" width="440" height="170" fill="#0F172A" rx="6" stroke="#1E293B" stroke-width="1"/>
+<rect x="325" y="272" width="440" height="24" fill="#1E293B" rx="6"/>
+<rect x="325" y="290" width="440" height="6" fill="#1E293B" rx="8"/>
+<text x="335" y="288" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">pseudocode</text>
+<circle cx="725" cy="284" r="4" fill="#F87171"/>
+<circle cx="739" cy="284" r="4" fill="#FACC15"/>
+<circle cx="753" cy="284" r="4" fill="#4ADE80"/>
+<text x="333" y="312" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">1</text>
+<text x="355" y="312" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">Алгоритм: Найти максимум</text>
+<text x="333" y="330" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">2</text>
+<text x="355" y="330" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">  Ввести a, b</text>
+<text x="333" y="348" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">3</text>
+<text x="355" y="348" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">  ЕСЛИ a &gt; b ТО</text>
+<text x="333" y="366" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">4</text>
+<text x="355" y="366" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">    max = a</text>
+<text x="333" y="384" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">5</text>
+<text x="355" y="384" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">  ИНАЧЕ</text>
+<text x="333" y="402" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">6</text>
+<text x="355" y="402" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">    max = b</text>
+<text x="333" y="420" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">7</text>
+<text x="355" y="420" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">  Вывести max</text>
+<text x="325" y="415" fill="#38BDF8" font-size="12" text-anchor="start" font-family="sans-serif" font-weight="bold">Способы записи алгоритма:</text>
+<text x="335" y="432" fill="#FACC15" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Словесный</text>
+<text x="435" y="432" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">Текстовое описание шагов</text>
+<text x="335" y="452" fill="#FACC15" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Блок-схема</text>
+<text x="435" y="452" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">Графическое изображение</text>
+<text x="335" y="472" fill="#FACC15" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Псевдокод</text>
+<text x="435" y="472" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">Условный язык записи</text>
+<text x="335" y="492" fill="#FACC15" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="bold">Программа</text>
+<text x="435" y="492" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">Код на языке программирования</text>
+<rect x="20" y="480" width="760" height="90" fill="#0F172A" rx="8" stroke="#0EA5E9" stroke-width="1"/>
+<text x="35" y="502" fill="#38BDF8" font-size="14" text-anchor="start" font-family="sans-serif" font-weight="bold">Пример: алгоритм → программа</text>
+<rect x="35" y="512" width="350" height="142" fill="#0F172A" rx="6" stroke="#1E293B" stroke-width="1"/>
+<rect x="35" y="512" width="350" height="24" fill="#1E293B" rx="6"/>
+<rect x="35" y="530" width="350" height="6" fill="#1E293B" rx="8"/>
+<text x="45" y="528" fill="#7DD3FC" font-size="10" text-anchor="start" font-family="monospace" font-weight="normal">max.py</text>
+<circle cx="345" cy="524" r="4" fill="#F87171"/>
+<circle cx="359" cy="524" r="4" fill="#FACC15"/>
+<circle cx="373" cy="524" r="4" fill="#4ADE80"/>
+<text x="43" y="552" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">1</text>
+<text x="65" y="552" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">a = int(input('a: '))</text>
+<text x="43" y="566" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">2</text>
+<text x="65" y="566" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">b = int(input('b: '))</text>
+<text x="43" y="580" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">3</text>
+<text x="65" y="580" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">if a &gt; b:</text>
+<text x="43" y="594" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">4</text>
+<text x="65" y="594" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">    max_val = a</text>
+<text x="43" y="608" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">5</text>
+<text x="65" y="608" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">else:</text>
+<text x="43" y="622" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">6</text>
+<text x="65" y="622" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">    max_val = b</text>
+<text x="43" y="636" fill="#475569" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">7</text>
+<text x="65" y="636" fill="#E0F2FE" font-size="12" text-anchor="start" font-family="monospace" font-weight="normal">print('Максимум:', max_val)</text>
+<rect x="400" y="517" width="370" height="45" fill="#1E293B" rx="6"/>
+<text x="410" y="535" fill="#4ADE80" font-size="11" text-anchor="start" font-family="sans-serif" font-weight="normal">Псевдокод → Python: один к одному!</text>
+<text x="410" y="552" fill="#38BDF8" font-size="10" text-anchor="start" font-family="sans-serif" font-weight="normal">Алгоритмическое мышление = программирование</text>
+<rect x="0" y="570" width="800" height="30" fill="url(#bg)" rx="8"/>
+<text x="400.0" y="590" fill="#7DD3FC" font-size="10" text-anchor="middle" font-family="sans-serif" font-weight="normal">Информатика · 7 класс</text>
+</svg>

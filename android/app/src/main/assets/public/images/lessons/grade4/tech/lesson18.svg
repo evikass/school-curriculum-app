@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Background -->
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <!-- Top red accent bar -->
+  <rect width="500" height="8" fill="#C41E3A"/>
+  <!-- Thin gold line under accent -->
+  <rect y="8" width="500" height="2" fill="#D4A843"/>
+  <!-- Title -->
+  <text x="250" y="45" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Макет моей комнаты</text>
+  <!-- Subtitle -->
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#D4A843">Проекты</text>
+  <!-- Illustration area -->
+  <rect x="120" y="120" width="260" height="165" rx="0" fill="#e8e0d0" stroke="#999" stroke-width="2"/><line x1="120" y1="120" x2="250" y2="90" stroke="#999" stroke-width="1.5"/><line x1="380" y1="120" x2="250" y2="90" stroke="#999" stroke-width="1.5"/><line x1="250" y1="90" x2="250" y2="120" stroke="#999" stroke-width="1"/><rect x="140" y="210" width="60" height="40" rx="2" fill="#DEB887" stroke="#8B6914" stroke-width="1"/><rect x="140" y="200" width="60" height="12" rx="2" fill="#fff" stroke="#ddd" stroke-width="0.5"/><circle cx="170" cy="225" r="5" fill="#87CEEB" opacity="0.5"/><rect x="230" y="230" width="30" height="20" rx="1" fill="#8B4513" stroke="#5a2d0a" stroke-width="1"/><rect x="300" y="210" width="40" height="40" rx="2" fill="#8B6914" stroke="#5a4a0a" stroke-width="1"/><rect x="300" y="200" width="40" height="12" rx="2" fill="#fff" stroke="#ddd" stroke-width="0.5"/><rect x="120" y="270" width="260" height="15" fill="#c4b890" stroke="#999" stroke-width="1"/><text x="250" y="300" text-anchor="middle" font-size="10" fill="#1a1a1a" font-family="Arial">Коробка = основа макета</text>
+  <!-- Bottom dark bar -->
+  <rect y="315" width="500" height="35" fill="#1a1a1a"/>
+  <!-- Gold line above bottom bar -->
+  <rect y="313" width="500" height="2" fill="#D4A843"/>
+  <!-- Subject name -->
+  <text x="250" y="337" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#F5E6C8">Технология</text>
+</svg>

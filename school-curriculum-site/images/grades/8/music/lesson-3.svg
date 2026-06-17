@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#F5F3FF" rx="0" />
+  <rect x="0" y="0" width="800" height="80" fill="#7C3AED" />
+  <rect x="0" y="80" width="800" height="4" fill="#5B21B6" />
+  <rect x="20" y="15" width="50" height="50" rx="12" fill="#5B21B6" />
+  <text x="45" y="50" text-anchor="middle" font-size="28" fill="#FFFFFF">♫</text>
+  <text x="85" y="42" font-size="24" font-weight="bold" fill="#FFFFFF">Русская народная музыка</text>
+  <text x="85" y="64" font-size="13" fill="#EDE9FE">Традиции, песни и народные инструменты</text>
+  <rect x="0" y="570" width="800" height="30" fill="#5B21B6" />
+  <text x="40" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♪</text>
+  <text x="120" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♫</text>
+  <text x="200" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♬</text>
+  <text x="280" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♩</text>
+  <text x="360" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♪</text>
+  <text x="440" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♫</text>
+  <text x="520" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♬</text>
+  <text x="600" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♩</text>
+  <text x="680" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♪</text>
+  <text x="760" y="592" text-anchor="middle" font-size="14" fill="#A78BFA">♫</text>
+  <text x="720" y="120" font-size="20" fill="#C4B5FD" opacity="0.5">♬</text>
+  <text x="750" y="180" font-size="16" fill="#C4B5FD" opacity="0.5">♪</text>
+  <text x="690" y="160" font-size="14" fill="#C4B5FD" opacity="0.5">♬</text>
+  <text x="30" y="530" font-size="18" fill="#C4B5FD" opacity="0.5">♪</text>
+  <text x="60" y="560" font-size="14" fill="#C4B5FD" opacity="0.5">♩</text>
+  <path d="M 640 90 Q 650 80 660 90" stroke="#A78BFA" stroke-width="2" fill="none" opacity="0.4" />
+  <path d="M 660 90 Q 670 80 680 90" stroke="#A78BFA" stroke-width="2" fill="none" opacity="0.4" />
+  <path d="M 680 90 Q 690 80 700 90" stroke="#A78BFA" stroke-width="2" fill="none" opacity="0.4" />
+  <path d="M 700 90 Q 710 80 720 90" stroke="#A78BFA" stroke-width="2" fill="none" opacity="0.4" />
+  <path d="M 720 90 Q 730 80 740 90" stroke="#A78BFA" stroke-width="2" fill="none" opacity="0.4" />
+  <path d="M 740 90 Q 750 80 760 90" stroke="#A78BFA" stroke-width="2" fill="none" opacity="0.4" />
+  <path d="M 760 90 Q 770 80 780 90" stroke="#A78BFA" stroke-width="2" fill="none" opacity="0.4" />
+  <rect x="23" y="99" width="180" height="150" rx="10" fill="#E0E0E0" opacity="0.3" />
+  <rect x="20" y="96" width="180" height="150" rx="10" fill="#EDE9FE" stroke="#7C3AED" stroke-width="2" />
+  <rect x="20" y="96" width="180" height="28" rx="10" fill="#7C3AED" />
+  <rect x="20" y="114" width="180" height="10" fill="#7C3AED" />
+  <text x="110" y="116" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Календарные песни</text>
+  <text x="30" y="140" font-size="11" fill="#3B0764">Колядки</text>
+  <text x="30" y="156" font-size="11" fill="#3B0764">Масленичные</text>
+  <text x="30" y="172" font-size="11" fill="#3B0764">Троицкие</text>
+  <text x="30" y="188" font-size="11" fill="#3B0764">Жатвенные</text>
+  <rect x="213" y="99" width="180" height="150" rx="10" fill="#E0E0E0" opacity="0.3" />
+  <rect x="210" y="96" width="180" height="150" rx="10" fill="#EDE9FE" stroke="#C2410C" stroke-width="2" />
+  <rect x="210" y="96" width="180" height="28" rx="10" fill="#C2410C" />
+  <rect x="210" y="114" width="180" height="10" fill="#C2410C" />
+  <text x="300" y="116" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Семейные песни</text>
+  <text x="220" y="140" font-size="11" fill="#3B0764">Колыбельные</text>
+  <text x="220" y="156" font-size="11" fill="#3B0764">Свадебные</text>
+  <text x="220" y="172" font-size="11" fill="#3B0764">Плачи</text>
+  <text x="220" y="188" font-size="11" fill="#3B0764">Причитания</text>
+  <rect x="403" y="99" width="180" height="150" rx="10" fill="#E0E0E0" opacity="0.3" />
+  <rect x="400" y="96" width="180" height="150" rx="10" fill="#EDE9FE" stroke="#F43F5E" stroke-width="2" />
+  <rect x="400" y="96" width="180" height="28" rx="10" fill="#F43F5E" />
+  <rect x="400" y="114" width="180" height="10" fill="#F43F5E" />
+  <text x="490" y="116" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Лирические песни</text>
+  <text x="410" y="140" font-size="11" fill="#3B0764">Любовные</text>
+  <text x="410" y="156" font-size="11" fill="#3B0764">Раздумья</text>
+  <text x="410" y="172" font-size="11" fill="#3B0764">Тоска</text>
+  <text x="410" y="188" font-size="11" fill="#3B0764">Романсы</text>
+  <rect x="593" y="99" width="190" height="150" rx="10" fill="#E0E0E0" opacity="0.3" />
+  <rect x="590" y="96" width="190" height="150" rx="10" fill="#EDE9FE" stroke="#6366F1" stroke-width="2" />
+  <rect x="590" y="96" width="190" height="28" rx="10" fill="#6366F1" />
+  <rect x="590" y="114" width="190" height="10" fill="#6366F1" />
+  <text x="685" y="116" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Эпические песни</text>
+  <text x="600" y="140" font-size="11" fill="#3B0764">Былины</text>
+  <text x="600" y="156" font-size="11" fill="#3B0764">Исторические</text>
+  <text x="600" y="172" font-size="11" fill="#3B0764">Богатырские</text>
+  <text x="600" y="188" font-size="11" fill="#3B0764">Сказы</text>
+  <text x="400" y="275" text-anchor="middle" font-size="16" font-weight="bold" fill="#7C3AED">Русские народные инструменты</text>
+  <rect x="15" y="290" width="185" height="130" rx="10" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2" />
+  <rect x="15" y="290" width="185" height="28" rx="10" fill="#7C3AED" />
+  <rect x="15" y="308" width="185" height="10" fill="#7C3AED" />
+  <text x="107" y="310" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Балалайка</text>
+  <text x="25" y="336" font-size="10" fill="#3B0764">• 3-струнный щипковый</text>
+  <text x="25" y="358" font-size="10" fill="#3B0764">• Треугольный корпус</text>
+  <text x="25" y="380" font-size="10" fill="#3B0764">• Символ России</text>
+  <text x="25" y="402" font-size="10" fill="#3B0764">• XVIII век</text>
+  <rect x="208" y="290" width="185" height="130" rx="10" fill="#FFFFFF" stroke="#F43F5E" stroke-width="2" />
+  <rect x="208" y="290" width="185" height="28" rx="10" fill="#F43F5E" />
+  <rect x="208" y="308" width="185" height="10" fill="#F43F5E" />
+  <text x="300" y="310" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Баян</text>
+  <text x="218" y="336" font-size="10" fill="#3B0764">• Клавишный духовой</text>
+  <text x="218" y="358" font-size="10" fill="#3B0764">• Правая и левая клавиатуры</text>
+  <text x="218" y="380" font-size="10" fill="#3B0764">• Мех для нагнетания воздуха</text>
+  <text x="218" y="402" font-size="10" fill="#3B0764">• Назван в честь Баяна</text>
+  <rect x="401" y="290" width="185" height="130" rx="10" fill="#FFFFFF" stroke="#F59E0B" stroke-width="2" />
+  <rect x="401" y="290" width="185" height="28" rx="10" fill="#F59E0B" />
+  <rect x="401" y="308" width="185" height="10" fill="#F59E0B" />
+  <text x="493" y="310" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Гусли</text>
+  <text x="411" y="336" font-size="10" fill="#3B0764">• Струнный щипковый</text>
+  <text x="411" y="358" font-size="10" fill="#3B0764">• Самый древний инструмент</text>
+  <text x="411" y="380" font-size="10" fill="#3B0764">• От 15 до 30 струн</text>
+  <text x="411" y="402" font-size="10" fill="#3B0764">• Игры Бояна (Слово)</text>
+  <rect x="594" y="290" width="185" height="130" rx="10" fill="#FFFFFF" stroke="#10B981" stroke-width="2" />
+  <rect x="594" y="290" width="185" height="28" rx="10" fill="#10B981" />
+  <rect x="594" y="308" width="185" height="10" fill="#10B981" />
+  <text x="686" y="310" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Гармонь</text>
+  <text x="604" y="336" font-size="10" fill="#3B0764">• Духовой клавишный</text>
+  <text x="604" y="358" font-size="10" fill="#3B0764">• Ручная гармоника</text>
+  <text x="604" y="380" font-size="10" fill="#3B0764">• Русский народный</text>
+  <text x="604" y="402" font-size="10" fill="#3B0764">• Тульская, саратовская</text>
+  <rect x="20" y="440" width="760" height="55" rx="10" fill="#5B21B6" opacity="0.9" />
+  <text x="32" y="462" font-size="14" font-weight="bold" fill="#FFFFFF">Народные традиции:</text>
+  <text x="38" y="480" font-size="11" fill="#FFFFFF">• Хоровод — круговой танец-песня, сопровождает календарные и семейные обряды</text>
+  <text x="38" y="498" font-size="11" fill="#FFFFFF">• Частушка — короткая ритмичная песенка, выражает настроение и юмор</text>
+  <g opacity="0.15">
+    <line x1="20" y1="510" x2="160" y2="510" stroke="#7C3AED" stroke-width="1.5" />
+    <line x1="20" y1="517" x2="160" y2="517" stroke="#7C3AED" stroke-width="1.5" />
+    <line x1="20" y1="524" x2="160" y2="524" stroke="#7C3AED" stroke-width="1.5" />
+    <line x1="20" y1="531" x2="160" y2="531" stroke="#7C3AED" stroke-width="1.5" />
+    <line x1="20" y1="538" x2="160" y2="538" stroke="#7C3AED" stroke-width="1.5" />
+  </g>
+</svg>

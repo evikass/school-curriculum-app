@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+<polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+<polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+<polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+<polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+<circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+<circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+<circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+<circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+<circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+<circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+<text x="250" y="50" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#C62828" text-anchor="middle">Географическое положение и рельеф Африки</text>
+<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">География - Урок 31</text>
+<line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+<rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+<rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#FF9800" stroke-width="1.5"/>
+  <text x="135" y="106" font-family="Arial,sans-serif" font-size="10" fill="#FF9800" font-weight="bold" text-anchor="middle">Африка</text>
+  <!-- Africa shape -->
+  <rect x="35" y="115" width="200" height="165" rx="3" fill="#FFF3E0" opacity="0.5"/>
+  <path d="M80,130 Q120,120 160,128 Q180,135 185,150 L190,180 Q188,200 180,215 Q170,240 155,260 L130,275 L110,270 Q100,255 95,235 L90,210 Q85,190 80,170 L75,150 Q78,135 80,130 Z" fill="#FFCC80" stroke="#E65100" stroke-width="1.5"/>
+  <!-- Sahara -->
+  <ellipse cx="130" cy="155" rx="35" ry="15" fill="#FFE082" opacity="0.6"/>
+  <text x="130" y="158" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">Сахара</text>
+  <!-- Rivers -->
+  <path d="M110,140 Q115,165 120,190 Q125,210 130,230 L135,250" stroke="#1565C0" stroke-width="2" fill="none"/>
+  <text x="145" y="200" font-family="Arial,sans-serif" font-size="6" fill="#1565C0">Нил</text>
+  <!-- Equator -->
+  <line x1="55" y1="185" x2="215" y2="185" stroke="#C62828" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="215" y="183" font-family="Arial,sans-serif" font-size="6" fill="#C62828">экватор</text>
+  <!-- Kilimanjaro -->
+  <polygon points="170,145 160,170 180,170" fill="#8D6E63" stroke="#5D4037" stroke-width="1"/>
+  <polygon points="170,145 165,155 175,155" fill="white"/>
+  <text x="195" y="160" font-family="Arial,sans-serif" font-size="6" fill="#5D4037">Килим.</text>
+
+  <rect x="260" y="90" width="215" height="200" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
+  <text x="367" y="106" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" font-weight="bold" text-anchor="middle">Природа Африки</text>
+  <!-- Savanna -->
+  <rect x="280" y="125" width="80" height="50" rx="3" fill="#FFE082" opacity="0.5"/>
+  <line x1="300" y1="175" x2="300" y2="140" stroke="#8D6E63" stroke-width="2"/>
+  <ellipse cx="300" cy="140" rx="15" ry="10" fill="#81C784"/>
+  <line x1="320" y1="175" x2="320" y2="145" stroke="#8D6E63" stroke-width="2"/>
+  <ellipse cx="320" cy="145" rx="12" ry="8" fill="#66BB6A"/>
+  <text x="330" y="155" font-family="Arial,sans-serif" font-size="7" fill="#8D6E63">саванна</text>
+  <!-- Desert -->
+  <rect x="280" y="185" width="80" height="35" rx="3" fill="#FFE082"/>
+  <path d="M285,210 Q295,200 305,210 Q315,200 325,210 Q335,200 345,210 Q355,200 360,210" stroke="#E65100" stroke-width="1" fill="none"/>
+  <text x="320" y="200" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">пустыня</text>
+  <!-- Animals -->
+  <circle cx="400" cy="145" r="8" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+  <circle cx="396" cy="142" r="2" fill="#333"/>
+  <text x="400" y="162" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle">лев</text>
+  <ellipse cx="430" cy="200" rx="8" ry="12" fill="#90A4AE"/>
+  <circle cx="430" cy="188" r="5" fill="#90A4AE"/>
+  <text x="430" y="222" font-family="Arial,sans-serif" font-size="6" fill="#546E7A" text-anchor="middle">жираф</text>
+  <text x="367" y="270" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">54 страны</text>
+<rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">География</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs><linearGradient id="gПове" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#F3E5F5;stop-opacity:0.5"/><stop offset="100%" style="stop-color:#E1BEE7;stop-opacity:0.25"/>
+  </linearGradient></defs>
+  <rect width="800" height="500" fill="url(#gПове)" rx="12"/>
+  <rect x="4" y="4" width="792" height="492" rx="10" fill="none" stroke="#7B1FA2" stroke-width="2.5" opacity="0.3"/>
+  <text x="400" y="50" font-family="Georgia,serif" font-size="32" font-weight="bold" fill="#7B1FA2" text-anchor="middle">Повесть временных лет</text>
+  <line x1="80" y1="64" x2="720" y2="64" stroke="#7B1FA2" stroke-width="2" opacity="0.35"/>
+  
+  <!-- Scroll big -->
+  <rect x="150" y="85" width="500" height="150" rx="6" fill="#FFF8E1" stroke="#8D6E63" stroke-width="2.5"/>
+  <circle cx="150" cy="160" r="14" fill="#D7CCC8" stroke="#8D6E63" stroke-width="2"/>
+  <circle cx="650" cy="160" r="14" fill="#D7CCC8" stroke="#8D6E63" stroke-width="2"/>
+  <text x="400" y="125" font-family="Georgia,serif" font-size="22" fill="#5D4037" text-anchor="middle" font-weight="bold">В лето 6360 (852)...</text>
+  <rect x="200" y="140" width="400" height="4" rx="2" fill="#BCAAA4" opacity="0.4"/>
+  <rect x="200" y="155" width="360" height="4" rx="2" fill="#BCAAA4" opacity="0.35"/>
+  <rect x="200" y="170" width="380" height="4" rx="2" fill="#BCAAA4" opacity="0.4"/>
+  <rect x="200" y="185" width="340" height="4" rx="2" fill="#BCAAA4" opacity="0.35"/>
+  <rect x="200" y="200" width="370" height="4" rx="2" fill="#BCAAA4" opacity="0.3"/>
+  <rect x="200" y="215" width="350" height="4" rx="2" fill="#BCAAA4" opacity="0.25"/>
+  <!-- Author -->
+  <circle cx="400" cy="300" r="40" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="2.5"/>
+  <text x="400" y="295" font-family="Georgia,serif" font-size="18" fill="#6A1B9A" text-anchor="middle">Монах</text>
+  <text x="400" y="318" font-family="Georgia,serif" font-size="20" fill="#6A1B9A" text-anchor="middle" font-weight="bold">Нестор</text>
+  <!-- Events -->
+  <rect x="50" y="370" width="200" height="45" rx="8" fill="#E8EAF6" stroke="#3F51B5" stroke-width="1.5"/>
+  <text x="150" y="398" font-family="Georgia,serif" font-size="17" fill="#283593" text-anchor="middle">862 - Призвание варягов</text>
+  <rect x="300" y="370" width="200" height="45" rx="8" fill="#E8EAF6" stroke="#3F51B5" stroke-width="1.5"/>
+  <text x="400" y="398" font-family="Georgia,serif" font-size="17" fill="#283593" text-anchor="middle">988 - Крещение Руси</text>
+  <rect x="550" y="370" width="200" height="45" rx="8" fill="#E8EAF6" stroke="#3F51B5" stroke-width="1.5"/>
+  <text x="650" y="398" font-family="Georgia,serif" font-size="17" fill="#283593" text-anchor="middle">XII век - Нестор</text>
+  <text x="400" y="455" font-family="Georgia,serif" font-size="17" fill="#7B1FA2" text-anchor="middle">Древнейшая русская летопись - начало историографии</text>
+
+</svg>

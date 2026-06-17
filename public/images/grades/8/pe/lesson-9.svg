@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600"><rect width="800" height="600" fill="#F0FDF4" rx="12"/>
+  <rect x="0" y="0" width="800" height="60" fill="#22C55E" rx="0"/>
+  <text x="400" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">Физическая подготовка и её виды</text>
+  <circle cx="400" cy="220" r="50" fill="#22C55E" stroke="#16A34A" stroke-width="3"/>
+  <text x="400" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">Физические</text>
+  <text x="400" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">качества</text><line x1="400" y1="220" x2="170" y2="120" stroke="#16A34A" stroke-width="2"/><circle cx="170" cy="120" r="38" fill="#BBF7D0" stroke="#16A34A" stroke-width="3"/><text x="170" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#16A34A">Сила</text><line x1="400" y1="220" x2="630" y2="120" stroke="#EF4444" stroke-width="2"/><circle cx="630" cy="120" r="38" fill="#FECACA" stroke="#EF4444" stroke-width="3"/><text x="630" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#EF4444">Быстрота</text><line x1="400" y1="220" x2="170" y2="320" stroke="#DC2626" stroke-width="2"/><circle cx="170" cy="320" r="38" fill="#FECACA" stroke="#DC2626" stroke-width="3"/><text x="170" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#DC2626">Выносливость</text><line x1="400" y1="220" x2="630" y2="320" stroke="#22C55E" stroke-width="2"/><circle cx="630" cy="320" r="38" fill="#BBF7D0" stroke="#22C55E" stroke-width="3"/><text x="630" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#22C55E">Гибкость</text><rect x="20" y="380" width="185" height="170" fill="#FFFFFF" stroke="#22C55E" stroke-width="2" rx="8"/>
+<rect x="20" y="380" width="185" height="28" fill="#22C55E" rx="8"/>
+<rect x="20" y="400" width="185" height="8" fill="#22C55E"/>
+<text x="112" y="399" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Сила</text>
+<text x="32" y="424" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Способность преодолевать</text>
+<text x="32" y="442" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">  внешнее сопротивление</text>
+<text x="32" y="460" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Упражнения с отягощ.</text>
+<text x="32" y="478" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Отжимания, подтягив.</text>
+<text x="32" y="496" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Приседания со штангой</text>
+<text x="32" y="514" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• 3-5 подходов по 8-12 раз</text><rect x="215" y="380" width="185" height="170" fill="#FFFFFF" stroke="#EF4444" stroke-width="2" rx="8"/>
+<rect x="215" y="380" width="185" height="28" fill="#EF4444" rx="8"/>
+<rect x="215" y="400" width="185" height="8" fill="#EF4444"/>
+<text x="307" y="399" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Быстрота</text>
+<text x="227" y="424" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Способность выполнять</text>
+<text x="227" y="442" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">  движения за мин. время</text>
+<text x="227" y="460" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Бег на короткие дистанции</text>
+<text x="227" y="478" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Челночный бег 3х10 м</text>
+<text x="227" y="496" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Быстрые изменения напр.</text>
+<text x="227" y="514" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Интервальная тренировка</text><rect x="410" y="380" width="185" height="170" fill="#FFFFFF" stroke="#22C55E" stroke-width="2" rx="8"/>
+<rect x="410" y="380" width="185" height="28" fill="#22C55E" rx="8"/>
+<rect x="410" y="400" width="185" height="8" fill="#22C55E"/>
+<text x="502" y="399" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Выносливость</text>
+<text x="422" y="424" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Способность длительно</text>
+<text x="422" y="442" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">  выполнять работу</text>
+<text x="422" y="460" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Бег на длинные дистанции</text>
+<text x="422" y="478" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Плавание, велоспорт</text>
+<text x="422" y="496" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Кросс по пересечён. местн.</text>
+<text x="422" y="514" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Пульс 130-150 уд/мин</text><rect x="600" y="380" width="180" height="170" fill="#FFFFFF" stroke="#EF4444" stroke-width="2" rx="8"/>
+<rect x="600" y="380" width="180" height="28" fill="#EF4444" rx="8"/>
+<rect x="600" y="400" width="180" height="8" fill="#EF4444"/>
+<text x="690" y="399" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Гибкость</text>
+<text x="612" y="424" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Способность выполнять</text>
+<text x="612" y="442" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">  движения с большой ампл.</text>
+<text x="612" y="460" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Растяжка, шпагат, мостик</text>
+<text x="612" y="478" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Наклоны вперёд/назад</text>
+<text x="612" y="496" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Упражнения на растяжку</text>
+<text x="612" y="514" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• 15-30 сек на каждое</text><rect x="20" y="80" width="100" height="24" fill="#16A34A" rx="12"/>
+  <text x="70" y="96" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" font-weight="bold">Общая физ.подг.</text><rect x="680" y="80" width="100" height="24" fill="#EF4444" rx="12"/>
+  <text x="730" y="96" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" font-weight="bold">Специальная</text>
+  <rect x="0" y="568" width="800" height="32" fill="#16A34A"/>
+  <text x="400" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">8 класс | Физкультура/ОБЖ | Урок 9</text></svg>

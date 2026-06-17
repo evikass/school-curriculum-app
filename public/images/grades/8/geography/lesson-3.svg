@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ECFDF5" />
+      <stop offset="100%" stop-color="#F0FDF4" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect width="800" height="6" fill="#059669" />
+  <rect x="0" y="6" width="800" height="70" fill="#059669" />
+  <rect x="20" y="16" width="44" height="44" rx="10" fill="#065F46" />
+  <text x="42" y="47" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">3</text>
+  <text x="78" y="38" fill="#FFFFFF" font-size="20" font-weight="bold" font-family="Arial, sans-serif">Рельеф России</text>
+  <text x="78" y="58" fill="#D1FAE5" font-size="13" font-family="Arial, sans-serif">Равнины, горы, крупнейшие формы рельефа</text>
+  <rect x="17" y="92" width="770" height="200" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="90" width="770" height="200" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="15" y="90" width="770" height="26" rx="8" fill="#059669" />
+  <rect x="15" y="108" width="770" height="8" fill="#059669" />
+  <text x="400" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Профиль рельефа России (запад → восток)</text>
+  <line x1="50" y1="260" x2="760" y2="260" stroke="#1C1917" stroke-width="1.5" />
+  <line x1="50" y1="260" x2="50" y2="110" stroke="#1C1917" stroke-width="1.5" />
+  <text x="42" y="118" text-anchor="end" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">3000</text>
+  <text x="42" y="155" text-anchor="end" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">2000</text>
+  <text x="42" y="195" text-anchor="end" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">1000</text>
+  <text x="42" y="260" text-anchor="end" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">0</text>
+  <line x1="50" y1="120" x2="760" y2="120" stroke="#78716C" stroke-width="0.5" stroke-dasharray="3,3" />
+  <line x1="50" y1="155" x2="760" y2="155" stroke="#78716C" stroke-width="0.5" stroke-dasharray="3,3" />
+  <line x1="50" y1="195" x2="760" y2="195" stroke="#78716C" stroke-width="0.5" stroke-dasharray="3,3" />
+  <polyline points="50,245 80,240 110,242 140,248 160,250 200,230 220,190 240,150 260,120 270,135 290,230 310,240 340,245 370,248 400,240 430,225 445,210 455,235 465,242 490,200 510,140 530,110 540,130 560,220 580,230 600,225 620,180 640,130 650,110 660,140 680,200 700,230 720,240 750,248 760,252" stroke="#059669" stroke-width="2.5" fill="none" />
+  <polygon points="50,245 80,240 110,242 140,248 160,250 200,230 220,190 240,150 260,120 270,135 290,230 310,240 340,245 370,248 400,240 430,225 445,210 455,235 465,242 490,200 510,140 530,110 540,130 560,220 580,230 600,225 620,180 640,130 650,110 660,140 680,200 700,230 720,240 750,248 760,252 760,260 50,260" fill="#D1FAE5" />
+  <text x="105" y="258" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Вост.-Европейская равнина</text>
+  <text x="255" y="112" text-anchor="middle" fill="#EF4444" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Урал</text>
+  <text x="370" y="258" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Зап.-Сибирская равнина</text>
+  <text x="455" y="258" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="normal" font-family="Arial, sans-serif">Ср.-Сиб. плоскогорье</text>
+  <text x="525" y="102" text-anchor="middle" fill="#EF4444" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Алтай</text>
+  <text x="645" y="102" text-anchor="middle" fill="#EF4444" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Камчатка</text>
+  <rect x="17" y="302" width="380" height="170" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="300" width="380" height="170" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="15" y="300" width="380" height="26" rx="8" fill="#14B8A6" />
+  <rect x="15" y="318" width="380" height="8" fill="#14B8A6" />
+  <text x="205" y="318" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Крупнейшие формы рельефа</text>
+  <text x="25" y="335" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">• Восточно-Европейская равнина</text>
+  <text x="290" y="335" text-anchor="start" fill="#065F46" font-size="9" font-weight="bold" font-family="Arial, sans-serif">~4 млн км²</text>
+  <text x="340" y="345" text-anchor="start" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">0-400 м</text>
+  <text x="25" y="356" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">• Западно-Сибирская равнина</text>
+  <text x="290" y="356" text-anchor="start" fill="#065F46" font-size="9" font-weight="bold" font-family="Arial, sans-serif">~2.6 млн км²</text>
+  <text x="340" y="366" text-anchor="start" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">0-200 м</text>
+  <text x="25" y="377" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">• Среднесибирское плоскогорье</text>
+  <text x="290" y="377" text-anchor="start" fill="#065F46" font-size="9" font-weight="bold" font-family="Arial, sans-serif">~3.5 млн км²</text>
+  <text x="340" y="387" text-anchor="start" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">500-1700 м</text>
+  <text x="25" y="398" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">• Уральские горы</text>
+  <text x="290" y="398" text-anchor="start" fill="#065F46" font-size="9" font-weight="bold" font-family="Arial, sans-serif">~2400 км</text>
+  <text x="340" y="408" text-anchor="start" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">1895 м (Народная)</text>
+  <text x="25" y="419" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">• Кавказские горы</text>
+  <text x="290" y="419" text-anchor="start" fill="#065F46" font-size="9" font-weight="bold" font-family="Arial, sans-serif">~1500 км</text>
+  <text x="340" y="429" text-anchor="start" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">5642 м (Эльбрус)</text>
+  <text x="25" y="440" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">• Алтай</text>
+  <text x="290" y="440" text-anchor="start" fill="#065F46" font-size="9" font-weight="bold" font-family="Arial, sans-serif">~2000 км</text>
+  <text x="340" y="450" text-anchor="start" fill="#78716C" font-size="8" font-weight="normal" font-family="Arial, sans-serif">4506 м (Белуха)</text>
+  <rect x="412" y="302" width="375" height="170" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="410" y="300" width="375" height="170" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="410" y="300" width="375" height="26" rx="8" fill="#059669" />
+  <rect x="410" y="318" width="375" height="8" fill="#059669" />
+  <text x="597" y="318" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Высочайшие вершины</text>
+  <rect x="435" y="327" width="45" height="103" fill="#14B8A6" rx="3" />
+  <text x="457" y="442" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="bold" font-family="Arial, sans-serif">5642</text>
+  <text x="457" y="455" text-anchor="middle" fill="#1C1917" font-size="7" font-weight="normal" font-family="Arial, sans-serif">Эльбрус</text>
+  <rect x="503" y="335" width="45" height="95" fill="#14B8A6" rx="3" />
+  <text x="525" y="442" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="bold" font-family="Arial, sans-serif">5204</text>
+  <text x="525" y="455" text-anchor="middle" fill="#1C1917" font-size="7" font-weight="normal" font-family="Arial, sans-serif">Дыхтау</text>
+  <rect x="571" y="348" width="45" height="82" fill="#14B8A6" rx="3" />
+  <text x="593" y="442" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="bold" font-family="Arial, sans-serif">4506</text>
+  <text x="593" y="455" text-anchor="middle" fill="#1C1917" font-size="7" font-weight="normal" font-family="Arial, sans-serif">Белуха</text>
+  <rect x="639" y="343" width="45" height="87" fill="#14B8A6" rx="3" />
+  <text x="661" y="442" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="bold" font-family="Arial, sans-serif">4750</text>
+  <text x="661" y="455" text-anchor="middle" fill="#1C1917" font-size="7" font-weight="normal" font-family="Arial, sans-serif">Ключевская</text>
+  <rect x="707" y="396" width="45" height="34" fill="#059669" rx="3" />
+  <text x="729" y="442" text-anchor="middle" fill="#1C1917" font-size="8" font-weight="bold" font-family="Arial, sans-serif">1895</text>
+  <text x="729" y="455" text-anchor="middle" fill="#1C1917" font-size="7" font-weight="normal" font-family="Arial, sans-serif">Народная</text>
+  <text x="597" y="345" text-anchor="middle" fill="#78716C" font-size="9" font-weight="normal" font-family="Arial, sans-serif">м над ур. моря</text>
+  <line x1="430" y1="430" x2="770" y2="430" stroke="#78716C" stroke-width="1" />
+  <rect x="17" y="482" width="770" height="50" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="480" width="770" height="50" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5" />
+  <rect x="15" y="480" width="770" height="26" rx="8" fill="#065F46" />
+  <rect x="15" y="498" width="770" height="8" fill="#065F46" />
+  <text x="400" y="498" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Закономерность</text>
+  <text x="400" y="510" text-anchor="middle" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">Рельеф России: равнины на западе и севере, горы — на юге и востоке</text>
+  <text x="400" y="524" text-anchor="middle" fill="#065F46" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Высшая точка — г. Эльбрус (5642 м), низшая — Каспийское море (-28 м)</text>
+  <rect x="0" y="570" width="800" height="30" fill="#065F46" />
+  <text x="400" y="590" text-anchor="middle" fill="#D1FAE5" font-size="11" font-family="Arial, sans-serif">География • 8 класс • Интернет-Школа</text>
+</svg>

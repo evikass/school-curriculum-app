@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#F7FEE7" rx="12" />
+  <rect x="2" y="2" width="796" height="596" fill="none" stroke="#84CC16" stroke-width="3" rx="12" />
+  <rect x="3" y="3" width="794" height="56" fill="#65A30D" rx="10" />
+  <text x="400" y="38" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">Свет и температура как экологические факторы</text>
+  <text x="28" y="40" font-size="26">🌿</text>
+  <text x="752" y="40" font-size="26">🌿</text>
+  <text x="400" y="82" text-anchor="middle" fill="#166534" font-size="15" font-style="italic" font-family="Arial, sans-serif">Фотопериодизм, адаптации к свету и температуре</text>
+  <rect x="30" y="95" width="370" height="245" fill="#FFFFFF" stroke="#65A30D" stroke-width="2" rx="10" />
+  <text x="215" y="118" text-anchor="middle" fill="#4D7C0F" font-size="15" font-family="Arial, sans-serif" font-weight="bold">☀ Свет как фактор</text>
+  <circle cx="120" cy="170" r="30" fill="#FCD34D" stroke="#F59E0B" stroke-width="2" />
+  <line x1="155" y1="170" x2="165" y2="170" stroke="#F59E0B" stroke-width="2" />
+  <line x1="144" y1="194" x2="151" y2="201" stroke="#F59E0B" stroke-width="2" />
+  <line x1="120" y1="205" x2="120" y2="215" stroke="#F59E0B" stroke-width="2" />
+  <line x1="95" y1="194" x2="88" y2="201" stroke="#F59E0B" stroke-width="2" />
+  <line x1="85" y1="170" x2="75" y2="170" stroke="#F59E0B" stroke-width="2" />
+  <line x1="95" y1="145" x2="88" y2="138" stroke="#F59E0B" stroke-width="2" />
+  <line x1="120" y1="135" x2="119" y2="125" stroke="#F59E0B" stroke-width="2" />
+  <line x1="144" y1="145" x2="151" y2="138" stroke="#F59E0B" stroke-width="2" />
+  <text x="250" y="162" text-anchor="start" fill="#1A2E05" font-size="12" font-family="Arial, sans-serif">Фотосинтез — основа жизни</text>
+  <text x="250" y="184" text-anchor="start" fill="#1A2E05" font-size="12" font-family="Arial, sans-serif">Фотопериод — длина дня</text>
+  <text x="250" y="206" text-anchor="start" fill="#1A2E05" font-size="12" font-family="Arial, sans-serif">Светолюбивые (гелиофиты)</text>
+  <text x="250" y="228" text-anchor="start" fill="#1A2E05" font-size="12" font-family="Arial, sans-serif">Тенелюбивые (сциофиты)</text>
+  <text x="250" y="250" text-anchor="start" fill="#1A2E05" font-size="12" font-family="Arial, sans-serif">Теневыносливые растения</text>
+  <text x="215" y="290" text-anchor="middle" fill="#166534" font-size="12" font-family="Arial, sans-serif" font-weight="bold">Фотопериодизм:</text>
+  <rect x="60" y="300" width="180" height="18" fill="#FEF08A" stroke="#F59E0B" stroke-width="2" rx="4" />
+  <text x="150" y="314" text-anchor="middle" fill="#1A2E05" font-size="10" font-family="Arial, sans-serif">День (свет)</text>
+  <rect x="240" y="300" width="120" height="18" fill="#1E293B" stroke="#475569" stroke-width="2" rx="4" />
+  <text x="300" y="314" text-anchor="middle" fill="#FFFFFF" font-size="10" font-family="Arial, sans-serif">Ночь</text>
+  <text x="215" y="330" text-anchor="middle" fill="#365314" font-size="10" font-family="Arial, sans-serif">Долгий день → цветение; Короткий день → покой</text>
+  <rect x="410" y="95" width="370" height="245" fill="#FFFFFF" stroke="#DC2626" stroke-width="2" rx="10" />
+  <text x="595" y="118" text-anchor="middle" fill="#DC2626" font-size="15" font-family="Arial, sans-serif" font-weight="bold">🌡 Температура</text>
+  <rect x="450" y="140" width="16" height="100" fill="#FEE2E2" stroke="#EF4444" stroke-width="2" rx="4" />
+  <circle cx="458" cy="250" r="14" fill="#EF4444" stroke="#DC2626" stroke-width="2" />
+  <rect x="453" y="180" width="10" height="70" fill="#EF4444" rx="8" />
+  <text x="445" y="158" text-anchor="end" fill="#DC2626" font-size="9" font-family="Arial, sans-serif">40°</text>
+  <text x="445" y="200" text-anchor="end" fill="#DC2626" font-size="9" font-family="Arial, sans-serif">20°</text>
+  <text x="445" y="235" text-anchor="end" fill="#DC2626" font-size="9" font-family="Arial, sans-serif">0°</text>
+  <text x="490" y="162" text-anchor="start" fill="#1A2E05" font-size="12" font-family="Arial, sans-serif">Оптимум — лучшие условия</text>
+  <text x="490" y="184" text-anchor="start" fill="#1A2E05" font-size="12" font-family="Arial, sans-serif">Предел выносливости</text>
+  <text x="490" y="206" text-anchor="start" fill="#1A2E05" font-size="12" font-family="Arial, sans-serif">Эвритермные (широкий диапазон)</text>
+  <text x="490" y="228" text-anchor="start" fill="#1A2E05" font-size="12" font-family="Arial, sans-serif">Стенотермные (узкий диапазон)</text>
+  <text x="490" y="250" text-anchor="start" fill="#1A2E05" font-size="12" font-family="Arial, sans-serif">Правило оптимума</text>
+  <text x="595" y="290" text-anchor="middle" fill="#166534" font-size="12" font-family="Arial, sans-serif" font-weight="bold">Кривая выноживания:</text>
+  <line x1="460" y1="330" x2="460" y2="295" stroke="#6B7280" stroke-width="1" />
+  <line x1="460" y1="330" x2="750" y2="330" stroke="#6B7280" stroke-width="1" />
+  <text x="455" y="295" text-anchor="end" fill="#6B7280" font-size="9" font-family="Arial, sans-serif">Ж</text>
+  <text x="750" y="340" text-anchor="middle" fill="#6B7280" font-size="9" font-family="Arial, sans-serif">t°C</text>
+  <path d="M470,328 Q510,295 560,298 Q600,300 640,298 Q690,295 730,328" fill="none" stroke="#DC2626" stroke-width="2" />
+  <rect x="570" y="298" width="80" height="32" fill="#FEF08A" stroke="none" stroke-width="2" rx="0" opacity="0.3" />
+  <text x="610" y="345" text-anchor="middle" fill="#DC2626" font-size="9" font-family="Arial, sans-serif">оптимум</text>
+  <rect x="30" y="355" width="740" height="60" fill="#FEF9C3" stroke="#84CC16" stroke-width="2" rx="10" />
+  <text x="400" y="378" text-anchor="middle" fill="#166534" font-size="14" font-family="Arial, sans-serif" font-weight="bold">Адаптации к экстремальным температурам:</text>
+  <text x="400" y="398" text-anchor="middle" fill="#365314" font-size="11" font-family="Arial, sans-serif">Холод: мех, спячка, миграция | Жара: потоотделение, ночная активность, восковой налёт</text>
+  <rect x="30" y="425" width="355" height="150" fill="#FFFFFF" stroke="#65A30D" stroke-width="2" rx="10" />
+  <text x="207" y="448" text-anchor="middle" fill="#4D7C0F" font-size="13" font-family="Arial, sans-serif" font-weight="bold">🐨 Адаптации к холоду</text>
+  <text x="55" y="470" text-anchor="start" fill="#1A2E05" font-size="11" font-family="Arial, sans-serif">Толстый мех и подкожный жир</text>
+  <text x="55" y="490" text-anchor="start" fill="#1A2E05" font-size="11" font-family="Arial, sans-serif">Спячка (медведь, сурок)</text>
+  <text x="55" y="510" text-anchor="start" fill="#1A2E05" font-size="11" font-family="Arial, sans-serif">Миграция (птицы на юг)</text>
+  <text x="55" y="530" text-anchor="start" fill="#1A2E05" font-size="11" font-family="Arial, sans-serif">Группирование (пингвины)</text>
+  <text x="55" y="550" text-anchor="start" fill="#1A2E05" font-size="11" font-family="Arial, sans-serif">Мелкие уши (песец)</text>
+  <rect x="415" y="425" width="355" height="150" fill="#FFFFFF" stroke="#DC2626" stroke-width="2" rx="10" />
+  <text x="592" y="448" text-anchor="middle" fill="#DC2626" font-size="13" font-family="Arial, sans-serif" font-weight="bold">🐆 Адаптации к жаре</text>
+  <text x="440" y="470" text-anchor="start" fill="#1A2E05" font-size="11" font-family="Arial, sans-serif">Ночная активность (тушканчик)</text>
+  <text x="440" y="490" text-anchor="start" fill="#1A2E05" font-size="11" font-family="Arial, sans-serif">Длинные уши (фенек)</text>
+  <text x="440" y="510" text-anchor="start" fill="#1A2E05" font-size="11" font-family="Arial, sans-serif">Тонкая шерсть (верблюд)</text>
+  <text x="440" y="530" text-anchor="start" fill="#1A2E05" font-size="11" font-family="Arial, sans-serif">Потоотделение (человек)</text>
+  <text x="440" y="550" text-anchor="start" fill="#1A2E05" font-size="11" font-family="Arial, sans-serif">Восковой налёт (кактус)</text>
+</svg>

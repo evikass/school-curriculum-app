@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes climb{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}</style></defs>
+  <rect width="500" height="350" fill="#E8EAF6" rx="12"/>
+  <text x="250" y="28" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#283593">План текста</text>
+  <!-- Stairs -->
+  <rect x="60" y="270" width="80" height="40" fill="#90CAF9" stroke="#1565C0" stroke-width="2" rx="3"/>
+  <text x="100" y="295" text-anchor="middle" font-size="22" font-weight="bold" fill="#0D47A1" font-family="sans-serif">1</text>
+  <rect x="140" y="230" width="80" height="80" fill="#81D4FA" stroke="#1565C0" stroke-width="2" rx="3"/>
+  <text x="180" y="255" text-anchor="middle" font-size="22" font-weight="bold" fill="#0D47A1" font-family="sans-serif">2</text>
+  <rect x="220" y="190" width="80" height="120" fill="#64B5F6" stroke="#1565C0" stroke-width="2" rx="3"/>
+  <text x="260" y="215" text-anchor="middle" font-size="22" font-weight="bold" fill="#0D47A1" font-family="sans-serif">3</text>
+  <rect x="300" y="150" width="80" height="160" fill="#42A5F5" stroke="#1565C0" stroke-width="2" rx="3"/>
+  <text x="340" y="175" text-anchor="middle" font-size="22" font-weight="bold" fill="#0D47A1" font-family="sans-serif">4</text>
+  <rect x="380" y="110" width="80" height="200" fill="#2196F3" stroke="#1565C0" stroke-width="2" rx="3"/>
+  <text x="420" y="135" text-anchor="middle" font-size="22" font-weight="bold" fill="#fff" font-family="sans-serif">5</text>
+  <!-- Stick figure climbing -->
+  <g style="animation:climb 2s ease-in-out infinite">
+    <circle cx="370" cy="85" r="10" fill="#FFE0B2" stroke="#E65100" stroke-width="2"/>
+    <line x1="370" y1="95" x2="370" y2="118" stroke="#E65100" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="370" y1="118" x2="362" y2="135" stroke="#E65100" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="370" y1="118" x2="378" y2="135" stroke="#E65100" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="370" y1="102" x2="358" y2="112" stroke="#E65100" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="370" y1="102" x2="382" y2="95" stroke="#E65100" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <!-- Star at top -->
+  <polygon points="420,55 425,68 440,68 428,77 433,90 420,82 407,90 412,77 400,68 415,68" fill="#FFD54F" stroke="#F9A825" stroke-width="1.5"/>
+  <!-- Step labels on the side -->
+  <text x="100" y="320" text-anchor="middle" font-size="8" fill="#1565C0" font-family="sans-serif">Вступление</text>
+  <text x="180" y="320" text-anchor="middle" font-size="8" fill="#1565C0" font-family="sans-serif">Событие 1</text>
+  <text x="260" y="320" text-anchor="middle" font-size="8" fill="#1565C0" font-family="sans-serif">Событие 2</text>
+  <text x="340" y="320" text-anchor="middle" font-size="8" fill="#1565C0" font-family="sans-serif">Кульминация</text>
+  <text x="420" y="320" text-anchor="middle" font-size="8" fill="#1565C0" font-family="sans-serif">Концовка</text>
+  <!-- Flag at top -->
+  <line x1="455" y1="75" x2="455" y2="50" stroke="#5D4037" stroke-width="2"/>
+  <polygon points="455,50 475,55 455,60" fill="#F44336"/>
+  <!-- Dotted path showing plan -->
+  <path d="M100,265 L180,225 L260,185 L340,145 L420,105" stroke="#FF9800" stroke-width="1.5" stroke-dasharray="5,4" fill="none"/>
+</svg>

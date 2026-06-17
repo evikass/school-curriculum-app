@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient><marker id="ar" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#555"/></marker></defs><rect width="500" height="350" fill="url(#bg)" rx="10"/><rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/><rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/><polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/><polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/><polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/><polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/><circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/><circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/><circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/><circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/><circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/><circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/><text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Блок-схемы</text><text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Информатика - Урок 2</text><line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/><rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/><rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+<!-- Flowchart with diamonds and rectangles -->
+<!-- Start oval -->
+<rect x="185" y="90" width="100" height="36" rx="18" fill="#E3F2FD" stroke="#1565C0" stroke-width="2"/>
+<text x="235" y="113" font-family="Arial,sans-serif" font-size="12" fill="#1565C0" text-anchor="middle" font-weight="bold">Начало</text>
+<line x1="235" y1="126" x2="235" y2="148" stroke="#555" stroke-width="2" marker-end="url(#ar)"/>
+<!-- Input parallelogram -->
+<polygon points="185,152 295,152 280,184 170,184" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="2"/>
+<text x="232" y="172" font-family="Arial,sans-serif" font-size="11" fill="#7B1FA2" text-anchor="middle">Ввод A, B</text>
+<line x1="232" y1="184" x2="232" y2="200" stroke="#555" stroke-width="2" marker-end="url(#ar)"/>
+<!-- Process rectangle -->
+<rect x="185" y="204" width="95" height="34" rx="4" fill="#FFF3E0" stroke="#E65100" stroke-width="2"/>
+<text x="232" y="226" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="middle">C = A + B</text>
+<line x1="232" y1="238" x2="232" y2="254" stroke="#555" stroke-width="2" marker-end="url(#ar)"/>
+<!-- Decision diamond -->
+<polygon points="232,258 285,282 232,306 179,282" fill="#FFEBEE" stroke="#C62828" stroke-width="2"/>
+<text x="232" y="286" font-family="Arial,sans-serif" font-size="10" fill="#C62828" text-anchor="middle">C &gt; 10?</text>
+<!-- Yes arrow down -->
+<line x1="232" y1="306" x2="232" y2="320" stroke="#2E7D32" stroke-width="2" marker-end="url(#ar)"/>
+<text x="242" y="316" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32">Да</text>
+<!-- No arrow right -->
+<line x1="285" y1="282" x2="340" y2="282" stroke="#C62828" stroke-width="2" marker-end="url(#ar)"/>
+<text x="305" y="276" font-family="Arial,sans-serif" font-size="9" fill="#C62828">Нет</text>
+<!-- Output box -->
+<rect x="170" y="295" width="125" height="8" rx="0" fill="none"/>
+<rect x="180" y="318" width="105" height="8" rx="0" fill="none"/>
+<!-- Legend on the right -->
+<rect x="345" y="90" width="140" height="200" rx="8" fill="white" stroke="#ddd" stroke-width="1" opacity="0.9"/>
+<text x="415" y="112" font-family="Arial,sans-serif" font-size="12" fill="#333" text-anchor="middle" font-weight="bold">Обозначения</text>
+<line x1="355" y1="118" x2="475" y2="118" stroke="#ddd" stroke-width="1"/>
+<rect x="358" y="126" width="36" height="18" rx="9" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
+<text x="405" y="139" font-family="Arial,sans-serif" font-size="10" fill="#555">Начало/Конец</text>
+<polygon points="358,160 394,160 390,178 362,178" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="1.5"/>
+<text x="405" y="174" font-family="Arial,sans-serif" font-size="10" fill="#555">Ввод/Вывод</text>
+<rect x="358" y="188" width="36" height="18" rx="2" fill="#FFF3E0" stroke="#E65100" stroke-width="1.5"/>
+<text x="405" y="201" font-family="Arial,sans-serif" font-size="10" fill="#555">Действие</text>
+<polygon points="376,218 394,228 376,238 358,228" fill="#FFEBEE" stroke="#C62828" stroke-width="1.5"/>
+<text x="405" y="232" font-family="Arial,sans-serif" font-size="10" fill="#555">Условие</text>
+<line x1="358" y1="258" x2="394" y2="258" stroke="#555" stroke-width="2" marker-end="url(#ar)"/>
+<text x="405" y="262" font-family="Arial,sans-serif" font-size="10" fill="#555">Поток</text>
+<rect x="15" y="308" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/><text x="250" y="329" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Блок-схемы</text></svg>

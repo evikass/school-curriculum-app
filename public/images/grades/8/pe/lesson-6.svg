@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600"><rect width="800" height="600" fill="#F0FDF4" rx="12"/>
+  <rect x="0" y="0" width="800" height="60" fill="#22C55E" rx="0"/>
+  <text x="400" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">Волейбол: техника и тактика</text>
+  <rect x="60" y="80" width="300" height="230" fill="#93C5FD" stroke="#1E293B" stroke-width="2" rx="4" opacity="0.3"/>
+  <rect x="60" y="80" width="300" height="230" fill="none" stroke="#1E293B" stroke-width="2" rx="4"/>
+  <line x1="60" y1="195" x2="360" y2="195" stroke="#EF4444" stroke-width="3"/>
+  <line x1="210" y1="80" x2="210" y2="310" stroke="#1E293B" stroke-width="1" stroke-dasharray="6,3"/>
+  <!-- Net representation -->
+  <rect x="56" y="185" width="308" height="3" fill="#DC2626"/>
+  <text x="210" y="182" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#DC2626" font-weight="bold">СЕТКА (2,43 м муж / 2,24 м жен)</text>
+  <text x="210" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#475569">Схема волейбольной площадки</text><circle cx="110" cy="280" r="11" fill="#16A34A" opacity="0.85"/><text x="110" y="284" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" font-weight="bold">1</text><circle cx="170" cy="280" r="11" fill="#16A34A" opacity="0.85"/><text x="170" y="284" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" font-weight="bold">2</text><circle cx="230" cy="280" r="11" fill="#16A34A" opacity="0.85"/><text x="230" y="284" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" font-weight="bold">3</text><circle cx="290" cy="280" r="11" fill="#16A34A" opacity="0.85"/><text x="290" y="284" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" font-weight="bold">4</text><circle cx="350" cy="280" r="11" fill="#16A34A" opacity="0.85"/><text x="350" y="284" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" font-weight="bold">5</text><circle cx="130" cy="240" r="11" fill="#16A34A" opacity="0.85"/><text x="130" y="244" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" font-weight="bold">6</text><circle cx="110" cy="110" r="11" fill="#DC2626" opacity="0.85"/><text x="110" y="114" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" font-weight="bold">1</text><circle cx="170" cy="110" r="11" fill="#DC2626" opacity="0.85"/><text x="170" y="114" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" font-weight="bold">2</text><circle cx="230" cy="110" r="11" fill="#DC2626" opacity="0.85"/><text x="230" y="114" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" font-weight="bold">3</text><circle cx="290" cy="110" r="11" fill="#DC2626" opacity="0.85"/><text x="290" y="114" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" font-weight="bold">4</text><circle cx="350" cy="110" r="11" fill="#DC2626" opacity="0.85"/><text x="350" y="114" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" font-weight="bold">5</text><circle cx="130" cy="150" r="11" fill="#DC2626" opacity="0.85"/><text x="130" y="154" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" font-weight="bold">6</text><rect x="400" y="80" width="380" height="140" fill="#FFFFFF" stroke="#22C55E" stroke-width="2" rx="8"/>
+<rect x="400" y="80" width="380" height="28" fill="#22C55E" rx="8"/>
+<rect x="400" y="100" width="380" height="8" fill="#22C55E"/>
+<text x="590" y="99" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Техника волейбола</text>
+<text x="412" y="124" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Нижняя передача (приём мяча снизу)</text>
+<text x="412" y="142" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Верхняя передача (двумя руками сверху)</text>
+<text x="412" y="160" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Нападающий удар (прямым ходом)</text>
+<text x="412" y="178" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Подача — нижняя, верхняя, планер</text>
+<text x="412" y="196" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Блок — одиночный, групповой</text><rect x="400" y="230" width="380" height="110" fill="#FFFFFF" stroke="#EF4444" stroke-width="2" rx="8"/>
+<rect x="400" y="230" width="380" height="28" fill="#EF4444" rx="8"/>
+<rect x="400" y="250" width="380" height="8" fill="#EF4444"/>
+<text x="590" y="249" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Тактика и расстановка</text>
+<text x="412" y="274" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Расстановка 5-1 (1 связующий)</text>
+<text x="412" y="292" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Расстановка 4-2 (2 связующих)</text>
+<text x="412" y="310" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Переход (ротация) по часовой стрелке</text>
+<text x="412" y="328" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Либеро — игрок задней линии</text>
+  <rect x="20" y="350" width="760" height="36" fill="#16A34A" rx="8"/>
+  <text x="400" y="374" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">Основные правила</text><rect x="20" y="400" width="245" height="150" fill="#FFFFFF" stroke="#22C55E" stroke-width="2" rx="8"/>
+<rect x="20" y="400" width="245" height="28" fill="#22C55E" rx="8"/>
+<rect x="20" y="420" width="245" height="8" fill="#22C55E"/>
+<text x="142" y="419" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Размеры и счёт</text>
+<text x="32" y="444" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Площадка: 18 х 9 м</text>
+<text x="32" y="462" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Партия до 25 очков (преимущ. +2)</text>
+<text x="32" y="480" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• 5 партий (до 3 побед)</text>
+<text x="32" y="498" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• 5-я партия до 15 очков</text>
+<text x="32" y="516" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• 3 касания на атаку (блок не сч.)</text>
+<text x="32" y="534" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Состав: 6 на площадке</text>
+<text x="32" y="552" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• 7 запасных игроков</text><rect x="282" y="400" width="245" height="150" fill="#FFFFFF" stroke="#EF4444" stroke-width="2" rx="8"/>
+<rect x="282" y="400" width="245" height="28" fill="#EF4444" rx="8"/>
+<rect x="282" y="420" width="245" height="8" fill="#EF4444"/>
+<text x="404" y="419" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Нарушения</text>
+<text x="294" y="444" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Касание сетки игроком</text>
+<text x="294" y="462" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Заступ на чужую половину</text>
+<text x="294" y="480" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Двойное касание</text>
+<text x="294" y="498" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Задержка мяча (бросок)</text>
+<text x="294" y="516" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• 4 касания команды</text>
+<text x="294" y="534" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Ошибка расстановки</text>
+<text x="294" y="552" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Нарушение при подаче</text><rect x="543" y="400" width="245" height="150" fill="#FFFFFF" stroke="#22C55E" stroke-width="2" rx="8"/>
+<rect x="543" y="400" width="245" height="28" fill="#22C55E" rx="8"/>
+<rect x="543" y="420" width="245" height="8" fill="#22C55E"/>
+<text x="665" y="419" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Турниры</text>
+<text x="555" y="444" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Волейбольная Лига Наций</text>
+<text x="555" y="462" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Чемпионат мира FIVB</text>
+<text x="555" y="480" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Олимпийские игры</text>
+<text x="555" y="498" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Суперлига — Россия</text>
+<text x="555" y="516" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Лига чемпионов CEV</text>
+<text x="555" y="534" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Кубок ЕКВ</text>
+<text x="555" y="552" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Мировой Гран-при</text>
+  <rect x="0" y="568" width="800" height="32" fill="#16A34A"/>
+  <text x="400" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">8 класс | Физкультура/ОБЖ | Урок 6</text></svg>

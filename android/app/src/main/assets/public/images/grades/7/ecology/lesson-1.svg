@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#F7FEE7" rx="12" />
+  <rect x="2" y="2" width="796" height="596" fill="none" stroke="#84CC16" stroke-width="3" rx="12" />
+  <rect x="3" y="3" width="794" height="56" fill="#65A30D" rx="10" />
+  <text x="400" y="38" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">Предмет экологии</text>
+  <text x="28" y="40" font-size="26">🌿</text>
+  <text x="752" y="40" font-size="26">🌿</text>
+  <text x="400" y="82" text-anchor="middle" fill="#166534" font-size="15" font-style="italic" font-family="Arial, sans-serif">Экология — наука о взаимодействии организмов с окружающей средой</text>
+  <rect x="50" y="100" width="700" height="60" fill="#FEF9C3" stroke="#84CC16" stroke-width="2" rx="10" />
+  <text x="400" y="125" text-anchor="middle" fill="#1A2E05" font-size="14" font-family="Arial, sans-serif" font-weight="bold">Экология (от греч. oikos — дом, logos — наука)</text>
+  <text x="400" y="145" text-anchor="middle" fill="#365314" font-size="12" font-family="Arial, sans-serif">наука о взаимоотношениях организмов между собой и с окружающей средой</text>
+  <rect x="100" y="200" width="600" height="360" fill="#A3E635" stroke="#4D7C0F" stroke-width="2" rx="12" />
+  <text x="400" y="222" text-anchor="middle" fill="#1A2E05" font-size="20" font-family="Arial, sans-serif" font-weight="bold">Биосфера</text>
+  <rect x="150" y="230" width="500" height="300" fill="#BEF264" stroke="#4D7C0F" stroke-width="2" rx="12" />
+  <text x="400" y="252" text-anchor="middle" fill="#1A2E05" font-size="18" font-family="Arial, sans-serif" font-weight="bold">Экосистема</text>
+  <rect x="200" y="260" width="400" height="240" fill="#D9F99D" stroke="#4D7C0F" stroke-width="2" rx="12" />
+  <text x="400" y="282" text-anchor="middle" fill="#1A2E05" font-size="16" font-family="Arial, sans-serif" font-weight="bold">Сообщество</text>
+  <rect x="250" y="290" width="300" height="180" fill="#ECFCCB" stroke="#4D7C0F" stroke-width="2" rx="12" />
+  <text x="400" y="312" text-anchor="middle" fill="#1A2E05" font-size="15" font-family="Arial, sans-serif" font-weight="bold">Популяция</text>
+  <rect x="320" y="340" width="160" height="100" fill="#FFFFFF" stroke="#4D7C0F" stroke-width="2" rx="12" />
+  <text x="400" y="362" text-anchor="middle" fill="#1A2E05" font-size="14" font-family="Arial, sans-serif" font-weight="bold">Организм</text>
+  <rect x="40" y="430" width="720" height="145" fill="#FFFFFF" stroke="#84CC16" stroke-width="2" rx="10" />
+  <text x="400" y="455" text-anchor="middle" fill="#166534" font-size="15" font-family="Arial, sans-serif" font-weight="bold">Уровни организации живой природы</text>
+  <text x="70" y="478" text-anchor="start" fill="#65A30D" font-size="13" font-family="Arial, sans-serif">•</text>
+  <text x="85" y="478" text-anchor="start" fill="#1A2E05" font-size="12" font-family="Arial, sans-serif" font-weight="bold">Организм:</text>
+  <text x="200" y="478" text-anchor="start" fill="#365314" font-size="12" font-family="Arial, sans-serif">— отдельная живая особь (дерево, волк)</text>
+  <text x="70" y="497" text-anchor="start" fill="#65A30D" font-size="13" font-family="Arial, sans-serif">•</text>
+  <text x="85" y="497" text-anchor="start" fill="#1A2E05" font-size="12" font-family="Arial, sans-serif" font-weight="bold">Популяция:</text>
+  <text x="200" y="497" text-anchor="start" fill="#365314" font-size="12" font-family="Arial, sans-serif">— группа особей одного вида в одной местности</text>
+  <text x="70" y="516" text-anchor="start" fill="#65A30D" font-size="13" font-family="Arial, sans-serif">•</text>
+  <text x="85" y="516" text-anchor="start" fill="#1A2E05" font-size="12" font-family="Arial, sans-serif" font-weight="bold">Сообщество:</text>
+  <text x="200" y="516" text-anchor="start" fill="#365314" font-size="12" font-family="Arial, sans-serif">— несколько популяций разных видов вместе</text>
+  <text x="70" y="535" text-anchor="start" fill="#65A30D" font-size="13" font-family="Arial, sans-serif">•</text>
+  <text x="85" y="535" text-anchor="start" fill="#1A2E05" font-size="12" font-family="Arial, sans-serif" font-weight="bold">Экосистема:</text>
+  <text x="200" y="535" text-anchor="start" fill="#365314" font-size="12" font-family="Arial, sans-serif">— сообщество + неживая среда (почва, вода, свет)</text>
+  <text x="70" y="554" text-anchor="start" fill="#65A30D" font-size="13" font-family="Arial, sans-serif">•</text>
+  <text x="85" y="554" text-anchor="start" fill="#1A2E05" font-size="12" font-family="Arial, sans-serif" font-weight="bold">Биосфера:</text>
+  <text x="200" y="554" text-anchor="start" fill="#365314" font-size="12" font-family="Arial, sans-serif">— все экосистемы планеты Земля</text>
+  <text x="720" y="570" text-anchor="middle" fill="#1A2E05" font-size="22" font-family="Arial, sans-serif">🌳</text>
+</svg>

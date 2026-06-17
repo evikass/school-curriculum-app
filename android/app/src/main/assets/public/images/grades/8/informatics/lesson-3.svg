@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F0F9FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect x="0" y="0" width="800" height="56" fill="#0EA5E9" rx="0" />
+  <text x="400" y="38" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">Урок 3: Понятие алгоритма</text>
+  <line x1="50" y1="52" x2="750" y2="52" stroke="#38BDF8" stroke-width="2" />
+  <rect x="22" y="70" width="760" height="60" fill="#94A3B8" rx="8" opacity="0.15" />
+  <rect x="20" y="68" width="760" height="60" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="2" rx="8" />
+  <text x="35" y="95" text-anchor="start" fill="#0284C7" font-size="14" font-weight="bold" font-family="Arial, sans-serif">Алгоритм</text>
+  <text x="120" y="95" text-anchor="start" fill="#0C4A6E" font-size="12" font-weight="normal" font-family="Arial, sans-serif">- конечная последовательность точно определённых действий, приводящая к результату</text>
+  <text x="35" y="115" text-anchor="start" fill="#64748B" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Слово происходит от имени математика аль-Хорезми (IX век)</text>
+  <rect x="22" y="142" width="380" height="200" fill="#94A3B8" rx="8" opacity="0.15" />
+  <rect x="20" y="140" width="380" height="200" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="2" rx="8" />
+  <rect x="20" y="140" width="380" height="28" fill="#0284C7" rx="8" />
+  <rect x="20" y="160" width="380" height="8" fill="#0284C7" />
+  <text x="210" y="159" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Свойства алгоритма</text>
+  <rect x="32" y="175" width="8" height="14" fill="#0EA5E9" rx="2" />
+  <text x="48" y="186" text-anchor="start" fill="#0C4A6E" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Дискретность</text>
+  <text x="195" y="186" text-anchor="start" fill="#64748B" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Разбивается на шаги</text>
+  <rect x="32" y="207" width="8" height="14" fill="#0284C7" rx="2" />
+  <text x="48" y="218" text-anchor="start" fill="#0C4A6E" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Детерминированность</text>
+  <text x="195" y="218" text-anchor="start" fill="#64748B" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Однозначность каждого шага</text>
+  <rect x="32" y="239" width="8" height="14" fill="#0369A1" rx="2" />
+  <text x="48" y="250" text-anchor="start" fill="#0C4A6E" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Конечность</text>
+  <text x="195" y="250" text-anchor="start" fill="#64748B" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Завершается за конечное время</text>
+  <rect x="32" y="271" width="8" height="14" fill="#075985" rx="2" />
+  <text x="48" y="282" text-anchor="start" fill="#0C4A6E" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Массовость</text>
+  <text x="195" y="282" text-anchor="start" fill="#64748B" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Применим к классу задач</text>
+  <rect x="32" y="303" width="8" height="14" fill="#0C4A6E" rx="2" />
+  <text x="48" y="314" text-anchor="start" fill="#0C4A6E" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Результативность</text>
+  <text x="195" y="314" text-anchor="start" fill="#64748B" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Приводит к результату</text>
+  <rect x="412" y="142" width="370" height="200" fill="#94A3B8" rx="8" opacity="0.15" />
+  <rect x="410" y="140" width="370" height="200" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="2" rx="8" />
+  <rect x="410" y="140" width="370" height="28" fill="#0284C7" rx="8" />
+  <rect x="410" y="160" width="370" height="8" fill="#0284C7" />
+  <text x="595" y="159" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Способы записи алгоритма</text>
+  <circle cx="425" cy="182" r="7" fill="#0EA5E9" />
+  <text x="425" y="186" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="bold" font-family="Arial, sans-serif">1</text>
+  <text x="438" y="186" text-anchor="start" fill="#0C4A6E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Словесный</text>
+  <text x="438" y="200" text-anchor="start" fill="#64748B" font-size="9" font-weight="normal" font-family="Arial, sans-serif">Описание на естественном языке</text>
+  <circle cx="425" cy="214" r="7" fill="#0EA5E9" />
+  <text x="425" y="218" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="bold" font-family="Arial, sans-serif">2</text>
+  <text x="438" y="218" text-anchor="start" fill="#0C4A6E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Формульный</text>
+  <text x="438" y="232" text-anchor="start" fill="#64748B" font-size="9" font-weight="normal" font-family="Arial, sans-serif">Математические формулы</text>
+  <circle cx="425" cy="246" r="7" fill="#0EA5E9" />
+  <text x="425" y="250" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="bold" font-family="Arial, sans-serif">3</text>
+  <text x="438" y="250" text-anchor="start" fill="#0C4A6E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Блок-схема</text>
+  <text x="438" y="264" text-anchor="start" fill="#64748B" font-size="9" font-weight="normal" font-family="Arial, sans-serif">Графическое изображение</text>
+  <circle cx="425" cy="278" r="7" fill="#38BDF8" />
+  <text x="425" y="282" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="bold" font-family="Arial, sans-serif">4</text>
+  <text x="438" y="282" text-anchor="start" fill="#0C4A6E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Псевдокод</text>
+  <text x="438" y="296" text-anchor="start" fill="#64748B" font-size="9" font-weight="normal" font-family="Arial, sans-serif">Условный язык программирования</text>
+  <circle cx="425" cy="310" r="7" fill="#38BDF8" />
+  <text x="425" y="314" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="bold" font-family="Arial, sans-serif">5</text>
+  <text x="438" y="314" text-anchor="start" fill="#0C4A6E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Язык программирования</text>
+  <text x="438" y="328" text-anchor="start" fill="#64748B" font-size="9" font-weight="normal" font-family="Arial, sans-serif">Python, C++, Java...</text>
+  <rect x="22" y="356" width="380" height="230" fill="#94A3B8" rx="8" opacity="0.15" />
+  <rect x="20" y="354" width="380" height="230" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="2" rx="8" />
+  <rect x="20" y="354" width="380" height="28" fill="#0284C7" rx="8" />
+  <rect x="20" y="374" width="380" height="8" fill="#0284C7" />
+  <text x="210" y="373" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Обозначения блок-схем</text>
+  <rect x="35" y="392" width="100" height="30" fill="#E0F2FE" stroke="#0EA5E9" stroke-width="2" rx="15" />
+  <text x="85" y="412" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Начало/Конец</text>
+  <text x="150" y="412" text-anchor="start" fill="#64748B" font-size="11" font-weight="normal" font-family="Arial, sans-serif">- Овал</text>
+  <rect x="35" y="432" width="100" height="30" fill="#E0F2FE" stroke="#0EA5E9" stroke-width="2" rx="4" />
+  <text x="85" y="452" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Действие</text>
+  <text x="150" y="452" text-anchor="start" fill="#64748B" font-size="11" font-weight="normal" font-family="Arial, sans-serif">- Прямоугольник</text>
+  <polygon points="85,472 135,489 85,507 35,489" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2" />
+  <text x="85" y="494" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Условие</text>
+  <text x="150" y="494" text-anchor="start" fill="#64748B" font-size="11" font-weight="normal" font-family="Arial, sans-serif">- Ромб</text>
+  <polygon points="45,520 135,520 125,550 35,550" fill="#ECFDF5" stroke="#10B981" stroke-width="2" />
+  <text x="85" y="540" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Ввод/Вывод</text>
+  <text x="150" y="540" text-anchor="start" fill="#64748B" font-size="11" font-weight="normal" font-family="Arial, sans-serif">- Параллелограмм</text>
+  <rect x="412" y="356" width="370" height="230" fill="#94A3B8" rx="8" opacity="0.15" />
+  <rect x="410" y="354" width="370" height="230" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="2" rx="8" />
+  <rect x="410" y="354" width="370" height="28" fill="#0284C7" rx="8" />
+  <rect x="410" y="374" width="370" height="8" fill="#0284C7" />
+  <text x="595" y="373" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Пример: max(a, b)</text>
+  <rect x="548" y="390" width="90" height="26" fill="#E0F2FE" stroke="#0EA5E9" stroke-width="2" rx="13" />
+  <text x="593" y="408" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Начало</text>
+  <line x1="593" y1="416" x2="593" y2="428" stroke="#0EA5E9" stroke-width="2" />
+  <polygon points="593,428 589,421 597,421" fill="#0EA5E9" />
+  <polygon points="558,428 638,428 628,454 548,454" fill="#ECFDF5" stroke="#10B981" stroke-width="2" />
+  <text x="593" y="446" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Ввод a, b</text>
+  <line x1="593" y1="454" x2="593" y2="466" stroke="#0EA5E9" stroke-width="2" />
+  <polygon points="593,466 589,459 597,459" fill="#0EA5E9" />
+  <polygon points="593,466 648,482 593,498 538,482" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2" />
+  <text x="593" y="487" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">a &gt; b?</text>
+  <line x1="538" y1="482" x2="480" y2="482" stroke="#10B981" stroke-width="2" />
+  <polygon points="480,482 487,478 487,486" fill="#10B981" />
+  <text x="505" y="475" text-anchor="start" fill="#10B981" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Да</text>
+  <rect x="420" y="505" width="80" height="26" fill="#E0F2FE" stroke="#0EA5E9" stroke-width="2" rx="4" />
+  <text x="460" y="523" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">max = a</text>
+  <line x1="648" y1="482" x2="700" y2="482" stroke="#EF4444" stroke-width="2" />
+  <polygon points="700,482 693,478 693,486" fill="#EF4444" />
+  <text x="665" y="475" text-anchor="start" fill="#EF4444" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Нет</text>
+  <rect x="665" y="505" width="80" height="26" fill="#E0F2FE" stroke="#0EA5E9" stroke-width="2" rx="4" />
+  <text x="705" y="523" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">max = b</text>
+  <line x1="460" y1="531" x2="460" y2="548" stroke="#0EA5E9" stroke-width="2" />
+  <polygon points="460,548 456,541 464,541" fill="#0EA5E9" />
+  <line x1="705" y1="531" x2="705" y2="548" stroke="#0EA5E9" stroke-width="2" />
+  <polygon points="705,548 701,541 709,541" fill="#0EA5E9" />
+  <line x1="460" y1="548" x2="593" y2="548" stroke="#0EA5E9" stroke-width="2" />
+  <polygon points="593,548 586,544 586,552" fill="#0EA5E9" />
+  <line x1="705" y1="548" x2="593" y2="548" stroke="#0EA5E9" stroke-width="2" />
+  <polygon points="593,548 600,544 600,552" fill="#0EA5E9" />
+  <line x1="593" y1="548" x2="593" y2="555" stroke="#0EA5E9" stroke-width="2" />
+  <polygon points="593,555 589,548 597,548" fill="#0EA5E9" />
+  <polygon points="558,555 638,555 628,577 548,577" fill="#ECFDF5" stroke="#10B981" stroke-width="2" />
+  <text x="593" y="571" text-anchor="middle" fill="#0C4A6E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Вывод max</text>
+</svg>

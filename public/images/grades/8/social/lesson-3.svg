@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="100%" stop-color="#FFF7ED" />
+    </linearGradient>
+    <marker id="arrowAmber" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#D97706" />
+    </marker>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect width="800" height="6" fill="#F59E0B" />
+  <rect x="0" y="6" width="800" height="70" fill="#D97706" />
+  <rect x="20" y="16" width="44" height="44" rx="10" fill="#92400E" />
+  <text x="42" y="47" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">3</text>
+  <text x="78" y="38" fill="#FFFFFF" font-size="20" font-weight="bold" font-family="Arial, sans-serif">Экономика и её структура</text>
+  <text x="78" y="58" fill="#FEF3C7" font-size="13" font-family="Arial, sans-serif">Производство, распределение, обмен, потребление</text>
+  <rect x="17" y="92" width="500" height="310" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="90" width="500" height="310" rx="8" fill="#FFFFFF" stroke="#D97706" stroke-width="1.5" />
+  <rect x="15" y="90" width="500" height="26" rx="8" fill="#D97706" />
+  <rect x="15" y="108" width="500" height="8" fill="#D97706" />
+  <text x="265" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Круговорот экономической деятельности</text>
+  <rect x="210" y="137" width="110" height="36" rx="8" fill="#3B82F6" stroke="#3B82F6" stroke-width="2" />
+  <text x="265" y="160" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Производство</text>
+  <rect x="305" y="232" width="110" height="36" rx="8" fill="#22C55E" stroke="#22C55E" stroke-width="2" />
+  <text x="360" y="255" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Распределение</text>
+  <rect x="210" y="327" width="110" height="36" rx="8" fill="#8B5CF6" stroke="#8B5CF6" stroke-width="2" />
+  <text x="265" y="350" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Обмен</text>
+  <rect x="115" y="232" width="110" height="36" rx="8" fill="#EF4444" stroke="#EF4444" stroke-width="2" />
+  <text x="170" y="255" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Потребление</text>
+  <line x1="295" y1="175" x2="330" y2="230" stroke="#D97706" stroke-width="2.5" marker-end="url(#arrowAmber)" />
+  <line x1="330" y1="270" x2="295" y2="325" stroke="#D97706" stroke-width="2.5" marker-end="url(#arrowAmber)" />
+  <line x1="235" y1="325" x2="200" y2="270" stroke="#D97706" stroke-width="2.5" marker-end="url(#arrowAmber)" />
+  <line x1="200" y1="230" x2="235" y2="175" stroke="#D97706" stroke-width="2.5" marker-end="url(#arrowAmber)" />
+  <circle cx="265" cy="250" r="30" fill="#FEF3C7" stroke="#D97706" stroke-width="2" />
+  <text x="265" y="247" text-anchor="middle" fill="#92400E" font-size="9" font-weight="bold" font-family="Arial, sans-serif">Экономи-</text>
+  <text x="265" y="259" text-anchor="middle" fill="#92400E" font-size="9" font-weight="bold" font-family="Arial, sans-serif">ческий</text>
+  <text x="265" y="271" text-anchor="middle" fill="#92400E" font-size="9" font-weight="bold" font-family="Arial, sans-serif">цикл</text>
+  <rect x="532" y="92" width="255" height="75" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="530" y="90" width="255" height="75" rx="8" fill="#FFFFFF" stroke="#3B82F6" stroke-width="1.5" />
+  <rect x="530" y="90" width="255" height="26" rx="8" fill="#3B82F6" />
+  <rect x="530" y="108" width="255" height="8" fill="#3B82F6" />
+  <text x="657" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Производство</text>
+  <text x="545" y="128" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Создание благ и услуг</text>
+  <text x="545" y="146" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Факторы: труд, земля,</text>
+  <text x="555" y="160" text-anchor="start" fill="#92400E" font-size="10" font-weight="normal" font-family="Arial, sans-serif">капитал, предпр-во</text>
+  <rect x="532" y="177" width="255" height="75" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="530" y="175" width="255" height="75" rx="8" fill="#FFFFFF" stroke="#22C55E" stroke-width="1.5" />
+  <rect x="530" y="175" width="255" height="26" rx="8" fill="#22C55E" />
+  <rect x="530" y="193" width="255" height="8" fill="#22C55E" />
+  <text x="657" y="193" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Распределение</text>
+  <text x="545" y="213" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Деление произведённого</text>
+  <text x="555" y="231" text-anchor="start" fill="#92400E" font-size="11" font-weight="normal" font-family="Arial, sans-serif">между участниками</text>
+  <text x="545" y="246" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">• Доходы: зарплата, рента</text>
+  <rect x="532" y="262" width="255" height="75" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="530" y="260" width="255" height="75" rx="8" fill="#FFFFFF" stroke="#8B5CF6" stroke-width="1.5" />
+  <rect x="530" y="260" width="255" height="26" rx="8" fill="#8B5CF6" />
+  <rect x="530" y="278" width="255" height="8" fill="#8B5CF6" />
+  <text x="657" y="278" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Обмен</text>
+  <text x="545" y="298" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Товарно-денежные</text>
+  <text x="555" y="316" text-anchor="start" fill="#92400E" font-size="11" font-weight="normal" font-family="Arial, sans-serif">отношения, рынок</text>
+  <text x="545" y="331" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">• Торговля, бартер</text>
+  <rect x="532" y="347" width="255" height="75" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="530" y="345" width="255" height="75" rx="8" fill="#FFFFFF" stroke="#EF4444" stroke-width="1.5" />
+  <rect x="530" y="345" width="255" height="26" rx="8" fill="#EF4444" />
+  <rect x="530" y="363" width="255" height="8" fill="#EF4444" />
+  <text x="657" y="363" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Потребление</text>
+  <text x="545" y="383" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Использование благ</text>
+  <text x="555" y="401" text-anchor="start" fill="#92400E" font-size="11" font-weight="normal" font-family="Arial, sans-serif">для удовлетворения</text>
+  <text x="545" y="416" text-anchor="start" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">• Личное и производств.</text>
+  <rect x="17" y="412" width="500" height="80" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="410" width="500" height="80" rx="8" fill="#FFFFFF" stroke="#D97706" stroke-width="1.5" />
+  <rect x="15" y="410" width="500" height="26" rx="8" fill="#92400E" />
+  <rect x="15" y="428" width="500" height="8" fill="#92400E" />
+  <text x="265" y="428" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Определение экономики</text>
+  <text x="30" y="446" text-anchor="start" fill="#1C1917" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Экономика — система хозяйствования,</text>
+  <text x="30" y="466" text-anchor="start" fill="#92400E" font-size="13" font-weight="normal" font-family="Arial, sans-serif">обеспечивающая общество благами и услугами.</text>
+  <text x="30" y="484" text-anchor="start" fill="#22C55E" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Главная цель — удовлетворение потребностей.</text>
+  <rect x="532" y="432" width="255" height="60" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="530" y="430" width="255" height="60" rx="8" fill="#FFFFFF" stroke="#D97706" stroke-width="1.5" />
+  <rect x="530" y="430" width="255" height="26" rx="8" fill="#D97706" />
+  <rect x="530" y="448" width="255" height="8" fill="#D97706" />
+  <text x="657" y="448" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Типы экономик</text>
+  <text x="545" y="466" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Традиционная | Рыночная</text>
+  <text x="545" y="483" text-anchor="start" fill="#92400E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Командная | Смешанная</text>
+  <rect x="0" y="570" width="800" height="30" fill="#92400E" />
+  <text x="400" y="590" text-anchor="middle" fill="#FEF3C7" font-size="11" font-family="Arial, sans-serif">Обществознание • 8 класс • Интернет-Школа</text>
+</svg>

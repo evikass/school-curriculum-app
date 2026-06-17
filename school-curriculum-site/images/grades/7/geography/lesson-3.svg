@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect x="0" y="0" width="800" height="72" rx="0" fill="#059669" />
+  <rect x="0" y="72" width="800" height="4" rx="0" fill="#047857" />
+  <text x="400" y="36" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="sans-serif">Численность и размещение населения</text>
+  <text x="400" y="58" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="normal" font-family="sans-serif">Плотность, урбанизация, демография</text>
+  <rect x="0" y="570" width="800" height="30" rx="0" fill="#ECFDF5" />
+  <line x1="0" y1="570" x2="800" y2="570" stroke="#6EE7B7" stroke-width="1" />
+  <text x="400" y="590" text-anchor="middle" fill="#9CA3AF" font-size="10" font-weight="normal" font-family="sans-serif">7 класс — География — Урок 3</text>
+  <rect x="0" y="76" width="800" height="494" rx="0" fill="#ECFDF5" opacity="0.4" />
+  <text x="400" y="98" text-anchor="middle" fill="#047857" font-size="15" font-weight="bold" font-family="sans-serif">Население Земли: ключевые данные</text>
+  <rect x="220" y="108" width="360" height="48" rx="8" fill="#047857" />
+  <text x="400" y="138" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="bold" font-family="sans-serif">8 млрд человек (2022 г.)</text>
+  <text x="400" y="178" text-anchor="middle" fill="#047857" font-size="13" font-weight="bold" font-family="sans-serif">Размещение населения по регионам</text>
+  <rect x="40" y="190" width="720" height="170" rx="4" fill="#DBEAFE" stroke="#93C5FD" stroke-width="1" />
+  <circle cx="540" cy="230" r="5" fill="#059669" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="555" cy="225" r="5" fill="#059669" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="550" cy="240" r="5" fill="#059669" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="565" cy="235" r="5" fill="#059669" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="535" cy="220" r="5" fill="#059669" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="560" cy="245" r="5" fill="#059669" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="545" cy="250" r="5" fill="#059669" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="570" cy="228" r="5" fill="#059669" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="530" cy="235" r="5" fill="#059669" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="555" cy="250" r="5" fill="#059669" stroke="#FFFFFF" stroke-width="1" />
+  <text x="555" y="265" text-anchor="middle" fill="#047857" font-size="8" font-weight="normal" font-family="sans-serif">Восточная Азия</text>
+  <text x="555" y="275" text-anchor="middle" fill="#4B5563" font-size="7" font-weight="normal" font-family="sans-serif">(высокая плотность)</text>
+  <circle cx="480" cy="250" r="5" fill="#047857" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="495" cy="245" r="5" fill="#047857" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="490" cy="260" r="5" fill="#047857" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="505" cy="255" r="5" fill="#047857" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="475" cy="240" r="5" fill="#047857" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="500" cy="265" r="5" fill="#047857" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="485" cy="270" r="5" fill="#047857" stroke="#FFFFFF" stroke-width="1" />
+  <text x="490" y="285" text-anchor="middle" fill="#047857" font-size="8" font-weight="normal" font-family="sans-serif">Южная Азия</text>
+  <text x="490" y="295" text-anchor="middle" fill="#4B5563" font-size="7" font-weight="normal" font-family="sans-serif">(очень высокая)</text>
+  <circle cx="360" cy="210" r="4" fill="#0E7490" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="375" cy="205" r="4" fill="#0E7490" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="370" cy="220" r="4" fill="#0E7490" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="385" cy="215" r="4" fill="#0E7490" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="355" cy="220" r="4" fill="#0E7490" stroke="#FFFFFF" stroke-width="1" />
+  <text x="370" y="232" text-anchor="middle" fill="#0E7490" font-size="8" font-weight="normal" font-family="sans-serif">Европа</text>
+  <circle cx="390" cy="260" r="4" fill="#B45309" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="400" cy="255" r="4" fill="#B45309" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="395" cy="270" r="4" fill="#B45309" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="410" cy="265" r="4" fill="#B45309" stroke="#FFFFFF" stroke-width="1" />
+  <text x="400" y="282" text-anchor="middle" fill="#B45309" font-size="8" font-weight="normal" font-family="sans-serif">Африка</text>
+  <text x="400" y="292" text-anchor="middle" fill="#4B5563" font-size="7" font-weight="normal" font-family="sans-serif">(быстрый рост)</text>
+  <circle cx="180" cy="215" r="4" fill="#6D28D9" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="195" cy="210" r="4" fill="#6D28D9" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="190" cy="225" r="4" fill="#6D28D9" stroke="#FFFFFF" stroke-width="1" />
+  <text x="190" y="237" text-anchor="middle" fill="#6D28D9" font-size="8" font-weight="normal" font-family="sans-serif">Сев. Америка</text>
+  <circle cx="250" cy="275" r="3" fill="#0E7490" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="260" cy="270" r="3" fill="#0E7490" stroke="#FFFFFF" stroke-width="1" />
+  <circle cx="255" cy="285" r="3" fill="#0E7490" stroke="#FFFFFF" stroke-width="1" />
+  <text x="255" y="295" text-anchor="middle" fill="#0E7490" font-size="8" font-weight="normal" font-family="sans-serif">Юж. Америка</text>
+  <circle cx="600" cy="275" r="3" fill="#6D28D9" stroke="#FFFFFF" stroke-width="1" />
+  <text x="600" y="288" text-anchor="middle" fill="#6D28D9" font-size="8" font-weight="normal" font-family="sans-serif">Австралия</text>
+  <text x="80" y="205" text-anchor="start" fill="#4B5563" font-size="7" font-weight="normal" font-family="sans-serif">Размер точки =</text>
+  <text x="80" y="215" text-anchor="start" fill="#4B5563" font-size="7" font-weight="normal" font-family="sans-serif">плотность населения</text>
+  <text x="150" y="388" text-anchor="middle" fill="#047857" font-size="12" font-weight="bold" font-family="sans-serif">Плотность населения (чел/км²)</text>
+  <rect x="100" y="405" width="135" height="16" rx="2" fill="#047857" />
+  <text x="95" y="417" text-anchor="end" fill="#1F2937" font-size="8" font-weight="normal" font-family="sans-serif">Азия</text>
+  <text x="240" y="417" text-anchor="start" fill="#047857" font-size="8" font-weight="bold" font-family="sans-serif">90</text>
+  <rect x="100" y="427" width="51" height="16" rx="2" fill="#059669" />
+  <text x="95" y="439" text-anchor="end" fill="#1F2937" font-size="8" font-weight="normal" font-family="sans-serif">Европа</text>
+  <text x="156" y="439" text-anchor="start" fill="#059669" font-size="8" font-weight="bold" font-family="sans-serif">34</text>
+  <rect x="100" y="449" width="52" height="16" rx="2" fill="#B45309" />
+  <text x="95" y="461" text-anchor="end" fill="#1F2937" font-size="8" font-weight="normal" font-family="sans-serif">Африка</text>
+  <text x="157" y="461" text-anchor="start" fill="#B45309" font-size="8" font-weight="bold" font-family="sans-serif">35</text>
+  <rect x="100" y="471" width="30" height="16" rx="2" fill="#0E7490" />
+  <text x="95" y="483" text-anchor="end" fill="#1F2937" font-size="8" font-weight="normal" font-family="sans-serif">Сев.Америка</text>
+  <text x="135" y="483" text-anchor="start" fill="#0E7490" font-size="8" font-weight="bold" font-family="sans-serif">20</text>
+  <rect x="100" y="493" width="33" height="16" rx="2" fill="#6D28D9" />
+  <text x="95" y="505" text-anchor="end" fill="#1F2937" font-size="8" font-weight="normal" font-family="sans-serif">Юж.Америка</text>
+  <text x="138" y="505" text-anchor="start" fill="#6D28D9" font-size="8" font-weight="bold" font-family="sans-serif">22</text>
+  <rect x="100" y="515" width="4" height="16" rx="2" fill="#4B5563" />
+  <text x="95" y="527" text-anchor="end" fill="#1F2937" font-size="8" font-weight="normal" font-family="sans-serif">Австралия</text>
+  <text x="109" y="527" text-anchor="start" fill="#4B5563" font-size="8" font-weight="bold" font-family="sans-serif">3</text>
+  <rect x="100" y="537" width="12" height="16" rx="2" fill="#A7F3D0" />
+  <text x="95" y="549" text-anchor="end" fill="#1F2937" font-size="8" font-weight="normal" font-family="sans-serif">Океания</text>
+  <text x="117" y="549" text-anchor="start" fill="#A7F3D0" font-size="8" font-weight="bold" font-family="sans-serif">8</text>
+  <text x="580" y="388" text-anchor="middle" fill="#047857" font-size="13" font-weight="bold" font-family="sans-serif">Урбанизация</text>
+  <text x="440" y="408" text-anchor="start" fill="#059669" font-size="10" font-weight="normal" font-family="sans-serif">Доля горожан в мире</text>
+  <text x="720" y="408" text-anchor="end" fill="#059669" font-size="10" font-weight="bold" font-family="sans-serif">56% (2020 г.)</text>
+  <text x="440" y="425" text-anchor="start" fill="#047857" font-size="10" font-weight="bold" font-family="sans-serif">Наиболее урбанизированные</text>
+  <text x="440" y="442" text-anchor="start" fill="#0E7490" font-size="10" font-weight="normal" font-family="sans-serif">  Аргентина, Австралия</text>
+  <text x="720" y="442" text-anchor="end" fill="#0E7490" font-size="10" font-weight="bold" font-family="sans-serif">92%</text>
+  <text x="440" y="459" text-anchor="start" fill="#0E7490" font-size="10" font-weight="normal" font-family="sans-serif">  Великобритания, Бельгия</text>
+  <text x="720" y="459" text-anchor="end" fill="#0E7490" font-size="10" font-weight="bold" font-family="sans-serif">83%</text>
+  <text x="440" y="476" text-anchor="start" fill="#047857" font-size="10" font-weight="bold" font-family="sans-serif">Наименее урбанизированные</text>
+  <text x="440" y="493" text-anchor="start" fill="#B45309" font-size="10" font-weight="normal" font-family="sans-serif">  Руанда, Бурунди</text>
+  <text x="720" y="493" text-anchor="end" fill="#B45309" font-size="10" font-weight="bold" font-family="sans-serif">14%</text>
+  <text x="440" y="510" text-anchor="start" fill="#B45309" font-size="10" font-weight="normal" font-family="sans-serif">  Эфиопия, Малави</text>
+  <text x="720" y="510" text-anchor="end" fill="#B45309" font-size="10" font-weight="bold" font-family="sans-serif">21%</text>
+  <rect x="440" y="530" width="320" height="30" rx="4" fill="#FFFFFF" stroke="#059669" stroke-width="1" />
+  <rect x="440" y="530" width="4" height="30" rx="2" fill="#059669" />
+  <text x="454" y="549" text-anchor="start" fill="#4B5563" font-size="9" font-weight="normal" font-family="sans-serif">Факторы размещения: климат, рельеф, ресурсы, транспорт</text>
+</svg>

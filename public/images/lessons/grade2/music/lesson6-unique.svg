@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes glow{0%,100%{opacity:.3}50%{opacity:.8}}.sp{animation:glow 2s ease-in-out infinite}</style></defs>
+  <rect width="500" height="350" rx="12" fill="#0d0d1a"/>
+  <rect x="4" y="4" width="492" height="342" rx="10" fill="none" stroke="#ffd700" stroke-width="1.5"/>
+  <text x="250" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#fff">Композиторы России</text>
+  <!-- Stage -->
+  <path d="M50,280 L450,280 L470,320 L30,320Z" fill="#3e2723"/>
+  <!-- Left curtain -->
+  <path d="M20,40 Q30,40 35,50 L35,300 Q25,290 20,300Z" fill="#880e4f"/>
+  <path d="M35,50 Q50,55 55,65 L55,295 Q40,288 35,300Z" fill="#ad1457"/>
+  <path d="M55,65 Q70,70 75,80 L75,290 Q60,283 55,295Z" fill="#880e4f"/>
+  <!-- Right curtain -->
+  <path d="M480,40 Q470,40 465,50 L465,300 Q475,290 480,300Z" fill="#880e4f"/>
+  <path d="M465,50 Q450,55 445,65 L445,295 Q460,288 465,300Z" fill="#ad1457"/>
+  <path d="M445,65 Q430,70 425,80 L425,290 Q440,283 445,295Z" fill="#880e4f"/>
+  <!-- Curtain top -->
+  <path d="M20,40 Q250,30 480,40 Q250,50 20,40Z" fill="#ad1457"/>
+  <path d="M20,40 Q250,70 480,40 L480,50 Q250,80 20,50Z" fill="#880e4f"/>
+  <!-- Grand piano -->
+  <path d="M150,200 Q150,170 180,160 Q220,148 270,150 Q310,152 340,165 Q360,175 360,200 L360,260 L150,260Z" fill="#1a1a1a" stroke="#333" stroke-width="2"/>
+  <path d="M150,200 Q150,170 180,160 Q220,148 270,150 Q310,152 340,165 Q360,175 360,200 Q340,170 300,158 Q260,148 220,152 Q180,158 160,175Z" fill="#2a2a2a" stroke="#444" stroke-width="1"/>
+  <line x1="250" y1="155" x2="255" y2="200" stroke="#555" stroke-width="2"/>
+  <!-- Keys -->
+  <rect x="165" y="240" width="170" height="16" rx="2" fill="#263238"/>
+  <g fill="#eceff1"><rect x="168" y="242" width="9" height="12" rx="1"/><rect x="180" y="242" width="9" height="12" rx="1"/><rect x="192" y="242" width="9" height="12" rx="1"/><rect x="204" y="242" width="9" height="12" rx="1"/><rect x="216" y="242" width="9" height="12" rx="1"/><rect x="228" y="242" width="9" height="12" rx="1"/><rect x="240" y="242" width="9" height="12" rx="1"/><rect x="252" y="242" width="9" height="12" rx="1"/><rect x="264" y="242" width="9" height="12" rx="1"/><rect x="276" y="242" width="9" height="12" rx="1"/><rect x="288" y="242" width="9" height="12" rx="1"/><rect x="300" y="242" width="9" height="12" rx="1"/><rect x="312" y="242" width="9" height="12" rx="1"/></g>
+  <g fill="#1a1a1a"><rect x="176" y="242" width="5" height="7" rx=".5"/><rect x="188" y="242" width="5" height="7" rx=".5"/><rect x="212" y="242" width="5" height="7" rx=".5"/><rect x="224" y="242" width="5" height="7" rx=".5"/></g>
+  <!-- Legs & bench -->
+  <rect x="160" y="260" width="6" height="20" rx="1" fill="#1a1a1a"/><rect x="350" y="260" width="6" height="20" rx="1" fill="#1a1a1a"/>
+  <rect x="210" y="270" width="80" height="8" rx="2" fill="#2a2a2a"/>
+  <!-- Spotlight -->
+  <ellipse cx="255" cy="280" rx="60" ry="15" fill="#ffd700" opacity="0.08" class="sp"/>
+  <path d="M235,45 L195,260 L315,260 L275,45Z" fill="#ffd700" opacity="0.05"/>
+  <!-- Notes -->
+  <g fill="#ffd700"><ellipse cx="200" cy="110" rx="7" ry="5" transform="rotate(-20,200,110)"/>
+    <line x1="207" y1="110" x2="207" y2="80" stroke="#ffd700" stroke-width="2"/>
+    <path d="M207,80 Q215,77 207,73" stroke="#ffd700" stroke-width="1.5" fill="none"/>
+    <ellipse cx="310" cy="90" rx="7" ry="5" transform="rotate(-15,310,90)"/>
+    <line x1="317" y1="90" x2="317" y2="60" stroke="#ffd700" stroke-width="2"/>
+    <path d="M317,60 Q325,57 317,53" stroke="#ffd700" stroke-width="1.5" fill="none"/></g>
+  <!-- Stars -->
+  <g fill="#ffd700" opacity="0.6"><polygon points="180,95 182,100 187,100 183,103 184,108 180,105 176,108 177,103 173,100 178,100"/>
+    <polygon points="330,75 332,80 337,80 333,83 334,88 330,85 326,88 327,83 323,80 328,80"/></g>
+</svg>

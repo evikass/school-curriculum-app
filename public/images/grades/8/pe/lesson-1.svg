@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600"><rect width="800" height="600" fill="#F0FDF4" rx="12"/>
+  <rect x="0" y="0" width="800" height="60" fill="#22C55E" rx="0"/>
+  <text x="400" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">Гимнастика: виды и значение</text><rect x="20" y="80" width="240" height="200" fill="#FFFFFF" stroke="#22C55E" stroke-width="2" rx="8"/>
+<rect x="20" y="80" width="240" height="28" fill="#22C55E" rx="8"/>
+<rect x="20" y="100" width="240" height="8" fill="#22C55E"/>
+<text x="140" y="99" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Спортивная гимнастика</text>
+<text x="32" y="124" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Опорный прыжок</text>
+<text x="32" y="142" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Вольные упражнения</text>
+<text x="32" y="160" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Перекладина</text>
+<text x="32" y="178" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Брусья</text>
+<text x="32" y="196" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Бревно (жен.)</text>
+<text x="32" y="214" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Кольца (муж.)</text><rect x="280" y="80" width="240" height="200" fill="#FFFFFF" stroke="#EF4444" stroke-width="2" rx="8"/>
+<rect x="280" y="80" width="240" height="28" fill="#EF4444" rx="8"/>
+<rect x="280" y="100" width="240" height="8" fill="#EF4444"/>
+<text x="400" y="99" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Художественная гимнастика</text>
+<text x="292" y="124" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Скакалка</text>
+<text x="292" y="142" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Обруч</text>
+<text x="292" y="160" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Мяч</text>
+<text x="292" y="178" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Булавы</text>
+<text x="292" y="196" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Лента</text>
+<text x="292" y="214" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Только женщины</text><rect x="540" y="80" width="240" height="200" fill="#FFFFFF" stroke="#22C55E" stroke-width="2" rx="8"/>
+<rect x="540" y="80" width="240" height="28" fill="#22C55E" rx="8"/>
+<rect x="540" y="100" width="240" height="8" fill="#22C55E"/>
+<text x="660" y="99" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Акробатика</text>
+<text x="552" y="124" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Кувырки вперёд/назад</text>
+<text x="552" y="142" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Стойка на руках</text>
+<text x="552" y="160" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Колесо</text>
+<text x="552" y="178" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Мостик</text>
+<text x="552" y="196" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Сальто</text>
+<text x="552" y="214" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Балансировки</text><circle cx="140" cy="304.0" r="9.6" fill="none" stroke="#16A34A" stroke-width="2.4"/>
+<line x1="140" y1="313.6" x2="140" y2="352.0" stroke="#16A34A" stroke-width="2.4"/>
+<line x1="140" y1="325.6" x2="118.4" y2="316.0" stroke="#16A34A" stroke-width="2.4"/>
+<line x1="140" y1="325.6" x2="161.6" y2="316.0" stroke="#16A34A" stroke-width="2.4"/>
+<line x1="140" y1="352.0" x2="120.8" y2="370.0" stroke="#16A34A" stroke-width="2.4"/>
+<line x1="140" y1="352.0" x2="159.2" y2="370.0" stroke="#16A34A" stroke-width="2.4"/><circle cx="400" cy="304.0" r="9.6" fill="none" stroke="#DC2626" stroke-width="2.4"/>
+<line x1="400" y1="313.6" x2="400" y2="352.0" stroke="#DC2626" stroke-width="2.4"/>
+<line x1="400" y1="325.6" x2="382.0" y2="342.4" stroke="#DC2626" stroke-width="2.4"/>
+<line x1="400" y1="325.6" x2="418.0" y2="342.4" stroke="#DC2626" stroke-width="2.4"/>
+<line x1="400" y1="352.0" x2="385.6" y2="376.0" stroke="#DC2626" stroke-width="2.4"/>
+<line x1="400" y1="352.0" x2="414.4" y2="376.0" stroke="#DC2626" stroke-width="2.4"/><circle cx="660" cy="304.0" r="9.6" fill="none" stroke="#16A34A" stroke-width="2.4"/>
+<line x1="660" y1="313.6" x2="660" y2="352.0" stroke="#16A34A" stroke-width="2.4"/>
+<line x1="660" y1="325.6" x2="638.4" y2="316.0" stroke="#16A34A" stroke-width="2.4"/>
+<line x1="660" y1="325.6" x2="681.6" y2="316.0" stroke="#16A34A" stroke-width="2.4"/>
+<line x1="660" y1="352.0" x2="640.8" y2="370.0" stroke="#16A34A" stroke-width="2.4"/>
+<line x1="660" y1="352.0" x2="679.2" y2="370.0" stroke="#16A34A" stroke-width="2.4"/><text x="140" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#475569">Вольные</text><text x="400" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#475569">С предметами</text><text x="660" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#475569">Акробатика</text>
+  <rect x="20" y="410" width="760" height="36" fill="#16A34A" rx="8"/>
+  <text x="400" y="434" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">Значение гимнастики</text><rect x="20" y="460" width="370" height="90" fill="#FFFFFF" stroke="#22C55E" stroke-width="2" rx="8"/>
+<rect x="20" y="460" width="370" height="28" fill="#22C55E" rx="8"/>
+<rect x="20" y="480" width="370" height="8" fill="#22C55E"/>
+<text x="205" y="479" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Физическое развитие</text>
+<text x="32" y="504" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Развитие силы, гибкости, координации</text>
+<text x="32" y="522" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Формирование правильной осанки</text>
+<text x="32" y="540" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Укрепление мышечного корсета</text><rect x="410" y="460" width="370" height="90" fill="#FFFFFF" stroke="#EF4444" stroke-width="2" rx="8"/>
+<rect x="410" y="460" width="370" height="28" fill="#EF4444" rx="8"/>
+<rect x="410" y="480" width="370" height="8" fill="#EF4444"/>
+<text x="595" y="479" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Психическое развитие</text>
+<text x="422" y="504" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Воспитание дисциплины и смелости</text>
+<text x="422" y="522" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Развитие самоконтроля</text>
+<text x="422" y="540" font-family="Arial, sans-serif" font-size="12" fill="#1E293B">• Формирование эстетического вкуса</text>
+  <rect x="0" y="568" width="800" height="32" fill="#16A34A"/>
+  <text x="400" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">8 класс | Физкультура/ОБЖ | Урок 1</text></svg>

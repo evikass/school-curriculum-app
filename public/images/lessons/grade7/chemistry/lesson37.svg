@@ -1,66 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
   <defs>
-    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
-      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#94a3b8" flood-opacity="0.25"/>
-    </filter>
-      <marker id="arrowhead-ef4444" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#ef4444"/>
-    </marker>
-</defs>
-  <!-- Background -->
-  <rect width="800" height="500" rx="12" fill="#f8fafc" filter="url(#shadow)"/>
-  <rect x="0" y="0" width="800" height="6" rx="3" fill="#ef4444"/>
-  <text x="400" y="42" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#dc2626">Кислоты</text>
-  <rect x="310" y="58" width="180" height="45" rx="10" fill="#ef4444"/>
-  <text x="400" y="89" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#ffffff">H<tspan baseline-shift="super" font-size="75%">+</tspan></text>
-  <rect x="20" y="115" width="375" height="130" rx="10" fill="#fef2f2" stroke="#f87171" stroke-width="1.5"/>
-  <rect x="20" y="115" width="375" height="34" rx="10" fill="#dc2626"/>
-  <rect x="20" y="139" width="375" height="10" fill="#dc2626"/>
-  <text x="207" y="138" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#ffffff">Бескислородные кислоты</text>
-  <rect x="35" y="160" width="165" height="55" rx="10" fill="#ffffff" stroke="#fca5a5" stroke-width="1.5"/>
-  <text x="117" y="182" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#991b1b">HCl</text>
-  <text x="117" y="203" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#dc2626">соляная кислота</text>
-  <rect x="215" y="160" width="165" height="55" rx="10" fill="#ffffff" stroke="#fca5a5" stroke-width="1.5"/>
-  <text x="297" y="182" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#991b1b">H<tspan baseline-shift="sub" font-size="75%">₂</tspan>S</text>
-  <text x="297" y="203" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#dc2626">сероводородная</text>
-  <text x="207" y="237" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#b91c1c">Формула: H + неметалл</text>
-  <rect x="405" y="115" width="375" height="130" rx="10" fill="#fff7ed" stroke="#fb923c" stroke-width="1.5"/>
-  <rect x="405" y="115" width="375" height="34" rx="10" fill="#ea580c"/>
-  <rect x="405" y="139" width="375" height="10" fill="#ea580c"/>
-  <text x="592" y="138" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#ffffff">Кислородсодержащие кислоты</text>
-  <rect x="415" y="160" width="115" height="55" rx="10" fill="#ffffff" stroke="#fdba74" stroke-width="1.5"/>
-  <text x="472" y="182" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#9a3412">H<tspan baseline-shift="sub" font-size="75%">₂</tspan>SO<tspan baseline-shift="sub" font-size="75%">₄</tspan></text>
-  <text x="472" y="203" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#ea580c">серная</text>
-  <rect x="540" y="160" width="115" height="55" rx="10" fill="#ffffff" stroke="#fdba74" stroke-width="1.5"/>
-  <text x="597" y="182" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#9a3412">HNO<tspan baseline-shift="sub" font-size="75%">₃</tspan></text>
-  <text x="597" y="203" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#ea580c">азотная</text>
-  <rect x="665" y="160" width="105" height="55" rx="10" fill="#ffffff" stroke="#fdba74" stroke-width="1.5"/>
-  <text x="717" y="182" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#9a3412">H<tspan baseline-shift="sub" font-size="75%">₃</tspan>PO<tspan baseline-shift="sub" font-size="75%">₄</tspan></text>
-  <text x="717" y="203" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#ea580c">фосфорная</text>
-  <text x="592" y="237" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#c2410c">Формула: H + кисл. остаток + O</text>
-  <rect x="20" y="260" width="300" height="105" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/>
-  <text x="170" y="285" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#92400e">Индикаторы на кислоты</text>
-  <rect x="30" y="298" width="130" height="50" rx="10" fill="#fee2e2" stroke="#f87171" stroke-width="1.5"/>
-  <text x="95" y="318" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#991b1b">Лакмус</text>
-  <text x="95" y="338" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#dc2626">→ КРАСНЫЙ</text>
-  <rect x="170" y="298" width="140" height="50" rx="10" fill="#f5f5f4" stroke="#a8a29e" stroke-width="1.5"/>
-  <text x="240" y="318" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#57534e">Фенолфталеин</text>
-  <text x="240" y="340" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#78716c">→ БЕСЦВЕТНЫЙ</text>
-  <rect x="340" y="260" width="440" height="105" rx="10" fill="#fef2f2" stroke="#ef4444" stroke-width="1.5"/>
-  <text x="560" y="285" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#dc2626">Кислота + Металл → Соль + Водород</text>
-  <rect x="355" y="298" width="195" height="50" rx="10" fill="#e0f2fe" stroke="#38bdf8" stroke-width="1.5"/>
-  <text x="452" y="320" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#0369a1">Zn + 2HCl →</text>
-  <text x="452" y="340" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#0369a1">ZnCl<tspan baseline-shift="sub" font-size="75%">₂</tspan> + H<tspan baseline-shift="sub" font-size="75%">₂</tspan>↑</text>
-  <rect x="565" y="298" width="200" height="50" rx="10" fill="#fef9c3" stroke="#eab308" stroke-width="1.5"/>
-  <text x="665" y="320" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#854d0e">Fe + H<tspan baseline-shift="sub" font-size="75%">₂</tspan>SO<tspan baseline-shift="sub" font-size="75%">₄</tspan> →</text>
-  <text x="665" y="340" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#854d0e">FeSO<tspan baseline-shift="sub" font-size="75%">₄</tspan> + H<tspan baseline-shift="sub" font-size="75%">₂</tspan>↑</text>
-  <rect x="20" y="380" width="760" height="100" rx="10" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.5"/>
-  <text x="400" y="405" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#dc2626">Общие свойства кислот</text>
-  <circle cx="55" cy="416" r="5" fill="#ef4444"/>
-  <text x="70" y="420" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#991b1b">Кислота + Металл → Соль + H₂↑</text>
-  <circle cx="55" cy="438" r="5" fill="#ef4444"/>
-  <text x="70" y="442" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#991b1b">Кислота + Основный оксид → Соль + H₂O</text>
-  <circle cx="55" cy="460" r="5" fill="#ef4444"/>
-  <text x="70" y="464" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#991b1b">Кислота + Основание → Соль + H₂O (нейтрализация)</text>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E0F2F1"/>
+      <stop offset="100%" stop-color="#B2DFDB"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#00796B" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#00796B" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#00796B" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#009688" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#26A69A" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#4DB6AC" opacity="0.08"/>
+  <circle cx="70" cy="15" r="4" fill="#00796B" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#009688" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#26A69A" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#00796B" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#009688" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#26A69A" opacity="0.1"/>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#00796B" text-anchor="middle">Урок 37</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Химия - Урок 37</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#00796B" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#00796B" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+  <rect x="25" y="90" width="120" height="100" rx="6" fill="white" stroke="#00796B" stroke-width="1.5"/>
+  <rect x="55" y="100" width="60" height="50" rx="4" fill="#00796B" opacity="0.1"/>
+  <text x="85" y="130" font-family="Arial" font-size="24" fill="#00796B" text-anchor="middle" font-weight="bold">Ca</text>
+  <text x="85" y="155" font-family="Arial" font-size="10" fill="#555" text-anchor="middle">Кальций</text>
+  <text x="85" y="175" font-family="Arial" font-size="14" fill="#00796B" text-anchor="middle" font-weight="bold">20</text>
+  <rect x="155" y="90" width="120" height="100" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5"/>
+  <rect x="185" y="100" width="60" height="50" rx="4" fill="#1565C0" opacity="0.1"/>
+  <text x="215" y="130" font-family="Arial" font-size="24" fill="#1565C0" text-anchor="middle" font-weight="bold">Cl</text>
+  <text x="215" y="155" font-family="Arial" font-size="10" fill="#555" text-anchor="middle">Хлор</text>
+  <text x="215" y="175" font-family="Arial" font-size="14" fill="#1565C0" text-anchor="middle" font-weight="bold">17</text>
+  <rect x="285" y="90" width="190" height="100" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
+  <text x="380" y="110" font-family="Arial" font-size="10" fill="#2E7D32" text-anchor="middle" font-weight="bold">Периодическая система</text>
+  <text x="380" y="132" font-family="Arial" font-size="9" fill="#555" text-anchor="middle">Д.И. Менделеев (1869)</text>
+  <text x="380" y="150" font-family="Arial" font-size="9" fill="#555" text-anchor="middle">37 периодов</text>
+  <text x="380" y="168" font-family="Arial" font-size="9" fill="#555" text-anchor="middle">39 групп</text>
+    <rect x="25" y="200" width="450" height="95" rx="6" fill="white" stroke="#F9A825" stroke-width="1.5"/>
+  <text x="250" y="216" font-family="Arial,sans-serif" font-size="10" fill="#F9A825" text-anchor="middle" font-weight="bold">Химические реакции</text>
+  <line x1="33" y1="220" x2="467" y2="220" stroke="#E0E0E0" stroke-width="1"/>
+  <text x="250" y="235" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Реагенты -&gt; Продукты</text>
+  <text x="250" y="251" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Сохранение массы (Ломоносов)</text>
+  <text x="250" y="267" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Экзотермические (выделяют тепло)</text>
+
+  <rect x="15" y="310" width="470" height="30" rx="4" fill="#00796B" opacity="0.85"/>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Химия - Урок 37</text>
+  <polygon points="450,110 460,115 460,125 450,130 440,125 440,115" fill="none" stroke="#00796B" stroke-width="1" opacity="0.12"/>
+  <polygon points="468,125 478,130 478,140 468,145 458,140 458,130" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.1"/>
 </svg>

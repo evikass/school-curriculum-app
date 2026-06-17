@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <style>@keyframes twinkle{0%,100%{opacity:0.6}50%{opacity:1}}.tk{animation:twinkle 2.5s ease-in-out infinite}</style>
+  <rect width="500" height="350" fill="#F3E5F5"/>
+  <text x="250" y="24" text-anchor="middle" font-size="16" font-family="sans-serif" fill="#4A148C" font-weight="bold">Портрет</text>
+  <!-- Wall -->
+  <rect x="0" y="30" width="500" height="320" fill="#EFEBE9"/>
+  <!-- Wallpaper pattern -->
+  <circle cx="50" cy="80" r="3" fill="#D7CCC8" opacity="0.5"/>
+  <circle cx="150" cy="80" r="3" fill="#D7CCC8" opacity="0.5"/>
+  <circle cx="250" cy="80" r="3" fill="#D7CCC8" opacity="0.5"/>
+  <circle cx="350" cy="80" r="3" fill="#D7CCC8" opacity="0.5"/>
+  <circle cx="450" cy="80" r="3" fill="#D7CCC8" opacity="0.5"/>
+  <circle cx="100" cy="130" r="3" fill="#D7CCC8" opacity="0.5"/>
+  <circle cx="200" cy="130" r="3" fill="#D7CCC8" opacity="0.5"/>
+  <circle cx="300" cy="130" r="3" fill="#D7CCC8" opacity="0.5"/>
+  <circle cx="400" cy="130" r="3" fill="#D7CCC8" opacity="0.5"/>
+  <!-- Frame -->
+  <rect x="120" y="50" width="260" height="270" rx="5" fill="#8D6E63" stroke="#5D4037" stroke-width="4"/>
+  <rect x="132" y="62" width="236" height="246" rx="2" fill="#6D4C41"/>
+  <rect x="138" y="68" width="224" height="234" rx="1" fill="#FFF8E1"/>
+  <!-- Canvas texture -->
+  <rect x="138" y="68" width="224" height="234" fill="#FFFDE7" opacity="0.5"/>
+  <!-- Face -->
+  <ellipse cx="250" cy="170" rx="65" ry="80" fill="#FFCC80"/>
+  <!-- Hair -->
+  <path d="M185,155 Q185,90 250,85 Q315,90 315,155 Q310,120 280,110 Q250,105 220,110 Q190,120 185,155Z" fill="#5D4037"/>
+  <path d="M185,155 Q180,130 190,110" fill="none" stroke="#4E342E" stroke-width="3"/>
+  <path d="M315,155 Q320,130 310,110" fill="none" stroke="#4E342E" stroke-width="3"/>
+  <!-- Ears -->
+  <ellipse cx="186" cy="175" rx="8" ry="14" fill="#FFB74D"/>
+  <ellipse cx="314" cy="175" rx="8" ry="14" fill="#FFB74D"/>
+  <!-- Eyes -->
+  <ellipse cx="228" cy="168" rx="12" ry="9" fill="white" stroke="#5D4037" stroke-width="1"/>
+  <ellipse cx="272" cy="168" rx="12" ry="9" fill="white" stroke="#5D4037" stroke-width="1"/>
+  <circle cx="230" cy="168" r="5" fill="#4E342E"/>
+  <circle cx="274" cy="168" r="5" fill="#4E342E"/>
+  <circle cx="231" cy="166" r="2" fill="white"/>
+  <circle cx="275" cy="166" r="2" fill="white"/>
+  <!-- Eyebrows -->
+  <path d="M215,155 Q228,148 242,155" fill="none" stroke="#4E342E" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M258,155 Q272,148 285,155" fill="none" stroke="#4E342E" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Nose -->
+  <path d="M250,175 Q244,192 248,196 Q250,198 252,196 Q256,192 250,175" fill="none" stroke="#D7A86E" stroke-width="2" stroke-linecap="round"/>
+  <!-- Smile -->
+  <path d="M232,210 Q250,225 268,210" fill="none" stroke="#C62828" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Cheeks -->
+  <circle cx="218" cy="200" r="10" fill="#FF8A80" opacity="0.35"/>
+  <circle cx="282" cy="200" r="10" fill="#FF8A80" opacity="0.35"/>
+  <!-- Neck -->
+  <rect x="237" y="248" width="26" height="30" fill="#FFCC80"/>
+  <!-- Shoulders/clothes -->
+  <path d="M200,278 Q220,265 250,262 Q280,265 300,278 L310,302 L190,302Z" fill="#1E88E5"/>
+  <path d="M240,262 L250,280 L260,262" fill="none" stroke="#1565C0" stroke-width="2"/>
+  <!-- Collar detail -->
+  <ellipse cx="250" cy="268" rx="8" ry="4" fill="#BBDEFB"/>
+  <!-- Sparkle on frame -->
+  <g class="tk">
+    <polygon points="135,55 137,60 142,60 138,63 140,68 135,65 130,68 132,63 128,60 133,60" fill="#FFD54F" opacity="0.7"/>
+  </g>
+</svg>

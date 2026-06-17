@@ -1,147 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
-  <defs>
-    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0f172a"/>
-      <stop offset="100%" style="stop-color:#1e293b"/>
-    </linearGradient>
-    <linearGradient id="flask1" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:0.3"/>
-      <stop offset="100%" style="stop-color:#059669;stop-opacity:0.7"/>
-    </linearGradient>
-    <linearGradient id="liquid1" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#10b981"/>
-      <stop offset="100%" style="stop-color:#059669"/>
-    </linearGradient>
-    <filter id="glow1">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <marker id="arrowHead1" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#0d9488"/>
-    </marker>
-  </defs>
-  <!-- Background -->
-  <rect width="800" height="500" fill="url(#bg1)" rx="12"/>
-  <!-- Title -->
-  <text x="400" y="45" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#e2e8f0" text-anchor="middle">Скорость химических реакций</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E0F2F1"/><stop offset="100%" stop-color="#B2DFDB"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#00796B" stroke-width="3"/>
+<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#00796B" stroke-width="1" opacity="0.3"/>
+<polygon points="10,10 30,10 10,30" fill="#00796B" opacity="0.08"/>
+<polygon points="490,10 470,10 490,30" fill="#009688" opacity="0.08"/>
+<polygon points="10,340 30,340 10,320" fill="#26A69A" opacity="0.08"/>
+<polygon points="490,340 470,340 490,320" fill="#4DB6AC" opacity="0.08"/>
+<circle cx="70" cy="15" r="4" fill="#00796B" opacity="0.1"/>
+<circle cx="82" cy="15" r="4" fill="#009688" opacity="0.1"/>
+<circle cx="94" cy="15" r="4" fill="#26A69A" opacity="0.1"/>
+<circle cx="406" cy="15" r="4" fill="#00796B" opacity="0.1"/>
+<circle cx="418" cy="15" r="4" fill="#009688" opacity="0.1"/>
+<circle cx="430" cy="15" r="4" fill="#26A69A" opacity="0.1"/>
+<text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#00796B" text-anchor="middle">Кислоты и основания</text>
+<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Химия - Урок 8</text>
+<line x1="30" y1="78" x2="470" y2="78" stroke="#00796B" stroke-width="2" opacity="0.25"/>
+<rect x="30" y="75" width="60" height="6" fill="#00796B" opacity="0.15" rx="1"/>
+<rect x="410" y="75" width="60" height="6" fill="#009688" opacity="0.12" rx="1"/>
 
-  <!-- Speed formula -->
-  <g transform="translate(250, 70)">
-    <rect x="0" y="0" width="300" height="60" rx="8" fill="#0f172a" stroke="#14b8a6" stroke-width="1.5"/>
-    <text x="150" y="25" font-family="Arial, sans-serif" font-size="14" fill="#e2e8f0" text-anchor="middle">v = DC / Dt</text>
-    <text x="150" y="48" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Изменение концентрации за время</text>
-  </g>
+  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5"/>
+  <text x="135" y="115" font-family="Arial,sans-serif" font-size="13" fill="#1565C0" text-anchor="middle" font-weight="bold">Кислоты и основания</text>
+  <!-- Atom model -->
+  <circle cx="135" cy="195" r="45" fill="none" stroke="#90CAF9" stroke-width="1" stroke-dasharray="3,2"/>
+  <circle cx="135" cy="195" r="30" fill="none" stroke="#90CAF9" stroke-width="1" stroke-dasharray="3,2"/>
+  <circle cx="135" cy="195" r="15" fill="none" stroke="#1565C0" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <circle cx="135" cy="195" r="6" fill="#00796B"/>
+  <text x="135" y="198" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle">p+</text>
+  <!-- Electrons -->
+  <circle cx="170" cy="185" r="3" fill="#1565C0"/>
+  <circle cx="110" cy="175" r="3" fill="#1565C0"/>
+  <circle cx="135" cy="160" r="3" fill="#1565C0"/>
+  <circle cx="155" cy="215" r="3" fill="#1565C0"/>
+  <text x="135" y="260" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">модель атома</text>
+  <text x="135" y="275" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">электроны, протоны, нейтроны</text>
 
-  <!-- Four factors -->
-  <!-- Factor 1: Temperature -->
-  <g transform="translate(20, 160)">
-    <rect x="0" y="0" width="180" height="160" rx="8" fill="#0f172a" stroke="#ef4444" stroke-width="1.5" opacity="0.7"/>
-    <text x="90" y="25" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#ef4444" text-anchor="middle">Температура</text>
-
-    <!-- Thermometer -->
-    <g transform="translate(60, 40)">
-      <rect x="10" y="0" width="12" height="60" rx="6" fill="none" stroke="#ef4444" stroke-width="1.5"/>
-      <circle cx="16" cy="65" r="12" fill="#ef4444" opacity="0.4" stroke="#ef4444" stroke-width="1.5"/>
-      <rect x="12" y="20" width="8" height="40" rx="4" fill="#ef4444" opacity="0.6"/>
-      <!-- Arrow up -->
-      <path d="M16,-5 L12,0 L20,0 Z" fill="#ef4444"/>
-    </g>
-    <text x="90" y="130" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">+10C = скорость</text>
-    <text x="90" y="145" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">x 2-3 раза</text>
-  </g>
-
-  <!-- Factor 2: Concentration -->
-  <g transform="translate(210, 160)">
-    <rect x="0" y="0" width="180" height="160" rx="8" fill="#0f172a" stroke="#3b82f6" stroke-width="1.5" opacity="0.7"/>
-    <text x="90" y="25" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#60a5fa" text-anchor="middle">Концентрация</text>
-
-    <!-- Beakers with different concentrations -->
-    <g transform="translate(20, 40)">
-      <!-- Dilute -->
-      <rect x="0" y="0" width="35" height="50" rx="3" fill="none" stroke="#3b82f6" stroke-width="1.5"/>
-      <rect x="2" y="25" width="31" height="23" rx="2" fill="#3b82f6" opacity="0.2"/>
-      <circle cx="12" cy="35" r="4" fill="#3b82f6" opacity="0.3"/>
-      <circle cx="25" cy="30" r="4" fill="#3b82f6" opacity="0.3"/>
-      <text x="17" y="65" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8" text-anchor="middle">Слабая</text>
-
-      <!-- Concentrated -->
-      <rect x="50" y="0" width="35" height="50" rx="3" fill="none" stroke="#3b82f6" stroke-width="1.5"/>
-      <rect x="52" y="10" width="31" height="38" rx="2" fill="#3b82f6" opacity="0.4"/>
-      <circle cx="62" cy="20" r="4" fill="#3b82f6" opacity="0.6"/>
-      <circle cx="75" cy="25" r="4" fill="#3b82f6" opacity="0.6"/>
-      <circle cx="67" cy="35" r="4" fill="#3b82f6" opacity="0.6"/>
-      <circle cx="78" cy="15" r="4" fill="#3b82f6" opacity="0.6"/>
-      <circle cx="58" cy="30" r="4" fill="#3b82f6" opacity="0.6"/>
-      <text x="67" y="65" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8" text-anchor="middle">Сильная</text>
-
-      <!-- Arrow between -->
-      <path d="M40,25 L45,25" stroke="#14b8a6" stroke-width="2" marker-end="url(#arrowHead1)"/>
-    </g>
-    <text x="90" y="130" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Больше частиц =</text>
-    <text x="90" y="145" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">чаще столкновения</text>
-  </g>
-
-  <!-- Factor 3: Surface area -->
-  <g transform="translate(400, 160)">
-    <rect x="0" y="0" width="180" height="160" rx="8" fill="#0f172a" stroke="#10b981" stroke-width="1.5" opacity="0.7"/>
-    <text x="90" y="25" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#14b8a6" text-anchor="middle">Площадь поверхности</text>
-
-    <!-- Whole vs powder -->
-    <g transform="translate(15, 40)">
-      <rect x="0" y="5" width="30" height="30" rx="3" fill="#10b981" opacity="0.4" stroke="#10b981" stroke-width="1.5"/>
-      <text x="15" y="50" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8" text-anchor="middle">Цельный</text>
-
-      <!-- Powder -->
-      <rect x="50" y="0" width="40" height="40" rx="3" fill="none" stroke="#10b981" stroke-width="1" stroke-dasharray="3,3"/>
-      <circle cx="60" cy="10" r="4" fill="#10b981" opacity="0.5"/>
-      <circle cx="75" cy="15" r="4" fill="#10b981" opacity="0.5"/>
-      <circle cx="65" cy="25" r="4" fill="#10b981" opacity="0.5"/>
-      <circle cx="80" cy="28" r="4" fill="#10b981" opacity="0.5"/>
-      <circle cx="55" cy="35" r="4" fill="#10b981" opacity="0.5"/>
-      <circle cx="70" cy="35" r="4" fill="#10b981" opacity="0.5"/>
-      <circle cx="85" cy="38" r="4" fill="#10b981" opacity="0.5"/>
-      <text x="70" y="55" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8" text-anchor="middle">Порошок</text>
-    </g>
-    <text x="90" y="130" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Дробление</text>
-    <text x="90" y="145" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">увеличивает скорость</text>
-  </g>
-
-  <!-- Factor 4: Catalyst -->
-  <g transform="translate(590, 160)">
-    <rect x="0" y="0" width="180" height="160" rx="8" fill="#0f172a" stroke="#a855f7" stroke-width="1.5" opacity="0.7"/>
-    <text x="90" y="25" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#c084fc" text-anchor="middle">Катализатор</text>
-
-    <!-- Energy diagram -->
-    <g transform="translate(20, 40)">
-      <!-- Without catalyst -->
-      <path d="M0,60 L20,10 L60,10 L80,70" fill="none" stroke="#ef4444" stroke-width="2"/>
-      <text x="40" y="5" font-family="Arial, sans-serif" font-size="8" fill="#ef4444" text-anchor="middle">Без кат.</text>
-      <!-- With catalyst -->
-      <path d="M100,60 L115,30 L145,30 L160,70" fill="none" stroke="#a855f7" stroke-width="2"/>
-      <text x="130" y="25" font-family="Arial, sans-serif" font-size="8" fill="#a855f7" text-anchor="middle">С кат.</text>
-      <!-- Energy barrier arrows -->
-      <line x1="20" y1="60" x2="20" y2="10" stroke="#ef4444" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
-      <line x1="115" y1="60" x2="115" y2="30" stroke="#a855f7" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
-    </g>
-    <text x="90" y="130" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Снижает энергию</text>
-    <text x="90" y="145" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">активации</text>
-  </g>
-
-  <!-- Van't Hoff rule -->
-  <g transform="translate(50, 350)">
-    <rect x="0" y="0" width="700" height="100" rx="8" fill="#0f172a" stroke="#f59e0b" stroke-width="1.5" opacity="0.7"/>
-    <text x="350" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fbbf24" text-anchor="middle">Правило Вант-Гоффа</text>
-    <text x="350" y="50" font-family="Arial, sans-serif" font-size="16" fill="#e2e8f0" text-anchor="middle">При повышении температуры на 10C скорость увеличивается в 2-3 раза</text>
-    <text x="350" y="75" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6" text-anchor="middle">v2/v1 = g^((t2-t1)/10)</text>
-    <text x="350" y="95" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">g — температурный коэффициент (2-3)</text>
-  </g>
-  <!-- Decorative corner elements -->
-  <circle cx="30" cy="30" r="4" fill="#0d9488" opacity="0.3"/>
-  <circle cx="770" cy="30" r="4" fill="#0d9488" opacity="0.3"/>
-  <circle cx="30" cy="470" r="4" fill="#0d9488" opacity="0.3"/>
-  <circle cx="770" cy="470" r="4" fill="#0d9488" opacity="0.3"/>
+  <rect x="260" y="90" width="215" height="200" rx="6" fill="white" stroke="#00796B" stroke-width="1.5"/>
+  <text x="367" y="115" font-family="Arial,sans-serif" font-size="12" fill="#00796B" text-anchor="middle" font-weight="bold">Химические формулы</text>
+  <!-- Flask -->
+  <path d="M345,160 L340,200 Q340,210 350,210 L384,210 Q394,210 394,200 L389,160 Z" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
+  <rect x="348" y="145" width="38" height="18" rx="3" fill="none" stroke="#1565C0" stroke-width="1.5"/>
+  <line x1="355" y1="145" x2="355" y2="137" stroke="#888" stroke-width="1.5"/>
+  <line x1="379" y1="145" x2="379" y2="137" stroke="#888" stroke-width="1.5"/>
+  <line x1="355" y1="137" x2="379" y2="137" stroke="#888" stroke-width="1.5"/>
+  <!-- Liquid -->
+  <path d="M342,185 L340,200 Q340,210 350,210 L384,210 Q394,210 394,200 L392,185 Z" fill="#81D4FA" opacity="0.5"/>
+  <!-- Bubbles -->
+  <circle cx="360" cy="195" r="3" fill="none" stroke="#1565C0" stroke-width="0.8"/>
+  <circle cx="375" cy="190" r="2" fill="none" stroke="#1565C0" stroke-width="0.8"/>
+  <circle cx="365" cy="180" r="2" fill="none" stroke="#1565C0" stroke-width="0.8"/>
+  <!-- Test tube -->
+  <rect x="415" y="150" width="10" height="55" rx="5" fill="#FFECB3" stroke="#F9A825" stroke-width="1"/>
+  <path d="M415,195 L425,195 L425,205 Q425,210 420,210 Q415,210 415,205 Z" fill="#FFCC80"/>
+  <!-- Equations -->
+  <text x="367" y="240" font-family="Arial,sans-serif" font-size="9" fill="#00796B" text-anchor="middle">H2 + O2 = H2O</text>
+  <text x="367" y="258" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle">Na + Cl = NaCl</text>
+  <text x="367" y="276" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle">C + O2 = CO2</text>
+<rect x="15" y="310" width="470" height="30" rx="4" fill="#00796B" opacity="0.85"/>
+<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Химия</text>
+  <polygon points="450,110 460,115 460,125 450,130 440,125 440,115" fill="none" stroke="#00796B" stroke-width="1" opacity="0.12"/>
+  <polygon points="468,125 478,130 478,140 468,145 458,140 458,130" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.1"/>
 </svg>

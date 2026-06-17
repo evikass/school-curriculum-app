@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" rx="12" fill="#1b2838"/>
+  <rect x="4" y="4" width="492" height="342" rx="10" fill="none" stroke="#76ff03" stroke-width="1.5"/>
+  <text x="250" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#fff">Музыкальные инструменты</text>
+  <!-- Piano -->
+  <rect x="30" y="140" width="100" height="70" rx="4" fill="#263238" stroke="#455a64" stroke-width="2"/>
+  <g fill="#eceff1" stroke="#90a4ae" stroke-width="0.5">
+    <rect x="35" y="145" width="12" height="30" rx="1"/><rect x="50" y="145" width="12" height="30" rx="1"/>
+    <rect x="65" y="145" width="12" height="30" rx="1"/><rect x="80" y="145" width="12" height="30" rx="1"/>
+    <rect x="95" y="145" width="12" height="30" rx="1"/><rect x="110" y="145" width="12" height="30" rx="1"/>
+  </g>
+  <g fill="#263238"><rect x="44" y="145" width="8" height="18" rx="1"/><rect x="59" y="145" width="8" height="18" rx="1"/>
+    <rect x="89" y="145" width="8" height="18" rx="1"/><rect x="104" y="145" width="8" height="18" rx="1"/></g>
+  <rect x="38" y="210" width="6" height="25" rx="1" fill="#455a64"/>
+  <rect x="116" y="210" width="6" height="25" rx="1" fill="#455a64"/>
+  <text x="80" y="255" text-anchor="middle" font-size="10" fill="#eceff1">Пианино</text>
+  <!-- Guitar -->
+  <ellipse cx="240" cy="200" rx="30" ry="38" fill="#e65100"/>
+  <ellipse cx="240" cy="188" rx="24" ry="20" fill="#ff8f00"/>
+  <circle cx="240" cy="200" r="8" fill="#3e2723"/>
+  <rect x="236" y="120" width="8" height="62" rx="2" fill="#5d4037"/>
+  <rect x="230" y="110" width="20" height="12" rx="3" fill="#4e342e"/>
+  <g stroke="#ffcc80" stroke-width="0.5"><line x1="238" y1="130" x2="238" y2="230"/><line x1="240" y1="130" x2="240" y2="230"/><line x1="242" y1="130" x2="242" y2="230"/></g>
+  <text x="240" y="255" text-anchor="middle" font-size="10" fill="#ff8f00">Гитара</text>
+  <!-- Violin -->
+  <path d="M380,150 Q370,165 375,180 Q380,195 370,210 Q365,220 380,230 Q395,220 390,210 Q380,195 385,180 Q390,165 380,150Z" fill="#d84315" stroke="#bf360c" stroke-width="1.5"/>
+  <rect x="377" y="110" width="6" height="42" rx="1" fill="#4e342e"/>
+  <path d="M375,100 Q380,95 385,100 L383,110 L377,110Z" fill="#3e2723"/>
+  <path d="M372,175 Q369,185 372,195" stroke="#3e2723" stroke-width="1.5" fill="none"/>
+  <path d="M388,175 Q391,185 388,195" stroke="#3e2723" stroke-width="1.5" fill="none"/>
+  <path d="M395,120 Q410,180 400,240" stroke="#8d6e63" stroke-width="1.5" fill="none"/>
+  <text x="380" y="260" text-anchor="middle" font-size="10" fill="#ff8f00">Скрипка</text>
+  <!-- Drum -->
+  <ellipse cx="450" cy="275" rx="28" ry="10" fill="#c62828"/>
+  <rect x="422" y="255" width="56" height="20" rx="1" fill="#e53935"/>
+  <ellipse cx="450" cy="255" rx="28" ry="10" fill="#ef5350"/>
+  <line x1="432" y1="245" x2="420" y2="230" stroke="#deb887" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="468" y1="245" x2="480" y2="230" stroke="#deb887" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="450" y="300" text-anchor="middle" font-size="10" fill="#ef5350">Барабан</text>
+  <!-- Floating notes -->
+  <g fill="#76ff03"><ellipse cx="155" cy="95" rx="6" ry="5" transform="rotate(-15,155,95)"/>
+    <line x1="161" y1="95" x2="161" y2="72" stroke="#76ff03" stroke-width="1.5"/>
+    <ellipse cx="310" cy="85" rx="6" ry="5" transform="rotate(-10,310,85)"/>
+    <line x1="316" y1="85" x2="316" y2="62" stroke="#76ff03" stroke-width="1.5"/></g>
+</svg>

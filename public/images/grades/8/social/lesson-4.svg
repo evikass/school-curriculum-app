@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="100%" stop-color="#FFF7ED" />
+    </linearGradient>
+    <marker id="arrowAmber" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#D97706" />
+    </marker>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect width="800" height="6" fill="#F59E0B" />
+  <rect x="0" y="6" width="800" height="70" fill="#D97706" />
+  <rect x="20" y="16" width="44" height="44" rx="10" fill="#92400E" />
+  <text x="42" y="47" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">4</text>
+  <text x="78" y="38" fill="#FFFFFF" font-size="20" font-weight="bold" font-family="Arial, sans-serif">Государство и экономика</text>
+  <text x="78" y="58" fill="#FEF3C7" font-size="13" font-family="Arial, sans-serif">Рыночное регулирование, налоги, бюджет, ВВП</text>
+  <rect x="17" y="92" width="385" height="195" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="90" width="385" height="195" rx="8" fill="#FFFFFF" stroke="#D97706" stroke-width="1.5" />
+  <rect x="15" y="90" width="385" height="26" rx="8" fill="#D97706" />
+  <rect x="15" y="108" width="385" height="8" fill="#D97706" />
+  <text x="207" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Роль государства в экономике</text>
+  <rect x="130" y="115" width="140" height="35" rx="8" fill="#92400E" stroke="#92400E" stroke-width="2" />
+  <text x="200" y="137" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">ГОСУДАРСТВО</text>
+  <rect x="5" y="190" width="100" height="40" rx="6" fill="#3B82F6" stroke="#3B82F6" stroke-width="2" />
+  <text x="55" y="207" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Правовое</text>
+  <text x="55" y="221" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="Arial, sans-serif">регулирование</text>
+  <line x1="200" y1="150" x2="55" y2="190" stroke="#3B82F6" stroke-width="2" />
+  <rect x="145" y="190" width="100" height="40" rx="6" fill="#22C55E" stroke="#22C55E" stroke-width="2" />
+  <text x="195" y="207" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Экономическая</text>
+  <text x="195" y="221" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="Arial, sans-serif">политика</text>
+  <line x1="200" y1="150" x2="195" y2="190" stroke="#22C55E" stroke-width="2" />
+  <rect x="285" y="190" width="100" height="40" rx="6" fill="#8B5CF6" stroke="#8B5CF6" stroke-width="2" />
+  <text x="335" y="207" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Социальная</text>
+  <text x="335" y="221" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="Arial, sans-serif">защита</text>
+  <line x1="200" y1="150" x2="335" y2="190" stroke="#8B5CF6" stroke-width="2" />
+  <text x="30" y="250" text-anchor="start" fill="#92400E" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Инструменты:</text>
+  <text x="30" y="268" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Налоги и субсидии</text>
+  <text x="30" y="284" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Государственные закупки</text>
+  <text x="200" y="268" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Кредитно-денежная</text>
+  <text x="215" y="284" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">политика</text>
+  <text x="30" y="300" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Антимонопольное законодательство</text>
+  <rect x="417" y="92" width="370" height="100" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="415" y="90" width="370" height="100" rx="8" fill="#FFFFFF" stroke="#EF4444" stroke-width="1.5" />
+  <rect x="415" y="90" width="370" height="26" rx="8" fill="#EF4444" />
+  <rect x="415" y="108" width="370" height="8" fill="#EF4444" />
+  <text x="600" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Налоги</text>
+  <text x="430" y="128" text-anchor="start" fill="#1C1917" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Налог — обязательный платёж в бюджет</text>
+  <text x="430" y="150" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Прямые: подоходный, на прибыль,</text>
+  <text x="445" y="166" text-anchor="start" fill="#3B82F6" font-size="11" font-weight="normal" font-family="Arial, sans-serif">на имущество</text>
+  <text x="430" y="182" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Косвенные: НДС, акцизы, тамож.</text>
+  <rect x="417" y="202" width="370" height="100" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="415" y="200" width="370" height="100" rx="8" fill="#FFFFFF" stroke="#22C55E" stroke-width="1.5" />
+  <rect x="415" y="200" width="370" height="26" rx="8" fill="#22C55E" />
+  <rect x="415" y="218" width="370" height="8" fill="#22C55E" />
+  <text x="600" y="218" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Государственный бюджет</text>
+  <rect x="425" y="232" width="160" height="50" rx="6" fill="#DCFCE7" stroke="#22C55E" stroke-width="1.5" />
+  <text x="505" y="253" text-anchor="middle" fill="#22C55E" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Доходы</text>
+  <text x="505" y="270" text-anchor="middle" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Налоги, пошлины</text>
+  <rect x="615" y="232" width="160" height="50" rx="6" fill="#FEE2E2" stroke="#EF4444" stroke-width="1.5" />
+  <text x="695" y="253" text-anchor="middle" fill="#EF4444" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Расходы</text>
+  <text x="695" y="270" text-anchor="middle" fill="#1C1917" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Оборона, соц. сфера</text>
+  <text x="600" y="296" text-anchor="middle" fill="#92400E" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Профицит (Д &gt; Р) | Дефицит (Д &lt; Р)</text>
+  <rect x="17" y="297" width="385" height="110" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="295" width="385" height="110" rx="8" fill="#FFFFFF" stroke="#3B82F6" stroke-width="1.5" />
+  <rect x="15" y="295" width="385" height="26" rx="8" fill="#3B82F6" />
+  <rect x="15" y="313" width="385" height="8" fill="#3B82F6" />
+  <text x="207" y="313" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">ВВП (Валовой внутренний продукт)</text>
+  <text x="30" y="333" text-anchor="start" fill="#1C1917" font-size="12" font-weight="bold" font-family="Arial, sans-serif">ВВП — стоимость всех конечных</text>
+  <text x="30" y="351" text-anchor="start" fill="#1C1917" font-size="12" font-weight="normal" font-family="Arial, sans-serif">товаров и услуг, произведённых</text>
+  <text x="30" y="369" text-anchor="start" fill="#92400E" font-size="12" font-weight="bold" font-family="Arial, sans-serif">в стране за год.</text>
+  <text x="30" y="393" text-anchor="start" fill="#3B82F6" font-size="14" font-weight="bold" font-family="Arial, sans-serif">ВВП = C + I + G + NX</text>
+  <text x="230" y="333" text-anchor="start" fill="#78716C" font-size="10" font-weight="normal" font-family="Arial, sans-serif">C — потребление</text>
+  <text x="230" y="348" text-anchor="start" fill="#78716C" font-size="10" font-weight="normal" font-family="Arial, sans-serif">I — инвестиции</text>
+  <text x="230" y="363" text-anchor="start" fill="#78716C" font-size="10" font-weight="normal" font-family="Arial, sans-serif">G — гос. расходы</text>
+  <text x="230" y="378" text-anchor="start" fill="#78716C" font-size="10" font-weight="normal" font-family="Arial, sans-serif">NX — чистый экспорт</text>
+  <rect x="417" y="312" width="370" height="110" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="415" y="310" width="370" height="110" rx="8" fill="#FFFFFF" stroke="#D97706" stroke-width="1.5" />
+  <rect x="415" y="310" width="370" height="26" rx="8" fill="#D97706" />
+  <rect x="415" y="328" width="370" height="8" fill="#D97706" />
+  <text x="600" y="328" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Рыночное регулирование</text>
+  <text x="430" y="348" text-anchor="start" fill="#1C1917" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Рынок: спрос, предложение, цена</text>
+  <text x="430" y="370" text-anchor="start" fill="#92400E" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Невидимая рука рынка</text>
+  <text x="430" y="388" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Конкуренция и свобода выбора</text>
+  <text x="430" y="406" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Государство компенсирует</text>
+  <text x="445" y="422" text-anchor="start" fill="#EF4444" font-size="11" font-weight="bold" font-family="Arial, sans-serif">"провалы" рынка</text>
+  <rect x="17" y="417" width="770" height="60" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="415" width="770" height="60" rx="8" fill="#FFFFFF" stroke="#D97706" stroke-width="1.5" />
+  <rect x="15" y="415" width="770" height="26" rx="8" fill="#92400E" />
+  <rect x="15" y="433" width="770" height="8" fill="#92400E" />
+  <text x="400" y="433" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Смешанная экономика</text>
+  <text x="30" y="445" text-anchor="start" fill="#1C1917" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Рыночный механизм + Государственное регулирование = Смешанная экономика</text>
+  <text x="400" y="465" text-anchor="middle" fill="#92400E" font-size="12" font-weight="normal" font-family="Arial, sans-serif">Современная модель экономического развития</text>
+  <rect x="0" y="570" width="800" height="30" fill="#92400E" />
+  <text x="400" y="590" text-anchor="middle" fill="#FEF3C7" font-size="11" font-family="Arial, sans-serif">Обществознание • 8 класс • Интернет-Школа</text>
+</svg>

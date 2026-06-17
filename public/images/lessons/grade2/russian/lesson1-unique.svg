@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#E8F5E9" rx="12"/>
+<text x="250" y="28" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#2E7D32">Имя существительное</text>
+<rect x="30" y="120" width="70" height="55" fill="#FFAB91" stroke="#D84315" stroke-width="2" rx="2"/>
+<polygon points="25,120 65,78 105,120" fill="#C62828" stroke="#8E0000" stroke-width="2"/>
+<rect x="52" y="145" width="20" height="30" fill="#6D4C41" rx="1"/>
+<rect x="38" y="135" width="12" height="12" fill="#81D4FA" rx="1"/>
+<rect x="78" y="135" width="12" height="12" fill="#81D4FA" rx="1"/>
+<rect x="42" y="198" width="46" height="14" fill="#FFF9C4" stroke="#F9A825" stroke-width="1" rx="3"/>
+<text x="65" y="209" text-anchor="middle" font-size="8" fill="#E65100" font-family="sans-serif">дом — сущ.</text>
+<rect x="140" y="152" width="12" height="48" fill="#795548" rx="2"/>
+<circle cx="146" cy="125" r="30" fill="#4CAF50" stroke="#2E7D32" stroke-width="2"/>
+<circle cx="132" cy="133" r="18" fill="#66BB6A" stroke="#388E3C" stroke-width="1.5"/>
+<rect x="118" y="215" width="56" height="14" fill="#FFF9C4" stroke="#F9A825" stroke-width="1" rx="3"/>
+<text x="146" y="226" text-anchor="middle" font-size="8" fill="#E65100" font-family="sans-serif">дерево — сущ.</text>
+<ellipse cx="250" cy="180" rx="25" ry="20" fill="#FF8A65" stroke="#BF360C" stroke-width="2"/>
+<circle cx="250" cy="158" r="16" fill="#FF8A65" stroke="#BF360C" stroke-width="2"/>
+<polygon points="240,146 245,134 249,147" fill="#FF8A65" stroke="#BF360C" stroke-width="1.5"/>
+<polygon points="251,147 255,134 260,146" fill="#FF8A65" stroke="#BF360C" stroke-width="1.5"/>
+<circle cx="245" cy="156" r="2" fill="#1B5E20"/><circle cx="255" cy="156" r="2" fill="#1B5E20"/>
+<ellipse cx="250" cy="162" rx="2.5" ry="1.5" fill="#E91E63"/>
+<rect x="222" y="215" width="56" height="14" fill="#FFF9C4" stroke="#F9A825" stroke-width="1" rx="3"/>
+<text x="250" y="226" text-anchor="middle" font-size="8" fill="#E65100" font-family="sans-serif">кошка — сущ.</text>
+<circle cx="350" cy="168" r="22" fill="#F44336" stroke="#C62828" stroke-width="2"/>
+<path d="M328,168 Q350,150 372,168" stroke="#FFEB3B" stroke-width="2.5" fill="none"/>
+<path d="M328,168 Q350,186 372,168" stroke="#FFEB3B" stroke-width="2.5" fill="none"/>
+<rect x="322" y="202" width="56" height="14" fill="#FFF9C4" stroke="#F9A825" stroke-width="1" rx="3"/>
+<text x="350" y="213" text-anchor="middle" font-size="8" fill="#E65100" font-family="sans-serif">мяч — сущ.</text>
+<rect x="425" y="138" width="42" height="50" fill="#42A5F5" stroke="#1565C0" stroke-width="2" rx="2"/>
+<line x1="446" y1="138" x2="446" y2="188" stroke="#1565C0" stroke-width="1.5"/>
+<rect x="430" y="148" width="12" height="3" fill="#E3F2FD" rx="1"/>
+<rect x="430" y="155" width="12" height="3" fill="#E3F2FD" rx="1"/>
+<rect x="397" y="202" width="56" height="14" fill="#FFF9C4" stroke="#F9A825" stroke-width="1" rx="3"/>
+<text x="425" y="213" text-anchor="middle" font-size="8" fill="#E65100" font-family="sans-serif">книга — сущ.</text>
+<ellipse cx="250" cy="260" rx="220" ry="12" fill="#A5D6A7" opacity="0.4"/>
+<text x="250" y="295" text-anchor="middle" font-size="12" fill="#2E7D32" font-family="sans-serif">Предметы — это имена существительные</text>
+</svg>

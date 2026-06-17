@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="100%" stop-color="#FFF7ED" />
+    </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F59E0B" />
+    </marker>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect width="800" height="6" fill="#F59E0B" />
+  <rect x="0" y="6" width="800" height="70" fill="#F59E0B" />
+  <rect x="20" y="16" width="44" height="44" rx="10" fill="#92400E" />
+  <text x="42" y="47" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">5</text>
+  <text x="78" y="38" fill="#FFFFFF" font-size="20" font-weight="bold" font-family="Arial, sans-serif">Электрический ток и его характеристики</text>
+  <text x="78" y="58" fill="#FEF3C7" font-size="13" font-family="Arial, sans-serif">Сила тока I = q/t, напряжение, сопротивление</text>
+  <rect x="17" y="92" width="385" height="140" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="90" width="385" height="140" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5" />
+  <rect x="15" y="90" width="385" height="26" rx="8" fill="#F59E0B" />
+  <rect x="15" y="108" width="385" height="8" fill="#F59E0B" />
+  <text x="207" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Электрический ток</text>
+  <text x="30" y="128" text-anchor="start" fill="#1C1917" font-size="14" font-weight="bold" font-family="Arial, sans-serif">Направленное движение</text>
+  <text x="30" y="148" text-anchor="start" fill="#1C1917" font-size="14" font-weight="bold" font-family="Arial, sans-serif">заряженных частиц!</text>
+  <text x="30" y="175" text-anchor="start" fill="#92400E" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Условия тока:</text>
+  <text x="30" y="195" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">• Свободные заряды</text>
+  <text x="30" y="213" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">• Электрическое поле (источник)</text>
+  <rect x="417" y="92" width="370" height="140" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="415" y="90" width="370" height="140" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5" />
+  <rect x="415" y="90" width="370" height="26" rx="8" fill="#F59E0B" />
+  <rect x="415" y="108" width="370" height="8" fill="#F59E0B" />
+  <text x="600" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Сила тока</text>
+  <text x="600" y="135" text-anchor="middle" fill="#92400E" font-size="28" font-weight="bold" font-family="Arial, sans-serif">I = q / t</text>
+  <line x1="537" y1="141" x2="663" y2="141" stroke="#F59E0B" stroke-width="2" opacity="0.4" />
+  <text x="430" y="160" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">I — сила тока [А] (Ампер)</text>
+  <text x="430" y="180" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">q — заряд [Кл] (Кулон)</text>
+  <text x="430" y="200" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">t — время [с]</text>
+  <text x="430" y="220" text-anchor="start" fill="#92400E" font-size="13" font-weight="bold" font-family="Arial, sans-serif">1 А = 1 Кл / 1 с</text>
+  <rect x="17" y="242" width="385" height="165" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="240" width="385" height="165" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5" />
+  <rect x="15" y="240" width="385" height="26" rx="8" fill="#D97706" />
+  <rect x="15" y="258" width="385" height="8" fill="#D97706" />
+  <text x="207" y="258" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Простая цепь</text>
+  <line x1="55" y1="280" x2="55" y2="350" stroke="#1C1917" stroke-width="2" />
+  <line x1="45" y1="290" x2="65" y2="290" stroke="#1C1917" stroke-width="3" />
+  <line x1="48" y1="310" x2="62" y2="310" stroke="#1C1917" stroke-width="2" />
+  <line x1="45" y1="330" x2="65" y2="330" stroke="#1C1917" stroke-width="3" />
+  <text x="35" y="272" text-anchor="start" fill="#EF4444" font-size="12" font-weight="bold" font-family="Arial, sans-serif">+</text>
+  <text x="35" y="352" text-anchor="start" fill="#3B82F6" font-size="12" font-weight="bold" font-family="Arial, sans-serif">–</text>
+  <text x="25" y="315" text-anchor="start" fill="#92400E" font-size="12" font-weight="bold" font-family="Arial, sans-serif">E</text>
+  <line x1="55" y1="280" x2="160" y2="280" stroke="#1C1917" stroke-width="2" />
+  <rect x="160" y="270" width="70" height="20" fill="none" stroke="#1C1917" stroke-width="2" rx="3" />
+  <text x="195" y="285" text-anchor="middle" fill="#1C1917" font-size="12" font-weight="bold" font-family="Arial, sans-serif">R</text>
+  <line x1="230" y1="280" x2="290" y2="280" stroke="#1C1917" stroke-width="2" />
+  <circle cx="310" cy="280" r="15" fill="none" stroke="#3B82F6" stroke-width="2" />
+  <text x="310" y="285" text-anchor="middle" fill="#3B82F6" font-size="12" font-weight="bold" font-family="Arial, sans-serif">A</text>
+  <line x1="325" y1="280" x2="355" y2="280" stroke="#1C1917" stroke-width="2" />
+  <line x1="355" y1="280" x2="355" y2="350" stroke="#1C1917" stroke-width="2" />
+  <line x1="55" y1="350" x2="355" y2="350" stroke="#1C1917" stroke-width="2" />
+  <text x="200" y="268" text-anchor="start" fill="#EF4444" font-size="11" font-weight="bold" font-family="Arial, sans-serif">I →</text>
+  <line x1="195" y1="300" x2="195" y2="330" stroke="#3B82F6" stroke-width="1" stroke-dasharray="4,4" />
+  <circle cx="195" cy="345" r="12" fill="none" stroke="#EF4444" stroke-width="2" />
+  <text x="195" y="350" text-anchor="middle" fill="#EF4444" font-size="11" font-weight="bold" font-family="Arial, sans-serif">V</text>
+  <line x1="195" y1="357" x2="195" y2="350" stroke="#3B82F6" stroke-width="1" stroke-dasharray="4,4" />
+  <rect x="417" y="242" width="370" height="100" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="415" y="240" width="370" height="100" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5" />
+  <rect x="415" y="240" width="370" height="26" rx="8" fill="#F59E0B" />
+  <rect x="415" y="258" width="370" height="8" fill="#F59E0B" />
+  <text x="600" y="258" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Напряжение</text>
+  <text x="600" y="278" text-anchor="middle" fill="#92400E" font-size="24" font-weight="bold" font-family="Arial, sans-serif">U = A / q</text>
+  <line x1="546" y1="284" x2="654" y2="284" stroke="#F59E0B" stroke-width="2" opacity="0.4" />
+  <text x="430" y="300" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">U — напряжение [В] (Вольт)</text>
+  <text x="430" y="318" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">A — работа поля, q — заряд</text>
+  <text x="430" y="335" text-anchor="start" fill="#92400E" font-size="13" font-weight="bold" font-family="Arial, sans-serif">1 В = 1 Дж / 1 Кл</text>
+  <rect x="417" y="352" width="370" height="80" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="415" y="350" width="370" height="80" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5" />
+  <rect x="415" y="350" width="370" height="26" rx="8" fill="#D97706" />
+  <rect x="415" y="368" width="370" height="8" fill="#D97706" />
+  <text x="600" y="368" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Сопротивление</text>
+  <text x="600" y="380" text-anchor="middle" fill="#92400E" font-size="22" font-weight="bold" font-family="Arial, sans-serif">R = ρ · l / S</text>
+  <line x1="529" y1="386" x2="671" y2="386" stroke="#F59E0B" stroke-width="2" opacity="0.4" />
+  <text x="430" y="400" text-anchor="start" fill="#1C1917" font-size="12" font-weight="normal" font-family="Arial, sans-serif">ρ — уд. сопротивление, l — длина</text>
+  <text x="430" y="418" text-anchor="start" fill="#1C1917" font-size="12" font-weight="normal" font-family="Arial, sans-serif">S — площадь сечения [Ом]</text>
+  <rect x="17" y="417" width="770" height="70" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="415" width="770" height="70" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5" />
+  <rect x="15" y="415" width="770" height="26" rx="8" fill="#22C55E" />
+  <rect x="15" y="433" width="770" height="8" fill="#22C55E" />
+  <text x="400" y="433" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Единицы измерения</text>
+  <text x="40" y="445" text-anchor="start" fill="#1C1917" font-size="14" font-weight="bold" font-family="Arial, sans-serif">I: Ампер [А]</text>
+  <text x="210" y="445" text-anchor="start" fill="#1C1917" font-size="14" font-weight="bold" font-family="Arial, sans-serif">U: Вольт [В]</text>
+  <text x="380" y="445" text-anchor="start" fill="#1C1917" font-size="14" font-weight="bold" font-family="Arial, sans-serif">R: Ом [Ω]</text>
+  <text x="540" y="445" text-anchor="start" fill="#1C1917" font-size="14" font-weight="bold" font-family="Arial, sans-serif">q: Кулон [Кл]</text>
+  <text x="40" y="468" text-anchor="start" fill="#3B82F6" font-size="12" font-weight="normal" font-family="Arial, sans-serif">Амперметр — последовательно</text>
+  <text x="280" y="468" text-anchor="start" fill="#EF4444" font-size="12" font-weight="normal" font-family="Arial, sans-serif">Вольтметр — параллельно</text>
+  <rect x="0" y="570" width="800" height="30" fill="#92400E" />
+  <text x="400" y="590" text-anchor="middle" fill="#FEF3C7" font-size="11" font-family="Arial, sans-serif">Физика • 8 класс • Интернет-Школа</text>
+</svg>

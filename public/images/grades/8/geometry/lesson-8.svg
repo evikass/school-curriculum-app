@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0FDFA" />
+      <stop offset="100%" stop-color="#ECFEFF" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0891B2" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#D97706" />
+      <stop offset="100%" />
+    </linearGradient>
+    <linearGradient id="panelGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#0891B2" />
+    </linearGradient>
+    <clipPath id="ill8">
+      <rect x="20" y="210" width="480" height="180" rx="8" />
+    </clipPath>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="12" />
+  <rect x="3" y="3" width="794" height="594" rx="10" fill="none" stroke="#06B6D4" stroke-width="2.5" />
+  <rect x="8" y="8" width="784" height="584" rx="8" fill="none" stroke="#06B6D4" stroke-width="1" opacity="0.2" />
+  <polygon points="12,12 42,12 12,42" fill="#06B6D4" opacity="0.08" />
+  <polygon points="788,12 758,12 788,42" fill="#06B6D4" opacity="0.08" />
+  <polygon points="12,588 42,588 12,558" fill="#06B6D4" opacity="0.08" />
+  <polygon points="788,588 758,588 788,558" fill="#06B6D4" opacity="0.08" />
+  <circle cx="740" cy="100" r="25" fill="none" stroke="#06B6D4" stroke-width="1" opacity="0.1" />
+  <polygon points="60,540 80,510 100,540" fill="none" stroke="#06B6D4" stroke-width="1" opacity="0.1" />
+  <rect x="70" y="80" width="18" height="18" fill="none" stroke="#06B6D4" stroke-width="1" opacity="0.08" transform="rotate(45, 79, 89)" />
+  <rect x="15" y="15" width="770" height="55" fill="url(#headerGrad)" rx="8" opacity="0.92" />
+  <rect x="25" y="22" width="50" height="38" fill="#FFFFFF" rx="6" opacity="0.25" />
+  <text x="50" y="49" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">8</text>
+  <text x="410" y="48" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Подобные треугольники</text>
+  <text x="760" y="35" font-family="Arial,sans-serif" font-size="10" fill="#FFFFFF" text-anchor="end" opacity="0.7">8 класс</text>
+  <text x="760" y="50" font-family="Arial,sans-serif" font-size="10" fill="#FFFFFF" text-anchor="end" opacity="0.7">Геометрия</text>
+  <line x1="20" y1="80" x2="780" y2="80" stroke="#06B6D4" stroke-width="2" opacity="0.25" />
+  <rect x="23" y="93" width="370" height="105" fill="#000000" rx="8" opacity="0.05" />
+  <rect x="20" y="90" width="370" height="105" fill="#FFFFFF" rx="8" stroke="#06B6D4" stroke-width="1.5" opacity="0.95" />
+  <rect x="20" y="90" width="370" height="24" fill="#06B6D4" rx="8" opacity="0.15" />
+  <rect x="20" y="106" width="370" height="8" fill="#06B6D4" opacity="0.15" />
+  <text x="205" y="107" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#0E7490" text-anchor="middle">Определение</text>
+  <text x="32" y="130" font-family="Arial,sans-serif" font-size="12" fill="#37474F">Подобные треугольники — треугольники,</text>
+  <text x="32" y="147" font-family="Arial,sans-serif" font-size="12" fill="#37474F">у которых углы соответственно равны,</text>
+  <text x="32" y="164" font-family="Arial,sans-serif" font-size="12" fill="#37474F">а сходственные стороны пропорциональны.</text>
+  <text x="32" y="181" font-family="Arial,sans-serif" font-size="12" fill="#37474F" />
+  <text x="32" y="198" font-family="Arial,sans-serif" font-size="12" fill="#37474F">ΔABC ~ ΔA₁B₁C₁</text>
+  <text x="32" y="215" font-family="Arial,sans-serif" font-size="12" fill="#37474F">k = A₁B₁/AB = B₁C₁/BC = A₁C₁/AC</text>
+  <rect x="413" y="93" width="370" height="105" fill="#000000" rx="8" opacity="0.05" />
+  <rect x="410" y="90" width="370" height="105" fill="#FFF7ED" rx="8" stroke="#F59E0B" stroke-width="2" opacity="0.95" />
+  <rect x="410" y="90" width="370" height="24" fill="#F59E0B" rx="8" opacity="0.2" />
+  <rect x="410" y="106" width="370" height="8" fill="#F59E0B" opacity="0.2" />
+  <text x="595" y="107" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#92400E" text-anchor="middle">Свойства подобных треугольников</text>
+  <text x="422" y="130" font-family="Arial,sans-serif" font-size="12" fill="#92400E" font-weight="bold">∠A = ∠A₁, ∠B = ∠B₁, ∠C = ∠C₁</text>
+  <text x="422" y="148" font-family="Arial,sans-serif" font-size="12" fill="#92400E" font-weight="bold">Отношение сторон: k (коэфф. подобия)</text>
+  <text x="422" y="166" font-family="Arial,sans-serif" font-size="12" fill="#92400E" font-weight="bold">Отношение площадей: S₁/S₂ = k²</text>
+  <text x="422" y="184" font-family="Arial,sans-serif" font-size="12" fill="#92400E" font-weight="bold">Отношение периметров: P₁/P₂ = k</text>
+  <text x="422" y="202" font-family="Arial,sans-serif" font-size="12" fill="#92400E" font-weight="bold">Отношение высот: h₁/h₂ = k</text>
+  <g clip-path="url(#ill8)">
+    <rect x="20" y="210" width="480" height="180" fill="#F0FDFA" opacity="0.6" />
+    <rect x="20" y="210" width="480" height="180" fill="none" rx="8" stroke="#06B6D4" stroke-width="1.5" opacity="0.4" />
+    <polygon points="80,360 220,360 120,270" fill="#06B6D4" opacity="0.1" stroke="#06B6D4" stroke-width="2.5" />
+    <polygon points="38,381 276,381 106,228" fill="#F59E0B" opacity="0.06" stroke="#F59E0B" stroke-width="2" />
+    <text x="68" y="374" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#06B6D4">A</text>
+    <text x="228" y="374" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#06B6D4">B</text>
+    <text x="110" y="265" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#06B6D4">C</text>
+    <text x="20" y="395" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#F59E0B">A₁</text>
+    <text x="284" y="395" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#F59E0B">B₁</text>
+    <text x="101" y="220" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#F59E0B">C₁</text>
+    <text x="360" y="310" font-family="Arial,sans-serif" font-size="18" fill="#0E7490" font-weight="bold">~</text>
+    <text x="360" y="330" font-family="Arial,sans-serif" font-size="14" fill="#EF4444" font-style="italic" font-weight="bold">k</text>
+  </g>
+  <rect x="513" y="213" width="270" height="180" fill="#000000" rx="8" opacity="0.05" />
+  <rect x="510" y="210" width="270" height="180" fill="#FFFFFF" rx="8" stroke="#06B6D4" stroke-width="1.5" opacity="0.95" />
+  <rect x="510" y="210" width="270" height="24" fill="#06B6D4" rx="8" opacity="0.15" />
+  <rect x="510" y="226" width="270" height="8" fill="#06B6D4" opacity="0.15" />
+  <text x="645" y="227" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#0E7490" text-anchor="middle">Признаки подобия</text>
+  <text x="522" y="250" font-family="Arial,sans-serif" font-size="12" fill="#37474F">1. По двум углам:</text>
+  <text x="522" y="267" font-family="Arial,sans-serif" font-size="12" fill="#37474F">   ∠A = ∠A₁ и ∠B = ∠B₁</text>
+  <text x="522" y="284" font-family="Arial,sans-serif" font-size="12" fill="#37474F" />
+  <text x="522" y="301" font-family="Arial,sans-serif" font-size="12" fill="#37474F">2. По двум пропорциональным</text>
+  <text x="522" y="318" font-family="Arial,sans-serif" font-size="12" fill="#37474F">   сторонам и углу между ними:</text>
+  <text x="522" y="335" font-family="Arial,sans-serif" font-size="12" fill="#37474F">   A₁B₁/AB = A₁C₁/AC, ∠A = ∠A₁</text>
+  <text x="522" y="352" font-family="Arial,sans-serif" font-size="12" fill="#37474F" />
+  <text x="522" y="369" font-family="Arial,sans-serif" font-size="12" fill="#37474F">3. По трём пропорциональным</text>
+  <text x="522" y="386" font-family="Arial,sans-serif" font-size="12" fill="#37474F">   сторонам:</text>
+  <text x="522" y="403" font-family="Arial,sans-serif" font-size="12" fill="#37474F">   A₁B₁/AB = B₁C₁/BC = A₁C₁/AC</text>
+  <rect x="23" y="408" width="760" height="80" fill="#000000" rx="8" opacity="0.05" />
+  <rect x="20" y="405" width="760" height="80" fill="#FFF7ED" rx="8" stroke="#F59E0B" stroke-width="2" opacity="0.95" />
+  <rect x="20" y="405" width="760" height="24" fill="#F59E0B" rx="8" opacity="0.2" />
+  <rect x="20" y="421" width="760" height="8" fill="#F59E0B" opacity="0.2" />
+  <text x="400" y="422" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#92400E" text-anchor="middle">Ключевые формулы</text>
+  <text x="32" y="445" font-family="Arial,sans-serif" font-size="12" fill="#92400E" font-weight="bold">S₁/S₂ = k²     |     P₁/P₂ = k     |     k = A₁B₁/AB     |     Отношение медиан, биссектрис, высот = k</text>
+  <rect x="23" y="503" width="760" height="55" fill="#000000" rx="8" opacity="0.05" />
+  <rect x="20" y="500" width="760" height="55" fill="#FFFFFF" rx="8" stroke="#06B6D4" stroke-width="1.5" opacity="0.95" />
+  <rect x="20" y="500" width="760" height="24" fill="#06B6D4" rx="8" opacity="0.15" />
+  <rect x="20" y="516" width="760" height="8" fill="#06B6D4" opacity="0.15" />
+  <text x="400" y="517" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#0E7490" text-anchor="middle">Применение</text>
+  <text x="32" y="540" font-family="Arial,sans-serif" font-size="12" fill="#37474F">• Нахождение неизвестных сторон     • Доказательство пропорциональности     • Задачи на построение     • Измерение расстояний (недоступных)</text>
+  <rect x="15" y="560" width="770" height="28" fill="url(#panelGrad)" opacity="0.08" rx="6" />
+  <text x="400" y="578" font-family="Arial,sans-serif" font-size="11" fill="#06B6D4" text-anchor="middle" opacity="0.6">Геометрия · 8 класс</text>
+  <circle cx="35" cy="574" r="8" fill="none" stroke="#06B6D4" stroke-width="1" opacity="0.3" />
+  <circle cx="765" cy="574" r="8" fill="none" stroke="#06B6D4" stroke-width="1" opacity="0.3" />
+</svg>

@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0C1B2A" />
+      <stop offset="100%" stop-color="#0F2744" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)" />
+  <line x1="0" y1="0" x2="0" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="40" y1="0" x2="40" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="80" y1="0" x2="80" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="120" y1="0" x2="120" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="160" y1="0" x2="160" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="200" y1="0" x2="200" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="240" y1="0" x2="240" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="280" y1="0" x2="280" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="320" y1="0" x2="320" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="360" y1="0" x2="360" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="400" y1="0" x2="400" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="440" y1="0" x2="440" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="480" y1="0" x2="480" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="520" y1="0" x2="520" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="560" y1="0" x2="560" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="600" y1="0" x2="600" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="640" y1="0" x2="640" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="680" y1="0" x2="680" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="720" y1="0" x2="720" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="760" y1="0" x2="760" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="800" y1="0" x2="800" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="0" x2="800" y2="0" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="40" x2="800" y2="40" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="120" x2="800" y2="120" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="160" x2="800" y2="160" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="240" x2="800" y2="240" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="280" x2="800" y2="280" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="320" x2="800" y2="320" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="360" x2="800" y2="360" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="440" x2="800" y2="440" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="480" x2="800" y2="480" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="520" x2="800" y2="520" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="560" x2="800" y2="560" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#164E7A" stroke-width="0.3" opacity="0.5" />
+  <rect x="0" y="0" width="800" height="70" fill="#0284C7" opacity="0.92" />
+  <rect x="16" y="12" width="46" height="46" rx="8" fill="#0C1B2A" />
+  <text x="39" y="44" text-anchor="middle" fill="#06B6D4" font-size="22" font-weight="bold" font-family="monospace">8</text>
+  <text x="76" y="38" fill="#E0F2FE" font-size="22" font-weight="bold" font-family="sans-serif">Датчик линии и датчик света</text>
+  <text x="76" y="58" fill="#7DD3FC" font-size="13" font-family="sans-serif">Принцип работы, подключение и применение</text>
+  <line x1="0" y1="70" x2="800" y2="70" stroke="#06B6D4" stroke-width="2" opacity="0.6" />
+  <rect x="16" y="82" width="380" height="230" rx="8" fill="#0D2137" stroke="#1E5A8A" stroke-width="1" />
+  <text x="28" y="104" fill="#38BDF8" font-size="14" font-weight="bold" font-family="sans-serif">Датчик линии (TCRT5000)</text>
+  <rect x="40" y="210" width="100" height="20" fill="#1a1a2e" stroke="#7DD3FC" stroke-width="1" />
+  <text x="90" y="224" fill="#7DD3FC" font-size="9" font-family="sans-serif" text-anchor="middle">Чёрная линия</text>
+  <rect x="140" y="210" width="80" height="20" fill="#e2e8f0" stroke="#7DD3FC" stroke-width="1" />
+  <text x="180" y="224" fill="#0C1B2A" font-size="9" font-family="sans-serif" text-anchor="middle">Белый пол</text>
+  <rect x="55" y="145" width="80" height="30" rx="4" fill="#0284C7" opacity="0.3" stroke="#0284C7" stroke-width="1.5" />
+  <text x="95" y="164" fill="#38BDF8" font-size="9" font-family="sans-serif" text-anchor="middle">TCRT5000</text>
+  <circle cx="75" cy="158" r="5" fill="#EF4444" opacity="0.6" />
+  <text x="75" y="175" fill="#EF4444" font-size="7" font-family="sans-serif" text-anchor="middle">IR</text>
+  <circle cx="115" cy="158" r="5" fill="#22C55E" opacity="0.6" />
+  <text x="115" y="175" fill="#22C55E" font-size="7" font-family="sans-serif" text-anchor="middle">PT</text>
+  <line x1="75" y1="163" x2="90" y2="207" stroke="#EF4444" stroke-width="1.5" opacity="0.6" />
+  <line x1="90" y1="207" x2="115" y2="163" stroke="#22C55E" stroke-width="1.5" opacity="0.6" />
+  <text x="30" y="115" fill="#E0F2FE" font-size="11" font-family="sans-serif" text-anchor="start">Принцип: ИК-светодиод излучает,</text>
+  <text x="30" y="130" fill="#E0F2FE" font-size="11" font-family="sans-serif" text-anchor="start">фототранзистор принимает отражение.</text>
+  <text x="240" y="115" fill="#E0F2FE" font-size="11" font-family="sans-serif" text-anchor="start" font-weight="bold">Белая поверхность:</text>
+  <text x="240" y="132" fill="#22C55E" font-size="11" font-family="sans-serif" text-anchor="start">Много отражения → HIGH</text>
+  <text x="240" y="152" fill="#E0F2FE" font-size="11" font-family="sans-serif" text-anchor="start" font-weight="bold">Чёрная поверхность:</text>
+  <text x="240" y="169" fill="#EF4444" font-size="11" font-family="sans-serif" text-anchor="start">Мало отражения → LOW</text>
+  <text x="30" y="250" fill="#7DD3FC" font-size="10" font-family="sans-serif" text-anchor="start">Расстояние до поверхности: 1-15 мм</text>
+  <text x="30" y="265" fill="#7DD3FC" font-size="10" font-family="sans-serif" text-anchor="start">Аналоговый и цифровой выход</text>
+  <rect x="410" y="82" width="374" height="230" rx="8" fill="#0D2137" stroke="#1E5A8A" stroke-width="1" />
+  <text x="422" y="104" fill="#38BDF8" font-size="14" font-weight="bold" font-family="sans-serif">Датчик света (Фоторезистор)</text>
+  <circle cx="560" cy="150" r="20" fill="none" stroke="#F59E0B" stroke-width="2" />
+  <polyline points="540,150 545,140 550,160 555,140 560,160 565,140 570,160 575,140 580,150" fill="none" stroke="#F59E0B" stroke-width="1.5" />
+  <line x1="550" y1="120" x2="550" y2="130" stroke="#06B6D4" stroke-width="2" />
+  <line x1="545" y1="125" x2="550" y2="130" stroke="#06B6D4" stroke-width="1.5" />
+  <line x1="555" y1="125" x2="550" y2="130" stroke="#06B6D4" stroke-width="1.5" />
+  <line x1="560" y1="120" x2="560" y2="130" stroke="#06B6D4" stroke-width="2" />
+  <line x1="555" y1="125" x2="560" y2="130" stroke="#06B6D4" stroke-width="1.5" />
+  <line x1="565" y1="125" x2="560" y2="130" stroke="#06B6D4" stroke-width="1.5" />
+  <line x1="570" y1="120" x2="570" y2="130" stroke="#06B6D4" stroke-width="2" />
+  <line x1="565" y1="125" x2="570" y2="130" stroke="#06B6D4" stroke-width="1.5" />
+  <line x1="575" y1="125" x2="570" y2="130" stroke="#06B6D4" stroke-width="1.5" />
+  <text x="560" y="180" fill="#F59E0B" font-size="11" font-family="sans-serif" text-anchor="middle">Фоторезистор (LDR)</text>
+  <text x="422" y="200" fill="#E0F2FE" font-size="11" font-family="sans-serif" text-anchor="start">Сопротивление меняется</text>
+  <text x="422" y="216" fill="#E0F2FE" font-size="11" font-family="sans-serif" text-anchor="start">в зависимости от света:</text>
+  <text x="422" y="236" fill="#06B6D4" font-size="11" font-family="sans-serif" text-anchor="start">Яркий свет → R мало → V мало</text>
+  <text x="422" y="254" fill="#A855F7" font-size="11" font-family="sans-serif" text-anchor="start">Темнота   → R велик → V велик</text>
+  <text x="422" y="278" fill="#7DD3FC" font-size="10" font-family="sans-serif" text-anchor="start">Подключение: делитель напряжения</text>
+  <text x="422" y="294" fill="#7DD3FC" font-size="10" font-family="sans-serif" text-anchor="start">с фиксированным резистором 10 кОм</text>
+  <rect x="16" y="326" width="280" height="150" rx="8" fill="#0D2137" stroke="#1E5A8A" stroke-width="1" />
+  <text x="28" y="348" fill="#38BDF8" font-size="14" font-weight="bold" font-family="sans-serif">Делитель напряжения</text>
+  <line x1="60" y1="350" x2="60" y2="375" stroke="#EF4444" stroke-width="2" />
+  <text x="50" y="348" fill="#EF4444" font-size="9" font-family="monospace" text-anchor="start">5V</text>
+  <rect x="50" y="375" width="20" height="30" rx="3" fill="none" stroke="#F59E0B" stroke-width="1.5" />
+  <text x="60" y="394" fill="#F59E0B" font-size="7" font-family="monospace" text-anchor="middle">LDR</text>
+  <circle cx="60" cy="415" r="3" fill="#38BDF8" />
+  <text x="70" y="418" fill="#38BDF8" font-size="9" font-family="sans-serif" text-anchor="start">→ A0 (аналоговый вход)</text>
+  <rect x="50" y="420" width="20" height="25" rx="3" fill="none" stroke="#7DD3FC" stroke-width="1.5" />
+  <text x="60" y="436" fill="#7DD3FC" font-size="7" font-family="monospace" text-anchor="middle">10K</text>
+  <line x1="60" y1="445" x2="60" y2="460" stroke="#7DD3FC" stroke-width="2" />
+  <text x="50" y="468" fill="#7DD3FC" font-size="9" font-family="monospace" text-anchor="start">GND</text>
+  <text x="120" y="385" fill="#38BDF8" font-size="11" font-family="monospace" text-anchor="start">Vout = Vcc × R2/(R1+R2)</text>
+  <text x="120" y="405" fill="#7DD3FC" font-size="10" font-family="sans-serif" text-anchor="start">R1 = LDR (переменное)</text>
+  <text x="120" y="420" fill="#7DD3FC" font-size="10" font-family="sans-serif" text-anchor="start">R2 = 10 кОм (фиксированное)</text>
+  <rect x="310" y="326" width="474" height="110" rx="8" fill="#0D2137" stroke="#06B6D4" stroke-width="1" />
+  <text x="322" y="348" fill="#38BDF8" font-size="14" font-weight="bold" font-family="sans-serif">Код: датчик линии</text>
+  <text x="320" y="362" fill="#7DD3FC" font-size="11" font-family="monospace" text-anchor="start">// Датчик линии (цифровой)</text>
+  <text x="320" y="378" fill="#7DD3FC" font-size="11" font-family="monospace" text-anchor="start">#define LINE_PIN 3</text>
+  <text x="320" y="394" fill="#E0F2FE" font-size="11" font-family="monospace" text-anchor="start" />
+  <text x="320" y="410" fill="#E0F2FE" font-size="11" font-family="monospace" text-anchor="start">void loop() {</text>
+  <text x="320" y="426" fill="#E0F2FE" font-size="11" font-family="monospace" text-anchor="start">  int line = digitalRead(LINE_PIN);</text>
+  <text x="320" y="442" fill="#E0F2FE" font-size="11" font-family="monospace" text-anchor="start">  if (line == HIGH) {</text>
+  <text x="320" y="458" fill="#E0F2FE" font-size="11" font-family="monospace" text-anchor="start">    // На белом - едем</text>
+  <text x="320" y="474" fill="#E0F2FE" font-size="11" font-family="monospace" text-anchor="start">    forward();</text>
+  <text x="320" y="490" fill="#E0F2FE" font-size="11" font-family="monospace" text-anchor="start">  } else {</text>
+  <text x="320" y="506" fill="#E0F2FE" font-size="11" font-family="monospace" text-anchor="start">    // На линии - поворот</text>
+  <text x="320" y="522" fill="#E0F2FE" font-size="11" font-family="monospace" text-anchor="start">    turnRight();</text>
+  <text x="320" y="538" fill="#E0F2FE" font-size="11" font-family="monospace" text-anchor="start">  }</text>
+  <text x="320" y="554" fill="#E0F2FE" font-size="11" font-family="monospace" text-anchor="start">}</text>
+  <rect x="310" y="448" width="474" height="100" rx="8" fill="#0D2137" stroke="#06B6D4" stroke-width="1" />
+  <text x="322" y="470" fill="#38BDF8" font-size="14" font-weight="bold" font-family="sans-serif">Код: датчик света</text>
+  <text x="320" y="484" fill="#7DD3FC" font-size="11" font-family="monospace" text-anchor="start">// Датчик света (аналоговый)</text>
+  <text x="320" y="500" fill="#7DD3FC" font-size="11" font-family="monospace" text-anchor="start">#define LIGHT_PIN A0</text>
+  <text x="320" y="516" fill="#E0F2FE" font-size="11" font-family="monospace" text-anchor="start" />
+  <text x="320" y="532" fill="#E0F2FE" font-size="11" font-family="monospace" text-anchor="start">void loop() {</text>
+  <text x="320" y="548" fill="#E0F2FE" font-size="11" font-family="monospace" text-anchor="start">  int val = analogRead(LIGHT_PIN);</text>
+  <text x="320" y="564" fill="#E0F2FE" font-size="11" font-family="monospace" text-anchor="start">  // val: 0 (ярко) - 1023 (темно)</text>
+  <text x="320" y="580" fill="#E0F2FE" font-size="11" font-family="monospace" text-anchor="start">  if (val &amp;gt; 800) {</text>
+  <text x="320" y="596" fill="#E0F2FE" font-size="11" font-family="monospace" text-anchor="start">    digitalWrite(13, HIGH); // свет</text>
+  <text x="320" y="612" fill="#E0F2FE" font-size="11" font-family="monospace" text-anchor="start">  }</text>
+  <text x="320" y="628" fill="#E0F2FE" font-size="11" font-family="monospace" text-anchor="start">}</text>
+  <rect x="16" y="494" width="768" height="52" rx="8" fill="#0D2137" stroke="#22C55E" stroke-width="1" />
+  <text x="28" y="516" fill="#38BDF8" font-size="14" font-weight="bold" font-family="sans-serif">Применение</text>
+  <text x="28" y="516" fill="#22C55E" font-size="12" font-family="sans-serif" text-anchor="start">Датчик линии: робот-следопыт, сортировка, конвейер</text>
+  <text x="28" y="534" fill="#06B6D4" font-size="12" font-family="sans-serif" text-anchor="start">Датчик света: ночник, солнечный трекер, метеостанция</text>
+  <text x="400" y="565" fill="#7DD3FC" font-size="11" font-family="sans-serif" text-anchor="middle">7 класс | Робототехника | Урок 8</text>
+</svg>

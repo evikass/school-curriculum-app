@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF7ED;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFEDD5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#EA580C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C2410C;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#00000033" />
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="0" />
+  <rect x="0" y="0" width="800" height="80" fill="url(#headerGrad)" />
+  <g transform="translate(20, 15)">
+    <polygon points="25,5 5,45 45,45" fill="#FBBF24" stroke="#1C1917" stroke-width="2" />
+    <text x="25" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#1C1917">!</text>
+  </g>
+  <rect x="70" y="18" width="36" height="36" rx="6" fill="#FFFFFF" opacity="0.9" />
+  <text x="88" y="44" text-anchor="middle" font-size="18" font-weight="bold" fill="#EA580C">2</text>
+  <text x="120" y="42" font-size="22" font-weight="bold" fill="#FFFFFF">Причины ДТП и их предотвращение</text>
+  <text x="120" y="64" font-size="13" fill="#FED7AA">Статистика, причины и правила безопасного поведения</text>
+  <rect x="710" y="22" width="70" height="30" rx="15" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.5)" stroke-width="1" />
+  <text x="745" y="43" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">ОБЖ</text>
+  <rect x="710" y="52" width="70" height="22" rx="11" fill="rgba(255,255,255,0.15)" />
+  <text x="745" y="67" text-anchor="middle" font-size="11" fill="#FED7AA">7 класс</text>
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#EA580C" stroke-width="3" />
+  <rect x="20" y="98" width="4" height="18" rx="2" fill="#DC2626" />
+  <text x="30" y="112" font-size="14" font-weight="bold" fill="#DC2626">Статистика ДТП</text>
+  <rect x="20" y="118" width="120" height="75" rx="10" fill="#FFFFFF" stroke="#DC2626" stroke-width="2" filter="url(#shadow)" />
+  <text x="80" y="148" text-anchor="middle" font-size="24" font-weight="bold" fill="#DC2626">70%</text>
+  <text x="80" y="168" text-anchor="middle" font-size="10" fill="#78716C">ДТП по вине</text>
+  <rect x="155" y="118" width="120" height="75" rx="10" fill="#FFFFFF" stroke="#EA580C" stroke-width="2" filter="url(#shadow)" />
+  <text x="215" y="148" text-anchor="middle" font-size="24" font-weight="bold" fill="#EA580C">20%</text>
+  <text x="215" y="168" text-anchor="middle" font-size="10" fill="#78716C">ДТП по вине</text>
+  <rect x="290" y="118" width="120" height="75" rx="10" fill="#FFFFFF" stroke="#78716C" stroke-width="2" filter="url(#shadow)" />
+  <text x="350" y="148" text-anchor="middle" font-size="24" font-weight="bold" fill="#78716C">10%</text>
+  <text x="350" y="168" text-anchor="middle" font-size="10" fill="#78716C">Прочие</text>
+  <rect x="430" y="98" width="4" height="18" rx="2" fill="#EA580C" />
+  <text x="440" y="112" font-size="14" font-weight="bold" fill="#EA580C">Основные причины ДТП</text>
+  <rect x="430" y="118" width="350" height="170" rx="10" fill="#FFFFFF" stroke="#DC2626" stroke-width="2" filter="url(#shadow)" />
+  <rect x="430" y="118" width="350" height="6" rx="3" fill="#DC2626" />
+  <circle cx="454" cy="142" r="14" fill="#DC2626" />
+  <text x="454" y="148" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">⚠</text>
+  <text x="476" y="146" font-size="14" font-weight="bold" fill="#1C1917">Причины</text>
+  <circle cx="450" cy="164" r="3" fill="#DC2626" />
+  <text x="460" y="168" font-size="12" fill="#1C1917">Превышение скорости движения</text>
+  <circle cx="450" cy="184" r="3" fill="#DC2626" />
+  <text x="460" y="188" font-size="12" fill="#1C1917">Управление в нетрезвом состоянии</text>
+  <circle cx="450" cy="204" r="3" fill="#DC2626" />
+  <text x="460" y="208" font-size="12" fill="#1C1917">Нарушение правил проезда перекрёстков</text>
+  <circle cx="450" cy="224" r="3" fill="#DC2626" />
+  <text x="460" y="228" font-size="12" fill="#1C1917">Неправильный выбор дистанции</text>
+  <circle cx="450" cy="244" r="3" fill="#DC2626" />
+  <text x="460" y="248" font-size="12" fill="#1C1917">Невнимательность и отвлечение</text>
+  <circle cx="450" cy="264" r="3" fill="#DC2626" />
+  <text x="460" y="268" font-size="12" fill="#1C1917">Нарушение правил обгона</text>
+  <rect x="20" y="220" width="4" height="18" rx="2" fill="#16A34A" />
+  <text x="30" y="234" font-size="14" font-weight="bold" fill="#16A34A">Предотвращение ДТП</text>
+  <circle cx="34" cy="252" r="14" fill="#16A34A" />
+  <text x="34" y="257" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">1</text>
+  <text x="56" y="257" font-size="12" fill="#1C1917">Соблюдайте скоростной режим и дистанцию</text>
+  <circle cx="34" cy="282" r="14" fill="#16A34A" />
+  <text x="34" y="287" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">2</text>
+  <text x="56" y="287" font-size="12" fill="#1C1917">Не отвлекайтесь за рулём (телефон, разговоры)</text>
+  <circle cx="34" cy="312" r="14" fill="#16A34A" />
+  <text x="34" y="317" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">3</text>
+  <text x="56" y="317" font-size="12" fill="#1C1917">Используйте ремни безопасности и детские кресла</text>
+  <circle cx="34" cy="342" r="14" fill="#16A34A" />
+  <text x="34" y="347" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">4</text>
+  <text x="56" y="347" font-size="12" fill="#1C1917">Уступайте дорогу пешеходам на переходах</text>
+  <circle cx="34" cy="372" r="14" fill="#16A34A" />
+  <text x="34" y="377" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">5</text>
+  <text x="56" y="377" font-size="12" fill="#1C1917">Соблюдайте правила проезда перекрёстков</text>
+  <circle cx="34" cy="402" r="14" fill="#16A34A" />
+  <text x="34" y="407" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">6</text>
+  <text x="56" y="407" font-size="12" fill="#1C1917">Не садитесь за руль в нетрезвом виде</text>
+  <rect x="430" y="310" width="4" height="18" rx="2" fill="#EA580C" />
+  <text x="440" y="324" font-size="14" font-weight="bold" fill="#EA580C">Безопасность пешехода</text>
+  <rect x="430" y="332" width="350" height="150" rx="10" fill="#FFFFFF" stroke="#EA580C" stroke-width="2" filter="url(#shadow)" />
+  <rect x="430" y="332" width="350" height="6" rx="3" fill="#EA580C" />
+  <circle cx="454" cy="356" r="14" fill="#EA580C" />
+  <text x="454" y="362" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">🚶</text>
+  <text x="476" y="360" font-size="14" font-weight="bold" fill="#1C1917">Правила пешехода</text>
+  <circle cx="450" cy="378" r="3" fill="#EA580C" />
+  <text x="460" y="382" font-size="12" fill="#1C1917">Переходите дорогу по зебре</text>
+  <circle cx="450" cy="398" r="3" fill="#EA580C" />
+  <text x="460" y="402" font-size="12" fill="#1C1917">Смотрите налево, затем направо</text>
+  <circle cx="450" cy="418" r="3" fill="#EA580C" />
+  <text x="460" y="422" font-size="12" fill="#1C1917">Не перебегайте на красный сигнал</text>
+  <circle cx="450" cy="438" r="3" fill="#EA580C" />
+  <text x="460" y="442" font-size="12" fill="#1C1917">Носите световозвращатели в темноте</text>
+  <circle cx="450" cy="458" r="3" fill="#EA580C" />
+  <text x="460" y="462" font-size="12" fill="#1C1917">Не играйте вблизи проезжей части</text>
+  <rect x="20" y="470" width="760" height="70" rx="10" fill="#FEF2F2" stroke="#DC2626" stroke-width="2" />
+  <circle cx="50" cy="505" r="18" fill="#DC2626" stroke="#1C1917" stroke-width="2" />
+  <circle cx="50" cy="505" r="13" fill="none" stroke="#FFFFFF" stroke-width="3" />
+  <line x1="40" y1="505" x2="60" y2="505" stroke="#FFFFFF" stroke-width="4" />
+  <text x="80" y="498" font-size="13" font-weight="bold" fill="#DC2626">Критический факт</text>
+  <text x="80" y="518" font-size="11" fill="#1C1917">Ежегодно в России происходит более 130 000 ДТП, в которых погибают и получают травмы люди.</text>
+  <text x="80" y="534" font-size="11" fill="#1C1917">Соблюдение ПДД — главная мера профилактики дорожного травматизма.</text>
+  <rect x="0" y="570" width="800" height="30" fill="#1C1917" />
+  <text x="400" y="590" text-anchor="middle" font-size="11" fill="#D6D3D1">Основы безопасности жизнедеятельности | 7 класс</text>
+</svg>

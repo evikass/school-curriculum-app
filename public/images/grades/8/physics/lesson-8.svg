@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="100%" stop-color="#FFF7ED" />
+    </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F59E0B" />
+    </marker>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect width="800" height="6" fill="#F59E0B" />
+  <rect x="0" y="6" width="800" height="70" fill="#F59E0B" />
+  <rect x="20" y="16" width="44" height="44" rx="10" fill="#92400E" />
+  <text x="42" y="47" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">8</text>
+  <text x="78" y="38" fill="#FFFFFF" font-size="20" font-weight="bold" font-family="Arial, sans-serif">Магнитное поле и его свойства</text>
+  <text x="78" y="58" fill="#FEF3C7" font-size="13" font-family="Arial, sans-serif">Линии поля, электромагниты, сила Лоренца</text>
+  <rect x="17" y="92" width="385" height="195" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="90" width="385" height="195" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5" />
+  <rect x="15" y="90" width="385" height="26" rx="8" fill="#F59E0B" />
+  <rect x="15" y="108" width="385" height="8" fill="#F59E0B" />
+  <text x="207" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Магнитное поле</text>
+  <rect x="120" y="175" width="120" height="35" fill="#EF4444" rx="4" />
+  <rect x="180" y="175" width="60" height="35" fill="#3B82F6" />
+  <text x="150" y="198" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold" font-family="Arial, sans-serif">N</text>
+  <text x="210" y="198" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold" font-family="Arial, sans-serif">S</text>
+  <path d="M150,175 Q150,130 210,130 Q270,130 210,175" stroke="#F59E0B" stroke-width="1.5" fill="none" />
+  <path d="M150,175 Q130,120 180,110 Q230,100 210,175" stroke="#D97706" stroke-width="1.5" fill="none" />
+  <path d="M210,210 Q210,250 150,250 Q90,250 150,210" stroke="#F59E0B" stroke-width="1.5" fill="none" />
+  <path d="M210,210 Q230,260 180,270 Q130,280 150,210" stroke="#D97706" stroke-width="1.5" fill="none" />
+  <text x="180" y="125" text-anchor="start" fill="#F59E0B" font-size="14" font-weight="normal" font-family="Arial, sans-serif">→</text>
+  <text x="180" y="255" text-anchor="start" fill="#F59E0B" font-size="14" font-weight="normal" font-family="Arial, sans-serif">←</text>
+  <text x="30" y="130" text-anchor="start" fill="#1C1917" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Линии поля:</text>
+  <text x="30" y="148" text-anchor="start" fill="#92400E" font-size="12" font-weight="normal" font-family="Arial, sans-serif">N → вне → S</text>
+  <text x="30" y="166" text-anchor="start" fill="#92400E" font-size="12" font-weight="normal" font-family="Arial, sans-serif">S → внутри → N</text>
+  <text x="280" y="150" text-anchor="start" fill="#EF4444" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Не пересекаются!</text>
+  <text x="280" y="168" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Замкнутые кривые</text>
+  <rect x="417" y="92" width="370" height="195" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="415" y="90" width="370" height="195" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5" />
+  <rect x="415" y="90" width="370" height="26" rx="8" fill="#D97706" />
+  <rect x="415" y="108" width="370" height="8" fill="#D97706" />
+  <text x="600" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Электромагнит</text>
+  <rect x="470" y="160" width="120" height="30" fill="none" stroke="#F59E0B" stroke-width="2" rx="5" />
+  <rect x="480" y="165" width="100" height="20" fill="#78716C" rx="3" />
+  <line x1="478" y1="155" x2="478" y2="190" stroke="#3B82F6" stroke-width="1.5" />
+  <line x1="491" y1="155" x2="491" y2="190" stroke="#3B82F6" stroke-width="1.5" />
+  <line x1="504" y1="155" x2="504" y2="190" stroke="#3B82F6" stroke-width="1.5" />
+  <line x1="517" y1="155" x2="517" y2="190" stroke="#3B82F6" stroke-width="1.5" />
+  <line x1="530" y1="155" x2="530" y2="190" stroke="#3B82F6" stroke-width="1.5" />
+  <line x1="543" y1="155" x2="543" y2="190" stroke="#3B82F6" stroke-width="1.5" />
+  <line x1="556" y1="155" x2="556" y2="190" stroke="#3B82F6" stroke-width="1.5" />
+  <line x1="569" y1="155" x2="569" y2="190" stroke="#3B82F6" stroke-width="1.5" />
+  <text x="475" y="150" text-anchor="start" fill="#EF4444" font-size="14" font-weight="bold" font-family="Arial, sans-serif">×</text>
+  <text x="560" y="150" text-anchor="start" fill="#EF4444" font-size="16" font-weight="bold" font-family="Arial, sans-serif">•</text>
+  <text x="530" y="140" text-anchor="start" fill="#EF4444" font-size="12" font-weight="bold" font-family="Arial, sans-serif">I</text>
+  <text x="468" y="180" text-anchor="middle" fill="#EF4444" font-size="12" font-weight="bold" font-family="Arial, sans-serif">N</text>
+  <text x="595" y="180" text-anchor="middle" fill="#3B82F6" font-size="12" font-weight="bold" font-family="Arial, sans-serif">S</text>
+  <path d="M468,170 Q430,140 468,120 Q530,90 595,120 Q630,140 595,170" stroke="#F59E0B" stroke-width="1.5" fill="none" />
+  <text x="430" y="215" text-anchor="start" fill="#1C1917" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Правило буравчика:</text>
+  <text x="430" y="233" text-anchor="start" fill="#92400E" font-size="12" font-weight="normal" font-family="Arial, sans-serif">I по час. → N справа</text>
+  <text x="430" y="253" text-anchor="start" fill="#1C1917" font-size="12" font-weight="normal" font-family="Arial, sans-serif">Усиление: железный</text>
+  <text x="430" y="268" text-anchor="start" fill="#1C1917" font-size="12" font-weight="normal" font-family="Arial, sans-serif">сердечник + больше витков</text>
+  <rect x="17" y="297" width="385" height="155" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="295" width="385" height="155" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5" />
+  <rect x="15" y="295" width="385" height="26" rx="8" fill="#F59E0B" />
+  <rect x="15" y="313" width="385" height="8" fill="#F59E0B" />
+  <text x="207" y="313" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Сила Лоренца</text>
+  <text x="200" y="340" text-anchor="middle" fill="#92400E" font-size="22" font-weight="bold" font-family="Arial, sans-serif">F = q⃗v × B⃗</text>
+  <line x1="134" y1="346" x2="266" y2="346" stroke="#F59E0B" stroke-width="2" opacity="0.4" />
+  <circle cx="160" cy="420" r="10" fill="#EF4444" />
+  <text x="160" y="425" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="Arial, sans-serif">q</text>
+  <line x1="170" y1="420" x2="230" y2="420" stroke="#3B82F6" stroke-width="2" />
+  <text x="210" y="412" text-anchor="start" fill="#3B82F6" font-size="12" font-weight="bold" font-family="Arial, sans-serif">v</text>
+  <text x="200" y="390" text-anchor="start" fill="#8B5CF6" font-size="10" font-weight="normal" font-family="Arial, sans-serif">⊗</text>
+  <text x="220" y="390" text-anchor="start" fill="#8B5CF6" font-size="10" font-weight="normal" font-family="Arial, sans-serif">⊗</text>
+  <text x="240" y="390" text-anchor="start" fill="#8B5CF6" font-size="10" font-weight="normal" font-family="Arial, sans-serif">⊗</text>
+  <text x="260" y="390" text-anchor="start" fill="#8B5CF6" font-size="10" font-weight="normal" font-family="Arial, sans-serif">⊗</text>
+  <text x="270" y="390" text-anchor="start" fill="#8B5CF6" font-size="12" font-weight="bold" font-family="Arial, sans-serif">B</text>
+  <line x1="160" y1="410" x2="160" y2="370" stroke="#EF4444" stroke-width="2" />
+  <text x="148" y="370" text-anchor="start" fill="#EF4444" font-size="12" font-weight="bold" font-family="Arial, sans-serif">F</text>
+  <text x="30" y="440" text-anchor="start" fill="#1C1917" font-size="12" font-weight="normal" font-family="Arial, sans-serif">Левая рука: 4 пальца → v,</text>
+  <text x="30" y="455" text-anchor="start" fill="#1C1917" font-size="12" font-weight="normal" font-family="Arial, sans-serif">B в ладонь, большой → F</text>
+  <rect x="417" y="297" width="370" height="155" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="415" y="295" width="370" height="155" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5" />
+  <rect x="415" y="295" width="370" height="26" rx="8" fill="#D97706" />
+  <rect x="415" y="313" width="370" height="8" fill="#D97706" />
+  <text x="600" y="313" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Правило правой руки</text>
+  <circle cx="600" cy="370" r="12" fill="#F59E0B" />
+  <text x="600" y="375" text-anchor="middle" fill="#1C1917" font-size="16" font-weight="bold" font-family="Arial, sans-serif">•</text>
+  <text x="600" y="395" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">I → к нам</text>
+  <circle cx="600" cy="370" r="30" fill="none" stroke="#3B82F6" stroke-width="1.5" />
+  <circle cx="600" cy="370" r="50" fill="none" stroke="#3B82F6" stroke-width="1" />
+  <circle cx="600" cy="370" r="70" fill="none" stroke="#3B82F6" stroke-width="1" />
+  <text x="570" y="340" text-anchor="start" fill="#3B82F6" font-size="12" font-weight="normal" font-family="Arial, sans-serif">←</text>
+  <text x="630" y="400" text-anchor="start" fill="#3B82F6" font-size="12" font-weight="normal" font-family="Arial, sans-serif">→</text>
+  <text x="430" y="425" text-anchor="start" fill="#1C1917" font-size="12" font-weight="normal" font-family="Arial, sans-serif">Большой палец → I</text>
+  <text x="430" y="443" text-anchor="start" fill="#92400E" font-size="12" font-weight="normal" font-family="Arial, sans-serif">4 пальца → B (линии)</text>
+  <rect x="17" y="462" width="770" height="55" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="460" width="770" height="55" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5" />
+  <rect x="15" y="460" width="770" height="26" rx="8" fill="#92400E" />
+  <rect x="15" y="478" width="770" height="8" fill="#92400E" />
+  <text x="400" y="478" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Ключевые свойства</text>
+  <text x="30" y="485" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">• Магнитное поле — материально</text>
+  <text x="310" y="485" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">• Порождается движущимися зарядами</text>
+  <text x="30" y="505" text-anchor="start" fill="#1C1917" font-size="13" font-weight="normal" font-family="Arial, sans-serif">• Обнаруживается по действию на проводник с током</text>
+  <rect x="0" y="570" width="800" height="30" fill="#92400E" />
+  <text x="400" y="590" text-anchor="middle" fill="#FEF3C7" font-size="11" font-family="Arial, sans-serif">Физика • 8 класс • Интернет-Школа</text>
+</svg>

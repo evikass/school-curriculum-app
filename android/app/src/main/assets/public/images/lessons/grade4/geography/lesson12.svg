@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Background -->
+  <rect width="500" height="350" fill="#F5E6C8" />
+  <rect x="0" y="0" width="500" height="4" fill="#C41E3A" />
+  <rect x="0" y="85" width="500" height="2" fill="#D4A843" opacity="0.5" />
+  <!-- Title -->
+  <text x="250" y="45" text-anchor="middle" font-size="24" font-weight="bold" fill="#1a1a1a" font-family="Arial, sans-serif">Охрана природы России</text>
+  <text x="250" y="70" text-anchor="middle" font-size="12" fill="#1a1a1a" font-family="Arial, sans-serif">Экология и заповедники</text>
+
+  <!-- Red Book -->
+  <rect x="30" y="92" width="130" height="120" rx="4" fill="white" stroke="#C41E3A" stroke-width="2" />
+  <rect x="35" y="92" width="120" height="12" rx="3" fill="#C41E3A" />
+  <text x="95" y="102" text-anchor="middle" font-size="9" font-weight="bold" fill="white" font-family="Arial, sans-serif">Красная книга</text>
+  <!-- Animals in Red Book -->
+  <!-- Amur tiger -->
+  <g transform="translate(70,140)">
+    <ellipse cx="0" cy="5" rx="14" ry="8" fill="#D2691E" opacity="0.6" />
+    <circle cx="-10" cy="0" r="6" fill="#D2691E" opacity="0.6" />
+    <circle cx="-12" cy="-2" r="1.5" fill="#D4A843" />
+    <line x1="-8" y1="-5" x2="-5" y2="-12" stroke="#D2691E" stroke-width="1.5" />
+    <line x1="-4" y1="-5" x2="-1" y2="-12" stroke="#D2691E" stroke-width="1.5" />
+    <!-- Stripes -->
+    <line x1="-4" y1="2" x2="-2" y2="8" stroke="#333" stroke-width="1" opacity="0.4" />
+    <line x1="4" y1="1" x2="6" y2="8" stroke="#333" stroke-width="1" opacity="0.4" />
+    <text x="0" y="22" text-anchor="middle" font-size="7" fill="#1a1a1a" font-family="Arial, sans-serif">Амурский тигр</text>
+  </g>
+  <!-- Snow leopard -->
+  <g transform="translate(70,178)">
+    <ellipse cx="0" cy="3" rx="10" ry="6" fill="#888" opacity="0.5" />
+    <circle cx="-7" cy="0" r="4" fill="#888" opacity="0.5" />
+    <circle cx="-9" cy="-1" r="1" fill="#2B4C7E" />
+    <text x="0" y="16" text-anchor="middle" font-size="7" fill="#1a1a1a" font-family="Arial, sans-serif">Снежный барс</text>
+  </g>
+
+  <!-- Nature reserves -->
+  <rect x="175" y="92" width="150" height="120" rx="4" fill="white" stroke="#2D5A27" stroke-width="2" />
+  <rect x="180" y="92" width="140" height="12" rx="3" fill="#2D5A27" />
+  <text x="250" y="102" text-anchor="middle" font-size="9" font-weight="bold" fill="white" font-family="Arial, sans-serif">Заповедники России</text>
+  <!-- Trees -->
+  <g fill="#2D5A27" opacity="0.5">
+    <polygon points="200,140 205,125 210,140" />
+    <polygon points="215,138 220,122 225,138" />
+    <polygon points="275,135 280,120 285,135" />
+    <polygon points="290,138 295,124 300,138" />
+  </g>
+  <!-- Reserve labels -->
+  <text x="250" y="150" text-anchor="middle" font-size="7" fill="#2D5A27" font-family="Arial, sans-serif">Баргузинский (1916)</text>
+  <text x="250" y="162" text-anchor="middle" font-size="7" fill="#2D5A27" font-family="Arial, sans-serif">Байкальский</text>
+  <text x="250" y="174" text-anchor="middle" font-size="7" fill="#2D5A27" font-family="Arial, sans-serif">Кроноцкий</text>
+  <text x="250" y="186" text-anchor="middle" font-size="7" fill="#2D5A27" font-family="Arial, sans-serif">Лосиный остров</text>
+  <!-- Shield icon -->
+  <path d="M250,192 L240,197 L240,205 Q240,210 250,213 Q260,210 260,205 L260,197 Z" fill="#2D5A27" opacity="0.3" />
+
+  <!-- National parks -->
+  <rect x="340" y="92" width="140" height="120" rx="4" fill="white" stroke="#2B4C7E" stroke-width="2" />
+  <rect x="345" y="92" width="130" height="12" rx="3" fill="#2B4C7E" />
+  <text x="410" y="102" text-anchor="middle" font-size="9" font-weight="bold" fill="white" font-family="Arial, sans-serif">Национальные парки</text>
+  <!-- Park scenes -->
+  <circle cx="380" cy="130" r="10" fill="#D4A843" opacity="0.2" />
+  <polygon points="410,140 415,125 420,140" fill="#2D5A27" opacity="0.4" />
+  <rect x="370" y="140" width="40" height="3" fill="#2D5A27" opacity="0.3" />
+  <text x="410" y="160" text-anchor="middle" font-size="7" fill="#2B4C7E" font-family="Arial, sans-serif">Лосиный остров</text>
+  <text x="410" y="172" text-anchor="middle" font-size="7" fill="#2B4C7E" font-family="Arial, sans-serif">Куршская коса</text>
+  <text x="410" y="184" text-anchor="middle" font-size="7" fill="#2B4C7E" font-family="Arial, sans-serif">Сочинский</text>
+  <text x="410" y="198" text-anchor="middle" font-size="7" fill="#2B4C7E" font-family="Arial, sans-serif">более 60 парков</text>
+  <!-- Visitor icon -->
+  <circle cx="410" cy="145" r="3" fill="#1a1a1a" opacity="0.3" />
+  <line x1="410" y1="148" x2="410" y2="158" stroke="#1a1a1a" stroke-width="1.5" opacity="0.3" />
+
+  <!-- What you can do -->
+  <rect x="20" y="222" width="460" height="70" rx="4" fill="white" stroke="#D4A843" stroke-width="1.5" />
+  <text x="250" y="240" text-anchor="middle" font-size="11" font-weight="bold" fill="#C41E3A" font-family="Arial, sans-serif">Что можешь сделать ты?</text>
+
+  <!-- Eco action icons -->
+  <g transform="translate(70,255)">
+    <!-- Trash can with X -->
+    <rect x="-6" y="-2" width="12" height="14" rx="1" fill="none" stroke="#C41E3A" stroke-width="1.5" />
+    <line x1="-3" y1="2" x2="3" y2="8" stroke="#C41E3A" stroke-width="1.5" />
+    <line x1="3" y1="2" x2="-3" y2="8" stroke="#C41E3A" stroke-width="1.5" />
+    <text x="0" y="22" text-anchor="middle" font-size="7" fill="#1a1a1a" font-family="Arial, sans-serif">Не мусорить</text>
+  </g>
+  <g transform="translate(170,255)">
+    <!-- Water drop with hand -->
+    <path d="M0,-8 Q-6,0 0,6 Q6,0 0,-8 Z" fill="#2B4C7E" opacity="0.4" />
+    <text x="0" y="22" text-anchor="middle" font-size="7" fill="#1a1a1a" font-family="Arial, sans-serif">Беречь воду</text>
+  </g>
+  <g transform="translate(270,255)">
+    <!-- Tree -->
+    <polygon points="0,-10 -8,2 8,2" fill="#2D5A27" opacity="0.5" />
+    <rect x="-2" y="2" width="4" height="6" fill="#6D4C2E" opacity="0.4" />
+    <text x="0" y="22" text-anchor="middle" font-size="7" fill="#1a1a1a" font-family="Arial, sans-serif">Сажать деревья</text>
+  </g>
+  <g transform="translate(370,255)">
+    <!-- Flower -->
+    <circle cx="0" cy="-4" r="4" fill="#C41E3A" opacity="0.3" />
+    <circle cx="0" cy="-4" r="2" fill="#D4A843" opacity="0.5" />
+    <line x1="0" y1="0" x2="0" y2="8" stroke="#2D5A27" stroke-width="1" />
+    <text x="0" y="22" text-anchor="middle" font-size="7" fill="#1a1a1a" font-family="Arial, sans-serif">Редкие цветы</text>
+  </g>
+  <g transform="translate(450,255)">
+    <!-- Lightbulb -->
+    <path d="M0,-8 Q-6,-2 -5,4 L5,4 Q6,-2 0,-8 Z" fill="#D4A843" opacity="0.4" />
+    <rect x="-3" y="4" width="6" height="3" rx="1" fill="#D4A843" opacity="0.4" />
+    <text x="0" y="22" text-anchor="middle" font-size="7" fill="#1a1a1a" font-family="Arial, sans-serif">Экономить</text>
+  </g>
+
+  <!-- Bottom panel -->
+  <rect x="0" y="300" width="500" height="34" fill="#1a1a1a" />
+  <rect x="0" y="300" width="500" height="3" fill="#C41E3A" />
+  <text x="250" y="321" text-anchor="middle" font-size="13" fill="#F5E6C8" font-family="Arial, sans-serif">География: Россия — Урок 12</text>
+</svg>

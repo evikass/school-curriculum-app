@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Классификация инструментов</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Музыка - Урок 1</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Card 1: Strings - Violin -->
+  <rect x="25" y="88" width="105" height="210" rx="6" fill="#FFFFFF" stroke="#C62828" stroke-width="1.5" opacity="0.95"/>
+  <rect x="25" y="88" width="105" height="28" rx="6" fill="#C62828" opacity="0.9"/>
+  <rect x="25" y="104" width="105" height="12" fill="#C62828" opacity="0.9"/>
+  <text x="77" y="107" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">Струнные</text>
+  <!-- Violin illustration -->
+  <g transform="translate(77,195)">
+    <!-- Violin body -->
+    <ellipse cx="0" cy="15" rx="18" ry="22" fill="#D2691E" opacity="0.8"/>
+    <ellipse cx="0" cy="-18" rx="15" ry="18" fill="#D2691E" opacity="0.8"/>
+    <rect x="-5" y="-40" width="10" height="15" rx="2" fill="#8B4513"/>
+    <!-- Scroll -->
+    <circle cx="0" cy="-44" r="4" fill="#8B4513" opacity="0.9"/>
+    <rect x="-1" y="-50" width="2" height="8" fill="#8B4513"/>
+    <!-- F-holes -->
+    <path d="M-6,0 Q-4,8 -6,16" fill="none" stroke="#5D3A1A" stroke-width="1.2"/>
+    <path d="M6,0 Q4,8 6,16" fill="none" stroke="#5D3A1A" stroke-width="1.2"/>
+    <!-- Strings -->
+    <line x1="-3" y1="-38" x2="-3" y2="35" stroke="#DDD" stroke-width="0.5"/>
+    <line x1="0" y1="-38" x2="0" y2="35" stroke="#DDD" stroke-width="0.5"/>
+    <line x1="3" y1="-38" x2="3" y2="35" stroke="#DDD" stroke-width="0.5"/>
+    <!-- Bridge -->
+    <rect x="-8" y="5" width="16" height="2" rx="1" fill="#5D3A1A"/>
+    <!-- Chin rest -->
+    <ellipse cx="8" cy="30" rx="6" ry="4" fill="#5D3A1A" opacity="0.6"/>
+    <!-- Bow -->
+    <line x1="22" y1="-45" x2="26" y2="40" stroke="#8B4513" stroke-width="1.5"/>
+    <line x1="22" y1="-45" x2="26" y2="40" stroke="#EEE" stroke-width="0.5"/>
+  </g>
+  <text x="77" y="272" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Скрипка, виолончель,</text>
+  <text x="77" y="284" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">арфа, контрабас</text>
+
+  <!-- Card 2: Woodwinds - Flute -->
+  <rect x="140" y="88" width="105" height="210" rx="6" fill="#FFFFFF" stroke="#1565C0" stroke-width="1.5" opacity="0.95"/>
+  <rect x="140" y="88" width="105" height="28" rx="6" fill="#1565C0" opacity="0.9"/>
+  <rect x="140" y="104" width="105" height="12" fill="#1565C0" opacity="0.9"/>
+  <text x="192" y="107" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">Духовые деревянные</text>
+  <!-- Flute illustration -->
+  <g transform="translate(192,185)">
+    <!-- Flute body -->
+    <rect x="-40" y="-3" width="80" height="6" rx="3" fill="#C0C0C0" opacity="0.85"/>
+    <rect x="-40" y="-2" width="80" height="4" rx="2" fill="#E8E8E8" opacity="0.5"/>
+    <!-- Flute keys -->
+    <circle cx="-25" cy="-3" r="3" fill="#A0A0A0" stroke="#888" stroke-width="0.5"/>
+    <circle cx="-15" cy="-3" r="3.5" fill="#A0A0A0" stroke="#888" stroke-width="0.5"/>
+    <circle cx="-5" cy="-3" r="3" fill="#A0A0A0" stroke="#888" stroke-width="0.5"/>
+    <circle cx="5" cy="-3" r="3.5" fill="#A0A0A0" stroke="#888" stroke-width="0.5"/>
+    <circle cx="15" cy="-3" r="3" fill="#A0A0A0" stroke="#888" stroke-width="0.5"/>
+    <circle cx="25" cy="-3" r="2.5" fill="#A0A0A0" stroke="#888" stroke-width="0.5"/>
+    <!-- Embouchure hole -->
+    <ellipse cx="-33" cy="0" rx="3" ry="2" fill="#888"/>
+    <!-- Mouthpiece -->
+    <rect x="-48" y="-4" width="10" height="8" rx="4" fill="#B0B0B0"/>
+    <!-- Clarinet below -->
+    <rect x="-4" y="30" width="8" height="40" rx="4" fill="#1A1A1A" opacity="0.85"/>
+    <rect x="-4" y="30" width="8" height="5" rx="2" fill="#333"/>
+    <!-- Clarinet bell -->
+    <path d="M-4,70 L-8,80 Q0,84 8,80 L4,70" fill="#1A1A1A" opacity="0.85"/>
+    <!-- Clarinet keys -->
+    <circle cx="6" cy="42" r="2.5" fill="#C0C0C0" stroke="#999" stroke-width="0.4"/>
+    <circle cx="-6" cy="50" r="2.5" fill="#C0C0C0" stroke="#999" stroke-width="0.4"/>
+    <circle cx="6" cy="58" r="2" fill="#C0C0C0" stroke="#999" stroke-width="0.4"/>
+    <!-- Reed hint -->
+    <rect x="-3" y="28" width="2" height="5" rx="0.5" fill="#D4A574"/>
+  </g>
+  <text x="192" y="272" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Флейта, кларнет,</text>
+  <text x="192" y="284" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">гобой, фагот</text>
+
+  <!-- Card 3: Brass - Trumpet -->
+  <rect x="255" y="88" width="105" height="210" rx="6" fill="#FFFFFF" stroke="#F9A825" stroke-width="1.5" opacity="0.95"/>
+  <rect x="255" y="88" width="105" height="28" rx="6" fill="#F9A825" opacity="0.9"/>
+  <rect x="255" y="104" width="105" height="12" fill="#F9A825" opacity="0.9"/>
+  <text x="307" y="107" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">Духовые медные</text>
+  <!-- Trumpet illustration -->
+  <g transform="translate(307,190)">
+    <!-- Trumpet tubing -->
+    <rect x="-35" y="-3" width="45" height="6" rx="3" fill="#DAA520" opacity="0.9"/>
+    <!-- Mouthpiece -->
+    <ellipse cx="-37" cy="0" rx="4" ry="3" fill="#B8860B"/>
+    <rect x="-42" y="-2" width="8" height="4" rx="1" fill="#DAA520"/>
+    <!-- Valves -->
+    <rect x="-12" y="-16" width="5" height="12" rx="2" fill="#DAA520" stroke="#B8860B" stroke-width="0.5"/>
+    <rect x="-2" y="-16" width="5" height="12" rx="2" fill="#DAA520" stroke="#B8860B" stroke-width="0.5"/>
+    <rect x="8" y="-16" width="5" height="12" rx="2" fill="#DAA520" stroke="#B8860B" stroke-width="0.5"/>
+    <circle cx="-9.5" cy="-17" r="3" fill="#DAA520" stroke="#B8860B" stroke-width="0.5"/>
+    <circle cx="0.5" cy="-17" r="3" fill="#DAA520" stroke="#B8860B" stroke-width="0.5"/>
+    <circle cx="10.5" cy="-17" r="3" fill="#DAA520" stroke="#B8860B" stroke-width="0.5"/>
+    <!-- Main bend curve -->
+    <path d="M10,3 Q30,3 30,15 Q30,25 10,25" fill="none" stroke="#DAA520" stroke-width="5" stroke-linecap="round"/>
+    <!-- Bell -->
+    <path d="M10,0 L10,28" stroke="#DAA520" stroke-width="5"/>
+    <ellipse cx="10" cy="0" rx="10" ry="14" fill="none" stroke="#DAA520" stroke-width="2" opacity="0.3"/>
+    <path d="M5,-14 Q10,-18 15,-14" fill="#DAA520" opacity="0.5"/>
+    <!-- Trombone below -->
+    <rect x="-3" y="50" width="6" height="30" rx="3" fill="#DAA520" opacity="0.8"/>
+    <path d="M-3,80 Q0,88 3,80" fill="#DAA520" opacity="0.8"/>
+    <rect x="-6" y="52" width="12" height="20" rx="2" fill="none" stroke="#B8860B" stroke-width="1"/>
+  </g>
+  <text x="307" y="272" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Труба, тромбон,</text>
+  <text x="307" y="284" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">валторна, туба</text>
+
+  <!-- Card 4: Percussion - Drum -->
+  <rect x="370" y="88" width="105" height="210" rx="6" fill="#FFFFFF" stroke="#2E7D32" stroke-width="1.5" opacity="0.95"/>
+  <rect x="370" y="88" width="105" height="28" rx="6" fill="#2E7D32" opacity="0.9"/>
+  <rect x="370" y="104" width="105" height="12" fill="#2E7D32" opacity="0.9"/>
+  <text x="422" y="107" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">Ударные</text>
+  <!-- Drum illustration -->
+  <g transform="translate(422,180)">
+    <!-- Bass drum -->
+    <ellipse cx="0" cy="0" rx="30" ry="30" fill="#D32F2F" opacity="0.85"/>
+    <ellipse cx="0" cy="0" rx="25" ry="25" fill="#E53935" opacity="0.5"/>
+    <ellipse cx="0" cy="0" rx="30" ry="30" fill="none" stroke="#B71C1C" stroke-width="1.5"/>
+    <!-- Drum rim bolts -->
+    <circle cx="0" cy="-28" r="2" fill="#B8860B"/>
+    <circle cx="24" cy="-14" r="2" fill="#B8860B"/>
+    <circle cx="24" cy="14" r="2" fill="#B8860B"/>
+    <circle cx="0" cy="28" r="2" fill="#B8860B"/>
+    <circle cx="-24" cy="14" r="2" fill="#B8860B"/>
+    <circle cx="-24" cy="-14" r="2" fill="#B8860B"/>
+    <!-- Star decoration on drum -->
+    <polygon points="0,-12 3,-4 12,-4 5,2 7,11 0,6 -7,11 -5,2 -12,-4 -3,-4" fill="#FDD835" opacity="0.7"/>
+    <!-- Drumsticks crossed -->
+    <line x1="-22" y1="-22" x2="22" y2="22" stroke="#D2B48C" stroke-width="3" stroke-linecap="round"/>
+    <line x1="22" y1="-22" x2="-22" y2="22" stroke="#D2B48C" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="-24" cy="-24" r="3" fill="#C4A882"/>
+    <circle cx="24" cy="-24" r="3" fill="#C4A882"/>
+    <!-- Cymbal hint -->
+    <ellipse cx="-20" cy="45" rx="12" ry="3" fill="#DAA520" opacity="0.6"/>
+    <ellipse cx="-20" cy="44" rx="10" ry="2.5" fill="#F0C050" opacity="0.4"/>
+    <ellipse cx="20" cy="45" rx="12" ry="3" fill="#DAA520" opacity="0.6"/>
+    <ellipse cx="20" cy="44" rx="10" ry="2.5" fill="#F0C050" opacity="0.4"/>
+  </g>
+  <text x="422" y="272" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Барабан, тарелки,</text>
+  <text x="422" y="284" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">ксилофон, литавры</text>
+
+  <rect x="15" y="308" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="329" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Классификация инструментов</text>
+</svg>

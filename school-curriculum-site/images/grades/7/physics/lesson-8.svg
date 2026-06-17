@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1C1917"/>
+      <stop offset="100%" stop-color="#292524"/>
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B45309"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="amberV" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <marker id="arrowOrange" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#FB923C"/>
+    </marker>
+    <marker id="arrowWhite" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#FFFBEB"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4ADE80"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F87171"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#60A5FA"/>
+    </marker>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="12"/>
+  <!-- Decorative top bar -->
+  <rect x="0" y="0" width="800" height="4" fill="url(#amberGrad)" rx="2"/>
+  <circle cx="40" cy="45" r="18" fill="#B45309" stroke="#F59E0B" stroke-width="2"/>
+  <text x="40" y="51" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFBEB">7</text>
+  <text x="68" y="52" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#F59E0B" filter="url(#glow)">Механическая работа</text>
+  <text x="68" y="70" font-family="Arial, sans-serif" font-size="13" fill="#FDE68A">A = Fs, единицы (Дж), положительная/отрицательная работа, угол</text>
+  <line x1="20" y1="78" x2="780" y2="78" stroke="#92400E" stroke-width="1" stroke-dasharray="4,4"/>  <rect x="30" y="85" width="280" height="70" rx="8" fill="#292524" stroke="#F59E0B" stroke-width="2"/>
+  <text x="170" y="103" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FDE68A">Механическая работа</text>
+  <text x="170" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#FCD34D" filter="url(#glow)">A = F · s</text>  <rect x="330" y="85" width="230" height="70" rx="8" fill="#292524" stroke="#F59E0B" stroke-width="2"/>
+  <text x="445" y="103" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FDE68A">Единица — Джоуль</text>
+  <text x="445" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FCD34D" filter="url(#glow)">[A] = Дж = Н·м</text>  <rect x="580" y="85" width="200" height="70" rx="8" fill="#292524" stroke="#F59E0B" stroke-width="2"/>
+  <text x="680" y="103" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FDE68A">С учётом угла</text>
+  <text x="680" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FCD34D" filter="url(#glow)">A = F·s·cosα</text>
+  <!-- Work diagram -->
+  <text x="60" y="195" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#F59E0B">Работа силы при движении</text>
+  <rect x="30" y="205" width="480" height="200" rx="6" fill="#292524" stroke="#44403C" stroke-width="1"/>
+  <!-- Surface -->
+  <line x1="50" y1="360" x2="490" y2="360" stroke="#92400E" stroke-width="2"/>
+  <!-- Object -->
+  <rect x="140" y="325" width="60" height="35" rx="5" fill="#B45309" stroke="#F59E0B" stroke-width="2"/>
+  <text x="170" y="348" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#FFFBEB">m</text>
+  <!-- Displacement arrow -->
+  <line x1="200" y1="343" x2="300" y2="343" stroke="#22D3EE" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <text x="250" y="335" font-family="Arial, sans-serif" font-size="12" fill="#22D3EE" text-anchor="middle">s</text>
+  <!-- Force arrow at angle -->
+  <line x1="170" y1="325" x2="170" y2="245" stroke="#F87171" stroke-width="2.5" marker-end="url(#arrowRed)"/>
+  <text x="155" y="260" font-family="Arial, sans-serif" font-size="12" fill="#F87171" font-weight="bold">F</text>
+  <!-- Angle arc -->
+  <path d="M 180,325 A 15,15 0 0 0 176,310" fill="none" stroke="#FCD34D" stroke-width="1.5"/>
+  <text x="195" y="315" font-family="Arial, sans-serif" font-size="12" fill="#FCD34D">α</text>
+  <!-- Component arrows -->
+  <line x1="170" y1="325" x2="220" y2="325" stroke="#4ADE80" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrowGreen)"/>
+  <text x="225" y="320" font-family="Arial, sans-serif" font-size="10" fill="#4ADE80">F·cosα</text>
+  <line x1="220" y1="325" x2="220" y2="280" stroke="#92400E" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- Three cases -->
+  <text x="560" y="195" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#F59E0B">Знак работы</text>
+  <rect x="530" y="205" width="250" height="200" rx="6" fill="#292524" stroke="#44403C" stroke-width="1"/>
+  
+  <!-- Positive work -->
+  <circle cx="565" cy="235" r="8" fill="#4ADE80" opacity="0.5"/>
+  <text x="565" y="239" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFBEB">+</text>
+  <text x="580" y="239" font-family="Arial, sans-serif" font-size="11" fill="#4ADE80" font-weight="bold">A &gt; 0</text>
+  <text x="580" y="255" font-family="Arial, sans-serif" font-size="10" fill="#FDE68A">Сила вдоль движения</text>
+  <text x="580" y="268" font-family="Arial, sans-serif" font-size="10" fill="#FDE68A">(α &lt; 90°)</text>
+  
+  <!-- Zero work -->
+  <circle cx="565" cy="295" r="8" fill="#92400E" opacity="0.5"/>
+  <text x="565" y="299" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFBEB">0</text>
+  <text x="580" y="299" font-family="Arial, sans-serif" font-size="11" fill="#F59E0B" font-weight="bold">A = 0</text>
+  <text x="580" y="315" font-family="Arial, sans-serif" font-size="10" fill="#FDE68A">Сила ⊥ движению</text>
+  <text x="580" y="328" font-family="Arial, sans-serif" font-size="10" fill="#FDE68A">(α = 90°)</text>
+  
+  <!-- Negative work -->
+  <circle cx="565" cy="355" r="8" fill="#F87171" opacity="0.5"/>
+  <text x="565" y="359" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFBEB">−</text>
+  <text x="580" y="359" font-family="Arial, sans-serif" font-size="11" fill="#F87171" font-weight="bold">A &lt; 0</text>
+  <text x="580" y="375" font-family="Arial, sans-serif" font-size="10" fill="#FDE68A">Сила против движения</text>
+  <text x="580" y="388" font-family="Arial, sans-serif" font-size="10" fill="#FDE68A">(α &gt; 90°)</text>
+  <rect x="30" y="420" width="250" height="160" rx="6" fill="#292524" stroke="#44403C" stroke-width="1"/>
+  <text x="40" y="438" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#F59E0B">Определение</text>
+  <text x="40" y="450" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Механическая работа:</text>
+  <text x="40" y="467" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">A = F · s · cos α</text>
+  <text x="40" y="484" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="40" y="501" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">F — сила [Н]</text>
+  <text x="40" y="518" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">s — перемещение [м]</text>
+  <text x="40" y="535" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">α — угол между F и s</text>
+  <text x="40" y="552" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="40" y="569" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">A = 0, если:</text>  <rect x="300" y="420" width="250" height="160" rx="6" fill="#292524" stroke="#44403C" stroke-width="1"/>
+  <text x="310" y="438" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#F59E0B">Примеры расчётов</text>
+  <text x="310" y="450" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Примеры:</text>
+  <text x="310" y="467" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="310" y="484" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">1) Подъём груза F=100Н,</text>
+  <text x="310" y="501" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">   h=3м: A = 100·3 = 300 Дж</text>
+  <text x="310" y="518" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="310" y="535" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">2) Трение Fтр=20Н, s=5м:</text>
+  <text x="310" y="552" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">   A = −20·5 = −100 Дж</text>
+  <text x="310" y="569" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">   (сила против движения)</text>  <rect x="570" y="420" width="210" height="160" rx="6" fill="#292524" stroke="#44403C" stroke-width="1"/>
+  <text x="580" y="438" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#F59E0B">Ключевые моменты</text>
+  <text x="580" y="450" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Важно помнить:</text>
+  <text x="580" y="467" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="580" y="484" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">• Работа — скалярная</text>
+  <text x="580" y="501" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">  величина (не вектор)</text>
+  <text x="580" y="518" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">• Может быть +, −, 0</text>
+  <text x="580" y="535" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">• 1 Дж = 1 Н · 1 м</text>
+  <text x="580" y="552" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">• 1 кДж = 1000 Дж</text>
+  <text x="580" y="569" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">• 1 МДж = 1 000 000 Дж</text>
+</svg>

@@ -1,81 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
-<defs>
-  <style>
-    text { font-family: 'Segoe UI', Arial, Helvetica, sans-serif; }
-  </style>
-  <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
-    <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.08"/>
-  </filter>
-</defs>
-<rect width="800" height="500" rx="12" fill="#f8fafc"/>
-<rect width="800" height="6" fill="#ef4444" rx="3"/>
-<text x="400" y="42" text-anchor="middle" font-size="26" font-weight="700" fill="#1e3a5f">Составление формул по валентности</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E0F2F1"/><stop offset="100%" stop-color="#B2DFDB"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#00796B" stroke-width="3"/>
+<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#00796B" stroke-width="1" opacity="0.3"/>
+<polygon points="10,10 30,10 10,30" fill="#00796B" opacity="0.08"/>
+<polygon points="490,10 470,10 490,30" fill="#009688" opacity="0.08"/>
+<polygon points="10,340 30,340 10,320" fill="#26A69A" opacity="0.08"/>
+<polygon points="490,340 470,340 490,320" fill="#4DB6AC" opacity="0.08"/>
+<circle cx="70" cy="15" r="4" fill="#00796B" opacity="0.1"/>
+<circle cx="82" cy="15" r="4" fill="#009688" opacity="0.1"/>
+<circle cx="94" cy="15" r="4" fill="#26A69A" opacity="0.1"/>
+<circle cx="406" cy="15" r="4" fill="#00796B" opacity="0.1"/>
+<circle cx="418" cy="15" r="4" fill="#009688" opacity="0.1"/>
+<circle cx="430" cy="15" r="4" fill="#26A69A" opacity="0.1"/>
+<text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#00796B" text-anchor="middle">Химические реакции 📚</text>
+<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Химия - Урок 20</text>
+<line x1="30" y1="78" x2="470" y2="78" stroke="#00796B" stroke-width="2" opacity="0.25"/>
+<rect x="30" y="75" width="60" height="6" fill="#00796B" opacity="0.15" rx="1"/>
+<rect x="410" y="75" width="60" height="6" fill="#009688" opacity="0.12" rx="1"/>
 
-<!-- Method title -->
-<rect x="220" y="55" width="360" height="40" rx="20" fill="#fef2f2" stroke="#ef4444" stroke-width="2" filter="url(#shadow)"/>
-<text x="400" y="81" text-anchor="middle" font-size="18" font-weight="700" fill="#ef4444">Метод «крест-накрест»</text>
+  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5"/>
+  <text x="135" y="115" font-family="Arial,sans-serif" font-size="13" fill="#1565C0" text-anchor="middle" font-weight="bold">Химические реакции 📚</text>
+  <!-- Atom model -->
+  <circle cx="135" cy="195" r="45" fill="none" stroke="#90CAF9" stroke-width="1" stroke-dasharray="3,2"/>
+  <circle cx="135" cy="195" r="30" fill="none" stroke="#90CAF9" stroke-width="1" stroke-dasharray="3,2"/>
+  <circle cx="135" cy="195" r="15" fill="none" stroke="#1565C0" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <circle cx="135" cy="195" r="6" fill="#00796B"/>
+  <text x="135" y="198" font-family="Arial,sans-serif" font-size="5" fill="white" text-anchor="middle">p+</text>
+  <!-- Electrons -->
+  <circle cx="170" cy="185" r="3" fill="#1565C0"/>
+  <circle cx="110" cy="175" r="3" fill="#1565C0"/>
+  <circle cx="135" cy="160" r="3" fill="#1565C0"/>
+  <circle cx="155" cy="215" r="3" fill="#1565C0"/>
+  <text x="135" y="260" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">модель атома</text>
+  <text x="135" y="275" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">электроны, протоны, нейтроны</text>
 
-<!-- Example 1: Al2O3 -->
-<rect x="30" y="108" width="240" height="170" rx="14" fill="#fff" stroke="#3b82f6" stroke-width="1.5" filter="url(#shadow)"/>
-<rect x="30" y="108" width="240" height="6" rx="3" fill="#3b82f6"/>
-<text x="150" y="138" text-anchor="middle" font-size="14" font-weight="700" fill="#3b82f6">Пример 1</text>
-
-<text x="150" y="165" text-anchor="middle" font-size="20" font-weight="600" fill="#1e3a5f">Al<tspan font-size="13" baseline-shift="sub" fill="#3b82f6">(III)</tspan> O<tspan font-size="13" baseline-shift="sub" fill="#10b981">(II)</tspan></text>
-
-<!-- Cross arrows -->
-<path d="M105,180 L185,210" fill="none" stroke="#ef4444" stroke-width="2" stroke-dasharray="4,3"/>
-<path d="M185,180 L105,210" fill="none" stroke="#ef4444" stroke-width="2" stroke-dasharray="4,3"/>
-
-<text x="150" y="235" text-anchor="middle" font-size="16" fill="#475569">→ Al<tspan font-size="12" baseline-shift="sub">2</tspan>O<tspan font-size="12" baseline-shift="sub">3</tspan></text>
-
-<rect x="55" y="248" width="190" height="22" rx="6" fill="#dcfce7"/>
-<text x="150" y="264" text-anchor="middle" font-size="12" font-weight="600" fill="#166534">III × 2 = II × 3 = 6 ✓</text>
-
-<!-- Example 2: CaCl2 -->
-<rect x="280" y="108" width="240" height="170" rx="14" fill="#fff" stroke="#10b981" stroke-width="1.5" filter="url(#shadow)"/>
-<rect x="280" y="108" width="240" height="6" rx="3" fill="#10b981"/>
-<text x="400" y="138" text-anchor="middle" font-size="14" font-weight="700" fill="#10b981">Пример 2</text>
-
-<text x="400" y="165" text-anchor="middle" font-size="20" font-weight="600" fill="#1e3a5f">Ca<tspan font-size="13" baseline-shift="sub" fill="#3b82f6">(II)</tspan> Cl<tspan font-size="13" baseline-shift="sub" fill="#10b981">(I)</tspan></text>
-
-<path d="M355,180 L435,210" fill="none" stroke="#ef4444" stroke-width="2" stroke-dasharray="4,3"/>
-<path d="M435,180 L355,210" fill="none" stroke="#ef4444" stroke-width="2" stroke-dasharray="4,3"/>
-
-<text x="400" y="235" text-anchor="middle" font-size="16" fill="#475569">→ CaCl<tspan font-size="12" baseline-shift="sub">2</tspan></text>
-
-<rect x="305" y="248" width="190" height="22" rx="6" fill="#dcfce7"/>
-<text x="400" y="264" text-anchor="middle" font-size="12" font-weight="600" fill="#166534">II × 1 = I × 2 = 2 ✓</text>
-
-<!-- Example 3: Fe2S3 -->
-<rect x="530" y="108" width="240" height="170" rx="14" fill="#fff" stroke="#8b5cf6" stroke-width="1.5" filter="url(#shadow)"/>
-<rect x="530" y="108" width="240" height="6" rx="3" fill="#8b5cf6"/>
-<text x="650" y="138" text-anchor="middle" font-size="14" font-weight="700" fill="#8b5cf6">Пример 3</text>
-
-<text x="650" y="165" text-anchor="middle" font-size="20" font-weight="600" fill="#1e3a5f">Fe<tspan font-size="13" baseline-shift="sub" fill="#3b82f6">(III)</tspan> S<tspan font-size="13" baseline-shift="sub" fill="#10b981">(II)</tspan></text>
-
-<path d="M605,180 L685,210" fill="none" stroke="#ef4444" stroke-width="2" stroke-dasharray="4,3"/>
-<path d="M685,180 L605,210" fill="none" stroke="#ef4444" stroke-width="2" stroke-dasharray="4,3"/>
-
-<text x="650" y="235" text-anchor="middle" font-size="16" fill="#475569">→ Fe<tspan font-size="12" baseline-shift="sub">2</tspan>S<tspan font-size="12" baseline-shift="sub">3</tspan></text>
-
-<rect x="555" y="248" width="190" height="22" rx="6" fill="#dcfce7"/>
-<text x="650" y="264" text-anchor="middle" font-size="12" font-weight="600" fill="#166534">III × 2 = II × 3 = 6 ✓</text>
-
-<!-- LCM method -->
-<rect x="30" y="292" width="740" height="120" rx="14" fill="#fff" stroke="#f59e0b" stroke-width="1.5" filter="url(#shadow)"/>
-<rect x="30" y="292" width="740" height="6" rx="3" fill="#f59e0b"/>
-<text x="400" y="320" text-anchor="middle" font-size="15" font-weight="700" fill="#f59e0b">Метод наименьшего общего кратного (НОК)</text>
-
-<text x="55" y="348" font-size="14" fill="#475569">1. Найти НОК валентностей элементов</text>
-<text x="55" y="370" font-size="14" fill="#475569">2. Разделить НОК на валентность каждого элемента → получить индексы</text>
-<text x="55" y="395" font-size="14" fill="#475569">Пример: Al(III) + O(II) → НОК(3,2) = 6 → 6/3=<tspan font-weight="700" fill="#3b82f6">2</tspan>, 6/2=<tspan font-weight="700" fill="#10b981">3</tspan> → Al<tspan font-size="11" baseline-shift="sub">2</tspan>O<tspan font-size="11" baseline-shift="sub">3</tspan></text>
-
-<!-- Simplification note -->
-<rect x="30" y="425" width="740" height="40" rx="10" fill="#fef2f2" stroke="#ef4444" stroke-width="1" filter="url(#shadow)"/>
-<text x="400" y="450" text-anchor="middle" font-size="14" font-weight="600" fill="#ef4444">⚠ Если индексы имеют общий делитель — сокращаем!  C(IV)O(II) → CO₂ (не C₂O₄)</text>
-
-<!-- Footer -->
-<rect x="200" y="472" width="400" height="3" rx="1.5" fill="#e2e8f0"/>
-<text x="400" y="492" text-anchor="middle" font-size="12" fill="#94a3b8">Валентность одного элемента становится индексом другого</text>
+  <rect x="260" y="90" width="215" height="200" rx="6" fill="white" stroke="#00796B" stroke-width="1.5"/>
+  <text x="367" y="115" font-family="Arial,sans-serif" font-size="12" fill="#00796B" text-anchor="middle" font-weight="bold">Химические формулы</text>
+  <!-- Flask -->
+  <path d="M345,160 L340,200 Q340,210 350,210 L384,210 Q394,210 394,200 L389,160 Z" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
+  <rect x="348" y="145" width="38" height="18" rx="3" fill="none" stroke="#1565C0" stroke-width="1.5"/>
+  <line x1="355" y1="145" x2="355" y2="137" stroke="#888" stroke-width="1.5"/>
+  <line x1="379" y1="145" x2="379" y2="137" stroke="#888" stroke-width="1.5"/>
+  <line x1="355" y1="137" x2="379" y2="137" stroke="#888" stroke-width="1.5"/>
+  <!-- Liquid -->
+  <path d="M342,185 L340,200 Q340,210 350,210 L384,210 Q394,210 394,200 L392,185 Z" fill="#81D4FA" opacity="0.5"/>
+  <!-- Bubbles -->
+  <circle cx="360" cy="195" r="3" fill="none" stroke="#1565C0" stroke-width="0.8"/>
+  <circle cx="375" cy="190" r="2" fill="none" stroke="#1565C0" stroke-width="0.8"/>
+  <circle cx="365" cy="180" r="2" fill="none" stroke="#1565C0" stroke-width="0.8"/>
+  <!-- Test tube -->
+  <rect x="415" y="150" width="10" height="55" rx="5" fill="#FFECB3" stroke="#F9A825" stroke-width="1"/>
+  <path d="M415,195 L425,195 L425,205 Q425,210 420,210 Q415,210 415,205 Z" fill="#FFCC80"/>
+  <!-- Equations -->
+  <text x="367" y="240" font-family="Arial,sans-serif" font-size="9" fill="#00796B" text-anchor="middle">H2 + O2 = H2O</text>
+  <text x="367" y="258" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle">Na + Cl = NaCl</text>
+  <text x="367" y="276" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle">C + O2 = CO2</text>
+<rect x="15" y="310" width="470" height="30" rx="4" fill="#00796B" opacity="0.85"/>
+<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Химия</text>
+  <polygon points="450,110 460,115 460,125 450,130 440,125 440,115" fill="none" stroke="#00796B" stroke-width="1" opacity="0.12"/>
+  <polygon points="468,125 478,130 478,140 468,145 458,140 458,130" fill="none" stroke="#26A69A" stroke-width="1" opacity="0.1"/>
 </svg>

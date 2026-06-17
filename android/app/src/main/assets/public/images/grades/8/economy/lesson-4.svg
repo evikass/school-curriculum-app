@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#15803D" />
+      <stop offset="100%" style="stop-color:#16A34A" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#D97706" />
+      <stop offset="100%" style="stop-color:#F59E0B" />
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="2" stdDeviation="3" flood-color="#00000020" />
+    </filter>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0FDF4" />
+      <stop offset="100%" style="stop-color:#DCFCE7" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFBEB" />
+      <stop offset="100%" style="stop-color:#FEF3C7" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <line x1="0" y1="0" x2="0" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="40" y1="0" x2="40" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="80" y1="0" x2="80" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="120" y1="0" x2="120" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="160" y1="0" x2="160" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="200" y1="0" x2="200" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="240" y1="0" x2="240" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="280" y1="0" x2="280" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="320" y1="0" x2="320" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="360" y1="0" x2="360" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="400" y1="0" x2="400" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="440" y1="0" x2="440" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="480" y1="0" x2="480" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="520" y1="0" x2="520" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="560" y1="0" x2="560" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="600" y1="0" x2="600" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="640" y1="0" x2="640" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="680" y1="0" x2="680" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="720" y1="0" x2="720" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="760" y1="0" x2="760" y2="600" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="0" x2="800" y2="0" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="40" x2="800" y2="40" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="120" x2="800" y2="120" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="160" x2="800" y2="160" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="240" x2="800" y2="240" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="280" x2="800" y2="280" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="320" x2="800" y2="320" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="360" x2="800" y2="360" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="440" x2="800" y2="440" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="480" x2="800" y2="480" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="520" x2="800" y2="520" stroke="#D1FAE5" stroke-width="0.5" />
+  <line x1="0" y1="560" x2="800" y2="560" stroke="#D1FAE5" stroke-width="0.5" />
+  <rect x="0" y="0" width="800" height="70" fill="url(#titleGrad)" />
+  <rect x="0" y="67" width="800" height="3" fill="url(#goldGrad)" />
+  <circle cx="40" cy="35" r="22" fill="#D97706" />
+  <text x="40" y="42" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="bold" font-family="Arial, sans-serif">4</text>
+  <text x="75" y="32" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">Производство и прибыль</text>
+  <text x="75" y="54" fill="#BBF7D0" font-size="13" font-family="Arial, sans-serif">Экономика • 8 класс</text>
+  <rect x="30" y="85" width="740" height="120" fill="#FFFFFF" stroke="#16A34A" stroke-width="1.5" rx="10" filter="url(#shadow)" />
+  <text x="400" y="110" text-anchor="middle" fill="#15803D" font-size="15" font-weight="bold" font-family="Arial, sans-serif">Процесс производства</text>
+  <rect x="55" y="137" width="110" height="36" fill="#92400E" rx="18" />
+  <text x="110" y="160" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Ресурсы</text>
+  <rect x="225" y="137" width="110" height="36" fill="#16A34A" rx="18" />
+  <text x="280" y="160" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Производство</text>
+  <rect x="395" y="137" width="110" height="36" fill="#2563EB" rx="18" />
+  <text x="450" y="160" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Товары/услуги</text>
+  <rect x="565" y="137" width="110" height="36" fill="#D97706" rx="18" />
+  <text x="620" y="160" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Рынок</text>
+  <line x1="165" y1="155" x2="225" y2="155" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)" />
+  <polygon points="225,155 217.6315120479769,158.1153467384692 217.6315120479769,151.8846532615308" fill="#64748B" />
+  <line x1="335" y1="155" x2="395" y2="155" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)" />
+  <polygon points="395,155 387.6315120479769,158.1153467384692 387.6315120479769,151.8846532615308" fill="#64748B" />
+  <line x1="505" y1="155" x2="565" y2="155" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)" />
+  <polygon points="565,155 557.6315120479769,158.1153467384692 557.6315120479769,151.8846532615308" fill="#64748B" />
+  <rect x="30" y="220" width="355" height="180" fill="#FFFFFF" stroke="#16A34A" stroke-width="1.5" rx="10" filter="url(#shadow)" />
+  <text x="207" y="245" text-anchor="middle" fill="#1E293B" font-size="14" font-weight="bold" font-family="Arial, sans-serif">Издержки (затраты)</text>
+  <rect x="50" y="258" width="12" height="12" fill="#DC2626" rx="2" />
+  <text x="72" y="270" text-anchor="start" fill="#1E293B" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Постоянные (FC)</text>
+  <text x="72" y="286" text-anchor="start" fill="#64748B" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Не зависят от объёма</text>
+  <rect x="50" y="303" width="12" height="12" fill="#2563EB" rx="2" />
+  <text x="72" y="315" text-anchor="start" fill="#1E293B" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Переменные (VC)</text>
+  <text x="72" y="331" text-anchor="start" fill="#64748B" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Зависят от объёма</text>
+  <rect x="50" y="348" width="12" height="12" fill="#16A34A" rx="2" />
+  <text x="72" y="360" text-anchor="start" fill="#1E293B" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Общие (TC)</text>
+  <text x="72" y="376" text-anchor="start" fill="#64748B" font-size="10" font-weight="normal" font-family="Arial, sans-serif">FC + VC</text>
+  <rect x="410" y="220" width="355" height="180" fill="#FFFFFF" stroke="#16A34A" stroke-width="1.5" rx="10" filter="url(#shadow)" />
+  <text x="587" y="245" text-anchor="middle" fill="#1E293B" font-size="14" font-weight="bold" font-family="Arial, sans-serif">Доход и прибыль</text>
+  <rect x="430" y="258" width="12" height="12" fill="#D97706" rx="2" />
+  <text x="452" y="270" text-anchor="start" fill="#1E293B" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Выручка (TR)</text>
+  <text x="452" y="286" text-anchor="start" fill="#D97706" font-size="11" font-weight="bold" font-family="Arial, sans-serif">P × Q</text>
+  <rect x="430" y="303" width="12" height="12" fill="#16A34A" rx="2" />
+  <text x="452" y="315" text-anchor="start" fill="#1E293B" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Прибыль (Pr)</text>
+  <text x="452" y="331" text-anchor="start" fill="#16A34A" font-size="11" font-weight="bold" font-family="Arial, sans-serif">TR - TC</text>
+  <rect x="430" y="348" width="12" height="12" fill="#2563EB" rx="2" />
+  <text x="452" y="360" text-anchor="start" fill="#1E293B" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Рентабельность</text>
+  <text x="452" y="376" text-anchor="start" fill="#2563EB" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Pr / TC × 100%</text>
+  <rect x="30" y="415" width="240" height="70" fill="url(#accentGrad)" stroke="#D97706" stroke-width="2" rx="8" />
+  <text x="150" y="433" text-anchor="middle" fill="#D97706" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Прибыль</text>
+  <text x="150" y="460" text-anchor="middle" fill="#1E293B" font-size="18" font-weight="bold" font-family="Arial, sans-serif">Pr = TR - TC</text>
+  <rect x="285" y="415" width="240" height="70" fill="url(#accentGrad)" stroke="#D97706" stroke-width="2" rx="8" />
+  <text x="405" y="433" text-anchor="middle" fill="#D97706" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Выручка</text>
+  <text x="405" y="460" text-anchor="middle" fill="#1E293B" font-size="18" font-weight="bold" font-family="Arial, sans-serif">TR = P × Q</text>
+  <rect x="540" y="415" width="230" height="70" fill="url(#accentGrad)" stroke="#D97706" stroke-width="2" rx="8" />
+  <text x="655" y="433" text-anchor="middle" fill="#D97706" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Общие затраты</text>
+  <text x="655" y="460" text-anchor="middle" fill="#1E293B" font-size="18" font-weight="bold" font-family="Arial, sans-serif">TC = FC + VC</text>
+  <rect x="30" y="505" width="355" height="70" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.5" rx="10" filter="url(#shadow)" />
+  <text x="207" y="530" text-anchor="middle" fill="#15803D" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Pr &amp;gt; 0 — Прибыль</text>
+  <text x="207" y="555" text-anchor="middle" fill="#64748B" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Предприятие успешно</text>
+  <rect x="410" y="505" width="355" height="70" fill="#FEE2E2" stroke="#DC2626" stroke-width="1.5" rx="10" filter="url(#shadow)" />
+  <text x="587" y="530" text-anchor="middle" fill="#DC2626" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Pr &amp;lt; 0 — Убыток</text>
+  <text x="587" y="555" text-anchor="middle" fill="#64748B" font-size="11" font-weight="normal" font-family="Arial, sans-serif">Необходимы изменения</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>@keyframes glow{0%,100%{opacity:0.6}50%{opacity:1}}</style></defs>
+  <rect width="500" height="350" fill="#263238" rx="12"/>
+  <text x="250" y="28" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#FFD54F">Безударные гласные в корне</text>
+  <!-- Spotlight beam -->
+  <ellipse cx="250" cy="300" rx="180" ry="30" fill="#1A237E" opacity="0.3"/>
+  <!-- Magnifying glass -->
+  <circle cx="280" cy="175" r="70" fill="none" stroke="#78909C" stroke-width="8" opacity="0.3"/>
+  <circle cx="280" cy="175" r="60" fill="#E8EAF6" opacity="0.15"/>
+  <circle cx="280" cy="175" r="55" fill="none" stroke="#FFD54F" stroke-width="6"/>
+  <circle cx="280" cy="175" r="55" fill="none" stroke="#FFC107" stroke-width="3"/>
+  <!-- Handle -->
+  <line x1="330" y1="225" x2="400" y2="295" stroke="#8D6E63" stroke-width="10" stroke-linecap="round"/>
+  <line x1="330" y1="225" x2="400" y2="295" stroke="#A1887F" stroke-width="6" stroke-linecap="round"/>
+  <!-- Word inside magnifying glass -->
+  <text x="280" y="185" text-anchor="middle" font-size="40" font-family="sans-serif" fill="#fff">в<tg fill="#FF5252">о</tg>да</text>
+  <!-- Highlighted vowel -->
+  <rect x="265" y="158" width="28" height="35" fill="#FF5252" opacity="0.3" rx="5" style="animation:glow 1.5s ease-in-out infinite"/>
+  <!-- Check word above -->
+  <rect x="50" y="60" width="140" height="40" fill="#1B5E20" stroke="#4CAF50" stroke-width="2" rx="8"/>
+  <text x="120" y="85" text-anchor="middle" font-size="16" fill="#fff" font-family="sans-serif">в<tg fill="#FFEB3B">о</tg>ды</text>
+  <!-- Arrow from check word -->
+  <path d="M190,80 Q230,80 260,120" stroke="#4CAF50" stroke-width="2.5" fill="none" marker-end="url(#arr)"/>
+  <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8Z" fill="#4CAF50"/></marker></defs>
+  <!-- Label -->
+  <text x="120" y="115" text-anchor="middle" font-size="11" fill="#81C784" font-family="sans-serif">проверочное слово</text>
+  <!-- Detective hat -->
+  <ellipse cx="350" cy="90" rx="35" ry="10" fill="#37474F"/>
+  <rect x="330" y="60" width="40" height="30" fill="#455A64" rx="3"/>
+  <rect x="325" y="55" width="50" height="10" fill="#546E7A" rx="2"/>
+  <!-- Stars/sparkles -->
+  <text x="150" y="170" font-size="16" fill="#FFD54F">✦</text>
+  <text x="400" y="140" font-size="12" fill="#FFD54F">✦</text>
+  <text x="100" y="250" font-size="14" fill="#FFD54F">✦</text>
+  <text x="420" y="80" font-size="10" fill="#FFD54F">✦</text>
+  <!-- Footprints -->
+  <ellipse cx="120" cy="280" rx="6" ry="9" fill="#455A64" opacity="0.4" transform="rotate(-15,120,280)"/>
+  <ellipse cx="140" cy="270" rx="6" ry="9" fill="#455A64" opacity="0.4" transform="rotate(-15,140,270)"/>
+  <ellipse cx="160" cy="260" rx="6" ry="9" fill="#455A64" opacity="0.4" transform="rotate(-15,160,260)"/>
+  <text x="250" y="330" text-anchor="middle" font-size="11" fill="#78909C" font-family="sans-serif">Подбирай проверочное слово!</text>
+</svg>

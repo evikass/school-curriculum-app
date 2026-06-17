@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1C1917"/>
+      <stop offset="100%" stop-color="#292524"/>
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B45309"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="amberV" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <marker id="arrowOrange" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#FB923C"/>
+    </marker>
+    <marker id="arrowWhite" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#FFFBEB"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4ADE80"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F87171"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#60A5FA"/>
+    </marker>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="12"/>
+  <!-- Decorative top bar -->
+  <rect x="0" y="0" width="800" height="4" fill="url(#amberGrad)" rx="2"/>
+  <circle cx="40" cy="45" r="18" fill="#B45309" stroke="#F59E0B" stroke-width="2"/>
+  <text x="40" y="51" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFBEB">7</text>
+  <text x="68" y="52" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#F59E0B" filter="url(#glow)">Законы Ньютона</text>
+  <text x="68" y="70" font-family="Arial, sans-serif" font-size="13" fill="#FDE68A">I закон (инерция), II закон (F=ma), III закон (действие=противодействие)</text>
+  <line x1="20" y1="78" x2="780" y2="78" stroke="#92400E" stroke-width="1" stroke-dasharray="4,4"/>
+  <!-- I Закон Ньютона -->
+  <rect x="25" y="90" width="240" height="230" rx="8" fill="#292524" stroke="#F59E0B" stroke-width="2"/>
+  <rect x="25" y="90" width="240" height="30" rx="8" fill="#B45309"/>
+  <text x="145" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFBEB">I Закон Ньютона</text>
+  <text x="40" y="145" font-family="Arial, sans-serif" font-size="11" fill="#FCD34D" font-weight="bold">Закон инерции:</text>
+  <text x="40" y="163" font-family="Arial, sans-serif" font-size="10" fill="#FEF3C7">Тело сохраняет состояние</text>
+  <text x="40" y="177" font-family="Arial, sans-serif" font-size="10" fill="#FEF3C7">покоя или равномерного</text>
+  <text x="40" y="191" font-family="Arial, sans-serif" font-size="10" fill="#FEF3C7">прямолинейного движения,</text>
+  <text x="40" y="205" font-family="Arial, sans-serif" font-size="10" fill="#FEF3C7">если на него не действуют</text>
+  <text x="40" y="219" font-family="Arial, sans-serif" font-size="10" fill="#FEF3C7">другие тела или их действие</text>
+  <text x="40" y="233" font-family="Arial, sans-serif" font-size="10" fill="#FEF3C7">скомпенсировано.</text>
+  <!-- Inertia diagram: object moving at constant v -->
+  <line x1="50" y1="270" x2="230" y2="270" stroke="#92400E" stroke-width="2"/>
+  <rect x="80" y="254" width="35" height="22" rx="3" fill="#B45309" stroke="#4ADE80" stroke-width="1.5"/>
+  <line x1="115" y1="265" x2="145" y2="265" stroke="#4ADE80" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  <text x="150" y="268" font-family="Arial, sans-serif" font-size="11" fill="#4ADE80">v = const</text>
+  <text x="145" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#92400E">F = 0 → v = const</text>
+
+  <!-- II Закон Ньютона -->
+  <rect x="280" y="90" width="240" height="230" rx="8" fill="#292524" stroke="#F59E0B" stroke-width="2"/>
+  <rect x="280" y="90" width="240" height="30" rx="8" fill="#B45309"/>
+  <text x="400" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFBEB">II Закон Ньютона</text>
+  <!-- Big formula -->
+  <text x="400" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#FCD34D" filter="url(#glow)">F = m · a</text>
+  <text x="400" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FDE68A">Ускорение прямо пропорционально</text>
+  <text x="400" y="192" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FDE68A">силе и обратно пропорционально</text>
+  <text x="400" y="206" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FDE68A">массе тела</text>
+  <!-- Force diagram -->
+  <rect x="330" y="225" width="40" height="30" rx="3" fill="#B45309" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="350" y="244" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#FFFBEB">m</text>
+  <line x1="370" y1="240" x2="420" y2="240" stroke="#F87171" stroke-width="2.5" marker-end="url(#arrowRed)"/>
+  <text x="395" y="233" font-family="Arial, sans-serif" font-size="11" fill="#F87171" font-weight="bold">F</text>
+  <line x1="370" y1="260" x2="420" y2="260" stroke="#4ADE80" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  <text x="395" y="275" font-family="Arial, sans-serif" font-size="11" fill="#4ADE80" font-weight="bold">a</text>
+  <text x="400" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#92400E">[F]=Н, [m]=кг, [a]=м/с²</text>
+
+  <!-- III Закон Ньютона -->
+  <rect x="535" y="90" width="240" height="230" rx="8" fill="#292524" stroke="#F59E0B" stroke-width="2"/>
+  <rect x="535" y="90" width="240" height="30" rx="8" fill="#B45309"/>
+  <text x="655" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFBEB">III Закон Ньютона</text>
+  <text x="655" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FCD34D" filter="url(#glow)">F₁ = −F₂</text>
+  <text x="655" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FDE68A">Действие = Противодействие</text>
+  <text x="655" y="192" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FDE68A">Силы равны по модулю,</text>
+  <text x="655" y="206" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FDE68A">противоположны по</text>
+  <text x="655" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FDE68A">направлению, приложены</text>
+  <text x="655" y="234" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FDE68A">к разным телам!</text>
+  <!-- Two objects pushing -->
+  <rect x="580" y="255" width="40" height="30" rx="3" fill="#B45309" stroke="#F87171" stroke-width="1.5"/>
+  <rect x="690" y="255" width="40" height="30" rx="3" fill="#1C1917" stroke="#4ADE80" stroke-width="1.5"/>
+  <line x1="620" y1="270" x2="660" y2="270" stroke="#F87171" stroke-width="2" marker-end="url(#arrowRed)"/>
+  <text x="635" y="265" font-family="Arial, sans-serif" font-size="10" fill="#F87171">F₁</text>
+  <line x1="690" y1="275" x2="650" y2="275" stroke="#4ADE80" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  <text x="665" y="290" font-family="Arial, sans-serif" font-size="10" fill="#4ADE80">F₂</text>
+  <text x="655" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#92400E">|F₁| = |F₂|</text>
+  <rect x="25" y="340" width="250" height="240" rx="6" fill="#292524" stroke="#44403C" stroke-width="1"/>
+  <text x="35" y="358" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#F59E0B">I Закон: примеры</text>
+  <text x="35" y="370" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Примеры I закона:</text>
+  <text x="35" y="387" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="35" y="404" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">• Книга на столе — покой</text>
+  <text x="35" y="421" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">  (Fтяж = N, уравновешены)</text>
+  <text x="35" y="438" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">• Мяч катится по льду —</text>
+  <text x="35" y="455" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">  равномерное движение</text>
+  <text x="35" y="472" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">  (трение мало)</text>
+  <text x="35" y="489" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">• Космонавт в космосе —</text>
+  <text x="35" y="506" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">  движется по инерции</text>
+  <text x="35" y="523" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="35" y="540" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Инерция — свойство тела</text>
+  <text x="35" y="557" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">сохранять свою скорость.</text>  <rect x="290" y="340" width="250" height="240" rx="6" fill="#292524" stroke="#44403C" stroke-width="1"/>
+  <text x="300" y="358" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#F59E0B">II Закон: примеры</text>
+  <text x="300" y="370" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Примеры II закона:</text>
+  <text x="300" y="387" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="300" y="404" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">• Чем больше сила, тем</text>
+  <text x="300" y="421" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">  больше ускорение.</text>
+  <text x="300" y="438" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">• Чем больше масса, тем</text>
+  <text x="300" y="455" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">  меньше ускорение.</text>
+  <text x="300" y="472" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="300" y="489" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Задача: m=2кг, F=10Н</text>
+  <text x="300" y="506" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">a = F/m = 10/2 = 5 м/с²</text>
+  <text x="300" y="523" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="300" y="540" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Если F удвоить → a удвоится</text>
+  <text x="300" y="557" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Если m удвоить → a уменьш.</text>  <rect x="555" y="340" width="220" height="240" rx="6" fill="#292524" stroke="#44403C" stroke-width="1"/>
+  <text x="565" y="358" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#F59E0B">III Закон: примеры</text>
+  <text x="565" y="370" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Примеры III закона:</text>
+  <text x="565" y="387" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="565" y="404" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">• Стол давит на книгу,</text>
+  <text x="565" y="421" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">  книга — на стол.</text>
+  <text x="565" y="438" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">• Ноги толкают землю,</text>
+  <text x="565" y="455" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">  земля — ноги (ходьба).</text>
+  <text x="565" y="472" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">• Ракета: газы назад,</text>
+  <text x="565" y="489" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">  ракета вперёд.</text>
+  <text x="565" y="506" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7"></text>
+  <text x="565" y="523" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">Важно: силы приложены</text>
+  <text x="565" y="540" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">к РАЗНЫМ телам, поэтому</text>
+  <text x="565" y="557" font-family="Arial, sans-serif" font-size="11" fill="#FEF3C7">не уравновешивают!</text>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Background -->
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <!-- Top red accent bar -->
+  <rect width="500" height="6" fill="#C41E3A"/>
+  <!-- Gold line under red bar -->
+  <rect y="6" width="500" height="2" fill="#D4A843" opacity="0.6"/>
+
+  <!-- Title -->
+  <text x="250" y="45" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Урок 24:  Путешествия</text>
+  <!-- Subtitle -->
+  <text x="250" y="70" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#2B4C7E" text-anchor="middle">Travel</text>
+
+  
+  <!-- Suitcase -->
+  <rect x="60" y="150" width="80" height="60" rx="5" fill="#8D6E63" stroke="#1a1a1a" stroke-width="2"/>
+  <rect x="85" y="140" width="30" height="15" rx="4" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  <rect x="60" y="150" width="80" height="20" rx="5" fill="#795548" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="100" y1="170" x2="100" y2="210" stroke="#1a1a1a" stroke-width="1"/>
+  <circle cx="90" cy="210" r="5" fill="#1a1a1a"/>
+  <circle cx="110" cy="210" r="5" fill="#1a1a1a"/>
+  <rect x="78" y="180" width="15" height="10" rx="2" fill="#D4A843"/>
+  <rect x="98" y="180" width="15" height="10" rx="2" fill="#D4A843"/>
+  <text x="100" y="232" font-family="Arial" font-size="9" fill="#1a1a1a" text-anchor="middle" font-weight="bold">suitcase</text>
+  <!-- Map (unfolded) -->
+  <rect x="190" y="120" width="120" height="90" rx="3" fill="#FFF9C4" stroke="#1a1a1a" stroke-width="1.5"/>
+  <!-- Map details -->
+  <path d="M200 160 Q220 150 240 160 Q260 170 280 155 Q290 150 300 158" fill="none" stroke="#42A5F5" stroke-width="2"/>
+  <path d="M210 175 Q230 165 250 180 Q270 190 290 178" fill="none" stroke="#43A047" stroke-width="3"/>
+  <circle cx="220" cy="145" r="4" fill="#C41E3A"/>
+  <text x="220" y="142" font-family="Arial" font-size="6" fill="#C41E3A">you are here</text>
+  <line x1="200" y1="135" x2="210" y2="145" stroke="#C41E3A" stroke-width="1" stroke-dasharray="2,2"/>
+  <circle cx="280" cy="135" r="3" fill="#D4A843"/>
+  <text x="280" y="132" font-family="Arial" font-size="6" fill="#D4A843">destination</text>
+  <text x="250" y="225" font-family="Arial" font-size="9" fill="#1a1a1a" text-anchor="middle" font-weight="bold">map</text>
+  <!-- Compass -->
+  <circle cx="400" cy="165" r="30" fill="#FFF9C4" stroke="#1a1a1a" stroke-width="2"/>
+  <circle cx="400" cy="165" r="25" fill="none" stroke="#1a1a1a" stroke-width="0.5"/>
+  <!-- N/S/E/W -->
+  <text x="400" y="148" font-family="Arial" font-size="10" fill="#C41E3A" text-anchor="middle" font-weight="bold">N</text>
+  <text x="400" y="192" font-family="Arial" font-size="10" fill="#1a1a1a" text-anchor="middle">S</text>
+  <text x="418" y="169" font-family="Arial" font-size="8" fill="#1a1a1a" text-anchor="middle">E</text>
+  <text x="383" y="169" font-family="Arial" font-size="8" fill="#1a1a1a" text-anchor="middle">W</text>
+  <!-- Compass needle -->
+  <polygon points="400,150 396,165 400,162 404,165" fill="#C41E3A"/>
+  <polygon points="400,180 396,165 400,168 404,165" fill="#1a1a1a"/>
+  <text x="400" y="210" font-family="Arial" font-size="9" fill="#1a1a1a" text-anchor="middle" font-weight="bold">compass</text>
+  <!-- Ticket -->
+  <rect x="150" y="255" width="80" height="40" rx="3" fill="#FFFFFF" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="175" y1="255" x2="175" y2="295" stroke="#1a1a1a" stroke-width="1" stroke-dasharray="3,3"/>
+  <circle cx="150" cy="275" r="6" fill="#F5E6C8" stroke="#1a1a1a" stroke-width="1"/>
+  <circle cx="230" cy="275" r="6" fill="#F5E6C8" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="162" y="270" font-family="Arial" font-size="6" fill="#1a1a1a" text-anchor="middle">TRAIN</text>
+  <text x="162" y="280" font-family="Arial" font-size="6" fill="#1a1a1a" text-anchor="middle">Ticket</text>
+  <text x="203" y="273" font-family="Arial" font-size="7" fill="#C41E3A" text-anchor="middle" font-weight="bold">Moscow</text>
+  <text x="203" y="284" font-family="Arial" font-size="7" fill="#C41E3A" text-anchor="middle">--&gt;</text>
+  <!-- Camera -->
+  <rect x="260" y="258" width="40" height="30" rx="4" fill="#616161" stroke="#1a1a1a" stroke-width="1.5"/>
+  <circle cx="280" cy="273" r="10" fill="#212121" stroke="#1a1a1a" stroke-width="1"/>
+  <circle cx="280" cy="273" r="6" fill="#42A5F5" opacity="0.5"/>
+  <rect x="270" y="254" width="20" height="6" rx="2" fill="#616161" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="280" y="300" font-family="Arial" font-size="9" fill="#1a1a1a" text-anchor="middle">camera</text>
+  <!-- Passport -->
+  <rect x="340" y="252" width="50" height="38" rx="3" fill="#2B4C7E" stroke="#1a1a1a" stroke-width="1.5"/>
+  <circle cx="365" cy="268" r="8" fill="#D4A843" opacity="0.5"/>
+  <text x="365" y="272" font-family="Arial" font-size="6" fill="#D4A843" text-anchor="middle" font-weight="bold">PASSPORT</text>
+  <text x="365" y="300" font-family="Arial" font-size="9" fill="#1a1a1a" text-anchor="middle" font-weight="bold">passport</text>
+  <!-- Plane trail -->
+  <path d="M60 105 Q150 95 250 100 Q350 105 450 95" fill="none" stroke="#2B4C7E" stroke-width="2" stroke-dasharray="5,5" opacity="0.4"/>
+  <polygon points="440,88 460,92 445,98" fill="#2B4C7E" opacity="0.5"/>
+
+  <!-- Bottom dark bar -->
+  <rect y="318" width="500" height="32" fill="#1a1a1a"/>
+  <rect y="318" width="500" height="2" fill="#D4A843" opacity="0.5"/>
+  <text x="250" y="339" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#F5E6C8" text-anchor="middle" letter-spacing="1">Иностранный язык — 4 класс</text>
+</svg>

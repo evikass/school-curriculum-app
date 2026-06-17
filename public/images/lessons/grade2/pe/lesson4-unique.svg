@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs><style>.t{font:bold 17px sans-serif;fill:#fff;@keyframes wobble{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg)}}</style></defs>
+  <rect width="500" height="350" rx="12" fill="#0d47a1"/>
+  <rect x="4" y="4" width="492" height="342" rx="10" fill="none" stroke="#82b1ff" stroke-width="1.5"/>
+  <text x="250" y="26" text-anchor="middle" class="t">Упражнения на равновесие</text>
+  <!-- Balance beam 1 (elevated) -->
+  <rect x="60" y="210" width="200" height="10" rx="2" fill="#8d6e63"/>
+  <rect x="60" y="210" width="200" height="4" rx="1" fill="#a1887f"/>
+  <!-- Beam supports -->
+  <rect x="80" y="220" width="8" height="40" rx="1" fill="#6d4c41"/>
+  <rect x="230" y="220" width="8" height="40" rx="1" fill="#6d4c41"/>
+  <!-- Figure standing on one leg on beam -->
+  <g>
+    <circle cx="160" cy="155" r="16" fill="#ffccbc"/>
+    <path d="M150,143 Q160,130 170,143" fill="#333"/>
+    <ellipse cx="154" cy="153" rx="2" ry="2.5" fill="#333"/>
+    <ellipse cx="166" cy="153" rx="2" ry="2.5" fill="#333"/>
+    <path d="M155,162 Q160,166 165,162" stroke="#c62828" stroke-width="1.5" fill="none"/>
+    <line x1="160" y1="171" x2="160" y2="200" stroke="#e53935" stroke-width="4" stroke-linecap="round"/>
+    <!-- Arms outstretched -->
+    <line x1="160" y1="182" x2="115" y2="170" stroke="#e53935" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="160" y1="182" x2="205" y2="170" stroke="#e53935" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Standing leg on beam -->
+    <line x1="160" y1="200" x2="160" y2="210" stroke="#1565c0" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Other leg lifted -->
+    <line x1="160" y1="200" x2="190" y2="190" stroke="#1565c0" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="190" y1="190" x2="200" y2="185" stroke="#1565c0" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <!-- Balance beam 2 (low) -->
+  <rect x="300" y="230" width="170" height="8" rx="2" fill="#8d6e63"/>
+  <rect x="300" y="230" width="170" height="3" rx="1" fill="#a1887f"/>
+  <!-- Beam supports -->
+  <rect x="320" y="238" width="6" height="25" rx="1" fill="#6d4c41"/>
+  <rect x="445" y="238" width="6" height="25" rx="1" fill="#6d4c41"/>
+  <!-- Figure walking on low beam -->
+  <g>
+    <circle cx="360" cy="185" r="14" fill="#ffe0b2"/>
+    <path d="M351,174 Q360,163 369,174" fill="#333"/>
+    <ellipse cx="355" cy="183" rx="2" ry="2" fill="#333"/>
+    <ellipse cx="365" cy="183" rx="2" ry="2" fill="#333"/>
+    <line x1="360" y1="199" x2="360" y2="225" stroke="#1e88e5" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Arms out for balance -->
+    <line x1="360" y1="210" x2="330" y2="200" stroke="#1e88e5" stroke-width="3" stroke-linecap="round"/>
+    <line x1="360" y1="210" x2="390" y2="200" stroke="#1e88e5" stroke-width="3" stroke-linecap="round"/>
+    <!-- One leg on beam, one stepping -->
+    <line x1="360" y1="225" x2="355" y2="230" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+    <line x1="360" y1="225" x2="385" y2="228" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <!-- Floor -->
+  <rect x="0" y="263" width="500" height="87" fill="#37474f" opacity="0.5"/>
+  <line x1="0" y1="263" x2="500" y2="263" stroke="#546e7a" stroke-width="1.5"/>
+  <!-- Wobble lines near standing figure -->
+  <path d="M140,140 Q135,135 140,130" stroke="#82b1ff" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M180,140 Q185,135 180,130" stroke="#82b1ff" stroke-width="1" fill="none" opacity="0.5"/>
+  <!-- Balance indicator -->
+  <line x1="135" y1="108" x2="185" y2="108" stroke="#ffd54f" stroke-width="1.5"/>
+  <circle cx="160" cy="108" r="4" fill="#ffd54f"/>
+  <line x1="160" y1="104" x2="160" y2="112" stroke="#ffd54f" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <style>@keyframes sun{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}.sn{animation:sun 4s ease-in-out infinite;transform-origin:80px 55px}</style>
+  <rect width="500" height="350" fill="#E3F2FD"/>
+  <text x="250" y="24" text-anchor="middle" font-size="16" font-family="sans-serif" fill="#1B5E20" font-weight="bold">Пейзаж</text>
+  <!-- Sky gradient -->
+  <rect x="0" y="30" width="500" height="140" fill="#81D4FA"/>
+  <!-- Sun -->
+  <g class="sn">
+    <circle cx="80" cy="55" r="28" fill="#FFD54F"/>
+    <line x1="80" y1="18" x2="80" y2="8" stroke="#FFD54F" stroke-width="3" stroke-linecap="round"/>
+    <line x1="80" y1="92" x2="80" y2="102" stroke="#FFD54F" stroke-width="3" stroke-linecap="round"/>
+    <line x1="43" y1="55" x2="33" y2="55" stroke="#FFD54F" stroke-width="3" stroke-linecap="round"/>
+    <line x1="117" y1="55" x2="127" y2="55" stroke="#FFD54F" stroke-width="3" stroke-linecap="round"/>
+    <line x1="54" y1="29" x2="47" y2="22" stroke="#FFD54F" stroke-width="3" stroke-linecap="round"/>
+    <line x1="106" y1="81" x2="113" y2="88" stroke="#FFD54F" stroke-width="3" stroke-linecap="round"/>
+    <line x1="54" y1="81" x2="47" y2="88" stroke="#FFD54F" stroke-width="3" stroke-linecap="round"/>
+    <line x1="106" y1="29" x2="113" y2="22" stroke="#FFD54F" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <!-- Clouds -->
+  <ellipse cx="200" cy="60" rx="35" ry="16" fill="white"/>
+  <ellipse cx="225" cy="55" rx="25" ry="14" fill="white"/>
+  <ellipse cx="180" cy="57" rx="20" ry="12" fill="white"/>
+  <ellipse cx="380" cy="75" rx="30" ry="13" fill="white"/>
+  <ellipse cx="400" cy="70" rx="22" ry="11" fill="white"/>
+  <!-- Mountains -->
+  <polygon points="0,170 80,80 160,170" fill="#78909C"/>
+  <polygon points="100,170 200,65 300,170" fill="#607D8B"/>
+  <polygon points="250,170 350,90 450,170" fill="#78909C"/>
+  <polygon points="380,170 460,100 500,170" fill="#90A4AE"/>
+  <!-- Snow caps -->
+  <polygon points="80,80 65,105 95,105" fill="white"/>
+  <polygon points="200,65 185,92 215,92" fill="white"/>
+  <polygon points="350,90 338,112 362,112" fill="white"/>
+  <!-- Hills -->
+  <path d="M0,170 Q125,130 250,170 Q375,140 500,170 L500,210 L0,210Z" fill="#66BB6A"/>
+  <path d="M0,200 Q125,170 250,200 Q375,175 500,200 L500,240 L0,240Z" fill="#4CAF50"/>
+  <!-- River -->
+  <path d="M180,210 Q220,220 280,215 Q340,210 380,225 Q420,240 460,230 Q480,225 500,235 L500,260 Q460,250 420,258 Q380,268 340,252 Q300,240 260,248 Q220,258 180,242 Q150,230 120,240 L100,235 Q140,225 180,210Z" fill="#42A5F5"/>
+  <!-- Trees along river -->
+  <rect x="130" y="185" width="5" height="25" fill="#5D4037"/>
+  <ellipse cx="132" cy="180" rx="14" ry="18" fill="#2E7D32"/>
+  <rect x="330" y="190" width="5" height="25" fill="#5D4037"/>
+  <ellipse cx="332" cy="185" rx="14" ry="18" fill="#388E3C"/>
+  <rect x="430" y="195" width="4" height="22" fill="#5D4037"/>
+  <ellipse cx="432" cy="190" rx="12" ry="16" fill="#2E7D32"/>
+  <!-- Foreground hill -->
+  <path d="M0,260 Q250,235 500,260 L500,350 L0,350Z" fill="#43A047"/>
+  <!-- Small flowers -->
+  <circle cx="50" cy="290" r="4" fill="#FF5252"/><circle cx="50" cy="290" r="1.5" fill="#FFD54F"/>
+  <circle cx="120" cy="305" r="4" fill="#E040FB"/><circle cx="120" cy="305" r="1.5" fill="#FFF"/>
+  <circle cx="250" cy="295" r="4" fill="#FF5252"/><circle cx="250" cy="295" r="1.5" fill="#FFD54F"/>
+  <circle cx="380" cy="300" r="4" fill="#FFEB3B"/><circle cx="380" cy="300" r="1.5" fill="#FF8F00"/>
+  <circle cx="450" cy="285" r="4" fill="#E040FB"/><circle cx="450" cy="285" r="1.5" fill="#FFF"/>
+</svg>

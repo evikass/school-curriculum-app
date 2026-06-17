@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient><marker id="ar" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#555"/></marker><marker id="arB" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#1565C0"/></marker></defs><rect width="500" height="350" fill="url(#bg)" rx="10"/><rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/><rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/><polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/><polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/><polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/><polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/><circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/><circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/><circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/><circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/><circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/><circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/><text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Циклы в алгоритмах</text><text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Информатика - Урок 4</text><line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/><rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/><rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+<!-- WHILE loop diagram -->
+<text x="130" y="98" font-family="Arial,sans-serif" font-size="12" fill="#1565C0" text-anchor="middle" font-weight="bold">Цикл While</text>
+<!-- Start -->
+<rect x="85" y="105" width="90" height="28" rx="14" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
+<text x="130" y="124" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle">Начало</text>
+<line x1="130" y1="133" x2="130" y2="150" stroke="#555" stroke-width="1.5" marker-end="url(#ar)"/>
+<!-- Condition diamond -->
+<polygon points="130,154 180,176 130,198 80,176" fill="#FFEBEE" stroke="#C62828" stroke-width="1.5"/>
+<text x="130" y="180" font-family="Arial,sans-serif" font-size="9" fill="#C62828" text-anchor="middle">while?</text>
+<!-- Yes arrow down -->
+<line x1="130" y1="198" x2="130" y2="216" stroke="#2E7D32" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="140" y="210" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32">Да</text>
+<!-- Action -->
+<rect x="85" y="220" width="90" height="30" rx="4" fill="#FFF3E0" stroke="#E65100" stroke-width="1.5"/>
+<text x="130" y="239" font-family="Arial,sans-serif" font-size="10" fill="#E65100" text-anchor="middle">Тело цикла</text>
+<!-- Loop back arrow -->
+<line x1="85" y1="235" x2="55" y2="235" stroke="#1565C0" stroke-width="2"/>
+<line x1="55" y1="235" x2="55" y2="176" stroke="#1565C0" stroke-width="2"/>
+<line x1="55" y1="176" x2="78" y2="176" stroke="#1565C0" stroke-width="2" marker-end="url(#arB)"/>
+<text x="45" y="210" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" transform="rotate(-90,45,210)">повтор</text>
+<!-- No arrow right -->
+<line x1="180" y1="176" x2="210" y2="176" stroke="#C62828" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="192" y="168" font-family="Arial,sans-serif" font-size="8" fill="#C62828">Нет</text>
+<!-- End -->
+<rect x="213" y="163" width="60" height="26" rx="13" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/>
+<text x="243" y="180" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" text-anchor="middle">Конец</text>
+<!-- FOR loop diagram -->
+<text x="385" y="98" font-family="Arial,sans-serif" font-size="12" fill="#7B1FA2" text-anchor="middle" font-weight="bold">Цикл For</text>
+<rect x="330" y="105" width="110" height="28" rx="14" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="1.5"/>
+<text x="385" y="124" font-family="Arial,sans-serif" font-size="10" fill="#7B1FA2" text-anchor="middle">i = 1 to N</text>
+<line x1="385" y1="133" x2="385" y2="155" stroke="#555" stroke-width="1.5" marker-end="url(#ar)"/>
+<!-- Loop body -->
+<rect x="340" y="159" width="90" height="30" rx="4" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="1.5"/>
+<text x="385" y="178" font-family="Arial,sans-serif" font-size="10" fill="#7B1FA2" text-anchor="middle">Действие</text>
+<!-- Loop arrow -->
+<line x1="430" y1="174" x2="460" y2="174" stroke="#7B1FA2" stroke-width="2"/>
+<line x1="460" y1="174" x2="460" y2="145" stroke="#7B1FA2" stroke-width="2"/>
+<line x1="460" y1="145" x2="395" y2="145" stroke="#7B1FA2" stroke-width="2"/>
+<text x="468" y="162" font-family="Arial,sans-serif" font-size="8" fill="#7B1FA2" transform="rotate(-90,468,162)">i++</text>
+<!-- Arrow to end -->
+<line x1="385" y1="189" x2="385" y2="215" stroke="#555" stroke-width="1.5" marker-end="url(#ar)"/>
+<rect x="350" y="219" width="70" height="26" rx="13" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/>
+<text x="385" y="236" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" text-anchor="middle">Конец</text>
+<!-- Visual: repeated squares -->
+<text x="250" y="275" font-family="Arial,sans-serif" font-size="11" fill="#555" text-anchor="middle">Пример: repeat 5 times</text>
+<rect x="100" y="284" width="30" height="20" rx="3" fill="#FFCDD2" stroke="#C62828" stroke-width="1.2"/>
+<text x="115" y="298" font-family="Arial,sans-serif" font-size="9" fill="#C62828" text-anchor="middle">1</text>
+<rect x="160" y="284" width="30" height="20" rx="3" fill="#FFE0B2" stroke="#E65100" stroke-width="1.2"/>
+<text x="175" y="298" font-family="Arial,sans-serif" font-size="9" fill="#E65100" text-anchor="middle">2</text>
+<rect x="220" y="284" width="30" height="20" rx="3" fill="#FFF9C4" stroke="#F9A825" stroke-width="1.2"/>
+<text x="235" y="298" font-family="Arial,sans-serif" font-size="9" fill="#F9A825" text-anchor="middle">3</text>
+<rect x="280" y="284" width="30" height="20" rx="3" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1.2"/>
+<text x="295" y="298" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle">4</text>
+<rect x="340" y="284" width="30" height="20" rx="3" fill="#BBDEFB" stroke="#1565C0" stroke-width="1.2"/>
+<text x="355" y="298" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle">5</text>
+<rect x="15" y="308" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/><text x="250" y="329" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Циклы в алгоритмах</text></svg>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDF2F8;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FCE7F3;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#EC4899;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#BE185D;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.95"/>
+      <stop offset="100%" style="stop-color:#FBCFE8;stop-opacity:0.9"/>
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#BE185D" flood-opacity="0.15"/>
+    </filter>
+    <filter id="shadowSmall" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#1F2937" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" rx="0"/>
+
+  <!-- Title Bar -->
+  <rect x="0" y="0" width="800" height="70" fill="url(#headerGrad)" rx="0"/>
+  <rect x="0" y="65" width="800" height="5" fill="#BE185D" opacity="0.3"/>
+  <text x="400" y="38" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Сложносочинённые и сложноподчинённые</text>
+  <text x="400" y="58" font-family="Arial, sans-serif" font-size="13" fill="#F9A8D4" text-anchor="middle">Виды придаточных предложений, союзы и союзные слова</text>
+
+  <circle cx="40" cy="35" r="22" fill="#FFFFFF" opacity="0.25"/>
+  <text x="40" y="41" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">9</text>
+
+  <rect x="15" y="82" width="380" height="160" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="205.0" y="100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Сложносочинённое (ССП): подробно</text>
+
+  <text x="30" y="106" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Равноправные простые предложения:</text>
+  <rect x="30" y="116" width="350" height="50" fill="#FFFFFF" rx="4" stroke="#10B981" stroke-width="1"/>
+  <text x="40" y="133" font-family="Arial, sans-serif" font-size="10" fill="#10B981" font-weight="bold">Соединительные (одновременность/последоват.):</text>
+  <text x="40" y="149" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Ветер шумел, <tspan fill="#FB7185" font-weight="bold">и</tspan> дождь стучал, <tspan fill="#FB7185" font-weight="bold">и</tspan> гром гремел.</text>
+  <rect x="30" y="170" width="350" height="35" fill="#FFFFFF" rx="4" stroke="#F59E0B" stroke-width="1"/>
+  <text x="40" y="187" font-family="Arial, sans-serif" font-size="10" fill="#F59E0B" font-weight="bold">Противительные (противопоставление):</text>
+  <text x="40" y="200" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Он хотел помочь, <tspan fill="#FB7185" font-weight="bold">но</tspan> не смог.</text>
+  <rect x="30" y="209" width="350" height="28" fill="#FFFFFF" rx="4" stroke="#3B82F6" stroke-width="1"/>
+  <text x="40" y="226" font-family="Arial, sans-serif" font-size="10" fill="#3B82F6" font-weight="bold">Разделительные (чередование/выбор):</text>
+  <text x="40" y="234" font-family="Arial, sans-serif" font-size="9" fill="#1F2937">То солнце светило, <tspan fill="#FB7185" font-weight="bold">то</tspan> шёл дождь.</text>
+
+  <rect x="410" y="82" width="375" height="160" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="597.5" y="100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Сложноподчинённое (СПП): виды придаточных</text>
+
+  <text x="425" y="104" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Придаточное отвечает на вопрос от главного:</text>
+  <line x1="425" y1="112" x2="770" y2="112" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="425" y="118" width="175" height="22" fill="#10B981" rx="3" opacity="0.12"/>
+  <text x="435" y="133" font-family="Arial, sans-serif" font-size="9" fill="#10B981" font-weight="bold">Определительное: какой?</text>
+  <rect x="610" y="118" width="165" height="22" fill="#3B82F6" rx="3" opacity="0.12"/>
+  <text x="620" y="133" font-family="Arial, sans-serif" font-size="9" fill="#3B82F6" font-weight="bold">Изъяснительное: что? о чём?</text>
+  <rect x="425" y="144" width="175" height="22" fill="#A855F7" rx="3" opacity="0.12"/>
+  <text x="435" y="159" font-family="Arial, sans-serif" font-size="9" fill="#A855F7" font-weight="bold">Образа действия: как?</text>
+  <rect x="610" y="144" width="165" height="22" fill="#F59E0B" rx="3" opacity="0.12"/>
+  <text x="620" y="159" font-family="Arial, sans-serif" font-size="9" fill="#F59E0B" font-weight="bold">Степени: в какой степени?</text>
+  <rect x="425" y="170" width="175" height="22" fill="#14B8A6" rx="3" opacity="0.12"/>
+  <text x="435" y="185" font-family="Arial, sans-serif" font-size="9" fill="#14B8A6" font-weight="bold">Места: где? куда? откуда?</text>
+  <rect x="610" y="170" width="165" height="22" fill="#FB7185" rx="3" opacity="0.12"/>
+  <text x="620" y="185" font-family="Arial, sans-serif" font-size="9" fill="#FB7185" font-weight="bold">Времени: когда? как долго?</text>
+  <rect x="425" y="196" width="175" height="22" fill="#EC4899" rx="3" opacity="0.12"/>
+  <text x="435" y="211" font-family="Arial, sans-serif" font-size="9" fill="#EC4899" font-weight="bold">Условия: при каком условии?</text>
+  <rect x="610" y="196" width="165" height="22" fill="#BE185D" rx="3" opacity="0.12"/>
+  <text x="620" y="211" font-family="Arial, sans-serif" font-size="9" fill="#BE185D" font-weight="bold">Причины: почему? отчего?</text>
+  <rect x="425" y="222" width="175" height="14" fill="#10B981" rx="2" opacity="0.08"/>
+  <text x="435" y="233" font-family="Arial, sans-serif" font-size="9" fill="#10B981">Цели: зачем? для чего?</text>
+  <rect x="610" y="222" width="165" height="14" fill="#3B82F6" rx="2" opacity="0.08"/>
+  <text x="620" y="233" font-family="Arial, sans-serif" font-size="9" fill="#3B82F6">Уступки: несмотря на что?</text>
+
+  <rect x="15" y="257" width="770" height="170" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="400.0" y="275" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Примеры придаточных предложений</text>
+  <rect x="25" y="270" width="8" height="14" fill="#10B981" rx="2"/>
+  <text x="40" y="280" font-family="Arial, sans-serif" font-size="9" fill="#10B981" font-weight="bold">Определительное (какую?)</text>
+  <text x="300" y="280" font-family="Arial, sans-serif" font-size="9" fill="#1F2937">Книга, которую я читаю, интересная.</text>
+  <rect x="25" y="288" width="8" height="14" fill="#3B82F6" rx="2"/>
+  <text x="40" y="298" font-family="Arial, sans-serif" font-size="9" fill="#3B82F6" font-weight="bold">Изъяснительное (что?)</text>
+  <text x="300" y="298" font-family="Arial, sans-serif" font-size="9" fill="#1F2937">Я знаю, что он придёт завтра.</text>
+  <rect x="25" y="306" width="8" height="14" fill="#14B8A6" rx="2"/>
+  <text x="40" y="316" font-family="Arial, sans-serif" font-size="9" fill="#14B8A6" font-weight="bold">Обстоятельственное места (где?)</text>
+  <text x="300" y="316" font-family="Arial, sans-serif" font-size="9" fill="#1F2937">Я живу там, где родился.</text>
+  <rect x="25" y="324" width="8" height="14" fill="#FB7185" rx="2"/>
+  <text x="40" y="334" font-family="Arial, sans-serif" font-size="9" fill="#FB7185" font-weight="bold">Обстоятельственное времени (когда?)</text>
+  <text x="300" y="334" font-family="Arial, sans-serif" font-size="9" fill="#1F2937">Когда наступит утро, мы отправимся в путь.</text>
+  <rect x="25" y="342" width="8" height="14" fill="#BE185D" rx="2"/>
+  <text x="40" y="352" font-family="Arial, sans-serif" font-size="9" fill="#BE185D" font-weight="bold">Обстоятельственное причины (почему?)</text>
+  <text x="300" y="352" font-family="Arial, sans-serif" font-size="9" fill="#1F2937">Он остался дома, потому что заболел.</text>
+  <rect x="25" y="360" width="8" height="14" fill="#EC4899" rx="2"/>
+  <text x="40" y="370" font-family="Arial, sans-serif" font-size="9" fill="#EC4899" font-weight="bold">Обстоятельственное условия (при каком условии?)</text>
+  <text x="300" y="370" font-family="Arial, sans-serif" font-size="9" fill="#1F2937">Если будет время, я приду.</text>
+  <rect x="25" y="378" width="8" height="14" fill="#10B981" rx="2"/>
+  <text x="40" y="388" font-family="Arial, sans-serif" font-size="9" fill="#10B981" font-weight="bold">Обстоятельственное цели (зачем?)</text>
+  <text x="300" y="388" font-family="Arial, sans-serif" font-size="9" fill="#1F2937">Я пришёл, чтобы поговорить с тобой.</text>
+  <rect x="25" y="396" width="8" height="14" fill="#F59E0B" rx="2"/>
+  <text x="40" y="406" font-family="Arial, sans-serif" font-size="9" fill="#F59E0B" font-weight="bold">Обстоятельственное уступки (несмотря на что?)</text>
+  <text x="300" y="406" font-family="Arial, sans-serif" font-size="9" fill="#1F2937">Хотя было холодно, мы гуляли.</text>
+
+  <rect x="15" y="442" width="380" height="145" fill="url(#boxGrad)" rx="8" stroke="#EC4899" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="205.0" y="460" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#BE185D" text-anchor="middle">Союзы и союзные слова в СПП</text>
+
+  <text x="30" y="466" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#BE185D">Союз — не член предложения:</text>
+  <text x="30" y="482" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Я знаю, <tspan fill="#FB7185" font-weight="bold">что</tspan> он придёт.</text>
+  <text x="30" y="498" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">(что — нельзя убрать, не член предл.)</text>
+  <line x1="30" y1="506" x2="380" y2="506" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="30" y="522" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#BE185D">Союзное слово — член предложения:</text>
+  <text x="30" y="538" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">Книга, <tspan fill="#FB7185" font-weight="bold">которую</tspan> я читаю, интересная.</text>
+  <text x="30" y="554" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">(которую — дополнение, можно заменить: её)</text>
+  <line x1="30" y1="562" x2="380" y2="562" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="30" y="578" font-family="Arial, sans-serif" font-size="9" fill="#FB7185" font-weight="bold">Проверка: можно ли убрать? Если да — союз.</text>
+
+  <rect x="410" y="442" width="375" height="145" fill="#FFFFFF" rx="6" stroke="#FB7185" stroke-width="2" filter="url(#shadowSmall)"/>
+  <rect x="410" y="442" width="375" height="22" fill="#FB7185" rx="6"/>
+  <rect x="410" y="458" width="375" height="6" fill="#FB7185"/>
+  <text x="597.5" y="457" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Схемы сложных предложений</text>
+  <text x="418" y="480" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">ССП:  [...], и [...]  (равноправные)</text>
+  <text x="418" y="496" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  Ветер дул, и снег падал.</text>
+  <text x="418" y="512" font-family="Arial, sans-serif" font-size="10" fill="#1F2937"></text>
+  <text x="418" y="528" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">СПП:  [...], (что ...)  (главное, придат.)</text>
+  <text x="418" y="544" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  Я знаю, (что он придёт).</text>
+  <text x="418" y="560" font-family="Arial, sans-serif" font-size="10" fill="#1F2937"></text>
+  <text x="418" y="576" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">СПП:  (Когда ...), [...]  (придат., главное)</text>
+  <text x="418" y="592" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  (Когда наступит утро), мы уйдём.</text>
+  <text x="418" y="608" font-family="Arial, sans-serif" font-size="10" fill="#1F2937"></text>
+  <text x="418" y="624" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">СПП:  [...], (где ...)  (главное, придат. места)</text>
+  <text x="418" y="640" font-family="Arial, sans-serif" font-size="10" fill="#1F2937">  Я живу там, (где родился).</text>
+</svg>

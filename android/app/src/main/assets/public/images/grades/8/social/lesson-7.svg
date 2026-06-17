@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="100%" stop-color="#FFF7ED" />
+    </linearGradient>
+    <marker id="arrowAmber" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#D97706" />
+    </marker>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect width="800" height="6" fill="#F59E0B" />
+  <rect x="0" y="6" width="800" height="70" fill="#D97706" />
+  <rect x="20" y="16" width="44" height="44" rx="10" fill="#92400E" />
+  <text x="42" y="47" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold" font-family="Arial, sans-serif">7</text>
+  <text x="78" y="38" fill="#FFFFFF" font-size="20" font-weight="bold" font-family="Arial, sans-serif">Политическая система общества</text>
+  <text x="78" y="58" fill="#FEF3C7" font-size="13" font-family="Arial, sans-serif">Государство, партии, выборы, демократия</text>
+  <rect x="17" y="92" width="500" height="260" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="90" width="500" height="260" rx="8" fill="#FFFFFF" stroke="#D97706" stroke-width="1.5" />
+  <rect x="15" y="90" width="500" height="26" rx="8" fill="#D97706" />
+  <rect x="15" y="108" width="500" height="8" fill="#D97706" />
+  <text x="265" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Структура политической системы</text>
+  <rect x="185" y="170" width="160" height="40" rx="8" fill="#92400E" stroke="#92400E" stroke-width="2" />
+  <text x="265" y="195" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Политическая система</text>
+  <rect x="50" y="115" width="110" height="30" rx="6" fill="#EF4444" stroke="#EF4444" stroke-width="1.5" />
+  <text x="105" y="135" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Государство</text>
+  <line x1="105" y1="130" x2="265" y2="190" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="4,3" />
+  <rect x="350" y="115" width="110" height="30" rx="6" fill="#3B82F6" stroke="#3B82F6" stroke-width="1.5" />
+  <text x="405" y="135" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Партии</text>
+  <line x1="405" y1="130" x2="265" y2="190" stroke="#3B82F6" stroke-width="1.5" stroke-dasharray="4,3" />
+  <rect x="50" y="280" width="140" height="30" rx="6" fill="#22C55E" stroke="#22C55E" stroke-width="1.5" />
+  <text x="120" y="300" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Обществ. организации</text>
+  <line x1="120" y1="295" x2="265" y2="190" stroke="#22C55E" stroke-width="1.5" stroke-dasharray="4,3" />
+  <rect x="290" y="280" width="140" height="30" rx="6" fill="#8B5CF6" stroke="#8B5CF6" stroke-width="1.5" />
+  <text x="360" y="300" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Средства информации</text>
+  <line x1="360" y1="295" x2="265" y2="190" stroke="#8B5CF6" stroke-width="1.5" stroke-dasharray="4,3" />
+  <rect x="175" y="310" width="120" height="30" rx="6" fill="#6366F1" stroke="#6366F1" stroke-width="1.5" />
+  <text x="235" y="330" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Полит. культура</text>
+  <line x1="235" y1="325" x2="265" y2="190" stroke="#6366F1" stroke-width="1.5" stroke-dasharray="4,3" />
+  <rect x="532" y="92" width="255" height="140" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="530" y="90" width="255" height="140" rx="8" fill="#FFFFFF" stroke="#EF4444" stroke-width="1.5" />
+  <rect x="530" y="90" width="255" height="26" rx="8" fill="#EF4444" />
+  <rect x="530" y="108" width="255" height="8" fill="#EF4444" />
+  <text x="657" y="108" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Признаки государства</text>
+  <text x="545" y="128" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Территория и население</text>
+  <text x="545" y="145" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Публичная власть</text>
+  <text x="545" y="162" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Система права</text>
+  <text x="545" y="179" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Налоги и сборы</text>
+  <text x="545" y="196" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Суверенитет</text>
+  <text x="545" y="213" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Монополия на насилие</text>
+  <rect x="532" y="242" width="255" height="110" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="530" y="240" width="255" height="110" rx="8" fill="#FFFFFF" stroke="#3B82F6" stroke-width="1.5" />
+  <rect x="530" y="240" width="255" height="26" rx="8" fill="#3B82F6" />
+  <rect x="530" y="258" width="255" height="8" fill="#3B82F6" />
+  <text x="657" y="258" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Формы правления</text>
+  <text x="545" y="278" text-anchor="start" fill="#1C1917" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Монархия:</text>
+  <text x="560" y="295" text-anchor="start" fill="#92400E" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Абсолютная, ограниченная</text>
+  <text x="545" y="315" text-anchor="start" fill="#1C1917" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Республика:</text>
+  <text x="560" y="332" text-anchor="start" fill="#92400E" font-size="10" font-weight="normal" font-family="Arial, sans-serif">Президентская, парламентская,</text>
+  <text x="560" y="346" text-anchor="start" fill="#92400E" font-size="10" font-weight="normal" font-family="Arial, sans-serif">смешанная</text>
+  <rect x="17" y="362" width="385" height="110" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="360" width="385" height="110" rx="8" fill="#FFFFFF" stroke="#22C55E" stroke-width="1.5" />
+  <rect x="15" y="360" width="385" height="26" rx="8" fill="#22C55E" />
+  <rect x="15" y="378" width="385" height="8" fill="#22C55E" />
+  <text x="207" y="378" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Демократия</text>
+  <text x="30" y="398" text-anchor="start" fill="#1C1917" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Демократия — власть народа</text>
+  <text x="30" y="420" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Свободные выборы</text>
+  <text x="200" y="420" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Многопартийность</text>
+  <text x="30" y="438" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Права и свободы</text>
+  <text x="200" y="438" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Разделение властей</text>
+  <text x="30" y="456" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Гласность</text>
+  <text x="200" y="456" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Законность</text>
+  <rect x="417" y="362" width="370" height="110" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="415" y="360" width="370" height="110" rx="8" fill="#FFFFFF" stroke="#D97706" stroke-width="1.5" />
+  <rect x="415" y="360" width="370" height="26" rx="8" fill="#D97706" />
+  <rect x="415" y="378" width="370" height="8" fill="#D97706" />
+  <text x="600" y="378" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Избирательная система</text>
+  <text x="430" y="398" text-anchor="start" fill="#1C1917" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Типы выборов:</text>
+  <text x="430" y="418" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Мажоритарная система</text>
+  <text x="445" y="434" text-anchor="start" fill="#92400E" font-size="10" font-weight="normal" font-family="Arial, sans-serif">побеждает большинство голосов</text>
+  <text x="430" y="452" text-anchor="start" fill="#1C1917" font-size="11" font-weight="normal" font-family="Arial, sans-serif">• Пропорциональная система</text>
+  <text x="445" y="466" text-anchor="start" fill="#92400E" font-size="10" font-weight="normal" font-family="Arial, sans-serif">места по проценту голосов</text>
+  <rect x="17" y="482" width="770" height="50" rx="8" fill="#E5E7EB" opacity="0.5" />
+  <rect x="15" y="480" width="770" height="50" rx="8" fill="#FFFFFF" stroke="#D97706" stroke-width="1.5" />
+  <rect x="15" y="480" width="770" height="26" rx="8" fill="#92400E" />
+  <rect x="15" y="498" width="770" height="8" fill="#92400E" />
+  <text x="400" y="498" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Arial, sans-serif">Принципы демократических выборов</text>
+  <text x="50" y="510" text-anchor="middle" fill="#3B82F6" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Всеобщность</text>
+  <text x="185" y="510" text-anchor="middle" fill="#22C55E" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Равенство</text>
+  <text x="315" y="510" text-anchor="middle" fill="#8B5CF6" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Тайность</text>
+  <text x="440" y="510" text-anchor="middle" fill="#EF4444" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Прямое голосование</text>
+  <text x="620" y="510" text-anchor="middle" fill="#92400E" font-size="12" font-weight="bold" font-family="Arial, sans-serif">Свобода выбора</text>
+  <rect x="0" y="570" width="800" height="30" fill="#92400E" />
+  <text x="400" y="590" text-anchor="middle" fill="#FEF3C7" font-size="11" font-family="Arial, sans-serif">Обществознание • 8 класс • Интернет-Школа</text>
+</svg>

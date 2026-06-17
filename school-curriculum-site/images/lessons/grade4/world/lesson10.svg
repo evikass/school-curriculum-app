@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Red top accent bar -->
+  <rect x="0" y="0" width="500" height="8" fill="#C41E3A"/>
+  <!-- Gold accent line -->
+  <rect x="0" y="8" width="500" height="2" fill="#D4A843"/>
+  <!-- Cream background -->
+  <rect x="0" y="10" width="500" height="325" fill="#F5E6C8"/>
+  <!-- Title -->
+  <text x="250" y="45" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Пищеварение</text>
+  <!-- Subtitle -->
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#555">Путь пищи через организм</text>
+  <!-- Decorative line under title -->
+  <line x1="150" y1="78" x2="350" y2="78" stroke="#C41E3A" stroke-width="1.5" opacity="0.6"/>
+  <!-- Bottom dark bar -->
+  <rect x="0" y="318" width="500" height="32" fill="#1a1a1a"/>
+  <!-- Gold accent on bottom bar -->
+  <rect x="0" y="316" width="500" height="2" fill="#D4A843"/>
+  <!-- Bottom text -->
+  <text x="250" y="335" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#F5E6C8">Окружающий мир — 4 класс</text>
+  <!-- Body outline (subtle) -->
+  <ellipse cx="250" cy="200" rx="80" ry="100" fill="#F0E0C8" opacity="0.3"/>
+  <!-- Mouth -->
+  <ellipse cx="250" cy="105" rx="20" ry="10" fill="#E8A0A0" opacity="0.4"/>
+  <path d="M235,105 Q250,115 265,105" stroke="#1a1a1a" stroke-width="1" fill="none"/>
+  <!-- Teeth -->
+  <rect x="238" y="100" width="4" height="6" fill="white" rx="1"/>
+  <rect x="244" y="99" width="4" height="7" fill="white" rx="1"/>
+  <rect x="250" y="99" width="4" height="7" fill="white" rx="1"/>
+  <rect x="256" y="100" width="4" height="6" fill="white" rx="1"/>
+  <!-- Arrow down from mouth -->
+  <line x1="250" y1="118" x2="250" y2="135" stroke="#C41E3A" stroke-width="1.5"/>
+  <polygon points="245,135 250,142 255,135" fill="#C41E3A"/>
+  <!-- Esophagus -->
+  <rect x="245" y="135" width="10" height="30" rx="5" fill="#E0A0A0" opacity="0.5"/>
+  <text x="210" y="155" font-family="Arial" font-size="7" fill="#888">Пищевод</text>
+  <!-- Arrow down -->
+  <line x1="250" y1="165" x2="250" y2="178" stroke="#C41E3A" stroke-width="1.5"/>
+  <polygon points="245,178 250,185 255,178" fill="#C41E3A"/>
+  <!-- Stomach -->
+  <ellipse cx="250" cy="205" rx="35" ry="28" fill="#F0C8A0" stroke="#D0A880" stroke-width="1.5"/>
+  <!-- Stomach folds -->
+  <path d="M220,198 Q235,208 220,215" stroke="#D0A880" stroke-width="0.5" fill="none"/>
+  <text x="295" y="200" font-family="Arial" font-size="8" fill="#1a1a1a">Желудок</text>
+  <text x="295" y="212" font-family="Arial" font-size="7" fill="#888">~1 литр</text>
+  <!-- Arrow down -->
+  <line x1="250" y1="232" x2="250" y2="242" stroke="#C41E3A" stroke-width="1.5"/>
+  <polygon points="245,242 250,248 255,242" fill="#C41E3A"/>
+  <!-- Small intestine (wavy) -->
+  <path d="M240,250 Q255,260 240,270 Q225,280 240,290" stroke="#E0B090" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <text x="295" y="270" font-family="Arial" font-size="8" fill="#1a1a1a">Кишечник</text>
+  <text x="295" y="282" font-family="Arial" font-size="7" fill="#888">7 метров</text>
+  <!-- Liver (on side) -->
+  <ellipse cx="195" cy="190" rx="22" ry="15" fill="#A05030" opacity="0.5" stroke="#803020" stroke-width="0.5"/>
+  <text x="170" y="185" font-family="Arial" font-size="7" fill="#803020">Печень</text>
+  <!-- Food items at top (what goes in) -->
+  <circle cx="140" cy="105" r="8" fill="#C41E3A" opacity="0.3"/>  <!-- apple -->
+  <circle cx="140" cy="105" r="6" fill="#2E7D32" opacity="0.4"/>
+  <rect x="157" y="100" width="10" height="10" rx="2" fill="#D4A843" opacity="0.3"/>  <!-- bread -->
+  <!-- Timer -->
+  <circle cx="380" cy="105" r="18" fill="none" stroke="#1a1a1a" stroke-width="1.5" opacity="0.4"/>
+  <line x1="380" y1="105" x2="380" y2="93" stroke="#1a1a1a" stroke-width="1" opacity="0.4"/>
+  <line x1="380" y1="105" x2="388" y2="105" stroke="#1a1a1a" stroke-width="1" opacity="0.4"/>
+  <text x="380" y="132" font-family="Arial" font-size="7" fill="#888" text-anchor="middle">6-8 часов</text>
+</svg>

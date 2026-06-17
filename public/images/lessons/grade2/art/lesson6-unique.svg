@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <style>@keyframes shimmer{0%,100%{opacity:0.7}50%{opacity:1}}.gold{animation:shimmer 3s ease-in-out infinite}</style>
+  <rect width="500" height="350" fill="#FFF8E1"/>
+  <text x="250" y="24" text-anchor="middle" font-size="16" font-family="sans-serif" fill="#E65100" font-weight="bold">Хохломская роспись</text>
+  <!-- Table surface -->
+  <rect x="0" y="280" width="500" height="70" fill="#8D6E63"/>
+  <rect x="0" y="275" width="500" height="10" fill="#A1887F"/>
+  <!-- Bowl - main shape -->
+  <ellipse cx="250" cy="190" rx="140" ry="55" fill="#1B1B1B"/>
+  <ellipse cx="250" cy="185" rx="135" ry="50" fill="#2C2C2C"/>
+  <ellipse cx="250" cy="180" rx="130" ry="45" fill="#1B1B1B"/>
+  <!-- Gold rim -->
+  <ellipse cx="250" cy="180" rx="130" ry="45" fill="none" stroke="#DAA520" stroke-width="4"/>
+  <!-- Inner bowl gold -->
+  <ellipse cx="250" cy="178" rx="120" ry="38" fill="#DAA520" class="gold"/>
+  <ellipse cx="250" cy="176" rx="115" ry="34" fill="#FFD700" class="gold"/>
+  <!-- Khokhloma pattern - central berry cluster -->
+  <!-- Stem curves -->
+  <path d="M200,178 Q220,155 250,160 Q280,155 300,178" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+  <path d="M190,175 Q210,150 250,152 Q290,150 310,175" fill="none" stroke="#388E3C" stroke-width="2"/>
+  <!-- Leaves -->
+  <path d="M215,160 Q205,148 215,138 Q225,148 215,160" fill="#2E7D32"/>
+  <path d="M285,160 Q295,148 285,138 Q275,148 285,160" fill="#2E7D32"/>
+  <path d="M240,155 Q235,142 245,135 Q250,145 240,155" fill="#43A047"/>
+  <path d="M260,155 Q265,142 255,135 Q250,145 260,155" fill="#43A047"/>
+  <path d="M195,168 Q185,158 195,148 Q202,158 195,168" fill="#388E3C"/>
+  <path d="M305,168 Q315,158 305,148 Q298,158 305,168" fill="#388E3C"/>
+  <!-- Berries -->
+  <circle cx="230" cy="165" r="7" fill="#D32F2F"/>
+  <circle cx="250" cy="162" r="8" fill="#E53935"/>
+  <circle cx="270" cy="165" r="7" fill="#D32F2F"/>
+  <circle cx="240" cy="172" r="6" fill="#C62828"/>
+  <circle cx="260" cy="172" r="6" fill="#C62828"/>
+  <!-- Berry highlights -->
+  <circle cx="228" cy="163" r="2" fill="#EF5350"/>
+  <circle cx="248" cy="160" r="2.5" fill="#EF5350"/>
+  <circle cx="268" cy="163" r="2" fill="#EF5350"/>
+  <!-- Bowl side decorations - left -->
+  <path d="M140,195 Q155,180 175,185" fill="none" stroke="#2E7D32" stroke-width="2"/>
+  <path d="M150,188 Q145,178 155,172 Q160,180 150,188" fill="#43A047"/>
+  <circle cx="162" cy="183" r="5" fill="#E53935"/>
+  <!-- Bowl side decorations - right -->
+  <path d="M360,195 Q345,180 325,185" fill="none" stroke="#2E7D32" stroke-width="2"/>
+  <path d="M350,188 Q355,178 345,172 Q340,180 350,188" fill="#43A047"/>
+  <circle cx="338" cy="183" r="5" fill="#E53935"/>
+  <!-- Spoon beside bowl -->
+  <g transform="rotate(-30,80,240)">
+    <ellipse cx="80" cy="210" rx="30" ry="18" fill="#DAA520" class="gold"/>
+    <ellipse cx="80" cy="208" rx="26" ry="14" fill="#1B1B1B"/>
+    <ellipse cx="80" cy="207" rx="22" ry="11" fill="#FFD700" class="gold"/>
+    <!-- Spoon pattern -->
+    <circle cx="75" cy="205" r="3" fill="#E53935"/>
+    <circle cx="85" cy="205" r="3" fill="#E53935"/>
+    <path d="M72,202 Q75,196 78,202" fill="#2E7D32"/>
+    <path d="M82,202 Q85,196 88,202" fill="#2E7D32"/>
+    <!-- Handle -->
+    <rect x="76" y="225" width="8" height="60" rx="3" fill="#DAA520"/>
+    <rect x="77.5" y="225" width="5" height="60" rx="2" fill="#FFD700" class="gold"/>
+    <!-- Handle decoration -->
+    <circle cx="80" cy="240" r="2.5" fill="#E53935"/>
+    <circle cx="80" cy="255" r="2.5" fill="#E53935"/>
+    <circle cx="80" cy="270" r="2.5" fill="#E53935"/>
+  </g>
+  <!-- Small decorative elements on bowl -->
+  <circle cx="160" cy="200" r="2" fill="#FFD700" class="gold"/>
+  <circle cx="340" cy="200" r="2" fill="#FFD700" class="gold"/>
+  <circle cx="200" cy="210" r="2" fill="#FFD700" class="gold"/>
+  <circle cx="300" cy="210" r="2" fill="#FFD700" class="gold"/>
+</svg>

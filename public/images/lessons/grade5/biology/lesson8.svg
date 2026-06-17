@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#1B5E20" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1B5E20" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#43A047" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#66BB6A" opacity="0.08"/>
+  <circle cx="70" cy="15" r="4" fill="#1B5E20" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#2E7D32" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#388E3C" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#1B5E20" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#2E7D32" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#388E3C" opacity="0.1"/>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#2E7D32" text-anchor="middle">Грибы-паразиты и лишайники</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 8</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#2E7D32" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#2E7D32" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#43A047" opacity="0.12" rx="1"/>
+  <rect x="20" y="88" width="230" height="200" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5" opacity="0.95"/>
+  <rect x="20" y="88" width="230" height="24" rx="6" fill="#2E7D32" opacity="0.9"/>
+  <rect x="20" y="104" width="230" height="8" fill="#2E7D32" opacity="0.9"/>
+  <text x="135" y="105" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">БАКТЕРИИ И ГРИБЫ</text>
+  <ellipse cx="80" cy="160" rx="20" ry="10" fill="#FFECB3" stroke="#F9A825" stroke-width="1"/>
+  <text x="80" y="180" font-family="Arial,sans-serif" font-size="8" fill="#F9A825" text-anchor="middle">Кокк</text>
+  <ellipse cx="135" cy="160" rx="8" ry="20" fill="#FFECB3" stroke="#F9A825" stroke-width="1"/>
+  <text x="135" y="180" font-family="Arial,sans-serif" font-size="8" fill="#F9A825" text-anchor="middle">Палочка</text>
+  <path d="M100,220 Q135,200 170,220" fill="#D2691E" stroke="#8B4513" stroke-width="1.5"/>
+  <rect x="128" y="220" width="14" height="25" rx="3" fill="#F5DEB3"/>
+  <rect x="260" y="88" width="220" height="95" rx="6" fill="white" stroke="#388E3C" stroke-width="1.5" opacity="0.95"/>
+  <rect x="260" y="88" width="220" height="24" rx="6" fill="#388E3C" opacity="0.9"/>
+  <rect x="260" y="104" width="220" height="8" fill="#388E3C" opacity="0.9"/>
+  <text x="370" y="105" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">КЛЮЧЕВЫЕ ПОНЯТИЯ</text>
+  <rect x="268" y="118" width="8" height="8" rx="1" fill="#2E7D32" opacity="0.3"/>
+  <text x="282" y="126" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="start">Строение организма</text>
+  <rect x="268" y="136" width="8" height="8" rx="1" fill="#1B5E20" opacity="0.3"/>
+  <text x="282" y="144" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="start">Функции частей</text>
+  <rect x="268" y="154" width="8" height="8" rx="1" fill="#388E3C" opacity="0.3"/>
+  <text x="282" y="162" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="start">Разнообразие</text>
+  <rect x="268" y="172" width="8" height="8" rx="1" fill="#43A047" opacity="0.3"/>
+  <text x="282" y="180" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="start">Значение в природе</text>
+  <rect x="260" y="195" width="220" height="93" rx="6" fill="white" stroke="#43A047" stroke-width="1.5" opacity="0.95"/>
+  <rect x="260" y="195" width="220" height="24" rx="6" fill="#43A047" opacity="0.9"/>
+  <rect x="260" y="211" width="220" height="8" fill="#43A047" opacity="0.9"/>
+  <text x="370" y="212" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">ИНТЕРЕСНЫЙ ФАКТ</text>
+  <text x="370" y="230" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle" font-weight="bold">Организм — единое целое</text>
+  <text x="370" y="248" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">Все органы работают вместе</text>
+  <path d="M460,100 Q470,115 465,130 Q460,115 450,100 Z" fill="#2E7D32" opacity="0.1"/>
+  <rect x="15" y="308" width="470" height="30" rx="4" fill="#2E7D32" opacity="0.85"/>
+  <text x="250" y="329" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Грибы-паразиты и лишайники</text>
+</svg>

@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFBEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FED7AA;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#9A3412;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EA580C;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EA580C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D97706;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#D97706;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F59E0B;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" floodColor="#9A3412" floodOpacity="0.2" />
+    </filter>
+    <filter id="softShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" floodColor="#000" floodOpacity="0.15" />
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect x="8" y="8" width="784" height="584" fill="none" stroke="#EA580C" strokeWidth="2" rx="8" />
+  <rect x="14" y="14" width="772" height="572" fill="none" stroke="#D97706" strokeWidth="1" rx="6" strokeDasharray="8,4" />
+  <rect x="20" y="16" width="760" height="60" fill="url(#titleGrad)" rx="6" filter="url(#shadow)" />
+  <text x="400" y="48" fill="white" fontSize="22" fontWeight="bold" textAnchor="middle" fontFamily="serif">Искусство Древней Руси</text>
+  <text x="400" y="68" fill="#FED7AA" fontSize="12" textAnchor="middle" fontFamily="sans-serif">Архитектура, фрески, ремёсла X–XVII вв.</text>
+  <circle cx="35" cy="46" r="6" fill="#D97706" opacity="0.6" />
+  <circle cx="765" cy="46" r="6" fill="#D97706" opacity="0.6" />
+  <circle cx="52" cy="100" r="18" fill="#EA580C" filter="url(#softShadow)" />
+  <text x="52" y="106" fill="white" fontSize="16" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">1</text>
+  <rect x="580" y="200" width="80" height="120" fill="#B45309" opacity="0.3" />
+  <polygon points="620,130 590,200 650,200" fill="#B45309" opacity="0.3" />
+  <path d="M600,130 Q620,90 640,130" fill="#D97706" opacity="0.4" />
+  <rect x="618" y="85" width="4" height="20" fill="#D97706" opacity="0.5" />
+  <rect x="612" y="91" width="16" height="4" fill="#D97706" opacity="0.5" />
+  <rect x="690" y="240" width="50" height="80" fill="#C2410C" opacity="0.2" />
+  <polygon points="715,190 695,240 735,240" fill="#C2410C" opacity="0.2" />
+  <path d="M700,190 Q715,165 730,190" fill="#D97706" opacity="0.3" />
+  <rect x="30" y="90" width="240" height="140" fill="white" stroke="#EA580C" strokeWidth="1.5" rx="6" filter="url(#softShadow)" />
+  <rect x="30" y="90" width="240" height="26" fill="#EA580C" rx="6" />
+  <rect x="30" y="108" width="240" height="8" fill="#EA580C" />
+  <text x="150" y="108" fill="white" fontSize="12" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Архитектура</text>
+  <circle cx="44" cy="124" r="3" fill="#EA580C" opacity="0.6" />
+  <text x="52" y="128" fill="#78350F" fontSize="11" fontFamily="sans-serif">Крестово-купольные храмы</text>
+  <circle cx="44" cy="141" r="3" fill="#EA580C" opacity="0.6" />
+  <text x="52" y="145" fill="#78350F" fontSize="11" fontFamily="sans-serif">Шатровые храмы (XVI в.)</text>
+  <circle cx="44" cy="158" r="3" fill="#EA580C" opacity="0.6" />
+  <text x="52" y="162" fill="#78350F" fontSize="11" fontFamily="sans-serif">Покрова на Нерли (1165)</text>
+  <circle cx="44" cy="175" r="3" fill="#EA580C" opacity="0.6" />
+  <text x="52" y="179" fill="#78350F" fontSize="11" fontFamily="sans-serif">Успенский собор (Москва)</text>
+  <circle cx="44" cy="192" r="3" fill="#EA580C" opacity="0.6" />
+  <text x="52" y="196" fill="#78350F" fontSize="11" fontFamily="sans-serif">Золотые купола — символ неба</text>
+  <circle cx="44" cy="209" r="3" fill="#EA580C" opacity="0.6" />
+  <text x="52" y="213" fill="#78350F" fontSize="11" fontFamily="sans-serif">Кокошники — декор. элемент</text>
+  <rect x="30" y="245" width="240" height="120" fill="white" stroke="#D97706" strokeWidth="1.5" rx="6" filter="url(#softShadow)" />
+  <rect x="30" y="245" width="240" height="26" fill="#D97706" rx="6" />
+  <rect x="30" y="263" width="240" height="8" fill="#D97706" />
+  <text x="150" y="263" fill="white" fontSize="12" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Фрески и мозаики</text>
+  <circle cx="44" cy="279" r="3" fill="#D97706" opacity="0.6" />
+  <text x="52" y="283" fill="#78350F" fontSize="11" fontFamily="sans-serif">Фреска — живопись по сырой штукатурке</text>
+  <circle cx="44" cy="296" r="3" fill="#D97706" opacity="0.6" />
+  <text x="52" y="300" fill="#78350F" fontSize="11" fontFamily="sans-serif">Мозаика — изображение из смальты</text>
+  <circle cx="44" cy="313" r="3" fill="#D97706" opacity="0.6" />
+  <text x="52" y="317" fill="#78350F" fontSize="11" fontFamily="sans-serif">Софийский собор (Киев, XI в.)</text>
+  <circle cx="44" cy="330" r="3" fill="#D97706" opacity="0.6" />
+  <text x="52" y="334" fill="#78350F" fontSize="11" fontFamily="sans-serif">Ярославские фрески (XVII в.)</text>
+  <circle cx="44" cy="347" r="3" fill="#D97706" opacity="0.6" />
+  <text x="52" y="351" fill="#78350F" fontSize="11" fontFamily="sans-serif">Библейские сюжеты на стенах</text>
+  <rect x="290" y="90" width="240" height="140" fill="white" stroke="#B45309" strokeWidth="1.5" rx="6" filter="url(#softShadow)" />
+  <rect x="290" y="90" width="240" height="26" fill="#B45309" rx="6" />
+  <rect x="290" y="108" width="240" height="8" fill="#B45309" />
+  <text x="410" y="108" fill="white" fontSize="12" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Ремёсла</text>
+  <circle cx="304" cy="124" r="3" fill="#B45309" opacity="0.6" />
+  <text x="312" y="128" fill="#78350F" fontSize="11" fontFamily="sans-serif">Хохломская роспись (золото)</text>
+  <circle cx="304" cy="141" r="3" fill="#B45309" opacity="0.6" />
+  <text x="312" y="145" fill="#78350F" fontSize="11" fontFamily="sans-serif">Гжель (белый + синий)</text>
+  <circle cx="304" cy="158" r="3" fill="#B45309" opacity="0.6" />
+  <text x="312" y="162" fill="#78350F" fontSize="11" fontFamily="sans-serif">Дымковская игрушка (глина)</text>
+  <circle cx="304" cy="175" r="3" fill="#B45309" opacity="0.6" />
+  <text x="312" y="179" fill="#78350F" fontSize="11" fontFamily="sans-serif">Финифть (эмаль по металлу)</text>
+  <circle cx="304" cy="192" r="3" fill="#B45309" opacity="0.6" />
+  <text x="312" y="196" fill="#78350F" fontSize="11" fontFamily="sans-serif">Чернение серебра</text>
+  <circle cx="304" cy="209" r="3" fill="#B45309" opacity="0.6" />
+  <text x="312" y="213" fill="#78350F" fontSize="11" fontFamily="sans-serif">Резьба по дереву и кости</text>
+  <rect x="30" y="400" width="740" height="2" fill="#EA580C" opacity="0.6" />
+  <circle cx="60" cy="400" r="5" fill="#EA580C" />
+  <text x="60" y="388" fill="#9A3412" fontSize="10" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">988</text>
+  <text x="60" y="420" fill="#78350F" fontSize="9" textAnchor="middle" fontFamily="sans-serif">Крещение Руси</text>
+  <circle cx="190" cy="400" r="5" fill="#EA580C" />
+  <text x="190" y="388" fill="#9A3412" fontSize="10" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">1040</text>
+  <text x="190" y="420" fill="#78350F" fontSize="9" textAnchor="middle" fontFamily="sans-serif">София Киевская</text>
+  <circle cx="320" cy="400" r="5" fill="#EA580C" />
+  <text x="320" y="388" fill="#9A3412" fontSize="10" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">1165</text>
+  <text x="320" y="420" fill="#78350F" fontSize="9" textAnchor="middle" fontFamily="sans-serif">Покрова на Нерли</text>
+  <circle cx="450" cy="400" r="5" fill="#EA580C" />
+  <text x="450" y="388" fill="#9A3412" fontSize="10" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">1405</text>
+  <text x="450" y="420" fill="#78350F" fontSize="9" textAnchor="middle" fontFamily="sans-serif">Рублёв</text>
+  <circle cx="580" cy="400" r="5" fill="#EA580C" />
+  <text x="580" y="388" fill="#9A3412" fontSize="10" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">1475</text>
+  <text x="580" y="420" fill="#78350F" fontSize="9" textAnchor="middle" fontFamily="sans-serif">Успенский собор</text>
+  <circle cx="700" cy="400" r="5" fill="#EA580C" />
+  <text x="700" y="388" fill="#9A3412" fontSize="10" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">1552</text>
+  <text x="700" y="420" fill="#78350F" fontSize="9" textAnchor="middle" fontFamily="sans-serif">Покровский собор</text>
+  <rect x="60" y="440" width="30" height="8" fill="#EA580C" opacity="0.3" rx="2" />
+  <rect x="65" y="448" width="20" height="4" fill="#D97706" opacity="0.3" rx="1" />
+  <rect x="118" y="440" width="30" height="8" fill="#EA580C" opacity="0.3" rx="2" />
+  <rect x="123" y="448" width="20" height="4" fill="#D97706" opacity="0.3" rx="1" />
+  <rect x="176" y="440" width="30" height="8" fill="#EA580C" opacity="0.3" rx="2" />
+  <rect x="181" y="448" width="20" height="4" fill="#D97706" opacity="0.3" rx="1" />
+  <rect x="234" y="440" width="30" height="8" fill="#EA580C" opacity="0.3" rx="2" />
+  <rect x="239" y="448" width="20" height="4" fill="#D97706" opacity="0.3" rx="1" />
+  <rect x="292" y="440" width="30" height="8" fill="#EA580C" opacity="0.3" rx="2" />
+  <rect x="297" y="448" width="20" height="4" fill="#D97706" opacity="0.3" rx="1" />
+  <rect x="350" y="440" width="30" height="8" fill="#EA580C" opacity="0.3" rx="2" />
+  <rect x="355" y="448" width="20" height="4" fill="#D97706" opacity="0.3" rx="1" />
+  <rect x="408" y="440" width="30" height="8" fill="#EA580C" opacity="0.3" rx="2" />
+  <rect x="413" y="448" width="20" height="4" fill="#D97706" opacity="0.3" rx="1" />
+  <rect x="466" y="440" width="30" height="8" fill="#EA580C" opacity="0.3" rx="2" />
+  <rect x="471" y="448" width="20" height="4" fill="#D97706" opacity="0.3" rx="1" />
+  <rect x="524" y="440" width="30" height="8" fill="#EA580C" opacity="0.3" rx="2" />
+  <rect x="529" y="448" width="20" height="4" fill="#D97706" opacity="0.3" rx="1" />
+  <rect x="582" y="440" width="30" height="8" fill="#EA580C" opacity="0.3" rx="2" />
+  <rect x="587" y="448" width="20" height="4" fill="#D97706" opacity="0.3" rx="1" />
+  <rect x="640" y="440" width="30" height="8" fill="#EA580C" opacity="0.3" rx="2" />
+  <rect x="645" y="448" width="20" height="4" fill="#D97706" opacity="0.3" rx="1" />
+  <rect x="698" y="440" width="30" height="8" fill="#EA580C" opacity="0.3" rx="2" />
+  <rect x="703" y="448" width="20" height="4" fill="#D97706" opacity="0.3" rx="1" />
+  <rect x="30" y="470" width="740" height="80" fill="white" stroke="#D97706" strokeWidth="1.5" rx="6" />
+  <rect x="30" y="470" width="740" height="24" fill="#D97706" rx="6" />
+  <rect x="30" y="488" width="740" height="6" fill="#D97706" />
+  <text x="400" y="488" fill="white" fontSize="12" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Ключевые особенности древнерусского искусства</text>
+  <text x="50" y="512" fill="#78350F" fontSize="11" fontFamily="sans-serif">• Синтез архитектуры, живописи и декоративного искусства</text>
+  <text x="50" y="528" fill="#78350F" fontSize="11" fontFamily="sans-serif">• Духовность и символизм каждого элемента</text>
+  <text x="50" y="544" fill="#78350F" fontSize="11" fontFamily="sans-serif">• Византийские традиции + национальное своеобразие</text>
+  <path d="M550,120 Q625.0,130.0 700,150" fill="none" stroke="#D97706" strokeWidth="4" strokeLinecap="round" opacity="0.5" />
+  <path d="M560,180 Q640.0,185.0 720,200" fill="none" stroke="#B45309" strokeWidth="3" strokeLinecap="round" opacity="0.5" />
+  <rect x="20" y="570" width="760" height="22" fill="#9A3412" rx="4" opacity="0.8" />
+  <text x="400" y="585" fill="#FED7AA" fontSize="11" textAnchor="middle" fontFamily="sans-serif">ИЗО · 8 класс</text>
+  <ellipse cx="48" cy="581" rx="8" ry="5.6" fill="#B45309" opacity="0.8" />
+  <circle cx="40" cy="578" r="3" fill="#EF4444" />
+  <circle cx="48" cy="574" r="3" fill="#3B82F6" />
+  <circle cx="56" cy="578" r="3" fill="#EAB308" />
+  <circle cx="43" cy="586" r="3" fill="#22C55E" />
+  <circle cx="53" cy="586" r="3" fill="#8B5CF6" />
+</svg>

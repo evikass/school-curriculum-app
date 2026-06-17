@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFFDE7"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
+  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
+  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
+  <polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
+  <polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
+  <polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
+  <polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
+  <circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
+  <circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
+  <circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
+  <text x="250" y="50" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#C62828" text-anchor="middle">Роль бактерий в природе и жизни человека</text>
+  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Биология - Урок 2</text>
+  <line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
+  <rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
+  <rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+
+  <!-- Useful bacteria -->
+  <rect x="25" y="90" width="220" height="95" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
+  <text x="135" y="106" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" font-weight="bold" text-anchor="middle">Полезные бактерии</text>
+  <!-- Yogurt -->
+  <rect x="40" y="115" width="30" height="40" rx="5" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
+  <rect x="45" y="110" width="20" height="8" rx="3" fill="#1565C0"/>
+  <text x="55" y="140" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">кефир</text>
+  <!-- Soil bacteria -->
+  <ellipse cx="130" cy="140" rx="25" ry="8" fill="#8D6E63"/>
+  <circle cx="120" cy="133" r="3" fill="#81C784"/><circle cx="130" cy="130" r="3" fill="#81C784"/>
+  <circle cx="140" cy="132" r="3" fill="#81C784"/>
+  <path d="M115,145 L112,155 M125,145 L122,158 M135,145 L137,156" stroke="#2E7D32" stroke-width="1"/>
+  <text x="130" y="170" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">почвенные</text>
+  <!-- Nitrogen fixing -->
+  <circle cx="195" cy="135" r="15" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/>
+  <text x="195" y="133" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">N</text>
+  <path d="M190,138 L195,145 L200,138" stroke="#2E7D32" stroke-width="1" fill="none"/>
+  <text x="195" y="168" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">азотфиксаторы</text>
+
+  <!-- Harmful bacteria -->
+  <rect x="260" y="90" width="215" height="95" rx="6" fill="white" stroke="#C62828" stroke-width="1.5"/>
+  <text x="367" y="106" font-family="Arial,sans-serif" font-size="10" fill="#C62828" font-weight="bold" text-anchor="middle">Вредные бактерии</text>
+  <!-- Disease -->
+  <circle cx="310" cy="145" r="12" fill="#FFEBEE" stroke="#C62828" stroke-width="1.5"/>
+  <circle cx="315" cy="140" r="3" fill="#C62828"/>
+  <circle cx="305" cy="148" r="3" fill="#C62828"/>
+  <text x="310" y="170" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">болезни</text>
+  <!-- Spoilage -->
+  <rect x="370" y="130" width="25" height="20" rx="3" fill="#FFE0B2" stroke="#E65100" stroke-width="1"/>
+  <circle cx="378" cy="137" r="3" fill="#8BC34A"/><circle cx="388" cy="142" r="3" fill="#8BC34A"/>
+  <text x="383" y="165" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">порча</text>
+
+  <!-- Industry -->
+  <rect x="25" y="200" width="220" height="90" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5"/>
+  <text x="135" y="216" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" font-weight="bold" text-anchor="middle">Промышленность</text>
+  <!-- Factory -->
+  <rect x="55" y="235" width="40" height="30" rx="2" fill="#B0BEC5" stroke="#546E7A" stroke-width="1"/>
+  <rect x="60" y="225" width="8" height="15" fill="#78909C"/>
+  <rect x="72" y="228" width="6" height="12" fill="#78909C"/>
+  <rect x="82" y="220" width="10" height="20" fill="#78909C"/>
+  <path d="M65,225 Q67,218 69,225" stroke="#90CAF9" stroke-width="1.5" fill="none"/>
+  <path d="M87,220 Q89,212 91,220" stroke="#90CAF9" stroke-width="1.5" fill="none"/>
+  <text x="75" y="278" font-family="Arial,sans-serif" font-size="7" fill="#546E7A" text-anchor="middle">фармация</text>
+  <!-- Sewage -->
+  <rect x="130" y="240" width="50" height="20" rx="2" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+  <path d="M140,250 Q150,245 160,250" stroke="#1565C0" stroke-width="1" fill="none"/>
+  <text x="155" y="275" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">очистка вод</text>
+
+  <!-- Food chain -->
+  <rect x="260" y="200" width="215" height="90" rx="6" fill="white" stroke="#F9A825" stroke-width="1.5"/>
+  <text x="367" y="216" font-family="Arial,sans-serif" font-size="10" fill="#F9A825" font-weight="bold" text-anchor="middle">Пищевая цепь</text>
+  <circle cx="295" cy="250" r="8" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1"/>
+  <text x="295" y="253" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">бактерии</text>
+  <line x1="303" y1="250" x2="323" y2="245" stroke="#888" stroke-width="1" marker-end="url(#arr)"/>
+  <circle cx="335" cy="243" r="8" fill="#90CAF9" stroke="#1565C0" stroke-width="1"/>
+  <text x="335" y="246" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">рачки</text>
+  <line x1="343" y1="243" x2="363" y2="238" stroke="#888" stroke-width="1"/>
+  <circle cx="375" cy="236" r="8" fill="#FFCC80" stroke="#E65100" stroke-width="1"/>
+  <text x="375" y="239" font-family="Arial,sans-serif" font-size="6" fill="#E65100" text-anchor="middle">рыбы</text>
+  <line x1="383" y1="236" x2="403" y2="231" stroke="#888" stroke-width="1"/>
+  <circle cx="415" cy="229" r="8" fill="#EF9A9A" stroke="#C62828" stroke-width="1"/>
+  <text x="415" y="232" font-family="Arial,sans-serif" font-size="6" fill="#C62828" text-anchor="middle">человек</text>
+  <text x="367" y="275" font-family="Arial,sans-serif" font-size="7" fill="#F9A825" text-anchor="middle">редуценты</text>
+  <rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
+  <text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Биология</text>
+</svg>

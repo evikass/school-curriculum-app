@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Background -->
+  <rect width="500" height="350" fill="#F5E6C8"/>
+  <!-- Top red accent bar -->
+  <rect width="500" height="8" fill="#C41E3A"/>
+  <!-- Thin gold line under accent -->
+  <rect y="8" width="500" height="2" fill="#D4A843"/>
+  <!-- Title -->
+  <text x="250" y="45" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Разметка деталей</text>
+  <!-- Subtitle -->
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#D4A843">Работа с бумагой</text>
+  <!-- Illustration area -->
+  <rect x="140" y="130" width="220" height="140" rx="2" fill="#fff" stroke="#ccc" stroke-width="1.5"/><line x1="200" y1="170" x2="340" y2="170" stroke="#333" stroke-width="0.5"/><line x1="200" y1="200" x2="340" y2="200" stroke="#333" stroke-width="0.5"/><line x1="200" y1="230" x2="300" y2="230" stroke="#333" stroke-width="0.5"/><rect x="120" y="160" width="200" height="15" rx="1" fill="#DEB887" stroke="#8B6914" stroke-width="1"/><line x1="140" y1="160" x2="140" y2="175" stroke="#333" stroke-width="0.5"/><line x1="160" y1="160" x2="160" y2="172" stroke="#333" stroke-width="0.5"/><line x1="180" y1="160" x2="180" y2="175" stroke="#333" stroke-width="0.5"/><line x1="200" y1="160" x2="200" y2="172" stroke="#333" stroke-width="0.5"/><text x="200" y="158" text-anchor="middle" font-size="7" fill="#333" font-family="Arial">0</text><text x="220" y="158" text-anchor="middle" font-size="7" fill="#333" font-family="Arial">2</text><text x="260" y="158" text-anchor="middle" font-size="7" fill="#333" font-family="Arial">4</text><text x="300" y="158" text-anchor="middle" font-size="7" fill="#333" font-family="Arial">6</text><polygon points="360,145 365,265 375,265 380,145" fill="#D4A843" stroke="#8B6914" stroke-width="1"/><polygon points="365,265 375,265 370,285" fill="#333"/><rect x="357" y="140" width="26" height="10" rx="2" fill="#FF69B4"/><text x="250" y="295" text-anchor="middle" font-size="10" fill="#C41E3A" font-family="Arial">Экономно размещай детали!</text>
+  <!-- Bottom dark bar -->
+  <rect y="315" width="500" height="35" fill="#1a1a1a"/>
+  <!-- Gold line above bottom bar -->
+  <rect y="313" width="500" height="2" fill="#D4A843"/>
+  <!-- Subject name -->
+  <text x="250" y="337" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#F5E6C8">Технология</text>
+</svg>
