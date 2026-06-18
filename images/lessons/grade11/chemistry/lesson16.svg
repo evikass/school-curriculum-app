@@ -1,34 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E0F2F1"/><stop offset="100%" stop-color="#B2DFDB"/></linearGradient></defs>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E0F2F1"/><stop offset="100%" stop-color="#B2DFDB"/></linearGradient>
+<linearGradient id="panel" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#00897B"/><stop offset="100%" stop-color="#00695C"/></linearGradient></defs>
 <rect width="500" height="350" fill="url(#bg)" rx="10"/>
 <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#00695C" stroke-width="2.5"/>
-<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#00695C" text-anchor="middle">Степень окисления</text>
-<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Химия 11 класс — Урок 16</text>
-<line x1="30" y1="52" x2="470" y2="52" stroke="#00695C" stroke-width="1.5" opacity="0.25"/>
-<g transform="translate(250,200)">
-<circle cx="0" cy="0" r="65" fill="#00695C" opacity="0.07" stroke="#00695C" stroke-width="2"/>
-<text x="0" y="-5" font-family="Arial,sans-serif" font-size="13" fill="#00695C" text-anchor="middle" font-weight="bold">СО</text>
-<text x="0" y="15" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Окислители/восстановители</text>
-</g>
-<g transform="translate(90,105)">
-<rect x="-50" y="-20" width="100" height="40" rx="5" fill="white" stroke="#1565C0" stroke-width="1.2"/>
-<text x="0" y="-5" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle" font-weight="bold">O=-2</text>
-<text x="0" y="8" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">H=+1</text>
-</g>
-<g transform="translate(210,80)">
-<rect x="-50" y="-20" width="100" height="40" rx="5" fill="white" stroke="#9C27B0" stroke-width="1.2"/>
-<text x="0" y="-5" font-family="Arial,sans-serif" font-size="8" fill="#9C27B0" text-anchor="middle" font-weight="bold">Окислитель</text>
-<text x="0" y="8" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">принимает e-</text>
-</g>
-<g transform="translate(290,80)">
-<rect x="-50" y="-20" width="100" height="40" rx="5" fill="white" stroke="#FF8F00" stroke-width="1.2"/>
-<text x="0" y="-5" font-family="Arial,sans-serif" font-size="8" fill="#FF8F00" text-anchor="middle" font-weight="bold">Восстановит.</text>
-<text x="0" y="8" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">отдаёт e-</text>
-</g>
-<g transform="translate(410,105)">
-<rect x="-50" y="-20" width="100" height="40" rx="5" fill="white" stroke="#C62828" stroke-width="1.2"/>
-<text x="0" y="-5" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle" font-weight="bold">Баланс</text>
-<text x="0" y="8" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">отд.=прин.</text>
-</g>
-<text x="250" y="335" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">ИНЕТШКОЛА · Химия · 11 класс</text>
+<rect x="10" y="10" width="480" height="32" rx="5" fill="url(#panel)" opacity="0.9"/>
+<text x="250" y="31" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Степень окисления. ОВР</text>
+<text x="250" y="55" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Окислитель и восстановитель</text>
+<line x1="30" y1="62" x2="470" y2="62" stroke="#00695C" stroke-width="1.5" opacity="0.25"/>
+<circle cx="140" cy="160" r="30" fill="#E3F2FD" stroke="#1565C0" stroke-width="2" opacity="1"/>
+<text x="140" y="158" font-family="Arial,sans-serif" font-size="12" fill="#1565C0" text-anchor="middle" font-weight=bold>Ox</text>
+<text x="140" y="172" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle" >+e-</text>
+<circle cx="360" cy="160" r="30" fill="#FFEBEE" stroke="#C62828" stroke-width="2" opacity="1"/>
+<text x="360" y="158" font-family="Arial,sans-serif" font-size="12" fill="#C62828" text-anchor="middle" font-weight=bold>Red</text>
+<text x="360" y="172" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle" >-e-</text>
+<line x1="170" y1="150" x2="330" y2="150" stroke="#00897B" stroke-width="2"/>
+<polygon points="330,150 323,153 323,147" fill="#00897B"/>
+<text x="250" y="145" font-family="Arial,sans-serif" font-size="12" fill="#00897B" text-anchor="middle" font-weight=bold>e-</text>
+<line x1="330" y1="170" x2="170" y2="170" stroke="#9C27B0" stroke-width="2"/>
+<polygon points="170,170 177,167 177,173" fill="#9C27B0"/>
+<rect x="30" y="220" width="150" height="50" rx="5" fill="white" stroke="#1565C0" stroke-width="1.5"/>
+<rect x="30" y="220" width="150" height="16" rx="5" fill="#1565C0" opacity="0.15"/>
+<text x="105.0" y="232" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1565C0" text-anchor="middle">Правила СО</text>
+<text x="105.0" y="252" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">O=-2, H=+1, F=-1</text>
+<rect x="185" y="220" width="150" height="50" rx="5" fill="white" stroke="#FF8F00" stroke-width="1.5"/>
+<rect x="185" y="220" width="150" height="16" rx="5" fill="#FF8F00" opacity="0.15"/>
+<text x="260.0" y="232" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#FF8F00" text-anchor="middle">H2SO4: S=?</text>
+<text x="260.0" y="252" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">2(+1)+S+4(-2)=0 S=+6</text>
+<rect x="340" y="220" width="135" height="50" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
+<rect x="340" y="220" width="135" height="16" rx="5" fill="#2E7D32" opacity="0.15"/>
+<text x="407.5" y="232" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">Баланс</text>
+<text x="407.5" y="252" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">отданные = принятые</text>
+<text x="250" y="340" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">ИНЕТШКОЛА · Химия · 11 класс · Урок 16</text>
 </svg>

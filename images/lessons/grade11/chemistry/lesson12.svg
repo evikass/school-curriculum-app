@@ -1,34 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E0F2F1"/><stop offset="100%" stop-color="#B2DFDB"/></linearGradient></defs>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E0F2F1"/><stop offset="100%" stop-color="#B2DFDB"/></linearGradient>
+<linearGradient id="panel" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#00897B"/><stop offset="100%" stop-color="#00695C"/></linearGradient></defs>
 <rect width="500" height="350" fill="url(#bg)" rx="10"/>
 <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#00695C" stroke-width="2.5"/>
-<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#00695C" text-anchor="middle">Электролит. диссоциация</text>
-<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Химия 11 класс — Урок 12</text>
-<line x1="30" y1="52" x2="470" y2="52" stroke="#00695C" stroke-width="1.5" opacity="0.25"/>
-<g transform="translate(250,200)">
-<circle cx="0" cy="0" r="65" fill="#00695C" opacity="0.07" stroke="#00695C" stroke-width="2"/>
-<text x="0" y="-5" font-family="Arial,sans-serif" font-size="13" fill="#00695C" text-anchor="middle" font-weight="bold">Na+ Cl-</text>
-<text x="0" y="15" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">ТЭД Аррениуса</text>
-</g>
-<g transform="translate(90,105)">
-<rect x="-50" y="-20" width="100" height="40" rx="5" fill="white" stroke="#1565C0" stroke-width="1.2"/>
-<text x="0" y="-5" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle" font-weight="bold">alpha</text>
-<text x="0" y="8" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">Степень дисс.</text>
-</g>
-<g transform="translate(210,80)">
-<rect x="-50" y="-20" width="100" height="40" rx="5" fill="white" stroke="#9C27B0" stroke-width="1.2"/>
-<text x="0" y="-5" font-family="Arial,sans-serif" font-size="8" fill="#9C27B0" text-anchor="middle" font-weight="bold">Сильные</text>
-<text x="0" y="8" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">HCl, NaOH</text>
-</g>
-<g transform="translate(290,80)">
-<rect x="-50" y="-20" width="100" height="40" rx="5" fill="white" stroke="#FF8F00" stroke-width="1.2"/>
-<text x="0" y="-5" font-family="Arial,sans-serif" font-size="8" fill="#FF8F00" text-anchor="middle" font-weight="bold">Слабые</text>
-<text x="0" y="8" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">CH3COOH</text>
-</g>
-<g transform="translate(410,105)">
-<rect x="-50" y="-20" width="100" height="40" rx="5" fill="white" stroke="#C62828" stroke-width="1.2"/>
-<text x="0" y="-5" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle" font-weight="bold">Оствальд</text>
-<text x="0" y="8" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">K=C*a^2</text>
-</g>
-<text x="250" y="335" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">ИНЕТШКОЛА · Химия · 11 класс</text>
+<rect x="10" y="10" width="480" height="32" rx="5" fill="url(#panel)" opacity="0.9"/>
+<text x="250" y="31" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Электролитическая диссоциация</text>
+<text x="250" y="55" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">ТЭД Аррениуса (1887). Степень диссоциации</text>
+<line x1="30" y1="62" x2="470" y2="62" stroke="#00695C" stroke-width="1.5" opacity="0.25"/>
+<text x="250" y="95" font-family="Arial,sans-serif" font-size="13" fill="#00695C" text-anchor="middle" font-weight=bold>NaCl -> Na+ + Cl-</text>
+<circle cx="250" cy="170" r="35" fill="none" stroke="#00695C" stroke-width="2" opacity="1"/>
+<circle cx="210" cy="170" r="18" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5" opacity="1"/>
+<text x="210" y="174" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle" font-weight=bold>Na+</text>
+<circle cx="290" cy="170" r="18" fill="#FFEBEE" stroke="#C62828" stroke-width="1.5" opacity="1"/>
+<text x="290" y="174" font-family="Arial,sans-serif" font-size="9" fill="#C62828" text-anchor="middle" font-weight=bold>Cl-</text>
+<line x1="235" y1="170" x2="195" y2="170" stroke="#00897B" stroke-width="2"/>
+<polygon points="195,170 202,167 202,173" fill="#00897B"/>
+<line x1="265" y1="170" x2="305" y2="170" stroke="#00897B" stroke-width="2"/>
+<polygon points="305,170 298,173 298,167" fill="#00897B"/>
+<rect x="30" y="230" width="130" height="50" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
+<rect x="30" y="230" width="130" height="16" rx="5" fill="#2E7D32" opacity="0.15"/>
+<text x="95.0" y="242" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">Сильные</text>
+<text x="95.0" y="262" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">HCl, NaOH, NaCl</text>
+<rect x="185" y="230" width="130" height="50" rx="5" fill="white" stroke="#FF8F00" stroke-width="1.5"/>
+<rect x="185" y="230" width="130" height="16" rx="5" fill="#FF8F00" opacity="0.15"/>
+<text x="250.0" y="242" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#FF8F00" text-anchor="middle">Слабые</text>
+<text x="250.0" y="262" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">CH3COOH, NH3</text>
+<rect x="340" y="230" width="130" height="50" rx="5" fill="white" stroke="#9C27B0" stroke-width="1.5"/>
+<rect x="340" y="230" width="130" height="16" rx="5" fill="#9C27B0" opacity="0.15"/>
+<text x="405.0" y="242" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#9C27B0" text-anchor="middle">Оствальд</text>
+<text x="405.0" y="262" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">K = C*a^2/(1-a)</text>
+<text x="250" y="340" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">ИНЕТШКОЛА · Химия · 11 класс · Урок 12</text>
 </svg>
