@@ -8,14 +8,14 @@
 <text x="250" y="55" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Окислитель и восстановитель</text>
 <line x1="30" y1="62" x2="470" y2="62" stroke="#00695C" stroke-width="1.5" opacity="0.25"/>
 <circle cx="140" cy="160" r="30" fill="#E3F2FD" stroke="#1565C0" stroke-width="2" opacity="1"/>
-<text x="140" y="158" font-family="Arial,sans-serif" font-size="12" fill="#1565C0" text-anchor="middle" font-weight=bold>Ox</text>
-<text x="140" y="172" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle" >+e-</text>
+<text x="140" y="158" font-family="Arial,sans-serif" font-size="12" fill="#1565C0" text-anchor="middle" font-weight="bold">Ox</text>
+<text x="140" y="172" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">+e-</text>
 <circle cx="360" cy="160" r="30" fill="#FFEBEE" stroke="#C62828" stroke-width="2" opacity="1"/>
-<text x="360" y="158" font-family="Arial,sans-serif" font-size="12" fill="#C62828" text-anchor="middle" font-weight=bold>Red</text>
-<text x="360" y="172" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle" >-e-</text>
+<text x="360" y="158" font-family="Arial,sans-serif" font-size="12" fill="#C62828" text-anchor="middle" font-weight="bold">Red</text>
+<text x="360" y="172" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle">-e-</text>
 <line x1="170" y1="150" x2="330" y2="150" stroke="#00897B" stroke-width="2"/>
 <polygon points="330,150 323,153 323,147" fill="#00897B"/>
-<text x="250" y="145" font-family="Arial,sans-serif" font-size="12" fill="#00897B" text-anchor="middle" font-weight=bold>e-</text>
+<text x="250" y="145" font-family="Arial,sans-serif" font-size="12" fill="#00897B" text-anchor="middle" font-weight="bold">e-</text>
 <line x1="330" y1="170" x2="170" y2="170" stroke="#9C27B0" stroke-width="2"/>
 <polygon points="170,170 177,167 177,173" fill="#9C27B0"/>
 <rect x="30" y="220" width="150" height="50" rx="5" fill="white" stroke="#1565C0" stroke-width="1.5"/>

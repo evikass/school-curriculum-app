@@ -4,31 +4,24 @@
 <rect width="500" height="350" fill="url(#bg)" rx="10"/>
 <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#00695C" stroke-width="2.5"/>
 <rect x="10" y="10" width="480" height="32" rx="5" fill="url(#panel)" opacity="0.9"/>
-<text x="250" y="31" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Альдегиды и кетоны</text>
-<text x="250" y="55" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Карбонильная группа C=O. Серебряное зеркало</text>
+<text x="250" y="31" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Кислоты, основания, соли (ТЭД)</text>
+<text x="250" y="55" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Ионные уравнения. Реакции обмена</text>
 <line x1="30" y1="62" x2="470" y2="62" stroke="#00695C" stroke-width="1.5" opacity="0.25"/>
-<text x="250" y="85" font-family="Arial,sans-serif" font-size="11" fill="#00695C" text-anchor="middle" font-weight=bold>R-CHO + 2[Ag(NH3)2]OH</text>
-<text x="250" y="100" font-family="Arial,sans-serif" font-size="10" fill="#00897B" text-anchor="middle" >-> R-COOH + 2Ag + 3NH3 + H2O</text>
-<circle cx="140" cy="170" r="28" fill="#E3F2FD" stroke="#1565C0" stroke-width="2" opacity="1"/>
-<text x="140" y="168" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle" font-weight=bold>Ox</text>
-<text x="140" y="180" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle" >+e-</text>
-<circle cx="360" cy="170" r="28" fill="#FFEBEE" stroke="#C62828" stroke-width="2" opacity="1"/>
-<text x="360" y="168" font-family="Arial,sans-serif" font-size="10" fill="#C62828" text-anchor="middle" font-weight=bold>Red</text>
-<text x="360" y="180" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" >-e-</text>
-<line x1="170" y1="170" x2="330" y2="170" stroke="#00897B" stroke-width="2"/>
-<polygon points="330,170 323,173 323,167" fill="#00897B"/>
-<text x="250" y="165" font-family="Arial,sans-serif" font-size="9" fill="#00897B" text-anchor="middle" font-weight=bold>Ag+</text>
-<rect x="30" y="220" width="150" height="50" rx="5" fill="white" stroke="#1565C0" stroke-width="1.5"/>
-<rect x="30" y="220" width="150" height="16" rx="5" fill="#1565C0" opacity="0.15"/>
-<text x="105.0" y="232" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1565C0" text-anchor="middle">Альдегиды</text>
-<text x="105.0" y="252" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">R-CHO (формальдегид)</text>
-<rect x="190" y="220" width="150" height="50" rx="5" fill="white" stroke="#FF8F00" stroke-width="1.5"/>
-<rect x="190" y="220" width="150" height="16" rx="5" fill="#FF8F00" opacity="0.15"/>
-<text x="265.0" y="232" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#FF8F00" text-anchor="middle">Кетоны</text>
-<text x="265.0" y="252" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">R-CO-R (ацетон)</text>
-<rect x="350" y="220" width="120" height="50" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
-<rect x="350" y="220" width="120" height="16" rx="5" fill="#2E7D32" opacity="0.15"/>
-<text x="410.0" y="232" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">Cu2O</text>
-<text x="410.0" y="252" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">красный осадок</text>
+<text x="250" y="95" font-family="Arial,sans-serif" font-size="16" fill="#00695C" text-anchor="middle" font-weight="bold">H+ + OH- -&gt; H2O</text>
+<rect x="80" y="120" width="100" height="50" rx="5" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
+<text x="130" y="140" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle" font-weight="bold">Кислота</text>
+<text x="130" y="155" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">-&gt; H+ + анион</text>
+<rect x="320" y="120" width="100" height="50" rx="5" fill="#FFEBEE" stroke="#C62828" stroke-width="1.5"/>
+<text x="370" y="140" font-family="Arial,sans-serif" font-size="9" fill="#C62828" text-anchor="middle" font-weight="bold">Основание</text>
+<text x="370" y="155" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">-&gt; катион + OH-</text>
+<line x1="185" y1="145" x2="315" y2="145" stroke="#00897B" stroke-width="2"/>
+<polygon points="315,145 308,148 308,142" fill="#00897B"/>
+<text x="250" y="138" font-family="Arial,sans-serif" font-size="14" fill="#00897B" text-anchor="middle" font-weight="bold">+</text>
+<circle cx="250" cy="230" r="25" fill="#E0F2F1" stroke="#00695C" stroke-width="2" opacity="1"/>
+<text x="250" y="235" font-family="Arial,sans-serif" font-size="12" fill="#00695C" text-anchor="middle" font-weight="bold">H2O</text>
+<rect x="30" y="275" width="440" height="35" rx="5" fill="white" stroke="#FF8F00" stroke-width="1.5"/>
+<rect x="30" y="275" width="440" height="16" rx="5" fill="#FF8F00" opacity="0.15"/>
+<text x="250.0" y="287" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#FF8F00" text-anchor="middle">Условия необратимости</text>
+<text x="250.0" y="307" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">осадок | газ | слабый электролит</text>
 <text x="250" y="340" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">ИНЕТШКОЛА · Химия · 10 класс · Урок 13</text>
 </svg>

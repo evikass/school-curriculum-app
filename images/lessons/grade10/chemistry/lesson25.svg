@@ -4,35 +4,33 @@
 <rect width="500" height="350" fill="url(#bg)" rx="10"/>
 <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#00695C" stroke-width="2.5"/>
 <rect x="10" y="10" width="480" height="32" rx="5" fill="url(#panel)" opacity="0.9"/>
-<text x="250" y="31" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Гетероциклы. Обобщение курса</text>
-<text x="250" y="55" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Пиррол. Пиридин. Пурин. 5 глав</text>
+<text x="250" y="31" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">S, N, P, C — обобщение курса</text>
+<text x="250" y="55" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">5 глав x 5 уроков = 25. 125 вопросов</text>
 <line x1="30" y1="62" x2="470" y2="62" stroke="#00695C" stroke-width="1.5" opacity="0.25"/>
-<text x="250" y="82" font-family="Arial,sans-serif" font-size="13" fill="#00695C" text-anchor="middle" font-weight=bold>Курс химии 10 класса завершён!</text>
-<rect x="30" y="100" width="130" height="50" rx="5" fill="white" stroke="#1565C0" stroke-width="1.5"/>
+<text x="250" y="82" font-family="Arial,sans-serif" font-size="13" fill="#00695C" text-anchor="middle" font-weight="bold">Курс химии 11 класса завершён!</text>
+<rect x="30" y="100" width="130" height="55" rx="5" fill="white" stroke="#1565C0" stroke-width="1.5"/>
 <rect x="30" y="100" width="130" height="16" rx="5" fill="#1565C0" opacity="0.15"/>
-<text x="95.0" y="112" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1565C0" text-anchor="middle">Пиррол</text>
-<text x="95.0" y="132" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">4C + 1N (5-чл.)
--> гем, хлорофилл</text>
-<rect x="170" y="100" width="130" height="50" rx="5" fill="white" stroke="#C62828" stroke-width="1.5"/>
-<rect x="170" y="100" width="130" height="16" rx="5" fill="#C62828" opacity="0.15"/>
-<text x="235.0" y="112" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#C62828" text-anchor="middle">Пиридин</text>
-<text x="235.0" y="132" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">5C + 1N (6-чл.)
-pKa = 5.25</text>
-<rect x="310" y="100" width="150" height="50" rx="5" fill="white" stroke="#9C27B0" stroke-width="1.5"/>
-<rect x="310" y="100" width="150" height="16" rx="5" fill="#9C27B0" opacity="0.15"/>
-<text x="385.0" y="112" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#9C27B0" text-anchor="middle">Пурин</text>
-<text x="385.0" y="132" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">пиримидин + имидазол
--> A, G (ДНК/РНК)</text>
-<rect x="30" y="170" width="440" height="55" rx="5" fill="#E0F2F1" stroke="#00695C" stroke-width="2"/>
-<text x="250" y="190" font-family="Arial,sans-serif" font-size="9" fill="#00695C" text-anchor="middle" font-weight=bold>5 глав: теория -> углеводороды -> O-соед. -> N-соед. -> доп.</text>
-<text x="250" y="210" font-family="Arial,sans-serif" font-size="10" fill="#00897B" text-anchor="middle" font-weight=bold>25 уроков x 25 тестов x 125 вопросов x 5 звёзд</text>
-<rect x="30" y="240" width="200" height="50" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
-<rect x="30" y="240" width="200" height="16" rx="5" fill="#2E7D32" opacity="0.15"/>
-<text x="130.0" y="252" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">Биороль</text>
-<text x="130.0" y="272" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">ДНК, РНК, гем, витамины</text>
-<rect x="270" y="240" width="200" height="50" rx="5" fill="white" stroke="#FF8F00" stroke-width="1.5"/>
-<rect x="270" y="240" width="200" height="16" rx="5" fill="#FF8F00" opacity="0.15"/>
-<text x="370.0" y="252" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#FF8F00" text-anchor="middle">Применение</text>
-<text x="370.0" y="272" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">60% орг. соединений</text>
+<text x="95.0" y="112" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1565C0" text-anchor="middle">H2SO4</text>
+<text x="95.0" y="132" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">S-&gt;SO2-&gt;SO3-&gt;H2SO4 (V2O5)</text>
+<rect x="170" y="100" width="130" height="55" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
+<rect x="170" y="100" width="130" height="16" rx="5" fill="#2E7D32" opacity="0.15"/>
+<text x="235.0" y="112" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">NH3</text>
+<text x="235.0" y="132" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">N2+3H2-&gt;2NH3 (Fe,450C)</text>
+<rect x="310" y="100" width="150" height="55" rx="5" fill="white" stroke="#FF8F00" stroke-width="1.5"/>
+<rect x="310" y="100" width="150" height="16" rx="5" fill="#FF8F00" opacity="0.15"/>
+<text x="385.0" y="112" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#FF8F00" text-anchor="middle">Алмаз/графит</text>
+<text x="385.0" y="132" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">C: sp3 (твёрдый) sp2 (проводит)</text>
+<rect x="30" y="170" width="210" height="50" rx="5" fill="white" stroke="#9C27B0" stroke-width="1.5"/>
+<rect x="30" y="170" width="210" height="16" rx="5" fill="#9C27B0" opacity="0.15"/>
+<text x="135.0" y="182" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#9C27B0" text-anchor="middle">Круговорот азота</text>
+<text x="135.0" y="202" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">N2-&gt;NH3-&gt;NO3-&gt;белки-&gt;N2</text>
+<rect x="260" y="170" width="200" height="50" rx="5" fill="white" stroke="#C62828" stroke-width="1.5"/>
+<rect x="260" y="170" width="200" height="16" rx="5" fill="#C62828" opacity="0.15"/>
+<text x="360.0" y="182" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#C62828" text-anchor="middle">CO2 и климат</text>
+<text x="360.0" y="202" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">280 ppm (1850) -&gt; 420 ppm (2024)</text>
+<rect x="30" y="235" width="440" height="60" rx="5" fill="#E0F2F1" stroke="#00695C" stroke-width="2"/>
+<text x="250" y="255" font-family="Arial,sans-serif" font-size="9" fill="#00695C" text-anchor="middle" font-weight="bold">5 глав: теория -&gt; кинетика -&gt; растворы -&gt; ОВР -&gt; металлы</text>
+<text x="250" y="275" font-family="Arial,sans-serif" font-size="10" fill="#00897B" text-anchor="middle" font-weight="bold">25 уроков x 25 тестов x 125 вопросов x 5 звёзд</text>
+<text x="250" y="295" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Габриелян О.С., Еремин В.В.</text>
 <text x="250" y="340" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">ИНЕТШКОЛА · Химия · 10 класс · Урок 25</text>
 </svg>

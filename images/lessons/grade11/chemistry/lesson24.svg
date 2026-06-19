@@ -7,7 +7,7 @@
 <text x="250" y="31" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Галогены и кислород</text>
 <text x="250" y="55" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">F2 > Cl2 > Br2 > I2. O2 и O3</text>
 <line x1="30" y1="62" x2="470" y2="62" stroke="#00695C" stroke-width="1.5" opacity="0.25"/>
-<text x="250" y="85" font-family="Arial,sans-serif" font-size="14" fill="#00695C" text-anchor="middle" font-weight=bold>F2 > Cl2 > Br2 > I2</text>
+<text x="250" y="85" font-family="Arial,sans-serif" font-size="14" fill="#00695C" text-anchor="middle" font-weight="bold">F2 &gt; Cl2 &gt; Br2 &gt; I2</text>
 <rect x="30" y="115" width="100" height="50" rx="5" fill="white" stroke="#E3F2FD" stroke-width="1.5"/>
 <rect x="30" y="115" width="100" height="16" rx="5" fill="#E3F2FD" opacity="0.15"/>
 <text x="80.0" y="127" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#E3F2FD" text-anchor="middle">F2</text>
@@ -24,15 +24,15 @@
 <rect x="360" y="115" width="100" height="16" rx="5" fill="#F3E5F5" opacity="0.15"/>
 <text x="410.0" y="127" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#F3E5F5" text-anchor="middle">I2</text>
 <text x="410.0" y="147" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">Фиолетовые кристаллы</text>
-<text x="250" y="185" font-family="Arial,sans-serif" font-size="10" fill="#00897B" text-anchor="middle" font-weight=bold>Cl2 + 2KBr -> 2KCl + Br2</text>
+<text x="250" y="185" font-family="Arial,sans-serif" font-size="10" fill="#00897B" text-anchor="middle" font-weight="bold">Cl2 + 2KBr -&gt; 2KCl + Br2</text>
 <rect x="30" y="210" width="200" height="55" rx="5" fill="white" stroke="#1565C0" stroke-width="1.5"/>
 <rect x="30" y="210" width="200" height="16" rx="5" fill="#1565C0" opacity="0.15"/>
 <text x="130.0" y="222" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1565C0" text-anchor="middle">O2</text>
-<text x="130.0" y="242" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">2KClO3->(MnO2)->2KCl+3O2</text>
+<text x="130.0" y="242" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">2KClO3-&gt;(MnO2)-&gt;2KCl+3O2</text>
 <rect x="270" y="210" width="200" height="55" rx="5" fill="white" stroke="#9C27B0" stroke-width="1.5"/>
 <rect x="270" y="210" width="200" height="16" rx="5" fill="#9C27B0" opacity="0.15"/>
 <text x="370.0" y="222" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#9C27B0" text-anchor="middle">O3 (озон)</text>
-<text x="370.0" y="242" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">3O2->2O3 Сильнейший окислитель</text>
-<text x="250" y="285" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle" >HF разъедает стекло: SiO2+4HF->SiF4+2H2O</text>
+<text x="370.0" y="242" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">3O2-&gt;2O3 Сильнейший окислитель</text>
+<text x="250" y="285" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">HF разъедает стекло: SiO2+4HF-&gt;SiF4+2H2O</text>
 <text x="250" y="340" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">ИНЕТШКОЛА · Химия · 11 класс · Урок 24</text>
 </svg>

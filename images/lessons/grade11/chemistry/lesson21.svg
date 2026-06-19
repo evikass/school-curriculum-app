@@ -8,22 +8,22 @@
 <text x="250" y="55" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Ряд активности. Получение. Сплавы</text>
 <line x1="30" y1="62" x2="470" y2="62" stroke="#00695C" stroke-width="1.5" opacity="0.25"/>
 <rect x="30" y="80" width="440" height="22" rx="3" fill="#E0F2F1" stroke="#00695C" stroke-width="1.5"/>
-<text x="250" y="95" font-family="Arial,sans-serif" font-size="8" fill="#00695C" text-anchor="middle" font-weight=bold>Li -> Na -> Mg -> Al -> Zn -> Fe -> Cu -> Au</text>
+<text x="250" y="95" font-family="Arial,sans-serif" font-size="8" fill="#00695C" text-anchor="middle" font-weight="bold">Li -&gt; Na -&gt; Mg -&gt; Al -&gt; Zn -&gt; Fe -&gt; Cu -&gt; Au</text>
 <rect x="30" y="120" width="140" height="55" rx="5" fill="white" stroke="#C62828" stroke-width="1.5"/>
 <rect x="30" y="120" width="140" height="16" rx="5" fill="#C62828" opacity="0.15"/>
 <text x="100.0" y="132" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#C62828" text-anchor="middle">Пирометаллургия</text>
-<text x="100.0" y="152" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">Fe2O3 + 3CO -> 2Fe + 3CO2</text>
+<text x="100.0" y="152" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">Fe2O3 + 3CO -&gt; 2Fe + 3CO2</text>
 <rect x="180" y="120" width="140" height="55" rx="5" fill="white" stroke="#1565C0" stroke-width="1.5"/>
 <rect x="180" y="120" width="140" height="16" rx="5" fill="#1565C0" opacity="0.15"/>
 <text x="250.0" y="132" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1565C0" text-anchor="middle">Электрометаллургия</text>
-<text x="250.0" y="152" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">Al2O3 -> 2Al + 3O2 (950C)</text>
+<text x="250.0" y="152" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">Al2O3 -&gt; 2Al + 3O2 (950C)</text>
 <rect x="330" y="120" width="140" height="55" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
 <rect x="330" y="120" width="140" height="16" rx="5" fill="#2E7D32" opacity="0.15"/>
 <text x="400.0" y="132" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">Гидрометаллургия</text>
-<text x="400.0" y="152" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">CuO+H2SO4->CuSO4;+Fe->Cu</text>
+<text x="400.0" y="152" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">CuO+H2SO4-&gt;CuSO4;+Fe-&gt;Cu</text>
 <circle cx="250" cy="220" r="35" fill="#E0F2F1" stroke="#00695C" stroke-width="2" opacity="1"/>
-<text x="250" y="215" font-family="Arial,sans-serif" font-size="14" fill="#00695C" text-anchor="middle" font-weight=bold>Me</text>
-<text x="250" y="232" font-family="Arial,sans-serif" font-size="9" fill="#00897B" text-anchor="middle" >-> e-</text>
-<text x="250" y="270" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle" >Восстановители! Проводят ток, ковки, блеск</text>
+<text x="250" y="215" font-family="Arial,sans-serif" font-size="14" fill="#00695C" text-anchor="middle" font-weight="bold">Me</text>
+<text x="250" y="232" font-family="Arial,sans-serif" font-size="9" fill="#00897B" text-anchor="middle">-&gt; e-</text>
+<text x="250" y="270" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Восстановители! Проводят ток, ковки, блеск</text>
 <text x="250" y="340" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">ИНЕТШКОЛА · Химия · 11 класс · Урок 21</text>
 </svg>

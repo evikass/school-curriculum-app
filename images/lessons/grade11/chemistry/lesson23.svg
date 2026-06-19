@@ -10,15 +10,15 @@
 <rect x="30" y="80" width="210" height="80" rx="5" fill="white" stroke="#1565C0" stroke-width="1.5"/>
 <rect x="30" y="80" width="210" height="16" rx="5" fill="#1565C0" opacity="0.15"/>
 <text x="135.0" y="92" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1565C0" text-anchor="middle">Al (амфотерный!)</text>
-<text x="135.0" y="112" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">+кислота: 2Al+6HCl->2AlCl3+3H2
-+щёлочь: 2Al+2NaOH+6H2O->Na[Al(OH)4]+H2</text>
+<text x="135.0" y="112" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">+кислота: 2Al+6HCl-&gt;2AlCl3+3H2
++щёлочь: 2Al+2NaOH+6H2O-&gt;Na[Al(OH)4]+H2</text>
 <rect x="260" y="80" width="210" height="80" rx="5" fill="white" stroke="#C62828" stroke-width="1.5"/>
 <rect x="260" y="80" width="210" height="16" rx="5" fill="#C62828" opacity="0.15"/>
 <text x="365.0" y="92" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#C62828" text-anchor="middle">Fe (домна)</text>
-<text x="365.0" y="112" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">Fe2O3+3CO->2Fe+3CO2
-Чугун: C>2%, Сталь: C<2%</text>
-<text x="250" y="185" font-family="Arial,sans-serif" font-size="10" fill="#00695C" text-anchor="middle" font-weight=bold>Al2O3 ->(электролиз)-> 2Al + 3O2</text>
-<text x="250" y="200" font-family="Arial,sans-serif" font-size="10" fill="#FF8F00" text-anchor="middle" >2Al + Fe2O3 -> 2Fe + Al2O3 (алюминотермия)</text>
+<text x="365.0" y="112" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">Fe2O3+3CO-&gt;2Fe+3CO2
+Чугун: C&gt;2%, Сталь: C&lt;2%</text>
+<text x="250" y="185" font-family="Arial,sans-serif" font-size="10" fill="#00695C" text-anchor="middle" font-weight="bold">Al2O3 -&gt;(электролиз)-&gt; 2Al + 3O2</text>
+<text x="250" y="200" font-family="Arial,sans-serif" font-size="10" fill="#FF8F00" text-anchor="middle">2Al + Fe2O3 -&gt; 2Fe + Al2O3 (алюминотермия)</text>
 <rect x="30" y="220" width="200" height="50" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
 <rect x="30" y="220" width="200" height="16" rx="5" fill="#2E7D32" opacity="0.15"/>
 <text x="130.0" y="232" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">Al — применение</text>

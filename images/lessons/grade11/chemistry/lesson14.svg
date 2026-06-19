@@ -10,21 +10,21 @@
 <rect x="30" y="80" width="135" height="60" rx="5" fill="white" stroke="#1565C0" stroke-width="1.5"/>
 <rect x="30" y="80" width="135" height="16" rx="5" fill="#1565C0" opacity="0.15"/>
 <text x="97.5" y="92" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1565C0" text-anchor="middle">По аниону</text>
-<text x="97.5" y="112" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">Na2CO3 -> pH > 7</text>
+<text x="97.5" y="112" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">Na2CO3 -&gt; pH &gt; 7</text>
 <rect x="183" y="80" width="135" height="60" rx="5" fill="white" stroke="#C62828" stroke-width="1.5"/>
 <rect x="183" y="80" width="135" height="16" rx="5" fill="#C62828" opacity="0.15"/>
 <text x="250.5" y="92" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#C62828" text-anchor="middle">По катиону</text>
-<text x="250.5" y="112" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">NH4Cl -> pH < 7</text>
+<text x="250.5" y="112" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">NH4Cl -&gt; pH &lt; 7</text>
 <rect x="336" y="80" width="135" height="60" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
 <rect x="336" y="80" width="135" height="16" rx="5" fill="#2E7D32" opacity="0.15"/>
-<text x="403.5" y="92" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">Не идёт</text>
-<text x="403.5" y="112" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">NaCl -> pH = 7</text>
-<text x="250" y="175" font-family="Arial,sans-serif" font-size="10" fill="#00695C" text-anchor="middle" font-weight=bold>CO3(2-) + H2O -> HCO3- + OH-</text>
+<text x="403.5" y="92" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">Не идет</text>
+<text x="403.5" y="112" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">NaCl -&gt; pH = 7</text>
+<text x="250" y="175" font-family="Arial,sans-serif" font-size="10" fill="#00695C" text-anchor="middle" font-weight="bold">CO3(2-) + H2O -&gt; HCO3- + OH-</text>
 <rect x="100" y="210" width="300" height="50" rx="5" fill="white" stroke="#9C27B0" stroke-width="1.5"/>
 <rect x="100" y="210" width="300" height="16" rx="5" fill="#9C27B0" opacity="0.15"/>
 <text x="250.0" y="222" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#9C27B0" text-anchor="middle">Al2S3 в воде не существует!</text>
 <text x="250.0" y="242" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">Полный (необратимый) гидролиз</text>
-<text x="250" y="290" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle" >Нагревание усиливает (эндотермический)</text>
-<text x="250" y="305" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle" >Разбавление увеличивает степень гидролиза</text>
+<text x="250" y="290" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Нагревание усиливает (эндотермический)</text>
+<text x="250" y="305" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Разбавление увеличивает степень гидролиза</text>
 <text x="250" y="340" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">ИНЕТШКОЛА · Химия · 11 класс · Урок 14</text>
 </svg>

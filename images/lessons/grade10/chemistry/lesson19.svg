@@ -4,38 +4,31 @@
 <rect width="500" height="350" fill="url(#bg)" rx="10"/>
 <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#00695C" stroke-width="2.5"/>
 <rect x="10" y="10" width="480" height="32" rx="5" fill="url(#panel)" opacity="0.9"/>
-<text x="250" y="31" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Нуклеиновые кислоты</text>
-<text x="250" y="55" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">ДНК и РНК. Двойная спираль. A=T G=C</text>
+<text x="250" y="31" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">ОВР в органической химии</text>
+<text x="250" y="55" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Окисление: спирт -> альдегид -> кислота</text>
 <line x1="30" y1="62" x2="470" y2="62" stroke="#00695C" stroke-width="1.5" opacity="0.25"/>
-<text x="250" y="85" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" text-anchor="middle" font-weight=bold>A = T (2 H-связи)</text>
-<text x="250" y="100" font-family="Arial,sans-serif" font-size="11" fill="#C62828" text-anchor="middle" font-weight=bold>G = C (3 H-связи)</text>
-<circle cx="130" cy="150" r="18" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5" opacity="1"/>
-<text x="130" y="153" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle" font-weight=bold>A</text>
-<line x1="148" y1="148" x2="202" y2="148" stroke="#1565C0" stroke-width="2" opacity="0.5"/>
-<text x="175" y="143" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle" font-weight=bold>=</text>
-<circle cx="220" cy="150" r="18" fill="#BBDEFB" stroke="#1565C0" stroke-width="1.5" opacity="1"/>
-<text x="220" y="153" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle" font-weight=bold>T</text>
-<circle cx="280" cy="150" r="18" fill="#FFEBEE" stroke="#C62828" stroke-width="1.5" opacity="1"/>
-<text x="280" y="153" font-family="Arial,sans-serif" font-size="10" fill="#C62828" text-anchor="middle" font-weight=bold>G</text>
-<line x1="298" y1="148" x2="362" y2="148" stroke="#C62828" stroke-width="2" opacity="0.5"/>
-<text x="330" y="143" font-family="Arial,sans-serif" font-size="10" fill="#C62828" text-anchor="middle" font-weight=bold>=</text>
-<line x1="298" y1="152" x2="362" y2="152" stroke="#C62828" stroke-width="2" opacity="0.5"/>
-<circle cx="380" cy="150" r="18" fill="#FFCDD2" stroke="#C62828" stroke-width="1.5" opacity="1"/>
-<text x="380" y="153" font-family="Arial,sans-serif" font-size="10" fill="#C62828" text-anchor="middle" font-weight=bold>C</text>
-<rect x="30" y="195" width="150" height="55" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
-<rect x="30" y="195" width="150" height="16" rx="5" fill="#2E7D32" opacity="0.15"/>
-<text x="105.0" y="207" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">ДНК</text>
-<text x="105.0" y="227" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">дезоксирибоза + тимин
-двойная спираль (1953)</text>
-<rect x="190" y="195" width="150" height="55" rx="5" fill="white" stroke="#FF8F00" stroke-width="1.5"/>
-<rect x="190" y="195" width="150" height="16" rx="5" fill="#FF8F00" opacity="0.15"/>
-<text x="265.0" y="207" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#FF8F00" text-anchor="middle">РНК</text>
-<text x="265.0" y="227" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">рибоза + урацил
-мРНК, тРНК, рРНК</text>
-<rect x="350" y="195" width="120" height="55" rx="5" fill="white" stroke="#9C27B0" stroke-width="1.5"/>
-<rect x="350" y="195" width="120" height="16" rx="5" fill="#9C27B0" opacity="0.15"/>
-<text x="410.0" y="207" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#9C27B0" text-anchor="middle">Код</text>
-<text x="410.0" y="227" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">триплетный
-64 кодона</text>
+<text x="250" y="85" font-family="Arial,sans-serif" font-size="12" fill="#00695C" text-anchor="middle" font-weight="bold">CH4 (C=-4) -&gt; CO2 (C=+4)</text>
+<rect x="30" y="110" width="90" height="40" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/>
+<text x="75" y="135" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle" font-weight="bold">Спирт</text>
+<line x1="125" y1="130" x2="170" y2="130" stroke="#00897B" stroke-width="2"/>
+<polygon points="170,130 163,133 163,127" fill="#00897B"/>
+<text x="147" y="124" font-family="Arial,sans-serif" font-size="8" fill="#00897B" text-anchor="middle">[O]</text>
+<rect x="175" y="110" width="90" height="40" rx="5" fill="#FFF3E0" stroke="#FF8F00" stroke-width="1.5"/>
+<text x="220" y="135" font-family="Arial,sans-serif" font-size="9" fill="#FF8F00" text-anchor="middle" font-weight="bold">Альдегид</text>
+<line x1="270" y1="130" x2="315" y2="130" stroke="#00897B" stroke-width="2"/>
+<polygon points="315,130 308,133 308,127" fill="#00897B"/>
+<text x="292" y="124" font-family="Arial,sans-serif" font-size="8" fill="#00897B" text-anchor="middle">[O]</text>
+<rect x="320" y="110" width="90" height="40" rx="5" fill="#FFEBEE" stroke="#C62828" stroke-width="1.5"/>
+<text x="365" y="135" font-family="Arial,sans-serif" font-size="9" fill="#C62828" text-anchor="middle" font-weight="bold">Кислота</text>
+<rect x="30" y="175" width="200" height="50" rx="5" fill="white" stroke="#9C27B0" stroke-width="1.5"/>
+<rect x="30" y="175" width="200" height="16" rx="5" fill="#9C27B0" opacity="0.15"/>
+<text x="130.0" y="187" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#9C27B0" text-anchor="middle">Серебряное зеркало</text>
+<text x="130.0" y="207" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">R-CHO + Ag2O -&gt; 2Ag + R-COOH</text>
+<rect x="270" y="175" width="200" height="50" rx="5" fill="white" stroke="#1565C0" stroke-width="1.5"/>
+<rect x="270" y="175" width="200" height="16" rx="5" fill="#1565C0" opacity="0.15"/>
+<text x="370.0" y="187" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1565C0" text-anchor="middle">Гидрирование</text>
+<text x="370.0" y="207" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">C2H4 + H2 -&gt;(Ni) C2H6</text>
+<text x="250" y="255" font-family="Arial,sans-serif" font-size="10" fill="#00695C" text-anchor="middle" font-weight="bold">C6H12O6 + 6O2 -&gt; 6CO2 + 6H2O (дыхание)</text>
+<text x="250" y="275" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle">6CO2 + 6H2O -&gt; C6H12O6 + 6O2 (фотосинтез)</text>
 <text x="250" y="340" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">ИНЕТШКОЛА · Химия · 10 класс · Урок 19</text>
 </svg>

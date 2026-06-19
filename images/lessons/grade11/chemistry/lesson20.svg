@@ -7,17 +7,17 @@
 <text x="250" y="31" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Коррозия металлов. Защита</text>
 <text x="250" y="55" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Электрохимическая коррозия. Анод/катод</text>
 <line x1="30" y1="62" x2="470" y2="62" stroke="#00695C" stroke-width="1.5" opacity="0.25"/>
-<text x="250" y="85" font-family="Arial,sans-serif" font-size="11" fill="#C62828" text-anchor="middle" font-weight=bold>Fe + O2 + H2O -> Fe2O3*nH2O</text>
+<text x="250" y="85" font-family="Arial,sans-serif" font-size="11" fill="#C62828" text-anchor="middle" font-weight="bold">Fe + O2 + H2O -&gt; Fe2O3*nH2O</text>
 <rect x="80" y="105" width="150" height="60" rx="5" fill="#FFEBEE" stroke="#C62828" stroke-width="1.5"/>
-<text x="155" y="125" font-family="Arial,sans-serif" font-size="10" fill="#C62828" text-anchor="middle" font-weight=bold>Анод (-)</text>
-<text x="155" y="145" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle" >Fe0 - 2e- -> Fe2+</text>
-<text x="155" y="158" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" >разрушается!</text>
+<text x="155" y="125" font-family="Arial,sans-serif" font-size="10" fill="#C62828" text-anchor="middle" font-weight="bold">Анод (-)</text>
+<text x="155" y="145" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">Fe0 - 2e- -&gt; Fe2+</text>
+<text x="155" y="158" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">разрушается!</text>
 <rect x="270" y="105" width="150" height="60" rx="5" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
-<text x="345" y="125" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle" font-weight=bold>Катод (+)</text>
-<text x="345" y="145" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle" >O2+2H2O+4e- ->4OH-</text>
+<text x="345" y="125" font-family="Arial,sans-serif" font-size="10" fill="#1565C0" text-anchor="middle" font-weight="bold">Катод (+)</text>
+<text x="345" y="145" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">O2+2H2O+4e- -&gt;4OH-</text>
 <line x1="230" y1="135" x2="270" y2="135" stroke="#00897B" stroke-width="2"/>
 <polygon points="270,135 263,138 263,132" fill="#00897B"/>
-<text x="250" y="130" font-family="Arial,sans-serif" font-size="10" fill="#00897B" text-anchor="middle" font-weight=bold>e-</text>
+<text x="250" y="130" font-family="Arial,sans-serif" font-size="10" fill="#00897B" text-anchor="middle" font-weight="bold">e-</text>
 <rect x="30" y="185" width="135" height="55" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
 <rect x="30" y="185" width="135" height="16" rx="5" fill="#2E7D32" opacity="0.15"/>
 <text x="97.5" y="197" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">Zn-протектор</text>
@@ -25,11 +25,11 @@
 <rect x="183" y="185" width="135" height="55" rx="5" fill="white" stroke="#FF8F00" stroke-width="1.5"/>
 <rect x="183" y="185" width="135" height="16" rx="5" fill="#FF8F00" opacity="0.15"/>
 <text x="250.5" y="197" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#FF8F00" text-anchor="middle">Легирование</text>
-<text x="250.5" y="217" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">Cr > 12% -> нержавейка</text>
+<text x="250.5" y="217" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">Cr &gt; 12% -&gt; нержавейка</text>
 <rect x="336" y="185" width="135" height="55" rx="5" fill="white" stroke="#9C27B0" stroke-width="1.5"/>
 <rect x="336" y="185" width="135" height="16" rx="5" fill="#9C27B0" opacity="0.15"/>
 <text x="403.5" y="197" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#9C27B0" text-anchor="middle">Покрытия</text>
 <text x="403.5" y="217" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">краска, лак, цинкование</text>
-<text x="250" y="270" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle" >10-15% стали теряется ежегодно</text>
+<text x="250" y="270" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">10-15% стали теряется ежегодно</text>
 <text x="250" y="340" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">ИНЕТШКОЛА · Химия · 11 класс · Урок 20</text>
 </svg>
