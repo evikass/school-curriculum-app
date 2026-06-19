@@ -1,81 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E3F2FD"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1b4b"/>
+      <stop offset="100%" style="stop-color:#6366f1"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#1565C0"/>
-      <stop offset="100%" stop-color="#0D47A1"/>
-    </linearGradient>
-    <marker id="arrowBlue" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
-      <polygon points="0,0 6,2 0,4" fill="#1565C0"/>
-    </marker>
-    <marker id="arrowRed" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
-      <polygon points="0,0 6,2 0,4" fill="#E53935"/>
-    </marker>
-    <marker id="arrowGreen" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
-      <polygon points="0,0 6,2 0,4" fill="#4CAF50"/>
-    </marker>
-    <marker id="arrowDark" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
-      <polygon points="0,0 6,2 0,4" fill="#333"/>
-    </marker>
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:0"/>
+    </radialGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="2.5"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#1565C0" text-anchor="middle">Фотоэффект</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Физика — Урок 7</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#1565C0" stroke-width="2" opacity="0.25"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-    <rect x="15" y="85" width="470" height="215" fill="#E3F2FD" opacity="0.5"/>
-    <!-- Photoelectric experiment -->
-    <rect x="25" y="95" width="220" height="130" rx="5" fill="white" opacity="0.7" stroke="#1565C0" stroke-width="1"/>
-    <text x="135" y="110" font-family="Arial,sans-serif" font-size="10" fill="#0D47A1" text-anchor="middle" font-weight="bold">Фотоэффект</text>
-    <!-- Vacuum tube -->
-    <ellipse cx="135" cy="160" rx="60" ry="35" fill="none" stroke="#0D47A1" stroke-width="2"/>
-    <!-- Cathode -->
-    <rect x="80" y="148" width="8" height="25" fill="#1565C0"/>
-    <text x="72" y="165" font-family="Arial,sans-serif" font-size="8" fill="#0D47A1">K</text>
-    <!-- Anode -->
-    <rect x="182" y="148" width="8" height="25" fill="#E53935"/>
-    <text x="196" y="165" font-family="Arial,sans-serif" font-size="8" fill="#E53935">A</text>
-    <!-- Incoming light (wavy arrows) -->
-    <path d="M35,140 Q45,135 55,140 Q65,145 75,140" fill="none" stroke="#FF9800" stroke-width="2"/>
-    <path d="M35,150 Q45,145 55,150 Q65,155 75,150" fill="none" stroke="#FF9800" stroke-width="2"/>
-    <text x="55" y="135" font-family="Arial,sans-serif" font-size="9" fill="#FF9800">hν</text>
-    <!-- Electrons flying -->
-    <circle cx="100" cy="155" r="2" fill="#4CAF50"/>
-    <line x1="102" y1="155" x2="115" y2="152" stroke="#4CAF50" stroke-width="1"/>
-    <circle cx="115" cy="152" r="2" fill="#4CAF50"/>
-    <line x1="117" y1="152" x2="130" y2="148" stroke="#4CAF50" stroke-width="1"/>
-    <circle cx="130" cy="148" r="2" fill="#4CAF50"/>
-    <text x="110" y="200" font-family="Arial,sans-serif" font-size="8" fill="#4CAF50">e⁻</text>
-    <!-- Graph: I vs U -->
-    <rect x="260" y="95" width="215" height="130" rx="3" fill="white" opacity="0.7" stroke="#1565C0" stroke-width="1"/>
-    <text x="367" y="108" font-family="Arial,sans-serif" font-size="10" fill="#0D47A1" text-anchor="middle" font-weight="bold">Вольт-амперная характеристика</text>
-    <line x1="280" y1="200" x2="460" y2="200" stroke="#0D47A1" stroke-width="1"/>
-    <line x1="280" y1="200" x2="280" y2="115" stroke="#0D47A1" stroke-width="1"/>
-    <text x="465" y="203" font-family="Arial,sans-serif" font-size="9" fill="#0D47A1">U</text>
-    <text x="274" y="113" font-family="Arial,sans-serif" font-size="9" fill="#0D47A1">I</text>
-    <!-- Saturation curve -->
-    <path d="M280,200 L295,175 L310,155 L330,142 L360,133 L400,128 L450,126" fill="none" stroke="#E53935" stroke-width="2"/>
-    <text x="420" y="122" font-family="Arial,sans-serif" font-size="8" fill="#E53935">I_нас</text>
-    <!-- Stopping voltage marker -->
-    <line x1="270" y1="180" x2="280" y2="180" stroke="#4CAF50" stroke-width="1"/>
-    <text x="255" y="183" font-family="Arial,sans-serif" font-size="8" fill="#4CAF50">−U_з</text>
-    <!-- Formulas -->
-    <rect x="20" y="230" width="225" height="66" rx="5" fill="white" opacity="0.9" stroke="#1565C0" stroke-width="1"/>
-    <text x="30" y="248" font-family="Arial,sans-serif" font-size="11" fill="#0D47A1" font-weight="bold">Уравнение Эйнштейна:</text>
-    <text x="30" y="268" font-family="Arial,sans-serif" font-size="14" fill="#1565C0">hν = A_вых + E_k</text>
-    <text x="30" y="288" font-family="Arial,sans-serif" font-size="10" fill="#444">E_k = ½mv²_max = eU_з</text>
-    <!-- Right box -->
-    <rect x="255" y="230" width="225" height="66" rx="5" fill="white" opacity="0.9" stroke="#1565C0" stroke-width="1"/>
-    <text x="265" y="248" font-family="Arial,sans-serif" font-size="11" fill="#0D47A1" font-weight="bold">Красная граница:</text>
-    <text x="265" y="268" font-family="Arial,sans-serif" font-size="13" fill="#1565C0">ν_min = A_вых/h</text>
-    <text x="265" y="288" font-family="Arial,sans-serif" font-size="10" fill="#444">h = 6.63·10⁻³⁴ Дж·с</text>
-    
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Физика · 11 класс</text>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  <rect width="500" height="350" fill="url(#centerGlow)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="250" cy="175" r="120" fill="none" stroke="#a78bfa" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
+  <circle cx="250" cy="175" r="80" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="250" cy="175" r="40" fill="#a78bfa" opacity="0.3"/>
+  
+  <!-- Lesson number in center -->
+  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#e0e7ff" text-anchor="middle">7</text>
+  
+  <!-- Chapter label at top -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e0e7ff" text-anchor="middle" opacity="0.8">ФИЗИКА · 11 КЛАСС</text>
+  
+  <!-- Lesson title at bottom -->
+  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e0e7ff" text-anchor="middle">Урок 7: Энергия магнитного поля. Магнитные свойств</text>
+  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#a78bfa" text-anchor="middle" opacity="0.8">Урок 7 из 35</text>
+  
+  <!-- Decorative elements based on chapter -->
+  <path d="M 80 175 Q 250 100 420 175" fill="none" stroke="#a78bfa" stroke-width="2" opacity="0.6"/><path d="M 80 175 Q 250 250 420 175" fill="none" stroke="#a78bfa" stroke-width="2" opacity="0.6"/><circle cx="80" cy="175" r="6" fill="#a78bfa"/><circle cx="420" cy="175" r="6" fill="#a78bfa"/>
 </svg>

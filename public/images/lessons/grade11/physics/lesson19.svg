@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#78350f"/>
+      <stop offset="100%" style="stop-color:#f59e0b"/>
+    </linearGradient>
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fcd34d;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#fcd34d;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  <rect width="500" height="350" fill="url(#centerGlow)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="250" cy="175" r="120" fill="none" stroke="#fcd34d" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
+  <circle cx="250" cy="175" r="80" fill="none" stroke="#fcd34d" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="250" cy="175" r="40" fill="#fcd34d" opacity="0.3"/>
+  
+  <!-- Lesson number in center -->
+  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fef3c7" text-anchor="middle">19</text>
+  
+  <!-- Chapter label at top -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fef3c7" text-anchor="middle" opacity="0.8">ФИЗИКА · 11 КЛАСС</text>
+  
+  <!-- Lesson title at bottom -->
+  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fef3c7" text-anchor="middle">Урок 19: Световые волны. Скорость света</text>
+  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fcd34d" text-anchor="middle" opacity="0.8">Урок 19 из 35</text>
+  
+  <!-- Decorative elements based on chapter -->
+  <polygon points="220,120 280,220 160,220" fill="#fcd34d" opacity="0.4"/><line x1="100" y1="170" x2="200" y2="170" stroke="#fef3c7" stroke-width="2"/><line x1="200" y1="170" x2="350" y2="220" stroke="#ff6b6b" stroke-width="2"/><line x1="200" y1="170" x2="360" y2="180" stroke="#feca57" stroke-width="2"/><line x1="200" y1="170" x2="370" y2="150" stroke="#48dbfb" stroke-width="2"/>
+</svg>
