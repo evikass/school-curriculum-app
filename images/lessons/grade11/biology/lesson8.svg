@@ -1,176 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
-  <defs>
-    <linearGradient id="bg8" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF3E0"/>
-      <stop offset="100%" stop-color="#FFE0B2"/>
-    </linearGradient>
-    <linearGradient id="col8a" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#FFF3E0"/>
-    </linearGradient>
-    <linearGradient id="col8b" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#FFF8E1"/>
-    </linearGradient>
-    <linearGradient id="col8c" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#FFF3E0"/>
-    </linearGradient>
-    <filter id="shadow8" x="-5%" y="-5%" width="110%" height="110%">
-      <feDropShadow dx="1" dy="1" stdDeviation="1.5" flood-color="#00000015"/>
-    </filter>
-  </defs>
-
-  <!-- Background -->
-  <rect width="500" height="350" fill="url(#bg8)" rx="8"/>
-  <rect x="2" y="2" width="496" height="346" fill="none" stroke="#FFB74D" stroke-width="2" rx="7"/>
-
-  <!-- Title -->
-  <rect x="130" y="8" width="240" height="28" rx="14" fill="#E65100" opacity="0.85"/>
-  <text x="250" y="27" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="white" text-anchor="middle">Типы изменчивости</text>
-
-  <!-- Column 1: Мутационная -->
-  <rect x="12" y="44" width="155" height="296" rx="8" fill="url(#col8a)" stroke="#FF7043" stroke-width="1.2" filter="url(#shadow8)"/>
-  <!-- Header -->
-  <rect x="12" y="44" width="155" height="28" rx="8" fill="#D32F2F"/>
-  <rect x="12" y="60" width="155" height="12" fill="#D32F2F"/>
-  <text x="89" y="63" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">Мутационная</text>
-
-  <!-- Lightning bolt icon -->
-  <polygon points="80,80 90,80 85,92 95,92 78,110 83,97 73,97" fill="#FFD600" stroke="#F57F17" stroke-width="0.8"/>
-
-  <!-- DNA strand with mutation -->
-  <!-- Normal strand top -->
-  <text x="89" y="122" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Нормальная ДНК:</text>
-  <text x="89" y="136" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle" font-weight="bold" font-family="Courier,monospace">А Т Г Ц А Г Т Ц</text>
-
-  <!-- Arrow down -->
-  <line x1="89" y1="142" x2="89" y2="155" stroke="#D32F2F" stroke-width="1.5"/>
-  <polygon points="85,155 89,162 93,155" fill="#D32F2F"/>
-  <text x="110" y="152" font-family="Arial,sans-serif" font-size="7" fill="#D32F2F" font-weight="bold">мутация!</text>
-
-  <!-- Mutated strand -->
-  <text x="89" y="175" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Мутировавшая ДНК:</text>
-  <text x="89" y="189" font-family="Arial,sans-serif" font-size="9" text-anchor="middle" font-family="Courier,monospace">А Т <tspan fill="#D32F2F" font-weight="bold">Т</tspan> Ц А Г Т Ц</text>
-
-  <!-- Red highlight around mutation -->
-  <rect x="56" y="180" width="14" height="14" rx="2" fill="none" stroke="#D32F2F" stroke-width="1.5" stroke-dasharray="2,1"/>
-
-  <!-- Types of mutations -->
-  <line x1="20" y1="208" x2="159" y2="208" stroke="#FFCCBC" stroke-width="0.8"/>
-  <text x="89" y="222" font-family="Arial,sans-serif" font-size="8" fill="#BF360C" text-anchor="middle" font-weight="bold">Виды мутаций:</text>
-
-  <rect x="22" y="228" width="68" height="18" rx="3" fill="#FFEBEE"/>
-  <text x="56" y="240" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">Генные</text>
-
-  <rect x="95" y="228" width="68" height="18" rx="3" fill="#FFEBEE"/>
-  <text x="129" y="240" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">Хромосомные</text>
-
-  <rect x="22" y="252" width="141" height="18" rx="3" fill="#FFEBEE"/>
-  <text x="92" y="264" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">Геномные</text>
-
-  <!-- Properties -->
-  <line x1="20" y1="278" x2="159" y2="278" stroke="#FFCCBC" stroke-width="0.8"/>
-  <text x="89" y="292" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">• Внезапная</text>
-  <text x="89" y="304" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">• Наследственная</text>
-  <text x="89" y="316" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">• Ненаправленная</text>
-  <text x="89" y="328" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">• Редкая</text>
-
-  <!-- Column 2: Комбинативная -->
-  <rect x="172" y="44" width="155" height="296" rx="8" fill="url(#col8b)" stroke="#FF9800" stroke-width="1.2" filter="url(#shadow8)"/>
-  <!-- Header -->
-  <rect x="172" y="44" width="155" height="28" rx="8" fill="#EF6C00"/>
-  <rect x="172" y="60" width="155" height="12" fill="#EF6C00"/>
-  <text x="249" y="63" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">Комбинативная</text>
-
-  <!-- Meiosis / crossing over illustration -->
-  <text x="249" y="86" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Кроссинговер при мейозе:</text>
-
-  <!-- Homologous chromosome pair -->
-  <!-- Chromosome 1 (blue) -->
-  <rect x="205" y="95" width="8" height="55" rx="4" fill="#42A5F5"/>
-  <!-- Chromosome 2 (orange) -->
-  <rect x="220" y="95" width="8" height="55" rx="4" fill="#FF7043"/>
-
-  <!-- Crossing over X -->
-  <path d="M213,105 C217,110 217,115 221,120" fill="none" stroke="#42A5F5" stroke-width="3"/>
-  <path d="M221,105 C217,110 217,115 213,120" fill="none" stroke="#FF7043" stroke-width="3"/>
-  <!-- Cross point marker -->
-  <circle cx="217" cy="112" r="5" fill="none" stroke="#FFD600" stroke-width="1.5"/>
-  <text x="243" y="115" font-family="Arial,sans-serif" font-size="7" fill="#E65100">← обмен</text>
-  <text x="243" y="124" font-family="Arial,sans-serif" font-size="7" fill="#E65100">участками</text>
-
-  <!-- After recombination -->
-  <text x="249" y="162" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Результат:</text>
-  <!-- Recombined chromosomes -->
-  <rect x="215" y="172" width="8" height="30" rx="4" fill="#42A5F5"/>
-  <rect x="215" y="202" width="8" height="20" rx="4" fill="#FF7043"/>
-  <rect x="230" y="172" width="8" height="20" rx="4" fill="#FF7043"/>
-  <rect x="230" y="192" width="8" height="30" rx="4" fill="#42A5F5"/>
-
-  <!-- Sources of combinative variability -->
-  <line x1="180" y1="225" x2="319" y2="225" stroke="#FFCC80" stroke-width="0.8"/>
-  <text x="249" y="239" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle" font-weight="bold">Источники:</text>
-
-  <rect x="182" y="245" width="135" height="20" rx="3" fill="#FFF8E1"/>
-  <text x="249" y="258" font-family="Arial,sans-serif" font-size="7.5" fill="#555" text-anchor="middle">1. Кроссинговер</text>
-
-  <rect x="182" y="269" width="135" height="20" rx="3" fill="#FFF8E1"/>
-  <text x="249" y="282" font-family="Arial,sans-serif" font-size="7.5" fill="#555" text-anchor="middle">2. Независимое расхождение</text>
-
-  <rect x="182" y="293" width="135" height="20" rx="3" fill="#FFF8E1"/>
-  <text x="249" y="306" font-family="Arial,sans-serif" font-size="7.5" fill="#555" text-anchor="middle">3. Случайное сочетание</text>
-
-  <text x="249" y="324" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">гамет при оплодотворении</text>
-  <text x="249" y="336" font-family="Arial,sans-serif" font-size="7" fill="#BF360C" text-anchor="middle" font-style="italic">Наследственная</text>
-
-  <!-- Column 3: Модификационная -->
-  <rect x="332" y="44" width="155" height="296" rx="8" fill="url(#col8c)" stroke="#FFB74D" stroke-width="1.2" filter="url(#shadow8)"/>
-  <!-- Header -->
-  <rect x="332" y="44" width="155" height="28" rx="8" fill="#F57F17"/>
-  <rect x="332" y="60" width="155" height="12" fill="#F57F17"/>
-  <text x="409" y="63" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">Модификационная</text>
-
-  <!-- Bell curve (normal distribution) -->
-  <text x="409" y="86" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Норма реакции:</text>
-
-  <!-- Curve axes -->
-  <line x1="350" y1="180" x2="350" y2="100" stroke="#888" stroke-width="0.8"/>
-  <line x1="350" y1="180" x2="465" y2="180" stroke="#888" stroke-width="0.8"/>
-  <text x="345" y="142" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="end" transform="rotate(-90,345,142)">Частота</text>
-  <text x="407" y="192" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">Признак</text>
-
-  <!-- Bell curve filled -->
-  <path d="M355,178 Q365,176 375,170 Q385,155 395,140 Q405,128 410,125 Q415,128 420,140 Q430,155 440,170 Q450,176 460,178 L460,180 L355,180 Z" fill="#FF8F00" fill-opacity="0.2" stroke="#E65100" stroke-width="1.5"/>
-
-  <!-- Min/Max arrows -->
-  <line x1="358" y1="182" x2="358" y2="196" stroke="#D32F2F" stroke-width="1"/>
-  <polygon points="355,196 358,202 361,196" fill="#D32F2F"/>
-  <text x="358" y="211" font-family="Arial,sans-serif" font-size="7" fill="#D32F2F" text-anchor="middle">min</text>
-
-  <line x1="457" y1="182" x2="457" y2="196" stroke="#D32F2F" stroke-width="1"/>
-  <polygon points="454,196 457,202 460,196" fill="#D32F2F"/>
-  <text x="457" y="211" font-family="Arial,sans-serif" font-size="7" fill="#D32F2F" text-anchor="middle">max</text>
-
-  <!-- Double arrow for "norm of reaction" -->
-  <line x1="358" y1="218" x2="457" y2="218" stroke="#1565C0" stroke-width="1.5"/>
-  <polygon points="358,215 352,218 358,221" fill="#1565C0"/>
-  <polygon points="457,215 463,218 457,221" fill="#1565C0"/>
-  <text x="407" y="230" font-family="Arial,sans-serif" font-size="7.5" fill="#1565C0" text-anchor="middle" font-weight="bold">Норма реакции</text>
-
-  <!-- Properties -->
-  <line x1="340" y1="238" x2="479" y2="238" stroke="#FFCC80" stroke-width="0.8"/>
-  <text x="409" y="252" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle" font-weight="bold">Свойства:</text>
-
-  <rect x="342" y="258" width="135" height="18" rx="3" fill="#FFF8E1"/>
-  <text x="409" y="270" font-family="Arial,sans-serif" font-size="7.5" fill="#555" text-anchor="middle">• Ненаследственная</text>
-
-  <rect x="342" y="280" width="135" height="18" rx="3" fill="#FFF8E1"/>
-  <text x="409" y="292" font-family="Arial,sans-serif" font-size="7.5" fill="#555" text-anchor="middle">• Групповая</text>
-
-  <rect x="342" y="302" width="135" height="18" rx="3" fill="#FFF8E1"/>
-  <text x="409" y="314" font-family="Arial,sans-serif" font-size="7.5" fill="#555" text-anchor="middle">• Обратимая</text>
-
-  <rect x="342" y="324" width="135" height="14" rx="3" fill="#FFF8E1"/>
-  <text x="409" y="334" font-family="Arial,sans-serif" font-size="7.5" fill="#555" text-anchor="middle">• Определена нормой реакции</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
+<linearGradient id="panel" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#388E3C"/><stop offset="100%" stop-color="#2E7D32"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+<rect x="10" y="10" width="480" height="32" rx="5" fill="url(#panel)" opacity="0.9"/>
+<text x="250" y="31" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Урок 8: Изменчивость — материал для эволюции</text>
+<text x="250" y="55" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Наследственная и ненаследственная изменчивость, мутационная </text>
+<line x1="30" y1="62" x2="470" y2="62" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
+<circle cx="250" cy="180" r="45" fill="none" stroke="#2E7D32" stroke-width="2" opacity="0.3"/>
+<text x="250" y="175" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle" font-weight="bold">Урок 8: Изменчивость — материа</text>
+<text x="250" y="195" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Урок 8</text>
+<rect x="30" y="90" width="150" height="50" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
+<rect x="30" y="90" width="150" height="16" rx="5" fill="#2E7D32" opacity="0.15"/>
+<text x="105.0" y="102" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">Biology</text>
+<text x="105.0" y="122" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">Наследственная и ненаследствен</text>
+<rect x="320" y="90" width="150" height="50" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
+<rect x="320" y="90" width="150" height="16" rx="5" fill="#2E7D32" opacity="0.15"/>
+<text x="395.0" y="102" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">Тест</text>
+<text x="395.0" y="122" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">5 вопросов x 5 вариантов</text>
+<rect x="30" y="250" width="150" height="50" rx="5" fill="white" stroke="#FF8F00" stroke-width="1.5"/>
+<rect x="30" y="250" width="150" height="16" rx="5" fill="#FF8F00" opacity="0.15"/>
+<text x="105.0" y="262" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#FF8F00" text-anchor="middle">Теория</text>
+<text x="105.0" y="282" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">Подробный материал</text>
+<rect x="320" y="250" width="150" height="50" rx="5" fill="white" stroke="#9C27B0" stroke-width="1.5"/>
+<rect x="320" y="250" width="150" height="16" rx="5" fill="#9C27B0" opacity="0.15"/>
+<text x="395.0" y="262" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#9C27B0" text-anchor="middle">Практика</text>
+<text x="395.0" y="282" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">Примеры и задания</text>
+<text x="250" y="340" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">ИНЕТШКОЛА · biology · grade11 класс · Урок 8</text>
 </svg>
