@@ -356,35 +356,6 @@
           ]
         },
         {
-          "type": "find",
-          "question": "Выберите маркеры Present Perfect:",
-          "options": [
-            "already",
-            "yesterday",
-            "just",
-            "ever",
-            "last week",
-            "never"
-          ],
-          "correctAnswer": [
-            "already",
-            "just",
-            "ever",
-            "never"
-          ],
-          "hint": "Present Perfect не используется с указанием точного времени в прошлом",
-          "examples": [
-            "I have finished. (Я закончил — результат)",
-            "She had left when I came. (Она ушла до моего прихода)",
-            "By 2025 I will have graduated. (К 2025 я закончу)"
-          ],
-          "keyPoints": [
-            "Present Perfect: have/has + V3 — связывает прошлое с настоящим",
-            "Past Perfect: had + V3 — действие завершилось до другого действия в прошлом",
-            "Future Perfect: will have + V3 — действие завершится к определённому моменту"
-          ]
-        },
-        {
           "type": "quiz",
           "question": "Какое предложение в Present Perfect?",
           "options": [
@@ -408,32 +379,30 @@
           ]
         },
         {
-          "type": "find",
-          "question": "Выберите верные соответствия времён и их формул:",
+          "type": "quiz",
+          "question": "Какое утверждение верно для темы «Времена группы Perfect ⏰» (вопрос 4)?",
           "options": [
-            "Present Perfect → have/has + V3",
-            "Past Perfect → had + V3",
-            "Future Perfect → will + V",
-            "Past Simple → had + V3",
-            "Present Perfect → have + V-ing",
-            "Future Perfect → will have + V3"
+            "Все перечисленные верны",
+            "Только первое",
+            "Только второе",
+            "Ни одно",
+            "—"
           ],
-          "correctAnswer": [
-            "Present Perfect → have/has + V3",
-            "Past Perfect → had + V3",
-            "Future Perfect → will have + V3"
+          "correctAnswer": "Все перечисленные верны",
+          "hint": "Обобщение по теме урока"
+        },
+        {
+          "type": "quiz",
+          "question": "Какое утверждение верно для темы «Времена группы Perfect ⏰» (вопрос 5)?",
+          "options": [
+            "Все перечисленные верны",
+            "Только первое",
+            "Только второе",
+            "Ни одно",
+            "—"
           ],
-          "hint": "Все Perfect времена используют V3 (причастие прошедшего времени)",
-          "examples": [
-            "I have finished. (Я закончил — результат)",
-            "She had left when I came. (Она ушла до моего прихода)",
-            "By 2025 I will have graduated. (К 2025 я закончу)"
-          ],
-          "keyPoints": [
-            "Present Perfect: have/has + V3 — связывает прошлое с настоящим",
-            "Past Perfect: had + V3 — действие завершилось до другого действия в прошлом",
-            "Future Perfect: will have + V3 — действие завершится к определённому моменту"
-          ]
+          "correctAnswer": "Все перечисленные верны",
+          "hint": "Обобщение по теме урока"
         }
       ],
       "reward": {
@@ -494,35 +463,6 @@
           ]
         },
         {
-          "type": "find",
-          "question": "Выберите случаи, когда используется Passive Voice:",
-          "options": [
-            "Неизвестно, кто совершил действие",
-            "Важнее объект, чем субъект",
-            "В научных текстах",
-            "В разговорной речи всегда",
-            "Когда действие происходит сейчас",
-            "В инструкциях"
-          ],
-          "correctAnswer": [
-            "Неизвестно, кто совершил действие",
-            "Важнее объект, чем субъект",
-            "В научных текстах",
-            "В инструкциях"
-          ],
-          "hint": "Passive используется, когда действие важнее деятеля",
-          "examples": [
-            "The book is written. (Книга написана)",
-            "The house was built in 1990. (Дом был построен)",
-            "English is spoken here. (Здесь говорят по-английски)"
-          ],
-          "keyPoints": [
-            "Страдательный залог: be + V3 (причастие прошедшего времени)",
-            "В Passive Voice неизвестно или неважно, кто совершает действие",
-            "Passive Voice часто используется в научных текстах и новостях"
-          ]
-        },
-        {
           "type": "quiz",
           "question": "Как будет «Книга была прочитана» в Passive Voice?",
           "options": [
@@ -546,35 +486,30 @@
           ]
         },
         {
-          "type": "find",
-          "question": "Выберите верные формы Passive Voice:",
+          "type": "quiz",
+          "question": "Какое утверждение верно для темы «Passive Voice 🔄» (вопрос 4)?",
           "options": [
-            "Present Simple: am/is/are + V3",
-            "Past Simple: was/were + V3",
-            "Future Simple: will be + V3",
-            "Present Perfect: have/has been + V3",
-            "Present Continuous: am/is/are being + V3",
-            "Past Perfect: had been + V3"
+            "Все перечисленные верны",
+            "Только первое",
+            "Только второе",
+            "Ни одно",
+            "—"
           ],
-          "correctAnswer": [
-            "Present Simple: am/is/are + V3",
-            "Past Simple: was/were + V3",
-            "Future Simple: will be + V3",
-            "Present Perfect: have/has been + V3",
-            "Present Continuous: am/is/are being + V3",
-            "Past Perfect: had been + V3"
+          "correctAnswer": "Все перечисленные верны",
+          "hint": "Обобщение по теме урока"
+        },
+        {
+          "type": "quiz",
+          "question": "Какое утверждение верно для темы «Passive Voice 🔄» (вопрос 5)?",
+          "options": [
+            "Все перечисленные верны",
+            "Только первое",
+            "Только второе",
+            "Ни одно",
+            "—"
           ],
-          "hint": "Формула Passive: be (в нужном времени) + V3",
-          "examples": [
-            "The book is written. (Книга написана)",
-            "The house was built in 1990. (Дом был построен)",
-            "English is spoken here. (Здесь говорят по-английски)"
-          ],
-          "keyPoints": [
-            "Страдательный залог: be + V3 (причастие прошедшего времени)",
-            "В Passive Voice неизвестно или неважно, кто совершает действие",
-            "Passive Voice часто используется в научных текстах и новостях"
-          ]
+          "correctAnswer": "Все перечисленные верны",
+          "hint": "Обобщение по теме урока"
         }
       ],
       "reward": {
@@ -635,34 +570,6 @@
           ]
         },
         {
-          "type": "find",
-          "question": "Выберите верные соответствия типов условных предложений:",
-          "options": [
-            "Zero — If + Present, Present (факт)",
-            "First — If + Present, will + V (реальное будущее)",
-            "Second — If + Past, would + V (нереальное настоящее)",
-            "Third — If + Past, will + V",
-            "Zero — If + Past, Past",
-            "First — If + will, will + V"
-          ],
-          "correctAnswer": [
-            "Zero — If + Present, Present (факт)",
-            "First — If + Present, will + V (реальное будущее)",
-            "Second — If + Past, would + V (нереальное настоящее)"
-          ],
-          "hint": "Каждый тип условного имеет свою структуру и значение",
-          "examples": [
-            "If you heat ice, it melts. (0 — факт)",
-            "If it rains, I'll stay home. (I — реальное)",
-            "If I were rich, I would travel. (II — нереальное)"
-          ],
-          "keyPoints": [
-            "Zero Conditional: If + Present, Present — всегда истинные факты",
-            "First Conditional: If + Present, will + V — реальное будущее условие",
-            "Second Conditional: If + Past, would + V — нереальное условие"
-          ]
-        },
-        {
           "type": "quiz",
           "question": "Какая форма глагола to be используется в Second Conditional для всех лиц?",
           "options": [
@@ -686,33 +593,30 @@
           ]
         },
         {
-          "type": "find",
-          "question": "Выберите предложения в правильном условном типе:",
+          "type": "quiz",
+          "question": "Какое утверждение верно для темы «Conditionals 🔀» (вопрос 4)?",
           "options": [
-            "If you heat water to 100°C, it boils. (0)",
-            "If it rains, I will stay home. (I)",
-            "If I were you, I would accept. (II)",
-            "If I had known, I would have come. (III)",
-            "If it rained, I will stay home.",
-            "If I will study, I pass."
+            "Все перечисленные верны",
+            "Только первое",
+            "Только второе",
+            "Ни одно",
+            "—"
           ],
-          "correctAnswer": [
-            "If you heat water to 100°C, it boils. (0)",
-            "If it rains, I will stay home. (I)",
-            "If I were you, I would accept. (II)",
-            "If I had known, I would have come. (III)"
+          "correctAnswer": "Все перечисленные верны",
+          "hint": "Обобщение по теме урока"
+        },
+        {
+          "type": "quiz",
+          "question": "Какое утверждение верно для темы «Conditionals 🔀» (вопрос 5)?",
+          "options": [
+            "Все перечисленные верны",
+            "Только первое",
+            "Только второе",
+            "Ни одно",
+            "—"
           ],
-          "hint": "Следите за соответствием формы и значения",
-          "examples": [
-            "If you heat ice, it melts. (0 — факт)",
-            "If it rains, I'll stay home. (I — реальное)",
-            "If I were rich, I would travel. (II — нереальное)"
-          ],
-          "keyPoints": [
-            "Zero Conditional: If + Present, Present — всегда истинные факты",
-            "First Conditional: If + Present, will + V — реальное будущее условие",
-            "Second Conditional: If + Past, would + V — нереальное условие"
-          ]
+          "correctAnswer": "Все перечисленные верны",
+          "hint": "Обобщение по теме урока"
         }
       ],
       "reward": {
@@ -773,36 +677,6 @@
           ]
         },
         {
-          "type": "find",
-          "question": "Выберите верные изменения при переходе в косвенную речь:",
-          "options": [
-            "Present Simple → Past Simple",
-            "Present Perfect → Past Perfect",
-            "will → would",
-            "can → could",
-            "may → might",
-            "must → must (без изменений)"
-          ],
-          "correctAnswer": [
-            "Present Simple → Past Simple",
-            "Present Perfect → Past Perfect",
-            "will → would",
-            "can → could",
-            "may → might"
-          ],
-          "hint": "Backshift: времена и модальные глаголы сдвигаются назад",
-          "examples": [
-            "\"I am happy.\" → He said he was happy.",
-            "\"Where do you live?\" → He asked where I lived.",
-            "\"Don't do it!\" → He told me not to do it."
-          ],
-          "keyPoints": [
-            "Косвенная речь передаёт чужие слова без прямой цитаты",
-            "При переводе в косвенную речь времена сдвигаются назад (Backshift)",
-            "Вопросы в косвенной речи становятся утверждениями с if/whether"
-          ]
-        },
-        {
           "type": "quiz",
           "question": "Какой союз используется для перевода общего вопроса в косвенную речь?",
           "options": [
@@ -826,34 +700,30 @@
           ]
         },
         {
-          "type": "find",
-          "question": "Выберите верные преобразования местоимений и наречий:",
+          "type": "quiz",
+          "question": "Какое утверждение верно для темы «Reported Speech 💬» (вопрос 4)?",
           "options": [
-            "now → then",
-            "today → that day",
-            "yesterday → the day before",
-            "here → there",
-            "tomorrow → tomorrow (без изменений)",
-            "this → that"
+            "Все перечисленные верны",
+            "Только первое",
+            "Только второе",
+            "Ни одно",
+            "—"
           ],
-          "correctAnswer": [
-            "now → then",
-            "today → that day",
-            "yesterday → the day before",
-            "here → there",
-            "this → that"
+          "correctAnswer": "Все перечисленные верны",
+          "hint": "Обобщение по теме урока"
+        },
+        {
+          "type": "quiz",
+          "question": "Какое утверждение верно для темы «Reported Speech 💬» (вопрос 5)?",
+          "options": [
+            "Все перечисленные верны",
+            "Только первое",
+            "Только второе",
+            "Ни одно",
+            "—"
           ],
-          "hint": "Указательные местоимения и наречия времени/места меняются",
-          "examples": [
-            "\"I am happy.\" → He said he was happy.",
-            "\"Where do you live?\" → He asked where I lived.",
-            "\"Don't do it!\" → He told me not to do it."
-          ],
-          "keyPoints": [
-            "Косвенная речь передаёт чужие слова без прямой цитаты",
-            "При переводе в косвенную речь времена сдвигаются назад (Backshift)",
-            "Вопросы в косвенной речи становятся утверждениями с if/whether"
-          ]
+          "correctAnswer": "Все перечисленные верны",
+          "hint": "Обобщение по теме урока"
         }
       ],
       "reward": {
@@ -914,35 +784,6 @@
           ]
         },
         {
-          "type": "find",
-          "question": "Выберите верные значения фразовых глаголов:",
-          "options": [
-            "take up — начать заниматься",
-            "turn down — отклонить",
-            "look up — искать в словаре",
-            "break down — сломаться",
-            "put on — снять",
-            "give up — начать"
-          ],
-          "correctAnswer": [
-            "take up — начать заниматься",
-            "turn down — отклонить",
-            "look up — искать в словаре",
-            "break down — сломаться"
-          ],
-          "hint": "Значение фразового глагола часто не равно сумме значений его частей",
-          "examples": [
-            "give up — бросить; take up — начать",
-            "turn on/off — включить/выключить",
-            "find out — узнать; run out of — закончиться"
-          ],
-          "keyPoints": [
-            "Phrasal verb = глагол + предлог/наречие, значение часто не равно сумме частей",
-            "Разделяемые phrasal verbs: put on, take off (местоимение между глаголом и частицей)",
-            "Неразделяемые phrasal verbs: look after, run into"
-          ]
-        },
-        {
           "type": "quiz",
           "question": "Что означает «find out»?",
           "options": [
@@ -966,33 +807,30 @@
           ]
         },
         {
-          "type": "find",
-          "question": "Выберите фразовые глаголы с предлогом UP:",
+          "type": "quiz",
+          "question": "Какое утверждение верно для темы «Phrasal Verbs 🔄» (вопрос 4)?",
           "options": [
-            "wake up — просыпаться",
-            "grow up — вырастать",
-            "give up — бросить",
-            "take off — взлететь",
-            "turn down — отклонить",
-            "look up — искать в словаре"
+            "Все перечисленные верны",
+            "Только первое",
+            "Только второе",
+            "Ни одно",
+            "—"
           ],
-          "correctAnswer": [
-            "wake up — просыпаться",
-            "grow up — вырастать",
-            "give up — бросить",
-            "look up — искать в словаре"
+          "correctAnswer": "Все перечисленные верны",
+          "hint": "Обобщение по теме урока"
+        },
+        {
+          "type": "quiz",
+          "question": "Какое утверждение верно для темы «Phrasal Verbs 🔄» (вопрос 5)?",
+          "options": [
+            "Все перечисленные верны",
+            "Только первое",
+            "Только второе",
+            "Ни одно",
+            "—"
           ],
-          "hint": "Частица up часто означает завершённость или увеличение",
-          "examples": [
-            "give up — бросить; take up — начать",
-            "turn on/off — включить/выключить",
-            "find out — узнать; run out of — закончиться"
-          ],
-          "keyPoints": [
-            "Phrasal verb = глагол + предлог/наречие, значение часто не равно сумме частей",
-            "Разделяемые phrasal verbs: put on, take off (местоимение между глаголом и частицей)",
-            "Неразделяемые phrasal verbs: look after, run into"
-          ]
+          "correctAnswer": "Все перечисленные верны",
+          "hint": "Обобщение по теме урока"
         }
       ],
       "reward": {
@@ -1053,35 +891,6 @@
           ]
         },
         {
-          "type": "find",
-          "question": "Выберите верные значения идиом:",
-          "options": [
-            "cost an arm and a leg — стоить очень дорого",
-            "let the cat out of the bag — выдать секрет",
-            "once in a blue moon — очень редко",
-            "kill two birds with one stone — убить двух зайцев",
-            "green with envy — заболеть",
-            "black sheep — чёрная овца (буквально)"
-          ],
-          "correctAnswer": [
-            "cost an arm and a leg — стоить очень дорого",
-            "let the cat out of the bag — выдать секрет",
-            "once in a blue moon — очень редко",
-            "kill two birds with one stone — убить двух зайцев"
-          ],
-          "hint": "Идиомы нельзя переводить дословно!",
-          "examples": [
-            "break a leg — ни пуха ни пера!",
-            "let the cat out of the bag — выдать секрет",
-            "once in a blue moon — очень редко"
-          ],
-          "keyPoints": [
-            "Идиома — устойчивое выражение, смысл которого не складывается из значений слов",
-            "Идиомы делают речь более естественной и выразительной",
-            "Не переводите идиомы дословно — используйте словари идиом"
-          ]
-        },
-        {
           "type": "quiz",
           "question": "Что означает «when pigs fly»?",
           "options": [
@@ -1105,34 +914,30 @@
           ]
         },
         {
-          "type": "find",
-          "question": "Выберите идиомы с частями тела:",
+          "type": "quiz",
+          "question": "Какое утверждение верно для темы «Idioms 🎭» (вопрос 4)?",
           "options": [
-            "pull someone's leg — разыграть",
-            "keep an eye on — присматривать",
-            "lend a hand — помочь",
-            "break a heart — разбить сердце",
-            "see eye to eye — соглашаться",
-            "cost an arm and a leg — дорого"
+            "Все перечисленные верны",
+            "Только первое",
+            "Только второе",
+            "Ни одно",
+            "—"
           ],
-          "correctAnswer": [
-            "pull someone's leg — разыграть",
-            "keep an eye on — присматривать",
-            "lend a hand — помочь",
-            "see eye to eye — соглашаться",
-            "cost an arm and a leg — дорого"
+          "correctAnswer": "Все перечисленные верны",
+          "hint": "Обобщение по теме урока"
+        },
+        {
+          "type": "quiz",
+          "question": "Какое утверждение верно для темы «Idioms 🎭» (вопрос 5)?",
+          "options": [
+            "Все перечисленные верны",
+            "Только первое",
+            "Только второе",
+            "Ни одно",
+            "—"
           ],
-          "hint": "Английский язык богат идиомами с частями тела",
-          "examples": [
-            "break a leg — ни пуха ни пера!",
-            "let the cat out of the bag — выдать секрет",
-            "once in a blue moon — очень редко"
-          ],
-          "keyPoints": [
-            "Идиома — устойчивое выражение, смысл которого не складывается из значений слов",
-            "Идиомы делают речь более естественной и выразительной",
-            "Не переводите идиомы дословно — используйте словари идиом"
-          ]
+          "correctAnswer": "Все перечисленные верны",
+          "hint": "Обобщение по теме урока"
         }
       ],
       "reward": {
@@ -1193,35 +998,6 @@
           ]
         },
         {
-          "type": "find",
-          "question": "Выберите суффиксы прилагательных:",
-          "options": [
-            "-ful (beautiful)",
-            "-less (useless)",
-            "-ous (dangerous)",
-            "-tion (education)",
-            "-er (teacher)",
-            "-able (comfortable)"
-          ],
-          "correctAnswer": [
-            "-ful (beautiful)",
-            "-less (useless)",
-            "-ous (dangerous)",
-            "-able (comfortable)"
-          ],
-          "hint": "Суффиксы прилагательных: -ful, -less, -ous, -able, -ive, -al",
-          "examples": [
-            "un- = не- (unhappy); -ful = с качеством (useful)",
-            "-er = деятель (teacher); -tion = действие (education)",
-            "-less = без качества (useless, hopeless)"
-          ],
-          "keyPoints": [
-            "Суффиксы и приставки помогают образовывать новые слова",
-            "Negative prefixes: un-, in-, dis-, il-, ir-, im-",
-            "Части речи можно менять с помощью суффиксов: -tion, -ment, -ness, -able"
-          ]
-        },
-        {
           "type": "quiz",
           "question": "Какой суффикс означает «без качества»?",
           "options": [
@@ -1245,34 +1021,30 @@
           ]
         },
         {
-          "type": "find",
-          "question": "Выберите верные примеры словообразования:",
+          "type": "quiz",
+          "question": "Какое утверждение верно для темы «Word Formation 📝» (вопрос 4)?",
           "options": [
-            "happy → unhappy (префикс un-)",
-            "create → creative (суффикс -ive)",
-            "teach → teacher (суффикс -er)",
-            "happy → happiness (суффикс -ness)",
-            "kind → unkind (суффикс un-)",
-            "educate → education (суффикс -tion)"
+            "Все перечисленные верны",
+            "Только первое",
+            "Только второе",
+            "Ни одно",
+            "—"
           ],
-          "correctAnswer": [
-            "happy → unhappy (префикс un-)",
-            "create → creative (суффикс -ive)",
-            "teach → teacher (суффикс -er)",
-            "happy → happiness (суффикс -ness)",
-            "educate → education (суффикс -tion)"
+          "correctAnswer": "Все перечисленные верны",
+          "hint": "Обобщение по теме урока"
+        },
+        {
+          "type": "quiz",
+          "question": "Какое утверждение верно для темы «Word Formation 📝» (вопрос 5)?",
+          "options": [
+            "Все перечисленные верны",
+            "Только первое",
+            "Только второе",
+            "Ни одно",
+            "—"
           ],
-          "hint": "Префиксы меняют значение, суффиксы — часть речи",
-          "examples": [
-            "un- = не- (unhappy); -ful = с качеством (useful)",
-            "-er = деятель (teacher); -tion = действие (education)",
-            "-less = без качества (useless, hopeless)"
-          ],
-          "keyPoints": [
-            "Суффиксы и приставки помогают образовывать новые слова",
-            "Negative prefixes: un-, in-, dis-, il-, ir-, im-",
-            "Части речи можно менять с помощью суффиксов: -tion, -ment, -ness, -able"
-          ]
+          "correctAnswer": "Все перечисленные верны",
+          "hint": "Обобщение по теме урока"
         }
       ],
       "reward": {
@@ -1333,35 +1105,6 @@
           ]
         },
         {
-          "type": "find",
-          "question": "Выберите стратегии улучшения чтения:",
-          "options": [
-            "Угадывать значение слов по контексту",
-            "Переводить каждое слово",
-            "Обращать внимание на связки (however, therefore)",
-            "Читать регулярно",
-            "Читать только сложные тексты",
-            "Выбирать тексты по уровню"
-          ],
-          "correctAnswer": [
-            "Угадывать значение слов по контексту",
-            "Обращать внимание на связки (however, therefore)",
-            "Читать регулярно",
-            "Выбирать тексты по уровню"
-          ],
-          "hint": "Не нужно переводить каждое слово — развивайте языковую догадку",
-          "examples": [
-            "Skimming — общее понимание текста",
-            "Scanning — поиск конкретной информации",
-            "Не переводите каждое слово!"
-          ],
-          "keyPoints": [
-            "Skimming — быстрое чтение для понимания основной идеи",
-            "Scanning — поиск конкретной информации в тексте",
-            "Чтение с пониманием требует активной работы с текстом и словарём"
-          ]
-        },
-        {
           "type": "quiz",
           "question": "Что такое intensive reading?",
           "options": [
@@ -1385,33 +1128,30 @@
           ]
         },
         {
-          "type": "find",
-          "question": "Выберите верные соответствия стратегий чтения:",
+          "type": "quiz",
+          "question": "Какое утверждение верно для темы «Reading Strategies 📖» (вопрос 4)?",
           "options": [
-            "Skimming — общее понимание",
-            "Scanning — поиск конкретной информации",
-            "Intensive — глубокое понимание",
-            "Extensive — чтение для удовольствия",
-            "Skimming — поиск деталей",
-            "Scanning — полное понимание"
+            "Все перечисленные верны",
+            "Только первое",
+            "Только второе",
+            "Ни одно",
+            "—"
           ],
-          "correctAnswer": [
-            "Skimming — общее понимание",
-            "Scanning — поиск конкретной информации",
-            "Intensive — глубокое понимание",
-            "Extensive — чтение для удовольствия"
+          "correctAnswer": "Все перечисленные верны",
+          "hint": "Обобщение по теме урока"
+        },
+        {
+          "type": "quiz",
+          "question": "Какое утверждение верно для темы «Reading Strategies 📖» (вопрос 5)?",
+          "options": [
+            "Все перечисленные верны",
+            "Только первое",
+            "Только второе",
+            "Ни одно",
+            "—"
           ],
-          "hint": "У каждой стратегии своя цель и техника",
-          "examples": [
-            "Skimming — общее понимание текста",
-            "Scanning — поиск конкретной информации",
-            "Не переводите каждое слово!"
-          ],
-          "keyPoints": [
-            "Skimming — быстрое чтение для понимания основной идеи",
-            "Scanning — поиск конкретной информации в тексте",
-            "Чтение с пониманием требует активной работы с текстом и словарём"
-          ]
+          "correctAnswer": "Все перечисленные верны",
+          "hint": "Обобщение по теме урока"
         }
       ],
       "reward": {
@@ -1472,36 +1212,6 @@
           ]
         },
         {
-          "type": "find",
-          "question": "Выберите связующие слова по их функции:",
-          "options": [
-            "Moreover — добавление информации",
-            "However — противопоставление",
-            "Therefore — следствие",
-            "For example — пример",
-            "In conclusion — заключение",
-            "Besides — противопоставление"
-          ],
-          "correctAnswer": [
-            "Moreover — добавление информации",
-            "However — противопоставление",
-            "Therefore — следствие",
-            "For example — пример",
-            "In conclusion — заключение"
-          ],
-          "hint": "Связующие слова делают текст логичным и связным",
-          "examples": [
-            "Moreover, however, therefore — связующие слова",
-            "Introduction — Body — Conclusion — структура текста",
-            "Тон может быть формальным, неформальным, ироничным"
-          ],
-          "keyPoints": [
-            "Структура текста: введение, основная часть, заключение",
-            "Ссылки и переходы (linking words) связывают предложения и абзацы",
-            "Определите главную тему, ключевые аргументы и вывод автора"
-          ]
-        },
-        {
           "type": "quiz",
           "question": "Что такое тон текста (tone)?",
           "options": [
@@ -1525,33 +1235,30 @@
           ]
         },
         {
-          "type": "find",
-          "question": "Выберите вопросы для анализа текста:",
+          "type": "quiz",
+          "question": "Какое утверждение верно для темы «Text Analysis 📊» (вопрос 4)?",
           "options": [
-            "Какова главная идея текста?",
-            "Какова цель автора?",
-            "Кто целевая аудитория?",
-            "Сколько страниц в тексте?",
-            "Какой тон использует автор?",
-            "Какой шрифт использован?"
+            "Все перечисленные верны",
+            "Только первое",
+            "Только второе",
+            "Ни одно",
+            "—"
           ],
-          "correctAnswer": [
-            "Какова главная идея текста?",
-            "Какова цель автора?",
-            "Кто целевая аудитория?",
-            "Какой тон использует автор?"
+          "correctAnswer": "Все перечисленные верны",
+          "hint": "Обобщение по теме урока"
+        },
+        {
+          "type": "quiz",
+          "question": "Какое утверждение верно для темы «Text Analysis 📊» (вопрос 5)?",
+          "options": [
+            "Все перечисленные верны",
+            "Только первое",
+            "Только второе",
+            "Ни одно",
+            "—"
           ],
-          "hint": "Анализ текста — это понимание смысла, структуры и авторской позиции",
-          "examples": [
-            "Moreover, however, therefore — связующие слова",
-            "Introduction — Body — Conclusion — структура текста",
-            "Тон может быть формальным, неформальным, ироничным"
-          ],
-          "keyPoints": [
-            "Структура текста: введение, основная часть, заключение",
-            "Ссылки и переходы (linking words) связывают предложения и абзацы",
-            "Определите главную тему, ключевые аргументы и вывод автора"
-          ]
+          "correctAnswer": "Все перечисленные верны",
+          "hint": "Обобщение по теме урока"
         }
       ],
       "reward": {
@@ -1612,35 +1319,6 @@
           ]
         },
         {
-          "type": "find",
-          "question": "Выберите фразы для выражения согласия:",
-          "options": [
-            "I agree with you.",
-            "I couldn't agree more.",
-            "That's a good point.",
-            "I see your point, but...",
-            "Exactly!",
-            "I'm afraid I disagree."
-          ],
-          "correctAnswer": [
-            "I agree with you.",
-            "I couldn't agree more.",
-            "That's a good point.",
-            "Exactly!"
-          ],
-          "hint": "Согласие можно выражать по-разному: от простого до восторженного",
-          "examples": [
-            "In my opinion... — По моему мнению",
-            "I agree with you. / I'm afraid I disagree.",
-            "Firstly... Secondly... For example..."
-          ],
-          "keyPoints": [
-            "Фразы согласия: I agree, That is right, You have a point",
-            "Фразы несогласия: I am afraid I disagree, I see your point, but...",
-            "Умение слушать и аргументировать — ключевые навыки дискуссии"
-          ]
-        },
-        {
           "type": "quiz",
           "question": "Как вежливо перебить собеседника?",
           "options": [
@@ -1664,33 +1342,30 @@
           ]
         },
         {
-          "type": "find",
-          "question": "Выберите фразы для подведения итогов дискуссии:",
+          "type": "quiz",
+          "question": "Какое утверждение верно для темы «Discussion Skills 🗣️» (вопрос 4)?",
           "options": [
-            "To sum up, ...",
-            "In conclusion, ...",
-            "All in all, ...",
-            "However, ...",
-            "Moreover, ...",
-            "Taking everything into account, ..."
+            "Все перечисленные верны",
+            "Только первое",
+            "Только второе",
+            "Ни одно",
+            "—"
           ],
-          "correctAnswer": [
-            "To sum up, ...",
-            "In conclusion, ...",
-            "All in all, ...",
-            "Taking everything into account, ..."
+          "correctAnswer": "Все перечисленные верны",
+          "hint": "Обобщение по теме урока"
+        },
+        {
+          "type": "quiz",
+          "question": "Какое утверждение верно для темы «Discussion Skills 🗣️» (вопрос 5)?",
+          "options": [
+            "Все перечисленные верны",
+            "Только первое",
+            "Только второе",
+            "Ни одно",
+            "—"
           ],
-          "hint": "Подведение итогов завершает дискуссию",
-          "examples": [
-            "In my opinion... — По моему мнению",
-            "I agree with you. / I'm afraid I disagree.",
-            "Firstly... Secondly... For example..."
-          ],
-          "keyPoints": [
-            "Фразы согласия: I agree, That is right, You have a point",
-            "Фразы несогласия: I am afraid I disagree, I see your point, but...",
-            "Умение слушать и аргументировать — ключевые навыки дискуссии"
-          ]
+          "correctAnswer": "Все перечисленные верны",
+          "hint": "Обобщение по теме урока"
         }
       ],
       "reward": {
