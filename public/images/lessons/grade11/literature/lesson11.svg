@@ -1,87 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
   <defs>
-    <linearGradient id="headerGrad11" x1="0" y1="0" x2="500" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#BF360C"/>
-      <stop offset="100%" stop-color="#E65100"/>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#451a03"/>
+      <stop offset="100%" style="stop-color:#a16207"/>
     </linearGradient>
-    <filter id="shadow11" x="-2%" y="-2%" width="104%" height="104%">
-      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#00000020"/>
-    </filter>
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fcd34d;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#fcd34d;stop-opacity:0"/>
+    </radialGradient>
   </defs>
-
-  <!-- Background -->
-  <rect width="500" height="350" rx="12" fill="#FFF3E0" stroke="#E65100" stroke-width="2.5"/>
-
-  <!-- Header bar -->
-  <rect x="0" y="0" width="500" height="56" rx="12" fill="url(#headerGrad11)"/>
-  <rect x="0" y="20" width="500" height="36" fill="url(#headerGrad11)"/>
-
-  <!-- Lesson number badge -->
-  <circle cx="28" cy="28" r="16" fill="#FFFFFF" opacity="0.25"/>
-  <text x="28" y="33" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">11</text>
-
-  <!-- Title -->
-  <text x="52" y="24" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF">Теория литературы</text>
-  <text x="52" y="42" font-family="Arial, sans-serif" font-size="10" fill="#FFF3E0" opacity="0.85">Литература — Урок 11</text>
-
-  <!-- Book icon -->
-  <rect x="420" y="14" width="36" height="28" rx="4" fill="#FFFFFF" opacity="0.2"/>
-  <line x1="438" y1="16" x2="438" y2="40" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
-  <rect x="423" y="18" width="13" height="20" rx="2" fill="#FFFFFF" opacity="0.15"/>
-  <rect x="440" y="18" width="13" height="20" rx="2" fill="#FFFFFF" opacity="0.15"/>
-
-  <!-- Concept grid - 2 columns x 3 rows -->
-  <text x="250" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#E65100">Основные литературоведческие понятия</text>
-  <!-- Concept 1: Род литературы -->
-  <rect x="15" y="82" width="225" height="62" rx="8" fill="#FFFFFF" stroke="#E65100" stroke-width="1" filter="url(#shadow11)"/>
-  <rect x="15" y="82" width="225" height="20" rx="8" fill="#E65100" opacity="0.12"/>
-  <rect x="15" y="94" width="225" height="8" fill="#E65100" opacity="0.12"/>
-  <circle cx="29" cy="92" r="4" fill="#E65100"/>
-  <text x="39" y="96" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#BF360C">Род литературы</text>
-  <text x="27" y="116" font-family="Arial, sans-serif" font-size="9" fill="#5D4037">Эпос, лирика, драма</text>
-  <!-- Concept 2: Жанр -->
-  <rect x="260" y="82" width="225" height="62" rx="8" fill="#FFFFFF" stroke="#E65100" stroke-width="1" filter="url(#shadow11)"/>
-  <rect x="260" y="82" width="225" height="20" rx="8" fill="#E65100" opacity="0.12"/>
-  <rect x="260" y="94" width="225" height="8" fill="#E65100" opacity="0.12"/>
-  <circle cx="274" cy="92" r="4" fill="#E65100"/>
-  <text x="284" y="96" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#BF360C">Жанр</text>
-  <text x="272" y="116" font-family="Arial, sans-serif" font-size="9" fill="#5D4037">Роман, повесть, рассказ, поэма</text>
-  <!-- Concept 3: Хронотоп -->
-  <rect x="15" y="150" width="225" height="62" rx="8" fill="#FFFFFF" stroke="#E65100" stroke-width="1" filter="url(#shadow11)"/>
-  <rect x="15" y="150" width="225" height="20" rx="8" fill="#E65100" opacity="0.12"/>
-  <rect x="15" y="162" width="225" height="8" fill="#E65100" opacity="0.12"/>
-  <circle cx="29" cy="160" r="4" fill="#E65100"/>
-  <text x="39" y="164" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#BF360C">Хронотоп</text>
-  <text x="27" y="184" font-family="Arial, sans-serif" font-size="9" fill="#5D4037">Единство времени и пространства</text>
-  <!-- Concept 4: Тропы -->
-  <rect x="260" y="150" width="225" height="62" rx="8" fill="#FFFFFF" stroke="#E65100" stroke-width="1" filter="url(#shadow11)"/>
-  <rect x="260" y="150" width="225" height="20" rx="8" fill="#E65100" opacity="0.12"/>
-  <rect x="260" y="162" width="225" height="8" fill="#E65100" opacity="0.12"/>
-  <circle cx="274" cy="160" r="4" fill="#E65100"/>
-  <text x="284" y="164" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#BF360C">Тропы</text>
-  <text x="272" y="184" font-family="Arial, sans-serif" font-size="9" fill="#5D4037">Метафора, эпитет, гипербола</text>
-  <!-- Concept 5: Композиция -->
-  <rect x="15" y="218" width="225" height="62" rx="8" fill="#FFFFFF" stroke="#E65100" stroke-width="1" filter="url(#shadow11)"/>
-  <rect x="15" y="218" width="225" height="20" rx="8" fill="#E65100" opacity="0.12"/>
-  <rect x="15" y="230" width="225" height="8" fill="#E65100" opacity="0.12"/>
-  <circle cx="29" cy="228" r="4" fill="#E65100"/>
-  <text x="39" y="232" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#BF360C">Композиция</text>
-  <text x="27" y="252" font-family="Arial, sans-serif" font-size="9" fill="#5D4037">Экспозиция, завязка, кульминация</text>
-  <!-- Concept 6: Стиль -->
-  <rect x="260" y="218" width="225" height="62" rx="8" fill="#FFFFFF" stroke="#E65100" stroke-width="1" filter="url(#shadow11)"/>
-  <rect x="260" y="218" width="225" height="20" rx="8" fill="#E65100" opacity="0.12"/>
-  <rect x="260" y="230" width="225" height="8" fill="#E65100" opacity="0.12"/>
-  <circle cx="274" cy="228" r="4" fill="#E65100"/>
-  <text x="284" y="232" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#BF360C">Стиль</text>
-  <text x="272" y="252" font-family="Arial, sans-serif" font-size="9" fill="#5D4037">Реализм, модернизм, постмодернизм</text>
-  <!-- Significance -->
-  <rect x="15" y="288" width="470" height="42" rx="8" fill="#FFFFFF" stroke="#E65100" stroke-width="1" filter="url(#shadow11)"/>
-  <rect x="15" y="288" width="6" height="42" rx="3" fill="#E65100"/>
-  <text x="30" y="303" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#E65100">Значение:</text>
-  <text x="30" y="318" font-family="Arial, sans-serif" font-size="9" fill="#5D4037">Систематизация литературоведческих понятий. Анализ художественного текста через систему теоретических категорий.</text>
-
-  <!-- Footer -->
-  <rect x="0" y="330" width="500" height="20" rx="0" fill="#E65100" opacity="0.08"/>
-  <rect x="0" y="338" width="500" height="12" rx="12" fill="#E65100" opacity="0.08"/>
-  <text x="250" y="344" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#8D6E63">Литература · 11 класс</text>
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  <rect width="500" height="350" fill="url(#centerGlow)"/>
+  <circle cx="250" cy="175" r="120" fill="none" stroke="#fcd34d" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
+  <circle cx="250" cy="175" r="80" fill="none" stroke="#fcd34d" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="250" cy="175" r="40" fill="#fcd34d" opacity="0.3"/>
+  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fef3c7" text-anchor="middle">11</text>
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fef3c7" text-anchor="middle" opacity="0.8">ЛИТЕРАТУРА · 11 КЛАСС</text>
+  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fef3c7" text-anchor="middle">Урок 11: Л.Н. Андреев. Жизнь и творчество</text>
+  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fcd34d" text-anchor="middle" opacity="0.8">Урок 11 из 35</text>
+  <rect x="200" y="130" width="100" height="80" fill="#fcd34d" opacity="0.3"/><line x1="250" y1="130" x2="250" y2="210" stroke="#fef3c7" stroke-width="2" opacity="0.5"/>
 </svg>
