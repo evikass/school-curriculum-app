@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#F3E5F5"/><stop offset="100%" stop-color="#E1BEE7"/></linearGradient>
+<linearGradient id="panel" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#7B1FA2"/><stop offset="100%" stop-color="#6A1B9A"/></linearGradient></defs>
+<rect width="500" height="350" fill="url(#bg)" rx="10"/>
+<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#6A1B9A" stroke-width="2.5"/>
+<rect x="10" y="10" width="480" height="32" rx="5" fill="url(#panel)" opacity="0.9"/>
+<text x="250" y="31" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Электромагнитные колебания</text>
+<text x="250" y="55" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">**Колебательный контур** — цепь из катушки индуктивности и к</text>
+<line x1="30" y1="62" x2="470" y2="62" stroke="#6A1B9A" stroke-width="1.5" opacity="0.25"/>
+<circle cx="250" cy="180" r="45" fill="none" stroke="#6A1B9A" stroke-width="2" opacity="0.3"/>
+<text x="250" y="175" font-family="Arial,sans-serif" font-size="11" fill="#6A1B9A" text-anchor="middle" font-weight="bold">Электромагнитные колебания</text>
+<text x="250" y="195" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Урок 4</text>
+<rect x="30" y="90" width="150" height="50" rx="5" fill="white" stroke="#6A1B9A" stroke-width="1.5"/>
+<rect x="30" y="90" width="150" height="16" rx="5" fill="#6A1B9A" opacity="0.15"/>
+<text x="105.0" y="102" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#6A1B9A" text-anchor="middle">Physics</text>
+<text x="105.0" y="122" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">**Колебательный контур** — цеп</text>
+<rect x="320" y="90" width="150" height="50" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
+<rect x="320" y="90" width="150" height="16" rx="5" fill="#2E7D32" opacity="0.15"/>
+<text x="395.0" y="102" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">Тест</text>
+<text x="395.0" y="122" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">5 вопросов x 5 вариантов</text>
+<rect x="30" y="250" width="150" height="50" rx="5" fill="white" stroke="#FF8F00" stroke-width="1.5"/>
+<rect x="30" y="250" width="150" height="16" rx="5" fill="#FF8F00" opacity="0.15"/>
+<text x="105.0" y="262" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#FF8F00" text-anchor="middle">Теория</text>
+<text x="105.0" y="282" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">Подробный материал</text>
+<rect x="320" y="250" width="150" height="50" rx="5" fill="white" stroke="#9C27B0" stroke-width="1.5"/>
+<rect x="320" y="250" width="150" height="16" rx="5" fill="#9C27B0" opacity="0.15"/>
+<text x="395.0" y="262" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#9C27B0" text-anchor="middle">Практика</text>
+<text x="395.0" y="282" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">Примеры и задания</text>
+<text x="250" y="340" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">ИНЕТШКОЛА · physics · grade11 класс · Урок 4</text>
+</svg>
