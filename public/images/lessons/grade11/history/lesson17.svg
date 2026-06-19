@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#93c5fd;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#93c5fd;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  <rect width="500" height="350" fill="url(#centerGlow)"/>
+  <circle cx="250" cy="175" r="120" fill="none" stroke="#93c5fd" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
+  <circle cx="250" cy="175" r="80" fill="none" stroke="#93c5fd" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="250" cy="175" r="40" fill="#93c5fd" opacity="0.3"/>
+  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#dbeafe" text-anchor="middle">17</text>
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dbeafe" text-anchor="middle" opacity="0.8">ИСТОРИЯ РОССИИ · 11 КЛАСС</text>
+  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#dbeafe" text-anchor="middle">Урок 17: Внешняя политика СССР в 1920-1930-е годы</text>
+  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#93c5fd" text-anchor="middle" opacity="0.8">Урок 17 из 35</text>
+  <rect x="180" y="160" width="140" height="60" fill="#93c5fd" opacity="0.3"/><rect x="200" y="120" width="20" height="40" fill="#93c5fd" opacity="0.5"/><rect x="240" y="130" width="20" height="30" fill="#93c5fd" opacity="0.5"/><rect x="280" y="120" width="20" height="40" fill="#93c5fd" opacity="0.5"/>
+</svg>
