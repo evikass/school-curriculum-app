@@ -1,103 +1,145 @@
 <svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
-  <!-- Темный фон -->
-  <rect width="500" height="350" fill="#1a1a2e"/>
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6f3ff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="pendulumGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ee5a52;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="springGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4ecdc4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#44a08d;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="formulaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd166;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffb84d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
   
-  <!-- Декоративная рамка -->
-  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#4a7c7e" stroke-width="2" rx="5"/>
-  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#16213e" stroke-width="1" rx="3"/>
+  <!-- Фоновая панель -->
+  <rect x="10" y="10" width="480" height="330" fill="url(#bgGradient)" rx="5" ry="5"/>
+  
+  <!-- Двойная декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#2c3e50" stroke-width="2" rx="5" ry="5"/>
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#2c3e50" stroke-width="1" rx="3" ry="3"/>
   
   <!-- Заголовок урока -->
-  <text x="250" y="40" text-anchor="middle" fill="#e94560" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Математический маятник</text>
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#2c3e50">МАТЕМАТИЧЕСКИЙ МАЯТНИК</text>
   
-  <!-- Опорная точка -->
-  <circle cx="250" cy="80" r="5" fill="#f5f5f5"/>
-  <rect x="240" y="75" width="20" height="10" fill="#4a7c7e"/>
+  <!-- Подзаголовок -->
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#34495e">ФИЗИКА · 11 КЛАСС</text>
+  
+  <!-- Номер урока -->
+  <text x="30" y="30" font-family="Arial, sans-serif" font-size="12" fill="#34495e">Урок №12</text>
+  
+  <!-- Основная панель с математическим маятником -->
+  <rect x="40" y="70" width="200" height="200" fill="white" fill-opacity="0.7" stroke="#3498db" stroke-width="1" rx="3" ry="3"/>
+  
+  <!-- Точка подвеса -->
+  <circle cx="140" cy="90" r="4" fill="#2c3e50"/>
+  <text x="145" y="95" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Точка подвеса</text>
   
   <!-- Нить -->
-  <line x1="250" y1="80" x2="350" y2="220" stroke="#f5f5f5" stroke-width="2"/>
+  <line x1="140" y1="90" x2="140" y2="200" stroke="#34495e" stroke-width="2"/>
+  <text x="145" y="145" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">нить</text>
   
   <!-- Груз -->
-  <circle cx="350" cy="220" r="20" fill="#e94560"/>
-  <circle cx="350" cy="220" r="15" fill="#f5f5f5" opacity="0.3"/>
+  <circle cx="140" cy="200" r="15" fill="url(#pendulumGradient)"/>
+  <text x="160" y="205" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">груз m</text>
   
   <!-- Угол отклонения -->
-  <path d="M 250 80 L 250 120 L 300 120" fill="none" stroke="#ffd700" stroke-width="1.5" stroke-dasharray="5,3"/>
-  <path d="M 250 80 L 350 220" fill="none" stroke="#ffd700" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.5"/>
+  <path d="M 140 90 L 170 90 A 30 30 0 0 1 158.98 115.98 Z" fill="#3498db" fill-opacity="0.3"/>
+  <text x="165" y="105" font-family="Arial, sans-serif" font-size="10" fill="#3498db">α</text>
   
-  <!-- Дуга угла -->
-  <path d="M 270 80 A 20 20 0 0 1 250 100" fill="none" stroke="#ffd700" stroke-width="1.5"/>
-  <text x="275" y="95" fill="#ffd700" font-family="Arial, sans-serif" font-size="14">φ</text>
+  <!-- Сила тяжести -->
+  <line x1="140" y1="200" x2="140" y2="250" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="145" y="225" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">mg</text>
   
-  <!-- Вектор силы тяжести -->
-  <line x1="350" y1="220" x2="350" y2="280" stroke="#00ff00" stroke-width="2.5" marker-end="url(#arrowhead)"/>
-  <text x="360" y="255" fill="#00ff00" font-family="Arial, sans-serif" font-size="14">mg</text>
+  <!-- Компоненты силы тяжести -->
+  <line x1="140" y1="200" x2="110" y2="230" stroke="#e74c3c" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <line x1="140" y1="200" x2="170" y2="230" stroke="#e74c3c" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <text x="95" y="235" font-family="Arial, sans-serif" font-size="9" fill="#e74c3c">mg·cosα</text>
+  <text x="175" y="235" font-family="Arial, sans-serif" font-size="9" fill="#e74c3c">mg·sinα</text>
   
-  <!-- Вектор натяжения -->
-  <line x1="350" y1="220" x2="300" y2="150" stroke="#00bfff" stroke-width="2" marker-end="url(#arrowhead2)"/>
-  <text x="280" y="185" fill="#00bfff" font-family="Arial, sans-serif" font-size="14">T</text>
+  <!-- Натяжение нити -->
+  <line x1="140" y1="200" x2="140" y2="170" stroke="#27ae60" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="145" y="185" font-family="Arial, sans-serif" font-size="10" fill="#27ae60">T</text>
   
-  <!-- Компонента силы тяжести -->
-  <line x1="350" y1="220" x2="350" y2="250" stroke="#ff6b6b" stroke-width="1.5" stroke-dasharray="3,2"/>
-  <line x1="350" y1="250" x2="320" y2="250" stroke="#ff6b6b" stroke-width="1.5" marker-end="url(#arrowhead3)"/>
-  <text x="305" y="245" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="12">mg·sinφ</text>
+  <!-- Вторая панель с пружинным маятником -->
+  <rect x="260" y="70" width="200" height="200" fill="white" fill-opacity="0.7" stroke="#3498db" stroke-width="1" rx="3" ry="3"/>
   
-  <!-- Компонента силы тяжести (перпендикулярная) -->
-  <line x1="350" y1="220" x2="380" y2="220" stroke="#9b59b6" stroke-width="1.5" stroke-dasharray="3,2"/>
-  <line x1="380" y1="220" x2="380" y2="190" stroke="#9b59b6" stroke-width="1.5" marker-end="url(#arrowhead4)"/>
-  <text x="385" y="205" fill="#9b59b6" font-family="Arial, sans-serif" font-size="12">mg·cosφ</text>
+  <!-- Точка крепления пружины -->
+  <rect x="335" y="70" width="10" height="10" fill="#34495e"/>
+  <text x="350" y="80" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">крепление</text>
   
-  <!-- Длина маятника -->
-  <line x1="250" y1="90" x2="250" y2="210" stroke="#f39c12" stroke-width="1" stroke-dasharray="2,2"/>
-  <text x="255" y="150" fill="#f39c12" font-family="Arial, sans-serif" font-size="14">l</text>
+  <!-- Пружина -->
+  <path d="M 340 80 L 340 90 L 330 100 L 350 110 L 330 120 L 350 130 L 330 140 L 350 150 L 330 160 L 350 170 L 340 180 L 340 190" 
+        stroke="url(#springGradient)" stroke-width="2" fill="none"/>
+  <text x="360" y="135" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">пружина</text>
   
-  <!-- Формула периода -->
-  <rect x="150" y="290" width="200" height="40" fill="#16213e" stroke="#4a7c7e" stroke-width="1" rx="5"/>
-  <text x="250" y="315" text-anchor="middle" fill="#f5f5f5" font-family="Arial, sans-serif" font-size="18">T = 2π√(l/g)</text>
+  <!-- Груз пружинного маятника -->
+  <circle cx="340" cy="200" r="15" fill="url(#pendulumGradient)"/>
+  <text x="360" y="205" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">груз m</text>
   
-  <!-- Подписи к элементам -->
-  <text x="370" y="230" fill="#f5f5f5" font-family="Arial, sans-serif" font-size="12">m</text>
-  <text x="220" y="70" fill="#f5f5f5" font-family="Arial, sans-serif" font-size="12">O</text>
+  <!-- Сила тяжести для пружинного маятника -->
+  <line x1="340" y1="200" x2="340" y2="250" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="345" y="225" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">mg</text>
   
-  <!-- Дополнительные элементы для научного вида -->
-  <circle cx="250" cy="80" r="8" fill="none" stroke="#4a7c7e" stroke-width="1" stroke-dasharray="2,2"/>
+  <!-- Сила упругости -->
+  <line x1="340" y1="200" x2="340" y2="170" stroke="#9b59b6" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="345" y="185" font-family="Arial, sans-serif" font-size="10" fill="#9b59b6">Fупр = kx</text>
   
-  <!-- Сетка для визуализации -->
-  <g opacity="0.2">
-    <line x1="50" y1="0" x2="50" y2="350" stroke="#4a7c7e" stroke-width="0.5"/>
-    <line x1="100" y1="0" x2="100" y2="350" stroke="#4a7c7e" stroke-width="0.5"/>
-    <line x1="150" y1="0" x2="150" y2="350" stroke="#4a7c7e" stroke-width="0.5"/>
-    <line x1="200" y1="0" x2="200" y2="350" stroke="#4a7c7e" stroke-width="0.5"/>
-    <line x1="300" y1="0" x2="300" y2="350" stroke="#4a7c7e" stroke-width="0.5"/>
-    <line x1="350" y1="0" x2="350" y2="350" stroke="#4a7c7e" stroke-width="0.5"/>
-    <line x1="400" y1="0" x2="400" y2="350" stroke="#4a7c7e" stroke-width="0.5"/>
-    <line x1="450" y1="0" x2="450" y2="350" stroke="#4a7c7e" stroke-width="0.5"/>
-    
-    <line x1="0" y1="50" x2="500" y2="50" stroke="#4a7c7e" stroke-width="0.5"/>
-    <line x1="0" y1="100" x2="500" y2="100" stroke="#4a7c7e" stroke-width="0.5"/>
-    <line x1="0" y1="150" x2="500" y2="150" stroke="#4a7c7e" stroke-width="0.5"/>
-    <line x1="0" y1="200" x2="500" y2="200" stroke="#4a7c7e" stroke-width="0.5"/>
-    <line x1="0" y1="250" x2="500" y2="250" stroke="#4a7c7e" stroke-width="0.5"/>
-    <line x1="0" y1="300" x2="500" y2="300" stroke="#4a7c7e" stroke-width="0.5"/>
-  </g>
+  <!-- Панель с формулами -->
+  <rect x="40" y="280" width="420" height="50" fill="url(#formulaGradient)" rx="3" ry="3"/>
   
-  <!-- Определения -->
-  <text x="30" y="330" fill="#f5f5f5" font-family="Arial, sans-serif" font-size="10">T - период колебаний</text>
-  <text x="180" y="330" fill="#f5f5f5" font-family="Arial, sans-serif" font-size="10">l - длина нити</text>
-  <text x="280" y="330" fill="#f5f5f5" font-family="Arial, sans-serif" font-size="10">g - ускорение свободного падения</text>
+  <!-- Формула для математического маятника -->
+  <text x="60" y="305" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">T = 2π√(l/g) — период колебаний математического маятника</text>
   
-  <!-- Маркеры для стрелок -->
+  <!-- Формула для пружинного маятника -->
+  <text x="60" y="320" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">T = 2π√(m/k) — период колебаний пружинного маятника</text>
+  
+  <!-- Легенда в углу -->
+  <rect x="380" y="80" width="70" height="120" fill="white" fill-opacity="0.8" stroke="#95a5a6" stroke-width="1" rx="3" ry="3"/>
+  <text x="415" y="100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">Легенда</text>
+  
+  <!-- Обозначения в легенде -->
+  <circle cx="395" cy="115" r="3" fill="#e74c3c"/>
+  <text x="405" y="119" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">g — ускорение</text>
+  
+  <circle cx="395" cy="130" r="3" fill="#27ae60"/>
+  <text x="405" y="134" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">T — натяжение</text>
+  
+  <circle cx="395" cy="145" r="3" fill="#9b59b6"/>
+  <text x="405" y="149" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">k — жесткость</text>
+  
+  <circle cx="395" cy="160" r="3" fill="#3498db"/>
+  <text x="405" y="164" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">l — длина нити</text>
+  
+  <circle cx="395" cy="175" r="3" fill="#4ecdc4"/>
+  <text x="405" y="179" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">x — деформация</text>
+  
+  <!-- Стрелка для векторов -->
   <defs>
     <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#00ff00"/>
-    </marker>
-    <marker id="arrowhead2" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#00bfff"/>
-    </marker>
-    <marker id="arrowhead3" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#ff6b6b"/>
-    </marker>
-    <marker id="arrowhead4" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#9b59b6"/>
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2c3e50"/>
     </marker>
   </defs>
+  
+  <!-- Дополнительные элементы для детализации -->
+  <text x="250" y="60" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#34495e">Типы маятников</text>
+  
+  <!-- Вертикальная линия разделения -->
+  <line x1="250" y1="70" x2="250" y2="270" stroke="#95a5a6" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Уравнение движения для математического маятника -->
+  <text x="90" y="270" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#2c3e50">d²α/dt² + (g/l)sinα = 0</text>
+  
+  <!-- Уравнение движения для пружинного маятника -->
+  <text x="360" y="270" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#2c3e50">d²x/dt² + (k/m)x = 0</text>
+  
+  <!-- Дополнительные подписи -->
+  <text x="140" y="85" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2c3e50">O</text>
+  <text x="170" y="130" font-family="Arial, sans-serif" font-size="9" fill="#34495e">равновесие</text>
 </svg>

@@ -1,101 +1,172 @@
 <svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Определения градиентов и паттернов -->
   <defs>
-    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#00ff00" />
-    </marker>
-    <marker id="arrowhead-red" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#ff0000" />
-    </marker>
-    <marker id="arrowhead-blue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#00ccff" />
-    </marker>
-    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1a1a1a" stroke-width="0.5"/>
+    <!-- Градиент для первой среды -->
+    <linearGradient id="medium1Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e3f2fd;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#bbdefb;stop-opacity:0.9" />
+    </linearGradient>
+    
+    <!-- Градиент для второй среды -->
+    <linearGradient id="medium2Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff3e0;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#ffe0b2;stop-opacity:0.9" />
+    </linearGradient>
+    
+    <!-- Градиент для рамки -->
+    <linearGradient id="frameGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#37474f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#263238;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Декоративный узор для рамки -->
+    <pattern id="framePattern" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="none"/>
+      <circle cx="5" cy="5" r="1" fill="#546e7a"/>
     </pattern>
   </defs>
   
-  <!-- Фон -->
-  <rect width="500" height="350" fill="#0a0a0a"/>
-  <rect width="500" height="350" fill="url(#grid)" opacity="0.3"/>
+  <!-- Фоновый прямоугольник -->
+  <rect width="500" height="350" fill="#f5f5f5"/>
   
   <!-- Декоративная рамка -->
-  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#333" stroke-width="2" rx="5"/>
-  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#444" stroke-width="1" rx="3"/>
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="url(#frameGradient)" stroke-width="3"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="url(#framePattern)" stroke-width="1"/>
   
-  <!-- Заголовок -->
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle" font-weight="bold">Отражение и преломление света</text>
+  <!-- Заголовок и подзаголовок -->
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#263238">Отражение и преломление света</text>
+  <text x="250" y="48" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#546e7a">ФИЗИКА · 11 КЛАСС</text>
+  <text x="470" y="25" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#546e7a">Урок №12</text>
   
-  <!-- Граница сред -->
-  <line x1="50" y1="200" x2="450" y2="200" stroke="#666" stroke-width="2" stroke-dasharray="5,5"/>
-  <text x="250" y="220" font-family="Arial, sans-serif" font-size="14" fill="#aaa" text-anchor="middle">Граница раздела сред</text>
+  <!-- Среда 1 (воздух) -->
+  <rect x="0" y="80" width="500" height="100" fill="url(#medium1Gradient)"/>
+  <text x="250" y="130" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1565c0">Среда 1 (воздух) n₁ = 1.00</text>
   
-  <!-- Обозначение сред -->
-  <text x="250" y="180" font-family="Arial, sans-serif" font-size="16" fill="#ffcc00" text-anchor="middle">Среда 1 (n₁)</text>
-  <text x="250" y="280" font-family="Arial, sans-serif" font-size="16" fill="#00ccff" text-anchor="middle">Среда 2 (n₂)</text>
+  <!-- Среда 2 (вода) -->
+  <rect x="0" y="180" width="500" height="170" fill="url(#medium2Gradient)"/>
+  <text x="250" y="265" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#e65100">Среда 2 (вода) n₂ = 1.33</text>
+  
+  <!-- Граница раздела сред -->
+  <line x1="0" y1="180" x2="500" y2="180" stroke="#37474f" stroke-width="2" stroke-dasharray="5,3"/>
   
   <!-- Нормаль -->
-  <line x1="250" y1="100" x2="250" y2="300" stroke="#888" stroke-width="1" stroke-dasharray="2,2"/>
-  <text x="260" y="105" font-family="Arial, sans-serif" font-size="12" fill="#aaa">N</text>
+  <line x1="250" y1="80" x2="250" y2="300" stroke="#263238" stroke-width="1.5" stroke-dasharray="2,2"/>
+  <text x="255" y="85" font-family="Arial, sans-serif" font-size="12" fill="#263238">Нормаль</text>
+  
+  <!-- Точка падения луча -->
+  <circle cx="250" cy="180" r="4" fill="#d32f2f"/>
   
   <!-- Падающий луч -->
-  <line x1="150" y1="100" x2="250" y2="200" stroke="#00ff00" stroke-width="2" marker-end="url(#arrowhead)"/>
-  <text x="180" y="140" font-family="Arial, sans-serif" font-size="14" fill="#00ff00">падающий луч</text>
+  <line x1="150" y1="100" x2="250" y2="180" stroke="#d32f2f" stroke-width="2.5" marker-end="url(#arrowhead-red)"/>
+  <text x="190" y="135" font-family="Arial, sans-serif" font-size="12" fill="#d32f2f" transform="rotate(33.7 190 135)">Падающий луч</text>
   
   <!-- Отраженный луч -->
-  <line x1="250" y1="200" x2="350" y2="100" stroke="#ff0000" stroke-width="2" marker-end="url(#arrowhead-red)"/>
-  <text x="280" y="140" font-family="Arial, sans-serif" font-size="14" fill="#ff0000">отраженный луч</text>
+  <line x1="250" y1="180" x2="350" y2="100" stroke="#1976d2" stroke-width="2.5" marker-end="url(#arrowhead-blue)"/>
+  <text x="280" y="135" font-family="Arial, sans-serif" font-size="12" fill="#1976d2" transform="rotate(-33.7 280 135)">Отраженный луч</text>
   
   <!-- Преломленный луч -->
-  <line x1="250" y1="200" x2="350" y2="280" stroke="#00ccff" stroke-width="2" marker-end="url(#arrowhead-blue)"/>
-  <text x="280" y="250" font-family="Arial, sans-serif" font-size="14" fill="#00ccff">преломленный луч</text>
+  <line x1="250" y1="180" x2="280" y2="280" stroke="#388e3c" stroke-width="2.5" marker-end="url(#arrowhead-green)"/>
+  <text x="255" y="225" font-family="Arial, sans-serif" font-size="12" fill="#388e3c" transform="rotate(42 255 225)">Преломленный луч</text>
   
-  <!-- Углы -->
-  <!-- Угол падения -->
-  <path d="M 250 200 L 250 150 A 50 50 0 0 1 220 173" fill="none" stroke="#00ff00" stroke-width="1" opacity="0.5"/>
-  <text x="240" y="175" font-family="Arial, sans-serif" font-size="12" fill="#00ff00">α₁</text>
+  <!-- Угол падения α -->
+  <path d="M 250 180 L 220 180 A 30 30 0 0 0 236.6 150.4" fill="none" stroke="#d32f2f" stroke-width="1"/>
+  <text x="215" y="165" font-family="Arial, sans-serif" font-size="14" fill="#d32f2f">α</text>
   
-  <!-- Угол отражения -->
-  <path d="M 250 200 L 250 150 A 50 50 0 0 0 280 173" fill="none" stroke="#ff0000" stroke-width="1" opacity="0.5"/>
-  <text x="255" y="175" font-family="Arial, sans-serif" font-size="12" fill="#ff0000">β₁</text>
+  <!-- Угол отражения α' -->
+  <path d="M 250 180 L 280 180 A 30 30 0 0 1 263.4 150.4" fill="none" stroke="#1976d2" stroke-width="1"/>
+  <text x="285" y="165" font-family="Arial, sans-serif" font-size="14" fill="#1976d2">α'</text>
   
-  <!-- Угол преломления -->
-  <path d="M 250 200 L 250 250 A 50 50 0 0 0 280 227" fill="none" stroke="#00ccff" stroke-width="1" opacity="0.5"/>
-  <text x="255" y="235" font-family="Arial, sans-serif" font-size="12" fill="#00ccff">α₂</text>
-  
-  <!-- Точка падения -->
-  <circle cx="250" cy="200" r="4" fill="#fff"/>
-  <text x="255" y="205" font-family="Arial, sans-serif" font-size="10" fill="#aaa">O</text>
-  
-  <!-- Законы отражения -->
-  <rect x="50" y="50" width="180" height="40" fill="#1a1a1a" stroke="#444" stroke-width="1" rx="3"/>
-  <text x="140" y="65" font-family="Arial, sans-serif" font-size="11" fill="#aaa" text-anchor="middle">Закон отражения:</text>
-  <text x="140" y="80" font-family="Arial, sans-serif" font-size="12" fill="#00ff00" text-anchor="middle">α₁ = β₁</text>
+  <!-- Угол преломления β -->
+  <path d="M 250 180 L 250 210 A 30 30 0 0 1 263.4 199.6" fill="none" stroke="#388e3c" stroke-width="1"/>
+  <text x="265" y="205" font-family="Arial, sans-serif" font-size="14" fill="#388e3c">β</text>
   
   <!-- Закон Снеллиуса -->
-  <rect x="270" y="50" width="180" height="40" fill="#1a1a1a" stroke="#444" stroke-width="1" rx="3"/>
-  <text x="360" y="65" font-family="Arial, sans-serif" font-size="11" fill="#aaa" text-anchor="middle">Закон Снеллиуса:</text>
-  <text x="360" y="80" font-family="Arial, sans-serif" font-size="12" fill="#00ccff" text-anchor="middle">n₁·sin α₁ = n₂·sin α₂</text>
+  <rect x="15" y="300" width="200" height="40" fill="#eceff1" stroke="#546e7a" stroke-width="1" rx="3"/>
+  <text x="25" y="315" font-family="Arial, sans-serif" font-size="10" fill="#263238">Закон Снеллиуса:</text>
+  <text x="25" y="330" font-family="Arial, sans-serif" font-size="12" fill="#263238">sin α / sin β = n₂₁</text>
   
-  <!-- Дополнительные элементы -->
-  <circle cx="150" cy="100" r="3" fill="#00ff00"/>
-  <circle cx="350" cy="100" r="3" fill="#ff0000"/>
-  <circle cx="350" cy="280" r="3" fill="#00ccff"/>
+  <!-- Показатель преломления -->
+  <rect x="225" y="300" width="200" height="40" fill="#eceff1" stroke="#546e7a" stroke-width="1" rx="3"/>
+  <text x="235" y="315" font-family="Arial, sans-serif" font-size="10" fill="#263238">n₂₁ = n₂ / n₁ = 1.33 / 1.00</text>
+  <text x="235" y="330" font-family="Arial, sans-serif" font-size="12" fill="#263238">n₂₁ = 1.33</text>
   
-  <!-- Указатели сред -->
-  <line x1="100" y1="150" x2="200" y2="150" stroke="#ffcc00" stroke-width="1" opacity="0.5"/>
-  <line x1="100" y1="250" x2="200" y2="250" stroke="#00ccff" stroke-width="1" opacity="0.5"/>
+  <!-- График зависимости sin α / sin β от угла α -->
+  <rect x="15" y="15" width="160" height="60" fill="#fff" stroke="#546e7a" stroke-width="1" rx="3"/>
+  <text x="25" y="30" font-family="Arial, sans-serif" font-size="10" fill="#263238">Зависимость sin α / sin β</text>
+  <line x1="25" y1="70" x2="165" y2="70" stroke="#546e7a" stroke-width="1"/>
+  <line x1="25" y1="35" x2="25" y2="70" stroke="#546e7a" stroke-width="1"/>
+  <text x="90" y="85" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#263238">α,°</text>
+  <text x="15" y="55" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#263238">sin α/sin β</text>
   
-  <!-- Вспомогательные линии -->
-  <line x1="250" y1="150" x2="250" y2="250" stroke="#666" stroke-width="1" opacity="0.3"/>
+  <!-- Кривая на графике -->
+  <path d="M 30 65 Q 60 60 90 58 T 150 56" fill="none" stroke="#f44336" stroke-width="1.5"/>
   
-  <!-- Указатели углов -->
-  <text x="200" y="190" font-family="Arial, sans-serif" font-size="10" fill="#00ff00">∠i</text>
-  <text x="300" y="190" font-family="Arial, sans-serif" font-size="10" fill="#ff0000">∠r</text>
-  <text x="300" y="240" font-family="Arial, sans-serif" font-size="10" fill="#00ccff">∠e</text>
+  <!-- Угол полного внутреннего отражения -->
+  <rect x="320" y="15" width="165" height="60" fill="#fff" stroke="#546e7a" stroke-width="1" rx="3"/>
+  <text x="330" y="30" font-family="Arial, sans-serif" font-size="10" fill="#263238">Угол полного</text>
+  <text x="330" y="42" font-family="Arial, sans-serif" font-size="10" fill="#263238">внутреннего отражения:</text>
+  <text x="330" y="58" font-family="Arial, sans-serif" font-size="12" fill="#d32f2f">αₖ = arcsin(n₂/n₁)</text>
   
-  <!-- Декоративные элементы -->
-  <circle cx="50" cy="50" r="2" fill="#444" opacity="0.5"/>
-  <circle cx="450" cy="50" r="2" fill="#444" opacity="0.5"/>
-  <circle cx="50" cy="300" r="2" fill="#444" opacity="0.5"/>
-  <circle cx="450" cy="300" r="2" fill="#444" opacity="0.5"/>
+  <!-- Угол Брюстера -->
+  <rect x="320" y="80" width="165" height="60" fill="#fff" stroke="#546e7a" stroke-width="1" rx="3"/>
+  <text x="330" y="95" font-family="Arial, sans-serif" font-size="10" fill="#263238">Угол Брюстера:</text>
+  <text x="330" y="107" font-family="Arial, sans-serif" font-size="10" fill="#263238">tg βᵦ = n₂/n₁</text>
+  <text x="330" y="123" font-family="Arial, sans-serif" font-size="12" fill="#388e3c">βᵦ = 53°</text>
+  
+  <!-- Схема полного внутреннего отражения -->
+  <rect x="320" y="150" width="165" height="80" fill="#fff" stroke="#546e7a" stroke-width="1" rx="3"/>
+  <text x="330" y="165" font-family="Arial, sans-serif" font-size="10" fill="#263238">Полное внутреннее отражение</text>
+  
+  <!-- Нормаль для схемы ПВО -->
+  <line x1="402" y1="180" x2="402" y2="220" stroke="#263238" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- Падающий луч для схемы ПВО -->
+  <line x1="380" y1="190" x2="402" y2="200" stroke="#d32f2f" stroke-width="2" marker-end="url(#arrowhead-red-small)"/>
+  
+  <!-- Отраженный луч для схемы ПВО -->
+  <line x1="402" y1="200" x2="424" y2="190" stroke="#1976d2" stroke-width="2" marker-end="url(#arrowhead-blue-small)"/>
+  
+  <!-- Угол ПВО -->
+  <path d="M 402 200 L 385 200 A 17 17 0 0 0 392.2 186.7" fill="none" stroke="#d32f2f" stroke-width="1"/>
+  <text x="375" y="195" font-family="Arial, sans-serif" font-size="10" fill="#d32f2f">α > αₖ</text>
+  
+  <!-- Маркеры для стрелок -->
+  <defs>
+    <marker id="arrowhead-red" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#d32f2f"/>
+    </marker>
+    <marker id="arrowhead-blue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1976d2"/>
+    </marker>
+    <marker id="arrowhead-green" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#388e3c"/>
+    </marker>
+    <marker id="arrowhead-red-small" markerWidth="6" markerHeight="5" refX="5" refY="2.5" orient="auto">
+      <polygon points="0 0, 6 2.5, 0 5" fill="#d32f2f"/>
+    </marker>
+    <marker id="arrowhead-blue-small" markerWidth="6" markerHeight="5" refX="5" refY="2.5" orient="auto">
+      <polygon points="0 0, 6 2.5, 0 5" fill="#1976d2"/>
+    </marker>
+  </defs>
+  
+  <!-- Пояснение к законам отражения и преломления -->
+  <rect x="15" y="200" width="200" height="90" fill="#fff" stroke="#546e7a" stroke-width="1" rx="3"/>
+  <text x="25" y="215" font-family="Arial, sans-serif" font-size="10" fill="#263238" font-weight="bold">Законы отражения:</text>
+  <text x="25" y="230" font-family="Arial, sans-serif" font-size="9" fill="#263238">1. падающий луч, отраженный</text>
+  <text x="25" y="242" font-family="Arial, sans-serif" font-size="9" fill="#263238">   и нормаль лежат в одной плоскости</text>
+  <text x="25" y="254" font-family="Arial, sans-serif" font-size="9" fill="#263238">2. угол падения = уголу отражения</text>
+  <text x="25" y="266" font-family="Arial, sans-serif" font-size="9" fill="#263238">   α = α'</text>
+  <text x="25" y="280" font-family="Arial, sans-serif" font-size="9" fill="#263238">   (закон зеркального отражения)</text>
+  
+  <!-- Дополнительные элементы для визуализации сред -->
+  <ellipse cx="100" cy="130" rx="15" ry="8" fill="#90caf9" opacity="0.6"/>
+  <ellipse cx="400" cy="130" rx="12" ry="6" fill="#90caf9" opacity="0.6"/>
+  <ellipse cx="120" cy="260" rx="20" ry="12" fill="#ffb74d" opacity="0.6"/>
+  <ellipse cx="380" cy="270" rx="18" ry="10" fill="#ffb74d" opacity="0.6"/>
+  
+  <!-- Указатели на среды -->
+  <circle cx="100" cy="130" r="2" fill="#1565c0"/>
+  <text x="105" y="135" font-family="Arial, sans-serif" font-size="8" fill="#1565c0">molecules</text>
+  <circle cx="120" cy="260" r="2" fill="#e65100"/>
+  <text x="125" y="265" font-family="Arial, sans-serif" font-size="8" fill="#e65100">molecules</text>
 </svg>

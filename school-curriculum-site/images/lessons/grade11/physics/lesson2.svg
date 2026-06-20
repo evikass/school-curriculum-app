@@ -1,87 +1,173 @@
 <svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <style>
-      .title { font: bold 20px Arial; fill: #ffffff; }
-      .label { font: 14px Arial; fill: #ffffff; }
-      .formula { font: 16px Arial; fill: #ffffff; }
-      .small-label { font: 12px Arial; fill: #ffffff; }
-    </style>
+    <!-- Градиенты -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6f2ff;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="fieldGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e6f7ff;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#cceeff;stop-opacity:0.3" />
+    </linearGradient>
+    
+    <linearGradient id="wireGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4a574;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#e5c29f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d4a574;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="forceGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff6666;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#ff0000;stop-opacity:0.8" />
+    </linearGradient>
+    
+    <!-- Стиль стрелки -->
     <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#ffffff" />
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
     </marker>
-    <marker id="arrowhead-red" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#ff6b6b" />
+    
+    <marker id="arrowheadRed" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ff0000" />
+    </marker>
+    
+    <marker id="arrowheadBlue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#0066ff" />
+    </marker>
+    
+    <marker id="arrowheadGreen" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#00aa00" />
     </marker>
   </defs>
   
-  <!-- Темный фон -->
-  <rect width="500" height="350" fill="#1a1a2e"/>
+  <!-- Фон -->
+  <rect x="0" y="0" width="500" height="350" fill="url(#bgGradient)" />
   
   <!-- Декоративная рамка -->
-  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#4a4a6a" stroke-width="2"/>
-  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#6a6a8a" stroke-width="1"/>
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#4d94ff" stroke-width="3" />
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#4d94ff" stroke-width="1" />
   
-  <!-- Заголовок -->
-  <text x="250" y="40" text-anchor="middle" class="title">Сила Ампера</text>
+  <!-- Заголовок и подзаголовок -->
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" font-weight="bold" fill="#003366">СИЛА АМПЕРА</text>
+  <text x="250" y="50" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666666">ФИЗИКА · 11 КЛАСС</text>
   
-  <!-- Магнитное поле (B) - горизонтальные линии -->
-  <g id="magnetic-field">
-    <line x1="50" y1="150" x2="450" y2="150" stroke="#4ecdc4" stroke-width="1" stroke-dasharray="5,3"/>
-    <line x1="50" y1="170" x2="450" y2="170" stroke="#4ecdc4" stroke-width="1" stroke-dasharray="5,3"/>
-    <line x1="50" y1="190" x2="450" y2="190" stroke="#4ecdc4" stroke-width="1" stroke-dasharray="5,3"/>
-    <line x1="50" y1="210" x2="450" y2="210" stroke="#4ecdc4" stroke-width="1" stroke-dasharray="5,3"/>
-    <line x1="50" y1="230" x2="450" y2="230" stroke="#4ecdc4" stroke-width="1" stroke-dasharray="5,3"/>
-    <line x1="50" y1="250" x2="450" y2="250" stroke="#4ecdc4" stroke-width="1" stroke-dasharray="5,3"/>
+  <!-- Номер урока -->
+  <text x="470" y="340" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#666666">Урок 12</text>
+  
+  <!-- Основная схема - проводник в магнитном поле -->
+  <g transform="translate(250, 120)">
+    <!-- Магнитное поле (B) - горизонтальные линии -->
+    <g id="magneticField">
+      <line x1="-120" y1="-50" x2="-120" y2="50" stroke="#0066ff" stroke-width="1.5" stroke-dasharray="5,5" />
+      <line x1="-100" y1="-50" x2="-100" y2="50" stroke="#0066ff" stroke-width="1.5" stroke-dasharray="5,5" />
+      <line x1="-80" y1="-50" x2="-80" y2="50" stroke="#0066ff" stroke-width="1.5" stroke-dasharray="5,5" />
+      <line x1="-60" y1="-50" x2="-60" y2="50" stroke="#0066ff" stroke-width="1.5" stroke-dasharray="5,5" />
+      <line x1="-40" y1="-50" x2="-40" y2="50" stroke="#0066ff" stroke-width="1.5" stroke-dasharray="5,5" />
+      <line x1="-20" y1="-50" x2="-20" y2="50" stroke="#0066ff" stroke-width="1.5" stroke-dasharray="5,5" />
+      <line x1="0" y1="-50" x2="0" y2="50" stroke="#0066ff" stroke-width="1.5" stroke-dasharray="5,5" />
+      <line x1="20" y1="-50" x2="20" y2="50" stroke="#0066ff" stroke-width="1.5" stroke-dasharray="5,5" />
+      <line x1="40" y1="-50" x2="40" y2="50" stroke="#0066ff" stroke-width="1.5" stroke-dasharray="5,5" />
+      <line x1="60" y1="-50" x2="60" y2="50" stroke="#0066ff" stroke-width="1.5" stroke-dasharray="5,5" />
+      <line x1="80" y1="-50" x2="80" y2="50" stroke="#0066ff" stroke-width="1.5" stroke-dasharray="5,5" />
+      <line x1="100" y1="-50" x2="100" y2="50" stroke="#0066ff" stroke-width="1.5" stroke-dasharray="5,5" />
+      <line x1="120" y1="-50" x2="120" y2="50" stroke="#0066ff" stroke-width="1.5" stroke-dasharray="5,5" />
+      
+      <!-- Стрелки для направления B -->
+      <polygon points="-120,-45 -125,-50 -115,-50" fill="#0066ff" />
+      <polygon points="120,45 115,50 125,50" fill="#0066ff" />
+      <polygon points="-60,-45 -65,-50 -55,-50" fill="#0066ff" />
+      <polygon points="60,45 55,50 65,50" fill="#0066ff" />
+    </g>
     
-    <!-- Символ B -->
-    <text x="30" y="205" class="label">B</text>
-    <line x1="40" y1="200" x2="50" y2="200" stroke="#4ecdc4" stroke-width="2" marker-end="url(#arrowhead)"/>
-  </g>
-  
-  <!-- Проводник с током -->
-  <g id="conductor">
-    <line x1="150" y1="100" x2="150" y2="300" stroke="#ffd93d" stroke-width="4"/>
-    <circle cx="150" cy="100" r="3" fill="#ffd93d"/>
-    <circle cx="150" cy="300" r="3" fill="#ffd93d"/>
+    <!-- Проводник -->
+    <rect x="-15" y="-80" width="30" height="160" fill="url(#wireGradient)" stroke="#8b4513" stroke-width="2" rx="3" />
+    <line x1="-10" y1="-70" x2="-10" y2="70" stroke="#666666" stroke-width="1" />
+    <line x1="0" y1="-70" x2="0" y2="70" stroke="#666666" stroke-width="1" />
+    <line x1="10" y1="-70" x2="10" y2="70" stroke="#666666" stroke-width="1" />
     
-    <!-- Ток I -->
-    <line x1="140" y1="120" x2="140" y2="280" stroke="#ffd93d" stroke-width="2" marker-end="url(#arrowhead)"/>
-    <text x="120" y="200" class="label">I</text>
+    <!-- Сила тока (I) -->
+    <line x1="0" y1="-70" x2="0" y2="80" stroke="#00aa00" stroke-width="3" marker-end="url(#arrowheadGreen)" />
+    <text x="10" y="-60" font-family="Arial, sans-serif" font-size="14" fill="#00aa00">I</text>
+    
+    <!-- Сила Ампера (F) -->
+    <line x1="0" y1="0" x2="80" y2="0" stroke="#ff0000" stroke-width="3" marker-end="url(#arrowheadRed)" />
+    <text x="85" y="5" font-family="Arial, sans-serif" font-size="14" fill="#ff0000">F</text>
+    
+    <!-- Угол α -->
+    <path d="M 30 0 A 30 30 0 0 1 30 30" fill="none" stroke="#ff9900" stroke-width="1.5" />
+    <text x="40" y="25" font-family="Arial, sans-serif" font-size="12" fill="#ff9900">α</text>
   </g>
   
-  <!-- Сила F -->
-  <g id="force">
-    <line x1="150" y1="200" x2="250" y2="200" stroke="#ff6b6b" stroke-width="3" marker-end="url(#arrowhead-red)"/>
-    <text x="190" y="195" class="label">F</text>
+  <!-- Формула силы Ампера -->
+  <g transform="translate(250, 250)">
+    <rect x="-80" y="-20" width="160" height="40" fill="#f0f8ff" stroke="#0066ff" stroke-width="1" rx="5" />
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#000000">F = B·I·l·sin α</text>
   </g>
   
-  <!-- Угол α -->
-  <g id="angle">
-    <path d="M 170 200 A 20 20 0 0 0 170 180" fill="none" stroke="#ffffff" stroke-width="1"/>
-    <text x="175" y="185" class="small-label">α</text>
+  <!-- Схема взаимодействия параллельных токов -->
+  <g transform="translate(100, 280)">
+    <text x="0" y="-10" font-family="Arial, sans-serif" font-size="12" fill="#333333">Взаимодействие параллельных токов:</text>
+    
+    <!-- Первый проводник -->
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#d4a574" stroke-width="4" />
+    <line x1="0" y1="5" x2="0" y2="35" stroke="#e5c29f" stroke-width="2" />
+    <text x="-15" y="25" font-family="Arial, sans-serif" font-size="12" fill="#00aa00">I₁</text>
+    
+    <!-- Второй проводник -->
+    <line x1="40" y1="0" x2="40" y2="40" stroke="#d4a574" stroke-width="4" />
+    <line x1="40" y1="5" x2="40" y2="35" stroke="#e5c29f" stroke-width="2" />
+    <text x="45" y="25" font-family="Arial, sans-serif" font-size="12" fill="#00aa00">I₂</text>
+    
+    <!-- Силы взаимодействия -->
+    <line x1="0" y1="20" x2="-15" y2="20" stroke="#ff0000" stroke-width="2" marker-end="url(#arrowheadRed)" />
+    <line x1="40" y1="20" x2="55" y2="20" stroke="#ff0000" stroke-width="2" marker-end="url(#arrowheadRed)" />
+    
+    <!-- Магнитные поля -->
+    <path d="M 0 20 Q 20 10, 40 20" fill="none" stroke="#0066ff" stroke-width="1" stroke-dasharray="3,2" />
+    <path d="M 0 20 Q 20 30, 40 20" fill="none" stroke="#0066ff" stroke-width="1" stroke-dasharray="3,2" />
   </g>
   
-  <!-- Формула -->
-  <rect x="150" y="270" width="200" height="40" fill="#2a2a4e" rx="5" stroke="#4a4a6a" stroke-width="1"/>
-  <text x="250" y="295" text-anchor="middle" class="formula">F = BIl sin α</text>
-  
-  <!-- Дополнительные элементы для объема -->
-  <g id="field-lines" opacity="0.3">
-    <circle cx="200" cy="150" r="15" fill="none" stroke="#4ecdc4" stroke-width="1"/>
-    <circle cx="200" cy="150" r="25" fill="none" stroke="#4ecdc4" stroke-width="1"/>
-    <circle cx="300" cy="150" r="15" fill="none" stroke="#4ecdc4" stroke-width="1"/>
-    <circle cx="300" cy="150" r="25" fill="none" stroke="#4ecdc4" stroke-width="1"/>
+  <!-- Легенда -->
+  <g transform="translate(380, 100)">
+    <rect x="-10" y="-10" width="120" height="180" fill="#f9f9f9" stroke="#666666" stroke-width="1" rx="5" opacity="0.9" />
+    <text x="50" y="10" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="bold" fill="#333333">ЛЕГЕНДА</text>
+    
+    <!-- Магнитное поле -->
+    <line x1="0" y1="30" x2="30" y2="30" stroke="#0066ff" stroke-width="1.5" stroke-dasharray="5,5" />
+    <polygon points="30,28 35,30 30,32" fill="#0066ff" />
+    <text x="40" y="35" font-family="Arial, sans-serif" font-size="11" fill="#333333">B - магнитное поле</text>
+    
+    <!-- Сила тока -->
+    <line x1="0" y1="55" x2="25" y2="55" stroke="#00aa00" stroke-width="3" marker-end="url(#arrowheadGreen)" />
+    <text x="40" y="60" font-family="Arial, sans-serif" font-size="11" fill="#333333">I - сила тока</text>
+    
+    <!-- Сила Ампера -->
+    <line x1="0" y1="80" x2="25" y2="80" stroke="#ff0000" stroke-width="3" marker-end="url(#arrowheadRed)" />
+    <text x="40" y="85" font-family="Arial, sans-serif" font-size="11" fill="#333333">F - сила Ампера</text>
+    
+    <!-- Проводник -->
+    <rect x="0" y="100" width="25" height="10" fill="url(#wireGradient)" stroke="#8b4513" stroke-width="1" rx="2" />
+    <text x="40" y="110" font-family="Arial, sans-serif" font-size="11" fill="#333333">проводник</text>
+    
+    <!-- Угол -->
+    <path d="M 5 130 A 10 10 0 0 1 15 135" fill="none" stroke="#ff9900" stroke-width="1.5" />
+    <text x="20" y="135" font-family="Arial, sans-serif" font-size="11" fill="#333333">α - угол</text>
   </g>
   
-  <!-- Направление линий магнитного поля -->
-  <text x="460" y="205" class="small-label">×</text>
-  <text x="30" y="120" class="small-label">⊗</text>
+  <!-- Правило левой руки -->
+  <g transform="translate(250, 320)">
+    <rect x="-90" y="-15" width="180" height="50" fill="#f0f8ff" stroke="#0066ff" stroke-width="1" rx="5" />
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#333333">Правило левой руки:</text>
+    <text x="0" y="15" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333333">Четыре пальца вдоль тока, B в ладонь, F - большой палец</text>
+  </g>
   
-  <!-- Декоративные элементы -->
-  <g id="decorative" opacity="0.5">
-    <circle cx="50" cy="50" r="2" fill="#4ecdc4"/>
-    <circle cx="450" cy="50" r="2" fill="#4ecdc4"/>
-    <circle cx="50" cy="300" r="2" fill="#4ecdc4"/>
-    <circle cx="450" cy="300" r="2" fill="#4ecdc4"/>
+  <!-- Дополнительные элементы для детализации -->
+  <circle cx="250" cy="120" r="3" fill="#ff0000" />
+  <circle cx="250" cy="120" r="8" fill="none" stroke="#ff0000" stroke-width="1" opacity="0.5" />
+  
+  <!-- Координатные оси -->
+  <g transform="translate(250, 120)">
+    <line x1="-140" y1="0" x2="140" y2="0" stroke="#999999" stroke-width="1" stroke-dasharray="2,2" opacity="0.5" />
+    <line x1="0" y1="-80" x2="0" y2="100" stroke="#999999" stroke-width="1" stroke-dasharray="2,2" opacity="0.5" />
   </g>
 </svg>

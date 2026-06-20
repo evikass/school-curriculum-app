@@ -1,116 +1,135 @@
 <svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#4a69bd;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#6c5ce7;stop-opacity:1" />
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6f3ff;stop-opacity:1" />
     </linearGradient>
+    <linearGradient id="frameGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#357abd;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
   </defs>
   
   <!-- Фон -->
-  <rect width="500" height="350" fill="#1e272e"/>
+  <rect width="500" height="350" fill="url(#bgGradient)"/>
   
   <!-- Декоративная рамка -->
-  <rect x="10" y="10" width="480" height="330" fill="none" stroke="url(#borderGrad)" stroke-width="2" rx="5"/>
-  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#4a69bd" stroke-width="0.5" rx="3"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="url(#frameGradient)" stroke-width="4"/>
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#357abd" stroke-width="1" stroke-dasharray="5,3"/>
   
   <!-- Заголовок -->
-  <text x="250" y="35" text-anchor="middle" fill="#dfe6e9" font-family="Arial, sans-serif" font-size="20" font-weight="bold">
-    Гармонические колебания
-  </text>
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c5aa0">ГАРМОНИЧЕСКИЕ КОЛЕБАНИЯ</text>
+  <text x="250" y="65" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#4a90e2">ФИЗИКА · 11 КЛАСС</text>
   
-  <!-- Система координат -->
-  <line x1="50" y1="250" x2="450" y2="250" stroke="#b2bec3" stroke-width="1.5"/>
-  <line x1="50" y1="250" x2="50" y2="80" stroke="#b2bec3" stroke-width="1.5"/>
+  <!-- Номер урока -->
+  <text x="25" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c5aa0">Урок №12</text>
   
-  <!-- Стрелки осей -->
-  <path d="M445,245 L455,250 L445,255" stroke="#b2bec3" stroke-width="1.5" fill="none"/>
-  <path d="M45,85 L50,75 L55,85" stroke="#b2bec3" stroke-width="1.5" fill="none"/>
-  
-  <!-- Подписи осей -->
-  <text x="460" y="255" fill="#dfe6e9" font-family="Arial, sans-serif" font-size="14">t</text>
-  <text x="40" y="75" fill="#dfe6e9" font-family="Arial, sans-serif" font-size="14">y</text>
-  
-  <!-- Деления на оси времени -->
-  <g stroke="#636e72" stroke-width="0.5">
-    <line x1="100" y1="245" x2="100" y2="255"/>
-    <line x1="150" y1="245" x2="150" y2="255"/>
-    <line x1="200" y1="245" x2="200" y2="255"/>
-    <line x1="250" y1="245" x2="250" y2="255"/>
-    <line x1="300" y1="245" x2="300" y2="255"/>
-    <line x1="350" y1="245" x2="350" y2="255"/>
-    <line x1="400" y1="245" x2="400" y2="255"/>
-  </g>
-  
-  <!-- Деления на оси y -->
-  <g stroke="#636e72" stroke-width="0.5">
-    <line x1="45" y1="150" x2="55" y2="150"/>
-    <line x1="45" y1="200" x2="55" y2="200"/>
-    <line x1="45" y1="100" x2="55" y2="100"/>
-  </g>
-  
-  <!-- Сетка -->
-  <g stroke="#2d3436" stroke-width="0.3" stroke-dasharray="2,2">
-    <line x1="100" y1="80" x2="100" y2="250"/>
-    <line x1="150" y1="80" x2="150" y2="250"/>
-    <line x1="200" y1="80" x2="200" y2="250"/>
-    <line x1="250" y1="80" x2="250" y2="250"/>
-    <line x1="300" y1="80" x2="300" y2="250"/>
-    <line x1="350" y1="80" x2="350" y2="250"/>
-    <line x1="400" y1="80" x2="400" y2="250"/>
+  <!-- Основная область для графиков -->
+  <g transform="translate(50, 90)">
+    <!-- Сетка -->
+    <line x1="0" y1="100" x2="400" y2="100" stroke="#cccccc" stroke-width="1"/>
+    <line x1="0" y1="50" x2="400" y2="50" stroke="#dddddd" stroke-width="0.5"/>
+    <line x1="0" y1="150" x2="400" y2="150" stroke="#dddddd" stroke-width="0.5"/>
+    <line x1="100" y1="0" x2="100" y2="200" stroke="#dddddd" stroke-width="0.5"/>
+    <line x1="200" y1="0" x2="200" y2="200" stroke="#dddddd" stroke-width="0.5"/>
+    <line x1="300" y1="0" x2="300" y2="200" stroke="#dddddd" stroke-width="0.5"/>
     
-    <line x1="50" y1="150" x2="450" y2="150"/>
-    <line x1="50" y1="200" x2="450" y2="200"/>
-    <line x1="50" y1="100" x2="450" y2="100"/>
+    <!-- Ось координат -->
+    <line x1="0" y1="100" x2="400" y2="100" stroke="#333333" stroke-width="2"/>
+    <line x1="0" y1="0" x2="0" y2="200" stroke="#333333" stroke-width="2"/>
+    <polygon points="0,0 -5,10 5,10" fill="#333333"/>
+    <polygon points="400,100 390,95 390,105" fill="#333333"/>
+    
+    <!-- График смещения y = A cos(ωt+φ₀) -->
+    <path d="M 0,100 Q 50,50 100,50 T 200,100 T 300,150 T 400,150" fill="none" stroke="#e74c3c" stroke-width="3"/>
+    
+    <!-- График скорости v = -Aω sin(ωt+φ₀) -->
+    <path d="M 0,100 Q 50,150 100,150 T 200,100 T 300,50 T 400,50" fill="none" stroke="#3498db" stroke-width="2" stroke-dasharray="5,3"/>
+    
+    <!-- График ускорения a = -Aω² cos(ωt+φ₀) -->
+    <path d="M 0,100 Q 50,150 100,150 T 200,100 T 300,50 T 400,50" fill="none" stroke="#27ae60" stroke-width="2" stroke-dasharray="2,2"/>
+    
+    <!-- Точки максимума и минимума -->
+    <circle cx="100" cy="50" r="5" fill="#e74c3c"/>
+    <text x="110" y="45" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">A</text>
+    
+    <circle cx="300" cy="150" r="5" fill="#e74c3c"/>
+    <text x="310" y="155" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">-A</text>
+    
+    <!-- Точки нулей -->
+    <circle cx="0" cy="100" r="3" fill="#e74c3c"/>
+    <circle cx="200" cy="100" r="3" fill="#e74c3c"/>
+    <circle cx="400" cy="100" r="3" fill="#e74c3c"/>
+    
+    <!-- Подписи осей -->
+    <text x="410" y="105" font-family="Arial, sans-serif" font-size="12" fill="#333333">t</text>
+    <text x="-10" y="-5" font-family="Arial, sans-serif" font-size="12" fill="#333333">y</text>
+    
+    <!-- Период T -->
+    <line x1="0" y1="190" x2="200" y2="190" stroke="#666666" stroke-width="1"/>
+    <line x1="0" y1="185" x2="0" y2="195" stroke="#666666" stroke-width="1"/>
+    <line x1="200" y1="185" x2="200" y2="195" stroke="#666666" stroke-width="1"/>
+    <text x="100" y="205" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666666">T</text>
+    
+    <!-- Амплитуда A -->
+    <line x1="30" y1="50" x2="30" y2="100" stroke="#666666" stroke-width="1"/>
+    <line x1="25" y1="50" x2="35" y2="50" stroke="#666666" stroke-width="1"/>
+    <line x1="25" y1="100" x2="35" y2="100" stroke="#666666" stroke-width="1"/>
+    <text x="40" y="75" font-family="Arial, sans-serif" font-size="12" fill="#666666">A</text>
   </g>
   
-  <!-- Синусоида y = A cos(ωt) -->
-  <path d="M 50,150 
-           C 75,100 100,100 125,150
-           S 175,200 200,250
-           S 250,300 275,250
-           S 325,100 350,150
-           S 400,200 425,250
-           S 450,300 450,250" 
-        stroke="#00cec9" stroke-width="2.5" fill="none"/>
+  <!-- Формулы -->
+  <g transform="translate(50, 310)">
+    <text font-family="Arial, sans-serif" font-size="14" fill="#333333">
+      <tspan x="0" y="0" fill="#e74c3c">y = A cos(ωt+φ₀)</tspan>
+      <tspan x="150" y="0" fill="#3498db">v = -Aω sin(ωt+φ₀)</tspan>
+      <tspan x="300" y="0" fill="#27ae60">a = -Aω² cos(ωt+φ₀)</tspan>
+    </text>
+  </g>
   
-  <!-- Амплитуда A -->
-  <line x1="50" y1="150" x2="50" y2="250" stroke="#e17055" stroke-width="1" stroke-dasharray="5,3"/>
-  <line x1="45" y1="150" x2="55" y2="150" stroke="#e17055" stroke-width="1"/>
-  <text x="35" y="200" fill="#e17055" font-family="Arial, sans-serif" font-size="12">A</text>
+  <!-- Легенда -->
+  <g transform="translate(350, 100)">
+    <rect x="0" y="0" width="130" height="100" fill="white" stroke="#cccccc" stroke-width="1" rx="5" filter="url(#shadow)"/>
+    <text x="65" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#333333">Легенда</text>
+    
+    <line x1="10" y1="35" x2="40" y2="35" stroke="#e74c3c" stroke-width="3"/>
+    <text x="45" y="40" font-family="Arial, sans-serif" font-size="12" fill="#333333">Смещение y(t)</text>
+    
+    <line x1="10" y1="55" x2="40" y2="55" stroke="#3498db" stroke-width="2" stroke-dasharray="5,3"/>
+    <text x="45" y="60" font-family="Arial, sans-serif" font-size="12" fill="#333333">Скорость v(t)</text>
+    
+    <line x1="10" y1="75" x2="40" y2="75" stroke="#27ae60" stroke-width="2" stroke-dasharray="2,2"/>
+    <text x="45" y="80" font-family="Arial, sans-serif" font-size="12" fill="#333333">Ускорение a(t)</text>
+  </g>
   
-  <!-- Период T -->
-  <line x1="50" y1="260" x2="200" y2="260" stroke="#a29bfe" stroke-width="1" stroke-dasharray="5,3"/>
-  <line x1="50" y1="255" x2="50" y2="265" stroke="#a29bfe" stroke-width="1"/>
-  <line x1="200" y1="255" x2="200" y2="265" stroke="#a29bfe" stroke-width="1"/>
-  <text x="115" y="275" fill="#a29bfe" font-family="Arial, sans-serif" font-size="12">T</text>
+  <!-- Дополнительные пояснения -->
+  <g transform="translate(50, 110)">
+    <text font-family="Arial, sans-serif" font-size="11" fill="#666666">
+      <tspan x="0" y="0">A — амплитуда колебаний</tspan>
+      <tspan x="0" y="15">ω — циклическая частота</tspan>
+      <tspan x="0" y="30">φ₀ — начальная фаза</tspan>
+      <tspan x="0" y="45">T = 2π/ω — период колебаний</tspan>
+    </text>
+  </g>
   
-  <!-- Максимум -->
-  <circle cx="125" cy="100" r="3" fill="#00cec9"/>
-  <text x="130" y="95" fill="#dfe6e9" font-family="Arial, sans-serif" font-size="11">максимум</text>
+  <!-- Динамическая иллюстрация пружинного маятника -->
+  <g transform="translate(30, 120)">
+    <rect x="0" y="0" width="15" height="80" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+    <path d="M 7.5,0 L 7.5,20" stroke="#333333" stroke-width="2"/>
+    <path d="M 7.5,20 Q 2,30 7.5,40 Q 13,30 7.5,20" fill="none" stroke="#333333" stroke-width="2"/>
+    <path d="M 7.5,40 Q 2,50 7.5,60 Q 13,50 7.5,40" fill="none" stroke="#333333" stroke-width="2"/>
+    <path d="M 7.5,60 Q 2,70 7.5,80 Q 13,70 7.5,60" fill="none" stroke="#333333" stroke-width="2"/>
+    <circle cx="7.5" cy="90" r="10" fill="#e74c3c" stroke="#c0392b" stroke-width="1"/>
+    <text x="25" y="50" font-family="Arial, sans-serif" font-size="10" fill="#333333">m</text>
+  </g>
   
-  <!-- Минимум -->
-  <circle cx="275" cy="250" r="3" fill="#00cec9"/>
-  <text x="280" y="245" fill="#dfe6e9" font-family="Arial, sans-serif" font-size="11">минимум</text>
-  
-  <!-- Нули -->
-  <circle cx="50" cy="150" r="2" fill="#fd79a8"/>
-  <circle cx="200" cy="250" r="2" fill="#fd79a8"/>
-  <circle cx="350" cy="150" r="2" fill="#fd79a8"/>
-  <text x="55" y="145" fill="#dfe6e9" font-family="Arial, sans-serif" font-size="10">0</text>
-  
-  <!-- Формула -->
-  <text x="250" y="310" text-anchor="middle" fill="#dfe6e9" font-family="Arial, sans-serif" font-size="16">
-    y = A cos(ωt)
-  </text>
-  
-  <!-- Уравнение периода -->
-  <text x="250" y="325" text-anchor="middle" fill="#b2bec3" font-family="Arial, sans-serif" font-size="12">
-    T = 2π/ω
-  </text>
-  
-  <!-- Декоративные элементы -->
-  <circle cx="30" cy="30" r="2" fill="#6c5ce7" opacity="0.7"/>
-  <circle cx="470" cy="30" r="2" fill="#6c5ce7" opacity="0.7"/>
-  <circle cx="30" cy="320" r="2" fill="#6c5ce7" opacity="0.7"/>
-  <circle cx="470" cy="320" r="2" fill="#6c5ce7" opacity="0.7"/>
+  <!-- Индикатор фазы -->
+  <g transform="translate(420, 180)">
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#666666" stroke-width="2"/>
+    <line x1="0" y1="0" x2="0" y2="-20" stroke="#e74c3c" stroke-width="2" transform="rotate(45)"/>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666666">φ = ωt+φ₀</text>
+  </g>
 </svg>

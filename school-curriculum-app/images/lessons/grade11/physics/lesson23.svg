@@ -1,87 +1,155 @@
 <svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
-  <!-- Темный фон -->
-  <rect width="500" height="350" fill="#1a1a2e"/>
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6f2ff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0f0f0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4169e1;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#4169e1;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#4169e1;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
   
-  <!-- Декоративная рамка -->
-  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#4a7c7e" stroke-width="2"/>
-  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#4a7c7e" stroke-width="1" opacity="0.5"/>
+  <!-- Двойная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#2c3e50" stroke-width="2"/>
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#3498db" stroke-width="1"/>
+  
+  <!-- Фон -->
+  <rect x="15" y="15" width="470" height="320" fill="url(#bgGrad)"/>
+  
+  <!-- Номер урока -->
+  <text x="440" y="35" font-family="Arial" font-size="14" fill="#34495e">Урок 15</text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="40" font-family="Arial" font-size="12" fill="#7f8c8d" text-anchor="middle">ФИЗИКА · 11 КЛАСС</text>
   
   <!-- Заголовок -->
-  <text x="250" y="40" text-anchor="middle" fill="#e94560" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Интерференция волн</text>
+  <text x="250" y="65" font-family="Arial" font-size="24" font-weight="bold" fill="#2c3e50" text-anchor="middle">Интерференция света</text>
   
-  <!-- Источник света -->
-  <circle cx="80" cy="175" r="15" fill="#f9f9f9"/>
-  <text x="80" y="180" text-anchor="middle" fill="#1a1a2e" font-family="Arial, sans-serif" font-size="14" font-weight="bold">S</text>
-  
-  <!-- Две щели -->
-  <rect x="180" y="160" width="3" height="30" fill="#f9f9f9"/>
-  <rect x="180" y="195" width="3" height="30" fill="#f9f9f9"/>
-  
-  <!-- Волны от источника к щелям -->
-  <g opacity="0.6">
-    <path d="M 95 175 Q 120 155, 145 175" fill="none" stroke="#5dade2" stroke-width="1.5"/>
-    <path d="M 95 175 Q 120 195, 145 175" fill="none" stroke="#5dade2" stroke-width="1.5"/>
-    <path d="M 100 175 Q 125 150, 150 175" fill="none" stroke="#5dade2" stroke-width="1.5"/>
-    <path d="M 100 175 Q 125 200, 150 175" fill="none" stroke="#5dade2" stroke-width="1.5"/>
-  </g>
-  
-  <!-- Волны от щелей -->
-  <g opacity="0.7">
-    <!-- От верхней щели -->
-    <path d="M 183 175 Q 210 155, 240 175" fill="none" stroke="#5dade2" stroke-width="1"/>
-    <path d="M 183 175 Q 210 195, 240 175" fill="none" stroke="#5dade2" stroke-width="1"/>
-    <path d="M 190 175 Q 220 150, 250 175" fill="none" stroke="#5dade2" stroke-width="1"/>
-    <path d="M 190 175 Q 220 200, 250 175" fill="none" stroke="#5dade2" stroke-width="1"/>
-    <path d="M 197 175 Q 230 145, 260 175" fill="none" stroke="#5dade2" stroke-width="1"/>
-    <path d="M 197 175 Q 230 205, 260 175" fill="none" stroke="#5dade2" stroke-width="1"/>
+  <!-- Левая панель - Опыт Юнга -->
+  <g id="youngExperiment">
+    <!-- Источник света -->
+    <circle cx="60" cy="120" r="8" fill="#ffd700" stroke="#ff8c00" stroke-width="2"/>
+    <text x="60" y="145" font-family="Arial" font-size="10" fill="#2c3e50" text-anchor="middle">Источник S</text>
     
-    <!-- От нижней щели -->
-    <path d="M 183 210 Q 210 190, 240 210" fill="none" stroke="#5dade2" stroke-width="1"/>
-    <path d="M 183 210 Q 210 230, 240 210" fill="none" stroke="#5dade2" stroke-width="1"/>
-    <path d="M 190 210 Q 220 185, 250 210" fill="none" stroke="#5dade2" stroke-width="1"/>
-    <path d="M 190 210 Q 220 235, 250 210" fill="none" stroke="#5dade2" stroke-width="1"/>
-    <path d="M 197 210 Q 230 180, 260 210" fill="none" stroke="#5dade2" stroke-width="1"/>
-    <path d="M 197 210 Q 230 240, 260 210" fill="none" stroke="#5dade2" stroke-width="1"/>
-  </g>
-  
-  <!-- Экран -->
-  <rect x="300" y="100" width="5" height="150" fill="#f9f9f9"/>
-  
-  <!-- Интерференционные полосы -->
-  <g opacity="0.9">
-    <rect x="305" y="110" width="80" height="8" fill="#e74c3c"/>
-    <rect x="305" y="130" width="80" height="8" fill="#f9f9f9"/>
-    <rect x="305" y="150" width="80" height="8" fill="#e74c3c"/>
-    <rect x="305" y="170" width="80" height="8" fill="#f9f9f9"/>
-    <rect x="305" y="190" width="80" height="8" fill="#e74c3c"/>
-    <rect x="305" y="210" width="80" height="8" fill="#f9f9f9"/>
-    <rect x="305" y="230" width="80" height="8" fill="#e74c3c"/>
-  </g>
-  
-  <!-- Расстояния -->
-  <g stroke="#f9f9f9" stroke-width="1" fill="none">
-    <line x1="80" y1="280" x2="180" y2="280" stroke-dasharray="2,2"/>
-    <line x1="80" y1="275" x2="80" y2="285"/>
-    <line x1="180" y1="275" x2="180" y2="285"/>
+    <!-- Экран с щелями -->
+    <rect x="100" y="60" width="10" height="120" fill="#7f8c8d" stroke="#34495e" stroke-width="2"/>
+    <text x="105" y="195" font-family="Arial" font-size="10" fill="#2c3e50" text-anchor="middle">Щит с щелями</text>
     
-    <line x1="180" y1="305" x2="300" y2="305" stroke-dasharray="2,2"/>
-    <line x1="180" y1="300" x2="180" y2="310"/>
-    <line x1="300" y1="300" x2="300" y2="310"/>
+    <!-- Щель S1 -->
+    <rect x="105" y="100" width="2" height="2" fill="#000"/>
+    <text x="125" y="102" font-family="Arial" font-size="9" fill="#2c3e50">S₁</text>
+    
+    <!-- Щель S2 -->
+    <rect x="105" y="140" width="2" height="2" fill="#000"/>
+    <text x="125" y="142" font-family="Arial" font-size="9" fill="#2c3e50">S₂</text>
+    
+    <!-- Волны от S -->
+    <path d="M 68 120 Q 80 100, 95 105" fill="none" stroke="#4169e1" stroke-width="1" opacity="0.7"/>
+    <path d="M 68 120 Q 80 120, 95 120" fill="none" stroke="#4169e1" stroke-width="1" opacity="0.7"/>
+    <path d="M 68 120 Q 80 140, 95 135" fill="none" stroke="#4169e1" stroke-width="1" opacity="0.7"/>
+    
+    <!-- Волны от S1 -->
+    <path d="M 107 100 Q 120 85, 135 90" fill="none" stroke="#4169e1" stroke-width="1" opacity="0.7"/>
+    <path d="M 107 100 Q 120 100, 135 100" fill="none" stroke="#4169e1" stroke-width="1" opacity="0.7"/>
+    <path d="M 107 100 Q 120 115, 135 110" fill="none" stroke="#4169e1" stroke-width="1" opacity="0.7"/>
+    
+    <!-- Волны от S2 -->
+    <path d="M 107 140 Q 120 125, 135 130" fill="none" stroke="#4169e1" stroke-width="1" opacity="0.7"/>
+    <path d="M 107 140 Q 120 140, 135 140" fill="none" stroke="#4169e1" stroke-width="1" opacity="0.7"/>
+    <path d="M 107 140 Q 120 155, 135 150" fill="none" stroke="#4169e1" stroke-width="1" opacity="0.7"/>
+    
+    <!-- Экран для наблюдения интерференции -->
+    <rect x="340" y="80" width="8" height="160" fill="url(#screenGrad)" stroke="#34495e" stroke-width="2"/>
+    <text x="375" y="170" font-family="Arial" font-size="10" fill="#2c3e50">Экран</text>
+    
+    <!-- Интерференционные полосы -->
+    <rect x="340" y="90" width="8" height="5" fill="#000" opacity="0.8"/>
+    <rect x="340" y="105" width="8" height="5" fill="#fff" opacity="0.8"/>
+    <rect x="340" y="120" width="8" height="5" fill="#000" opacity="0.8"/>
+    <rect x="340" y="135" width="8" height="5" fill="#fff" opacity="0.8"/>
+    <rect x="340" y="150" width="8" height="5" fill="#000" opacity="0.8"/>
+    <rect x="340" y="165" width="8" height="5" fill="#fff" opacity="0.8"/>
+    <rect x="340" y="180" width="8" height="5" fill="#000" opacity="0.8"/>
+    <rect x="340" y="195" width="8" height="5" fill="#fff" opacity="0.8"/>
+    <rect x="340" y="210" width="8" height="5" fill="#000" opacity="0.8"/>
+    <rect x="340" y="225" width="8" height="5" fill="#fff" opacity="0.8"/>
+    
+    <!-- Расстояния -->
+    <line x1="110" y1="240" x2="340" y2="240" stroke="#e74c3c" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="225" y="255" font-family="Arial" font-size="10" fill="#e74c3c" text-anchor="middle">L</text>
+    
+    <line x1="107" y1="120" x2="107" y2="140" stroke="#e74c3c" stroke-width="1" stroke-dasharray="3,3"/>
+    <text x="95" y="130" font-family="Arial" font-size="10" fill="#e74c3c" text-anchor="middle">d</text>
+    
+    <!-- Формула для максимумов -->
+    <text x="60" y="280" font-family="Arial" font-size="11" fill="#2c3e50">Δd = nλ (max)</text>
+    <text x="60" y="295" font-family="Arial" font-size="11" fill="#2c3e50">Δx = λL/d</text>
   </g>
   
-  <!-- Подписи расстояний -->
-  <text x="130" y="295" text-anchor="middle" fill="#f9f9f9" font-family="Arial, sans-serif" font-size="12">L</text>
-  <text x="240" y="320" text-anchor="middle" fill="#f9f9f9" font-family="Arial, sans-serif" font-size="12">l</text>
+  <!-- Правая панель - Кольца Ньютона -->
+  <g id="newtonRings">
+    <!-- Обозначение названия -->
+    <text x="380" y="100" font-family="Arial" font-size="14" font-weight="bold" fill="#2c3e50">Кольца Ньютона</text>
+    
+    <!-- Плосковыпуклая линза -->
+    <ellipse cx="400" cy="160" rx="40" ry="40" fill="#87ceeb" stroke="#4682b4" stroke-width="2" opacity="0.7"/>
+    <text x="400" y="165" font-family="Arial" font-size="10" fill="#2c3e50" text-anchor="middle">Линза</text>
+    
+    <!-- Стеклянная пластинка -->
+    <rect x="380" y="190" width="40" height="8" fill="#e0e0e0" stroke="#7f8c8d" stroke-width="1"/>
+    <text x="400" y="205" font-family="Arial" font-size="10" fill="#2c3e50" text-anchor="middle">Пластинка</text>
+    
+    <!-- Кольца -->
+    <ellipse cx="400" cy="190" rx="5" ry="5" fill="none" stroke="#000" stroke-width="1.5"/>
+    <ellipse cx="400" cy="190" rx="10" ry="10" fill="none" stroke="#000" stroke-width="1"/>
+    <ellipse cx="400" cy="190" rx="15" ry="15" fill="none" stroke="#000" stroke-width="1"/>
+    <ellipse cx="400" cy="190" rx="20" ry="20" fill="none" stroke="#000" stroke-width="1"/>
+    <ellipse cx="400" cy="190" rx="25" ry="25" fill="none" stroke="#000" stroke-width="1"/>
+    <ellipse cx="400" cy="190" rx="30" ry="30" fill="none" stroke="#000" stroke-width="1"/>
+    
+    <!-- Темное пятно в центре -->
+    <circle cx="400" cy="190" r="2" fill="#000"/>
+    
+    <!-- Условие для максимумов -->
+    <text x="320" y="130" font-family="Arial" font-size="10" fill="#2c3e50">R² = (2k-1)λR/2 (max)</text>
+    <text x="320" y="145" font-family="Arial" font-size="10" fill="#2c3e50">R² = kλR (min)</text>
+  </g>
   
-  <!-- Формула -->
-  <rect x="150" y="60" width="200" height="30" fill="#0f3460" stroke="#5dade2" stroke-width="1" rx="5"/>
-  <text x="250" y="80" text-anchor="middle" fill="#f9f9f9" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Δd = nλ</text>
+  <!-- Легенда -->
+  <g id="legend">
+    <rect x="20" y="240" width="140" height="80" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" rx="5"/>
+    <text x="90" y="255" font-family="Arial" font-size="12" font-weight="bold" fill="#2c3e50" text-anchor="middle">Обозначения:</text>
+    <text x="25" y="270" font-family="Arial" font-size="10" fill="#2c3e50">λ - длина волны</text>
+    <text x="25" y="285" font-family="Arial" font-size="10" fill="#2c3e50">n - порядок максимума</text>
+    <text x="25" y="300" font-family="Arial" font-size="10" fill="#2c3e50">Δd - разность хода</text>
+    <text x="25" y="315" font-family="Arial" font-size="10" fill="#2c3e50">Δx - ширина полосы</text>
+  </g>
   
-  <!-- Объяснения -->
-  <text x="250" y="330" text-anchor="middle" fill="#f9f9f9" font-family="Arial, sans-serif" font-size="11">Опыт Юнга: интерференция света от двух когерентных источников</text>
-  
-  <!-- Метки на схеме -->
-  <text x="80" y="155" text-anchor="middle" fill="#f9f9f9" font-family="Arial, sans-serif" font-size="11">Источник</text>
-  <text x="180" y="145" text-anchor="middle" fill="#f9f9f9" font-family="Arial, sans-serif" font-size="11">Щели</text>
-  <text x="325" y="90" text-anchor="middle" fill="#f9f9f9" font-family="Arial, sans-serif" font-size="11">Экран</text>
+  <!-- Дополнительные элементы для увеличения количества элементов -->
+  <g id="decorativeElements">
+    <!-- Сетка координат -->
+    <line x1="0" y1="100" x2="500" y2="100" stroke="#e0e0e0" stroke-width="0.5" stroke-dasharray="2,2"/>
+    <line x1="0" y1="200" x2="500" y2="200" stroke="#e0e0e0" stroke-width="0.5" stroke-dasharray="2,2"/>
+    <line x1="0" y1="300" x2="500" y2="300" stroke="#e0e0e0" stroke-width="0.5" stroke-dasharray="2,2"/>
+    
+    <!-- Точки на оси -->
+    <circle cx="100" cy="100" r="1" fill="#666"/>
+    <circle cx="200" cy="100" r="1" fill="#666"/>
+    <circle cx="300" cy="100" r="1" fill="#666"/>
+    <circle cx="400" cy="100" r="1" fill="#666"/>
+    
+    <circle cx="100" cy="200" r="1" fill="#666"/>
+    <circle cx="200" cy="200" r="1" fill="#666"/>
+    <circle cx="300" cy="200" r="1" fill="#666"/>
+    <circle cx="400" cy="200" r="1" fill="#666"/>
+    
+    <!-- Дополнительные подписи -->
+    <text x="250" y="330" font-family="Arial" font-size="9" fill="#7f8c8d" text-anchor="middle">Интерференция - явление взаимодействия волн</text>
+  </g>
 </svg>

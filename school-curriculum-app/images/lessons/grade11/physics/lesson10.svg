@@ -1,90 +1,197 @@
 <svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Градиенты и определения -->
+  <defs>
+    <!-- Градиент для фона -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6f2ff;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Градиент для осей -->
+    <linearGradient id="axisGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#333;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#555;stop-opacity:0.8" />
+    </linearGradient>
+    
+    <!-- Градиент для кривой колебаний -->
+    <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1e88e5;stop-opacity:0.9" />
+      <stop offset="50%" style="stop-color:#42a5f5;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#64b5f6;stop-opacity:0.9" />
+    </linearGradient>
+    
+    <!-- Градиент для огибающей -->
+    <linearGradient id="envelopeGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e53935;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#ef5350;stop-opacity:0.8" />
+    </linearGradient>
+    
+    <!-- Градиент для зоны урока -->
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#7e57c2;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#9575cd;stop-opacity:0.9" />
+    </linearGradient>
+    
+    <!-- Декоративный узор -->
+    <pattern id="diagonalHatch" patternUnits="userSpaceOnUse" width="4" height="4">
+      <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" style="stroke:#ddd; stroke-width:0.5"/>
+    </pattern>
+  </defs>
+  
   <!-- Фон -->
-  <rect width="500" height="350" fill="#1a1a2e"/>
+  <rect x="0" y="0" width="500" height="350" fill="url(#bgGradient)"/>
   
   <!-- Декоративная рамка -->
-  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#eee" stroke-width="2" rx="5"/>
-  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#eee" stroke-width="1" rx="3" opacity="0.5"/>
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#666" stroke-width="2"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#999" stroke-width="1" stroke-dasharray="2,2"/>
   
-  <!-- Заголовок -->
-  <text x="250" y="35" text-anchor="middle" fill="#eee" font-family="Arial, sans-serif" font-size="22" font-weight="bold">Затухающие колебания</text>
+  <!-- Заголовок и подзаголовок -->
+  <rect x="50" y="15" width="400" height="35" fill="url(#headerGradient)" rx="5"/>
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">ФИЗИКА · 11 КЛАСС</text>
+  <text x="250" y="45" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Затухающие колебания</text>
   
-  <!-- Система координат -->
-  <g id="coordinates">
-    <!-- Ось X -->
-    <line x1="50" y1="250" x2="450" y2="250" stroke="#aaa" stroke-width="2"/>
-    <polygon points="450,250 440,245 440,255" fill="#aaa"/>
+  <!-- Номер урока -->
+  <circle cx="30" cy="32" r="12" fill="#ff9800"/>
+  <text x="30" y="37" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">12</text>
+  
+  <!-- Основная диаграмма -->
+  <g transform="translate(50, 80)">
+    <!-- Сетка -->
+    <g stroke="#ddd" stroke-width="0.5">
+      <line x1="0" y1="0" x2="0" y2="200"/>
+      <line x1="50" y1="0" x2="50" y2="200"/>
+      <line x1="100" y1="0" x2="100" y2="200"/>
+      <line x1="150" y1="0" x2="150" y2="200"/>
+      <line x1="200" y1="0" x2="200" y2="200"/>
+      <line x1="250" y1="0" x2="250" y2="200"/>
+      <line x1="300" y1="0" x2="300" y2="200"/>
+      <line x1="350" y1="0" x2="350" y2="200"/>
+      
+      <line x1="0" y1="50" x2="350" y2="50"/>
+      <line x1="0" y1="100" x2="350" y2="100"/>
+      <line x1="0" y1="150" x2="350" y2="150"/>
+    </g>
     
-    <!-- Ось Y -->
-    <line x1="50" y1="250" x2="50" y2="50" stroke="#aaa" stroke-width="2"/>
-    <polygon points="50,50 45,60 55,60" fill="#aaa"/>
+    <!-- Ось времени -->
+    <line x1="0" y1="100" x2="350" y2="100" stroke="url(#axisGradient)" stroke-width="2"/>
+    <polygon points="350,100 360,95 360,105" fill="#333"/>
+    <text x="365" y="105" font-family="Arial, sans-serif" font-size="12" fill="#333">t</text>
     
-    <!-- Подписи осей -->
-    <text x="460" y="255" fill="#aaa" font-family="Arial" font-size="14">t</text>
-    <text x="35" y="45" fill="#aaa" font-family="Arial" font-size="14">A</text>
+    <!-- Ось амплитуды -->
+    <line x1="0" y1="0" x2="0" y2="200" stroke="url(#axisGradient)" stroke-width="2"/>
+    <polygon points="0,0 -5,10 5,10" fill="#333"/>
+    <text x="-10" y="-5" font-family="Arial, sans-serif" font-size="12" fill="#333">A</text>
     
-    <!-- Шкала времени -->
-    <text x="50" y="270" fill="#aaa" font-family="Arial" font-size="12">0</text>
-    <text x="150" y="270" fill="#aaa" font-family="Arial" font-size="12">T</text>
-    <text x="250" y="270" fill="#aaa" font-family="Arial" font-size="12">2T</text>
-    <text x="350" y="270" fill="#aaa" font-family="Arial" font-size="12">3T</text>
-    <text x="420" y="270" fill="#aaa" font-family="Arial" font-size="12">4T</text>
+    <!-- Разметка осей -->
+    <text x="50" y="115" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle">T</text>
+    <text x="100" y="115" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle">2T</text>
+    <text x="150" y="115" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle">3T</text>
+    <text x="200" y="115" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle">4T</text>
+    <text x="250" y="115" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle">5T</text>
+    <text x="300" y="115" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle">6T</text>
     
-    <!-- Шкала амплитуды -->
-    <text x="35" y="255" fill="#aaa" font-family="Arial" font-size="12">0</text>
-    <text x="30" y="200" fill="#aaa" font-family="Arial" font-size="12">A₀</text>
-    <text x="30" y="150" fill="#aaa" font-family="Arial" font-size="12">A₀/2</text>
+    <text x="-10" y="25" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle">A₀</text>
+    <text x="-10" y="50" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle">A₀/e</text>
+    <text x="-10" y="75" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle">A₀/e²</text>
+    
+    <!-- Верхняя огибающая -->
+    <path d="M 0,0 Q 50,25 100,50 T 200,100 T 300,150" fill="none" stroke="url(#envelopeGradient)" stroke-width="2" stroke-dasharray="5,3"/>
+    
+    <!-- Нижняя огибающая -->
+    <path d="M 0,200 Q 50,175 100,150 T 200,100 T 300,50" fill="none" stroke="url(#envelopeGradient)" stroke-width="2" stroke-dasharray="5,3"/>
+    
+    <!-- Кривая затухающих колебаний -->
+    <path d="M 0,100 C 10,50 20,50 30,100 S 50,150 60,100 S 80,50 90,100 S 110,150 120,100 S 140,50 150,100 S 170,150 180,100 S 200,50 210,100 S 230,150 240,100 S 260,50 270,100 S 290,150 300,100" fill="none" stroke="url(#waveGradient)" stroke-width="3"/>
+    
+    <!-- Точки на кривой -->
+    <circle cx="0" cy="100" r="3" fill="#1e88e5"/>
+    <circle cx="60" cy="100" r="3" fill="#1e88e5"/>
+    <circle cx="120" cy="100" r="3" fill="#1e88e5"/>
+    <circle cx="180" cy="100" r="3" fill="#1e88e5"/>
+    <circle cx="240" cy="100" r="3" fill="#1e88e5"/>
+    <circle cx="300" cy="100" r="3" fill="#1e88e5"/>
+    
+    <!-- Подпись огибающей -->
+    <text x="30" y="20" font-family="Arial, sans-serif" font-size="11" fill="#e53935">A₀·e^(-βt)</text>
+    
+    <!-- Формула затухания -->
+    <rect x="10" y="160" width="130" height="30" fill="white" stroke="#ddd" rx="3"/>
+    <text x="75" y="180" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">A(t) = A₀·e^(-βt)</text>
   </g>
   
-  <!-- Огибающая e^(-βt) -->
-  <path d="M 50,150 Q 100,160 150,180 T 250,210 Q 300,225 350,235 T 450,245" 
-        fill="none" stroke="#4cc9f0" stroke-width="2" stroke-dasharray="5,3" opacity="0.8"/>
-  
-  <path d="M 50,150 Q 100,140 150,120 T 250,90 Q 300,75 350,65 T 450,55" 
-        fill="none" stroke="#4cc9f0" stroke-width="2" stroke-dasharray="5,3" opacity="0.8"/>
-  
-  <!-- Формула огибающей -->
-  <text x="380" y="100" fill="#4cc9f0" font-family="Arial" font-size="14">A₀·e^(-βt)</text>
-  
-  <!-- График затухающих колебаний -->
-  <path d="M 50,150 
-           C 60,130 70,170 80,150
-           C 90,130 100,170 110,150
-           C 120,130 130,170 140,150
-           C 150,130 160,170 170,150
-           C 180,130 190,170 200,150
-           C 210,130 220,170 230,150
-           C 240,130 250,170 260,150
-           C 270,130 280,170 290,150
-           C 300,130 310,170 320,150
-           C 330,130 340,170 350,150
-           C 360,130 370,170 380,150
-           C 390,130 400,170 410,150
-           C 420,130 430,170 440,150" 
-        fill="none" stroke="#f72585" stroke-width="3"/>
-  
-  <!-- Периодические отметки -->
-  <circle cx="150" cy="150" r="3" fill="#f72585"/>
-  <circle cx="250" cy="150" r="3" fill="#f72585"/>
-  <circle cx="350" cy="150" r="3" fill="#f72585"/>
-  
-  <!-- Декоративные элементы -->
-  <g opacity="0.3">
-    <circle cx="80" cy="80" r="2" fill="#4cc9f0"/>
-    <circle cx="120" cy="90" r="2" fill="#4cc9f0"/>
-    <circle cx="160" cy="70" r="2" fill="#4cc9f0"/>
-    <circle cx="200" cy="85" r="2" fill="#4cc9f0"/>
-    <circle cx="240" cy="75" r="2" fill="#4cc9f0"/>
-    <circle cx="280" cy="95" r="2" fill="#4cc9f0"/>
-    <circle cx="320" cy="80" r="2" fill="#4cc9f0"/>
-    <circle cx="360" cy="90" r="2" fill="#4cc9f0"/>
-    <circle cx="400" cy="85" r="2" fill="#4cc9f0"/>
+  <!-- Легенда и объяснения -->
+  <g transform="translate(250, 200)">
+    <rect x="0" y="0" width="230" height="120" fill="white" stroke="#999" stroke-width="1" rx="5" opacity="0.9"/>
+    <text x="115" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Параметры затухания</text>
+    
+    <!-- Показатель затухания -->
+    <circle cx="15" cy="40" r="3" fill="#e53935"/>
+    <text x="25" y="45" font-family="Arial, sans-serif" font-size="11" fill="#333">β — показатель затухания</text>
+    
+    <!-- Коэффициент затухания -->
+    <circle cx="15" cy="60" r="3" fill="#ff9800"/>
+    <text x="25" y="65" font-family="Arial, sans-serif" font-size="11" fill="#333">λ = βT — коэффициент затухания</text>
+    
+    <!-- Добротность -->
+    <circle cx="15" cy="80" r="3" fill="#4caf50"/>
+    <text x="25" y="85" font-family="Arial, sans-serif" font-size="11" fill="#333">Q = π/λ — добротность колебаний</text>
+    
+    <!-- Период -->
+    <circle cx="15" cy="100" r="3" fill="#2196f3"/>
+    <text x="25" y="105" font-family="Arial, sans-serif" font-size="11" fill="#333">T — период колебаний</text>
   </g>
   
-  <!-- Поясняющий текст -->
-  <text x="250" y="300" text-anchor="middle" fill="#aaa" font-family="Arial" font-size="12">Закон затухания: A(t) = A₀·e^(-βt)·cos(ωt)</text>
+  <!-- Дополнительная информация -->
+  <g transform="translate(50, 200)">
+    <rect x="0" y="0" width="180" height="120" fill="white" stroke="#999" stroke-width="1" rx="5" opacity="0.9"/>
+    <text x="90" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Характеристики</text>
+    
+    <!-- Критическое затухание -->
+    <rect x="10" y="30" width="160" height="20" fill="#fff3e0" stroke="#ff9800" stroke-width="0.5"/>
+    <text x="90" y="45" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">Критическое затухание: β = ω₀</text>
+    
+    <!-- Апериодический режим -->
+    <rect x="10" y="55" width="160" height="20" fill="#e8f5e9" stroke="#4caf50" stroke-width="0.5"/>
+    <text x="90" y="70" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">Апериодический режим: β > ω₀</text>
+    
+    <!-- Колебательный режим -->
+    <rect x="10" y="80" width="160" height="20" fill="#e3f2fd" stroke="#2196f3" stroke-width="0.5"/>
+    <text x="90" y="95" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">Колебательный режим: β < ω₀</text>
+    
+    <!-- Время релаксации -->
+    <rect x="10" y="105" width="160" height="20" fill="#fce4ec" stroke="#e91e63" stroke-width="0.5"/>
+    <text x="90" y="120" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">Время релаксации: τ = 1/β</text>
+  </g>
   
-  <!-- Указатель на β -->
-  <line x1="380" y1="100" x2="350" y2="120" stroke="#4cc9f0" stroke-width="1"/>
-  <text x="345" y="115" fill="#4cc9f0" font-family="Arial" font-size="12">β</text>
+  <!-- Дополнительные элементы оформления -->
+  <g>
+    <!-- Угол между осями -->
+    <path d="M 50,280 L 70,280 L 70,260" fill="none" stroke="#666" stroke-width="1"/>
+    <text x="60" y="275" font-family="Arial, sans-serif" font-size="9" fill="#666">90°</text>
+    
+    <!-- Вектор времени -->
+    <line x1="80" y1="280" x2="120" y2="280" stroke="#2196f3" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="100" y="275" font-family="Arial, sans-serif" font-size="10" fill="#2196f3" text-anchor="middle">Δt</text>
+    
+    <!-- Вектор амплитуды -->
+    <line x1="80" y1="280" x2="80" y2="240" stroke="#e53935" stroke-width="2" marker-end="url(#arrowhead2)"/>
+    <text x="65" y="260" font-family="Arial, sans-serif" font-size="10" fill="#e53935" text-anchor="middle">ΔA</text>
+  </g>
+  
+  <!-- Стрелки для векторов -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2196f3"/>
+    </marker>
+    <marker id="arrowhead2" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e53935"/>
+    </marker>
+  </defs>
+  
+  <!-- Дополнительные формулы -->
+  <g transform="translate(320, 300)">
+    <rect x="0" y="0" width="160" height="40" fill="white" stroke="#999" stroke-width="1" rx="3" opacity="0.9"/>
+    <text x="80" y="15" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">Уравнение движения:</text>
+    <text x="80" y="30" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">x(t) = A₀·e^(-βt)·cos(ωt + φ)</text>
+  </g>
 </svg>

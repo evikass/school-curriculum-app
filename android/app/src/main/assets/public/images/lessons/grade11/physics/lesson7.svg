@@ -1,93 +1,141 @@
 <svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
-  <!-- Темный фон -->
-  <rect width="500" height="350" fill="#1a1a2e"/>
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d1e7f0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="coilGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffd166;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4ecdc4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="fieldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6c5ce7;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#a29bfe;stop-opacity:0.3" />
+    </linearGradient>
+    <linearGradient id="hysteresisGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff7675;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#fdcb6e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6c5ce7;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
   
-  <!-- Декоративная рамка -->
-  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#4a7c7e" stroke-width="2" rx="5"/>
-  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#4a7c7e" stroke-width="1" rx="3" opacity="0.5"/>
+  <!-- Фоновая панель -->
+  <rect width="500" height="350" fill="url(#bgGrad)" />
+  
+  <!-- Двойная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#2d3436" stroke-width="2" />
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#636e72" stroke-width="1" />
   
   <!-- Заголовок -->
-  <text x="250" y="40" text-anchor="middle" fill="#eee" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Энергия магнитного поля</text>
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2d3436">Энергия магнитного поля</text>
+  <text x="250" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#636e72">ФИЗИКА · 11 КЛАСС</text>
+  <text x="460" y="30" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#636e72">Урок №23</text>
   
-  <!-- Катушка -->
-  <g id="coil">
-    <!-- Обводки катушки -->
-    <ellipse cx="150" cy="150" rx="40" ry="8" fill="none" stroke="#8b7355" stroke-width="2"/>
-    <ellipse cx="150" cy="160" rx="40" ry="8" fill="none" stroke="#8b7355" stroke-width="2"/>
-    <ellipse cx="150" cy="170" rx="40" ry="8" fill="none" stroke="#8b7355" stroke-width="2"/>
-    <ellipse cx="150" cy="180" rx="40" ry="8" fill="none" stroke="#8b7355" stroke-width="2"/>
-    <ellipse cx="150" cy="190" rx="40" ry="8" fill="none" stroke="#8b7355" stroke-width="2"/>
-    <ellipse cx="150" cy="200" rx="40" ry="8" fill="none" stroke="#8b7355" stroke-width="2"/>
+  <!-- Левая панель: Катушка с током -->
+  <g id="coil-panel">
+    <rect x="20" y="70" width="210" height="250" rx="5" fill="white" fill-opacity="0.8" stroke="#636e72" stroke-width="1" />
+    <text x="125" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2d3436">Катушка индуктивности</text>
     
-    <!-- Провод катушки -->
-    <path d="M110,150 Q110,125 150,125 Q190,125 190,150 Q190,175 150,175 Q110,175 110,200 Q110,225 150,225 Q190,225 190,200" 
-          fill="none" stroke="#cd853f" stroke-width="3"/>
-    
-    <!-- Магнитные линии -->
-    <g id="field-lines">
-      <path d="M190,150 Q220,150 220,175 Q220,200 190,200" fill="none" stroke="#00ffff" stroke-width="1.5" opacity="0.7"/>
-      <path d="M190,155 Q215,155 215,175 Q215,195 190,195" fill="none" stroke="#00ffff" stroke-width="1.5" opacity="0.7"/>
-      <path d="M190,160 Q210,160 210,175 Q210,190 190,190" fill="none" stroke="#00ffff" stroke-width="1.5" opacity="0.7"/>
-      <path d="M190,165 Q205,165 205,175 Q205,185 190,185" fill="none" stroke="#00ffff" stroke-width="1.5" opacity="0.7"/>
-      <path d="M190,170 Q200,170 200,175 Q200,180 190,180" fill="none" stroke="#00ffff" stroke-width="1.5" opacity="0.7"/>
+    <!-- Катушка -->
+    <g id="coil" transform="translate(125, 170)">
+      <ellipse cx="0" cy="0" rx="60" ry="40" fill="url(#fieldGrad)" opacity="0.5" />
+      <path d="M -50,-30 Q -30,-30 -20,-25 Q -10,-20 0,-15 Q 10,-10 20,-5 Q 30,0 50,0" fill="none" stroke="url(#coilGrad)" stroke-width="3" />
+      <path d="M -50,-20 Q -30,-20 -20,-15 Q -10,-10 0,-5 Q 10,0 20,5 Q 30,10 50,10" fill="none" stroke="url(#coilGrad)" stroke-width="3" />
+      <path d="M -50,-10 Q -30,-10 -20,-5 Q -10,0 0,5 Q 10,10 20,15 Q 30,20 50,20" fill="none" stroke="url(#coilGrad)" stroke-width="3" />
+      <path d="M -50,0 Q -30,0 -20,5 Q -10,10 0,15 Q 10,20 20,25 Q 30,30 50,30" fill="none" stroke="url(#coilGrad)" stroke-width="3" />
+      <path d="M -50,10 Q -30,10 -20,15 Q -10,20 0,25 Q 10,30 20,35 Q 30,40 50,40" fill="none" stroke="url(#coilGrad)" stroke-width="3" />
       
-      <path d="M110,150 Q80,150 80,175 Q80,200 110,200" fill="none" stroke="#00ffff" stroke-width="1.5" opacity="0.7"/>
-      <path d="M110,155 Q85,155 85,175 Q85,195 110,195" fill="none" stroke="#00ffff" stroke-width="1.5" opacity="0.7"/>
-      <path d="M110,160 Q90,160 90,175 Q90,190 110,190" fill="none" stroke="#00ffff" stroke-width="1.5" opacity="0.7"/>
-      <path d="M110,165 Q95,165 95,175 Q95,185 110,185" fill="none" stroke="#00ffff" stroke-width="1.5" opacity="0.7"/>
-      <path d="M110,170 Q100,170 100,175 Q100,180 110,180" fill="none" stroke="#00ffff" stroke-width="1.5" opacity="0.7"/>
+      <!-- Стрелки тока -->
+      <path d="M 60,-25 L 70,-25 L 65,-30 M 70,-25 L 65,-20" stroke="#2d3436" stroke-width="2" fill="none" />
+      <path d="M -60,25 L -70,25 L -65,30 M -70,25 L -65,20" stroke="#2d3436" stroke-width="2" fill="none" />
+      <text x="75" y="-22" font-family="Arial, sans-serif" font-size="10" fill="#2d3436">I</text>
+      
+      <!-- Плотность энергии -->
+      <text x="0" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2d3436">w = B²/(2μ₀)</text>
+      <text x="0" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#636e72">Плотность энергии</text>
     </g>
     
-    <!-- Стрелки направления поля -->
-    <path d="M220,165 L235,165 M230,160 L235,165 L230,170" fill="none" stroke="#00ffff" stroke-width="2"/>
-    <path d="M80,185 L65,185 M70,180 L65,185 L70,190" fill="none" stroke="#00ffff" stroke-width="2"/>
+    <!-- Формулы энергии -->
+    <text x="30" y="270" font-family="Arial, sans-serif" font-size="11" fill="#2d3436">W = LI²/2</text>
+    <text x="30" y="285" font-family="Arial, sans-serif" font-size="11" fill="#2d3436">W = ΦI/2</text>
+    <text x="30" y="300" font-family="Arial, sans-serif" font-size="11" fill="#2d3436">W = ∫(B²/2μ₀)dV</text>
   </g>
   
-  <!-- Формула энергии -->
-  <text x="150" y="270" text-anchor="middle" fill="#eee" font-family="Arial, sans-serif" font-size="16">w = B²/(2μ₀)</text>
-  
-  <!-- Петля гистерезиса -->
-  <g id="hysteresis" transform="translate(300, 100)">
-    <!-- Оси -->
-    <line x1="20" y1="150" x2="180" y2="150" stroke="#aaa" stroke-width="1.5"/>
-    <line x1="100" y1="20" x2="100" y2="150" stroke="#aaa" stroke-width="1.5"/>
+  <!-- Правая панель: Петля гистерезиса -->
+  <g id="hysteresis-panel">
+    <rect x="250" y="70" width="230" height="250" rx="5" fill="white" fill-opacity="0.8" stroke="#636e72" stroke-width="1" />
+    <text x="365" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2d3436">Петля гистерезиса</text>
     
-    <!-- Стрелки осей -->
-    <path d="M175,150 L180,150 L175,145 M175,150 L180,150 L175,155" fill="none" stroke="#aaa" stroke-width="1.5"/>
-    <path d="M100,25 L100,20 L95,25 M100,20 L100,25 L105,25" fill="none" stroke="#aaa" stroke-width="1.5"/>
+    <!-- Координаты -->
+    <g transform="translate(365, 200)">
+      <line x1="-80" y1="0" x2="80" y2="0" stroke="#2d3436" stroke-width="1" />
+      <line x1="0" y1="-80" x2="0" y2="80" stroke="#2d3436" stroke-width="1" />
+      <text x="85" y="5" font-family="Arial, sans-serif" font-size="10" fill="#2d3436">H</text>
+      <text x="5" y="-85" font-family="Arial, sans-serif" font-size="10" fill="#2d3436">B</text>
+      
+      <!-- Петля гистерезиса -->
+      <path d="M -60,-20 Q -60,20 0,50 Q 60,20 60,-20 Q 60,-60 0,-70 Q -60,-60 -60,-20" 
+            fill="none" stroke="url(#hysteresisGrad)" stroke-width="2.5" />
+      
+      <!-- Точки -->
+      <circle cx="0" cy="50" r="3" fill="#e17055" />
+      <circle cx="0" cy="-70" r="3" fill="#e17055" />
+      <circle cx="60" cy="0" r="3" fill="#74b9ff" />
+      <circle cx="-60" cy="0" r="3" fill="#74b9ff" />
+      
+      <!-- Подписи точек -->
+      <text x="5" y="55" font-family="Arial, sans-serif" font-size="8" fill="#e17055">Bₛ</text>
+      <text x="5" y="-75" font-family="Arial, sans-serif" font-size="8" fill="#e17055">-Bₛ</text>
+      <text x="65" y="5" font-family="Arial, sans-serif" font-size="8" fill="#74b9ff">Hc</text>
+      <text x="-75" y="5" font-family="Arial, sans-serif" font-size="8" fill="#74b9ff">-Hc</text>
+      
+      <!-- Точка Кюри -->
+      <circle cx="0" cy="-95" r="4" fill="#ff6b6b" />
+      <line x1="0" y1="-80" x2="0" y2="-95" stroke="#ff6b6b" stroke-width="1" stroke-dasharray="2,2" />
+      <text x="5" y="-95" font-family="Arial, sans-serif" font-size="8" fill="#ff6b6b">Tc</text>
+      
+      <!-- Область ферромагнетика -->
+      <path d="M -50,-50 L 50,-50 L 50,-30 L 50,30 L 50,50 L -50,50 L -50,30 L -50,-30 Z" 
+            fill="#a29bfe" fill-opacity="0.2" stroke="#6c5ce7" stroke-width="1" stroke-dasharray="3,3" />
+      <text x="0" y="-55" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6c5ce7">Ферромагнетик</text>
+      
+      <!-- Область парамагнетика -->
+      <path d="M -60,-100 L 60,-100 L 60,-60 L 60,-50 L -60,-50 L -60,-60 Z" 
+            fill="#ffeaa7" fill-opacity="0.2" stroke="#fdcb6e" stroke-width="1" stroke-dasharray="3,3" />
+      <text x="0" y="-105" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#fdcb6e">Парамагнетик</text>
+    </g>
     
-    <!-- Петля гистерезиса -->
-    <path d="M60,120 Q40,80 60,60 Q100,40 140,60 Q160,80 140,100 Q120,120 100,120 Q80,120 60,120" 
-          fill="none" stroke="#ff6b6b" stroke-width="2.5"/>
-    
-    <!-- Метки осей -->
-    <text x="190" y="155" fill="#aaa" font-family="Arial, sans-serif" font-size="12">H</text>
-    <text x="105" y="15" fill="#aaa" font-family="Arial, sans-serif" font-size="12">B</text>
-    
-    <!-- Подписи петли -->
-    <text x="70" y="130" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="10">B<sub>r</sub></text>
-    <text x="140" y="130" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="10">-B<sub>r</sub></text>
-    <text x="50" y="65" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="10">H<sub>c</sub></text>
-    <text x="145" y="65" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="10">-H<sub>c</sub></text>
+    <!-- Объяснение -->
+    <text x="260" y="290" font-family="Arial, sans-serif" font-size="10" fill="#2d3436">Точка Кюри: температура перехода</text>
+    <text x="260" y="305" font-family="Arial, sans-serif" font-size="10" fill="#2d3436">из ферромагнетика в парамагнетик</text>
   </g>
   
-  <!-- Дополнительные элементы -->
-  <g id="annotations">
-    <!-- Указатель на катушку -->
-    <line x1="250" y1="170" x2="210" y2="170" stroke="#eee" stroke-width="1" stroke-dasharray="3,3"/>
-    <text x="255" y="175" fill="#eee" font-family="Arial, sans-serif" font-size="12">Катушка</text>
-    
-    <!-- Указатель на петлю -->
-    <line x1="280" y1="200" x2="380" y2="170" stroke="#eee" stroke-width="1" stroke-dasharray="3,3"/>
-    <text x="285" y="205" fill="#eee" font-family="Arial, sans-serif" font-size="12">Петля гистерезиса</text>
+  <!-- Нижняя панель: Примеры расчетов -->
+  <g id="calculation-panel">
+    <rect x="20" y="330" width="460" height="15" rx="3" fill="#dfe6e9" fill-opacity="0.7" stroke="#636e72" stroke-width="1" />
+    <text x="250" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2d3436">
+      Пример: Для катушки с N=1000 витков, I=2A, S=10⁻² м², l=0.2 м → W = 1.26×10⁻³ Дж
+    </text>
   </g>
   
-  <!-- Дополнительные формулы -->
-  <text x="250" y="300" text-anchor="middle" fill="#aaa" font-family="Arial, sans-serif" font-size="14">W = ∫ w dV = ∫ (B²/2μ₀) dV</text>
+  <!-- Дополнительные элементы подписей -->
+  <text x="85" y="200" font-family="Arial, sans-serif" font-size="10" fill="#2d3436" transform="rotate(-15 85 200)">Намагничивающая сила</text>
+  <text x="165" y="200" font-family="Arial, sans-serif" font-size="10" fill="#2d3436" transform="rotate(15 165 200)">Индукция</text>
   
-  <!-- Декоративные элементы -->
-  <circle cx="30" cy="30" r="3" fill="#4a7c7e" opacity="0.5"/>
-  <circle cx="470" cy="30" r="3" fill="#4a7c7e" opacity="0.5"/>
-  <circle cx="30" cy="320" r="3" fill="#4a7c7e" opacity="0.5"/>
-  <circle cx="470" cy="320" r="3" fill="#4a7c7e" opacity="0.5"/>
+  <!-- Легенда -->
+  <g id="legend" transform="translate(440, 100)">
+    <rect x="-10" y="-10" width="60" height="80" rx="3" fill="white" fill-opacity="0.9" stroke="#636e72" stroke-width="1" />
+    <text x="20" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#2d3436">Легенда</text>
+    <circle cx="5" cy="15" r="3" fill="#e17055" />
+    <text x="15" y="18" font-family="Arial, sans-serif" font-size="8" fill="#2d3436">Bₛ - остаточная</text>
+    <circle cx="5" cy="30" r="3" fill="#74b9ff" />
+    <text x="15" y="33" font-family="Arial, sans-serif" font-size="8" fill="#2d3436">Hc - коэрцитивная</text>
+    <circle cx="5" cy="45" r="3" fill="#ff6b6b" />
+    <text x="15" y="48" font-family="Arial, sans-serif" font-size="8" fill="#2d3436">Tc - точка Кюри</text>
+    <text x="5" y="65" font-family="Arial, sans-serif" font-size="8" fill="#2d3436">μ₀ - 4π×10⁻⁷ Гн/м</text>
+  </g>
 </svg>

@@ -1,112 +1,173 @@
 <svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Градиенты -->
   <defs>
-    <linearGradient id="lensGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#e0f2fe;stop-opacity:0.8" />
-      <stop offset="100%" style="stop-color:#7dd3fc;stop-opacity:0.6" />
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6f2ff;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="frameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#f97316;stop-opacity:1" />
+    
+    <linearGradient id="objGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4682b4;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#5f9ea0;stop-opacity:0.8" />
+    </linearGradient>
+    
+    <linearGradient id="okGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#cd853f;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#daa520;stop-opacity:0.8" />
+    </linearGradient>
+    
+    <linearGradient id="refrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#9370db;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#8a2be2;stop-opacity:0.8" />
     </linearGradient>
   </defs>
   
-  <!-- Темный фон -->
-  <rect width="500" height="350" fill="#0f172a"/>
+  <!-- Фон -->
+  <rect x="0" y="0" width="500" height="350" fill="url(#bgGrad)" />
   
   <!-- Декоративная рамка -->
-  <rect x="10" y="10" width="480" height="330" fill="none" stroke="url(#frameGrad)" stroke-width="3" rx="5"/>
-  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#475569" stroke-width="1" rx="3"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#2c3e50" stroke-width="2" />
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#34495e" stroke-width="1" />
   
   <!-- Заголовок -->
-  <text x="250" y="40" text-anchor="middle" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Оптические приборы: Микроскоп</text>
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#2c3e50">ОПТИЧЕСКИЕ ПРИБОРЫ</text>
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#7f8c8d">ФИЗИКА · 11 КЛАСС</text>
   
-  <!-- Основная ось -->
-  <line x1="50" y1="250" x2="450" y2="250" stroke="#64748b" stroke-width="1" stroke-dasharray="5,5"/>
+  <!-- Номер урока -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c">Урок 12</text>
   
-  <!-- Объектив -->
-  <g id="objective">
-    <ellipse cx="120" cy="250" rx="25" ry="60" fill="url(#lensGrad)" stroke="#38bdf8" stroke-width="2"/>
-    <line x1="95" y1="250" x2="145" y2="250" stroke="#38bdf8" stroke-width="1"/>
-    <text x="120" y="330" text-anchor="middle" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="14">Объектив</text>
-    <text x="120" y="345" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="12">f₁</text>
+  <!-- Схема микроскопа -->
+  <g transform="translate(50, 80)">
+    <!-- Ось -->
+    <line x1="0" y1="80" x2="300" y2="80" stroke="#34495e" stroke-width="1" stroke-dasharray="2,2" />
+    
+    <!-- Объектив микроскопа -->
+    <path d="M 30,40 Q 50,20 70,40 L 70,120 Q 50,140 30,120 Z" fill="url(#objGrad)" stroke="#2c3e50" stroke-width="1.5" />
+    <text x="50" y="85" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Объектив</text>
+    <text x="50" y="155" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">F_об</text>
+    
+    <!-- Окуляр микроскопа -->
+    <path d="M 230,40 Q 250,20 270,40 L 270,120 Q 250,140 230,120 Z" fill="url(#okGrad)" stroke="#2c3e50" stroke-width="1.5" />
+    <text x="250" y="85" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Окуляр</text>
+    <text x="250" y="155" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">F_ок</text>
+    
+    <!-- Точки фокусов -->
+    <circle cx="90" cy="80" r="2" fill="#e74c3c" />
+    <text x="90" y="70" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#e74c3c">F'_об</text>
+    
+    <circle cx="210" cy="80" r="2" fill="#e74c3c" />
+    <text x="210" y="70" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#e74c3c">F_ок</text>
+    
+    <!-- Предмет -->
+    <line x1="10" y1="80" x2="10" y2="60" stroke="#2c3e50" stroke-width="2" />
+    <text x="10" y="55" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">А</text>
+    
+    <!-- Изображение -->
+    <line x1="290" y1="80" x2="290" y2="100" stroke="#2c3e50" stroke-width="2" />
+    <text x="290" y="115" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">A'</text>
+    
+    <!-- Ход лучей -->
+    <path d="M 10,60 L 50,40 L 250,40 L 290,100" stroke="#e74c3c" stroke-width="1.5" fill="none" stroke-dasharray="3,2" />
+    <path d="M 10,60 L 50,120 L 250,120 L 290,100" stroke="#e74c3c" stroke-width="1.5" fill="none" stroke-dasharray="3,2" />
+    
+    <!-- Базовая линия -->
+    <line x1="0" y1="140" x2="300" y2="140" stroke="#34495e" stroke-width="1" />
+    
+    <!-- Расстояние между окуляром и объективом -->
+    <line x1="70" y1="145" x2="230" y2="145" stroke="#27ae60" stroke-width="1" />
+    <line x1="70" y1="140" x2="70" y2="150" stroke="#27ae60" stroke-width="1" />
+    <line x1="230" y1="140" x2="230" y2="150" stroke="#27ae60" stroke-width="1" />
+    <text x="150" y="160" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#27ae60">Δ</text>
+    
+    <!-- Формула увеличения -->
+    <rect x="80" y="180" width="140" height="30" fill="white" stroke="#34495e" stroke-width="1" rx="3" />
+    <text x="150" y="200" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">Γ = (Δ/F_об)(d₀/F_ок)</text>
   </g>
   
-  <!-- Окуляр -->
-  <g id="eyepiece">
-    <ellipse cx="380" cy="250" rx="20" ry="50" fill="url(#lensGrad)" stroke="#38bdf8" stroke-width="2"/>
-    <line x1="360" y1="250" x2="400" y2="250" stroke="#38bdf8" stroke-width="1"/>
-    <text x="380" y="330" text-anchor="middle" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="14">Окуляр</text>
-    <text x="380" y="345" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="12">f₂</text>
+  <!-- Телескоп-рефрактор -->
+  <g transform="translate(50, 250)">
+    <!-- Ось -->
+    <line x1="0" y1="40" x2="200" y2="40" stroke="#34495e" stroke-width="1" stroke-dasharray="2,2" />
+    
+    <!-- Объектив телескопа -->
+    <path d="M 20,20 Q 40,0 60,20 L 60,60 Q 40,80 20,60 Z" fill="url(#refrGrad)" stroke="#2c3e50" stroke-width="1.5" />
+    <text x="40" y="45" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">Объектив</text>
+    
+    <!-- Окуляр телескопа -->
+    <path d="M 140,20 Q 160,0 180,20 L 180,60 Q 160,80 140,60 Z" fill="url(#okGrad)" stroke="#2c3e50" stroke-width="1.5" />
+    <text x="160" y="45" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">Окуляр</text>
+    
+    <!-- Точки фокусов -->
+    <circle cx="70" cy="40" r="2" fill="#e74c3c" />
+    <circle cx="150" cy="40" r="2" fill="#e74c3c" />
+    
+    <!-- Далекий объект -->
+    <line x1="10" y1="40" x2="10" y2="30" stroke="#2c3e50" stroke-width="1.5" />
+    <line x1="0" y1="35" x2="10" y2="30" stroke="#2c3e50" stroke-width="1.5" />
+    
+    <!-- Изображение -->
+    <line x1="150" y1="40" x2="150" y2="50" stroke="#2c3e50" stroke-width="1.5" />
+    
+    <!-- Ход лучей -->
+    <path d="M 0,35 L 40,0 L 160,0 L 150,50" stroke="#e74c3c" stroke-width="1" fill="none" stroke-dasharray="2,2" />
+    <path d="M 0,35 L 40,80 L 160,80 L 150,50" stroke="#e74c3c" stroke-width="1" fill="none" stroke-dasharray="2,2" />
+    
+    <text x="100" y="15" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50" font-weight="bold">Телескоп-рефрактор</text>
   </g>
   
-  <!-- Труба микроскопа -->
-  <rect x="145" y="230" width="235" height="40" fill="#334155" stroke="#64748b" stroke-width="1"/>
-  
-  <!-- Объект -->
-  <g id="object">
-    <line x1="60" y1="250" x2="60" y2="200" stroke="#fbbf24" stroke-width="2"/>
-    <circle cx="60" cy="200" r="3" fill="#fbbf24"/>
-    <text x="60" y="190" text-anchor="middle" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="12">AB</text>
-    <text x="60" y="180" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">Объект</text>
+  <!-- Телескоп-рефлектор -->
+  <g transform="translate(280, 250)">
+    <!-- Ось -->
+    <line x1="0" y1="40" x2="200" y2="40" stroke="#34495e" stroke-width="1" stroke-dasharray="2,2" />
+    
+    <!-- Зеркало -->
+    <ellipse cx="80" cy="40" rx="50" ry="60" fill="none" stroke="#9370db" stroke-width="2" />
+    <path d="M 30,40 Q 80,0 130,40" fill="none" stroke="#9370db" stroke-width="2" />
+    
+    <!-- Вторичное зеркало -->
+    <ellipse cx="80" cy="40" rx="15" ry="20" fill="none" stroke="#e74c3c" stroke-width="1.5" />
+    
+    <!-- Окуляр -->
+    <rect x="140" y="30" width="20" height="20" fill="url(#okGrad)" stroke="#2c3e50" stroke-width="1.5" />
+    
+    <!-- Точки фокусов -->
+    <circle cx="130" cy="40" r="2" fill="#e74c3c" />
+    <circle cx="60" cy="40" r="2" fill="#e74c3c" />
+    
+    <!-- Далекий объект -->
+    <line x1="10" y1="40" x2="10" y2="30" stroke="#2c3e50" stroke-width="1.5" />
+    <line x1="0" y1="35" x2="10" y2="30" stroke="#2c3e50" stroke-width="1.5" />
+    
+    <!-- Ход лучей -->
+    <path d="M 0,35 L 80,0 L 80,40" stroke="#e74c3c" stroke-width="1" fill="none" stroke-dasharray="2,2" />
+    <path d="M 0,35 L 80,80 L 80,40" stroke="#e74c3c" stroke-width="1" fill="none" stroke-dasharray="2,2" />
+    
+    <text x="100" y="15" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50" font-weight="bold">Телескоп-рефлектор</text>
   </g>
   
-  <!-- Ход лучей -->
-  <!-- Луч 1 -->
-  <path d="M 60,200 L 120,190 L 380,140" fill="none" stroke="#f87171" stroke-width="1.5" opacity="0.8"/>
-  <path d="M 60,200 L 120,210 L 380,360" fill="none" stroke="#f87171" stroke-width="1.5" opacity="0.8"/>
-  
-  <!-- Луч 2 -->
-  <path d="M 60,250 L 120,250 L 380,250" fill="none" stroke="#34d399" stroke-width="1.5" opacity="0.8"/>
-  
-  <!-- Изображение от объектива -->
-  <g id="intermediate-image">
-    <line x1="250" y1="250" x2="250" y2="290" stroke="#a78bfa" stroke-width="2"/>
-    <circle cx="250" cy="290" r="3" fill="#a78bfa"/>
-    <text x="250" y="280" text-anchor="middle" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="12">A'B'</text>
-    <text x="250" y="305" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">Промежуточное изображение</text>
+  <!-- Легенда -->
+  <g transform="translate(350, 80)">
+    <rect x="0" y="0" width="130" height="140" fill="white" fill-opacity="0.8" stroke="#34495e" stroke-width="1" rx="5" />
+    <text x="65" y="20" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">Легенда</text>
+    
+    <line x1="10" y1="35" x2="30" y2="35" stroke="#e74c3c" stroke-width="1.5" stroke-dasharray="3,2" />
+    <text x="35" y="40" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Лучи света</text>
+    
+    <circle cx="20" cy="55" r="2" fill="#e74c3c" />
+    <text x="35" y="60" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Фокус</text>
+    
+    <rect x="10" y="70" width="20" height="10" fill="url(#objGrad)" stroke="#2c3e50" stroke-width="1" />
+    <text x="35" y="80" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Линза</text>
+    
+    <ellipse cx="20" cy="100" rx="10" ry="15" fill="none" stroke="#9370db" stroke-width="1.5" />
+    <text x="35" y="105" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Зеркало</text>
+    
+    <line x1="10" y1="125" x2="30" y2="125" stroke="#27ae60" stroke-width="1" />
+    <line x1="10" y1="120" x2="10" y2="130" stroke="#27ae60" stroke-width="1" />
+    <line x1="30" y1="120" x2="30" y2="130" stroke="#27ae60" stroke-width="1" />
+    <text x="35" y="130" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Расстояние</text>
   </g>
   
-  <!-- Финальное изображение -->
-  <g id="final-image">
-    <line x1="420" y1="250" x2="420" y2="150" stroke="#60a5fa" stroke-width="2"/>
-    <circle cx="420" cy="150" r="3" fill="#60a5fa"/>
-    <text x="420" y="140" text-anchor="middle" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="12">A''B''</text>
-    <text x="420" y="130" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">Изображение</text>
-  </g>
-  
-  <!-- Формула увеличения -->
-  <g id="formula">
-    <rect x="160" y="70" width="180" height="60" fill="#1e293b" stroke="#475569" stroke-width="1" rx="5"/>
-    <text x="250" y="90" text-anchor="middle" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="14">Увеличение микроскопа:</text>
-    <text x="250" y="115" text-anchor="middle" fill="#60a5fa" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Γ = - (L·D) / (f₁·f₂)</text>
-  </g>
-  
-  <!-- Подписи к лучам -->
-  <text x="150" y="170" text-anchor="middle" fill="#f87171" font-family="Arial, sans-serif" font-size="10">Лучи от объектива</text>
-  <text x="300" y="230" text-anchor="middle" fill="#34d399" font-family="Arial, sans-serif" font-size="10">Главная оптическая ось</text>
-  
-  <!-- Фокусные точки -->
-  <g id="focal-points">
-    <circle cx="95" cy="250" r="2" fill="#f59e0b"/>
-    <text x="95" y="270" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">F₁</text>
-    <circle cx="145" cy="250" r="2" fill="#f59e0b"/>
-    <text x="145" y="270" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">F₁'</text>
-    <circle cx="360" cy="250" r="2" fill="#f59e0b"/>
-    <text x="360" y="270" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">F₂</text>
-    <circle cx="400" cy="250" r="2" fill="#f59e0b"/>
-    <text x="400" y="270" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">F₂'</text>
-  </g>
-  
-  <!-- Параметры -->
-  <g id="parameters">
-    <rect x="20" y="60" width="100" height="40" fill="#1e293b" stroke="#475569" stroke-width="1" rx="3"/>
-    <text x="70" y="80" text-anchor="middle" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="12">D = 250 мм</text>
-    <text x="70" y="95" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">Удаление резкости</text>
-  </g>
-  
-  <g id="parameters2">
-    <rect x="380" y="60" width="100" height="40" fill="#1e293b" stroke="#475569" stroke-width="1" rx="3"/>
-    <text x="430" y="80" text-anchor="middle" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="12">L = 160 мм</text>
-    <text x="430" y="95" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10">Расстояние между линзами</text>
-  </g>
+  <!-- Пояснение -->
+  <text x="250" y="340" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7f8c8d">Γ - угловое увеличение; Δ - расстояние между фокусами; d₀ - расстояние ясного зрения (25 см)</text>
 </svg>

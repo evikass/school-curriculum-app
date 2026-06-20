@@ -1,89 +1,132 @@
 <svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6f3ff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="coilGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d2691e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b4513;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="capGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4169e1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e3a8a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="energyGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#ffd93d;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#6bcf7f;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
   <!-- Фон -->
-  <rect width="500" height="350" fill="#1a1a2e"/>
+  <rect width="500" height="350" fill="url(#bgGradient)" />
   
   <!-- Декоративная рамка -->
-  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#4a4e69" stroke-width="2" rx="5"/>
-  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#16213e" stroke-width="1" rx="3"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#2c3e50" stroke-width="2" />
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#34495e" stroke-width="1" />
   
   <!-- Заголовок -->
-  <text x="250" y="40" text-anchor="middle" fill="#f5f5f5" font-size="24" font-family="Arial, sans-serif" font-weight="bold">Колебательный контур</text>
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">Колебательный контур</text>
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">ФИЗИКА · 11 КЛАСС</text>
+  <text x="470" y="25" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Урок 24</text>
   
-  <!-- Контур провода -->
-  <path d="M 100 150 L 100 100 L 150 100 L 150 120" fill="none" stroke="#e94560" stroke-width="3"/>
-  <path d="M 150 120 L 150 180 L 100 180 L 100 200" fill="none" stroke="#e94560" stroke-width="3"/>
-  <path d="M 100 200 L 100 250 L 150 250 L 150 230" fill="none" stroke="#e94560" stroke-width="3"/>
-  <path d="M 150 230 L 150 200 L 200 200 L 200 180" fill="none" stroke="#e94560" stroke-width="3"/>
-  <path d="M 200 180 L 200 170 L 300 170 L 300 180" fill="none" stroke="#e94560" stroke-width="3"/>
-  <path d="M 300 180 L 300 190 L 400 190 L 400 200" fill="none" stroke="#e94560" stroke-width="3"/>
-  <path d="M 400 200 L 400 220 L 350 220 L 350 230" fill="none" stroke="#e94560" stroke-width="3"/>
-  <path d="M 350 230 L 350 250 L 400 250 L 400 200" fill="none" stroke="#e94560" stroke-width="3"/>
-  
-  <!-- Катушка индуктивности (L) -->
-  <g id="inductance">
-    <path d="M 150 120 Q 160 110, 170 120 T 190 120 T 210 120 T 230 120 T 250 120 T 270 120 T 290 120 T 300 120" 
-          fill="none" stroke="#0f4c75" stroke-width="4"/>
-    <path d="M 150 180 Q 160 170, 170 180 T 190 180 T 210 180 T 230 180 T 250 180 T 270 180 T 290 180 T 300 180" 
-          fill="none" stroke="#0f4c75" stroke-width="4"/>
-    <text x="225" y="150" text-anchor="middle" fill="#f5f5f5" font-size="20" font-weight="bold">L</text>
-  </g>
-  
-  <!-- Конденсатор (C) -->
-  <g id="capacitor">
-    <line x1="390" y1="210" x2="390" y2="190" stroke="#0f4c75" stroke-width="6"/>
-    <line x1="410" y1="210" x2="410" y2="190" stroke="#0f4c75" stroke-width="6"/>
-    <text x="400" y="230" text-anchor="middle" fill="#f5f5f5" font-size="20" font-weight="bold">C</text>
-  </g>
-  
-  <!-- Направления тока -->
-  <g id="current-arrows">
-    <defs>
-      <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-        <polygon points="0 0, 10 3.5, 0 7" fill="#ff6b6b"/>
-      </marker>
-    </defs>
+  <!-- Схема LC-контура -->
+  <g transform="translate(100, 100)">
+    <!-- Контур -->
+    <path d="M 0,50 L 0,0 L 200,0 L 200,50" stroke="#2c3e50" stroke-width="2" fill="none" />
     
-    <path d="M 120 110 L 140 110" fill="none" stroke="#ff6b6b" stroke-width="2" marker-end="url(#arrowhead)"/>
-    <path d="M 120 190 L 140 190" fill="none" stroke="#ff6b6b" stroke-width="2" marker-end="url(#arrowhead)"/>
-    <path d="M 250 175 L 270 175" fill="none" stroke="#ff6b6b" stroke-width="2" marker-end="url(#arrowhead)"/>
-    <path d="M 320 185 L 340 185" fill="none" stroke="#ff6b6b" stroke-width="2" marker-end="url(#arrowhead)"/>
-    <text x="125" y="105" fill="#ff6b6b" font-size="14">i</text>
+    <!-- Катушка индуктивности -->
+    <g transform="translate(50, 0)">
+      <path d="M 0,0 Q 5,10 0,20 Q -5,30 0,40 Q 5,50 0,60" stroke="url(#coilGradient)" stroke-width="3" fill="none" />
+      <path d="M 10,0 Q 15,10 10,20 Q 5,30 10,40 Q 15,50 10,60" stroke="url(#coilGradient)" stroke-width="3" fill="none" />
+      <path d="M 20,0 Q 25,10 20,20 Q 15,30 20,40 Q 25,50 20,60" stroke="url(#coilGradient)" stroke-width="3" fill="none" />
+      <path d="M 30,0 Q 35,10 30,20 Q 25,30 30,40 Q 35,50 30,60" stroke="url(#coilGradient)" stroke-width="3" fill="none" />
+      <text x="15" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">L</text>
+    </g>
+    
+    <!-- Конденсатор -->
+    <g transform="translate(150, 0)">
+      <line x1="0" y1="0" x2="0" y2="60" stroke="#2c3e50" stroke-width="2" />
+      <line x1="0" y1="0" x2="0" y2="60" stroke="url(#capGradient)" stroke-width="4" />
+      <line x1="10" y1="0" x2="10" y2="60" stroke="url(#capGradient)" stroke-width="4" />
+      <line x1="10" y1="0" x2="10" y2="60" stroke="#2c3e50" stroke-width="2" />
+      <text x="5" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">C</text>
+    </g>
+    
+    <!-- Стрелки тока -->
+    <g>
+      <path d="M 20,30 L 40,30 L 35,25 M 40,30 L 35,35" stroke="#e74c3c" stroke-width="2" fill="none" />
+      <path d="M 120,30 L 140,30 L 135,25 M 140,30 L 135,35" stroke="#e74c3c" stroke-width="2" fill="none" />
+      <text x="30" y="25" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">I</text>
+    </g>
+    
+    <!-- Заряды на конденсаторе -->
+    <g>
+      <text x="-10" y="25" font-family="Arial, sans-serif" font-size="14" fill="#e74c3c">+</text>
+      <text x="15" y="25" font-family="Arial, sans-serif" font-size="14" fill="#3498db">−</text>
+    </g>
   </g>
   
-  <!-- Энергия в контуре -->
-  <g id="energy">
-    <text x="100" y="280" fill="#f5f5f5" font-size="16">Энергия в контуре:</text>
-    <text x="100" y="300" fill="#f5f5f5" font-size="14">W_L = ½LI²  (магнитная)</text>
-    <text x="100" y="320" fill="#f5f5f5" font-size="14">W_C = ½CU²  (электрическая)</text>
+  <!-- Формулы -->
+  <g transform="translate(100, 200)">
+    <rect x="0" y="0" width="300" height="80" fill="rgba(255,255,255,0.8)" stroke="#34495e" stroke-width="1" rx="5" />
+    <text x="10" y="25" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Период колебаний: T = 2π√(LC)</text>
+    <text x="10" y="45" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Энергия в контуре: W = q²/(2C) + LI²/2</text>
+    <text x="10" y="65" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Частота: f = 1/(2π√(LC))</text>
   </g>
   
-  <!-- Период колебаний -->
-  <g id="period">
-    <rect x="300" y="260" width="180" height="60" fill="none" stroke="#4a4e69" stroke-width="1" rx="5"/>
-    <text x="390" y="285" text-anchor="middle" fill="#f5f5f5" font-size="16">Период колебаний:</text>
-    <text x="390" y="305" text-anchor="middle" fill="#ffd93d" font-size="18" font-weight="bold">T = 2π√(LC)</text>
+  <!-- График энергии -->
+  <g transform="translate(320, 100)">
+    <rect x="0" y="0" width="170" height="120" fill="rgba(255,255,255,0.9)" stroke="#34495e" stroke-width="1" />
+    <text x="85" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Энергия в контуре</text>
+    
+    <!-- Оси -->
+    <line x1="20" y1="100" x2="150" y2="100" stroke="#2c3e50" stroke-width="1" />
+    <line x1="20" y1="100" x2="20" y2="30" stroke="#2c3e50" stroke-width="1" />
+    
+    <!-- Графики энергии -->
+    <path d="M 20,80 Q 40,40 60,80 T 100,80 T 140,80" stroke="#e74c3c" stroke-width="2" fill="none" />
+    <path d="M 20,90 Q 40,70 60,90 T 100,90 T 140,90" stroke="#3498db" stroke-width="2" fill="none" />
+    <path d="M 20,85 Q 40,55 60,85 T 100,85 T 140,85" stroke="#2ecc71" stroke-width="2" fill="none" />
+    
+    <!-- Легенда графика -->
+    <rect x="130" y="35" width="15" height="3" fill="#e74c3c" />
+    <text x="145" y="38" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Wc</text>
+    
+    <rect x="130" y="45" width="15" height="3" fill="#3498db" />
+    <text x="145" y="48" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">WL</text>
+    
+    <rect x="130" y="55" width="15" height="3" fill="#2ecc71" />
+    <text x="145" y="58" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">W</text>
+    
+    <!-- Подписи осей -->
+    <text x="10" y="115" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">t</text>
+    <text x="155" y="105" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">W</text>
   </g>
   
-  <!-- Частота колебаний -->
-  <g id="frequency">
-    <text x="220" y="280" fill="#f5f5f5" font-size="16">Частота:</text>
-    <text x="220" y="300" fill="#ffd93d" font-size="16" font-weight="bold">f = 1/(2π√(LC))</text>
+  <!-- Объяснения в углу -->
+  <g transform="translate(20, 220)">
+    <rect x="0" y="0" width="180" height="100" fill="rgba(255,255,255,0.9)" stroke="#34495e" stroke-width="1" rx="5" />
+    <text x="90" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Превращение энергии</text>
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="11" fill="#e74c3c">• W<sub>C</sub> - энергия конденсатора</text>
+    <text x="10" y="55" font-family="Arial, sans-serif" font-size="11" fill="#3498db">• W<sub>L</sub> - энергия катушки</text>
+    <text x="10" y="70" font-family="Arial, sans-serif" font-size="11" fill="#2ecc71">• W - полная энергия</text>
+    <text x="10" y="90" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">W<sub>C</sub> + W<sub>L</sub> = const</text>
   </g>
   
-  <!-- Декоративные элементы -->
-  <circle cx="50" cy="50" r="3" fill="#4a4e69" opacity="0.5"/>
-  <circle cx="450" cy="50" r="3" fill="#4a4e69" opacity="0.5"/>
-  <circle cx="50" cy="300" r="3" fill="#4a4e69" opacity="0.5"/>
-  <circle cx="450" cy="300" r="3" fill="#4a4e69" opacity="0.5"/>
+  <!-- Дополнительные подписи -->
+  <g transform="translate(100, 170)">
+    <text x="50" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#8b4513">Катушка индуктивности</text>
+    <text x="155" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1e3a8a">Конденсатор</text>
+  </g>
   
-  <!-- Вспомогательная сетка -->
-  <g opacity="0.1">
-    <line x1="0" y1="100" x2="500" y2="100" stroke="#ffffff" stroke-width="0.5"/>
-    <line x1="0" y1="200" x2="500" y2="200" stroke="#ffffff" stroke-width="0.5"/>
-    <line x1="0" y1="300" x2="500" y2="300" stroke="#ffffff" stroke-width="0.5"/>
-    <line x1="100" y1="0" x2="100" y2="350" stroke="#ffffff" stroke-width="0.5"/>
-    <line x1="200" y1="0" x2="200" y2="350" stroke="#ffffff" stroke-width="0.5"/>
-    <line x1="300" y1="0" x2="300" y2="350" stroke="#ffffff" stroke-width="0.5"/>
-    <line x1="400" y1="0" x2="400" y2="350" stroke="#ffffff" stroke-width="0.5"/>
+  <!-- Указатели процессов -->
+  <g>
+    <path d="M 250,120 Q 280,110 300,100" stroke="#f39c12" stroke-width="1.5" fill="none" stroke-dasharray="3,3" />
+    <text x="310" y="105" font-family="Arial, sans-serif" font-size="10" fill="#f39c12">Заряд</text>
+    
+    <path d="M 250,140 Q 280,150 300,160" stroke="#f39c12" stroke-width="1.5" fill="none" stroke-dasharray="3,3" />
+    <text x="310" y="165" font-family="Arial, sans-serif" font-size="10" fill="#f39c12">Разряд</text>
   </g>
 </svg>
