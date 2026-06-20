@@ -1,35 +1,91 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Темный фон -->
+  <rect width="500" height="350" fill="#1a1a2e"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#4a4a6a" stroke-width="2"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#6a6a8a" stroke-width="1"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">Электромагнитная индукция</text>
+  
+  <!-- Катушка -->
+  <g id="coil">
+    <ellipse cx="250" cy="180" rx="80" ry="40" fill="none" stroke="#ffd700" stroke-width="2"/>
+    <ellipse cx="250" cy="190" rx="80" ry="40" fill="none" stroke="#ffd700" stroke-width="2"/>
+    <ellipse cx="250" cy="200" rx="80" ry="40" fill="none" stroke="#ffd700" stroke-width="2"/>
+    <ellipse cx="250" cy="210" rx="80" ry="40" fill="none" stroke="#ffd700" stroke-width="2"/>
+    <ellipse cx="250" cy="220" rx="80" ry="40" fill="none" stroke="#ffd700" stroke-width="2"/>
+    <ellipse cx="250" cy="230" rx="80" ry="40" fill="none" stroke="#ffd700" stroke-width="2"/>
+    <ellipse cx="250" cy="240" rx="80" ry="40" fill="none" stroke="#ffd700" stroke-width="2"/>
+    <ellipse cx="250" cy="250" rx="80" ry="40" fill="none" stroke="#ffd700" stroke-width="2"/>
+    <ellipse cx="250" cy="260" rx="80" ry="40" fill="none" stroke="#ffd700" stroke-width="2"/>
+    <ellipse cx="250" cy="270" rx="80" ry="40" fill="none" stroke="#ffd700" stroke-width="2"/>
+    <line x1="170" y1="180" x2="170" y2="270" stroke="#ffd700" stroke-width="3"/>
+    <line x1="330" y1="180" x2="330" y2="270" stroke="#ffd700" stroke-width="3"/>
+  </g>
+  
+  <!-- Магнит -->
+  <g id="magnet">
+    <rect x="200" y="100" width="100" height="40" rx="5" fill="#ff4444"/>
+    <rect x="200" y="140" width="100" height="40" rx="5" fill="#4444ff"/>
+    <text x="250" y="125" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">N</text>
+    <text x="250" y="165" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">S</text>
+    <path d="M 250 140 L 250 180" stroke="#ffffff" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Стрелка гальванометра -->
+  <g id="galvanometer">
+    <circle cx="100" cy="180" r="40" fill="none" stroke="#ffd700" stroke-width="2"/>
+    <path d="M 100 180 L 130 180" stroke="#ff6b6b" stroke-width="3" marker-end="url(#arrowhead-red)"/>
+    <text x="100" y="235" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Гальванометр</text>
+    <text x="70" y="180" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle">-</text>
+    <text x="130" y="180" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle">+</text>
+  </g>
+  
+  <!-- Линии магнитного поля -->
+  <g id="field-lines" opacity="0.6">
+    <path d="M 250 140 Q 200 120 150 140" fill="none" stroke="#00ffff" stroke-width="1" stroke-dasharray="2,2"/>
+    <path d="M 250 140 Q 300 120 350 140" fill="none" stroke="#00ffff" stroke-width="1" stroke-dasharray="2,2"/>
+    <path d="M 250 140 Q 180 160 120 180" fill="none" stroke="#00ffff" stroke-width="1" stroke-dasharray="2,2"/>
+    <path d="M 250 140 Q 320 160 380 180" fill="none" stroke="#00ffff" stroke-width="1" stroke-dasharray="2,2"/>
+    <path d="M 250 140 Q 160 200 100 220" fill="none" stroke="#00ffff" stroke-width="1" stroke-dasharray="2,2"/>
+    <path d="M 250 140 Q 340 200 400 220" fill="none" stroke="#00ffff" stroke-width="1" stroke-dasharray="2,2"/>
+  </g>
+  
+  <!-- Формула -->
+  <g id="formula">
+    <rect x="320" y="280" width="160" height="50" fill="#2a2a4a" stroke="#ffd700" stroke-width="1" rx="5"/>
+    <text x="400" y="310" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle">ε = -ΔΦ/Δt</text>
+  </g>
+  
+  <!-- Подписи -->
+  <text x="250" y="320" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle">Закон Фарадея</text>
+  <text x="400" y="250" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle">Индукционный ток</text>
+  
+  <!-- Стрелки направления тока -->
+  <g id="current-arrows">
+    <path d="M 170 225 Q 150 215 130 225" fill="none" stroke="#ff6b6b" stroke-width="1.5" stroke-dasharray="3,2" marker-end="url(#arrowhead-red)"/>
+    <path d="M 330 225 Q 350 215 370 225" fill="none" stroke="#ff6b6b" stroke-width="1.5" stroke-dasharray="3,2" marker-end="url(#arrowhead-red)"/>
+  </g>
+  
+  <!-- Маркеры стрелок -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e1b4b"/>
-      <stop offset="100%" style="stop-color:#6366f1"/>
-    </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:0"/>
-    </radialGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" fill="#ffffff">
+      <polygon points="0 0, 10 3, 0 6"/>
+    </marker>
+    <marker id="arrowhead-red" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" fill="#ff6b6b">
+      <polygon points="0 0, 10 3, 0 6"/>
+    </marker>
   </defs>
   
-  <!-- Background -->
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  
-  <!-- Decorative circles -->
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#a78bfa" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#a78bfa" opacity="0.3"/>
-  
-  <!-- Lesson number in center -->
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#e0e7ff" text-anchor="middle">4</text>
-  
-  <!-- Chapter label at top -->
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e0e7ff" text-anchor="middle" opacity="0.8">ФИЗИКА · 11 КЛАСС</text>
-  
-  <!-- Lesson title at bottom -->
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e0e7ff" text-anchor="middle">Урок 4: Электромагнитная индукция. Опыты Фарадея</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#a78bfa" text-anchor="middle" opacity="0.8">Урок 4 из 35</text>
-  
-  <!-- Decorative elements based on chapter -->
-  <path d="M 80 175 Q 250 100 420 175" fill="none" stroke="#a78bfa" stroke-width="2" opacity="0.6"/><path d="M 80 175 Q 250 250 420 175" fill="none" stroke="#a78bfa" stroke-width="2" opacity="0.6"/><circle cx="80" cy="175" r="6" fill="#a78bfa"/><circle cx="420" cy="175" r="6" fill="#a78bfa"/>
+  <!-- Дополнительные элементы для размера -->
+  <g id="additional-elements" opacity="0.3">
+    <circle cx="50" cy="50" r="3" fill="#ffd700"/>
+    <circle cx="450" cy="50" r="3" fill="#ffd700"/>
+    <circle cx="50" cy="300" r="3" fill="#ffd700"/>
+    <circle cx="450" cy="300" r="3" fill="#ffd700"/>
+    <line x1="50" y1="50" x2="450" y2="50" stroke="#4a4a6a" stroke-width="0.5" stroke-dasharray="5,5"/>
+    <line x1="50" y1="300" x2="450" y2="300" stroke="#4a4a6a" stroke-width="0.5" stroke-dasharray="5,5"/>
+  </g>
 </svg>

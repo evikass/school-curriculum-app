@@ -1,35 +1,80 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#1a1a2e"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#16213e" stroke-width="2"/>
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#0f3460" stroke-width="1"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" text-anchor="middle" fill="#e94560" font-family="Arial, sans-serif" font-size="22" font-weight="bold">Самоиндукция. Индуктивность</text>
+  
+  <!-- Катушка индуктивности -->
+  <g transform="translate(250, 180)">
+    <!-- Витки катушки -->
+    <path d="M -60,0 Q -55,-20 -45,-20 T -25,-20 T -5,-20 T 15,-20 T 35,-20 T 55,-20" fill="none" stroke="#4fbdba" stroke-width="3"/>
+    <path d="M -60,0 Q -55,20 -45,20 T -25,20 T -5,20 T 15,20 T 35,20 T 55,20" fill="none" stroke="#4fbdba" stroke-width="3"/>
+    <path d="M -60,0 Q -55,-20 -45,-20 T -25,-20 T -5,-20 T 15,-20 T 35,-20 T 55,-20" fill="none" stroke="#4fbdba" stroke-width="3"/>
+    <path d="M -60,0 Q -55,20 -45,20 T -25,20 T -5,20 T 15,20 T 35,20 T 55,20" fill="none" stroke="#4fbdba" stroke-width="3"/>
+    <path d="M -60,0 Q -55,-20 -45,-20 T -25,-20 T -5,-20 T 15,-20 T 35,-20 T 55,-20" fill="none" stroke="#4fbdba" stroke-width="3"/>
+    <path d="M -60,0 Q -55,20 -45,20 T -25,20 T -5,20 T 15,20 T 35,20 T 55,20" fill="none" stroke="#4fbdba" stroke-width="3"/>
+    
+    <!-- Соединения -->
+    <line x1="-60" y1="0" x2="-80" y2="0" stroke="#4fbdba" stroke-width="3"/>
+    <line x1="60" y1="0" x2="80" y2="0" stroke="#4fbdba" stroke-width="3"/>
+  </g>
+  
+  <!-- Направление тока -->
+  <g transform="translate(250, 180)">
+    <path d="M -70,-10 Q -60,-15 -50,-10" fill="none" stroke="#7ec8e3" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="-75" y="-12" fill="#7ec8e3" font-family="Arial, sans-serif" font-size="14">I</text>
+  </g>
+  
+  <!-- ЭДС самоиндукции -->
+  <g transform="translate(250, 180)">
+    <path d="M 70,10 Q 80,15 90,10" fill="none" stroke="#f39c12" stroke-width="2" marker-end="url(#arrowhead2)"/>
+    <text x="92" y="12" fill="#f39c12" font-family="Arial, sans-serif" font-size="14">ε</text>
+  </g>
+  
+  <!-- Формула ЭДС самоиндукции -->
+  <text x="250" y="120" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="18">
+    ε = -L·dI/dt
+  </text>
+  
+  <!-- Формула энергии магнитного поля -->
+  <text x="250" y="280" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="18">
+    W = LI²/2
+  </text>
+  
+  <!-- Символы и пояснения -->
+  <text x="80" y="220" fill="#7ec8e3" font-family="Arial, sans-serif" font-size="14">I - ток</text>
+  <text x="80" y="240" fill="#f39c12" font-family="Arial, sans-serif" font-size="14">ε - ЭДС самоиндукции</text>
+  <text x="80" y="260" fill="#4fbdba" font-family="Arial, sans-serif" font-size="14">L - индуктивность</text>
+  
+  <!-- Магнитные линии -->
+  <g transform="translate(250, 180)">
+    <ellipse cx="0" cy="0" rx="90" ry="40" fill="none" stroke="#e94560" stroke-width="1" stroke-dasharray="5,5" opacity="0.5"/>
+    <ellipse cx="0" cy="0" rx="110" ry="50" fill="none" stroke="#e94560" stroke-width="1" stroke-dasharray="5,5" opacity="0.5"/>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="50" cy="80" r="3" fill="#4fbdba" opacity="0.7"/>
+  <circle cx="450" cy="80" r="3" fill="#4fbdba" opacity="0.7"/>
+  <circle cx="50" cy="270" r="3" fill="#4fbdba" opacity="0.7"/>
+  <circle cx="450" cy="270" r="3" fill="#4fbdba" opacity="0.7"/>
+  
+  <!-- Определение индуктивности -->
+  <text x="250" y="310" text-anchor="middle" fill="#aaaaaa" font-family="Arial, sans-serif" font-size="12">
+    Индуктивность L = Φ/I
+  </text>
+  
+  <!-- Маркеры для стрелок -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e1b4b"/>
-      <stop offset="100%" style="stop-color:#6366f1"/>
-    </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:0"/>
-    </radialGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7ec8e3"/>
+    </marker>
+    <marker id="arrowhead2" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#f39c12"/>
+    </marker>
   </defs>
-  
-  <!-- Background -->
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  
-  <!-- Decorative circles -->
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#a78bfa" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#a78bfa" opacity="0.3"/>
-  
-  <!-- Lesson number in center -->
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#e0e7ff" text-anchor="middle">6</text>
-  
-  <!-- Chapter label at top -->
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e0e7ff" text-anchor="middle" opacity="0.8">ФИЗИКА · 11 КЛАСС</text>
-  
-  <!-- Lesson title at bottom -->
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e0e7ff" text-anchor="middle">Урок 6: Самоиндукция. Индуктивность</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#a78bfa" text-anchor="middle" opacity="0.8">Урок 6 из 35</text>
-  
-  <!-- Decorative elements based on chapter -->
-  <path d="M 80 175 Q 250 100 420 175" fill="none" stroke="#a78bfa" stroke-width="2" opacity="0.6"/><path d="M 80 175 Q 250 250 420 175" fill="none" stroke="#a78bfa" stroke-width="2" opacity="0.6"/><circle cx="80" cy="175" r="6" fill="#a78bfa"/><circle cx="420" cy="175" r="6" fill="#a78bfa"/>
 </svg>

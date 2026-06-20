@@ -1,35 +1,86 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Темный фон -->
+  <rect width="500" height="350" fill="#0a0e27"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#4a5f8a" stroke-width="2"/>
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#2a3f6a" stroke-width="1"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" text-anchor="middle" fill="#e0e6ff" font-size="24" font-weight="bold" font-family="Arial, sans-serif">
+    Закон Фарадея. Правило Ленца
+  </text>
+  
+  <!-- Магнит -->
+  <g id="magnet">
+    <!-- Северный полюс -->
+    <rect x="80" y="140" width="40" height="60" fill="#ff4444" rx="5"/>
+    <text x="100" y="175" text-anchor="middle" fill="white" font-size="16" font-weight="bold">N</text>
+    
+    <!-- Южный полюс -->
+    <rect x="120" y="140" width="40" height="60" fill="#4444ff" rx="5"/>
+    <text x="140" y="175" text-anchor="middle" fill="white" font-size="16" font-weight="bold">S</text>
+    
+    <!-- Магнитные линии -->
+    <path d="M 100 140 Q 50 100, 100 80" fill="none" stroke="#ff6666" stroke-width="2" stroke-dasharray="5,3"/>
+    <path d="M 100 200 Q 50 240, 100 260" fill="none" stroke="#6666ff" stroke-width="2" stroke-dasharray="5,3"/>
+    <path d="M 140 140 Q 190 100, 140 80" fill="none" stroke="#ff6666" stroke-width="2" stroke-dasharray="5,3"/>
+    <path d="M 140 200 Q 190 240, 140 260" fill="none" stroke="#6666ff" stroke-width="2" stroke-dasharray="5,3"/>
+  </g>
+  
+  <!-- Контур -->
+  <g id="contour">
+    <circle cx="250" cy="170" r="50" fill="none" stroke="#cccccc" stroke-width="3"/>
+    
+    <!-- Стрелки направления тока -->
+    <path d="M 250 120 A 50 50 0 0 1 295 145" fill="none" stroke="#ffcc00" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M 295 195 A 50 50 0 0 1 250 220" fill="none" stroke="#ffcc00" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M 205 195 A 50 50 0 0 1 205 145" fill="none" stroke="#ffcc00" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M 205 145 A 50 50 0 0 1 250 120" fill="none" stroke="#ffcc00" stroke-width="2" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Индукционное поле -->
+  <g id="induction-field">
+    <circle cx="250" cy="170" r="70" fill="none" stroke="#00ccff" stroke-width="2" stroke-dasharray="8,4"/>
+    <circle cx="250" cy="170" r="90" fill="none" stroke="#00ccff" stroke-width="2" stroke-dasharray="8,4"/>
+    
+    <!-- Стрелки поля -->
+    <path d="M 250 80 L 250 90" fill="none" stroke="#00ccff" stroke-width="2" marker-end="url(#arrowhead2)"/>
+    <path d="M 320 170 L 310 170" fill="none" stroke="#00ccff" stroke-width="2" marker-end="url(#arrowhead2)"/>
+    <path d="M 250 260 L 250 250" fill="none" stroke="#00ccff" stroke-width="2" marker-end="url(#arrowhead2)"/>
+    <path d="M 180 170 L 190 170" fill="none" stroke="#00ccff" stroke-width="2" marker-end="url(#arrowhead2)"/>
+  </g>
+  
+  <!-- Стрелки приближения магнита -->
+  <g id="approaching-arrows">
+    <path d="M 170 170 L 190 170" fill="none" stroke="#ff8888" stroke-width="3" marker-end="url(#arrowhead3)"/>
+    <path d="M 180 160 L 190 170 L 180 180" fill="none" stroke="#ff8888" stroke-width="3" marker-end="url(#arrowhead3)"/>
+    <text x="180" y="200" text-anchor="middle" fill="#ff8888" font-size="12">v</text>
+  </g>
+  
+  <!-- Формула -->
+  <text x="250" y="290" text-anchor="middle" fill="#e0e6ff" font-size="16" font-family="Arial, sans-serif">
+    ε = -dΦ/dt
+  </text>
+  <text x="250" y="310" text-anchor="middle" fill="#e0e6ff" font-size="14" font-family="Arial, sans-serif">
+    ε - ЭДС индукции, Φ - магнитный поток
+  </text>
+  
+  <!-- Подписи -->
+  <text x="100" y="280" text-anchor="middle" fill="#ffcc00" font-size="12">Индукционный ток</text>
+  <text x="250" y="60" text-anchor="middle" fill="#00ccff" font-size="12">Индукционное поле</text>
+  <text x="140" y="280" text-anchor="middle" fill="#ff8888" font-size="12">Приближающийся магнит</text>
+  
+  <!-- Маркеры стрелок -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e1b4b"/>
-      <stop offset="100%" style="stop-color:#6366f1"/>
-    </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:0"/>
-    </radialGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ffcc00"/>
+    </marker>
+    <marker id="arrowhead2" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#00ccff"/>
+    </marker>
+    <marker id="arrowhead3" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ff8888"/>
+    </marker>
   </defs>
-  
-  <!-- Background -->
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  
-  <!-- Decorative circles -->
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#a78bfa" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#a78bfa" opacity="0.3"/>
-  
-  <!-- Lesson number in center -->
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#e0e7ff" text-anchor="middle">5</text>
-  
-  <!-- Chapter label at top -->
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e0e7ff" text-anchor="middle" opacity="0.8">ФИЗИКА · 11 КЛАСС</text>
-  
-  <!-- Lesson title at bottom -->
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e0e7ff" text-anchor="middle">Урок 5: Закон электромагнитной индукции. Правило Л</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#a78bfa" text-anchor="middle" opacity="0.8">Урок 5 из 35</text>
-  
-  <!-- Decorative elements based on chapter -->
-  <path d="M 80 175 Q 250 100 420 175" fill="none" stroke="#a78bfa" stroke-width="2" opacity="0.6"/><path d="M 80 175 Q 250 250 420 175" fill="none" stroke="#a78bfa" stroke-width="2" opacity="0.6"/><circle cx="80" cy="175" r="6" fill="#a78bfa"/><circle cx="420" cy="175" r="6" fill="#a78bfa"/>
 </svg>

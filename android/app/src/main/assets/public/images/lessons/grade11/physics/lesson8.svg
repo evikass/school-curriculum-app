@@ -1,35 +1,103 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Темный фон -->
+  <rect width="500" height="350" fill="#1a1a2e"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#4a7c7e" stroke-width="2" rx="5"/>
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#16213e" stroke-width="1" rx="3"/>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="40" text-anchor="middle" fill="#e94560" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Математический маятник</text>
+  
+  <!-- Опорная точка -->
+  <circle cx="250" cy="80" r="5" fill="#f5f5f5"/>
+  <rect x="240" y="75" width="20" height="10" fill="#4a7c7e"/>
+  
+  <!-- Нить -->
+  <line x1="250" y1="80" x2="350" y2="220" stroke="#f5f5f5" stroke-width="2"/>
+  
+  <!-- Груз -->
+  <circle cx="350" cy="220" r="20" fill="#e94560"/>
+  <circle cx="350" cy="220" r="15" fill="#f5f5f5" opacity="0.3"/>
+  
+  <!-- Угол отклонения -->
+  <path d="M 250 80 L 250 120 L 300 120" fill="none" stroke="#ffd700" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <path d="M 250 80 L 350 220" fill="none" stroke="#ffd700" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.5"/>
+  
+  <!-- Дуга угла -->
+  <path d="M 270 80 A 20 20 0 0 1 250 100" fill="none" stroke="#ffd700" stroke-width="1.5"/>
+  <text x="275" y="95" fill="#ffd700" font-family="Arial, sans-serif" font-size="14">φ</text>
+  
+  <!-- Вектор силы тяжести -->
+  <line x1="350" y1="220" x2="350" y2="280" stroke="#00ff00" stroke-width="2.5" marker-end="url(#arrowhead)"/>
+  <text x="360" y="255" fill="#00ff00" font-family="Arial, sans-serif" font-size="14">mg</text>
+  
+  <!-- Вектор натяжения -->
+  <line x1="350" y1="220" x2="300" y2="150" stroke="#00bfff" stroke-width="2" marker-end="url(#arrowhead2)"/>
+  <text x="280" y="185" fill="#00bfff" font-family="Arial, sans-serif" font-size="14">T</text>
+  
+  <!-- Компонента силы тяжести -->
+  <line x1="350" y1="220" x2="350" y2="250" stroke="#ff6b6b" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <line x1="350" y1="250" x2="320" y2="250" stroke="#ff6b6b" stroke-width="1.5" marker-end="url(#arrowhead3)"/>
+  <text x="305" y="245" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="12">mg·sinφ</text>
+  
+  <!-- Компонента силы тяжести (перпендикулярная) -->
+  <line x1="350" y1="220" x2="380" y2="220" stroke="#9b59b6" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <line x1="380" y1="220" x2="380" y2="190" stroke="#9b59b6" stroke-width="1.5" marker-end="url(#arrowhead4)"/>
+  <text x="385" y="205" fill="#9b59b6" font-family="Arial, sans-serif" font-size="12">mg·cosφ</text>
+  
+  <!-- Длина маятника -->
+  <line x1="250" y1="90" x2="250" y2="210" stroke="#f39c12" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="255" y="150" fill="#f39c12" font-family="Arial, sans-serif" font-size="14">l</text>
+  
+  <!-- Формула периода -->
+  <rect x="150" y="290" width="200" height="40" fill="#16213e" stroke="#4a7c7e" stroke-width="1" rx="5"/>
+  <text x="250" y="315" text-anchor="middle" fill="#f5f5f5" font-family="Arial, sans-serif" font-size="18">T = 2π√(l/g)</text>
+  
+  <!-- Подписи к элементам -->
+  <text x="370" y="230" fill="#f5f5f5" font-family="Arial, sans-serif" font-size="12">m</text>
+  <text x="220" y="70" fill="#f5f5f5" font-family="Arial, sans-serif" font-size="12">O</text>
+  
+  <!-- Дополнительные элементы для научного вида -->
+  <circle cx="250" cy="80" r="8" fill="none" stroke="#4a7c7e" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- Сетка для визуализации -->
+  <g opacity="0.2">
+    <line x1="50" y1="0" x2="50" y2="350" stroke="#4a7c7e" stroke-width="0.5"/>
+    <line x1="100" y1="0" x2="100" y2="350" stroke="#4a7c7e" stroke-width="0.5"/>
+    <line x1="150" y1="0" x2="150" y2="350" stroke="#4a7c7e" stroke-width="0.5"/>
+    <line x1="200" y1="0" x2="200" y2="350" stroke="#4a7c7e" stroke-width="0.5"/>
+    <line x1="300" y1="0" x2="300" y2="350" stroke="#4a7c7e" stroke-width="0.5"/>
+    <line x1="350" y1="0" x2="350" y2="350" stroke="#4a7c7e" stroke-width="0.5"/>
+    <line x1="400" y1="0" x2="400" y2="350" stroke="#4a7c7e" stroke-width="0.5"/>
+    <line x1="450" y1="0" x2="450" y2="350" stroke="#4a7c7e" stroke-width="0.5"/>
+    
+    <line x1="0" y1="50" x2="500" y2="50" stroke="#4a7c7e" stroke-width="0.5"/>
+    <line x1="0" y1="100" x2="500" y2="100" stroke="#4a7c7e" stroke-width="0.5"/>
+    <line x1="0" y1="150" x2="500" y2="150" stroke="#4a7c7e" stroke-width="0.5"/>
+    <line x1="0" y1="200" x2="500" y2="200" stroke="#4a7c7e" stroke-width="0.5"/>
+    <line x1="0" y1="250" x2="500" y2="250" stroke="#4a7c7e" stroke-width="0.5"/>
+    <line x1="0" y1="300" x2="500" y2="300" stroke="#4a7c7e" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Определения -->
+  <text x="30" y="330" fill="#f5f5f5" font-family="Arial, sans-serif" font-size="10">T - период колебаний</text>
+  <text x="180" y="330" fill="#f5f5f5" font-family="Arial, sans-serif" font-size="10">l - длина нити</text>
+  <text x="280" y="330" fill="#f5f5f5" font-family="Arial, sans-serif" font-size="10">g - ускорение свободного падения</text>
+  
+  <!-- Маркеры для стрелок -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0c4a6e"/>
-      <stop offset="100%" style="stop-color:#06b6d4"/>
-    </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#67e8f9;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#67e8f9;stop-opacity:0"/>
-    </radialGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#00ff00"/>
+    </marker>
+    <marker id="arrowhead2" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#00bfff"/>
+    </marker>
+    <marker id="arrowhead3" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#ff6b6b"/>
+    </marker>
+    <marker id="arrowhead4" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#9b59b6"/>
+    </marker>
   </defs>
-  
-  <!-- Background -->
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  
-  <!-- Decorative circles -->
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#67e8f9" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#67e8f9" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#67e8f9" opacity="0.3"/>
-  
-  <!-- Lesson number in center -->
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#cffafe" text-anchor="middle">8</text>
-  
-  <!-- Chapter label at top -->
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#cffafe" text-anchor="middle" opacity="0.8">ФИЗИКА · 11 КЛАСС</text>
-  
-  <!-- Lesson title at bottom -->
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#cffafe" text-anchor="middle">Урок 8: Свободные механические колебания. Математи</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#67e8f9" text-anchor="middle" opacity="0.8">Урок 8 из 35</text>
-  
-  <!-- Decorative elements based on chapter -->
-  <path d="M 60 220 Q 110 130 160 220 T 260 220 T 360 220 T 460 220" fill="none" stroke="#67e8f9" stroke-width="2.5" opacity="0.7"/>
 </svg>

@@ -1,35 +1,89 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Темный фон -->
+  <rect width="500" height="350" fill="#0a0a1a"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#3a4a6a" stroke-width="2" rx="5"/>
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#2a3a5a" stroke-width="1" rx="3"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" text-anchor="middle" fill="#e0e0ff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Сила Лоренца</text>
+  
+  <!-- Магнитное поле B (вектор) -->
+  <g id="magnetic-field">
+    <circle cx="100" cy="180" r="3" fill="#4a9eff"/>
+    <line x1="100" y1="180" x2="100" y2="140" stroke="#4a9eff" stroke-width="2" marker-end="url(#arrowhead-blue)"/>
+    <text x="105" y="165" fill="#4a9eff" font-family="Arial, sans-serif" font-size="14">B</text>
+  </g>
+  
+  <!-- Дополнительные символы магнитного поля -->
+  <g id="magnetic-field-symbols">
+    <text x="80" y="150" fill="#4a9eff" font-size="18">⊗</text>
+    <text x="120" y="150" fill="#4a9eff" font-size="18">⊗</text>
+    <text x="80" y="210" fill="#4a9eff" font-size="18">⊗</text>
+    <text x="120" y="210" fill="#4a9eff" font-size="18">⊗</text>
+  </g>
+  
+  <!-- Вектор скорости v -->
+  <g id="velocity-vector">
+    <line x1="150" y1="180" x2="220" y2="180" stroke="#ff6b4a" stroke-width="2" marker-end="url(#arrowhead-orange)"/>
+    <text x="185" y="175" fill="#ff6b4a" font-family="Arial, sans-serif" font-size="14">v</text>
+  </g>
+  
+  <!-- Спиральная траектория электрона -->
+  <path d="M 220 180 Q 260 160, 300 180 T 380 180" fill="none" stroke="#6aff8a" stroke-width="2" stroke-dasharray="5,3"/>
+  <path d="M 380 180 Q 420 200, 460 180" fill="none" stroke="#6aff8a" stroke-width="2" stroke-dasharray="5,3"/>
+  
+  <!-- Электрон -->
+  <circle cx="220" cy="180" r="5" fill="#ffaa00">
+    <animate attributeName="cx" values="220;300;380;460" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="180;180;180;180" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="210" y="165" fill="#ffaa00" font-family="Arial, sans-serif" font-size="12">e⁻</text>
+  
+  <!-- Радиус траектории -->
+  <line x1="300" y1="180" x2="380" y2="180" stroke="#ff9eaa" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="330" y="175" fill="#ff9eaa" font-family="Arial, sans-serif" font-size="12">R</text>
+  
+  <!-- Сила Лоренца F -->
+  <g id="lorentz-force">
+    <line x1="300" y1="180" x2="300" y2="130" stroke="#ff4a9e" stroke-width="2" marker-end="url(#arrowhead-pink)"/>
+    <text x="305" y="160" fill="#ff4a9e" font-family="Arial, sans-serif" font-size="14">F</text>
+  </g>
+  
+  <!-- Угол α -->
+  <path d="M 290 180 A 10 10 0 0 1 290 170" fill="none" stroke="#ffd94a" stroke-width="1"/>
+  <text x="275" y="175" fill="#ffd94a" font-family="Arial, sans-serif" font-size="12">α</text>
+  
+  <!-- Формулы -->
+  <g id="formulas">
+    <!-- F = qvB sin α -->
+    <rect x="50" y="250" width="180" height="40" fill="#1a1a2a" stroke="#3a4a6a" stroke-width="1" rx="3"/>
+    <text x="140" y="275" text-anchor="middle" fill="#e0e0ff" font-family="Arial, sans-serif" font-size="16">F = qvB sin α</text>
+    
+    <!-- R = mv/(qB) -->
+    <rect x="270" y="250" width="160" height="40" fill="#1a1a2a" stroke="#3a4a6a" stroke-width="1" rx="3"/>
+    <text x="350" y="275" text-anchor="middle" fill="#e0e0ff" font-family="Arial, sans-serif" font-size="16">R = mv/(qB)</text>
+  </g>
+  
+  <!-- Маркеры для стрелок -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e1b4b"/>
-      <stop offset="100%" style="stop-color:#6366f1"/>
-    </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:0"/>
-    </radialGradient>
+    <marker id="arrowhead-blue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4a9eff"/>
+    </marker>
+    <marker id="arrowhead-orange" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ff6b4a"/>
+    </marker>
+    <marker id="arrowhead-pink" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ff4a9e"/>
+    </marker>
   </defs>
   
-  <!-- Background -->
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  
-  <!-- Decorative circles -->
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#a78bfa" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#a78bfa" opacity="0.3"/>
-  
-  <!-- Lesson number in center -->
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#e0e7ff" text-anchor="middle">3</text>
-  
-  <!-- Chapter label at top -->
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e0e7ff" text-anchor="middle" opacity="0.8">ФИЗИКА · 11 КЛАСС</text>
-  
-  <!-- Lesson title at bottom -->
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e0e7ff" text-anchor="middle">Урок 3: Сила Лоренца</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#a78bfa" text-anchor="middle" opacity="0.8">Урок 3 из 35</text>
-  
-  <!-- Decorative elements based on chapter -->
-  <path d="M 80 175 Q 250 100 420 175" fill="none" stroke="#a78bfa" stroke-width="2" opacity="0.6"/><path d="M 80 175 Q 250 250 420 175" fill="none" stroke="#a78bfa" stroke-width="2" opacity="0.6"/><circle cx="80" cy="175" r="6" fill="#a78bfa"/><circle cx="420" cy="175" r="6" fill="#a78bfa"/>
+  <!-- Дополнительные декоративные элементы -->
+  <g id="decorative-elements" opacity="0.3">
+    <circle cx="50" cy="100" r="2" fill="#4a9eff"/>
+    <circle cx="450" cy="100" r="2" fill="#4a9eff"/>
+    <circle cx="50" cy="260" r="2" fill="#4a9eff"/>
+    <circle cx="450" cy="260" r="2" fill="#4a9eff"/>
+  </g>
 </svg>

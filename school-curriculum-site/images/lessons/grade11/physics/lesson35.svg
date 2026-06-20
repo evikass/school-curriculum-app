@@ -1,35 +1,137 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#1a1a2e"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#4a7c7e" stroke-width="2" rx="5"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#e94560">Ядерные реакции</text>
+  
+  <!-- Разделительная линия -->
+  <line x1="50" y1="60" x2="450" y2="60" stroke="#4a7c7e" stroke-width="1"/>
+  
+  <!-- Деление урана -->
+  <g transform="translate(125, 100)">
+    <text x="0" y="-10" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#f5f5f5">Деление урана</text>
+    
+    <!-- Ядро урана -->
+    <circle cx="0" cy="20" r="25" fill="#ff6b6b" stroke="#fff" stroke-width="2"/>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#fff">²³⁵U</text>
+    
+    <!-- Стрелка деления -->
+    <path d="M-20,40 Q0,60 20,40" fill="none" stroke="#4ecdc4" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Продукты деления -->
+    <circle cx="-40" cy="70" r="15" fill="#ffe66d" stroke="#fff" stroke-width="1.5"/>
+    <text x="-40" y="75" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Kr</text>
+    
+    <circle cx="40" cy="70" r="15" fill="#ffe66d" stroke="#fff" stroke-width="1.5"/>
+    <text x="40" y="75" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Ba</text>
+    
+    <!-- Нейтроны -->
+    <circle cx="-20" cy="90" r="5" fill="#a8e6cf" stroke="#fff" stroke-width="1"/>
+    <text x="-20" y="95" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#333">n</text>
+    
+    <circle cx="0" cy="90" r="5" fill="#a8e6cf" stroke="#fff" stroke-width="1"/>
+    <text x="0" y="95" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#333">n</text>
+    
+    <circle cx="20" cy="90" r="5" fill="#a8e6cf" stroke="#fff" stroke-width="1"/>
+    <text x="20" y="95" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#333">n</text>
+    
+    <!-- Энергия -->
+    <path d="M-60,110 Q-50,100 -40,110" fill="none" stroke="#ff9f43" stroke-width="2"/>
+    <path d="M-40,110 Q-30,100 -20,110" fill="none" stroke="#ff9f43" stroke-width="2"/>
+    <path d="M20,110 Q30,100 40,110" fill="none" stroke="#ff9f43" stroke-width="2"/>
+    <path d="M40,110 Q50,100 60,110" fill="none" stroke="#ff9f43" stroke-width="2"/>
+    <text x="0" y="125" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#ff9f43">+ энергия</text>
+  </g>
+  
+  <!-- Синтез -->
+  <g transform="translate(375, 100)">
+    <text x="0" y="-10" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#f5f5f5">Термоядерный синтез</text>
+    
+    <!-- Дейтерий -->
+    <circle cx="-30" cy="30" r="15" fill="#a8e6cf" stroke="#fff" stroke-width="1.5"/>
+    <text x="-30" y="35" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">D</text>
+    
+    <!-- Тритий -->
+    <circle cx="30" cy="30" r="15" fill="#a8e6cf" stroke="#fff" stroke-width="1.5"/>
+    <text x="30" y="35" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">T</text>
+    
+    <!-- Стрелка синтеза -->
+    <path d="M-20,45 Q0,65 20,45" fill="none" stroke="#4ecdc4" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Продукты синтеза -->
+    <circle cx="0" cy="70" r="20" fill="#ff6b6b" stroke="#fff" stroke-width="2"/>
+    <text x="0" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#fff">⁴He</text>
+    
+    <circle cx="35" cy="85" r="8" fill="#a8e6cf" stroke="#fff" stroke-width="1"/>
+    <text x="35" y="89" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">n</text>
+    
+    <!-- Энергия -->
+    <path d="M-20,100 Q-10,90 0,100" fill="none" stroke="#ff9f43" stroke-width="2"/>
+    <path d="M0,100 Q10,90 20,100" fill="none" stroke="#ff9f43" stroke-width="2"/>
+    <path d="M20,100 Q30,90 40,100" fill="none" stroke="#ff9f43" stroke-width="2"/>
+    <text x="0" y="115" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#ff9f43">+ энергия</text>
+  </g>
+  
+  <!-- Формула Эйнштейна -->
+  <g transform="translate(250, 210)">
+    <rect x="-80" y="-20" width="160" height="50" fill="#2d3436" stroke="#4ecdc4" stroke-width="1" rx="5"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#fff">Q = Δmc²</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#4ecdc4">Закон эквивалентности</text>
+  </g>
+  
+  <!-- Реакция синтеза -->
+  <g transform="translate(250, 280)">
+    <rect x="-100" y="-15" width="200" height="40" fill="#2d3436" stroke="#ff6b6b" stroke-width="1" rx="5"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#fff">D + T → ⁴He + n</text>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#ff6b6b">Реакция дейтерия-трития</text>
+  </g>
+  
+  <!-- Определения -->
+  <g transform="translate(50, 250)">
+    <text font-family="Arial, sans-serif" font-size="11" fill="#ddd">
+      <tspan x="0" y="0">D - дейтерий (²H)</tspan>
+      <tspan x="0" y="15">T - тритий (³H)</tspan>
+      <tspan x="0" y="30">n - нейтрон</tspan>
+    </text>
+  </g>
+  
+  <!-- Дополнительные частицы для визуализации -->
+  <g transform="translate(420, 250)">
+    <text font-family="Arial, sans-serif" font-size="11" fill="#ddd">
+      <tspan x="0" y="0">Q - энергия</tspan>
+      <tspan x="0" y="15">Δm - дефект масс</tspan>
+      <tspan x="0" y="30">c - скорость света</tspan>
+    </text>
+  </g>
+  
+  <!-- Символы частиц -->
+  <g transform="translate(50, 100)">
+    <circle cx="0" cy="0" r="8" fill="#a8e6cf" stroke="#fff" stroke-width="1"/>
+    <text x="0" y="4" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">n</text>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#ddd">нейтрон</text>
+  </g>
+  
+  <g transform="translate(50, 150)">
+    <circle cx="0" cy="0" r="8" fill="#ff6b6b" stroke="#fff" stroke-width="1"/>
+    <text x="0" y="4" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#fff">p</text>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#ddd">протон</text>
+  </g>
+  
+  <!-- Маркер стрелки -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#7f1d1d"/>
-      <stop offset="100%" style="stop-color:#ef4444"/>
-    </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fca5a5;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#fca5a5;stop-opacity:0"/>
-    </radialGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4ecdc4"/>
+    </marker>
   </defs>
   
-  <!-- Background -->
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  
-  <!-- Decorative circles -->
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#fca5a5" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#fca5a5" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#fca5a5" opacity="0.3"/>
-  
-  <!-- Lesson number in center -->
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fee2e2" text-anchor="middle">35</text>
-  
-  <!-- Chapter label at top -->
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fee2e2" text-anchor="middle" opacity="0.8">ФИЗИКА · 11 КЛАСС</text>
-  
-  <!-- Lesson title at bottom -->
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fee2e2" text-anchor="middle">Урок 35: Ядерные реакции. Деление и синтез ядер</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fca5a5" text-anchor="middle" opacity="0.8">Урок 35 из 35</text>
-  
-  <!-- Decorative elements based on chapter -->
-  <circle cx="240" cy="170" r="14" fill="#fca5a5" opacity="0.8"/><circle cx="265" cy="180" r="14" fill="#fee2e2" opacity="0.8"/><circle cx="250" cy="155" r="14" fill="#fca5a5" opacity="0.8"/><circle cx="235" cy="195" r="14" fill="#fee2e2" opacity="0.8"/><circle cx="260" cy="165" r="14" fill="#fca5a5" opacity="0.8"/>
+  <!-- Дополнительные элементы украшения -->
+  <g opacity="0.3">
+    <circle cx="250" cy="175" r="30" fill="none" stroke="#4ecdc4" stroke-width="1" stroke-dasharray="5,5"/>
+    <circle cx="250" cy="175" r="40" fill="none" stroke="#ff6b6b" stroke-width="1" stroke-dasharray="5,5"/>
+    <circle cx="250" cy="175" r="50" fill="none" stroke="#ffe66d" stroke-width="1" stroke-dasharray="5,5"/>
+  </g>
 </svg>

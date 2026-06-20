@@ -1,35 +1,82 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
-  <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#78350f"/>
-      <stop offset="100%" style="stop-color:#f59e0b"/>
-    </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fcd34d;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#fcd34d;stop-opacity:0"/>
-    </radialGradient>
-  </defs>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Темный фон -->
+  <rect width="500" height="350" fill="#1a1a2e"/>
   
-  <!-- Background -->
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#4a7c7e" stroke-width="2" rx="5"/>
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#4a7c7e" stroke-width="1" rx="5" opacity="0.5"/>
   
-  <!-- Decorative circles -->
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#fcd34d" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#fcd34d" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#fcd34d" opacity="0.3"/>
+  <!-- Заголовок -->
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#e94560" font-weight="bold">Линзы</text>
   
-  <!-- Lesson number in center -->
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fef3c7" text-anchor="middle">21</text>
+  <!-- Главная оптическая ось -->
+  <line x1="50" y1="200" x2="450" y2="200" stroke="#7ec8e3" stroke-width="1" stroke-dasharray="5,5"/>
   
-  <!-- Chapter label at top -->
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fef3c7" text-anchor="middle" opacity="0.8">ФИЗИКА · 11 КЛАСС</text>
+  <!-- Собирающая линза -->
+  <path d="M 200 120 Q 250 100 300 120 L 300 280 Q 250 300 200 280 Z" fill="none" stroke="#7ec8e3" stroke-width="3"/>
   
-  <!-- Lesson title at bottom -->
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fef3c7" text-anchor="middle">Урок 21: Линзы. Построение изображений</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fcd34d" text-anchor="middle" opacity="0.8">Урок 21 из 35</text>
+  <!-- Фокусы -->
+  <circle cx="200" cy="200" r="3" fill="#e94560"/>
+  <circle cx="300" cy="200" r="3" fill="#e94560"/>
+  <text x="195" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#e94560">F</text>
+  <text x="305" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#e94560">F</text>
   
-  <!-- Decorative elements based on chapter -->
-  <polygon points="220,120 280,220 160,220" fill="#fcd34d" opacity="0.4"/><line x1="100" y1="170" x2="200" y2="170" stroke="#fef3c7" stroke-width="2"/><line x1="200" y1="170" x2="350" y2="220" stroke="#ff6b6b" stroke-width="2"/><line x1="200" y1="170" x2="360" y2="180" stroke="#feca57" stroke-width="2"/><line x1="200" y1="170" x2="370" y2="150" stroke="#48dbfb" stroke-width="2"/>
+  <!-- Предмет (стрелка) -->
+  <line x1="100" y1="200" x2="100" y2="150" stroke="#f39c12" stroke-width="2"/>
+  <polygon points="100,150 95,160 105,160" fill="#f39c12"/>
+  <text x="100" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#f39c12">Предмет</text>
+  
+  <!-- Изображение (стрелка) -->
+  <line x1="400" y1="200" x2="400" y2="250" stroke="#f39c12" stroke-width="2"/>
+  <polygon points="400,250 395,240 405,240" fill="#f39c12"/>
+  <text x="400" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#f39c12">Изображение</text>
+  
+  <!-- Ход лучей -->
+  <!-- Луч 1: параллельно оси, через фокус -->
+  <line x1="100" y1="150" x2="250" y2="150" stroke="#00d2d3" stroke-width="1.5"/>
+  <line x1="250" y1="150" x2="400" y2="250" stroke="#00d2d3" stroke-width="1.5"/>
+  
+  <!-- Луч 2: через центр линзы -->
+  <line x1="100" y1="150" x2="400" y2="250" stroke="#00d2d3" stroke-width="1.5"/>
+  
+  <!-- Луч 3: через фокус, параллельно оси -->
+  <line x1="100" y1="150" x2="200" y2="200" stroke="#00d2d3" stroke-width="1.5"/>
+  <line x1="250" y1="200" x2="400" y2="250" stroke="#00d2d3" stroke-width="1.5"/>
+  
+  <!-- Расстояния -->
+  <line x1="100" y1="320" x2="250" y2="320" stroke="#7ec8e3" stroke-width="1"/>
+  <line x1="250" y1="315" x2="250" y2="325" stroke="#7ec8e3" stroke-width="1"/>
+  <line x1="100" y1="315" x2="100" y2="325" stroke="#7ec8e3" stroke-width="1"/>
+  <text x="175" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7ec8e3">d</text>
+  
+  <line x1="250" y1="320" x2="400" y2="320" stroke="#7ec8e3" stroke-width="1"/>
+  <line x1="400" y1="315" x2="400" y2="325" stroke="#7ec8e3" stroke-width="1"/>
+  <line x1="250" y1="315" x2="250" y2="325" stroke="#7ec8e3" stroke-width="1"/>
+  <text x="325" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7ec8e3">f</text>
+  
+  <!-- Формула линзы -->
+  <text x="250" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7ec8e3">
+    <tspan font-style="italic">1</tspan>/<tspan font-style="italic">F</tspan> = <tspan font-style="italic">1</tspan>/<tspan font-style="italic">d</tspan> + <tspan font-style="italic">1</tspan>/<tspan font-style="italic">f</tspan>
+  </text>
+  
+  <!-- Обозначения -->
+  <text x="50" y="340" font-family="Arial, sans-serif" font-size="12" fill="#7ec8e3">d - расстояние от предмета до линзы</text>
+  <text x="300" y="340" font-family="Arial, sans-serif" font-size="12" fill="#7ec8e3">f - расстояние от изображения до линзы</text>
+  
+  <!-- Дополнительные элементы -->
+  <circle cx="250" cy="200" r="2" fill="#7ec8e3"/>
+  <text x="255" y="205" font-family="Arial, sans-serif" font-size="10" fill="#7ec8e3">O</text>
+  
+  <!-- Вершины линзы -->
+  <circle cx="200" cy="120" r="2" fill="#7ec8e3"/>
+  <circle cx="200" cy="280" r="2" fill="#7ec8e3"/>
+  <circle cx="300" cy="120" r="2" fill="#7ec8e3"/>
+  <circle cx="300" cy="280" r="2" fill="#7ec8e3"/>
+  
+  <!-- Дополнительные лучи для наглядности -->
+  <line x1="100" y1="150" x2="200" y2="120" stroke="#00d2d3" stroke-width="0.5" opacity="0.5"/>
+  <line x1="300" y1="120" x2="400" y2="250" stroke="#00d2d3" stroke-width="0.5" opacity="0.5"/>
+  
+  <line x1="100" y1="150" x2="200" y2="280" stroke="#00d2d3" stroke-width="0.5" opacity="0.5"/>
+  <line x1="300" y2="280" x2="400" y2="250" stroke="#00d2d3" stroke-width="0.5" opacity="0.5"/>
 </svg>

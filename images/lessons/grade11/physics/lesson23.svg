@@ -1,35 +1,87 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
-  <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#78350f"/>
-      <stop offset="100%" style="stop-color:#f59e0b"/>
-    </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fcd34d;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#fcd34d;stop-opacity:0"/>
-    </radialGradient>
-  </defs>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Темный фон -->
+  <rect width="500" height="350" fill="#1a1a2e"/>
   
-  <!-- Background -->
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#4a7c7e" stroke-width="2"/>
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#4a7c7e" stroke-width="1" opacity="0.5"/>
   
-  <!-- Decorative circles -->
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#fcd34d" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#fcd34d" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#fcd34d" opacity="0.3"/>
+  <!-- Заголовок -->
+  <text x="250" y="40" text-anchor="middle" fill="#e94560" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Интерференция волн</text>
   
-  <!-- Lesson number in center -->
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fef3c7" text-anchor="middle">23</text>
+  <!-- Источник света -->
+  <circle cx="80" cy="175" r="15" fill="#f9f9f9"/>
+  <text x="80" y="180" text-anchor="middle" fill="#1a1a2e" font-family="Arial, sans-serif" font-size="14" font-weight="bold">S</text>
   
-  <!-- Chapter label at top -->
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fef3c7" text-anchor="middle" opacity="0.8">ФИЗИКА · 11 КЛАСС</text>
+  <!-- Две щели -->
+  <rect x="180" y="160" width="3" height="30" fill="#f9f9f9"/>
+  <rect x="180" y="195" width="3" height="30" fill="#f9f9f9"/>
   
-  <!-- Lesson title at bottom -->
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fef3c7" text-anchor="middle">Урок 23: Интерференция света</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fcd34d" text-anchor="middle" opacity="0.8">Урок 23 из 35</text>
+  <!-- Волны от источника к щелям -->
+  <g opacity="0.6">
+    <path d="M 95 175 Q 120 155, 145 175" fill="none" stroke="#5dade2" stroke-width="1.5"/>
+    <path d="M 95 175 Q 120 195, 145 175" fill="none" stroke="#5dade2" stroke-width="1.5"/>
+    <path d="M 100 175 Q 125 150, 150 175" fill="none" stroke="#5dade2" stroke-width="1.5"/>
+    <path d="M 100 175 Q 125 200, 150 175" fill="none" stroke="#5dade2" stroke-width="1.5"/>
+  </g>
   
-  <!-- Decorative elements based on chapter -->
-  <polygon points="220,120 280,220 160,220" fill="#fcd34d" opacity="0.4"/><line x1="100" y1="170" x2="200" y2="170" stroke="#fef3c7" stroke-width="2"/><line x1="200" y1="170" x2="350" y2="220" stroke="#ff6b6b" stroke-width="2"/><line x1="200" y1="170" x2="360" y2="180" stroke="#feca57" stroke-width="2"/><line x1="200" y1="170" x2="370" y2="150" stroke="#48dbfb" stroke-width="2"/>
+  <!-- Волны от щелей -->
+  <g opacity="0.7">
+    <!-- От верхней щели -->
+    <path d="M 183 175 Q 210 155, 240 175" fill="none" stroke="#5dade2" stroke-width="1"/>
+    <path d="M 183 175 Q 210 195, 240 175" fill="none" stroke="#5dade2" stroke-width="1"/>
+    <path d="M 190 175 Q 220 150, 250 175" fill="none" stroke="#5dade2" stroke-width="1"/>
+    <path d="M 190 175 Q 220 200, 250 175" fill="none" stroke="#5dade2" stroke-width="1"/>
+    <path d="M 197 175 Q 230 145, 260 175" fill="none" stroke="#5dade2" stroke-width="1"/>
+    <path d="M 197 175 Q 230 205, 260 175" fill="none" stroke="#5dade2" stroke-width="1"/>
+    
+    <!-- От нижней щели -->
+    <path d="M 183 210 Q 210 190, 240 210" fill="none" stroke="#5dade2" stroke-width="1"/>
+    <path d="M 183 210 Q 210 230, 240 210" fill="none" stroke="#5dade2" stroke-width="1"/>
+    <path d="M 190 210 Q 220 185, 250 210" fill="none" stroke="#5dade2" stroke-width="1"/>
+    <path d="M 190 210 Q 220 235, 250 210" fill="none" stroke="#5dade2" stroke-width="1"/>
+    <path d="M 197 210 Q 230 180, 260 210" fill="none" stroke="#5dade2" stroke-width="1"/>
+    <path d="M 197 210 Q 230 240, 260 210" fill="none" stroke="#5dade2" stroke-width="1"/>
+  </g>
+  
+  <!-- Экран -->
+  <rect x="300" y="100" width="5" height="150" fill="#f9f9f9"/>
+  
+  <!-- Интерференционные полосы -->
+  <g opacity="0.9">
+    <rect x="305" y="110" width="80" height="8" fill="#e74c3c"/>
+    <rect x="305" y="130" width="80" height="8" fill="#f9f9f9"/>
+    <rect x="305" y="150" width="80" height="8" fill="#e74c3c"/>
+    <rect x="305" y="170" width="80" height="8" fill="#f9f9f9"/>
+    <rect x="305" y="190" width="80" height="8" fill="#e74c3c"/>
+    <rect x="305" y="210" width="80" height="8" fill="#f9f9f9"/>
+    <rect x="305" y="230" width="80" height="8" fill="#e74c3c"/>
+  </g>
+  
+  <!-- Расстояния -->
+  <g stroke="#f9f9f9" stroke-width="1" fill="none">
+    <line x1="80" y1="280" x2="180" y2="280" stroke-dasharray="2,2"/>
+    <line x1="80" y1="275" x2="80" y2="285"/>
+    <line x1="180" y1="275" x2="180" y2="285"/>
+    
+    <line x1="180" y1="305" x2="300" y2="305" stroke-dasharray="2,2"/>
+    <line x1="180" y1="300" x2="180" y2="310"/>
+    <line x1="300" y1="300" x2="300" y2="310"/>
+  </g>
+  
+  <!-- Подписи расстояний -->
+  <text x="130" y="295" text-anchor="middle" fill="#f9f9f9" font-family="Arial, sans-serif" font-size="12">L</text>
+  <text x="240" y="320" text-anchor="middle" fill="#f9f9f9" font-family="Arial, sans-serif" font-size="12">l</text>
+  
+  <!-- Формула -->
+  <rect x="150" y="60" width="200" height="30" fill="#0f3460" stroke="#5dade2" stroke-width="1" rx="5"/>
+  <text x="250" y="80" text-anchor="middle" fill="#f9f9f9" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Δd = nλ</text>
+  
+  <!-- Объяснения -->
+  <text x="250" y="330" text-anchor="middle" fill="#f9f9f9" font-family="Arial, sans-serif" font-size="11">Опыт Юнга: интерференция света от двух когерентных источников</text>
+  
+  <!-- Метки на схеме -->
+  <text x="80" y="155" text-anchor="middle" fill="#f9f9f9" font-family="Arial, sans-serif" font-size="11">Источник</text>
+  <text x="180" y="145" text-anchor="middle" fill="#f9f9f9" font-family="Arial, sans-serif" font-size="11">Щели</text>
+  <text x="325" y="90" text-anchor="middle" fill="#f9f9f9" font-family="Arial, sans-serif" font-size="11">Экран</text>
 </svg>

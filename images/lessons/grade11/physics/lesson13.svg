@@ -1,35 +1,144 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#4a90e2" stroke-width="2" rx="5"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#4a90e2" stroke-width="1" rx="3" opacity="0.5"/>
+  
+  <!-- Фоновый градиент -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0c4a6e"/>
-      <stop offset="100%" style="stop-color:#06b6d4"/>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f0f1e;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#67e8f9;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#67e8f9;stop-opacity:0"/>
-    </radialGradient>
+    
+    <!-- Синусоидальный градиент -->
+    <linearGradient id="sinGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#4a90e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a90e2;stop-opacity:0.3" />
+    </linearGradient>
   </defs>
   
-  <!-- Background -->
+  <!-- Фон -->
   <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
   
-  <!-- Decorative circles -->
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#67e8f9" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#67e8f9" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#67e8f9" opacity="0.3"/>
+  <!-- Заголовок -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#ffffff">
+    Переменный ток
+  </text>
   
-  <!-- Lesson number in center -->
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#cffafe" text-anchor="middle">13</text>
+  <!-- Сетка координат -->
+  <g stroke="#3a3a4a" stroke-width="0.5">
+    <!-- Вертикальные линии сетки -->
+    <line x1="80" y1="80" x2="80" y2="280" />
+    <line x1="130" y1="80" x2="130" y2="280" />
+    <line x1="180" y1="80" x2="180" y2="280" />
+    <line x1="230" y1="80" x2="230" y2="280" />
+    <line x1="280" y1="80" x2="280" y2="280" />
+    <line x1="330" y1="80" x2="330" y2="280" />
+    <line x1="380" y1="80" x2="380" y2="280" />
+    <line x1="430" y1="80" x2="430" y2="280" />
+    
+    <!-- Горизонтальные линии сетки -->
+    <line x1="80" y1="130" x2="430" y2="130" />
+    <line x1="80" y1="180" x2="430" y2="180" />
+    <line x1="80" y1="230" x2="430" y2="230" />
+  </g>
   
-  <!-- Chapter label at top -->
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#cffafe" text-anchor="middle" opacity="0.8">ФИЗИКА · 11 КЛАСС</text>
+  <!-- Оси координат -->
+  <g stroke="#ffffff" stroke-width="2">
+    <!-- Ось X -->
+    <line x1="50" y1="180" x2="460" y2="180" />
+    <polygon points="460,180 455,175 455,185" fill="#ffffff" />
+    
+    <!-- Ось Y -->
+    <line x1="255" y1="70" x2="255" y2="290" />
+    <polygon points="255,70 250,75 260,75" fill="#ffffff" />
+  </g>
   
-  <!-- Lesson title at bottom -->
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#cffafe" text-anchor="middle">Урок 13: Переменный электрический ток</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#67e8f9" text-anchor="middle" opacity="0.8">Урок 13 из 35</text>
+  <!-- Подписи осей -->
+  <text x="465" y="185" font-family="Arial, sans-serif" font-size="14" fill="#ffffff">t</text>
+  <text x="260" y="75" font-family="Arial, sans-serif" font-size="14" fill="#ffffff">I</text>
   
-  <!-- Decorative elements based on chapter -->
-  <path d="M 60 220 Q 110 130 160 220 T 260 220 T 360 220 T 460 220" fill="none" stroke="#67e8f9" stroke-width="2.5" opacity="0.7"/>
+  <!-- Деления на оси X -->
+  <g stroke="#ffffff" stroke-width="1">
+    <line x1="130" y1="175" x2="130" y2="185" />
+    <line x1="180" y1="175" x2="180" y2="185" />
+    <line x1="230" y1="175" x2="230" y2="185" />
+    <line x1="280" y1="175" x2="280" y2="185" />
+    <line x1="330" y1="175" x2="330" y2="185" />
+    <line x1="380" y1="175" x2="380" y2="185" />
+    <line x1="430" y1="175" x2="430" y2="185" />
+  </g>
+  
+  <!-- Деления на оси Y -->
+  <g stroke="#ffffff" stroke-width="1">
+    <line x1="250" y1="130" x2="260" y2="130" />
+    <line x1="250" y1="230" x2="260" y2="230" />
+  </g>
+  
+  <!-- Подписи делений -->
+  <text x="130" y="200" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#aaaaaa">π/2</text>
+  <text x="180" y="200" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#aaaaaa">π</text>
+  <text x="230" y="200" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#aaaaaa">3π/2</text>
+  <text x="280" y="200" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#aaaaaa">2π</text>
+  <text x="240" y="125" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#aaaaaa">I₀</text>
+  <text x="240" y="235" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#aaaaaa">-I₀</text>
+  
+  <!-- Синусоида -->
+  <path d="M 80,180 
+           C 105,130 105,130 130,130
+           S 155,180 180,180
+           S 205,230 230,230
+           S 255,180 280,180
+           S 305,130 330,130
+           S 355,180 380,180
+           S 405,230 430,230" 
+        fill="none" stroke="#4a90e2" stroke-width="3"/>
+  
+  <!-- Площадь под кривой (полупериод) -->
+  <path d="M 80,180 
+           C 105,130 105,130 130,130
+           S 155,180 180,180
+           L 180,180 L 80,180 Z" 
+        fill="url(#sinGrad)" opacity="0.5"/>
+  
+  <!-- Точки на синусоиде -->
+  <circle cx="80" cy="180" r="4" fill="#ffffff"/>
+  <circle cx="130" cy="130" r="4" fill="#ffffff"/>
+  <circle cx="180" cy="180" r="4" fill="#ffffff"/>
+  <circle cx="230" cy="230" r="4" fill="#ffffff"/>
+  <circle cx="280" cy="180" r="4" fill="#ffffff"/>
+  <circle cx="330" cy="130" r="4" fill="#ffffff"/>
+  <circle cx="380" cy="180" r="4" fill="#ffffff"/>
+  <circle cx="430" cy="230" r="4" fill="#ffffff"/>
+  
+  <!-- Формулы -->
+  <g font-family="Arial, sans-serif" font-size="16" fill="#ffffff">
+    <!-- Первая формула -->
+    <text x="100" y="310" font-weight="bold">I = I₀ sin(ωt)</text>
+    
+    <!-- Вторая формула -->
+    <text x="100" y="330" font-weight="bold">Iд = I₀/√2</text>
+  </g>
+  
+  <!-- Обозначения -->
+  <g font-family="Arial, sans-serif" font-size="12" fill="#aaaaaa">
+    <text x="250" y="310">где I - мгновенное значение силы тока</text>
+    <text x="250" y="325">I₀ - амплитудное значение силы тока</text>
+    <text x="250" y="340">Iд - действующее значение силы тока</text>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <g opacity="0.3">
+    <circle cx="450" cy="50" r="15" fill="none" stroke="#4a90e2" stroke-width="1"/>
+    <circle cx="450" cy="50" r="8" fill="none" stroke="#4a90e2" stroke-width="1"/>
+    <circle cx="50" cy="50" r="10" fill="none" stroke="#4a90e2" stroke-width="1"/>
+    <circle cx="50" cy="50" r="5" fill="none" stroke="#4a90e2" stroke-width="1"/>
+  </g>
+  
+  <!-- Иконка тока -->
+  <g transform="translate(420, 90)">
+    <path d="M 0,0 L -10,-10 L -10,-5 L -5,-5 L -5,5 L -10,5 L -10,0 Z" fill="#4a90e2"/>
+    <path d="M 0,0 L 10,-10 L 10,-5 L 5,-5 L 5,5 L 10,5 L 10,0 Z" fill="#4a90e2"/>
+  </g>
 </svg>

@@ -1,35 +1,84 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Тёмный фон -->
+  <rect width="500" height="350" fill="#1a1a2e"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#4a4a6a" stroke-width="2" rx="5"/>
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#2a2a4a" stroke-width="1" rx="3"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#f0f0f0">Электромагнитные волны</text>
+  
+  <!-- Волновая линия E (синяя) -->
+  <path d="M 80 150 Q 120 100, 160 150 T 240 150 T 320 150 T 400 150" fill="none" stroke="#3498db" stroke-width="3" opacity="0.8"/>
+  
+  <!-- Волновая линия B (красная) -->
+  <path d="M 80 200 Q 120 250, 160 200 T 240 200 T 320 200 T 400 200" fill="none" stroke="#e74c3c" stroke-width="3" opacity="0.8"/>
+  
+  <!-- Вектор E (вертикальные стрелки) -->
+  <g stroke="#3498db" stroke-width="2" fill="#3498db">
+    <line x1="120" y1="130" x2="120" y2="170" marker-end="url(#arrowE)"/>
+    <line x1="200" y1="130" x2="200" y2="170" marker-end="url(#arrowE)"/>
+    <line x1="280" y1="130" x2="280" y2="170" marker-end="url(#arrowE)"/>
+    <line x1="360" y1="130" x2="360" y2="170" marker-end="url(#arrowE)"/>
+  </g>
+  
+  <!-- Вектор B (горизонтальные стрелки) -->
+  <g stroke="#e74c3c" stroke-width="2" fill="#e74c3c">
+    <line x1="100" y1="200" x2="140" y2="200" marker-end="url(#arrowB)"/>
+    <line x1="180" y1="200" x2="220" y2="200" marker-end="url(#arrowB)"/>
+    <line x1="260" y1="200" x2="300" y2="200" marker-end="url(#arrowB)"/>
+    <line x1="340" y1="200" x2="380" y2="200" marker-end="url(#arrowB)"/>
+  </g>
+  
+  <!-- Вектор c (направление распространения) -->
+  <g stroke="#f39c12" stroke-width="3" fill="#f39c12">
+    <line x1="50" y1="175" x2="430" y2="175" marker-end="url(#arrowC)"/>
+  </g>
+  
+  <!-- Подписи для векторов -->
+  <text x="130" y="120" font-family="Arial, sans-serif" font-size="16" fill="#3498db">E</text>
+  <text x="390" y="120" font-family="Arial, sans-serif" font-size="16" fill="#3498db">E</text>
+  <text x="90" y="190" font-family="Arial, sans-serif" font-size="16" fill="#e74c3c">B</text>
+  <text x="390" y="190" font-family="Arial, sans-serif" font-size="16" fill="#e74c3c">B</text>
+  <text x="430" y="175" font-family="Arial, sans-serif" font-size="16" fill="#f39c12">c</text>
+  
+  <!-- Формула скорости света -->
+  <rect x="120" y="240" width="260" height="60" fill="#2a2a4a" stroke="#4a4a6a" stroke-width="1" rx="5"/>
+  <text x="250" y="265" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#f0f0f0">c = 1/√(ε₀μ₀)</text>
+  <text x="250" y="285" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#a0a0a0">Скорость света в вакууме</text>
+  
+  <!-- Дополнительные элементы декора -->
+  <circle cx="80" cy="150" r="3" fill="#3498db" opacity="0.8"/>
+  <circle cx="160" cy="150" r="3" fill="#3498db" opacity="0.8"/>
+  <circle cx="240" cy="150" r="3" fill="#3498db" opacity="0.8"/>
+  <circle cx="320" cy="150" r="3" fill="#3498db" opacity="0.8"/>
+  <circle cx="400" cy="150" r="3" fill="#3498db" opacity="0.8"/>
+  
+  <circle cx="80" cy="200" r="3" fill="#e74c3c" opacity="0.8"/>
+  <circle cx="160" cy="200" r="3" fill="#e74c3c" opacity="0.8"/>
+  <circle cx="240" cy="200" r="3" fill="#e74c3c" opacity="0.8"/>
+  <circle cx="320" cy="200" r="3" fill="#e74c3c" opacity="0.8"/>
+  <circle cx="400" cy="200" r="3" fill="#e74c3c" opacity="0.8"/>
+  
+  <!-- Определители векторов -->
+  <text x="50" y="100" font-family="Arial, sans-serif" font-size="14" fill="#3498db">⟂</text>
+  <text x="50" y="250" font-family="Arial, sans-serif" font-size="14" fill="#e74c3c">⟂</text>
+  
+  <!-- Определители направления -->
+  <text x="440" y="100" font-family="Arial, sans-serif" font-size="14" fill="#f0f0f0">⟂</text>
+  <text x="440" y="250" font-family="Arial, sans-serif" font-size="14" fill="#f0f0f0">⟂</text>
+  
+  <!-- Маркеры стрелок -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#134e4a"/>
-      <stop offset="100%" style="stop-color:#14b8a6"/>
-    </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#5eead4;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#5eead4;stop-opacity:0"/>
-    </radialGradient>
+    <marker id="arrowE" markerWidth="10" markerHeight="10" refX="5" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L5,3 z" fill="#3498db"/>
+    </marker>
+    <marker id="arrowB" markerWidth="10" markerHeight="10" refX="5" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L5,3 z" fill="#e74c3c"/>
+    </marker>
+    <marker id="arrowC" markerWidth="15" markerHeight="15" refX="10" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,10 L10,5 z" fill="#f39c12"/>
+    </marker>
   </defs>
-  
-  <!-- Background -->
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  
-  <!-- Decorative circles -->
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#5eead4" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#5eead4" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#5eead4" opacity="0.3"/>
-  
-  <!-- Lesson number in center -->
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#ccfbf1" text-anchor="middle">16</text>
-  
-  <!-- Chapter label at top -->
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ccfbf1" text-anchor="middle" opacity="0.8">ФИЗИКА · 11 КЛАСС</text>
-  
-  <!-- Lesson title at bottom -->
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#ccfbf1" text-anchor="middle">Урок 16: Электромагнитные волны. Опыты Герца</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#5eead4" text-anchor="middle" opacity="0.8">Урок 16 из 35</text>
-  
-  <!-- Decorative elements based on chapter -->
-  <path d="M 50 250 Q 100 200 150 250 T 250 250 T 350 250 T 450 250" fill="none" stroke="#5eead4" stroke-width="2" opacity="0.6"/><path d="M 50 270 Q 100 220 150 270 T 250 270 T 350 270 T 450 270" fill="none" stroke="#5eead4" stroke-width="2" opacity="0.4"/>
 </svg>

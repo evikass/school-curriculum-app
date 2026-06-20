@@ -1,35 +1,101 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#78350f"/>
-      <stop offset="100%" style="stop-color:#f59e0b"/>
-    </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fcd34d;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#fcd34d;stop-opacity:0"/>
-    </radialGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#00ff00" />
+    </marker>
+    <marker id="arrowhead-red" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ff0000" />
+    </marker>
+    <marker id="arrowhead-blue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#00ccff" />
+    </marker>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1a1a1a" stroke-width="0.5"/>
+    </pattern>
   </defs>
   
-  <!-- Background -->
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#0a0a0a"/>
+  <rect width="500" height="350" fill="url(#grid)" opacity="0.3"/>
   
-  <!-- Decorative circles -->
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#fcd34d" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#fcd34d" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#fcd34d" opacity="0.3"/>
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#333" stroke-width="2" rx="5"/>
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#444" stroke-width="1" rx="3"/>
   
-  <!-- Lesson number in center -->
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fef3c7" text-anchor="middle">20</text>
+  <!-- Заголовок -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle" font-weight="bold">Отражение и преломление света</text>
   
-  <!-- Chapter label at top -->
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fef3c7" text-anchor="middle" opacity="0.8">ФИЗИКА · 11 КЛАСС</text>
+  <!-- Граница сред -->
+  <line x1="50" y1="200" x2="450" y2="200" stroke="#666" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="250" y="220" font-family="Arial, sans-serif" font-size="14" fill="#aaa" text-anchor="middle">Граница раздела сред</text>
   
-  <!-- Lesson title at bottom -->
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fef3c7" text-anchor="middle">Урок 20: Законы отражения и преломления света</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fcd34d" text-anchor="middle" opacity="0.8">Урок 20 из 35</text>
+  <!-- Обозначение сред -->
+  <text x="250" y="180" font-family="Arial, sans-serif" font-size="16" fill="#ffcc00" text-anchor="middle">Среда 1 (n₁)</text>
+  <text x="250" y="280" font-family="Arial, sans-serif" font-size="16" fill="#00ccff" text-anchor="middle">Среда 2 (n₂)</text>
   
-  <!-- Decorative elements based on chapter -->
-  <polygon points="220,120 280,220 160,220" fill="#fcd34d" opacity="0.4"/><line x1="100" y1="170" x2="200" y2="170" stroke="#fef3c7" stroke-width="2"/><line x1="200" y1="170" x2="350" y2="220" stroke="#ff6b6b" stroke-width="2"/><line x1="200" y1="170" x2="360" y2="180" stroke="#feca57" stroke-width="2"/><line x1="200" y1="170" x2="370" y2="150" stroke="#48dbfb" stroke-width="2"/>
+  <!-- Нормаль -->
+  <line x1="250" y1="100" x2="250" y2="300" stroke="#888" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="260" y="105" font-family="Arial, sans-serif" font-size="12" fill="#aaa">N</text>
+  
+  <!-- Падающий луч -->
+  <line x1="150" y1="100" x2="250" y2="200" stroke="#00ff00" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="180" y="140" font-family="Arial, sans-serif" font-size="14" fill="#00ff00">падающий луч</text>
+  
+  <!-- Отраженный луч -->
+  <line x1="250" y1="200" x2="350" y2="100" stroke="#ff0000" stroke-width="2" marker-end="url(#arrowhead-red)"/>
+  <text x="280" y="140" font-family="Arial, sans-serif" font-size="14" fill="#ff0000">отраженный луч</text>
+  
+  <!-- Преломленный луч -->
+  <line x1="250" y1="200" x2="350" y2="280" stroke="#00ccff" stroke-width="2" marker-end="url(#arrowhead-blue)"/>
+  <text x="280" y="250" font-family="Arial, sans-serif" font-size="14" fill="#00ccff">преломленный луч</text>
+  
+  <!-- Углы -->
+  <!-- Угол падения -->
+  <path d="M 250 200 L 250 150 A 50 50 0 0 1 220 173" fill="none" stroke="#00ff00" stroke-width="1" opacity="0.5"/>
+  <text x="240" y="175" font-family="Arial, sans-serif" font-size="12" fill="#00ff00">α₁</text>
+  
+  <!-- Угол отражения -->
+  <path d="M 250 200 L 250 150 A 50 50 0 0 0 280 173" fill="none" stroke="#ff0000" stroke-width="1" opacity="0.5"/>
+  <text x="255" y="175" font-family="Arial, sans-serif" font-size="12" fill="#ff0000">β₁</text>
+  
+  <!-- Угол преломления -->
+  <path d="M 250 200 L 250 250 A 50 50 0 0 0 280 227" fill="none" stroke="#00ccff" stroke-width="1" opacity="0.5"/>
+  <text x="255" y="235" font-family="Arial, sans-serif" font-size="12" fill="#00ccff">α₂</text>
+  
+  <!-- Точка падения -->
+  <circle cx="250" cy="200" r="4" fill="#fff"/>
+  <text x="255" y="205" font-family="Arial, sans-serif" font-size="10" fill="#aaa">O</text>
+  
+  <!-- Законы отражения -->
+  <rect x="50" y="50" width="180" height="40" fill="#1a1a1a" stroke="#444" stroke-width="1" rx="3"/>
+  <text x="140" y="65" font-family="Arial, sans-serif" font-size="11" fill="#aaa" text-anchor="middle">Закон отражения:</text>
+  <text x="140" y="80" font-family="Arial, sans-serif" font-size="12" fill="#00ff00" text-anchor="middle">α₁ = β₁</text>
+  
+  <!-- Закон Снеллиуса -->
+  <rect x="270" y="50" width="180" height="40" fill="#1a1a1a" stroke="#444" stroke-width="1" rx="3"/>
+  <text x="360" y="65" font-family="Arial, sans-serif" font-size="11" fill="#aaa" text-anchor="middle">Закон Снеллиуса:</text>
+  <text x="360" y="80" font-family="Arial, sans-serif" font-size="12" fill="#00ccff" text-anchor="middle">n₁·sin α₁ = n₂·sin α₂</text>
+  
+  <!-- Дополнительные элементы -->
+  <circle cx="150" cy="100" r="3" fill="#00ff00"/>
+  <circle cx="350" cy="100" r="3" fill="#ff0000"/>
+  <circle cx="350" cy="280" r="3" fill="#00ccff"/>
+  
+  <!-- Указатели сред -->
+  <line x1="100" y1="150" x2="200" y2="150" stroke="#ffcc00" stroke-width="1" opacity="0.5"/>
+  <line x1="100" y1="250" x2="200" y2="250" stroke="#00ccff" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Вспомогательные линии -->
+  <line x1="250" y1="150" x2="250" y2="250" stroke="#666" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Указатели углов -->
+  <text x="200" y="190" font-family="Arial, sans-serif" font-size="10" fill="#00ff00">∠i</text>
+  <text x="300" y="190" font-family="Arial, sans-serif" font-size="10" fill="#ff0000">∠r</text>
+  <text x="300" y="240" font-family="Arial, sans-serif" font-size="10" fill="#00ccff">∠e</text>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="50" cy="50" r="2" fill="#444" opacity="0.5"/>
+  <circle cx="450" cy="50" r="2" fill="#444" opacity="0.5"/>
+  <circle cx="50" cy="300" r="2" fill="#444" opacity="0.5"/>
+  <circle cx="450" cy="300" r="2" fill="#444" opacity="0.5"/>
 </svg>

@@ -1,35 +1,101 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#0a0a0a"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#444" stroke-width="2" rx="5"/>
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#222" stroke-width="1" rx="3"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#fff" font-weight="bold">Опыты Резерфорда</text>
+  
+  <!-- Источник альфа-частиц -->
+  <g id="alpha-source">
+    <rect x="40" y="150" width="40" height="60" fill="#4a4a4a" stroke="#666" stroke-width="2" rx="3"/>
+    <text x="60" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">α-источник</text>
+  </g>
+  
+  <!-- Золотая фольга -->
+  <g id="gold-foil">
+    <ellipse cx="250" cy="180" rx="80" ry="100" fill="#FFD700" opacity="0.3" stroke="#FFD700" stroke-width="2"/>
+    <ellipse cx="250" cy="180" rx="70" ry="90" fill="none" stroke="#FFD700" stroke-width="1" stroke-dasharray="5,3" opacity="0.5"/>
+    <text x="250" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#FFD700">Золотая фольга</text>
+  </g>
+  
+  <!-- Ядро атома -->
+  <circle cx="250" cy="180" r="15" fill="#FF6B6B" stroke="#FF6B6B" stroke-width="2"/>
+  <text x="250" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#fff">Ядро</text>
+  
+  <!-- Орбиты электронов -->
+  <circle cx="250" cy="180" r="40" fill="none" stroke="#4ECDC4" stroke-width="1" stroke-dasharray="3,2" opacity="0.6"/>
+  <circle cx="250" cy="180" r="70" fill="none" stroke="#4ECDC4" stroke-width="1" stroke-dasharray="3,2" opacity="0.6"/>
+  <circle cx="250" cy="180" r="100" fill="none" stroke="#4ECDC4" stroke-width="1" stroke-dasharray="3,2" opacity="0.6"/>
+  
+  <!-- Электроны -->
+  <circle cx="290" cy="180" r="4" fill="#4ECDC4"/>
+  <circle cx="250" cy="110" r="4" fill="#4ECDC4"/>
+  <circle cx="210" cy="180" r="4" fill="#4ECDC4"/>
+  <circle cx="250" cy="250" r="4" fill="#4ECDC4"/>
+  
+  <!-- Альфа-частицы - прямые -->
+  <g id="alpha-straight">
+    <line x1="80" y1="160" x2="235" y2="180" stroke="#FF9F1C" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="80" y1="200" x2="235" y2="180" stroke="#FF9F1C" stroke-width="2" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Альфа-частицы - отраженные -->
+  <g id="alpha-reflected">
+    <path d="M 80 150 Q 180 120 400 100" fill="none" stroke="#FF9F1C" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M 80 210 Q 180 240 400 260" fill="none" stroke="#FF9F1C" stroke-width="2" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Альфа-частицы - рассеянные -->
+  <g id="alpha-scattered">
+    <path d="M 80 170 Q 200 140 350 120" fill="none" stroke="#FF9F1C" stroke-width="1.5" opacity="0.7" marker-end="url(#arrowhead-small)"/>
+    <path d="M 80 190 Q 200 220 350 240" fill="none" stroke="#FF9F1C" stroke-width="1.5" opacity="0.7" marker-end="url(#arrowhead-small)"/>
+  </g>
+  
+  <!-- Детектор -->
+  <g id="detector">
+    <rect x="380" y="80" width="80" height="200" fill="#2C3E50" stroke="#34495E" stroke-width="2" rx="3"/>
+    <text x="420" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">Детектор</text>
+    <!-- Счетчики -->
+    <rect x="390" y="100" width="60" height="10" fill="#E74C3C" rx="2"/>
+    <rect x="390" y="130" width="60" height="10" fill="#E74C3C" rx="2"/>
+    <rect x="390" y="160" width="60" height="10" fill="#E74C3C" rx="2"/>
+    <rect x="390" y="190" width="60" height="10" fill="#E74C3C" rx="2"/>
+    <rect x="390" y="220" width="60" height="10" fill="#E74C3C" rx="2"/>
+    <rect x="390" y="250" width="60" height="10" fill="#E74C3C" rx="2"/>
+  </g>
+  
+  <!-- Формула энергии -->
+  <g id="formula">
+    <rect x="140" y="310" width="220" height="25" fill="#1a1a1a" stroke="#555" stroke-width="1" rx="3"/>
+    <text x="250" y="327" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#fff">E_n = -13.6/n² эВ</text>
+  </g>
+  
+  <!-- Стрелки для альфа-частиц -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#831843"/>
-      <stop offset="100%" style="stop-color:#ec4899"/>
-    </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#f9a8d4;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#f9a8d4;stop-opacity:0"/>
-    </radialGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#FF9F1C"/>
+    </marker>
+    <marker id="arrowhead-small" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#FF9F1C"/>
+    </marker>
   </defs>
   
-  <!-- Background -->
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
+  <!-- Указатели на траектории -->
+  <text x="150" y="165" font-family="Arial, sans-serif" font-size="10" fill="#FF9F1C">Прямые</text>
+  <text x="320" y="110" font-family="Arial, sans-serif" font-size="10" fill="#FF9F1C">Отраженные</text>
+  <text x="280" y="150" font-family="Arial, sans-serif" font-size="10" fill="#FF9F1C">Рассеянные</text>
   
-  <!-- Decorative circles -->
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#f9a8d4" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#f9a8d4" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#f9a8d4" opacity="0.3"/>
-  
-  <!-- Lesson number in center -->
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fce7f3" text-anchor="middle">30</text>
-  
-  <!-- Chapter label at top -->
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fce7f3" text-anchor="middle" opacity="0.8">ФИЗИКА · 11 КЛАСС</text>
-  
-  <!-- Lesson title at bottom -->
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fce7f3" text-anchor="middle">Урок 30: Опыты Резерфорда. Планетарная модель атом</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#f9a8d4" text-anchor="middle" opacity="0.8">Урок 30 из 35</text>
-  
-  <!-- Decorative elements based on chapter -->
-  <ellipse cx="250" cy="175" rx="100" ry="35" fill="none" stroke="#f9a8d4" stroke-width="1.5" opacity="0.7"/><ellipse cx="250" cy="175" rx="100" ry="35" fill="none" stroke="#f9a8d4" stroke-width="1.5" opacity="0.7" transform="rotate(60 250 175)"/><ellipse cx="250" cy="175" rx="100" ry="35" fill="none" stroke="#f9a8d4" stroke-width="1.5" opacity="0.7" transform="rotate(120 250 175)"/><circle cx="250" cy="175" r="8" fill="#f9a8d4"/>
+  <!-- Атомная модель -->
+  <g id="atom-model" transform="translate(350, 60)">
+    <circle cx="0" cy="0" r="3" fill="#FF6B6B"/>
+    <circle cx="15" cy="0" r="2" fill="#4ECDC4"/>
+    <circle cx="-15" cy="0" r="2" fill="#4ECDC4"/>
+    <circle cx="0" cy="15" r="2" fill="#4ECDC4"/>
+    <circle cx="0" cy="-15" r="2" fill="#4ECDC4"/>
+    <text x="0" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#fff">Атом</text>
+  </g>
 </svg>

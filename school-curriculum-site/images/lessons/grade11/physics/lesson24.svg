@@ -1,35 +1,81 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
-  <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#78350f"/>
-      <stop offset="100%" style="stop-color:#f59e0b"/>
-    </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fcd34d;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#fcd34d;stop-opacity:0"/>
-    </radialGradient>
-  </defs>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#1a1a2e"/>
   
-  <!-- Background -->
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#4a7c7e" stroke-width="2"/>
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#4a7c7e" stroke-width="1" opacity="0.5"/>
   
-  <!-- Decorative circles -->
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#fcd34d" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#fcd34d" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#fcd34d" opacity="0.3"/>
+  <!-- Заголовок -->
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="24" fill="#f5f5f5" text-anchor="middle" font-weight="bold">Дифракция света</text>
   
-  <!-- Lesson number in center -->
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fef3c7" text-anchor="middle">24</text>
+  <!-- Дифракционная решётка -->
+  <g id="grating">
+    <!-- Решётка -->
+    <rect x="220" y="150" width="60" height="100" fill="#2c3e50"/>
+    <!-- Щели -->
+    <rect x="225" y="155" width="50" height="2" fill="#ecf0f1"/>
+    <rect x="225" y="165" width="50" height="2" fill="#ecf0f1"/>
+    <rect x="225" y="175" width="50" height="2" fill="#ecf0f1"/>
+    <rect x="225" y="185" width="50" height="2" fill="#ecf0f1"/>
+    <rect x="225" y="195" width="50" height="2" fill="#ecf0f1"/>
+    <rect x="225" y="205" width="50" height="2" fill="#ecf0f1"/>
+    <rect x="225" y="215" width="50" height="2" fill="#ecf0f1"/>
+    <rect x="225" y="225" width="50" height="2" fill="#ecf0f1"/>
+    <rect x="225" y="235" width="50" height="2" fill="#ecf0f1"/>
+    <rect x="225" y="245" width="50" height="2" fill="#ecf0f1"/>
+  </g>
   
-  <!-- Chapter label at top -->
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fef3c7" text-anchor="middle" opacity="0.8">ФИЗИКА · 11 КЛАСС</text>
+  <!-- Входящий луч -->
+  <line x1="50" y1="200" x2="220" y2="200" stroke="#e74c3c" stroke-width="3" opacity="0.8"/>
+  <polygon points="220,195 230,200 220,205" fill="#e74c3c" opacity="0.8"/>
   
-  <!-- Lesson title at bottom -->
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fef3c7" text-anchor="middle">Урок 24: Дифракция света. Дифракционная решётка</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fcd34d" text-anchor="middle" opacity="0.8">Урок 24 из 35</text>
+  <!-- Дифракционные лучи -->
+  <!-- Центральный максимум -->
+  <line x1="280" y1="200" x2="450" y2="200" stroke="#3498db" stroke-width="3" opacity="0.8"/>
+  <polygon points="445,195 455,200 445,205" fill="#3498db" opacity="0.8"/>
   
-  <!-- Decorative elements based on chapter -->
-  <polygon points="220,120 280,220 160,220" fill="#fcd34d" opacity="0.4"/><line x1="100" y1="170" x2="200" y2="170" stroke="#fef3c7" stroke-width="2"/><line x1="200" y1="170" x2="350" y2="220" stroke="#ff6b6b" stroke-width="2"/><line x1="200" y1="170" x2="360" y2="180" stroke="#feca57" stroke-width="2"/><line x1="200" y1="170" x2="370" y2="150" stroke="#48dbfb" stroke-width="2"/>
+  <!-- Первый максимум слева -->
+  <line x1="280" y1="200" x2="420" y2="150" stroke="#3498db" stroke-width="2" opacity="0.7"/>
+  <polygon points="415,152 425,148 420,158" fill="#3498db" opacity="0.7"/>
+  
+  <!-- Первый максимум справа -->
+  <line x1="280" y1="200" x2="420" y2="250" stroke="#3498db" stroke-width="2" opacity="0.7"/>
+  <polygon points="415,248 425,252 420,242" fill="#3498db" opacity="0.7"/>
+  
+  <!-- Второй максимум слева -->
+  <line x1="280" y1="200" x2="400" y2="120" stroke="#3498db" stroke-width="1.5" opacity="0.5"/>
+  <polygon points="395,122 405,118 400,128" fill="#3498db" opacity="0.5"/>
+  
+  <!-- Второй максимум справа -->
+  <line x1="280" y1="200" x2="400" y2="280" stroke="#3498db" stroke-width="1.5" opacity="0.5"/>
+  <polygon points="395,278 405,282 400,272" fill="#3498db" opacity="0.5"/>
+  
+  <!-- Углы измерения -->
+  <path d="M 280 200 L 280 150" stroke="#f39c12" stroke-width="1" stroke-dasharray="5,3" opacity="0.7"/>
+  <path d="M 280 200 L 280 250" stroke="#f39c12" stroke-width="1" stroke-dasharray="5,3" opacity="0.7"/>
+  <path d="M 280 150 A 50 50 0 0 1 320 175" stroke="#f39c12" stroke-width="1" fill="none" opacity="0.7"/>
+  <path d="M 280 250 A 50 50 0 0 0 320 225" stroke="#f39c12" stroke-width="1" fill="none" opacity="0.7"/>
+  
+  <!-- Обозначения углов -->
+  <text x="310" y="170" font-family="Arial, sans-serif" font-size="14" fill="#f39c12">φ</text>
+  <text x="310" y="235" font-family="Arial, sans-serif" font-size="14" fill="#f39c12">φ</text>
+  
+  <!-- Формула дифракции -->
+  <rect x="150" y="290" width="200" height="40" fill="#2c3e50" stroke="#4a7c7e" stroke-width="1" rx="5"/>
+  <text x="250" y="315" font-family="Arial, sans-serif" font-size="18" fill="#f5f5f5" text-anchor="middle">d sin φ = mλ</text>
+  
+  <!-- Обозначения -->
+  <text x="140" y="200" font-family="Arial, sans-serif" font-size="12" fill="#ecf0f1">d - шаг решётки</text>
+  <text x="350" y="90" font-family="Arial, sans-serif" font-size="12" fill="#ecf0f1">m - порядок максимума</text>
+  <text x="350" y="105" font-family="Arial, sans-serif" font-size="12" fill="#ecf0f1">λ - длина волны</text>
+  
+  <!-- Подписи к лучам -->
+  <text x="50" y="190" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">Входящий луч</text>
+  <text x="350" y="210" font-family="Arial, sans-serif" font-size="12" fill="#3498db">Дифракционные максимумы</text>
+  
+  <!-- Дополнительные элементы оформления -->
+  <circle cx="250" cy="200" r="3" fill="#f5f5f5"/>
+  <circle cx="220" cy="200" r="2" fill="#f5f5f5"/>
+  <circle cx="280" cy="200" r="2" fill="#f5f5f5"/>
 </svg>

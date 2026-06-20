@@ -1,35 +1,116 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0c4a6e"/>
-      <stop offset="100%" style="stop-color:#06b6d4"/>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a69bd;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6c5ce7;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#67e8f9;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#67e8f9;stop-opacity:0"/>
-    </radialGradient>
   </defs>
   
-  <!-- Background -->
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#1e272e"/>
   
-  <!-- Decorative circles -->
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#67e8f9" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#67e8f9" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#67e8f9" opacity="0.3"/>
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="url(#borderGrad)" stroke-width="2" rx="5"/>
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#4a69bd" stroke-width="0.5" rx="3"/>
   
-  <!-- Lesson number in center -->
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#cffafe" text-anchor="middle">9</text>
+  <!-- Заголовок -->
+  <text x="250" y="35" text-anchor="middle" fill="#dfe6e9" font-family="Arial, sans-serif" font-size="20" font-weight="bold">
+    Гармонические колебания
+  </text>
   
-  <!-- Chapter label at top -->
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#cffafe" text-anchor="middle" opacity="0.8">ФИЗИКА · 11 КЛАСС</text>
+  <!-- Система координат -->
+  <line x1="50" y1="250" x2="450" y2="250" stroke="#b2bec3" stroke-width="1.5"/>
+  <line x1="50" y1="250" x2="50" y2="80" stroke="#b2bec3" stroke-width="1.5"/>
   
-  <!-- Lesson title at bottom -->
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#cffafe" text-anchor="middle">Урок 9: Гармонические колебания. Пружинный маятник</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#67e8f9" text-anchor="middle" opacity="0.8">Урок 9 из 35</text>
+  <!-- Стрелки осей -->
+  <path d="M445,245 L455,250 L445,255" stroke="#b2bec3" stroke-width="1.5" fill="none"/>
+  <path d="M45,85 L50,75 L55,85" stroke="#b2bec3" stroke-width="1.5" fill="none"/>
   
-  <!-- Decorative elements based on chapter -->
-  <path d="M 60 220 Q 110 130 160 220 T 260 220 T 360 220 T 460 220" fill="none" stroke="#67e8f9" stroke-width="2.5" opacity="0.7"/>
+  <!-- Подписи осей -->
+  <text x="460" y="255" fill="#dfe6e9" font-family="Arial, sans-serif" font-size="14">t</text>
+  <text x="40" y="75" fill="#dfe6e9" font-family="Arial, sans-serif" font-size="14">y</text>
+  
+  <!-- Деления на оси времени -->
+  <g stroke="#636e72" stroke-width="0.5">
+    <line x1="100" y1="245" x2="100" y2="255"/>
+    <line x1="150" y1="245" x2="150" y2="255"/>
+    <line x1="200" y1="245" x2="200" y2="255"/>
+    <line x1="250" y1="245" x2="250" y2="255"/>
+    <line x1="300" y1="245" x2="300" y2="255"/>
+    <line x1="350" y1="245" x2="350" y2="255"/>
+    <line x1="400" y1="245" x2="400" y2="255"/>
+  </g>
+  
+  <!-- Деления на оси y -->
+  <g stroke="#636e72" stroke-width="0.5">
+    <line x1="45" y1="150" x2="55" y2="150"/>
+    <line x1="45" y1="200" x2="55" y2="200"/>
+    <line x1="45" y1="100" x2="55" y2="100"/>
+  </g>
+  
+  <!-- Сетка -->
+  <g stroke="#2d3436" stroke-width="0.3" stroke-dasharray="2,2">
+    <line x1="100" y1="80" x2="100" y2="250"/>
+    <line x1="150" y1="80" x2="150" y2="250"/>
+    <line x1="200" y1="80" x2="200" y2="250"/>
+    <line x1="250" y1="80" x2="250" y2="250"/>
+    <line x1="300" y1="80" x2="300" y2="250"/>
+    <line x1="350" y1="80" x2="350" y2="250"/>
+    <line x1="400" y1="80" x2="400" y2="250"/>
+    
+    <line x1="50" y1="150" x2="450" y2="150"/>
+    <line x1="50" y1="200" x2="450" y2="200"/>
+    <line x1="50" y1="100" x2="450" y2="100"/>
+  </g>
+  
+  <!-- Синусоида y = A cos(ωt) -->
+  <path d="M 50,150 
+           C 75,100 100,100 125,150
+           S 175,200 200,250
+           S 250,300 275,250
+           S 325,100 350,150
+           S 400,200 425,250
+           S 450,300 450,250" 
+        stroke="#00cec9" stroke-width="2.5" fill="none"/>
+  
+  <!-- Амплитуда A -->
+  <line x1="50" y1="150" x2="50" y2="250" stroke="#e17055" stroke-width="1" stroke-dasharray="5,3"/>
+  <line x1="45" y1="150" x2="55" y2="150" stroke="#e17055" stroke-width="1"/>
+  <text x="35" y="200" fill="#e17055" font-family="Arial, sans-serif" font-size="12">A</text>
+  
+  <!-- Период T -->
+  <line x1="50" y1="260" x2="200" y2="260" stroke="#a29bfe" stroke-width="1" stroke-dasharray="5,3"/>
+  <line x1="50" y1="255" x2="50" y2="265" stroke="#a29bfe" stroke-width="1"/>
+  <line x1="200" y1="255" x2="200" y2="265" stroke="#a29bfe" stroke-width="1"/>
+  <text x="115" y="275" fill="#a29bfe" font-family="Arial, sans-serif" font-size="12">T</text>
+  
+  <!-- Максимум -->
+  <circle cx="125" cy="100" r="3" fill="#00cec9"/>
+  <text x="130" y="95" fill="#dfe6e9" font-family="Arial, sans-serif" font-size="11">максимум</text>
+  
+  <!-- Минимум -->
+  <circle cx="275" cy="250" r="3" fill="#00cec9"/>
+  <text x="280" y="245" fill="#dfe6e9" font-family="Arial, sans-serif" font-size="11">минимум</text>
+  
+  <!-- Нули -->
+  <circle cx="50" cy="150" r="2" fill="#fd79a8"/>
+  <circle cx="200" cy="250" r="2" fill="#fd79a8"/>
+  <circle cx="350" cy="150" r="2" fill="#fd79a8"/>
+  <text x="55" y="145" fill="#dfe6e9" font-family="Arial, sans-serif" font-size="10">0</text>
+  
+  <!-- Формула -->
+  <text x="250" y="310" text-anchor="middle" fill="#dfe6e9" font-family="Arial, sans-serif" font-size="16">
+    y = A cos(ωt)
+  </text>
+  
+  <!-- Уравнение периода -->
+  <text x="250" y="325" text-anchor="middle" fill="#b2bec3" font-family="Arial, sans-serif" font-size="12">
+    T = 2π/ω
+  </text>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="30" cy="30" r="2" fill="#6c5ce7" opacity="0.7"/>
+  <circle cx="470" cy="30" r="2" fill="#6c5ce7" opacity="0.7"/>
+  <circle cx="30" cy="320" r="2" fill="#6c5ce7" opacity="0.7"/>
+  <circle cx="470" cy="320" r="2" fill="#6c5ce7" opacity="0.7"/>
 </svg>

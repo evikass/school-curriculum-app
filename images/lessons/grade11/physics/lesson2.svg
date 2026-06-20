@@ -1,35 +1,87 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e1b4b"/>
-      <stop offset="100%" style="stop-color:#6366f1"/>
-    </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:0"/>
-    </radialGradient>
+    <style>
+      .title { font: bold 20px Arial; fill: #ffffff; }
+      .label { font: 14px Arial; fill: #ffffff; }
+      .formula { font: 16px Arial; fill: #ffffff; }
+      .small-label { font: 12px Arial; fill: #ffffff; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ffffff" />
+    </marker>
+    <marker id="arrowhead-red" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ff6b6b" />
+    </marker>
   </defs>
   
-  <!-- Background -->
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
+  <!-- Темный фон -->
+  <rect width="500" height="350" fill="#1a1a2e"/>
   
-  <!-- Decorative circles -->
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#a78bfa" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#a78bfa" opacity="0.3"/>
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#4a4a6a" stroke-width="2"/>
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#6a6a8a" stroke-width="1"/>
   
-  <!-- Lesson number in center -->
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#e0e7ff" text-anchor="middle">2</text>
+  <!-- Заголовок -->
+  <text x="250" y="40" text-anchor="middle" class="title">Сила Ампера</text>
   
-  <!-- Chapter label at top -->
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e0e7ff" text-anchor="middle" opacity="0.8">ФИЗИКА · 11 КЛАСС</text>
+  <!-- Магнитное поле (B) - горизонтальные линии -->
+  <g id="magnetic-field">
+    <line x1="50" y1="150" x2="450" y2="150" stroke="#4ecdc4" stroke-width="1" stroke-dasharray="5,3"/>
+    <line x1="50" y1="170" x2="450" y2="170" stroke="#4ecdc4" stroke-width="1" stroke-dasharray="5,3"/>
+    <line x1="50" y1="190" x2="450" y2="190" stroke="#4ecdc4" stroke-width="1" stroke-dasharray="5,3"/>
+    <line x1="50" y1="210" x2="450" y2="210" stroke="#4ecdc4" stroke-width="1" stroke-dasharray="5,3"/>
+    <line x1="50" y1="230" x2="450" y2="230" stroke="#4ecdc4" stroke-width="1" stroke-dasharray="5,3"/>
+    <line x1="50" y1="250" x2="450" y2="250" stroke="#4ecdc4" stroke-width="1" stroke-dasharray="5,3"/>
+    
+    <!-- Символ B -->
+    <text x="30" y="205" class="label">B</text>
+    <line x1="40" y1="200" x2="50" y2="200" stroke="#4ecdc4" stroke-width="2" marker-end="url(#arrowhead)"/>
+  </g>
   
-  <!-- Lesson title at bottom -->
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e0e7ff" text-anchor="middle">Урок 2: Сила Ампера</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#a78bfa" text-anchor="middle" opacity="0.8">Урок 2 из 35</text>
+  <!-- Проводник с током -->
+  <g id="conductor">
+    <line x1="150" y1="100" x2="150" y2="300" stroke="#ffd93d" stroke-width="4"/>
+    <circle cx="150" cy="100" r="3" fill="#ffd93d"/>
+    <circle cx="150" cy="300" r="3" fill="#ffd93d"/>
+    
+    <!-- Ток I -->
+    <line x1="140" y1="120" x2="140" y2="280" stroke="#ffd93d" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="120" y="200" class="label">I</text>
+  </g>
   
-  <!-- Decorative elements based on chapter -->
-  <path d="M 80 175 Q 250 100 420 175" fill="none" stroke="#a78bfa" stroke-width="2" opacity="0.6"/><path d="M 80 175 Q 250 250 420 175" fill="none" stroke="#a78bfa" stroke-width="2" opacity="0.6"/><circle cx="80" cy="175" r="6" fill="#a78bfa"/><circle cx="420" cy="175" r="6" fill="#a78bfa"/>
+  <!-- Сила F -->
+  <g id="force">
+    <line x1="150" y1="200" x2="250" y2="200" stroke="#ff6b6b" stroke-width="3" marker-end="url(#arrowhead-red)"/>
+    <text x="190" y="195" class="label">F</text>
+  </g>
+  
+  <!-- Угол α -->
+  <g id="angle">
+    <path d="M 170 200 A 20 20 0 0 0 170 180" fill="none" stroke="#ffffff" stroke-width="1"/>
+    <text x="175" y="185" class="small-label">α</text>
+  </g>
+  
+  <!-- Формула -->
+  <rect x="150" y="270" width="200" height="40" fill="#2a2a4e" rx="5" stroke="#4a4a6a" stroke-width="1"/>
+  <text x="250" y="295" text-anchor="middle" class="formula">F = BIl sin α</text>
+  
+  <!-- Дополнительные элементы для объема -->
+  <g id="field-lines" opacity="0.3">
+    <circle cx="200" cy="150" r="15" fill="none" stroke="#4ecdc4" stroke-width="1"/>
+    <circle cx="200" cy="150" r="25" fill="none" stroke="#4ecdc4" stroke-width="1"/>
+    <circle cx="300" cy="150" r="15" fill="none" stroke="#4ecdc4" stroke-width="1"/>
+    <circle cx="300" cy="150" r="25" fill="none" stroke="#4ecdc4" stroke-width="1"/>
+  </g>
+  
+  <!-- Направление линий магнитного поля -->
+  <text x="460" y="205" class="small-label">×</text>
+  <text x="30" y="120" class="small-label">⊗</text>
+  
+  <!-- Декоративные элементы -->
+  <g id="decorative" opacity="0.5">
+    <circle cx="50" cy="50" r="2" fill="#4ecdc4"/>
+    <circle cx="450" cy="50" r="2" fill="#4ecdc4"/>
+    <circle cx="50" cy="300" r="2" fill="#4ecdc4"/>
+    <circle cx="450" cy="300" r="2" fill="#4ecdc4"/>
+  </g>
 </svg>
