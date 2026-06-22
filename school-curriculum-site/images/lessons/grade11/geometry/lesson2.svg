@@ -1,23 +1,118 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e1b4b"/>
-      <stop offset="100%" style="stop-color:#6366f1"/>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d0e8f2;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:0"/>
-    </radialGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3a7bc8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5a623;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e09612;stop-opacity:1" />
+    </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+    <marker id="arrowhead-red" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e74c3c" />
+    </marker>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#a78bfa" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#a78bfa" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#e0e7ff" text-anchor="middle">2</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e0e7ff" text-anchor="middle" opacity="0.8">ГЕОМЕТРИЯ · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e0e7ff" text-anchor="middle">Урок 2: Компланарные векторы</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#a78bfa" text-anchor="middle" opacity="0.8">Урок 2 из 25</text>
-  <line x1="100" y1="220" x2="400" y2="130" stroke="#a78bfa" stroke-width="2.5" opacity="0.6"/><polygon points="395,135 400,130 390,128" fill="#a78bfa"/>
+  
+  <!-- Фоновый прямоугольник -->
+  <rect width="500" height="350" fill="url(#grad1)" />
+  
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#4a90e2" stroke-width="2" rx="5" ry="5" />
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#3a7bc8" stroke-width="1" rx="3" ry="3" />
+  
+  <!-- Номер урока -->
+  <text x="460" y="30" font-family="Arial, sans-serif" font-size="14" fill="#666" font-weight="bold">Урок 2</text>
+  
+  <!-- "ГЕОГРАФИЯ · 11 КЛАСС" -->
+  <text x="20" y="30" font-family="Arial, sans-serif" font-size="14" fill="#333" font-weight="bold">ГЕОГРАФИЯ · 11 КЛАСС</text>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="20" fill="#2c3e50" font-weight="bold" text-anchor="middle">Компланарные векторы</text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="75" font-family="Arial, sans-serif" font-size="14" fill="#666" text-anchor="middle">Признак компланарности и разложение по трём некомпланарным векторам</text>
+  
+  <!-- Точка O -->
+  <circle cx="100" cy="200" r="3" fill="#333" />
+  <text x="95" y="220" font-family="Arial, sans-serif" font-size="12" fill="#333">O</text>
+  
+  <!-- Вектор OA -->
+  <line x1="100" y1="200" x2="180" y2="150" stroke="#4a90e2" stroke-width="2" marker-end="url(#arrowhead)" />
+  <text x="135" y="170" font-family="Arial, sans-serif" font-size="14" fill="#4a90e2">a</text>
+  
+  <!-- Вектор OB -->
+  <line x1="100" y1="200" x2="150" y2="270" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead)" />
+  <text x="115" y="240" font-family="Arial, sans-serif" font-size="14" fill="#e74c3c">b</text>
+  
+  <!-- Вектор OC -->
+  <line x1="100" y1="200" x2="220" y2="250" stroke="#27ae60" stroke-width="2" marker-end="url(#arrowhead)" />
+  <text x="155" y="230" font-family="Arial, sans-serif" font-size="14" fill="#27ae60">c</text>
+  
+  <!-- Вектор OD -->
+  <line x1="100" y1="200" x2="250" y2="170" stroke="#f5a623" stroke-width="2" marker-end="url(#arrowhead-red)" stroke-dasharray="5,3" />
+  <text x="170" y="180" font-family="Arial, sans-serif" font-size="14" fill="#f5a623">d</text>
+  
+  <!-- Пунктирная линия для компланарности -->
+  <line x1="180" y1="150" x2="220" y2="250" stroke="#666" stroke-width="1" stroke-dasharray="3,2" />
+  <line x1="220" y1="250" x2="150" y2="270" stroke="#666" stroke-width="1" stroke-dasharray="3,2" />
+  <line x1="150" y1="270" x2="180" y1="150" stroke="#666" stroke-width="1" stroke-dasharray="3,2" />
+  
+  <!-- Плоскость -->
+  <path d="M 180,150 L 220,250 L 150,270 Z" fill="#e8f4f8" fill-opacity="0.5" stroke="#666" stroke-width="1" stroke-dasharray="3,2" />
+  
+  <!-- Формула компланарности -->
+  <rect x="290" y="120" width="200" height="60" fill="white" stroke="#4a90e2" stroke-width="1" rx="3" ry="3" />
+  <text x="390" y="145" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">Векторы a, b, c компланарны,</text>
+  <text x="390" y="165" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">если существуют λ₁, λ₂, λ₃ такие, что:</text>
+  <text x="390" y="180" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">λ₁a + λ₂b + λ₃c = 0</text>
+  
+  <!-- Разделительная линия -->
+  <line x1="20" y1="210" x2="480" y2="210" stroke="#ccc" stroke-width="1" />
+  
+  <!-- Название второго раздела -->
+  <text x="30" y="230" font-family="Arial, sans-serif" font-size="14" fill="#333" font-weight="bold">Разложение вектора по трём некомпланарным векторам</text>
+  
+  <!-- Точка O' -->
+  <circle cx="100" cy="300" r="3" fill="#333" />
+  <text x="95" y="320" font-family="Arial, sans-serif" font-size="12" fill="#333">O'</text>
+  
+  <!-- Векторы a', b', c' (некомпланарные) -->
+  <line x1="100" y1="300" x2="180" y2="250" stroke="#4a90e2" stroke-width="2" marker-end="url(#arrowhead)" />
+  <text x="135" y="270" font-family="Arial, sans-serif" font-size="14" fill="#4a90e2">a'</text>
+  
+  <line x1="100" y1="300" x2="150" y2="350" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead)" />
+  <text x="115" y="330" font-family="Arial, sans-serif" font-size="14" fill="#e74c3c">b'</text>
+  
+  <line x1="100" y1="300" x2="200" y2="320" stroke="#27ae60" stroke-width="2" marker-end="url(#arrowhead)" />
+  <text x="145" y="315" font-family="Arial, sans-serif" font-size="14" fill="#27ae60">c'</text>
+  
+  <!-- Вектор x -->
+  <line x1="100" y1="300" x2="250" y2="280" stroke="#f5a623" stroke-width="3" marker-end="url(#arrowhead-red)" />
+  <text x="170" y="285" font-family="Arial, sans-serif" font-size="14" fill="#f5a623" font-weight="bold">x</text>
+  
+  <!-- Параллельные перенос для иллюстрации разложения -->
+  <line x1="180" y1="250" x2="220" y2="270" stroke="#4a90e2" stroke-width="1" stroke-dasharray="2,2" />
+  <line x1="150" y1="350" x2="190" y2="320" stroke="#e74c3c" stroke-width="1" stroke-dasharray="2,2" />
+  <line x1="200" y1="320" x2="240" y2="300" stroke="#27ae60" stroke-width="1" stroke-dasharray="2,2" />
+  
+  <!-- Параллелограммы для иллюстрации -->
+  <path d="M 100,300 L 180,250 L 220,270 L 140,320 Z" fill="#4a90e2" fill-opacity="0.2" stroke="#4a90e2" stroke-width="1" />
+  <path d="M 140,320 L 190,290 L 230,270 L 180,300 Z" fill="#e74c3c" fill-opacity="0.2" stroke="#e74c3c" stroke-width="1" />
+  <path d="M 180,300 L 230,270 L 250,280 L 200,310 Z" fill="#27ae60" fill-opacity="0.2" stroke="#27ae60" stroke-width="1" />
+  
+  <!-- Формула разложения -->
+  <rect x="290" y="250" width="200" height="60" fill="white" stroke="#4a90e2" stroke-width="1" rx="3" ry="3" />
+  <text x="390" y="270" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">x = αa' + βb' + γc'</text>
+  <text x="390" y="285" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">где α, β, γ — коэффициенты</text>
+  <text x="390" y="300" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">разложения (единственные)</text>
+  
+  <!-- Примечание -->
+  <text x="30" y="330" font-family="Arial, sans-serif" font-size="10" fill="#666">Примечание: Любой вектор в пространстве можно разложить по трём некомпланарным векторам</text>
 </svg>

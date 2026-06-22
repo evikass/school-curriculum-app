@@ -1,23 +1,105 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Градиенты -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e1b4b"/>
-      <stop offset="100%" style="stop-color:#6366f1"/>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:0"/>
-    </radialGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e74c3c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c0392b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2ecc71;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#27ae60;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9b59b6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8e44ad;stop-opacity:1" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#a78bfa" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#a78bfa" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#e0e7ff" text-anchor="middle">4</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e0e7ff" text-anchor="middle" opacity="0.8">ГЕОМЕТРИЯ · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e0e7ff" text-anchor="middle">Урок 4: Скалярное произведение векторов</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#a78bfa" text-anchor="middle" opacity="0.8">Урок 4 из 25</text>
-  <line x1="100" y1="220" x2="400" y2="130" stroke="#a78bfa" stroke-width="2.5" opacity="0.6"/><polygon points="395,135 400,130 390,128" fill="#a78bfa"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#34495e" stroke-width="3" rx="5" ry="5"/>
+  <rect x="15" y="15" width="470" height="325" fill="none" stroke="#34495e" stroke-width="1" rx="3" ry="3"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2c3e50">Урок 4: Скалярное произведение векторов</text>
+  <text x="250" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">ГЕОГРАФИЯ · 11 КЛАСС</text>
+  
+  <!-- Номер урока в углу -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#e74c3c">Урок 4</text>
+  
+  <!-- Основная диаграмма с векторами -->
+  <g transform="translate(250, 200)">
+    <!-- Координатные оси -->
+    <line x1="-100" y1="0" x2="100" y2="0" stroke="#95a5a6" stroke-width="1" stroke-dasharray="2,2"/>
+    <line x1="0" y1="-100" x2="0" y2="100" stroke="#95a5a6" stroke-width="1" stroke-dasharray="2,2"/>
+    
+    <!-- Вектор a -->
+    <line x1="0" y1="0" x2="70" y2="-40" stroke="url(#grad1)" stroke-width="3" marker-end="url(#arrowblue)"/>
+    <text x="35" y="-25" font-family="Arial, sans-serif" font-size="14" fill="#2980b9">a</text>
+    
+    <!-- Вектор b -->
+    <line x1="0" y1="0" x2="50" y2="-70" stroke="url(#grad2)" stroke-width="3" marker-end="url(#arrowred)"/>
+    <text x="25" y="-40" font-family="Arial, sans-serif" font-size="14" fill="#c0392b">b</text>
+    
+    <!-- Угол между векторами -->
+    <path d="M 30,0 A 30,30 0 0,0 21.21,-21.21" fill="none" stroke="#f39c12" stroke-width="2"/>
+    <text x="35" y="8" font-family="Arial, sans-serif" font-size="12" fill="#d35400">φ</text>
+    
+    <!-- Проекция -->
+    <line x1="0" y1="0" x2="50" y2="-40" stroke="#2ecc71" stroke-width="1" stroke-dasharray="3,3"/>
+    <line x1="50" y1="-40" x2="50" y2="-70" stroke="#2ecc71" stroke-width="1" stroke-dasharray="3,3"/>
+    <line x1="50" y1="-70" x2="70" y2="-40" stroke="#95a5a6" stroke-width="1" stroke-dasharray="2,2"/>
+    
+    <!-- Точка начала координат -->
+    <circle cx="0" cy="0" r="3" fill="#34495e"/>
+    <text x="-10" y="15" font-family="Arial, sans-serif" font-size="12" fill="#34495e">O</text>
+  </g>
+  
+  <!-- Стрелки для векторов -->
+  <defs>
+    <marker id="arrowblue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2980b9"/>
+    </marker>
+    <marker id="arrowred" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#c0392b"/>
+    </marker>
+  </defs>
+  
+  <!-- Формула скалярного произведения -->
+  <rect x="50" y="100" width="400" height="40" fill="rgba(236, 240, 241, 0.7)" stroke="#34495e" stroke-width="1" rx="5" ry="5"/>
+  <text x="250" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50">a · b = |a| · |b| · cos(φ)</text>
+  
+  <!-- Свойства скалярного произведения -->
+  <g transform="translate(50, 160)">
+    <rect x="0" y="0" width="190" height="100" fill="rgba(236, 240, 241, 0.7)" stroke="#34495e" stroke-width="1" rx="5" ry="5"/>
+    <text x="95" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Свойства:</text>
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="12" fill="#34495e">1. Коммутативность:</text>
+    <text x="20" y="55" font-family="Arial, sans-serif" font-size="11" fill="#34495e">a · b = b · a</text>
+    <text x="10" y="75" font-family="Arial, sans-serif" font-size="12" fill="#34495e">2. Дистрибутивность:</text>
+    <text x="20" y="90" font-family="Arial, sans-serif" font-size="11" fill="#34495e">a · (b + c) = a · b + a · c</text>
+    
+    <rect x="210" y="0" width="190" height="100" fill="rgba(236, 240, 241, 0.7)" stroke="#34495e" stroke-width="1" rx="5" ry="5"/>
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="12" fill="#34495e">3. Билинейность:</text>
+    <text x="20" y="55" font-family="Arial, sans-serif" font-size="11" fill="#34495e">(λa) · b = λ(a · b)</text>
+    <text x="10" y="75" font-family="Arial, sans-serif" font-size="12" fill="#34495e">4. Ортогональность:</text>
+    <text x="20" y="90" font-family="Arial, sans-serif" font-size="11" fill="#34495e">a ⊥ b ⇔ a · b = 0</text>
+  </g>
+  
+  <!-- Примеры применения -->
+  <rect x="50" y="270" width="400" height="50" fill="rgba(236, 240, 241, 0.7)" stroke="#34495e" stroke-width="1" rx="5" ry="5"/>
+  <text x="250" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Примеры применения в географии:</text>
+  <text x="250" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#34495e">Расчет направления ветра, анализ морских течений, проекции на рельеф местности</text>
+  
+  <!-- Дополнительные элементы для объема -->
+  <circle cx="450" cy="50" r="15" fill="url(#grad3)" opacity="0.5"/>
+  <circle cx="470" cy="60" r="10" fill="url(#grad4)" opacity="0.5"/>
+  <circle cx="430" cy="70" r="8" fill="url(#grad1)" opacity="0.5"/>
+  
+  <rect x="30" y="280" width="10" height="40" fill="url(#grad2)" opacity="0.3"/>
+  <rect x="460" y="280" width="10" height="40" fill="url(#grad3)" opacity="0.3"/>
+  
+  <path d="M 20,330 Q 250,320 480,330" fill="none" stroke="url(#grad4)" stroke-width="2" opacity="0.5"/>
 </svg>

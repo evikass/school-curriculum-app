@@ -1,23 +1,155 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Дефиниции градиентов и паттернов -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#831843"/>
-      <stop offset="100%" style="stop-color:#ec4899"/>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f0e6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8dfd0;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#f9a8d4;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#f9a8d4;stop-opacity:0"/>
+    
+    <linearGradient id="mapGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4c5b9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b8a896;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="portraitShadow">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0" />
     </radialGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#f9a8d4" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#f9a8d4" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#f9a8d4" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fce7f3" text-anchor="middle">34</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fce7f3" text-anchor="middle" opacity="0.8">ИСТОРИЯ РОССИИ · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fce7f3" text-anchor="middle">Урок 34: Государственное устройство современной Ро</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#f9a8d4" text-anchor="middle" opacity="0.8">Урок 34 из 35</text>
-  <polygon points="250,120 263,165 311,165 272,193 286,237 250,210 214,237 228,193 189,165 237,165" fill="#f9a8d4" opacity="0.6"/><rect x="245" y="160" width="10" height="80" fill="#fce7f3" opacity="0.5"/>
+  
+  <!-- Фоновая рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#5a4a3a" stroke-width="3" rx="5" ry="5"/>
+  <rect x="10" y="10" width="480" height="330" fill="url(#bgGradient)" stroke="#7a6a5a" stroke-width="1" rx="3" ry="3"/>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#3a2f1f">Литература русского зарубежья</text>
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#5a4a3a">ИСТОРИЯ · 11 КЛАСС</text>
+  
+  <!-- Номер урока -->
+  <text x="460" y="25" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#7a6a5a">Урок 15</text>
+  
+  <!-- Карта эмиграции -->
+  <g id="map">
+    <rect x="30" y="70" width="300" height="180" fill="url(#mapGradient)" stroke="#5a4a3a" stroke-width="1" rx="5" ry="5"/>
+    
+    <!-- Европа упрощенно -->
+    <path d="M 80 120 Q 120 100 180 110 L 220 130 L 200 160 L 150 170 L 100 150 Z" fill="#a89886" stroke="#5a4a3a" stroke-width="0.5"/>
+    <path d="M 180 110 Q 220 105 260 120 L 280 140 L 260 170 L 220 180 L 200 160 Z" fill="#a89886" stroke="#5a4a3a" stroke-width="0.5"/>
+    
+    <!-- Города -->
+    <circle cx="120" cy="140" r="8" fill="#c75c5c"/>
+    <text x="120" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#3a2f1f">Париж</text>
+    
+    <circle cx="200" cy="130" r="8" fill="#5a7a9a"/>
+    <text x="200" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#3a2f1f">Берлин</text>
+    
+    <circle cx="240" cy="150" r="8" fill="#7a9a5a"/>
+    <text x="240" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#3a2f1f">Прага</text>
+    
+    <!-- Маршруты эмиграции -->
+    <path d="M 50 200 Q 100 180 120 140" stroke="#c75c5c" stroke-width="2" stroke-dasharray="3,2" fill="none"/>
+    <path d="M 50 200 Q 150 170 200 130" stroke="#5a7a9a" stroke-width="2" stroke-dasharray="3,2" fill="none"/>
+    <path d="M 50 200 Q 200 180 240 150" stroke="#7a9a5a" stroke-width="2" stroke-dasharray="3,2" fill="none"/>
+    
+    <!-- Легенда карты -->
+    <text x="40" y="270" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#3a2f1f">Карты эмиграции:</text>
+    <rect x="40" y="275" width="15" height="3" fill="#c75c5c"/>
+    <text x="60" y="279" font-family="Arial, sans-serif" font-size="10" fill="#3a2f1f">Париж</text>
+    <rect x="100" y="275" width="15" height="3" fill="#5a7a9a"/>
+    <text x="120" y="279" font-family="Arial, sans-serif" font-size="10" fill="#3a2f1f">Берлин</text>
+    <rect x="160" y="275" width="15" height="3" fill="#7a9a5a"/>
+    <text x="180" y="279" font-family="Arial, sans-serif" font-size="10" fill="#3a2f1f">Прага</text>
+  </g>
+  
+  <!-- Портреты писателей -->
+  <g id="portraits">
+    <!-- Бунин -->
+    <g transform="translate(350, 70)">
+      <circle cx="0" cy="0" r="25" fill="#d4c5b9" stroke="#5a4a3a" stroke-width="1"/>
+      <circle cx="0" cy="0" r="23" fill="url(#portraitShadow)"/>
+      <rect x="-20" y="-25" width="40" height="50" fill="#f0d9c7" stroke="#5a4a3a" stroke-width="1" rx="20" ry="20"/>
+      <circle cx="-7" cy="-5" r="3" fill="#3a2f1f"/>
+      <circle cx="7" cy="-5" r="3" fill="#3a2f1f"/>
+      <path d="M -8 5 Q 0 10 8 5" stroke="#3a2f1f" stroke-width="1" fill="none"/>
+      <text x="0" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#3a2f1f">Бунин</text>
+      <text x="0" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5a4a3a">1870-1953</text>
+    </g>
+    
+    <!-- Набоков -->
+    <g transform="translate(420, 70)">
+      <circle cx="0" cy="0" r="25" fill="#d4c5b9" stroke="#5a4a3a" stroke-width="1"/>
+      <circle cx="0" cy="0" r="23" fill="url(#portraitShadow)"/>
+      <rect x="-20" y="-25" width="40" height="50" fill="#f0d9c7" stroke="#5a4a3a" stroke-width="1" rx="20" ry="20"/>
+      <circle cx="-7" cy="-5" r="3" fill="#3a2f1f"/>
+      <circle cx="7" cy="-5" r="3" fill="#3a2f1f"/>
+      <path d="M -8 5 Q 0 10 8 5" stroke="#3a2f1f" stroke-width="1" fill="none"/>
+      <text x="0" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#3a2f1f">Набоков</text>
+      <text x="0" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5a4a3a">1899-1977</text>
+    </g>
+    
+    <!-- Шмелёв -->
+    <g transform="translate(350, 140)">
+      <circle cx="0" cy="0" r="25" fill="#d4c5b9" stroke="#5a4a3a" stroke-width="1"/>
+      <circle cx="0" cy="0" r="23" fill="url(#portraitShadow)"/>
+      <rect x="-20" y="-25" width="40" height="50" fill="#f0d9c7" stroke="#5a4a3a" stroke-width="1" rx="20" ry="20"/>
+      <circle cx="-7" cy="-5" r="3" fill="#3a2f1f"/>
+      <circle cx="7" cy="-5" r="3" fill="#3a2f1f"/>
+      <path d="M -8 5 Q 0 10 8 5" stroke="#3a2f1f" stroke-width="1" fill="none"/>
+      <text x="0" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#3a2f1f">Шмелёв</text>
+      <text x="0" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5a4a3a">1873-1950</text>
+    </g>
+    
+    <!-- Зайцев -->
+    <g transform="translate(420, 140)">
+      <circle cx="0" cy="0" r="25" fill="#d4c5b9" stroke="#5a4a3a" stroke-width="1"/>
+      <circle cx="0" cy="0" r="23" fill="url(#portraitShadow)"/>
+      <rect x="-20" y="-25" width="40" height="50" fill="#f0d9c7" stroke="#5a4a3a" stroke-width="1" rx="20" ry="20"/>
+      <circle cx="-7" cy="-5" r="3" fill="#3a2f1f"/>
+      <circle cx="7" cy="-5" r="3" fill="#3a2f1f"/>
+      <path d="M -8 5 Q 0 10 8 5" stroke="#3a2f1f" stroke-width="1" fill="none"/>
+      <text x="0" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#3a2f1f">Зайцев</text>
+      <text x="0" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5a4a3a">1881-1972</text>
+    </g>
+  </g>
+  
+  <!-- Хронологическая лента -->
+  <g id="timeline">
+    <rect x="30" y="260" width="440" height="60" fill="#f0e6d2" stroke="#5a4a3a" stroke-width="1" rx="5" ry="5"/>
+    
+    <!-- Лента времени -->
+    <line x1="50" y1="290" x2="450" y2="290" stroke="#5a4a3a" stroke-width="2"/>
+    
+    <!-- Даты -->
+    <circle cx="80" cy="290" r="4" fill="#5a4a3a"/>
+    <text x="80" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#3a2f1f">1917</text>
+    
+    <circle cx="180" cy="290" r="4" fill="#5a4a3a"/>
+    <text x="180" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#3a2f1f">1920-е</text>
+    
+    <circle cx="280" cy="290" r="4" fill="#5a4a3a"/>
+    <text x="280" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#3a2f1f">1930-е</text>
+    
+    <circle cx="380" cy="290" r="4" fill="#5a4a3a"/>
+    <text x="380" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#3a2f1f">1950-е</text>
+    
+    <!-- События -->
+    <text x="80" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5a4a3a">Октябрь</text>
+    <text x="80" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5a4a3a">революция</text>
+    
+    <text x="180" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5a4a3a">Волна</text>
+    <text x="180" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5a4a3a">эмиграции</text>
+    
+    <text x="280" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5a4a3a">Расцвет</text>
+    <text x="280" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5a4a3a">литературы</text>
+    
+    <text x="380" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5a4a3a">Вторая</text>
+    <text x="380" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5a4a3a">волна</text>
+  </g>
+  
+  <!-- Декоративный элемент -->
+  <g id="decoration">
+    <path d="M 460 70 Q 470 80 470 90 Q 470 100 460 110" stroke="#c75c5c" stroke-width="1.5" fill="none"/>
+    <path d="M 465 70 Q 475 80 475 90 Q 475 100 465 110" stroke="#5a7a9a" stroke-width="1.5" fill="none"/>
+    <path d="M 470 70 Q 480 80 480 90 Q 480 100 470 110" stroke="#7a9a5a" stroke-width="1.5" fill="none"/>
+  </g>
 </svg>

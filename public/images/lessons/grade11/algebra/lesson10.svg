@@ -1,23 +1,114 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
-  <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0c4a6e"/>
-      <stop offset="100%" style="stop-color:#06b6d4"/>
-    </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#67e8f9;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#67e8f9;stop-opacity:0"/>
-    </radialGradient>
-  </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#67e8f9" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#67e8f9" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#67e8f9" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#cffafe" text-anchor="middle">10</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#cffafe" text-anchor="middle" opacity="0.8">АЛГЕБРА · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#cffafe" text-anchor="middle">Урок 10: Производные элементарных функций</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#67e8f9" text-anchor="middle" opacity="0.8">Урок 10 из 38</text>
-  <line x1="100" y1="220" x2="400" y2="220" stroke="#67e8f9" stroke-width="2" opacity="0.5"/><line x1="250" y1="100" x2="250" y2="250" stroke="#67e8f9" stroke-width="2" opacity="0.5"/>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#2C3E50" stroke-width="2"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#3498DB" stroke-width="1" stroke-dasharray="5,3"/>
+  
+  <!-- Заголовок класса -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2C3E50" font-weight="bold">АЛГЕБРА · 11 КЛАСС</text>
+  
+  <!-- Номер урока -->
+  <text x="470" y="30" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#E74C3C">Урок 10</text>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#2C3E50" font-weight="bold">Производные элементарных функций</text>
+  
+  <!-- Разделители -->
+  <line x1="50" y1="70" x2="450" y2="70" stroke="#3498DB" stroke-width="1"/>
+  
+  <!-- Таблица производных - Заголовок -->
+  <text x="250" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#2C3E50" font-weight="bold">Таблица производных</text>
+  
+  <!-- Таблица производных - Строка 1 -->
+  <rect x="50" y="100" width="400" height="25" fill="#ECF0F1" stroke="#34495E" stroke-width="0.5"/>
+  <text x="60" y="117" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">f(x)</text>
+  <text x="150" y="117" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">f'(x)</text>
+  <text x="300" y="117" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">f(x)</text>
+  <text x="400" y="117" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">f'(x)</text>
+  
+  <!-- Таблица производных - Строка 2 -->
+  <rect x="50" y="125" width="400" height="25" fill="#FFFFFF" stroke="#34495E" stroke-width="0.5"/>
+  <text x="60" y="142" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">C (const)</text>
+  <text x="150" y="142" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">0</text>
+  <text x="300" y="142" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">sin(x)</text>
+  <text x="400" y="142" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">cos(x)</text>
+  
+  <!-- Таблица производных - Строка 3 -->
+  <rect x="50" y="150" width="400" height="25" fill="#ECF0F1" stroke="#34495E" stroke-width="0.5"/>
+  <text x="60" y="167" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">x^n</text>
+  <text x="150" y="167" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">n·x^(n-1)</text>
+  <text x="300" y="167" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">cos(x)</text>
+  <text x="400" y="167" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">-sin(x)</text>
+  
+  <!-- Таблица производных - Строка 4 -->
+  <rect x="50" y="175" width="400" height="25" fill="#FFFFFF" stroke="#34495E" stroke-width="0.5"/>
+  <text x="60" y="192" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">e^x</text>
+  <text x="150" y="192" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">e^x</text>
+  <text x="300" y="192" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">ln(x)</text>
+  <text x="400" y="192" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">1/x</text>
+  
+  <!-- Таблица производных - Строка 5 -->
+  <rect x="50" y="200" width="400" height="25" fill="#ECF0F1" stroke="#34495E" stroke-width="0.5"/>
+  <text x="60" y="217" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">a^x</text>
+  <text x="150" y="217" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">a^x·ln(a)</text>
+  <text x="300" y="217" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">log_a(x)</text>
+  <text x="400" y="217" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">1/(x·ln(a))</text>
+  
+  <!-- График показательной функции -->
+  <text x="120" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2C3E50" font-weight="bold">y = e^x</text>
+  
+  <!-- Система координат для e^x -->
+  <line x1="50" y1="280" x2="50" y2="220" stroke="#34495E" stroke-width="1.5"/>
+  <line x1="50" y1="280" x2="170" y2="280" stroke="#34495E" stroke-width="1.5"/>
+  
+  <!-- Стрелки осей -->
+  <polygon points="50,220 47,225 53,225" fill="#34495E"/>
+  <polygon points="170,280 165,277 165,283" fill="#34495E"/>
+  
+  <!-- График e^x -->
+  <path d="M 60,278 Q 70,275 80,270 Q 90,265 100,258 Q 110,250 120,240 Q 130,228 140,214" fill="none" stroke="#E74C3C" stroke-width="2"/>
+  
+  <!-- Подписи осей -->
+  <text x="45" y="215" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#34495E">y</text>
+  <text x="175" y="285" font-family="Arial, sans-serif" font-size="10" fill="#34495E">x</text>
+  <text x="52" y="282" font-family="Arial, sans-serif" font-size="10" fill="#34495E">0</text>
+  
+  <!-- График логарифмической функции -->
+  <text x="380" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2C3E50" font-weight="bold">y = ln(x)</text>
+  
+  <!-- Система координат для ln(x) -->
+  <line x1="310" y1="280" x2="310" y2="220" stroke="#34495E" stroke-width="1.5"/>
+  <line x1="310" y1="280" x2="430" y2="280" stroke="#34495E" stroke-width="1.5"/>
+  
+  <!-- Стрелки осей -->
+  <polygon points="310,220 307,225 313,225" fill="#34495E"/>
+  <polygon points="430,280 425,277 425,283" fill="#34495E"/>
+  
+  <!-- График ln(x) -->
+  <path d="M 320,275 Q 330,270 340,265 Q 350,258 360,250 Q 370,240 380,228 Q 390,214 400,198" fill="none" stroke="#3498DB" stroke-width="2"/>
+  
+  <!-- Подписи осей -->
+  <text x="305" y="215" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#34495E">y</text>
+  <text x="435" y="285" font-family="Arial, sans-serif" font-size="10" fill="#34495E">x</text>
+  <text x="312" y="282" font-family="Arial, sans-serif" font-size="10" fill="#34495E">0</text>
+  
+  <!-- Точка касания для e^x -->
+  <circle cx="120" cy="240" r="3" fill="#E74C3C"/>
+  <line x1="120" y1="240" x2="120" y2="280" stroke="#95A5A6" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="122" y="235" font-family="Arial, sans-serif" font-size="10" fill="#E74C3C">(1, e)</text>
+  
+  <!-- Точка касания для ln(x) -->
+  <circle cx="380" cy="228" r="3" fill="#3498DB"/>
+  <line x1="380" y1="228" x2="380" y2="280" stroke="#95A5A6" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="382" y="223" font-family="Arial, sans-serif" font-size="10" fill="#3498DB">(e, 1)</text>
+  
+  <!-- Примечание -->
+  <rect x="50" y="295" width="400" height="35" fill="#F8F9FA" stroke="#BDC3C7" stroke-width="0.5" rx="3"/>
+  <text x="60" y="310" font-family="Arial, sans-serif" font-size="11" fill="#7F8C8D">Примечание: Производные показательных и логарифмических функций связаны</text>
+  <text x="60" y="322" font-family="Arial, sans-serif" font-size="11" fill="#7F8C8D">взаимно обратных функций через точку (e, 1)</text>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="25" cy="25" r="5" fill="#E74C3C" opacity="0.3"/>
+  <circle cx="475" cy="25" r="5" fill="#3498DB" opacity="0.3"/>
+  <circle cx="25" cy="325" r="5" fill="#2ECC71" opacity="0.3"/>
+  <circle cx="475" cy="325" r="5" fill="#F39C12" opacity="0.3"/>
 </svg>

@@ -1,23 +1,134 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#2c3e50" stroke-width="3"/>
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#34495e" stroke-width="1"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">ЛИТЕРАТУРА · 11 КЛАСС</text>
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Урок 17</text>
+  <text x="250" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50">Д.А. Фурманов, А.С. Серафимович, Н.А. Островский</text>
+  
+  <!-- Номер урока в углу -->
+  <text x="30" y="330" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">№17</text>
+  
+  <!-- Градиент для портретов -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#7f1d1d"/>
-      <stop offset="100%" style="stop-color:#dc2626"/>
+    <linearGradient id="portraitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ecf0f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bdc3c7;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fca5a5;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#fca5a5;stop-opacity:0"/>
-    </radialGradient>
+    
+    <!-- Градиент для рамок -->
+    <linearGradient id="frameGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:1" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#fca5a5" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#fca5a5" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#fca5a5" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fee2e2" text-anchor="middle">17</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fee2e2" text-anchor="middle" opacity="0.8">ЛИТЕРАТУРА · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fee2e2" text-anchor="middle">Урок 17: Д.А. Фурманов, А.С. Серафимович, Н.А. Ост</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fca5a5" text-anchor="middle" opacity="0.8">Урок 17 из 35</text>
-  <polygon points="250,120 263,165 311,165 272,193 286,237 250,210 214,237 228,193 189,165 237,165" fill="#fca5a5" opacity="0.5"/>
+  
+  <!-- Портрет Фурманова -->
+  <g transform="translate(40, 90)">
+    <rect x="0" y="0" width="100" height="120" fill="url(#portraitGrad)" stroke="#2c3e50" stroke-width="2"/>
+    <circle cx="50" cy="35" r="15" fill="#34495e"/>
+    <path d="M35 50 Q50 45 65 50 L65 80 Q50 85 35 80 Z" fill="#34495e"/>
+    <rect x="20" y="50" width="60" height="40" fill="#ecf0f1" stroke="#34495e" stroke-width="1"/>
+    <text x="50" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Д.А. Фурманов</text>
+    <text x="50" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">(1883-1926)</text>
+  </g>
+  
+  <!-- Портрет Серафимовича -->
+  <g transform="translate(180, 90)">
+    <rect x="0" y="0" width="100" height="120" fill="url(#portraitGrad)" stroke="#2c3e50" stroke-width="2"/>
+    <circle cx="50" cy="35" r="15" fill="#34495e"/>
+    <path d="M35 50 Q50 45 65 50 L65 80 Q50 85 35 80 Z" fill="#34495e"/>
+    <rect x="20" y="50" width="60" height="40" fill="#ecf0f1" stroke="#34495e" stroke-width="1"/>
+    <text x="50" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">А.С. Серафимович</text>
+    <text x="50" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">(1863-1949)</text>
+  </g>
+  
+  <!-- Портрет Островского -->
+  <g transform="translate(320, 90)">
+    <rect x="0" y="0" width="100" height="120" fill="url(#portraitGrad)" stroke="#2c3e50" stroke-width="2"/>
+    <circle cx="50" cy="35" r="15" fill="#34495e"/>
+    <path d="M35 50 Q50 45 65 50 L65 80 Q50 85 35 80 Z" fill="#34495e"/>
+    <rect x="20" y="50" width="60" height="40" fill="#ecf0f1" stroke="#34495e" stroke-width="1"/>
+    <text x="50" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Н.А. Островский</text>
+    <text x="50" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">(1904-1936)</text>
+  </g>
+  
+  <!-- Книга "Чапаев" -->
+  <g transform="translate(40, 230)">
+    <rect x="0" y="0" width="100" height="60" fill="url(#frameGrad)" stroke="#2c3e50" stroke-width="2"/>
+    <rect x="10" y="10" width="80" height="40" fill="#ecf0f1" stroke="#2c3e50" stroke-width="1"/>
+    <text x="50" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Чапаев</text>
+    <text x="50" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">1923</text>
+  </g>
+  
+  <!-- Книга "Железный поток" -->
+  <g transform="translate(180, 230)">
+    <rect x="0" y="0" width="100" height="60" fill="url(#frameGrad)" stroke="#2c3e50" stroke-width="2"/>
+    <rect x="10" y="10" width="80" height="40" fill="#ecf0f1" stroke="#2c3e50" stroke-width="1"/>
+    <text x="50" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Железный</text>
+    <text x="50" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">поток</text>
+    <text x="50" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">1924</text>
+  </g>
+  
+  <!-- Книга "Как закалялась сталь" -->
+  <g transform="translate(320, 230)">
+    <rect x="0" y="0" width="100" height="60" fill="url(#frameGrad)" stroke="#2c3e50" stroke-width="2"/>
+    <rect x="10" y="10" width="80" height="40" fill="#ecf0f1" stroke="#2c3e50" stroke-width="1"/>
+    <text x="50" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#2c3e50">Как закалялась</text>
+    <text x="50" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#2c3e50">сталь</text>
+    <text x="50" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">1932-1934</text>
+  </g>
+  
+  <!-- Схема влияния -->
+  <g transform="translate(420, 90)">
+    <circle cx="0" cy="0" r="30" fill="#e74c3c" stroke="#c0392b" stroke-width="2"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white" font-weight="bold">Влияние</text>
+    <circle cx="0" cy="-60" r="20" fill="#3498db" stroke="#2980b9" stroke-width="1"/>
+    <line x1="0" y1="-30" x2="0" y2="-40" stroke="#2c3e50" stroke-width="1"/>
+    <text x="0" y="-65" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">Ленин</text>
+    <circle cx="40" cy="0" r="20" fill="#3498db" stroke="#2980b9" stroke-width="1"/>
+    <line x1="30" y1="0" x2="20" y2="0" stroke="#2c3e50" stroke-width="1"/>
+    <text x="40" y="-5" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">Гражданская</text>
+    <text x="40" y="8" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">война</text>
+  </g>
+  
+  <!-- Хронологическая линия -->
+  <line x1="40" y1="300" x2="460" y2="300" stroke="#95a5a6" stroke-width="2"/>
+  <circle cx="90" cy="300" r="4" fill="#3498db"/>
+  <circle cx="230" cy="300" r="4" fill="#3498db"/>
+  <circle cx="370" cy="300" r="4" fill="#3498db"/>
+  
+  <!-- Ключевые темы -->
+  <g transform="translate(40, 320)">
+    <rect x="0" y="0" width="140" height="25" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+    <text x="70" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Героика революции</text>
+  </g>
+  
+  <g transform="translate(190, 320)">
+    <rect x="0" y="0" width="140" height="25" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+    <text x="70" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Коллективный герой</text>
+  </g>
+  
+  <g transform="translate(340, 320)">
+    <rect x="0" y="0" width="140" height="25" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+    <text x="70" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Воспитание характера</text>
+  </g>
+  
+  <!-- Даты произведений -->
+  <text x="90" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">1923</text>
+  <text x="230" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">1924</text>
+  <text x="370" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">1932-34</text>
+  
+  <!-- Дополнительные элементы декора -->
+  <path d="M20 20 L30 20 L25 10 Z" fill="#e74c3c" opacity="0.7"/>
+  <path d="M470 20 L480 20 L475 10 Z" fill="#e74c3c" opacity="0.7"/>
+  <path d="M20 330 L30 330 L25 340 Z" fill="#e74c3c" opacity="0.7"/>
+  <path d="M470 330 L480 330 L475 340 Z" fill="#e74c3c" opacity="0.7"/>
+  
+  <!-- Темы произведений -->
+  <text x="90" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">Биография героя</text>
+  <text x="230" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">Массовый героизм</text>
+  <text x="370" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">Внутренняя трансформация</text>
 </svg>

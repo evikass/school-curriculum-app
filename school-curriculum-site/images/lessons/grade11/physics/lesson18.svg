@@ -1,156 +1,133 @@
 <svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Градиенты для фона -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#f0f4f8;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#d9e2ec;stop-opacity:1" />
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2E86C1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5DADE2;stop-opacity:1" />
     </linearGradient>
-    
-    <!-- Градиент для генератора -->
-    <radialGradient id="genGrad">
-      <stop offset="0%" style="stop-color:#ffd166;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#ef476f;stop-opacity:1" />
-    </radialGradient>
-    
-    <!-- Градиент для трансформаторов -->
-    <linearGradient id="transGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#06d6a0;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#118ab2;stop-opacity:1" />
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E74C3C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EC7063;stop-opacity:1" />
     </linearGradient>
-    
-    <!-- Градиент для линии -->
-    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#073b4c;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#118ab2;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#073b4c;stop-opacity:1" />
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F39C12;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F8C471;stop-opacity:1" />
     </linearGradient>
-    
-    <!-- Градиент для потребителя -->
-    <radialGradient id="consGrad">
-      <stop offset="0%" style="stop-color:#ff9a76;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#ff6b6b;stop-opacity:1" />
-    </radialGradient>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#27AE60;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#52BE80;stop-opacity:1" />
+    </linearGradient>
   </defs>
   
-  <!-- Фон -->
-  <rect width="500" height="350" fill="url(#bgGrad)" />
-  
-  <!-- Двойная рамка -->
-  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#2d3436" stroke-width="2" />
-  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#636e72" stroke-width="1" />
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#2C3E50" stroke-width="3" rx="5"/>
+  <rect x="15" y="15" width="470" height="325" fill="none" stroke="#34495E" stroke-width="1" rx="3"/>
   
   <!-- Заголовок -->
-  <text x="250" y="30" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#2d3436">ЭЛЕКТРОЭНЕРГИЯ</text>
-  <text x="250" y="48" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#636e72">ФИЗИКА · 11 КЛАСС</text>
-  <text x="30" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2d3436">Урок 12</text>
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2C3E50">ФИЗИКА · 11 КЛАСС</text>
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#2C3E50">Урок 18: Производство, передача и потребление электроэнергии</text>
+  <text x="460" y="330" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#7F8C8D">18</text>
   
-  <!-- Основная схема -->
-  
-  <!-- Генератор -->
-  <g id="generator">
-    <circle cx="80" cy="170" r="35" fill="url(#genGrad)" stroke="#2d3436" stroke-width="2" />
-    <circle cx="80" cy="170" r="25" fill="none" stroke="#2d3436" stroke-width="1" />
-    <circle cx="80" cy="170" r="15" fill="none" stroke="#2d3436" stroke-width="1" />
-    <line x1="80" y1="135" x2="80" y2="155" stroke="#2d3436" stroke-width="2" />
-    <line x1="65" y1="155" x2="95" y2="155" stroke="#2d3436" stroke-width="2" />
-    <line x1="65" y1="185" x2="95" y2="185" stroke="#2d3436" stroke-width="2" />
-    <line x1="80" y1="205" x2="80" y2="185" stroke="#2d3436" stroke-width="2" />
-    <text x="80" y="230" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2d3436">Генератор</text>
-    <text x="80" y="245" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#636e72">U₁ = 220 В</text>
+  <!-- Электростанция слева -->
+  <g transform="translate(30, 100)">
+    <rect x="0" y="0" width="80" height="60" fill="url(#grad2)" stroke="#2C3E50" stroke-width="1" rx="5"/>
+    <text x="40" y="35" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">ЭС</text>
+    <text x="40" y="80" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2C3E50">Электростанция</text>
+    <path d="M20,0 L20,-10 M40,0 L40,-15 M60,0 L60,-10" stroke="#2C3E50" stroke-width="1" fill="none"/>
+    <path d="M20,-10 L15,-20 L25,-20 Z M40,-15 L35,-25 L45,-25 Z M60,-10 L55,-20 L65,-20 Z" fill="#E74C3C"/>
   </g>
   
-  <!-- Повышающий трансформатор -->
-  <g id="step-up-transformer">
-    <rect x="150" y="145" width="80" height="50" fill="url(#transGrad)" stroke="#2d3436" stroke-width="2" rx="5" />
-    <line x1="160" y1="150" x2="160" y2="190" stroke="#2d3436" stroke-width="3" />
-    <line x1="165" y1="150" x2="165" y2="190" stroke="#2d3436" stroke-width="3" />
-    <line x1="170" y1="150" x2="170" y2="190" stroke="#2d3436" stroke-width="3" />
-    <line x1="190" y1="150" x2="190" y2="190" stroke="#2d3436" stroke-width="6" />
-    <line x1="195" y1="150" x2="195" y2="190" stroke="#2d3436" stroke-width="6" />
-    <line x1="200" y1="150" x2="200" y2="190" stroke="#2d3436" stroke-width="6" />
-    <line x1="215" y1="150" x2="215" y2="190" stroke="#2d3436" stroke-width="3" />
-    <line x1="220" y1="150" x2="220" y2="190" stroke="#2d3436" stroke-width="3" />
-    <text x="190" y="220" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2d3436">Трансформатор</text>
-    <text x="190" y="235" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#636e72">повышающий</text>
-    <text x="190" y="250" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#636e72">k = 1/20</text>
+  <!-- Трансформатор 1 -->
+  <g transform="translate(150, 120)">
+    <circle cx="20" cy="0" r="15" fill="none" stroke="#2C3E50" stroke-width="2"/>
+    <circle cx="20" cy="0" r="10" fill="none" stroke="#2C3E50" stroke-width="1"/>
+    <path d="M5,0 L5,-15 L5,15 M35,0 L35,-15 L35,15" stroke="#2C3E50" stroke-width="1.5"/>
+    <text x="20" y="30" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2C3E50">Трансформатор</text>
+    <text x="20" y="40" font-family="Arial, sans-serif" font-size="7" text-anchor="middle" fill="#2C3E50">повышающий</text>
   </g>
   
-  <!-- Линия электропередачи -->
-  <g id="power-line">
-    <rect x="250" y="165" width="150" height="10" fill="url(#lineGrad)" stroke="#2d3436" stroke-width="2" />
-    <line x1="250" y1="160" x2="250" y2="180" stroke="#2d3436" stroke-width="2" />
-    <line x1="400" y1="160" x2="400" y2="180" stroke="#2d3436" stroke-width="2" />
-    <text x="325" y="195" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2d3436">ЛЭП</text>
-    <text x="325" y="210" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#636e72">l = 100 км</text>
-    <text x="325" y="225" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#636e72">P_пот = I²R</text>
+  <!-- ЛЭП -->
+  <g transform="translate(200, 120)">
+    <line x1="0" y1="0" x2="50" y2="0" stroke="#2C3E50" stroke-width="2"/>
+    <line x1="0" y1="0" x2="0" y2="-20" stroke="#2C3E50" stroke-width="1"/>
+    <line x1="50" y1="0" x2="50" y2="-20" stroke="#2C3E50" stroke-width="1"/>
+    <line x1="0" y1="-20" x2="50" y2="-20" stroke="#2C3E50" stroke-width="1"/>
+    <text x="25" y="-25" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2C3E50">ЛЭП</text>
+    <text x="25" y="20" font-family="Arial, sans-serif" font-size="7" text-anchor="middle" fill="#2C3E50">Линия электропередачи</text>
   </g>
   
-  <!-- Понижающий трансформатор -->
-  <g id="step-down-transformer">
-    <rect x="270" y="145" width="80" height="50" fill="url(#transGrad)" stroke="#2d3436" stroke-width="2" rx="5" />
-    <line x1="280" y1="150" x2="280" y2="190" stroke="#2d3436" stroke-width="6" />
-    <line x1="285" y1="150" x2="285" y2="190" stroke="#2d3436" stroke-width="6" />
-    <line x1="290" y1="150" x2="290" y2="190" stroke="#2d3436" stroke-width="6" />
-    <line x1="305" y1="150" x2="305" y2="190" stroke="#2d3436" stroke-width="3" />
-    <line x1="310" y1="150" x2="310" y2="190" stroke="#2d3436" stroke-width="3" />
-    <line x1="315" y1="150" x2="315" y2="190" stroke="#2d3436" stroke-width="3" />
-    <line x1="330" y1="150" x2="330" y2="190" stroke="#2d3436" stroke-width="3" />
-    <line x1="335" y1="150" x2="335" y2="190" stroke="#2d3436" stroke-width="3" />
-    <text x="310" y="220" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2d3436">Трансформатор</text>
-    <text x="310" y="235" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#636e72">понижающий</text>
-    <text x="310" y="250" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#636e72">k = 20/1</text>
+  <!-- Трансформатор 2 -->
+  <g transform="translate(300, 120)">
+    <circle cx="20" cy="0" r="15" fill="none" stroke="#2C3E50" stroke-width="2"/>
+    <circle cx="20" cy="0" r="10" fill="none" stroke="#2C3E50" stroke-width="1"/>
+    <path d="M5,0 L5,-15 L5,15 M35,0 L35,-15 L35,15" stroke="#2C3E50" stroke-width="1.5"/>
+    <text x="20" y="30" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2C3E50">Трансформатор</text>
+    <text x="20" y="40" font-family="Arial, sans-serif" font-size="7" text-anchor="middle" fill="#2C3E50">понижающий</text>
   </g>
   
   <!-- Потребитель -->
-  <g id="consumer">
-    <rect x="420" y="155" width="40" height="30" fill="url(#consGrad)" stroke="#2d3436" stroke-width="2" rx="5" />
-    <rect x="425" y="160" width="30" height="20" fill="none" stroke="#2d3436" stroke-width="1" />
-    <line x1="430" y1="165" x2="450" y2="165" stroke="#2d3436" stroke-width="1" />
-    <line x1="430" y1="170" x2="450" y2="170" stroke="#2d3436" stroke-width="1" />
-    <line x1="430" y1="175" x2="450" y2="175" stroke="#2d3436" stroke-width="1" />
-    <text x="440" y="205" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2d3436">Потребитель</text>
-    <text x="440" y="220" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#636e72">U₂ = 220 В</text>
+  <g transform="translate(370, 100)">
+    <rect x="0" y="0" width="80" height="60" fill="url(#grad3)" stroke="#2C3E50" stroke-width="1" rx="5"/>
+    <circle cx="40" cy="30" r="15" fill="none" stroke="#2C3E50" stroke-width="2"/>
+    <path d="M30,30 L50,30 M40,20 L40,40" stroke="#2C3E50" stroke-width="2"/>
+    <text x="40" y="80" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2C3E50">Потребитель</text>
   </g>
   
-  <!-- Соединительные провода -->
-  <line x1="115" y1="170" x2="150" y2="170" stroke="#2d3436" stroke-width="3" />
-  <line x1="230" y1="170" x2="250" y2="170" stroke="#2d3436" stroke-width="3" />
-  <line x1="400" y1="170" x2="420" y2="170" stroke="#2d3436" stroke-width="3" />
-  
-  <!-- Легенда/объяснения -->
-  <g id="legend">
-    <rect x="30" y="260" width="200" height="80" fill="rgba(255,255,255,0.7)" stroke="#2d3436" stroke-width="1" rx="5" />
-    <text x="40" y="280" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2d3436">Коэффициент трансформации:</text>
-    <text x="40" y="300" font-family="Arial, sans-serif" font-size="11" fill="#636e72">k = N₁/N₂ = U₁/U₂ = I₂/I₁</text>
-    <text x="40" y="320" font-family="Arial, sans-serif" font-size="11" fill="#636e72">P_потери = I²·R = (P²·R)/U²</text>
+  <!-- Формула мощности -->
+  <g transform="translate(30, 210)">
+    <rect x="0" y="0" width="140" height="60" fill="url(#grad1)" opacity="0.2" stroke="#2C3E50" stroke-width="1" rx="3"/>
+    <text x="70" y="25" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2C3E50">P = U·I</text>
+    <text x="70" y="40" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2C3E50">Мощность = Напряжение · Ток</text>
   </g>
   
-  <!-- График потерь мощности -->
-  <g id="graph">
-    <rect x="250" y="260" width="220" height="80" fill="rgba(255,255,255,0.7)" stroke="#2d3436" stroke-width="1" rx="5" />
-    <text x="260" y="280" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2d3436">Зависимость потерь от напряжения</text>
-    <polyline points="270,320 290,310 310,305 330,302 350,300 370,299 390,298 410,297" fill="none" stroke="#ef476f" stroke-width="2" />
-    <text x="420" y="300" font-family="Arial, sans-serif" font-size="10" fill="#636e72">P_пот</text>
-    <line x1="270" y1="320" x2="420" y2="320" stroke="#2d3436" stroke-width="1" />
-    <line x1="270" y1="320" x2="270" y2="285" stroke="#2d3436" stroke-width="1" />
-    <text x="260" y="325" font-family="Arial, sans-serif" font-size="10" fill="#636e72">U</text>
+  <!-- Формула потерь -->
+  <g transform="translate(190, 210)">
+    <rect x="0" y="0" width="140" height="60" fill="url(#grad4)" opacity="0.2" stroke="#2C3E50" stroke-width="1" rx="3"/>
+    <text x="70" y="25" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2C3E50">ΔP = I²·R</text>
+    <text x="70" y="40" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2C3E50">Потери мощности = Ток² · Сопротивление</text>
   </g>
   
-  <!-- Дополнительные подписи -->
-  <text x="132" y="160" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#636e72">N₁</text>
-  <text x="248" y="160" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#636e72">N₂</text>
-  <text x="392" y="160" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#636e72">N₁</text>
-  <text x="432" y="160" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#636e72">N₂</text>
-  
-  <!-- Индикаторы тока -->
-  <g id="current-indicators">
-    <circle cx="130" cy="170" r="3" fill="#ff9a76" />
-    <circle cx="180" cy="170" r="3" fill="#ff9a76" />
-    <circle cx="240" cy="170" r="3" fill="#073b4c" />
-    <circle cx="380" cy="170" r="3" fill="#073b4c" />
-    <circle cx="410" cy="170" r="3" fill="#ff9a76" />
-    <text x="130" y="155" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#636e72">I₁</text>
-    <text x="240" y="155" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#636e72">I₂</text>
-    <text x="380" y="155" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#636e72">I₃</text>
+  <!-- График потерь -->
+  <g transform="translate(350, 210)">
+    <rect x="0" y="0" width="120" height="60" fill="white" stroke="#2C3E50" stroke-width="1" rx="3"/>
+    <line x1="10" y1="50" x2="110" y2="50" stroke="#2C3E50" stroke-width="1"/>
+    <line x1="10" y1="50" x2="10" y2="10" stroke="#2C3E50" stroke-width="1"/>
+    <polyline points="10,45 30,40 50,30 70,15 90,5" stroke="#E74C3C" stroke-width="2" fill="none"/>
+    <text x="60" y="55" font-family="Arial, sans-serif" font-size="7" text-anchor="middle" fill="#2C3E50">I</text>
+    <text x="5" y="30" font-family="Arial, sans-serif" font-size="7" text-anchor="middle" fill="#2C3E50">ΔP</text>
+    <text x="60" y="8" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2C3E50">Зависимость потерь от тока</text>
   </g>
+  
+  <!-- Типы электростанций -->
+  <g transform="translate(30, 290)">
+    <rect x="0" y="0" width="200" height="45" fill="url(#grad1)" opacity="0.2" stroke="#2C3E50" stroke-width="1" rx="3"/>
+    <text x="10" y="18" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">ТЭС - тепловые</text>
+    <text x="10" y="30" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">ГЭС - гидравлические</text>
+    <text x="110" y="18" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">АЭС - атомные</text>
+    <text x="110" y="30" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">ВЭС - ветровые</text>
+  </g>
+  
+  <!-- Советы по энергосбережению -->
+  <g transform="translate(250, 290)">
+    <rect x="0" y="0" width="220" height="45" fill="url(#grad4)" opacity="0.2" stroke="#2C3E50" stroke-width="1" rx="3"/>
+    <text x="10" y="15" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50">1. Выключать неиспользуемые приборы</text>
+    <text x="10" y="27" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50">2. Использовать светодиодные лампы</text>
+    <text x="10" y="39" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50">3. Использовать энергосберегающую технику</text>
+  </g>
+  
+  <!-- Стрелки передачи энергии -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2C3E50" />
+    </marker>
+  </defs>
+  
+  <line x1="110" y1="130" x2="145" y2="130" stroke="#2C3E50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="235" y1="130" x2="295" y2="130" stroke="#2C3E50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="335" y1="130" x2="365" y2="130" stroke="#2C3E50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Напряжения -->
+  <text x="70" y="115" font-family="Arial, sans-serif" font-size="7" text-anchor="middle" fill="#2C3E50">6 кВ</text>
+  <text x="160" y="115" font-family="Arial, sans-serif" font-size="7" text-anchor="middle" fill="#2C3E50">220 кВ</text>
+  <text x="265" y="115" font-family="Arial, sans-serif" font-size="7" text-anchor="middle" fill="#2C3E50">220 кВ</text>
+  <text x="380" y="115" font-family="Arial, sans-serif" font-size="7" text-anchor="middle" fill="#2C3E50">220 В</text>
 </svg>

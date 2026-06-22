@@ -1,23 +1,132 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#8B4513" stroke-width="3"/>
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#A0522D" stroke-width="1"/>
+  
+  <!-- Заголовок класса -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#8B4513" font-weight="bold">ЛИТЕРАТУРА · 11 КЛАСС</text>
+  
+  <!-- Номер урока -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="16" fill="#8B4513" font-weight="bold">Урок 31</text>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="65" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#8B4513" font-weight="bold">Деревенская проза</text>
+  <text x="250" y="85" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#A0522D">Ф.А. Абрамов, В.И. Белов, Е.И. Носов</text>
+  
+  <!-- Схема Деревенской прозы -->
+  <g transform="translate(50, 110)">
+    <!-- Центральный круг -->
+    <circle cx="100" cy="50" r="40" fill="#F5DEB3" stroke="#8B4513" stroke-width="2"/>
+    <text x="100" y="55" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#8B4513" font-weight="bold">Деревенская проза</text>
+    
+    <!-- Ветви -->
+    <line x1="60" y1="50" x2="20" y2="20" stroke="#8B4513" stroke-width="2"/>
+    <line x1="140" y1="50" x2="180" y2="20" stroke="#8B4513" stroke-width="2"/>
+    <line x1="60" y1="50" x2="20" y2="80" stroke="#8B4513" stroke-width="2"/>
+    <line x1="140" y1="50" x2="180" y2="80" stroke="#8B4513" stroke-width="2"/>
+    
+    <!-- Листья с характеристиками -->
+    <rect x="5" y="5" width="30" height="25" rx="5" fill="#DEB887" stroke="#8B4513" stroke-width="1"/>
+    <text x="20" y="22" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#8B4513">Традиции</text>
+    
+    <rect x="165" y="5" width="30" height="25" rx="5" fill="#DEB887" stroke="#8B4513" stroke-width="1"/>
+    <text x="180" y="22" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#8B4513">Коллективизация</text>
+    
+    <rect x="5" y="65" width="30" height="25" rx="5" fill="#DEB887" stroke="#8B4513" stroke-width="1"/>
+    <text x="20" y="82" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#8B4513">Экология</text>
+    
+    <rect x="165" y="65" width="30" height="25" rx="5" fill="#DEB887" stroke="#8B4513" stroke-width="1"/>
+    <text x="180" y="82" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#8B4513">Драма</text>
+  </g>
+  
+  <!-- Портрет Абрамова -->
+  <g transform="translate(30, 180)">
+    <circle cx="35" cy="35" r="30" fill="#F5DEB3" stroke="#8B4513" stroke-width="2"/>
+    <ellipse cx="35" cy="25" rx="15" ry="18" fill="#F5DEB3"/>
+    <circle cx="30" cy="25" r="2" fill="#8B4513"/>
+    <circle cx="40" cy="25" r="2" fill="#8B4513"/>
+    <path d="M 25 35 Q 35 40 45 35" fill="none" stroke="#8B4513" stroke-width="1.5"/>
+    <rect x="20" y="40" width="30" height="15" rx="5" fill="#4682B4"/>
+    <text x="35" y="70" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#8B4513" font-weight="bold">Ф.А. Абрамов</text>
+    <text x="35" y="85" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#8B4513">1910-1983</text>
+    <text x="35" y="98" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#8B4513">"Братья и сестры"</text>
+  </g>
+  
+  <!-- Портрет Белова -->
+  <g transform="translate(170, 180)">
+    <circle cx="35" cy="35" r="30" fill="#F5DEB3" stroke="#8B4513" stroke-width="2"/>
+    <ellipse cx="35" cy="25" rx="15" ry="18" fill="#F5DEB3"/>
+    <circle cx="30" cy="25" r="2" fill="#8B4513"/>
+    <circle cx="40" cy="25" r="2" fill="#8B4513"/>
+    <path d="M 25 35 Q 35 40 45 35" fill="none" stroke="#8B4513" stroke-width="1.5"/>
+    <rect x="20" y="40" width="30" height="15" rx="5" fill="#4682B4"/>
+    <text x="35" y="70" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#8B4513" font-weight="bold">В.И. Белов</text>
+    <text x="35" y="85" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#8B4513">1932-2012</text>
+    <text x="35" y="98" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#8B4513">"Привычное дело"</text>
+  </g>
+  
+  <!-- Портрет Носова -->
+  <g transform="translate(310, 180)">
+    <circle cx="35" cy="35" r="30" fill="#F5DEB3" stroke="#8B4513" stroke-width="2"/>
+    <ellipse cx="35" cy="25" rx="15" ry="18" fill="#F5DEB3"/>
+    <circle cx="30" cy="25" r="2" fill="#8B4513"/>
+    <circle cx="40" cy="25" r="2" fill="#8B4513"/>
+    <path d="M 25 35 Q 35 40 45 35" fill="none" stroke="#8B4513" stroke-width="1.5"/>
+    <rect x="20" y="40" width="30" height="15" rx="5" fill="#4682B4"/>
+    <text x="35" y="70" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#8B4513" font-weight="bold">Е.И. Носов</text>
+    <text x="35" y="85" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#8B4513">1925-2002</text>
+    <text x="35" y="98" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#8B4513">"Живое лицо"</text>
+  </g>
+  
+  <!-- Диаграмма стилей -->
+  <g transform="translate(50, 290)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" fill="#8B4513" font-weight="bold">Стилевые особенности:</text>
+    
+    <!-- Абрамов -->
+    <rect x="10" y="10" width="100" height="30" fill="#F5DEB3" stroke="#8B4513" stroke-width="1"/>
+    <text x="60" y="30" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#8B4513">Социальная критика</text>
+    
+    <!-- Белов -->
+    <rect x="120" y="10" width="100" height="30" fill="#F5DEB3" stroke="#8B4513" stroke-width="1"/>
+    <text x="170" y="30" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#8B4513">Деревенский язык</text>
+    
+    <!-- Носов -->
+    <rect x="230" y="10" width="100" height="30" fill="#F5DEB3" stroke="#8B4513" stroke-width="1"/>
+    <text x="280" y="30" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#8B4513">Лаконичность</text>
+  </g>
+  
+  <!-- Хронология -->
+  <g transform="translate(380, 200)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" fill="#8B4513" font-weight="bold">Период:</text>
+    <rect x="0" y="10" width="100" height="3" fill="#8B4513"/>
+    <circle cx="20" cy="11.5" r="4" fill="#8B4513"/>
+    <circle cx="50" cy="11.5" r="4" fill="#8B4513"/>
+    <circle cx="80" cy="11.5" r="4" fill="#8B4513"/>
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#8B4513">1960-е</text>
+    <text x="50" y="25" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#8B4513">1970-е</text>
+    <text x="80" y="25" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#8B4513">1980-е</text>
+  </g>
+  
+  <!-- Градиент -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0c4a6e"/>
-      <stop offset="100%" style="stop-color:#06b6d4"/>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5DEB3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DEB887;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#67e8f9;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#67e8f9;stop-opacity:0"/>
-    </radialGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#67e8f9" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#67e8f9" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#67e8f9" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#cffafe" text-anchor="middle">31</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#cffafe" text-anchor="middle" opacity="0.8">ЛИТЕРАТУРА · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#cffafe" text-anchor="middle">Урок 31: Деревенская проза. Ф.А. Абрамов, В.И. Бел</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#67e8f9" text-anchor="middle" opacity="0.8">Урок 31 из 35</text>
-  <circle cx="180" cy="180" r="20" fill="#67e8f9" opacity="0.5"/><circle cx="320" cy="180" r="20" fill="#67e8f9" opacity="0.3"/><circle cx="250" cy="220" r="15" fill="#67e8f9" opacity="0.4"/>
+  
+  <!-- Декоративный элемент -->
+  <g transform="translate(380, 110)">
+    <path d="M 0 0 L 20 10 L 0 20 L 5 10 Z" fill="url(#grad1)" stroke="#8B4513" stroke-width="1"/>
+    <path d="M 30 0 L 50 10 L 30 20 L 35 10 Z" fill="url(#grad1)" stroke="#8B4513" stroke-width="1"/>
+    <path d="M 60 0 L 80 10 L 60 20 L 65 10 Z" fill="url(#grad1)" stroke="#8B4513" stroke-width="1"/>
+  </g>
+  
+  <!-- Ключевые термины -->
+  <g transform="translate(400, 240)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="10" fill="#8B4513" font-weight="bold">Ключевые термины:</text>
+    <text x="0" y="15" font-family="Arial, sans-serif" font-size="9" fill="#8B4513">"деревенская проза"</text>
+    <text x="0" y="28" font-family="Arial, sans-serif" font-size="9" fill="#8B4513">"автобиографичность"</text>
+    <text x="0" y="41" font-family="Arial, sans-serif" font-size="9" fill="#8B4513">"экологическая проза"</text>
+  </g>
 </svg>

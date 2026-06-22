@@ -1,23 +1,118 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0c4a6e"/>
-      <stop offset="100%" style="stop-color:#06b6d4"/>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6f2ff;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#67e8f9;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#67e8f9;stop-opacity:0"/>
-    </radialGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4169e1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e90ff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff6347;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff8c00;stop-opacity:1" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#67e8f9" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#67e8f9" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#67e8f9" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#cffafe" text-anchor="middle">9</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#cffafe" text-anchor="middle" opacity="0.8">ГЕОМЕТРИЯ · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#cffafe" text-anchor="middle">Урок 9: Расстояния в координатах</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#67e8f9" text-anchor="middle" opacity="0.8">Урок 9 из 25</text>
-  <text x="200" y="220" font-size="32" fill="#67e8f9" opacity="0.5">x,y,z</text>
+  
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#4682b4" stroke-width="2"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#87ceeb" stroke-width="1"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1e3a8a">ГЕОГРАФИЯ · 11 КЛАСС</text>
+  <text x="250" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2563eb">Урок 9: Расстояния в координатах</text>
+  <text x="45" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e3a8a">9</text>
+  
+  <!-- Секция 1: От точки до плоскости -->
+  <g transform="translate(50, 90)">
+    <rect x="0" y="0" width="180" height="100" fill="url(#grad1)" stroke="#4682b4" stroke-width="1" rx="5"/>
+    <text x="90" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e3a8a">От точки до плоскости</text>
+    
+    <!-- Плоскость -->
+    <ellipse cx="90" cy="70" rx="70" ry="15" fill="none" stroke="#4169e1" stroke-width="2"/>
+    <path d="M20,70 L160,70" stroke="#4169e1" stroke-width="1" stroke-dasharray="2,2"/>
+    
+    <!-- Точка -->
+    <circle cx="90" cy="40" r="4" fill="#ff6347"/>
+    
+    <!-- Перпендикуляр -->
+    <line x1="90" y1="40" x2="90" y2="70" stroke="#ff6347" stroke-width="2"/>
+    <polygon points="90,70 85,65 95,65" fill="#ff6347"/>
+    
+    <!-- Расстояние -->
+    <line x1="90" y1="40" x2="130" y2="30" stroke="#333" stroke-width="1"/>
+    <text x="135" y="32" font-family="Arial, sans-serif" font-size="12" fill="#333">d</text>
+    
+    <!-- Формула -->
+    <text x="90" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">d = |Ax₀ + By₀ + Cz₀ + D|/√(A²+B²+C²)</text>
+  </g>
+  
+  <!-- Секция 2: От точки до прямой -->
+  <g transform="translate(260, 90)">
+    <rect x="0" y="0" width="180" height="100" fill="url(#grad1)" stroke="#4682b4" stroke-width="1" rx="5"/>
+    <text x="90" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e3a8a">От точки до прямой</text>
+    
+    <!-- Прямая -->
+    <line x1="20" y1="70" x2="160" y2="40" stroke="url(#grad2)" stroke-width="2"/>
+    
+    <!-- Точка -->
+    <circle cx="120" cy="60" r="4" fill="#ff6347"/>
+    
+    <!-- Перпендикуляр -->
+    <line x1="120" y1="60" x2="80" y2="70" stroke="#ff6347" stroke-width="2"/>
+    <polygon points="80,70 85,65 85,75" fill="#ff6347"/>
+    
+    <!-- Расстояние -->
+    <line x1="120" y1="60" x2="140" y2="50" stroke="#333" stroke-width="1"/>
+    <text x="145" y="52" font-family="Arial, sans-serif" font-size="12" fill="#333">d</text>
+    
+    <!-- Формула -->
+    <text x="90" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">d = |(x₁-x₀)(y₂-y₁)-(x₂-x₁)(y₁-y₀)|/√((x₂-x₁)²+(y₂-y₁)²)</text>
+  </g>
+  
+  <!-- Секция 3: Между скрещивающимися прямыми -->
+  <g transform="translate(50, 210)">
+    <rect x="0" y="0" width="390" height="110" fill="url(#grad1)" stroke="#4682b4" stroke-width="1" rx="5"/>
+    <text x="195" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e3a8a">Между скрещивающимися прямыми</text>
+    
+    <!-- Первая прямая -->
+    <line x1="30" y1="60" x2="150" y2="30" stroke="url(#grad2)" stroke-width="2"/>
+    <text x="25" y="65" font-family="Arial, sans-serif" font-size="12" fill="#333">l₁</text>
+    
+    <!-- Вторая прямая -->
+    <line x1="240" y1="85" x2="360" y2="45" stroke="url(#grad3)" stroke-width="2"/>
+    <text x="365" y="50" font-family="Arial, sans-serif" font-size="12" fill="#333">l₂</text>
+    
+    <!-- Вектор для первой прямой -->
+    <line x1="60" y1="55" x2="90" y2="45" stroke="#4169e1" stroke-width="1.5"/>
+    <polygon points="90,45 85,48 85,42" fill="#4169e1"/>
+    <text x="95" y="48" font-family="Arial, sans-serif" font-size="11" fill="#333">a₁</text>
+    
+    <!-- Вектор для второй прямой -->
+    <line x1="270" y1="75" x2="300" y2="65" stroke="#ff6347" stroke-width="1.5"/>
+    <polygon points="300,65 295,68 295,62" fill="#ff6347"/>
+    <text x="305" y="68" font-family="Arial, sans-serif" font-size="11" fill="#333">a₂</text>
+    
+    <!-- Общий перпендикуляр -->
+    <line x1="90" y1="45" x2="300" y2="65" stroke="#9370db" stroke-width="2" stroke-dasharray="3,2"/>
+    <text x="195" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#9370db">d</text>
+    
+    <!-- Формула -->
+    <text x="195" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">d = |(M₂-M₁)·(a₁×a₂)|/|a₁×a₂|</text>
+  </g>
+  
+  <!-- Легенда -->
+  <g transform="translate(30, 330)">
+    <circle cx="10" cy="5" r="3" fill="#ff6347"/>
+    <text x="18" y="9" font-family="Arial, sans-serif" font-size="10" fill="#333">Точка</text>
+    
+    <line x1="70" y1="5" x2="90" y2="5" stroke="#4169e1" stroke-width="2"/>
+    <text x="95" y="9" font-family="Arial, sans-serif" font-size="10" fill="#333">Прямая</text>
+    
+    <line x1="150" y1="5" x2="170" y2="5" stroke="#9370db" stroke-width="2" stroke-dasharray="3,2"/>
+    <text x="175" y="9" font-family="Arial, sans-serif" font-size="10" fill="#333">Расстояние</text>
+    
+    <polygon points="240,5 235,2 235,8" fill="#ff6347"/>
+    <text x="245" y="9" font-family="Arial, sans-serif" font-size="10" fill="#333">Перпендикуляр</text>
+  </g>
 </svg>

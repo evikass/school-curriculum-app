@@ -1,23 +1,110 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#7f1d1d"/>
-      <stop offset="100%" style="stop-color:#dc2626"/>
+    <linearGradient id="frameGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a3c28;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b6f47;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fca5a5;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#fca5a5;stop-opacity:0"/>
-    </radialGradient>
+    <linearGradient id="portraitGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34495e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bookGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4af37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b8941f;stop-opacity:1" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#fca5a5" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#fca5a5" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#fca5a5" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fee2e2" text-anchor="middle">16</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fee2e2" text-anchor="middle" opacity="0.8">ЛИТЕРАТУРА · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fee2e2" text-anchor="middle">Урок 16: И.Э. Бабель. «Конармия». Жизнь и творчест</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fca5a5" text-anchor="middle" opacity="0.8">Урок 16 из 35</text>
-  <polygon points="250,120 263,165 311,165 272,193 286,237 250,210 214,237 228,193 189,165 237,165" fill="#fca5a5" opacity="0.5"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="url(#frameGradient)" stroke-width="4"/>
+  <rect x="15" y="15" width="470" height="325" fill="none" stroke="#8b6f47" stroke-width="1" stroke-dasharray="5,3"/>
+  
+  <!-- Номер урока -->
+  <text x="470" y="30" text-anchor="end" font-family="Arial" font-size="14" fill="#4a3c28" font-weight="bold">№16</text>
+  
+  <!-- Заголовки -->
+  <text x="250" y="45" text-anchor="middle" font-family="Arial" font-size="16" fill="#2c3e50" font-weight="bold">ЛИТЕРАТУРА · 11 КЛАСС</text>
+  <text x="250" y="70" text-anchor="middle" font-family="Arial" font-size="20" fill="#2c3e50" font-weight="bold">И.Э. Бабель. «Конармия». Жизнь и творчество</text>
+  
+  <!-- Портрет Бабеля -->
+  <rect x="30" y="90" width="120" height="140" fill="url(#portraitGradient)" rx="5"/>
+  <circle cx="90" cy="130" r="25" fill="#f4d1ae"/>
+  <path d="M90 140 Q70 150 65 170 L115 170 Q110 150 90 140" fill="#f4d1ae"/>
+  <path d="M90 110 Q80 110 75 120 L105 120 Q100 110 90 110" fill="#2c3e50"/>
+  <path d="M65 140 Q60 145 65 150 M115 140 Q120 145 115 150" fill="#2c3e50" stroke="none"/>
+  <path d="M75 155 Q90 160 105 155" fill="none" stroke="#2c3e50" stroke-width="2"/>
+  <text x="90" y="245" text-anchor="middle" font-family="Arial" font-size="12" fill="#2c3e50" font-weight="bold">Исаак Бабель</text>
+  <text x="90" y="260" text-anchor="middle" font-family="Arial" font-size="10" fill="#2c3e50">(1894-1940)</text>
+  
+  <!-- Временная шкала жизни -->
+  <line x1="170" y1="180" x2="450" y2="180" stroke="#8b6f47" stroke-width="2"/>
+  <circle cx="170" y="180" r="4" fill="#8b6f47"/>
+  <circle cx="250" y="180" r="4" fill="#8b6f47"/>
+  <circle cx="350" y="180" r="4" fill="#8b6f47"/>
+  <circle cx="450" y="180" r="4" fill="#8b6f47"/>
+  
+  <text x="170" y="170" text-anchor="middle" font-family="Arial" font-size="10" fill="#2c3e50">1894</text>
+  <text x="250" y="170" text-anchor="middle" font-family="Arial" font-size="10" fill="#2c3e50">1915</text>
+  <text x="350" y="170" text-anchor="middle" font-family="Arial" font-size="10" fill="#2c3e50">1920-х</text>
+  <text x="450" y="170" text-anchor="middle" font-family="Arial" font-size="10" fill="#2c3e50">1940</text>
+  
+  <text x="170" y="195" text-anchor="middle" font-family="Arial" font-size="9" fill="#2c3e50">Рождение</text>
+  <text x="250" y="195" text-anchor="middle" font-family="Arial" font-size="9" fill="#2c3e50">Начало творчества</text>
+  <text x="350" y="195" text-anchor="middle" font-family="Arial" font-size="9" fill="#2c3e50">Расцвет</text>
+  <text x="450" y="195" text-anchor="middle" font-family="Arial" font-size="9" fill="#2c3e50">Расстрел</text>
+  
+  <!-- Книга "Конармия" -->
+  <rect x="180" y="210" width="60" height="80" fill="url(#bookGradient)" rx="2"/>
+  <line x1="180" y1="220" x2="240" y2="220" stroke="#8b6f47" stroke-width="1"/>
+  <line x1="180" y1="230" x2="240" y2="230" stroke="#8b6f47" stroke-width="1"/>
+  <line x1="180" y1="240" x2="240" y2="240" stroke="#8b6f47" stroke-width="1"/>
+  <line x1="180" y1="250" x2="240" y2="250" stroke="#8b6f47" stroke-width="1"/>
+  <line x1="180" y1="260" x2="240" y2="260" stroke="#8b6f47" stroke-width="1"/>
+  <line x1="180" y1="270" x2="240" y2="270" stroke="#8b6f47" stroke-width="1"/>
+  <line x1="180" y1="280" x2="240" y2="280" stroke="#8b6f47" stroke-width="1"/>
+  <text x="210" y="305" text-anchor="middle" font-family="Arial" font-size="10" fill="#2c3e50" font-weight="bold">«Конармия»</text>
+  <text x="210" y="318" text-anchor="middle" font-family="Arial" font-size="9" fill="#2c3e50">1926</text>
+  
+  <!-- Книга "Одесские рассказы" -->
+  <rect x="260" y="210" width="60" height="80" fill="url(#bookGradient)" rx="2"/>
+  <line x1="260" y1="220" x2="320" y2="220" stroke="#8b6f47" stroke-width="1"/>
+  <line x1="260" y1="230" x2="320" y2="230" stroke="#8b6f47" stroke-width="1"/>
+  <line x1="260" y1="240" x2="320" y2="240" stroke="#8b6f47" stroke-width="1"/>
+  <line x1="260" y1="250" x2="320" y2="250" stroke="#8b6f47" stroke-width="1"/>
+  <line x1="260" y1="260" x2="320" y2="260" stroke="#8b6f47" stroke-width="1"/>
+  <line x1="260" y1="270" x2="320" y2="270" stroke="#8b6f47" stroke-width="1"/>
+  <line x1="260" y1="280" x2="320" y2="280" stroke="#8b6f47" stroke-width="1"/>
+  <text x="290" y="305" text-anchor="middle" font-family="Arial" font-size="10" fill="#2c3e50" font-weight="bold">«Одесские рассказы»</text>
+  <text x="290" y="318" text-anchor="middle" font-family="Arial" font-size="9" fill="#2c3e50">1923-1924</text>
+  
+  <!-- Характеристики творчества -->
+  <rect x="350" y="90" width="130" height="100" fill="none" stroke="#8b6f47" stroke-width="1" rx="5"/>
+  <text x="415" y="110" text-anchor="middle" font-family="Arial" font-size="12" fill="#2c3e50" font-weight="bold">Тематика</text>
+  <text x="360" y="130" font-family="Arial" font-size="10" fill="#2c3e50">• Гражданская война</text>
+  <text x="360" y="145" font-family="Arial" font-size="10" fill="#2c3e50">• Жизнь бандитов</text>
+  <text x="360" y="160" font-family="Arial" font-size="10" fill="#2c3e50">• Еврейская тема</text>
+  <text x="360" y="175" font-family="Arial" font-size="10" fill="#2c3e50">• Одесса</text>
+  
+  <!-- Стиль творчества -->
+  <rect x="350" y="210" width="130" height="100" fill="none" stroke="#8b6f47" stroke-width="1" rx="5"/>
+  <text x="415" y="230" text-anchor="middle" font-family="Arial" font-size="12" fill="#2c3e50" font-weight="bold">Стиль</text>
+  <text x="360" y="250" font-family="Arial" font-size="10" fill="#2c3e50">• Лаконичность</text>
+  <text x="360" y="265" font-family="Arial" font-size="10" fill="#2c3e50">• Поэтичность прозы</text>
+  <text x="360" y="280" font-family="Arial" font-size="10" fill="#2c3e50">• Гротеск</text>
+  <text x="360" y="295" font-family="Arial" font-size="10" fill="#2c3e50">• Контрасты</text>
+  
+  <!-- Даты ключевых событий -->
+  <rect x="30" y="260" width="140" height="50" fill="none" stroke="#8b6f47" stroke-width="1" rx="5"/>
+  <text x="100" y="280" text-anchor="middle" font-family="Arial" font-size="11" fill="#2c3e50" font-weight="bold">Ключевые даты</text>
+  <text x="40" y="295" font-family="Arial" font-size="9" fill="#2c3e50">1894 - Рождение в Одессе</text>
+  <text x="40" y="305" font-family="Arial" font-size="9" fill="#2c3e50">1940 - Арест и расстрел</text>
+  
+  <!-- Цитата -->
+  <text x="250" y="120" text-anchor="middle" font-family="Arial" font-size="9" fill="#2c3e50" font-style="italic">"Я пишу рассказы о войне, но не войне</text>
+  <text x="250" y="135" text-anchor="middle" font-family="Arial" font-size="9" fill="#2c3e50" font-style="italic">я сочувствую, а тому, что война делает с людьми"</text>
+  
+  <!-- Декоративные элементы -->
+  <path d="M20 20 L30 30 L20 40" fill="none" stroke="#8b6f47" stroke-width="1"/>
+  <path d="M480 20 L470 30 L480 40" fill="none" stroke="#8b6f47" stroke-width="1"/>
+  <path d="M20 330 L30 320 L20 310" fill="none" stroke="#8b6f47" stroke-width="1"/>
+  <path d="M480 330 L470 320 L480 310" fill="none" stroke="#8b6f47" stroke-width="1"/>
 </svg>

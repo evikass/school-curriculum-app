@@ -1,23 +1,116 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
-  <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e3a8a"/>
-      <stop offset="100%" style="stop-color:#3b82f6"/>
-    </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#93c5fd;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#93c5fd;stop-opacity:0"/>
-    </radialGradient>
-  </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#93c5fd" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#93c5fd" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#93c5fd" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#dbeafe" text-anchor="middle">12</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dbeafe" text-anchor="middle" opacity="0.8">ИСТОРИЯ РОССИИ · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#dbeafe" text-anchor="middle">Урок 12: НЭП. Экономическое восстановление 1921-19</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#93c5fd" text-anchor="middle" opacity="0.8">Урок 12 из 35</text>
-  <rect x="180" y="160" width="140" height="60" fill="#93c5fd" opacity="0.3"/><rect x="200" y="120" width="20" height="40" fill="#93c5fd" opacity="0.5"/><rect x="240" y="130" width="20" height="30" fill="#93c5fd" opacity="0.5"/><rect x="280" y="120" width="20" height="40" fill="#93c5fd" opacity="0.5"/>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#8B4513" stroke-width="3"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#A0522D" stroke-width="1"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2C1810">ИСТОРИЯ · 11 КЛАСС</text>
+  <text x="250" y="50" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#8B4513">НЭП: продналог vs продразвёрстка</text>
+  
+  <!-- Номер урока -->
+  <text x="470" y="30" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#8B4513">Урок 24</text>
+  
+  <!-- Хронологическая лента -->
+  <rect x="50" y="70" width="400" height="25" fill="#D2B48C" rx="5"/>
+  <rect x="50" y="70" width="200" height="25" fill="#CD853F"/>
+  <text x="150" y="87" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Продразвёрстка</text>
+  <text x="350" y="87" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2C1810">Продналог</text>
+  <text x="50" y="87" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#2C1810">1919</text>
+  <text x="250" y="87" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">1921</text>
+  <text x="450" y="87" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#2C1810">1928</text>
+  
+  <!-- Сравнительная таблица -->
+  <rect x="40" y="110" width="210" height="80" fill="#F5F5DC" stroke="#8B4513" stroke-width="1"/>
+  <rect x="250" y="110" width="210" height="80" fill="#FFE4B5" stroke="#8B4513" stroke-width="1"/>
+  <text x="145" y="130" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#8B4513">Продразвёрстка</text>
+  <text x="355" y="130" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#8B4513">Продналог</text>
+  <text x="50" y="150" font-family="Arial, sans-serif" font-size="10" fill="#2C1810">• Принудительный изъятие</text>
+  <text x="260" y="150" font-family="Arial, sans-serif" font-size="10" fill="#2C1810">• Фиксированный налог</text>
+  <text x="50" y="165" font-family="Arial, sans-serif" font-size="10" fill="#2C1810">• Бесплатный труд</text>
+  <text x="260" y="165" font-family="Arial, sans-serif" font-size="10" fill="#2C1810">• Свобода торговли</text>
+  <text x="50" y="180" font-family="Arial, sans-serif" font-size="10" fill="#2C1810">• Трудармии</text>
+  <text x="260" y="180" font-family="Arial, sans-serif" font-size="10" fill="#2C1810">• Рыночные отношения</text>
+  
+  <!-- Червонец -->
+  <ellipse cx="120" cy="230" rx="45" ry="60" fill="#FFD700"/>
+  <ellipse cx="120" cy="230" rx="40" ry="55" fill="#FFA500"/>
+  <text x="120" y="220" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#8B4513">1</text>
+  <text x="120" y="235" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#8B4513">Червонец</text>
+  <text x="120" y="250" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#8B4513">1922</text>
+  <text x="120" y="265" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#8B4513">10 рублей</text>
+  
+  <!-- Нэпман -->
+  <circle cx="350" cy="200" r="15" fill="#FDBCB4"/>
+  <rect x="340" y="215" width="20" height="30" fill="#4682B4"/>
+  <rect x="335" y="225" width="30" height="3" fill="#8B4513"/>
+  <rect x="335" y="232" width="30" height="3" fill="#8B4513"/>
+  <circle cx="350" cy="195" r="10" fill="#8B4513"/>
+  <text x="350" y="255" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2C1810">Нэпман</text>
+  
+  <!-- Рынок -->
+  <rect x="300" y="190" width="100" height="60" fill="none" stroke="#8B4513" stroke-width="1"/>
+  <line x1="300" y1="210" x2="400" y2="210" stroke="#8B4513" stroke-width="1"/>
+  <line x1="300" y1="230" x2="400" y2="230" stroke="#8B4513" stroke-width="1"/>
+  <circle cx="320" cy="200" r="3" fill="#FF6347"/>
+  <circle cx="340" cy="200" r="3" fill="#32CD32"/>
+  <circle cx="360" cy="200" r="3" fill="#FFD700"/>
+  <circle cx="320" cy="220" r="3" fill="#9370DB"/>
+  <circle cx="340" cy="220" r="3" fill="#FF69B4"/>
+  <circle cx="360" cy="220" r="3" fill="#00CED1"/>
+  <circle cx="320" cy="240" r="3" fill="#FF8C00"/>
+  <circle cx="340" cy="240" r="3" fill="#20B2AA"/>
+  <circle cx="360" cy="240" r="3" fill="#DC143C"/>
+  <text x="350" y="265" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2C1810">Рынок</text>
+  
+  <!-- График денежной реформы -->
+  <rect x="50" y="280" width="400" height="50" fill="#F0E68C" stroke="#8B4513" stroke-width="1"/>
+  <text x="250" y="295" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2C1810">Денежная реформа 1922-1924</text>
+  <line x1="70" y1="315" x2="430" y2="315" stroke="#8B4513" stroke-width="1"/>
+  <line x1="70" y1="305" x2="70" y2="320" stroke="#8B4513" stroke-width="1"/>
+  <line x1="150" y1="305" x2="150" y2="320" stroke="#8B4513" stroke-width="1"/>
+  <line x1="250" y1="305" x2="250" y2="320" stroke="#8B4513" stroke-width="1"/>
+  <line x1="350" y1="305" x2="350" y2="320" stroke="#8B4513" stroke-width="1"/>
+  <line x1="430" y1="305" x2="430" y2="320" stroke="#8B4513" stroke-width="1"/>
+  
+  <polyline points="70,318 150,310 250,308 350,312 430,314" fill="none" stroke="#DC143C" stroke-width="2"/>
+  <polyline points="70,315 150,305 250,302 350,307 430,311" fill="none" stroke="#4682B4" stroke-width="2"/>
+  
+  <text x="70" y="325" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#2C1810">1922</text>
+  <text x="150" y="325" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#2C1810">1923</text>
+  <text x="250" y="325" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#2C1810">1924</text>
+  <text x="350" y="325" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#2C1810">1925</text>
+  <text x="430" y="325" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#2C1810">1926</text>
+  
+  <text x="50" y="315" font-family="Arial, sans-serif" font-size="6" text-anchor="end" fill="#2C1810">100</text>
+  <text x="50" y="305" font-family="Arial, sans-serif" font-size="6" text-anchor="end" fill="#2C1810">200</text>
+  
+  <!-- Формула -->
+  <text x="250" y="345" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2C1810">Продналог = (Урожай × Налоговая ставка) × (1 - Надбавка)</text>
+  
+  <!-- Даты -->
+  <text x="50" y="200" font-family="Arial, sans-serif" font-size="8" fill="#8B4513">1919-1921</text>
+  <text x="250" y="200" font-family="Arial, sans-serif" font-size="8" fill="#8B4513">1921-1928</text>
+  <text x="350" y="280" font-family="Arial, sans-serif" font-size="8" fill="#8B4513">1922-1924</text>
+  
+  <!-- Дополнительные элементы -->
+  <rect x="80" y="130" width="3" height="40" fill="#8B4513"/>
+  <rect x="290" y="130" width="3" height="40" fill="#8B4513"/>
+  
+  <circle cx="120" cy="150" r="2" fill="#FF6347"/>
+  <circle cx="120" cy="165" r="2" fill="#32CD32"/>
+  <circle cx="120" cy="180" r="2" fill="#9370DB"/>
+  
+  <circle cx="350" cy="150" r="2" fill="#FFD700"/>
+  <circle cx="350" cy="165" r="2" fill="#FF69B4"/>
+  <circle cx="350" cy="180" r="2" fill="#00CED1"/>
+  
+  <!-- Декоративные элементы -->
+  <path d="M20,20 Q30,10 40,20 T60,20" fill="none" stroke="#8B4513" stroke-width="1"/>
+  <path d="M440,20 Q450,10 460,20 T480,20" fill="none" stroke="#8B4513" stroke-width="1"/>
+  
+  <!-- Легенда графика -->
+  <line x1="370" y1="290" x2="390" y2="290" stroke="#DC143C" stroke-width="2"/>
+  <text x="395" y="293" font-family="Arial, sans-serif" font-size="6" fill="#2C1810">Денег</text>
+  <line x1="370" y1="298" x2="390" y2="298" stroke="#4682B4" stroke-width="2"/>
+  <text x="395" y="301" font-family="Arial, sans-serif" font-size="6" fill="#2C1810">Товаров</text>
 </svg>

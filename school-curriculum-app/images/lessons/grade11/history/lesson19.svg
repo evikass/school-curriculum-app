@@ -1,23 +1,175 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Градиенты -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#7c2d12"/>
-      <stop offset="100%" style="stop-color:#f97316"/>
+    <linearGradient id="mapGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8d4b0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d4b896;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fdba74;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#fdba74;stop-opacity:0"/>
+    
+    <linearGradient id="battleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4a4a4a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8b0000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a4a4a;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="heroGradient">
+      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b8860b;stop-opacity:1" />
     </radialGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#fdba74" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#fdba74" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#fdba74" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fed7aa" text-anchor="middle">19</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fed7aa" text-anchor="middle" opacity="0.8">ИСТОРИЯ РОССИИ · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fed7aa" text-anchor="middle">Урок 19: Коренной перелом в войне. 1942-1943 годы</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fdba74" text-anchor="middle" opacity="0.8">Урок 19 из 35</text>
-  <polygon points="250,120 263,165 311,165 272,193 286,237 250,210 214,237 228,193 189,165 237,165" fill="#fdba74" opacity="0.5"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#8b4513" stroke-width="3"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#daa520" stroke-width="1"/>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">ИСТОРИЯ · 11 КЛАСС</text>
+  <text x="250" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#8b0000">Коренной перелом</text>
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Сталинградская и Курская битвы</text>
+  
+  <!-- Номер урока в углу -->
+  <text x="460" y="340" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#8b4513">Урок 12</text>
+  
+  <!-- Карта региона -->
+  <rect x="40" y="80" width="300" height="200" fill="url(#mapGradient)" stroke="#8b4513" stroke-width="1"/>
+  
+  <!-- Река Волга -->
+  <path d="M 40 150 Q 120 140, 200 150 T 340 150" fill="none" stroke="#4682b4" stroke-width="3"/>
+  <text x="190" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e3a8a">р. Волга</text>
+  
+  <!-- Сталинград -->
+  <circle cx="180" cy="150" r="8" fill="#8b0000"/>
+  <text x="180" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Сталинград</text>
+  
+  <!-- Курск -->
+  <circle cx="280" cy="180" r="6" fill="#8b0000"/>
+  <text x="280" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Курск</text>
+  
+  <!-- Прохоровка -->
+  <circle cx="250" cy="200" r="5" fill="#ff6347"/>
+  <text x="250" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Прохоровка</text>
+  
+  <!-- Фронтовые линии -->
+  <path d="M 100 120 L 150 130 L 180 150 L 150 170 L 100 180 L 80 160 Z" fill="none" stroke="#8b0000" stroke-width="2" stroke-dasharray="3,2"/>
+  <path d="M 200 140 L 220 145 L 240 150 L 260 155 L 280 160 L 300 165" fill="none" stroke="#4682b4" stroke-width="2"/>
+  
+  <!-- Даты -->
+  <text x="50" y="100" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">19.11.1942</text>
+  <text x="320" y="220" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">23.08.1943</text>
+  
+  <!-- Хронологическая лента -->
+  <rect x="40" y="290" width="420" height="15" fill="#d4b896" stroke="#8b4513" stroke-width="1"/>
+  
+  <!-- События на ленте -->
+  <circle cx="80" cy="297" r="3" fill="#8b0000"/>
+  <text x="80" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#2c3e50">19.11</text>
+  <text x="80" y="313" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#2c3e50">Начало</text>
+  
+  <circle cx="180" cy="297" r="3" fill="#8b0000"/>
+  <text x="180" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#2c3e50">02.02</text>
+  <text x="180" y="313" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#2c3e50">Сталинград</text>
+  
+  <circle cx="280" cy="297" r="3" fill="#8b0000"/>
+  <text x="280" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#2c3e50">05.07</text>
+  <text x="280" y="313" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#2c3e50">Курск</text>
+  
+  <circle cx="380" cy="297" r="3" fill="#8b0000"/>
+  <text x="380" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#2c3e50">23.08</text>
+  <text x="380" y="313" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#2c3e50">Прохоровка</text>
+  
+  <!-- График потерь -->
+  <rect x="360" y="100" width="100" height="80" fill="#f5f5dc" stroke="#8b4513" stroke-width="1"/>
+  <text x="410" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#2c3e50">Потери</text>
+  
+  <!-- График потерь - оси -->
+  <line x1="370" y1="170" x2="450" y2="170" stroke="#2c3e50" stroke-width="1"/>
+  <line x1="370" y1="170" x2="370" y2="110" stroke="#2c3e50" stroke-width="1"/>
+  
+  <!-- График потерь - данные -->
+  <path d="M 380 165 L 390 160 L 400 155 L 410 145 L 420 140 L 430 135 L 440 130" fill="none" stroke="#8b0000" stroke-width="2"/>
+  <path d="M 380 165 L 390 150 L 400 140 L 410 130 L 420 125 L 430 120 L 440 115" fill="none" stroke="#4682b4" stroke-width="2"/>
+  
+  <!-- Легенда графика -->
+  <line x1="375" y1="115" x2="385" y2="115" stroke="#8b0000" stroke-width="2"/>
+  <text x="390" y="118" font-family="Arial, sans-serif" font-size="7" fill="#2c3e50">СССР</text>
+  
+  <line x1="375" y1="125" x2="385" y2="125" stroke="#4682b4" stroke-width="2"/>
+  <text x="390" y="128" font-family="Arial, sans-serif" font-size="7" fill="#2c3e50">Германия</text>
+  
+  <!-- Портреты -->
+  <circle cx="50" cy="60" r="15" fill="url(#heroGradient)"/>
+  <text x="50" y="64" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Сталин</text>
+  
+  <circle cx="120" cy="60" r="15" fill="url(#heroGradient)"/>
+  <text x="120" y="64" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Жуков</text>
+  
+  <circle cx="190" cy="60" r="15" fill="url(#heroGradient)"/>
+  <text x="190" y="64" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Рокоссовский</text>
+  
+  <!-- Значки -->
+  <polygon points="360,60 370,70 350,70" fill="#8b0000"/>
+  <text x="360" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#2c3e50">Победа</text>
+  
+  <!-- Статистика -->
+  <rect x="360" y="190" width="100" height="60" fill="#f5f5dc" stroke="#8b4513" stroke-width="1"/>
+  <text x="410" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#2c3e50">Статистика</text>
+  
+  <text x="370" y="220" font-family="Arial, sans-serif" font-size="7" fill="#2c3e50">Красная Армия:</text>
+  <text x="370" y="230" font-family="Arial, sans-serif" font-size="7" fill="#2c3e50">1.6 млн чел.</text>
+  
+  <text x="370" y="240" font-family="Arial, sans-serif" font-size="7" fill="#2c3e50">Вермахт:</text>
+  <text x="370" y="250" font-family="Arial, sans-serif" font-size="7" fill="#2c3e50">1.2 млн чел.</text>
+  
+  <!-- Артиллерийские символы -->
+  <circle cx="150" cy="130" r="3" fill="#2c3e50"/>
+  <line x1="150" y1="130" x2="150" y2="120" stroke="#2c3e50" stroke-width="1"/>
+  
+  <circle cx="220" cy="145" r="3" fill="#2c3e50"/>
+  <line x1="220" y1="145" x2="220" y2="135" stroke="#2c3e50" stroke-width="1"/>
+  
+  <!-- Масштаб карты -->
+  <line x1="50" y1="290" x2="100" y2="290" stroke="#2c3e50" stroke-width="1"/>
+  <line x1="50" y1="285" x2="50" y2="295" stroke="#2c3e50" stroke-width="1"/>
+  <line x1="100" y1="285" x2="100" y2="295" stroke="#2c3e50" stroke-width="1"/>
+  <text x="75" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#2c3e50">100 км</text>
+  
+  <!-- Дополнительные детали карты -->
+  <rect x="100" y="200" width="15" height="10" fill="#8b4513" opacity="0.5"/>
+  <text x="107" y="208" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#2c3e50">лес</text>
+  
+  <rect x="200" y="120" width="20" height="10" fill="#4682b4" opacity="0.5"/>
+  <text x="210" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#2c3e50">озеро</text>
+  
+  <!-- Схема битвы под Прохоровкой -->
+  <rect x="40" y="240" width="120" height="40" fill="#f5f5dc" stroke="#8b4513" stroke-width="1"/>
+  <text x="100" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#2c3e50">Прохоровка</text>
+  
+  <line x1="50" y1="265" x2="70" y2="265" stroke="#8b0000" stroke-width="2"/>
+  <text x="60" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#2c3e50">СССР</text>
+  
+  <line x1="90" y1="265" x2="110" y2="265" stroke="#4682b4" stroke-width="2"/>
+  <text x="100" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#2c3e50">Германия</text>
+  
+  <!-- Военная техника (символы) -->
+  <rect x="130" y="130" width="5" height="3" fill="#2c3e50"/>
+  <rect x="140" y="140" width="5" height="3" fill="#2c3e50"/>
+  <rect x="160" y="125" width="5" height="3" fill="#2c3e50"/>
+  <rect x="170" y="135" width="5" height="3" fill="#2c3e50"/>
+  <rect x="190" y="130" width="5" height="3" fill="#2c3e50"/>
+  <rect x="200" y="140" width="5" height="3" fill="#2c3e50"/>
+  
+  <!-- Указатели направления -->
+  <line x1="250" y1="150" x2="250" y2="170" stroke="#8b0000" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <line x1="250" y1="170" x2="250" y2="190" stroke="#4682b4" stroke-width="1" marker-end="url(#arrowhead)"/>
+  
+  <!-- Стрелка -->
+  <defs>
+    <marker id="arrowhead" markerWidth="5" markerHeight="3" refX="0" refY="1.5" orient="auto">
+      <polygon points="0 0, 5 1.5, 0 3" fill="#2c3e50"/>
+    </marker>
+  </defs>
+  
+  <!-- Важные даты -->
+  <text x="40" y="330" font-family="Arial, sans-serif" font-size="7" fill="#2c3e50">Общая длительность: 285 дней</text>
+  <text x="300" y="330" font-family="Arial, sans-serif" font-size="7" fill="#2c3e50">Ключевой момент: 19.11.1942</text>
 </svg>

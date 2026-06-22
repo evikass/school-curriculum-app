@@ -1,23 +1,100 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
-  <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#4c1d95"/>
-      <stop offset="100%" style="stop-color:#8b5cf6"/>
-    </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#c4b5fd;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#c4b5fd;stop-opacity:0"/>
-    </radialGradient>
-  </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#c4b5fd" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#c4b5fd" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#c4b5fd" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#ede9fe" text-anchor="middle">11</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ede9fe" text-anchor="middle" opacity="0.8">ИСТОРИЯ РОССИИ · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#ede9fe" text-anchor="middle">Урок 11: Политическое развитие 1918-1922 гг. Образ</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#c4b5fd" text-anchor="middle" opacity="0.8">Урок 11 из 35</text>
-  <polygon points="250,120 263,165 311,165 272,193 286,237 250,210 214,237 228,193 189,165 237,165" fill="#c4b5fd" opacity="0.4"/>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#8B4513" stroke-width="3"/>
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#A0522D" stroke-width="1"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2C3E50">ОБРАЗОВАНИЕ СССР</text>
+  <text x="250" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7F8C8D">ИСТОРИЯ · 11 КЛАСС</text>
+  
+  <!-- Номер урока -->
+  <rect x="430" y="20" width="50" height="25" fill="#E74C3C" rx="3"/>
+  <text x="455" y="37" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Урок 12</text>
+  
+  <!-- Флаг СССР -->
+  <g transform="translate(250, 90)">
+    <rect x="-40" y="-15" width="80" height="30" fill="#FF0000"/>
+    <rect x="-40" y="-10" width="80" height="20" fill="#FFFFFF"/>
+    <rect x="-40" y="-5" width="80" height="10" fill="#FF0000"/>
+    <circle cx="0" cy="0" r="10" fill="#FF0000"/>
+    <path d="M-5,-5 L-3,0 L-5,5 L0,3 L5,5 L3,0 L5,-5 L0,-3 Z" fill="#FFFF00"/>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Флаг СССР</text>
+  </g>
+  
+  <!-- Карта СССР -->
+  <g transform="translate(150, 170)">
+    <!-- РСФСР -->
+    <path d="M-50,-20 L-40,-15 L-35,-10 L-30,-5 L-25,0 L-20,5 L-15,10 L-10,15 L-5,20 L0,25 L5,20 L10,15 L15,10 L20,5 L25,0 L30,-5 L35,-10 L40,-15 L50,-20 L45,-25 L40,-30 L35,-35 L30,-40 L25,-45 L20,-40 L15,-35 L10,-30 L5,-25 L0,-20 L-5,-25 L-10,-30 L-15,-35 L-20,-40 L-25,-45 L-30,-40 L-35,-35 L-40,-30 L-45,-25 Z" fill="#3498DB" stroke="#2C3E50" stroke-width="1"/>
+    <text x="0" y="-5" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">РСФСР</text>
+    
+    <!-- УССР -->
+    <path d="M-10,10 L5,15 L15,10 L20,5 L15,0 L10,-5 L5,0 L0,5 L-5,0 L-10,5 Z" fill="#E74C3C" stroke="#2C3E50" stroke-width="1"/>
+    <text x="5" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="white">УССР</text>
+    
+    <!-- БССР -->
+    <path d="M-20,-10 L-15,-15 L-10,-10 L-5,-5 L-10,0 L-15,0 L-20,-5 Z" fill="#2ECC71" stroke="#2C3E50" stroke-width="1"/>
+    <text x="-12" y="-7" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="white">БССР</text>
+    
+    <!-- ЗСФСР -->
+    <path d="M-40,10 L-30,15 L-25,10 L-20,5 L-25,0 L-30,-5 L-35,0 L-40,5 Z" fill="#F39C12" stroke="#2C3E50" stroke-width="1"/>
+    <text x="-30" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="white">ЗСФСР</text>
+  </g>
+  
+  <!-- Хронологическая лента -->
+  <g transform="translate(250, 270)">
+    <rect x="-100" y="-5" width="200" height="10" fill="#34495E" rx="5"/>
+    <circle cx="-80" cy="0" r="5" fill="#E74C3C"/>
+    <circle cx="-40" cy="0" r="5" fill="#E74C3C"/>
+    <circle cx="0" cy="0" r="5" fill="#E74C3C"/>
+    <circle cx="40" cy="0" r="5" fill="#E74C3C"/>
+    <circle cx="80" cy="0" r="5" fill="#E74C3C"/>
+    
+    <text x="-80" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50">1917</text>
+    <text x="-40" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50">1920</text>
+    <text x="0" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50">1922</text>
+    <text x="40" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50">1924</text>
+    <text x="80" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50">1928</text>
+    
+    <text x="0" y="-15" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#2C3E50">30 декабря 1922</text>
+    <text x="0" y="-30" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7F8C8D">Подписание Договора об образовании СССР</text>
+  </g>
+  
+  <!-- Портреты лидеров -->
+  <g transform="translate(50, 170)">
+    <circle cx="0" cy="0" r="15" fill="#ECF0F1" stroke="#2C3E50" stroke-width="1"/>
+    <path d="M-5,-10 C-5,-5 -5,0 0,0 C5,0 5,-5 5,-10 Z" fill="#34495E"/>
+    <path d="M-10,5 C-10,10 -5,15 0,15 C5,15 10,10 10,5" fill="#34495E"/>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50">Ленин</text>
+  </g>
+  
+  <g transform="translate(400, 170)">
+    <circle cx="0" cy="0" r="15" fill="#ECF0F1" stroke="#2C3E50" stroke-width="1"/>
+    <path d="M-5,-10 C-5,-5 -5,0 0,0 C5,0 5,-5 5,-10 Z" fill="#34495E"/>
+    <path d="M-10,5 C-10,10 -5,15 0,15 C5,15 10,10 10,5" fill="#34495E"/>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50">Сталин</text>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <g transform="translate(30, 80)">
+    <path d="M0,0 L10,0 L5,-10 Z" fill="#E74C3C"/>
+    <path d="M15,0 L25,0 L20,-10 Z" fill="#3498DB"/>
+    <path d="M30,0 L40,0 L35,-10 Z" fill="#2ECC71"/>
+    <path d="M45,0 L55,0 L50,-10 Z" fill="#F39C12"/>
+  </g>
+  
+  <!-- График роста республик -->
+  <g transform="translate(350, 220)">
+    <rect x="0" y="0" width="100" height="60" fill="none" stroke="#34495E" stroke-width="1"/>
+    <polyline points="10,50 30,40 50,30 70,20 90,10" fill="none" stroke="#E74C3C" stroke-width="2"/>
+    <polyline points="10,50 30,45 50,35 70,30 90,15" fill="none" stroke="#3498DB" stroke-width="2"/>
+    <polyline points="10,50 30,48 50,40 70,35 90,20" fill="none" stroke="#2ECC71" stroke-width="2"/>
+    <polyline points="10,50 30,46 50,38 70,32 90,18" fill="none" stroke="#F39C12" stroke-width="2"/>
+    <text x="50" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50">Рост промышленности</text>
+  </g>
+  
+  <!-- Формула Договора -->
+  <g transform="translate(250, 120)">
+    <rect x="-60" y="-10" width="120" height="20" fill="#ECF0F1" stroke="#34495E" stroke-width="1"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Договор = РСФСР + УССР + БССР + ЗСФСР</text>
+  </g>
 </svg>

@@ -1,23 +1,111 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#831843"/>
-      <stop offset="100%" style="stop-color:#ec4899"/>
+    <linearGradient id="frameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3a2317;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7d5a50;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#f9a8d4;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#f9a8d4;stop-opacity:0"/>
-    </radialGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f0e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6dfd4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a7ba7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3a6b96;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="portraitGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b6f47;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6b5537;stop-opacity:1" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#f9a8d4" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#f9a8d4" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#f9a8d4" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fce7f3" text-anchor="middle">26</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fce7f3" text-anchor="middle" opacity="0.8">ЛИТЕРАТУРА · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fce7f3" text-anchor="middle">Урок 26: Поэзия «оттепели» 1950-1960-х. Евтушенко,</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#f9a8d4" text-anchor="middle" opacity="0.8">Урок 26 из 35</text>
-  <text x="150" y="220" font-family="Arial" font-size="36" fill="#f9a8d4" opacity="0.5">♪</text><text x="350" y="220" font-family="Arial" font-size="36" fill="#f9a8d4" opacity="0.5">♫</text>
+  
+  <!-- Фоновый прямоугольник -->
+  <rect width="500" height="350" fill="url(#bgGrad)" />
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="url(#frameGrad)" stroke-width="3" rx="5" ry="5" />
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#d4c5b9" stroke-width="1" rx="3" ry="3" />
+  
+  <!-- Заголовок класса -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#3a6b96" font-weight="bold">ЛИТЕРАТУРА · 11 КЛАСС</text>
+  
+  <!-- Заголовок урока -->
+  <rect x="80" y="45" width="340" height="35" rx="5" ry="5" fill="url(#headerGrad)" />
+  <text x="250" y="67" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="white" font-weight="bold">Урок 26: Поэзия «оттепели» 1950-1960-х</text>
+  
+  <!-- Номер урока в углу -->
+  <circle cx="45" cy="60" r="18" fill="#8b6f47" />
+  <text x="45" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">26</text>
+  
+  <!-- Хронологическая линия -->
+  <line x1="80" y1="120" x2="420" y2="120" stroke="#8b6f47" stroke-width="2" />
+  <circle cx="80" cy="120" r="5" fill="#8b6f47" />
+  <circle cx="250" cy="120" r="5" fill="#8b6f47" />
+  <circle cx="420" cy="120" r="5" fill="#8b6f47" />
+  
+  <!-- Даты на хронологической линии -->
+  <text x="80" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#3a2317">1953</text>
+  <text x="250" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#3a2317">1960</text>
+  <text x="420" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#3a2317">1968</text>
+  
+  <!-- Портрет Евтушенко -->
+  <ellipse cx="120" cy="190" rx="40" ry="50" fill="url(#portraitGrad)" />
+  <circle cx="120" cy="175" r="18" fill="#f4d1ae" />
+  <path d="M105,185 Q120,195 135,185 L135,195 Q120,205 105,195 Z" fill="#f4d1ae" />
+  <line x1="105" y1="170" x2="100" y2="165" stroke="#000" stroke-width="1" />
+  <line x1="135" y1="170" x2="140" y2="165" stroke="#000" stroke-width="1" />
+  <circle cx="115" cy="175" r="1.5" fill="#000" />
+  <circle cx="125" cy="175" r="1.5" fill="#000" />
+  <path d="M115,180 Q120,183 125,180" fill="none" stroke="#000" stroke-width="1" />
+  <text x="120" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#3a2317" font-weight="bold">Евтушенко</text>
+  <text x="120" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#3a2317">1932-2017</text>
+  
+  <!-- Портрет Вознесенский -->
+  <ellipse cx="250" cy="190" rx="40" ry="50" fill="url(#portraitGrad)" />
+  <circle cx="250" cy="175" r="18" fill="#f4d1ae" />
+  <path d="M235,185 Q250,195 265,185 L265,195 Q250,205 235,195 Z" fill="#f4d1ae" />
+  <line x1="235" y1="170" x2="230" y2="165" stroke="#000" stroke-width="1" />
+  <line x1="265" y1="170" x2="270" y2="165" stroke="#000" stroke-width="1" />
+  <circle cx="245" cy="175" r="1.5" fill="#000" />
+  <circle cx="255" cy="175" r="1.5" fill="#000" />
+  <path d="M245,180 Q250,183 255,180" fill="none" stroke="#000" stroke-width="1" />
+  <text x="250" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#3a2317" font-weight="bold">Вознесенский</text>
+  <text x="250" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#3a2317">1933-2010</text>
+  
+  <!-- Портрет Рождественский -->
+  <ellipse cx="380" cy="190" rx="40" ry="50" fill="url(#portraitGrad)" />
+  <circle cx="380" cy="175" r="18" fill="#f4d1ae" />
+  <path d="M365,185 Q380,195 395,185 L395,195 Q380,205 365,195 Z" fill="#f4d1ae" />
+  <line x1="365" y1="170" x2="360" y2="165" stroke="#000" stroke-width="1" />
+  <line x1="395" y1="170" x2="400" y2="165" stroke="#000" stroke-width="1" />
+  <circle cx="375" cy="175" r="1.5" fill="#000" />
+  <circle cx="385" cy="175" r="1.5" fill="#000" />
+  <path d="M375,180 Q380,183 385,180" fill="none" stroke="#000" stroke-width="1" />
+  <text x="380" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#3a2317" font-weight="bold">Рождественский</text>
+  <text x="380" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#3a2317">1932-1990</text>
+  
+  <!-- Схема новаций формы -->
+  <rect x="80" y="270" width="340" height="60" rx="5" ry="5" fill="#e8f0f8" stroke="#4a7ba7" stroke-width="1" />
+  <text x="90" y="290" font-family="Arial, sans-serif" font-size="12" fill="#3a2317" font-weight="bold">Новации формы:</text>
+  <text x="90" y="305" font-family="Arial, sans-serif" font-size="10" fill="#3a2317">• Свободный стих • Ритмическая проза • Звукопись • Музыкальность</text>
+  <text x="90" y="320" font-family="Arial, sans-serif" font-size="10" fill="#3a2317">• Эстрадная поэзия • Авторская песня • Публичное чтение</text>
+  
+  <!-- Ключевые термины -->
+  <text x="460" y="100" font-family="Arial, sans-serif" font-size="11" fill="#8b6f47" font-weight="bold">«Шестидесятники»</text>
+  <text x="460" y="115" font-family="Arial, sans-serif" font-size="9" fill="#3a2317">поэтическое</text>
+  <text x="460" y="128" font-family="Arial, sans-serif" font-size="9" fill="#3a2317">поколение</text>
+  
+  <!-- Эпиграф -->
+  <text x="250" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#4a7ba7" font-style="italic">«Поэзия — это живая речь»</text>
+  
+  <!-- Декоративные элементы -->
+  <path d="M30,100 L35,95 L40,100" fill="none" stroke="#8b6f47" stroke-width="1" />
+  <path d="M460,100 L465,95 L470,100" fill="none" stroke="#8b6f47" stroke-width="1" />
+  
+  <!-- Уголок книги -->
+  <path d="M420,270 L430,270 L430,280" fill="none" stroke="#8b6f47" stroke-width="2" />
+  <path d="M420,270 L420,280" fill="none" stroke="#8b6f47" stroke-width="2" />
+  
+  <!-- Символ пера -->
+  <path d="M85,270 L90,280 L95,275 L90,270 Z" fill="#4a7ba7" />
+  <line x1="90" y1="280" x2="90" y2="290" stroke="#4a7ba7" stroke-width="1" />
 </svg>

@@ -1,40 +1,160 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#00695C" />
-      <stop offset="100%" stop-color="#289184" />
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f7fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e9ecef;stop-opacity:1" />
     </linearGradient>
-    <filter id="sh" x="-5%" y="-5%" width="110%" height="110%">
-      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="rgba(0,0,0,0.10)" />
-    </filter>
+    <linearGradient id="chartGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4e73df;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#224abe;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="pieGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f6c23e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dda20a;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#d1d5db"/>
+    </pattern>
   </defs>
-  <rect width="500" height="350" rx="12" ry="12" fill="#E0F2F1" />
-  <rect x="1" y="1" width="498" height="348" rx="12" ry="12" fill="none" stroke="#00695C" stroke-width="2.5" />
-  <rect x="16" y="16" width="468" height="54" rx="10" ry="10" fill="url(#hdr)" filter="url(#sh)" />
-  <text x="32" y="50" font-family="sans-serif" font-size="22" fill="#FFFFFF">🌍</text>
-  <text x="60" y="38" font-family="sans-serif" font-weight="700" font-size="14" fill="#FFFFFF">География — Урок 6</text>
-  <text x="60" y="56" font-family="sans-serif" font-weight="600" font-size="11" fill="rgba(255,255,255,0.85)">11 класс · Урок 6</text>
-  <circle cx="450" cy="43" r="20" fill="rgba(255,255,255,0.20)" stroke="rgba(255,255,255,0.50)" stroke-width="1.5" />
-  <text x="450" y="50" font-family="sans-serif" font-weight="800" font-size="18" fill="#FFFFFF" text-anchor="middle">6</text>
-  <text x="250" y="96" font-family="sans-serif" font-weight="700" font-size="17" fill="#00695C" text-anchor="middle">Мировое хозяйство</text>
-  <line x1="80" y1="106" x2="420" y2="106" stroke="rgba(0,105,92,0.25)" stroke-width="1.5" stroke-dasharray="6,3" />
-  <rect x="32" y="120" width="436" height="42" rx="8" ry="8" fill="rgba(0,105,92,0.12)" stroke="rgba(0,105,92,0.25)" stroke-width="1" />
-  <circle cx="54" cy="141" r="13" fill="#00695C" />
-  <text x="54" y="146" font-family="sans-serif" font-weight="700" font-size="12" fill="#FFFFFF" text-anchor="middle">1</text>
-  <text x="74" y="146" font-family="sans-serif" font-weight="500" font-size="13" fill="#263238">Мировое хозяйство и разделение труда</text>
-  <rect x="32" y="168" width="436" height="42" rx="8" ry="8" fill="rgba(0,105,92,0.12)" stroke="rgba(0,105,92,0.25)" stroke-width="1" />
-  <circle cx="54" cy="189" r="13" fill="#00695C" />
-  <text x="54" y="194" font-family="sans-serif" font-weight="700" font-size="12" fill="#FFFFFF" text-anchor="middle">2</text>
-  <text x="74" y="194" font-family="sans-serif" font-weight="500" font-size="13" fill="#263238">Международная торговля и экспорт</text>
-  <rect x="32" y="216" width="436" height="42" rx="8" ry="8" fill="rgba(0,105,92,0.12)" stroke="rgba(0,105,92,0.25)" stroke-width="1" />
-  <circle cx="54" cy="237" r="13" fill="#00695C" />
-  <text x="54" y="242" font-family="sans-serif" font-weight="700" font-size="12" fill="#FFFFFF" text-anchor="middle">3</text>
-  <text x="74" y="242" font-family="sans-serif" font-weight="500" font-size="13" fill="#263238">Глобальные экономические связи</text>
-  <rect x="32" y="264" width="436" height="42" rx="8" ry="8" fill="rgba(0,105,92,0.12)" stroke="rgba(0,105,92,0.25)" stroke-width="1" />
-  <circle cx="54" cy="285" r="13" fill="#00695C" />
-  <text x="54" y="290" font-family="sans-serif" font-weight="700" font-size="12" fill="#FFFFFF" text-anchor="middle">4</text>
-  <text x="74" y="290" font-family="sans-serif" font-weight="500" font-size="13" fill="#263238">Транснациональные корпорации</text>
-  <rect x="16" y="306" width="468" height="28" rx="8" ry="8" fill="rgba(0,0,0,0.05)" />
-  <text x="250" y="324" font-family="sans-serif" font-weight="600" font-size="11" fill="#00695C" text-anchor="middle">География · 11 класс</text>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#4a5568" stroke-width="2"/>
+  <rect x="15" y="15" width="470" height="325" fill="none" stroke="#718096" stroke-width="1" stroke-dasharray="5,3"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2d3748">Урок 6: Мировое хозяйство</text>
+  <text x="250" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#4a5568">Экономика мира</text>
+  
+  <!-- Класс -->
+  <text x="40" y="35" font-family="Arial, sans-serif" font-size="12" fill="#718096">ГЕОГРАФИЯ · 11 КЛАСС</text>
+  
+  <!-- Номер урока -->
+  <text x="460" y="35" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#718096">Урок №6</text>
+  
+  <!-- Карта мира (упрощенная) -->
+  <g transform="translate(50, 80)">
+    <rect x="0" y="0" width="160" height="100" fill="#e2e8f0" rx="5"/>
+    <text x="80" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2d3748">Структура мирового хозяйства</text>
+    
+    <!-- Континенты -->
+    <path d="M20,40 Q30,30 50,35 T80,40 Q90,45 100,40 T120,45 Q130,50 140,45 L140,90 L20,90 Z" fill="#4299e1" opacity="0.7"/>
+    <circle cx="40" cy="55" r="8" fill="#48bb78"/>
+    <circle cx="70" cy="60" r="10" fill="#ed8936"/>
+    <circle cx="100" cy="50" r="7" fill="#9f7aea"/>
+    <circle cx="130" cy="65" r="9" fill="#f56565"/>
+    
+    <!-- Легенда -->
+    <rect x="10" y="100" width="12" height="12" fill="#48bb78"/>
+    <text x="27" y="110" font-family="Arial, sans-serif" font-size="10" fill="#2d3748">Азия</text>
+    
+    <rect x="60" y="100" width="12" height="12" fill="#ed8936"/>
+    <text x="77" y="110" font-family="Arial, sans-serif" font-size="10" fill="#2d3748">Америка</text>
+    
+    <rect x="110" y="100" width="12" height="12" fill="#9f7aea"/>
+    <text x="127" y="110" font-family="Arial, sans-serif" font-size="10" fill="#2d3748">Европа</text>
+    
+    <rect x="10" y="115" width="12" height="12" fill="#f56565"/>
+    <text x="27" y="125" font-family="Arial, sans-serif" font-size="10" fill="#2d3748">Африка</text>
+  </g>
+  
+  <!-- Диаграмма секторов -->
+  <g transform="translate(250, 130)">
+    <text x="0" y="-15" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2d3748">Сектора экономики</text>
+    
+    <!-- Сектор 1: Первичный -->
+    <path d="M0,0 L50,0 A50,50 0 0,1 31.7,38.3 z" fill="url(#chartGrad)"/>
+    <text x="25" y="15" font-family="Arial, sans-serif" font-size="10" fill="white">25%</text>
+    
+    <!-- Сектор 2: Вторичный -->
+    <path d="M0,0 L31.7,38.3 A50,50 0 0,1 -31.7,38.3 z" fill="#48bb78"/>
+    <text x="0" y="30" font-family="Arial, sans-serif" font-size="10" fill="white">30%</text>
+    
+    <!-- Сектор 3: Третичный -->
+    <path d="M0,0 L-31.7,38.3 A50,50 0 0,1 -50,0 z" fill="#ed8936"/>
+    <text x="-25" y="15" font-family="Arial, sans-serif" font-size="10" fill="white">45%</text>
+    
+    <!-- Сектор 4: Четвертичный -->
+    <path d="M0,0 L-50,0 A50,50 0 0,1 0,-50 z" fill="#9f7aea"/>
+    <text x="-25" y="-15" font-family="Arial, sans-serif" font-size="10" fill="white">20%</text>
+    
+    <!-- Сектор 5: Вспомогательный -->
+    <path d="M0,0 L0,-50 A50,50 0 0,1 50,0 z" fill="#f56565"/>
+    <text x="25" y="-15" font-family="Arial, sans-serif" font-size="10" fill="white">25%</text>
+    
+    <!-- Центр -->
+    <circle cx="0" cy="0" r="15" fill="#fff"/>
+    <text x="0" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2d3748">100%</text>
+  </g>
+  
+  <!-- График роста ВВП -->
+  <g transform="translate(350, 80)">
+    <rect x="0" y="0" width="120" height="100" fill="#f7fafc" rx="5" stroke="#cbd5e0"/>
+    <text x="60" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2d3748">Рост ВВП</text>
+    
+    <!-- Оси -->
+    <line x1="15" y1="85" x2="105" y2="85" stroke="#4a5568" stroke-width="1"/>
+    <line x1="15" y1="85" x2="15" y2="25" stroke="#4a5568" stroke-width="1"/>
+    
+    <!-- График -->
+    <polyline points="20,80 30,75 40,70 50,65 60,60 70,55 80,50 90,45 100,40" 
+              fill="none" stroke="url(#pieGrad)" stroke-width="2"/>
+    
+    <!-- Точки данных -->
+    <circle cx="20" cy="80" r="2" fill="#e53e3e"/>
+    <circle cx="30" cy="75" r="2" fill="#e53e3e"/>
+    <circle cx="40" cy="70" r="2" fill="#e53e3e"/>
+    <circle cx="50" cy="65" r="2" fill="#e53e3e"/>
+    <circle cx="60" cy="60" r="2" fill="#e53e3e"/>
+    <circle cx="70" cy="55" r="2" fill="#e53e3e"/>
+    <circle cx="80" cy="50" r="2" fill="#e53e3e"/>
+    <circle cx="90" cy="45" r="2" fill="#e53e3e"/>
+    <circle cx="100" cy="40" r="2" fill="#e53e3e"/>
+    
+    <!-- Подписи осей -->
+    <text x="10" y="90" font-family="Arial, sans-serif" font-size="8" fill="#4a5568">2010</text>
+    <text x="95" y="90" font-family="Arial, sans-serif" font-size="8" fill="#4a5568">2020</text>
+    <text x="5" y="45" font-family="Arial, sans-serif" font-size="8" fill="#4a5568">+5%</text>
+  </g>
+  
+  <!-- Формула -->
+  <g transform="translate(50, 210)">
+    <rect x="0" y="0" width="180" height="50" fill="#edf2f7" rx="5"/>
+    <text x="90" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2d3748">Формула ВВП:</text>
+    <text x="90" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#4a5568">ВВП = C + I + G + (X - M)</text>
+  </g>
+  
+  <!-- Таблица основных экономических центров -->
+  <g transform="translate(50, 280)">
+    <rect x="0" y="0" width="200" height="50" fill="#e2e8f0" rx="5"/>
+    <text x="100" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2d3748">Экономические центры</text>
+    
+    <text x="10" y="38" font-family="Arial, sans-serif" font-size="9" fill="#2d3748">1. Тихоокеанский пояс (Япония, Китай)</text>
+    <text x="10" y="48" font-family="Arial, sans-serif" font-size="9" fill="#2d3748">2. ЕС (27 стран)</text>
+  </g>
+  
+  <!-- Ключевые термины -->
+  <g transform="translate(270, 210)">
+    <rect x="0" y="0" width="200" height="120" fill="#f7fafc" rx="5" stroke="#cbd5e0"/>
+    <text x="100" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2d3748">Ключевые термины</text>
+    
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="9" fill="#4a5568">• Мировое хозяйство</text>
+    <text x="10" y="55" font-family="Arial, sans-serif" font-size="9" fill="#4a5568">• Глобализация</text>
+    <text x="10" y="70" font-family="Arial, sans-serif" font-size="9" fill="#4a5568">• Международное разделение труда</text>
+    <text x="10" y="85" font-family="Arial, sans-serif" font-size="9" fill="#4a5568">• Транснациональные корпорации</text>
+    <text x="10" y="100" font-family="Arial, sans-serif" font-size="9" fill="#4a5568">• Экономическая интеграция</text>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <circle cx="440" cy="260" r="15" fill="url(#pieGrad)" opacity="0.7"/>
+  <text x="440" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#fff">$</text>
+  
+  <rect x="420" y="290" width="40" height="3" fill="#4299e1"/>
+  <rect x="420" y="295" width="40" height="3" fill="#48bb78"/>
+  <rect x="420" y="300" width="40" height="3" fill="#ed8936"/>
+  
+  <!-- Узор -->
+  <rect x="30" y="320" width="440" height="20" fill="url(#dots)" opacity="0.3"/>
 </svg>

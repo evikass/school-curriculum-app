@@ -1,23 +1,130 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#8B4513" stroke-width="2"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#CD853F" stroke-width="1"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2F4F4F">ЛИТЕРАТУРА · 11 КЛАСС</text>
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#8B4513">Урок 15: М.А. Шолохов. «Тихий Дон»</text>
+  
+  <!-- Номер урока в углу -->
+  <circle cx="30" cy="30" r="15" fill="#CD853F"/>
+  <text x="30" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">15</text>
+  
+  <!-- Портрет Шолохова -->
+  <g transform="translate(30, 70)">
+    <rect x="0" y="0" width="120" height="140" fill="#F5F5DC" stroke="#8B4513" stroke-width="1" rx="5"/>
+    <circle cx="60" cy="40" r="25" fill="#DEB887"/>
+    <path d="M 35 60 Q 60 55 85 60 L 85 85 Q 60 95 35 85 Z" fill="#4682B4"/>
+    <path d="M 35 85 L 30 120 L 90 120 L 85 85" fill="#2F4F4F"/>
+    <rect x="45" y="35" width="8" height="8" fill="#000"/>
+    <rect x="67" y="35" width="8" height="8" fill="#000"/>
+    <path d="M 50 48 Q 60 52 70 48" fill="none" stroke="#000" stroke-width="1.5"/>
+    <path d="M 60 65 L 60 70" stroke="#000" stroke-width="1.5"/>
+    <text x="60" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#8B4513">М.А. Шолохов</text>
+  </g>
+  
+  <!-- Биография -->
+  <g transform="translate(170, 70)">
+    <rect x="0" y="0" width="150" height="140" fill="#F0F8FF" stroke="#4682B4" stroke-width="1" rx="5"/>
+    <text x="75" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2F4F4F">Биография</text>
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="11" fill="#333">1905 - 1984</text>
+    <text x="10" y="60" font-family="Arial, sans-serif" font-size="11" fill="#333">Родился: станица</text>
+    <text x="10" y="75" font-family="Arial, sans-serif" font-size="11" fill="#333">Вешенская</text>
+    <text x="10" y="95" font-family="Arial, sans-serif" font-size="11" fill="#333">Участник Гражданской</text>
+    <text x="10" y="110" font-family="Arial, sans-serif" font-size="11" fill="#333">войны</text>
+    <text x="10" y="125" font-family="Arial, sans-serif" font-size="11" fill="#333">Нобелевская премия</text>
+    <text x="10" y="140" font-family="Arial, sans-serif" font-size="11" fill="#333">1965 г.</text>
+  </g>
+  
+  <!-- Донские рассказы -->
+  <g transform="translate(340, 70)">
+    <rect x="0" y="0" width="130" height="140" fill="#FFF8DC" stroke="#CD853F" stroke-width="1" rx="5"/>
+    <text x="65" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#8B4513">Донские рассказы</text>
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="11" fill="#333">1925-1932</text>
+    <text x="10" y="60" font-family="Arial, sans-serif" font-size="11" fill="#333">«Разгром»</text>
+    <text x="10" y="75" font-family="Arial, sans-serif" font-size="11" fill="#333">«Тихий Дон»</text>
+    <text x="10" y="90" font-family="Arial, sans-serif" font-size="11" fill="#333">(роман)</text>
+    <text x="10" y="115" font-family="Arial, sans-serif" font-size="11" fill="#333">Тема:</text>
+    <text x="10" y="130" font-family="Arial, sans-serif" font-size="11" fill="#333">Донское казачество</text>
+  </g>
+  
+  <!-- Тихий Дон -->
+  <g transform="translate(30, 230)">
+    <rect x="0" y="0" width="200" height="100" fill="#F5F5DC" stroke="#8B4513" stroke-width="1" rx="5"/>
+    <text x="100" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#8B4513">«Тихий Дон»</text>
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="11" fill="#333">1928-1940</text>
+    <text x="10" y="55" font-family="Arial, sans-serif" font-size="11" fill="#333">4 тома</text>
+    <text x="10" y="70" font-family="Arial, sans-serif" font-size="11" fill="#333">История семьи Мелеховых</text>
+    <text x="10" y="85" font-family="Arial, sans-serif" font-size="11" fill="#333">в годы революции</text>
+  </g>
+  
+  <!-- Нобелевская премия -->
+  <g transform="translate(250, 230)">
+    <rect x="0" y="0" width="220" height="100" fill="#F0F8FF" stroke="#4682B4" stroke-width="1" rx="5"/>
+    <text x="110" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2F4F4F">Нобелевская премия</text>
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="11" fill="#333">1965 год</text>
+    <text x="10" y="55" font-family="Arial, sans-serif" font-size="11" fill="#333">«За художественную силу</text>
+    <text x="10" y="70" font-family="Arial, sans-serif" font-size="11" fill="#333">и цельность эпоса</text>
+    <text x="10" y="85" font-family="Arial, sans-serif" font-size="11" fill="#333">о жизни донского казачества»</text>
+  </g>
+  
+  <!-- Графическая схема творчества -->
+  <g transform="translate(30, 70)">
+    <path d="M 130 70 L 170 70" stroke="#8B4513" stroke-width="1" marker-end="url(#arrowhead)"/>
+    <path d="M 320 70 L 340 70" stroke="#8B4513" stroke-width="1" marker-end="url(#arrowhead)"/>
+    <path d="M 130 140 L 130 210" stroke="#8B4513" stroke-width="1" marker-end="url(#arrowhead)"/>
+    <path d="M 230 280 L 250 280" stroke="#8B4513" stroke-width="1" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Схема влияний -->
+  <g transform="translate(180, 150)">
+    <circle cx="0" cy="0" r="25" fill="#CD853F" opacity="0.7"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Творчество</text>
+    <circle cx="-60" cy="-30" r="20" fill="#DEB887" opacity="0.7"/>
+    <text x="-60" y="-25" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">Дон</text>
+    <circle cx="60" cy="-30" r="20" fill="#DEB887" opacity="0.7"/>
+    <text x="60" y="-25" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">Война</text>
+    <circle cx="-60" cy="40" r="20" fill="#DEB887" opacity="0.7"/>
+    <text x="-60" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">Казаки</text>
+    <circle cx="60" cy="40" r="20" fill="#DEB887" opacity="0.7"/>
+    <text x="60" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">История</text>
+    <line x1="-35" y1="-15" x2="-25" y2="-10" stroke="#8B4513" stroke-width="1"/>
+    <line x1="35" y1="-15" x2="25" y2="-10" stroke="#8B4513" stroke-width="1"/>
+    <line x1="-35" y1="15" x2="-25" y2="10" stroke="#8B4513" stroke-width="1"/>
+    <line x1="35" y1="15" x2="25" y2="10" stroke="#8B4513" stroke-width="1"/>
+  </g>
+  
+  <!-- Карта Дона -->
+  <g transform="translate(400, 200)">
+    <path d="M 0 30 Q 10 20 20 25 L 30 20 L 40 30 L 45 40 L 40 50 L 30 55 L 20 50 L 10 45 Z" fill="#ADD8E6" stroke="#4682B4" stroke-width="1"/>
+    <text x="22" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">Дон</text>
+    <text x="22" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2F4F4F">Река Дон</text>
+  </g>
+  
+  <!-- Градиент для элементов -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#7f1d1d"/>
-      <stop offset="100%" style="stop-color:#dc2626"/>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F5F5DC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DEB887;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fca5a5;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#fca5a5;stop-opacity:0"/>
-    </radialGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4682B4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2F4F4F;stop-opacity:1" />
+    </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8B4513"/>
+    </marker>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#fca5a5" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#fca5a5" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#fca5a5" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fee2e2" text-anchor="middle">15</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fee2e2" text-anchor="middle" opacity="0.8">ЛИТЕРАТУРА · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fee2e2" text-anchor="middle">Урок 15: М.А. Шолохов. «Тихий Дон». Жизнь и творче</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fca5a5" text-anchor="middle" opacity="0.8">Урок 15 из 35</text>
-  <polygon points="250,120 263,165 311,165 272,193 286,237 250,210 214,237 228,193 189,165 237,165" fill="#fca5a5" opacity="0.5"/>
+  
+  <!-- Ключевые цитаты -->
+  <text x="450" y="280" text-anchor="end" font-family="Arial, sans-serif" font-size="9" fill="#8B4513" font-style="italic">«Тихий Дон» -</text>
+  <text x="450" y="295" text-anchor="end" font-family="Arial, sans-serif" font-size="9" fill="#8B4513" font-style="italic">эпоха в</text>
+  <text x="450" y="310" text-anchor="end" font-family="Arial, sans-serif" font-size="9" fill="#8B4513" font-style="italic">русской литературе</text>
+  
+  <!-- Даты важные события -->
+  <circle cx="50" cy="340" r="3" fill="#CD853F"/>
+  <text x="60" y="345" font-family="Arial, sans-serif" font-size="10" fill="#333">1928 - начало «Тихого Дона»</text>
+  <circle cx="250" cy="340" r="3" fill="#CD853F"/>
+  <text x="260" y="345" font-family="Arial, sans-serif" font-size="10" fill="#333">1965 - Нобелевская премия</text>
 </svg>

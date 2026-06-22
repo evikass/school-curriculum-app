@@ -1,23 +1,148 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e1b4b"/>
-      <stop offset="100%" style="stop-color:#6366f1"/>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f5f0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8e8e0;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:0"/>
-    </radialGradient>
+    <linearGradient id="frameGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8b4513;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#a0522d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b4513;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#a78bfa" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#a78bfa" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#e0e7ff" text-anchor="middle">5</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e0e7ff" text-anchor="middle" opacity="0.8">ЛИТЕРАТУРА · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e0e7ff" text-anchor="middle">Урок 5: А.А. Ахматова. Жизнь и творчество</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#a78bfa" text-anchor="middle" opacity="0.8">Урок 5 из 35</text>
-  <text x="100" y="200" font-family="Arial" font-size="40" fill="#a78bfa" opacity="0.4">✒️</text><text x="380" y="200" font-family="Arial" font-size="40" fill="#a78bfa" opacity="0.4">📖</text>
+  
+  <!-- Фоновый прямоугольник -->
+  <rect width="500" height="350" fill="url(#bgGradient)" />
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="url(#frameGradient)" stroke-width="4" rx="5" />
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#a0522d" stroke-width="1" stroke-dasharray="5,3" rx="3" opacity="0.5" />
+  
+  <!-- Номер урока -->
+  <text x="470" y="30" font-family="Arial, sans-serif" font-size="14" fill="#8b4513" text-anchor="end" font-weight="bold">Урок 5</text>
+  
+  <!-- Заголовок класса -->
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="12" fill="#8b4513" text-anchor="middle" font-style="italic">ЛИТЕРАТУРА · 11 КЛАСС</text>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="65" font-family="Arial, sans-serif" font-size="18" fill="#8b4513" text-anchor="middle" font-weight="bold">А.А. Ахматова. Жизнь и творчество</text>
+  
+  <!-- Портрет Ахматовой -->
+  <g transform="translate(80, 100)">
+    <circle cx="40" cy="40" r="35" fill="#f0e6d2" stroke="#8b4513" stroke-width="1" />
+    <ellipse cx="40" cy="45" rx="20" ry="25" fill="#f5deb3" />
+    <path d="M 30 35 Q 40 30 50 35" fill="none" stroke="#8b4513" stroke-width="1.5" />
+    <circle cx="33" cy="40" r="2" fill="#333" />
+    <circle cx="47" cy="40" r="2" fill="#333" />
+    <path d="M 35 50 Q 40 55 45 50" fill="none" stroke="#8b4513" stroke-width="1" />
+    <path d="M 20 25 Q 40 15 60 25" fill="none" stroke="#8b4513" stroke-width="2" />
+    <text x="40" y="95" font-family="Arial, sans-serif" font-size="12" fill="#8b4513" text-anchor="middle">Анна Ахматова</text>
+  </g>
+  
+  <!-- Биографическая линия -->
+  <line x1="180" y1="140" x2="450" y2="140" stroke="#8b4513" stroke-width="2" />
+  <circle cx="200" cy="140" r="4" fill="#8b4513" />
+  <circle cx="280" cy="140" r="4" fill="#8b4513" />
+  <circle cx="360" cy="140" r="4" fill="#8b4513" />
+  <circle cx="430" cy="140" r="4" fill="#8b4513" />
+  
+  <!-- Даты биографии -->
+  <text x="200" y="160" font-family="Arial, sans-serif" font-size="10" fill="#8b4513" text-anchor="middle">1889</text>
+  <text x="200" y="175" font-family="Arial, sans-serif" font-size="9" fill="#8b4513" text-anchor="middle">Рождение</text>
+  
+  <text x="280" y="160" font-family="Arial, sans-serif" font-size="10" fill="#8b4513" text-anchor="middle">1912</text>
+  <text x="280" y="175" font-family="Arial, sans-serif" font-size="9" fill="#8b4513" text-anchor="middle">Первый сборник</text>
+  
+  <text x="360" y="160" font-family="Arial, sans-serif" font-size="10" fill="#8b4513" text-anchor="middle">1940</text>
+  <text x="360" y="175" font-family="Arial, sans-serif" font-size="9" fill="#8b4513" text-anchor="middle">«Реквием»</text>
+  
+  <text x="430" y="160" font-family="Arial, sans-serif" font-size="10" fill="#8b4513" text-anchor="middle">1966</text>
+  <text x="430" y="175" font-family="Arial, sans-serif" font-size="9" fill="#8b4513" text-anchor="middle">Смерть</text>
+  
+  <!-- Акмеизм -->
+  <g transform="translate(30, 210)">
+    <rect x="0" y="0" width="120" height="80" fill="#f0e6d2" stroke="#8b4513" stroke-width="1.5" rx="5" filter="url(#shadow)" />
+    <text x="60" y="20" font-family="Arial, sans-serif" font-size="14" fill="#8b4513" text-anchor="middle" font-weight="bold">Акмеизм</text>
+    <text x="60" y="40" font-family="Arial, sans-serif" font-size="10" fill="#8b4513" text-anchor="middle">«Вершина»</text>
+    <text x="60" y="55" font-family="Arial, sans-serif" font-size="9" fill="#8b4513" text-anchor="middle">Кристальность</text>
+    <text x="60" y="70" font-family="Arial, sans-serif" font-size="9" fill="#8b4513" text-anchor="middle">Форма</text>
+  </g>
+  
+  <!-- Реквием -->
+  <g transform="translate(180, 210)">
+    <rect x="0" y="0" width="120" height="80" fill="#e8e8e0" stroke="#8b4513" stroke-width="1.5" rx="5" filter="url(#shadow)" />
+    <text x="60" y="20" font-family="Arial, sans-serif" font-size="14" fill="#8b4513" text-anchor="middle" font-weight="bold">«Реквием»</text>
+    <text x="60" y="40" font-family="Arial, sans-serif" font-size="10" fill="#8b4513" text-anchor="middle">1935-1940</text>
+    <text x="60" y="55" font-family="Arial, sans-serif" font-size="9" fill="#8b4513" text-anchor="middle">Трагедия</text>
+    <text x="60" y="70" font-family="Arial, sans-serif" font-size="9" fill="#8b4513" text-anchor="middle">Война</text>
+  </g>
+  
+  <!-- Любовная лирика -->
+  <g transform="translate(330, 210)">
+    <rect x="0" y="0" width="120" height="80" fill="#f0e6d2" stroke="#8b4513" stroke-width="1.5" rx="5" filter="url(#shadow)" />
+    <text x="60" y="20" font-family="Arial, sans-serif" font-size="14" fill="#8b4513" text-anchor="middle" font-weight="bold">Любовная лирика</text>
+    <text x="60" y="40" font-family="Arial, sans-serif" font-size="10" fill="#8b4513" text-anchor="middle">Элегии</text>
+    <text x="60" y="55" font-family="Arial, sans-serif" font-size="9" fill="#8b4513" text-anchor="middle">Сонеты</text>
+    <text x="60" y="70" font-family="Arial, sans-serif" font-size="9" fill="#8b4513" text-anchor="middle">Романсы</text>
+  </g>
+  
+  <!-- Трагическая судьба -->
+  <g transform="translate(105, 300)">
+    <rect x="0" y="0" width="280" height="40" fill="#e8e8e0" stroke="#8b4513" stroke-width="1.5" rx="5" filter="url(#shadow)" />
+    <text x="140" y="16" font-family="Arial, sans-serif" font-size="12" fill="#8b4513" text-anchor="middle" font-weight="bold">Трагическая судьба</text>
+    <text x="140" y="30" font-family="Arial, sans-serif" font-size="9" fill="#8b4513" text-anchor="middle">Запреты · Ссылки · Гибель сына · Репрессии</text>
+  </g>
+  
+  <!-- Ключевые произведения -->
+  <g transform="translate(30, 110)">
+    <circle cx="0" cy="0" r="15" fill="#a0522d" opacity="0.7" />
+    <text x="0" y="4" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">Ч</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="8" fill="#8b4513" text-anchor="middle">Чёткость</text>
+  </g>
+  
+  <g transform="translate(200, 100)">
+    <circle cx="0" cy="0" r="15" fill="#a0522d" opacity="0.7" />
+    <text x="0" y="4" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">К</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="8" fill="#8b4513" text-anchor="middle">Краткость</text>
+  </g>
+  
+  <g transform="translate(350, 110)">
+    <circle cx="0" cy="0" r="15" fill="#a0522d" opacity="0.7" />
+    <text x="0" y="4" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">М</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="8" fill="#8b4513" text-anchor="middle">Музыкальность</text>
+  </g>
+  
+  <!-- Цитата -->
+  <text x="250" y="195" font-family="Arial, sans-serif" font-size="9" fill="#8b4513" text-anchor="middle" font-style="italic">«Я научилась просто, мудро жить»</text>
+  
+  <!-- Декоративные элементы -->
+  <path d="M 40 30 Q 45 25 50 30" fill="none" stroke="#a0522d" stroke-width="1" opacity="0.5" />
+  <path d="M 450 30 Q 455 25 460 30" fill="none" stroke="#a0522d" stroke-width="1" opacity="0.5" />
+  
+  <!-- Стилизованная книга -->
+  <g transform="translate(460, 120)">
+    <rect x="0" y="0" width="20" height="25" fill="#8b4513" rx="1" />
+    <line x1="0" y1="5" x2="20" y2="5" stroke="#f0e6d2" stroke-width="0.5" />
+    <line x1="0" y1="10" x2="20" y2="10" stroke="#f0e6d2" stroke-width="0.5" />
+    <line x1="0" y1="15" x2="20" y2="15" stroke="#f0e6d2" stroke-width="0.5" />
+    <line x1="0" y1="20" x2="20" y2="20" stroke="#f0e6d2" stroke-width="0.5" />
+  </g>
+  
+  <!-- Перо -->
+  <g transform="translate(460, 160)">
+    <path d="M 0 0 L 5 10 L 10 0 Z" fill="#8b4513" />
+    <line x1="5" y1="10" x2="5" y2="20" stroke="#8b4513" stroke-width="1" />
+  </g>
+  
+  <!-- Цветок -->
+  <g transform="translate(15, 120)">
+    <circle cx="0" cy="0" r="5" fill="#a0522d" opacity="0.7" />
+    <ellipse cx="-3" cy="-3" rx="3" ry="6" fill="#a0522d" opacity="0.5" />
+    <ellipse cx="3" cy="-3" rx="3" ry="6" fill="#a0522d" opacity="0.5" />
+    <ellipse cx="-3" cy="3" rx="3" ry="6" fill="#a0522d" opacity="0.5" />
+    <ellipse cx="3" cy="3" rx="3" ry="6" fill="#a0522d" opacity="0.5" />
+  </g>
 </svg>

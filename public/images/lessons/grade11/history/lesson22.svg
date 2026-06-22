@@ -1,23 +1,157 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
-  <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#7c2d12"/>
-      <stop offset="100%" style="stop-color:#f97316"/>
-    </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fdba74;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#fdba74;stop-opacity:0"/>
-    </radialGradient>
-  </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#fdba74" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#fdba74" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#fdba74" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fed7aa" text-anchor="middle">22</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fed7aa" text-anchor="middle" opacity="0.8">ИСТОРИЯ РОССИИ · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fed7aa" text-anchor="middle">Урок 22: Советский тыл в годы Великой Отечественно</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fdba74" text-anchor="middle" opacity="0.8">Урок 22 из 35</text>
-  <polygon points="250,120 263,165 311,165 272,193 286,237 250,210 214,237 228,193 189,165 237,165" fill="#fdba74" opacity="0.5"/>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#8B4513" stroke-width="2"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#A0522D" stroke-width="1"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#4A4A4A">ИТОГИ ВТОРОЙ МИРОВОЙ ВОЙНЫ</text>
+  <text x="250" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6A6A6A">ИСТОРИЯ · 11 КЛАСС</text>
+  <text x="470" y="20" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#8B4513">Урок 15</text>
+  
+  <!-- Карта Европы -->
+  <g id="europe-map">
+    <!-- Фон карты -->
+    <rect x="50" y="70" width="180" height="120" fill="#E6F7FF" stroke="#4682B4" stroke-width="1"/>
+    
+    <!-- СССР -->
+    <path d="M50,110 L50,170 L110,170 L110,130 L140,130 L140,110 Z" fill="#CD5C5C" stroke="#8B0000" stroke-width="1"/>
+    <text x="95" y="145" text-anchor="middle" font-size="10" fill="white">СССР</text>
+    
+    <!-- Германия -->
+    <path d="M200,110 L200,140 L230,140 L230,110 Z" fill="#4169E1" stroke="#191970" stroke-width="1"/>
+    <text x="215" y="130" text-anchor="middle" font-size="9" fill="white">Германия</text>
+    
+    <!-- Франция -->
+    <path d="M170,100 L200,100 L200,110 L170,110 Z" fill="#32CD32" stroke="#228B22" stroke-width="1"/>
+    <text x="185" y="108" text-anchor="middle" font-size="8" fill="white">Франция</text>
+    
+    <!-- Великобритания -->
+    <circle cx="150" cy="90" r="8" fill="#FF8C00" stroke="#B8860B" stroke-width="1"/>
+    <text x="150" y="93" text-anchor="middle" font-size="8" fill="white">ВБ</text>
+    
+    <!-- Польша -->
+    <path d="M140,110 L170,110 L170,130 L140,130 Z" fill="#9370DB" stroke="#4B0082" stroke-width="1"/>
+    <text x="155" y="123" text-anchor="middle" font-size="9" fill="white">Польша</text>
+    
+    <!-- Италия -->
+    <path d="M200,140 L220,140 L220,160 L200,160 Z" fill="#FF6347" stroke="#8B0000" stroke-width="1"/>
+    <text x="210" y="153" text-anchor="middle" font-size="8" fill="white">Италия</text>
+  </g>
+  
+  <!-- Портреты лидеров -->
+  <g id="portraits">
+    <!-- Сталин -->
+    <circle cx="350" cy="90" r="20" fill="#F5DEB3" stroke="#8B4513" stroke-width="1"/>
+    <circle cx="350" cy="85" r="8" fill="#F5DEB3"/>
+    <path d="M340,95 L350,100 L360,95" fill="none" stroke="#8B4513" stroke-width="1"/>
+    <text x="350" y="115" text-anchor="middle" font-size="8" fill="#4A4A4A">Сталин</text>
+    
+    <!-- Рузвельт -->
+    <circle cx="350" cy="130" r="20" fill="#F5DEB3" stroke="#8B4513" stroke-width="1"/>
+    <circle cx="350" cy="125" r="8" fill="#F5DEB3"/>
+    <path d="M340,135 L350,140 L360,135" fill="none" stroke="#8B4513" stroke-width="1"/>
+    <text x="350" y="155" text-anchor="middle" font-size="8" fill="#4A4A4A">Рузвельт</text>
+    
+    <!-- Черчилль -->
+    <circle cx="350" cy="170" r="20" fill="#F5DEB3" stroke="#8B4513" stroke-width="1"/>
+    <circle cx="350" cy="165" r="8" fill="#F5DEB3"/>
+    <path d="M340,175 L350,180 L360,175" fill="none" stroke="#8B4513" stroke-width="1"/>
+    <text x="350" y="195" text-anchor="middle" font-size="8" fill="#4A4A4A">Черчилль</text>
+  </g>
+  
+  <!-- Ялтинская конференция -->
+  <g id="yalta">
+    <rect x="50" y="210" width="140" height="80" fill="#FFF8DC" stroke="#DAA520" stroke-width="1" rx="5"/>
+    <text x="120" y="230" text-anchor="middle" font-size="11" font-weight="bold" fill="#8B4513">Ялтинская конференция</text>
+    <text x="120" y="248" text-anchor="middle" font-size="9" fill="#4A4A4A">4-11 февраля 1945 г.</text>
+    <text x="120" y="265" text-anchor="middle" font-size="8" fill="#4A4A4A">Дележ сфер влияния</text>
+    <text x="120" y="280" text-anchor="middle" font-size="8" fill="#4A4A4A">Планы ООН</text>
+  </g>
+  
+  <!-- Создание ООН -->
+  <g id="un">
+    <circle cx="250" cy="250" r="30" fill="#4682B4" stroke="#191970" stroke-width="2"/>
+    <text x="250" y="255" text-anchor="middle" font-size="12" font-weight="bold" fill="white">ООН</text>
+    <text x="250" y="290" text-anchor="middle" font-size="9" fill="#4A4A4A">24 октября 1945 г.</text>
+    
+    <!-- Символ ООН -->
+    <g transform="translate(250,250)">
+      <path d="M0,-15 A15,15 0 0,1 0,15" fill="none" stroke="white" stroke-width="2"/>
+      <path d="M-13,0 A15,15 0 0,1 13,0" fill="none" stroke="white" stroke-width="2"/>
+    </g>
+  </g>
+  
+  <!-- Статистика потерь -->
+  <g id="losses">
+    <rect x="320" y="210" width="150" height="80" fill="#FFFAFA" stroke="#DC143C" stroke-width="1" rx="5"/>
+    <text x="395" y="230" text-anchor="middle" font-size="11" font-weight="bold" fill="#8B0000">Потери СССР</text>
+    <text x="395" y="250" text-anchor="middle" font-size="14" font-weight="bold" fill="#DC143C">27 млн</text>
+    <text x="395" y="268" text-anchor="middle" font-size="8" fill="#4A4A4A">человек</text>
+    <text x="395" y="282" text-anchor="middle" font-size="8" fill="#4A4A4A">(13,7% населения)</text>
+  </g>
+  
+  <!-- Хронологическая линия -->
+  <g id="timeline">
+    <line x1="50" y1="310" x2="470" y2="310" stroke="#696969" stroke-width="2"/>
+    <circle cx="100" cy="310" r="4" fill="#DC143C"/>
+    <text x="100" y="325" text-anchor="middle" font-size="8" fill="#4A4A4A">1939</text>
+    
+    <circle cx="200" cy="310" r="4" fill="#DC143C"/>
+    <text x="200" y="325" text-anchor="middle" font-size="8" fill="#4A4A4A">1941</text>
+    
+    <circle cx="300" cy="310" r="4" fill="#DC143C"/>
+    <text x="300" y="325" text-anchor="middle" font-size="8" fill="#4A4A4A">1945</text>
+    
+    <circle cx="400" cy="310" r="4" fill="#4682B4"/>
+    <text x="400" y="325" text-anchor="middle" font-size="8" fill="#4A4A4A">1945</text>
+  </g>
+  
+  <!-- График потерь -->
+  <g id="loss-chart">
+    <rect x="200" y="70" width="120" height="60" fill="#F0F8FF" stroke="#4682B4" stroke-width="1" rx="3"/>
+    <text x="260" y="85" text-anchor="middle" font-size="9" fill="#4A4A4A">Потери стран</text>
+    
+    <!-- Столбцы -->
+    <rect x="210" y="110" width="10" height="15" fill="#CD5C5C"/>
+    <text x="215" y="130" text-anchor="middle" font-size="7" fill="#4A4A4A">СССР</text>
+    
+    <rect x="225" y="115" width="10" height="10" fill="#4169E1"/>
+    <text x="230" y="130" text-anchor="middle" font-size="7" fill="#4A4A4A">Герм</text>
+    
+    <rect x="240" y="120" width="10" height="5" fill="#32CD32"/>
+    <text x="245" y="130" text-anchor="middle" font-size="7" fill="#4A4A4A">Фран</text>
+    
+    <rect x="255" y="118" width="10" height="7" fill="#FF8C00"/>
+    <text x="260" y="130" text-anchor="middle" font-size="7" fill="#4A4A4A">ВБ</text>
+    
+    <rect x="270" y="122" width="10" height="3" fill="#FF6347"/>
+    <text x="275" y="130" text-anchor="middle" font-size="7" fill="#4A4A4A">Ит</text>
+    
+    <rect x="285" y="119" width="10" height="6" fill="#9370DB"/>
+    <text x="290" y="130" text-anchor="middle" font-size="7" fill="#4A4A4A">Поль</text>
+  </g>
+  
+  <!-- Флаги -->
+  <g id="flags">
+    <!-- СССР -->
+    <rect x="440" y="70" width="30" height="20" fill="#FF0000" stroke="#000" stroke-width="1"/>
+    <path d="M440,75 L470,75 M440,80 L470,80 M440,85 L470,85" stroke="#000" stroke-width="2"/>
+    <path d="M445,70 L450,90 M455,70 L460,90" stroke="#FFD700" stroke-width="2"/>
+    <path d="M440,75 L470,75" stroke="#000" stroke-width="1"/>
+    
+    <!-- США -->
+    <rect x="440" y="100" width="30" height="20" fill="#B22222" stroke="#000" stroke-width="1"/>
+    <rect x="440" y="100" width="30" height="10" fill="#3C3B6E"/>
+    <path d="M445,102 L445,108 M447,102 L447,108 M449,102 L449,108 M451,102 L451,108 M453,102 L453,108 M455,102 L455,108 M457,102 L457,108 M459,102 L459,108 M461,102 L461,108 M463,102 L463,108 M465,102 L465,108 M467,102 L467,108 M469,102 L469,108" stroke="white" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <g id="decorations">
+    <!-- Лента -->
+    <path d="M30,180 Q40,170 50,180 T70,180" fill="none" stroke="#8B4513" stroke-width="1"/>
+    <path d="M30,190 Q40,200 50,190 T70,190" fill="none" stroke="#8B4513" stroke-width="1"/>
+    
+    <!-- Звезда -->
+    <path d="M470,180 L473,187 L480,187 L475,192 L477,199 L470,194 L463,199 L465,192 L460,187 L467,187 Z" fill="#FFD700"/>
+  </g>
 </svg>

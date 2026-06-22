@@ -1,23 +1,102 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#2C3E50" stroke-width="2"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#3498DB" stroke-width="1"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2C3E50">АЛГЕБРА · 11 КЛАСС</text>
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#34495E">Урок 35: Уравнения и неравенства с модулем</text>
+  <text x="455" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7F8C8D">35</text>
+  
+  <!-- Градиенты -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#451a03"/>
-      <stop offset="100%" style="stop-color:#a16207"/>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3498DB;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#2980B9;stop-opacity:0.7" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fcd34d;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#fcd34d;stop-opacity:0"/>
-    </radialGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E74C3C;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#C0392B;stop-opacity:0.7" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#fcd34d" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#fcd34d" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#fcd34d" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fef3c7" text-anchor="middle">35</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fef3c7" text-anchor="middle" opacity="0.8">АЛГЕБРА · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fef3c7" text-anchor="middle">Урок 35: Уравнения и неравенства с модулем</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fcd34d" text-anchor="middle" opacity="0.8">Урок 35 из 38</text>
-  <text x="250" y="220" font-family="Arial" font-size="48" fill="#fcd34d" opacity="0.5" text-anchor="middle">±</text>
+  
+  <!-- Разделитель 1 -->
+  <line x1="30" y1="75" x2="470" y2="75" stroke="#BDC3C7" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Секция 1: Раскрытие модуля -->
+  <text x="30" y="95" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C3E50">1. Раскрытие модуля</text>
+  
+  <!-- Формула раскрытия модуля -->
+  <text x="30" y="115" font-family="Arial, sans-serif" font-size="12" fill="#34495E">|x| = </text>
+  <text x="65" y="115" font-family="Arial, sans-serif" font-size="12" fill="#34495E">{</text>
+  <text x="75" y="115" font-family="Arial, sans-serif" font-size="12" fill="#34495E">x, если x ≥ 0</text>
+  <text x="75" y="130" font-family="Arial, sans-serif" font-size="12" fill="#34495E">-x, если x &lt; 0</text>
+  
+  <!-- Пример раскрытия модуля -->
+  <text x="30" y="155" font-family="Arial, sans-serif" font-size="12" fill="#34495E">Пример: |2x - 1| = </text>
+  <text x="135" y="155" font-family="Arial, sans-serif" font-size="12" fill="#34495E">{</text>
+  <text x="145" y="155" font-family="Arial, sans-serif" font-size="12" fill="#34495E">2x - 1, если 2x - 1 ≥ 0</text>
+  <text x="145" y="170" font-family="Arial, sans-serif" font-size="12" fill="#34495E">-(2x - 1), если 2x - 1 &lt; 0</text>
+  
+  <!-- Разделитель 2 -->
+  <line x1="30" y1="190" x2="470" y2="190" stroke="#BDC3C7" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Секция 2: Метод интервалов -->
+  <text x="30" y="210" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C3E50">2. Метод интервалов</text>
+  
+  <!-- Числовая ось для метода интервалов -->
+  <line x1="30" y1="235" x2="470" y2="235" stroke="#34495E" stroke-width="1.5"/>
+  <polygon points="470,235 465,232 465,238" fill="#34495E"/>
+  
+  <!-- Точки на оси -->
+  <circle cx="100" cy="235" r="4" fill="#E74C3C"/>
+  <circle cx="250" cy="235" r="4" fill="#E74C3C"/>
+  <circle cx="400" cy="235" r="4" fill="#E74C3C"/>
+  
+  <!-- Подписи точек -->
+  <text x="100" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#34495E">a</text>
+  <text x="250" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#34495E">b</text>
+  <text x="400" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#34495E">c</text>
+  
+  <!-- Интервалы -->
+  <text x="50" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#3498DB">I</text>
+  <text x="175" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#3498DB">II</text>
+  <text x="325" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#3498DB">III</text>
+  <text x="450" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#3498DB">IV</text>
+  
+  <!-- Пример неравенства -->
+  <text x="30" y="275" font-family="Arial, sans-serif" font-size="11" fill="#34495E">Пример: (x-a)(x-b)(x-c) &gt; 0</text>
+  
+  <!-- Разделитель 3 -->
+  <line x1="30" y1="295" x2="470" y2="295" stroke="#BDC3C7" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Секция 3: Геометрический смысл -->
+  <text x="30" y="315" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C3E50">3. Геометрический смысл</text>
+  
+  <!-- График модуля -->
+  <rect x="30" y="325" width="200" height="15" fill="none" stroke="#3498DB" stroke-width="1"/>
+  <polyline points="30,332.5 50,332.5 70,317.5 90,302.5 110,287.5 130,272.5 150,257.5 170,242.5 190,227.5 210,212.5 230,227.5 250,242.5 270,257.5 290,272.5 310,287.5 330,302.5 350,317.5 370,332.5 390,347.5 410,347.5 430,347.5" 
+            fill="none" stroke="#E74C3C" stroke-width="2"/>
+  
+  <!-- Подпись графика -->
+  <text x="230" y="365" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#34495E">y = |x|</text>
+  
+  <!-- Прямоугольник для геометрического смысла -->
+  <rect x="340" y="315" width="120" height="30" fill="none" stroke="#27AE60" stroke-width="1"/>
+  <text x="400" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#27AE60">расстояние до 0</text>
+  
+  <!-- Дополнительные элементы декора -->
+  <circle cx="45" cy="105" r="3" fill="#3498DB"/>
+  <circle cx="45" cy="220" r="3" fill="#E74C3C"/>
+  <circle cx="45" cy="325" r="3" fill="#27AE60"/>
+  
+  <!-- Стрелки указания -->
+  <path d="M 80 105 L 85 100 L 85 110 Z" fill="#3498DB"/>
+  <path d="M 80 220 L 85 215 L 85 225 Z" fill="#E74C3C"/>
+  <path d="M 80 325 L 85 320 L 85 330 Z" fill="#27AE60"/>
+  
+  <!-- Ключевые термины -->
+  <text x="420" y="105" font-family="Arial, sans-serif" font-size="10" fill="#7F8C8D">модуль</text>
+  <text x="420" y="220" font-family="Arial, sans-serif" font-size="10" fill="#7F8C8D">интервал</text>
+  <text x="420" y="325" font-family="Arial, sans-serif" font-size="10" fill="#7F8C8D">расстояние</text>
 </svg>

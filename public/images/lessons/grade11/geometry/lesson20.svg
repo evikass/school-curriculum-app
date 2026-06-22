@@ -1,23 +1,114 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#2C3E50" stroke-width="3" rx="5"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#34495E" stroke-width="1" rx="3"/>
+  
+  <!-- Заголовок класса -->
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#34495E" font-weight="bold">ГЕОГРАФИЯ · 11 КЛАСС</text>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#2C3E50" font-weight="bold">Урок 20: Решение задач на объёмы и площади</text>
+  <text x="50" y="55" font-family="Arial, sans-serif" font-size="12" fill="#7F8C8D" font-weight="bold">№20</text>
+  
+  <!-- Градиенты -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#7c2d12"/>
-      <stop offset="100%" style="stop-color:#f97316"/>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498DB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2980B9;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fdba74;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#fdba74;stop-opacity:0"/>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2ECC71;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#27AE60;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="orangeGrad">
+      <stop offset="0%" style="stop-color:#F39C12;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E67E22;stop-opacity:1" />
     </radialGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#fdba74" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#fdba74" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#fdba74" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fed7aa" text-anchor="middle">20</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fed7aa" text-anchor="middle" opacity="0.8">ГЕОМЕТРИЯ · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fed7aa" text-anchor="middle">Урок 20: Решение задач на объёмы и площади</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fdba74" text-anchor="middle" opacity="0.8">Урок 20 из 25</text>
-  <text x="250" y="210" font-size="48" fill="#fdba74" opacity="0.4" text-anchor="middle">V</text>
+  
+  <!-- Задача 1: Объём озера -->
+  <text x="30" y="85" font-family="Arial, sans-serif" font-size="14" fill="#2C3E50" font-weight="bold">Задача 1:</text>
+  <text x="30" y="105" font-family="Arial, sans-serif" font-size="12" fill="#34495E">Озеро имеет форму прямоугольного параллелепипеда</text>
+  
+  <!-- Схема озера -->
+  <rect x="30" y="115" width="120" height="80" fill="url(#blueGrad)" stroke="#2980B9" stroke-width="2"/>
+  <rect x="30" y="115" width="120" height="80" fill="none" stroke="#2C3E50" stroke-width="1"/>
+  <line x1="30" y1="155" x2="150" y2="155" stroke="#2C3E50" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="90" y1="115" x2="90" y2="195" stroke="#2C3E50" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- Размеры озера -->
+  <text x="90" y="210" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2C3E50">3 км</text>
+  <text x="20" y="160" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2C3E50" transform="rotate(-90 20 160)">2 км</text>
+  <text x="160" y="160" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2C3E50" transform="rotate(90 160 160)">5 м</text>
+  
+  <!-- Формула объёма -->
+  <rect x="170" y="115" width="140" height="80" fill="#ECF0F1" stroke="#BDC3C7" stroke-width="1" rx="5"/>
+  <text x="240" y="140" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2C3E50">Формула:</text>
+  <text x="240" y="160" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#2C3E50">V = a × b × h</text>
+  <text x="240" y="180" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7F8C8D">V = 3 × 2 × 0.005 = 0.03 км³</text>
+  
+  <!-- Задача 2: Площадь бассейна -->
+  <text x="330" y="85" font-family="Arial, sans-serif" font-size="14" fill="#2C3E50" font-weight="bold">Задача 2:</text>
+  <text x="330" y="105" font-family="Arial, sans-serif" font-size="12" fill="#34495E">Бассейн реки треугольной формы</text>
+  
+  <!-- Схема бассейна -->
+  <path d="M 330 115 L 430 115 L 380 195 Z" fill="url(#greenGrad)" stroke="#27AE60" stroke-width="2"/>
+  <path d="M 330 115 L 430 115 L 380 195 Z" fill="none" stroke="#2C3E50" stroke-width="1"/>
+  
+  <!-- Высота базы -->
+  <line x1="330" y1="115" x2="430" y2="115" stroke="#2C3E50" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="380" y1="115" x2="380" y2="195" stroke="#2C3E50" stroke-width="1"/>
+  <polygon points="380,195 375,190 385,190" fill="#2C3E50"/>
+  
+  <!-- Размеры бассейна -->
+  <text x="380" y="210" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2C3E50">10 км</text>
+  <text x="340" y="160" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2C3E50" transform="rotate(-90 340 160)">8 км</text>
+  
+  <!-- Формула площади -->
+  <rect x="440" y="115" width="140" height="80" fill="#ECF0F1" stroke="#BDC3C7" stroke-width="1" rx="5"/>
+  <text x="510" y="140" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2C3E50">Формула:</text>
+  <text x="510" y="160" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#2C3E50">S = (a × h) / 2</text>
+  <text x="510" y="180" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7F8C8D">S = (10 × 8) / 2 = 40 км²</text>
+  
+  <!-- Задача 3: Объём ледника -->
+  <text x="30" y="230" font-family="Arial, sans-serif" font-size="14" fill="#2C3E50" font-weight="bold">Задача 3:</text>
+  <text x="30" y="250" font-family="Arial, sans-serif" font-size="12" fill="#34495E">Ледник конической формы</text>
+  
+  <!-- Схема ледника -->
+  <ellipse cx="90" cy="280" rx="40" ry="8" fill="#BDC3C7" stroke="#7F8C8D" stroke-width="1"/>
+  <path d="M 50 280 L 90 230 L 130 280 Z" fill="url(#blueGrad)" stroke="#2980B9" stroke-width="2"/>
+  <path d="M 50 280 L 90 230 L 130 280 Z" fill="none" stroke="#2C3E50" stroke-width="1"/>
+  
+  <!-- Размеры ледника -->
+  <text x="90" y="300" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2C3E50">R = 4 км</text>
+  <text x="40" y="255" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2C3E50" transform="rotate(-90 40 255)">h = 5 км</text>
+  
+  <!-- Формула объёма конуса -->
+  <rect x="170" y="230" width="140" height="80" fill="#ECF0F1" stroke="#BDC3C7" stroke-width="1" rx="5"/>
+  <text x="240" y="255" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2C3E50">Формула:</text>
+  <text x="240" y="275" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#2C3E50">V = (π × R² × h) / 3</text>
+  <text x="240" y="295" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7F8C8D">V ≈ (3.14 × 16 × 5) / 3</text>
+  
+  <!-- Задача 4: Площадь водосбора -->
+  <text x="330" y="230" font-family="Arial, sans-serif" font-size="14" fill="#2C3E50" font-weight="bold">Задача 4:</text>
+  <text x="330" y="250" font-family="Arial, sans-serif" font-size="12" fill="#34495E">Водосборное盆地 секторной формы</text>
+  
+  <!-- Схема водосбора -->
+  <path d="M 380 230 A 50 50 0 0 1 430 280 L 380 280 Z" fill="url(#orangeGrad)" stroke="#E67E22" stroke-width="2"/>
+  <path d="M 380 230 A 50 50 0 0 1 430 280 L 380 280 Z" fill="none" stroke="#2C3E50" stroke-width="1"/>
+  
+  <!-- Размеры водосбора -->
+  <text x="405" y="295" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2C3E50">R = 5 км</text>
+  <text x="450" y="255" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2C3E50">α = 60°</text>
+  
+  <!-- Формула площади сектора -->
+  <rect x="440" y="230" width="140" height="80" fill="#ECF0F1" stroke="#BDC3C7" stroke-width="1" rx="5"/>
+  <text x="510" y="255" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2C3E50">Формула:</text>
+  <text x="510" y="275" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#2C3E50">S = (π × R² × α) / 360</text>
+  <text x="510" y="295" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7F8C8D">S ≈ (3.14 × 25 × 60) / 360</text>
+  
+  <!-- Декоративный элемент -->
+  <circle cx="250" cy="320" r="3" fill="#3498DB"/>
+  <circle cx="240" cy="320" r="3" fill="#2ECC71"/>
+  <circle cx="260" cy="320" r="3" fill="#F39C12"/>
 </svg>

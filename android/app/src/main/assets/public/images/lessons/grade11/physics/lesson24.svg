@@ -1,81 +1,141 @@
 <svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
-  <!-- Фон -->
-  <rect width="500" height="350" fill="#1a1a2e"/>
-  
   <!-- Декоративная рамка -->
-  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#4a7c7e" stroke-width="2"/>
-  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#4a7c7e" stroke-width="1" opacity="0.5"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#2c3e50" stroke-width="2"/>
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#3498db" stroke-width="1" stroke-dasharray="5,3"/>
   
-  <!-- Заголовок -->
-  <text x="250" y="40" font-family="Arial, sans-serif" font-size="24" fill="#f5f5f5" text-anchor="middle" font-weight="bold">Дифракция света</text>
+  <!-- Заголовок урока -->
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#2c3e50">Урок 24: Дифракция света. Дифракционная решётка</text>
+  <text x="250" y="60" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#7f8c8d">ФИЗИКА · 11 КЛАСС</text>
+  <text x="460" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="end" fill="#e74c3c">24</text>
   
-  <!-- Дифракционная решётка -->
-  <g id="grating">
-    <!-- Решётка -->
-    <rect x="220" y="150" width="60" height="100" fill="#2c3e50"/>
-    <!-- Щели -->
-    <rect x="225" y="155" width="50" height="2" fill="#ecf0f1"/>
-    <rect x="225" y="165" width="50" height="2" fill="#ecf0f1"/>
-    <rect x="225" y="175" width="50" height="2" fill="#ecf0f1"/>
-    <rect x="225" y="185" width="50" height="2" fill="#ecf0f1"/>
-    <rect x="225" y="195" width="50" height="2" fill="#ecf0f1"/>
-    <rect x="225" y="205" width="50" height="2" fill="#ecf0f1"/>
-    <rect x="225" y="215" width="50" height="2" fill="#ecf0f1"/>
-    <rect x="225" y="225" width="50" height="2" fill="#ecf0f1"/>
-    <rect x="225" y="235" width="50" height="2" fill="#ecf0f1"/>
-    <rect x="225" y="245" width="50" height="2" fill="#ecf0f1"/>
+  <!-- Принцип Гюйгенса-Френеля -->
+  <g transform="translate(50, 80)">
+    <!-- Волна до препятствия -->
+    <path d="M 0,50 Q 20,40 40,50 T 80,50" fill="none" stroke="#3498db" stroke-width="2"/>
+    <path d="M 0,60 Q 20,50 40,60 T 80,60" fill="none" stroke="#3498db" stroke-width="2"/>
+    <path d="M 0,70 Q 20,60 40,70 T 80,70" fill="none" stroke="#3498db" stroke-width="2"/>
+    <path d="M 0,80 Q 20,70 40,80 T 80,80" fill="none" stroke="#3498db" stroke-width="2"/>
+    <path d="M 0,90 Q 20,80 40,90 T 80,90" fill="none" stroke="#3498db" stroke-width="2"/>
+    
+    <!-- Препятствие -->
+    <rect x="90" y="30" width="10" height="80" fill="#34495e"/>
+    <text x="95" y="125" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">препятствие</text>
+    
+    <!-- Вторичные волны -->
+    <circle cx="110" cy="50" r="3" fill="#e74c3c" opacity="0.7"/>
+    <circle cx="110" cy="60" r="3" fill="#e74c3c" opacity="0.7"/>
+    <circle cx="110" cy="70" r="3" fill="#e74c3c" opacity="0.7"/>
+    <circle cx="110" cy="80" r="3" fill="#e74c3c" opacity="0.7"/>
+    <circle cx="110" cy="90" r="3" fill="#e74c3c" opacity="0.7"/>
+    
+    <circle cx="130" cy="50" r="6" fill="none" stroke="#e74c3c" stroke-width="1" opacity="0.5"/>
+    <circle cx="130" cy="60" r="6" fill="none" stroke="#e74c3c" stroke-width="1" opacity="0.5"/>
+    <circle cx="130" cy="70" r="6" fill="none" stroke="#e74c3c" stroke-width="1" opacity="0.5"/>
+    <circle cx="130" cy="80" r="6" fill="none" stroke="#e74c3c" stroke-width="1" opacity="0.5"/>
+    <circle cx="130" cy="90" r="6" fill="none" stroke="#e74c3c" stroke-width="1" opacity="0.5"/>
+    
+    <circle cx="150" cy="50" r="9" fill="none" stroke="#e74c3c" stroke-width="1" opacity="0.4"/>
+    <circle cx="150" cy="60" r="9" fill="none" stroke="#e74c3c" stroke-width="1" opacity="0.4"/>
+    <circle cx="150" cy="70" r="9" fill="none" stroke="#e74c3c" stroke-width="1" opacity="0.4"/>
+    <circle cx="150" cy="80" r="9" fill="none" stroke="#e74c3c" stroke-width="1" opacity="0.4"/>
+    <circle cx="150" cy="90" r="9" fill="none" stroke="#e74c3c" stroke-width="1" opacity="0.4"/>
+    
+    <!-- Дифрагированная волна -->
+    <path d="M 160,30 Q 180,50 200,70 T 240,110" fill="none" stroke="#e74c3c" stroke-width="2" opacity="0.8"/>
+    <path d="M 160,40 Q 180,60 200,80 T 240,120" fill="none" stroke="#e74c3c" stroke-width="2" opacity="0.8"/>
+    <path d="M 160,50 Q 180,70 200,90 T 240,130" fill="none" stroke="#e74c3c" stroke-width="2" opacity="0.8"/>
+    <path d="M 160,60 Q 180,80 200,100 T 240,140" fill="none" stroke="#e74c3c" stroke-width="2" opacity="0.8"/>
+    <path d="M 160,70 Q 180,90 200,110 T 240,150" fill="none" stroke="#e74c3c" stroke-width="2" opacity="0.8"/>
+    
+    <text x="125" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">Принцип Гюйгенса-Френеля</text>
   </g>
   
-  <!-- Входящий луч -->
-  <line x1="50" y1="200" x2="220" y2="200" stroke="#e74c3c" stroke-width="3" opacity="0.8"/>
-  <polygon points="220,195 230,200 220,205" fill="#e74c3c" opacity="0.8"/>
+  <!-- Дифракция на щели -->
+  <g transform="translate(50, 180)">
+    <!-- Источник света -->
+    <circle cx="20" cy="50" r="5" fill="#f39c12"/>
+    <line x1="25" y1="50" x2="90" y2="50" stroke="#f39c12" stroke-width="2"/>
+    <line x1="25" y1="45" x2="90" y2="45" stroke="#f39c12" stroke-width="1"/>
+    <line x1="25" y1="55" x2="90" y2="55" stroke="#f39c12" stroke-width="1"/>
+    
+    <!-- Щель -->
+    <rect x="90" y="30" width="5" height="40" fill="#34495e"/>
+    <rect x="95" y="20" width="5" height="100" fill="#ecf0f1"/>
+    <rect x="100" y="30" width="5" height="40" fill="#34495e"/>
+    <text x="97" y="140" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">щель</text>
+    
+    <!-- Дифракционная картина -->
+    <ellipse cx="180" cy="50" rx="60" ry="30" fill="none" stroke="#9b59b6" stroke-width="2"/>
+    <ellipse cx="180" cy="50" rx="80" ry="40" fill="none" stroke="#9b59b6" stroke-width="1" opacity="0.7"/>
+    <ellipse cx="180" cy="50" rx="100" ry="50" fill="none" stroke="#9b59b6" stroke-width="1" opacity="0.5"/>
+    
+    <!-- Центральный максимум -->
+    <line x1="180" y1="0" x2="180" y2="100" stroke="#9b59b6" stroke-width="3" opacity="0.8"/>
+    
+    <!-- Боковые максимумы -->
+    <line x1="150" y1="20" x2="150" y2="80" stroke="#9b59b6" stroke-width="1.5" opacity="0.6"/>
+    <line x1="210" y1="20" x2="210" y2="80" stroke="#9b59b6" stroke-width="1.5" opacity="0.6"/>
+    
+    <text x="125" y="140" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">Дифракция на щели</text>
+  </g>
   
-  <!-- Дифракционные лучи -->
-  <!-- Центральный максимум -->
-  <line x1="280" y1="200" x2="450" y2="200" stroke="#3498db" stroke-width="3" opacity="0.8"/>
-  <polygon points="445,195 455,200 445,205" fill="#3498db" opacity="0.8"/>
+  <!-- Дифракционная решётка -->
+  <g transform="translate(250, 80)">
+    <!-- Источник света -->
+    <circle cx="20" cy="50" r="5" fill="#f39c12"/>
+    <line x1="25" y1="50" x2="80" y2="50" stroke="#f39c12" stroke-width="2"/>
+    <line x1="25" y1="45" x2="80" y2="45" stroke="#f39c12" stroke-width="1"/>
+    <line x1="25" y1="55" x2="80" y2="55" stroke="#f39c12" stroke-width="1"/>
+    
+    <!-- Дифракционная решётка -->
+    <g>
+      <rect x="80" y="20" width="5" height="60" fill="#34495e"/>
+      <rect x="85" y="25" width="5" height="50" fill="#ecf0f1"/>
+      <rect x="90" y="20" width="5" height="60" fill="#34495e"/>
+      <rect x="95" y="25" width="5" height="50" fill="#ecf0f1"/>
+      <rect x="100" y="20" width="5" height="60" fill="#34495e"/>
+      <rect x="105" y="25" width="5" height="50" fill="#ecf0f1"/>
+      <rect x="110" y="20" width="5" height="60" fill="#34495e"/>
+      <rect x="115" y="25" width="5" height="50" fill="#ecf0f1"/>
+      <rect x="120" y="20" width="5" height="60" fill="#34495e"/>
+      <rect x="125" y="25" width="5" height="50" fill="#ecf0f1"/>
+      <rect x="130" y="20" width="5" height="60" fill="#34495e"/>
+      <rect x="135" y="25" width="5" height="50" fill="#ecf0f1"/>
+      <rect x="140" y="20" width="5" height="60" fill="#34495e"/>
+    </g>
+    
+    <text x="110" y="100" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">дифракционная решётка</text>
+    
+    <!-- Дифракционные максимумы -->
+    <line x1="160" y1="50" x2="200" y2="20" stroke="#16a085" stroke-width="2"/>
+    <line x1="160" y1="50" x2="200" y2="50" stroke="#16a085" stroke-width="3"/>
+    <line x1="160" y1="50" x2="200" y2="80" stroke="#16a085" stroke-width="2"/>
+    
+    <circle cx="200" cy="20" r="4" fill="#16a085"/>
+    <circle cx="200" cy="50" r="6" fill="#16a085"/>
+    <circle cx="200" cy="80" r="4" fill="#16a085"/>
+    
+    <text x="125" y="140" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">Дифракционная решётка</text>
+  </g>
   
-  <!-- Первый максимум слева -->
-  <line x1="280" y1="200" x2="420" y2="150" stroke="#3498db" stroke-width="2" opacity="0.7"/>
-  <polygon points="415,152 425,148 420,158" fill="#3498db" opacity="0.7"/>
+  <!-- Формула дифракционной решётки -->
+  <g transform="translate(50, 260)">
+    <rect x="0" y="0" width="400" height="60" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+    <text x="200" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">Основная формула дифракционной решётки:</text>
+    <text x="200" y="45" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#2c3e50">d·sin(φ) = k·λ</text>
+    <text x="30" y="45" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">d - период решётки</text>
+    <text x="130" y="45" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">φ - угол дифракции</text>
+    <text x="220" y="45" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">k - порядок спектра</text>
+    <text x="320" y="45" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">λ - длина волны</text>
+  </g>
   
-  <!-- Первый максимум справа -->
-  <line x1="280" y1="200" x2="420" y2="250" stroke="#3498db" stroke-width="2" opacity="0.7"/>
-  <polygon points="415,248 425,252 420,242" fill="#3498db" opacity="0.7"/>
-  
-  <!-- Второй максимум слева -->
-  <line x1="280" y1="200" x2="400" y2="120" stroke="#3498db" stroke-width="1.5" opacity="0.5"/>
-  <polygon points="395,122 405,118 400,128" fill="#3498db" opacity="0.5"/>
-  
-  <!-- Второй максимум справа -->
-  <line x1="280" y1="200" x2="400" y2="280" stroke="#3498db" stroke-width="1.5" opacity="0.5"/>
-  <polygon points="395,278 405,282 400,272" fill="#3498db" opacity="0.5"/>
-  
-  <!-- Углы измерения -->
-  <path d="M 280 200 L 280 150" stroke="#f39c12" stroke-width="1" stroke-dasharray="5,3" opacity="0.7"/>
-  <path d="M 280 200 L 280 250" stroke="#f39c12" stroke-width="1" stroke-dasharray="5,3" opacity="0.7"/>
-  <path d="M 280 150 A 50 50 0 0 1 320 175" stroke="#f39c12" stroke-width="1" fill="none" opacity="0.7"/>
-  <path d="M 280 250 A 50 50 0 0 0 320 225" stroke="#f39c12" stroke-width="1" fill="none" opacity="0.7"/>
-  
-  <!-- Обозначения углов -->
-  <text x="310" y="170" font-family="Arial, sans-serif" font-size="14" fill="#f39c12">φ</text>
-  <text x="310" y="235" font-family="Arial, sans-serif" font-size="14" fill="#f39c12">φ</text>
-  
-  <!-- Формула дифракции -->
-  <rect x="150" y="290" width="200" height="40" fill="#2c3e50" stroke="#4a7c7e" stroke-width="1" rx="5"/>
-  <text x="250" y="315" font-family="Arial, sans-serif" font-size="18" fill="#f5f5f5" text-anchor="middle">d sin φ = mλ</text>
-  
-  <!-- Обозначения -->
-  <text x="140" y="200" font-family="Arial, sans-serif" font-size="12" fill="#ecf0f1">d - шаг решётки</text>
-  <text x="350" y="90" font-family="Arial, sans-serif" font-size="12" fill="#ecf0f1">m - порядок максимума</text>
-  <text x="350" y="105" font-family="Arial, sans-serif" font-size="12" fill="#ecf0f1">λ - длина волны</text>
-  
-  <!-- Подписи к лучам -->
-  <text x="50" y="190" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">Входящий луч</text>
-  <text x="350" y="210" font-family="Arial, sans-serif" font-size="12" fill="#3498db">Дифракционные максимумы</text>
-  
-  <!-- Дополнительные элементы оформления -->
-  <circle cx="250" cy="200" r="3" fill="#f5f5f5"/>
-  <circle cx="220" cy="200" r="2" fill="#f5f5f5"/>
-  <circle cx="280" cy="200" r="2" fill="#f5f5f5"/>
+  <!-- Легенда -->
+  <g transform="translate(250, 260)">
+    <rect x="0" y="0" width="200" height="60" fill="#f8f9fa" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+    <text x="100" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">Спектр дифракционной решётки</text>
+    <line x1="20" y1="35" x2="40" y2="35" stroke="#e74c3c" stroke-width="3"/>
+    <text x="45" y="40" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">красный (λ = 700 нм)</text>
+    <line x1="20" y1="50" x2="40" y2="50" stroke="#3498db" stroke-width="3"/>
+    <text x="45" y="55" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">синий (λ = 450 нм)</text>
+  </g>
 </svg>

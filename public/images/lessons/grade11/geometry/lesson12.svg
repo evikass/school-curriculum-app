@@ -1,23 +1,112 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#831843"/>
-      <stop offset="100%" style="stop-color:#ec4899"/>
+    <linearGradient id="coneGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f4a460;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#cd853f;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#f9a8d4;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#f9a8d4;stop-opacity:0"/>
-    </radialGradient>
+    <linearGradient id="baseGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d2691e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b4513;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="gridPattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+    </pattern>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#f9a8d4" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#f9a8d4" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#f9a8d4" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fce7f3" text-anchor="middle">12</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fce7f3" text-anchor="middle" opacity="0.8">ГЕОМЕТРИЯ · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fce7f3" text-anchor="middle">Урок 12: Конус</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#f9a8d4" text-anchor="middle" opacity="0.8">Урок 12 из 25</text>
-  <ellipse cx="250" cy="175" rx="80" ry="30" fill="none" stroke="#f9a8d4" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#8b4513" stroke-width="3" rx="5"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#d2691e" stroke-width="1" rx="3"/>
+  
+  <!-- Заголовок класса -->
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="12" fill="#8b4513" text-anchor="middle" font-weight="bold">ГЕОГРАФИЯ · 11 КЛАСС</text>
+  
+  <!-- Номер урока -->
+  <text x="45" y="55" font-family="Arial, sans-serif" font-size="16" fill="#8b4513" font-weight="bold">Урок 12</text>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="20" fill="#8b4513" text-anchor="middle" font-weight="bold">КОНУС</text>
+  
+  <!-- Определение -->
+  <rect x="20" y="70" width="460" height="40" fill="#f5f5dc" stroke="#8b4513" stroke-width="1" rx="3"/>
+  <text x="30" y="95" font-family="Arial, sans-serif" font-size="12" fill="#333" font-weight="bold">Определение:</text>
+  <text x="30" y="110" font-family="Arial, sans-serif" font-size="11" fill="#333">Конус — тело, образованное всеми отрезками, соединяющими точку (вершину) с точками плоской фигуры (основания)</text>
+  
+  <!-- Сетка для схемы -->
+  <rect x="20" y="120" width="200" height="200" fill="url(#gridPattern)" stroke="#d2691e" stroke-width="1"/>
+  
+  <!-- Основание конуса (круг) -->
+  <ellipse cx="120" cy="280" rx="70" ry="15" fill="url(#baseGradient)" stroke="#8b4513" stroke-width="2"/>
+  
+  <!-- Боковая поверхность конуса -->
+  <path d="M 50 280 L 120 150 L 190 280 Z" fill="url(#coneGradient)" fill-opacity="0.7" stroke="#8b4513" stroke-width="2"/>
+  
+  <!-- Высокий конус для сравнения -->
+  <rect x="240" y="120" width="200" height="200" fill="url(#gridPattern)" stroke="#d2691e" stroke-width="1"/>
+  
+  <!-- Основание высокого конуса -->
+  <ellipse cx="340" cy="280" rx="40" ry="10" fill="url(#baseGradient)" stroke="#8b4513" stroke-width="2"/>
+  
+  <!-- Боковая поверхность высокого конуса -->
+  <path d="M 300 280 L 340 150 L 380 280 Z" fill="url(#coneGradient)" fill-opacity="0.7" stroke="#8b4513" stroke-width="2"/>
+  
+  <!-- Элементы конуса (левый) -->
+  <line x1="120" y1="150" x2="120" y2="280" stroke="#ff0000" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="125" y="215" font-family="Arial, sans-serif" font-size="10" fill="#ff0000">Высота (h)</text>
+  
+  <line x1="120" y1="280" x2="190" y2="280" stroke="#0000ff" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="145" y="295" font-family="Arial, sans-serif" font-size="10" fill="#0000ff">Радиус (R)</text>
+  
+  <path d="M 120 150 Q 140 160 160 170" fill="none" stroke="#008000" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="165" y="175" font-family="Arial, sans-serif" font-size="10" fill="#008000">Образующая (l)</text>
+  
+  <!-- Сечения конуса -->
+  <rect x="460" y="120" width="30" height="200" fill="none" stroke="#d2691e" stroke-width="1"/>
+  <text x="475" y="110" font-family="Arial, sans-serif" font-size="12" fill="#8b4513" text-anchor="middle" font-weight="bold">Сечения</text>
+  
+  <!-- Треугольное сечение -->
+  <path d="M 470 200 L 480 150 L 490 200 Z" fill="#87ceeb" stroke="#4682b4" stroke-width="1"/>
+  <text x="475" y="220" font-family="Arial, sans-serif" font-size="9" fill="#333" text-anchor="middle">Треугольник</text>
+  
+  <!-- Эллиптическое сечение -->
+  <ellipse cx="475" cy="250" rx="8" ry="15" fill="#dda0dd" stroke="#9370db" stroke-width="1"/>
+  <text x="475" y="270" font-family="Arial, sans-serif" font-size="9" fill="#333" text-anchor="middle">Эллипс</text>
+  
+  <!-- Окружность сечение -->
+  <ellipse cx="475" cy="300" rx="8" ry="8" fill="#98fb98" stroke="#3cb371" stroke-width="1"/>
+  <text x="475" y="320" font-family="Arial, sans-serif" font-size="9" fill="#333" text-anchor="middle">Окружность</text>
+  
+  <!-- Формулы -->
+  <rect x="20" y="340" width="460" height="20" fill="#f5f5dc" stroke="#8b4513" stroke-width="1" rx="3"/>
+  <text x="30" y="355" font-family="Arial, sans-serif" font-size="11" fill="#333" font-weight="bold">S_пов = πR(R + l), V = (1/3)πR²h</text>
+  
+  <!-- Типы конусов -->
+  <text x="240" y="340" font-family="Arial, sans-serif" font-size="11" fill="#333" font-weight="bold">Типы конусов:</text>
+  <text x="240" y="355" font-family="Arial, sans-serif" font-size="10" fill="#333">Прямой · Наклонный · Круговой · Эллиптический</text>
+  
+  <!-- Примеры из географии -->
+  <circle cx="30" cy="150" r="3" fill="#ff6347"/>
+  <text x="40" y="155" font-family="Arial, sans-serif" font-size="10" fill="#333">Вулканы</text>
+  
+  <circle cx="30" cy="170" r="3" fill="#4682b4"/>
+  <text x="40" y="175" font-family="Arial, sans-serif" font-size="10" fill="#333">Горы</text>
+  
+  <circle cx="30" y="190" r="3" fill="#3cb371"/>
+  <text x="40" y="195" font-family="Arial, sans-serif" font-size="10" fill="#333">Дюны</text>
+  
+  <!-- Угол при вершине -->
+  <path d="M 110 150 A 10 10 0 0 1 130 150" fill="none" stroke="#ff1493" stroke-width="1.5"/>
+  <text x="115" y="145" font-family="Arial, sans-serif" font-size="9" fill="#ff1493">α</text>
+  
+  <!-- Развертка конуса -->
+  <rect x="240" y="230" width="100" height="80" fill="#fff8dc" stroke="#8b4513" stroke-width="1"/>
+  <path d="M 340 270 A 60 60 0 0 1 340 230" fill="none" stroke="#8b4513" stroke-width="1.5"/>
+  <line x1="340" y1="270" x2="340" y2="230" stroke="#8b4513" stroke-width="1"/>
+  <text x="290" y="270" font-family="Arial, sans-serif" font-size="9" fill="#333">Развертка</text>
+  
+  <!-- Указатель на вершину -->
+  <circle cx="120" cy="150" r="3" fill="#ff0000"/>
+  <text x="125" y="145" font-family="Arial, sans-serif" font-size="10" fill="#ff0000">Вершина</text>
+  
+  <!-- Основание конуса подпись -->
+  <text x="120" y="305" font-family="Arial, sans-serif" font-size="10" fill="#8b4513" text-anchor="middle">Основание</text>
 </svg>

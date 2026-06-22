@@ -1,23 +1,122 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#2c3e50" stroke-width="2"/>
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#3498db" stroke-width="1" stroke-dasharray="5,3"/>
+  
+  <!-- Заголовок класса -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">ГЕОГРАФИЯ · 11 КЛАСС</text>
+  
+  <!-- Номер урока -->
+  <rect x="420" y="20" width="50" height="20" fill="#3498db" rx="3"/>
+  <text x="445" y="34" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">Урок 8</text>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="60" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50" text-anchor="middle">Взаимное расположение прямых и плоскостей</text>
+  
+  <!-- Оси координат -->
+  <line x1="100" y1="200" x2="400" y2="200" stroke="#34495e" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="250" y1="80" x2="250" y2="280" stroke="#34495e" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Стрелки для осей -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0c4a6e"/>
-      <stop offset="100%" style="stop-color:#06b6d4"/>
-    </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#67e8f9;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#67e8f9;stop-opacity:0"/>
-    </radialGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#34495e"/>
+    </marker>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#67e8f9" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#67e8f9" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#67e8f9" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#cffafe" text-anchor="middle">8</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#cffafe" text-anchor="middle" opacity="0.8">ГЕОМЕТРИЯ · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#cffafe" text-anchor="middle">Урок 8: Взаимное расположение прямых и плоскостей</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#67e8f9" text-anchor="middle" opacity="0.8">Урок 8 из 25</text>
-  <text x="200" y="220" font-size="32" fill="#67e8f9" opacity="0.5">x,y,z</text>
+  
+  <!-- Ось X -->
+  <text x="410" y="205" font-family="Arial, sans-serif" font-size="12" fill="#34495e">x</text>
+  <!-- Ось Y -->
+  <text x="255" y="85" font-family="Arial, sans-serif" font-size="12" fill="#34495e">y</text>
+  
+  <!-- Масштабные деления на оси X -->
+  <line x1="150" y1="195" x2="150" y2="205" stroke="#34495e" stroke-width="1"/>
+  <line x1="200" y1="195" x2="200" y2="205" stroke="#34495e" stroke-width="1"/>
+  <line x1="300" y1="195" x2="300" y2="205" stroke="#34495e" stroke-width="1"/>
+  <line x1="350" y1="195" x2="350" y2="205" stroke="#34495e" stroke-width="1"/>
+  
+  <!-- Масштабные деления на оси Y -->
+  <line x1="245" y1="150" x2="255" y2="150" stroke="#34495e" stroke-width="1"/>
+  <line x1="245" y1="100" x2="255" y2="100" stroke="#34495e" stroke-width="1"/>
+  <line x1="245" y1="250" x2="255" y2="250" stroke="#34495e" stroke-width="1"/>
+  
+  <!-- Первая прямая (параллельная оси X) -->
+  <line x1="100" y1="130" x2="400" y2="130" stroke="#e74c3c" stroke-width="2"/>
+  <text x="410" y="135" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">y = 3</text>
+  
+  <!-- Вторая прямая (перпендикулярная оси X) -->
+  <line x1="320" y1="80" x2="320" y2="280" stroke="#27ae60" stroke-width="2"/>
+  <text x="325" y="75" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">x = 4</text>
+  
+  <!-- Перпендикулярные линии -->
+  <line x1="320" y1="130" x2="380" y2="130" stroke="#3498db" stroke-width="1" stroke-dasharray="5,3"/>
+  <line x1="320" y1="130" x2="320" y2="180" stroke="#3498db" stroke-width="1" stroke-dasharray="5,3"/>
+  
+  <!-- Угол 90 градусов -->
+  <path d="M 320 130 A 10 10 0 0 0 330 120" fill="none" stroke="#3498db" stroke-width="1"/>
+  <text x="335" y="125" font-family="Arial, sans-serif" font-size="10" fill="#3498db">90°</text>
+  
+  <!-- Плоскость XY -->
+  <polygon points="100,200 400,200 400,280 100,280" fill="#f39c12" opacity="0.2"/>
+  <text x="250" y="270" font-family="Arial, sans-serif" font-size="12" fill="#f39c12" text-anchor="middle">Плоскость XY</text>
+  
+  <!-- Точка пересечения прямых -->
+  <circle cx="320" cy="130" r="5" fill="#9b59b6"/>
+  <text x="330" y="125" font-family="Arial, sans-serif" font-size="12" fill="#9b59b6">A(4,3)</text>
+  
+  <!-- Вектор нормали к плоскости -->
+  <line x1="250" y1="200" x2="250" y2="120" stroke="#e67e22" stroke-width="2" marker-end="url(#arrowhead2)"/>
+  <text x="255" y="150" font-family="Arial, sans-serif" font-size="12" fill="#e67e22">n</text>
+  
+  <!-- Стрелка для вектора нормали -->
+  <defs>
+    <marker id="arrowhead2" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e67e22"/>
+    </marker>
+  </defs>
+  
+  <!-- Формула для уравнения плоскости -->
+  <rect x="50" y="250" width="150" height="40" fill="#ecf0f1" stroke="#bdc3c7" rx="5"/>
+  <text x="125" y="265" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">Ax + By + Cz + D = 0</text>
+  <text x="125" y="280" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d" text-anchor="middle">Уравнение плоскости</text>
+  
+  <!-- Формула для расстояния от точки до плоскости -->
+  <rect x="300" y="250" width="150" height="40" fill="#ecf0f1" stroke="#bdc3c7" rx="5"/>
+  <text x="375" y="265" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">d = |Ax₀ + By₀ + Cz₀ + D|</text>
+  <text x="375" y="280" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d" text-anchor="middle">√(A² + B² + C²)</text>
+  
+  <!-- Прямая в пространстве -->
+  <line x1="100" y1="200" x2="200" y2="150" stroke="#16a085" stroke-width="2"/>
+  <line x1="200" y1="150" x2="300" y2="100" stroke="#16a085" stroke-width="2"/>
+  <line x1="300" y1="100" x2="400" y2="50" stroke="#16a085" stroke-width="2"/>
+  <text x="410" y="55" font-family="Arial, sans-serif" font-size="12" fill="#16a085">l</text>
+  
+  <!-- Вектор направления прямой -->
+  <line x1="150" y1="180" x2="200" y2="150" stroke="#c0392b" stroke-width="1.5" marker-end="url(#arrowhead3)"/>
+  <text x="205" y="155" font-family="Arial, sans-serif" font-size="10" fill="#c0392b">v</text>
+  
+  <!-- Стрелка для вектора направления -->
+  <defs>
+    <marker id="arrowhead3" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#c0392b"/>
+    </marker>
+  </defs>
+  
+  <!-- Условие перпендикулярности -->
+  <rect x="50" y="90" width="140" height="30" fill="#ecf0f1" stroke="#bdc3c7" rx="5"/>
+  <text x="120" y="110" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">n · v = 0</text>
+  
+  <!-- Условие параллельности -->
+  <rect x="310" y="90" width="140" height="30" fill="#ecf0f1" stroke="#bdc3c7" rx="5"/>
+  <text x="380" y="110" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">n × v = 0</text>
+  
+  <!-- Легенда -->
+  <rect x="50" y="305" width="400" height="30" fill="#ecf0f1" stroke="#bdc3c7" rx="5"/>
+  <text x="250" y="325" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">Параллельность: прямые/плоскости не пересекаются | Перендикулярность: угол 90°</text>
+  
+  <!-- Дополнительные элементы декора -->
+  <circle cx="50" cy="50" r="3" fill="#3498db"/>
+  <circle cx="450" cy="50" r="3" fill="#3498db"/>
+  <circle cx="50" cy="300" r="3" fill="#3498db"/>
+  <circle cx="450" cy="300" r="3" fill="#3498db"/>
 </svg>

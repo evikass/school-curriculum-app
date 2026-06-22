@@ -1,23 +1,113 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
-  <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e1b4b"/>
-      <stop offset="100%" style="stop-color:#6366f1"/>
-    </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:0"/>
-    </radialGradient>
-  </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#a78bfa" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#a78bfa" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#e0e7ff" text-anchor="middle">6</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e0e7ff" text-anchor="middle" opacity="0.8">АЛГЕБРА · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e0e7ff" text-anchor="middle">Урок 6: Обратные тригонометрические функции</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#a78bfa" text-anchor="middle" opacity="0.8">Урок 6 из 38</text>
-  <path d="M 60 220 Q 110 130 160 220 T 260 220 T 360 220 T 460 220" fill="none" stroke="#a78bfa" stroke-width="2.5" opacity="0.7"/>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#2c3e50" stroke-width="2"/>
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#3498db" stroke-width="1"/>
+  
+  <!-- Заголовок класса -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">АЛГЕБРА · 11 КЛАСС</text>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#e74c3c" text-anchor="middle">Урок 6: Обратные тригонометрические функции</text>
+  
+  <!-- Номер урока -->
+  <text x="460" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50" text-anchor="end">№6</text>
+  
+  <!-- Определения -->
+  <text x="30" y="85" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#34495e">Определения:</text>
+  
+  <!-- arcsin -->
+  <text x="30" y="105" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">y = arcsin(x), где x ∈ [-1,1], y ∈ [-π/2, π/2]</text>
+  <text x="30" y="120" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">обратная функция для sin(y) = x</text>
+  
+  <!-- arccos -->
+  <text x="30" y="140" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">y = arccos(x), где x ∈ [-1,1], y ∈ [0, π]</text>
+  <text x="30" y="155" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">обратная функция для cos(y) = x</text>
+  
+  <!-- arctg -->
+  <text x="30" y="175" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">y = arctg(x), где x ∈ R, y ∈ (-π/2, π/2)</text>
+  <text x="30" y="190" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">обратная функция для tg(y) = x</text>
+  
+  <!-- arcctg -->
+  <text x="30" y="210" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">y = arcctg(x), где x ∈ R, y ∈ (0, π)</text>
+  <text x="30" y="225" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">обратная функция для ctg(y) = x</text>
+  
+  <!-- Графики функций -->
+  <g transform="translate(270, 80)">
+    <!-- Система координат -->
+    <line x1="0" y1="50" x2="200" y2="50" stroke="#34495e" stroke-width="1"/>
+    <line x1="100" y1="0" x2="100" y2="100" stroke="#34495e" stroke-width="1"/>
+    
+    <!-- Ось X -->
+    <text x="195" y="45" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">x</text>
+    <!-- Ось Y -->
+    <text x="105" y="5" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">y</text>
+    
+    <!-- arcsin -->
+    <path d="M 20,50 Q 50,20 80,50 Q 110,80 140,50 Q 170,20 180,50" 
+          fill="none" stroke="#e74c3c" stroke-width="2"/>
+    <text x="185" y="45" font-family="Arial, sans-serif" font-size="9" fill="#e74c3c">arcsin</text>
+    
+    <!-- arccos -->
+    <path d="M 20,50 Q 50,80 80,50 Q 110,20 140,50 Q 170,80 180,50" 
+          fill="none" stroke="#3498db" stroke-width="2"/>
+    <text x="185" y="60" font-family="Arial, sans-serif" font-size="9" fill="#3498db">arccos</text>
+    
+    <!-- arctg -->
+    <path d="M 20,20 Q 50,30 80,40 Q 110,45 140,47 Q 170,49 180,50" 
+          fill="none" stroke="#2ecc71" stroke-width="2"/>
+    <text x="185" y="55" font-family="Arial, sans-serif" font-size="9" fill="#2ecc71">arctg</text>
+    
+    <!-- arcctg -->
+    <path d="M 20,80 Q 50,70 80,60 Q 110,55 140,53 Q 170,51 180,50" 
+          fill="none" stroke="#9b59b6" stroke-width="2"/>
+    <text x="185" y="65" font-family="Arial, sans-serif" font-size="9" fill="#9b59b6">arcctg</text>
+    
+    <!-- Точки для диапазонов -->
+    <circle cx="20" cy="50" r="2" fill="#34495e"/>
+    <circle cx="180" cy="50" r="2" fill="#34495e"/>
+    <text x="15" y="65" font-family="Arial, sans-serif" font-size="8" fill="#34495e">-1</text>
+    <text x="175" y="65" font-family="Arial, sans-serif" font-size="8" fill="#34495e">1</text>
+  </g>
+  
+  <!-- Свойства функций -->
+  <text x="30" y="250" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#34495e">Основные свойства:</text>
+  
+  <!-- Свойство 1 -->
+  <text x="30" y="270" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">1. arcsin(-x) = -arcsin(x)</text>
+  
+  <!-- Свойство 2 -->
+  <text x="30" y="285" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">2. arccos(-x) = π - arccos(x)</text>
+  
+  <!-- Свойство 3 -->
+  <text x="250" y="270" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">3. arctg(-x) = -arctg(x)</text>
+  
+  <!-- Свойство 4 -->
+  <text x="250" y="285" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">4. arcctg(-x) = π - arcctg(x)</text>
+  
+  <!-- Формула связи -->
+  <rect x="30" y="295" width="440" height="30" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+  <text x="250" y="315" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50" text-anchor="middle">arcsin(x) + arccos(x) = π/2</text>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="30" cy="30" r="5" fill="#e74c3c"/>
+  <circle cx="470" cy="30" r="5" fill="#3498db"/>
+  <circle cx="30" cy="330" r="5" fill="#2ecc71"/>
+  <circle cx="470" cy="330" r="5" fill="#9b59b6"/>
+  
+  <!-- График производных -->
+  <g transform="translate(270, 200)">
+    <text x="0" y="-5" font-family="Arial, sans-serif" font-size="10" fill="#34495e">Производные:</text>
+    
+    <!-- Производная arcsin -->
+    <text x="0" y="10" font-family="Arial, sans-serif" font-size="9" fill="#e74c3c">(arcsin x)' = 1/√(1-x²)</text>
+    
+    <!-- Производная arccos -->
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="9" fill="#3498db">(arccos x)' = -1/√(1-x²)</text>
+    
+    <!-- Производная arctg -->
+    <text x="0" y="40" font-family="Arial, sans-serif" font-size="9" fill="#2ecc71">(arctg x)' = 1/(1+x²)</text>
+    
+    <!-- Производная arcctg -->
+    <text x="0" y="55" font-family="Arial, sans-serif" font-size="9" fill="#9b59b6">(arcctg x)' = -1/(1+x²)</text>
+  </g>
 </svg>

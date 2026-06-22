@@ -1,109 +1,134 @@
 <svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
   <!-- Декоративная рамка -->
-  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#444" stroke-width="2"/>
-  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#666" stroke-width="1"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#2c3e50" stroke-width="2"/>
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#3498db" stroke-width="1"/>
   
-  <!-- Тёмный фон -->
-  <rect x="0" y="0" width="500" height="350" fill="#1a1a1a"/>
+  <!-- Заголовок урока -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#2c3e50">Поляризация и дисперсия света</text>
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#34495e">ФИЗИКА · 11 КЛАСС</text>
+  <text x="460" y="25" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="end" fill="#e74c3c">Урок 25</text>
   
-  <!-- Заголовок -->
-  <text x="250" y="35" text-anchor="middle" fill="#fff" font-size="24" font-family="Arial, sans-serif">Поляризация света</text>
+  <!-- Секция: Естественный и поляризованный свет -->
+  <text x="30" y="85" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Естественный и поляризованный свет</text>
   
-  <!-- Источник света -->
-  <circle cx="60" cy="175" r="15" fill="#fff" opacity="0.8"/>
-  <circle cx="60" cy="175" r="20" fill="none" stroke="#fff" stroke-width="1" opacity="0.5"/>
-  <circle cx="60" cy="175" r="25" fill="none" stroke="#fff" stroke-width="1" opacity="0.3"/>
-  
-  <!-- Неполяризованный свет (волны) -->
-  <g id="unpolarized-light">
-    <path d="M 80 175 Q 90 165, 100 175 T 120 175 T 140 175 T 160 175" fill="none" stroke="#ffcc00" stroke-width="2" opacity="0.8"/>
-    <path d="M 80 175 Q 90 185, 100 175 T 120 175 T 140 175 T 160 175" fill="none" stroke="#ffcc00" stroke-width="2" opacity="0.8"/>
-    <path d="M 80 175 Q 90 165, 100 175 T 120 175 T 140 175 T 160 175" fill="none" stroke="#ffcc00" stroke-width="2" opacity="0.8" transform="translate(0,-10)"/>
-    <path d="M 80 175 Q 90 185, 100 175 T 120 175 T 140 175 T 160 175" fill="none" stroke="#ffcc00" stroke-width="2" opacity="0.8" transform="translate(0,10)"/>
+  <!-- Естественный свет -->
+  <g transform="translate(50, 100)">
+    <circle cx="0" cy="0" r="5" fill="#e74c3c"/>
+    <line x1="0" y1="0" x2="0" y2="-30" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="0" y1="0" x2="21" y2="-21" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="0" y1="0" x2="30" y2="0" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="0" y1="0" x2="21" y2="21" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="0" y1="0" x2="0" y2="30" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="0" y1="0" x2="-21" y2="21" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="0" y1="0" x2="-30" y2="0" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="0" y1="0" x2="-21" y2="-21" stroke="#e74c3c" stroke-width="2"/>
+    <text x="0" y="45" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">Естественный свет</text>
   </g>
   
-  <!-- Подпись: Неполяризованный свет -->
-  <text x="120" y="210" text-anchor="middle" fill="#fff" font-size="12" font-family="Arial, sans-serif">Неполяризованный свет</text>
-  
-  <!-- Поляризатор (вертикальная решётка) -->
-  <g id="polarizer">
-    <rect x="170" y="150" width="5" height="50" fill="#666"/>
-    <line x1="172" y1="155" x2="172" y2="195" stroke="#fff" stroke-width="1"/>
-    <line x1="172" y1="160" x2="172" y2="190" stroke="#fff" stroke-width="1"/>
-    <line x1="172" y1="165" x2="172" y2="185" stroke="#fff" stroke-width="1"/>
-    <line x1="172" y1="170" x2="172" y2="180" stroke="#fff" stroke-width="1"/>
+  <!-- Поляризатор -->
+  <g transform="translate(150, 100)">
+    <rect x="-3" y="-40" width="6" height="80" fill="#34495e"/>
+    <line x1="-20" y1="0" x2="20" y2="0" stroke="#2c3e50" stroke-width="1" stroke-dasharray="2,2"/>
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">Поляризатор</text>
   </g>
   
-  <!-- Поляризованный свет (вертикальные волны) -->
-  <g id="polarized-light">
-    <path d="M 180 175 Q 185 165, 190 175 T 200 175 T 210 175 T 220 175" fill="none" stroke="#ffcc00" stroke-width="2" opacity="0.8"/>
-    <path d="M 180 175 Q 185 185, 190 175 T 200 175 T 210 175 T 220 175" fill="none" stroke="#ffcc00" stroke-width="2" opacity="0.8"/>
-    <path d="M 180 175 Q 185 165, 190 175 T 200 175 T 210 175 T 220 175" fill="none" stroke="#ffcc00" stroke-width="2" opacity="0.8" transform="translate(0,-10)"/>
-    <path d="M 180 175 Q 185 185, 190 175 T 200 175 T 210 175 T 220 175" fill="none" stroke="#ffcc00" stroke-width="2" opacity="0.8" transform="translate(0,10)"/>
+  <!-- Поляризованный свет -->
+  <g transform="translate(250, 100)">
+    <line x1="0" y1="0" x2="0" y2="-30" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="0" y1="0" x2="0" y2="30" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="0" y1="0" x2="15" y2="-15" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="0" y1="0" x2="15" y2="15" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="0" y1="0" x2="-15" y2="15" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="0" y1="0" x2="-15" y2="-15" stroke="#e74c3c" stroke-width="2"/>
+    <text x="0" y="45" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">Поляризованный свет</text>
   </g>
   
-  <!-- Подпись: Поляроид -->
-  <text x="180" y="220" text-anchor="middle" fill="#fff" font-size="12" font-family="Arial, sans-serif">Поляроид</text>
-  
-  <!-- Второй поляризатор (поворачиваемый) -->
-  <g id="second-polarizer" transform="rotate(45, 280, 175)">
-    <rect x="270" y="150" width="5" height="50" fill="#666"/>
-    <line x1="272" y1="155" x2="272" y2="195" stroke="#fff" stroke-width="1"/>
-    <line x1="272" y1="160" x2="272" y2="190" stroke="#fff" stroke-width="1"/>
-    <line x1="272" y1="165" x2="272" y2="185" stroke="#fff" stroke-width="1"/>
-    <line x1="272" y1="170" x2="272" y2="180" stroke="#fff" stroke-width="1"/>
+  <!-- Анализатор -->
+  <g transform="translate(350, 100)">
+    <rect x="-3" y="-40" width="6" height="80" fill="#34495e" transform="rotate(45)"/>
+    <line x1="-20" y1="0" x2="20" y2="0" stroke="#2c3e50" stroke-width="1" stroke-dasharray="2,2"/>
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">Анализатор</text>
   </g>
   
-  <!-- Угол поворота -->
-  <path d="M 280 175 A 20 20 0 0 0 295 190" fill="none" stroke="#fff" stroke-width="1" opacity="0.5"/>
-  <text x="295" y="195" fill="#fff" font-size="10" font-family="Arial, sans-serif">φ</text>
-  
-  <!-- Подпись: Второй поляризатор -->
-  <text x="280" y="220" text-anchor="middle" fill="#fff" font-size="12" font-family="Arial, sans-serif">Второй поляризатор</text>
-  
-  <!-- Ослабленный свет после второго поляризатора -->
-  <g id="weakened-light">
-    <path d="M 290 175 Q 295 165, 300 175 T 310 175 T 320 175 T 330 175" fill="none" stroke="#ffcc00" stroke-width="2" opacity="0.4"/>
-    <path d="M 290 175 Q 295 185, 300 175 T 310 175 T 320 175 T 330 175" fill="none" stroke="#ffcc00" stroke-width="2" opacity="0.4"/>
-    <path d="M 290 175 Q 295 165, 300 175 T 310 175 T 320 175 T 330 175" fill="none" stroke="#ffcc00" stroke-width="2" opacity="0.4" transform="translate(0,-10)"/>
-    <path d="M 290 175 Q 295 185, 300 175 T 310 175 T 320 175 T 330 175" fill="none" stroke="#ffcc00" stroke-width="2" opacity="0.4" transform="translate(0,10)"/>
-  </g>
+  <!-- Закон Малюса -->
+  <text x="30" y="180" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Закон Малюса</text>
   
   <!-- Формула Малюса -->
-  <rect x="340" y="150" width="140" height="80" fill="#2a2a2a" stroke="#444" stroke-width="1" rx="5"/>
-  <text x="410" y="175" text-anchor="middle" fill="#fff" font-size="16" font-family="Arial, sans-serif">Закон Малюса</text>
-  <text x="410" y="200" text-anchor="middle" fill="#ffcc00" font-size="18" font-family="Arial, sans-serif">I = I₀ cos²φ</text>
-  <text x="410" y="215" text-anchor="middle" fill="#aaa" font-size="10" font-family="Arial, sans-serif">I - интенсивность</text>
+  <text x="30" y="205" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">I = I₀ · cos²(α)</text>
   
-  <!-- Стрелки направления -->
-  <defs>
-    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#fff"/>
-    </marker>
-  </defs>
-  
-  <line x1="50" y1="175" x2="70" y2="175" stroke="#fff" stroke-width="1" marker-end="url(#arrowhead)"/>
-  <line x1="175" y1="175" x2="175" y2="175" stroke="#fff" stroke-width="1" marker-end="url(#arrowhead)"/>
-  <line x1="265" y1="175" x2="265" y2="175" stroke="#fff" stroke-width="1" marker-end="url(#arrowhead)"/>
-  
-  <!-- Векторная диаграмма поляризации -->
-  <g id="polarization-vectors" transform="translate(50, 280)">
-    <text x="0" y="0" fill="#fff" font-size="12" font-family="Arial, sans-serif">Векторная диаграмма:</text>
-    <line x1="0" y1="20" x2="0" y2="-20" stroke="#ffcc00" stroke-width="2"/>
-    <line x1="0" y1="20" x2="20" y2="0" stroke="#ffcc00" stroke-width="2" opacity="0.5"/>
-    <line x1="0" y1="20" x2="-20" y2="0" stroke="#ffcc00" stroke-width="2" opacity="0.5"/>
-    <line x1="0" y1="20" x2="14" y2="-14" stroke="#ffcc00" stroke-width="2" opacity="0.5"/>
-    <line x1="0" y1="20" x2="-14" y2="-14" stroke="#ffcc00" stroke-width="2" opacity="0.5"/>
-    <text x="30" y="25" fill="#aaa" font-size="10" font-family="Arial, sans-serif">Все возможные направления</text>
+  <!-- График Малюса -->
+  <g transform="translate(250, 180)">
+    <line x1="0" y1="80" x2="100" y2="80" stroke="#2c3e50" stroke-width="1"/>
+    <line x1="0" y1="0" x2="0" y2="80" stroke="#2c3e50" stroke-width="1"/>
+    <text x="50" y="95" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">α</text>
+    <text x="-10" y="5" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#2c3e50">I</text>
+    <path d="M 0,80 Q 25,20 50,80" fill="none" stroke="#e74c3c" stroke-width="2"/>
+    <circle cx="0" cy="80" r="2" fill="#2c3e50"/>
+    <circle cx="50" cy="80" r="2" fill="#2c3e50"/>
+    <text x="50" y="170" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">Зависимость интенсивности от угла</text>
   </g>
   
-  <!-- Интенсивность света индикатор -->
-  <g id="intensity-bars" transform="translate(350, 280)">
-    <rect x="0" y="0" width="15" height="40" fill="#ffcc00" opacity="0.8"/>
-    <rect x="20" y="10" width="15" height="30" fill="#ffcc00" opacity="0.8"/>
-    <rect x="40" y="20" width="15" height="20" fill="#ffcc00" opacity="0.8"/>
-    <text x="0" y="55" fill="#aaa" font-size="10" font-family="Arial, sans-serif">I₀</text>
-    <text x="20" y="55" fill="#aaa" font-size="10" font-family="Arial, sans-serif">I₁</text>
-    <text x="40" y="55" fill="#aaa" font-size="10" font-family="Arial, sans-serif">I₂</text>
+  <!-- Дисперсия света -->
+  <text x="30" y="280" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Дисперсия света</text>
+  
+  <!-- Призма -->
+  <g transform="translate(100, 300)">
+    <polygon points="0,0 40,-40 40,40" fill="none" stroke="#3498db" stroke-width="2"/>
+    <polygon points="0,0 40,-40 40,40" fill="rgba(52, 152, 219, 0.1)"/>
+  </g>
+  
+  <!-- Диспергированный свет -->
+  <g transform="translate(150, 300)">
+    <line x1="0" y1="0" x2="30" y2="-15" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="0" y1="0" x2="30" y2="-5" stroke="#f39c12" stroke-width="2"/>
+    <line x1="0" y1="0" x2="30" y2="0" stroke="#f1c40f" stroke-width="2"/>
+    <line x1="0" y1="0" x2="30" y2="5" stroke="#2ecc71" stroke-width="2"/>
+    <line x1="0" y1="0" x2="30" y2="15" stroke="#3498db" stroke-width="2"/>
+  </g>
+  
+  <!-- Спектр -->
+  <g transform="translate(200, 300)">
+    <rect x="0" y="-15" width="20" height="5" fill="#e74c3c"/>
+    <rect x="0" y="-8" width="20" height="5" fill="#f39c12"/>
+    <rect x="0" y="-1" width="20" height="5" fill="#f1c40f"/>
+    <rect x="0" y="6" width="20" height="5" fill="#2ecc71"/>
+    <rect x="0" y="13" width="20" height="5" fill="#3498db"/>
+    <text x="30" y="-10" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">Красный</text>
+    <text x="30" y="-3" font-family="Arial, sans-serif" font-size="10" fill="#f39c12">Оранжевый</text>
+    <text x="30" y="4" font-family="Arial, sans-serif" font-size="10" fill="#f1c40f">Желтый</text>
+    <text x="30" y="11" font-family="Arial, sans-serif" font-size="10" fill="#2ecc71">Зеленый</text>
+    <text x="30" y="18" font-family="Arial, sans-serif" font-size="10" fill="#3498db">Синий</text>
+  </g>
+  
+  <!-- Формула дисперсии -->
+  <text x="300" y="280" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">n = n₀ + k/λ²</text>
+  
+  <!-- Цветовая полоса -->
+  <g transform="translate(320, 300)">
+    <defs>
+      <linearGradient id="spectrum" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#e74c3c"/>
+        <stop offset="16.66%" style="stop-color:#f39c12"/>
+        <stop offset="33.33%" style="stop-color:#f1c40f"/>
+        <stop offset="50%" style="stop-color:#2ecc71"/>
+        <stop offset="66.66%" style="stop-color:#3498db"/>
+        <stop offset="83.33%" style="stop-color:#9b59b6"/>
+        <stop offset="100%" style="stop-color:#8e44ad"/>
+      </linearGradient>
+    </defs>
+    <rect x="0" y="0" width="80" height="20" fill="url(#spectrum)"/>
+  </g>
+  
+  <!-- Волна света -->
+  <g transform="translate(30, 250)">
+    <path d="M 0,0 Q 10,-10 20,0 T 40,0" fill="none" stroke="#3498db" stroke-width="2"/>
+    <path d="M 0,0 Q 10,-10 20,0 T 40,0" fill="none" stroke="#e74c3c" stroke-width="2" transform="translate(0, 20)"/>
+    <path d="M 0,0 Q 10,-10 20,0 T 40,0" fill="none" stroke="#2ecc71" stroke-width="2" transform="translate(0, 40)"/>
+    <text x="50" y="5" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">λ₁</text>
+    <text x="50" y="25" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">λ₂</text>
+    <text x="50" y="45" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">λ₃</text>
   </g>
 </svg>

@@ -1,23 +1,117 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#7c2d12"/>
-      <stop offset="100%" style="stop-color:#f97316"/>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5CA0F2;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fdba74;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#fdba74;stop-opacity:0"/>
-    </radialGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F5A623;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F7B633;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7ED321;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8EE331;stop-opacity:1" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#fdba74" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#fdba74" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#fdba74" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fed7aa" text-anchor="middle">20</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fed7aa" text-anchor="middle" opacity="0.8">АЛГЕБРА · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fed7aa" text-anchor="middle">Урок 20: Правило суммы и правило произведения</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fdba74" text-anchor="middle" opacity="0.8">Урок 20 из 38</text>
-  <text x="200" y="220" font-family="Arial" font-size="36" fill="#fdba74" opacity="0.5">n!</text><text x="320" y="220" font-family="Arial" font-size="36" fill="#fdba74" opacity="0.5">Cₙᵏ</text>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#333" stroke-width="3" rx="5"/>
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#4A90E2" stroke-width="1" rx="3"/>
+  
+  <!-- Номер урока в углу -->
+  <text x="460" y="50" font-family="Arial, sans-serif" font-size="16" fill="#4A90E2" text-anchor="end">Урок 20</text>
+  
+  <!-- Заголовок -->
+  <text x="250" y="50" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333" text-anchor="middle">АЛГЕБРА · 11 КЛАСС</text>
+  <text x="250" y="80" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#4A90E2" text-anchor="middle">Правило суммы и правило произведения</text>
+  
+  <!-- Раздел 1: Правило суммы -->
+  <text x="30" y="120" font-family="Arial, сans-serif" font-size="18" font-weight="bold" fill="#333">1. Правило суммы</text>
+  
+  <!-- Формула правила суммы -->
+  <rect x="30" y="130" width="440" height="40" fill="#f9f9f9" stroke="#ddd" stroke-width="1" rx="3"/>
+  <text x="250" y="155" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle">
+    |A ∪ B| = |A| + |B| - |A ∩ B|
+  </text>
+  
+  <!-- Пример правила суммы -->
+  <text x="30" y="195" font-family="Arial, sans-serif" font-size="14" fill="#555">Пример:</text>
+  
+  <!-- Диаграмма Венна для правила суммы -->
+  <circle cx="130" cy="230" r="35" fill="url(#grad1)" opacity="0.6"/>
+  <circle cx="170" cy="230" r="35" fill="url(#grad2)" opacity="0.6"/>
+  <text x="105" y="235" font-family="Arial, sans-serif" font-size="14" fill="#fff" text-anchor="middle">A</text>
+  <text x="195" y="235" font-family="Arial, sans-serif" font-size="14" fill="#fff" text-anchor="middle">B</text>
+  <text x="130" y="280" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">Множество A</text>
+  <text x="170" y="280" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">Множество B</text>
+  
+  <!-- Объяснение примера -->
+  <text x="250" y="210" font-family="Arial, sans-serif" font-size="14" fill="#555">
+    Если в классе 25 учеников изучают математику (A),
+  </text>
+  <text x="250" y="230" font-family="Arial, sans-serif" font-size="14" fill="#555">
+    20 - физику (B), а 10 изучают оба предмета,
+  </text>
+  <text x="250" y="250" font-family="Arial, sans-serif" font-size="14" fill="#555">
+    то общее число учеников = 25 + 20 - 10 = 35
+  </text>
+  
+  <!-- Раздел 2: Правило произведения -->
+  <text x="30" y="290" font-family="Arial, сans-serif" font-size="18" font-weight="bold" fill="#333">2. Правило произведения</text>
+  
+  <!-- Формула правила произведения -->
+  <rect x="30" y="300" width="440" height="40" fill="#f9f9f9" stroke="#ddd" stroke-width="1" rx="3"/>
+  <text x="250" y="325" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle">
+    |A × B| = |A| · |B|
+  </text>
+  
+  <!-- Схема для правила произведения -->
+  <rect x="350" y="150" width="30" height="30" fill="url(#grad3)" opacity="0.7"/>
+  <rect x="350" y="190" width="30" height="30" fill="url(#grad3)" opacity="0.7"/>
+  <rect x="390" y="150" width="30" height="30" fill="url(#grad3)" opacity="0.7"/>
+  <rect x="390" y="190" width="30" height="30" fill="url(#grad3)" opacity="0.7"/>
+  
+  <text x="365" y="145" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">a₁</text>
+  <text x="365" y="185" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">a₂</text>
+  <text x="405" y="145" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">b₁</text>
+  <text x="405" y="185" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">b₂</text>
+  
+  <!-- Стрелки для показания комбинаций -->
+  <path d="M 360 165 L 385 165" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 360 205 L 385 165" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 360 165 L 385 205" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 360 205 L 385 205" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Обозначения для схемы -->
+  <text x="365" y="240" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">Множество A</text>
+  <text x="405" y="240" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">Множество B</text>
+  <text x="385" y="260" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">4 комбинации</text>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="50" cy="50" r="3" fill="#4A90E2"/>
+  <circle cx="450" cy="50" r="3" fill="#4A90E2"/>
+  <circle cx="50" cy="300" r="3" fill="#4A90E2"/>
+  <circle cx="450" cy="300" r="3" fill="#4A90E2"/>
+  
+  <!-- Определения -->
+  <rect x="30" y="60" width="100" height="15" fill="#E8F4FD" stroke="#4A90E2" stroke-width="1" rx="2"/>
+  <text x="80" y="72" font-family="Arial, sans-serif" font-size="11" fill="#4A90E2" text-anchor="middle">Комбинаторика</text>
+  
+  <rect x="370" y="60" width="100" height="15" fill="#FFF9E8" stroke="#F5A623" stroke-width="1" rx="2"/>
+  <text x="420" y="72" font-family="Arial, sans-serif" font-size="11" fill="#F5A623" text-anchor="middle">События</text>
+  
+  <!-- Дополнительные пояснения -->
+  <text x="30" y="170" font-family="Arial, sans-serif" font-size="12" fill="#666" font-style="italic">
+    где |A| - мощность множества A
+  </text>
+  <text x="30" y="310" font-family="Arial, sans-serif" font-size="12" fill="#666" font-style="italic">
+    A × B - декартово произведение множеств
+  </text>
+  
+  <!-- Стрелка для маркера -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
 </svg>

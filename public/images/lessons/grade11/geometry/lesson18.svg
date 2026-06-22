@@ -1,23 +1,146 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Градиенты -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#7c2d12"/>
-      <stop offset="100%" style="stop-color:#f97316"/>
+    <linearGradient id="cylinderGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#7BB3F0;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#4A90E2;stop-opacity:0.8" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fdba74;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#fdba74;stop-opacity:0"/>
-    </radialGradient>
+    
+    <linearGradient id="coneGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E94B3C;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#F07A6A;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#E94B3C;stop-opacity:0.8" />
+    </linearGradient>
+    
+    <linearGradient id="sphereGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#50C878;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#7FE5A0;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#50C878;stop-opacity:0.8" />
+    </linearGradient>
+    
+    <linearGradient id="frameGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2C3E50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34495E;stop-opacity:1" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#fdba74" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#fdba74" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#fdba74" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fed7aa" text-anchor="middle">18</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fed7aa" text-anchor="middle" opacity="0.8">ГЕОМЕТРИЯ · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fed7aa" text-anchor="middle">Урок 18: Объёмы цилиндра, конуса, шара</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fdba74" text-anchor="middle" opacity="0.8">Урок 18 из 25</text>
-  <text x="250" y="210" font-size="48" fill="#fdba74" opacity="0.4" text-anchor="middle">V</text>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="url(#frameGradient)" stroke-width="3" rx="5" ry="5"/>
+  <rect x="15" y="15" width="470" height="325" fill="none" stroke="#BDC3C7" stroke-width="1" rx="3" ry="3"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2C3E50">Урок 18: Объёмы цилиндра, конуса, шара</text>
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7F8C8D">ГЕОГРАФИЯ · 11 КЛАСС</text>
+  
+  <!-- Номер урока -->
+  <text x="30" y="340" font-family="Arial, sans-serif" font-size="12" fill="#95A5A6">№18</text>
+  
+  <!-- Цилиндр -->
+  <g transform="translate(100, 120)">
+    <!-- Основа цилиндра -->
+    <ellipse cx="40" cy="80" rx="40" ry="15" fill="url(#cylinderGradient)" stroke="#2C3E50" stroke-width="2"/>
+    <!-- Боковая поверхность -->
+    <path d="M0,80 L0,20 L80,20 L80,80" fill="url(#cylinderGradient)" stroke="#2C3E50" stroke-width="2"/>
+    <!-- Верхняя основа -->
+    <ellipse cx="40" cy="20" rx="40" ry="15" fill="url(#cylinderGradient)" stroke="#2C3E50" stroke-width="2"/>
+    <!-- Высота -->
+    <line x1="90" y1="20" x2="90" y2="80" stroke="#2C3E50" stroke-width="2"/>
+    <line x1="85" y1="20" x2="95" y2="20" stroke="#2C3E50" stroke-width="2"/>
+    <line x1="85" y1="80" x2="95" y2="80" stroke="#2C3E50" stroke-width="2"/>
+    <text x="100" y="55" font-family="Arial, sans-serif" font-size="14" fill="#2C3E50">h</text>
+    
+    <!-- Радиус -->
+    <line x1="40" y1="20" x2="40" y2="5" stroke="#2C3E50" stroke-width="2"/>
+    <line x1="35" y1="5" x2="45" y2="5" stroke="#2C3E50" stroke-width="2"/>
+    <text x="45" y="10" font-family="Arial, sans-serif" font-size="14" fill="#2C3E50">R</text>
+    
+    <!-- Подпись -->
+    <text x="40" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#2C3E50">Цилиндр</text>
+    
+    <!-- Формула -->
+    <text x="40" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#34495E">V = π·R²·h</text>
+  </g>
+  
+  <!-- Конус -->
+  <g transform="translate(250, 120)">
+    <!-- Основа конуса -->
+    <ellipse cx="40" cy="80" rx="40" ry="15" fill="url(#coneGradient)" stroke="#2C3E50" stroke-width="2"/>
+    <!-- Боковая поверхность -->
+    <path d="M0,80 L40,20 L80,80" fill="url(#coneGradient)" stroke="#2C3E50" stroke-width="2"/>
+    <!-- Образующая -->
+    <path d="M40,20 L40,80" stroke="#2C3E50" stroke-width="2" stroke-dasharray="3,3"/>
+    <text x="45" y="55" font-family="Arial, sans-serif" font-size="14" fill="#2C3E50">l</text>
+    
+    <!-- Высота -->
+    <line x1="90" y1="20" x2="90" y2="80" stroke="#2C3E50" stroke-width="2"/>
+    <line x1="85" y1="20" x2="95" y2="20" stroke="#2C3E50" stroke-width="2"/>
+    <line x1="85" y1="80" x2="95" y2="80" stroke="#2C3E50" stroke-width="2"/>
+    <text x="100" y="55" font-family="Arial, sans-serif" font-size="14" fill="#2C3E50">h</text>
+    
+    <!-- Радиус -->
+    <line x1="40" y1="80" x2="40" y2="95" stroke="#2C3E50" stroke-width="2"/>
+    <line x1="35" y1="95" x2="45" y2="95" stroke="#2C3E50" stroke-width="2"/>
+    <text x="45" y="100" font-family="Arial, sans-serif" font-size="14" fill="#2C3E50">R</text>
+    
+    <!-- Подпись -->
+    <text x="40" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#2C3E50">Конус</text>
+    
+    <!-- Формула -->
+    <text x="40" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#34495E">V = (1/3)·π·R²·h</text>
+  </g>
+  
+  <!-- Шар -->
+  <g transform="translate(380, 120)">
+    <!-- Шар -->
+    <circle cx="40" cy="50" r="40" fill="url(#sphereGradient)" stroke="#2C3E50" stroke-width="2"/>
+    
+    <!-- Радиус -->
+    <line x1="40" y1="50" x2="40" y2="10" stroke="#2C3E50" stroke-width="2"/>
+    <line x1="35" y1="10" x2="45" y2="10" stroke="#2C3E50" stroke-width="2"/>
+    <text x="45" y="15" font-family="Arial, sans-serif" font-size="14" fill="#2C3E50">R</text>
+    
+    <!-- Подпись -->
+    <text x="40" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#2C3E50">Шар</text>
+    
+    <!-- Формула -->
+    <text x="40" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#34495E">V = (4/3)·π·R³</text>
+  </g>
+  
+  <!-- Связи между фигурами -->
+  <g>
+    <!-- Стрелка от цилиндра к конусу -->
+    <path d="M200,160 L240,160" stroke="#95A5A6" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
+    <text x="220" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7F8C8D">1/3</text>
+    
+    <!-- Стрелка от конуса к шару -->
+    <path d="M350,160 L370,160" stroke="#95A5A6" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
+    <text x="360" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7F8C8D">4πR³/3</text>
+  </g>
+  
+  <!-- Определения -->
+  <text x="20" y="200" font-family="Arial, sans-serif" font-size="14" fill="#2C3E50" font-weight="bold">Ключевые определения:</text>
+  <text x="20" y="220" font-family="Arial, sans-serif" font-size="12" fill="#34495E">• Цилиндр — тело, состоящее из двух оснований в виде кругов</text>
+  <text x="20" y="240" font-family="Arial, sans-serif" font-size="12" fill="#34495E">• Конус — тело с основанием в виде круга и вершиной</text>
+  <text x="20" y="260" font-family="Arial, sans-serif" font-size="12" fill="#34495E">• Шар — множество точек пространства, находящихся на</text>
+  <text x="30" y="275" font-family="Arial, sans-serif" font-size="12" fill="#34495E">расстоянии не больше заданного от центра</text>
+  
+  <!-- Пример задачи -->
+  <text x="280" y="200" font-family="Arial, sans-serif" font-size="14" fill="#2C3E50" font-weight="bold">Пример задачи:</text>
+  <text x="280" y="220" font-family="Arial, sans-serif" font-size="12" fill="#34495E">Найти объём цилиндра с радиусом</text>
+  <text x="280" y="235" font-family="Arial, sans-serif" font-size="12" fill="#34495E">основания R=5 см и высотой h=10 см</text>
+  <text x="280" y="255" font-family="Arial, sans-serif" font-size="12" fill="#34495E">V = π·5²·10 = 250π см³</text>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="30" cy="300" r="3" fill="#E74C3C"/>
+  <circle cx="40" cy="305" r="3" fill="#3498DB"/>
+  <circle cx="50" cy="300" r="3" fill="#2ECC71"/>
+  <circle cx="60" cy="305" r="3" fill="#F39C12"/>
+  
+  <!-- Маркер стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#95A5A6"/>
+    </marker>
+  </defs>
 </svg>

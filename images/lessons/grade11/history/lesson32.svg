@@ -1,23 +1,110 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#831843"/>
-      <stop offset="100%" style="stop-color:#ec4899"/>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e0e0e0;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#f9a8d4;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#f9a8d4;stop-opacity:0"/>
-    </radialGradient>
+    <linearGradient id="mapGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2c5aa0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8b4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d2691e;stop-opacity:1" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#f9a8d4" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#f9a8d4" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#f9a8d4" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fce7f3" text-anchor="middle">32</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fce7f3" text-anchor="middle" opacity="0.8">ИСТОРИЯ РОССИИ · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fce7f3" text-anchor="middle">Урок 32: Россия в 2000-е годы. Эпоха В.В. Путина</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#f9a8d4" text-anchor="middle" opacity="0.8">Урок 32 из 35</text>
-  <polygon points="250,120 263,165 311,165 272,193 286,237 250,210 214,237 228,193 189,165 237,165" fill="#f9a8d4" opacity="0.6"/><rect x="245" y="160" width="10" height="80" fill="#fce7f3" opacity="0.5"/>
+  
+  <!-- Фоновая рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#8b4513" stroke-width="3" rx="5"/>
+  
+  <!-- Угловой номер урока -->
+  <rect x="15" y="15" width="60" height="25" fill="url(#headerGradient)" rx="3"/>
+  <text x="45" y="32" text-anchor="middle" font-family="Arial" font-size="14" fill="white" font-weight="bold">Урок 8</text>
+  
+  <!-- Заголовок "ИСТОРИЯ · 11 КЛАСС" -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial" font-size="16" fill="#8b4513" font-weight="bold">ИСТОРИЯ · 11 КЛАСС</text>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="60" text-anchor="middle" font-family="Arial" font-size="20" fill="#333" font-weight="bold">Россия в современном мире</text>
+  
+  <!-- Карта России -->
+  <g transform="translate(50, 80)">
+    <rect x="0" y="0" width="200" height="150" fill="url(#mapGradient)" rx="5" opacity="0.8"/>
+    <path d="M20,30 Q40,20 60,25 T100,30 Q120,20 140,30 T180,40 Q170,60 160,80 T140,100 Q120,110 100,105 T60,110 Q40,120 20,110 T10,80 Q5,60 20,30" fill="#2c5aa0" opacity="0.7"/>
+    <text x="100" y="80" text-anchor="middle" font-family="Arial" font-size="14" fill="white" font-weight="bold">РОССИЯ</text>
+    <text x="100" y="100" text-anchor="middle" font-family="Arial" font-size="12" fill="white">17.1 млн км²</text>
+  </g>
+  
+  <!-- График населения -->
+  <g transform="translate(280, 80)">
+    <rect x="0" y="0" width="160" height="150" fill="white" stroke="#8b4513" stroke-width="1" rx="5"/>
+    <text x="80" y="20" text-anchor="middle" font-family="Arial" font-size="14" fill="#333" font-weight="bold">Население</text>
+    <rect x="20" y="30" width="120" height="80" fill="none" stroke="#ccc" stroke-width="1"/>
+    <rect x="20" y="90" width="24" height="20" fill="#4a90e2"/>
+    <rect x="44" y="85" width="24" height="25" fill="#4a90e2"/>
+    <rect x="68" y="80" width="24" height="30" fill="#4a90e2"/>
+    <rect x="92" y="75" width="24" height="35" fill="#4a90e2"/>
+    <rect x="116" y="70" width="24" height="40" fill="#4a90e2"/>
+    <text x="32" y="115" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">1980</text>
+    <text x="56" y="115" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">1990</text>
+    <text x="80" y="115" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">2000</text>
+    <text x="104" y="115" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">2010</text>
+    <text x="128" y="115" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">2023</text>
+    <text x="80" y="135" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">146 млн чел.</text>
+  </g>
+  
+  <!-- Организации: БРИКС -->
+  <g transform="translate(50, 250)">
+    <rect x="0" y="0" width="100" height="60" fill="#f4d03f" rx="5" opacity="0.8"/>
+    <text x="50" y="25" text-anchor="middle" font-family="Arial" font-size="14" fill="#333" font-weight="bold">БРИКС</text>
+    <text x="50" y="45" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">2009</text>
+  </g>
+  
+  <!-- Организации: ШОС -->
+  <g transform="translate(170, 250)">
+    <rect x="0" y="0" width="100" height="60" fill="#27ae60" rx="5" opacity="0.8"/>
+    <text x="50" y="25" text-anchor="middle" font-family="Arial" font-size="14" fill="white" font-weight="bold">ШОС</text>
+    <text x="50" y="45" text-anchor="middle" font-family="Arial" font-size="10" fill="white">2001</text>
+  </g>
+  
+  <!-- Организации: ОДКБ -->
+  <g transform="translate(290, 250)">
+    <rect x="0" y="0" width="100" height="60" fill="#e74c3c" rx="5" opacity="0.8"/>
+    <text x="50" y="25" text-anchor="middle" font-family="Arial" font-size="14" fill="white" font-weight="bold">ОДКБ</text>
+    <text x="50" y="45" text-anchor="middle" font-family="Arial" font-size="10" fill="white">2002</text>
+  </g>
+  
+  <!-- Ядерное оружие -->
+  <g transform="translate(200, 140)">
+    <circle cx="0" cy="0" r="30" fill="#ff6b6b" opacity="0.7"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="12" fill="white" font-weight="bold">Ядерное</text>
+    <text x="0" y="20" text-anchor="middle" font-family="Arial" font-size="12" fill="white" font-weight="bold">оружие</text>
+  </g>
+  
+  <!-- Хронологическая лента -->
+  <g transform="translate(50, 320)">
+    <line x1="0" y1="0" x2="400" y2="0" stroke="#8b4513" stroke-width="2"/>
+    <circle cx="50" cy="0" r="5" fill="#8b4513"/>
+    <circle cx="150" cy="0" r="5" fill="#8b4513"/>
+    <circle cx="250" cy="0" r="5" fill="#8b4513"/>
+    <circle cx="350" cy="0" r="5" fill="#8b4513"/>
+    <text x="50" y="15" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">1991</text>
+    <text x="150" y="15" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">2000</text>
+    <text x="250" y="15" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">2014</text>
+    <text x="350" y="15" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">2023</text>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="30" cy="100" r="3" fill="#8b4513"/>
+  <circle cx="470" cy="100" r="3" fill="#8b4513"/>
+  <circle cx="30" cy="200" r="3" fill="#8b4513"/>
+  <circle cx="470" cy="200" r="3" fill="#8b4513"/>
+  
+  <!-- Линии соединения организаций -->
+  <line x1="150" y1="280" x2="220" y2="200" stroke="#ccc" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="270" y1="280" x2="220" y2="200" stroke="#ccc" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Формула ядерного арсенала -->
+  <text x="380" y="170" font-family="Arial" font-size="12" fill="#333">~6 000 ядерных</text>
+  <text x="380" y="185" font-family="Arial" font-size="12" fill="#333">боеголовок</text>
 </svg>

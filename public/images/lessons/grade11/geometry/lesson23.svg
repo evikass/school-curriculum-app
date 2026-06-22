@@ -1,23 +1,132 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#2c3e50" stroke-width="3" rx="5"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#34495e" stroke-width="1" rx="3"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2c3e50">Урок 23: Векторы и координаты. Обзор</text>
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#7f8c8d">ГЕОГРАФИЯ · 11 КЛАСС</text>
+  
+  <!-- Номер урока -->
+  <rect x="15" y="15" width="50" height="25" fill="#3498db" rx="3"/>
+  <text x="40" y="32" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">23</text>
+  
+  <!-- Координатная система -->
+  <g transform="translate(100, 250)">
+    <!-- Ось X -->
+    <line x1="0" y1="0" x2="200" y2="0" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowX)"/>
+    <text x="210" y="5" font-family="Arial, sans-serif" font-size="14" fill="#e74c3c">X</text>
+    
+    <!-- Ось Y -->
+    <line x1="0" y1="0" x2="0" y2="-150" stroke="#3498db" stroke-width="2" marker-end="url(#arrowY)"/>
+    <text x="-10" y="-155" font-family="Arial, sans-serif" font-size="14" fill="#3498db">Y</text>
+    
+    <!-- Вектор A -->
+    <line x1="0" y1="0" x2="120" y2="-80" stroke="#27ae60" stroke-width="3" marker-end="url(#arrowA)"/>
+    <text x="130" y="-80" font-family="Arial, sans-serif" font-size="14" fill="#27ae60">A</text>
+    
+    <!-- Вектор B -->
+    <line x1="0" y1="0" x2="80" y2="-120" stroke="#9b59b6" stroke-width="3" marker-end="url(#arrowB)"/>
+    <text x="90" y="-120" font-family="Arial, sans-serif" font-size="14" fill="#9b59b6">B</text>
+    
+    <!-- Точка (x, y) -->
+    <circle cx="120" cy="-80" r="4" fill="#27ae60"/>
+    <text x="125" y="-75" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">(x,y)</text>
+  </g>
+  
+  <!-- Формулы векторов -->
+  <g transform="translate(320, 150)">
+    <rect x="0" y="0" width="160" height="100" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+    <text x="80" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">Формулы векторов</text>
+    
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">|A| = √(x² + y²)</text>
+    <text x="10" y="60" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">A·B = x₁x₂ + y₁y₂</text>
+    <text x="10" y="80" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">A×B = x₁y₂ - x₂y₁</text>
+  </g>
+  
+  <!-- Угол между векторами -->
+  <g transform="translate(100, 250)">
+    <path d="M 30 0 A 30 30 0 0 1 21.2 -21.2" fill="none" stroke="#f39c12" stroke-width="2"/>
+    <text x="40" y="-10" font-family="Arial, sans-serif" font-size="12" fill="#f39c12">θ</text>
+    <text x="10" y="-35" font-family="Arial, sans-serif" font-size="11" fill="#f39c12">угол</text>
+  </g>
+  
+  <!-- Скалярное произведение -->
+  <g transform="translate(50, 180)">
+    <rect x="0" y="0" width="140" height="60" fill="#e8f4f8" stroke="#3498db" stroke-width="1" rx="3"/>
+    <text x="70" y="20" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#3498db">Скалярное произведение</text>
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">A·B = |A|·|B|·cosθ</text>
+  </g>
+  
+  <!-- Векторное произведение -->
+  <g transform="translate(50, 100)">
+    <rect x="0" y="0" width="140" height="60" fill="#f8e8e8" stroke="#e74c3c" stroke-width="1" rx="3"/>
+    <text x="70" y="20" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#e74c3c">Векторное произведение</text>
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">A×B = |A|·|B|·sinθ</text>
+  </g>
+  
+  <!-- Свойства векторов -->
+  <g transform="translate(210, 100)">
+    <rect x="0" y="0" width="100" height="80" fill="#f0f8e8" stroke="#27ae60" stroke-width="1" rx="3"/>
+    <text x="50" y="20" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#27ae60">Свойства</text>
+    <text x="10" y="35" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">A + B = B + A</text>
+    <text x="10" y="50" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">A·(B + C) = A·B + A·C</text>
+    <text x="10" y="65" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">k(A + B) = kA + kB</text>
+  </g>
+  
+  <!-- Проекция вектора -->
+  <g transform="translate(320, 60)">
+    <rect x="0" y="0" width="160" height="80" fill="#f8e8f8" stroke="#9b59b6" stroke-width="1" rx="3"/>
+    <text x="80" y="20" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#9b59b6">Проекция вектора</text>
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Прᵦa = |a|·cosθ</text>
+    <text x="10" y="60" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Прᵦa = (a·b)/|b|</text>
+  </g>
+  
+  <!-- Координаты точки -->
+  <g transform="translate(320, 270)">
+    <rect x="0" y="0" width="160" height="60" fill="#fef5e7" stroke="#f39c12" stroke-width="1" rx="3"/>
+    <text x="80" y="20" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#f39c12">Координаты точки</text>
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">M(x, y) - на плоскости</text>
+    <text x="10" y="55" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">M(x, y, z) - в пространстве</text>
+  </g>
+  
+  <!-- Маркеры стрелок -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#365314"/>
-      <stop offset="100%" style="stop-color:#65a30d"/>
+    <marker id="arrowX" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#e74c3c"/>
+    </marker>
+    <marker id="arrowY" markerWidth="10" markerHeight="10" refX="3" refY="9" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L6,0 L3,9 z" fill="#3498db"/>
+    </marker>
+    <marker id="arrowA" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#27ae60"/>
+    </marker>
+    <marker id="arrowB" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#9b59b6"/>
+    </marker>
+    
+    <!-- Градиенты -->
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:0.3" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#bef264;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#bef264;stop-opacity:0"/>
-    </radialGradient>
+    
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e74c3c;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#c0392b;stop-opacity:0.2" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#bef264" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#bef264" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#bef264" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#d9f99d" text-anchor="middle">23</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#d9f99d" text-anchor="middle" opacity="0.8">ГЕОМЕТРИЯ · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#d9f99d" text-anchor="middle">Урок 23: Векторы и координаты. Обзор</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#bef264" text-anchor="middle" opacity="0.8">Урок 23 из 25</text>
-  <polygon points="200,120 300,120 280,220 180,220" fill="none" stroke="#bef264" stroke-width="2"/>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="30" cy="100" r="3" fill="#3498db" opacity="0.5"/>
+  <circle cx="40" cy="110" r="2" fill="#e74c3c" opacity="0.5"/>
+  <circle cx="35" cy="120" r="2.5" fill="#27ae60" opacity="0.5"/>
+  
+  <circle cx="470" cy="90" r="3" fill="#9b59b6" opacity="0.5"/>
+  <circle cx="460" cy="100" r="2" fill="#f39c12" opacity="0.5"/>
+  <circle cx="465" cy="110" r="2.5" fill="#1abc9c" opacity="0.5"/>
+  
+  <!-- Дополнительные математические символы -->
+  <text x="50" y="50" font-family="Arial, sans-serif" font-size="20" fill="#7f8c8d">∆</text>
+  <text x="450" y="50" font-family="Arial, sans-serif" font-size="20" fill="#7f8c8d">∇</text>
 </svg>

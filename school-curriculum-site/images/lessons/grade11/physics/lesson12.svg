@@ -1,132 +1,150 @@
 <svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#e6f3ff;stop-opacity:1" />
+    <!-- Градиенты -->
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2c5aa0;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="coilGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#d2691e;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#8b4513;stop-opacity:1" />
+    
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#5cb85c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#449d44;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="capGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#4169e1;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#1e3a8a;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="energyGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:0.8" />
-      <stop offset="50%" style="stop-color:#ffd93d;stop-opacity:0.8" />
-      <stop offset="100%" style="stop-color:#6bcf7f;stop-opacity:0.8" />
-    </linearGradient>
+    
+    <radialGradient id="redGrad">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d63031;stop-opacity:1" />
+    </radialGradient>
+    
+    <!-- Тень -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
   </defs>
   
-  <!-- Фон -->
-  <rect width="500" height="350" fill="url(#bgGradient)" />
-  
   <!-- Декоративная рамка -->
-  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#2c3e50" stroke-width="2" />
-  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#34495e" stroke-width="1" />
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#333" stroke-width="2" rx="10"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#4a90e2" stroke-width="1" rx="8"/>
   
-  <!-- Заголовок -->
-  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">Колебательный контур</text>
-  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">ФИЗИКА · 11 КЛАСС</text>
-  <text x="470" y="25" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Урок 24</text>
+  <!-- Заголовок урока -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">Урок 12: Свободные электромагнитные колебания</text>
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#555">Колебательный контур</text>
   
-  <!-- Схема LC-контура -->
-  <g transform="translate(100, 100)">
-    <!-- Контур -->
-    <path d="M 0,50 L 0,0 L 200,0 L 200,50" stroke="#2c3e50" stroke-width="2" fill="none" />
-    
+  <!-- Номер урока в углу -->
+  <circle cx="460" cy="30" r="20" fill="url(#blueGrad)" filter="url(#shadow)"/>
+  <text x="460" y="37" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">12</text>
+  
+  <!-- ФИЗИКА · 11 КЛАСС -->
+  <text x="40" y="30" font-family="Arial, sans-serif" font-size="14" fill="#666">ФИЗИКА · 11 КЛАСС</text>
+  
+  <!-- Колебательный контур (левая часть) -->
+  <g transform="translate(50, 80)">
     <!-- Катушка индуктивности -->
-    <g transform="translate(50, 0)">
-      <path d="M 0,0 Q 5,10 0,20 Q -5,30 0,40 Q 5,50 0,60" stroke="url(#coilGradient)" stroke-width="3" fill="none" />
-      <path d="M 10,0 Q 15,10 10,20 Q 5,30 10,40 Q 15,50 10,60" stroke="url(#coilGradient)" stroke-width="3" fill="none" />
-      <path d="M 20,0 Q 25,10 20,20 Q 15,30 20,40 Q 25,50 20,60" stroke="url(#coilGradient)" stroke-width="3" fill="none" />
-      <path d="M 30,0 Q 35,10 30,20 Q 25,30 30,40 Q 35,50 30,60" stroke="url(#coilGradient)" stroke-width="3" fill="none" />
-      <text x="15" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">L</text>
-    </g>
+    <path d="M 50 30 Q 60 10, 70 30 T 90 30 T 110 30 T 130 30" 
+          fill="none" stroke="#333" stroke-width="2"/>
+    <text x="90" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">L</text>
     
     <!-- Конденсатор -->
-    <g transform="translate(150, 0)">
-      <line x1="0" y1="0" x2="0" y2="60" stroke="#2c3e50" stroke-width="2" />
-      <line x1="0" y1="0" x2="0" y2="60" stroke="url(#capGradient)" stroke-width="4" />
-      <line x1="10" y1="0" x2="10" y2="60" stroke="url(#capGradient)" stroke-width="4" />
-      <line x1="10" y1="0" x2="10" y2="60" stroke="#2c3e50" stroke-width="2" />
-      <text x="5" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">C</text>
-    </g>
+    <line x1="180" y1="20" x2="180" y2="40" stroke="#333" stroke-width="2"/>
+    <line x1="190" y1="20" x2="190" y2="40" stroke="#333" stroke-width="2"/>
+    <text x="185" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">C</text>
     
-    <!-- Стрелки тока -->
-    <g>
-      <path d="M 20,30 L 40,30 L 35,25 M 40,30 L 35,35" stroke="#e74c3c" stroke-width="2" fill="none" />
-      <path d="M 120,30 L 140,30 L 135,25 M 140,30 L 135,35" stroke="#e74c3c" stroke-width="2" fill="none" />
-      <text x="30" y="25" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">I</text>
-    </g>
+    <!-- Провода -->
+    <line x1="130" y1="30" x2="180" y2="30" stroke="#333" stroke-width="2"/>
+    <line x1="190" y1="30" x2="230" y2="30" stroke="#333" stroke-width="2"/>
+    <line x1="230" y1="30" x2="230" y2="90" stroke="#333" stroke-width="2"/>
+    <line x1="230" y1="90" x2="50" y2="90" stroke="#333" stroke-width="2"/>
+    <line x1="50" y1="90" x2="50" y2="30" stroke="#333" stroke-width="2"/>
     
     <!-- Заряды на конденсаторе -->
-    <g>
-      <text x="-10" y="25" font-family="Arial, sans-serif" font-size="14" fill="#e74c3c">+</text>
-      <text x="15" y="25" font-family="Arial, sans-serif" font-size="14" fill="#3498db">−</text>
-    </g>
+    <circle cx="180" cy="30" r="8" fill="url(#redGrad)"/>
+    <text x="180" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">+</text>
+    <circle cx="190" cy="30" r="8" fill="#4a90e2"/>
+    <text x="190" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">−</text>
+    
+    <!-- Ток в катушке -->
+    <path d="M 80 15 Q 85 10, 90 15 T 100 15" fill="none" stroke="#5cb85c" stroke-width="1.5" stroke-dasharray="2,2" marker-end="url(#arrowhead)"/>
+    <path d="M 100 15 Q 105 10, 110 15 T 120 15" fill="none" stroke="#5cb85c" stroke-width="1.5" stroke-dasharray="2,2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Метки -->
+    <text x="140" y="20" font-family="Arial, sans-serif" font-size="10" fill="#666">ток I</text>
+    <text x="40" y="75" font-family="Arial, sans-serif" font-size="11" fill="#666">Колебательный контур</text>
   </g>
   
-  <!-- Формулы -->
-  <g transform="translate(100, 200)">
-    <rect x="0" y="0" width="300" height="80" fill="rgba(255,255,255,0.8)" stroke="#34495e" stroke-width="1" rx="5" />
-    <text x="10" y="25" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Период колебаний: T = 2π√(LC)</text>
-    <text x="10" y="45" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Энергия в контуре: W = q²/(2C) + LI²/2</text>
-    <text x="10" y="65" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Частота: f = 1/(2π√(LC))</text>
+  <!-- Стрелка -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#5cb85c"/>
+    </marker>
+  </defs>
+  
+  <!-- График зависимости энергии (правая часть) -->
+  <g transform="translate(280, 80)">
+    <text x="60" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Энергия колебаний</text>
+    
+    <!-- Оси координат -->
+    <line x1="20" y1="150" x2="140" y2="150" stroke="#333" stroke-width="1.5"/>
+    <line x1="20" y1="150" x2="20" y2="30" stroke="#333" stroke-width="1.5"/>
+    
+    <!-- Стрелки осей -->
+    <polygon points="140,150 135,147 135,153" fill="#333"/>
+    <polygon points="20,30 17,35 23,35" fill="#333"/>
+    
+    <!-- Метки осей -->
+    <text x="150" y="154" font-family="Arial, sans-serif" font-size="10" fill="#666">t</text>
+    <text x="15" y="25" font-family="Arial, sans-serif" font-size="10" fill="#666">E</text>
+    
+    <!-- Полная энергия -->
+    <line x1="20" y1="50" x2="140" y2="50" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="145" y="54" font-family="Arial, sans-serif" font-size="10" fill="#333">Eпол</text>
+    
+    <!-- Энергия конденсатора -->
+    <path d="M 20 100 Q 40 50, 60 100 T 100 100 T 140 100" fill="none" stroke="#4a90e2" stroke-width="2"/>
+    <text x="145" y="104" font-family="Arial, sans-serif" font-size="10" fill="#4a90e2">Ec</text>
+    
+    <!-- Энергия индуктивности -->
+    <path d="M 20 100 Q 40 150, 60 100 T 100 100 T 140 100" fill="none" stroke="#ff6b6b" stroke-width="2"/>
+    <text x="145" y="95" font-family="Arial, sans-serif" font-size="10" fill="#ff6b6b">EL</text>
+    
+    <!-- Подписи периодов -->
+    <line x1="60" y1="150" x2="60" y2="155" stroke="#333" stroke-width="1"/>
+    <text x="60" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">T/4</text>
+    
+    <line x1="100" y1="150" x2="100" y2="155" stroke="#333" stroke-width="1"/>
+    <text x="100" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">T/2</text>
+    
+    <text x="80" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">Время</text>
   </g>
   
-  <!-- График энергии -->
-  <g transform="translate(320, 100)">
-    <rect x="0" y="0" width="170" height="120" fill="rgba(255,255,255,0.9)" stroke="#34495e" stroke-width="1" />
-    <text x="85" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Энергия в контуре</text>
-    
-    <!-- Оси -->
-    <line x1="20" y1="100" x2="150" y2="100" stroke="#2c3e50" stroke-width="1" />
-    <line x1="20" y1="100" x2="20" y2="30" stroke="#2c3e50" stroke-width="1" />
-    
-    <!-- Графики энергии -->
-    <path d="M 20,80 Q 40,40 60,80 T 100,80 T 140,80" stroke="#e74c3c" stroke-width="2" fill="none" />
-    <path d="M 20,90 Q 40,70 60,90 T 100,90 T 140,90" stroke="#3498db" stroke-width="2" fill="none" />
-    <path d="M 20,85 Q 40,55 60,85 T 100,85 T 140,85" stroke="#2ecc71" stroke-width="2" fill="none" />
-    
-    <!-- Легенда графика -->
-    <rect x="130" y="35" width="15" height="3" fill="#e74c3c" />
-    <text x="145" y="38" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Wc</text>
-    
-    <rect x="130" y="45" width="15" height="3" fill="#3498db" />
-    <text x="145" y="48" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">WL</text>
-    
-    <rect x="130" y="55" width="15" height="3" fill="#2ecc71" />
-    <text x="145" y="58" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">W</text>
-    
-    <!-- Подписи осей -->
-    <text x="10" y="115" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">t</text>
-    <text x="155" y="105" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">W</text>
+  <!-- Формула Томсона -->
+  <g transform="translate(50, 220)">
+    <rect x="0" y="0" width="400" height="50" fill="#f8f9fa" stroke="#ddd" stroke-width="1" rx="5"/>
+    <text x="200" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">Формула Томсона:</text>
+    <text x="200" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#333">T = 2π√(LC)</text>
   </g>
   
-  <!-- Объяснения в углу -->
-  <g transform="translate(20, 220)">
-    <rect x="0" y="0" width="180" height="100" fill="rgba(255,255,255,0.9)" stroke="#34495e" stroke-width="1" rx="5" />
-    <text x="90" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Превращение энергии</text>
-    <text x="10" y="40" font-family="Arial, sans-serif" font-size="11" fill="#e74c3c">• W<sub>C</sub> - энергия конденсатора</text>
-    <text x="10" y="55" font-family="Arial, sans-serif" font-size="11" fill="#3498db">• W<sub>L</sub> - энергия катушки</text>
-    <text x="10" y="70" font-family="Arial, sans-serif" font-size="11" fill="#2ecc71">• W - полная энергия</text>
-    <text x="10" y="90" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">W<sub>C</sub> + W<sub>L</sub> = const</text>
+  <!-- Формула для частоты -->
+  <g transform="translate(50, 280)">
+    <rect x="0" y="0" width="400" height="50" fill="#f8f9fa" stroke="#ddd" stroke-width="1" rx="5"/>
+    <text x="200" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">Частота колебаний:</text>
+    <text x="200" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#333">ν = 1/(2π√(LC))</text>
   </g>
   
-  <!-- Дополнительные подписи -->
-  <g transform="translate(100, 170)">
-    <text x="50" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#8b4513">Катушка индуктивности</text>
-    <text x="155" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1e3a8a">Конденсатор</text>
-  </g>
-  
-  <!-- Указатели процессов -->
-  <g>
-    <path d="M 250,120 Q 280,110 300,100" stroke="#f39c12" stroke-width="1.5" fill="none" stroke-dasharray="3,3" />
-    <text x="310" y="105" font-family="Arial, sans-serif" font-size="10" fill="#f39c12">Заряд</text>
+  <!-- Вспомогательные элементы для объема -->
+  <g transform="translate(280, 80)">
+    <!-- Вектор силы тока -->
+    <path d="M 90 70 L 90 90" stroke="#5cb85c" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="95" y="85" font-family="Arial, sans-serif" font-size="10" fill="#5cb85c">I</text>
     
-    <path d="M 250,140 Q 280,150 300,160" stroke="#f39c12" stroke-width="1.5" fill="none" stroke-dasharray="3,3" />
-    <text x="310" y="165" font-family="Arial, sans-serif" font-size="10" fill="#f39c12">Разряд</text>
+    <!-- Индуктивность в магнитном поле -->
+    <path d="M 40 70 Q 50 60, 60 70 T 80 70 T 100 70" fill="none" stroke="#ddd" stroke-width="1" stroke-dasharray="3,3"/>
+  </g>
+  
+  <!-- Энергетические переходы -->
+  <g transform="translate(50, 220)">
+    <circle cx="30" cy="25" r="3" fill="#4a90e2"/>
+    <circle cx="370" cy="25" r="3" fill="#ff6b6b"/>
+    <path d="M 30 25 L 370 25" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
+    <text x="200" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">Энергетические переходы</text>
   </g>
 </svg>

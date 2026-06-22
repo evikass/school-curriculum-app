@@ -1,106 +1,111 @@
 <svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <pattern id="stars" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
-      <circle cx="5" cy="5" r="1" fill="#ffffff" opacity="0.3"/>
-      <circle cx="25" cy="15" r="0.8" fill="#ffffff" opacity="0.4"/>
-      <circle cx="40" cy="30" r="1.2" fill="#ffffff" opacity="0.3"/>
-      <circle cx="15" cy="40" r="0.6" fill="#ffffff" opacity="0.5"/>
-      <circle cx="35" cy="5" r="0.7" fill="#ffffff" opacity="0.3"/>
-    </pattern>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
-  
-  <!-- Фоновый прямоугольник -->
-  <rect width="500" height="350" fill="#0a0a1f"/>
-  <rect width="500" height="350" fill="url(#stars)"/>
-  
   <!-- Декоративная рамка -->
-  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#4a5568" stroke-width="2"/>
-  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#718096" stroke-width="1" opacity="0.5"/>
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#1a237e" stroke-width="3" rx="5"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#3949ab" stroke-width="1" rx="3"/>
   
-  <!-- Заголовок урока -->
-  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#e2e8f0" font-weight="bold">Фотоны</text>
+  <!-- Заголовок -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1a237e">ФИЗИКА · 11 КЛАСС</text>
+  <text x="250" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#283593">Урок 28: Фотоны. Корпускулярно-волновой дуализм</text>
+  <text x="470" y="25" text-anchor="end" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#283593">28</text>
   
-  <!-- Волна -->
-  <path d="M 50 150 Q 100 120, 150 150 T 250 150 T 350 150 T 450 150" 
-        stroke="#63b3ed" stroke-width="3" fill="none" opacity="0.8"/>
-  <path d="M 50 150 Q 100 120, 150 150 T 250 150 T 350 150 T 450 150" 
-        stroke="#90cdf4" stroke-width="1" fill="none" opacity="0.4"/>
-  
-  <!-- Частица (фотон) -->
-  <circle cx="250" cy="150" r="15" fill="#fbbf24" filter="url(#glow)"/>
-  <circle cx="250" cy="150" r="10" fill="#f59e0b"/>
-  <circle cx="250" cy="150" r="5" fill="#fcd34d"/>
-  
-  <!-- Лучи от фотона -->
-  <g opacity="0.6">
-    <line x1="235" y1="150" x2="180" y2="120" stroke="#fbbf24" stroke-width="2"/>
-    <line x1="265" y1="150" x2="320" y2="120" stroke="#fbbf24" stroke-width="2"/>
-    <line x1="235" y1="150" x2="180" y2="180" stroke="#fbbf24" stroke-width="2"/>
-    <line x1="265" y1="150" x2="320" y2="180" stroke="#fbbf24" stroke-width="2"/>
+  <!-- Свойства фотонов -->
+  <g transform="translate(20, 70)">
+    <rect x="0" y="0" width="220" height="120" fill="#e8eaf6" stroke="#3f51b5" stroke-width="1" rx="5"/>
+    <text x="110" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#283593">Свойства фотонов</text>
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="12" fill="#1a237e">• Квант электромагнитного поля</text>
+    <text x="10" y="55" font-family="Arial, sans-serif" font-size="12" fill="#1a237e">• Энергия: E = hν = hc/λ</text>
+    <text x="10" y="70" font-family="Arial, sans-serif" font-size="12" fill="#1a237e">• Импульс: p = h/λ = E/c</text>
+    <text x="10" y="85" font-family="Arial, sans-serif" font-size="12" fill="#1a237e">• Масса покоя: m₀ = 0</text>
+    <text x="10" y="100" font-family="Arial, sans-serif" font-size="12" fill="#1a237e">• Скорость: c = 3·10⁸ м/с</text>
   </g>
   
-  <!-- Метки на волне -->
-  <line x1="150" y1="145" x2="150" y2="155" stroke="#e2e8f0" stroke-width="2"/>
-  <line x1="250" y1="145" x2="250" y2="155" stroke="#e2e8f0" stroke-width="2"/>
-  <line x1="350" y1="145" x2="350" y2="155" stroke="#e2e8f0" stroke-width="2"/>
-  
-  <!-- Длина волны λ -->
-  <line x1="150" y1="165" x2="350" y2="165" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="2,2"/>
-  <text x="250" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#cbd5e0">λ</text>
-  
-  <!-- Формулы -->
-  <g transform="translate(50, 220)">
-    <rect x="-10" y="-5" width="200" height="35" fill="#1a202c" stroke="#4a5568" stroke-width="1" rx="5"/>
-    <text x="90" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#e2e8f0">E = hν</text>
+  <!-- Давление света -->
+  <g transform="translate(260, 70)">
+    <rect x="0" y="0" width="220" height="120" fill="#e8f5e9" stroke="#43a047" stroke-width="1" rx="5"/>
+    <text x="110" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2e7d32">Давление света</text>
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="12" fill="#1b5e20">• Полное поглощение: P = I/c</text>
+    <text x="10" y="55" font-family="Arial, sans-serif" font-size="12" fill="#1b5e20">• Полное отражение: P = 2I/c</text>
+    <text x="10" y="70" font-family="Arial, sans-serif" font-size="12" fill="#1b5e20">• Частичное отражение: P = (1+R)I/c</text>
+    <text x="10" y="85" font-family="Arial, sans-serif" font-size="12" fill="#1b5e20">• I - интенсивность излучения</text>
+    <text x="10" y="100" font-family="Arial, sans-serif" font-size="12" fill="#1b5e20">• R - коэффициент отражения</text>
   </g>
   
-  <g transform="translate(270, 220)">
-    <rect x="-10" y="-5" width="200" height="35" fill="#1a202c" stroke="#4a5568" stroke-width="1" rx="5"/>
-    <text x="90" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#e2e8f0">p = h/λ</text>
+  <!-- Эффект Комптона -->
+  <g transform="translate(20, 210)">
+    <rect x="0" y="0" width="220" height="120" fill="#fff3e0" stroke="#ff6f00" stroke-width="1" rx="5"/>
+    <text x="110" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#e65100">Эффект Комптона</text>
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="12" fill="#bf360c">• Смещение длины волны:</text>
+    <text x="20" y="55" font-family="Arial, sans-serif" font-size="12" fill="#bf360c">Δλ = λ' - λ = (h/mₑc)(1 - cos θ)</text>
+    <text x="10" y="70" font-family="Arial, sans-serif" font-size="12" fill="#bf360c">• h/mₑc - комптоновская длина волны</text>
+    <text x="10" y="85" font-family="Arial, sans-serif" font-size="12" fill="#bf360c">• θ - угол рассеяния</text>
+    <text x="10" y="100" font-family="Arial, sans-serif" font-size="12" fill="#bf360c">• 1923 г. - открытие эффекта</text>
   </g>
   
-  <!-- Подписи -->
-  <text x="250" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#cbd5e0">Фотон</text>
+  <!-- Гипотеза де Бройля -->
+  <g transform="translate(260, 210)">
+    <rect x="0" y="0" width="220" height="120" fill="#fce4ec" stroke="#c2185b" stroke-width="1" rx="5"/>
+    <text x="110" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#880e4f">Гипотеза де Бройля</text>
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="12" fill="#ad1457">• Волновое свойство материи:</text>
+    <text x="20" y="55" font-family="Arial, sans-serif" font-size="12" fill="#ad1457">λ = h/p = h/mv</text>
+    <text x="10" y="70" font-family="Arial, sans-serif" font-size="12" fill="#ad1457">• Частота: ν = E/h</text>
+    <text x="10" y="85" font-family="Arial, sans-serif" font-size="12" fill="#ad1457">• 1924 г. - предложена гипотеза</text>
+    <text x="10" y="100" font-family="Arial, sans-serif" font-size="12" fill="#ad1457">• 1929 г. - Нобелевская премия</text>
+  </g>
   
-  <!-- Корпускулярная природа -->
-  <circle cx="80" cy="280" r="8" fill="#fbbf24"/>
-  <text x="100" y="285" font-family="Arial, sans-serif" font-size="14" fill="#cbd5e0">Корпускулярная природа</text>
+  <!-- Фотон как частица -->
+  <g transform="translate(80, 90)">
+    <circle cx="20" cy="60" r="8" fill="#ffeb3b" stroke="#f57c00" stroke-width="2"/>
+    <path d="M20,52 L20,68 M12,60 L28,60" stroke="#f57c00" stroke-width="2"/>
+    <text x="35" y="65" font-family="Arial, sans-serif" font-size="12" fill="#e65100">Фотон</text>
+  </g>
   
-  <!-- Волновая природа -->
-  <path d="M 320 275 Q 330 280, 340 275 T 360 275" stroke="#63b3ed" stroke-width="2" fill="none"/>
-  <text x="370" y="280" font-family="Arial, sans-serif" font-size="14" fill="#cbd5e0">Волновая природа</text>
+  <!-- Волновой пакет -->
+  <g transform="translate(300, 90)">
+    <path d="M10,60 Q20,50 30,60 T50,60 T70,60 T90,60" fill="none" stroke="#43a047" stroke-width="2"/>
+    <text x="50" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2e7d32">Волновой пакет</text>
+  </g>
   
-  <!-- Стрелка вниз -->
-  <path d="M 240 195 L 240 210 L 235 205 M 240 210 L 245 205" stroke="#e2e8f0" stroke-width="2" fill="none"/>
+  <!-- Волновая функция -->
+  <g transform="translate(60, 230)">
+    <path d="M0,40 Q10,30 20,40 T40,40 T60,40 T80,40" fill="none" stroke="#c2185b" stroke-width="2"/>
+    <text x="40" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#880e4f">Ψ(x,t)</text>
+  </g>
   
-  <!-- Энергетические уровни -->
-  <rect x="200" y="240" width="100" height="3" fill="#4a5568"/>
-  <rect x="200" y="250" width="100" height="3" fill="#4a5568"/>
-  <rect x="200" y="260" width="100" height="3" fill="#4a5568"/>
+  <!-- Диаграмма энергий -->
+  <g transform="translate(320, 230)">
+    <line x1="20" y1="40" x2="20" y2="80" stroke="#3949ab" stroke-width="2"/>
+    <line x1="20" y1="80" x2="80" y2="80" stroke="#3949ab" stroke-width="2"/>
+    <path d="M30,70 L50,70 L50,50 L70,50" fill="none" stroke="#3949ab" stroke-width="2"/>
+    <text x="85" y="55" font-family="Arial, sans-serif" font-size="12" fill="#283593">E</text>
+    <text x="15" y="95" font-family="Arial, sans-serif" font-size="12" fill="#283593">x</text>
+    <text x="25" y="40" font-family="Arial, sans-serif" font-size="10" fill="#283593">ν₁</text>
+    <text x="65" y="40" font-family="Arial, sans-serif" font-size="10" fill="#283593">ν₂</text>
+  </g>
   
-  <!-- Стрелка перехода -->
-  <path d="M 300 245 L 320 255" stroke="#f59e0b" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <!-- Константы -->
+  <g transform="translate(150, 260)">
+    <rect x="0" y="0" width="200" height="40" fill="#e1f5fe" stroke="#0288d1" stroke-width="1" rx="5"/>
+    <text x="100" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#01579b">Физические константы:</text>
+    <text x="100" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#01579b">h = 6.626·10⁻³⁴ Дж·с, c = 3·10⁸ м/с</text>
+  </g>
   
-  <!-- Определение стрелки -->
+  <!-- Градиенты -->
   <defs>
-    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#f59e0b"/>
-    </marker>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8eaf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c5cae9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff3e0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffe0b2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fce4ec;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8bbd0;stop-opacity:1" />
+    </linearGradient>
   </defs>
-  
-  <!-- Дополнительные волны для иллюстрации дуализма -->
-  <g opacity="0.3">
-    <circle cx="100" cy="150" r="30" fill="none" stroke="#63b3ed" stroke-width="1" stroke-dasharray="2,4"/>
-    <circle cx="400" cy="150" r="30" fill="none" stroke="#63b3ed" stroke-width="1" stroke-dasharray="2,4"/>
-  </g>
-  
-  <!-- Подпись дуализма -->
-  <text x="250" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#a0aec0" font-style="italic">Корпускулярно-волновой дуализм</text>
 </svg>

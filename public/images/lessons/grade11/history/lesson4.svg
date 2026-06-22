@@ -1,23 +1,172 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#8B4513" stroke-width="3"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#D2691E" stroke-width="1"/>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#8B0000">ИСТОРИЯ · 11 КЛАСС</text>
+  <text x="250" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#4B0082">БРУСИЛОВСКИЙ ПРОРЫВ</text>
+  <text x="250" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2F4F4F">Июнь-август 1916 г.</text>
+  
+  <!-- Номер урока -->
+  <text x="470" y="25" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#8B0000">Урок 24</text>
+  
+  <!-- Градиент для карты -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#4a1d1d"/>
-      <stop offset="100%" style="stop-color:#dc2626"/>
+    <linearGradient id="mapGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5DEB3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DEB887;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fca5a5;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#fca5a5;stop-opacity:0"/>
-    </radialGradient>
+    
+    <linearGradient id="riverGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4682B4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5F9EA0;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="arrowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8B0000;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#DC143C;stop-opacity:1" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#fca5a5" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#fca5a5" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#fca5a5" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fee2e2" text-anchor="middle">4</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fee2e2" text-anchor="middle" opacity="0.8">ИСТОРИЯ РОССИИ · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fee2e2" text-anchor="middle">Урок 4: Российский тыл в годы войны. Экономический</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fca5a5" text-anchor="middle" opacity="0.8">Урок 4 из 35</text>
-  <path d="M 80 175 Q 250 100 420 175" fill="none" stroke="#fca5a5" stroke-width="2" opacity="0.6"/><path d="M 80 175 Q 250 250 420 175" fill="none" stroke="#fca5a5" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Карта региона -->
+  <g id="map">
+    <!-- Фон карты -->
+    <rect x="50" y="80" width="400" height="200" fill="url(#mapGradient)" rx="5" ry="5"/>
+    
+    <!-- Реки -->
+    <path d="M 100 150 Q 150 140 200 160 T 300 150" fill="none" stroke="url(#riverGradient)" stroke-width="3"/>
+    <path d="M 250 100 Q 260 120 250 140" fill="none" stroke="url(#riverGradient)" stroke-width="2"/>
+    <path d="M 350 180 Q 360 200 350 220" fill="none" stroke="url(#riverGradient)" stroke-width="2"/>
+    
+    <!-- Города -->
+    <circle cx="120" cy="130" r="4" fill="#2F4F4F"/>
+    <text x="130" y="135" font-family="Arial" font-size="10" fill="#2F4F4F">Луцк</text>
+    
+    <circle cx="200" cy="170" r="4" fill="#2F4F4F"/>
+    <text x="210" y="175" font-family="Arial" font-size="10" fill="#2F4F4F">Ковель</text>
+    
+    <circle cx="280" cy="140" r="4" fill="#2F4F4F"/>
+    <text x="290" y="145" font-family="Arial" font-size="10" fill="#2F4F4F">Владимир-Волынский</text>
+    
+    <circle cx="350" cy="190" r="4" fill="#2F4F4F"/>
+    <text x="360" y="195" font-family="Arial" font-size="10" fill="#2F4F4F">Дубно</text>
+    
+    <circle cx="400" cy="220" r="4" fill="#2F4F4F"/>
+    <text x="410" y="225" font-family="Arial" font-size="10" fill="#2F4F4F">Броды</text>
+  </g>
+  
+  <!-- Стрелки наступления -->
+  <g id="arrows">
+    <!-- Первая волна -->
+    <path d="M 120 130 L 180 140" stroke="url(#arrowGradient)" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 120 130 L 160 170" stroke="url(#arrowGradient)" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 120 130 L 140 180" stroke="url(#arrowGradient)" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- Вторая волна -->
+    <path d="M 200 170 L 250 150" stroke="url(#arrowGradient)" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 200 170 L 280 140" stroke="url(#arrowGradient)" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 200 170 L 300 180" stroke="url(#arrowGradient)" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- Третья волна -->
+    <path d="M 280 140 L 350 120" stroke="url(#arrowGradient)" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 280 140 L 350 190" stroke="url(#arrowGradient)" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 280 140 L 380 170" stroke="url(#arrowGradient)" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Маркер стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#DC143C"/>
+    </marker>
+  </defs>
+  
+  <!-- Хронологическая лента -->
+  <g id="timeline">
+    <rect x="50" y="290" width="400" height="30" fill="#F0E68C" rx="5" ry="5" stroke="#DAA520" stroke-width="1"/>
+    
+    <!-- Даты на ленте -->
+    <text x="80" y="310" text-anchor="middle" font-family="Arial" font-size="10" fill="#8B4513">4 июня</text>
+    <text x="150" y="310" text-anchor="middle" font-family="Arial" font-size="10" fill="#8B4513">15 июня</text>
+    <text x="220" y="310" text-anchor="middle" font-family="Arial" font-size="10" fill="#8B4513">1 июля</text>
+    <text x="290" y="310" text-anchor="middle" font-family="Arial" font-size="10" fill="#8B4513">15 июля</text>
+    <text x="360" y="310" text-anchor="middle" font-family="Arial" font-size="10" fill="#8B4513">1 августа</text>
+    <text x="430" y="310" text-anchor="middle" font-family="Arial" font-size="10" fill="#8B4513">15 августа</text>
+  </g>
+  
+  <!-- Портрет Брусилова -->
+  <g id="portrait">
+    <circle cx="60" cy="100" r="25" fill="#D3D3D3" stroke="#8B4513" stroke-width="1"/>
+    <rect x="50" y="115" width="20" height="15" fill="#D3D3D3" stroke="#8B4513" stroke-width="1"/>
+    <text x="60" y="145" text-anchor="middle" font-family="Arial" font-size="8" fill="#8B4513">А.А. Брусилов</text>
+  </g>
+  
+  <!-- Информационная схема -->
+  <g id="info">
+    <rect x="350" y="85" width="90" height="60" fill="#E6E6FA" stroke="#4B0082" stroke-width="1" rx="3" ry="3"/>
+    <text x="395" y="100" text-anchor="middle" font-family="Arial" font-size="9" fill="#4B0082">Юго-Западный</text>
+    <text x="395" y="112" text-anchor="middle" font-family="Arial" font-size="9" fill="#4B0082">фронт</text>
+    <text x="395" y="125" text-anchor="middle" font-family="Arial" font-size="8" fill="#4B0082">760 тыс. чел.</text>
+    <text x="395" y="138" text-anchor="middle" font-family="Arial" font-size="8" fill="#4B0082">2 060 орудий</text>
+  </g>
+  
+  <!-- График потерь -->
+  <g id="casualties">
+    <rect x="50" y="85" width="80" height="50" fill="#FFFAF0" stroke="#8B0000" stroke-width="1" rx="3" ry="3"/>
+    <text x="90" y="100" text-anchor="middle" font-family="Arial" font-size="9" fill="#8B0000">Потери противника</text>
+    <text x="90" y="115" text-anchor="middle" font-family="Arial" font-size="10" fill="#8B0000">~1,5 млн</text>
+    <text x="90" y="128" text-anchor="middle" font-family="Arial" font-size="8" fill="#8B0000">чел.</text>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <g id="decor">
+    <!-- Кресты -->
+    <g id="cross1" transform="translate(320, 160)">
+      <line x1="0" y1="-5" x2="0" y2="5" stroke="#8B0000" stroke-width="2"/>
+      <line x1="-5" y1="0" x2="5" y2="0" stroke="#8B0000" stroke-width="2"/>
+    </g>
+    <g id="cross2" transform="translate(150, 200)">
+      <line x1="0" y1="-5" x2="0" y2="5" stroke="#8B0000" stroke-width="2"/>
+      <line x1="-5" y1="0" x2="5" y2="0" stroke="#8B0000" stroke-width="2"/>
+    </g>
+    <g id="cross3" transform="translate(380, 140)">
+      <line x1="0" y1="-5" x2="0" y2="5" stroke="#8B0000" stroke-width="2"/>
+      <line x1="-5" y1="0" x2="5" y2="0" stroke="#8B0000" stroke-width="2"/>
+    </g>
+    
+    <!-- Масштаб карты -->
+    <line x1="420" y1="250" x2="460" y2="250" stroke="#2F4F4F" stroke-width="1"/>
+    <line x1="420" y1="245" x2="420" y2="255" stroke="#2F4F4F" stroke-width="1"/>
+    <line x1="460" y1="245" x2="460" y2="255" stroke="#2F4F4F" stroke-width="1"/>
+    <text x="440" y="265" text-anchor="middle" font-family="Arial" font-size="8" fill="#2F4F4F">50 км</text>
+  </g>
+  
+  <!-- Легенда -->
+  <g id="legend">
+    <rect x="50" y="330" width="15" height="3" fill="url(#arrowGradient)"/>
+    <text x="70" y="335" font-family="Arial" font-size="8" fill="#2F4F4F">Направление наступления</text>
+    
+    <circle cx="200" cy="333" r="3" fill="#2F4F4F"/>
+    <text x="210" y="335" font-family="Arial" font-size="8" fill="#2F4F4F">Город</text>
+    
+    <line x1="300" y1="333" x2="315" y2="333" stroke="url(#riverGradient)" stroke-width="2"/>
+    <text x="320" y="335" font-family="Arial" font-size="8" fill="#2F4F4F">Река</text>
+  </g>
+  
+  <!-- Дополнительные детали карты -->
+  <g id="map-details">
+    <!-- Леса -->
+    <ellipse cx="180" cy="110" rx="15" ry="10" fill="#228B22" opacity="0.3"/>
+    <ellipse cx="320" cy="210" rx="15" ry="10" fill="#228B22" opacity="0.3"/>
+    
+    <!-- Дороги -->
+    <line x1="120" y1="130" x2="280" y2="140" stroke="#A9A9A9" stroke-width="1" stroke-dasharray="2,2"/>
+    <line x1="200" y1="170" x2="350" y2="190" stroke="#A9A9A9" stroke-width="1" stroke-dasharray="2,2"/>
+  </g>
+  
+  <!-- Формулы и статистика -->
+  <g id="formulas">
+    <rect x="240" y="330" width="200" height="15" fill="#F0F8FF" stroke="#4682B4" stroke-width="1" rx="2" ry="2"/>
+    <text x="250" y="340" font-family="Arial" font-size="8" fill="#4682B4">Прорыв: 400 км ширина × 100 км глубина</text>
+  </g>
 </svg>

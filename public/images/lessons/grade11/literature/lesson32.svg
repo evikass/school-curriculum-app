@@ -1,23 +1,99 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0c4a6e"/>
-      <stop offset="100%" style="stop-color:#06b6d4"/>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f5f0" />
+      <stop offset="100%" style="stop-color:#e8e8e0" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#67e8f9;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#67e8f9;stop-opacity:0"/>
-    </radialGradient>
+    <linearGradient id="frameGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b4513" />
+      <stop offset="50%" style="stop-color:#a0522d" />
+      <stop offset="100%" style="stop-color:#8b4513" />
+    </linearGradient>
+    <linearGradient id="portraitGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d3d3d3" />
+      <stop offset="100%" style="stop-color:#a9a9a9" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#67e8f9" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#67e8f9" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#67e8f9" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#cffafe" text-anchor="middle">32</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#cffafe" text-anchor="middle" opacity="0.8">ЛИТЕРАТУРА · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#cffafe" text-anchor="middle">Урок 32: Диссидентская и эмигрантская литература</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#67e8f9" text-anchor="middle" opacity="0.8">Урок 32 из 35</text>
-  <circle cx="180" cy="180" r="20" fill="#67e8f9" opacity="0.5"/><circle cx="320" cy="180" r="20" fill="#67e8f9" opacity="0.3"/><circle cx="250" cy="220" r="15" fill="#67e8f9" opacity="0.4"/>
+  
+  <!-- Фоновый прямоугольник -->
+  <rect x="0" y="0" width="500" height="350" fill="url(#bgGradient)" />
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="url(#frameGradient)" stroke-width="3" rx="5" />
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#8b4513" stroke-width="1" rx="3" />
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">ЛИТЕРАТУРА · 11 КЛАСС</text>
+  <text x="250" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#34495e">Урок 32: Диссидентская и эмигрантская литература</text>
+  
+  <!-- Номер урока -->
+  <text x="30" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#8b4513">№32</text>
+  
+  <!-- Портрет Войновича -->
+  <circle cx="80" cy="120" r="25" fill="url(#portraitGradient)" />
+  <rect x="65" y="130" width="30" height="35" fill="url(#portraitGradient)" />
+  <text x="80" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">В.Н. Войнович</text>
+  <text x="80" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">1932-2020</text>
+  
+  <!-- Портрет Владимова -->
+  <circle cx="180" cy="120" r="25" fill="url(#portraitGradient)" />
+  <rect x="165" y="130" width="30" height="35" fill="url(#portraitGradient)" />
+  <text x="180" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Г.Н. Владимов</text>
+  <text x="180" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">1936-2003</text>
+  
+  <!-- Портрет Солженицына -->
+  <circle cx="280" cy="120" r="25" fill="url(#portraitGradient)" />
+  <rect x="265" y="130" width="30" height="35" fill="url(#portraitGradient)" />
+  <text x="280" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">А.И. Солженицын</text>
+  <text x="280" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">1918-2008</text>
+  
+  <!-- Линия времени -->
+  <line x1="40" y1="220" x2="460" y2="220" stroke="#8b4513" stroke-width="2" />
+  
+  <!-- Точки на линии времени -->
+  <circle cx="80" cy="220" r="5" fill="#8b4513" />
+  <circle cx="180" cy="220" r="5" fill="#8b4513" />
+  <circle cx="280" cy="220" r="5" fill="#8b4513" />
+  
+  <!-- Даты на линии времени -->
+  <text x="80" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">1963</text>
+  <text x="180" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">1974</text>
+  <text x="280" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">1970</text>
+  
+  <!-- Ключевые произведения -->
+  <rect x="40" y="250" width="420" height="80" fill="#f8f8f8" stroke="#8b4513" stroke-width="1" rx="3" />
+  
+  <!-- Заголовок раздела -->
+  <text x="250" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Ключевые произведения</text>
+  
+  <!-- Произведения Войновича -->
+  <text x="50" y="285" font-family="Arial, sans-serif" font-size="10" fill="#34495e">Войнович: "Жизнь и необычные приключения солдата Ивана Чонкина", "Путём всё труднее..."</text>
+  
+  <!-- Произведения Владимова -->
+  <text x="50" y="300" font-family="Arial, sans-serif" font-size="10" fill="#34495e">Владимов: "Верный Руслан", "Генерал и его армия"</text>
+  
+  <!-- Произведения Солженицына -->
+  <text x="50" y="315" font-family="Arial, sans-serif" font-size="10" fill="#34495e">Солженицын: "Один день Ивана Денисовича", "Архипелаг ГУЛАГ", "В кругу первом"</text>
+  
+  <!-- Декоративные элементы -->
+  <path d="M 400 90 Q 410 100, 400 110 Q 390 100, 400 90" fill="#8b4513" opacity="0.5" />
+  <path d="M 420 100 Q 430 110, 420 120 Q 410 110, 420 100" fill="#8b4513" opacity="0.5" />
+  <path d="M 440 110 Q 450 120, 440 130 Q 430 120, 440 110" fill="#8b4513" opacity="0.5" />
+  
+  <!-- Ключевые термины -->
+  <rect x="350" y="130" width="130" height="70" fill="#e8e8e0" stroke="#8b4513" stroke-width="1" rx="3" />
+  <text x="415" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">Ключевые термины</text>
+  <text x="360" y="165" font-family="Arial, sans-serif" font-size="9" fill="#34495e">Диссидентство</text>
+  <text x="360" y="178" font-family="Arial, sans-serif" font-size="9" fill="#34495е">Эмиграция</text>
+  <text x="360" y="191" font-family="Arial, sans-serif" font-size="9" fill="#34495e">Самиздат</text>
+  
+  <!-- Иконка книги -->
+  <g transform="translate(350, 80)">
+    <rect x="0" y="0" width="20" height="25" fill="#8b4513" rx="2" />
+    <rect x="3" y="3" width="14" height="19" fill="#f5f5f0" />
+    <line x1="5" y1="7" x2="15" y2="7" stroke="#8b4513" stroke-width="1" />
+    <line x1="5" y1="10" x2="15" y2="10" stroke="#8b4513" stroke-width="1" />
+    <line x1="5" y1="13" x2="15" y2="13" stroke="#8b4513" stroke-width="1" />
+    <line x1="5" y1="16" x2="12" y2="16" stroke="#8b4513" stroke-width="1" />
+  </g>
 </svg>

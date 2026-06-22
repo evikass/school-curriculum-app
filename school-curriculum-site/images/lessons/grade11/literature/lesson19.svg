@@ -1,23 +1,146 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#365314"/>
-      <stop offset="100%" style="stop-color:#65a30d"/>
+      <stop offset="0%" style="stop-color:#f8f4e6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8dcc0;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#bef264;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#bef264;stop-opacity:0"/>
-    </radialGradient>
+    <linearGradient id="frameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a0522d;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
   </defs>
+  
+  <!-- Фоновый прямоугольник -->
   <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#bef264" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#bef264" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#bef264" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#d9f99d" text-anchor="middle">19</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#d9f99d" text-anchor="middle" opacity="0.8">ЛИТЕРАТУРА · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#d9f99d" text-anchor="middle">Урок 19: Литература 1930-х годов. Социалистический</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#bef264" text-anchor="middle" opacity="0.8">Урок 19 из 35</text>
-  <text x="250" y="220" font-family="Arial" font-size="48" fill="#bef264" opacity="0.5" text-anchor="middle">⭐</text>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="url(#frameGrad)" stroke-width="4"/>
+  <rect x="20" y="20" width="460" height="310" fill="none" stroke="url(#frameGrad)" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#4a3426">ЛИТЕРАТУРА · 11 КЛАСС</text>
+  <text x="250" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#4a3426">Урок 19: Литература 1930-х годов</text>
+  <text x="45" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#8b4513">19</text>
+  
+  <!-- Принципы соцреализма -->
+  <g transform="translate(30, 90)">
+    <rect x="0" y="0" width="140" height="180" rx="5" fill="#e8d4b0" stroke="#8b4513" stroke-width="2" filter="url(#shadow)"/>
+    <text x="70" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#4a3426">Принципы соцреализма</text>
+    
+    <!-- Принцип 1 -->
+    <circle cx="20" cy="45" r="3" fill="#8b4513"/>
+    <text x="30" y="50" font-family="Arial, sans-serif" font-size="11" fill="#4a3426">1. Партийность</text>
+    
+    <!-- Принцип 2 -->
+    <circle cx="20" cy="65" r="3" fill="#8b4513"/>
+    <text x="30" y="70" font-family="Arial, sans-serif" font-size="11" fill="#4a3426">2. Народность</text>
+    
+    <!-- Принцип 3 -->
+    <circle cx="20" cy="85" r="3" fill="#8b4513"/>
+    <text x="30" y="90" font-family="Arial, sans-serif" font-size="11" fill="#4a3426">3. Типичность</text>
+    
+    <!-- Принцип 4 -->
+    <circle cx="20" cy="105" r="3" fill="#8b4513"/>
+    <text x="30" y="110" font-family="Arial, sans-serif" font-size="11" fill="#4a3426">4. Конкретно-историчность</text>
+    
+    <!-- Принцип 5 -->
+    <circle cx="20" cy="125" r="3" fill="#8b4513"/>
+    <text x="30" y="130" font-family="Arial, sans-serif" font-size="11" fill="#4a3426">5. Идеалистичность</text>
+    
+    <!-- Формула соцреализма -->
+    <text x="70" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#4a3426">"Правда + Партийность"</text>
+  </g>
+  
+  <!-- I съезд писателей -->
+  <g transform="translate(190, 90)">
+    <rect x="0" y="0" width="140" height="180" rx="5" fill="#d4e8f0" stroke="#4682b4" stroke-width="2" filter="url(#shadow)"/>
+    <text x="70" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c5282">I съезд писателей</text>
+    
+    <!-- Дата -->
+    <text x="70" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c5282">1934 г.</text>
+    
+    <!-- Дата проведения -->
+    <text x="70" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c5282">Август</text>
+    
+    <!-- Место проведения -->
+    <text x="70" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c5282">г. Ленинград</text>
+    
+    <!-- Решения съезда -->
+    <text x="10" y="115" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c5282">Решения:</text>
+    <text x="10" y="135" font-family="Arial, sans-serif" font-size="10" fill="#2c5282">• Создание СП СССР</text>
+    <text x="10" y="150" font-family="Arial, sans-serif" font-size="10" fill="#2c5282">• Утверждение соцреализма</text>
+    <text x="10" y="165" font-family="Arial, sans-serif" font-size="10" fill="#2c5282">• Главный метод литературы</text>
+  </g>
+  
+  <!-- Советская драматургия -->
+  <g transform="translate(350, 90)">
+    <rect x="0" y="0" width="140" height="180" rx="5" fill="#e8d4e0" stroke="#8b4789" stroke-width="2" filter="url(#shadow)"/>
+    <text x="70" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#6b3d6b">Советская драматургия</text>
+    
+    <!-- Основные черты -->
+    <circle cx="20" cy="45" r="3" fill="#8b4789"/>
+    <text x="30" y="50" font-family="Arial, sans-serif" font-size="11" fill="#6b3d6b">Конфликт личности</text>
+    
+    <circle cx="20" cy="65" r="3" fill="#8b4789"/>
+    <text x="30" y="70" font-family="Arial, sans-serif" font-size="11" fill="#6b3d6b">и общества</text>
+    
+    <circle cx="20" cy="85" r="3" fill="#8b4789"/>
+    <text x="30" y="90" font-family="Arial, sans-serif" font-size="11" fill="#6b3d6b">Исторические темы</text>
+    
+    <circle cx="20" cy="105" r="3" fill="#8b4789"/>
+    <text x="30" y="110" font-family="Arial, sans-serif" font-size="11" fill="#6b3d6b">Борьба за прогресс</text>
+    
+    <!-- Представители -->
+    <text x="70" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#6b3d6b">Представители:</text>
+    <text x="70" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6b3d6b">В.В. Маяковский</text>
+    <text x="70" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6b3d6b">Н.П. Погодин</text>
+  </g>
+  
+  <!-- Хронология событий -->
+  <g transform="translate(30, 280)">
+    <rect x="0" y="0" width="440" height="40" rx="5" fill="#f0e8d0" stroke="#8b7355" stroke-width="2" filter="url(#shadow)"/>
+    <text x="10" y="25" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#5d4e37">Хронология:</text>
+    
+    <!-- События на линии времени -->
+    <line x1="80" y1="20" x2="430" y2="20" stroke="#8b7355" stroke-width="2"/>
+    
+    <!-- 1930 -->
+    <circle cx="100" cy="20" r="4" fill="#8b7355"/>
+    <text x="100" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4e37">1930</text>
+    
+    <!-- 1932 -->
+    <circle cx="170" cy="20" r="4" fill="#8b7355"/>
+    <text x="170" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4e37">1932</text>
+    
+    <!-- 1934 -->
+    <circle cx="240" cy="20" r="4" fill="#8b4513"/>
+    <text x="240" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4e37">1934</text>
+    
+    <!-- 1936 -->
+    <circle cx="310" cy="20" r="4" fill="#8b7355"/>
+    <text x="310" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4e37">1936</text>
+    
+    <!-- 1938 -->
+    <circle cx="380" cy="20" r="4" fill="#8b7355"/>
+    <text x="380" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#5d4e37">1938</text>
+    
+    <!-- Ключевые события -->
+    <text x="100" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5d4e37">Первые</text>
+    <text x="100" y="3" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5d4e37">процессы</text>
+    
+    <text x="170" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5d4e37">Создание</text>
+    <text x="170" y="3" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5d4e37">СП СССР</text>
+    
+    <text x="240" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5d4e37">I съезд</text>
+    <text x="240" y="3" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5d4e37">писателей</text>
+    
+    <text x="310" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5d4e37">Ждановские</text>
+    <text x="310" y="3" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5d4e37">доклады</text>
+    
+    <text x="380" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5d4e37">"Чистка"</text>
+    <text x="380" y="3" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5d4e37">литературы</text>
+  </g>
 </svg>

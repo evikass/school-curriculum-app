@@ -1,23 +1,135 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#831843"/>
-      <stop offset="100%" style="stop-color:#ec4899"/>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6f2ff;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#f9a8d4;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#f9a8d4;stop-opacity:0"/>
-    </radialGradient>
+    <linearGradient id="frameGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4682b4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5f9ea0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="coinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffb347;stop-opacity:1" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#f9a8d4" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#f9a8d4" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#f9a8d4" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fce7f3" text-anchor="middle">28</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fce7f3" text-anchor="middle" opacity="0.8">АЛГЕБРА · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fce7f3" text-anchor="middle">Урок 28: Формула Бернулли. Закон больших чисел</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#f9a8d4" text-anchor="middle" opacity="0.8">Урок 28 из 38</text>
-  <text x="250" y="220" font-family="Arial" font-size="48" fill="#f9a8d4" opacity="0.5" text-anchor="middle">P</text>
+  
+  <!-- Фоновый прямоугольник -->
+  <rect width="500" height="350" fill="url(#bgGradient)"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="url(#frameGradient)" stroke-width="3"/>
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#4682b4" stroke-width="1" stroke-dasharray="5,3"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">АЛГЕБРА · 11 КЛАСС</text>
+  <text x="250" y="65" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#1a237e">Урок 28: Формула Бернулли</text>
+  <text x="250" y="85" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#3949ab">Закон больших чисел</text>
+  
+  <!-- Номер урока в углу -->
+  <circle cx="460" cy="30" r="15" fill="#4682b4"/>
+  <text x="460" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">28</text>
+  
+  <!-- Схема Бернулли - дерево испытаний -->
+  <g transform="translate(50, 110)">
+    <!-- Первый уровень -->
+    <circle cx="50" cy="20" r="8" fill="#ff7043"/>
+    <text x="50" y="50" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Начало</text>
+    
+    <!-- Второй уровень -->
+    <line x1="50" y1="28" x2="20" y2="65" stroke="#5c6bc0" stroke-width="2"/>
+    <line x1="50" y1="28" x2="80" y2="65" stroke="#5c6bc0" stroke-width="2"/>
+    
+    <circle cx="20" cy="75" r="8" fill="#66bb6a"/>
+    <text x="20" y="105" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">У</text>
+    
+    <circle cx="80" cy="75" r="8" fill="#ef5350"/>
+    <text x="80" y="105" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Н</text>
+    
+    <!-- Третий уровень -->
+    <line x1="20" y1="83" x2="5" y2="120" stroke="#5c6bc0" stroke-width="2"/>
+    <line x1="20" y1="83" x2="35" y2="120" stroke="#5c6bc0" stroke-width="2"/>
+    <line x1="80" y1="83" x2="65" y2="120" stroke="#5c6bc0" stroke-width="2"/>
+    <line x1="80" y1="83" x2="95" y2="120" stroke="#5c6bc0" stroke-width="2"/>
+    
+    <circle cx="5" cy="130" r="8" fill="#66bb6a"/>
+    <text x="5" y="160" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">УУ</text>
+    
+    <circle cx="35" cy="130" r="8" fill="#66bb6a"/>
+    <text x="35" y="160" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">УН</text>
+    
+    <circle cx="65" cy="130" r="8" fill="#ef5350"/>
+    <text x="65" y="160" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">НУ</text>
+    
+    <circle cx="95" cy="130" r="8" fill="#ef5350"/>
+    <text x="95" y="160" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">НН</text>
+  </g>
+  
+  <!-- Формула Бернулли -->
+  <g transform="translate(220, 120)">
+    <rect x="0" y="0" width="250" height="60" fill="white" stroke="#5c6bc0" stroke-width="1" rx="5"/>
+    <text x="10" y="25" font-family="Arial, sans-serif" font-size="14" fill="#333">P(k) = C_n^k · p^k · q^(n-k)</text>
+    <text x="10" y="45" font-family="Arial, sans-serif" font-size="11" fill="#666">где q = 1 - p</text>
+  </g>
+  
+  <!-- График вероятностей -->
+  <g transform="translate(60, 220)">
+    <!-- Ось X -->
+    <line x1="0" y1="80" x2="180" y2="80" stroke="#333" stroke-width="1"/>
+    <text x="90" y="100" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">k - число успехов</text>
+    
+    <!-- Ось Y -->
+    <line x1="0" y1="0" x2="0" y2="80" stroke="#333" stroke-width="1"/>
+    <text x="-10" y="5" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">P</text>
+    
+    <!-- График -->
+    <path d="M 0,80 L 20,70 L 40,55 L 60,35 L 80,20 L 100,35 L 120,55 L 140,70 L 160,80" 
+          fill="none" stroke="#ff5722" stroke-width="2"/>
+    
+    <!-- Точки -->
+    <circle cx="0" cy="80" r="3" fill="#ff5722"/>
+    <circle cx="20" cy="70" r="3" fill="#ff5722"/>
+    <circle cx="40" cy="55" r="3" fill="#ff5722"/>
+    <circle cx="60" cy="35" r="3" fill="#ff5722"/>
+    <circle cx="80" cy="20" r="3" fill="#ff5722"/>
+    <circle cx="100" cy="35" r="3" fill="#ff5722"/>
+    <circle cx="120" cy="55" r="3" fill="#ff5722"/>
+    <circle cx="140" cy="70" r="3" fill="#ff5722"/>
+    <circle cx="160" cy="80" r="3" fill="#ff5722"/>
+    
+    <!-- Подписи точек -->
+    <text x="0" y="95" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">0</text>
+    <text x="40" y="95" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">1</text>
+    <text x="80" y="95" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">2</text>
+    <text x="120" y="95" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">3</text>
+    <text x="160" y="95" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">4</text>
+  </g>
+  
+  <!-- Закон больших чисел -->
+  <g transform="translate(300, 220)">
+    <rect x="0" y="0" width="180" height="100" fill="white" stroke="#5c6bc0" stroke-width="1" rx="5"/>
+    <text x="90" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Закон больших чисел</text>
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="11" fill="#333">lim P(|X/n - p| &lt; ε) = 1</text>
+    <text x="10" y="60" font-family="Arial, sans-serif" font-size="11" fill="#666">при n → ∞</text>
+    <text x="10" y="80" font-family="Arial, sans-serif" font-size="10" fill="#666">где X - число успехов</text>
+    <text x="10" y="95" font-family="Arial, sans-serif" font-size="10" fill="#666">в n испытаниях</text>
+  </g>
+  
+  <!-- Монетка -->
+  <g transform="translate(420, 220)">
+    <ellipse cx="30" cy="30" rx="25" ry="25" fill="url(#coinGradient)" stroke="#d4af37" stroke-width="2"/>
+    <text x="30" y="35" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#8b4513">Р</text>
+    <text x="30" y="70" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Схема испытаний</text>
+  </g>
+  
+  <!-- Подписи к элементам -->
+  <text x="100" y="200" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#666">Дерево возможных исходов</text>
+  <text x="345" y="200" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#666">Формула и закон</text>
+  <text x="140" y="330" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">Распределение вероятностей</text>
+  
+  <!-- Уголки -->
+  <path d="M 0,0 L 15,0 L 0,15 Z" fill="#4682b4"/>
+  <path d="M 500,0 L 485,0 L 500,15 Z" fill="#4682b4"/>
+  <path d="M 0,350 L 15,350 L 0,335 Z" fill="#4682b4"/>
+  <path d="M 500,350 L 485,350 L 500,335 Z" fill="#4682b4"/>
 </svg>

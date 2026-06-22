@@ -1,23 +1,141 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#4a1d1d"/>
-      <stop offset="100%" style="stop-color:#dc2626"/>
+    <!-- Градиенты для фона -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f1e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8dcc0;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fca5a5;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#fca5a5;stop-opacity:0"/>
-    </radialGradient>
+    
+    <!-- Градиент для союзников Антанты -->
+    <linearGradient id="ententeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4169e1;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#1e90ff;stop-opacity:0.7" />
+    </linearGradient>
+    
+    <!-- Градиент для Тройственного союза -->
+    <linearGradient id="allianceGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#dc143c;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#b22222;stop-opacity:0.7" />
+    </linearGradient>
+    
+    <!-- Тень -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#fca5a5" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#fca5a5" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#fca5a5" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fee2e2" text-anchor="middle">2</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fee2e2" text-anchor="middle" opacity="0.8">ИСТОРИЯ РОССИИ · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fee2e2" text-anchor="middle">Урок 2: Начало Первой мировой войны. Восточный фро</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fca5a5" text-anchor="middle" opacity="0.8">Урок 2 из 35</text>
-  <path d="M 80 175 Q 250 100 420 175" fill="none" stroke="#fca5a5" stroke-width="2" opacity="0.6"/><path d="M 80 175 Q 250 250 420 175" fill="none" stroke="#fca5a5" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGradient)" />
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#8b7355" stroke-width="3" rx="5" />
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#a0826d" stroke-width="1" rx="3" />
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Начало Первой мировой войны
+  </text>
+  <text x="250" y="52" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">
+    ИСТОРИЯ · 11 КЛАСС
+  </text>
+  
+  <!-- Номер урока -->
+  <text x="470" y="25" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#7f8c8d">
+    Урок 12
+  </text>
+  
+  <!-- Карта Европы (упрощенная) -->
+  <g transform="translate(50, 80)">
+    <!-- Антанта -->
+    <path d="M 40,50 Q 60,40 80,45 L 85,65 L 70,70 L 50,65 Z" fill="url(#ententeGradient)" stroke="#1e90ff" stroke-width="1" />
+    <text x="65" y="60" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="white">Франция</text>
+    
+    <path d="M 90,30 Q 110,25 130,30 L 135,50 L 120,55 L 100,50 Z" fill="url(#ententeGradient)" stroke="#1e90ff" stroke-width="1" />
+    <text x="115" y="40" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="white">Великобритания</text>
+    
+    <path d="M 150,40 Q 170,35 190,40 L 195,60 L 180,65 L 160,60 Z" fill="url(#ententeGradient)" stroke="#1e90ff" stroke-width="1" />
+    <text x="175" y="50" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="white">Россия</text>
+    
+    <!-- Тройственный союз -->
+    <path d="M 200,70 Q 220,65 240,70 L 245,90 L 230,95 L 210,90 Z" fill="url(#allianceGradient)" stroke="#b22222" stroke-width="1" />
+    <text x="225" y="80" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="white">Германия</text>
+    
+    <path d="M 250,50 Q 270,45 290,50 L 295,70 L 280,75 L 260,70 Z" fill="url(#allianceGradient)" stroke="#b22222" stroke-width="1" />
+    <text x="275" y="60" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="white">Австро-Венгрия</text>
+    
+    <path d="M 300,60 Q 320,55 340,60 L 345,80 L 330,85 L 310,80 Z" fill="url(#allianceGradient)" stroke="#b22222" stroke-width="1" />
+    <text x="322" y="70" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="white">Италия</text>
+    
+    <!-- Сараево -->
+    <circle cx="220" cy="110" r="3" fill="#ff8c00" />
+    <text x="225" y="115" font-family="Arial, sans-serif" font-size="7" fill="#ff8c00">Сараево</text>
+    
+    <!-- Легенда -->
+    <rect x="20" y="130" width="30" height="10" fill="url(#ententeGradient)" stroke="#1e90ff" stroke-width="1" />
+    <text x="55" y="138" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">Антанта</text>
+    
+    <rect x="120" y="130" width="30" height="10" fill="url(#allianceGradient)" stroke="#b22222" stroke-width="1" />
+    <text x="155" y="138" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">Тройственный союз</text>
+  </g>
+  
+  <!-- Сараевское убийство -->
+  <g transform="translate(50, 230)">
+    <rect x="0" y="0" width="180" height="80" fill="#fffaf0" stroke="#d2691e" stroke-width="1" rx="5" filter="url(#shadow)" />
+    <text x="90" y="15" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#8b4513">
+      Сараевское убийство
+    </text>
+    
+    <!-- Портреты -->
+    <circle cx="30" cy="40" r="15" fill="#d3d3d3" stroke="#696969" stroke-width="1" />
+    <text x="30" y="45" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2c3e50">Франц</text>
+    <text x="30" y="55" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#2c3e50">Фердинанд</text>
+    
+    <circle cx="150" cy="40" r="15" fill="#d3d3d3" stroke="#696969" stroke-width="1" />
+    <text x="150" y="45" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2c3e50">Гаврило</text>
+    <text x="150" y="55" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#2c3e50">Принцип</text>
+    
+    <!-- Дата -->
+    <text x="90" y="70" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2c3e50">
+      28 июня 1914 г.
+    </text>
+  </g>
+  
+  <!-- Мобилизация -->
+  <g transform="translate(250, 230)">
+    <rect x="0" y="0" width="200" height="80" fill="#f0f8ff" stroke="#4682b4" stroke-width="1" rx="5" filter="url(#shadow)" />
+    <text x="100" y="15" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+      Мобилизация
+    </text>
+    
+    <!-- График мобилизации -->
+    <polyline points="20,50 40,45 60,40 80,35 100,30 120,25 140,20 160,15 180,10" 
+              fill="none" stroke="#ff6347" stroke-width="2" />
+    <text x="20" y="55" font-family="Arial, sans-serif" font-size="6" fill="#2c3e50">0</text>
+    <text x="180" y="55" font-family="Arial, sans-serif" font-size="6" text-anchor="end" fill="#2c3e50">100%</text>
+    <text x="100" y="65" font-family="Arial, sans-serif" font-size="7" text-anchor="middle" fill="#2c3e50">Июль-август 1914</text>
+  </g>
+  
+  <!-- Хронологическая лента -->
+  <g transform="translate(50, 320)">
+    <rect x="0" y="0" width="400" height="15" fill="#f5deb3" stroke="#d2691e" stroke-width="1" rx="7" />
+    
+    <!-- Даты на ленте -->
+    <circle cx="50" cy="7.5" r="4" fill="#8b4513" />
+    <text x="50" y="25" font-family="Arial, sans-serif" font-size="7" text-anchor="middle" fill="#2c3e50">28.06</text>
+    
+    <circle cx="150" cy="7.5" r="4" fill="#8b4513" />
+    <text x="150" y="25" font-family="Arial, sans-serif" font-size="7" text-anchor="middle" fill="#2c3e50">23.07</text>
+    
+    <circle cx="250" cy="7.5" r="4" fill="#8b4513" />
+    <text x="250" y="25" font-family="Arial, sans-serif" font-size="7" text-anchor="middle" fill="#2c3e50">28.07</text>
+    
+    <circle cx="350" cy="7.5" r="4" fill="#8b4513" />
+    <text x="350" y="25" font-family="Arial, sans-serif" font-size="7" text-anchor="middle" fill="#2c3e50">01.08</text>
+  </g>
+  
+  <!-- Надписи на ленте -->
+  <text x="50" y="345" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#2c3e50">Убийство</text>
+  <text x="150" y="345" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#2c3e50">Ультиматум</text>
+  <text x="250" y="345" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#2c3e50">Война</text>
+  <text x="350" y="345" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#2c3e50">Начало</text>
 </svg>

@@ -1,81 +1,167 @@
 <svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
-  <!-- Темный фон -->
-  <rect width="500" height="350" fill="#0a0a1a"/>
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6f2ff;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="nucleusGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c92a2a;stop-opacity:1" />
+    </radialGradient>
+    
+    <radialGradient id="protonGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#4dabf7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1971c2;stop-opacity:1" />
+    </radialGradient>
+    
+    <radialGradient id="neutronGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#69db7c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2f9e44;stop-opacity:1" />
+    </radialGradient>
+    
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGradient)"/>
   
   <!-- Декоративная рамка -->
-  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#3a3a5a" stroke-width="2" rx="5"/>
-  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#4a4a6a" stroke-width="1" rx="3"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#495057" stroke-width="2" rx="5"/>
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#adb5bd" stroke-width="1" rx="3"/>
   
-  <!-- Заголовок -->
-  <text x="250" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#e0e0ff">Строение ядра</text>
+  <!-- Номер урока -->
+  <text x="470" y="330" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#495057">Урок 34</text>
   
-  <!-- Ядро атома -->
-  <g transform="translate(150, 150)">
-    <!-- Нейтроны -->
-    <circle cx="-20" cy="-15" r="12" fill="#4a90e2" opacity="0.8"/>
-    <circle cx="0" cy="-20" r="12" fill="#4a90e2" opacity="0.8"/>
-    <circle cx="20" cy="-15" r="12" fill="#4a90e2" opacity="0.8"/>
-    <circle cx="-30" cy="5" r="12" fill="#4a90e2" opacity="0.8"/>
-    <circle cx="-10" cy="10" r="12" fill="#4a90e2" opacity="0.8"/>
-    <circle cx="10" cy="5" r="12" fill="#4a90e2" opacity="0.8"/>
-    <circle cx="30" cy="10" r="12" fill="#4a90e2" opacity="0.8"/>
-    <circle cx="-20" cy="25" r="12" fill="#4a90e2" opacity="0.8"/>
-    <circle cx="0" cy="30" r="12" fill="#4a90e2" opacity="0.8"/>
-    <circle cx="20" cy="25" r="12" fill="#4a90e2" opacity="0.8"/>
+  <!-- Заголовок класса -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#212529">ФИЗИКА · 11 КЛАСС</text>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#212529">Строение атомного ядра</text>
+  <text x="250" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#495057">Энергия связи</text>
+  
+  <!-- Атомное ядро -->
+  <g transform="translate(120, 150)">
+    <circle cx="0" cy="0" r="40" fill="url(#nucleusGradient)" filter="url(#shadow)"/>
     
     <!-- Протоны -->
-    <circle cx="-20" cy="-15" r="12" fill="#e74c3c" opacity="0.8"/>
-    <circle cx="0" cy="-20" r="12" fill="#e74c3c" opacity="0.8"/>
-    <circle cx="20" cy="-15" r="12" fill="#e74c3c" opacity="0.8"/>
-    <circle cx="-10" cy="10" r="12" fill="#e74c3c" opacity="0.8"/>
-    <circle cx="10" cy="5" r="12" fill="#e74c3c" opacity="0.8"/>
+    <circle cx="-15" cy="-10" r="12" fill="url(#protonGradient)"/>
+    <text x="-15" y="-6" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">p+</text>
     
-    <!-- Оболочка ядра -->
-    <circle cx="0" cy="0" r="50" fill="none" stroke="#666" stroke-width="1" stroke-dasharray="5,5" opacity="0.5"/>
+    <circle cx="15" cy="-10" r="12" fill="url(#protonGradient)"/>
+    <text x="15" y="-6" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">p+</text>
+    
+    <circle cx="0" cy="15" r="12" fill="url(#protonGradient)"/>
+    <text x="0" y="19" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">p+</text>
+    
+    <!-- Нейтроны -->
+    <circle cx="-15" cy="10" r="12" fill="url(#neutronGradient)"/>
+    <text x="-15" y="14" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">n</text>
+    
+    <circle cx="15" cy="10" r="12" fill="url(#neutronGradient)"/>
+    <text x="15" y="14" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">n</text>
+    
+    <circle cx="0" cy="-15" r="12" fill="url(#neutronGradient)"/>
+    <text x="0" y="-11" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">n</text>
+    
+    <circle cx="-25" cy="0" r="12" fill="url(#neutronGradient)"/>
+    <text x="-25" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">n</text>
+    
+    <circle cx="25" cy="0" r="12" fill="url(#neutronGradient)"/>
+    <text x="25" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">n</text>
+    
+    <text x="0" y="-55" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#212529">Ядро гелия-4</text>
+    <text x="0" y="-40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#495057">A=4, Z=2</text>
   </g>
   
-  <!-- Подписи частиц -->
-  <text x="80" y="150" font-family="Arial, sans-serif" font-size="14" fill="#e74c3c">p⁺</text>
-  <text x="80" y="170" font-family="Arial, sans-serif" font-size="14" fill="#4a90e2">n⁰</text>
-  
-  <!-- Формула E_св = Δmc² -->
-  <g transform="translate(320, 120)">
-    <rect x="-40" y="-20" width="160" height="40" fill="#1a1a3a" stroke="#4a4a6a" stroke-width="1" rx="5"/>
-    <text x="40" y="5" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#e0e0ff">E_св = Δmc²</text>
+  <!-- Изотопы -->
+  <g transform="translate(300, 100)">
+    <circle cx="0" cy="0" r="15" fill="url(#protonGradient)"/>
+    <circle cx="0" cy="20" r="15" fill="url(#protonGradient)"/>
+    <circle cx="-20" cy="0" r="15" fill="url(#neutronGradient)"/>
+    <circle cx="20" cy="0" r="15" fill="url(#neutronGradient)"/>
+    <circle cx="-20" cy="20" r="15" fill="url(#neutronGradient)"/>
+    <circle cx="20" cy="20" r="15" fill="url(#neutronGradient)"/>
+    <text x="0" y="-25" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#212529">Углерод-12</text>
+    <text x="0" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#495057">A=12, Z=6</text>
   </g>
   
-  <!-- График энергии связи -->
-  <g transform="translate(320, 220)">
-    <!-- Ось X -->
-    <line x1="0" y1="0" x2="120" y2="0" stroke="#888" stroke-width="1"/>
-    <!-- Ось Y -->
-    <line x1="0" y1="0" x2="0" y2="-60" stroke="#888" stroke-width="1"/>
+  <g transform="translate(380, 100)">
+    <circle cx="0" cy="0" r="15" fill="url(#protonGradient)"/>
+    <circle cx="0" cy="20" r="15" fill="url(#protonGradient)"/>
+    <circle cx="-20" cy="0" r="15" fill="url(#neutronGradient)"/>
+    <circle cx="20" cy="0" r="15" fill="url(#neutronGradient)"/>
+    <circle cx="-20" cy="20" r="15" fill="url(#neutronGradient)"/>
+    <circle cx="20" cy="20" r="15" fill="url(#neutronGradient)"/>
+    <circle cx="0" cy="-20" r="15" fill="url(#neutronGradient)"/>
+    <text x="0" y="-25" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#212529">Углерод-13</text>
+    <text x="0" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#495057">A=13, Z=6</text>
+  </g>
+  
+  <!-- Дефект масс -->
+  <g transform="translate(300, 200)">
+    <rect x="-40" y="-20" width="80" height="60" fill="white" stroke="#495057" stroke-width="1" rx="5"/>
+    <text x="0" y="-5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#212529">Дефект масс</text>
+    <text x="0" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#495057">Δm = Z·m<sub>p</sub> + (A-Z)·m<sub>n</sub> - M<sub>яд</sub></text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#6c757d">где:</text>
+    <text x="0" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#6c757d">Z - зарядовое число</text>
+    <text x="0" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#6c757d">A - массовое число</text>
+  </g>
+  
+  <!-- Энергия связи -->
+  <g transform="translate(400, 200)">
+    <rect x="-40" y="-20" width="80" height="60" fill="white" stroke="#495057" stroke-width="1" rx="5"/>
+    <text x="0" y="-5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#212529">Энергия связи</text>
+    <text x="0" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#495057">E<sub>св</sub> = Δm·c<sup>2</sup></text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#6c757d">Единица измерения:</text>
+    <text x="0" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#6c757d">МэВ (мегаэлектронвольт)</text>
+  </g>
+  
+  <!-- График энергии связи на нуклон -->
+  <g transform="translate(250, 300)">
+    <rect x="-150" y="-40" width="300" height="80" fill="white" stroke="#495057" stroke-width="1" rx="5"/>
+    <text x="0" y="-25" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#212529">Энергия связи на нуклон</text>
     
-    <!-- Кривая энергии связи -->
-    <path d="M 0,0 Q 30,-45 60,-50 T 120,-40" fill="none" stroke="#4a90e2" stroke-width="2"/>
+    <!-- Оси -->
+    <line x1="-120" y1="20" x2="120" y2="20" stroke="#495057" stroke-width="1"/>
+    <line x1="-120" y1="20" x2="-120" y2="-20" stroke="#495057" stroke-width="1"/>
+    
+    <!-- График -->
+    <path d="M-100,10 Q-80,-5 -60,-10 Q-40,-12 -20,-10 Q0,-8 20,-5 Q40,0 60,5 Q80,10 100,15" 
+          fill="none" stroke="#ff6b6b" stroke-width="2"/>
+    
+    <!-- Точки на графике -->
+    <circle cx="-60" cy="-10" r="2" fill="#ff6b6b"/>
+    <circle cx="-20" cy="-10" r="2" fill="#ff6b6b"/>
+    <circle cx="20" cy="-5" r="2" fill="#ff6b6b"/>
+    <circle cx="60" cy="5" r="2" fill="#ff6b6b"/>
+    <circle cx="100" cy="15" r="2" fill="#ff6b6b"/>
     
     <!-- Подписи осей -->
-    <text x="60" y="20" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#aaa">A</text>
-    <text x="-15" y="-30" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#aaa">ε_св</text>
+    <text x="0" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#495057">Массовое число A</text>
+    <text x="-135" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#495057">E<sub>св</sub>/A</text>
+  </g>
+  
+  <!-- Легенда -->
+  <g transform="translate(30, 200)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#212529">Состав ядра:</text>
+    <circle cx="10" cy="15" r="8" fill="url(#protonGradient)"/>
+    <text x="25" y="19" font-family="Arial, sans-serif" font-size="10" fill="#495057">протон (p+)</text>
+    <circle cx="10" cy="35" r="8" fill="url(#neutronGradient)"/>
+    <text x="25" y="39" font-family="Arial, sans-serif" font-size="10" fill="#495057">нейтрон (n)</text>
+  </g>
+  
+  <!-- Ключевые термины -->
+  <g transform="translate(30, 280)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#212529">Нуклон:</text>
+    <text x="50" y="0" font-family="Arial, sans-serif" font-size="10" fill="#495057">протон или нейтрон</text>
     
-    <!-- Точки на кривой -->
-    <circle cx="30" cy="-45" r="3" fill="#e74c3c"/>
-    <circle cx="60" cy="-50" r="3" fill="#e74c3c"/>
-    <circle cx="90" cy="-45" r="3" fill="#e74c3c"/>
+    <text x="0" y="15" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#212529">Изотопы:</text>
+    <text x="50" y="15" font-family="Arial, sans-serif" font-size="10" fill="#495057">ядра с одинаковым Z, разным A</text>
+    
+    <text x="0" y="30" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#212529">Массовое число:</text>
+    <text x="100" y="30" font-family="Arial, sans-serif" font-size="10" fill="#495057">A = Z + N</text>
   </g>
-  
-  <!-- Подписи к графику -->
-  <text x="380" y="290" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#aaa">Кривая энергии связи</text>
-  
-  <!-- Дополнительные элементы -->
-  <g transform="translate(250, 300)">
-    <text x="0" y="0" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#aaa">где E_св - энергия связи</text>
-    <text x="0" y="15" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#aaa">Δm - дефект масс</text>
-  </g>
-  
-  <!-- Декоративные частицы -->
-  <circle cx="50" cy="100" r="2" fill="#666" opacity="0.5"/>
-  <circle cx="450" cy="80" r="2" fill="#666" opacity="0.5"/>
-  <circle cx="420" cy="320" r="2" fill="#666" opacity="0.5"/>
-  <circle cx="80" cy="320" r="2" fill="#666" opacity="0.5"/>
 </svg>

@@ -1,23 +1,103 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#7f1d1d"/>
-      <stop offset="100%" style="stop-color:#dc2626"/>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a4d7a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2e7d32;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fca5a5;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#fca5a5;stop-opacity:0"/>
-    </radialGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f5deb3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d2b48c;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#fca5a5" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#fca5a5" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#fca5a5" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fee2e2" text-anchor="middle">14</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fee2e2" text-anchor="middle" opacity="0.8">ЛИТЕРАТУРА · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fee2e2" text-anchor="middle">Урок 14: М. Горький. Жизнь и творчество</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fca5a5" text-anchor="middle" opacity="0.8">Урок 14 из 35</text>
-  <polygon points="250,120 263,165 311,165 272,193 286,237 250,210 214,237 228,193 189,165 237,165" fill="#fca5a5" opacity="0.5"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#8b4513" stroke-width="3" rx="5"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#cd853f" stroke-width="1" rx="3"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1a4d7a">ЛИТЕРАТУРА · 11 КЛАСС</text>
+  <text x="250" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1a4d7a">Урок 14: М. Горький. Жизнь и творчество</text>
+  <text x="470" y="330" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#8b4513">№14</text>
+  
+  <!-- Портрет Горького -->
+  <circle cx="100" cy="120" r="40" fill="url(#grad2)" stroke="#8b4513" stroke-width="2"/>
+  <circle cx="90" cy="110" r="3" fill="#333"/>
+  <circle cx="110" cy="110" r="3" fill="#333"/>
+  <path d="M85 125 Q100 135 115 125" stroke="#333" stroke-width="2" fill="none"/>
+  <path d="M85 120 Q100 125 115 120" stroke="#333" stroke-width="1.5" fill="none"/>
+  <path d="M80 140 Q100 150 120 140" stroke="#333" stroke-width="2" fill="none"/>
+  <text x="100" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Максим Горький</text>
+  
+  <!-- Биография -->
+  <rect x="40" y="190" width="120" height="100" fill="#f0f8ff" stroke="#1a4d7a" stroke-width="1" rx="5" filter="url(#shadow)"/>
+  <text x="100" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1a4d7a">Биография</text>
+  <text x="45" y="230" font-family="Arial, sans-serif" font-size="10" fill="#333">1868-1936</text>
+  <text x="45" y="245" font-family="Arial, sans-serif" font-size="10" fill="#333">Родился в Нижнем</text>
+  <text x="45" y="260" font-family="Arial, sans-serif" font-size="10" fill="#333">Новгороде</text>
+  <text x="45" y="275" font-family="Arial, sans-serif" font-size="10" fill="#333">Настоящее имя:</text>
+  <text x="45" y="290" font-family="Arial, sans-serif" font-size="10" fill="#333">Алексей Максимович</text>
+  <text x="45" y="305" font-family="Arial, sans-serif" font-size="10" fill="#333">Пешков</text>
+  
+  <!-- Ранние рассказы -->
+  <rect x="180" y="90" width="140" height="100" fill="#fff8dc" stroke="#8b4513" stroke-width="1" rx="5" filter="url(#shadow)"/>
+  <text x="250" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#8b4513">Ранние рассказы</text>
+  <text x="185" y="130" font-family="Arial, sans-serif" font-size="10" fill="#333">"Макар Чудра"</text>
+  <text x="185" y="145" font-family="Arial, sans-serif" font-size="10" fill="#333">"Старуха Изергиль"</text>
+  <text x="185" y="160" font-family="Arial, sans-serif" font-size="10" fill="#333">"Песня о Соколе"</text>
+  <text x="185" y="175" font-family="Arial, sans-serif" font-size="10" fill="#333">"Челкаш"</text>
+  
+  <!-- Пьесы -->
+  <rect x="340" y="90" width="140" height="100" fill="#e6f3ff" stroke="#1a4d7a" stroke-width="1" rx="5" filter="url(#shadow)"/>
+  <text x="410" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1a4d7a">Пьесы</text>
+  <text x="345" y="130" font-family="Arial, sans-serif" font-size="10" fill="#333">"На дне"</text>
+  <text x="345" y="145" font-family="Arial, sans-serif" font-size="10" fill="#333">"Враги"</text>
+  <text x="345" y="160" font-family="Arial, sans-serif" font-size="10" fill="#333">"Дачники"</text>
+  <text x="345" y="175" font-family="Arial, sans-serif" font-size="10" fill="#333">"Фальшивая монета"</text>
+  
+  <!-- "Мать" -->
+  <rect x="180" y="210" width="140" height="100" fill="#f0fff0" stroke="#2e7d32" stroke-width="1" rx="5" filter="url(#shadow)"/>
+  <text x="250" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2e7d32">"Мать"</text>
+  <text x="185" y="250" font-family="Arial, sans-serif" font-size="10" fill="#333">1906</text>
+  <text x="185" y="265" font-family="Arial, sans-serif" font-size="10" fill="#333">Роман-эпопея</text>
+  <text x="185" y="280" font-family="Arial, sans-serif" font-size="10" fill="#333">Тема: пробуждение</text>
+  <text x="185" y="295" font-family="Arial, sans-serif" font-size="10" fill="#333">рабочего класса</text>
+  
+  <!-- "Жизнь Клима Самгина" -->
+  <rect x="340" y="210" width="140" height="100" fill="#fff0f5" stroke="#8b008b" stroke-width="1" rx="5" filter="url(#shadow)"/>
+  <text x="410" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#8b008b">"Жизнь Клима Самгина"</text>
+  <text x="345" y="250" font-family="Arial, sans-serif" font-size="10" fill="#333">1925-1936</text>
+  <text x="345" y="265" font-family="Arial, sans-serif" font-size="10" fill="#333">Роман-эпопея</text>
+  <text x="345" y="280" font-family="Arial, sans-serif" font-size="10" fill="#333">Неоконченный</text>
+  <text x="345" y="295" font-family="Arial, sans-serif" font-size="10" fill="#333">4 тома</text>
+  
+  <!-- Хронология -->
+  <line x1="50" y1="80" x2="450" y2="80" stroke="#8b4513" stroke-width="2" stroke-dasharray="5,5"/>
+  <circle cx="80" cy="80" r="4" fill="#8b4513"/>
+  <text x="80" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">1868</text>
+  <circle cx="200" cy="80" r="4" fill="#8b4513"/>
+  <text x="200" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">1892</text>
+  <circle cx="320" cy="80" r="4" fill="#8b4513"/>
+  <text x="320" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">1906</text>
+  <circle cx="420" cy="80" r="4" fill="#8b4513"/>
+  <text x="420" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">1936</text>
+  
+  <!-- Ключевые термины -->
+  <rect x="40" y="320" width="420" height="20" fill="#f5f5f5" stroke="#8b4513" stroke-width="1" rx="3"/>
+  <text x="50" y="335" font-family="Arial, sans-serif" font-size="10" fill="#333">Реализм · Социалистический реализм · Романтизм · Психологизм · Монументализм</text>
+  
+  <!-- Декоративные элементы -->
+  <path d="M30 40 Q35 45 40 40" stroke="#8b4513" stroke-width="1" fill="none"/>
+  <path d="M460 40 Q465 45 470 40" stroke="#8b4513" stroke-width="1" fill="none"/>
+  <circle cx="30" cy="320" r="3" fill="#8b4513"/>
+  <circle cx="470" cy="320" r="3" fill="#8b4513"/>
+  
+  <!-- Иллюстрация книги -->
+  <rect x="160" y="40" width="20" height="25" fill="#8b4513" stroke="#654321" stroke-width="1" transform="rotate(-10 170 52.5)"/>
+  <rect x="165" y="45" width="10" height="15" fill="#f5f5dc" stroke="#654321" stroke-width="0.5" transform="rotate(-10 170 52.5)"/>
+  <line x1="168" y1="48" x2="168" y2="57" stroke="#654321" stroke-width="0.5" transform="rotate(-10 170 52.5)"/>
+  <line x1="170" y1="48" x2="170" y2="57" stroke="#654321" stroke-width="0.5" transform="rotate(-10 170 52.5)"/>
+  <line x1="172" y1="48" x2="172" y2="57" stroke="#654321" stroke-width="0.5" transform="rotate(-10 170 52.5)"/>
 </svg>

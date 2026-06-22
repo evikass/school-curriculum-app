@@ -1,23 +1,108 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#365314"/>
-      <stop offset="100%" style="stop-color:#65a30d"/>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e0e0e0;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#bef264;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#bef264;stop-opacity:0"/>
-    </radialGradient>
+    <linearGradient id="frameGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#654321;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="portraitGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d2b48c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a0522d;stop-opacity:1" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#bef264" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#bef264" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#bef264" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#d9f99d" text-anchor="middle">24</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#d9f99d" text-anchor="middle" opacity="0.8">ЛИТЕРАТУРА · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#d9f99d" text-anchor="middle">Урок 24: В.Г. Распутин. Деревенская проза</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#bef264" text-anchor="middle" opacity="0.8">Урок 24 из 35</text>
-  <text x="250" y="220" font-family="Arial" font-size="48" fill="#bef264" opacity="0.5" text-anchor="middle">⭐</text>
+  
+  <!-- Фоновая рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="url(#frameGradient)" stroke-width="8" rx="5" />
+  <rect x="15" y="15" width="470" height="320" fill="url(#bgGradient)" rx="3" />
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">Урок 24: В.Г. Распутин. Деревенская проза</text>
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#666">ЛИТЕРАТУРА · 11 КЛАСС</text>
+  
+  <!-- Номер урока в углу -->
+  <text x="40" y="320" font-family="Arial, sans-serif" font-size="14" fill="#333">№24</text>
+  
+  <!-- Портрет Распутина -->
+  <ellipse cx="80" cy="120" rx="35" ry="45" fill="url(#portraitGradient)" />
+  <circle cx="80" cy="105" r="15" fill="#f5deb3" />
+  <path d="M65 110 Q80 120 95 110" fill="none" stroke="#333" stroke-width="2" />
+  <circle cx="75" cy="100" r="2" fill="#333" />
+  <circle cx="85" cy="100" r="2" fill="#333" />
+  <path d="M70 130 Q80 135 90 130" fill="none" stroke="#333" stroke-width="1.5" />
+  <text x="80" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">В.Г. Распутин</text>
+  <text x="80" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">1937-2021</text>
+  
+  <!-- Биографическая информация -->
+  <rect x="130" y="80" width="340" height="100" fill="white" stroke="#8b4513" stroke-width="1" rx="5" />
+  <text x="140" y="100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">Биография:</text>
+  <text x="140" y="115" font-family="Arial, sans-serif" font-size="10" fill="#555">Родился в с. Атаманово Иркутской области</text>
+  <text x="140" y="130" font-family="Arial, sans-serif" font-size="10" fill="#555">Окончил филологический факультет Иркутского университета</text>
+  <text x="140" y="145" font-family="Arial, sans-serif" font-size="10" fill="#555">Член Союза писателей с 1974 года</text>
+  <text x="140" y="160" font-family="Arial, sans-serif" font-size="10" fill="#555">Лауреат Государственной премии (1977, 1987)</text>
+  
+  <!-- Ключевые произведения -->
+  <rect x="20" y="200" width="220" height="120" fill="white" stroke="#8b4513" stroke-width="1" rx="5" />
+  <text x="30" y="220" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">Ключевые произведения:</text>
+  <text x="30" y="235" font-family="Arial, sans-serif" font-size="10" fill="#555">«Прощание с Матёрой» (1976)</text>
+  <text x="30" y="250" font-family="Arial, sans-serif" font-size="10" fill="#555">«Живи и помни» (1974)</text>
+  <text x="30" y="265" font-family="Arial, sans-serif" font-size="10" fill="#555">«Последнее пристанище» (1978)</text>
+  <text x="30" y="280" font-family="Arial, sans-serif" font-size="10" fill="#555">«Деньги для Марии» (1967)</text>
+  <text x="30" y="295" font-family="Arial, sans-serif" font-size="10" fill="#555">«Век живи — век люби» (1982)</text>
+  <text x="30" y="310" font-family="Arial, sans-serif" font-size="10" fill="#555">«Наташа» (1995)</text>
+  
+  <!-- Нравственная проблематика -->
+  <rect x="250" y="200" width="220" height="120" fill="white" stroke="#8b4513" stroke-width="1" rx="5" />
+  <text x="260" y="220" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">Нравственная проблематика:</text>
+  <text x="260" y="235" font-family="Arial, sans-serif" font-size="10" fill="#555">1. Проблема памяти и забвения</text>
+  <text x="260" y="250" font-family="Arial, sans-serif" font-size="10" fill="#555">2. Экология души и природы</text>
+  <text x="260" y="265" font-family="Arial, sans-serif" font-size="10" fill="#555">3. Трагедия деревни</text>
+  <text x="260" y="280" font-family="Arial, sans-serif" font-size="10" fill="#555">4. Судьба человека в истории</text>
+  <text x="260" y="295" font-family="Arial, sans-serif" font-size="10" fill="#555">5. Мать как символ России</text>
+  <text x="260" y="310" font-family="Arial, sans-serif" font-size="10" fill="#555">6. Моральный выбор личности</text>
+  
+  <!-- Схема повествования "Прощание с Матёрой" -->
+  <rect x="20" y="50" width="100" height="80" fill="white" stroke="#8b4513" stroke-width="1" rx="5" opacity="0.9" />
+  <text x="70" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#333">Матёра</text>
+  <text x="70" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#555">символ</text>
+  <text x="70" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#555">прошлого</text>
+  <text x="70" y="104" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#555">и корней</text>
+  <text x="70" y="116" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#555">человека</text>
+  
+  <!-- Схема повествования "Живи и помни" -->
+  <rect x="380" y="50" width="100" height="80" fill="white" stroke="#8b4513" stroke-width="1" rx="5" opacity="0.9" />
+  <text x="430" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#333">Андрей</text>
+  <text x="430" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#555">дезертир</text>
+  <text x="430" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#555">моральная</text>
+  <text x="430" y="104" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#555">трагедия</text>
+  <text x="430" y="116" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#555">и раскаяние</text>
+  
+  <!-- Деревенская проза как литературное направление -->
+  <rect x="140" y="190" width="100" height="40" fill="#e6d2b5" stroke="#8b4513" stroke-width="1" rx="3" />
+  <text x="190" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Деревенская проза</text>
+  <text x="190" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#555">литературное направление</text>
+  
+  <!-- Стрелки связей -->
+  <path d="M240 210 L260 210" stroke="#8b4513" stroke-width="2" marker-end="url(#arrowhead)" />
+  <path d="M140 210 L160 210" stroke="#8b4513" stroke-width="2" marker-end="url(#arrowhead)" />
+  
+  <!-- Стрелка -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8b4513" />
+    </marker>
+  </defs>
+  
+  <!-- Ключевые цитаты -->
+  <text x="250" y="85" font-family="Arial, sans-serif" font-size="9" font-style="italic" fill="#555">"Матёра была не просто деревня, она была душа России"</text>
+  
+  <!-- Даты жизни -->
+  <rect x="20" y="330" width="460" height="10" fill="#8b4513" opacity="0.3" />
+  
+  <!-- Декоративные элементы -->
+  <circle cx="480" cy="20" r="5" fill="#8b4513" opacity="0.5" />
+  <circle cx="470" cy="30" r="3" fill="#8b4513" opacity="0.5" />
+  <circle cx="490" cy="30" r="3" fill="#8b4513" opacity="0.5" />
 </svg>

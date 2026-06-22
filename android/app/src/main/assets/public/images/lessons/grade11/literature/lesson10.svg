@@ -1,23 +1,156 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Градиенты -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#451a03"/>
-      <stop offset="100%" style="stop-color:#a16207"/>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f0e6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8dcc0;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fcd34d;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#fcd34d;stop-opacity:0"/>
-    </radialGradient>
+    <linearGradient id="frameGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a0522d;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="portraitGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d2b48c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bc9a6a;stop-opacity:1" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#fcd34d" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#fcd34d" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#fcd34d" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fef3c7" text-anchor="middle">10</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fef3c7" text-anchor="middle" opacity="0.8">ЛИТЕРАТУРА · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fef3c7" text-anchor="middle">Урок 10: А.И. Куприн. Жизнь и творчество</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fcd34d" text-anchor="middle" opacity="0.8">Урок 10 из 35</text>
-  <rect x="200" y="130" width="100" height="80" fill="#fcd34d" opacity="0.3"/><line x1="250" y1="130" x2="250" y2="210" stroke="#fef3c7" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Фоновая рамка -->
+  <rect x="0" y="0" width="500" height="350" fill="url(#bgGradient)" />
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="url(#frameGradient)" stroke-width="3" />
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#8b4513" stroke-width="1" />
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c1810">Урок 10: А.И. Куприн. Жизнь и творчество</text>
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#5d4037">ЛИТЕРАТУРА · 11 КЛАСС</text>
+  
+  <!-- Номер урока в углу -->
+  <circle cx="30" cy="30" r="15" fill="#8b4513" />
+  <text x="30" y="36" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">10</text>
+  
+  <!-- Портрет А.И. Куприна -->
+  <g transform="translate(50, 80)">
+    <rect x="0" y="0" width="100" height="120" fill="url(#portraitGradient)" stroke="#5d4037" stroke-width="1" rx="5" />
+    <circle cx="50" cy="40" r="25" fill="#f5deb3" stroke="#5d4037" stroke-width="1" />
+    <path d="M30,50 Q50,60 70,50 L70,80 Q50,90 30,80 Z" fill="#f5deb3" stroke="#5d4037" stroke-width="1" />
+    <circle cx="40" cy="35" r="2" fill="#5d4037" />
+    <circle cx="60" cy="35" r="2" fill="#5d4037" />
+    <path d="M40,45 Q50,50 60,45" fill="none" stroke="#5d4037" stroke-width="1" />
+    <text x="50" y="105" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c1810">А.И. Куприн</text>
+    <text x="50" y="118" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#5d4037">(1869-1938)</text>
+  </g>
+  
+  <!-- Биография -->
+  <g transform="translate(180, 80)">
+    <rect x="0" y="0" width="150" height="120" fill="white" stroke="#5d4037" stroke-width="1" rx="5" opacity="0.9" />
+    <text x="75" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c1810">Биография</text>
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="10" fill="#2c1810">• 1869 - рождение в</text>
+    <text x="10" y="53" font-family="Arial, sans-serif" font-size="10" fill="#2c1810">  Нижнем Новгороде</text>
+    <text x="10" y="66" font-family="Arial, sans-serif" font-size="10" fill="#2c1810">• 1890 - начало</text>
+    <text x="10" y="79" font-family="Arial, sans-serif" font-size="10" fill="#2c1810">  литературной</text>
+    <text x="10" y="92" font-family="Arial, sans-serif" font-size="10" fill="#2c1810">  деятельности</text>
+    <text x="10" y="105" font-family="Arial, sans-serif" font-size="10" fill="#2c1810">• 1919 - эмиграция</text>
+  </g>
+  
+  <!-- Книги -->
+  <g transform="translate(50, 220)">
+    <!-- "Поединок" -->
+    <rect x="0" y="0" width="80" height="100" fill="#e6d5c3" stroke="#5d4037" stroke-width="1" rx="3" />
+    <rect x="5" y="5" width="70" height="90" fill="#f5deb3" stroke="#5d4037" stroke-width="0.5" />
+    <line x1="5" y1="25" x2="75" y2="25" stroke="#5d4037" stroke-width="0.5" />
+    <line x1="5" y1="45" x2="75" y2="45" stroke="#5d4037" stroke-width="0.5" />
+    <line x1="5" y1="65" x2="75" y2="65" stroke="#5d4037" stroke-width="0.5" />
+    <text x="40" y="85" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c1810">Поединок</text>
+    <text x="40" y="95" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#5d4037">1905</text>
+    
+    <!-- "Гранатовый браслет" -->
+    <rect x="90" y="0" width="80" height="100" fill="#e6d5c3" stroke="#5d4037" stroke-width="1" rx="3" />
+    <rect x="95" y="5" width="70" height="90" fill="#f5deb3" stroke="#5d4037" stroke-width="0.5" />
+    <line x1="95" y1="25" x2="165" y2="25" stroke="#5d4037" stroke-width="0.5" />
+    <line x1="95" y1="45" x2="165" y2="45" stroke="#5d4037" stroke-width="0.5" />
+    <line x1="95" y1="65" x2="165" y2="65" stroke="#5d4037" stroke-width="0.5" />
+    <text x="130" y="85" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c1810">Гранатовый</text>
+    <text x="130" y="95" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c1810">браслет</text>
+    <text x="130" y="105" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#5d4037">1911</text>
+    
+    <!-- "Гамбринус" -->
+    <rect x="180" y="0" width="80" height="100" fill="#e6d5c3" stroke="#5d4037" stroke-width="1" rx="3" />
+    <rect x="185" y="5" width="70" height="90" fill="#f5deb3" stroke="#5d4037" stroke-width="0.5" />
+    <line x1="185" y1="25" x2="255" y2="25" stroke="#5d4037" stroke-width="0.5" />
+    <line x1="185" y1="45" x2="255" y2="45" stroke="#5d4037" stroke-width="0.5" />
+    <line x1="185" y1="65" x2="255" y2="65" stroke="#5d4037" stroke-width="0.5" />
+    <text x="220" y="85" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c1810">Гамбринус</text>
+    <text x="220" y="95" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#5d4037">1910</text>
+  </g>
+  
+  <!-- Тематическая диаграмма -->
+  <g transform="translate(340, 80)">
+    <rect x="0" y="0" width="140" height="120" fill="white" stroke="#5d4037" stroke-width="1" rx="5" opacity="0.9" />
+    <text x="70" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c1810">Основные темы</text>
+    
+    <!-- Тема 1 -->
+    <circle cx="30" cy="45" r="15" fill="#cd5c5c" opacity="0.7" />
+    <text x="30" y="50" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">Честь</text>
+    
+    <!-- Тема 2 -->
+    <circle cx="70" cy="45" r="15" fill="#4682b4" opacity="0.7" />
+    <text x="70" y="50" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">Любовь</text>
+    
+    <!-- Тема 3 -->
+    <circle cx="110" cy="45" r="15" fill="#32cd32" opacity="0.7" />
+    <text x="110" y="50" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">Долг</text>
+    
+    <!-- Тема 4 -->
+    <circle cx="30" cy="85" r="15" fill="#ffa500" opacity="0.7" />
+    <text x="30" y="90" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">Талант</text>
+    
+    <!-- Тема 5 -->
+    <circle cx="70" cy="85" r="15" fill="#9370db" opacity="0.7" />
+    <text x="70" y="90" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">Искусство</text>
+    
+    <!-- Тема 6 -->
+    <circle cx="110" cy="85" r="15" fill="#dc143c" opacity="0.7" />
+    <text x="110" y="90" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">Жизнь</text>
+  </g>
+  
+  <!-- Возвращение в СССР -->
+  <g transform="translate(340, 220)">
+    <rect x="0" y="0" width="140" height="100" fill="white" stroke="#5d4037" stroke-width="1" rx="5" opacity="0.9" />
+    <text x="70" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c1810">Возвращение</text>
+    <text x="70" y="40" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c1810">1937</text>
+    
+    <!-- Стрелка -->
+    <line x1="70" y1="50" x2="70" y2="80" stroke="#5d4037" stroke-width="2" marker-end="url(#arrowhead)" />
+    <text x="70" y="95" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#5d4037">Возвращение</text>
+    <text x="70" y="105" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#5d4037">в СССР</text>
+  </g>
+  
+  <!-- Определение - формулы творчества -->
+  <g transform="translate(50, 330)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="10" fill="#5d4037">Творчество = Честность + Талант + Любовь к жизни</text>
+  </g>
+  
+  <!-- Стрелка -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#5d4037" />
+    </marker>
+  </defs>
+  
+  <!-- Даты в хронологии -->
+  <g transform="translate(180, 240)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c1810">Ключевые даты:</text>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="10" fill="#5d4037">1869 - 1938</text>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="10" fill="#5d4037">1905 - "Поединок"</text>
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="10" fill="#5d4037">1910 - "Гамбринус"</text>
+    <text x="0" y="65" font-family="Arial, sans-serif" font-size="10" fill="#5d4037">1911 - "Гранатовый браслет"</text>
+    <text x="0" y="80" font-family="Arial, sans-serif" font-size="10" fill="#5d4037">1937 - возвращение в СССР</text>
+  </g>
+  
+  <!-- Декоративный элемент -->
+  <g transform="translate(350, 290)">
+    <path d="M0,0 Q10,10 0,20 Q-10,30 0,40" fill="none" stroke="#8b4513" stroke-width="1.5" opacity="0.5" />
+    <path d="M10,5 Q20,15 10,25 Q0,35 10,45" fill="none" stroke="#8b4513" stroke-width="1.5" opacity="0.5" />
+    <path d="M20,0 Q30,10 20,20 Q10,30 20,40" fill="none" stroke="#8b4513" stroke-width="1.5" opacity="0.5" />
+  </g>
 </svg>

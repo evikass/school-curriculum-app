@@ -1,23 +1,100 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#2c3e50" stroke-width="3"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#3498db" stroke-width="1"/>
+  
+  <!-- Номер урока -->
+  <text x="30" y="30" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50" font-weight="bold">Урок 37</text>
+  
+  <!-- Заголовок класса -->
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50" font-weight="bold" text-anchor="middle">АЛГЕБРА · 11 КЛАСС</text>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="20" fill="#e74c3c" font-weight="bold" text-anchor="middle">Уравнения с параметрами</text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="75" font-family="Arial, sans-serif" font-size="14" fill="#34495e" text-anchor="middle">Исследование числа корней</text>
+  
+  <!-- Система координат для графика -->
+  <line x1="50" y1="250" x2="450" y2="250" stroke="#34495e" stroke-width="2"/>
+  <line x1="250" y1="100" x2="250" y2="300" stroke="#34495e" stroke-width="2"/>
+  
+  <!-- Стрелки осей -->
+  <polygon points="450,250 445,245 445,255" fill="#34495e"/>
+  <polygon points="250,100 245,105 255,105" fill="#34495e"/>
+  
+  <!-- Подписи осей -->
+  <text x="460" y="255" font-family="Arial, sans-serif" font-size="12" fill="#34495e">x</text>
+  <text x="255" y="95" font-family="Arial, sans-serif" font-size="12" fill="#34495e">y</text>
+  
+  <!-- Шкала оси X -->
+  <text x="150" y="265" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d" text-anchor="middle">-2</text>
+  <text x="250" y="265" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d" text-anchor="middle">0</text>
+  <text x="350" y="265" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d" text-anchor="middle">2</text>
+  
+  <!-- Шкала оси Y -->
+  <text x="235" y="205" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d" text-anchor="end">1</text>
+  <text x="235" y="155" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d" text-anchor="end">2</text>
+  <text x="235" y="105" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d" text-anchor="end">3</text>
+  
+  <!-- График квадратичной функции -->
+  <path d="M 100,250 Q 150,200 250,150 Q 350,200 400,250" fill="none" stroke="#3498db" stroke-width="3"/>
+  
+  <!-- График линейной функции -->
+  <line x1="100" y1="250" x2="400" y2="100" stroke="#e74c3c" stroke-width="2"/>
+  
+  <!-- Точки пересечения -->
+  <circle cx="150" cy="200" r="4" fill="#2ecc71"/>
+  <circle cx="350" cy="200" r="4" fill="#2ecc71"/>
+  
+  <!-- Подписи точек -->
+  <text x="150" y="190" font-family="Arial, sans-serif" font-size="10" fill="#2ecc71" text-anchor="middle">x₁</text>
+  <text x="350" y="190" font-family="Arial, sans-serif" font-size="10" fill="#2ecc71" text-anchor="middle">x₂</text>
+  
+  <!-- Уравнение на графике -->
+  <rect x="280" y="110" width="160" height="30" fill="white" fill-opacity="0.8" stroke="#34495e" stroke-width="1" rx="5"/>
+  <text x="360" y="130" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">x² - 4x + 3 = 0</text>
+  
+  <!-- Формула с параметром -->
+  <rect x="50" y="170" width="180" height="30" fill="white" fill-opacity="0.8" stroke="#9b59b6" stroke-width="1" rx="5"/>
+  <text x="140" y="190" font-family="Arial, sans-serif" font-size="12" fill="#9b59b6" text-anchor="middle">ax² + bx + c = 0</text>
+  
+  <!-- Дискриминант -->
+  <rect x="50" y="210" width="180" height="30" fill="white" fill-opacity="0.8" stroke="#9b59b6" stroke-width="1" rx="5"/>
+  <text x="140" y="230" font-family="Arial, sans-serif" font-size="12" fill="#9b59b6" text-anchor="middle">D = b² - 4ac</text>
+  
+  <!-- Условия для числа корней -->
+  <rect x="270" y="280" width="220" height="60" fill="white" fill-opacity="0.8" stroke="#34495e" stroke-width="1" rx="5"/>
+  <text x="280" y="300" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">D &gt; 0: два различных корня</text>
+  <text x="280" y="320" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">D = 0: один корень</text>
+  <text x="280" y="340" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">D &lt; 0: корней нет</text>
+  
+  <!-- Пример уравнения -->
+  <rect x="50" y="280" width="200" height="50" fill="white" fill-opacity="0.8" stroke="#e74c3c" stroke-width="1" rx="5"/>
+  <text x="60" y="300" font-family="Arial, sans-serif" font-size="11" fill="#c0392b">Пример: (m+1)x² - 4x + 3 = 0</text>
+  <text x="60" y="315" font-family="Arial, sans-serif" font-size="11" fill="#c0392b">Найти m при D=0</text>
+  
+  <!-- Решение примера -->
+  <rect x="50" y="340" width="440" height="5" fill="#f39c12" opacity="0.5"/>
+  
+  <!-- Градиент для элементов -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#451a03"/>
-      <stop offset="100%" style="stop-color:#a16207"/>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fcd34d;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#fcd34d;stop-opacity:0"/>
-    </radialGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e74c3c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c0392b;stop-opacity:1" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#fcd34d" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#fcd34d" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#fcd34d" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fef3c7" text-anchor="middle">37</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fef3c7" text-anchor="middle" opacity="0.8">АЛГЕБРА · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fef3c7" text-anchor="middle">Урок 37: Уравнения и неравенства с параметрами</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fcd34d" text-anchor="middle" opacity="0.8">Урок 37 из 38</text>
-  <text x="250" y="220" font-family="Arial" font-size="48" fill="#fcd34d" opacity="0.5" text-anchor="middle">±</text>
+  
+  <!-- Дополнительные элементы оформления -->
+  <circle cx="460" cy="30" r="8" fill="url(#grad1)"/>
+  <circle cx="470" cy="40" r="5" fill="url(#grad2)"/>
+  <circle cx="455" cy="45" r="5" fill="#2ecc71"/>
+  
+  <!-- Легенда -->
+  <rect x="50" y="130" width="180" height="35" fill="white" fill-opacity="0.8" stroke="#95a5a6" stroke-width="1" rx="5"/>
+  <text x="60" y="150" font-family="Arial, sans-serif" font-size="11" fill="#34495e">m ≠ -1 (a ≠ 0)</text>
 </svg>

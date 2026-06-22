@@ -1,23 +1,141 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Градиенты -->
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e1b4b"/>
-      <stop offset="100%" style="stop-color:#6366f1"/>
+      <stop offset="0%" style="stop-color:#f5f0e6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8dfd1;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:0"/>
+    <linearGradient id="frameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b4513;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#a0522d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b4513;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="portraitGrad">
+      <stop offset="0%" style="stop-color:#ffd4b2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8a991;stop-opacity:1" />
     </radialGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#a78bfa" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#a78bfa" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#e0e7ff" text-anchor="middle">3</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e0e7ff" text-anchor="middle" opacity="0.8">ЛИТЕРАТУРА · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e0e7ff" text-anchor="middle">Урок 3: С.А. Есенин. Жизнь и творчество</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#a78bfa" text-anchor="middle" opacity="0.8">Урок 3 из 35</text>
-  <text x="100" y="200" font-family="Arial" font-size="40" fill="#a78bfa" opacity="0.4">✒️</text><text x="380" y="200" font-family="Arial" font-size="40" fill="#a78bfa" opacity="0.4">📖</text>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGrad)" />
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="url(#frameGrad)" stroke-width="4" rx="5" />
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#a0522d" stroke-width="1" rx="3" opacity="0.5" />
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#5d4037" font-weight="bold">ЛИТЕРАТУРА · 11 КЛАСС</text>
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#3e2723" font-weight="bold">Урок 3: С.А. Есенин</text>
+  <text x="250" y="75" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#5d4037">Жизнь и творчество</text>
+  
+  <!-- Номер урока в углу -->
+  <circle cx="30" cy="30" r="15" fill="#8b4513" opacity="0.7" />
+  <text x="30" y="36" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">3</text>
+  
+  <!-- Портрет Есенина -->
+  <g transform="translate(60, 100)">
+    <ellipse cx="40" cy="40" rx="40" ry="45" fill="url(#portraitGrad)" />
+    <circle cx="40" cy="35" r="18" fill="#f5deb3" />
+    <path d="M40 52 C30 52, 22 58, 22 68 C22 78, 30 84, 40 84 C50 84, 58 78, 58 68 C58 58, 50 52, 40 52" fill="#f5deb3" />
+    <path d="M28 35 C28 40, 33 45, 40 45 C47 45, 52 40, 52 35" stroke="#3e2723" stroke-width="1.5" fill="none" />
+    <circle cx="33" cy="30" r="2" fill="#3e2723" />
+    <circle cx="47" cy="30" r="2" fill="#3e2723" />
+    <path d="M38 40 Q40 42, 42 40" stroke="#3e2723" stroke-width="1" fill="none" />
+    <path d="M25 25 Q25 20, 30 20" stroke="#8b4513" stroke-width="1.5" fill="none" />
+    <path d="M55 25 Q55 20, 50 20" stroke="#8b4513" stroke-width="1.5" fill="none" />
+    <text x="40" y="100" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5d4037">С.А. Есенин</text>
+    <text x="40" y="115" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#5d4037">1895-1925</text>
+  </g>
+  
+  <!-- Биографическая линия -->
+  <g transform="translate(140, 120)">
+    <line x1="0" y1="0" x2="300" y2="0" stroke="#8b4513" stroke-width="2" />
+    <circle cx="0" cy="0" r="4" fill="#8b4513" />
+    <circle cx="75" cy="0" r="4" fill="#8b4513" />
+    <circle cx="150" cy="0" r="4" fill="#8b4513" />
+    <circle cx="225" cy="0" r="4" fill="#8b4513" />
+    <circle cx="300" cy="0" r="4" fill="#8b4513" />
+    
+    <text x="0" y="-10" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#5d4037">1895</text>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#5d4037">Рождение</text>
+    
+    <text x="75" y="-10" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#5d4037">1912</text>
+    <text x="75" y="20" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#5d4037">Москва</text>
+    
+    <text x="150" y="-10" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#5d4037">1919</text>
+    <text x="150" y="20" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#5d4037">Имажинизм</text>
+    
+    <text x="225" y="-10" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#5d4037">1925</text>
+    <text x="225" y="20" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#5d4037">Заграничное</text>
+    
+    <text x="300" y="-10" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#5d4037">1925</text>
+    <text x="300" y="20" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#5d4037">Гибель</text>
+  </g>
+  
+  <!-- Крестьянская лирика -->
+  <g transform="translate(140, 200)">
+    <rect x="0" y="0" width="140" height="80" fill="#e8f5e9" stroke="#4caf50" stroke-width="1" rx="5" />
+    <text x="70" y="20" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2e7d32" font-weight="bold">Крестьянская</text>
+    <text x="70" y="40" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2e7d32" font-weight="bold">лирика</text>
+    <text x="70" y="60" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#388e3c">«Песнь о собаке»</text>
+    <text x="70" y="75" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#388e3c">«Я покинул родимый дом...»</text>
+  </g>
+  
+  <!-- Имажинизм -->
+  <g transform="translate(300, 200)">
+    <rect x="0" y="0" width="140" height="80" fill="#e3f2fd" stroke="#2196f3" stroke-width="1" rx="5" />
+    <text x="70" y="20" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1565c0" font-weight="bold">Имажинизм</text>
+    <text x="70" y="40" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#1976d2">1921-1925</text>
+    <text x="70" y="55" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#1976d2">«Человек - это</text>
+    <text x="70" y="70" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#1976d2">живой образ»</text>
+  </g>
+  
+  <!-- Трагический финал -->
+  <g transform="translate(220, 290)">
+    <rect x="0" y="0" width="140" height="40" fill="#ffebee" stroke="#f44336" stroke-width="1" rx="5" />
+    <text x="70" y="16" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#c62828" font-weight="bold">Трагический финал</text>
+    <text x="70" y="30" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#d32f2f">28 декабря 1925 г.</text>
+  </g>
+  
+  <!-- Деревянный узор как символ крестьянской тематики -->
+  <g transform="translate(50, 280)">
+    <path d="M0 20 L0 0 L5 0 L5 20 L10 20 L10 0 L15 0 L15 20 L20 20 L20 0 L25 0 L25 20 L30 20" stroke="#8b4513" stroke-width="1" fill="none" />
+    <line x1="15" y1="0" x2="15" y2="30" stroke="#8b4513" stroke-width="1" />
+    <circle cx="15" cy="30" r="3" fill="#8b4513" />
+  </g>
+  
+  <!-- Ключевые произведения -->
+  <g transform="translate(380, 100)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" fill="#5d4037" font-weight="bold">Основные произведения:</text>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="10" fill="#5d4037">«Ржаные косы»</text>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="10" fill="#5d4037">«Исповедь»</text>
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="10" fill="#5d4037">«Москва кабацкая»</text>
+    <text x="0" y="65" font-family="Arial, sans-serif" font-size="10" fill="#5d4037">«Письмо матери»</text>
+    <text x="0" y="80" font-family="Arial, sans-serif" font-size="10" fill="#5d4037">«Анна Снегина»</text>
+  </g>
+  
+  <!-- Стихотворная строчка -->
+  <g transform="translate(140, 100)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="14" fill="#5d4037" font-style="italic">«Не жалею, не зову, не плачу...»</text>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="480" cy="30" r="3" fill="#8b4513" opacity="0.5" />
+  <circle cx="470" cy="40" r="2" fill="#8b4513" opacity="0.5" />
+  <circle cx="490" cy="45" r="2" fill="#8b4513" opacity="0.5" />
+  
+  <!-- Символ пера -->
+  <g transform="translate(460, 290)">
+    <path d="M0 0 L0 20 L5 25 L10 20 L10 0 Z" fill="#8b4513" />
+    <path d="M0 0 L5 -5 L10 0" fill="none" stroke="#8b4513" stroke-width="1" />
+    <text x="5" y="40" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#5d4037">Перо</text>
+  </g>
+  
+  <!-- Икона (символ религиозности) -->
+  <g transform="translate(20, 160)">
+    <rect x="0" y="0" width="20" height="30" fill="#d7ccc8" stroke="#8d6e63" stroke-width="1" rx="2" />
+    <path d="M5 10 L15 10 L15 25 L5 25 Z" fill="#8b4513" />
+    <circle cx="10" cy="15" r="3" fill="#d7ccc8" />
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#5d4037">Икона</text>
+  </g>
 </svg>

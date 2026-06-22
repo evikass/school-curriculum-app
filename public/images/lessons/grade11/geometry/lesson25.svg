@@ -1,23 +1,117 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Дефиниции градиентов -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#365314"/>
-      <stop offset="100%" style="stop-color:#65a30d"/>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2C5F8D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4A88C7;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#bef264;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#bef264;stop-opacity:0"/>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4A88C7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7BA7D3;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="grad3">
+      <stop offset="0%" style="stop-color:#FFD166;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#FFA502;stop-opacity:0.6" />
     </radialGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#bef264" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#bef264" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#bef264" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#d9f99d" text-anchor="middle">25</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#d9f99d" text-anchor="middle" opacity="0.8">ГЕОМЕТРИЯ · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#d9f99d" text-anchor="middle">Урок 25: Итоговое повторение курса геометрии 11 кл</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#bef264" text-anchor="middle" opacity="0.8">Урок 25 из 25</text>
-  <polygon points="200,120 300,120 280,220 180,220" fill="none" stroke="#bef264" stroke-width="2"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#2C5F8D" stroke-width="3" rx="5" ry="5"/>
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#7BA7D3" stroke-width="1" rx="3" ry="3"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2C5F8D">ГЕОГРАФИЯ · 11 КЛАСС</text>
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1A3A5C">Урок 25: Итоговое повторение</text>
+  
+  <!-- Номер урока -->
+  <circle cx="460" cy="30" r="15" fill="#4A88C7"/>
+  <text x="460" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">25</text>
+  
+  <!-- Секция 1: Формулы геометрии -->
+  <rect x="30" y="70" width="210" height="120" fill="url(#grad1)" opacity="0.1" rx="5" ry="5"/>
+  <text x="40" y="90" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C5F8D">Ключевые формулы</text>
+  
+  <!-- Формула площади круга -->
+  <text x="40" y="110" font-family="Arial, sans-serif" font-size="12" fill="#1A3A5C">Площадь круга: S = πr²</text>
+  <circle cx="170" cy="107" r="15" fill="none" stroke="#4A88C7" stroke-width="1.5"/>
+  <line x1="170" y1="107" x2="170" y2="92" stroke="#4A88C7" stroke-width="1.5"/>
+  <text x="190" y="110" font-family="Arial, sans-serif" font-size="10" fill="#4A88C7">r</text>
+  
+  <!-- Формула объема шара -->
+  <text x="40" y="135" font-family="Arial, sans-serif" font-size="12" fill="#1A3A5C">Объем шара: V = (4/3)πr³</text>
+  <circle cx="170" cy="140" r="12" fill="none" stroke="#4A88C7" stroke-width="1.5" opacity="0.7"/>
+  <ellipse cx="170" cy="140" rx="18" ry="6" fill="none" stroke="#4A88C7" stroke-width="1.5"/>
+  
+  <!-- Формула площади поверхности шара -->
+  <text x="40" y="160" font-family="Arial, sans-serif" font-size="12" fill="#1A3A5C">Площадь поверхности шара: S = 4πr²</text>
+  <circle cx="170" cy="165" r="10" fill="none" stroke="#4A88C7" stroke-width="1.5" stroke-dasharray="2,2"/>
+  
+  <!-- Формула объема цилиндра -->
+  <text x="40" y="185" font-family="Arial, sans-serif" font-size="12" fill="#1A3A5C">Объем цилиндра: V = πr²h</text>
+  <rect x="160" y="172" width="20" height="25" fill="none" stroke="#4A88C7" stroke-width="1.5"/>
+  <line x1="160" y1="172" x2="180" y2="172" stroke="#4A88C7" stroke-width="1.5"/>
+  <line x1="160" y1="197" x2="180" y2="197" stroke="#4A88C7" stroke-width="1.5"/>
+  <text x="185" y="187" font-family="Arial, sans-serif" font-size="10" fill="#4A88C7">h</text>
+  
+  <!-- Секция 2: Тригонометрия -->
+  <rect x="260" y="70" width="210" height="120" fill="url(#grad2)" opacity="0.1" rx="5" ry="5"/>
+  <text x="270" y="90" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C5F8D">Тригонометрия</text>
+  
+  <!-- Единичная окружность -->
+  <circle cx="365" cy="135" r="30" fill="none" stroke="#4A88C7" stroke-width="1.5"/>
+  <line x1="335" y1="135" x2="395" y2="135" stroke="#4A88C7" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="365" y1="105" x2="365" y2="165" stroke="#4A88C7" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- Точка на окружности -->
+  <circle cx="385" cy="120" r="3" fill="#FFA502"/>
+  <line x1="365" y1="135" x2="385" y2="120" stroke="#4A88C7" stroke-width="1"/>
+  <path d="M 365 135 L 385 120 L 385 135 Z" fill="url(#grad3)" opacity="0.5"/>
+  
+  <!-- Угол -->
+  <path d="M 375 135 A 10 10 0 0 1 380 128" fill="none" stroke="#FFA502" stroke-width="1.5"/>
+  <text x="382" y="125" font-family="Arial, sans-serif" font-size="10" fill="#FFA502">α</text>
+  
+  <!-- Тригонометрические функции -->
+  <text x="270" y="175" font-family="Arial, sans-serif" font-size="11" fill="#1A3A5C">sin α = y/r</text>
+  <text x="350" y="175" font-family="Arial, sans-serif" font-size="11" fill="#1A3A5C">cos α = x/r</text>
+  <text x="270" y="190" font-family="Arial, sans-serif" font-size="11" fill="#1A3A5C">tg α = y/x</text>
+  <text x="350" y="190" font-family="Arial, sans-serif" font-size="11" fill="#1A3A5C">ctg α = x/y</text>
+  
+  <!-- Секция 3: Теоремы -->
+  <rect x="30" y="210" width="440" height="120" fill="url(#grad1)" opacity="0.1" rx="5" ry="5"/>
+  <text x="40" y="230" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C5F8D">Основные теоремы</text>
+  
+  <!-- Пифагорова теорема -->
+  <rect x="40" y="240" width="180" height="80" fill="white" stroke="#4A88C7" stroke-width="1" rx="3" ry="3"/>
+  <rect x="60" y="260" width="60" height="40" fill="none" stroke="#4A88C7" stroke-width="1.5"/>
+  <path d="M 120 260 L 140 280 L 100 300 Z" fill="none" stroke="#4A88C7" stroke-width="1.5"/>
+  <circle cx="120" cy="280" r="25" fill="none" stroke="#4A88C7" stroke-width="1.5"/>
+  <text x="70" y="315" font-family="Arial, sans-serif" font-size="10" fill="#2C5F8D">a² + b² = c²</text>
+  <text x="70" y="330" font-family="Arial, sans-serif" font-size="10" fill="#2C5F8D">Теорема Пифагора</text>
+  
+  <!-- Теорема косинусов -->
+  <rect x="240" y="240" width="180" height="80" fill="white" stroke="#4A88C7" stroke-width="1" rx="3" ry="3"/>
+  <path d="M 260 300 L 330 270 L 400 300 Z" fill="none" stroke="#4A88C7" stroke-width="1.5"/>
+  <circle cx="330" cy="285" r="15" fill="none" stroke="#4A88C7" stroke-width="1.5"/>
+  <path d="M 330 270 A 15 15 0 0 1 343 278" fill="none" stroke="#FFA502" stroke-width="1.5"/>
+  <text x="270" y="315" font-family="Arial, sans-serif" font-size="10" fill="#2C5F8D">c² = a² + b² - 2ab cos γ</text>
+  <text x="270" y="330" font-family="Arial, sans-serif" font-size="10" fill="#2C5F8D">Теорема косинусов</text>
+  
+  <!-- Теорема синусов -->
+  <rect x="140" y="240" width="180" height="80" fill="white" stroke="#4A88C7" stroke-width="1" rx="3" ry="3"/>
+  <path d="M 160 300 L 230 270 L 300 300 L 230 330 Z" fill="none" stroke="#4A88C7" stroke-width="1.5"/>
+  <circle cx="230" cy="285" r="15" fill="none" stroke="#4A88C7" stroke-width="1.5"/>
+  <path d="M 230 270 A 15 15 0 0 1 243 278" fill="none" stroke="#FFA502" stroke-width="1.5"/>
+  <text x="170" y="315" font-family="Arial, sans-serif" font-size="10" fill="#2C5F8D">a/sin α = b/sin β = c/sin γ</text>
+  <text x="170" y="330" font-family="Arial, sans-serif" font-size="10" fill="#2C5F8D">Теорема синусов</text>
+  
+  <!-- Дополнительные элементы -->
+  <circle cx="50" cy="50" r="3" fill="#4A88C7"/>
+  <circle cx="450" cy="50" r="3" fill="#4A88C7"/>
+  <circle cx="50" cy="330" r="3" fill="#4A88C7"/>
+  <circle cx="450" cy="330" r="3" fill="#4A88C7"/>
+  
+  <!-- Разделительные линии -->
+  <line x1="30" y1="200" x2="470" y2="200" stroke="#4A88C7" stroke-width="1" opacity="0.5"/>
+  <line x1="240" y1="70" x2="240" y2="190" stroke="#4A88C7" stroke-width="1" opacity="0.5"/>
 </svg>

@@ -1,182 +1,123 @@
 <svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#e6f7ff;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#f0f8ff;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#4dabf7;stop-opacity:0.8" />
-      <stop offset="50%" style="stop-color:#339af0;stop-opacity:0.9" />
-      <stop offset="100%" style="stop-color:#228be6;stop-opacity:0.8" />
-    </linearGradient>
-    <linearGradient id="dB" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#ff8787;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#ffa8a8;stop-opacity:1" />
-    </linearGradient>
-  </defs>
-  
-  <!-- Фоновый прямоугольник -->
-  <rect width="500" height="350" fill="url(#bg)" />
-  
   <!-- Декоративная рамка -->
-  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#495057" stroke-width="3" />
-  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#868e96" stroke-width="1" />
-  
-  <!-- Подзаголовок -->
-  <text x="250" y="35" text-anchor="middle" font-family="Arial" font-size="14" fill="#495057" font-style="italic">ФИЗИКА · 11 КЛАСС</text>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#2C3E50" stroke-width="2"/>
+  <rect x="15" y="15" width="470" height="325" fill="none" stroke="#3498DB" stroke-width="1" stroke-dasharray="5,3"/>
   
   <!-- Заголовок -->
-  <text x="250" y="60" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#212529">ЗВУКОВЫЕ ВОЛНЫ</text>
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2C3E50">ФИЗИКА · 11 КЛАСС</text>
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#34495E">Урок 15: Звуковые волны</text>
   
-  <!-- Номер урока -->
-  <text x="470" y="30" text-anchor="end" font-family="Arial" font-size="16" fill="#495057">№ 25</text>
+  <!-- Номер урока в углу -->
+  <rect x="440" y="15" width="40" height="25" fill="#3498DB" rx="5"/>
+  <text x="460" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">15</text>
   
-  <!-- Камертон -->
-  <g transform="translate(80, 120)">
-    <!-- Основная часть камертона -->
-    <path d="M0,0 C-20,-40 -20,-60 0,-80 C20,-60 20,-40 0,0" fill="#e9ecef" stroke="#495057" stroke-width="2" />
-    <!-- Ручка -->
-    <circle cx="0" cy="-90" r="10" fill="#adb5bd" stroke="#495057" stroke-width="2" />
-    <!-- Вибрирующие части -->
-    <line x1="-15" y1="-50" x2="-15" y2="-30" stroke="#495057" stroke-width="1.5" />
-    <line x1="15" y1="-50" x2="15" y2="-30" stroke="#495057" stroke-width="1.5" />
-    <!-- Надпись -->
-    <text x="0" y="20" text-anchor="middle" font-family="Arial" font-size="12" fill="#212529">Камертон</text>
+  <!-- Источники звука -->
+  <text x="50" y="85" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C3E50">Источники звука</text>
+  
+  <!-- Колокол -->
+  <g transform="translate(50, 100)">
+    <ellipse cx="25" cy="40" rx="20" ry="25" fill="#E74C3C" stroke="#C0392B" stroke-width="1"/>
+    <rect x="20" y="15" width="10" height="10" fill="#34495E"/>
+    <path d="M15,10 Q25,5 35,10" fill="none" stroke="#34495E" stroke-width="2"/>
+    <text x="25" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Колокол</text>
   </g>
   
-  <!-- Звуковые волны от камертона -->
-  <g transform="translate(80, 120)">
-    <!-- Волна 1 -->
-    <path d="M30,0 Q40,-10 50,0 T70,0" fill="none" stroke="url(#wave)" stroke-width="2" opacity="0.9" />
-    <path d="M50,-20 Q60,-30 70,-20 T90,-20" fill="none" stroke="url(#wave)" stroke-width="2" opacity="0.8" />
-    <path d="M70,-40 Q80,-50 90,-40 T110,-40" fill="none" stroke="url(#wave)" stroke-width="2" opacity="0.7" />
-    <path d="M90,-60 Q100,-70 110,-60 T130,-60" fill="none" stroke="url(#wave)" stroke-width="2" opacity="0.6" />
-    
-    <!-- Волна 2 -->
-    <path d="M30,0 Q40,10 50,0 T70,0" fill="none" stroke="url(#wave)" stroke-width="2" opacity="0.9" />
-    <path d="M50,20 Q60,30 70,20 T90,20" fill="none" stroke="url(#wave)" stroke-width="2" opacity="0.8" />
-    <path d="M70,40 Q80,50 90,40 T110,40" fill="none" stroke="url(#wave)" stroke-width="2" opacity="0.7" />
-    <path d="M90,60 Q100,70 110,60 T130,60" fill="none" stroke="url(#wave)" stroke-width="2" opacity="0.6" />
-    
-    <!-- Направление распространения -->
-    <line x1="140" y1="-60" x2="140" y2="60" stroke="#495057" stroke-width="1.5" />
-    <polygon points="140,-65 135,-55 145,-55" fill="#495057" />
-    <text x="145" y="-50" font-family="Arial" font-size="11" fill="#212529">направление распространения</text>
+  <!-- Гитара -->
+  <g transform="translate(120, 100)">
+    <path d="M10,20 L10,50 Q10,60 20,60 L30,60 Q40,60 40,50 L40,20 Z" fill="#D35400" stroke="#A04000" stroke-width="1"/>
+    <circle cx="25" cy="45" r="5" fill="#7F8C8D"/>
+    <line x1="25" y1="20" x2="25" y2="10" stroke="#34495E" stroke-width="1"/>
+    <text x="25" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Гитара</text>
+  </g>
+  
+  <!-- Губная гармошка -->
+  <g transform="translate(190, 100)">
+    <rect x="5" y="20" width="40" height="20" rx="5" fill="#9B59B6" stroke="#8E44AD" stroke-width="1"/>
+    <rect x="10" y="25" width="8" height="10" fill="#8E44AD"/>
+    <rect x="20" y="25" width="8" height="10" fill="#8E44AD"/>
+    <rect x="30" y="25" width="8" height="10" fill="#8E44AD"/>
+    <text x="25" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Гармошка</text>
+  </g>
+  
+  <!-- Характеристики звука -->
+  <text x="50" y="185" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C3E50">Характеристики звука</text>
+  
+  <!-- График частота-громкость -->
+  <g transform="translate(50, 195)">
+    <rect x="0" y="0" width="120" height="80" fill="#ECF0F1" stroke="#BDC3C7" stroke-width="1"/>
+    <line x1="10" y1="70" x2="110" y2="70" stroke="#34495E" stroke-width="1"/>
+    <line x1="10" y1="70" x2="10" y2="10" stroke="#34495E" stroke-width="1"/>
+    <path d="M10,60 Q30,30 50,40 T90,20" fill="none" stroke="#E74C3C" stroke-width="2"/>
+    <text x="60" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50">Частота, Гц</text>
+    <text x="5" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50" transform="rotate(-90,5,40)">Громкость</text>
+    <text x="60" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">Амплитуда и частота</text>
+  </g>
+  
+  <!-- Тембр -->
+  <g transform="translate(190, 195)">
+    <rect x="0" y="0" width="120" height="80" fill="#ECF0F1" stroke="#BDC3C7" stroke-width="1"/>
+    <line x1="10" y1="70" x2="110" y2="70" stroke="#34495E" stroke-width="1"/>
+    <line x1="10" y1="70" x2="10" y2="10" stroke="#34495E" stroke-width="1"/>
+    <path d="M10,50 Q20,30 30,50 T50,50 T70,50 T90,50 T110,50" fill="none" stroke="#3498DB" stroke-width="1.5"/>
+    <path d="M10,55 Q15,45 20,55 T30,55 T40,55 T50,55 T60,55 T70,55 T80,55 T90,55 T100,55 T110,55" fill="none" stroke="#9B59B6" stroke-width="1"/>
+    <text x="60" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50">Время</text>
+    <text x="5" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50" transform="rotate(-90,5,40)">Амплитуда</text>
+    <text x="60" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">Тембр</text>
+  </g>
+  
+  <!-- Акустический резонанс -->
+  <text x="320" y="85" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C3E50">Акустический резонанс</text>
+  
+  <!-- Резонирующая труба -->
+  <g transform="translate(320, 100)">
+    <rect x="0" y="30" width="120" height="40" fill="none" stroke="#3498DB" stroke-width="2"/>
+    <circle cx="60" cy="50" r="5" fill="#E74C3C"/>
+    <path d="M5,50 Q30,30 60,50 T115,50" fill="none" stroke="#E74C3C" stroke-width="2" opacity="0.7"/>
+    <path d="M5,50 Q30,70 60,50 T115,50" fill="none" stroke="#E74C3C" stroke-width="2" opacity="0.7"/>
+    <text x="60" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Резонирующая труба</text>
+  </g>
+  
+  <!-- Формула резонанса -->
+  <g transform="translate(320, 195)">
+    <rect x="0" y="0" width="150" height="60" fill="#F8F9FA" stroke="#BDC3C7" stroke-width="1" rx="5"/>
+    <text x="75" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">f = n·c/(2L)</text>
+    <text x="75" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7F8C8D">где n = 1,2,3...</text>
+    <text x="75" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7F8C8D">f - частота резонанса</text>
+    <text x="75" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7F8C8D">L - длина трубы</text>
   </g>
   
   <!-- Схема звуковой волны -->
-  <g transform="translate(250, 150)">
-    <!-- Ось -->
-    <line x1="0" y1="0" x2="150" y2="0" stroke="#495057" stroke-width="1.5" />
-    <line x1="0" y1="-40" x2="0" y2="40" stroke="#495057" stroke-width="1.5" />
-    
-    <!-- Синусоида -->
-    <path d="M0,0 Q20,-30 40,0 T80,0 T120,0 T160,0" fill="none" stroke="#339af0" stroke-width="2" />
-    
-    <!-- Период -->
-    <line x1="0" y1="-45" x2="80" y2="-45" stroke="#e03131" stroke-width="1" stroke-dasharray="2,2" />
-    <line x1="0" y1="-40" x2="0" y2="-50" stroke="#e03131" stroke-width="1" />
-    <line x1="80" y1="-40" x2="80" y2="-50" stroke="#e03131" stroke-width="1" />
-    <text x="40" y="-50" text-anchor="middle" font-family="Arial" font-size="11" fill="#e03131">T (период)</text>
-    
-    <!-- Амплитуда -->
-    <line x1="40" y1="-40" x2="40" y2="0" stroke="#e03131" stroke-width="1" stroke-dasharray="2,2" />
-    <line x1="35" y1="0" x2="45" y2="0" stroke="#e03131" stroke-width="1" />
-    <line x1="35" y1="-30" x2="45" y2="-30" stroke="#e03131" stroke-width="1" />
-    <text x="50" y="-15" font-family="Arial" font-size="11" fill="#e03131">A (амплитуда)</text>
-    
-    <!-- Длина волны -->
-    <line x1="0" y1="45" x2="160" y2="45" stroke="#228be6" stroke-width="1" stroke-dasharray="2,2" />
-    <line x1="0" y1="40" x2="0" y2="50" stroke="#228be6" stroke-width="1" />
-    <line x1="160" y1="40" x2="160" y2="50" stroke="#228be6" stroke-width="1" />
-    <text x="80" y="60" text-anchor="middle" font-family="Arial" font-size="11" fill="#228be6">λ (длина волны)</text>
-    
-    <!-- Подпись -->
-    <text x="75" y="70" text-anchor="middle" font-family="Arial" font-size="12" fill="#212529">Схема звуковой волны</text>
+  <text x="50" y="295" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C3E50">Звуковая волна</text>
+  <g transform="translate(50, 305)">
+    <line x1="0" y1="15" x2="200" y2="15" stroke="#34495E" stroke-width="1"/>
+    <path d="M0,15 Q10,5 20,15 T40,15 T60,15 T80,15 T100,15 T120,15 T140,15 T160,15 T180,15 T200,15" fill="none" stroke="#3498DB" stroke-width="2"/>
+    <text x="0" y="30" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50">λ</text>
+    <text x="90" y="5" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50">Амплитуда</text>
+    <text x="180" y="30" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50">Длина волны</text>
   </g>
   
-  <!-- Шкала громкости в дБ -->
-  <g transform="translate(50, 250)">
-    <!-- Ось шкалы -->
-    <line x1="0" y1="0" x2="0" y2="100" stroke="#495057" stroke-width="2" />
-    
-    <!-- Деления и подписи -->
-    <line x1="-5" y1="0" x2="5" y2="0" stroke="#495057" stroke-width="1" />
-    <text x="10" y="5" font-family="Arial" font-size="10" fill="#212529">120 дБ</text>
-    
-    <line x1="-5" y1="20" x2="5" y2="20" stroke="#495057" stroke-width="1" />
-    <text x="10" y="25" font-family="Arial" font-size="10" fill="#212529">100 дБ</text>
-    
-    <line x1="-5" y1="40" x2="5" y2="40" stroke="#495057" stroke-width="1" />
-    <text x="10" y="45" font-family="Arial" font-size="10" fill="#212529">80 дБ</text>
-    
-    <line x1="-5" y1="60" x2="5" y2="60" stroke="#495057" stroke-width="1" />
-    <text x="10" y="65" font-family="Arial" font-size="10" fill="#212529">60 дБ</text>
-    
-    <line x1="-5" y1="80" x2="5" y2="80" stroke="#495057" stroke-width="1" />
-    <text x="10" y="85" font-family="Arial" font-size="10" fill="#212529">40 дБ</text>
-    
-    <line x1="-5" y1="100" x2="5" y2="100" stroke="#495057" stroke-width="1" />
-    <text x="10" y="105" font-family="Arial" font-size="10" fill="#212529">0 дБ</text>
-    
-    <!-- Цветовая заливка -->
-    <rect x="15" y="0" width="30" height="20" fill="url(#dB)" opacity="0.8" />
-    <rect x="15" y="20" width="30" height="20" fill="#ffa94d" opacity="0.8" />
-    <rect x="15" y="40" width="30" height="20" fill="#ffd43b" opacity="0.8" />
-    <rect x="15" y="60" width="30" height="20" fill="#8ce99a" opacity="0.8" />
-    <rect x="15" y="80" width="30" height="20" fill="#74c0fc" opacity="0.8" />
-    
-    <!-- Подпись шкалы -->
-    <text x="30" y="-10" text-anchor="middle" font-family="Arial" font-size="12" fill="#212529">Уровень громкости</text>
-    <text x="30" y="120" text-anchor="middle" font-family="Arial" font-size="10" fill="#495057">(дБ)</text>
+  <!-- Диаграмма слышимости -->
+  <g transform="translate(270, 295)">
+    <rect x="0" y="0" width="200" height="35" fill="#ECF0F1" stroke="#BDC3C7" stroke-width="1"/>
+    <rect x="10" y="15" width="15" height="15" fill="#E74C3C" opacity="0.8"/>
+    <rect x="30" y="10" width="15" height="20" fill="#E74C3C" opacity="0.8"/>
+    <rect x="50" y="5" width="15" height="25" fill="#E74C3C" opacity="0.8"/>
+    <rect x="70" y="8" width="15" height="22" fill="#E74C3C" opacity="0.8"/>
+    <rect x="90" y="12" width="15" height="18" fill="#E74C3C" opacity="0.8"/>
+    <rect x="110" y="15" width="15" height="15" fill="#E74C3C" opacity="0.8"/>
+    <rect x="130" y="18" width="15" height="12" fill="#E74C3C" opacity="0.8"/>
+    <rect x="150" y="20" width="15" height="10" fill="#E74C3C" opacity="0.8"/>
+    <rect x="170" y="22" width="15" height="8" fill="#E74C3C" opacity="0.8"/>
+    <text x="100" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50">20 Гц - 20 кГц</text>
+    <text x="100" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2C3E50">Диапазон слышимости человека</text>
   </g>
   
-  <!-- Формулы -->
-  <g transform="translate(300, 230)">
-    <!-- Формула уровня громкости -->
-    <rect x="-10" y="-20" width="180" height="40" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" rx="5" />
-    <text x="80" y="-5" text-anchor="middle" font-family="Arial" font-size="14" fill="#212529">L = 10 lg(I/I₀)</text>
-    <text x="80" y="10" text-anchor="middle" font-family="Arial" font-size="10" fill="#495057">где I₀ = 10⁻¹² Вт/м²</text>
-    
-    <!-- Формула скорости звука -->
-    <rect x="-10" y="30" width="180" height="40" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" rx="5" />
-    <text x="80" y="45" text-anchor="middle" font-family="Arial" font-size="14" fill="#212529">v = √(γRT/M)</text>
-    <text x="80" y="60" text-anchor="middle" font-family="Arial" font-size="10" fill="#495057">γ - адиабатический показатель</text>
-  </g>
-  
-  <!-- Легенда -->
-  <g transform="translate(420, 100)">
-    <rect x="-5" y="-5" width="75" height="100" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" rx="3" />
-    <text x="32" y="10" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#212529">Легенда:</text>
-    
-    <circle cx="10" cy="25" r="3" fill="#e9ecef" stroke="#495057" stroke-width="1" />
-    <text x="20" y="30" font-family="Arial" font-size="9" fill="#495057">Источник звука</text>
-    
-    <line x1="5" y1="40" x2="15" y2="40" stroke="#339af0" stroke-width="2" />
-    <text x="20" y="44" font-family="Arial" font-size="9" fill="#495057">Звуковая волна</text>
-    
-    <line x1="5" y1="55" x2="15" y2="55" stroke="#e03131" stroke-width="1" stroke-dasharray="2,2" />
-    <text x="20" y="59" font-family="Arial" font-size="9" fill="#495057">Характеристики</text>
-    
-    <rect x="5" y="70" width="10" height="10" fill="#74c0fc" opacity="0.8" />
-    <text x="20" y="79" font-family="Arial" font-size="9" fill="#495057">Тихий звук</text>
-  </g>
-  
-  <!-- Дополнительные элементы оформления -->
-  <g transform="translate(250, 80)">
-    <!-- Микрофон -->
-    <ellipse cx="0" cy="0" rx="8" ry="15" fill="#868e96" stroke="#495057" stroke-width="1.5" />
-    <line x1="0" y1="-15" x2="0" y2="-25" stroke="#495057" stroke-width="1.5" />
-    <line x1="-15" y1="-25" x2="15" y2="-25" stroke="#495057" stroke-width="1.5" />
-    <line x1="-10" y1="-30" x2="10" y2="-30" stroke="#495057" stroke-width="1.5" />
-    <text x="0" y="30" text-anchor="middle" font-family="Arial" font-size="10" fill="#495057">приемник</text>
-  </g>
-  
-  <!-- Частотная характеристика -->
-  <g transform="translate(250, 280)">
-    <rect x="-50" y="-20" width="100" height="40" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" rx="3" />
-    <text x="0" y="-5" text-anchor="middle" font-family="Arial" font-size="10" fill="#212529">Частота f</text>
-    <text x="0" y="10" text-anchor="middle" font-family="Arial" font-size="10" fill="#212529">20-20000 Гц</text>
-  </g>
+  <!-- Градиент для волн -->
+  <defs>
+    <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3498DB;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#3498DB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3498DB;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
 </svg>

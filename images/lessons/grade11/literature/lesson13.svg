@@ -1,23 +1,118 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#451a03"/>
-      <stop offset="100%" style="stop-color:#a16207"/>
+      <stop offset="0%" style="stop-color:#f8f4e6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8dfd2;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fcd34d;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#fcd34d;stop-opacity:0"/>
-    </radialGradient>
+    <linearGradient id="frameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a0522d;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="portraitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4c5b9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c1a581;stop-opacity:1" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#fcd34d" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#fcd34d" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#fcd34d" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fef3c7" text-anchor="middle">13</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fef3c7" text-anchor="middle" opacity="0.8">ЛИТЕРАТУРА · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fef3c7" text-anchor="middle">Урок 13: А.П. Платонов. Жизнь и творчество</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fcd34d" text-anchor="middle" opacity="0.8">Урок 13 из 35</text>
-  <rect x="200" y="130" width="100" height="80" fill="#fcd34d" opacity="0.3"/><line x1="250" y1="130" x2="250" y2="210" stroke="#fef3c7" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Фоновый прямоугольник -->
+  <rect x="10" y="10" width="480" height="330" fill="url(#bgGrad)" />
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="url(#frameGrad)" stroke-width="4" />
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#8b4513" stroke-width="1" opacity="0.5" />
+  
+  <!-- Заголовок "ЛИТЕРАТУРА · 11 КЛАСС" -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="12" fill="#5d4e37" text-anchor="middle" font-weight="bold">ЛИТЕРАТУРА · 11 КЛАСС</text>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="18" fill="#3e2723" text-anchor="middle" font-weight="bold">Урок 13: А.П. Платонов</text>
+  <text x="250" y="75" font-family="Arial, sans-serif" font-size="14" fill="#5d4e37" text-anchor="middle">Жизнь и творчество</text>
+  
+  <!-- Номер урока в углу -->
+  <text x="470" y="330" font-family="Arial, sans-serif" font-size="12" fill="#8b4513" text-anchor="end" font-weight="bold">№13</text>
+  
+  <!-- Портрет Платонова -->
+  <ellipse cx="100" cy="140" rx="35" ry="45" fill="url(#portraitGrad)" />
+  <ellipse cx="100" cy="125" rx="15" ry="18" fill="#d4c5b9" />
+  <path d="M85,140 Q100,135 115,140 L110,155 Q100,160 90,155 Z" fill="#d4c5b9" />
+  <circle cx="93" cy="120" r="2" fill="#3e2723" />
+  <circle cx="107" cy="120" r="2" fill="#3e2723" />
+  <path d="M95,128 Q100,132 105,128" fill="none" stroke="#3e2723" stroke-width="1" />
+  <path d="M85,135 Q90,140 95,138" fill="none" stroke="#8b4513" stroke-width="1" />
+  <path d="M105,138 Q110,140 115,135" fill="none" stroke="#8b4513" stroke-width="1" />
+  
+  <!-- Подпись портрета -->
+  <text x="100" y="195" font-family="Arial, sans-serif" font-size="12" fill="#5d4e37" text-anchor="middle">А.П. Платонов</text>
+  <text x="100" y="210" font-family="Arial, sans-serif" font-size="10" fill="#8b4513" text-anchor="middle">(1899-1951)</text>
+  
+  <!-- Биографическая линия времени -->
+  <line x1="150" y1="140" x2="450" y2="140" stroke="#8b4513" stroke-width="2" />
+  <circle cx="150" cy="140" r="5" fill="#8b4513" />
+  <circle cx="200" cy="140" r="5" fill="#8b4513" />
+  <circle cx="250" cy="140" r="5" fill="#8b4513" />
+  <circle cx="300" cy="140" r="5" fill="#8b4513" />
+  <circle cx="350" cy="140" r="5" fill="#8b4513" />
+  <circle cx="400" cy="140" r="5" fill="#8b4513" />
+  <circle cx="450" cy="140" r="5" fill="#8b4513" />
+  
+  <!-- Даты на линии времени -->
+  <text x="150" y="130" font-family="Arial, sans-serif" font-size="10" fill="#5d4e37" text-anchor="middle">1899</text>
+  <text x="200" y="130" font-family="Arial, sans-serif" font-size="10" fill="#5d4e37" text-anchor="middle">1918</text>
+  <text x="250" y="130" font-family="Arial, sans-serif" font-size="10" fill="#5d4e37" text-anchor="middle">1927</text>
+  <text x="300" y="130" font-family="Arial, sans-serif" font-size="10" fill="#5d4e37" text-anchor="middle">1929</text>
+  <text x="350" y="130" font-family="Arial, sans-serif" font-size="10" fill="#5d4e37" text-anchor="middle">1934</text>
+  <text x="400" y="130" font-family="Arial, sans-serif" font-size="10" fill="#5d4e37" text-anchor="middle">1941</text>
+  <text x="450" y="130" font-family="Arial, sans-serif" font-size="10" fill="#5d4e37" text-anchor="middle">1951</text>
+  
+  <!-- События на линии времени -->
+  <text x="150" y="155" font-family="Arial, sans-serif" font-size="9" fill="#8b4513" text-anchor="middle">Рождение</text>
+  <text x="200" y="155" font-family="Arial, sans-serif" font-size="9" fill="#8b4513" text-anchor="middle">Инженер</text>
+  <text x="250" y="155" font-family="Arial, sans-serif" font-size="9" fill="#8b4513" text-anchor="middle">«Котлован»</text>
+  <text x="300" y="155" font-family="Arial, sans-serif" font-size="9" fill="#8b4513" text-anchor="middle">«Чевенгур»</text>
+  <text x="350" y="155" font-family="Arial, sans-serif" font-size="9" fill="#8b4513" text-anchor="middle">Война</text>
+  <text x="400" y="155" font-family="Arial, sans-serif" font-size="9" fill="#8b4513" text-anchor="middle">Послевоен.</text>
+  <text x="450" y="155" font-family="Arial, sans-serif" font-size="9" fill="#8b4513" text-anchor="middle">Смерть</text>
+  
+  <!-- Ключевые произведения -->
+  <rect x="50" y="220" width="120" height="100" fill="#f0e6d2" stroke="#8b4513" stroke-width="1" rx="5" />
+  <text x="110" y="235" font-family="Arial, sans-serif" font-size="11" fill="#3e2723" text-anchor="middle" font-weight="bold">Ключевые произведения</text>
+  <text x="60" y="250" font-family="Arial, sans-serif" font-size="9" fill="#5d4e37">• «Котлован» (1930)</text>
+  <text x="60" y="265" font-family="Arial, sans-serif" font-size="9" fill="#5d4e37">• «Чевенгур» (1927)</text>
+  <text x="60" y="280" font-family="Arial, sans-serif" font-size="9" fill="#5d4e37">• «Джан» (1934)</text>
+  <text x="60" y="295" font-family="Arial, sans-serif" font-size="9" fill="#5d4e37">• «Сокровенный человек»</text>
+  <text x="60" y="310" font-family="Arial, sans-serif" font-size="9" fill="#5d4e37">• «Революционная песнь»</text>
+  
+  <!-- Стиль и тематика -->
+  <rect x="190" y="220" width="120" height="100" fill="#e6f0e6" stroke="#5d8a5d" stroke-width="1" rx="5" />
+  <text x="250" y="235" font-family="Arial, sans-serif" font-size="11" fill="#2e5a2e" text-anchor="middle" font-weight="bold">Стиль и тематика</text>
+  <text x="200" y="250" font-family="Arial, sans-serif" font-size="9" fill="#3a5a3a">• Философская проза</text>
+  <text x="200" y="265" font-family="Arial, sans-serif" font-size="9" fill="#3a5a3a">• Утопия и антиутопия</text>
+  <text x="200" y="280" font-family="Arial, sans-serif" font-size="9" fill="#3a5a3a">• Социальная критика</text>
+  <text x="200" y="295" font-family="Arial, sans-serif" font-size="9" fill="#3a5a3a">• Экзистенциальные темы</text>
+  <text x="200" y="310" font-family="Arial, sans-serif" font-size="9" fill="#3a5a3a">• Поэтический язык</text>
+  
+  <!-- Философские идеи -->
+  <rect x="330" y="220" width="120" height="100" fill="#e6e6f0" stroke="#5d5d8a" stroke-width="1" rx="5" />
+  <text x="390" y="235" font-family="Arial, sans-serif" font-size="11" fill="#2e2e5a" text-anchor="middle" font-weight="bold">Философские идеи</text>
+  <text x="340" y="250" font-family="Arial, sans-serif" font-size="9" fill="#3a3a5a">• Человеческое достоинство</text>
+  <text x="340" y="265" font-family="Arial, sans-serif" font-size="9" fill="#3a3a5a">• Ценность труда</text>
+  <text x="340" y="280" font-family="Arial, sans-serif" font-size="9" fill="#3a3a5a">• Проблема счастья</text>
+  <text x="340" y="295" font-family="Arial, sans-serif" font-size="9" fill="#3a3a5a">• Социальная справедливость</text>
+  <text x="340" y="310" font-family="Arial, sans-serif" font-size="9" fill="#3a3a5a">• Трагедия прогресса</text>
+  
+  <!-- Декоративные элементы -->
+  <path d="M30,30 L40,40 L30,50 L20,40 Z" fill="#8b4513" opacity="0.3" />
+  <path d="M470,30 L480,40 L470,50 L460,40 Z" fill="#8b4513" opacity="0.3" />
+  <path d="M30,300 L40,310 L30,320 L20,310 Z" fill="#8b4513" opacity="0.3" />
+  <path d="M470,300 L480,310 L470,320 L460,310 Z" fill="#8b4513" opacity="0.3" />
+  
+  <!-- Символ книги -->
+  <rect x="230" y="85" width="40" height="30" fill="#8b4513" rx="2" />
+  <rect x="232" y="87" width="36" height="26" fill="#f8f4e6" />
+  <line x1="250" y1="85" x2="250" y2="115" stroke="#8b4513" stroke-width="2" />
+  <path d="M232,100 Q250,105 268,100" fill="none" stroke="#8b4513" stroke-width="1" />
+  <path d="M232,105 Q250,110 268,105" fill="none" stroke="#8b4513" stroke-width="1" />
+  
+  <!-- Надпись на книге -->
+  <text x="250" y="102" font-family="Arial, sans-serif" font-size="8" fill="#8b4513" text-anchor="middle">А.П. П.</text>
 </svg>

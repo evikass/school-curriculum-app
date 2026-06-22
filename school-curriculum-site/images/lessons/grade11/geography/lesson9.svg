@@ -1,40 +1,208 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#00695C" />
-      <stop offset="100%" stop-color="#289184" />
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F7FA;stop-opacity:1" />
     </linearGradient>
-    <filter id="sh" x="-5%" y="-5%" width="110%" height="110%">
-      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="rgba(0,0,0,0.10)" />
-    </filter>
+    <linearGradient id="earthGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8BC34A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFEB3B;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="pollutionGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF5252;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#FFC107;stop-opacity:0.7" />
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="1" fill="#2196F3"/>
+    </pattern>
   </defs>
-  <rect width="500" height="350" rx="12" ry="12" fill="#E0F2F1" />
-  <rect x="1" y="1" width="498" height="348" rx="12" ry="12" fill="none" stroke="#00695C" stroke-width="2.5" />
-  <rect x="16" y="16" width="468" height="54" rx="10" ry="10" fill="url(#hdr)" filter="url(#sh)" />
-  <text x="32" y="50" font-family="sans-serif" font-size="22" fill="#FFFFFF">🌍</text>
-  <text x="60" y="38" font-family="sans-serif" font-weight="700" font-size="14" fill="#FFFFFF">География — Урок 9</text>
-  <text x="60" y="56" font-family="sans-serif" font-weight="600" font-size="11" fill="rgba(255,255,255,0.85)">11 класс · Урок 9</text>
-  <circle cx="450" cy="43" r="20" fill="rgba(255,255,255,0.20)" stroke="rgba(255,255,255,0.50)" stroke-width="1.5" />
-  <text x="450" y="50" font-family="sans-serif" font-weight="800" font-size="18" fill="#FFFFFF" text-anchor="middle">9</text>
-  <text x="250" y="96" font-family="sans-serif" font-weight="700" font-size="17" fill="#00695C" text-anchor="middle">Экологические проблемы</text>
-  <line x1="80" y1="106" x2="420" y2="106" stroke="rgba(0,105,92,0.25)" stroke-width="1.5" stroke-dasharray="6,3" />
-  <rect x="32" y="120" width="436" height="42" rx="8" ry="8" fill="rgba(0,105,92,0.12)" stroke="rgba(0,105,92,0.25)" stroke-width="1" />
-  <circle cx="54" cy="141" r="13" fill="#00695C" />
-  <text x="54" y="146" font-family="sans-serif" font-weight="700" font-size="12" fill="#FFFFFF" text-anchor="middle">1</text>
-  <text x="74" y="146" font-family="sans-serif" font-weight="500" font-size="13" fill="#263238">Глобальное потепление и парниковый эффект</text>
-  <rect x="32" y="168" width="436" height="42" rx="8" ry="8" fill="rgba(0,105,92,0.12)" stroke="rgba(0,105,92,0.25)" stroke-width="1" />
-  <circle cx="54" cy="189" r="13" fill="#00695C" />
-  <text x="54" y="194" font-family="sans-serif" font-weight="700" font-size="12" fill="#FFFFFF" text-anchor="middle">2</text>
-  <text x="74" y="194" font-family="sans-serif" font-weight="500" font-size="13" fill="#263238">Загрязнение атмосферы и гидросферы</text>
-  <rect x="32" y="216" width="436" height="42" rx="8" ry="8" fill="rgba(0,105,92,0.12)" stroke="rgba(0,105,92,0.25)" stroke-width="1" />
-  <circle cx="54" cy="237" r="13" fill="#00695C" />
-  <text x="54" y="242" font-family="sans-serif" font-weight="700" font-size="12" fill="#FFFFFF" text-anchor="middle">3</text>
-  <text x="74" y="242" font-family="sans-serif" font-weight="500" font-size="13" fill="#263238">Опустынивание и вырубка лесов</text>
-  <rect x="32" y="264" width="436" height="42" rx="8" ry="8" fill="rgba(0,105,92,0.12)" stroke="rgba(0,105,92,0.25)" stroke-width="1" />
-  <circle cx="54" cy="285" r="13" fill="#00695C" />
-  <text x="54" y="290" font-family="sans-serif" font-weight="700" font-size="12" fill="#FFFFFF" text-anchor="middle">4</text>
-  <text x="74" y="290" font-family="sans-serif" font-weight="500" font-size="13" fill="#263238">Пути решения экологических проблем</text>
-  <rect x="16" y="306" width="468" height="28" rx="8" ry="8" fill="rgba(0,0,0,0.05)" />
-  <text x="250" y="324" font-family="sans-serif" font-weight="600" font-size="11" fill="#00695C" text-anchor="middle">География · 11 класс</text>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#4CAF50" stroke-width="3"/>
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#8BC34A" stroke-width="1"/>
+  
+  <!-- Номер урока -->
+  <circle cx="30" cy="30" r="15" fill="#4CAF50"/>
+  <text x="30" y="35" text-anchor="middle" fill="white" font-size="14" font-weight="bold">9</text>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" text-anchor="middle" font-size="18" font-weight="bold" fill="#2E7D32">ГЕОГРАФИЯ · 11 КЛАСС</text>
+  <text x="250" y="55" text-anchor="middle" font-size="16" font-weight="bold" fill="#1B5E20">Урок 9: Экологические проблемы</text>
+  <text x="250" y="75" text-anchor="middle" font-size="14" fill="#388E3C">Охрана окружающей среды</text>
+  
+  <!-- Небо -->
+  <rect x="40" y="90" width="420" height="140" fill="url(#skyGradient)"/>
+  
+  <!-- Земля -->
+  <path d="M40,230 C80,220 120,225 160,215 C200,205 240,210 280,200 C320,190 360,195 400,185 C440,175 460,180 460,180 L460,230 Z" fill="url(#earthGradient)"/>
+  
+  <!-- Загрязнение воздуха -->
+  <g transform="translate(100,120)">
+    <ellipse cx="0" cy="0" rx="40" ry="30" fill="url(#pollutionGradient)"/>
+    <text x="0" y="5" text-anchor="middle" font-size="10" fill="#333">Загрязнение воздуха</text>
+    <text x="0" y="18" text-anchor="middle" font-size="8" fill="#333">CO₂, SO₂, NOx</text>
+  </g>
+  
+  <!-- Загрязнение воды -->
+  <g transform="translate(250,150)">
+    <path d="M-30,0 Q-20,-10 0,-5 Q20,-10 30,0 Q20,10 0,5 Q-20,10 -30,0" fill="#FF5722" opacity="0.7"/>
+    <path d="M-30,0 Q-20,10 0,5 Q20,10 30,0 Q20,-10 0,-5 Q-20,-10 -30,0" fill="#FF9800" opacity="0.5"/>
+    <text x="0" y="20" text-anchor="middle" font-size="10" fill="#333">Загрязнение воды</text>
+    <text x="0" y="33" text-anchor="middle" font-size="8" fill="#333">Нефтяные пятна</text>
+  </g>
+  
+  <!-- Истощение озонового слоя -->
+  <g transform="translate(380,110)">
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#9C27B0" stroke-width="2" stroke-dasharray="5,5"/>
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#9C27B0" stroke-width="2" stroke-dasharray="5,5"/>
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#9C27B0" stroke-width="2" stroke-dasharray="5,5"/>
+    <text x="0" y="40" text-anchor="middle" font-size="10" fill="#333">Озоновые дыры</text>
+    <text x="0" y="53" text-anchor="middle" font-size="8" fill="#333">-4% в год</text>
+  </g>
+  
+  <!-- Диаграмма "Основные загрязнители" -->
+  <g transform="translate(50,250)">
+    <text x="0" y="0" font-size="12" font-weight="bold" fill="#1B5E20">Основные загрязнители:</text>
+    
+    <!-- Промышленность -->
+    <rect x="0" y="10" width="80" height="15" fill="#F44336"/>
+    <text x="85" y="22" font-size="10" fill="#333">Промышленность (42%)</text>
+    
+    <!-- Транспорт -->
+    <rect x="0" y="30" width="65" height="15" fill="#FF9800"/>
+    <text x="70" y="42" font-size="10" fill="#333">Транспорт (35%)</text>
+    
+    <!-- Сельское хозяйство -->
+    <rect x="0" y="50" width="35" height="15" fill="#FFEB3B"/>
+    <text x="40" y="62" font-size="10" fill="#333">С/х (18%)</text>
+    
+    <!-- Бытовые отходы -->
+    <rect x="0" y="70" width="15" height="15" fill="#4CAF50"/>
+    <text x="20" y="82" font-size="10" fill="#333">Бытовые (5%)</text>
+  </g>
+  
+  <!-- Схема переработки отходов -->
+  <g transform="translate(280,250)">
+    <text x="60" y="-5" text-anchor="middle" font-size="12" font-weight="bold" fill="#1B5E20">Цикл переработки</text>
+    
+    <!-- Круговые стрелки -->
+    <circle cx="30" cy="30" r="20" fill="none" stroke="#2196F3" stroke-width="2"/>
+    <circle cx="90" cy="30" r="20" fill="none" stroke="#2196F3" stroke-width="2"/>
+    <circle cx="60" cy="65" r="20" fill="none" stroke="#2196F3" stroke-width="2"/>
+    
+    <!-- Стрелки -->
+    <path d="M48,30 L72,30" stroke="#2196F3" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M90,48 L75,53" stroke="#2196F3" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M42,53 L57,48" stroke="#2196F3" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Метки -->
+    <text x="30" y="35" text-anchor="middle" font-size="9" fill="#333">Сбор</text>
+    <text x="90" y="35" text-anchor="middle" font-size="9" fill="#333">Сортировка</text>
+    <text x="60" y="70" text-anchor="middle" font-size="9" fill="#333">Переработка</text>
+    
+    <!-- Стрелка маркер -->
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3"/>
+      </marker>
+    </defs>
+  </g>
+  
+  <!-- Формула расчета углеродного следа -->
+  <g transform="translate(40,310)">
+    <text x="0" y="0" font-size="11" font-weight="bold" fill="#1B5E20">Формула углеродного следа:</text>
+    <text x="0" y="15" font-size="10" fill="#333">УС = (CO₂ × 3.67) + (CH₄ × 25) + (N₂O × 298) (в тоннах CO₂-эквивалента)</text>
+  </g>
+  
+  <!-- Дерево -->
+  <g transform="translate(440,180)">
+    <rect x="-5" y="20" width="10" height="30" fill="#795548"/>
+    <circle cx="0" cy="0" r="20" fill="#4CAF50"/>
+    <text x="0" y="65" text-anchor="middle" font-size="9" fill="#333">1 дерево = 22 кг CO₂/год</text>
+  </g>
+  
+  <!-- Лес -->
+  <g transform="translate(350,200)">
+    <rect x="-3" y="15" width="6" height="20" fill="#5D4037"/>
+    <circle cx="0" cy="-5" r="15" fill="#388E3C"/>
+    <rect x="-20" y="10" width="6" height="25" fill="#5D4037"/>
+    <circle cx="-17" cy="-10" r="12" fill="#4CAF50"/>
+    <rect x="17" y="12" width="5" height="23" fill="#5D4037"/>
+    <circle cx="19" cy="-8" r="13" fill="#66BB6A"/>
+    <text x="0" y="50" text-anchor="middle" font-size="9" fill="#333">Леса поглощают 2.4 Гт CO₂/год</text>
+  </g>
+  
+  <!-- Солнце -->
+  <circle cx="450" cy="120" r="15" fill="#FFC107"/>
+  <g stroke="#FFC107" stroke-width="2">
+    <line x1="450" y1="95" x2="450" y2="105"/>
+    <line x1="450" y1="135" x2="450" y2="145"/>
+    <line x1="425" y1="120" x2="435" y2="120"/>
+    <line x1="465" y1="120" x2="475" y2="120"/>
+    <line x1="435" y1="105" x2="442" y2="112"/>
+    <line x1="458" y1="128" x2="465" y2="135"/>
+    <line x1="435" y1="135" x2="442" y2="128"/>
+    <line x1="458" y1="112" x2="465" y2="105"/>
+  </g>
+  
+  <!-- Облака -->
+  <g opacity="0.8">
+    <ellipse cx="120" cy="100" rx="20" ry="12" fill="white"/>
+    <ellipse cx="135" cy="98" rx="25" ry="15" fill="white"/>
+    <ellipse cx="150" cy="100" rx="20" ry="12" fill="white"/>
+  </g>
+  
+  <g opacity="0.8">
+    <ellipse cx="300" cy="110" rx="18" ry="10" fill="white"/>
+    <ellipse cx="313" y="108" rx="22" ry="13" fill="white"/>
+    <ellipse cx="325" y="110" rx="18" ry="10" fill="white"/>
+  </g>
+  
+  <!-- Индикатор температуры -->
+  <g transform="translate(60,140)">
+    <rect x="0" y="0" width="10" height="40" rx="5" fill="#E0E0E0"/>
+    <rect x="2" y="20" width="6" height="18" fill="#F44336"/>
+    <circle cx="5" cy="42" r="8" fill="#F44336"/>
+    <text x="15" y="25" font-size="10" fill="#333">+1.1°C</text>
+    <text x="15" y="37" font-size="8" fill="#333">с 1880 г.</text>
+  </g>
+  
+  <!-- Симвизы переработки -->
+  <g transform="translate(200,90)">
+    <!-- Бумага -->
+    <rect x="0" y="0" width="15" height="20" fill="#2196F3" opacity="0.7"/>
+    <path d="M0,5 L7.5,10 L15,5" fill="none" stroke="white" stroke-width="1"/>
+    <text x="20" y="10" font-size="8" fill="#333">Бумага</text>
+    
+    <!-- Пластик -->
+    <path d="M40,0 L55,0 L55,15 Q55,20 50,20 L45,20 Q40,20 40,15 Z" fill="#FFC107" opacity="0.7"/>
+    <text x="60" y="10" font-size="8" fill="#333">Пластик</text>
+    
+    <!-- Стекло -->
+    <path d="M80,0 L95,0 L95,20 Q95,25 90,25 L85,25 Q80,25 80,20 Z" fill="none" stroke="#4CAF50" stroke-width="2"/>
+    <text x="100" y="10" font-size="8" fill="#333">Стекло</text>
+  </g>
+  
+  <!-- График снижения выбросов -->
+  <g transform="translate(320,90)">
+    <rect x="0" y="0" width="100" height="60" fill="white" stroke="#9E9E9E" stroke-width="1"/>
+    <polyline points="10,50 30,45 50,35 70,30 90,20" fill="none" stroke="#4CAF50" stroke-width="2"/>
+    <polyline points="10,50 30,48 50,45 70,40 90,35" fill="none" stroke="#FF5252" stroke-width="2"/>
+    <text x="50" y="-5" text-anchor="middle" font-size="9" fill="#333">Выбросы CO₂</text>
+    <text x="5" y="15" font-size="7" fill="#4CAF50">Цель</text>
+    <text x="5" y="35" font-size="7" fill="#FF5252">Факт</text>
+  </g>
+  
+  <!-- Эко-дом -->
+  <g transform="translate(400,240)">
+    <rect x="0" y="15" width="40" height="30" fill="#8BC34A"/>
+    <polygon points="0,15 20,0 40,15" fill="#689F38"/>
+    <rect x="15" y="25" width="10" height="15" fill="#2196F3"/>
+    <circle cx="25" cy="32" r="2" fill="#FFC107"/>
+    <rect x="5" y="20" width="8" height="8" fill="#FFC107"/>
+    <rect x="27" y="20" width="8" height="8" fill="#FFC107"/>
+    <text x="20" y="60" text-anchor="middle" font-size="8" fill="#333">Эко-дом</text>
+    <text x="20" y="72" text-anchor="middle" font-size="7" fill="#333">-40% энергии</text>
+  </g>
 </svg>

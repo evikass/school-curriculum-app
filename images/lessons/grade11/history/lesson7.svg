@@ -1,23 +1,172 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#4c1d95"/>
-      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    <!-- Градиенты -->
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a237e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3949ab;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#c4b5fd;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#c4b5fd;stop-opacity:0"/>
-    </radialGradient>
+    
+    <linearGradient id="palaceGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d7ccc8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a1887f;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="auroraGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f44336;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff9800;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Декоративная рамка -->
+    <pattern id="framePattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#8d6e63"/>
+      <rect x="10" y="10" width="10" height="10" fill="#8d6e63"/>
+    </pattern>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#c4b5fd" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#c4b5fd" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#c4b5fd" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#ede9fe" text-anchor="middle">7</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ede9fe" text-anchor="middle" opacity="0.8">ИСТОРИЯ РОССИИ · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#ede9fe" text-anchor="middle">Урок 7: Октябрьская революция 1917 г. Установление</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#c4b5fd" text-anchor="middle" opacity="0.8">Урок 7 из 35</text>
-  <polygon points="250,120 263,165 311,165 272,193 286,237 250,210 214,237 228,193 189,165 237,165" fill="#c4b5fd" opacity="0.4"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#5d4037" stroke-width="3"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#8d6e63" stroke-width="1"/>
+  
+  <!-- Номер урока -->
+  <text x="480" y="340" font-family="Arial, sans-serif" font-size="10" fill="#5d4037" text-anchor="end">урок 15</text>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1a237e" text-anchor="middle">ИСТОРИЯ · 11 КЛАСС</text>
+  <text x="250" y="50" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#311b92" text-anchor="middle">ОКТЯБРЬСКАЯ РЕВОЛЮЦИЯ</text>
+  
+  <!-- Небо -->
+  <rect x="0" y="60" width="500" height="100" fill="url(#skyGradient)"/>
+  
+  <!-- Зимний дворец -->
+  <g id="winterPalace">
+    <rect x="180" y="80" width="140" height="80" fill="url(#palaceGradient)"/>
+    <polygon points="160,80 250,50 340,80" fill="#8d6e63"/>
+    <rect x="200" y="100" width="20" height="30" fill="#5d4037"/>
+    <rect x="230" y="100" width="20" height="30" fill="#5d4037"/>
+    <rect x="260" y="100" width="20" height="30" fill="#5d4037"/>
+    <rect x="290" y="100" width="20" height="30" fill="#5d4037"/>
+    <text x="250" y="175" font-family="Arial, sans-serif" font-size="10" fill="#5d4037" text-anchor="middle">Зимний дворец</text>
+  </g>
+  
+  <!-- Крейсер Аврора -->
+  <g id="aurora">
+    <rect x="50" y="140" width="80" height="30" fill="#37474f"/>
+    <polygon points="50,140 90,125 130,140" fill="#455a64"/>
+    <rect x="70" y="110" width="40" height="15" fill="#546e7a"/>
+    <line x1="90" y1="125" x2="90" y2="95" stroke="#ff5722" stroke-width="3"/>
+    <text x="90" y="185" font-family="Arial, sans-serif" font-size="10" fill="#37474f" text-anchor="middle">Крейсер «Аврора»</text>
+  </g>
+  
+  <!-- Луч от Авроры -->
+  <polygon points="90,95 250,60 410,95" fill="#ff9800" opacity="0.3"/>
+  
+  <!-- II съезд Советов -->
+  <g id="congress">
+    <rect x="350" y="100" width="100" height="60" fill="#5d4037"/>
+    <rect x="360" y="110" width="80" height="40" fill="#8d6e63"/>
+    <line x1="370" y1="120" x2="430" y2="120" stroke="#5d4037" stroke-width="2"/>
+    <line x1="370" y1="130" x2="430" y2="130" stroke="#5d4037" stroke-width="2"/>
+    <line x1="370" y1="140" x2="430" y2="140" stroke="#5d4037" stroke-width="2"/>
+    <text x="400" y="175" font-family="Arial, sans-serif" font-size="10" fill="#5d4037" text-anchor="middle">II съезд Советов</text>
+  </g>
+  
+  <!-- Портреты лидеров -->
+  <g id="portraits">
+    <!-- Ленин -->
+    <circle cx="370" cy="210" r="15" fill="#e0e0e0"/>
+    <circle cx="370" cy="210" r="12" fill="#bdbdbd"/>
+    <text x="370" y="235" font-family="Arial, sans-serif" font-size="8" fill="#424242" text-anchor="middle">Ленин</text>
+    
+    <!-- Троцкий -->
+    <circle cx="410" cy="210" r="15" fill="#e0e0e0"/>
+    <circle cx="410" cy="210" r="12" fill="#bdbdbd"/>
+    <text x="410" y="235" font-family="Arial, sans-serif" font-size="8" fill="#424242" text-anchor="middle">Троцкий</text>
+    
+    <!-- Сталин -->
+    <circle cx="450" cy="210" r="15" fill="#e0e0e0"/>
+    <circle cx="450" cy="210" r="12" fill="#bdbdbd"/>
+    <text x="450" y="235" font-family="Arial, sans-serif" font-size="8" fill="#424242" text-anchor="middle">Сталин</text>
+  </g>
+  
+  <!-- Хронологическая лента -->
+  <g id="timeline">
+    <rect x="30" y="250" width="440" height="5" fill="#5d4037"/>
+    <circle cx="50" cy="252.5" r="5" fill="#ff5722"/>
+    <text x="50" y="270" font-family="Arial, sans-serif" font-size="8" fill="#424242" text-anchor="middle">25.10</text>
+    <text x="50" y="280" font-family="Arial, sans-serif" font-size="8" fill="#424242" text-anchor="middle">1917</text>
+    
+    <circle cx="150" cy="252.5" r="5" fill="#ff5722"/>
+    <text x="150" y="270" font-family="Arial, sans-serif" font-size="8" fill="#424242" text-anchor="middle">26.10</text>
+    <text x="150" y="280" font-family="Arial, sans-serif" font-size="8" fill="#424242" text-anchor="middle">1917</text>
+    
+    <circle cx="250" cy="252.5" r="5" fill="#ff5722"/>
+    <text x="250" y="270" font-family="Arial, sans-serif" font-size="8" fill="#424242" text-anchor="middle">27.10</text>
+    <text x="250" y="280" font-family="Arial, sans-serif" font-size="8" fill="#424242" text-anchor="middle">1917</text>
+    
+    <circle cx="350" cy="252.5" r="5" fill="#ff5722"/>
+    <text x="350" y="270" font-family="Arial, sans-serif" font-size="8" fill="#424242" text-anchor="middle">28.10</text>
+    <text x="350" y="280" font-family="Arial, sans-serif" font-size="8" fill="#424242" text-anchor="middle">1917</text>
+    
+    <circle cx="450" cy="252.5" r="5" fill="#ff5722"/>
+    <text x="450" y="270" font-family="Arial, sans-serif" font-size="8" fill="#424242" text-anchor="middle">2.11</text>
+    <text x="450" y="280" font-family="Arial, sans-serif" font-size="8" fill="#424242" text-anchor="middle">1917</text>
+  </g>
+  
+  <!-- Декреты -->
+  <g id="decrees">
+    <rect x="40" y="290" width="100" height="40" fill="#e8f5e9" stroke="#4caf50" stroke-width="1"/>
+    <text x="90" y="305" font-family="Arial, sans-serif" font-size="9" fill="#1b5e20" text-anchor="middle">Декрет о мире</text>
+    <text x="90" y="318" font-family="Arial, sans-serif" font-size="8" fill="#1b5e20" text-anchor="middle">«Ни пяди земли...»</text>
+    
+    <rect x="160" y="290" width="100" height="40" fill="#e8f5e9" stroke="#4caf50" stroke-width="1"/>
+    <text x="210" y="305" font-family="Arial, sans-serif" font-size="9" fill="#1b5e20" text-anchor="middle">Декрет о земле</text>
+    <text x="210" y="318" font-family="Arial, sans-serif" font-size="8" fill="#1b5e20" text-anchor="middle">«Земля — крестьянам»</text>
+    
+    <rect x="280" y="290" width="100" height="40" fill="#e8f5e9" stroke="#4caf50" stroke-width="1"/>
+    <text x="330" y="305" font-family="Arial, sans-serif" font-size="9" fill="#1b5e20" text-anchor="middle">Декрет о власти</text>
+    <text x="330" y="318" font-family="Arial, sans-serif" font-size="8" fill="#1b5e20" text-anchor="middle">Советам — власть</text>
+  </g>
+  
+  <!-- Карта Петрограда -->
+  <g id="map">
+    <rect x="400" y="290" width="80" height="40" fill="#e3f2fd" stroke="#1976d2" stroke-width="1"/>
+    <text x="440" y="305" font-family="Arial, sans-serif" font-size="9" fill="#0d47a1" text-anchor="middle">Петроград</text>
+    <circle cx="415" cy="315" r="2" fill="#f44336"/>
+    <circle cx="430" cy="318" r="2" fill="#f44336"/>
+    <circle cx="445" cy="316" r="2" fill="#f44336"/>
+    <line x1="415" y1="315" x2="430" y2="318" stroke="#f44336" stroke-width="1"/>
+    <line x1="430" y1="318" x2="445" y2="316" stroke="#f44336" stroke-width="1"/>
+  </g>
+  
+  <!-- Схема штурма -->
+  <g id="scheme">
+    <rect x="40" y="190" width="80" height="40" fill="#fff3e0" stroke="#ff6f00" stroke-width="1"/>
+    <text x="80" y="205" font-family="Arial, sans-serif" font-size="9" fill="#e65100" text-anchor="middle">Штурм</text>
+    <text x="80" y="218" font-family="Arial, sans-serif" font-size="9" fill="#e65100" text-anchor="middle">Зимнего дворца</text>
+    <text x="80" y="225" font-family="Arial, sans-serif" font-size="7" fill="#e65100" text-anchor="middle">6:00 - 2:00</text>
+  </g>
+  
+  <!-- График -->
+  <g id="graph">
+    <rect x="200" y="190" width="120" height="40" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1"/>
+    <line x1="210" y1="220" x2="210" y2="200" stroke="#7b1fa2" stroke-width="1"/>
+    <line x1="210" y1="220" x2="310" y2="220" stroke="#7b1fa2" stroke-width="1"/>
+    <polyline points="220,215 230,210 240,205 250,200 260,195 270,190 280,195 290,200 300,205" fill="none" stroke="#9c27b0" stroke-width="2"/>
+    <text x="260" y="205" font-family="Arial, sans-serif" font-size="8" fill="#4a148c" text-anchor="middle">Рост влияния</text>
+    <text x="260" y="233" font-family="Arial, sans-serif" font-size="8" fill="#4a148c" text-anchor="middle">большевиков</text>
+  </g>
+  
+  <!-- Даты и формулы -->
+  <text x="250" y="95" font-family="Arial, sans-serif" font-size="10" fill="#ffeb3b" text-anchor="middle">25 октября (7 ноября) 1917 г.</text>
+  
+  <!-- Символы революции -->
+  <g id="symbols">
+    <path d="M150,120 L150,130 M145,125 L155,125 M148,127 L152,127" stroke="#ff5722" stroke-width="2"/>
+    <text x="150" y="140" font-family="Arial, sans-serif" font-size="8" fill="#ff5722" text-anchor="middle">☭</text>
+  </g>
+  
+  <!-- Красный флаг -->
+  <rect x="320" y="70" width="30" height="20" fill="#f44336"/>
+  <polygon points="350,70 365,75 350,80" fill="#f44336"/>
+  <text x="342" y="95" font-family="Arial, sans-serif" font-size="8" fill="#b71c1c" text-anchor="middle">СССР</text>
 </svg>

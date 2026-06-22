@@ -1,40 +1,143 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#00695C" />
-      <stop offset="100%" stop-color="#289184" />
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f5f0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8e8e0;stop-opacity:1" />
     </linearGradient>
-    <filter id="sh" x="-5%" y="-5%" width="110%" height="110%">
-      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="rgba(0,0,0,0.10)" />
-    </filter>
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8bc34a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#689f38;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#64b5f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1976d2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="brownGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d7ccc8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8d6e63;stop-opacity:1" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" rx="12" ry="12" fill="#E0F2F1" />
-  <rect x="1" y="1" width="498" height="348" rx="12" ry="12" fill="none" stroke="#00695C" stroke-width="2.5" />
-  <rect x="16" y="16" width="468" height="54" rx="10" ry="10" fill="url(#hdr)" filter="url(#sh)" />
-  <text x="32" y="50" font-family="sans-serif" font-size="22" fill="#FFFFFF">🌍</text>
-  <text x="60" y="38" font-family="sans-serif" font-weight="700" font-size="14" fill="#FFFFFF">География — Урок 8</text>
-  <text x="60" y="56" font-family="sans-serif" font-weight="600" font-size="11" fill="rgba(255,255,255,0.85)">11 класс · Урок 8</text>
-  <circle cx="450" cy="43" r="20" fill="rgba(255,255,255,0.20)" stroke="rgba(255,255,255,0.50)" stroke-width="1.5" />
-  <text x="450" y="50" font-family="sans-serif" font-weight="800" font-size="18" fill="#FFFFFF" text-anchor="middle">8</text>
-  <text x="250" y="96" font-family="sans-serif" font-weight="700" font-size="17" fill="#00695C" text-anchor="middle">Сельское хозяйство и транспорт</text>
-  <line x1="80" y1="106" x2="420" y2="106" stroke="rgba(0,105,92,0.25)" stroke-width="1.5" stroke-dasharray="6,3" />
-  <rect x="32" y="120" width="436" height="42" rx="8" ry="8" fill="rgba(0,105,92,0.12)" stroke="rgba(0,105,92,0.25)" stroke-width="1" />
-  <circle cx="54" cy="141" r="13" fill="#00695C" />
-  <text x="54" y="146" font-family="sans-serif" font-weight="700" font-size="12" fill="#FFFFFF" text-anchor="middle">1</text>
-  <text x="74" y="146" font-family="sans-serif" font-weight="500" font-size="13" fill="#263238">Растениеводство и животноводство мира</text>
-  <rect x="32" y="168" width="436" height="42" rx="8" ry="8" fill="rgba(0,105,92,0.12)" stroke="rgba(0,105,92,0.25)" stroke-width="1" />
-  <circle cx="54" cy="189" r="13" fill="#00695C" />
-  <text x="54" y="194" font-family="sans-serif" font-weight="700" font-size="12" fill="#FFFFFF" text-anchor="middle">2</text>
-  <text x="74" y="194" font-family="sans-serif" font-weight="500" font-size="13" fill="#263238">Агроклиматические ресурсы</text>
-  <rect x="32" y="216" width="436" height="42" rx="8" ry="8" fill="rgba(0,105,92,0.12)" stroke="rgba(0,105,92,0.25)" stroke-width="1" />
-  <circle cx="54" cy="237" r="13" fill="#00695C" />
-  <text x="54" y="242" font-family="sans-serif" font-weight="700" font-size="12" fill="#FFFFFF" text-anchor="middle">3</text>
-  <text x="74" y="242" font-family="sans-serif" font-weight="500" font-size="13" fill="#263238">Виды транспорта и их роль</text>
-  <rect x="32" y="264" width="436" height="42" rx="8" ry="8" fill="rgba(0,105,92,0.12)" stroke="rgba(0,105,92,0.25)" stroke-width="1" />
-  <circle cx="54" cy="285" r="13" fill="#00695C" />
-  <text x="54" y="290" font-family="sans-serif" font-weight="700" font-size="12" fill="#FFFFFF" text-anchor="middle">4</text>
-  <text x="74" y="290" font-family="sans-serif" font-weight="500" font-size="13" fill="#263238">Мировые транспортные коридоры</text>
-  <rect x="16" y="306" width="468" height="28" rx="8" ry="8" fill="rgba(0,0,0,0.05)" />
-  <text x="250" y="324" font-family="sans-serif" font-weight="600" font-size="11" fill="#00695C" text-anchor="middle">География · 11 класс</text>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#4a4a4a" stroke-width="2"/>
+  <rect x="15" y="15" width="470" height="325" fill="none" stroke="#8d6e63" stroke-width="1" stroke-dasharray="5,3"/>
+  
+  <!-- Номер урока -->
+  <text x="460" y="30" font-family="Arial, sans-serif" font-size="14" text-anchor="end" fill="#4a4a4a">Урок 8</text>
+  
+  <!-- ГЕОГРАФИЯ · 11 КЛАСС -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2c3e50" font-weight="bold">ГЕОГРАФИЯ · 11 КЛАСС</text>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="60" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#1a237e" font-weight="bold">Сельское хозяйство и транспорт</text>
+  <text x="250" y="80" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#455a64">Агропромышленный комплекс</text>
+  
+  <!-- Структура АПК -->
+  <text x="50" y="110" font-family="Arial, sans-serif" font-size="14" fill="#4a4a4a" font-weight="bold">Структура АПК:</text>
+  
+  <!-- Слой сельского хозяйства -->
+  <rect x="40" y="120" width="180" height="40" fill="url(#greenGradient)" rx="5"/>
+  <text x="130" y="145" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Сельское хозяйство</text>
+  
+  <!-- Слой переработки -->
+  <rect x="40" y="165" width="180" height="40" fill="#ffa726" rx="5"/>
+  <text x="130" y="190" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Пищевая промышленность</text>
+  
+  <!-- Слой обеспечения -->
+  <rect x="40" y="210" width="180" height="40" fill="#26c6da" rx="5"/>
+  <text x="130" y="235" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Обеспечивающие отрасли</text>
+  
+  <!-- Связующие линии -->
+  <line x1="220" y1="140" x2="260" y2="140" stroke="#4a4a4a" stroke-width="2"/>
+  <line x1="220" y1="185" x2="260" y2="185" stroke="#4a4a4a" stroke-width="2"/>
+  <line x1="220" y1="230" x2="260" y2="230" stroke="#4a4a4a" stroke-width="2"/>
+  
+  <!-- Транспорт -->
+  <text x="280" y="110" font-family="Arial, sans-serif" font-size="14" fill="#4a4a4a" font-weight="bold">Транспорт:</text>
+  
+  <!-- Железнодорожный транспорт -->
+  <rect x="260" y="120" width="200" height="25" fill="url(#brownGradient)" rx="3"/>
+  <text x="360" y="137" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">Железнодорожный</text>
+  
+  <!-- Автомобильный транспорт -->
+  <rect x="260" y="150" width="200" height="25" fill="#795548" rx="3"/>
+  <text x="360" y="167" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">Автомобильный</text>
+  
+  <!-- Водный транспорт -->
+  <rect x="260" y="180" width="200" height="25" fill="#0097a7" rx="3"/>
+  <text x="360" y="197" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">Водный</text>
+  
+  <!-- Авиационный транспорт -->
+  <rect x="260" y="210" width="200" height="25" fill="#673ab7" rx="3"/>
+  <text x="360" y="227" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">Авиационный</text>
+  
+  <!-- Трубопроводный транспорт -->
+  <rect x="260" y="240" width="200" height="25" fill="#d32f2f" rx="3"/>
+  <text x="360" y="257" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">Трубопроводный</text>
+  
+  <!-- График производства -->
+  <text x="50" y="280" font-family="Arial, sans-serif" font-size="14" fill="#4a4a4a" font-weight="bold">Производство сельхозпродукции:</text>
+  
+  <!-- Ось Y -->
+  <line x1="70" y1="290" x2="70" y2="330" stroke="#4a4a4a" stroke-width="1"/>
+  
+  <!-- Ось X -->
+  <line x1="70" y1="330" x2="220" y2="330" stroke="#4a4a4a" stroke-width="1"/>
+  
+  <!-- Столбцы -->
+  <rect x="80" y="315" width="20" height="15" fill="#8bc34a"/>
+  <rect x="110" y="310" width="20" height="20" fill="#ffa726"/>
+  <rect x="140" y="305" width="20" height="25" fill="#42a5f5"/>
+  <rect x="170" y="300" width="20" height="30" fill="#ab47bc"/>
+  
+  <!-- Метки -->
+  <text x="90" y="345" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#4a4a4a">Зерно</text>
+  <text x="120" y="345" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#4a4a4a">Мясо</text>
+  <text x="150" y="345" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#4a4a4a">Молоко</text>
+  <text x="180" y="345" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#4a4a4a">Овощи</text>
+  
+  <!-- Формула эффективности -->
+  <text x="250" y="280" font-family="Arial, sans-serif" font-size="12" fill="#4a4a4a">Эффективность АПК:</text>
+  <text x="250" y="300" font-family="Arial, sans-serif" font-size="14" fill="#1a237e" font-weight="bold">Э = ВП / Затраты</text>
+  <text x="250" y="320" font-family="Arial, sans-serif" font-size="10" fill="#4a4a4a">где: Э - эффективность</text>
+  <text x="250" y="335" font-family="Arial, sans-serif" font-size="10" fill="#4a4a4a">ВП - валовая продукция</text>
+  
+  <!-- Значки транспорта -->
+  <g transform="translate(400, 290)">
+    <!-- Поезд -->
+    <rect x="0" y="10" width="15" height="10" fill="#795548" rx="2"/>
+    <rect x="15" y="12" width="10" height="6" fill="#8d6e63" rx="1"/>
+    <circle cx="5" cy="20" r="2" fill="#424242"/>
+    <circle cx="20" cy="20" r="2" fill="#424242"/>
+    <circle cx="25" cy="20" r="2" fill="#424242"/>
+  </g>
+  
+  <g transform="translate(420, 290)">
+    <!-- Грузовик -->
+    <rect x="0" y="10" width="10" height="8" fill="#455a64" rx="1"/>
+    <rect x="10" y="12" width="12" height="6" fill="#37474f" rx="1"/>
+    <circle cx="3" cy="18" r="2" fill="#212121"/>
+    <circle cx="19" cy="18" r="2" fill="#212121"/>
+  </g>
+  
+  <!-- Регионы АПК -->
+  <text x="50" y="100" font-family="Arial, sans-serif" font-size="12" fill="#4a4a4a">Регион</text>
+  <text x="130" y="100" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#4a4a4a">Доля в ВВП</text>
+  <text x="200" y="100" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#4a4a4a">Специализация</text>
+  
+  <!-- Карта-схема -->
+  <rect x="300" y="70" width="150" height="100" fill="url(#bgGradient)" stroke="#8d6e63" stroke-width="1" rx="5"/>
+  <path d="M 320 110 Q 330 100 340 110 T 360 110 Q 370 100 380 110 T 400 110" stroke="#8bc34a" stroke-width="2" fill="none"/>
+  <path d="M 310 130 Q 320 120 330 130 T 350 130 Q 360 120 370 130 T 390 130" stroke="#ffa726" stroke-width="2" fill="none"/>
+  <circle cx="330" cy="110" r="4" fill="#8bc34a"/>
+  <circle cx="370" cy="110" r="4" fill="#8bc34a"/>
+  <circle cx="340" cy="130" r="4" fill="#ffa726"/>
+  <circle cx="380" cy="130" r="4" fill="#ffa726"/>
+  <text x="375" y="95" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#4a4a4a">Регионы</text>
+  
+  <!-- Ключевые термины -->
+  <text x="30" y="260" font-family="Arial, sans-serif" font-size="11" fill="#1a237e" font-style="italic">• Агропромышленный комплекс</text>
+  <text x="30" y="275" font-family="Arial, sans-serif" font-size="11" fill="#1a237e" font-style="italic">• Аграрно-промышленный интеграция</text>
+  <text x="30" y="290" font-family="Arial, sans-serif" font-size="11" fill="#1a237e" font-style="italic">• Логистика</text>
+  <text x="30" y="305" font-family="Arial, sans-serif" font-size="11" fill="#1a237e" font-style="italic">• Транспортная доступность</text>
 </svg>

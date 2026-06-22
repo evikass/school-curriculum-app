@@ -1,23 +1,116 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#2c3e50" stroke-width="2"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#3498db" stroke-width="1"/>
+  
+  <!-- Номер урока -->
+  <text x="15" y="30" font-family="Arial" font-size="14" fill="#e74c3c">Урок 22</text>
+  
+  <!-- Заголовок класса -->
+  <text x="250" y="25" font-family="Arial" font-size="16" text-anchor="middle" fill="#2c3e50" font-weight="bold">АЛГЕБРА · 11 КЛАСС</text>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="50" font-family="Arial" font-size="20" text-anchor="middle" fill="#2c3e50" font-weight="bold">Размещения</text>
+  
+  <!-- Градиент для формул -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#7c2d12"/>
-      <stop offset="100%" style="stop-color:#f97316"/>
+    <linearGradient id="formulaGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2ecc71;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fdba74;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#fdba74;stop-opacity:0"/>
-    </radialGradient>
+    
+    <linearGradient id="exampleGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ecf0f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bdc3c7;stop-opacity:1" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#fdba74" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#fdba74" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#fdba74" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fed7aa" text-anchor="middle">22</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fed7aa" text-anchor="middle" opacity="0.8">АЛГЕБРА · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fed7aa" text-anchor="middle">Урок 22: Размещения</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fdba74" text-anchor="middle" opacity="0.8">Урок 22 из 38</text>
-  <text x="200" y="220" font-family="Arial" font-size="36" fill="#fdba74" opacity="0.5">n!</text><text x="320" y="220" font-family="Arial" font-size="36" fill="#fdba74" opacity="0.5">Cₙᵏ</text>
+  
+  <!-- Определение размещений -->
+  <rect x="30" y="70" width="440" height="50" rx="5" fill="url(#exampleGradient)" stroke="#34495e" stroke-width="1"/>
+  <text x="250" y="100" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">Размещение из n элементов по k — упорядоченная выборка k элементов из n</text>
+  
+  <!-- Формула Aₙᵏ -->
+  <rect x="150" y="140" width="200" height="40" rx="5" fill="#ecf0f1" stroke="#3498db" stroke-width="2"/>
+  <text x="250" y="165" font-family="Arial" font-size="18" text-anchor="middle" fill="#2c3e50" font-weight="bold">Aₙᵏ = n! / (n-k)!</text>
+  
+  <!-- Подпись к формуле -->
+  <text x="250" y="195" font-family="Arial" font-size="12" text-anchor="middle" fill="#7f8c8d">Формула размещений</text>
+  
+  <!-- Пример с буквами -->
+  <text x="30" y="220" font-family="Arial" font-size="14" fill="#2c3e50" font-weight="bold">Пример:</text>
+  
+  <!-- Буквы для примера -->
+  <rect x="30" y="230" width="30" height="30" fill="#e74c3c" rx="3"/>
+  <text x="45" y="250" font-family="Arial" font-size="18" text-anchor="middle" fill="white">А</text>
+  
+  <rect x="70" y="230" width="30" height="30" fill="#f39c12" rx="3"/>
+  <text x="85" y="250" font-family="Arial" font-size="18" text-anchor="middle" fill="white">Б</text>
+  
+  <rect x="110" y="230" width="30" height="30" fill="#2ecc71" rx="3"/>
+  <text x="125" y="250" font-family="Arial" font-size="18" text-anchor="middle" fill="white">В</text>
+  
+  <text x="160" y="250" font-family="Arial" font-size="16" fill="#2c3e50">n = 3 (буквы: А, Б, В)</text>
+  
+  <!-- Размещения из 3 по 2 -->
+  <text x="30" y="290" font-family="Arial" font-size="14" fill="#2c3e50" font-weight="bold">Размещения из 3 по 2:</text>
+  
+  <!-- Варианты размещений -->
+  <rect x="30" y="300" width="40" height="25" fill="#3498db" rx="3"/>
+  <text x="50" y="317" font-family="Arial" font-size="14" text-anchor="middle" fill="white">АБ</text>
+  
+  <rect x="80" y="300" width="40" height="25" fill="#3498db" rx="3"/>
+  <text x="100" y="317" font-family="Arial" font-size="14" text-anchor="middle" fill="white">АВ</text>
+  
+  <rect x="130" y="300" width="40" height="25" fill="#3498db" rx="3"/>
+  <text x="150" y="317" font-family="Arial" font-size="14" text-anchor="middle" fill="white">БА</text>
+  
+  <rect x="180" y="300" width="40" height="25" fill="#3498db" rx="3"/>
+  <text x="200" y="317" font-family="Arial" font-size="14" text-anchor="middle" fill="white">БВ</text>
+  
+  <rect x="230" y="300" width="40" height="25" fill="#3498db" rx="3"/>
+  <text x="250" y="317" font-family="Arial" font-size="14" text-anchor="middle" fill="white">ВА</text>
+  
+  <rect x="280" y="300" width="40" height="25" fill="#3498db" rx="3"/>
+  <text x="300" y="317" font-family="Arial" font-size="14" text-anchor="middle" fill="white">ВБ</text>
+  
+  <text x="340" y="317" font-family="Arial" font-size="14" fill="#2c3e50">A₃² = 6</text>
+  
+  <!-- Диаграмма дерева -->
+  <text x="30" y="260" font-family="Arial" font-size="14" fill="#2c3e50" font-weight="bold">Дерево размещений:</text>
+  
+  <!-- Линии дерева -->
+  <line x1="45" y1="280" x2="45" y2="290" stroke="#34495e" stroke-width="1"/>
+  <line x1="45" y1="290" x2="25" y2="300" stroke="#34495e" stroke-width="1"/>
+  <line x1="45" y1="290" x2="65" y2="300" stroke="#34495e" stroke-width="1"/>
+  
+  <line x1="85" y1="280" x2="85" y2="290" stroke="#34495e" stroke-width="1"/>
+  <line x1="85" y1="290" x2="65" y2="300" stroke="#34495e" stroke-width="1"/>
+  <line x1="85" y1="290" x2="105" y2="300" stroke="#34495e" stroke-width="1"/>
+  
+  <line x1="125" y1="280" x2="125" y2="290" stroke="#34495e" stroke-width="1"/>
+  <line x1="125" y1="290" x2="105" y2="300" stroke="#34495e" stroke-width="1"/>
+  <line x1="125" y1="290" x2="145" y2="300" stroke="#34495e" stroke-width="1"/>
+  
+  <!-- Дополнительные элементы декора -->
+  <circle cx="450" cy="50" r="15" fill="#e74c3c" opacity="0.3"/>
+  <circle cx="430" cy="70" r="10" fill="#3498db" opacity="0.3"/>
+  <circle cx="460" cy="70" r="10" fill="#2ecc71" opacity="0.3"/>
+  
+  <!-- Факториалы в формуле -->
+  <text x="180" y="160" font-family="Arial" font-size="12" fill="#e74c3c">n!</text>
+  <line x1="195" y1="160" x2="205" y2="160" stroke="#e74c3c" stroke-width="1"/>
+  <text x="210" y="160" font-family="Arial" font-size="12" fill="#e74c3c">(n-k)!</text>
+  
+  <!-- Свойства размещений -->
+  <rect x="320" y="220" width="150" height="100" rx="5" fill="#ecf0f1" stroke="#2ecc71" stroke-width="1"/>
+  <text x="395" y="240" font-family="Arial" font-size="12" text-anchor="middle" fill="#2c3e50" font-weight="bold">Свойства:</text>
+  <text x="330" y="260" font-family="Arial" font-size="11" fill="#2c3e50">1. Aₙⁿ = n!</text>
+  <text x="330" y="280" font-family="Arial" font-size="11" fill="#2c3e50">2. Aₙ¹ = n</text>
+  <text x="330" y="300" font-family="Arial" font-size="11" fill="#2c3e50">3. Aₙ⁰ = 1</text>
+  
+  <!-- Иконка факториала -->
+  <g transform="translate(30, 315)">
+    <rect x="0" y="0" width="20" height="20" fill="#9b59b6" rx="2"/>
+    <text x="10" y="15" font-family="Arial" font-size="12" text-anchor="middle" fill="white">n!</text>
+  </g>
 </svg>

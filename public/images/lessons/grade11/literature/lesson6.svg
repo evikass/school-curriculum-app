@@ -1,23 +1,117 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e1b4b"/>
-      <stop offset="100%" style="stop-color:#6366f1"/>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0e6d2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d8c5a0;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:0"/>
-    </radialGradient>
+    
+    <linearGradient id="frameGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b4513;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#a0522d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b4513;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="portraitGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4a574;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c19660;stop-opacity:1" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#a78bfa" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#a78bfa" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#e0e7ff" text-anchor="middle">6</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e0e7ff" text-anchor="middle" opacity="0.8">ЛИТЕРАТУРА · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e0e7ff" text-anchor="middle">Урок 6: М.И. Цветаева. Жизнь и творчество</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#a78bfa" text-anchor="middle" opacity="0.8">Урок 6 из 35</text>
-  <text x="100" y="200" font-family="Arial" font-size="40" fill="#a78bfa" opacity="0.4">✒️</text><text x="380" y="200" font-family="Arial" font-size="40" fill="#a78bfa" opacity="0.4">📖</text>
+  
+  <!-- Фоновый прямоугольник -->
+  <rect width="500" height="350" fill="url(#bgGradient)" />
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="url(#frameGradient)" stroke-width="3" rx="5" ry="5" />
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#8b4513" stroke-width="1" rx="3" ry="3" />
+  
+  <!-- Надпись "ЛИТЕРАТУРА · 11 КЛАСС" -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#5d4037" text-anchor="middle">ЛИТЕРАТУРА · 11 КЛАСС</text>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="60" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#3e2723" text-anchor="middle">Урок 6: М.И. Цветаева</text>
+  <text x="250" y="80" font-family="Arial, sans-serif" font-size="16" fill="#5d4037" text-anchor="middle">Жизнь и творчество</text>
+  
+  <!-- Номер урока в углу -->
+  <circle cx="460" cy="340" r="15" fill="#8b4513" />
+  <text x="460" y="345" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">6</text>
+  
+  <!-- Портрет Цветаевой -->
+  <circle cx="80" cy="150" r="35" fill="url(#portraitGradient)" />
+  <path d="M60 140 Q80 130 100 140 L95 160 Q80 170 65 160 Z" fill="#d4a574" />
+  <path d="M65 140 Q80 130 95 140" fill="none" stroke="#5d4037" stroke-width="1" />
+  <circle cx="70" cy="145" r="2" fill="#3e2723" />
+  <circle cx="90" cy="145" r="2" fill="#3e2723" />
+  <path d="M75 155 Q80 158 85 155" fill="none" stroke="#3e2723" stroke-width="1" />
+  <text x="80" y="200" font-family="Arial, sans-serif" font-size="12" fill="#5d4037" text-anchor="middle">М.И. Цветаева</text>
+  
+  <!-- Хронология жизни -->
+  <text x="200" y="120" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#3e2723">Хронология жизни</text>
+  
+  <!-- Линия времени -->
+  <line x1="200" y1="140" x2="450" y2="140" stroke="#8b4513" stroke-width="2" />
+  
+  <!-- Даты на линии времени -->
+  <circle cx="220" cy="140" r="5" fill="#8b4513" />
+  <text x="220" y="160" font-family="Arial, sans-serif" font-size="10" fill="#5d4037" text-anchor="middle">1892</text>
+  <text x="220" y="172" font-family="Arial, sans-serif" font-size="9" fill="#5d4037" text-anchor="middle">рождение</text>
+  
+  <circle cx="280" cy="140" r="5" fill="#8b4513" />
+  <text x="280" y="160" font-family="Arial, sans-serif" font-size="10" fill="#5d4037" text-anchor="middle">1912</text>
+  <text x="280" y="172" font-family="Arial, sans-serif" font-size="9" fill="#5d4037" text-anchor="middle">дебют</text>
+  
+  <circle cx="340" cy="140" r="5" fill="#8b4513" />
+  <text x="340" y="160" font-family="Arial, sans-serif" font-size="10" fill="#5d4037" text-anchor="middle">1922</text>
+  <text x="340" y="172" font-family="Arial, sans-serif" font-size="9" fill="#5d4037" text-anchor="middle">эмиграция</text>
+  
+  <circle cx="400" cy="140" r="5" fill="#8b4513" />
+  <text x="400" y="160" font-family="Arial, sans-serif" font-size="10" fill="#5d4037" text-anchor="middle">1939</text>
+  <text x="400" y="172" font-family="Arial, sans-serif" font-size="9" fill="#5d4037" text-anchor="middle">возвращение</text>
+  
+  <circle cx="430" cy="140" r="5" fill="#8b4513" />
+  <text x="430" y="160" font-family="Arial, sans-serif" font-size="10" fill="#5d4037" text-anchor="middle">1941</text>
+  <text x="430" y="172" font-family="Arial, sans-serif" font-size="9" fill="#5d4037" text-anchor="middle">гибель</text>
+  
+  <!-- Ключевые произведения -->
+  <text x="200" y="210" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#3e2723">Ключевые произведения</text>
+  
+  <!-- Список произведений -->
+  <rect x="200" y="220" width="15" height="15" fill="#a0522d" rx="2" ry="2" />
+  <text x="220" y="232" font-family="Arial, sans-serif" font-size="12" fill="#5d4037">«Царь-девица» (1922)</text>
+  
+  <rect x="200" y="240" width="15" height="15" fill="#a0522d" rx="2" ry="2" />
+  <text x="220" y="252" font-family="Arial, sans-serif" font-size="12" fill="#5d4037">«Лирика» (1922)</text>
+  
+  <rect x="200" y="260" width="15" height="15" fill="#a0522d" rx="2" ry="2" />
+  <text x="220" y="272" font-family="Arial, sans-serif" font-size="12" fill="#5d4037">«Стихи о Москве» (1940)</text>
+  
+  <rect x="200" y="280" width="15" height="15" fill="#a0522d" rx="2" ry="2" />
+  <text x="220" y="292" font-family="Arial, sans-serif" font-size="12" fill="#5d4037">«Мой Пушкин» (1937)</text>
+  
+  <!-- Ромтическая лирика -->
+  <text x="380" y="210" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#3e2723">Романтическая лирика</text>
+  
+  <!-- Сердце как символ романтизма -->
+  <path d="M400 230 C400 220, 410 220, 415 230 C420 220, 430 220, 430 230 C430 240, 415 255, 415 255 C415 255, 400 240, 400 230 Z" fill="#d32f2f" />
+  
+  <!-- Цитата -->
+  <text x="380" y="275" font-family="Arial, sans-serif" font-size="10" fill="#5d4037" font-style="italic">«Я — стихия, я — огонь,</text>
+  <text x="380" y="290" font-family="Arial, sans-serif" font-size="10" fill="#5d4037" font-style="italic">Я — жизнь, я — гибель...»</text>
+  
+  <!-- Эпиграф -->
+  <rect x="30" y="250" width="140" height="80" fill="none" stroke="#8b4513" stroke-width="1" rx="3" ry="3" />
+  <text x="100" y="270" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#3e2723" text-anchor="middle">Эпиграф урока:</text>
+  <text x="100" y="290" font-family="Arial, sans-serif" font-size="10" fill="#5d4037" font-style="italic" text-anchor="middle">«Поэзия — это прежде всего</text>
+  <text x="100" y="305" font-family="Arial, sans-serif" font-size="10" fill="#5d4037" font-style="italic" text-anchor="middle">воля к жизни в её высшем</text>
+  <text x="100" y="320" font-family="Arial, sans-serif" font-size="10" fill="#5d4037" font-style="italic" text-anchor="middle">проявлении»</text>
+  
+  <!-- Декоративные элементы -->
+  <path d="M20 20 Q30 10 40 20" fill="none" stroke="#8b4513" stroke-width="1" />
+  <path d="M460 20 Q470 10 480 20" fill="none" stroke="#8b4513" stroke-width="1" />
+  <path d="M20 330 Q30 340 40 330" fill="none" stroke="#8b4513" stroke-width="1" />
+  <path d="M460 330 Q470 340 480 330" fill="none" stroke="#8b4513" stroke-width="1" />
+  
+  <!-- Ключевые термины -->
+  <text x="250" y="310" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#3e2723" text-anchor="middle">Трагическая судьба русской поэзии</text>
+  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#5d4037" text-anchor="middle">Символизм · Акмеизм · Эмиграция · Трагедия</text>
 </svg>

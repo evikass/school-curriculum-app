@@ -1,23 +1,138 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e1b4b"/>
-      <stop offset="100%" style="stop-color:#6366f1"/>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f9f4e6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8dcc0;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:0"/>
-    </radialGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5d2906;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34495e;stop-opacity:1" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#a78bfa" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#a78bfa" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#e0e7ff" text-anchor="middle">7</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e0e7ff" text-anchor="middle" opacity="0.8">ЛИТЕРАТУРА · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e0e7ff" text-anchor="middle">Урок 7: О.Э. Мандельштам. Жизнь и творчество</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#a78bfa" text-anchor="middle" opacity="0.8">Урок 7 из 35</text>
-  <text x="100" y="200" font-family="Arial" font-size="40" fill="#a78bfa" opacity="0.4">✒️</text><text x="380" y="200" font-family="Arial" font-size="40" fill="#a78bfa" opacity="0.4">📖</text>
+  
+  <!-- Фоновый прямоугольник -->
+  <rect width="500" height="350" fill="url(#grad1)" />
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#8b4513" stroke-width="3" />
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#5d2906" stroke-width="1" />
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2c3e50">О.Э. Мандельштам</text>
+  <text x="250" y="60" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#34495e">Жизнь и творчество</text>
+  <text x="250" y="25" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#8b4513">ЛИТЕРАТУРА · 11 КЛАСС</text>
+  
+  <!-- Номер урока -->
+  <circle cx="470" cy="30" r="15" fill="#8b4513" />
+  <text x="470" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">7</text>
+  
+  <!-- Портрет Мандельштама -->
+  <circle cx="100" cy="140" r="40" fill="#f4e4d4" stroke="#8b4513" stroke-width="2" />
+  <path d="M70 140 Q70 120 85 110 Q100 100 115 110 Q130 120 130 140 Q130 160 115 170 Q100 180 85 170 Q70 160 70 140" fill="#f4e4d4" />
+  <circle cx="85" cy="135" r="2" fill="#000" />
+  <circle cx="115" cy="135" r="2" fill="#000" />
+  <path d="M90 150 Q100 155 110 150" fill="none" stroke="#000" stroke-width="1" />
+  <path d="M80 125 Q100 115 120 125" fill="none" stroke="#000" stroke-width="1" />
+  <text x="100" y="190" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">О.Э. Мандельштам</text>
+  
+  <!-- Биография -->
+  <rect x="160" y="100" width="120" height="80" fill="white" fill-opacity="0.8" stroke="#8b4513" stroke-width="1" rx="5" />
+  <text x="220" y="120" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">Биография</text>
+  <text x="170" y="140" font-family="Arial, sans-serif" font-size="10" fill="#34495e">1891-1938</text>
+  <text x="170" y="155" font-family="Arial, sans-serif" font-size="10" fill="#34495e">Родился в Варшаве</text>
+  <text x="170" y="170" font-family="Arial, sans-serif" font-size="10" fill="#34495е">Расстрелян в 1938</text>
+  
+  <!-- Акмеизм -->
+  <rect x="300" y="100" width="120" height="80" fill="white" fill-opacity="0.8" stroke="#8b4513" stroke-width="1" rx="5" />
+  <text x="360" y="120" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">Акмеизм</text>
+  <text x="310" y="140" font-family="Arial, sans-serif" font-size="10" fill="#34495e">1913-1914</text>
+  <text x="310" y="155" font-family="Arial, sans-serif" font-size="10" fill="#34495е">Против символизма</text>
+  <text x="310" y="170" font-family="Arial, sans-serif" font-size="10" fill="#34495e">Культ слова</text>
+  
+  <!-- Тоска по мировой культуре -->
+  <rect x="160" y="200" width="120" height="80" fill="white" fill-opacity="0.8" stroke="#8b4513" stroke-width="1" rx="5" />
+  <text x="220" y="220" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">Тоска по мировой культуре</text>
+  <text x="170" y="240" font-family="Arial, sans-serif" font-size="10" fill="#34495e">Влияние Пушкина</text>
+  <text x="170" y="255" font-family="Arial, sans-serif" font-size="10" fill="#34495e">Французских поэтов</text>
+  <text x="170" y="270" font-family="Arial, sans-serif" font-size="10" fill="#34495е">Античности</text>
+  
+  <!-- Гибель в лагере -->
+  <rect x="300" y="200" width="120" height="80" fill="white" fill-opacity="0.8" stroke="#8b4513" stroke-width="1" rx="5" />
+  <text x="360" y="220" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">Гибель в лагере</text>
+  <text x="310" y="240" font-family="Arial, sans-serif" font-size="10" fill="#34495e">Арест в 1938</text>
+  <text x="310" y="255" font-family="Arial, sans-serif" font-size="10" fill="#34495e">Владивосток</text>
+  <text x="310" y="270" font-family="Arial, sans-serif" font-size="10" fill="#34495е">"Я верю в будущее"</text>
+  
+  <!-- Схема влияния -->
+  <path d="M140 140 L160 140" stroke="#8b4513" stroke-width="2" marker-end="url(#arrow)" />
+  <path d="M280 140 L300 140" stroke="#8b4513" stroke-width="2" marker-end="url(#arrow)" />
+  <path d="M220 180 L220 200" stroke="#8b4513" stroke-width="2" marker-end="url(#arrow)" />
+  <path d="M360 180 L360 200" stroke="#8b4513" stroke-width="2" marker-end="url(#arrow)" />
+  
+  <!-- Стрелки -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#8b4513" />
+    </marker>
+  </defs>
+  
+  <!-- Ключевые произведения -->
+  <rect x="30" y="220" width="120" height="60" fill="url(#grad2)" fill-opacity="0.7" stroke="#5d2906" stroke-width="1" rx="5" />
+  <text x="90" y="240" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Ключевые произведения</text>
+  <text x="40" y="255" font-family="Arial, sans-serif" font-size="9" fill="white">"Камень" (1913)</text>
+  <text x="40" y="268" font-family="Arial, sans-serif" font-size="9" fill="white">"Тринадцать стихотворений"</text>
+  
+  <!-- Философия творчества -->
+  <rect x="350" y="220" width="120" height="60" fill="url(#grad2)" fill-opacity="0.7" stroke="#5d2906" stroke-width="1" rx="5" />
+  <text x="410" y="240" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Философия творчества</text>
+  <text x="360" y="255" font-family="Arial, sans-serif" font-size="9" fill="white">"Слово и культура"</text>
+  <text x="360" y="268" font-family="Arial, sans-serif" font-size="9" fill="white">"Поэзия как факт"</text>
+  
+  <!-- Хронологическая линия -->
+  <line x1="50" y1="300" x2="450" y2="300" stroke="#34495e" stroke-width="2" />
+  <circle cx="100" cy="300" r="5" fill="#34495e" />
+  <circle cx="200" cy="300" r="5" fill="#34495e" />
+  <circle cx="300" cy="300" r="5" fill="#34495e" />
+  <circle cx="400" cy="300" r="5" fill="#34495e" />
+  
+  <text x="100" y="320" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#34495e">1891</text>
+  <text x="200" y="320" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#34495e">1913</text>
+  <text x="300" y="320" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#34495e">1920</text>
+  <text x="400" y="320" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#34495e">1938</text>
+  
+  <!-- Даты событий -->
+  <line x1="100" y1="295" x2="100" y2="285" stroke="#34495e" stroke-width="1" />
+  <text x="100" y="285" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#34495e">Род.</text>
+  
+  <line x1="200" y1="295" x2="200" y2="285" stroke="#34495e" stroke-width="1" />
+  <text x="200" y="285" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#34495е">Акмеизм</text>
+  
+  <line x1="300" y1="295" x2="300" y2="285" stroke="#34495e" stroke-width="1" />
+  <text x="300" y="285" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#34495e">Арест</text>
+  
+  <line x1="400" y1="295" x2="400" y2="285" stroke="#34495e" stroke-width="1" />
+  <text x="400" y="285" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#34495e">Гибель</text>
+  
+  <!-- Цитата -->
+  <rect x="160" y="290" width="180" height="35" fill="white" fill-opacity="0.7" stroke="#34495e" stroke-width="1" rx="5" />
+  <text x="250" y="305" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2c3e50">"Я не знаком с тоской, я</text>
+  <text x="250" y="318" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2c3e50">известен в тоске"</text>
+  
+  <!-- Дополнительные элементы -->
+  <path d="M30 140 L30 300" stroke="#8b4513" stroke-width="1" stroke-dasharray="3,3" />
+  <path d="M470 140 L470 300" stroke="#8b4513" stroke-width="1" stroke-dasharray="3,3" />
+  
+  <!-- Круги для акцента -->
+  <circle cx="50" cy="180" r="15" fill="none" stroke="#8b4513" stroke-width="1" opacity="0.5" />
+  <circle cx="450" cy="180" r="15" fill="none" stroke="#8b4513" stroke-width="1" opacity="0.5" />
+  
+  <!-- Иконки -->
+  <path d="M160 115 L170 115 L170 125 L160 125 Z" fill="#8b4513" opacity="0.7" />
+  <path d="M300 115 L310 115 L310 125 L300 125 Z" fill="#8b4513" opacity="0.7" />
+  <path d="M160 215 L170 215 L170 225 L160 225 Z" fill="#8b4513" opacity="0.7" />
+  <path d="M300 215 L310 215 L310 225 L300 225 Z" fill="#8b4513" opacity="0.7" />
 </svg>

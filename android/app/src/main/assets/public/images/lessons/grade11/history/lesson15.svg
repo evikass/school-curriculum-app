@@ -1,23 +1,123 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Градиенты -->
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e3a8a"/>
-      <stop offset="100%" style="stop-color:#3b82f6"/>
+      <stop offset="0%" style="stop-color:#f5f5f0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8e8e0;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#93c5fd;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#93c5fd;stop-opacity:0"/>
-    </radialGradient>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#d32f2f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b71c1c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1976d2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d47a1;stop-opacity:1" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#93c5fd" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#93c5fd" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#93c5fd" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#dbeafe" text-anchor="middle">15</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dbeafe" text-anchor="middle" opacity="0.8">ИСТОРИЯ РОССИИ · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#dbeafe" text-anchor="middle">Урок 15: Политическая система СССР в 1930-е годы. </text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#93c5fd" text-anchor="middle" opacity="0.8">Урок 15 из 35</text>
-  <rect x="180" y="160" width="140" height="60" fill="#93c5fd" opacity="0.3"/><rect x="200" y="120" width="20" height="40" fill="#93c5fd" opacity="0.5"/><rect x="240" y="130" width="20" height="30" fill="#93c5fd" opacity="0.5"/><rect x="280" y="120" width="20" height="40" fill="#93c5fd" opacity="0.5"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#8b4513" stroke-width="3"/>
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#a0522d" stroke-width="1"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">ИСТОРИЯ · 11 КЛАСС</text>
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#8b0000">Сталинизм. Конституция 1936</text>
+  <text x="450" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="end" fill="#666">Урок №7</text>
+  
+  <!-- План СССР 1936 -->
+  <g transform="translate(30, 70)">
+    <rect x="0" y="0" width="140" height="100" fill="#f0f8ff" stroke="#4682b4" stroke-width="1"/>
+    <text x="70" y="15" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#333">СССР в 1936 г.</text>
+    <!-- Схематичное изображение СССР -->
+    <ellipse cx="70" cy="50" rx="60" ry="35" fill="#e6f2ff" stroke="#4682b4" stroke-width="1"/>
+    <line x1="20" y1="35" x2="120" y2="35" stroke="#4682b4" stroke-width="0.5"/>
+    <line x1="20" y1="50" x2="120" y2="50" stroke="#4682b4" stroke-width="0.5"/>
+    <line x1="20" y1="65" x2="120" y2="65" stroke="#4682b4" stroke-width="0.5"/>
+    <text x="70" y="90" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">11 республик</text>
+  </g>
+  
+  <!-- Портрет Сталина -->
+  <g transform="translate(200, 70)">
+    <rect x="0" y="0" width="100" height="100" fill="#f5f5dc" stroke="#8b4513" stroke-width="1"/>
+    <circle cx="50" cy="35" r="20" fill="#fdbcb4" stroke="#8b4513" stroke-width="1"/>
+    <path d="M 30 50 Q 50 45 70 50 L 70 70 L 30 70 Z" fill="#fdbcb4" stroke="#8b4513" stroke-width="1"/>
+    <circle cx="45" cy="30" r="2" fill="#333"/>
+    <circle cx="55" cy="30" r="2" fill="#333"/>
+    <path d="M 45 38 Q 50 40 55 38" fill="none" stroke="#333" stroke-width="1"/>
+    <text x="50" y="85" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">И. Сталин</text>
+  </g>
+  
+  <!-- ГУЛАГ схема -->
+  <g transform="translate(320, 70)">
+    <rect x="0" y="0" width="150" height="100" fill="#fff0f0" stroke="#8b0000" stroke-width="1"/>
+    <text x="75" y="15" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#333">ГУЛАГ</text>
+    <rect x="20" y="25" width="110" height="40" fill="#ffe6e6" stroke="#8b0000" stroke-width="1"/>
+    <line x1="35" y1="25" x2="35" y2="65" stroke="#8b0000" stroke-width="0.5"/>
+    <line x1="50" y1="25" x2="50" y2="65" stroke="#8b0000" stroke-width="0.5"/>
+    <line x1="65" y1="25" x2="65" y2="65" stroke="#8b0000" stroke-width="0.5"/>
+    <line x1="80" y1="25" x2="80" y2="65" stroke="#8b0000" stroke-width="0.5"/>
+    <line x1="95" y1="25" x2="95" y2="65" stroke="#8b0000" stroke-width="0.5"/>
+    <line x1="110" y1="25" x2="110" y2="65" stroke="#8b0000" stroke-width="0.5"/>
+    <text x="75" y="80" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">476 лагерей</text>
+  </g>
+  
+  <!-- Хронологическая лента -->
+  <g transform="translate(30, 190)">
+    <rect x="0" y="0" width="440" height="30" fill="url(#redGrad)" opacity="0.7"/>
+    <text x="10" y="20" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="bold">1936-1938</text>
+    <text x="430" y="20" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="end" font-weight="bold">1938</text>
+    
+    <!-- Маркеры событий -->
+    <circle cx="80" cy="15" r="5" fill="#fff" stroke="#8b0000" stroke-width="1"/>
+    <circle cx="200" cy="15" r="5" fill="#fff" stroke="#8b0000" stroke-width="1"/>
+    <circle cx="320" cy="15" r="5" fill="#fff" stroke="#8b0000" stroke-width="1"/>
+    
+    <text x="80" y="45" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Конституция</text>
+    <text x="80" y="58" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">1936 г.</text>
+    
+    <text x="200" y="45" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Большой террор</text>
+    <text x="200" y="58" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">начало</text>
+    
+    <text x="320" y="45" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Массовые</text>
+    <text x="320" y="58" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">репрессии</text>
+  </g>
+  
+  <!-- Статистика репрессий -->
+  <g transform="translate(30, 260)">
+    <rect x="0" y="0" width="200" height="70" fill="#f0f8ff" stroke="#4682b4" stroke-width="1"/>
+    <text x="100" y="15" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#333">Статистика репрессий</text>
+    <text x="20" y="35" font-family="Arial, sans-serif" font-size="11" fill="#333">Арестовано: 1,5 млн</text>
+    <text x="20" y="50" font-family="Arial, sans-serif" font-size="11" fill="#333">Расстреляно: 700 тыс.</text>
+    <text x="20" y="65" font-family="Arial, sans-serif" font-size="11" fill="#333">Умерло в лагерях: 1 млн</text>
+  </g>
+  
+  <!-- График роста лагерей -->
+  <g transform="translate(250, 260)">
+    <rect x="0" y="0" width="220" height="70" fill="#f5f5dc" stroke="#8b4513" stroke-width="1"/>
+    <text x="110" y="15" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#333">Рост ГУЛАГа</text>
+    <polyline points="20,50 60,45 100,35 140,25 180,15 200,10" fill="none" stroke="#8b0000" stroke-width="2"/>
+    <circle cx="20" cy="50" r="2" fill="#8b0000"/>
+    <circle cx="60" cy="45" r="2" fill="#8b0000"/>
+    <circle cx="100" cy="35" r="2" fill="#8b0000"/>
+    <circle cx="140" cy="25" r="2" fill="#8b0000"/>
+    <circle cx="180" cy="15" r="2" fill="#8b0000"/>
+    <circle cx="200" cy="10" r="2" fill="#8b0000"/>
+    <text x="20" y="65" font-family="Arial, sans-serif" font-size="9" fill="#333">1930</text>
+    <text x="200" y="65" font-family="Arial, sans-serif" font-size="9" text-anchor="end" fill="#333">1938</text>
+  </g>
+  
+  <!-- Культ личности -->
+  <g transform="translate(30, 330)">
+    <rect x="0" y="0" width="440" height="10" fill="url(#blueGrad)" opacity="0.7"/>
+    <text x="10" y="8" font-family="Arial, sans-serif" font-size="10" fill="white" font-weight="bold">Культ личности</text>
+    <text x="430" y="8" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="end" font-weight="bold">1930-1953</text>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <g transform="translate(30, 190)">
+    <path d="M 0 0 L 10 10 L 0 20 L 10 20 L 20 10 L 10 0 Z" fill="#8b0000" opacity="0.5"/>
+  </g>
+  <g transform="translate(470, 190)">
+    <path d="M 20 0 L 10 10 L 20 20 L 10 20 L 0 10 L 10 0 Z" fill="#8b0000" opacity="0.5"/>
+  </g>
 </svg>

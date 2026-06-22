@@ -1,23 +1,97 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Градиенты -->
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#451a03"/>
-      <stop offset="100%" style="stop-color:#a16207"/>
+      <stop offset="0%" style="stop-color:#f5f5f0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8e8e0;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fcd34d;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#fcd34d;stop-opacity:0"/>
+    <linearGradient id="frameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b4513;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#a0522d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b4513;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="portraitGrad">
+      <stop offset="0%" style="stop-color:#f8d7a8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d4a574;stop-opacity:1" />
     </radialGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#fcd34d" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#fcd34d" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#fcd34d" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fef3c7" text-anchor="middle">9</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fef3c7" text-anchor="middle" opacity="0.8">ЛИТЕРАТУРА · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fef3c7" text-anchor="middle">Урок 9: И.А. Бунин. Жизнь и творчество</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fcd34d" text-anchor="middle" opacity="0.8">Урок 9 из 35</text>
-  <rect x="200" y="130" width="100" height="80" fill="#fcd34d" opacity="0.3"/><line x1="250" y1="130" x2="250" y2="210" stroke="#fef3c7" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGrad)" />
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="url(#frameGrad)" stroke-width="4" rx="5" ry="5" />
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#8b4513" stroke-width="1" rx="3" ry="3" />
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#5c3317">Урок 9: И.А. Бунин. Жизнь и творчество</text>
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#7d5a3c">ЛИТЕРАТУРА · 11 КЛАСС</text>
+  
+  <!-- Номер урока в углу -->
+  <text x="30" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#8b4513">№9</text>
+  
+  <!-- Портрет Бунина -->
+  <circle cx="100" cy="130" r="45" fill="url(#portraitGrad)" />
+  <circle cx="100" cy="130" r="45" fill="none" stroke="#8b4513" stroke-width="2" />
+  <path d="M75 130 Q100 115, 125 130 Q120 145, 100 150 Q80 145, 75 130" fill="#d4a574" />
+  <circle cx="90" cy="125" r="3" fill="#333" />
+  <circle cx="110" cy="125" r="3" fill="#333" />
+  <path d="M90 135 Q100 140, 110 135" fill="none" stroke="#333" stroke-width="1.5" />
+  <path d="M80 115 Q100 105, 120 115" fill="none" stroke="#333" stroke-width="1.5" />
+  <text x="100" y="190" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5c3317">И.А. Бунин</text>
+  <text x="100" y="205" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7d5a3c">(1870-1953)</text>
+  
+  <!-- Хронология жизни -->
+  <line x1="170" y1="100" x2="170" y2="200" stroke="#8b4513" stroke-width="2" />
+  <circle cx="170" cy="115" r="4" fill="#8b4513" />
+  <text x="180" y="120" font-family="Arial, sans-serif" font-size="10" fill="#5c3317">1870 - рождение</text>
+  <circle cx="170" cy="140" r="4" fill="#8b4513" />
+  <text x="180" y="145" font-family="Arial, sans-serif" font-size="10" fill="#5c3317">1909 - академик</text>
+  <circle cx="170" cy="165" r="4" fill="#8b4513" />
+  <text x="180" y="170" font-family="Arial, sans-serif" font-size="10" fill="#5c3317">1920 - эмиграция</text>
+  <circle cx="170" cy="190" r="4" fill="#8b4513" />
+  <text x="180" y="195" font-family="Arial, sans-serif" font-size="10" fill="#5c3317">1933 - Нобелевская премия</text>
+  <circle cx="170" cy="215" r="4" fill="#8b4513" />
+  <text x="180" y="220" font-family="Arial, sans-serif" font-size="10" fill="#5c3317">1953 - смерть</text>
+  
+  <!-- Творчество -->
+  <rect x="280" y="80" width="200" height="180" fill="none" stroke="#8b4513" stroke-width="2" rx="5" ry="5" />
+  <text x="380" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#5c3317">Творчество</text>
+  
+  <!-- Поэзия -->
+  <rect x="295" y="115" width="170" height="40" fill="#f5e6d3" stroke="#8b4513" stroke-width="1" rx="3" ry="3" />
+  <text x="380" y="135" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5c3317">Поэзия</text>
+  <text x="380" y="150" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7d5a3c">"Листопад", "Густой кипарис"</text>
+  
+  <!-- Проза -->
+  <rect x="295" y="165" width="170" height="60" fill="#e8dcc6" stroke="#8b4513" stroke-width="1" rx="3" ry="3" />
+  <text x="380" y="185" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5c3317">Проза</text>
+  <text x="380" y="200" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7d5a3c">"Деревня", "Суходол"</text>
+  <text x="380" y="215" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7d5a3c">"Тёмные аллеи"</text>
+  
+  <!-- Нобелевская премия -->
+  <rect x="295" y="235" width="170" height="20" fill="#f9d5a7" stroke="#8b4513" stroke-width="1" rx="3" ry="3" />
+  <text x="380" y="248" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#5c3317">Нобелевская премия 1933 г.</text>
+  
+  <!-- Ключевые термины -->
+  <rect x="30" y="240" width="200" height="80" fill="#f5e6d3" stroke="#8b4513" stroke-width="1" rx="5" ry="5" />
+  <text x="130" y="260" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#5c3317">Ключевые термины</text>
+  <text x="40" y="280" font-family="Arial, sans-serif" font-size="10" fill="#5c3317">• Реализм</text>
+  <text x="40" y="295" font-family="Arial, sans-serif" font-size="10" fill="#5c3317">• Символизм</text>
+  <text x="40" y="310" font-family="Arial, sans-serif" font-size="10" fill="#5c3317">• Русская эмиграция</text>
+  
+  <!-- Цитата -->
+  <rect x="250" y="240" width="220" height="80" fill="#e8dcc6" stroke="#8b4513" stroke-width="1" rx="5" ry="5" />
+  <text x="360" y="260" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#5c3317">Цитата</text>
+  <text x="260" y="280" font-family="Arial, sans-serif" font-size="9" fill="#5c3317">"Я не люблю город,</text>
+  <text x="260" y="295" font-family="Arial, sans-serif" font-size="9" fill="#5c3317">городскую жизнь, я люблю</text>
+  <text x="260" y="310" font-family="Arial, sans-serif" font-size="9" fill="#5c3317">деревню..."</text>
+  
+  <!-- Декоративные элементы -->
+  <path d="M20 320 Q50 310, 80 320" fill="none" stroke="#8b4513" stroke-width="1.5" opacity="0.5" />
+  <path d="M420 320 Q450 310, 480 320" fill="none" stroke="#8b4513" stroke-width="1.5" opacity="0.5" />
+  
+  <!-- Аллея символа -->
+  <line x1="130" y1="90" x2="130" y2="210" stroke="#8b4513" stroke-width="1" stroke-dasharray="5,5" opacity="0.5" />
+  <text x="135" y="150" font-family="Arial, sans-serif" font-size="10" fill="#7d5a3c" transform="rotate(-90 135 150)">Тёмные аллеи</text>
 </svg>

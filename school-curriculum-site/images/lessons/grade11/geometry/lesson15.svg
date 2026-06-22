@@ -1,23 +1,96 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#831843"/>
-      <stop offset="100%" style="stop-color:#ec4899"/>
+    <linearGradient id="sphereGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f4f8;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#b8d4e3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7fb3d3;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#f9a8d4;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#f9a8d4;stop-opacity:0"/>
-    </radialGradient>
+    <linearGradient id="segmentGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff9a9e;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#fad0c4;stop-opacity:0.7" />
+    </linearGradient>
+    <linearGradient id="sectorGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a8edea;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#fed6e3;stop-opacity:0.7" />
+    </linearGradient>
+    <linearGradient id="frameGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a69bd;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e3799;stop-opacity:1" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#f9a8d4" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#f9a8d4" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#f9a8d4" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fce7f3" text-anchor="middle">15</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fce7f3" text-anchor="middle" opacity="0.8">ГЕОМЕТРИЯ · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fce7f3" text-anchor="middle">Урок 15: Сферический сегмент и сектор</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#f9a8d4" text-anchor="middle" opacity="0.8">Урок 15 из 25</text>
-  <ellipse cx="250" cy="175" rx="80" ry="30" fill="none" stroke="#f9a8d4" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="url(#frameGradient)" stroke-width="3" rx="10" ry="10"/>
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#dfe6e9" stroke-width="1" rx="8" ry="8"/>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Урок 15: Сферический сегмент и сектор</text>
+  <text x="250" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">ГЕОГРАФИЯ · 11 КЛАСС</text>
+  
+  <!-- Номер урока в углу -->
+  <text x="470" y="330" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Урок 15</text>
+  
+  <!-- Основная сфера -->
+  <circle cx="150" cy="180" r="80" fill="url(#sphereGradient)" stroke="#2980b9" stroke-width="2"/>
+  
+  <!-- Сегмент сферы -->
+  <path d="M 150 180 A 80 80 0 0 1 230 180 Z" fill="url(#segmentGradient)" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,3"/>
+  
+  <!-- Сектор сферы -->
+  <path d="M 150 180 L 230 180 A 80 80 0 0 1 150 100 Z" fill="url(#sectorGradient)" stroke="#16a085" stroke-width="2"/>
+  
+  <!-- Радиусы и высоты -->
+  <line x1="150" y1="180" x2="230" y2="180" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="150" y1="180" x2="150" y2="100" stroke="#2c3e50" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="230" y1="180" x2="230" y2="165" stroke="#2c3e50" stroke-width="1.5"/>
+  
+  <!-- Обозначения на сфере -->
+  <text x="190" y="175" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">R</text>
+  <text x="155" y="140" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">h</text>
+  <text x="235" y="175" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">r</text>
+  
+  <!-- Углы -->
+  <path d="M 165 180 A 15 15 0 0 1 150 165" fill="none" stroke="#2c3e50" stroke-width="1.5"/>
+  <text x="170" y="165" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">α</text>
+  
+  <!-- Подписи частей сферы -->
+  <text x="150" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">СФЕРА</text>
+  <text x="200" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">Сегмент</text>
+  <text x="190" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#16a085">Сектор</text>
+  
+  <!-- Формулы -->
+  <rect x="300" y="100" width="180" height="200" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" rx="5" ry="5"/>
+  <text x="390" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Формулы</text>
+  
+  <!-- Формула площади сегмента -->
+  <text x="310" y="150" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Площадь сегмента:</text>
+  <text x="310" y="170" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">S = πh(2R - h)</text>
+  
+  <!-- Формула объема сегмента -->
+  <text x="310" y="195" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Объем сегмента:</text>
+  <text x="310" y="215" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">V = πh²(3R - h)/3</text>
+  
+  <!-- Формула площади сектора -->
+  <text x="310" y="240" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Площадь сектора:</text>
+  <text x="310" y="260" font-family="Arial, sans-serif" font-size="12" fill="#16a085">S = 2πR²(1 - cos(α/2))</text>
+  
+  <!-- Дополнительные элементы -->
+  <circle cx="150" cy="180" r="2" fill="#2c3e50"/>
+  <circle cx="230" cy="180" r="2" fill="#2c3e50"/>
+  <circle cx="150" cy="100" r="2" fill="#2c3e50"/>
+  
+  <!-- Условные обозначения -->
+  <text x="30" y="280" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">R - радиус сферы</text>
+  <text x="30" y="295" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">h - высота сегмента</text>
+  <text x="30" y="310" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">r - радиус основания сегмента</text>
+  <text x="30" y="325" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">α - угол сектора</text>
+  
+  <!-- Дополнительные линии для наглядности -->
+  <ellipse cx="150" cy="180" rx="80" ry="10" fill="none" stroke="#95a5a6" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- Разделительная линия -->
+  <line x1="290" y1="130" x2="290" y2="270" stroke="#dee2e6" stroke-width="1" stroke-dasharray="5,3"/>
+  
+  <!-- Дополнительные подписи -->
+  <text x="150" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Осевое сечение</text>
 </svg>

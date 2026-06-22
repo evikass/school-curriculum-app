@@ -1,23 +1,126 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#2C3E50" stroke-width="2"/>
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#34495E" stroke-width="1" stroke-dasharray="5,3"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2C3E50">АЛГЕБРА · 11 КЛАСС</text>
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#3498DB">Урок 3: Свойства функции y = cos x</text>
+  
+  <!-- Номер урока в углу -->
+  <circle cx="450" cy="320" r="15" fill="#E74C3C"/>
+  <text x="450" y="325" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">3</text>
+  
+  <!-- Система координат -->
+  <line x1="70" y1="280" x2="430" y2="280" stroke="#2C3E50" stroke-width="2"/>
+  <line x1="250" y1="80" x2="250" y2="300" stroke="#2C3E50" stroke-width="2"/>
+  
+  <!-- Стрелки осей -->
+  <polygon points="430,280 425,275 425,285" fill="#2C3E50"/>
+  <polygon points="250,80 245,85 255,85" fill="#2C3E50"/>
+  
+  <!-- Подписи осей -->
+  <text x="435" y="285" font-family="Arial, sans-serif" font-size="14" fill="#2C3E50">x</text>
+  <text x="255" y="75" font-family="Arial, sans-serif" font-size="14" fill="#2C3E50">y</text>
+  
+  <!-- Шкалы на оси x -->
+  <line x1="100" y1="275" x2="100" y2="285" stroke="#2C3E50" stroke-width="1"/>
+  <line x1="150" y1="275" x2="150" y2="285" stroke="#2C3E50" stroke-width="1"/>
+  <line x1="200" y1="275" x2="200" y2="285" stroke="#2C3E50" stroke-width="1"/>
+  <line x1="300" y1="275" x2="300" y2="285" stroke="#2C3E50" stroke-width="1"/>
+  <line x1="350" y1="275" x2="350" y2="285" stroke="#2C3E50" stroke-width="1"/>
+  <line x1="400" y1="275" x2="400" y2="285" stroke="#2C3E50" stroke-width="1"/>
+  
+  <!-- Шкалы на оси y -->
+  <line x1="245" y1="230" x2="255" y2="230" stroke="#2C3E50" stroke-width="1"/>
+  <line x1="245" y1="180" x2="255" y2="180" stroke="#2C3E50" stroke-width="1"/>
+  <line x1="245" y1="130" x2="255" y2="130" stroke="#2C3E50" stroke-width="1"/>
+  
+  <!-- Подписи шкал -->
+  <text x="100" y="300" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2C3E50">-π</text>
+  <text x="150" y="300" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2C3E50">-π/2</text>
+  <text x="200" y="300" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2C3E50">0</text>
+  <text x="300" y="300" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2C3E50">π/2</text>
+  <text x="350" y="300" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2C3E50">π</text>
+  <text x="400" y="300" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2C3E50">3π/2</text>
+  
+  <text x="235" y="235" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#2C3E50">-1</text>
+  <text x="235" y="185" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#2C3E50">0</text>
+  <text x="235" y="135" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#2C3E50">1</text>
+  
+  <!-- График функции y = cos x -->
+  <path d="M 70,230 Q 100,180 130,130 T 200,180 Q 230,230 270,280 T 340,180 Q 370,130 400,180 T 430,230" 
+        fill="none" stroke="#E74C3C" stroke-width="3"/>
+  
+  <!-- Отмеченные точки на графике -->
+  <circle cx="100" cy="180" r="4" fill="#E74C3C"/>
+  <circle cx="150" cy="130" r="4" fill="#E74C3C"/>
+  <circle cx="200" cy="180" r="4" fill="#E74C3C"/>
+  <circle cx="250" cy="230" r="4" fill="#E74C3C"/>
+  <circle cx="300" cy="180" r="4" fill="#E74C3C"/>
+  <circle cx="350" cy="130" r="4" fill="#E74C3C"/>
+  <circle cx="400" cy="180" r="4" fill="#E74C3C"/>
+  
+  <!-- Подписи точек -->
+  <text x="100" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#E74C3C">(-π, 0)</text>
+  <text x="150" y="120" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#E74C3C">(-π/2, 1)</text>
+  <text x="200" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#E74C3C">(0, 1)</text>
+  <text x="250" y="245" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#E74C3C">(π/2, 0)</text>
+  <text x="350" y="120" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#E74C3C">(π, -1)</text>
+  <text x="400" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#E74C3C">(3π/2, 0)</text>
+  
+  <!-- Формула функции -->
+  <rect x="320" y="85" width="160" height="30" fill="#ECF0F1" stroke="#BDC3C7" stroke-width="1" rx="5"/>
+  <text x="400" y="105" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2C3E50">y = cos x</text>
+  
+  <!-- Свойства функции -->
+  <rect x="20" y="120" width="140" height="120" fill="#EBF5FB" stroke="#3498DB" stroke-width="1" rx="5"/>
+  <text x="90" y="140" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2C3E50">Свойства:</text>
+  
+  <text x="30" y="160" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">• Область определения: ℝ</text>
+  <text x="30" y="175" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">• Область значений: [-1, 1]</text>
+  <text x="30" y="190" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">• Период: 2π</text>
+  <text x="30" y="205" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">• Четная функция</text>
+  <text x="30" y="220" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">• Непрерывна</text>
+  
+  <!-- Монотонность -->
+  <rect x="340" y="120" width="140" height="120" fill="#E8F8F5" stroke="#16A085" stroke-width="1" rx="5"/>
+  <text x="410" y="140" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2C3E50">Монотонность:</text>
+  
+  <text x="350" y="160" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">• Убывает на [0, π]</text>
+  <text x="350" y="175" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">• Возрастает на [π, 2π]</text>
+  <text x="350" y="190" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">• Минимум в точках</text>
+  <text x="350" y="205" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">  (π + 2πn, -1)</text>
+  <text x="350" y="220" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">• Максимум в точках</text>
+  <text x="350" y="235" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">  (2πn, 1)</text>
+  
+  <!-- Нули функции -->
+  <rect x="20" y="255" width="210" height="65" fill="#FEF9E7" stroke="#F1C40F" stroke-width="1" rx="5"/>
+  <text x="125" y="275" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2C3E50">Нули функции:</text>
+  <text x="30" y="295" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">x = π/2 + πn, где n ∈ ℤ</text>
+  <text x="30" y="310" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Примеры: π/2, 3π/2, 5π/2, -π/2,...</text>
+  
+  <!-- Экстремумы -->
+  <rect x="270" y="255" width="210" height="65" fill="#FADBD8" stroke="#E74C3C" stroke-width="1" rx="5"/>
+  <text x="375" y="275" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2C3E50">Экстремумы:</text>
+  <text x="280" y="295" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Максимумы: (2πn, 1)</text>
+  <text x="280" y="310" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Минимумы: (π + 2πn, -1)</text>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="50" cy="50" r="3" fill="#3498DB" opacity="0.5"/>
+  <circle cx="450" cy="50" r="3" fill="#3498DB" opacity="0.5"/>
+  <circle cx="50" cy="320" r="3" fill="#3498DB" opacity="0.5"/>
+  
+  <!-- Градиент для графика -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e1b4b"/>
-      <stop offset="100%" style="stop-color:#6366f1"/>
+    <linearGradient id="cosGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E74C3C;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#E74C3C;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#E74C3C;stop-opacity:0.3" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:0"/>
-    </radialGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#a78bfa" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#a78bfa" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#e0e7ff" text-anchor="middle">3</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e0e7ff" text-anchor="middle" opacity="0.8">АЛГЕБРА · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e0e7ff" text-anchor="middle">Урок 3: Свойства функции y = cos x и её график</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#a78bfa" text-anchor="middle" opacity="0.8">Урок 3 из 38</text>
-  <path d="M 60 220 Q 110 130 160 220 T 260 220 T 360 220 T 460 220" fill="none" stroke="#a78bfa" stroke-width="2.5" opacity="0.7"/>
+  
+  <!-- Заливка под графиком -->
+  <path d="M 70,280 L 70,230 Q 100,180 130,130 T 200,180 Q 230,230 270,280 T 340,180 Q 370,130 400,180 T 430,230 L 430,280 Z" 
+        fill="url(#cosGradient)" opacity="0.3"/>
 </svg>

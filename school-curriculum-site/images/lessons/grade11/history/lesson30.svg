@@ -1,23 +1,166 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#831843"/>
-      <stop offset="100%" style="stop-color:#ec4899"/>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a5490;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2e86c1;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#f9a8d4;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#f9a8d4;stop-opacity:0"/>
-    </radialGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c0392b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e74c3c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#27ae60;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2ecc71;stop-opacity:1" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#f9a8d4" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#f9a8d4" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#f9a8d4" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fce7f3" text-anchor="middle">30</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fce7f3" text-anchor="middle" opacity="0.8">ИСТОРИЯ РОССИИ · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fce7f3" text-anchor="middle">Урок 30: Итоги развития советского общества. Совет</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#f9a8d4" text-anchor="middle" opacity="0.8">Урок 30 из 35</text>
-  <polygon points="250,120 263,165 311,165 272,193 286,237 250,210 214,237 228,193 189,165 237,165" fill="#f9a8d4" opacity="0.6"/><rect x="245" y="160" width="10" height="80" fill="#fce7f3" opacity="0.5"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#34495e" stroke-width="3"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#7f8c8d" stroke-width="1"/>
+  
+  <!-- Номер урока в углу -->
+  <text x="470" y="30" font-family="Arial, sans-serif" font-size="16" fill="#34495e" text-anchor="end">Урок №25</text>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50" text-anchor="middle">ИСТОРИЯ · 11 КЛАСС</text>
+  <text x="250" y="60" font-family="Arial, sans-serif" font-size="16" fill="#34495e" text-anchor="middle">Россия 2010-х</text>
+  
+  <!-- Хронологическая линия -->
+  <line x1="50" y1="100" x2="450" y2="100" stroke="#34495e" stroke-width="2"/>
+  <circle cx="80" cy="100" r="5" fill="#e74c3c"/>
+  <circle cx="170" cy="100" r="5" fill="#3498db"/>
+  <circle cx="260" cy="100" r="5" fill="#f39c12"/>
+  <circle cx="350" cy="100" r="5" fill="#27ae60"/>
+  <circle cx="420" cy="100" r="5" fill="#9b59b6"/>
+  
+  <!-- Даты на хронологии -->
+  <text x="80" y="90" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">2014</text>
+  <text x="170" y="90" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">2014</text>
+  <text x="260" y="90" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">2018</text>
+  <text x="350" y="90" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">2020</text>
+  <text x="420" y="90" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">2020</text>
+  
+  <!-- Крым 2014 -->
+  <g transform="translate(80, 120)">
+    <rect x="-40" y="0" width="80" height="60" fill="url(#grad1)" rx="5"/>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="bold">Крым</text>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">16.03.2014</text>
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">референдум</text>
+    
+    <!-- Карта Крыма -->
+    <path d="M-30,-10 C-25,-15 -20,-15 -15,-10 C-10,-5 -5,-5 0,-5 C5,-5 10,-5 15,-10 C20,-15 25,-15 30,-10 C35,-5 35,0 30,5 C25,10 20,10 15,10 C10,10 5,10 0,10 C-5,10 -10,10 -15,10 C-20,10 -25,10 -30,5 C-35,0 -35,-5 -30,-10" fill="white" opacity="0.8"/>
+  </g>
+  
+  <!-- Санкции -->
+  <g transform="translate(170, 120)">
+    <rect x="-40" y="0" width="80" height="60" fill="url(#grad2)" rx="5"/>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="bold">Санкции</text>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">Запад</text>
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">VS Россия</text>
+    
+    <!-- График санкций -->
+    <polyline points="-25,45 -20,40 -15,35 -10,30 -5,25 0,20 5,15 10,10 15,5 20,0 25,-5" fill="none" stroke="white" stroke-width="1"/>
+    <polyline points="-25,45 -20,43 -15,42 -10,40 -5,38 0,36 5,33 10,30 15,27 20,24 25,20" fill="none" stroke="white" stroke-width="1"/>
+  </g>
+  
+  <!-- Сочи 2014 -->
+  <g transform="translate(260, 120)">
+    <rect x="-40" y="0" width="80" height="60" fill="#f39c12" rx="5"/>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="bold">Сочи 2014</text>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">7-23.02.2014</text>
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">Зимние ОИ</text>
+    
+    <!-- Олимпийские кольца -->
+    <circle cx="-15" cy="-5" r="5" fill="none" stroke="white" stroke-width="1.5"/>
+    <circle cx="-5" cy="-5" r="5" fill="none" stroke="white" stroke-width="1.5"/>
+    <circle cx="5" cy="-5" r="5" fill="none" stroke="white" stroke-width="1.5"/>
+    <circle cx="-10" cy="5" r="5" fill="none" stroke="white" stroke-width="1.5"/>
+    <circle cx="0" cy="5" r="5" fill="none" stroke="white" stroke-width="1.5"/>
+  </g>
+  
+  <!-- ЧМ 2018 -->
+  <g transform="translate(350, 120)">
+    <rect x="-40" y="0" width="80" height="60" fill="url(#grad3)" rx="5"/>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="bold">ЧМ-2018</text>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">14.06-15.07</text>
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">Футбол</text>
+    
+    <!-- Мяч -->
+    <circle cx="0" cy="-5" r="8" fill="white"/>
+    <path d="M-8,-5 L8,-5 M0,-13 L0,3 M-7,-10 L7,2 M-7,2 L7,-10" stroke="#2ecc71" stroke-width="1"/>
+  </g>
+  
+  <!-- Поправки 2020 -->
+  <g transform="translate(420, 120)">
+    <rect x="-40" y="0" width="80" height="60" fill="#9b59b6" rx="5"/>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="bold">Поправки</text>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">Конституция</text>
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">2020</text>
+    
+    <!-- Документ -->
+    <rect x="-15" cy="-10" width="30" height="20" fill="white" rx="1"/>
+    <line x1="-10" y1="-5" x2="10" y2="-5" stroke="#9b59b6" stroke-width="1"/>
+    <line x1="-10" y1="0" x2="10" y2="0" stroke="#9b59b6" stroke-width="1"/>
+    <line x1="-10" y1="5" x2="5" y2="5" stroke="#9b59b6" stroke-width="1"/>
+  </g>
+  
+  <!-- Портреты лидеров -->
+  <g transform="translate(50, 220)">
+    <circle cx="0" cy="0" r="20" fill="#ecf0f1"/>
+    <circle cx="0" cy="-5" r="8" fill="#34495e"/>
+    <path d="M-10,5 C-10,0 -5,-5 0,-5 C5,-5 10,0 10,5 L10,15 L-10,15 Z" fill="#34495e"/>
+    <text x="0" y="30" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">Путин</text>
+  </g>
+  
+  <g transform="translate(120, 220)">
+    <circle cx="0" cy="0" r="20" fill="#ecf0f1"/>
+    <circle cx="0" cy="-5" r="8" fill="#34495e"/>
+    <path d="M-10,5 C-10,0 -5,-5 0,-5 C5,-5 10,0 10,5 L10,15 L-10,15 Z" fill="#34495e"/>
+    <text x="0" y="30" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">Медведев</text>
+  </g>
+  
+  <!-- Экономическая схема -->
+  <g transform="translate(250, 200)">
+    <rect x="-80" y="0" width="160" height="80" fill="#ecf0f1" stroke="#34495e" stroke-width="1" rx="5"/>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle" font-weight="bold">Экономика 2010-х</text>
+    
+    <!-- График -->
+    <polyline points="-60,60 -50,50 -40,45 -30,40 -20,35 -10,30 0,25 10,20 20,15 30,10 40,5 50,0 60,-5" fill="none" stroke="#3498db" stroke-width="2"/>
+    <text x="-60" y="65" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">2010</text>
+    <text x="60" y="65" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">2020</text>
+  </g>
+  
+  <!-- Международные отношения -->
+  <g transform="translate(400, 220)">
+    <circle cx="0" cy="0" r="25" fill="#e74c3c" opacity="0.3"/>
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#e74c3c" stroke-width="1"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="10" fill="#c0392b" text-anchor="middle" font-weight="bold">Запад</text>
+    <text x="0" y="-30" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="middle">Санкции</text>
+  </g>
+  
+  <!-- Восточное направление -->
+  <g transform="translate(400, 280)">
+    <circle cx="0" cy="0" r="25" fill="#27ae60" opacity="0.3"/>
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#27ae60" stroke-width="1"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="10" fill="#229954" text-anchor="middle" font-weight="bold">Восток</text>
+    <text x="0" y="30" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="middle">Сотрудничество</text>
+  </g>
+  
+  <!-- Статистика -->
+  <g transform="translate(250, 300)">
+    <rect x="-80" y="-20" width="160" height="40" fill="#34495e" rx="5"/>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">ВВП: 2014 - 77.4 трлн ₽</text>
+    <text x="0" y="15" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">2020 - 107.2 трлн ₽</text>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <path d="M20,80 L30,70 L40,80" fill="none" stroke="#7f8c8d" stroke-width="1"/>
+  <path d="M460,80 L470,70 L480,80" fill="none" stroke="#7f8c8d" stroke-width="1"/>
+  
+  <!-- Указатели -->
+  <line x1="80" y1="180" x2="80" y2="200" stroke="#7f8c8d" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="170" y1="180" x2="170" y2="200" stroke="#7f8c8d" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="260" y1="180" x2="260" y2="200" stroke="#7f8c8d" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="350" y1="180" x2="350" y2="200" stroke="#7f8c8d" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="420" y1="180" x2="420" y2="200" stroke="#7f8c8d" stroke-width="1" stroke-dasharray="2,2"/>
 </svg>

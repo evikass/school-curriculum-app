@@ -1,23 +1,147 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#365314"/>
-      <stop offset="100%" style="stop-color:#65a30d"/>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a6fa5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2c4b7c;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#bef264;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#bef264;stop-opacity:0"/>
-    </radialGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6fa54a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4c7c2c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a56f4a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c4c2c;stop-opacity:1" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#bef264" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#bef264" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#bef264" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#d9f99d" text-anchor="middle">21</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#d9f99d" text-anchor="middle" opacity="0.8">ГЕОМЕТРИЯ · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#d9f99d" text-anchor="middle">Урок 21: Многогранники. Обзор</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#bef264" text-anchor="middle" opacity="0.8">Урок 21 из 25</text>
-  <polygon points="200,120 300,120 280,220 180,220" fill="none" stroke="#bef264" stroke-width="2"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#4a6fa5" stroke-width="2" rx="5"/>
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#6fa54a" stroke-width="1" rx="3"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c4b7c">ГЕОГРАФИЯ · 11 КЛАСС</text>
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#4a6fa5">Урок 21: Многогранники. Обзор</text>
+  <text x="470" y="25" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#4a6fa5">№21</text>
+  
+  <!-- Призма -->
+  <g transform="translate(80, 100)">
+    <polygon points="0,50 60,0 120,0 180,50 120,100 60,100" fill="url(#grad1)" stroke="#2c4b7c" stroke-width="2"/>
+    <polygon points="0,50 0,150 60,200 120,200 120,100" fill="#6fa5a5" stroke="#2c4b7c" stroke-width="2"/>
+    <polygon points="120,100 120,200 180,150 180,50" fill="#5a8fa5" stroke="#2c4b7c" stroke-width="2"/>
+    <text x="90" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Призма</text>
+    <text x="90" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c4b7c">Основание: n-угольник</text>
+    <text x="90" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c4b7c">Боковые грани: параллелограммы</text>
+    <text x="90" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c4b7c">Вершины: n+2</text>
+  </g>
+  
+  <!-- Пирамида -->
+  <g transform="translate(300, 100)">
+    <polygon points="60,0 120,100 0,100" fill="url(#grad2)" stroke="#4c7c2c" stroke-width="2"/>
+    <polygon points="0,100 120,100 120,150 0,150" fill="#7ca58f" stroke="#4c7c2c" stroke-width="2"/>
+    <polygon points="60,0 120,100 120,150 60,150" fill="#5fa57c" stroke="#4c7c2c" stroke-width="2"/>
+    <text x="60" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Пирамида</text>
+    <text x="60" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#4c7c2c">Основание: n-угольник</text>
+    <text x="60" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#4c7c2c">Боковые грани: треугольники</text>
+    <text x="60" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#4c7c2c">Вершины: n+1</text>
+  </g>
+  
+  <!-- Тетраэдр -->
+  <g transform="translate(80, 270)">
+    <polygon points="30,0 60,30 0,30" fill="url(#grad3)" stroke="#7c4c2c" stroke-width="1.5"/>
+    <polygon points="0,30 60,30 60,60 0,60" fill="#a57c6f" stroke="#7c4c2c" stroke-width="1.5"/>
+    <polygon points="30,0 60,30 60,60 30,60" fill="#8f7c5f" stroke="#7c4c2c" stroke-width="1.5"/>
+    <polygon points="30,0 0,30 0,60 30,60" fill="#7c6f5f" stroke="#7c4c2c" stroke-width="1.5"/>
+    <text x="30" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Тетраэдр</text>
+  </g>
+  
+  <!-- Куб -->
+  <g transform="translate(150, 270)">
+    <polygon points="0,0 30,0 60,0 30,-30" fill="#6fa5a5" stroke="#2c4b7c" stroke-width="1.5"/>
+    <polygon points="30,-30 60,0 60,30 30,0" fill="#5a8fa5" stroke="#2c4b7c" stroke-width="1.5"/>
+    <polygon points="30,0 60,0 60,30 30,30" fill="#4a7ca5" stroke="#2c4b7c" stroke-width="1.5"/>
+    <polygon points="0,0 30,0 30,30 0,30" fill="#6fa57c" stroke="#2c4b7c" stroke-width="1.5"/>
+    <polygon points="0,30 30,30 60,30 30,0" fill="#5fa57c" stroke="#2c4b7c" stroke-width="1.5"/>
+    <polygon points="0,0 0,30 30,30 30,0" fill="#7ca56f" stroke="#2c4b7c" stroke-width="1.5"/>
+    <text x="30" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Куб</text>
+  </g>
+  
+  <!-- Октаэдр -->
+  <g transform="translate(240, 270)">
+    <polygon points="30,0 0,30 30,60" fill="#a56f7c" stroke="#7c4c2c" stroke-width="1.5"/>
+    <polygon points="30,0 60,30 30,60" fill="#a56f5f" stroke="#7c4c2c" stroke-width="1.5"/>
+    <polygon points="0,30 30,60 30,90 0,60" fill="#a57c5f" stroke="#7c4c2c" stroke-width="1.5"/>
+    <polygon points="60,30 30,60 30,90 60,60" fill="#a58f5f" stroke="#7c4c2c" stroke-width="1.5"/>
+    <polygon points="0,60 30,90 60,60" fill="#8f7c5f" stroke="#7c4c2c" stroke-width="1.5"/>
+    <polygon points="30,0 0,30 0,60 30,90 60,60 60,30" fill="none" stroke="#7c4c2c" stroke-width="1.5"/>
+    <text x="30" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Октаэдр</text>
+  </g>
+  
+  <!-- Додекаэдр -->
+  <g transform="translate(340, 270)">
+    <polygon points="30,0 15,20 0,20 0,40 15,40 30,30" fill="#5f7ca5" stroke="#2c4b7c" stroke-width="1.5"/>
+    <polygon points="30,0 45,20 30,30" fill="#5f6fa5" stroke="#2c4b7c" stroke-width="1.5"/>
+    <polygon points="45,20 60,20 60,40 45,40 30,30" fill="#5f5fa5" stroke="#2c4b7c" stroke-width="1.5"/>
+    <polygon points="0,20 15,20 15,40 0,40" fill="#5f5f8f" stroke="#2c4b7c" stroke-width="1.5"/>
+    <polygon points="15,40 30,30 30,50 15,50" fill="#5f5f7c" stroke="#2c4b7c" stroke-width="1.5"/>
+    <polygon points="30,30 45,40 45,60 30,50" fill="#5f6f7c" stroke="#2c4b7c" stroke-width="1.5"/>
+    <polygon points="45,40 60,40 60,60 45,60" fill="#5f7f7c" stroke="#2c4b7c" stroke-width="1.5"/>
+    <polygon points="15,40 0,40 0,60 15,50" fill="#6f7f7c" stroke="#2c4b7c" stroke-width="1.5"/>
+    <polygon points="15,50 30,50 30,70 15,70" fill="#7f7f7c" stroke="#2c4b7c" stroke-width="1.5"/>
+    <polygon points="30,50 45,60 45,80 30,70" fill="#8f7f7c" stroke="#2c4b7c" stroke-width="1.5"/>
+    <polygon points="45,60 60,60 60,80 45,80" fill="#9f7f7c" stroke="#2c4b7c" stroke-width="1.5"/>
+    <text x="30" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Додекаэдр</text>
+  </g>
+  
+  <!-- Икосаэдр -->
+  <g transform="translate(420, 270)">
+    <polygon points="15,0 30,10 30,30 15,20" fill="#5fa57c" stroke="#4c7c2c" stroke-width="1.5"/>
+    <polygon points="30,10 45,0 60,10 45,20" fill="#5fa56f" stroke="#4c7c2c" stroke-width="1.5"/>
+    <polygon points="30,30 45,20 60,30 45,40" fill="#5fa55f" stroke="#4c7c2c" stroke-width="1.5"/>
+    <polygon points="15,20 30,30 30,50 15,40" fill="#6fa55f" stroke="#4c7c2c" stroke-width="1.5"/>
+    <polygon points="30,30 45,40 45,60 30,50" fill="#7fa55f" stroke="#4c7c2c" stroke-width="1.5"/>
+    <polygon points="45,20 60,10 60,30 45,40" fill="#8fa55f" stroke="#4c7c2c" stroke-width="1.5"/>
+    <polygon points="15,40 30,50 30,70 15,60" fill="#9fa55f" stroke="#4c7c2c" stroke-width="1.5"/>
+    <polygon points="30,50 45,60 45,80 30,70" fill="#afa55f" stroke="#4c7c2c" stroke-width="1.5"/>
+    <polygon points="45,60 60,50 60,70 45,80" fill="#bfa55f" stroke="#4c7c2c" stroke-width="1.5"/>
+    <text x="30" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Икосаэдр</text>
+  </g>
+  
+  <!-- Формулы -->
+  <text x="250" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c4b7c">Правильные многогранники (Платоновы тела)</text>
+  
+  <!-- Свойства тетраэдра -->
+  <text x="110" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7c4c2c">4 грани</text>
+  <text x="110" y="328" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7c4c2c">4 вершины</text>
+  <text x="110" y="341" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7c4c2c">6 ребер</text>
+  
+  <!-- Свойства куба -->
+  <text x="180" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c4b7c">6 граней</text>
+  <text x="180" y="328" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c4b7c">8 вершин</text>
+  <text x="180" y="341" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c4b7c">12 ребер</text>
+  
+  <!-- Свойства октаэдра -->
+  <text x="270" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7c4c2c">8 граней</text>
+  <text x="270" y="328" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7c4c2c">6 вершин</text>
+  <text x="270" y="341" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7c4c2c">12 ребер</text>
+  
+  <!-- Свойства додекаэдра -->
+  <text x="370" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c4b7c">12 граней</text>
+  <text x="370" y="328" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c4b7c">20 вершин</text>
+  <text x="370" y="341" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c4b7c">30 ребер</text>
+  
+  <!-- Свойства икосаэдра -->
+  <text x="450" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#4c7c2c">20 граней</text>
+  <text x="450" y="328" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#4c7c2c">12 вершин</text>
+  <text x="450" y="341" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#4c7c2c">30 ребер</text>
+  
+  <!-- Двойственность многогранников -->
+  <text x="250" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#4a6fa5" font-style="italic">Двойственность: куб-октаэдр, додекаэдр-икосаэдр</text>
+  
+  <!-- Стрелки двойственности -->
+  <path d="M 180 220 L 220 240" stroke="#4a6fa5" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <path d="M 320 240 L 360 220" stroke="#4a6fa5" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Определение правильного многогранника -->
+  <rect x="20" y="175" width="460" height="20" fill="#f0f0f0" rx="3" opacity="0.5"/>
+  <text x="250" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c4b7c" font-style="italic">Правильный многогранник: все грани равные правильные многоугольники</text>
 </svg>

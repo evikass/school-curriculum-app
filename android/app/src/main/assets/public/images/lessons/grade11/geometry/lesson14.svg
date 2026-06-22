@@ -1,23 +1,137 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#2C5282" stroke-width="2" rx="5"/>
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#4A90E2" stroke-width="1" rx="3"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2C5282">ГЕОГРАФИЯ · 11 КЛАСС</text>
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#1A365D">Урок 14: Комбинации тел</text>
+  <text x="470" y="30" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#4A90E2">№14</text>
+  
+  <!-- Градиент для тел -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#831843"/>
-      <stop offset="100%" style="stop-color:#ec4899"/>
+    <linearGradient id="sphereGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#63B3ED;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#2B6CB0;stop-opacity:0.9" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#f9a8d4;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#f9a8d4;stop-opacity:0"/>
-    </radialGradient>
+    <linearGradient id="cubeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#48BB78;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#2F855A;stop-opacity:0.9" />
+    </linearGradient>
+    <linearGradient id="coneGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ED8936;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#C05621;stop-opacity:0.9" />
+    </linearGradient>
+    <linearGradient id="cylinderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9F7AEA;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#6B46C1;stop-opacity:0.9" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#f9a8d4" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#f9a8d4" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#f9a8d4" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fce7f3" text-anchor="middle">14</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fce7f3" text-anchor="middle" opacity="0.8">ГЕОМЕТРИЯ · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fce7f3" text-anchor="middle">Урок 14: Комбинации тел</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#f9a8d4" text-anchor="middle" opacity="0.8">Урок 14 из 25</text>
-  <ellipse cx="250" cy="175" rx="80" ry="30" fill="none" stroke="#f9a8d4" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Вписанные и описанные тела - левая часть -->
+  <text x="120" y="90" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2D3748">Вписанные тела</text>
+  
+  <!-- Шар внутри куба -->
+  <g transform="translate(80, 110)">
+    <!-- Куб -->
+    <path d="M0,30 L30,0 L60,0 L30,30 Z" fill="none" stroke="#4A90E2" stroke-width="1.5"/>
+    <path d="M0,30 L0,60 L30,90 L30,30 Z" fill="none" stroke="#4A90E2" stroke-width="1.5"/>
+    <path d="M30,30 L30,90 L60,60 L60,0 Z" fill="none" stroke="#4A90E2" stroke-width="1.5"/>
+    <path d="M0,60 L30,90 L60,60 L30,30 Z" fill="none" stroke="#4A90E2" stroke-width="1.5" stroke-dasharray="2,2"/>
+    
+    <!-- Вписанный шар -->
+    <circle cx="30" cy="45" r="25" fill="url(#sphereGrad)" opacity="0.7"/>
+    <text x="30" y="45" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">Шар</text>
+    
+    <!-- Формула -->
+    <text x="30" y="110" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#4A5568">R = a/2</text>
+  </g>
+  
+  <!-- Конус внутри цилиндра -->
+  <g transform="translate(180, 110)">
+    <!-- Цилиндр -->
+    <ellipse cx="30" cy="30" rx="25" ry="8" fill="none" stroke="#9F7AEA" stroke-width="1.5"/>
+    <path d="M5,30 L5,70 C5,75 25,85 55,70 L55,30" fill="none" stroke="#9F7AEA" stroke-width="1.5"/>
+    <ellipse cx="30" cy="70" rx="25" ry="8" fill="none" stroke="#9F7AEA" stroke-width="1.5"/>
+    
+    <!-- Вписанный конус -->
+    <path d="M5,70 L30,30 L55,70 Z" fill="url(#coneGrad)" opacity="0.7"/>
+    <text x="30" y="55" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">Конус</text>
+    
+    <!-- Формула -->
+    <text x="30" y="110" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#4A5568">h = 2r</text>
+  </g>
+  
+  <!-- Описанные тела - правая часть -->
+  <text x="380" y="90" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2D3748">Описанные тела</text>
+  
+  <!-- Куб вокруг шара -->
+  <g transform="translate(340, 110)">
+    <!-- Шар -->
+    <circle cx="30" cy="45" r="25" fill="url(#sphereGrad)" opacity="0.7"/>
+    <text x="30" y="45" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">Шар</text>
+    
+    <!-- Описанный куб -->
+    <path d="M5,20 L35,0 L65,20 L35,40 Z" fill="none" stroke="#4A90E2" stroke-width="1.5"/>
+    <path d="M5,20 L5,70 L35,90 L35,40 Z" fill="none" stroke="#4A90E2" stroke-width="1.5"/>
+    <path d="M35,40 L35,90 L65,70 L65,20 Z" fill="none" stroke="#4A90E2" stroke-width="1.5"/>
+    <path d="M5,70 L35,90 L65,70 L35,40 Z" fill="none" stroke="#4A90E2" stroke-width="1.5" stroke-dasharray="2,2"/>
+    
+    <!-- Формула -->
+    <text x="30" y="110" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#4A5568">a = 2R</text>
+  </g>
+  
+  <!-- Цилиндр вокруг конуса -->
+  <g transform="translate(440, 110)">
+    <!-- Конус -->
+    <path d="M5,70 L30,30 L55,70 Z" fill="url(#coneGrad)" opacity="0.7"/>
+    <text x="30" y="55" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">Конус</text>
+    
+    <!-- Описанный цилиндр -->
+    <ellipse cx="30" cy="30" rx="25" ry="8" fill="none" stroke="#9F7AEA" stroke-width="1.5"/>
+    <path d="M5,30 L5,70 C5,75 25,85 55,70 L55,30" fill="none" stroke="#9F7AEA" stroke-width="1.5"/>
+    <ellipse cx="30" cy="70" rx="25" ry="8" fill="none" stroke="#9F7AEA" stroke-width="1.5"/>
+    
+    <!-- Формула -->
+    <text x="30" y="110" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#4A5568">H = 3r</text>
+  </g>
+  
+  <!-- Свойства вписанных тел -->
+  <text x="120" y="250" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2D3748">Свойства вписанных тел</text>
+  
+  <!-- Свойства 1 -->
+  <rect x="20" y="265" width="200" height="55" fill="#EBF8FF" stroke="#4A90E2" stroke-width="1" rx="3"/>
+  <text x="25" y="280" font-family="Arial, sans-serif" font-size="10" fill="#2D3748">1. Все вершины многогранника</text>
+  <text x="25" y="295" font-family="Arial, sans-serif" font-size="10" fill="#2D3748">лежат на поверхности шара</text>
+  <text x="25" y="310" font-family="Arial, sans-serif" font-size="9" fill="#718096">V = (4/3)πR³</text>
+  
+  <!-- Свойства 2 -->
+  <rect x="20" y="325" width="200" height="55" fill="#EBF8FF" stroke="#4A90E2" stroke-width="1" rx="3"/>
+  <text x="25" y="340" font-family="Arial, sans-serif" font-size="10" fill="#2D3748">2. Все грани многогранника</text>
+  <text x="25" y="355" font-family="Arial, sans-serif" font-size="10" fill="#2D3748">касаются шара</text>
+  <text x="25" y="370" font-family="Arial, sans-serif" font-size="9" fill="#718096">S = 4πR²</text>
+  
+  <!-- Свойства описанных тел -->
+  <text x="380" y="250" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2D3748">Свойства описанных тел</text>
+  
+  <!-- Свойства 3 -->
+  <rect x="280" y="265" width="200" height="55" fill="#FAF5FF" stroke="#9F7AEA" stroke-width="1" rx="3"/>
+  <text x="285" y="280" font-family="Arial, sans-serif" font-size="10" fill="#2D3748">3. Все вершины многогранника</text>
+  <text x="285" y="295" font-family="Arial, sans-serif" font-size="10" fill="#2D3748">лежат на поверхности шара</text>
+  <text x="285" y="310" font-family="Arial, sans-serif" font-size="9" fill="#718096">R = a/√3</text>
+  
+  <!-- Свойства 4 -->
+  <rect x="280" y="325" width="200" height="55" fill="#FAF5FF" stroke="#9F7AEA" stroke-width="1" rx="3"/>
+  <text x="285" y="340" font-family="Arial, sans-serif" font-size="10" fill="#2D3748">4. Все грани многогранника</text>
+  <text x="285" y="355" font-family="Arial, sans-serif" font-size="10" fill="#2D3748">касаются шара</text>
+  <text x="285" y="370" font-family="Arial, sans-serif" font-size="9" fill="#718096">r = a/2√3</text>
+  
+  <!-- Разделительная линия -->
+  <line x1="250" y1="100" x2="250" y2="230" stroke="#CBD5E0" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <!-- Дополнительные элементы оформления -->
+  <circle cx="30" cy="30" r="3" fill="#4A90E2"/>
+  <circle cx="470" cy="30" r="3" fill="#9F7AEA"/>
+  <circle cx="30" cy="320" r="3" fill="#48BB78"/>
+  <circle cx="470" cy="320" r="3" fill="#ED8936"/>
 </svg>

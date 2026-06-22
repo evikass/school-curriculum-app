@@ -1,168 +1,124 @@
 <svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <!-- Градиенты -->
-    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#e6f2ff;stop-opacity:1" />
-    </linearGradient>
-    
-    <radialGradient id="fieldGradient" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#4169e1;stop-opacity:0.3" />
-      <stop offset="100%" style="stop-color:#1e90ff;stop-opacity:0.1" />
-    </radialGradient>
-    
-    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#3498db;stop-opacity:1" />
-    </linearGradient>
-  </defs>
-  
-  <!-- Фон -->
-  <rect width="500" height="350" fill="url(#bgGradient)" />
-  
-  <!-- Двойная рамка -->
-  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#2c3e50" stroke-width="2" />
-  <rect x="8" y="8" width="484" height="334" fill="none" stroke="#3498db" stroke-width="1" />
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#2c3e50" stroke-width="2" rx="5"/>
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#3498db" stroke-width="1" rx="3"/>
   
   <!-- Заголовок -->
-  <text x="250" y="30" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="url(#textGradient)">Магнитное поле и его характеристики</text>
-  <text x="250" y="50" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#7f8c8d">ФИЗИКА · 11 КЛАСС</text>
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">ФИЗИКА · 11 КЛАСС</text>
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#e74c3c">Урок 1: Магнитное поле и его характеристики</text>
+  <text x="470" y="320" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">№1</text>
   
-  <!-- Номер урока -->
-  <text x="20" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Урок 25</text>
+  <!-- Определение вектора магнитной индукции -->
+  <rect x="30" y="70" width="200" height="120" fill="none" stroke="#34495e" stroke-width="1.5" rx="5"/>
+  <text x="130" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Вектор магнитной индукции</text>
+  <text x="130" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#34495e">B = F / (I·l·sinα)</text>
   
-  <!-- Панель 1: Прямой проводник с током -->
-  <g transform="translate(80, 100)">
-    <!-- Проводник -->
-    <line x1="0" y1="50" x2="120" y2="50" stroke="#8b4513" stroke-width="6" />
-    <circle cx="0" cy="50" r="8" fill="#8b4513" />
-    <circle cx="120" cy="50" r="8" fill="#8b4513" />
-    
-    <!-- Стрелки направления тока -->
-    <polygon points="110,45 120,50 110,55" fill="#ff0000" />
-    <text x="125" y="55" font-family="Arial, sans-serif" font-size="14" fill="#ff0000">I</text>
-    
-    <!-- Линии магнитного поля -->
-    <circle cx="60" cy="50" r="20" fill="none" stroke="#4169e1" stroke-width="2" />
-    <circle cx="60" cy="50" r="30" fill="none" stroke="#4169e1" stroke-width="2" />
-    <circle cx="60" cy="50" r="40" fill="none" stroke="#4169e1" stroke-width="2" />
-    <circle cx="60" cy="50" r="50" fill="none" stroke="#4169e1" stroke-width="2" />
-    
-    <!-- Стрелки направления поля -->
-    <polygon points="80,50 75,45 75,55" fill="#4169e1" />
-    <polygon points="60,70 55,75 65,75" fill="#4169e1" />
-    <polygon points="40,50 45,45 45,55" fill="#4169e1" />
-    <polygon points="60,30 55,25 65,25" fill="#4169e1" />
-    
+  <!-- Схема для определения вектора B -->
+  <g transform="translate(80, 130)">
+    <!-- Прямой провод -->
+    <rect x="0" y="0" width="100" height="5" fill="#95a5a6"/>
+    <!-- Ток -->
+    <text x="50" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#3498db">I</text>
+    <!-- Вектор силы -->
+    <line x1="50" y1="5" x2="50" y2="40" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="55" y="30" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">F</text>
     <!-- Вектор B -->
-    <line x1="60" y1="50" x2="90" y2="20" stroke="#ff6347" stroke-width="2" />
-    <polygon points="90,20 85,25 95,25" fill="#ff6347" />
-    <text x="95" y="25" font-family="Arial, sans-serif" font-size="14" fill="#ff6347">B</text>
-    
-    <!-- Подписи -->
-    <text x="60" y="20" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">Прямой проводник</text>
-    <text x="60" y="90" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">с током</text>
-    
-    <!-- Правило буравчика -->
-    <rect x="10" y="110" width="100" height="40" fill="#f0f8ff" stroke="#4169e1" stroke-width="1" rx="5" />
-    <text x="60" y="125" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Правило буравчика:</text>
-    <text x="60" y="140" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">поворот рукоятки = ток</text>
+    <line x1="50" y1="5" x2="20" y2="20" stroke="#27ae60" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="15" y="25" font-family="Arial, sans-serif" font-size="10" fill="#27ae60">B</text>
   </g>
   
-  <!-- Формула B = μ₀I/(2πR) -->
-  <g transform="translate(250, 90)">
-    <rect x="0" y="0" width="200" height="30" fill="#fff8dc" stroke="#ff8c00" stroke-width="1" rx="5" />
-    <text x="100" y="20" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">B = μ₀I/(2πR)</text>
+  <!-- Линии магнитной индукции -->
+  <rect x="250" y="70" width="220" height="120" fill="none" stroke="#34495e" stroke-width="1.5" rx="5"/>
+  <text x="360" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Линии магнитной индукции</text>
+  
+  <!-- Магнитные линии для прямого провода -->
+  <g transform="translate(280, 110)">
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#3498db" stroke-width="1" stroke-dasharray="2,1"/>
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#3498db" stroke-width="1" stroke-dasharray="2,1"/>
+    <circle cx="0" cy="0" r="35" fill="none" stroke="#3498db" stroke-width="1" stroke-dasharray="2,1"/>
+    <!-- Прямой провод -->
+    <line x1="0" y1="-40" x2="0" y2="40" stroke="#95a5a6" stroke-width="4"/>
+    <text x="5" y="5" font-family="Arial, sans-serif" font-size="10" fill="#3498db">⊗</text>
   </g>
   
-  <!-- Панель 2: Круговой виток -->
-  <g transform="translate(250, 140)">
-    <!-- Виток -->
-    <circle cx="60" cy="60" r="40" fill="none" stroke="#8b4513" stroke-width="6" />
-    
-    <!-- Направление тока -->
-    <polygon points="100,60 95,55 95,65" fill="#ff0000" />
-    <polygon points="60,20 55,25 65,25" fill="#ff0000" />
-    <polygon points="20,60 25,55 25,65" fill="#ff0000" />
-    <polygon points="60,100 55,95 65,95" fill="#ff0000" />
-    <text x="105" y="65" font-family="Arial, sans-serif" font-size="14" fill="#ff0000">I</text>
-    
-    <!-- Линии поля -->
-    <ellipse cx="60" cy="60" rx="60" ry="30" fill="none" stroke="#4169e1" stroke-width="2" stroke-dasharray="5,3" />
-    <ellipse cx="60" cy="60" rx="70" ry="35" fill="none" stroke="#4169e1" stroke-width="2" stroke-dasharray="5,3" />
-    
-    <!-- Вектор B в центре -->
-    <line x1="60" y1="60" x2="60" y2="30" stroke="#ff6347" stroke-width="2" />
-    <polygon points="60,30 55,35 65,35" fill="#ff6347" />
-    <text x="65" y="35" font-family="Arial, sans-serif" font-size="14" fill="#ff6347">B</text>
-    
-    <!-- Подписи -->
-    <text x="60" y="10" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">Круговой виток</text>
-    <text x="60" y="120" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">с током</text>
+  <!-- Магнитные линии для катушки -->
+  <g transform="translate(360, 110)">
+    <!-- Катушка -->
+    <path d="M-20,-20 Q-20,0 -20,20 M-10,-20 Q-10,0 -10,20 M0,-20 Q0,0 0,20 M10,-20 Q10,0 10,20 M20,-20 Q20,0 20,20" 
+          stroke="#95a5a6" stroke-width="2" fill="none"/>
+    <!-- Магнитные линии -->
+    <ellipse cx="0" cy="-10" rx="30" ry="10" fill="none" stroke="#3498db" stroke-width="1"/>
+    <ellipse cx="0" cy="0" rx="35" ry="15" fill="none" stroke="#3498db" stroke-width="1"/>
+    <ellipse cx="0" cy="10" rx="30" ry="10" fill="none" stroke="#3498db" stroke-width="1"/>
+    <text x="0" y="-25" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">N</text>
+    <text x="0" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#3498db">S</text>
   </g>
   
-  <!-- Панель 3: Соленоид -->
-  <g transform="translate(80, 200)">
-    <!-- Соленоид -->
-    <path d="M 0,50 Q 10,40 20,50 T 40,50 T 60,50 T 80,50 T 100,50 T 120,50" 
-          fill="none" stroke="#8b4513" stroke-width="3" />
-    <path d="M 0,70 Q 10,60 20,70 T 40,70 T 60,70 T 80,70 T 100,70 T 120,70" 
-          fill="none" stroke="#8b4513" stroke-width="3" />
+  <!-- Принцип суперпозиции -->
+  <rect x="30" y="210" width="440" height="120" fill="none" stroke="#34495e" stroke-width="1.5" rx="5"/>
+  <text x="250" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Принцип суперпозиции магнитных полей</text>
+  
+  <!-- Схема для суперпозиции -->
+  <g transform="translate(80, 250)">
+    <!-- Первый магнит -->
+    <rect x="0" y="0" width="60" height="30" fill="#e74c3c" rx="3"/>
+    <text x="30" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">N</text>
+    <rect x="0" y="30" width="60" height="30" fill="#3498db" rx="3"/>
+    <text x="30" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">S</text>
     
-    <!-- Направление тока -->
-    <polygon points="15,55 20,50 15,45" fill="#ff0000" />
-    <polygon points="105,65 100,70 105,75" fill="#ff0000" />
-    <text x="25" y="55" font-family="Arial, sans-serif" font-size="10" fill="#ff0000">I</text>
-    <text x="110" y="65" font-family="Arial, sans-serif" font-size="10" fill="#ff0000">I</text>
+    <!-- Второй магнит -->
+    <rect x="140" y="0" width="60" height="30" fill="#3498db" rx="3"/>
+    <text x="170" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">S</text>
+    <rect x="140" y="30" width="60" height="30" fill="#e74c3c" rx="3"/>
+    <text x="170" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">N</text>
     
-    <!-- Линии поля внутри соленоида -->
-    <line x1="20" y1="60" x2="100" y2="60" stroke="#4169e1" stroke-width="2" />
-    <polygon points="100,60 95,55 95,65" fill="#4169e1" />
-    <text x="105" y="65" font-family="Arial, sans-serif" font-size="14" fill="#4169e1">B</text>
+    <!-- Векторы полей -->
+    <line x1="30" y1="15" x2="30" y2="35" stroke="#27ae60" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="35" y="30" font-family="Arial, sans-serif" font-size="10" fill="#27ae60">B₁</text>
     
-    <!-- Линии поля снаружи -->
-    <path d="M 0,30 Q 60,20 120,30" fill="none" stroke="#4169e1" stroke-width="2" stroke-dasharray="5,3" />
-    <path d="M 0,90 Q 60,100 120,90" fill="none" stroke="#4169e1" stroke-width="2" stroke-dasharray="5,3" />
+    <line x1="170" y1="15" x2="170" y2="35" stroke="#27ae60" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="175" y="30" font-family="Arial, sans-serif" font-size="10" fill="#27ae60">B₂</text>
     
-    <!-- Подписи -->
-    <text x="60" y="15" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">Соленоид</text>
-    <text x="60" y="115" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">с током</text>
+    <!-- Результирующий вектор -->
+    <line x1="100" y1="15" x2="100" y2="35" stroke="#9b59b6" stroke-width="3" marker-end="url(#arrowhead)"/>
+    <text x="105" y="30" font-family="Arial, sans-serif" font-size="10" fill="#9b59b6">B</text>
+    
+    <!-- Знак сложения -->
+    <text x="60" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">+</text>
+    <text x="130" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">=</text>
   </g>
   
-  <!-- Легенда/объяснения -->
-  <g transform="translate(340, 200)">
-    <rect x="0" y="0" width="150" height="120" fill="#f5f5f5" stroke="#666" stroke-width="1" rx="5" />
-    <text x="75" y="20" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">Легенда</text>
-    
-    <circle cx="15" cy="35" r="5" fill="#8b4513" />
-    <text x="25" y="40" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Проводник</text>
-    
-    <line x1="10" y1="50" x2="20" y2="50" stroke="#ff0000" stroke-width="2" />
-    <polygon points="20,50 15,47 15,53" fill="#ff0000" />
-    <text x="25" y="54" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Направление тока</text>
-    
-    <line x1="10" y1="65" x2="20" y2="65" stroke="#4169e1" stroke-width="2" />
-    <polygon points="20,65 15,62 15,68" fill="#4169e1" />
-    <text x="25" y="69" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Линии поля</text>
-    
-    <line x1="10" y1="80" x2="20" y2="80" stroke="#ff6347" stroke-width="2" />
-    <polygon points="20,80 15,77 15,83" fill="#ff6347" />
-    <text x="25" y="84" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Вектор B</text>
-    
-    <text x="75" y="105" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#7f8c8d">μ₀ = 4π·10⁻⁷ Гн/м</text>
-  </g>
+  <!-- Формулы -->
+  <text x="30" y="300" font-family="Arial, sans-serif" font-size="10" fill="#34495e">|B| = μ₀·I/(2πr) - для прямого провода</text>
+  <text x="30" y="315" font-family="Arial, sans-serif" font-size="10" fill="#34495e">|B| = μ₀·n·I - для соленоида</text>
   
-  <!-- Дополнительные подписи и пояснения -->
-  <g transform="translate(10, 320)">
-    <text x="0" y="0" font-family="Arial, sans-serif" font-size="10" fill="#666">
-      Магнитное поле создаётся движущимися зарядами. Направление поля определяется правилом буравчика.
-    </text>
-  </g>
+  <!-- Определения -->
+  <text x="250" y="300" font-family="Arial, sans-serif" font-size="10" fill="#34495e">μ₀ = 4π·10⁻⁹ Гн/м - магнитная постоянная</text>
+  <text x="250" y="315" font-family="Arial, sans-serif" font-size="10" fill="#34495e">1 Тл = 10⁴ Гс - единицы измерения B</text>
   
-  <!-- Уравнение для соленоида -->
-  <g transform="translate(340, 140)">
-    <rect x="0" y="0" width="150" height="40" fill="#fff8dc" stroke="#ff8c00" stroke-width="1" rx="5" />
-    <text x="75" y="15" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Для соленоида: B = μ₀nI</text>
-    <text x="75" y="30" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">n = число витков/м</text>
-  </g>
+  <!-- Градиенты -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#3498db;stop-opacity:0.1" />
+    </linearGradient>
+    
+    <radialGradient id="grad2">
+      <stop offset="0%" style="stop-color:#e74c3c;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#e74c3c;stop-opacity:0" />
+    </radialGradient>
+    
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#27ae60"/>
+    </marker>
+  </defs>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="460" cy="100" r="3" fill="#3498db"/>
+  <circle cx="470" cy="110" r="3" fill="#3498db"/>
+  <circle cx="450" cy="110" r="3" fill="#3498db"/>
+  
+  <circle cx="40" cy="100" r="3" fill="#e74c3c"/>
+  <circle cx="30" cy="110" r="3" fill="#e74c3c"/>
+  <circle cx="50" cy="110" r="3" fill="#e74c3c"/>
 </svg>

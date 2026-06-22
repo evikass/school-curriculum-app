@@ -1,23 +1,196 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#831843"/>
-      <stop offset="100%" style="stop-color:#ec4899"/>
+    <!-- Градиенты -->
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3c72;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a5298;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#f9a8d4;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#f9a8d4;stop-opacity:0"/>
+    
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c12c1f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e74c3c;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#27ae60;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2ecc71;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="goldGrad">
+      <stop offset="0%" style="stop-color:#f1c40f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f39c12;stop-opacity:1" />
     </radialGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#f9a8d4" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#f9a8d4" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#f9a8d4" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fce7f3" text-anchor="middle">31</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fce7f3" text-anchor="middle" opacity="0.8">ИСТОРИЯ РОССИИ · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fce7f3" text-anchor="middle">Урок 31: Становление новой России. 1990-е годы</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#f9a8d4" text-anchor="middle" opacity="0.8">Урок 31 из 35</text>
-  <polygon points="250,120 263,165 311,165 272,193 286,237 250,210 214,237 228,193 189,165 237,165" fill="#f9a8d4" opacity="0.6"/><rect x="245" y="160" width="10" height="80" fill="#fce7f3" opacity="0.5"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#8b4513" stroke-width="3"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#d4af37" stroke-width="1"/>
+  
+  <!-- Надпись "ИСТОРИЯ · 11 КЛАСС" -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#8b4513" font-weight="bold">ИСТОРИЯ · 11 КЛАСС</text>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#1e3c72" font-weight="bold">Конституция РФ</text>
+  <text x="250" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#666">Государственное устройство</text>
+  
+  <!-- Дата принятия Конституции -->
+  <text x="250" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">12 декабря 1993 г.</text>
+  
+  <!-- Эмблема России -->
+  <g transform="translate(250, 110)">
+    <circle cx="0" cy="0" r="15" fill="url(#goldGrad)"/>
+    <path d="M0,-10 L3,-3 L10,-2 L5,2 L7,9 L0,5 L-7,9 L-5,2 L-10,-2 L-3,-3 Z" fill="#fff"/>
+  </g>
+  
+  <!-- Президент -->
+  <g transform="translate(250, 130)">
+    <rect x="-50" y="0" width="100" height="30" rx="5" fill="url(#blueGrad)"/>
+    <text x="0" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">Президент</text>
+    <!-- Портрет Президента -->
+    <circle cx="-30" cy="45" r="15" fill="#fdbcb4"/>
+    <path d="M-45,60 Q-30,50 -15,60" fill="#333"/>
+    <circle cx="-35" cy="42" r="2" fill="#333"/>
+    <circle cx="-25" cy="42" r="2" fill="#333"/>
+    <path d="M-35,48 Q-30,50 -25,48" fill="none" stroke="#333" stroke-width="1"/>
+  </g>
+  
+  <!-- Стрелка от Президента к Правительству -->
+  <path d="M200,160 L150,190" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Правительство -->
+  <g transform="translate(100, 200)">
+    <rect x="-40" y="0" width="80" height="25" rx="5" fill="url(#redGrad)"/>
+    <text x="0" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="bold">Правительство</text>
+  </g>
+  
+  <!-- Стрелка от Президента к Федеральному Собранию -->
+  <path d="M300,160 L350,190" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Федеральное Собрание -->
+  <g transform="translate(400, 200)">
+    <rect x="-50" y="0" width="100" height="25" rx="5" fill="url(#greenGrad)"/>
+    <text x="0" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="bold">Федеральное Собрание</text>
+  </g>
+  
+  <!-- Государственная Дума -->
+  <g transform="translate(320, 240)">
+    <rect x="-35" y="0" width="70" height="20" rx="3" fill="#3498db"/>
+    <text x="0" y="14" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Гос. Дума</text>
+  </g>
+  
+  <!-- Совет Федерации -->
+  <g transform="translate(480, 240)">
+    <rect x="-35" y="0" width="70" height="20" rx="3" fill="#3498db"/>
+    <text x="0" y="14" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Совет Федерации</text>
+  </g>
+  
+  <!-- Стрелки от Федерального Собрания к Думе и СФ -->
+  <path d="M400,225 L350,240" stroke="#333" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M400,225 L450,240" stroke="#333" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Судебная власть -->
+  <g transform="translate(250, 280)">
+    <rect x="-50" y="0" width="100" height="25" rx="5" fill="#9b59b6"/>
+    <text x="0" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="bold">Судебная власть</text>
+  </g>
+  
+  <!-- Конституционный Суд -->
+  <g transform="translate(150, 310)">
+    <rect x="-35" y="0" width="70" height="20" rx="3" fill="#8e44ad"/>
+    <text x="0" y="14" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Конституционный Суд</text>
+  </g>
+  
+  <!-- Верховный Суд -->
+  <g transform="translate(350, 310)">
+    <rect x="-35" y="0" width="70" height="20" rx="3" fill="#8e44ad"/>
+    <text x="0" y="14" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Верховный Суд</text>
+  </g>
+  
+  <!-- Стрелки от Судебной власти к Конституционному и Верховному судам -->
+  <path d="M220,305 L175,310" stroke="#333" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M280,305 L325,310" stroke="#333" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Стрелка от Президента к Судебной власти -->
+  <path d="M250,160 L250,280" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Стрелка от Правительства к Федеральному Собранию -->
+  <path d="M140,212 L350,200" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Стрелка от Правительства к Судебной власти -->
+  <path d="M100,225 L200,280" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Стрелка от Думы к Правительству -->
+  <path d="M320,240 L140,225" stroke="#333" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Стрелка от СФ к Правительству -->
+  <path d="M480,240 L140,225" stroke="#333" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Определение ветвей власти -->
+  <g transform="translate(30, 140)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="10" fill="#666">Исполнительная</text>
+    <text x="0" y="12" font-family="Arial, sans-serif" font-size="10" fill="#666">власть</text>
+  </g>
+  
+  <g transform="translate(430, 140)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="10" fill="#666">Законодательная</text>
+    <text x="0" y="12" font-family="Arial, sans-serif" font-size="10" fill="#666">власть</text>
+  </g>
+  
+  <g transform="translate(200, 260)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="10" fill="#666">Судебная</text>
+    <text x="0" y="12" font-family="Arial, sans-serif" font-size="10" fill="#666">власть</text>
+  </g>
+  
+  <!-- Номер урока -->
+  <text x="480" y="340" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#8b4513" font-weight="bold">Урок 15</text>
+  
+  <!-- Хронологическая лента -->
+  <g transform="translate(50, 80)">
+    <rect x="0" y="0" width="120" height="3" fill="#8b4513"/>
+    <circle cx="0" cy="1.5" r="4" fill="#8b4513"/>
+    <circle cx="40" cy="1.5" r="4" fill="#8b4513"/>
+    <circle cx="80" cy="1.5" r="4" fill="#8b4513"/>
+    <circle cx="120" cy="1.5" r="4" fill="#8b4513"/>
+    <text x="0" y="-5" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#666">1991</text>
+    <text x="40" y="-5" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#666">1993</text>
+    <text x="80" y="-5" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#666">1998</text>
+    <text x="120" y="-5" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#666">2023</text>
+    <text x="60" y="-15" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">История Конституции</text>
+  </g>
+  
+  <!-- Стрелка маркер -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  
+  <!-- Дополнительные элементы для увеличения размера -->
+  <g transform="translate(330, 80)">
+    <rect x="0" y="0" width="120" height="3" fill="#8b4513"/>
+    <circle cx="0" cy="1.5" r="4" fill="#8b4513"/>
+    <circle cx="40" cy="1.5" r="4" fill="#8b4513"/>
+    <circle cx="80" cy="1.5" r="4" fill="#8b4513"/>
+    <circle cx="120" cy="1.5" r="4" fill="#8b4513"/>
+    <text x="0" y="-5" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#666">1991</text>
+    <text x="40" y="-5" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#666">1993</text>
+    <text x="80" y="-5" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#666">1998</text>
+    <text x="120" y="-5" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#666">2023</text>
+    <text x="60" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">Поправки</text>
+  </g>
+  
+  <!-- Декоративный элемент -->
+  <g transform="translate(30, 320)">
+    <path d="M0,0 L10,-5 L20,0 L10,5 Z" fill="none" stroke="#d4af37" stroke-width="1"/>
+    <path d="M0,5 L10,0 L20,5 L10,10 Z" fill="none" stroke="#d4af37" stroke-width="1"/>
+  </g>
+  
+  <!-- Герб России -->
+  <g transform="translate(470, 320)">
+    <rect x="-10" y="-10" width="20" height="20" fill="url(#goldGrad)"/>
+    <path d="M0,-7 L2,-2 L7,-1 L3,1 L4,6 L0,3 L-4,6 L-3,1 L-7,-1 L-2,-2 Z" fill="#333"/>
+  </g>
+  
+  <!-- Формула власти -->
+  <text x="250" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">Разделение властей: Президент = Глава государства</text>
 </svg>

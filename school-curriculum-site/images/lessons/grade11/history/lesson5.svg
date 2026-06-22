@@ -1,23 +1,182 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Градиенты -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#4a1d1d"/>
-      <stop offset="100%" style="stop-color:#dc2626"/>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5e6d3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8d4b8;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fca5a5;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#fca5a5;stop-opacity:0"/>
-    </radialGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8b4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a0522d;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="chartGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#cd5c5c;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#8b0000;stop-opacity:0.8" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#fca5a5" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#fca5a5" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#fca5a5" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fee2e2" text-anchor="middle">5</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fee2e2" text-anchor="middle" opacity="0.8">ИСТОРИЯ РОССИИ · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fee2e2" text-anchor="middle">Урок 5: Февральская революция 1917 г. Падение само</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fca5a5" text-anchor="middle" opacity="0.8">Урок 5 из 35</text>
-  <path d="M 80 175 Q 250 100 420 175" fill="none" stroke="#fca5a5" stroke-width="2" opacity="0.6"/><path d="M 80 175 Q 250 250 420 175" fill="none" stroke="#fca5a5" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGrad)" />
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#8b4513" stroke-width="3" />
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#a0522d" stroke-width="1" />
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#8b0000">Российский тыл в годы войны</text>
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#8b4513">ИСТОРИЯ · 11 КЛАСС</text>
+  <text x="470" y="25" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#8b4513">Урок 15</text>
+  
+  <!-- Карта России -->
+  <g id="map">
+    <path d="M80,180 Q90,160 110,155 T140,160 Q160,165 170,180 T180,210 Q175,230 160,235 T130,230 Q110,225 95,210 T80,180" 
+          fill="#d2b48c" stroke="#8b4513" stroke-width="1.5" />
+    <text x="130" y="195" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#5d4037">РОССИЯ</text>
+    <circle cx="120" cy="185" r="3" fill="#cd5c5c" />
+    <text x="120" y="205" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#5d4037">1915</text>
+  </g>
+  
+  <!-- График роста цен -->
+  <g id="priceChart">
+    <rect x="220" y="80" width="150" height="100" fill="white" fill-opacity="0.8" stroke="#8b4513" stroke-width="1" />
+    <text x="295" y="95" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#8b0000">Рост цен</text>
+    
+    <!-- Ось Y -->
+    <line x1="235" y1="105" x2="235" y2="165" stroke="#8b4513" stroke-width="1" />
+    <!-- Ось X -->
+    <line x1="235" y1="165" x2="355" y2="165" stroke="#8b4513" stroke-width="1" />
+    
+    <!-- График роста -->
+    <polyline points="235,160 250,155 265,145 280,130 295,115 310,105 325,100 340,95 355,90" 
+              fill="none" stroke="url(#chartGrad)" stroke-width="2" />
+    
+    <!-- Метки осей -->
+    <text x="230" y="110" font-family="Arial, sans-serif" font-size="6" text-anchor="end" fill="#5d4037">300%</text>
+    <text x="230" y="135" font-family="Arial, sans-serif" font-size="6" text-anchor="end" fill="#5d4037">150%</text>
+    <text x="230" y="170" font-family="Arial, sans-serif" font-size="6" text-anchor="end" fill="#5d4037">0%</text>
+    <text x="235" y="175" font-family="Arial, sans-serif" font-size="6" fill="#5d4037">1914</text>
+    <text x="355" y="175" font-family="Arial, sans-serif" font-size="6" text-anchor="end" fill="#5d4037">1917</text>
+  </g>
+  
+  <!-- Очередь за хлебом -->
+  <g id="breadQueue">
+    <rect x="80" y="250" width="120" height="80" fill="white" fill-opacity="0.8" stroke="#8b4513" stroke-width="1" />
+    <text x="140" y="265" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#8b0000">Очередь за хлебом</text>
+    
+    <!-- Фигуры людей -->
+    <ellipse cx="100" cy="285" rx="5" ry="5" fill="#5d4037" />
+    <rect x="97" y="290" width="6" height="10" fill="#424242" />
+    
+    <ellipse cx="120" cy="285" rx="5" ry="5" fill="#5d4037" />
+    <rect x="117" y="290" width="6" height="10" fill="#424242" />
+    
+    <ellipse cx="140" cy="285" rx="5" ry="5" fill="#5d4037" />
+    <rect x="137" y="290" width="6" height="10" fill="#424242" />
+    
+    <ellipse cx="160" cy="285" rx="5" ry="5" fill="#5d4037" />
+    <rect x="157" y="290" width="6" height="10" fill="#424242" />
+    
+    <ellipse cx="180" cy="285" rx="5" ry="5" fill="#5d4037" />
+    <rect x="177" y="290" width="6" height="10" fill="#424242" />
+    
+    <text x="140" y="315" font-family="Arial, sans-serif" font-size="7" text-anchor="middle" fill="#5d4037">До 12 часов ожидания</text>
+  </g>
+  
+  <!-- Портрет Распутина -->
+  <g id="rasputin">
+    <rect x="220" y="250" width="100" height="80" fill="white" fill-opacity="0.8" stroke="#8b4513" stroke-width="1" />
+    <text x="270" y="265" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#8b0000">Распутин Г.</text>
+    
+    <!-- Лицо -->
+    <ellipse cx="270" cy="285" rx="15" ry="18" fill="#fdbcb4" stroke="#8b4513" stroke-width="1" />
+    
+    <!-- Глаза -->
+    <circle cx="265" cy="280" r="1.5" fill="#000000" />
+    <circle cx="275" cy="280" r="1.5" fill="#000000" />
+    
+    <!-- Бородка -->
+    <path d="M265,290 Q270,295 275,290" fill="none" stroke="#5d4037" stroke-width="1" />
+    
+    <!-- Одежда -->
+    <rect x="258" y="300" width="24" height="15" fill="#424242" stroke="#8b4513" stroke-width="1" />
+    <rect x="265" y="295" width="10" height="8" fill="#424242" stroke="#8b4513" stroke-width="1" />
+    
+    <text x="270" y="315" font-family="Arial, sans-serif" font-size="7" text-anchor="middle" fill="#5d4037">1914-1916</text>
+  </g>
+  
+  <!-- Прогрессивный блок -->
+  <g id="progressiveBlock">
+    <rect x="340" y="250" width="130" height="80" fill="white" fill-opacity="0.8" stroke="#8b4513" stroke-width="1" />
+    <text x="405" y="265" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#8b0000">Прогрессивный блок</text>
+    
+    <!-- Схема блока -->
+    <rect x="360" y="275" width="30" height="20" fill="#b39ddb" stroke="#8b4513" stroke-width="1" />
+    <rect x="395" y="275" width="30" height="20" fill="#b39ddb" stroke="#8b4513" stroke-width="1" />
+    <rect x="430" y="275" width="30" height="20" fill="#b39ddb" stroke="#8b4513" stroke-width="1" />
+    
+    <!-- Стрелки -->
+    <line x1="390" y1="285" x2="395" y2="285" stroke="#8b4513" stroke-width="1.5" marker-end="url(#arrowhead)" />
+    <line x1="425" y1="285" x2="430" y2="285" stroke="#8b4513" stroke-width="1.5" marker-end="url(#arrowhead)" />
+    
+    <!-- Метки -->
+    <text x="375" y="305" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#5d4037">Кадеты</text>
+    <text x="410" y="305" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#5d4037">Октябристы</text>
+    <text x="445" y="305" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#5d4037">Прогрессисты</text>
+    
+    <text x="405" y="320" font-family="Arial, sans-serif" font-size="7" text-anchor="middle" fill="#5d4037">1915-1917</text>
+  </g>
+  
+  <!-- Статистика мобилизации -->
+  <g id="mobilizationStats">
+    <rect x="220" y="190" width="250" height="50" fill="white" fill-opacity="0.8" stroke="#8b4513" stroke-width="1" />
+    <text x="345" y="205" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#8b0000">Мобилизация в армию</text>
+    
+    <!-- Круговая диаграмма -->
+    <circle cx="280" cy="225" r="15" fill="none" stroke="#8b4513" stroke-width="1" />
+    <path d="M280,225 L280,210 A15,15 0 0,1 293,227 z" fill="#ff9800" />
+    <path d="M280,225 L293,227 A15,15 0 0,1 280,240 z" fill="#ffc107" />
+    <path d="M280,225 L280,240 A15,15 0 0,1 267,227 z" fill="#ff5722" />
+    
+    <!-- Текст -->
+    <text x="310" y="220" font-family="Arial, sans-serif" font-size="8" fill="#5d4037">15 млн.</text>
+    <text x="310" y="232" font-family="Arial, sans-serif" font-size="7" fill="#5d4037">человек</text>
+    <text x="310" y="242" font-family="Arial, sans-serif" font-size="7" fill="#5d4037">1914-1917</text>
+  </g>
+  
+  <!-- Хронологическая лента -->
+  <g id="timeline">
+    <path d="M80,210 Q150,200 220,210 T360,210" fill="none" stroke="url(#lineGrad)" stroke-width="2" />
+    
+    <!-- Даты на ленте -->
+    <circle cx="80" cy="210" r="3" fill="#8b4513" />
+    <text x="80" y="225" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#5d4037">1914</text>
+    
+    <circle cx="150" cy="205" r="3" fill="#8b4513" />
+    <text x="150" y="225" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#5d4037">1915</text>
+    
+    <circle cx="220" cy="210" r="3" fill="#8b4513" />
+    <text x="220" y="225" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#5d4037">1916</text>
+    
+    <circle cx="290" cy="208" r="3" fill="#8b4513" />
+    <text x="290" y="225" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#5d4037">1917</text>
+    
+    <circle cx="360" cy="210" r="3" fill="#8b4513" />
+    <text x="360" y="225" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#5d4037">1918</text>
+  </g>
+  
+  <!-- Формула -->
+  <text x="340" y="120" font-family="Arial, sans-serif" font-size="7" fill="#5d4037">Цена = 100% × (1 + t)¹.⁵</text>
+  <text x="340" y="132" font-family="Arial, sans-serif" font-size="6" fill="#8b4513">где t - время войны</text>
+  
+  <!-- Дополнительные элементы -->
+  <g id="decor">
+    <!-- Монета -->
+    <circle cx="200" cy="100" r="8" fill="#ffd700" stroke="#b8860b" stroke-width="1" />
+    <text x="200" y="104" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#8b4513">20 к.</text>
+    <text x="200" y="118" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#5d4037">1914</text>
+    
+    <!-- Хлеб -->
+    <path d="M380,180 Q385,175 390,180 L385,185 Z" fill="#d2691e" stroke="#8b4513" stroke-width="1" />
+    <text x="385" y="195" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#5d4037">3 коп.</text>
+  </g>
 </svg>

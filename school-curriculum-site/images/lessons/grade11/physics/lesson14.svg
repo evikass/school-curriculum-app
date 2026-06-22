@@ -1,169 +1,177 @@
 <svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#e6f2ff;stop-opacity:1" />
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2980b9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3498db;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#4169e1;stop-opacity:0.8" />
-      <stop offset="50%" style="stop-color:#1e90ff;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#4169e1;stop-opacity:0.8" />
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e74c3c;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#c0392b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e74c3c;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="particleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#ee5a6f;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="dopplerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#ffd93d;stop-opacity:0.6" />
-      <stop offset="50%" style="stop-color:#ffb347;stop-opacity:0.8" />
-      <stop offset="100%" style="stop-color:#ff6b6b;stop-opacity:0.6" />
-    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="0.5" fill="#34495e" opacity="0.3"/>
+    </pattern>
   </defs>
   
-  <!-- Фон -->
-  <rect width="500" height="350" fill="url(#bgGradient)" />
-  
   <!-- Декоративная рамка -->
-  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#2c3e50" stroke-width="2" />
-  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#34495e" stroke-width="1" stroke-dasharray="5,3" />
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#2c3e50" stroke-width="2" rx="5"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#34495e" stroke-width="1" rx="3"/>
+  
+  <!-- Номер урока -->
+  <text x="460" y="30" font-family="Arial, sans-serif" font-size="12" fill="#34495e" text-anchor="end">Урок 14</text>
   
   <!-- Заголовок -->
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#2c3e50">Механические волны</text>
-  <text x="250" y="55" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">ФИЗИКА · 11 КЛАСС</text>
-  <text x="30" y="25" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Урок №12</text>
-  
-  <!-- Продольная волна -->
-  <g id="longitudinalWave">
-    <text x="50" y="90" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Продольная волна</text>
-    
-    <!-- Частицы среды -->
-    <circle cx="60" cy="120" r="8" fill="url(#particleGradient)" />
-    <circle cx="90" cy="120" r="8" fill="url(#particleGradient)" />
-    <circle cx="120" cy="120" r="8" fill="url(#particleGradient)" />
-    <circle cx="150" cy="120" r="8" fill="url(#particleGradient)" />
-    <circle cx="180" cy="120" r="8" fill="url(#particleGradient)" />
-    <circle cx="210" cy="120" r="8" fill="url(#particleGradient)" />
-    <circle cx="240" cy="120" r="8" fill="url(#particleGradient)" />
-    <circle cx="270" cy="120" r="8" fill="url(#particleGradient)" />
-    <circle cx="300" cy="120" r="8" fill="url(#particleGradient)" />
-    <circle cx="330" cy="120" r="8" fill="url(#particleGradient)" />
-    <circle cx="360" cy="120" r="8" fill="url(#particleGradient)" />
-    <circle cx="390" cy="120" r="8" fill="url(#particleGradient)" />
-    <circle cx="420" cy="120" r="8" fill="url(#particleGradient)" />
-    
-    <!-- Сжатия и разрежения -->
-    <ellipse cx="75" cy="120" rx="20" ry="15" fill="#87ceeb" fill-opacity="0.3" />
-    <ellipse cx="105" cy="120" rx="20" ry="15" fill="#87ceeb" fill-opacity="0.3" />
-    <ellipse cx="135" cy="120" rx="20" ry="15" fill="#87ceeb" fill-opacity="0.3" />
-    <ellipse cx="165" cy="120" rx="20" ry="15" fill="#87ceeb" fill-opacity="0.3" />
-    <ellipse cx="195" cy="120" rx="20" ry="15" fill="#87ceeb" fill-opacity="0.3" />
-    <ellipse cx="225" cy="120" rx="20" ry="15" fill="#87ceeb" fill-opacity="0.3" />
-    <ellipse cx="255" cy="120" rx="20" ry="15" fill="#87ceeb" fill-opacity="0.3" />
-    <ellipse cx="285" cy="120" rx="20" ry="15" fill="#87ceeb" fill-opacity="0.3" />
-    <ellipse cx="315" cy="120" rx="20" ry="15" fill="#87ceeb" fill-opacity="0.3" />
-    <ellipse cx="345" cy="120" rx="20" ry="15" fill="#87ceeb" fill-opacity="0.3" />
-    <ellipse cx="375" cy="120" rx="20" ry="15" fill="#87ceeb" fill-opacity="0.3" />
-    <ellipse cx="405" cy="120" rx="20" ry="15" fill="#87ceeb" fill-opacity="0.3" />
-    
-    <!-- Пунктирные линии для направления волны -->
-    <line x1="50" y1="150" x2="430" y2="150" stroke="#34495e" stroke-width="1" stroke-dasharray="5,5" />
-    <polygon points="430,150 425,147 425,153" fill="#34495e" />
-    <text x="440" y="155" font-family="Arial, sans-serif" font-size="12" fill="#34495e">направление</text>
-    
-    <!-- Обозначение длины волны -->
-    <line x1="60" y1="110" x2="150" y2="110" stroke="#e74c3c" stroke-width="2" />
-    <line x1="60" y1="105" x2="60" y2="115" stroke="#e74c3c" stroke-width="2" />
-    <line x1="150" y1="105" x2="150" y2="115" stroke="#e74c3c" stroke-width="2" />
-    <text x="105" y="100" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#e74c3c">λ</text>
-    
-    <!-- Подписи зон -->
-    <text x="75" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2980b9">сжатие</text>
-    <text x="120" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2980b9">разрежение</text>
-  </g>
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50" text-anchor="middle">ФИЗИКА · 11 КЛАСС</text>
+  <text x="250" y="60" font-family="Arial, sans-serif" font-size="14" fill="#34495e" text-anchor="middle">Механические волны и их свойства</text>
   
   <!-- Поперечная волна -->
-  <g id="transverseWave">
-    <text x="50" y="210" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Поперечная волна</text>
+  <g transform="translate(30, 100)">
+    <text x="0" y="-10" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Поперечная волна</text>
     
     <!-- Ось -->
-    <line x1="50" y1="250" x2="450" y2="250" stroke="#34495e" stroke-width="2" />
-    <polygon points="450,250 445,247 445,253" fill="#34495e" />
-    <text x="460" y="255" font-family="Arial, sans-serif" font-size="12" fill="#34495e">направление</text>
+    <line x1="0" y1="30" x2="200" y2="30" stroke="#34495e" stroke-width="1"/>
+    <line x1="0" y1="10" x2="0" y2="50" stroke="#34495e" stroke-width="1"/>
+    <polygon points="200,30 205,25 205,35" fill="#34495e"/>
+    <polygon points="0,30 -5,25 -5,35" fill="#34495e"/>
+    <text x="100" y="65" font-family="Arial, sans-serif" font-size="10" fill="#34495e" text-anchor="middle">Направление распространения</text>
     
-    <!-- Синусоида -->
-    <path d="M 60,250 Q 90,220 120,250 T 180,250 T 240,250 T 300,250 T 360,250 T 420,250" 
-          fill="none" stroke="url(#waveGradient)" stroke-width="3" />
+    <!-- Частицы и волна -->
+    <circle cx="20" cy="30" r="3" fill="#3498db"/>
+    <line x1="20" y1="30" x2="20" y2="15" stroke="#3498db" stroke-width="2"/>
+    <line x1="20" y1="30" x2="20" y2="45" stroke="#3498db" stroke-width="2"/>
     
-    <!-- Частицы среды -->
-    <circle cx="60" cy="250" r="6" fill="url(#particleGradient)" />
-    <circle cx="90" cy="220" r="6" fill="url(#particleGradient)" />
-    <circle cx="120" cy="250" r="6" fill="url(#particleGradient)" />
-    <circle cx="150" cy="280" r="6" fill="url(#particleGradient)" />
-    <circle cx="180" cy="250" r="6" fill="url(#particleGradient)" />
-    <circle cx="210" cy="220" r="6" fill="url(#particleGradient)" />
-    <circle cx="240" cy="250" r="6" fill="url(#particleGradient)" />
-    <circle cx="270" cy="280" r="6" fill="url(#particleGradient)" />
-    <circle cx="300" cy="250" r="6" fill="url(#particleGradient)" />
-    <circle cx="330" cy="220" r="6" fill="url(#particleGradient)" />
-    <circle cx="360" cy="250" r="6" fill="url(#particleGradient)" />
-    <circle cx="390" cy="280" r="6" fill="url(#particleGradient)" />
-    <circle cx="420" cy="250" r="6" fill="url(#particleGradient)" />
+    <circle cx="40" cy="30" r="3" fill="#3498db"/>
+    <line x1="40" y1="30" x2="40" y2="35" stroke="#3498db" stroke-width="2"/>
+    <line x1="40" y1="30" x2="40" y2="25" stroke="#3498db" stroke-width="2"/>
     
-    <!-- Обозначение длины волны -->
-    <line x1="60" y1="240" x2="180" y2="240" stroke="#e74c3c" stroke-width="2" />
-    <line x1="60" y1="235" x2="60" y2="245" stroke="#e74c3c" stroke-width="2" />
-    <line x1="180" y1="235" x2="180" y2="245" stroke="#e74c3c" stroke-width="2" />
-    <text x="120" y="230" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#e74c3c">λ</text>
+    <circle cx="60" cy="30" r="3" fill="#3498db"/>
+    <line x1="60" y1="30" x2="60" y2="45" stroke="#3498db" stroke-width="2"/>
+    <line x1="60" y1="30" x2="60" y2="15" stroke="#3498db" stroke-width="2"/>
     
-    <!-- Период колебаний -->
-    <line x1="60" y1="300" x2="60" y2="260" stroke="#9b59b6" stroke-width="1" stroke-dasharray="2,2" />
-    <line x1="180" y1="300" x2="180" y2="260" stroke="#9b59b6" stroke-width="1" stroke-dasharray="2,2" />
-    <line x1="60" y1="300" x2="180" y2="300" stroke="#9b59b6" stroke-width="2" />
-    <line x1="60" y1="295" x2="60" y2="305" stroke="#9b59b6" stroke-width="2" />
-    <line x1="180" y1="295" x2="180" y2="305" stroke="#9b59b6" stroke-width="2" />
-    <text x="120" y="320" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#9b59b6">T</text>
+    <circle cx="80" cy="30" r="3" fill="#3498db"/>
+    <line x1="80" y1="30" x2="80" y2="25" stroke="#3498db" stroke-width="2"/>
+    <line x1="80" y1="30" x2="80" y2="35" stroke="#3498db" stroke-width="2"/>
+    
+    <circle cx="100" cy="30" r="3" fill="#3498db"/>
+    <line x1="100" y1="30" x2="100" y2="15" stroke="#3498db" stroke-width="2"/>
+    <line x1="100" y1="30" x2="100" y2="45" stroke="#3498db" stroke-width="2"/>
+    
+    <circle cx="120" cy="30" r="3" fill="#3498db"/>
+    <line x1="120" y1="30" x2="120" y2="35" stroke="#3498db" stroke-width="2"/>
+    <line x1="120" y1="30" x2="120" y2="25" stroke="#3498db" stroke-width="2"/>
+    
+    <circle cx="140" cy="30" r="3" fill="#3498db"/>
+    <line x1="140" y1="30" x2="140" y2="45" stroke="#3498db" stroke-width="2"/>
+    <line x1="140" y1="30" x2="140" y2="15" stroke="#3498db" stroke-width="2"/>
+    
+    <circle cx="160" cy="30" r="3" fill="#3498db"/>
+    <line x1="160" y1="30" x2="160" y2="25" stroke="#3498db" stroke-width="2"/>
+    <line x1="160" y1="30" x2="160" y2="35" stroke="#3498db" stroke-width="2"/>
+    
+    <circle cx="180" cy="30" r="3" fill="#3498db"/>
+    <line x1="180" y1="30" x2="180" y2="15" stroke="#3498db" stroke-width="2"/>
+    <line x1="180" y1="30" x2="180" y2="45" stroke="#3498db" stroke-width="2"/>
+    
+    <!-- Длина волны -->
+    <line x1="20" y1="55" x2="60" y2="55" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="20" y1="52" x2="20" y2="58" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="60" y1="52" x2="60" y2="58" stroke="#e74c3c" stroke-width="2"/>
+    <text x="40" y="70" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c" text-anchor="middle">λ</text>
+    <text x="40" y="82" font-family="Arial, sans-serif" font-size="9" fill="#e74c3c" text-anchor="middle">длина волны</text>
   </g>
   
-  <!-- Эффект Доплера -->
-  <g id="dopplerEffect">
-    <text x="50" y="290" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Эффект Доплера</text>
+  <!-- Продольная волна -->
+  <g transform="translate(270, 100)">
+    <text x="0" y="-10" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Продольная волна</text>
     
-    <!-- Источник звука -->
-    <circle cx="100" cy="310" r="8" fill="#3498db" />
-    <text x="100" y="332" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#3498db">источник</text>
+    <!-- Ось -->
+    <line x1="0" y1="30" x2="200" y2="30" stroke="#34495e" stroke-width="1"/>
+    <line x1="0" y1="10" x2="0" y2="50" stroke="#34495e" stroke-width="1"/>
+    <polygon points="200,30 205,25 205,35" fill="#34495e"/>
+    <polygon points="0,30 -5,25 -5,35" fill="#34495e"/>
+    <text x="100" y="65" font-family="Arial, sans-serif" font-size="10" fill="#34495e" text-anchor="middle">Направление распространения</text>
     
-    <!-- Фронт волны движущегося источника -->
-    <circle cx="180" cy="310" r="30" fill="none" stroke="#e74c3c" stroke-width="2" opacity="0.7" />
-    <circle cx="220" cy="310" r="20" fill="none" stroke="#e74c3c" stroke-width="2" opacity="0.7" />
-    <circle cx="260" cy="310" r="10" fill="none" stroke="#e74c3c" stroke-width="2" opacity="0.7" />
+    <!-- Частицы и волна -->
+    <circle cx="20" cy="30" r="3" fill="#e74c3c"/>
+    <line x1="20" y1="30" x2="20" y2="15" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="20" y1="30" x2="20" y2="45" stroke="#e74c3c" stroke-width="2"/>
     
-    <!-- Наблюдатель -->
-    <circle cx="350" cy="310" r="8" fill="#2ecc71" />
-    <text x="350" y="332" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2ecc71">наблюдатель</text>
+    <circle cx="40" cy="30" r="3" fill="#e74c3c"/>
+    <line x1="40" y1="30" x2="40" y2="20" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="40" y1="30" x2="40" y2="40" stroke="#e74c3c" stroke-width="2"/>
     
-    <!-- Стрелка направления движения -->
-    <line x1="100" y1="310" x2="260" y2="310" stroke="#34495e" stroke-width="1" stroke-dasharray="3,3" />
-    <polygon points="260,310 255,307 255,313" fill="#34495e" />
-    <text x="180" y="305" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#34495e">v</text>
+    <circle cx="60" cy="30" r="3" fill="#e74c3c"/>
+    <line x1="60" y1="30" x2="60" y2="30" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="60" y1="30" x2="60" y2="30" stroke="#e74c3c" stroke-width="2"/>
     
-    <!-- Формула λ = vT -->
-    <rect x="360" y="100" width="120" height="80" fill="white" stroke="#34495e" stroke-width="1" rx="5" />
-    <text x="420" y="125" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">λ = vT</text>
-    <text x="420" y="145" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7f8c8d">где:</text>
-    <text x="420" y="160" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7f8c8d">λ - длина волны</text>
-    <text x="420" y="175" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7f8c8d">v - скорость волны</text>
-    <text x="420" y="190" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7f8c8d">T - период колебаний</text>
+    <circle cx="80" cy="30" r="3" fill="#e74c3c"/>
+    <line x1="80" y1="30" x2="80" y2="40" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="80" y1="30" x2="80" y2="20" stroke="#e74c3c" stroke-width="2"/>
     
-    <!-- Легенда -->
-    <rect x="360" y="200" width="120" height="100" fill="white" stroke="#34495e" stroke-width="1" rx="5" opacity="0.9" />
-    <text x="420" y="220" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">Легенда:</text>
-    <circle cx="375" cy="235" r="4" fill="#87ceeb" />
-    <text x="385" y="240" font-family="Arial, sans-serif" font-size="10" fill="#34495e">сжатие среды</text>
-    <circle cx="375" cy="255" r="4" fill="#4169e1" />
-    <text x="385" y="260" font-family="Arial, sans-serif" font-size="10" fill="#34495e">поперечная волна</text>
-    <circle cx="375" cy="275" r="4" fill="#ff6b6b" />
-    <text x="385" y="280" font-family="Arial, sans-serif" font-size="10" fill="#34495e">частицы среды</text>
-    <line x1="370" y1="290" x2="380" y2="290" stroke="#e74c3c" stroke-width="2" />
-    <text x="385" y="295" font-family="Arial, sans-serif" font-size="10" fill="#34495e">длина волны λ</text>
+    <circle cx="100" cy="30" r="3" fill="#e74c3c"/>
+    <line x1="100" y1="30" x2="100" y2="45" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="100" y1="30" x2="100" y2="15" stroke="#e74c3c" stroke-width="2"/>
+    
+    <circle cx="120" cy="30" r="3" fill="#e74c3c"/>
+    <line x1="120" y1="30" x2="120" y2="20" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="120" y1="30" x2="120" y2="40" stroke="#e74c3c" stroke-width="2"/>
+    
+    <circle cx="140" cy="30" r="3" fill="#e74c3c"/>
+    <line x1="140" y1="30" x2="140" y2="30" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="140" y1="30" x2="140" y2="30" stroke="#e74c3c" stroke-width="2"/>
+    
+    <circle cx="160" cy="30" r="3" fill="#e74c3c"/>
+    <line x1="160" y1="30" x2="160" y2="40" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="160" y1="30" x2="160" y2="20" stroke="#e74c3c" stroke-width="2"/>
+    
+    <circle cx="180" cy="30" r="3" fill="#e74c3c"/>
+    <line x1="180" y1="30" x2="180" y2="45" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="180" y1="30" x2="180" y2="15" stroke="#e74c3c" stroke-width="2"/>
+    
+    <!-- Длина волны -->
+    <line x1="20" y1="55" x2="60" y2="55" stroke="#3498db" stroke-width="2"/>
+    <line x1="20" y1="52" x2="20" y2="58" stroke="#3498db" stroke-width="2"/>
+    <line x1="60" y1="52" x2="60" y2="58" stroke="#3498db" stroke-width="2"/>
+    <text x="40" y="70" font-family="Arial, sans-serif" font-size="10" fill="#3498db" text-anchor="middle">λ</text>
+    <text x="40" y="82" font-family="Arial, sans-serif" font-size="9" fill="#3498db" text-anchor="middle">длина волны</text>
+  </g>
+  
+  <!-- Формулы скорости волны -->
+  <g transform="translate(50, 220)">
+    <rect x="0" y="0" width="400" height="100" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+    <text x="200" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50" text-anchor="middle">Скорость распространения волны</text>
+    
+    <text x="50" y="45" font-family="Arial, sans-serif" font-size="12" fill="#34495e">v = λ/T</text>
+    <text x="50" y="60" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">где:</text>
+    <text x="50" y="75" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">v - скорость распространения волны</text>
+    <text x="50" y="88" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">λ - длина волны, T - период</text>
+    
+    <text x="200" y="45" font-family="Arial, sans-serif" font-size="12" fill="#34495e">v = λ·f</text>
+    <text x="200" y="60" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">где:</text>
+    <text x="200" y="75" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">v - скорость распространения волны</text>
+    <text x="200" y="88" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">λ - длина волны, f - частота</text>
+    
+    <text x="320" y="45" font-family="Arial, sans-serif" font-size="12" fill="#34495e">v = ω/k</text>
+    <text x="320" y="60" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">где:</text>
+    <text x="320" y="75" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">v - фазовая скорость</text>
+    <text x="320" y="88" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">ω - циклическая частота, k - волновое число</text>
+  </g>
+  
+  <!-- График зависимости скорости от частоты -->
+  <g transform="translate(50, 340)">
+    <line x1="0" y1="0" x2="0" y2="-40" stroke="#34495e" stroke-width="1"/>
+    <line x1="0" y1="0" x2="100" y2="0" stroke="#34495e" stroke-width="1"/>
+    <text x="50" y="10" font-family="Arial, sans-serif" font-size="10" fill="#34495e" text-anchor="middle">f, Гц</text>
+    <text x="-10" y="-20" font-family="Arial, sans-serif" font-size="10" fill="#34495e" text-anchor="middle">v, м/с</text>
+    
+    <line x1="0" y1="0" x2="80" y2="-30" stroke="#27ae60" stroke-width="2"/>
+    <circle cx="20" cy="-7.5" r="2" fill="#27ae60"/>
+    <circle cx="40" cy="-15" r="2" fill="#27ae60"/>
+    <circle cx="60" cy="-22.5" r="2" fill="#27ae60"/>
+    <circle cx="80" cy="-30" r="2" fill="#27ae60"/>
+    
+    <text x="50" y="-35" font-family="Arial, sans-serif" font-size="10" fill="#27ae60" text-anchor="middle">v = f·const</text>
   </g>
 </svg>

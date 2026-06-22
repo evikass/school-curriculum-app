@@ -1,23 +1,106 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
-  <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#831843"/>
-      <stop offset="100%" style="stop-color:#ec4899"/>
-    </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#f9a8d4;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#f9a8d4;stop-opacity:0"/>
-    </radialGradient>
-  </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#f9a8d4" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#f9a8d4" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#f9a8d4" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fce7f3" text-anchor="middle">29</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fce7f3" text-anchor="middle" opacity="0.8">АЛГЕБРА · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fce7f3" text-anchor="middle">Урок 29: Случайные величины. Числовые характеристи</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#f9a8d4" text-anchor="middle" opacity="0.8">Урок 29 из 38</text>
-  <text x="250" y="220" font-family="Arial" font-size="48" fill="#f9a8d4" opacity="0.5" text-anchor="middle">P</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#2C3E50" stroke-width="2" rx="5"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#3498DB" stroke-width="1" rx="3"/>
+  
+  <!-- Заголовок класса -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#34495E">АЛГЕБРА · 11 КЛАСС</text>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2C3E50">Урок 29: Случайные величины</text>
+  <text x="250" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#34495E">Числовые характеристики</text>
+  
+  <!-- Номер урока в углу -->
+  <circle cx="460" cy="30" r="15" fill="#E74C3C"/>
+  <text x="460" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">29</text>
+  
+  <!-- Определение дискретной случайной величины -->
+  <rect x="20" y="80" width="220" height="100" fill="#ECF0F1" stroke="#BDC3C7" stroke-width="1" rx="5"/>
+  <text x="30" y="100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2C3E50">Дискретная случайная величина</text>
+  <text x="30" y="120" font-family="Arial, sans-serif" font-size="10" fill="#34495E">Случайная величина X, которая</text>
+  <text x="30" y="135" font-family="Arial, sans-serif" font-size="10" fill="#34495E">может принимать только</text>
+  <text x="30" y="150" font-family="Arial, sans-serif" font-size="10" fill="#34495E">конечное или счётное множество</text>
+  <text x="30" y="165" font-family="Arial, sans-serif" font-size="10" fill="#34495E">значений x₁, x₂, ..., xₙ</text>
+  
+  <!-- Пример дискретной случайной величины -->
+  <rect x="260" y="80" width="220" height="100" fill="#E8F6F3" stroke="#7FCD91" stroke-width="1" rx="5"/>
+  <text x="270" y="100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#27AE60">Пример</text>
+  <text x="270" y="120" font-family="Arial, sans-serif" font-size="10" fill="#34495E">X - число очков при броске</text>
+  <text x="270" y="135" font-family="Arial, sans-serif" font-size="10" fill="#34495E">игрального кубика</text>
+  <text x="270" y="150" font-family="Arial, sans-serif" font-size="10" fill="#34495E">X ∈ {1, 2, 3, 4, 5, 6}</text>
+  <text x="270" y="165" font-family="Arial, sans-serif" font-size="10" fill="#34495E">P(X=k) = 1/6, k=1,2,...,6</text>
+  
+  <!-- Математическое ожидание -->
+  <rect x="20" y="190" width="220" height="120" fill="#FEF9E7" stroke="#F1C40F" stroke-width="1" rx="5"/>
+  <text x="30" y="210" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#F39C12">Математическое ожидание</text>
+  <text x="30" y="230" font-family="Arial, sans-serif" font-size="11" fill="#34495E">M(X) = Σ xᵢ · pᵢ</text>
+  <text x="30" y="245" font-family="Arial, sans-serif" font-size="10" fill="#34495E">где pᵢ - вероятность</text>
+  <text x="30" y="260" font-family="Arial, sans-serif" font-size="10" fill="#34495E">принятия значения xᵢ</text>
+  <text x="30" y="280" font-family="Arial, sans-serif" font-size="10" fill="#34495E">Для кубика: M(X) = 3.5</text>
+  <text x="30" y="295" font-family="Arial, sans-serif" font-size="10" fill="#34495E">M(X) = (1+2+3+4+5+6)/6</text>
+  
+  <!-- Дисперсия -->
+  <rect x="260" y="190" width="220" height="120" fill="#FADBD8" stroke="#E74C3C" stroke-width="1" rx="5"/>
+  <text x="270" y="210" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#C0392B">Дисперсия</text>
+  <text x="270" y="230" font-family="Arial, sans-serif" font-size="11" fill="#34495E">D(X) = M[(X - M(X))²]</text>
+  <text x="270" y="245" font-family="Arial, sans-serif" font-size="10" fill="#34495E">D(X) = Σ (xᵢ - M(X))² · pᵢ</text>
+  <text x="270" y="260" font-family="Arial, sans-serif" font-size="10" fill="#34495E">Для кубика: D(X) = 2.917</text>
+  <text x="270" y="275" font-family="Arial, sans-serif" font-size="10" fill="#34495E">σ = √D(X) ≈ 1.708</text>
+  <text x="270" y="290" font-family="Arial, sans-serif" font-size="10" fill="#34495E">Среднеквадратичное отклонение</text>
+  
+  <!-- График распределения вероятностей -->
+  <g transform="translate(20, 20)">
+    <!-- Оси -->
+    <line x1="30" y1="220" x2="210" y2="220" stroke="#34495E" stroke-width="1"/>
+    <line x1="30" y1="220" x2="30" y2="50" stroke="#34495E" stroke-width="1"/>
+    
+    <!-- Столбцы -->
+    <rect x="40" y="180" width="20" height="40" fill="#3498DB" opacity="0.7"/>
+    <rect x="70" y="160" width="20" height="60" fill="#3498DB" opacity="0.7"/>
+    <rect x="100" y="140" width="20" height="80" fill="#3498DB" opacity="0.7"/>
+    <rect x="130" y="140" width="20" height="80" fill="#3498DB" opacity="0.7"/>
+    <rect x="160" y="160" width="20" height="60" fill="#3498DB" opacity="0.7"/>
+    <rect x="190" y="180" width="20" height="40" fill="#3498DB" opacity="0.7"/>
+    
+    <!-- Подписи осей -->
+    <text x="120" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#34495E">X</text>
+    <text x="15" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#34495E">P</text>
+    <text x="50" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#34495E">1</text>
+    <text x="80" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#34495E">2</text>
+    <text x="110" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#34495E">3</text>
+    <text x="140" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#34495E">4</text>
+    <text x="170" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#34495E">5</text>
+    <text x="200" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#34495E">6</text>
+    
+    <!-- Линия математического ожидания -->
+    <line x1="30" y1="145" x2="210" y2="145" stroke="#E74C3C" stroke-width="2" stroke-dasharray="5,5"/>
+    <text x="215" y="148" font-family="Arial, sans-serif" font-size="8" fill="#E74C3C">M(X)=3.5</text>
+  </g>
+  
+  <!-- Свойства математического ожидания -->
+  <g transform="translate(240, 50)">
+    <rect x="0" y="0" width="220" height="80" fill="#EBF5FB" stroke="#3498DB" stroke-width="1" rx="5"/>
+    <text x="10" y="20" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2980B9">Свойства M(X):</text>
+    <text x="10" y="38" font-family="Arial, sans-serif" font-size="9" fill="#34495E">1. M(c) = c</text>
+    <text x="10" y="53" font-family="Arial, sans-serif" font-size="9" fill="#34495E">2. M(cX) = c·M(X)</text>
+    <text x="10" y="68" font-family="Arial, sans-serif" font-size="9" fill="#34495E">3. M(X+Y) = M(X) + M(Y)</text>
+  </g>
+  
+  <!-- Свойства дисперсии -->
+  <g transform="translate(20, 320)">
+    <rect x="0" y="0" width="220" height="80" fill="#FDEBD0" stroke="#E67E22" stroke-width="1" rx="5"/>
+    <text x="10" y="20" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#D35400">Свойства D(X):</text>
+    <text x="10" y="38" font-family="Arial, sans-serif" font-size="9" fill="#34495E">1. D(c) = 0</text>
+    <text x="10" y="53" font-family="Arial, sans-serif" font-size="9" fill="#34495E">2. D(cX) = c²·D(X)</text>
+    <text x="10" y="68" font-family="Arial, sans-serif" font-size="9" fill="#34495E">3. D(X+Y) = D(X) + D(Y) (независимы)</text>
+  </g>
+  
+  <!-- Формула связи между M(X) и D(X) -->
+  <g transform="translate(260, 320)">
+    <rect x="0" y="0" width="220" height="80" fill="#EBF5FB" stroke="#2980B9" stroke-width="1" rx="5"/>
+    <text x="10" y="20" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2980B9">Формула связи:</text>
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="10" fill="#34495E">D(X) = M(X²) - [M(X)]²</text>
+    <text x="10" y="58" font-family="Arial, sans-serif" font-size="9" fill="#34495E">где M(X²) = Σ xᵢ² · pᵢ</text>
+    <text x="10" y="73" font-family="Arial, sans-serif" font-size="9" fill="#34495E">Для кубика: M(X²) = 15.167</text>
+  </g>
 </svg>

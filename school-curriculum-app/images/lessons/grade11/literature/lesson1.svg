@@ -1,23 +1,115 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Дефиниции градиентов -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e1b4b"/>
-      <stop offset="100%" style="stop-color:#6366f1"/>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#D2691E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B4513;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:0"/>
-    </radialGradient>
+    
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5F5DC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFF8DC;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="symbolGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4B0082;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6A0DAD;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="akmGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#B22222;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DC143C;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="futGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#000080;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00008B;stop-opacity:1" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#a78bfa" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#a78bfa" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#e0e7ff" text-anchor="middle">1</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e0e7ff" text-anchor="middle" opacity="0.8">ЛИТЕРАТУРА · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e0e7ff" text-anchor="middle">Урок 1: Серебряный век русской поэзии. Обзор</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#a78bfa" text-anchor="middle" opacity="0.8">Урок 1 из 35</text>
-  <text x="100" y="200" font-family="Arial" font-size="40" fill="#a78bfa" opacity="0.4">✒️</text><text x="380" y="200" font-family="Arial" font-size="40" fill="#a78bfa" opacity="0.4">📖</text>
+  
+  <!-- Фоновый прямоугольник -->
+  <rect width="500" height="350" fill="url(#bgGrad)" />
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="url(#borderGrad)" stroke-width="4" />
+  <rect x="20" y="20" width="460" height="310" fill="none" stroke="url(#borderGrad)" stroke-width="2" />
+  
+  <!-- Заголовок -->
+  <text x="250" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333">Урок 1: Серебряный век русской поэзии</text>
+  <text x="250" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#666">Обзор</text>
+  
+  <!-- Метка класса -->
+  <text x="250" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-style="italic" fill="#666">ЛИТЕРАТУРА · 11 КЛАСС</text>
+  
+  <!-- Номер урока -->
+  <text x="30" y="30" font-family="Arial, sans-serif" font-size="12" fill="#666">№1</text>
+  
+  <!-- Хронологические рамки -->
+  <text x="250" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">1890-1917 гг.</text>
+  
+  <!-- Основная диаграмма направления -->
+  <g transform="translate(250, 180)">
+    <!-- Центральный круг "Серебряный век" -->
+    <circle cx="0" cy="0" r="60" fill="#D3D3D3" stroke="#666" stroke-width="2" />
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">Серебряный</text>
+    <text x="0" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">век</text>
+    
+    <!-- Символизм -->
+    <line x1="0" y1="-60" x2="0" y2="-100" stroke="#666" stroke-width="1.5" />
+    <rect x="-60" y="-130" width="120" height="30" rx="15" fill="url(#symbolGrad)" />
+    <text x="0" y="-110" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Символизм</text>
+    
+    <!-- Акмеизм -->
+    <line x1="-52" y1="52" x2="-100" y2="100" stroke="#666" stroke-width="1.5" />
+    <rect x="-140" y="100" width="120" height="30" rx="15" fill="url(#akmGrad)" />
+    <text x="-80" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Акмеизм</text>
+    
+    <!-- Футуризм -->
+    <line x1="52" y1="52" x2="100" y2="100" stroke="#666" stroke-width="1.5" />
+    <rect x="20" y="100" width="120" height="30" rx="15" fill="url(#futGrad)" />
+    <text x="80" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Футуризм</text>
+  </g>
+  
+  <!-- Характеристики символизма -->
+  <g transform="translate(80, 240)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#4B0082">Символизм:</text>
+    <text x="0" y="15" font-family="Arial, sans-serif" font-size="9" fill="#555">• Мистицизм</text>
+    <text x="0" y="28" font-family="Arial, sans-serif" font-size="9" fill="#555">• Идея</text>
+    <text x="0" y="41" font-family="Arial, sans-serif" font-size="9" fill="#555">• Тютчев, Бальмонт</text>
+  </g>
+  
+  <!-- Характеристики акмеизма -->
+  <g transform="translate(200, 240)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#B22222">Акмеизм:</text>
+    <text x="0" y="15" font-family="Arial, sans-serif" font-size="9" fill="#555">• Точность слова</text>
+    <text x="0" y="28" font-family="Arial, sans-serif" font-size="9" fill="#555">• Объектность</text>
+    <text x="0" y="41" font-family="Arial, sans-serif" font-size="9" fill="#555">• Ахматова, Мандельштам</text>
+  </g>
+  
+  <!-- Характеристики футуризма -->
+  <g transform="translate(320, 240)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#000080">Футуризм:</text>
+    <text x="0" y="15" font-family="Arial, sans-serif" font-size="9" fill="#555">• Новизна</text>
+    <text x="0" y="28" font-family="Arial, sans-serif" font-size="9" fill="#555">• Динамика</text>
+    <text x="0" y="41" font-family="Arial, sans-serif" font-size="9" fill="#555">• Маяковский, Хлебников</text>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <g transform="translate(250, 180)">
+    <circle cx="-80" cy="-80" r="3" fill="#D2691E" opacity="0.7" />
+    <circle cx="-70" cy="-90" r="2" fill="#D2691E" opacity="0.7" />
+    <circle cx="80" cy="-80" r="3" fill="#D2691E" opacity="0.7" />
+    <circle cx="90" cy="-90" r="2" fill="#D2691E" opacity="0.7" />
+    <circle cx="0" cy="120" r="3" fill="#D2691E" opacity="0.7" />
+    <circle cx="-10" cy="130" r="2" fill="#D2691E" opacity="0.7" />
+    <circle cx="10" cy="130" r="2" fill="#D2691E" opacity="0.7" />
+  </g>
+  
+  <!-- Ключевые даты -->
+  <text x="50" y="105" font-family="Arial, sans-serif" font-size="10" fill="#666">Начало: 1890-е</text>
+  <text x="400" y="105" font-family="Arial, sans-serif" font-size="10" fill="#666">Конец: 1917</text>
+  
+  <!-- Формула периода -->
+  <text x="250" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#555">Серебряный век = Промежуток между двумя веками русской культуры</text>
 </svg>

@@ -1,23 +1,167 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#2E4A7C" stroke-width="2" rx="5"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#4A6FA5" stroke-width="1" rx="3"/>
+  
+  <!-- Заголовок класса -->
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="14" fill="#2E4A7C" text-anchor="middle" font-weight="bold">ГЕОГРАФИЯ · 11 КЛАСС</text>
+  
+  <!-- Номер урока -->
+  <text x="460" y="30" font-family="Arial, sans-serif" font-size="14" fill="#2E4A7C" text-anchor="end" font-weight="bold">Урок 10</text>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="18" fill="#1A3A5C" text-anchor="middle" font-weight="bold">Решение задач методом координат</text>
+  
+  <!-- Координатная сетка -->
+  <g id="grid">
+    <!-- Горизонтальные линии сетки -->
+    <line x1="50" y1="100" x2="450" y2="100" stroke="#D0D0D0" stroke-width="0.5"/>
+    <line x1="50" y1="130" x2="450" y2="130" stroke="#D0D0D0" stroke-width="0.5"/>
+    <line x1="50" y1="160" x2="450" y2="160" stroke="#D0D0D0" stroke-width="0.5"/>
+    <line x1="50" y1="190" x2="450" y2="190" stroke="#D0D0D0" stroke-width="0.5"/>
+    <line x1="50" y1="220" x2="450" y2="220" stroke="#D0D0D0" stroke-width="0.5"/>
+    <line x1="50" y1="250" x2="450" y2="250" stroke="#D0D0D0" stroke-width="0.5"/>
+    <line x1="50" y1="280" x2="450" y2="280" stroke="#D0D0D0" stroke-width="0.5"/>
+    
+    <!-- Вертикальные линии сетки -->
+    <line x1="100" y1="70" x2="100" y2="310" stroke="#D0D0D0" stroke-width="0.5"/>
+    <line x1="150" y1="70" x2="150" y2="310" stroke="#D0D0D0" stroke-width="0.5"/>
+    <line x1="200" y1="70" x2="200" y2="310" stroke="#D0D0D0" stroke-width="0.5"/>
+    <line x1="250" y1="70" x2="250" y2="310" stroke="#D0D0D0" stroke-width="0.5"/>
+    <line x1="300" y1="70" x2="300" y2="310" stroke="#D0D0D0" stroke-width="0.5"/>
+    <line x1="350" y1="70" x2="350" y2="310" stroke="#D0D0D0" stroke-width="0.5"/>
+    <line x1="400" y1="70" x2="400" y2="310" stroke="#D0D0D0" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Ось X -->
+  <line x1="50" y1="190" x2="450" y2="190" stroke="#2E4A7C" stroke-width="2"/>
+  <polygon points="450,190 460,185 460,195" fill="#2E4A7C"/>
+  
+  <!-- Ось Y -->
+  <line x1="250" y1="70" x2="250" y2="310" stroke="#2E4A7C" stroke-width="2"/>
+  <polygon points="250,70 245,80 255,80" fill="#2E4A7C"/>
+  
+  <!-- Подписи осей -->
+  <text x="465" y="195" font-family="Arial, sans-serif" font-size="14" fill="#2E4A7C" font-weight="bold">X</text>
+  <text x="255" y="75" font-family="Arial, sans-serif" font-size="14" fill="#2E4A7C" font-weight="bold">Y</text>
+  
+  <!-- Подписи координат на оси X -->
+  <text x="100" y="210" font-family="Arial, sans-serif" font-size="12" fill="#555" text-anchor="middle">-2</text>
+  <text x="150" y="210" font-family="Arial, sans-serif" font-size="12" fill="#555" text-anchor="middle">-1</text>
+  <text x="200" y="210" font-family="Arial, sans-serif" font-size="12" fill="#555" text-anchor="middle">0</text>
+  <text x="300" y="210" font-family="Arial, sans-serif" font-size="12" fill="#555" text-anchor="middle">1</text>
+  <text x="350" y="210" font-family="Arial, sans-serif" font-size="12" fill="#555" text-anchor="middle">2</text>
+  <text x="400" y="210" font-family="Arial, sans-serif" font-size="12" fill="#555" text-anchor="middle">3</text>
+  
+  <!-- Подписи координат на оси Y -->
+  <text x="235" y="105" font-family="Arial, sans-serif" font-size="12" fill="#555" text-anchor="end">3</text>
+  <text x="235" y="135" font-family="Arial, sans-serif" font-size="12" fill="#555" text-anchor="end">2</text>
+  <text x="235" y="165" font-family="Arial, sans-serif" font-size="12" fill="#555" text-anchor="end">1</text>
+  <text x="235" y="225" font-family="Arial, sans-serif" font-size="12" fill="#555" text-anchor="end">-1</text>
+  <text x="235" y="255" font-family="Arial, sans-serif" font-size="12" fill="#555" text-anchor="end">-2</text>
+  <text x="235" y="285" font-family="Arial, sans-serif" font-size="12" fill="#555" text-anchor="end">-3</text>
+  
+  <!-- Точка А -->
+  <circle cx="150" cy="130" r="5" fill="#E74C3C"/>
+  <text x="150" y="115" font-family="Arial, sans-serif" font-size="14" fill="#E74C3C" text-anchor="middle" font-weight="bold">А(-1, 2)</text>
+  
+  <!-- Точка B -->
+  <circle cx="350" cy="220" r="5" fill="#3498DB"/>
+  <text x="350" y="205" font-family="Arial, sans-serif" font-size="14" fill="#3498DB" text-anchor="middle" font-weight="bold">B(2, -1)</text>
+  
+  <!-- Точка C -->
+  <circle cx="200" cy="250" r="5" fill="#2ECC71"/>
+  <text x="200" y="270" font-family="Arial, sans-serif" font-size="14" fill="#2ECC71" text-anchor="middle" font-weight="bold">C(0, -2)</text>
+  
+  <!-- Линия АВ -->
+  <line x1="150" y1="130" x2="350" y2="220" stroke="#E74C3C" stroke-width="2" stroke-dasharray="5,3"/>
+  
+  <!-- Линия BC -->
+  <line x1="350" y1="220" x2="200" y2="250" stroke="#3498DB" stroke-width="2" stroke-dasharray="5,3"/>
+  
+  <!-- Линия CA -->
+  <line x1="200" y1="250" x2="150" y2="130" stroke="#2ECC71" stroke-width="2" stroke-dasharray="5,3"/>
+  
+  <!-- Формула расстояния между точками -->
+  <rect x="50" y="270" width="180" height="30" fill="#F8F9FA" stroke="#2E4A7C" stroke-width="1" rx="3"/>
+  <text x="140" y="290" font-family="Arial, sans-serif" font-size="12" fill="#1A3A5C" text-anchor="middle">d = √[(x₂-x₁)² + (y₂-y₁)²]</text>
+  
+  <!-- Формула площади треугольника -->
+  <rect x="270" y="270" width="180" height="30" fill="#F8F9FA" stroke="#2E4A7C" stroke-width="1" rx="3"/>
+  <text x="360" y="290" font-family="Arial, sans-serif" font-size="12" fill="#1A3A5C" text-anchor="middle">S = ½|x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)|</text>
+  
+  <!-- Пример решения -->
+  <rect x="50" y="70" width="400" height="40" fill="#E8F4FD" stroke="#2E4A7C" stroke-width="1" rx="3"/>
+  <text x="60" y="90" font-family="Arial, sans-serif" font-size="12" fill="#1A3A5C">Пример: Найти площадь треугольника АВС, вершины которого имеют координаты А(-1,2), B(2,-1), C(0,-2)</text>
+  
+  <!-- Градиент для фона формулы -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0c4a6e"/>
-      <stop offset="100%" style="stop-color:#06b6d4"/>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E8F4FD;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F0F7FF;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#67e8f9;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#67e8f9;stop-opacity:0"/>
-    </radialGradient>
+    
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFF5E6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFF9F0;stop-opacity:1" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#67e8f9" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#67e8f9" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#67e8f9" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#cffafe" text-anchor="middle">10</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#cffafe" text-anchor="middle" opacity="0.8">ГЕОМЕТРИЯ · 11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#cffafe" text-anchor="middle">Урок 10: Решение задач методом координат</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#67e8f9" text-anchor="middle" opacity="0.8">Урок 10 из 25</text>
-  <text x="200" y="220" font-size="32" fill="#67e8f9" opacity="0.5">x,y,z</text>
+  
+  <!-- Результат вычислений -->
+  <rect x="50" y="310" width="400" height="25" fill="url(#grad2)" stroke="#2E4A7C" stroke-width="1" rx="3"/>
+  <text x="60" y="327" font-family="Arial, sans-serif" font-size="12" fill="#1A3A5C">Ответ: S = 4,5 условных единиц площади</text>
+  
+  <!-- Схема векторов -->
+  <g transform="translate(250, 190)">
+    <!-- Вектор AB -->
+    <line x1="-100" y1="-60" x2="100" y2="30" stroke="#E74C3C" stroke-width="2" marker-end="url(#arrowhead-red)"/>
+    <text x="0" y="-30" font-family="Arial, sans-serif" font-size="11" fill="#E74C3C" text-anchor="middle">AB</text>
+    
+    <!-- Вектор BC -->
+    <line x1="100" y1="30" x2="-50" y2="60" stroke="#3498DB" stroke-width="2" marker-end="url(#arrowhead-blue)"/>
+    <text x="30" y="50" font-family="Arial, sans-serif" font-size="11" fill="#3498DB" text-anchor="middle">BC</text>
+    
+    <!-- Вектор CA -->
+    <line x1="-50" y1="60" x2="-100" y2="-60" stroke="#2ECC71" stroke-width="2" marker-end="url(#arrowhead-green)"/>
+    <text x="-70" y="0" font-family="Arial, sans-serif" font-size="11" fill="#2ECC71" text-anchor="middle">CA</text>
+  </g>
+  
+  <!-- Стрелки для векторов -->
+  <defs>
+    <marker id="arrowhead-red" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#E74C3C"/>
+    </marker>
+    <marker id="arrowhead-blue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#3498DB"/>
+    </marker>
+    <marker id="arrowhead-green" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2ECC71"/>
+    </marker>
+  </defs>
+  
+  <!-- Подпись к схеме векторов -->
+  <text x="250" y="320" font-family="Arial, sans-serif" font-size="11" fill="#555" text-anchor="middle">Сумма векторов AB + BC + CA = 0 (замкнутый треугольник)</text>
+  
+  <!-- Дополнительные элементы -->
+  <circle cx="250" cy="190" r="3" fill="#2E4A7C"/>
+  <text x="260" y="195" font-family="Arial, sans-serif" font-size="10" fill="#555">O(0,0)</text>
+  
+  <!-- Углы треугольника -->
+  <text x="170" y="165" font-family="Arial, sans-serif" font-size="10" fill="#555">α</text>
+  <text x="310" y="235" font-family="Arial, sans-serif" font-size="10" fill="#555">β</text>
+  <text x="210" y="235" font-family="Arial, sans-serif" font-size="10" fill="#555">γ</text>
+  
+  <!-- Штриховка для треугольника -->
+  <g opacity="0.3">
+    <line x1="150" y1="130" x2="350" y2="220" stroke="#333" stroke-width="0.5"/>
+    <line x1="155" y1="134" x2="345" y2="224" stroke="#333" stroke-width="0.5"/>
+    <line x1="160" y1="138" x2="340" y2="228" stroke="#333" stroke-width="0.5"/>
+    <line x1="165" y1="142" x2="335" y2="232" stroke="#333" stroke-width="0.5"/>
+    <line x1="170" y1="146" x2="330" y2="236" stroke="#333" stroke-width="0.5"/>
+    <line x1="175" y1="150" x2="325" y2="240" stroke="#333" stroke-width="0.5"/>
+    <line x1="180" y1="154" x2="320" y2="244" stroke="#333" stroke-width="0.5"/>
+    <line x1="185" y1="158" x2="315" y2="248" stroke="#333" stroke-width="0.5"/>
+    <line x1="190" y1="162" x2="310" y2="252" stroke="#333" stroke-width="0.5"/>
+    <line x1="195" y1="166" x2="305" y2="256" stroke="#333" stroke-width="0.5"/>
+  </g>
 </svg>
