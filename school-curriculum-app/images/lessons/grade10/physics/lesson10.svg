@@ -1,43 +1,120 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E3F2FD"/><stop offset="100%" stop-color="#BBDEFB"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="2.5"/>
-<text x="250" y="30" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1565C0" text-anchor="middle">Равномерное движение по окружности</text>
-<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Физика 10 класс — Урок 10</text>
-<line x1="30" y1="52" x2="470" y2="52" stroke="#1565C0" stroke-width="1.5" opacity="0.25"/>
-
-<g transform="translate(160,190)">
-<circle cx="0" cy="0" r="55" fill="none" stroke="#1565C0" stroke-width="2"/>
-<line x1="39" y1="-39" x2="70" y2="-70" stroke="#E53935" stroke-width="2.5"/>
-<polygon points="70,-70 60,-62 64,-72" fill="#E53935"/>
-<text x="72" y="-65" font-family="Arial,sans-serif" font-size="7" fill="#E53935" font-weight="bold">v</text>
-<line x1="39" y1="-39" x2="10" y2="-10" stroke="#2E7D32" stroke-width="2.5"/>
-<polygon points="10,-10 18,-16 14,-6" fill="#2E7D32"/>
-<text x="15" y="-18" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" font-weight="bold">a</text>
-<circle cx="39" cy="-39" r="4" fill="#FF9800" stroke="#E65100" stroke-width="1.5"/>
-<line x1="0" y1="0" x2="36" y2="-36" stroke="#999" stroke-width="1" stroke-dasharray="3,2"/>
-<text x="10" y="5" font-family="Arial,sans-serif" font-size="6" fill="#999">R</text>
-<path d="M15,0 A15,15 0 0,1 11,-11" stroke="#7B1FA2" stroke-width="1.5" fill="none"/>
-<text x="22" y="-3" font-family="Arial,sans-serif" font-size="5" fill="#7B1FA2">wt</text>
-</g>
-<g transform="translate(400,145)">
-<rect x="-80" y="-70" width="160" height="140" rx="5" fill="white" stroke="#1565C0" stroke-width="1.5"/>
-<text x="0" y="-55" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle" font-weight="bold">Формулы</text>
-<line x1="-65" y1="-48" x2="65" y2="-48" stroke="#1565C0" stroke-width="0.5"/>
-<text x="0" y="-33" font-family="Arial,sans-serif" font-size="6" fill="#E53935" text-anchor="middle">v = 2*pi*R / T</text>
-<text x="0" y="-18" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">w = 2*pi / T</text>
-<text x="0" y="-3" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">a = v^2 / R = w^2*R</text>
-<text x="0" y="12" font-family="Arial,sans-serif" font-size="6" fill="#7B1FA2" text-anchor="middle">v = w * R</text>
-<line x1="-65" y1="20" x2="65" y2="20" stroke="#1565C0" stroke-width="0.5"/>
-<text x="0" y="35" font-family="Arial,sans-serif" font-size="6" fill="#FF6F00" text-anchor="middle">T = 1 / nu</text>
-<text x="0" y="50" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">T — период, nu — частота</text>
-<text x="0" y="63" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">w — угловая скорость</text>
-</g>
-<g transform="translate(400,275)">
-<rect x="-60" y="-15" width="120" height="30" rx="5" fill="white" stroke="#C62828" stroke-width="1"/>
-<text x="0" y="3" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">a направлено к центру!</text>
-</g>
-
-<rect x="10" y="325" width="480" height="20" rx="4" fill="#1565C0" opacity="0.85"/>
-<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Физика 10 класс</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#2c3e50" stroke-width="2" rx="5"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#34495e" stroke-width="1" rx="3"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#2c3e50" font-weight="bold">Потенциал электрического поля</text>
+  <text x="250" y="50" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#34495e">ФИЗИКА · 10 КЛАСС</text>
+  
+  <!-- Номер урока -->
+  <text x="470" y="330" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#34495e">Урок №12</text>
+  
+  <!-- Основная формула потенциала -->
+  <rect x="20" y="65" width="200" height="40" fill="#e8f4f8" stroke="#3498db" stroke-width="1" rx="3"/>
+  <text x="120" y="85" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2c3e50">φ = kq/r</text>
+  <text x="120" y="100" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#7f8c8d">Потенциал электрического поля</text>
+  
+  <!-- Единица измерения -->
+  <circle cx="240" cy="85" r="15" fill="#f39c12"/>
+  <text x="240" y="90" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white" font-weight="bold">В</text>
+  <text x="240" y="105" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7f8c8d">Вольт</text>
+  
+  <!-- Разность потенциалов -->
+  <rect x="260" y="65" width="220" height="40" fill="#e8f8e8" stroke="#27ae60" stroke-width="1" rx="3"/>
+  <text x="370" y="85" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2c3e50">U = φ₁ - φ₂ = A/q</text>
+  <text x="370" y="100" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#7f8c8d">Разность потенциалов (напряжение)</text>
+  
+  <!-- Схема электрического поля -->
+  <g transform="translate(50, 130)">
+    <!-- Положительный заряд -->
+    <circle cx="50" cy="50" r="20" fill="#e74c3c"/>
+    <text x="50" y="57" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="white" font-weight="bold">+</text>
+    <text x="50" y="80" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">q₁</text>
+    
+    <!-- Отрицательный заряд -->
+    <circle cx="200" cy="50" r="20" fill="#3498db"/>
+    <text x="200" y="57" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="white" font-weight="bold">−</text>
+    <text x="200" y="80" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">q₂</text>
+    
+    <!-- Линии поля -->
+    <path d="M70,50 Q125,30 180,50" stroke="#e74c3c" stroke-width="1" fill="none" stroke-dasharray="5,3"/>
+    <path d="M70,50 Q125,70 180,50" stroke="#e74c3c" stroke-width="1" fill="none" stroke-dasharray="5,3"/>
+    
+    <!-- Расстояние -->
+    <line x1="70" y1="100" x2="180" y2="100" stroke="#34495e" stroke-width="1"/>
+    <line x1="70" y1="95" x2="70" y2="105" stroke="#34495e" stroke-width="1"/>
+    <line x1="180" y1="95" x2="180" y2="105" stroke="#34495e" stroke-width="1"/>
+    <text x="125" y="115" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#34495e">d</text>
+    
+    <!-- Метки потенциалов -->
+    <text x="50" y="25" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#e74c3c">φ₁</text>
+    <text x="200" y="25" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#3498db">φ₂</text>
+  </g>
+  
+  <!-- Работа электрического поля -->
+  <rect x="20" y="210" width="200" height="40" fill="#f8e8f8" stroke="#9b59b6" stroke-width="1" rx="3"/>
+  <text x="120" y="230" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2c3e50">A = q(φ₁ - φ₂) = qU</text>
+  <text x="120" y="245" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#7f8c8d">Работа электрического поля</text>
+  
+  <!-- Потенциальная энергия -->
+  <rect x="260" y="210" width="220" height="40" fill="#fdf2e8" stroke="#e67e22" stroke-width="1" rx="3"/>
+  <text x="370" y="230" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2c3e50">W = qφ</text>
+  <text x="370" y="245" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#7f8c8d">Потенциальная энергия заряда</text>
+  
+  <!-- Связь напряженности и напряжения -->
+  <rect x="140" y="270" width="220" height="40" fill="#e8ffe8" stroke="#16a085" stroke-width="1" rx="3"/>
+  <text x="250" y="290" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2c3e50">E = U/d</text>
+  <text x="250" y="305" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#7f8c8d">где d — расстояние</text>
+  
+  <!-- График зависимости потенциала от расстояния -->
+  <g transform="translate(20, 270)">
+    <!-- Ось X -->
+    <line x1="0" y1="50" x2="100" y2="50" stroke="#34495e" stroke-width="1"/>
+    <line x1="0" y1="45" x2="0" y2="55" stroke="#34495e" stroke-width="1"/>
+    <text x="50" y="65" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#34495e">r</text>
+    
+    <!-- Ось Y -->
+    <line x1="0" y1="0" x2="0" y2="50" stroke="#34495e" stroke-width="1"/>
+    <line x1="-5" y1="0" x2="5" y2="0" stroke="#34495e" stroke-width="1"/>
+    <text x="-15" y="25" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#34495e" transform="rotate(-90 -15 25)">φ</text>
+    
+    <!-- Кривая зависимости -->
+    <path d="M0,10 Q25,15 50,30 T100,48" stroke="#e74c3c" stroke-width="2" fill="none"/>
+    
+    <!-- Точка на кривой -->
+    <circle cx="50" cy="30" r="3" fill="#e74c3c"/>
+    <text x="55" y="25" font-family="Arial, sans-serif" font-size="9" fill="#34495e">φ</text>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="480" cy="30" r="8" fill="#f39c12" opacity="0.3"/>
+  <circle cx="470" cy="40" r="5" fill="#3498db" opacity="0.3"/>
+  <circle cx="490" cy="45" r="6" fill="#e74c3c" opacity="0.3"/>
+  
+  <!-- Связующие стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7f8c8d"/>
+    </marker>
+  </defs>
+  
+  <line x1="120" y1="105" x2="120" y2="125" stroke="#7f8c8d" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <line x1="370" y1="105" x2="370" y2="125" stroke="#7f8c8d" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <line x1="120" y1="250" x2="120" y2="265" stroke="#7f8c8d" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <line x1="370" y1="250" x2="370" y2="265" stroke="#7f8c8d" stroke-width="1" marker-end="url(#arrowhead)"/>
+  
+  <!-- Подписи к схеме -->
+  <text x="125" y="125" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7f8c8d">Потенциал</text>
+  <text x="375" y="125" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7f8c8d">Напряжение</text>
+  <text x="125" y="265" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7f8c8d">Работа</text>
+  <text x="375" y="265" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7f8c8d">Энергия</text>
+  
+  <!-- Градиент для фона формул -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e8f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8f4f8;stop-opacity:0.7" />
+    </linearGradient>
+  </defs>
 </svg>

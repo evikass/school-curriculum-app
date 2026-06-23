@@ -1,66 +1,166 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <linearGradient id="hdr8" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#E65100;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#FF8F00;stop-opacity:1"/>
-    </linearGradient>
-    <linearGradient id="bg8" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#FFF3E0;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#FFE0B2;stop-opacity:1"/>
-    </linearGradient>
-    <filter id="shadow8" x="-2%" y="-2%" width="104%" height="104%">
-      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#000" flood-opacity="0.1"/>
-    </filter>
-  </defs>
-  <rect width="500" height="350" fill="url(#bg8)"/>
-  <rect x="2" y="2" width="496" height="346" rx="12" ry="12" fill="none" stroke="#E65100" stroke-width="2.5" opacity="0.6"/>
-  <rect x="3" y="3" width="494" height="42" rx="10" ry="10" fill="url(#hdr8)"/>
-  <rect x="3" y="35" width="494" height="10" fill="url(#hdr8)"/>
-  <text x="250" y="20" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Первая помощь при кровотечениях и травмах</text>
-  <text x="250" y="36" font-family="Arial, sans-serif" font-size="10" fill="#FFF3E0" text-anchor="middle">ОБЖ — Урок 8</text>
-  <circle cx="28" cy="24" r="14" fill="#FFFFFF" opacity="0.25"/>
-  <text x="28" y="28" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">8</text>
-  <rect x="12" y="52" width="230" height="102" rx="8" ry="8" fill="#FFFFFF" opacity="0.7" filter="url(#shadow8)"/>
-  <rect x="16" y="55" width="222" height="18" rx="4" ry="4" fill="#E65100" opacity="0.15"/>
-  <text x="127" y="68" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#E65100" text-anchor="middle">Виды кровотечений</text>
-  <circle cx="26" cy="77" r="4" fill="#C62828" opacity="0.8"/>
-  <text x="36" y="80" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Артериальное — алая кровь, фонтан</text>
-  <circle cx="26" cy="99" r="4" fill="#FF8F00" opacity="0.8"/>
-  <text x="36" y="102" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Венозное — тёмная кровь, течёт</text>
-  <circle cx="26" cy="121" r="4" fill="#E65100" opacity="0.8"/>
-  <text x="36" y="124" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Капиллярное — кровь сочится</text>
-  <rect x="252" y="52" width="236" height="146" rx="8" ry="8" fill="#FFFFFF" opacity="0.7" filter="url(#shadow8)"/>
-  <rect x="256" y="55" width="228" height="18" rx="4" ry="4" fill="#E65100" opacity="0.15"/>
-  <text x="370" y="68" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#E65100" text-anchor="middle">Первая помощь</text>
-  <circle cx="266" cy="77" r="6" fill="#2E7D32" opacity="0.2"/>
-  <text x="266" y="80" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">1</text>
-  <text x="278" y="80" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Артериальное: жгут выше раны (+ записка)</text>
-  <circle cx="266" cy="99" r="6" fill="#2E7D32" opacity="0.2"/>
-  <text x="266" y="102" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">2</text>
-  <text x="278" y="102" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Венозное: давящая повязка</text>
-  <circle cx="266" cy="121" r="6" fill="#2E7D32" opacity="0.2"/>
-  <text x="266" y="124" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">3</text>
-  <text x="278" y="124" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Капиллярное: обработка + пластырь</text>
-  <circle cx="266" cy="143" r="6" fill="#2E7D32" opacity="0.2"/>
-  <text x="266" y="146" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">4</text>
-  <text x="278" y="146" font-family="Arial, sans-serif" font-size="9" fill="#37474F">При переломе: обездвижить (шина)</text>
-  <circle cx="266" cy="165" r="6" fill="#2E7D32" opacity="0.2"/>
-  <text x="266" y="168" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">5</text>
-  <text x="278" y="168" font-family="Arial, sans-serif" font-size="9" fill="#37474F">При ожоге: охладить водой 10–15 мин</text>
-  <rect x="12" y="206" width="476" height="74" rx="8" ry="8" fill="#FFFFFF" opacity="0.7" filter="url(#shadow8)"/>
-  <rect x="12" y="206" width="5" height="74" rx="2" ry="0" fill="#E65100" opacity="0.7"/>
-  <text x="250" y="220" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#C62828" text-anchor="middle">Правила наложения жгута</text>
-  <rect x="24" y="228" width="452" height="15" rx="3" ry="3" fill="#E65100" opacity="0.06"/>
-  <text x="30" y="236" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Время: зимой ≤1 ч, летом ≤1.5 ч  |  Обязательно запишите время!</text>
-  <rect x="24" y="246" width="452" height="15" rx="3" ry="3" fill="#E65100" opacity="0.06"/>
-  <text x="30" y="254" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Ослабляйте жгут каждые 30 мин на 5 мин</text>
-  <line x1="15" y1="334" x2="485" y2="334" stroke="#E65100" stroke-width="0.5" opacity="0.3"/>
-  <text x="250" y="338" font-family="Arial, sans-serif" font-size="8" fill="#9E9E9E" text-anchor="middle">Основы безопасности · 10 класс</text>
-
-  <!-- Medical cross icon -->
-  <g transform="translate(445, 60)">
-    <rect x="8" y="8" width="24" height="34" rx="3" fill="#FFFFFF" opacity="0.5" stroke="#C62828" stroke-width="1"/>
-    <rect x="16" y="14" width="8" height="22" rx="1" fill="#C62828" opacity="0.3"/>
-    <rect x="11" y="19" width="18" height="8" rx="1" fill="#C62828" opacity="0.3"/>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#2c3e50" stroke-width="3" rx="10"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#3498db" stroke-width="1" rx="8" stroke-dasharray="5,3"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">ОБЖ · 10 КЛАСС</text>
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#34495e">Первая помощь при кровотечениях и травмах</text>
+  
+  <!-- Номер урока -->
+  <text x="470" y="30" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Урок №12</text>
+  
+  <!-- Разделитель -->
+  <line x1="30" y1="70" x2="470" y2="70" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="250" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c">Виды кровотечений:</text>
+  
+  <!-- Артериальное кровотечение -->
+  <g transform="translate(30, 110)">
+    <!-- Заголовок -->
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#c0392b">Артериальное</text>
+    
+    <!-- Иконка руки -->
+    <ellipse cx="20" cy="25" rx="8" ry="12" fill="#fdbcb4"/>
+    <rect x="16" y="10" width="8" height="20" fill="#fdbcb4"/>
+    <rect x="14" y="8" width="12" height="4" fill="#fdbcb4" rx="2"/>
+    
+    <!-- Рана с артериальным кровотечением -->
+    <ellipse cx="20" cy="30" rx="3" ry="2" fill="#e74c3c"/>
+    <path d="M 20 30 Q 30 25, 35 30" fill="none" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowRed)"/>
+    
+    <!-- Жгут -->
+    <rect x="10" y="15" width="20" height="3" fill="#34495e" rx="1"/>
+    <line x1="10" y1="16.5" x2="30" y2="16.5" stroke="#ecf0f1" stroke-width="0.5"/>
+    <line x1="10" y1="17.5" x2="30" y2="17.5" stroke="#ecf0f1" stroke-width="0.5"/>
+    
+    <!-- Ткань под жгут -->
+    <rect x="12" y="13" width="16" height="2" fill="#ecf0f1" opacity="0.7" rx="1"/>
+    
+    <!-- Метка времени -->
+    <rect x="5" y="5" width="30" height="15" fill="#3498db" rx="2"/>
+    <text x="20" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">2ч/1ч</text>
+    
+    <!-- Стрелка вверх -->
+    <path d="M 20 40 L 20 45 M 17 42 L 20 45 L 23 42" stroke="#2c3e50" stroke-width="1.5" fill="none"/>
+    
+    <!-- Текст с правилами -->
+    <text x="50" y="10" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Жгут выше раны на 5-10 см</text>
+    <text x="50" y="25" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Подложить ткань под жгут</text>
+    <text x="50" y="40" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Записать время наложения</text>
+    <text x="50" y="55" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Летом: не более 2 часов</text>
+    <text x="50" y="70" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Зимой: не более 1 часа</text>
   </g>
+  
+  <!-- Венозное кровотечение -->
+  <g transform="translate(250, 110)">
+    <!-- Заголовок -->
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#8e44ad">Венозное</text>
+    
+    <!-- Иконка руки -->
+    <ellipse cx="20" cy="25" rx="8" ry="12" fill="#fdbcb4"/>
+    <rect x="16" y="10" width="8" height="20" fill="#fdbcb4"/>
+    <rect x="14" y="8" width="12" height="4" fill="#fdbcb4" rx="2"/>
+    
+    <!-- Рана с венозным кровотечением -->
+    <ellipse cx="20" cy="30" rx="3" ry="2" fill="#8e44ad"/>
+    <path d="M 20 30 Q 30 32, 35 35" fill="none" stroke="#8e44ad" stroke-width="2"/>
+    
+    <!-- Давящая повязка -->
+    <rect x="10" y="15" width="20" height="3" fill="#e67e22" rx="1"/>
+    <circle cx="20" cy="16.5" r="3" fill="none" stroke="#f39c12" stroke-width="1"/>
+    
+    <!-- Стрелка вверх -->
+    <path d="M 20 40 L 20 45 M 17 42 L 20 45 L 23 42" stroke="#2c3e50" stroke-width="1.5" fill="none"/>
+    
+    <!-- Возвышенное положение -->
+    <rect x="5" y="5" width="30" height="10" fill="#3498db" opacity="0.3"/>
+    <path d="M 5 10 L 10 5 L 15 10 L 20 5 L 25 10 L 30 5 L 35 10" stroke="#3498db" stroke-width="1" fill="none"/>
+    
+    <!-- Текст с правилами -->
+    <text x="50" y="10" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Давящая повязка</text>
+    <text x="50" y="25" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Возвышенное положение</text>
+    <text x="50" y="40" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">конечности</text>
+  </g>
+  
+  <!-- Капиллярное кровотечение -->
+  <g transform="translate(30, 230)">
+    <!-- Заголовок -->
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#16a085">Капиллярное</text>
+    
+    <!-- Иконка руки -->
+    <ellipse cx="20" cy="25" rx="8" ry="12" fill="#fdbcb4"/>
+    <rect x="16" y="10" width="8" height="20" fill="#fdbcb4"/>
+    <rect x="14" y="8" width="12" height="4" fill="#fdbcb4" rx="2"/>
+    
+    <!-- Рана с капиллярным кровотечением -->
+    <ellipse cx="20" cy="30" rx="3" ry="2" fill="#16a085"/>
+    <circle cx="25" cy="32" r="1" fill="#16a085"/>
+    <circle cx="28" cy="33" r="1" fill="#16a085"/>
+    
+    <!-- Бинтовая повязка -->
+    <rect x="10" y="15" width="20" height="3" fill="#27ae60" rx="1"/>
+    <path d="M 10 15 L 30 15 L 25 18 L 15 18 Z" fill="#2ecc71" opacity="0.7"/>
+    
+    <!-- Текст с правилами -->
+    <text x="50" y="10" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Наложение асептической</text>
+    <text x="50" y="25" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">повязки</text>
+    <text x="50" y="40" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Прекращается само</text>
+    <text x="50" y="55" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">через 5-10 минут</text>
+  </g>
+  
+  <!-- Сравнительная таблица -->
+  <g transform="translate(250, 210)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Сравнение кровотечений</text>
+    
+    <!-- Таблица -->
+    <rect x="0" y="10" width="200" height="100" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+    
+    <!-- Заголовки столбцов -->
+    <rect x="0" y="10" width="66" height="20" fill="#3498db"/>
+    <rect x="67" y="10" width="66" height="20" fill="#9b59b6"/>
+    <rect x="134" y="10" width="66" height="20" fill="#16a085"/>
+    
+    <text x="33" y="24" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Артериальное</text>
+    <text x="100" y="24" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Венозное</text>
+    <text x="167" y="24" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Капиллярное</text>
+    
+    <!-- Строка 1 -->
+    <text x="5" y="45" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">Цвет:</text>
+    <circle cx="33" cy="42" r="3" fill="#e74c3c"/>
+    <circle cx="100" cy="42" r="3" fill="#8e44ad"/>
+    <circle cx="167" cy="42" r="3" fill="#16a085"/>
+    
+    <!-- Строка 2 -->
+    <text x="5" y="65" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">Течение:</text>
+    <text x="33" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">Фонтан</text>
+    <text x="100" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">Постоянно</text>
+    <text x="167" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">Каплями</text>
+    
+    <!-- Строка 3 -->
+    <text x="5" y="85" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">Опасность:</text>
+    <text x="33" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#e74c3c">Высокая</text>
+    <text x="100" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#f39c12">Средняя</text>
+    <text x="167" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#27ae60">Низкая</text>
+  </g>
+  
+  <!-- Опасность шкала -->
+  <g transform="translate(30, 330)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Уровень опасности:</text>
+    <rect x="70" y="-10" width="40" height="10" fill="#e74c3c"/>
+    <text x="90" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Критическая</text>
+    <rect x="110" y="-10" width="40" height="10" fill="#f39c12"/>
+    <text x="130" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Высокая</text>
+    <rect x="150" y="-10" width="40" height="10" fill="#27ae60"/>
+    <text x="170" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">Низкая</text>
+  </g>
+  
+  <!-- Определение -->
+  <text x="250" y="330" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Кровотечение — истечение крови из сосудов</text>
+  
+  <!-- Маркеры для стрелок -->
+  <defs>
+    <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#e74c3c"/>
+    </marker>
+  </defs>
 </svg>

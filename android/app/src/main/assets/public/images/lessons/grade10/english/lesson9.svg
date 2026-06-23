@@ -1,32 +1,168 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8EAF6"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a6fa5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6a8dc7;stop-opacity:1" />
     </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e67e22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f39c12;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#27ae60;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2ecc71;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8e44ad;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9b59b6;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#283593" stroke-width="2.5"/>
-  <text x="250" y="38" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#283593" text-anchor="middle">Text Analysis</text>
-  <text x="250" y="56" font-family="Arial,sans-serif" font-size="11" fill="#888888" text-anchor="middle">Английский язык — Урок 9</text>
-  <line x1="30" y1="64" x2="470" y2="64" stroke="#283593" stroke-width="2" opacity="0.25"/>
-  <rect x="20" y="72" width="460" height="40" rx="5" fill="#283593" opacity="0.08"/>
-  <text x="250" y="96" font-family="Arial,sans-serif" font-size="11" fill="#283593" text-anchor="middle" font-weight="bold">Анализ текста — понимание структуры и содержания</text>
-  <rect x="20" y="120" width="460" height="26" rx="5" fill="#283593" opacity="0.04"/>
-  <text x="30" y="137" font-family="Arial,sans-serif" font-size="10" fill="#283593" text-anchor="start" font-weight="bold">1. Read</text>
-  <text x="120" y="137" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal">Прочитать текст целиком</text>
-  <rect x="20" y="150" width="460" height="26" rx="5" fill="#283593" opacity="0.04"/>
-  <text x="30" y="167" font-family="Arial,sans-serif" font-size="10" fill="#283593" text-anchor="start" font-weight="bold">2. Identify</text>
-  <text x="120" y="167" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal">Определить тему и главную мысль</text>
-  <rect x="20" y="180" width="460" height="26" rx="5" fill="#283593" opacity="0.04"/>
-  <text x="30" y="197" font-family="Arial,sans-serif" font-size="10" fill="#283593" text-anchor="start" font-weight="bold">3. Structure</text>
-  <text x="120" y="197" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal">Найти введение, основную часть, вывод</text>
-  <rect x="20" y="210" width="460" height="26" rx="5" fill="#283593" opacity="0.04"/>
-  <text x="30" y="227" font-family="Arial,sans-serif" font-size="10" fill="#283593" text-anchor="start" font-weight="bold">4. Vocabulary</text>
-  <text x="120" y="227" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal">Определить ключевые слова</text>
-  <rect x="20" y="240" width="460" height="26" rx="5" fill="#283593" opacity="0.04"/>
-  <text x="30" y="257" font-family="Arial,sans-serif" font-size="10" fill="#283593" text-anchor="start" font-weight="bold">5. Tone</text>
-  <text x="120" y="257" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal">Определить тон и стиль автора</text>
-  <ellipse cx="250" cy="330" rx="200" ry="10" fill="#283593" opacity="0.06"/>
-  <text x="250" y="340" font-family="Arial,sans-serif" font-size="11" fill="#283593" text-anchor="middle" font-style="italic">English · Grade 10</text>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#34495e" stroke-width="3" rx="5"/>
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#34495e" stroke-width="1" rx="3"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">АНГЛИЙСКИЙ · 10 КЛАСС</text>
+  <text x="250" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2c3e50">Урок 9: Text Analysis</text>
+  
+  <!-- Номер урока в углу -->
+  <text x="30" y="330" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">№9</text>
+  
+  <!-- Структура текста -->
+  <g transform="translate(30, 90)">
+    <rect x="0" y="0" width="100" height="60" fill="url(#grad1)" rx="5" filter="url(#shadow)"/>
+    <text x="50" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">Структура</text>
+    
+    <line x1="100" y1="30" x2="130" y2="30" stroke="#34495e" stroke-width="2"/>
+    
+    <rect x="130" y="10" width="80" height="20" fill="#3498db" rx="3"/>
+    <text x="170" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Введение</text>
+    
+    <rect x="130" y="35" width="80" height="20" fill="#3498db" rx="3"/>
+    <text x="170" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Основная часть</text>
+    
+    <line x1="210" y1="20" x2="230" y2="20" stroke="#34495e" stroke-width="1"/>
+    <line x1="210" y1="45" x2="230" y2="45" stroke="#34495e" stroke-width="1"/>
+    <line x1="230" y1="20" x2="230" y2="45" stroke="#34495e" stroke-width="1"/>
+    
+    <rect x="230" y="10" width="80" height="20" fill="#3498db" rx="3"/>
+    <text x="270" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Аргумент 1</text>
+    
+    <rect x="230" y="35" width="80" height="20" fill="#3498db" rx="3"/>
+    <text x="270" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Аргумент 2</text>
+    
+    <line x1="310" y1="30" x2="340" y2="30" stroke="#34495e" stroke-width="2"/>
+    
+    <rect x="340" y="10" width="80" height="20" fill="#3498db" rx="3"/>
+    <text x="380" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Выводы</text>
+    
+    <rect x="340" y="35" width="80" height="20" fill="#3498db" rx="3"/>
+    <text x="380" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Рекомендации</text>
+  </g>
+  
+  <!-- Связующие элементы -->
+  <g transform="translate(30, 170)">
+    <rect x="0" y="0" width="100" height="60" fill="url(#grad2)" rx="5" filter="url(#shadow)"/>
+    <text x="50" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">Связующие</text>
+    
+    <circle cx="170" cy="20" r="15" fill="#e67e22"/>
+    <text x="170" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">First</text>
+    
+    <line x1="185" y1="20" x2="205" y2="20" stroke="#34495e" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <circle cx="220" cy="20" r="15" fill="#e67e22"/>
+    <text x="220" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Then</text>
+    
+    <line x1="235" y1="20" x2="255" y2="20" stroke="#34495e" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <circle cx="270" cy="20" r="15" fill="#e67e22"/>
+    <text x="270" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">But</text>
+    
+    <line x1="285" y1="20" x2="305" y2="20" stroke="#34495e" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <circle cx="320" cy="20" r="15" fill="#e67e22"/>
+    <text x="320" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">So</text>
+    
+    <circle cx="170" cy="50" r="15" fill="#e67e22"/>
+    <text x="170" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">However</text>
+    
+    <line x1="185" y1="50" x2="205" y2="50" stroke="#34495e" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <circle cx="220" cy="50" r="15" fill="#e67e22"/>
+    <text x="220" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Therefore</text>
+    
+    <line x1="235" y1="50" x2="255" y2="50" stroke="#34495e" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <circle cx="270" cy="50" r="15" fill="#e67e22"/>
+    <text x="270" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Moreover</text>
+    
+    <line x1="285" y1="50" x2="305" y2="50" stroke="#34495e" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <circle cx="320" cy="50" r="15" fill="#e67e22"/>
+    <text x="320" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">In addition</text>
+  </g>
+  
+  <!-- Тон и стиль -->
+  <g transform="translate(30, 250)">
+    <rect x="0" y="0" width="100" height="60" fill="url(#grad3)" rx="5" filter="url(#shadow)"/>
+    <text x="50" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">Тон и стиль</text>
+    
+    <ellipse cx="150" cy="30" rx="40" ry="25" fill="#27ae60"/>
+    <text x="150" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Формальный</text>
+    <text x="150" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">формальный</text>
+    
+    <path d="M 200 30 Q 225 10, 250 30 T 300 30" stroke="#27ae60" stroke-width="2" fill="none"/>
+    
+    <ellipse cx="330" cy="30" rx="40" ry="25" fill="#27ae60"/>
+    <text x="330" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Неформальный</text>
+    <text x="330" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">неформальный</text>
+    
+    <text x="150" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#27ae60">Formal</text>
+    <text x="330" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#27ae60">Informal</text>
+  </g>
+  
+  <!-- Критическое восприятие -->
+  <g transform="translate(350, 170)">
+    <rect x="0" y="0" width="100" height="60" fill="url(#grad4)" rx="5" filter="url(#shadow)"/>
+    <text x="50" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">Критическое</text>
+    <text x="50" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">восприятие</text>
+    
+    <polygon points="50,70 70,90 50,110 30,90" fill="#8e44ad"/>
+    <text x="50" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Анализ</text>
+    
+    <polygon points="90,70 110,90 90,110 70,90" fill="#8e44ad"/>
+    <text x="90" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Оценка</text>
+    
+    <polygon points="130,70 150,90 130,110 110,90" fill="#8e44ad"/>
+    <text x="130" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Выводы</text>
+  </g>
+  
+  <!-- Вопросы для анализа -->
+  <g transform="translate(350, 250)">
+    <rect x="0" y="0" width="120" height="50" fill="#ecf0f1" stroke="#34495e" stroke-width="1" rx="3"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Вопросы анализа:</text>
+    <text x="10" y="35" font-family="Arial, sans-serif" font-size="10" fill="#34495e">• Кто автор?</text>
+    <text x="10" y="45" font-family="Arial, sans-serif" font-size="10" fill="#34495e">• Какая цель?</text>
+  </g>
+  
+  <!-- Формула анализа -->
+  <g transform="translate(350, 310)">
+    <rect x="0" y="0" width="120" height="30" fill="#ecf0f1" stroke="#34495e" stroke-width="1" rx="3"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Анализ = С + С + Т + К</text>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <circle cx="30" cy="90" r="5" fill="#e74c3c"/>
+  <circle cx="30" cy="170" r="5" fill="#e74c3c"/>
+  <circle cx="30" cy="250" r="5" fill="#e74c3c"/>
+  
+  <line x1="250" y1="90" x2="350" y2="170" stroke="#95a5a6" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="250" y1="170" x2="350" y2="250" stroke="#95a5a6" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="250" y1="250" x2="350" y2="310" stroke="#95a5a6" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <text x="470" y="330" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d" text-anchor="end">Текстовый анализ</text>
 </svg>

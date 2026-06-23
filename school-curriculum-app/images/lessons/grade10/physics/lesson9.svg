@@ -1,38 +1,109 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E3F2FD"/><stop offset="100%" stop-color="#BBDEFB"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="2.5"/>
-<text x="250" y="30" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1565C0" text-anchor="middle">Решение задач равноускоренного движения</text>
-<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Физика 10 класс — Урок 9</text>
-<line x1="30" y1="52" x2="470" y2="52" stroke="#1565C0" stroke-width="1.5" opacity="0.25"/>
-
-<g transform="translate(250,105)">
-<rect x="-130" y="-40" width="260" height="80" rx="8" fill="white" stroke="#1565C0" stroke-width="2"/>
-<text x="0" y="-22" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle" font-weight="bold">Система формул равноускоренного движения</text>
-<line x1="-115" y1="-14" x2="115" y2="-14" stroke="#1565C0" stroke-width="0.5"/>
-<text x="-60" y="2" font-family="Arial,sans-serif" font-size="6" fill="#E53935" text-anchor="middle">v = v0 + at</text>
-<text x="60" y="2" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">S = v0t + at^2/2</text>
-<text x="-60" y="18" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">x = x0 + v0t + at^2/2</text>
-<text x="60" y="18" font-family="Arial,sans-serif" font-size="6" fill="#FF6F00" text-anchor="middle">v^2 - v0^2 = 2aS</text>
-<text x="0" y="34" font-family="Arial,sans-serif" font-size="5" fill="#7B1FA2" text-anchor="middle">4 формулы, 5 неизвестных — нужно знать 2 величины</text>
-</g>
-<g transform="translate(130,230)">
-<rect x="-80" y="-40" width="160" height="80" rx="5" fill="white" stroke="#E65100" stroke-width="1.5"/>
-<text x="0" y="-25" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle" font-weight="bold">Аналитический способ</text>
-<line x1="-65" y1="-18" x2="65" y2="-18" stroke="#E65100" stroke-width="0.5"/>
-<text x="0" y="-3" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">1. Записать формулы</text>
-<text x="0" y="10" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">2. Подставить данные</text>
-<text x="0" y="23" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">3. Решить уравнение</text>
-</g>
-<g transform="translate(380,230)">
-<rect x="-80" y="-40" width="160" height="80" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
-<text x="0" y="-25" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">Графический способ</text>
-<line x1="-65" y1="-18" x2="65" y2="-18" stroke="#2E7D32" stroke-width="0.5"/>
-<text x="0" y="-3" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Площадь под v(t)</text>
-<text x="0" y="10" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">= перемещение S</text>
-<text x="0" y="23" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Трапеция или треугольник</text>
-</g>
-
-<rect x="10" y="325" width="480" height="20" rx="4" fill="#1565C0" opacity="0.85"/>
-<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Физика 10 класс</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="frameGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#357abd;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="electronGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c92a2a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="protonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4dabf7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1971c2;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" rx="15" ry="15" fill="none" stroke="url(#frameGradient)" stroke-width="4"/>
+  <rect x="15" y="15" width="470" height="320" rx="12" ry="12" fill="#f8f9fa" opacity="0.5"/>
+  
+  <!-- Заголовок и класс -->
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">Электрический заряд и закон Кулона</text>
+  <text x="250" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">ФИЗИКА · 10 КЛАСС</text>
+  <text x="460" y="330" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">№ 15</text>
+  
+  <!-- Секция: Элементарный заряд -->
+  <rect x="20" y="80" width="220" height="120" rx="5" ry="5" fill="#e8f4f8" stroke="#4a90e2" stroke-width="1.5"/>
+  <text x="130" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Элементарный заряд</text>
+  <text x="130" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50">e = 1.6 × 10⁻¹⁹ Кл</text>
+  
+  <!-- Электрон -->
+  <circle cx="70" cy="160" r="20" fill="url(#electronGradient)" filter="url(#shadow)"/>
+  <text x="70" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">e⁻</text>
+  <text x="70" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#c92a2a">Заряд электрона</text>
+  <text x="70" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#c92a2a">q = -e</text>
+  
+  <!-- Протон -->
+  <circle cx="190" cy="160" r="20" fill="url(#protonGradient)" filter="url(#shadow)"/>
+  <text x="190" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">p⁺</text>
+  <text x="190" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1971c2">Заряд протона</text>
+  <text x="190" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1971c2">q = +e</text>
+  
+  <!-- Секция: Закон сохранения заряда -->
+  <rect x="260" y="80" width="220" height="120" rx="5" ry="5" fill="#f0f9ff" stroke="#4a90e2" stroke-width="1.5"/>
+  <text x="370" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Закон сохранения заряда</text>
+  <text x="370" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Алгебраическая сумма зарядов</text>
+  <text x="370" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">в изолированной системе</text>
+  <text x="370" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">сохраняется</text>
+  
+  <!-- Схема сохранения заряда -->
+  <circle cx="300" cy="185" r="8" fill="#ff6b6b"/>
+  <text x="300" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">+</text>
+  <circle cx="320" cy="185" r="8" fill="#ff6b6b"/>
+  <text x="320" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">+</text>
+  <circle cx="340" cy="185" r="8" fill="#4dabf7"/>
+  <text x="340" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">-</text>
+  <text x="370" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Σq = 0</text>
+  
+  <!-- Секция: Закон Кулона -->
+  <rect x="20" y="220" width="460" height="110" rx="5" ry="5" fill="#fff8e1" stroke="#f39c12" stroke-width="1.5"/>
+  <text x="250" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Закон Кулона</text>
+  <text x="250" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50">F = k|q₁||q₂|/r²</text>
+  <text x="250" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">k = 9 × 10⁹ Н·м²/Кл²</text>
+  
+  <!-- График зависимости силы от расстояния -->
+  <rect x="30" y="290" width="180" height="30" fill="white" stroke="#7f8c8d" stroke-width="0.5"/>
+  <text x="120" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">F ∝ 1/r²</text>
+  
+  <!-- Схема взаимодействия зарядов -->
+  <circle cx="350" cy="305" r="15" fill="url(#electronGradient)"/>
+  <text x="350" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">q₁</text>
+  
+  <line x1="365" y1="305" x2="385" y2="305" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="385" y1="305" x2="365" y2="305" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <circle cx="400" cy="305" r="15" fill="url(#protonGradient)"/>
+  <text x="400" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">q₂</text>
+  <text x="375" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">F</text>
+  <text x="375" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">r</text>
+  
+  <!-- Стрелки для силы -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e74c3c"/>
+    </marker>
+  </defs>
+  
+  <!-- Дополнительные элементы для увеличения размера -->
+  <rect x="50" y="100" width="100" height="2" fill="#bdc3c7" opacity="0.3"/>
+  <rect x="50" y="110" width="100" height="2" fill="#bdc3c7" opacity="0.3"/>
+  <rect x="50" y="120" width="100" height="2" fill="#bdc3c7" opacity="0.3"/>
+  <rect x="50" y="130" width="100" height="2" fill="#bdc3c7" opacity="0.3"/>
+  <rect x="50" y="140" width="100" height="2" fill="#bdc3c7" opacity="0.3"/>
+  
+  <rect x="350" y="100" width="100" height="2" fill="#bdc3c7" opacity="0.3"/>
+  <rect x="350" y="110" width="100" height="2" fill="#bdc3c7" opacity="0.3"/>
+  <rect x="350" y="120" width="100" height="2" fill="#bdc3c7" opacity="0.3"/>
+  <rect x="350" y="130" width="100" height="2" fill="#bdc3c7" opacity="0.3"/>
+  <rect x="350" y="140" width="100" height="2" fill="#bdc3c7" opacity="0.3"/>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="30" cy="30" r="3" fill="#4a90e2" opacity="0.5"/>
+  <circle cx="470" cy="30" r="3" fill="#4a90e2" opacity="0.5"/>
+  <circle cx="30" cy="320" r="3" fill="#4a90e2" opacity="0.5"/>
+  <circle cx="470" cy="320" r="3" fill="#4a90e2" opacity="0.5"/>
 </svg>

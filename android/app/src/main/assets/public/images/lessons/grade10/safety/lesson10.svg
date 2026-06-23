@@ -1,71 +1,146 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Определения градиентов и паттернов -->
   <defs>
-    <linearGradient id="hdr10" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#E65100;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#FF8F00;stop-opacity:1"/>
+    <linearGradient id="roadGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A4A4A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2A2A2A;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="bg10" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#FFF3E0;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#FFE0B2;stop-opacity:1"/>
+    
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F7FA;stop-opacity:1" />
     </linearGradient>
-    <filter id="shadow10" x="-2%" y="-2%" width="104%" height="104%">
-      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#000" flood-opacity="0.1"/>
-    </filter>
+    
+    <pattern id="zebraStripes" patternUnits="userSpaceOnUse" width="20" height="20">
+      <rect width="10" height="20" fill="white"/>
+      <rect x="10" width="10" height="20" fill="black"/>
+    </pattern>
   </defs>
-  <rect width="500" height="350" fill="url(#bg10)"/>
-  <rect x="2" y="2" width="496" height="346" rx="12" ry="12" fill="none" stroke="#E65100" stroke-width="2.5" opacity="0.6"/>
-  <rect x="3" y="3" width="494" height="42" rx="10" ry="10" fill="url(#hdr10)"/>
-  <rect x="3" y="35" width="494" height="10" fill="url(#hdr10)"/>
-  <text x="250" y="20" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Дорожная безопасность</text>
-  <text x="250" y="36" font-family="Arial, sans-serif" font-size="10" fill="#FFF3E0" text-anchor="middle">ОБЖ — Урок 10</text>
-  <circle cx="28" cy="24" r="14" fill="#FFFFFF" opacity="0.25"/>
-  <text x="28" y="28" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">10</text>
-  <rect x="12" y="52" width="230" height="146" rx="8" ry="8" fill="#FFFFFF" opacity="0.7" filter="url(#shadow10)"/>
-  <rect x="16" y="55" width="222" height="18" rx="4" ry="4" fill="#E65100" opacity="0.15"/>
-  <text x="127" y="68" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#E65100" text-anchor="middle">Правила для пешеходов</text>
-  <circle cx="26" cy="77" r="4" fill="#2E7D32" opacity="0.8"/>
-  <text x="36" y="80" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Переходите по зебре / подземному переходу</text>
-  <circle cx="26" cy="99" r="4" fill="#2E7D32" opacity="0.8"/>
-  <text x="36" y="102" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Смотрите налево, потом направо</text>
-  <circle cx="26" cy="121" r="4" fill="#C62828" opacity="0.8"/>
-  <text x="36" y="124" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Не переходите на красный сигнал</text>
-  <circle cx="26" cy="143" r="4" fill="#C62828" opacity="0.8"/>
-  <text x="36" y="146" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Не играйте возле проезжей части</text>
-  <circle cx="26" cy="165" r="4" fill="#2E7D32" opacity="0.8"/>
-  <text x="36" y="168" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Носите светоотражатели в темноте</text>
-  <rect x="252" y="52" width="236" height="146" rx="8" ry="8" fill="#FFFFFF" opacity="0.7" filter="url(#shadow10)"/>
-  <rect x="256" y="55" width="228" height="18" rx="4" ry="4" fill="#E65100" opacity="0.15"/>
-  <text x="370" y="68" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#E65100" text-anchor="middle">Правила для велосипедистов</text>
-  <circle cx="266" cy="77" r="6" fill="#2E7D32" opacity="0.2"/>
-  <text x="266" y="80" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">1</text>
-  <text x="278" y="80" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Шлем — обязательно!</text>
-  <circle cx="266" cy="99" r="6" fill="#2E7D32" opacity="0.2"/>
-  <text x="266" y="102" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">2</text>
-  <text x="278" y="102" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Двигайтесь по велодорожке</text>
-  <circle cx="266" cy="121" r="6" fill="#2E7D32" opacity="0.2"/>
-  <text x="266" y="124" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">3</text>
-  <text x="278" y="124" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Сигнализируйте повороты рукой</text>
-  <circle cx="266" cy="143" r="6" fill="#2E7D32" opacity="0.2"/>
-  <text x="266" y="146" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">4</text>
-  <text x="278" y="146" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Свет: фара + катафоты</text>
-  <circle cx="266" cy="165" r="6" fill="#2E7D32" opacity="0.2"/>
-  <text x="266" y="168" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#2E7D32" text-anchor="middle">5</text>
-  <text x="278" y="168" font-family="Arial, sans-serif" font-size="9" fill="#37474F">До 14 лет — тротуар, не дорога</text>
-  <rect x="12" y="206" width="476" height="74" rx="8" ry="8" fill="#FFFFFF" opacity="0.7" filter="url(#shadow10)"/>
-  <rect x="12" y="206" width="5" height="74" rx="2" ry="0" fill="#E65100" opacity="0.7"/>
-  <text x="250" y="220" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#C62828" text-anchor="middle">Статистика: главные причины ДТП</text>
-  <rect x="24" y="228" width="452" height="15" rx="3" ry="3" fill="#E65100" opacity="0.06"/>
-  <text x="30" y="236" font-family="Arial, sans-serif" font-size="9" fill="#37474F">1. Переход в неположенном месте  2. Невнимательность</text>
-  <rect x="24" y="246" width="452" height="15" rx="3" ry="3" fill="#E65100" opacity="0.06"/>
-  <text x="30" y="254" font-family="Arial, sans-serif" font-size="9" fill="#37474F">3. Превышение скорости  4. Управление в нетрезвом виде</text>
-  <line x1="15" y1="334" x2="485" y2="334" stroke="#E65100" stroke-width="0.5" opacity="0.3"/>
-  <text x="250" y="338" font-family="Arial, sans-serif" font-size="8" fill="#9E9E9E" text-anchor="middle">Основы безопасности · 10 класс</text>
-
-  <!-- Traffic light icon -->
-  <g transform="translate(450, 60)">
-    <rect x="8" y="5" width="14" height="38" rx="4" fill="#37474F" opacity="0.3"/>
-    <circle cx="15" cy="14" r="4" fill="#C62828" opacity="0.6"/>
-    <circle cx="15" cy="24" r="4" fill="#FF8F00" opacity="0.4"/>
-    <circle cx="15" cy="34" r="4" fill="#2E7D32" opacity="0.4"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#2C3E50" stroke-width="2" rx="5"/>
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#34495E" stroke-width="1" rx="3"/>
+  
+  <!-- Номер урока -->
+  <text x="460" y="35" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50" text-anchor="end">Урок №12</text>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2C3E50" text-anchor="middle">ОБЖ · 10 КЛАСС</text>
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2C3E50" text-anchor="middle">Дорожная безопасность</text>
+  
+  <!-- Небо -->
+  <rect x="0" y="70" width="500" height="100" fill="url(#skyGradient)"/>
+  
+  <!-- Здание -->
+  <rect x="20" y="90" width="60" height="80" fill="#7F8C8D"/>
+  <rect x="25" y="95" width="50" height="50" fill="#3498DB"/>
+  <rect x="30" y="100" width="15" height="15" fill="white"/>
+  <rect x="50" y="100" width="15" height="15" fill="white"/>
+  <rect x="30" y="120" width="15" height="15" fill="white"/>
+  <rect x="50" y="120" width="15" height="15" fill="white"/>
+  
+  <!-- Дорога -->
+  <rect x="0" y="170" width="500" height="180" fill="url(#roadGradient)"/>
+  
+  <!-- Разметка дороги -->
+  <line x1="0" y1="190" x2="500" y2="190" stroke="white" stroke-width="2" stroke-dasharray="20,10"/>
+  <line x1="0" y1="210" x2="500" y2="210" stroke="white" stroke-width="2" stroke-dasharray="20,10"/>
+  <line x1="0" y1="230" x2="500" y2="230" stroke="white" stroke-width="2" stroke-dasharray="20,10"/>
+  <line x1="0" y1="250" x2="500" y2="250" stroke="white" stroke-width="2" stroke-dasharray="20,10"/>
+  
+  <!-- Пешеходный переход -->
+  <rect x="180" y="170" width="140" height="50" fill="url(#zebraStripes)"/>
+  
+  <!-- Светофор -->
+  <rect x="220" y="120" width="20" height="60" fill="#34495E"/>
+  <circle cx="230" cy="130" r="8" fill="#E74C3C"/>
+  <circle cx="230" cy="145" r="8" fill="#2ECC71"/>
+  <circle cx="230" cy="160" r="8" fill="#F39C12"/>
+  
+  <!-- Пешеход 1 (зеленый сигнал) -->
+  <g transform="translate(250, 190)">
+    <circle cx="0" cy="-10" r="5" fill="#FDBCB4"/>
+    <rect x="-5" y="-5" width="10" height="20" fill="#3498DB"/>
+    <rect x="-5" y="15" width="4" height="15" fill="#2C3E50"/>
+    <rect x="1" y="15" width="4" height="15" fill="#2C3E50"/>
+    <text x="0" y="-20" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50" text-anchor="middle">Пешеход</text>
   </g>
+  
+  <!-- Автомобиль -->
+  <g transform="translate(150, 200)">
+    <rect x="-20" y="-10" width="40" height="20" fill="#E74C3C" rx="3"/>
+    <rect x="-15" y="-5" width="15" height="10" fill="#3498DB" rx="2"/>
+    <rect x="0" y="-5" width="15" height="10" fill="#3498DB" rx="2"/>
+    <circle cx="-12" cy="8" r="4" fill="#2C3E50"/>
+    <circle cx="12" cy="8" r="4" fill="#2C3E50"/>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50" text-anchor="middle">Автомобиль</text>
+  </g>
+  
+  <!-- Тормозной путь -->
+  <g transform="translate(350, 250)">
+    <rect x="0" y="0" width="100" height="80" fill="white" stroke="#2C3E50" stroke-width="1" rx="5"/>
+    <text x="50" y="20" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2C3E50" text-anchor="middle">Тормозной путь</text>
+    <line x1="10" y1="50" x2="90" y2="50" stroke="#2C3E50" stroke-width="2"/>
+    <line x1="10" y1="30" x2="90" y2="30" stroke="#E74C3C" stroke-width="2"/>
+    <text x="50" y="70" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50" text-anchor="middle">60 км/ч — 20-40 м</text>
+  </g>
+  
+  <!-- Правила для пешеходов -->
+  <g transform="translate(30, 250)">
+    <rect x="0" y="0" width="120" height="80" fill="white" stroke="#2C3E50" stroke-width="1" rx="5"/>
+    <text x="60" y="20" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2C3E50" text-anchor="middle">Правила</text>
+    <text x="5" y="35" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">1. Переходить по</text>
+    <text x="5" y="47" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">   переходу</text>
+    <text x="5" y="59" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">2. На зелёный</text>
+    <text x="5" y="71" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">   сигнал</text>
+  </g>
+  
+  <!-- Дополнительные правила -->
+  <g transform="translate(160, 250)">
+    <rect x="0" y="0" width="120" height="80" fill="white" stroke="#2C3E50" stroke-width="1" rx="5"/>
+    <text x="60" y="20" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2C3E50" text-anchor="middle">Дополнительно</text>
+    <text x="5" y="35" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">3. Убедиться в</text>
+    <text x="5" y="47" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">   безопасности</text>
+    <text x="5" y="59" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">4. Не выходить из-за</text>
+    <text x="5" y="71" font-family="Arial, sans-serif" font-size="9" fill="#2C3E50">   препятствия</text>
+  </g>
+  
+  <!-- Велосипедист -->
+  <g transform="translate(380, 210)">
+    <circle cx="0" cy="-10" r="4" fill="#FDBCB4"/>
+    <rect x="-3" y="-6" width="6" height="15" fill="#9B59B6"/>
+    <line x1="-3" y1="-3" x2="-15" y2="5" stroke="#2C3E50" stroke-width="2"/>
+    <line x1="3" y1="-3" x2="15" y2="5" stroke="#2C3E50" stroke-width="2"/>
+    <circle cx="-10" cy="10" r="5" fill="none" stroke="#2C3E50" stroke-width="1"/>
+    <circle cx="10" cy="10" r="5" fill="none" stroke="#2C3E50" stroke-width="1"/>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50" text-anchor="middle">Велосипедист</text>
+  </g>
+  
+  <!-- Правило для велосипедистов -->
+  <g transform="translate(300, 300)">
+    <rect x="0" y="0" width="150" height="40" fill="white" stroke="#2C3E50" stroke-width="1" rx="5"/>
+    <text x="75" y="15" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50" text-anchor="middle">До 14 лет — только по</text>
+    <text x="75" y="28" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50" text-anchor="middle">тротуарам и велодорожкам</text>
+  </g>
+  
+  <!-- Предупреждающий знак -->
+  <g transform="translate(440, 90)">
+    <polygon points="0,20 -17.32,-10 17.32,-10" fill="#F1C40F" stroke="#2C3E50" stroke-width="1"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C3E50" text-anchor="middle">!</text>
+  </g>
+  
+  <!-- Стрелки для иллюстрации -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#E74C3C"/>
+    </marker>
+  </defs>
+  
+  <!-- Стрелка тормозного пути -->
+  <line x1="150" y1="200" x2="80" y2="200" stroke="#E74C3C" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Дополнительные элементы для детализации -->
+  <circle cx="30" cy="120" r="3" fill="#F39C12"/>
+  <circle cx="470" cy="120" r="3" fill="#F39C12"/>
+  <circle cx="250" cy="80" r="3" fill="#F39C12"/>
 </svg>

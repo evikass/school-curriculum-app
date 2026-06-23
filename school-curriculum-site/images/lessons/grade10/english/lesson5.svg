@@ -1,41 +1,123 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definitions for gradients and patterns -->
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8EAF6"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4a69bd;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6c5ce7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5f7fa;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00b894;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00cec9;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#283593" stroke-width="2.5"/>
-  <text x="250" y="38" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#283593" text-anchor="middle">Phrasal Verbs</text>
-  <text x="250" y="56" font-family="Arial,sans-serif" font-size="11" fill="#888888" text-anchor="middle">Английский язык — Урок 5</text>
-  <line x1="30" y1="64" x2="470" y2="64" stroke="#283593" stroke-width="2" opacity="0.25"/>
-  <rect x="20" y="72" width="460" height="40" rx="5" fill="#283593" opacity="0.08"/>
-  <text x="250" y="96" font-family="Arial,sans-serif" font-size="11" fill="#283593" text-anchor="middle" font-weight="bold">Phrasal Verb = глагол + предлог/наречие = новый смысл</text>
-  <rect x="20" y="120" width="460" height="24" rx="5" fill="#283593" opacity="0.04"/>
-  <text x="30" y="136" font-family="Arial,sans-serif" font-size="10" fill="#283593" text-anchor="start" font-weight="bold">look for</text>
-  <text x="130" y="136" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal">искать</text>
-  <text x="260" y="136" font-family="Arial,sans-serif" font-size="8" fill="#555555" text-anchor="start" font-weight="normal">I'm looking for my keys</text>
-  <rect x="20" y="148" width="460" height="24" rx="5" fill="#283593" opacity="0.04"/>
-  <text x="30" y="164" font-family="Arial,sans-serif" font-size="10" fill="#283593" text-anchor="start" font-weight="bold">look after</text>
-  <text x="130" y="164" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal">заботиться</text>
-  <text x="260" y="164" font-family="Arial,sans-serif" font-size="8" fill="#555555" text-anchor="start" font-weight="normal">She looks after children</text>
-  <rect x="20" y="176" width="460" height="24" rx="5" fill="#283593" opacity="0.04"/>
-  <text x="30" y="192" font-family="Arial,sans-serif" font-size="10" fill="#283593" text-anchor="start" font-weight="bold">give up</text>
-  <text x="130" y="192" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal">бросить, отказаться</text>
-  <text x="260" y="192" font-family="Arial,sans-serif" font-size="8" fill="#555555" text-anchor="start" font-weight="normal">Don't give up!</text>
-  <rect x="20" y="204" width="460" height="24" rx="5" fill="#283593" opacity="0.04"/>
-  <text x="30" y="220" font-family="Arial,sans-serif" font-size="10" fill="#283593" text-anchor="start" font-weight="bold">take off</text>
-  <text x="130" y="220" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal">снимать, взлетать</text>
-  <text x="260" y="220" font-family="Arial,sans-serif" font-size="8" fill="#555555" text-anchor="start" font-weight="normal">The plane took off</text>
-  <rect x="20" y="232" width="460" height="24" rx="5" fill="#283593" opacity="0.04"/>
-  <text x="30" y="248" font-family="Arial,sans-serif" font-size="10" fill="#283593" text-anchor="start" font-weight="bold">put on</text>
-  <text x="130" y="248" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal">надевать</text>
-  <text x="260" y="248" font-family="Arial,sans-serif" font-size="8" fill="#555555" text-anchor="start" font-weight="normal">Put on your coat</text>
-  <rect x="20" y="260" width="460" height="24" rx="5" fill="#283593" opacity="0.04"/>
-  <text x="30" y="276" font-family="Arial,sans-serif" font-size="10" fill="#283593" text-anchor="start" font-weight="bold">turn down</text>
-  <text x="130" y="276" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal">отклонять</text>
-  <text x="260" y="276" font-family="Arial,sans-serif" font-size="8" fill="#555555" text-anchor="start" font-weight="normal">They turned down the offer</text>
-  <ellipse cx="250" cy="330" rx="200" ry="10" fill="#283593" opacity="0.06"/>
-  <text x="250" y="340" font-family="Arial,sans-serif" font-size="11" fill="#283593" text-anchor="middle" font-style="italic">English · Grade 10</text>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Decorative border -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#dfe6e9" stroke-width="2" rx="5"/>
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#b2bec3" stroke-width="1" rx="3"/>
+  
+  <!-- Class and lesson header -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="10" fill="#636e72" text-anchor="middle">АНГЛИЙСКИЙ · 10 КЛАСС</text>
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="url(#headerGrad)" text-anchor="middle">Урок 5: Phrasal Verbs</text>
+  <text x="25" y="35" font-family="Arial, sans-serif" font-size="12" fill="#b2bec3" font-weight="bold">№5</text>
+  
+  <!-- Main title -->
+  <rect x="50" y="70" width="400" height="35" fill="url(#headerGrad)" rx="5"/>
+  <text x="250" y="92" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Фразовые глаголы в английском языке</text>
+  
+  <!-- Classification section -->
+  <rect x="50" y="120" width="190" height="100" fill="url(#cardGrad)" stroke="#dfe6e9" stroke-width="1" rx="5"/>
+  <text x="145" y="140" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2d3436" text-anchor="middle">Классификация</text>
+  
+  <!-- Classification items -->
+  <circle cx="70" cy="160" r="3" fill="#e17055"/>
+  <text x="80" y="164" font-family="Arial, sans-serif" font-size="10" fill="#2d3436">Разделяемые (separable)</text>
+  
+  <circle cx="70" cy="180" r="3" fill="#74b9ff"/>
+  <text x="80" y="184" font-family="Arial, sans-serif" font-size="10" fill="#2d3436">Неразделяемые (inseparable)</text>
+  
+  <circle cx="70" cy="200" r="3" fill="#a29bfe"/>
+  <text x="80" y="204" font-family="Arial, sans-serif" font-size="10" fill="#2d3436">С транзитивными глаголами</text>
+  
+  <!-- Rules section -->
+  <rect x="260" y="120" width="190" height="100" fill="url(#cardGrad)" stroke="#dfe6e9" stroke-width="1" rx="5"/>
+  <text x="355" y="140" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2d3436" text-anchor="middle">Правила употребления</text>
+  
+  <!-- Rule items -->
+  <rect x="270" y="150" width="170" height="2" fill="#dfe6e9"/>
+  <text x="275" y="165" font-family="Arial, sans-serif" font-size="9" fill="#636e72">Разделяемые: put something away</text>
+  
+  <rect x="270" y="175" width="170" height="2" fill="#dfe6e9"/>
+  <text x="275" y="190" font-family="Arial, sans-serif" font-size="9" fill="#636e72">Неразделяемые: look after someone</text>
+  
+  <rect x="270" y="200" width="170" height="2" fill="#dfe6e9"/>
+  <text x="275" y="215" font-family="Arial, sans-serif" font-size="9" fill="#636e72">Вопросы и отрицания: do not get up</text>
+  
+  <!-- Formula box -->
+  <rect x="50" y="235" width="400" height="45" fill="#ffeaa7" stroke="#fdcb6e" stroke-width="1" rx="5"/>
+  <text x="60" y="255" font-family="Arial, sans-serif" font-size="11" fill="#2d3436" font-weight="bold">Формула:</text>
+  <text x="110" y="255" font-family="Arial, sans-serif" font-size="11" fill="#2d3436">Глагол + Предлог/Наречие</text>
+  <text x="60" y="270" font-family="Arial, sans-serif" font-size="11" fill="#2d3436">Пример: turn on, look for, give up</text>
+  
+  <!-- Examples section -->
+  <text x="60" y="300" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2d3436">Примеры:</text>
+  
+  <!-- Example 1 -->
+  <circle cx="70" cy="315" r="15" fill="url(#accentGrad)"/>
+  <text x="70" y="320" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">1</text>
+  <text x="95" y="320" font-family="Arial, sans-serif" font-size="10" fill="#2d3436">take off - взлетать, снимать</text>
+  
+  <!-- Example 2 -->
+  <circle cx="70" cy="330" r="15" fill="url(#accentGrad)"/>
+  <text x="70" y="335" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">2</text>
+  <text x="95" y="335" font-family="Arial, sans-serif" font-size="10" fill="#2d3436">put off - откладывать</text>
+  
+  <!-- Example 3 -->
+  <circle cx="250" cy="315" r="15" fill="url(#accentGrad)"/>
+  <text x="250" y="320" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">3</text>
+  <text x="275" y="320" font-family="Arial, sans-serif" font-size="10" fill="#2d3436">get along - ладить</text>
+  
+  <!-- Example 4 -->
+  <circle cx="250" cy="330" r="15" fill="url(#accentGrad)"/>
+  <text x="250" y="335" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">4</text>
+  <text x="275" y="335" font-family="Arial, sans-serif" font-size="10" fill="#2d3436">look forward to - ждать с нетерпением</text>
+  
+  <!-- Decorative elements -->
+  <path d="M 440 100 Q 450 110, 460 100" fill="none" stroke="#dfe6e9" stroke-width="2"/>
+  <circle cx="450" cy="110" r="3" fill="#b2bec3"/>
+  
+  <path d="M 40 100 Q 30 110, 20 100" fill="none" stroke="#dfe6e9" stroke-width="2"/>
+  <circle cx="30" cy="110" r="3" fill="#b2bec3"/>
+  
+  <!-- Usage chart -->
+  <rect x="50" y="240" width="190" height="35" fill="#fd79a8" opacity="0.2" rx="5"/>
+  <text x="145" y="262" font-family="Arial, sans-serif" font-size="10" fill="#e84393" text-anchor="middle">Частота использования в речи</text>
+  
+  <!-- Bar chart -->
+  <rect x="60" y="285" width="10" height="20" fill="#74b9ff"/>
+  <text x="65" y="315" font-family="Arial, sans-serif" font-size="8" fill="#2d3436" text-anchor="middle">Разд.</text>
+  
+  <rect x="80" y="275" width="10" height="30" fill="#a29bfe"/>
+  <text x="85" y="315" font-family="Arial, sans-serif" font-size="8" fill="#2d3436" text-anchor="middle">Неразд.</text>
+  
+  <rect x="100" y="280" width="10" height="25" fill="#fd79a8"/>
+  <text x="105" y="315" font-family="Arial, sans-serif" font-size="8" fill="#2d3436" text-anchor="middle">Смеш.</text>
+  
+  <text x="145" y="315" font-family="Arial, sans-serif" font-size="8" fill="#636e72" text-anchor="middle">Типы глаголов</text>
+  
+  <!-- Practice note -->
+  <rect x="260" y="240" width="190" height="35" fill="#55efc4" opacity="0.2" rx="5"/>
+  <text x="355" y="262" font-family="Arial, sans-serif" font-size="10" fill="#00b894" text-anchor="middle">Практическое применение</text>
+  
+  <!-- Practice items -->
+  <text x="270" y="280" font-family="Arial, sans-serif" font-size="9" fill="#2d3436">• Тексты с фразовыми глаголами</text>
+  <text x="270" y="295" font-family="Arial, sans-serif" font-size="9" fill="#2d3436">• Диалоги и ситуации</text>
+  <text x="270" y="310" font-family="Arial, sans-serif" font-size="9" fill="#2d3436">• Упражнения на замену</text>
+  <text x="270" y="325" font-family="Arial, sans-serif" font-size="9" fill="#2d3436">• Составление предложений</text>
 </svg>

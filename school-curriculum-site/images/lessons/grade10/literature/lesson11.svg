@@ -1,45 +1,107 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF3E0"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f4e6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8dcc0;stop-opacity:1" />
     </linearGradient>
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2c5282;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3182ce;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.2"/>
+    </filter>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#E65100" stroke-width="2.5"/>
-  <text x="250" y="38" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#E65100" text-anchor="middle">Средства выразительности</text>
-  <text x="250" y="56" font-family="Arial,sans-serif" font-size="11" fill="#888888" text-anchor="middle">Литература — Урок 11</text>
-  <line x1="30" y1="64" x2="470" y2="64" stroke="#E65100" stroke-width="2" opacity="0.25"/>
-  <rect x="20" y="72" width="460" height="30" rx="5" fill="#E65100" opacity="0.05"/>
-  <text x="30" y="86" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">Эпитет</text>
-  <text x="130" y="86" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="start" font-weight="normal" font-style="">Красивое определение</text>
-  <text x="285" y="86" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">мармеладное настроение</text>
-  <rect x="20" y="108" width="460" height="30" rx="5" fill="#E65100" opacity="0.05"/>
-  <text x="30" y="122" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">Метафора</text>
-  <text x="130" y="122" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="start" font-weight="normal" font-style="">Скрытое сравнение</text>
-  <text x="285" y="122" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">золотые руки, море слёз</text>
-  <rect x="20" y="144" width="460" height="30" rx="5" fill="#E65100" opacity="0.05"/>
-  <text x="30" y="158" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">Сравнение</text>
-  <text x="130" y="158" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="start" font-weight="normal" font-style="">Явное сопоставление</text>
-  <text x="285" y="158" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">как зеркало, словно лёд</text>
-  <rect x="20" y="180" width="460" height="30" rx="5" fill="#E65100" opacity="0.05"/>
-  <text x="30" y="194" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">Олицетворение</text>
-  <text x="130" y="194" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="start" font-weight="normal" font-style="">Живое неживому</text>
-  <text x="285" y="194" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">ветер поёт, река бежит</text>
-  <rect x="20" y="216" width="460" height="30" rx="5" fill="#E65100" opacity="0.05"/>
-  <text x="30" y="230" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">Гипербола</text>
-  <text x="130" y="230" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="start" font-weight="normal" font-style="">Преувеличение</text>
-  <text x="285" y="230" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">море слёз, сто раз говорил</text>
-  <rect x="20" y="252" width="460" height="30" rx="5" fill="#E65100" opacity="0.05"/>
-  <text x="30" y="266" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">Литота</text>
-  <text x="130" y="266" font-family="Arial,sans-serif" font-size="9" fill="#555555" text-anchor="start" font-weight="normal" font-style="">Преуменьшение</text>
-  <text x="285" y="266" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">мальчик-с-пальчик, небо с ладонь</text>
-  <text x="30" y="68" font-family="Arial,sans-serif" font-size="8" fill="#888888" text-anchor="start" font-weight="bold" font-style="">Троп</text>
-  <text x="130" y="68" font-family="Arial,sans-serif" font-size="8" fill="#888888" text-anchor="start" font-weight="bold" font-style="">Значение</text>
-  <text x="285" y="68" font-family="Arial,sans-serif" font-size="8" fill="#888888" text-anchor="start" font-weight="bold" font-style="">Пример</text>
-  <rect x="20" y="288" width="460" height="35" rx="5" fill="#E65100" opacity="0.08"/>
-  <text x="30" y="306" font-family="Arial,sans-serif" font-size="10" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">Фигуры речи:</text>
-  <text x="130" y="306" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Анафора, эпифора, парцелляция, инверсия, риторический вопрос, градация</text>
-  <ellipse cx="250" cy="330" rx="200" ry="10" fill="#E65100" opacity="0.06"/>
-  <text x="250" y="340" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="middle" font-style="italic">Литература · 10 класс</text>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGradient)"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#8b6914" stroke-width="3" rx="5"/>
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#d4af37" stroke-width="1" rx="3"/>
+  
+  <!-- Номер урока -->
+  <circle cx="470" cy="30" r="15" fill="#8b0000" opacity="0.8"/>
+  <text x="470" y="35" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">15</text>
+  
+  <!-- Заголовок -->
+  <text x="250" y="45" text-anchor="middle" fill="url(#titleGradient)" font-family="Arial, sans-serif" font-size="18" font-weight="bold">ЛИТЕРАТУРА · 10 КЛАСС</text>
+  <text x="250" y="65" text-anchor="middle" fill="#2c5282" font-family="Arial, sans-serif" font-size="22" font-weight="bold">Средства выразительности</text>
+  <text x="250" y="85" text-anchor="middle" fill="#4a5568" font-family="Arial, sans-serif" font-size="16">Тропы — обороты речи в переносном значении</text>
+  
+  <!-- Схема тропов -->
+  <g transform="translate(250, 170)">
+    <!-- Центральный элемент -->
+    <circle cx="0" cy="0" r="40" fill="#4299e1" opacity="0.8" filter="url(#shadow)"/>
+    <text x="0" y="5" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">ТРОПЫ</text>
+    
+    <!-- Соединительные линии -->
+    <line x1="0" y1="-40" x2="0" y2="-80" stroke="#4a5568" stroke-width="2"/>
+    <line x1="40" y1="0" x2="80" y2="0" stroke="#4a5568" stroke-width="2"/>
+    <line x1="0" y1="40" x2="0" y2="80" stroke="#4a5568" stroke-width="2"/>
+    <line x1="-40" y1="0" x2="-80" y2="0" stroke="#4a5568" stroke-width="2"/>
+    
+    <!-- Троп 1: Метафора -->
+    <g transform="translate(0, -120)">
+      <rect x="-60" y="-30" width="120" height="60" fill="#e53e3e" opacity="0.7" rx="5"/>
+      <text x="0" y="-5" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Метафора</text>
+      <text x="0" y="15" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Скрытое сравнение</text>
+      <rect x="-55" y="-25" width="110" height="50" fill="none" stroke="white" stroke-width="1" rx="3"/>
+    </g>
+    
+    <!-- Троп 2: Сравнение -->
+    <g transform="translate(120, 0)">
+      <rect x="-60" y="-30" width="120" height="60" fill="#38a169" opacity="0.7" rx="5"/>
+      <text x="0" y="-5" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Сравнение</text>
+      <text x="0" y="15" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Сопоставление</text>
+      <rect x="-55" y="-25" width="110" height="50" fill="none" stroke="white" stroke-width="1" rx="3"/>
+    </g>
+    
+    <!-- Троп 3: Эпитет -->
+    <g transform="translate(0, 120)">
+      <rect x="-60" y="-30" width="120" height="60" fill="#d69e2e" opacity="0.7" rx="5"/>
+      <text x="0" y="-5" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Эпитет</text>
+      <text x="0" y="15" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Образное определение</text>
+      <rect x="-55" y="-25" width="110" height="50" fill="none" stroke="white" stroke-width="1" rx="3"/>
+    </g>
+    
+    <!-- Троп 4: Олицетворение -->
+    <g transform="translate(-120, 0)">
+      <rect x="-60" y="-30" width="120" height="60" fill="#805ad5" opacity="0.7" rx="5"/>
+      <text x="0" y="-5" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Олицетворение</text>
+      <text x="0" y="15" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Наделение предмета свойствами живого</text>
+      <rect x="-55" y="-25" width="110" height="50" fill="none" stroke="white" stroke-width="1" rx="3"/>
+    </g>
+  </g>
+  
+  <!-- Примеры -->
+  <g transform="translate(50, 290)">
+    <text x="0" y="0" fill="#2d3748" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Примеры:</text>
+    <text x="0" y="20" fill="#4a5568" font-family="Arial, sans-serif" font-size="11">Метафора: "золотая осень"</text>
+    <text x="120" y="20" fill="#4a5568" font-family="Arial, sans-serif" font-size="11">Сравнение: "глаза как небо"</text>
+    <text x="260" y="20" fill="#4a5568" font-family="Arial, sans-serif" font-size="11">Эпитет: "серебряный голос"</text>
+    <text x="380" y="20" fill="#4a5568" font-family="Arial, sans-serif" font-size="11">Олиц.: "ветер поёт"</text>
+  </g>
+  
+  <!-- Дополнительные элементы оформления -->
+  <path d="M30,100 Q40,90 50,100 T70,100" stroke="#d4af37" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M430,100 Q440,90 450,100 T470,100" stroke="#d4af37" stroke-width="2" fill="none" opacity="0.6"/>
+  
+  <circle cx="30" cy="120" r="3" fill="#d4af37" opacity="0.7"/>
+  <circle cx="470" cy="120" r="3" fill="#d4af37" opacity="0.7"/>
+  
+  <!-- Указатели связей -->
+  <g opacity="0.5">
+    <path d="M180,80 Q200,100 220,120" stroke="#e53e3e" stroke-width="1" fill="none" stroke-dasharray="2,2"/>
+    <path d="M320,80 Q300,100 280,120" stroke="#38a169" stroke-width="1" fill="none" stroke-dasharray="2,2"/>
+    <path d="M180,260 Q200,240 220,220" stroke="#d69e2e" stroke-width="1" fill="none" stroke-dasharray="2,2"/>
+    <path d="M320,260 Q300,240 280,220" stroke="#805ad5" stroke-width="1" fill="none" stroke-dasharray="2,2"/>
+  </g>
+  
+  <!-- Формулы -->
+  <g transform="translate(50, 160)">
+    <rect x="0" y="0" width="80" height="30" fill="#f7fafc" stroke="#cbd5e0" stroke-width="1" rx="3"/>
+    <text x="40" y="20" text-anchor="middle" fill="#2d3748" font-family="Arial, sans-serif" font-size="11">A → B</text>
+    <text x="40" y="-5" text-anchor="middle" fill="#4a5568" font-family="Arial, sans-serif" font-size="9">Формула метафоры</text>
+  </g>
 </svg>

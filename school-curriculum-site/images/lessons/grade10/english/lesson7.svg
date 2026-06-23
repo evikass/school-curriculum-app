@@ -1,40 +1,139 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8EAF6"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6f2ff;stop-opacity:1" />
     </linearGradient>
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="prefixGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#dc2626;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f87171;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="suffixGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#16a34a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4ade80;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="rootGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#60a5fa;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#283593" stroke-width="2.5"/>
-  <text x="250" y="38" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#283593" text-anchor="middle">Word Formation</text>
-  <text x="250" y="56" font-family="Arial,sans-serif" font-size="11" fill="#888888" text-anchor="middle">Английский язык — Урок 7</text>
-  <line x1="30" y1="64" x2="470" y2="64" stroke="#283593" stroke-width="2" opacity="0.25"/>
-  <rect x="20" y="72" width="460" height="40" rx="5" fill="#283593" opacity="0.08"/>
-  <text x="250" y="96" font-family="Arial,sans-serif" font-size="11" fill="#283593" text-anchor="middle" font-weight="bold">Словообразование — создание новых слов с помощью аффиксов</text>
-  <rect x="20" y="120" width="225" height="95" rx="5" fill="#283593" opacity="0.08"/>
-  <text x="30" y="138" font-family="Arial,sans-serif" font-size="12" fill="#283593" text-anchor="start" font-weight="bold">Prefixes (приставки)</text>
-  <text x="30" y="158" font-family="Arial,sans-serif" font-size="9" fill="#C62828" text-anchor="start" font-weight="bold">un-</text>
-  <text x="70" y="158" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal">unhappy (несчастный)</text>
-  <text x="30" y="174" font-family="Arial,sans-serif" font-size="9" fill="#C62828" text-anchor="start" font-weight="bold">re-</text>
-  <text x="70" y="174" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal">rewrite (переписать)</text>
-  <text x="30" y="190" font-family="Arial,sans-serif" font-size="9" fill="#C62828" text-anchor="start" font-weight="bold">dis-</text>
-  <text x="70" y="190" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal">disagree (не соглашаться)</text>
-  <text x="30" y="206" font-family="Arial,sans-serif" font-size="9" fill="#C62828" text-anchor="start" font-weight="bold">pre-</text>
-  <text x="70" y="206" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal">preview (предпросмотр)</text>
-  <rect x="255" y="120" width="225" height="95" rx="5" fill="#283593" opacity="0.08"/>
-  <text x="265" y="138" font-family="Arial,sans-serif" font-size="12" fill="#283593" text-anchor="start" font-weight="bold">Suffixes (суффиксы)</text>
-  <text x="265" y="158" font-family="Arial,sans-serif" font-size="9" fill="#C62828" text-anchor="start" font-weight="bold">-tion</text>
-  <text x="310" y="158" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal">education (образование)</text>
-  <text x="265" y="174" font-family="Arial,sans-serif" font-size="9" fill="#C62828" text-anchor="start" font-weight="bold">-ment</text>
-  <text x="310" y="174" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal">development (развитие)</text>
-  <text x="265" y="190" font-family="Arial,sans-serif" font-size="9" fill="#C62828" text-anchor="start" font-weight="bold">-ful</text>
-  <text x="310" y="190" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal">beautiful (красивый)</text>
-  <text x="265" y="206" font-family="Arial,sans-serif" font-size="9" fill="#C62828" text-anchor="start" font-weight="bold">-less</text>
-  <text x="310" y="206" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal">careless (беззаботный)</text>
-  <rect x="20" y="222" width="460" height="55" rx="5" fill="#283593" opacity="0.08"/>
-  <text x="30" y="240" font-family="Arial,sans-serif" font-size="10" fill="#283593" text-anchor="start" font-weight="bold">Схема:</text>
-  <text x="30" y="258" font-family="Arial,sans-serif" font-size="8" fill="#333333" text-anchor="start" font-weight="normal">care → careful → carefully  |  use → useful → useless  |  happy → unhappy → unhappiness</text>
-  <ellipse cx="250" cy="330" rx="200" ry="10" fill="#283593" opacity="0.06"/>
-  <text x="250" y="340" font-family="Arial,sans-serif" font-size="11" fill="#283593" text-anchor="middle" font-style="italic">English · Grade 10</text>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bgGradient)"/>
+  
+  <!-- Decorative Frame -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#1e3a8a" stroke-width="2" rx="5"/>
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#3b82f6" stroke-width="1" rx="3" stroke-dasharray="5,3"/>
+  
+  <!-- Class Label -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#1e3a8a" font-weight="bold">АНГЛИЙСКИЙ · 10 КЛАСС</text>
+  
+  <!-- Lesson Number -->
+  <text x="45" y="35" font-family="Arial, sans-serif" font-size="16" fill="#1e3a8a" font-weight="bold">Урок 7</text>
+  
+  <!-- Title -->
+  <text x="250" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="url(#titleGradient)" font-weight="bold">Word Formation</text>
+  <text x="250" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#4b5563">Словообразование в английском языке</text>
+  
+  <!-- Main Structure Diagram -->
+  <g transform="translate(250, 140)">
+    <!-- Root Word -->
+    <rect x="-60" y="-15" width="120" height="30" rx="15" fill="url(#rootGradient)" filter="url(#shadow)"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">ROOT</text>
+    <text x="0" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#4b5563">Основа слова</text>
+    
+    <!-- Prefix Arrow -->
+    <path d="M -80,-15 L -120,-15" stroke="#dc2626" stroke-width="2" marker-end="url(#arrowheadRed)"/>
+    <text x="-100" y="-25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#dc2626" font-weight="bold">PREFIX</text>
+    <text x="-100" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#4b5563">Префикс</text>
+    
+    <!-- Suffix Arrow -->
+    <path d="M 80,-15 L 120,-15" stroke="#16a34a" stroke-width="2" marker-end="url(#arrowheadGreen)"/>
+    <text x="100" y="-25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#16a34a" font-weight="bold">SUFFIX</text>
+    <text x="100" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#4b5563">Суффикс</text>
+  </g>
+  
+  <!-- Arrow Markers -->
+  <defs>
+    <marker id="arrowheadRed" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#dc2626"/>
+    </marker>
+    <marker id="arrowheadGreen" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#16a34a"/>
+    </marker>
+  </defs>
+  
+  <!-- Prefix Examples -->
+  <g transform="translate(80, 220)">
+    <rect x="-70" y="-20" width="140" height="40" rx="5" fill="url(#prefixGradient)" opacity="0.2"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#dc2626" font-weight="bold">un + happy = unhappy</text>
+  </g>
+  
+  <!-- Suffix Examples -->
+  <g transform="translate(420, 220)">
+    <rect x="-70" y="-20" width="140" height="40" rx="5" fill="url(#suffixGradient)" opacity="0.2"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#16a34a" font-weight="bold">care + ful = careful</text>
+  </g>
+  
+  <!-- Prefix Table -->
+  <g transform="translate(80, 180)">
+    <rect x="-70" y="-15" width="140" height="30" fill="#f3f4f6" stroke="#d1d5db" rx="3"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151" font-weight="bold">un-, dis-, re-</text>
+  </g>
+  
+  <!-- Suffix Table -->
+  <g transform="translate(420, 180)">
+    <rect x="-70" y="-15" width="140" height="30" fill="#f3f4f6" stroke="#d1d5db" rx="3"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151" font-weight="bold">-ful, -less, -ly</text>
+  </g>
+  
+  <!-- Word Formation Methods -->
+  <g transform="translate(250, 280)">
+    <!-- Method 1 -->
+    <circle cx="-100" cy="0" r="15" fill="#f59e0b" opacity="0.8"/>
+    <text x="-100" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="bold">1</text>
+    <text x="-100" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Prefixation</text>
+    
+    <!-- Method 2 -->
+    <circle cx="-30" cy="0" r="15" fill="#8b5cf6" opacity="0.8"/>
+    <text x="-30" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="bold">2</text>
+    <text x="-30" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Suffixation</text>
+    
+    <!-- Method 3 -->
+    <circle cx="40" cy="0" r="15" fill="#ec4899" opacity="0.8"/>
+    <text x="40" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="bold">3</text>
+    <text x="40" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Conversion</text>
+    
+    <!-- Method 4 -->
+    <circle cx="110" cy="0" r="15" fill="#06b6d4" opacity="0.8"/>
+    <text x="110" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="bold">4</text>
+    <text x="110" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Compounding</text>
+  </g>
+  
+  <!-- Connecting lines -->
+  <path d="M 80,195 Q 120,210 180,210" stroke="#dc2626" stroke-width="1" stroke-dasharray="2,2" opacity="0.5"/>
+  <path d="M 420,195 Q 380,210 320,210" stroke="#16a34a" stroke-width="1" stroke-dasharray="2,2" opacity="0.5"/>
+  
+  <!-- Example formulas -->
+  <g transform="translate(250, 310)">
+    <rect x="-120" y="-10" width="240" height="25" rx="12" fill="#e5e7eb" stroke="#9ca3af"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Prefix + Root + Suffix = New Word</text>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="40" cy="120" r="3" fill="#3b82f6" opacity="0.3"/>
+  <circle cx="460" cy="120" r="3" fill="#3b82f6" opacity="0.3"/>
+  <circle cx="40" cy="130" r="2" fill="#3b82f6" opacity="0.3"/>
+  <circle cx="460" cy="130" r="2" fill="#3b82f6" opacity="0.3"/>
+  
+  <!-- Additional examples -->
+  <text x="80" y="260" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">Примеры: impossible, unhappy, disagree</text>
+  <text x="420" y="260" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="end">Примеры: kindness, teacher, quickly</text>
 </svg>

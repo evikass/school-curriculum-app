@@ -1,63 +1,133 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="hdr9" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#E65100;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#FF8F00;stop-opacity:1"/>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6f3ff;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="bg9" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#FFF3E0;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#FFE0B2;stop-opacity:1"/>
+    <linearGradient id="frameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
     </linearGradient>
-    <filter id="shadow9" x="-2%" y="-2%" width="104%" height="104%">
-      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#000" flood-opacity="0.1"/>
+    <linearGradient id="wireGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6b7280;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#374151;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.2"/>
     </filter>
   </defs>
-  <rect width="500" height="350" fill="url(#bg9)"/>
-  <rect x="2" y="2" width="496" height="346" rx="12" ry="12" fill="none" stroke="#E65100" stroke-width="2.5" opacity="0.6"/>
-  <rect x="3" y="3" width="494" height="42" rx="10" ry="10" fill="url(#hdr9)"/>
-  <rect x="3" y="35" width="494" height="10" fill="url(#hdr9)"/>
-  <text x="250" y="20" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Электробезопасность</text>
-  <text x="250" y="36" font-family="Arial, sans-serif" font-size="10" fill="#FFF3E0" text-anchor="middle">ОБЖ — Урок 9</text>
-  <circle cx="28" cy="24" r="14" fill="#FFFFFF" opacity="0.25"/>
-  <text x="28" y="28" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">9</text>
-  <rect x="12" y="52" width="230" height="146" rx="8" ry="8" fill="#FFFFFF" opacity="0.7" filter="url(#shadow9)"/>
-  <rect x="16" y="55" width="222" height="18" rx="4" ry="4" fill="#E65100" opacity="0.15"/>
-  <text x="127" y="68" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#E65100" text-anchor="middle">Опасности электричества</text>
-  <circle cx="26" cy="77" r="4" fill="#C62828" opacity="0.8"/>
-  <text x="36" y="80" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Поражение током (≥0.1 А — смертельно)</text>
-  <circle cx="26" cy="99" r="4" fill="#C62828" opacity="0.8"/>
-  <text x="36" y="102" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Электроожоги</text>
-  <circle cx="26" cy="121" r="4" fill="#C62828" opacity="0.8"/>
-  <text x="36" y="124" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Пожар от КЗ и перегрузки</text>
-  <circle cx="26" cy="143" r="4" fill="#C62828" opacity="0.8"/>
-  <text x="36" y="146" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Влажность снижает сопротивление</text>
-  <circle cx="26" cy="165" r="4" fill="#C62828" opacity="0.8"/>
-  <text x="36" y="168" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Не прикасайтесь к пострадавшему!</text>
-  <rect x="252" y="52" width="236" height="146" rx="8" ry="8" fill="#FFFFFF" opacity="0.7" filter="url(#shadow9)"/>
-  <rect x="256" y="55" width="228" height="18" rx="4" ry="4" fill="#E65100" opacity="0.15"/>
-  <text x="370" y="68" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#E65100" text-anchor="middle">Правила электробезопасности</text>
-  <circle cx="266" cy="77" r="4" fill="#2E7D32" opacity="0.8"/>
-  <text x="278" y="80" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Не трогайте провода мокрыми руками</text>
-  <circle cx="266" cy="99" r="4" fill="#2E7D32" opacity="0.8"/>
-  <text x="278" y="102" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Не перегружайте розетки</text>
-  <circle cx="266" cy="121" r="4" fill="#2E7D32" opacity="0.8"/>
-  <text x="278" y="124" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Заземляйте электроприборы</text>
-  <circle cx="266" cy="143" r="4" fill="#2E7D32" opacity="0.8"/>
-  <text x="278" y="146" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Отключайте приборы уходя</text>
-  <circle cx="266" cy="165" r="4" fill="#2E7D32" opacity="0.8"/>
-  <text x="278" y="168" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Используйте УЗО (устройство защиты)</text>
-  <rect x="12" y="206" width="476" height="74" rx="8" ry="8" fill="#FFFFFF" opacity="0.7" filter="url(#shadow9)"/>
-  <rect x="12" y="206" width="5" height="74" rx="2" ry="0" fill="#E65100" opacity="0.7"/>
-  <text x="250" y="220" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#C62828" text-anchor="middle">Если человека ударило током</text>
-  <rect x="24" y="228" width="452" height="15" rx="3" ry="3" fill="#E65100" opacity="0.06"/>
-  <text x="30" y="236" font-family="Arial, sans-serif" font-size="9" fill="#37474F">1. Отключите источник  2. Не касайтесь голыми руками</text>
-  <rect x="24" y="246" width="452" height="15" rx="3" ry="3" fill="#E65100" opacity="0.06"/>
-  <text x="30" y="254" font-family="Arial, sans-serif" font-size="9" fill="#37474F">3. Откиньте провод сухим непроводящим предметом  4. Вызовите 103</text>
-  <line x1="15" y1="334" x2="485" y2="334" stroke="#E65100" stroke-width="0.5" opacity="0.3"/>
-  <text x="250" y="338" font-family="Arial, sans-serif" font-size="8" fill="#9E9E9E" text-anchor="middle">Основы безопасности · 10 класс</text>
-
-  <!-- Lightning bolt icon -->
-  <g transform="translate(445, 58)">
-    <polygon points="25,2 10,22 20,22 15,42 35,18 24,18 30,2" fill="#FF8F00" opacity="0.25" stroke="#FF8F00" stroke-width="1"/>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="url(#frameGrad)" stroke-width="4" rx="5"/>
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#3b82f6" stroke-width="1" stroke-dasharray="5,3" rx="3" opacity="0.5"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1e3a8a">Электробезопасность</text>
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#3b82f6">ОБЖ · 10 КЛАСС</text>
+  <text x="460" y="30" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#6b7280">урок 12</text>
+  
+  <!-- Левая часть: правила в быту -->
+  <g id="rules">
+    <text x="30" y="85" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e3a8a">Правила электробезопасности в быту:</text>
+    
+    <!-- Правило 1 -->
+    <rect x="30" y="95" width="200" height="35" fill="#fef3c7" stroke="#f59e0b" stroke-width="1" rx="3"/>
+    <path d="M40,112 L45,107 L50,112 L55,107 L60,112" stroke="#ef4444" stroke-width="2" fill="none"/>
+    <circle cx="65" cy="112" r="5" fill="#ef4444"/>
+    <text x="80" y="117" font-family="Arial, sans-serif" font-size="12" fill="#1f2937">Не касаться оголённых проводов</text>
+    
+    <!-- Правило 2 -->
+    <rect x="30" y="135" width="200" height="35" fill="#fef3c7" stroke="#f59e0b" stroke-width="1" rx="3"/>
+    <path d="M40,155 L70,155" stroke="#6b7280" stroke-width="3"/>
+    <path d="M40,150 L45,145 L50,150" stroke="#ef4444" stroke-width="2" fill="none"/>
+    <text x="80" y="157" font-family="Arial, sans-serif" font-size="12" fill="#1f2937">Не тянуть за провод при отключении</text>
+    
+    <!-- Правило 3 -->
+    <rect x="30" y="175" width="200" height="35" fill="#fef3c7" stroke="#f59e0b" stroke-width="1" rx="3"/>
+    <rect x="40" y="185" width="20" height="15" fill="#9ca3af" stroke="#4b5563" stroke-width="1"/>
+    <path d="M45,190 L55,190 M45,195 L55,195" stroke="#4b5563" stroke-width="1"/>
+    <path d="M60,188 L60,192" stroke="#ef4444" stroke-width="2"/>
+    <text x="80" y="197" font-family="Arial, sans-serif" font-size="12" fill="#1f2937">Не пользоваться неисправными приборами</text>
+    
+    <!-- Правило 4 -->
+    <rect x="30" y="215" width="200" height="35" fill="#fef3c7" stroke="#f59e0b" stroke-width="1" rx="3"/>
+    <rect x="40" y="225" width="15" height="15" fill="#d1d5db" stroke="#6b7280" stroke-width="1"/>
+    <rect x="60" y="225" width="15" height="15" fill="#d1d5db" stroke="#6b7280" stroke-width="1"/>
+    <rect x="80" y="225" width="15" height="15" fill="#ef4444" stroke="#dc2626" stroke-width="2"/>
+    <text x="105" y="237" font-family="Arial, sans-serif" font-size="12" fill="#1f2937">Не перегружать розетки</text>
+    
+    <!-- Правило 5 -->
+    <rect x="30" y="255" width="200" height="35" fill="#fef3c7" stroke="#f59e0b" stroke-width="1" rx="3"/>
+    <path d="M40,275 L70,275" stroke="#3b82f6" stroke-width="4"/>
+    <circle cx="65" cy="275" r="8" fill="#93c5fd" opacity="0.5"/>
+    <text x="80" y="277" font-family="Arial, sans-serif" font-size="12" fill="#1f2937">Не прикасаться к приборам мокрыми руками</text>
+  </g>
+  
+  <!-- Правая часть: признаки неисправности -->
+  <g id="faults">
+    <text x="250" y="85" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e3a8a">Признаки неисправности:</text>
+    
+    <!-- Признак 1: Искрение -->
+    <g transform="translate(250, 120)">
+      <rect x="0" y="0" width="200" height="45" fill="#fee2e2" stroke="#ef4444" stroke-width="1" rx="3"/>
+      <path d="M20,22 L25,17 L30,22 L35,17 L40,22" stroke="#f59e0b" stroke-width="2" fill="none"/>
+      <circle cx="22" cy="20" r="2" fill="#fbbf24"/>
+      <circle cx="32" cy="18" r="2" fill="#fbbf24"/>
+      <circle cx="38" cy="20" r="2" fill="#fbbf24"/>
+      <text x="50" y="25" font-family="Arial, sans-serif" font-size="12" fill="#1f2937">Искрение</text>
+    </g>
+    
+    <!-- Признак 2: Запах гари -->
+    <g transform="translate(250, 170)">
+      <rect x="0" y="0" width="200" height="45" fill="#fee2e2" stroke="#ef4444" stroke-width="1" rx="3"/>
+      <path d="M20,15 C20,10 30,10 30,15 C30,10 40,10 40,15 C40,10 50,10 50,15" stroke="#8b5cf6" stroke-width="2" fill="none"/>
+      <path d="M25,25 L25,35 M35,25 L35,35 M45,25 L45,35" stroke="#8b5cf6" stroke-width="2"/>
+      <text x="55" y="25" font-family="Arial, sans-serif" font-size="12" fill="#1f2937">Запах гари</text>
+    </g>
+    
+    <!-- Признак 3: Нагрев провода -->
+    <g transform="translate(250, 220)">
+      <rect x="0" y="0" width="200" height="45" fill="#fee2e2" stroke="#ef4444" stroke-width="1" rx="3"/>
+      <path d="M20,22 L50,22" stroke="#6b7280" stroke-width="3"/>
+      <path d="M20,19 L50,19 M20,25 L50,25" stroke="#ef4444" stroke-width="2"/>
+      <path d="M30,15 C30,10 35,10 35,15 C35,10 40,10 40,15" stroke="#ef4444" stroke-width="2" fill="none"/>
+      <text x="55" y="25" font-family="Arial, sans-serif" font-size="12" fill="#1f2937">Нагрев провода</text>
+    </g>
+    
+    <!-- Формула тока -->
+    <g transform="translate(250, 275)">
+      <rect x="0" y="0" width="200" height="40" fill="#e0f2fe" stroke="#0ea5e9" stroke-width="1" rx="3"/>
+      <text x="10" y="15" font-family="Arial, sans-serif" font-size="11" fill="#1e3a8a">Формула силы тока:</text>
+      <text x="100" y="15" font-family="Arial, sans-serif" font-size="12" fill="#0c4a6e">I = U/R</text>
+      <text x="10" y="30" font-family="Arial, sans-serif" font-size="9" fill="#64748b">I - ток (А), U - напряжение (В), R - сопротивление (Ом)</text>
+    </g>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <!-- Предупреждающий символ -->
+  <g transform="translate(30, 300)">
+    <polygon points="15,0 30,25 0,25" fill="#fbbf24" stroke="#d97706" stroke-width="1"/>
+    <text x="15" y="18" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1f2937">!</text>
+    <text x="35" y="18" font-family="Arial, sans-serif" font-size="10" fill="#1f2937">Опасность поражения электрическим током!</text>
+  </g>
+  
+  <!-- График безопасности -->
+  <g transform="translate(250, 320)">
+    <rect x="0" y="0" width="200" height="25" fill="#f0fdf4" stroke="#16a34a" stroke-width="1" rx="3"/>
+    <text x="5" y="15" font-family="Arial, sans-serif" font-size="10" fill="#166534">Безопасный ток: до 10 мА</text>
+    <text x="105" y="15" font-family="Arial, sans-serif" font-size="10" fill="#dc2626">Опасный ток: > 10 мА</text>
+  </g>
+  
+  <!-- Дополнительные подписи -->
+  <text x="30" y="75" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" font-style="italic">Помните: безопасность прежде всего!</text>
+  
+  <!-- Указатель напряжения -->
+  <g transform="translate(420, 100)">
+    <circle cx="15" cy="15" r="12" fill="none" stroke="#dc2626" stroke-width="2"/>
+    <text x="15" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#dc2626">~</text>
+    <text x="15" y="35" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#6b7280">220 В</text>
   </g>
 </svg>

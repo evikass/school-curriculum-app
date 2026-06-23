@@ -1,66 +1,155 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Определения градиентов -->
   <defs>
-    <linearGradient id="hdr4" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#E65100;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#FF8F00;stop-opacity:1"/>
+    <linearGradient id="fireGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b35;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffcc00;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="bg4" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#FFF3E0;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#FFE0B2;stop-opacity:1"/>
+    <linearGradient id="smokeGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8e8e8e;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#d3d3d3;stop-opacity:0.6" />
     </linearGradient>
-    <filter id="shadow4" x="-2%" y="-2%" width="104%" height="104%">
-      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#000" flood-opacity="0.1"/>
-    </filter>
+    <linearGradient id="wallGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e0e0e0;stop-opacity:1" />
+    </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg4)"/>
-  <rect x="2" y="2" width="496" height="346" rx="12" ry="12" fill="none" stroke="#E65100" stroke-width="2.5" opacity="0.6"/>
-  <rect x="3" y="3" width="494" height="42" rx="10" ry="10" fill="url(#hdr4)"/>
-  <rect x="3" y="35" width="494" height="10" fill="url(#hdr4)"/>
-  <text x="250" y="20" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Действия при пожаре</text>
-  <text x="250" y="36" font-family="Arial, sans-serif" font-size="10" fill="#FFF3E0" text-anchor="middle">ОБЖ — Урок 4</text>
-  <circle cx="28" cy="24" r="14" fill="#FFFFFF" opacity="0.25"/>
-  <text x="28" y="28" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
-  <rect x="12" y="52" width="230" height="146" rx="8" ry="8" fill="#FFFFFF" opacity="0.7" filter="url(#shadow4)"/>
-  <rect x="16" y="55" width="222" height="18" rx="4" ry="4" fill="#E65100" opacity="0.15"/>
-  <text x="127" y="68" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#E65100" text-anchor="middle">Если пожар начался</text>
-  <circle cx="26" cy="77" r="4" fill="#C62828" opacity="0.8"/>
-  <text x="36" y="80" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Немедленно звоните 101 или 112</text>
-  <circle cx="26" cy="99" r="4" fill="#C62828" opacity="0.8"/>
-  <text x="36" y="102" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Оцените масштаб возгорания</text>
-  <circle cx="26" cy="121" r="4" fill="#C62828" opacity="0.8"/>
-  <text x="36" y="124" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Эвакуируйтесь по плану</text>
-  <circle cx="26" cy="143" r="4" fill="#C62828" opacity="0.8"/>
-  <text x="36" y="146" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Не пользуйтесь лифтом!</text>
-  <circle cx="26" cy="165" r="4" fill="#C62828" opacity="0.8"/>
-  <text x="36" y="168" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Прикройте рот влажной тканью</text>
-  <rect x="252" y="52" width="236" height="146" rx="8" ry="8" fill="#FFFFFF" opacity="0.7" filter="url(#shadow4)"/>
-  <rect x="256" y="55" width="228" height="18" rx="4" ry="4" fill="#E65100" opacity="0.15"/>
-  <text x="370" y="68" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#E65100" text-anchor="middle">Если пути отрезаны</text>
-  <circle cx="266" cy="77" r="4" fill="#C62828" opacity="0.8"/>
-  <text x="278" y="80" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Не паникуйте!</text>
-  <circle cx="266" cy="99" r="4" fill="#2E7D32" opacity="0.8"/>
-  <text x="278" y="102" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Уйдите на балкон / к окну</text>
-  <circle cx="266" cy="121" r="4" fill="#2E7D32" opacity="0.8"/>
-  <text x="278" y="124" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Закройте дверь, щели — мокрой тканью</text>
-  <circle cx="266" cy="143" r="4" fill="#2E7D32" opacity="0.8"/>
-  <text x="278" y="146" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Подавайте сигналы спасателям</text>
-  <circle cx="266" cy="165" r="4" fill="#C62828" opacity="0.8"/>
-  <text x="278" y="168" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Не прыгайте из окон выше 3-го этажа</text>
-  <rect x="12" y="206" width="476" height="74" rx="8" ry="8" fill="#FFFFFF" opacity="0.7" filter="url(#shadow4)"/>
-  <rect x="12" y="206" width="5" height="74" rx="2" ry="0" fill="#E65100" opacity="0.7"/>
-  <text x="250" y="220" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#C62828" text-anchor="middle">Правило: дым опаснее огня!</text>
-  <rect x="24" y="228" width="452" height="15" rx="3" ry="3" fill="#E65100" opacity="0.06"/>
-  <text x="30" y="236" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Опуститесь на четвереньки — внизу есть чистый воздух</text>
-  <rect x="24" y="246" width="452" height="15" rx="3" ry="3" fill="#E65100" opacity="0.06"/>
-  <text x="30" y="254" font-family="Arial, sans-serif" font-size="9" fill="#37474F">Двигайтесь к выходу вдоль стены</text>
-  <line x1="15" y1="334" x2="485" y2="334" stroke="#E65100" stroke-width="0.5" opacity="0.3"/>
-  <text x="250" y="338" font-family="Arial, sans-serif" font-size="8" fill="#9E9E9E" text-anchor="middle">Основы безопасности · 10 класс</text>
-
-  <!-- Fire extinguisher icon -->
-  <g transform="translate(443, 58)">
-    <rect x="12" y="12" width="16" height="32" rx="4" fill="#C62828" opacity="0.2" stroke="#C62828" stroke-width="1"/>
-    <rect x="16" y="5" width="8" height="10" rx="2" fill="#C62828" opacity="0.3"/>
-    <line x1="20" y1="5" x2="32" y2="2" stroke="#C62828" stroke-width="1.5" opacity="0.5"/>
-    <circle cx="20" cy="28" r="3" fill="#FFFFFF" opacity="0.4"/>
-  </g>
+  
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#2c3e50" stroke-width="3" rx="5"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#3498db" stroke-width="1" rx="3"/>
+  
+  <!-- Надписи вверху -->
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="12" fill="#34495e" text-anchor="middle">ОБЖ · 10 КЛАСС</text>
+  <text x="250" y="50" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50" text-anchor="middle">Действия при пожаре</text>
+  <text x="25" y="25" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Урок №12</text>
+  
+  <!-- Секция "При обнаружении пожара" -->
+  <rect x="20" y="65" width="230" height="140" fill="url(#wallGradient)" stroke="#3498db" stroke-width="1" rx="5"/>
+  <text x="135" y="85" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50" text-anchor="middle">При обнаружении пожара:</text>
+  
+  <!-- Пункт 1 -->
+  <circle cx="35" cy="105" r="8" fill="#3498db"/>
+  <text x="50" y="110" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">1. Оценить обстановку</text>
+  <rect x="35" y="115" width="80" height="15" fill="#ecf0f1" stroke="#95a5a6" stroke-width="1" rx="2"/>
+  <text x="75" y="125" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="middle">Опасность?</text>
+  
+  <!-- Пункт 2 -->
+  <circle cx="35" cy="145" r="8" fill="#3498db"/>
+  <text x="50" y="150" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">2. Сообщить в пожарную охрану</text>
+  <rect x="35" y="155" width="60" height="20" fill="#e74c3c" stroke="#c0392b" stroke-width="1" rx="3"/>
+  <text x="65" y="168" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">101</text>
+  <text x="100" y="168" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">(звонок)</text>
+  
+  <!-- Пункт 3 -->
+  <circle cx="35" cy="185" r="8" fill="#3498db"/>
+  <text x="50" y="190" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">3. Предупредить окружающих</text>
+  <path d="M 130 185 L 140 180 L 145 185 L 140 190 Z" fill="#f39c12"/>
+  <text x="155" y="190" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Тревога!</text>
+  
+  <!-- Пункт 4 -->
+  <circle cx="35" cy="205" r="8" fill="#3498db"/>
+  <text x="50" y="210" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">4. Эвакуироваться</text>
+  <path d="M 120 200 L 125 210 L 115 210 Z" fill="#3498db"/>
+  <path d="M 130 195 L 135 205 L 125 205 Z" fill="#3498db"/>
+  
+  <!-- Пункт 5 -->
+  <circle cx="35" cy="225" r="8" fill="#3498db"/>
+  <text x="50" y="230" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">5. Встретить пожарных</text>
+  <path d="M 130 225 L 125 235 L 135 235 Z" fill="#e74c3c"/>
+  <rect x="125" y="235" width="10" height="5" fill="#e74c3c"/>
+  <text x="145" y="230" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Помощь</text>
+  
+  <!-- Секция "При эвакуации из здания" -->
+  <rect x="250" y="65" width="230" height="140" fill="url(#wallGradient)" stroke="#3498db" stroke-width="1" rx="5"/>
+  <text x="365" y="85" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50" text-anchor="middle">При эвакуации:</text>
+  
+  <!-- Не пользоваться лифтом -->
+  <rect x="265" y="100" width="200" height="25" fill="#ecf0f1" stroke="#95a5a6" stroke-width="1" rx="3"/>
+  <text x="275" y="117" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Не пользоваться лифтом</text>
+  <rect x="430" y="105" width="15" height="15" fill="#e74c3c" stroke="#c0392b" stroke-width="1" rx="2"/>
+  <text x="437" y="116" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">X</text>
+  
+  <!-- Пригнуться к полу -->
+  <text x="275" y="145" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Пригнуться к полу</text>
+  <path d="M 430 140 C 430 140, 440 135, 445 145" fill="none" stroke="#3498db" stroke-width="2"/>
+  <text x="425" y="155" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">дым снизу</text>
+  
+  <!-- Дышать через влажную ткань -->
+  <text x="275" y="175" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Дышать через влажную ткань</text>
+  <rect x="430" y="165" width="30" height="15" fill="#3498db" stroke="#2980b9" stroke-width="1" rx="2"/>
+  <path d="M 435 172 L 445 172" stroke="white" stroke-width="2"/>
+  <path d="M 440 169 L 440 175" stroke="white" stroke-width="2"/>
+  
+  <!-- Двигаться вдоль стен -->
+  <text x="275" y="195" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Двигаться вдоль стен</text>
+  <rect x="425" y="185" width="40" height="20" fill="none" stroke="#3498db" stroke-width="2" rx="2"/>
+  <path d="M 430 195 L 460 195" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Стрелка для движения -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e74c3c"/>
+    </marker>
+  </defs>
+  
+  <!-- График эвакуации -->
+  <rect x="20" y="215" width="460" height="120" fill="#f9f9f9" stroke="#3498db" stroke-width="1" rx="5"/>
+  <text x="250" y="235" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50" text-anchor="middle">Время эвакуации</text>
+  
+  <!-- Ось времени -->
+  <line x1="50" y1="320" x2="450" y2="320" stroke="#34495e" stroke-width="2"/>
+  <text x="50" y="335" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">0 мин</text>
+  <text x="150" y="335" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">5 мин</text>
+  <text x="250" y="335" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">10 мин</text>
+  <text x="350" y="335" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">15 мин</text>
+  <text x="430" y="335" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">20 мин</text>
+  
+  <!-- Ось опасности -->
+  <line x1="50" y1="250" x2="50" y2="320" stroke="#34495e" stroke-width="2"/>
+  <text x="40" y="255" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50" text-anchor="end">Опасно!</text>
+  <text x="40" y="285" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50" text-anchor="end">Средняя</text>
+  <text x="40" y="320" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50" text-anchor="end">Безопасно</text>
+  
+  <!-- Кривая эвакуации -->
+  <path d="M 50 310 C 100 280, 150 260, 200 250 C 250 245, 300 242, 350 240 C 400 238, 430 237, 450 236" 
+        fill="none" stroke="#e74c3c" stroke-width="3"/>
+  <circle cx="50" cy="310" r="4" fill="#e74c3c"/>
+  <circle cx="200" cy="250" r="4" fill="#e74c3c"/>
+  <circle cx="350" cy="240" r="4" fill="#e74c3c"/>
+  <circle cx="450" cy="236" r="4" fill="#e74c3c"/>
+  
+  <!-- Пояснительные подписи на графике -->
+  <text x="50" y="305" font-family="Arial, sans-serif" font-size="7" fill="#2c3e50" text-anchor="middle">Обнаружение</text>
+  <text x="200" y="245" font-family="Arial, sans-serif" font-size="7" fill="#2c3e50" text-anchor="middle">Эвакуация</text>
+  <text x="350" y="235" font-family="Arial, sans-serif" font-size="7" fill="#2c3e50" text-anchor="middle">Выход</text>
+  <text x="450" y="231" font-family="Arial, sans-serif" font-size="7" fill="#2c3e50" text-anchor="middle">Безопасность</text>
+  
+  <!-- Знак безопасности -->
+  <circle cx="380" cy="120" r="20" fill="white" stroke="#3498db" stroke-width="2"/>
+  <path d="M 380 105 L 380 135 L 365 120 Z" fill="#3498db"/>
+  <text x="380" y="155" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="middle">Пожар</text>
+  
+  <!-- Дым сверху -->
+  <path d="M 180 70 C 185 60, 190 50, 185 40 C 180 30, 175 20, 180 10" fill="none" stroke="url(#smokeGradient)" stroke-width="3"/>
+  <path d="M 190 75 C 195 65, 200 55, 195 45 C 190 35, 185 25, 190 15" fill="none" stroke="url(#smokeGradient)" stroke-width="3"/>
+  <path d="M 200 70 C 205 60, 210 50, 205 40 C 200 30, 195 20, 200 10" fill="none" stroke="url(#smokeGradient)" stroke-width="3"/>
+  
+  <!-- Огонь -->
+  <path d="M 100 65 C 100 55, 110 45, 100 35 C 90 25, 95 15, 100 5 C 105 15, 110 25, 100 35 C 90 45, 100 55, 100 65 Z" fill="url(#fireGradient)"/>
+  <path d="M 100 60 C 100 50, 110 40, 100 30 C 90 20, 95 10, 100 0 C 105 10, 110 20, 100 30 C 90 40, 100 50, 100 60 Z" fill="#ff6b35" opacity="0.7"/>
+  
+  <!-- Влажная ткань -->
+  <rect x="320" y="150" width="25" height="20" fill="#3498db" stroke="#2980b9" stroke-width="1" rx="2"/>
+  <line x1="325" y1="155" x2="340" y2="155" stroke="white" stroke-width="1"/>
+  <line x1="325" y1="160" x2="340" y2="160" stroke="white" stroke-width="1"/>
+  <line x1="325" y1="165" x2="340" y2="165" stroke="white" stroke-width="1"/>
+  
+  <!-- Вода на ткани -->
+  <circle cx="327" cy="152" r="1" fill="#2980b9" opacity="0.7"/>
+  <circle cx="333" cy="154" r="1" fill="#2980b9" opacity="0.7"/>
+  <circle cx="338" cy="153" r="1" fill="#2980b9" opacity="0.7"/>
+  <circle cx="325" cy="162" r="1" fill="#2980b9" opacity="0.7"/>
+  <circle cx="331" cy="164" r="1" fill="#2980b9" opacity="0.7"/>
+  <circle cx="336" cy="163" r="1" fill="#2980b9" opacity="0.7"/>
 </svg>

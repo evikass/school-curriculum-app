@@ -1,42 +1,130 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Градиенты -->
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF3E0"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f5f0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8e8e0;stop-opacity:1" />
     </linearGradient>
+    
+    <linearGradient id="frameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b4513;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#a0522d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b4513;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="photoGrad">
+      <stop offset="0%" style="stop-color:#d4d0c8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a8a39f;stop-opacity:1" />
+    </radialGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#E65100" stroke-width="2.5"/>
-  <text x="250" y="38" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#E65100" text-anchor="middle">А.П. Чехов</text>
-  <text x="250" y="56" font-family="Arial,sans-serif" font-size="11" fill="#888888" text-anchor="middle">Литература — Урок 5</text>
-  <line x1="30" y1="64" x2="470" y2="64" stroke="#E65100" stroke-width="2" opacity="0.25"/>
-  <rect x="20" y="72" width="160" height="170" rx="5" fill="#E65100" opacity="0.08"/>
-  <circle cx="100" cy="108.6" r="17.6" fill="#E65100" opacity="0.6"/>
-  <path d="M73.6,139.4 Q100,121.8 126.4,139.4" fill="#E65100" opacity="0.4"/>  <text x="100" y="175" font-family="Arial,sans-serif" font-size="10" fill="#E65100" text-anchor="middle" font-weight="bold" font-style="">Антон Павлович</text>
-  <text x="100" y="188" font-family="Arial,sans-serif" font-size="12" fill="#BF360C" text-anchor="middle" font-weight="bold" font-style="">Чехов</text>
-  <text x="100" y="205" font-family="Arial,sans-serif" font-size="10" fill="#555555" text-anchor="middle" font-weight="normal" font-style="">1860 — 1904</text>
-  <circle cx="88" cy="105.6" r="5" fill="none" stroke="#E65100" stroke-width="1.5" opacity="0.4"/>
-  <circle cx="112" cy="105.6" r="5" fill="none" stroke="#E65100" stroke-width="1.5" opacity="0.4"/>
-  <line x1="93" y1="105.6" x2="107" y2="105.6" stroke="#E65100" stroke-width="1" opacity="0.4"/>
-  <rect x="195" y="72" width="285" height="80" rx="5" fill="#E65100" opacity="0.08"/>
-  <text x="205" y="90" font-family="Arial,sans-serif" font-size="13" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">Произведения</text>
-  <text x="205" y="110" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">«Вишнёвый сад» — пьеса</text>
-  <text x="205" y="126" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">«Чайка» — пьеса</text>
-  <text x="205" y="142" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">«Палата №6» — повесть</text>
-  <text x="205" y="158" font-family="Arial,sans-serif" font-size="10" fill="#333333" text-anchor="start" font-weight="normal" font-style="">«Человек в футляре» — рассказ</text>
-  <rect x="195" y="160" width="285" height="82" rx="5" fill="#E65100" opacity="0.08"/>
-  <text x="205" y="178" font-family="Arial,sans-serif" font-size="12" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">Новаторство в драме</text>
-  <circle cx="210" cy="195" r="3" fill="#E65100" opacity="0.6"/>
-  <text x="220" y="199" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Подтекст — «чеховская пауза»</text>
-  <circle cx="210" cy="212" r="3" fill="#E65100" opacity="0.6"/>
-  <text x="220" y="216" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Внутреннее действие важнее внешнего</text>
-  <circle cx="210" cy="229" r="3" fill="#E65100" opacity="0.6"/>
-  <text x="220" y="233" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Лирическая комедия</text>
-  <circle cx="210" cy="246" r="3" fill="#E65100" opacity="0.6"/>
-  <text x="220" y="250" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Символика (вишнёвый сад)</text>
-  <rect x="20" y="250" width="460" height="45" rx="5" fill="#E65100" opacity="0.08"/>
-  <text x="30" y="268" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="start" font-weight="bold" font-style="">Краткость — сестра таланта:</text>
-  <text x="30" y="285" font-family="Arial,sans-serif" font-size="9" fill="#333333" text-anchor="start" font-weight="normal" font-style="">Мастер короткого рассказа, реформатор театра, создатель новой драматургии</text>
-  <ellipse cx="250" cy="330" rx="200" ry="10" fill="#E65100" opacity="0.06"/>
-  <text x="250" y="340" font-family="Arial,sans-serif" font-size="11" fill="#E65100" text-anchor="middle" font-style="italic">Литература · 10 класс</text>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="url(#frameGrad)" stroke-width="4"/>
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#8b4513" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#5a4a3a">ЛИТЕРАТУРА · 10 КЛАСС</text>
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#3a2f1f">Антон Павлович Чехов</text>
+  <text x="450" y="50" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#8b4513">Урок 15</text>
+  
+  <!-- Портрет Чехова -->
+  <ellipse cx="100" cy="120" rx="40" ry="50" fill="url(#photoGrad)"/>
+  <ellipse cx="85" cy="105" rx="8" ry="12" fill="#3a2f1f"/>
+  <ellipse cx="115" cy="105" rx="8" ry="12" fill="#3a2f1f"/>
+  <path d="M85,125 Q100,135 115,125" stroke="#3a2f1f" stroke-width="2" fill="none"/>
+  <path d="M75,130 Q100,140 125,130" stroke="#8b4513" stroke-width="1" fill="none"/>
+  <path d="M70,115 Q100,110 130,115" stroke="#3a2f1f" stroke-width="1" fill="none"/>
+  <text x="100" y="185" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#5a4a3a">А.П. Чехов</text>
+  <text x="100" y="200" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5a4a3a">1860-1904</text>
+  
+  <!-- Биографическая линия -->
+  <line x1="180" y1="100" x2="450" y2="100" stroke="#8b4513" stroke-width="2"/>
+  <circle cx="200" cy="100" r="5" fill="#8b4513"/>
+  <text x="200" y="90" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#5a4a3a">1860</text>
+  <text x="200" y="120" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#5a4a3a">рождение</text>
+  
+  <circle cx="280" cy="100" r="5" fill="#8b4513"/>
+  <text x="280" y="90" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#5a4a3a">1884</text>
+  <text x="280" y="120" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#5a4a3a">мед. образование</text>
+  
+  <circle cx="360" cy="100" r="5" fill="#8b4513"/>
+  <text x="360" y="90" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#5a4a3a">1898</text>
+  <text x="360" y="120" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#5a4a3a">Художественный театр</text>
+  
+  <circle cx="430" cy="100" r="5" fill="#8b4513"/>
+  <text x="430" y="90" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#5a4a3a">1904</text>
+  <text x="430" y="120" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#5a4a3a">смерть</text>
+  
+  <!-- Пьесы -->
+  <rect x="50" y="220" width="180" height="100" rx="5" fill="#f0e6d2" stroke="#8b4513" stroke-width="1.5"/>
+  <text x="140" y="240" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#5a4a3a">Пьесы</text>
+  
+  <rect x="60" y="250" width="70" height="20" rx="3" fill="#e8d4a2" stroke="#8b4513" stroke-width="1"/>
+  <text x="95" y="263" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#5a4a3a">"Вишнёвый сад"</text>
+  
+  <rect x="140" y="250" width="70" height="20" rx="3" fill="#e8d4a2" stroke="#8b4513" stroke-width="1"/>
+  <text x="175" y="263" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#5a4a3a">"Чайка"</text>
+  
+  <rect x="60" y="275" width="70" height="20" rx="3" fill="#e8d4a2" stroke="#8b4513" stroke-width="1"/>
+  <text x="95" y="288" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#5a4a3a">"Три сестры"</text>
+  
+  <rect x="140" y="275" width="70" height="20" rx="3" fill="#e8d4a2" stroke="#8b4513" stroke-width="1"/>
+  <text x="175" y="288" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#5a4a3a">"Дядя Ваня"</text>
+  
+  <!-- Рассказы -->
+  <rect x="250" y="220" width="180" height="100" rx="5" fill="#e8f0f5" stroke="#4a6fa5" stroke-width="1.5"/>
+  <text x="340" y="240" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#3a5a7a">Рассказы</text>
+  
+  <rect x="260" y="250" width="60" height="20" rx="3" fill="#d4e3f0" stroke="#4a6fa5" stroke-width="1"/>
+  <text x="290" y="263" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#3a5a7a">"Ионыч"</text>
+  
+  <rect x="330" y="250" width="80" height="20" rx="3" fill="#d4e3f0" stroke="#4a6fa5" stroke-width="1"/>
+  <text x="370" y="263" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#3a5a7a">"Человек в футляре"</text>
+  
+  <rect x="260" y="275" width="70" height="20" rx="3" fill="#d4e3f0" stroke="#4a6fa5" stroke-width="1"/>
+  <text x="295" y="288" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#3a5a7a">"Крыжовник"</text>
+  
+  <!-- Новаторство -->
+  <rect x="50" y="140" width="380" height="60" rx="5" fill="#f5e6f0" stroke="#8b4580" stroke-width="1.5"/>
+  <text x="240" y="160" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#5a4a60">Новаторство Чехова</text>
+  
+  <circle cx="100" cy="180" r="15" fill="#e8d4f0" stroke="#8b4580" stroke-width="1"/>
+  <text x="100" y="185" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#5a4a60">Новая драма</text>
+  
+  <circle cx="240" cy="180" r="15" fill="#e8d4f0" stroke="#8b4580" stroke-width="1"/>
+  <text x="240" y="185" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#5a4a60">Подтекст</text>
+  
+  <circle cx="380" cy="180" r="15" fill="#e8d4f0" stroke="#8b4580" stroke-width="1"/>
+  <text x="380" y="185" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#5a4a60">Вн. диалог</text>
+  
+  <!-- Формула новаторства -->
+  <rect x="250" y="140" width="180" height="60" rx="5" fill="#f0f5e6" stroke="#5a8b45" stroke-width="1.5"/>
+  <text x="340" y="160" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#4a5a3a">Формула новаторства</text>
+  <text x="340" y="180" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#4a5a3a">"Не говори, а показывай"</text>
+  <text x="340" y="195" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#4a5a3a">Принцип "подводной части айсберга"</text>
+  
+  <!-- Иконка пера -->
+  <path d="M440,60 L450,70 L445,75 L435,65 Z" fill="#5a4a3a"/>
+  <path d="M435,65 L440,60 L445,65 L440,70 Z" fill="#8b4513"/>
+  
+  <!-- Декоративный элемент -->
+  <path d="M20,330 Q40,320 60,330 T100,330 T140,330" stroke="#8b4513" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M360,330 Q380,320 400,330 T440,330 T480,330" stroke="#8b4513" stroke-width="1" fill="none" opacity="0.5"/>
+  
+  <!-- Схема влияния -->
+  <text x="250" y="330" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#5a4a3a">Влияние на мировую литературу</text>
+  <path d="M250,320 L220,305 L280,305 Z" fill="#e8d4a2" stroke="#8b4513" stroke-width="1"/>
+  <text x="250" y="310" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#5a4a3a">Чехов</text>
+  
+  <line x1="220" y1="305" x2="180" y2="290" stroke="#8b4513" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="160" y="285" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#5a4a3a">Б.Брехт</text>
+  
+  <line x1="280" y1="305" x2="320" y2="290" stroke="#8b4513" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="340" y="285" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#5a4a3a">Э.О'Нил</text>
+  
+  <line x1="250" y1="320" x2="250" y2="340" stroke="#8b4513" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="250" y="355" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#5a4a3a">М.Кундера</text>
 </svg>

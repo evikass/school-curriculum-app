@@ -1,42 +1,135 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E3F2FD"/><stop offset="100%" stop-color="#BBDEFB"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#1565C0" stroke-width="2.5"/>
-<text x="250" y="30" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1565C0" text-anchor="middle">Ускорение. Равноускоренное движение</text>
-<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Физика 10 класс — Урок 8</text>
-<line x1="30" y1="52" x2="470" y2="52" stroke="#1565C0" stroke-width="1.5" opacity="0.25"/>
-
-<g transform="translate(140,195)">
-<rect x="-80" y="-80" width="160" height="160" rx="5" fill="white" stroke="#1565C0" stroke-width="1.5"/>
-<text x="0" y="-65" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle" font-weight="bold">Графики v(t)</text>
-<line x1="-55" y1="55" x2="65" y2="55" stroke="#333" stroke-width="1"/>
-<line x1="-55" y1="55" x2="-55" y2="-55" stroke="#333" stroke-width="1"/>
-<text x="65" y="67" font-family="Arial,sans-serif" font-size="6" fill="#333">t</text>
-<text x="-62" y="-50" font-family="Arial,sans-serif" font-size="6" fill="#333">v</text>
-<line x1="-45" y1="40" x2="55" y2="-30" stroke="#E53935" stroke-width="2"/>
-<text x="35" y="-20" font-family="Arial,sans-serif" font-size="5" fill="#E53935">v = v0 + at</text>
-<line x1="-55" y1="40" x2="-45" y2="40" stroke="#1565C0" stroke-width="0.8" stroke-dasharray="3,2"/>
-<text x="-58" y="43" font-family="Arial,sans-serif" font-size="5" fill="#1565C0">v0</text>
-</g>
-<g transform="translate(390,150)">
-<rect x="-80" y="-70" width="160" height="140" rx="5" fill="white" stroke="#1565C0" stroke-width="1.5"/>
-<text x="0" y="-55" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle" font-weight="bold">Формулы</text>
-<line x1="-65" y1="-48" x2="65" y2="-48" stroke="#1565C0" stroke-width="0.5"/>
-<text x="0" y="-33" font-family="Arial,sans-serif" font-size="6" fill="#E53935" text-anchor="middle">v = v0 + at</text>
-<text x="0" y="-18" font-family="Arial,sans-serif" font-size="6" fill="#2E7D32" text-anchor="middle">S = v0*t + at^2/2</text>
-<text x="0" y="-3" font-family="Arial,sans-serif" font-size="6" fill="#1565C0" text-anchor="middle">x = x0 + v0*t + at^2/2</text>
-<text x="0" y="12" font-family="Arial,sans-serif" font-size="6" fill="#FF6F00" text-anchor="middle">v^2 - v0^2 = 2aS</text>
-<line x1="-65" y1="20" x2="65" y2="20" stroke="#1565C0" stroke-width="0.5"/>
-<text x="0" y="35" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle" font-weight="bold">Ускорение</text>
-<text x="0" y="50" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">a = (v - v0) / t</text>
-<text x="0" y="63" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">м/с^2</text>
-</g>
-<g transform="translate(390,270)">
-<rect x="-60" y="-20" width="120" height="40" rx="5" fill="white" stroke="#7B1FA2" stroke-width="1.2"/>
-<text x="0" y="-5" font-family="Arial,sans-serif" font-size="6" fill="#7B1FA2" text-anchor="middle" font-weight="bold">Свободное падение</text>
-<text x="0" y="10" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">a = g = 9.8 м/с^2</text>
-</g>
-
-<rect x="10" y="325" width="480" height="20" rx="4" fill="#1565C0" opacity="0.85"/>
-<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Физика 10 класс</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#2C3E50" stroke-width="2" rx="5"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#34495E" stroke-width="1" rx="3"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2C3E50">Газовые законы</text>
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7F8C8D">Изопроцессы</text>
+  <text x="250" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#95A5A6">ФИЗИКА · 10 КЛАСС</text>
+  <text x="470" y="25" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#BDC3C7">урок 5</text>
+  
+  <!-- Изотермический процесс -->
+  <g transform="translate(50, 80)">
+    <!-- Заголовок -->
+    <text x="100" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2C3E50">Изотермический процесс</text>
+    <text x="100" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7F8C8D">(T = const)</text>
+    
+    <!-- Координатные оси -->
+    <line x1="20" y1="120" x2="180" y2="120" stroke="#34495E" stroke-width="1.5"/>
+    <line x1="20" y1="30" x2="20" y2="120" stroke="#34495E" stroke-width="1.5"/>
+    
+    <!-- Стрелки на осях -->
+    <polygon points="180,120 175,117 175,123" fill="#34495E"/>
+    <polygon points="20,30 17,35 23,35" fill="#34495E"/>
+    
+    <!-- Подписи осей -->
+    <text x="190" y="125" font-family="Arial, sans-serif" font-size="12" fill="#34495E">V</text>
+    <text x="15" y="25" font-family="Arial, sans-serif" font-size="12" fill="#34495E">p</text>
+    
+    <!-- Гипербола (изотерма) -->
+    <path d="M 40,100 Q 60,80 80,65 Q 100,55 120,50 Q 140,47 160,45" fill="none" stroke="#3498DB" stroke-width="2"/>
+    <path d="M 40,110 Q 60,90 80,75 Q 100,65 120,60 Q 140,57 160,55" fill="none" stroke="#E74C3C" stroke-width="2"/>
+    
+    <!-- Точки на кривых -->
+    <circle cx="60" cy="80" r="3" fill="#3498DB"/>
+    <circle cx="140" cy="48" r="3" fill="#3498DB"/>
+    <circle cx="60" cy="90" r="3" fill="#E74C3C"/>
+    <circle cx="140" cy="56" r="3" fill="#E74C3C"/>
+    
+    <!-- Подписи точек -->
+    <text x="45" y="75" font-family="Arial, sans-serif" font-size="10" fill="#3498DB">p₁</text>
+    <text x="145" y="43" font-family="Arial, sans-serif" font-size="10" fill="#3498DB">p₂</text>
+    <text x="45" y="105" font-family="Arial, sans-serif" font-size="10" fill="#E74C3C">p₁'</text>
+    <text x="145" y="71" font-family="Arial, sans-serif" font-size="10" fill="#E74C3C">p₂'</text>
+    
+    <!-- Объемы -->
+    <line x1="60" y1="120" x2="60" y2="125" stroke="#34495E" stroke-width="1"/>
+    <line x1="140" y1="120" x2="140" y2="125" stroke="#34495E" stroke-width="1"/>
+    <text x="60" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#34495E">V₁</text>
+    <text x="140" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#34495E">V₂</text>
+    
+    <!-- Температуры -->
+    <text x="90" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#3498DB">T₁</text>
+    <text x="90" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#E74C3C">T₂</text>
+    
+    <!-- Формула Бойля-Мариотта -->
+    <rect x="20" y="150" width="160" height="30" fill="#ECF0F1" stroke="#BDC3C7" stroke-width="1" rx="3"/>
+    <text x="100" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2C3E50">p₁V₁ = p₂V₂</text>
+  </g>
+  
+  <!-- Изобарный процесс -->
+  <g transform="translate(280, 80)">
+    <!-- Заголовок -->
+    <text x="100" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2C3E50">Изобарный процесс</text>
+    <text x="100" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7F8C8D">(p = const)</text>
+    
+    <!-- Координатные оси -->
+    <line x1="20" y1="120" x2="180" y2="120" stroke="#34495E" stroke-width="1.5"/>
+    <line x1="20" y1="30" x2="20" y2="120" stroke="#34495E" stroke-width="1.5"/>
+    
+    <!-- Стрелки на осях -->
+    <polygon points="180,120 175,117 175,123" fill="#34495E"/>
+    <polygon points="20,30 17,35 23,35" fill="#34495E"/>
+    
+    <!-- Подписи осей -->
+    <text x="190" y="125" font-family="Arial, sans-serif" font-size="12" fill="#34495E">T</text>
+    <text x="15" y="25" font-family="Arial, sans-serif" font-size="12" fill="#34495E">V</text>
+    
+    <!-- Прямые линии (изобары) -->
+    <line x1="40" y1="100" x2="160" y2="60" stroke="#9B59B6" stroke-width="2"/>
+    <line x1="40" y1="80" x2="160" y2="40" stroke="#1ABC9C" stroke-width="2"/>
+    
+    <!-- Точки на линиях -->
+    <circle cx="60" cy="94" r="3" fill="#9B59B6"/>
+    <circle cx="140" cy="66" r="3" fill="#9B59B6"/>
+    <circle cx="60" cy="74" r="3" fill="#1ABC9C"/>
+    <circle cx="140" cy="46" r="3" fill="#1ABC9C"/>
+    
+    <!-- Подписи точек -->
+    <text x="45" y="89" font-family="Arial, sans-serif" font-size="10" fill="#9B59B6">V₁</text>
+    <text x="145" y="61" font-family="Arial, sans-serif" font-size="10" fill="#9B59B6">V₂</text>
+    <text x="45" y="69" font-family="Arial, sans-serif" font-size="10" fill="#1ABC9C">V₁'</text>
+    <text x="145" y="41" font-family="Arial, sans-serif" font-size="10" fill="#1ABC9C">V₂'</text>
+    
+    <!-- Температуры -->
+    <line x1="60" y1="120" x2="60" y2="125" stroke="#34495E" stroke-width="1"/>
+    <line x1="140" y1="120" x2="140" y2="125" stroke="#34495E" stroke-width="1"/>
+    <text x="60" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#34495E">T₁</text>
+    <text x="140" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#34495E">T₂</text>
+    
+    <!-- Давления -->
+    <text x="90" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#9B59B6">p₁</text>
+    <text x="90" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1ABC9C">p₂</text>
+    
+    <!-- Формула Гей-Люссака -->
+    <rect x="20" y="150" width="160" height="30" fill="#ECF0F1" stroke="#BDC3C7" stroke-width="1" rx="3"/>
+    <text x="100" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2C3E50">V₁/T₁ = V₂/T₂</text>
+  </g>
+  
+  <!-- Легенда -->
+  <g transform="translate(50, 280)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2C3E50">Обозначения:</text>
+    
+    <rect x="0" y="10" width="15" height="10" fill="#3498DB"/>
+    <text x="20" y="19" font-family="Arial, sans-serif" font-size="10" fill="#34495E">Изотерма при T₁</text>
+    
+    <rect x="120" y="10" width="15" height="10" fill="#E74C3C"/>
+    <text x="140" y="19" font-family="Arial, sans-serif" font-size="10" fill="#34495E">Изотерма при T₂</text>
+    
+    <rect x="0" y="30" width="15" height="10" fill="#9B59B6"/>
+    <text x="20" y="39" font-family="Arial, sans-serif" font-size="10" fill="#34495E">Изобара при p₁</text>
+    
+    <rect x="120" y="30" width="15" height="10" fill="#1ABC9C"/>
+    <text x="140" y="39" font-family="Arial, sans-serif" font-size="10" fill="#34495E">Изобара при p₂</text>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="470" cy="320" r="3" fill="#3498DB" opacity="0.5"/>
+  <circle cx="460" cy="310" r="2" fill="#E74C3C" opacity="0.5"/>
+  <circle cx="480" cy="310" r="2" fill="#9B59B6" opacity="0.5"/>
+  <circle cx="475" cy="325" r="1.5" fill="#1ABC9C" opacity="0.5"/>
+  
+  <!-- Текстовые заметки -->
+  <text x="250" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#95A5A6" font-style="italic">Изопроцессы - процессы с постоянным параметром</text>
 </svg>

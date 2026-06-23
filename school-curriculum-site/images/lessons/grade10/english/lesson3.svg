@@ -1,35 +1,126 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#3A5FCD" stroke-width="3" rx="10"/>
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#5E8CE0" stroke-width="1" rx="8"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2C3E50">АНГЛИЙСКИЙ · 10 КЛАСС</text>
+  <text x="250" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#3A5FCD">Урок 3: Conditionals</text>
+  <text x="460" y="35" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#7F8C8D">№3</text>
+  
+  <!-- Градиенты -->
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8EAF6"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5E8CE0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#50C878;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3CB371;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF6B6B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EE5A24;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#283593" stroke-width="2.5"/>
-  <text x="250" y="38" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#283593" text-anchor="middle">Conditionals</text>
-  <text x="250" y="56" font-family="Arial,sans-serif" font-size="11" fill="#888888" text-anchor="middle">Английский язык — Урок 3</text>
-  <line x1="30" y1="64" x2="470" y2="64" stroke="#283593" stroke-width="2" opacity="0.25"/>
-  <rect x="20" y="72" width="460" height="48" rx="5" fill="#283593" opacity="0.05"/>
-  <text x="30" y="86" font-family="Arial,sans-serif" font-size="11" fill="#283593" text-anchor="start" font-weight="bold">Zero Conditional</text>
-  <text x="30" y="102" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="start" font-weight="normal">If + Present, Present</text>
-  <text x="30" y="114" font-family="Arial,sans-serif" font-size="8" fill="#333333" text-anchor="start" font-weight="normal">If you heat ice, it melts</text>
-  <text x="400" y="100" font-family="Arial,sans-serif" font-size="7" fill="#555555" text-anchor="end" font-weight="normal">Общий факт</text>
-  <rect x="20" y="126" width="460" height="48" rx="5" fill="#283593" opacity="0.05"/>
-  <text x="30" y="140" font-family="Arial,sans-serif" font-size="11" fill="#283593" text-anchor="start" font-weight="bold">First Conditional</text>
-  <text x="30" y="156" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="start" font-weight="normal">If + Present, Future</text>
-  <text x="30" y="168" font-family="Arial,sans-serif" font-size="8" fill="#333333" text-anchor="start" font-weight="normal">If it rains, I will stay</text>
-  <text x="400" y="154" font-family="Arial,sans-serif" font-size="7" fill="#555555" text-anchor="end" font-weight="normal">Реальная ситуация</text>
-  <rect x="20" y="180" width="460" height="48" rx="5" fill="#283593" opacity="0.05"/>
-  <text x="30" y="194" font-family="Arial,sans-serif" font-size="11" fill="#283593" text-anchor="start" font-weight="bold">Second Conditional</text>
-  <text x="30" y="210" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="start" font-weight="normal">If + Past, would + V</text>
-  <text x="30" y="222" font-family="Arial,sans-serif" font-size="8" fill="#333333" text-anchor="start" font-weight="normal">If I had money, I would buy</text>
-  <text x="400" y="208" font-family="Arial,sans-serif" font-size="7" fill="#555555" text-anchor="end" font-weight="normal">Нереальная ситуация</text>
-  <rect x="20" y="234" width="460" height="48" rx="5" fill="#283593" opacity="0.05"/>
-  <text x="30" y="248" font-family="Arial,sans-serif" font-size="11" fill="#283593" text-anchor="start" font-weight="bold">Third Conditional</text>
-  <text x="30" y="264" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="start" font-weight="normal">If + Past Perf., would have + V3</text>
-  <text x="30" y="276" font-family="Arial,sans-serif" font-size="8" fill="#333333" text-anchor="start" font-weight="normal">If I had known, I would have come</text>
-  <text x="400" y="262" font-family="Arial,sans-serif" font-size="7" fill="#555555" text-anchor="end" font-weight="normal">Нереальное прошлое</text>
-  <ellipse cx="250" cy="330" rx="200" ry="10" fill="#283593" opacity="0.06"/>
-  <text x="250" y="340" font-family="Arial,sans-serif" font-size="11" fill="#283593" text-anchor="middle" font-style="italic">English · Grade 10</text>
+  
+  <!-- Conditional Type 0 -->
+  <rect x="30" y="90" width="210" height="65" fill="url(#grad1)" rx="5" opacity="0.2"/>
+  <text x="40" y="110" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C3E50">Тип 0: Zero Conditional</text>
+  <text x="40" y="130" font-family="Arial, sans-serif" font-size="12" fill="#34495E">Если X (обычно), то Y (обычно)</text>
+  <text x="40" y="145" font-family="Arial, sans-serif" font-size="11" fill="#7F8C8D">If + Present Simple, Present Simple</text>
+  
+  <!-- Conditional Type 1 -->
+  <rect x="260" y="90" width="210" height="65" fill="url(#grad2)" rx="5" opacity="0.2"/>
+  <text x="270" y="110" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C3E50">Тип 1: First Conditional</text>
+  <text x="270" y="130" font-family="Arial, sans-serif" font-size="12" fill="#34495E">Если X (будущее), то Y (будущее)</text>
+  <text x="270" y="145" font-family="Arial, sans-serif" font-size="11" fill="#7F8C8D">If + Present Simple, Future Simple</text>
+  
+  <!-- Conditional Type 2 -->
+  <rect x="30" y="170" width="210" height="65" fill="url(#grad3)" rx="5" opacity="0.2"/>
+  <text x="40" y="190" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C3E50">Тип 2: Second Conditional</text>
+  <text x="40" y="210" font-family="Arial, sans-serif" font-size="12" fill="#34495E">Если X (малов.), то Y (невоз.)</text>
+  <text x="40" y="225" font-family="Arial, sans-serif" font-size="11" fill="#7F8C8D">If + Past Simple, would + V</text>
+  
+  <!-- Conditional Type 3 -->
+  <rect x="260" y="170" width="210" height="65" fill="#9B59B6" rx="5" opacity="0.2"/>
+  <text x="270" y="190" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C3E50">Тип 3: Third Conditional</text>
+  <text x="270" y="210" font-family="Arial, sans-serif" font-size="12" fill="#34495E">Если бы X (прошл.), то Y бы было</text>
+  <text x="270" y="225" font-family="Arial, sans-serif" font-size="11" fill="#7F8C8D">If + Past Perfect, would have + V3</text>
+  
+  <!-- Схема условных предложений -->
+  <g transform="translate(50, 250)">
+    <!-- Zero Conditional Example -->
+    <rect x="0" y="0" width="100" height="30" fill="#4A90E2" rx="3"/>
+    <text x="50" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">If it rains</text>
+    <text x="110" y="15" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">→</text>
+    <rect x="120" y="0" width="100" height="30" fill="#4A90E2" rx="3"/>
+    <text x="170" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">the ground gets wet</text>
+    
+    <!-- First Conditional Example -->
+    <rect x="0" y="40" width="100" height="30" fill="#50C878" rx="3"/>
+    <text x="50" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">If you study hard</text>
+    <text x="110" y="55" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">→</text>
+    <rect x="120" y="40" width="100" height="30" fill="#50C878" rx="3"/>
+    <text x="170" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">you will pass the exam</text>
+    
+    <!-- Second Conditional Example -->
+    <rect x="0" y="80" width="100" height="30" fill="#FF6B6B" rx="3"/>
+    <text x="50" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">If I won the lottery</text>
+    <text x="110" y="95" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">→</text>
+    <rect x="120" y="80" width="100" height="30" fill="#FF6B6B" rx="3"/>
+    <text x="170" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">I would travel the world</text>
+  </g>
+  
+  <!-- График использования условных предложений -->
+  <g transform="translate(280, 250)">
+    <text x="0" y="-5" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2C3E50">Частота использования:</text>
+    
+    <!-- Zero -->
+    <rect x="0" y="10" width="80" height="15" fill="#4A90E2" opacity="0.7"/>
+    <text x="85" y="22" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Type 0: 40%</text>
+    
+    <!-- First -->
+    <rect x="0" y="30" width="90" height="15" fill="#50C878" opacity="0.7"/>
+    <text x="95" y="42" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Type 1: 45%</text>
+    
+    <!-- Second -->
+    <rect x="0" y="50" width="40" height="15" fill="#FF6B6B" opacity="0.7"/>
+    <text x="45" y="62" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Type 2: 15%</text>
+  </g>
+  
+  <!-- Ключевые термины -->
+  <g transform="translate(30, 80)">
+    <circle cx="5" cy="5" r="3" fill="#E74C3C"/>
+    <text x="15" y="9" font-family="Arial, sans-serif" font-size="9" fill="#7F8C8D">condition</text>
+    
+    <circle cx="80" cy="5" r="3" fill="#3498DB"/>
+    <text x="90" y="9" font-family="Arial, sans-serif" font-size="9" fill="#7F8C8D">clause</text>
+    
+    <circle cx="140" cy="5" r="3" fill="#2ECC71"/>
+    <text x="150" y="9" font-family="Arial, sans-serif" font-size="9" fill="#7F8C8D">result</text>
+    
+    <circle cx="200" cy="5" r="3" fill="#F39C12"/>
+    <text x="210" y="9" font-family="Arial, sans-serif" font-size="9" fill="#7F8C8D">hypothesis</text>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <g transform="translate(30, 160)">
+    <line x1="0" y1="0" x2="440" y2="0" stroke="#BDC3C7" stroke-width="1" stroke-dasharray="5,5"/>
+  </g>
+  
+  <!-- Иконки -->
+  <g transform="translate(400, 85)">
+    <path d="M0,10 L5,5 L10,10 Z" fill="#4A90E2"/>
+    <path d="M0,20 L5,15 L10,20 Z" fill="#50C878"/>
+    <path d="M0,30 L5,25 L10,30 Z" fill="#FF6B6B"/>
+    <path d="M0,40 L5,35 L10,40 Z" fill="#9B59B6"/>
+  </g>
+  
+  <!-- Формулы условных предложений -->
+  <text x="40" y="305" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2C3E50">Основные формулы:</text>
+  <text x="40" y="320" font-family="Arial, sans-serif" font-size="10" fill="#34495E">1. If + Present Simple, Present Simple</text>
+  <text x="40" y="333" font-family="Arial, sans-serif" font-size="10" fill="#34495E">2. If + Present Simple, Future Simple</text>
+  <text x="250" y="320" font-family="Arial, sans-serif" font-size="10" fill="#34495E">3. If + Past Simple, would + V</text>
+  <text x="250" y="333" font-family="Arial, sans-serif" font-size="10" fill="#34495E">4. If + Past Perfect, would have + V3</text>
 </svg>

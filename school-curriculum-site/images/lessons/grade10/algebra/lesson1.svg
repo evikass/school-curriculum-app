@@ -1,73 +1,134 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Дефиниции градиентов и паттернов -->
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8EAF6"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#357ABD;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#5C6BC0"/>
-      <stop offset="100%" stop-color="#3F51B5"/>
+    
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7ED321;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5FB709;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#BD10E0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9012FE;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5A623;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D58512;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#5C6BC0" stroke-width="3"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#5C6BC0" text-anchor="middle">Корень n-й степени</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Алгебра - Урок 1</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#5C6BC0" stroke-width="2" opacity="0.25"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-    
-    <rect x="15" y="85" width="470" height="215" fill="#E8EAF6" opacity="0.5"/>
-    <!-- Large radical sign -->
-    <path d="M60,140 L75,200 L90,120 L200,120" fill="none" stroke="#5C6BC0" stroke-width="3" stroke-linecap="round"/>
-    <text x="95" y="115" font-family="Arial,sans-serif" font-size="11" fill="#3F51B5" font-weight="bold">n</text>
-    <text x="115" y="160" font-family="Arial,sans-serif" font-size="28" fill="#5C6BC0" font-weight="bold">a</text>
-    <text x="210" y="155" font-family="Arial,sans-serif" font-size="14" fill="#3F51B5">= b</text>
-    <!-- Arrow showing relationship -->
-    <line x1="250" y1="140" x2="310" y2="140" stroke="#5C6BC0" stroke-width="2" marker-end="url(#arr1)"/>
-    <text x="270" y="133" font-family="Arial,sans-serif" font-size="10" fill="#3F51B5">b^n = a</text>
-    <!-- Definition box -->
-    <rect x="25" y="95" width="210" height="75" rx="5" fill="white" opacity="0.7" stroke="#5C6BC0" stroke-width="1"/>
-    <text x="35" y="112" font-family="Arial,sans-serif" font-size="12" fill="#3F51B5" font-weight="bold">Определение:</text>
-    <text x="35" y="130" font-family="Arial,sans-serif" font-size="11" fill="#444">Если b^n = a, то b = n-й корень из a</text>
-    <text x="35" y="146" font-family="Arial,sans-serif" font-size="10" fill="#666">n - показатель корня, a - подкоренное</text>
-    <!-- Examples -->
-    <rect x="25" y="180" width="140" height="105" rx="5" fill="white" opacity="0.7" stroke="#5C6BC0" stroke-width="1"/>
-    <text x="35" y="198" font-family="Arial,sans-serif" font-size="12" fill="#3F51B5" font-weight="bold">Примеры:</text>
-    <text x="35" y="218" font-family="Arial,sans-serif" font-size="13" fill="#5C6BC0">2 = 3</text>
-    <text x="35" y="215" font-family="Arial,sans-serif" font-size="8" fill="#3F51B5">3</text>
-    <text x="47" y="218" font-family="Arial,sans-serif" font-size="13" fill="#5C6BC0">27 = 3</text>
-    <text x="35" y="238" font-family="Arial,sans-serif" font-size="13" fill="#5C6BC0">16 = 4</text>
-    <text x="35" y="235" font-family="Arial,sans-serif" font-size="8" fill="#3F51B5">2</text>
-    <text x="47" y="238" font-family="Arial,sans-serif" font-size="13" fill="#5C6BC0">16 = 4</text>
-    <text x="35" y="258" font-family="Arial,sans-serif" font-size="13" fill="#5C6BC0">32 = 2</text>
-    <text x="35" y="255" font-family="Arial,sans-serif" font-size="8" fill="#3F51B5">5</text>
-    <text x="47" y="258" font-family="Arial,sans-serif" font-size="13" fill="#5C6BC0">32 = 2</text>
-    <text x="35" y="276" font-family="Arial,sans-serif" font-size="13" fill="#5C6BC0">81 = 3</text>
-    <text x="35" y="273" font-family="Arial,sans-serif" font-size="8" fill="#3F51B5">4</text>
-    <text x="47" y="276" font-family="Arial,sans-serif" font-size="13" fill="#5C6BC0">81 = 3</text>
-    <!-- Properties box -->
-    <rect x="180" y="180" width="295" height="105" rx="5" fill="white" opacity="0.7" stroke="#5C6BC0" stroke-width="1"/>
-    <text x="190" y="198" font-family="Arial,sans-serif" font-size="12" fill="#3F51B5" font-weight="bold">Свойства:</text>
-    <text x="190" y="218" font-family="Arial,sans-serif" font-size="11" fill="#444">1) (n-a)^n = a</text>
-    <text x="190" y="236" font-family="Arial,sans-serif" font-size="11" fill="#444">2) n-(a*b) = n-a * n-b</text>
-    <text x="190" y="254" font-family="Arial,sans-serif" font-size="11" fill="#444">3) n-(a/b) = n-a / n-b</text>
-    <text x="190" y="272" font-family="Arial,sans-serif" font-size="11" fill="#444">4) n-(a^k) = (n-a)^k</text>
-    <!-- Inverse diagram -->
-    <rect x="330" y="95" width="145" height="75" rx="5" fill="white" opacity="0.7" stroke="#5C6BC0" stroke-width="1"/>
-    <text x="340" y="112" font-family="Arial,sans-serif" font-size="12" fill="#3F51B5" font-weight="bold">Обратная операция</text>
-    <rect x="350" y="122" width="50" height="22" rx="3" fill="#5C6BC0" opacity="0.15"/>
-    <text x="375" y="137" font-family="Arial,sans-serif" font-size="10" fill="#3F51B5" text-anchor="middle">Степень</text>
-    <line x1="405" y1="133" x2="425" y2="133" stroke="#5C6BC0" stroke-width="1.5"/>
-    <polygon points="425,130 431,133 425,136" fill="#5C6BC0"/>
-    <rect x="425" y="122" width="45" height="22" rx="3" fill="#5C6BC0" opacity="0.15"/>
-    <text x="447" y="137" font-family="Arial,sans-serif" font-size="10" fill="#3F51B5" text-anchor="middle">Корень</text>
-    <line x1="350" y1="150" x2="425" y2="150" stroke="#3F51B5" stroke-width="1" stroke-dasharray="3,2"/>
-    <line x1="425" y1="150" x2="350" y2="150" stroke="#3F51B5" stroke-width="1.5"/>
-    <polygon points="350,147 344,150 350,153" fill="#3F51B5"/>
-    <text x="387" y="162" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">взаимно обратные</text>
-    
-  </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Алгебра</text>
+  
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" rx="10" fill="none" stroke="url(#blueGrad)" stroke-width="3"/>
+  
+  <!-- Угол с номером урока -->
+  <rect x="10" y="10" width="60" height="60" rx="5" fill="url(#purpleGrad)"/>
+  <text x="40" y="45" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">Урок 5</text>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="20" fill="#333" text-anchor="middle" font-weight="bold">КОРЕНЬ N-Й СТЕПЕНИ</text>
+  <text x="250" y="50" font-family="Arial, sans-serif" font-size="14" fill="#666" text-anchor="middle">АЛГЕБРА · 10 КЛАСС</text>
+  
+  <!-- Определение корня -->
+  <rect x="20" y="70" width="460" height="80" rx="8" fill="#f8f9fa" stroke="#ddd" stroke-width="1"/>
+  <text x="30" y="90" font-family="Arial, sans-serif" font-size="16" fill="#333" font-weight="bold">Определение:</text>
+  <text x="30" y="110" font-family="Arial, sans-serif" font-size="14" fill="#555">Корень n-й степени из числа a — это число x, такое что xⁿ = a</text>
+  <text x="30" y="130" font-family="Arial, sans-serif" font-size="14" fill="#555">Обозначение: ⁿ√a, где n — показатель корня, a — подкоренное выражение</text>
+  
+  <!-- Примеры -->
+  <text x="250" y="175" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle" font-weight="bold">ПРИМЕРЫ</text>
+  
+  <!-- Пример 1: Квадратный корень -->
+  <rect x="30" y="185" width="140" height="65" rx="5" fill="url(#greenGrad)"/>
+  <text x="100" y="205" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">Квадратный корень</text>
+  <text x="100" y="225" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">²√9 = 3</text>
+  <text x="100" y="240" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">(n = 2)</text>
+  
+  <!-- Пример 2: Кубический корень -->
+  <rect x="180" y="185" width="140" height="65" rx="5" fill="url(#orangeGrad)"/>
+  <text x="250" y="205" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">Кубический корень</text>
+  <text x="250" y="225" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">³√8 = 2</text>
+  <text x="250" y="240" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">(n = 3)</text>
+  
+  <!-- Пример 3: Корень 4-й степени -->
+  <rect x="330" y="185" width="140" height="65" rx="5" fill="url(#purpleGrad)"/>
+  <text x="400" y="205" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">Корень 4-й степени</text>
+  <text x="400" y="225" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">⁴√16 = 2</text>
+  <text x="400" y="240" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">(n = 4)</text>
+  
+  <!-- График функции корня -->
+  <text x="250" y="280" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle" font-weight="bold">ГРАФИК ФУНКЦИИ y = ⁿ√x</text>
+  
+  <!-- Система координат -->
+  <line x1="50" y1="310" x2="450" y2="310" stroke="#333" stroke-width="2"/>
+  <line x1="50" y1="310" x2="50" y2="150" stroke="#333" stroke-width="2"/>
+  
+  <!-- Ось X -->
+  <text x="455" y="315" font-family="Arial, sans-serif" font-size="12" fill="#333">x</text>
+  
+  <!-- Ось Y -->
+  <text x="45" y="145" font-family="Arial, sans-serif" font-size="12" fill="#333">y</text>
+  
+  <!-- Деления на оси X -->
+  <line x1="100" y1="305" x2="100" y2="315" stroke="#333" stroke-width="1"/>
+  <text x="100" y="325" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">1</text>
+  
+  <line x1="150" y1="305" x2="150" y2="315" stroke="#333" stroke-width="1"/>
+  <text x="150" y="325" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">2</text>
+  
+  <line x1="200" y1="305" x2="200" y2="315" stroke="#333" stroke-width="1"/>
+  <text x="200" y="325" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">3</text>
+  
+  <line x1="250" y1="305" x2="250" y2="315" stroke="#333" stroke-width="1"/>
+  <text x="250" y="325" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">4</text>
+  
+  <line x1="300" y1="305" x2="300" y2="315" stroke="#333" stroke-width="1"/>
+  <text x="300" y="325" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">5</text>
+  
+  <line x1="350" y1="305" x2="350" y2="315" stroke="#333" stroke-width="1"/>
+  <text x="350" y="325" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">6</text>
+  
+  <line x1="400" y1="305" x2="400" y2="315" stroke="#333" stroke-width="1"/>
+  <text x="400" y="325" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">7</text>
+  
+  <!-- Деления на оси Y -->
+  <line x1="45" y1="280" x2="55" y2="280" stroke="#333" stroke-width="1"/>
+  <text x="40" y="283" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="end">1</text>
+  
+  <line x1="45" y1="250" x2="55" y2="250" stroke="#333" stroke-width="1"/>
+  <text x="40" y="253" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="end">2</text>
+  
+  <line x1="45" y1="220" x2="55" y2="220" stroke="#333" stroke-width="1"/>
+  <text x="40" y="223" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="end">3</text>
+  
+  <line x1="45" y1="190" x2="55" y2="190" stroke="#333" stroke-width="1"/>
+  <text x="40" y="193" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="end">4</text>
+  
+  <line x1="45" y1="160" x2="55" y2="160" stroke="#333" stroke-width="1"/>
+  <text x="40" y="163" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="end">5</text>
+  
+  <!-- График функции y = √x (n=2) -->
+  <path d="M 50,310 Q 100,280 150,250 T 250,220 T 350,190 T 400,180" fill="none" stroke="#4A90E2" stroke-width="2"/>
+  <text x="420" y="180" font-family="Arial, sans-serif" font-size="12" fill="#4A90E2">y=²√x</text>
+  
+  <!-- График функции y = ³√x (n=3) -->
+  <path d="M 50,310 Q 100,290 150,270 T 250,250 T 350,230 T 400,220" fill="none" stroke="#7ED321" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="420" y="220" font-family="Arial, sans-serif" font-size="12" fill="#7ED321">y=³√x</text>
+  
+  <!-- График функции y = ⁴√x (n=4) -->
+  <path d="M 50,310 Q 100,295 150,280 T 250,265 T 350,250 T 400,240" fill="none" stroke="#BD10E0" stroke-width="2" stroke-dasharray="2,2"/>
+  <text x="420" y="240" font-family="Arial, sans-serif" font-size="12" fill="#BD10E0">y=⁴√x</text>
+  
+  <!-- Точка на графике для примера ²√4=2 -->
+  <circle cx="200" cy="250" r="4" fill="#F5A623"/>
+  <line x1="200" y1="250" x2="200" y2="310" stroke="#F5A623" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="50" y1="250" x2="200" y2="250" stroke="#F5A623" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="205" y="245" font-family="Arial, sans-serif" font-size="10" fill="#F5A623">(4,2)</text>
+  
+  <!-- Свойства корня (пустые для заполнения учителем) -->
+  <text x="250" y="340" font-family="Arial, sans-serif" font-size="14" fill="#666" text-anchor="middle">Свойства корней:</text>
 </svg>
