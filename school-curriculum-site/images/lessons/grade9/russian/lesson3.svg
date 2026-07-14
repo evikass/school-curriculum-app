@@ -1,87 +1,99 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Градиенты -->
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFEBEE"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4a6fa5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6c94c5;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#EF5350"/>
-      <stop offset="100%" stop-color="#C62828"/>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e9ecef;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#EF9A9A"/>
-      <stop offset="100%" stop-color="#EF5350"/>
+    <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#28a745;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#20c997;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <!-- Background -->
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#EF5350" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#EF5350" stroke-width="1" opacity="0.3"/>
-  <!-- Corner decorations -->
-  <polygon points="10,10 30,10 10,30" fill="#EF5350" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#C62828" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#EF5350" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#C62828" opacity="0.12"/>
-  <!-- Title -->
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#EF5350" text-anchor="middle">ССП: противительные и разделительные</text>
-  <text x="250" y="60" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Русский язык &#8212; Урок 3</text>
-  <line x1="30" y1="70" x2="470" y2="70" stroke="#EF5350" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="67" width="60" height="5" fill="#EF5350" opacity="0.18" rx="1"/>
-  <rect x="410" y="67" width="60" height="5" fill="#C62828" opacity="0.12" rx="1"/>
-
-  <!-- Illustration area -->
-  <rect x="15" y="76" width="470" height="222" rx="6" fill="#FFEBEE" opacity="0.4"/>
-
-  <!-- Two-column layout: Adversative / Disjunctive -->
-  <!-- Adversative conjunctions (left) -->
-  <rect x="22" y="82" width="228" height="36" rx="5" fill="#E65100" opacity="0.85"/>
-  <text x="136" y="105" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="white" text-anchor="middle">Противительные союзы</text>
-
-  <rect x="22" y="122" width="228" height="48" rx="5" fill="white" opacity="0.92" stroke="#E65100" stroke-width="1"/>
-  <rect x="30" y="128" width="55" height="18" rx="3" fill="#E65100" opacity="0.15"/>
-  <text x="57" y="142" font-family="Arial,sans-serif" font-size="12" fill="#E65100" text-anchor="middle" font-weight="bold">А</text>
-  <rect x="95" y="128" width="55" height="18" rx="3" fill="#E65100" opacity="0.15"/>
-  <text x="122" y="142" font-family="Arial,sans-serif" font-size="12" fill="#E65100" text-anchor="middle" font-weight="bold">НО</text>
-  <rect x="160" y="128" width="80" height="18" rx="3" fill="#E65100" opacity="0.15"/>
-  <text x="200" y="142" font-family="Arial,sans-serif" font-size="12" fill="#E65100" text-anchor="middle" font-weight="bold">ОДНАКО</text>
-  <text x="136" y="164" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">противопоставление, ограничение</text>
-
-  <rect x="22" y="176" width="228" height="55" rx="5" fill="white" opacity="0.92" stroke="#E65100" stroke-width="0.8"/>
-  <text x="136" y="192" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#E65100" text-anchor="middle">Примеры:</text>
-  <text x="32" y="207" font-family="Arial,sans-serif" font-size="9" fill="#333">Он позвал, НО никто не ответил.</text>
-  <text x="32" y="221" font-family="Arial,sans-serif" font-size="9" fill="#333">Учитель говорил, А класс молчал.</text>
-
-  <!-- Disjunctive conjunctions (right) -->
-  <rect x="260" y="82" width="218" height="36" rx="5" fill="#1565C0" opacity="0.85"/>
-  <text x="369" y="105" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="white" text-anchor="middle">Разделительные союзы</text>
-
-  <rect x="260" y="122" width="218" height="48" rx="5" fill="white" opacity="0.92" stroke="#1565C0" stroke-width="1"/>
-  <rect x="268" y="128" width="55" height="18" rx="3" fill="#1565C0" opacity="0.15"/>
-  <text x="295" y="142" font-family="Arial,sans-serif" font-size="12" fill="#1565C0" text-anchor="middle" font-weight="bold">ИЛИ</text>
-  <rect x="333" y="128" width="55" height="18" rx="3" fill="#1565C0" opacity="0.15"/>
-  <text x="360" y="142" font-family="Arial,sans-serif" font-size="12" fill="#1565C0" text-anchor="middle" font-weight="bold">ЛИБО</text>
-  <rect x="398" y="128" width="72" height="18" rx="3" fill="#1565C0" opacity="0.15"/>
-  <text x="434" y="142" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" text-anchor="middle" font-weight="bold">ТО...ТО</text>
-  <text x="369" y="164" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">чередование, выбор</text>
-
-  <rect x="260" y="176" width="218" height="55" rx="5" fill="white" opacity="0.92" stroke="#1565C0" stroke-width="0.8"/>
-  <text x="369" y="192" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#1565C0" text-anchor="middle">Примеры:</text>
-  <text x="270" y="207" font-family="Arial,sans-serif" font-size="9" fill="#333">ТО дождь шёл, ТО солнце светило.</text>
-  <text x="270" y="221" font-family="Arial,sans-serif" font-size="9" fill="#333">ИЛИ я пойду, ИЛИ ты останешься.</text>
-
-  <!-- More conjunctions: то ли...то ли, не то...не то -->
-  <rect x="260" y="237" width="218" height="30" rx="5" fill="white" opacity="0.92" stroke="#1565C0" stroke-width="0.8"/>
-  <text x="369" y="256" font-family="Arial,sans-serif" font-size="9.5" fill="#1565C0" text-anchor="middle">ТО ЛИ...ТО ЛИ | НЕ ТО...НЕ ТО</text>
-
-  <!-- Punctuation rule box -->
-  <rect x="22" y="240" width="228" height="55" rx="5" fill="white" opacity="0.92" stroke="#EF5350" stroke-width="1"/>
-  <text x="136" y="258" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#EF5350" text-anchor="middle">Правило пунктуации:</text>
-  <text x="32" y="274" font-family="Arial,sans-serif" font-size="9.5" fill="#333">Запятая ставится ALWAYS перед</text>
-  <text x="32" y="288" font-family="Arial,sans-serif" font-size="9.5" fill="#333">противит. и разделит. союзами!</text>
-
-  <!-- Bottom panel -->
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#EF5350" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#EF5350" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Русский язык &#8212; 9 класс</text>
+  
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#4a6fa5" stroke-width="3" rx="10"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#6c94c5" stroke-width="1" rx="5" stroke-dasharray="5,3"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="white" font-weight="bold">РУССКИЙ ЯЗЫК · 9 КЛАСС</text>
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="white" font-weight="bold">Сложноподчинённое предложение (СПП)</text>
+  <rect x="150" y="25" width="200" height="35" fill="url(#headerGrad)" rx="5"/>
+  <text x="25" y="45" font-family="Arial, sans-serif" font-size="14" fill="#4a6fa5" font-weight="bold">урок 12</text>
+  
+  <!-- Схема СПП -->
+  <rect x="30" y="80" width="440" height="70" fill="url(#boxGrad)" stroke="#4a6fa5" stroke-width="2" rx="5"/>
+  <text x="250" y="100" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333" font-weight="bold">Структура СПП</text>
+  
+  <!-- Главная часть -->
+  <rect x="50" y="110" width="140" height="30" fill="#ffc107" stroke="#e0a800" stroke-width="1" rx="3"/>
+  <text x="120" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Главная часть</text>
+  
+  <!-- Стрелка связи -->
+  <path d="M 190 125 L 210 125" stroke="url(#arrowGrad)" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="url(#arrowGrad)"/>
+    </marker>
+  </defs>
+  
+  <!-- Средство связи -->
+  <rect x="215" y="115" width="70" height="20" fill="#17a2b8" stroke="#138496" stroke-width="1" rx="3"/>
+  <text x="250" y="129" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">союз/слово</text>
+  
+  <!-- Стрелка связи -->
+  <path d="M 285 125 L 305 125" stroke="url(#arrowGrad)" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Придаточная часть -->
+  <rect x="310" y="110" width="140" height="30" fill="#6f42c1" stroke="#5a2d91" stroke-width="1" rx="3"/>
+  <text x="380" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Придаточная часть</text>
+  
+  <!-- Средства связи -->
+  <rect x="30" y="170" width="440" height="80" fill="url(#boxGrad)" stroke="#4a6fa5" stroke-width="2" rx="5"/>
+  <text x="250" y="190" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333" font-weight="bold">Средства связи</text>
+  
+  <!-- Подчинительные союзы -->
+  <text x="50" y="215" font-family="Arial, sans-serif" font-size="12" fill="#333" font-weight="bold">Подчинительные союзы:</text>
+  <rect x="50" y="225" width="60" height="20" fill="#28a745" stroke="#1e7e34" stroke-width="1" rx="3"/>
+  <text x="80" y="239" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">что, чтобы</text>
+  <rect x="120" y="225" width="60" height="20" fill="#28a745" stroke="#1e7e34" stroke-width="1" rx="3"/>
+  <text x="150" y="239" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">который, где</text>
+  <rect x="190" y="225" width="60" height="20" fill="#28a745" stroke="#1e7e34" stroke-width="1" rx="3"/>
+  <text x="220" y="239" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">когда, если</text>
+  
+  <!-- Союзные слова -->
+  <text x="280" y="215" font-family="Arial, sans-serif" font-size="12" fill="#333" font-weight="bold">Союзные слова:</text>
+  <rect x="280" y="225" width="60" height="20" fill="#dc3545" stroke="#c82333" stroke-width="1" rx="3"/>
+  <text x="310" y="239" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">кто, что</text>
+  <rect x="350" y="225" width="60" height="20" fill="#dc3545" stroke="#c82333" stroke-width="1" rx="3"/>
+  <text x="380" y="239" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">какой, где</text>
+  <rect x="420" y="225" width="50" height="20" fill="#dc3545" stroke="#c82333" stroke-width="1" rx="3"/>
+  <text x="445" y="239" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">куда</text>
+  
+  <!-- Виды придаточных -->
+  <rect x="30" y="270" width="440" height="60" fill="url(#boxGrad)" stroke="#4a6fa5" stroke-width="2" rx="5"/>
+  <text x="250" y="290" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333" font-weight="bold">Виды придаточных</text>
+  
+  <!-- Придаточные определительные -->
+  <rect x="40" y="300" width="90" height="25" fill="#fd7e14" stroke="#e55a00" stroke-width="1" rx="3"/>
+  <text x="85" y="317" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">Определительные</text>
+  
+  <!-- Придаточные изъяснительные -->
+  <rect x="140" y="300" width="90" height="25" fill="#20c997" stroke="#17a085" stroke-width="1" rx="3"/>
+  <text x="185" y="317" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">Изъяснительные</text>
+  
+  <!-- Придаточные обстоятельственные -->
+  <rect x="240" y="300" width="100" height="25" fill="#6f42c1" stroke="#5a2d91" stroke-width="1" rx="3"/>
+  <text x="290" y="317" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">Обстоятельственные</text>
+  
+  <!-- Придаточные дополнительные -->
+  <rect x="350" y="300" width="90" height="25" fill="#e83e8c" stroke="#c91a76" stroke-width="1" rx="3"/>
+  <text x="395" y="317" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">Дополнительные</text>
+  
+  <!-- Пример предложения -->
+  <text x="25" y="350" font-family="Arial, sans-serif" font-size="10" fill="#4a6fa5" font-style="italic">Пример: Дети, которые играли в саду, весело смеялись.</text>
 </svg>

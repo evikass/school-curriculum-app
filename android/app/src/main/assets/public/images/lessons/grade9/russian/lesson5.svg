@@ -1,110 +1,166 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Градиенты -->
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFEBEE"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2C5F2D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4A9F5A;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#EF5350"/>
-      <stop offset="100%" stop-color="#C62828"/>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5F5F5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8E8E8;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#EF9A9A"/>
-      <stop offset="100%" stop-color="#EF5350"/>
+    <linearGradient id="highlightGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:0.1" />
+    </linearGradient>
+    <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4A9F5A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2C5F2D;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <!-- Background -->
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#EF5350" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#EF5350" stroke-width="1" opacity="0.3"/>
-  <!-- Corner decorations -->
-  <polygon points="10,10 30,10 10,30" fill="#EF5350" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#C62828" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#EF5350" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#C62828" opacity="0.12"/>
-  <!-- Title -->
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#EF5350" text-anchor="middle">Виды придаточных обстоятельственных</text>
-  <text x="250" y="60" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Русский язык &#8212; Урок 5</text>
-  <line x1="30" y1="70" x2="470" y2="70" stroke="#EF5350" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="67" width="60" height="5" fill="#EF5350" opacity="0.18" rx="1"/>
-  <rect x="410" y="67" width="60" height="5" fill="#C62828" opacity="0.12" rx="1"/>
-
-  <!-- Illustration area -->
-  <rect x="15" y="76" width="470" height="222" rx="6" fill="#FFEBEE" opacity="0.4"/>
-
-  <!-- 6 types in 2 rows of 3 -->
-  <!-- Row 1: Time, Place, Condition -->
-  <rect x="22" y="82" width="150" height="68" rx="5" fill="white" opacity="0.92" stroke="#E65100" stroke-width="1"/>
-  <rect x="22" y="82" width="150" height="16" rx="5" fill="#E65100" opacity="0.85"/>
-  <rect x="22" y="93" width="150" height="5" fill="#E65100" opacity="0.85"/>
-  <text x="97" y="94" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle">Времени</text>
-  <text x="32" y="110" font-family="Arial,sans-serif" font-size="9" fill="#E65100" font-weight="bold">Когда? С каких пор?</text>
-  <text x="32" y="123" font-family="Arial,sans-serif" font-size="8.5" fill="#333">когда, пока, прежде чем,</text>
-  <text x="32" y="135" font-family="Arial,sans-serif" font-size="8.5" fill="#333">как только, едва, с тех пор</text>
-  <text x="32" y="146" font-family="Arial,sans-serif" font-size="7.5" fill="#888">Когда дождь кончился, мы вышли.</text>
-
-  <rect x="178" y="82" width="150" height="68" rx="5" fill="white" opacity="0.92" stroke="#1565C0" stroke-width="1"/>
-  <rect x="178" y="82" width="150" height="16" rx="5" fill="#1565C0" opacity="0.85"/>
-  <rect x="178" y="93" width="150" height="5" fill="#1565C0" opacity="0.85"/>
-  <text x="253" y="94" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle">Места</text>
-  <text x="188" y="110" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" font-weight="bold">Где? Куда? Откуда?</text>
-  <text x="188" y="123" font-family="Arial,sans-serif" font-size="8.5" fill="#333">где, куда, откуда, везде,</text>
-  <text x="188" y="135" font-family="Arial,sans-serif" font-size="8.5" fill="#333">везде, где, куда бы ни</text>
-  <text x="188" y="146" font-family="Arial,sans-serif" font-size="7.5" fill="#888">Я иду туда, где ждут друзья.</text>
-
-  <rect x="334" y="82" width="144" height="68" rx="5" fill="white" opacity="0.92" stroke="#2E7D32" stroke-width="1"/>
-  <rect x="334" y="82" width="144" height="16" rx="5" fill="#2E7D32" opacity="0.85"/>
-  <rect x="334" y="93" width="144" height="5" fill="#2E7D32" opacity="0.85"/>
-  <text x="406" y="94" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle">Условия</text>
-  <text x="344" y="110" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" font-weight="bold">При каком условии?</text>
-  <text x="344" y="123" font-family="Arial,sans-serif" font-size="8.5" fill="#333">если, если...то, коли,</text>
-  <text x="344" y="135" font-family="Arial,sans-serif" font-size="8.5" fill="#333">раз, когда (= если)</text>
-  <text x="344" y="146" font-family="Arial,sans-serif" font-size="7.5" fill="#888">Если будет время, я приду.</text>
-
-  <!-- Row 2: Cause, Purpose, Concession -->
-  <rect x="22" y="156" width="150" height="68" rx="5" fill="white" opacity="0.92" stroke="#7B1FA2" stroke-width="1"/>
-  <rect x="22" y="156" width="150" height="16" rx="5" fill="#7B1FA2" opacity="0.85"/>
-  <rect x="22" y="167" width="150" height="5" fill="#7B1FA2" opacity="0.85"/>
-  <text x="97" y="168" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle">Причины</text>
-  <text x="32" y="184" font-family="Arial,sans-serif" font-size="9" fill="#7B1FA2" font-weight="bold">Почему? Отчего?</text>
-  <text x="32" y="197" font-family="Arial,sans-serif" font-size="8.5" fill="#333">потому что, так как,</text>
-  <text x="32" y="209" font-family="Arial,sans-serif" font-size="8.5" fill="#333">поскольку, ибо, оттого что</text>
-  <text x="32" y="220" font-family="Arial,sans-serif" font-size="7.5" fill="#888">Я остался, потому что шёл дождь.</text>
-
-  <rect x="178" y="156" width="150" height="68" rx="5" fill="white" opacity="0.92" stroke="#00695C" stroke-width="1"/>
-  <rect x="178" y="156" width="150" height="16" rx="5" fill="#00695C" opacity="0.85"/>
-  <rect x="178" y="167" width="150" height="5" fill="#00695C" opacity="0.85"/>
-  <text x="253" y="168" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle">Цели</text>
-  <text x="188" y="184" font-family="Arial,sans-serif" font-size="9" fill="#00695C" font-weight="bold">Зачем? С какой целью?</text>
-  <text x="188" y="197" font-family="Arial,sans-serif" font-size="8.5" fill="#333">чтобы, для того чтобы,</text>
-  <text x="188" y="209" font-family="Arial,sans-serif" font-size="8.5" fill="#333">с тем чтобы, затем чтобы</text>
-  <text x="188" y="220" font-family="Arial,sans-serif" font-size="7.5" fill="#888">Мы пришли, чтобы помочь.</text>
-
-  <rect x="334" y="156" width="144" height="68" rx="5" fill="white" opacity="0.92" stroke="#F57F17" stroke-width="1"/>
-  <rect x="334" y="156" width="144" height="16" rx="5" fill="#F57F17" opacity="0.85"/>
-  <rect x="334" y="167" width="144" height="5" fill="#F57F17" opacity="0.85"/>
-  <text x="406" y="168" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle">Уступки</text>
-  <text x="344" y="184" font-family="Arial,sans-serif" font-size="9" fill="#F57F17" font-weight="bold">Несмотря на что?</text>
-  <text x="344" y="197" font-family="Arial,sans-serif" font-size="8.5" fill="#333">хотя, хоть, пусть,</text>
-  <text x="344" y="209" font-family="Arial,sans-serif" font-size="8.5" fill="#333">несмотря на то что,</text>
-  <text x="344" y="220" font-family="Arial,sans-serif" font-size="7.5" fill="#888">Хотя было холодно, мы гуляли.</text>
-
-  <!-- Additional: comparison and manner -->
-  <rect x="22" y="230" width="225" height="66" rx="5" fill="white" opacity="0.92" stroke="#37474F" stroke-width="1"/>
-  <text x="134" y="248" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#37474F" text-anchor="middle">Сравнительные: Как? Подобно?</text>
-  <text x="32" y="264" font-family="Arial,sans-serif" font-size="9" fill="#333">как, словно, будто, как будто, точно</text>
-  <text x="32" y="278" font-family="Arial,sans-serif" font-size="8.5" fill="#888">Лес стоял тихо, словно замер.</text>
-  <text x="32" y="291" font-family="Arial,sans-serif" font-size="8.5" fill="#555">Образа действия: Как? Каким образом?</text>
-
-  <rect x="253" y="230" width="225" height="66" rx="5" fill="white" opacity="0.92" stroke="#4E342E" stroke-width="1"/>
-  <text x="365" y="248" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4E342E" text-anchor="middle">Следствия: В результате чего?</text>
-  <text x="263" y="264" font-family="Arial,sans-serif" font-size="9" fill="#333">так что (всегда после главного!)</text>
-  <text x="263" y="278" font-family="Arial,sans-serif" font-size="8.5" fill="#888">Дождь лил, так что реки вышли из берегов.</text>
-  <text x="263" y="291" font-family="Arial,sans-serif" font-size="8.5" fill="#555">Нельзя разорвать на два предл.</text>
-
-  <!-- Bottom panel -->
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#EF5350" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#EF5350" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Русский язык &#8212; 9 класс</text>
+  
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="url(#headerGrad)" stroke-width="3"/>
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#C0C0C0" stroke-width="1" stroke-dasharray="5,3"/>
+  
+  <!-- Заголовок класса -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#666">РУССКИЙ ЯЗЫК · 9 КЛАСС</text>
+  
+  <!-- Номер урока -->
+  <rect x="440" y="15" width="40" height="20" fill="url(#headerGrad)" rx="3"/>
+  <text x="460" y="29" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="bold">Ур. 12</text>
+  
+  <!-- Заголовок темы -->
+  <rect x="20" y="40" width="460" height="35" fill="url(#headerGrad)" rx="5"/>
+  <text x="250" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="white" font-weight="bold">Бессоюзное сложное предложение (БСП)</text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#333">Связь частей интонацией. Пунктуация.</text>
+  
+  <!-- Таблица знаков препинания -->
+  <g transform="translate(20, 110)">
+    <rect width="220" height="200" fill="url(#boxGrad)" stroke="#999" stroke-width="1" rx="5"/>
+    <text x="110" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#333" font-weight="bold">Знаки препинания в БСП</text>
+    
+    <!-- Запятая -->
+    <text x="15" y="45" font-family="Arial, sans-serif" font-size="12" fill="#333">1. Запятая (,)</text>
+    <line x1="15" y1="55" x2="205" y2="55" stroke="#999" stroke-width="1"/>
+    <text x="15" y="70" font-family="Arial, sans-serif" font-size="11" fill="#555">• Между частями с разными</text>
+    <text x="15" y="85" font-family="Arial, sans-serif" font-size="11" fill="#555">  субъектами действия</text>
+    <text x="15" y="100" font-family="Arial, sans-serif" font-size="11" fill="#555">• При последовательности действий</text>
+    <text x="15" y="115" font-family="Arial, sans-serif" font-size="11" fill="#555">• При однородных членах</text>
+    
+    <!-- Точка с запятой -->
+    <text x="15" y="135" font-family="Arial, sans-serif" font-size="12" fill="#333">2. Точка с запятой (;)</text>
+    <line x1="15" y1="145" x2="205" y2="145" stroke="#999" stroke-width="1"/>
+    <text x="15" y="160" font-family="Arial, sans-serif" font-size="11" fill="#555">• Между сложносочинёнными</text>
+    <text x="15" y="175" font-family="Arial, sans-serif" font-size="11" fill="#555">  частями</text>
+    <text x="15" y="190" font-family="Arial, sans-serif" font-size="11" fill="#555">• При перечислении БСП</text>
+  </g>
+  
+  <!-- Таблица знаков препинания (продолжение) -->
+  <g transform="translate(260, 110)">
+    <rect width="220" height="200" fill="url(#boxGrad)" stroke="#999" stroke-width="1" rx="5"/>
+    
+    <!-- Двоеточие -->
+    <text x="15" y="20" font-family="Arial, sans-serif" font-size="12" fill="#333">3. Двоеточие (:)</text>
+    <line x1="15" y1="30" x2="205" y2="30" stroke="#999" stroke-width="1"/>
+    <text x="15" y="45" font-family="Arial, sans-serif" font-size="11" fill="#555">• При пояснительной связи</text>
+    <text x="15" y="60" font-family="Arial, sans-serif" font-size="11" fill="#555">• При следственной связи</text>
+    <text x="15" y="75" font-family="Arial, sans-serif" font-size="11" fill="#555">• При изложении причины</text>
+    
+    <!-- Тире -->
+    <text x="15" y="95" font-family="Arial, sans-serif" font-size="12" fill="#333">4. Тире (—)</text>
+    <line x1="15" y1="105" x2="205" y2="105" stroke="#999" stroke-width="1"/>
+    <text x="15" y="120" font-family="Arial, sans-serif" font-size="11" fill="#555">• При резком противопоставлении</text>
+    <text x="15" y="135" font-family="Arial, sans-serif" font-size="11" fill="#555">• При внезапной смене мысли</text>
+    <text x="15" y="150" font-family="Arial, sans-serif" font-size="11" fill="#555">• При выводе, заключении</text>
+    <text x="15" y="165" font-family="Arial, sans-serif" font-size="11" fill="#555">• При обращении</text>
+    <text x="15" y="180" font-family="Arial, sans-serif" font-size="11" fill="#555">• При перечислении БСП</text>
+  </g>
+  
+  <!-- Примеры предложений -->
+  <g transform="translate(20, 320)">
+    <rect width="460" height="25" fill="url(#highlightGrad)" rx="3"/>
+    <text x="10" y="17" font-family="Arial, sans-serif" font-size="11" fill="#333">Примеры: </text>
+    <text x="60" y="17" font-family="Arial, sans-serif" font-size="11" fill="#333">Лес дремал, надвигалась ночь.</text>
+    <text x="200" y="17" font-family="Arial, sans-serif" font-size="11" fill="#333">Я вышел на улицу; за мной закрылась дверь.</text>
+    <text x="380" y="17" font-family="Arial, sans-serif" font-size="11" fill="#333">Он молчал: ему было нечего сказать.</text>
+  </g>
+  
+  <!-- Схема БСП с запятой -->
+  <g transform="translate(30, 150)">
+    <rect x="0" y="0" width="180" height="60" fill="white" stroke="#4A9F5A" stroke-width="2" rx="3"/>
+    <text x="90" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Часть 1</text>
+    <text x="40" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">Я читаю</text>
+    <text x="140" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">книгу</text>
+    <text x="90" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#E74C3C">,</text>
+    <line x1="90" y1="55" x2="90" y2="65" stroke="#999" stroke-width="1"/>
+    <text x="90" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Часть 2</text>
+    <text x="90" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">мальчик спит</text>
+  </g>
+  
+  <!-- Схема БСП с точкой с запятой -->
+  <g transform="translate(250, 150)">
+    <rect x="0" y="0" width="180" height="60" fill="white" stroke="#4A9F5A" stroke-width="2" rx="3"/>
+    <text x="90" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Часть 1</text>
+    <text x="40" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">Шёл дождь</text>
+    <text x="140" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">листики</text>
+    <text x="90" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#E74C3C">;</text>
+    <line x1="90" y1="55" x2="90" y2="65" stroke="#999" stroke-width="1"/>
+    <text x="90" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Часть 2</text>
+    <text x="90" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">ветер свистел</text>
+  </g>
+  
+  <!-- Схема БСП с двоеточием -->
+  <g transform="translate(30, 230)">
+    <rect x="0" y="0" width="180" height="60" fill="white" stroke="#4A9F5A" stroke-width="2" rx="3"/>
+    <text x="90" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Часть 1</text>
+    <text x="40" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">Он знал</text>
+    <text x="140" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">ответ</text>
+    <text x="90" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#E74C3C">:</text>
+    <line x1="90" y1="55" x2="90" y2="65" stroke="#999" stroke-width="1"/>
+    <text x="90" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Часть 2</text>
+    <text x="90" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">всё было просто</text>
+  </g>
+  
+  <!-- Схема БСП с тире -->
+  <g transform="translate(250, 230)">
+    <rect x="0" y="0" width="180" height="60" fill="white" stroke="#4A9F5A" stroke-width="2" rx="3"/>
+    <text x="90" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Часть 1</text>
+    <text x="40" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">Хотелось</text>
+    <text x="140" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">домой</text>
+    <text x="90" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#E74C3C">—</text>
+    <line x1="90" y1="55" x2="90" y2="65" stroke="#999" stroke-width="1"/>
+    <text x="90" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Часть 2</text>
+    <text x="90" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">но пришлось остаться</text>
+  </g>
+  
+  <!-- Стрелки, показывающие связь -->
+  <g>
+    <path d="M 120 210 Q 120 220 120 230" fill="none" stroke="url(#arrowGrad)" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M 340 210 Q 340 220 340 230" fill="none" stroke="url(#arrowGrad)" stroke-width="2" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Маркер стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4A9F5A"/>
+    </marker>
+  </defs>
+  
+  <!-- Указатели смысла -->
+  <text x="220" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">сравнение</text>
+  <text x="440" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">противопоставление</text>
+  <text x="120" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">объяснение</text>
+  <text x="340" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">вывод</text>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="15" cy="15" r="3" fill="#4A9F5A"/>
+  <circle cx="485" cy="15" r="3" fill="#4A9F5A"/>
+  <circle cx="15" cy="335" r="3" fill="#4A9F5A"/>
+  <circle cx="485" cy="335" r="3" fill="#4A9F5A"/>
+  
+  <!-- Пояснительные надписи -->
+  <text x="250" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#666" font-style="italic">Интонационная связь между частями БСП</text>
 </svg>
