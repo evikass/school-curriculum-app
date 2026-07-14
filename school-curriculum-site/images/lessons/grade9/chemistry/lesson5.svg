@@ -1,86 +1,173 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter id="shadow5" x="-5%" y="-5%" width="110%" height="110%">
-      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#00000033"/>
-    </filter>
-    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#E3F2FD"/>
-      <stop offset="100%" stop-color="#90CAF9"/>
+    <linearGradient id="liquidGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4FC3F7;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#29B6F6;stop-opacity:0.9" />
     </linearGradient>
-    <linearGradient id="solGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#FFF9C4"/>
-      <stop offset="100%" stop-color="#FFE082"/>
+    
+    <radialGradient id="particleGrad">
+      <stop offset="0%" style="stop-color:#FF7043;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#FF5722;stop-opacity:1" />
+    </radialGradient>
+    
+    <radialGradient id="soluteGrad">
+      <stop offset="0%" style="stop-color:#66BB6A;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#4CAF50;stop-opacity:1" />
+    </radialGradient>
+    
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E1F5FE;stop-opacity:0.6" />
+      <stop offset="50%" style="stop-color:#B3E5FC;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#E1F5FE;stop-opacity:0.6" />
     </linearGradient>
   </defs>
-  <!-- Background -->
-  <rect width="500" height="350" rx="12" fill="#E8F5E9"/>
-  <rect x="0" y="0" width="500" height="52" rx="12" fill="#388E3C"/>
-  <rect x="0" y="20" width="500" height="32" fill="#388E3C"/>
-  <!-- Header -->
-  <text x="250" y="35" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="white">Урок 5: Растворы и их свойства</text>
-
-  <!-- Solution diagram: beaker -->
-  <rect x="15" y="60" width="190" height="155" rx="8" fill="white" opacity="0.9" filter="url(#shadow5)"/>
-  <text x="110" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#388E3C">Компоненты раствора</text>
-  <!-- Beaker shape -->
-  <path d="M55,95 L55,190 Q55,200 65,200 L155,200 Q165,200 165,190 L165,95 Z" fill="url(#waterGrad)" stroke="#1565C0" stroke-width="1.5"/>
-  <rect x="50" y="88" width="120" height="10" rx="2" fill="none" stroke="#1565C0" stroke-width="1.5"/>
-  <!-- Dissolved particles -->
-  <circle cx="80" cy="130" r="5" fill="url(#solGrad)" stroke="#F9A825" stroke-width="0.8"/>
-  <circle cx="110" cy="150" r="4" fill="url(#solGrad)" stroke="#F9A825" stroke-width="0.8"/>
-  <circle cx="130" cy="120" r="5" fill="url(#solGrad)" stroke="#F9A825" stroke-width="0.8"/>
-  <circle cx="95" cy="170" r="4" fill="url(#solGrad)" stroke="#F9A825" stroke-width="0.8"/>
-  <circle cx="140" cy="165" r="5" fill="url(#solGrad)" stroke="#F9A825" stroke-width="0.8"/>
-  <circle cx="120" cy="185" r="3" fill="url(#solGrad)" stroke="#F9A825" stroke-width="0.8"/>
-  <!-- Labels -->
-  <text x="110" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#1565C0">Растворитель (H₂O)</text>
-  <line x1="140" y1="125" x2="185" y2="115" stroke="#F9A825" stroke-width="0.8"/>
-  <text x="187" y="115" font-family="Arial,sans-serif" font-size="7" fill="#F9A825">Растворённое</text>
-  <text x="187" y="124" font-family="Arial,sans-serif" font-size="7" fill="#F9A825">вещество</text>
-
-  <!-- Types by concentration -->
-  <rect x="215" y="60" width="270" height="155" rx="8" fill="white" opacity="0.9" filter="url(#shadow5)"/>
-  <text x="350" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#388E3C">Виды растворов</text>
-  <line x1="225" y1="86" x2="475" y2="86" stroke="#A5D6A7" stroke-width="1"/>
-  <text x="225" y="102" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#388E3C">По концентрации:</text>
-  <!-- Dilute -->
-  <rect x="225" y="108" width="80" height="22" rx="4" fill="#E8F5E9" stroke="#66BB6A" stroke-width="1"/>
-  <text x="265" y="123" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#333">Разбавленный</text>
-  <!-- Concentrated -->
-  <rect x="315" y="108" width="80" height="22" rx="4" fill="#A5D6A7" stroke="#66BB6A" stroke-width="1"/>
-  <text x="355" y="123" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#333">Концентрир.</text>
-  <!-- Saturated -->
-  <rect x="225" y="135" width="80" height="22" rx="4" fill="#66BB6A" stroke="#388E3C" stroke-width="1"/>
-  <text x="265" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="white">Насыщенный</text>
-  <!-- Unsaturated -->
-  <rect x="315" y="135" width="80" height="22" rx="4" fill="#C8E6C9" stroke="#66BB6A" stroke-width="1"/>
-  <text x="355" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#333">Ненасыщен.</text>
-  <!-- Supersaturated -->
-  <rect x="405" y="108" width="72" height="49" rx="4" fill="#FFCDD2" stroke="#C62828" stroke-width="1"/>
-  <text x="441" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#C62828">Пересыщ.</text>
-  <text x="441" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#C62828">(неустойч.)</text>
-  <text x="225" y="178" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#388E3C">По агрегатному состоянию:</text>
-  <text x="225" y="195" font-family="Arial,sans-serif" font-size="9" fill="#333">Газ (воздух) | Жидкость (сахар+H₂O) | Твёрдое (сплавы)</text>
-  <text x="225" y="209" font-family="Arial,sans-serif" font-size="8" fill="#388E3C" font-style="italic">Насыщенный — вещество больше не растворяется при данной t</text>
-
-  <!-- Solubility -->
-  <rect x="15" y="222" width="235" height="60" rx="8" fill="white" opacity="0.9" filter="url(#shadow5)"/>
-  <text x="132" y="242" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#388E3C">Растворимость</text>
-  <line x1="25" y1="248" x2="240" y2="248" stroke="#A5D6A7" stroke-width="1"/>
-  <text x="25" y="263" font-family="Arial,sans-serif" font-size="9" fill="#333">Хорошо: NaCl, сахар</text>
-  <text x="25" y="276" font-family="Arial,sans-serif" font-size="9" fill="#333">Мало: CaSO₄ | Нет: AgCl, BaSO₄</text>
-
-  <!-- Temperature effect -->
-  <rect x="260" y="222" width="225" height="60" rx="8" fill="white" opacity="0.9" filter="url(#shadow5)"/>
-  <text x="372" y="242" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#388E3C">Влияние температуры</text>
-  <line x1="270" y1="248" x2="475" y2="248" stroke="#A5D6A7" stroke-width="1"/>
-  <text x="270" y="263" font-family="Arial,sans-serif" font-size="9" fill="#C62828">Твёрдые в-ва: растворимость ↑ с t°</text>
-  <text x="270" y="276" font-family="Arial,sans-serif" font-size="9" fill="#1565C0">Газы: растворимость ↓ с t°</text>
-
-  <!-- Electrolytes -->
-  <rect x="15" y="290" width="470" height="52" rx="8" fill="white" opacity="0.9" filter="url(#shadow5)"/>
-  <text x="250" y="310" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#388E3C">Электролиты и неэлектролиты</text>
-  <line x1="25" y1="316" x2="475" y2="316" stroke="#A5D6A7" stroke-width="1"/>
-  <text x="25" y="332" font-family="Arial,sans-serif" font-size="9" fill="#C62828">Электролиты (проводят ток): кислоты, щёлочи, соли — содержат ионы</text>
-  <text x="25" y="338" font-family="Arial,sans-serif" font-size="9" fill="#1565C0">Неэлектролиты: сахар, глицерин — нет ионов</text>
+  
+  <!-- Декоративная рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#37474F" stroke-width="2" rx="5"/>
+  
+  <!-- Заголовок класса -->
+  <text x="250" y="25" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#37474F" font-weight="bold">ХИМИЯ · 9 КЛАСС</text>
+  
+  <!-- Номер урока -->
+  <text x="25" y="35" font-family="Arial, sans-serif" font-size="12" fill="#37474F">Урок 12</text>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#263238" font-weight="bold">Растворы и их свойства</text>
+  
+  <!-- Колба для раствора -->
+  <path d="M150 120 L150 200 Q150 230 180 250 L220 250 Q250 230 250 200 L250 120 Z" 
+        fill="url(#glassGrad)" stroke="#546E7A" stroke-width="2"/>
+  
+  <!-- Жидкость в колбе -->
+  <path d="M155 180 L155 220 Q155 245 180 245 L220 245 Q245 245 245 220 L245 180 Z" 
+        fill="url(#liquidGrad)" opacity="0.7"/>
+  
+  <!-- Молекулы растворителя (вода) -->
+  <g id="waterMolecules">
+    <circle cx="170" cy="190" r="8" fill="#4FC3F7" opacity="0.8"/>
+    <text x="170" y="194" font-family="Arial" font-size="8" text-anchor="middle" fill="#01579B">H₂O</text>
+    
+    <circle cx="190" cy="200" r="8" fill="#4FC3F7" opacity="0.8"/>
+    <text x="190" y="204" font-family="Arial" font-size="8" text-anchor="middle" fill="#01579B">H₂O</text>
+    
+    <circle cx="210" cy="195" r="8" fill="#4FC3F7" opacity="0.8"/>
+    <text x="210" y="199" font-family="Arial" font-size="8" text-anchor="middle" fill="#01579B">H₂O</text>
+    
+    <circle cx="185" cy="215" r="8" fill="#4FC3F7" opacity="0.8"/>
+    <text x="185" y="219" font-family="Arial" font-size="8" text-anchor="middle" fill="#01579B">H₂O</text>
+    
+    <circle cx="215" cy="220" r="8" fill="#4FC3F7" opacity="0.8"/>
+    <text x="215" y="224" font-family="Arial" font-size="8" text-anchor="middle" fill="#01579B">H₂O</text>
+  </g>
+  
+  <!-- Растворенное вещество -->
+  <g id="solute">
+    <circle cx="200" cy="170" r="12" fill="url(#soluteGrad)"/>
+    <text x="200" y="175" font-family="Arial" font-size="10" text-anchor="middle" fill="white">NaCl</text>
+  </g>
+  
+  <!-- Продукты взаимодействия -->
+  <g id="products">
+    <circle cx="175" cy="210" r="6" fill="#FF7043"/>
+    <text x="175" y="213" font-family="Arial" font-size="7" text-anchor="middle" fill="white">Na⁺</text>
+    
+    <circle cx="225" cy="210" r="6" fill="#7E57C2"/>
+    <text x="225" y="213" font-family="Arial" font-size="7" text-anchor="middle" fill="white">Cl⁻</text>
+    
+    <circle cx="190" cy="225" r="6" fill="#FF7043"/>
+    <text x="190" y="228" font-family="Arial" font-size="7" text-anchor="middle" fill="white">Na⁺</text>
+    
+    <circle cx="210" cy="230" r="6" fill="#7E57C2"/>
+    <text x="210" y="233" font-family="Arial" font-size="7" text-anchor="middle" fill="white">Cl⁻</text>
+  </g>
+  
+  <!-- Стрелки взаимодействия -->
+  <g id="arrows">
+    <path d="M200 170 L185 210" stroke="#FF5722" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M200 170 L215 210" stroke="#7E57C2" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#37474F"/>
+      </marker>
+    </defs>
+  </g>
+  
+  <!-- Подписи компонентов -->
+  <g id="labels">
+    <!-- Растворитель -->
+    <line x1="170" y1="190" x2="100" y2="150" stroke="#37474F" stroke-width="1"/>
+    <rect x="40" y="135" width="60" height="30" fill="white" stroke="#37474F" stroke-width="1" rx="3"/>
+    <text x="70" y="155" font-family="Arial" font-size="12" text-anchor="middle" fill="#37474F">Растворитель</text>
+    <text x="70" y="170" font-family="Arial" font-size="10" text-anchor="middle" fill="#01579B">(вода)</text>
+    
+    <!-- Растворенное вещество -->
+    <line x1="200" y1="170" x2="280" y2="130" stroke="#37474F" stroke-width="1"/>
+    <rect x="280" y="115" width="100" height="30" fill="white" stroke="#37474F" stroke-width="1" rx="3"/>
+    <text x="330" y="135" font-family="Arial" font-size="12" text-anchor="middle" fill="#37474F">Растворенное</text>
+    <text x="330" y="150" font-family="Arial" font-size="10" text-anchor="middle" fill="#37474F">вещество</text>
+    
+    <!-- Продукты взаимодействия -->
+    <line x1="175" y1="210" x2="100" y2="250" stroke="#37474F" stroke-width="1"/>
+    <rect x="20" y="235" width="80" height="30" fill="white" stroke="#37474F" stroke-width="1" rx="3"/>
+    <text x="60" y="255" font-family="Arial" font-size="12" text-anchor="middle" fill="#37474F">Продукты</text>
+    <text x="60" y="270" font-family="Arial" font-size="10" text-anchor="middle" fill="#37474F">взаимодействия</text>
+  </g>
+  
+  <!-- Объяснение процесса -->
+  <g id="explanation">
+    <rect x="20" y="290" width="460" height="40" fill="#ECEFF1" stroke="#37474F" stroke-width="1" rx="5"/>
+    <text x="250" y="305" font-family="Arial" font-size="12" text-anchor="middle" fill="#37474F">Раствор — однородная система,</text>
+    <text x="250" y="320" font-family="Arial" font-size="12" text-anchor="middle" fill="#37474F">состоящая из растворителя, растворённого вещества и продуктов их взаимодействия</text>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <!-- Молекула до растворения -->
+  <g id="beforeDissolution">
+    <rect x="350" y="80" width="80" height="100" fill="white" stroke="#37474F" stroke-width="1" rx="5"/>
+    <text x="390" y="95" font-family="Arial" font-size="11" text-anchor="middle" fill="#37474F">До растворения</text>
+    
+    <circle cx="390" cy="130" r="15" fill="#66BB6A"/>
+    <text x="390" y="135" font-family="Arial" font-size="10" text-anchor="middle" fill="white">NaCl</text>
+    
+    <line x1="390" y1="115" x2="390" y2="100" stroke="#37474F" stroke-width="1" marker-end="url(#arrowhead)"/>
+    <text x="390" y="98" font-family="Arial" font-size="10" text-anchor="middle" fill="#37474F">твердое</text>
+  </g>
+  
+  <!-- Молекулы после растворения -->
+  <g id="afterDissolution">
+    <rect x="350" y="200" width="80" height="100" fill="white" stroke="#37474F" stroke-width="1" rx="5"/>
+    <text x="390" y="215" font-family="Arial" font-size="11" text-anchor="middle" fill="#37474F">После растворения</text>
+    
+    <circle cx="370" cy="245" r="6" fill="#FF7043"/>
+    <text x="370" y="248" font-family="Arial" font-size="7" text-anchor="middle" fill="white">Na⁺</text>
+    
+    <circle cx="410" cy="245" r="6" fill="#7E57C2"/>
+    <text x="410" y="248" font-family="Arial" font-size="7" text-anchor="middle" fill="white">Cl⁻</text>
+    
+    <circle cx="390" cy="265" r="6" fill="#FF7043"/>
+    <text x="390" y="268" font-family="Arial" font-size="7" text-anchor="middle" fill="white">Na⁺</text>
+    
+    <circle cx="370" cy="275" r="6" fill="#7E57C2"/>
+    <text x="370" y="278" font-family="Arial" font-size="7" text-anchor="middle" fill="white">Cl⁻</text>
+    
+    <circle cx="410" cy="275" r="6" fill="#FF7043"/>
+    <text x="410" y="278" font-family="Arial" font-size="7" text-anchor="middle" fill="white">Na⁺</text>
+  </g>
+  
+  <!-- Стрелка между состояниями -->
+  <line x1="390" y1="190" x2="390" y2="190" stroke="#37474F" stroke-width="2"/>
+  <polygon points="385,185 390,195 395,185" fill="#37474F"/>
+  
+  <!-- Свойства раствора -->
+  <g id="properties">
+    <circle cx="80" cy="100" r="25" fill="#FFF3E0" stroke="#FF8F00" stroke-width="1"/>
+    <text x="80" y="105" font-family="Arial" font-size="10" text-anchor="middle" fill="#E65100">Однородность</text>
+    
+    <circle cx="130" cy="100" r="25" fill="#FFF3E0" stroke="#FF8F00" stroke-width="1"/>
+    <text x="130" y="105" font-family="Arial" font-size="10" text-anchor="middle" fill="#E65100">Прозрачность</text>
+    
+    <circle cx="180" cy="100" r="25" fill="#FFF3E0" stroke="#FF8F00" stroke-width="1"/>
+    <text x="180" y="105" font-family="Arial" font-size="10" text-anchor="middle" fill="#E65100">Стабильность</text>
+  </g>
 </svg>

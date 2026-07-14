@@ -1,0 +1,152 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6f2ff;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="oxygenGrad">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c92a2a;stop-opacity:1" />
+    </radialGradient>
+    
+    <radialGradient id="ozoneGrad">
+      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </radialGradient>
+    
+    <linearGradient id="oxideGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#74c0fc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#339af0;stop-opacity:1" />
+    </linearGradient>
+    
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Фоновый прямоугольник -->
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#4dabf7" stroke-width="3" rx="5" ry="5"/>
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#339af0" stroke-width="1" rx="3" ry="3"/>
+  
+  <!-- Заголовок и класс -->
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1864ab">ХИМИЯ · 9 КЛАСС</text>
+  <text x="250" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1c7ed6">Кислород. Оксиды</text>
+  <text x="450" y="35" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#495057">Урок 12</text>
+  
+  <!-- Строение кислорода -->
+  <g transform="translate(100, 100)">
+    <circle cx="0" cy="0" r="40" fill="url(#oxygenGrad)" filter="url(#shadow)"/>
+    <circle cx="-15" cy="-15" r="15" fill="white" opacity="0.3"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">O₂</text>
+    <text x="0" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1864ab">Молекула кислорода</text>
+    <text x="0" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#495057">2 валентных электрона</text>
+  </g>
+  
+  <!-- Озон -->
+  <g transform="translate(300, 100)">
+    <circle cx="0" cy="0" r="40" fill="url(#ozoneGrad)" filter="url(#shadow)"/>
+    <circle cx="-10" cy="-10" r="12" fill="white" opacity="0.3"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">O₃</text>
+    <text x="0" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7c3aed">Молекула озона</text>
+    <text x="0" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#495057">Три атома кислорода</text>
+  </g>
+  
+  <!-- Получение кислорода в промышленности -->
+  <g transform="translate(100, 220)">
+    <rect x="-50" y="-20" width="100" height="40" fill="#e7f5ff" stroke="#339af0" stroke-width="1" rx="5" ry="5"/>
+    <text x="0" y="-5" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1864ab">Промышленное</text>
+    <text x="0" y="8" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1864ab">получение</text>
+    <text x="0" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#495057">2KClO₃ → 2KCl + 3O₂</text>
+  </g>
+  
+  <!-- Получение кислорода в лаборатории -->
+  <g transform="translate(300, 220)">
+    <rect x="-50" y="-20" width="100" height="40" fill="#e7f5ff" stroke="#339af0" stroke-width="1" rx="5" ry="5"/>
+    <text x="0" y="-5" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1864ab">Лабораторное</text>
+    <text x="0" y="8" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1864ab">получение</text>
+    <text x="0" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#495057">2H₂O₂ → 2H₂O + O₂</text>
+  </g>
+  
+  <!-- Классификация оксидов -->
+  <g transform="translate(400, 150)">
+    <rect x="-70" y="-40" width="140" height="120" fill="#f8f9fa" stroke="#495057" stroke-width="1" rx="5" ry="5"/>
+    <text x="0" y="-25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#212529">Классификация</text>
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#212529">оксидов</text>
+    
+    <line x1="-60" y1="-5" x2="60" y2="-5" stroke="#dee2e6" stroke-width="1"/>
+    
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#495057">Основные</text>
+    <text x="0" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#495057">Am₂O, BmO</text>
+    
+    <line x1="-60" y1="20" x2="60" y2="20" stroke="#dee2e6" stroke-width="1"/>
+    
+    <text x="0" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#495057">Кислотные</text>
+    <text x="0" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#495057">A₂Oₙ, AOₙ</text>
+    
+    <line x1="-60" y1="45" x2="60" y2="45" stroke="#dee2e6" stroke-width="1"/>
+    
+    <text x="0" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#495057">AmOn</text>
+  </g>
+  
+  <!-- Физические свойства -->
+  <g transform="translate(250, 290)">
+    <ellipse cx="0" cy="0" rx="80" ry="20" fill="url(#oxideGrad)" opacity="0.7"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white" font-weight="bold">Физические свойства</text>
+    <text x="-100" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#495057">Газ</text>
+    <text x="-50" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#495057">-218°C</text>
+    <text x="0" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#495057">Бесцветный</text>
+    <text x="50" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#495057">Вкусный</text>
+    <text x="100" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#495057">Запах отсутствует</text>
+  </g>
+  
+  <!-- Химические свойства -->
+  <g transform="translate(80, 290)">
+    <ellipse cx="0" cy="0" rx="60" ry="15" fill="#ffd43b" opacity="0.7"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#495057" font-weight="bold">Окислитель</text>
+  </g>
+  
+  <!-- Реакции горения -->
+  <g transform="translate(420, 290)">
+    <ellipse cx="0" cy="0" rx="70" ry="15" fill="#40c057" opacity="0.7"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white" font-weight="bold">C + O₂ → CO₂</text>
+  </g>
+  
+  <!-- Связующая линия между кислородом и озоном -->
+  <path d="M140,100 Q200,80 260,100" stroke="#7c3aed" stroke-width="1" stroke-dasharray="5,5" fill="none" opacity="0.5"/>
+  
+  <!-- Связующая линия между получениями -->
+  <path d="M150,220 Q225,200 250,220" stroke="#339af0" stroke-width="1" stroke-dasharray="3,3" fill="none" opacity="0.5"/>
+  
+  <!-- Дополнительные элементы декора -->
+  <circle cx="30" cy="80" r="3" fill="#ff6b6b" opacity="0.5"/>
+  <circle cx="470" cy="80" r="3" fill="#a78bfa" opacity="0.5"/>
+  <circle cx="30" cy="270" r="3" fill="#339af0" opacity="0.5"/>
+  <circle cx="470" cy="270" r="3" fill="#ffd43b" opacity="0.5"/>
+  
+  <!-- Атом кислорода -->
+  <g transform="translate(200, 280)">
+    <circle cx="0" cy="0" r="8" fill="#ff6b6b" opacity="0.8"/>
+    <circle cx="0" cy="0" r="5" fill="white"/>
+    <text x="0" y="3" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#495057">O</text>
+  </g>
+  
+  <!-- Модель строения -->
+  <g transform="translate(350, 280)">
+    <circle cx="0" cy="0" r="6" fill="#339af0"/>
+    <circle cx="-8" cy="0" r="3" fill="#495057"/>
+    <circle cx="8" cy="0" r="3" fill="#495057"/>
+    <line x1="-6" y1="0" x2="0" y2="0" stroke="#495057" stroke-width="2"/>
+    <line x1="6" y1="0" x2="0" y2="0" stroke="#495057" stroke-width="2"/>
+  </g>
+  
+  <!-- Ион кислорода -->
+  <g transform="translate(150, 280)">
+    <circle cx="0" cy="0" r="10" fill="#ff6b6b" opacity="0.8"/>
+    <circle cx="0" cy="0" r="6" fill="white"/>
+    <text x="0" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#495057">O²⁻</text>
+  </g>
+</svg>

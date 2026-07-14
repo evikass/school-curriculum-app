@@ -1,0 +1,99 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="sulfurGrad">
+      <stop offset="0%" style="stop-color:#FFFF99;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFD700;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="gasGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#4682B4;stop-opacity:0.9" />
+    </linearGradient>
+    <linearGradient id="acidGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF6B6B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C44569;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#2C3E50" stroke-width="3" rx="5" ry="5"/>
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#34495E" stroke-width="1" rx="3" ry="3"/>
+  
+  <!-- Заголовок и метка -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2C3E50">ХИМИЯ · 9 КЛАСС</text>
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#34495E">Урок 13. Сера и её соединения</text>
+  <text x="470" y="325" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#7F8C8D">13</text>
+  
+  <!-- Аллотропия серы -->
+  <circle cx="80" cy="110" r="30" fill="url(#sulfurGrad)" stroke="#B8860B" stroke-width="2"/>
+  <text x="80" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#8B4513">S₈</text>
+  <text x="80" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">Ромбическая</text>
+  
+  <circle cx="180" cy="110" r="30" fill="#FFE4B5" stroke="#DAA520" stroke-width="2"/>
+  <text x="180" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#8B4513">S₆</text>
+  <text x="180" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">Моноклинная</text>
+  
+  <!-- Свойства серы -->
+  <rect x="40" y="180" width="200" height="60" fill="#FFF8DC" stroke="#D2691E" stroke-width="2" rx="5" ry="5"/>
+  <text x="140" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#8B4513">Свойства серы</text>
+  <text x="50" y="218" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">• Жёлтый кристаллический порошец</text>
+  <text x="50" y="232" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">• tпл = 112.8°C, tкип = 444.6°C</text>
+  
+  <!-- Сероводород -->
+  <ellipse cx="350" cy="100" rx="60" ry="40" fill="url(#gasGrad)" stroke="#4682B4" stroke-width="2"/>
+  <text x="350" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1C5A7E">H₂S</text>
+  <text x="350" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">Сероводород</text>
+  <text x="350" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Бесцветный газ с запахом тухлых яиц</text>
+  
+  <!-- Сернистый газ -->
+  <ellipse cx="350" cy="220" rx="60" ry="40" fill="url(#gasGrad)" stroke="#4682B4" stroke-width="2"/>
+  <text x="350" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1C5A7E">SO₂</text>
+  <text x="350" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">Сернистый газ</text>
+  <text x="350" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2C3E50">Бесцветный газ с резким запахом</text>
+  
+  <!-- Серный ангидрид -->
+  <rect x="280" y="300" width="140" height="40" fill="#F0E68C" stroke="#DAA520" stroke-width="2" rx="5" ry="5"/>
+  <text x="350" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#8B4513">SO₃</text>
+  <text x="350" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">Серный ангидрид</text>
+  
+  <!-- Серная кислота -->
+  <rect x="30" y="260" width="100" height="70" fill="url(#acidGrad)" stroke="#C44569" stroke-width="2" rx="5" ry="5"/>
+  <text x="80" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="white">H₂SO₄</text>
+  <text x="80" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Серная кислота</text>
+  
+  <!-- Сульфаты -->
+  <rect x="150" y="260" width="100" height="70" fill="#E6E6FA" stroke="#9370DB" stroke-width="2" rx="5" ry="5"/>
+  <text x="200" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#4B0082">SO₄²⁻</text>
+  <text x="200" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#4B0082">Сульфат-ион</text>
+  
+  <!-- Химические реакции -->
+  <text x="250" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">S + H₂ → H₂S</text>
+  <text x="250" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">2H₂S + 3O₂ → 2SO₂ + 2H₂O</text>
+  <text x="250" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">2SO₂ + O₂ ⇌ 2SO₃</text>
+  <text x="250" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">SO₃ + H₂O → H₂SO₄</text>
+  
+  <!-- Декоративные элементы -->
+  <path d="M 30 80 Q 40 70, 50 80 T 70 80 T 90 80" stroke="#FFD700" stroke-width="2" fill="none"/>
+  <path d="M 410 80 Q 420 70, 430 80 T 450 80 T 470 80" stroke="#FFD700" stroke-width="2" fill="none"/>
+  
+  <circle cx="40" cy="320" r="8" fill="#FFD700" opacity="0.7"/>
+  <circle cx="460" cy="320" r="8" fill="#FFD700" opacity="0.7"/>
+  
+  <!-- Атомы серы -->
+  <circle cx="30" cy="110" r="8" fill="url(#sulfurGrad)" stroke="#B8860B" stroke-width="1"/>
+  <circle cx="50" cy="110" r="8" fill="url(#sulfurGrad)" stroke="#B8860B" stroke-width="1"/>
+  <circle cx="70" cy="110" r="8" fill="url(#sulfurGrad)" stroke="#B8860B" stroke-width="1"/>
+  
+  <!-- Стрелки -->
+  <path d="M 120 110 L 140 110" stroke="#2C3E50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 220 110 L 280 110" stroke="#2C3E50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2C3E50"/>
+    </marker>
+  </defs>
+</svg>

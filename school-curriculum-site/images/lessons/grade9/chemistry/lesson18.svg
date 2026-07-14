@@ -1,0 +1,101 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6f2ff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="alGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c0c0c0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#808080;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="atomGrad">
+      <stop offset="0%" style="stop-color:#ffeb3b;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#ffc107;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="frameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e88e5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1565c0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фоновый прямоугольник -->
+  <rect width="500" height="350" fill="url(#bgGrad)" />
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="url(#frameGrad)" stroke-width="3" rx="5" ry="5" />
+  
+  <!-- Внутренняя рамка -->
+  <rect x="20" y="20" width="460" height="310" fill="none" stroke="#1565c0" stroke-width="1" stroke-dasharray="5,3" opacity="0.5" />
+  
+  <!-- Заголовок и класс -->
+  <text x="250" y="45" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1565c0">ХИМИЯ · 9 КЛАСС</text>
+  <text x="250" y="65" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#0d47a1">Алюминий и его соединения</text>
+  <text x="460" y="35" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="end" fill="#0d47a1">Урок 12</text>
+  
+  <!-- Периодическая таблица элемента -->
+  <rect x="40" y="90" width="80" height="100" fill="white" stroke="#333" stroke-width="1" rx="3" ry="3" />
+  <text x="80" y="110" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Al</text>
+  <text x="80" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">13</text>
+  <text x="80" y="150" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">III A</text>
+  <text x="80" y="170" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">3</text>
+  
+  <!-- Строение атома алюминия -->
+  <circle cx="200" cy="140" r="30" fill="url(#atomGrad)" stroke="#ff6f00" stroke-width="2" />
+  <text x="200" y="145" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Al</text>
+  <!-- Ядро -->
+  <circle cx="200" cy="140" r="8" fill="#d32f2f" />
+  <text x="200" y="144" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="white">13</text>
+  <!-- Электроны -->
+  <circle cx="200" cy="110" r="3" fill="#2196f3" />
+  <circle cx="230" cy="140" r="3" fill="#2196f3" />
+  <circle cx="200" cy="170" r="3" fill="#2196f3" />
+  <circle cx="170" cy="140" r="3" fill="#2196f3" />
+  <circle cx="225" cy="125" r="3" fill="#2196f3" />
+  <circle cx="225" cy="155" r="3" fill="#2196f3" />
+  <circle cx="175" cy="125" r="3" fill="#2196f3" />
+  <circle cx="175" cy="155" r="3" fill="#2196f3" />
+  <text x="200" y="190" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">1s² 2s² 2p⁶ 3s² 3p¹</text>
+  
+  <!-- Физические свойства -->
+  <rect x="280" y="90" width="180" height="100" fill="white" stroke="#333" stroke-width="1" rx="3" ry="3" />
+  <text x="370" y="110" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Физические свойства</text>
+  <text x="290" y="130" font-family="Arial, sans-serif" font-size="11" fill="#333">• Лёгкий металл</text>
+  <text x="290" y="145" font-family="Arial, sans-serif" font-size="11" fill="#333">• Плотность: 2.7 г/см³</text>
+  <text x="290" y="160" font-family="Arial, sans-serif" font-size="11" fill="#333">• tпл = 660°C</text>
+  <text x="290" y="175" font-family="Arial, sans-serif" font-size="11" fill="#333">• Проводник тепла и электричества</text>
+  
+  <!-- Химические свойства -->
+  <rect x="40" y="210" width="200" height="100" fill="white" stroke="#333" stroke-width="1" rx="3" ry="3" />
+  <text x="140" y="230" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Химические свойства</text>
+  <text x="50" y="250" font-family="Arial, sans-serif" font-size="11" fill="#333">4Al + 3O₂ → 2Al₂O₃</text>
+  <text x="50" y="265" font-family="Arial, sans-serif" font-size="11" fill="#333">2Al + 6HCl → 2AlCl₃ + 3H₂</text>
+  <text x="50" y="280" font-family="Arial, sans-serif" font-size="11" fill="#333">2Al + 2NaOH + 6H₂O → 2Na[Al(OH)₄] + 3H₂</text>
+  <text x="50" y="295" font-family="Arial, sans-serif" font-size="11" fill="#333"> Амфотерный металл</text>
+  
+  <!-- Амфотерность -->
+  <rect x="260" y="210" width="200" height="100" fill="white" stroke="#333" stroke-width="1" rx="3" ry="3" />
+  <text x="360" y="230" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Амфотерность оксида</text>
+  <text x="270" y="250" font-family="Arial, sans-serif" font-size="11" fill="#333">С кислотами:</text>
+  <text x="270" y="265" font-family="Arial, sans-serif" font-size="11" fill="#333">Al₂O₃ + 6HCl → 2AlCl₃ + 3H₂O</text>
+  <text x="270" y="280" font-family="Arial, sans-serif" font-size="11" fill="#333">С основаниями:</text>
+  <text x="270" y="295" font-family="Arial, sans-serif" font-size="11" fill="#333">Al₂O₃ + 2NaOH → 2NaAlO₂ + H₂O</text>
+  
+  <!-- Получение алюминия -->
+  <rect x="40" y="320" width="420" height="20" fill="#e3f2fd" stroke="#1565c0" stroke-width="1" rx="2" ry="2" />
+  <text x="250" y="335" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#0d47a1">Получение: электролиз Al₂O₃ в криолите 2Al₂O₃ → 4Al + 3O₂</text>
+  
+  <!-- Декоративный элемент -->
+  <circle cx="460" cy="300" r="15" fill="url(#alGrad)" stroke="#333" stroke-width="1" opacity="0.5" />
+  <text x="460" y="305" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Al</text>
+  
+  <!-- Стрелки для указания связей -->
+  <path d="M 120 140 L 165 140" stroke="#666" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M 235 140 L 275 140" stroke="#666" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)" />
+  
+  <!-- Определение стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666" />
+    </marker>
+  </defs>
+</svg>

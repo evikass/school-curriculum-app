@@ -1,0 +1,151 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f7ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6f2ff;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="frameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="alkeneGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="alkyneGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="reactionGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ddd6fe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c4b5fd;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="atomGrad">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e5e7eb;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="350" fill="url(#bgGrad)" />
+  
+  <!-- Decorative Frame -->
+  <rect x="10" y="10" width="480" height="330" rx="15" ry="15" fill="none" stroke="url(#frameGrad)" stroke-width="4" />
+  
+  <!-- Lesson Number -->
+  <text x="470" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1e3a8a" text-anchor="end">Урок 21</text>
+  
+  <!-- Subject and Class -->
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1e3a8a" text-anchor="middle">ХИМИЯ · 9 КЛАСС</text>
+  
+  <!-- Title -->
+  <text x="250" y="70" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1e3a8a" text-anchor="middle">Алкены и алкины</text>
+  <text x="250" y="90" font-family="Arial, sans-serif" font-size="16" fill="#4b5563" text-anchor="middle">Непредельные углеводороды</text>
+  
+  <!-- Alkenes Section -->
+  <rect x="30" y="110" width="220" height="180" rx="10" ry="10" fill="url(#alkeneGrad)" opacity="0.2" />
+  <text x="140" y="135" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#065f46" text-anchor="middle">Алкены</text>
+  
+  <!-- Ethylene Structure -->
+  <g transform="translate(80, 150)">
+    <!-- Carbon atoms -->
+    <circle cx="0" cy="0" r="12" fill="url(#atomGrad)" stroke="#374151" stroke-width="2" />
+    <circle cx="40" cy="0" r="12" fill="url(#atomGrad)" stroke="#374151" stroke-width="2" />
+    
+    <!-- Double bond -->
+    <line x1="10" y1="-3" x2="30" y2="-3" stroke="#374151" stroke-width="3" />
+    <line x1="10" y1="3" x2="30" y2="3" stroke="#374151" stroke-width="3" />
+    
+    <!-- Hydrogen atoms -->
+    <circle cx="-15" cy="-15" r="8" fill="url(#atomGrad)" stroke="#374151" stroke-width="1" />
+    <circle cx="-15" cy="15" r="8" fill="url(#atomGrad)" stroke="#374151" stroke-width="1" />
+    <circle cx="55" cy="-15" r="8" fill="url(#atomGrad)" stroke="#374151" stroke-width="1" />
+    <circle cx="55" cy="15" r="8" fill="url(#atomGrad)" stroke="#374151" stroke-width="1" />
+    
+    <!-- Bonds to H -->
+    <line x1="-8" y1="-8" x2="-12" y2="-12" stroke="#374151" stroke-width="2" />
+    <line x1="-8" y1="8" x2="-12" y2="12" stroke="#374151" stroke-width="2" />
+    <line x1="48" y1="-8" x2="52" y2="-12" stroke="#374151" stroke-width="2" />
+    <line x1="48" y1="8" x2="52" y2="12" stroke="#374151" stroke-width="2" />
+    
+    <!-- Labels -->
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle">C</text>
+    <text x="40" y="5" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle">C</text>
+    <text x="-15" y="-12" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="middle">H</text>
+    <text x="-15" y="18" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="middle">H</text>
+    <text x="55" y="-12" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="middle">H</text>
+    <text x="55" y="18" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="middle">H</text>
+  </g>
+  
+  <text x="140" y="210" font-family="Arial, sans-serif" font-size="14" fill="#065f46" text-anchor="middle">C₂H₄</text>
+  <text x="140" y="230" font-family="Arial, sans-serif" font-size="12" fill="#065f46" text-anchor="middle">Этилен</text>
+  <text x="140" y="245" font-family="Arial, sans-serif" font-size="12" fill="#065f46" text-anchor="middle">Этиленовый углеводород</text>
+  <text x="140" y="260" font-family="Arial, sans-serif" font-size="12" fill="#065f46" text-anchor="middle">Гомологический ряд</text>
+  <text x="140" y="275" font-family="Arial, sans-serif" font-size="12" fill="#065f46" text-anchor="middle">CₙH₂ₙ</text>
+  
+  <!-- Alkynes Section -->
+  <rect x="270" y="110" width="200" height="180" rx="10" ry="10" fill="url(#alkyneGrad)" opacity="0.2" />
+  <text x="370" y="135" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#92400e" text-anchor="middle">Алкины</text>
+  
+  <!-- Acetylene Structure -->
+  <g transform="translate(320, 160)">
+    <!-- Carbon atoms -->
+    <circle cx="0" cy="0" r="12" fill="url(#atomGrad)" stroke="#374151" stroke-width="2" />
+    <circle cx="50" cy="0" r="12" fill="url(#atomGrad)" stroke="#374151" stroke-width="2" />
+    
+    <!-- Triple bond -->
+    <line x1="12" y1="-4" x2="38" y2="-4" stroke="#374151" stroke-width="2" />
+    <line x1="12" y1="0" x2="38" y2="0" stroke="#374151" stroke-width="3" />
+    <line x1="12" y1="4" x2="38" y2="4" stroke="#374151" stroke-width="2" />
+    
+    <!-- Hydrogen atoms -->
+    <circle cx="-15" cy="0" r="8" fill="url(#atomGrad)" stroke="#374151" stroke-width="1" />
+    <circle cx="65" cy="0" r="8" fill="url(#atomGrad)" stroke="#374151" stroke-width="1" />
+    
+    <!-- Bonds to H -->
+    <line x1="-8" y1="0" x2="-12" y2="0" stroke="#374151" stroke-width="2" />
+    <line x1="62" y1="0" x2="58" y2="0" stroke="#374151" stroke-width="2" />
+    
+    <!-- Labels -->
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle">C</text>
+    <text x="50" y="5" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle">C</text>
+    <text x="-15" y="4" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="middle">H</text>
+    <text x="65" y="4" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="middle">H</text>
+  </g>
+  
+  <text x="370" y="210" font-family="Arial, sans-serif" font-size="14" fill="#92400e" text-anchor="middle">C₂H₂</text>
+  <text x="370" y="230" font-family="Arial, sans-serif" font-size="12" fill="#92400e" text-anchor="middle">Ацетилен</text>
+  <text x="370" y="245" font-family="Arial, sans-serif" font-size="12" fill="#92400e" text-anchor="middle">Ацетиленовый углеводород</text>
+  <text x="370" y="260" font-family="Arial, sans-serif" font-size="12" fill="#92400e" text-anchor="middle">Гомологический ряд</text>
+  <text x="370" y="275" font-family="Arial, sans-serif" font-size="12" fill="#92400e" text-anchor="middle">CₙH₂ₙ₋₂</text>
+  
+  <!-- Chemical Reactions Section -->
+  <rect x="30" y="300" width="440" height="40" rx="5" ry="5" fill="url(#reactionGrad)" />
+  <text x="250" y="325" font-family="Arial, sans-serif" font-size="14" fill="#5b21b6" text-anchor="middle">Химические свойства: присоединение, окисление, полимеризация</text>
+  
+  <!-- Polymerization Arrow -->
+  <g transform="translate(250, 185)">
+    <line x1="-80" y1="0" x2="80" y2="0" stroke="#6366f1" stroke-width="2" />
+    <polygon points="80,0 70,-5 70,5" fill="#6366f1" />
+    <text x="0" y="-10" font-family="Arial, sans-serif" font-size="12" fill="#6366f1" text-anchor="middle">nC₂H₄</text>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="12" fill="#6366f1" text-anchor="middle">[-CH₂-CH₂-]ₙ</text>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="12" fill="#6366f1" text-anchor="middle">Полимер</text>
+  </g>
+  
+  <!-- Rubber Icon -->
+  <g transform="translate(430, 310)">
+    <ellipse cx="0" cy="0" rx="20" ry="15" fill="#f97316" stroke="#ea580c" stroke-width="2" />
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">Каучук</text>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="50" cy="50" r="3" fill="#1e3a8a" opacity="0.3" />
+  <circle cx="450" cy="50" r="3" fill="#1e3a8a" opacity="0.3" />
+  <circle cx="50" cy="300" r="3" fill="#1e3a8a" opacity="0.3" />
+  <circle cx="450" cy="300" r="3" fill="#1e3a8a" opacity="0.3" />
+</svg>

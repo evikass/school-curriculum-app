@@ -1,0 +1,140 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Градиенты -->
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E3F2FD;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#BBDEFB;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C8E6C9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A5D6A7;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFE0B2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFCC80;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="purpleGrad">
+      <stop offset="0%" style="stop-color:#E1BEE7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#CE93D8;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#5C6BC0" stroke-width="3" rx="10"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1A237E">Азотсодержащие органические соединения</text>
+  <text x="250" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#3949AB">Белки и нуклеиновые кислоты</text>
+  <text x="250" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#5C6BC0">ХИМИЯ · 9 КЛАСС</text>
+  
+  <!-- Номер урока -->
+  <rect x="420" y="15" width="60" height="25" fill="#E8EAF6" stroke="#3F51B5" stroke-width="1" rx="5"/>
+  <text x="450" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#3F51B5">Урок 21</text>
+  
+  <!-- Амины -->
+  <g transform="translate(30, 100)">
+    <rect x="0" y="0" width="100" height="80" fill="url(#blueGrad)" stroke="#2196F3" stroke-width="1" rx="5"/>
+    <text x="50" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0D47A1">Амины</text>
+    
+    <!-- Метиламин -->
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="11" fill="#1565C0">Метиламин:</text>
+    <text x="10" y="55" font-family="Arial, sans-serif" font-size="11" fill="#0D47A1">CH₃-NH₂</text>
+    
+    <!-- Анилин -->
+    <text x="10" y="70" font-family="Arial, sans-serif" font-size="11" fill="#1565C0">Анилин:</text>
+    <text x="10" y="85" font-family="Arial, sans-serif" font-size="11" fill="#0D47A1">C₆H₅-NH₂</text>
+  </g>
+  
+  <!-- Аминокислоты -->
+  <g transform="translate(150, 100)">
+    <rect x="0" y="0" width="120" height="100" fill="url(#greenGrad)" stroke="#4CAF50" stroke-width="1" rx="5"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1B5E20">Аминокислоты</text>
+    
+    <!-- Глицин -->
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="11" fill="#2E7D32">Глицин:</text>
+    <text x="10" y="55" font-family="Arial, sans-serif" font-size="11" fill="#1B5E20">NH₂-CH₂-COOH</text>
+    
+    <!-- Аланин -->
+    <text x="10" y="70" font-family="Arial, sans-serif" font-size="11" fill="#2E7D32">Аланин:</text>
+    <text x="10" y="85" font-family="Arial, sans-serif" font-size="11" fill="#1B5E20">NH₂-CH(CH₃)-COOH</text>
+  </g>
+  
+  <!-- Белки -->
+  <g transform="translate(290, 100)">
+    <rect x="0" y="0" width="180" height="120" fill="url(#orangeGrad)" stroke="#FF9800" stroke-width="1" rx="5"/>
+    <text x="90" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#E65100">Белки</text>
+    
+    <!-- Пептидная связь -->
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="11" fill="#F57C00">Пептидная связь:</text>
+    <text x="10" y="55" font-family="Arial, sans-serif" font-size="11" fill="#E65100">-CO-NH-</text>
+    
+    <!-- Структура белка -->
+    <text x="10" y="75" font-family="Arial, sans-serif" font-size="11" fill="#F57C00">Структуры:</text>
+    <text x="10" y="90" font-family="Arial, sans-serif" font-size="10" fill="#E65100">Первичная</text>
+    <text x="60" y="90" font-family="Arial, sans-serif" font-size="10" fill="#E65100">Вторичная</text>
+    <text x="110" y="90" font-family="Arial, sans-serif" font-size="10" fill="#E65100">Третичная</text>
+    <text x="10" y="105" font-family="Arial, sans-serif" font-size="10" fill="#E65100">Четвертичная</text>
+    
+    <!-- Денатурация -->
+    <text x="10" y="120" font-family="Arial, sans-serif" font-size="11" fill="#F57C00">Денатурация</text>
+  </g>
+  
+  <!-- Нуклеиновые кислоты -->
+  <g transform="translate(30, 240)">
+    <rect x="0" y="0" width="440" height="80" fill="url(#purpleGrad)" stroke="#9C27B0" stroke-width="1" rx="5"/>
+    <text x="220" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#4A148C">Нуклеиновые кислоты</text>
+    
+    <!-- ДНК -->
+    <g transform="translate(50, 30)">
+      <rect x="0" y="0" width="150" height="40" fill="#F3E5F5" stroke="#9C27B0" stroke-width="1" rx="5"/>
+      <text x="75" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4A148C">ДНК</text>
+      <text x="75" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6A1B9A">дезоксирибонуклеиновая</text>
+      <text x="75" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6A1B9A">кислота</text>
+    </g>
+    
+    <!-- РНК -->
+    <g transform="translate(220, 30)">
+      <rect x="0" y="0" width="150" height="40" fill="#F3E5F5" stroke="#9C27B0" stroke-width="1" rx="5"/>
+      <text x="75" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4A148C">РНК</text>
+      <text x="75" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6A1B9A">рибонуклеиновая</text>
+      <text x="75" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6A1B9A">кислота</text>
+    </g>
+    
+    <!-- Биологическая роль -->
+    <text x="120" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6A1B9A">Хранение и передача</text>
+    <text x="290" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6A1B9A">Синтез белка</text>
+  </g>
+  
+  <!-- ДНК спираль -->
+  <g transform="translate(440, 150)">
+    <path d="M0,0 C5,10 10,0 15,10 S25,0 30,10" fill="none" stroke="#7B1FA2" stroke-width="2"/>
+    <path d="M0,10 C5,0 10,10 15,0 S25,10 30,0" fill="none" stroke="#7B1FA2" stroke-width="2"/>
+    <line x1="0" y1="0" x2="0" y2="10" stroke="#7B1FA2" stroke-width="1"/>
+    <line x1="15" y1="0" x2="15" y2="10" stroke="#7B1FA2" stroke-width="1"/>
+    <line x1="30" y1="0" x2="30" y2="10" stroke="#7B1FA2" stroke-width="1"/>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="30" cy="120" r="3" fill="#2196F3"/>
+  <circle cx="150" cy="120" r="3" fill="#4CAF50"/>
+  <circle cx="290" cy="120" r="3" fill="#FF9800"/>
+  <circle cx="470" cy="120" r="3" fill="#9C27B0"/>
+  
+  <!-- Стрелки связи -->
+  <path d="M130,140 L150,140" stroke="#757575" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  <path d="M270,140 L290,140" stroke="#757575" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  <path d="M470,140 L470,160 L30,160 L30,240" stroke="#757575" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Определение стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#757575"/>
+    </marker>
+  </defs>
+  
+  <!-- Биологическая роль -->
+  <text x="250" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#424242">Биологическая роль: строительный материал ферментов, гормонов, нуклеиновых кислот</text>
+</svg>

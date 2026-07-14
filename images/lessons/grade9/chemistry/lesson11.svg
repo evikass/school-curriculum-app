@@ -1,0 +1,131 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Дефиниции градиентов -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6f3ff;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="chlorineGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#90EE90;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#32CD32;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="atomGrad">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4682B4;stop-opacity:1" />
+    </radialGradient>
+    
+    <linearGradient id="acidGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фоновый прямоугольник -->
+  <rect width="500" height="350" fill="url(#bgGrad)" />
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#4682B4" stroke-width="2" rx="5" ry="5" />
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#87CEEB" stroke-width="1" rx="3" ry="3" />
+  
+  <!-- Заголовок и класс -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2F4F4F">Галогены. Хлор и его соединения</text>
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" fill="#4682B4">ХИМИЯ · 9 КЛАСС</text>
+  
+  <!-- Номер урока -->
+  <text x="470" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="end" fill="#2F4F4F">Урок 15</text>
+  
+  <!-- Таблица галогенов -->
+  <rect x="20" y="70" width="200" height="200" fill="white" stroke="#4682B4" stroke-width="1" opacity="0.8" />
+  <text x="120" y="90" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2F4F4F">Галогены</text>
+  
+  <!-- Фтор -->
+  <circle cx="60" cy="120" r="15" fill="url(#atomGrad)" />
+  <text x="60" y="125" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">F</text>
+  <text x="90" y="125" font-family="Arial, sans-serif" font-size="12" fill="#2F4F4F">Фтор</text>
+  <text x="90" y="140" font-family="Arial, sans-serif" font-size="10" fill="#4682B4">-188°C</text>
+  
+  <!-- Хлор -->
+  <circle cx="60" cy="170" r="15" fill="url(#chlorineGrad)" />
+  <text x="60" y="175" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Cl</text>
+  <text x="90" y="175" font-family="Arial, sans-serif" font-size="12" fill="#2F4F4F">Хлор</text>
+  <text x="90" y="190" font-family="Arial, sans-serif" font-size="10" fill="#4682B4">-34°C</text>
+  
+  <!-- Бром -->
+  <circle cx="60" cy="220" r="15" fill="#DAA520" />
+  <text x="60" y="225" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Br</text>
+  <text x="90" y="225" font-family="Arial, sans-serif" font-size="12" fill="#2F4F4F">Бром</text>
+  <text x="90" y="240" font-family="Arial, sans-serif" font-size="10" fill="#4682B4">+7°C</text>
+  
+  <!-- Иод -->
+  <circle cx="60" cy="270" r="15" fill="#8B4513" />
+  <text x="60" y="275" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">I</text>
+  <text x="90" y="275" font-family="Arial, sans-serif" font-size="12" fill="#2F4F4F">Иод</text>
+  <text x="90" y="290" font-family="Arial, sans-serif" font-size="10" fill="#4682B4">+114°C</text>
+  
+  <!-- Свойства галогенов -->
+  <text x="240" y="90" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2F4F4F">Свойства:</text>
+  <text x="240" y="110" font-family="Arial, sans-serif" font-size="11" fill="#4682B4">• Восстанавливаются до F⁻</text>
+  <text x="240" y="125" font-family="Arial, sans-serif" font-size="11" fill="#4682B4">• Окисляются до Cl₂, Br₂, I₂</text>
+  <text x="240" y="140" font-family="Arial, sans-serif" font-size="11" fill="#4682B4">• Активные неметаллы</text>
+  <text x="240" y="155" font-family="Arial, sans-serif" font-size="11" fill="#4682B4">• Формируют соли щелочных металлов</text>
+  
+  <!-- Получение хлора -->
+  <rect x="240" y="170" width="230" height="100" fill="white" stroke="#4682B4" stroke-width="1" opacity="0.8" />
+  <text x="355" y="190" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2F4F4F">Получение хлора</text>
+  <text x="260" y="210" font-family="Arial, sans-serif" font-size="11" fill="#4682B4">2NaCl + 2H₂SO₄ → Na₂SO₄ + H₂SO₄·HCl</text>
+  <text x="260" y="225" font-family="Arial, sans-serif" font-size="11" fill="#4682B4">MnO₂ + 4HCl → MnCl₂ + Cl₂↑ + 2H₂O</text>
+  <text x="260" y="240" font-family="Arial, sans-serif" font-size="11" fill="#4682B4">2KMnO₄ + 16HCl → 2KCl + 2MnCl₂ + 5Cl₂↑ + 8H₂O</text>
+  
+  <!-- Хлороводород и соляная кислота -->
+  <rect x="20" y="290" width="450" height="50" fill="url(#acidGrad)" opacity="0.3" stroke="#FFA500" stroke-width="1" rx="5" ry="5" />
+  <text x="250" y="310" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#B22222">HCl - хлороводород, HCl - соляная кислота</text>
+  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#8B4513">Реакция нейтрализации: HCl + NaOH → NaCl + H₂O</text>
+  
+  <!-- Атомная модель хлора -->
+  <g transform="translate(350, 120)">
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#4682B4" stroke-width="2" opacity="0.5" />
+    <circle cx="0" cy="0" r="5" fill="#4682B4" />
+    <circle cx="0" cy="-10" r="3" fill="#87CEEB" />
+    <circle cx="9" cy="-5" r="3" fill="#87CEEB" />
+    <circle cx="9" cy="5" r="3" fill="#87CEEB" />
+    <circle cx="0" cy="10" r="3" fill="#87CEEB" />
+    <circle cx="-9" cy="5" r="3" fill="#87CEEB" />
+    <circle cx="-9" cy="-5" r="3" fill="#87CEEB" />
+    <line x1="0" y1="0" x2="0" y2="-10" stroke="#4682B4" stroke-width="1" />
+    <line x1="0" y1="0" x2="9" y2="-5" stroke="#4682B4" stroke-width="1" />
+    <line x1="0" y1="0" x2="9" y2="5" stroke="#4682B4" stroke-width="1" />
+    <line x1="0" y1="0" x2="0" y2="10" stroke="#4682B4" stroke-width="1" />
+    <line x1="0" y1="0" x2="-9" y2="5" stroke="#4682B4" stroke-width="1" />
+    <line x1="0" y1="0" x2="-9" y2="-5" stroke="#4682B4" stroke-width="1" />
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2F4F4F">Атом Cl</text>
+  </g>
+  
+  <!-- Реакция горения хлора -->
+  <g transform="translate(100, 180)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="10" fill="#4682B4">Cl₂ + H₂ → 2HCl</text>
+    <circle cx="30" cy="-5" r="5" fill="url(#chlorineGrad)" />
+    <circle cx="50" cy="-5" r="3" fill="#FF6347" />
+    <line x1="35" y1="-5" x2="47" y2="-5" stroke="#2F4F4F" stroke-width="1" stroke-dasharray="2,2" />
+    <text x="60" y="-2" font-family="Arial, sans-serif" font-size="10" fill="#2F4F4F">→</text>
+    <circle cx="75" cy="-8" r="3" fill="#87CEEB" />
+    <circle cx="80" cy="-5" r="3" fill="#87CEEB" />
+    <circle cx="75" cy="-2" r="3" fill="#87CEEB" />
+  </g>
+  
+  <!-- Электронная формула -->
+  <g transform="translate(300, 200)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="10" fill="#4682B4">Электронная формула:</text>
+    <circle cx="10" cy="15" r="3" fill="#87CEEB" />
+    <circle cx="20" cy="15" r="3" fill="#87CEEB" />
+    <circle cx="30" cy="15" r="3" fill="#87CEEB" />
+    <circle cx="40" cy="15" r="3" fill="#87CEEB" />
+    <circle cx="50" cy="15" r="3" fill="#87CEEB" />
+    <circle cx="60" cy="15" r="3" fill="#87CEEB" />
+    <circle cx="70" cy="15" r="3" fill="#87CEEB" />
+    <circle cx="80" cy="15" r="3" fill="#FF6347" />
+    <text x="90" y="18" font-family="Arial, sans-serif" font-size="9" fill="#2F4F4F">1s²2s²2p⁶3s²3p⁵</text>
+  </g>
+</svg>

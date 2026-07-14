@@ -1,0 +1,135 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="frameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d0e8f2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a5276;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="alcoholGrad">
+      <stop offset="0%" style="stop-color:#85c1e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5499c7;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="phenolGrad">
+      <stop offset="0%" style="stop-color:#f8c471;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f39c12;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="url(#frameGrad)" stroke="#34495e" stroke-width="2"/>
+  <rect x="15" y="15" width="470" height="325" fill="none" stroke="#7f8c8d" stroke-width="1" stroke-dasharray="5,3"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="45" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="url(#titleGrad)">Урок 22. Спирты и фенолы</text>
+  <text x="250" y="65" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#34495e">ХИМИЯ · 9 КЛАСС</text>
+  <text x="40" y="330" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">№22</text>
+  
+  <!-- Одноатомные спирты -->
+  <g transform="translate(50, 90)">
+    <rect x="0" y="0" width="180" height="120" fill="#ecf0f1" stroke="#34495e" stroke-width="1" rx="5"/>
+    <text x="90" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">Одноатомные спирты</text>
+    
+    <!-- Метанол -->
+    <ellipse cx="50" cy="60" rx="35" ry="25" fill="url(#alcoholGrad)" stroke="#2980b9" stroke-width="1"/>
+    <text x="50" y="65" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#fff">CH₃OH</text>
+    <text x="50" y="95" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#34495e">Метанол</text>
+    
+    <!-- Этанол -->
+    <ellipse cx="130" cy="60" rx="35" ry="25" fill="url(#alcoholGrad)" stroke="#2980b9" stroke-width="1"/>
+    <text x="130" y="65" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#fff">C₂H₅OH</text>
+    <text x="130" y="95" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#34495e">Этанол</text>
+  </g>
+  
+  <!-- Многоатомные спирты -->
+  <g transform="translate(270, 90)">
+    <rect x="0" y="0" width="180" height="120" fill="#ecf0f1" stroke="#34495e" stroke-width="1" rx="5"/>
+    <text x="90" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">Многоатомные спирты</text>
+    
+    <!-- Глицерин -->
+    <ellipse cx="90" cy="60" rx="40" ry="25" fill="url(#alcoholGrad)" stroke="#2980b9" stroke-width="1"/>
+    <text x="90" y="65" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#fff">C₃H₅(OH)₃</text>
+    <text x="90" y="95" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#34495e">Глицерин</text>
+  </g>
+  
+  <!-- Функциональная группа -->
+  <g transform="translate(50, 230)">
+    <rect x="0" y="0" width="400" height="80" fill="#fef5e7" stroke="#34495e" stroke-width="1" rx="5"/>
+    <text x="200" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">Функциональная группа -OH</text>
+    
+    <circle cx="100" cy="50" r="15" fill="#e74c3c" stroke="#c0392b" stroke-width="1"/>
+    <text x="100" y="55" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#fff">O</text>
+    
+    <circle cx="130" cy="50" r="15" fill="#95a5a6" stroke="#7f8c8d" stroke-width="1"/>
+    <text x="130" y="55" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#fff">H</text>
+    
+    <line x1="115" y1="50" x2="115" y2="50" stroke="#34495e" stroke-width="2"/>
+    <line x1="115" y1="50" x2="115" y2="50" stroke="#34495e" stroke-width="2"/>
+    
+    <text x="160" y="55" font-family="Arial, sans-serif" font-size="12" fill="#34495e">-OH (гидроксильная группа)</text>
+    
+    <path d="M 280 40 Q 300 50 280 60" fill="none" stroke="#e74c3c" stroke-width="2"/>
+    <text x="300" y="55" font-family="Arial, sans-serif" font-size="12" fill="#34495e">Водородные связи</text>
+  </g>
+  
+  <!-- Фенол -->
+  <g transform="translate(50, 70)">
+    <rect x="0" y="160" width="180" height="100" fill="#fef5e7" stroke="#34495e" stroke-width="1" rx="5"/>
+    <text x="90" y="180" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">Фенол</text>
+    
+    <!-- Бензольное кольцо -->
+    <polygon points="90,200 110,210 110,230 90,240 70,230 70,210" fill="url(#phenolGrad)" stroke="#d35400" stroke-width="1"/>
+    
+    <!-- Группа OH -->
+    <circle cx="90" cy="190" r="10" fill="#e74c3c" stroke="#c0392b" stroke-width="1"/>
+    <text x="90" y="195" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#fff">OH</text>
+    
+    <line x1="90" y1="200" x2="90" y2="190" stroke="#34495e" stroke-width="1"/>
+    
+    <text x="90" y="255" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#34495e">C₆H₅OH</text>
+  </g>
+  
+  <!-- Химические свойства -->
+  <g transform="translate(270, 230)">
+    <rect x="0" y="0" width="180" height="80" fill="#ebf5fb" stroke="#34495e" stroke-width="1" rx="5"/>
+    <text x="90" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">Свойства</text>
+    
+    <text x="10" y="40" font-family="Arial, sans-serif" font-size="10" fill="#34495e">• Горение: C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O</text>
+    <text x="10" y="55" font-family="Arial, sans-serif" font-size="10" fill="#34495e">• Оксидация: 2CH₃OH + O₂ → 2HCHO + 2H₂O</text>
+    <text x="10" y="70" font-family="Arial, sans-serif" font-size="10" fill="#34495e">• Этерификация: R-OH + R'-COOH → R-COO-R' + H₂O</text>
+  </g>
+  
+  <!-- Вред алкоголя -->
+  <g transform="translate(50, 330)">
+    <rect x="270" y="-40" width="180" height="70" fill="#fadbd8" stroke="#34495e" stroke-width="1" rx="5"/>
+    <text x="360" y="-20" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#c0392b">Вред алкоголя</text>
+    
+    <circle cx="300" cy="10" r="5" fill="#e74c3c"/>
+    <circle cx="320" cy="5" r="5" fill="#e74c3c"/>
+    <circle cx="340" cy="10" r="5" fill="#e74c3c"/>
+    <circle cx="360" cy="5" r="5" fill="#e74c3c"/>
+    <circle cx="380" cy="10" r="5" fill="#e74c3c"/>
+    <circle cx="400" cy="5" r="5" fill="#e74c3c"/>
+    <circle cx="420" cy="10" r="5" fill="#e74c3c"/>
+    
+    <text x="360" y="25" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#34495e">Печень → Сердце → Мозг</text>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="30" cy="30" r="3" fill="#3498db" opacity="0.5"/>
+  <circle cx="470" cy="30" r="3" fill="#3498db" opacity="0.5"/>
+  <circle cx="30" cy="320" r="3" fill="#3498db" opacity="0.5"/>
+  <circle cx="470" cy="320" r="3" fill="#3498db" opacity="0.5"/>
+  
+  <!-- Стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#34495e"/>
+    </marker>
+  </defs>
+  
+  <line x1="230" y1="150" x2="270" y2="150" stroke="#34495e" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <line x1="140" y1="210" x2="140" y2="230" stroke="#34495e" stroke-width="1" marker-end="url(#arrowhead)"/>
+</svg>

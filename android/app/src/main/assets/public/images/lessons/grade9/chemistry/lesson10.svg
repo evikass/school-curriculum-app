@@ -1,0 +1,113 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ee5a6f;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4dabf7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#339af0;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#51cf66;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#40c057;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="centerGrad">
+      <stop offset="0%" style="stop-color:#ffd43b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fab005;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Фоновый прямоугольник -->
+  <rect x="0" y="0" width="500" height="350" fill="url(#bgGrad)" />
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#868e96" stroke-width="2" rx="5" />
+  <rect x="15" y="15" width="470" height="330" fill="none" stroke="#adb5bd" stroke-width="1" rx="3" />
+  
+  <!-- Заголовок и класс -->
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#212529">Окислительно-восстановительные реакции</text>
+  <text x="250" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#495057">ХИМИЯ · 9 КЛАСС</text>
+  <text x="470" y="35" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#868e96">№ 15</text>
+  
+  <!-- Центральная иконка реакции -->
+  <circle cx="250" cy="170" r="40" fill="url(#centerGrad)" />
+  <path d="M 235 160 L 265 160 M 235 170 L 265 170 M 235 180 L 265 180" stroke="#212529" stroke-width="2" />
+  
+  <!-- Стрелка реакции -->
+  <path d="M 100 170 L 180 170" stroke="#495057" stroke-width="2" marker-end="url(#arrowhead)" />
+  <path d="M 320 170 L 400 170" stroke="#495057" stroke-width="2" marker-end="url(#arrowhead)" />
+  
+  <!-- Определения -->
+  <rect x="30" y="90" width="140" height="60" fill="#fff" stroke="#dee2e6" stroke-width="1" rx="3" />
+  <text x="100" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#212529">Окислитель</text>
+  <text x="100" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#495057">Принимает электроны</text>
+  <text x="100" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#495057">Восстанавливается</text>
+  
+  <rect x="330" y="90" width="140" height="60" fill="#fff" stroke="#dee2e6" stroke-width="1" rx="3" />
+  <text x="400" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#212529">Восстановитель</text>
+  <text x="400" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#495057">Отдает электроны</text>
+  <text x="400" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#495057">Окисляется</text>
+  
+  <!-- Пример реакции -->
+  <rect x="80" y="230" width="340" height="70" fill="#fff" stroke="#dee2e6" stroke-width="1" rx="3" />
+  <text x="250" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#212529">Пример: 2H₂ + O₂ → 2H₂O</text>
+  
+  <!-- Электронный баланс -->
+  <text x="150" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ff6b6b">0</text>
+  <text x="150" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ff6b6b">H₂</text>
+  
+  <text x="250" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#4dabf7">0</text>
+  <text x="250" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#4dabf7">O₂</text>
+  
+  <text x="350" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#51cf66">+1</text>
+  <text x="350" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#51cf66">H₂O</text>
+  
+  <!-- Стрелки переноса электронов -->
+  <path d="M 160 265 Q 200 245 240 265" stroke="#e74c3c" stroke-width="1.5" fill="none" stroke-dasharray="2,2" marker-end="url(#electronArrow)" />
+  <path d="M 260 265 Q 300 245 340 265" stroke="#3498db" stroke-width="1.5" fill="none" stroke-dasharray="2,2" marker-end="url(#electronArrow)" />
+  
+  <!-- Маркеры для стрелок -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#495057" />
+    </marker>
+    
+    <marker id="electronArrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#e74c3c" />
+    </marker>
+  </defs>
+  
+  <!-- Дополнительные элементы -->
+  <circle cx="50" cy="170" r="15" fill="url(#redGrad)" />
+  <text x="50" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">e⁻</text>
+  <text x="50" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#495057">2e⁻</text>
+  
+  <circle cx="450" cy="170" r="15" fill="url(#blueGrad)" />
+  <text x="450" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">e⁻</text>
+  <text x="450" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#495057">2e⁻</text>
+  
+  <!-- Иллюстрация степени окисления -->
+  <text x="250" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#495057">Степень окисления: H(+1), O(-2)</text>
+  
+  <!-- Дополнительные декоративные элементы -->
+  <rect x="180" y="150" width="5" height="40" fill="url(#redGrad)" rx="2" />
+  <rect x="315" y="150" width="5" height="40" fill="url(#blueGrad)" rx="2" />
+  
+  <polygon points="30,200 40,210 20,210" fill="#fab005" />
+  <polygon points="470,200 480,210 460,210" fill="#fab005" />
+  
+  <text x="250" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#868e96">Перенос электронов</text>
+  
+  <!-- Химические формулы в углах -->
+  <text x="30" y="320" font-family="Arial, sans-serif" font-size="10" fill="#495057">Zn + Cu²⁺ → Zn²⁺ + Cu</text>
+  <text x="350" y="320" font-family="Arial, sans-serif" font-size="10" fill="#495057">2Mg + O₂ → 2MgO</text>
+</svg>

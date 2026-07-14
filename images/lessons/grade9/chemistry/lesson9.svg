@@ -1,0 +1,120 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Определения градиентов -->
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#357ABD;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E74C3C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C0392B;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="greenGrad">
+      <stop offset="0%" style="stop-color:#2ECC71;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#27AE60;stop-opacity:1" />
+    </radialGradient>
+    
+    <linearGradient id="yellowGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F1C40F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F39C12;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#2C3E50" stroke-width="3"/>
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#34495E" stroke-width="1"/>
+  
+  <!-- Номер урока -->
+  <circle cx="30" cy="30" r="15" fill="#E74C3C"/>
+  <text x="30" y="36" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="white">25</text>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#34495E">ХИМИЯ · 9 КЛАСС</text>
+  <text x="250" y="55" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#2C3E50">Реакции ионного обмена</text>
+  
+  <!-- Раздел 1: Условия протекания -->
+  <rect x="30" y="80" width="210" height="120" rx="10" fill="#ECF0F1" stroke="#34495E" stroke-width="2"/>
+  <text x="130" y="100" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#2C3E50">Условия протекания</text>
+  
+  <!-- Осадок -->
+  <circle cx="60" cy="130" r="20" fill="url(#blueGrad)"/>
+  <rect x="50" y="125" width="20" height="10" fill="#34495E"/>
+  <text x="60" y="165" text-anchor="middle" font-family="Arial" font-size="12" fill="#2C3E50">Осадок</text>
+  
+  <!-- Газ -->
+  <ellipse cx="130" cy="130" rx="15" ry="20" fill="url(#yellowGrad)"/>
+  <text x="130" y="135" text-anchor="middle" font-family="Arial" font-size="12" fill="#2C3E50">↑</text>
+  <text x="130" y="165" text-anchor="middle" font-family="Arial" font-size="12" fill="#2C3E50">Газ</text>
+  
+  <!-- Вода -->
+  <ellipse cx="200" cy="130" rx="20" ry="15" fill="url(#blueGrad)"/>
+  <path d="M190 125 Q200 115, 210 125" fill="none" stroke="white" stroke-width="2"/>
+  <text x="200" y="165" text-anchor="middle" font-family="Arial" font-size="12" fill="#2C3E50">Вода</text>
+  
+  <!-- Раздел 2: Уравнения -->
+  <rect x="260" y="80" width="210" height="120" rx="10" fill="#ECF0F1" stroke="#34495E" stroke-width="2"/>
+  <text x="365" y="100" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#2C3E50">Ионные уравнения</text>
+  
+  <!-- Полное уравнение -->
+  <text x="270" y="125" font-family="Arial" font-size="12" fill="#2C3E50">Полное:</text>
+  <text x="270" y="140" font-family="Arial" font-size="11" fill="#34495E">AgNO₃ + NaCl → AgCl↓ + NaNO₃</text>
+  
+  <!-- Сокращённое уравнение -->
+  <text x="270" y="165" font-family="Arial" font-size="12" fill="#2C3E50">Сокращённое:</text>
+  <text x="270" y="180" font-family="Arial" font-size="11" fill="#34495E">Ag⁺ + Cl⁻ → AgCl↓</text>
+  
+  <!-- Раздел 3: Гидролиз -->
+  <rect x="30" y="220" width="440" height="100" rx="10" fill="#ECF0F1" stroke="#34495E" stroke-width="2"/>
+  <text x="250" y="240" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#2C3E50">Гидролиз солей</text>
+  
+  <!-- Схема гидролиза -->
+  <rect x="60" y="255" width="80" height="40" rx="5" fill="url(#redGrad)"/>
+  <text x="100" y="280" text-anchor="middle" font-family="Arial" font-size="14" fill="white">NaCl</text>
+  
+  <text x="160" y="275" text-anchor="middle" font-family="Arial" font-size="16" fill="#34495E">+</text>
+  <text x="160" y="290" text-anchor="middle" font-family="Arial" font-size="16" fill="#34495E">H₂O</text>
+  
+  <text x="200" y="275" text-anchor="middle" font-family="Arial" font-size="16" fill="#34495E">⇌</text>
+  
+  <circle cx="240" cy="270" r="15" fill="url(#blueGrad)"/>
+  <text x="240" y="275" text-anchor="middle" font-family="Arial" font-size="12" fill="white">Na⁺</text>
+  
+  <text x="270" y="275" text-anchor="middle" font-family="Arial" font-size="16" fill="#34495E">+</text>
+  
+  <circle cx="300" cy="270" r="15" fill="url(#greenGrad)"/>
+  <text x="300" y="275" text-anchor="middle" font-family="Arial" font-size="12" fill="white">OH⁻</text>
+  
+  <text x="330" y="275" text-anchor="middle" font-family="Arial" font-size="16" fill="#34495E">+</text>
+  
+  <circle cx="360" cy="270" r="15" fill="url(#yellowGrad)"/>
+  <text x="360" y="275" text-anchor="middle" font-family="Arial" font-size="12" fill="#2C3E50">H⁺</text>
+  
+  <text x="390" y="275" text-anchor="middle" font-family="Arial" font-size="16" fill="#34495E">+</text>
+  
+  <circle cx="420" cy="270" r="15" fill="url(#blueGrad)"/>
+  <text x="420" y="275" text-anchor="middle" font-family="Arial" font-size="12" fill="white">Cl⁻</text>
+  
+  <text x="250" y="305" text-anchor="middle" font-family="Arial" font-size="11" fill="#7F8C8D">Гидролиз по аниону</text>
+  
+  <!-- Дополнительные элементы -->
+  <line x1="50" y1="210" x2="450" y2="210" stroke="#BDC3C7" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Мolecule decoration -->
+  <circle cx="450" cy="50" r="3" fill="#E74C3C"/>
+  <circle cx="460" cy="50" r="3" fill="#3498DB"/>
+  <line x1="450" y1="50" x2="460" y2="50" stroke="#7F8C8D" stroke-width="1"/>
+  
+  <!-- Formula decoration -->
+  <text x="400" y="340" font-family="Arial" font-size="10" fill="#7F8C8D">2H₂ + O₂ → 2H₂O</text>
+  
+  <!-- Arrows for reaction direction -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#34495E"/>
+    </marker>
+  </defs>
+  
+  <line x1="180" y1="270" x2="220" y2="270" stroke="#34495E" stroke-width="2" marker-end="url(#arrowhead)"/>
+</svg>
