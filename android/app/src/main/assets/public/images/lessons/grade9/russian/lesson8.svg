@@ -1,102 +1,112 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFEBEE"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <!-- Градиенты -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6f2ff;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#EF5350"/>
-      <stop offset="100%" stop-color="#C62828"/>
+    
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#EF9A9A"/>
-      <stop offset="100%" stop-color="#EF5350"/>
+    
+    <linearGradient id="part1Gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#f97316;stop-opacity:0.9" />
     </linearGradient>
+    
+    <linearGradient id="part2Gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:0.9" />
+    </linearGradient>
+    
+    <linearGradient id="part3Gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0.9" />
+    </linearGradient>
+    
+    <!-- Декоративные элементы -->
+    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#3b82f6" opacity="0.3"/>
+    </pattern>
   </defs>
-  <!-- Background -->
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#EF5350" stroke-width="3"/>
-  <rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#EF5350" stroke-width="1" opacity="0.3"/>
-  <!-- Corner decorations -->
-  <polygon points="10,10 30,10 10,30" fill="#EF5350" opacity="0.12"/>
-  <polygon points="490,10 470,10 490,30" fill="#C62828" opacity="0.12"/>
-  <polygon points="10,340 30,340 10,320" fill="#EF5350" opacity="0.12"/>
-  <polygon points="490,340 470,340 490,320" fill="#C62828" opacity="0.12"/>
-  <!-- Title -->
-  <text x="250" y="42" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#EF5350" text-anchor="middle">Итоговое повторение: синтаксис и пунктуация</text>
-  <text x="250" y="60" font-family="Arial,sans-serif" font-size="11" fill="#888" text-anchor="middle">Русский язык &#8212; Урок 8</text>
-  <line x1="30" y1="70" x2="470" y2="70" stroke="#EF5350" stroke-width="2" opacity="0.25"/>
-  <rect x="30" y="67" width="60" height="5" fill="#EF5350" opacity="0.18" rx="1"/>
-  <rect x="410" y="67" width="60" height="5" fill="#C62828" opacity="0.12" rx="1"/>
-
-  <!-- Illustration area -->
-  <rect x="15" y="76" width="470" height="222" rx="6" fill="#FFEBEE" opacity="0.4"/>
-
-  <!-- Overview header -->
-  <rect x="22" y="82" width="456" height="28" rx="5" fill="#EF5350" opacity="0.15"/>
-  <text x="250" y="101" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#C62828" text-anchor="middle">Сводная таблица: типы сложных предложений и знаки препинания</text>
-
-  <!-- Table header -->
-  <rect x="22" y="114" width="110" height="20" rx="3" fill="#EF5350" opacity="0.85"/>
-  <text x="77" y="128" font-family="Arial,sans-serif" font-size="9.5" font-weight="bold" fill="white" text-anchor="middle">Тип предложения</text>
-  <rect x="134" y="114" width="120" height="20" rx="3" fill="#EF5350" opacity="0.75"/>
-  <text x="194" y="128" font-family="Arial,sans-serif" font-size="9.5" font-weight="bold" fill="white" text-anchor="middle">Связь / Союз</text>
-  <rect x="256" y="114" width="105" height="20" rx="3" fill="#EF5350" opacity="0.65"/>
-  <text x="308" y="128" font-family="Arial,sans-serif" font-size="9.5" font-weight="bold" fill="white" text-anchor="middle">Знак препинания</text>
-  <rect x="363" y="114" width="115" height="20" rx="3" fill="#EF5350" opacity="0.55"/>
-  <text x="420" y="128" font-family="Arial,sans-serif" font-size="9.5" font-weight="bold" fill="white" text-anchor="middle">Пример</text>
-
-  <!-- Row 1: ССП -->
-  <rect x="22" y="136" width="110" height="22" rx="2" fill="#E65100" opacity="0.1"/>
-  <text x="77" y="151" font-family="Arial,sans-serif" font-size="9" fill="#E65100" text-anchor="middle" font-weight="bold">ССП</text>
-  <rect x="134" y="136" width="120" height="22" rx="2" fill="white" opacity="0.6"/>
-  <text x="194" y="151" font-family="Arial,sans-serif" font-size="8.5" fill="#333" text-anchor="middle">и, а, но, или, либо</text>
-  <rect x="256" y="136" width="105" height="22" rx="2" fill="white" opacity="0.6"/>
-  <text x="308" y="151" font-family="Arial,sans-serif" font-size="8.5" fill="#333" text-anchor="middle">, перед союзом</text>
-  <rect x="363" y="136" width="115" height="22" rx="2" fill="white" opacity="0.6"/>
-  <text x="420" y="151" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Шёл дождь, и дул ветер</text>
-
-  <!-- Row 2: СПП -->
-  <rect x="22" y="160" width="110" height="22" rx="2" fill="#7B1FA2" opacity="0.1"/>
-  <text x="77" y="175" font-family="Arial,sans-serif" font-size="9" fill="#7B1FA2" text-anchor="middle" font-weight="bold">СПП</text>
-  <rect x="134" y="160" width="120" height="22" rx="2" fill="white" opacity="0.6"/>
-  <text x="194" y="175" font-family="Arial,sans-serif" font-size="8.5" fill="#333" text-anchor="middle">что, чтобы, если, когда</text>
-  <rect x="256" y="160" width="105" height="22" rx="2" fill="white" opacity="0.6"/>
-  <text x="308" y="175" font-family="Arial,sans-serif" font-size="8.5" fill="#333" text-anchor="middle">, выделение придат.</text>
-  <rect x="363" y="160" width="115" height="22" rx="2" fill="white" opacity="0.6"/>
-  <text x="420" y="175" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Я знаю, что он прав</text>
-
-  <!-- Row 3: БСП -->
-  <rect x="22" y="184" width="110" height="22" rx="2" fill="#1565C0" opacity="0.1"/>
-  <text x="77" y="199" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle" font-weight="bold">БСП</text>
-  <rect x="134" y="184" width="120" height="22" rx="2" fill="white" opacity="0.6"/>
-  <text x="194" y="199" font-family="Arial,sans-serif" font-size="8.5" fill="#333" text-anchor="middle">без союзов</text>
-  <rect x="256" y="184" width="105" height="22" rx="2" fill="white" opacity="0.6"/>
-  <text x="308" y="199" font-family="Arial,sans-serif" font-size="8.5" fill="#333" text-anchor="middle">, ; &#8212; :</text>
-  <rect x="363" y="184" width="115" height="22" rx="2" fill="white" opacity="0.6"/>
-  <text x="420" y="199" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Лес шумел: шёл дождь</text>
-
-  <!-- Key punctuation rules -->
-  <rect x="22" y="212" width="225" height="84" rx="5" fill="white" opacity="0.92" stroke="#EF5350" stroke-width="0.8"/>
-  <text x="134" y="230" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#EF5350" text-anchor="middle">Ключевые правила:</text>
-  <line x1="32" y1="235" x2="237" y2="235" stroke="#EF5350" stroke-width="0.4" opacity="0.4"/>
-  <text x="32" y="250" font-family="Arial,sans-serif" font-size="9" fill="#333">1. Определить тип предложения</text>
-  <text x="32" y="263" font-family="Arial,sans-serif" font-size="9" fill="#333">2. Найти грамматические основы</text>
-  <text x="32" y="276" font-family="Arial,sans-serif" font-size="9" fill="#333">3. Определить вид связи</text>
-  <text x="32" y="289" font-family="Arial,sans-serif" font-size="9" fill="#333">4. Применить правило пунктуации</text>
-
-  <!-- Common mistakes -->
-  <rect x="253" y="212" width="225" height="84" rx="5" fill="white" opacity="0.92" stroke="#C62828" stroke-width="0.8"/>
-  <text x="365" y="230" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#C62828" text-anchor="middle">Типичные ошибки:</text>
-  <line x1="263" y1="235" x2="468" y2="235" stroke="#C62828" stroke-width="0.4" opacity="0.4"/>
-  <text x="263" y="250" font-family="Arial,sans-serif" font-size="9" fill="#333">&#10060; ССП без запятой перед И</text>
-  <text x="263" y="263" font-family="Arial,sans-serif" font-size="9" fill="#333">&#10060; СПП: запятая не на месте</text>
-  <text x="263" y="276" font-family="Arial,sans-serif" font-size="9" fill="#333">&#10060; БСП: неверный знак (;/&#8212;/:)</text>
-  <text x="263" y="289" font-family="Arial,sans-serif" font-size="9" fill="#333">&#10060; Смешение типов связи</text>
-
-  <!-- Bottom panel -->
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <line x1="20" y1="308" x2="20" y2="334" stroke="#EF5350" stroke-width="1.5" opacity="0.6"/>
-  <line x1="480" y1="308" x2="480" y2="334" stroke="#EF5350" stroke-width="1.5" opacity="0.6"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Русский язык &#8212; 9 класс</text>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGradient)"/>
+  <rect width="500" height="350" fill="url(#dots)"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#1e3a8a" stroke-width="2" rx="10" ry="10"/>
+  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#3b82f6" stroke-width="1" rx="8" ry="8" stroke-dasharray="5,3"/>
+  
+  <!-- Заголовок -->
+  <rect x="50" y="30" width="400" height="40" rx="20" ry="20" fill="url(#headerGradient)"/>
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">РУССКИЙ ЯЗЫК · 9 КЛАСС</text>
+  
+  <!-- Основной заголовок -->
+  <text x="250" y="90" font-family="Arial, sans-serif" font-size="18" fill="#1e3a8a" text-anchor="middle" font-weight="bold">Структура ОГЭ по русскому языку</text>
+  
+  <!-- Часть 1: Изложение -->
+  <rect x="40" y="110" width="140" height="70" rx="8" ry="8" fill="url(#part1Gradient)"/>
+  <text x="110" y="130" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">Часть 1</text>
+  <text x="110" y="150" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Изложение</text>
+  <text x="110" y="170" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">(150 слов)</text>
+  
+  <!-- Часть 2: Тест -->
+  <rect x="200" y="110" width="140" height="70" rx="8" ry="8" fill="url(#part2Gradient)"/>
+  <text x="270" y="130" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">Часть 2</text>
+  <text x="270" y="150" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Тест</text>
+  <text x="270" y="170" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">(15 заданий)</text>
+  
+  <!-- Часть 3: Сочинение -->
+  <rect x="360" y="110" width="140" height="70" rx="8" ry="8" fill="url(#part3Gradient)"/>
+  <text x="430" y="130" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">Часть 3</text>
+  <text x="430" y="150" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Сочинение</text>
+  <text x="430" y="170" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">(150 слов)</text>
+  
+  <!-- Стрелки -->
+  <path d="M 180 145 L 195 145" stroke="#3b82f6" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 340 145 L 355 145" stroke="#3b82f6" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Стрелки маркеры -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#3b82f6"/>
+    </marker>
+  </defs>
+  
+  <!-- Критерии оценивания -->
+  <rect x="40" y="200" width="460" height="80" rx="8" ry="8" fill="#f0f9ff" stroke="#3b82f6" stroke-width="1"/>
+  <text x="50" y="220" font-family="Arial, sans-serif" font-size="14" fill="#1e3a8a" font-weight="bold">Критерии оценивания:</text>
+  
+  <!-- Критерии пункты -->
+  <circle cx="60" cy="235" r="3" fill="#f59e0b"/>
+  <text x="70" y="240" font-family="Arial, sans-serif" font-size="11" fill="#1e3a8a">Содержание (соответствие теме, полнота раскрытия)</text>
+  
+  <circle cx="60" cy="250" r="3" fill="#10b981"/>
+  <text x="70" y="255" font-family="Arial, sans-serif" font-size="11" fill="#1e3a8a">Речь (орфография, пунктуация, грамматика)</text>
+  
+  <circle cx="60" cy="265" r="3" fill="#8b5cf6"/>
+  <text x="70" y="270" font-family="Arial, sans-serif" font-size="11" fill="#1e3a8a">Сочинение (композиция, стиль, аргументация)</text>
+  
+  <!-- Примеры заданий -->
+  <rect x="40" y="300" width="460" height="40" rx="8" ry="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
+  <text x="50" y="315" font-family="Arial, sans-serif" font-size="11" fill="#92400e" font-weight="bold">Примеры заданий:</text>
+  <text x="50" y="330" font-family="Arial, sans-serif" font-size="10" fill="#92400e">1. Найдите грамматическую основу в предложении: "Весна пришла, и природа проснулась."</text>
+  <text x="50" y="342" font-family="Arial, sans-serif" font-size="10" fill="#92400e">2. Выпишите слово, в котором правописание суффикса определяется правилом: "Правописание суффиксов -чик, -щик"</text>
+  
+  <!-- Дополнительные элементы оформления -->
+  <circle cx="460" cy="40" r="15" fill="#f59e0b" opacity="0.3"/>
+  <circle cx="440" cy="50" r="10" fill="#10b981" opacity="0.3"/>
+  <circle cx="470" cy="60" r="8" fill="#8b5cf6" opacity="0.3"/>
+  
+  <!-- Таблица баллов -->
+  <rect x="200" y="185" width="100" height="12" rx="2" ry="2" fill="#e5e7eb"/>
+  <text x="250" y="194" font-family="Arial, sans-serif" font-size="9" fill="#374151" text-anchor="middle">Максимум 39 баллов</text>
+  
+  <!-- Значок времени -->
+  <circle cx="440" cy="140" r="12" fill="#3b82f6" opacity="0.2"/>
+  <path d="M 440 132 L 440 140 L 445 145" stroke="#3b82f6" stroke-width="2" fill="none"/>
+  <text x="440" y="160" font-family="Arial, sans-serif" font-size="8" fill="#3b82f6" text-anchor="middle">3.5 ч</text>
 </svg>
