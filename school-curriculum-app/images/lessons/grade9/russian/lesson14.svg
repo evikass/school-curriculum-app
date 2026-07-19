@@ -1,0 +1,105 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Градиенты -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6f2ff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1e3c72;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a5298;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8fbff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  
+  <!-- Рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#2a5298" stroke-width="3" rx="10"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="url(#titleGrad)">РУССКИЙ ЯЗЫК · 9 КЛАСС</text>
+  
+  <!-- Тире между подлежащим и сказуемым -->
+  <rect x="30" y="60" width="440" height="60" fill="url(#boxGrad)" stroke="#2a5298" stroke-width="2" rx="5"/>
+  <text x="40" y="85" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e3c72">1. Тире между подлежащим и сказуемым</text>
+  <text x="40" y="105" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    <tspan fill="#d9534f">Подлежащее</tspan>
+    <tspan dx="10">—</tspan>
+    <tspan dx="10" fill="#5bc0de">Сказуемое</tspan>
+  </text>
+  <text x="40" y="120" font-family="Arial, sans-serif" font-size="11" fill="#666">Пример: Лес — зеленый ковер.</text>
+  
+  <!-- Однородные члены -->
+  <rect x="30" y="130" width="210" height="90" fill="url(#boxGrad)" stroke="#2a5298" stroke-width="2" rx="5"/>
+  <text x="40" y="150" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e3c72">2. Однородные члены</text>
+  <text x="40" y="170" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    <tspan fill="#d9534f">Обобщающее слово</tspan>
+    <tspan dx="10">:</tspan>
+    <tspan dx="10" fill="#5bc0de">однородные члены</tspan>
+  </text>
+  <text x="40" y="190" font-family="Arial, sans-serif" font-size="11" fill="#666">Пример: Фрукты:</text>
+  <text x="40" y="205" font-family="Arial, sans-serif" font-size="11" fill="#666">яблоки, груши, сливы.</text>
+  
+  <!-- Вводные слова -->
+  <rect x="260" y="130" width="210" height="90" fill="url(#boxGrad)" stroke="#2a5298" stroke-width="2" rx="5"/>
+  <text x="270" y="150" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e3c72">3. Вводные слова</text>
+  <text x="270" y="170" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    <tspan fill="#5bc0de">Вводное слово</tspan>
+    <tspan dx="10">,</tspan>
+    <tspan dx="10">предложение</tspan>
+    <tspan dx="10">,</tspan>
+    <tspan dx="10">вводное слово</tspan>
+  </text>
+  <text x="270" y="190" font-family="Arial, sans-serif" font-size="11" fill="#666">Пример: Кажется,</text>
+  <text x="270" y="205" font-family="Arial, sans-serif" font-size="11" fill="#666">идет дождь.</text>
+  
+  <!-- Обособленные определения -->
+  <rect x="30" y="230" width="210" height="90" fill="url(#boxGrad)" stroke="#2a5298" stroke-width="2" rx="5"/>
+  <text x="40" y="250" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e3c72">4. Обособленные определения</text>
+  <text x="40" y="270" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    <tspan fill="#5bc0de">Существительное</tspan>
+    <tspan dx="10">,</tspan>
+    <tspan dx="10" fill="#f0ad4e">определение</tspan>
+    <tspan dx="10">,</tspan>
+    <tspan dx="10">существительное</tspan>
+  </text>
+  <text x="40" y="290" font-family="Arial, sans-serif" font-size="11" fill="#666">Пример: Книга,</text>
+  <text x="40" y="305" font-family="Arial, sans-serif" font-size="11" fill="#666">лежавшая на столе,</text>
+  <text x="40" y="320" font-family="Arial, sans-serif" font-size="11" fill="#666">интересная.</text>
+  
+  <!-- Обособленные обстоятельства -->
+  <rect x="260" y="230" width="210" height="90" fill="url(#boxGrad)" stroke="#2a5298" stroke-width="2" rx="5"/>
+  <text x="270" y="250" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e3c72">5. Обособленные обстоятельства</text>
+  <text x="270" y="270" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    <tspan fill="#5bc0de">Глагол</tspan>
+    <tspan dx="10">,</tspan>
+    <tspan dx="10" fill="#f0ad4e">обстоятельство</tspan>
+    <tspan dx="10">,</tspan>
+    <tspan dx="10">глагол</tspan>
+  </text>
+  <text x="270" y="290" font-family="Arial, sans-serif" font-size="11" fill="#666">Пример: Он шел,</text>
+  <text x="270" y="305" font-family="Arial, sans-serif" font-size="11" fill="#666">не оглядываясь,</text>
+  <text x="270" y="320" font-family="Arial, sans-serif" font-size="11" fill="#666">домой.</text>
+  
+  <!-- Разделительные линии -->
+  <line x1="30" y1="120" x2="470" y2="120" stroke="#d9534f" stroke-width="1" stroke-dasharray="5,5" opacity="0.5"/>
+  <line x1="30" y1="220" x2="470" y2="220" stroke="#d9534f" stroke-width="1" stroke-dasharray="5,5" opacity="0.5"/>
+  <line x1="240" y1="130" x2="240" y2="220" stroke="#d9534f" stroke-width="1" stroke-dasharray="5,5" opacity="0.5"/>
+  <line x1="240" y1="230" x2="240" y2="320" stroke="#d9534f" stroke-width="1" stroke-dasharray="5,5" opacity="0.5"/>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="480" cy="30" r="5" fill="#d9534f" opacity="0.6"/>
+  <circle cx="470" cy="40" r="3" fill="#5bc0de" opacity="0.6"/>
+  <circle cx="490" cy="45" r="4" fill="#f0ad4e" opacity="0.6"/>
+  
+  <!-- Иконки -->
+  <path d="M45 95 L55 95 L50 85 Z" fill="#d9534f"/>
+  <path d="M275 165 L285 165 L280 155 Z" fill="#5bc0de"/>
+  <path d="M45 285 L55 285 L50 275 Z" fill="#f0ad4e"/>
+  <path d="M275 285 L285 285 L280 275 Z" fill="#f0ad4e"/>
+</svg>
