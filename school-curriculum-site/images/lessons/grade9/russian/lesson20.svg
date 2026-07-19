@@ -1,0 +1,150 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Градиенты -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8fafc;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="nounGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef3c7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fde68a;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="adjGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#dbeafe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bfdbfe;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="numGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d1fae5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a7f3d0;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="pronGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fce7f3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fbcfe8;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="verbGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e9d5ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d8b4fe;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="participleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fed7aa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fdba74;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="adverbGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e0e7ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c7d2fe;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Тень -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  
+  <!-- Внешняя рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#1e40af" stroke-width="3" rx="10"/>
+  
+  <!-- Заголовок -->
+  <rect x="20" y="20" width="460" height="50" fill="url(#headerGrad)" rx="5"/>
+  <text x="250" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">РУССКИЙ ЯЗЫК · 9 КЛАСС</text>
+  <text x="250" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#374151">Морфология. Самостоятельные части речи</text>
+  
+  <!-- Имя существительное -->
+  <rect x="30" y="110" width="100" height="60" fill="url(#nounGrad)" stroke="#f59e0b" stroke-width="1.5" rx="5" filter="url(#shadow)"/>
+  <text x="80" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#92400e">Имя существительное</text>
+  <text x="80" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#78350f">падеж, число, род</text>
+  <text x="80" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#78350f">подлежащее, дополнение</text>
+  
+  <!-- Прилагательное -->
+  <rect x="140" y="110" width="100" height="60" fill="url(#adjGrad)" stroke="#3b82f6" stroke-width="1.5" rx="5" filter="url(#shadow)"/>
+  <text x="190" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e3a8a">Прилагательное</text>
+  <text x="190" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e40af">падеж, число, род</text>
+  <text x="190" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e40af">определение</text>
+  
+  <!-- Числительное -->
+  <rect x="250" y="110" width="100" height="60" fill="url(#numGrad)" stroke="#10b981" stroke-width="1.5" rx="5" filter="url(#shadow)"/>
+  <text x="300" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#064e3b">Числительное</text>
+  <text x="300" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#047857">падеж, род, число</text>
+  <text x="300" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#047857">определение</text>
+  
+  <!-- Местоимение -->
+  <rect x="360" y="110" width="100" height="60" fill="url(#pronGrad)" stroke="#ec4899" stroke-width="1.5" rx="5" filter="url(#shadow)"/>
+  <text x="410" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#831843">Местоимение</text>
+  <text x="410" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#be185d">падеж, число, род</text>
+  <text x="410" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#be185d">подлежащее, дополнение</text>
+  
+  <!-- Глагол -->
+  <rect x="30" y="180" width="100" height="60" fill="url(#verbGrad)" stroke="#9333ea" stroke-width="1.5" rx="5" filter="url(#shadow)"/>
+  <text x="80" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#581c87">Глагол</text>
+  <text x="80" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6b21a8">время, лицо, число</text>
+  <text x="80" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6b21a8">сказуемое</text>
+  
+  <!-- Причастие -->
+  <rect x="140" y="180" width="100" height="60" fill="url(#participleGrad)" stroke="#f97316" stroke-width="1.5" rx="5" filter="url(#shadow)"/>
+  <text x="190" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7c2d12">Причастие</text>
+  <text x="190" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#9a3412">падеж, число, род</text>
+  <text x="190" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#9a3412">определение, сказуемое</text>
+  
+  <!-- Деепричастие -->
+  <rect x="250" y="180" width="100" height="60" fill="url(#adverbGrad)" stroke="#6366f1" stroke-width="1.5" rx="5" filter="url(#shadow)"/>
+  <text x="300" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#312e81">Деепричастие</text>
+  <text x="300" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#3730a3">вид, число</text>
+  <text x="300" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#3730a3">обстоятельство</text>
+  
+  <!-- Наречие -->
+  <rect x="360" y="180" width="100" height="60" fill="url(#adverbGrad)" stroke="#6366f1" stroke-width="1.5" rx="5" filter="url(#shadow)"/>
+  <text x="410" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#312e81">Наречие</text>
+  <text x="410" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#3730a3">степень сравнения</text>
+  <text x="410" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#3730a3">обстоятельство</text>
+  
+  <!-- Информация о морфологических признаках -->
+  <rect x="30" y="250" width="430" height="80" fill="url(#boxGrad)" stroke="#64748b" stroke-width="1" rx="5" filter="url(#shadow)"/>
+  <text x="40" y="270" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b">Морфологические признаки:</text>
+  <text x="40" y="290" font-family="Arial, sans-serif" font-size="11" fill="#475569">• Имя существительное: падеж, число, род</text>
+  <text x="40" y="305" font-family="Arial, sans-serif" font-size="11" fill="#475569">• Прилагательное: падеж, число, род</text>
+  <text x="40" y="320" font-family="Arial, sans-serif" font-size="11" fill="#475569">• Числительное: падеж, род, число</text>
+  
+  <text x="240" y="290" font-family="Arial, sans-serif" font-size="11" fill="#475569">• Местоимение: падеж, число, род</text>
+  <text x="240" y="305" font-family="Arial, sans-serif" font-size="11" fill="#475569">• Глагол: время, лицо, число</text>
+  <text x="240" y="320" font-family="Arial, sans-serif" font-size="11" fill="#475569">• Причастие: падеж, число, род</text>
+  
+  <text x="40" y="335" font-family="Arial, sans-serif" font-size="11" fill="#475569">• Деепричастие: вид, число</text>
+  <text x="240" y="335" font-family="Arial, sans-serif" font-size="11" fill="#475569">• Наречие: степень сравнения</text>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="470" cy="40" r="8" fill="#fbbf24" opacity="0.6"/>
+  <circle cx="480" cy="50" r="5" fill="#f59e0b" opacity="0.6"/>
+  <circle cx="460" cy="50" r="5" fill="#f59e0b" opacity="0.6"/>
+  
+  <!-- Стрелки для указания связей -->
+  <path d="M 80 170 L 80 180" stroke="#64748b" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 190 170 L 190 180" stroke="#64748b" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 300 170 L 300 180" stroke="#64748b" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 410 170 L 410 180" stroke="#64748b" stroke-width="1" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Маркер стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>

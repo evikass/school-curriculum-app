@@ -1,0 +1,136 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Градиенты -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1e40af;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8fafc;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="rootGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#dc2626;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ef4444;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="prefixGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#059669;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="suffixGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="endingGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f97316;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Тень -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  
+  <!-- Рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#334155" stroke-width="2" rx="10"/>
+  
+  <!-- Заголовок -->
+  <rect x="20" y="20" width="460" height="50" fill="url(#titleGrad)" rx="5" filter="url(#shadow)"/>
+  <text x="250" y="50" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">РУССКИЙ ЯЗЫК · 9 КЛАСС</text>
+  <text x="250" y="70" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white" opacity="0.9">Урок 19. Морфемика и словообразование</text>
+  
+  <!-- Блок "Состав слова" -->
+  <rect x="30" y="90" width="210" height="240" fill="url(#boxGrad)" stroke="#cbd5e1" stroke-width="1" rx="5" filter="url(#shadow)"/>
+  <text x="135" y="115" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#1e293b">Состав слова</text>
+  
+  <!-- Пример слова с разметкой -->
+  <g transform="translate(50, 140)">
+    <!-- Приставка -->
+    <rect x="0" y="0" width="60" height="30" fill="url(#prefixGrad)" rx="3"/>
+    <text x="30" y="20" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">при-</text>
+    
+    <!-- Корень -->
+    <rect x="60" y="0" width="60" height="30" fill="url(#rootGrad)" rx="3"/>
+    <text x="90" y="20" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">ход</text>
+    
+    <!-- Суффикс -->
+    <rect x="120" y="0" width="60" height="30" fill="url(#suffixGrad)" rx="3"/>
+    <text x="150" y="20" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">-и-</text>
+    
+    <!-- Окончание -->
+    <rect x="180" y="0" width="40" height="30" fill="url(#endingGrad)" rx="3"/>
+    <text x="200" y="20" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">-т</text>
+    
+    <!-- Подписи -->
+    <text x="30" y="50" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#475569">Приставка</text>
+    <text x="90" y="50" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#475569">Корень</text>
+    <text x="150" y="50" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#475569">Суффикс</text>
+    <text x="200" y="50" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#475569">Окончание</text>
+    
+    <!-- Основа слова -->
+    <rect x="0" y="70" width="180" height="30" fill="none" stroke="#64748b" stroke-width="2" stroke-dasharray="5,5" rx="3"/>
+    <text x="90" y="90" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#334155">Основа слова</text>
+    <text x="90" y="120" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#64748b">Приставка + Корень + Суффикс</text>
+  </g>
+  
+  <!-- Блок "Способы словообразования" -->
+  <rect x="260" y="90" width="210" height="240" fill="url(#boxGrad)" stroke="#cbd5e1" stroke-width="1" rx="5" filter="url(#shadow)"/>
+  <text x="365" y="115" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#1e293b">Способы словообразования</text>
+  
+  <!-- Приставочный способ -->
+  <g transform="translate(280, 140)">
+    <circle cx="10" cy="10" r="5" fill="url(#prefixGrad)"/>
+    <text x="20" y="15" font-family="Arial, sans-serif" font-size="13" fill="#334155">Приставочный</text>
+    <text x="20" y="30" font-family="Arial, sans-serif" font-size="11" fill="#64748b">ход → подход</text>
+  </g>
+  
+  <!-- Суффиксальный способ -->
+  <g transform="translate(280, 180)">
+    <circle cx="10" cy="10" r="5" fill="url(#suffixGrad)"/>
+    <text x="20" y="15" font-family="Arial, sans-serif" font-size="13" fill="#334155">Суффиксальный</text>
+    <text x="20" y="30" font-family="Arial, sans-serif" font-size="11" fill="#64748b">читать → читатель</text>
+  </g>
+  
+  <!-- Приставочно-суффиксальный способ -->
+  <g transform="translate(280, 220)">
+    <circle cx="10" cy="10" r="5" fill="url(#rootGrad)"/>
+    <text x="20" y="15" font-family="Arial, sans-serif" font-size="13" fill="#334155">Приставочно-суффиксальный</text>
+    <text x="20" y="30" font-family="Arial, sans-serif" font-size="11" fill="#64748b">писать → переписать</text>
+  </g>
+  
+  <!-- Способ сложения -->
+  <g transform="translate(280, 260)">
+    <circle cx="10" cy="10" r="5" fill="url(#endingGrad)"/>
+    <text x="20" y="15" font-family="Arial, sans-serif" font-size="13" fill="#334155">Сложение</text>
+    <text x="20" y="30" font-family="Arial, sans-serif" font-size="11" fill="#64748b">сам + лет → самолет</text>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <!-- Иконки -->
+  <g transform="translate(35, 340)">
+    <path d="M0 0 L5 5 L0 10 Z" fill="#3b82f6"/>
+    <path d="M10 0 L15 5 L10 10 Z" fill="#3b82f6"/>
+    <path d="M20 0 L25 5 L20 10 Z" fill="#3b82f6"/>
+  </g>
+  
+  <!-- Декоративные линии -->
+  <line x1="40" y1="85" x2="240" y2="85" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="270" y1="85" x2="470" y2="85" stroke="#cbd5e1" stroke-width="1"/>
+  
+  <!-- Номер урока -->
+  <text x="30" y="340" font-family="Arial, sans-serif" font-size="12" fill="#64748b">№19</text>
+</svg>

@@ -1,0 +1,191 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Градиенты -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f4f8"/>
+      <stop offset="100%" style="stop-color:#e2e8f0"/>
+    </linearGradient>
+    
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2c3e50"/>
+      <stop offset="100%" style="stop-color:#34495e"/>
+    </linearGradient>
+    
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#f8f9fa"/>
+    </linearGradient>
+    
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3498db"/>
+      <stop offset="100%" style="stop-color:#2980b9"/>
+    </linearGradient>
+    
+    <!-- Тень -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  
+  <!-- Рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#2c3e50" stroke-width="3" rx="5"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="url(#titleGrad)">
+    УРОК 18. Лексика и фразеология
+  </text>
+  
+  <text x="250" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">
+    РУССКИЙ ЯЗЫК · 9 КЛАСС
+  </text>
+  
+  <!-- Блок: Лексическое значение слова -->
+  <rect x="30" y="80" width="140" height="60" fill="url(#boxGrad)" stroke="#3498db" stroke-width="2" rx="5" filter="url(#shadow)"/>
+  <text x="100" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">
+    Лексическое значение
+  </text>
+  <text x="100" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#34495e">
+    слова
+  </text>
+  
+  <!-- Блок: Однозначные слова -->
+  <rect x="30" y="160" width="110" height="50" fill="#e8f5e9" stroke="#4caf50" stroke-width="2" rx="5" filter="url(#shadow)"/>
+  <text x="85" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2e7d32">
+    Однозначные
+  </text>
+  <text x="85" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#388e3c">
+    слова
+  </text>
+  
+  <!-- Пример однозначного слова -->
+  <circle cx="50" cy="235" r="3" fill="#4caf50"/>
+  <text x="60" y="238" font-family="Arial, sans-serif" font-size="10" fill="#2e7d32">
+    столица (город)
+  </text>
+  
+  <!-- Блок: Многозначные слова -->
+  <rect x="360" y="160" width="110" height="50" fill="#fff3e0" stroke="#ff9800" stroke-width="2" rx="5" filter="url(#shadow)"/>
+  <text x="415" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#e65100">
+    Многозначные
+  </text>
+  <text x="415" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#f57c00">
+    слова
+  </text>
+  
+  <!-- Пример многозначного слова -->
+  <circle cx="380" cy="235" r="3" fill="#ff9800"/>
+  <text x="390" y="238" font-family="Arial, sans-serif" font-size="10" fill="#e65100">
+    ключ (металл, замок)
+  </text>
+  
+  <!-- Блок: Омонимы -->
+  <rect x="30" y="260" width="100" height="50" fill="#fce4ec" stroke="#e91e63" stroke-width="2" rx="5" filter="url(#shadow)"/>
+  <text x="80" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#880e4f">
+    Омонимы
+  </text>
+  <text x="80" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ad1457">
+    (разные значения)
+  </text>
+  
+  <!-- Блок: Синонимы -->
+  <rect x="170" y="260" width="100" height="50" fill="#e3f2fd" stroke="#2196f3" stroke-width="2" rx="5" filter="url(#shadow)"/>
+  <text x="220" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#0d47a1">
+    Синонимы
+  </text>
+  <text x="220" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1565c0">
+    (близкие значения)
+  </text>
+  
+  <!-- Блок: Антонимы -->
+  <rect x="310" y="260" width="100" height="50" fill="#ffebee" stroke="#f44336" stroke-width="2" rx="5" filter="url(#shadow)"/>
+  <text x="360" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#b71c1c">
+    Антонимы
+  </text>
+  <text x="360" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#c62828">
+    (противоположные)
+  </text>
+  
+  <!-- Блок: Фразеологизмы -->
+  <rect x="450" y="260" width="40" height="50" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2" rx="5" filter="url(#shadow)"/>
+  <text x="470" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#4a148c">
+    Фразео-
+  </text>
+  <text x="470" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6a1b9a">
+    логизмы
+  </text>
+  
+  <!-- Центральный элемент: Связи -->
+  <circle cx="250" cy="110" r="25" fill="url(#accentGrad)" filter="url(#shadow)"/>
+  <text x="250" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">
+    ЛЕКСИКА
+  </text>
+  
+  <!-- Стрелки-связи -->
+  <line x1="175" y1="110" x2="220" y2="110" stroke="#3498db" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="280" y1="110" x2="325" y2="110" stroke="#3498db" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Подписи к связям -->
+  <text x="197" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">
+    виды
+  </text>
+  <text x="302" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">
+    отношения
+  </text>
+  
+  <!-- Блоки для искоренной и заимствованной лексики -->
+  <rect x="170" y="160" width="160" height="50" fill="#e8f5e9" stroke="#66bb6a" stroke-width="2" rx="5" filter="url(#shadow)"/>
+  <text x="250" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1b5e20">
+    Исконно русская лексика
+  </text>
+  <text x="250" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2e7d32">
+    (дом, лес, река)
+  </text>
+  
+  <rect x="170" y="220" width="160" height="30" fill="#e1f5fe" stroke="#29b6f6" stroke-width="2" rx="5" filter="url(#shadow)"/>
+  <text x="250" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#01579b">
+    Заимствованная лексика
+  </text>
+  
+  <!-- Примеры -->
+  <rect x="20" y="320" width="460" height="20" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1" rx="3"/>
+  <text x="250" y="334" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#34495e">
+    Примеры: "правда" (исконно), "компьютер" (заимствовано), "белый" - "чёрный" (антонимы)
+  </text>
+  
+  <!-- Дополнительные элементы оформления -->
+  <circle cx="40" cy="50" r="4" fill="#3498db" opacity="0.3"/>
+  <circle cx="460" cy="50" r="4" fill="#e74c3c" opacity="0.3"/>
+  <circle cx="40" cy="330" r="4" fill="#2ecc71" opacity="0.3"/>
+  <circle cx="460" cy="330" r="4" fill="#f39c12" opacity="0.3"/>
+  
+  <!-- Разделители -->
+  <line x1="150" y1="90" x2="150" y2="150" stroke="#bdc3c7" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="350" y1="90" x2="350" y2="150" stroke="#bdc3c7" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Определения -->
+  <text x="140" y="140" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d" font-style="italic">
+    одно значение
+  </text>
+  <text x="360" y="140" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d" font-style="italic">
+    несколько значений
+  </text>
+  
+  <!-- Маркер стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#3498db"/>
+    </marker>
+  </defs>
+  
+  <!-- Дополнительные примеры фразеологизмов -->
+  <text x="420" y="295" font-family="Arial, sans-serif" font-size="9" fill="#6a1b9a">
+    "бить баклуши"
+  </text>
+  
+  <!-- Иконки для визуализации -->
+  <path d="M 200 185 L 210 195 L 200 205 Z" fill="#4caf50"/>
+  <path d="M 300 185 L 310 195 L 300 205 Z" fill="#29b6f6"/>
+</svg>

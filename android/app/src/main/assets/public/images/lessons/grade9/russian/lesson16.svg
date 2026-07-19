@@ -1,0 +1,125 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d1e7dd;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2c5aa0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e3a8a;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="typeGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="styleGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+    
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Фоновый прямоугольник -->
+  <rect width="500" height="350" fill="url(#bgGradient)"/>
+  
+  <!-- Рамка -->
+  <rect x="5" y="5" width="490" height="340" fill="none" stroke="#2c5aa0" stroke-width="3" rx="10" ry="10"/>
+  
+  <!-- Заголовок -->
+  <rect x="50" y="20" width="400" height="50" fill="url(#headerGradient)" rx="8" ry="8" filter="url(#shadow)"/>
+  <text x="250" y="40" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">РУССКИЙ ЯЗЫК</text>
+  <text x="250" y="58" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">9 КЛАСС</text>
+  
+  <!-- Заголовок темы -->
+  <text x="250" y="95" text-anchor="middle" fill="#1e3a8a" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Текст как единица речи</text>
+  
+  <!-- Раздел Типы речи -->
+  <rect x="30" y="115" width="215" height="170" fill="white" stroke="#f59e0b" stroke-width="2" rx="8" ry="8" filter="url(#shadow)"/>
+  <rect x="30" y="115" width="215" height="30" fill="url(#typeGradient)" rx="8" ry="8"/>
+  <rect x="30" y="135" width="215" height="10" fill="url(#typeGradient)"/>
+  <text x="137.5" y="135" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">ТИПЫ ТЕКСТА</text>
+  
+  <!-- Описание -->
+  <circle cx="50" cy="170" r="15" fill="#fbbf24"/>
+  <text x="50" y="175" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">1</text>
+  <text x="75" y="175" fill="#1e3a8a" font-family="Arial, sans-serif" font-size="13">Описание</text>
+  <rect x="45" y="185" width="100" height="2" fill="#e5e7eb"/>
+  <text x="55" y="200" fill="#6b7280" font-family="Arial, sans-serif" font-size="11">характеристика</text>
+  <text x="55" y="215" fill="#6b7280" font-family="Arial, sans-serif" font-size="11">предметов, явлений</text>
+  
+  <!-- Повествование -->
+  <circle cx="50" cy="240" r="15" fill="#fbbf24"/>
+  <text x="50" y="245" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">2</text>
+  <text x="75" y="245" fill="#1e3a8a" font-family="Arial, sans-serif" font-size="13">Повествование</text>
+  <rect x="45" y="255" width="100" height="2" fill="#e5e7eb"/>
+  <text x="55" y="270" fill="#6b7280" font-family="Arial, sans-serif" font-size="11">последовательность</text>
+  <text x="55" y="285" fill="#6b7280" font-family="Arial, sans-serif" font-size="11">событий, действий</text>
+  
+  <!-- Рассуждение -->
+  <circle cx="50" cy="310" r="15" fill="#fbbf24"/>
+  <text x="50" y="315" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">3</text>
+  <text x="75" y="315" fill="#1e3a8a" font-family="Arial, sans-serif" font-size="13">Рассуждение</text>
+  <rect x="45" y="325" width="100" height="2" fill="#e5e7eb"/>
+  <text x="55" y="340" fill="#6b7280" font-family="Arial, sans-serif" font-size="11">мысли, доказательства</text>
+  
+  <!-- Раздел Стили речи -->
+  <rect x="255" y="115" width="215" height="170" fill="white" stroke="#7c3aed" stroke-width="2" rx="8" ry="8" filter="url(#shadow)"/>
+  <rect x="255" y="115" width="215" height="30" fill="url(#styleGradient)" rx="8" ry="8"/>
+  <rect x="255" y="135" width="215" height="10" fill="url(#styleGradient)"/>
+  <text x="362.5" y="135" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">СТИЛИ РЕЧИ</text>
+  
+  <!-- Научный стиль -->
+  <rect x="270" y="150" width="190" height="22" fill="#f3e8ff" rx="4" ry="4"/>
+  <text x="280" y="165" fill="#7c3aed" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Научный</text>
+  <text x="440" y="165" text-anchor="end" fill="#9ca3af" font-family="Arial, sans-serif" font-size="10">точность</text>
+  
+  <!-- Официально-деловой стиль -->
+  <rect x="270" y="178" width="190" height="22" fill="#f3e8ff" rx="4" ry="4"/>
+  <text x="280" y="193" fill="#7c3aed" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Официально-деловой</text>
+  <text x="440" y="193" text-anchor="end" fill="#9ca3af" font-family="Arial, sans-serif" font-size="10">документы</text>
+  
+  <!-- Публицистический стиль -->
+  <rect x="270" y="206" width="190" height="22" fill="#f3e8ff" rx="4" ry="4"/>
+  <text x="280" y="221" fill="#7c3aed" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Публицистический</text>
+  <text x="440" y="221" text-anchor="end" fill="#9ca3af" font-family="Arial, sans-serif" font-size="10">СМИ</text>
+  
+  <!-- Художественный стиль -->
+  <rect x="270" y="234" width="190" height="22" fill="#f3e8ff" rx="4" ry="4"/>
+  <text x="280" y="249" fill="#7c3aed" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Художественный</text>
+  <text x="440" y="249" text-anchor="end" fill="#9ca3af" font-family="Arial, sans-serif" font-size="10">литература</text>
+  
+  <!-- Разговорный стиль -->
+  <rect x="270" y="262" width="190" height="22" fill="#f3e8ff" rx="4" ry="4"/>
+  <text x="280" y="277" fill="#7c3aed" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Разговорный</text>
+  <text x="440" y="277" text-anchor="end" fill="#9ca3af" font-family="Arial, sans-serif" font-size="10">бытовая речь</text>
+  
+  <!-- Центральный элемент - Текст -->
+  <circle cx="250" cy="300" r="25" fill="white" stroke="#2c5aa0" stroke-width="3" filter="url(#shadow)"/>
+  <text x="250" y="305" text-anchor="middle" fill="#2c5aa0" font-family="Arial, sans-serif" font-size="12" font-weight="bold">ТЕКСТ</text>
+  
+  <!-- Стрелки от текста к типам и стилям -->
+  <path d="M 225 300 L 150 280" stroke="#6b7280" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 275 300 L 350 280" stroke="#6b7280" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Дополнительные элементы -->
+  <text x="250" y="105" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="11" font-style="italic">Единица с признаками связности, целостности и завершенности</text>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="40" cy="40" r="3" fill="#fbbf24" opacity="0.6"/>
+  <circle cx="460" cy="40" r="3" fill="#a78bfa" opacity="0.6"/>
+  <circle cx="40" cy="310" r="3" fill="#fbbf24" opacity="0.6"/>
+  <circle cx="460" cy="310" r="3" fill="#a78bfa" opacity="0.6"/>
+  
+  <!-- Стрелка маркер -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#6b7280"/>
+    </marker>
+  </defs>
+</svg>
