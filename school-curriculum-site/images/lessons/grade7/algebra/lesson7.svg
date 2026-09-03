@@ -1,60 +1,169 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
-<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
-<polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
-<polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
-<polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
-<polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
-<circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-<circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
-<circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
-<circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-<circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
-<circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
-<text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Степень и её свойства</text>
-<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Алгебра - Урок 7</text>
-<line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
-<rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
-<rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
-
-  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5"/>
-  <text x="135" y="115" font-family="Arial,sans-serif" font-size="13" fill="#1565C0" text-anchor="middle" font-weight="bold">Степень и её свойства</text>
-  <!-- Coordinate axes -->
-  <line x1="55" y1="240" x2="210" y2="240" stroke="#333" stroke-width="1.5"/>
-  <line x1="60" y1="245" x2="60" y2="130" stroke="#333" stroke-width="1.5"/>
-  <polygon points="210,237 218,240 210,243" fill="#333"/>
-  <polygon points="57,130 60,122 63,130" fill="#333"/>
-  <text x="215" y="243" font-family="Arial,sans-serif" font-size="7" fill="#333">x</text>
-  <text x="63" y="128" font-family="Arial,sans-serif" font-size="7" fill="#333">y</text>
-  <!-- Grid marks -->
-  <line x1="100" y1="238" x2="100" y2="242" stroke="#888" stroke-width="1"/>
-  <line x1="140" y1="238" x2="140" y2="242" stroke="#888" stroke-width="1"/>
-  <line x1="180" y1="238" x2="180" y2="242" stroke="#888" stroke-width="1"/>
-  <line x1="58" y1="200" x2="62" y2="200" stroke="#888" stroke-width="1"/>
-  <line x1="58" y1="160" x2="62" y2="160" stroke="#888" stroke-width="1"/>
-  <!-- Function line y=2x -->
-  <line x1="60" y1="240" x2="200" y2="150" stroke="#C62828" stroke-width="2"/>
-  <circle cx="100" cy="210" r="3" fill="#C62828"/>
-  <circle cx="140" cy="180" r="3" fill="#C62828"/>
-  <circle cx="180" cy="150" r="3" fill="#C62828"/>
-  <text x="170" y="140" font-family="Arial,sans-serif" font-size="8" fill="#C62828">y = kx + b</text>
-  <text x="135" y="270" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">координатная плоскость</text>
-
-  <rect x="260" y="90" width="215" height="200" rx="6" fill="white" stroke="#F9A825" stroke-width="1.5"/>
-  <text x="367" y="115" font-family="Arial,sans-serif" font-size="12" fill="#F9A825" text-anchor="middle" font-weight="bold">Формулы</text>
-  <!-- Equation -->
-  <rect x="285" y="130" width="165" height="30" rx="4" fill="#FFF8E1" stroke="#F9A825" stroke-width="1"/>
-  <text x="367" y="150" font-family="Arial,sans-serif" font-size="11" fill="#C62828" text-anchor="middle">ax + b = 0</text>
-  <rect x="285" y="170" width="165" height="30" rx="4" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
-  <text x="367" y="190" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle">x = -b / a</text>
-  <!-- Degree -->
-  <rect x="285" y="210" width="165" height="30" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
-  <text x="367" y="230" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" text-anchor="middle">a x a = a2</text>
-  <!-- Monomial -->
-  <rect x="285" y="250" width="165" height="30" rx="4" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="1"/>
-  <text x="367" y="270" font-family="Arial,sans-serif" font-size="10" fill="#7B1FA2" text-anchor="middle">3x2y - одночлен</text>
-<rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
-<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Алгебра</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Градиенты -->
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#357ABD;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#5CB85C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#449D44;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#D9534F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C9302C;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9B59B6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8E44AD;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#F8F9FA"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2C3E50">
+    АЛГЕБРА · 7 КЛАСС
+  </text>
+  
+  <!-- Основная тема -->
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#34495E">
+    Линейное уравнение ax = b
+  </text>
+  
+  <!-- Система координат -->
+  <g transform="translate(100, 200)">
+    <!-- Ось X -->
+    <line x1="-50" y1="0" x2="150" y2="0" stroke="#2C3E50" stroke-width="2"/>
+    <polygon points="150,0 145,-3 145,3" fill="#2C3E50"/>
+    <text x="155" y="5" font-family="Arial, sans-serif" font-size="14" fill="#2C3E50">x</text>
+    
+    <!-- Ось Y -->
+    <line x1="0" y1="-80" x2="0" y2="80" stroke="#2C3E50" stroke-width="2"/>
+    <polygon points="0,-80 -3,-75 3,-75" fill="#2C3E50"/>
+    <text x="5" y="-75" font-family="Arial, sans-serif" font-size="14" fill="#2C3E50">y</text>
+    
+    <!-- Сетка -->
+    <g stroke="#E0E0E0" stroke-width="0.5">
+      <line x1="-50" y1="-40" x2="150" y2="-40"/>
+      <line x1="-50" y1="40" x2="150" y2="40"/>
+      <line x1="-25" y1="-80" x2="-25" y2="80"/>
+      <line x1="25" y1="-80" x2="25" y2="80"/>
+      <line x1="50" y1="-80" x2="50" y2="80"/>
+      <line x1="75" y1="-80" x2="75" y2="80"/>
+      <line x1="100" y1="-80" x2="100" y2="80"/>
+      <line x1="125" y1="-80" x2="125" y2="80"/>
+    </g>
+    
+    <!-- График y = 2x -->
+    <line x1="-50" y1="-100" x2="75" y2="150" stroke="url(#blueGrad)" stroke-width="3"/>
+    
+    <!-- График y = 6 (горизонтальная линия) -->
+    <line x1="-50" y1="-60" x2="150" y2="-60" stroke="url(#redGrad)" stroke-width="3"/>
+    
+    <!-- Точка пересечения -->
+    <circle cx="3" cy="-60" r="5" fill="#E74C3C"/>
+    <text x="8" y="-55" font-family="Arial, sans-serif" font-size="12" fill="#E74C3C">(3, -60)</text>
+    
+    <!-- Подписи на графике -->
+    <text x="80" y="-90" font-family="Arial, sans-serif" font-size="12" fill="#4A90E2">y = 2x</text>
+    <text x="80" y="-70" font-family="Arial, sans-serif" font-size="12" fill="#D9534F">y = 6</text>
+  </g>
+  
+  <!-- Формула ax = b -->
+  <rect x="300" y="80" width="180" height="60" fill="url(#purpleGrad)" rx="10"/>
+  <text x="390" y="115" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">
+    ax = b
+  </text>
+  
+  <!-- Корень уравнения -->
+  <rect x="300" y="150" width="180" height="40" fill="#ECF0F1" stroke="#BDC3C7" stroke-width="1" rx="5"/>
+  <text x="390" y="175" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2C3E50">
+    x = b/a
+  </text>
+  
+  <!-- Примеры -->
+  <g transform="translate(50, 280)">
+    <rect x="0" y="0" width="150" height="50" fill="url(#greenGrad)" rx="8"/>
+    <text x="75" y="20" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">
+      Пример 1:
+    </text>
+    <text x="75" y="38" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="white">
+      3x = 12
+    </text>
+    <text x="75" y="52" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">
+      x = 4
+    </text>
+  </g>
+  
+  <g transform="translate(220, 280)">
+    <rect x="0" y="0" width="150" height="50" fill="url(#greenGrad)" rx="8"/>
+    <text x="75" y="20" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">
+      Пример 2:
+    </text>
+    <text x="75" y="38" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="white">
+      2x = -8
+    </text>
+    <text x="75" y="52" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">
+      x = -4
+    </text>
+  </g>
+  
+  <g transform="translate(390, 280)">
+    <rect x="0" y="0" width="100" height="50" fill="#FFA500" rx="8"/>
+    <text x="50" y="20" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">
+      Условие:
+    </text>
+    <text x="50" y="38" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">
+      a ≠ 0
+    </text>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <circle cx="30" cy="30" r="8" fill="#3498DB" opacity="0.7"/>
+  <circle cx="470" cy="30" r="8" fill="#E74C3C" opacity="0.7"/>
+  <circle cx="30" cy="330" r="8" fill="#2ECC71" opacity="0.7"/>
+  <circle cx="470" cy="330" r="8" fill="#F39C12" opacity="0.7"/>
+  
+  <!-- Разделительные линии -->
+  <line x1="20" y1="100" x2="480" y2="100" stroke="#BDC3C7" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="20" y1="250" x2="480" y2="250" stroke="#BDC3C7" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Подписи к осям -->
+  <text x="50" y="205" font-family="Arial, sans-serif" font-size="12" fill="#7F8C8D">0</text>
+  <text x="70" y="205" font-family="Arial, sans-serif" font-size="12" fill="#7F8C8D">1</text>
+  <text x="95" y="205" font-family="Arial, sans-serif" font-size="12" fill="#7F8C8D">2</text>
+  <text x="120" y="205" font-family="Arial, sans-serif" font-size="12" fill="#7F8C8D">3</text>
+  
+  <!-- Стрелки и указатели -->
+  <path d="M 250 120 L 350 120" stroke="#95A5A6" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Определение -->
+  <rect x="300" y="200" width="180" height="70" fill="#E8F4FD" stroke="#4A90E2" stroke-width="1" rx="5"/>
+  <text x="390" y="220" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2C3E50" font-weight="bold">
+    Корень уравнения:
+  </text>
+  <text x="390" y="238" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#34495E">
+    значение x, которое
+  </text>
+  <text x="390" y="252" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#34495E">
+    обращает уравнение в верное
+  </text>
+  <text x="390" y="266" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#34495E">
+    равенство
+  </text>
+  
+  <!-- Маркер стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#95A5A6"/>
+    </marker>
+  </defs>
+  
+  <!-- Дополнительные математические символы -->
+  <text x="30" y="250" font-family="Arial, sans-serif" font-size="16" fill="#7F8C8D">∑</text>
+  <text x="460" y="250" font-family="Arial, sans-serif" font-size="16" fill="#7F8C8D">∫</text>
+  <text x="30" y="310" font-family="Arial, sans-serif" font-size="16" fill="#7F8C8D">∆</text>
+  <text x="460" y="310" font-family="Arial, sans-serif" font-size="16" fill="#7F8C8D">∞</text>
 </svg>
