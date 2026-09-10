@@ -1,42 +1,164 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
-<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Плоские черви</text>
-<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 7 класс — Урок 6</text>
-<line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
-
-<g transform="translate(120,150)">
-<path d="M-30,0 Q-40,-12 -30,-10 Q-20,-12 -12,0 Q0,8 18,4 Q30,0 40,-4 Q44,-8 40,-4 Q30,4 18,8 Q0,12 -12,4 Q-20,12 -30,10 Q-40,12 -30,0Z" fill="#A5D6A7" stroke="#2E7D32" stroke-width="2"/>
-<path d="M-30,0 L-42,-8 L-42,8Z" fill="#81C784" stroke="#2E7D32" stroke-width="1.5"/>
-<circle cx="-36" cy="-3" r="2.5" fill="#333"/><circle cx="-36" cy="3" r="2.5" fill="#333"/>
-<ellipse cx="0" cy="0" rx="4" ry="7" fill="#66BB6A" stroke="#1B5E20" stroke-width="1"/>
-<text x="0" y="22" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle" font-weight="bold">Планария</text>
-<text x="0" y="31" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">Свободноживущий</text>
-</g>
-<g transform="translate(300,150)">
-<path d="M-18,-22 Q-26,-12 -22,0 Q-26,12 -18,22 Q0,30 18,22 Q26,12 22,0 Q26,-12 18,-22 Q0,-30 -18,-22Z" fill="#FFCC80" stroke="#E65100" stroke-width="2"/>
-<circle cx="-16" cy="-12" r="5" fill="#FFE0B2" stroke="#BF360C" stroke-width="1.5"/>
-<circle cx="-8" cy="0" r="4" fill="#FFE0B2" stroke="#BF360C" stroke-width="1.5"/>
-<text x="0" y="38" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle" font-weight="bold">Сосальщик</text>
-<text x="0" y="47" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">Паразит, 2 присоски</text>
-</g>
-<g transform="translate(430,150)">
-<circle cx="0" cy="-18" r="9" fill="#FFECB3" stroke="#F57F17" stroke-width="1.5"/>
-<circle cx="-4" cy="-26" r="1.5" fill="#F57F17"/><circle cx="4" cy="-26" r="1.5" fill="#F57F17"/>
-<circle cx="-4" cy="-16" r="2.5" fill="#FFE082" stroke="#F57F17" stroke-width="0.8"/>
-<circle cx="4" cy="-16" r="2.5" fill="#FFE082" stroke="#F57F17" stroke-width="0.8"/>
-<rect x="-7" y="-7" width="14" height="7" rx="2" fill="#FFF9C4" stroke="#F9A825" stroke-width="1"/>
-<rect x="-7" y="2" width="14" height="7" rx="2" fill="#FFF9C4" stroke="#F9A825" stroke-width="1"/>
-<rect x="-8" y="11" width="16" height="9" rx="2" fill="#FFF9C4" stroke="#F9A825" stroke-width="1"/>
-<text x="0" y="32" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle" font-weight="bold">Бычий цепень</text>
-<text x="0" y="41" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">Паразит, нет ЖКТ</text>
-</g>
-<rect x="30" y="215" width="440" height="45" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
-<text x="250" y="229" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Трёхслойные: эктодерма, мезодерма, энтодерма | Двусторонняя симметрия</text>
-<text x="250" y="241" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Кожно-мускульный мешок | Паразиты: присоски, крючья | Нет пищеварения у цепней</text>
-<text x="250" y="253" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Свободноживущие: планария | Паразиты: сосальщики, цепни</text>
-
-<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
-<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 7 класс</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Градиенты -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c9;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="mossGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#2e7d32;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#66bb6a;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="fernGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#1b5e20;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#43a047;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="stemGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#5d4037;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8d6e63;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="leafGrad">
+      <stop offset="0%" style="stop-color:#81c784;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4caf50;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#1b5e20">
+    БИОЛОГИЯ · 7 КЛАСС
+  </text>
+  
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2e7d32">
+    Урок 6. Мхи и папоротники
+  </text>
+  
+  <!-- Разделительная линия -->
+  <line x1="50" y1="70" x2="450" y2="70" stroke="#4caf50" stroke-width="2"/>
+  
+  <!-- Секция Мхи -->
+  <g id="moss-section">
+    <!-- Подзаголовок -->
+    <text x="125" y="95" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1b5e20">
+      Мхи
+    </text>
+    
+    <!-- Стебель мха -->
+    <rect x="115" y="140" width="5" height="80" fill="url(#stemGrad)"/>
+    
+    <!-- Листочки мха -->
+    <ellipse cx="100" cy="150" rx="15" ry="8" fill="url(#mossGrad)" transform="rotate(-20 100 150)"/>
+    <ellipse cx="135" cy="155" rx="15" ry="8" fill="url(#mossGrad)" transform="rotate(20 135 155)"/>
+    <ellipse cx="105" cy="170" rx="15" ry="8" fill="url(#mossGrad)" transform="rotate(-15 105 170)"/>
+    <ellipse cx="130" cy="175" rx="15" ry="8" fill="url(#mossGrad)" transform="rotate(25 130 175)"/>
+    <ellipse cx="100" cy="190" rx="15" ry="8" fill="url(#mossGrad)" transform="rotate(-10 100 190)"/>
+    <ellipse cx="135" cy="195" rx="15" ry="8" fill="url(#mossGrad)" transform="rotate(15 135 195)"/>
+    
+    <!-- Спорангии -->
+    <circle cx="120" cy="130" r="8" fill="#ffd54f"/>
+    <circle cx="120" cy="130" r="5" fill="#ffb300"/>
+    
+    <!-- Надписи для мхов -->
+    <text x="125" y="245" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1b5e20">
+      • Бесцветный проводящий
+    </text>
+    <text x="125" y="260" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1b5e20">
+      тяж
+    </text>
+    <text x="125" y="275" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1b5e20">
+      • Размножение спорами
+    </text>
+    <text x="125" y="290" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1b5e20">
+      • Влаголюбивые
+    </text>
+    <text x="125" y="305" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1b5e20">
+      • Первичные растения
+    </text>
+    <text x="125" y="320" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1b5e20">
+      • Моховой покров
+    </text>
+  </g>
+  
+  <!-- Стрелка эволюции -->
+  <g id="evolution-arrow">
+    <path d="M 180 200 L 220 200 L 220 190 L 240 210 L 220 230 L 220 220 L 180 220" 
+          stroke="#666" stroke-width="3" fill="none"/>
+    <text x="210" y="250" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">
+      Эволюция
+    </text>
+  </g>
+  
+  <!-- Секция Папоротники -->
+  <g id="fern-section">
+    <!-- Подзаголовок -->
+    <text x="375" y="95" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1b5e20">
+      Папоротники
+    </text>
+    
+    <!-- Основной стебель папоротника -->
+    <rect x="365" y="120" width="8" height="120" fill="url(#stemGrad)"/>
+    
+    <!-- Ветви папоротника -->
+    <path d="M 369 140 Q 340 135 320 145" stroke="url(#fernGrad)" stroke-width="4" fill="none"/>
+    <path d="M 369 160 Q 335 155 315 165" stroke="url(#fernGrad)" stroke-width="4" fill="none"/>
+    <path d="M 369 180 Q 330 175 310 185" stroke="url(#fernGrad)" stroke-width="4" fill="none"/>
+    <path d="M 369 200 Q 335 195 315 205" stroke="url(#fernGrad)" stroke-width="4" fill="none"/>
+    <path d="M 369 220 Q 340 215 320 225" stroke="url(#fernGrad)" stroke-width="4" fill="none"/>
+    
+    <!-- Листочки на ветвях -->
+    <ellipse cx="315" cy="145" rx="8" ry="4" fill="url(#leafGrad)" transform="rotate(-30 315 145)"/>
+    <ellipse cx="310" cy="155" rx="8" ry="4" fill="url(#leafGrad)" transform="rotate(-25 310 155)"/>
+    <ellipse cx="320" cy="165" rx="8" ry="4" fill="url(#leafGrad)" transform="rotate(-20 320 165)"/>
+    <ellipse cx="315" cy="175" rx="8" ry="4" fill="url(#leafGrad)" transform="rotate(-15 315 175)"/>
+    <ellipse cx="325" cy="185" rx="8" ry="4" fill="url(#leafGrad)" transform="rotate(-10 325 185)"/>
+    <ellipse cx="320" cy="195" rx="8" ry="4" fill="url(#leafGrad)" transform="rotate(-5 320 195)"/>
+    <ellipse cx="330" cy="205" rx="8" ry="4" fill="url(#leafGrad)" transform="rotate(0 330 205)"/>
+    <ellipse cx="325" cy="215" rx="8" ry="4" fill="url(#leafGrad)" transform="rotate(5 325 215)"/>
+    <ellipse cx="335" cy="225" rx="8" ry="4" fill="url(#leafGrad)" transform="rotate(10 335 225)"/>
+    
+    <!-- Еще одна ветвь -->
+    <path d="M 369 140 Q 395 135 415 145" stroke="url(#fernGrad)" stroke-width="4" fill="none"/>
+    <path d="M 369 160 Q 390 155 410 165" stroke="url(#fernGrad)" stroke-width="4" fill="none"/>
+    <path d="M 369 180 Q 385 175 405 185" stroke="url(#fernGrad)" stroke-width="4" fill="none"/>
+    
+    <!-- Листочки на второй ветви -->
+    <ellipse cx="415" cy="145" rx="8" ry="4" fill="url(#leafGrad)" transform="rotate(30 415 145)"/>
+    <ellipse cx="410" cy="155" rx="8" ry="4" fill="url(#leafGrad)" transform="rotate(25 410 155)"/>
+    <ellipse cx="420" cy="165" rx="8" ry="4" fill="url(#leafGrad)" transform="rotate(20 420 165)"/>
+    <ellipse cx="415" cy="175" rx="8" ry="4" fill="url(#leafGrad)" transform="rotate(15 415 175)"/>
+    <ellipse cx="425" cy="185" rx="8" ry="4" fill="url(#leafGrad)" transform="rotate(10 425 185)"/>
+    
+    <!-- Спороносные листья -->
+    <rect x="360" y="125" width="18" height="2" fill="#ff6f00"/>
+    <rect x="360" y="125" width="18" height="2" fill="#ff8f00"/>
+    <rect x="360" y="125" width="18" height="2" fill="#ffa000"/>
+    
+    <!-- Надписи для папоротников -->
+    <text x="375" y="270" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1b5e20">
+      • Разветвленные
+    </text>
+    <text x="375" y="285" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1b5e20">
+      вены
+    </text>
+    <text x="375" y="300" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1b5e20">
+      • Спороносные
+    </text>
+    <text x="375" y="315" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1b5e20">
+      листья
+    </text>
+    <text x="375" y="330" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1b5e20">
+      • Многолетние
+    </text>
+  </g>
+  
+  <!-- Тема в нижней части -->
+  <text x="250" y="345" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2e7d32">
+    Мхи, папоротники, эволюция растений
+  </text>
 </svg>

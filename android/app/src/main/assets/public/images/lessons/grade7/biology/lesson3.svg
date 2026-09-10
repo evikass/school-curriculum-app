@@ -1,53 +1,155 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
-<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Общая характеристика простейших</text>
-<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 7 класс — Урок 3</text>
-<line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
-
-<g transform="translate(85,155)">
-<path d="M-22,8 Q-32,-3 -18,-18 Q-8,-25 5,-22 Q18,-25 22,-12 Q30,-3 22,8 Q12,20 0,18 Q-12,20 -22,8Z" fill="#B2DFDB" stroke="#00897B" stroke-width="2"/>
-<ellipse cx="2" cy="-2" rx="7" ry="5" fill="#80CBC4" stroke="#00695C" stroke-width="1.5"/>
-<circle cx="2" cy="-2" r="3" fill="#4DB6AC"/>
-<path d="M-26,0 Q-40,5 -34,-5" fill="#B2DFDB" stroke="#00897B" stroke-width="1.5"/>
-<path d="M18,-18 Q28,-28 22,-12" fill="#B2DFDB" stroke="#00897B" stroke-width="1.5"/>
-<circle cx="14" cy="8" r="4" fill="#E0F7FA" stroke="#00BCD4" stroke-width="1"/>
-<circle cx="-8" cy="8" r="5" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1" opacity="0.6"/>
-<text x="0" y="42" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle" font-weight="bold">Амёба</text>
-<text x="0" y="52" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">Ложноножки</text>
-</g>
-<g transform="translate(250,155)">
-<ellipse cx="0" cy="0" rx="28" ry="11" fill="#C8E6C9" stroke="#388E3C" stroke-width="2"/>
-<path d="M26,-2 Q42,-14 48,-24" stroke="#388E3C" stroke-width="1.5" fill="none"/>
-<circle cx="18" cy="-3" r="3" fill="#F44336" opacity="0.7"/>
-<ellipse cx="-4" cy="-3" rx="5" ry="2.5" fill="#66BB6A" opacity="0.6"/>
-<ellipse cx="5" cy="4" rx="4" ry="2" fill="#66BB6A" opacity="0.6"/>
-<circle cx="-8" cy="0" r="4" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1"/>
-<text x="0" y="28" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle" font-weight="bold">Эвглена</text>
-<text x="0" y="38" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">Жгутик + хлоропласты</text>
-</g>
-<g transform="translate(415,155)">
-<ellipse cx="0" cy="0" rx="16" ry="32" fill="#E1BEE7" stroke="#7B1FA2" stroke-width="2"/>
-<line x1="-16" y1="-18" x2="-22" y2="-20" stroke="#9C27B0" stroke-width="0.7"/>
-<line x1="-17" y1="-8" x2="-23" y2="-9" stroke="#9C27B0" stroke-width="0.7"/>
-<line x1="-17" y1="2" x2="-23" y2="2" stroke="#9C27B0" stroke-width="0.7"/>
-<line x1="-16" y1="12" x2="-22" y2="13" stroke="#9C27B0" stroke-width="0.7"/>
-<line x1="16" y1="-18" x2="22" y2="-20" stroke="#9C27B0" stroke-width="0.7"/>
-<line x1="17" y1="-8" x2="23" y2="-9" stroke="#9C27B0" stroke-width="0.7"/>
-<line x1="17" y1="2" x2="23" y2="2" stroke="#9C27B0" stroke-width="0.7"/>
-<line x1="16" y1="12" x2="22" y2="13" stroke="#9C27B0" stroke-width="0.7"/>
-<path d="M-8,-12 Q-13,0 -6,12" stroke="#6A1B9A" stroke-width="1.5" fill="none"/>
-<ellipse cx="2" cy="-4" rx="7" ry="4" fill="#CE93D8" stroke="#6A1B9A" stroke-width="1"/>
-<circle cx="4" cy="3" r="2.5" fill="#AB47BC" stroke="#6A1B9A" stroke-width="1"/>
-<text x="0" y="46" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle" font-weight="bold">Инфузория</text>
-<text x="0" y="56" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">Реснички</text>
-</g>
-<rect x="40" y="235" width="420" height="45" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
-<text x="250" y="249" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Общие признаки: одна клетка = целый организм | Эукариоты</text>
-<text x="250" y="261" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Сократительная вакуоль | Инцистирование | Гетеротрофы или миксотрофы</text>
-<text x="250" y="273" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Органоиды движения: ложноножки, жгутики, реснички</text>
-
-<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
-<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 7 класс</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Градиенты -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f4fd;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d1e9f6;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="bacteriaGrad1">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E7D32;stop-opacity:1" />
+    </radialGradient>
+    
+    <radialGradient id="bacteriaGrad2">
+      <stop offset="0%" style="stop-color:#FF9800;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E65100;stop-opacity:1" />
+    </radialGradient>
+    
+    <radialGradient id="bacteriaGrad3">
+      <stop offset="0%" style="stop-color:#2196F3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0D47A1;stop-opacity:1" />
+    </radialGradient>
+    
+    <linearGradient id="dnaGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#9C27B0;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#E91E63;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9C27B0;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1976D2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#42A5F5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фоновый прямоугольник -->
+  <rect width="500" height="350" fill="url(#bgGrad)" />
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="url(#titleGrad)">БИОЛОГИЯ · 7 КЛАСС</text>
+  
+  <!-- Основной заголовок урока -->
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1565C0">Урок 3. Бактерии</text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#424242">Строение и значение</text>
+  
+  <!-- Бактерия 1 - Палочковидная -->
+  <g id="bacteria1">
+    <ellipse cx="100" cy="150" rx="40" ry="15" fill="url(#bacteriaGrad1)" transform="rotate(-30 100 150)" />
+    <circle cx="85" cy="140" r="3" fill="#1B5E20" />
+    <circle cx="95" cy="145" r="3" fill="#1B5E20" />
+    <circle cx="105" cy="148" r="3" fill="#1B5E20" />
+    <circle cx="115" cy="145" r="3" fill="#1B5E20" />
+    <text x="100" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#424242">Палочковидная</text>
+    <text x="100" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#757575">бактерия</text>
+  </g>
+  
+  <!-- Бактерия 2 - Шаровидная -->
+  <g id="bacteria2">
+    <circle cx="250" cy="150" r="25" fill="url(#bacteriaGrad2)" />
+    <circle cx="245" cy="145" r="2" fill="#BF360C" />
+    <circle cx="255" cy="148" r="2" fill="#BF360C" />
+    <circle cx="250" cy="155" r="2" fill="#BF360C" />
+    <circle cx="240" cy="152" r="2" fill="#BF360C" />
+    <circle cx="260" cy="152" r="2" fill="#BF360C" />
+    <text x="250" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#424242">Шаровидная</text>
+    <text x="250" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#757575">бактерия</text>
+  </g>
+  
+  <!-- Бактерия 3 - Спиральная -->
+  <g id="bacteria3">
+    <path d="M 380 130 Q 390 140 385 150 Q 380 160 390 170 Q 400 160 395 150 Q 390 140 400 130" 
+          fill="url(#bacteriaGrad3)" stroke="#1565C0" stroke-width="2" />
+    <circle cx="385" cy="135" r="2" fill="#0D47A1" />
+    <circle cx="390" cy="145" r="2" fill="#0D47A1" />
+    <circle cx="387" cy="155" r="2" fill="#0D47A1" />
+    <circle cx="395" cy="165" r="2" fill="#0D47A1" />
+    <text x="390" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#424242">Спиральная</text>
+    <text x="390" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#757575">бактерия</text>
+  </g>
+  
+  <!-- Разделительная линия -->
+  <line x1="50" y1="220" x2="450" y2="220" stroke="#90CAF9" stroke-width="2" />
+  
+  <!-- Строение бактерии - подробный вид -->
+  <g id="bacteria-structure">
+    <!-- Основная клетка -->
+    <circle cx="100" cy="280" r="35" fill="#E3F2FD" stroke="#1976D2" stroke-width="2" />
+    
+    <!-- Цитоплазма -->
+    <circle cx="100" cy="280" r="30" fill="#BBDEFB" opacity="0.7" />
+    
+    <!-- ДНК -->
+    <ellipse cx="100" cy="280" rx="20" ry="8" fill="url(#dnaGrad)" opacity="0.8" />
+    
+    <!-- Рибосомы -->
+    <circle cx="85" cy="275" r="2" fill="#7B1FA2" />
+    <circle cx="95" cy="278" r="2" fill="#7B1FA2" />
+    <circle cx="105" cy="275" r="2" fill="#7B1FA2" />
+    <circle cx="90" cy="285" r="2" fill="#7B1FA2" />
+    <circle cx="110" cy="283" r="2" fill="#7B1FA2" />
+    
+    <!-- Мембрана -->
+    <circle cx="100" cy="280" r="32" fill="none" stroke="#0D47A1" stroke-width="1" stroke-dasharray="2,2" />
+    
+    <!-- Капсула -->
+    <circle cx="100" cy="280" r="38" fill="none" stroke="#4CAF50" stroke-width="2" opacity="0.6" />
+  </g>
+  
+  <!-- Подписи к строению -->
+  <text x="100" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#424242">1. Капсула</text>
+  <text x="145" y="280" font-family="Arial, sans-serif" font-size="10" fill="#424242">2. Мембрана</text>
+  <text x="100" y="250" font-family="Arial, sans-serif" font-size="10" fill="#424242">3. Цитоплазма</text>
+  <text x="60" y="280" font-family="Arial, sans-serif" font-size="10" fill="#424242">4. ДНК</text>
+  <text x="75" y="300" font-family="Arial, sans-serif" font-size="10" fill="#424242">5. Рибосомы</text>
+  
+  <!-- Значение бактерий -->
+  <g id="bacteria-importance">
+    <!-- Фон для значений -->
+    <rect x="220" y="240" width="260" height="100" rx="10" fill="#F5F5F5" stroke="#BDBDBD" stroke-width="1" />
+    
+    <!-- Заголовок секции -->
+    <text x="350" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1976D2">Значение в природе</text>
+    
+    <!-- Список значений -->
+    <text x="230" y="280" font-family="Arial, sans-serif" font-size="11" fill="#424242">• Круговорот веществ</text>
+    <text x="230" y="295" font-family="Arial, sans-serif" font-size="11" fill="#424242">• Почвообразование</text>
+    <text x="230" y="310" font-family="Arial, sans-serif" font-size="11" fill="#424242">• Кишечная флора</text>
+    <text x="230" y="325" font-family="Arial, sans-serif" font-size="11" fill="#424242">• Ферментация</text>
+    
+    <text x="350" y="280" font-family="Arial, sans-serif" font-size="11" fill="#424242">• Азотфиксация</text>
+    <text x="350" y="295" font-family="Arial, sans-serif" font-size="11" fill="#424242">• Биоразложение</text>
+    <text x="350" y="310" font-family="Arial, sans-serif" font-size="11" fill="#424242">• Продуцирование кислорода</text>
+    <text x="350" y="325" font-family="Arial, sans-serif" font-size="11" fill="#424242">• Медицинское применение</text>
+  </g>
+  
+  <!-- Дополнительные элементы декора -->
+  <circle cx="30" cy="100" r="3" fill="#81C784" opacity="0.5" />
+  <circle cx="470" cy="120" r="3" fill="#81C784" opacity="0.5" />
+  <circle cx="40" cy="200" r="2" fill="#64B5F6" opacity="0.5" />
+  <circle cx="460" cy="180" r="2" fill="#64B5F6" opacity="0.5" />
+  
+  <!-- Указатели на бактерии -->
+  <path d="M 100 120 L 100 135" stroke="#424242" stroke-width="1" marker-end="url(#arrowhead)" />
+  <path d="M 250 120 L 250 125" stroke="#424242" stroke-width="1" marker-end="url(#arrowhead)" />
+  <path d="M 390 120 L 390 125" stroke="#424242" stroke-width="1" marker-end="url(#arrowhead)" />
+  
+  <!-- Стрелка -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#424242" />
+    </marker>
+  </defs>
 </svg>

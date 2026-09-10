@@ -1,37 +1,179 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
-<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Классификация животных и методы зоологии</text>
-<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 7 класс — Урок 2</text>
-<line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
-
-<g transform="translate(30,70)">
-<rect x="0" y="0" width="180" height="18" rx="3" fill="#2E7D32" opacity="0.8"/>
-<text x="90" y="13" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle" font-weight="bold">Царство Животные</text>
-<rect x="10" y="22" width="160" height="16" rx="3" fill="#388E3C" opacity="0.7"/>
-<text x="90" y="34" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Тип Хордовые</text>
-<rect x="20" y="42" width="140" height="16" rx="3" fill="#43A047" opacity="0.6"/>
-<text x="90" y="54" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Класс Млекопитающие</text>
-<rect x="30" y="62" width="120" height="16" rx="3" fill="#4CAF50" opacity="0.5"/>
-<text x="90" y="74" font-family="Arial,sans-serif" font-size="7" fill="white" text-anchor="middle">Отряд Хищные</text>
-<rect x="40" y="82" width="100" height="16" rx="3" fill="#66BB6A" opacity="0.5"/>
-<text x="90" y="94" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Семейство Псовые</text>
-<rect x="50" y="102" width="80" height="16" rx="3" fill="#81C784" opacity="0.5"/>
-<text x="90" y="114" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Род Волки</text>
-<rect x="60" y="122" width="60" height="16" rx="3" fill="#A5D6A7" opacity="0.5" stroke="#2E7D32" stroke-width="1"/>
-<text x="90" y="134" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">Вид</text>
-</g>
-<g transform="translate(250,70)">
-<text x="110" y="10" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle" font-weight="bold">Методы зоологии</text>
-<g transform="translate(40,45)"><circle cx="0" cy="0" r="14" fill="none" stroke="#FF9800" stroke-width="2"/><line x1="10" y1="10" x2="20" y2="20" stroke="#FF9800" stroke-width="2.5"/><text x="0" y="28" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Наблюдение</text></g>
-<g transform="translate(130,45)"><rect x="-5" y="-13" width="10" height="22" rx="2" fill="none" stroke="#E53935" stroke-width="1.5"/><rect x="-4" y="0" width="8" height="7" rx="1" fill="#E53935" opacity="0.3"/><text x="0" y="23" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Эксперимент</text></g>
-<g transform="translate(220,45)"><path d="M-8,4 Q-6,-8 0,-10 Q6,-8 8,4 L6,8 Q0,10 -6,8Z" fill="none" stroke="#795548" stroke-width="1.5"/><text x="0" y="23" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Сравнение</text></g>
-<g transform="translate(85,110)"><path d="M-18,-8 Q-8,-13 2,-8 Q12,-3 18,-8" stroke="#9C27B0" stroke-width="1.5" fill="none"/><path d="M-18,-1 Q-8,-6 2,-1 Q12,4 18,-1" stroke="#9C27B0" stroke-width="1.5" fill="none"/><text x="0" y="15" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Молекулярный</text></g>
-<g transform="translate(185,110)"><ellipse cx="0" cy="-4" rx="14" ry="9" fill="#D7CCC8" stroke="#795548" stroke-width="1.5"/><path d="M-7,-7 Q0,-2 7,-7" stroke="#5D4037" stroke-width="1" fill="none"/><text x="0" y="15" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">Палеонтология</text></g>
-</g>
-<g transform="translate(380,210)"><circle cx="0" cy="-12" r="18" fill="#FFF9C4" stroke="#F9A825" stroke-width="1.5"/><text x="0" y="-14" font-family="Arial,sans-serif" font-size="7" fill="#F57F17" text-anchor="middle" font-weight="bold">К.Линней</text><text x="0" y="-2" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">1707-1778</text><text x="0" y="15" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Бинарная</text><text x="0" y="24" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">номенклатура</text></g>
-
-<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
-<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 7 класс</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Градиенты -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c9;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="cellGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e1f5fe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b3e5fc;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="nucleusGrad">
+      <stop offset="0%" style="stop-color:#fff3e0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffe0b2;stop-opacity:1" />
+    </radialGradient>
+    
+    <linearGradient id="mitochondriaGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f8bbd0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f48fb1;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Фильтры -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2e7d32">БИОЛОГИЯ · 7 КЛАСС</text>
+  <text x="250" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#388e3c">Урок 2. Клеточное строение организмов</text>
+  
+  <!-- Эукариотическая клетка -->
+  <g transform="translate(150, 150)">
+    <!-- Оболочка клетки -->
+    <ellipse cx="0" cy="0" rx="90" ry="80" fill="url(#cellGrad)" stroke="#0277bd" stroke-width="2" filter="url(#shadow)"/>
+    
+    <!-- Ядро -->
+    <ellipse cx="0" cy="-10" rx="35" ry="30" fill="url(#nucleusGrad)" stroke="#f57c00" stroke-width="2"/>
+    <circle cx="0" cy="-10" r="15" fill="#fff3e0" stroke="#ff6f00" stroke-width="1"/>
+    
+    <!-- Ядрышко -->
+    <circle cx="0" cy="-10" r="5" fill="#ff6f00"/>
+    
+    <!-- Митохондрия -->
+    <g transform="translate(-40, 20)">
+      <ellipse cx="0" cy="0" rx="20" ry="8" fill="url(#mitochondriaGrad)" stroke="#d81b60" stroke-width="1" transform="rotate(-30)"/>
+      <line x1="-15" y1="0" x2="15" y2="0" stroke="#d81b60" stroke-width="1" transform="rotate(-30)"/>
+    </g>
+    
+    <!-- ЭПС -->
+    <g transform="translate(30, -20)">
+      <path d="M0,0 Q10,5 20,0 T40,0" stroke="#7b1fa2" stroke-width="2" fill="none"/>
+      <path d="M0,5 Q10,10 20,5 T40,5" stroke="#7b1fa2" stroke-width="2" fill="none"/>
+      <path d="M0,10 Q10,15 20,10 T40,10" stroke="#7b1fa2" stroke-width="2" fill="none"/>
+    </g>
+    
+    <!-- Рибосомы -->
+    <circle cx="35" cy="-15" r="3" fill="#6a1b9a"/>
+    <circle cx="40" cy="-10" r="3" fill="#6a1b9a"/>
+    <circle cx="42" cy="-5" r="3" fill="#6a1b9a"/>
+    
+    <!-- Хлоропласты (для растительной клетки) -->
+    <g transform="translate(-30, -30)">
+      <ellipse cx="0" cy="0" rx="15" ry="8" fill="#81c784" stroke="#388e3c" stroke-width="1" transform="rotate(20)"/>
+      <line x1="-10" y1="0" x2="10" y2="0" stroke="#388e3c" stroke-width="1" transform="rotate(20)"/>
+    </g>
+    
+    <!-- Вакуоль -->
+    <ellipse cx="20" cy="30" rx="25" ry="20" fill="#e1bee7" stroke="#8e24aa" stroke-width="1" opacity="0.7"/>
+    
+    <!-- Гольджи аппарат -->
+    <g transform="translate(-20, 35)">
+      <path d="M0,0 Q10,-5 20,0 T40,0" stroke="#5e35b1" stroke-width="2" fill="none"/>
+      <path d="M0,5 Q10,0 20,5 T40,5" stroke="#5e35b1" stroke-width="2" fill="none"/>
+      <path d="M0,10 Q10,5 20,10 T40,10" stroke="#5e35b1" stroke-width="2" fill="none"/>
+    </g>
+  </g>
+  
+  <!-- Прокариотическая клетка -->
+  <g transform="translate(350, 150)">
+    <!-- Оболочка клетки -->
+    <ellipse cx="0" cy="0" rx="60" ry="50" fill="#fff8e1" stroke="#ffa000" stroke-width="2" filter="url(#shadow)"/>
+    
+    <!-- Нуклеоид -->
+    <path d="M-20,-10 Q-10,-15 0,-10 T20,-10 Q25,-5 20,0 T0,10 Q-10,15 -20,10 T-25,5 Z" fill="#ff6f00" opacity="0.8"/>
+    
+    <!-- Плазмидная ДНК -->
+    <ellipse cx="30" cy="-15" rx="8" ry="6" fill="#ff8f00" stroke="#e65100" stroke-width="1"/>
+    
+    <!-- Рибосомы -->
+    <circle cx="-20" cy="10" r="2" fill="#e65100"/>
+    <circle cx="-15" cy="5" r="2" fill="#e65100"/>
+    <circle cx="-10" cy="8" r="2" fill="#e65100"/>
+    <circle cx="-5" cy="12" r="2" fill="#e65100"/>
+    <circle cx="0" cy="10" r="2" fill="#e65100"/>
+    <circle cx="5" cy="8" r="2" fill="#e65100"/>
+    <circle cx="10" cy="5" r="2" fill="#e65100"/>
+    
+    <!-- Клеточная стенка -->
+    <ellipse cx="0" cy="0" rx="65" ry="55" fill="none" stroke="#f57c00" stroke-width="1" stroke-dasharray="3,2"/>
+    
+    <!-- Мезосома -->
+    <ellipse cx="-30" cy="0" rx="8" ry="20" fill="#ffab91" stroke="#ff6f00" stroke-width="1" transform="rotate(-15 -30 0)"/>
+  </g>
+  
+  <!-- Подписи к эукариотической клетке -->
+  <text x="60" y="90" font-family="Arial, sans-serif" font-size="11" fill="#0277bd">Ядро</text>
+  <line x1="80" y1="95" x2="120" y2="120" stroke="#0277bd" stroke-width="1"/>
+  
+  <text x="60" y="110" font-family="Arial, sans-serif" font-size="11" fill="#d81b60">Митохондрия</text>
+  <line x1="95" y1="115" x2="110" y2="170" stroke="#d81b60" stroke-width="1"/>
+  
+  <text x="60" y="130" font-family="Arial, sans-serif" font-size="11" fill="#7b1fa2">ЭПС</text>
+  <line x1="80" y1="135" x2="180" y2="130" stroke="#7b1fa2" stroke-width="1"/>
+  
+  <text x="60" y="150" font-family="Arial, sans-serif" font-size="11" fill="#388e3c">Хлоропласт</text>
+  <line x1="110" y1="155" x2="120" y2="120" stroke="#388e3c" stroke-width="1"/>
+  
+  <text x="60" y="170" font-family="Arial, sans-serif" font-size="11" fill="#8e24aa">Вакуоль</text>
+  <line x1="105" y1="175" x2="170" y2="180" stroke="#8e24aa" stroke-width="1"/>
+  
+  <text x="60" y="190" font-family="Arial, sans-serif" font-size="11" fill="#5e35b1">Гольджи</text>
+  <line x1="90" y1="195" x2="130" y2="185" stroke="#5e35b1" stroke-width="1"/>
+  
+  <!-- Подписи к прокариотической клетке -->
+  <text x="430" y="90" font-family="Arial, sans-serif" font-size="11" fill="#ffa000">Нуклеоид</text>
+  <line x1="420" y1="95" x2="380" y2="140" stroke="#ffa000" stroke-width="1"/>
+  
+  <text x="430" y="110" font-family="Arial, sans-serif" font-size="11" fill="#e65100">Рибосомы</text>
+  <line x1="415" y1="115" x2="390" y2="160" stroke="#e65100" stroke-width="1"/>
+  
+  <text x="430" y="130" font-family="Arial, sans-serif" font-size="11" fill="#ff6f00">Плазмидная ДНК</text>
+  <line x1="415" y1="135" x2="380" y2="135" stroke="#ff6f00" stroke-width="1"/>
+  
+  <text x="430" y="150" font-family="Arial, sans-serif" font-size="11" fill="#f57c00">Клеточная стенка</text>
+  <line x1="415" y1="155" x2="415" y2="150" stroke="#f57c00" stroke-width="1"/>
+  
+  <text x="430" y="170" font-family="Arial, sans-serif" font-size="11" fill="#ff8f00">Мезосома</text>
+  <line x1="415" y1="175" x2="320" y2="150" stroke="#ff8f00" stroke-width="1"/>
+  
+  <!-- Стрелки указания -->
+  <g transform="translate(250, 250)">
+    <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2e7d32">Эукариотическая клетка</text>
+    <text x="-80" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f57c00">Прокариотическая клетка</text>
+  </g>
+  
+  <!-- Указатели типа клеток -->
+  <path d="M200,180 L220,160" stroke="#0277bd" stroke-width="2" marker-end="url(#arrowblue)"/>
+  <path d="M300,180 L280,160" stroke="#ffa000" stroke-width="2" marker-end="url(#arroworange)"/>
+  
+  <!-- Маркеры стрелок -->
+  <defs>
+    <marker id="arrowblue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#0277bd"/>
+    </marker>
+    <marker id="arroworange" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#ffa000"/>
+    </marker>
+  </defs>
+  
+  <!-- Дополнительные элементы -->
+  <!-- Легенда -->
+  <g transform="translate(20, 300)">
+    <rect x="0" y="0" width="460" height="40" fill="#ffffff" stroke="#bdbdbd" stroke-width="1" rx="5" opacity="0.9"/>
+    <text x="10" y="15" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2e7d32">Ключевые отличия:</text>
+    <text x="10" y="30" font-family="Arial, sans-serif" font-size="11" fill="#424242">Эукариоты: есть ядро и мембранные органоиды | Прокариоты: нет ядра, простое строение</text>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="30" cy="250" r="3" fill="#4caf50" opacity="0.6"/>
+  <circle cx="40" cy="260" r="2" fill="#66bb6a" opacity="0.6"/>
+  <circle cx="470" cy="250" r="3" fill="#ff9800" opacity="0.6"/>
+  <circle cx="460" cy="260" r="2" fill="#ffa726" opacity="0.6"/>
 </svg>

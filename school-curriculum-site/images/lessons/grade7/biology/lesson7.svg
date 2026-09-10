@@ -1,33 +1,155 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
-<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Круглые черви</text>
-<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 7 класс — Урок 7</text>
-<line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
-
-<g transform="translate(180,170)">
-<path d="M-65,0 Q-75,-7 -65,-9 Q-35,-12 0,-12 Q35,-12 65,-9 Q75,-7 65,0 Q75,7 65,9 Q35,12 0,12 Q-35,12 -65,9 Q-75,7 -65,0Z" fill="#FFECB3" stroke="#F57F17" stroke-width="2"/>
-<ellipse cx="-70" cy="0" rx="7" ry="5" fill="#FFF9C4" stroke="#F57F17" stroke-width="1.5"/>
-<circle cx="-74" cy="0" r="1.5" fill="#F57F17"/>
-<path d="M65,0 Q75,0 80,-4 Q82,-8 78,-10" stroke="#F57F17" stroke-width="2" fill="none"/>
-<line x1="-60" y1="0" x2="60" y2="0" stroke="#FFE082" stroke-width="1.5" stroke-dasharray="4,2"/>
-<text x="0" y="26" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle" font-weight="bold">Аскарида</text>
-</g>
-<g transform="translate(390,165)">
-<circle cx="0" cy="0" r="42" fill="#FFF9C4" stroke="#F57F17" stroke-width="2"/>
-<circle cx="0" cy="0" r="38" fill="none" stroke="#FFB300" stroke-width="2"/>
-<circle cx="0" cy="0" r="30" fill="#FFECB3" stroke="#F57F17" stroke-width="0.8" stroke-dasharray="3,2"/>
-<text x="0" y="-10" font-family="Arial,sans-serif" font-size="6" fill="#F57F17" text-anchor="middle">Первичная</text>
-<text x="0" y="-2" font-family="Arial,sans-serif" font-size="6" fill="#F57F17" text-anchor="middle">полость</text>
-<ellipse cx="0" cy="8" rx="9" ry="6" fill="#FFE082" stroke="#F57F17" stroke-width="1"/>
-<text x="0" y="50" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle" font-weight="bold">Поперечный срез</text>
-</g>
-<rect x="30" y="260" width="440" height="45" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
-<text x="250" y="274" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Цилиндрическое тело | Кутикула | Первичная полость (псевдоцель)</text>
-<text x="250" y="286" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Сквозной кишечник (рот + анальное отверстие) | Раздельнополые</text>
-<text x="250" y="298" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Аскарида, острица, трихинелла — паразиты человека и животных</text>
-
-<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
-<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 7 класс</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Градиенты -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c9;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="treeGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#5d4037;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8d6e63;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="needlesGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2e7d32;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1b5e20;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="coneGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5d2f0a;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4caf50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2e7d32;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1b5e20">БИОЛОГИЯ · 7 КЛАСС</text>
+  
+  <!-- Основной заголовок урока -->
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2e7d32">Урок 7. Голосеменные растения</text>
+  
+  <!-- Сосна слева -->
+  <g id="pine-left">
+    <!-- Ствол -->
+    <rect x="80" y="150" width="25" height="120" fill="url(#treeGrad)" rx="2"/>
+    
+    <!-- Крона -->
+    <polygon points="92,100 60,150 124,150" fill="url(#needlesGrad)"/>
+    <polygon points="92,120 65,160 119,160" fill="url(#needlesGrad)"/>
+    <polygon points="92,140 70,170 114,170" fill="url(#needlesGrad)"/>
+    
+    <!-- Шишки -->
+    <ellipse cx="85" cy="180" rx="8" ry="12" fill="url(#coneGrad)" transform="rotate(-15 85 180)"/>
+    <ellipse cx="95" cy="200" rx="8" ry="12" fill="url(#coneGrad)" transform="rotate(10 95 200)"/>
+  </g>
+  
+  <!-- Ель справа -->
+  <g id="spruce-right">
+    <!-- Ствол -->
+    <rect x="350" y="150" width="25" height="120" fill="url(#treeGrad)" rx="2"/>
+    
+    <!-- Крона -->
+    <polygon points="362,110 325,160 399,160" fill="url(#needlesGrad)"/>
+    <polygon points="362,130 330,170 394,170" fill="url(#needlesGrad)"/>
+    <polygon points="362,150 335,180 389,180" fill="url(#needlesGrad)"/>
+    <polygon points="362,170 340,190 384,190" fill="url(#needlesGrad)"/>
+    
+    <!-- Шишки -->
+    <ellipse cx="365" cy="185" rx="8" ry="12" fill="url(#coneGrad)" transform="rotate(20 365 185)"/>
+  </g>
+  
+  <!-- Лист голосеменного (например, тис) -->
+  <g id="gymno-leaf">
+    <ellipse cx="250" cy="280" rx="35" ry="8" fill="url(#leafGrad)" transform="rotate(-30 250 280)"/>
+    <line x1="235" y1="278" x2="250" y2="280" stroke="#1b5e20" stroke-width="1"/>
+    <line x1="250" y1="280" x2="265" y2="282" stroke="#1b5e20" stroke-width="1"/>
+  </g>
+  
+  <!-- Пыльцевые мешочки -->
+  <g id="pollen-sacs">
+    <circle cx="120" cy="100" r="6" fill="#ffc107" opacity="0.8"/>
+    <circle cx="130" cy="105" r="6" fill="#ffc107" opacity="0.8"/>
+    <circle cx="125" cy="95" r="6" fill="#ffc107" opacity="0.8"/>
+  </g>
+  
+  <!-- Схема семени -->
+  <g id="seed-scheme">
+    <circle cx="380" cy="100" r="15" fill="#8b4513" stroke="#5d2f0a" stroke-width="2"/>
+    <circle cx="380" cy="100" r="8" fill="#ffeb3b" opacity="0.7"/>
+    <line x1="365" y1="100" x2="395" y2="100" stroke="#5d2f0a" stroke-width="1"/>
+  </g>
+  
+  <!-- Надписи и стрелки -->
+  <text x="92" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2e7d32">Сосна</text>
+  <text x="362" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2e7d32">Ель</text>
+  <text x="250" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2e7d32">Тис - хвойный</text>
+  <text x="250" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2e7d32">но не голосеменный</text>
+  
+  <text x="120" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#f57c00">Пыльцевые</text>
+  <text x="120" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#f57c00">мешочки</text>
+  
+  <text x="380" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#5d2f0a">Семя</text>
+  <text x="380" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#5d2f0a">голосеменных</text>
+  
+  <!-- Стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1b5e20" />
+    </marker>
+  </defs>
+  
+  <!-- Стрелка от пыльцевых мешочков к шишке -->
+  <line x1="130" y1="110" x2="85" y2="170" stroke="#1b5e20" stroke-width="1" marker-end="url(#arrowhead)" opacity="0.6"/>
+  
+  <!-- Стрелка от семени к земле -->
+  <line x1="380" y1="115" x2="250" y2="275" stroke="#1b5e20" stroke-width="1" marker-end="url(#arrowhead)" opacity="0.6"/>
+  
+  <!-- Значения голосеменных -->
+  <g id="values">
+    <rect x="20" y="60" width="200" height="80" fill="white" opacity="0.9" rx="5" stroke="#4caf50" stroke-width="1"/>
+    <text x="30" y="80" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1b5e20">Значение:</text>
+    <text x="30" y="100" font-family="Arial, sans-serif" font-size="11" fill="#2e7d32">• Древесина и бумага</text>
+    <text x="30" y="115" font-family="Arial, sans-serif" font-size="11" fill="#2e7d32">• Смола и канифоль</text>
+    <text x="30" y="130" font-family="Arial, sans-serif" font-size="11" fill="#2e7d32">• Воздухопроницание</text>
+  </g>
+  
+  <!-- Характеристики -->
+  <g id="features">
+    <rect x="280" y="60" width="200" height="80" fill="white" opacity="0.9" rx="5" stroke="#4caf50" stroke-width="1"/>
+    <text x="290" y="80" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1b5e20">Особенности:</text>
+    <text x="290" y="100" font-family="Arial, sans-serif" font-size="11" fill="#2e7d32">• Игольчатые листья</text>
+    <text x="290" y="115" font-family="Arial, sans-serif" font-size="11" fill="#2e7d32">• Голые семена (нет околоплодника)</text>
+    <text x="290" y="130" font-family="Arial, sans-serif" font-size="11" fill="#2e7d32">• Хвоинки сохраняются годами</text>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <circle cx="250" cy="50" r="3" fill="#4caf50"/>
+  <circle cx="240" cy="55" r="2" fill="#4caf50"/>
+  <circle cx="260" cy="55" r="2" fill="#4caf50"/>
+  
+  <!-- Декоративные элементы -->
+  <g id="decor" opacity="0.3">
+    <circle cx="50" cy="200" r="2" fill="#4caf50"/>
+    <circle cx="450" cy="180" r="2" fill="#4caf50"/>
+    <circle cx="70" cy="250" r="2" fill="#4caf50"/>
+    <circle cx="430" cy="230" r="2" fill="#4caf50"/>
+  </g>
+  
+  <!-- Надпись на шишке -->
+  <text x="85" y="183" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#fff">шишка</text>
+  
+  <!-- Группа хвоинок -->
+  <g id="needles-group" transform="translate(400, 250)">
+    <line x1="0" y1="0" x2="0" y2="15" stroke="#2e7d32" stroke-width="2"/>
+    <line x1="3" y1="2" x2="3" y2="13" stroke="#2e7d32" stroke-width="2"/>
+    <line x1="-3" y1="2" x2="-3" y2="13" stroke="#2e7d32" stroke-width="2"/>
+  </g>
 </svg>

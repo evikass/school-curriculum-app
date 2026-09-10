@@ -1,144 +1,155 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
-<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#1B5E20" text-anchor="middle">Питание и размножение грибов</text>
-<text x="250" y="44" font-family="Arial,sans-serif" font-size="9" fill="#666" text-anchor="middle">Биология 7 класс — Урок 7</text>
-<line x1="30" y1="50" x2="470" y2="50" stroke="#2E7D32" stroke-width="1" opacity="0.3"/>
-
-<!-- Nutrition: Сапротрофы -->
-<g transform="translate(85,125)">
-  <rect x="-65" y="-60" width="130" height="120" rx="6" fill="white" opacity="0.9" stroke="#2E7D32" stroke-width="1.2"/>
-  <text x="0" y="-45" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">САПРОТРОФЫ</text>
-  <line x1="-50" y1="-39" x2="50" y2="-39" stroke="#2E7D32" stroke-width="0.5"/>
-  <!-- Dead leaf/matter -->
-  <path d="M-25,-20 Q-15,-30 0,-25 Q15,-30 25,-20 Q20,-10 10,-5 Q0,-15 -10,-5 Q-20,-10 -25,-20Z" fill="#8D6E63" opacity="0.4" stroke="#5D4037" stroke-width="1"/>
-  <text x="0" y="-12" font-family="Arial,sans-serif" font-size="5" fill="#5D4037" text-anchor="middle">мёртвое</text>
-  <text x="0" y="-5" font-family="Arial,sans-serif" font-size="5" fill="#5D4037" text-anchor="middle">вещество</text>
-  <!-- Hyphae going into dead matter -->
-  <path d="M-20,5 Q-15,-5 -10,5 Q-5,-5 0,5 Q5,-5 10,5 Q15,-5 20,5" stroke="#8D6E63" stroke-width="1.5" fill="none"/>
-  <!-- Arrows showing nutrient absorption -->
-  <path d="M0,15 L0,25" stroke="#2E7D32" stroke-width="1.5"/>
-  <polygon points="0,28 -3,23 3,23" fill="#2E7D32"/>
-  <text x="0" y="40" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">всасывают</text>
-  <text x="0" y="48" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">органику</text>
-  <text x="0" y="56" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Плесени, дрожжи</text>
-</g>
-
-<!-- Nutrition: Паразиты -->
-<g transform="translate(240,125)">
-  <rect x="-65" y="-60" width="130" height="120" rx="6" fill="white" opacity="0.9" stroke="#2E7D32" stroke-width="1.2"/>
-  <text x="0" y="-45" font-family="Arial,sans-serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-weight="bold">ПАРАЗИТЫ</text>
-  <line x1="-50" y1="-39" x2="50" y2="-39" stroke="#2E7D32" stroke-width="0.5"/>
-  <!-- Living host plant -->
-  <rect x="-10" y="-25" width="20" height="30" rx="3" fill="#81C784" stroke="#2E7D32" stroke-width="1.5"/>
-  <path d="M0,-30 Q-12,-40 -8,-48" stroke="#2E7D32" stroke-width="1.5" fill="none"/>
-  <path d="M0,-30 Q12,-40 8,-48" stroke="#2E7D32" stroke-width="1.5" fill="none"/>
-  <text x="0" y="-8" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">живой</text>
-  <text x="0" y="-1" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">хозяин</text>
-  <!-- Parasitic hyphae (haustoria) penetrating host -->
-  <path d="M-20,10 Q-15,0 -5,5 Q5,10 15,5" stroke="#C62828" stroke-width="1.5" fill="none"/>
-  <path d="M-5,5 Q-3,-5 0,0" stroke="#C62828" stroke-width="1" fill="none" stroke-dasharray="2,1"/>
-  <path d="M10,8 Q8,-2 12,3" stroke="#C62828" stroke-width="1" fill="none" stroke-dasharray="2,1"/>
-  <text x="0" y="20" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">гаустории</text>
-  <!-- Arrows showing nutrient theft -->
-  <path d="M0,28 L0,38" stroke="#C62828" stroke-width="1.5"/>
-  <polygon points="0,41 -3,36 3,36" fill="#C62828"/>
-  <text x="0" y="52" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle">отбирают</text>
-  <text x="0" y="60" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">Трутовик, головня</text>
-</g>
-
-<!-- Reproduction types panel -->
-<g transform="translate(415,125)">
-  <rect x="-55" y="-60" width="110" height="120" rx="6" fill="white" opacity="0.9" stroke="#2E7D32" stroke-width="1.2"/>
-  <text x="0" y="-45" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">РАЗМНОЖЕНИЕ</text>
-  <line x1="-40" y1="-39" x2="40" y2="-39" stroke="#2E7D32" stroke-width="0.5"/>
-  <!-- Vegetative -->
-  <text x="0" y="-25" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle" font-weight="bold">Вегетативное</text>
-  <path d="M-15,-15 Q-5,-10 -15,-5" stroke="#8D6E63" stroke-width="1.5" fill="none"/>
-  <path d="M5,-15 Q15,-10 5,-5" stroke="#8D6E63" stroke-width="1.5" fill="none"/>
-  <text x="0" y="2" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">частями мицелия</text>
-  <!-- Asexual -->
-  <text x="0" y="18" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle" font-weight="bold">Бесполое</text>
-  <line x1="0" y1="22" x2="0" y2="28" stroke="#8D6E63" stroke-width="1.5"/>
-  <circle cx="0" cy="32" r="5" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1"/>
-  <text x="0" y="44" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">спорами</text>
-  <!-- Sexual -->
-  <text x="0" y="55" font-family="Arial,sans-serif" font-size="6" fill="#333" text-anchor="middle" font-weight="bold">Половое</text>
-  <text x="0" y="64" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">слияние гамет</text>
-</g>
-
-<!-- Spore diagram: sporangium → spores → germination → new mycelium -->
-<rect x="30" y="210" width="440" height="55" rx="5" fill="white" opacity="0.9" stroke="#2E7D32" stroke-width="1"/>
-<text x="250" y="224" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">Цикл спорового размножения</text>
-
-<!-- Step 1: Sporangium -->
-<g transform="translate(80,245)">
-  <line x1="0" y1="-12" x2="0" y2="-5" stroke="#8D6E63" stroke-width="2"/>
-  <circle cx="0" cy="-1" r="8" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1.5"/>
-  <text x="0" y="2" font-family="Arial,sans-serif" font-size="5" fill="#1B5E20" text-anchor="middle">сп.</text>
-  <text x="0" y="16" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">Спорангий</text>
-</g>
-<!-- Arrow -->
-<g transform="translate(130,242)">
-  <line x1="0" y1="0" x2="22" y2="0" stroke="#2E7D32" stroke-width="1.2"/>
-  <polygon points="25,0 20,-3 20,3" fill="#2E7D32"/>
-</g>
-<!-- Step 2: Spores released -->
-<g transform="translate(190,245)">
-  <circle cx="-5" cy="-5" r="3" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.8"/>
-  <circle cx="5" cy="-3" r="3" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.8"/>
-  <circle cx="0" cy="5" r="3" fill="#66BB6A" stroke="#2E7D32" stroke-width="0.8"/>
-  <circle cx="-8" cy="3" r="2.5" fill="#81C784" stroke="#2E7D32" stroke-width="0.8"/>
-  <circle cx="8" cy="4" r="2.5" fill="#81C784" stroke="#2E7D32" stroke-width="0.8"/>
-  <text x="0" y="16" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">Споры</text>
-</g>
-<!-- Arrow -->
-<g transform="translate(225,242)">
-  <line x1="0" y1="0" x2="22" y2="0" stroke="#2E7D32" stroke-width="1.2"/>
-  <polygon points="25,0 20,-3 20,3" fill="#2E7D32"/>
-</g>
-<!-- Step 3: Germination -->
-<g transform="translate(280,245)">
-  <circle cx="-3" cy="-3" r="4" fill="#81C784" stroke="#2E7D32" stroke-width="1"/>
-  <path d="M-3,1 Q-5,8 -3,14" stroke="#8D6E63" stroke-width="1.5" fill="none"/>
-  <path d="M0,1 Q2,10 0,16" stroke="#8D6E63" stroke-width="1" fill="none"/>
-  <text x="0" y="26" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">Прорастание</text>
-</g>
-<!-- Arrow -->
-<g transform="translate(325,242)">
-  <line x1="0" y1="0" x2="22" y2="0" stroke="#2E7D32" stroke-width="1.2"/>
-  <polygon points="25,0 20,-3 20,3" fill="#2E7D32"/>
-</g>
-<!-- Step 4: New mycelium -->
-<g transform="translate(390,245)">
-  <path d="M-12,-10 Q-8,0 -15,8" stroke="#8D6E63" stroke-width="1.5" fill="none"/>
-  <path d="M0,-12 Q5,-2 -2,10" stroke="#8D6E63" stroke-width="1.5" fill="none"/>
-  <path d="M12,-10 Q8,0 15,8" stroke="#8D6E63" stroke-width="1.5" fill="none"/>
-  <path d="M-5,-5 Q5,0 8,-3" stroke="#8D6E63" stroke-width="1" fill="none"/>
-  <text x="0" y="20" font-family="Arial,sans-serif" font-size="5" fill="#333" text-anchor="middle">Новый мицелий</text>
-</g>
-
-<!-- Conditions panel -->
-<rect x="30" y="272" width="440" height="42" rx="5" fill="white" opacity="0.9" stroke="#2E7D32" stroke-width="1"/>
-<text x="250" y="286" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle" font-weight="bold">Условия для развития грибов</text>
-<line x1="40" y1="291" x2="460" y2="291" stroke="#2E7D32" stroke-width="0.5"/>
-<!-- Moisture -->
-<g transform="translate(110,305)">
-  <text x="0" y="0" font-family="Arial,sans-serif" font-size="8" fill="#0288D1" text-anchor="middle">💧</text>
-  <text x="0" y="10" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Влажность</text>
-</g>
-<!-- Warmth -->
-<g transform="translate(230,305)">
-  <text x="0" y="0" font-family="Arial,sans-serif" font-size="8" fill="#F44336" text-anchor="middle">🌡</text>
-  <text x="0" y="10" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Тепло</text>
-</g>
-<!-- Organic matter -->
-<g transform="translate(370,305)">
-  <text x="0" y="0" font-family="Arial,sans-serif" font-size="8" fill="#795548" text-anchor="middle">🍃</text>
-  <text x="0" y="10" font-family="Arial,sans-serif" font-size="7" fill="#333" text-anchor="middle">Органика</text>
-</g>
-
-<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
-<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 7 класс</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Градиенты -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c9;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="treeGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#5d4037;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8d6e63;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="needlesGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2e7d32;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1b5e20;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="coneGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5d2f0a;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4caf50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2e7d32;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1b5e20">БИОЛОГИЯ · 7 КЛАСС</text>
+  
+  <!-- Основной заголовок урока -->
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2e7d32">Урок 7. Голосеменные растения</text>
+  
+  <!-- Сосна слева -->
+  <g id="pine-left">
+    <!-- Ствол -->
+    <rect x="80" y="150" width="25" height="120" fill="url(#treeGrad)" rx="2"/>
+    
+    <!-- Крона -->
+    <polygon points="92,100 60,150 124,150" fill="url(#needlesGrad)"/>
+    <polygon points="92,120 65,160 119,160" fill="url(#needlesGrad)"/>
+    <polygon points="92,140 70,170 114,170" fill="url(#needlesGrad)"/>
+    
+    <!-- Шишки -->
+    <ellipse cx="85" cy="180" rx="8" ry="12" fill="url(#coneGrad)" transform="rotate(-15 85 180)"/>
+    <ellipse cx="95" cy="200" rx="8" ry="12" fill="url(#coneGrad)" transform="rotate(10 95 200)"/>
+  </g>
+  
+  <!-- Ель справа -->
+  <g id="spruce-right">
+    <!-- Ствол -->
+    <rect x="350" y="150" width="25" height="120" fill="url(#treeGrad)" rx="2"/>
+    
+    <!-- Крона -->
+    <polygon points="362,110 325,160 399,160" fill="url(#needlesGrad)"/>
+    <polygon points="362,130 330,170 394,170" fill="url(#needlesGrad)"/>
+    <polygon points="362,150 335,180 389,180" fill="url(#needlesGrad)"/>
+    <polygon points="362,170 340,190 384,190" fill="url(#needlesGrad)"/>
+    
+    <!-- Шишки -->
+    <ellipse cx="365" cy="185" rx="8" ry="12" fill="url(#coneGrad)" transform="rotate(20 365 185)"/>
+  </g>
+  
+  <!-- Лист голосеменного (например, тис) -->
+  <g id="gymno-leaf">
+    <ellipse cx="250" cy="280" rx="35" ry="8" fill="url(#leafGrad)" transform="rotate(-30 250 280)"/>
+    <line x1="235" y1="278" x2="250" y2="280" stroke="#1b5e20" stroke-width="1"/>
+    <line x1="250" y1="280" x2="265" y2="282" stroke="#1b5e20" stroke-width="1"/>
+  </g>
+  
+  <!-- Пыльцевые мешочки -->
+  <g id="pollen-sacs">
+    <circle cx="120" cy="100" r="6" fill="#ffc107" opacity="0.8"/>
+    <circle cx="130" cy="105" r="6" fill="#ffc107" opacity="0.8"/>
+    <circle cx="125" cy="95" r="6" fill="#ffc107" opacity="0.8"/>
+  </g>
+  
+  <!-- Схема семени -->
+  <g id="seed-scheme">
+    <circle cx="380" cy="100" r="15" fill="#8b4513" stroke="#5d2f0a" stroke-width="2"/>
+    <circle cx="380" cy="100" r="8" fill="#ffeb3b" opacity="0.7"/>
+    <line x1="365" y1="100" x2="395" y2="100" stroke="#5d2f0a" stroke-width="1"/>
+  </g>
+  
+  <!-- Надписи и стрелки -->
+  <text x="92" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2e7d32">Сосна</text>
+  <text x="362" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2e7d32">Ель</text>
+  <text x="250" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2e7d32">Тис - хвойный</text>
+  <text x="250" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2e7d32">но не голосеменный</text>
+  
+  <text x="120" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#f57c00">Пыльцевые</text>
+  <text x="120" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#f57c00">мешочки</text>
+  
+  <text x="380" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#5d2f0a">Семя</text>
+  <text x="380" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#5d2f0a">голосеменных</text>
+  
+  <!-- Стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1b5e20" />
+    </marker>
+  </defs>
+  
+  <!-- Стрелка от пыльцевых мешочков к шишке -->
+  <line x1="130" y1="110" x2="85" y2="170" stroke="#1b5e20" stroke-width="1" marker-end="url(#arrowhead)" opacity="0.6"/>
+  
+  <!-- Стрелка от семени к земле -->
+  <line x1="380" y1="115" x2="250" y2="275" stroke="#1b5e20" stroke-width="1" marker-end="url(#arrowhead)" opacity="0.6"/>
+  
+  <!-- Значения голосеменных -->
+  <g id="values">
+    <rect x="20" y="60" width="200" height="80" fill="white" opacity="0.9" rx="5" stroke="#4caf50" stroke-width="1"/>
+    <text x="30" y="80" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1b5e20">Значение:</text>
+    <text x="30" y="100" font-family="Arial, sans-serif" font-size="11" fill="#2e7d32">• Древесина и бумага</text>
+    <text x="30" y="115" font-family="Arial, sans-serif" font-size="11" fill="#2e7d32">• Смола и канифоль</text>
+    <text x="30" y="130" font-family="Arial, sans-serif" font-size="11" fill="#2e7d32">• Воздухопроницание</text>
+  </g>
+  
+  <!-- Характеристики -->
+  <g id="features">
+    <rect x="280" y="60" width="200" height="80" fill="white" opacity="0.9" rx="5" stroke="#4caf50" stroke-width="1"/>
+    <text x="290" y="80" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1b5e20">Особенности:</text>
+    <text x="290" y="100" font-family="Arial, sans-serif" font-size="11" fill="#2e7d32">• Игольчатые листья</text>
+    <text x="290" y="115" font-family="Arial, sans-serif" font-size="11" fill="#2e7d32">• Голые семена (нет околоплодника)</text>
+    <text x="290" y="130" font-family="Arial, sans-serif" font-size="11" fill="#2e7d32">• Хвоинки сохраняются годами</text>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <circle cx="250" cy="50" r="3" fill="#4caf50"/>
+  <circle cx="240" cy="55" r="2" fill="#4caf50"/>
+  <circle cx="260" cy="55" r="2" fill="#4caf50"/>
+  
+  <!-- Декоративные элементы -->
+  <g id="decor" opacity="0.3">
+    <circle cx="50" cy="200" r="2" fill="#4caf50"/>
+    <circle cx="450" cy="180" r="2" fill="#4caf50"/>
+    <circle cx="70" cy="250" r="2" fill="#4caf50"/>
+    <circle cx="430" cy="230" r="2" fill="#4caf50"/>
+  </g>
+  
+  <!-- Надпись на шишке -->
+  <text x="85" y="183" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#fff">шишка</text>
+  
+  <!-- Группа хвоинок -->
+  <g id="needles-group" transform="translate(400, 250)">
+    <line x1="0" y1="0" x2="0" y2="15" stroke="#2e7d32" stroke-width="2"/>
+    <line x1="3" y1="2" x2="3" y2="13" stroke="#2e7d32" stroke-width="2"/>
+    <line x1="-3" y1="2" x2="-3" y2="13" stroke="#2e7d32" stroke-width="2"/>
+  </g>
 </svg>
