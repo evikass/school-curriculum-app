@@ -1,67 +1,220 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
-<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
-<polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
-<polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
-<polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
-<polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
-<circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-<circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
-<circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
-<circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-<circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
-<circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
-<text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Причастие как часть речи</text>
-<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Русский язык - Урок 3</text>
-<line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
-<rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
-<rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Градиенты -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#357abd;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#50c878;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3cb371;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ee5a52;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffd93d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f9ca24;stop-opacity:1" />
+    </linearGradient>
+  </defs>
 
-  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#8D6E63" stroke-width="1.5"/>
-  <text x="135" y="115" font-family="Arial,sans-serif" font-size="13" fill="#8D6E63" text-anchor="middle" font-weight="bold">Причастие как часть речи</text>
-  <!-- Word composition tree -->
-  <text x="135" y="145" font-family="Arial,sans-serif" font-size="10" fill="#2E7D32" text-anchor="middle" font-weight="bold">Состав слова</text>
-  <rect x="95" y="155" width="80" height="20" rx="3" fill="#FFF8E1" stroke="#F9A825" stroke-width="1"/>
-  <text x="135" y="169" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle">приставка</text>
-  <rect x="85" y="180" width="20" height="20" rx="2" fill="#FFCDD2" stroke="#C62828" stroke-width="1"/>
-  <text x="95" y="194" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">корень</text>
-  <rect x="110" y="180" width="60" height="20" rx="2" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1"/>
-  <text x="140" y="194" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">суффикс</text>
-  <rect x="175" y="180" width="40" height="20" rx="2" fill="#BBDEFB" stroke="#1565C0" stroke-width="1"/>
-  <text x="195" y="194" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">оконч.</text>
-  <line x1="135" y1="175" x2="95" y2="180" stroke="#888" stroke-width="1"/>
-  <line x1="135" y1="175" x2="140" y2="180" stroke="#888" stroke-width="1"/>
-  <line x1="135" y1="175" x2="195" y2="180" stroke="#888" stroke-width="1"/>
-  <!-- Example -->
-  <text x="135" y="220" font-family="Arial,sans-serif" font-size="9" fill="#333" text-anchor="middle">под-бере-ж-н-ый</text>
-  <text x="135" y="245" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">морфемный разбор</text>
-  <text x="135" y="265" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">фонетический разбор</text>
-  <text x="135" y="280" font-family="Arial,sans-serif" font-size="7" fill="#888" text-anchor="middle">части речи</text>
-
-  <rect x="260" y="90" width="215" height="200" rx="6" fill="white" stroke="#C62828" stroke-width="1.5"/>
-  <text x="367" y="115" font-family="Arial,sans-serif" font-size="12" fill="#C62828" text-anchor="middle" font-weight="bold">Части речи</text>
-  <!-- Cards for parts of speech -->
-  <rect x="280" y="128" width="80" height="22" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
-  <text x="320" y="143" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Существ.</text>
-  <rect x="370" y="128" width="80" height="22" rx="3" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
-  <text x="410" y="143" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">Прилагат.</text>
-  <rect x="280" y="158" width="80" height="22" rx="3" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
-  <text x="320" y="173" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle">Глагол</text>
-  <rect x="370" y="158" width="80" height="22" rx="3" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="1"/>
-  <text x="410" y="173" font-family="Arial,sans-serif" font-size="8" fill="#7B1FA2" text-anchor="middle">Наречие</text>
-  <rect x="280" y="188" width="80" height="22" rx="3" fill="#FFEBEE" stroke="#C62828" stroke-width="1"/>
-  <text x="320" y="203" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle">Причастие</text>
-  <rect x="370" y="188" width="80" height="22" rx="3" fill="#E0F2F1" stroke="#00897B" stroke-width="1"/>
-  <text x="410" y="203" font-family="Arial,sans-serif" font-size="8" fill="#00897B" text-anchor="middle">Дееприч.</text>
-  <!-- Book -->
-  <rect x="300" y="225" width="130" height="55" rx="5" fill="#FFF8E1" stroke="#8D6E63" stroke-width="1.5"/>
-  <line x1="365" y1="225" x2="365" y2="280" stroke="#8D6E63" stroke-width="1"/>
-  <text x="330" y="250" font-family="Arial,sans-serif" font-size="9" fill="#8D6E63" text-anchor="middle">орфография</text>
-  <text x="330" y="265" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">правила</text>
-  <text x="400" y="250" font-family="Arial,sans-serif" font-size="9" fill="#8D6E63" text-anchor="middle">пунктуация</text>
-  <text x="400" y="265" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">знаки</text>
-<rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
-<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Русский язык</text>
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">
+    РУССКИЙ ЯЗЫК · 7 КЛАСС
+  </text>
+  
+  <!-- Урок -->
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#34495e">
+    Урок 3. Состав слова и словообразование
+  </text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">
+    Тема: Морфемика
+  </text>
+  
+  <!-- Основная схема слова -->
+  <g transform="translate(50, 100)">
+    <!-- Основа слова -->
+    <rect x="0" y="0" width="120" height="40" fill="url(#grad1)" rx="5"/>
+    <text x="60" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">
+      ОСНОВА СЛОВА
+    </text>
+    
+    <!-- Приставка -->
+    <rect x="130" y="0" width="60" height="40" fill="url(#grad2)" rx="5"/>
+    <text x="160" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">
+      ПРИВ.
+    </text>
+    
+    <!-- Суффикс -->
+    <rect x="200" y="0" width="60" height="40" fill="url(#grad3)" rx="5"/>
+    <text x="230" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">
+      СУФФ.
+    </text>
+    
+    <!-- Окончание -->
+    <rect x="270" y="0" width="60" height="40" fill="url(#grad4)" rx="5"/>
+    <text x="300" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">
+      ОКонч.
+    </text>
+  </g>
+  
+  <!-- Пример разбора слова -->
+  <g transform="translate(50, 160)">
+    <rect x="0" y="0" width="380" height="40" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+    <text x="190" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50">
+      ПРИ-СЛОВ-А (-а)
+    </text>
+  </g>
+  
+  <!-- Стрелки и подписи -->
+  <!-- Приставка -->
+  <line x1="160" y1="140" x2="160" y2="155" stroke="#50c878" stroke-width="2" marker-end="url(#arrowgreen)"/>
+  <text x="160" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#50c878">
+    при- (перед)
+  </text>
+  
+  <!-- Основа -->
+  <line x1="110" y1="140" x2="110" y2="155" stroke="#4a90e2" stroke-width="2" marker-end="url(#arrowblue)"/>
+  <text x="110" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#4a90e2">
+    слов- (корень)
+  </text>
+  
+  <!-- Суффикс -->
+  <line x1="230" y1="140" x2="230" y2="155" stroke="#ff6b6b" stroke-width="2" marker-end="url(#arrowred)"/>
+  <text x="230" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#ff6b6b">
+    -а- (суффикс)
+  </text>
+  
+  <!-- Окончание -->
+  <line x1="300" y1="140" x2="300" y2="155" stroke="#ffd93d" stroke-width="2" marker-end="url(#arrowyellow)"/>
+  <text x="300" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#f39c12">
+    (-а) окончание
+  </text>
+  
+  <!-- Маркеры стрелок -->
+  <defs>
+    <marker id="arrowblue" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0 0, 10 5, 0 10" fill="#4a90e2"/>
+    </marker>
+    <marker id="arrowgreen" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0 0, 10 5, 0 10" fill="#50c878"/>
+    </marker>
+    <marker id="arrowred" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0 0, 10 5, 0 10" fill="#ff6b6b"/>
+    </marker>
+    <marker id="arrowyellow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0 0, 10 5, 0 10" fill="#f39c12"/>
+    </marker>
+  </defs>
+  
+  <!-- Дополнительные элементы -->
+  <g transform="translate(50, 220)">
+    <rect x="0" y="0" width="380" height="30" fill="#e8f4fd" stroke="#3498db" stroke-width="1" rx="5"/>
+    <text x="10" y="20" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">
+      • Морфема — наименьшая значащая часть слова
+    </text>
+  </g>
+  
+  <g transform="translate(50, 260)">
+    <rect x="0" y="0" width="380" height="30" fill="#e8f8f5" stroke="#1abc9c" stroke-width="1" rx="5"/>
+    <text x="10" y="20" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">
+      • Корень — общая часть родственных слов
+    </text>
+  </g>
+  
+  <g transform="translate(50, 300)">
+    <rect x="0" y="0" width="380" height="30" fill="#fdf2e9" stroke="#e67e22" stroke-width="1" rx="5"/>
+    <text x="10" y="20" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">
+      • Приставка — изменяет значение слова, добавляя оттенок
+    </text>
+  </g>
+  
+  <!-- Дополнительные примеры словообразования -->
+  <g transform="translate(50, 240)">
+    <text x="10" y="10" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">
+      Примеры словообразования:
+    </text>
+  </g>
+  
+  <!-- Маленькие примеры -->
+  <g transform="translate(250, 250)">
+    <rect x="0" y="0" width="50" height="20" fill="#3498db" rx="3"/>
+    <text x="25" y="14" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      бег
+    </text>
+  </g>
+  
+  <g transform="translate(310, 250)">
+    <rect x="0" y="0" width="50" height="20" fill="#2ecc71" rx="3"/>
+    <text x="25" y="14" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      прибег
+    </text>
+  </g>
+  
+  <g transform="translate(370, 250)">
+    <rect x="0" y="0" width="50" height="20" fill="#e74c3c" rx="3"/>
+    <text x="25" y="14" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      бегун
+    </text>
+  </g>
+  
+  <!-- Стрелки для примеров -->
+  <path d="M 300 260 Q 330 270 360 260" stroke="#95a5a6" stroke-width="1" fill="none" marker-end="url(#arrowgray)"/>
+  <path d="M 300 260 Q 330 280 360 280" stroke="#95a5a6" stroke-width="1" fill="none" marker-end="url(#arrowgray)"/>
+  
+  <marker id="arrowgray" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+    <polygon points="0 0, 8 4, 0 8" fill="#95a5a6"/>
+  </marker>
+  
+  <!-- Дополнительные подписи -->
+  <text x="30" y="125" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">
+    МОРФЕМНАЯ
+  </text>
+  <text x="30" y="135" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">
+    СТРУКТУРА
+  </text>
+  
+  <!-- Разделительная линия -->
+  <line x1="30" y1="210" x2="470" y2="210" stroke="#ecf0f1" stroke-width="2"/>
+  
+  <!-- Значки -->
+  <circle cx="440" cy="30" r="15" fill="#3498db"/>
+  <text x="440" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="bold">
+    М
+  </text>
+  
+  <circle cx="440" cy="60" r="15" fill="#2ecc71"/>
+  <text x="440" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="bold">
+    П
+  </text>
+  
+  <circle cx="440" cy="90" r="15" fill="#e74c3c"/>
+  <text x="440" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="bold">
+    С
+  </text>
+  
+  <circle cx="440" cy="120" r="15" fill="#f39c12"/>
+  <text x="440" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="bold">
+    О
+  </text>
+  
+  <!-- Подписи к значкам -->
+  <text x="420" y="150" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">
+    М-морфема
+  </text>
+  <text x="420" y="165" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">
+    П-приставка
+  </text>
+  <text x="420" y="180" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">
+    С-суффикс
+  </text>
+  <text x="420" y="195" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">
+    О-окончание
+  </text>
 </svg>
