@@ -1,62 +1,129 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
-<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
-<polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
-<polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
-<polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
-<polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
-<circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-<circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
-<circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
-<circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-<circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
-<circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
-<text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Медианы, биссектрисы, высоты</text>
-<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Геометрия - Урок 4</text>
-<line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
-<rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
-<rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
-
-  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
-  <text x="135" y="115" font-family="Arial,sans-serif" font-size="13" fill="#2E7D32" text-anchor="middle" font-weight="bold">Медианы, биссектрисы, высоты</text>
-  <!-- Triangle -->
-  <polygon points="80,240 180,240 130,140" fill="#E8F5E9" stroke="#2E7D32" stroke-width="2"/>
-  <!-- Vertices -->
-  <circle cx="80" cy="240" r="4" fill="#C62828"/>
-  <text x="70" y="255" font-family="Arial,sans-serif" font-size="8" fill="#C62828">A</text>
-  <circle cx="180" cy="240" r="4" fill="#C62828"/>
-  <text x="185" y="255" font-family="Arial,sans-serif" font-size="8" fill="#C62828">B</text>
-  <circle cx="130" cy="140" r="4" fill="#C62828"/>
-  <text x="133" y="135" font-family="Arial,sans-serif" font-size="8" fill="#C62828">C</text>
-  <!-- Angle mark -->
-  <path d="M95,240 Q100,232 107,228" stroke="#1565C0" stroke-width="1.5" fill="none"/>
-  <text x="100" y="225" font-family="Arial,sans-serif" font-size="7" fill="#1565C0">a</text>
-  <!-- Median -->
-  <line x1="130" y1="140" x2="130" y2="240" stroke="#F9A825" stroke-width="1.5" stroke-dasharray="5,3"/>
-  <text x="140" y="195" font-family="Arial,sans-serif" font-size="7" fill="#F9A825">медиана</text>
-  <!-- Height -->
-  <line x1="130" y1="140" x2="80" y2="240" stroke="#C62828" stroke-width="1.5" stroke-dasharray="3,2"/>
-  <text x="90" y="195" font-family="Arial,sans-serif" font-size="7" fill="#C62828">высота</text>
-
-  <rect x="260" y="90" width="215" height="200" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5"/>
-  <text x="367" y="115" font-family="Arial,sans-serif" font-size="12" fill="#1565C0" text-anchor="middle" font-weight="bold">Геометрические фигуры</text>
-  <!-- Parallel lines -->
-  <line x1="285" y1="145" x2="440" y2="145" stroke="#C62828" stroke-width="2"/>
-  <line x1="285" y1="175" x2="440" y2="175" stroke="#C62828" stroke-width="2"/>
-  <!-- Transversal -->
-  <line x1="320" y1="130" x2="400" y2="190" stroke="#2E7D32" stroke-width="1.5"/>
-  <!-- Angle marks -->
-  <path d="M320,145 Q330,140 335,145" stroke="#1565C0" stroke-width="1" fill="none"/>
-  <path d="M335,145 Q340,150 335,155" stroke="#1565C0" stroke-width="1" fill="none"/>
-  <text x="440" y="160" font-family="Arial,sans-serif" font-size="7" fill="#C62828">a || b</text>
-  <!-- Circle -->
-  <circle cx="367" cy="230" r="30" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
-  <circle cx="367" cy="230" r="3" fill="#1565C0"/>
-  <line x1="367" y1="230" x2="397" y2="230" stroke="#C62828" stroke-width="1.5"/>
-  <text x="382" y="225" font-family="Arial,sans-serif" font-size="7" fill="#C62828">R</text>
-  <text x="367" y="275" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">углы, отрезки, прямые</text>
-<rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
-<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Геометрия</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Градиенты -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="perpGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="gradText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#475569;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Тень для текста -->
+    <filter id="textShadow">
+      <feDropShadow dx="1" dy="1" stdDeviation="1" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  
+  <!-- Сетка для фона -->
+  <g opacity="0.1">
+    <path d="M0,50 L500,50 M0,100 L500,100 M0,150 L500,150 M0,200 L500,200 M0,250 L500,250 M0,300 L500,300" 
+          stroke="#64748b" stroke-width="0.5"/>
+    <path d="M50,0 L50,350 M100,0 L100,350 M150,0 L150,350 M200,0 L200,350 M250,0 L250,350 M300,0 L300,350 M350,0 L350,350 M400,0 L400,350 M450,0 L450,350" 
+          stroke="#64748b" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="url(#gradText)" filter="url(#textShadow)">
+    ГЕОМЕТРИЯ · 7 КЛАСС
+  </text>
+  
+  <!-- Основная линия AB (горизонтальная) -->
+  <line x1="100" y1="200" x2="400" y2="200" stroke="url(#lineGrad)" stroke-width="3"/>
+  <circle cx="100" cy="200" r="4" fill="#3b82f6"/>
+  <circle cx="400" cy="200" r="4" fill="#3b82f6"/>
+  
+  <!-- Перпендикулярная линия CD (вертикальная) -->
+  <line x1="250" y1="80" x2="250" y2="320" stroke="url(#perpGrad)" stroke-width="3"/>
+  <circle cx="250" cy="80" r="4" fill="#ef4444"/>
+  <circle cx="250" cy="320" r="4" fill="#ef4444"/>
+  
+  <!-- Точка пересечения O -->
+  <circle cx="250" cy="200" r="6" fill="#10b981"/>
+  <text x="260" y="205" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#10b981">O</text>
+  
+  <!-- Углы 90 градусов -->
+  <path d="M 250,200 L 280,200 L 280,170" stroke="#10b981" stroke-width="2" fill="none"/>
+  <path d="M 250,200 L 280,200 L 280,230" stroke="#10b981" stroke-width="2" fill="none"/>
+  <text x="285" y="195" font-family="Arial, sans-serif" font-size="14" fill="#10b981">90°</text>
+  
+  <!-- Обозначения точек -->
+  <text x="90" y="195" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3b82f6">A</text>
+  <text x="410" y="195" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3b82f6">B</text>
+  <text x="255" y="75" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ef4444">C</text>
+  <text x="255" y="335" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ef4444">D</text>
+  
+  <!-- Условные обозначения -->
+  <rect x="20" y="60" width="160" height="120" fill="white" stroke="#e2e8f0" stroke-width="1" rx="5"/>
+  <text x="30" y="80" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b">Обозначения:</text>
+  <text x="30" y="100" font-family="Arial, sans-serif" font-size="12" fill="#475569">AB ⊥ CD</text>
+  <text x="30" y="120" font-family="Arial, sans-serif" font-size="12" fill="#475569">(прямые перпендикулярны)</text>
+  <text x="30" y="140" font-family="Arial, sans-serif" font-size="12" fill="#475569">∠AOC = 90°</text>
+  <text x="30" y="160" font-family="Arial, sans-serif" font-size="12" fill="#475569">O - точка пересечения</text>
+  
+  <!-- Прямые линии с дополнительными точками -->
+  <line x1="250" y1="200" x2="250" y2="320" stroke="url(#perpGrad)" stroke-width="1" stroke-dasharray="5,5" opacity="0.5"/>
+  <line x1="100" y1="200" x2="400" y2="200" stroke="url(#lineGrad)" stroke-width="1" stroke-dasharray="5,5" opacity="0.5"/>
+  
+  <!-- Пример других перпендикулярных линий -->
+  <g opacity="0.7">
+    <line x1="380" y1="120" x2="380" y2="280" stroke="#8b5cf6" stroke-width="2"/>
+    <line x1="320" y1="200" x2="440" y2="200" stroke="#8b5cf6" stroke-width="2"/>
+    <circle cx="380" cy="200" r="3" fill="#8b5cf6"/>
+    <path d="M 380,200 L 395,200 L 395,185" stroke="#8b5cf6" stroke-width="1.5" fill="none"/>
+    <text x="398" y="195" font-family="Arial, sans-serif" font-size="10" fill="#8b5cf6">90°</text>
+  </g>
+  
+  <!-- Уравнение перпендикулярных линий -->
+  <rect x="320" y="60" width="160" height="80" fill="white" stroke="#e2e8f0" stroke-width="1" rx="5"/>
+  <text x="330" y="80" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b">Свойство:</text>
+  <text x="330" y="100" font-family="Arial, sans-serif" font-size="11" fill="#475569">Если k₁ · k₂ = -1,</text>
+  <text x="330" y="115" font-family="Arial, sans-serif" font-size="11" fill="#475569">то прямые ⊥</text>
+  
+  <!-- Дополнительные элементы для визуализации -->
+  <g opacity="0.3">
+    <circle cx="250" cy="200" r="50" stroke="#64748b" stroke-width="1" fill="none"/>
+    <circle cx="250" cy="200" r="100" stroke="#64748b" stroke-width="1" fill="none"/>
+  </g>
+  
+  <!-- Подписи к уроку -->
+  <text x="250" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1e293b">
+    Урок 4. Перпендикулярные прямые
+  </text>
+  
+  <!-- Основное определение -->
+  <rect x="20" y="200" width="200" height="100" fill="white" stroke="#e2e8f0" stroke-width="1" rx="5"/>
+  <text x="30" y="220" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b">Определение:</text>
+  <text x="30" y="240" font-family="Arial, sans-serif" font-size="12" fill="#475569">Две прямые называются</text>
+  <text x="30" y="255" font-family="Arial, sans-serif" font-size="12" fill="#475569">перпендикулярными, если они</text>
+  <text x="30" y="270" font-family="Arial, sans-serif" font-size="12" fill="#475569">пересекаются под прямым</text>
+  <text x="30" y="285" font-family="Arial, sans-serif" font-size="12" fill="#475569">углом (90°).</text>
+  
+  <!-- Стрелки указания -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b"/>
+    </marker>
+  </defs>
+  
+  <line x1="230" y1="190" x2="180" y2="170" stroke="#64748b" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <text x="150" y="165" font-family="Arial, sans-serif" font-size="10" fill="#64748b">горизонтальная</text>
+  
+  <line x1="260" y1="190" x2="310" y2="170" stroke="#64748b" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <text x="315" y="165" font-family="Arial, sans-serif" font-size="10" fill="#64748b">вертикальная</text>
 </svg>

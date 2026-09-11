@@ -1,62 +1,154 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
-<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
-<polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
-<polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
-<polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
-<polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
-<circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-<circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
-<circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
-<circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-<circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
-<circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
-<text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Признаки параллельности</text>
-<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Геометрия - Урок 6</text>
-<line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
-<rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
-<rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
-
-  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
-  <text x="135" y="115" font-family="Arial,sans-serif" font-size="13" fill="#2E7D32" text-anchor="middle" font-weight="bold">Признаки параллельности</text>
-  <!-- Triangle -->
-  <polygon points="80,240 180,240 130,140" fill="#E8F5E9" stroke="#2E7D32" stroke-width="2"/>
-  <!-- Vertices -->
-  <circle cx="80" cy="240" r="4" fill="#C62828"/>
-  <text x="70" y="255" font-family="Arial,sans-serif" font-size="8" fill="#C62828">A</text>
-  <circle cx="180" cy="240" r="4" fill="#C62828"/>
-  <text x="185" y="255" font-family="Arial,sans-serif" font-size="8" fill="#C62828">B</text>
-  <circle cx="130" cy="140" r="4" fill="#C62828"/>
-  <text x="133" y="135" font-family="Arial,sans-serif" font-size="8" fill="#C62828">C</text>
-  <!-- Angle mark -->
-  <path d="M95,240 Q100,232 107,228" stroke="#1565C0" stroke-width="1.5" fill="none"/>
-  <text x="100" y="225" font-family="Arial,sans-serif" font-size="7" fill="#1565C0">a</text>
-  <!-- Median -->
-  <line x1="130" y1="140" x2="130" y2="240" stroke="#F9A825" stroke-width="1.5" stroke-dasharray="5,3"/>
-  <text x="140" y="195" font-family="Arial,sans-serif" font-size="7" fill="#F9A825">медиана</text>
-  <!-- Height -->
-  <line x1="130" y1="140" x2="80" y2="240" stroke="#C62828" stroke-width="1.5" stroke-dasharray="3,2"/>
-  <text x="90" y="195" font-family="Arial,sans-serif" font-size="7" fill="#C62828">высота</text>
-
-  <rect x="260" y="90" width="215" height="200" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5"/>
-  <text x="367" y="115" font-family="Arial,sans-serif" font-size="12" fill="#1565C0" text-anchor="middle" font-weight="bold">Геометрические фигуры</text>
-  <!-- Parallel lines -->
-  <line x1="285" y1="145" x2="440" y2="145" stroke="#C62828" stroke-width="2"/>
-  <line x1="285" y1="175" x2="440" y2="175" stroke="#C62828" stroke-width="2"/>
-  <!-- Transversal -->
-  <line x1="320" y1="130" x2="400" y2="190" stroke="#2E7D32" stroke-width="1.5"/>
-  <!-- Angle marks -->
-  <path d="M320,145 Q330,140 335,145" stroke="#1565C0" stroke-width="1" fill="none"/>
-  <path d="M335,145 Q340,150 335,155" stroke="#1565C0" stroke-width="1" fill="none"/>
-  <text x="440" y="160" font-family="Arial,sans-serif" font-size="7" fill="#C62828">a || b</text>
-  <!-- Circle -->
-  <circle cx="367" cy="230" r="30" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
-  <circle cx="367" cy="230" r="3" fill="#1565C0"/>
-  <line x1="367" y1="230" x2="397" y2="230" stroke="#C62828" stroke-width="1.5"/>
-  <text x="382" y="225" font-family="Arial,sans-serif" font-size="7" fill="#C62828">R</text>
-  <text x="367" y="275" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">углы, отрезки, прямые</text>
-<rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
-<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Геометрия</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Градиенты -->
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E5C8A;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5CB85C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3D8B3D;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0AD4E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D58512;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9B59B6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7D3C98;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Тень -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Фоновый прямоугольник -->
+  <rect width="500" height="350" fill="#F8F9FA"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2C3E50">ГЕОМЕТРИЯ · 7 КЛАСС</text>
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#34495E">Урок 6. Второй и третий признаки равенства</text>
+  
+  <!-- Первый признак (для сравнения) -->
+  <g transform="translate(50, 80)">
+    <rect x="0" y="0" width="120" height="80" fill="url(#blueGrad)" rx="5" filter="url(#shadow)"/>
+    <text x="60" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Первый признак</text>
+    <text x="60" y="45" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Если две стороны</text>
+    <text x="60" y="60" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">и угол между ними</text>
+    <text x="60" y="75" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">равны, то...</text>
+  </g>
+  
+  <!-- Второй признак -->
+  <g transform="translate(190, 80)">
+    <rect x="0" y="0" width="120" height="80" fill="url(#greenGrad)" rx="5" filter="url(#shadow)"/>
+    <text x="60" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Второй признак</text>
+    <text x="60" y="45" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Если сторона и</text>
+    <text x="60" y="60" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">два прилежащих</text>
+    <text x="60" y="75" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">угла равны, то...</text>
+  </g>
+  
+  <!-- Третий признак -->
+  <g transform="translate(330, 80)">
+    <rect x="0" y="0" width="120" height="80" fill="url(#orangeGrad)" rx="5" filter="url(#shadow)"/>
+    <text x="60" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Третий признак</text>
+    <text x="60" y="45" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Если три стороны</text>
+    <text x="60" y="60" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">одного треугольника</text>
+    <text x="60" y="75" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">равны трём сторонам</text>
+  </g>
+  
+  <!-- Разделительная линия -->
+  <line x1="30" y1="180" x2="470" y2="180" stroke="#BDC3C7" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Второй признак с примером -->
+  <g transform="translate(30, 200)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2C3E50">Второй признак равенства треугольников</text>
+    
+    <!-- Треугольник ABC -->
+    <g transform="translate(20, 20)">
+      <polygon points="0,80 60,0 120,80" fill="none" stroke="#3498DB" stroke-width="3"/>
+      <circle cx="0" cy="80" r="4" fill="#3498DB"/>
+      <circle cx="60" cy="0" r="4" fill="#3498DB"/>
+      <circle cx="120" cy="80" r="4" fill="#3498DB"/>
+      <text x="0" y="100" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2C3E50">A</text>
+      <text x="60" y="-10" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2C3E50">B</text>
+      <text x="120" y="100" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2C3E50">C</text>
+      
+      <!-- Углы -->
+      <path d="M 10,80 A 10,10 0 0,0 17,73" fill="none" stroke="#E74C3C" stroke-width="2"/>
+      <text x="25" y="75" font-family="Arial, sans-serif" font-size="12" fill="#E74C3C">α</text>
+      
+      <path d="M 110,80 A 10,10 0 0,0 103,73" fill="none" stroke="#E74C3C" stroke-width="2"/>
+      <text x="95" y="75" font-family="Arial, sans-serif" font-size="12" fill="#E74C3C">β</text>
+    </g>
+    
+    <!-- Знак равенства -->
+    <text x="180" y="70" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#2C3E50">≅</text>
+    
+    <!-- Треугольник A₁B₁C₁ -->
+    <g transform="translate(220, 20)">
+      <polygon points="0,80 60,0 120,80" fill="none" stroke="#2ECC71" stroke-width="3"/>
+      <circle cx="0" cy="80" r="4" fill="#2ECC71"/>
+      <circle cx="60" cy="0" r="4" fill="#2ECC71"/>
+      <circle cx="120" cy="80" r="4" fill="#2ECC71"/>
+      <text x="0" y="100" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2C3E50">A₁</text>
+      <text x="60" y="-10" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2C3E50">B₁</text>
+      <text x="120" y="100" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2C3E50">C₁</text>
+      
+      <!-- Углы -->
+      <path d="M 10,80 A 10,10 0 0,0 17,73" fill="none" stroke="#E74C3C" stroke-width="2"/>
+      <text x="25" y="75" font-family="Arial, sans-serif" font-size="12" fill="#E74C3C">α₁</text>
+      
+      <path d="M 110,80 A 10,10 0 0,0 103,73" fill="none" stroke="#E74C3C" stroke-width="2"/>
+      <text x="95" y="75" font-family="Arial, sans-serif" font-size="12" fill="#E74C3C">β₁</text>
+    </g>
+    
+    <!-- Условие -->
+    <text x="90" y="130" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2C3E50">AB = A₁B₁, ∠A = ∠A₁, ∠B = ∠B₁</text>
+  </g>
+  
+  <!-- Третий признак с примером -->
+  <g transform="translate(30, 280)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2C3E50">Третий признак равенства треугольников</text>
+    
+    <!-- Треугольник ABC -->
+    <g transform="translate(20, 20)">
+      <polygon points="0,60 50,0 100,60" fill="none" stroke="#9B59B6" stroke-width="3"/>
+      <circle cx="0" cy="60" r="4" fill="#9B59B6"/>
+      <circle cx="50" cy="0" r="4" fill="#9B59B6"/>
+      <circle cx="100" cy="60" r="4" fill="#9B59B6"/>
+      <text x="0" y="80" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2C3E50">A</text>
+      <text x="50" y="-10" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2C3E50">B</text>
+      <text x="100" y="80" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2C3E50">C</text>
+    </g>
+    
+    <!-- Знак равенства -->
+    <text x="140" y="50" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#2C3E50">≅</text>
+    
+    <!-- Треугольник A₁B₁C₁ -->
+    <g transform="translate(180, 20)">
+      <polygon points="0,60 50,0 100,60" fill="none" stroke="#E67E22" stroke-width="3"/>
+      <circle cx="0" cy="60" r="4" fill="#E67E22"/>
+      <circle cx="50" cy="0" r="4" fill="#E67E22"/>
+      <circle cx="100" cy="60" r="4" fill="#E67E22"/>
+      <text x="0" y="80" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2C3E50">A₁</text>
+      <text x="50" y="-10" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2C3E50">B₁</text>
+      <text x="100" y="80" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2C3E50">C₁</text>
+    </g>
+    
+    <!-- Условие -->
+    <text x="110" y="100" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2C3E50">AB = A₁B₁, BC = B₁C₁, AC = A₁C₁</text>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <g transform="translate(400, 250)">
+    <rect x="0" y="0" width="80" height="60" fill="url(#purpleGrad)" rx="5" filter="url(#shadow)"/>
+    <text x="40" y="25" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Следствие:</text>
+    <text x="40" y="40" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">Треугольники</text>
+    <text x="40" y="55" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">равны</text>
+  </g>
 </svg>
