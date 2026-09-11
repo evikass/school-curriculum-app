@@ -1,64 +1,217 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
-<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
-<polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
-<polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
-<polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
-<polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
-<circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-<circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
-<circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
-<circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-<circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
-<circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
-<text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Освобождение Москвы</text>
-<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">История - Урок 6</text>
-<line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
-<rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
-<rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
-
-  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#8D6E63" stroke-width="1.5"/>
-  <text x="135" y="115" font-family="Arial,sans-serif" font-size="13" fill="#8D6E63" text-anchor="middle" font-weight="bold">Освобождение Москвы</text>
-  <!-- Kremlin towers -->
-  <rect x="55" y="160" width="25" height="80" fill="#C62828" stroke="#B71C1C" stroke-width="1"/>
-  <rect x="53" y="155" width="29" height="10" rx="2" fill="#C62828"/>
-  <polygon points="67,140 58,155 78,155" fill="#C62828"/>
-  <circle cx="67" cy="145" r="5" fill="#F9A825"/>
-  <rect x="110" y="145" width="25" height="95" fill="#C62828" stroke="#B71C1C" stroke-width="1"/>
-  <polygon points="122,125 108,145 138,145" fill="#C62828"/>
-  <circle cx="122" cy="130" r="5" fill="#F9A825"/>
-  <rect x="165" y="155" width="25" height="85" fill="#C62828" stroke="#B71C1C" stroke-width="1"/>
-  <polygon points="177,138 163,155 193,155" fill="#C62828"/>
-  <circle cx="177" cy="143" r="5" fill="#F9A825"/>
-  <!-- Wall -->
-  <rect x="48" y="230" width="155" height="12" fill="#B71C1C"/>
-  <line x1="80" y1="230" x2="80" y2="242" stroke="#A11212" stroke-width="1"/>
-  <line x1="120" y1="230" x2="120" y2="242" stroke="#A11212" stroke-width="1"/>
-  <line x1="160" y1="230" x2="160" y2="242" stroke="#A11212" stroke-width="1"/>
-  <text x="135" y="260" font-family="Arial,sans-serif" font-size="8" fill="#8D6E63" text-anchor="middle">Московский Кремль</text>
-
-  <rect x="260" y="90" width="215" height="200" rx="6" fill="white" stroke="#F9A825" stroke-width="1.5"/>
-  <text x="367" y="115" font-family="Arial,sans-serif" font-size="12" fill="#F9A825" text-anchor="middle" font-weight="bold">Хронология</text>
-  <!-- Timeline -->
-  <line x1="285" y1="140" x2="450" y2="140" stroke="#F9A825" stroke-width="1.5"/>
-  <circle cx="300" cy="140" r="4" fill="#C62828"/>
-  <circle cx="340" cy="140" r="4" fill="#1565C0"/>
-  <circle cx="380" cy="140" r="4" fill="#2E7D32"/>
-  <circle cx="420" cy="140" r="4" fill="#FF9800"/>
-  <text x="300" y="160" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">XV</text>
-  <text x="340" y="160" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">XVI</text>
-  <text x="380" y="160" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">XVII</text>
-  <text x="420" y="160" font-family="Arial,sans-serif" font-size="7" fill="#FF9800" text-anchor="middle">XVIII</text>
-  <!-- Events -->
-  <text x="367" y="190" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Ключевые события</text>
-  <text x="367" y="210" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Исторические лица</text>
-  <text x="367" y="230" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Реформы и законы</text>
-  <!-- Book -->
-  <rect x="335" y="245" width="60" height="35" rx="3" fill="#FFF8E1" stroke="#8D6E63" stroke-width="1"/>
-  <line x1="365" y1="245" x2="365" y2="280" stroke="#8D6E63" stroke-width="1"/>
-  <text x="367" y="268" font-family="Arial,sans-serif" font-size="7" fill="#8D6E63" text-anchor="middle">летопись</text>
-<rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
-<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">История</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Градиенты -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="groundGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B7355;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#654321;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4682B4;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#5F9EA0;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#4682B4;stop-opacity:0.8" />
+    </linearGradient>
+    
+    <radialGradient id="sunGrad">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:0.8" />
+    </radialGradient>
+    
+    <!-- Паттерны -->
+    <pattern id="grassPattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="#228B22"/>
+      <path d="M10,15 Q12,10 15,12 T20,10 M0,10 Q2,5 5,7 T10,5" stroke="#006400" stroke-width="1" fill="none"/>
+    </pattern>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#skyGrad)"/>
+  
+  <!-- Солнце -->
+  <circle cx="450" cy="50" r="30" fill="url(#sunGrad)"/>
+  
+  <!-- Река -->
+  <path d="M0,200 Q100,180 200,200 T400,200 T500,210 L500,280 L0,280 Z" fill="url(#waterGrad)"/>
+  
+  <!-- Земля -->
+  <rect x="0" y="200" width="500" height="150" fill="url(#groundGrad)"/>
+  
+  <!-- Трава -->
+  <rect x="0" y="200" width="500" height="30" fill="url(#grassPattern)"/>
+  
+  <!-- Деревья -->
+  <!-- Дерево 1 -->
+  <rect x="80" y="150" width="20" height="80" fill="#8B4513"/>
+  <circle cx="90" cy="130" r="35" fill="#228B22"/>
+  
+  <!-- Дерево 2 -->
+  <rect x="200" y="140" width="25" height="90" fill="#8B4513"/>
+  <circle cx="212" cy="115" r="40" fill="#2E8B57"/>
+  
+  <!-- Дерево 3 -->
+  <rect x="350" y="145" width="22" height="85" fill="#8B4513"/>
+  <circle cx="361" cy="125" r="38" fill="#228B22"/>
+  
+  <!-- Изба -->
+  <g id="izba">
+    <rect x="120" y="170" width="80" height="60" fill="#8B4513"/>
+    <polygon points="110,170 160,140 210,170" fill="#B22222"/>
+    <rect x="140" y="190" width="15" height="20" fill="#654321"/>
+    <rect x="165" y="185" width="12" height="12" fill="#FFD700"/>
+    <rect x="185" y="190" width="15" height="20" fill="#654321"/>
+  </g>
+  
+  <!-- Люди -->
+  <!-- Славянин с топором -->
+  <g id="slav1">
+    <ellipse cx="300" cy="210" rx="8" ry="12" fill="#FDBCB4"/>
+    <rect x="296" y="222" width="8" height="20" fill="#4169E1"/>
+    <rect x="295" y="240" width="10" height="15" fill="#8B4513"/>
+    <line x1="308" y1="215" x2="320" y2="205" stroke="#654321" stroke-width="3"/>
+    <path d="M305,215 L315,225 L305,225 Z" fill="#8B4513"/>
+  </g>
+  
+  <!-- Славянка с корзиной -->
+  <g id="slav2">
+    <ellipse cx="250" cy="208" rx="7" ry="10" fill="#FDBCB4"/>
+    <path d="M243,218 Q250,215 257,218 L257,230 Q250,235 243,230 Z" fill="#FF69B4"/>
+    <circle cx="242" cy="225" r="8" fill="#8B4513"/>
+    <path d="M234,225 L238,235" stroke="#8B4513" stroke-width="2"/>
+    <path d="M250,225 L254,235" stroke="#8B4513" stroke-width="2"/>
+  </g>
+  
+  -- Дети -->
+  <g id="child1">
+    <ellipse cx="170" cy="240" rx="5" ry="8" fill="#FDBCB4"/>
+    <rect x="167" y="248" width="6" height="12" fill="#90EE90"/>
+    <rect x="166" y="260" width="8" height="10" fill="#8B4513"/>
+  </g>
+  
+  <!-- Животные -->
+  <!-- Корова -->
+  <g id="cow">
+    <ellipse cx="400" cy="240" rx="20" ry="12" fill="#8B4513"/>
+    <circle cx="385" cy="235" r="8" fill="#8B4513"/>
+    <circle cx="415" cy="235" r="8" fill="#8B4513"/>
+    <rect x="380" y="230" width="10" height="8" fill="#654321"/>
+    <circle cx="383" cy="232" r="2" fill="#000"/>
+    <rect x="405" y="230" width="10" height="8" fill="#654321"/>
+    <circle cx="408" cy="232" r="2" fill="#000"/>
+    <ellipse cx="400" cy="250" rx="15" ry="8" fill="#654321"/>
+  </g>
+  
+  <!-- Куры -->
+  <g id="chickens">
+    <ellipse cx="50" cy="235" rx="8" ry="6" fill="#FFD700"/>
+    <circle cx="47" cy="232" r="3" fill="#FFA500"/>
+    <ellipse cx="70" cy="240" rx="7" ry="5" fill="#FFD700"/>
+    <circle cx="67" cy="237" r="2.5" fill="#FFA500"/>
+  </g>
+  
+  <!-- Птицы -->
+  <g id="birds">
+    <path d="M30,50 Q40,45 50,50" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M80,40 Q90,35 100,40" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M150,60 Q160,55 170,60" stroke="#000" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Цветы -->
+  <g id="flowers">
+    <circle cx="30" cy="220" r="5" fill="#FF69B4"/>
+    <circle cx="32" cy="218" r="3" fill="#FFD700"/>
+    <rect x="30" y="225" width="2" height="10" fill="#228B22"/>
+    
+    <circle cx="450" cy="220" r="5" fill="#FF1493"/>
+    <circle cx="452" cy="218" r="3" fill="#FFFF00"/>
+    <rect x="450" y="225" width="2" height="10" fill="#228B22"/>
+  </g>
+  
+  <!-- Колосья -->
+  <g id="wheat">
+    <path d="M420,180 L420,190 M418,182 L422,182 M418,185 L422,185 M418,188 L422,188" stroke="#FFD700" stroke-width="2"/>
+    <path d="M430,175 L430,185 M428,177 L432,177 M428,180 L432,180 M428,183 L432,183" stroke="#FFD700" stroke-width="2"/>
+  </g>
+  
+  <!-- Текст -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#8B4513">ИСТОРИЯ · 7 КЛАСС</text>
+  
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#654321">Урок 6. Восточные славяне</text>
+  
+  <text x="160" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#654321">Жилище</text>
+  
+  <text x="300" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#654321">Охотник</text>
+  
+  <text x="250" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#654321">Собирательница</text>
+  
+  <text x="170" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#654321">Дети</text>
+  
+  <text x="400" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#654321">Скот</text>
+  
+  <text x="60" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#654321">Птицы</text>
+  
+  <text x="430" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#654321">Зерно</text>
+  
+  <text x="200" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#654321">Река</text>
+  
+  <text x="450" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#654321">Солнце</text>
+  
+  <text x="30" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#654321">Цветы</text>
+  
+  <text x="100" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#654321">Лес</text>
+  
+  <text x="350" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#654321">Поля</text>
+  
+  <text x="150" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#654321" font-weight="bold">Славяне</text>
+  
+  <text x="400" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#654321">Животноводство</text>
+  
+  <text x="100" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#654321">Охота</text>
+  
+  <text x="250" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#654321">Рыболовство</text>
+  
+  <text x="30" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#654321">Собирательство</text>
+  
+  <text x="450" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#654321">Земледелие</text>
+  
+  <text x="300" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#654321">Ремесло</text>
+  
+  <!-- Дополнительные элементы для сложности -->
+  <g id="sunrays">
+    <line x1="450" y1="50" x2="450" y2="30" stroke="#FFD700" stroke-width="2" opacity="0.5"/>
+    <line x1="450" y1="50" x2="470" y2="40" stroke="#FFD700" stroke-width="2" opacity="0.5"/>
+    <line x1="450" y1="50" x2="470" y2="60" stroke="#FFD700" stroke-width="2" opacity="0.5"/>
+    <line x1="450" y1="50" x2="450" y2="70" stroke="#FFD700" stroke-width="2" opacity="0.5"/>
+    <line x1="450" y1="50" x2="430" y2="60" stroke="#FFD700" stroke-width="2" opacity="0.5"/>
+    <line x1="450" y1="50" x2="430" y2="40" stroke="#FFD700" stroke-width="2" opacity="0.5"/>
+  </g>
+  
+  <!-- Облака -->
+  <g id="clouds">
+    <ellipse cx="150" cy="80" rx="30" ry="15" fill="white" opacity="0.7"/>
+    <ellipse cx="130" cy="85" rx="25" ry="12" fill="white" opacity="0.7"/>
+    <ellipse cx="170" cy="85" rx="25" ry="12" fill="white" opacity="0.7"/>
+    
+    <ellipse cx="350" cy="100" rx="35" ry="18" fill="white" opacity="0.7"/>
+    <ellipse cx="325" cy="105" rx="28" ry="14" fill="white" opacity="0.7"/>
+    <ellipse cx="375" cy="105" rx="28" ry="14" fill="white" opacity="0.7"/>
+  </g>
+  
+  <!-- Дополнительные подписи -->
+  <text x="80" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#654321">Дубравы</text>
+  <text x="200" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#654321">Болота</text>
+  <text x="320" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#654321">Луга</text>
+  <text x="440" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#654321">Пашни</text>
+  
+  <!-- Символы славян -->
+  <g id="symbols">
+    <circle cx="30" cy="150" r="15" fill="none" stroke="#8B4513" stroke-width="2"/>
+    <path d="M30,140 L30,160 M20,150 L40,150" stroke="#8B4513" stroke-width="2"/>
+    
+    <polygon points="470,140 480,160 460,160" fill="none" stroke="#8B4513" stroke-width="2"/>
+  </g>
 </svg>

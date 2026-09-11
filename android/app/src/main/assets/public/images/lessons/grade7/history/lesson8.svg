@@ -1,64 +1,251 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
-<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
-<polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
-<polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
-<polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
-<polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
-<circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-<circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
-<circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
-<circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-<circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
-<circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
-<text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Соборное уложение 1649 года</text>
-<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">История - Урок 8</text>
-<line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
-<rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
-<rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
-
-  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#8D6E63" stroke-width="1.5"/>
-  <text x="135" y="115" font-family="Arial,sans-serif" font-size="13" fill="#8D6E63" text-anchor="middle" font-weight="bold">Соборное уложение 1649 года</text>
-  <!-- Kremlin towers -->
-  <rect x="55" y="160" width="25" height="80" fill="#C62828" stroke="#B71C1C" stroke-width="1"/>
-  <rect x="53" y="155" width="29" height="10" rx="2" fill="#C62828"/>
-  <polygon points="67,140 58,155 78,155" fill="#C62828"/>
-  <circle cx="67" cy="145" r="5" fill="#F9A825"/>
-  <rect x="110" y="145" width="25" height="95" fill="#C62828" stroke="#B71C1C" stroke-width="1"/>
-  <polygon points="122,125 108,145 138,145" fill="#C62828"/>
-  <circle cx="122" cy="130" r="5" fill="#F9A825"/>
-  <rect x="165" y="155" width="25" height="85" fill="#C62828" stroke="#B71C1C" stroke-width="1"/>
-  <polygon points="177,138 163,155 193,155" fill="#C62828"/>
-  <circle cx="177" cy="143" r="5" fill="#F9A825"/>
-  <!-- Wall -->
-  <rect x="48" y="230" width="155" height="12" fill="#B71C1C"/>
-  <line x1="80" y1="230" x2="80" y2="242" stroke="#A11212" stroke-width="1"/>
-  <line x1="120" y1="230" x2="120" y2="242" stroke="#A11212" stroke-width="1"/>
-  <line x1="160" y1="230" x2="160" y2="242" stroke="#A11212" stroke-width="1"/>
-  <text x="135" y="260" font-family="Arial,sans-serif" font-size="8" fill="#8D6E63" text-anchor="middle">Московский Кремль</text>
-
-  <rect x="260" y="90" width="215" height="200" rx="6" fill="white" stroke="#F9A825" stroke-width="1.5"/>
-  <text x="367" y="115" font-family="Arial,sans-serif" font-size="12" fill="#F9A825" text-anchor="middle" font-weight="bold">Хронология</text>
-  <!-- Timeline -->
-  <line x1="285" y1="140" x2="450" y2="140" stroke="#F9A825" stroke-width="1.5"/>
-  <circle cx="300" cy="140" r="4" fill="#C62828"/>
-  <circle cx="340" cy="140" r="4" fill="#1565C0"/>
-  <circle cx="380" cy="140" r="4" fill="#2E7D32"/>
-  <circle cx="420" cy="140" r="4" fill="#FF9800"/>
-  <text x="300" y="160" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="middle">XV</text>
-  <text x="340" y="160" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">XVI</text>
-  <text x="380" y="160" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle">XVII</text>
-  <text x="420" y="160" font-family="Arial,sans-serif" font-size="7" fill="#FF9800" text-anchor="middle">XVIII</text>
-  <!-- Events -->
-  <text x="367" y="190" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Ключевые события</text>
-  <text x="367" y="210" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Исторические лица</text>
-  <text x="367" y="230" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Реформы и законы</text>
-  <!-- Book -->
-  <rect x="335" y="245" width="60" height="35" rx="3" fill="#FFF8E1" stroke="#8D6E63" stroke-width="1"/>
-  <line x1="365" y1="245" x2="365" y2="280" stroke="#8D6E63" stroke-width="1"/>
-  <text x="367" y="268" font-family="Arial,sans-serif" font-size="7" fill="#8D6E63" text-anchor="middle">летопись</text>
-<rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
-<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">История</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Градиенты -->
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="groundGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B7355;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#654321;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="churchGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF8DC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F0E68C;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="sunGradient">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:0.8" />
+    </radialGradient>
+    
+    <linearGradient id="waterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4682B4;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#1E90FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Небо -->
+  <rect width="500" height="200" fill="url(#skyGradient)" />
+  
+  <!-- Солнце -->
+  <circle cx="400" cy="50" r="30" fill="url(#sunGradient)" />
+  
+  <!-- Облака -->
+  <ellipse cx="80" cy="60" rx="25" ry="15" fill="white" opacity="0.8" />
+  <ellipse cx="100" cy="55" rx="30" ry="18" fill="white" opacity="0.8" />
+  <ellipse cx="120" cy="60" rx="25" ry="15" fill="white" opacity="0.8" />
+  
+  <ellipse cx="300" cy="80" rx="20" ry="12" fill="white" opacity="0.7" />
+  <ellipse cx="320" cy="75" rx="25" ry="15" fill="white" opacity="0.7" />
+  
+  <!-- Земля -->
+  <rect y="200" width="500" height="150" fill="url(#groundGradient)" />
+  
+  <!-- Днепр -->
+  <path d="M 0 220 Q 100 210, 200 215 T 400 220 Q 450 225, 500 220 L 500 350 L 0 350 Z" 
+        fill="url(#waterGradient)" />
+  
+  <!-- Храмы -->
+  <!-- Главный храм -->
+  <g id="mainChurch">
+    <!-- Основание -->
+    <rect x="150" y="150" width="80" height="50" fill="url(#churchGradient)" />
+    <!-- Купола -->
+    <ellipse cx="190" cy="150" rx="40" ry="25" fill="url(#churchGradient)" />
+    <rect x="185" y="125" width="10" height="25" fill="#8B4513" />
+    <circle cx="190" cy="120" r="8" fill="#FFD700" />
+    <path d="M 150 150 L 140 130 L 240 130 Z" fill="#8B4513" />
+  </g>
+  
+  <!-- Второй храм -->
+  <g id="secondChurch">
+    <rect x="260" y="160" width="60" height="40" fill="url(#churchGradient)" />
+    <ellipse cx="290" cy="160" rx="30" ry="20" fill="url(#churchGradient)" />
+    <rect x="287" y="140" width="6" height="20" fill="#8B4513" />
+    <circle cx="290" cy="135" r="6" fill="#FFD700" />
+  </g>
+  
+  <!-- Люди -->
+  <!-- Князь Владимир -->
+  <g id="vladimir">
+    <!-- Тело -->
+    <rect x="185" y="230" width="20" height="30" fill="#8B0000" />
+    <!-- Голова -->
+    <circle cx="195" cy="225" r="8" fill="#FDBCB4" />
+    <!-- Корона -->
+    <path d="M 187 220 L 190 215 L 195 217 L 200 215 L 203 220" 
+          fill="#FFD700" stroke="#B8860B" stroke-width="1" />
+    <!-- Меч -->
+    <rect x="205" y="225" width="2" height="20" fill="#696969" />
+    <rect x="203" y="225" width="6" height="3" fill="#696969" />
+  </g>
+  
+  <!-- Люди в воде -->
+  <g id="peopleInWater">
+    <!-- Первый человек -->
+    <ellipse cx="120" cy="240" rx="5" ry="3" fill="#4682B4" />
+    <circle cx="120" cy="235" r="4" fill="#FDBCB4" />
+    
+    <!-- Второй человек -->
+    <ellipse cx="350" cy="245" rx="5" ry="3" fill="#4682B4" />
+    <circle cx="350" cy="240" r="4" fill="#FDBCB4" />
+    
+    <!-- Третий человек -->
+    <ellipse cx="380" cy="242" rx="5" ry="3" fill="#4682B4" />
+    <circle cx="380" cy="237" r="4" fill="#FDBCB4" />
+  </g>
+  
+  <!-- Лодки -->
+  <g id="boats">
+    <!-- Лодка 1 -->
+    <path d="M 100 235 L 110 235 L 108 245 L 102 245 Z" fill="#8B4513" />
+    <line x1="105" y1="235" x2="105" y2="240" stroke="#654321" stroke-width="1" />
+    
+    <!-- Лодка 2 -->
+    <path d="M 370 240 L 380 240 L 378 250 L 372 250 Z" fill="#8B4513" />
+    <line x1="375" y1="240" x2="375" y2="245" stroke="#654321" stroke-width="1" />
+  </g>
+  
+  <!-- Деревья -->
+  <g id="trees">
+    <!-- Дерево 1 -->
+    <rect x="30" y="180" width="8" height="40" fill="#8B4513" />
+    <ellipse cx="34" cy="175" rx="15" ry="20" fill="#228B22" />
+    
+    <!-- Дерево 2 -->
+    <rect x="420" y="185" width="6" height="35" fill="#8B4513" />
+    <ellipse cx="423" cy="180" rx="12" ry="18" fill="#228B22" />
+  </g>
+  
+  <!-- Текст -->
+  <!-- Заголовок -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#8B0000">
+    ИСТОРИЯ · 7 КЛАСС
+  </text>
+  
+  <!-- Название урока -->
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#2F4F4F">
+    Урок 8. Крещение Руси
+  </text>
+  
+  <!-- Подписи к элементам -->
+  <text x="195" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">
+    Князь Владимир
+  </text>
+  
+  <text x="190" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">
+    988 год
+  </text>
+  
+  <text x="190" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">
+    Софийский собор
+  </text>
+  
+  <text x="290" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">
+    Церковь
+  </text>
+  
+  <text x="105" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">
+    Днепр
+  </text>
+  
+  <text x="120" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#333">
+    Крещение
+  </text>
+  
+  <text x="375" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#333">
+    Народ
+  </text>
+  
+  <!-- Дополнительные подписи -->
+  <text x="50" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#333">
+    Деревья
+  </text>
+  
+  <text x="430" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#333">
+    Природа
+  </text>
+  
+  <text x="400" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">
+    Солнце
+  </text>
+  
+  <text x="100" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#333">
+    Облака
+  </text>
+  
+  <!-- Даты и события -->
+  <text x="250" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#8B0000">
+    Принятие христианства
+  </text>
+  
+  <text x="250" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2F4F4F">
+    Начало формирования русской государственности
+  </text>
+  
+  <!-- Дополнительные элементы для увеличения количества -->
+  <g id="birds">
+    <path d="M 250 80 Q 255 75, 260 80" fill="none" stroke="#333" stroke-width="1" />
+    <path d="M 270 85 Q 275 80, 280 85" fill="none" stroke="#333" stroke-width="1" />
+    <path d="M 290 88 Q 295 83, 300 88" fill="none" stroke="#333" stroke-width="1" />
+  </g>
+  
+  <text x="275" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#333">
+    Птицы
+  </text>
+  
+  <!-- Знаки креста на куполах -->
+  <path d="M 185 135 L 195 135 M 190 130 L 190 140" stroke="#8B4513" stroke-width="1" />
+  <path d="M 285 135 L 295 135 M 290 130 L 290 140" stroke="#8B4513" stroke-width="1" />
+  
+  <text x="190" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#8B4513">
+    Крест
+  </text>
+  
+  <text x="290" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#8B4513">
+    Крест
+  </text>
+  
+  <!-- Река -->
+  <text x="50" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#4682B4">
+    Река Днепр
+  </text>
+  
+  <!-- Дополнительные подписи для увеличения количества до 20+ -->
+  <text x="150" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#654321">
+    Киев
+  </text>
+  
+  <text x="250" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#654321">
+    Древняя Русь
+  </text>
+  
+  <text x="60" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#87CEEB">
+    Небо
+  </text>
+  
+  <text x="30" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#8B4513">
+    Ствол
+  </text>
+  
+  <text x="420" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#8B4513">
+    Ствол
+  </text>
+  
+  <!-- Волны в воде -->
+  <path d="M 50 230 Q 70 228, 90 230 T 130 230" stroke="#6495ED" stroke-width="1" fill="none" opacity="0.5" />
+  <path d="M 150 232 Q 170 230, 190 232 T 230 232" stroke="#6495ED" stroke-width="1" fill="none" opacity="0.5" />
+  <path d="M 300 234 Q 320 232, 340 234 T 380 234" stroke="#6495ED" stroke-width="1" fill="none" opacity="0.5" />
+  
+  <text x="90" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#6495ED">
+    Волны
+  </text>
+  
+  <!-- Дополнительная подпись -->
+  <text x="250" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2F4F4F">
+    Исторический момент
+  </text>
 </svg>
