@@ -1,0 +1,149 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый прямоугольник -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок -->
+  <rect x="0" y="0" width="500" height="40" fill="#7f8c8d"/>
+  <text x="250" y="28" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="white" font-weight="bold">ТЕХНОЛОГИЯ · 7 КЛАСС</text>
+  
+  <!-- Название урока -->
+  <text x="250" y="65" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2c3e50" font-weight="bold">Приготовление блюд из яиц и теста</text>
+  
+  <!-- Разделитель -->
+  <line x1="50" y1="80" x2="450" y2="80" stroke="#7f8c8d" stroke-width="2"/>
+  
+  <!-- Раздел 1: Яйца -->
+  <text x="125" y="105" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#34495e" font-weight="bold">ЯЙЦА</text>
+  
+  <!-- Иконка яйца -->
+  <ellipse cx="125" cy="140" rx="20" ry="25" fill="#f39c12" stroke="#e67e22" stroke-width="2"/>
+  <line x1="105" y1="140" x2="145" y2="140" stroke="#e67e22" stroke-width="1"/>
+  
+  <!-- Виды яиц -->
+  <rect x="50" y="170" width="150" height="100" fill="white" stroke="#7f8c8d" stroke-width="1" rx="5"/>
+  <text x="125" y="190" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50" font-weight="bold">Виды яиц</text>
+  
+  <circle cx="75" cy="210" r="10" fill="#ecf0f1" stroke="#7f8c8d" stroke-width="1"/>
+  <text x="75" y="235" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#34495e">Сурикат</text>
+  
+  <circle cx="125" cy="210" r="10" fill="#ecf0f1" stroke="#7f8c8d" stroke-width="1"/>
+  <text x="125" y="235" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#34495e">Яичный порошок</text>
+  
+  <circle cx="175" cy="210" r="10" fill="#ecf0f1" stroke="#7f8c8d" stroke-width="1"/>
+  <text x="175" y="235" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#34495e">Взбитые</text>
+  
+  <!-- Блюда из яиц -->
+  <text x="125" y="295" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#34495e">Омлет · Яичница · Шакшука</text>
+  
+  <!-- Раздел 2: Тесто -->
+  <text x="375" y="105" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#34495e" font-weight="bold">ТЕСТО</text>
+  
+  <!-- Иконка теста -->
+  <path d="M 355 140 Q 355 120 375 120 Q 395 120 395 140 Q 395 160 375 160 Q 355 160 355 140" fill="#f39c12" stroke="#e67e22" stroke-width="2"/>
+  <ellipse cx="375" cy="140" rx="20" ry="5" fill="#e67e22"/>
+  
+  <!-- Виды теста -->
+  <rect x="300" y="170" width="150" height="100" fill="white" stroke="#7f8c8d" stroke-width="1" rx="5"/>
+  <text x="375" y="190" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50" font-weight="bold">Виды теста</text>
+  
+  <rect x="325" y="200" width="20" height="15" fill="#ecf0f1" stroke="#7f8c8d" stroke-width="1"/>
+  <text x="335" y="230" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#34495e">Бездрожжевое</text>
+  
+  <rect x="355" y="200" width="20" height="15" fill="#ecf0f1" stroke="#7f8c8d" stroke-width="1"/>
+  <text x="365" y="230" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#34495e">Дрожжевое</text>
+  
+  <rect x="385" y="200" width="20" height="15" fill="#ecf0f1" stroke="#7f8c8d" stroke-width="1"/>
+  <text x="395" y="230" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#34495e">Слоеное</text>
+  
+  <!-- Блюда из теста -->
+  <text x="375" y="295" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#34495e">Пельмени · Вареники · Блинчики</text>
+  
+  <!-- Процесс приготовления -->
+  <text x="250" y="320" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#7f8c8d" font-weight="bold">ЭТАПЫ ПРИГОТОВЛЕНИЯ</text>
+  
+  <!-- Стрелка процесса -->
+  <path d="M 100 330 L 150 330" stroke="#7f8c8d" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 200 330 L 250 330" stroke="#7f8c8d" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 300 330 L 350 330" stroke="#7f8c8d" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 400 330 L 450 330" stroke="#7f8c8d" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Этапы -->
+  <rect x="70" y="318" width="60" height="24" fill="#ecf0f1" stroke="#7f8c8d" stroke-width="1" rx="3"/>
+  <text x="100" y="334" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#34495e">Подготовка</text>
+  
+  <rect x="170" y="318" width="60" height="24" fill="#ecf0f1" stroke="#7f8c8d" stroke-width="1" rx="3"/>
+  <text x="200" y="334" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#34495e">Замешивание</text>
+  
+  <rect x="270" y="318" width="60" height="24" fill="#ecf0f1" stroke="#7f8c8d" stroke-width="1" rx="3"/>
+  <text x="300" y="334" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#34495e">Обработка</text>
+  
+  <rect x="370" y="318" width="60" height="24" fill="#ecf0f1" stroke="#7f8c8d" stroke-width="1" rx="3"/>
+  <text x="400" y="334" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#34495e">Термическая</text>
+  
+  <!-- Ингредиенты -->
+  <rect x="50" y="120" width="40" height="40" fill="#e74c3c" stroke="#c0392b" stroke-width="1" rx="5"/>
+  <text x="70" y="145" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">Соль</text>
+  
+  <rect x="50" y="165" width="40" height="40" fill="#f39c12" stroke="#e67e22" stroke-width="1" rx="5"/>
+  <text x="70" y="190" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">Масло</text>
+  
+  <rect x="410" y="120" width="40" height="40" fill="#3498db" stroke="#2980b9" stroke-width="1" rx="5"/>
+  <text x="430" y="145" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">Вода</text>
+  
+  <rect x="410" y="165" width="40" height="40" fill="#2ecc71" stroke="#27ae60" stroke-width="1" rx="5"/>
+  <text x="430" y="190" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">Мука</text>
+  
+  <!-- Температурная шкала -->
+  <text x="250" y="125" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">Температура приготовления</text>
+  
+  <rect x="150" y="135" width="200" height="20" fill="#ecf0f1" stroke="#7f8c8d" stroke-width="1" rx="3"/>
+  <rect x="150" y="135" width="100" height="20" fill="#e74c3c" opacity="0.5"/>
+  <rect x="250" y="135" width="100" height="20" fill="#f39c12" opacity="0.5"/>
+  
+  <text x="150" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#34495e">150°C</text>
+  <text x="250" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#34495e">200°C</text>
+  <text x="350" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#34495e">250°C</text>
+  
+  <!-- Опасные зоны -->
+  <path d="M 100 190 L 110 200 L 90 200 Z" fill="#e74c3c" stroke="#c0392b" stroke-width="1"/>
+  <text x="100" y="215" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#e74c3c">Опасная зона</text>
+  
+  <path d="M 400 190 L 410 200 L 390 200 Z" fill="#f39c12" stroke="#e67e22" stroke-width="1"/>
+  <text x="400" y="215" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#f39c12">Опасная зона</text>
+  
+  <!-- Инструменты -->
+  <text x="250" y="255" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">Необходимые инструменты</text>
+  
+  <rect x="80" y="265" width="30" height="20" fill="#95a5a6" stroke="#7f8c8d" stroke-width="1" rx="3"/>
+  <text x="95" y="279" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">Ложка</text>
+  
+  <rect x="130" y="265" width="30" height="20" fill="#95a5a6" stroke="#7f8c8d" stroke-width="1" rx="3"/>
+  <text x="145" y="279" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">Вилка</text>
+  
+  <rect x="340" y="265" width="30" height="20" fill="#95a5a6" stroke="#7f8c8d" stroke-width="1" rx="3"/>
+  <text x="355" y="279" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">Нож</text>
+  
+  <rect x="390" y="265" width="30" height="20" fill="#95a5a6" stroke="#7f8c8d" stroke-width="1" rx="3"/>
+  <text x="405" y="279" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">Сковорода</text>
+  
+  <!-- Определения -->
+  <text x="125" y="250" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#34495e" font-style="italic">Белок - 87% воды</text>
+  <text x="375" y="250" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#34495e" font-style="italic">Желток - 50% воды</text>
+  
+  <!-- Схема теста -->
+  <circle cx="250" cy="140" r="30" fill="none" stroke="#7f8c8d" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="250" y="145" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7f8c8d">Соотношение</text>
+  <text x="250" y="158" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7f8c8d">ингредиентов</text>
+  
+  <!-- Значки безопасности -->
+  <circle cx="250" cy="100" r="8" fill="#e74c3c"/>
+  <text x="250" y="105" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white" font-weight="bold">!</text>
+  <text x="250" y="115" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#e74c3c">Безопасность</text>
+  
+  <!-- Стрелка определение -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7f8c8d"/>
+    </marker>
+  </defs>
+</svg>
