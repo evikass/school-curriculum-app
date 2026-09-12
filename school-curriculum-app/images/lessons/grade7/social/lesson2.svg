@@ -1,0 +1,179 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый фон -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок курса -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">ОБЩЕСТВОЗНАНИЕ · 7 КЛАСС</text>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#e74c3c">Потребности человека</text>
+  
+  <!-- Человек в центре -->
+  <circle cx="250" cy="170" r="40" fill="#3498db" opacity="0.8"/>
+  <circle cx="240" cy="160" r="5" fill="white"/>
+  <circle cx="260" cy="160" r="5" fill="white"/>
+  <path d="M240 175 Q250 185 260 175" stroke="white" stroke-width="2" fill="none"/>
+  <rect x="235" y="210" width="30" height="40" rx="5" fill="#3498db" opacity="0.8"/>
+  <rect x="235" y="185" width="30" height="30" rx="5" fill="#3498db" opacity="0.8"/>
+  <rect x="235" y="250" width="30" height="40" rx="5" fill="#3498db" opacity="0.8"/>
+  
+  <!-- Биологические потребности -->
+  <g>
+    <circle cx="100" cy="120" r="35" fill="#e74c3c" opacity="0.7"/>
+    <text x="100" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Биологические</text>
+    <text x="100" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">потребности</text>
+    
+    <line x1="135" y1="120" x2="210" y2="150" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,3"/>
+    
+    <!-- Иконки биологических потребностей -->
+    <rect x="50" y="70" width="20" height="20" rx="3" fill="#e74c3c" opacity="0.8"/>
+    <text x="60" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Еда</text>
+    
+    <rect x="80" y="70" width="20" height="20" rx="3" fill="#e74c3c" opacity="0.8"/>
+    <text x="90" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Вода</text>
+    
+    <rect x="110" y="70" width="20" height="20" rx="3" fill="#e74c3c" opacity="0.8"/>
+    <text x="120" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Сон</text>
+  </g>
+  
+  <!-- Социальные потребности -->
+  <g>
+    <circle cx="400" cy="120" r="35" fill="#3498db" opacity="0.7"/>
+    <text x="400" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Социальные</text>
+    <text x="400" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">потребности</text>
+    
+    <line x1="365" y1="120" x2="290" y2="150" stroke="#3498db" stroke-width="2" stroke-dasharray="5,3"/>
+    
+    <!-- Иконки социальных потребностей -->
+    <rect x="350" y="70" width="20" height="20" rx="3" fill="#3498db" opacity="0.8"/>
+    <text x="360" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Дружба</text>
+    
+    <rect x="380" y="70" width="20" height="20" rx="3" fill="#3498db" opacity="0.8"/>
+    <text x="390" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Любовь</text>
+    
+    <rect x="410" y="70" width="20" height="20" rx="3" fill="#3498db" opacity="0.8"/>
+    <text x="420" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Признание</text>
+  </g>
+  
+  <!-- Духовные потребности -->
+  <g>
+    <circle cx="100" cy="250" r="35" fill="#9b59b6" opacity="0.7"/>
+    <text x="100" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Духовные</text>
+    <text x="100" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">потребности</text>
+    
+    <line x1="135" y1="250" x2="210" y2="190" stroke="#9b59b6" stroke-width="2" stroke-dasharray="5,3"/>
+    
+    <!-- Иконки духовных потребностей -->
+    <rect x="50" y="300" width="20" height="20" rx="3" fill="#9b59b6" opacity="0.8"/>
+    <text x="60" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Знания</text>
+    
+    <rect x="80" y="300" width="20" height="20" rx="3" fill="#9b59b6" opacity="0.8"/>
+    <text x="90" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Искусство</text>
+    
+    <rect x="110" y="300" width="20" height="20" rx="3" fill="#9b59b6" opacity="0.8"/>
+    <text x="120" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Развитие</text>
+  </g>
+  
+  <!-- Материальные потребности -->
+  <g>
+    <circle cx="400" cy="250" r="35" fill="#f39c12" opacity="0.7"/>
+    <text x="400" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Материальные</text>
+    <text x="400" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">потребности</text>
+    
+    <line x1="365" y1="250" x2="290" y2="190" stroke="#f39c12" stroke-width="2" stroke-dasharray="5,3"/>
+    
+    <!-- Иконки материальных потребностей -->
+    <rect x="350" y="300" width="20" height="20" rx="3" fill="#f39c12" opacity="0.8"/>
+    <text x="360" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Одежда</text>
+    
+    <rect x="380" y="300" width="20" height="20" rx="3" fill="#f39c12" opacity="0.8"/>
+    <text x="390" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Жилье</text>
+    
+    <rect x="410" y="300" width="20" height="20" rx="3" fill="#f39c12" opacity="0.8"/>
+    <text x="420" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Деньги</text>
+  </g>
+  
+  <!-- Центральная диаграмма потребностей -->
+  <g>
+    <circle cx="250" cy="170" r="60" fill="none" stroke="#e74c3c" stroke-width="3" opacity="0.5"/>
+    <circle cx="250" cy="170" r="80" fill="none" stroke="#3498db" stroke-width="3" opacity="0.5"/>
+    <circle cx="250" cy="170" r="100" fill="none" stroke="#9b59b6" stroke-width="3" opacity="0.5"/>
+    <circle cx="250" cy="170" r="120" fill="none" stroke="#f39c12" stroke-width="3" opacity="0.5"/>
+    
+    <text x="250" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Человек</text>
+    <text x="250" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">в обществе</text>
+  </g>
+  
+  <!-- Подписи к диаграмме -->
+  <text x="250" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Потребности — это то, что необходимо для жизни и развития</text>
+  
+  <!-- Стрелки и подписи -->
+  <g>
+    <line x1="180" y1="120" x2="220" y2="140" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead1)"/>
+    <text x="170" y="115" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">Выживание</text>
+    
+    <line x1="320" y1="120" x2="280" y2="140" stroke="#3498db" stroke-width="2" marker-end="url(#arrowhead2)"/>
+    <text x="325" y="115" font-family="Arial, sans-serif" font-size="10" fill="#3498db">Общение</text>
+    
+    <line x1="180" y1="250" x2="220" y2="200" stroke="#9b59b6" stroke-width="2" marker-end="url(#arrowhead3)"/>
+    <text x="165" y="265" font-family="Arial, sans-serif" font-size="10" fill="#9b59b6">Рост</text>
+    
+    <line x1="320" y1="250" x2="280" y2="200" stroke="#f39c12" stroke-width="2" marker-end="url(#arrowhead4)"/>
+    <text x="325" y="265" font-family="Arial, sans-serif" font-size="10" fill="#f39c12">Блага</text>
+  </g>
+  
+  <!-- Определения -->
+  <rect x="20" y="190" width="120" height="30" rx="5" fill="#e74c3c" opacity="0.2"/>
+  <text x="80" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Базовые потребности</text>
+  
+  <rect x="360" y="190" width="120" height="30" rx="5" fill="#e74c3c" opacity="0.2"/>
+  <text x="420" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Высшие потребности</text>
+  
+  <!-- Маркеры для стрелок -->
+  <defs>
+    <marker id="arrowhead1" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e74c3c"/>
+    </marker>
+    <marker id="arrowhead2" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#3498db"/>
+    </marker>
+    <marker id="arrowhead3" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#9b59b6"/>
+    </marker>
+    <marker id="arrowhead4" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#f39c12"/>
+    </marker>
+  </defs>
+  
+  <!-- Дополнительные элементы -->
+  <circle cx="250" cy="320" r="5" fill="#e74c3c"/>
+  <circle cx="270" cy="320" r="5" fill="#e74c3c"/>
+  <circle cx="290" cy="320" r="5" fill="#e74c3c"/>
+  <circle cx="310" cy="320" r="5" fill="#e74c3c"/>
+  
+  <rect x="40" y="340" width="420" height="5" fill="#e74c3c" opacity="0.5"/>
+  
+  <!-- Текстовые блоки с пояснениями -->
+  <g>
+    <rect x="20" y="40" width="120" height="15" rx="3" fill="#e74c3c" opacity="0.3"/>
+    <text x="80" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">Необходимые для жизни</text>
+  </g>
+  
+  <g>
+    <rect x="360" y="40" width="120" height="15" rx="3" fill="#e74c3c" opacity="0.3"/>
+    <text x="420" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">Развитие личности</text>
+  </g>
+  
+  <!-- Дополнительные иконки и символы -->
+  <path d="M150 100 L150 90 L160 90 L160 100 Z" fill="#e74c3c" opacity="0.7"/>
+  <path d="M150 100 L150 110 L160 110 L160 100 Z" fill="#e74c3c" opacity="0.7"/>
+  
+  <path d="M350 100 L350 90 L360 90 L360 100 Z" fill="#3498db" opacity="0.7"/>
+  <path d="M350 100 L350 110 L360 110 L360 100 Z" fill="#3498db" opacity="0.7"/>
+  
+  <circle cx="180" cy="280" r="8" fill="#9b59b6" opacity="0.7"/>
+  <circle cx="320" cy="280" r="8" fill="#f39c12" opacity="0.7"/>
+  
+  <!-- Дополнительные текстовые элементы -->
+  <text x="250" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Иерархия потребностей по А. Маслоу</text>
+</svg>
