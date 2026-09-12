@@ -1,0 +1,148 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f9f9f9"/>
+  
+  <!-- Заголовок -->
+  <rect x="0" y="0" width="500" height="40" fill="#2c3e50"/>
+  <text x="250" y="28" text-anchor="middle" fill="white" font-size="18" font-family="Arial, sans-serif" font-weight="bold">ИЗО · 7 КЛАСС</text>
+  
+  <!-- Основной заголовок урока -->
+  <text x="250" y="65" text-anchor="middle" fill="#2c3e50" font-size="24" font-family="Arial, sans-serif" font-weight="bold">Портрет и пейзаж</text>
+  <text x="250" y="85" text-anchor="middle" fill="#7f8c8d" font-size="16" font-family="Arial, sans-serif">Жанры живописи</text>
+  
+  <!-- Разделительная линия -->
+  <line x1="50" y1="95" x2="450" y2="95" stroke="#e67e22" stroke-width="3"/>
+  
+  <!-- Схема жанров -->
+  <rect x="50" y="110" width="400" height="40" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+  <text x="250" y="135" text-anchor="middle" fill="#2c3e50" font-size="16" font-family="Arial, sans-serif" font-weight="bold">Основные жанры живописи</text>
+  
+  <!-- Колонка портрета -->
+  <rect x="70" y="160" width="150" height="170" fill="#fff" stroke="#e67e22" stroke-width="2" rx="5"/>
+  <rect x="70" y="160" width="150" height="30" fill="#e67e22" rx="5 5 0 0"/>
+  <text x="145" y="180" text-anchor="middle" fill="white" font-size="16" font-family="Arial, sans-serif" font-weight="bold">Портрет</text>
+  
+  <!-- Иконка портрета -->
+  <circle cx="145" cy="210" r="15" fill="#e67e22"/>
+  <path d="M 125 240 Q 145 225 165 240" fill="none" stroke="#e67e22" stroke-width="3"/>
+  
+  <!-- Элементы портрета -->
+  <circle cx="145" cy="210" r="8" fill="#f39c12"/>
+  <text x="145" y="265" text-anchor="middle" fill="#2c3e50" font-size="12" font-family="Arial, sans-serif">Образ человека</text>
+  <text x="145" y="280" text-anchor="middle" fill="#2c3e50" font-size="12" font-family="Arial, sans-serif">Характер</text>
+  <text x="145" y="295" text-anchor="middle" fill="#2c3e50" font-size="12" font-family="Arial, sans-serif">Эмоции</text>
+  <text x="145" y="310" text-anchor="middle" fill="#2c3e50" font-size="12" font-family="Arial, sans-serif">Внутренний мир</text>
+  
+  <!-- Колонка пейзажа -->
+  <rect x="280" y="160" width="150" height="170" fill="#fff" stroke="#27ae60" stroke-width="2" rx="5"/>
+  <rect x="280" y="160" width="150" height="30" fill="#27ae60" rx="5 5 0 0"/>
+  <text x="355" y="180" text-anchor="middle" fill="white" font-size="16" font-family="Arial, sans-serif" font-weight="bold">Пейзаж</text>
+  
+  <!-- Иконка пейзажа -->
+  <circle cx="355" cy="215" r="12" fill="#f1c40f"/>
+  <path d="M 330 235 Q 355 220 380 235" fill="none" stroke="#27ae60" stroke-width="3"/>
+  <rect x="340" y="225" width="30" height="15" fill="#27ae60"/>
+  
+  <!-- Элементы пейзажа -->
+  <circle cx="355" cy="215" r="8" fill="#f39c12"/>
+  <text x="355" y="265" text-anchor="middle" fill="#2c3e50" font-size="12" font-family="Arial, sans-serif">Природа</text>
+  <text x="355" y="280" text-anchor="middle" fill="#2c3e50" font-size="12" font-family="Arial, sans-serif">Пейзажный вид</text>
+  <text x="355" y="295" text-anchor="middle" fill="#2c3e50" font-size="12" font-family="Arial, sans-serif">Погода</text>
+  <text x="355" y="310" text-anchor="middle" fill="#2c3e50" font-size="12" font-family="Arial, sans-serif">Сезонность</text>
+  
+  <!-- Связующая линия -->
+  <line x1="220" y1="245" x2="280" y2="245" stroke="#34495e" stroke-width="2" stroke-dasharray="5,5"/>
+  <circle cx="250" cy="245" r="5" fill="#34495e"/>
+  <text x="250" y="240" text-anchor="middle" fill="#34495e" font-size="10" font-family="Arial, sans-serif">и</text>
+  
+  <!-- Дополнительные элементы -->
+  <rect x="180" y="140" width="140" height="20" fill="#e74c3c" rx="10"/>
+  <text x="250" y="154" text-anchor="middle" fill="white" font-size="12" font-family="Arial, sans-serif">Основные жанры</text>
+  
+  <!-- Подписи -->
+  <text x="50" y="340" fill="#7f8c8d" font-size="10" font-family="Arial, sans-serif">7 класс · Искусство · Живопись</text>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="30" cy="50" r="5" fill="#e67e22"/>
+  <circle cx="470" cy="50" r="5" fill="#e67e22"/>
+  <circle cx="30" cy="330" r="5" fill="#e67e22"/>
+  <circle cx="470" cy="330" r="5" fill="#e67e22"/>
+  
+  <!-- Стрелки указания -->
+  <path d="M 145 200 L 145 190" stroke="#e67e22" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 355 205 L 355 195" stroke="#27ae60" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Определения -->
+  <rect x="50" y="340" width="100" height="10" fill="#e67e22"/>
+  <text x="150" y="349" fill="#2c3e50" font-size="10" font-family="Arial, sans-serif">Визуальное искусство</text>
+  
+  <rect x="250" y="340" width="100" height="10" fill="#27ae60"/>
+  <text x="350" y="349" fill="#2c3e50" font-size="10" font-family="Arial, sans-serif">Изобразительное искусство</text>
+  
+  <!-- Дополнительные иконки -->
+  <rect x="420" y="100" width="30" height="30" fill="#e67e22" rx="5"/>
+  <text x="435" y="120" text-anchor="middle" fill="white" font-size="20" font-family="Arial, sans-serif">7</text>
+  
+  <!-- Точки интереса -->
+  <circle cx="100" cy="120" r="3" fill="#e67e22"/>
+  <circle cx="400" cy="120" r="3" fill="#e67e22"/>
+  
+  <!-- Текстовые блоки с дополнительной информацией -->
+  <rect x="60" y="90" width="80" height="15" fill="#ecf0f1" stroke="#bdc3c7" rx="3"/>
+  <text x="100" y="101" text-anchor="middle" fill="#2c3e50" font-size="10" font-family="Arial, sans-serif">Жанр</text>
+  
+  <rect x="360" y="90" width="80" height="15" fill="#ecf0f1" stroke="#bdc3c7" rx="3"/>
+  <text x="400" y="101" text-anchor="middle" fill="#2c3e50" font-size="10" font-family="Arial, sans-serif">Композиция</text>
+  
+  <!-- Маркеры для списка -->
+  <circle cx="75" cy="175" r="2" fill="#e67e22"/>
+  <circle cx="75" cy="190" r="2" fill="#e67e22"/>
+  <circle cx="75" cy="205" r="2" fill="#e67e22"/>
+  <circle cx="75" cy="220" r="2" fill="#e67e22"/>
+  
+  <circle cx="285" cy="175" r="2" fill="#27ae60"/>
+  <circle cx="285" cy="190" r="2" fill="#27ae60"/>
+  <circle cx="285" cy="205" r="2" fill="#27ae60"/>
+  <circle cx="285" cy="220" r="2" fill="#27ae60"/>
+  
+  <!-- Дополнительные линии для структуры -->
+  <line x1="70" y1="210" x2="220" y2="210" stroke="#bdc3c7" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="280" y1="210" x2="430" y2="210" stroke="#bdc3c7" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- Фигурные элементы -->
+  <path d="M 145 245 L 135 255 L 155 255 Z" fill="#e67e22"/>
+  <path d="M 355 245 L 345 255 L 365 255 Z" fill="#27ae60"/>
+  
+  <!-- Указатели типа -->
+  <text x="145" y="250" text-anchor="middle" fill="#e67e22" font-size="10" font-family="Arial, sans-serif">портрет</text>
+  <text x="355" y="250" text-anchor="middle" fill="#27ae60" font-size="10" font-family="Arial, sans-serif">пейзаж</text>
+  
+  <!-- Определения терминов -->
+  <rect x="50" y="150" width="15" height="15" fill="#e67e22"/>
+  <text x="70" y="161" fill="#2c3e50" font-size="10" font-family="Arial, sans-serif">Живопись</text>
+  
+  <rect x="420" y="150" width="15" height="15" fill="#27ae60"/>
+  <text x="440" y="161" fill="#2c3e50" font-size="10" font-family="Arial, sans-serif">Изображение</text>
+  
+  <!-- Дополнительные текстовые элементы -->
+  <text x="250" y="115" text-anchor="middle" fill="#7f8c8d" font-size="10" font-family="Arial, sans-serif">Изучение жанров в искусстве</text>
+  
+  <!-- Схема классификации -->
+  <rect x="200" y="310" width="100" height="30" fill="#ecf0f1" stroke="#bdc3c7" rx="5"/>
+  <text x="250" y="330" text-anchor="middle" fill="#2c3e50" font-size="12" font-family="Arial, sans-serif">Классификация</text>
+  
+  <!-- Определения ключевых понятий -->
+  <text x="50" y="100" fill="#e67e22" font-size="10" font-family="Arial, sans-serif">Портрет</text>
+  <text x="420" y="100" fill="#27ae60" font-size="10" font-family="Arial, sans-serif">Пейзаж</text>
+  
+  <!-- Дополнительные элементы оформления -->
+  <path d="M 50 340 Q 30 320 50 300" fill="none" stroke="#e67e22" stroke-width="1"/>
+  <path d="M 450 340 Q 470 320 450 300" fill="none" stroke="#27ae60" stroke-width="1"/>
+  
+  <!-- Стрелка для определения -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#34495e"/>
+    </marker>
+  </defs>
+</svg>
