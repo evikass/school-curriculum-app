@@ -1,0 +1,131 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">ТЕХНОЛОГИЯ · 7 КЛАСС</text>
+  
+  <!-- Название урока -->
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#34495e">Этапы проекта</text>
+  
+  <!-- Основной контейнер для схемы -->
+  <rect x="30" y="80" width="440" height="250" fill="white" stroke="#7f8c8d" stroke-width="2" rx="10"/>
+  
+  <!-- Линия процесса -->
+  <line x1="60" y1="210" x2="440" y2="210" stroke="#7f8c8d" stroke-width="3" stroke-dasharray="5,3"/>
+  
+  <!-- Этап 1: Постановка цели -->
+  <circle cx="100" cy="210" r="35" fill="#ecf0f1" stroke="#7f8c8d" stroke-width="2"/>
+  <text x="100" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">1</text>
+  
+  <!-- Стрелка 1->2 -->
+  <path d="M 135 210 L 165 210" stroke="#7f8c8d" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Этап 2: Планирование -->
+  <circle cx="200" cy="210" r="35" fill="#ecf0f1" stroke="#7f8c8d" stroke-width="2"/>
+  <text x="200" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">2</text>
+  
+  <!-- Стрелка 2->3 -->
+  <path d="M 235 210 L 265 210" stroke="#7f8c8d" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Этап 3: Разработка -->
+  <circle cx="300" cy="210" r="35" fill="#ecf0f1" stroke="#7f8c8d" stroke-width="2"/>
+  <text x="300" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">3</text>
+  
+  <!-- Стрелка 3->4 -->
+  <path d="M 335 210 L 365 210" stroke="#7f8c8d" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Этап 4: Оценка -->
+  <circle cx="400" cy="210" r="35" fill="#ecf0f1" stroke="#7f8c8d" stroke-width="2"/>
+  <text x="400" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">4</text>
+  
+  <!-- Определения этапов -->
+  <text x="100" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#34495e">Постановка цели</text>
+  <text x="100" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Определение проблемы</text>
+  
+  <text x="200" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#34495e">Планирование</text>
+  <text x="200" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Составление плана</text>
+  
+  <text x="300" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#34495e">Разработка</text>
+  <text x="300" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Создание продукта</text>
+  
+  <text x="400" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#34495e">Оценка</text>
+  <text x="400" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Анализ результатов</text>
+  
+  <!-- Иконки этапов -->
+  <!-- Иконка цели -->
+  <circle cx="100" cy="140" r="8" fill="#7f8c8d"/>
+  <line x1="100" y1="140" x2="100" y2="125" stroke="#7f8c8d" stroke-width="2"/>
+  <line x1="100" y1="140" x2="115" y2="135" stroke="#7f8c8d" stroke-width="2"/>
+  <line x1="100" y1="140" x2="85" y2="135" stroke="#7f8c8d" stroke-width="2"/>
+  <line x1="100" y1="140" x2="105" y2="155" stroke="#7f8c8d" stroke-width="2"/>
+  <line x1="100" y1="140" x2="95" y2="155" stroke="#7f8c8d" stroke-width="2"/>
+  
+  <!-- Иконка плана -->
+  <rect x="192" y="132" width="16" height="16" fill="none" stroke="#7f8c8d" stroke-width="2"/>
+  <line x1="195" y1="136" x2="205" y2="136" stroke="#7f8c8d" stroke-width="1"/>
+  <line x1="195" y1="140" x2="205" y2="140" stroke="#7f8c8d" stroke-width="1"/>
+  <line x1="195" y1="144" x2="205" y2="144" stroke="#7f8c8d" stroke-width="1"/>
+  
+  <!-- Иконка разработки -->
+  <circle cx="300" cy="140" r="12" fill="none" stroke="#7f8c8d" stroke-width="2"/>
+  <path d="M 294 140 L 300 134 L 306 140" stroke="#7f8c8d" stroke-width="2" fill="none"/>
+  <line x1="300" y1="134" x2="300" y2="128" stroke="#7f8c8d" stroke-width="2"/>
+  
+  <!-- Иконка оценки -->
+  <polygon points="388,132 412,132 400,148" fill="none" stroke="#7f8c8d" stroke-width="2"/>
+  <line x1="392" y1="136" x2="408" y2="136" stroke="#7f8c8d" stroke-width="1"/>
+  <line x1="394" y1="140" x2="406" y2="140" stroke="#7f8c8d" stroke-width="1"/>
+  <line x1="396" y1="144" x2="404" y2="144" stroke="#7f8c8d" stroke-width="1"/>
+  
+  <!-- Дополнительные элементы -->
+  <!-- Контейнер для процесса -->
+  <rect x="60" y="100" width="380" height="30" fill="#ecf0f1" stroke="#7f8c8d" stroke-width="1" rx="5"/>
+  <text x="250" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#34495e" font-weight="bold">Проектная деятельность</text>
+  
+  <!-- Ключевые понятия -->
+  <text x="40" y="340" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Ключевые понятия: проект, этап, цель, план, результат</text>
+  
+  <!-- Дополнительные детали -->
+  <!-- Вспомогательные линии -->
+  <line x1="100" y1="175" x2="100" y2="145" stroke="#7f8c8d" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="200" y1="175" x2="200" y2="150" stroke="#7f8c8d" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="300" y1="175" x2="300" y2="150" stroke="#7f8c8d" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="400" y1="175" x2="400" y2="150" stroke="#7f8c8d" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- Маркер стрелки -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#7f8c8d"/>
+    </marker>
+  </defs>
+  
+  <!-- Дополнительные элементы для увеличения размера -->
+  <!-- Текстовые блоки с информацией -->
+  <rect x="50" y="290" width="400" height="40" fill="#f8f9fa" stroke="#7f8c8d" stroke-width="1" rx="5"/>
+  <text x="60" y="305" font-family="Arial, sans-serif" font-size="11" fill="#34495e">Проект:</text>
+  <text x="60" y="318" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Преднамеренная деятельность, направленная на достижение конкретных целей</text>
+  
+  <!-- Дополнительные иконки и символы -->
+  <circle cx="70" cy="110" r="3" fill="#7f8c8d"/>
+  <circle cx="80" cy="110" r="3" fill="#7f8c8d"/>
+  <circle cx="90" cy="110" r="3" fill="#7f8c8d"/>
+  
+  <rect x="420" y="105" width="15" height="10" fill="none" stroke="#7f8c8d" stroke-width="1"/>
+  <line x1="423" y1="108" x2="432" y2="108" stroke="#7f8c8d" stroke-width="1"/>
+  <line x1="423" y1="111" x2="432" y2="111" stroke="#7f8c8d" stroke-width="1"/>
+  <line x1="423" y1="114" x2="432" y2="114" stroke="#7f8c8d" stroke-width="1"/>
+  
+  <!-- Дополнительные текстовые элементы -->
+  <text x="250" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d" font-style="italic">Всего этапов: 4</text>
+  
+  <!-- Разделительные линии -->
+  <line x1="30" y1="70" x2="470" y2="70" stroke="#7f8c8d" stroke-width="1"/>
+  <line x1="30" y1="340" x2="470" y2="340" stroke="#7f8c8d" stroke-width="1"/>
+  
+  <!-- Угловые элементы -->
+  <path d="M 30 80 L 40 80 L 30 90" fill="none" stroke="#7f8c8d" stroke-width="2"/>
+  <path d="M 470 80 L 460 80 L 470 90" fill="none" stroke="#7f8c8d" stroke-width="2"/>
+  <path d="M 30 330 L 40 330 L 30 320" fill="none" stroke="#7f8c8d" stroke-width="2"/>
+  <path d="M 470 330 L 460 330 L 470 320" fill="none" stroke="#7f8c8d" stroke-width="2"/>
+</svg>
