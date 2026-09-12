@@ -1,0 +1,105 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновые элементы -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  <rect x="0" y="0" width="500" height="60" fill="#2c3e50"/>
+  
+  <!-- Заголовок класса -->
+  <text x="250" y="35" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="20" font-weight="bold">ОБЩЕСТВОЗНАНИЕ · 7 КЛАСС</text>
+  
+  <!-- Основной контейнер -->
+  <rect x="20" y="70" width="460" height="260" fill="white" stroke="#e74c3c" stroke-width="2" rx="10"/>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Что такое политика</text>
+  <text x="250" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Политика и власть</text>
+  
+  <!-- Иконка власти -->
+  <circle cx="80" cy="150" r="25" fill="#e74c3c"/>
+  <path d="M80,135 L80,165 M70,150 L90,150 M65,160 L95,160" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Текст о власти -->
+  <text x="120" y="145" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">ВЛАСТЬ —</text>
+  <text x="120" y="165" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">возможность</text>
+  <text x="120" y="180" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">воздействия</text>
+  
+  <!-- Иконка политики -->
+  <rect x="55" y="200" width="50" height="30" fill="#e74c3c" rx="5"/>
+  <path d="M65,210 L85,210 M65,215 L75,215 M75,215 L85,215" stroke="white" stroke-width="2"/>
+  
+  <!-- Текст о политике -->
+  <text x="120" y="215" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">ПОЛИТИКА —</text>
+  <text x="120" y="235" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">деятельность</text>
+  <text x="120" y="250" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">по власти</text>
+  
+  <!-- Схема власти -->
+  <circle cx="300" cy="160" r="40" fill="none" stroke="#e74c3c" stroke-width="2"/>
+  <circle cx="300" cy="160" r="5" fill="#e74c3c"/>
+  <text x="300" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">ВЛАСТЬ</text>
+  
+  <!-- Лучи от центра -->
+  <line x1="300" y1="160" x2="340" y2="120" stroke="#e74c3c" stroke-width="2"/>
+  <line x1="300" y1="160" x2="360" y2="160" stroke="#e74c3c" stroke-width="2"/>
+  <line x1="300" y1="160" x2="340" y2="200" stroke="#e74c3c" stroke-width="2"/>
+  <line x1="300" y1="160" x2="260" y2="200" stroke="#e74c3c" stroke-width="2"/>
+  <line x1="300" y1="160" x2="240" y2="160" stroke="#e74c3c" stroke-width="2"/>
+  <line x1="300" y1="160" x2="260" y2="120" stroke="#e74c3c" stroke-width="2"/>
+  
+  <!-- Элементы на лучах -->
+  <circle cx="340" cy="120" r="15" fill="#e74c3c"/>
+  <text x="340" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Гос</text>
+  <text x="340" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Государство</text>
+  
+  <circle cx="360" cy="160" r="15" fill="#e74c3c"/>
+  <text x="360" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Закон</text>
+  <text x="380" y="165" text-anchor="start" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Законы</text>
+  
+  <circle cx="340" cy="200" r="15" fill="#e74c3c"/>
+  <text x="340" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Общ</text>
+  <text x="340" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Общество</text>
+  
+  <circle cx="260" cy="200" r="15" fill="#e74c3c"/>
+  <text x="260" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Экон</text>
+  <text x="260" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Экономика</text>
+  
+  <circle cx="240" cy="160" r="15" fill="#e74c3c"/>
+  <text x="240" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Пол</text>
+  <text x="210" y="165" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Политические</text>
+  <text x="210" y="180" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">институты</text>
+  
+  <circle cx="260" cy="120" r="15" fill="#e74c3c"/>
+  <text x="260" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Иде</text>
+  <text x="260" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Идеология</text>
+  
+  <!-- Разделитель -->
+  <line x1="20" y1="260" x2="480" y2="260" stroke="#e74c3c" stroke-width="1"/>
+  
+  <!-- Ключевые понятия -->
+  <text x="30" y="285" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Ключевые понятия:</text>
+  
+  <rect x="30" y="295" width="80" height="20" fill="#e74c3c" rx="3"/>
+  <text x="70" y="309" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Суверенитет</text>
+  
+  <rect x="120" y="295" width="80" height="20" fill="#3498db" rx="3"/>
+  <text x="160" y="309" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Демократия</text>
+  
+  <rect x="210" y="295" width="80" height="20" fill="#2ecc71" rx="3"/>
+  <text x="250" y="309" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Республика</text>
+  
+  <rect x="300" y="295" width="80" height="20" fill="#f39c12" rx="3"/>
+  <text x="340" y="309" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Монархия</text>
+  
+  <rect x="390" y="295" width="80" height="20" fill="#9b59b6" rx="3"/>
+  <text x="430" y="309" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Федерация</text>
+  
+  <!-- Дополнительные элементы декора -->
+  <path d="M30,80 Q50,70 70,80" fill="none" stroke="#e74c3c" stroke-width="2"/>
+  <path d="M430,80 Q450,70 470,80" fill="none" stroke="#e74c3c" stroke-width="2"/>
+  
+  <!-- Малые иконки -->
+  <circle cx="50" cy="170" r="3" fill="#e74c3c"/>
+  <circle cx="450" cy="170" r="3" fill="#e74c3c"/>
+  <circle cx="50" cy="190" r="3" fill="#e74c3c"/>
+  <circle cx="450" cy="190" r="3" fill="#e74c3c"/>
+  <circle cx="50" cy="210" r="3" fill="#e74c3c"/>
+  <circle cx="450" cy="210" r="3" fill="#e74c3c"/>
+</svg>
