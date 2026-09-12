@@ -1,0 +1,160 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">ГЕОГРАФИЯ · 7 КЛАСС</text>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="45" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#27ae60">Население Земли</text>
+  
+  <!-- Линия под заголовком -->
+  <line x1="150" y1="55" x2="350" y2="55" stroke="#27ae60" stroke-width="2"/>
+  
+  <!-- Карта мира (упрощенная) -->
+  <g id="world-map">
+    <!-- Континенты -->
+    <path d="M80 120 Q100 110 120 115 L130 130 Q125 140 115 145 L95 142 Q85 135 80 120" fill="#3498db" opacity="0.7"/>
+    <path d="M180 110 Q200 105 220 115 L225 130 Q220 140 210 145 L190 142 Q180 135 180 110" fill="#3498db" opacity="0.7"/>
+    <path d="M280 125 Q300 120 320 125 L325 140 Q320 150 310 155 L290 152 Q280 145 280 125" fill="#3498db" opacity="0.7"/>
+    <path d="M150 180 Q170 175 190 180 L195 195 Q190 205 180 210 L160 207 Q150 200 150 180" fill="#3498db" opacity="0.7"/>
+    <path d="M250 190 Q270 185 290 190 L295 205 Q290 215 280 220 L260 217 Q250 210 250 190" fill="#3498db" opacity="0.7"/>
+  </g>
+  
+  <!-- Миграции населения (стрелки) -->
+  <g id="migrations">
+    <!-- Стрелка 1 -->
+    <line x1="110" y1="120" x2="190" y2="130" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="150" y="125" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">миграция</text>
+    
+    <!-- Стрелка 2 -->
+    <line x1="220" y1="140" x2="280" y2="150" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="250" y="145" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">миграция</text>
+  </g>
+  
+  <!-- Определение стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e74c3c"/>
+    </marker>
+  </defs>
+  
+  <!-- Демографическая пирамида -->
+  <g id="demographic-pyramid" transform="translate(400, 100)">
+    <!-- Оси -->
+    <line x1="0" y1="0" x2="0" y2="100" stroke="#2c3e50" stroke-width="1"/>
+    <line x1="-30" y1="100" x2="30" y2="100" stroke="#2c3e50" stroke-width="1"/>
+    
+    <!-- Мужчины (слева) -->
+    <rect x="-25" y="10" width="15" height="15" fill="#3498db"/>
+    <rect x="-25" y="30" width="20" height="15" fill="#3498db"/>
+    <rect x="-25" y="50" width="25" height="15" fill="#3498db"/>
+    <rect x="-25" y="70" width="20" height="15" fill="#3498db"/>
+    <rect x="-25" y="90" width="10" height="10" fill="#3498db"/>
+    
+    <!-- Женщины (справа) -->
+    <rect x="10" y="10" width="15" height="15" fill="#e74c3c"/>
+    <rect x="10" y="30" width="20" height="15" fill="#e74c3c"/>
+    <rect x="10" y="50" width="25" height="15" fill="#e74c3c"/>
+    <rect x="10" y="70" width="20" height="15" fill="#e74c3c"/>
+    <rect x="10" y="90" width="10" height="10" fill="#e74c3c"/>
+    
+    <!-- Подписи -->
+    <text x="-15" y="120" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">М</text>
+    <text x="15" y="120" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Ж</text>
+    <text x="0" y="135" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2c3e50">возраст</text>
+  </g>
+  
+  <!-- График роста населения -->
+  <g id="population-growth" transform="translate(50, 250)">
+    <!-- Оси -->
+    <line x1="0" y1="0" x2="0" y2="60" stroke="#2c3e50" stroke-width="1"/>
+    <line x1="0" y1="60" x2="150" y2="60" stroke="#2c3e50" stroke-width="1"/>
+    
+    <!-- График -->
+    <polyline points="0,50 30,45 60,35 90,20 120,5" fill="none" stroke="#27ae60" stroke-width="2"/>
+    
+    <!-- Точки данных -->
+    <circle cx="0" cy="50" r="3" fill="#27ae60"/>
+    <circle cx="30" cy="45" r="3" fill="#27ae60"/>
+    <circle cx="60" cy="35" r="3" fill="#27ae60"/>
+    <circle cx="90" cy="20" r="3" fill="#27ae60"/>
+    <circle cx="120" cy="5" r="3" fill="#27ae60"/>
+    
+    <!-- Подписи осей -->
+    <text x="-5" y="70" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2c3e50">1800</text>
+    <text x="30" y="70" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2c3e50">1900</text>
+    <text x="60" y="70" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2c3e50">1950</text>
+    <text x="90" y="70" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2c3e50">1980</text>
+    <text x="120" y="70" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2c3e50">2020</text>
+    
+    <text x="-15" y="30" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2c3e50" transform="rotate(-90 -15 30)">млрд</text>
+    <text x="75" y="80" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#27ae60">Рост населения</text>
+  </g>
+  
+  <!-- Ключевые понятия -->
+  <g id="key-concepts">
+    <!-- Плотность населения -->
+    <rect x="250" y="250" width="200" height="80" fill="#ecf0f1" stroke="#27ae60" stroke-width="1" rx="5"/>
+    <text x="350" y="270" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#27ae60">Плотность населения</text>
+    <text x="350" y="290" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">число человек на 1 км²</text>
+    <text x="350" y="310" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">В среднем: 56 чел/км²</text>
+  </g>
+  
+  <!-- Индикаторы -->
+  <g id="indicators">
+    <!-- Городское население -->
+    <circle cx="30" cy="120" r="8" fill="#27ae60"/>
+    <text x="45" y="125" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Городское население: 55%</text>
+    
+    <!-- Сельское население -->
+    <circle cx="30" cy="140" r="8" fill="#3498db"/>
+    <text x="45" y="145" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Сельское население: 45%</text>
+    
+    <!-- Общая численность -->
+    <rect x="30" y="160" width="16" height="16" fill="#e74c3c"/>
+    <text x="55" y="172" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Общая численность: 7.9 млрд</text>
+  </g>
+  
+  <!-- Регионы с высокой плотностью -->
+  <g id="high-density-regions">
+    <rect x="210" y="110" width="50" height="50" fill="#f1c40f" opacity="0.5"/>
+    <text x="235" y="135" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2c3e50">Высокая</text>
+    <text x="235" y="145" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2c3e50">плотность</text>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <!-- График урбанизации -->
+  <g id="urbanization" transform="translate(300, 280)">
+    <rect x="0" y="0" width="40" height="40" fill="#ecf0f1" stroke="#27ae60" stroke-width="1"/>
+    <rect x="5" y="30" width="10" height="10" fill="#27ae60"/>
+    <rect x="25" y="10" width="10" height="30" fill="#27ae60"/>
+    <text x="20" y="50" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2c3e50">урбанизация</text>
+  </g>
+  
+  <!-- Демографический переход -->
+  <g id="demographic-transition" transform="translate(150, 100)">
+    <rect x="0" y="0" width="120" height="40" fill="#ecf0f1" stroke="#27ae60" stroke-width="1" rx="5"/>
+    <text x="60" y="15" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Демографический</text>
+    <text x="60" y="28" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">переход</text>
+  </g>
+  
+  <!-- Иконки -->
+  <!-- Семья -->
+  <g id="family" transform="translate(30, 70)">
+    <circle cx="10" cy="10" r="5" fill="#27ae60"/>
+    <circle cx="20" cy="10" r="5" fill="#27ae60"/>
+    <circle cx="15" cy="5" r="5" fill="#27ae60"/>
+    <path d="M10,15 L10,20 M20,15 L20,20 M15,15 L15,20" stroke="#27ae60" stroke-width="2"/>
+  </g>
+  
+  <!-- Город -->
+  <g id="city" transform="translate(80, 70)">
+    <rect x="0" y="10" width="10" height="15" fill="#3498db"/>
+    <rect x="12" y="5" width="10" height="20" fill="#3498db"/>
+    <rect x="24" y="8" width="10" height="17" fill="#3498db"/>
+  </g>
+  
+  <!-- Статистика -->
+  <text x="250" y="340" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7f8c8d">Источник: ООН, 2023</text>
+</svg>
