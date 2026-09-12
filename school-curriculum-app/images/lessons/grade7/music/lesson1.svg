@@ -1,0 +1,94 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f9f9f9"/>
+  
+  <!-- Заголовок класса -->
+  <rect x="0" y="0" width="500" height="40" fill="#9b59b6"/>
+  <text x="250" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">МУЗЫКА · 7 КЛАСС</text>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333">Жанры вокальной музыки</text>
+  
+  <!-- Основной контейнер для схемы -->
+  <rect x="50" y="90" width="400" height="240" fill="#fff" stroke="#9b59b6" stroke-width="2" rx="10"/>
+  
+  <!-- Центральный узел "Вокальная музыка" -->
+  <circle cx="250" cy="150" r="40" fill="#9b59b6"/>
+  <text x="250" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Вокальная</text>
+  <text x="250" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">музыка</text>
+  
+  <!-- Линии к жанрам -->
+  <line x1="250" y1="190" x2="150" y2="230" stroke="#9b59b6" stroke-width="2"/>
+  <line x1="250" y1="190" x2="250" y2="230" stroke="#9b59b6" stroke-width="2"/>
+  <line x1="250" y1="190" x2="350" y2="230" stroke="#9b59b6" stroke-width="2"/>
+  
+  <!-- Жанр 1: Романс -->
+  <rect x="80" y="230" width="140" height="80" fill="#e8d5f2" stroke="#9b59b6" stroke-width="2" rx="5"/>
+  <text x="150" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">Романс</text>
+  <text x="150" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#555">Камерный жанр</text>
+  <text x="150" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#555">лирического содержания</text>
+  <text x="150" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#555">с аккомпанементом</text>
+  
+  <!-- Жанр 2: Ария -->
+  <rect x="180" y="230" width="140" height="80" fill="#e8d5f2" stroke="#9b59b6" stroke-width="2" rx="5"/>
+  <text x="250" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">Ария</text>
+  <text x="250" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#555">Сольная песня</text>
+  <text x="250" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#555">в опере</text>
+  <text x="250" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#555">кантате</text>
+  
+  <!-- Жанр 3: Хоровая музыка -->
+  <rect x="280" y="230" width="140" height="80" fill="#e8d5f2" stroke="#9b59b6" stroke-width="2" rx="5"/>
+  <text x="350" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">Хоровая</text>
+  <text x="350" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">музыка</text>
+  <text x="350" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#555">Коллективное</text>
+  <text x="350" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#555">исполнение</text>
+  
+  <!-- Иконка микрофона -->
+  <path d="M 30 140 L 30 170 L 40 180 L 50 170 L 50 140 C 50 130 40 130 30 140 Z" fill="#9b59b6"/>
+  <rect x="35" y="180" width="10" height="20" fill="#9b59b6"/>
+  <rect x="30" y="200" width="20" height="5" fill="#9b59b6"/>
+  
+  <!-- Иконка ноты -->
+  <ellipse cx="470" cy="150" rx="8" ry="6" fill="#9b59b6" transform="rotate(-20 470 150)"/>
+  <rect x="478" y="130" width="3" height="25" fill="#9b59b6"/>
+  <path d="M 481 130 Q 485 135 485 140" stroke="#9b59b6" stroke-width="2" fill="none"/>
+  
+  <!-- Иконка хора -->
+  <circle cx="470" cy="220" r="5" fill="#9b59b6"/>
+  <circle cx="460" cy="225" r="5" fill="#9b59b6"/>
+  <circle cx="480" cy="225" r="5" fill="#9b59b6"/>
+  <path d="M 465 225 L 465 235" stroke="#9b59b6" stroke-width="2"/>
+  <path d="M 470 225 L 470 235" stroke="#9b59b6" stroke-width="2"/>
+  <path d="M 475 225 L 475 235" stroke="#9b59b6" stroke-width="2"/>
+  
+  <!-- Дополнительные элементы -->
+  <line x1="30" y1="140" x2="50" y2="150" stroke="#9b59b6" stroke-width="1"/>
+  <line x1="470" y1="130" x2="470" y2="110" stroke="#9b59b6" stroke-width="1"/>
+  
+  <!-- Подписи для форм -->
+  <text x="100" y="330" font-family="Arial, sans-serif" font-size="11" fill="#666">Форма: куплет-припев</text>
+  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#666">Форма: рондо</text>
+  <text x="380" y="330" font-family="Arial, sans-serif" font-size="11" fill="#666">Форма: фуга</text>
+  
+  <!-- Разделительные линии -->
+  <line x1="70" y1="320" x2="170" y2="320" stroke="#9b59b6" stroke-width="1"/>
+  <line x1="220" y1="320" x2="320" y2="320" stroke="#9b59b6" stroke-width="1"/>
+  <line x1="370" y1="320" x2="470" y2="320" stroke="#9b59b6" stroke-width="1"/>
+  
+  <!-- Дополнительные круги для украшения -->
+  <circle cx="100" cy="120" r="3" fill="#9b59b6" opacity="0.5"/>
+  <circle cx="400" cy="120" r="3" fill="#9b59b6" opacity="0.5"/>
+  <circle cx="120" cy="200" r="3" fill="#9b59b6" opacity="0.5"/>
+  <circle cx="380" cy="200" r="3" fill="#9b59b6" opacity="0.5"/>
+  
+  <!-- Текстовые элементы для пояснений -->
+  <text x="150" y="110" font-family="Arial, sans-serif" font-size="10" fill="#666">лирика</text>
+  <text x="250" y="110" font-family="Arial, sans-serif" font-size="10" fill="#666">драма</text>
+  <text x="350" y="110" font-family="Arial, sans-serif" font-size="10" fill="#666">эпос</text>
+  
+  <!-- Угловые элементы -->
+  <path d="M 60 100 L 70 100 L 70 110" stroke="#9b59b6" stroke-width="2" fill="none"/>
+  <path d="M 440 100 L 430 100 L 430 110" stroke="#9b59b6" stroke-width="2" fill="none"/>
+  <path d="M 60 320 L 70 320 L 70 310" stroke="#9b59b6" stroke-width="2" fill="none"/>
+  <path d="M 440 320 L 430 320 L 430 310" stroke="#9b59b6" stroke-width="2" fill="none"/>
+</svg>
