@@ -1,0 +1,161 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый элемент -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">ГЕОГРАФИЯ · 7 КЛАСС</text>
+  
+  <!-- Название урока -->
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#34495e">Географическое положение и рельеф Африки</text>
+  
+  <!-- Контур Африки -->
+  <path d="M 120 100 Q 140 95, 160 95 Q 180 90, 200 95 Q 220 100, 240 105 Q 260 110, 280 120 Q 300 130, 320 140 Q 340 150, 360 165 Q 380 180, 390 200 Q 395 220, 390 240 Q 385 260, 370 275 Q 350 290, 330 295 Q 310 300, 290 295 Q 270 290, 250 280 Q 230 270, 210 255 Q 190 240, 175 220 Q 160 200, 150 180 Q 140 160, 130 140 Q 120 120, 120 100" fill="#ecf0f1" stroke="#34495e" stroke-width="2"/>
+  
+  <!-- Солнце -->
+  <circle cx="420" cy="100" r="25" fill="#f39c12"/>
+  <g stroke="#f39c12" stroke-width="2">
+    <line x1="420" y1="60" x2="420" y2="75"/>
+    <line x1="420" y1="125" x2="420" y2="140"/>
+    <line x1="380" y1="100" x2="395" y2="100"/>
+    <line x1="445" y1="100" x2="460" y2="100"/>
+    <line x1="395" y1="75" x2="405" y2="85"/>
+    <line x1="435" y1="115" x2="445" y2="125"/>
+    <line x1="445" y1="75" x2="435" y2="85"/>
+    <line x1="405" y1="115" x2="395" y2="125"/>
+  </g>
+  
+  <!-- Экватор -->
+  <line x1="80" y1="190" x2="420" y2="190" stroke="#27ae60" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="430" y="195" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">Экватор</text>
+  
+  <!-- Тропик Рака -->
+  <line x1="80" y1="130" x2="420" y2="130" stroke="#3498db" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <text x="430" y="135" font-family="Arial, sans-serif" font-size="12" fill="#3498db">Тропик Рака</text>
+  
+  <!-- Тропик Козерога -->
+  <line x1="80" y1="250" x2="420" y2="250" stroke="#3498db" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <text x="430" y="255" font-family="Arial, sans-serif" font-size="12" fill="#3498db">Тропик Козерога</text>
+  
+  <!-- Гора Килиманджаро -->
+  <path d="M 350 180 L 360 160 L 370 180 Z" fill="#95a5a6"/>
+  <rect x="355" y="180" width="10" height="15" fill="#7f8c8d"/>
+  <circle cx="360" cy="160" r="3" fill="#e74c3c"/>
+  <text x="375" y="175" font-family="Arial, sans-serif" font-size="10" fill="#34495e">Килиманджаро</text>
+  
+  <!-- Сахара -->
+  <rect x="160" y="90" width="120" height="60" fill="#f4d03f" opacity="0.6"/>
+  <text x="220" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#8b6914">Сахара</text>
+  
+  <!-- Сахель -->
+  <rect x="160" y="150" width="120" height="30" fill="#f7dc6f" opacity="0.6"/>
+  <text x="220" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#8b6914">Сахель</text>
+  
+  <!-- Саванна -->
+  <rect x="160" y="180" width="120" height="60" fill="#27ae60" opacity="0.3"/>
+  <text x="220" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">Саванна</text>
+  
+  <!-- Тропические леса -->
+  <rect x="200" y="240" width="100" height="60" fill="#229954" opacity="0.5"/>
+  <text x="250" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#145a32">Тропические леса</text>
+  
+  <!-- Пустыня Калахари -->
+  <rect x="250" y="200" width="80" height="50" fill="#f8c471" opacity="0.6"/>
+  <text x="290" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#8b6914">Калахари</text>
+  
+  <!-- Нил -->
+  <path d="M 280 100 Q 270 150, 260 200 Q 250 250, 240 290" fill="none" stroke="#3498db" stroke-width="2"/>
+  <text x="285" y="105" font-family="Arial, sans-serif" font-size="10" fill="#3498db">Нил</text>
+  
+  <!-- Конго -->
+  <path d="M 280 220 Q 300 210, 320 220 Q 310 230, 300 240 Q 290 230, 280 220" fill="none" stroke="#2980b9" stroke-width="2"/>
+  <text x="305" y="225" font-family="Arial, sans-serif" font-size="10" fill="#2980b9">Конго</text>
+  
+  <!-- Нигер -->
+  <path d="M 200 180 Q 210 190, 220 200 Q 210 210, 200 220" fill="none" stroke="#3498db" stroke-width="1.5"/>
+  <text x="205" y="175" font-family="Arial, sans-serif" font-size="10" fill="#3498db">Нигер</text>
+  
+  <!-- Река Замбези -->
+  <path d="M 320 240 Q 330 250, 340 260" fill="none" stroke="#2980b9" stroke-width="1.5"/>
+  <text x="325" y="235" font-family="Arial, sans-serif" font-size="10" fill="#2980b9">Замбези</text>
+  
+  <!-- Виктория водопад -->
+  <rect x="330" y="255" width="8" height="15" fill="#3498db"/>
+  <text x="340" y="265" font-family="Arial, sans-serif" font-size="9" fill="#2980b9">Виктория</text>
+  
+  <!-- Дельта Нила -->
+  <path d="M 240 290 L 250 300 L 260 290 L 250 280 Z" fill="#3498db" opacity="0.6"/>
+  <text x="270" y="295" font-family="Arial, sans-serif" font-size="9" fill="#3498db">Дельта Нила</text>
+  
+  <!-- Географическая схема -->
+  <rect x="30" y="300" width="440" height="40" fill="#ecf0f1" stroke="#34495e" stroke-width="1"/>
+  <text x="40" y="315" font-family="Arial, sans-serif" font-size="11" fill="#34495e">Положение:</text>
+  <text x="40" y="330" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Север: 37° с.ш. Юж: 35° ю.ш. Восток: 52° в.д. Запад: 18° з.д.</text>
+  
+  <!-- Указатель масштаба -->
+  <line x1="380" y1="320" x2="420" y2="320" stroke="#34495e" stroke-width="2"/>
+  <line x1="380" y1="315" x2="380" y2="325" stroke="#34495e" stroke-width="2"/>
+  <line x1="420" y1="315" x2="420" y2="325" stroke="#34495e" stroke-width="2"/>
+  <text x="400" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#34495е">1000 км</text>
+  
+  <!-- Значок высоты -->
+  <rect x="50" y="80" width="15" height="20" fill="#7f8c8d"/>
+  <rect x="45" y="70" width="25" height="10" fill="#95a5a6"/>
+  <text x="80" y="85" font-family="Arial, sans-serif" font-size="10" fill="#34495e">Высокогорье</text>
+  
+  <!-- Значок низменности -->
+  <rect x="50" y="110" width="25" height="5" fill="#bdc3c7"/>
+  <text x="80" y="115" font-family="Arial, sans-serif" font-size="10" fill="#34495e">Низменность</text>
+  
+  <!-- Значок плато -->
+  <path d="M 50 140 L 75 140 L 75 130 L 75 140 L 50 140" fill="#95a5a6"/>
+  <text x="80" y="135" font-family="Arial, sans-serif" font-size="10" fill="#34495e">Плато</text>
+  
+  <!-- Столбец рельефа -->
+  <text x="30" y="250" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#34495e">Рельеф:</text>
+  <rect x="30" y="260" width="10" height="10" fill="#7f8c8d"/>
+  <text x="45" y="270" font-family="Arial, sans-serif" font-size="10" fill="#34495e">Восточная Африка: Эфиопское нагорье, Восточно-Африканское плоскогорье</text>
+  <rect x="30" y="280" width="10" height="10" fill="#95a5a6"/>
+  <text x="45" y="290" font-family="Arial, sans-serif" font-size="10" fill="#34495е">Западная Африка: Западно-Африканская равнина, плато</text>
+  
+  <!-- Компас -->
+  <circle cx="450" cy="300" r="15" fill="none" stroke="#34495e" stroke-width="1"/>
+  <line x1="450" y1="285" x2="450" y2="315" stroke="#34495e" stroke-width="1"/>
+  <line x1="435" y1="300" x2="465" y2="300" stroke="#34495e" stroke-width="1"/>
+  <text x="450" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">С</text>
+  <text x="465" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#34495e">В</text>
+  <text x="450" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#34495e">Ю</text>
+  <text x="435" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#34495e">З</text>
+  
+  <!-- Дерево саванны -->
+  <rect x="180" y="200" width="3" height="15" fill="#7f8c8d"/>
+  <ellipse cx="181" cy="195" rx="8" ry="12" fill="#27ae60"/>
+  
+  <!-- Дерево тропического леса -->
+  <rect x="240" y="260" width="4" height="20" fill="#7f8c8d"/>
+  <ellipse cx="242" cy="255" rx="10" ry="15" fill="#229954"/>
+  
+  <!-- Куст пустыни -->
+  <circle cx="200" cy="110" r="5" fill="#f39c12"/>
+  <circle cx="205" cy="115" r="5" fill="#f39c12"/>
+  <circle cx="195" cy="115" r="5" fill="#f39c12"/>
+  
+  <!-- Облака -->
+  <ellipse cx="150" cy="80" rx="15" ry="8" fill="#bdc3c7" opacity="0.7"/>
+  <ellipse cx="165" cy="82" rx="20" ry="10" fill="#bdc3c7" opacity="0.7"/>
+  <ellipse cx="180" cy="80" rx="15" ry="8" fill="#bdc3c7" opacity="0.7"/>
+  
+  <!-- Границы климатических зон -->
+  <line x1="100" y1="150" x2="380" y2="150" stroke="#e74c3c" stroke-width="1" stroke-dasharray="2,2" opacity="0.5"/>
+  <line x1="100" y1="270" x2="380" y2="270" stroke="#e74c3c" stroke-width="1" stroke-dasharray="2,2" opacity="0.5"/>
+  
+  <!-- Пояса климата -->
+  <text x="100" y="140" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">Сухой климат</text>
+  <text x="100" y="160" font-family="Arial, sans-serif" font-size="10" fill="#27ae60">Влажный тропический</text>
+  <text x="100" y="280" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">Полусухой</text>
+  <text x="100" y="290" font-family="Arial, sans-serif" font-size="10" fill="#3498db">Влажный</text>
+  
+  <!-- Точка - максимальная высота -->
+  <circle cx="360" cy="160" r="3" fill="#e74c3c"/>
+  <line x1="360" y1="160" x2="380" y2="140" stroke="#e74c3c" stroke-width="1"/>
+  <text x="385" y="140" font-family="Arial, sans-serif" font-size="9" fill="#e74c3c">5895 м</text>
+</svg>
