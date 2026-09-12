@@ -1,60 +1,140 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
-<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
-<polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
-<polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
-<polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
-<polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
-<circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-<circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
-<circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
-<circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-<circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
-<circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
-<text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Environmental Problems</text>
-<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Английский язык - Урок 5</text>
-<line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
-<rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
-<rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
-
-  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5"/>
-  <text x="135" y="110" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" text-anchor="middle" font-weight="bold">Environmental Problems</text>
-  <!-- Speech bubbles -->
-  <ellipse cx="100" cy="155" rx="55" ry="25" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
-  <text x="100" y="152" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle">Hello!</text>
-  <text x="100" y="164" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle">How are you?</text>
-  <polygon points="120,175 130,195 110,175" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
-  <ellipse cx="175" cy="200" rx="45" ry="22" fill="#FFF3E0" stroke="#E65100" stroke-width="1.5"/>
-  <text x="175" y="197" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle">I am fine,</text>
-  <text x="175" y="208" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle">thank you!</text>
-  <!-- Vocabulary box -->
-  <rect x="45" y="230" width="180" height="45" rx="4" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
-  <text x="135" y="248" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Vocabulary: words</text>
-  <text x="135" y="262" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Grammar: tenses</text>
-
-  <rect x="260" y="90" width="215" height="200" rx="6" fill="white" stroke="#C62828" stroke-width="1.5"/>
-  <text x="367" y="115" font-family="Arial,sans-serif" font-size="12" fill="#C62828" text-anchor="middle" font-weight="bold">Grammar</text>
-  <!-- Tenses -->
-  <rect x="280" y="128" width="85" height="25" rx="3" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
-  <text x="322" y="145" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">Present Simple</text>
-  <rect x="375" y="128" width="85" height="25" rx="3" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
-  <text x="417" y="145" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle">Past Simple</text>
-  <rect x="280" y="160" width="85" height="25" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
-  <text x="322" y="177" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Future Simple</text>
-  <rect x="375" y="160" width="85" height="25" rx="3" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="1"/>
-  <text x="417" y="177" font-family="Arial,sans-serif" font-size="8" fill="#7B1FA2" text-anchor="middle">Continuous</text>
-  <!-- ABC -->
-  <text x="290" y="210" font-family="Arial,sans-serif" font-size="18" fill="#FF9800" font-weight="bold">A B C</text>
-  <text x="360" y="210" font-family="Arial,sans-serif" font-size="18" fill="#1565C0" font-weight="bold">D E F</text>
-  <!-- Big Ben -->
-  <rect x="300" y="225" width="30" height="55" rx="3" fill="#B0BEC5" stroke="#78909C" stroke-width="1"/>
-  <polygon points="300,225 315,210 330,225" fill="#1565C0"/>
-  <rect x="308" y="235" width="14" height="14" rx="1" fill="white" stroke="#333" stroke-width="1"/>
-  <line x1="315" y1="235" x2="315" y2="242" stroke="#333" stroke-width="1"/>
-  <line x1="315" y1="242" x2="319" y2="240" stroke="#333" stroke-width="1"/>
-  <text x="367" y="280" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Reading, Writing, Speaking</text>
-<rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
-<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Английский язык</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f0f4f8"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">АНГЛИЙСКИЙ · 7 КЛАСС</text>
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#34495e">Урок 5. Hobbies and free time</text>
+  
+  <!-- Категории хобби -->
+  <g id="categories">
+    <!-- Outdoor activities -->
+    <rect x="20" y="80" width="110" height="80" rx="10" fill="#3498db" opacity="0.8"/>
+    <text x="75" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Outdoor</text>
+    <text x="75" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Activities</text>
+    
+    <!-- Indoor hobbies -->
+    <rect x="140" y="80" width="110" height="80" rx="10" fill="#e74c3c" opacity="0.8"/>
+    <text x="195" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Indoor</text>
+    <text x="195" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Hobbies</text>
+    
+    <!-- Creative activities -->
+    <rect x="260" y="80" width="110" height="80" rx="10" fill="#9b59b6" opacity="0.8"/>
+    <text x="315" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Creative</text>
+    <text x="315" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Activities</text>
+    
+    <!-- Sports -->
+    <rect x="380" y="80" width="100" height="80" rx="10" fill="#2ecc71" opacity="0.8"/>
+    <text x="430" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Sports</text>
+  </g>
+  
+  <!-- Примеры хобби -->
+  <g id="hobby-examples">
+    <!-- Outdoor examples -->
+    <circle cx="75" cy="195" r="15" fill="#3498db"/>
+    <text x="75" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Hiking</text>
+    
+    <circle cx="75" cy="225" r="15" fill="#3498db"/>
+    <text x="75" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Camping</text>
+    
+    <circle cx="75" cy="255" r="15" fill="#3498db"/>
+    <text x="75" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Fishing</text>
+    
+    <circle cx="75" cy="285" r="15" fill="#3498db"/>
+    <text x="75" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Cycling</text>
+    
+    <!-- Indoor examples -->
+    <circle cx="195" cy="195" r="15" fill="#e74c3c"/>
+    <text x="195" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Reading</text>
+    
+    <circle cx="195" cy="225" r="15" fill="#e74c3c"/>
+    <text x="195" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Cooking</text>
+    
+    <circle cx="195" cy="255" r="15" fill="#e74c3c"/>
+    <text x="195" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Gaming</text>
+    
+    <circle cx="195" cy="285" r="15" fill="#e74c3c"/>
+    <text x="195" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">TV</text>
+    
+    <!-- Creative examples -->
+    <circle cx="315" cy="195" r="15" fill="#9b59b6"/>
+    <text x="315" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Drawing</text>
+    
+    <circle cx="315" cy="225" r="15" fill="#9b59b6"/>
+    <text x="315" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Painting</text>
+    
+    <circle cx="315" cy="255" r="15" fill="#9b59b6"/>
+    <text x="315" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Music</text>
+    
+    <circle cx="315" cy="285" r="15" fill="#9b59b6"/>
+    <text x="315" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Writing</text>
+    
+    <!-- Sports examples -->
+    <circle cx="430" cy="195" r="15" fill="#2ecc71"/>
+    <text x="430" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Football</text>
+    
+    <circle cx="430" cy="225" r="15" fill="#2ecc71"/>
+    <text x="430" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Basketball</text>
+    
+    <circle cx="430" cy="255" r="15" fill="#2ecc71"/>
+    <text x="430" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Tennis</text>
+    
+    <circle cx="430" cy="285" r="15" fill="#2ecc71"/>
+    <text x="430" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Swimming</text>
+  </g>
+  
+  <!-- Связующие линии -->
+  <g id="lines" opacity="0.3">
+    <line x1="75" y1="160" x2="75" y2="180" stroke="#3498db" stroke-width="2"/>
+    <line x1="195" y1="160" x2="195" y2="180" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="315" y1="160" x2="315" y2="180" stroke="#9b59b6" stroke-width="2"/>
+    <line x1="430" y1="160" x2="430" y2="180" stroke="#2ecc71" stroke-width="2"/>
+  </g>
+  
+  <!-- Вопрос для обсуждения -->
+  <rect x="150" y="320" width="200" height="25" rx="12" fill="#f39c12" opacity="0.8"/>
+  <text x="250" y="337" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">What's your hobby?</text>
+  
+  <!-- Иконки -->
+  <g id="icons">
+    <!-- Иконка книги для reading -->
+    <rect x="180" y="210" width="30" height="20" fill="#e74c3c" opacity="0.6" rx="2"/>
+    <line x1="180" y1="220" x2="210" y2="220" stroke="white" stroke-width="1"/>
+    
+    <!-- Иконка мяча для football -->
+    <circle cx="415" cy="210" r="10" fill="#2ecc71" opacity="0.6"/>
+    <path d="M415 205 Q410 210 415 215 Q420 210 415 205" fill="none" stroke="white" stroke-width="1"/>
+    
+    <!-- Иконка кисти для painting -->
+    <rect x="300" y="210" width="4" height="15" fill="#9b59b6" opacity="0.6"/>
+    <ellipse cx="302" cy="207" rx="6" ry="3" fill="#9b59b6" opacity="0.6"/>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <g id="decorative">
+    <!-- Точки для украшения -->
+    <circle cx="40" cy="320" r="3" fill="#3498db" opacity="0.5"/>
+    <circle cx="50" cy="320" r="3" fill="#e74c3c" opacity="0.5"/>
+    <circle cx="60" cy="320" r="3" fill="#9b59b6" opacity="0.5"/>
+    <circle cx="70" cy="320" r="3" fill="#2ecc71" opacity="0.5"/>
+    
+    <circle cx="430" cy="320" r="3" fill="#3498db" opacity="0.5"/>
+    <circle cx="440" cy="320" r="3" fill="#e74c3c" opacity="0.5"/>
+    <circle cx="450" cy="320" r="3" fill="#9b59b6" opacity="0.5"/>
+    <circle cx="460" cy="320" r="3" fill="#2ecc71" opacity="0.5"/>
+  </g>
+  
+  <!-- Надписи на русском -->
+  <g id="russian-labels">
+    <text x="20" y="310" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">На свежем воздухе</text>
+    <text x="140" y="310" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Домашние занятия</text>
+    <text x="260" y="310" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Творчество</text>
+    <text x="380" y="310" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Спорт</text>
+  </g>
+  
+  <!-- Подписи времени -->
+  <g id="time-labels">
+    <text x="20" y="335" font-family="Arial, sans-serif" font-size="8" fill="#95a5a6">free time</text>
+    <text x="450" y="335" font-family="Arial, sans-serif" font-size="8" fill="#95a5a6">leisure</text>
+  </g>
 </svg>

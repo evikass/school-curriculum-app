@@ -1,60 +1,131 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
-<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
-<polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
-<polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
-<polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
-<polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
-<circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-<circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
-<circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
-<circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-<circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
-<circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
-<text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Digital World 📚</text>
-<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Английский язык - Урок 12</text>
-<line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
-<rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
-<rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
-
-  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5"/>
-  <text x="135" y="110" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" text-anchor="middle" font-weight="bold">Digital World 📚</text>
-  <!-- Speech bubbles -->
-  <ellipse cx="100" cy="155" rx="55" ry="25" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
-  <text x="100" y="152" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle">Hello!</text>
-  <text x="100" y="164" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle">How are you?</text>
-  <polygon points="120,175 130,195 110,175" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
-  <ellipse cx="175" cy="200" rx="45" ry="22" fill="#FFF3E0" stroke="#E65100" stroke-width="1.5"/>
-  <text x="175" y="197" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle">I am fine,</text>
-  <text x="175" y="208" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle">thank you!</text>
-  <!-- Vocabulary box -->
-  <rect x="45" y="230" width="180" height="45" rx="4" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
-  <text x="135" y="248" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Vocabulary: words</text>
-  <text x="135" y="262" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Grammar: tenses</text>
-
-  <rect x="260" y="90" width="215" height="200" rx="6" fill="white" stroke="#C62828" stroke-width="1.5"/>
-  <text x="367" y="115" font-family="Arial,sans-serif" font-size="12" fill="#C62828" text-anchor="middle" font-weight="bold">Grammar</text>
-  <!-- Tenses -->
-  <rect x="280" y="128" width="85" height="25" rx="3" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
-  <text x="322" y="145" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">Present Simple</text>
-  <rect x="375" y="128" width="85" height="25" rx="3" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
-  <text x="417" y="145" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle">Past Simple</text>
-  <rect x="280" y="160" width="85" height="25" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
-  <text x="322" y="177" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Future Simple</text>
-  <rect x="375" y="160" width="85" height="25" rx="3" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="1"/>
-  <text x="417" y="177" font-family="Arial,sans-serif" font-size="8" fill="#7B1FA2" text-anchor="middle">Continuous</text>
-  <!-- ABC -->
-  <text x="290" y="210" font-family="Arial,sans-serif" font-size="18" fill="#FF9800" font-weight="bold">A B C</text>
-  <text x="360" y="210" font-family="Arial,sans-serif" font-size="18" fill="#1565C0" font-weight="bold">D E F</text>
-  <!-- Big Ben -->
-  <rect x="300" y="225" width="30" height="55" rx="3" fill="#B0BEC5" stroke="#78909C" stroke-width="1"/>
-  <polygon points="300,225 315,210 330,225" fill="#1565C0"/>
-  <rect x="308" y="235" width="14" height="14" rx="1" fill="white" stroke="#333" stroke-width="1"/>
-  <line x1="315" y1="235" x2="315" y2="242" stroke="#333" stroke-width="1"/>
-  <line x1="315" y1="242" x2="319" y2="240" stroke="#333" stroke-width="1"/>
-  <text x="367" y="280" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Reading, Writing, Speaking</text>
-<rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
-<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Английский язык</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="350" fill="#f0f4f8"/>
+  
+  <!-- Title -->
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Урок 12. Comparatives and Superlatives
+  </text>
+  
+  <!-- Class label -->
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#7f8c8d">
+    АНГЛИЙСКИЙ · 7 КЛАСС
+  </text>
+  
+  <!-- Main content area -->
+  <g transform="translate(50, 80)">
+    <!-- Comparative section -->
+    <rect x="0" y="0" width="180" height="200" rx="10" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+    <text x="90" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2e7d32">
+      Comparative
+    </text>
+    
+    <!-- Comparative examples -->
+    <g transform="translate(15, 45)">
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" fill="#37474f">
+        big → bigger
+      </text>
+      <text x="0" y="20" font-family="Arial, sans-serif" font-size="12" fill="#37474f">
+        tall → taller
+      </text>
+      <text x="0" y="40" font-family="Arial, sans-serif" font-size="12" fill="#37474f">
+        happy → happier
+      </text>
+      <text x="0" y="60" font-family="Arial, sans-serif" font-size="12" fill="#37474f">
+        beautiful → more beautiful
+      </text>
+      <text x="0" y="80" font-family="Arial, sans-serif" font-size="12" fill="#37474f">
+        difficult → more difficult
+      </text>
+      <text x="0" y="100" font-family="Arial, sans-serif" font-size="12" fill="#37474f">
+        good → better
+      </text>
+      <text x="0" y="120" font-family="Arial, sans-serif" font-size="12" fill="#37474f">
+        bad → worse
+      </text>
+    </g>
+    
+    <!-- Superlative section -->
+    <rect x="200" y="0" width="180" height="200" rx="10" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+    <text x="290" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#e65100">
+      Superlative
+    </text>
+    
+    <!-- Superlative examples -->
+    <g transform="translate(215, 45)">
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" fill="#37474f">
+        big → the biggest
+      </text>
+      <text x="0" y="20" font-family="Arial, sans-serif" font-size="12" fill="#37474f">
+        tall → the tallest
+      </text>
+      <text x="0" y="40" font-family="Arial, sans-serif" font-size="12" fill="#37474f">
+        happy → the happiest
+      </text>
+      <text x="0" y="60" font-family="Arial, sans-serif" font-size="12" fill="#37474f">
+        beautiful → the most beautiful
+      </text>
+      <text x="0" y="80" font-family="Arial, sans-serif" font-size="12" fill="#37474f">
+        difficult → the most difficult
+      </text>
+      <text x="0" y="100" font-family="Arial, sans-serif" font-size="12" fill="#37474f">
+        good → the best
+      </text>
+      <text x="0" y="120" font-family="Arial, sans-serif" font-size="12" fill="#37474f">
+        bad → the worst
+      </text>
+    </g>
+  </g>
+  
+  <!-- Examples section -->
+  <g transform="translate(30, 300)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" fill="#37474f">
+      Example: This book is 
+      <tspan font-weight="bold" fill="#2196f3">more interesting</tspan> than that one.
+    </text>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="12" fill="#37474f">
+      Example: She is the 
+      <tspan font-weight="bold" fill="#f44336">smartest</tspan> student in our class.
+    </text>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="30" cy="30" r="8" fill="#3498db" opacity="0.3"/>
+  <circle cx="470" cy="30" r="8" fill="#e74c3c" opacity="0.3"/>
+  <circle cx="30" cy="320" r="8" fill="#2ecc71" opacity="0.3"/>
+  <circle cx="470" cy="320" r="8" fill="#f39c12" opacity="0.3"/>
+  
+  <!-- Arrow between sections -->
+  <path d="M 190 180 L 200 180" stroke="#95a5a6" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#95a5a6"/>
+    </marker>
+  </defs>
+  
+  <!-- Rules section -->
+  <g transform="translate(50, 60)">
+    <rect x="360" y="80" width="130" height="140" rx="5" fill="#f8bbd9" stroke="#e91e63" stroke-width="1.5" opacity="0.8"/>
+    <text x="425" y="100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#880e4f">
+      Rules
+    </text>
+    <text x="365" y="120" font-family="Arial, sans-serif" font-size="10" fill="#880e4f">
+      1-syllable: + -er
+    </text>
+    <text x="365" y="135" font-family="Arial, sans-serif" font-size="10" fill="#880e4f">
+      1-syllable + e: + -r
+    </text>
+    <text x="365" y="150" font-family="Arial, sans-serif" font-size="10" fill="#880e4f">
+      CVC: double consonant
+    </text>
+    <text x="365" y="165" font-family="Arial, sans-serif" font-size="10" fill="#880e4f">
+      2+ syllables: more/less
+    </text>
+    <text x="365" y="180" font-family="Arial, sans-serif" font-size="10" fill="#880e4f">
+      Superlative: the most
+    </text>
+    <text x="365" y="195" font-family="Arial, sans-serif" font-size="10" fill="#880e4f">
+      Irregular forms
+    </text>
+  </g>
 </svg>

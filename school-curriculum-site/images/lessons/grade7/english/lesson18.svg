@@ -1,60 +1,161 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
-<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
-<polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
-<polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
-<polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
-<polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
-<circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-<circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
-<circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
-<circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-<circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
-<circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
-<text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Digital World 📚</text>
-<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Английский язык - Урок 18</text>
-<line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
-<rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
-<rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
-
-  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5"/>
-  <text x="135" y="110" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" text-anchor="middle" font-weight="bold">Digital World 📚</text>
-  <!-- Speech bubbles -->
-  <ellipse cx="100" cy="155" rx="55" ry="25" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
-  <text x="100" y="152" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle">Hello!</text>
-  <text x="100" y="164" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle">How are you?</text>
-  <polygon points="120,175 130,195 110,175" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
-  <ellipse cx="175" cy="200" rx="45" ry="22" fill="#FFF3E0" stroke="#E65100" stroke-width="1.5"/>
-  <text x="175" y="197" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle">I am fine,</text>
-  <text x="175" y="208" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle">thank you!</text>
-  <!-- Vocabulary box -->
-  <rect x="45" y="230" width="180" height="45" rx="4" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
-  <text x="135" y="248" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Vocabulary: words</text>
-  <text x="135" y="262" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Grammar: tenses</text>
-
-  <rect x="260" y="90" width="215" height="200" rx="6" fill="white" stroke="#C62828" stroke-width="1.5"/>
-  <text x="367" y="115" font-family="Arial,sans-serif" font-size="12" fill="#C62828" text-anchor="middle" font-weight="bold">Grammar</text>
-  <!-- Tenses -->
-  <rect x="280" y="128" width="85" height="25" rx="3" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
-  <text x="322" y="145" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">Present Simple</text>
-  <rect x="375" y="128" width="85" height="25" rx="3" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
-  <text x="417" y="145" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle">Past Simple</text>
-  <rect x="280" y="160" width="85" height="25" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
-  <text x="322" y="177" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Future Simple</text>
-  <rect x="375" y="160" width="85" height="25" rx="3" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="1"/>
-  <text x="417" y="177" font-family="Arial,sans-serif" font-size="8" fill="#7B1FA2" text-anchor="middle">Continuous</text>
-  <!-- ABC -->
-  <text x="290" y="210" font-family="Arial,sans-serif" font-size="18" fill="#FF9800" font-weight="bold">A B C</text>
-  <text x="360" y="210" font-family="Arial,sans-serif" font-size="18" fill="#1565C0" font-weight="bold">D E F</text>
-  <!-- Big Ben -->
-  <rect x="300" y="225" width="30" height="55" rx="3" fill="#B0BEC5" stroke="#78909C" stroke-width="1"/>
-  <polygon points="300,225 315,210 330,225" fill="#1565C0"/>
-  <rect x="308" y="235" width="14" height="14" rx="1" fill="white" stroke="#333" stroke-width="1"/>
-  <line x1="315" y1="235" x2="315" y2="242" stroke="#333" stroke-width="1"/>
-  <line x1="315" y1="242" x2="319" y2="240" stroke="#333" stroke-width="1"/>
-  <text x="367" y="280" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Reading, Writing, Speaking</text>
-<rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
-<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Английский язык</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f0f4f8"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">ENGLISH · 7 CLASS</text>
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#34495e">Lesson 18: Jobs and Professions</text>
+  
+  <!-- Доска -->
+  <rect x="20" y="80" width="460" height="240" fill="#8b4513" stroke="#654321" stroke-width="3"/>
+  <rect x="30" y="90" width="440" height="220" fill="#d4e6f1"/>
+  
+  <!-- Профессии -->
+  <!-- Учитель -->
+  <g transform="translate(60, 120)">
+    <circle cx="0" cy="0" r="25" fill="#f39c12"/>
+    <rect x="-3" y="25" width="6" height="30" fill="#3498db"/>
+    <rect x="-15" y="40" width="30" height="4" fill="#2c3e50"/>
+    <rect x="-10" y="44" width="4" height="20" fill="#2c3e50"/>
+    <rect x="6" y="44" width="4" height="20" fill="#2c3e50"/>
+    <text x="0" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Teacher</text>
+  </g>
+  
+  <!-- Врач -->
+  <g transform="translate(160, 120)">
+    <circle cx="0" cy="0" r="25" fill="#e74c3c"/>
+    <rect x="-3" y="25" width="6" height="30" fill="#ecf0f1"/>
+    <rect x="-15" y="40" width="30" height="4" fill="#2c3e50"/>
+    <rect x="-10" y="44" width="4" height="20" fill="#2c3e50"/>
+    <rect x="6" y="44" width="4" height="20" fill="#2c3e50"/>
+    <!-- Крест -->
+    <rect x="-15" y="-5" width="30" height="4" fill="#ffffff"/>
+    <rect x="-2" y="-12" width="4" height="24" fill="#ffffff"/>
+    <text x="0" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Doctor</text>
+  </g>
+  
+  <!-- Инженер -->
+  <g transform="translate(260, 120)">
+    <circle cx="0" cy="0" r="25" fill="#9b59b6"/>
+    <rect x="-3" y="25" width="6" height="30" fill="#95a5a6"/>
+    <rect x="-15" y="40" width="30" height="4" fill="#2c3e50"/>
+    <rect x="-10" y="44" width="4" height="20" fill="#2c3e50"/>
+    <rect x="6" y="44" width="4" height="20" fill="#2c3e50"/>
+    <!-- Шапка инженера -->
+    <path d="M -20 -10 L 20 -10 L 15 0 L -15 0 Z" fill="#34495e"/>
+    <text x="0" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Engineer</text>
+  </g>
+  
+  <!-- Повар -->
+  <g transform="translate(360, 120)">
+    <circle cx="0" cy="0" r="25" fill="#e67e22"/>
+    <rect x="-3" y="25" width="6" height="30" fill="#d35400"/>
+    <rect x="-15" y="40" width="30" height="4" fill="#2c3e50"/>
+    <rect x="-10" y="44" width="4" height="20" fill="#2c3e50"/>
+    <rect x="6" y="44" width="4" height="20" fill="#2c3e50"/>
+    <!-- Шеф-поварская шапка -->
+    <path d="M -20 -15 L 20 -15 L 20 -5 L -20 -5 Z" fill="#ffffff"/>
+    <text x="0" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Chef</text>
+  </g>
+  
+  <!-- Полицейский -->
+  <g transform="translate(440, 120)">
+    <circle cx="0" cy="0" r="25" fill="#3498db"/>
+    <rect x="-3" y="25" width="6" height="30" fill="#ecf0f1"/>
+    <rect x="-15" y="40" width="30" height="4" fill="#2c3e50"/>
+    <rect x="-10" y="44" width="4" height="20" fill="#2c3e50"/>
+    <rect x="6" y="44" width="4" height="20" fill="#2c3e50"/>
+    <!-- Фуражка -->
+    <rect x="-20" y="-15" width="40" height="8" fill="#2c3e50"/>
+    <rect x="-15" y="-7" width="30" height="8" fill="#3498db"/>
+    <text x="0" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Police</text>
+  </g>
+  
+  <!-- Второй ряд -->
+  <!-- Артист -->
+  <g transform="translate(60, 220)">
+    <circle cx="0" cy="0" r="25" fill="#e74c3c"/>
+    <rect x="-3" y="25" width="6" height="30" fill="#f39c12"/>
+    <rect x="-15" y="40" width="30" height="4" fill="#2c3e50"/>
+    <rect x="-10" y="44" width="4" height="20" fill="#2c3e50"/>
+    <rect x="6" y="44" width="4" height="20" fill="#2c3e50"/>
+    <!-- Маска -->
+    <ellipse cx="0" cy="-5" rx="18" ry="12" fill="#2c3e50"/>
+    <text x="0" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Actor</text>
+  </g>
+  
+  <!-- Программист -->
+  <g transform="translate(160, 220)">
+    <circle cx="0" cy="0" r="25" fill="#3498db"/>
+    <rect x="-3" y="25" width="6" height="30" fill="#2c3e50"/>
+    <rect x="-15" y="40" width="30" height="4" fill="#2c3e50"/>
+    <rect x="-10" y="44" width="4" height="20" fill="#2c3e50"/>
+    <rect x="6" y="44" width="4" height="20" fill="#2c3e50"/>
+    <!-- Очки -->
+    <ellipse cx="-8" cy="-5" rx="8" ry="5" fill="none" stroke="#2c3e50" stroke-width="2"/>
+    <ellipse cx="8" cy="-5" rx="8" ry="5" fill="none" stroke="#2c3e50" stroke-width="2"/>
+    <line x1="0" y1="-5" x2="0" y2="-5" stroke="#2c3e50" stroke-width="2"/>
+    <text x="0" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Programmer</text>
+  </g>
+  
+  <!-- Архитектор -->
+  <g transform="translate(260, 220)">
+    <circle cx="0" cy="0" r="25" fill="#16a085"/>
+    <rect x="-3" y="25" width="6" height="30" fill="#ecf0f1"/>
+    <rect x="-15" y="40" width="30" height="4" fill="#2c3e50"/>
+    <rect x="-10" y="44" width="4" height="20" fill="#2c3e50"/>
+    <rect x="6" y="44" width="4" height="20" fill="#2c3e50"/>
+    <!-- Линейка -->
+    <rect x="-15" y="-15" width="30" height="4" fill="#2c3e50" transform="rotate(45)"/>
+    <text x="0" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Architect</text>
+  </g>
+  
+  <!-- Фермер -->
+  <g transform="translate(360, 220)">
+    <circle cx="0" cy="0" r="25" fill="#27ae60"/>
+    <rect x="-3" y="25" width="6" height="30" fill="#f39c12"/>
+    <rect x="-15" y="40" width="30" height="4" fill="#2c3e50"/>
+    <rect x="-10" y="44" width="4" height="20" fill="#2c3e50"/>
+    <rect x="6" y="44" width="4" height="20" fill="#2c3e50"/>
+    <!-- Шляпа -->
+    <ellipse cx="0" cy="-10" rx="20" ry="6" fill="#8b4513"/>
+    <rect x="-3" y="-10" width="6" height="15" fill="#8b4513"/>
+    <text x="0" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Farmer</text>
+  </g>
+  
+  <!-- Пилот -->
+  <g transform="translate(440, 220)">
+    <circle cx="0" cy="0" r="25" fill="#f1c40f"/>
+    <rect x="-3" y="25" width="6" height="30" fill="#34495e"/>
+    <rect x="-15" y="40" width="30" height="4" fill="#2c3e50"/>
+    <rect x="-10" y="44" width="4" height="20" fill="#2c3e50"/>
+    <rect x="6" y="44" width="4" height="20" fill="#2c3e50"/>
+    <!-- Шлем -->
+    <circle cx="0" cy="-5" r="15" fill="#ecf0f1"/>
+    <rect x="-10" y="-10" width="20" height="3" fill="#e74c3c"/>
+    <text x="0" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Pilot</text>
+  </g>
+  
+  <!-- Вопросительные знаки -->
+  <text x="110" y="105" font-family="Arial, sans-serif" font-size="14" fill="#34495e">?</text>
+  <text x="210" y="105" font-family="Arial, sans-serif" font-size="14" fill="#34495e">?</text>
+  <text x="310" y="105" font-family="Arial, sans-serif" font-size="14" fill="#34495e">?</text>
+  <text x="410" y="105" font-family="Arial, sans-serif" font-size="14" fill="#34495e">?</text>
+  <text x="110" y="205" font-family="Arial, sans-serif" font-size="14" fill="#34495e">?</text>
+  <text x="210" y="205" font-family="Arial, sans-serif" font-size="14" fill="#34495e">?</text>
+  <text x="310" y="205" font-family="Arial, sans-serif" font-size="14" fill="#34495e">?</text>
+  <text x="410" y="205" font-family="Arial, sans-serif" font-size="14" fill="#34495e">?</text>
+  
+  <!-- Украшения -->
+  <circle cx="40" cy="100" r="3" fill="#f39c12"/>
+  <circle cx="460" cy="100" r="3" fill="#f39c12"/>
+  <circle cx="40" cy="300" r="3" fill="#f39c12"/>
+  <circle cx="460" cy="300" r="3" fill="#f39c12"/>
+  
+  <!-- Разделительная линия -->
+  <line x1="40" y1="70" x2="460" y2="70" stroke="#34495e" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Дополнительные элементы -->
+  <rect x="30" y="310" width="440" height="20" fill="#3498db" opacity="0.3"/>
+  <text x="250" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" font-style="italic">What job would you like to have?</text>
 </svg>

@@ -1,60 +1,184 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFF8E1"/><stop offset="100%" stop-color="#FFFDE7"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#C62828" stroke-width="3"/>
-<rect x="8" y="8" width="484" height="334" rx="6" fill="none" stroke="#C62828" stroke-width="1" opacity="0.3"/>
-<polygon points="10,10 30,10 10,30" fill="#C62828" opacity="0.08"/>
-<polygon points="490,10 470,10 490,30" fill="#1565C0" opacity="0.08"/>
-<polygon points="10,340 30,340 10,320" fill="#F9A825" opacity="0.08"/>
-<polygon points="490,340 470,340 490,320" fill="#2E7D32" opacity="0.08"/>
-<circle cx="70" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-<circle cx="82" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
-<circle cx="94" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
-<circle cx="406" cy="15" r="4" fill="#C62828" opacity="0.1"/>
-<circle cx="418" cy="15" r="4" fill="#1565C0" opacity="0.1"/>
-<circle cx="430" cy="15" r="4" fill="#F9A825" opacity="0.1"/>
-<text x="250" y="50" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#C62828" text-anchor="middle">Daily Routines and Habits 📚</text>
-<text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Английский язык - Урок 13</text>
-<line x1="30" y1="78" x2="470" y2="78" stroke="#C62828" stroke-width="2" opacity="0.25"/>
-<rect x="30" y="75" width="60" height="6" fill="#C62828" opacity="0.15" rx="1"/>
-<rect x="410" y="75" width="60" height="6" fill="#1565C0" opacity="0.12" rx="1"/>
-
-  <rect x="25" y="90" width="220" height="200" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5"/>
-  <text x="135" y="110" font-family="Arial,sans-serif" font-size="11" fill="#1565C0" text-anchor="middle" font-weight="bold">Daily Routines and Habits 📚</text>
-  <!-- Speech bubbles -->
-  <ellipse cx="100" cy="155" rx="55" ry="25" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
-  <text x="100" y="152" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle">Hello!</text>
-  <text x="100" y="164" font-family="Arial,sans-serif" font-size="9" fill="#1565C0" text-anchor="middle">How are you?</text>
-  <polygon points="120,175 130,195 110,175" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
-  <ellipse cx="175" cy="200" rx="45" ry="22" fill="#FFF3E0" stroke="#E65100" stroke-width="1.5"/>
-  <text x="175" y="197" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle">I am fine,</text>
-  <text x="175" y="208" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle">thank you!</text>
-  <!-- Vocabulary box -->
-  <rect x="45" y="230" width="180" height="45" rx="4" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
-  <text x="135" y="248" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Vocabulary: words</text>
-  <text x="135" y="262" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Grammar: tenses</text>
-
-  <rect x="260" y="90" width="215" height="200" rx="6" fill="white" stroke="#C62828" stroke-width="1.5"/>
-  <text x="367" y="115" font-family="Arial,sans-serif" font-size="12" fill="#C62828" text-anchor="middle" font-weight="bold">Grammar</text>
-  <!-- Tenses -->
-  <rect x="280" y="128" width="85" height="25" rx="3" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
-  <text x="322" y="145" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle">Present Simple</text>
-  <rect x="375" y="128" width="85" height="25" rx="3" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
-  <text x="417" y="145" font-family="Arial,sans-serif" font-size="8" fill="#E65100" text-anchor="middle">Past Simple</text>
-  <rect x="280" y="160" width="85" height="25" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
-  <text x="322" y="177" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Future Simple</text>
-  <rect x="375" y="160" width="85" height="25" rx="3" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="1"/>
-  <text x="417" y="177" font-family="Arial,sans-serif" font-size="8" fill="#7B1FA2" text-anchor="middle">Continuous</text>
-  <!-- ABC -->
-  <text x="290" y="210" font-family="Arial,sans-serif" font-size="18" fill="#FF9800" font-weight="bold">A B C</text>
-  <text x="360" y="210" font-family="Arial,sans-serif" font-size="18" fill="#1565C0" font-weight="bold">D E F</text>
-  <!-- Big Ben -->
-  <rect x="300" y="225" width="30" height="55" rx="3" fill="#B0BEC5" stroke="#78909C" stroke-width="1"/>
-  <polygon points="300,225 315,210 330,225" fill="#1565C0"/>
-  <rect x="308" y="235" width="14" height="14" rx="1" fill="white" stroke="#333" stroke-width="1"/>
-  <line x1="315" y1="235" x2="315" y2="242" stroke="#333" stroke-width="1"/>
-  <line x1="315" y1="242" x2="319" y2="240" stroke="#333" stroke-width="1"/>
-  <text x="367" y="280" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Reading, Writing, Speaking</text>
-<rect x="15" y="310" width="470" height="30" rx="4" fill="#C62828" opacity="0.85"/>
-<text x="250" y="330" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Английский язык</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="350" fill="#87CEEB"/>
+  
+  <!-- Sun -->
+  <g id="sun">
+    <circle cx="400" cy="80" r="35" fill="#FFD700"/>
+    <g stroke="#FFD700" stroke-width="3">
+      <line x1="400" y1="20" x2="400" y2="35"/>
+      <line x1="400" y1="125" x2="400" y2="140"/>
+      <line x1="340" y1="80" x2="355" y2="80"/>
+      <line x1="445" y1="80" x2="460" y2="80"/>
+      <line x1="362" y1="42" x2="373" y2="53"/>
+      <line x1="427" y1="107" x2="438" y2="118"/>
+      <line x1="438" y1="42" x2="427" y2="53"/>
+      <line x1="373" y1="107" x2="362" y2="118"/>
+    </g>
+  </g>
+  
+  <!-- Cloud -->
+  <g id="cloud1">
+    <ellipse cx="150" cy="70" rx="40" ry="25" fill="white"/>
+    <ellipse cx="180" cy="65" rx="35" ry="30" fill="white"/>
+    <ellipse cx="120" cy="65" rx="30" ry="20" fill="white"/>
+  </g>
+  
+  <!-- Rain drops -->
+  <g id="rain" opacity="0.7">
+    <line x1="140" y1="90" x2="135" y2="110" stroke="#4682B4" stroke-width="2"/>
+    <line x1="160" y1="95" x2="155" y2="115" stroke="#4682B4" stroke-width="2"/>
+    <line x1="180" y1="90" x2="175" y2="110" stroke="#4682B4" stroke-width="2"/>
+    <line x1="200" y1="95" x2="195" y2="115" stroke="#4682B4" stroke-width="2"/>
+  </g>
+  
+  <!-- Snow -->
+  <g id="snow" opacity="0.8">
+    <circle cx="300" cy="60" r="3" fill="white"/>
+    <circle cx="320" cy="80" r="3" fill="white"/>
+    <circle cx="280" cy="90" r="3" fill="white"/>
+    <circle cx="310" cy="100" r="3" fill="white"/>
+    <circle cx="290" cy="120" r="3" fill="white"/>
+  </g>
+  
+  <!-- Ground -->
+  <rect x="0" y="250" width="500" height="100" fill="#90EE90"/>
+  
+  <!-- Tree -->
+  <g id="tree">
+    <rect x="80" y="200" width="20" height="50" fill="#8B4513"/>
+    <circle cx="90" cy="190" r="30" fill="#228B22"/>
+  </g>
+  
+  <!-- House -->
+  <g id="house">
+    <rect x="300" y="180" width="80" height="70" fill="#DEB887"/>
+    <polygon points="290,180 340,140 390,180" fill="#8B4513"/>
+    <rect x="320" y="210" width="20" height="30" fill="#654321"/>
+    <rect x="350" y="200" width="15" height="15" fill="#87CEEB"/>
+  </g>
+  
+  <!-- Wind lines -->
+  <g id="wind" stroke="#4682B4" stroke-width="2" fill="none">
+    <path d="M 50 150 Q 70 140, 90 150"/>
+    <path d="M 50 170 Q 70 160, 90 170"/>
+    <path d="M 50 190 Q 70 180, 90 190"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">Lesson 13: Weather and Seasons</text>
+  
+  <!-- Season labels -->
+  <text x="250" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">АНГЛИЙСКИЙ · 7 КЛАСС</text>
+  
+  <!-- Weather words -->
+  <g font-family="Arial, sans-serif" font-size="12" fill="white">
+    <!-- Spring -->
+    <text x="100" y="300" text-anchor="middle">Spring</text>
+    <text x="100" y="315" text-anchor="middle" font-size="10">Весна</text>
+    
+    <!-- Summer -->
+    <text x="200" y="300" text-anchor="middle">Summer</text>
+    <text x="200" y="315" text-anchor="middle" font-size="10">Лето</text>
+    
+    <!-- Autumn -->
+    <text x="300" y="300" text-anchor="middle">Autumn</text>
+    <text x="300" y="315" text-anchor="middle" font-size="10">Осень</text>
+    
+    <!-- Winter -->
+    <text x="400" y="300" text-anchor="middle">Winter</text>
+    <text x="400" y="315" text-anchor="middle" font-size="10">Зима</text>
+  </g>
+  
+  <!-- Weather vocabulary -->
+  <g font-family="Arial, sans-serif" font-size="11" fill="white">
+    <text x="50" y="140">Sunny</text>
+    <text x="50" y="155">Cloudy</text>
+    <text x="50" y="170">Rainy</text>
+    <text x="50" y="185">Windy</text>
+    <text x="50" y="200">Snowy</text>
+    
+    <text x="250" y="140">Hot</text>
+    <text x="250" y="155">Warm</text>
+    <text x="250" y="170">Cool</text>
+    <text x="250" y="185">Cold</text>
+    <text x="250" y="200">Freezing</text>
+    
+    <text x="420" y="140">Clear</text>
+    <text x="420" y="155">Foggy</text>
+    <text x="420" y="170">Stormy</text>
+    <text x="420" y="185">Breezy</text>
+    <text x="420" y="200">Icy</text>
+  </g>
+  
+  <!-- Temperature indicators -->
+  <g font-family="Arial, sans-serif" font-size="10" fill="white">
+    <!-- Spring temperatures -->
+    <text x="100" y="280" text-anchor="middle">10-20°C</text>
+    
+    <!-- Summer temperatures -->
+    <text x="200" y="280" text-anchor="middle">20-35°C</text>
+    
+    <!-- Autumn temperatures -->
+    <text x="300" y="280" text-anchor="middle">5-15°C</text>
+    
+    <!-- Winter temperatures -->
+    <text x="400" y="280" text-anchor="middle">-5-5°C</text>
+  </g>
+  
+  <!-- Weather icons -->
+  <!-- Thermometer -->
+  <g id="thermometer" transform="translate(420, 60)">
+    <rect x="0" y="0" width="10" height="30" fill="white" rx="5"/>
+    <circle cx="5" cy="35" r="6" fill="white"/>
+    <rect x="2" y="20" width="6" height="10" fill="#FF0000"/>
+    <circle cx="5" cy="35" r="4" fill="#FF0000"/>
+  </g>
+  
+  <!-- Umbrella -->
+  <g id="umbrella" transform="translate(180, 100)">
+    <path d="M 10 20 Q 0 10, 10 0 Q 20 10, 10 20" fill="#FF6347" stroke="#8B0000" stroke-width="1"/>
+    <line x1="10" y1="20" x2="10" y2="35" stroke="#8B0000" stroke-width="2"/>
+    <path d="M 5 35 Q 10 38, 15 35" fill="none" stroke="#8B0000" stroke-width="2"/>
+  </g>
+  
+  <!-- Lightning -->
+  <g id="lightning" transform="translate(350, 90)">
+    <path d="M 5 0 L 10 15 L 5 15 L 8 25 L 3 10 L 8 10 Z" fill="#FFFF00"/>
+  </g>
+  
+  <!-- Additional weather elements -->
+  <!-- Rainbow -->
+  <g id="rainbow" opacity="0.6">
+    <path d="M 250 120 Q 280 100, 310 120" fill="none" stroke="#FF0000" stroke-width="3"/>
+    <path d="M 250 125 Q 275 107, 305 125" fill="none" stroke="#FFA500" stroke-width="3"/>
+    <path d="M 250 130 Q 270 114, 300 130" fill="none" stroke="#FFFF00" stroke-width="3"/>
+    <path d="M 250 135 Q 265 121, 295 135" fill="none" stroke="#00FF00" stroke-width="3"/>
+    <path d="M 250 140 Q 260 128, 290 140" fill="none" stroke="#0000FF" stroke-width="3"/>
+    <path d="M 250 145 Q 255 135, 285 145" fill="none" stroke="#4B0082" stroke-width="3"/>
+    <path d="M 250 150 Q 250 142, 280 150" fill="none" stroke="#9400D3" stroke-width="3"/>
+  </g>
+  
+  <!-- Fog -->
+  <g id="fog" opacity="0.5">
+    <ellipse cx="420" cy="140" rx="30" ry="5" fill="white"/>
+    <ellipse cx="420" cy="150" rx="35" ry="5" fill="white"/>
+    <ellipse cx="420" cy="160" rx="30" ry="5" fill="white"/>
+  </g>
+  
+  <!-- Calendar month indicators -->
+  <g font-family="Arial, sans-serif" font-size="8" fill="white">
+    <text x="70" y="265" text-anchor="middle">Mar-May</text>
+    <text x="170" y="265" text-anchor="middle">Jun-Aug</text>
+    <text x="270" y="265" text-anchor="middle">Sep-Nov</text>
+    <text x="370" y="265" text-anchor="middle">Dec-Feb</text>
+  </g>
+  
+  <!-- Activity indicators -->
+  <g font-family="Arial, sans-serif" font-size="9" fill="white">
+    <text x="100" y="330" text-anchor="middle">Flowers bloom</text>
+    <text x="200" y="330" text-anchor="middle">Beach time</text>
+    <text x="300" y="330" text-anchor="middle">Leaves fall</text>
+    <text x="400" y="330" text-anchor="middle">Snow falls</text>
+  </g>
 </svg>
