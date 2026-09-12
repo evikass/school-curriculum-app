@@ -1,0 +1,191 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый фон -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">ГЕОГРАФИЯ · 7 КЛАСС</text>
+  
+  <!-- Основной заголовок урока -->
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#27ae60">Народы и религии мира</text>
+  <text x="250" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Тема: Население Земли</text>
+  
+  <!-- Демографическая пирамида -->
+  <g transform="translate(150, 120)">
+    <!-- Оси пирамиды -->
+    <line x1="0" y1="0" x2="0" y2="120" stroke="#34495e" stroke-width="2"/>
+    <line x1="0" y1="120" x2="80" y2="120" stroke="#34495e" stroke-width="2"/>
+    <line x1="0" y1="120" x2="-80" y2="120" stroke="#34495e" stroke-width="2"/>
+    
+    <!-- Мужчины (левая часть) -->
+    <rect x="-70" y="100" width="70" height="20" fill="#3498db" opacity="0.8"/>
+    <rect x="-60" y="80" width="60" height="20" fill="#3498db" opacity="0.8"/>
+    <rect x="0" y="80" width="60" height="20" fill="#3498db" opacity="0.8"/>
+    <rect x="-50" y="60" width="50" height="20" fill="#3498db" opacity="0.8"/>
+    <rect x="0" y="60" width="50" height="20" fill="#3498db" opacity="0.8"/>
+    <rect x="-40" y="40" width="40" height="20" fill="#3498db" opacity="0.8"/>
+    <rect x="0" y="40" width="40" height="20" fill="#3498db" opacity="0.8"/>
+    <rect x="-30" y="20" width="30" height="20" fill="#3498db" opacity="0.8"/>
+    <rect x="0" y="20" width="30" height="20" fill="#3498db" opacity="0.8"/>
+    
+    <!-- Женщины (правая часть) -->
+    <rect x="0" y="100" width="70" height="20" fill="#e74c3c" opacity="0.8"/>
+    <rect x="-60" y="80" width="60" height="20" fill="#e74c3c" opacity="0.8"/>
+    <rect x="0" y="80" width="60" height="20" fill="#e74c3c" opacity="0.8"/>
+    <rect x="-50" y="60" width="50" height="20" fill="#e74c3c" opacity="0.8"/>
+    <rect x="0" y="60" width="50" height="20" fill="#e74c3c" opacity="0.8"/>
+    <rect x="-40" y="40" width="40" height="20" fill="#e74c3c" opacity="0.8"/>
+    <rect x="0" y="40" width="40" height="20" fill="#e74c3c" opacity="0.8"/>
+    <rect x="-30" y="20" width="30" height="20" fill="#e74c3c" opacity="0.8"/>
+    <rect x="0" y="20" width="30" height="20" fill="#e74c3c" opacity="0.8"/>
+    
+    <!-- Подписи -->
+    <text x="-100" y="110" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">М</text>
+    <text x="85" y="110" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Ж</text>
+    <text x="-40" y="140" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Возраст</text>
+    <text x="-120" y="60" font-family="Arial, sans-serif" font-size="12" fill="#3498db">Мужчины</text>
+    <text x="40" y="60" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">Женщины</text>
+    <text x="-100" y="-5" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#27ae60">Демографическая пирамида</text>
+  </g>
+  
+  <!-- Круговая диаграмма религиозного состава -->
+  <g transform="translate(380, 180)">
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#ecf0f1" stroke-width="2"/>
+    
+    <!-- Христианство (32%) -->
+    <path d="M 0,0 L 0,-60 A 60,60 0 0,1 37.08,-47.02 Z" fill="#27ae60" opacity="0.8"/>
+    
+    <!-- Ислам (23%) -->
+    <path d="M 0,0 L 37.08,-47.02 A 60,60 0 0,1 58.78,12.36 Z" fill="#3498db" opacity="0.8"/>
+    
+    <!-- Индуизм (15%) -->
+    <path d="M 0,0 L 58.78,12.36 A 60,60 0 0,1 21.21,56.38 Z" fill="#e74c3c" opacity="0.8"/>
+    
+    <!-- Буддизм (7%) -->
+    <path d="M 0,0 L 21.21,56.38 A 60,60 0 0,1 -13.24,58.53 Z" fill="#f39c12" opacity="0.8"/>
+    
+    <!-- Иудаизм (0.2%) -->
+    <path d="M 0,0 L -13.24,58.53 A 60,60 0 0,1 -15.59,58.01 Z" fill="#9b59b6" opacity="0.8"/>
+    
+    <!-- Другие (22.8%) -->
+    <path d="M 0,0 L -15.59,58.01 A 60,60 0 0,1 0,-60 Z" fill="#95a5a6" opacity="0.8"/>
+    
+    <!-- Центральная точка -->
+    <circle cx="0" cy="0" r="20" fill="white"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#2c3e50">Религии</text>
+    
+    <!-- Легенда -->
+    <text x="0" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#27ae60">Религиозный состав</text>
+    
+    <!-- Подписи секторов -->
+    <text x="20" y="-40" font-family="Arial, sans-serif" font-size="9" fill="white">32%</text>
+    <text x="40" y="0" font-family="Arial, sans-serif" font-size="9" fill="white">23%</text>
+    <text x="35" y="35" font-family="Arial, sans-serif" font-size="9" fill="white">15%</text>
+  </g>
+  
+  <!-- Карточки с фактами о населении -->
+  <g transform="translate(50, 250)">
+    <!-- Карточка 1 -->
+    <rect x="0" y="0" width="120" height="60" fill="white" stroke="#27ae60" stroke-width="2" rx="5"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#27ae60">8 млрд</text>
+    <text x="60" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">человек на</text>
+    <text x="60" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Земле</text>
+    
+    <!-- Карточка 2 -->
+    <rect x="140" y="0" width="120" height="60" fill="white" stroke="#3498db" stroke-width="2" rx="5"/>
+    <text x="200" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#3498db">195</text>
+    <text x="200" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">государств</text>
+    <text x="200" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">в мире</text>
+    
+    <!-- Карточка 3 -->
+    <rect x="280" y="0" width="120" height="60" fill="white" stroke="#e74c3c" stroke-width="2" rx="5"/>
+    <text x="340" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#e74c3c">7 000+</text>
+    <text x="340" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">языков</text>
+    <text x="340" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">в мире</text>
+  </g>
+  
+  <!-- Иконки народов -->
+  <g transform="translate(30, 170)">
+    <!-- Азиат -->
+    <circle cx="20" cy="20" r="18" fill="#f1c40f" opacity="0.8"/>
+    <circle cx="20" cy="15" r="6" fill="#e67e22"/>
+    <path d="M 14,22 Q 20,25 26,22 L 26,30 L 14,30 Z" fill="#e67e22"/>
+    <text x="20" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Азия</text>
+    <text x="20" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7f8c8d">4.6 млрд</text>
+  </g>
+  
+  <g transform="translate(80, 170)">
+    <!-- Африканец -->
+    <circle cx="20" cy="20" r="18" fill="#e67e22" opacity="0.8"/>
+    <circle cx="20" cy="15" r="6" fill="#d35400"/>
+    <path d="M 14,22 Q 20,25 26,22 L 26,30 L 14,30 Z" fill="#d35400"/>
+    <text x="20" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Африка</text>
+    <text x="20" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7f8c8d">1.4 млрд</text>
+  </g>
+  
+  <!-- График роста населения -->
+  <g transform="translate(50, 90)">
+    <rect x="0" y="0" width="80" height="60" fill="white" stroke="#95a5a6" stroke-width="1" rx="3"/>
+    
+    <!-- Линия роста -->
+    <polyline points="10,50 20,45 30,38 40,30 50,20 60,10 70,5" 
+              fill="none" stroke="#27ae60" stroke-width="2"/>
+    
+    <!-- Точки данных -->
+    <circle cx="10" cy="50" r="2" fill="#27ae60"/>
+    <circle cx="20" cy="45" r="2" fill="#27ae60"/>
+    <circle cx="30" cy="38" r="2" fill="#27ae60"/>
+    <circle cx="40" cy="30" r="2" fill="#27ae60"/>
+    <circle cx="50" cy="20" r="2" fill="#27ae60"/>
+    <circle cx="60" cy="10" r="2" fill="#27ae60"/>
+    <circle cx="70" cy="5" r="2" fill="#27ae60"/>
+    
+    <!-- Подписи осей -->
+    <text x="5" y="55" font-family="Arial, sans-serif" font-size="6" fill="#7f8c8d">1900</text>
+    <text x="65" y="55" font-family="Arial, sans-serif" font-size="6" fill="#7f8c8d">2023</text>
+    <text x="40" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#27ae60">Рост населения</text>
+  </g>
+  
+  <!-- Указатели и стрелки -->
+  <path d="M 140,190 L 180,190" stroke="#27ae60" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 320,180 L 350,180" stroke="#27ae60" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Маркеры стрелок -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#27ae60"/>
+    </marker>
+  </defs>
+  
+  <!-- Текстовые блоки с информацией -->
+  <rect x="250" y="250" width="200" height="80" fill="#ecf0f1" stroke="#27ae60" stroke-width="1" rx="5"/>
+  <text x="350" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#27ae60">Географическое распределение</text>
+  <text x="260" y="290" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Азия: 59.5% населения</text>
+  <text x="260" y="305" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Африка: 17.2% населения</text>
+  <text x="260" y="320" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Европа: 9.6% населения</text>
+  
+  <!-- Дополнительные элементы оформления -->
+  <circle cx="30" cy="30" r="3" fill="#27ae60"/>
+  <circle cx="470" cy="30" r="3" fill="#27ae60"/>
+  <circle cx="30" cy="320" r="3" fill="#27ae60"/>
+  <circle cx="470" cy="320" r="3" fill="#27ae60"/>
+  
+  <!-- Разделительная линия -->
+  <line x1="50" y1="85" x2="450" y2="85" stroke="#27ae60" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Подписи к иконкам -->
+  <text x="120" y="200" font-family="Arial, sans-serif" font-size="8" fill="#7f8c8d">Европа</text>
+  <text x="120" y="212" font-family="Arial, sans-serif" font-size="8" fill="#7f8c8d">0.75 млрд</text>
+  
+  <text x="160" y="200" font-family="Arial, sans-serif" font-size="8" fill="#7f8c8d">Америка</text>
+  <text x="160" y="212" font-family="Arial, sans-serif" font-size="8" fill="#7f8c8d">1.0 млрд</text>
+  
+  <!-- Легенда для демографической пирамиды -->
+  <text x="50" y="240" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">Возрастные группы</text>
+  <text x="50" y="255" font-family="Arial, sans-serif" font-size="8" fill="#7f8c8d">0-14 лет, 15-64 лет, 65+</text>
+  
+  <!-- Указатель на круговую диаграмму -->
+  <text x="380" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">Доля (%)</text>
+  
+  <!-- Дополнительные текстовые элементы -->
+  <text x="250" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#95a5a6">Данные на 2023 год</text>
+</svg>
