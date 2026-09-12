@@ -1,0 +1,141 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">МУЗЫКА · 7 КЛАСС</text>
+  
+  <!-- Название урока -->
+  <text x="250" y="60" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#34495e">Инструментальные жанры</text>
+  
+  <!-- Основная схема жанров -->
+  <g id="genre-scheme">
+    <!-- Контейнер -->
+    <rect x="50" y="80" width="400" height="240" fill="#ffffff" stroke="#9b59b6" stroke-width="2" rx="10"/>
+    
+    <!-- Центральный элемент -->
+    <circle cx="250" cy="150" r="35" fill="#9b59b6"/>
+    <text x="250" y="155" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">ЖАНРЫ</text>
+    
+    <!-- Линии подключения -->
+    <line x1="250" y1="185" x2="100" y2="230" stroke="#9b59b6" stroke-width="2"/>
+    <line x1="250" y1="185" x2="250" y2="230" stroke="#9b59b6" stroke-width="2"/>
+    <line x1="250" y1="185" x2="400" y2="230" stroke="#9b59b6" stroke-width="2"/>
+    
+    <!-- Поджанры -->
+    <g id="sub-genre1">
+      <rect x="50" y="230" width="100" height="60" fill="#e8d5f2" stroke="#9b59b6" stroke-width="1.5" rx="8"/>
+      <text x="100" y="250" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">Сонатная</text>
+      <text x="100" y="265" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">форма</text>
+      <text x="100" y="280" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#7f8c8d">(экспозиция,</text>
+      <text x="100" y="290" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#7f8c8d">разработка, реприза)</text>
+    </g>
+    
+    <g id="sub-genre2">
+      <rect x="200" y="230" width="100" height="60" fill="#e8d5f2" stroke="#9b59b6" stroke-width="1.5" rx="8"/>
+      <text x="250" y="250" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">Рондо</text>
+      <text x="250" y="265" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">форма</text>
+      <text x="250" y="280" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#7f8c8d">(A-B-A-C-A)</text>
+    </g>
+    
+    <g id="sub-genre3">
+      <rect x="350" y="230" width="100" height="60" fill="#e8d5f2" stroke="#9b59b6" stroke-width="1.5" rx="8"/>
+      <text x="400" y="250" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">Вариации</text>
+      <text x="400" y="265" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">форма</text>
+      <text x="400" y="280" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#7f8c8d">(тема + 4-5</text>
+      <text x="400" y="290" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#7f8c8d">вариаций)</text>
+    </g>
+  </g>
+  
+  <!-- Инструменты -->
+  <g id="instruments">
+    <text x="30" y="110" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Инструменты:</text>
+    
+    <!-- Клавишные -->
+    <rect x="30" y="120" width="20" height="15" fill="#9b59b6"/>
+    <rect x="30" y="135" width="20" height="15" fill="#8e44ad"/>
+    <text x="55" y="130" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Клавишные</text>
+    <text x="55" y="142" font-family="Arial, sans-serif" font-size="8" fill="#7f8c8d">фортепиано,</text>
+    <text x="55" y="150" font-family="Arial, sans-serif" font-size="8" fill="#7f8c8d">орган</text>
+    
+    <!-- Струнные -->
+    <line x1="30" y1="165" x2="50" y2="165" stroke="#9b59b6" stroke-width="2"/>
+    <line x1="30" y1="170" x2="50" y2="170" stroke="#9b59b6" stroke-width="2"/>
+    <line x1="30" y1="175" x2="50" y2="175" stroke="#9b59b6" stroke-width="2"/>
+    <line x1="30" y1="180" x2="50" y2="180" stroke="#9b59b6" stroke-width="2"/>
+    <text x="55" y="175" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Струнные</text>
+    <text x="55" y="185" font-family="Arial, sans-serif" font-size="8" fill="#7f8c8d">скрипка,</text>
+    <text x="55" y="193" font-family="Arial, sans-serif" font-size="8" fill="#7f8c8d">виолончель</text>
+  </g>
+  
+  <!-- Элементы схемы -->
+  <g id="diagram-elements">
+    <!-- Сонатная форма схема -->
+    <rect x="70" y="320" width="60" height="20" fill="#e8d5f2" stroke="#9b59b6" stroke-width="1" rx="5"/>
+    <text x="100" y="333" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2c3e50">Экспозиция</text>
+    
+    <rect x="140" y="320" width="60" height="20" fill="#f5d0f5" stroke="#9b59b6" stroke-width="1" rx="5"/>
+    <text x="170" y="333" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2c3e50">Разработка</text>
+    
+    <rect x="210" y="320" width="60" height="20" fill="#e8d5f2" stroke="#9b59b6" stroke-width="1" rx="5"/>
+    <text x="240" y="333" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2c3e50">Реприза</text>
+    
+    <!-- Рондо схема -->
+    <circle cx="310" cy="330" r="8" fill="#e8d5f2" stroke="#9b59b6" stroke-width="1"/>
+    <text x="310" y="333" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2c3e50">A</text>
+    
+    <circle cx="335" cy="330" r="8" fill="#f5d0f5" stroke="#9b59b6" stroke-width="1"/>
+    <text x="335" y="333" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2c3e50">B</text>
+    
+    <circle cx="360" cy="330" r="8" fill="#e8d5f2" stroke="#9b59b6" stroke-width="1"/>
+    <text x="360" y="333" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2c3e50">A</text>
+    
+    <circle cx="385" cy="330" r="8" fill="#f5d0f5" stroke="#9b59b6" stroke-width="1"/>
+    <text x="385" y="333" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2c3e50">C</text>
+    
+    <circle cx="410" cy="330" r="8" fill="#e8d5f2" stroke="#9b59b6" stroke-width="1"/>
+    <text x="410" y="333" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2c3e50">A</text>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <g id="additional-elements">
+    <!-- Музыкальные символы -->
+    <path d="M 450 100 Q 460 95, 465 105 Q 460 115, 450 110 Z" fill="#9b59b6"/>
+    <line x1="465" y1="105" x2="475" y2="100" stroke="#9b59b6" stroke-width="1.5"/>
+    <line x1="465" y1="105" x2="475" y2="105" stroke="#9b59b6" stroke-width="1.5"/>
+    
+    <path d="M 460 125 Q 470 120, 475 130 Q 470 140, 460 135 Z" fill="#9b59b6"/>
+    <line x1="475" y1="130" x2="485" y2="125" stroke="#9b59b6" stroke-width="1.5"/>
+    <line x1="475" y1="130" x2="485" y2="130" stroke="#9b59b6" stroke-width="1.5"/>
+    
+    <!-- Ключ -->
+    <path d="M 440 150 C 440 140, 445 135, 450 140 C 455 135, 460 140, 460 150 C 460 160, 455 165, 450 160 C 445 165, 440 160, 440 150" fill="#9b59b6"/>
+    
+    <!-- Ноты -->
+    <ellipse cx="445" cy="180" rx="5" ry="4" fill="#9b59b6" transform="rotate(-20 445 180)"/>
+    <line x1="448" y1="180" x2="448" y2="165" stroke="#9b59b6" stroke-width="1"/>
+    
+    <ellipse cx="455" cy="185" rx="5" ry="4" fill="#9b59b6" transform="rotate(-20 455 185)"/>
+    <line x1="458" y1="185" x2="458" y2="170" stroke="#9b59b6" stroke-width="1"/>
+    
+    <!-- Темп -->
+    <text x="430" y="210" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Темп:</text>
+    <rect x="430" y="215" width="40" height="12" fill="#e8d5f2" stroke="#9b59b6" stroke-width="1" rx="3"/>
+    <text x="450" y="224" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#2c3e50">Allegro</text>
+    
+    <!-- Динамика -->
+    <text x="430" y="245" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Динамика:</text>
+    <text x="430" y="258" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">p (piano)</text>
+    <text x="430" y="268" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">mp (mezzo-piano)</text>
+    <text x="430" y="278" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">mf (mezzo-forte)</text>
+    <text x="430" y="288" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">f (forte)</text>
+  </g>
+  
+  <!-- Разделители -->
+  <line x1="30" y1="75" x2="470" y2="75" stroke="#9b59b6" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="30" y1="305" x2="470" y2="305" stroke="#9b59b6" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Подписи к схемам -->
+  <text x="100" y="310" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#7f8c8d">Сонатная форма</text>
+  <text x="310" y="315" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#7f8c8d">Рондо</text>
+</svg>
