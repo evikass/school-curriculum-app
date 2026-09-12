@@ -1,0 +1,164 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">ОБЩЕСТВОЗНАНИЕ · 7 КЛАСС</text>
+  
+  <!-- Заголовок урока -->
+  <rect x="100" y="50" width="300" height="35" rx="5" fill="#e74c3c"/>
+  <text x="250" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Трудовая деятельность</text>
+  
+  <!-- Основной контейнер -->
+  <rect x="20" y="100" width="460" height="230" fill="white" stroke="#ddd" stroke-width="1" rx="5"/>
+  
+  <!-- Ключевое понятие: Деятельность человека -->
+  <rect x="40" y="120" width="200" height="40" fill="#e74c3c" rx="3"/>
+  <text x="140" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Деятельность человека</text>
+  
+  <!-- Связи -->
+  <line x1="240" y1="140" x2="280" y2="140" stroke="#e74c3c" stroke-width="2"/>
+  <polygon points="280,140 270,135 270,145" fill="#e74c3c"/>
+  
+  <!-- Трудовая деятельность -->
+  <rect x="280" y="120" width="180" height="40" fill="#c0392b" rx="3"/>
+  <text x="370" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Трудовая деятельность</text>
+  
+  <!-- Виды деятельности -->
+  <text x="140" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Виды деятельности:</text>
+  
+  <!-- Игровая деятельность -->
+  <rect x="40" y="200" width="80" height="30" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1" rx="3"/>
+  <text x="80" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Игровая</text>
+  
+  <!-- Учебная деятельность -->
+  <rect x="130" y="200" width="80" height="30" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1" rx="3"/>
+  <text x="170" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Учебная</text>
+  
+  <!-- Трудовая -->
+  <rect x="220" y="200" width="80" height="30" fill="#ecf0f1" stroke="#e74c3c" stroke-width="2" rx="3"/>
+  <text x="260" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Трудовая</text>
+  
+  <!-- Социальная -->
+  <rect x="310" y="200" width="80" height="30" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1" rx="3"/>
+  <text x="350" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Социальная</text>
+  
+  <!-- Связи с видами деятельности -->
+  <line x1="140" y1="170" x2="80" y2="200" stroke="#95a5a6" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="140" y1="170" x2="170" y2="200" stroke="#95a5a6" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="140" y1="170" x2="260" y2="200" stroke="#e74c3c" stroke-width="2"/>
+  <line x1="140" y1="170" x2="350" y2="200" stroke="#95a5a6" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <!-- Свойства трудовой деятельности -->
+  <text x="370" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Свойства:</text>
+  
+  <!-- Целенаправленность -->
+  <circle cx="320" cy="210" r="3" fill="#e74c3c"/>
+  <text x="330" y="215" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Целенаправленность</text>
+  
+  <!-- Осознанность -->
+  <circle cx="320" cy="230" r="3" fill="#e74c3c"/>
+  <text x="330" y="235" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Осознанность</text>
+  
+  <!-- Преобразование -->
+  <circle cx="320" cy="250" r="3" fill="#e74c3c"/>
+  <text x="330" y="255" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Преобразование</text>
+  
+  <!-- Знаково-символический характер -->
+  <circle cx="320" cy="270" r="3" fill="#e74c3c"/>
+  <text x="330" y="275" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Знаковый характер</text>
+  
+  <!-- Связи со свойствами -->
+  <line x1="370" y1="170" x2="320" y2="210" stroke="#e74c3c" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="370" y1="170" x2="320" y2="230" stroke="#e74c3c" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="370" y1="170" x2="320" y2="250" stroke="#e74c3c" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="370" y1="170" x2="320" y2="270" stroke="#e74c3c" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- Значение труда -->
+  <text x="250" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Значение труда в жизни общества:</text>
+  
+  <!-- Экономическое значение -->
+  <rect x="40" y="310" width="100" height="20" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1" rx="2"/>
+  <text x="90" y="324" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Экономическое</text>
+  
+  <!-- Социальное значение -->
+  <rect x="150" y="310" width="100" height="20" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1" rx="2"/>
+  <text x="200" y="324" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Социальное</text>
+  
+  <!-- Духовное значение -->
+  <rect x="260" y="310" width="100" height="20" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1" rx="2"/>
+  <text x="310" y="324" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Духовное</text>
+  
+  <!-- Личностное значение -->
+  <rect x="370" y="310" width="100" height="20" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1" rx="2"/>
+  <text x="420" y="324" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Личностное</text>
+  
+  <!-- Разделительная линия -->
+  <line x1="40" y1="175" x2="460" y2="175" stroke="#ecf0f1" stroke-width="1"/>
+  
+  <!-- Иконки труда -->
+  <!-- Молоток -->
+  <rect x="50" y="250" width="20" height="30" fill="#34495e" rx="2"/>
+  <rect x="45" y="240" width="30" height="15" fill="#e74c3c" rx="2"/>
+  
+  <!-- Колесо -->
+  <circle cx="90" cy="265" r="15" fill="none" stroke="#34495e" stroke-width="2"/>
+  <line x1="90" y1="250" x2="90" y2="280" stroke="#34495e" stroke-width="2"/>
+  <line x1="75" y1="265" x2="105" y2="265" stroke="#34495e" stroke-width="2"/>
+  
+  <!-- Компьютер -->
+  <rect x="120" y="255" width="30" height="20" fill="#34495e" rx="2"/>
+  <rect x="125" y="275" width="20" height="5" fill="#34495e"/>
+  <rect x="130" y="280" width="10" height="5" fill="#34495e"/>
+  <rect x="125" y="258" width="20" height="15" fill="#3498db" rx="1"/>
+  
+  <!-- Книга -->
+  <rect x="160" y="255" width="20" height="25" fill="#e74c3c" rx="1"/>
+  <line x1="170" y1="255" x2="170" y2="280" stroke="white" stroke-width="1"/>
+  
+  <!-- Дерево -->
+  <rect x="195" y="270" width="8" height="15" fill="#8b4513"/>
+  <circle cx="199" cy="265" r="12" fill="#27ae60"/>
+  <circle cx="190" cy="268" r="10" fill="#27ae60"/>
+  <circle cx="208" cy="268" r="10" fill="#27ae60"/>
+  
+  <!-- Инструменты -->
+  <line x1="240" y1="260" x2="250" y2="250" stroke="#34495e" stroke-width="3"/>
+  <line x1="250" y1="250" x2="255" y2="255" stroke="#34495e" stroke-width="3"/>
+  <line x1="250" y1="250" x2="260" y2="260" stroke="#34495e" stroke-width="3"/>
+  <rect x="245" y="260" width="10" height="5" fill="#34495e" rx="1"/>
+  
+  <!-- Людские фигуры -->
+  <circle cx="280" cy="245" r="5" fill="#34495e"/>
+  <path d="M280,250 L280,260 L275,265 L285,265 Z" fill="#34495e"/>
+  
+  <circle cx="300" cy="245" r="5" fill="#34495e"/>
+  <path d="M300,250 L300,260 L295,265 L305,265 Z" fill="#34495e"/>
+  
+  <circle cx="320" cy="245" r="5" fill="#34495e"/>
+  <path d="M320,250 L320,260 L315,265 L325,265 Z" fill="#34495e"/>
+  
+  <!-- Фабрика -->
+  <rect x="340" y="260" width="40" height="20" fill="#34495e"/>
+  <rect x="350" y="245" width="10" height="20" fill="#34495e"/>
+  <rect x="365" y="250" width="8" height="15" fill="#34495e"/>
+  <circle cx="355" cy="240" r="3" fill="#e74c3c"/>
+  
+  <!-- Дополнительные элементы -->
+  <circle cx="430" cy="265" r="10" fill="#e74c3c"/>
+  <text x="430" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">!</text>
+  
+  <!-- Подписи к иконкам -->
+  <text x="60" y="295" font-family="Arial, sans-serif" font-size="8" fill="#7f8c8d">Ремесло</text>
+  <text x="90" y="295" font-family="Arial, sans-serif" font-size="8" fill="#7f8c8d">Транспорт</text>
+  <text x="130" y="295" font-family="Arial, sans-serif" font-size="8" fill="#7f8c8d">IT</text>
+  <text x="165" y="295" font-family="Arial, sans-serif" font-size="8" fill="#7f8c8d">Образование</text>
+  <text x="195" y="295" font-family="Arial, sans-serif" font-size="8" fill="#7f8c8d">Сельхоз</text>
+  <text x="245" y="295" font-family="Arial, sans-serif" font-size="8" fill="#7f8c8d">Строительство</text>
+  <text x="280" y="295" font-family="Arial, sans-serif" font-size="8" fill="#7f8c8d">Коллектив</text>
+  <text x="355" y="295" font-family="Arial, sans-serif" font-size="8" fill="#7f8c8d">Промышленность</text>
+  
+  <!-- Декоративные элементы -->
+  <line x1="30" y1="90" x2="470" y2="90" stroke="#e74c3c" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="30" y1="340" x2="470" y2="340" stroke="#e74c3c" stroke-width="1" stroke-dasharray="5,5"/>
+</svg>
