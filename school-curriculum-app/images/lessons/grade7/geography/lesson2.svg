@@ -1,0 +1,157 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">ГЕОГРАФИЯ · 7 КЛАСС</text>
+  
+  <!-- Название урока -->
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#34495e">Атмосфера и климаты Земли</text>
+  
+  <!-- Заголовок раздела -->
+  <text x="50" y="90" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Главные особенности природы Земли</text>
+  
+  <!-- Солнце -->
+  <circle cx="100" cy="130" r="20" fill="#f39c12"/>
+  <path d="M100 110 L100 90 M120 130 L140 130 M100 150 L100 170 M80 130 L60 130 M115 115 L125 105 M115 145 L125 155 M85 115 L75 105 M85 145 L75 155" stroke="#f39c12" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Атмосферные слои -->
+  <g transform="translate(200, 120)">
+    <!-- Тропосфера -->
+    <rect x="0" y="0" width="200" height="40" fill="#3498db" opacity="0.7"/>
+    <text x="100" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Тропосфера</text>
+    <line x1="0" y1="40" x2="200" y2="40" stroke="#2980b9" stroke-width="1"/>
+    
+    <!-- Стратосфера -->
+    <rect x="0" y="40" width="200" height="35" fill="#9b59b6" opacity="0.7"/>
+    <text x="100" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Стратосфера</text>
+    <line x1="0" y1="75" x2="200" y2="75" stroke="#8e44ad" stroke-width="1"/>
+    
+    <!-- Мезосфера -->
+    <rect x="0" y="75" width="200" height="30" fill="#e74c3c" opacity="0.7"/>
+    <text x="100" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Мезосфера</text>
+    <line x1="0" y1="105" x2="200" y2="105" stroke="#c0392b" stroke-width="1"/>
+    
+    <!-- Термосфера -->
+    <rect x="0" y="105" width="200" height="25" fill="#f39c12" opacity="0.7"/>
+    <text x="100" y="122" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Термосфера</text>
+    <line x1="0" y1="130" x2="200" y2="130" stroke="#e67e22" stroke-width="1"/>
+    
+    <!-- Экзосфера -->
+    <rect x="0" y="130" width="200" height="20" fill="#27ae60" opacity="0.7"/>
+    <text x="100" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Экзосфера</text>
+  </g>
+  
+  <!-- Подписи атмосферных слоев -->
+  <text x="410" y="145" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">0-12 км</text>
+  <text x="410" y="175" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">12-50 км</text>
+  <text x="410" y="205" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">50-85 км</text>
+  <text x="410" y="230" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">85-600 км</text>
+  <text x="410" y="255" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">600+ км</text>
+  
+  <!-- Знак температуры -->
+  <path d="M50 200 L50 250 L70 250 L70 210 L90 210 L90 250 L110 250 L110 200" stroke="#e74c3c" stroke-width="3" fill="none"/>
+  <text x="80" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">t°</text>
+  
+  <!-- Круговорот воды в природе -->
+  <g transform="translate(300, 200)">
+    <circle cx="50" cy="50" r="40" fill="none" stroke="#3498db" stroke-width="2"/>
+    <path d="M50 10 L50 90 M90 50 L10 50" stroke="#3498db" stroke-width="2"/>
+    
+    <!-- Облако -->
+    <ellipse cx="50" cy="20" rx="25" ry="15" fill="#ecf0f1"/>
+    <ellipse cx="35" cy="25" rx="15" ry="10" fill="#ecf0f1"/>
+    <ellipse cx="65" cy="25" rx="15" ry="10" fill="#ecf0f1"/>
+    
+    <!-- Дождь -->
+    <line x1="40" y1="35" x2="40" y2="45" stroke="#3498db" stroke-width="2"/>
+    <line x1="50" y1="35" x2="50" y2="45" stroke="#3498db" stroke-width="2"/>
+    <line x1="60" y1="35" x2="60" y2="45" stroke="#3498db" stroke-width="2"/>
+    
+    <!-- Солнце в цикле -->
+    <circle cx="50" cy="80" r="10" fill="#f39c12"/>
+    
+    <!-- Стрелки цикла -->
+    <path d="M70 50 Q90 40 90 20 Q90 0 70 0" fill="none" stroke="#27ae60" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M50 90 Q40 100 20 100 Q0 100 0 80" fill="none" stroke="#27ae60" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M30 50 Q10 40 10 20 Q10 0 30 0" fill="none" stroke="#27ae60" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Текст цикла -->
+    <text x="100" y="25" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Испарение</text>
+    <text x="100" y="75" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Конденсация</text>
+    <text x="100" y="50" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Осадки</text>
+  </g>
+  
+  <!-- Климатические пояса -->
+  <g transform="translate(50, 280)">
+    <rect x="0" y="0" width="400" height="50" fill="#27ae60" opacity="0.2" rx="5"/>
+    <text x="200" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#27ae60">Климатические пояса</text>
+    
+    <!-- Экваториальный -->
+    <rect x="10" y="25" width="70" height="20" fill="#27ae60" opacity="0.5"/>
+    <text x="45" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Экваториальный</text>
+    
+    <!-- Тропический -->
+    <rect x="90" y="25" width="70" height="20" fill="#f39c12" opacity="0.5"/>
+    <text x="125" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Тропический</text>
+    
+    <!-- Умеренный -->
+    <rect x="170" y="25" width="70" height="20" fill="#3498db" opacity="0.5"/>
+    <text x="205" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Умеренный</text>
+    
+    <!-- Субарктический -->
+    <rect x="250" y="25" width="70" height="20" fill="#9b59b6" opacity="0.5"/>
+    <text x="285" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Субарктический</text>
+    
+    <!-- Арктический -->
+    <rect x="330" y="25" width="60" height="20" fill="#34495e" opacity="0.5"/>
+    <text x="360" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Арктический</text>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <line x1="50" y1="170" x2="50" y2="180" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="50" y1="180" x2="70" y2="180" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="70" y1="180" x2="70" y2="170" stroke="#2c3e50" stroke-width="2"/>
+  
+  <!-- Маркеры для стрелок -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#27ae60"/>
+    </marker>
+  </defs>
+  
+  <!-- Дополнительные подписи -->
+  <text x="150" y="135" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Земля</text>
+  <text x="420" y="130" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Высота (км)</text>
+  <text x="420" y="275" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Широта</text>
+  
+  <!-- Иконки -->
+  <circle cx="450" cy="130" r="5" fill="#27ae60"/>
+  <circle cx="450" cy="150" r="5" fill="#27ae60"/>
+  <circle cx="450" cy="170" r="5" fill="#27ae60"/>
+  <circle cx="450" cy="190" r="5" fill="#27ae60"/>
+  <circle cx="450" cy="210" r="5" fill="#27ae60"/>
+  
+  <!-- Линии соединения -->
+  <line x1="100" y1="150" x2="200" y2="140" stroke="#95a5a6" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="300" y1="250" x2="350" y2="280" stroke="#95a5a6" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <!-- Дополнительные текстовые элементы -->
+  <text x="50" y="160" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Воздушная оболочка</text>
+  <text x="50" y="175" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Защита от космических</text>
+  <text x="50" y="190" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">лучей</text>
+  
+  <!-- Значок температуры -->
+  <rect x="450" y="220" width="30" height="40" fill="none" stroke="#e74c3c" stroke-width="2" rx="5"/>
+  <circle cx="465" cy="250" r="5" fill="#e74c3c"/>
+  <text x="465" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">+</text>
+  
+  <!-- Легенда -->
+  <text x="50" y="340" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Легенда:</text>
+  <rect x="100" y="330" width="15" height="15" fill="#27ae60" opacity="0.7"/>
+  <text x="120" y="340" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Атмосферные явления</text>
+  <rect x="230" y="330" width="15" height="15" fill="#3498db" opacity="0.7"/>
+  <text x="250" y="340" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Водные ресурсы</text>
+  <rect x="350" y="330" width="15" height="15" fill="#f39c12" opacity="0.7"/>
+  <text x="370" y="340" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Тепловые зоны</text>
+</svg>
