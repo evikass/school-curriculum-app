@@ -1,0 +1,142 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e9ecef;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Тень -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGradient)" />
+  
+  <!-- Заголовок -->
+  <rect x="10" y="10" width="480" height="35" fill="#e74c3c" rx="5" />
+  <text x="250" y="32" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">ОБЩЕСТВОЗНАНИЕ · 7 КЛАСС</text>
+  
+  <!-- Название урока -->
+  <text x="250" y="65" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#2c3e50">Формы правления</text>
+  
+  <!-- Разделительная линия -->
+  <line x1="50" y1="75" x2="450" y2="75" stroke="#e74c3c" stroke-width="2" />
+  
+  <!-- Иконка власти -->
+  <circle cx="80" cy="120" r="25" fill="#e74c3c" filter="url(#shadow)" />
+  <path d="M80 105 L80 135 M70 115 L90 115 M70 125 L90 125" stroke="white" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- Текст: Власть -->
+  <text x="80" y="155" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">Власть</text>
+  
+  <!-- Стрелка вправо -->
+  <path d="M120 120 L170 120" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead)" />
+  
+  <!-- Определение власти -->
+  <rect x="180" y="100" width="140" height="40" fill="white" stroke="#e74c3c" stroke-width="2" rx="5" />
+  <text x="250" y="115" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">Руководство,</text>
+  <text x="250" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">управление</text>
+  
+  <!-- Разделительная линия -->
+  <line x1="50" y1="170" x2="450" y2="170" stroke="#95a5a6" stroke-width="1" stroke-dasharray="5,5" />
+  
+  <!-- Заголовок: Формы правления -->
+  <text x="250" y="195" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">Формы правления</text>
+  
+  <!-- Дерево форм правления -->
+  <circle cx="250" cy="230" r="20" fill="#e74c3c" />
+  <text x="250" y="235" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Формы</text>
+  
+  <!-- Ветви -->
+  <line x1="230" y1="230" x2="150" y2="230" stroke="#e74c3c" stroke-width="2" />
+  <line x1="270" y1="230" x2="350" y2="230" stroke="#e74c3c" stroke-width="2" />
+  
+  <!-- Монархия -->
+  <rect x="70" y="220" width="80" height="20" fill="#ecf0f1" stroke="#e74c3c" stroke-width="1.5" rx="10" />
+  <text x="110" y="234" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">Монархия</text>
+  
+  <!-- Республика -->
+  <rect x="350" y="220" width="80" height="20" fill="#ecf0f1" stroke="#e74c3c" stroke-width="1.5" rx="10" />
+  <text x="390" y="234" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">Республика</text>
+  
+  <!-- Подразделы монархии -->
+  <line x1="110" y1="240" x2="70" y2="270" stroke="#e74c3c" stroke-width="1.5" />
+  <line x1="110" y1="240" x2="150" y2="270" stroke="#e74c3c" stroke-width="1.5" />
+  
+  <rect x="20" y="270" width="70" height="25" fill="white" stroke="#95a5a6" stroke-width="1" rx="5" />
+  <text x="55" y="285" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Абсолютная</text>
+  
+  <rect x="120" y="270" width="70" height="25" fill="white" stroke="#95a5a6" stroke-width="1" rx="5" />
+  <text x="155" y="285" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Конституц.</text>
+  
+  <!-- Подразделы республики -->
+  <line x1="390" y1="240" x2="350" y2="270" stroke="#e74c3c" stroke-width="1.5" />
+  <line x1="390" y1="240" x2="430" y2="270" stroke="#e74c3c" stroke-width="1.5" />
+  
+  <rect x="300" y="270" width="70" height="25" fill="white" stroke="#95a5a6" stroke-width="1" rx="5" />
+  <text x="335" y="285" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Президент.</text>
+  
+  <rect x="400" y="270" width="70" height="25" fill="white" stroke="#95a5a6" stroke-width="1" rx="5" />
+  <text x="435" y="285" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">Парламент.</text>
+  
+  <!-- Примеры монархий -->
+  <circle cx="55" cy="310" r="3" fill="#e74c3c" />
+  <text x="65" y="314" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Саудовская Аравия</text>
+  
+  <circle cx="55" cy="325" r="3" fill="#e74c3c" />
+  <text x="65" y="329" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Ватикан</text>
+  
+  <circle cx="155" cy="310" r="3" fill="#e74c3c" />
+  <text x="165" y="314" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Великобритания</text>
+  
+  <circle cx="155" cy="325" r="3" fill="#e74c3c" />
+  <text x="165" y="329" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Япония</text>
+  
+  <!-- Примеры республик -->
+  <circle cx="335" cy="310" r="3" fill="#e74c3c" />
+  <text x="345" y="314" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">США</text>
+  
+  <circle cx="335" cy="325" r="3" fill="#e74c3c" />
+  <text x="345" y="329" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Франция</text>
+  
+  <circle cx="435" cy="310" r="3" fill="#e74c3c" />
+  <text x="445" y="314" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Германия</text>
+  
+  <circle cx="435" cy="325" r="3" fill="#e74c3c" />
+  <text x="445" y="329" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">Италия</text>
+  
+  <!-- Дополнительные элементы оформления -->
+  <rect x="10" y="10" width="480" height="335" fill="none" stroke="#e74c3c" stroke-width="2" rx="5" />
+  
+  <!-- Вспомогательные линии -->
+  <line x1="50" y1="205" x2="450" y2="205" stroke="#ecf0f1" stroke-width="1" />
+  
+  <!-- Стрелка определение -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e74c3c" />
+    </marker>
+  </defs>
+  
+  <!-- Текст внизу: Тема: Политика и власть -->
+  <text x="250" y="340" font-family="Arial, sans-serif" font-size="12" font-style="italic" text-anchor="middle" fill="#7f8c8d">Тема: Политика и власть</text>
+  
+  <!-- Дополнительные элементы -->
+  <rect x="60" y="85" width="4" height="30" fill="#e74c3c" rx="2" />
+  <rect x="436" y="85" width="4" height="30" fill="#e74c3c" rx="2" />
+  
+  <!-- Малые декоративные элементы -->
+  <circle cx="30" cy="200" r="2" fill="#e74c3c" opacity="0.5" />
+  <circle cx="470" cy="200" r="2" fill="#e74c3c" opacity="0.5" />
+  <circle cx="30" cy="250" r="2" fill="#e74c3c" opacity="0.5" />
+  <circle cx="470" cy="250" r="2" fill="#e74c3c" opacity="0.5" />
+  
+  <!-- Вспомогательные квадраты -->
+  <rect x="75" y="280" width="15" height="15" fill="none" stroke="#e74c3c" stroke-width="1" />
+  <rect x="195" y="280" width="15" height="15" fill="none" stroke="#e74c3c" stroke-width="1" />
+  <rect x="315" y="280" width="15" height="15" fill="none" stroke="#e74c3c" stroke-width="1" />
+  <rect x="435" y="280" width="15" height="15" fill="none" stroke="#e74c3c" stroke-width="1" />
+</svg>
