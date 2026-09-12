@@ -1,0 +1,158 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e9ecef;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Тень -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  
+  <!-- Заголовок класса -->
+  <rect x="150" y="20" width="200" height="30" rx="5" fill="#7f8c8d" filter="url(#shadow)"/>
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">ТЕХНОЛОГИЯ · 7 КЛАСС</text>
+  
+  <!-- Название урока -->
+  <rect x="100" y="60" width="300" height="25" rx="5" fill="#95a5a6"/>
+  <text x="250" y="77" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Защита и оценка проекта</text>
+  
+  <!-- Центральный круг "Проектная деятельность" -->
+  <circle cx="250" cy="150" r="45" fill="#7f8c8d" filter="url(#shadow)"/>
+  <text x="250" y="150" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" dy="0">Проектная</text>
+  <text x="250" y="162" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" dy="0">деятельность</text>
+  
+  <!-- Этапы проекта -->
+  <!-- Этап 1: Анализ -->
+  <rect x="50" y="120" width="80" height="60" rx="5" fill="#bdc3c7" filter="url(#shadow)"/>
+  <text x="90" y="145" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">Анализ</text>
+  <text x="90" y="160" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="middle">проблемы</text>
+  <line x1="130" y1="150" x2="205" y2="150" stroke="#7f8c8d" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Этап 2: Планирование -->
+  <rect x="50" y="190" width="80" height="60" rx="5" fill="#bdc3c7" filter="url(#shadow)"/>
+  <text x="90" y="215" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">Планирование</text>
+  <text x="90" y="230" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="middle">работ</text>
+  <line x1="90" y1="190" x2="90" y2="170" stroke="#7f8c8d" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Этап 3: Разработка -->
+  <rect x="370" y="120" width="80" height="60" rx="5" fill="#bdc3c7" filter="url(#shadow)"/>
+  <text x="410" y="145" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">Разработка</text>
+  <text x="410" y="160" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="middle">проекта</text>
+  <line x1="295" y1="150" x2="370" y2="150" stroke="#7f8c8d" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Этап 4: Оценка -->
+  <rect x="370" y="190" width="80" height="60" rx="5" fill="#bdc3c7" filter="url(#shadow)"/>
+  <text x="410" y="215" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">Оценка</text>
+  <text x="410" y="230" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="middle">результатов</text>
+  <line x1="410" y1="190" x2="410" y2="170" stroke="#7f8c8d" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Этап 5: Защита -->
+  <rect x="210" y="220" width="80" height="60" rx="5" fill="#bdc3c7" filter="url(#shadow)"/>
+  <text x="250" y="245" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">Защита</text>
+  <text x="250" y="260" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="middle">проекта</text>
+  <line x1="250" y1="195" x2="250" y2="220" stroke="#7f8c8d" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Критерии оценки -->
+  <rect x="160" y="90" width="180" height="35" rx="5" fill="#95a5a6"/>
+  <text x="250" y="107" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Критерии оценки</text>
+  
+  <!-- Пункты критериев -->
+  <circle cx="170" cy="105" r="3" fill="#ecf0f1"/>
+  <text x="178" y="108" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">Актуальность</text>
+  
+  <circle cx="250" cy="105" r="3" fill="#ecf0f1"/>
+  <text x="258" y="108" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">Новизна</text>
+  
+  <circle cx="330" cy="105" r="3" fill="#ecf0f1"/>
+  <text x="338" y="108" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">Практическая ценность</text>
+  
+  <!-- Иконки для этапов -->
+  <!-- Анализ - лупа -->
+  <circle cx="70" cy="135" r="8" fill="none" stroke="#34495e" stroke-width="1.5"/>
+  <line x1="76" y1="141" x2="82" y2="147" stroke="#34495e" stroke-width="1.5"/>
+  
+  <!-- Планирование - календарь -->
+  <rect x="65" y="200" width="10" height="12" fill="none" stroke="#34495e" stroke-width="1"/>
+  <line x1="65" y1="204" x2="75" y2="204" stroke="#34495e" stroke-width="1"/>
+  <line x1="65" y1="208" x2="75" y2="208" stroke="#34495e" stroke-width="1"/>
+  
+  <!-- Разработка - карандаш -->
+  <line x1="430" y1="135" x2="420" y2="145" stroke="#34495e" stroke-width="1.5"/>
+  <polygon points="430,135 425,140 420,145" fill="#34495e"/>
+  
+  <!-- Оценка - галочка -->
+  <polyline points="400,215 405,220 415,210" fill="none" stroke="#34495e" stroke-width="2"/>
+  
+  <!-- Защита - микрофон -->
+  <rect x="240" y="235" width="5" height="10" rx="2" fill="#34495e"/>
+  <line x1="242.5" y1="245" x2="242.5" y2="250" stroke="#34495e" stroke-width="1"/>
+  <line x1="238" y1="250" x2="247" y2="250" stroke="#34495e" stroke-width="1"/>
+  
+  <!-- Схема обратной связи -->
+  <rect x="50" y="300" width="400" height="30" rx="5" fill="#7f8c8d" opacity="0.8"/>
+  <text x="250" y="318" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">Обратная связь → Улучшение проекта → Повторная защита</text>
+  
+  <!-- Стрелки схемы -->
+  <path d="M 410 250 L 410 280 L 250 280 L 250 300" fill="none" stroke="#7f8c8d" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 250 300 L 250 280 L 90 280 L 90 250" fill="none" stroke="#7f8c8d" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Дополнительные элементы -->
+  <!-- Точки соединения -->
+  <circle cx="90" cy="170" r="3" fill="#7f8c8d"/>
+  <circle cx="410" cy="170" r="3" fill="#7f8c8d"/>
+  <circle cx="250" cy="195" r="3" fill="#7f8c8d"/>
+  <circle cx="250" cy="220" r="3" fill="#7f8c8d"/>
+  
+  <!-- Декоративные элементы -->
+  <rect x="20" y="20" width="3" height="310" fill="#95a5a6" opacity="0.5"/>
+  <rect x="477" y="20" width="3" height="310" fill="#95a5a6" opacity="0.5"/>
+  
+  <!-- Текстовые пояснения -->
+  <text x="50" y="95" font-family="Arial, sans-serif" font-size="7" fill="#7f8c8d">Начало проекта</text>
+  <text x="410" y="95" font-family="Arial, sans-serif" font-size="7" fill="#7f8c8d">Завершение этапа</text>
+  <text x="50" y="285" font-family="Arial, sans-serif" font-size="7" fill="#7f8c8d">Цикл улучшения</text>
+  <text x="330" y="170" font-family="Arial, sans-serif" font-size="7" fill="#7f8c8d">Этапы</text>
+  
+  <!-- Вспомогательные линии -->
+  <line x1="20" y1="150" x2="50" y2="150" stroke="#95a5a6" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="450" y1="150" x2="480" y2="150" stroke="#95a5a6" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- Дополнительные текстовые элементы -->
+  <text x="140" y="140" font-family="Arial, sans-serif" font-size="6" fill="#7f8c8d">Исследование</text>
+  <text x="140" y="210" font-family="Arial, sans-serif" font-size="6" fill="#7f8c8d">Цели и задачи</text>
+  <text x="340" y="140" font-family="Arial, sans-serif" font-size="6" fill="#7f8c8d">Концепция</text>
+  <text x="340" y="210" font-family="Arial, sans-serif" font-size="6" fill="#7f8c8d">Результаты</text>
+  
+  <!-- Заголовки для критериев -->
+  <text x="90" y="80" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="middle">Основные</text>
+  <text x="90" y="91" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="middle">параметры</text>
+  
+  <!-- Значки оценки -->
+  <rect x="170" y="285" width="15" height="15" rx="2" fill="#ecf0f1"/>
+  <text x="177" y="295" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">А</text>
+  
+  <rect x="190" y="285" width="15" height="15" rx="2" fill="#ecf0f1"/>
+  <text x="197" y="295" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">Б</text>
+  
+  <rect x="210" y="285" width="15" height="15" rx="2" fill="#ecf0f1"/>
+  <text x="217" y="295" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">В</text>
+  
+  <!-- Определения -->
+  <rect x="250" y="300" width="200" height="25" rx="3" fill="#ecf0f1"/>
+  <text x="350" y="313" font-family="Arial, sans-serif" font-size="7" fill="#2c3e50" text-anchor="middle">Проект - план деятельности</text>
+  <text x="350" y="320" font-family="Arial, sans-serif" font-size="7" fill="#2c3e50" text-anchor="middle">по созданию продукта</text>
+  
+  <!-- Стрелка маркер -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7f8c8d"/>
+    </marker>
+  </defs>
+</svg>
