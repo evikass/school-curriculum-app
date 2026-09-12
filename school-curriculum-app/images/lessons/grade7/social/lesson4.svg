@@ -1,0 +1,129 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">ОБЩЕСТВОЗНАНИЕ · 7 КЛАСС</text>
+  
+  <!-- Название урока -->
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#e74c3c">Что такое деятельность</text>
+  <text x="250" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#34495e">Деятельность человека</text>
+  
+  <!-- Центральный круг - Деятельность -->
+  <circle cx="250" cy="175" r="60" fill="#e74c3c" opacity="0.9"/>
+  <text x="250" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">ДЕЯТЕЛЬНОСТЬ</text>
+  <text x="250" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">человека</text>
+  
+  <!-- Компоненты деятельности -->
+  <!-- Цель -->
+  <circle cx="120" cy="120" r="40" fill="#3498db" opacity="0.8"/>
+  <text x="120" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Цель</text>
+  <text x="120" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">и мотив</text>
+  <line x1="150" y1="145" x2="210" y2="155" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Предмет -->
+  <circle cx="380" cy="120" r="40" fill="#9b59b6" opacity="0.8"/>
+  <text x="380" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Предмет</text>
+  <text x="380" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">деятельности</text>
+  <line x1="350" y1="145" x2="290" y2="155" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Средства -->
+  <circle cx="120" cy="230" r="40" fill="#f39c12" opacity="0.8"/>
+  <text x="120" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Средства</text>
+  <text x="120" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">и методы</text>
+  <line x1="150" y1="205" x2="210" y2="195" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Результат -->
+  <circle cx="380" cy="230" r="40" fill="#27ae60" opacity="0.8"/>
+  <text x="380" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Результат</text>
+  <text x="380" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">и продукт</text>
+  <line x1="350" y1="205" x2="290" y2="195" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Типы деятельности -->
+  <rect x="20" y="290" width="110" height="40" rx="5" fill="#e74c3c" opacity="0.7"/>
+  <text x="75" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Труд</text>
+  
+  <rect x="145" y="290" width="110" height="40" rx="5" fill="#3498db" opacity="0.7"/>
+  <text x="200" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Учёба</text>
+  
+  <rect x="270" y="290" width="110" height="40" rx="5" fill="#9b59b6" opacity="0.7"/>
+  <text x="325" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Игра</text>
+  
+  <rect x="395" y="290" width="85" height="40" rx="5" fill="#27ae60" opacity="0.7"/>
+  <text x="437" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Творчество</text>
+  
+  <!-- Иконки -->
+  <!-- Иконка цели -->
+  <path d="M90 90 L90 80 L100 70 L110 80 L110 90 Z" fill="#2c3e50" opacity="0.6"/>
+  
+  <!-- Иконка предмета -->
+  <rect x="365" y="70" width="30" height="25" rx="3" fill="#2c3e50" opacity="0.6"/>
+  <circle cx="380" cy="82" r="5" fill="#f8f9fa"/>
+  
+  <!-- Иконка средств -->
+  <path d="M100 250 L90 260 L100 270 L110 260 Z" fill="#2c3e50" opacity="0.6"/>
+  
+  <!-- Иконка результата -->
+  <rect x="365" y="250" width="30" height="25" rx="3" fill="#2c3e50" opacity="0.6"/>
+  <path d="M370 260 L375 265 L390 250" stroke="#27ae60" stroke-width="3" fill="none"/>
+  
+  <!-- Связи между типами -->
+  <path d="M130 310 L145 310" stroke="#95a5a6" stroke-width="2" stroke-dasharray="5,5"/>
+  <path d="M255 310 L270 310" stroke="#95a5a6" stroke-width="2" stroke-dasharray="5,5"/>
+  <path d="M380 310 L395 310" stroke="#95a5a6" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Дополнительные элементы -->
+  <circle cx="60" cy="175" r="8" fill="#e74c3c" opacity="0.7"/>
+  <circle cx="440" cy="175" r="8" fill="#e74c3c" opacity="0.7"/>
+  
+  <rect x="30" y="170" width="60" height="10" rx="5" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+  <rect x="410" y="170" width="60" height="10" rx="5" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+  
+  <!-- Подписи к компонентам -->
+  <text x="30" y="95" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Осознанность</text>
+  <text x="30" y="107" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">и направленность</text>
+  
+  <text x="420" y="95" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Объект</text>
+  <text x="420" y="107" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">внешнего мира</text>
+  
+  <text x="30" y="275" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Инструменты</text>
+  <text x="30" y="287" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">и способы</text>
+  
+  <text x="420" y="275" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Достижение</text>
+  <text x="420" y="287" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">целей</text>
+  
+  <!-- Определение деятельности -->
+  <rect x="150" y="90" width="200" height="30" rx="5" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="250" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Целенаправленная активность</text>
+  
+  <!-- Стрелка для определения -->
+  <line x1="250" y1="120" x2="250" y2="140" stroke="#95a5a6" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <!-- Характеристики деятельности -->
+  <text x="250" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#34495e">Ключевые характеристики деятельности</text>
+  <text x="60" y="340" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">осознанность</text>
+  <text x="440" y="340" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">целенаправленность</text>
+  
+  <!-- Дополнительные графические элементы -->
+  <path d="M180 160 Q200 150 220 160" stroke="#e74c3c" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M280 160 Q300 150 320 160" stroke="#e74c3c" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M220 190 Q200 200 180 190" stroke="#e74c3c" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M320 190 Q300 200 280 190" stroke="#e74c3c" stroke-width="2" fill="none" opacity="0.5"/>
+  
+  <!-- Дополнительные круги для визуального баланса -->
+  <circle cx="50" cy="50" r="5" fill="#e74c3c" opacity="0.4"/>
+  <circle cx="450" cy="50" r="5" fill="#e74c3c" opacity="0.4"/>
+  <circle cx="50" cy="300" r="5" fill="#e74c3c" opacity="0.4"/>
+  <circle cx="450" cy="300" r="5" fill="#e74c3c" opacity="0.4"/>
+  
+  <!-- Дополнительные линии -->
+  <line x1="0" y1="85" x2="500" y2="85" stroke="#ecf0f1" stroke-width="1"/>
+  <line x1="0" y1="265" x2="500" y2="265" stroke="#ecf0f1" stroke-width="1"/>
+  
+  <!-- Определение стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2c3e50"/>
+    </marker>
+  </defs>
+</svg>
