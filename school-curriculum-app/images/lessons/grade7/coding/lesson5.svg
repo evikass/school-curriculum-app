@@ -1,0 +1,112 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок -->
+  <rect x="20" y="20" width="460" height="40" fill="#2c3e50" rx="5"/>
+  <text x="250" y="45" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle">ПРОГРАММИРОВАНИЕ · 7 КЛАСС</text>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="90" font-family="Arial, sans-serif" font-size="24" fill="#2c3e50" text-anchor="middle" font-weight="bold">Условный оператор if</text>
+  <text x="250" y="115" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d" text-anchor="middle">Условия и ветвления</text>
+  
+  <!-- Схема условного оператора -->
+  <rect x="50" y="140" width="400" height="180" fill="white" stroke="#2c3e50" stroke-width="2" rx="10"/>
+  
+  <!-- Дерево решений -->
+  <circle cx="250" cy="170" r="15" fill="#3498db" stroke="#2c3e50" stroke-width="2"/>
+  <text x="250" y="175" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">?</text>
+  
+  <!-- Ветвление "ДА" -->
+  <line x1="235" y1="180" x2="150" y2="230" stroke="#2c3e50" stroke-width="2"/>
+  <text x="180" y="210" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50" font-weight="bold">ДА</text>
+  <rect x="80" y="230" width="140" height="60" fill="#2ecc71" stroke="#2c3e50" stroke-width="2" rx="5"/>
+  <text x="150" y="255" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Выполняется</text>
+  <text x="150" y="275" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">блок кода 1</text>
+  
+  <!-- Ветвление "НЕТ" -->
+  <line x1="265" y1="180" x2="350" y2="230" stroke="#2c3e50" stroke-width="2"/>
+  <text x="320" y="210" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50" font-weight="bold">НЕТ</text>
+  <rect x="280" y="230" width="140" height="60" fill="#e74c3c" stroke="#2c3e50" stroke-width="2" rx="5"/>
+  <text x="350" y="255" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Выполняется</text>
+  <text x="350" y="275" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">блок кода 2</text>
+  
+  <!-- Пример кода -->
+  <rect x="50" y="145" width="100" height="25" fill="#34495e" rx="3"/>
+  <text x="100" y="162" font-family="Courier New, monospace" font-size="11" fill="#2ecc71" text-anchor="middle">if (условие)</text>
+  
+  <rect x="50" y="175" width="100" height="25" fill="#34495e" rx="3"/>
+  <text x="100" y="192" font-family="Courier New, monospace" font-size="11" fill="#ecf0f1" text-anchor="middle">{ // код 1 }</text>
+  
+  <rect x="50" y="205" width="100" height="25" fill="#34495e" rx="3"/>
+  <text x="100" y="222" font-family="Courier New, monospace" font-size="11" fill="#ecf0f1" text-anchor="middle">else</text>
+  
+  <rect x="50" y="235" width="100" height="25" fill="#34495e" rx="3"/>
+  <text x="100" y="252" font-family="Courier New, monospace" font-size="11" fill="#ecf0f1" text-anchor="middle">{ // код 2 }</text>
+  
+  <!-- Иконки условий -->
+  <circle cx="420" cy="160" r="20" fill="#f39c12" stroke="#2c3e50" stroke-width="2"/>
+  <text x="420" y="165" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">!</text>
+  
+  <path d="M 420 200 L 410 220 L 430 220 Z" fill="#9b59b6" stroke="#2c3e50" stroke-width="2"/>
+  <text x="420" y="215" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">X</text>
+  
+  <rect x="410" y="240" width="20" height="20" fill="#1abc9c" stroke="#2c3e50" stroke-width="2"/>
+  <text x="420" y="254" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">V</text>
+  
+  <!-- Стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2c3e50"/>
+    </marker>
+  </defs>
+  
+  <line x1="160" y1="260" x2="270" y2="260" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="340" y1="260" x2="230" y2="260" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Подписи -->
+  <text x="70" y="305" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Условие</text>
+  <text x="420" y="305" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50" text-anchor="middle">Результат</text>
+  
+  <!-- Дополнительные элементы -->
+  <rect x="160" y="290" width="180" height="3" fill="#2c3e50"/>
+  <circle cx="170" cy="291" r="4" fill="#3498db"/>
+  <circle cx="190" cy="291" r="4" fill="#2ecc71"/>
+  <circle cx="210" cy="291" r="4" fill="#e74c3c"/>
+  <circle cx="230" cy="291" r="4" fill="#f39c12"/>
+  <circle cx="250" cy="291" r="4" fill="#9b59b6"/>
+  <circle cx="270" cy="291" r="4" fill="#1abc9c"/>
+  <circle cx="290" cy="291" r="4" fill="#34495e"/>
+  <circle cx="310" cy="291" r="4" fill="#ecf0f1"/>
+  <circle cx="330" cy="291" r="4" fill="#95a5a6"/>
+  
+  <!-- Вспомогательные линии -->
+  <line x1="50" y1="130" x2="450" y2="130" stroke="#2c3e50" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="50" y1="320" x2="450" y2="320" stroke="#2c3e50" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Точки для акцента -->
+  <circle cx="30" cy="170" r="3" fill="#2c3e50"/>
+  <circle cx="470" cy="170" r="3" fill="#2c3e50"/>
+  <circle cx="30" cy="230" r="3" fill="#2c3e50"/>
+  <circle cx="470" cy="230" r="3" fill="#2c3e50"/>
+  
+  <!-- Дополнительные текстовые элементы -->
+  <text x="250" y="340" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d" text-anchor="middle">Программная логика · Условные операторы</text>
+  
+  <!-- Декоративные элементы -->
+  <path d="M 40 35 L 50 45 L 40 55" fill="none" stroke="#2c3e50" stroke-width="2"/>
+  <path d="M 460 35 L 450 45 L 460 55" fill="none" stroke="#2c3e50" stroke-width="2"/>
+  
+  <!-- Мини-иконки -->
+  <rect x="20" y="150" width="15" height="15" fill="#3498db" rx="2"/>
+  <rect x="20" y="175" width="15" height="15" fill="#2ecc71" rx="2"/>
+  <rect x="20" y="200" width="15" height="15" fill="#e74c3c" rx="2"/>
+  <rect x="20" y="225" width="15" height="15" fill="#f39c12" rx="2"/>
+  <rect x="20" y="250" width="15" height="15" fill="#9b59b6" rx="2"/>
+  
+  <rect x="465" y="150" width="15" height="15" fill="#1abc9c" rx="2"/>
+  <rect x="465" y="175" width="15" height="15" fill="#34495e" rx="2"/>
+  <rect x="465" y="200" width="15" height="15" fill="#ecf0f1" rx="2"/>
+  <rect x="465" y="225" width="15" height="15" fill="#95a5a6" rx="2"/>
+  <rect x="465" y="250" width="15" height="15" fill="#2c3e50" rx="2"/>
+</svg>
