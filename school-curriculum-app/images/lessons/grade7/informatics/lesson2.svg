@@ -1,0 +1,152 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e9ecef;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Тень -->
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="2" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.2"/>
+      </feComponentTransfer>
+      <feMerge> 
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/> 
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGrad)" />
+  
+  <!-- Заголовок -->
+  <rect x="0" y="0" width="500" height="50" fill="#8e44ad" opacity="0.9" />
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">ИНФОРМАТИКА · 7 КЛАСС</text>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="75" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#8e44ad">Переменные и типы данных</text>
+  
+  <!-- Иконка переменной -->
+  <g transform="translate(50, 100)">
+    <rect x="0" y="0" width="80" height="60" rx="5" fill="#8e44ad" filter="url(#shadow)" />
+    <text x="40" y="35" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">X</text>
+    <text x="40" y="80" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Переменная</text>
+  </g>
+  
+  <!-- Стрелка -->
+  <line x1="140" y1="130" x2="180" y2="130" stroke="#8e44ad" stroke-width="2" marker-end="url(#arrowhead)" />
+  
+  <!-- Иконка значения -->
+  <g transform="translate(190, 100)">
+    <circle cx="40" cy="30" r="30" fill="#e74c3c" filter="url(#shadow)" />
+    <text x="40" y="35" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">10</text>
+    <text x="40" y="80" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Значение</text>
+  </g>
+  
+  <!-- Стрелка вниз -->
+  <line x1="230" y1="170" x2="230" y2="210" stroke="#8e44ad" stroke-width="2" marker-end="url(#arrowhead)" />
+  
+  <!-- Тип данных: Целое число -->
+  <g transform="translate(50, 220)">
+    <rect x="0" y="0" width="100" height="50" rx="5" fill="#3498db" filter="url(#shadow)" />
+    <text x="50" y="20" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">int</text>
+    <text x="50" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Целое число</text>
+    <text x="50" y="70" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">: 42, -7, 0</text>
+  </g>
+  
+  <!-- Тип данных: Вещественное число -->
+  <g transform="translate(170, 220)">
+    <rect x="0" y="0" width="100" height="50" rx="5" fill="#2ecc71" filter="url(#shadow)" />
+    <text x="50" y="20" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">float</text>
+    <text x="50" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Вещественное</text>
+    <text x="50" y="70" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">: 3.14, -0.5</text>
+  </g>
+  
+  <!-- Тип данных: Строка -->
+  <g transform="translate(290, 220)">
+    <rect x="0" y="0" width="100" height="50" rx="5" fill="#f39c12" filter="url(#shadow)" />
+    <text x="50" y="20" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">string</text>
+    <text x="50" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Строка</text>
+    <text x="50" y="70" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">: "Привет!"</text>
+  </g>
+  
+  <!-- Тип данных: Логический -->
+  <g transform="translate(410, 220)">
+    <rect x="0" y="0" width="80" height="50" rx="5" fill="#9b59b6" filter="url(#shadow)" />
+    <text x="40" y="20" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">bool</text>
+    <text x="40" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Логический</text>
+    <text x="40" y="70" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">: true/false</text>
+  </g>
+  
+  <!-- Схема памяти -->
+  <g transform="translate(50, 100)">
+    <!-- Ячейки памяти -->
+    <rect x="320" y="0" width="30" height="30" fill="#ecf0f1" stroke="#8e44ad" stroke-width="2" />
+    <text x="335" y="20" font-family="monospace" font-size="12" text-anchor="middle" fill="#333">A1</text>
+    
+    <rect x="360" y="0" width="30" height="30" fill="#ecf0f1" stroke="#8e44ad" stroke-width="2" />
+    <text x="375" y="20" font-family="monospace" font-size="12" text-anchor="middle" fill="#333">A2</text>
+    
+    <rect x="400" y="0" width="30" height="30" fill="#ecf0f1" stroke="#8e44ad" stroke-width="2" />
+    <text x="415" y="20" font-family="monospace" font-size="12" text-anchor="middle" fill="#333">A3</text>
+    
+    <rect x="320" y="40" width="30" height="30" fill="#8e44ad" opacity="0.3" stroke="#8e44ad" stroke-width="2" />
+    <text x="335" y="60" font-family="monospace" font-size="12" text-anchor="middle" fill="#8e44ad">X</text>
+    
+    <rect x="360" y="40" width="30" height="30" fill="#e74c3c" opacity="0.3" stroke="#e74c3c" stroke-width="2" />
+    <text x="375" y="60" font-family="monospace" font-size="12" text-anchor="middle" fill="#e74c3c">10</text>
+    
+    <rect x="400" y="40" width="30" height="30" fill="#ecf0f1" stroke="#8e44ad" stroke-width="2" />
+    <text x="415" y="60" font-family="monospace" font-size="12" text-anchor="middle" fill="#333">-</text>
+    
+    <!-- Подпись -->
+    <text x="375" y="90" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Память компьютера</text>
+  </g>
+  
+  <!-- Оператор присваивания -->
+  <g transform="translate(250, 130)">
+    <rect x="0" y="0" width="40" height="40" rx="20" fill="#8e44ad" filter="url(#shadow)" />
+    <text x="20" y="27" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">=</text>
+    <text x="20" y="55" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Присвоение</text>
+  </g>
+  
+  <!-- Диаграмма процесса -->
+  <g transform="translate(50, 300)">
+    <rect x="0" y="0" width="400" height="40" rx="5" fill="#8e44ad" opacity="0.1" stroke="#8e44ad" stroke-width="1" />
+    <text x="200" y="15" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#8e44ad">1. Объявление переменной</text>
+    <text x="200" y="30" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#8e44ad">2. Присвоение значения</text>
+  </g>
+  
+  <!-- Дополнительные элементы декора -->
+  <circle cx="30" cy="200" r="5" fill="#8e44ad" opacity="0.5" />
+  <circle cx="470" cy="200" r="5" fill="#8e44ad" opacity="0.5" />
+  <circle cx="30" cy="150" r="3" fill="#8e44ad" opacity="0.3" />
+  <circle cx="470" cy="150" r="3" fill="#8e44ad" opacity="0.3" />
+  
+  <!-- Определения -->
+  <text x="20" y="280" font-family="Arial, sans-serif" font-size="10" fill="#666">Имя переменной</text>
+  <text x="20" y="295" font-family="Arial, sans-serif" font-size="10" fill="#666">Тип данных</text>
+  <text x="20" y="310" font-family="Arial, sans-serif" font-size="10" fill="#666">Значение</text>
+  
+  <!-- Разделитель -->
+  <line x1="30" y1="265" x2="120" y2="265" stroke="#8e44ad" stroke-width="1" stroke-dasharray="2,2" />
+  
+  <!-- Пример кода -->
+  <g transform="translate(380, 280)">
+    <rect x="0" y="0" width="100" height="50" rx="3" fill="#2c3e50" opacity="0.9" />
+    <text x="5" y="15" font-family="monospace" font-size="10" fill="#3498db">int x = 10;</text>
+    <text x="5" y="30" font-family="monospace" font-size="10" fill="#2ecc71">string name = </text>
+    <text x="5" y="45" font-family="monospace" font-size="10" fill="#e74c3c">"Алиса";</text>
+  </g>
+  
+  <!-- Маркер стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8e44ad" />
+    </marker>
+  </defs>
+</svg>
