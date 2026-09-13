@@ -38,7 +38,66 @@
               "If + Past Simple, would have + V3 — условие сейчас, результат в прошлом",
               "Инверсия: Had I known = If I had known"
             ],
-            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson1.svg"
+            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson1.svg",
+            "test": {
+              "questions": [
+                {
+                  "q": "Какое условное предложение образуется, если в первом условии используется тип II (Second Conditional), а во втором тип III (Third Conditional)?",
+                  "options": [
+                    "а) Если бы я был богат, я бы купил дом",
+                    "б) Если бы я был богат, я бы купил дом",
+                    "в) Если бы я был богат, я бы купил дом",
+                    "г) Если бы я был богат, я бы купил дом"
+                  ],
+                  "answer": "б",
+                  "explanation": "Смешанное условное предложение типа II + III используется, когда условие относится к настоящему или будущему (If I were rich), а результат - к прошлому (I would have bought a house). Это выражает ситуацию, которая могла произойти в прошлом, но не произошла из-за несостоявшегося условия в настоящем."
+                },
+                {
+                  "q": "Какое из предложений правильно демонстрирует смешанное условное предложение типа III + II?",
+                  "options": [
+                    "а) If I had studied harder, I would pass the exam now",
+                    "б) If I study harder, I would pass the exam",
+                    "в) If I had studied harder, I would have passed the exam",
+                    "г) If I study harder, I will pass the exam"
+                  ],
+                  "answer": "а",
+                  "explanation": "Смешанное условное предложение типа III + II использует условие из прошлого (If I had studied harder) и результат в настоящем (I would pass the exam now). Это показывает, что действие в прошлом могло бы привести к другому результату в настоящем."
+                },
+                {
+                  "q": "Какое из предложений НЕ является смешанным условным предложением?",
+                  "options": [
+                    "а) If I were you, I would have apologized yesterday",
+                    "б) If I had known about the meeting, I would attend it now",
+                    "в) If I had more free time, I would learn a new language",
+                    "г) If I had taken that job, I would be working in London now"
+                  ],
+                  "answer": "в",
+                  "explanation": "Предложение 'If I had more free time, I would learn a new language' является стандартным условным предложением типа II, так как и условие, и результат относятся к настоящему или будущему. Остальные предложения являются смешанными условными, так как сочетают разные временные планы."
+                },
+                {
+                  "q": "Какое предложение правильно передает смысл: 'Я не выспался сегодня, потому что вчера поздно лег спать'?",
+                  "options": [
+                    "а) If I go to bed early yesterday, I would sleep well today",
+                    "б) If I had gone to bed early yesterday, I would sleep well today",
+                    "в) If I go to bed early today, I will sleep well tomorrow",
+                    "г) If I had gone to bed early yesterday, I would have slept well today"
+                  ],
+                  "answer": "б",
+                  "explanation": "Правильная смешанная конструкция типа III + II: условие в прошлом (If I had gone to bed early yesterday) и результат в настоящем (I would sleep well today). Это показывает, что действие в прошлом могло бы привести к другому результату в настоящем."
+                },
+                {
+                  "q": "Какое из предложений использует смешанное условное для выражения сожаления о прошлом действии, которое влияет на настоящее?",
+                  "options": [
+                    "а) If I have more money, I would buy a car",
+                    "б) If I had more money, I would buy a car",
+                    "в) If I had saved money last year, I would have a car now",
+                    "г) If I save money next year, I will buy a car"
+                  ],
+                  "answer": "в",
+                  "explanation": "Предложение 'If I had saved money last year, I would have a car now' является смешанным условным предложением типа III + II. Оно выражает сожаление о действии в прошлом (не сэкономил деньги) и его последствия в настоящем (не имею машины сейчас)."
+                }
+              ]
+            }
           },
           {
             "title": "Урок 2: Inversion",
@@ -65,7 +124,66 @@
               "Only then did I... — инверсия с 'only'",
               "So do I / Neither do I — согласие"
             ],
-            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson2.svg"
+            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson2.svg",
+            "test": {
+              "questions": [
+                {
+                  "q": "Как определяется инверсия в английском языке?",
+                  "options": [
+                    "а) Изменение порядка слов для придания речи большей выразительности",
+                    "б) Перестановка слов в предложении без изменения смысла",
+                    "в) Использование только вопросительного порядка слов",
+                    "г) Замена вспомогательных глаголов на основные"
+                  ],
+                  "answer": "а",
+                  "explanation": "Инверсия определяется как изменение обычного порядка слов, при котором вспомогательный глагол или модальный глагол ставится перед подлежащим, что придает речи большую выразительность или эмфазу."
+                },
+                {
+                  "q": "Какой исторический контекст инверсии в английском языке?",
+                  "options": [
+                    "а) Инверсия появилась только в современном английском языке",
+                    "б) В древнеанглийском периоде инверсия была нормой в вопросительных предложениях",
+                    "в) Инверсия была заимствована из французского языка",
+                    "г) Инверсия всегда считалась грамматической ошибкой"
+                  ],
+                  "answer": "б",
+                  "explanation": "В древнеанглийском периоде (V-XI вв.) инверсия была нормой в вопросительных предложениях и некоторых типах утвердительных конструкций. По мере развития языка порядок слов становился более фиксированным, но инверсия сохранилась как стилистический прием."
+                },
+                {
+                  "q": "Какие конструкции требуют инверсии в английском языке?",
+                  "options": [
+                    "а) Только утвердительные предложения",
+                    "б) Только вопросительные предложения",
+                    "в) Отрицательные наречия и выражения",
+                    "г) Только сложноподчиненные предложения"
+                  ],
+                  "answer": "в",
+                  "explanation": "Инверсия часто используется после отрицательных наречий и выражений, таких как 'never', 'seldom', 'hardly', 'not only', 'not until' и др., для придания большей выразительности предложению."
+                },
+                {
+                  "q": "Какова основная функция инверсии в современной английской речи?",
+                  "options": [
+                    "а) Обязательное требование грамматики",
+                    "б) Стилистический прием для придания выразительности",
+                    "в) Средство упрощения предложения",
+                    "г) Необходимость для образования всех типов вопросов"
+                  ],
+                  "answer": "б",
+                  "explanation": "Основная функция инверсии в современной английской речи - это стилистический прием, используемый для придания речи большей выразительности, эмфазы или соблюдения определенных грамматических конструкций, особенно в литературном языке и формальной речи."
+                },
+                {
+                  "q": "Как изменился статус инверсии в истории развития английского языка?",
+                  "options": [
+                    "а) Инверсия всегда считалась ошибкой",
+                    "б) Инверсия перестала использоваться полностью",
+                    "в) Из нормы для всех предложений она превратилась в стилистический прием",
+                    "г) Инверсия стала обязательной для всех типов предложений"
+                  ],
+                  "answer": "в",
+                  "explanation": "По мере развития английского языка порядок слов становился более фиксированным, и инверсия, которая раньше была нормой, сохранилась в основном как стилистический прием, особенно в литературном языке и формальной речи."
+                }
+              ]
+            }
           },
           {
             "title": "Урок 3: Subjunctive Mood",
@@ -92,7 +210,66 @@
               "Past Subjunctive: I wish I were... (were для всех)",
               "Wish + Past Perfect — сожаление о прошлом"
             ],
-            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson3.svg"
+            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson3.svg",
+            "test": {
+              "questions": [
+                {
+                  "q": "Какая форма используется в Present Subjunctive для всех лиц?",
+                  "options": [
+                    "а) инфинитив с 'to'",
+                    "б) инфинитив без 'to'",
+                    "в) глагол в Past Simple",
+                    "г) глагол в Past Perfect"
+                  ],
+                  "answer": "б",
+                  "explanation": "В Present Subjunctive используется инфинитив без 'to' (base form) для всех лиц. Это одна из ключевых особенностей данного наклонения, как указано в материале урока."
+                },
+                {
+                  "q": "Какие глаголы обычно используются с Present Subjunctive?",
+                  "options": [
+                    "а) think, believe, hope",
+                    "б) suggest, recommend, insist",
+                    "в) like, want, prefer",
+                    "г) have, do, say"
+                  ],
+                  "answer": "б",
+                  "explanation": "Present Subjunctive используется после глаголов suggest, recommend, insist, demand, require, order и подобных, которые выражают предложение, рекомендацию или требование."
+                },
+                {
+                  "q": "Какое наклонение используется для выражения действия, не соответствующего действительности?",
+                  "options": [
+                    "а) Indicative Mood",
+                    "б) Imperative Mood",
+                    "в) Subjunctive Mood",
+                    "г) Conditional Mood"
+                  ],
+                  "answer": "в",
+                  "explanation": "Subjunctive Mood (Сослагательное наклонение) используется для выражения действия, которое не является реальным, желаемого, гипотетического, необходимого или противоречащего действительности, что прямо указано в определении урока."
+                },
+                {
+                  "q": "Какое предложение правильно использует Present Subjunctive?",
+                  "options": [
+                    "а) The teacher suggests that we to study more.",
+                    "б) The teacher suggests that we study more.",
+                    "в) The teacher suggests that we studied more.",
+                    "г) The teacher suggests that we will study more."
+                  ],
+                  "answer": "б",
+                  "explanation": "После глагола suggest используется конструкция с that + подлежащее + глагол в Present Subjunctive (инфинитив без 'to'). Правильная форма: 'The teacher suggests that we study more'."
+                },
+                {
+                  "q": "Какое из следующих выражений является устойчивым выражением с Subjunctive Mood?",
+                  "options": [
+                    "а) If I was you",
+                    "б) Be that as it may",
+                    "в) As if I am",
+                    "г) As I were"
+                  ],
+                  "answer": "б",
+                  "explanation": "У выражение 'Be that as it may' является устойчивым выражением с Subjunctive Mood, где используется форма безличного императива (base form). Остальные варианты либо используют неправильные формы, либо не являются устойчивыми выражениями."
+                }
+              ]
+            }
           },
           {
             "title": "Урок 4: Complex Structures",
@@ -119,7 +296,66 @@
               "Participle clauses: Walking..., Written...",
               "Too... to / enough to — степень"
             ],
-            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson4.svg"
+            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson4.svg",
+            "test": {
+              "questions": [
+                {
+                  "q": "Which of the following sentences is an example of an It-cleft construction?",
+                  "options": [
+                    "a) John broke the window.",
+                    "b) It was John who broke the window.",
+                    "c) John was the one who broke the window.",
+                    "d) John broke the window, it's true."
+                  ],
+                  "answer": "b",
+                  "explanation": "The It-cleft construction follows the formula 'It + be + highlighted element + who/that'. Option b correctly demonstrates this structure by emphasizing 'John' as the one who broke the window."
+                },
+                {
+                  "q": "What is the primary function of cleft sentences?",
+                  "options": [
+                    "a) To make sentences longer and more complex.",
+                    "b) To emphasize specific elements in a sentence.",
+                    "c) To connect two independent clauses.",
+                    "d) To ask indirect questions."
+                  ],
+                  "answer": "b",
+                  "explanation": "Cleft sentences are used primarily to emphasize specific elements in a sentence, making them stand out for the listener or reader. This is their main grammatical function according to the lesson content."
+                },
+                {
+                  "q": "Which sentence correctly uses the Wh-cleft structure?",
+                  "options": [
+                    "a) It was in Paris that they first met.",
+                    "b) What I need is more time.",
+                    "c) It was Mary who called you.",
+                    "d) What happened yesterday was surprising."
+                  ],
+                  "answer": "b",
+                  "explanation": "The Wh-cleft structure follows the formula 'What + clause + be + X'. Option b correctly demonstrates this pattern with 'What I need' as the clause and 'more time' as the emphasized element X."
+                },
+                {
+                  "q": "Choose the sentence that emphasizes the location of the event:",
+                  "options": [
+                    "a) They met in Paris.",
+                    "b) It was Paris where they met.",
+                    "c) They met in Paris, not London.",
+                    "d) In Paris they met."
+                  ],
+                  "answer": "b",
+                  "explanation": "The It-cleft construction with 'where' is used to emphasize the location of an event. Option b correctly uses this structure to highlight 'Paris' as the specific location where the meeting occurred."
+                },
+                {
+                  "q": "Which of the following sentences is NOT a cleft construction?",
+                  "options": [
+                    "a) What surprised me was his reaction.",
+                    "b) It was his reaction that surprised me.",
+                    "c) His reaction surprised me.",
+                    "d) It was surprising what his reaction was."
+                  ],
+                  "answer": "c",
+                  "explanation": "Option c is a simple declarative sentence without any cleft structure. Options a, b, and d all use cleft constructions (Wh-cleft or It-cleft) to emphasize different elements, while option c maintains standard sentence structure."
+                }
+              ]
+            }
           }
         ]
       },
@@ -151,7 +387,66 @@
               "Связующие слова: furthermore, moreover, however",
               "Заключение: in conclusion, to sum up"
             ],
-            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson5.svg"
+            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson5.svg",
+            "test": {
+              "questions": [
+                {
+                  "q": "Что такое академическая лексика?",
+                  "options": [
+                    "а) Разговорные выражения, используемые в неформальной речи",
+                    "б) Специализированная лексика, используемая в научных и учебных текстах",
+                    "в) Простые слова, понятные всем уровням образования",
+                    "г) Сленговые выражения, характерные для студенческой среды"
+                  ],
+                  "answer": "б",
+                  "explanation": "Академическая лексика — это специализированная лексика, используемая в научных и учебных текстах для формального, точного и объективного выражения мыслей, как указано в определении в контенте урока."
+                },
+                {
+                  "q": "Какие языковые традиции повлияли на формирование академической лексики?",
+                  "options": [
+                    "а) Английская и французская",
+                    "б) Древнегреческая и латинская",
+                    "в) Немецкая и скандинавская",
+                    "г) Китайская и японская"
+                  ],
+                  "answer": "б",
+                  "explanation": "Согласно контенту урока, истоки академической лексики можно проследить еще в древнегреческих и латинских академических традициях, где язык науки был строго формализован."
+                },
+                {
+                  "q": "Какое правило использования академической лексики указано в уроке?",
+                  "options": [
+                    "а) Использовать как можно больше сложных терминов",
+                    "б) Избегать разговорных выражений и использовать формальные синонимы",
+                    "в) Использовать только латинские выражения",
+                    "г) Добавлять эмоциональные оценки в текст"
+                  ],
+                  "answer": "б",
+                  "explanation": "В контенте урока указано правило: Используйте формальные синонимы вместо разговорных слов (например, utilize вместо use, investigate вместо look into)."
+                },
+                {
+                  "q": "Чем академическое письмо отличается от журналистики согласно уроку?",
+                  "options": [
+                    "а) Более короткими предложениями",
+                    "б) Использованием более простых слов",
+                    "в) Специализированной лексикой и формальными конструкциями",
+                    "г) Большим количеством сленга"
+                  ],
+                  "answer": "в",
+                  "explanation": "Согласно контенту урока, академическая лексика включает термины, фразы и конструкции, которые отличают академическое письмо от повседневной речи или журналистики."
+                },
+                {
+                  "q": "Какой из примеров замены разговорного слова на академическое приведен в уроке?",
+                  "options": [
+                    "а) Replace - put",
+                    "б) Investigate - look into",
+                    "в) Utilize - use",
+                    "г) Begin - start"
+                  ],
+                  "answer": "в",
+                  "explanation": "В контенте урока приведен пример замены разговорного слова на академическое: utilize вместо use, что соответствует формальному стилю академической лексики."
+                }
+              ]
+            }
           },
           {
             "title": "Урок 6: Essay Writing",
@@ -178,7 +473,66 @@
               "Topic sentence — главная мысль абзаца",
               "Тезис — центральная идея эссе"
             ],
-            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson6.svg"
+            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson6.svg",
+            "test": {
+              "questions": [
+                {
+                  "q": "Какова основная цель академического эссе в современной образовательной среде?",
+                  "options": [
+                    "а) Творческое самовыражение",
+                    "б) Развитие критического мышления и демонстрация знаний",
+                    "в) Развлечение читателя",
+                    "г) Краткое изложение фактов"
+                  ],
+                  "answer": "б",
+                  "explanation": "Академическое эссе служит фундаментальным инструментом для оценки, развития критического мышления и демонстрации знаний, как указано в материале урока."
+                },
+                {
+                  "q": "Когда и кем была популяризирована форма эссе?",
+                  "options": [
+                    "а) В 19 веке Виктором Гюго",
+                    "б) В период Возрождения Мишелем де Монтенем в конце 16 века",
+                    "в) В 20 веке Вирджинией Вулф",
+                    "г) В древней Греции Аристотелем"
+                  ],
+                  "answer": "б",
+                  "explanation": "В материале урока указано, что практику эссе популяризовал Мишель де Монтень в период Возрождения, в конце 16 века."
+                },
+                {
+                  "q": "Чем академическое эссе отличается от творческого письма?",
+                  "options": [
+                    "а) Только длиной текста",
+                    "б) Формальной структурой, объективным тоном и требованием аргументов на основе доказательств",
+                    "в) Отсутствием введения и заключения",
+                    "г) Использованием только разговорной лексики"
+                  ],
+                  "answer": "б",
+                  "explanation": "Как указано в материале, академические эссе отличаются от творческого письма своей формальной структурой, объективным тоном и требованием аргументов, основанных на доказательствах."
+                },
+                {
+                  "q": "Почему эссе writing особенно важен в 11 классе в российской системе образования?",
+                  "options": [
+                    "а) Потому что это самый легкий способ получить оценку",
+                    "б) Потому что студенты готовятся к выпускным экзаменам и высшему образованию",
+                    "в) Потому что это единственный требуемый формат письменных работ",
+                    "г) Потому что учитель предпочитает этот формат"
+                  ],
+                  "answer": "б",
+                  "explanation": "В материале урока указано, что в контексте российского образования написание эссе становится особенно важным в 11 классе, поскольку студенты готовятся к выпускным экзаменам и высшему образованию."
+                },
+                {
+                  "q": "Какой тон характерен для академического эссе?",
+                  "options": [
+                    "а) Разговорный и неформальный",
+                    "б) Формальный и объективный",
+                    "в) Эмоциональный и субъективный",
+                    "г) Саркастический и ироничный"
+                  ],
+                  "answer": "б",
+                  "explanation": "Материал урока подчеркивает, что академические эссе отличаются своим формальным и объективным тоном, в отличие от других форм письма."
+                }
+              ]
+            }
           },
           {
             "title": "Урок 7: Debating Skills",
@@ -205,7 +559,66 @@
               "I see your point, but I disagree — опровержение",
               "Избегайте логических ошибок в аргументах"
             ],
-            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson7.svg"
+            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson7.svg",
+            "test": {
+              "questions": [
+                {
+                  "q": "What is debating according to the lesson content?",
+                  "options": [
+                    "а) An informal discussion between friends",
+                    "б) A formal method of interactive and representational argument",
+                    "в) A monologue presentation by one speaker",
+                    "г) A written essay on a controversial topic"
+                  ],
+                  "answer": "б",
+                  "explanation": "According to the lesson, debating is defined as 'a formal method of interactive and representational argument' where speakers express opposing views on an issue."
+                },
+                {
+                  "q": "Which of the following is NOT mentioned as a benefit of debating in academic settings?",
+                  "options": [
+                    "а) Developing critical thinking",
+                    "б) Improving public speaking skills",
+                    "в) Enhancing memorization techniques",
+                    "г) Building analytical skills"
+                  ],
+                  "answer": "в",
+                  "explanation": "The lesson mentions that debating helps develop critical thinking, public speaking, and analytical skills, but does not mention memorization techniques as a benefit."
+                },
+                {
+                  "q": "What historical reference is made in the lesson regarding the origins of debating?",
+                  "options": [
+                    "а) Roman forums",
+                    "б) Medieval courtrooms",
+                    "в) Ancient Greek philosophers",
+                    "г) Renaissance salons"
+                  ],
+                  "answer": "в",
+                  "explanation": "The lesson states that 'The art of debating dates back to ancient Greece, where philosophers like Socrates, Plato, and Aristotle used dialectic methods of inquiry.'"
+                },
+                {
+                  "q": "What is the primary purpose of a debate according to the text?",
+                  "options": [
+                    "а) To entertain the audience",
+                    "б) To declare a winner regardless of the argument's validity",
+                    "в) To persuade the audience or judge of the validity of a position",
+                    "г) To practice speaking without preparation"
+                  ],
+                  "answer": "в",
+                  "explanation": "The lesson explains that in a debate, speakers 'attempt to persuade the audience or judge of the validity of their position' on an issue."
+                },
+                {
+                  "q": "Which skill is specifically mentioned as being developed through academic debating?",
+                  "options": [
+                    "а) Acting skills",
+                    "б) Drawing abilities",
+                    "в) Thinking on one's feet",
+                    "г) Musical talent"
+                  ],
+                  "answer": "в",
+                  "explanation": "The lesson states that debating helps students 'think on their feet' among other skills like constructing logical arguments and evaluating evidence."
+                }
+              ]
+            }
           }
         ]
       },
@@ -237,7 +650,66 @@
               "I am writing to inquire about...",
               "Please find attached..."
             ],
-            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson8.svg"
+            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson8.svg",
+            "test": {
+              "questions": [
+                {
+                  "q": "What is Business English primarily characterized by?",
+                  "options": [
+                    "a) Informal language and casual tone",
+                    "b) Formal register and professional tone",
+                    "c) Focus on creative expression",
+                    "d) Use of slang and idioms"
+                  ],
+                  "answer": "b",
+                  "explanation": "Business English is characterized by a formal register and professional tone, as it is used in professional settings and business contexts."
+                },
+                {
+                  "q": "Which of the following is NOT one of the 7 C's of Business Communication?",
+                  "options": [
+                    "a) Clear",
+                    "b) Concise",
+                    "c) Creative",
+                    "d) Courteous"
+                  ],
+                  "answer": "c",
+                  "explanation": "The 7 C's of Business Communication include Clear, Concise, Concrete, Correct, Complete, Courteous, and Considerate. Creative is not among them."
+                },
+                {
+                  "q": "When did Business English emerge as a distinct field?",
+                  "options": [
+                    "a) Early 19th century",
+                    "b) Mid-20th century",
+                    "c) Late 20th century",
+                    "d) Early 21st century"
+                  ],
+                  "answer": "c",
+                  "explanation": "Business English emerged as a distinct field in the late 20th century alongside globalization and the increasing importance of international business relations."
+                },
+                {
+                  "q": "What is a key focus of Business English communication?",
+                  "options": [
+                    "a) Ambiguity and complexity",
+                    "b) Clarity, conciseness, and precision",
+                    "c) Humor and entertainment",
+                    "d) Lengthy descriptions"
+                  ],
+                  "answer": "b",
+                  "explanation": "Business English focuses on clarity, conciseness, and precision to ensure effective communication in professional settings."
+                },
+                {
+                  "q": "Why is cultural awareness important in Business English?",
+                  "options": [
+                    "a) It helps in using more slang",
+                    "b) It's not important in Business English",
+                    "c) It helps in understanding international business contexts",
+                    "d) It makes communication more informal"
+                  ],
+                  "answer": "c",
+                  "explanation": "Cultural awareness is important in Business English because it helps in understanding and navigating international business contexts, which is crucial in global business environments."
+                }
+              ]
+            }
           },
           {
             "title": "Урок 9: Job Interview",
@@ -264,7 +736,66 @@
               "Thank you email — в течение 24 часов",
               "Изучите компанию перед собеседованием"
             ],
-            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson9.svg"
+            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson9.svg",
+            "test": {
+              "questions": [
+                {
+                  "q": "What is a job interview according to the lesson content?",
+                  "options": [
+                    "а) A casual conversation between friends",
+                    "б) A formal conversation between a potential employer and a candidate",
+                    "в) A test of technical skills only",
+                    "г) A group discussion with multiple candidates"
+                  ],
+                  "answer": "б",
+                  "explanation": "According to the lesson, a job interview is defined as 'a formal conversation between a potential employer and a candidate for employment.' It's a two-way evaluation process where both parties assess each other."
+                },
+                {
+                  "q": "Which component comes first in the STAR method for answering behavioral questions?",
+                  "options": [
+                    "а) Task",
+                    "б) Action",
+                    "в) Situation",
+                    "г) Result"
+                  ],
+                  "answer": "в",
+                  "explanation": "The STAR method begins with Situation, where you describe the context. This is followed by Task, Action, and Result in that order."
+                },
+                {
+                  "q": "When did the practice of job interviewing begin according to the lesson?",
+                  "options": [
+                    "а) In ancient times",
+                    "б) During medieval period",
+                    "в) Early 20th century industrialization",
+                    "г) Late 19th century"
+                  ],
+                  "answer": "в",
+                  "explanation": "The lesson states that the practice of interviewing dates back to 'early 20th century industrialization when companies began implementing more structured hiring processes rather than relying solely on recommendations or nepotism.'"
+                },
+                {
+                  "q": "What is the first step in the 3-Step Answer Structure for interview responses?",
+                  "options": [
+                    "а) Provide examples",
+                    "б) Tell a story",
+                    "в) Direct Answer",
+                    "г) Ask questions"
+                  ],
+                  "answer": "в",
+                  "explanation": "The first step in the 3-Step Answer Structure is 'Direct Answer,' where you respond clearly to the question. This is followed by providing examples and telling a story if needed."
+                },
+                {
+                  "q": "What is the purpose of a job interview according to the lesson?",
+                  "options": [
+                    "а) To test only the candidate's knowledge",
+                    "б) To determine if there's a good fit between employer and candidate",
+                    "в) To evaluate only the candidate's appearance",
+                    "г) To provide information to the candidate only"
+                  ],
+                  "answer": "б",
+                  "explanation": "The lesson explains that a job interview is 'a two-way evaluation process where both parties assess each other to determine if there's a good fit.' It's not just about testing knowledge or appearance, but mutual evaluation."
+                }
+              ]
+            }
           },
           {
             "title": "Урок 10: Presentation Skills",
@@ -291,7 +822,66 @@
               "Let's move on to... — переход между частями",
               "Не читайте со слайдов, делайте зрительный контакт"
             ],
-            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson10.svg"
+            "image": "/school-curriculum-app/images/lessons/grade11/english/lesson10.svg",
+            "test": {
+              "questions": [
+                {
+                  "q": "Какие три элемента убеждения, разработанные Аристотелем, остаются фундаментальными для эффективных презентаций сегодня?",
+                  "options": [
+                    "а) логика, эмоции, факты",
+                    "б) этос, патос, логос",
+                    "в) стиль, содержание, структура",
+                    "г) аудитория, цель, сообщение"
+                  ],
+                  "answer": "б",
+                  "explanation": "Аристотель выделил три элемента убеждения: этос (этика, авторитет спикера), патос (эмоциональное воздействие) и логос (логика, аргументация). Эти три компонента до сих пор считаются основой эффективных презентаций."
+                },
+                {
+                  "q": "Какое из следующих утверждений соответствует правилу 10-20-30 Гая Кавасаки?",
+                  "options": [
+                    "а) 10 минут, 20 слайдов, 30 шрифтов",
+                    "б) 10 слайдов, 20 минут, 30-шрифтный текст",
+                    "в) 10 тем, 20 минут, 30 слайдов",
+                    "г) 10 минут, 20 слов на слайде, 30 слайдов"
+                  ],
+                  "answer": "б",
+                  "explanation": "Правило 10-20-30 Гая Кавасаки гласит, что презентация должна состоять не более чем из 10 слайдов, длиться не более 20 минут и использовать шрифт размером не менее 30 пунктов. Это помогает сделать презентацию лаконичной и понятной."
+                },
+                {
+                  "q": "Какой навык НЕ является частью базовых навыков презентации согласно определению в уроке?",
+                  "options": [
+                    "а) анализ аудитории",
+                    "б) использование визуальных материалов",
+                    "в) написание текста презентации",
+                    "г) ответы на вопросы"
+                  ],
+                  "answer": "в",
+                  "explanation": "Согласно уроку, базовые навыки презентации включают вербальную и невербальную коммуникацию, анализ аудитории, организацию контента, использование визуальных материалов и ответы на вопросы. Написание текста является частью подготовки, но не отдельным навыком презентации."
+                },
+                {
+                  "q": "Какой из следующих аспектов НЕ относится к невербальной коммуникации во время презентации?",
+                  "options": [
+                    "а) жесты рук",
+                    "б) тон голоса",
+                    "в) выбор слов",
+                    "г) зрительный контакт"
+                  ],
+                  "answer": "в",
+                  "explanation": "Невербальная коммуникация включает в себя все формы общения без слов, такие как жесты, тон голоса, зрительный контакт, язык тела. Выбор слов относится к вербальной коммуникации."
+                },
+                {
+                  "q": "Почему организация контента важна для эффективной презентации?",
+                  "options": [
+                    "а) это позволяет использовать больше визуальных материалов",
+                    "б) это помогает аудитории лучше усвоить информацию",
+                    "в) это сокращает время подготовки",
+                    "г) это позволяет избежать вопросов от аудитории"
+                  ],
+                  "answer": "б",
+                  "explanation": "Правильная организация контента помогает аудитории легче следовать за мыслью спикера, лучше понимать и запоминать информацию. Четкая структура с введением, основной частью и заключением делает презентацию более понятной и эффективной."
+                }
+              ]
+            }
           }
         ]
       }
