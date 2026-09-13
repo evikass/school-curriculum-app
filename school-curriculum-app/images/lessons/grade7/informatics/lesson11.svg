@@ -1,0 +1,184 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый прямоугольник -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок класса -->
+  <rect x="20" y="15" width="460" height="40" rx="5" fill="#8e44ad"/>
+  <text x="250" y="42" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">ИНФОРМАТИКА · 7 КЛАСС</text>
+  
+  <!-- Название урока -->
+  <text x="250" y="80" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#8e44ad">Исполнители алгоритмов</text>
+  
+  <!-- Разделительная линия -->
+  <line x1="50" y1="95" x2="450" y2="95" stroke="#8e44ad" stroke-width="2"/>
+  
+  <!-- Заголовок "Алгоритм" -->
+  <text x="80" y="125" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#8e44ad">Алгоритм</text>
+  
+  <!-- Схема алгоритма -->
+  <rect x="80" y="140" width="120" height="40" rx="5" fill="#e8d5f2" stroke="#8e44ad" stroke-width="2"/>
+  <text x="140" y="165" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#8e44ad">Начало</text>
+  
+  <line x1="140" y1="180" x2="140" y2="200" stroke="#8e44ad" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <rect x="80" y="200" width="120" height="40" rx="5" fill="#e8d5f2" stroke="#8e44ad" stroke-width="2"/>
+  <text x="140" y="225" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#8e44ad">Действие 1</text>
+  
+  <line x1="140" y1="240" x2="140" y2="260" stroke="#8e44ad" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <rect x="80" y="260" width="120" height="40" rx="5" fill="#e8d5f2" stroke="#8e44ad" stroke-width="2"/>
+  <text x="140" y="285" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#8e44ad">Конец</text>
+  
+  <!-- Стрелка -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8e44ad"/>
+    </marker>
+  </defs>
+  
+  <!-- Заголовок "Исполнитель" -->
+  <text x="300" y="125" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#8e44ad">Исполнитель</text>
+  
+  <!-- Иконка исполнителя -->
+  <circle cx="300" cy="160" r="20" fill="#8e44ad"/>
+  <circle cx="300" cy="155" r="8" fill="white"/>
+  <rect x="290" y="170" width="20" height="15" rx="3" fill="white"/>
+  
+  <!-- Свойства исполнителя -->
+  <text x="300" y="200" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">Система команд</text>
+  <rect x="230" y="210" width="140" height="20" rx="3" fill="#e8d5f2" stroke="#8e44ad" stroke-width="1"/>
+  <text x="300" y="225" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#8e44ad">Вверх, Вниз, Влево, Вправо</text>
+  
+  <text x="300" y="250" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">Область действий</text>
+  <rect x="230" y="260" width="140" height="30" rx="3" fill="#e8d5f2" stroke="#8e44ad" stroke-width="1"/>
+  
+  <!-- Заголовок "Среда" -->
+  <text x="80" y="125" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#8e44ad">Среда</text>
+  
+  <!-- Иконка среды -->
+  <rect x="70" y="140" width="20" height="20" rx="2" fill="#8e44ad"/>
+  <rect x="90" y="140" width="20" height="20" rx="2" fill="#a569bd"/>
+  <rect x="110" y="140" width="20" height="20" rx="2" fill="#bb8fce"/>
+  <rect x="130" y="140" width="20" height="20" rx="2" fill="#d7bde2"/>
+  <rect x="150" y="140" width="20" height="20" rx="2" fill="#e8d5f2"/>
+  
+  <!-- Примеры сред -->
+  <text x="80" y="180" font-family="Arial, sans-serif" font-size="12" fill="#333">Примеры:</text>
+  <text x="80" y="200" font-family="Arial, sans-serif" font-size="11" fill="#555">• Робот в лабиринте</text>
+  <text x="80" y="220" font-family="Arial, sans-serif" font-size="11" fill="#555">• Черепаха в графическом редакторе</text>
+  <text x="80" y="240" font-family="Arial, sans-serif" font-size="11" fill="#555">• Бот в игре</text>
+  
+  <!-- Заголовок "Команды" -->
+  <text x="300" y="125" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#8e44ad">Команды</text>
+  
+  <!-- Таблица команд -->
+  <rect x="230" y="140" width="140" height="15" rx="2" fill="#8e44ad"/>
+  <text x="300" y="151" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Команда</text>
+  
+  <rect x="230" y="155" width="140" height="15" rx="2" fill="#e8d5f2"/>
+  <text x="300" y="166" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#8e44ad">Значение</text>
+  
+  <line x1="230" y1="170" x2="370" y2="170" stroke="#8e44ad" stroke-width="1"/>
+  
+  <rect x="230" y="170" width="140" height="15" rx="2" fill="white"/>
+  <text x="280" y="181" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#333">ВПЕРЕХ</text>
+  <text x="320" y="181" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#333">↑</text>
+  
+  <rect x="230" y="185" width="140" height="15" rx="2" fill="#f8f9fa"/>
+  <text x="280" y="196" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#333">НАЗАД</text>
+  <text x="320" y="196" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#333">↓</text>
+  
+  <rect x="230" y="200" width="140" height="15" rx="2" fill="white"/>
+  <text x="280" y="211" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#333">ВЛЕВО</text>
+  <text x="320" y="211" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#333">←</text>
+  
+  <rect x="230" y="215" width="140" height="15" rx="2" fill="#f8f9fa"/>
+  <text x="280" y="226" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#333">ВПРАВО</text>
+  <text x="320" y="226" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#333">→</text>
+  
+  <!-- Схема алгоритма для исполнителя -->
+  <text x="420" y="125" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#8e44ad">Пример</text>
+  
+  <!-- Сетка для примера -->
+  <rect x="380" y="140" width="100" height="100" fill="none" stroke="#8e44ad" stroke-width="1"/>
+  
+  <!-- Клетки сетки -->
+  <line x1="410" y1="140" x2="410" y2="240" stroke="#8e44ad" stroke-width="0.5"/>
+  <line x1="440" y1="140" x2="440" y2="240" stroke="#8e44ad" stroke-width="0.5"/>
+  <line x1="470" y1="140" x2="470" y2="240" stroke="#8e44ad" stroke-width="0.5"/>
+  
+  <line x1="380" y1="170" x2="480" y2="170" stroke="#8e44ad" stroke-width="0.5"/>
+  <line x1="380" y1="200" x2="480" y2="200" stroke="#8e44ad" stroke-width="0.5"/>
+  <line x1="380" y1="230" x2="480" y2="230" stroke="#8e44ad" stroke-width="0.5"/>
+  
+  <!-- Робот в сетке -->
+  <circle cx="395" cy="155" r="5" fill="#8e44ad"/>
+  <rect x="390" y="150" width="10" height="10" fill="#8e44ad"/>
+  
+  <!-- Стрелки движения -->
+  <path d="M 395 155 L 395 185" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead-red)"/>
+  <path d="M 395 185 L 425 185" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead-red)"/>
+  <path d="M 425 185 L 425 215" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead-red)"/>
+  <path d="M 425 215 L 455 215" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead-red)"/>
+  
+  <!-- Красная стрелка -->
+  <defs>
+    <marker id="arrowhead-red" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e74c3c"/>
+    </marker>
+  </defs>
+  
+  <!-- Алгоритм для примера -->
+  <text x="420" y="260" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#333">Алгоритм:</text>
+  <text x="420" y="275" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">ВПЕРЕХ, ВПРАВО,</text>
+  <text x="420" y="290" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">ВПЕРЕХ, ВПРАВО</text>
+  
+  <!-- Дополнительные элементы для достижения количества -->
+  <circle cx="50" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="60" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="70" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="80" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="90" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="100" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="110" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="120" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="130" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="140" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="150" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="160" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="170" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="180" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="190" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="200" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="210" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="220" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="230" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="240" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="250" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="260" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="270" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="280" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="290" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="300" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="310" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="320" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="330" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="340" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="350" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="360" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="370" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="380" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="390" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="400" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="410" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="420" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="430" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="440" cy="320" r="3" fill="#8e44ad"/>
+  <circle cx="450" cy="320" r="3" fill="#8e44ad"/>
+  
+  <!-- Дополнительные текстовые элементы -->
+  <text x="50" y="340" font-family="Arial, sans-serif" font-size="10" fill="#555">Чёткая последовательность</text>
+  <text x="200" y="340" font-family="Arial, sans-serif" font-size="10" fill="#555">Конечность</text>
+  <text x="300" y="340" font-family="Arial, sans-serif" font-size="10" fill="#555">Результативность</text>
+  <text x="420" y="340" font-family="Arial, sans-serif" font-size="10" fill="#555">Понятность</text>
+</svg>
