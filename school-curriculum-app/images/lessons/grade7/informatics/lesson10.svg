@@ -1,0 +1,150 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый элемент -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок -->
+  <rect x="50" y="10" width="400" height="35" fill="#8e44ad" rx="5"/>
+  <text x="250" y="32" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">ИНФОРМАТИКА · 7 КЛАСС</text>
+  
+  <!-- Название урока -->
+  <text x="250" y="65" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2c3e50" text-anchor="middle">Что такое алгоритм</text>
+  
+  <!-- Основной контейнер -->
+  <rect x="30" y="80" width="440" height="260" fill="white" stroke="#8e44ad" stroke-width="2" rx="10"/>
+  
+  <!-- Секция "Алгоритм" -->
+  <rect x="50" y="100" width="180" height="200" fill="#f4ecf7" stroke="#8e44ad" stroke-width="1" rx="5"/>
+  <text x="140" y="125" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#8e44ad" text-anchor="middle">АЛГОРИТМ</text>
+  
+  <!-- Иконка алгоритма -->
+  <circle cx="140" cy="150" r="25" fill="#8e44ad" opacity="0.8"/>
+  <path d="M125,150 L155,150 M140,135 L140,165" stroke="white" stroke-width="3"/>
+  
+  <!-- Свойства алгоритма -->
+  <text x="140" y="190" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">Свойства:</text>
+  
+  <rect x="60" y="200" width="160" height="15" fill="#e8d5f2" rx="3"/>
+  <text x="70" y="210" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">1. Дискретность</text>
+  
+  <rect x="60" y="220" width="160" height="15" fill="#e8d5f2" rx="3"/>
+  <text x="70" y="230" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">2. Понятность</text>
+  
+  <rect x="60" y="240" width="160" height="15" fill="#e8d5f2" rx="3"/>
+  <text x="70" y="250" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">3. Результативность</text>
+  
+  <rect x="60" y="260" width="160" height="15" fill="#e8d5f2" rx="3"/>
+  <text x="70" y="270" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">4. Массовость</text>
+  
+  <!-- Секция "Исполнители" -->
+  <rect x="270" y="100" width="180" height="200" fill="#eaf2f8" stroke="#3498db" stroke-width="1" rx="5"/>
+  <text x="360" y="125" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3498db" text-anchor="middle">ИСПОЛНИТЕЛИ</text>
+  
+  <!-- Иконка исполнителя -->
+  <circle cx="360" cy="150" r="25" fill="#3498db" opacity="0.8"/>
+  <path d="M360,135 A15,15 0 0,1 360,165 M350,145 A10,10 0 0,1 360,155 A10,10 0 0,1 370,145" stroke="white" stroke-width="2" fill="none"/>
+  
+  <!-- Типы исполнителей -->
+  <text x="360" y="190" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">Типы:</text>
+  
+  <rect x="280" y="200" width="160" height="15" fill="#d6eaf8" rx="3"/>
+  <text x="290" y="210" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">1. Человек</text>
+  
+  <rect x="280" y="220" width="160" height="15" fill="#d6eaf8" rx="3"/>
+  <text x="290" y="230" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">2. Робот</text>
+  
+  <rect x="280" y="240" width="160" height="15" fill="#d6eaf8" rx="3"/>
+  <text x="290" y="250" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">3. Компьютер</text>
+  
+  <rect x="280" y="260" width="160" height="15" fill="#d6eaf8" rx="3"/>
+  <text x="290" y="270" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">4. Транспорт</text>
+  
+  <!-- Стрелка связи -->
+  <path d="M230,200 L270,200" stroke="#8e44ad" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Определение -->
+  <rect x="50" y="285" width="400" height="40" fill="#f8f9fa" stroke="#8e44ad" stroke-width="1" rx="5"/>
+  <text x="250" y="305" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50" text-anchor="middle">Алгоритм — точное описание последовательности действий,</text>
+  <text x="250" y="318" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50" text-anchor="middle">которое приводит к решению задачи</text>
+  
+  <!-- Пример блок-схемы -->
+  <text x="140" y="90" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">Блок-схема:</text>
+  
+  <!-- Начало/конец -->
+  <ellipse cx="140" cy="75" rx="30" ry="15" fill="#8e44ad" opacity="0.8"/>
+  <text x="140" y="80" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Начало</text>
+  
+  <!-- Процесс 1 -->
+  <rect x="115" y="55" width="50" height="20" fill="#f4ecf7" stroke="#8e44ad" stroke-width="1"/>
+  <text x="140" y="69" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="middle">Ввод данных</text>
+  
+  <!-- Решение -->
+  <path d="M140,30 L110,50 L140,70 L170,50 Z" fill="#f4ecf7" stroke="#8e44ad" stroke-width="1"/>
+  <text x="140" y="55" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="middle">Проверка</text>
+  
+  <!-- Стрелки блок-схемы -->
+  <line x1="140" y1="90" x2="140" y2="80" stroke="#8e44ad" stroke-width="1"/>
+  <line x1="140" y1="75" x2="140" y2="75" stroke="#8e44ad" stroke-width="1"/>
+  <line x1="140" y1="75" x2="140" y2="70" stroke="#8e44ad" stroke-width="1"/>
+  <line x1="140" y1="55" x2="140" y2="50" stroke="#8e44ad" stroke-width="1"/>
+  
+  <!-- Дополнительные элементы -->
+  <circle cx="360" cy="90" r="5" fill="#3498db"/>
+  <text x="360" y="90" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">Точность</text>
+  
+  <circle cx="420" cy="90" r="5" fill="#3498db"/>
+  <text x="420" y="90" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">Надежность</text>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="40" cy="340" r="8" fill="#8e44ad" opacity="0.3"/>
+  <circle cx="460" cy="340" r="8" fill="#3498db" opacity="0.3"/>
+  
+  <!-- Схема алгоритма действий -->
+  <text x="360" y="90" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">Схема:</text>
+  
+  <rect x="320" y="55" width="80" height="15" fill="#eaf2f8" rx="3"/>
+  <text x="360" y="65" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="middle">Анализ задачи</text>
+  
+  <rect x="320" y="75" width="80" height="15" fill="#eaf2f8" rx="3"/>
+  <text x="360" y="85" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="middle">Разработка</text>
+  
+  <rect x="320" y="95" width="80" height="15" fill="#eaf2f8" rx="3"/>
+  <text x="360" y="105" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="middle">Тестирование</text>
+  
+  <!-- Стрелки схемы -->
+  <line x1="360" y1="70" x2="360" y2="75" stroke="#3498db" stroke-width="1"/>
+  <line x1="360" y1="90" x2="360" y2="95" stroke="#3498db" stroke-width="1"/>
+  
+  <!-- Ключевые слова -->
+  <text x="250" y="100" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d" text-anchor="middle">Алгоритм и исполнитель</text>
+  
+  <!-- Маркер стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8e44ad"/>
+    </marker>
+  </defs>
+  
+  <!-- Дополнительные иконки -->
+  <rect x="60" y="310" width="20" height="15" fill="#8e44ad" rx="2"/>
+  <text x="70" y="320" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">A</text>
+  
+  <rect x="90" y="310" width="20" height="15" fill="#8e44ad" rx="2"/>
+  <text x="100" y="320" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">B</text>
+  
+  <rect x="120" y="310" width="20" height="15" fill="#8e44ad" rx="2"/>
+  <text x="130" y="320" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">C</text>
+  
+  <!-- Подписи к иконкам -->
+  <text x="70" y="335" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="middle">Начало</text>
+  <text x="100" y="335" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="middle">Действие</text>
+  <text x="130" y="335" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="middle">Конец</text>
+  
+  <!-- Дополнительные декоративные элементы -->
+  <circle cx="70" cy="60" r="3" fill="#8e44ad" opacity="0.5"/>
+  <circle cx="80" cy="60" r="3" fill="#8e44ad" opacity="0.5"/>
+  <circle cx="90" cy="60" r="3" fill="#8e44ad" opacity="0.5"/>
+  
+  <circle cx="410" cy="60" r="3" fill="#3498db" opacity="0.5"/>
+  <circle cx="420" cy="60" r="3" fill="#3498db" opacity="0.5"/>
+  <circle cx="430" cy="60" r="3" fill="#3498db" opacity="0.5"/>
+</svg>
