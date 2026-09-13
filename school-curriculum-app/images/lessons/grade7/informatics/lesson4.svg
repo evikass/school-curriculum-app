@@ -1,0 +1,136 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">ИНФОРМАТИКА · 7 КЛАСС</text>
+  
+  <!-- Название урока -->
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#34495e">Основы программирования: Циклы</text>
+  
+  <!-- Основной контейнер -->
+  <rect x="40" y="70" width="420" height="260" rx="10" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  
+  <!-- Заголовок секции "Цикл FOR" -->
+  <rect x="60" y="90" width="190" height="40" rx="5" fill="#8e44ad"/>
+  <text x="155" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff">ЦИКЛ FOR</text>
+  
+  <!-- Схема цикла FOR -->
+  <rect x="70" y="140" width="170" height="100" rx="5" fill="#f3e5f5" stroke="#8e44ad" stroke-width="2"/>
+  
+  <!-- Инициализация -->
+  <text x="80" y="160" font-family="monospace" font-size="11" fill="#333">for (i = 0; i &lt; 5; i++)</text>
+  
+  <!-- Тело цикла -->
+  <rect x="80" y="170" width="150" height="30" rx="3" fill="#e1bee7" stroke="#8e44ad" stroke-width="1"/>
+  <text x="155" y="190" text-anchor="middle" font-family="monospace" font-size="11" fill="#333">i++</text>
+  
+  <!-- Стрелки -->
+  <path d="M 80 210 L 80 215 L 75 210 L 80 205 Z" fill="#8e44ad"/>
+  <line x1="80" y1="210" x2="80" y2="225" stroke="#8e44ad" stroke-width="2"/>
+  
+  <path d="M 230 210 L 230 215 L 235 210 L 230 205 Z" fill="#8e44ad"/>
+  <line x1="230" y1="210" x2="230" y2="225" stroke="#8e44ad" stroke-width="2"/>
+  
+  <path d="M 230 225 L 225 225 L 230 230 L 235 225 Z" fill="#8e44ad"/>
+  <line x1="230" y1="225" x2="155" y2="225" stroke="#8e44ad" stroke-width="2"/>
+  
+  <text x="155" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">Условие</text>
+  
+  <!-- Заголовок секции "Цикл WHILE" -->
+  <rect x="270" y="90" width="190" height="40" rx="5" fill="#8e44ad"/>
+  <text x="365" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff">ЦИКЛ WHILE</text>
+  
+  <!-- Схема цикла WHILE -->
+  <rect x="280" y="140" width="170" height="100" rx="5" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  
+  <!-- Условие WHILE -->
+  <text x="365" y="160" text-anchor="middle" font-family="monospace" font-size="11" fill="#333">while (i &lt; 5)</text>
+  
+  <!-- Тело цикла WHILE -->
+  <rect x="290" y="170" width="150" height="30" rx="3" fill="#c8e6c9" stroke="#4caf50" stroke-width="1"/>
+  <text x="365" y="190" text-anchor="middle" font-family="monospace" font-size="11" fill="#333">i++</text>
+  
+  <!-- Стрелки WHILE -->
+  <circle cx="290" cy="215" r="15" fill="#4caf50"/>
+  <text x="290" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#ffffff">Усл</text>
+  
+  <path d="M 305 215 L 315 215 L 310 210 Z" fill="#4caf50"/>
+  <line x1="315" y1="215" x2="360" y2="215" stroke="#4caf50" stroke-width="2"/>
+  
+  <path d="M 360 215 L 360 225 L 355 220 L 360 215 Z" fill="#4caf50"/>
+  <line x1="360" y1="225" x2="360" y2="230" stroke="#4caf50" stroke-width="2"/>
+  
+  <path d="M 360 230 L 355 230 L 360 235 L 365 230 Z" fill="#4caf50"/>
+  <line x1="360" y1="230" x2="295" y2="230" stroke="#4caf50" stroke-width="2"/>
+  
+  <!-- Разделительная линия -->
+  <line x1="250" y1="90" x2="250" y2="240" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Примеры использования -->
+  <text x="250" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Примеры использования циклов:</text>
+  
+  <!-- Пример 1 -->
+  <rect x="60" y="270" width="100" height="30" rx="3" fill="#fff3e0" stroke="#ff9800" stroke-width="1"/>
+  <text x="110" y="290" text-anchor="middle" font-family="monospace" font-size="10" fill="#333">Подсчет суммы</text>
+  
+  <!-- Пример 2 -->
+  <rect x="170" y="270" width="100" height="30" rx="3" fill="#fff3e0" stroke="#ff9800" stroke-width="1"/>
+  <text x="220" y="290" text-anchor="middle" font-family="monospace" font-size="10" fill="#333">Обработка массива</text>
+  
+  <!-- Пример 3 -->
+  <rect x="280" y="270" width="100" height="30" rx="3" fill="#fff3e0" stroke="#ff9800" stroke-width="1"/>
+  <text x="330" y="290" text-anchor="middle" font-family="monospace" font-size="10" fill="#333">Поиск данных</text>
+  
+  <!-- Пример 4 -->
+  <rect x="390" y="270" width="100" height="30" rx="3" fill="#fff3e0" stroke="#ff9800" stroke-width="1"/>
+  <text x="440" y="290" text-anchor="middle" font-family="monospace" font-size="10" fill="#333">Генерация</text>
+  
+  <!-- Дополнительные элементы -->
+  <circle cx="50" cy="100" r="8" fill="#8e44ad"/>
+  <text x="50" y="104" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#ffffff">1</text>
+  
+  <circle cx="50" cy="150" r="8" fill="#8e44ad"/>
+  <text x="50" y="154" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#ffffff">2</text>
+  
+  <circle cx="50" cy="200" r="8" fill="#8e44ad"/>
+  <text x="50" y="204" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#ffffff">3</text>
+  
+  <!-- Иконки -->
+  <path d="M 455 95 L 465 95 L 465 105 L 455 105 Z" fill="none" stroke="#8e44ad" stroke-width="2"/>
+  <circle cx="460" cy="100" r="2" fill="#8e44ad"/>
+  <path d="M 457 100 L 460 97 L 463 100" fill="none" stroke="#8e44ad" stroke-width="1.5"/>
+  
+  <path d="M 455 155 L 465 155 L 465 165 L 455 165 Z" fill="none" stroke="#8e44ad" stroke-width="2"/>
+  <path d="M 457 160 L 460 157 L 463 160" fill="none" stroke="#8e44ad" stroke-width="1.5"/>
+  <path d="M 457 162 L 460 159 L 463 162" fill="none" stroke="#8e44ad" stroke-width="1.5"/>
+  
+  <!-- Комментарии -->
+  <text x="70" y="250" font-family="Arial, sans-serif" font-size="9" fill="#666">Цикл с заданным числом повторений</text>
+  <text x="280" y="250" font-family="Arial, sans-serif" font-size="9" fill="#666">Цикл с условием продолжения</text>
+  
+  <!-- Дополнительные метки -->
+  <text x="85" y="150" font-family="Arial, sans-serif" font-size="8" fill="#666">инициализация</text>
+  <text x="85" y="175" font-family="Arial, sans-serif" font-size="8" fill="#666">тело</text>
+  <text x="85" y="235" font-family="Arial, sans-serif" font-size="8" fill="#666">проверка</text>
+  
+  <text x="295" y="150" font-family="Arial, sans-serif" font-size="8" fill="#666">условие</text>
+  <text x="295" y="175" font-family="Arial, sans-serif" font-size="8" fill="#666">тело</text>
+  <text x="295" y="250" font-family="Arial, sans-serif" font-size="8" fill="#666">проверка</text>
+  
+  <!-- Дополнительные линии для улучшения структуры -->
+  <line x1="90" y1="140" x2="90" y2="240" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="300" y1="140" x2="300" y2="240" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- Дополнительные элементы для увеличения размера SVG -->
+  <rect x="60" y="310" width="380" height="2" fill="#8e44ad"/>
+  <circle cx="70" cy="311" r="3" fill="#8e44ad"/>
+  <circle cx="430" cy="311" r="3" fill="#8e44ad"/>
+  
+  <!-- Маленькие декоративные элементы -->
+  <rect x="200" y="80" width="3" height="20" fill="#8e44ad"/>
+  <rect x="297" y="80" width="3" height="20" fill="#8e44ad"/>
+  
+  <!-- Дополнительные текстовые элементы -->
+  <text x="250" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">Циклы позволяют автоматизировать повторяющиеся операции в программе</text>
+</svg>
