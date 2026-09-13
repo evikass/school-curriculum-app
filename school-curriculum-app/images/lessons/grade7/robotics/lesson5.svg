@@ -1,0 +1,143 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок -->
+  <rect x="0" y="0" width="500" height="50" fill="#34495e"/>
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle">РОБОТОТЕХНИКА · 7 КЛАСС</text>
+  
+  <!-- Основной контейнер -->
+  <rect x="20" y="60" width="460" height="270" fill="#ecf0f1" rx="5"/>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="90" font-family="Arial, sans-serif" font-size="18" fill="#2c3e50" text-anchor="middle">Основы программирования Arduino</text>
+  
+  <!-- Arduino Uno -->
+  <rect x="40" y="110" width="120" height="180" fill="#00979d" rx="5"/>
+  <rect x="50" y="120" width="100" height="160" fill="#1abc9c"/>
+  
+  <!-- Пины Arduino -->
+  <g id="pins">
+    <!-- Левая сторона -->
+    <rect x="40" y="130" width="10" height="8" fill="#7f8c8d"/>
+    <rect x="40" y="145" width="10" height="8" fill="#7f8c8d"/>
+    <rect x="40" y="160" width="10" height="8" fill="#7f8c8d"/>
+    <rect x="40" y="175" width="10" height="8" fill="#7f8c8d"/>
+    <rect x="40" y="190" width="10" height="8" fill="#7f8c8d"/>
+    <rect x="40" y="205" width="10" height="8" fill="#7f8c8d"/>
+    <rect x="40" y="220" width="10" height="8" fill="#7f8c8d"/>
+    <rect x="40" y="235" width="10" height="8" fill="#7f8c8d"/>
+    <rect x="40" y="250" width="10" height="8" fill="#7f8c8d"/>
+    <rect x="40" y="265" width="10" height="8" fill="#7f8c8d"/>
+    
+    <!-- Правая сторона -->
+    <rect x="150" y="130" width="10" height="8" fill="#7f8c8d"/>
+    <rect x="150" y="145" width="10" height="8" fill="#7f8c8d"/>
+    <rect x="150" y="160" width="10" height="8" fill="#7f8c8d"/>
+    <rect x="150" y="175" width="10" height="8" fill="#7f8c8d"/>
+    <rect x="150" y="190" width="10" height="8" fill="#7f8c8d"/>
+    <rect x="150" y="205" width="10" height="8" fill="#7f8c8d"/>
+    <rect x="150" y="220" width="10" height="8" fill="#7f8c8d"/>
+    <rect x="150" y="235" width="10" height="8" fill="#7f8c8d"/>
+    <rect x="150" y="250" width="10" height="8" fill="#7f8c8d"/>
+    <rect x="150" y="265" width="10" height="8" fill="#7f8c8d"/>
+  </g>
+  
+  <!-- Микроконтроллер -->
+  <rect x="80" y="180" width="60" height="50" fill="#34495e" rx="3"/>
+  <text x="110" y="210" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">ATmega328</text>
+  
+  <!-- USB порт -->
+  <rect x="90" y="115" width="40" height="15" fill="#95a5a6" rx="2"/>
+  <rect x="95" y="118" width="30" height="9" fill="#7f8c8d"/>
+  
+  <!-- Светодиод на плате -->
+  <circle cx="140" cy="160" r="4" fill="#e74c3c"/>
+  <line x1="140" y1="156" x2="140" y2="164" stroke="#c0392b" stroke-width="1"/>
+  
+  <!-- Кнопка сброса -->
+  <circle cx="100" cy="140" r="5" fill="#34495e"/>
+  
+  <!-- Текст подписи Arduino -->
+  <text x="100" y="305" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">Arduino Uno</text>
+  
+  <!-- Схема подключения -->
+  <rect x="200" y="120" width="120" height="100" fill="white" stroke="#34495e" stroke-width="2"/>
+  <text x="260" y="140" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50" text-anchor="middle">Схема подключения</text>
+  
+  <!-- Резистор -->
+  <rect x="220" y="155" width="40" height="10" fill="#f39c12" rx="2"/>
+  <line x1="220" y1="160" x2="215" y2="160" stroke="#34495e" stroke-width="2"/>
+  <line x1="260" y1="160" x2="265" y2="160" stroke="#34495e" stroke-width="2"/>
+  <text x="240" y="180" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">Резистор</text>
+  
+  <!-- Светодиод -->
+  <polygon points="265,150 280,160 265,170" fill="#e74c3c"/>
+  <line x1="280" y1="160" x2="290" y2="160" stroke="#34495e" stroke-width="2"/>
+  <text x="275" y="185" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">LED</text>
+  
+  <!-- Кнопка -->
+  <rect x="210" y="195" width="30" height="15" fill="#95a5a6" rx="2"/>
+  <line x1="225" y1="195" x2="225" y2="185" stroke="#34495e" stroke-width="2"/>
+  <text x="225" y="215" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">Кнопка</text>
+  
+  <!-- Код программы -->
+  <rect x="340" y="120" width="130" height="100" fill="#2c3e50" rx="5"/>
+  <text x="405" y="140" font-family="Consolas, monospace" font-size="11" fill="#2ecc71" text-anchor="middle">Код программы</text>
+  
+  <text x="350" y="160" font-family="Consolas, monospace" font-size="9" fill="#ecf0f1">void setup() {</text>
+  <text x="355" y="175" font-family="Consolas, monospace" font-size="9" fill="#3498db">pinMode(13, OUTPUT);</text>
+  <text x="350" y="190" font-family="Consolas, monospace" font-size="9" fill="#ecf0f1">}</text>
+  <text x="350" y="205" font-family="Consolas, monospace" font-size="9" fill="#ecf0f1">void loop() {</text>
+  <text x="355" y="220" font-family="Consolas, monospace" font-size="9" fill="#e74c3c">digitalWrite(13, HIGH);</text>
+  <text x="350" y="235" font-family="Consolas, monospace" font-size="9" fill="#ecf0f1">}</text>
+  
+  <!-- Функции Arduino -->
+  <rect x="40" y="240" width="410" height="80" fill="#ecf0f1" stroke="#34495e" stroke-width="2" rx="5"/>
+  <text x="245" y="260" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50" text-anchor="middle">Основные функции Arduino</text>
+  
+  <!-- Функция setup -->
+  <rect x="60" y="270" width="100" height="40" fill="#3498db" rx="3"/>
+  <text x="110" y="285" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">setup()</text>
+  <text x="110" y="300" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">Инициализация</text>
+  
+  <!-- Функция loop -->
+  <rect x="180" y="270" width="100" height="40" fill="#e74c3c" rx="3"/>
+  <text x="230" y="285" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">loop()</text>
+  <text x="230" y="300" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">Основной цикл</text>
+  
+  <!-- Функция pinMode -->
+  <rect x="300" y="270" width="100" height="40" fill="#f39c12" rx="3"/>
+  <text x="350" y="285" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">pinMode()</text>
+  <text x="350" y="300" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">Настройка порта</text>
+  
+  <!-- Связи между элементами -->
+  <line x1="160" y1="160" x2="200" y2="160" stroke="#34495e" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="320" y1="170" x2="340" y2="170" stroke="#34495e" stroke-width="2" stroke-dasharray="5,3"/>
+  
+  <!-- Пины подписи -->
+  <text x="30" y="137" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="end">D2</text>
+  <text x="30" y="152" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="end">D3</text>
+  <text x="30" y="167" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="end">D4</text>
+  <text x="30" y="182" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="end">D5</text>
+  <text x="30" y="197" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="end">D6</text>
+  <text x="30" y="212" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="end">D7</text>
+  <text x="30" y="227" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="end">D8</text>
+  <text x="30" y="242" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="end">D9</text>
+  <text x="30" y="257" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="end">D10</text>
+  <text x="30" y="272" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50" text-anchor="end">D11</text>
+  
+  <text x="170" y="137" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">D12</text>
+  <text x="170" y="152" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">D13</text>
+  <text x="170" y="167" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">A0</text>
+  <text x="170" y="182" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">A1</text>
+  <text x="170" y="197" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">A2</text>
+  <text x="170" y="212" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">A3</text>
+  <text x="170" y="227" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">A4</text>
+  <text x="170" y="242" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">A5</text>
+  <text x="170" y="257" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">5V</text>
+  <text x="170" y="272" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">GND</text>
+  
+  <!-- Комментарии -->
+  <text x="250" y="330" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d" text-anchor="middle">Важно: Используйте правильные типы данных и функции при программировании</text>
+</svg>
