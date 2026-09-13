@@ -1,0 +1,161 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c3e50">ИНФОРМАТИКА · 7 КЛАСС</text>
+  
+  <!-- Название урока -->
+  <rect x="100" y="45" width="300" height="35" rx="5" fill="#8e44ad"/>
+  <text x="250" y="67" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Основы HTML: Создание сайтов</text>
+  
+  <!-- HTML-теги и структура -->
+  <g id="html-structure">
+    <!-- DOCTYPE -->
+    <rect x="50" y="100" width="400" height="25" fill="#e8eaf0" stroke="#8e44ad" stroke-width="1"/>
+    <text x="60" y="117" font-family="Consolas, monospace" font-size="12" fill="#8e44ad">&lt;!DOCTYPE html&gt;</text>
+    
+    <!-- html -->
+    <rect x="60" y="130" width="380" height="25" fill="#f0f4f8" stroke="#8e44ad" stroke-width="1"/>
+    <text x="70" y="147" font-family="Consolas, monospace" font-size="12" fill="#8e44ad">&lt;html&gt;</text>
+    
+    <!-- head -->
+    <rect x="80" y="160" width="180" height="25" fill="#f0f4f8" stroke="#8e44ad" stroke-width="1"/>
+    <text x="90" y="177" font-family="Consolas, monospace" font-size="12" fill="#8e44ad">&lt;head&gt;</text>
+    
+    <!-- title -->
+    <rect x="100" y="190" width="120" height="25" fill="#f0f4f8" stroke="#8e44ad" stroke-width="1"/>
+    <text x="110" y="207" font-family="Consolas, monospace" font-size="12" fill="#8e44ad">&lt;title&gt;</text>
+    <text x="110" y="225" font-family="Consolas, monospace" font-size="11" fill="#555">Заголовок сайта</text>
+    <text x="220" y="207" font-family="Consolas, monospace" font-size="12" fill="#8e44ad">&lt;/title&gt;</text>
+    
+    <!-- /head -->
+    <rect x="80" y="235" width="180" height="25" fill="#f0f4f8" stroke="#8e44ad" stroke-width="1"/>
+    <text x="90" y="252" font-family="Consolas, monospace" font-size="12" fill="#8e44ad">&lt;/head&gt;</text>
+    
+    <!-- body -->
+    <rect x="80" y="265" width="340" height="25" fill="#f0f4f8" stroke="#8e44ad" stroke-width="1"/>
+    <text x="90" y="282" font-family="Consolas, monospace" font-size="12" fill="#8e44ad">&lt;body&gt;</text>
+    
+    <!-- /html -->
+    <rect x="60" y="300" width="380" height="25" fill="#f0f4f8" stroke="#8e44ad" stroke-width="1"/>
+    <text x="70" y="317" font-family="Consolas, monospace" font-size="12" fill="#8e44ad">&lt;/html&gt;</text>
+  </g>
+  
+  <!-- Браузер и сайт -->
+  <g id="browser" transform="translate(320, 100)">
+    <!-- Окно браузера -->
+    <rect x="0" y="0" width="150" height="100" fill="white" stroke="#8e44ad" stroke-width="2" rx="5"/>
+    
+    <!-- Панель браузера -->
+    <rect x="0" y="0" width="150" height="25" fill="#8e44ad" rx="5 5 0 0"/>
+    <circle cx="15" cy="12" r="4" fill="#ff5f56"/>
+    <circle cx="30" cy="12" r="4" fill="#ffbd2e"/>
+    <circle cx="45" cy="12" r="4" fill="#27c93f"/>
+    
+    <!-- Вкладка -->
+    <rect x="0" y="25" width="150" height="5" fill="#8e44ad"/>
+    
+    <!-- Контент сайта -->
+    <rect x="10" y="35" width="130" height="15" fill="#e8f4fd"/>
+    <text x="75" y="45" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Заголовок H1</text>
+    
+    <rect x="10" y="55" width="130" height="8" fill="#f0f0f0"/>
+    <rect x="10" y="68" width="100" height="8" fill="#f0f0f0"/>
+    <rect x="10" y="81" width="80" height="8" fill="#f0f0f0"/>
+  </g>
+  
+  <!-- Иконки и элементы -->
+  <g id="elements">
+    <!-- Иконка тега -->
+    <rect x="50" y="100" width="30" height="30" fill="#8e44ad" rx="3"/>
+    <text x="65" y="120" font-family="Consolas, monospace" font-size="16" text-anchor="middle" fill="white">&lt;/&gt;</text>
+    
+    <!-- Иконка текста -->
+    <circle cx="100" cy="115" r="15" fill="#3498db"/>
+    <text x="100" y="120" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="white">T</text>
+    
+    <!-- Иконка изображения -->
+    <rect x="120" y="105" width="30" height="20" fill="#e74c3c" rx="2"/>
+    <circle cx="130" cy="115" r="5" fill="white"/>
+    <path d="M130,120 L135,125 L145,115" stroke="white" stroke-width="2" fill="none"/>
+    
+    <!-- Иконка ссылки -->
+    <circle cx="170" cy="115" r="15" fill="#f39c12"/>
+    <path d="M165,110 Q170,105 175,110 Q170,115 165,110" stroke="white" stroke-width="2" fill="none"/>
+    <circle cx="175" cy="110" r="3" fill="white"/>
+  </g>
+  
+  <!-- Структура документа -->
+  <g id="diagram">
+    <text x="250" y="85" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">Структура HTML-документа</text>
+    
+    <!-- Линии связи -->
+    <line x1="60" y1="125" x2="60" y2="130" stroke="#8e44ad" stroke-width="1"/>
+    <line x1="60" y1="155" x2="80" y2="160" stroke="#8e44ad" stroke-width="1"/>
+    <line x1="80" y1="185" x2="100" y2="190" stroke="#8e44ad" stroke-width="1"/>
+    <line x1="220" y1="215" x2="220" y2="235" stroke="#8e44ad" stroke-width="1"/>
+    <line x1="80" y1="260" x2="80" y2="265" stroke="#8e44ad" stroke-width="1"/>
+    <line x1="60" y1="290" x2="60" y2="300" stroke="#8e44ad" stroke-width="1"/>
+  </g>
+  
+  <!-- Ключевые понятия -->
+  <g id="concepts">
+    <rect x="50" y="330" width="400" height="2" fill="#8e44ad"/>
+    
+    <!-- Список понятий -->
+    <text x="60" y="345" font-family="Arial, sans-serif" font-size="11" fill="#555">HTML</text>
+    <text x="110" y="345" font-family="Arial, sans-serif" font-size="11" fill="#555">Теги</text>
+    <text x="160" y="345" font-family="Arial, sans-serif" font-size="11" fill="#555">Атрибуты</text>
+    <text x="230" y="345" font-family="Arial, sans-serif" font-size="11" fill="#555">Документ</text>
+    <text x="300" y="345" font-family="Arial, sans-serif" font-size="11" fill="#555">Элементы</text>
+    <text x="370" y="345" font-family="Arial, sans-serif" font-size="11" fill="#555">Веб-страница</text>
+  </g>
+  
+  <!-- Дополнительные элементы для размера -->
+  <g id="additional-elements">
+    <!-- Круги для украшения -->
+    <circle cx="250" cy="50" r="3" fill="#8e44ad" opacity="0.5"/>
+    <circle cx="260" cy="50" r="3" fill="#8e44ad" opacity="0.5"/>
+    <circle cx="240" cy="50" r="3" fill="#8e44ad" opacity="0.5"/>
+    
+    <!-- Линии для украшения -->
+    <line x1="270" y1="48" x2="280" y2="48" stroke="#8e44ad" stroke-width="1" opacity="0.5"/>
+    <line x1="270" y1="52" x2="280" y2="52" stroke="#8e44ad" stroke-width="1" opacity="0.5"/>
+    
+    <!-- Мини-диаграмма -->
+    <rect x="30" y="230" width="15" height="15" fill="#e8eaf0" stroke="#8e44ad" stroke-width="1"/>
+    <rect x="30" y="250" width="15" height="15" fill="#e8eaf0" stroke="#8e44ad" stroke-width="1"/>
+    <line x1="37" y1="245" x2="37" y2="250" stroke="#8e44ad" stroke-width="1"/>
+    
+    <!-- Текстовые блоки -->
+    <rect x="430" y="100" width="50" height="25" fill="#f0f4f8" stroke="#8e44ad" stroke-width="1"/>
+    <text x="455" y="117" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#8e44ad">Тег</text>
+    
+    <rect x="430" y="130" width="50" height="25" fill="#f0f4f8" stroke="#8e44ad" stroke-width="1"/>
+    <text x="455" y="147" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#8e44ad">Атрибут</text>
+    
+    <rect x="430" y="160" width="50" height="25" fill="#f0f4f8" stroke="#8e44ad" stroke-width="1"/>
+    <text x="455" y="177" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#8e44ad">Элемент</text>
+  </g>
+  
+  <!-- Подписи к иконкам -->
+  <text x="65" y="140" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#555">Код</text>
+  <text x="100" y="135" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#555">Текст</text>
+  <text x="135" y="140" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#555">Изображение</text>
+  <text x="185" y="135" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#555">Ссылка</text>
+  
+  <!-- Дополнительные текстовые элементы -->
+  <text x="250" y="220" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">Тело документа</text>
+  <text x="250" y="180" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">Заголовок документа</text>
+  
+  <!-- Разделители -->
+  <line x1="290" y1="100" x2="290" y2="330" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Мини-схема -->
+  <g id="mini-diagram" transform="translate(450, 250)">
+    <rect x="0" y="0" width="40" height="40" fill="#8e44ad" opacity="0.1"/>
+    <text x="20" y="20" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#8e44ad">HTML</text>
+    <text x="20" y="35" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#555">Структура</text>
+  </g>
+</svg>
