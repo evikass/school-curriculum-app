@@ -1,0 +1,123 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый элемент -->
+  <rect width="500" height="350" fill="#f9f9f9"/>
+  
+  <!-- Декоративный фон -->
+  <path d="M0,100 Q250,50 500,100 L500,350 L0,350 Z" fill="#e8e8e8" opacity="0.5"/>
+  <path d="M0,150 Q250,100 500,150 L500,350 L0,350 Z" fill="#e8e8e8" opacity="0.3"/>
+  
+  <!-- Заголовок -->
+  <rect x="0" y="0" width="500" height="40" fill="#9b59b6"/>
+  <text x="250" y="27" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">МУЗЫКА · 7 КЛАСС</text>
+  
+  <!-- Название урока -->
+  <text x="250" y="70" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50" text-anchor="middle">"Могучая кучка" и П.И. Чайковский</text>
+  
+  <!-- Линия разделения -->
+  <line x1="50" y1="90" x2="450" y2="90" stroke="#9b59b6" stroke-width="2"/>
+  
+  <!-- Титульная секция "Могучая кучка" -->
+  <rect x="50" y="110" width="180" height="200" fill="#ecf0f1" stroke="#9b59b6" stroke-width="2" rx="10"/>
+  <rect x="50" y="110" width="180" height="40" fill="#9b59b6" rx="10"/>
+  <text x="140" y="135" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Могучая кучка</text>
+  
+  <!-- Члены кружка -->
+  <circle cx="80" cy="180" r="15" fill="#e74c3c"/>
+  <text x="80" y="185" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">М</text>
+  <text x="80" y="205" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">Балакирев</text>
+  
+  <circle cx="140" cy="180" r="15" fill="#3498db"/>
+  <text x="140" y="185" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">М</text>
+  <text x="140" y="205" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">Мусоргский</text>
+  
+  <circle cx="200" cy="180" r="15" fill="#2ecc71"/>
+  <text x="200" y="185" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">Р</text>
+  <text x="200" y="205" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">Римский-Корсаков</text>
+  
+  <circle cx="80" cy="230" r="15" fill="#f39c12"/>
+  <text x="80" y="235" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">Ц</text>
+  <text x="80" y="255" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">Кюи</text>
+  
+  <circle cx="140" cy="230" r="15" fill="#9b59b6"/>
+  <text x="140" y="235" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">Б</text>
+  <text x="140" y="255" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">Бородин</text>
+  
+  <!-- Иконки музыкальных инструментов -->
+  <path d="M170,240 Q180,230 180,240 Q180,250 170,250 Q160,250 160,240 Q160,230 170,240" fill="#34495e"/>
+  <rect x="175" y="235" width="3" height="20" fill="#34495e"/>
+  
+  <!-- Титульная секция "Чайковский" -->
+  <rect x="270" y="110" width="180" height="200" fill="#ecf0f1" stroke="#9b59b6" stroke-width="2" rx="10"/>
+  <rect x="270" y="110" width="180" height="40" fill="#9b59b6" rx="10"/>
+  <text x="360" y="135" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">П.И. Чайковский</text>
+  
+  <!-- Портрет Чайковского -->
+  <circle cx="360" cy="190" r="25" fill="#f5deb3" stroke="#34495e" stroke-width="2"/>
+  <circle cx="355" cy="185" r="2" fill="#34495e"/>
+  <circle cx="365" cy="185" r="2" fill="#34495e"/>
+  <path d="M350,195 Q360,205 370,195" fill="none" stroke="#34495e" stroke-width="1.5"/>
+  
+  <!-- Произведения -->
+  <text x="300" y="240" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Шестая симфония</text>
+  <text x="300" y="255" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Лебединое озеро</text>
+  <text x="300" y="270" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Евгений Онегин</text>
+  <text x="300" y="285" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Времена года</text>
+  
+  <!-- Музыкальные ноты -->
+  <ellipse cx="420" cy="245" rx="5" ry="4" fill="#34495e" transform="rotate(-20 420 245)"/>
+  <rect x="425" y="235" width="2" height="15" fill="#34495e"/>
+  <ellipse cx="435" cy="250" rx="5" ry="4" fill="#34495e" transform="rotate(-20 435 250)"/>
+  <rect x="440" y="240" width="2" height="15" fill="#34495e"/>
+  
+  <!-- Связующая стрелка -->
+  <path d="M230,210 Q250,210 270,210" fill="none" stroke="#9b59b6" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Определение стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#9b59b6"/>
+    </marker>
+  </defs>
+  
+  <!-- Ключевые понятия -->
+  <text x="50" y="330" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Национальный стиль</text>
+  <text x="150" y="330" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Народность</text>
+  <text x="250" y="330" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Классицизм</text>
+  <text x="350" y="330" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Романтизм</text>
+  
+  <!-- Декоративные элементы -->
+  <path d="M30,20 Q35,15 40,20 Q35,25 30,20" fill="#9b59b6" opacity="0.5"/>
+  <path d="M460,20 Q465,15 470,20 Q465,25 460,20" fill="#9b59b6" opacity="0.5"/>
+  
+  <!-- Пианино и скрипка -->
+  <rect x="30" y="170" width="40" height="20" fill="#34495e" rx="2"/>
+  <rect x="32" y="175" width="36" height="10" fill="#ecf0f1"/>
+  <rect x="35" y="172" width="30" height="2" fill="#ecf0f1"/>
+  <circle cx="38" cy="190" r="2" fill="#ecf0f1"/>
+  <circle cx="62" cy="190" r="2" fill="#ecf0f1"/>
+  
+  <path d="M430,170 Q440,160 450,170 L450,190 L430,190 Z" fill="#8b4513"/>
+  <path d="M440,160 L440,150 M435,155 L445,155" stroke="#8b4513" stroke-width="2"/>
+  
+  <!-- Даты -->
+  <text x="50" y="180" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">1860-е гг.</text>
+  <text x="270" y="180" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">1840-1893</text>
+  
+  <!-- Текст о кружке -->
+  <text x="60" y="270" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Группа композиторов,</text>
+  <text x="60" y="285" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">стремившихся к</text>
+  <text x="60" y="300" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">национальному стилю</text>
+  
+  <!-- Текст о Чайковском -->
+  <text x="280" y="270" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Великий русский</text>
+  <text x="280" y="285" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">композитор,</text>
+  <text x="280" y="300" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">создатель мирового</text>
+  <text x="280" y="315" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">классического</text>
+  <text x="280" y="330" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">наследия</text>
+  
+  <!-- Музыкальные символы -->
+  <text x="100" y="320" font-family="Arial, sans-serif" font-size="20" fill="#9b59b6" text-anchor="middle">♪</text>
+  <text x="200" y="320" font-family="Arial, sans-serif" font-size="20" fill="#9b59b6" text-anchor="middle">♫</text>
+  <text x="300" y="320" font-family="Arial, sans-serif" font-size="20" fill="#9b59b6" text-anchor="middle">♬</text>
+  <text x="400" y="320" font-family="Arial, sans-serif" font-size="20" fill="#9b59b6" text-anchor="middle">♩</text>
+</svg>
