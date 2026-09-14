@@ -1,0 +1,160 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновые элементы -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Декоративные линии -->
+  <line x1="0" y1="50" x2="500" y2="50" stroke="#9b59b6" stroke-width="2"/>
+  <line x1="0" y1="80" x2="500" y2="80" stroke="#9b59b6" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#9b59b6">МУЗЫКА · 7 КЛАСС</text>
+  
+  <!-- Название урока -->
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Джаз и рок-музыка</text>
+  <text x="250" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">Тема: Современная музыка</text>
+  
+  <!-- Секция Джаза -->
+  <g transform="translate(50, 120)">
+    <rect x="0" y="0" width="180" height="200" rx="10" fill="#ecf0f1" stroke="#9b59b6" stroke-width="2"/>
+    <text x="90" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#9b59b6">ДЖАЗ</text>
+    
+    <!-- Иконка саксофона -->
+    <path d="M 40 50 Q 50 40, 60 50 L 65 80 Q 70 85, 75 80 L 80 60 Q 85 55, 90 60 L 95 90 Q 100 95, 105 90 L 110 70 Q 115 65, 120 70 L 125 100 Q 130 105, 135 100 L 140 75" 
+          fill="none" stroke="#9b59b6" stroke-width="3"/>
+    <circle cx="40" cy="50" r="8" fill="#9b59b6"/>
+    <circle cx="140" cy="75" r="8" fill="#9b59b6"/>
+    
+    <!-- Ключевые элементы джаза -->
+    <text x="20" y="130" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• Импровизация</text>
+    <text x="20" y="150" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• Синкопы</text>
+    <text x="20" y="170" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50"> Блюзы</text>
+    <text x="20" y="190" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50"> Свинг</text>
+  </g>
+  
+  <!-- Секция Рока -->
+  <g transform="translate(270, 120)">
+    <rect x="0" y="0" width="180" height="200" rx="10" fill="#ecf0f1" stroke="#9b59b6" stroke-width="2"/>
+    <text x="90" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#9b59b6">РОК-МУЗЫКА</text>
+    
+    <!-- Иконка гитары -->
+    <ellipse cx="90" cy="60" rx="15" ry="25" fill="#9b59b6"/>
+    <rect x="85" y="35" width="10" height="30" fill="#9b59b6"/>
+    <rect x="80" y="30" width="20" height="5" fill="#9b59b6"/>
+    <line x1="90" y1="35" x2="90" y2="10" stroke="#9b59b6" stroke-width="2"/>
+    
+    <!-- Ключевые элементы рока -->
+    <text x="20" y="130" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• Электрогитара</text>
+    <text x="20" y="150" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• Бас-гитара</text>
+    <text x="20" y="170" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50"> Ударные</text>
+    <text x="20" y="190" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50"> Вокал</text>
+  </g>
+  
+  <!-- Диаграмма развития -->
+  <g transform="translate(50, 340)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Эволюция современной музыки:</text>
+    
+    <!-- Линия времени -->
+    <line x1="0" y1="20" x2="400" y2="20" stroke="#9b59b6" stroke-width="2"/>
+    
+    <!-- Точки времени -->
+    <circle cx="50" cy="20" r="5" fill="#9b59b6"/>
+    <text x="50" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">1920-е</text>
+    <text x="50" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Джаз</text>
+    
+    <circle cx="150" cy="20" r="5" fill="#9b59b6"/>
+    <text x="150" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">1950-е</text>
+    <text x="150" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Рок-н-ролл</text>
+    
+    <circle cx="250" cy="20" r="5" fill="#9b59b6"/>
+    <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">1970-е</text>
+    <text x="250" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Хард-рок</text>
+    
+    <circle cx="350" cy="20" r="5" fill="#9b59b6"/>
+    <text x="350" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">2000-е</text>
+    <text x="350" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Альтернатива</text>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <g transform="translate(200, 140)">
+    <path d="M 0 0 L 50 0 L 50 30 L 0 30 Z" fill="#9b59b6" opacity="0.2"/>
+    <text x="25" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">джаз-рок</text>
+    <path d="M 50 15 L 100 15" stroke="#9b59b6" stroke-width="2" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Стрелка -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#9b59b6"/>
+    </marker>
+  </defs>
+  
+  <!-- Влияния -->
+  <g transform="translate(30, 100)">
+    <circle cx="10" cy="10" r="5" fill="#9b59b6"/>
+    <text x="20" y="14" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Блюз</text>
+    <path d="M 10 10 Q 30 20, 50 30" fill="none" stroke="#9b59b6" stroke-width="1" opacity="0.5"/>
+  </g>
+  
+  <g transform="translate(30, 250)">
+    <circle cx="10" cy="10" r="5" fill="#9b59b6"/>
+    <text x="20" y="14" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Ритм-н-блюз</text>
+    <path d="M 10 10 Q 30 20, 50 30" fill="none" stroke="#9b59b6" stroke-width="1" opacity="0.5"/>
+  </g>
+  
+  <!-- Современные поджанры -->
+  <g transform="translate(20, 300)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Современные поджанры:</text>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">• Фьюжн</text>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">• Джаз-рок</text>
+    <text x="100" y="20" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">• Альтернативный рок</text>
+    <text x="100" y="35" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">• Инди-рок</text>
+  </g>
+  
+  <!-- Инструменты -->
+  <g transform="translate(300, 300)">
+    <rect x="0" y="0" width="15" height="40" fill="#9b59b6" opacity="0.7"/>
+    <rect x="20" y="10" width="15" height="30" fill="#9b59b6" opacity="0.7"/>
+    <rect x="40" y="5" width="15" height="35" fill="#9b59b6" opacity="0.7"/>
+    <text x="30" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Инструменты</text>
+  </g>
+  
+  <!-- Ритмические фигуры -->
+  <g transform="translate(150, 250)">
+    <rect x="0" y="0" width="20" height="20" fill="#9b59b6" opacity="0.3"/>
+    <rect x="25" y="0" width="10" height="20" fill="#9b59b6" opacity="0.3"/>
+    <rect x="40" y="0" width="20" height="20" fill="#9b59b6" opacity="0.3"/>
+    <rect x="65" y="0" width="10" height="20" fill="#9b59b6" opacity="0.3"/>
+    <rect x="80" y="0" width="20" height="20" fill="#9b59b6" opacity="0.3"/>
+    <text x="50" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Синкопированный ритм</text>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="480" cy="30" r="3" fill="#9b59b6" opacity="0.5"/>
+  <circle cx="470" cy="40" r="2" fill="#9b59b6" opacity="0.5"/>
+  <circle cx="490" cy="45" r="2" fill="#9b59b6" opacity="0.5"/>
+  
+  <circle cx="20" cy="30" r="3" fill="#9b59b6" opacity="0.5"/>
+  <circle cx="10" cy="40" r="2" fill="#9b59b6" opacity="0.5"/>
+  <circle cx="30" cy="45" r="2" fill="#9b59b6" opacity="0.5"/>
+  
+  <!-- Музыкальные ноты -->
+  <g transform="translate(420, 120)">
+    <ellipse cx="0" cy="15" rx="4" ry="3" fill="#9b59b6" transform="rotate(-20 0 15)"/>
+    <rect x="3" y="0" width="1" height="15" fill="#9b59b6"/>
+    <ellipse cx="10" cy="10" rx="4" ry="3" fill="#9b59b6" transform="rotate(-20 10 10)"/>
+    <rect x="13" y="-5" width="1" height="15" fill="#9b59b6"/>
+    <ellipse cx="20" cy="5" rx="4" ry="3" fill="#9b59b6" transform="rotate(-20 20 5)"/>
+    <rect x="23" y="-10" width="1" height="15" fill="#9b59b6"/>
+  </g>
+  
+  <!-- Стилизованная волна звука -->
+  <path d="M 50 340 Q 70 330, 90 340 T 130 340 T 170 340" fill="none" stroke="#9b59b6" stroke-width="2" opacity="0.5"/>
+  <path d="M 50 345 Q 70 335, 90 345 T 130 345 T 170 345" fill="none" stroke="#9b59b6" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Дополнительные текстовые элементы -->
+  <text x="140" y="170" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">свободная</text>
+  <text x="140" y="185" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">импровизация</text>
+  
+  <text x="360" y="170" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">энергичная</text>
+  <text x="360" y="185" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">атмосфера</text>
+</svg>
