@@ -1,0 +1,141 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#16a085">ЭКОЛОГИЯ · 7 КЛАСС</text>
+  
+  <!-- Название урока -->
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#16a085">Круговорот воды и углерода</text>
+  
+  <!-- Солнце -->
+  <circle cx="80" cy="100" r="25" fill="#FFD700"/>
+  <path d="M80 60 L80 70 M80 130 L80 140 M50 100 L60 100 M100 100 L110 100 M55 75 L62 82 M105 75 L112 82 M55 125 L62 118 M105 125 L112 118" stroke="#FFD700" stroke-width="2"/>
+  
+  <!-- Облака -->
+  <ellipse cx="180" cy="90" rx="30" ry="15" fill="#E6E6E6"/>
+  <ellipse cx="160" cy="95" rx="25" ry="12" fill="#E6E6E6"/>
+  <ellipse cx="200" cy="95" rx="25" ry="12" fill="#E6E6E6"/>
+  
+  <!-- Дождь -->
+  <path d="M160 105 L155 115 M170 105 L165 115 M180 105 L175 115 M190 105 L185 115 M200 105 L195 115 M210 105 L205 115" stroke="#4FC3F7" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Гора -->
+  <path d="M50 200 L150 100 L250 200 Z" fill="#8BC34A"/>
+  
+  <!-- Дерево -->
+  <rect x="300" y="150" width="20" height="50" fill="#795548"/>
+  <circle cx="310" cy="130" r="25" fill="#4CAF50"/>
+  <circle cx="290" cy="140" r="20" fill="#4CAF50"/>
+  <circle cx="330" cy="140" r="20" fill="#4CAF50"/>
+  
+  <!-- Река -->
+  <path d="M100 250 Q150 240 200 250 T300 250 T400 250" stroke="#2196F3" stroke-width="8" fill="none"/>
+  
+  <!-- Животное -->
+  <ellipse cx="250" cy="240" rx="30" ry="15" fill="#FF7043"/>
+  <circle cx="235" cy="235" r="5" fill="white"/>
+  <circle cx="265" cy="235" r="5" fill="white"/>
+  <circle cx="235" cy="235" r="2" fill="black"/>
+  <circle cx="265" cy="235" r="2" fill="black"/>
+  
+  <!-- Человек -->
+  <circle cx="400" cy="230" r="8" fill="#FFD54F"/>
+  <rect x="395" y="238" width="10" height="20" fill="#2196F3"/>
+  <rect x="390" y="240" width="8" height="15" fill="#2196F3"/>
+  <rect x="402" y="240" width="8" height="15" fill="#2196F3"/>
+  
+  <!-- Углерод CO2 -->
+  <circle cx="350" cy="120" r="10" fill="#607D8B"/>
+  <circle cx="330" cy="105" r="8" fill="#F44336"/>
+  <circle cx="370" cy="105" r="8" fill="#F44336"/>
+  <line x1="340" y1="115" x2="335" y2="110" stroke="#607D8B" stroke-width="2"/>
+  <line x1="360" y1="115" x2="365" y2="110" stroke="#607D8B" stroke-width="2"/>
+  <text x="350" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">CO₂</text>
+  
+  <!-- Стрелки круговорота -->
+  <path d="M80 130 L80 180" stroke="#16a085" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M120 200 L180 170" stroke="#16a085" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M200 120 L250 120" stroke="#16a085" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M310 150 L310 200" stroke="#16a085" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M350 200 Q400 180 400 140" stroke="#16a085" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Стрелка для углерода -->
+  <path d="M330 110 Q280 150 200 180" stroke="#FF5722" stroke-width="2" fill="none" stroke-dasharray="5,3" marker-end="url(#arrowhead2)"/>
+  <path d="M250 240 Q300 220 350 150" stroke="#FF5722" stroke-width="2" fill="none" stroke-dasharray="5,3" marker-end="url(#arrowhead2)"/>
+  
+  <!-- Определения -->
+  <rect x="20" y="280" width="120" height="60" rx="5" fill="#E8F5E9" stroke="#16a085" stroke-width="1"/>
+  <text x="80" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#16a085">Испарение</text>
+  <text x="80" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">Вода → Пар</text>
+  <text x="80" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">от поверхности</text>
+  
+  <rect x="160" y="280" width="120" height="60" rx="5" fill="#E8F5E9" stroke="#16a085" stroke-width="1"/>
+  <text x="220" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#16a085">Конденсация</text>
+  <text x="220" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">Пар → Капли</text>
+  <text x="220" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">в облаках</text>
+  
+  <rect x="300" y="280" width="120" height="60" rx="5" fill="#E8F5E9" stroke="#16a085" stroke-width="1"/>
+  <text x="360" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#16a085">Фотосинтез</text>
+  <text x="360" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">CO₂ + H₂O → O₂</text>
+  <text x="360" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">+ Органика</text>
+  
+  <rect x="440" y="280" width="50" height="60" rx="5" fill="#FFF3E0" stroke="#FF5722" stroke-width="1"/>
+  <text x="465" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FF5722">Дыхание</text>
+  <text x="465" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">O₂ → CO₂</text>
+  
+  <!-- Текстовые подписи -->
+  <text x="80" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Солнце</text>
+  <text x="180" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Облака</text>
+  <text x="150" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Гора</text>
+  <text x="310" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Растения</text>
+  <text x="250" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Животные</text>
+  <text x="400" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Человек</text>
+  <text x="200" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Река</text>
+  
+  <!-- Метки процессов -->
+  <text x="80" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#16a085">Испарение</text>
+  <text x="150" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#16a085">Дождь</text>
+  <text x="220" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#16a085">Транспирация</text>
+  <text x="310" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#16a085">Корни</text>
+  <text x="375" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#16a085">Органика</text>
+  <text x="280" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#FF5722">Поглощение CO₂</text>
+  <text x="300" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#FF5722">Выделение CO₂</text>
+  
+  <!-- Индикаторы циклов -->
+  <text x="250" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#16a085">Круговорот воды</text>
+  <text x="300" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FF5722">Круговорот углерода</text>
+  
+  <!-- Маркеры стрелок -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#16a085"/>
+    </marker>
+    <marker id="arrowhead2" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#FF5722"/>
+    </marker>
+  </defs>
+  
+  <!-- Дополнительные элементы для увеличения размера -->
+  <rect x="30" y="60" width="440" height="2" fill="#16a085" opacity="0.3"/>
+  <rect x="30" y="270" width="440" height="2" fill="#16a085" opacity="0.3"/>
+  
+  <!-- Дополнительные текстовые элементы -->
+  <text x="50" y="50" font-family="Arial, sans-serif" font-size="8" fill="#666">Круговорот веществ</text>
+  <text x="450" y="50" font-family="Arial, sans-serif" font-size="8" fill="#666">природные процессы</text>
+  <text x="50" y="340" font-family="Arial, sans-serif" font-size="8" fill="#666">Важность экосистем</text>
+  <text x="450" y="340" font-family="Arial, sans-serif" font-size="8" fill="#666">Баланс природы</text>
+  
+  <!-- Дополнительные диаграммные элементы -->
+  <circle cx="120" cy="180" r="3" fill="#16a085"/>
+  <circle cx="140" cy="175" r="3" fill="#16a085"/>
+  <circle cx="160" cy="178" r="3" fill="#16a085"/>
+  <circle cx="180" cy="176" r="3" fill="#16a085"/>
+  <circle cx="200" cy="179" r="3" fill="#16a085"/>
+  
+  <circle cx="320" cy="210" r="3" fill="#FF5722"/>
+  <circle cx="340" cy="215" r="3" fill="#FF5722"/>
+  <circle cx="360" cy="212" r="3" fill="#FF5722"/>
+  <circle cx="380" cy="218" r="3" fill="#FF5722"/>
+  <circle cx="400" cy="214" r="3" fill="#FF5722"/>
+</svg>
