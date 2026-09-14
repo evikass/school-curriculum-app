@@ -1,0 +1,161 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок -->
+  <rect x="0" y="0" width="500" height="60" fill="#34495e"/>
+  <text x="250" y="35" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">РОБОТОТЕХНИКА · 7 КЛАСС</text>
+  
+  <!-- Название урока -->
+  <text x="250" y="85" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Основные компоненты робота</text>
+  
+  <!-- Схема робота -->
+  <!-- Корпус робота -->
+  <rect x="200" y="100" width="100" height="120" rx="10" fill="#34495e"/>
+  <rect x="210" y="110" width="80" height="100" rx="5" fill="#ecf0f1"/>
+  
+  <!-- Голова робота -->
+  <circle cx="250" cy="100" r="25" fill="#34495e"/>
+  <circle cx="250" cy="100" r="20" fill="#3498db"/>
+  
+  <!-- Глаза -->
+  <circle cx="240" cy="95" r="5" fill="white"/>
+  <circle cx="260" cy="95" r="5" fill="white"/>
+  <circle cx="240" cy="95" r="3" fill="#34495e"/>
+  <circle cx="260" cy="95" r="3" fill="#34495e"/>
+  
+  <!-- Антенна -->
+  <line x1="250" y1="75" x2="250" y2="85" stroke="#34495e" stroke-width="3"/>
+  <circle cx="250" cy="75" r="5" fill="#e74c3c"/>
+  
+  <!-- Колеса -->
+  <circle cx="190" cy="220" r="20" fill="#34495e"/>
+  <circle cx="190" cy="220" r="15" fill="#95a5a6"/>
+  <circle cx="310" cy="220" r="20" fill="#34495e"/>
+  <circle cx="310" cy="220" r="15" fill="#95a5a6"/>
+  
+  <!-- Руки -->
+  <rect x="170" y="130" width="30" height="10" rx="5" fill="#34495e"/>
+  <rect x="300" y="130" width="30" height="10" rx="5" fill="#34495e"/>
+  
+  <!-- Ноги -->
+  <rect x="225" y="220" width="50" height="20" rx="5" fill="#34495e"/>
+  
+  <!-- Список компонентов -->
+  <text x="50" y="160" fill="#34495e" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Компоненты:</text>
+  
+  <!-- Микроконтроллер -->
+  <rect x="50" y="175" width="40" height="25" rx="3" fill="#3498db"/>
+  <text x="70" y="192" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">MCU</text>
+  <text x="100" y="192" fill="#34495e" font-family="Arial, sans-serif" font-size="12">Микроконтроллер</text>
+  
+  <!-- Двигатели -->
+  <circle cx="70" cy="220" r="12" fill="#e74c3c"/>
+  <circle cx="70" cy="220" r="8" fill="#c0392b"/>
+  <text x="90" y="225" fill="#34495e" font-family="Arial, sans-serif" font-size="12">Двигатели</text>
+  
+  <!-- Датчики -->
+  <rect x="50" y="245" width="40" height="15" rx="2" fill="#2ecc71"/>
+  <circle cx="60" cy="252" r="3" fill="#27ae60"/>
+  <circle cx="70" cy="252" r="3" fill="#27ae60"/>
+  <circle cx="80" cy="252" r="3" fill="#27ae60"/>
+  <text x="100" y="257" fill="#34495e" font-family="Arial, sans-serif" font-size="12">Датчики</text>
+  
+  <!-- Аккумулятор -->
+  <rect x="50" y="270" width="40" height="20" rx="3" fill="#f39c12"/>
+  <rect x="88" y="275" width="5" height="10" rx="2" fill="#e67e22"/>
+  <text x="100" y="285" fill="#34495e" font-family="Arial, sans-serif" font-size="12">Аккумулятор</text>
+  
+  <!-- Соединения -->
+  <line x1="100" y1="187" x2="170" y2="135" stroke="#34495e" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="100" y1="220" x2="190" y2="220" stroke="#34495e" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="100" y1="252" x2="250" y2="110" stroke="#34495e" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="100" y1="280" x2="225" y2="170" stroke="#34495e" stroke-width="2" stroke-dasharray="5,3"/>
+  
+  <!-- Иконки функций -->
+  <text x="400" y="140" fill="#34495e" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Функции:</text>
+  
+  <!-- Обработка данных -->
+  <rect x="400" y="155" width="80" height="25" rx="5" fill="#9b59b6"/>
+  <path d="M415 167 L425 167 L425 170 L415 170 Z M425 167 L435 167 L435 170 L425 170 Z" fill="white"/>
+  <text x="440" y="172" fill="#34495e" font-family="Arial, sans-serif" font-size="11">Обработка данных</text>
+  
+  <!-- Движение -->
+  <rect x="400" y="190" width="80" height="25" rx="5" fill="#e74c3c"/>
+  <path d="M410 202 L420 197 L430 202 L420 207 Z" fill="white"/>
+  <text x="440" y="202" fill="#34495e" font-family="Arial, sans-serif" font-size="11">Движение</text>
+  
+  <!-- Восприятие -->
+  <rect x="400" y="225" width="80" height="25" rx="5" fill="#3498db"/>
+  <circle cx="415" cy="237" r="5" fill="white"/>
+  <path d="M415 237 L420 232 M415 237 L410 232 M415 237 L415 232" stroke="#3498db" stroke-width="2"/>
+  <text x="440" y="242" fill="#34495e" font-family="Arial, sans-serif" font-size="11">Восприятие</text>
+  
+  <!-- Коммуникация -->
+  <rect x="400" y="260" width="80" height="25" rx="5" fill="#1abc9c"/>
+  <path d="M410 272 L415 272 L415 267 M415 267 L420 272 M415 267 L410 272" fill="none" stroke="white" stroke-width="2"/>
+  <text x="440" y="277" fill="#34495e" font-family="Arial, sans-serif" font-size="11">Коммуникация</text>
+  
+  <!-- Дополнительные элементы -->
+  <!-- Индикатор питания -->
+  <circle cx="250" cy="125" r="5" fill="#2ecc71"/>
+  <text x="265" y="129" fill="#34495e" font-family="Arial, sans-serif" font-size="10">Питание</text>
+  
+  <!-- Разъемы -->
+  <rect x="220" y="140" width="8" height="8" fill="#95a5a6"/>
+  <rect x="272" y="140" width="8" height="8" fill="#95a5a6"/>
+  <text x="280" y="147" fill="#34495e" font-family="Arial, sans-serif" font-size="10">Разъемы</text>
+  
+  <!-- Плата управления -->
+  <rect x="215" y="155" width="70" height="40" rx="3" fill="#34495e"/>
+  <circle cx="225" cy="165" r="2" fill="#e74c3c"/>
+  <circle cx="235" cy="165" r="2" fill="#f39c12"/>
+  <circle cx="245" cy="165" r="2" fill="#2ecc71"/>
+  <line x1="225" y1="165" x2="225" y2="185" stroke="#ecf0f1" stroke-width="1"/>
+  <line x1="235" y1="165" x2="235" y2="185" stroke="#ecf0f1" stroke-width="1"/>
+  <line x1="245" y1="165" x2="245" y2="185" stroke="#ecf0f1" stroke-width="1"/>
+  <line x1="255" y1="165" x2="255" y2="185" stroke="#ecf0f1" stroke-width="1"/>
+  <line x1="265" y1="165" x2="265" y2="185" stroke="#ecf0f1" stroke-width="1"/>
+  <line x1="275" y1="165" x2="275" y2="185" stroke="#ecf0f1" stroke-width="1"/>
+  <text x="250" y="210" text-anchor="middle" fill="#34495e" font-family="Arial, sans-serif" font-size="10">Плата управления</text>
+  
+  <!-- Дополнительно: Схема подключения -->
+  <text x="50" y="310" fill="#34495e" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Схема подключения:</text>
+  
+  <!-- Схема -->
+  <rect x="50" y="320" width="20" height="15" fill="#3498db"/>
+  <text x="75" y="332" fill="#34495e" font-family="Arial, sans-serif" font-size="10">MCU</text>
+  <line x1="70" y1="332" x2="120" y2="332" stroke="#34495e" stroke-width="2"/>
+  
+  <rect x="120" y="325" width="15" height="10" fill="#2ecc71"/>
+  <text x="140" y="332" fill="#34495e" font-family="Arial, sans-serif" font-size="10">Датчики</text>
+  
+  <line x1="135" y1="332" x2="180" y2="332" stroke="#34495e" stroke-width="2"/>
+  
+  <rect x="180" y="325" width="15" height="10" fill="#e74c3c"/>
+  <text x="200" y="332" fill="#34495e" font-family="Arial, sans-serif" font-size="10">Двигатели</text>
+  
+  <line x1="195" y1="332" x2="250" y2="332" stroke="#34495e" stroke-width="2"/>
+  
+  <rect x="250" y="325" width="20" height="10" fill="#f39c12"/>
+  <text x="275" y="332" fill="#34495e" font-family="Arial, sans-serif" font-size="10">Питание</text>
+  
+  <!-- Дополнительные иконки -->
+  <circle cx="350" cy="330" r="8" fill="#34495e"/>
+  <text x="350" y="334" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">I/O</text>
+  
+  <rect x="370" y="322" width="16" height="16" rx="2" fill="#9b59b6"/>
+  <text x="378" y="334" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">CPU</text>
+  
+  <path d="M400 330 L410 330 L410 322 L420 330 L410 338 L410 330" fill="#1abc9c"/>
+  <text x="425" y="334" fill="#34495e" font-family="Arial, sans-serif" font-size="10">Wi-Fi</text>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="450" cy="100" r="3" fill="#34495e"/>
+  <circle cx="460" cy="105" r="3" fill="#34495e"/>
+  <circle cx="470" cy="100" r="3" fill="#34495e"/>
+  
+  <rect x="440" y="115" width="30" height="3" fill="#34495e"/>
+  <rect x="440" y="120" width="25" height="3" fill="#34495e"/>
+  <rect x="440" y="125" width="28" height="3" fill="#34495e"/>
+</svg>
