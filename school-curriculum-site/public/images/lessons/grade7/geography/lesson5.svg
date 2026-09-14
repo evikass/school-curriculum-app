@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="ocean1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#004466"/><stop offset="100%" stop-color="#006699"/></linearGradient>
+<linearGradient id="ocean2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#006699"/><stop offset="100%" stop-color="#0088BB"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="#003355"/>
+<rect x="20" y="40" width="220" height="240" fill="url(#ocean1)" rx="8" stroke="#00AACC" stroke-width="1"/>
+<rect x="260" y="40" width="220" height="240" fill="url(#ocean2)" rx="8" stroke="#00AACC" stroke-width="1"/>
+<path d="M50,80 Q60,70 80,80 Q100,90 120,80" stroke="#66CCEE" stroke-width="1" fill="none" opacity="0.6"/>
+<path d="M40,120 Q55,110 75,120 Q95,130 115,120 Q135,110 155,120 Q175,130 195,120 Q210,112 220,120" stroke="#66CCEE" stroke-width="1" fill="none" opacity="0.5"/>
+<path d="M35,160 Q50,150 70,160 Q90,170 110,160 Q130,150 150,160 Q170,170 190,160 Q210,150 225,160" stroke="#66CCEE" stroke-width="1" fill="none" opacity="0.4"/>
+<path d="M45,200 Q60,190 80,200 Q100,210 120,200 Q140,190 160,200 Q180,210 200,200" stroke="#66CCEE" stroke-width="1" fill="none" opacity="0.5"/>
+<path d="M280,80 Q295,70 315,80 Q335,90 355,80" stroke="#66CCEE" stroke-width="1" fill="none" opacity="0.6"/>
+<path d="M275,130 Q290,120 310,130 Q330,140 350,130 Q370,120 390,130 Q410,140 430,130 Q450,120 465,130" stroke="#66CCEE" stroke-width="1" fill="none" opacity="0.5"/>
+<path d="M280,170 Q295,160 315,170 Q335,180 355,170 Q375,160 395,170 Q415,180 435,170 Q450,162 465,170" stroke="#66CCEE" stroke-width="1" fill="none" opacity="0.4"/>
+<path d="M285,210 Q300,200 320,210 Q340,220 360,210" stroke="#66CCEE" stroke-width="1" fill="none" opacity="0.5"/>
+<ellipse cx="100" cy="200" rx="18" ry="8" fill="#2a5a3a" stroke="#3a7a4a" stroke-width="0.8"/>
+<ellipse cx="400" cy="140" rx="15" ry="10" fill="#2a5a3a" stroke="#3a7a4a" stroke-width="0.8"/>
+<path d="M85,280 Q90,260 95,280 Q100,260 105,280" stroke="#4a9aaa" stroke-width="1.5" fill="none"/>
+<path d="M80,282 Q87,265 93,282" stroke="#4a9aaa" stroke-width="1" fill="none" opacity="0.6"/>
+<ellipse cx="170" cy="260" rx="12" ry="6" fill="#3a8a7a" opacity="0.7"/>
+<circle cx="155" cy="256" r="3" fill="#2a7a6a" opacity="0.7"/>
+<path d="M330,270 Q335,250 340,270 Q345,250 350,270" stroke="#4a9aaa" stroke-width="1.5" fill="none"/>
+<path d="M360,260 Q365,245 370,260 Q375,245 380,260" stroke="#4a9aaa" stroke-width="1.2" fill="none" opacity="0.7"/>
+<ellipse cx="440" cy="230" rx="10" ry="5" fill="#3a8a7a" opacity="0.6"/>
+<text x="130" y="55" font-family="Arial" font-size="12" fill="#88DDEE" text-anchor="middle" font-weight="bold">ТИХИЙ</text>
+<text x="370" y="55" font-family="Arial" font-size="12" fill="#88DDEE" text-anchor="middle" font-weight="bold">АТЛАНТИЧЕСКИЙ</text>
+<text x="250" y="342" font-family="Arial" font-size="9" fill="#88CCEE" text-anchor="middle" opacity="0.5">Тихий и Атлантический океаны</text>
+</svg>
