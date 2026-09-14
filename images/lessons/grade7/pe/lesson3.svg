@@ -1,0 +1,161 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">ФИЗИЧЕСКАЯ КУЛЬТУРА · 7 КЛАСС</text>
+  
+  <!-- Название урока -->
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#3498db">Баскетбол: техника и тактика</text>
+  
+  <!-- Баскетбольное поле -->
+  <rect x="50" y="80" width="180" height="140" fill="#f39c12" stroke="#3498db" stroke-width="2"/>
+  <rect x="50" y="80" width="180" height="140" fill="none" stroke="#34495e" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Центральная линия -->
+  <line x1="140" y1="80" x2="140" y2="220" stroke="#34495e" stroke-width="2"/>
+  <circle cx="140" cy="150" r="20" fill="none" stroke="#34495e" stroke-width="2"/>
+  
+  <!-- Корзина -->
+  <rect x="45" y="115" width="10" height="30" fill="#3498db"/>
+  <rect x="40" y="120" width="20" height="3" fill="#3498db"/>
+  
+  <!-- Баскетбольный мяч -->
+  <circle cx="140" cy="150" r="12" fill="#e74c3c"/>
+  <path d="M128,150 Q140,142 152,150" fill="none" stroke="#fff" stroke-width="1"/>
+  <path d="M128,150 Q140,158 152,150" fill="none" stroke="#fff" stroke-width="1"/>
+  <path d="M128,138 Q140,150 152,138" fill="none" stroke="#fff" stroke-width="1"/>
+  <path d="M128,162 Q140,150 152,162" fill="none" stroke="#fff" stroke-width="1"/>
+  
+  <!-- Игроки -->
+  <circle cx="100" cy="130" r="8" fill="#3498db"/>
+  <path d="M100,138 L100,155 M92,145 L108,145" fill="none" stroke="#34495e" stroke-width="2"/>
+  
+  <circle cx="170" cy="170" r="8" fill="#e74c3c"/>
+  <path d="M170,178 L170,195 M162,185 L178,185" fill="none" stroke="#34495e" stroke-width="2"/>
+  
+  <!-- Техника броска -->
+  <rect x="280" y="80" width="160" height="120" fill="#ecf0f1" stroke="#3498db" stroke-width="2"/>
+  <text x="360" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Техника броска</text>
+  
+  <!-- Схема броска -->
+  <circle cx="320" cy="140" r="10" fill="#e74c3c"/>
+  <path d="M320,130 Q310,120 300,110" fill="none" stroke="#3498db" stroke-width="2" stroke-dasharray="3,2"/>
+  <path d="M320,150 Q330,160 340,170" fill="none" stroke="#3498db" stroke-width="2" stroke-dasharray="3,2"/>
+  <text x="360" y="125" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Положение</text>
+  <text x="360" y="140" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Мяч</text>
+  <text x="360" y="155" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Ноги</text>
+  
+  <!-- Тройка броска -->
+  <path d="M280,180 L290,170 L300,160" fill="none" stroke="#3498db" stroke-width="2"/>
+  <text x="280" y="195" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Тройка</text>
+  <text x="290" y="195" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Двухочковый</text>
+  
+  <!-- Тактика игры -->
+  <rect x="280" y="220" width="160" height="100" fill="#ecf0f1" stroke="#3498db" stroke-width="2"/>
+  <text x="360" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Тактика игры</text>
+  
+  <!-- Схема позиции игроков -->
+  <circle cx="310" cy="260" r="6" fill="#3498db"/>
+  <circle cx="340" cy="260" r="6" fill="#3498db"/>
+  <circle cx="370" cy="260" r="6" fill="#3498db"/>
+  <circle cx="320" cy="285" r="6" fill="#e74c3c"/>
+  <circle cx="360" cy="285" r="6" fill="#e74c3c"/>
+  <text x="310" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">Защита</text>
+  <text x="340" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">Атака</text>
+  <text x="370" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">Форвард</text>
+  
+  <!-- Основные элементы игры -->
+  <rect x="50" y="240" width="180" height="80" fill="#ecf0f1" stroke="#3498db" stroke-width="2"/>
+  <text x="140" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Основные элементы</text>
+  
+  <!-- Схема игры -->
+  <rect x="70" y="275" width="20" height="20" fill="#3498db"/>
+  <rect x="100" y="275" width="20" height="20" fill="#3498db"/>
+  <rect x="130" y="275" width="20" height="20" fill="#3498db"/>
+  <rect x="90" y="300" width="20" height="20" fill="#e74c3c"/>
+  <rect x="130" y="300" width="20" height="20" fill="#e74c3c"/>
+  
+  <!-- Стрелки движения -->
+  <path d="M80,285 L95,285" fill="none" stroke="#2c3e50" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <path d="M110,285 L125,285" fill="none" stroke="#2c3e50" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <path d="M140,285 L155,285" fill="none" stroke="#2c3e50" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <path d="M100,310 L115,310" fill="none" stroke="#2c3e50" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <path d="M140,310 L155,310" fill="none" stroke="#2c3e50" stroke-width="1" marker-end="url(#arrowhead)"/>
+  
+  <!-- Стрелка определение -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2c3e50"/>
+    </marker>
+  </defs>
+  
+  <!-- Правила игры -->
+  <rect x="460" y="80" width="35" height="200" fill="#ecf0f1" stroke="#3498db" stroke-width="2"/>
+  <text x="477" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Правила</text>
+  
+  <!-- Правила пункты -->
+  <text x="465" y="120" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">1. Дриблинг</text>
+  <text x="465" y="135" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">2. Пас</text>
+  <text x="465" y="150" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">3. Бросок</text>
+  <text x="465" y="165" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">4. Защита</text>
+  <text x="465" y="180" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">5. Атака</text>
+  <text x="465" y="195" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">6. Нарушения</text>
+  <text x="465" y="210" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">7. Штрафные</text>
+  <text x="465" y="225" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">8. Тайм-аут</text>
+  <text x="465" y="240" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">9. Оvertime</text>
+  <text x="465" y="255" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">10. Судьи</text>
+  
+  <!-- Дополнительные элементы -->
+  <circle cx="250" cy="330" r="15" fill="#3498db"/>
+  <text x="250" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#fff">7 кл.</text>
+  
+  <!-- Линии поля -->
+  <line x1="50" y1="110" x2="230" y2="110" stroke="#34495e" stroke-width="1"/>
+  <line x1="50" y1="190" x2="230" y2="190" stroke="#34495e" stroke-width="1"/>
+  
+  <!-- Точка штрафного броска -->
+  <circle cx="180" cy="150" r="2" fill="#34495e"/>
+  
+  <!-- Разметка площадки -->
+  <rect x="50" y="80" width="5" height="140" fill="#34495e"/>
+  <rect x="225" y="80" width="5" height="140" fill="#34495e"/>
+  
+  <!-- Текстовые метки -->
+  <text x="140" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Игровое поле</text>
+  <text x="360" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Методика обучения</text>
+  <text x="140" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Комбинации</text>
+  <text x="477" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">Время</text>
+  <text x="477" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">Счет</text>
+  <text x="100" y="125" font-family="Arial, sans-serif" font-size="8" fill="#fff">Защитник</text>
+  <text x="170" y="165" font-family="Arial, sans-serif" font-size="8" fill="#fff">Атакующий</text>
+  <text x="320" y="130" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">Ноги на ширине плеч</text>
+  <text x="320" y="145" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">Колени согнуты</text>
+  <text x="320" y="160" font-family="Arial, sans-serif" font-size="8" fill="#2c3e50">Руки перед грудью</text>
+  <text x="280" y="215" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Позиционная</text>
+  <text x="280" y="230" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">тактика</text>
+  <text x="380" y="215" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Комбинационная</text>
+  <text x="380" y="230" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">тактика</text>
+  <text x="50" y="340" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Спортивные игры</text>
+  <text x="100" y="340" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Баскетбол</text>
+  <text x="150" y="340" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Командная игра</text>
+  <text x="230" y="340" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Координация</text>
+  <text x="300" y="340" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Тактика</text>
+  <text x="360" y="340" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Техника</text>
+  <text x="420" y="340" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Скорость</text>
+  <text x="470" y="340" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Выносливость</text>
+  
+  <!-- Дополнительные графические элементы -->
+  <circle cx="60" cy="300" r="3" fill="#e74c3c"/>
+  <circle cx="80" cy="305" r="3" fill="#e74c3c"/>
+  <circle cx="100" cy="300" r="3" fill="#e74c3c"/>
+  <circle cx="120" cy="305" r="3" fill="#e74c3c"/>
+  <circle cx="140" cy="300" r="3" fill="#e74c3c"/>
+  <circle cx="160" cy="305" r="3" fill="#e74c3c"/>
+  <circle cx="180" cy="300" r="3" fill="#e74c3c"/>
+  <circle cx="200" cy="305" r="3" fill="#e74c3c"/>
+  
+  <!-- Разделители -->
+  <line x1="250" y1="70" x2="250" y2="330" stroke="#3498db" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="260" y1="70" x2="260" y2="330" stroke="#3498db" stroke-width="1" stroke-dasharray="5,5"/>
+</svg>
