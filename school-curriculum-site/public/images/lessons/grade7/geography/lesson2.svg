@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="atmo1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#000033"/><stop offset="100%" stop-color="#000066"/></linearGradient>
+<linearGradient id="atmo2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#000066"/><stop offset="100%" stop-color="#3366CC"/></linearGradient>
+<linearGradient id="atmo3" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#3366CC"/><stop offset="100%" stop-color="#6699FF"/></linearGradient>
+<linearGradient id="atmo4" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#6699FF"/><stop offset="100%" stop-color="#99CCFF"/></linearGradient>
+</defs>
+<rect width="500" height="350" fill="#000033"/>
+<rect x="0" y="0" width="500" height="60" fill="url(#atmo1)"/>
+<rect x="0" y="60" width="500" height="50" fill="url(#atmo2)"/>
+<rect x="0" y="110" width="500" height="70" fill="url(#atmo3)"/>
+<rect x="0" y="180" width="500" height="60" fill="url(#atmo4)"/>
+<rect x="0" y="240" width="500" height="30" fill="#B0D4F1"/>
+<rect x="0" y="270" width="500" height="80" fill="#6B8E23" rx="0"/>
+<text x="20" y="35" font-family="Arial" font-size="8" fill="#99AAFF">Экзосфера</text>
+<text x="20" y="85" font-family="Arial" font-size="8" fill="#AAC8FF">Термосфера</text>
+<text x="20" y="150" font-family="Arial" font-size="8" fill="#CCE0FF">Мезосфера</text>
+<text x="20" y="215" font-family="Arial" font-size="8" fill="#DDEEFF">Стратосфера</text>
+<text x="20" y="258" font-family="Arial" font-size="8" fill="#446688">Тропосфера</text>
+<circle cx="400" cy="40" r="12" fill="#FFD700" opacity="0.7"/>
+<line x1="400" y1="25" x2="400" y2="55" stroke="#FFD700" stroke-width="1" opacity="0.5"/>
+<line x1="385" y1="40" x2="415" y2="40" stroke="#FFD700" stroke-width="1" opacity="0.5"/>
+<ellipse cx="350" cy="250" rx="30" ry="8" fill="white" opacity="0.6"/>
+<ellipse cx="370" cy="248" rx="25" ry="7" fill="white" opacity="0.4"/>
+<path d="M120,230 L130,210 L125,215 L135,195" stroke="#6699FF" stroke-width="1.5" fill="none" opacity="0.5"/>
+<path d="M440,230 L450,210 L445,215 L455,195" stroke="#6699FF" stroke-width="1.5" fill="none" opacity="0.5"/>
+<circle cx="200" cy="240" r="5" fill="#87CEEB" opacity="0.5"/>
+<circle cx="210" cy="237" r="5" fill="#87CEEB" opacity="0.5"/>
+<circle cx="205" cy="234" r="5" fill="#87CEEB" opacity="0.5"/>
+<polygon points="0,270 500,270 500,350 0,350" fill="#4A7A2E"/>
+<text x="250" y="342" font-family="Arial" font-size="9" fill="#CCC" text-anchor="middle" opacity="0.5">Атмосфера и климаты Земли</text>
+</svg>
