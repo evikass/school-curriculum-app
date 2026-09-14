@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#1a1a2e"/>
+<polygon points="250,30 330,110 250,110" fill="#E74C3C" opacity="0.85"/>
+<polygon points="250,110 330,110 380,190 250,190" fill="#E67E22" opacity="0.85"/>
+<polygon points="250,190 380,190 410,260 250,260" fill="#F1C40F" opacity="0.85"/>
+<polygon points="250,260 410,260 430,310 250,310" fill="#27AE60" opacity="0.85"/>
+<polygon points="250,310 430,310 445,345 250,345" fill="#3498DB" opacity="0.85"/>
+<text x="280" y="80" font-family="Arial" font-size="8" fill="white" font-weight="bold">Самовыражение</text>
+<text x="310" y="155" font-family="Arial" font-size="8" fill="white" font-weight="bold">Уважение</text>
+<text x="330" y="230" font-family="Arial" font-size="8" fill="white" font-weight="bold">Социальные</text>
+<text x="340" y="242" font-family="Arial" font-size="7" fill="white">потребности</text>
+<text x="350" y="290" font-family="Arial" font-size="8" fill="white" font-weight="bold">Безопасность</text>
+<text x="360" y="335" font-family="Arial" font-size="8" fill="white" font-weight="bold">Физиологические</text>
+<circle cx="115" cy="325" r="15" fill="#3498DB" opacity="0.3"/>
+<text x="115" y="328" font-family="Arial" font-size="8" fill="white" text-anchor="middle">🍞</text>
+<circle cx="100" cy="280" r="15" fill="#27AE60" opacity="0.3"/>
+<text x="100" y="283" font-family="Arial" font-size="8" fill="white" text-anchor="middle">🏠</text>
+<circle cx="95" cy="230" r="15" fill="#F1C40F" opacity="0.3"/>
+<text x="95" y="233" font-family="Arial" font-size="8" fill="white" text-anchor="middle">👥</text>
+<circle cx="100" cy="170" r="15" fill="#E67E22" opacity="0.3"/>
+<text x="100" y="173" font-family="Arial" font-size="8" fill="white" text-anchor="middle">🏆</text>
+<circle cx="115" cy="110" r="15" fill="#E74C3C" opacity="0.3"/>
+<text x="115" y="113" font-family="Arial" font-size="8" fill="white" text-anchor="middle">✨</text>
+<text x="250" y="342" font-family="Arial" font-size="9" fill="#88AACC" text-anchor="middle" opacity="0.5">Потребности человека</text>
+</svg>
