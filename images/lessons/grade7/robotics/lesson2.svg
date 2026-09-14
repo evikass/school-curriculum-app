@@ -1,0 +1,107 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f5f6fa"/>
+  
+  <!-- Заголовок -->
+  <rect x="50" y="20" width="400" height="50" fill="#34495e" rx="5"/>
+  <text x="250" y="50" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">РОБОТОТЕХНИКА · 7 КЛАСС</text>
+  
+  <!-- Название урока -->
+  <text x="250" y="90" font-family="Arial, sans-serif" font-size="18" fill="#34495e" text-anchor="middle">Виды роботов</text>
+  
+  <!-- Разделительная линия -->
+  <line x1="50" y1="100" x2="450" y2="100" stroke="#34495e" stroke-width="2"/>
+  
+  <!-- Секция: Промышленные роботы -->
+  <rect x="50" y="120" width="130" height="180" fill="#ecf0f1" stroke="#34495e" stroke-width="2" rx="5"/>
+  <rect x="60" y="130" width="110" height="30" fill="#34495e" rx="3"/>
+  <text x="115" y="150" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">Промышленные</text>
+  
+  <!-- Иконка промышленного робота -->
+  <rect x="100" y="175" width="30" height="50" fill="#3498db" rx="5"/>
+  <rect x="90" y="165" width="50" height="20" fill="#2980b9" rx="5"/>
+  <circle cx="95" cy="190" r="8" fill="#34495e"/>
+  <circle cx="135" cy="190" r="8" fill="#34495e"/>
+  <rect x="85" y="225" width="60" height="8" fill="#34495e"/>
+  
+  <!-- Текст для промышленных роботов -->
+  <text x="115" y="250" font-family="Arial, sans-serif" font-size="10" fill="#34495e" text-anchor="middle">Сборка</text>
+  <text x="115" y="265" font-family="Arial, sans-serif" font-size="10" fill="#34495e" text-anchor="middle">Сварка</text>
+  <text x="115" y="280" font-family="Arial, sans-serif" font-size="10" fill="#34495e" text-anchor="middle">Покраска</text>
+  
+  <!-- Секция: Медицинские роботы -->
+  <rect x="190" y="120" width="130" height="180" fill="#ecf0f1" stroke="#34495e" stroke-width="2" rx="5"/>
+  <rect x="200" y="130" width="110" height="30" fill="#34495e" rx="3"/>
+  <text x="255" y="150" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">Медицинские</text>
+  
+  <!-- Иконка медицинского робота -->
+  <circle cx="255" cy="190" r="20" fill="#e74c3c"/>
+  <rect x="245" y="210" width="20" height="30" fill="#c0392b" rx="5"/>
+  <circle cx="240" cy="185" r="5" fill="#34495e"/>
+  <circle cx="270" cy="185" r="5" fill="#34495e"/>
+  <rect x="250" y="240" width="10" height="10" fill="#34495e"/>
+  <rect x="260" y="240" width="10" height="10" fill="#34495e"/>
+  
+  <!-- Текст для медицинских роботов -->
+  <text x="255" y="270" font-family="Arial, sans-serif" font-size="10" fill="#34495e" text-anchor="middle">Хирургия</text>
+  <text x="255" y="285" font-family="Arial, sans-serif" font-size="10" fill="#34495e" text-anchor="middle">Диагностика</text>
+  
+  <!-- Секция: Домашние роботы -->
+  <rect x="330" y="120" width="130" height="180" fill="#ecf0f1" stroke="#34495e" stroke-width="2" rx="5"/>
+  <rect x="340" y="130" width="110" height="30" fill="#34495e" rx="3"/>
+  <text x="395" y="150" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">Домашние</text>
+  
+  <!-- Иконка домашнего робота -->
+  <rect x="380" y="170" width="30" height="40" fill="#2ecc71" rx="15"/>
+  <circle cx="385" cy="185" r="3" fill="#34495e"/>
+  <circle cx="405" cy="185" r="3" fill="#34495e"/>
+  <rect x="385" y="200" width="20" height="3" fill="#34495e"/>
+  <rect x="370" y="215" width="50" height="5" fill="#27ae60"/>
+  
+  <!-- Текст для домашних роботов -->
+  <text x="395" y="240" font-family="Arial, sans-serif" font-size="10" fill="#34495e" text-anchor="middle">Уборка</text>
+  <text x="395" y="255" font-family="Arial, sans-serif" font-size="10" fill="#34495e" text-anchor="middle">Помощь</text>
+  <text x="395" y="270" font-family="Arial, sans-serif" font-size="10" fill="#34495e" text-anchor="middle">Безопасность</text>
+  
+  <!-- Диаграмма классификации роботов -->
+  <rect x="50" y="310" width="400" height="30" fill="#34495e" rx="5"/>
+  <text x="250" y="330" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Классификация роботов по назначению</text>
+  
+  <!-- Дополнительные элементы -->
+  <circle cx="70" y="165" r="3" fill="#34495e"/>
+  <circle cx="80" y="165" r="3" fill="#34495e"/>
+  <circle cx="210" y="165" r="3" fill="#34495e"/>
+  <circle cx="220" y="165" r="3" fill="#34495e"/>
+  <circle cx="350" y="165" r="3" fill="#34495e"/>
+  <circle cx="360" y="165" r="3" fill="#34495e"/>
+  
+  <!-- Стрелки -->
+  <path d="M 120 160 L 120 170 L 115 165 M 120 170 L 125 165" stroke="#34495e" stroke-width="2" fill="none"/>
+  <path d="M 260 160 L 260 170 L 255 165 M 260 170 L 265 165" stroke="#34495e" stroke-width="2" fill="none"/>
+  <path d="M 400 160 L 400 170 L 395 165 M 400 170 L 405 165" stroke="#34495e" stroke-width="2" fill="none"/>
+  
+  <!-- Пунктирные линии -->
+  <line x1="115" y1="170" x2="115" y2="175" stroke="#34495e" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="255" y1="170" x2="255" y2="175" stroke="#34495e" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="395" y1="170" x2="395" y2="175" stroke="#34495e" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- Иконки функций -->
+  <rect x="70" y="235" width="10" height="10" fill="#3498db"/>
+  <rect x="85" y="235" width="10" height="10" fill="#e74c3c"/>
+  <rect x="100" y="235" width="10" height="10" fill="#2ecc71"/>
+  
+  <!-- Текстовые метки -->
+  <text x="75" y="230" font-family="Arial, sans-serif" font-size="8" fill="#34495e">A</text>
+  <text x="90" y="230" font-family="Arial, sans-serif" font-size="8" fill="#34495e">B</text>
+  <text x="105" y="230" font-family="Arial, sans-serif" font-size="8" fill="#34495e">C</text>
+  
+  <!-- Дополнительные декоративные элементы -->
+  <path d="M 60 145 L 60 155 L 65 150 M 60 155 L 55 150" stroke="#ecf0f1" stroke-width="2" fill="none"/>
+  <path d="M 200 145 L 200 155 L 205 150 M 200 155 L 195 150" stroke="#ecf0f1" stroke-width="2" fill="none"/>
+  <path d="M 340 145 L 340 155 L 345 150 M 340 155 L 335 150" stroke="#ecf0f1" stroke-width="2" fill="none"/>
+  
+  <!-- Мини-схема -->
+  <circle cx="250" y="305" r="5" fill="#34495e"/>
+  <line x1="250" y1="300" x2="250" y2="295" stroke="#34495e" stroke-width="2"/>
+  <text x="250" y="293" font-family="Arial, sans-serif" font-size="8" fill="#34495e" text-anchor="middle">S</text>
+</svg>
