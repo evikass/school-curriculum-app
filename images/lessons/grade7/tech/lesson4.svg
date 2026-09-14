@@ -1,0 +1,142 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ecf0f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bdc3c7;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Тень -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGradient)" />
+  
+  <!-- Заголовок -->
+  <rect x="0" y="0" width="500" height="50" fill="#34495e" />
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle" font-weight="bold">ТЕХНОЛОГИЯ · 7 КЛАСС</text>
+  
+  <!-- Название урока -->
+  <text x="250" y="80" font-family="Arial, sans-serif" font-size="24" fill="#2c3e50" text-anchor="middle" font-weight="bold">Ручная обработка металла</text>
+  
+  <!-- Секция: Инструменты -->
+  <rect x="20" y="100" width="220" height="220" fill="white" stroke="#7f8c8d" stroke-width="2" rx="5" filter="url(#shadow)" />
+  <text x="130" y="125" font-family="Arial, sans-serif" font-size="18" fill="#2c3e50" text-anchor="middle" font-weight="bold">Инструменты</text>
+  
+  <!-- Молоток -->
+  <rect x="40" y="140" width="80" height="30" fill="#7f8c8d" rx="3" />
+  <rect x="70" y="170" width="20" height="60" fill="#95a5a6" />
+  <text x="80" y="210" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">Молоток</text>
+  
+  <!-- Напильник -->
+  <rect x="140" y="140" width="100" height="15" fill="#7f8c8d" rx="2" />
+  <line x1="145" y1="147" x2="235" y2="147" stroke="#34495e" stroke-width="1" />
+  <line x1="145" y1="145" x2="235" y2="145" stroke="#34495e" stroke-width="1" />
+  <line x1="145" y1="149" x2="235" y2="149" stroke="#34495e" stroke-width="1" />
+  <text x="190" y="180" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">Напильник</text>
+  
+  <!-- Стамеска -->
+  <path d="M 40 200 L 50 200 L 60 230 L 30 230 Z" fill="#7f8c8d" />
+  <rect x="45" y="230" width="10" height="40" fill="#95a5a6" />
+  <text x="50" y="285" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">Стамеска</text>
+  
+  <!-- Пила -->
+  <rect x="140" y="200" width="80" height="5" fill="#7f8c8d" />
+  <path d="M 145 200 L 145 210 L 150 210 L 150 200 L 155 210 L 160 210 L 160 200 L 165 210 L 170 210 L 170 200 L 175 210 L 180 210 L 180 200 L 185 210 L 190 210 L 190 200 L 195 210 L 200 210 L 200 200 L 205 210 L 210 210 L 210 200 L 215 210 L 220 210" stroke="#7f8c8d" stroke-width="2" fill="none" />
+  <rect x="150" y="205" width="60" height="15" fill="#95a5a6" rx="2" />
+  <text x="180" y="240" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">Пила</text>
+  
+  <!-- Секция: Материалы -->
+  <rect x="260" y="100" width="220" height="220" fill="white" stroke="#7f8c8d" stroke-width="2" rx="5" filter="url(#shadow)" />
+  <text x="370" y="125" font-family="Arial, sans-serif" font-size="18" fill="#2c3e50" text-anchor="middle" font-weight="bold">Материалы</text>
+  
+  <!-- Металлический лист -->
+  <rect x="280" y="140" width="180" height="100" fill="#bdc3c7" stroke="#7f8c8d" stroke-width="2" />
+  <circle cx="320" cy="170" r="15" fill="#95a5a6" />
+  <circle cx="370" cy="190" r="15" fill="#95a5a6" />
+  <circle cx="420" cy="170" r="15" fill="#95a5a6" />
+  <text x="370" y="265" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">Металлический лист</text>
+  
+  <!-- Прокатный металл -->
+  <rect x="280" y="140" width="30" height="100" fill="#7f8c8d" />
+  <rect x="320" y="140" width="30" height="100" fill="#7f8c8d" />
+  <rect x="360" y="140" width="30" height="100" fill="#7f8c8d" />
+  <rect x="400" y="140" width="30" height="100" fill="#7f8c8d" />
+  <rect x="430" y="140" width="30" height="100" fill="#7f8c8d" />
+  
+  <!-- Секция: Технологии -->
+  <rect x="20" y="240" width="460" height="80" fill="white" stroke="#7f8c8d" stroke-width="2" rx="5" filter="url(#shadow)" />
+  <text x="250" y="265" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50" text-anchor="middle" font-weight="bold">Основные операции обработки</text>
+  
+  <!-- Операция 1: Резка -->
+  <circle cx="80" cy="300" r="20" fill="#7f8c8d" />
+  <line x1="70" y1="300" x2="90" y2="300" stroke="white" stroke-width="3" />
+  <line x1="80" y1="290" x2="80" y2="310" stroke="white" stroke-width="3" />
+  <text x="80" y="335" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">Резка</text>
+  
+  <!-- Операция 2: Гибка -->
+  <path d="M 140 300 Q 150 280, 160 300" stroke="#7f8c8d" stroke-width="4" fill="none" />
+  <text x="150" y="335" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">Гибка</text>
+  
+  <!-- Операция 3: Сверление -->
+  <circle cx="220" cy="300" r="15" fill="none" stroke="#7f8c8d" stroke-width="3" />
+  <circle cx="220" cy="300" r="5" fill="#7f8c8d" />
+  <text x="220" y="335" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">Сверление</text>
+  
+  <!-- Операция 4: Шлифование -->
+  <circle cx="300" cy="300" r="15" fill="none" stroke="#7f8c8d" stroke-width="3" />
+  <line x1="285" y1="300" x2="315" y2="300" stroke="#7f8c8d" stroke-width="2" />
+  <line x1="300" y1="285" x2="300" y2="315" stroke="#7f8c8d" stroke-width="2" />
+  <text x="300" y="335" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">Шлифование</text>
+  
+  <!-- Операция 5: Сварка -->
+  <line x1="360" y1="295" x2="380" y2="295" stroke="#7f8c8d" stroke-width="3" />
+  <line x1="360" y1="305" x2="380" y2="305" stroke="#7f8c8d" stroke-width="3" />
+  <path d="M 365 300 Q 370 290, 375 300" stroke="#e74c3c" stroke-width="2" fill="none" />
+  <text x="370" y="335" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">Сварка</text>
+  
+  <!-- Операция 6: Полировка -->
+  <circle cx="440" cy="300" r="15" fill="none" stroke="#7f8c8d" stroke-width="3" />
+  <path d="M 430 300 Q 440 290, 450 300" stroke="#f39c12" stroke-width="2" fill="none" />
+  <path d="M 430 300 Q 440 310, 450 300" stroke="#f39c12" stroke-width="2" fill="none" />
+  <text x="440" y="335" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">Полировка</text>
+  
+  <!-- Дополнительные элементы для достижения размера -->
+  <line x1="250" y1="80" x2="250" y2="100" stroke="#7f8c8d" stroke-width="1" stroke-dasharray="5,5" />
+  
+  <!-- Декоративные элементы -->
+  <circle cx="50" cy="50" r="3" fill="#7f8c8d" />
+  <circle cx="450" cy="50" r="3" fill="#7f8c8d" />
+  <circle cx="50" cy="330" r="3" fill="#7f8c8d" />
+  <circle cx="450" cy="330" r="3" fill="#7f8c8d" />
+  
+  <!-- Разделители -->
+  <line x1="40" y1="135" x2="220" y2="135" stroke="#ecf0f1" stroke-width="1" />
+  <line x1="280" y1="135" x2="460" y2="135" stroke="#ecf0f1" stroke-width="1" />
+  
+  <!-- Подписи к материалам -->
+  <text x="370" y="155" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d" text-anchor="middle">Сталь</text>
+  <text x="370" y="200" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d" text-anchor="middle">Алюминий</text>
+  <text x="370" y="220" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d" text-anchor="middle">Медь</text>
+  <text x="370" y="240" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d" text-anchor="middle">Латунь</text>
+  
+  <!-- Указатели -->
+  <line x1="100" y1="260" x2="100" y2="285" stroke="#7f8c8d" stroke-width="1" />
+  <polygon points="100,285 95,280 105,280" fill="#7f8c8d" />
+  
+  <line x1="170" y1="210" x2="190" y2="195" stroke="#7f8c8d" stroke-width="1" />
+  <polygon points="190,195 185,190 190,200" fill="#7f8c8d" />
+  
+  <line x1="210" y1="260" x2="190" y2="280" stroke="#7f8c8d" stroke-width="1" />
+  <polygon points="190,280 185,275 195,275" fill="#7f8c8d" />
+  
+  <!-- Дополнительные подписи -->
+  <text x="130" y="160" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">ударный</text>
+  <text x="130" y="175" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">инструмент</text>
+  
+  <text x="370" y="270" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">разные виды</text>
+  <text x="370" y="285" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">металлов</text>
+</svg>
