@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#1a2a3a"/>
+<circle cx="160" cy="160" r="18" fill="#FFB74D"/>
+<line x1="160" y1="178" x2="160" y2="230" stroke="#FFB74D" stroke-width="2.5"/>
+<line x1="140" y1="195" x2="180" y2="195" stroke="#FFB74D" stroke-width="2"/>
+<line x1="160" y1="230" x2="145" y2="260" stroke="#FFB74D" stroke-width="2"/>
+<line x1="160" y1="230" x2="175" y2="260" stroke="#FFB74D" stroke-width="2"/>
+<circle cx="340" cy="160" r="18" fill="#FFB74D"/>
+<line x1="340" y1="178" x2="340" y2="230" stroke="#FFB74D" stroke-width="2.5"/>
+<line x1="320" y1="195" x2="360" y2="195" stroke="#FFB74D" stroke-width="2"/>
+<line x1="340" y1="230" x2="325" y2="260" stroke="#FFB74D" stroke-width="2"/>
+<line x1="340" y1="230" x2="355" y2="260" stroke="#FFB74D" stroke-width="2"/>
+<ellipse cx="250" cy="140" rx="60" ry="30" fill="#2a4a6a" stroke="#4a8aba" stroke-width="1"/>
+<text x="250" y="138" font-family="Arial" font-size="8" fill="#88CCEE" text-anchor="middle">Привет!</text>
+<text x="250" y="150" font-family="Arial" font-size="8" fill="#88CCEE" text-anchor="middle">Здравствуйте!</text>
+<path d="M195,155 Q210,170 220,150" stroke="#4a8aba" stroke-width="0.8" fill="none" opacity="0.5"/>
+<path d="M280,155 Q295,170 305,150" stroke="#4a8aba" stroke-width="0.8" fill="none" opacity="0.5"/>
+<rect x="40" y="40" width="100" height="55" fill="#2a3a4a" rx="6" stroke="#4a8aba" stroke-width="0.8"/>
+<text x="90" y="58" font-family="Arial" font-size="8" fill="#88CCEE" text-anchor="middle" font-weight="bold">Вербальное</text>
+<text x="90" y="72" font-family="Arial" font-size="7" fill="#7aaacc" text-anchor="middle">речь, слова</text>
+<text x="90" y="84" font-family="Arial" font-size="12" fill="#AACCEE" text-anchor="middle">🗣️</text>
+<rect x="360" y="40" width="100" height="55" fill="#2a3a4a" rx="6" stroke="#ba6a4a" stroke-width="0.8"/>
+<text x="410" y="58" font-family="Arial" font-size="8" fill="#EEBB88" text-anchor="middle" font-weight="bold">Невербальное</text>
+<text x="410" y="72" font-family="Arial" font-size="7" fill="#cc9966" text-anchor="middle">жесты, мимика</text>
+<text x="410" y="84" font-family="Arial" font-size="12" fill="#EEBB88" text-anchor="middle">🤝</text>
+<rect x="130" y="285" width="240" height="40" fill="#1a2a3a" rx="5" stroke="#3a5a7a" stroke-width="0.5"/>
+<text x="250" y="305" font-family="Arial" font-size="8" fill="#88AACC" text-anchor="middle">Виды: деловое, личное, межкультурное</text>
+<text x="250" y="318" font-family="Arial" font-size="7" fill="#6688AA" text-anchor="middle">обмен информацией между людьми</text>
+<text x="250" y="342" font-family="Arial" font-size="9" fill="#88AACC" text-anchor="middle" opacity="0.5">Общение и его виды</text>
+</svg>
