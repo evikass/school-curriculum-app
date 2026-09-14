@@ -1,0 +1,113 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e9ecef;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:1" />
+    </linearGradient>
+    
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Фоновая область -->
+  <rect width="500" height="350" fill="url(#bgGradient)"/>
+  
+  <!-- Заголовок -->
+  <rect x="0" y="0" width="500" height="40" fill="#2c3e50"/>
+  <text x="250" y="28" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">ФИЗИЧЕСКАЯ КУЛЬТУРА · 7 КЛАСС</text>
+  
+  <!-- Название урока -->
+  <text x="250" y="70" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#3498db" text-anchor="middle">Развитие силы и быстроты</text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="95" font-family="Arial, sans-serif" font-size="16" fill="#34495e" text-anchor="middle">Физические качества</text>
+  
+  <!-- Схема физических качеств -->
+  <g id="qualitiesScheme">
+    <!-- Центральный круг -->
+    <circle cx="250" cy="180" r="60" fill="url(#blueGradient)" filter="url(#shadow)"/>
+    <text x="250" y="185" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">ФИЗИЧЕСКИЕ</text>
+    <text x="250" y="205" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">КАЧЕСТВА</text>
+    
+    <!-- Круг СИЛА -->
+    <circle cx="120" cy="130" r="45" fill="#e74c3c" opacity="0.8" filter="url(#shadow)"/>
+    <text x="120" y="135" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">СИЛА</text>
+    <line x1="165" y1="155" x2="210" y2="165" stroke="#34495e" stroke-width="2"/>
+    
+    <!-- Круг БЫСТРОТА -->
+    <circle cx="380" cy="130" r="45" fill="#f39c12" opacity="0.8" filter="url(#shadow)"/>
+    <text x="380" y="135" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">БЫСТРОТА</text>
+    <line x1="335" y1="155" x2="290" y2="165" stroke="#34495e" stroke-width="2"/>
+    
+    <!-- Круг ВЫНОСЛИВОСТЬ -->
+    <circle cx="120" cy="230" r="45" fill="#27ae60" opacity="0.8" filter="url(#shadow)"/>
+    <text x="120" y="235" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">ВЫНОСЛИВОСТЬ</text>
+    <line x1="165" y1="205" x2="210" y2="195" stroke="#34495e" stroke-width="2"/>
+    
+    <!-- Круг ЛОВКОСТЬ -->
+    <circle cx="380" cy="230" r="45" fill="#9b59b6" opacity="0.8" filter="url(#shadow)"/>
+    <text x="380" y="235" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">ЛОВКОСТЬ</text>
+    <line x1="335" y1="205" x2="290" y2="195" stroke="#34495e" stroke-width="2"/>
+  </g>
+  
+  <!-- Иконка силы -->
+  <g id="strengthIcon" transform="translate(80, 110)">
+    <path d="M20 10 L20 30 M10 20 L30 20 M15 5 L20 10 L25 5" stroke="#3498db" stroke-width="3" fill="none"/>
+    <circle cx="20" cy="35" r="5" fill="#3498db"/>
+  </g>
+  
+  <!-- Иконка скорости -->
+  <g id="speedIcon" transform="translate(340, 110)">
+    <path d="M5 20 L15 15 L25 10 L35 5 L40 10 L35 15 L25 20 L15 25 Z" fill="#3498db"/>
+  </g>
+  
+  <!-- Примеры упражнений для силы -->
+  <rect x="20" y="280" width="220" height="60" rx="5" fill="#ecf0f1" stroke="#3498db" stroke-width="2"/>
+  <text x="30" y="300" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Упражнения для силы:</text>
+  <text x="30" y="320" font-family="Arial, sans-serif" font-size="12" fill="#34495e">• Подтягивания</text>
+  <text x="120" y="320" font-family="Arial, sans-serif" font-size="12" fill="#34495e">• Отжимания</text>
+  <text x="200" y="320" font-family="Arial, sans-serif" font-size="12" fill="#34495e">• Приседания</text>
+  <text x="30" y="335" font-family="Arial, sans-serif" font-size="12" fill="#34495e">• Гантели</text>
+  <text x="100" y="335" font-family="Arial, sans-serif" font-size="12" fill="#34495e">• Резина</text>
+  
+  <!-- Примеры упражнений для быстроты -->
+  <rect x="260" y="280" width="220" height="60" rx="5" fill="#ecf0f1" stroke="#3498db" stroke-width="2"/>
+  <text x="270" y="300" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Упражнения для быстроты:</text>
+  <text x="270" y="320" font-family="Arial, sans-serif" font-size="12" fill="#34495e">• Бег на короткие дистанции</text>
+  <text x="270" y="335" font-family="Arial, sans-serif" font-size="12" fill="#34495e">• Челночный бег</text>
+  <text x="350" y="320" font-family="Arial, sans-serif" font-size="12" fill="#34495e">• Прыжки</text>
+  <text x="350" y="335" font-family="Arial, sans-serif" font-size="12" fill="#34495e">• Игровые упражнения</text>
+  
+  <!-- Дополнительные элементы -->
+  <rect x="50" y="50" width="10" height="10" fill="#3498db" opacity="0.7"/>
+  <rect x="440" y="50" width="10" height="10" fill="#3498db" opacity="0.7"/>
+  
+  <!-- Декоративные линии -->
+  <line x1="50" y1="55" x2="80" y2="55" stroke="#3498db" stroke-width="2" opacity="0.5"/>
+  <line x1="420" y1="55" x2="450" y2="55" stroke="#3498db" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Измерения -->
+  <text x="50" y="125" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Сила</text>
+  <text x="50" y="135" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">(кг, Н)</text>
+  
+  <text x="350" y="125" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Быстрота</text>
+  <text x="350" y="135" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">(м/с)</text>
+  
+  <!-- Элементы схемы -->
+  <circle cx="250" cy="180" r="65" fill="none" stroke="#3498db" stroke-width="1" stroke-dasharray="5,5" opacity="0.5"/>
+  <circle cx="250" cy="180" r="75" fill="none" stroke="#3498db" stroke-width="1" stroke-dasharray="3,3" opacity="0.3"/>
+  
+  <!-- Маркеры для акцента -->
+  <circle cx="250" cy="180" r="3" fill="#e74c3c"/>
+  <circle cx="120" cy="130" r="3" fill="#f39c12"/>
+  <circle cx="380" cy="130" r="3" fill="#27ae60"/>
+  <circle cx="120" cy="230" r="3" fill="#9b59b6"/>
+  <circle cx="380" cy="230" r="3" fill="#3498db"/>
+</svg>
