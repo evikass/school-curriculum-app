@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<defs>
+<linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FF6B35"/><stop offset="50%" stop-color="#FFB347"/><stop offset="100%" stop-color="#FFDD77"/></linearGradient>
+</defs>
+<rect width="500" height="200" fill="url(#sunset)"/>
+<rect x="0" y="200" width="500" height="150" fill="#8B7355"/>
+<circle cx="400" cy="60" r="30" fill="#FFD700" opacity="0.8"/>
+<rect x="80" y="120" width="20" height="80" fill="#5C3310" rx="3"/>
+<ellipse cx="90" cy="110" rx="45" ry="25" fill="#3a5a2a"/>
+<ellipse cx="70" cy="105" rx="20" ry="18" fill="#4a6a3a"/>
+<ellipse cx="110" cy="108" rx="22" ry="16" fill="#3a5a2a"/>
+<ellipse cx="90" cy="95" rx="25" ry="15" fill="#4a6a3a"/>
+<path d="M300,200 L310,130 L315,200" fill="#5C3310" stroke="#4a2810" stroke-width="0.5"/>
+<path d="M310,150 Q290,130 280,145" fill="#3a5a2a" stroke="none"/>
+<path d="M310,155 Q330,135 340,150" fill="#4a6a3a" stroke="none"/>
+<path d="M310,140 Q295,120 285,135" fill="#4a6a3a" stroke="none"/>
+<path d="M310,145 Q325,125 335,140" fill="#3a5a2a" stroke="none"/>
+<ellipse cx="420" cy="215" rx="35" ry="10" fill="#7a6345"/>
+<polygon points="400,215 410,180 420,215" fill="#FFCC44" opacity="0.7"/>
+<polygon points="420,215 430,185 440,215" fill="#FFBB33" opacity="0.7"/>
+<polygon points="440,215 450,190 460,215" fill="#FFCC44" opacity="0.7"/>
+<ellipse cx="190" cy="195" rx="80" ry="8" fill="#6a5a3a" opacity="0.5"/>
+<ellipse cx="190" cy="192" rx="75" ry="5" fill="#889944"/>
+<path d="M160,192 L162,170 L165,168 L167,192" fill="#5a7a3a"/>
+<path d="M180,192 L182,165 L185,163 L187,192" fill="#5a7a3a"/>
+<path d="M200,192 L202,168 L205,166 L207,192" fill="#5a7a3a"/>
+<path d="M220,192 L222,172 L225,170 L227,192" fill="#5a7a3a"/>
+<ellipse cx="180" cy="245" rx="15" ry="30" fill="#C8B060"/>
+<path d="M165,245 Q165,215 180,210 Q195,215 195,245" fill="#C8B060"/>
+<path d="M150,240 Q160,235 165,245" fill="#B8A050" opacity="0.5"/>
+<path d="M195,240 Q205,235 210,245" fill="#B8A050" opacity="0.5"/>
+<text x="350" y="240" font-family="Arial" font-size="8" fill="#5C3310">Саванна</text>
+<text x="80" y="245" font-family="Arial" font-size="8" fill="#5C3310">Пустыня</text>
+<text x="190" y="280" font-family="Arial" font-size="8" fill="#5C3310">Тропический лес</text>
+<text x="250" y="342" font-family="Arial" font-size="9" fill="#333" text-anchor="middle" opacity="0.5">Природа Африки</text>
+</svg>
