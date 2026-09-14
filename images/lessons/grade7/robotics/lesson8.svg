@@ -1,0 +1,133 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок -->
+  <rect x="0" y="0" width="500" height="50" fill="#34495e"/>
+  <text x="250" y="32" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">РОБОТОТЕХНИКА · 7 КЛАСС</text>
+  
+  <!-- Основной контейнер -->
+  <rect x="20" y="70" width="460" height="260" fill="#ecf0f1" stroke="#34495e" stroke-width="2" rx="10"/>
+  
+  <!-- Левая часть - Датчик линии -->
+  <rect x="40" y="90" width="210" height="220" fill="white" stroke="#34495e" stroke-width="2" rx="5"/>
+  <text x="145" y="115" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#34495e" text-anchor="middle">Датчик линии</text>
+  
+  <!-- Датчик линии схема -->
+  <rect x="60" y="130" width="170" height="120" fill="#e8f4f8" stroke="#34495e" stroke-width="1" rx="5"/>
+  <text x="145" y="150" font-family="Arial, sans-serif" font-size="12" fill="#34495e" text-anchor="middle">Оптический сенсор</text>
+  
+  <!-- Элементы датчика линии -->
+  <circle cx="100" cy="180" r="15" fill="#34495e"/>
+  <text x="100" y="185" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">ИК</text>
+  <circle cx="190" cy="180" r="15" fill="#34495e"/>
+  <text x="190" y="185" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">Д</text>
+  
+  <!-- Линия -->
+  <rect x="60" y="210" width="170" height="20" fill="#2c3e50"/>
+  <rect x="60" y="210" width="85" height="20" fill="white"/>
+  
+  <!-- Стрелка -->
+  <path d="M80 200 L80 210 M75 205 L80 200 L85 205" stroke="#34495e" stroke-width="2" fill="none"/>
+  
+  <!-- Пин датчика -->
+  <rect x="120" y="250" width="50" height="30" fill="#95a5a6" stroke="#34495e" stroke-width="1"/>
+  <circle cx="135" cy="265" r="3" fill="#34495e"/>
+  <circle cx="155" cy="265" r="3" fill="#34495e"/>
+  <text x="145" y="275" font-family="Arial, sans-serif" font-size="10" fill="#34495e" text-anchor="middle">VCC GND</text>
+  
+  <!-- Правая часть - Датчик света -->
+  <rect x="260" y="90" width="210" height="220" fill="white" stroke="#34495e" stroke-width="2" rx="5"/>
+  <text x="365" y="115" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#34495e" text-anchor="middle">Датчик света</text>
+  
+  <!-- Датчик света схема -->
+  <rect x="280" y="130" width="170" height="120" fill="#fdf2e9" stroke="#34495e" stroke-width="1" rx="5"/>
+  <text x="365" y="150" font-family="Arial, sans-serif" font-size="12" fill="#34495e" text-anchor="middle">Фоторезистор</text>
+  
+  <!-- Солнце -->
+  <circle cx="320" cy="180" r="20" fill="#f39c12"/>
+  <path d="M320 155 L320 165 M345 180 L335 180 M320 205 L320 195 M295 180 L305 180 M340 160 L332 168 M340 200 L332 192 M300 160 L308 168 M300 200 L308 192" stroke="#f39c12" stroke-width="3"/>
+  
+  <!-- Фоторезистор -->
+  <rect x="360" y="165" width="30" height="30" fill="#34495e" rx="5"/>
+  <text x="375" y="185" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">LDR</text>
+  
+  <!-- Поток света -->
+  <path d="M340 180 L360 180" stroke="#f39c12" stroke-width="3" stroke-dasharray="5,3"/>
+  
+  <!-- Резистор -->
+  <rect x="400" y="175" width="40" height="10" fill="#8b4513" stroke="#34495e" stroke-width="1"/>
+  <line x1="400" y1="180" x2="415" y2="180" stroke="#34495e" stroke-width="1"/>
+  <line x1="425" y1="180" x2="440" y2="180" stroke="#34495e" stroke-width="1"/>
+  
+  <!-- Пин датчика -->
+  <rect x="340" y="250" width="50" height="30" fill="#95a5a6" stroke="#34495e" stroke-width="1"/>
+  <circle cx="355" cy="265" r="3" fill="#34495e"/>
+  <circle cx="375" cy="265" r="3" fill="#34495e"/>
+  <text x="365" y="275" font-family="Arial, sans-serif" font-size="10" fill="#34495e" text-anchor="middle">OUT GND</text>
+  
+  <!-- Подписи к левому датчику -->
+  <text x="60" y="300" font-family="Arial, sans-serif" font-size="11" fill="#34495e">1. Излучатель ИК</text>
+  <text x="60" y="315" font-family="Arial, sans-serif" font-size="11" fill="#34495e">2. Приемник</text>
+  <text x="140" y="300" font-family="Arial, sans-serif" font-size="11" fill="#34495e">3. Линия</text>
+  <text x="140" y="315" font-family="Arial, sans-serif" font-size="11" fill="#34495e">4. Контактная площадка</text>
+  
+  <!-- Подписи к правому датчику -->
+  <text x="280" y="300" font-family="Arial, sans-serif" font-size="11" fill="#34495e">1. Источник света</text>
+  <text x="280" y="315" font-family="Arial, sans-serif" font-size="11" fill="#34495e">2. Фоторезистор</text>
+  <text x="360" y="300" font-family="Arial, sans-serif" font-size="11" fill="#34495e">3. Сопротивление</text>
+  <text x="360" y="315" font-family="Arial, sans-serif" font-size="11" fill="#34495e">4. Выход</text>
+  
+  <!-- Стрелка вниз -->
+  <path d="M250 200 L250 210" stroke="#34495e" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Стрелка вверх -->
+  <path d="M250 210 L250 200" stroke="#34495e" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Определения -->
+  <text x="145" y="340" font-family="Arial, sans-serif" font-size="10" fill="#34495e" text-anchor="middle">Отслеживает контраст</text>
+  <text x="365" y="340" font-family="Arial, sans-serif" font-size="10" fill="#34495e" text-anchor="middle">Измеряет освещенность</text>
+  
+  <!-- Дополнительные элементы -->
+  <circle cx="50" cy="50" r="5" fill="#34495e"/>
+  <circle cx="450" cy="50" r="5" fill="#34495e"/>
+  <circle cx="50" cy="300" r="5" fill="#34495e"/>
+  <circle cx="450" cy="300" r="5" fill="#34495e"/>
+  
+  <!-- Маркер для стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#34495e"/>
+    </marker>
+  </defs>
+  
+  <!-- Дополнительные линии и элементы -->
+  <line x1="80" y1="220" x2="80" y2="240" stroke="#34495e" stroke-width="1"/>
+  <line x1="210" y1="220" x2="210" y2="240" stroke="#34495e" stroke-width="1"/>
+  <line x1="300" y1="220" x2="300" y2="240" stroke="#34495e" stroke-width="1"/>
+  <line x1="430" y1="220" x2="430" y2="240" stroke="#34495e" stroke-width="1"/>
+  
+  <!-- Значки -->
+  <path d="M60 130 L70 120 L80 130" stroke="#34495e" stroke-width="1.5" fill="none"/>
+  <path d="M430 130 L420 120 L410 130" stroke="#34495e" stroke-width="1.5" fill="none"/>
+  
+  <!-- Дополнительные текстовые элементы -->
+  <text x="145" y="95" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d" text-anchor="middle">Принцип действия</text>
+  <text x="365" y="95" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d" text-anchor="middle">Принцип действия</text>
+  
+  <!-- Схема подключения -->
+  <rect x="40" y="170" width="20" height="40" fill="#34495e"/>
+  <rect x="210" y="170" width="20" height="40" fill="#34495e"/>
+  
+  <!-- Электронные компоненты -->
+  <rect x="280" y="160" width="15" height="15" fill="#e74c3c" rx="2"/>
+  <rect x="365" y="160" width="15" height="15" fill="#e74c3c" rx="2"/>
+  <rect x="430" y="160" width="15" height="15" fill="#e74c3c" rx="2"/>
+  
+  <!-- Маркеры подключения -->
+  <circle cx="100" cy="200" r="2" fill="#34495e"/>
+  <circle cx="190" cy="200" r="2" fill="#34495e"/>
+  <circle cx="320" cy="200" r="2" fill="#34495e"/>
+  <circle cx="375" cy="200" r="2" fill="#34495e"/>
+  <circle cx="420" cy="200" r="2" fill="#34495e"/>
+</svg>
