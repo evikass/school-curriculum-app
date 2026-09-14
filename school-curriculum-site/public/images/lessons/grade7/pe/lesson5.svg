@@ -1,0 +1,111 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок -->
+  <rect x="0" y="0" width="500" height="40" fill="#2c3e50"/>
+  <text x="250" y="27" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">ФИЗИЧЕСКАЯ КУЛЬТУРА · 7 КЛАСС</text>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#2c3e50" font-weight="bold">Акробатические упражнения</text>
+  <text x="250" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Гимнастика</text>
+  
+  <!-- Разделительная линия -->
+  <line x1="50" y1="95" x2="450" y2="95" stroke="#3498db" stroke-width="2"/>
+  
+  <!-- Основной контейнер упражнений -->
+  <rect x="40" y="110" width="420" height="230" fill="white" stroke="#3498db" stroke-width="2" rx="5"/>
+  
+  <!-- Категории упражнений -->
+  <text x="60" y="135" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50" font-weight="bold">Категории упражнений:</text>
+  
+  <!-- Категория 1: Гимнастические кувырки -->
+  <circle cx="80" cy="160" r="5" fill="#3498db"/>
+  <text x="95" y="165" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Гимнастические кувырки</text>
+  
+  <!-- Иллюстрация кувырка -->
+  <path d="M200 150 Q220 140 240 150 Q260 160 280 150" stroke="#3498db" stroke-width="2" fill="none"/>
+  <circle cx="200" cy="150" r="8" fill="#3498db"/>
+  <circle cx="240" cy="150" r="8" fill="#3498db"/>
+  <circle cx="280" cy="150" r="8" fill="#3498db"/>
+  <text x="240" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Кувырок вперед</text>
+  
+  <!-- Категория 2: Равновесие -->
+  <circle cx="80" cy="200" r="5" fill="#3498db"/>
+  <text x="95" y="205" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Упражнения на равновесие</text>
+  
+  <!-- Иллюстрация равновесия -->
+  <line x1="200" y1="200" x2="280" y2="200" stroke="#3498db" stroke-width="2"/>
+  <circle cx="240" cy="200" r="8" fill="#3498db"/>
+  <path d="M240 185 L235 175 L245 175 Z" fill="#3498db"/>
+  <text x="240" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Стойка на руках</text>
+  
+  <!-- Категория 3: Прыжки -->
+  <circle cx="80" cy="250" r="5" fill="#3498db"/>
+  <text x="95" y="255" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Акробатические прыжки</text>
+  
+  <!-- Иллюстрация прыжков -->
+  <path d="M200 245 Q210 230 220 245" stroke="#3498db" stroke-width="2" fill="none"/>
+  <path d="M230 245 Q240 230 250 245" stroke="#3498db" stroke-width="2" fill="none"/>
+  <path d="M260 245 Q270 230 280 245" stroke="#3498db" stroke-width="2" fill="none"/>
+  <text x="240" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Прыжки в группировке</text>
+  
+  <!-- Категория 4: Перевороты -->
+  <circle cx="80" cy="295" r="5" fill="#3498db"/>
+  <text x="95" y="300" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Перевороты</text>
+  
+  <!-- Иллюстрация переворота -->
+  <circle cx="220" cy="295" r="15" fill="none" stroke="#3498db" stroke-width="2"/>
+  <path d="M205 295 Q220 280 235 295" stroke="#3498db" stroke-width="2" fill="none"/>
+  <text x="280" y="300" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Колесо</text>
+  
+  <!-- Правила безопасности -->
+  <rect x="320" y="130" width="130" height="100" fill="#ecf0f1" stroke="#3498db" stroke-width="1" rx="3"/>
+  <text x="385" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" font-weight="bold">Правила безопасности:</text>
+  <text x="330" y="170" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Разминка перед тренировкой</text>
+  <text x="330" y="185" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Упрощенные элементы для новичков</text>
+  <text x="330" y="200" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Постепенное усложнение</text>
+  <text x="330" y="215" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Контроль учителя</text>
+  
+  <!-- Основные элементы гимнастики -->
+  <rect x="320" y="240" width="130" height="90" fill="#e8f4f8" stroke="#3498db" stroke-width="1" rx="3"/>
+  <text x="385" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" font-weight="bold">Основные элементы:</text>
+  <text x="330" y="280" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Равновесие</text>
+  <text x="330" y="295" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Гибкость</text>
+  <text x="330" y="310" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Координация</text>
+  <text x="330" y="325" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">• Сила</text>
+  
+  <!-- Дополнительные элементы для объема -->
+  <rect x="40" y="110" width="420" height="230" fill="none" stroke="#3498db" stroke-width="2" rx="5" opacity="0.3"/>
+  <line x1="40" y1="150" x2="460" y2="150" stroke="#3498db" stroke-width="1" opacity="0.2"/>
+  <line x1="40" y1="190" x2="460" y2="190" stroke="#3498db" stroke-width="1" opacity="0.2"/>
+  <line x1="40" y1="230" x2="460" y2="230" stroke="#3498db" stroke-width="1" opacity="0.2"/>
+  <line x1="40" y1="270" x2="460" y2="270" stroke="#3498db" stroke-width="1" opacity="0.2"/>
+  <line x1="40" y1="310" x2="460" y2="310" stroke="#3498db" stroke-width="1" opacity="0.2"/>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="30" cy="30" r="3" fill="#3498db" opacity="0.3"/>
+  <circle cx="470" cy="30" r="3" fill="#3498db" opacity="0.3"/>
+  <circle cx="30" cy="320" r="3" fill="#3498db" opacity="0.3"/>
+  <circle cx="470" cy="320" r="3" fill="#3498db" opacity="0.3"/>
+  
+  <!-- Подписи к диаграммам -->
+  <text x="240" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d" font-style="italic">Техника выполнения</text>
+  <text x="385" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d" font-style="italic">Важные моменты</text>
+  
+  <!-- Указатели и стрелки -->
+  <path d="M290 160 L310 160" stroke="#3498db" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <path d="M290 200 L310 200" stroke="#3498db" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <path d="M290 250 L310 250" stroke="#3498db" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <path d="M290 295 L310 295" stroke="#3498db" stroke-width="1" marker-end="url(#arrowhead)"/>
+  
+  <!-- Определение стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#3498db"/>
+    </marker>
+  </defs>
+  
+  <!-- Примечания -->
+  <text x="250" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d" font-style="italic">Урок по гимнастике для 7 класса | Акробатические упражнения</text>
+</svg>
