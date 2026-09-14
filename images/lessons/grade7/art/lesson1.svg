@@ -1,0 +1,128 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок -->
+  <rect x="0" y="0" width="500" height="50" fill="#34495e"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#fff">ИЗО · 7 КЛАСС</text>
+  
+  <!-- Основной блок с названием урока -->
+  <rect x="150" y="70" width="200" height="40" rx="5" fill="#e67e22"/>
+  <text x="250" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#fff">Виды изобразительного искусства</text>
+  
+  <!-- Центральная иконка кисти -->
+  <g transform="translate(250, 180)">
+    <rect x="-15" y="-30" width="30" height="50" rx="15" fill="#8b4513"/>
+    <path d="M-15,-30 L-25,-40 L25,-40 L15,-30 Z" fill="#d2691e"/>
+    <rect x="-5" y="-50" width="10" height="20" fill="#333"/>
+  </g>
+  
+  <!-- Круговые диаграммы видов искусства -->
+  <!-- Живопись -->
+  <g transform="translate(120, 250)">
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#e67e22" stroke-width="2"/>
+    <path d="M0,-40 A40,40 0 0,1 28.28,-28.28" fill="#e67e22" opacity="0.7"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">Живопись</text>
+  </g>
+  
+  <!-- Графика -->
+  <g transform="translate(250, 250)">
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#e67e22" stroke-width="2"/>
+    <path d="M0,-40 A40,40 0 0,1 28.28,-28.28" fill="#e67e22" opacity="0.7"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">Графика</text>
+  </g>
+  
+  <!-- Скульптура -->
+  <g transform="translate(380, 250)">
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#e67e22" stroke-width="2"/>
+    <path d="M0,-40 A40,40 0 0,1 28.28,-28.28" fill="#e67e22" opacity="0.7"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">Скульптура</text>
+  </g>
+  
+  <!-- Иконки для каждого вида -->
+  <!-- Палитра для живописи -->
+  <g transform="translate(120, 180)">
+    <rect x="-15" y="-10" width="30" height="20" rx="3" fill="#f39c12"/>
+    <circle cx="-10" cy="-5" r="3" fill="#e74c3c"/>
+    <circle cx="0" cy="-5" r="3" fill="#3498db"/>
+    <circle cx="10" cy="-5" r="3" fill="#2ecc71"/>
+    <circle cx="-10" cy="5" r="3" fill="#f1c40f"/>
+    <circle cx="0" cy="5" r="3" fill="#9b59b6"/>
+    <circle cx="10" cy="5" r="3" fill="#1abc9c"/>
+  </g>
+  
+  <!-- Линейка для графики -->
+  <g transform="translate(250, 180)">
+    <rect x="-20" y="-5" width="40" height="10" fill="#95a5a6"/>
+    <line x1="-15" y1="-5" x2="-15" y2="5" stroke="#7f8c8d" stroke-width="0.5"/>
+    <line x1="-10" y1="-5" x2="-10" y2="5" stroke="#7f8c8d" stroke-width="0.5"/>
+    <line x1="-5" y1="-5" x2="-5" y2="5" stroke="#7f8c8d" stroke-width="0.5"/>
+    <line x1="0" y1="-5" x2="0" y2="5" stroke="#7f8c8d" stroke-width="0.5"/>
+    <line x1="5" y1="-5" x2="5" y2="5" stroke="#7f8c8d" stroke-width="0.5"/>
+    <line x1="10" y1="-5" x2="10" y2="5" stroke="#7f8c8d" stroke-width="0.5"/>
+    <line x1="15" y1="-5" x2="15" y2="5" stroke="#7f8c8d" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Ваза для скульптуры -->
+  <g transform="translate(380, 180)">
+    <path d="M-10,10 Q-10,-10 0,-10 Q10,-10 10,10 L8,15 L-8,15 Z" fill="#95a5a6"/>
+    <ellipse cx="0" cy="10" rx="10" ry="3" fill="#7f8c8d"/>
+  </g>
+  
+  <!-- Подписи к видам -->
+  <text x="120" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Масло</text>
+  <text x="120" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Акварель</text>
+  <text x="120" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Гуашь</text>
+  
+  <text x="250" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Рисунок</text>
+  <text x="250" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Эстамп</text>
+  <text x="250" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Плакат</text>
+  
+  <text x="380" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Круглая</text>
+  <text x="380" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Барельеф</text>
+  <text x="380" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Контррельеф</text>
+  
+  <!-- Разделительная линия -->
+  <line x1="50" y1="130" x2="450" y2="130" stroke="#e67e22" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Дополнительные элементы -->
+  <rect x="30" y="140" width="80" height="25" rx="3" fill="#e67e22" opacity="0.8"/>
+  <text x="70" y="157" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#fff">Творчество</text>
+  
+  <rect x="390" y="140" width="80" height="25" rx="3" fill="#e67e22" opacity="0.8"/>
+  <text x="430" y="157" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#fff">Искусство</text>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="70" cy="180" r="5" fill="#e67e22" opacity="0.5"/>
+  <circle cx="90" cy="190" r="4" fill="#e67e22" opacity="0.5"/>
+  <circle cx="430" cy="180" r="5" fill="#e67e22" opacity="0.5"/>
+  <circle cx="410" cy="190" r="4" fill="#e67e22" opacity="0.5"/>
+  
+  <!-- Дополнительные текстовые элементы -->
+  <text x="70" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">Визуальное</text>
+  <text x="70" y="217" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">выражение</text>
+  
+  <text x="430" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">Эмоциональное</text>
+  <text x="430" y="217" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">восприятие</text>
+  
+  <!-- Стрелки между элементами -->
+  <path d="M150,180 L170,180" stroke="#e67e22" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M280,180 L310,180" stroke="#e67e22" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M340,180 L350,180" stroke="#e67e22" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Определение стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e67e22"/>
+    </marker>
+  </defs>
+  
+  <!-- Подписи к иконкам -->
+  <text x="120" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">Цвет</text>
+  <text x="250" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">Линия</text>
+  <text x="380" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">Объём</text>
+  
+  <!-- Фоновые декоративные элементы -->
+  <path d="M50,340 Q100,330 150,340" fill="none" stroke="#e67e22" stroke-width="1" opacity="0.3"/>
+  <path d="M350,340 Q400,330 450,340" fill="none" stroke="#e67e22" stroke-width="1" opacity="0.3"/>
+</svg>
