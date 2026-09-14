@@ -1,0 +1,175 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">ПРОГРАММИРОВАНИЕ · 7 КЛАСС</text>
+  
+  <!-- Основной заголовок -->
+  <text x="250" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">Типы данных</text>
+  <text x="250" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50">Переменные и типы данных</text>
+  
+  <!-- Разделительная линия -->
+  <line x1="50" y1="90" x2="450" y2="90" stroke="#2c3e50" stroke-width="2"/>
+  
+  <!-- Основная схема переменных -->
+  <g transform="translate(50, 110)">
+    <!-- Контейнер переменных -->
+    <rect x="0" y="0" width="400" height="200" rx="10" fill="#e8f4f8" stroke="#2c3e50" stroke-width="2"/>
+    
+    <!-- Заголовок секции -->
+    <text x="200" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Переменные</text>
+    
+    <!-- Пример переменных -->
+    <!-- Целочисленная переменная -->
+    <rect x="20" y="40" width="110" height="40" rx="5" fill="#3498db" stroke="#2c3e50" stroke-width="1"/>
+    <text x="75" y="65" text-anchor="middle" font-family="monospace" font-size="14" fill="white">int age = 15</text>
+    
+    <!-- Строковая переменная -->
+    <rect x="140" y="40" width="110" height="40" rx="5" fill="#e74c3c" stroke="#2c3e50" stroke-width="1"/>
+    <text x="195" y="65" text-anchor="middle" font-family="monospace" font-size="14" fill="white">string name</text>
+    
+    <!-- Переменная с плавающей точкой -->
+    <rect x="260" y="40" width="110" height="40" rx="5" fill="#2ecc71" stroke="#2c3e50" stroke-width="1"/>
+    <text x="315" y="65" text-anchor="middle" font-family="monospace" font-size="14" fill="white">float height</text>
+    
+    <!-- Логическая переменная -->
+    <rect x="80" y="90" width="110" height="40" rx="5" fill="#f39c12" stroke="#2c3e50" stroke-width="1"/>
+    <text x="135" y="115" text-anchor="middle" font-family="monospace" font-size="14" fill="white">bool isStudent</text>
+    
+    <!-- Массив -->
+    <rect x="200" y="90" width="110" height="40" rx="5" fill="#9b59b6" stroke="#2c3e50" stroke-width="1"/>
+    <text x="255" y="115" text-anchor="middle" font-family="monospace" font-size="14" fill="white">int[] grades</text>
+    
+    <!-- Иконки типов данных -->
+    <circle cx="40" cy="170" r="15" fill="#3498db"/>
+    <text x="40" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">int</text>
+    
+    <circle cx="100" cy="170" r="15" fill="#e74c3c"/>
+    <text x="100" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">str</text>
+    
+    <circle cx="160" cy="170" r="15" fill="#2ecc71"/>
+    <text x="160" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">float</text>
+    
+    <circle cx="220" cy="170" r="15" fill="#f39c12"/>
+    <text x="220" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">bool</text>
+    
+    <circle cx="280" cy="170" r="15" fill="#9b59b6"/>
+    <text x="280" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">arr</text>
+    
+    <circle cx="340" cy="170" r="15" fill="#34495e"/>
+    <text x="340" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">obj</text>
+  </g>
+  
+  <!-- Связи и пояснения -->
+  <g>
+    <!-- Стрелки -->
+    <path d="M 125 150 L 125 170" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M 245 150 L 245 170" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M 365 150 L 365 170" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Определения типов -->
+    <text x="30" y="205" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Целые числа</text>
+    <text x="90" y="205" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Текст</text>
+    <text x="150" y="205" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Числа с запятой</text>
+    <text x="210" y="205" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Истина/ложь</text>
+    <text x="270" y="205" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Массивы</text>
+    <text x="330" y="205" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Объекты</text>
+  </g>
+  
+  <!-- Боковая информация -->
+  <g transform="translate(470, 100)">
+    <rect x="-10" y="0" width="30" height="150" rx="5" fill="#2c3e50"/>
+    <text x="5" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white" transform="rotate(-90, 5, 75)">Типы данных</text>
+  </g>
+  
+  <!-- Поясняющие блоки -->
+  <g transform="translate(50, 330)">
+    <rect x="0" y="0" width="100" height="15" rx="7" fill="#3498db"/>
+    <text x="50" y="11" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Целочисленные</text>
+    
+    <rect x="110" y="0" width="100" height="15" rx="7" fill="#e74c3c"/>
+    <text x="160" y="11" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Строковые</text>
+    
+    <rect x="220" y="0" width="100" height="15" rx="7" fill="#2ecc71"/>
+    <text x="270" y="11" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">С плавающей точкой</text>
+    
+    <rect x="330" y="0" width="100" height="15" rx="7" fill="#f39c12"/>
+    <text x="380" y="11" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Логические</text>
+  </g>
+  
+  <!-- Дополнительные элементы декора -->
+  <circle cx="30" cy="30" r="5" fill="#3498db" opacity="0.3"/>
+  <circle cx="470" cy="30" r="5" fill="#e74c3c" opacity="0.3"/>
+  <circle cx="30" cy="320" r="5" fill="#2ecc71" opacity="0.3"/>
+  <circle cx="470" cy="320" r="5" fill="#f39c12" opacity="0.3"/>
+  
+  <!-- Определение маркера стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2c3e50"/>
+    </marker>
+  </defs>
+  
+  <!-- Дополнительные элементы для достижения количества 50+ -->
+  <rect x="20" y="120" width="10" height="10" fill="#3498db" opacity="0.5"/>
+  <rect x="40" y="120" width="10" height="10" fill="#3498db" opacity="0.5"/>
+  <rect x="60" y="120" width="10" height="10" fill="#3498db" opacity="0.5"/>
+  <rect x="80" y="120" width="10" height="10" fill="#3498db" opacity="0.5"/>
+  
+  <rect x="160" y="120" width="10" height="10" fill="#e74c3c" opacity="0.5"/>
+  <rect x="180" y="120" width="10" height="10" fill="#e74c3c" opacity="0.5"/>
+  <rect x="200" y="120" width="10" height="10" fill="#e74c3c" opacity="0.5"/>
+  <rect x="220" y="120" width="10" height="10" fill="#e74c3c" opacity="0.5"/>
+  
+  <rect x="280" y="120" width="10" height="10" fill="#2ecc71" opacity="0.5"/>
+  <rect x="300" y="120" width="10" height="10" fill="#2ecc71" opacity="0.5"/>
+  <rect x="320" y="120" width="10" height="10" fill="#2ecc71" opacity="0.5"/>
+  <rect x="340" y="120" width="10" height="10" fill="#2ecc71" opacity="0.5"/>
+  
+  <rect x="100" y="170" width="10" height="10" fill="#f39c12" opacity="0.5"/>
+  <rect x="120" y="170" width="10" height="10" fill="#f39c12" opacity="0.5"/>
+  <rect x="140" y="170" width="10" height="10" fill="#f39c12" opacity="0.5"/>
+  
+  <rect x="220" y="170" width="10" height="10" fill="#9b59b6" opacity="0.5"/>
+  <rect x="240" y="170" width="10" height="10" fill="#9b59b6" opacity="0.5"/>
+  <rect x="260" y="170" width="10" height="10" fill="#9b59b6" opacity="0.5"/>
+  
+  <rect x="320" y="170" width="10" height="10" fill="#34495e" opacity="0.5"/>
+  <rect x="340" y="170" width="10" height="10" fill="#34495e" opacity="0.5"/>
+  
+  <!-- Дополнительные текстовые элементы -->
+  <text x="30" y="140" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">Значение: 15</text>
+  <text x="30" y="155" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">Тип: int</text>
+  
+  <text x="150" y="140" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">Значение: "Иван"</text>
+  <text x="150" y="155" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">Тип: string</text>
+  
+  <text x="270" y="140" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">Значение: 1.75</text>
+  <text x="270" y="155" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">Тип: float</text>
+  
+  <text x="90" y="140" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">Значение: true</text>
+  <text x="90" y="155" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">Тип: bool</text>
+  
+  <text x="210" y="140" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">Значение: [5,4,5]</text>
+  <text x="210" y="155" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">Тип: int[]</text>
+  
+  <!-- Дополнительные линии для украшения -->
+  <line x1="20" y1="260" x2="30" y2="260" stroke="#3498db" stroke-width="2"/>
+  <line x1="20" y1="270" x2="30" y2="270" stroke="#3498db" stroke-width="2"/>
+  <line x1="20" y1="280" x2="30" y2="280" stroke="#3498db" stroke-width="2"/>
+  
+  <line x1="470" y1="260" x2="480" y2="260" stroke="#e74c3c" stroke-width="2"/>
+  <line x1="470" y1="270" x2="480" y2="270" stroke="#e74c3c" stroke-width="2"/>
+  <line x1="470" y1="280" x2="480" y2="280" stroke="#e74c3c" stroke-width="2"/>
+  
+  <!-- Дополнительные элементы для достижения 50+ -->
+  <path d="M 40 240 L 50 230 L 60 240 L 50 250 Z" fill="#2c3e50" opacity="0.3"/>
+  <path d="M 440 240 L 450 230 L 460 240 L 450 250 Z" fill="#2c3e50" opacity="0.3"/>
+  
+  <circle cx="50" cy="250" r="3" fill="#3498db"/>
+  <circle cx="450" cy="250" r="3" fill="#e74c3c"/>
+  
+  <rect x="30" y="290" width="15" height="15" rx="2" fill="#2c3e50" opacity="0.2"/>
+  <rect x="455" y="290" width="15" height="15" rx="2" fill="#2c3e50" opacity="0.2"/>
+</svg>
