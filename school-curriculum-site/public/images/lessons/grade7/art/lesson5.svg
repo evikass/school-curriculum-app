@@ -1,0 +1,161 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f4e6"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">ИЗО · 7 КЛАСС</text>
+  
+  <!-- Основной заголовок урока -->
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#e67e22">Древнерусское искусство</text>
+  <text x="250" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#555">и иконопись</text>
+  
+  <!-- Иконка кисти -->
+  <g transform="translate(40, 40)">
+    <rect x="0" y="0" width="30" height="50" fill="#8b4513" rx="3"/>
+    <path d="M15,50 L15,65 M5,65 L25,65" stroke="#333" stroke-width="2" fill="none"/>
+    <circle cx="15" cy="25" r="12" fill="#e67e22"/>
+    <line x1="15" y1="25" x2="15" y2="35" stroke="#333" stroke-width="1"/>
+  </g>
+  
+  <!-- Схема иконописи -->
+  <g transform="translate(50, 100)">
+    <!-- Заголовок секции -->
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">Основные элементы иконы:</text>
+    
+    <!-- Основа -->
+    <rect x="0" y="10" width="120" height="30" fill="#d4a574" stroke="#333" stroke-width="1"/>
+    <text x="60" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Основа (доска)</text>
+    
+    <!-- Левка -->
+    <rect x="0" y="50" width="120" height="30" fill="#f5deb3" stroke="#333" stroke-width="1"/>
+    <text x="60" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Левка (грунт)</text>
+    
+    <!-- Краски -->
+    <rect x="0" y="90" width="120" height="30" fill="#e67e22" stroke="#333" stroke-width="1"/>
+    <text x="60" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">Краски</text>
+    
+    <!-- Лаки -->
+    <rect x="0" y="130" width="120" height="30" fill="#8b4513" stroke="#333" stroke-width="1"/>
+    <text x="60" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">Лаки</text>
+    
+    <!-- Стрелки -->
+    <line x1="120" y1="25" x2="140" y2="25" stroke="#333" stroke-width="1" marker-end="url(#arrowhead)"/>
+    <line x1="120" y1="65" x2="140" y2="65" stroke="#333" stroke-width="1" marker-end="url(#arrowhead)"/>
+    <line x1="120" y1="105" x2="140" y2="105" stroke="#333" stroke-width="1" marker-end="url(#arrowhead)"/>
+    <line x1="120" y1="145" x2="140" y2="145" stroke="#333" stroke-width="1" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Цветовая палитра иконописи -->
+  <g transform="translate(250, 100)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">Цветовая палитра:</text>
+    
+    <!-- Цвета -->
+    <circle cx="20" cy="30" r="15" fill="#e67e22"/>
+    <text x="45" y="35" font-family="Arial, sans-serif" font-size="12" fill="#333">Охра</text>
+    
+    <circle cx="20" cy="60" r="15" fill="#d4a574"/>
+    <text x="45" y="65" font-family="Arial, sans-serif" font-size="12" fill="#333">Золото</text>
+    
+    <circle cx="20" cy="90" r="15" fill="#8b4513"/>
+    <text x="45" y="95" font-family="Arial, sans-serif" font-size="12" fill="#333">Коричневый</text>
+    
+    <circle cx="20" cy="120" r="15" fill="#333333"/>
+    <text x="45" y="125" font-family="Arial, sans-serif" font-size="12" fill="#333">Черный</text>
+    
+    <circle cx="20" cy="150" r="15" fill="#e6e6e6"/>
+    <text x="45" y="155" font-family="Arial, sans-serif" font-size="12" fill="#333">Серый</text>
+  </g>
+  
+  <!-- Стили иконописи -->
+  <g transform="translate(380, 100)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">Стили:</text>
+    
+    <rect x="0" y="10" width="100" height="30" fill="#e67e22" rx="5"/>
+    <text x="50" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">Византийский</text>
+    
+    <rect x="0" y="50" width="100" height="30" fill="#d4a574" rx="5"/>
+    <text x="50" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Русский</text>
+    
+    <rect x="0" y="90" width="100" height="30" fill="#8b4513" rx="5"/>
+    <text x="50" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">Новгородский</text>
+  </g>
+  
+  <!-- Древнерусские храмы -->
+  <g transform="translate(50, 250)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">Древнерусские храмы:</text>
+    
+    <!-- Храм -->
+    <rect x="0" y="20" width="40" height="50" fill="#d4a574" stroke="#333" stroke-width="1"/>
+    <path d="M0,20 L20,0 L40,20" fill="#8b4513" stroke="#333" stroke-width="1"/>
+    <circle cx="20" cy="30" r="5" fill="#e67e22"/>
+    <text x="20" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Церковь</text>
+    
+    <line x1="50" y1="45" x2="70" y2="45" stroke="#333" stroke-width="1"/>
+    
+    <rect x="80" y="20" width="40" height="50" fill="#d4a574" stroke="#333" stroke-width="1"/>
+    <path d="M80,20 L100,0 L120,20" fill="#8b4513" stroke="#333" stroke-width="1"/>
+    <circle cx="100" cy="30" r="5" fill="#e67e22"/>
+    <circle cx="100" cy="50" r="5" fill="#e67e22"/>
+    <text x="100" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Колокольня</text>
+  </g>
+  
+  <!-- Иконографические типы -->
+  <g transform="translate(250, 250)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">Иконографические типы:</text>
+    
+    <rect x="0" y="10" width="80" height="30" fill="#e67e22" rx="5"/>
+    <text x="40" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#fff">Оранта</text>
+    
+    <rect x="0" y="50" width="80" height="30" fill="#d4a574" rx="5"/>
+    <text x="40" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">Деисус</text>
+    
+    <rect x="0" y="90" width="80" height="30" fill="#8b4513" rx="5"/>
+    <text x="40" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#fff">Распятие</text>
+  </g>
+  
+  <!-- Техники письма -->
+  <g transform="translate(380, 250)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">Техники письма:</text>
+    
+    <!-- Палец -->
+    <ellipse cx="20" cy="25" rx="15" ry="20" fill="#f5deb3" stroke="#333" stroke-width="1"/>
+    <circle cx="20" cy="25" r="3" fill="#e67e22"/>
+    <text x="50" y="30" font-family="Arial, sans-serif" font-size="11" fill="#333">Палец</text>
+    
+    <!-- Лещица -->
+    <rect x="0" y="50" width="40" height="10" fill="#8b4513" rx="2"/>
+    <rect x="15" y="60" width="10" height="20" fill="#8b4513"/>
+    <text x="50" y="70" font-family="Arial, sans-serif" font-size="11" fill="#333">Лещица</text>
+    
+    <!-- Кисть -->
+    <path d="M10,100 L10,120 Q20,130 30,120 L30,100" fill="#333" stroke="#333" stroke-width="1"/>
+    <text x="50" y="115" font-family="Arial, sans-serif" font-size="11" fill="#333">Кисть</text>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <!-- Орнамент -->
+  <g transform="translate(20, 200)">
+    <path d="M0,0 Q10,-10 20,0 T40,0" stroke="#e67e22" stroke-width="2" fill="none"/>
+    <path d="M0,10 Q10,0 20,10 T40,10" stroke="#e67e22" stroke-width="2" fill="none"/>
+    <path d="M0,20 Q10,10 20,20 T40,20" stroke="#e67e22" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Маркеры для стрелок -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="470" cy="30" r="10" fill="#e67e22" opacity="0.5"/>
+  <circle cx="480" cy="40" r="5" fill="#d4a574" opacity="0.5"/>
+  <circle cx="460" cy="45" r="7" fill="#8b4513" opacity="0.5"/>
+  
+  <!-- Разделительная линия -->
+  <line x1="30" y1="200" x2="470" y2="200" stroke="#e67e22" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Дополнительные текстовые элементы -->
+  <text x="250" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#555">Древнерусское искусство — основа русской культуры</text>
+  <text x="250" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#777">VI-XV века</text>
+</svg>
