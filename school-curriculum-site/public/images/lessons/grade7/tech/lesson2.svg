@@ -1,0 +1,141 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f5f6fa"/>
+  
+  <!-- Заголовок -->
+  <rect x="50" y="10" width="400" height="35" fill="#7f8c8d" rx="5"/>
+  <text x="250" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">ТЕХНОЛОГИЯ · 7 КЛАСС</text>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2c3e50">Ручная обработка древесины</text>
+  
+  <!-- Инструменты -->
+  <g id="tools">
+    <!-- Ножовка -->
+    <rect x="30" y="90" width="80" height="15" fill="#34495e" rx="2"/>
+    <rect x="30" y="100" width="15" height="40" fill="#7f8c8d"/>
+    <line x1="40" y1="105" x2="40" y2="130" stroke="white" stroke-width="1"/>
+    <line x1="45" y1="105" x2="45" y2="130" stroke="white" stroke-width="1"/>
+    <line x1="50" y1="105" x2="50" y2="130" stroke="white" stroke-width="1"/>
+    <line x1="55" y1="105" x2="55" y2="130" stroke="white" stroke-width="1"/>
+    <text x="70" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Ножовка</text>
+    
+    <!-- Рубанок -->
+    <rect x="130" y="90" width="70" height="10" fill="#34495e"/>
+    <rect x="130" y="100" width="15" height="35" fill="#7f8c8d"/>
+    <polygon points="140,95 155,95 155,105 140,105" fill="#7f8c8d"/>
+    <line x1="145" y1="97" x2="145" y2="103" stroke="white" stroke-width="1"/>
+    <text x="165" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Рубанок</text>
+    
+    <!-- Стамеска -->
+    <rect x="220" y="90" width="8" height="40" fill="#7f8c8d"/>
+    <polygon points="216,90 234,90 230,100 220,100" fill="#34495e"/>
+    <text x="224" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Стамеска</text>
+    
+    <!-- Дрель -->
+    <circle cx="280" cy="95" r="15" fill="#34495e"/>
+    <rect x="275" y="100" width="10" height="35" fill="#7f8c8d"/>
+    <rect x="272" y="135" width="16" height="8" fill="#34495e"/>
+    <text x="280" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Дрель</text>
+    
+    <!-- Напильник -->
+    <rect x="320" y="90" width="60" height="8" fill="#7f8c8d"/>
+    <rect x="320" y="98" width="60" height="8" fill="#34495e"/>
+    <line x1="325" y1="92" x2="325" y2="104" stroke="white" stroke-width="0.5"/>
+    <line x1="330" y1="92" x2="330" y2="104" stroke="white" stroke-width="0.5"/>
+    <line x1="335" y1="92" x2="335" y2="104" stroke="white" stroke-width="0.5"/>
+    <line x1="340" y1="92" x2="340" y2="104" stroke="white" stroke-width="0.5"/>
+    <line x1="345" y1="92" x2="345" y2="104" stroke="white" stroke-width="0.5"/>
+    <text x="350" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Напильник</text>
+    
+    <!-- Лобзик -->
+    <rect x="400" y="90" width="70" height="5" fill="#7f8c8d"/>
+    <rect x="440" y="95" width="10" height="40" fill="#34495e"/>
+    <path d="M400,92 L405,95 L410,92 L415,95 L420,92 L425,95 L430,92 L435,95 L440,92" fill="none" stroke="#34495e" stroke-width="2"/>
+    <text x="435" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Лобзик</text>
+  </g>
+  
+  <!-- Свойства древесины -->
+  <g id="properties">
+    <rect x="30" y="180" width="440" height="130" fill="white" stroke="#7f8c8d" stroke-width="2" rx="5"/>
+    <text x="250" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Свойства древесины</text>
+    
+    <!-- Диаграмма свойств -->
+    <circle cx="80" cy="240" r="25" fill="#e74c3c" opacity="0.7"/>
+    <text x="80" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Прочность</text>
+    <text x="80" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Высокая</text>
+    
+    <circle cx="180" cy="240" r="25" fill="#3498db" opacity="0.7"/>
+    <text x="180" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Легкость</text>
+    <text x="180" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Средняя</text>
+    
+    <circle cx="280" cy="240" r="25" fill="#2ecc71" opacity="0.7"/>
+    <text x="280" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Упругость</text>
+    <text x="280" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Высокая</text>
+    
+    <circle cx="380" cy="240" r="25" fill="#f39c12" opacity="0.7"/>
+    <text x="380" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Долговечность</text>
+    <text x="380" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Средняя</text>
+  </g>
+  
+  <!-- Шаги обработки -->
+  <g id="process">
+    <rect x="50" y="320" width="400" height="25" fill="#7f8c8d" rx="3"/>
+    <text x="250" y="337" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Основные этапы обработки древесины</text>
+  </g>
+  
+  <!-- Стрелки процесса -->
+  <path d="M70,300 L100,300" stroke="#7f8c8d" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M150,300 L180,300" stroke="#7f8c8d" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M230,300 L260,300" stroke="#7f8c8d" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M310,300 L340,300" stroke="#7f8c8d" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M390,300 L420,300" stroke="#7f8c8d" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- Этапы процесса -->
+  <circle cx="85" cy="300" r="15" fill="#34495e"/>
+  <text x="85" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">1</text>
+  <text x="85" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Выбор</text>
+  
+  <circle cx="165" cy="300" r="15" fill="#34495e"/>
+  <text x="165" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">2</text>
+  <text x="165" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Разметка</text>
+  
+  <circle cx="245" cy="300" r="15" fill="#34495e"/>
+  <text x="245" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">3</text>
+  <text x="245" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Резка</text>
+  
+  <circle cx="325" cy="300" r="15" fill="#34495e"/>
+  <text x="325" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">4</text>
+  <text x="325" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Шлифовка</text>
+  
+  <circle cx="405" cy="300" r="15" fill="#34495e"/>
+  <text x="405" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">5</text>
+  <text x="405" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Отделка</text>
+  
+  <!-- Определения -->
+  <g id="definitions">
+    <rect x="30" y="85" width="15" height="15" fill="#3498db"/>
+    <text x="50" y="95" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Инструменты</text>
+    
+    <rect x="130" y="85" width="15" height="15" fill="#e74c3c"/>
+    <text x="150" y="95" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Свойства</text>
+    
+    <rect x="220" y="85" width="15" height="15" fill="#2ecc71"/>
+    <text x="240" y="95" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Этапы</text>
+  </g>
+  
+  <!-- Дополнительные элементы для объема -->
+  <line x1="40" y1="50" x2="460" y2="50" stroke="#7f8c8d" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="40" y1="350" x2="460" y2="350" stroke="#7f8c8d" stroke-width="1"/>
+  
+  <!-- Маркер стрелки -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#7f8c8d"/>
+    </marker>
+  </defs>
+  
+  <!-- Дополнительные текстовые элементы -->
+  <text x="250" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Ручные инструменты</text>
+  <text x="250" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">для обработки древесины</text>
+</svg>
