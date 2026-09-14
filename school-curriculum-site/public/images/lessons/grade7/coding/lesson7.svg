@@ -1,0 +1,151 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">ПРОГРАММИРОВАНИЕ · 7 КЛАСС</text>
+  
+  <!-- Название урока -->
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">Цикл for</text>
+  
+  <!-- Основной блок диаграммы -->
+  <rect x="50" y="80" width="400" height="250" rx="10" fill="#ffffff" stroke="#2c3e50" stroke-width="2"/>
+  
+  <!-- Заголовок диаграммы -->
+  <text x="250" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Цикл for: Структура</text>
+  
+  <!-- Блок инициализации -->
+  <rect x="70" y="120" width="360" height="40" rx="5" fill="#e8f4f8" stroke="#2c3e50" stroke-width="1.5"/>
+  <text x="250" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">for (инициализация; условие; обновление)</text>
+  
+  <!-- Стрелка вниз -->
+  <line x1="250" y1="160" x2="250" y2="185" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Блок условия -->
+  <rect x="70" y="190" width="360" height="40" rx="5" fill="#ffe8e8" stroke="#2c3e50" stroke-width="1.5"/>
+  <text x="250" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">условие</text>
+  
+  <!-- Разветвление -->
+  <polygon points="250,230 220,260 280,260" fill="#f0f0f0" stroke="#2c3e50" stroke-width="1.5"/>
+  <text x="250" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Истина?</text>
+  
+  <!-- Стрелка "Да" -->
+  <line x1="250" y1="260" x2="250" y2="285" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="270" y="275" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Да</text>
+  
+  <!-- Блок тела цикла -->
+  <rect x="160" y="290" width="180" height="30" rx="5" fill="#e8f8e8" stroke="#2c3e50" stroke-width="1.5"/>
+  <text x="250" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">тело цикла</text>
+  
+  <!-- Стрелка обратно на проверку условия -->
+  <path d="M 340 305 Q 410 305 410 215 Q 410 210 405 210 L 435 210" fill="none" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="420" y="305" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">обновление</text>
+  
+  <!-- Стрелка "Нет" -->
+  <line x1="220" y1="260" x2="130" y2="260" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="175" y="255" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Нет</text>
+  
+  <!-- Конец цикла -->
+  <circle cx="100" cy="260" r="15" fill="#ffffff" stroke="#2c3e50" stroke-width="2"/>
+  <text x="100" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Конец</text>
+  
+  <!-- Определения -->
+  <text x="70" y="340" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">инициализация - начальное значение счетчика</text>
+  
+  <!-- Пример кода -->
+  <rect x="30" y="60" width="140" height="80" rx="5" fill="#f5f5f5" stroke="#2c3e50" stroke-width="1"/>
+  <text x="35" y="80" font-family="monospace" font-size="11" fill="#2c3e50">for (int i = 0;</text>
+  <text x="35" y="95" font-family="monospace" font-size="11" fill="#2c3e50">  i &lt; 5; i++) {</text>
+  <text x="45" y="110" font-family="monospace" font-size="11" fill="#2c3e50">  System.out.println(i);</text>
+  <text x="35" y="125" font-family="monospace" font-size="11" fill="#2c3e50">}</text>
+  <text x="35" y="140" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Пример кода</text>
+  
+  <!-- Компоненты цикла -->
+  <circle cx="330" cy="80" r="25" fill="#e8f8e8" stroke="#2c3e50" stroke-width="2"/>
+  <text x="330" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">for</text>
+  
+  <!-- Иконка цикла -->
+  <path d="M 380 65 A 15 15 0 1 1 380 95" fill="none" stroke="#2c3e50" stroke-width="2"/>
+  <polygon points="380,95 375,88 385,88" fill="#2c3e50"/>
+  
+  <!-- Метки блоков -->
+  <text x="50" y="140" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">1</text>
+  <text x="50" y="210" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">2</text>
+  <text x="50" y="260" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">3</text>
+  <text x="150" y="310" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">4</text>
+  
+  <!-- Дополнительные элементы -->
+  <rect x="420" y="140" width="60" height="30" rx="3" fill="#ffe8e8" stroke="#2c3e50" stroke-width="1"/>
+  <text x="450" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">i=0</text>
+  
+  <rect x="420" y="175" width="60" height="30" rx="3" fill="#ffe8e8" stroke="#2c3e50" stroke-width="1"/>
+  <text x="450" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">i&lt;5</text>
+  
+  <rect x="420" y="210" width="60" height="30" rx="3" fill="#ffe8e8" stroke="#2c3e50" stroke-width="1"/>
+  <text x="450" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">i++</text>
+  
+  <!-- Указатели на компоненты -->
+  <line x1="400" y1="155" x2="380" y2="140" stroke="#2c3e50" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="400" y1="190" x2="380" y2="210" stroke="#2c3e50" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="400" y1="225" x2="350" y2="210" stroke="#2c3e50" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <!-- Выделенные части цикла -->
+  <rect x="70" y="120" width="100" height="40" rx="5" fill="#2c3e50" fill-opacity="0.1" stroke="#2c3e50" stroke-width="1" stroke-dasharray="5,5"/>
+  <text x="120" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Начало</text>
+  
+  <rect x="280" y="190" width="150" height="40" rx="5" fill="#2c3e50" fill-opacity="0.1" stroke="#2c3e50" stroke-width="1" stroke-dasharray="5,5"/>
+  <text x="355" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Проверка</text>
+  
+  <rect x="160" y="290" width="180" height="30" rx="5" fill="#2c3e50" fill-opacity="0.1" stroke="#2c3e50" stroke-width="1" stroke-dasharray="5,5"/>
+  <text x="250" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Действие</text>
+  
+  <!-- Дополнительные поясняющие элементы -->
+  <circle cx="40" cy="320" r="3" fill="#2c3e50"/>
+  <circle cx="50" cy="320" r="3" fill="#2c3e50"/>
+  <circle cx="60" cy="320" r="3" fill="#2c3e50"/>
+  <text x="70" y="325" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Выполнение</text>
+  
+  <!-- Декоративные элементы -->
+  <path d="M 30 30 Q 40 40 50 30 T 70 30" fill="none" stroke="#2c3e50" stroke-width="1" opacity="0.5"/>
+  <path d="M 430 30 Q 440 40 450 30 T 470 30" fill="none" stroke="#2c3e50" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Маркер стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2c3e50"/>
+    </marker>
+  </defs>
+  
+  <!-- Дополнительные текстовые элементы -->
+  <text x="20" y="100" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Шаг 1:</text>
+  <text x="20" y="115" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Инициализация</text>
+  
+  <text x="20" y="200" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Шаг 2:</text>
+  <text x="20" y="215" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Проверка условия</text>
+  
+  <text x="20" y="300" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Шаг 3:</text>
+  <text x="20" y="315" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Выполнение тела</text>
+  
+  <text x="300" y="340" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Шаг 4:</text>
+  <text x="350" y="340" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Обновление счетчика</text>
+  
+  <!-- Дополнительные пояснения -->
+  <text x="250" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Цикл повторяется до тех пор, пока условие истинно</text>
+  
+  <!-- Разделители -->
+  <line x1="30" y1="50" x2="470" y2="50" stroke="#2c3e50" stroke-width="1" opacity="0.3"/>
+  <line x1="30" y1="340" x2="470" y2="340" stroke="#2c3e50" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Дополнительные визуальные элементы -->
+  <rect x="150" y="70" width="200" height="3" rx="1.5" fill="#2c3e50" opacity="0.2"/>
+  
+  <!-- Выделенные части синтаксиса -->
+  <rect x="70" y="123" width="30" height="34" rx="2" fill="#2c3e50" fill-opacity="0.1"/>
+  <text x="85" y="142" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">for</text>
+  
+  <rect x="120" y="123" width="40" height="34" rx="2" fill="#2c3e50" fill-opacity="0.1"/>
+  <text x="140" y="142" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">(...)</text>
+  
+  <rect x="175" y="123" width="255" height="34" rx="2" fill="#2c3e50" fill-opacity="0.1"/>
+  <text x="300" y="142" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">цикл с параметром</text>
+</svg>
