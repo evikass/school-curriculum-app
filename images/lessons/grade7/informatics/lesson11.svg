@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#F3E5F5"/>
+<!-- Robot body -->
+<rect x="200" y="120" width="100" height="100" rx="10" fill="#5C6BC0" stroke="#3949AB" stroke-width="2"/>
+<!-- Robot head -->
+<rect x="215" y="70" width="70" height="50" rx="8" fill="#7986CB" stroke="#3949AB" stroke-width="2"/>
+<!-- Eyes -->
+<circle cx="235" cy="90" r="8" fill="#1A237E"/>
+<circle cx="265" cy="90" r="8" fill="#1A237E"/>
+<circle cx="237" cy="88" r="3" fill="#448AFF"/>
+<circle cx="267" cy="88" r="3" fill="#448AFF"/>
+<!-- Mouth -->
+<rect x="235" y="105" width="30" height="6" rx="3" fill="#1A237E"/>
+<!-- Antenna -->
+<line x1="250" y1="70" x2="250" y2="50" stroke="#3949AB" stroke-width="2"/>
+<circle cx="250" cy="45" r="6" fill="#FF4081"/>
+<!-- Arms -->
+<line x1="200" y1="145" x2="160" y2="170" stroke="#3949AB" stroke-width="4" stroke-linecap="round"/>
+<line x1="300" y1="145" x2="340" y2="170" stroke="#3949AB" stroke-width="4" stroke-linecap="round"/>
+<!-- Hands -->
+<circle cx="155" cy="173" r="8" fill="#7986CB"/>
+<circle cx="345" cy="173" r="8" fill="#7986CB"/>
+<!-- Legs -->
+<line x1="225" y1="220" x2="215" y2="270" stroke="#3949AB" stroke-width="5" stroke-linecap="round"/>
+<line x1="275" y1="220" x2="285" y2="270" stroke="#3949AB" stroke-width="5" stroke-linecap="round"/>
+<!-- Feet -->
+<ellipse cx="210" cy="275" rx="15" ry="8" fill="#3949AB"/>
+<ellipse cx="290" cy="275" rx="15" ry="8" fill="#3949AB"/>
+<!-- Grid floor -->
+<line x1="0" y1="290" x2="500" y2="290" stroke="#CE93D8" stroke-width="0.5" opacity="0.3"/>
+<line x1="100" y1="280" x2="100" y2="350" stroke="#CE93D8" stroke-width="0.5" opacity="0.2"/>
+<line x1="200" y1="280" x2="200" y2="350" stroke="#CE93D8" stroke-width="0.5" opacity="0.2"/>
+<line x1="300" y1="280" x2="300" y2="350" stroke="#CE93D8" stroke-width="0.5" opacity="0.2"/>
+<line x1="400" y1="280" x2="400" y2="350" stroke="#CE93D8" stroke-width="0.5" opacity="0.2"/>
+<!-- Command boxes -->
+<rect x="30" y="30" width="120" height="30" rx="6" fill="#E8EAF6" stroke="#3F51B5" stroke-width="1.5"/>
+<text x="90" y="50" font-family="monospace" font-size="11" fill="#1A237E" text-anchor="middle">ВПЕРЁД 3</text>
+<rect x="350" y="30" width="120" height="30" rx="6" fill="#E8EAF6" stroke="#3F51B5" stroke-width="1.5"/>
+<text x="410" y="50" font-family="monospace" font-size="11" fill="#1A237E" text-anchor="middle">ВПРАВО 90°</text>
+<!-- Movement trail -->
+<path d="M250 275 L250 240 L290 240 L290 210" stroke="#FF4081" stroke-width="2" stroke-dasharray="5,3" fill="none"/>
+<!-- Command sequence at bottom -->
+<rect x="40" y="300" width="420" height="28" rx="5" fill="#EDE7F6" stroke="#7B1FA2" stroke-width="1"/>
+<text x="250" y="319" font-family="monospace" font-size="10" fill="#4A148C" text-anchor="middle">ВПЕРЁД 3 → ВПРАВО 90° → ВПЕРЁД 3 → ВЛЕВО 90° → ВПЕРЁД 2</text>
+<text x="250" y="345" font-family="sans-serif" font-size="9" fill="#4A148C" opacity="0.5" text-anchor="middle">Исполнители алгоритмов</text>
+</svg>
