@@ -1,110 +1,127 @@
 <svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
-  <!-- Декоративная рамка -->
-  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#2c3e50" stroke-width="3" rx="5"/>
-  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#3498db" stroke-width="1" rx="3"/>
-  
-  <!-- Заголовок класса -->
-  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">АНГЛИЙСКИЙ · 10 КЛАСС</text>
-  
-  <!-- Номер урока -->
-  <text x="450" y="35" text-anchor="end" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Урок 1</text>
-  
-  <!-- Заголовок урока -->
-  <text x="250" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">Времена группы Perfect</text>
-  
-  <!-- Градиенты для элементов -->
+  <!-- Фоновый градиент -->
   <defs>
-    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#3498db;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:1" />
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f4fd;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0f9ff;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#e74c3c;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#c0392b;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#2ecc71;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#27ae60;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#f39c12;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#d68910;stop-opacity:1" />
+    
+    <!-- Тень для элементов -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+    
+    <!-- Градиент для кнопок -->
+    <linearGradient id="btnGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#357abd;stop-opacity:1" />
     </linearGradient>
   </defs>
   
-  <!-- Present Perfect секция -->
-  <rect x="30" y="80" width="140" height="60" fill="url(#grad1)" rx="5"/>
-  <text x="100" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Present Perfect</text>
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
   
-  <!-- Present Perfect формула -->
-  <text x="100" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">have/has + V³</text>
-  <text x="100" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">(V³ - третье форма глагола)</text>
+  <!-- Заголовок -->
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">
+    АНГЛИЙСКИЙ ЯЗЫК · 10 КЛАСС
+  </text>
   
-  <!-- Present Perfect примеры -->
-  <text x="30" y="200" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• I have finished my homework.</text>
-  <text x="30" y="215" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• She has lived here for 5 years.</text>
+  <!-- Подзаголовок -->
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#34495e">
+    Урок 1: Времена группы Perfect
+  </text>
   
-  <!-- Past Perfect секция -->
-  <rect x="180" y="80" width="140" height="60" fill="url(#grad2)" rx="5"/>
-  <text x="250" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Past Perfect</text>
+  <!-- Основной контейнер -->
+  <rect x="30" y="90" width="440" height="240" rx="10" fill="white" filter="url(#shadow)"/>
   
-  <!-- Past Perfect формула -->
-  <text x="250" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">had + V³</text>
-  <text x="250" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">(V³ - третье форма глагола)</text>
+  <!-- Раздел Present Perfect -->
+  <g>
+    <rect x="50" y="110" width="180" height="90" rx="5" fill="#e8f4fd" stroke="#4a90e2" stroke-width="2"/>
+    <text x="140" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">
+      Present Perfect
+    </text>
+    <text x="60" y="160" font-family="Arial, sans-serif" font-size="12" fill="#555">
+      have/has + V3
+    </text>
+    <text x="60" y="180" font-family="Arial, sans-serif" font-size="11" fill="#666">
+      I have finished my work
+    </text>
+  </g>
   
-  <!-- Past Perfect примеры -->
-  <text x="180" y="200" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• I had finished before he came.</text>
-  <text x="180" y="215" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• She had lived there for years.</text>
+  <!-- Раздел Past Perfect -->
+  <g>
+    <rect x="270" y="110" width="180" height="90" rx="5" fill="#fff4e6" stroke="#ff9800" stroke-width="2"/>
+    <text x="360" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">
+      Past Perfect
+    </text>
+    <text x="280" y="160" font-family="Arial, sans-serif" font-size="12" fill="#555">
+      had + V3
+    </text>
+    <text x="280" y="180" font-family="Arial, sans-serif" font-size="11" fill="#666">
+      I had finished my work
+    </text>
+  </g>
   
-  <!-- Future Perfect секция -->
-  <rect x="330" y="80" width="140" height="60" fill="url(#grad3)" rx="5"/>
-  <text x="400" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Future Perfect</text>
+  <!-- Раздел Future Perfect -->
+  <g>
+    <rect x="160" y="220" width="180" height="90" rx="5" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+    <text x="250" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">
+      Future Perfect
+    </text>
+    <text x="170" y="270" font-family="Arial, sans-serif" font-size="12" fill="#555">
+      will have + V3
+    </text>
+    <text x="170" y="290" font-family="Arial, sans-serif" font-size="11" fill="#666">
+      I will have finished my work
+    </text>
+  </g>
   
-  <!-- Future Perfect формула -->
-  <text x="400" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">will have + V³</text>
-  <text x="400" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">(V³ - третье форма глагола)</text>
-  
-  <!-- Future Perfect примеры -->
-  <text x="330" y="200" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• I will have finished by 5 PM.</text>
-  <text x="330" y="215" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• She will have lived there for 10 years.</text>
-  
-  <!-- Таймлайн Perfect времен -->
-  <line x1="50" y1="250" x2="450" y2="250" stroke="#95a5a6" stroke-width="2"/>
-  
-  <!-- Тайммаркеры -->
-  <circle cx="100" cy="250" r="8" fill="#3498db"/>
-  <text x="100" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Настоящее</text>
-  
-  <circle cx="250" cy="250" r="8" fill="#e74c3c"/>
-  <text x="250" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Прошлое</text>
-  
-  <circle cx="400" cy="250" r="8" fill="#2ecc71"/>
-  <text x="400" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Будущее</text>
-  
-  <!-- Сравнительная таблица -->
-  <rect x="30" y="290" width="440" height="40" fill="url(#grad4)" rx="5" opacity="0.3"/>
-  <text x="250" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Perfect времена показывают завершенность действия до определенного момента времени</text>
-  
-  <!-- Дополнительные элементы для декора -->
-  <polygon points="45,95 50,90 55,95" fill="#3498db"/>
-  <polygon points="195,95 200,90 205,95" fill="#e74c3c"/>
-  <polygon points="345,95 350,90 355,95" fill="#2ecc71"/>
+  <!-- Декоративные элементы -->
+  <circle cx="70" cy="130" r="8" fill="#4a90e2" opacity="0.3"/>
+  <circle cx="290" cy="130" r="8" fill="#ff9800" opacity="0.3"/>
+  <circle cx="180" cy="240" r="8" fill="#9c27b0" opacity="0.3"/>
   
   <!-- Стрелки между временами -->
-  <path d="M 175 110 L 175 110" stroke="#7f8c8d" stroke-width="1" stroke-dasharray="2,2" fill="none"/>
-  <path d="M 325 110 L 325 110" stroke="#7f8c8d" stroke-width="1" stroke-dasharray="2,2" fill="none"/>
+  <path d="M 230 155 L 270 155" stroke="#999" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 360 200 L 250 220" stroke="#999" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
   
-  <!-- Ключевые термины -->
-  <text x="50" y="240" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Действия, завершенные к настоящему моменту</text>
-  <text x="200" y="240" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Действия, завершенные до другого действия в прошлом</text>
-  <text x="330" y="240" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Действия, которые будут завершены к определенному моменту в будущем</text>
+  <!-- Маркер стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#999"/>
+    </marker>
+  </defs>
   
-  <!-- Дополнительные схемы -->
-  <rect x="30" y="70" width="440" height="2" fill="#ecf0f1"/>
-  <rect x="30" y="230" width="440" height="2" fill="#ecf0f1"/>
-  <rect x="30" y="285" width="440" height="2" fill="#ecf0f1"/>
+  <!-- Кнопка "Примеры" -->
+  <rect x="40" y="320" width="80" height="25" rx="12" fill="url(#btnGrad)" cursor="pointer"/>
+  <text x="80" y="337" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">
+    Примеры
+  </text>
   
-  <!-- Вспомогательные элементы -->
-  <circle cx="25" cy="250" r="3" fill="#95a5a6"/>
-  <circle cx="475" cy="250" r="3" fill="#95a5a6"/>
+  <!-- Кнопка "Упражнения" -->
+  <rect x="130" y="320" width="80" height="25" rx="12" fill="url(#btnGrad)" cursor="pointer"/>
+  <text x="170" y="337" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">
+    Упражнения
+  </text>
+  
+  <!-- Кнопка "Теория" -->
+  <rect x="220" y="320" width="80" height="25" rx="12" fill="url(#btnGrad)" cursor="pointer"/>
+  <text x="260" y="337" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">
+    Теория
+  </text>
+  
+  <!-- Дополнительные декоративные элементы -->
+  <path d="M 20 100 L 20 120 L 25 115 M 20 120 L 15 115" stroke="#4a90e2" stroke-width="2" fill="none"/>
+  <path d="M 480 100 L 480 120 L 475 115 M 480 120 L 485 115" stroke="#4a90e2" stroke-width="2" fill="none"/>
+  
+  <!-- Малые иконки -->
+  <circle cx="420" cy="125" r="3" fill="#4a90e2"/>
+  <circle cx="425" cy="125" r="3" fill="#ff9800"/>
+  <circle cx="430" cy="125" r="3" fill="#9c27b0"/>
+  
+  <!-- Временная шкала -->
+  <line x1="50" y1="315" x2="450" y2="315" stroke="#ddd" stroke-width="1"/>
+  <text x="50" y="330" font-family="Arial, sans-serif" font-size="10" fill="#999">Past</text>
+  <text x="230" y="330" font-family="Arial, sans-serif" font-size="10" fill="#999">Present</text>
+  <text x="420" y="330" font-family="Arial, sans-serif" font-size="10" fill="#999">Future</text>
 </svg>
