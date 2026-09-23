@@ -1,123 +1,138 @@
 <svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
-  <!-- Декоративная рамка -->
-  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#3498db" stroke-width="3" rx="5"/>
-  <rect x="15" y="15" width="470" height="320" fill="none" stroke="#e74c3c" stroke-width="1" rx="3"/>
+  <!-- Фоновые элементы -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Декоративные линии -->
+  <path d="M0 50 Q125 30 250 50 T500 50" stroke="#e3e6ea" stroke-width="2" fill="none"/>
+  <path d="M0 300 Q125 320 250 300 T500 300" stroke="#e3e6ea" stroke-width="2" fill="none"/>
   
   <!-- Заголовок -->
-  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">АНГЛИЙСКИЙ · 10 КЛАСС</text>
-  <text x="250" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2c3e50">Урок 8: Reading Strategies</text>
-  <text x="450" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3498db">#8</text>
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">
+    АНГЛИЙСКИЙ ЯЗЫК · 10 КЛАСС
+  </text>
   
-  <!-- Градиенты -->
-  <defs>
-    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#3498db;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#9b59b6;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#e74c3c;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#f39c12;stop-opacity:1" />
-    </linearGradient>
-    <radialGradient id="grad3">
-      <stop offset="0%" style="stop-color:#2ecc71;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#27ae60;stop-opacity:1" />
-    </radialGradient>
-  </defs>
+  <!-- Основной контейнер -->
+  <rect x="40" y="70" width="420" height="250" rx="15" fill="white" stroke="#dee2e6" stroke-width="1"/>
   
-  <!-- Стратегии чтения -->
-  <rect x="30" y="85" width="210" height="250" fill="#ecf0f1" stroke="#34495e" stroke-width="2" rx="5"/>
-  <text x="135" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Стратегии чтения</text>
+  <!-- Reading Strategies заголовок -->
+  <rect x="60" y="90" width="380" height="40" rx="8" fill="#3498db"/>
+  <text x="250" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="white">
+    Lesson 8: Reading Strategies
+  </text>
   
-  <!-- Skimming -->
-  <rect x="45" y="125" width="180" height="45" fill="#3498db" rx="5"/>
-  <text x="135" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Skimming</text>
-  <text x="135" y="162" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Просмотр текста</text>
-  <path d="M60 152 L80 142 L80 162 Z" fill="white"/>
-  <path d="M210 152 L230 142 L230 162 Z" fill="white"/>
+  <!-- Иконка книги -->
+  <g transform="translate(90, 150)">
+    <rect width="30" height="40" rx="3" fill="#e74c3c"/>
+    <rect x="5" y="5" width="20" height="30" fill="white"/>
+    <line x1="10" y1="10" x2="20" y2="10" stroke="#e74c3c" stroke-width="1"/>
+    <line x1="10" y1="15" x2="20" y2="15" stroke="#e74c3c" stroke-width="1"/>
+    <line x1="10" y1="20" x2="20" y2="20" stroke="#e74c3c" stroke-width="1"/>
+  </g>
   
-  <!-- Scanning -->
-  <rect x="45" y="180" width="180" height="45" fill="#e74c3c" rx="5"/>
-  <text x="135" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Scanning</text>
-  <text x="135" y="217" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Поиск информации</text>
-  <line x1="60" y1="202" x2="80" y2="202" stroke="white" stroke-width="2"/>
-  <line x1="60" y1="207" x2="80" y2="207" stroke="white" stroke-width="2"/>
-  <line x1="60" y1="212" x2="80" y2="212" stroke="white" stroke-width="2"/>
-  <line x1="210" y1="202" x2="230" y2="202" stroke="white" stroke-width="2"/>
-  <line x1="210" y1="207" x2="230" y2="207" stroke="white" stroke-width="2"/>
-  <line x1="210" y1="212" x2="230" y2="212" stroke="white" stroke-width="2"/>
+  <!-- Предварительное чтение -->
+  <g transform="translate(130, 145)">
+    <rect width="200" height="50" rx="8" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+    <text x="10" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#2c3e50">
+      Pre-reading
+    </text>
+    <text x="10" y="35" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">
+      Preview, predict, activate schema
+    </text>
+  </g>
   
-  <!-- Intensive Reading -->
-  <rect x="45" y="235" width="180" height="45" fill="#9b59b6" rx="5"/>
-  <text x="135" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Intensive Reading</text>
-  <text x="135" y="272" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Детальное чтение</text>
-  <circle cx="70" cy="257" r="3" fill="white"/>
-  <circle cx="220" cy="257" r="3" fill="white"/>
+  <!-- Иконка лупы -->
+  <g transform="translate(340, 150)">
+    <circle cx="15" cy="15" r="12" fill="none" stroke="#9b59b6" stroke-width="2"/>
+    <line x1="24" y1="24" x2="30" y2="30" stroke="#9b59b6" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="15" cy="15" r="6" fill="#9b59b6"/>
+  </g>
   
-  <!-- Extensive Reading -->
-  <rect x="45" y="290" width="180" height="35" fill="#f39c12" rx="5"/>
-  <text x="135" y="307" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Extensive Reading</text>
-  <text x="135" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Широкое чтение</text>
+  <!-- Во время чтения -->
+  <g transform="translate(90, 210)">
+    <rect width="200" height="50" rx="8" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+    <text x="10" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#2c3e50">
+      While reading
+    </text>
+    <text x="10" y="35" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">
+      Scan, skim, infer, question
+    </text>
+  </g>
   
-  <!-- Практические техники -->
-  <rect x="260" y="85" width="210" height="250" fill="#ecf0f1" stroke="#34495e" stroke-width="2" rx="5"/>
-  <text x="365" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Практические техники</text>
+  <!-- Иконка заметок -->
+  <g transform="translate(300, 210)">
+    <rect width="25" height="30" rx="2" fill="#f39c12"/>
+    <rect x="5" y="5" width="15" height="20" fill="white"/>
+    <line x1="8" y1="10" x2="17" y2="10" stroke="#f39c12" stroke-width="1"/>
+    <line x1="8" y1="14" x2="17" y2="14" stroke="#f39c12" stroke-width="1"/>
+    <line x1="8" y1="18" x2="12" y2="18" stroke="#f39c12" stroke-width="1"/>
+  </g>
   
-  <!-- Техника 1 -->
-  <rect x="275" y="125" width="180" height="40" fill="url(#grad1)" rx="5"/>
-  <text x="365" y="142" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Заголовки и подзаголовки</text>
-  <text x="365" y="157" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Анализ структуры</text>
+  <!-- После чтения -->
+  <g transform="translate(90, 275)">
+    <rect width="200" height="35" rx="8" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+    <text x="10" y="15" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#2c3e50">
+      Post-reading
+    </text>
+    <text x="10" y="28" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">
+      Summarize, review, reflect
+    </text>
+  </g>
   
-  <!-- Техника 2 -->
-  <rect x="275" y="175" width="180" height="40" fill="url(#grad2)" rx="5"/>
-  <text x="365" y="192" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Ключевые слова</text>
-  <text x="365" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Выделение важного</text>
+  <!-- Соединительные стрелки -->
+  <path d="M250 195 L250 205" stroke="#34495e" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M250 265 L250 275" stroke="#34495e" stroke-width="2" marker-end="url(#arrowhead)"/>
   
-  <!-- Техника 3 -->
-  <rect x="275" y="225" width="180" height="40" fill="url(#grad3)" rx="5"/>
-  <text x="365" y="242" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Вопросы к тексту</text>
-  <text x="365" y="257" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Понимание содержания</text>
+  <!-- Стрелки для определения -->
+  <path d="M190 170 L190 175" stroke="#95a5a6" stroke-width="1" stroke-dasharray="2,2"/>
+  <path d="M190 230 L190 235" stroke="#95a5a6" stroke-width="1" stroke-dasharray="2,2"/>
   
-  <!-- Техника 4 -->
-  <rect x="275" y="275" width="180" height="35" fill="#1abc9c" rx="5"/>
-  <text x="365" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Резюмирование</text>
-  <text x="365" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Краткое изложение</text>
+  <!-- Определения -->
+  <g transform="translate(340, 160)">
+    <rect width="140" height="80" rx="5" fill="#fff3cd" stroke="#ffeaa7" stroke-width="1"/>
+    <text x="10" y="15" font-family="Arial, sans-serif" font-size="11" font-weight="500" fill="#856404">
+      <tspan x="10" dy="0">Skimming:</tspan>
+      <tspan x="10" dy="15">Quick reading for</tspan>
+      <tspan x="10" dy="15">main ideas</tspan>
+    </text>
+  </g>
   
-  <!-- Стрелки между секциями -->
-  <path d="M245 157 L260 157" stroke="#3498db" stroke-width="2" marker-end="url(#arrowhead)"/>
-  <path d="M245 202 L260 202" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead)"/>
-  <path d="M245 257 L260 257" stroke="#9b59b6" stroke-width="2" marker-end="url(#arrowhead)"/>
-  <path d="M245 307 L260 307" stroke="#f39c12" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <g transform="translate(340, 220)">
+    <rect width="140" height="80" rx="5" fill="#d1ecf1" stroke="#bee5eb" stroke-width="1"/>
+    <text x="10" y="15" font-family="Arial, sans-serif" font-size="11" font-weight="500" fill="#0c5460">
+      <tspan x="10" dy="0">Scanning:</tspan>
+      <tspan x="10" dy="15">Looking for specific</tspan>
+      <tspan x="10" dy="15">information</tspan>
+    </text>
+  </g>
   
-  <!-- Стрелки -->
+  <!-- Дополнительные элементы декора -->
+  <circle cx="70" cy="130" r="3" fill="#3498db"/>
+  <circle cx="430" cy="130" r="3" fill="#3498db"/>
+  <circle cx="70" cy="290" r="3" fill="#95a5a6"/>
+  <circle cx="430" cy="290" r="3" fill="#95a5a6"/>
+  
+  <!-- Точки для акцента -->
+  <g transform="translate(250, 170)">
+    <circle cx="-2" cy="0" r="2" fill="#e74c3c"/>
+    <circle cx="0" cy="0" r="2" fill="#e74c3c"/>
+    <circle cx="2" cy="0" r="2" fill="#e74c3c"/>
+  </g>
+  
+  <g transform="translate(250, 250)">
+    <circle cx="-2" cy="0" r="2" fill="#f39c12"/>
+    <circle cx="0" cy="0" r="2" fill="#f39c12"/>
+    <circle cx="2" cy="0" r="2" fill="#f39c12"/>
+  </g>
+  
+  <!-- Определение маркера -->
   <defs>
     <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
       <polygon points="0 0, 10 3.5, 0 7" fill="#34495e"/>
     </marker>
   </defs>
   
-  <!-- Иконка книги -->
-  <rect x="225" y="170" width="20" height="25" fill="#3498db" rx="2"/>
-  <rect x="227" y="172" width="16" height="21" fill="white"/>
-  <line x1="230" y1="175" x2="240" y2="175" stroke="#3498db" stroke-width="1"/>
-  <line x1="230" y1="179" x2="240" y2="179" stroke="#3498db" stroke-width="1"/>
-  <line x1="230" y1="183" x2="240" y2="183" stroke="#3498db" stroke-width="1"/>
-  <line x1="230" y1="187" x2="235" y2="187" stroke="#3498db" stroke-width="1"/>
-  
-  <!-- Формула скорости чтения -->
-  <rect x="30" y="70" width="440" height="12" fill="#34495e" rx="3"/>
-  <text x="250" y="79" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Скорость чтения (слов/мин) = Количество слов / Время чтения (мин)</text>
-  
-  <!-- График эффективности -->
-  <text x="135" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Эффективность</text>
-  <text x="365" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Практическое применение</text>
-  
-  <!-- Декоративные элементы -->
-  <circle cx="30" cy="340" r="3" fill="#3498db"/>
-  <circle cx="35" cy="340" r="3" fill="#e74c3c"/>
-  <circle cx="40" cy="340" r="3" fill="#f39c12"/>
-  <circle cx="45" cy="340" r="3" fill="#9b59b6"/>
-  <circle cx="460" cy="340" r="3" fill="#3498db"/>
-  <circle cx="455" cy="340" r="3" fill="#e74c3c"/>
-  <circle cx="450" cy="340" r="3" fill="#f39c12"/>
-  <circle cx="445" cy="340" r="3" fill="#9b59b6"/>
+  <!-- Дополнительные текстовые элементы -->
+  <text x="250" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#95a5a6" font-style="italic">
+    Effective reading strategies improve comprehension
+  </text>
 </svg>
