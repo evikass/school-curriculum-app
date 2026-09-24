@@ -1,23 +1,142 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f0f4f8"/>
+  
+  <!-- Декоративная сетка -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e1b4b"/>
-      <stop offset="100%" style="stop-color:#6366f1"/>
-    </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:0"/>
-    </radialGradient>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e0e6ed" stroke-width="0.5"/>
+    </pattern>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#a78bfa" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#a78bfa" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#e0e7ff" text-anchor="middle">20</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e0e7ff" text-anchor="middle" opacity="0.8">ГЕОМЕТРИЯ · 10–11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e0e7ff" text-anchor="middle">Урок 20: Понятие вектора в пространстве</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#a78bfa" text-anchor="middle" opacity="0.8">Урок 20 из 38</text>
-  <line x1="100" y1="220" x2="400" y2="130" stroke="#a78bfa" stroke-width="2.5" opacity="0.6"/><polygon points="395,135 400,130 390,128" fill="#a78bfa"/>
+  <rect width="500" height="350" fill="url(#grid)"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1a237e">
+    ГЕОМЕТРИЯ · 10 КЛАСС
+  </text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#3949ab">
+    Урок 20: Понятие вектора в пространстве
+  </text>
+  
+  <!-- Оси координат -->
+  <line x1="100" y1="250" x2="400" y2="250" stroke="#546e7a" stroke-width="2" marker-end="url(#arrowx)"/>
+  <line x1="150" y1="300" x2="150" y2="100" stroke="#546e7a" stroke-width="2" marker-end="url(#arrowy)"/>
+  <line x1="150" y1="250" x2="200" y2="200" stroke="#546e7a" stroke-width="2" marker-end="url(#arrowz)"/>
+  
+  <!-- Стрелки для осей -->
+  <defs>
+    <marker id="arrowx" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#546e7a"/>
+    </marker>
+    <marker id="arrowy" markerWidth="10" markerHeight="10" refX="3" refY="2" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,9 L6,0 L3,0 z" fill="#546e7a"/>
+    </marker>
+    <marker id="arrowz" markerWidth="10" markerHeight="10" refX="3" refY="2" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,9 L6,0 L3,0 z" fill="#546e7a"/>
+    </marker>
+  </defs>
+  
+  <!-- Обозначения осей -->
+  <text x="405" y="255" font-family="Arial, sans-serif" font-size="16" fill="#546e7a">x</text>
+  <text x="155" y="95" font-family="Arial, sans-serif" font-size="16" fill="#546e7a">y</text>
+  <text x="205" y="195" font-family="Arial, sans-serif" font-size="16" fill="#546e7a">z</text>
+  
+  <!-- Вектор AB -->
+  <line x1="180" y1="220" x2="280" y2="150" stroke="#e53935" stroke-width="3" marker-end="url(#arrowvec)"/>
+  <text x="175" y="230" font-family="Arial, sans-serif" font-size="14" fill="#e53935">A</text>
+  <text x="285" y="150" font-family="Arial, sans-serif" font-size="14" fill="#e53935">B</text>
+  <text x="220" y="180" font-family="Arial, sans-serif" font-size="14" fill="#e53935" font-style="italic">AB</text>
+  
+  <!-- Вектор CD -->
+  <line x1="300" y1="200" x2="350" y2="120" stroke="#43a047" stroke-width="3" marker-end="url(#arrowvec)"/>
+  <text x="295" y="210" font-family="Arial, sans-serif" font-size="14" fill="#43a047">C</text>
+  <text x="355" y="120" font-family="Arial, sans-serif" font-size="14" fill="#43a047">D</text>
+  <text x="315" y="155" font-family="Arial, sans-serif" font-size="14" fill="#43a047" font-style="italic">CD</text>
+  
+  <!-- Стрелка для векторов -->
+  <defs>
+    <marker id="arrowvec" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#d32f2f"/>
+    </marker>
+  </defs>
+  
+  <!-- Параллелограмм -->
+  <path d="M 180 220 L 280 150 L 380 180 L 280 250 Z" fill="none" stroke="#7b1fa2" stroke-width="2" stroke-dasharray="5,5" opacity="0.5"/>
+  
+  <!-- Компоненты вектора -->
+  <line x1="180" y1="220" x2="230" y2="220" stroke="#ff6f00" stroke-width="2"/>
+  <line x1="230" y1="220" x2="280" y2="150" stroke="#00acc1" stroke-width="2"/>
+  <line x1="230" y1="220" x2="280" y2="150" stroke="#9c27b0" stroke-width="2" stroke-dasharray="3,3"/>
+  
+  <!-- Обозначения компонентов -->
+  <text x="185" y="210" font-family="Arial, sans-serif" font-size="12" fill="#ff6f00">x</text>
+  <text x="240" y="175" font-family="Arial, sans-serif" font-size="12" fill="#00acc1">y</text>
+  <text x="220" y="180" font-family="Arial, sans-serif" font-size="12" fill="#9c27b0">z</text>
+  
+  <!-- Формула длины вектора -->
+  <rect x="50" y="290" width="400" height="40" fill="#e8eaf6" rx="5"/>
+  <text x="250" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#3f51b5">
+    |AB| = √(x² + y² + z²)
+  </text>
+  
+  <!-- Координатные плоскости -->
+  <ellipse cx="150" cy="250" rx="120" ry="2" fill="#cfd8dc" opacity="0.5"/>
+  <ellipse cx="150" cy="250" rx="2" ry="120" fill="#cfd8dc" opacity="0.5"/>
+  
+  <!-- Точка начала координат -->
+  <circle cx="150" cy="250" r="4" fill="#37474f"/>
+  <text x="135" y="270" font-family="Arial, sans-serif" font-size="12" fill="#37474f">O</text>
+  
+  <!-- Вектор-единица -->
+  <line x1="320" y1="280" x2="360" y2="280" stroke="#ff5722" stroke-width="2" marker-end="url(#arrowunit)"/>
+  <text x="340" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#ff5722">e</text>
+  
+  <defs>
+    <marker id="arrowunit" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#ff5722"/>
+    </marker>
+  </defs>
+  
+  <!-- Система векторов базиса -->
+  <line x1="350" y1="300" x2="380" y2="300" stroke="#4caf50" stroke-width="2" marker-end="url(#arrowbasis)"/>
+  <line x1="350" y1="300" x2="350" y2="270" stroke="#2196f3" stroke-width="2" marker-end="url(#arrowbasis)"/>
+  <line x1="350" y1="300" x2="370" y2="290" stroke="#9c27b0" stroke-width="2" marker-end="url(#arrowbasis)"/>
+  
+  <defs>
+    <marker id="arrowbasis" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#4caf50"/>
+    </marker>
+  </defs>
+  
+  <!-- Обозначения базиса -->
+  <text x="385" y="305" font-family="Arial, sans-serif" font-size="12" fill="#4caf50">i</text>
+  <text x="355" y="265" font-family="Arial, sans-serif" font-size="12" fill="#2196f3">j</text>
+  <text x="375" y="285" font-family="Arial, sans-serif" font-size="12" fill="#9c27b0">k</text>
+  
+  <!-- Дополнительные элементы декора -->
+  <circle cx="180" cy="220" r="3" fill="#e53935"/>
+  <circle cx="280" cy="150" r="3" fill="#e53935"/>
+  <circle cx="300" cy="200" r="3" fill="#43a047"/>
+  <circle cx="350" cy="120" r="3" fill="#43a047"/>
+  
+  <!-- Угол между векторами -->
+  <path d="M 180 220 A 30 30 0 0 0 195 195" fill="none" stroke="#795548" stroke-width="1.5"/>
+  <text x="185" y="205" font-family="Arial, sans-serif" font-size="12" fill="#795548">α</text>
+  
+  <!-- Вектор суммы -->
+  <line x1="180" y1="220" x2="380" y2="180" stroke="#009688" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowsum)"/>
+  <text x="270" y="195" font-family="Arial, sans-serif" font-size="14" fill="#009688" font-style="italic">AB + CD</text>
+  
+  <defs>
+    <marker id="arrowsum" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#009688"/>
+    </marker>
+  </defs>
+  
+  <!-- Точка проекции -->
+  <circle cx="280" cy="220" r="3" fill="#ff9800"/>
+  <line x1="280" y1="220" x2="280" y2="250" stroke="#ff9800" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="285" y="235" font-family="Arial, sans-serif" font-size="10" fill="#ff9800">P</text>
 </svg>
