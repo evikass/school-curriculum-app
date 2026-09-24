@@ -1,0 +1,129 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Тень -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+    
+    <!-- Градиент для элементов -->
+    <linearGradient id="chemGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4299e1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2b6cb0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  
+  <!-- Декоративные элементы - молекулы -->
+  <g opacity="0.1">
+    <circle cx="50" cy="50" r="3" fill="#4299e1"/>
+    <circle cx="65" cy="45" r="3" fill="#4299e1"/>
+    <circle cx="60" cy="60" r="3" fill="#4299e1"/>
+    <line x1="50" y1="50" x2="65" y2="45" stroke="#4299e1" stroke-width="1"/>
+    <line x1="65" y1="45" x2="60" y2="60" stroke="#4299e1" stroke-width="1"/>
+    <line x1="60" y1="60" x2="50" y2="50" stroke="#4299e1" stroke-width="1"/>
+  </g>
+  
+  <g opacity="0.1">
+    <circle cx="450" cy="80" r="3" fill="#4299e1"/>
+    <circle cx="435" cy="75" r="3" fill="#4299e1"/>
+    <circle cx="440" cy="90" r="3" fill="#4299e1"/>
+    <line x1="450" y1="80" x2="435" y2="75" stroke="#4299e1" stroke-width="1"/>
+    <line x1="435" y1="75" x2="440" y2="90" stroke="#4299e1" stroke-width="1"/>
+    <line x1="440" y1="90" x2="450" y2="80" stroke="#4299e1" stroke-width="1"/>
+  </g>
+  
+  <!-- Заголовок -->
+  <rect x="50" y="30" width="400" height="50" rx="10" fill="url(#chemGrad)" filter="url(#shadow)"/>
+  <text x="250" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">ХИМИЯ · 10 КЛАСС</text>
+  
+  <!-- Название урока -->
+  <text x="250" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#2d3748">Урок 3: Классификация и номенклатура</text>
+  <text x="250" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="500" fill="#4a5568">органических соединений</text>
+  
+  <!-- Основные классы соединений -->
+  <g id="classes">
+    <!-- Алканы -->
+    <rect x="40" y="160" width="110" height="35" rx="5" fill="#48bb78" filter="url(#shadow)"/>
+    <text x="95" y="182" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="white">Алканы</text>
+    <text x="95" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2d3748">CₙH₂ₙ₊₂</text>
+    
+    <!-- Алкены -->
+    <rect x="170" y="160" width="110" height="35" rx="5" fill="#ed8936" filter="url(#shadow)"/>
+    <text x="225" y="182" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="white">Алкены</text>
+    <text x="225" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2d3748">CₙH₂ₙ</text>
+    
+    <!-- Алкины -->
+    <rect x="300" y="160" width="110" height="35" rx="5" fill="#9f7aea" filter="url(#shadow)"/>
+    <text x="355" y="182" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="white">Алкины</text>
+    <text x="355" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2d3748">CₙH₂ₙ₋₂</text>
+  </g>
+  
+  <!-- Группа функциональных групп -->
+  <g id="functional-groups">
+    <rect x="40" y="240" width="370" height="80" rx="10" fill="white" stroke="#cbd5e0" stroke-width="2" filter="url(#shadow)"/>
+    
+    <!-- Гидроксильная группа -->
+    <g transform="translate(70, 265)">
+      <circle cx="0" cy="0" r="8" fill="#e53e3e"/>
+      <text x="0" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white" font-weight="bold">OH</text>
+      <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2d3748">Спирты</text>
+    </g>
+    
+    <!-- Карбоксильная группа -->
+    <g transform="translate(150, 265)">
+      <circle cx="0" cy="0" r="8" fill="#38a169"/>
+      <text x="0" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white" font-weight="bold">COOH</text>
+      <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2d3748">Карбоновые кислоты</text>
+    </g>
+    
+    <!-- Карбонильная группа -->
+    <g transform="translate(260, 265)">
+      <circle cx="0" cy="0" r="8" fill="#3182ce"/>
+      <text x="0" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white" font-weight="bold">C=O</text>
+      <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2d3748">Кетоны</text>
+    </g>
+    
+    <!-- Аминогруппа -->
+    <g transform="translate(350, 265)">
+      <circle cx="0" cy="0" r="8" fill="#d69e2e"/>
+      <text x="0" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white" font-weight="bold">NH₂</text>
+      <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2d3748">Амины</text>
+    </g>
+  </g>
+  
+  <!-- Связующие линии -->
+  <path d="M 95 195 Q 95 220 70 240" stroke="#cbd5e0" stroke-width="1.5" fill="none" stroke-dasharray="5,5"/>
+  <path d="M 225 195 Q 225 220 150 240" stroke="#cbd5e0" stroke-width="1.5" fill="none" stroke-dasharray="5,5"/>
+  <path d="M 355 195 Q 355 220 260 240" stroke="#cbd5e0" stroke-width="1.5" fill="none" stroke-dasharray="5,5"/>
+  
+  <!-- Декоративные атомы -->
+  <g opacity="0.3">
+    <circle cx="30" cy="320" r="4" fill="#4299e1"/>
+    <circle cx="45" cy="315" r="4" fill="#4299e1"/>
+    <circle cx="40" cy="330" r="4" fill="#4299e1"/>
+    <line x1="30" y1="320" x2="45" y2="315" stroke="#4299e1" stroke-width="1"/>
+    <line x1="45" y1="315" x2="40" y2="330" stroke="#4299e1" stroke-width="1"/>
+    <line x1="40" y1="330" x2="30" y2="320" stroke="#4299e1" stroke-width="1"/>
+  </g>
+  
+  <!-- Боковые декоративные элементы -->
+  <g opacity="0.2">
+    <path d="M 20 140 L 25 145 L 20 150 L 15 145 Z" fill="#4299e1"/>
+    <path d="M 480 140 L 485 145 L 480 150 L 475 145 Z" fill="#4299e1"/>
+  </g>
+  
+  <!-- Нижняя линия -->
+  <line x1="50" y1="340" x2="450" y2="340" stroke="#cbd5e0" stroke-width="2"/>
+  
+  <!-- Номера уроков -->
+  <text x="60" y="340" font-family="Arial, sans-serif" font-size="10" fill="#718096">3/10</text>
+  <text x="420" y="340" font-family="Arial, sans-serif" font-size="10" fill="#718096">2024</text>
+</svg>
