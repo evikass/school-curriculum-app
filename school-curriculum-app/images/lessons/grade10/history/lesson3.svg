@@ -1,0 +1,150 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый узор -->
+  <defs>
+    <pattern id="bgPattern" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <rect width="50" height="50" fill="#f5f2e8"/>
+      <path d="M25,5 L40,20 L25,35 L10,20 Z" fill="#e8dcc6" opacity="0.3"/>
+    </pattern>
+    
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#D2691E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B4513;stop-opacity:1" />
+    </linearGradient>
+    
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgPattern)"/>
+  
+  <!-- Заголовок -->
+  <rect x="50" y="20" width="400" height="60" fill="url(#headerGrad)" rx="10" filter="url(#shadow)"/>
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFF">
+    ИСТОРИЯ · 10 КЛАСС
+  </text>
+  
+  <!-- Основной контейнер -->
+  <rect x="40" y="100" width="420" height="230" fill="#FFF9E6" stroke="#8B4513" stroke-width="2" rx="8" filter="url(#shadow)"/>
+  
+  <!-- Название урока -->
+  <text x="250" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#8B4513">
+    Урок 3: Восточные славяне в древности
+  </text>
+  
+  <!-- Раздел 1: Происхождение -->
+  <g transform="translate(60, 150)">
+    <rect width="180" height="160" fill="#E8D5C4" stroke="#8B4513" stroke-width="1" rx="5"/>
+    <text x="90" y="20" text-anchor="middle" font-size="14" font-weight="bold" fill="#5D4037">Происхождение</text>
+    
+    <!-- Ствол родословия -->
+    <line x1="90" y1="35" x2="90" y2="70" stroke="#8B4513" stroke-width="3"/>
+    
+    <!-- Ветви -->
+    <line x1="90" y1="50" x2="60" y2="40" stroke="#8B4513" stroke-width="2"/>
+    <line x1="90" y1="50" x2="120" y2="40" stroke="#8B4513" stroke-width="2"/>
+    
+    <!-- Племена -->
+    <circle cx="30" cy="40" r="8" fill="#D2691E"/>
+    <text x="30" y="45" text-anchor="middle" font-size="10" fill="#FFF">Ильм.</text>
+    
+    <circle cx="90" cy="40" r="8" fill="#D2691E"/>
+    <text x="90" y="45" text-anchor="middle" font-size="10" fill="#FFF">Ант.</text>
+    
+    <circle cx="150" cy="40" r="8" fill="#D2691E"/>
+    <text x="150" y="45" text-anchor="middle" font-size="10" fill="#FFF">Слв.</text>
+    
+    <!-- Текст -->
+    <text x="90" y="80" text-anchor="middle" font-size="11" fill="#5D4037">VI-VII вв.</text>
+    <text x="90" y="100" text-anchor="middle" font-size="10" fill="#5D4037">Обитали в лесах</text>
+    <text x="90" y="115" text-anchor="middle" font-size="10" fill="#5D4037">Восточной Европы</text>
+    <text x="90" y="130" text-anchor="middle" font-size="10" fill="#5D4037">Занятость:</text>
+    <text x="90" y="145" text-anchor="middle" font-size="10" fill="#5D4037">охота, рыболовство</text>
+  </g>
+  
+  <!-- Раздел 2: Социальная структура -->
+  <g transform="translate(260, 150)">
+    <rect width="180" height="160" fill="#E8D5C4" stroke="#8B4513" stroke-width="1" rx="5"/>
+    <text x="90" y="20" text-anchor="middle" font-size="14" font-weight="bold" fill="#5D4037">Социальная структура</text>
+    
+    <!-- Иерархия -->
+    <rect x="60" y="35" width="60" height="15" fill="#8B4513" rx="3"/>
+    <text x="90" y="45" text-anchor="middle" font-size="9" fill="#FFF">Князь</text>
+    
+    <rect x="55" y="55" width="70" height="12" fill="#A0522D" rx="2"/>
+    <text x="90" y="64" text-anchor="middle" font-size="8" fill="#FFF">Дружина</text>
+    
+    <rect x="50" y="72" width="80" height="12" fill="#D2691E" rx="2"/>
+    <text x="90" y="81" text-anchor="middle" font-size="8" fill="#FFF">Волхвы</text>
+    
+    <rect x="40" y="89" width="100" height="12" fill="#DEB887" rx="2"/>
+    <text x="90" y="98" text-anchor="middle" font-size="8" fill="#5D4037">Свободные общинники</text>
+    
+    <rect x="45" y="106" width="90" height="12" fill="#F5DEB3" rx="2"/>
+    <text x="90" y="115" text-anchor="middle" font-size="8" fill="#5D4037">Зависимые крестьяне</text>
+    
+    <rect x="50" y="123" width="80" height="12" fill="#FFE4B5" rx="2"/>
+    <text x="90" y="132" text-anchor="middle" font-size="8" fill="#5D4037">Рабы</text>
+  </g>
+  
+  <!-- Раздел 3: Культура -->
+  <g transform="translate(60, 320)">
+    <!-- Солнцеворот -->
+    <circle cx="30" cy="0" r="15" fill="#FFD700" opacity="0.8"/>
+    <path d="M30,-15 L30,15 M15,0 L45,0 M21,-21 L39,21 M39,-21 L21,21" stroke="#FFA500" stroke-width="2"/>
+    
+    <text x="60" y="5" font-size="12" fill="#5D4037">Культура: язычество</text>
+  </g>
+  
+  <!-- Раздел 4: Религия -->
+  <g transform="translate(260, 320)">
+    <!-- Священный огонь -->
+    <ellipse cx="20" cy="0" rx="8" ry="12" fill="#FF4500" opacity="0.8"/>
+    <path d="M20,-12 Q15,-8 20,-4 Q25,-8 20,-4" fill="#FFD700" opacity="0.9"/>
+    <path d="M20,-4 Q15,0 20,4 Q25,0 20,4" fill="#FFA500" opacity="0.9"/>
+    
+    <text x="50" y="5" font-size="12" fill="#5D4037">Культ Перуна</text>
+  </g>
+  
+  <!-- Украшения -->
+  <g transform="translate(450, 150)">
+    <path d="M0,0 Q5,-10 10,0 Q15,-10 20,0 Q15,10 10,0 Q5,10 0,0" fill="#D2691E" opacity="0.6"/>
+    <path d="M0,20 Q5,10 10,20 Q15,10 20,20 Q15,30 10,20 Q5,30 0,20" fill="#8B4513" opacity="0.6"/>
+    <path d="M0,40 Q5,30 10,40 Q15,30 20,40 Q15,50 10,40 Q5,50 0,40" fill="#D2691E" opacity="0.6"/>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="50" cy="50" r="3" fill="#D2691E" opacity="0.5"/>
+  <circle cx="450" cy="50" r="3" fill="#D2691E" opacity="0.5"/>
+  <circle cx="70" cy="340" r="3" fill="#8B4513" opacity="0.5"/>
+  <circle cx="430" cy="340" r="3" fill="#8B4513" opacity="0.5"/>
+  
+  <!-- Символы -->
+  <g transform="translate(350, 170)">
+    <path d="M0,0 L20,0 L10,17 Z" fill="none" stroke="#8B4513" stroke-width="2"/>
+    <circle cx="10" cy="5" r="2" fill="#8B4513"/>
+  </g>
+  
+  <!-- Карта символическая -->
+  <g transform="translate(120, 280)">
+    <rect x="0" y="0" width="260" height="40" fill="#E6F3FF" stroke="#4682B4" stroke-width="1" rx="5" opacity="0.7"/>
+    <text x="130" y="15" text-anchor="middle" font-size="10" fill="#4682B4">Территория расселения</text>
+    <path d="M50,25 Q130,15 210,25" stroke="#4682B4" stroke-width="2" fill="none" stroke-dasharray="3,3"/>
+    <circle cx="50" cy="25" r="3" fill="#4682B4"/>
+    <circle cx="210" cy="25" r="3" fill="#4682B4"/>
+  </g>
+  
+  <!-- Легенда -->
+  <g transform="translate(60, 230)">
+    <rect x="0" y="0" width="15" height="10" fill="#8B4513"/>
+    <text x="20" y="8" font-size="9" fill="#5D4037">Власть</text>
+    
+    <rect x="60" y="0" width="15" height="10" fill="#D2691E"/>
+    <text x="80" y="8" font-size="9" fill="#5D4037">Знать</text>
+    
+    <rect x="120" y="0" width="15" height="10" fill="#DEB887"/>
+    <text x="140" y="8" font-size="9" fill="#5D4037">Народ</text>
+  </g>
+</svg>
