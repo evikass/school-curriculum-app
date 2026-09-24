@@ -1,23 +1,142 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e1b4b"/>
-      <stop offset="100%" style="stop-color:#6366f1"/>
+      <stop offset="0%" style="stop-color:#f0f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:0"/>
-    </radialGradient>
+    
+    <!-- Тень для осей -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
+    
+    <!-- Рисунок сетки -->
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#d1d5db" stroke-width="0.5"/>
+    </pattern>
   </defs>
+  
+  <!-- Фоновый прямоугольник -->
   <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#a78bfa" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#a78bfa" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#e0e7ff" text-anchor="middle">22</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e0e7ff" text-anchor="middle" opacity="0.8">ГЕОМЕТРИЯ · 10–11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e0e7ff" text-anchor="middle">Урок 22: Прямоугольная система координат в простра</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#a78bfa" text-anchor="middle" opacity="0.8">Урок 22 из 38</text>
-  <line x1="100" y1="220" x2="400" y2="130" stroke="#a78bfa" stroke-width="2.5" opacity="0.6"/><polygon points="395,135 400,130 390,128" fill="#a78bfa"/>
+  
+  <!-- Сетка -->
+  <rect width="500" height="350" fill="url(#grid)" opacity="0.5"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1e293b">
+    ГЕОМЕТРИЯ · 10 КЛАСС
+  </text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#475569">
+    Урок 22: Прямоугольная система координат в пространстве
+  </text>
+  
+  <!-- Центр координат -->
+  <g transform="translate(150, 200)">
+    <!-- Оси X, Y, Z -->
+    <!-- Ось X -->
+    <line x1="0" y1="0" x2="200" y2="0" stroke="#dc2626" stroke-width="3" filter="url(#shadow)"/>
+    <polygon points="200,0 195,-5 195,5" fill="#dc2626"/>
+    <text x="210" y="5" font-family="Arial" font-size="14" fill="#dc2626" font-weight="bold">X</text>
+    
+    <!-- Ось Y -->
+    <line x1="0" y1="0" x2="0" y2="-150" stroke="#2563eb" stroke-width="3" filter="url(#shadow)"/>
+    <polygon points="0,-150 -5,-145 5,-145" fill="#2563eb"/>
+    <text x="-10" y="-155" font-family="Arial" font-size="14" fill="#2563eb" font-weight="bold">Y</text>
+    
+    <!-- Ось Z (псевдо-3D) -->
+    <line x1="0" y1="0" x2="-80" y2="80" stroke="#16a34a" stroke-width="3" filter="url(#shadow)"/>
+    <polygon points="-80,80 -75,75 -85,85" fill="#16a34a"/>
+    <text x="-95" y="90" font-family="Arial" font-size="14" fill="#16a34a" font-weight="bold">Z</text>
+    
+    <!-- Координатная сетка на плоскости XY -->
+    <g opacity="0.3">
+      <line x1="50" y1="0" x2="50" y2="-150" stroke="#94a3b8" stroke-width="1" stroke-dasharray="2,2"/>
+      <line x1="100" y1="0" x2="100" y2="-150" stroke="#94a3b8" stroke-width="1" stroke-dasharray="2,2"/>
+      <line x1="150" y1="0" x2="150" y2="-150" stroke="#94a3b8" stroke-width="1" stroke-dasharray="2,2"/>
+      <line x1="0" y1="-50" x2="200" y2="-50" stroke="#94a3b8" stroke-width="1" stroke-dasharray="2,2"/>
+      <line x1="0" y1="-100" x2="200" y2="-100" stroke="#94a3b8" stroke-width="1" stroke-dasharray="2,2"/>
+    </g>
+    
+    <!-- Точка в пространстве -->
+    <circle cx="120" cy="-90" r="5" fill="#7c3aed" filter="url(#shadow)"/>
+    <line x1="0" y1="-90" x2="120" y2="-90" stroke="#7c3aed" stroke-width="1" stroke-dasharray="3,3" opacity="0.6"/>
+    <line x1="120" y1="0" x2="120" y2="-90" stroke="#7c3aed" stroke-width="1" stroke-dasharray="3,3" opacity="0.6"/>
+    
+    <!-- Координаты точки -->
+    <text x="125" y="-85" font-family="Arial" font-size="12" fill="#7c3aed">A(6; 4.5)</text>
+    
+    <!-- Прямоугольный параллелепипед -->
+    <g opacity="0.4">
+      <rect x="50" y="-60" width="80" height="40" fill="none" stroke="#64748b" stroke-width="1.5"/>
+      <rect x="30" y="-80" width="80" height="40" fill="none" stroke="#64748b" stroke-width="1.5"/>
+      <line x1="50" y1="-60" x2="30" y2="-80" stroke="#64748b" stroke-width="1.5"/>
+      <line x1="130" y1="-60" x2="110" y2="-80" stroke="#64748b" stroke-width="1.5"/>
+      <line x1="50" y1="-20" x2="30" y2="-40" stroke="#64748b" stroke-width="1.5"/>
+      <line x1="130" y1="-20" x2="110" y2="-40" stroke="#64748b" stroke-width="1.5"/>
+    </g>
+    
+    <!-- Единичные векторы -->
+    <g>
+      <line x1="0" y1="0" x2="30" y2="0" stroke="#dc2626" stroke-width="2"/>
+      <text x="35" y="5" font-family="Arial" font-size="10" fill="#dc2626">i</text>
+      
+      <line x1="0" y1="0" x2="0" y2="-30" stroke="#2563eb" stroke-width="2"/>
+      <text x="-5" y="-35" font-family="Arial" font-size="10" fill="#2563eb">j</text>
+      
+      <line x1="0" y1="0" x2="-20" y2="20" stroke="#16a34a" stroke-width="2"/>
+      <text x="-25" y="25" font-family="Arial" font-size="10" fill="#16a34a">k</text>
+    </g>
+    
+    <!-- Нулевая точка -->
+    <circle cx="0" cy="0" r="3" fill="#1e293b"/>
+    <text x="5" y="15" font-family="Arial" font-size="12" fill="#1e293b">O</text>
+  </g>
+  
+  <!-- Информационная панель -->
+  <g transform="translate(320, 100)">
+    <rect x="0" y="0" width="160" height="180" fill="white" stroke="#cbd5e1" stroke-width="1" rx="5" filter="url(#shadow)"/>
+    
+    <text x="80" y="25" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e293b">
+      Основные элементы
+    </text>
+    
+    <!-- Список элементов -->
+    <g font-family="Arial" font-size="11" fill="#475569">
+      <text x="10" y="45">• Начало координат O</text>
+      <text x="10" y="65">• Ось X (красная)</text>
+      <text x="10" y="85">• Ось Y (синяя)</text>
+      <text x="10" y="105">• Ось Z (зеленая)</text>
+      <text x="10" y="125">• Точка A(x,y,z)</text>
+      <text x="10" y="145">• Координатные плоскости</text>
+      <text x="10" y="165">• Единичные векторы i,j,k</text>
+    </g>
+  </g>
+  
+  <!-- Формулы -->
+  <g transform="translate(320, 290)">
+    <rect x="0" y="0" width="160" height="40" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" rx="5"/>
+    <text x="80" y="25" font-family="Arial" font-size="12" text-anchor="middle" fill="#1e293b">
+      OA = xi + yj + zk
+    </text>
+  </g>
+  
+  <!-- Дополнительные элементы для объема -->
+  <g transform="translate(20, 320)">
+    <circle cx="0" cy="0" r="3" fill="#dc2626"/>
+    <circle cx="20" cy="0" r="3" fill="#2563eb"/>
+    <circle cx="40" cy="0" r="3" fill="#16a34a"/>
+    <text x="50" y="5" font-family="Arial" font-size="10" fill="#64748b">Оси координат</text>
+  </g>
+  
+  <!-- Углы обозначения -->
+  <g transform="translate(150, 200)" opacity="0.6">
+    <path d="M 20 0 A 20 20 0 0 0 14.14 -14.14" fill="none" stroke="#64748b" stroke-width="1"/>
+    <text x="25" y="-10" font-family="Arial" font-size="10" fill="#64748b">α</text>
+    
+    <path d="M 0 -20 A 20 20 0 0 1 -14.14 -14.14" fill="none" stroke="#64748b" stroke-width="1"/>
+    <text x="-25" y="-20" font-family="Arial" font-size="10" fill="#64748b">β</text>
+  </g>
 </svg>
