@@ -1,88 +1,134 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый узор -->
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FBE9E7"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+    </pattern>
+    
+    <!-- Градиент для заголовка -->
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34495e;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FF7043"/>
-      <stop offset="100%" stop-color="#D84315"/>
-    </linearGradient>
+    
+    <!-- Тень -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.2"/>
+    </filter>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FF7043" stroke-width="3"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#FF7043" text-anchor="middle">Алкены</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Химия - Урок 5</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#FF7043" stroke-width="2" opacity="0.25"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-
-    <rect x="15" y="85" width="470" height="215" fill="#FFF8F0" opacity="0.5"/>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  <rect width="500" height="350" fill="url(#grid)"/>
+  
+  <!-- Заголовок -->
+  <rect x="0" y="0" width="500" height="60" fill="url(#headerGrad)"/>
+  <text x="250" y="25" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">ХИМИЯ · 10 КЛАСС</text>
+  <text x="250" y="45" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14">Урок 5: Электронные эффекты в органических молекулах</text>
+  
+  <!-- Раздел 1: Индуктивный эффект -->
+  <g transform="translate(20, 80)">
+    <rect x="0" y="0" width="220" height="120" fill="white" stroke="#3498db" stroke-width="2" rx="5" filter="url(#shadow)"/>
+    <text x="110" y="25" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Индуктивный эффект</text>
     
-    <!-- General formula -->
-    <rect x="20" y="90" width="200" height="30" rx="5" fill="#D84315"/>
-    <text x="120" y="110" font-family="Arial,sans-serif" font-size="13" fill="white" text-anchor="middle">Общая формула: CnH2n</text>
+    <!-- Молекула с индуктивным эффектом -->
+    <g transform="translate(20, 40)">
+      <!-- Атом углерода -->
+      <circle cx="0" cy="20" r="8" fill="#333" stroke="#333" stroke-width="2"/>
+      <text x="0" y="25" text-anchor="middle" fill="white" font-size="12">C</text>
+      
+      <!-- Связь с Cl -->
+      <line x1="8" y1="20" x2="32" y2="20" stroke="#333" stroke-width="2"/>
+      <circle cx="40" cy="20" r="10" fill="#2ecc71" stroke="#27ae60" stroke-width="2"/>
+      <text x="40" y="25" text-anchor="middle" fill="white" font-size="12">Cl</text>
+      
+      <!-- Связь с H -->
+      <line x1="0" y1="12" x2="0" y2="-8" stroke="#333" stroke-width="2"/>
+      <circle cx="0" cy="-12" r="6" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2"/>
+      <text x="0" y="-8" text-anchor="middle" fill="#333" font-size="10">H</text>
+      
+      <!-- Стрелка индуктивного эффекта -->
+      <defs>
+        <marker id="arrow1" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+          <path d="M0,0 L0,6 L9,3 z" fill="#e74c3c"/>
+        </marker>
+      </defs>
+      <line x1="15" y1="10" x2="15" y2="-5" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrow1)"/>
+      
+      <!-- Плюс у Cl -->
+      <text x="55" y="25" fill="#e74c3c" font-size="14" font-weight="bold">+</text>
+      <text x="55" y="10" fill="#3498db" font-size="14" font-weight="bold">-</text>
+    </g>
     
-    <!-- Ethene (ethylene) - main structure -->
-    <text x="135" y="145" font-family="Arial,sans-serif" font-size="13" fill="#D84315" text-anchor="middle">Этен (этилен) C2H4</text>
-    <circle cx="100" cy="180" r="16" fill="#333" opacity="0.85"/>
-    <text x="100" y="185" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C</text>
-    <circle cx="170" cy="180" r="16" fill="#333" opacity="0.85"/>
-    <text x="170" y="185" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C</text>
-    <line x1="116.0" y1="182.5" x2="154.0" y2="182.5" stroke="#555" stroke-width="2"/>
-    <line x1="116.0" y1="177.5" x2="154.0" y2="177.5" stroke="#555" stroke-width="2"/>
-    <!-- H atoms -->
-    <circle cx="75" cy="155" r="10" fill="#888" opacity="0.85"/>
-    <text x="75" y="160" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">H</text>
-    <line x1="85" y1="162" x2="94" y2="170" stroke="#555" stroke-width="2.5"/>
-    <circle cx="75" cy="205" r="10" fill="#888" opacity="0.85"/>
-    <text x="75" y="210" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">H</text>
-    <line x1="85" y1="198" x2="94" y2="190" stroke="#555" stroke-width="2.5"/>
-    <circle cx="195" cy="155" r="10" fill="#888" opacity="0.85"/>
-    <text x="195" y="160" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">H</text>
-    <line x1="185" y1="162" x2="176" y2="170" stroke="#555" stroke-width="2.5"/>
-    <circle cx="195" cy="205" r="10" fill="#888" opacity="0.85"/>
-    <text x="195" y="210" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">H</text>
-    <line x1="185" y1="198" x2="176" y2="190" stroke="#555" stroke-width="2.5"/>
+    <text x="110" y="100" text-anchor="middle" fill="#7f8c8d" font-family="Arial, sans-serif" font-size="11">-I эффект (электронодонорный)</text>
+  </g>
+  
+  <!-- Раздел 2: Мезомерный эффект -->
+  <g transform="translate(260, 80)">
+    <rect x="0" y="0" width="220" height="120" fill="white" stroke="#e74c3c" stroke-width="2" rx="5" filter="url(#shadow)"/>
+    <text x="110" y="25" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Мезомерный эффект</text>
     
-    <!-- Double bond highlight -->
-    <rect x="100" y="212" width="70" height="20" rx="3" fill="#FFCCBC" stroke="#FF7043" stroke-width="1"/>
-    <text x="135" y="226" font-family="Arial,sans-serif" font-size="9" fill="#D84315" text-anchor="middle">C=C двойная</text>
+    <!-- Бензольное кольцо с мезомерным эффектом -->
+    <g transform="translate(60, 60)">
+      <!-- Шестиугольник бензола -->
+      <polygon points="0,-30 26,-15 26,15 0,30 -26,15 -26,-15" fill="none" stroke="#333" stroke-width="2"/>
+      
+      <!-- Двойные связи -->
+      <line x1="0" y1="-30" x2="26" y2="-15" stroke="#333" stroke-width="2"/>
+      <line x1="26" y1="-15" x2="26" y2="15" stroke="#333" stroke-width="2"/>
+      <line x1="26" y1="15" x2="0" y2="30" stroke="#333" stroke-width="2"/>
+      <line x1="0" y1="-25" x2="22" y2="-12" stroke="#333" stroke-width="2"/>
+      <line x1="22" y1="12" x2="0" y2="25" stroke="#333" stroke-width="2"/>
+      <line x1="-22" y1="12" x2="-22" y2="-12" stroke="#333" stroke-width="2"/>
+      
+      <!-- Группа OH -->
+      <line x1="0" y1="-30" x2="0" y2="-45" stroke="#333" stroke-width="2"/>
+      <circle cx="0" cy="-50" r="8" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+      <text x="0" y="-46" text-anchor="middle" fill="white" font-size="10">O</text>
+      <line x1="8" y1="-50" x2="20" y2="-50" stroke="#333" stroke-width="2"/>
+      <circle cx="25" cy="-50" r="6" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2"/>
+      <text x="25" y="-46" text-anchor="middle" fill="#333" font-size="10">H</text>
+      
+      <!-- Стрелки мезомерного эффекта -->
+      <defs>
+        <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+          <path d="M0,0 L0,6 L9,3 z" fill="#9b59b6"/>
+        </marker>
+      </defs>
+      <path d="M 0,-45 Q -15,-30 -25,-15" stroke="#9b59b6" stroke-width="2" fill="none" marker-end="url(#arrow2)"/>
+      <path d="M 0,-45 Q 15,-30 25,-15" stroke="#9b59b6" stroke-width="2" fill="none" marker-end="url(#arrow2)"/>
+    </g>
     
-    <!-- Propene -->
-    <text x="340" y="145" font-family="Arial,sans-serif" font-size="11" fill="#D84315" text-anchor="middle">Пропен C3H6</text>
-    <circle cx="300" cy="175" r="13" fill="#333" opacity="0.85"/>
-    <text x="300" y="180" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C</text>
-    <circle cx="340" cy="175" r="13" fill="#333" opacity="0.85"/>
-    <text x="340" y="180" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C</text>
-    <circle cx="380" cy="175" r="13" fill="#333" opacity="0.85"/>
-    <text x="380" y="180" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C</text>
-    <line x1="313.0" y1="177.5" x2="327.0" y2="177.5" stroke="#555" stroke-width="2"/>
-    <line x1="313.0" y1="172.5" x2="327.0" y2="172.5" stroke="#555" stroke-width="2"/>
-    <line x1="353" y1="175" x2="367" y2="175" stroke="#555" stroke-width="2.5"/>
-    <text x="300" y="198" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">CH2</text>
-    <text x="340" y="198" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">CH</text>
-    <text x="380" y="198" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">CH3</text>
+    <text x="110" y="100" text-anchor="middle" fill="#7f8c8d" font-family="Arial, sans-serif" font-size="11">+M эффект (электроноакцепторный)</text>
+  </g>
+  
+  <!-- Сравнительная таблица -->
+  <g transform="translate(20, 220)">
+    <rect x="0" y="0" width="460" height="110" fill="white" stroke="#95a5a6" stroke-width="2" rx="5" filter="url(#shadow)"/>
+    <text x="230" y="25" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Сравнение эффектов</text>
     
-    <!-- Properties -->
-    <rect x="20" y="235" width="220" height="58" rx="4" fill="#FFE0B2" stroke="#FF7043" stroke-width="1"/>
-    <text x="130" y="250" font-family="Arial,sans-serif" font-size="10" fill="#D84315" text-anchor="middle">Химические свойства:</text>
-    <text x="130" y="263" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Присоединение (H2, HCl, H2O)</text>
-    <text x="130" y="275" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Полимеризация</text>
-    <text x="130" y="287" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Горение, окисление</text>
+    <!-- Таблица -->
+    <line x1="230" y1="35" x2="230" y2="100" stroke="#95a5a6" stroke-width="1"/>
+    <line x1="0" y1="50" x2="460" y2="50" stroke="#95a5a6" stroke-width="1"/>
+    <line x1="0" y1="75" x2="460" y2="75" stroke="#95a5a6" stroke-width="1"/>
     
-    <rect x="260" y="235" width="220" height="58" rx="4" fill="#FFE0B2" stroke="#FF7043" stroke-width="1"/>
-    <text x="370" y="250" font-family="Arial,sans-serif" font-size="10" fill="#D84315" text-anchor="middle">Получение:</text>
-    <text x="370" y="263" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Дегидрирование алканов</text>
-    <text x="370" y="275" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Дегидратация спиртов</text>
-    <text x="370" y="287" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Крекинг нефтепродуктов</text>
+    <!-- Заголовки столбцов -->
+    <text x="115" y="45" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Индуктивный</text>
+    <text x="345" y="45" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Мезомерный</text>
     
-    <!-- Addition reaction example -->
-    <rect x="100" y="200" width="60" height="18" rx="3" fill="#FFF3E0" stroke="#FF7043" stroke-width="1"/>
-    <text x="130" y="213" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">C=C + H2</text>
-    <line x1="165" y1="209" x2="190" y2="209" stroke="#FF7043" stroke-width="1.5"/>
-    <text x="225" y="213" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">-&gt; C-C (алкан)</text>
-      </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Химия</text>
+    <!-- Характеристики -->
+    <text x="115" y="65" text-anchor="middle" fill="#7f8c8d" font-family="Arial, sans-serif" font-size="10">Пространственное</text>
+    <text x="115" y="85" text-anchor="middle" fill="#7f8c8d" font-family="Arial, sans-serif" font-size="10">Распространение</text>
+    <text x="115" y="100" text-anchor="middle" fill="#7f8c8d" font-family="Arial, sans-serif" font-size="10">+σ/-σ</text>
+    
+    <text x="345" y="65" text-anchor="middle" fill="#7f8c8d" font-family="Arial, sans-serif" font-size="10">Через π-связи</text>
+    <text x="345" y="85" text-anchor="middle" fill="#7f8c8d" font-family="Arial, sans-serif" font-size="10">Резонанс</text>
+    <text x="345" y="100" text-anchor="middle" fill="#7f8c8d" font-family="Arial, sans-serif" font-size="10">+π/-π</text>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="30" cy="30" r="3" fill="#f39c12" opacity="0.6"/>
+  <circle cx="470" cy="30" r="3" fill="#f39c12" opacity="0.6"/>
+  <circle cx="30" cy="320" r="3" fill="#f39c12" opacity="0.6"/>
+  <circle cx="470" cy="320" r="3" fill="#f39c12" opacity="0.6"/>
 </svg>
