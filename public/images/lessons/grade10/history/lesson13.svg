@@ -1,0 +1,141 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5e6d3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8d4b0;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Текстурный узор -->
+    <pattern id="paper" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="url(#bgGrad)"/>
+      <circle cx="20" cy="20" r="0.5" fill="#d4b896" opacity="0.3"/>
+      <circle cx="80" cy="40" r="0.5" fill="#d4b896" opacity="0.3"/>
+      <circle cx="50" cy="70" r="0.5" fill="#d4b896" opacity="0.3"/>
+      <circle cx="30" cy="90" r="0.5" fill="#d4b896" opacity="0.3"/>
+      <circle cx="70" cy="10" r="0.5" fill="#d4b896" opacity="0.3"/>
+    </pattern>
+    
+    <!-- Тень -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#paper)"/>
+  
+  <!-- Заголовок -->
+  <rect x="50" y="20" width="400" height="60" rx="5" fill="#8b4513" opacity="0.9" filter="url(#shadow)"/>
+  <text x="250" y="45" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="white" font-weight="bold">УРОК 13</text>
+  <text x="250" y="65" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#f4e4c1" font-weight="bold">НОВГОРОДСКАЯ РЕСПУБЛИКА</text>
+  
+  <!-- Нижняя плашка с темой -->
+  <rect x="50" y="320" width="400" height="30" rx="15" fill="#4a4a4a" opacity="0.8"/>
+  <text x="250" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">ИСТОРИЯ · 10 КЛАСС</text>
+  
+  <!-- Карта региона -->
+  <g transform="translate(60, 100)">
+    <!-- Контур -->
+    <path d="M 50,20 Q 80,10 120,15 Q 160,20 180,40 Q 190,60 170,80 Q 140,90 100,85 Q 60,80 40,60 Q 30,40 50,20" 
+          fill="#c8e6c9" stroke="#5d4037" stroke-width="2"/>
+    
+    <!-- Река Волхов -->
+    <path d="M 90,30 Q 95,50 100,70 Q 105,85 110,95" 
+          fill="none" stroke="#64b5f6" stroke-width="3"/>
+    
+    // Ильмень озеро
+    <ellipse cx="110" cy="35" rx="25" ry="15" fill="#81d4fa" opacity="0.6"/>
+    
+    // Ладога
+    <rect x="160" y="55" width="35" height="20" rx="5" fill="#64b5f6" opacity="0.6"/>
+    
+    // Города
+    <circle cx="110" cy="55" r="5" fill="#d32f2f"/>
+    <text x="120" y="60" font-size="10" fill="#333">Новгород</text>
+    
+    <circle cx="85" cy="75" r="3" fill="#1976d2"/>
+    <text x="92" y="79" font-size="8" fill="#333">Ладога</text>
+    
+    <circle cx="170" cy="70" r="3" fill="#1976d2"/>
+    <text x="177" y="74" font-size="8" fill="#333">Псков</text>
+  </g>
+  
+  // Символы власти
+  <g transform="translate(280, 110)">
+    <!-- Княжеский знак -->
+    <rect x="0" y="0" width="30" height="40" rx="5" fill="#d4af37" stroke="#8b6914" stroke-width="1"/>
+    <rect x="10" y="-5" width="10" height="10" fill="#d4af37"/>
+    <text x="15" y="25" text-anchor="middle" font-size="12" fill="#333">Кн</text>
+    
+    // Вече
+    <ellipse cx="50" cy="20" rx="25" ry="15" fill="#795548" stroke="#4e342e" stroke-width="2"/>
+    <circle cx="50" cy="20" r="3" fill="#fff"/>
+    <text x="50" y="45" text-anchor="middle" font-size="10" fill="#333">Вече</text>
+    
+    // Архиепископ
+    <rect x="90" y="10" width="20" height="30" rx="10" fill="#5e35b1" stroke="#311b92" stroke-width="1"/>
+    <circle cx="100" cy="10" r="10" fill="#5e35b1"/>
+    <text x="100" y="55" text-anchor="middle" font-size="10" fill="#333">Арх</text>
+  </g>
+  
+  // Даты временные рамки
+  <g transform="translate(60, 200)">
+    <line x1="0" y1="0" x2="380" y2="0" stroke="#666" stroke-width="1"/>
+    
+    // 1136-1478
+    <rect x="0" y="-10" width="80" height="20" rx="10" fill="#ff9800" opacity="0.7"/>
+    <text x="40" y="5" text-anchor="middle" font-size="11" fill="white">1136-1478</text>
+    
+    // Важные события
+    <circle cx="120" cy="0" r="3" fill="#f44336"/>
+    <text x="125" y="-5" font-size="9" fill="#333">1136</text>
+    <text x="125" y="15" font-size="8" fill="#666">Первое вече</text>
+    
+    <circle cx="200" cy="0" r="3" fill="#f44336"/>
+    <text x="205" y="-5" font-size="9" fill="#333">1240</text>
+    <text x="205" y="15" font-size="8" fill="#666">Невская битва</text>
+    
+    <circle cx="280" cy="0" r="3" fill="#f44336"/>
+    <text x="285" y="-5" font-size="9" fill="#333">1478</text>
+    <text x="285" y="15" font-size="8" fill="#666">Вхождение в Москву</text>
+    
+    <circle cx="360" cy="0" r="3" fill="#f44336"/>
+  </g>
+  
+  // Структура власти
+  <g transform="translate(60, 250)">
+    <rect x="0" y="0" width="380" height="60" rx="5" fill="#e8eaf6" stroke="#3f51b5" stroke-width="1" opacity="0.9"/>
+    
+    <text x="10" y="20" font-size="12" fill="#333" font-weight="bold">Власть в Новгороде:</text>
+    
+    // Иконки власти
+    <circle cx="30" cy="40" r="8" fill="#ffc107"/>
+    <text x="30" y="44" text-anchor="middle" font-size="8" fill="#333">В</text>
+    <text x="45" y="44" font-size="10" fill="#333">Вече</text>
+    
+    <circle cx="100" cy="40" r="8" fill="#9c27b0"/>
+    <text x="100" y="44" text-anchor="middle" font-size="8" fill="white">К</text>
+    <text x="115" y="44" font-size="10" fill="#333">Князь</text>
+    
+    <circle cx="170" cy="40" r="8" fill="#3f51b5"/>
+    <text x="170" y="44" text-anchor="middle" font-size="8" fill="white">А</text>
+    <text x="185" y="44" font-size="10" fill="#333">Архиепископ</text>
+    
+    <circle cx="270" cy="40" r="8" fill="#4caf50"/>
+    <text x="270" y="44" text-anchor="middle" font-size="8" fill="white">П</text>
+    <text x="285" y="44" font-size="10" fill="#333">Посадник</text>
+  </g>
+  
+  // Дополнительные элементы оформления
+  <g opacity="0.3">
+    <path d="M 450,50 Q 470,40 480,60" fill="none" stroke="#8b4513" stroke-width="2"/>
+    <path d="M 460,80 Q 480,70 490,90" fill="none" stroke="#8b4513" stroke-width="2"/>
+  </g>
+  
+  // Печать/штамп
+  <g transform="translate(420, 60)">
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#d32f2f" stroke-width="2"/>
+    <text x="0" y="5" text-anchor="middle" font-size="10" fill="#d32f2f" font-weight="bold">XV</text>
+  </g>
+</svg>
