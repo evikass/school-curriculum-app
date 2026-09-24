@@ -1,23 +1,126 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#7f1d1d"/>
-      <stop offset="100%" style="stop-color:#dc2626"/>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fca5a5;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#fca5a5;stop-opacity:0"/>
-    </radialGradient>
+    
+    <!-- Тень -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+    
+    <!-- Маркер стрелки -->
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2563eb" />
+    </marker>
+    
+    <!-- Маркер перпендикулярности -->
+    <g id="perpMark">
+      <circle cx="0" cy="0" r="3" fill="#dc2626"/>
+      <line x1="-8" y1="0" x2="8" y2="0" stroke="#dc2626" stroke-width="1.5"/>
+      <line x1="0" y1="-8" x2="0" y2="8" stroke="#dc2626" stroke-width="1.5"/>
+    </g>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#fca5a5" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#fca5a5" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#fca5a5" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fee2e2" text-anchor="middle">9</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fee2e2" text-anchor="middle" opacity="0.8">ГЕОМЕТРИЯ · 10–11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fee2e2" text-anchor="middle">Урок 9: Перпендикулярность прямой и плоскости</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fca5a5" text-anchor="middle" opacity="0.8">Урок 9 из 38</text>
-  <line x1="100" y1="250" x2="400" y2="120" stroke="#fca5a5" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGradient)"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1e293b">
+    ГЕОМЕТРИЯ · 10 КЛАСС
+  </text>
+  
+  <!-- Плоскость α -->
+  <g id="plane">
+    <!-- Эллипс плоскости -->
+    <ellipse cx="250" cy="220" rx="180" ry="80" fill="#dbeafe" stroke="#3b82f6" stroke-width="2" opacity="0.7"/>
+    
+    <!-- Линии на плоскости для объема -->
+    <line x1="100" y1="210" x2="400" y2="210" stroke="#3b82f6" stroke-width="1" opacity="0.5"/>
+    <line x1="120" y1="190" x2="380" y2="190" stroke="#3b82f6" stroke-width="1" opacity="0.5"/>
+    <line x1="140" y1="230" x2="360" y2="230" stroke="#3b82f6" stroke-width="1" opacity="0.5"/>
+    
+    <!-- Обозначение плоскости -->
+    <text x="430" y="225" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#3b82f6">α</text>
+  </g>
+  
+  <!-- Прямая a, перпендикулярная плоскости -->
+  <g id="perpendicularLine">
+    <!-- Прямая -->
+    <line x1="250" y1="80" x2="250" y2="220" stroke="#dc2626" stroke-width="3" marker-end="url(#arrowhead)"/>
+    
+    <!-- Точка пересечения -->
+    <use href="#perpMark" x="250" y="220"/>
+    
+    <!-- Обозначение прямой -->
+    <text x="265" y="95" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#dc2626">a</text>
+  </g>
+  
+  <!-- Вторая прямая в плоскости -->
+  <g id="lineInPlane">
+    <line x1="150" y1="200" x2="350" y2="220" stroke="#10b981" stroke-width="2" opacity="0.8"/>
+    <text x="355" y="225" font-family="Arial, sans-serif" font-size="16" fill="#10b981">b</text>
+  </g>
+  
+  <!-- Третья прямая в плоскости -->
+  <g id="lineInPlane2">
+    <line x1="180" y1="180" x2="320" y2="230" stroke="#10b981" stroke-width="2" opacity="0.8"/>
+    <text x="325" y="235" font-family="Arial, sans-serif" font-size="16" fill="#10b981">c</text>
+  </g>
+  
+  <!-- Дополнительные элементы для демонстрации перпендикулярности -->
+  <g id="additionalLines">
+    <!-- Вспомогательные линии -->
+    <line x1="250" y1="220" x2="150" y2="200" stroke="#6b7280" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+    <line x1="250" y1="220" x2="180" y2="180" stroke="#6b7280" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+  </g>
+  
+  <!-- Точки -->
+  <g id="points">
+    <circle cx="250" cy="220" r="4" fill="#1e293b"/>
+    <circle cx="150" cy="200" r="3" fill="#10b981"/>
+    <circle cx="350" cy="220" r="3" fill="#10b981"/>
+    <circle cx="180" cy="180" r="3" fill="#10b981"/>
+    <circle cx="320" cy="230" r="3" fill="#10b981"/>
+    <circle cx="250" cy="80" r="3" fill="#dc2626"/>
+  </g>
+  
+  <!-- Угол между прямой и плоскостью -->
+  <g id="angle">
+    <path d="M 270 220 A 20 20 0 0 0 280 200" fill="none" stroke="#f59e0b" stroke-width="2"/>
+    <text x="285" y="205" font-family="Arial, sans-serif" font-size="14" fill="#f59e0b">90°</text>
+  </g>
+  
+  <!-- Определение -->
+  <g id="definition" filter="url(#shadow)">
+    <rect x="20" y="280" width="460" height="60" rx="5" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="30" y="305" font-family="Arial, sans-serif" font-size="14" fill="#374151">
+      Прямая называется перпендикулярной плоскости, если она перпендикулярна
+    </text>
+    <text x="30" y="325" font-family="Arial, sans-serif" font-size="14" fill="#374151">
+      любой прямой, лежащей в этой плоскости и проходящей через точку пересечения.
+    </text>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <g id="decorations">
+    <!-- Компас -->
+    <g transform="translate(50, 100)">
+      <circle cx="0" cy="0" r="25" fill="none" stroke="#6b7280" stroke-width="1"/>
+      <line x1="0" y1="-25" x2="0" y2="25" stroke="#6b7280" stroke-width="1"/>
+      <line x1="-25" y1="0" x2="25" y2="0" stroke="#6b7280" stroke-width="1"/>
+      <text x="0" y="-30" text-anchor="middle" font-size="12" fill="#6b7280">N</text>
+    </g>
+    
+    <!-- Угловой маркер -->
+    <g transform="translate(420, 100)">
+      <path d="M 0 0 L 20 0 L 20 20 L 0 20 Z" fill="none" stroke="#6b7280" stroke-width="1"/>
+      <text x="25" y="15" font-size="12" fill="#6b7280">⊥</text>
+    </g>
+  </g>
+  
+  <!-- Пунктирная рамка вокруг основной сцены -->
+  <rect x="40" y="60" width="420" height="200" fill="none" stroke="#9ca3af" stroke-width="1" stroke-dasharray="5,5" rx="5"/>
 </svg>
