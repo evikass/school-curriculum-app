@@ -1,0 +1,153 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a237e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3949ab;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="groundGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5d4037;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3e2723;stop-opacity:1" />
+    </linearGradient>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <pattern id="crossPattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="#d4af37"/>
+      <path d="M10,0 L10,20 M0,10 L20,10" stroke="#b8860b" stroke-width="2"/>
+    </pattern>
+  </defs>
+  
+  <!-- Небо -->
+  <rect width="500" height="200" fill="url(#skyGradient)"/>
+  
+  <!-- Земля -->
+  <rect y="200" width="500" height="150" fill="url(#groundGradient)"/>
+  
+  <!-- Название урока -->
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffd700" filter="url(#glow)">ИСТОРИЯ · 10 КЛАСС</text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#ffeb3b" filter="url(#glow)">Урок 15: Натиск с Запада</text>
+  
+  <!-- Крестоносцы (слева) -->
+  <g id="crusaders">
+    <!-- Флаг крестоносцев -->
+    <rect x="50" y="80" width="40" height="30" fill="url(#crossPattern)"/>
+    <line x1="70" y1="80" x2="70" y2="110" stroke="#b8860b" stroke-width="3"/>
+    <line x1="50" y1="95" x2="90" y2="95" stroke="#b8860b" stroke-width="3"/>
+    
+    <!-- Рыцари -->
+    <g id="knight1">
+      <rect x="40" y="120" width="20" height="40" fill="#c0c0c0"/>
+      <rect x="45" y="100" width="10" height="20" fill="#8b0000"/>
+      <circle cx="50" cy="95" r="8" fill="#fdbcb4"/>
+      <polygon points="50,87 45,95 55,95" fill="#8b4513"/>
+    </g>
+    
+    <g id="knight2">
+      <rect x="80" y="125" width="20" height="35" fill="#c0c0c0"/>
+      <rect x="85" y="105" width="10" height="20" fill="#8b0000"/>
+      <circle cx="90" cy="100" r="8" fill="#fdbcb4"/>
+      <polygon points="90,92 85,100 95,100" fill="#8b4513"/>
+    </g>
+    
+    <!-- Конь -->
+    <ellipse cx="65" cy="170" rx="15" ry="20" fill="#654321"/>
+    <rect x="55" y="150" width="20" height="30" fill="#8b0000"/>
+    <circle cx="70" cy="145" r="10" fill="#fdbcb4"/>
+  </g>
+  
+  <!-- Стрелка направления -->
+  <path d="M 120 150 L 180 150 L 175 145 M 180 150 L 175 155" stroke="#ff6b6b" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Стрелка -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ff6b6b"/>
+    </marker>
+  </defs>
+  
+  <!-- Александр Невский (справа) -->
+  <g id="alexander">
+    <!-- Щит -->
+    <ellipse cx="380" cy="170" rx="25" ry="35" fill="#8b4513" stroke="#654321" stroke-width="2"/>
+    <path d="M 380 140 L 380 200 M 355 155 L 405 155 M 365 170 L 395 170 M 370 185 L 390 185" stroke="#ffd700" stroke-width="3"/>
+    
+    <!-- Тело -->
+    <rect x="365" y="140" width="30" height="50" fill="#4169e1"/>
+    <rect x="360" y="120" width="40" height="20" fill="#8b0000"/>
+    
+    <!-- Голова -->
+    <circle cx="380" cy="110" r="12" fill="#fdbcb4"/>
+    <path d="M 368 110 Q 368 105 380 105 Q 392 105 392 110" fill="#8b4513"/>
+    
+    <!-- Меч -->
+    <rect x="395" y="150" width="5" height="40" fill="#c0c0c0"/>
+    <rect x="393" y="145" width="9" height="8" fill="#696969"/>
+    
+    <!-- Конь -->
+    <ellipse cx="380" cy="210" rx="20" ry="25" fill="#654321"/>
+    <rect x="370" y="190" width="20" height="35" fill="#4169e1"/>
+    <circle cx="385" cy="185" r="12" fill="#fdbcb4"/>
+  </g>
+  
+  <!-- Ледовое побоище (низу) -->
+  <g id="battle">
+    <!-- Лед -->
+    <ellipse cx="250" cy="280" rx="200" ry="50" fill="#e3f2fd" opacity="0.8"/>
+    
+    <!-- Кресты на льду -->
+    <g id="cross1">
+      <rect x="180" y="270" width="4" height="30" fill="#8b4513"/>
+      <rect x="170" y="280" width="24" height="4" fill="#8b4513"/>
+    </g>
+    
+    <g id="cross2">
+      <rect x="300" y="275" width="4" height="30" fill="#8b4513"/>
+      <rect x="290" y="285" width="24" height="4" fill="#8b4513"/>
+    </g>
+    
+    <!-- Солнце/луна -->
+    <circle cx="430" cy="100" r="25" fill="#fff59d" opacity="0.9"/>
+    <path d="M 430 75 L 430 85 M 455 100 L 445 100 M 430 125 L 430 115 M 405 100 L 415 100" stroke="#fff59d" stroke-width="2"/>
+    
+    <!-- Облака -->
+    <ellipse cx="100" cy="50" rx="30" ry="15" fill="#ffffff" opacity="0.7"/>
+    <ellipse cx="120" cy="45" rx="25" ry="12" fill="#ffffff" opacity="0.7"/>
+    <ellipse cx="350" cy="60" rx="35" ry="18" fill="#ffffff" opacity="0.7"/>
+    <ellipse cx="370" y="55" rx="28" ry="14" fill="#ffffff" opacity="0.7"/>
+  </g>
+  
+  <!-- Текстовые элементы -->
+  <text x="70" y="250" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" font-weight="bold">Крестоносцы</text>
+  <text x="350" y="250" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" font-weight="bold">Александр Невский</text>
+  
+  <!-- Дата -->
+  <text x="250" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#ffd700">1242 г. - Ледовое побоище</text>
+  
+  <!-- Дополнительные декоративные элементы -->
+  <!-- Звезды -->
+  <g id="stars">
+    <path d="M 150 30 L 152 36 L 158 36 L 153 40 L 155 46 L 150 42 L 145 46 L 147 40 L 142 36 L 148 36 Z" fill="#ffd700"/>
+    <path d="M 250 25 L 252 31 L 258 31 L 253 35 L 255 41 L 250 37 L 245 41 L 247 35 L 242 31 L 248 31 Z" fill="#ffd700"/>
+    <path d="M 350 30 L 352 36 L 358 36 L 353 40 L 355 46 L 350 42 L 345 46 L 347 40 L 342 36 L 348 36 Z" fill="#ffd700"/>
+  </g>
+  
+  <!-- Щит с гербом -->
+  <g id="russian-shield">
+    <path d="M 420 180 L 440 180 L 445 200 L 440 220 L 420 220 Z" fill="#b22222" stroke="#8b0000" stroke-width="2"/>
+    <path d="M 425 190 L 435 190 M 425 200 L 435 200 M 425 210 L 435 210" stroke="#ffd700" stroke-width="2"/>
+  </g>
+  
+  <!-- Меч (второй у Александра) -->
+  <rect x="355" y="155" width="4" height="35" fill="#c0c0c0" transform="rotate(-30 357 155)"/>
+  <rect x="353" y="150" width="8" height="7" fill="#696969" transform="rotate(-30 357 155)"/>
+</svg>
