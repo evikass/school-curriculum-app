@@ -1,0 +1,136 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">ХИМИЯ · 10 КЛАСС</text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#34495e">Урок 15: Сложные эфиры и жиры. Мыла</text>
+  
+  <!-- Декоративная линия -->
+  <line x1="100" y1="70" x2="400" y2="70" stroke="#3498db" stroke-width="2"/>
+  
+  <!-- Молекула сложного эфира -->
+  <g transform="translate(100, 100)">
+    <text x="0" y="-10" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Сложный эфир</text>
+    
+    <!-- Карбоксильная группа -->
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="16" fill="#333">R-COO-R'</text>
+    
+    <!-- Условное изображение молекулы -->
+    <circle cx="30" cy="40" r="8" fill="#e74c3c" stroke="#333" stroke-width="1"/>
+    <line x1="38" y1="40" x2="60" y2="40" stroke="#333" stroke-width="2"/>
+    <circle cx="65" cy="40" r="8" fill="#2ecc71" stroke="#333" stroke-width="1"/>
+    <line x1="73" y1="40" x2="90" y2="40" stroke="#333" stroke-width="2"/>
+    <circle cx="95" cy="40" r="8" fill="#3498db" stroke="#333" stroke-width="1"/>
+    <line x1="103" y1="40" x2="120" y2="40" stroke="#333" stroke-width="2"/>
+    <circle cx="125" cy="40" r="8" fill="#9b59b6" stroke="#333" stroke-width="1"/>
+    
+    <!-- Метки атомов -->
+    <text x="25" y="45" font-family="Arial, sans-serif" font-size="10" fill="white">R</text>
+    <text x="60" y="45" font-family="Arial, sans-serif" font-size="10" fill="white">C</text>
+    <text x="90" y="45" font-family="Arial, sans-serif" font-size="10" fill="white">O</text>
+    <text x="120" y="45" font-family="Arial, sans-serif" font-size="10" fill="white">O</text>
+    <text x="120" y="25" font-family="Arial, sans-serif" font-size="10" fill="#333">||</text>
+    <text x="125" y="45" font-family="Arial, sans-serif" font-size="10" fill="white">R'</text>
+  </g>
+  
+  <!-- Молекула жира -->
+  <g transform="translate(300, 100)">
+    <text x="0" y="-10" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Триглицерид (жир)</text>
+    
+    <!-- Глицерин -->
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="16" fill="#333">C₃H₅(OH)₃</text>
+    
+    <!-- Условное изображение -->
+    <circle cx="30" cy="40" r="8" fill="#f39c12" stroke="#333" stroke-width="1"/>
+    <line x1="38" y1="40" x2="50" y2="30" stroke="#333" stroke-width="2"/>
+    <line x1="38" y1="40" x2="50" y2="50" stroke="#333" stroke-width="2"/>
+    <line x1="22" y1="40" x2="10" y2="30" stroke="#333" stroke-width="2"/>
+    <line x1="22" y1="40" x2="10" y2="50" stroke="#333" stroke-width="2"/>
+    
+    <circle cx="50" cy="30" r="6" fill="#e74c3c" stroke="#333" stroke-width="1"/>
+    <circle cx="50" cy="50" r="6" fill="#e74c3c" stroke="#333" stroke-width="1"/>
+    <circle cx="10" cy="30" r="6" fill="#e74c3c" stroke="#333" stroke-width="1"/>
+    <circle cx="10" cy="50" r="6" fill="#e74c3c" stroke="#333" stroke-width="1"/>
+    
+    <!-- Жирные кислоты -->
+    <line x1="50" y1="30" x2="70" y2="30" stroke="#333" stroke-width="2"/>
+    <text x="75" y="35" font-family="Arial, sans-serif" font-size="12" fill="#333">R₁</text>
+    
+    <line x1="50" y1="50" x2="70" y2="50" stroke="#333" stroke-width="2"/>
+    <text x="75" y="55" font-family="Arial, sans-serif" font-size="12" fill="#333">R₂</text>
+    
+    <line x1="10" y1="30" x2="-10" y2="30" stroke="#333" stroke-width="2"/>
+    <text x="-45" y="35" font-family="Arial, sans-serif" font-size="12" fill="#333">R₃</text>
+    
+    <line x1="10" y1="50" x2="-10" y2="50" stroke="#333" stroke-width="2"/>
+    <text x="-45" y="55" font-family="Arial, sans-serif" font-size="12" fill="#333">OH</text>
+  </g>
+  
+  <!-- Мыла -->
+  <g transform="translate(50, 200)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Структура мыла</text>
+    
+    <!-- Мицелла -->
+    <circle cx="100" cy="50" r="40" fill="#ecf0f1" stroke="#3498db" stroke-width="2"/>
+    
+    <!-- Гидрофобный хвост -->
+    <line x1="60" y1="50" x2="40" y2="50" stroke="#333" stroke-width="2"/>
+    <line x1="40" y1="50" x2="20" y2="40" stroke="#333" stroke-width="2"/>
+    <line x1="20" y1="40" x2="0" y2="30" stroke="#333" stroke-width="2"/>
+    <text x="-20" y="35" font-family="Arial, sans-serif" font-size="10" fill="#333">R</text>
+    
+    <!-- Гидрофильная голова -->
+    <line x1="140" y1="50" x2="160" y2="50" stroke="#333" stroke-width="2"/>
+    <circle cx="170" cy="50" r="8" fill="#3498db" stroke="#333" stroke-width="1"/>
+    <text x="165" y="54" font-family="Arial, sans-serif" font-size="10" fill="white">COO⁻</text>
+    
+    <!-- Вода вокруг -->
+    <text x="60" y="110" font-family="Arial, sans-serif" font-size="12" fill="#3498db">H₂O</text>
+    <text x="100" y="110" font-family="Arial, sans-serif" font-size="12" fill="#3498db">H₂O</text>
+    <text x="140" y="110" font-family="Arial, sans-serif" font-size="12" fill="#3498db">H₂O</text>
+    
+    <!-- Загрязнение внутри -->
+    <circle cx="100" cy="50" r="15" fill="#95a5a6" opacity="0.5"/>
+    <text x="90" y="55" font-family="Arial, sans-serif" font-size="10" fill="#333">жир</text>
+  </g>
+  
+  <!-- Реакция омыления -->
+  <g transform="translate(280, 180)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Реакция омыления</text>
+    
+    <!-- Жир + щелочь -->
+    <text x="0" y="30" font-family="Arial, sans-serif" font-size="12" fill="#333">жир + NaOH →</text>
+    
+    <!-- Стрелка -->
+    <line x1="80" y1="30" x2="120" y2="30" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Продукты -->
+    <text x="130" y="25" font-family="Arial, sans-serif" font-size="12" fill="#333">мыло + глицерин</text>
+    <text x="130" y="40" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">(соли жирных кислот)</text>
+  </g>
+  
+  <!-- Определения -->
+  <g transform="translate(50, 290)">
+    <rect x="0" y="0" width="400" height="40" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+    <text x="10" y="15" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Сложные эфиры: производные карбоновых кислот, где водород</text>
+    <text x="10" y="30" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">группы -OH заменен на алкильный радикал R'</text>
+  </g>
+  
+  <!-- Маркер стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  
+  <!-- Дополнительные элементы декора -->
+  <circle cx="470" cy="80" r="3" fill="#3498db"/>
+  <circle cx="470" cy="90" r="3" fill="#2ecc71"/>
+  <circle cx="470" cy="100" r="3" fill="#e74c3c"/>
+  <circle cx="470" cy="110" r="3" fill="#f39c12"/>
+  
+  <text x="30" y="330" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">© Урок химии 10 класс</text>
+</svg>
