@@ -1,0 +1,153 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0e6d2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8d4b0;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Декоративный узор -->
+    <pattern id="ornament" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="3" fill="#8b4513" opacity="0.3"/>
+      <path d="M 10 10 L 30 10 L 30 30 L 10 30 Z" fill="none" stroke="#8b4513" stroke-width="0.5" opacity="0.2"/>
+    </pattern>
+    
+    <!-- Тень -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  <rect width="500" height="350" fill="url(#ornament)"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#8b4513" stroke-width="3" rx="5" opacity="0.6"/>
+  <rect x="20" y="20" width="460" height="310" fill="none" stroke="#8b4513" stroke-width="1" rx="3" opacity="0.4"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="45" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#5d4037">
+    УРОК 30: ЕКАТЕРИНА II
+  </text>
+  <text x="250" y="65" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#8b4513" font-style="italic">
+    Просвещённый абсолютизм
+  </text>
+  
+  <!-- Портрет Екатерины II -->
+  <g transform="translate(80, 90)">
+    <!-- Фон портрета -->
+    <rect x="0" y="0" width="120" height="150" fill="#d4a574" rx="5" filter="url(#shadow)"/>
+    <rect x="5" y="5" width="110" height="140" fill="#f5deb3" rx="3"/>
+    
+    <!-- Корона -->
+    <path d="M 60 15 L 45 25 L 50 20 L 55 25 L 60 20 L 65 25 L 70 20 L 75 25 L 80 20 L 60 15 Z" fill="#ffd700"/>
+    <circle cx="60" cy="20" r="3" fill="#fff"/>
+    
+    <!-- Лицо и волосы -->
+    <ellipse cx="60" cy="70" rx="25" ry="30" fill="#fdbcb4"/>
+    <path d="M 35 50 Q 35 40 45 35 L 75 35 Q 85 40 85 50 L 85 80 Q 85 85 80 85 L 40 85 Q 35 85 35 80 Z" fill="#8b4513"/>
+    <ellipse cx="50" cy="65" rx="3" ry="4" fill="#333"/>
+    <ellipse cx="70" cy="65" rx="3" ry="4" fill="#333"/>
+    <path d="M 55 75 Q 60 78 65 75" fill="none" stroke="#333" stroke-width="2"/>
+    
+    <!-- Платье -->
+    <path d="M 40 90 L 35 140 L 85 140 L 80 90 Z" fill="#4a148c"/>
+    <rect x="40" y="90" width="40" height="8" fill="#ffd700"/>
+    
+    <!-- Украшения -->
+    <circle cx="60" cy="45" r="5" fill="#ffd700" opacity="0.8"/>
+  </g>
+  
+  <!-- Основные даты -->
+  <g transform="translate(220, 100)">
+    <rect x="0" y="0" width="250" height="40" fill="#5d4037" opacity="0.8" rx="5"/>
+    <text x="125" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="white" font-weight="bold">
+      1762-1796 гг. Правление
+    </text>
+  </g>
+  
+  <!-- Ключевые достижения -->
+  <g transform="translate(50, 260)">
+    <!-- Внешняя политика -->
+    <rect x="0" y="0" width="140" height="70" fill="#8d6e63" rx="5" opacity="0.8"/>
+    <text x="70" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="bold">
+      ВНЕШНЯЯ
+    </text>
+    <text x="70" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="bold">
+      ПОЛИТИКА
+    </text>
+    <text x="70" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      • Расширение
+    </text>
+    <text x="70" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      • Участие в разделах Польши
+    </text>
+    
+    <!-- Внутренняя политика -->
+    <rect x="150" y="0" width="140" height="70" fill="#6d4c41" rx="5" opacity="0.8"/>
+    <text x="220" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="bold">
+      ВНУТРЕННЯЯ
+    </text>
+    <text x="220" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="bold">
+      ПОЛИТИКА
+    </text>
+    <text x="220" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      • Наказ 1764 г.
+    </text>
+    <text x="220" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      • Губернская реформа
+    </text>
+    
+    <!-- Просвещение -->
+    <rect x="300" y="0" width="140" height="70" fill="#5d4037" rx="5" opacity="0.8"/>
+    <text x="370" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="bold">
+      ПРОСВЕЩЕНИЕ
+    </text>
+    <text x="370" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="bold">
+      КУЛЬТУРА
+    </text>
+    <text x="370" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      • Учреждение Вольного
+    </text>
+    <text x="370" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      экономического общества
+    </text>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <g transform="translate(30, 150)">
+    <!-- Вензель -->
+    <path d="M 0 0 Q 10 -5 20 0 L 20 10 Q 10 15 0 10 Z" fill="none" stroke="#8b4513" stroke-width="2"/>
+    <circle cx="10" cy="5" r="2" fill="#8b4513"/>
+  </g>
+  
+  <g transform="translate(440, 150)">
+    <!-- Вензель -->
+    <path d="M 0 0 Q -10 -5 -20 0 L -20 10 Q -10 15 0 10 Z" fill="none" stroke="#8b4513" stroke-width="2"/>
+    <circle cx="-10" cy="5" r="2" fill="#8b4513"/>
+  </g>
+  
+  <!-- Декоративные линии -->
+  <line x1="50" y1="240" x2="450" y2="240" stroke="#8b4513" stroke-width="1" opacity="0.5"/>
+  <line x1="50" y1="245" x2="450" y2="245" stroke="#8b4513" stroke-width="0.5" opacity="0.3"/>
+  
+  <!-- Нижняя подпись -->
+  <text x="250" y="335" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#5d4037">
+    ИСТОРИЯ · 10 КЛАСС
+  </text>
+  
+  <!-- Маленькие декоративные элементы -->
+  <circle cx="40" cy="40" r="3" fill="#8b4513" opacity="0.5"/>
+  <circle cx="460" cy="40" r="3" fill="#8b4513" opacity="0.5"/>
+  <circle cx="40" cy="310" r="3" fill="#8b4513" opacity="0.5"/>
+  <circle cx="460" cy="310" r="3" fill="#8b4513" opacity="0.5"/>
+  
+  <!-- Королевский символ -->
+  <g transform="translate(250, 150)">
+    <path d="M -20 0 L -10 -10 L 0 -5 L 10 -10 L 20 0 L 15 10 L 5 5 L -5 5 L -15 10 Z" 
+          fill="#ffd700" opacity="0.8"/>
+    <rect x="-2" y="5" width="4" height="10" fill="#8b4513"/>
+    <ellipse cx="0" cy="17" rx="8" ry="3" fill="#8b4513"/>
+  </g>
+</svg>
