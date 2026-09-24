@@ -1,0 +1,145 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f0f8ff"/>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="450" cy="50" r="30" fill="#e6f3ff" opacity="0.5"/>
+  <circle cx="50" cy="300" r="25" fill="#ffe6e6" opacity="0.5"/>
+  <circle cx="400" cy="320" r="20" fill="#e6ffe6" opacity="0.5"/>
+  
+  <!-- Молекула бензола (центр) -->
+  <g transform="translate(250, 180)">
+    <polygon points="0,-30 26,-15 26,15 0,30 -26,15 -26,-15" 
+             fill="none" stroke="#2c3e50" stroke-width="2"/>
+    <circle cx="0" cy="-30" r="3" fill="#2c3e50"/>
+    <circle cx="26" cy="-15" r="3" fill="#2c3e50"/>
+    <circle cx="26" cy="15" r="3" fill="#2c3e50"/>
+    <circle cx="0" cy="30" r="3" fill="#2c3e50"/>
+    <circle cx="-26" cy="15" r="3" fill="#2c3e50"/>
+    <circle cx="-26" cy="-15" r="3" fill="#2c3e50"/>
+    <text x="0" y="-45" text-anchor="middle" font-family="Arial" font-size="12" fill="#2c3e50">C₆H₆</text>
+  </g>
+  
+  <!-- Атом углерода -->
+  <g transform="translate(100, 120)">
+    <circle cx="0" cy="0" r="20" fill="#4a4a4a"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="16" fill="white">C</text>
+    <text x="0" y="35" text-anchor="middle" font-family="Arial" font-size="10" fill="#2c3e50">Углерод</text>
+  </g>
+  
+  <!-- Атом водорода -->
+  <g transform="translate(380, 120)">
+    <circle cx="0" cy="0" r="15" fill="#ffffff" stroke="#2c3e50" stroke-width="2"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="14" fill="#2c3e50">H</text>
+    <text x="0" y="30" text-anchor="middle" font-family="Arial" font-size="10" fill="#2c3e50">Водород</text>
+  </g>
+  
+  <!-- Связь C-H -->
+  <line x1="120" y1="120" x2="365" y2="120" stroke="#666" stroke-width="2" stroke-dasharray="5,3"/>
+  
+  <!-- Двойная связь -->
+  <g transform="translate(150, 250)">
+    <line x1="0" y1="0" x2="40" y2="0" stroke="#2c3e50" stroke-width="3"/>
+    <line x1="0" y1="5" x2="40" y2="5" stroke="#2c3e50" stroke-width="3"/>
+    <text x="50" y="5" font-family="Arial" font-size="10" fill="#2c3e50">Двойная связь</text>
+  </g>
+  
+  <!-- Тройная связь -->
+  <g transform="translate(250, 250)">
+    <line x1="0" y1="-5" x2="40" y2="-5" stroke="#2c3e50" stroke-width="2"/>
+    <line x1="0" y1="0" x2="40" y2="0" stroke="#2c3e50" stroke-width="3"/>
+    <line x1="0" y1="5" x2="40" y2="5" stroke="#2c3e50" stroke-width="2"/>
+    <text x="50" y="5" font-family="Arial" font-size="10" fill="#2c3e50">Тройная связь</text>
+  </g>
+  
+  <!-- Группа -OH -->
+  <g transform="translate(350, 250)">
+    <circle cx="0" cy="0" r="15" fill="#ff6b6b"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="14" fill="white">O</text>
+    <circle cx="25" cy="-10" r="12" fill="#ffffff" stroke="#2c3e50" stroke-width="2"/>
+    <text x="25" y="-5" text-anchor="middle" font-family="Arial" font-size="12" fill="#2c3e50">H</text>
+    <line x1="15" y1="-10" x2="13" y2="-10" stroke="#2c3e50" stroke-width="2"/>
+    <text x="50" y="5" font-family="Arial" font-size="10" fill="#2c3e50">Гидроксильная</text>
+  </g>
+  
+  <!-- Углеводороды -->
+  <rect x="20" y="40" width="120" height="60" fill="#e8f4fd" stroke="#4a90e2" stroke-width="2" rx="5"/>
+  <text x="80" y="65" text-anchor="middle" font-family="Arial" font-size="14" fill="#2c3e50">Углеводороды</text>
+  <text x="80" y="85" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">CₙH₂ₙ₊₂</text>
+  
+  <!-- Кислородсодержащие -->
+  <rect x="160" y="40" width="120" height="60" fill="#ffe8e8" stroke="#e74c3c" stroke-width="2" rx="5"/>
+  <text x="220" y="65" text-anchor="middle" font-family="Arial" font-size="14" fill="#2c3e50">Кислород-</text>
+  <text x="220" y="85" text-anchor="middle" font-family="Arial" font-size="14" fill="#2c3e50">содержащие</text>
+  
+  <!-- Азотсодержащие -->
+  <rect x="300" y="40" width="120" height="60" fill="#e8ffe8" stroke="#27ae60" stroke-width="2" rx="5"/>
+  <text x="360" y="65" text-anchor="middle" font-family="Arial" font-size="14" fill="#2c3e50">Азот-</text>
+  <text x="360" y="85" text-anchor="middle" font-family="Arial" font-size="14" fill="#2c3e50">содержащие</text>
+  
+  <!-- Свойства -->
+  <g transform="translate(50, 200)">
+    <text font-family="Arial" font-size="12" fill="#2c3e50">✓ Большое число изомеров</text>
+    <text font-family="Arial" font-size="12" fill="#2c3e50">✓ Низкая температура плавления</text>
+    <text font-family="Arial" font-size="12" fill="#2c3e50">✓ Горючесть</text>
+  </g>
+  
+  <!-- Особенности -->
+  <g transform="translate(50, 280)">
+    <text font-family="Arial" font-size="12" fill="#2c3e50">✓ Ковалентные связи</text>
+    <text font-family="Arial" font-size="12" fill="#2c3e50">✓ Сложность строения</text>
+    <text font-family="Arial" font-size="12" fill="#2c3e50">✓ Биологическая важность</text>
+  </g>
+  
+  <!-- Органические соединения примеры -->
+  <g transform="translate(300, 200)">
+    <text font-family="Arial" font-size="11" fill="#2c3e50">Метан: CH₄</text>
+    <text font-family="Arial" font-size="11" fill="#2c3e50">Этилен: C₂H₄</text>
+    <text font-family="Arial" font-size="11" fill="#2c3e50">Спирт: C₂H₅OH</text>
+  </g>
+  
+  <!-- Векторные стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4a90e2"/>
+    </marker>
+  </defs>
+  
+  <!-- Указатели -->
+  <line x1="80" y1="100" x2="80" y2="115" stroke="#4a90e2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="220" y1="100" x2="220" y2="115" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="360" y1="100" x2="360" y2="115" stroke="#27ae60" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Название урока -->
+  <rect x="50" y="8" width="400" height="25" fill="#2c3e50" rx="3"/>
+  <text x="250" y="25" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="white">Урок 1: Предмет органической химии</text>
+  
+  <!-- Подзаголовок -->
+  <rect x="50" y="33" width="400" height="20" fill="#34495e" rx="3"/>
+  <text x="250" y="47" text-anchor="middle" font-family="Arial" font-size="14" fill="white">Особенности органических соединений</text>
+  
+  <!-- Химия 10 класс -->
+  <rect x="350" y="310" width="130" height="30" fill="#e74c3c" rx="5"/>
+  <text x="415" y="330" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="white">ХИМИЯ · 10 КЛАСС</text>
+  
+  <!-- Дополнительные декоративные элементы -->
+  <path d="M 30 150 Q 50 140 70 150" stroke="#4a90e2" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M 430 150 Q 450 140 470 150" stroke="#4a90e2" stroke-width="2" fill="none" opacity="0.5"/>
+  
+  <!-- Электроны -->
+  <g transform="translate(150, 120)">
+    <circle cx="-10" cy="-10" r="2" fill="#ffeb3b">
+      <animate attributeName="cx" values="-10;-15;-10" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="-10;-5;-10" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="10" cy="10" r="2" fill="#ffeb3b">
+      <animate attributeName="cx" values="10;15;10" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="10;5;10" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Молекулярная формула пример -->
+  <rect x="200" y="130" width="100" height="25" fill="#f0f0f0" stroke="#999" stroke-width="1" rx="3"/>
+  <text x="250" y="147" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">CH₃-CH₂-OH</text>
+</svg>
