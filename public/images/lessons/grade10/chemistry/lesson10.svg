@@ -1,94 +1,153 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FBE9E7"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FF7043"/>
-      <stop offset="100%" stop-color="#D84315"/>
-    </linearGradient>
+    
+    <!-- Тень для молекул -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+    
+    <!-- Анимация пульсации -->
+    <animate id="pulse" attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
   </defs>
-  <rect width="500" height="350" fill="url(#bg)" rx="10"/>
-  <rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#FF7043" stroke-width="3"/>
-  <text x="250" y="48" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#FF7043" text-anchor="middle">Карбоновые кислоты</text>
-  <text x="250" y="68" font-family="Arial,sans-serif" font-size="12" fill="#777" text-anchor="middle">Химия - Урок 10</text>
-  <line x1="30" y1="78" x2="470" y2="78" stroke="#FF7043" stroke-width="2" opacity="0.25"/>
-  <clipPath id="ill"><rect x="15" y="85" width="470" height="215" rx="6"/></clipPath>
-  <g clip-path="url(#ill)">
-
-    <rect x="15" y="85" width="470" height="215" fill="#FFF8F0" opacity="0.5"/>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1a202c">
+    ХИМИЯ · 10 КЛАСС
+  </text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#4a5568">
+    Урок 10: Арены. Бензол и его гомологи
+  </text>
+  
+  <!-- Бензол - основная молекула -->
+  <g id="benzene" transform="translate(150, 150)" filter="url(#shadow)">
+    <!-- Шестиугольник -->
+    <polygon points="0,-40 34.64,-20 34.64,20 0,40 -34.64,20 -34.64,-20" 
+             fill="none" stroke="#2d3748" stroke-width="2"/>
     
-    <!-- COOH group -->
-    <rect x="20" y="90" width="230" height="28" rx="5" fill="#D84315"/>
-    <text x="135" y="109" font-family="Arial,sans-serif" font-size="12" fill="white" text-anchor="middle">Функциональная: -COOH</text>
+    <!-- Внутренняя окружность (обозначение ароматичности) -->
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#2d3748" stroke-width="1.5"/>
     
-    <!-- COOH group structure -->
-    <text x="130" y="138" font-family="Arial,sans-serif" font-size="11" fill="#D84315" text-anchor="middle">Структура COOH-группы</text>
-    <circle cx="60" cy="168" r="13" fill="#888" opacity="0.85"/>
-    <text x="60" y="173" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">R</text>
-    <circle cx="110" cy="168" r="15" fill="#333" opacity="0.85"/>
-    <text x="110" y="173" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C</text>
-    <line x1="73" y1="168" x2="95" y2="168" stroke="#555" stroke-width="2.5"/>
-    <circle cx="110" cy="133" r="13" fill="#E53935" opacity="0.85"/>
-    <text x="110" y="138" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">O</text>
-    <line x1="112.5" y1="153.0" x2="112.5" y2="146.0" stroke="#555" stroke-width="2"/>
-    <line x1="107.5" y1="153.0" x2="107.5" y2="146.0" stroke="#555" stroke-width="2"/>
-    <circle cx="160" cy="168" r="13" fill="#E53935" opacity="0.85"/>
-    <text x="160" y="173" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">O</text>
-    <line x1="125" y1="168" x2="147" y2="168" stroke="#555" stroke-width="2.5"/>
-    <circle cx="205" cy="168" r="10" fill="#888" opacity="0.85"/>
-    <text x="205" y="173" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">H</text>
-    <line x1="173" y1="168" x2="195" y2="168" stroke="#555" stroke-width="2.5"/>
+    <!-- Атомы углерода -->
+    <circle cx="0" cy="-40" r="4" fill="#4a5568"/>
+    <circle cx="34.64" cy="-20" r="4" fill="#4a5568"/>
+    <circle cx="34.64" cy="20" r="4" fill="#4a5568"/>
+    <circle cx="0" cy="40" r="4" fill="#4a5568"/>
+    <circle cx="-34.64" cy="20" r="4" fill="#4a5568"/>
+    <circle cx="-34.64" cy="-20" r="4" fill="#4a5568"/>
     
-    <!-- Acetic acid -->
-    <text x="130" y="202" font-family="Arial,sans-serif" font-size="12" fill="#D84315" text-anchor="middle">Уксусная к-та CH3COOH</text>
-    <circle cx="30" cy="225" r="12" fill="#333" opacity="0.85"/>
-    <text x="30" y="230" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">H3C</text>
-    <circle cx="80" cy="225" r="12" fill="#333" opacity="0.85"/>
-    <text x="80" y="230" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C</text>
-    <line x1="42" y1="225" x2="68" y2="225" stroke="#555" stroke-width="2.5"/>
-    <circle cx="80" cy="205" r="11" fill="#E53935" opacity="0.85"/>
-    <text x="80" y="210" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">O</text>
-    <line x1="77.5" y1="213.0" x2="77.5" y2="216.0" stroke="#555" stroke-width="2"/>
-    <line x1="82.5" y1="213.0" x2="82.5" y2="216.0" stroke="#555" stroke-width="2"/>
-    <circle cx="125" cy="225" r="11" fill="#E53935" opacity="0.85"/>
-    <text x="125" y="230" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">O</text>
-    <line x1="92" y1="225" x2="114" y2="225" stroke="#555" stroke-width="2.5"/>
-    <circle cx="165" cy="225" r="9" fill="#888" opacity="0.85"/>
-    <text x="165" y="230" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">H</text>
-    <line x1="136" y1="225" x2="156" y2="225" stroke="#555" stroke-width="2.5"/>
+    <!-- Водородные атомы -->
+    <text x="0" y="-55" text-anchor="middle" font-size="14" fill="#2d3748">H</text>
+    <text x="50" y="-20" text-anchor="middle" font-size="14" fill="#2d3748">H</text>
+    <text x="50" y="25" text-anchor="middle" font-size="14" fill="#2d3748">H</text>
+    <text x="0" y="55" text-anchor="middle" font-size="14" fill="#2d3748">H</text>
+    <text x="-50" y="25" text-anchor="middle" font-size="14" fill="#2d3748">H</text>
+    <text x="-50" y="-20" text-anchor="middle" font-size="14" fill="#2d3748">H</text>
     
-    <!-- Formic acid -->
-    <text x="365" y="138" font-family="Arial,sans-serif" font-size="11" fill="#D84315" text-anchor="middle">Муравьиная HCOOH</text>
-    <circle cx="310" cy="168" r="10" fill="#888" opacity="0.85"/>
-    <text x="310" y="173" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">H</text>
-    <circle cx="345" cy="168" r="13" fill="#333" opacity="0.85"/>
-    <text x="345" y="173" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C</text>
-    <line x1="320" y1="168" x2="332" y2="168" stroke="#555" stroke-width="2.5"/>
-    <circle cx="345" cy="140" r="11" fill="#E53935" opacity="0.85"/>
-    <text x="345" y="145" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">O</text>
-    <line x1="347.5" y1="155.0" x2="347.5" y2="151.0" stroke="#555" stroke-width="2"/>
-    <line x1="342.5" y1="155.0" x2="342.5" y2="151.0" stroke="#555" stroke-width="2"/>
-    <circle cx="385" cy="168" r="11" fill="#E53935" opacity="0.85"/>
-    <text x="385" y="173" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">O</text>
-    <line x1="358" y1="168" x2="372" y2="168" stroke="#555" stroke-width="2.5"/>
-    <circle cx="420" cy="168" r="9" fill="#888" opacity="0.85"/>
-    <text x="420" y="173" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">H</text>
-    <line x1="396" y1="168" x2="411" y2="168" stroke="#555" stroke-width="2.5"/>
+    <!-- Надпись -->
+    <text x="0" y="70" text-anchor="middle" font-size="16" font-weight="bold" fill="#2d3748">Бензол C₆H₆</text>
+  </g>
+  
+  <!-- Толуол - гомолог -->
+  <g id="toluene" transform="translate(350, 150)" filter="url(#shadow)">
+    <!-- Шестиугольник -->
+    <polygon points="0,-40 34.64,-20 34.64,20 0,40 -34.64,20 -34.64,-20" 
+             fill="none" stroke="#2d3748" stroke-width="2"/>
     
-    <!-- Properties -->
-    <rect x="20" y="245" width="220" height="50" rx="4" fill="#FFE0B2" stroke="#FF7043" stroke-width="1"/>
-    <text x="130" y="260" font-family="Arial,sans-serif" font-size="10" fill="#D84315" text-anchor="middle">Свойства кислот:</text>
-    <text x="130" y="273" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Диссоциация: RCOOH &lt;-&gt; H+ + RCOO-</text>
-    <text x="130" y="285" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Реакция с металлами, основаниями</text>
+    <!-- Внутренняя окружность -->
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#2d3748" stroke-width="1.5"/>
     
-    <rect x="260" y="245" width="220" height="50" rx="4" fill="#FFE0B2" stroke="#FF7043" stroke-width="1"/>
-    <text x="370" y="260" font-family="Arial,sans-serif" font-size="10" fill="#D84315" text-anchor="middle">Применение:</text>
-    <text x="370" y="273" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Уксус - консервация</text>
-    <text x="370" y="285" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Муравьиная - в медицине</text>
-    <text x="370" y="297" font-family="Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Стеариновая - мыло</text>
-      </g>
-  <rect x="12" y="305" width="476" height="32" rx="5" fill="url(#panel)"/>
-  <text x="250" y="326" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="white" font-weight="bold">Химия</text>
+    <!-- Атомы углерода -->
+    <circle cx="0" cy="-40" r="4" fill="#4a5568"/>
+    <circle cx="34.64" cy="-20" r="4" fill="#4a5568"/>
+    <circle cx="34.64" cy="20" r="4" fill="#4a5568"/>
+    <circle cx="0" cy="40" r="4" fill="#4a5568"/>
+    <circle cx="-34.64" cy="20" r="4" fill="#4a5568"/>
+    <circle cx="-34.64" cy="-20" r="4" fill="#4a5568"/>
+    
+    <!-- Метильная группа -->
+    <line x1="-34.64" y1="-20" x2="-55" y2="-35" stroke="#2d3748" stroke-width="2"/>
+    <circle cx="-55" cy="-35" r="4" fill="#4a5568"/>
+    <text x="-55" y="-45" text-anchor="middle" font-size="14" fill="#2d3748">CH₃</text>
+    
+    <!-- Водородные атомы -->
+    <text x="0" y="-55" text-anchor="middle" font-size="14" fill="#2d3748">H</text>
+    <text x="50" y="-20" text-anchor="middle" font-size="14" fill="#2d3748">H</text>
+    <text x="50" y="25" text-anchor="middle" font-size="14" fill="#2d3748">H</text>
+    <text x="0" y="55" text-anchor="middle" font-size="14" fill="#2d3748">H</text>
+    <text x="-20" y="20" text-anchor="middle" font-size="14" fill="#2d3748">H</text>
+    
+    <!-- Надпись -->
+    <text x="0" y="70" text-anchor="middle" font-size="16" font-weight="bold" fill="#2d3748">Толуол C₇H₈</text>
+  </g>
+  
+  <!-- Стрелка между молекулами -->
+  <g>
+    <line x1="200" y1="150" x2="280" y2="150" stroke="#4a5568" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="240" y="140" text-anchor="middle" font-size="14" fill="#4a5568">+ CH₃</text>
+  </g>
+  
+  <!-- Определение аренов -->
+  <g transform="translate(250, 250)">
+    <rect x="-100" y="-20" width="200" height="80" rx="5" fill="#e6fffa" stroke="#319795" stroke-width="1.5"/>
+    <text x="0" y="0" text-anchor="middle" font-size="14" font-weight="bold" fill="#2c7a7b">АРЕНЫ</text>
+    <text x="0" y="20" text-anchor="middle" font-size="12" fill="#2d3748">Ароматические углеводороды</text>
+    <text x="0" y="40" text-anchor="middle" font-size="12" fill="#2d3748">с замкнутой системой π-электронов</text>
+  </g>
+  
+  <!-- Свойства бензола -->
+  <g transform="translate(100, 300)">
+    <circle cx="0" cy="0" r="25" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+    <text x="0" y="5" text-anchor="middle" font-size="12" fill="#92400e">Свойства</text>
+  </g>
+  
+  <!-- Примеры гомологов -->
+  <g transform="translate(400, 300)">
+    <circle cx="0" cy="0" r="25" fill="#fce7f3" stroke="#ec4899" stroke-width="2"/>
+    <text x="0" y="5" text-anchor="middle" font-size="12" fill="#9f1239">Гомологи</text>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <g opacity="0.3">
+    <!-- Молекулярные орбитали -->
+    <ellipse cx="150" cy="150" rx="60" ry="60" fill="none" stroke="#3182ce" stroke-width="1" stroke-dasharray="5,5">
+      <animateTransform attributeName="transform" type="rotate" from="0 150 150" to="360 150 150" dur="20s" repeatCount="indefinite"/>
+    </ellipse>
+    
+    <ellipse cx="350" cy="150" rx="60" ry="60" fill="none" stroke="#3182ce" stroke-width="1" stroke-dasharray="5,5">
+      <animateTransform attributeName="transform" type="rotate" from="0 350 150" to="360 350 150" dur="25s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <g opacity="0.5">
+    <circle cx="50" cy="50" r="3" fill="#cbd5e0">
+      <animate attributeName="r" values="3;5;3" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="450" cy="50" r="3" fill="#cbd5e0">
+      <animate attributeName="r" values="3;5;3" dur="3s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="50" cy="320" r="3" fill="#cbd5e0">
+      <animate attributeName="r" values="3;5;3" dur="3s" begin="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="450" cy="320" r="3" fill="#cbd5e0">
+      <animate attributeName="r" values="3;5;3" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Определение стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4a5568"/>
+    </marker>
+  </defs>
 </svg>
