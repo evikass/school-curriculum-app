@@ -1,23 +1,158 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый узор -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e1b4b"/>
-      <stop offset="100%" style="stop-color:#6366f1"/>
-    </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:0"/>
-    </radialGradient>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+    </pattern>
+    
+    <!-- Стрелка для векторов -->
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2c3e50"/>
+    </marker>
+    
+    <!-- Тень -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#a78bfa" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#a78bfa" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#e0e7ff" text-anchor="middle">21</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e0e7ff" text-anchor="middle" opacity="0.8">ГЕОМЕТРИЯ · 10–11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e0e7ff" text-anchor="middle">Урок 21: Компланарные векторы. Разложение вектора</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#a78bfa" text-anchor="middle" opacity="0.8">Урок 21 из 38</text>
-  <line x1="100" y1="220" x2="400" y2="130" stroke="#a78bfa" stroke-width="2.5" opacity="0.6"/><polygon points="395,135 400,130 390,128" fill="#a78bfa"/>
+  
+  <!-- Сетка -->
+  <rect width="500" height="350" fill="url(#grid)"/>
+  
+  <!-- Координатные оси -->
+  <line x1="50" y1="300" x2="450" y2="300" stroke="#34495e" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="100" y1="50" x2="100" y2="320" stroke="#34495e" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- Ось X -->
+  <text x="460" y="305" font-family="Arial" font-size="14" fill="#2c3e50">x</text>
+  <text x="105" y="45" font-family="Arial" font-size="14" fill="#2c3e50">y</text>
+  
+  <!-- Единичные отрезки на осях -->
+  <g stroke="#7f8c8d" stroke-width="1">
+    <line x1="150" y1="295" x2="150" y2="305"/>
+    <line x1="200" y1="295" x2="200" y2="305"/>
+    <line x1="250" y1="295" x2="250" y2="305"/>
+    <line x1="300" y1="295" x2="300" y2="305"/>
+    <line x1="350" y1="295" x2="350" y2="305"/>
+    <line x1="400" y1="295" x2="400" y2="305"/>
+    
+    <line x1="95" y1="250" x2="105" y2="250"/>
+    <line x1="95" y1="200" x2="105" y2="200"/>
+    <line x1="95" y1="150" x2="105" y2="150"/>
+    <line x1="95" y1="100" x2="105" y2="100"/>
+  </g>
+  
+  <!-- Вектор a -->
+  <line x1="100" y1="250" x2="280" y2="120" stroke="#e74c3c" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="285" y="115" font-family="Arial" font-size="16" font-weight="bold" fill="#e74c3c">a</text>
+  
+  <!-- Вектор b (базисный) -->
+  <line x1="100" y1="250" x2="280" y2="250" stroke="#3498db" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="285" y="255" font-family="Arial" font-size="16" font-weight="bold" fill="#3498db">b₁</text>
+  
+  <!-- Вектор c (базисный) -->
+  <line x1="100" y1="250" x2="100" y2="80" stroke="#9b59b6" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="75" y="75" font-family="Arial" font-size="16" font-weight="bold" fill="#9b59b6">b₂</text>
+  
+  <!-- Разложение проекций -->
+  <line x1="100" y1="250" x2="100" y2="120" stroke="#95a5a6" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="100" y1="120" x2="280" y2="120" stroke="#95a5a6" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Вектор проекции на b1 -->
+  <line x1="100" y1="250" x2="280" y2="250" stroke="#3498db" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Вектор проекции на b2 -->
+  <line x1="100" y1="250" x2="100" y2="120" stroke="#9b59b6" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Углы -->
+  <path d="M 120 250 A 20 20 0 0 0 115 235" fill="none" stroke="#f39c12" stroke-width="2"/>
+  <text x="125" y="230" font-family="Arial" font-size="12" fill="#f39c12">α</text>
+  
+  <!-- Координаты -->
+  <text x="185" y="185" font-family="Arial" font-size="14" fill="#e74c3c">a = λ₁b₁ + λ₂b₂</text>
+  <text x="185" y="205" font-family="Arial" font-size="12" fill="#7f8c8d">где λ₁ и λ₂ - коэффициенты</text>
+  
+  <!-- Точка начала координат -->
+  <circle cx="100" cy="250" r="4" fill="#2c3e50"/>
+  <text x="75" y="270" font-family="Arial" font-size="12" fill="#2c3e50">O</text>
+  
+  <!-- Номера единичных отрезков -->
+  <text x="145" y="320" font-family="Arial" font-size="10" fill="#7f8c8d">1</text>
+  <text x="195" y="320" font-family="Arial" font-size="10" fill="#7f8c8d">2</text>
+  <text x="245" y="320" font-family="Arial" font-size="10" fill="#7f8c8d">3</text>
+  <text x="295" y="320" font-family="Arial" font-size="10" fill="#7f8c8d">4</text>
+  <text x="345" y="320" font-family="Arial" font-size="10" fill="#7f8c8d">5</text>
+  
+  <text x="70" y="255" font-family="Arial" font-size="10" fill="#7f8c8d">1</text>
+  <text x="70" y="205" font-family="Arial" font-size="10" fill="#7f8c8d">2</text>
+  <text x="70" y="155" font-family="Arial" font-size="10" fill="#7f8c8d">3</text>
+  <text x="70" y="105" font-family="Arial" font-size="10" fill="#7f8c8d">4</text>
+  
+  <!-- Заголовок -->
+  <rect x="0" y="0" width="500" height="40" fill="#34495e"/>
+  <text x="250" y="28" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">ГЕОМЕТРИЯ · 10 КЛАСС</text>
+  
+  <!-- Номер урока -->
+  <rect x="10" y="5" width="80" height="30" rx="5" fill="#e74c3c" filter="url(#shadow)"/>
+  <text x="50" y="25" font-family="Arial" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Урок 21</text>
+  
+  <!-- Тема урока -->
+  <text x="250" y="65" font-family="Arial" font-size="16" font-weight="bold" fill="#2c3e50" text-anchor="middle">Компланарные векторы</text>
+  <text x="250" y="85" font-family="Arial" font-size="14" fill="#7f8c8d" text-anchor="middle">Разложение вектора</text>
+  
+  <!-- Примеры разложения -->
+  <rect x="20" y="280" width="120" height="60" rx="5" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="80" y="300" font-family="Arial" font-size="11" fill="#2c3e50" text-anchor="middle">Пример:</text>
+  <text x="80" y="318" font-family="Arial" font-size="10" fill="#34495e" text-anchor="middle">a = 2b₁ + 3b₂</text>
+  <text x="80" y="333" font-family="Arial" font-size="10" fill="#7f8c8d" text-anchor="middle">λ₁ = 2, λ₂ = 3</text>
+  
+  <!-- Свойства -->
+  <rect x="360" y="280" width="120" height="60" rx="5" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="420" y="300" font-family="Arial" font-size="11" fill="#2c3e50" text-anchor="middle">Свойства:</text>
+  <text x="420" y="318" font-family="Arial" font-size="10" fill="#34495e" text-anchor="middle">1. λ₁, λ₂ ∈ R</text>
+  <text x="420" y="333" font-family="Arial" font-size="10" fill="#34495e" text-anchor="middle">2. Единственность</text>
+  
+  <!-- Дополнительные векторы для наглядности -->
+  <line x1="150" y1="200" x2="220" y2="150" stroke="#16a085" stroke-width="2" marker-end="url(#arrow)" opacity="0.7"/>
+  <text x="225" y="145" font-family="Arial" font-size="12" fill="#16a085">c</text>
+  
+  <!-- Вспомогательные линии -->
+  <line x1="220" y1="150" x2="220" y2="250" stroke="#f39c12" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="150" y1="200" x2="220" y2="200" stroke="#f39c12" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <!-- Маркеры на точках -->
+  <circle cx="280" cy="120" r="3" fill="#e74c3c"/>
+  <circle cx="280" cy="250" r="3" fill="#3498db"/>
+  <circle cx="100" cy="120" r="3" fill="#9b59b6"/>
+  <circle cx="220" cy="150" r="3" fill="#16a085"/>
+  <circle cx="220" cy="200" r="3" fill="#f39c12"/>
+  <circle cx="220" cy="250" r="3" fill="#f39c12"/>
+  
+  <!-- Легенда -->
+  <g transform="translate(320, 100)">
+    <rect x="0" y="0" width="160" height="100" rx="5" fill="white" stroke="#bdc3c7" stroke-width="1" opacity="0.9"/>
+    <text x="80" y="20" font-family="Arial" font-size="12" font-weight="bold" fill="#2c3e50" text-anchor="middle">Легенда</text>
+    
+    <line x1="10" y1="35" x2="30" y2="35" stroke="#e74c3c" stroke-width="3"/>
+    <text x="35" y="40" font-family="Arial" font-size="11" fill="#2c3e50">Вектор a</text>
+    
+    <line x1="10" y1="50" x2="30" y2="50" stroke="#3498db" stroke-width="3"/>
+    <text x="35" y="55" font-family="Arial" font-size="11" fill="#2c3e50">Базис b₁</text>
+    
+    <line x1="10" y1="65" x2="30" y2="65" stroke="#9b59b6" stroke-width="3"/>
+    <text x="35" y="70" font-family="Arial" font-size="11" fill="#2c3e50">Базис b₂</text>
+    
+    <line x1="10" y1="80" x2="30" y2="80" stroke="#95a5a6" stroke-width="2" stroke-dasharray="5,5"/>
+    <text x="35" y="85" font-family="Arial" font-size="11" fill="#2c3e50">Проекция</text>
+  </g>
+  
+  <!-- Дополнительные элементы оформления -->
+  <circle cx="50" cy="320" r="2" fill="#3498db"/>
+  <circle cx="450" cy="50" r="2" fill="#e74c3c"/>
+  <circle cx="450" cy="320" r="2" fill="#9b59b6"/>
+  <circle cx="50" cy="50" r="2" fill="#16a085"/>
+  
+  <!-- Декоративные линии -->
+  <line x1="40" y1="340" x2="60" y2="340" stroke="#bdc3c7" stroke-width="1"/>
+  <line x1="440" y1="340" x2="460" y2="340" stroke="#bdc3c7" stroke-width="1"/>
 </svg>
