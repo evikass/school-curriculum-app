@@ -1,23 +1,183 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0c4a6e"/>
-      <stop offset="100%" style="stop-color:#06b6d4"/>
+      <stop offset="0%" style="stop-color:#f0f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#67e8f9;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#67e8f9;stop-opacity:0"/>
-    </radialGradient>
+    
+    <!-- Тень для текста -->
+    <filter id="textShadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="1" flood-opacity="0.3"/>
+    </filter>
+    
+    <!-- Паттерн для сетки -->
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#d1d5db" stroke-width="0.5"/>
+    </pattern>
   </defs>
+  
+  <!-- Фон -->
   <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#67e8f9" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#67e8f9" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#67e8f9" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#cffafe" text-anchor="middle">5</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#cffafe" text-anchor="middle" opacity="0.8">ГЕОМЕТРИЯ · 10–11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#cffafe" text-anchor="middle">Урок 5: Параллельность прямой и плоскости</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#67e8f9" text-anchor="middle" opacity="0.8">Урок 5 из 38</text>
-  <line x1="100" y1="200" x2="400" y2="200" stroke="#67e8f9" stroke-width="2" opacity="0.5"/><line x1="250" y1="80" x2="250" y2="280" stroke="#67e8f9" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Сетка -->
+  <rect width="500" height="350" fill="url(#grid)" opacity="0.5"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" 
+        text-anchor="middle" fill="#1e293b" filter="url(#textShadow)">
+    ГЕОМЕТРИЯ · 10 КЛАСС
+  </text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="16" 
+        text-anchor="middle" fill="#475569">
+    Урок 5: Параллельность прямой и плоскости
+  </text>
+  
+  <!-- Плоскость alpha -->
+  <g id="plane1">
+    <ellipse cx="250" cy="250" rx="120" ry="80" fill="#3b82f6" opacity="0.3" 
+             stroke="#2563eb" stroke-width="2"/>
+    <path d="M 130 250 L 370 250" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+    <path d="M 250 170 L 250 330" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+    <text x="380" y="255" font-family="Arial" font-size="14" fill="#2563eb">α</text>
+  </g>
+  
+  <!-- Плоскость beta -->
+  <g id="plane2">
+    <ellipse cx="250" cy="250" rx="100" ry="60" fill="#10b981" opacity="0.3" 
+             stroke="#059669" stroke-width="2" transform="translate(-50, 0)"/>
+    <path d="M 100 250 L 300 250" stroke="#059669" stroke-width="1" opacity="0.5"/>
+    <path d="M 200 190 L 200 310" stroke="#059669" stroke-width="1" opacity="0.5"/>
+    <text x="320" y="255" font-family="Arial" font-size="14" fill="#059669">β</text>
+  </g>
+  
+  <!-- Прямая a (параллельная плоскости) -->
+  <g id="line1">
+    <line x1="80" y1="120" x2="420" y2="120" stroke="#dc2626" stroke-width="3"/>
+    <circle cx="80" cy="120" r="4" fill="#dc2626"/>
+    <circle cx="420" cy="120" r="4" fill="#dc2626"/>
+    <text x="430" y="125" font-family="Arial" font-size="14" fill="#dc2626">a</text>
+    <!-- Стрелки на прямой -->
+    <polygon points="415,115 425,120 415,125" fill="#dc2626"/>
+  </g>
+  
+  <!-- Прямая b (пересекающая плоскость) -->
+  <g id="line2">
+    <line x1="100" y1="80" x2="250" y2="300" stroke="#7c3aed" stroke-width="3"/>
+    <circle cx="100" cy="80" r="4" fill="#7c3aed"/>
+    <circle cx="250" cy="300" r="4" fill="#7c3aed"/>
+    <text x="260" y="305" font-family="Arial" font-size="14" fill="#7c3aed">b</text>
+    <!-- Точка пересечения -->
+    <circle cx="250" cy="250" r="5" fill="#7c3aed" stroke="#fff" stroke-width="2"/>
+  </g>
+  
+  <!-- Прямая c (лежащая в плоскости) -->
+  <g id="line3">
+    <line x1="150" y1="220" x2="350" y2="220" stroke="#f59e0b" stroke-width="3"/>
+    <circle cx="150" cy="220" r="4" fill="#f59e0b"/>
+    <circle cx="350" cy="220" r="4" fill="#f59e0b"/>
+    <text x="360" y="225" font-family="Arial" font-size="14" fill="#f59e0b">c</text>
+  </g>
+  
+  <!-- Векторы нормалей к плоскостям -->
+  <g id="normals">
+    <!-- Нормаль к плоскости α -->
+    <line x1="250" y1="250" x2="250" y2="180" stroke="#1e40af" stroke-width="2" 
+          stroke-dasharray="5,5" opacity="0.7"/>
+    <polygon points="245,185 250,175 255,185" fill="#1e40af"/>
+    <text x="255" y="175" font-family="Arial" font-size="12" fill="#1e40af">n₁</text>
+    
+    <!-- Нормаль к плоскости β -->
+    <line x1="250" y1="250" x2="200" y2="180" stroke="#047857" stroke-width="2" 
+          stroke-dasharray="5,5" opacity="0.7"/>
+    <polygon points="195,185 200,175 205,185" fill="#047857"/>
+    <text x="180" y="175" font-family="Arial" font-size="12" fill="#047857">n₂</text>
+  </g>
+  
+  <!-- Углы -->
+  <g id="angles">
+    <!-- Угол между прямой и плоскостью -->
+    <path d="M 250 120 A 30 30 0 0 1 279 145" fill="none" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="290" y="135" font-family="Arial" font-size="12" fill="#6b7280">φ</text>
+  </g>
+  
+  <!-- Точки на прямой a -->
+  <g id="pointsOnLine">
+    <circle cx="150" cy="120" r="3" fill="#dc2626"/>
+    <circle cx="250" cy="120" r="3" fill="#dc2626"/>
+    <circle cx="350" cy="120" r="3" fill="#dc2626"/>
+    <text x="145" y="110" font-family="Arial" font-size="10" fill="#dc2626">A</text>
+    <text x="245" y="110" font-family="Arial" font-size="10" fill="#dc2626">B</text>
+    <text x="345" y="110" font-family="Arial" font-size="10" fill="#dc2626">C</text>
+  </g>
+  
+  <!-- Записи о параллельности -->
+  <g id="notations">
+    <!-- a || α -->
+    <text x="50" y="150" font-family="Arial" font-size="14" fill="#1e293b">
+      a ∥ α
+    </text>
+    <text x="50" y="165" font-family="Arial" font-size="12" fill="#64748b">
+      (прямая параллельна плоскости)
+    </text>
+    
+    <!-- b ∩ α = {M} -->
+    <text x="50" y="200" font-family="Arial" font-size="14" fill="#1e293b">
+      b ∩ α = {M}
+    </text>
+    <text x="50" y="215" font-family="Arial" font-size="12" fill="#64748b">
+      (прямая пересекает плоскость)
+    </text>
+    
+    <!-- c ⊂ α -->
+    <text x="50" y="250" font-family="Arial" font-size="14" fill="#1e293b">
+      c ⊂ α
+    </text>
+    <text x="50" y="265" font-family="Arial" font-size="12" fill="#64748b">
+      (прямая лежит в плоскости)
+    </text>
+  </g>
+  
+  <!-- Дополнительные элементы для объема -->
+  <g id="additionalElements">
+    <!-- Пунктирная линия, показывающая параллельность -->
+    <line x1="100" y1="100" x2="400" y2="100" stroke="#cbd5e1" stroke-width="1" 
+          stroke-dasharray="3,3" opacity="0.5"/>
+    
+    <!-- Маркеры для углов -->
+    <circle cx="250" cy="120" r="2" fill="#6b7280"/>
+    <circle cx="250" cy="250" r="2" fill="#6b7280"/>
+    
+    <!-- Дополнительные точки на плоскости -->
+    <circle cx="200" cy="280" r="2" fill="#3b82f6"/>
+    <circle cx="300" cy="280" r="2" fill="#3b82f6"/>
+    <circle cx="200" cy="220" r="2" fill="#3b82f6"/>
+    <circle cx="300" cy="220" r="2" fill="#3b82f6"/>
+  </g>
+  
+  <!-- Формула угла между прямой и плоскостью -->
+  <g id="formula">
+    <rect x="320" y="280" width="160" height="50" fill="white" stroke="#e5e7eb" 
+          stroke-width="1" rx="5"/>
+    <text x="330" y="300" font-family="Arial" font-size="12" fill="#1e293b">
+      sin φ = |cos(⟨a, n⟩)|
+    </text>
+    <text x="330" y="318" font-family="Arial" font-size="10" fill="#64748b">
+      где n - вектор нормали
+    </text>
+  </g>
+  
+  <!-- Условия параллельности -->
+  <g id="conditions">
+    <rect x="20" y="300" width="180" height="40" fill="white" stroke="#e5e7eb" 
+          stroke-width="1" rx="5"/>
+    <text x="30" y="315" font-family="Arial" font-size="11" fill="#1e293b">
+      a ∥ α ⇔ a ∥ b, где b ⊂ α
+    </text>
+    <text x="30" y="330" font-family="Arial" font-size="10" fill="#64748b">
+      (прямая параллельна любой прямой в плоскости)
+    </text>
+  </g>
 </svg>
