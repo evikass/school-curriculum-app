@@ -1,23 +1,147 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#451a03"/>
-      <stop offset="100%" style="stop-color:#a16207"/>
+      <stop offset="0%" style="stop-color:#f0f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fcd34d;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#fcd34d;stop-opacity:0"/>
-    </radialGradient>
+    
+    <!-- Тень для текста -->
+    <filter id="textShadow">
+      <feDropShadow dx="1" dy="1" stdDeviation="1" flood-opacity="0.3"/>
+    </filter>
+    
+    <!-- Декоративный узор -->
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#cbd5e1" stroke-width="0.5"/>
+    </pattern>
   </defs>
+  
+  <!-- Фон -->
   <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#fcd34d" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#fcd34d" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#fcd34d" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fef3c7" text-anchor="middle">28</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fef3c7" text-anchor="middle" opacity="0.8">ГЕОМЕТРИЯ · 10–11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fef3c7" text-anchor="middle">Урок 28: Решение задач методом координат</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fcd34d" text-anchor="middle" opacity="0.8">Урок 28 из 38</text>
-  <text x="200" y="220" font-size="32" fill="#fcd34d" opacity="0.5">x,y,z</text>
+  <rect width="500" height="350" fill="url(#grid)" opacity="0.5"/>
+  
+  <!-- Главный заголовок -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1e293b">
+    ГЕОМЕТРИЯ · 10 КЛАСС
+  </text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">
+    Урок 28: Решение задач методом координат
+  </text>
+  
+  <!-- Координатная сетка -->
+  <g id="coordinateSystem">
+    <!-- Оси -->
+    <line x1="50" y1="250" x2="450" y2="250" stroke="#334155" stroke-width="2"/>
+    <line x1="150" y1="80" x2="150" y2="320" stroke="#334155" stroke-width="2"/>
+    
+    <!-- Стрелки на осях -->
+    <polygon points="450,250 445,245 445,255" fill="#334155"/>
+    <polygon points="150,80 145,85 155,85" fill="#334155"/>
+    
+    <!-- Шкала X -->
+    <text x="245" y="270" font-family="Arial" font-size="12" fill="#475569">x</text>
+    <text x="140" y="240" font-family="Arial" font-size="10" fill="#64748b">0</text>
+    <text x="240" y="240" font-family="Arial" font-size="10" fill="#64748b">2</text>
+    <text x="340" y="240" font-family="Arial" font-size="10" fill="#64748b">4</text>
+    <text x="440" y="240" font-family="Arial" font-size="10" fill="#64748b">6</text>
+    
+    <!-- Шкала Y -->
+    <text x="160" y="95" font-family="Arial" font-size="12" fill="#475569">y</text>
+    <text x="130" y="255" font-family="Arial" font-size="10" fill="#64748b">0</text>
+    <text x="120" y="155" font-family="Arial" font-size="10" fill="#64748b">2</text>
+    <text x="115" y="105" font-family="Arial" font-size="10" fill="#64748b">4</text>
+    
+    <!-- Деления на сетке -->
+    <g stroke="#cbd5e1" stroke-width="0.5">
+      <line x1="250" y1="250" x2="250" y2="255"/>
+      <line x1="350" y1="250" x2="350" y2="255"/>
+      <line x1="50" y1="150" x2="55" y2="150"/>
+      <line x1="50" y1="100" x2="55" y2="100"/>
+      <line x1="50" y1="200" x2="55" y2="200"/>
+    </g>
+  </g>
+  
+  <!-- Точка A -->
+  <circle cx="200" cy="150" r="5" fill="#dc2626" stroke="#991b1b" stroke-width="2"/>
+  <text x="210" y="145" font-family="Arial" font-size="14" font-weight="bold" fill="#dc2626">A(2,2)</text>
+  
+  <!-- Точка B -->
+  <circle cx="300" cy="150" r="5" fill="#2563eb" stroke="#1e40af" stroke-width="2"/>
+  <text x="310" y="145" font-family="Arial" font-size="14" font-weight="bold" fill="#2563eb">B(4,2)</text>
+  
+  <!-- Точка C -->
+  <circle cx="300" cy="200" r="5" fill="#16a34a" stroke="#15803d" stroke-width="2"/>
+  <text x="310" y="205" font-family="Arial" font-size="14" font-weight="bold" fill="#16a34a">C(4,1)</text>
+  
+  <!-- Точка D -->
+  <circle cx="200" cy="200" r="5" fill="#9333ea" stroke="#7c3aed" stroke-width="2"/>
+  <text x="180" y="205" font-family="Arial" font-size="14" font-weight="bold" fill="#9333ea">D(2,1)</text>
+  
+  <!-- Отрезки ABCD -->
+  <g stroke="#334155" stroke-width="2" fill="none">
+    <line x1="200" y1="150" x2="300" y2="150"/>
+    <line x1="300" y1="150" x2="300" y2="200"/>
+    <line x1="300" y1="200" x2="200" y2="200"/>
+    <line x1="200" y1="200" x2="200" y2="150"/>
+  </g>
+  
+  <!-- Диагональ AC -->
+  <line x1="200" y1="150" x2="300" y2="200" stroke="#ef4444" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Диагональ BD -->
+  <line x1="300" y1="150" x2="200" y2="200" stroke="#3b82f6" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Точка пересечения диагоналей -->
+  <circle cx="250" cy="175" r="4" fill="#f59e0b" stroke="#d97706" stroke-width="2"/>
+  <text x="260" y="180" font-family="Arial" font-size="12" fill="#f59e0b">O(3,1.5)</text>
+  
+  <!-- Вектор AB -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#dc2626"/>
+    </marker>
+  </defs>
+  
+  <line x1="200" y1="150" x2="300" y2="150" stroke="#dc2626" stroke-width="3" marker-end="url(#arrowhead)" opacity="0.7"/>
+  <text x="250" y="140" text-anchor="middle" font-family="Arial" font-size="12" fill="#dc2626">AB</text>
+  
+  <!-- Вектор AD -->
+  <line x1="200" y1="150" x2="200" y2="200" stroke="#9333ea" stroke-width="3" marker-end="url(#arrowhead)" opacity="0.7"/>
+  <text x="185" y="175" font-family="Arial" font-size="12" fill="#9333ea">AD</text>
+  
+  <!-- Формулы в рамке -->
+  <g transform="translate(50, 280)">
+    <rect width="400" height="50" fill="white" stroke="#e2e8f0" stroke-width="2" rx="5"/>
+    <text x="10" y="20" font-family="Arial" font-size="12" fill="#475569">
+      d = √[(x₂-x₁)² + (y₂-y₁)²]  |  AB = √[(4-2)² + (2-2)²] = 2
+    </text>
+    <text x="10" y="40" font-family="Arial" font-size="12" fill="#475569">
+      S = ½|x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)|  |  S ABCD = 2
+    </text>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <g opacity="0.3">
+    <circle cx="100" cy="100" r="3" fill="#64748b"/>
+    <circle cx="120" cy="120" r="3" fill="#64748b"/>
+    <circle cx="380" cy="120" r="3" fill="#64748b"/>
+    <circle cx="400" cy="140" r="3" fill="#64748b"/>
+    <circle cx="80" cy="180" r="3" fill="#64748b"/>
+    <circle cx="420" cy="180" r="3" fill="#64748b"/>
+  </g>
+  
+  <!-- Декоративные линии -->
+  <g stroke="#e2e8f0" stroke-width="1" opacity="0.5">
+    <line x1="0" y1="60" x2="500" y2="60"/>
+    <line x1="0" y1="270" x2="500" y2="270"/>
+  </g>
+  
+  <!-- Указатель на метод -->
+  <g transform="translate(250, 120)">
+    <path d="M -20,-5 L 0,-20 L 20,-5 L 15,-5 L 15,5 L -15,5 L -15,-5 Z" fill="#fbbf24" stroke="#f59e0b" stroke-width="1"/>
+    <text x="0" y="20" text-anchor="middle" font-family="Arial" font-size="10" fill="#92400e">Метод координат</text>
+  </g>
 </svg>
