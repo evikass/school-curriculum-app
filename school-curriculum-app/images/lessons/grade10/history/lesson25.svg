@@ -1,0 +1,162 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c1810;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a2c1a;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Текстурная заливка -->
+    <pattern id="texture" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="none"/>
+      <circle cx="25" cy="25" r="0.5" fill="#5d3a2a" opacity="0.3"/>
+      <circle cx="75" cy="75" r="0.5" fill="#5d3a2a" opacity="0.3"/>
+      <circle cx="50" cy="50" r="0.5" fill="#5d3a2a" opacity="0.3"/>
+    </pattern>
+    
+    <!-- Тень текста -->
+    <filter id="textShadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="1" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  
+  <!-- Фоновый прямоугольник -->
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  <rect width="500" height="350" fill="url(#texture)" opacity="0.3"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#f4e4c1" filter="url(#textShadow)">УРОК 25</text>
+  
+  <text x="250" y="70" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#d4af37">ОСВОБОЖДЕНИЕ МОСКВЫ</text>
+  <text x="250" y="90" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#d4af37">И ЗАВЕРШЕНИЕ СМУТЫ</text>
+  
+  <!-- Декоративная рамка -->
+  <rect x="20" y="110" width="460" height="200" fill="none" stroke="#8b6914" stroke-width="2" opacity="0.6"/>
+  <rect x="25" y="115" width="450" height="190" fill="none" stroke="#8b6914" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Кремль -->
+  <g id="kremlin">
+    <rect x="60" y="150" width="120" height="80" fill="#8b4513" stroke="#654321" stroke-width="2"/>
+    <rect x="70" y="140" width="100" height="15" fill="#a0522d" stroke="#654321" stroke-width="1"/>
+    <!-- Башни -->
+    <rect x="65" y="135" width="10" height="20" fill="#654321"/>
+    <rect x="125" y="135" width="10" height="20" fill="#654321"/>
+    <rect x="155" y="135" width="10" height="20" fill="#654321"/>
+    <rect x="95" y="135" width="10" height="20" fill="#654321"/>
+    <!-- Флаги -->
+    <line x1="70" y1="135" x2="70" y2="125" stroke="#000" stroke-width="1"/>
+    <polygon points="70,125 80,130 70,135" fill="#d40000"/>
+    <line x1="130" y1="135" x2="130" y2="125" stroke="#000" stroke-width="1"/>
+    <polygon points="130,125 140,130 130,135" fill="#d40000"/>
+  </g>
+  
+  <!-- Дворец -->
+  <g id="palace">
+    <rect x="220" y="160" width="80" height="60" fill="#cd853f" stroke="#8b4513" stroke-width="2"/>
+    <polygon points="220,160 260,130 300,160" fill="#8b4513" stroke="#654321" stroke-width="2"/>
+    <rect x="235" y="180" width="15" height="25" fill="#654321"/>
+    <rect x="270" y="180" width="15" height="25" fill="#654321"/>
+    <rect x="250" y="175" width="20" height="20" fill="#87ceeb" stroke="#654321" stroke-width="1"/>
+  </g>
+  
+  <!-- Церковь -->
+  <g id="church">
+    <rect x="340" y="170" width="60" height="50" fill="#deb887" stroke="#8b4513" stroke-width="2"/>
+    <polygon points="340,170 370,150 400,170" fill="#8b4513"/>
+    <circle cx="370" cy="160" r="8" fill="#ffd700" stroke="#8b4513" stroke-width="1"/>
+    <rect x="365" y="165" width="10" height="20" fill="#8b4513"/>
+    <polygon points="365,185 370,195 375,185" fill="#8b4513"/>
+  </g>
+  
+  <!-- Деревья -->
+  <g id="trees">
+    <rect x="180" y="200" width="15" height="30" fill="#654321"/>
+    <circle cx="187.5" cy="195" r="12" fill="#228b22"/>
+    <rect x="160" y="210" width="12" height="25" fill="#654321"/>
+    <circle cx="166" cy="205" r="10" fill="#228b22"/>
+    <rect x="310" y="205" width="12" height="25" fill="#654321"/>
+    <circle cx="316" cy="200" r="10" fill="#228b22"/>
+  </g>
+  
+  <!-- Флаги победы -->
+  <g id="flags">
+    <line x1="90" y1="120" x2="90" y2="100" stroke="#000" stroke-width="1"/>
+    <polygon points="90,100 110,105 90,110" fill="#d40000"/>
+    <line x1="150" y1="120" x2="150" y2="100" stroke="#000" stroke-width="1"/>
+    <polygon points="150,100 170,105 150,110" fill="#d40000"/>
+    <line x1="210" y1="120" x2="210" y2="100" stroke="#000" stroke-width="1"/>
+    <polygon points="210,100 230,105 210,110" fill="#d40000"/>
+  </g>
+  
+  <!-- Армия -->
+  <g id="army">
+    <rect x="50" y="250" width="30" height="40" fill="#4169e1" stroke="#000" stroke-width="1"/>
+    <circle cx="65" cy="245" r="5" fill="#fdbcb4"/>
+    <rect x="90" y="250" width="30" height="40" fill="#4169e1" stroke="#000" stroke-width="1"/>
+    <circle cx="105" cy="245" r="5" fill="#fdbcb4"/>
+    <rect x="130" y="250" width="30" height="40" fill="#4169e1" stroke="#000" stroke-width="1"/>
+    <circle cx="145" cy="245" r="5" fill="#fdbcb4"/>
+  </g>
+  
+  <!-- Поляна -->
+  <ellipse cx="250" cy="280" rx="200" ry="40" fill="#90ee90" opacity="0.5"/>
+  
+  <!-- Надписи -->
+  <text x="120" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#f4e4c1">1612 г.</text>
+  <text x="260" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#f4e4c1">ДВОРЯНЕ</text>
+  <text x="370" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#f4e4c1">КАЗАКИ</text>
+  
+  <!-- Дата -->
+  <text x="250" y="330" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#d4af37">ОКТЯБРЬ 1612 - ИЮЛЬ 1613</text>
+  
+  <!-- Узор -->
+  <g id="ornament">
+    <path d="M 40 100 L 50 95 L 60 100 L 50 105 Z" fill="#8b6914" opacity="0.6"/>
+    <path d="M 440 100 L 450 95 L 460 100 L 450 105 Z" fill="#8b6914" opacity="0.6"/>
+    <circle cx="50" cy="100" r="2" fill="#d4af37"/>
+    <circle cx="450" cy="100" r="2" fill="#d4af37"/>
+  </g>
+  
+  <!-- Войско Минина и Пожарского -->
+  <g id="minin-pozharsky">
+    <rect x="350" y="250" width="25" height="35" fill="#dc143c" stroke="#000" stroke-width="1"/>
+    <circle cx="362.5" cy="245" r="4" fill="#fdbcb4"/>
+    <rect x="380" y="250" width="25" height="35" fill="#dc143c" stroke="#000" stroke-width="1"/>
+    <circle cx="392.5" cy="245" r="4" fill="#fdbcb4"/>
+  </g>
+  
+  <!-- Солнце -->
+  <circle cx="420" cy="140" r="15" fill="#ffd700" opacity="0.8"/>
+  <g id="sunrays">
+    <line x1="420" y1="120" x2="420" y2="110" stroke="#ffd700" stroke-width="2" opacity="0.6"/>
+    <line x1="405" y1="125" x2="395" y2="115" stroke="#ffd700" stroke-width="2" opacity="0.6"/>
+    <line x1="395" y1="140" x2="385" y2="140" stroke="#ffd700" stroke-width="2" opacity="0.6"/>
+    <line x1="405" y1="155" x2="395" y2="165" stroke="#ffd700" stroke-width="2" opacity="0.6"/>
+    <line x1="420" y1="160" x2="420" y2="170" stroke="#ffd700" stroke-width="2" opacity="0.6"/>
+    <line x1="435" y1="155" x2="445" y2="165" stroke="#ffd700" stroke-width="2" opacity="0.6"/>
+    <line x1="445" y1="140" x2="455" y2="140" stroke="#ffd700" stroke-width="2" opacity="0.6"/>
+    <line x1="435" y1="125" x2="445" y2="115" stroke="#ffd700" stroke-width="2" opacity="0.6"/>
+  </g>
+  
+  <!-- Надпись "СМУТА" -->
+  <text x="250" y="200" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#8b0000" opacity="0.7" transform="rotate(-5 250 200)">СМУТА</text>
+  
+  <!-- Эмблема -->
+  <g id="emblem">
+    <circle cx="30" cy="30" r="15" fill="none" stroke="#d4af37" stroke-width="2"/>
+    <polygon points="30,20 35,30 30,40 25,30" fill="#d4af37"/>
+    <rect x="27" y="30" width="6" height="10" fill="#d4af37"/>
+  </g>
+  
+  <!-- Шифр -->
+  <text x="470" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#8b6914" opacity="0.6">25/25</text>
+  
+  <!-- Подписи к зданиям -->
+  <text x="120" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#f4e4c1">КРЕМЛЬ</text>
+  <text x="260" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#f4e4c1">ГОРОД</text>
+  <text x="370" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#f4e4c1">СОБОР</text>
+  
+  <!-- Текст -->
+  <text x="250" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#f4e4c1">Народное ополчение</text>
+  <text x="250" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#f4e4c1">Минина и Пожарского</text>
+</svg>
