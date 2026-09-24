@@ -1,0 +1,151 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый узор -->
+  <defs>
+    <pattern id="bgPattern" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <rect width="50" height="50" fill="#f8f4e8"/>
+      <path d="M0 25 L50 25 M25 0 L25 50" stroke="#e8dcc0" stroke-width="0.5"/>
+    </pattern>
+    
+    <!-- Тень -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
+    
+    <!-- Градиент для царского венца -->
+    <linearGradient id="crownGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b8860b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgPattern)"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" font-family="Georgia, serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#8b4513">Урок 23: Опричнина</text>
+  <text x="250" y="60" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#666">ИСТОРИЯ · 10 КЛАСС</text>
+  
+  <!-- Даты -->
+  <text x="250" y="85" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#8b4513">1565-1572</text>
+  
+  <!-- Центральный элемент - Иван Грозный -->
+  <g transform="translate(250, 180)">
+    <!-- Тело -->
+    <rect x="-30" y="0" width="60" height="80" fill="#4a4a4a" rx="5"/>
+    
+    <!-- Голова -->
+    <circle cx="0" cy="-15" r="25" fill="#fdbcb4"/>
+    
+    <!-- Борода -->
+    <path d="M-20,-5 Q-20,10 -10,15 Q0,18 10,15 Q20,10 20,-5" fill="#654321"/>
+    
+    <!-- Глаза -->
+    <circle cx="-8" cy="-18" r="2" fill="#000"/>
+    <circle cx="8" cy="-18" r="2" fill="#000"/>
+    
+    <!-- Корона -->
+    <path d="M-25,-35 L-15,-50 L-5,-40 L5,-50 L15,-40 L25,-35 L25,-25 L-25,-25 Z" fill="url(#crownGrad)" filter="url(#shadow)"/>
+    
+    <!-- Меч опричника -->
+    <g transform="translate(35, 20)">
+      <rect x="0" y="0" width="3" height="40" fill="#c0c0c0"/>
+      <rect x="-2" y="-5" width="7" height="10" fill="#c0c0c0"/>
+      <line x1="-5" y1="40" x2="8" y2="40" stroke="#8b0000" stroke-width="2"/>
+    </g>
+  </g>
+  
+  <!-- Символы опричнины -->
+  <g transform="translate(100, 150)">
+    <!-- Собака -->
+    <ellipse cx="0" cy="20" rx="15" ry="10" fill="#8b4513"/>
+    <circle cx="-10" cy="15" r="8" fill="#8b4513"/>
+    <circle cx="10" cy="15" r="8" fill="#8b4513"/>
+    <path d="M-15,10 Q-15,5 -10,5 M15,10 Q15,5 10,5" stroke="#8b4513" stroke-width="2" fill="none"/>
+    <circle cx="-10" cy="12" r="2" fill="#000"/>
+    <circle cx="10" cy="12" r="2" fill="#000"/>
+    <text x="0" y="40" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#8b4513">Собака</text>
+  </g>
+  
+  <g transform="translate(400, 150)">
+    <!-- Кошка -->
+    <ellipse cx="0" cy="20" rx="15" ry="10" fill="#654321"/>
+    <circle cx="-10" cy="15" r="8" fill="#654321"/>
+    <circle cx="10" cy="15" r="8" fill="#654321"/>
+    <path d="M-15,8 Q-15,0 -10,0 M15,8 Q15,0 10,0" stroke="#654321" stroke-width="2" fill="none"/>
+    <circle cx="-10" cy="12" r="2" fill="#000"/>
+    <circle cx="10" cy="12" r="2" fill="#000"/>
+    <text x="0" y="40" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#8b4513">Кошка</text>
+  </g>
+  
+  <!-- Опричные символы -->
+  <g transform="translate(150, 250)">
+    <circle cx="0" cy="0" r="20" fill="#8b0000" opacity="0.8"/>
+    <path d="M-10,-5 L0,5 L10,-5" stroke="#ffd700" stroke-width="3" fill="none"/>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#8b4513">"Псы"</text>
+  </g>
+  
+  <g transform="translate(350, 250)">
+    <rect x="-15" y="-15" width="30" height="30" fill="#ffd700" opacity="0.8"/>
+    <path d="M0,-10 L-5,0 L0,5 L5,0 Z" fill="#8b0000"/>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#8b4513">Чиновник</text>
+  </g>
+  
+  <!-- Карта территории -->
+  <g transform="translate(250, 280)">
+    <rect x="-100" y="-20" width="200" height="40" fill="#d2691e" opacity="0.3" rx="5"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#8b4513">Опричная зона</text>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <!-- Перья -->
+  <g transform="translate(50, 100)">
+    <path d="M0,0 Q5,-10 10,0 Q5,5 0,0" fill="#fff" opacity="0.8"/>
+    <path d="M0,5 Q5,-5 10,5 Q5,10 0,5" fill="#fff" opacity="0.6"/>
+  </g>
+  
+  <g transform="translate(450, 100)">
+    <path d="M0,0 Q-5,-10 -10,0 Q-5,5 0,0" fill="#fff" opacity="0.8"/>
+    <path d="M0,5 Q-5,-5 -10,5 Q-5,10 0,5" fill="#fff" opacity="0.6"/>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="30" cy="30" r="3" fill="#8b4513"/>
+  <circle cx="470" cy="30" r="3" fill="#8b4513"/>
+  <circle cx="30" cy="320" r="3" fill="#8b4513"/>
+  <circle cx="470" cy="320" r="3" fill="#8b4513"/>
+  
+  <!-- Вспомогательные линии -->
+  <line x1="100" y1="130" x2="200" y2="180" stroke="#ddd" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="400" y1="130" x2="300" y2="180" stroke="#ddd" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="150" y1="230" x2="250" y2="200" stroke="#ddd" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="350" y1="230" x2="250" y2="200" stroke="#ddd" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- Надписи -->
+  <text x="80" y="200" font-family="Arial, sans-serif" font-size="10" fill="#666">1565</text>
+  <text x="420" y="200" font-family="Arial, sans-serif" font-size="10" fill="#666">1572</text>
+  
+  <!-- Геральдический щит -->
+  <g transform="translate(250, 120)">
+    <path d="M-15,0 L-10,-20 L0,-25 L10,-20 L15,0 L0,5 Z" fill="#8b0000" opacity="0.7"/>
+    <path d="M-8,-15 L0,-20 L8,-15 L5,-10 L0,-5 L-5,-10 Z" fill="#ffd700"/>
+  </g>
+  
+  <!-- Дополнительные символы -->
+  <g transform="translate(100, 280)">
+    <rect x="-10" y="-5" width="20" height="10" fill="#654321" rx="2"/>
+    <rect x="-5" y="-8" width="10" height="3" fill="#654321"/>
+  </g>
+  
+  <g transform="translate(400, 280)">
+    <circle cx="0" cy="0" r="8" fill="#c0c0c0"/>
+    <rect x="-2" y="-8" width="4" height="16" fill="#c0c0c0"/>
+  </g>
+  
+  <!-- Даты на полях -->
+  <text x="50" y="150" font-family="Arial, sans-serif" font-size="9" fill="#999">Иван IV</text>
+  <text x="50" y="165" font-family="Arial, sans-serif" font-size="9" fill="#999">1530-1584</text>
+  
+  <!-- Орнамент -->
+  <path d="M20,200 Q30,190 40,200 Q50,210 60,200" stroke="#8b4513" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M440,200 Q430,190 420,200 Q410,210 400,200" stroke="#8b4513" stroke-width="1" fill="none" opacity="0.5"/>
+</svg>
