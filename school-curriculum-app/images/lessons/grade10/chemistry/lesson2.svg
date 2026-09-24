@@ -1,0 +1,127 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="50" cy="50" r="30" fill="#e3f2fd" opacity="0.5"/>
+  <circle cx="450" cy="300" r="40" fill="#e8f5e9" opacity="0.5"/>
+  <rect x="400" y="20" width="80" height="80" fill="#fce4ec" opacity="0.3" transform="rotate(45 440 60)"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1565c0">ХИМИЯ · 10 КЛАСС</text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#424242">Урок 2: Теория строения органических соединений</text>
+  <text x="250" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#616161">А.М. Бутлерова</text>
+  
+  <!-- Рамка для основного контента -->
+  <rect x="40" y="110" width="420" height="220" fill="white" stroke="#90caf9" stroke-width="2" rx="10"/>
+  
+  <!-- Основной текст -->
+  <text x="60" y="140" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1565c0">Основные положения теории:</text>
+  
+  <!-- Пункт 1 -->
+  <circle cx="75" cy="165" r="3" fill="#1976d2"/>
+  <text x="85" y="170" font-family="Arial, sans-serif" font-size="14" fill="#424242">Атомы в органических соединениях связаны химическими связями</text>
+  
+  <!-- Пункт 2 -->
+  <circle cx="75" cy="190" r="3" fill="#1976d2"/>
+  <text x="85" y="195" font-family="Arial, sans-serif" font-size="14" fill="#424242">Структура определяет свойства соединения</text>
+  
+  <!-- Пункт 3 -->
+  <circle cx="75" cy="215" r="3" fill="#1976d2"/>
+  <text x="85" y="220" font-family="Arial, sans-serif" font-size="14" fill="#424242">Изомерия - следствие разных расположений атомов</text>
+  
+  <!-- Пункт 4 -->
+  <circle cx="75" cy="240" r="3" fill="#1976d2"/>
+  <text x="85" y="245" font-family="Arial, sans-serif" font-size="14" fill="#424242">Химические реакции протекают с сохранением связей</text>
+  
+  <!-- Пункт 5 -->
+  <circle cx="75" cy="265" r="3" fill="#1976d2"/>
+  <text x="85" y="270" font-family="Arial, sans-serif" font-size="14" fill="#424242">Углерод способен образовывать цепи и циклы</text>
+  
+  <!-- Декоративный элемент - молекула -->
+  <g transform="translate(350, 150)">
+    <!-- Углерод -->
+    <circle cx="0" cy="0" r="8" fill="#424242"/>
+    <text x="0" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">C</text>
+    
+    <!-- Водород -->
+    <circle cx="-25" cy="0" r="6" fill="#e0e0e0"/>
+    <text x="-25" y="3" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#424242">H</text>
+    
+    <circle cx="25" cy="0" r="6" fill="#e0e0e0"/>
+    <text x="25" y="3" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#424242">H</text>
+    
+    <circle cx="0" cy="-25" r="6" fill="#e0e0e0"/>
+    <text x="0" y="-22" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#424242">H</text>
+    
+    <circle cx="0" cy="25" r="6" fill="#e0e0e0"/>
+    <text x="0" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#424242">H</text>
+    
+    <!-- Связи -->
+    <line x1="-17" y1="0" x2="-8" y2="0" stroke="#757575" stroke-width="2"/>
+    <line x1="8" y1="0" x2="17" y2="0" stroke="#757575" stroke-width="2"/>
+    <line x1="0" y1="-17" x2="0" y2="-8" stroke="#757575" stroke-width="2"/>
+    <line x1="0" y1="8" x2="0" y2="17" stroke="#757575" stroke-width="2"/>
+  </g>
+  
+  <!-- Второй молекулярный пример -->
+  <g transform="translate(350, 220)">
+    <!-- Углерод 1 -->
+    <circle cx="0" cy="0" r="8" fill="#424242"/>
+    <text x="0" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">C</text>
+    
+    <!-- Углерод 2 -->
+    <circle cx="30" cy="0" r="8" fill="#424242"/>
+    <text x="30" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">C</text>
+    
+    <!-- Связь между углеродами -->
+    <line x1="8" y1="0" x2="22" y2="0" stroke="#757575" stroke-width="3"/>
+    
+    <!-- Водороди на первом углероде -->
+    <circle cx="-15" cy="0" r="5" fill="#e0e0e0"/>
+    <text x="-15" y="3" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#424242">H</text>
+    <circle cx="0" cy="-15" r="5" fill="#e0e0e0"/>
+    <text x="0" y="-12" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#424242">H</text>
+    <circle cx="0" cy="15" r="5" fill="#e0e0e0"/>
+    <text x="0" y="18" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#424242">H</text>
+    
+    <!-- Водороди на втором углероде -->
+    <circle cx="45" cy="0" r="5" fill="#e0e0e0"/>
+    <text x="45" y="3" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#424242">H</text>
+    <circle cx="30" cy="-15" r="5" fill="#e0e0e0"/>
+    <text x="30" y="-12" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#424242">H</text>
+    <circle cx="30" cy="15" r="5" fill="#e0e0e0"/>
+    <text x="30" y="18" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#424242">H</text>
+    
+    <!-- Связи -->
+    <line x1="-10" y1="0" x2="-8" y2="0" stroke="#757575" stroke-width="1.5"/>
+    <line x1="0" y1="-10" x2="0" y2="-8" stroke="#757575" stroke-width="1.5"/>
+    <line x1="0" y1="8" x2="0" y2="10" stroke="#757575" stroke-width="1.5"/>
+    <line x1="38" y1="0" x2="40" y2="0" stroke="#757575" stroke-width="1.5"/>
+    <line x1="30" y1="-10" x2="30" y2="-8" stroke="#757575" stroke-width="1.5"/>
+    <line x1="30" y1="8" x2="30" y2="10" stroke="#757575" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <rect x="40" y="340" width="420" height="5" fill="#90caf9" opacity="0.5"/>
+  
+  <!-- Маленькие декоративные атомы -->
+  <circle cx="100" cy="330" r="4" fill="#ffeb3b" opacity="0.6"/>
+  <circle cx="120" cy="335" r="3" fill="#4caf50" opacity="0.6"/>
+  <circle cx="380" cy="330" r="4" fill="#ff5722" opacity="0.6"/>
+  <circle cx="400" cy="335" r="3" fill="#2196f3" opacity="0.6"/>
+  
+  <!-- Гиперссылка (если нужно) -->
+  <text x="250" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1976d2" cursor="pointer">
+    <tspan>Подробнее о теории строения органических соединений</tspan>
+    <tspan dx="5">→</tspan>
+  </text>
+  
+  <!-- Уголки украшения -->
+  <path d="M 45 115 L 45 125 L 55 115" fill="none" stroke="#90caf9" stroke-width="2"/>
+  <path d="M 45 325 L 45 315 L 55 325" fill="none" stroke="#90caf9" stroke-width="2"/>
+  <path d="M 455 115 L 455 125 L 445 115" fill="none" stroke="#90caf9" stroke-width="2"/>
+  <path d="M 455 325 L 455 315 L 445 325" fill="none" stroke="#90caf9" stroke-width="2"/>
+</svg>
