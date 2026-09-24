@@ -1,23 +1,146 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#7f1d1d"/>
-      <stop offset="100%" style="stop-color:#dc2626"/>
+      <stop offset="0%" style="stop-color:#f0f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fca5a5;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#fca5a5;stop-opacity:0"/>
-    </radialGradient>
+    
+    <!-- Тень для элементов -->
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+    
+    <!-- Заливка для прямоугольника -->
+    <pattern id="gridPattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#d1d5db" stroke-width="0.5"/>
+    </pattern>
   </defs>
+  
+  <!-- Фон -->
   <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#fca5a5" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#fca5a5" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#fca5a5" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fee2e2" text-anchor="middle">13</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fee2e2" text-anchor="middle" opacity="0.8">ГЕОМЕТРИЯ · 10–11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fee2e2" text-anchor="middle">Урок 13: Решение задач на перпендикулярность</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fca5a5" text-anchor="middle" opacity="0.8">Урок 13 из 38</text>
-  <line x1="100" y1="250" x2="400" y2="120" stroke="#fca5a5" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Сетка для геометрической фигуры -->
+  <rect x="50" y="80" width="200" height="200" fill="url(#gridPattern)" opacity="0.3"/>
+  
+  <!-- Основная геометрическая фигура - перпендикулярные линии -->
+  <g id="perpendicular-lines">
+    <!-- Горизонтальная линия -->
+    <line x1="60" y1="200" x2="240" y2="200" stroke="#1e40af" stroke-width="3" marker-end="url(#arrowBlue)"/>
+    
+    <!-- Вертикальная линия -->
+    <line x1="150" y1="260" x2="150" y2="100" stroke="#dc2626" stroke-width="3" marker-end="url(#arrowRed)"/>
+    
+    <!-- Точка пересечения -->
+    <circle cx="150" cy="200" r="6" fill="#059669" filter="url(#shadow)"/>
+    
+    <!-- Угол 90 градусов -->
+    <path d="M 170 200 A 20 20 0 0 0 150 180" fill="none" stroke="#6b7280" stroke-width="2"/>
+    <text x="175" y="185" font-family="Arial, sans-serif" font-size="14" fill="#374151">90°</text>
+  </g>
+  
+  <!-- Маркеры стрелок -->
+  <defs>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1e40af"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#dc2626"/>
+    </marker>
+  </defs>
+  
+  <!-- Дополнительная геометрическая фигура - прямоугольник с перпендикулярами -->
+  <g id="rectangle-perpendicular">
+    <!-- Прямоугольник -->
+    <rect x="320" y="120" width="120" height="80" fill="none" stroke="#7c3aed" stroke-width="2" stroke-dasharray="5,5"/>
+    
+    <!-- Перпендикуляры к сторонам -->
+    <line x1="320" y1="140" x2="290" y2="140" stroke="#f59e0b" stroke-width="2"/>
+    <line x1="440" y1="160" x2="470" y2="160" stroke="#f59e0b" stroke-width="2"/>
+    
+    <!-- Точки на сторонах -->
+    <circle cx="320" cy="140" r="4" fill="#f59e0b"/>
+    <circle cx="440" cy="160" r="4" fill="#f59e0b"/>
+  </g>
+  
+  <!-- Текст заголовка -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1f2937">ГЕОМЕТРИЯ · 10 КЛАСС</text>
+  
+  <!-- Текст урока -->
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#4b5563">Урок 13: Решение задач на перпендикулярность</text>
+  
+  <!-- Формулы и определения -->
+  <g id="formulas">
+    <!-- Формула перпендикулярности векторов -->
+    <rect x="60" y="300" width="380" height="35" fill="white" stroke="#e5e7eb" stroke-width="1" rx="5" filter="url(#shadow)"/>
+    <text x="70" y="322" font-family="Arial, sans-serif" font-size="14" fill="#374151">
+      <tspan font-weight="bold">Перпендикулярность векторов:</tspan>
+      <tspan x="220">a ⊥ b ⇔ a · b = 0</tspan>
+    </text>
+  </g>
+  
+  <!-- Дополнительные элементы для иллюстрации -->
+  <g id="additional-elements">
+    <!-- Вспомогательная линия -->
+    <line x1="60" y1="250" x2="240" y2="250" stroke="#9ca3af" stroke-width="1" stroke-dasharray="2,2"/>
+    
+    <!-- Угловые отметки -->
+    <circle cx="150" cy="200" r="15" fill="none" stroke="#6b7280" stroke-width="1" opacity="0.5"/>
+    <circle cx="150" cy="200" r="25" fill="none" stroke="#6b7280" stroke-width="1" opacity="0.3"/>
+    
+    <!-- Координатные метки -->
+    <text x="240" y="205" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">a</text>
+    <text x="155" y="95" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">b</text>
+  </g>
+  
+  <!-- Индикаторы перпендикулярности -->
+  <g id="perpendicular-indicators">
+    <!-- Малые квадраты в углах -->
+    <rect x="165" y="185" width="10" height="10" fill="none" stroke="#059669" stroke-width="2" transform="rotate(45 170 190)"/>
+    
+    <!-- Дополнительные символы -->
+    <text x="300" y="150" font-family="Arial, sans-serif" font-size="20" fill="#7c3aed">⊥</text>
+    <text x="380" y="190" font-family="Arial, sans-serif" font-size="16" fill="#4b5563">перпендикулярно</text>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <g id="decorative">
+    <!-- Геометрические фигуры в углах -->
+    <circle cx="30" cy="30" r="8" fill="none" stroke="#d1d5db" stroke-width="1"/>
+    <rect x="465" y="25" width="15" height="15" fill="none" stroke="#d1d5db" stroke-width="1" transform="rotate(45 472.5 32.5)"/>
+    
+    <!-- Точки по сетке -->
+    <circle cx="80" cy="100" r="2" fill="#9ca3af"/>
+    <circle cx="100" cy="100" r="2" fill="#9ca3af"/>
+    <circle cx="120" cy="100" r="2" fill="#9ca3af"/>
+    <circle cx="140" cy="100" r="2" fill="#9ca3af"/>
+    <circle cx="160" cy="100" r="2" fill="#9ca3af"/>
+    <circle cx="180" cy="100" r="2" fill="#9ca3af"/>
+    <circle cx="200" cy="100" r="2" fill="#9ca3af"/>
+    <circle cx="220" cy="100" r="2" fill="#9ca3af"/>
+  </g>
+  
+  <!-- Номера точек -->
+  <g id="point-labels">
+    <text x="145" y="215" font-family="Arial, sans-serif" font-size="12" fill="#059669" font-weight="bold">O</text>
+    <text x="245" y="215" font-family="Arial, sans-serif" font-size="12" fill="#1e40af">A</text>
+    <text x="155" y="85" font-family="Arial, sans-serif" font-size="12" fill="#dc2626">B</text>
+  </g>
+  
+  <!-- Вспомогательные линии построения -->
+  <g id="construction-lines" opacity="0.3">
+    <line x1="150" y1="200" x2="200" y2="250" stroke="#6b7280" stroke-width="1" stroke-dasharray="3,3"/>
+    <line x1="150" y1="200" x2="100" y2="250" stroke="#6b7280" stroke-width="1" stroke-dasharray="3,3"/>
+  </g>
+  
+  <!-- Легенда -->
+  <g id="legend">
+    <rect x="60" y="70" width="190" height="60" fill="white" stroke="#e5e7eb" stroke-width="1" rx="3" opacity="0.9"/>
+    <line x1="70" y1="85" x2="100" y2="85" stroke="#1e40af" stroke-width="3"/>
+    <text x="105" y="89" font-family="Arial, sans-serif" font-size="12" fill="#374151">Вектор a</text>
+    <line x1="70" y1="105" x2="70" y2="135" stroke="#dc2626" stroke-width="3"/>
+    <text x="75" y="120" font-family="Arial, sans-serif" font-size="12" fill="#374151">Вектор b</text>
+    <circle cx="85" cy="125" r="3" fill="#059669"/>
+    <text x="90" y="129" font-family="Arial, sans-serif" font-size="12" fill="#374151">Точка O</text>
+  </g>
 </svg>
