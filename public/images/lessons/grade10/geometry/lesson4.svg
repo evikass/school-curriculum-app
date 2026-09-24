@@ -1,23 +1,123 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый узор -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0c4a6e"/>
-      <stop offset="100%" style="stop-color:#06b6d4"/>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+    </pattern>
+    
+    <!-- Тень -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.2"/>
+    </filter>
+    
+    <!-- Градиент для заголовка -->
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3498db;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#67e8f9;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#67e8f9;stop-opacity:0"/>
-    </radialGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#67e8f9" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#67e8f9" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#67e8f9" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#cffafe" text-anchor="middle">4</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#cffafe" text-anchor="middle" opacity="0.8">ГЕОМЕТРИЯ · 10–11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#cffafe" text-anchor="middle">Урок 4: Параллельность прямых в пространстве</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#67e8f9" text-anchor="middle" opacity="0.8">Урок 4 из 38</text>
-  <line x1="100" y1="200" x2="400" y2="200" stroke="#67e8f9" stroke-width="2" opacity="0.5"/><line x1="250" y1="80" x2="250" y2="280" stroke="#67e8f9" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Сетка фона -->
+  <rect width="500" height="350" fill="url(#grid)"/>
+  
+  <!-- Заголовок -->
+  <rect x="50" y="20" width="400" height="50" fill="url(#headerGrad)" rx="5" filter="url(#shadow)"/>
+  <text x="250" y="50" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+    ГЕОМЕТРИЯ · 10 КЛАСС
+  </text>
+  
+  <!-- Надпись урока -->
+  <rect x="150" y="80" width="200" height="30" fill="#34495e" rx="15" filter="url(#shadow)"/>
+  <text x="250" y="100" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16">
+    Урок 4: Параллельность прямых в пространстве
+  </text>
+  
+  <!-- Две параллельные прямые в пространстве -->
+  <g id="parallel-lines" transform="translate(250, 150)">
+    <!-- Первая прямая -->
+    <line x1="-100" y1="0" x2="100" y2="0" stroke="#e74c3c" stroke-width="3"/>
+    <!-- Вторая параллельная прямая -->
+    <line x1="-100" y1="40" x2="100" y2="40" stroke="#3498db" stroke-width="3"/>
+    <!-- Стрелки на прямых -->
+    <path d="M 95 0 L 100 0 L 97 -3 M 100 0 L 97 3" stroke="#e74c3c" stroke-width="2" fill="none"/>
+    <path d="M 95 40 L 100 40 L 97 37 M 100 40 L 97 43" stroke="#3498db" stroke-width="2" fill="none"/>
+    <!-- Обозначения -->
+    <text x="-110" y="5" fill="#e74c3c" font-family="Arial" font-size="14" font-style="italic">a</text>
+    <text x="-110" y="45" fill="#3498db" font-family="Arial" font-size="14" font-style="italic">b</text>
+  </g>
+  
+  <!-- Точка пересечения с третьей прямой -->
+  <g id="intersecting-line" transform="translate(250, 150)">
+    <!-- Третья прямая, пересекающая две параллельные -->
+    <line x1="-80" y1="-40" x2="80" y2="80" stroke="#27ae60" stroke-width="3"/>
+    <!-- Точка пересечения -->
+    <circle cx="0" cy="0" r="5" fill="#e74c3c"/>
+    <circle cx="0" cy="40" r="5" fill="#3498db"/>
+    <!-- Обозначение третьей прямой -->
+    <text x="85" y="85" fill="#27ae60" font-family="Arial" font-size="14" font-style="italic">c</text>
+  </g>
+  
+  <!-- Вспомогательные элементы -->
+  <!-- Углы при пересечении -->
+  <g id="angles" transform="translate(250, 150)">
+    <path d="M 20 0 A 20 20 0 0 0 14.14 14.14" stroke="#9b59b6" stroke-width="2" fill="none"/>
+    <text x="25" y="10" fill="#9b59b6" font-family="Arial" font-size="12">α</text>
+    
+    <path d="M 20 40 A 20 20 0 0 1 14.14 54.14" stroke="#f39c12" stroke-width="2" fill="none"/>
+    <text x="25" y="55" fill="#f39c12" font-family="Arial" font-size="12">β</text>
+  </g>
+  
+  <!-- Перпендикулярная проекция -->
+  <g id="projection" transform="translate(250, 150)">
+    <line x1="0" y1="-30" x2="0" y2="70" stroke="#95a5a6" stroke-width="1" stroke-dasharray="5,5"/>
+    <line x1="-80" y1="40" x2="0" y2="40" stroke="#95a5a6" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="-90" y="45" fill="#7f8c8d" font-family="Arial" font-size="10">d</text>
+  </g>
+  
+  <!-- Вектор направления -->
+  <g id="vector" transform="translate(250, 150)">
+    <line x1="120" y1="0" x2="160" y2="0" stroke="#e67e22" stroke-width="2"/>
+    <path d="M 160 0 L 157 -3 M 160 0 L 157 3" stroke="#e67e22" stroke-width="2" fill="none"/>
+    <text x="165" y="5" fill="#e67e22" font-family="Arial" font-size="12">v</text>
+  </g>
+  
+  <!-- Дополнительные параллельные линии для демонстрации -->
+  <g id="more-parallel-lines">
+    <line x1="80" y1="240" x2="420" y2="240" stroke="#16a085" stroke-width="2"/>
+    <line x1="80" y1="260" x2="420" y2="260" stroke="#16a085" stroke-width="2"/>
+    <line x1="80" y1="280" x2="420" y2="280" stroke="#16a085" stroke-width="2"/>
+    
+    <!-- Соединяющие элементы -->
+    <line x1="120" y1="240" x2="120" y2="280" stroke="#16a085" stroke-width="1" stroke-dasharray="3,3"/>
+    <line x1="200" y1="240" x2="200" y2="280" stroke="#16a085" stroke-width="1" stroke-dasharray="3,3"/>
+    <line x1="280" y1="240" x2="280" y2="280" stroke="#16a085" stroke-width="1" stroke-dasharray="3,3"/>
+    <line x1="360" y1="240" x2="360" y2="280" stroke="#16a085" stroke-width="1" stroke-dasharray="3,3"/>
+  </g>
+  
+  <!-- Уравнения параллельных прямых -->
+  <g id="equations" transform="translate(50, 300)">
+    <rect x="0" y="0" width="400" height="40" fill="#ecf0f1" rx="5" stroke="#bdc3c7" stroke-width="1"/>
+    <text x="20" y="25" fill="#2c3e50" font-family="Arial" font-size="12">
+      ax + by + c₁ = 0  ||  ax + by + c₂ = 0
+    </text>
+    <text x="300" y="25" fill="#2c3e50" font-family="Arial" font-size="12">
+      A₁/A₂ = B₁/B₂ ≠ C₁/C₂
+    </text>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="50" cy="150" r="3" fill="#3498db"/>
+  <circle cx="450" cy="150" r="3" fill="#3498db"/>
+  <circle cx="50" cy="190" r="3" fill="#e74c3c"/>
+  <circle cx="450" cy="190" r="3" fill="#e74c3c"/>
+  
+  <!-- Углы в градусах -->
+  <text x="200" y="140" fill="#9b59b6" font-family="Arial" font-size="10">60°</text>
+  <text x="200" y="200" fill="#f39c12" font-family="Arial" font-size="10">60°</text>
+  
+  <!-- Расстояние между параллельными прямыми -->
+  <line x1="370" y1="150" x2="370" y2="190" stroke="#e74c3c" stroke-width="2"/>
+  <line x1="365" y1="150" x2="375" y2="150" stroke="#e74c3c" stroke-width="2"/>
+  <line x1="365" y1="190" x2="375" y2="190" stroke="#e74c3c" stroke-width="2"/>
+  <text x="375" y="175" fill="#e74c3c" font-family="Arial" font-size="10">d</text>
 </svg>
