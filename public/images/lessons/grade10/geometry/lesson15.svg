@@ -1,23 +1,136 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#365314"/>
-      <stop offset="100%" style="stop-color:#65a30d"/>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#bef264;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#bef264;stop-opacity:0"/>
-    </radialGradient>
+    
+    <linearGradient id="pyramidGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4299e1;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#2b6cb0;stop-opacity:0.9" />
+    </linearGradient>
+    
+    <linearGradient id="baseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3182ce;stop-opacity:0.7" />
+      <stop offset="50%" style="stop-color:#4299e1;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#3182ce;stop-opacity:0.7" />
+    </linearGradient>
+    
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
   </defs>
+  
+  <!-- Фон -->
   <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#bef264" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#bef264" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#bef264" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#d9f99d" text-anchor="middle">15</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#d9f99d" text-anchor="middle" opacity="0.8">ГЕОМЕТРИЯ · 10–11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#d9f99d" text-anchor="middle">Урок 15: Пирамида. Правильная пирамида</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#bef264" text-anchor="middle" opacity="0.8">Урок 15 из 38</text>
-  <polygon points="200,120 300,120 280,220 180,220" fill="#bef264" opacity="0.2"/><polygon points="200,120 300,120 280,220 180,220" fill="none" stroke="#bef264" stroke-width="2"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1a365d">
+    ГЕОМЕТРИЯ · 10 КЛАСС
+  </text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#2d3748">
+    Урок 15: Пирамида. Правильная пирамида
+  </text>
+  
+  <!-- Основная пирамида -->
+  <g transform="translate(250, 180)">
+    <!-- Основание пирамиды -->
+    <path d="M -80 40 L 80 40 L 80 60 L -80 60 Z" fill="url(#baseGrad)" stroke="#2b6cb0" stroke-width="2"/>
+    
+    <!-- Боковые грани -->
+    <path d="M -80 40 L 0 -60 L 80 40 Z" fill="url(#pyramidGrad)" stroke="#2b6cb0" stroke-width="2" opacity="0.9"/>
+    <path d="M 0 -60 L 80 40 L 80 60 L 0 0 Z" fill="url(#pyramidGrad)" stroke="#2b6cb0" stroke-width="2" opacity="0.8"/>
+    <path d="M -80 40 L 0 0 L 80 40 Z" fill="url(#pyramidGrad)" stroke="#2b6cb0" stroke-width="2" opacity="0.7"/>
+    
+    <!-- Ребра -->
+    <line x1="0" y1="-60" x2="-80" y2="40" stroke="#1a365d" stroke-width="2" stroke-dasharray="5,3"/>
+    <line x1="0" y1="-60" x2="80" y2="40" stroke="#1a365d" stroke-width="2" stroke-dasharray="5,3"/>
+    <line x1="0" y1="-60" x2="0" y2="0" stroke="#1a365d" stroke-width="2" stroke-dasharray="5,3"/>
+    
+    <!-- Апофема -->
+    <line x1="0" y1="-60" x2="0" y2="40" stroke="#e53e3e" stroke-width="3" stroke-dasharray="8,4"/>
+    <text x="15" y="-10" font-family="Arial" font-size="14" fill="#e53e3e">апофема</text>
+    
+    <!-- Вершина -->
+    <circle cx="0" cy="-60" r="4" fill="#1a365d"/>
+    <text x="10" y="-60" font-family="Arial" font-size="12" fill="#1a365d">S</text>
+    
+    <!-- Центр основания -->
+    <circle cx="0" cy="0" r="3" fill="#e53e3e"/>
+    <text x="10" y="5" font-family="Arial" font-size="12" fill="#e53e3e">O</text>
+  </g>
+  
+  <!-- Правильная пирамида справа -->
+  <g transform="translate(420, 180)">
+    <!-- Основание (шестиугольник) -->
+    <path d="M -40 20 L -20 0 L 20 0 L 40 20 L 20 40 L -20 40 Z" 
+          fill="url(#baseGrad)" stroke="#2b6cb0" stroke-width="2" opacity="0.7"/>
+    
+    <!-- Боковые грани -->
+    <path d="M -40 20 L 0 -50 L 20 0 Z" fill="url(#pyramidGrad)" stroke="#2b6cb0" stroke-width="1.5" opacity="0.8"/>
+    <path d="M 20 0 L 0 -50 L 40 20 Z" fill="url(#pyramidGrad)" stroke="#2b6cb0" stroke-width="1.5" opacity="0.8"/>
+    <path d="M 40 20 L 20 0 L 20 40 Z" fill="url(#pyramidGrad)" stroke="#2b6cb0" stroke-width="1.5" opacity="0.7"/>
+    <path d="M 20 40 L -20 40 L 20 0 Z" fill="url(#pyramidGrad)" stroke="#2b6cb0" stroke-width="1.5" opacity="0.7"/>
+    <path d="M -20 40 L -40 20 L -20 0 Z" fill="url(#pyramidGrad)" stroke="#2b6cb0" stroke-width="1.5" opacity="0.7"/>
+    <path d="M -20 0 L -40 20 L 0 -50 Z" fill="url(#pyramidGrad)" stroke="#2b6cb0" stroke-width="1.5" opacity="0.7"/>
+    
+    <!-- Вершина -->
+    <circle cx="0" cy="-50" r="3" fill="#1a365d"/>
+    <text x="8" y="-50" font-family="Arial" font-size="10" fill="#1a365d">S</text>
+    
+    <!-- Центр основания -->
+    <circle cx="0" cy="20" r="2" fill="#e53e3e"/>
+  </g>
+  
+  <!-- Формулы и определения -->
+  <g transform="translate(50, 280)">
+    <rect x="0" y="0" width="400" height="50" fill="#f7fafc" stroke="#cbd5e0" stroke-width="1" rx="5"/>
+    
+    <text x="10" y="20" font-family="Arial" font-size="12" fill="#2d3748">
+      <tspan font-weight="bold">Правильная пирамида:</tspan> основание - правильный n-угольник,
+    </text>
+    <text x="10" y="35" font-family="Arial" font-size="12" fill="#2d3748">
+      все боковые ребра равны, апофемы равны, вершина проецируется в центр основания
+    </text>
+  </g>
+  
+  <!-- Обозначения элементов -->
+  <g transform="translate(50, 100)">
+    <text x="0" y="0" font-family="Arial" font-size="12" fill="#4a5568">
+      <tspan x="0" dy="0">a - сторона основания</tspan>
+      <tspan x="0" dy="15">l - боковое ребро</tspan>
+      <tspan x="0" dy="15">h - высота пирамиды</tspan>
+      <tspan x="0" dy="15">k - апофема</tspan>
+    </text>
+  </g>
+  
+  <!-- Геометрические элементы для украшения -->
+  <g opacity="0.3">
+    <circle cx="30" cy="30" r="15" fill="none" stroke="#4299e1" stroke-width="1"/>
+    <circle cx="470" cy="30" r="20" fill="none" stroke="#4299e1" stroke-width="1"/>
+    <rect x="10" y="320" width="30" height="20" fill="none" stroke="#4299e1" stroke-width="1" transform="rotate(45 25 330)"/>
+    <rect x="460" y="320" width="30" height="20" fill="none" stroke="#4299e1" stroke-width="1" transform="rotate(30 475 330)"/>
+  </g>
+  
+  <!-- Линии сетки -->
+  <g opacity="0.1">
+    <line x1="0" y1="100" x2="500" y2="100" stroke="#718096" stroke-width="1"/>
+    <line x1="0" y1="150" x2="500" y2="150" stroke="#718096" stroke-width="1"/>
+    <line x1="0" y1="200" x2="500" y2="200" stroke="#718096" stroke-width="1"/>
+    <line x1="0" y1="250" x2="500" y2="250" stroke="#718096" stroke-width="1"/>
+    <line x1="100" y1="0" x2="100" y2="350" stroke="#718096" stroke-width="1"/>
+    <line x1="200" y1="0" x2="200" y2="350" stroke="#718096" stroke-width="1"/>
+    <line x1="300" y1="0" x2="300" y2="350" stroke="#718096" stroke-width="1"/>
+    <line x1="400" y1="0" x2="400" y2="350" stroke="#718096" stroke-width="1"/>
+  </g>
+  
+  <!-- Дополнительные маркеры -->
+  <g>
+    <circle cx="150" cy="280" r="2" fill="#4299e1"/>
+    <circle cx="350" cy="280" r="2" fill="#4299e1"/>
+    <circle cx="250" cy="300" r="2" fill="#4299e1"/>
+  </g>
 </svg>
