@@ -1,23 +1,112 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#7f1d1d"/>
-      <stop offset="100%" style="stop-color:#dc2626"/>
+    <linearGradient id="plane1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e3f2fd;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#bbdefb;stop-opacity:0.6" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fca5a5;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#fca5a5;stop-opacity:0"/>
-    </radialGradient>
+    <linearGradient id="plane2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f3e5f5;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#e1bee7;stop-opacity:0.6" />
+    </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+    <marker id="arrowhead-red" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#d32f2f" />
+    </marker>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#fca5a5" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#fca5a5" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#fca5a5" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fee2e2" text-anchor="middle">11</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fee2e2" text-anchor="middle" opacity="0.8">ГЕОМЕТРИЯ · 10–11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fee2e2" text-anchor="middle">Урок 11: Двугранный угол. Перпендикулярность плоск</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fca5a5" text-anchor="middle" opacity="0.8">Урок 11 из 38</text>
-  <line x1="100" y1="250" x2="400" y2="120" stroke="#fca5a5" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Фоновая сетка -->
+  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#f0f0f0" stroke-width="0.5"/>
+  </pattern>
+  <rect width="500" height="350" fill="url(#grid)" />
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1976d2">
+    ГЕОМЕТРИЯ · 10 КЛАСС
+  </text>
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#555">
+    Урок 11: Двугранный угол. Перпендикулярность плоскостей
+  </text>
+  
+  <!-- Первая плоскость α -->
+  <path d="M 80 120 L 350 120 L 380 140 L 110 140 Z" fill="url(#plane1)" stroke="#1976d2" stroke-width="2"/>
+  <text x="230" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1976d2">α</text>
+  
+  <!-- Вторая плоскость β -->
+  <path d="M 120 200 L 390 200 L 420 220 L 150 220 Z" fill="url(#plane2)" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="270" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#7b1fa2">β</text>
+  
+  <!-- Линия пересечения плоскостей -->
+  <line x1="110" y1="140" x2="380" y2="140" stroke="#333" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Перпендикулярные линии -->
+  <line x1="200" y1="90" x2="200" y2="250" stroke="#d32f2f" stroke-width="3" marker-end="url(#arrowhead-red)"/>
+  <line x1="150" y1="180" x2="350" y2="180" stroke="#d32f2f" stroke-width="3" marker-end="url(#arrowhead-red)"/>
+  
+  <!-- Точки на перпендикулярах -->
+  <circle cx="200" cy="90" r="4" fill="#d32f2f"/>
+  <circle cx="200" cy="250" r="4" fill="#d32f2f"/>
+  <circle cx="150" cy="180" r="4" fill="#d32f2f"/>
+  <circle cx="350" cy="180" r="4" fill="#d32f2f"/>
+  
+  <!-- Двугранный угол -->
+  <path d="M 180 140 A 20 20 0 0 1 200 120" fill="none" stroke="#ff9800" stroke-width="2"/>
+  <path d="M 200 160 A 20 20 0 0 1 180 140" fill="none" stroke="#ff9800" stroke-width="2"/>
+  
+  <!-- Угол 90 градусов -->
+  <path d="M 190 140 L 190 150 L 200 150" fill="none" stroke="#ff9800" stroke-width="2"/>
+  <text x="205" y="155" font-family="Arial, sans-serif" font-size="12" fill="#ff9800">90°</text>
+  
+  <!-- Дополнительные элементы для наглядности -->
+  <circle cx="200" cy="140" r="3" fill="#333"/>
+  <text x="210" y="145" font-family="Arial, sans-serif" font-size="12" fill="#333">O</text>
+  
+  <!-- Вспомогательные линии -->
+  <line x1="200" y1="90" x2="200" y2="140" stroke="#999" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="150" y1="180" x2="200" y2="180" stroke="#999" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- Подписи к элементам -->
+  <text x="220" y="100" font-family="Arial, sans-serif" font-size="14" fill="#d32f2f">a ⊥ α</text>
+  <text x="360" y="175" font-family="Arial, sans-serif" font-size="14" fill="#d32f2f">b ⊥ β</text>
+  
+  <!-- Обозначение двугранного угла -->
+  <text x="190" y="125" font-family="Arial, sans-serif" font-size="12" fill="#ff9800">AB</text>
+  <text x="210" y="155" font-family="Arial, sans-serif" font-size="12" fill="#ff9800">CD</text>
+  
+  <!-- Дополнительные линии для иллюстрации -->
+  <line x1="100" y1="140" x2="100" y2="130" stroke="#666" stroke-width="1"/>
+  <line x1="100" y1="140" x2="100" y2="150" stroke="#666" stroke-width="1"/>
+  <line x1="95" y1="140" x2="105" y2="140" stroke="#666" stroke-width="1"/>
+  
+  <!-- Точки A и B -->
+  <circle cx="100" cy="130" r="3" fill="#ff9800"/>
+  <circle cx="100" cy="150" r="3" fill="#ff9800"/>
+  <text x="85" y="125" font-family="Arial, sans-serif" font-size="12" fill="#ff9800">A</text>
+  <text x="85" y="155" font-family="Arial, sans-serif" font-size="12" fill="#ff9800">B</text>
+  
+  <!-- Обозначение перпендикулярности плоскостей -->
+  <text x="240" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#333">
+    α ⊥ β
+  </text>
+  
+  <!-- Дополнительные элементы для объема -->
+  <path d="M 370 120 L 390 130" stroke="#1976d2" stroke-width="1" opacity="0.5"/>
+  <path d="M 370 140 L 390 150" stroke="#1976d2" stroke-width="1" opacity="0.5"/>
+  
+  <path d="M 410 200 L 430 210" stroke="#7b1fa2" stroke-width="1" opacity="0.5"/>
+  <path d="M 410 220 L 430 230" stroke="#7b1fa2" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Угловые отметки -->
+  <path d="M 185 140 A 15 15 0 0 1 185 125" fill="none" stroke="#4caf50" stroke-width="1"/>
+  <text x="175" y="135" font-family="Arial, sans-serif" font-size="10" fill="#4caf50">φ</text>
+  
+  <!-- Вспомогательная точка -->
+  <circle cx="250" cy="180" r="3" fill="#333"/>
+  <text x="255" y="185" font-family="Arial, sans-serif" font-size="12" fill="#333">M</text>
+  
+  <!-- Дополнительные линии для наглядности перпендикулярности -->
+  <line x1="250" y1="180" x2="250" y2="140" stroke="#999" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="250" y1="180" x2="300" y2="180" stroke="#999" stroke-width="1" stroke-dasharray="3,3"/>
 </svg>
