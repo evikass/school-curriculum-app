@@ -1,0 +1,145 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Градиент для заголовка -->
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Тень для элементов -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGradient)"/>
+  
+  <!-- Молекула алкина (этилена) -->
+  <g transform="translate(250, 80)">
+    <!-- Атомы углерода -->
+    <circle cx="-20" cy="0" r="12" fill="#333" filter="url(#shadow)"/>
+    <circle cx="20" cy="0" r="12" fill="#333" filter="url(#shadow)"/>
+    
+    <!-- Атомы водорода -->
+    <circle cx="-35" cy="-15" r="8" fill="#fff" filter="url(#shadow)"/>
+    <circle cx="-35" cy="15" r="8" fill="#fff" filter="url(#shadow)"/>
+    <circle cx="35" cy="-15" r="8" fill="#fff" filter="url(#shadow)"/>
+    <circle cx="35" cy="15" r="8" fill="#fff" filter="url(#shadow)"/>
+    
+    <!-- Связи -->
+    <line x1="-20" y1="-6" x2="-27" y2="-11" stroke="#666" stroke-width="2"/>
+    <line x1="-20" y1="6" x2="-27" y2="11" stroke="#666" stroke-width="2"/>
+    <line x1="20" y1="-6" x2="27" y2="-11" stroke="#666" stroke-width="2"/>
+    <line x1="20" y1="6" x2="27" y2="11" stroke="#666" stroke-width="2"/>
+    
+    <!-- Тройная связь -->
+    <line x1="-8" y1="-2" x2="8" y2="-2" stroke="#e53e3e" stroke-width="3"/>
+    <line x1="-8" y1="0" x2="8" y2="0" stroke="#e53e3e" stroke-width="3"/>
+    <line x1="-8" y1="2" x2="8" y2="2" stroke="#e53e3e" stroke-width="3"/>
+  </g>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="url(#titleGradient)">ХИМИЯ · 10 КЛАСС</text>
+  
+  <!-- Разделитель -->
+  <line x1="50" y1="45" x2="450" y2="45" stroke="#cbd5e1" stroke-width="2"/>
+  
+  <!-- Заголовок урока -->
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#475569">Урок 9: Алкины</text>
+  
+  <!-- Раздел 1: Строение -->
+  <g transform="translate(50, 130)">
+    <rect x="0" y="0" width="120" height="30" rx="5" fill="#dbeafe" stroke="#3b82f6" stroke-width="1" filter="url(#shadow)"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e40af">Строение</text>
+  </g>
+  
+  <!-- Стрелка вниз -->
+  <path d="M 110 160 L 110 175 L 105 170 M 110 175 L 115 170" stroke="#64748b" stroke-width="2" fill="none"/>
+  
+  <!-- Формула алкина -->
+  <g transform="translate(110, 185)">
+    <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">C₂H₂</text>
+    <text x="0" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Ацетилен</text>
+  </g>
+  
+  <!-- Раздел 2: Свойства -->
+  <g transform="translate(200, 130)">
+    <rect x="0" y="0" width="120" height="30" rx="5" fill="#fef3c7" stroke="#f59e0b" stroke-width="1" filter="url(#shadow)"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#92400e">Свойства</text>
+  </g>
+  
+  <!-- Свойства -->
+  <g transform="translate(200, 170)">
+    <circle cx="10" cy="10" r="3" fill="#f59e0b"/>
+    <text x="20" y="15" font-family="Arial, sans-serif" font-size="12" fill="#374151">Высокая реакционная способность</text>
+    
+    <circle cx="10" cy="30" r="3" fill="#f59e0b"/>
+    <text x="20" y="35" font-family="Arial, sans-serif" font-size="12" fill="#374151">Горение пламенем</text>
+    
+    <circle cx="10" cy="50" r="3" fill="#f59e0b"/>
+    <text x="20" y="55" font-family="Arial, sans-serif" font-size="12" fill="#374151">Полимеризация</text>
+  </g>
+  
+  <!-- Раздел 3: Получение -->
+  <g transform="translate(350, 130)">
+    <rect x="0" y="0" width="120" height="30" rx="5" fill="#d1fae5" stroke="#10b981" stroke-width="1" filter="url(#shadow)"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#065f46">Получение</text>
+  </g>
+  
+  <!-- Способы получения -->
+  <g transform="translate(350, 170)">
+    <rect x="0" y="0" width="120" height="25" rx="3" fill="#ecfdf5" stroke="#10b981" stroke-width="1"/>
+    <text x="60" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#065f46">Дегидрирование</text>
+    
+    <rect x="0" y="30" width="120" height="25" rx="3" fill="#ecfdf5" stroke="#10b981" stroke-width="1"/>
+    <text x="60" y="47" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#065f46">Электролиз</text>
+  </g>
+  
+  <!-- Раздел 4: Применение -->
+  <g transform="translate(50, 250)">
+    <rect x="0" y="0" width="120" height="30" rx="5" fill="#fce7f3" stroke="#ec4899" stroke-width="1" filter="url(#shadow)"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#831843">Применение</text>
+  </g>
+  
+  <!-- Иконки применения -->
+  <g transform="translate(50, 290)">
+    <!-- Иконка сварки -->
+    <g transform="translate(20, 0)">
+      <circle cx="15" cy="15" r="15" fill="#fef3f2" stroke="#ec4899" stroke-width="2"/>
+      <path d="M 10 15 L 20 15 M 15 10 L 15 20" stroke="#ec4899" stroke-width="2"/>
+      <text x="15" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#8b5cf6">Сварка</text>
+    </g>
+    
+    <!-- Иконка органического синтеза -->
+    <g transform="translate(70, 0)">
+      <circle cx="15" cy="15" r="15" fill="#fef3f2" stroke="#ec4899" stroke-width="2"/>
+      <path d="M 10 15 L 20 15 M 15 10 L 15 20" stroke="#ec4899" stroke-width="2"/>
+      <text x="15" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#8b5cf6">Химия</text>
+    </g>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <g transform="translate(250, 280)">
+    <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Тройная связь C≡C</text>
+    <text x="0" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Линейная молекула</text>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="30" cy="30" r="3" fill="#3b82f6" opacity="0.3"/>
+  <circle cx="470" cy="30" r="3" fill="#3b82f6" opacity="0.3"/>
+  <circle cx="30" cy="320" r="3" fill="#3b82f6" opacity="0.3"/>
+  <circle cx="470" cy="320" r="3" fill="#3b82f6" opacity="0.3"/>
+  
+  <!-- Формула генерала алкинов -->
+  <g transform="translate(350, 250)">
+    <rect x="0" y="0" width="120" height="40" rx="5" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="1" filter="url(#shadow)"/>
+    <text x="60" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#0c4a6e">CₙH₂ₙ₋₂</text>
+  </g>
+</svg>
