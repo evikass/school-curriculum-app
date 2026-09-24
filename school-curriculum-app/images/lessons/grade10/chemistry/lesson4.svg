@@ -1,0 +1,177 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Тень -->
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="2" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.2"/>
+      </feComponentTransfer>
+      <feMerge> 
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/> 
+      </feMerge>
+    </filter>
+    
+    <!-- Градиент для атомов -->
+    <radialGradient id="atomGradient">
+      <stop offset="0%" style="stop-color:#4a5568;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d3748;stop-opacity:1" />
+    </radialGradient>
+    
+    <!-- Градиент для орбиталей -->
+    <radialGradient id="orbitalGradient">
+      <stop offset="0%" style="stop-color:#63b3ed;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#4299e1;stop-opacity:0.1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGradient)"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1a202c">
+    ХИМИЯ · 10 КЛАСС
+  </text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#4a5568">
+    Урок 4: Химическое строение
+  </text>
+  
+  <!-- Разделители -->
+  <line x1="50" y1="75" x2="450" y2="75" stroke="#cbd5e0" stroke-width="2"/>
+  
+  <!-- sp³ гибридизация -->
+  <g transform="translate(125, 150)">
+    <!-- Обозначение -->
+    <text x="0" y="-70" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2d3748">
+      sp³-гибридизация
+    </text>
+    
+    <!-- Тетраэдр -->
+    <polygon points="0,-40 35,-20 35,20 0,40 -35,20 -35,-20" fill="none" stroke="#4299e1" stroke-width="2" opacity="0.5"/>
+    
+    <!-- Атом углерода -->
+    <circle cx="0" cy="0" r="15" fill="url(#atomGradient)" filter="url(#shadow)"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">C</text>
+    
+    <!-- Орбитали -->
+    <ellipse cx="0" cy="-50" rx="20" ry="8" fill="url(#orbitalGradient)" transform="rotate(0)"/>
+    <ellipse cx="43" cy="-25" rx="20" ry="8" fill="url(#orbitalGradient)" transform="rotate(120)"/>
+    <ellipse cx="-43" cy="-25" rx="20" ry="8" fill="url(#orbitalGradient)" transform="rotate(240)"/>
+    <ellipse cx="0" cy="50" rx="20" ry="8" fill="url(#orbitalGradient)"/>
+    
+    <!-- Связи -->
+    <line x1="0" y1="-35" x2="0" y2="-42" stroke="#4a5568" stroke-width="2"/>
+    <line x1="13" y1="-17.5" x2="37" y2="-22" stroke="#4a5568" stroke-width="2"/>
+    <line x1="-13" y1="-17.5" x2="-37" y2="-22" stroke="#4a5568" stroke-width="2"/>
+    <line x1="0" y1="15" x2="0" y2="42" stroke="#4a5568" stroke-width="2"/>
+    
+    <!-- Атомы водорода -->
+    <circle cx="0" cy="-50" r="10" fill="#e53e3e" filter="url(#shadow)"/>
+    <text x="0" y="-46" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">H</text>
+    
+    <circle cx="43" cy="-25" r="10" fill="#e53e3e" filter="url(#shadow)"/>
+    <text x="43" y="-21" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">H</text>
+    
+    <circle cx="-43" cy="-25" r="10" fill="#e53e3e" filter="url(#shadow)"/>
+    <text x="-43" y="-21" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">H</text>
+    
+    <circle cx="0" cy="50" r="10" fill="#e53e3e" filter="url(#shadow)"/>
+    <text x="0" y="54" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">H</text>
+  </g>
+  
+  <!-- sp² гибридизация -->
+  <g transform="translate(375, 150)">
+    <!-- Обозначение -->
+    <text x="0" y="-70" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2d3748">
+      sp²-гибридизация
+    </text>
+    
+    <!-- Плоскость -->
+    <ellipse cx="0" cy="0" rx="45" ry="35" fill="none" stroke="#4299e1" stroke-width="2" opacity="0.5"/>
+    
+    <!-- Атом углерода -->
+    <circle cx="0" cy="0" r="15" fill="url(#atomGradient)" filter="url(#shadow)"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">C</text>
+    
+    <!-- Орбитали в плоскости -->
+    <ellipse cx="0" cy="-40" rx="18" ry="6" fill="url(#orbitalGradient)" transform="rotate(0)"/>
+    <ellipse cx="34.6" cy="20" rx="18" ry="6" fill="url(#orbitalGradient)" transform="rotate(120)"/>
+    <ellipse cx="-34.6" cy="20" rx="18" ry="6" fill="url(#orbitalGradient)" transform="rotate(240)"/>
+    
+    <!-- π-орбиталь -->
+    <ellipse cx="0" cy="0" rx="40" ry="8" fill="#fbb6ce" opacity="0.3" transform="rotate(90)"/>
+    
+    <!-- Связи -->
+    <line x1="0" y1="-35" x2="0" y2="-34" stroke="#4a5568" stroke-width="2"/>
+    <line x1="13" y1="17.3" x2="30" y2="17.3" stroke="#4a5568" stroke-width="2"/>
+    <line x1="-13" y1="17.3" x2="-30" y2="17.3" stroke="#4a5568" stroke-width="2"/>
+    
+    <!-- Атомы водорода -->
+    <circle cx="0" cy="-40" r="10" fill="#e53e3e" filter="url(#shadow)"/>
+    <text x="0" y="-36" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">H</text>
+    
+    <circle cx="34.6" cy="20" r="10" fill="#e53e3e" filter="url(#shadow)"/>
+    <text x="34.6" y="24" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">H</text>
+    
+    <circle cx="-34.6" cy="20" r="10" fill="#e53e3e" filter="url(#shadow)"/>
+    <text x="-34.6" y="24" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">H</text>
+    
+    <!-- Связь с другим атомом -->
+    <circle cx="0" cy="-40" r="12" fill="#805ad5" filter="url(#shadow)"/>
+    <text x="0" y="-36" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">C</text>
+  </g>
+  
+  <!-- sp гибридизация -->
+  <g transform="translate(250, 280)">
+    <!-- Обозначение -->
+    <text x="0" y="-40" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2d3748">
+      sp-гибридизация
+    </text>
+    
+    <!-- Линия -->
+    <line x1="-60" y1="0" x2="60" y2="0" stroke="#4299e1" stroke-width="2" opacity="0.5"/>
+    
+    <!-- Атом углерода -->
+    <circle cx="0" cy="0" r="15" fill="url(#atomGradient)" filter="url(#shadow)"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">C</text>
+    
+    <!-- Орбитали -->
+    <ellipse cx="-50" cy="0" rx="15" ry="5" fill="url(#orbitalGradient)" transform="rotate(0)"/>
+    <ellipse cx="50" cy="0" rx="15" ry="5" fill="url(#orbitalGradient)" transform="rotate(0)"/>
+    
+    <!-- π-орбитали -->
+    <ellipse cx="0" cy="0" rx="30" ry="6" fill="#fbb6ce" opacity="0.3" transform="rotate(90)"/>
+    <ellipse cx="0" cy="0" rx="30" ry="6" fill="#fbb6ce" opacity="0.3" transform="rotate(-90)"/>
+    
+    <!-- Связи -->
+    <line x1="-35" y1="0" x2="-35" y2="0" stroke="#4a5568" stroke-width="2"/>
+    <line x1="35" y1="0" x2="35" y2="0" stroke="#4a5568" stroke-width="2"/>
+    
+    <!-- Атомы -->
+    <circle cx="-50" cy="0" r="10" fill="#e53e3e" filter="url(#shadow)"/>
+    <text x="-50" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">H</text>
+    
+    <circle cx="50" cy="0" r="10" fill="#e53e3e" filter="url(#shadow)"/>
+    <text x="50" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">H</text>
+  </g>
+  
+  <!-- Углы гибридизации -->
+  <text x="125" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#4a5568">109.5°</text>
+  <text x="375" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#4a5568">120°</text>
+  <text x="250" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#4a5568">180°</text>
+  
+  <!-- Дополнительные элементы декора -->
+  <circle cx="30" cy="100" r="3" fill="#cbd5e0"/>
+  <circle cx="470" cy="100" r="3" fill="#cbd5e0"/>
+  <circle cx="30" cy="300" r="3" fill="#cbd5e0"/>
+  <circle cx="470" cy="300" r="3" fill="#cbd5e0"/>
+</svg>
