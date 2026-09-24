@@ -1,0 +1,145 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#2c1810"/>
+  
+  <!-- Декоративные элементы -->
+  <g opacity="0.1">
+    <circle cx="450" cy="50" r="80" fill="#8b4513"/>
+    <circle cx="50" cy="300" r="100" fill="#8b4513"/>
+  </g>
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#d4af37">
+    УРОК 24
+  </text>
+  
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="normal" fill="#f5deb3">
+    Смутное время
+  </text>
+  
+  <!-- Периоды Смуты -->
+  <g>
+    <!-- Осень 1598 - весна 1605 -->
+    <rect x="30" y="100" width="80" height="40" fill="#8b0000" stroke="#d4af37" stroke-width="2" rx="5"/>
+    <text x="70" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#f5deb3">
+      1598-1605
+    </text>
+    
+    <!-- 1605-1610 -->
+    <rect x="120" y="100" width="80" height="40" fill="#b22222" stroke="#d4af37" stroke-width="2" rx="5"/>
+    <text x="160" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#f5deb3">
+      1605-1610
+    </text>
+    
+    <!-- 1610-1613 -->
+    <rect x="210" y="100" width="80" height="40" fill="#dc143c" stroke="#d4af37" stroke-width="2" rx="5"/>
+    <text x="250" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#f5deb3">
+      1610-1613
+    </text>
+    
+    <!-- 1613-1618 -->
+    <rect x="300" y="100" width="80" height="40" fill="#ff6347" stroke="#d4af37" stroke-width="2" rx="5"/>
+    <text x="340" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#f5deb3">
+      1613-1618
+    </text>
+    
+    <!-- 1618-1620 -->
+    <rect x="390" y="100" width="80" height="40" fill="#ff7f50" stroke="#d4af37" stroke-width="2" rx="5"/>
+    <text x="430" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#f5deb3">
+      1618-1620
+    </text>
+  </g>
+  
+  <!-- События -->
+  <g font-family="Arial, sans-serif" font-size="11" fill="#f5deb3">
+    <!-- Смерть Фёдора Иоанновича -->
+    <circle cx="70" cy="160" r="3" fill="#d4af37"/>
+    <text x="70" y="180" text-anchor="middle">Смерть Фёдора Иоанновича</text>
+    
+    <!-- Призвание Бориса Годунова -->
+    <circle cx="160" cy="190" r="3" fill="#d4af37"/>
+    <text x="160" y="210" text-anchor="middle">Воцарение Бориса Годунова</text>
+    
+    <!-- Лжедмитрий I -->
+    <circle cx="160" cy="220" r="3" fill="#d4af37"/>
+    <text x="160" y="240" text-anchor="middle">Лжедмитрий I</text>
+    
+    <!-- Сигизмунд III -->
+    <circle cx="250" cy="190" r="3" fill="#d4af37"/>
+    <text x="250" y="210" text-anchor="middle">Поляки в Москве</text>
+    
+    <!-- Второе ополчение -->
+    <circle cx="340" cy="220" r="3" fill="#d4af37"/>
+    <text x="340" y="240" text-anchor="middle">Второе ополчение Минина и Пожарского</text>
+    
+    <!-- Земский собор -->
+    <circle cx="430" cy="190" r="3" fill="#d4af37"/>
+    <text x="430" y="210" text-anchor="middle">Воцарение Михаила Романова</text>
+  </g>
+  
+  <!-- Линии времени -->
+  <g stroke="#d4af37" stroke-width="1" fill="none" opacity="0.5">
+    <line x1="70" y1="160" x2="70" y2="100"/>
+    <line x1="160" y1="190" x2="160" y2="100"/>
+    <line x1="160" y1="220" x2="160" y2="100"/>
+    <line x1="250" y1="190" x2="250" y2="100"/>
+    <line x1="340" y1="220" x2="340" y2="100"/>
+    <line x1="430" y1="190" x2="430" y2="100"/>
+  </g>
+  
+  <!-- Корона -->
+  <g transform="translate(250, 280)">
+    <path d="M -20 -10 L -15 -20 L -10 -15 L -5 -22 L 0 -15 L 5 -22 L 10 -15 L 15 -20 L 20 -10 L 20 0 L -20 0 Z" 
+          fill="#d4af37" stroke="#b8860b" stroke-width="1"/>
+    <circle cx="-10" cy="-18" r="2" fill="#b22222"/>
+    <circle cx="0" cy="-18" r="2" fill="#b22222"/>
+    <circle cx="10" cy="-18" r="2" fill="#b22222"/>
+    <rect x="-5" y="0" width="10" height="8" fill="#8b4513"/>
+  </g>
+  
+  <!-- Декоративный орнамент -->
+  <g stroke="#d4af37" stroke-width="1" fill="none" opacity="0.3">
+    <path d="M 20 85 Q 30 75, 40 85"/>
+    <path d="M 460 85 Q 470 75, 480 85"/>
+  </g>
+  
+  <!-- Подпись -->
+  <text x="250" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#d4af37">
+    ИСТОРИЯ · 10 КЛАСС
+  </text>
+  
+  <!-- Дополнительные элементы -->
+  <g opacity="0.2">
+    <!-- Старинный узор -->
+    <path d="M 30 320 L 35 315 L 40 320 L 45 315 L 50 320" stroke="#d4af37" stroke-width="1" fill="none"/>
+    <path d="M 450 320 L 455 315 L 460 320 L 465 315 L 470 320" stroke="#d4af37" stroke-width="1" fill="none"/>
+  </g>
+  
+  <!-- Крест-накрест -->
+  <g stroke="#d4af37" stroke-width="0.5" opacity="0.1">
+    <line x1="100" y1="150" x2="400" y2="250"/>
+    <line x1="400" y1="150" x2="100" y2="250"/>
+  </g>
+  
+  <!-- Маленькие звёзды -->
+  <g fill="#d4af37" opacity="0.3">
+    <circle cx="50" cy="50" r="1"/>
+    <circle cx="450" cy="80" r="1.5"/>
+    <circle cx="420" cy="40" r="1"/>
+    <circle cx="80" cy="70" r="1.5"/>
+    <circle cx="150" cy="30" r="1"/>
+    <circle cx="350" cy="50" r="1"/>
+  </g>
+  
+  <!-- Текстура бумаги -->
+  <defs>
+    <pattern id="paper" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <circle cx="25" cy="25" r="0.5" fill="#d4af37" opacity="0.05"/>
+      <circle cx="75" cy="75" r="0.5" fill="#d4af37" opacity="0.05"/>
+      <circle cx="50" cy="10" r="0.5" fill="#d4af37" opacity="0.05"/>
+      <circle cx="10" cy="50" r="0.5" fill="#d4af37" opacity="0.05"/>
+      <circle cx="90" cy="50" r="0.5" fill="#d4af37" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="500" height="350" fill="url(#paper)"/>
+</svg>
