@@ -1,0 +1,138 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f5f3e9"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#8b4513" stroke-width="2"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c1810">
+    ИСТОРИЯ · 10 КЛАСС
+  </text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#4a3728">
+    Урок 12: Владимиро-Суздальское княжество
+  </text>
+  
+  <!-- Карта - фон -->
+  <rect x="30" y="90" width="200" height="160" fill="#e8dcc6" stroke="#8b4513" stroke-width="1"/>
+  
+  <!-- Карта - реки -->
+  <path d="M 50 150 Q 100 140 150 145 T 220 160" fill="none" stroke="#4682b4" stroke-width="2"/>
+  <path d="M 80 110 Q 90 130 95 150" fill="none" stroke="#4682b4" stroke-width="1.5"/>
+  <path d="M 150 100 Q 155 120 160 140" fill="none" stroke="#4682b4" stroke-width="1.5"/>
+  
+  <!-- Карта - города -->
+  <circle cx="70" cy="120" r="4" fill="#8b0000"/>
+  <text x="70" y="110" text-anchor="middle" font-size="10" fill="#2c1810">Владимир</text>
+  
+  <circle cx="120" cy="160" r="3" fill="#8b0000"/>
+  <text x="120" y="175" text-anchor="middle" font-size="10" fill="#2c1810">Суздаль</text>
+  
+  <circle cx="180" cy="130" r="3" fill="#8b0000"/>
+  <text x="180" y="120" text-anchor="middle" font-size="10" fill="#2c1810">Ярославль</text>
+  
+  <circle cx="90" cy="200" r="3" fill="#8b0000"/>
+  <text x="90" y="215" text-anchor="middle" font-size="10" fill="#2c1810">Переславль</text>
+  
+  <!-- Карта - границы -->
+  <path d="M 50 90 L 50 250 L 230 250 L 230 90" fill="none" stroke="#654321" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <!-- Основной текстовый блок -->
+  <rect x="250" y="90" width="230" height="160" fill="#fffaf0" stroke="#8b4513" stroke-width="1"/>
+  
+  <!-- Текст о княжестве -->
+  <text x="260" y="110" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c1810">
+    Ключевые факты:
+  </text>
+  
+  <text x="260" y="130" font-family="Arial, sans-serif" font-size="12" fill="#4a3728">
+    • Основание Андреем Боголюбским
+  </text>
+  <text x="260" y="148" font-family="Arial, sans-serif" font-size="12" fill="#4a3728">
+    • Столица - город Владимир
+  </text>
+  <text x="260" y="166" font-family="Arial, sans-serif" font-size="12" fill="#4a3728">
+    • Расцвет XII-XIII вв.
+  </text>
+  <text x="260" y="184" font-family="Arial, sans-serif" font-size="12" fill="#4a3728">
+    • Укрепление княжеской власти
+  </text>
+  <text x="260" y="202" font-family="Arial, sans-serif" font-size="12" fill="#4a3728">
+    • Строительство белокаменных храмов
+  </text>
+  <text x="260" y="220" font-family="Arial, sans-serif" font-size="12" fill="#4a3728">
+    • Борьба с Золотой Ордой
+  </text>
+  
+  <!-- Иконка храма -->
+  <g transform="translate(30, 270)">
+    <rect x="0" y="10" width="20" height="15" fill="#d2691e"/>
+    <polygon points="10,0 0,10 20,10" fill="#8b0000"/>
+    <rect x="7" y="20" width="6" height="5" fill="#654321"/>
+  </g>
+  
+  <!-- Иконка княжеской короны -->
+  <g transform="translate(70, 265)">
+    <path d="M 0 15 L 0 10 Q 0 5 5 5 Q 10 0 15 5 Q 20 5 20 10 L 20 15" fill="#ffd700" stroke="#b8860b" stroke-width="1"/>
+    <circle cx="5" cy="5" r="2" fill="#b8860b"/>
+    <circle cx="10" cy="3" r="2" fill="#b8860b"/>
+    <circle cx="15" cy="5" r="2" fill="#b8860b"/>
+  </g>
+  
+  <!-- Иконка меча -->
+  <g transform="translate(120, 270)">
+    <rect x="9" y="0" width="2" height="20" fill="#c0c0c0"/>
+    <rect x="5" y="15" width="10" height="5" fill="#8b4513"/>
+    <polygon points="10,0 8,5 12,5" fill="#c0c0c0"/>
+  </g>
+  
+  <!-- Временная шкала -->
+  <line x1="250" y1="280" x2="470" y2="280" stroke="#8b4513" stroke-width="2"/>
+  
+  <!-- Метки на временной шкале -->
+  <line x1="250" y1="275" x2="250" y2="285" stroke="#8b4513" stroke-width="2"/>
+  <text x="250" y="300" text-anchor="middle" font-size="10" fill="#2c1810">1125</text>
+  
+  <line x1="320" y1="275" x2="320" y2="285" stroke="#8b4513" stroke-width="2"/>
+  <text x="320" y="300" text-anchor="middle" font-size="10" fill="#2c1810">1157</text>
+  
+  <line x1="400" y1="275" x2="400" y2="285" stroke="#8b4513" stroke-width="2"/>
+  <text x="400" y="300" text-anchor="middle" font-size="10" fill="#2c1810">1238</text>
+  
+  <line x1="470" y1="275" x2="470" y2="285" stroke="#8b4513" stroke-width="2"/>
+  <text x="470" y="300" text-anchor="middle" font-size="10" fill="#2c1810">1400</text>
+  
+  <!-- Дополнительные декоративные элементы -->
+  <circle cx="450" cy="120" r="15" fill="none" stroke="#8b4513" stroke-width="1" opacity="0.5"/>
+  <text x="450" y="125" text-anchor="middle" font-size="12" fill="#8b4513">XII</text>
+  
+  <!-- Узоры по краям -->
+  <g transform="translate(260, 90)">
+    <circle cx="0" cy="0" r="2" fill="#8b4513"/>
+    <circle cx="0" cy="5" r="2" fill="#8b4513"/>
+    <circle cx="0" cy="10" r="2" fill="#8b4513"/>
+  </g>
+  
+  <g transform="translate(260, 250)">
+    <circle cx="0" cy="0" r="2" fill="#8b4513"/>
+    <circle cx="0" cy="5" r="2" fill="#8b4513"/>
+    <circle cx="0" cy="10" r="2" fill="#8b4513"/>
+  </g>
+  
+  <!-- Геральдический элемент -->
+  <g transform="translate(400, 100)">
+    <rect x="0" y="0" width="40" height="30" fill="none" stroke="#8b0000" stroke-width="2"/>
+    <path d="M 20 5 L 15 15 L 25 15 Z" fill="#ffd700"/>
+    <rect x="17" y="15" width="6" height="8" fill="#ffd700"/>
+  </g>
+  
+  <!-- Дополнительные символы -->
+  <text x="30" y="320" font-family="Arial, sans-serif" font-size="10" fill="#8b4513" opacity="0.7">
+    Культурное наследие Древней Руси
+  </text>
+  
+  <!-- Орнаментальная линия -->
+  <path d="M 30 330 Q 50 325 70 330 T 110 330 T 150 330" fill="none" stroke="#8b4513" stroke-width="1" opacity="0.5"/>
+</svg>
