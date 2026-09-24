@@ -1,0 +1,150 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый узор -->
+  <defs>
+    <pattern id="cave" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="#f4e8d0"/>
+      <circle cx="20" cy="20" r="2" fill="#d4c4a8" opacity="0.5"/>
+    </pattern>
+    
+    <pattern id="waves" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M0,10 Q10,5 20,10" stroke="#4a7c59" fill="none" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+    
+    <!-- Тень -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f5f0"/>
+  
+  <!-- Верхняя часть - пещера -->
+  <path d="M0,50 Q100,20 200,40 T400,30 Q450,35 500,45 L500,80 L0,80 Z" fill="#8b7355" opacity="0.3"/>
+  <path d="M0,50 Q100,20 200,40 T400,30 Q450,35 500,45" stroke="#6b5d4f" stroke-width="2" fill="none"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#4a4a4a">Урок 1</text>
+  <text x="250" y="58" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">Первобытное население</text>
+  <text x="250" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">на территории России</text>
+  
+  <!-- Подпись "ИСТОРИЯ · 10 КЛАСС" -->
+  <text x="250" y="320" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">ИСТОРИЯ · 10 КЛАСС</text>
+  
+  <!-- Карта-схема территории -->
+  <g transform="translate(50, 100)">
+    <!-- Область карты -->
+    <rect x="0" y="0" width="400" height="180" fill="url(#cave)" stroke="#8b7355" stroke-width="2" rx="5" filter="url(#shadow)"/>
+    
+    <!-- Реки -->
+    <path d="M50,40 Q100,60 150,50 T250,60 Q300,70 350,80" stroke="#4a7c59" stroke-width="3" fill="none" opacity="0.7"/>
+    <path d="M80,100 Q120,90 160,100 T220,110" stroke="#5a8c69" stroke-width="2" fill="none" opacity="0.6"/>
+    
+    <!-- Озера -->
+    <ellipse cx="320" cy="120" rx="25" ry="15" fill="#6fa8dc" opacity="0.6"/>
+    <ellipse cx="100" cy="140" rx="20" ry="12" fill="#6fa8dc" opacity="0.5"/>
+    
+    <!-- Поселения первобытных людей -->
+    <!-- Поселение 1 -->
+    <g transform="translate(80, 80)">
+      <circle cx="0" cy="0" r="25" fill="#d2691e" opacity="0.3"/>
+      <path d="M-15,-10 L0,-20 L15,-10 L15,10 L-15,10 Z" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+      <circle cx="-8" cy="-5" r="3" fill="#ff6b6b"/>
+      <circle cx="8" cy="-5" r="3" fill="#ff6b6b"/>
+      <path d="M-5,0 Q0,5 5,0" stroke="#654321" stroke-width="1.5" fill="none"/>
+      <text x="0" y="25" font-family="Arial" font-size="10" text-anchor="middle" fill="#333">Афанасьевская</text>
+    </g>
+    
+    <!-- Поселение 2 -->
+    <g transform="translate(200, 70)">
+      <circle cx="0" cy="0" r="25" fill="#d2691e" opacity="0.3"/>
+      <path d="M-15,-10 L0,-20 L15,-10 L15,10 L-15,10 Z" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+      <circle cx="-8" cy="-5" r="3" fill="#ff6b6b"/>
+      <circle cx="8" cy="-5" r="3" fill="#ff6b6b"/>
+      <path d="M-5,0 Q0,5 5,0" stroke="#654321" stroke-width="1.5" fill="none"/>
+      <text x="0" y="25" font-family="Arial" font-size="10" text-anchor="middle" fill="#333">Ямная</text>
+    </g>
+    
+    <!-- Поселение 3 -->
+    <g transform="translate(320, 100)">
+      <circle cx="0" cy="0" r="25" fill="#d2691e" opacity="0.3"/>
+      <path d="M-15,-10 L0,-20 L15,-10 L15,10 L-15,10 Z" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+      <circle cx="-8" cy="-5" r="3" fill="#ff6b6b"/>
+      <circle cx="8" cy="-5" r="3" fill="#ff6b6b"/>
+      <path d="M-5,0 Q0,5 5,0" stroke="#654321" stroke-width="1.5" fill="none"/>
+      <text x="0" y="25" font-family="Arial" font-size="10" text-anchor="middle" fill="#333">Курганная</text>
+    </g>
+    
+    <!-- Накидки из шкур -->
+    <path d="M140,40 Q150,30 160,40 L160,50 Q150,45 140,50 Z" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+    <path d="M260,60 Q270,50 280,60 L280,70 Q270,65 260,70 Z" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+    
+    <!-- Орудия труда -->
+    <g transform="translate(50, 50)">
+      <path d="M0,0 L-5,15 L5,15 Z" fill="#696969" stroke="#333" stroke-width="1"/>
+      <path d="M0,7 L-3,10 L3,10 Z" fill="#333"/>
+    </g>
+    
+    <g transform="translate(350, 40)">
+      <circle cx="0" cy="0" r="8" fill="#a0522d" stroke="#654321" stroke-width="1"/>
+      <rect x="-2" y="8" width="4" height="10" fill="#8b4513"/>
+    </g>
+    
+    <!-- Следы -->
+    <g transform="translate(120, 130)">
+      <ellipse cx="0" cy="0" rx="4" ry="6" fill="#666" opacity="0.5"/>
+      <ellipse cx="10" cy="5" rx="4" ry="6" fill="#666" opacity="0.5"/>
+      <ellipse cx="20" cy="0" rx="4" ry="6" fill="#666" opacity="0.5"/>
+    </g>
+    
+    <!-- Дикие животные -->
+    <g transform="translate(250, 120)">
+      <ellipse cx="0" cy="0" rx="15" ry="8" fill="#8b4513" opacity="0.7"/>
+      <circle cx="-10" cy="-5" r="2" fill="#333"/>
+      <circle cx="10" cy="-5" r="2" fill="#333"/>
+      <path d="M-5,0 Q0,3 5,0" stroke="#333" stroke-width="1" fill="none"/>
+    </g>
+    
+    <!-- Огонь -->
+    <g transform="translate(300, 140)">
+      <ellipse cx="0" cy="10" rx="15" ry="5" fill="#333" opacity="0.5"/>
+      <path d="M-5,10 Q-3,0 0,5 Q3,0 5,10" fill="#ff6347" opacity="0.8"/>
+      <path d="M-3,10 Q-1,2 2,5 Q5,2 7,10" fill="#ffa500" opacity="0.6"/>
+    </g>
+    
+    <!-- Указатели времен -->
+    <g transform="translate(20, 20)">
+      <line x1="0" y1="0" x2="30" y2="0" stroke="#333" stroke-width="1" marker-end="url(#arrowhead)"/>
+      <text x="35" y="5" font-family="Arial" font-size="9" fill="#333">III тыс. до н.э.</text>
+    </g>
+    
+    <g transform="translate(20, 160)">
+      <line x1="0" y1="0" x2="30" y2="0" stroke="#333" stroke-width="1" marker-end="url(#arrowhead)"/>
+      <text x="35" y="5" font-family="Arial" font-size="9" fill="#333">II тыс. до н.э.</text>
+    </g>
+    
+    <!-- Стрелка -->
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+      </marker>
+    </defs>
+  </g>
+  
+  <!-- Дополнительные элементы декора -->
+  <g transform="translate(10, 10)">
+    <path d="M0,0 Q5,-5 10,0" stroke="#8b7355" stroke-width="1" fill="none" opacity="0.5"/>
+    <path d="M490,0 Q485,-5 480,0" stroke="#8b7355" stroke-width="1" fill="none" opacity="0.5"/>
+  </g>
+  
+  <!-- Легенда -->
+  <g transform="translate(460, 100)">
+    <rect x="0" y="0" width="35" height="100" fill="white" stroke="#ccc" stroke-width="1" rx="3"/>
+    <circle cx="17.5" cy="15" r="5" fill="#d2691e" opacity="0.5"/>
+    <text x="17.5" y="30" font-family="Arial" font-size="8" text-anchor="middle" fill="#333">посел.</text>
+    <line x1="10" y1="45" x2="25" y2="45" stroke="#4a7c59" stroke-width="2"/>
+    <text x="17.5" y="55" font-family="Arial" font-size="8" text-anchor="middle" fill="#333">река</text>
+    <ellipse cx="17.5" cy="70" rx="7" ry="4" fill="#6fa8dc" opacity="0.6"/>
+    <text x="17.5" y="85" font-family="Arial" font-size="8" text-anchor="middle" fill="#333">озеро</text>
+  </g>
+</svg>
