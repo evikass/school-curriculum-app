@@ -1,0 +1,159 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Градиент для молекул -->
+    <linearGradient id="molGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4299e1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3182ce;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Тень для текста -->
+    <filter id="textShadow">
+      <feDropShadow dx="1" dy="1" stdDeviation="1" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2d3748" filter="url(#textShadow)">ХИМИЯ · 10 КЛАСС</text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="60" font-family="Arial, sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="#4a5568">Урок 16: Амины</text>
+  
+  <!-- Молекула аммиака -->
+  <g transform="translate(100, 120)">
+    <!-- Атом азота -->
+    <circle cx="0" cy="0" r="20" fill="#3182ce" stroke="#2b6cb0" stroke-width="2"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">N</text>
+    
+    <!-- Связи водорода -->
+    <line x1="0" y1="-20" x2="0" y2="-40" stroke="#2d3748" stroke-width="3"/>
+    <line x1="17.32" y1="10" x2="34.64" y2="20" stroke="#2d3748" stroke-width="3"/>
+    <line x1="-17.32" y1="10" x2="-34.64" y2="20" stroke="#2d3748" stroke-width="3"/>
+    
+    <!-- Атомы водорода -->
+    <circle cx="0" cy="-45" r="12" fill="#e53e3e" stroke="#c53030" stroke-width="2"/>
+    <text x="0" y="-40" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">H</text>
+    
+    <circle cx="37" cy="22" r="12" fill="#e53e3e" stroke="#c53030" stroke-width="2"/>
+    <text x="37" y="27" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">H</text>
+    
+    <circle cx="-37" cy="22" r="12" fill="#e53e3e" stroke="#c53030" stroke-width="2"/>
+    <text x="-37" y="27" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">H</text>
+    
+    <!-- Подпись -->
+    <text x="0" y="60" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2d3748">NH₃ - аммиак</text>
+  </g>
+  
+  <!-- Молекула метиламина -->
+  <g transform="translate(250, 120)">
+    <!-- Атом азота -->
+    <circle cx="0" cy="0" r="20" fill="#3182ce" stroke="#2b6cb0" stroke-width="2"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">N</text>
+    
+    <!-- Связи -->
+    <line x1="0" y1="-20" x2="0" y2="-40" stroke="#2d3748" stroke-width="3"/>
+    <line x1="17.32" y1="10" x2="34.64" y2="20" stroke="#2d3748" stroke-width="3"/>
+    <line x1="-17.32" y1="10" x2="-34.64" y2="20" stroke="#2d3748" stroke-width="3"/>
+    
+    <!-- Атомы водорода -->
+    <circle cx="0" cy="-45" r="12" fill="#e53e3e" stroke="#c53030" stroke-width="2"/>
+    <text x="0" y="-40" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">H</text>
+    
+    <circle cx="37" cy="22" r="12" fill="#e53e3e" stroke="#c53030" stroke-width="2"/>
+    <text x="37" y="27" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">H</text>
+    
+    <circle cx="-37" cy="22" r="12" fill="#e53e3e" stroke="#c53030" stroke-width="2"/>
+    <text x="-37" y="27" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">H</text>
+    
+    <!-- Метильная группа -->
+    <line x1="20" y1="0" x2="50" y2="0" stroke="#2d3748" stroke-width="3"/>
+    <circle cx="60" cy="0" r="15" fill="#48bb78" stroke="#38a169" stroke-width="2"/>
+    <text x="60" y="5" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">C</text>
+    
+    <text x="0" y="60" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2d3748">CH₃NH₂ - метиламин</text>
+  </g>
+  
+  <!-- Молекула диметиламина -->
+  <g transform="translate(400, 120)">
+    <!-- Атом азота -->
+    <circle cx="0" cy="0" r="20" fill="#3182ce" stroke="#2b6cb0" stroke-width="2"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">N</text>
+    
+    <!-- Связь водорода -->
+    <line x1="0" y1="-20" x2="0" y2="-40" stroke="#2d3748" stroke-width="3"/>
+    
+    <!-- Атом водорода -->
+    <circle cx="0" cy="-45" r="12" fill="#e53e3e" stroke="#c53030" stroke-width="2"/>
+    <text x="0" y="-40" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">H</text>
+    
+    <!-- Метильные группы -->
+    <line x1="-15" y1="-15" x2="-35" y2="-35" stroke="#2d3748" stroke-width="3"/>
+    <circle cx="-45" cy="-45" r="15" fill="#48bb78" stroke="#38a169" stroke-width="2"/>
+    <text x="-45" y="-40" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">C</text>
+    
+    <line x1="15" y1="-15" x2="35" y2="-35" stroke="#2d3748" stroke-width="3"/>
+    <circle cx="45" cy="-45" r="15" fill="#48bb78" stroke="#38a169" stroke-width="2"/>
+    <text x="45" y="-40" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">C</text>
+    
+    <text x="0" y="60" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2d3748">(CH₃)₂NH - диметиламин</text>
+  </g>
+  
+  <!-- Разделительная линия -->
+  <line x1="50" y1="200" x2="450" y2="200" stroke="#cbd5e0" stroke-width="2"/>
+  
+  <!-- Классификация аминов -->
+  <text x="250" y="225" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2d3748">Классификация аминов</text>
+  
+  <!-- Первичные амины -->
+  <g transform="translate(100, 250)">
+    <rect x="-60" y="-15" width="120" height="30" fill="#e6fffa" stroke="#38b2ac" stroke-width="2" rx="5"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c7a7b">Первичные RNH₂</text>
+  </g>
+  
+  <!-- Вторичные амины -->
+  <g transform="translate(250, 250)">
+    <rect x="-60" y="-15" width="120" height="30" fill="#fef5e7" stroke="#f6ad55" stroke-width="2" rx="5"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#c05621">Вторичные R₂NH</text>
+  </g>
+  
+  <!-- Третичные амины -->
+  <g transform="translate(400, 250)">
+    <rect x="-60" y="-15" width="120" height="30" fill="#f0fff4" stroke="#48bb78" stroke-width="2" rx="5"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#276749">Третичные R₃N</text>
+  </g>
+  
+  <!-- Свойства аминов -->
+  <g transform="translate(50, 300)">
+    <circle cx="0" cy="0" r="8" fill="#9f7aea"/>
+    <text x="15" y="5" font-family="Arial, sans-serif" font-size="12" fill="#553c9a">Основные свойства</text>
+  </g>
+  
+  <g transform="translate(200, 300)">
+    <circle cx="0" cy="0" r="8" fill="#ed8936"/>
+    <text x="15" y="5" font-family="Arial, sans-serif" font-size="12" fill="#c05621">Восстановление нитросоединений</text>
+  </g>
+  
+  <g transform="translate(350, 300)">
+    <circle cx="0" cy="0" r="8" fill="#48bb78"/>
+    <text x="15" y="5" font-family="Arial, sans-serif" font-size="12" fill="#276749">Аминирование</text>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="30" cy="80" r="3" fill="#cbd5e0" opacity="0.5"/>
+  <circle cx="470" cy="80" r="3" fill="#cbd5e0" opacity="0.5"/>
+  <circle cx="30" cy="180" r="3" fill="#cbd5e0" opacity="0.5"/>
+  <circle cx="470" cy="180" r="3" fill="#cbd5e0" opacity="0.5"/>
+  
+  <!-- Линии указания -->
+  <line x1="100" y1="185" x2="100" y2="235" stroke="#a0aec0" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="250" y1="185" x2="250" y2="235" stroke="#a0aec0" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="400" y1="185" x2="400" y2="235" stroke="#a0aec0" stroke-width="1" stroke-dasharray="2,2"/>
+</svg>
