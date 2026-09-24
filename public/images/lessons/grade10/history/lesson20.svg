@@ -1,0 +1,104 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f4e6"/>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="50" cy="50" r="30" fill="#d4af37" opacity="0.2"/>
+  <circle cx="450" cy="300" r="40" fill="#8b4513" opacity="0.15"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" font-family="Georgia, serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c1810">ИСТОРИЯ · 10 КЛАСС</text>
+  
+  <!-- Основной заголовок урока -->
+  <rect x="50" y="60" width="400" height="50" fill="#8b4513" rx="5"/>
+  <text x="250" y="90" font-family="Georgia, serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#fff">Урок 20: Формирование органов власти</text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="130" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2c1810">Российского государства</text>
+  
+  <!-- Раздел 1: Боярская дума -->
+  <g id="boyarskaya-duma">
+    <rect x="30" y="150" width="140" height="80" fill="#cd853f" rx="3"/>
+    <text x="100" y="175" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">Боярская дума</text>
+    <text x="100" y="195" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#fff">XV-XVII вв.</text>
+    <text x="100" y="215" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#fff">Высший орган</text>
+  </g>
+  
+  <!-- Раздел 2: Приказы -->
+  <g id="prikazy">
+    <rect x="190" y="150" width="140" height="80" fill="#8b4513" rx="3"/>
+    <text x="260" y="175" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">Приказы</text>
+    <text x="260" y="195" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#fff">XVI-XVIII вв.</text>
+    <text x="260" y="215" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#fff">Административные</text>
+  </g>
+  
+  <!-- Раздел 3: Земские соборы -->
+  <g id="zemskie-sobory">
+    <rect x="350" y="150" width="140" height="80" fill="#a0522d" rx="3"/>
+    <text x="420" y="175" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">Земские соборы</text>
+    <text x="420" y="195" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#fff">1566-1653 гг.</text>
+    <text x="420" y="215" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#fff">Представительные</text>
+  </g>
+  
+  <!-- Стрелки между органами -->
+  <path d="M170 190 L190 190" stroke="#654321" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M330 190 L350 190" stroke="#654321" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Определение стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#654321"/>
+    </marker>
+  </defs>
+  
+  <!-- Раздел 4: Церковь -->
+  <g id="church">
+    <rect x="50" y="250" width="120" height="80" fill="#daa520" rx="3"/>
+    <text x="110" y="275" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">Церковь</text>
+    <text x="110" y="295" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#fff">Духовенство</text>
+    <text x="110" y="315" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#fff">Влияние на власть</text>
+  </g>
+  
+  <!-- Раздел 5: Земские учреждения -->
+  <g id="zemskie-uchrezhdeniya">
+    <rect x="190" y="250" width="140" height="80" fill="#8b7355" rx="3"/>
+    <text x="260" y="275" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">Земские учреждения</text>
+    <text x="260" y="295" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#fff">Система местного</text>
+    <text x="260" y="315" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#fff">управления</text>
+  </g>
+  
+  <!-- Раздел 6: Воеводы -->
+  <g id="voyevody">
+    <rect x="350" y="250" width="120" height="80" fill="#bc8f8f" rx="3"/>
+    <text x="410" y="275" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">Воеводы</text>
+    <text x="410" y="295" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#fff">Губернаторы</text>
+    <text x="410" y="315" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#fff">Местные власти</text>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <circle cx="30" cy="190" r="8" fill="#d4af37"/>
+  <circle cx="170" cy="190" r="8" fill="#d4af37"/>
+  <circle cx="330" cy="190" r="8" fill="#d4af37"/>
+  <circle cx="470" cy="190" r="8" fill="#d4af37"/>
+  
+  <circle cx="110" cy="290" r="8" fill="#daa520"/>
+  <circle cx="260" cy="290" r="8" fill="#8b7355"/>
+  <circle cx="410" cy="290" r="8" fill="#bc8f8f"/>
+  
+  <!-- Декоративные линии -->
+  <line x1="30" y1="240" x2="30" y2="250" stroke="#654321" stroke-width="2"/>
+  <line x1="170" y1="240" x2="190" y2="250" stroke="#654321" stroke-width="2"/>
+  <line x1="330" y1="240" x2="350" y2="250" stroke="#654321" stroke-width="2"/>
+  <line x1="470" y1="240" x2="470" y2="250" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Временная шкала -->
+  <rect x="30" y="340" width="440" height="8" fill="#8b4513" rx="4"/>
+  <text x="30" y="360" font-family="Arial, sans-serif" font-size="10" fill="#654321">XV век</text>
+  <text x="230" y="360" font-family="Arial, sans-serif" font-size="10" fill="#654321">XVII век</text>
+  <text x="420" y="360" font-family="Arial, sans-serif" font-size="10" fill="#654321">XVIII век</text>
+  
+  <!-- Маркеры на временной шкале -->
+  <circle cx="30" cy="344" r="4" fill="#fff"/>
+  <circle cx="250" cy="344" r="4" fill="#fff"/>
+  <circle cx="470" cy="344" r="4" fill="#fff"/>
+</svg>
