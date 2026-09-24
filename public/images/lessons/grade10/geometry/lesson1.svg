@@ -1,23 +1,116 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновые элементы -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e3a5f"/>
-      <stop offset="100%" style="stop-color:#3b82f6"/>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+    </pattern>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#7b68ee;stop-opacity:0.1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#93c5fd;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#93c5fd;stop-opacity:0"/>
-    </radialGradient>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#93c5fd" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#93c5fd" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#93c5fd" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#dbeafe" text-anchor="middle">1</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dbeafe" text-anchor="middle" opacity="0.8">ГЕОМЕТРИЯ · 10–11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#dbeafe" text-anchor="middle">Урок 1: Предмет стереометрии. Аксиомы стереометрии</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#93c5fd" text-anchor="middle" opacity="0.8">Урок 1 из 38</text>
-  <circle cx="250" cy="175" r="50" fill="none" stroke="#93c5fd" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Сетка фона -->
+  <rect width="500" height="350" fill="url(#grid)" />
+  
+  <!-- Основной фон -->
+  <rect x="10" y="10" width="480" height="330" rx="10" fill="url(#grad1)" stroke="#4a90e2" stroke-width="2"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">
+    ГЕОМЕТРИЯ · 10 КЛАСС
+  </text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#34495e">
+    Урок 1: Предмет стереометрии
+  </text>
+  
+  <!-- Разделительная линия -->
+  <line x1="50" y1="80" x2="450" y2="80" stroke="#4a90e2" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Геометрические фигуры для иллюстрации -->
+  <!-- Куб -->
+  <g transform="translate(80, 120)">
+    <path d="M 0 0 L 0 80 L 60 80 L 60 0 Z" fill="#e8f4f8" stroke="#2c3e50" stroke-width="2"/>
+    <path d="M 0 0 L 20 -20 L 80 -20 L 60 0 Z" fill="#d4e6f1" stroke="#2c3e50" stroke-width="2"/>
+    <path d="M 60 0 L 80 -20 L 80 60 L 60 80 Z" fill="#aed6f1" stroke="#2c3e50" stroke-width="2"/>
+    <path d="M 0 80 L 20 60 L 80 60 L 60 80 Z" fill="#d4e6f1" stroke="#2c3e50" stroke-width="2"/>
+  </g>
+  
+  <!-- Пирамида -->
+  <g transform="translate(220, 100)">
+    <polygon points="40,80 0,0 80,0" fill="#ffeaa7" stroke="#2c3e50" stroke-width="2"/>
+    <polygon points="40,80 40,20 80,0" fill="#fdcb6e" stroke="#2c3e50" stroke-width="2" opacity="0.7"/>
+    <polygon points="40,80 0,0 40,20" fill="#f39c12" stroke="#2c3e50" stroke-width="2" opacity="0.7"/>
+  </g>
+  
+  <!-- Цилиндр -->
+  <g transform="translate(340, 120)">
+    <ellipse cx="40" cy="0" rx="40" ry="10" fill="#a8e6cf" stroke="#2c3e50" stroke-width="2"/>
+    <rect x="0" y="0" width="80" height="80" fill="#a8e6cf" stroke="none"/>
+    <ellipse cx="40" cy="80" rx="40" ry="10" fill="#7fcdbb" stroke="#2c3e50" stroke-width="2"/>
+    <path d="M 0 10 L 0 70" stroke="#2c3e50" stroke-width="2"/>
+    <path d="M 80 10 L 80 70" stroke="#2c3e50" stroke-width="2"/>
+  </g>
+  
+  <!-- Аксиомы стереометрии -->
+  <text x="50" y="240" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">
+    Аксиомы стереометрии:
+  </text>
+  
+  <!-- Аксиома 1 -->
+  <g transform="translate(50, 260)">
+    <circle cx="5" cy="5" r="3" fill="#e74c3c"/>
+    <text x="15" y="10" font-family="Arial, sans-serif" font-size="14" fill="#34495e">
+      Через любые три точки, не лежащие на одной прямой, проходит плоскость.
+    </text>
+  </g>
+  
+  <!-- Аксиома 2 -->
+  <g transform="translate(50, 285)">
+    <circle cx="5" cy="5" r="3" fill="#e74c3c"/>
+    <text x="15" y="10" font-family="Arial, sans-serif" font-size="14" fill="#34495e">
+      Если две точки прямой принадлежат плоскости, то все точки прямой принадлежат плоскости.
+    </text>
+  </g>
+  
+  <!-- Аксиома 3 -->
+  <g transform="translate(50, 310)">
+    <circle cx="5" cy="5" r="3" fill="#e74c3c"/>
+    <text x="15" y="10" font-family="Arial, sans-serif" font-size="14" fill="#34495e">
+      Если две плоскости имеют общую точку, то они имеют общую прямую.
+    </text>
+  </g>
+  
+  <!-- Дополнительные элементы оформления -->
+  <circle cx="470" cy="330" r="20" fill="#4a90e2" opacity="0.2"/>
+  <circle cx="460" cy="320" r="15" fill="#7b68ee" opacity="0.2"/>
+  <circle cx="480" cy="340" r="10" fill="#4a90e2" opacity="0.2"/>
+  
+  <!-- Геометрические символы -->
+  <text x="450" y="100" font-family="Arial, sans-serif" font-size="20" fill="#7b68ee" opacity="0.5">α</text>
+  <text x="450" y="120" font-family="Arial, sans-serif" font-size="20" fill="#7b68ee" opacity="0.5">β</text>
+  <text x="450" y="140" font-family="Arial, sans-serif" font-size="20" fill="#7b68ee" opacity="0.5">γ</text>
+  
+  <!-- Декоративные линии -->
+  <line x1="100" y1="220" x2="400" y2="220" stroke="#bdc3c7" stroke-width="1" opacity="0.5"/>
+  <line x1="100" y1="225" x2="400" y2="225" stroke="#bdc3c7" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Вспомогательные элементы -->
+  <rect x="30" y="90" width="15" height="15" fill="none" stroke="#3498db" stroke-width="1" opacity="0.5"/>
+  <rect x="445" y="150" width="15" height="15" fill="none" stroke="#9b59b6" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Точки на фигурах -->
+  <circle cx="80" cy="120" r="2" fill="#e74c3c"/>
+  <circle cx="140" cy="120" r="2" fill="#e74c3c"/>
+  <circle cx="110" cy="200" r="2" fill="#e74c3c"/>
+  <circle cx="260" cy="100" r="2" fill="#e74c3c"/>
+  <circle cx="220" cy="100" r="2" fill="#e74c3c"/>
+  <circle cx="300" cy="100" r="2" fill="#e74c3c"/>
+  
+  <!-- Углы -->
+  <path d="M 90 130 L 90 140 L 100 130" fill="none" stroke="#e74c3c" stroke-width="1"/>
+  <path d="M 230 110 L 240 110 L 230 120" fill="none" stroke="#e74c3c" stroke-width="1"/>
+  <path d="M 350 130 L 350 140 L 360 130" fill="none" stroke="#e74c3c" stroke-width="1"/>
 </svg>
