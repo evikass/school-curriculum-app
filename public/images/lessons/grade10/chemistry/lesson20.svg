@@ -1,36 +1,157 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E0F2F1"/><stop offset="100%" stop-color="#B2DFDB"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#00695C" stroke-width="2.5"/>
-<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#00695C" text-anchor="middle">Синтетические полимеры</text>
-<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Химия 10 класс — Урок 20</text>
-<line x1="30" y1="52" x2="470" y2="52" stroke="#00695C" stroke-width="1.5" opacity="0.25"/>
-<g transform="translate(250,200)">
-<circle cx="0" cy="0" r="65" fill="#00695C" opacity="0.07" stroke="#00695C" stroke-width="2"/>
-<text x="0" y="-5" font-family="Arial,sans-serif" font-size="13" fill="#00695C" text-anchor="middle" font-weight="bold">Полимер</text>
-<text x="0" y="15" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Макромолекула</text>
-</g>
-<g transform="translate(90,105)">
-<rect x="-50" y="-20" width="100" height="40" rx="5" fill="white" stroke="#1565C0" stroke-width="1.2"/>
-<text x="0" y="-5" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle" font-weight="bold">Полимеризация</text>
-<text x="0" y="7" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">n CH₂=CH₂→</text>
-<text x="0" y="14" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">(–CH₂–CH₂–)ₙ</text>
-</g>
-<g transform="translate(210,80)">
-<rect x="-50" y="-20" width="100" height="40" rx="5" fill="white" stroke="#9C27B0" stroke-width="1.2"/>
-<text x="0" y="-5" font-family="Arial,sans-serif" font-size="8" fill="#9C27B0" text-anchor="middle" font-weight="bold">Поликонденс.</text>
-<text x="0" y="7" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">+ H₂O</text>
-</g>
-<g transform="translate(290,80)">
-<rect x="-50" y="-20" width="100" height="40" rx="5" fill="white" stroke="#FF8F00" stroke-width="1.2"/>
-<text x="0" y="-5" font-family="Arial,sans-serif" font-size="8" fill="#FF8F00" text-anchor="middle" font-weight="bold">Вулканизация</text>
-<text x="0" y="7" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">+ S → резина</text>
-</g>
-<g transform="translate(410,105)">
-<rect x="-50" y="-20" width="100" height="40" rx="5" fill="white" stroke="#C62828" stroke-width="1.2"/>
-<text x="0" y="-5" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle" font-weight="bold">ПЭ, ПВХ</text>
-<text x="0" y="7" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">Капрон,</text>
-<text x="0" y="14" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">Лавсан</text>
-</g>
-<text x="250" y="335" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">ИНЕТШКОЛА · Химия · 10 класс</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="polymerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4f46e5;stop-opacity:1" />
+    </linearGradient>
+    
+    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#cbd5e1" opacity="0.5"/>
+    </pattern>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  <rect width="500" height="350" fill="url(#dots)"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#1e293b">
+    ХИМИЯ · 10 КЛАСС
+  </text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#475569">
+    Урок 20: Синтетические полимеры
+  </text>
+  
+  <!-- Молекулярная структура полиэтилена -->
+  <g transform="translate(50, 100)">
+    <!-- Карбоновые цепи -->
+    <path d="M 0,50 L 30,50 L 40,30 L 70,30 L 80,50 L 110,50 L 120,30 L 150,30 L 160,50 L 190,50" 
+          stroke="#4f46e5" stroke-width="3" fill="none"/>
+    <!-- Связи -->
+    <line x1="0" y1="50" x2="20" y2="50" stroke="#4f46e5" stroke-width="3"/>
+    <line x1="40" y1="30" x2="60" y2="30" stroke="#4f46e5" stroke-width="3"/>
+    <line x1="80" y1="50" x2="100" y2="50" stroke="#4f46e5" stroke-width="3"/>
+    <line x1="120" y1="30" x2="140" y2="30" stroke="#4f46e5" stroke-width="3"/>
+    <line x1="160" y1="50" x2="180" y2="50" stroke="#4f46e5" stroke-width="3"/>
+    <!-- Атомы -->
+    <circle cx="0" cy="50" r="8" fill="#1e293b"/>
+    <circle cx="20" cy="50" r="6" fill="#4f46e5"/>
+    <circle cx="40" cy="30" r="8" fill="#1e293b"/>
+    <circle cx="60" cy="30" r="6" fill="#4f46e5"/>
+    <circle cx="80" cy="50" r="8" fill="#1e293b"/>
+    <circle cx="100" cy="50" r="6" fill="#4f46e5"/>
+    <circle cx="120" cy="30" r="8" fill="#1e293b"/>
+    <circle cx="140" cy="30" r="6" fill="#4f46e5"/>
+    <circle cx="160" cy="50" r="8" fill="#1e293b"/>
+    <circle cx="180" cy="50" r="6" fill="#4f46e5"/>
+    <circle cx="190" cy="50" r="8" fill="#1e293b"/>
+    <!-- Метки -->
+    <text x="20" y="75" text-anchor="middle" font-size="12" fill="#475569">CH₂</text>
+    <text x="60" y="20" text-anchor="middle" font-size="12" fill="#475569">CH₂</text>
+    <text x="100" y="75" text-anchor="middle" font-size="12" fill="#475569">CH₂</text>
+    <text x="140" y="20" text-anchor="middle" font-size="12" fill="#475569">CH₂</text>
+    <text x="180" y="75" text-anchor="middle" font-size="12" fill="#475569">CH₂</text>
+  </g>
+  
+  <!-- Полимерные цепочки -->
+  <g transform="translate(280, 120)">
+    <path d="M 0,0 Q 10,-10 20,0 T 40,0 T 60,0 T 80,0 T 100,0 T 120,0" 
+          stroke="#7c3aed" stroke-width="2" fill="none" opacity="0.7"/>
+    <path d="M 0,20 Q 10,10 20,20 T 40,20 T 60,20 T 80,20 T 100,20 T 120,20" 
+          stroke="#7c3aed" stroke-width="2" fill="none" opacity="0.7"/>
+    <path d="M 0,40 Q 10,30 20,40 T 40,40 T 60,40 T 80,40 T 100,40 T 120,40" 
+          stroke="#7c3aed" stroke-width="2" fill="none" opacity="0.7"/>
+  </g>
+  
+  <!-- Декоративные молекулы -->
+  <g transform="translate(50, 200)">
+    <circle cx="0" cy="0" r="4" fill="#ef4444"/>
+    <circle cx="15" cy="5" r="4" fill="#3b82f6"/>
+    <circle cx="30" cy="0" r="4" fill="#10b981"/>
+    <line x1="0" y1="0" x2="15" y2="5" stroke="#64748b" stroke-width="1"/>
+    <line x1="15" y1="5" x2="30" y2="0" stroke="#64748b" stroke-width="1"/>
+  </g>
+  
+  <g transform="translate(100, 210)">
+    <circle cx="0" cy="0" r="4" fill="#f59e0b"/>
+    <circle cx="12" cy="8" r="4" fill="#8b5cf6"/>
+    <circle cx="24" cy="0" r="4" fill="#06b6d4"/>
+    <line x1="0" y1="0" x2="12" y2="8" stroke="#64748b" stroke-width="1"/>
+    <line x1="12" y1="8" x2="24" y2="0" stroke="#64748b" stroke-width="1"/>
+  </g>
+  
+  <!-- Структура полиамида -->
+  <g transform="translate(200, 200)">
+    <rect x="0" y="0" width="80" height="40" rx="5" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2"/>
+    <text x="40" y="25" text-anchor="middle" font-size="14" fill="#4f46e5">-NH-CO-</text>
+    <text x="40" y="55" text-anchor="middle" font-size="10" fill="#64748b">амидная связь</text>
+  </g>
+  
+  <!-- Сетка полимера -->
+  <g transform="translate(320, 180)">
+    <rect x="0" y="0" width="30" height="30" fill="none" stroke="#4f46e5" stroke-width="1.5" opacity="0.6"/>
+    <rect x="30" y="0" width="30" height="30" fill="none" stroke="#4f46e5" stroke-width="1.5" opacity="0.6"/>
+    <rect x="60" y="0" width="30" height="30" fill="none" stroke="#4f46e5" stroke-width="1.5" opacity="0.6"/>
+    <rect x="0" y="30" width="30" height="30" fill="none" stroke="#4f46e5" stroke-width="1.5" opacity="0.6"/>
+    <rect x="30" y="30" width="30" height="30" fill="none" stroke="#4f46e5" stroke-width="1.5" opacity="0.6"/>
+    <rect x="60" y="30" width="30" height="30" fill="none" stroke="#4f46e5" stroke-width="1.5" opacity="0.6"/>
+    <!-- Узлы сети -->
+    <circle cx="0" cy="0" r="3" fill="#4f46e5"/>
+    <circle cx="30" cy="0" r="3" fill="#4f46e5"/>
+    <circle cx="60" cy="0" r="3" fill="#4f46e5"/>
+    <circle cx="90" cy="0" r="3" fill="#4f46e5"/>
+    <circle cx="0" cy="30" r="3" fill="#4f46e5"/>
+    <circle cx="30" cy="30" r="3" fill="#4f46e5"/>
+    <circle cx="60" cy="30" r="3" fill="#4f46e5"/>
+    <circle cx="90" cy="30" r="3" fill="#4f46e5"/>
+    <circle cx="0" cy="60" r="3" fill="#4f46e5"/>
+    <circle cx="30" cy="60" r="3" fill="#4f46e5"/>
+    <circle cx="60" cy="60" r="3" fill="#4f46e5"/>
+    <circle cx="90" cy="60" r="3" fill="#4f46e5"/>
+  </g>
+  
+  <!-- Формулы полимеров -->
+  <text x="50" y="280" font-family="Arial, sans-serif" font-size="12" fill="#475569">
+    <tspan font-weight="bold">Примеры синтетических полимеров:</tspan>
+  </text>
+  
+  <text x="50" y="300" font-family="Arial, sans-serif" font-size="11" fill="#64748b">
+    • Полиэтилен: [CH₂-CH₂]ₙ
+  </text>
+  
+  <text x="50" y="318" font-family="Arial, sans-serif" font-size="11" fill="#64748b">
+    • Поливинилхлорид: [CH₂-CHCl]ₙ
+  </text>
+  
+  <text x="250" y="300" font-family="Arial, sans-serif" font-size="11" fill="#64748b">
+    • Полиэтилентерефталат: [OCH₂-CH₂OCOC₆H₄CO]ₙ
+  </text>
+  
+  <text x="250" y="318" font-family="Arial, sans-serif" font-size="11" fill="#64748b">
+    • Полиамид: [-NH(CH₂)₆NHCO(CH₂)₄CO-]ₙ
+  </text>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="450" cy="50" r="15" fill="#e0e7ff" opacity="0.5"/>
+  <circle cx="430" cy="70" r="10" fill="#c7d2fe" opacity="0.5"/>
+  <circle cx="470" cy="80" r="8" fill="#a5b4fc" opacity="0.5"/>
+  
+  <!-- Граница -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#cbd5e1" stroke-width="1" rx="5"/>
+  
+  <!-- Обведенный блок "Обобщение курса" -->
+  <rect x="320" y="250" width="160" height="80" rx="8" fill="white" stroke="#4f46e5" stroke-width="2" opacity="0.9"/>
+  <text x="400" y="275" text-anchor="middle" font-size="14" font-weight="bold" fill="#4f46e5">Обобщение курса</text>
+  <text x="400" y="295" text-anchor="middle" font-size="11" fill="#64748b">• Структура вещества</text>
+  <text x="400" y="310" text-anchor="middle" font-size="11" fill="#64748b">• Химические реакции</text>
+  <text x="400" y="325" text-anchor="middle" font-size="11" fill="#64748b">• Применение полимеров</text>
 </svg>
