@@ -1,34 +1,134 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E0F2F1"/><stop offset="100%" stop-color="#B2DFDB"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#00695C" stroke-width="2.5"/>
-<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#00695C" text-anchor="middle">Нуклеиновые кислоты</text>
-<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Химия 10 класс — Урок 19</text>
-<line x1="30" y1="52" x2="470" y2="52" stroke="#00695C" stroke-width="1.5" opacity="0.25"/>
-<g transform="translate(250,200)">
-<circle cx="0" cy="0" r="65" fill="#00695C" opacity="0.07" stroke="#00695C" stroke-width="2"/>
-<text x="0" y="-5" font-family="Arial,sans-serif" font-size="13" fill="#00695C" text-anchor="middle" font-weight="bold">ДНК</text>
-<text x="0" y="15" font-family="Arial,sans-serif" font-size="9" fill="#555" text-anchor="middle">Хранитель информации</text>
-</g>
-<g transform="translate(90,105)">
-<rect x="-50" y="-20" width="100" height="40" rx="5" fill="white" stroke="#1565C0" stroke-width="1.2"/>
-<text x="0" y="-5" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle" font-weight="bold">A=T</text>
-<text x="0" y="7" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">2 H-связи</text>
-</g>
-<g transform="translate(210,80)">
-<rect x="-50" y="-20" width="100" height="40" rx="5" fill="white" stroke="#9C27B0" stroke-width="1.2"/>
-<text x="0" y="-5" font-family="Arial,sans-serif" font-size="8" fill="#9C27B0" text-anchor="middle" font-weight="bold">G≡C</text>
-<text x="0" y="7" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">3 H-связи</text>
-</g>
-<g transform="translate(290,80)">
-<rect x="-50" y="-20" width="100" height="40" rx="5" fill="white" stroke="#FF8F00" stroke-width="1.2"/>
-<text x="0" y="-5" font-family="Arial,sans-serif" font-size="8" fill="#FF8F00" text-anchor="middle" font-weight="bold">мРНК</text>
-<text x="0" y="7" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">Информация</text>
-</g>
-<g transform="translate(410,105)">
-<rect x="-50" y="-20" width="100" height="40" rx="5" fill="white" stroke="#C62828" stroke-width="1.2"/>
-<text x="0" y="-5" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle" font-weight="bold">тРНК</text>
-<text x="0" y="7" font-family="Arial,sans-serif" font-size="6" fill="#888" text-anchor="middle">Транспорт</text>
-</g>
-<text x="250" y="335" font-family="Arial,sans-serif" font-size="8" fill="#888" text-anchor="middle">ИНЕТШКОЛА · Химия · 10 класс</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f0f4f8"/>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="50" cy="50" r="30" fill="#e3f2fd" opacity="0.5"/>
+  <circle cx="450" cy="300" r="40" fill="#f3e5f5" opacity="0.4"/>
+  <circle cx="420" cy="80" r="25" fill="#e8f5e9" opacity="0.5"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1565c0">ХИМИЯ · 10 КЛАСС</text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#546e7a">Урок 19: Нуклеиновые кислоты</text>
+  
+  <!-- Двойная спираль ДНК -->
+  <g transform="translate(100, 80)">
+    <!-- Левая спираль -->
+    <path d="M 0 0 Q -10 20 0 40 Q 10 60 0 80 Q -10 100 0 120 Q 10 140 0 160" 
+          stroke="#1976d2" stroke-width="4" fill="none"/>
+    <!-- Правая спираль -->
+    <path d="M 40 0 Q 50 20 40 40 Q 30 60 40 80 Q 50 100 40 120 Q 30 140 40 160" 
+          stroke="#1976d2" stroke-width="4" fill="none"/>
+    <!-- Соединения -->
+    <line x1="0" y1="10" x2="40" y2="10" stroke="#42a5f5" stroke-width="2"/>
+    <line x1="0" y1="30" x2="40" y2="30" stroke="#42a5f5" stroke-width="2"/>
+    <line x1="0" y1="50" x2="40" y2="50" stroke="#42a5f5" stroke-width="2"/>
+    <line x1="0" y1="70" x2="40" y2="70" stroke="#42a5f5" stroke-width="2"/>
+    <line x1="0" y1="90" x2="40" y2="90" stroke="#42a5f5" stroke-width="2"/>
+    <line x1="0" y1="110" x2="40" y2="110" stroke="#42a5f5" stroke-width="2"/>
+    <line x1="0" y1="130" x2="40" y2="130" stroke="#42a5f5" stroke-width="2"/>
+    <line x1="0" y1="150" x2="40" y2="150" stroke="#42a5f5" stroke-width="2"/>
+    
+    <!-- Основные пары оснований -->
+    <g transform="translate(0, 10)">
+      <circle cx="0" cy="0" r="8" fill="#ff6f00"/>
+      <circle cx="40" cy="0" r="8" fill="#d32f2f"/>
+      <text x="20" y="5" text-anchor="middle" font-size="10" fill="white">A-T</text>
+    </g>
+    <g transform="translate(0, 50)">
+      <circle cx="0" cy="0" r="8" fill="#7b1fa2"/>
+      <circle cx="40" cy="0" r="8" fill="#388e3c"/>
+      <text x="20" y="5" text-anchor="middle" font-size="10" fill="white">G-C</text>
+    </g>
+    <g transform="translate(0, 90)">
+      <circle cx="0" cy="0" r="8" fill="#388e3c"/>
+      <circle cx="40" cy="0" r="8" fill="#7b1fa2"/>
+      <text x="20" y="5" text-anchor="middle" font-size="10" fill="white">C-G</text>
+    </g>
+    <g transform="translate(0, 130)">
+      <circle cx="0" cy="0" r="8" fill="#d32f2f"/>
+      <circle cx="40" cy="0" r="8" fill="#ff6f00"/>
+      <text x="20" y="5" text-anchor="middle" font-size="10" fill="white">T-A</text>
+    </g>
+  </g>
+  
+  <!-- Надпись ДНК -->
+  <text x="120" y="260" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1565c0">ДНК (дезоксирибонуклеиновая кислота)</text>
+  
+  <!-- Одноцепочечная РНК -->
+  <g transform="translate(280, 80)">
+    <!-- Основная цепь -->
+    <path d="M 0 0 Q 10 15 5 30 Q -5 45 5 60 Q 15 75 5 90 Q -5 105 5 120 Q 15 135 5 150" 
+          stroke="#f57c00" stroke-width="4" fill="none"/>
+    <!-- Нуклеотиды -->
+    <circle cx="5" cy="15" r="8" fill="#0277bd"/>
+    <circle cx="5" cy="45" r="8" fill="#d81b60"/>
+    <circle cx="5" cy="75" r="8" fill="#388e3c"/>
+    <circle cx="5" cy="105" r="8" fill="#ff6f00"/>
+    <circle cx="5" cy="135" r="8" fill="#7b1fa2"/>
+  </g>
+  
+  <!-- Надпись РНК -->
+  <text x="300" y="260" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#f57c00">РНК (рибонуклеиновая кислота)</text>
+  
+  <!-- Блоки информации -->
+  <g transform="translate(20, 290)">
+    <rect x="0" y="0" width="150" height="50" rx="5" fill="#e3f2fd" stroke="#1976d2" stroke-width="1"/>
+    <text x="75" y="20" text-anchor="middle" font-size="12" fill="#1565c0">Основные функции:</text>
+    <text x="75" y="35" text-anchor="middle" font-size="10" fill="#546e7a">хранение, передача</text>
+    <text x="75" y="47" text-anchor="middle" font-size="10" fill="#546e7a">наследственной информации</text>
+  </g>
+  
+  <g transform="translate(180, 290)">
+    <rect x="0" y="0" width="140" height="50" rx="5" fill="#fff3e0" stroke="#f57c00" stroke-width="1"/>
+    <text x="70" y="20" text-anchor="middle" font-size="12" fill="#e65100">Структура:</text>
+    <text x="70" y="35" text-anchor="middle" font-size="10" fill="#546e7a">фосфодиэфирные связи</text>
+    <text x="70" y="47" text-anchor="middle" font-size="10" fill="#546e7a">сахар-фосфатный остов</text>
+  </g>
+  
+  <g transform="translate(330, 290)">
+    <rect x="0" y="0" width="150" height="50" rx="5" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1"/>
+    <text x="75" y="20" text-anchor="middle" font-size="12" fill="#4a148c">Мононуклеотиды:</text>
+    <text x="75" y="35" text-anchor="middle" font-size="10" fill="#546e7a">аденин, гуанин,</text>
+    <text x="75" y="47" text-anchor="middle" font-size="10" fill="#546e7a">цитозин, тимин/урацил</text>
+  </g>
+  
+  <!-- Декоративные молекулы -->
+  <g transform="translate(400, 100)">
+    <circle cx="0" cy="0" r="15" fill="#81c784" opacity="0.6"/>
+    <circle cx="-10" cy="-10" r="8" fill="#64b5f6" opacity="0.7"/>
+    <circle cx="10" cy="10" r="8" fill="#ffb74d" opacity="0.7"/>
+    <line x1="0" y1="0" x2="-10" y2="-10" stroke="#4caf50" stroke-width="2"/>
+    <line x1="0" y1="0" x2="10" y2="10" stroke="#ff9800" stroke-width="2"/>
+  </g>
+  
+  <!-- Стрелка указания -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#546e7a"/>
+    </marker>
+  </defs>
+  
+  <!-- Указатель на ДНК -->
+  <line x1="200" y1="180" x2="140" y2="200" stroke="#546e7a" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  
+  <!-- Указатель на РНК -->
+  <line x1="300" y1="180" x2="320" y2="200" stroke="#546e7a" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  
+  <!-- Дополнительные элементы -->
+  <g transform="translate(50, 150)">
+    <rect x="0" y="0" width="30" height="20" rx="3" fill="#e1f5fe" stroke="#0288d1" stroke-width="1"/>
+    <text x="15" y="14" text-anchor="middle" font-size="10" fill="#01579b">P</text>
+  </g>
+  
+  <g transform="translate(50, 180)">
+    <rect x="0" y="0" width="30" height="20" rx="3" fill="#f1f8e9" stroke="#689f38" stroke-width="1"/>
+    <text x="15" y="14" text-anchor="middle" font-size="10" fill="#33691e">S</text>
+  </g>
+  
+  <!-- Нумерация уроков -->
+  <circle cx="460" cy="30" r="15" fill="#cfd8dc" stroke="#607d8b" stroke-width="1"/>
+  <text x="460" y="35" text-anchor="middle" font-size="12" fill="#37474f">19</text>
 </svg>
