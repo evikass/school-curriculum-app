@@ -1,0 +1,217 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f5f3f0"/>
+  
+  <!-- Декоративная рамка -->
+  <rect x="10" y="10" width="480" height="330" fill="none" stroke="#8b4513" stroke-width="3"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#2c1810">Урок 10: Общественный строй</text>
+  <text x="250" y="65" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#2c1810">и культура Древней Руси</text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#5d4037">IX-XII века</text>
+  
+  <!-- Княжеский дворец -->
+  <g transform="translate(80, 120)">
+    <rect x="0" y="20" width="80" height="60" fill="#8b4513" stroke="#654321" stroke-width="2"/>
+    <polygon points="0,20 40,0 80,20" fill="#d2691e" stroke="#654321" stroke-width="2"/>
+    <rect x="30" y="40" width="20" height="40" fill="#4a4a4a"/>
+    <rect x="10" y="30" width="15" height="15" fill="#87ceeb"/>
+    <rect x="55" y="30" width="15" height="15" fill="#87ceeb"/>
+  </g>
+  
+  <!-- Церковь -->
+  <g transform="translate(200, 120)">
+    <rect x="0" y="40" width="60" height="40" fill="#d2691e" stroke="#654321" stroke-width="2"/>
+    <polygon points="0,40 30,20 60,40" fill="#8b4513" stroke="#654321" stroke-width="2"/>
+    <rect x="25" y="0" width="10" height="20" fill="#8b4513"/>
+    <polygon points="20,0 30,-10 40,0" fill="#d2691e" stroke="#654321" stroke-width="1"/>
+    <rect x="20" y="50" width="20" height="30" fill="#4a4a4a"/>
+  </g>
+  
+  <!-- Деревянные дома -->
+  <g transform="translate(300, 130)">
+    <rect x="0" y="20" width="50" height="50" fill="#cd853f" stroke="#8b4513" stroke-width="1"/>
+    <polygon points="0,20 25,5 50,20" fill="#d2691e" stroke="#8b4513" stroke-width="1"/>
+    <rect x="20" y="40" width="10" height="30" fill="#4a4a4a"/>
+  </g>
+  
+  <g transform="translate(370, 135)">
+    <rect x="0" y="15" width="40" height="45" fill="#cd853f" stroke="#8b4513" stroke-width="1"/>
+    <polygon points="0,15 20,0 40,15" fill="#d2691e" stroke="#8b4513" stroke-width="1"/>
+    <rect x="15" y="35" width="10" height="25" fill="#4a4a4a"/>
+  </g>
+  
+  <!-- Варяг -->
+  <g transform="translate(100, 220)">
+    <circle cx="15" cy="10" r="10" fill="#fdbcb4" stroke="#8b4513" stroke-width="1"/>
+    <rect x="10" y="20" width="10" height="25" fill="#4169e1"/>
+    <rect x="5" y="15" width="20" height="15" fill="#8b4513"/>
+    <polygon points="0,45 15,45 10,50 20,50 15,45 30,45 25,50 35,50 30,45" fill="#654321"/>
+    <circle cx="5" cy="5" r="2" fill="#000"/>
+  </g>
+  
+  <!-- Купец -->
+  <g transform="translate(180, 220)">
+    <circle cx="15" cy="10" r="10" fill="#fdbcb4" stroke="#8b4513" stroke-width="1"/>
+    <rect x="10" y="20" width="10" height="25" fill="#dc143c"/>
+    <rect x="5" y="15" width="20" height="15" fill="#ffd700"/>
+    <polygon points="0,45 15,45 10,50 20,50 15,45 30,45 25,50 35,50 30,45" fill="#654321"/>
+    <circle cx="5" cy="5" r="2" fill="#000"/>
+    <!-- Торговый мешок -->
+    <rect x="30" y="25" width="15" height="20" fill="#8b4513"/>
+    <text x="37" y="38" text-anchor="middle" font-size="8" fill="#fff">Т</text>
+  </g>
+  
+  <!-- Земледелец -->
+  <g transform="translate(260, 220)">
+    <circle cx="15" cy="10" r="10" fill="#fdbcb4" stroke="#8b4513" stroke-width="1"/>
+    <rect x="10" y="20" width="10" height="25" fill="#228b22"/>
+    <rect x="5" y="15" width="20" height="15" fill="#8b4513"/>
+    <polygon points="0,45 15,45 10,50 20,50 15,45 30,45 25,50 35,50 30,45" fill="#654321"/>
+    <circle cx="5" cy="5" r="2" fill="#000"/>
+    <!-- Серп -->
+    <path d="M30 30 Q35 25 40 30" fill="none" stroke="#c0c0c0" stroke-width="2"/>
+  </g>
+  
+  <!-- Боярин -->
+  <g transform="translate(340, 220)">
+    <circle cx="15" cy="10" r="10" fill="#fdbcb4" stroke="#8c3310" stroke-width="1"/>
+    <rect x="10" y="20" width="10" height="25" fill="#4b0082"/>
+    <rect x="5" y="15" width="20" height="15" fill="#ffd700"/>
+    <polygon points="0,45 15,45 10,50 20,50 15,45 30,45 25,50 35,50 30,45" fill="#654321"/>
+    <circle cx="5" cy="5" r="2" fill="#000"/>
+    <!-- Оружие -->
+    <line x1="35" y1="20" x2="40" y2="15" stroke="#8b4513" stroke-width="2"/>
+    <circle cx="40" cy="15" r="3" fill="#c0c0c0"/>
+  </g>
+  
+  <!-- Солнце -->
+  <circle cx="450" cy="50" r="15" fill="#ffd700"/>
+  <g transform="translate(450, 50)">
+    <line x1="-25" y1="0" x2="-20" y2="0" stroke="#ffd700" stroke-width="2"/>
+    <line x1="20" y1="0" x2="25" y2="0" stroke="#ffd700" stroke-width="2"/>
+    <line x1="0" y1="-25" x2="0" y2="-20" stroke="#ffd700" stroke-width="2"/>
+    <line x1="0" y1="20" x2="0" y2="25" stroke="#ffd700" stroke-width="2"/>
+    <line x1="-18" y1="-18" x2="-14" y2="-14" stroke="#ffd700" stroke-width="2"/>
+    <line x1="14" y1="14" x2="18" y2="18" stroke="#ffd700" stroke-width="2"/>
+    <line x1="18" y1="-18" x2="14" y2="-14" stroke="#ffd700" stroke-width="2"/>
+    <line x1="-14" y1="14" x2="-18" y2="18" stroke="#ffd700" stroke-width="2"/>
+  </g>
+  
+  <!-- Дерево -->
+  <g transform="translate(50, 250)">
+    <rect x="-5" y="30" width="10" height="40" fill="#8b4513"/>
+    <circle cx="0" cy="20" r="15" fill="#228b22"/>
+    <circle cx="-10" cy="25" r="12" fill="#32cd32"/>
+    <circle cx="10" cy="25" r="12" fill="#32cd32"/>
+  </g>
+  
+  <!-- Река -->
+  <path d="M0 300 Q125 290 250 300 T500 300" fill="none" stroke="#4682b4" stroke-width="8"/>
+  <path d="M0 300 Q125 290 250 300 T500 300" fill="none" stroke="#87ceeb" stroke-width="4" stroke-dasharray="5,5"/>
+  
+  <!-- Судно -->
+  <g transform="translate(120, 280)">
+    <path d="M0 10 L40 10 L35 20 L5 20 Z" fill="#8b4513"/>
+    <rect x="15" y="-5" width="10" height="15" fill="#654321"/>
+    <polygon points="20,-5 20,-15 30,-10" fill="#d2691e"/>
+  </g>
+  
+  <!-- Надписи на зданиях -->
+  <text x="120" y="155" text-anchor="middle" font-size="8" fill="#fff">Дворец</text>
+  <text x="230" y="155" text-anchor="middle" font-size="8" fill="#fff">Церковь</text>
+  <text x="325" y="165" text-anchor="middle" font-size="8" fill="#fff">Дом</text>
+  <text x="390" y="170" text-anchor="middle" font-size="8" fill="#fff">Изба</text>
+  
+  <!-- Штандарт -->
+  <g transform="translate(120, 100)">
+    <rect x="0" y="0" width="30" height="20" fill="#8b0000"/>
+    <polygon points="30,0 40,10 30,20" fill="#ffd700"/>
+    <text x="15" y="14" text-anchor="middle" font-size="10" fill="#fff">К</text>
+  </g>
+  
+  <!-- Щит -->
+  <g transform="translate(350, 180)">
+    <path d="M0 10 L15 0 L30 10 L30 25 L15 35 L0 25 Z" fill="#8b4513" stroke="#654321" stroke-width="2"/>
+    <circle cx="15" cy="17" r="8" fill="#ffd700"/>
+    <path d="M10 17 L13 20 L20 13" fill="none" stroke="#8b0000" stroke-width="2"/>
+  </g>
+  
+  <!-- Скипетр -->
+  <g transform="translate(80, 180)">
+    <rect x="0" y="0" width="4" height="30" fill="#ffd700"/>
+    <circle cx="2" cy="-5" r="5" fill="#ffd700"/>
+    <circle cx="2" cy="-5" r="3" fill="#8b0000"/>
+  </g>
+  
+  <!-- Корона -->
+  <g transform="translate(150, 100)">
+    <rect x="0" y="10" width="40" height="5" fill="#ffd700"/>
+    <polygon points="0,10 5,0 10,10 15,0 20,10 25,0 30,10 35,0 40,10" fill="#ffd700"/>
+    <circle cx="5" cy="0" r="2" fill="#8b0000"/>
+    <circle cx="15" cy="0" r="2" fill="#8b0000"/>
+    <circle cx="25" cy="0" r="2" fill="#8b0000"/>
+    <circle cx="35" cy="0" r="2" fill="#8b0000"/>
+  </g>
+  
+  <!-- Свиток -->
+  <g transform="translate(380, 190)">
+    <rect x="0" y="0" width="30" height="25" fill="#f5deb3" stroke="#8b4513" stroke-width="1"/>
+    <line x1="5" y1="5" x2="25" y2="5" stroke="#8b4513" stroke-width="1"/>
+    <line x1="5" y1="10" x2="25" y2="10" stroke="#8b4513" stroke-width="1"/>
+    <line x1="5" y1="15" x2="20" y2="15" stroke="#8b4513" stroke-width="1"/>
+    <line x1="5" y1="20" x2="22" y2="20" stroke="#8b4513" stroke-width="1"/>
+  </g>
+  
+  <!-- Крест -->
+  <g transform="translate(250, 190)">
+    <rect x="8" y="0" width="4" height="20" fill="#8b0000"/>
+    <rect x="0" y="8" width="20" height="4" fill="#8b0000"/>
+  </g>
+  
+  <!-- Металлический предмет -->
+  <g transform="translate(420, 200)">
+    <ellipse cx="10" cy="10" rx="8" ry="5" fill="#c0c0c0"/>
+    <rect x="8" y="10" width="4" height="15" fill="#c0c0c0"/>
+    <rect x="5" y="25" width="10" height="3" fill="#8b4513"/>
+  </g>
+  
+  <!-- Ткацкий станок -->
+  <g transform="translate(300, 200)">
+    <rect x="0" y="0" width="30" height="20" fill="#8b4513"/>
+    <rect x="10" y="0" width="10" height="30" fill="#654321"/>
+    <line x1="5" y1="5" x2="25" y2="5" stroke="#8b4513" stroke-width="2"/>
+    <line x1="5" y1="10" x2="25" y2="10" stroke="#8b4513" stroke-width="2"/>
+    <line x1="5" y1="15" x2="25" y2="15" stroke="#8b4513" stroke-width="2"/>
+  </g>
+  
+  <!-- Птицы -->
+  <g transform="translate(400, 60)">
+    <path d="M0 0 Q5 -5 10 0" fill="none" stroke="#333" stroke-width="1.5"/>
+    <path d="M10 0 Q15 -5 20 0" fill="none" stroke="#333" stroke-width="1.5"/>
+  </g>
+  
+  <g transform="translate(420, 70)">
+    <path d="M0 0 Q5 -5 10 0" fill="none" stroke="#333" stroke-width="1.5"/>
+    <path d="M10 0 Q15 -5 20 0" fill="none" stroke="#333" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Облака -->
+  <g transform="translate(50, 80)">
+    <ellipse cx="10" cy="5" rx="8" ry="4" fill="#fff"/>
+    <ellipse cx="20" cy="5" rx="10" ry="5" fill="#fff"/>
+    <ellipse cx="30" cy="5" rx="8" ry="4" fill="#fff"/>
+  </g>
+  
+  <!-- Герб Рюриковичей -->
+  <g transform="translate(200, 100)">
+    <circle cx="15" cy="15" r="15" fill="#8b0000"/>
+    <path d="M10 15 L20 15 M15 10 L15 20" stroke="#ffd700" stroke-width="3"/>
+    <path d="M10 10 L20 20 M20 10 L10 20" stroke="#ffd700" stroke-width="1"/>
+  </g>
+  
+  <!-- Надпись ИСТОРИЯ · 10 КЛАСС -->
+  <text x="250" y="330" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#2c1810">ИСТОРИЯ · 10 КЛАСС</text>
+</svg>
