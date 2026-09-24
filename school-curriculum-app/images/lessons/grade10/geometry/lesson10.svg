@@ -1,23 +1,125 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a1a1a">ГЕОМЕТРИЯ · 10 КЛАСС</text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="60" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#2c3e50">Урок 10: Перпендикуляр и наклонная</text>
+  
+  <!-- Плоскость (трапеция для перспективы) -->
+  <path d="M 100 200 L 400 200 L 380 300 L 120 300 Z" fill="#e8f4f8" stroke="#3498db" stroke-width="2"/>
+  
+  <!-- Линия пересечения плоскостей для глубины -->
+  <line x1="100" y1="200" x2="400" y2="200" stroke="#3498db" stroke-width="1" stroke-dasharray="5,3"/>
+  
+  <!-- Перпендикуляр -->
+  <line x1="250" y1="200" x2="250" y2="100" stroke="#e74c3c" stroke-width="3" marker-end="url(#arrowhead-red)"/>
+  
+  <!-- Основание перпендикуляра -->
+  <circle cx="250" cy="200" r="4" fill="#e74c3c"/>
+  
+  <!-- Вершина перпендикуляра -->
+  <circle cx="250" cy="100" r="4" fill="#e74c3c"/>
+  
+  <!-- Наклонная 1 -->
+  <line x1="250" y1="100" x2="180" y2="250" stroke="#27ae60" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Наклонная 2 -->
+  <line x1="250" y1="100" x2="320" y2="250" stroke="#27ae60" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Проекция наклонных -->
+  <line x1="180" y1="250" x2="250" y2="200" stroke="#95a5a6" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <line x1="320" y1="250" x2="250" y2="200" stroke="#95a5a6" stroke-width="1.5" stroke-dasharray="3,3"/>
+  
+  <!-- Точки проекций -->
+  <circle cx="180" cy="250" r="3" fill="#27ae60"/>
+  <circle cx="320" cy="250" r="3" fill="#27ae60"/>
+  
+  <!-- Угол между наклонной и плоскостью (угол α) -->
+  <path d="M 250 200 L 280 200 A 30 30 0 0 0 265 178" fill="none" stroke="#f39c12" stroke-width="2"/>
+  <text x="285" y="185" font-family="Arial" font-size="14" fill="#f39c12">α</text>
+  
+  <!-- Угол между двумя наклонными (угол β) -->
+  <path d="M 250 100 L 280 100 A 30 30 0 0 0 270 125" fill="none" stroke="#9b59b6" stroke-width="2"/>
+  <text x="285" y="115" font-family="Arial" font-size="14" fill="#9b59b6">β</text>
+  
+  <!-- Метки -->
+  <text x="260" y="95" font-family="Arial" font-size="14" fill="#e74c3c">A</text>
+  <text x="255" y="205" font-family="Arial" font-size="14" fill="#e74c3c">O</text>
+  <text x="170" y="260" font-family="Arial" font-size="14" fill="#27ae60">B</text>
+  <text x="330" y="260" font-family="Arial" font-size="14" fill="#27ae60">C</text>
+  
+  <!-- Прямые на плоскости -->
+  <line x1="150" y1="250" x2="350" y2="250" stroke="#34495e" stroke-width="1"/>
+  <line x1="180" y1="220" x2="320" y2="280" stroke="#34495e" stroke-width="1"/>
+  
+  <!-- Точки на прямой на плоскости -->
+  <circle cx="200" cy="240" r="2" fill="#34495e"/>
+  <circle cx="300" cy="260" r="2" fill="#34495e"/>
+  
+  <!-- Вспомогательная точка -->
+  <circle cx="280" cy="200" r="3" fill="#3498db"/>
+  
+  <!-- Правила и формулы -->
+  <rect x="20" y="50" width="150" height="80" fill="white" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+  <text x="30" y="70" font-family="Arial" font-size="12" fill="#2c3e50">1. d(A,α) = AO ⊥ α</text>
+  <text x="30" y="90" font-family="Arial" font-size="12" fill="#2c3e50">2. AB - наклонная</text>
+  <text x="30" y="110" font-family="Arial" font-size="12" fill="#2c3e50">3. BO - проекция AB</text>
+  <text x="30" y="130" font-family="Arial" font-size="12" fill="#2c3e50">4. sin α = AB/AO</text>
+  
+  <!-- Вторая формула -->
+  <rect x="330" y="50" width="150" height="80" fill="white" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+  <text x="340" y="70" font-family="Arial" font-size="12" fill="#2c3e50">cos α = BO/AB</text>
+  <text x="340" y="90" font-family="Arial" font-size="12" fill="#2c3e50">tg α = AO/BO</text>
+  <text x="340" y="110" font-family="Arial" font-size="12" fill="#2c3e50">ctg α = BO/AO</text>
+  <text x="340" y="130" font-family="Arial" font-size="12" fill="#2c3e50">AB² = AO² + BO²</text>
+  
+  <!-- Дополнительные элементы для объема -->
+  <line x1="250" y1="200" x2="280" y2="200" stroke="#3498db" stroke-width="2"/>
+  
+  <!-- Стрелки для направлений -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#7f1d1d"/>
-      <stop offset="100%" style="stop-color:#dc2626"/>
-    </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fca5a5;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#fca5a5;stop-opacity:0"/>
-    </radialGradient>
+    <marker id="arrowhead-red" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e74c3c"/>
+    </marker>
+    <marker id="arrowhead-blue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#3498db"/>
+    </marker>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#fca5a5" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#fca5a5" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#fca5a5" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#fee2e2" text-anchor="middle">10</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fee2e2" text-anchor="middle" opacity="0.8">ГЕОМЕТРИЯ · 10–11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fee2e2" text-anchor="middle">Урок 10: Перпендикуляр и наклонная. Угол между пря</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#fca5a5" text-anchor="middle" opacity="0.8">Урок 10 из 38</text>
-  <line x1="100" y1="250" x2="400" y2="120" stroke="#fca5a5" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Дополнительные точки для наглядности -->
+  <circle cx="150" cy="200" r="2" fill="#3498db"/>
+  <circle cx="350" cy="200" r="2" fill="#3498db"/>
+  
+  <!-- Подпись плоскости -->
+  <text x="250" y="270" font-family="Arial" font-size="16" text-anchor="middle" fill="#3498db" font-style="italic">α</text>
+  
+  <!-- Угол между плоскостями (90°) -->
+  <text x="265" y="195" font-family="Arial" font-size="10" fill="#e74c3c">90°</text>
+  
+  <!-- Дополнительные линии для проекций -->
+  <line x1="180" y1="250" x2="180" y2="200" stroke="#ecf0f1" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="320" y1="250" x2="320" y2="200" stroke="#ecf0f1" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- Штриховка для объема -->
+  <path d="M 100 200 L 105 195 L 405 195 L 400 200 Z" fill="#3498db" opacity="0.1"/>
+  
+  <!-- Точка D для дополнительного примера -->
+  <circle cx="350" cy="230" r="3" fill="#16a085"/>
+  <line x1="250" y1="100" x2="350" y2="230" stroke="#16a085" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <line x1="350" y1="230" x2="250" y2="200" stroke="#95a5a6" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="355" y="235" font-family="Arial" font-size="14" fill="#16a085">D</text>
+  
+  <!-- Угол для точки D -->
+  <path d="M 250 200 L 270 200 A 20 20 0 0 0 260 185" fill="none" stroke="#16a085" stroke-width="1.5"/>
+  <text x="275" y="195" font-family="Arial" font-size="12" fill="#16a085">γ</text>
+  
+  <!-- Вспомогательный квадрат -->
+  <rect x="220" y="80" width="60" height="60" fill="none" stroke="#ecf0f1" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <!-- Легенда -->
+  <rect x="20" y="310" width="460" height="30" fill="#ecf0f1" rx="5"/>
+  <text x="30" y="330" font-family="Arial" font-size="12" fill="#2c3e50">Красный: перпендикуляр | Зеленый: наклонные | Синий: плоскость | Серый: проекции</text>
 </svg>
