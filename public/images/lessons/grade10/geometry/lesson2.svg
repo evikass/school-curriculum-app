@@ -1,23 +1,97 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e3a5f"/>
-      <stop offset="100%" style="stop-color:#3b82f6"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#93c5fd;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#93c5fd;stop-opacity:0"/>
-    </radialGradient>
+    
+    <!-- Тень для текста -->
+    <filter id="textShadow">
+      <feDropShadow dx="1" dy="1" stdDeviation="1" flood-opacity="0.3"/>
+    </filter>
+    
+    <!-- Тень для элементов -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
   </defs>
-  <rect width="500" height="350" fill="url(#bgGrad)"/>
-  <rect width="500" height="350" fill="url(#centerGlow)"/>
-  <circle cx="250" cy="175" r="120" fill="none" stroke="#93c5fd" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
-  <circle cx="250" cy="175" r="80" fill="none" stroke="#93c5fd" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="250" cy="175" r="40" fill="#93c5fd" opacity="0.3"/>
-  <text x="250" y="195" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#dbeafe" text-anchor="middle">2</text>
-  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dbeafe" text-anchor="middle" opacity="0.8">ГЕОМЕТРИЯ · 10–11 КЛАСС</text>
-  <text x="250" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#dbeafe" text-anchor="middle">Урок 2: Следствия из аксиом стереометрии</text>
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" fill="#93c5fd" text-anchor="middle" opacity="0.8">Урок 2 из 38</text>
-  <circle cx="250" cy="175" r="50" fill="none" stroke="#93c5fd" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bg)"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#1e293b" filter="url(#textShadow)">ГЕОМЕТРИЯ · 10 КЛАСС</text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#475569">Урок 2: Следствия из аксиом стереометрии</text>
+  
+  <!-- Основной блок контента -->
+  <rect x="50" y="90" width="400" height="230" rx="10" fill="white" filter="url(#shadow)" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <!-- Разделитель -->
+  <line x1="70" y1="120" x2="430" y2="120" stroke="#cbd5e1" stroke-width="1"/>
+  
+  <!-- Аксиома 1 -->
+  <circle cx="90" cy="150" r="15" fill="#3b82f6" opacity="0.8"/>
+  <text x="90" y="157" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="white">1</text>
+  <text x="120" y="155" font-family="Arial, sans-serif" font-size="14" fill="#334155">Через любые три точки, не лежащие на одной прямой, проходит плоскость.</text>
+  
+  <!-- Следствие 1 -->
+  <line x1="70" y1="180" x2="430" y2="180" stroke="#e2e8f0" stroke-width="1"/>
+  <circle cx="90" cy="200" r="10" fill="#10b981" opacity="0.8"/>
+  <text x="90" y="205" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="white">С1</text>
+  <text x="120" y="205" font-family="Arial, sans-serif" font-size="13" fill="#475569">Две пересекающиеся прямые лежат в одной плоскости.</text>
+  
+  <!-- Иллюстрация для следствия 1 -->
+  <g transform="translate(350, 185)">
+    <rect x="-20" y="-20" width="40" height="40" fill="none" stroke="#10b981" stroke-width="1.5" opacity="0.5"/>
+    <line x1="-15" y1="-10" x2="15" y2="10" stroke="#10b981" stroke-width="2"/>
+    <line x1="-15" y1="10" x2="15" y2="-10" stroke="#10b981" stroke-width="2"/>
+    <circle cx="0" cy="0" r="3" fill="#10b981"/>
+  </g>
+  
+  <!-- Аксиома 2 -->
+  <circle cx="90" cy="230" r="15" fill="#3b82f6" opacity="0.8"/>
+  <text x="90" y="237" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="white">2</text>
+  <text x="120" y="235" font-family="Arial, sans-serif" font-size="14" fill="#334155">Если две точки прямой лежат в плоскости, то и вся прямая лежит в этой плоскости.</text>
+  
+  <!-- Следствие 2 -->
+  <line x1="70" y1="260" x2="430" y2="260" stroke="#e2e8f0" stroke-width="1"/>
+  <circle cx="90" cy="280" r="10" fill="#10b981" opacity="0.8"/>
+  <text x="90" y="285" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="white">С2</text>
+  <text x="120" y="285" font-family="Arial, sans-serif" font-size="13" fill="#475569">Прямая и точка вне её определяют единственную плоскость.</text>
+  
+  <!-- Иллюстрация для следствия 2 -->
+  <g transform="translate(350, 265)">
+    <rect x="-25" y="-25" width="50" height="50" fill="none" stroke="#10b981" stroke-width="1.5" opacity="0.5"/>
+    <line x1="-20" y1="0" x2="20" y2="0" stroke="#10b981" stroke-width="2"/>
+    <circle cx="0" cy="-15" r="3" fill="#ef4444"/>
+    <line x1="0" y1="-15" x2="0" y2="0" stroke="#94a3b8" stroke-width="1" stroke-dasharray="2,2"/>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <!-- Декоративные точки -->
+  <circle cx="30" cy="30" r="2" fill="#cbd5e1" opacity="0.5"/>
+  <circle cx="470" cy="30" r="2" fill="#cbd5e1" opacity="0.5"/>
+  <circle cx="30" cy="320" r="2" fill="#cbd5e1" opacity="0.5"/>
+  <circle cx="470" cy="320" r="2" fill="#cbd5e1" opacity="0.5"/>
+  
+  <!-- Угловые элементы -->
+  <path d="M 45 90 L 45 110 L 65 90" fill="none" stroke="#cbd5e1" stroke-width="2" opacity="0.5"/>
+  <path d="M 45 320 L 45 300 L 65 320" fill="none" stroke="#cbd5e1" stroke-width="2" opacity="0.5"/>
+  <path d="M 455 90 L 455 110 L 435 90" fill="none" stroke="#cbd5e1" stroke-width="2" opacity="0.5"/>
+  <path d="M 455 320 L 455 300 L 435 320" fill="none" stroke="#cbd5e1" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Фигура в углу -->
+  <g transform="translate(420, 100)" opacity="0.3">
+    <polygon points="0,0 20,0 10,17.32" fill="#3b82f6"/>
+  </g>
+  
+  <!-- Дополнительные линии декора -->
+  <line x1="250" y1="75" x2="250" y2="85" stroke="#cbd5e1" stroke-width="1" opacity="0.5"/>
+  <line x1="240" y1="80" x2="260" y2="80" stroke="#cbd5e1" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Вспомогательный текст -->
+  <text x="250" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" font-style="italic">Аксиомы и их следствия в пространстве</text>
 </svg>
