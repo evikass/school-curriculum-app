@@ -1,0 +1,180 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый узор -->
+  <defs>
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <rect width="50" height="50" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+    </pattern>
+    
+    <!-- Градиент для фона -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f5f0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8e8e0;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Тень -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Фоновый прямоугольник -->
+  <rect width="500" height="350" fill="url(#bgGradient)"/>
+  
+  <!-- Сетка -->
+  <rect width="500" height="350" fill="url(#grid)" opacity="0.3"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#2c3e50">
+    Урок 7: Святослав и его походы
+  </text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">
+    ИСТОРИЯ · 10 КЛАСС
+  </text>
+  
+  <!-- Корабль Святослава -->
+  <g transform="translate(100, 150)">
+    <!-- Корпус -->
+    <path d="M 0 30 L 80 30 L 70 50 L 10 50 Z" fill="#8b4513" stroke="#654321" stroke-width="2"/>
+    <!-- Парус -->
+    <path d="M 30 30 L 30 -10 L 70 20 Z" fill="#fff8dc" stroke="#8b4513" stroke-width="2"/>
+    <!-- Весла -->
+    <rect x="20" y="35" width="40" height="3" fill="#654321" transform="rotate(-20 40 36)"/>
+    <rect x="25" y="38" width="40" height="3" fill="#654321" transform="rotate(-10 45 39)"/>
+    <!-- Щиты -->
+    <circle cx="15" cy="40" r="6" fill="#b22222" stroke="#8b0000" stroke-width="1"/>
+    <circle cx="65" cy="40" r="6" fill="#b22222" stroke="#8b0000" stroke-width="1"/>
+  </g>
+  
+  <!-- Карта походов -->
+  <g transform="translate(250, 150)">
+    <!-- Овал земли -->
+    <ellipse cx="0" cy="0" rx="120" ry="80" fill="#d2b48c" stroke="#8b7355" stroke-width="2" opacity="0.3"/>
+    
+    <!-- Река Днепр -->
+    <path d="M -80 -20 Q -40 -10, 0 0 Q 40 10, 80 20" fill="none" stroke="#4682b4" stroke-width="3" opacity="0.7"/>
+    <text x="0" y="-25" text-anchor="middle" font-size="10" fill="#4682b4">Днепр</text>
+    
+    <!-- Путь похода -->
+    <path d="M -100 0 L -80 -20 Q -40 -10, 0 0 Q 40 10, 80 20 L 100 0" 
+          fill="none" stroke="#ff6b6b" stroke-width="2" stroke-dasharray="5,3" opacity="0.8"/>
+    
+    <!-- Города -->
+    <circle cx="-80" cy="-20" r="4" fill="#2c3e50"/>
+    <text x="-80" y="-30" text-anchor="middle" font-size="9" fill="#2c3e50">Киев</text>
+    
+    <circle cx="80" cy="20" r="4" fill="#2c3e50"/>
+    <text x="80" y="35" text-anchor="middle" font-size="9" fill="#2c3e50">Царьград</text>
+    
+    <circle cx="50" cy="-40" r="3" fill="#2c3e50"/>
+    <text x="50" y="-50" text-anchor="middle" font-size="8" fill="#2c3e50">Дунай</text>
+  </g>
+  
+  <!-- Иконка меча -->
+  <g transform="translate(50, 250)">
+    <rect x="0" y="10" width="4" height="30" fill="#c0c0c0"/>
+    <rect x="-2" y="5" width="8" height="10" fill="#8b0000"/>
+    <rect x="-1" y="40" width="2" height="8" fill="#654321"/>
+  </g>
+  
+  <!-- Даты -->
+  <text x="50" y="290" font-family="Arial, sans-serif" font-size="12" fill="#34495e">
+    945-972 гг. - правление Святослава
+  </text>
+  
+  <!-- Щит княжеский -->
+  <g transform="translate(350, 250)">
+    <path d="M 0 0 L 20 0 L 20 25 Q 20 35, 10 35 Q 0 35, 0 25 Z" fill="#8b0000" stroke="#654321" stroke-width="2"/>
+    <path d="M 5 10 L 10 15 L 15 10" fill="none" stroke="#ffd700" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="10" cy="20" r="3" fill="#ffd700"/>
+  </g>
+  
+  <!-- Древнерусские символы -->
+  <g transform="translate(400, 250)">
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#8b4513" stroke-width="2"/>
+    <path d="M 0 -10 L 0 10 M -10 0 L 10 0 M -7 -7 L 7 7 M -7 7 L 7 -7" stroke="#8b4513" stroke-width="2"/>
+  </g>
+  
+  <!-- Войско -->
+  <g transform="translate(120, 280)">
+    <circle cx="0" cy="0" r="5" fill="#d2691e"/>
+    <rect x="-2" y="5" width="4" height="8" fill="#654321"/>
+    <path d="M 0 -5 L -5 -10 L 0 -8 L 5 -10 Z" fill="#8b4513"/>
+  </g>
+  
+  <g transform="translate(140, 280)">
+    <circle cx="0" cy="0" r="5" fill="#d2691e"/>
+    <rect x="-2" y="5" width="4" height="8" fill="#654321"/>
+    <path d="M 0 -5 L -5 -10 L 0 -8 L 5 -10 Z" fill="#8b4513"/>
+  </g>
+  
+  <!-- Дерево -->
+  <g transform="translate(450, 280)">
+    <rect x="-3" y="0" width="6" height="15" fill="#8b4513"/>
+    <circle cx="0" cy="-5" r="8" fill="#228b22"/>
+    <circle cx="-5" cy="-3" r="6" fill="#32cd32"/>
+    <circle cx="5" cy="-3" r="6" fill="#32cd32"/>
+  </g>
+  
+  <!-- Солнце (символ Рюриковичей) -->
+  <g transform="translate(250, 90)">
+    <circle cx="0" cy="0" r="15" fill="#ffd700" stroke="#ff8c00" stroke-width="2"/>
+    <g stroke="#ff8c00" stroke-width="2">
+      <line x1="0" y1="-25" x2="0" y2="-35"/>
+      <line x1="18" y1="-18" x2="25" y2="-25"/>
+      <line x1="25" y1="0" x2="35" y2="0"/>
+      <line x1="18" y1="18" x2="25" y2="25"/>
+      <line x1="0" y1="25" x2="0" y2="35"/>
+      <line x1="-18" y1="18" x2="-25" y2="25"/>
+      <line x1="-25" y1="0" x2="-35" y2="0"/>
+      <line x1="-18" y1="-18" x2="-25" y2="-25"/>
+    </g>
+  </g>
+  
+  <!-- Стрелки направления -->
+  <g transform="translate(180, 130)">
+    <line x1="0" y1="0" x2="20" y2="0" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <g transform="translate(320, 170)">
+    <line x1="0" y1="0" x2="20" y2="0" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Стержень для стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  
+  <!-- Надпись "Походы" -->
+  <text x="250" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">
+    Восточные походы
+  </text>
+  
+  <!-- Надпись "Западные походы" -->
+  <text x="250" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">
+    Западные походы
+  </text>
+  
+  <!-- Древнерусская орнаментальная полоса -->
+  <g transform="translate(0, 320)">
+    <path d="M 0 0 Q 25 -10, 50 0 T 100 0 T 150 0 T 200 0 T 250 0 T 300 0 T 350 0 T 400 0 T 450 0 T 500 0" 
+          fill="none" stroke="#8b4513" stroke-width="2"/>
+  </g>
+  
+  <!-- Дополнительные элементы декора -->
+  <circle cx="30" cy="120" r="3" fill="#ffd700"/>
+  <circle cx="470" cy="100" r="3" fill="#ffd700"/>
+  <circle cx="450" cy="150" r="2" fill="#87ceeb"/>
+  <circle cx="50" cy="200" r="2" fill="#87ceeb"/>
+  
+  <!-- Легенда карты -->
+  <g transform="translate(50, 180)">
+    <rect x="0" y="0" width="80" height="40" fill="white" fill-opacity="0.8" stroke="#8b7355" stroke-width="1" rx="5"/>
+    <text x="5" y="15" font-size="10" fill="#2c3e50">Легенда:</text>
+    <line x1="5" y1="25" x2="20" y2="25" stroke="#ff6b6b" stroke-width="2" stroke-dasharray="5,3"/>
+    <text x="25" y="28" font-size="9" fill="#2c3e50">путь</text>
+  </g>
+</svg>
