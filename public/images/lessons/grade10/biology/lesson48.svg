@@ -1,0 +1,110 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d1e7dd;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Градиент для дерева -->
+    <linearGradient id="treeGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#8b4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a0522d;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Тень -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGradient)"/>
+  
+  <!-- Название курса -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">
+    БИОЛОГИЯ · 10 КЛАСС
+  </text>
+  
+  <!-- Заголовок урока -->
+  <rect x="50" y="50" width="400" height="40" rx="5" fill="#3498db" filter="url(#shadow)"/>
+  <text x="250" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">
+    Урок 48: Учение Чарльза Дарвина об эволюции
+  </text>
+  
+  <!-- Портрет Дарвина -->
+  <circle cx="100" cy="150" r="30" fill="#f4d03f" stroke="#d68910" stroke-width="2"/>
+  <circle cx="95" cy="145" r="3" fill="#333"/>
+  <circle cx="105" cy="145" r="3" fill="#333"/>
+  <path d="M 90 160 Q 100 165 110 160" stroke="#333" stroke-width="2" fill="none"/>
+  <text x="100" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Ч. Дарвин</text>
+  
+  <!-- Древо эволюции -->
+  <rect x="180" y="280" width="140" height="50" fill="url(#treeGradient)" rx="5"/>
+  <rect x="240" y="240" width="20" height="40" fill="url(#treeGradient)"/>
+  <circle cx="250" cy="220" r="25" fill="#27ae60" opacity="0.8"/>
+  <circle cx="230" cy="210" r="20" fill="#27ae60" opacity="0.7"/>
+  <circle cx="270" cy="210" r="20" fill="#27ae60" opacity="0.7"/>
+  <circle cx="220" cy="190" r="15" fill="#27ae60" opacity="0.6"/>
+  <circle cx="250" cy="180" r="15" fill="#27ae60" opacity="0.6"/>
+  <circle cx="280" cy="190" r="15" fill="#27ae60" opacity="0.6"/>
+  
+  <!-- Стрелки эволюции -->
+  <path d="M 150 180 L 200 180" stroke="#e74c3c" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <path d="M 300 180 L 350 180" stroke="#e74c3c" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Определение стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e74c3c"/>
+    </marker>
+  </defs>
+  
+  <!-- Основные положения -->
+  <rect x="20" y="110" width="150" height="120" rx="5" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="95" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Основные положения:</text>
+  <text x="30" y="150" font-family="Arial, sans-serif" font-size="11" fill="#34495e">1. Изменчивость организмов</text>
+  <text x="30" y="170" font-family="Arial, sans-serif" font-size="11" fill="#34495e">2. Наследственность признаков</text>
+  <text x="30" y="190" font-family="Arial, sans-serif" font-size="11" fill="#34495e">3. Борьба за существование</text>
+  <text x="30" y="210" font-family="Arial, sans-serif" font-size="11" fill="#34495e">4. Естественный отбор</text>
+  
+  <!-- Гербарий -->
+  <rect x="350" y="110" width="130" height="120" rx="5" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+  <text x="415" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Исследования</text>
+  <ellipse cx="380" cy="160" rx="15" ry="20" fill="#90ee90" transform="rotate(-10 380 160)"/>
+  <rect x="375" y="160" width="10" height="25" fill="#8b4513"/>
+  <ellipse cx="430" cy="170" rx="12" ry="18" fill="#98fb98" transform="rotate(15 430 170)"/>
+  <rect x="425" y="170" width="8" height="20" fill="#8b4513"/>
+  <text x="415" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6c757d">Виды Галапагоса</text>
+  
+  <!-- Факты -->
+  <circle cx="380" cy="280" r="35" fill="#f39c12" opacity="0.8"/>
+  <text x="380" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">1859</text>
+  <text x="380" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">"Происхождение видов"</text>
+  
+  <!-- ДНК символ -->
+  <g transform="translate(420, 240)">
+    <path d="M 0 0 Q 10 -10 20 0 Q 30 10 40 0 Q 50 -10 60 0" stroke="#3498db" stroke-width="3" fill="none"/>
+    <path d="M 0 20 Q 10 30 20 20 Q 30 10 40 20 Q 30 30 20 20 Q 10 10 0 20" stroke="#3498db" stroke-width="3" fill="none"/>
+    <line x1="0" y1="0" x2="0" y2="20" stroke="#3498db" stroke-width="2"/>
+    <line x1="20" y1="0" x2="20" y2="20" stroke="#3498db" stroke-width="2"/>
+    <line x1="40" y1="0" x2="40" y2="20" stroke="#3498db" stroke-width="2"/>
+    <line x1="60" y1="0" x2="60" y2="20" stroke="#3498db" stroke-width="2"/>
+  </g>
+  
+  <!-- Вопрос для обсуждения -->
+  <rect x="50" y="310" width="300" height="30" rx="15" fill="#e74c3c" opacity="0.8"/>
+  <text x="200" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">
+    Как естественный отбор влияет на современные виды?
+  </text>
+  
+  <!-- Дополнительные элементы -->
+  <circle cx="30" cy="30" r="5" fill="#3498db" opacity="0.6"/>
+  <circle cx="470" cy="30" r="5" fill="#e74c3c" opacity="0.6"/>
+  <circle cx="30" cy="340" r="5" fill="#27ae60" opacity="0.6"/>
+  <circle cx="470" cy="340" r="5" fill="#f39c12" opacity="0.6"/>
+  
+  <!-- Декоративные линии -->
+  <line x1="20" y1="100" x2="40" y2="100" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="460" y1="100" x2="480" y2="100" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,5"/>
+</svg>
