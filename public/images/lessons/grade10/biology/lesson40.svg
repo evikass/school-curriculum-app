@@ -1,0 +1,248 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c9;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Тень для элементов -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+    
+    <!-- Градиент для ДНК -->
+    <linearGradient id="dnaGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4fc3f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#29b6f6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGradient)"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2e7d32">
+    БИОЛОГИЯ · 10 КЛАСС
+  </text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#388e3c">
+    Урок 40: Анализирующее скрещивание и неполное доминирование
+  </text>
+  
+  <!-- Разделительная линия -->
+  <line x1="50" y1="70" x2="450" y2="70" stroke="#4caf50" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Левая часть - Родители -->
+  <g id="parents">
+    <!-- Надпись Родители -->
+    <text x="125" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1b5e20">
+      Родители (P)
+    </text>
+    
+    <!-- Первый родитель -->
+    <g id="parent1">
+      <circle cx="75" cy="130" r="25" fill="#ff6b6b" filter="url(#shadow)"/>
+      <text x="75" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="bold">
+        AA
+      </text>
+      <text x="75" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#d32f2f">
+        Доминантный
+      </text>
+    </g>
+    
+    <!-- Второй родитель -->
+    <g id="parent2">
+      <circle cx="175" cy="130" r="25" fill="#9c27b0" filter="url(#shadow)"/>
+      <text x="175" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white" font-weight="bold">
+        aa
+      </text>
+      <text x="175" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6a1b9a">
+        Рецессивный
+      </text>
+    </g>
+    
+    <!-- Стрелка скрещивания -->
+    <g id="crossArrow">
+      <line x1="100" y1="130" x2="150" y2="130" stroke="#4caf50" stroke-width="3" marker-end="url(#arrowhead)"/>
+      <text x="125" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2e7d32">×</text>
+    </g>
+  </g>
+  
+  <!-- Стрелка -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4caf50"/>
+    </marker>
+  </defs>
+  
+  <!-- Центральная часть - Гаметы -->
+  <g id="gametes">
+    <text x="250" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1b5e20">
+      Гаметы
+    </text>
+    
+    <!-- Гаметы от первого родителя -->
+    <g id="gametes1">
+      <circle cx="225" cy="130" r="15" fill="#ff8a80" filter="url(#shadow)"/>
+      <text x="225" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white" font-weight="bold">
+        A
+      </text>
+      
+      <circle cx="275" cy="130" r="15" fill="#ff8a80" filter="url(#shadow)"/>
+      <text x="275" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white" font-weight="bold">
+        A
+      </text>
+    </g>
+    
+    <!-- Гаметы от второго родителя -->
+    <g id="gametes2">
+      <circle cx="225" cy="160" r="15" fill="#ce93d8" filter="url(#shadow)"/>
+      <text x="225" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white" font-weight="bold">
+        a
+      </text>
+      
+      <circle cx="275" cy="160" r="15" fill="#ce93d8" filter="url(#shadow)"/>
+      <text x="275" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white" font-weight="bold">
+        a
+      </text>
+    </g>
+    
+    <!-- Квадат Пеннета -->
+    <rect x="200" y="190" width="100" height="80" fill="white" stroke="#4caf50" stroke-width="2" filter="url(#shadow)"/>
+    <text x="250" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1b5e20">
+      Квадрат Пеннета
+    </text>
+    
+    <!-- Ячейки квадрата -->
+    <rect x="210" y="220" width="35" height="25" fill="#e8f5e9" stroke="#4caf50" stroke-width="1"/>
+    <rect x="255" y="220" width="35" height="25" fill="#e8f5e9" stroke="#4caf50" stroke-width="1"/>
+    <rect x="210" y="255" width="35" height="25" fill="#e8f5e9" stroke="#4caf50" stroke-width="1"/>
+    <rect x="255" y="255" width="35" height="25" fill="#e8f5e9" stroke="#4caf50" stroke-width="1"/>
+    
+    <!-- Генотипы в квадрате -->
+    <text x="227" y="237" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2e7d32" font-weight="bold">
+      Aa
+    </text>
+    <text x="272" y="237" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2e7d32" font-weight="bold">
+      Aa
+    </text>
+    <text x="227" y="272" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2e7d32" font-weight="bold">
+      Aa
+    </text>
+    <text x="272" y="272" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2e7d32" font-weight="bold">
+      Aa
+    </text>
+  </g>
+  
+  <!-- Правая часть - Потомство -->
+  <g id="offspring">
+    <text x="375" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1b5e20">
+      Потомство (F₁)
+    </text>
+    
+    <!-- Потомство -->
+    <g id="offspring-group">
+      <!-- Гетерозиготный признак -->
+      <circle cx="350" cy="130" r="20" fill="#ffc107" filter="url(#shadow)"/>
+      <text x="350" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white" font-weight="bold">
+        Aa
+      </text>
+      
+      <!-- Смешанный цвет для неполного доминирования -->
+      <circle cx="400" cy="130" r="20" fill="#ff9800" filter="url(#shadow)"/>
+      <text x="400" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white" font-weight="bold">
+        Aa
+      </text>
+    </g>
+    
+    <text x="375" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#f57c00">
+      Гетерозиготы
+    </text>
+    
+    <!-- Фенотип при неполном доминировании -->
+    <g id="incomplete-dominance">
+      <text x="375" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#e65100">
+        Неполное доминирование:
+      </text>
+      
+      <!-- Родительские фенотипы -->
+      <circle cx="320" cy="225" r="15" fill="#ff6b6b"/>
+      <text x="320" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#d32f2f">
+        Красный
+      </text>
+      
+      <circle cx="375" cy="225" r="15" fill="#ffc107"/>
+      <text x="375" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#f57c00">
+        Розовый
+      </text>
+      
+      <circle cx="430" cy="225" r="15" fill="#9c27b0"/>
+      <text x="430" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6a1b9a">
+        Фиолетовый
+      </text>
+    </g>
+  </g>
+  
+  <!-- Анализирующее скрещивание -->
+  <g id="test-cross">
+    <text x="250" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1b5e20">
+      Анализирующее скрещивание
+    </text>
+    
+    <!-- Гетерозигота × рецессивный -->
+    <g id="test-cross-diagram">
+      <circle cx="150" cy="330" r="15" fill="#ffc107" filter="url(#shadow)"/>
+      <text x="150" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white" font-weight="bold">
+        Aa
+      </text>
+      
+      <text x="180" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2e7d32">×</text>
+      
+      <circle cx="210" cy="330" r="15" fill="#9c27b0" filter="url(#shadow)"/>
+      <text x="210" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white" font-weight="bold">
+        aa
+      </text>
+      
+      <!-- Стрелка -->
+      <path d="M 240 330 L 260 330" stroke="#4caf50" stroke-width="2" marker-end="url(#arrowhead)"/>
+      
+      <!-- Результат -->
+      <text x="280" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2e7d32">
+        1:1
+      </text>
+    </g>
+  </g>
+  
+  <!-- Декоративный элемент - ДНК спираль -->
+  <g id="dna-spiral" transform="translate(420, 250) scale(0.3)" opacity="0.3">
+    <path d="M 0 0 Q -20 20 0 40 T 0 80 Q 20 100 0 120" stroke="url(#dnaGradient)" stroke-width="4" fill="none"/>
+    <path d="M 10 0 Q 30 20 10 40 T 10 80 Q -10 100 10 120" stroke="url(#dnaGradient)" stroke-width="4" fill="none"/>
+    <line x1="0" y1="10" x2="10" y2="10" stroke="#4fc3f7" stroke-width="2"/>
+    <line x1="0" y1="30" x2="10" y2="30" stroke="#4fc3f7" stroke-width="2"/>
+    <line x1="0" y1="50" x2="10" y2="50" stroke="#4fc3f7" stroke-width="2"/>
+    <line x1="0" y1="70" x2="10" y2="70" stroke="#4fc3f7" stroke-width="2"/>
+    <line x1="0" y1="90" x2="10" y2="90" stroke="#4fc3f7" stroke-width="2"/>
+    <line x1="0" y1="110" x2="10" y2="110" stroke="#4fc3f7" stroke-width="2"/>
+  </g>
+  
+  <!-- Иконки молекул -->
+  <g id="molecules" opacity="0.2">
+    <circle cx="80" cy="280" r="8" fill="#4caf50"/>
+    <circle cx="90" cy="285" r="6" fill="#81c784"/>
+    <circle cx="85" cy="295" r="7" fill="#66bb6a"/>
+    <line x1="80" y1="280" x2="90" y2="285" stroke="#4caf50" stroke-width="1"/>
+    <line x1="90" y1="285" x2="85" y2="295" stroke="#4caf50" stroke-width="1"/>
+    <line x1="85" y1="295" x2="80" y2="280" stroke="#4caf50" stroke-width="1"/>
+  </g>
+  
+  <g id="molecule2" opacity="0.2">
+    <circle cx="420" cy="100" r="8" fill="#2196f3"/>
+    <circle cx="430" cy="105" r="6" fill="#64b5f6"/>
+    <circle cx="425" cy="115" r="7" fill="#42a5f5"/>
+    <line x1="420" y1="100" x2="430" y2="105" stroke="#2196f3" stroke-width="1"/>
+    <line x1="430" y1="105" x2="425" y2="115" stroke="#2196f3" stroke-width="1"/>
+    <line x1="425" y1="115" x2="420" y2="100" stroke="#2196f3" stroke-width="1"/>
+  </g>
+</svg>
