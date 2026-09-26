@@ -1,21 +1,132 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
-<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Клетка и организм — обобщение</text>
-<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 10 класс — Урок 36</text>
-<line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
-
-<g transform="translate(250,170)">
-<circle cx="0" cy="0" r="60" fill="#2E7D32" opacity="0.1" stroke="#2E7D32" stroke-width="2"/>
-<text x="0" y="-10" font-family="Arial,sans-serif" font-size="11" fill="#2E7D32" text-anchor="middle" font-weight="bold">Обобщение</text>
-<text x="0" y="10" font-family="Arial,sans-serif" font-size="9" fill="#2E7D32" text-anchor="middle">10 класс</text>
-</g>
-<rect x="30" y="250" width="440" height="50" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
-<text x="250" y="264" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Клетка: мембрана, ядро, органеллы, цитоплазма</text>
-<text x="250" y="275" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Организм: клетки -> ткани -> органы -> системы</text>
-<text x="250" y="286" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Обмен веществ, самовоспроизведение, развитие, раздражимость</text>
-
-<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
-<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 10 класс</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d1e7dd;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Тень -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+    
+    <!-- Паттерн ДНК -->
+    <pattern id="dnaPattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M0,10 Q5,0 10,10 T20,10" stroke="#4a90e2" stroke-width="1" fill="none" opacity="0.3"/>
+    </pattern>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="50" cy="50" r="30" fill="#4a90e2" opacity="0.1"/>
+  <circle cx="450" cy="100" r="40" fill="#50c878" opacity="0.1"/>
+  <circle cx="400" cy="300" r="35" fill="#ff6b6b" opacity="0.1"/>
+  
+  <!-- Заголовок -->
+  <rect x="100" y="20" width="300" height="50" rx="10" fill="#2c3e50" filter="url(#shadow)"/>
+  <text x="250" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">БИОЛОГИЯ · 10 КЛАСС</text>
+  
+  <!-- Название урока -->
+  <rect x="75" y="90" width="350" height="40" rx="8" fill="#3498db" opacity="0.9"/>
+  <text x="250" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="white">Урок 36: Индивидуальное развитие организмов</text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50">ОНТОГЕНЕЗ</text>
+  
+  <!-- Центральная иллюстрация - спираль развития -->
+  <g transform="translate(250, 200)">
+    <!-- Ось времени -->
+    <line x1="-100" y1="0" x2="100" y2="0" stroke="#34495e" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Стадии онтогенеза -->
+    <!-- Зигота -->
+    <circle cx="-80" cy="0" r="15" fill="#e74c3c" stroke="#c0392b" stroke-width="2"/>
+    <text x="-80" y="25" text-anchor="middle" font-size="12" fill="#2c3e50">Зигота</text>
+    
+    <!-- Бластула -->
+    <circle cx="-40" cy="-10" r="20" fill="#f39c12" stroke="#d68910" stroke-width="2"/>
+    <text x="-40" y="20" text-anchor="middle" font-size="12" fill="#2c3e50">Бластула</text>
+    
+    <!-- Гаструла -->
+    <circle cx="0" cy="15" r="25" fill="#9b59b6" stroke="#8e44ad" stroke-width="2"/>
+    <text x="0" y="45" text-anchor="middle" font-size="12" fill="#2c3e50">Гаструла</text>
+    
+    <!-- Нейрула -->
+    <circle cx="40" cy="-5" r="30" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+    <text x="40" y="35" text-anchor="middle" font-size="12" fill="#2c3e50">Нейрула</text>
+    
+    <!-- Личинка -->
+    <circle cx="80" cy="10" r="35" fill="#1abc9c" stroke="#16a085" stroke-width="2"/>
+    <text x="80" y="55" text-anchor="middle" font-size="12" fill="#2c3e50">Личинка</text>
+    
+    <!-- Стрелки между стадиями -->
+    <path d="M-65,-5 L-55,-8" stroke="#7f8c8d" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M-20,-5 L-10,5" stroke="#7f8c8d" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M20,5 L25,5" stroke="#7f8c8d" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M65,5 L65,5" stroke="#7f8c8d" stroke-width="2" marker-end="url(#arrow)"/>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <!-- ДНК спираль -->
+  <g transform="translate(50, 180)">
+    <path d="M0,0 Q10,-10 20,0 T40,0 T60,0 T80,0" stroke="#4a90e2" stroke-width="3" fill="none"/>
+    <path d="M0,0 Q10,10 20,0 T40,0 T60,0 T80,0" stroke="#4a90e2" stroke-width="3" fill="none"/>
+    <line x1="0" y1="-5" x2="0" y2="5" stroke="#4a90e2" stroke-width="2"/>
+    <line x1="20" y1="-5" x2="20" y2="5" stroke="#4a90e2" stroke-width="2"/>
+    <line x1="40" y1="-5" x2="40" y2="5" stroke="#4a90e2" stroke-width="2"/>
+    <line x1="60" y1="-5" x2="60" y2="5" stroke="#4a90e2" stroke-width="2"/>
+    <line x1="80" y1="-5" x2="80" y2="5" stroke="#4a90e2" stroke-width="2"/>
+  </g>
+  
+  <!-- Микроскоп -->
+  <g transform="translate(420, 150)">
+    <rect x="0" y="0" width="30" height="40" rx="5" fill="#95a5a6"/>
+    <rect x="5" y="10" width="20" height="30" fill="#7f8c8d"/>
+    <circle cx="15" cy="5" r="8" fill="#34495e"/>
+    <rect x="10" y="-10" width="10" height="15" fill="#2c3e50"/>
+    <line x1="15" y1="-10" x2="15" y2="-20" stroke="#2c3e50" stroke-width="3"/>
+  </g>
+  
+  <!-- Клетки -->
+  <g transform="translate(100, 250)">
+    <circle cx="0" cy="0" r="12" fill="#e74c3c" opacity="0.7"/>
+    <circle cx="20" cy="10" r="10" fill="#f39c12" opacity="0.7"/>
+    <circle cx="35" cy="-5" r="11" fill="#9b59b6" opacity="0.7"/>
+    <circle cx="50" cy="8" r="9" fill="#3498db" opacity="0.7"/>
+  </g>
+  
+  <!-- Текстовые блоки информации -->
+  <rect x="30" y="280" width="140" height="50" rx="5" fill="white" opacity="0.9" stroke="#bdc3c7"/>
+  <text x="100" y="300" text-anchor="middle" font-size="11" fill="#2c3e50">Эмбриональный</text>
+  <text x="100" y="315" text-anchor="middle" font-size="11" fill="#2c3e50">период развития</text>
+  
+  <rect x="180" y="280" width="140" height="50" rx="5" fill="white" opacity="0.9" stroke="#bdc3c7"/>
+  <text x="250" y="300" text-anchor="middle" font-size="11" fill="#2c3e50">Постэмбриональный</text>
+  <text x="250" y="315" text-anchor="middle" font-size="11" fill="#2c3e50">период развития</text>
+  
+  <rect x="330" y="280" width="140" height="50" rx="5" fill="white" opacity="0.9" stroke="#bdc3c7"/>
+  <text x="400" y="300" text-anchor="middle" font-size="11" fill="#2c3e50">Прямое</text>
+  <text x="400" y="315" text-anchor="middle" font-size="11" fill="#2c3e50">развитие</text>
+  
+  <!-- Стрелки -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#7f8c8d"/>
+    </marker>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#34495e"/>
+    </marker>
+  </defs>
+  
+  <!-- Декоративные элементы ДНК -->
+  <g opacity="0.3">
+    <rect x="350" y="180" width="100" height="100" fill="url(#dnaPattern)"/>
+  </g>
+  
+  <!-- Номер урока -->
+  <circle cx="480" cy="50" r="20" fill="#e74c3c" opacity="0.8"/>
+  <text x="480" y="57" text-anchor="middle" font-size="18" font-weight="bold" fill="white">36</text>
 </svg>
