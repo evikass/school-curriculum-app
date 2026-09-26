@@ -1,21 +1,142 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
-<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Генетика человека</text>
-<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 10 класс — Урок 32</text>
-<line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
-
-<g transform="translate(250,170)">
-<circle cx="0" cy="0" r="60" fill="#795548" opacity="0.1" stroke="#795548" stroke-width="2"/>
-<text x="0" y="-10" font-family="Arial,sans-serif" font-size="11" fill="#795548" text-anchor="middle" font-weight="bold">Генетика человека</text>
-<text x="0" y="10" font-family="Arial,sans-serif" font-size="9" fill="#795548" text-anchor="middle">10 класс</text>
-</g>
-<rect x="30" y="250" width="440" height="50" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
-<text x="250" y="264" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">46 хромосом (44 аутосомы + XX/XY)</text>
-<text x="250" y="275" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Методы: генеалогический, близнецовый, цитогенетический</text>
-<text x="250" y="286" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Хромосомные болезни: Даун (21), Клайнфельтер (XXY), Тернер (X0)</text>
-
-<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
-<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 10 класс</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    БИОЛОГИЯ · 10 КЛАСС
+  </text>
+  
+  <!-- Основной заголовок урока -->
+  <text x="250" y="65" font-family="Arial, sans-serif" font-size="20" font-weight="600" text-anchor="middle" fill="#34495e">
+    Урок 32: Мейоз
+  </text>
+  
+  <!-- ДНК спираль (слева) -->
+  <g transform="translate(80, 100)">
+    <path d="M0,0 Q10,10 0,20 Q-10,30 0,40 Q10,50 0,60 Q-10,70 0,80 Q10,90 0,100" 
+          stroke="#3498db" stroke-width="3" fill="none"/>
+    <path d="M0,0 Q-10,10 0,20 Q10,30 0,40 Q-10,50 0,60 Q10,70 0,80 Q-10,90 0,100" 
+          stroke="#3498db" stroke-width="3" fill="none"/>
+    <!-- Связи между спиралями -->
+    <line x1="0" y1="10" x2="0" y2="10" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="0" y1="30" x2="0" y2="30" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="0" y1="50" x2="0" y2="50" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="0" y1="70" x2="0" y2="70" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="0" y1="90" x2="0" y2="90" stroke="#e74c3c" stroke-width="2"/>
+  </g>
+  
+  <!-- Деление клетки (центр) -->
+  <g transform="translate(250, 150)">
+    <!-- Начальная клетка -->
+    <ellipse cx="0" cy="-40" rx="30" ry="40" fill="#e8f4fd" stroke="#3498db" stroke-width="2"/>
+    <text x="0" y="-35" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">n</text>
+    <text x="0" y="-20" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">2c</text>
+    
+    <!-- Стрелка вниз -->
+    <path d="M0,-10 L0,10" stroke="#7f8c8d" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Первое деление -->
+    <ellipse cx="-40" cy="30" rx="25" ry="35" fill="#e8f4fd" stroke="#3498db" stroke-width="2"/>
+    <text x="-40" y="25" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">n</text>
+    <text x="-40" y="40" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">2c</text>
+    
+    <ellipse cx="40" cy="30" rx="25" ry="35" fill="#e8f4fd" stroke="#3498db" stroke-width="2"/>
+    <text x="40" y="25" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">n</text>
+    <text x="40" y="40" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">2c</text>
+    
+    <!-- Стрелки вниз -->
+    <path d="M-40,65 L-40,85" stroke="#7f8c8d" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M40,65 L40,85" stroke="#7f8c8d" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Второе деление -->
+    <ellipse cx="-60" cy="120" rx="20" ry="30" fill="#fff5e6" stroke="#f39c12" stroke-width="2"/>
+    <text x="-60" y="115" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#2c3e50">n/2</text>
+    <text x="-60" y="130" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#2c3e50">c</text>
+    
+    <ellipse cx="-20" cy="120" rx="20" ry="30" fill="#fff5e6" stroke="#f39c12" stroke-width="2"/>
+    <text x="-20" y="115" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#2c3e50">n/2</text>
+    <text x="-20" y="130" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#2c3e50">c</text>
+    
+    <ellipse cx="20" cy="120" rx="20" ry="30" fill="#fff5e6" stroke="#f39c12" stroke-width="2"/>
+    <text x="20" y="115" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#2c3e50">n/2</text>
+    <text x="20" y="130" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#2c3e50">c</text>
+    
+    <ellipse cx="60" cy="120" rx="20" ry="30" fill="#fff5e6" stroke="#f39c12" stroke-width="2"/>
+    <text x="60" y="115" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#2c3e50">n/2</text>
+    <text x="60" y="130" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#2c3e50">c</text>
+  </g>
+  
+  <!-- Хромосомы (справа) -->
+  <g transform="translate(400, 100)">
+    <!-- Хроматиды -->
+    <g transform="translate(0, 20)">
+      <ellipse cx="0" cy="0" rx="8" ry="25" fill="#9b59b6" opacity="0.7"/>
+      <ellipse cx="20" cy="0" rx="8" ry="25" fill="#9b59b6" opacity="0.7"/>
+      <line x1="8" y1="0" x2="12" y2="0" stroke="#8e44ad" stroke-width="2"/>
+      <text x="10" y="35" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">хроматиды</text>
+    </g>
+    
+    <!-- Центромера -->
+    <g transform="translate(0, 70)">
+      <circle cx="10" cy="0" r="5" fill="#e74c3c"/>
+      <text x="10" y="15" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">центромера</text>
+    </g>
+  </g>
+  
+  <!-- Фазы мейоза -->
+  <g transform="translate(50, 270)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#2c3e50">Фазы мейоза:</text>
+    
+    <g transform="translate(0, 20)">
+      <circle cx="5" cy="5" r="3" fill="#3498db"/>
+      <text x="15" y="9" font-family="Arial, sans-serif" font-size="12" fill="#34495e">Профаза I</text>
+    </g>
+    
+    <g transform="translate(100, 20)">
+      <circle cx="5" cy="5" r="3" fill="#3498db"/>
+      <text x="15" y="9" font-family="Arial, sans-serif" font-size="12" fill="#34495e">Метафаза I</text>
+    </g>
+    
+    <g transform="translate(200, 20)">
+      <circle cx="5" cy="5" r="3" fill="#3498db"/>
+      <text x="15" y="9" font-family="Arial, sans-serif" font-size="12" fill="#34495e">Анафаза I</text>
+    </g>
+    
+    <g transform="translate(300, 20)">
+      <circle cx="5" cy="5" r="3" fill="#3498db"/>
+      <text x="15" y="9" font-family="Arial, sans-serif" font-size="12" fill="#34495e">Телофаза I</text>
+    </g>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <g transform="translate(50, 310)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">
+      • Редукционное деление • Кроссинговер • Генетическое разнообразие
+    </text>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="450" cy="50" r="3" fill="#3498db" opacity="0.5"/>
+  <circle cx="460" cy="55" r="2" fill="#3498db" opacity="0.5"/>
+  <circle cx="455" cy="65" r="2.5" fill="#3498db" opacity="0.5"/>
+  
+  <!-- Определение мейоза -->
+  <rect x="350" y="180" width="130" height="60" rx="5" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="415" y="200" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#2c3e50">
+    Мейоз - особый тип
+  </text>
+  <text x="415" y="215" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#2c3e50">
+    клеточного деления,
+  </text>
+  <text x="415" y="230" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#2c3e50">
+    приводящий к гаметам
+  </text>
+  
+  <!-- Определитель стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7f8c8d"/>
+    </marker>
+  </defs>
 </svg>
