@@ -1,0 +1,132 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f5f7fa"/>
+  
+  <!-- Декоративные элементы - ДНК спираль слева -->
+  <g transform="translate(30, 50)">
+    <path d="M 0 0 Q 10 10, 0 20 T 0 40 T 0 60 T 0 80 T 0 100 T 0 120 T 0 140 T 0 160 T 0 180 T 0 200" 
+          stroke="#4a90e2" stroke-width="3" fill="none"/>
+    <path d="M 20 0 Q 10 10, 20 20 T 20 40 T 20 60 T 20 80 T 20 100 T 20 120 T 20 140 T 20 160 T 20 180 T 20 200" 
+          stroke="#4a90e2" stroke-width="3" fill="none"/>
+    <line x1="0" y1="10" x2="20" y2="10" stroke="#4a90e2" stroke-width="2"/>
+    <line x1="0" y1="30" x2="20" y2="30" stroke="#4a90e2" stroke-width="2"/>
+    <line x1="0" y1="50" x2="20" y2="50" stroke="#4a90e2" stroke-width="2"/>
+    <line x1="0" y1="70" x2="20" y2="70" stroke="#4a90e2" stroke-width="2"/>
+    <line x1="0" y1="90" x2="20" y2="90" stroke="#4a90e2" stroke-width="2"/>
+    <line x1="0" y1="110" x2="20" y2="110" stroke="#4a90e2" stroke-width="2"/>
+    <line x1="0" y1="130" x2="20" y2="130" stroke="#4a90e2" stroke-width="2"/>
+    <line x1="0" y1="150" x2="20" y2="150" stroke="#4a90e2" stroke-width="2"/>
+    <line x1="0" y1="170" x2="20" y2="170" stroke="#4a90e2" stroke-width="2"/>
+    <line x1="0" y1="190" x2="20" y2="190" stroke="#4a90e2" stroke-width="2"/>
+  </g>
+  
+  <!-- Декоративные элементы - Эволюционная линия справа -->
+  <g transform="translate(420, 100)">
+    <circle cx="0" cy="0" r="15" fill="#e74c3c" opacity="0.8"/>
+    <circle cx="30" cy="30" r="20" fill="#f39c12" opacity="0.8"/>
+    <circle cx="50" cy="50" r="25" fill="#27ae60" opacity="0.8"/>
+    <circle cx="65" cy="65" r="30" fill="#3498db" opacity="0.8"/>
+    <path d="M 0 0 L 30 30 L 50 50 L 65 65" stroke="#95a5a6" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+  </g>
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    БИОЛОГИЯ · 10 КЛАСС
+  </text>
+  
+  <!-- Название урока -->
+  <text x="250" y="70" font-family="Arial, sans-serif" font-size="20" font-weight="600" text-anchor="middle" fill="#34495e">
+    Урок 49: Доказательства эволюции
+  </text>
+  
+  <!-- Раздел 1: Палеонтологические доказательства -->
+  <g transform="translate(80, 100)">
+    <rect x="-10" y="-5" width="340" height="50" rx="5" fill="#ecf0f1" opacity="0.7"/>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#2c3e50">
+      1. Палеонтологические доказательства
+    </text>
+    
+    <!-- Ископаемые элементы -->
+    <g transform="translate(200, 10)">
+      <ellipse cx="20" cy="10" rx="15" ry="8" fill="#8e44ad" opacity="0.6"/>
+      <ellipse cx="50" cy="15" rx="18" ry="10" fill="#9b59b6" opacity="0.6"/>
+      <ellipse cx="80" cy="12" rx="20" ry="12" fill="#a569bd" opacity="0.6"/>
+      <ellipse cx="110" cy="18" rx="22" ry="15" fill="#bb8fce" opacity="0.6"/>
+      <line x1="20" y1="10" x2="50" y2="15" stroke="#7d3c98" stroke-width="1"/>
+      <line x1="50" y1="15" x2="80" y2="12" stroke="#7d3c98" stroke-width="1"/>
+      <line x1="80" y1="12" x2="110" y2="18" stroke="#7d3c98" stroke-width="1"/>
+    </g>
+  </g>
+  
+  <!-- Раздел 2: Эмбриологические доказательства -->
+  <g transform="translate(80, 170)">
+    <rect x="-10" y="-5" width="340" height="60" rx="5" fill="#ecf0f1" opacity="0.7"/>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#2c3e50">
+      2. Эмбриологические доказательства
+    </text>
+    
+    <!-- Схема эмбрионов -->
+    <g transform="translate(200, 0)">
+      <!-- Рыба -->
+      <ellipse cx="30" cy="30" rx="20" ry="15" fill="#3498db" opacity="0.6"/>
+      <circle cx="20" cy="25" r="3" fill="#2c3e50"/>
+      <path d="M 45 30 L 55 25 L 55 35 Z" fill="#3498db" opacity="0.8"/>
+      
+      <!-- Амфибия -->
+      <ellipse cx="90" cy="30" rx="20" ry="15" fill="#27ae60" opacity="0.6"/>
+      <circle cx="80" cy="25" r="3" fill="#2c3e50"/>
+      <path d="M 105 25 L 110 20 L 115 25 M 105 35 L 110 40 L 115 35" stroke="#27ae60" stroke-width="2" fill="none"/>
+      
+      <!-- Рептилия -->
+      <ellipse cx="150" cy="30" rx="20" ry="15" fill="#f39c12" opacity="0.6"/>
+      <circle cx="140" cy="25" r="3" fill="#2c3e50"/>
+      <path d="M 165 20 L 170 15 M 165 40 L 170 45" stroke="#f39c12" stroke-width="2"/>
+      <path d="M 165 20 L 170 25 M 165 40 L 170 35" stroke="#f39c12" stroke-width="2"/>
+      
+      <!-- Птица -->
+      <ellipse cx="210" cy="30" rx="20" ry="15" fill="#e74c3c" opacity="0.6"/>
+      <circle cx="200" cy="25" r="3" fill="#2c3e50"/>
+      <path d="M 225 20 L 235 25 M 225 25 L 235 30" stroke="#e74c3c" stroke-width="2" fill="none"/>
+      <path d="M 225 35 L 235 30 M 225 35 L 235 40" stroke="#e74c3c" stroke-width="2" fill="none"/>
+    </g>
+  </g>
+  
+  <!-- Раздел 3: Биогеографические доказательства -->
+  <g transform="80, 250)">
+    <rect x="-10" y="-5" width="340" height="50" rx="5" fill="#ecf0f1" opacity="0.7"/>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#2c3e50">
+      3. Биогеографические доказательства
+    </text>
+    
+    <!-- Схема континентов -->
+    <g transform="translate(200, 10)">
+      <!-- Континенты -->
+      <path d="M 10 20 Q 20 15, 30 20 Q 35 25, 30 30 Q 20 35, 10 30 Q 5 25, 10 20" fill="#27ae60" opacity="0.6"/>
+      <path d="M 80 15 Q 90 10, 100 15 Q 105 20, 100 25 Q 90 30, 80 25 Q 75 20, 80 15" fill="#f39c12" opacity="0.6"/>
+      <path d="M 150 20 Q 160 15, 170 20 Q 175 25, 170 30 Q 160 35, 150 30 Q 145 25, 150 20" fill="#3498db" opacity="0.6"/>
+      
+      <!-- Соединения -->
+      <line x1="30" y1="25" x2="80" y2="20" stroke="#95a5a6" stroke-width="1" stroke-dasharray="3,3"/>
+      <line x1="100" y1="20" x2="150" y2="25" stroke="#95a5a6" stroke-width="1" stroke-dasharray="3,3"/>
+    </g>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <!-- Значок лупы -->
+  <g transform="translate(450, 250)">
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#34495e" stroke-width="2"/>
+    <line x1="10" y1="10" x2="18" y2="18" stroke="#34495e" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="5" fill="#34495e"/>
+  </g>
+  
+  <!-- Пунктирная линия разделения -->
+  <line x1="50" y1="85" x2="450" y2="85" stroke="#bdc3c7" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Малые декоративные элементы -->
+  <circle cx="60" cy="320" r="3" fill="#3498db" opacity="0.5"/>
+  <circle cx="80" cy="325" r="2" fill="#e74c3c" opacity="0.5"/>
+  <circle cx="95" cy="322" r="2.5" fill="#27ae60" opacity="0.5"/>
+  
+  <!-- Стрелка вниз -->
+  <path d="M 250 340 L 245 335 M 250 340 L 255 335" stroke="#7f8c8d" stroke-width="2" stroke-linecap="round"/>
+</svg>
