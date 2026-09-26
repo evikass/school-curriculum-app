@@ -1,36 +1,191 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
-<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Углеводы и липиды</text>
-<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 10 класс — Урок 6</text>
-<line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
-
-<g transform="translate(130,175)">
-<rect x="-80" y="-70" width="160" height="140" rx="5" fill="white" stroke="#FF9800" stroke-width="1.5"/>
-<text x="0" y="-55" font-family="Arial,sans-serif" font-size="8" fill="#FF9800" text-anchor="middle" font-weight="bold">Углеводы</text>
-<line x1="-65" y1="-48" x2="65" y2="-48" stroke="#FF9800" stroke-width="0.5"/>
-<text x="0" y="-33" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle" font-weight="bold">Моносахариды</text>
-<text x="0" y="-20" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">Глюкоза C6H12O6</text>
-<text x="0" y="-7" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">Фруктоза, рибоза</text>
-<text x="0" y="10" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle" font-weight="bold">Дисахариды</text>
-<text x="0" y="23" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">Сахароза, лактоза</text>
-<text x="0" y="40" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle" font-weight="bold">Полисахариды</text>
-<text x="0" y="53" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">Крахмал, гликоген, целлюлоза</text>
-</g>
-<g transform="translate(370,175)">
-<rect x="-80" y="-70" width="160" height="140" rx="5" fill="white" stroke="#9C27B0" stroke-width="1.5"/>
-<text x="0" y="-55" font-family="Arial,sans-serif" font-size="8" fill="#9C27B0" text-anchor="middle" font-weight="bold">Липиды</text>
-<line x1="-65" y1="-48" x2="65" y2="-48" stroke="#9C27B0" stroke-width="0.5"/>
-<text x="0" y="-33" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle" font-weight="bold">Простые липиды</text>
-<text x="0" y="-20" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">Жиры (триацилглицерины)</text>
-<text x="0" y="-7" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">Воска</text>
-<text x="0" y="10" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle" font-weight="bold">Сложные липиды</text>
-<text x="0" y="23" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">Фосфолипиды мембран</text>
-<text x="0" y="40" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle" font-weight="bold">Стероиды</text>
-<text x="0" y="53" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">Холестерин, гормоны</text>
-</g>
-
-<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
-<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 10 класс</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">БИОЛОГИЯ · 10 КЛАСС</text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="60" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#34495e">Урок 6: Углеводы</text>
+  
+  <!-- Раздел 1: Моносахариды -->
+  <g id="monosaccharides">
+    <rect x="20" y="80" width="150" height="120" rx="10" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+    <text x="95" y="105" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2e7d32">Моносахариды</text>
+    
+    <!-- Глюкоза -->
+    <g transform="translate(30, 115)">
+      <circle cx="15" cy="15" r="3" fill="#ff5722"/>
+      <circle cx="25" cy="15" r="3" fill="#ff5722"/>
+      <circle cx="35" cy="15" r="3" fill="#ff5722"/>
+      <circle cx="45" cy="15" r="3" fill="#ff5722"/>
+      <circle cx="55" cy="15" r="3" fill="#ff5722"/>
+      <circle cx="65" cy="15" r="3" fill="#ff5722"/>
+      <line x1="15" y1="15" x2="25" y2="15" stroke="#666" stroke-width="1"/>
+      <line x1="25" y1="15" x2="35" y2="15" stroke="#666" stroke-width="1"/>
+      <line x1="35" y1="15" x2="45" y2="15" stroke="#666" stroke-width="1"/>
+      <line x1="45" y1="15" x2="55" y2="15" stroke="#666" stroke-width="1"/>
+      <line x1="55" y1="15" x2="65" y2="15" stroke="#666" stroke-width="1"/>
+      <text x="40" y="40" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Глюкоза</text>
+    </g>
+    
+    <!-- Фруктоза -->
+    <g transform="translate(30, 165)">
+      <circle cx="15" cy="10" r="3" fill="#ff5722"/>
+      <circle cx="25" cy="15" r="3" fill="#ff5722"/>
+      <circle cx="35" cy="10" r="3" fill="#ff5722"/>
+      <circle cx="45" cy="15" r="3" fill="#ff5722"/>
+      <circle cx="55" cy="10" r="3" fill="#ff5722"/>
+      <circle cx="65" cy="15" r="3" fill="#ff5722"/>
+      <line x1="15" y1="10" x2="25" y2="15" stroke="#666" stroke-width="1"/>
+      <line x1="25" y1="15" x2="35" y2="10" stroke="#666" stroke-width="1"/>
+      <line x1="35" y1="10" x2="45" y2="15" stroke="#666" stroke-width="1"/>
+      <line x1="45" y1="15" x2="55" y2="10" stroke="#666" stroke-width="1"/>
+      <line x1="55" y1="10" x2="65" y2="15" stroke="#666" stroke-width="1"/>
+      <text x="40" y="35" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Фруктоза</text>
+    </g>
+  </g>
+  
+  <!-- Раздел 2: Дисахариды -->
+  <g id="disaccharides">
+    <rect x="190" y="80" width="150" height="120" rx="10" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+    <text x="265" y="105" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#1565c0">Дисахариды</text>
+    
+    <!-- Сахароза -->
+    <g transform="translate(200, 115)">
+      <circle cx="10" cy="15" r="3" fill="#ff5722"/>
+      <circle cx="20" cy="15" r="3" fill="#ff5722"/>
+      <circle cx="30" cy="15" r="3" fill="#ff5722"/>
+      <circle cx="40" cy="15" r="3" fill="#ff5722"/>
+      <circle cx="50" cy="15" r="3" fill="#ff5722"/>
+      <line x1="10" y1="15" x2="20" y2="15" stroke="#666" stroke-width="1"/>
+      <line x1="20" y1="15" x2="30" y2="15" stroke="#666" stroke-width="1"/>
+      <line x1="30" y1="15" x2="40" y2="15" stroke="#666" stroke-width="1"/>
+      <line x1="40" y1="15" x2="50" y2="15" stroke="#666" stroke-width="1"/>
+      <circle cx="65" cy="15" r="3" fill="#ff5722"/>
+      <circle cx="75" cy="15" r="3" fill="#ff5722"/>
+      <circle cx="85" cy="15" r="3" fill="#ff5722"/>
+      <circle cx="95" cy="15" r="3" fill="#ff5722"/>
+      <line x1="65" y1="15" x2="75" y2="15" stroke="#666" stroke-width="1"/>
+      <line x1="75" y1="15" x2="85" y2="15" stroke="#666" stroke-width="1"/>
+      <line x1="85" y1="15" x2="95" y2="15" stroke="#666" stroke-width="1"/>
+      <line x1="50" y1="15" x2="65" y2="15" stroke="#666" stroke-width="2" stroke-dasharray="2,2"/>
+      <text x="52" y="40" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Сахароза</text>
+    </g>
+    
+    <!-- Лактоза -->
+    <g transform="translate(200, 165)">
+      <circle cx="10" cy="10" r="3" fill="#ff5722"/>
+      <circle cx="20" cy="15" r="3" fill="#ff5722"/>
+      <circle cx="30" cy="10" r="3" fill="#ff5722"/>
+      <circle cx="40" cy="15" r="3" fill="#ff5722"/>
+      <line x1="10" y1="10" x2="20" y2="15" stroke="#666" stroke-width="1"/>
+      <line x1="20" y1="15" x2="30" y2="10" stroke="#666" stroke-width="1"/>
+      <line x1="30" y1="10" x2="40" y2="15" stroke="#666" stroke-width="1"/>
+      <circle cx="55" cy="15" r="3" fill="#ff5722"/>
+      <circle cx="65" cy="20" r="3" fill="#ff5722"/>
+      <circle cx="75" cy="15" r="3" fill="#ff5722"/>
+      <circle cx="85" cy="20" r="3" fill="#ff5722"/>
+      <line x1="55" y1="15" x2="65" y2="20" stroke="#666" stroke-width="1"/>
+      <line x1="65" y1="20" x2="75" y2="15" stroke="#666" stroke-width="1"/>
+      <line x1="75" y1="15" x2="85" y2="20" stroke="#666" stroke-width="1"/>
+      <line x1="40" y1="15" x2="55" y2="15" stroke="#666" stroke-width="2" stroke-dasharray="2,2"/>
+      <text x="47" y="40" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Лактоза</text>
+    </g>
+  </g>
+  
+  <!-- Раздел 3: Полисахариды -->
+  <g id="polysaccharides">
+    <rect x="360" y="80" width="130" height="120" rx="10" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+    <text x="425" y="105" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#e65100">Полисахариды</text>
+    
+    <!-- Крахмал -->
+    <g transform="translate(370, 115)">
+      <circle cx="10" cy="10" r="3" fill="#ff5722"/>
+      <circle cx="20" cy="15" r="3" fill="#ff5722"/>
+      <circle cx="30" cy="10" r="3" fill="#ff5722"/>
+      <circle cx="40" cy="15" r="3" fill="#ff5722"/>
+      <line x1="10" y1="10" x2="20" y2="15" stroke="#666" stroke-width="1"/>
+      <line x1="20" y1="15" x2="30" y2="10" stroke="#666" stroke-width="1"/>
+      <line x1="30" y1="10" x2="40" y2="15" stroke="#666" stroke-width="1"/>
+      <circle cx="50" cy="20" r="3" fill="#ff5722"/>
+      <circle cx="60" cy="15" r="3" fill="#ff5722"/>
+      <circle cx="70" cy="20" r="3" fill="#ff5722"/>
+      <circle cx="80" cy="15" r="3" fill="#ff5722"/>
+      <line x1="40" y1="15" x2="50" y2="20" stroke="#666" stroke-width="1"/>
+      <line x1="50" y1="20" x2="60" y2="15" stroke="#666" stroke-width="1"/>
+      <line x1="60" y1="15" x2="70" y2="20" stroke="#666" stroke-width="1"/>
+      <line x1="70" y1="20" x2="80" y2="15" stroke="#666" stroke-width="1"/>
+      <circle cx="90" cy="20" r="3" fill="#ff5722"/>
+      <circle cx="100" cy="15" r="3" fill="#ff5722"/>
+      <line x1="80" y1="15" x2="90" y2="20" stroke="#666" stroke-width="1"/>
+      <line x1="90" y1="20" x2="100" y2="15" stroke="#666" stroke-width="1"/>
+      <text x="55" y="40" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Крахмал</text>
+    </g>
+    
+    <!-- Целлюлоза -->
+    <g transform="translate(370, 165)">
+      <circle cx="10" cy="15" r="3" fill="#ff5722"/>
+      <circle cx="20" cy="10" r="3" fill="#ff5722"/>
+      <circle cx="30" cy="15" r="3" fill="#ff5722"/>
+      <circle cx="40" cy="10" r="3" fill="#ff5722"/>
+      <line x1="10" y1="15" x2="20" y2="10" stroke="#666" stroke-width="1"/>
+      <line x1="20" y1="10" x2="30" y2="15" stroke="#666" stroke-width="1"/>
+      <line x1="30" y1="15" x2="40" y2="10" stroke="#666" stroke-width="1"/>
+      <circle cx="50" cy="10" r="3" fill="#ff5722"/>
+      <circle cx="60" cy="15" r="3" fill="#ff5722"/>
+      <circle cx="70" cy="10" r="3" fill="#ff5722"/>
+      <circle cx="80" cy="15" r="3" fill="#ff5722"/>
+      <line x1="40" y1="10" x2="50" y2="10" stroke="#666" stroke-width="1"/>
+      <line x1="50" y1="10" x2="60" y2="15" stroke="#666" stroke-width="1"/>
+      <line x1="60" y1="15" x2="70" y2="10" stroke="#666" stroke-width="1"/>
+      <line x1="70" y1="10" x2="80" y2="15" stroke="#666" stroke-width="1"/>
+      <text x="45" y="35" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Целлюлоза</text>
+    </g>
+  </g>
+  
+  <!-- Связи между классами -->
+  <g id="connections">
+    <!-- Моносахариды -> Дисахариды -->
+    <path d="M 170 140 L 190 140" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <!-- Дисахариды -> Полисахариды -->
+    <path d="M 340 140 L 360 140" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Стрелка -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- Свойства -->
+  <g id="properties">
+    <rect x="20" y="220" width="460" height="110" rx="10" fill="#f5f5f5" stroke="#9e9e9e" stroke-width="1"/>
+    <text x="250" y="245" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#424242">Основные свойства углеводов</text>
+    
+    <!-- Свойства 1 -->
+    <circle cx="40" cy="270" r="3" fill="#4caf50"/>
+    <text x="50" y="275" font-family="Arial, sans-serif" font-size="12" fill="#333">Состояние: твердые кристаллические вещества или жидкости</text>
+    
+    <!-- Свойства 2 -->
+    <circle cx="40" cy="295" r="3" fill="#4caf50"/>
+    <text x="50" y="300" font-family="Arial, sans-serif" font-size="12" fill="#333">Растворимость: растворимы в воде, нерастворимы в органических растворителях</text>
+    
+    <!-- Свойства 3 -->
+    <circle cx="40" cy="320" r="3" fill="#4caf50"/>
+    <text x="50" y="325" font-family="Arial, sans-serif" font-size="12" fill="#333">Функции: источник энергии, структурные компоненты, запасающие вещества</text>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <g id="decorations">
+    <!-- Молекулярная формула глюкозы -->
+    <text x="95" y="230" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#666">C₆H₁₂O₆</text>
+    
+    <!-- Иконки -->
+    <g transform="translate(460, 20)">
+      <circle cx="0" cy="0" r="15" fill="#ff5722" opacity="0.8"/>
+      <text x="0" y="5" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white" font-weight="bold">C</text>
+    </g>
+  </g>
 </svg>
