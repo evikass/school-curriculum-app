@@ -1,120 +1,120 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-  <defs>
-    <linearGradient id="bg37" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#f3e5f5"/>
-      <stop offset="100%" stop-color="#e1bee7"/>
-    </linearGradient>
-  </defs>
-  <rect width="500" height="350" fill="url(#bg37)" rx="8"/>
-  <rect x="2" y="2" width="496" height="346" fill="none" stroke="#6a1b9a" stroke-width="2" rx="8"/>
-  <!-- Title bar -->
-  <rect x="0" y="0" width="500" height="38" fill="#6a1b9a" rx="8"/>
-  <rect x="0" y="20" width="500" height="18" fill="#6a1b9a"/>
-  <text x="250" y="26" text-anchor="middle" fill="white" font-size="13" font-weight="bold" font-family="Arial">Генетика — наука о наследственности и изменчивости</text>
-  <text x="490" y="14" text-anchor="end" fill="#e1bee7" font-size="8" font-family="Arial">Биология 10 класс — Урок 37</text>
-  <!-- Key concepts section -->
-  <rect x="15" y="46" width="235" height="170" fill="white" fill-opacity="0.7" rx="5" stroke="#6a1b9a" stroke-width="0.8"/>
-  <text x="132" y="60" text-anchor="middle" fill="#4a148c" font-size="10" font-weight="bold" font-family="Arial">Основные понятия генетики</text>
-  <!-- Gene -->
-  <rect x="25" y="68" width="215" height="20" fill="#e8eaf6" rx="3" stroke="#6a1b9a" stroke-width="0.4"/>
-  <text x="30" y="82" fill="#4a148c" font-size="8" font-weight="bold" font-family="Arial">Ген</text>
-  <text x="60" y="82" fill="#4e342e" font-size="7" font-family="Arial">— участок ДНК, кодирующий признак</text>
-  <!-- Allele -->
-  <rect x="25" y="92" width="215" height="20" fill="#fce4ec" rx="3" stroke="#6a1b9a" stroke-width="0.4"/>
-  <text x="30" y="106" fill="#4a148c" font-size="8" font-weight="bold" font-family="Arial">Аллель</text>
-  <text x="68" y="106" fill="#4e342e" font-size="7" font-family="Arial">— вариант гена (A, a)</text>
-  <!-- Dominant -->
-  <rect x="25" y="116" width="105" height="20" fill="#c8e6c9" rx="3" stroke="#2e7d32" stroke-width="0.4"/>
-  <text x="30" y="130" fill="#1b5e20" font-size="8" font-weight="bold" font-family="Arial">A</text>
-  <text x="42" y="130" fill="#4e342e" font-size="7" font-family="Arial">Доминантный</text>
-  <!-- Recessive -->
-  <rect x="135" y="116" width="105" height="20" fill="#ffcdd2" rx="3" stroke="#c62828" stroke-width="0.4"/>
-  <text x="140" y="130" fill="#c62828" font-size="8" font-weight="bold" font-family="Arial">a</text>
-  <text x="152" y="130" fill="#4e342e" font-size="7" font-family="Arial">Рецессивный</text>
-  <!-- Genotype -->
-  <rect x="25" y="140" width="215" height="20" fill="#e3f2fd" rx="3" stroke="#0277bd" stroke-width="0.4"/>
-  <text x="30" y="154" fill="#01579b" font-size="8" font-weight="bold" font-family="Arial">Генотип</text>
-  <text x="72" y="154" fill="#4e342e" font-size="7" font-family="Arial">— совокупность всех генов (AA, Aa, aa)</text>
-  <!-- Phenotype -->
-  <rect x="25" y="164" width="215" height="20" fill="#fff3e0" rx="3" stroke="#ff8f00" stroke-width="0.4"/>
-  <text x="30" y="178" fill="#e65100" font-size="8" font-weight="bold" font-family="Arial">Фенотип</text>
-  <text x="75" y="178" fill="#4e342e" font-size="7" font-family="Arial">— внешние признаки организма</text>
-  <!-- Homozygous / Heterozygous -->
-  <rect x="25" y="188" width="105" height="20" fill="#e8eaf6" rx="3" stroke="#6a1b9a" stroke-width="0.4"/>
-  <text x="30" y="200" fill="#4a148c" font-size="7" font-weight="bold" font-family="Arial">Гомозигота</text>
-  <text x="30" y="206" fill="#4e342e" font-size="6" font-family="Arial">AA или aa</text>
-  <rect x="135" y="188" width="105" height="20" fill="#f3e5f5" rx="3" stroke="#6a1b9a" stroke-width="0.4"/>
-  <text x="140" y="200" fill="#4a148c" font-size="7" font-weight="bold" font-family="Arial">Гетерозигота</text>
-  <text x="140" y="206" fill="#4e342e" font-size="6" font-family="Arial">Aa</text>
-  <!-- Chromosome with gene illustration -->
-  <rect x="260" y="46" width="225" height="80" fill="white" fill-opacity="0.7" rx="5" stroke="#6a1b9a" stroke-width="0.8"/>
-  <text x="372" y="60" text-anchor="middle" fill="#4a148c" font-size="9" font-weight="bold" font-family="Arial">Ген на хромосоме</text>
-  <!-- Chromosome shape -->
-  <path d="M280,80 Q285,65 295,65 Q305,65 310,80 Q310,90 295,95 Q280,90 280,80 Z" fill="#e1bee7" stroke="#7b1fa2" stroke-width="1.2"/>
-  <!-- Centromere -->
-  <ellipse cx="295" cy="80" rx="5" ry="3" fill="#7b1fa2"/>
-  <!-- Gene locus markers -->
-  <rect x="282" y="70" width="12" height="5" fill="#c62828" rx="1" opacity="0.7"/>
-  <text x="300" y="75" fill="#c62828" font-size="6" font-family="Arial">A</text>
-  <rect x="282" y="85" width="12" height="5" fill="#1565c0" rx="1" opacity="0.7"/>
-  <text x="300" y="90" fill="#1565c0" font-size="6" font-family="Arial">B</text>
-  <!-- Homologous pair -->
-  <path d="M340,80 Q345,65 355,65 Q365,65 370,80 Q370,90 355,95 Q340,90 340,80 Z" fill="#e8eaf6" stroke="#1565c0" stroke-width="1.2"/>
-  <ellipse cx="355" cy="80" rx="5" ry="3" fill="#1565c0"/>
-  <rect x="342" y="70" width="12" height="5" fill="#c8e6c9" rx="1" opacity="0.7"/>
-  <text x="360" y="75" fill="#2e7d32" font-size="6" font-family="Arial">a</text>
-  <rect x="342" y="85" width="12" height="5" fill="#fff9c4" rx="1" opacity="0.7"/>
-  <text x="360" y="90" fill="#ff8f00" font-size="6" font-family="Arial">b</text>
-  <text x="295" y="105" text-anchor="middle" fill="#7b1fa2" font-size="6" font-family="Arial">Материнская</text>
-  <text x="355" y="105" text-anchor="middle" fill="#1565c0" font-size="6" font-family="Arial">Отцовская</text>
-  <text x="325" y="118" text-anchor="middle" fill="#4a148c" font-size="6" font-family="Arial">Гомологичная пара</text>
-  <!-- Mendel section -->
-  <rect x="260" y="132" width="225" height="84" fill="white" fill-opacity="0.7" rx="5" stroke="#6a1b9a" stroke-width="0.8"/>
-  <text x="372" y="146" text-anchor="middle" fill="#4a148c" font-size="9" font-weight="bold" font-family="Arial">Грегор Мендель (1822-1884)</text>
-  <!-- Mendel portrait area -->
-  <ellipse cx="310" cy="170" rx="18" ry="22" fill="#e8eaf6" stroke="#6a1b9a" stroke-width="1"/>
-  <circle cx="310" cy="164" r="7" fill="#d1c4e9" stroke="#6a1b9a" stroke-width="0.5"/>
-  <path d="M298,178 Q310,188 322,178" fill="none" stroke="#6a1b9a" stroke-width="0.5"/>
-  <rect x="300" y="185" width="20" height="15" fill="#7b1fa2" opacity="0.3" rx="2"/>
-  <!-- Three laws -->
-  <text x="350" y="158" fill="#4a148c" font-size="7" font-weight="bold" font-family="Arial">Три закона Менделя:</text>
-  <text x="345" y="170" fill="#c62828" font-size="7" font-family="Arial">I. Закон единообразия</text>
-  <text x="345" y="181" fill="#2e7d32" font-size="7" font-family="Arial">II. Закон расщепления</text>
-  <text x="345" y="192" fill="#1565c0" font-size="7" font-family="Arial">III. Независимое наслед.</text>
-  <text x="345" y="207" fill="#4e342e" font-size="6" font-family="Arial">Опыты на горохе (1865)</text>
-  <!-- Cross types -->
-  <rect x="15" y="222" width="230" height="56" fill="white" fill-opacity="0.7" rx="5" stroke="#6a1b9a" stroke-width="0.8"/>
-  <text x="130" y="236" text-anchor="middle" fill="#4a148c" font-size="9" font-weight="bold" font-family="Arial">Типы скрещивания</text>
-  <rect x="25" y="242" width="100" height="28" fill="#e8eaf6" rx="3" stroke="#6a1b9a" stroke-width="0.4"/>
-  <text x="75" y="254" text-anchor="middle" fill="#4a148c" font-size="7" font-weight="bold" font-family="Arial">Моногибридное</text>
-  <text x="75" y="264" text-anchor="middle" fill="#4e342e" font-size="6" font-family="Arial">1 признак (Aa × Aa)</text>
-  <rect x="135" y="242" width="100" height="28" fill="#f3e5f5" rx="3" stroke="#6a1b9a" stroke-width="0.4"/>
-  <text x="185" y="254" text-anchor="middle" fill="#4a148c" font-size="7" font-weight="bold" font-family="Arial">Дигибридное</text>
-  <text x="185" y="264" text-anchor="middle" fill="#4e342e" font-size="6" font-family="Arial">2 признака (AaBb × AaBb)</text>
-  <!-- Key properties -->
-  <rect x="260" y="222" width="225" height="56" fill="white" fill-opacity="0.7" rx="5" stroke="#ff6f00" stroke-width="0.8"/>
-  <text x="372" y="236" text-anchor="middle" fill="#e65100" font-size="9" font-weight="bold" font-family="Arial">Свойства генов</text>
-  <text x="270" y="250" fill="#4e342e" font-size="7" font-family="Arial">• Дискретность — не смешиваются</text>
-  <text x="270" y="262" fill="#4e342e" font-size="7" font-family="Arial">• Доминирование — A подавляет a</text>
-  <text x="270" y="274" fill="#4e342e" font-size="7" font-family="Arial">• Аллельная пара → 1 признак</text>
-  <!-- Pea plant illustration -->
-  <rect x="15" y="284" width="470" height="56" fill="white" fill-opacity="0.6" rx="5" stroke="#2e7d32" stroke-width="0.8"/>
-  <text x="250" y="298" text-anchor="middle" fill="#2e7d32" font-size="9" font-weight="bold" font-family="Arial">Объект исследований Менделя — горох посевной (Pisum sativum)</text>
-  <!-- Pea pod illustration -->
-  <path d="M50,325 Q55,310 75,310 Q95,310 100,325 Q95,332 75,332 Q55,332 50,325 Z" fill="#66bb6a" stroke="#2e7d32" stroke-width="0.8"/>
-  <circle cx="65" cy="320" r="3.5" fill="#fdd835" stroke="#f9a825" stroke-width="0.4"/>
-  <circle cx="75" cy="320" r="3.5" fill="#fdd835" stroke="#f9a825" stroke-width="0.4"/>
-  <circle cx="85" cy="320" r="3.5" fill="#8bc34a" stroke="#558b2f" stroke-width="0.4"/>
-  <text x="75" y="342" text-anchor="middle" fill="#4e342e" font-size="6" font-family="Arial">Жёлтые / зелёные</text>
-  <!-- Smooth vs wrinkled -->
-  <circle cx="170" cy="320" r="6" fill="#fdd835" stroke="#f9a825" stroke-width="0.6"/>
-  <text x="170" y="322" text-anchor="middle" fill="#f57f17" font-size="5" font-family="Arial">гл</text>
-  <circle cx="195" cy="320" r="6" fill="#8bc34a" stroke="#558b2f" stroke-width="0.6"/>
-  <path d="M190,317 Q195,315 200,317" fill="none" stroke="#33691e" stroke-width="0.5"/>
-  <path d="M190,323 Q195,325 200,323" fill="none" stroke="#33691e" stroke-width="0.5"/>
-  <text x="183" y="342" text-anchor="middle" fill="#4e342e" font-size="6" font-family="Arial">Гладкие / морщинистые</text>
-  <!-- Trait list -->
-  <text x="280" y="312" fill="#4e342e" font-size="7" font-family="Arial">Признаки гороха:</text>
-  <text x="280" y="322" fill="#4e342e" font-size="6" font-family="Arial">• Окраска семян: жёлтая (A) / зелёная (a)</text>
-  <text x="280" y="332" fill="#4e342e" font-size="6" font-family="Arial">• Форма семян: гладкая (B) / морщинистая (b)</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f0f4f8"/>
+  
+  <!-- ДНК спираль -->
+  <g id="dna-spiral" transform="translate(50, 100)">
+    <path d="M0,0 Q10,20 0,40 Q-10,60 0,80 Q10,100 0,120 Q-10,140 0,160" 
+          fill="none" stroke="#4a90e2" stroke-width="3" opacity="0.8"/>
+    <path d="M30,0 Q20,20 30,40 Q40,60 30,80 Q20,100 30,120 Q40,140 30,160" 
+          fill="none" stroke="#4a90e2" stroke-width="3" opacity="0.8"/>
+    <line x1="0" y1="20" x2="30" y2="20" stroke="#4a90e2" stroke-width="2"/>
+    <line x1="0" y1="40" x2="30" y2="40" stroke="#4a90e2" stroke-width="2"/>
+    <line x1="0" y1="60" x2="30" y2="60" stroke="#4a90e2" stroke-width="2"/>
+    <line x1="0" y1="80" x2="30" y2="80" stroke="#4a90e2" stroke-width="2"/>
+    <line x1="0" y1="100" x2="30" y2="100" stroke="#4a90e2" stroke-width="2"/>
+    <line x1="0" y1="120" x2="30" y2="120" stroke="#4a90e2" stroke-width="2"/>
+    <line x1="0" y1="140" x2="30" y2="140" stroke="#4a90e2" stroke-width="2"/>
+  </g>
+  
+  <!-- Хромосома -->
+  <g id="chromosome" transform="translate(420, 150)">
+    <ellipse cx="0" cy="0" rx="20" ry="40" fill="#e74c3c" opacity="0.7"/>
+    <ellipse cx="0" cy="80" rx="20" ry="40" fill="#e74c3c" opacity="0.7"/>
+    <rect x="-20" y="35" width="40" height="10" fill="#e74c3c" opacity="0.7"/>
+  </g>
+  
+  <!-- Гены -->
+  <g id="genes">
+    <rect x="100" y="80" width="60" height="20" fill="#2ecc71" rx="10" opacity="0.8"/>
+    <rect x="100" y="110" width="60" height="20" fill="#f39c12" rx="10" opacity="0.8"/>
+    <rect x="100" y="140" width="60" height="20" fill="#9b59b6" rx="10" opacity="0.8"/>
+    <rect x="100" y="170" width="60" height="20" fill="#e67e22" rx="10" opacity="0.8"/>
+  </g>
+  
+  <!-- Аллели -->
+  <g id="alleles">
+    <circle cx="180" cy="90" r="8" fill="#3498db"/>
+    <circle cx="195" cy="90" r="8" fill="#e74c3c"/>
+    <circle cx="180" cy="120" r="8" fill="#2ecc71"/>
+    <circle cx="195" cy="120" r="8" fill="#2ecc71"/>
+    <circle cx="180" cy="150" r="8" fill="#f39c12"/>
+    <circle cx="195" cy="150" r="8" fill="#3498db"/>
+  </g>
+  
+  <!-- Название урока -->
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">Урок 37: Генетика</text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">наука о наследственности и изменчивости</text>
+  
+  <!-- Панель информации -->
+  <rect x="250" y="90" width="230" height="160" fill="white" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+  
+  <!-- Список тем -->
+  <text x="270" y="115" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Основные темы:</text>
+  <text x="270" y="140" font-family="Arial, sans-serif" font-size="12" fill="#34495e">• Ген и аллель</text>
+  <text x="270" y="160" font-family="Arial, sans-serif" font-size="12" fill="#34495e">• Генотип и фенотип</text>
+  <text x="270" y="180" font-family="Arial, sans-serif" font-size="12" fill="#34495e">• Доминантные и рецессивные признаки</text>
+  <text x="270" y="200" font-family="Arial, sans-serif" font-size="12" fill="#34495e">• Мендельские законы</text>
+  <text x="270" y="220" font-family="Arial, sans-serif" font-size="12" fill="#34495e">• Наследственность и изменчивость</text>
+  <text x="270" y="240" font-family="Arial, sans-serif" font-size="12" fill="#34495e">• Модификационная изменчивость</text>
+  
+  <!-- ДНК нуклеотиды -->
+  <g id="nucleotides" transform="translate(320, 100)">
+    <rect x="0" y="0" width="15" height="15" fill="#e74c3c" opacity="0.7"/>
+    <rect x="20" y="0" width="15" height="15" fill="#3498db" opacity="0.7"/>
+    <rect x="40" y="0" width="15" height="15" fill="#2ecc71" opacity="0.7"/>
+    <rect x="0" y="20" width="15" height="15" fill="#f39c12" opacity="0.7"/>
+    <rect x="20" y="20" width="15" height="15" fill="#9b59b6" opacity="0.7"/>
+    <rect x="40" y="20" width="15" height="15" fill="#e74c3c" opacity="0.7"/>
+  </g>
+  
+  <!-- Схема скрещивания -->
+  <g id="crossing" transform="translate(50, 250)">
+    <circle cx="50" cy="0" r="15" fill="#3498db" opacity="0.7"/>
+    <circle cx="50" cy="30" r="15" fill="#e74c3c" opacity="0.7"/>
+    <circle cx="50" cy="60" r="15" fill="#3498db" opacity="0.7"/>
+    
+    <circle cx="150" cy="0" r="15" fill="#e74c3c" opacity="0.7"/>
+    <circle cx="150" cy="30" r="15" fill="#e74c3c" opacity="0.7"/>
+    <circle cx="150" cy="60" r="15" fill="#e74c3c" opacity="0.7"/>
+    
+    <line x1="65" y1="30" x2="135" y2="30" stroke="#95a5a6" stroke-width="2"/>
+    <line x1="65" y1="30" x2="135" y2="30" stroke="#95a5a6" stroke-width="2"/>
+    <line x1="65" y1="30" x2="135" y2="30" stroke="#95a5a6" stroke-width="2"/>
+    <line x1="65" y1="30" x2="135" y2="30" stroke="#95a5a6" stroke-width="2"/>
+  </g>
+  
+  <!-- Легенда -->
+  <text x="40" y="330" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Генотип: AA Aa aa</text>
+  <text x="150" y="330" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Фенотип: 3:1</text>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="30" cy="30" r="3" fill="#e74c3c" opacity="0.5"/>
+  <circle cx="470" cy="30" r="3" fill="#3498db" opacity="0.5"/>
+  <circle cx="30" cy="320" r="3" fill="#2ecc71" opacity="0.5"/>
+  <circle cx="470" cy="320" r="3" fill="#f39c12" opacity="0.5"/>
+  
+  <!-- Молекула ДНК декор -->
+  <g id="dna-decor" transform="translate(400, 50) scale(0.5)">
+    <path d="M0,0 Q5,10 0,20 Q-5,30 0,40" fill="none" stroke="#4a90e2" stroke-width="2"/>
+    <path d="M20,0 Q15,10 20,20 Q25,30 20,40" fill="none" stroke="#4a90e2" stroke-width="2"/>
+    <line x1="0" y1="10" x2="20" y2="10" stroke="#4a90e2" stroke-width="1.5"/>
+    <line x1="0" y1="20" x2="20" y2="20" stroke="#4a90e2" stroke-width="1.5"/>
+    <line x1="0" y1="30" x2="20" y2="30" stroke="#4a90e2" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Биологические символы -->
+  <g id="bio-symbols" opacity="0.3">
+    <text x="200" y="200" font-family="Arial, sans-serif" font-size="30" fill="#34495e">♂</text>
+    <text x="220" y="200" font-family="Arial, sans-serif" font-size="30" fill="#e74c3c">♀</text>
+  </g>
+  
+  <!-- Заголовок "БИОЛОГИЯ · 10 КЛАСС" -->
+  <rect x="150" y="10" width="200" height="25" fill="#34495e" rx="12"/>
+  <text x="250" y="27" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">БИОЛОГИЯ · 10 КЛАСС</text>
+  
+  <!-- Пунктирная линия -->
+  <line x1="50" y1="230" x2="450" y2="230" stroke="#bdc3c7" stroke-width="1" stroke-dasharray="5,5"/>
 </svg>
