@@ -1,118 +1,190 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#F3E5F5"/><stop offset="100%" stop-color="#E1BEE7"/></linearGradient>
-  <linearGradient id="mitoGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#CE93D8"/><stop offset="100%" stop-color="#8E24AA"/></linearGradient>
-</defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#7B1FA2" stroke-width="2.5"/>
-<!-- Title bar -->
-<rect x="3" y="3" width="494" height="38" rx="8" fill="#7B1FA2"/>
-<rect x="3" y="30" width="494" height="11" fill="#7B1FA2"/>
-<text x="250" y="28" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">Клеточное дыхание: цикл Кребса</text>
-<text x="250" y="50" font-family="Arial,sans-serif" font-size="10" fill="#6A1B9A" text-anchor="middle">Биология 10 класс — Урок 25</text>
-
-<!-- Location -->
-<rect x="155" y="55" width="190" height="16" rx="4" fill="#AB47BC" opacity="0.3"/>
-<text x="250" y="66" font-family="Arial,sans-serif" font-size="8" fill="#6A1B9A" text-anchor="middle">Матрикс митохондрии — аэробный процесс</text>
-
-<!-- Mitochondria outline (background) -->
-<ellipse cx="235" cy="205" rx="140" ry="105" fill="#F3E5F5" stroke="#AB47BC" stroke-width="2" opacity="0.4"/>
-<text x="235" y="310" font-family="Arial,sans-serif" font-size="8" fill="#9C27B0" text-anchor="middle">Митохондрия</text>
-<!-- Inner membrane cristae -->
-<path d="M130,170 Q160,155 180,170" stroke="#AB47BC" stroke-width="1" fill="none" opacity="0.4"/>
-<path d="M290,230 Q320,215 340,230" stroke="#AB47BC" stroke-width="1" fill="none" opacity="0.4"/>
-
-<!-- CIRCULAR KREBS CYCLE -->
-<!-- Central circle path (positions around circle) -->
-<!-- Top: Oxaloacetate (C4) -->
-<!-- Going clockwise: Citrate (C6), Isocitrate (C6), α-KG (C5), Succinyl-CoA (C4), Succinate (C4), Fumarate (C4), Malate (C4) -->
-
-<!-- Circle center at 235, 195, radius ~75 -->
-<!-- 8 positions around circle -->
-
-<!-- Oxaloacetate (C4) - top -->
-<rect x="195" y="82" width="80" height="22" rx="8" fill="#FFD54F" stroke="#F57F17" stroke-width="1.5"/>
-<text x="235" y="96" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#E65100" text-anchor="middle">Оксалоацетат</text>
-<text x="235" y="80" font-family="Arial,sans-serif" font-size="7" fill="#F57F17" text-anchor="middle">C₄</text>
-
-<!-- Arrow: Oxaloacetate → Citrate (clockwise) -->
-<path d="M275,98 Q310,105 318,120" stroke="#7B1FA2" stroke-width="1.5" fill="none" marker-end="url(#arrPp)"/>
-<defs><marker id="arrPp" markerWidth="5" markerHeight="4" refX="5" refY="2" orient="auto"><path d="M0,0 L5,2 L0,4 Z" fill="#7B1FA2"/></marker></defs>
-
-<!-- Acetyl-CoA input arrow -->
-<path d="M365,88 L320,108" stroke="#E53935" stroke-width="2" fill="none" marker-end="url(#arrRd)"/>
-<defs><marker id="arrRd" markerWidth="5" markerHeight="4" refX="5" refY="2" orient="auto"><path d="M0,0 L5,2 L0,4 Z" fill="#E53935"/></marker></defs>
-<rect x="360" y="72" width="85" height="24" rx="6" fill="#FF8A65" stroke="#BF360C" stroke-width="1.5"/>
-<text x="402" y="86" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#fff" text-anchor="middle">Ацетил-CoA</text>
-<text x="402" y="94" font-family="Arial,sans-serif" font-size="7" fill="#FFCCBC" text-anchor="middle">C₂</text>
-
-<!-- Citrate (C6) - right top -->
-<rect x="310" y="118" width="70" height="22" rx="8" fill="#81C784" stroke="#2E7D32" stroke-width="1.5"/>
-<text x="345" y="132" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20" text-anchor="middle">Цитрат C₆</text>
-
-<!-- Arrow: Citrate → Isocitrate -->
-<path d="M365,140 Q385,155 380,172" stroke="#7B1FA2" stroke-width="1.5" fill="none" marker-end="url(#arrPp)"/>
-
-<!-- Isocitrate (C6) - right -->
-<rect x="335" y="172" width="75" height="20" rx="8" fill="#81C784" stroke="#2E7D32" stroke-width="1.5"/>
-<text x="372" y="186" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#1B5E20" text-anchor="middle">Изоцитрат C₆</text>
-
-<!-- NADH + CO2 out -->
-<text x="420" y="178" font-family="Arial,sans-serif" font-size="7" fill="#E53935">→CO₂</text>
-<text x="420" y="188" font-family="Arial,sans-serif" font-size="7" fill="#1565C0">+NADH</text>
-
-<!-- Arrow down -->
-<path d="M360,192 Q340,210 325,220" stroke="#7B1FA2" stroke-width="1.5" fill="none" marker-end="url(#arrPp)"/>
-
-<!-- α-Ketoglutarate (C5) - right bottom -->
-<rect x="315" y="215" width="85" height="22" rx="8" fill="#4FC3F7" stroke="#0277BD" stroke-width="1.5"/>
-<text x="357" y="229" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#01579B" text-anchor="middle">α-Кетоглутарат C₅</text>
-
-<!-- NADH + CO2 out -->
-<text x="415" y="222" font-family="Arial,sans-serif" font-size="7" fill="#E53935">→CO₂</text>
-<text x="415" y="232" font-family="Arial,sans-serif" font-size="7" fill="#1565C0">+NADH</text>
-
-<!-- Arrow -->
-<path d="M340,237 Q320,252 300,258" stroke="#7B1FA2" stroke-width="1.5" fill="none" marker-end="url(#arrPp)"/>
-
-<!-- Succinyl-CoA (C4) - bottom right -->
-<rect x="285" y="255" width="80" height="20" rx="8" fill="#FFB74D" stroke="#E65100" stroke-width="1.5"/>
-<text x="325" y="268" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#BF360C" text-anchor="middle">Сукцинил-CoA C₄</text>
-
-<!-- GTP out -->
-<text x="375" y="265" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32">+GTP</text>
-
-<!-- Arrow: bottom -->
-<path d="M295,275 Q270,290 245,288" stroke="#7B1FA2" stroke-width="1.5" fill="none" marker-end="url(#arrPp)"/>
-
-<!-- Succinate (C4) - bottom -->
-<rect x="195" y="278" width="70" height="20" rx="8" fill="#FFB74D" stroke="#E65100" stroke-width="1.5"/>
-<text x="230" y="292" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#BF360C" text-anchor="middle">Сукцинат C₄</text>
-
-<!-- FADH2 -->
-<text x="180" y="285" font-family="Arial,sans-serif" font-size="7" fill="#FF6F00">+FADH₂</text>
-
-<!-- Arrow: bottom left -->
-<path d="M185,290 Q155,282 140,270" stroke="#7B1FA2" stroke-width="1.5" fill="none" marker-end="url(#arrPp)"/>
-
-<!-- Fumarate (C4) - left bottom -->
-<rect x="95" y="255" width="68" height="20" rx="8" fill="#CE93D8" stroke="#7B1FA2" stroke-width="1.5"/>
-<text x="129" y="268" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#4A148C" text-anchor="middle">Фумарат C₄</text>
-
-<!-- Arrow -->
-<path d="M115,255 Q105,238 108,222" stroke="#7B1FA2" stroke-width="1.5" fill="none" marker-end="url(#arrPp)"/>
-
-<!-- Malate (C4) - left -->
-<rect x="85" y="205" width="65" height="20" rx="8" fill="#CE93D8" stroke="#7B1FA2" stroke-width="1.5"/>
-<text x="117" y="219" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#4A148C" text-anchor="middle">Малат C₄</text>
-
-<!-- NADH out -->
-<text x="68" y="218" font-family="Arial,sans-serif" font-size="7" fill="#1565C0">+NADH</text>
-
-<!-- Arrow: top left back to Oxaloacetate -->
-<path d="M120,205 Q125,175 155,155 Q175,140 200,108" stroke="#7B1FA2" stroke-width="1.5" fill="none" marker-end="url(#arrPp)"/>
-
-<!-- Summary box at bottom -->
-<rect x="10" y="316" width="480" height="26" rx="6" fill="#4A148C"/>
-<text x="250" y="333" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#FFEB3B" text-anchor="middle">За 1 оборот: 3 NADH + 1 FADH₂ + 1 GTP + 2 CO₂ | За глюкозу (2 оборота): 6 NADH + 2 FADH₂ + 2 GTP</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6f3ff;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Тень для элементов -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.2"/>
+    </filter>
+    
+    <!-- Символы для реакции -->
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2c3e50"/>
+    </marker>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#2c3e50">БИОЛОГИЯ · 10 КЛАСС</text>
+  <text x="250" y="50" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#34495e">Урок 25: Клеточное дыхание</text>
+  
+  <!-- Центр - цикл Кребса -->
+  <circle cx="250" cy="200" r="60" fill="#3498db" filter="url(#shadow)" opacity="0.8"/>
+  <text x="250" y="195" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">ЦИКЛ</text>
+  <text x="250" y="210" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">КРЕБСА</text>
+  
+  <!-- Ацетил-CoA -->
+  <g transform="translate(100, 150)">
+    <rect x="-30" y="-20" width="60" height="40" rx="5" fill="#e74c3c" filter="url(#shadow)"/>
+    <text x="0" y="-2" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Ацетил-CoA</text>
+    <text x="0" y="12" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">C₂H₃O-</text>
+  </g>
+  
+  <!-- Oxaloacetate -->
+  <g transform="translate(400, 150)">
+    <rect x="-35" y="-20" width="70" height="40" rx="5" fill="#9b59b6" filter="url(#shadow)"/>
+    <text x="0" y="-2" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Oxaloacetate</text>
+    <text x="0" y="12" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">C₄H₂O₄²⁻</text>
+  </g>
+  
+  <!-- Реакции цикла -->
+  <!-- 1. Citrate -->
+  <g transform="translate(250, 100)">
+    <circle cx="0" cy="0" r="25" fill="#f39c12" filter="url(#shadow)"/>
+    <text x="0" y="3" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">Citrate</text>
+  </g>
+  
+  <!-- 2. Isocitrate -->
+  <g transform="translate(320, 120)">
+    <circle cx="0" cy="0" r="25" fill="#27ae60" filter="url(#shadow)"/>
+    <text x="0" y="-2" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">Isocitrate</text>
+    <text x="0" y="10" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="white">C₆H₅O₇³⁻</text>
+  </g>
+  
+  <!-- 3. Alpha-ketoglutarate -->
+  <g transform="translate(350, 200)">
+    <circle cx="0" cy="0" r="25" fill="#e67e22" filter="url(#shadow)"/>
+    <text x="0" y="-2" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">α-KG</text>
+    <text x="0" y="10" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="white">C₅H₄O₅²⁻</text>
+  </g>
+  
+  <!-- 4. Succinyl-CoA -->
+  <g transform="translate(320, 280)">
+    <circle cx="0" cy="0" r="25" fill="#16a085" filter="url(#shadow)"/>
+    <text x="0" y="-2" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">Succ-CoA</text>
+    <text x="0" y="10" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="white">C₄H₄O₄S-CoA</text>
+  </g>
+  
+  <!-- 5. Succinate -->
+  <g transform="translate(250, 300)">
+    <circle cx="0" cy="0" r="25" fill="#34495e" filter="url(#shadow)"/>
+    <text x="0" y="3" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">Succinate</text>
+  </g>
+  
+  <!-- 6. Fumarate -->
+  <g transform="translate(180, 280)">
+    <circle cx="0" cy="0" r="25" fill="#c0392b" filter="url(#shadow)"/>
+    <text x="0" y="3" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">Fumarate</text>
+  </g>
+  
+  <!-- 7. Malate -->
+  <g transform="translate(150, 200)">
+    <circle cx="0" cy="0" r="25" fill="#8e44ad" filter="url(#shadow)"/>
+    <text x="0" y="3" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">Malate</text>
+  </g>
+  
+  <!-- Стрелки между соединениями -->
+  <path d="M 130 150 L 190 120" stroke="#2c3e50" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M 225 100 L 295 120" stroke="#2c3e50" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M 340 140 L 340 175" stroke="#2c3e50" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M 335 225 L 340 255" stroke="#2c3e50" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M 295 280 L 275 285" stroke="#2c3e50" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M 225 300 L 205 285" stroke="#2c3e50" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M 155 280 L 155 225" stroke="#2c3e50" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M 165 175 L 190 140" stroke="#2c3e50" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M 400 170 L 310 195" stroke="#2c3e50" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Выделенные реакции с выделением энергии -->
+  <g transform="translate(370, 100)">
+    <rect x="-40" y="-15" width="80" height="30" rx="5" fill="#f1c40f" opacity="0.3"/>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#d68910">NADH + H⁺</text>
+    <text x="0" y="12" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#d68910">CO₂</text>
+  </g>
+  
+  <g transform="translate(400, 250)">
+    <rect x="-40" y="-15" width="80" height="30" rx="5" fill="#f1c40f" opacity="0.3"/>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#d68910">NADH + H⁺</text>
+    <text x="0" y="12" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#d68910">CO₂</text>
+  </g>
+  
+  <g transform="translate(250, 330)">
+    <rect x="-45" y="-15" width="90" height="30" rx="5" fill="#f1c40f" opacity="0.3"/>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#d68910">FADH₂</text>
+    <text x="0" y="12" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#d68910">ATP</text>
+  </g>
+  
+  <!-- Легенда -->
+  <g transform="translate(30, 320)">
+    <rect x="-5" y="-5" width="120" height="25" rx="3" fill="white" opacity="0.8"/>
+    <text x="55" y="10" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#2c3e50">8 этапов цикла</text>
+  </g>
+  
+  <!-- Коферменты -->
+  <g transform="translate(430, 320)">
+    <rect x="-40" y="-5" width="80" height="25" rx="3" fill="white" opacity="0.8"/>
+    <text x="0" y="10" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#2c3e50">3 NADH, 1 FADH₂</text>
+  </g>
+  
+  <!-- Указатели на катализаторы -->
+  <circle cx="280" cy="120" r="3" fill="#e74c3c"/>
+  <circle cx="340" cy="180" r="3" fill="#e74c3c"/>
+  <circle cx="340" cy="260" r="3" fill="#e74c3c"/>
+  <circle cx="220" cy="260" r="3" fill="#e74c3c"/>
+  <circle cx="160" cy="220" r="3" fill="#e74c3c"/>
+  
+  <!-- Атомы и молекулы -->
+  <g transform="translate(50, 50)">
+    <circle cx="0" cy="0" r="8" fill="#3498db" opacity="0.7"/>
+    <text x="0" y="4" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">O</text>
+  </g>
+  
+  <g transform="translate(450, 50)">
+    <circle cx="0" cy="0" r="8" fill="#e74c3c" opacity="0.7"/>
+    <text x="0" y="4" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">C</text>
+  </g>
+  
+  <!-- Энергетические показатели -->
+  <g transform="translate(250, 60)">
+    <rect x="-50" y="-10" width="100" height="20" rx="10" fill="#2ecc71" opacity="0.3"/>
+    <text x="0" y="3" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#27ae60">30 ATP/цикл</text>
+  </g>
+  
+  <!-- Дополнительные метки -->
+  <text x="250" y="340" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#7f8c8d">Митохондрия - матрикс</text>
+  
+  <!-- Дополнительные молекулы -->
+  <g transform="translate(80, 200)">
+    <circle cx="0" cy="0" r="15" fill="#95a5a6" opacity="0.5"/>
+    <text x="0" y="4" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">H₂O</text>
+  </g>
+  
+  <g transform="translate(420, 200)">
+    <circle cx="0" cy="0" r="15" fill="#95a5a6" opacity="0.5"/>
+    <text x="0" y="4" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">ADP</text>
+  </g>
+  
+  <!-- Указатели на ферменты -->
+  <g transform="translate(150, 70)">
+    <text font-family="Arial, sans-serif" font-size="8" fill="#7f8c8d">citrate synthase</text>
+  </g>
+  
+  <g transform="translate(280, 70)">
+    <text font-family="Arial, sans-serif" font-size="8" fill="#7f8c8d">aconitase</text>
+  </g>
+  
+  <g transform="translate(360, 70)">
+    <text font-family="Arial, sans-serif" font-size="8" fill="#7f8c8d">isocitrate DH</text>
+  </g>
+  
+  <!-- Коферменты CoA -->
+  <g transform="translate(250, 150)">
+    <path d="M -10,0 L -5,-5 L 0,0 L 5,-5 L 10,0" stroke="#e67e22" stroke-width="2" fill="none"/>
+    <text x="0" y="-10" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#e67e22">CoA</text>
+  </g>
 </svg>
