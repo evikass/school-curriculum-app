@@ -1,45 +1,157 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
-<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Нуклеиновые кислоты</text>
-<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 10 класс — Урок 8</text>
-<line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
-
-<!-- DNA double helix representation -->
-<g transform="translate(170,185)">
-<rect x="-90" y="-80" width="180" height="160" rx="5" fill="white" stroke="#1565C0" stroke-width="1.5"/>
-<text x="0" y="-65" font-family="Arial,sans-serif" font-size="8" fill="#1565C0" text-anchor="middle" font-weight="bold">ДНК — двойная спираль</text>
-<!-- Simplified double helix -->
-<path d="M-50,-50 Q-25,-35 0,-50 Q25,-65 50,-50" stroke="#1565C0" stroke-width="2.5" fill="none"/>
-<path d="M-50,-50 Q-25,-65 0,-50 Q25,-35 50,-50" stroke="#C62828" stroke-width="2.5" fill="none"/>
-<!-- Rungs -->
-<line x1="-25" y1="-50" x2="25" y2="-50" stroke="#9C27B0" stroke-width="1.5"/>
-<path d="M-50,-25 Q-25,-10 0,-25 Q25,-40 50,-25" stroke="#1565C0" stroke-width="2.5" fill="none"/>
-<path d="M-50,-25 Q-25,-40 0,-25 Q25,-10 50,-25" stroke="#C62828" stroke-width="2.5" fill="none"/>
-<line x1="-25" y1="-25" x2="25" y2="-25" stroke="#9C27B0" stroke-width="1.5"/>
-<path d="M-50,0 Q-25,15 0,0 Q25,-15 50,0" stroke="#1565C0" stroke-width="2.5" fill="none"/>
-<path d="M-50,0 Q-25,-15 0,0 Q25,15 50,0" stroke="#C62828" stroke-width="2.5" fill="none"/>
-<line x1="-25" y1="0" x2="25" y2="0" stroke="#FF9800" stroke-width="1.5"/>
-<path d="M-50,25 Q-25,40 0,25 Q25,10 50,25" stroke="#1565C0" stroke-width="2.5" fill="none"/>
-<path d="M-50,25 Q-25,10 0,25 Q25,40 50,25" stroke="#C62828" stroke-width="2.5" fill="none"/>
-<line x1="-25" y1="25" x2="25" y2="25" stroke="#9C27B0" stroke-width="1.5"/>
-<!-- Legend -->
-<text x="0" y="50" font-family="Arial,sans-serif" font-size="5" fill="#1565C0" text-anchor="middle">A=T (2 вод. связи)</text>
-<text x="0" y="60" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">G-C (3 вод. связи)</text>
-</g>
-<g transform="translate(390,165)">
-<rect x="-60" y="-55" width="120" height="110" rx="5" fill="white" stroke="#9C27B0" stroke-width="1.5"/>
-<text x="0" y="-40" font-family="Arial,sans-serif" font-size="8" fill="#9C27B0" text-anchor="middle" font-weight="bold">РНК — одноцепочечная</text>
-<line x1="-45" y1="-33" x2="45" y2="-33" stroke="#9C27B0" stroke-width="0.5"/>
-<text x="0" y="-18" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">и-РНК: матрица</text>
-<text x="0" y="-5" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">т-РНК: транспорт</text>
-<text x="0" y="8" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">р-РНК: рибосома</text>
-<line x1="-45" y1="15" x2="45" y2="15" stroke="#9C27B0" stroke-width="0.5"/>
-<text x="0" y="28" font-family="Arial,sans-serif" font-size="5" fill="#9C27B0" text-anchor="middle">Рибоза (не дезоксирибоза)</text>
-<text x="0" y="40" font-family="Arial,sans-serif" font-size="5" fill="#9C27B0" text-anchor="middle">U (не T)</text>
-</g>
-
-<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
-<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 10 класс</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый узор -->
+  <defs>
+    <pattern id="bgPattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#e8f4f8" opacity="0.5"/>
+    </pattern>
+    
+    <!-- Градиент для белка -->
+    <linearGradient id="proteinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#7b68ee;stop-opacity:0.6"/>
+    </linearGradient>
+    
+    <!-- Тень -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f0f8ff"/>
+  <rect width="500" height="350" fill="url(#bgPattern)"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    БИОЛОГИЯ · 10 КЛАСС
+  </text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#34495e">
+    Урок 8: Белки: состав и строение
+  </text>
+  
+  <!-- Атом азота N -->
+  <g transform="translate(100, 120)">
+    <circle r="15" fill="#3498db" filter="url(#shadow)"/>
+    <text x="0" y="5" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">N</text>
+  </g>
+  
+  <!-- Атом углерода C -->
+  <g transform="translate(170, 120)">
+    <circle r="15" fill="#2ecc71" filter="url(#shadow)"/>
+    <text x="0" y="5" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">C</text>
+  </g>
+  
+  <!-- Атом водорода H -->
+  <g transform="translate(240, 120)">
+    <circle r="12" fill="#e74c3c" filter="url(#shadow)"/>
+    <text x="0" y="4" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">H</text>
+  </g>
+  
+  <!-- Атом кислорода O -->
+  <g transform="translate(310, 120)">
+    <circle r="15" fill="#f39c12" filter="url(#shadow)"/>
+    <text x="0" y="5" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">O</text>
+  </g>
+  
+  <!-- Связи между атомами -->
+  <line x1="115" y1="120" x2="155" y2="120" stroke="#7f8c8d" stroke-width="3"/>
+  <line x1="185" y1="120" x2="228" y2="120" stroke="#7f8c8d" stroke-width="3"/>
+  <line x1="252" y1="120" x2="295" y2="120" stroke="#7f8c8d" stroke-width="3"/>
+  
+  <!-- Пептидная связь -->
+  <g transform="translate(350, 120)">
+    <rect x="-20" y="-8" width="40" height="16" rx="8" fill="#9b59b6" filter="url(#shadow)"/>
+    <text x="0" y="4" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">C=O</text>
+  </g>
+  
+  <!-- Аминокислота 1 -->
+  <g transform="translate(100, 180)">
+    <path d="M 0 0 L -30 -20 L -30 20 Z" fill="#ecf0f1" stroke="#34495e" stroke-width="2"/>
+    <text x="-15" y="5" font-family="Arial" font-size="10" text-anchor="middle" fill="#2c3e50">NH₂</text>
+  </g>
+  
+  <!-- Аминокислота 2 -->
+  <g transform="translate(200, 180)">
+    <path d="M 0 0 L -30 -20 L -30 20 Z" fill="#ecf0f1" stroke="#34495e" stroke-width="2"/>
+    <text x="-15" y="5" font-family="Arial" font-size="10" text-anchor="middle" fill="#2c3e50">COOH</text>
+  </g>
+  
+  <!-- Аминокислота 3 -->
+  <g transform="translate(300, 180)">
+    <path d="M 0 0 L -30 -20 L -30 20 Z" fill="#ecf0f1" stroke="#34495e" stroke-width="2"/>
+    <text x="-15" y="5" font-family="Arial" font-size="10" text-anchor="middle" fill="#2c3e50">R</text>
+  </g>
+  
+  <!-- Связи между аминокислотами -->
+  <line x1="130" y1="180" x2="170" y2="180" stroke="#7f8c8d" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="230" y1="180" x2="270" y2="180" stroke="#7f8c8d" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Первичная структура -->
+  <g transform="translate(100, 230)">
+    <text x="0" y="0" font-family="Arial" font-size="14" font-weight="bold" fill="#2c3e50">1° Структура:</text>
+    <rect x="0" y="10" width="300" height="8" rx="4" fill="#95a5a6"/>
+    <circle cx="30" cy="14" r="6" fill="#3498db"/>
+    <circle cx="80" cy="14" r="6" fill="#2ecc71"/>
+    <circle cx="130" cy="14" r="6" fill="#e74c3c"/>
+    <circle cx="180" cy="14" r="6" fill="#f39c12"/>
+    <circle cx="230" cy="14" r="6" fill="#9b59b6"/>
+    <circle cx="280" cy="14" r="6" fill="#1abc9c"/>
+  </g>
+  
+  <!-- Вторичная структура (альфа-спираль) -->
+  <g transform="translate(100, 270)">
+    <text x="0" y="0" font-family="Arial" font-size="14" font-weight="bold" fill="#2c3e50">2° Структура:</text>
+    <path d="M 20 15 Q 30 5, 40 15 T 60 15 Q 70 5, 80 15 T 100 15 Q 110 5, 120 15 T 140 15 Q 150 5, 160 15 T 180 15 Q 190 5, 200 15 T 220 15 Q 230 5, 240 15 T 260 15 Q 270 5, 280 15 T 300 15" 
+          stroke="url(#proteinGrad)" stroke-width="8" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Третичная структура -->
+  <g transform="translate(350, 230)">
+    <text x="0" y="0" font-family="Arial" font-size="14" font-weight="bold" fill="#2c3e50">3° Структура:</text>
+    <ellipse cx="50" cy="35" rx="35" ry="25" fill="url(#proteinGrad)" opacity="0.7" filter="url(#shadow)"/>
+    <path d="M 30 30 Q 40 20, 50 30 T 70 30" stroke="white" stroke-width="2" fill="none"/>
+    <path d="M 25 40 Q 35 50, 45 40 T 65 40" stroke="white" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Квадраты с аминокислотами -->
+  <g transform="translate(50, 80)">
+    <rect x="0" y="0" width="25" height="25" fill="#3498db" opacity="0.8"/>
+    <rect x="30" y="0" width="25" height="25" fill="#2ecc71" opacity="0.8"/>
+    <rect x="60" y="0" width="25" height="25" fill="#e74c3c" opacity="0.8"/>
+    <rect x="90" y="0" width="25" height="25" fill="#f39c12" opacity="0.8"/>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <circle cx="420" cy="80" r="8" fill="#9b59b6" opacity="0.6"/>
+  <circle cx="440" cy="90" r="6" fill="#1abc9c" opacity="0.6"/>
+  <circle cx="460" cy="85" r="7" fill="#e67e22" opacity="0.6"/>
+  
+  <!-- Мозайка из маленьких кругов -->
+  <g transform="translate(380, 250)">
+    <circle cx="0" cy="0" r="3" fill="#3498db"/>
+    <circle cx="8" cy="0" r="3" fill="#2ecc71"/>
+    <circle cx="16" cy="0" r="3" fill="#e74c3c"/>
+    <circle cx="0" cy="8" r="3" fill="#f39c12"/>
+    <circle cx="8" cy="8" r="3" fill="#9b59b6"/>
+    <circle cx="16" cy="8" r="3" fill="#1abc9c"/>
+    <circle cx="0" cy="16" r="3" fill="#34495e"/>
+    <circle cx="8" cy="16" r="3" fill="#e74c3c"/>
+    <circle cx="16" cy="16" r="3" fill="#2ecc71"/>
+  </g>
+  
+  <!-- Декоративные линии -->
+  <line x1="50" y1="70" x2="350" y2="70" stroke="#bdc3c7" stroke-width="1" opacity="0.5"/>
+  <line x1="50" y1="310" x2="350" y2="310" stroke="#bdc3c7" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Формулы аминокислот -->
+  <text x="420" y="140" font-family="Arial" font-size="12" fill="#7f8c8d">C₆H₁₄N₂O₂</text>
+  <text x="420" y="160" font-family="Arial" font-size="12" fill="#7f8c8d">C₅H₁₁NO₂</text>
+  <text x="420" y="180" font-family="Arial" font-size="12" fill="#7f8c8d">C₄H₉NO₂</text>
+  
+  <!-- Легенда -->
+  <g transform="translate(50, 320)">
+    <text x="0" y="0" font-family="Arial" font-size="10" fill="#7f8c8d">N - Азот | C - Углерод | H - Водород | O - Кислород</text>
+  </g>
 </svg>
