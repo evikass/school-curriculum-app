@@ -1,105 +1,173 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient>
-  <linearGradient id="enzGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#66BB6A"/><stop offset="100%" stop-color="#388E3C"/></linearGradient>
-</defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
-<!-- Title bar -->
-<rect x="3" y="3" width="494" height="38" rx="8" fill="#2E7D32"/>
-<rect x="3" y="30" width="494" height="11" fill="#2E7D32"/>
-<text x="250" y="28" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">Ферменты: свойства и механизм действия</text>
-<text x="250" y="50" font-family="Arial,sans-serif" font-size="10" fill="#1B5E20" text-anchor="middle">Биология 10 класс — Урок 22</text>
-
-<!-- LEFT: Enzyme specificity (lock and key) -->
-<text x="125" y="70" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#2E7D32" text-anchor="middle">Специфичность фермента</text>
-
-<!-- Enzyme shape -->
-<path d="M70,95 Q60,95 55,105 Q50,120 60,130 Q70,135 85,130 Q95,125 95,110 Q95,95 80,95 Z" fill="url(#enzGrad)" stroke="#1B5E20" stroke-width="2"/>
-<!-- Active site (indent) -->
-<path d="M68,105 Q75,115 82,105" fill="#C8E6C9" stroke="#1B5E20" stroke-width="1.5"/>
-<text x="75" y="125" font-family="Arial,sans-serif" font-size="7" fill="#fff" text-anchor="middle">Фермент</text>
-
-<!-- Matching substrate (triangle) -->
-<polygon points="35,100 50,118 20,118" fill="#FFB74D" stroke="#E65100" stroke-width="1.5"/>
-<text x="35" y="115" font-family="Arial,sans-serif" font-size="6" fill="#BF360C" text-anchor="middle">S₁</text>
-<!-- Check mark -->
-<text x="55" y="108" font-family="Arial,sans-serif" font-size="12" fill="#2E7D32">✓</text>
-
-<!-- Non-matching substrates -->
-<rect x="100" y="100" width="14" height="14" rx="2" fill="#EF9A9A" stroke="#C62828" stroke-width="1"/>
-<text x="107" y="111" font-family="Arial,sans-serif" font-size="6" fill="#B71C1C" text-anchor="middle">S₂</text>
-<text x="107" y="98" font-family="Arial,sans-serif" font-size="10" fill="#C62828">✗</text>
-
-<circle cx="118" cy="115" r="7" fill="#CE93D8" stroke="#6A1B9A" stroke-width="1"/>
-<text x="118" y="118" font-family="Arial,sans-serif" font-size="6" fill="#4A148C" text-anchor="middle">S₃</text>
-<text x="130" y="113" font-family="Arial,sans-serif" font-size="10" fill="#C62828">✗</text>
-
-<!-- Lock-and-key model -->
-<text x="75" y="148" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">Модель «ключ-замок»</text>
-
-<!-- Enzyme-substrate complex -->
-<path d="M55,165 Q50,165 48,175 Q45,188 55,195 Q65,200 78,195 Q88,188 85,175 Q83,165 73,165 Z" fill="url(#enzGrad)" stroke="#1B5E20" stroke-width="1.5"/>
-<path d="M58,175 Q67,183 76,175" fill="#FFB74D" stroke="#E65100" stroke-width="1"/>
-<polygon points="65,168 73,182 57,182" fill="#FFB74D" stroke="#E65100" stroke-width="1"/>
-<text x="67" y="178" font-family="Arial,sans-serif" font-size="6" fill="#BF360C" text-anchor="middle">S</text>
-<text x="67" y="206" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle">Комплекс ЕС</text>
-
-<!-- Arrow down to products -->
-<line x1="67" y1="210" x2="67" y2="225" stroke="#2E7D32" stroke-width="1.5" marker-end="url(#arrowG2)"/>
-<defs><marker id="arrowG2" markerWidth="6" markerHeight="5" refX="6" refY="2.5" orient="auto"><path d="M0,0 L6,2.5 L0,5 Z" fill="#2E7D32"/></marker></defs>
-
-<!-- Products -->
-<circle cx="55" cy="238" r="8" fill="#4FC3F7" stroke="#0277BD" stroke-width="1"/>
-<text x="55" y="241" font-family="Arial,sans-serif" font-size="6" fill="#01579B" text-anchor="middle">P₁</text>
-<circle cx="80" cy="238" r="8" fill="#4FC3F7" stroke="#0277BD" stroke-width="1"/>
-<text x="80" y="241" font-family="Arial,sans-serif" font-size="6" fill="#01579B" text-anchor="middle">P₂</text>
-<text x="67" y="258" font-family="Arial,sans-serif" font-size="8" fill="#1B5E20" text-anchor="middle">Продукты</text>
-
-<!-- RIGHT: Energy graph -->
-<text x="340" y="70" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#2E7D32" text-anchor="middle">Энергетический профиль реакции</text>
-
-<!-- Graph axes -->
-<line x1="210" y1="85" x2="210" y2="230" stroke="#37474F" stroke-width="1.5"/>
-<line x1="210" y1="230" x2="470" y2="230" stroke="#37474F" stroke-width="1.5"/>
-<text x="205" y="90" font-family="Arial,sans-serif" font-size="8" fill="#37474F" text-anchor="end">E</text>
-<text x="470" y="242" font-family="Arial,sans-serif" font-size="8" fill="#37474F" text-anchor="end">Ход реакции</text>
-
-<!-- Without enzyme - high hill -->
-<path d="M225,210 Q260,210 280,100 Q300,80 320,100 Q340,210 370,215" stroke="#E53935" stroke-width="2.5" fill="none"/>
-<text x="300" y="93" font-family="Arial,sans-serif" font-size="8" fill="#C62828" text-anchor="middle">Без фермента</text>
-<!-- Activation energy label (no enzyme) -->
-<line x1="290" y1="100" x2="290" y2="210" stroke="#E53935" stroke-width="1" stroke-dasharray="3,2"/>
-<text x="287" y="160" font-family="Arial,sans-serif" font-size="7" fill="#C62828" text-anchor="end">Ea₁</text>
-<!-- Arrow for Ea -->
-<line x1="283" y1="105" x2="283" y2="205" stroke="#E53935" stroke-width="1" marker-end="url(#arrR)"/>
-<defs><marker id="arrR" markerWidth="5" markerHeight="4" refX="5" refY="2" orient="auto"><path d="M0,0 L5,2 L0,4 Z" fill="#E53935"/></marker></defs>
-
-<!-- With enzyme - lower hill -->
-<path d="M225,210 Q255,210 275,165 Q295,145 315,165 Q335,210 370,215" stroke="#2E7D32" stroke-width="2.5" fill="none"/>
-<text x="310" y="142" font-family="Arial,sans-serif" font-size="8" fill="#2E7D32" text-anchor="middle">С ферментом</text>
-<!-- Activation energy label (with enzyme) -->
-<line x1="268" y1="155" x2="268" y2="210" stroke="#2E7D32" stroke-width="1" stroke-dasharray="3,2"/>
-<text x="265" y="185" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="end">Ea₂</text>
-
-<!-- Reactant and product levels -->
-<text x="222" y="218" font-family="Arial,sans-serif" font-size="7" fill="#37474F">Субстрат</text>
-<text x="360" y="222" font-family="Arial,sans-serif" font-size="7" fill="#37474F">Продукт</text>
-
-<!-- BOTTOM: Factors affecting enzyme activity -->
-<text x="250" y="272" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#2E7D32" text-anchor="middle">Факторы, влияющие на активность фермента</text>
-
-<!-- Temperature curve -->
-<rect x="20" y="280" width="225" height="60" rx="6" fill="#fff" stroke="#4CAF50" stroke-width="1" opacity="0.7"/>
-<text x="132" y="293" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#2E7D32" text-anchor="middle">Температура</text>
-<path d="M35,330 Q70,330 100,298 Q115,290 130,298 Q160,330 230,335" stroke="#E53935" stroke-width="2" fill="none"/>
-<text x="130" y="286" font-family="Arial,sans-serif" font-size="7" fill="#E53935" text-anchor="middle">Оптимум ~37°C</text>
-<line x1="115" y1="288" x2="115" y2="296" stroke="#E53935" stroke-width="0.8" stroke-dasharray="2,1"/>
-
-<!-- pH curve -->
-<rect x="255" y="280" width="225" height="60" rx="6" fill="#fff" stroke="#4CAF50" stroke-width="1" opacity="0.7"/>
-<text x="367" y="293" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#2E7D32" text-anchor="middle">pH среды</text>
-<path d="M270,332 Q300,332 330,298 Q350,290 370,298 Q400,332 465,334" stroke="#1565C0" stroke-width="2" fill="none"/>
-<text x="350" y="286" font-family="Arial,sans-serif" font-size="7" fill="#1565C0" text-anchor="middle">Оптимум pH 7</text>
-<line x1="350" y1="288" x2="350" y2="296" stroke="#1565C0" stroke-width="0.8" stroke-dasharray="2,1"/>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="500" height="350" fill="#f0f4f8"/>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="50" cy="50" r="30" fill="#e3f2fd" opacity="0.5"/>
+  <circle cx="450" cy="300" r="40" fill="#f3e5f5" opacity="0.5"/>
+  <circle cx="150" cy="320" r="25" fill="#e8f5e9" opacity="0.5"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1565c0">
+    БИОЛОГИЯ · 10 КЛАСС
+  </text>
+  
+  <!-- Номер урока -->
+  <rect x="20" y="20" width="80" height="30" rx="15" fill="#42a5f5"/>
+  <text x="60" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    Урок 22
+  </text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#37474f">
+    Ферменты: свойства и механизм действия
+  </text>
+  
+  <!-- Свойства ферментов -->
+  <g transform="translate(40, 100)">
+    <!-- Заголовок раздела -->
+    <rect x="0" y="0" width="200" height="30" rx="5" fill="#4caf50"/>
+    <text x="100" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">
+      Свойства ферментов
+    </text>
+    
+    <!-- Свойство 1 -->
+    <circle cx="20" cy="50" r="5" fill="#66bb6a"/>
+    <text x="35" y="55" font-family="Arial, sans-serif" font-size="14" fill="#424242">
+      Высокая каталитическая активность
+    </text>
+    
+    <!-- Свойство 2 -->
+    <circle cx="20" cy="75" r="5" fill="#66bb6a"/>
+    <text x="35" y="80" font-family="Arial, sans-serif" font-size="14" fill="#424242">
+      Специфичность действия
+    </text>
+    
+    <!-- Свойство 3 -->
+    <circle cx="20" cy="100" r="5" fill="#66bb6a"/>
+    <text x="35" y="105" font-family="Arial, sans-serif" font-size="14" fill="#424242">
+      Неизменяемость в реакциях
+    </text>
+    
+    <!-- Свойство 4 -->
+    <circle cx="20" cy="125" r="5" fill="#66bb6a"/>
+    <text x="35" y="130" font-family="Arial, sans-serif" font-size="14" fill="#424242">
+      Белковая природа
+    </text>
+    
+    <!-- Свойство 5 -->
+    <circle cx="20" cy="150" r="5" fill="#66bb6a"/>
+    <text x="35" y="155" font-family="Arial, sans-serif" font-size="14" fill="#424242">
+      Действие в узких условиях
+    </text>
+  </g>
+  
+  <!-- Механизм действия -->
+  <g transform="translate(260, 100)">
+    <!-- Заголовок раздела -->
+    <rect x="0" y="0" width="200" height="30" rx="5" fill="#ff7043"/>
+    <text x="100" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">
+      Механизм действия
+    </text>
+    
+    <!-- Шаг 1 -->
+    <rect x="0" y="40" width="180" height="25" rx="3" fill="#ffebee"/>
+    <text x="90" y="57" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#c62828">
+      1. Связывание с субстратом
+    </text>
+    
+    <!-- Шаг 2 -->
+    <rect x="0" y="70" width="180" height="25" rx="3" fill="#fff3e0"/>
+    <text x="90" y="87" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#ef6c00">
+      2. Образование фермент-субстратного комплекса
+    </text>
+    
+    <!-- Шаг 3 -->
+    <rect x="0" y="100" width="180" height="25" rx="3" fill="#f3e5f5"/>
+    <text x="90" y="117" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#7b1fa2">
+      3. Каталитическое превращение
+    </text>
+    
+    <!-- Шаг 4 -->
+    <rect x="0" y="130" width="180" height="25" rx="3" fill="#e8f5e9"/>
+    <text x="90" y="147" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#2e7d32">
+      4. Отделение продуктов
+    </text>
+  </g>
+  
+  <!-- Визуализация активного центра -->
+  <g transform="translate(150, 280)">
+    <!-- Фермент -->
+    <ellipse cx="0" cy="0" rx="60" ry="40" fill="#81c784" opacity="0.7"/>
+    <ellipse cx="0" cy="0" rx="60" ry="40" fill="none" stroke="#4caf50" stroke-width="2"/>
+    
+    <!-- Активный центр -->
+    <ellipse cx="0" cy="0" rx="20" ry="15" fill="#ffd54f" opacity="0.8"/>
+    
+    <!-- Субстрат -->
+    <rect x="-70" y="-10" width="25" height="20" rx="5" fill="#ff8a65"/>
+    <text x="-57.5" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">S</text>
+    
+    <!-- Стрелка -->
+    <path d="M -45 0 L -25 0" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Продукты -->
+    <rect x="45" y="-15" width="20" height="15" rx="3" fill="#64b5f6"/>
+    <text x="55" y="-5" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">P1</text>
+    
+    <rect x="45" y="5" width="20" height="15" rx="3" fill="#ba68c8"/>
+    <text x="55" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">P2</text>
+    
+    <!-- Стрелка к продуктам -->
+    <path d="M 20 -5 L 42.5 -7.5" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M 20 5 L 42.5 12.5" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Метки -->
+  <text x="150" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">
+    Фермент
+  </text>
+  
+  <!-- Факторы влияния -->
+  <g transform="translate(350, 270)">
+    <rect x="0" y="0" width="120" height="60" rx="5" fill="#e1f5fe" stroke="#29b6f6" stroke-width="1"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0277bd">
+      Факторы
+    </text>
+    <text x="60" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#0277bd">
+      Температура
+    </text>
+    <text x="60" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#0277bd">
+      pH среды
+    </text>
+  </g>
+  
+  <!-- Стрелка определение -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- Дополнительные элементы -->
+  <g transform="translate(30, 200)">
+    <circle cx="0" cy="0" r="3" fill="#e91e63"/>
+    <circle cx="10" cy="0" r="3" fill="#9c27b0"/>
+    <circle cx="20" cy="0" r="3" fill="#3f51b5"/>
+    <circle cx="30" cy="0" r="3" fill="#00bcd4"/>
+    <circle cx="40" cy="0" r="3" fill="#4caf50"/>
+    <circle cx="50" cy="0" r="3" fill="#ff9800"/>
+    <circle cx="60" cy="0" r="3" fill="#f44336"/>
+  </g>
+  
+  <!-- Температурный график -->
+  <g transform="translate(250, 180)">
+    <rect x="0" y="0" width="200" height="50" fill="none" stroke="#bdbdbd" stroke-width="1"/>
+    <path d="M 10 40 Q 50 20, 100 15 T 190 30" fill="none" stroke="#ff5722" stroke-width="2"/>
+    <text x="100" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">
+      Оптимальная температура
+    </text>
+    <line x1="10" y1="10" x2="10" y2="40" stroke="#757575" stroke-width="1"/>
+    <line x1="10" y1="40" x2="190" y2="40" stroke="#757575" stroke-width="1"/>
+  </g>
 </svg>
