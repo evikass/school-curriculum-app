@@ -1,0 +1,191 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#E8F4FD"/>
+      <stop offset="100%" style="stop-color:#C3E9FB"/>
+    </radialGradient>
+    
+    <linearGradient id="oceanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:0.7"/>
+      <stop offset="100%" style="stop-color:#2E5C8A;stop-opacity:0.8"/>
+    </linearGradient>
+    
+    <linearGradient id="landGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8BC34A;stop-opacity:0.9"/>
+      <stop offset="50%" style="stop-color:#689F38;stop-opacity:0.95"/>
+      <stop offset="100%" style="stop-color:#558B2F;stop-opacity:1"/>
+    </linearGradient>
+    
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  
+  <!-- Слой атмосферы -->
+  <ellipse cx="250" cy="175" rx="240" ry="160" fill="#87CEEB" opacity="0.3"/>
+  
+  <!-- Континент 1 - Северная Америка -->
+  <path d="M80 120 Q120 100 150 110 L170 130 Q180 150 160 180 L140 200 L120 190 L100 170 L85 150 Z" 
+        fill="url(#landGrad)" filter="url(#shadow)"/>
+  
+  <!-- Континент 2 - Евразия -->
+  <path d="M280 110 Q320 105 360 115 L380 130 Q390 150 385 170 L370 190 L350 200 L320 195 L300 180 L285 160 L275 140 Z" 
+        fill="url(#landGrad)" filter="url(#shadow)"/>
+  
+  <!-- Континент 3 - Африка -->
+  <path d="M250 140 Q270 135 285 145 L290 170 Q285 190 270 210 L250 220 L235 210 L230 190 L235 170 L240 150 Z" 
+        fill="url(#landGrad)" filter="url(#shadow)"/>
+  
+  <!-- Континент 4 - Южная Америка -->
+  <path d="M160 220 Q175 215 185 225 L190 250 L185 280 L170 300 L150 295 L140 270 L145 250 L150 230 Z" 
+        fill="url(#landGrad)" filter="url(#shadow)"/>
+  
+  <!-- Океан -->
+  <ellipse cx="250" cy="175" rx="240" ry="160" fill="url(#oceanGrad)"/>
+  
+  <!-- Дерево на континенте -->
+  <g transform="translate(130, 140)">
+    <rect x="-3" y="10" width="6" height="15" fill="#5D4037"/>
+    <circle cx="0" cy="5" r="12" fill="#388E3C"/>
+    <circle cx="-5" cy="8" r="8" fill="#43A047"/>
+    <circle cx="5" cy="8" r="8" fill="#43A047"/>
+  </g>
+  
+  <!-- Животное 1 - Птица -->
+  <g transform="translate(200, 130)">
+    <ellipse cx="0" cy="0" rx="8" ry="4" fill="#FF5722"/>
+    <circle cx="-5" cy="-1" r="2" fill="#333"/>
+    <path d="M-3 0 Q-8 -3 -10 -1" fill="none" stroke="#FF5722" stroke-width="2"/>
+    <path d="M3 0 Q8 -3 10 -1" fill="none" stroke="#FF5722" stroke-width="2"/>
+  </g>
+  
+  <!-- Животное 2 - Рыба -->
+  <g transform="translate(180, 200)">
+    <ellipse cx="0" cy="0" rx="12" ry="6" fill="#FF9800"/>
+    <path d="M10 0 L15 -5 L15 5 Z" fill="#FF9800"/>
+    <circle cx="-6" cy="-1" r="2" fill="#333"/>
+    <path d="M-2 -2 Q2 -3 4 -1" fill="none" stroke="#E65100" stroke-width="1"/>
+  </g>
+  
+  <!-- Солнце -->
+  <circle cx="420" cy="60" r="25" fill="#FFD700" opacity="0.8"/>
+  <g stroke="#FFD700" stroke-width="3" opacity="0.6">
+    <line x1="420" y1="20" x2="420" y2="30"/>
+    <line x1="420" y1="90" x2="420" y2="100"/>
+    <line x1="380" y1="60" x2="390" y2="60"/>
+    <line x1="460" y1="60" x2="470" y2="60"/>
+    <line x1="395" y1="35" x2="403" y2="43"/>
+    <line x1="437" y1="77" x2="445" y2="85"/>
+    <line x1="395" y1="85" x2="403" y2="77"/>
+    <line x1="437" y1="43" x2="445" y2="35"/>
+  </g>
+  
+  <!-- Облака -->
+  <g fill="white" opacity="0.8">
+    <ellipse cx="100" cy="80" rx="20" ry="12"/>
+    <ellipse cx="115" cy="80" rx="25" ry="15"/>
+    <ellipse cx="130" cy="80" rx="20" ry="12"/>
+  </g>
+  
+  <g fill="white" opacity="0.7">
+    <ellipse cx="350" cy="100" rx="18" ry="10"/>
+    <ellipse cx="365" cy="100" rx="22" ry="13"/>
+    <ellipse cx="380" cy="100" rx="18" ry="10"/>
+  </g>
+  
+  <!-- Легенда Биосферы -->
+  <g transform="translate(30, 300)">
+    <rect x="0" y="0" width="440" height="40" fill="white" opacity="0.9" rx="5"/>
+    <text x="10" y="25" font-family="Arial, sans-serif" font-size="14" fill="#333">
+      <tspan font-weight="bold">Биосфера:</tspan> совокупность всех живых организмов и их сред обитания
+    </text>
+  </g>
+  
+  <!-- Атмосфера слои -->
+  <g stroke="#4FC3F7" stroke-width="1" fill="none" opacity="0.5">
+    <ellipse cx="250" cy="175" rx="230" ry="150"/>
+    <ellipse cx="250" cy="175" rx="220" ry="145"/>
+    <ellipse cx="250" cy="175" rx="210" ry="140"/>
+  </g>
+  
+  <!-- Гидросфера волны -->
+  <path d="M50 220 Q100 215 150 220 T250 220 Q300 215 350 220 T450 220" 
+        stroke="#2196F3" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M60 230 Q110 225 160 230 T260 230 Q310 225 360 230 T440 230" 
+        stroke="#2196F3" stroke-width="2" fill="none" opacity="0.5"/>
+  
+  <!-- Литосфера -->
+  <rect x="0" y="280" width="500" height="70" fill="#8D6E63" opacity="0.3"/>
+  
+  <!-- Организмы микроскопические -->
+  <g transform="translate(300, 180)">
+    <circle cx="0" cy="0" r="3" fill="#E91E63" opacity="0.7"/>
+    <circle cx="8" cy="2" r="2" fill="#9C27B0" opacity="0.7"/>
+    <circle cx="-5" cy="3" r="2" fill="#E91E63" opacity="0.7"/>
+  </g>
+  
+  <!-- Вектор энергии -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#FF5722"/>
+    </marker>
+  </defs>
+  
+  <line x1="420" y1="85" x2="300" y2="170" stroke="#FF5722" stroke-width="2" 
+        marker-end="url(#arrowhead)" opacity="0.6"/>
+  
+  <!-- Текст заголовка -->
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="24" 
+        font-weight="bold" text-anchor="middle" fill="#1976D2">
+    БИОСФЕРА
+  </text>
+  
+  <!-- Текст урока -->
+  <text x="250" y="50" font-family="Arial, sans-serif" font-size="16" 
+        text-anchor="middle" fill="#666">
+    Урок 60: Глобальная экосистема
+  </text>
+  
+  <!-- Дополнительные элементы для сложности -->
+  <g transform="translate(150, 250)">
+    <rect x="0" y="0" width="30" height="20" fill="#795548" rx="2"/>
+    <polygon points="15,0 25,-10 35,0" fill="#6D4C41"/>
+    <rect x="10" y="5" width="3" height="8" fill="#4CAF50"/>
+    <rect x="17" y="5" width="3" height="10" fill="#4CAF50"/>
+  </g>
+  
+  <!-- Дополнительные организмы -->
+  <g transform="translate(380, 190)">
+    <ellipse cx="0" cy="0" rx="8" ry="4" fill="#4CAF50"/>
+    <circle cx="-2" cy="-1" r="1" fill="#333"/>
+    <path d="M-4 0 Q-6 -2 -8 -1" stroke="#4CAF50" stroke-width="1"/>
+  </g>
+  
+  <!-- Сеть взаимосвязей -->
+  <g stroke="#FF9800" stroke-width="1" fill="none" opacity="0.4">
+    <line x1="130" y1="140" x2="200" y2="130"/>
+    <line x1="200" y1="130" x2="180" y2="200"/>
+    <line x1="180" y1="200" x2="300" y2="180"/>
+    <line x1="130" y1="140" x2="300" y2="180"/>
+  </g>
+  
+  <!-- Маркеры биосферы -->
+  <g fill="#2E7D32" opacity="0.8">
+    <circle cx="120" cy="150" r="2"/>
+    <circle cx="190" cy="180" r="2"/>
+    <circle cx="320" cy="170" r="2"/>
+    <circle cx="260" cy="190" r="2"/>
+    <circle cx="150" cy="200" r="2"/>
+  </g>
+  
+  <!-- Заголовок курса -->
+  <text x="250" y="330" font-family="Arial, sans-serif" font-size="18" 
+        font-weight="bold" text-anchor="middle" fill="#1565C0">
+    БИОЛОГИЯ · 10 КЛАСС
+  </text>
+</svg>
