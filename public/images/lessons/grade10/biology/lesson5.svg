@@ -1,39 +1,159 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
-<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Химический состав клетки</text>
-<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 10 класс — Урок 5</text>
-<line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
-
-<g transform="translate(250,175)">
-<!-- Pie chart representation -->
-<circle cx="0" cy="0" r="60" fill="#E8F5E9" stroke="#2E7D32" stroke-width="2"/>
-<path d="M0,0 L0,-60 A60,60 0 0,1 51,-30 Z" fill="#42A5F5" opacity="0.5" stroke="#1565C0" stroke-width="1"/>
-<path d="M0,0 L51,-30 A60,60 0 0,1 51,30 Z" fill="#E53935" opacity="0.4" stroke="#C62828" stroke-width="1"/>
-<path d="M0,0 L51,30 A60,60 0 0,1 -30,51 Z" fill="#FF9800" opacity="0.4" stroke="#E65100" stroke-width="1"/>
-<path d="M0,0 L-30,51 A60,60 0 0,1 -60,0 Z" fill="#9C27B0" opacity="0.3" stroke="#7B1FA2" stroke-width="1"/>
-<path d="M0,0 L-60,0 A60,60 0 0,1 0,-60 Z" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1"/>
-<text x="15" y="-30" font-family="Arial,sans-serif" font-size="5" fill="#1565C0" text-anchor="middle">O 65-70%</text>
-<text x="30" y="10" font-family="Arial,sans-serif" font-size="5" fill="#C62828" text-anchor="middle">C 15-18%</text>
-<text x="10" y="35" font-family="Arial,sans-serif" font-size="5" fill="#E65100" text-anchor="middle">H 8-10%</text>
-<text x="-35" y="25" font-family="Arial,sans-serif" font-size="5" fill="#7B1FA2" text-anchor="middle">N 1.5-3%</text>
-<text x="-30" y="-25" font-family="Arial,sans-serif" font-size="5" fill="#2E7D32" text-anchor="middle">Прочие</text>
-</g>
-<g transform="translate(420,120)">
-<rect x="-50" y="-40" width="100" height="80" rx="5" fill="white" stroke="#2E7D32" stroke-width="1.2"/>
-<text x="0" y="-25" font-family="Arial,sans-serif" font-size="7" fill="#2E7D32" text-anchor="middle" font-weight="bold">Макроэлементы</text>
-<line x1="-35" y1="-18" x2="35" y2="-18" stroke="#2E7D32" stroke-width="0.5"/>
-<text x="0" y="-5" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">O, C, H, N</text>
-<text x="0" y="8" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">P, S, K, Ca</text>
-<text x="0" y="21" font-family="Arial,sans-serif" font-size="6" fill="#555" text-anchor="middle">Na, Cl, Mg, Fe</text>
-<text x="0" y="33" font-family="Arial,sans-serif" font-size="5" fill="#888" text-anchor="middle">98% массы клетки</text>
-</g>
-<rect x="30" y="270" width="440" height="35" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
-<text x="250" y="284" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Макроэлементы: O, C, H, N — основа органических веществ</text>
-<text x="250" y="295" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Микроэлементы: I, Zn, Cu, F, Mn, Co — катализаторы, гормоны</text>
-<text x="250" y="306" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Вода: 70-80% массы клетки | Универсальный растворитель, среда реакций</text>
-
-<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
-<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 10 класс</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c9;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Тень -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+    
+    <!-- Свечение -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bg)"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2e7d32">
+    БИОЛОГИЯ · 10 КЛАСС
+  </text>
+  
+  <!-- Номер урока -->
+  <text x="250" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#388e3c">
+    Урок 5: Минеральные соли и их биологическая роль
+  </text>
+  
+  <!-- Основная рамка -->
+  <rect x="30" y="70" width="440" height="260" rx="10" fill="white" stroke="#4caf50" stroke-width="2" filter="url(#shadow)"/>
+  
+  <!-- Категории минеральных солей -->
+  <text x="60" y="100" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1b5e20">
+    Категории минеральных солей:
+  </text>
+  
+  <!-- Макроэлементы -->
+  <g transform="translate(60, 120)">
+    <rect x="0" y="0" width="120" height="80" rx="5" fill="#81c784" opacity="0.8"/>
+    <text x="60" y="25" text-anchor="middle" font-size="14" font-weight="bold" fill="#1b5e20">МАКРОЭЛЕМЕНТЫ</text>
+    <text x="10" y="45" font-size="11" fill="#2e7d32">N, P, K, Ca, Mg, S</text>
+    <text x="10" y="62" font-size="10" fill="#388e3c">0.1-1% от массы</text>
+  </g>
+  
+  <!-- Микроэлементы -->
+  <g transform="translate(200, 120)">
+    <rect x="0" y="0" width="120" height="80" rx="5" fill="#64b5f6" opacity="0.8"/>
+    <text x="60" y="25" text-anchor="middle" font-size="14" font-weight="bold" fill="#0d47a1">МИКРОЭЛЕМЕНТЫ</text>
+    <text x="10" y="45" font-size="11" fill="#1565c0">Fe, Mn, Zn, Cu, B, Mo</text>
+    <text x="10" y="62" font-size="10" fill="#1976d2">&lt;0.01% от массы</text>
+  </g>
+  
+  <!-- Ультрамикроэлементы -->
+  <g transform="translate(340, 120)">
+    <rect x="0" y="0" width="120" height="80" rx="5" fill="#ff8a65" opacity="0.8"/>
+    <text x="60" y="25" text-anchor="middle" font-size="14" font-weight="bold" fill="#bf360c">УЛЬТРА-</text>
+    <text x="60" y="40" text-anchor="middle" font-size="14" font-weight="bold" fill="#bf360c">МИКРОЭЛЕМЕНТЫ</text>
+    <text x="10" y="58" font-size="11" fill="#d84315">Co, I, Se, Cr, F</text>
+  </g>
+  
+  <!-- Биологическая роль -->
+  <text x="60" y="230" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1b5e20">
+    Биологическая роль:
+  </text>
+  
+  <!-- Роль макроэлементов -->
+  <g transform="translate(60, 250)">
+    <circle cx="8" cy="8" r="6" fill="#4caf50"/>
+    <text x="20" y="12" font-size="12" fill="#2e7d32">Структурная (Ca, Si)</text>
+    <circle cx="8" cy="28" r="6" fill="#66bb6a"/>
+    <text x="20" y="32" font-size="12" fill="#2e7d32">Энергетическая (P, S)</text>
+    <circle cx="8" cy="48" r="6" fill="#81c784"/>
+    <text x="20" y="52" font-size="12" fill="#2e7d32">Регуляторная (K, Na, Mg)</text>
+  </g>
+  
+  <!-- Роль микроэлементов -->
+  <g transform="translate(220, 250)">
+    <circle cx="8" cy="8" r="6" fill="#42a5f5"/>
+    <text x="20" y="12" font-size="12" fill="#1565c0">Катализаторы ферментов</text>
+    <circle cx="8" cy="28" r="6" fill="#64b5f6"/>
+    <text x="20" y="32" font-size="12" fill="#1565c0">Компоненты витаминов</text>
+    <circle cx="8" cy="48" r="6" fill="#90caf9"/>
+    <text x="20" y="52" font-size="12" fill="#1976d2">Передатчики сигналов</text>
+  </g>
+  
+  <!-- Важность баланса -->
+  <g transform="translate(350, 250)">
+    <path d="M 10 10 Q 20 0, 30 10 Q 20 20, 10 10" fill="#ffd54f" opacity="0.8"/>
+    <text x="10" y="35" font-size="10" fill="#f57c00" text-anchor="middle">BALANCE</text>
+    <text x="10" y="50" font-size="10" fill="#f57c00" text-anchor="middle">OF</text>
+    <text x="10" y="65" font-size="10" fill="#f57c00" text-anchor="middle">SALTS</text>
+  </g>
+  
+  <!-- Декоративные элементы -->
+  <!-- Атомы -->
+  <g transform="translate(420, 90)" filter="url(#glow)">
+    <circle cx="0" cy="0" r="15" fill="#e3f2fd" stroke="#2196f3" stroke-width="1"/>
+    <circle cx="0" cy="0" r="5" fill="#2196f3"/>
+    <line x1="0" y1="-10" x2="0" y2="-2" stroke="#2196f3" stroke-width="2"/>
+    <line x1="7" y1="7" x2="10" y2="10" stroke="#2196f3" stroke-width="2"/>
+    <line x1="-7" y1="7" x2="-10" y2="10" stroke="#2196f3" stroke-width="2"/>
+  </g>
+  
+  <!-- Молекулы воды -->
+  <g transform="translate(450, 130)">
+    <path d="M 0 5 Q 0 0, 5 0 Q 10 0, 10 5 Q 10 10, 5 10 Q 0 10, 0 5" fill="none" stroke="#03a9f4" stroke-width="1.5"/>
+    <circle cx="0" cy="5" r="2" fill="#03a9f4"/>
+    <circle cx="10" cy="5" r="2" fill="#03a9f4"/>
+    <line x1="5" y1="0" x2="5" y2="-3" stroke="#03a9f4" stroke-width="1.5"/>
+    <circle cx="5" cy="-3" r="1.5" fill="#03a9f4"/>
+  </g>
+  
+  <!-- Ионы -->
+  <g transform="translate(40, 280)">
+    <rect x="0" y="0" width="15" height="15" rx="2" fill="#ffcdd2" stroke="#f44336" stroke-width="1"/>
+    <text x="7.5" y="11" text-anchor="middle" font-size="10" fill="#f44336">+</text>
+  </g>
+  
+  <g transform="translate(70, 280)">
+    <rect x="0" y="0" width="15" height="15" rx="2" fill="#c8e6c9" stroke="#4caf50" stroke-width="1"/>
+    <text x="7.5" y="11" text-anchor="middle" font-size="10" fill="#4caf50">-</text>
+  </g>
+  
+  <!-- Растение (символ жизни) -->
+  <g transform="translate(460, 200)">
+    <path d="M 0 20 Q -5 15, -5 10 Q -5 5, 0 0 Q 5 5, 5 10 Q 5 15, 0 20" fill="#81c784" opacity="0.6"/>
+    <line x1="0" y1="20" x2="0" y2="30" stroke="#66bb6a" stroke-width="2"/>
+  </g>
+  
+  <!-- Дополнительные элементы для объема -->
+  <g transform="translate(100, 90)">
+    <circle cx="0" cy="0" r="8" fill="#e1bee7" opacity="0.5"/>
+    <text x="0" y="3" text-anchor="middle" font-size="8" fill="#7b1fa2">Ca</text>
+  </g>
+  
+  <g transform="translate(130, 90)">
+    <circle cx="0" cy="0" r="8" fill="#ffecb3" opacity="0.5"/>
+    <text x="0" y="3" text-anchor="middle" font-size="8" fill="#f57c00">P</text>
+  </g>
+  
+  <g transform="translate(160, 90)">
+    <circle cx="0" cy="0" r="8" fill="#c5e1a5" opacity="0.5"/>
+    <text x="0" y="3" text-anchor="middle" font-size="8" fill="#689f38">K</text>
+  </g>
+  
+  <!-- Пунктирная линия разделения -->
+  <line x1="40" y1="215" x2="460" y2="215" stroke="#4caf50" stroke-width="1" stroke-dasharray="5,5" opacity="0.5"/>
+  
+  <!-- Номер страницы -->
+  <text x="480" y="340" text-anchor="end" font-size="10" fill="#757575" opacity="0.7">5</text>
 </svg>
