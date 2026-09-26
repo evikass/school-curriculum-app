@@ -1,44 +1,173 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#C8E6C9"/></linearGradient></defs>
-<rect width="500" height="350" fill="url(#bg)" rx="10"/>
-<rect x="3" y="3" width="494" height="344" rx="8" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
-<text x="250" y="30" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">Энергетический обмен</text>
-<text x="250" y="46" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Биология 10 класс — Урок 19</text>
-<line x1="30" y1="52" x2="470" y2="52" stroke="#2E7D32" stroke-width="1.5" opacity="0.25"/>
-
-<!-- Three stages -->
-<g transform="translate(85,130)">
-<rect x="-55" y="-40" width="110" height="80" rx="5" fill="white" stroke="#FF9800" stroke-width="1.5"/>
-<text x="0" y="-28" font-family="Arial,sans-serif" font-size="7" fill="#FF9800" text-anchor="middle" font-weight="bold">I. Подготовка</text>
-<line x1="-40" y1="-20" x2="40" y2="-20" stroke="#FF9800" stroke-width="0.5"/>
-<text x="0" y="-5" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Белки -> аминок-ты</text>
-<text x="0" y="7" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Жиры -> глицерин + ЖК</text>
-<text x="0" y="19" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Крахмал -> глюкоза</text>
-<text x="0" y="33" font-family="Arial,sans-serif" font-size="5" fill="#FF9800" text-anchor="middle">В лизосомах</text>
-</g>
-<g transform="translate(250,130)">
-<rect x="-55" y="-40" width="110" height="80" rx="5" fill="white" stroke="#E53935" stroke-width="1.5"/>
-<text x="0" y="-28" font-family="Arial,sans-serif" font-size="7" fill="#E53935" text-anchor="middle" font-weight="bold">II. Гликолиз</text>
-<line x1="-40" y1="-20" x2="40" y2="-20" stroke="#E53935" stroke-width="0.5"/>
-<text x="0" y="-5" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">C6H12O6 -> 2C3H4O3</text>
-<text x="0" y="7" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Глюкоза -> ПВК</text>
-<text x="0" y="19" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">2 АТФ (чистых)</text>
-<text x="0" y="33" font-family="Arial,sans-serif" font-size="5" fill="#E53935" text-anchor="middle">В цитоплазме</text>
-</g>
-<g transform="translate(415,130)">
-<rect x="-55" y="-40" width="110" height="80" rx="5" fill="white" stroke="#9C27B0" stroke-width="1.5"/>
-<text x="0" y="-28" font-family="Arial,sans-serif" font-size="7" fill="#9C27B0" text-anchor="middle" font-weight="bold">III. Клеточ. дыхание</text>
-<line x1="-40" y1="-20" x2="40" y2="-20" stroke="#9C27B0" stroke-width="0.5"/>
-<text x="0" y="-5" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">ПВК + O2 -> CO2 + H2O</text>
-<text x="0" y="7" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">Цикл Кребса</text>
-<text x="0" y="19" font-family="Arial,sans-serif" font-size="5" fill="#555" text-anchor="middle">36 АТФ</text>
-<text x="0" y="33" font-family="Arial,sans-serif" font-size="5" fill="#9C27B0" text-anchor="middle">В митохондриях</text>
-</g>
-<rect x="30" y="260" width="440" height="40" rx="5" fill="white" stroke="#2E7D32" stroke-width="1" opacity="0.9"/>
-<text x="250" y="274" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Общее уравнение: C6H12O6 + 6O2 -> 6CO2 + 6H2O + 38 АТФ</text>
-<text x="250" y="285" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Гликолиз: 2 АТФ (бескислородный) | Клеточное дыхание: 36 АТФ (кислородный)</text>
-<text x="250" y="296" font-family="Arial,sans-serif" font-size="7" fill="#555" text-anchor="middle">Брожение (без O2): молочнокислое, спиртовое — 2 АТФ</text>
-
-<rect x="10" y="325" width="480" height="20" rx="4" fill="#2E7D32" opacity="0.85"/>
-<text x="250" y="339" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Биология 10 класс</text>
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6f3ff;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Градиент для ядра -->
+    <radialGradient id="nucleusGrad">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#c92a2a;stop-opacity:0.9" />
+    </radialGradient>
+    
+    <!-- Тень -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  
+  <!-- Заголовок -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    БИОЛОГИЯ · 10 КЛАСС
+  </text>
+  
+  <!-- Подзаголовок -->
+  <text x="250" y="55" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#546e7a">
+    Урок 19: Ядро клетки
+  </text>
+  
+  <!-- Основная клетка -->
+  <ellipse cx="250" cy="200" rx="120" ry="90" fill="#ffffff" stroke="#4a90e2" stroke-width="2" filter="url(#shadow)"/>
+  
+  <!-- Ядро клетки -->
+  <ellipse cx="250" cy="200" rx="65" ry="50" fill="url(#nucleusGrad)" filter="url(#shadow)"/>
+  
+  <!-- Ядерная оболочка -->
+  <ellipse cx="250" cy="200" rx="65" ry="50" fill="none" stroke="#8b0000" stroke-width="1.5"/>
+  
+  <!-- Ядерные поры -->
+  <circle cx="230" cy="185" r="2" fill="#4a90e2"/>
+  <circle cx="250" cy="180" r="2" fill="#4a90e2"/>
+  <circle cx="270" cy="185" r="2" fill="#4a90e2"/>
+  <circle cx="235" cy="200" r="2" fill="#4a90e2"/>
+  <circle cx="265" cy="200" r="2" fill="#4a90e2"/>
+  <circle cx="240" cy="215" r="2" fill="#4a90e2"/>
+  <circle cx="260" cy="215" r="2" fill="#4a90e2"/>
+  
+  <!-- Ядрышко -->
+  <ellipse cx="250" cy="200" rx="15" ry="12" fill="#ffeb3b" opacity="0.9"/>
+  <ellipse cx="245" cy="195" rx="8" ry="6" fill="#fff59d"/>
+  <ellipse cx="255" cy="205" rx="6" ry="4" fill="#fff59d"/>
+  
+  <!-- Хромосомы -->
+  <path d="M 220 190 Q 230 195 240 190" stroke="#9c27b0" stroke-width="2" fill="none"/>
+  <path d="M 260 190 Q 270 195 280 190" stroke="#9c27b0" stroke-width="2" fill="none"/>
+  <path d="M 225 210 Q 235 215 245 210" stroke="#9c27b0" stroke-width="2" fill="none"/>
+  <path d="M 255 210 Q 265 215 275 210" stroke="#9c27b0" stroke-width="2" fill="none"/>
+  
+  <!-- Маркеры на хромосомах -->
+  <circle cx="230" cy="193" r="2" fill="#e91e63"/>
+  <circle cx="270" cy="193" r="2" fill="#e91e63"/>
+  <circle cx="235" cy="213" r="2" fill="#e91e63"/>
+  <circle cx="265" cy="213" r="2" fill="#e91e63"/>
+  
+  <!-- Лейблы -->
+  <text x="250" y="290" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">
+    Клеточная мембрана
+  </text>
+  
+  <!-- Стрелки к ядру -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ff5722"/>
+    </marker>
+  </defs>
+  
+  <!-- Стрелка к ядру -->
+  <line x1="150" y1="200" x2="175" y2="200" stroke="#ff5722" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="145" y="195" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#ff5722">
+    Ядро
+  </text>
+  
+  <!-- Стрелка к ядрышку -->
+  <line x1="250" y1="160" x2="250" y2="185" stroke="#ff5722" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="250" y="155" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#ff5722">
+    Ядрышко
+  </text>
+  
+  <!-- Стрелка к ядерной оболочке -->
+  <line x1="320" y1="200" x2="290" y2="200" stroke="#ff5722" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="325" y="195" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#ff5722">
+    Ядерная оболочка
+  </text>
+  
+  <!-- Стрелка к хромосомам -->
+  <line x1="250" y1="240" x2="250" y2="225" stroke="#ff5722" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="250" y="250" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#ff5722">
+    Хромосомы
+  </text>
+  
+  <!-- Стрелка к порам -->
+  <line x1="320" y1="180" x2="275" y2="185" stroke="#ff5722" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="325" y="175" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#ff5722">
+    Ядерные поры
+  </text>
+  
+  <!-- Дополнительные элементы декора -->
+  <circle cx="100" cy="100" r="3" fill="#4a90e2" opacity="0.5"/>
+  <circle cx="400" cy="100" r="3" fill="#4a90e2" opacity="0.5"/>
+  <circle cx="120" cy="300" r="3" fill="#4a90e2" opacity="0.5"/>
+  <circle cx="380" cy="300" r="3" fill="#4a90e2" opacity="0.5"/>
+  
+  <!-- ДНК спираль -->
+  <g transform="translate(350, 100)">
+    <path d="M 0 0 Q 10 10 0 20 Q -10 30 0 40" stroke="#00bcd4" stroke-width="2" fill="none"/>
+    <path d="M 0 0 Q -10 10 0 20 Q 10 30 0 40" stroke="#00bcd4" stroke-width="2" fill="none"/>
+    <circle cx="0" cy="10" r="2" fill="#00bcd4"/>
+    <circle cx="0" cy="20" r="2" fill="#00bcd4"/>
+    <circle cx="0" cy="30" r="2" fill="#00bcd4"/>
+    <text x="0" y="55" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#00bcd4">
+      ДНК
+    </text>
+  </g>
+  
+  <!-- Рибосомы -->
+  <circle cx="150" cy="150" r="4" fill="#4caf50" opacity="0.7"/>
+  <circle cx="350" cy="250" r="4" fill="#4caf50" opacity="0.7"/>
+  <circle cx="180" cy="250" r="4" fill="#4caf50" opacity="0.7"/>
+  <circle cx="320" cy="150" r="4" fill="#4caf50" opacity="0.7"/>
+  
+  <!-- Белки -->
+  <ellipse cx="200" cy="120" rx="8" ry="4" fill="#ff9800" opacity="0.7"/>
+  <ellipse cx="300" cy="280" rx="8" ry="4" fill="#ff9800" opacity="0.7"/>
+  
+  <!-- Точечный фон -->
+  <circle cx="50" cy="50" r="1" fill="#b3e5fc" opacity="0.3"/>
+  <circle cx="450" cy="50" r="1" fill="#b3e5fc" opacity="0.3"/>
+  <circle cx="50" cy="320" r="1" fill="#b3e5fc" opacity="0.3"/>
+  <circle cx="450" cy="320" r="1" fill="#b3e5fc" opacity="0.3"/>
+  <circle cx="100" cy="200" r="1" fill="#b3e5fc" opacity="0.3"/>
+  <circle cx="400" cy="200" r="1" fill="#b3e5fc" opacity="0.3"/>
+  
+  <!-- Функции ядра -->
+  <rect x="20" y="70" width="120" height="15" rx="7" fill="#e8f5e9" stroke="#4caf50" stroke-width="1"/>
+  <text x="80" y="81" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2e7d32">
+    Хранение ДНК
+  </text>
+  
+  <rect x="360" y="70" width="120" height="15" rx="7" fill="#fff3e0" stroke="#ff9800" stroke-width="1"/>
+  <text x="420" y="81" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#e65100">
+    Регуляция
+  </text>
+  
+  <rect x="20" y="270" width="120" height="15" rx="7" fill="#fce4ec" stroke="#e91e63" stroke-width="1"/>
+  <text x="80" y="281" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#880e4f">
+    Деление клетки
+  </text>
+  
+  <rect x="360" y="270" width="120" height="15" rx="7" fill="#f3e5f5" stroke="#9c27b0" stroke-width="1"/>
+  <text x="420" y="281" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#4a148c">
+    Синтез РНК
+  </text>
+  
+  <!-- Дополнительные линии -->
+  <line x1="140" y1="77" x2="175" y2="77" stroke="#4caf50" stroke-width="1" opacity="0.5"/>
+  <line x1="360" y1="77" x2="325" y2="77" stroke="#ff9800" stroke-width="1" opacity="0.5"/>
+  <line x1="140" y1="277" x2="175" y2="277" stroke="#e91e63" stroke-width="1" opacity="0.5"/>
+  <line x1="360" y1="277" x2="325" y2="277" stroke="#9c27b0" stroke-width="1" opacity="0.5"/>
 </svg>
