@@ -1,0 +1,209 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый градиент -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6f3ff;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Тень -->
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+    
+    <!-- Текстурная заливка -->
+    <pattern id="texture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#f5f5f5"/>
+      <circle cx="2" cy="2" r="0.5" fill="#e0e0e0"/>
+    </pattern>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="500" height="350" fill="url(#bgGrad)"/>
+  
+  <!-- Заголовок -->
+  <rect x="20" y="20" width="460" height="60" rx="10" fill="#2c5aa0" filter="url(#shadow)"/>
+  <text x="250" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">БИОЛОГИЯ · 10 КЛАСС</text>
+  <text x="250" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#b8d4f1">Урок 53: Происхождение человека</text>
+  
+  <!-- Эволюционная лестница - фон -->
+  <path d="M 100 120 Q 150 130 200 140 T 300 150 Q 350 155 400 160" stroke="#d0d0d0" stroke-width="3" fill="none" opacity="0.5"/>
+  
+  <!-- Обезьяна - предок -->
+  <g transform="translate(80, 200)">
+    <!-- Тело -->
+    <ellipse cx="20" cy="20" rx="15" ry="20" fill="#8b6f47"/>
+    <!-- Голова -->
+    <circle cx="20" cy="5" r="12" fill="#8b6f47"/>
+    <!-- Глаза -->
+    <circle cx="16" cy="5" r="2" fill="black"/>
+    <circle cx="24" cy="5" r="2" fill="black"/>
+    <!-- Рот -->
+    <path d="M 16 10 Q 20 12 24 10" stroke="black" stroke-width="1.5" fill="none"/>
+    <!-- Руки -->
+    <ellipse cx="5" cy="20" rx="8" ry="15" fill="#8b6f47" transform="rotate(-30 5 20)"/>
+    <ellipse cx="35" cy="20" rx="8" ry="15" fill="#8b6f47" transform="rotate(30 35 20)"/>
+    <!-- Ноги -->
+    <ellipse cx="15" cy="40" rx="6" ry="12" fill="#8b6f47"/>
+    <ellipse cx="25" cy="40" rx="6" ry="12" fill="#8b6f47"/>
+    <!-- Хвост -->
+    <path d="M 35 15 Q 45 10 50 20 Q 45 25 40 20" stroke="#8b6f47" stroke-width="4" fill="none"/>
+    <text x="20" y="70" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Обезьяна</text>
+  </g>
+  
+  <!-- Неандерталец -->
+  <g transform="translate(200, 150)">
+    <!-- Тело -->
+    <rect x="15" y="20" width="20" height="30" rx="5" fill="#d4a574"/>
+    <!-- Голова -->
+    <ellipse cx="25" cy="10" rx="12" ry="15" fill="#d4a574"/>
+    <!-- Прическа -->
+    <path d="M 13 5 Q 25 0 37 5 Q 35 10 25 8 Q 15 10 13 5" fill="#3e2723"/>
+    <!-- Лицо -->
+    <ellipse cx="25" cy="15" rx="8" ry="10" fill="#fdbcb4"/>
+    <!-- Глаза -->
+    <circle cx="21" cy="13" r="2" fill="black"/>
+    <circle cx="29" cy="13" r="2" fill="black"/>
+    <!-- Брови -->
+    <path d="M 19 10 L 23 10" stroke="black" stroke-width="2"/>
+    <path d="M 27 10 L 31 10" stroke="black" stroke-width="2"/>
+    <!-- Нос -->
+    <path d="M 25 15 L 23 18 L 25 18 L 27 18 L 25 15" fill="none" stroke="black" stroke-width="1"/>
+    <!-- Рот -->
+    <path d="M 21 20 Q 25 22 29 20" stroke="black" stroke-width="1.5" fill="none"/>
+    <!-- Руки -->
+    <rect x="5" y="25" width="8" height="20" rx="4" fill="#d4a574"/>
+    <rect x="32" y="25" width="8" height="20" rx="4" fill="#d4a574"/>
+    <!-- Ноги -->
+    <rect x="18" y="50" width="7" height="20" rx="3" fill="#d4a574"/>
+    <rect x="25" y="50" width="7" height="20" rx="3" fill="#d4a574"/>
+    <text x="25" y="85" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Неандерталец</text>
+  </g>
+  
+  <!-- Современный человек -->
+  <g transform="translate(350, 120)">
+    <!-- Тело -->
+    <rect x="15" y="20" width="25" height="35" rx="8" fill="#4169e1"/>
+    <!-- Голова -->
+    <circle cx="27.5" cy="12" r="15" fill="#fdbcb4"/>
+    <!-- Волосы -->
+    <ellipse cx="27.5" cy="8" rx="16" ry="12" fill="#2c3e50"/>
+    <!-- Лицо -->
+    <ellipse cx="27.5" cy="18" rx="10" ry="12" fill="#fdbcb4"/>
+    <!-- Глаза -->
+    <circle cx="23" cy="16" r="2.5" fill="white"/>
+    <circle cx="32" cy="16" r="2.5" fill="white"/>
+    <circle cx="23.5" cy="16.5" r="1.5" fill="black"/>
+    <circle cx="32.5" cy="16.5" r="1.5" fill="black"/>
+    <!-- Брови -->
+    <path d="M 20 13 Q 23 12 26 13" stroke="black" stroke-width="1.5" fill="none"/>
+    <path d="M 29 13 Q 32 12 35 13" stroke="black" stroke-width="1.5" fill="none"/>
+    <!-- Нос -->
+    <ellipse cx="27.5" cy="20" rx="2" ry="3" fill="#f4a460"/>
+    <!-- Рот -->
+    <path d="M 22 24 Q 27.5 26 33 24" stroke="black" stroke-width="1.5" fill="none"/>
+    <!-- Руки -->
+    <rect x="5" y="28" width="10" height="25" rx="5" fill="#fdbcb4"/>
+    <rect x="35" y="28" width="10" height="25" rx="5" fill="#fdbcb4"/>
+    <!-- Ноги -->
+    <rect x="18" y="55" width="8" height="25" rx="4" fill="#4169e1"/>
+    <rect x="29" y="55" width="8" height="25" rx="4" fill="#4169e1"/>
+    <text x="27.5" y="95" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Современный человек</text>
+  </g>
+  
+  <!-- Стрелки эволюции -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666" />
+    </marker>
+  </defs>
+  
+  <path d="M 110 210 Q 155 180 190 155" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 230 165 Q 290 140 340 135" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Временная шкала -->
+  <line x1="80" y1="280" x2="420" y2="280" stroke="#666" stroke-width="2"/>
+  
+  <!-- Метки времени -->
+  <g font-family="Arial" font-size="10" fill="#666">
+    <line x1="80" y1="275" x2="80" y2="285" stroke="#666" stroke-width="2"/>
+    <text x="80" y="300" text-anchor="middle">7 млн лет</text>
+    
+    <line x1="230" y1="275" x2="230" y2="285" stroke="#666" stroke-width="2"/>
+    <text x="230" y="300" text-anchor="middle">200 тыс. лет</text>
+    
+    <line x1="380" y1="275" x2="380" y2="285" stroke="#666" stroke-width="2"/>
+    <text x="380" y="300" text-anchor="middle">Современность</text>
+  </g>
+  
+  <!-- Дополнительные элементы -->
+  <!-- ДНК спираль -->
+  <g transform="translate(30, 90)">
+    <path d="M 0 0 Q 5 10 0 20 Q -5 30 0 40 Q 5 50 0 60" stroke="#00bfff" stroke-width="2" fill="none"/>
+    <path d="M 10 0 Q 5 10 10 20 Q 15 30 10 40 Q 5 50 10 60" stroke="#00bfff" stroke-width="2" fill="none"/>
+    <line x1="0" y1="5" x2="10" y2="5" stroke="#00bfff" stroke-width="1"/>
+    <line x1="0" y1="15" x2="10" y2="15" stroke="#00bfff" stroke-width="1"/>
+    <line x1="0" y1="25" x2="10" y2="25" stroke="#00bfff" stroke-width="1"/>
+    <line x1="0" y1="35" x2="10" y2="35" stroke="#00bfff" stroke-width="1"/>
+    <line x1="0" y1="45" x2="10" y2="45" stroke="#00bfff" stroke-width="1"/>
+    <line x1="0" y1="55" x2="10" y2="55" stroke="#00bfff" stroke-width="1"/>
+  </g>
+  
+  <!-- Кости (артефакты) -->
+  <g transform="translate(460, 200)">
+    <ellipse cx="0" cy="0" rx="15" ry="3" fill="#f5deb3"/>
+    <rect x="-3" y="-20" width="6" height="20" fill="#f5deb3"/>
+    <rect x="-15" y="-23" width="30" height="3" fill="#f5deb3"/>
+    <rect x="-15" y="0" width="30" height="3" fill="#f5deb3"/>
+    <text x="0" y="15" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">Артефакты</text>
+  </g>
+  
+  <!-- Дерево эволюции - маленькое -->
+  <g transform="translate(420, 50)">
+    <line x1="0" y1="30" x2="0" y2="0" stroke="#8b4513" stroke-width="3"/>
+    <line x1="0" y1="10" x2="-10" y2="5" stroke="#228b22" stroke-width="2"/>
+    <line x1="0" y1="10" x2="10" y2="5" stroke="#228b22" stroke-width="2"/>
+    <line x1="0" y1="15" x2="-8" y2="12" stroke="#228b22" stroke-width="2"/>
+    <line x1="0" y1="15" x2="8" y2="12" stroke="#228b22" stroke-width="2"/>
+  </g>
+  
+  <!-- Камни -->
+  <ellipse cx="150" cy="320" rx="15" ry="10" fill="#696969"/>
+  <ellipse cx="200" cy="325" rx="12" ry="8" fill="#808080"/>
+  <ellipse cx="350" cy="322" rx="18" ry="12" fill="#a9a9a9"/>
+  
+  <!-- Листья -->
+  <g transform="translate(100, 40)">
+    <ellipse cx="0" cy="0" rx="8" ry="4" fill="#228b22" transform="rotate(-20)"/>
+    <line x1="0" y1="0" x2="0" y2="-6" stroke="#228b22" stroke-width="1"/>
+  </g>
+  <g transform="translate(120, 45)">
+    <ellipse cx="0" cy="0" rx="6" ry="3" fill="#32cd32" transform="rotate(30)"/>
+    <line x1="0" y1="0" x2="0" y2="-5" stroke="#32cd32" stroke-width="1"/>
+  </g>
+  
+  <!-- Солнце -->
+  <circle cx="460" cy="40" r="15" fill="#ffd700"/>
+  <g stroke="#ffd700" stroke-width="2">
+    <line x1="460" y1="15" x2="460" y2="10"/>
+    <line x1="460" y1="65" x2="460" y2="70"/>
+    <line x1="435" y1="40" x2="430" y2="40"/>
+    <line x1="485" y1="40" x2="490" y2="40"/>
+  </g>
+  
+  <!-- Небо облака -->
+  <g opacity="0.7">
+    <ellipse cx="300" cy="40" rx="25" ry="10" fill="white"/>
+    <ellipse cx="320" cy="38" rx="20" ry="8" fill="white"/>
+    <ellipse cx="280" cy="38" rx="20" ry="8" fill="white"/>
+  </g>
+  
+  <!-- Информационный блок -->
+  <rect x="20" y="310" width="120" height="30" rx="5" fill="#fff" stroke="#2c5aa0" stroke-width="1"/>
+  <text x="80" y="330" text-anchor="middle" font-family="Arial" font-size="10" fill="#2c5aa0">Эволюция</text>
+  
+  <!-- Дополнительные декоративные элементы -->
+  <circle cx="50" cy="300" r="2" fill="#2c5aa0"/>
+  <circle cx="60" cy="305" r="2" fill="#2c5aa0"/>
+  <circle cx="55" cy="310" r="2" fill="#2c5aa0"/>
+</svg>
