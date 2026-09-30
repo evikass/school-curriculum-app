@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b1b3a"/>
+      <stop offset="100%" stop-color="#2a1b4a"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <!-- Property 1: √(ab) = √a · √b -->
+  <text x="30" y="40" fill="#ff6b6b" font-size="13" font-weight="bold">Свойство 1:</text>
+  <path d="M30,58 L35,58 L38,75 L44,48 L90,48" stroke="#4ecdc4" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="50" y="63" fill="#ffe66d" font-size="16" font-family="serif">a·b</text>
+  <text x="95" y="60" fill="#4ecdc4" font-size="18">=</text>
+  <path d="M115,48 L118,48 L120,58 L124,40 L145,40" stroke="#ff6b6b" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <text x="130" y="50" fill="#ffe66d" font-size="14" font-family="serif">a</text>
+  <text x="150" y="55" fill="#4ecdc4" font-size="16">·</text>
+  <path d="M168,48 L171,48 L173,58 L177,40 L198,40" stroke="#ff6b6b" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <text x="183" y="50" fill="#ffe66d" font-size="14" font-family="serif">b</text>
+  <!-- Example -->
+  <text x="30" y="100" fill="#a8dadc" font-size="12">Пример:</text>
+  <path d="M90,85 L93,85 L95,100 L100,80 L130,80" stroke="#4ecdc4" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="102" y="95" fill="#ffe66d" font-size="14" font-family="serif">36·4</text>
+  <text x="140" y="93" fill="#4ecdc4" font-size="16">=</text>
+  <path d="M158,78 L160,78 L162,88 L165,72 L182,72" stroke="#ff6b6b" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <text x="170" y="82" fill="#ffe66d" font-size="13" font-family="serif">36</text>
+  <text x="188" y="86" fill="#4ecdc4" font-size="14">·</text>
+  <path d="M200,78 L202,78 L204,88 L207,72 L224,72" stroke="#ff6b6b" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <text x="209" y="82" fill="#ffe66d" font-size="13" font-family="serif">4</text>
+  <text x="232" y="86" fill="#4ecdc4" font-size="16">= 6·2 = 12</text>
+  <!-- Property 2: √(a/b) = √a / √b -->
+  <text x="260" y="40" fill="#ff6b6b" font-size="13" font-weight="bold">Свойство 2:</text>
+  <path d="M260,58 L263,58 L265,75 L270,48 L310,48" stroke="#4ecdc4" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="275" y="58" fill="#ffe66d" font-size="14" font-family="serif">a/b</text>
+  <text x="318" y="60" fill="#4ecdc4" font-size="18">=</text>
+  <path d="M340,48 L342,48 L344,58 L347,42 L365,42" stroke="#ff6b6b" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <text x="349" y="50" fill="#ffe66d" font-size="13" font-family="serif">a</text>
+  <line x1="372" y1="48" x2="395" y2="48" stroke="#ffe66d" stroke-width="1.5"/>
+  <path d="M373,58 L375,58 L377,68 L380,52 L398,52" stroke="#ff6b6b" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <text x="383" y="63" fill="#ffe66d" font-size="13" font-family="serif">b</text>
+  <!-- Visual proof with rectangles -->
+  <text x="30" y="140" fill="#a8dadc" font-size="13" font-weight="bold">Визуальное доказательство:</text>
+  <!-- Large rectangle for ab -->
+  <rect x="40" y="160" width="120" height="80" rx="3" fill="none" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="75" y="205" fill="#ffe66d" font-size="18" font-family="serif">a·b</text>
+  <!-- Split into a and b -->
+  <path d="M170,200 L200,200" stroke="#ff6b6b" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="185" y="195" fill="#ff6b6b" font-size="18">=</text>
+  <!-- Rectangle a -->
+  <rect x="210" y="170" width="60" height="60" rx="3" fill="none" stroke="#ff6b6b" stroke-width="2"/>
+  <text x="225" y="205" fill="#ffe66d" font-size="16" font-family="serif">a</text>
+  <!-- Times -->
+  <text x="280" y="205" fill="#4ecdc4" font-size="18">·</text>
+  <!-- Rectangle b -->
+  <rect x="300" y="180" width="50" height="50" rx="3" fill="none" stroke="#ff6b6b" stroke-width="2"/>
+  <text x="313" y="210" fill="#ffe66d" font-size="16" font-family="serif">b</text>
+  <!-- Condition a≥0, b>0 -->
+  <text x="380" y="195" fill="#ff6b6b" font-size="12">a ≥ 0</text>
+  <text x="380" y="212" fill="#ff6b6b" font-size="12">b &gt; 0</text>
+  <!-- Property 3: √(a²) = |a| -->
+  <text x="30" y="280" fill="#ff6b6b" font-size="13" font-weight="bold">Свойство 3:</text>
+  <path d="M120,265 L123,265 L125,280 L130,258 L170,258" stroke="#4ecdc4" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="135" y="275" fill="#ffe66d" font-size="16" font-family="serif">a²</text>
+  <text x="178" y="272" fill="#4ecdc4" font-size="18">= |a|</text>
+  <!-- Example -->
+  <path d="M260,265 L262,265 L264,278 L268,258 L295,258" stroke="#4ecdc4" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <text x="270" y="272" fill="#ffe66d" font-size="14" font-family="serif">(−5)²</text>
+  <text x="305" y="272" fill="#4ecdc4" font-size="16">= |−5| = 5</text>
+  <!-- Decorative -->
+  <circle cx="460" cy="40" r="25" fill="none" stroke="#4ecdc4" stroke-width="0.5" opacity="0.2"/>
+  <circle cx="460" cy="40" r="15" fill="none" stroke="#ff6b6b" stroke-width="0.5" opacity="0.2"/>
+  <text x="250" y="340" fill="#fff" font-size="9" opacity="0.5" text-anchor="middle">Свойства квадратного корня</text>
+</svg>
