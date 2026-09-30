@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d00f7"/>
+      <stop offset="100%" stop-color="#3a0ca3"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <!-- Powers of 10 visualization -->
+  <text x="30" y="35" fill="#4cc9f0" font-size="14" font-weight="bold">Степень с целым показателем</text>
+  <!-- Positive exponents -->
+  <text x="30" y="65" fill="#f72585" font-size="12" font-weight="bold">Положительные:</text>
+  <text x="30" y="85" fill="#b5179e" font-size="14" font-family="serif">10³ = 1000</text>
+  <text x="140" y="85" fill="#7209b7" font-size="14" font-family="serif">10² = 100</text>
+  <text x="240" y="85" fill="#560bad" font-size="14" font-family="serif">10¹ = 10</text>
+  <text x="330" y="85" fill="#480ca8" font-size="14" font-family="serif">10⁰ = 1</text>
+  <!-- Visual: decreasing dot columns -->
+  <circle cx="40" cy="100" r="2" fill="#f72585" opacity="0.6"/>
+  <circle cx="40" cy="106" r="2" fill="#f72585" opacity="0.6"/>
+  <circle cx="40" cy="112" r="2" fill="#f72585" opacity="0.6"/>
+  <circle cx="46" cy="100" r="2" fill="#f72585" opacity="0.6"/>
+  <circle cx="46" cy="106" r="2" fill="#f72585" opacity="0.6"/>
+  <circle cx="46" cy="112" r="2" fill="#f72585" opacity="0.6"/>
+  <!-- Negative exponents -->
+  <text x="30" y="145" fill="#4cc9f0" font-size="12" font-weight="bold">Отрицательные:</text>
+  <text x="30" y="165" fill="#4361ee" font-size="14" font-family="serif">10⁻¹ = 1/10</text>
+  <text x="150" y="165" fill="#4895ef" font-size="14" font-family="serif">10⁻² = 1/100</text>
+  <text x="290" y="165" fill="#4cc9f0" font-size="14" font-family="serif">10⁻³ = 1/1000</text>
+  <!-- Properties -->
+  <text x="30" y="200" fill="#f72585" font-size="13" font-weight="bold">Свойства степеней:</text>
+  <!-- Property cards -->
+  <rect x="25" y="210" width="145" height="28" rx="4" fill="#3a0ca3" stroke="#4cc9f0" stroke-width="1"/>
+  <text x="35" y="229" fill="#4cc9f0" font-size="13" font-family="serif">aᵐ·aⁿ = aᵐ⁺ⁿ</text>
+  <rect x="180" y="210" width="145" height="28" rx="4" fill="#3a0ca3" stroke="#f72585" stroke-width="1"/>
+  <text x="190" y="229" fill="#f72585" font-size="13" font-family="serif">aᵐ/aⁿ = aᵐ⁻ⁿ</text>
+  <rect x="25" y="245" width="145" height="28" rx="4" fill="#3a0ca3" stroke="#b5179e" stroke-width="1"/>
+  <text x="35" y="264" fill="#b5179e" font-size="13" font-family="serif">(aᵐ)ⁿ = aᵐⁿ</text>
+  <rect x="180" y="245" width="145" height="28" rx="4" fill="#3a0ca3" stroke="#7209b7" stroke-width="1"/>
+  <text x="190" y="264" fill="#7209b7" font-size="13" font-family="serif">(ab)ⁿ = aⁿbⁿ</text>
+  <rect x="25" y="280" width="145" height="28" rx="4" fill="#3a0ca3" stroke="#4361ee" stroke-width="1"/>
+  <text x="35" y="299" fill="#4361ee" font-size="13" font-family="serif">(a/b)ⁿ = aⁿ/bⁿ</text>
+  <rect x="180" y="280" width="145" height="28" rx="4" fill="#3a0ca3" stroke="#4895ef" stroke-width="1"/>
+  <text x="190" y="299" fill="#4895ef" font-size="13" font-family="serif">a⁻ⁿ = 1/aⁿ</text>
+  <!-- Example -->
+  <text x="350" y="225" fill="#7f8c8d" font-size="11">2³·2⁴ = 2⁷ = 128</text>
+  <text x="350" y="245" fill="#7f8c8d" font-size="11">5⁶/5² = 5⁴ = 625</text>
+  <text x="350" y="265" fill="#7f8c8d" font-size="11">(3²)³ = 3⁶ = 729</text>
+  <text x="350" y="285" fill="#7f8c8d" font-size="11">2⁻³ = 1/8</text>
+  <!-- Scale visualization -->
+  <line x1="350" y1="55" x2="470" y2="55" stroke="#4cc9f0" stroke-width="1.5"/>
+  <circle cx="370" cy="55" r="3" fill="#f72585"/>
+  <text x="362" y="50" fill="#f72585" font-size="8">10³</text>
+  <circle cx="395" cy="55" r="3" fill="#b5179e"/>
+  <text x="390" y="50" fill="#b5179e" font-size="8">10²</text>
+  <circle cx="415" cy="55" r="3" fill="#7209b7"/>
+  <text x="411" y="50" fill="#7209b7" font-size="8">10¹</text>
+  <circle cx="430" cy="55" r="3" fill="#560bad"/>
+  <text x="427" y="50" fill="#560bad" font-size="8">10⁰</text>
+  <circle cx="445" cy="55" r="3" fill="#4361ee"/>
+  <text x="439" y="50" fill="#4361ee" font-size="8">10⁻¹</text>
+  <circle cx="460" cy="55" r="3" fill="#4cc9f0"/>
+  <text x="453" y="50" fill="#4cc9f0" font-size="8">10⁻²</text>
+  <text x="250" y="340" fill="#fff" font-size="9" opacity="0.5" text-anchor="middle">Степень с целым показателем</text>
+</svg>
