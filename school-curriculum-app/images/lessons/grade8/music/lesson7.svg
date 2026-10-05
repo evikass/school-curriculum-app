@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="operaBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2A1020"/>
+      <stop offset="100%" stop-color="#1A0810"/>
+    </linearGradient>
+    <radialGradient id="chandelier" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#FFE4B5" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#FFE4B5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="curtainLeft" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0%" stop-color="#8B0000"/>
+      <stop offset="100%" stop-color="#5A0000"/>
+    </linearGradient>
+    <linearGradient id="curtainRight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8B0000"/>
+      <stop offset="100%" stop-color="#5A0000"/>
+    </linearGradient>
+    <linearGradient id="goldTrim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#DAA520"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+  </defs>
+  <!-- Opera house interior -->
+  <rect width="500" height="350" fill="url(#operaBg)"/>
+  <rect width="500" height="350" fill="url(#chandelier)"/>
+  
+  <!-- Proscenium arch frame -->
+  <!-- Top of arch -->
+  <path d="M60 0 L60 80 Q250 30 440 80 L440 0 Z" fill="#3A1A1A"/>
+  <!-- Arch decorative molding -->
+  <path d="M60 80 Q250 25 440 80" fill="none" stroke="url(#goldTrim)" stroke-width="4"/>
+  <path d="M65 85 Q250 32 435 85" fill="none" stroke="#B8860B" stroke-width="1.5"/>
+  <!-- Arch sides -->
+  <rect x="40" y="0" width="25" height="300" fill="#3A1A1A"/>
+  <rect x="435" y="0" width="25" height="300" fill="#3A1A1A"/>
+  <line x1="65" y1="0" x2="65" y2="300" stroke="url(#goldTrim)" stroke-width="2"/>
+  <line x1="435" y1="0" x2="435" y2="300" stroke="url(#goldTrim)" stroke-width="2"/>
+  
+  <!-- Chandelier -->
+  <line x1="250" y1="0" x2="250" y2="20" stroke="#DAA520" stroke-width="1"/>
+  <path d="M230 20 Q250 15 270 20" fill="none" stroke="#DAA520" stroke-width="1.5"/>
+  <circle cx="250" cy="22" r="5" fill="#FFE4B5" opacity="0.8"/>
+  <!-- Crystal drops -->
+  <g fill="#FFF" opacity="0.4">
+    <line x1="235" y1="20" x2="233" y2="30"/>
+    <line x1="250" y1="27" x2="250" y2="35"/>
+    <line x1="265" y1="20" x2="267" y2="30"/>
+    <circle cx="233" cy="31" r="1.5"/>
+    <circle cx="250" cy="36" r="1.5"/>
+    <circle cx="267" cy="31" r="1.5"/>
+  </g>
+  
+  <!-- === STAGE === -->
+  <!-- Stage floor -->
+  <rect x="65" y="200" width="370" height="100" fill="#4A3020"/>
+  <g stroke="#5A4030" stroke-width="0.3" opacity="0.5">
+    <line x1="65" y1="220" x2="435" y2="220"/>
+    <line x1="65" y1="240" x2="435" y2="240"/>
+    <line x1="65" y1="260" x2="435" y2="260"/>
+    <line x1="65" y1="280" x2="435" y2="280"/>
+  </g>
+  
+  <!-- Stage backdrop (painted scene) -->
+  <rect x="90" y="90" width="320" height="110" fill="#1A3A5A"/>
+  <!-- Moonlight scene on backdrop -->
+  <circle cx="300" cy="120" r="20" fill="#F0F0FF" opacity="0.5"/>
+  <!-- Castle silhouette on backdrop -->
+  <path d="M150 200 L150 150 L160 150 L160 140 L170 140 L170 150 L180 150 L180 130 L185 125 L190 130 L190 150 L200 150 L200 140 L210 140 L210 150 L230 150 L230 200 Z" fill="#0A1A2A"/>
+  
+  <!-- === CURTAINS === -->
+  <!-- Left curtain -->
+  <path d="M65 85 Q80 85 90 95 Q100 140 95 200 Q93 250 90 300 L65 300 Z" fill="url(#curtainLeft)"/>
+  <!-- Curtain folds -->
+  <path d="M70 90 Q75 120 72 160 Q70 200 73 240 Q75 270 70 300" fill="none" stroke="#6A0000" stroke-width="1"/>
+  <path d="M80 90 Q82 120 80 160 Q78 200 82 250 Q83 270 80 300" fill="none" stroke="#6A0000" stroke-width="0.8"/>
+  <!-- Curtain swag -->
+  <path d="M65 85 Q150 95 200 88 Q250 82 300 88 Q350 95 435 85" fill="#8B0000" stroke="#B8860B" stroke-width="2"/>
+  <!-- Curtain tassel -->
+  <circle cx="250" cy="85" r="5" fill="#DAA520"/>
+  <path d="M245 90 Q250 100 255 90" fill="#B8860B"/>
+  <line x1="248" y1="95" x2="248" y2="105" stroke="#DAA520" stroke-width="1"/>
+  <line x1="252" y1="95" x2="252" y2="105" stroke="#DAA520" stroke-width="1"/>
+  
+  <!-- Right curtain -->
+  <path d="M435 85 Q420 85 410 95 Q400 140 405 200 Q407 250 410 300 L435 300 Z" fill="url(#curtainRight)"/>
+  <path d="M430 90 Q425 120 428 160 Q430 200 427 240 Q425 270 430 300" fill="none" stroke="#6A0000" stroke-width="1"/>
+  
+  <!-- === SINGER ON STAGE === -->
+  <g transform="translate(250, 165)">
+    <!-- Dress -->
+    <path d="M-20 10 L-35 40 L35 40 L20 10 Z" fill="#4A1A6A"/>
+    <!-- Bodice -->
+    <path d="M-15 -5 L-20 10 L20 10 L15 -5 Z" fill="#5A2A7A"/>
+    <!-- Arms outstretched -->
+    <path d="M-15 0 L-40 -15" stroke="#DEB887" stroke-width="3" stroke-linecap="round"/>
+    <path d="M15 0 L40 -15" stroke="#DEB887" stroke-width="3" stroke-linecap="round"/>
+    <!-- Neck -->
+    <rect x="-4" y="-12" width="8" height="8" fill="#DEB887"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-20" rx="10" ry="12" fill="#DEB887"/>
+    <!-- Hair -->
+    <path d="M-10 -25 Q-12 -35 0 -37 Q12 -35 10 -25" fill="#2A1A0A"/>
+    <!-- Expression -->
+    <ellipse cx="-4" cy="-22" rx="1.5" ry="1" fill="#333"/>
+    <ellipse cx="4" cy="-22" rx="1.5" ry="1" fill="#333"/>
+    <ellipse cx="0" cy="-17" rx="4" ry="3" fill="#A05050" opacity="0.7"/>
+  </g>
+  
+  <!-- Sound waves from singer -->
+  <g fill="none" stroke="#FFE4B5" stroke-width="0.8" opacity="0.3">
+    <path d="M275 145 Q285 150 275 155"/>
+    <path d="M282 140 Q295 150 282 160"/>
+    <path d="M289 135 Q305 150 289 165"/>
+  </g>
+  
+  <!-- Orchestra pit (bottom) -->
+  <rect x="65" y="300" width="370" height="50" fill="#1A0A0A"/>
+  <!-- Orchestra pit rail -->
+  <rect x="65" y="298" width="370" height="4" rx="1" fill="#3A1A1A" stroke="#B8860B" stroke-width="0.5"/>
+  <!-- Tiny conductor/musician silhouettes in pit -->
+  <g fill="#2A2A2A" opacity="0.5">
+    <circle cx="120" cy="320" r="3"/><rect x="118" y="323" width="4" height="8"/>
+    <circle cx="160" cy="322" r="3"/><rect x="158" y="325" width="4" height="8"/>
+    <circle cx="200" cy="320" r="3"/><rect x="198" y="323" width="4" height="8"/>
+    <circle cx="240" cy="322" r="3"/><rect x="238" y="325" width="4" height="8"/>
+    <circle cx="280" cy="320" r="3"/><rect x="278" y="323" width="4" height="8"/>
+    <circle cx="320" cy="322" r="3"/><rect x="318" y="325" width="4" height="8"/>
+    <circle cx="360" cy="320" r="3"/><rect x="358" y="323" width="4" height="8"/>
+    <circle cx="400" cy="322" r="3"/><rect x="398" y="325" width="4" height="8"/>
+  </g>
+  <!-- Music stand lights in pit -->
+  <g fill="#FFE4B5" opacity="0.3">
+    <circle cx="120" cy="315" r="2"/>
+    <circle cx="200" cy="315" r="2"/>
+    <circle cx="280" cy="315" r="2"/>
+    <circle cx="360" cy="315" r="2"/>
+  </g>
+  
+  <!-- Balcony boxes (sides) -->
+  <!-- Left box -->
+  <rect x="5" y="150" width="55" height="40" fill="#3A1A1A" stroke="#B8860B" stroke-width="0.5"/>
+  <rect x="5" y="148" width="55" height="4" rx="1" fill="#5A2A2A" stroke="#B8860B" stroke-width="0.5"/>
+  <!-- Audience silhouettes -->
+  <g fill="#2A1A1A">
+    <circle cx="18" cy="168" r="4"/><circle cx="32" cy="170" r="4"/><circle cx="46" cy="168" r="4"/>
+  </g>
+  
+  <!-- Right box -->
+  <rect x="440" y="150" width="55" height="40" fill="#3A1A1A" stroke="#B8860B" stroke-width="0.5"/>
+  <rect x="440" y="148" width="55" height="4" rx="1" fill="#5A2A2A" stroke="#B8860B" stroke-width="0.5"/>
+  <g fill="#2A1A1A">
+    <circle cx="454" cy="168" r="4"/><circle cx="468" cy="170" r="4"/><circle cx="482" cy="168" r="4"/>
+  </g>
+  
+  <text x="250" y="340" text-anchor="middle" font-size="9" opacity="0.5" font-family="sans-serif" fill="#AAA">Оперное искусство</text>
+</svg>
