@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="studioBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C8B8A0"/>
+      <stop offset="100%" stop-color="#A89878"/>
+    </linearGradient>
+    <linearGradient id="marbleGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F0EDE8"/>
+      <stop offset="30%" stop-color="#E8E4DE"/>
+      <stop offset="60%" stop-color="#F2EFEB"/>
+      <stop offset="100%" stop-color="#E0DCD5"/>
+    </linearGradient>
+    <radialGradient id="marbleVein" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D0CCC5" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#C8C4BD" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#B8B4AD" stop-opacity="0.5"/>
+    </radialGradient>
+  </defs>
+  <!-- Studio background -->
+  <rect width="500" height="350" fill="url(#studioBg)"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="260" width="500" height="90" fill="#8B7E6E"/>
+  <line x1="0" y1="260" x2="500" y2="260" stroke="#7A6E5E" stroke-width="1"/>
+  
+  <!-- Pedestal for bust -->
+  <rect x="280" y="180" width="70" height="80" fill="#A09888" stroke="#8A8070" stroke-width="1"/>
+  <rect x="275" y="175" width="80" height="10" rx="2" fill="#B0A898" stroke="#8A8070" stroke-width="1"/>
+  <rect x="275" y="255" width="80" height="8" rx="2" fill="#908878"/>
+  
+  <!-- Marble bust on pedestal -->
+  <!-- Neck and shoulders -->
+  <path d="M295 180 L290 160 L305 155 L325 155 L340 160 L335 180 Z" fill="url(#marbleGrad)" stroke="#C8C4BD" stroke-width="0.5"/>
+  <!-- Head -->
+  <ellipse cx="315" cy="125" rx="25" ry="32" fill="url(#marbleGrad)" stroke="#C8C4BD" stroke-width="0.5"/>
+  <ellipse cx="315" cy="125" rx="25" ry="32" fill="url(#marbleVein)"/>
+  <!-- Hair -->
+  <path d="M290 115 Q292 90 315 85 Q338 90 340 115" fill="#E0DCD5" stroke="#C8C4BD" stroke-width="0.5"/>
+  <path d="M290 115 Q288 120 289 130" fill="#E0DCD5" stroke="#C8C4BD" stroke-width="0.5"/>
+  <path d="M340 115 Q342 120 341 130" fill="#E0DCD5" stroke="#C8C4BD" stroke-width="0.5"/>
+  <!-- Marble curls -->
+  <g fill="none" stroke="#C8C4BD" stroke-width="0.8">
+    <path d="M292 100 Q288 95 290 88"/>
+    <path d="M300 92 Q298 85 302 80"/>
+    <path d="M338 100 Q342 95 340 88"/>
+    <path d="M330 92 Q332 85 328 80"/>
+  </g>
+  <!-- Eyes - marble style -->
+  <ellipse cx="305" cy="118" rx="5" ry="3" fill="#D0CCC5"/>
+  <ellipse cx="325" cy="118" rx="5" ry="3" fill="#D0CCC5"/>
+  <ellipse cx="305" cy="118" rx="2.5" ry="2.5" fill="#B8B4AD"/>
+  <ellipse cx="325" cy="118" rx="2.5" ry="2.5" fill="#B8B4AD"/>
+  <!-- Nose -->
+  <path d="M315 120 L313 132 L317 132" fill="none" stroke="#C8C4BD" stroke-width="0.8"/>
+  <!-- Mouth -->
+  <path d="M308 140 Q315 143 322 140" fill="none" stroke="#C8C4BD" stroke-width="0.8"/>
+  
+  <!-- Sculptor figure -->
+  <!-- Body -->
+  <path d="M130 170 Q120 200 115 260 L165 260 Q160 200 150 170 Z" fill="#5A6A5A"/>
+  <!-- Apron -->
+  <path d="M120 200 Q140 195 160 200 L158 260 L122 260 Z" fill="#7A7A6A"/>
+  <!-- Head -->
+  <circle cx="140" cy="150" r="18" fill="#DEB887"/>
+  <!-- Hair -->
+  <path d="M122 142 Q125 125 140 122 Q155 125 158 142" fill="#5A3A20"/>
+  <!-- Eyes -->
+  <ellipse cx="134" cy="148" rx="2.5" ry="2" fill="#333"/>
+  <ellipse cx="146" cy="148" rx="2.5" ry="2" fill="#333"/>
+  <!-- Focused expression -->
+  <path d="M137 156 Q140 158 143 156" fill="none" stroke="#A07050" stroke-width="0.8"/>
+  <!-- Arm holding chisel -->
+  <path d="M150 180 L175 200 L195 195" stroke="#DEB887" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- Chisel -->
+  <line x1="195" y1="195" x2="230" y2="175" stroke="#A0A0A0" stroke-width="3" stroke-linecap="round"/>
+  <line x1="230" y1="175" x2="240" y2="170" stroke="#C0C0C0" stroke-width="4"/>
+  <!-- Other arm -->
+  <path d="M120 180 L105 210 L100 235" stroke="#DEB887" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- Mallet in other hand -->
+  <rect x="88" y="230" width="25" height="12" rx="3" fill="#8B6914" stroke="#6B4E12" stroke-width="0.5"/>
+  <line x1="75" y1="236" x2="88" y2="236" stroke="#6B4E12" stroke-width="3"/>
+  
+  <!-- Marble chips on floor -->
+  <g fill="#E0DCD5" opacity="0.6">
+    <polygon points="250,270 255,265 258,272 253,275"/>
+    <polygon points="265,275 270,268 274,274"/>
+    <polygon points="240,280 244,274 248,279"/>
+    <circle cx="260" cy="278" r="2"/>
+    <circle cx="248" cy="283" r="1.5"/>
+  </g>
+  
+  <!-- Workbench -->
+  <rect x="50" y="300" width="400" height="8" rx="2" fill="#6B4E12"/>
+  <line x1="60" y1="308" x2="60" y2="340" stroke="#5A3E0E" stroke-width="4"/>
+  <line x1="440" y1="308" x2="440" y2="340" stroke="#5A3E0E" stroke-width="4"/>
+  
+  <!-- Tools on workbench -->
+  <line x1="390" y1="298" x2="420" y2="280" stroke="#A0A0A0" stroke-width="2"/>
+  <line x1="370" y1="300" x2="390" y2="290" stroke="#A0A0A0" stroke-width="2"/>
+  
+  <!-- Stool -->
+  <ellipse cx="140" cy="280" rx="25" ry="6" fill="#8B6914"/>
+  <line x1="120" y1="280" x2="115" y2="300" stroke="#6B4E12" stroke-width="3"/>
+  <line x1="160" y1="280" x2="165" y2="300" stroke="#6B4E12" stroke-width="3"/>
+  
+  <text x="250" y="340" text-anchor="middle" font-size="9" opacity="0.5" font-family="sans-serif">Скульптура</text>
+</svg>
