@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="composerBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A1A2E"/>
+      <stop offset="100%" stop-color="#0A0A1E"/>
+    </linearGradient>
+    <radialGradient id="spotLeft" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4A6A8A" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#4A6A8A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="spotRight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8A4A4A" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#8A4A4A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Dark elegant background -->
+  <rect width="500" height="350" fill="url(#composerBg)"/>
+  <circle cx="130" cy="175" r="100" fill="url(#spotLeft)"/>
+  <circle cx="370" cy="175" r="100" fill="url(#spotRight)"/>
+  
+  <!-- Decorative staff lines -->
+  <g stroke="#3A3A5A" stroke-width="0.5" opacity="0.2">
+    <line x1="0" y1="40" x2="500" y2="40"/>
+    <line x1="0" y1="48" x2="500" y2="48"/>
+    <line x1="0" y1="56" x2="500" y2="56"/>
+    <line x1="0" y1="64" x2="500" y2="64"/>
+    <line x1="0" y1="72" x2="500" y2="72"/>
+  </g>
+  
+  <!-- Dividing line -->
+  <line x1="250" y1="30" x2="250" y2="280" stroke="#3A3A5A" stroke-width="0.5" stroke-dasharray="4,4"/>
+  
+  <!-- === GLINKA (left) === -->
+  <!-- Silhouette bust -->
+  <g transform="translate(130, 100)">
+    <!-- Shoulders -->
+    <path d="M-40 100 Q-30 80 -15 75 Q0 72 15 75 Q30 80 40 100" fill="#2A3A4A"/>
+    <!-- Neck -->
+    <rect x="-8" y="60" width="16" height="18" fill="#2A3A4A"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="40" rx="25" ry="30" fill="#2A3A4A"/>
+    <!-- Hair - curly style (Glinka) -->
+    <path d="M-25 35 Q-28 20 -20 12 Q-10 5 0 5 Q10 5 20 12 Q28 20 25 35" fill="#2A3A4A"/>
+    <!-- Face features (subtle) -->
+    <ellipse cx="-8" cy="35" rx="3" ry="2" fill="#1A2A3A" opacity="0.5"/>
+    <ellipse cx="8" cy="35" rx="3" ry="2" fill="#1A2A3A" opacity="0.5"/>
+    <path d="M-3 48 Q0 50 3 48" fill="none" stroke="#1A2A3A" stroke-width="0.8"/>
+    <!-- Sideburns -->
+    <path d="M-25 35 Q-27 45 -23 55" fill="#2A3A4A"/>
+    <path d="M25 35 Q27 45 23 55" fill="#2A3A4A"/>
+    <!-- Collar/neckline -->
+    <path d="M-15 75 Q0 80 15 75" fill="none" stroke="#3A4A5A" stroke-width="1"/>
+    <!-- Lapel suggestion -->
+    <line x1="0" y1="75" x2="-5" y2="100" stroke="#3A4A5A" stroke-width="0.5"/>
+    <line x1="0" y1="75" x2="5" y2="100" stroke="#3A4A5A" stroke-width="0.5"/>
+  </g>
+  <!-- Name -->
+  <text x="130" y="230" text-anchor="middle" font-size="12" fill="#6A8AAA" font-family="serif">Глинка</text>
+  <!-- Composition reference - "Ruslan and Lyudmila" -->
+  <text x="130" y="248" text-anchor="middle" font-size="7" fill="#4A6A8A" font-family="sans-serif">«Руслан и Людмила»</text>
+  <!-- Small music notes -->
+  <g fill="#6A8AAA" opacity="0.4">
+    <ellipse cx="70" cy="260" rx="4" ry="3" transform="rotate(-15)"/>
+    <line x1="74" y1="260" x2="74" y2="245" stroke="#6A8AAA" stroke-width="1"/>
+    <ellipse cx="100" cy="265" rx="4" ry="3" transform="rotate(-15)"/>
+    <line x1="104" y1="265" x2="104" y2="250" stroke="#6A8AAA" stroke-width="1"/>
+  </g>
+  
+  <!-- === MUSSORGSKY (right) === -->
+  <g transform="translate(370, 100)">
+    <!-- Shoulders -->
+    <path d="M-40 100 Q-30 80 -15 75 Q0 72 15 75 Q30 80 40 100" fill="#4A2A2A"/>
+    <!-- Neck -->
+    <rect x="-10" y="58" width="20" height="20" fill="#4A2A2A"/>
+    <!-- Head - broader, bearded (Mussorgsky) -->
+    <ellipse cx="0" cy="35" rx="28" ry="32" fill="#4A2A2A"/>
+    <!-- Hair - fuller, receding -->
+    <path d="M-28 30 Q-30 15 -20 5 Q-10 -2 0 -3 Q10 -2 20 5 Q30 15 28 30" fill="#4A2A2A"/>
+    <!-- Beard -->
+    <path d="M-18 48 Q-20 60 -15 75 Q-5 82 0 83 Q5 82 15 75 Q20 60 18 48" fill="#4A2A2A"/>
+    <!-- Face features -->
+    <ellipse cx="-9" cy="30" rx="3" ry="2.5" fill="#3A1A1A" opacity="0.5"/>
+    <ellipse cx="9" cy="30" rx="3" ry="2.5" fill="#3A1A1A" opacity="0.5"/>
+    <!-- Mustache -->
+    <path d="M-12 44 Q-6 48 0 46 Q6 48 12 44" fill="none" stroke="#3A1A1A" stroke-width="1"/>
+    <!-- Collar -->
+    <path d="M-15 75 Q0 82 15 75" fill="none" stroke="#5A3A3A" stroke-width="1"/>
+    <!-- Lapel -->
+    <line x1="0" y1="75" x2="-8" y2="100" stroke="#5A3A3A" stroke-width="0.5"/>
+    <line x1="0" y1="75" x2="8" y2="100" stroke="#5A3A3A" stroke-width="0.5"/>
+  </g>
+  <!-- Name -->
+  <text x="370" y="230" text-anchor="middle" font-size="12" fill="#AA6A6A" font-family="serif">Мусоргский</text>
+  <!-- Composition reference -->
+  <text x="370" y="248" text-anchor="middle" font-size="7" fill="#8A4A4A" font-family="sans-serif">«Картинки с выставки»</text>
+  <!-- Small music notes -->
+  <g fill="#AA6A6A" opacity="0.4">
+    <ellipse cx="400" cy="260" rx="4" ry="3" transform="rotate(-15)"/>
+    <line x1="404" y1="260" x2="404" y2="245" stroke="#AA6A6A" stroke-width="1"/>
+    <ellipse cx="430" cy="265" rx="4" ry="3" transform="rotate(-15)"/>
+    <line x1="434" y1="265" x2="434" y2="250" stroke="#AA6A6A" stroke-width="1"/>
+  </g>
+  
+  <!-- Other composer names as a list at bottom -->
+  <g font-size="8" fill="#5A5A7A" font-family="sans-serif" text-anchor="middle">
+    <text x="80" y="290">Бородин</text>
+    <text x="170" y="290">Римский-Корсаков</text>
+    <text x="310" y="290">Чайковский</text>
+    <text x="420" y="290">Прокофьев</text>
+  </g>
+  
+  <!-- Decorative treble clef -->
+  <path d="M250 300 Q240 290 242 280 Q244 270 250 265 Q256 270 254 280 Q252 290 250 300 Q248 310 255 315 Q262 318 260 310" fill="none" stroke="#4A4A6A" stroke-width="1.5" opacity="0.3"/>
+  
+  <text x="250" y="340" text-anchor="middle" font-size="9" opacity="0.5" font-family="sans-serif" fill="#AAA">Русские композиторы</text>
+</svg>
