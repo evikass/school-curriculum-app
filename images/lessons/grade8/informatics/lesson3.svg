@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f3e5f5"/>
+      <stop offset="100%" stop-color="#e1bee7"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <!-- Flowchart -->
+  <!-- Start (oval) -->
+  <ellipse cx="250" cy="35" rx="50" ry="18" fill="#4caf50" stroke="#2e7d32" stroke-width="2"/>
+  <text x="250" y="39" font-size="9" fill="#fff" text-anchor="middle" font-weight="bold">НАЧАЛО</text>
+  <!-- Arrow down -->
+  <line x1="250" y1="53" x2="250" y2="70" stroke="#546e7a" stroke-width="2"/>
+  <polygon points="250,70 246,63 254,63" fill="#546e7a"/>
+  <!-- Input (parallelogram) -->
+  <polygon points="200,75 310,75 300,100 190,100" fill="#1565c0" stroke="#0d47a1" stroke-width="1.5"/>
+  <text x="250" y="92" font-size="7" fill="#fff" text-anchor="middle">Ввод данных</text>
+  <!-- Arrow down -->
+  <line x1="250" y1="100" x2="250" y2="120" stroke="#546e7a" stroke-width="2"/>
+  <polygon points="250,120 246,113 254,113" fill="#546e7a"/>
+  <!-- Process (rectangle) -->
+  <rect x="190" y="120" width="120" height="30" rx="3" fill="#ff6f00" stroke="#e65100" stroke-width="1.5"/>
+  <text x="250" y="139" font-size="7" fill="#fff" text-anchor="middle">Обработка данных</text>
+  <!-- Arrow down -->
+  <line x1="250" y1="150" x2="250" y2="170" stroke="#546e7a" stroke-width="2"/>
+  <polygon points="250,170 246,163 254,163" fill="#546e7a"/>
+  <!-- Decision (diamond) -->
+  <polygon points="250,170 320,200 250,230 180,200" fill="#c62828" stroke="#880e4f" stroke-width="1.5"/>
+  <text x="250" y="198" font-size="7" fill="#fff" text-anchor="middle">Условие?</text>
+  <!-- Yes arrow (left) -->
+  <line x1="180" y1="200" x2="130" y2="200" stroke="#2e7d32" stroke-width="2"/>
+  <polygon points="130,200 137,196 137,204" fill="#2e7d32"/>
+  <text x="155" y="195" font-size="7" fill="#2e7d32" font-weight="bold">Да</text>
+  <!-- Yes process -->
+  <rect x="50" y="185" width="80" height="30" rx="3" fill="#2e7d32" stroke="#1b5e20" stroke-width="1.5"/>
+  <text x="90" y="204" font-size="7" fill="#fff" text-anchor="middle">Действие 1</text>
+  <!-- Arrow from yes process down -->
+  <line x1="90" y1="215" x2="90" y2="260" stroke="#546e7a" stroke-width="1.5"/>
+  <line x1="90" y1="260" x2="250" y2="260" stroke="#546e7a" stroke-width="1.5"/>
+  <!-- No arrow (right) -->
+  <line x1="320" y1="200" x2="370" y2="200" stroke="#c62828" stroke-width="2"/>
+  <polygon points="370,200 363,196 363,204" fill="#c62828"/>
+  <text x="345" y="195" font-size="7" fill="#c62828" font-weight="bold">Нет</text>
+  <!-- No process -->
+  <rect x="370" y="185" width="80" height="30" rx="3" fill="#c62828" stroke="#880e4f" stroke-width="1.5"/>
+  <text x="410" y="204" font-size="7" fill="#fff" text-anchor="middle">Действие 2</text>
+  <!-- Arrow from no process down -->
+  <line x1="410" y1="215" x2="410" y2="260" stroke="#546e7a" stroke-width="1.5"/>
+  <line x1="410" y1="260" x2="250" y2="260" stroke="#546e7a" stroke-width="1.5"/>
+  <!-- Arrow down to output -->
+  <line x1="250" y1="260" x2="250" y2="272" stroke="#546e7a" stroke-width="2"/>
+  <polygon points="250,272 246,265 254,265" fill="#546e7a"/>
+  <!-- Output (parallelogram) -->
+  <polygon points="200,275 310,275 300,300 190,300" fill="#1565c0" stroke="#0d47a1" stroke-width="1.5"/>
+  <text x="250" y="292" font-size="7" fill="#fff" text-anchor="middle">Вывод результата</text>
+  <!-- Arrow down -->
+  <line x1="250" y1="300" x2="250" y2="315" stroke="#546e7a" stroke-width="2"/>
+  <polygon points="250,315 246,308 254,308" fill="#546e7a"/>
+  <!-- End (oval) -->
+  <ellipse cx="250" cy="330" rx="50" ry="15" fill="#c62828" stroke="#880e4f" stroke-width="2"/>
+  <text x="250" y="334" font-size="9" fill="#fff" text-anchor="middle" font-weight="bold">КОНЕЦ</text>
+  <!-- Legend -->
+  <g transform="translate(460,70)">
+    <ellipse rx="12" ry="6" fill="#4caf50" opacity="0.7"/>
+    <text x="-25" y="3" font-size="5" fill="#333">Начало/Конец</text>
+  </g>
+  <g transform="translate(460,90)">
+    <polygon points="-14,0 14,-6 14,6" fill="#1565c0" opacity="0.7"/>
+    <text x="-25" y="3" font-size="5" fill="#333">Ввод/Вывод</text>
+  </g>
+  <g transform="translate(460,110)">
+    <rect x="-14" y="-6" width="28" height="12" fill="#ff6f00" opacity="0.7"/>
+    <text x="-25" y="3" font-size="5" fill="#333">Процесс</text>
+  </g>
+  <g transform="translate(460,135)">
+    <polygon points="0,-8 14,0 0,8 -14,0" fill="#c62828" opacity="0.7"/>
+    <text x="-25" y="3" font-size="5" fill="#333">Условие</text>
+  </g>
+</svg>
