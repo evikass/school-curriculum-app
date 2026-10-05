@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#162447"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <text x="30" y="30" fill="#e94560" font-size="14" font-weight="bold">Типы химических реакций</text>
+  <!-- Panel 1: Synthesis (Соединение) -->
+  <rect x="20" y="45" width="230" height="80" rx="6" fill="none" stroke="#4cc9f0" stroke-width="1.5"/>
+  <text x="30" y="62" fill="#4cc9f0" font-size="11" font-weight="bold">Соединение (A + B → AB)</text>
+  <circle cx="60" cy="95" r="12" fill="#4cc9f0" fill-opacity="0.15" stroke="#4cc9f0" stroke-width="1"/>
+  <text x="55" y="99" fill="#4cc9f0" font-size="9">A</text>
+  <text x="80" y="99" fill="#a8d8ea" font-size="14">+</text>
+  <circle cx="105" cy="95" r="12" fill="#ffd166" fill-opacity="0.15" stroke="#ffd166" stroke-width="1"/>
+  <text x="100" y="99" fill="#ffd166" font-size="9">B</text>
+  <text x="125" y="99" fill="#e94560" font-size="14">→</text>
+  <ellipse cx="165" cy="95" rx="18" ry="14" fill="#e94560" fill-opacity="0.1" stroke="#e94560" stroke-width="1"/>
+  <text x="155" y="99" fill="#e94560" font-size="9">AB</text>
+  <text x="140" y="118" fill="#7f8c8d" font-size="8">2Mg + O₂ → 2MgO</text>
+  <!-- Panel 2: Decomposition (Разложение) -->
+  <rect x="260" y="45" width="230" height="80" rx="6" fill="none" stroke="#ffd166" stroke-width="1.5"/>
+  <text x="270" y="62" fill="#ffd166" font-size="11" font-weight="bold">Разложение (AB → A + B)</text>
+  <ellipse cx="300" cy="95" rx="18" ry="14" fill="#e94560" fill-opacity="0.1" stroke="#e94560" stroke-width="1"/>
+  <text x="290" y="99" fill="#e94560" font-size="9">AB</text>
+  <text x="325" y="99" fill="#ffd166" font-size="14">→</text>
+  <circle cx="360" cy="95" r="12" fill="#4cc9f0" fill-opacity="0.15" stroke="#4cc9f0" stroke-width="1"/>
+  <text x="355" y="99" fill="#4cc9f0" font-size="9">A</text>
+  <text x="380" y="99" fill="#a8d8ea" font-size="14">+</text>
+  <circle cx="405" cy="95" r="12" fill="#ffd166" fill-opacity="0.15" stroke="#ffd166" stroke-width="1"/>
+  <text x="400" y="99" fill="#ffd166" font-size="9">B</text>
+  <text x="285" y="118" fill="#7f8c8d" font-size="8">2H₂O → 2H₂ + O₂</text>
+  <!-- Panel 3: Replacement (Замещение) -->
+  <rect x="20" y="135" width="230" height="80" rx="6" fill="none" stroke="#2a9d8f" stroke-width="1.5"/>
+  <text x="30" y="152" fill="#2a9d8f" font-size="11" font-weight="bold">Замещение (A + BC → AC + B)</text>
+  <circle cx="55" cy="185" r="10" fill="#4cc9f0" fill-opacity="0.15" stroke="#4cc9f0" stroke-width="1"/>
+  <text x="51" y="189" fill="#4cc9f0" font-size="8">A</text>
+  <text x="72" y="189" fill="#a8d8ea" font-size="12">+</text>
+  <ellipse cx="100" cy="185" rx="16" ry="11" fill="#ffd166" fill-opacity="0.1" stroke="#ffd166" stroke-width="1"/>
+  <text x="92" y="189" fill="#ffd166" font-size="8">BC</text>
+  <text x="122" y="189" fill="#2a9d8f" font-size="12">→</text>
+  <ellipse cx="155" cy="185" rx="16" ry="11" fill="#4cc9f0" fill-opacity="0.1" stroke="#4cc9f0" stroke-width="1"/>
+  <text x="147" y="189" fill="#4cc9f0" font-size="8">AC</text>
+  <text x="177" y="189" fill="#a8d8ea" font-size="12">+</text>
+  <circle cx="202" cy="185" r="10" fill="#ffd166" fill-opacity="0.15" stroke="#ffd166" stroke-width="1"/>
+  <text x="198" y="189" fill="#ffd166" font-size="8">B</text>
+  <text x="45" y="208" fill="#7f8c8d" font-size="8">Zn + 2HCl → ZnCl₂ + H₂</text>
+  <!-- Panel 4: Exchange (Обмен) -->
+  <rect x="260" y="135" width="230" height="80" rx="6" fill="none" stroke="#e76f51" stroke-width="1.5"/>
+  <text x="270" y="152" fill="#e76f51" font-size="11" font-weight="bold">Обмен (AB + CD → AD + CB)</text>
+  <ellipse cx="295" cy="185" rx="16" ry="11" fill="#4cc9f0" fill-opacity="0.1" stroke="#4cc9f0" stroke-width="1"/>
+  <text x="287" y="189" fill="#4cc9f0" font-size="8">AB</text>
+  <text x="317" y="189" fill="#a8d8ea" font-size="12">+</text>
+  <ellipse cx="345" cy="185" rx="16" ry="11" fill="#ffd166" fill-opacity="0.1" stroke="#ffd166" stroke-width="1"/>
+  <text x="337" y="189" fill="#ffd166" font-size="8">CD</text>
+  <text x="367" y="189" fill="#e76f51" font-size="12">→</text>
+  <ellipse cx="395" cy="185" rx="16" ry="11" fill="#2a9d8f" fill-opacity="0.1" stroke="#2a9d8f" stroke-width="1"/>
+  <text x="387" y="189" fill="#2a9d8f" font-size="8">AD</text>
+  <text x="417" y="189" fill="#a8d8ea" font-size="12">+</text>
+  <ellipse cx="445" cy="185" rx="16" ry="11" fill="#e76f51" fill-opacity="0.1" stroke="#e76f51" stroke-width="1"/>
+  <text x="437" y="189" fill="#e76f51" font-size="8">CB</text>
+  <text x="280" y="208" fill="#7f8c8d" font-size="8">NaOH + HCl → NaCl + H₂O</text>
+  <!-- Classification by thermal/light -->
+  <text x="30" y="245" fill="#a8d8ea" font-size="13" font-weight="bold">По тепловому эффекту:</text>
+  <rect x="30" y="255" width="210" height="22" rx="4" fill="#e94560" fill-opacity="0.08" stroke="#e94560" stroke-width="1"/>
+  <text x="40" y="271" fill="#e94560" font-size="11">Экзотермические (+Q, тепло)</text>
+  <rect x="250" y="255" width="210" height="22" rx="4" fill="#4cc9f0" fill-opacity="0.08" stroke="#4cc9f0" stroke-width="1"/>
+  <text x="260" y="271" fill="#4cc9f0" font-size="11">Эндотермические (−Q, холод)</text>
+  <!-- Key principles -->
+  <text x="30" y="305" fill="#7f8c8d" font-size="11">Закон сохранения массы: масса реагентов = масса продуктов</text>
+  <text x="30" y="322" fill="#7f8c8d" font-size="11">Закон сохранения энергии: энергия не возникает и не исчезает</text>
+  <text x="250" y="340" fill="#fff" font-size="9" opacity="0.5" text-anchor="middle">Типы химических реакций</text>
+</svg>
