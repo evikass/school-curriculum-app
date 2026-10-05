@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#0f3460"/>
+    </linearGradient>
+    <marker id="arrow4" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#e0e0e0"/>
+    </marker>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg4)"/>
+  <!-- Flowchart -->
+  <!-- Start oval -->
+  <ellipse cx="250" cy="35" rx="60" ry="20" fill="#00b894" stroke="#00a381" stroke-width="1.5"/>
+  <text x="250" y="40" fill="white" font-size="12" font-family="sans-serif" text-anchor="middle">НАЧАЛО</text>
+  <!-- Arrow down -->
+  <line x1="250" y1="55" x2="250" y2="75" stroke="#e0e0e0" stroke-width="1.5" marker-end="url(#arrow4)"/>
+  <!-- Input parallelogram -->
+  <polygon points="190,80 320,80 310,110 180,110" fill="#6c5ce7" stroke="#5f3dc4" stroke-width="1.5"/>
+  <text x="250" y="100" fill="white" font-size="11" font-family="monospace" text-anchor="middle">x = int(input())</text>
+  <!-- Arrow down -->
+  <line x1="250" y1="110" x2="250" y2="135" stroke="#e0e0e0" stroke-width="1.5" marker-end="url(#arrow4)"/>
+  <!-- Diamond - condition -->
+  <polygon points="250,140 350,180 250,220 150,180" fill="#fdcb6e" stroke="#f0b429" stroke-width="1.5"/>
+  <text x="250" y="176" fill="#333" font-size="11" font-family="monospace" text-anchor="middle">x &gt; 0 ?</text>
+  <!-- True branch - left -->
+  <line x1="150" y1="180" x2="80" y2="180" stroke="#00b894" stroke-width="1.5" marker-end="url(#arrow4)"/>
+  <text x="120" y="174" fill="#00b894" font-size="10" font-family="sans-serif">Да</text>
+  <line x1="80" y1="180" x2="80" y2="220" stroke="#e0e0e0" stroke-width="1.5" marker-end="url(#arrow4)"/>
+  <!-- True box -->
+  <rect x="20" y="225" width="120" height="35" rx="5" fill="#00b894" stroke="#00a381" stroke-width="1.5"/>
+  <text x="80" y="247" fill="white" font-size="10" font-family="monospace" text-anchor="middle">print("Положит.")</text>
+  <!-- False branch - right -->
+  <line x1="350" y1="180" x2="420" y2="180" stroke="#e17055" stroke-width="1.5" marker-end="url(#arrow4)"/>
+  <text x="380" y="174" fill="#e17055" font-size="10" font-family="sans-serif">Нет</text>
+  <line x1="420" y1="180" x2="420" y2="220" stroke="#e0e0e0" stroke-width="1.5" marker-end="url(#arrow4)"/>
+  <!-- False box -->
+  <rect x="360" y="225" width="120" height="35" rx="5" fill="#e17055" stroke="#d63031" stroke-width="1.5"/>
+  <text x="420" y="247" fill="white" font-size="10" font-family="monospace" text-anchor="middle">print("Неположит.")</text>
+  <!-- Merge arrows -->
+  <line x1="80" y1="260" x2="80" y2="285" stroke="#e0e0e0" stroke-width="1.5"/>
+  <line x1="420" y1="260" x2="420" y2="285" stroke="#e0e0e0" stroke-width="1.5"/>
+  <line x1="80" y1="285" x2="420" y2="285" stroke="#e0e0e0" stroke-width="1.5"/>
+  <line x1="250" y1="285" x2="250" y2="300" stroke="#e0e0e0" stroke-width="1.5" marker-end="url(#arrow4)"/>
+  <!-- End oval -->
+  <ellipse cx="250" cy="320" rx="50" ry="18" fill="#6c5ce7" stroke="#5f3dc4" stroke-width="1.5"/>
+  <text x="250" y="325" fill="white" font-size="12" font-family="sans-serif" text-anchor="middle">КОНЕЦ</text>
+  <!-- Code snippet on the side -->
+  <g transform="translate(10, 280)" opacity="0.4">
+    <text fill="#7ee787" font-size="9" font-family="monospace">
+      <tspan x="0" dy="0">if x &gt; 0:</tspan>
+      <tspan x="10" dy="12">print("+")</tspan>
+      <tspan x="0" dy="12">else:</tspan>
+      <tspan x="10" dy="12">print("-")</tspan>
+    </text>
+  </g>
+  <text x="250" y="340" fill="#aaa" font-size="9" opacity="0.5" font-family="sans-serif" text-anchor="middle">Условные операторы</text>
+</svg>
