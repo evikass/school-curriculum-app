@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg9s" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#263238"/>
+      <stop offset="100%" stop-color="#37474f"/>
+    </linearGradient>
+    <radialGradient id="flash9s" cx="0.5" cy="0.5">
+      <stop offset="0%" stop-color="#fff9c4"/>
+      <stop offset="50%" stop-color="#ffeb3b"/>
+      <stop offset="100%" stop-color="#f9a825" opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg9s)"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="280" width="500" height="70" fill="#455a64"/>
+  
+  <!-- Emergency kit (center) -->
+  <g transform="translate(250,200)">
+    <!-- Backpack -->
+    <path d="M-35,-40 L-30,30 L30,30 L35,-40 Z" fill="#e65100" stroke="#bf360c" stroke-width="2"/>
+    <path d="M-30,-40 L-25,25 L25,25 L30,-40 Z" fill="#ff6d00" stroke="#e65100" stroke-width="1"/>
+    <!-- Top flap -->
+    <path d="M-35,-40 Q0,-55 35,-40 Z" fill="#ff8f00"/>
+    <!-- Straps -->
+    <path d="M-20,-35 L-25,20" stroke="#bf360c" stroke-width="4" fill="none"/>
+    <path d="M20,-35 L25,20" stroke="#bf360c" stroke-width="4" fill="none"/>
+    <!-- Buckle -->
+    <rect x="-6" y="-10" width="12" height="6" rx="1" fill="#ffd54f"/>
+    <!-- Red cross -->
+    <rect x="-3" y="-25" width="6" height="15" rx="1" fill="#fff"/>
+    <rect x="-8" y="-20" width="16" height="5" rx="1" fill="#fff"/>
+    
+    <!-- Items spilling out -->
+    <!-- Water bottle -->
+    <g transform="translate(45,5)">
+      <rect x="-5" y="-15" width="10" height="20" rx="3" fill="#42a5f5"/>
+      <rect x="-3" y="-18" width="6" height="5" rx="1" fill="#90caf9"/>
+    </g>
+    <!-- Can -->
+    <g transform="translate(48,20)">
+      <rect x="-7" y="-6" width="14" height="12" rx="2" fill="#78909c"/>
+      <rect x="-7" y="-6" width="14" height="3" rx="1" fill="#90a4ae"/>
+    </g>
+    <!-- Radio -->
+    <g transform="translate(-45,10)">
+      <rect x="-10" y="-8" width="20" height="14" rx="2" fill="#333"/>
+      <circle cx="-4" cy="0" r="4" fill="#555" stroke="#666" stroke-width="0.5"/>
+      <rect x="3" y="-5" width="5" height="3" rx="1" fill="#4caf50"/>
+    </g>
+  </g>
+  
+  <!-- Flashlight (left) -->
+  <g transform="translate(80,170)">
+    <rect x="-12" y="-8" width="35" height="16" rx="4" fill="#fdd835" stroke="#f9a825" stroke-width="1.5"/>
+    <!-- Light beam -->
+    <path d="M23,-5 L60,-25 L60,25 L23,5 Z" fill="url(#flash9s)" opacity="0.5"/>
+    <circle cx="55" cy="0" r="25" fill="url(#flash9s)" opacity="0.2"/>
+    <!-- Switch -->
+    <rect x="5" y="-10" width="6" height="3" rx="1" fill="#4caf50"/>
+    <!-- End cap -->
+    <rect x="-15" y="-6" width="5" height="12" rx="2" fill="#333"/>
+    <text x="5" y="25" text-anchor="middle" font-size="7" fill="#fdd835" font-family="Arial">Фонарик</text>
+  </g>
+  
+  <!-- Meeting point sign -->
+  <g transform="translate(420,120)">
+    <!-- Post -->
+    <rect x="-3" y="-5" width="6" height="90" fill="#78909c"/>
+    <!-- Sign -->
+    <rect x="-30" y="-30" width="60" height="35" rx="4" fill="#4caf50" stroke="#2e7d32" stroke-width="2"/>
+    <text x="0" y="-15" text-anchor="middle" font-size="7" fill="#fff" font-weight="bold" font-family="Arial">ТОЧКА</text>
+    <text x="0" y="-5" text-anchor="middle" font-size="7" fill="#fff" font-weight="bold" font-family="Arial">СБОРА</text>
+    <!-- People icon -->
+    <g transform="translate(0,5)" fill="#fff" opacity="0.8">
+      <circle cx="-10" cy="-3" r="3"/>
+      <circle cx="10" cy="-3" r="3"/>
+      <rect x="-13" y="0" width="6" height="8" rx="1"/>
+      <rect x="7" y="0" width="6" height="8" rx="1"/>
+    </g>
+  </g>
+  
+  <!-- Whistle -->
+  <g transform="translate(130,260)">
+    <ellipse cx="0" cy="0" rx="12" ry="7" fill="#ff9800"/>
+    <rect x="8" y="-3" width="10" height="6" rx="2" fill="#ff9800"/>
+    <circle cx="0" cy="0" r="3" fill="#e65100"/>
+    <path d="M18,-1 Q25,-8 28,-3" stroke="#ff9800" stroke-width="2" fill="none"/>
+    <text x="5" y="18" text-anchor="middle" font-size="7" fill="#ff9800" font-family="Arial">Свисток</text>
+  </g>
+  
+  <!-- First aid kit -->
+  <g transform="translate(400,260)">
+    <rect x="-25" y="-18" width="50" height="35" rx="4" fill="#f44336" stroke="#c62828" stroke-width="1.5"/>
+    <rect x="-5" y="-8" width="10" height="20" rx="2" fill="#fff"/>
+    <rect x="-12" y="-2" width="24" height="8" rx="2" fill="#fff"/>
+    <path d="M-10,-18 Q-10,-28 0,-28 Q10,-28 10,-18" fill="none" stroke="#c62828" stroke-width="2"/>
+    <text x="0" y="28" text-anchor="middle" font-size="7" fill="#f44336" font-family="Arial">Аптечка</text>
+  </g>
+  
+  <!-- Checklist overlay -->
+  <g transform="translate(90,60)">
+    <rect x="-55" y="-35" width="110" height="100" rx="5" fill="white" opacity="0.1" stroke="#fff" stroke-width="0.5"/>
+    <text x="0" y="-22" text-anchor="middle" font-size="8" fill="#fdd835" font-weight="bold" font-family="Arial">НАБОР ВЫЖИВАНИЯ</text>
+    <text x="-45" y="-8" font-size="6" fill="#b0bec5" font-family="Arial">☑ Вода</text>
+    <text x="-45" y="3" font-size="6" fill="#b0bec5" font-family="Arial">☑ Еда (консервы)</text>
+    <text x="-45" y="14" font-size="6" fill="#b0bec5" font-family="Arial">☑ Фонарик</text>
+    <text x="-45" y="25" font-size="6" fill="#b0bec5" font-family="Arial">☑ Аптечка</text>
+    <text x="-45" y="36" font-size="6" fill="#b0bec5" font-family="Arial">☑ Радио</text>
+    <text x="-45" y="47" font-size="6" fill="#b0bec5" font-family="Arial">☑ Документы</text>
+  </g>
+  
+  <text x="250" y="342" text-anchor="middle" font-size="9" opacity="0.5" fill="#b0bec5" font-family="Arial, sans-serif">Поведение в экстремальных ситуациях</text>
+</svg>
