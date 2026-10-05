@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg9" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a237e"/>
+      <stop offset="100%" stop-color="#283593"/>
+    </linearGradient>
+    <linearGradient id="card9" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff"/>
+      <stop offset="100%" stop-color="#f5f5f5"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg9)"/>
+  
+  <!-- Strength icon (top-left) -->
+  <g transform="translate(70,80)">
+    <rect x="-55" y="-55" width="110" height="110" rx="12" fill="url(#card9)" opacity="0.95"/>
+    <!-- Dumbbell -->
+    <rect x="-35" y="-5" width="12" height="10" rx="2" fill="#555"/>
+    <rect x="23" y="-5" width="12" height="10" rx="2" fill="#555"/>
+    <rect x="-23" y="-2" width="46" height="4" rx="1" fill="#888"/>
+    <!-- Weight plates -->
+    <rect x="-40" y="-12" width="10" height="24" rx="2" fill="#333"/>
+    <rect x="30" y="-12" width="10" height="24" rx="2" fill="#333"/>
+    <rect x="-45" y="-8" width="8" height="16" rx="2" fill="#444"/>
+    <rect x="37" y="-8" width="8" height="16" rx="2" fill="#444"/>
+    <!-- Flexed arm icon above -->
+    <path d="M-15,-30 Q-20,-42 -5,-42 Q5,-42 5,-32 L0,-28" stroke="#e53935" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <text x="0" y="40" text-anchor="middle" font-size="9" fill="#e53935" font-weight="bold" font-family="Arial">Сила</text>
+  </g>
+  
+  <!-- Speed icon (top-right) -->
+  <g transform="translate(250,80)">
+    <rect x="-55" y="-55" width="110" height="110" rx="12" fill="url(#card9)" opacity="0.95"/>
+    <!-- Speedometer -->
+    <path d="M-30,15 A35,35 0 0,1 30,15" fill="none" stroke="#333" stroke-width="3"/>
+    <!-- Tick marks -->
+    <line x1="-28" y1="12" x2="-24" y2="5" stroke="#666" stroke-width="1.5"/>
+    <line x1="-15" y1="-12" x2="-12" y2="-5" stroke="#666" stroke-width="1.5"/>
+    <line x1="0" y1="-18" x2="0" y2="-10" stroke="#666" stroke-width="1.5"/>
+    <line x1="15" y1="-12" x2="12" y2="-5" stroke="#666" stroke-width="1.5"/>
+    <line x1="28" y1="12" x2="24" y2="5" stroke="#666" stroke-width="1.5"/>
+    <!-- Needle pointing high -->
+    <line x1="0" y1="12" x2="20" y2="-10" stroke="#ff9800" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="0" cy="12" r="4" fill="#ff9800"/>
+    <!-- Speed lines -->
+    <line x1="-35" y1="-25" x2="-22" y2="-25" stroke="#ff9800" stroke-width="2" opacity="0.7"/>
+    <line x1="-38" y1="-18" x2="-28" y2="-18" stroke="#ff9800" stroke-width="1.5" opacity="0.5"/>
+    <line x1="-35" y1="-11" x2="-25" y2="-11" stroke="#ff9800" stroke-width="1.5" opacity="0.3"/>
+    <text x="0" y="40" text-anchor="middle" font-size="9" fill="#ff9800" font-weight="bold" font-family="Arial">Скорость</text>
+  </g>
+  
+  <!-- Endurance icon (bottom-left) -->
+  <g transform="translate(140,230)">
+    <rect x="-55" y="-55" width="110" height="110" rx="12" fill="url(#card9)" opacity="0.95"/>
+    <!-- Heart with pulse line -->
+    <path d="M0,15 Q-30,-10 -20,-25 Q-10,-38 0,-20 Q10,-38 20,-25 Q30,-10 0,15 Z" fill="#e53935" opacity="0.8"/>
+    <!-- ECG line across -->
+    <polyline points="-40,5 -20,5 -12,-15 -5,15 3,-10 10,5 40,5" fill="none" stroke="#1a237e" stroke-width="2.5"/>
+    <!-- Running figure -->
+    <g transform="translate(0,-38)" opacity="0.4">
+      <circle cx="0" cy="-5" r="4" fill="#333"/>
+      <path d="M0,0 L-2,12 M-2,12 L-8,20 M-2,12 L5,18 M0,2 Q-8,5 -10,10 M0,2 Q6,8 10,6" stroke="#333" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </g>
+    <text x="0" y="40" text-anchor="middle" font-size="9" fill="#e53935" font-weight="bold" font-family="Arial">Выносливость</text>
+  </g>
+  
+  <!-- Flexibility icon (bottom-right) -->
+  <g transform="translate(360,230)">
+    <rect x="-55" y="-55" width="110" height="110" rx="12" fill="url(#card9)" opacity="0.95"/>
+    <!-- Person doing a stretch/bend -->
+    <!-- Head -->
+    <circle cx="0" cy="-25" r="8" fill="#ffb57c"/>
+    <!-- Body bending -->
+    <path d="M0,-17 Q5,-5 10,5 Q15,15 25,20" stroke="#7b1fa2" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- Legs in split -->
+    <path d="M25,20 L45,30" stroke="#ffb57c" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M25,20 L5,35" stroke="#ffb57c" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Arms reaching to toe -->
+    <path d="M5,-10 Q15,-5 25,0 Q35,5 40,15" stroke="#ffb57c" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M-5,-10 Q-10,-5 -12,0" stroke="#ffb57c" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Curved arrow showing flexibility -->
+    <path d="M-20,-30 Q-35,-10 -20,10" stroke="#7b1fa2" stroke-width="2" fill="none" marker-end="url(#arrow9)"/>
+    <defs>
+      <marker id="arrow9" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+        <polygon points="0,0 8,3 0,6" fill="#7b1fa2"/>
+      </marker>
+    </defs>
+    <text x="0" y="40" text-anchor="middle" font-size="9" fill="#7b1fa2" font-weight="bold" font-family="Arial">Гибкость</text>
+  </g>
+  
+  <!-- Connecting lines between cards -->
+  <line x1="125" y1="135" x2="195" y2="175" stroke="#fff" stroke-width="1" opacity="0.2" stroke-dasharray="4,3"/>
+  <line x1="305" y1="135" x2="250" y2="175" stroke="#fff" stroke-width="1" opacity="0.2" stroke-dasharray="4,3"/>
+  <line x1="195" y1="285" x2="305" y2="285" stroke="#fff" stroke-width="1" opacity="0.2" stroke-dasharray="4,3"/>
+  
+  <text x="250" y="342" text-anchor="middle" font-size="9" opacity="0.5" fill="#fff" font-family="Arial, sans-serif">Физическая подготовка</text>
+</svg>
