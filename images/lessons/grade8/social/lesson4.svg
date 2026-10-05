@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8eaf6"/>
+      <stop offset="100%" stop-color="#c5cae9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <!-- Government building (top center) -->
+  <rect x="180" y="20" width="140" height="80" fill="#546e7a" stroke="#37474f" stroke-width="2"/>
+  <polygon points="175,20 250,0 325,20" fill="#455a64" stroke="#37474f" stroke-width="1"/>
+  <!-- Columns -->
+  <rect x="195" y="30" width="8" height="70" fill="#78909c"/>
+  <rect x="215" y="30" width="8" height="70" fill="#78909c"/>
+  <rect x="235" y="30" width="8" height="70" fill="#78909c"/>
+  <rect x="255" y="30" width="8" height="70" fill="#78909c"/>
+  <rect x="275" y="30" width="8" height="70" fill="#78909c"/>
+  <rect x="295" y="30" width="8" height="70" fill="#78909c"/>
+  <!-- Dome -->
+  <path d="M220,20 Q250,5 280,20" fill="#78909c" stroke="#546e7a" stroke-width="1"/>
+  <!-- Flag -->
+  <line x1="250" y1="5" x2="250" y2="-10" stroke="#333" stroke-width="1.5"/>
+  <rect x="250" y="-10" width="20" height="10" fill="#c62828"/>
+  <!-- ГОСУДАРСТВО label -->
+  <text x="250" y="68" font-size="9" fill="#fff" text-anchor="middle" font-weight="bold">ГОСУДАРСТВО</text>
+  <!-- Tax flow arrows (left: people → state) -->
+  <path d="M100,150 Q130,120 180,100" fill="none" stroke="#c62828" stroke-width="2"/>
+  <polygon points="180,100 172,100 176,108" fill="#c62828"/>
+  <text x="110" y="135" font-size="7" fill="#c62828" font-weight="bold">НАЛОГИ</text>
+  <!-- Money bags from people -->
+  <g transform="translate(60,155)">
+    <ellipse cx="10" cy="8" rx="10" ry="8" fill="#f9a825" stroke="#f57f17" stroke-width="1"/>
+    <text x="10" y="12" font-size="7" fill="#fff" text-anchor="middle">₽</text>
+  </g>
+  <!-- Public goods flow (right: state → people) -->
+  <path d="M320,100 Q370,120 400,150" fill="none" stroke="#2e7d32" stroke-width="2"/>
+  <polygon points="400,150 396,142 404,144" fill="#2e7d32"/>
+  <text x="380" y="125" font-size="7" fill="#2e7d32" font-weight="bold">БЛАГА</text>
+  <!-- Public goods icons -->
+  <g transform="translate(410,155)">
+    <rect x="0" y="0" width="25" height="15" rx="2" fill="#4caf50" opacity="0.5"/>
+    <text x="12" y="11" font-size="6" fill="#fff" text-anchor="middle">🏥</text>
+  </g>
+  <g transform="translate(440,155)">
+    <rect x="0" y="0" width="25" height="15" rx="2" fill="#1976d2" opacity="0.5"/>
+    <text x="12" y="11" font-size="6" fill="#fff" text-anchor="middle">🏫</text>
+  </g>
+  <!-- Regulation arrows (bidirectional) -->
+  <path d="M230,100 Q220,140 215,180" fill="none" stroke="#1565c0" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <polygon points="215,180 219,173 211,175" fill="#1565c0"/>
+  <path d="M270,180 Q265,140 260,100" fill="none" stroke="#ff6f00" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <polygon points="260,100 264,107 256,105" fill="#ff6f00"/>
+  <text x="215" y="195" font-size="6" fill="#1565c0">Регулирование</text>
+  <!-- People/Citizens (bottom) -->
+  <g transform="translate(100,240)">
+    <circle cx="0" cy="0" r="8" fill="#ffcc80"/>
+    <rect x="-6" y="10" width="12" height="18" rx="2" fill="#42a5f5"/>
+  </g>
+  <g transform="translate(140,245)">
+    <circle cx="0" cy="0" r="8" fill="#ffcc80"/>
+    <rect x="-6" y="10" width="12" height="18" rx="2" fill="#66bb6a"/>
+  </g>
+  <g transform="translate(180,240)">
+    <circle cx="0" cy="0" r="8" fill="#ffcc80"/>
+    <rect x="-6" y="10" width="12" height="18" rx="2" fill="#ffa726"/>
+  </g>
+  <g transform="translate(280,240)">
+    <circle cx="0" cy="0" r="8" fill="#ffcc80"/>
+    <rect x="-6" y="10" width="12" height="18" rx="2" fill="#ef5350"/>
+  </g>
+  <g transform="translate(320,245)">
+    <circle cx="0" cy="0" r="8" fill="#ffcc80"/>
+    <rect x="-6" y="10" width="12" height="18" rx="2" fill="#ab47bc"/>
+  </g>
+  <g transform="translate(360,240)">
+    <circle cx="0" cy="0" r="8" fill="#ffcc80"/>
+    <rect x="-6" y="10" width="12" height="18" rx="2" fill="#26a69a"/>
+  </g>
+  <!-- Labels -->
+  <text x="140" y="285" font-size="7" fill="#333">Граждане</text>
+  <text x="320" y="285" font-size="7" fill="#333">Граждане</text>
+  <!-- Bottom legend -->
+  <rect x="50" y="300" width="400" height="25" rx="5" fill="#fff" opacity="0.7" stroke="#90a4ae"/>
+  <line x1="70" y1="315" x2="95" y2="315" stroke="#c62828" stroke-width="2"/>
+  <text x="100" y="318" font-size="6" fill="#333">Налоги</text>
+  <line x1="160" y1="315" x2="185" y2="315" stroke="#2e7d32" stroke-width="2"/>
+  <text x="190" y="318" font-size="6" fill="#333">Общественные блага</text>
+  <line x1="300" y1="315" x2="325" y2="315" stroke="#1565c0" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="330" y="318" font-size="6" fill="#333">Регулирование</text>
+  <text x="250" y="340" font-size="9" fill="#333" opacity="0.5" text-anchor="middle">Государство и экономика</text>
+</svg>
