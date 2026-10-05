@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#212529"/>
+      <stop offset="100%" stop-color="#343a40"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <!-- Rectangle -->
+  <rect x="30" y="40" width="130" height="90" rx="2" fill="none" stroke="#e63946" stroke-width="2.5"/>
+  <!-- Right angle marks -->
+  <rect x="30" y="40" width="10" height="10" fill="none" stroke="#e63946" stroke-width="1"/>
+  <rect x="150" y="40" width="10" height="10" fill="none" stroke="#e63946" stroke-width="1" transform="scale(-1,1) translate(-310,0)"/>
+  <rect x="30" y="120" width="10" height="10" fill="none" stroke="#e63946" stroke-width="1"/>
+  <text x="80" y="35" fill="#e63946" font-size="12" font-weight="bold">Прямоугольник</text>
+  <text x="60" y="95" fill="#a8dadc" font-size="11">все углы 90°</text>
+  <text x="55" y="110" fill="#a8dadc" font-size="11">диагонали равны</text>
+  <!-- Diagonal -->
+  <line x1="30" y1="40" x2="160" y2="130" stroke="#e63946" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="160" y1="40" x2="30" y2="130" stroke="#e63946" stroke-width="1" stroke-dasharray="3,2"/>
+  <!-- Rhombus -->
+  <polygon points="260,40 330,85 260,130 190,85" fill="none" stroke="#457b9d" stroke-width="2.5"/>
+  <text x="230" y="35" fill="#457b9d" font-size="12" font-weight="bold">Ромб</text>
+  <!-- Equal side marks -->
+  <line x1="248" y1="58" x2="253" y2="68" stroke="#f1faee" stroke-width="1.5"/>
+  <line x1="270" y1="58" x2="275" y2="68" stroke="#f1faee" stroke-width="1.5"/>
+  <line x1="270" y1="102" x2="275" y2="112" stroke="#f1faee" stroke-width="1.5"/>
+  <line x1="248" y1="102" x2="253" y2="112" stroke="#f1faee" stroke-width="1.5"/>
+  <!-- Diagonals perpendicular -->
+  <line x1="260" y1="40" x2="260" y2="130" stroke="#457b9d" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <line x1="190" y1="85" x2="330" y2="85" stroke="#457b9d" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <!-- Right angle at center -->
+  <rect x="260" y="85" width="6" height="6" fill="none" stroke="#f1faee" stroke-width="0.8"/>
+  <text x="225" y="95" fill="#a8dadc" font-size="10">все стороны равны</text>
+  <text x="220" y="108" fill="#a8dadc" font-size="10">диагонали ⊥</text>
+  <!-- Square -->
+  <rect x="370" y="50" width="80" height="80" fill="none" stroke="#2a9d8f" stroke-width="2.5"/>
+  <text x="380" y="45" fill="#2a9d8f" font-size="12" font-weight="bold">Квадрат</text>
+  <!-- Right angles -->
+  <rect x="370" y="50" width="8" height="8" fill="none" stroke="#2a9d8f" stroke-width="1"/>
+  <!-- Equal side marks -->
+  <line x1="398" y1="50" x2="403" y2="58" stroke="#f1faee" stroke-width="1.5"/>
+  <line x1="398" y1="130" x2="403" y2="122" stroke="#f1faee" stroke-width="1.5"/>
+  <!-- Diagonals -->
+  <line x1="370" y1="50" x2="450" y2="130" stroke="#2a9d8f" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="450" y1="50" x2="370" y2="130" stroke="#2a9d8f" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="370" y="150" fill="#a8dadc" font-size="10">= прямоугольник + ромб</text>
+  <!-- Hierarchy diagram -->
+  <text x="30" y="190" fill="#f4a261" font-size="13" font-weight="bold">Иерархия:</text>
+  <rect x="150" y="175" width="120" height="25" rx="12" fill="none" stroke="#e76f51" stroke-width="1.5"/>
+  <text x="170" y="192" fill="#e76f51" font-size="11">Параллелограмм</text>
+  <line x1="180" y1="200" x2="120" y2="230" stroke="#e63946" stroke-width="1"/>
+  <line x1="240" y1="200" x2="310" y2="230" stroke="#457b9d" stroke-width="1"/>
+  <rect x="60" y="230" width="110" height="22" rx="10" fill="none" stroke="#e63946" stroke-width="1.5"/>
+  <text x="78" y="245" fill="#e63946" font-size="11">Прямоугольник</text>
+  <rect x="260" y="230" width="80" height="22" rx="10" fill="none" stroke="#457b9d" stroke-width="1.5"/>
+  <text x="284" y="245" fill="#457b9d" font-size="11">Ромб</text>
+  <!-- Lines to square -->
+  <line x1="140" y1="252" x2="200" y2="280" stroke="#2a9d8f" stroke-width="1"/>
+  <line x1="310" y1="252" x2="240" y2="280" stroke="#2a9d8f" stroke-width="1"/>
+  <rect x="185" y="280" width="80" height="22" rx="10" fill="#2a9d8f" fill-opacity="0.2" stroke="#2a9d8f" stroke-width="1.5"/>
+  <text x="205" y="295" fill="#2a9d8f" font-size="11">Квадрат</text>
+  <!-- Formulas -->
+  <text x="350" y="200" fill="#7f8c8d" font-size="10">S = a·b (прямоуг.)</text>
+  <text x="350" y="218" fill="#7f8c8d" font-size="10">S = a·h (ромб)</text>
+  <text x="350" y="236" fill="#7f8c8d" font-size="10">S = a² (квадрат)</text>
+  <text x="250" y="340" fill="#fff" font-size="9" opacity="0.5" text-anchor="middle">Прямоугольник, ромб, квадрат</text>
+</svg>
