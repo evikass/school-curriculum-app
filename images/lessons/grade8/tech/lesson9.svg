@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bgT9" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#2a2a3e"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bgT9)"/>
+  <!-- Refrigerator -->
+  <g transform="translate(25, 30)">
+    <rect width="80" height="120" rx="6" fill="#e0e0e0" stroke="#bbb" stroke-width="1.5"/>
+    <rect x="2" y="2" width="76" height="45" rx="4" fill="#f0f0f0" stroke="#ccc" stroke-width="1"/>
+    <rect x="2" y="50" width="76" height="68" rx="4" fill="#f5f5f5" stroke="#ccc" stroke-width="1"/>
+    <rect x="62" y="18" width="4" height="10" rx="2" fill="#aaa"/>
+    <rect x="62" y="65" width="4" height="12" rx="2" fill="#aaa"/>
+    <text x="40" y="135" fill="#c9d1d9" font-size="8" font-family="sans-serif" text-anchor="middle">Холодильник</text>
+    <text x="40" y="147" fill="#8b949e" font-size="7" font-family="monospace" text-anchor="middle">150-300 Вт</text>
+  </g>
+  <!-- Microwave -->
+  <g transform="translate(120, 50)">
+    <rect width="90" height="65" rx="4" fill="#333" stroke="#555" stroke-width="1.5"/>
+    <rect x="5" y="5" width="60" height="50" rx="3" fill="#1a1a1a" stroke="#444" stroke-width="1"/>
+    <!-- Glass door -->
+    <rect x="8" y="8" width="54" height="44" rx="2" fill="#111" opacity="0.7"/>
+    <!-- Plate inside -->
+    <ellipse cx="35" cy="38" rx="15" ry="5" fill="none" stroke="#444" stroke-width="1"/>
+    <!-- Controls -->
+    <circle cx="77" cy="20" r="4" fill="#555" stroke="#777" stroke-width="0.5"/>
+    <circle cx="77" cy="35" r="4" fill="#555" stroke="#777" stroke-width="0.5"/>
+    <rect x="73" y="45" width="12" height="8" rx="2" fill="#00b894"/>
+    <text x="45" y="80" fill="#c9d1d9" font-size="8" font-family="sans-serif" text-anchor="middle">Микроволновка</text>
+    <text x="45" y="92" fill="#8b949e" font-size="7" font-family="monospace" text-anchor="middle">700-1200 Вт</text>
+  </g>
+  <!-- Washing machine -->
+  <g transform="translate(225, 20)">
+    <rect width="80" height="105" rx="6" fill="#e0e0e0" stroke="#bbb" stroke-width="1.5"/>
+    <circle cx="40" cy="58" r="28" fill="#ddd" stroke="#ccc" stroke-width="2"/>
+    <circle cx="40" cy="58" r="22" fill="#1a1a2e" stroke="#555" stroke-width="1"/>
+    <!-- Drum -->
+    <circle cx="40" cy="58" r="16" fill="none" stroke="#444" stroke-width="0.5" stroke-dasharray="3,2"/>
+    <!-- Control panel -->
+    <rect x="8" y="5" width="64" height="18" rx="3" fill="#333"/>
+    <circle cx="20" cy="14" r="3" fill="#555"/>
+    <rect x="35" y="10" width="25" height="8" rx="2" fill="#6c5ce7" opacity="0.3"/>
+    <text x="40" y="120" fill="#c9d1d9" font-size="8" font-family="sans-serif" text-anchor="middle">Стиральная машина</text>
+    <text x="40" y="132" fill="#8b949e" font-size="7" font-family="monospace" text-anchor="middle">500-2000 Вт</text>
+  </g>
+  <!-- Iron -->
+  <g transform="translate(330, 30)">
+    <path d="M10,60 L80,60 L90,45 L60,30 Q50,25 40,30 L10,45 Z" fill="#c0c0c0" stroke="#999" stroke-width="1.5"/>
+    <rect x="30" y="15" width="20" height="20" rx="3" fill="#888" stroke="#777" stroke-width="1"/>
+    <rect x="38" y="5" width="6" height="15" rx="2" fill="#5c3010"/>
+    <!-- Steam holes -->
+    <circle cx="35" cy="55" r="2" fill="#aaa"/><circle cx="45" cy="55" r="2" fill="#aaa"/>
+    <circle cx="55" cy="55" r="2" fill="#aaa"/><circle cx="65" cy="55" r="2" fill="#aaa"/>
+    <text x="50" y="78" fill="#c9d1d9" font-size="8" font-family="sans-serif" text-anchor="middle">Утюг</text>
+    <text x="50" y="90" fill="#8b949e" font-size="7" font-family="monospace" text-anchor="middle">800-2200 Вт</text>
+  </g>
+  <!-- TV -->
+  <g transform="translate(420, 25)">
+    <rect width="65" height="45" rx="3" fill="#1a1a1a" stroke="#333" stroke-width="1.5"/>
+    <rect x="3" y="3" width="59" height="36" rx="2" fill="#2d5a8a" opacity="0.5"/>
+    <rect x="20" y="45" width="25" height="5" rx="1" fill="#555"/>
+    <rect x="25" y="50" width="15" height="3" fill="#444"/>
+    <text x="32" y="68" fill="#c9d1d9" font-size="8" font-family="sans-serif" text-anchor="middle">Телевизор</text>
+    <text x="32" y="80" fill="#8b949e" font-size="7" font-family="monospace" text-anchor="middle">50-200 Вт</text>
+  </g>
+  <!-- Kettle -->
+  <g transform="translate(430, 95)">
+    <rect x="5" y="15" width="45" height="40" rx="8" fill="#c0c0c0" stroke="#999" stroke-width="1.5"/>
+    <path d="M50,25 Q60,25 60,35 Q60,45 50,45" fill="none" stroke="#999" stroke-width="2"/>
+    <rect x="10" y="8" width="20" height="10" rx="4" fill="#5c3010" stroke="#3a1e0a" stroke-width="1"/>
+    <!-- Steam -->
+    <path d="M25,5 Q22,-2 25,-5" fill="none" stroke="#aaa" stroke-width="0.8" opacity="0.5"/>
+    <path d="M30,5 Q27,-3 30,-6" fill="none" stroke="#aaa" stroke-width="0.8" opacity="0.4"/>
+    <text x="30" y="70" fill="#c9d1d9" font-size="8" font-family="sans-serif" text-anchor="middle">Чайник</text>
+    <text x="30" y="82" fill="#8b949e" font-size="7" font-family="monospace" text-anchor="middle">1500-2200 Вт</text>
+  </g>
+  <!-- Power comparison bar chart -->
+  <rect x="15" y="195" width="470" height="130" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <text x="250" y="215" fill="#e0e0e0" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="bold">Потребляемая мощность (Вт)</text>
+  <!-- Scale -->
+  <line x1="100" y1="225" x2="460" y2="225" stroke="#30363d" stroke-width="0.5"/>
+  <text x="100" y="222" fill="#8b949e" font-size="7" font-family="monospace">0</text>
+  <text x="200" y="222" fill="#8b949e" font-size="7" font-family="monospace">500</text>
+  <text x="300" y="222" fill="#8b949e" font-size="7" font-family="monospace">1000</text>
+  <text x="400" y="222" fill="#8b949e" font-size="7" font-family="monospace">1500</text>
+  <!-- Bars -->
+  <text x="95" y="240" fill="#c9d1d9" font-size="7" font-family="sans-serif" text-anchor="end">Телевизор</text>
+  <rect x="100" y="233" width="28" height="10" rx="2" fill="#79c0ff" opacity="0.7"/>
+  <text x="95" y="255" fill="#c9d1d9" font-size="7" font-family="sans-serif" text-anchor="end">Холодильник</text>
+  <rect x="100" y="248" width="44" height="10" rx="2" fill="#79c0ff" opacity="0.7"/>
+  <text x="95" y="270" fill="#c9d1d9" font-size="7" font-family="sans-serif" text-anchor="end">Микроволновка</text>
+  <rect x="100" y="263" width="152" height="10" rx="2" fill="#fdcb6e" opacity="0.7"/>
+  <text x="95" y="285" fill="#c9d1d9" font-size="7" font-family="sans-serif" text-anchor="end">Стир. машина</text>
+  <rect x="100" y="278" width="200" height="10" rx="2" fill="#e17055" opacity="0.7"/>
+  <text x="95" y="300" fill="#c9d1d9" font-size="7" font-family="sans-serif" text-anchor="end">Утюг / Чайник</text>
+  <rect x="100" y="293" width="280" height="10" rx="2" fill="#ff5f56" opacity="0.8"/>
+  <!-- Formula -->
+  <text x="400" y="250" fill="#ffd93d" font-size="8" font-family="monospace">W = P × t</text>
+  <text x="400" y="265" fill="#8b949e" font-size="7" font-family="monospace">кВт·ч = Вт × ч / 1000</text>
+  <text x="250" y="340" fill="#aaa" font-size="9" opacity="0.5" font-family="sans-serif" text-anchor="middle">Бытовые электроприборы</text>
+</svg>
