@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="fortBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B0BEC5"/>
+      <stop offset="100%" stop-color="#78909C"/>
+    </linearGradient>
+    <linearGradient id="snowBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E0E0E0"/>
+      <stop offset="100%" stop-color="#F5F5F5"/>
+    </linearGradient>
+    <filter id="blizzard">
+      <feGaussianBlur stdDeviation="1"/>
+    </filter>
+  </defs>
+  <rect width="500" height="350" fill="url(#fortBg)"/>
+  <!-- Snowstorm effect -->
+  <g fill="#FFF" opacity="0.4">
+    <circle cx="50" cy="30" r="2"/><circle cx="120" cy="60" r="1.5"/>
+    <circle cx="200" cy="20" r="2"/><circle cx="300" cy="50" r="1"/>
+    <circle cx="400" cy="25" r="2.5"/><circle cx="450" cy="55" r="1.5"/>
+    <circle cx="80" cy="80" r="1"/><circle cx="170" cy="90" r="2"/>
+    <circle cx="280" cy="75" r="1.5"/><circle cx="350" cy="85" r="1"/>
+    <circle cx="430" cy="90" r="2"/><circle cx="60" cy="120" r="1"/>
+    <circle cx="150" cy="130" r="1.5"/><circle cx="320" cy="110" r="2"/>
+    <circle cx="470" cy="120" r="1"/><circle cx="90" cy="160" r="1.5"/>
+  </g>
+  <!-- Wind lines -->
+  <g stroke="#FFF" stroke-width="1" opacity="0.3">
+    <line x1="0" y1="40" x2="80" y2="35"/><line x1="100" y1="70" x2="200" y2="65"/>
+    <line x1="250" y1="30" x2="350" y2="28"/><line x1="300" y1="90" x2="420" y2="85"/>
+    <line x1="50" y1="110" x2="150" y2="108"/>
+  </g>
+  <!-- Fortress -->
+  <g transform="translate(250,180)">
+    <!-- Main wall -->
+    <rect x="-100" y="-30" width="200" height="80" fill="#8D6E63"/>
+    <!-- Battlements -->
+    <g fill="#795548">
+      <rect x="-100" y="-45" width="15" height="15"/>
+      <rect x="-75" y="-45" width="15" height="15"/>
+      <rect x="-50" y="-45" width="15" height="15"/>
+      <rect x="-25" y="-45" width="15" height="15"/>
+      <rect x="0" y="-45" width="15" height="15"/>
+      <rect x="25" y="-45" width="15" height="15"/>
+      <rect x="50" y="-45" width="15" height="15"/>
+      <rect x="75" y="-45" width="15" height="15"/>
+    </g>
+    <!-- Gate -->
+    <rect x="-20" y="0" width="40" height="50" rx="20" fill="#4E342E"/>
+    <rect x="-15" y="5" width="30" height="45" rx="15" fill="#3E2723"/>
+    <!-- Gate bars -->
+    <line x1="-5" y1="5" x2="-5" y2="50" stroke="#5D4037" stroke-width="1"/>
+    <line x1="5" y1="5" x2="5" y2="50" stroke="#5D4037" stroke-width="1"/>
+    <!-- Tower left -->
+    <rect x="-110" y="-60" width="30" height="110" fill="#795548"/>
+    <rect x="-115" y="-70" width="40" height="15" fill="#6D4C41"/>
+    <!-- Tower right -->
+    <rect x="80" y="-60" width="30" height="110" fill="#795548"/>
+    <rect x="75" y="-70" width="40" height="15" fill="#6D4C41"/>
+    <!-- Flag on tower -->
+    <line x1="-95" y1="-70" x2="-95" y2="-90" stroke="#5D4037" stroke-width="2"/>
+    <rect x="-95" y="-90" width="20" height="12" fill="#D32F2F"/>
+  </g>
+  <!-- Snow on fortress -->
+  <g fill="#FFF" opacity="0.7">
+    <rect x="150" y="135" width="200" height="5" rx="2"/>
+    <rect x="140" y="105" width="30" height="4" rx="2"/>
+    <rect x="330" y="105" width="30" height="4" rx="2"/>
+  </g>
+  <!-- Pugachev figure on horse -->
+  <g transform="translate(380,210)">
+    <!-- Horse -->
+    <ellipse cx="0" cy="15" rx="25" ry="12" fill="#5D4037"/>
+    <!-- Horse neck -->
+    <path d="M-15,8 Q-20,-5 -10,-15" stroke="#5D4037" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <!-- Horse head -->
+    <ellipse cx="-12" cy="-18" rx="6" ry="8" fill="#5D4037"/>
+    <!-- Horse legs -->
+    <line x1="-12" y1="25" x2="-15" y2="40" stroke="#5D4037" stroke-width="3"/>
+    <line x1="12" y1="25" x2="15" y2="40" stroke="#5D4037" stroke-width="3"/>
+    <line x1="-5" y1="25" x2="-3" y2="40" stroke="#5D4037" stroke-width="3"/>
+    <line x1="5" y1="25" x2="8" y2="40" stroke="#5D4037" stroke-width="3"/>
+    <!-- Rider (Pugachev) -->
+    <circle cx="0" cy="-5" r="8" fill="#2C2C2C"/>
+    <rect x="-5" y="2" width="10" height="14" rx="2" fill="#2C2C2C"/>
+    <!-- Fur hat -->
+    <ellipse cx="0" cy="-12" rx="9" ry="4" fill="#333"/>
+    <rect x="-5" y="-16" width="10" height="5" rx="2" fill="#333"/>
+    <!-- Raised arm with sword -->
+    <line x1="6" y1="5" x2="20" y2="-15" stroke="#C0C0C0" stroke-width="2"/>
+    <line x1="20" y1="-15" x2="25" y2="-25" stroke="#C0C0C0" stroke-width="1.5"/>
+  </g>
+  <!-- Snow drifts at bottom -->
+  <ellipse cx="100" cy="270" rx="80" ry="15" fill="#E0E0E0"/>
+  <ellipse cx="300" cy="275" rx="100" ry="12" fill="#E8E8E8"/>
+  <ellipse cx="450" cy="268" rx="60" ry="10" fill="#E0E0E0"/>
+  <!-- Title info -->
+  <rect x="20" y="285" width="460" height="35" rx="8" fill="#FFF" opacity="0.15"/>
+  <text x="250" y="305" font-family="Georgia" font-size="13" fill="#FFF" text-anchor="middle" font-weight="bold">«Капитанская дочка» — А.С. Пушкин</text>
+  <text x="250" y="318" font-family="Arial" font-size="9" fill="#FFF" text-anchor="middle" opacity="0.7">Повесть о чести, долге и Пугачёвском бунте</text>
+  <text x="250" y="345" font-family="Arial" font-size="9" fill="#FFF" opacity="0.5" text-anchor="middle">Роман «Капитанская дочка»</text>
+</svg>
