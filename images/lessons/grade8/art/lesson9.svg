@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="parchment" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F5ECD0"/>
+      <stop offset="100%" stop-color="#E8D8B0"/>
+    </linearGradient>
+    <linearGradient id="inkWash" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5A4A3A" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#3A2A1A" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+  <!-- Parchment background -->
+  <rect width="500" height="350" fill="url(#parchment)"/>
+  <!-- Aged paper spots -->
+  <circle cx="80" cy="60" r="30" fill="#D8C898" opacity="0.3"/>
+  <circle cx="400" cy="280" r="40" fill="#D8C898" opacity="0.2"/>
+  
+  <!-- Da Vinci style sketch - Vitruvian Man inspired -->
+  <!-- Circle -->
+  <circle cx="200" cy="170" r="100" fill="none" stroke="#5A4A3A" stroke-width="1" opacity="0.6"/>
+  <!-- Square -->
+  <rect x="130" y="95" width="140" height="140" fill="none" stroke="#5A4A3A" stroke-width="0.8" opacity="0.4"/>
+  
+  <!-- Human figure sketch (Vitruvian style) -->
+  <!-- Head -->
+  <circle cx="200" cy="115" r="12" fill="none" stroke="#4A3A2A" stroke-width="1.5"/>
+  <!-- Body -->
+  <line x1="200" y1="127" x2="200" y2="195" stroke="#4A3A2A" stroke-width="1.5"/>
+  <!-- Arms spread -->
+  <line x1="140" y1="155" x2="200" y2="150" stroke="#4A3A2A" stroke-width="1.5"/>
+  <line x1="200" y1="150" x2="260" y2="155" stroke="#4A3A2A" stroke-width="1.5"/>
+  <!-- Arms raised -->
+  <line x1="160" y1="100" x2="200" y2="150" stroke="#4A3A2A" stroke-width="1" stroke-dasharray="3,2" opacity="0.5"/>
+  <line x1="240" y1="100" x2="200" y2="150" stroke="#4A3A2A" stroke-width="1" stroke-dasharray="3,2" opacity="0.5"/>
+  <!-- Legs -->
+  <line x1="200" y1="195" x2="170" y2="235" stroke="#4A3A2A" stroke-width="1.5"/>
+  <line x1="200" y1="195" x2="230" y2="235" stroke="#4A3A2A" stroke-width="1.5"/>
+  <!-- Legs alternate -->
+  <line x1="200" y1="195" x2="155" y2="230" stroke="#4A3A2A" stroke-width="1" stroke-dasharray="3,2" opacity="0.5"/>
+  <line x1="200" y1="195" x2="245" y2="230" stroke="#4A3A2A" stroke-width="1" stroke-dasharray="3,2" opacity="0.5"/>
+  <!-- Hands -->
+  <circle cx="140" cy="155" r="3" fill="none" stroke="#4A3A2A" stroke-width="1"/>
+  <circle cx="260" cy="155" r="3" fill="none" stroke="#4A3A2A" stroke-width="1"/>
+  <!-- Feet -->
+  <path d="M170 235 L165 238 L175 238" fill="none" stroke="#4A3A2A" stroke-width="1"/>
+  <path d="M230 235 L225 238 L235 238" fill="none" stroke="#4A3A2A" stroke-width="1"/>
+  
+  <!-- Mirror-writing style annotations (Da Vinci) -->
+  <g transform="scale(-1,1) translate(-500,0)" opacity="0.3" font-family="serif" font-size="7" fill="#5A4A3A">
+    <text x="100" y="85">proporzioni del corpo umano</text>
+    <text x="100" y="250">Vitruvius</text>
+  </g>
+  
+  <!-- Florence Dome sketch (right side) -->
+  <!-- Dome of Santa Maria del Fiore -->
+  <path d="M350 260 Q350 160 390 120 Q430 160 430 260 Z" fill="none" stroke="#5A4A3A" stroke-width="1.5"/>
+  <!-- Dome ribs -->
+  <path d="M370 260 Q370 170 390 125" fill="none" stroke="#5A4A3A" stroke-width="0.8" opacity="0.5"/>
+  <path d="M410 260 Q410 170 390 125" fill="none" stroke="#5A4A3A" stroke-width="0.8" opacity="0.5"/>
+  <!-- Lantern -->
+  <rect x="385" y="108" width="10" height="15" fill="none" stroke="#5A4A3A" stroke-width="1"/>
+  <path d="M383 108 L390 95 L397 108" fill="none" stroke="#5A4A3A" stroke-width="1"/>
+  <!-- Ball and cross -->
+  <circle cx="390" cy="92" r="3" fill="none" stroke="#5A4A3A" stroke-width="0.8"/>
+  <line x1="390" y1="89" x2="390" y2="84" stroke="#5A4A3A" stroke-width="0.8"/>
+  <!-- Drum/base -->
+  <rect x="340" y="260" width="100" height="30" fill="none" stroke="#5A4A3A" stroke-width="1.5"/>
+  <!-- Windows in drum -->
+  <path d="M355 260 L355 248 Q360 244 365 248 L365 260" fill="none" stroke="#5A4A3A" stroke-width="0.8"/>
+  <path d="M378 260 L378 248 Q383 244 388 248 L388 260" fill="none" stroke="#5A4A3A" stroke-width="0.8"/>
+  <path d="M400 260 L400 248 Q405 244 410 248 L410 260" fill="none" stroke="#5A4A3A" stroke-width="0.8"/>
+  <path d="M420 260 L420 248 Q425 244 430 248 L430 260" fill="none" stroke="#5A4A3A" stroke-width="0.8"/>
+  <!-- Building base -->
+  <rect x="335" y="290" width="110" height="15" fill="none" stroke="#5A4A3A" stroke-width="1"/>
+  
+  <!-- Geometric constructions -->
+  <!-- Pentagon inscribed -->
+  <polygon points="200,55 243,70 226,110 174,110 157,70" fill="none" stroke="#8B6914" stroke-width="0.5" opacity="0.3"/>
+  
+  <!-- Da Vinci style flying machine sketch (bottom left) -->
+  <g stroke="#5A4A3A" stroke-width="0.8" fill="none" opacity="0.5">
+    <ellipse cx="100" cy="290" rx="50" ry="10"/>
+    <line x1="50" y1="290" x2="40" y2="260"/>
+    <line x1="150" y1="290" x2="160" y2="260"/>
+    <line x1="40" y1="260" x2="160" y2="260"/>
+    <!-- Wings -->
+    <path d="M40 260 Q20 240 30 220 Q50 230 60 250"/>
+    <path d="M160 260 Q180 240 170 220 Q150 230 140 250"/>
+    <!-- Figure -->
+    <circle cx="100" cy="272" r="5"/>
+    <line x1="100" y1="277" x2="100" y2="295"/>
+    <line x1="100" y1="285" x2="85" y2="278"/>
+    <line x1="100" y1="285" x2="115" y2="278"/>
+  </g>
+  
+  <!-- Ink wash effect -->
+  <path d="M0 0 Q100 20 200 5 Q300 25 500 0 L500 15 Q400 35 300 15 Q200 30 100 10 Q50 20 0 5 Z" fill="url(#inkWash)" opacity="0.1"/>
+  
+  <text x="250" y="340" text-anchor="middle" font-size="9" opacity="0.5" font-family="sans-serif">Искусство Возрождения</text>
+</svg>
