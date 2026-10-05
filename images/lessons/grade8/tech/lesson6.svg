@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bgT6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#2a2a3e"/>
+    </linearGradient>
+    <linearGradient id="metalShine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0e0e0"/>
+      <stop offset="20%" stop-color="#c0c0c0"/>
+      <stop offset="50%" stop-color="#909090"/>
+      <stop offset="80%" stop-color="#b0b0b0"/>
+      <stop offset="100%" stop-color="#808080"/>
+    </linearGradient>
+    <linearGradient id="copperGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8a060"/>
+      <stop offset="50%" stop-color="#c87030"/>
+      <stop offset="100%" stop-color="#a86020"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffd700"/>
+      <stop offset="50%" stop-color="#daa520"/>
+      <stop offset="100%" stop-color="#b8860b"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bgT6)"/>
+  <!-- Metal ingot -->
+  <g transform="translate(40, 30)">
+    <polygon points="10,80 30,30 130,30 150,80 130,100 30,100" fill="url(#metalShine)" stroke="#666" stroke-width="1.5"/>
+    <polygon points="30,30 130,30 140,50 20,50" fill="#d0d0d0" opacity="0.5"/>
+    <text x="80" y="70" fill="#333" font-size="12" font-family="sans-serif" text-anchor="middle" font-weight="bold">СТАЛЬ</text>
+    <text x="80" y="120" fill="#8b949e" font-size="9" font-family="sans-serif" text-anchor="middle">Fe + C (0.2-2%)</text>
+  </g>
+  <!-- Copper piece -->
+  <g transform="translate(210, 30)">
+    <polygon points="10,80 25,30 105,30 120,80 105,100 25,100" fill="url(#copperGrad)" stroke="#a06020" stroke-width="1.5"/>
+    <polygon points="25,30 105,30 112,50 18,50" fill="#e8b080" opacity="0.4"/>
+    <text x="65" y="70" fill="#fff" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="bold">МЕДЬ</text>
+    <text x="65" y="120" fill="#8b949e" font-size="9" font-family="sans-serif" text-anchor="middle">Cu — проводник</text>
+  </g>
+  <!-- Gold piece -->
+  <g transform="translate(355, 30)">
+    <polygon points="10,80 25,30 105,30 120,80 105,100 25,100" fill="url(#goldGrad)" stroke="#b8860b" stroke-width="1.5"/>
+    <polygon points="25,30 105,30 112,50 18,50" fill="#ffe44d" opacity="0.4"/>
+    <text x="65" y="70" fill="#5c3a00" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="bold">АЛЮМИНИЙ</text>
+    <text x="65" y="120" fill="#8b949e" font-size="9" font-family="sans-serif" text-anchor="middle">Al — лёгкий</text>
+  </g>
+  <!-- Properties chart -->
+  <rect x="15" y="160" width="470" height="165" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <text x="250" y="180" fill="#e0e0e0" font-size="12" font-family="sans-serif" text-anchor="middle" font-weight="bold">Свойства металлов и сплавов</text>
+  <!-- Table headers -->
+  <text x="50" y="200" fill="#ffd93d" font-size="8" font-family="monospace" text-anchor="middle">Металл/Сплав</text>
+  <text x="135" y="200" fill="#ffd93d" font-size="8" font-family="monospace" text-anchor="middle">Плотн.</text>
+  <text x="195" y="200" fill="#ffd93d" font-size="8" font-family="monospace" text-anchor="middle">Тпл.,°C</text>
+  <text x="265" y="200" fill="#ffd93d" font-size="8" font-family="monospace" text-anchor="middle">Прочность</text>
+  <text x="340" y="200" fill="#ffd93d" font-size="8" font-family="monospace" text-anchor="middle">Пластичн.</text>
+  <text x="420" y="200" fill="#ffd93d" font-size="8" font-family="monospace" text-anchor="middle">Коррозия</text>
+  <line x1="25" y1="206" x2="475" y2="206" stroke="#30363d" stroke-width="0.5"/>
+  <!-- Steel -->
+  <text x="50" y="222" fill="#c0c0c0" font-size="8" font-family="monospace" text-anchor="middle">Сталь</text>
+  <text x="135" y="222" fill="#c9d1d9" font-size="8" font-family="monospace" text-anchor="middle">7.8</text>
+  <text x="195" y="222" fill="#c9d1d9" font-size="8" font-family="monospace" text-anchor="middle">1500</text>
+  <rect x="245" y="214" width="40" height="10" rx="2" fill="#e17055" opacity="0.7"/>
+  <rect x="320" y="216" width="40" height="8" rx="2" fill="#fdcb6e" opacity="0.5"/>
+  <text x="420" y="222" fill="#ff5f56" font-size="8" font-family="monospace" text-anchor="middle">Ржавеет</text>
+  <!-- Copper -->
+  <text x="50" y="240" fill="#e8a060" font-size="8" font-family="monospace" text-anchor="middle">Медь</text>
+  <text x="135" y="240" fill="#c9d1d9" font-size="8" font-family="monospace" text-anchor="middle">8.9</text>
+  <text x="195" y="240" fill="#c9d1d9" font-size="8" font-family="monospace" text-anchor="middle">1085</text>
+  <rect x="245" y="232" width="30" height="10" rx="2" fill="#fdcb6e" opacity="0.5"/>
+  <rect x="320" y="231" width="50" height="10" rx="2" fill="#00b894" opacity="0.7"/>
+  <text x="420" y="240" fill="#00b894" font-size="8" font-family="monospace" text-anchor="middle">Стойкая</text>
+  <!-- Aluminum -->
+  <text x="50" y="258" fill="#79c0ff" font-size="8" font-family="monospace" text-anchor="middle">Алюминий</text>
+  <text x="135" y="258" fill="#c9d1d9" font-size="8" font-family="monospace" text-anchor="middle">2.7</text>
+  <text x="195" y="258" fill="#c9d1d9" font-size="8" font-family="monospace" text-anchor="middle">660</text>
+  <rect x="245" y="250" width="25" height="10" rx="2" fill="#fdcb6e" opacity="0.4"/>
+  <rect x="320" y="249" width="45" height="10" rx="2" fill="#00b894" opacity="0.6"/>
+  <text x="420" y="258" fill="#fdcb6e" font-size="8" font-family="monospace" text-anchor="middle">Окс.плёнка</text>
+  <!-- Brass -->
+  <text x="50" y="276" fill="#daa520" font-size="8" font-family="monospace" text-anchor="middle">Латунь</text>
+  <text x="135" y="276" fill="#c9d1d9" font-size="8" font-family="monospace" text-anchor="middle">8.5</text>
+  <text x="195" y="276" fill="#c9d1d9" font-size="8" font-family="monospace" text-anchor="middle">930</text>
+  <rect x="245" y="268" width="30" height="10" rx="2" fill="#fdcb6e" opacity="0.5"/>
+  <rect x="320" y="267" width="48" height="10" rx="2" fill="#00b894" opacity="0.6"/>
+  <text x="420" y="276" fill="#00b894" font-size="8" font-family="monospace" text-anchor="middle">Стойкая</text>
+  <!-- Stainless -->
+  <text x="50" y="294" fill="#e0e0e0" font-size="8" font-family="monospace" text-anchor="middle">Нержавейка</text>
+  <text x="135" y="294" fill="#c9d1d9" font-size="8" font-family="monospace" text-anchor="middle">7.9</text>
+  <text x="195" y="294" fill="#c9d1d9" font-size="8" font-family="monospace" text-anchor="middle">1450</text>
+  <rect x="245" y="286" width="42" height="10" rx="2" fill="#e17055" opacity="0.8"/>
+  <rect x="320" y="287" width="35" height="8" rx="2" fill="#fdcb6e" opacity="0.5"/>
+  <text x="420" y="294" fill="#00b894" font-size="8" font-family="monospace" text-anchor="middle">Стойкая</text>
+  <!-- Legend -->
+  <text x="250" y="316" fill="#8b949e" font-size="8" font-family="sans-serif" text-anchor="middle">Плотн. — г/см³ | Прочность и пластичность — относительная шкала</text>
+  <text x="250" y="340" fill="#aaa" font-size="9" opacity="0.5" font-family="sans-serif" text-anchor="middle">Свойства металлов и сплавов</text>
+</svg>
