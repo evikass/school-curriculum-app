@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fce4ec"/>
+      <stop offset="100%" stop-color="#f8bbd0"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <!-- Title -->
+  <text x="250" y="22" font-size="9" fill="#880e4f" text-anchor="middle" font-weight="bold">ОТВЕТСТВЕННОСТЬ НЕСОВЕРШЕННОЛЕТНИХ</text>
+  <!-- Age threshold scale -->
+  <line x1="40" y1="60" x2="460" y2="60" stroke="#546e7a" stroke-width="2"/>
+  <!-- Age markers -->
+  <g>
+    <circle cx="100" cy="60" r="8" fill="#4caf50" stroke="#2e7d32" stroke-width="1.5"/>
+    <text x="100" y="64" font-size="8" fill="#fff" text-anchor="middle" font-weight="bold">6</text>
+    <text x="100" y="82" font-size="6" fill="#2e7d32" text-anchor="middle">Малолетний</text>
+  </g>
+  <g>
+    <circle cx="200" cy="60" r="8" fill="#ff9800" stroke="#e65100" stroke-width="1.5"/>
+    <text x="200" y="64" font-size="8" fill="#fff" text-anchor="middle" font-weight="bold">14</text>
+    <text x="200" y="82" font-size="6" fill="#e65100" text-anchor="middle">Уголовная</text>
+    <text x="200" y="90" font-size="6" fill="#e65100" text-anchor="middle">ответственность</text>
+  </g>
+  <g>
+    <circle cx="300" cy="60" r="8" fill="#ff5722" stroke="#bf360c" stroke-width="1.5"/>
+    <text x="300" y="64" font-size="8" fill="#fff" text-anchor="middle" font-weight="bold">16</text>
+    <text x="300" y="82" font-size="6" fill="#bf360c" text-anchor="middle">Полная уголовная</text>
+    <text x="300" y="90" font-size="6" fill="#bf360c" text-anchor="middle">ответственность</text>
+  </g>
+  <g>
+    <circle cx="400" cy="60" r="8" fill="#c62828" stroke="#880e4f" stroke-width="1.5"/>
+    <text x="400" y="64" font-size="8" fill="#fff" text-anchor="middle" font-weight="bold">18</text>
+    <text x="400" y="82" font-size="6" fill="#880e4f" text-anchor="middle">Совершеннолетие</text>
+    <text x="400" y="90" font-size="6" fill="#880e4f" text-anchor="middle">Полная ответственность</text>
+  </g>
+  <!-- Types of offenses -->
+  <!-- Administrative offense -->
+  <g transform="translate(80,140)">
+    <rect x="-60" y="-30" width="120" height="80" rx="8" fill="#fff" stroke="#ff9800" stroke-width="1.5"/>
+    <text x="0" y="-12" font-size="7" fill="#e65100" text-anchor="middle" font-weight="bold">Административное</text>
+    <text x="0" y="0" font-size="7" fill="#e65100" text-anchor="middle" font-weight="bold">правонарушение</text>
+    <line x1="-50" y1="6" x2="50" y2="6" stroke="#ff9800" stroke-width="0.5"/>
+    <text x="0" y="18" font-size="5" fill="#78909c" text-anchor="middle">Мелкое хулиганство</text>
+    <text x="0" y="27" font-size="5" fill="#78909c" text-anchor="middle">Нарушение ПДД</text>
+    <text x="0" y="36" font-size="5" fill="#78909c" text-anchor="middle">Распитие алкоголя</text>
+    <text x="0" y="46" font-size="5" fill="#ff9800" text-anchor="middle">с 16 лет</text>
+  </g>
+  <!-- Criminal offense -->
+  <g transform="translate(250,140)">
+    <rect x="-60" y="-30" width="120" height="80" rx="8" fill="#fff" stroke="#c62828" stroke-width="1.5"/>
+    <text x="0" y="-12" font-size="7" fill="#c62828" text-anchor="middle" font-weight="bold">Уголовное</text>
+    <text x="0" y="0" font-size="7" fill="#c62828" text-anchor="middle" font-weight="bold">преступление</text>
+    <line x1="-50" y1="6" x2="50" y2="6" stroke="#c62828" stroke-width="0.5"/>
+    <text x="0" y="18" font-size="5" fill="#78909c" text-anchor="middle">Кража, грабёж</text>
+    <text x="0" y="27" font-size="5" fill="#78909c" text-anchor="middle">Убийство</text>
+    <text x="0" y="36" font-size="5" fill="#78909c" text-anchor="middle">Тяжкий вред здоровью</text>
+    <text x="0" y="46" font-size="5" fill="#c62828" text-anchor="middle">с 14 лет (тяжкие — с 14)</text>
+  </g>
+  <!-- Civil offense -->
+  <g transform="translate(420,140)">
+    <rect x="-60" y="-30" width="120" height="80" rx="8" fill="#fff" stroke="#1565c0" stroke-width="1.5"/>
+    <text x="0" y="-12" font-size="7" fill="#1565c0" text-anchor="middle" font-weight="bold">Гражданско-</text>
+    <text x="0" y="0" font-size="7" fill="#1565c0" text-anchor="middle" font-weight="bold">правовая</text>
+    <line x1="-50" y1="6" x2="50" y2="6" stroke="#1565c0" stroke-width="0.5"/>
+    <text x="0" y="18" font-size="5" fill="#78909c" text-anchor="middle">Причинение вреда</text>
+    <text x="0" y="27" font-size="5" fill="#78909c" text-anchor="middle">Неисполнение</text>
+    <text x="0" y="36" font-size="5" fill="#78909c" text-anchor="middle">договора</text>
+    <text x="0" y="46" font-size="5" fill="#1565c0" text-anchor="middle">возмещение вреда</text>
+  </g>
+  <!-- Juvenile court (bottom) -->
+  <g transform="translate(250,260)">
+    <!-- Court building -->
+    <rect x="-80" y="-20" width="160" height="50" rx="4" fill="#546e7a" stroke="#37474f" stroke-width="1.5"/>
+    <polygon points="-85,-20 0,-40 85,-20" fill="#455a64" stroke="#37474f" stroke-width="1"/>
+    <!-- Columns -->
+    <rect x="-55" y="-15" width="5" height="35" fill="#78909c"/>
+    <rect x="-35" y="-15" width="5" height="35" fill="#78909c"/>
+    <rect x="-15" y="-15" width="5" height="35" fill="#78909c"/>
+    <rect x="5" y="-15" width="5" height="35" fill="#78909c"/>
+    <rect x="25" y="-15" width="5" height="35" fill="#78909c"/>
+    <rect x="45" y="-15" width="5" height="35" fill="#78909c"/>
+    <rect x="65" y="-15" width="5" height="35" fill="#78909c"/>
+    <text x="0" y="8" font-size="7" fill="#fff" text-anchor="middle" font-weight="bold">Комиссия по делам</text>
+    <text x="0" y="18" font-size="7" fill="#fff" text-anchor="middle" font-weight="bold">несовершеннолетних</text>
+  </g>
+  <!-- Measures -->
+  <rect x="30" y="305" width="440" height="22" rx="4" fill="#fff" opacity="0.8" stroke="#c62828"/>
+  <text x="250" y="320" font-size="6" fill="#5d4037" text-anchor="middle">Меры: предупреждение • передача под надзор • ограничение досуга • помещение в спец. учреждение</text>
+  <text x="250" y="340" font-size="9" fill="#333" opacity="0.5" text-anchor="middle">Ответственность несовершеннолетних</text>
+</svg>
