@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="galleryWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6A5A4A"/>
+      <stop offset="100%" stop-color="#4A3A2A"/>
+    </linearGradient>
+    <linearGradient id="giltFrame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#DAA520"/>
+      <stop offset="50%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+  </defs>
+  <!-- Gallery wall -->
+  <rect width="500" height="350" fill="url(#galleryWall)"/>
+  
+  <!-- === Painting 1: Perov - "Troika" (children pulling water) === -->
+  <!-- Frame -->
+  <rect x="20" y="20" width="200" height="140" rx="2" fill="url(#giltFrame)" stroke="#8B6914" stroke-width="2"/>
+  <rect x="27" y="27" width="186" height="126" fill="#C8B898"/>
+  <!-- Snowy scene -->
+  <rect x="27" y="27" width="186" height="80" fill="#C8D8E8"/>
+  <rect x="27" y="107" width="186" height="46" fill="#E8E8F0"/>
+  <!-- Three children pulling sled -->
+  <path d="M60 110 L60 95 L65 90" stroke="#5A4030" stroke-width="2" fill="none"/>
+  <circle cx="67" cy="87" r="5" fill="#DEB887"/>
+  <path d="M75 110 L75 98" stroke="#5A4030" stroke-width="2" fill="none"/>
+  <circle cx="75" cy="95" r="5" fill="#DEB887"/>
+  <path d="M90 110 L90 100 L85 95" stroke="#5A4030" stroke-width="2" fill="none"/>
+  <circle cx="83" cy="92" r="5" fill="#DEB887"/>
+  <!-- Sled -->
+  <path d="M100 118 L115 118 L115 112 L108 112 L105 108 L100 112 Z" fill="#6B4E12"/>
+  <rect x="102" y="105" width="10" height="7" fill="#5A8AAA"/>
+  <!-- Snow trail -->
+  <path d="M55 120 Q70 118 85 120 Q100 118 120 122" fill="none" stroke="#B0B8C8" stroke-width="1"/>
+  <!-- Bare trees -->
+  <line x1="160" y1="50" x2="160" y2="107" stroke="#5A3A20" stroke-width="2"/>
+  <line x1="160" y1="70" x2="150" y2="60" stroke="#5A3A20" stroke-width="1"/>
+  <line x1="160" y1="80" x2="172" y2="68" stroke="#5A3A20" stroke-width="1"/>
+  <line x1="180" y1="60" x2="180" y2="107" stroke="#5A3A20" stroke-width="1.5"/>
+  <line x1="180" y1="75" x2="170" y2="65" stroke="#5A3A20" stroke-width="1"/>
+  <!-- Label -->
+  <text x="120" y="160" text-anchor="middle" font-size="7" fill="#DAA520" font-family="serif">Перов</text>
+  
+  <!-- === Painting 2: Shishkin - Forest landscape === -->
+  <rect x="250" y="15" width="230" height="155" rx="2" fill="url(#giltFrame)" stroke="#8B6914" stroke-width="2"/>
+  <rect x="257" y="22" width="216" height="141" fill="#8AAA6A"/>
+  <!-- Dense forest scene -->
+  <!-- Background trees -->
+  <rect x="270" y="35" width="8" height="128" fill="#3A5A2A"/>
+  <polygon points="250,70 274,30 298,70" fill="#2E5A1E"/>
+  <polygon points="255,50 274,15 293,50" fill="#3A6A2A"/>
+  
+  <rect x="320" y="40" width="10" height="123" fill="#4A3A20"/>
+  <polygon points="300,80 325,35 350,80" fill="#2E5A1E"/>
+  <polygon points="305,60 325,20 345,60" fill="#3A7A2A"/>
+  <polygon points="310,45 325,10 340,45" fill="#2E6A1E"/>
+  
+  <rect x="380" y="30" width="9" height="133" fill="#3A5A2A"/>
+  <polygon points="360,70 384,25 408,70" fill="#2E6A1E"/>
+  <polygon points="365,50 384,12 403,50" fill="#3A7A2A"/>
+  
+  <rect x="430" y="45" width="7" height="118" fill="#4A3A20"/>
+  <polygon points="415,75 433,38 451,75" fill="#2E5A1E"/>
+  
+  <!-- Forest floor -->
+  <rect x="257" y="130" width="216" height="33" fill="#5A7A3A"/>
+  <!-- Sunbeams -->
+  <path d="M340 22 L360 100 L370 22" fill="#FFD700" opacity="0.1"/>
+  <path d="M390 22 L400 90 L410 22" fill="#FFD700" opacity="0.08"/>
+  <!-- Bear in forest (Shishkin reference) -->
+  <ellipse cx="340" cy="140" rx="12" ry="8" fill="#6B4E12"/>
+  <circle cx="350" cy="135" r="5" fill="#6B4E12"/>
+  <text x="365" y="170" text-anchor="middle" font-size="7" fill="#DAA520" font-family="serif">Шишкин</text>
+  
+  <!-- === Painting 3: Repin - Barge Haulers === -->
+  <rect x="20" y="180" width="200" height="140" rx="2" fill="url(#giltFrame)" stroke="#8B6914" stroke-width="2"/>
+  <rect x="27" y="187" width="186" height="126" fill="#C8B888"/>
+  <!-- River Volga -->
+  <rect x="27" y="187" width="186" height="50" fill="#7AACCC"/>
+  <!-- Sandy bank -->
+  <path d="M27 237 Q80 230 120 240 Q160 235 213 237 L213 313 L27 313 Z" fill="#D8C498"/>
+  <!-- Barge haulers (Burlaki) -->
+  <!-- Rope -->
+  <path d="M30 260 Q70 258 120 260 Q160 258 210 262" fill="none" stroke="#5A3A1A" stroke-width="1.5"/>
+  <!-- Figures bent forward -->
+  <g fill="#5A4A3A" stroke="#4A3A2A" stroke-width="0.5">
+    <path d="M50 262 Q48 250 52 240 L56 240 Q60 250 58 262 Z"/>
+    <circle cx="54" cy="237" r="4"/>
+    <path d="M70 260 Q68 248 72 238 L76 238 Q80 248 78 260 Z"/>
+    <circle cx="74" cy="235" r="4"/>
+    <path d="M95 261 Q93 249 97 240 L101 240 Q105 249 103 261 Z"/>
+    <circle cx="99" cy="237" r="4"/>
+    <path d="M120 262 Q118 250 122 242 L126 242 Q130 250 128 262 Z"/>
+    <circle cx="124" cy="239" r="4"/>
+    <path d="M145 262 Q143 251 147 243 L151 243 Q155 251 153 262 Z"/>
+    <circle cx="149" cy="240" r="4"/>
+    <path d="M170 263 Q168 252 172 244 L176 244 Q180 252 178 263 Z"/>
+    <circle cx="174" cy="241" r="4"/>
+  </g>
+  <!-- Boat on river -->
+  <path d="M140 210 L170 210 Q175 215 170 218 L140 218 Q135 215 140 210 Z" fill="#6B4E12"/>
+  <text x="120" y="318" text-anchor="middle" font-size="7" fill="#DAA520" font-family="serif">Репин</text>
+  
+  <!-- === Info panel === -->
+  <rect x="250" y="185" width="230" height="145" rx="5" fill="#3A2A1A" stroke="#5A4A3A" stroke-width="1"/>
+  <!-- Palette icon -->
+  <ellipse cx="310" cy="230" rx="28" ry="20" fill="#D2B48C" stroke="#8B6914" stroke-width="1"/>
+  <circle cx="300" cy="224" r="4" fill="#CC2222"/>
+  <circle cx="308" cy="218" r="4" fill="#2244CC"/>
+  <circle cx="318" cy="222" r="4" fill="#CCAA22"/>
+  <circle cx="305" cy="234" r="4" fill="#22AA44"/>
+  <circle cx="315" cy="232" r="4" fill="#AA22AA"/>
+  <ellipse cx="320" cy="238" rx="5" ry="3.5" fill="#3A2A1A"/>
+  
+  <!-- Brush icon -->
+  <line x1="350" y1="215" x2="380" y2="245" stroke="#8B6914" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="383" cy="248" rx="4" ry="6" fill="#CC2222" transform="rotate(45 383 248)"/>
+  
+  <!-- Title text -->
+  <text x="365" y="275" text-anchor="middle" font-size="11" fill="#DAA520" font-family="serif">XIX век</text>
+  <text x="365" y="290" text-anchor="middle" font-size="8" fill="#B89868" font-family="sans-serif">Золотой век русской</text>
+  <text x="365" y="302" text-anchor="middle" font-size="8" fill="#B89868" font-family="sans-serif">живописи</text>
+  
+  <!-- Decorative line -->
+  <line x1="280" y1="310" x2="450" y2="310" stroke="#5A4A3A" stroke-width="0.5"/>
+  <!-- Names list -->
+  <text x="300" y="322" font-size="6" fill="#8B7A5A" font-family="sans-serif">Передвижники</text>
+  
+  <text x="250" y="340" text-anchor="middle" font-size="9" opacity="0.5" font-family="sans-serif" fill="#AAA">Русские художники 19 века</text>
+</svg>
