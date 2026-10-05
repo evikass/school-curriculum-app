@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#E8EAF6" rx="8"/>
+<!-- Binary -->
+<rect x="30" y="30" width="130" height="90" rx="8" fill="#1A237E" opacity="0.9"/>
+<text x="95" y="52" font-family="monospace" font-size="10" fill="#82B1FF" text-anchor="middle">ДВОИЧНАЯ</text>
+<text x="95" y="72" font-family="monospace" font-size="18" fill="#448AFF" text-anchor="middle" font-weight="bold">10110</text>
+<text x="95" y="92" font-family="monospace" font-size="10" fill="#82B1FF" text-anchor="middle">Основание: 2</text>
+<text x="95" y="108" font-family="monospace" font-size="10" fill="#82B1FF" text-anchor="middle">Цифры: 0, 1</text>
+<!-- Octal -->
+<rect x="180" y="30" width="130" height="90" rx="8" fill="#1B5E20" opacity="0.9"/>
+<text x="245" y="52" font-family="monospace" font-size="10" fill="#A5D6A7" text-anchor="middle">ВОСЬМЕРИЧНАЯ</text>
+<text x="245" y="72" font-family="monospace" font-size="18" fill="#66BB6A" text-anchor="middle" font-weight="bold">26</text>
+<text x="245" y="92" font-family="monospace" font-size="10" fill="#A5D6A7" text-anchor="middle">Основание: 8</text>
+<text x="245" y="108" font-family="monospace" font-size="10" fill="#A5D6A7" text-anchor="middle">Цифры: 0–7</text>
+<!-- Decimal -->
+<rect x="30" y="140" width="130" height="90" rx="8" fill="#BF360C" opacity="0.9"/>
+<text x="95" y="162" font-family="monospace" font-size="10" fill="#FFAB91" text-anchor="middle">ДЕСЯТИЧНАЯ</text>
+<text x="95" y="182" font-family="monospace" font-size="24" fill="#FF5722" text-anchor="middle" font-weight="bold">22</text>
+<text x="95" y="202" font-family="monospace" font-size="10" fill="#FFAB91" text-anchor="middle">Основание: 10</text>
+<text x="95" y="218" font-family="monospace" font-size="10" fill="#FFAB91" text-anchor="middle">Цифры: 0–9</text>
+<!-- Hex -->
+<rect x="180" y="140" width="130" height="90" rx="8" fill="#4A148C" opacity="0.9"/>
+<text x="245" y="162" font-family="monospace" font-size="10" fill="#CE93D8" text-anchor="middle">ШЕСТНАДЦАТЕРИЧНАЯ</text>
+<text x="245" y="182" font-family="monospace" font-size="18" fill="#AB47BC" text-anchor="middle" font-weight="bold">16</text>
+<text x="245" y="202" font-family="monospace" font-size="10" fill="#CE93D8" text-anchor="middle">Основание: 16</text>
+<text x="245" y="218" font-family="monospace" font-size="10" fill="#CE93D8" text-anchor="middle">Цифры: 0–9, A–F</text>
+<!-- Equals signs -->
+<text x="168" y="90" font-family="Arial" font-size="20" fill="#333" text-anchor="middle">=</text>
+<text x="168" y="192" font-family="Arial" font-size="20" fill="#333" text-anchor="middle">=</text>
+<!-- Conversion method -->
+<rect x="335" y="30" width="145" height="200" rx="8" fill="white" stroke="#5C6BC0" stroke-width="1.5"/>
+<text x="407" y="52" font-family="Arial" font-size="11" fill="#283593" font-weight="bold" text-anchor="middle">Перевод 22₁₀</text>
+<line x1="350" y1="60" x2="465" y2="60" stroke="#C5CAE9" stroke-width="1"/>
+<text x="350" y="78" font-family="monospace" font-size="9" fill="#333">22 ÷ 2 = 11 (ост.0)</text>
+<text x="350" y="94" font-family="monospace" font-size="9" fill="#333">11 ÷ 2 = 5  (ост.1)</text>
+<text x="350" y="110" font-family="monospace" font-size="9" fill="#333">5 ÷ 2 = 2   (ост.1)</text>
+<text x="350" y="126" font-family="monospace" font-size="9" fill="#333">2 ÷ 2 = 1   (ост.0)</text>
+<text x="350" y="142" font-family="monospace" font-size="9" fill="#333">1 ÷ 2 = 0   (ост.1)</text>
+<text x="350" y="162" font-family="Arial" font-size="10" fill="#283593" font-weight="bold">Читаем снизу ↑</text>
+<text x="350" y="182" font-family="monospace" font-size="14" fill="#1A237E" font-weight="bold">= 10110₂</text>
+<text x="350" y="205" font-family="Arial" font-size="9" fill="#666">22 = 26₈ = 16₁₆</text>
+<!-- Place values -->
+<rect x="30" y="250" width="440" height="75" rx="8" fill="white" stroke="#5C6BC0" stroke-width="1.5"/>
+<text x="250" y="270" font-family="Arial" font-size="11" fill="#283593" font-weight="bold" text-anchor="middle">Разряды двоичного числа</text>
+<text x="80" y="295" font-family="monospace" font-size="12" fill="#1A237E" text-anchor="middle" font-weight="bold">1</text>
+<text x="145" y="295" font-family="monospace" font-size="12" fill="#1A237E" text-anchor="middle" font-weight="bold">0</text>
+<text x="210" y="295" font-family="monospace" font-size="12" fill="#1A237E" text-anchor="middle" font-weight="bold">1</text>
+<text x="275" y="295" font-family="monospace" font-size="12" fill="#1A237E" text-anchor="middle" font-weight="bold">1</text>
+<text x="340" y="295" font-family="monospace" font-size="12" fill="#1A237E" text-anchor="middle" font-weight="bold">0</text>
+<text x="80" y="312" font-family="monospace" font-size="9" fill="#666" text-anchor="middle">×16</text>
+<text x="145" y="312" font-family="monospace" font-size="9" fill="#666" text-anchor="middle">×8</text>
+<text x="210" y="312" font-family="monospace" font-size="9" fill="#666" text-anchor="middle">×4</text>
+<text x="275" y="312" font-family="monospace" font-size="9" fill="#666" text-anchor="middle">×2</text>
+<text x="340" y="312" font-family="monospace" font-size="9" fill="#666" text-anchor="middle">×1</text>
+<text x="420" y="300" font-family="Arial" font-size="11" fill="#283593">= 16+4+2 = 22</text>
+<text x="250" y="345" font-family="Arial" font-size="9" fill="#999" text-anchor="middle" opacity="0.5">Системы счисления — Информатика 8</text>
+</svg>
