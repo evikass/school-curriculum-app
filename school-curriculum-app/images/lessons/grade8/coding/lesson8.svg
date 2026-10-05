@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#1a2d50"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg8)"/>
+  <!-- List as shelf of boxes -->
+  <text x="250" y="30" fill="#79c0ff" font-size="13" font-family="monospace" text-anchor="middle">fruits = ["яблоко", "банан", "вишня", "дыня"]</text>
+  <!-- Shelf -->
+  <rect x="40" y="50" width="420" height="80" rx="8" fill="#1e3a5f" stroke="#2d5a8a" stroke-width="1.5"/>
+  <!-- Index labels -->
+  <text x="92" y="45" fill="#ffd93d" font-size="10" font-family="monospace" text-anchor="middle">[0]</text>
+  <text x="192" y="45" fill="#ffd93d" font-size="10" font-family="monospace" text-anchor="middle">[1]</text>
+  <text x="292" y="45" fill="#ffd93d" font-size="10" font-family="monospace" text-anchor="middle">[2]</text>
+  <text x="392" y="45" fill="#ffd93d" font-size="10" font-family="monospace" text-anchor="middle">[3]</text>
+  <!-- Negative indices -->
+  <text x="92" y="145" fill="#e17055" font-size="9" font-family="monospace" text-anchor="middle">[-4]</text>
+  <text x="192" y="145" fill="#e17055" font-size="9" font-family="monospace" text-anchor="middle">[-3]</text>
+  <text x="292" y="145" fill="#e17055" font-size="9" font-family="monospace" text-anchor="middle">[-2]</text>
+  <text x="392" y="145" fill="#e17055" font-size="9" font-family="monospace" text-anchor="middle">[-1]</text>
+  <!-- List items -->
+  <rect x="50" y="55" width="85" height="70" rx="6" fill="#e17055" opacity="0.85"/>
+  <text x="92" y="95" fill="white" font-size="12" font-family="sans-serif" text-anchor="middle">яблоко</text>
+  <rect x="150" y="55" width="85" height="70" rx="6" fill="#fdcb6e" opacity="0.85"/>
+  <text x="192" y="95" fill="#333" font-size="12" font-family="sans-serif" text-anchor="middle">банан</text>
+  <rect x="250" y="55" width="85" height="70" rx="6" fill="#6c5ce7" opacity="0.85"/>
+  <text x="292" y="95" fill="white" font-size="12" font-family="sans-serif" text-anchor="middle">вишня</text>
+  <rect x="350" y="55" width="85" height="70" rx="6" fill="#00b894" opacity="0.85"/>
+  <text x="392" y="95" fill="white" font-size="12" font-family="sans-serif" text-anchor="middle">дыня</text>
+  <!-- Operations section -->
+  <g transform="translate(30, 170)">
+    <text x="0" y="0" fill="#ffd93d" font-size="12" font-family="monospace" font-weight="bold">Операции:</text>
+    <!-- append -->
+    <rect x="0" y="10" width="200" height="24" rx="4" fill="#0d1b2a" stroke="#2d5a8a" stroke-width="1"/>
+    <text x="10" y="27" fill="#7ee787" font-size="11" font-family="monospace">.append("ежевика")</text>
+    <text x="210" y="27" fill="#aaa" font-size="9" font-family="sans-serif">→ добавление</text>
+    <!-- insert -->
+    <rect x="0" y="40" width="200" height="24" rx="4" fill="#0d1b2a" stroke="#2d5a8a" stroke-width="1"/>
+    <text x="10" y="57" fill="#7ee787" font-size="11" font-family="monospace">.insert(1,"финик")</text>
+    <text x="210" y="57" fill="#aaa" font-size="9" font-family="sans-serif">→ вставка</text>
+    <!-- remove -->
+    <rect x="0" y="70" width="200" height="24" rx="4" fill="#0d1b2a" stroke="#2d5a8a" stroke-width="1"/>
+    <text x="10" y="87" fill="#ff7b72" font-size="11" font-family="monospace">.remove("банан")</text>
+    <text x="210" y="87" fill="#aaa" font-size="9" font-family="sans-serif">→ удаление</text>
+    <!-- pop -->
+    <rect x="0" y="100" width="200" height="24" rx="4" fill="#0d1b2a" stroke="#2d5a8a" stroke-width="1"/>
+    <text x="10" y="117" fill="#ff7b72" font-size="11" font-family="monospace">.pop(2)</text>
+    <text x="210" y="117" fill="#aaa" font-size="9" font-family="sans-serif">→ извлечение</text>
+    <!-- sort -->
+    <rect x="0" y="130" width="200" height="24" rx="4" fill="#0d1b2a" stroke="#2d5a8a" stroke-width="1"/>
+    <text x="10" y="147" fill="#79c0ff" font-size="11" font-family="monospace">.sort()</text>
+    <text x="210" y="147" fill="#aaa" font-size="9" font-family="sans-serif">→ сортировка</text>
+  </g>
+  <!-- Right side - slicing visualization -->
+  <g transform="translate(280, 170)">
+    <text x="0" y="0" fill="#ffd93d" font-size="12" font-family="monospace" font-weight="bold">Срезы:</text>
+    <text x="0" y="22" fill="#79c0ff" font-size="11" font-family="monospace">fruits[1:3]</text>
+    <text x="120" y="22" fill="#7ee787" font-size="11" font-family="monospace">→ ["банан","вишня"]</text>
+    <text x="0" y="44" fill="#79c0ff" font-size="11" font-family="monospace">fruits[:2]</text>
+    <text x="120" y="44" fill="#7ee787" font-size="11" font-family="monospace">→ ["яблоко","банан"]</text>
+    <text x="0" y="66" fill="#79c0ff" font-size="11" font-family="monospace">fruits[::2]</text>
+    <text x="120" y="66" fill="#7ee787" font-size="11" font-family="monospace">→ ["яблоко","вишня"]</text>
+    <text x="0" y="88" fill="#79c0ff" font-size="11" font-family="monospace">fruits[::-1]</text>
+    <text x="120" y="88" fill="#7ee787" font-size="11" font-family="monospace">→ ["дыня","вишня",...]</text>
+    <text x="0" y="115" fill="#79c0ff" font-size="11" font-family="monospace">len(fruits)</text>
+    <text x="120" y="115" fill="#7ee787" font-size="11" font-family="monospace">→ 4</text>
+  </g>
+  <text x="250" y="340" fill="#aaa" font-size="9" opacity="0.5" font-family="sans-serif" text-anchor="middle">Списки</text>
+</svg>
