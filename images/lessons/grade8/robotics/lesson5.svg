@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bgR5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0a28"/>
+      <stop offset="100%" stop-color="#2d1654"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bgR5)"/>
+  <!-- Ultrasonic sensor (left) -->
+  <g transform="translate(20, 30)">
+    <rect x="0" y="0" width="140" height="130" rx="8" fill="#1e2a3a" stroke="#30363d" stroke-width="1.5"/>
+    <text x="70" y="20" fill="#00b894" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="bold">Ультразвуковой</text>
+    <!-- HC-SR04 body -->
+    <rect x="25" y="30" width="90" height="65" rx="4" fill="#2d5a8a" stroke="#4a8ec4" stroke-width="1"/>
+    <!-- Ultrasonic eyes -->
+    <circle cx="50" cy="62" r="14" fill="#c0c0c0" stroke="#999" stroke-width="1.5"/>
+    <circle cx="50" cy="62" r="9" fill="#ddd" stroke="#bbb" stroke-width="1"/>
+    <circle cx="90" cy="62" r="14" fill="#c0c0c0" stroke="#999" stroke-width="1.5"/>
+    <circle cx="90" cy="62" r="9" fill="#ddd" stroke="#bbb" stroke-width="1"/>
+    <!-- Sound waves -->
+    <path d="M108,55 Q120,62 108,70" fill="none" stroke="#00b894" stroke-width="1.5" opacity="0.6"/>
+    <path d="M115,50 Q132,62 115,75" fill="none" stroke="#00b894" stroke-width="1.2" opacity="0.4"/>
+    <path d="M122,45 Q145,62 122,80" fill="none" stroke="#00b894" stroke-width="1" opacity="0.25"/>
+    <!-- Pins -->
+    <g fill="#ffd93d">
+      <rect x="30" y="98" width="8" height="12" rx="1"/>
+      <rect x="48" y="98" width="8" height="12" rx="1"/>
+      <rect x="66" y="98" width="8" height="12" rx="1"/>
+      <rect x="84" y="98" width="8" height="12" rx="1"/>
+    </g>
+    <text x="34" y="125" fill="#aaa" font-size="6" font-family="monospace">VCC Trig Echo GND</text>
+    <!-- Distance measurement -->
+    <text x="70" y="105" fill="#00b894" font-size="9" font-family="monospace" text-anchor="middle">2-400 см</text>
+  </g>
+  <!-- IR sensor (center) -->
+  <g transform="translate(180, 30)">
+    <rect x="0" y="0" width="140" height="130" rx="8" fill="#1e2a3a" stroke="#30363d" stroke-width="1.5"/>
+    <text x="70" y="20" fill="#e17055" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="bold">ИК-датчик</text>
+    <!-- IR sensor body -->
+    <rect x="30" y="30" width="80" height="55" rx="4" fill="#333" stroke="#555" stroke-width="1"/>
+    <!-- IR LED emitter -->
+    <circle cx="50" cy="55" r="8" fill="#8b0000" stroke="#ff3333" stroke-width="1"/>
+    <circle cx="50" cy="55" r="3" fill="#ff3333" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="0.5s" repeatCount="indefinite"/>
+    </circle>
+    <!-- IR receiver -->
+    <rect x="70" y="45" width="20" height="20" rx="2" fill="#1a1a1a" stroke="#333" stroke-width="1"/>
+    <circle cx="80" cy="55" r="4" fill="#333"/>
+    <!-- IR beam -->
+    <line x1="58" y1="55" x2="68" y2="55" stroke="#ff3333" stroke-width="1" stroke-dasharray="2,2" opacity="0.5"/>
+    <!-- Object detection -->
+    <rect x="110" y="42" width="20" height="26" rx="3" fill="#6c5ce7" opacity="0.3" stroke="#6c5ce7" stroke-width="1"/>
+    <line x1="100" y1="55" x2="110" y2="55" stroke="#ff3333" stroke-width="1" stroke-dasharray="2,1" opacity="0.4"/>
+    <!-- Pins -->
+    <g fill="#ffd93d">
+      <rect x="35" y="90" width="8" height="12" rx="1"/>
+      <rect x="58" y="90" width="8" height="12" rx="1"/>
+      <rect x="80" y="90" width="8" height="12" rx="1"/>
+    </g>
+    <text x="70" y="125" fill="#aaa" font-size="7" font-family="monospace" text-anchor="middle">OUT GND VCC</text>
+    <text x="70" y="105" fill="#e17055" font-size="9" font-family="monospace" text-anchor="middle">0/1 цифровой</text>
+  </g>
+  <!-- Light sensor (right) -->
+  <g transform="translate(340, 30)">
+    <rect x="0" y="0" width="140" height="130" rx="8" fill="#1e2a3a" stroke="#30363d" stroke-width="1.5"/>
+    <text x="70" y="20" fill="#fdcb6e" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="bold">Фоторезистор</text>
+    <!-- Photoresistor -->
+    <circle cx="70" cy="60" r="22" fill="#8B4513" stroke="#654321" stroke-width="1.5"/>
+    <!-- Zigzag pattern -->
+    <path d="M52,50 L58,55 L52,60 L58,65 L52,70 L58,75" fill="none" stroke="#ffd93d" stroke-width="1.5"/>
+    <path d="M70,45 L70,80" fill="none" stroke="#ffd93d" stroke-width="1"/>
+    <path d="M82,50 L76,55 L82,60 L76,65 L82,70 L76,75" fill="none" stroke="#ffd93d" stroke-width="1.5"/>
+    <!-- Light rays -->
+    <line x1="45" y1="35" x2="55" y2="48" stroke="#fdcb6e" stroke-width="1" opacity="0.5"/>
+    <line x1="70" y1="25" x2="70" y2="40" stroke="#fdcb6e" stroke-width="1" opacity="0.5"/>
+    <line x1="95" y1="35" x2="85" y2="48" stroke="#fdcb6e" stroke-width="1" opacity="0.5"/>
+    <line x1="35" y1="55" x2="48" y2="57" stroke="#fdcb6e" stroke-width="0.8" opacity="0.3"/>
+    <line x1="105" y1="55" x2="92" y2="57" stroke="#fdcb6e" stroke-width="0.8" opacity="0.3"/>
+    <!-- Pins -->
+    <g fill="#ffd93d">
+      <rect x="55" y="85" width="8" height="12" rx="1"/>
+      <rect x="77" y="85" width="8" height="12" rx="1"/>
+    </g>
+    <text x="70" y="105" fill="#fdcb6e" font-size="9" font-family="monospace" text-anchor="middle">0-1023 аналог</text>
+    <text x="70" y="125" fill="#aaa" font-size="7" font-family="monospace" text-anchor="middle">R зависит от света</text>
+  </g>
+  <!-- Comparison table -->
+  <rect x="15" y="175" width="470" height="145" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <text x="250" y="195" fill="#e0e0e0" font-size="12" font-family="sans-serif" text-anchor="middle" font-weight="bold">Сравнение датчиков</text>
+  <!-- Headers -->
+  <text x="80" y="215" fill="#ffd93d" font-size="10" font-family="monospace" text-anchor="middle">Параметр</text>
+  <text x="190" y="215" fill="#00b894" font-size="10" font-family="monospace" text-anchor="middle">УЗ HC-SR04</text>
+  <text x="310" y="215" fill="#e17055" font-size="10" font-family="monospace" text-anchor="middle">ИК датчик</text>
+  <text x="420" y="215" fill="#fdcb6e" font-size="10" font-family="monospace" text-anchor="middle">Фотоэлем.</text>
+  <line x1="25" y1="220" x2="475" y2="220" stroke="#30363d" stroke-width="1"/>
+  <!-- Data rows -->
+  <text x="80" y="238" fill="#8b949e" font-size="9" font-family="monospace" text-anchor="middle">Тип сигнала</text>
+  <text x="190" y="238" fill="#c9d1d9" font-size="9" font-family="monospace" text-anchor="middle">цифровой</text>
+  <text x="310" y="238" fill="#c9d1d9" font-size="9" font-family="monospace" text-anchor="middle">цифровой</text>
+  <text x="420" y="238" fill="#c9d1d9" font-size="9" font-family="monospace" text-anchor="middle">аналоговый</text>
+  <text x="80" y="258" fill="#8b949e" font-size="9" font-family="monospace" text-anchor="middle">Диапазон</text>
+  <text x="190" y="258" fill="#c9d1d9" font-size="9" font-family="monospace" text-anchor="middle">2-400 см</text>
+  <text x="310" y="258" fill="#c9d1d9" font-size="9" font-family="monospace" text-anchor="middle">2-30 см</text>
+  <text x="420" y="258" fill="#c9d1d9" font-size="9" font-family="monospace" text-anchor="middle">0-1023</text>
+  <text x="80" y="278" fill="#8b949e" font-size="9" font-family="monospace" text-anchor="middle">Применение</text>
+  <text x="190" y="278" fill="#c9d1d9" font-size="9" font-family="monospace" text-anchor="middle">расстояние</text>
+  <text x="310" y="278" fill="#c9d1d9" font-size="9" font-family="monospace" text-anchor="middle">линия/преп.</text>
+  <text x="420" y="278" fill="#c9d1d9" font-size="9" font-family="monospace" text-anchor="middle">освещён.</text>
+  <text x="80" y="298" fill="#8b949e" font-size="9" font-family="monospace" text-anchor="middle">Пины Arduino</text>
+  <text x="190" y="298" fill="#c9d1d9" font-size="9" font-family="monospace" text-anchor="middle">2 цифр.</text>
+  <text x="310" y="298" fill="#c9d1d9" font-size="9" font-family="monospace" text-anchor="middle">1 цифр.</text>
+  <text x="420" y="298" fill="#c9d1d9" font-size="9" font-family="monospace" text-anchor="middle">1 аналог.</text>
+  <text x="250" y="340" fill="#aaa" font-size="9" opacity="0.5" font-family="sans-serif" text-anchor="middle">Датчики для роботов</text>
+</svg>
