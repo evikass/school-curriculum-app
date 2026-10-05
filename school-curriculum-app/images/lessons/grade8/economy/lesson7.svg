@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#FFF3E0" rx="8"/>
+<!-- Tax flow diagram -->
+<!-- Citizen -->
+<circle cx="100" cy="100" r="35" fill="#E3F2FD" stroke="#1565C0" stroke-width="2"/>
+<text x="100" y="95" font-family="Arial" font-size="20" fill="#1565C0" text-anchor="middle">👤</text>
+<text x="100" y="115" font-family="Arial" font-size="9" fill="#1565C0" text-anchor="middle">Гражданин</text>
+<!-- Arrow to state -->
+<path d="M140,100 L220,100" stroke="#FF6F00" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="180" y="93" font-family="Arial" font-size="10" fill="#E65100" text-anchor="middle">Налоги</text>
+<!-- State -->
+<rect x="225" y="70" width="90" height="60" rx="8" fill="#FFECB3" stroke="#FF8F00" stroke-width="2"/>
+<text x="270" y="95" font-family="Arial" font-size="10" fill="#E65100" text-anchor="middle" font-weight="bold">Государство</text>
+<text x="270" y="110" font-family="Arial" font-size="9" fill="#E65100" text-anchor="middle">Бюджет</text>
+<!-- Arrow to public goods -->
+<path d="M315,100 L380,100" stroke="#2E7D32" stroke-width="3" marker-end="url(#arrowG)"/>
+<text x="348" y="93" font-family="Arial" font-size="10" fill="#2E7D32" text-anchor="middle">Услуги</text>
+<!-- Public goods -->
+<rect x="385" y="70" width="90" height="60" rx="8" fill="#E8F5E9" stroke="#43A047" stroke-width="2"/>
+<text x="430" y="90" font-family="Arial" font-size="9" fill="#2E7D32" text-anchor="middle">Образование</text>
+<text x="430" y="103" font-family="Arial" font-size="9" fill="#2E7D32" text-anchor="middle">Медицина</text>
+<text x="430" y="116" font-family="Arial" font-size="9" fill="#2E7D32" text-anchor="middle">Дороги</text>
+<!-- Tax types -->
+<text x="250" y="170" font-family="Arial" font-size="13" fill="#E65100" font-weight="bold" text-anchor="middle">Виды налогов</text>
+<!-- Direct taxes -->
+<rect x="30" y="185" width="210" height="140" rx="8" fill="white" stroke="#1565C0" stroke-width="1.5"/>
+<text x="135" y="205" font-family="Arial" font-size="11" fill="#1565C0" font-weight="bold" text-anchor="middle">Прямые налоги</text>
+<line x1="50" y1="212" x2="220" y2="212" stroke="#90CAF9" stroke-width="1"/>
+<text x="50" y="230" font-family="Arial" font-size="10" fill="#333">• НДФЛ — 13%</text>
+<text x="50" y="248" font-family="Arial" font-size="10" fill="#333">• Налог на имущество</text>
+<text x="50" y="266" font-family="Arial" font-size="10" fill="#333">• Транспортный налог</text>
+<text x="50" y="284" font-family="Arial" font-size="10" fill="#333">• Земельный налог</text>
+<text x="50" y="305" font-family="Arial" font-size="9" fill="#666" font-style="italic">Платит непосредственно гражданин</text>
+<!-- Indirect taxes -->
+<rect x="260" y="185" width="210" height="140" rx="8" fill="white" stroke="#FF8F00" stroke-width="1.5"/>
+<text x="365" y="205" font-family="Arial" font-size="11" fill="#E65100" font-weight="bold" text-anchor="middle">Косвенные налоги</text>
+<line x1="280" y1="212" x2="450" y2="212" stroke="#FFE0B2" stroke-width="1"/>
+<text x="280" y="230" font-family="Arial" font-size="10" fill="#333">• НДС — 20%</text>
+<text x="280" y="248" font-family="Arial" font-size="10" fill="#333">• Акцизы (бензин, алкоголь)</text>
+<text x="280" y="266" font-family="Arial" font-size="10" fill="#333">• Таможенные пошлины</text>
+<text x="280" y="284" font-family="Arial" font-size="10" fill="#333">• Налог с продаж</text>
+<text x="280" y="305" font-family="Arial" font-size="9" fill="#666" font-style="italic">Включён в цену товара</text>
+<defs>
+<marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0,0 8,3 0,6" fill="#FF6F00"/></marker>
+<marker id="arrowG" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0,0 8,3 0,6" fill="#2E7D32"/></marker>
+</defs>
+<text x="250" y="345" font-family="Arial" font-size="9" fill="#999" text-anchor="middle" opacity="0.5">Налоги и налогообложение — Экономика 8</text>
+</svg>
