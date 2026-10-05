@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bf360c"/>
+      <stop offset="40%" stop-color="#e65100"/>
+      <stop offset="100%" stop-color="#ff8a65"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#sky)"/>
+  <!-- Battle smoke -->
+  <circle cx="250" cy="80" r="80" fill="#ff6f00" opacity="0.15"/>
+  <circle cx="150" cy="60" r="50" fill="#424242" opacity="0.15"/>
+  <circle cx="350" cy="70" r="60" fill="#424242" opacity="0.12"/>
+  <!-- Moscow skyline burning (left background) -->
+  <g transform="translate(20,80)" opacity="0.7">
+    <!-- Kremlin wall -->
+    <rect x="0" y="50" width="100" height="40" fill="#78909c" stroke="#455a64" stroke-width="0.5"/>
+    <!-- Kremlin towers -->
+    <rect x="10" y="20" width="15" height="30" fill="#607d8b"/>
+    <polygon points="10,20 17,5 25,20" fill="#546e7a"/>
+    <rect x="45" y="15" width="18" height="35" fill="#607d8b"/>
+    <polygon points="45,15 54,0 63,15" fill="#546e7a"/>
+    <rect x="80" y="25" width="12" height="25" fill="#607d8b"/>
+    <polygon points="80,25 86,12 92,25" fill="#546e7a"/>
+    <!-- Fire -->
+    <path d="M30,40 Q35,25 40,40" fill="#ff5722" opacity="0.8"/>
+    <path d="M50,35 Q55,15 60,35" fill="#ff9800" opacity="0.7"/>
+    <path d="M55,30 Q58,20 62,30" fill="#ffcc80" opacity="0.6"/>
+    <path d="M75,40 Q80,28 85,40" fill="#ff5722" opacity="0.7"/>
+  </g>
+  <!-- Borodino battle scene (center) -->
+  <!-- Russian artillery -->
+  <rect x="180" y="220" width="30" height="12" rx="2" fill="#424242"/>
+  <circle cx="188" cy="235" r="5" fill="#333"/>
+  <circle cx="202" cy="235" r="5" fill="#333"/>
+  <!-- Cannon smoke -->
+  <circle cx="215" cy="215" r="8" fill="#bdbdbd" opacity="0.5"/>
+  <circle cx="225" cy="210" r="6" fill="#bdbdbd" opacity="0.4"/>
+  <!-- Russian flag -->
+  <rect x="150" y="180" width="25" height="5" fill="#fff"/>
+  <rect x="150" y="185" width="25" height="5" fill="#1a237e"/>
+  <rect x="150" y="190" width="25" height="5" fill="#c62828"/>
+  <line x1="150" y1="175" x2="150" y2="200" stroke="#5d4037" stroke-width="2"/>
+  <!-- Soldiers fighting -->
+  <g transform="translate(250,195)">
+    <!-- Russian -->
+    <circle cx="0" cy="0" r="5" fill="#ffcc80"/>
+    <rect x="-4" y="6" width="8" height="20" rx="1" fill="#2e7d32"/>
+    <line x1="4" y1="0" x2="15" y2="-8" stroke="#bdbdbd" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(275,195)">
+    <!-- French -->
+    <circle cx="0" cy="0" r="5" fill="#ffcc80"/>
+    <rect x="-4" y="6" width="8" height="20" rx="1" fill="#1565c0"/>
+    <line x1="-4" y1="0" x2="-15" y2="-8" stroke="#bdbdbd" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(230,205)">
+    <circle cx="0" cy="0" r="4" fill="#ffcc80"/>
+    <rect x="-3" y="5" width="6" height="16" rx="1" fill="#2e7d32"/>
+  </g>
+  <g transform="translate(295,205)">
+    <circle cx="0" cy="0" r="4" fill="#ffcc80"/>
+    <rect x="-3" y="5" width="6" height="16" rx="1" fill="#1565c0"/>
+  </g>
+  <!-- Napoleon retreating (right side) -->
+  <g transform="translate(400,180)">
+    <circle cx="0" cy="0" r="6" fill="#ffcc80"/>
+    <!-- Bicorne hat -->
+    <path d="M-7,-3 Q0,-10 7,-3" fill="#1a237e" stroke="#0d47a1" stroke-width="0.5"/>
+    <rect x="-3" y="7" width="6" height="18" rx="1" fill="#1565c0"/>
+    <!-- Walking stick -->
+    <line x1="8" y1="10" x2="15" y2="30" stroke="#5d4037" stroke-width="1.5"/>
+  </g>
+  <!-- Retreating soldiers -->
+  <g opacity="0.6">
+    <g transform="translate(430,190)">
+      <circle cx="0" cy="0" r="4" fill="#ffcc80"/><rect x="-3" y="5" width="6" height="14" rx="1" fill="#1565c0"/>
+    </g>
+    <g transform="translate(450,195)">
+      <circle cx="0" cy="0" r="4" fill="#ffcc80"/><rect x="-3" y="5" width="6" height="14" rx="1" fill="#1565c0"/>
+    </g>
+    <g transform="translate(465,200)">
+      <circle cx="0" cy="0" r="3" fill="#ffcc80"/><rect x="-2" y="4" width="5" height="12" rx="1" fill="#1565c0"/>
+    </g>
+  </g>
+  <!-- Arrow showing retreat -->
+  <path d="M420,170 L460,180" fill="none" stroke="#ffd600" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="445" y="165" font-size="6" fill="#ffd600">Отступление</text>
+  <!-- Ground -->
+  <path d="M0,240 Q100,235 200,240 Q300,245 400,238 Q450,235 500,240 L500,280 L0,280 Z" fill="#5d4037" opacity="0.6"/>
+  <!-- Snow on ground (winter retreat) -->
+  <path d="M0,270 Q100,265 200,270 Q300,275 400,268 Q450,265 500,270 L500,280 L0,280 Z" fill="#fff" opacity="0.3"/>
+  <!-- Title banner -->
+  <rect x="100" y="290" width="300" height="30" rx="5" fill="#1a237e" opacity="0.85"/>
+  <text x="250" y="305" font-size="9" fill="#ffd600" text-anchor="middle" font-weight="bold">Отечественная война 1812 года</text>
+  <text x="250" y="316" font-size="6" fill="#fff" text-anchor="middle">Бородино • Пожар Москвы • Изгнание Наполеона</text>
+  <text x="250" y="340" font-size="9" fill="#fff" opacity="0.5" text-anchor="middle">Отечественная война 1812 года</text>
+</svg>
