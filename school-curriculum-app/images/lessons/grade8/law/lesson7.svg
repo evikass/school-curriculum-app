@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+<rect width="500" height="350" fill="#E3F2FD" rx="8"/>
+<!-- Court building -->
+<rect x="170" y="80" width="160" height="120" rx="4" fill="#BBDEFB" stroke="#1565C0" stroke-width="2"/>
+<polygon points="160,80 250,30 340,80" fill="#90CAF9" stroke="#1565C0" stroke-width="2"/>
+<rect x="220" y="145" width="60" height="55" rx="3" fill="#1565C0" opacity="0.3"/>
+<line x1="250" y1="145" x2="250" y2="200" stroke="#1565C0" stroke-width="2"/>
+<!-- Columns -->
+<rect x="185" y="85" width="10" height="110" rx="2" fill="#90CAF9" stroke="#1565C0" stroke-width="1"/>
+<rect x="215" y="85" width="10" height="110" rx="2" fill="#90CAF9" stroke="#1565C0" stroke-width="1"/>
+<rect x="275" y="85" width="10" height="110" rx="2" fill="#90CAF9" stroke="#1565C0" stroke-width="1"/>
+<rect x="305" y="85" width="10" height="110" rx="2" fill="#90CAF9" stroke="#1565C0" stroke-width="1"/>
+<text x="250" y="75" font-family="Arial" font-size="10" fill="#0D47A1" text-anchor="middle" font-weight="bold">СУД</text>
+<!-- Scales of justice -->
+<line x1="250" y1="215" x2="250" y2="235" stroke="#333" stroke-width="2"/>
+<line x1="210" y1="225" x2="290" y2="225" stroke="#333" stroke-width="2"/>
+<polygon points="250,218 245,225 255,225" fill="#333"/>
+<path d="M210,225 Q205,250 215,255 L205,255" stroke="#333" stroke-width="1.5" fill="none"/>
+<path d="M290,225 Q295,250 285,255 L295,255" stroke="#333" stroke-width="1.5" fill="none"/>
+<!-- Protection methods -->
+<text x="250" y="280" font-family="Arial" font-size="13" fill="#0D47A1" font-weight="bold" text-anchor="middle">Защита прав граждан</text>
+<line x1="120" y1="288" x2="380" y2="288" stroke="#90CAF9" stroke-width="1"/>
+<!-- Method boxes -->
+<rect x="30" y="296" width="105" height="40" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5"/>
+<text x="82" y="312" font-family="Arial" font-size="9" fill="#0D47A1" text-anchor="middle" font-weight="bold">Судебная защита</text>
+<text x="82" y="326" font-family="Arial" font-size="8" fill="#666" text-anchor="middle">Ст.46 Конституции</text>
+
+<rect x="145" y="296" width="105" height="40" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5"/>
+<text x="197" y="312" font-family="Arial" font-size="9" fill="#0D47A1" text-anchor="middle" font-weight="bold">Уполномоченный</text>
+<text x="197" y="326" font-family="Arial" font-size="8" fill="#666" text-anchor="middle">Омбудсмен</text>
+
+<rect x="260" y="296" width="105" height="40" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5"/>
+<text x="312" y="312" font-family="Arial" font-size="9" fill="#0D47A1" text-anchor="middle" font-weight="bold">Прокуратура</text>
+<text x="312" y="326" font-family="Arial" font-size="8" fill="#666" text-anchor="middle">Надзор за законностью</text>
+
+<rect x="375" y="296" width="95" height="40" rx="6" fill="white" stroke="#1565C0" stroke-width="1.5"/>
+<text x="422" y="312" font-family="Arial" font-size="9" fill="#0D47A1" text-anchor="middle" font-weight="bold">ЕСПЧ</text>
+<text x="422" y="326" font-family="Arial" font-size="8" fill="#666" text-anchor="middle">Страсбургский суд</text>
+<!-- Shield icon -->
+<path d="M75,35 L75,65 C75,85 95,95 95,95 C95,95 115,85 115,65 L115,35 L95,25 Z" fill="#1565C0" opacity="0.15" stroke="#1565C0" stroke-width="1.5"/>
+<text x="95" y="65" font-family="Arial" font-size="18" fill="#1565C0" text-anchor="middle">⚖</text>
+<text x="250" y="345" font-family="Arial" font-size="9" fill="#999" text-anchor="middle" opacity="0.5">Защита прав граждан — Основы права 8</text>
+</svg>
