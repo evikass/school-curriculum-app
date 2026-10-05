@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#1c2333"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <!-- Magnet (horseshoe) -->
+  <path d="M80,200 L80,100 Q80,60 120,60 Q160,60 160,100 L160,120" stroke="#e63946" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M120,200 L120,100 Q120,80 120,60" stroke="#4cc9f0" stroke-width="8" fill="none" stroke-linecap="round" opacity="0"/>
+  <!-- N and S poles -->
+  <text x="68" y="210" fill="#e63946" font-size="16" font-weight="bold">S</text>
+  <text x="148" y="210" fill="#4cc9f0" font-size="16" font-weight="bold">N</text>
+  <!-- Pole colors -->
+  <rect x="72" y="190" width="20" height="20" rx="3" fill="#e63946" opacity="0.3"/>
+  <rect x="140" y="190" width="20" height="20" rx="3" fill="#4cc9f0" opacity="0.3"/>
+  <!-- Magnetic field lines -->
+  <path d="M150,190 C180,170 200,120 220,80 C240,40 280,40 300,80 C320,120 340,170 370,190" stroke="#ffd166" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M150,195 C185,175 210,130 235,90 C255,55 285,55 305,90 C330,130 355,175 390,195" stroke="#ffd166" stroke-width="1.2" fill="none" opacity="0.4"/>
+  <path d="M150,185 C170,160 185,110 200,70 C215,30 275,30 290,70 C305,110 320,160 350,185" stroke="#ffd166" stroke-width="1" fill="none" opacity="0.3"/>
+  <!-- Field direction arrows on lines -->
+  <polygon points="290,50 285,55 293,55" fill="#ffd166" opacity="0.6"/>
+  <polygon points="305,60 300,65 308,65" fill="#ffd166" opacity="0.4"/>
+  <!-- Compass needles -->
+  <g transform="translate(200,140)">
+    <circle r="10" fill="none" stroke="#a8d8ea" stroke-width="0.8"/>
+    <line x1="0" y1="-8" x2="0" y2="8" stroke="#e63946" stroke-width="1.5"/>
+    <line x1="-8" y1="0" x2="8" y2="0" stroke="#4cc9f0" stroke-width="1"/>
+    <polygon points="0,-8 -3,-2 3,-2" fill="#e63946"/>
+  </g>
+  <g transform="translate(300,120)">
+    <circle r="10" fill="none" stroke="#a8d8ea" stroke-width="0.8"/>
+    <line x1="0" y1="-8" x2="0" y2="8" stroke="#e63946" stroke-width="1.5"/>
+    <line x1="-8" y1="0" x2="8" y2="0" stroke="#4cc9f0" stroke-width="1"/>
+    <polygon points="0,-8 -3,-2 3,-2" fill="#e63946"/>
+  </g>
+  <g transform="translate(350,160)">
+    <circle r="10" fill="none" stroke="#a8d8ea" stroke-width="0.8"/>
+    <line x1="0" y1="-8" x2="0" y2="8" stroke="#e63946" stroke-width="1.5"/>
+    <line x1="-8" y1="0" x2="8" y2="0" stroke="#4cc9f0" stroke-width="1"/>
+    <polygon points="0,-8 -3,-2 3,-2" fill="#e63946"/>
+  </g>
+  <!-- Iron filings pattern (dots along field lines) -->
+  <circle cx="220" cy="90" r="1.5" fill="#7f8c8d" opacity="0.5"/>
+  <circle cx="240" cy="65" r="1.5" fill="#7f8c8d" opacity="0.5"/>
+  <circle cx="260" cy="55" r="1.5" fill="#7f8c8d" opacity="0.5"/>
+  <circle cx="280" cy="60" r="1.5" fill="#7f8c8d" opacity="0.5"/>
+  <circle cx="300" cy="80" r="1.5" fill="#7f8c8d" opacity="0.5"/>
+  <circle cx="320" cy="110" r="1.5" fill="#7f8c8d" opacity="0.5"/>
+  <!-- Right-hand rule -->
+  <text x="30" y="260" fill="#4cc9f0" font-size="13" font-weight="bold">Правило буравчика</text>
+  <text x="30" y="280" fill="#a8d8ea" font-size="11">Ток → вращение → направление</text>
+  <text x="30" y="298" fill="#a8d8ea" font-size="11">магнитных линий</text>
+  <!-- B field definition -->
+  <text x="250" y="260" fill="#ffd166" font-size="13" font-weight="bold">Магнитная индукция:</text>
+  <text x="250" y="280" fill="#ffd166" font-size="14" font-family="serif">B = F / (I·l)</text>
+  <text x="250" y="300" fill="#a8d8ea" font-size="11">Единица: Тесла (Тл)</text>
+  <text x="250" y="320" fill="#7f8c8d" font-size="10">Силовые линии: N → S (снаружи)</text>
+  <text x="250" y="340" fill="#fff" font-size="9" opacity="0.5" text-anchor="middle">Магнитное поле</text>
+</svg>
