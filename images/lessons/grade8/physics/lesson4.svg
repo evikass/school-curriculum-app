@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#1a2744"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#bg)"/>
+  <!-- Water surface -->
+  <path d="M30,180 Q80,170 130,180 Q180,190 230,180 Q280,170 330,180 Q380,190 430,180 Q460,175 480,180" stroke="#4cc9f0" stroke-width="2" fill="none"/>
+  <!-- Water body -->
+  <path d="M30,180 Q80,170 130,180 Q180,190 230,180 Q280,170 330,180 Q380,190 430,180 Q460,175 480,180 L480,300 L30,300 Z" fill="#4cc9f0" fill-opacity="0.08"/>
+  <!-- Evaporating molecules (escaping upward) -->
+  <circle cx="120" cy="160" r="4" fill="#e94560" opacity="0.7"/>
+  <path d="M120,160 L115,140" stroke="#e94560" stroke-width="1" opacity="0.5"/>
+  <circle cx="115" cy="135" r="3" fill="#e94560" opacity="0.5"/>
+  <path d="M115,135 L112,118" stroke="#e94560" stroke-width="0.8" opacity="0.3"/>
+  <circle cx="250" cy="165" r="4" fill="#e94560" opacity="0.7"/>
+  <path d="M250,165 L253,145" stroke="#e94560" stroke-width="1" opacity="0.5"/>
+  <circle cx="253" cy="140" r="3" fill="#e94560" opacity="0.5"/>
+  <circle cx="370" cy="162" r="4" fill="#e94560" opacity="0.7"/>
+  <path d="M370,162 L367,142" stroke="#e94560" stroke-width="1" opacity="0.5"/>
+  <!-- Water molecules in liquid -->
+  <circle cx="100" cy="210" r="3" fill="#4cc9f0" opacity="0.5"/>
+  <circle cx="140" cy="220" r="3" fill="#4cc9f0" opacity="0.5"/>
+  <circle cx="180" cy="200" r="3" fill="#4cc9f0" opacity="0.5"/>
+  <circle cx="220" cy="230" r="3" fill="#4cc9f0" opacity="0.5"/>
+  <circle cx="280" cy="210" r="3" fill="#4cc9f0" opacity="0.5"/>
+  <circle cx="320" cy="240" r="3" fill="#4cc9f0" opacity="0.5"/>
+  <circle cx="360" cy="200" r="3" fill="#4cc9f0" opacity="0.5"/>
+  <circle cx="400" cy="220" r="3" fill="#4cc9f0" opacity="0.5"/>
+  <!-- Condensation drops (falling from above) -->
+  <ellipse cx="80" cy="80" rx="4" ry="6" fill="#4cc9f0" fill-opacity="0.4" stroke="#4cc9f0" stroke-width="0.5"/>
+  <ellipse cx="180" cy="100" rx="3" ry="5" fill="#4cc9f0" fill-opacity="0.3" stroke="#4cc9f0" stroke-width="0.5"/>
+  <ellipse cx="320" cy="70" rx="4" ry="6" fill="#4cc9f0" fill-opacity="0.4" stroke="#4cc9f0" stroke-width="0.5"/>
+  <!-- Falling arrows -->
+  <path d="M80,90 L80,110" stroke="#4cc9f0" stroke-width="0.8" opacity="0.3"/>
+  <path d="M180,110 L180,125" stroke="#4cc9f0" stroke-width="0.8" opacity="0.3"/>
+  <path d="M320,80 L320,95" stroke="#4cc9f0" stroke-width="0.8" opacity="0.3"/>
+  <!-- Labels -->
+  <text x="60" y="40" fill="#e94560" font-size="13" font-weight="bold">Испарение</text>
+  <path d="M120,38 L150,38" stroke="#e94560" stroke-width="1.5" fill="none"/>
+  <polygon points="150,38 144,34 144,42" fill="#e94560"/>
+  <text x="280" y="40" fill="#4cc9f0" font-size="13" font-weight="bold">Конденсация</text>
+  <path d="M340,38 L370,38" stroke="#4cc9f0" stroke-width="1.5" fill="none"/>
+  <polygon points="340,38 346,34 346,42" fill="#4cc9f0"/>
+  <!-- Formulas -->
+  <text x="30" y="270" fill="#ffd166" font-size="12" font-weight="bold">Q = L·m</text>
+  <text x="30" y="290" fill="#a8d8ea" font-size="11">L — удельная теплота парообразования</text>
+  <text x="30" y="310" fill="#a8d8ea" font-size="11">Испарение при любой температуре</text>
+  <text x="30" y="328" fill="#a8d8ea" font-size="11">Кипение при температуре кипения</text>
+  <text x="250" y="340" fill="#fff" font-size="9" opacity="0.5" text-anchor="middle">Испарение и конденсация</text>
+</svg>
