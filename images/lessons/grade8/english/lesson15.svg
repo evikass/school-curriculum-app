@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <defs>
+    <linearGradient id="readBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EFEBE9"/>
+      <stop offset="100%" stop-color="#D7CCC8"/>
+    </linearGradient>
+    <linearGradient id="lensGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E3F2FD" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#BBDEFB" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#readBg)"/>
+  <!-- Large open book -->
+  <g transform="translate(220,170)">
+    <!-- Left page -->
+    <path d="M-5,-70 L-120,-60 L-120,60 L-5,50Z" fill="#FFF" stroke="#8D6E63" stroke-width="2"/>
+    <!-- Right page -->
+    <path d="M5,-70 L120,-60 L120,60 L5,50Z" fill="#FFF" stroke="#8D6E63" stroke-width="2"/>
+    <!-- Spine -->
+    <line x1="0" y1="-72" x2="0" y2="52" stroke="#8D6E63" stroke-width="3"/>
+    <!-- Text lines left page -->
+    <g stroke="#BDBDBD" stroke-width="0.7">
+      <line x1="-100" y1="-50" x2="-20" y2="-57"/><line x1="-100" y1="-42" x2="-20" y2="-49"/>
+      <line x1="-100" y1="-34" x2="-20" y2="-41"/><line x1="-100" y1="-26" x2="-20" y2="-33"/>
+      <line x1="-100" y1="-18" x2="-20" y2="-25"/><line x1="-100" y1="-10" x2="-20" y2="-17"/>
+      <line x1="-100" y1="-2" x2="-20" y2="-9"/><line x1="-100" y1="6" x2="-20" y2="-1"/>
+      <line x1="-100" y1="14" x2="-20" y2="7"/><line x1="-100" y1="22" x2="-20" y2="15"/>
+      <line x1="-100" y1="30" x2="-20" y2="23"/><line x1="-100" y1="38" x2="-60" y2="33"/>
+    </g>
+    <!-- Text lines right page -->
+    <g stroke="#BDBDBD" stroke-width="0.7">
+      <line x1="20" y1="-57" x2="100" y2="-50"/><line x1="20" y1="-49" x2="100" y2="-42"/>
+      <line x1="20" y1="-41" x2="100" y2="-34"/><line x1="20" y1="-33" x2="100" y2="-26"/>
+      <line x1="20" y1="-25" x2="100" y2="-18"/><line x1="20" y1="-17" x2="100" y2="-10"/>
+      <line x1="20" y1="-9" x2="100" y2="-2"/><line x1="20" y1="-1" x2="100" y2="6"/>
+      <line x1="20" y1="7" x2="100" y2="14"/><line x1="20" y1="15" x2="100" y2="22"/>
+      <line x1="20" y1="23" x2="100" y2="30"/><line x1="20" y1="31" x2="60" y2="36"/>
+    </g>
+    <!-- Highlighted word (left page) -->
+    <rect x="-80" y="-45" width="30" height="5" rx="1" fill="#FFEB3B" opacity="0.5" transform="skewY(-3)"/>
+  </g>
+  <!-- Magnifying glass over book -->
+  <g transform="translate(280,110)">
+    <!-- Handle -->
+    <rect x="35" y="30" width="45" height="10" rx="4" fill="#5D4037" transform="rotate(45,57,35)"/>
+    <rect x="60" y="48" width="30" height="8" rx="3" fill="#8D6E63" transform="rotate(45,75,52)"/>
+    <!-- Glass rim -->
+    <circle cx="0" cy="0" r="42" fill="url(#lensGrad)" stroke="#78909C" stroke-width="4"/>
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#B0BEC5" stroke-width="1"/>
+    <!-- Magnified text inside lens -->
+    <g transform="translate(-25,-15)">
+      <text x="0" y="0" font-family="Georgia" font-size="10" fill="#333">strategy</text>
+      <text x="0" y="14" font-family="Georgia" font-size="10" fill="#333">meaning</text>
+      <text x="0" y="28" font-family="Georgia" font-size="10" fill="#1565C0">context</text>
+    </g>
+    <!-- Lens reflection -->
+    <ellipse cx="-12" cy="-15" rx="12" ry="8" fill="#FFF" opacity="0.15" transform="rotate(-20)"/>
+  </g>
+  <!-- Strategy icons around the book -->
+  <!-- Predict icon (top left) -->
+  <g transform="translate(70,50)">
+    <rect x="-30" y="-18" width="60" height="36" rx="8" fill="#FFF" stroke="#4CAF50" stroke-width="1.5"/>
+    <text x="0" y="-3" font-family="Arial" font-size="8" fill="#2E7D32" text-anchor="middle" font-weight="bold">PREDICT</text>
+    <text x="0" y="9" font-family="Arial" font-size="7" fill="#888" text-anchor="middle">What comes next?</text>
+    <!-- Crystal ball mini -->
+    <circle cx="0" cy="-10" r="0" fill="none"/>
+  </g>
+  <!-- Question icon (top center) -->
+  <g transform="translate(210,40)">
+    <rect x="-30" y="-18" width="60" height="36" rx="8" fill="#FFF" stroke="#FF9800" stroke-width="1.5"/>
+    <text x="0" y="-3" font-family="Arial" font-size="8" fill="#E65100" text-anchor="middle" font-weight="bold">QUESTION</text>
+    <text x="0" y="9" font-family="Arial" font-size="7" fill="#888" text-anchor="middle">Ask &amp; wonder</text>
+  </g>
+  <!-- Visualize icon (top right) -->
+  <g transform="translate(380,50)">
+    <rect x="-35" y="-18" width="70" height="36" rx="8" fill="#FFF" stroke="#9C27B0" stroke-width="1.5"/>
+    <text x="0" y="-3" font-family="Arial" font-size="8" fill="#6A1B9A" text-anchor="middle" font-weight="bold">VISUALIZE</text>
+    <text x="0" y="9" font-family="Arial" font-size="7" fill="#888" text-anchor="middle">Make a mind picture</text>
+  </g>
+  <!-- Connect icon (left) -->
+  <g transform="translate(40,200)">
+    <rect x="-28" y="-18" width="56" height="36" rx="8" fill="#FFF" stroke="#2196F3" stroke-width="1.5"/>
+    <text x="0" y="-3" font-family="Arial" font-size="8" fill="#1565C0" text-anchor="middle" font-weight="bold">CONNECT</text>
+    <text x="0" y="9" font-family="Arial" font-size="7" fill="#888" text-anchor="middle">Text to self</text>
+  </g>
+  <!-- Summarize icon (right) -->
+  <g transform="translate(455,200)">
+    <rect x="-30" y="-18" width="60" height="36" rx="8" fill="#FFF" stroke="#F44336" stroke-width="1.5"/>
+    <text x="0" y="-3" font-family="Arial" font-size="8" fill="#C62828" text-anchor="middle" font-weight="bold">SUMMARIZE</text>
+    <text x="0" y="9" font-family="Arial" font-size="7" fill="#888" text-anchor="middle">Key ideas</text>
+  </g>
+  <!-- Bottom bar -->
+  <rect x="30" y="285" width="440" height="30" rx="8" fill="#5D4037" opacity="0.1"/>
+  <text x="250" y="305" font-family="Arial" font-size="9" fill="#5D4037" text-anchor="middle">
+    Good readers: Predict → Question → Visualize → Connect → Summarize
+  </text>
+  <text x="250" y="345" font-family="Arial" font-size="9" fill="#000" opacity="0.5" text-anchor="middle">Reading Strategies</text>
+</svg>
